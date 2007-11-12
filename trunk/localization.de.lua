@@ -265,7 +265,7 @@ Inst2Quest3_Folgequest = "Nein"
 Inst2Quest3PreQuest = "true"
 -- Keine Belohnung
 
---QUEST 4 alliance
+--QUEST 4 Allianz
 Inst2Quest4 = "4. Ausrottung der Deviat"
 Inst2Quest4_Level = "21"
 Inst2Quest4_Attain = "15"
@@ -789,7 +789,7 @@ Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
 -- keine Belohnung
 
 
---------------- INST5 - Schwarzfels Depths (BRD) ---------------
+--------------- INST5 - Blackrock Depths (BRD) ---------------
 
 Inst5Story = "In dem vulkanischen Labyrinth, das von der einstigen Hauptstadt der Zwerge des Düstereisenklans übriggeblieben ist, herrscht nun Ragnaros der Feuerfürst über die Abgründe des Schwarzfels. Ragnaros ist es gelungen, das Geheimnis zu lüften, wie Leben aus Stein erschaffen werden kann. Nun plant er, sein neu gewonnenes Wissen dazu einzusetzen, eine Armee unaufhaltsamer Golems zu schaffen, die ihm bei der Eroberung des Schwarzfels helfen sollen. Vollkommen besessen von dem Gedanken daran, Nefarian endlich zu vernichten, wird Ragnaros alles tun, um seinen Konkurrenten aus dem Weg zu räumen."
 Inst5Caption = "Die Schwarzfelstiefen"
@@ -1136,7 +1136,7 @@ Inst5Quest8name1_HORDE = "Medaillon des Eroberers"
 --Quest9 Horde
 Inst5Quest9_HORDE = "9. Aufstieg der Maschinen"
 Inst5Quest9_HORDE_Level = "58"
-Inst5Quest9_HORDE_Attain = "?"
+Inst5Quest9_HORDE_Attain = "52"
 Inst5Quest9_HORDE_Aim = "Sucht und tötet Golemlord Argelmach. Bringt Lotwil seinen Kopf. Außerdem müsst Ihr 10 intakte Elementarkerne von den Wuthäschergolems und Kriegshetzerkonstrukten, die Argelmach beschützen, beschaffen."
 Inst5Quest9_HORDE_Location = "Lotwil Veriatus (Ödland; "..YELLOW.."25,44"..WHITE..")"
 Inst5Quest9_HORDE_Note = "Das Vorquest bekommt man bei Hierophantin Theodora Mulvadania (Ödland - Kargath; "..YELLOW.."3,47"..WHITE..").\nMan findet Argelmach bei "..YELLOW.."[14]"..WHITE.."."
@@ -4370,3 +4370,4 @@ end
 -- 60 = Eye of the Storm
 -- 61 = TK: The Eye
 -- 62 = Black Temple (BT)
+-- 63 = Zul'Aman (ZA)
