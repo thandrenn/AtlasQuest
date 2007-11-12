@@ -1,0 +1,366 @@
+=========
+Changelog
+=========
+
+Version 4.0.10 (by Thandrenn @ US-Destromath)
+
+- Now including General Public License v2 (GPLv2) files. Not really any difference from before, but this was needed for GoogleCode.
+- Fixed number of Alliance quests for Deadmines  (from Telchar)
+- Zul'Aman support added.
+- Updated Chinese localization file from yeachan.
+- Removed French localization file. Very out of date and the only thing translated were the instance descriptions, no quest data.
+- Removed obsolete constants.lua file.
+
+- Quests added:
+	- Magtheridon's Lair: The Fall of Magtheridon
+	- Zul'Aman: Promises, Promises...
+
+- Cleanup progress:
+	- HFC: Ramparts
+	- HFC: Blood Furnace
+	- HFC: Shattered Halls
+	- HFC: Magtheridon's Lair
+	- CF: Slave Pens
+
+
+
+Version 4.0.9 (by Thandrenn @ US-Destromath)
+
+- Note: Stratholme Horde quest 'Ramstein" is now #18 instead of #12. The other 17 quests are shared Alliance & Horde quests. This made it a little easier to add the new quests.
+- Rewards added:
+	- Naxxramas: The Fall of Kel'Thuzad
+	- The Ruins of Ahn'Qiraj: The Fall of Ossirian
+	- The Temple of Ahn'Qiraj: The Savior of Kalimdor
+	
+- Quests added:
+	- Molten Core: A Binding Contract  (from Celellach)
+	- Naxxramas: The Only Song I Know...
+	- Naxxramas: Echos of War
+	- Naxxramas: The Fate of Ramaladni
+	- Naxxramas: Ramaladni's Icy Grasp
+	- Onyxia's Lair: The Forging of Quel'Serrar
+	- SM Armory: Into The Scarlet Monastery
+	- SM Library: Into The Scarlet Monastery
+	- Scholomance: The Left Piece of Lord Valthalak's Amulet  (from Celellach)
+	- Stratholme: Dead Man's Plea (Jeehell)
+	- Stratholme: The Left Piece of Lord Valthalak's Amulet  (from Celellach)
+	- Stratholme: The Right Piece of Lord Valthalak's Amulet  (from Celellach)
+	- Stratholme: Atiesh, Greatstaff of the Guardian  (from Celellach)
+	- Stratholme: Corruption (Blacksmith)   (from Pinguz)
+	- Stratholme: Sweet Serenity (Blacksmith)   (from Pinguz)
+	- Sunken Temple: Trolls of a Feather (Warlock)
+	- Sunken Temple: Voodoo Feathers (Warrior)
+	- Sunken Temple: Forging the Mightstone (Alliance Paladin)
+	- Sunken Temple: Ancient Evil (Horde Paladin)
+	- Sunken Temple: Da Voodoo (Shaman)
+	- Sunken Temple: A Better Ingredient (Druid)   (from Pinguz)
+	- Sunken Temple: The Green Drake (Hunter)   (from Pinguz)
+	- Sunken Temple: Destroy Morphaz (Mage)
+	- Sunken Temple: Blood of Morphaz (Priest)
+	- Sunken Temple: The Azure Key (Rogue)
+	- The Temple of Ahn'Qirah: Secrets of the Qiraji
+	- Zul'Gurub: Nat's Measuring Tape  (from Celellach)
+	- Gnomeregan: Grime-encrusted Ring
+	- Gnomeregan: Return of the Ring
+
+- Cleanup progress:
+	- Naxxramas completed.
+	- Onyxia's Lair completed.
+	- Razorfen Downs completed.
+	- Razorfen Kraul completed.
+	- SM Library completed.
+	- SM Armory completed.
+	- SM Cathedral completed.
+	- SM Graveyard completed.
+	- Scholomance completed.
+	- Shadowfang Keep completed.
+	- Stratholme completed.
+	- The Ruins of Ahn'Qiraj completed.
+	- The Stockade completed.
+	- Sunken Temple complted.
+	- The Temple of Ahn'Qiraj completed.
+	- Zul'Farrak completed.
+	- Zul'Gurrub completed.
+	- Gnomeregan completed.
+	
+
+
+Version 4.0.8 (by Thandrenn @ US-Destromath)
+- TOC updated for Patch 2.2.
+- Updated Simplified Chinese localization file from yeachan.
+- Dire Maul quests split into East, North and West. Quest complete checkboxes have to be re-filled in.
+
+- Quests added:
+	- LBRS: The Left Piece of Lord Valthalak's Amulet  (from Celellach)
+	- LBRS: The Right Piece of Lord Valthalak's Amulet  (from Celellach)
+	- LBRS: Snakestone of the Shadow Huntress  (Blacksmith  -  from Pinguz)
+	- LBRS: Hot Fiery Death  (Blacksmith  -  from Pinguz)
+	- UBRS: Final Preparations  (from Celellach)
+	- UBRS: Mea Culpa, Lord Valthalak  (from Celellach)
+	- UBRS: The Demon Forge  (Blacksmith  -  from Pinguz)
+	- Dire Maul West: Dreadsteed of Xoroth (Warlock)
+	- Molten Core: The Molten Core
+	- Molten Core: Hands of the Enemy
+	- Molten Core: Thunderaan the Windseeker  (from Celellach)
+
+- Cleanup progress:
+	- Lower Blackrock Spire completed.
+	- Upper Blackrock Spire completed.
+	- Dire Maul (East, North and West) completed.
+	- Maraudon completed.
+	- Molten Core completed.
+
+
+
+Version 4.0.7 (by Thandrenn @ US-Destromath)
+- FIX: Compatibility issue with Bayi's Extended Questlog. Quests in AtlasQuest that are in your questlog will be colored blue if you have that option set. Thanks gattzu for the report and Bayi for help.
+- FIX: Arcatraz: Harbinger of Doom rewards were missing item types. Whoops.
+- FIX: Linking rewards causing disconnects. Turns out this part of the code wasn't BC compatible. Huge huge thanks to Daviesh for his help. Reported by bigmajo.
+- FIX: "Recolour quests based on level" option will now load properly. Reported by Gattzu.
+- Removed Chat frame "AtlasQuest has been loaded" message. Yay for less login spam.
+- Rewards added for the two listed Zul'Gurub quests.
+- Changed colors of subtitles to blue. Suggested by Telchar.
+- NOTE: The "Quest finished" checkboxes for Blackrock Depths will be slightly off now since I added the kill quests for Overmaster Pyron. For Alliance, Quests 5 through 16. For Horde, Quests 11 through 16.
+- Quests added:
+	- Botanica: Master of Potions (Alchemy)
+	- Black Morass: Master of Elixirs (Alchemy)
+	- Blackrock Depths: Overmaster Pyron (from Celellach)
+	- Blackrock Depths: Disharmony of Flame (from Celellach)
+	- Blackrock Depths: The Challenge (from Celellach)
+	- Blackrock Depths: The Spectral Chalice (from Celellach)
+	- Blackwing Lair: The Lord of Blackrock (from Celellach)
+	- Blackwing Lair: Only One May Rise  (from Celellach)
+- Cleanup progress:
+	- Blackrock Depths completed.
+	- Blackwing Lair completed.
+	- Blackfathom Deeps completed.
+- Minor Code Changes:
+	- Code comments in various AtlasQuest files translated to English courtesy of Telchar.
+	- Atlas now listed as "Optional" Dependency so AlphaMap users can use AtlasQuest. Reported by qwegg.
+	- Color codes for "No Reward" and "Reward" text moved to localization file since color codes for similar text strings are there.
+	- Moved AtlasQuest version string into AtlasQuest.lua. Constants.lua is now obsolete. Will probably keep it around for now though.
+
+
+Version 4.0.6 (by Thandrenn @ US-Destromath)
+- Fixed quest 2 for LBRS & UBRS in DE localization file. Quest 2 was conflicting with Quest 4.
+- Added a missing '-' in DE localization file. Problem occurred when playing on Public Test Realm 2.2 patch.
+- Moved item names for LBRS, UBRS and DM quests into EN and DE localization files so they can be translated.  (Reported by maqjav)
+- Updated Arcatraz numbers for Atlas 1.10.0
+- Added 3 quests for Black Temple (missing some info though)
+- Various fixes to quests thanks to Celellach and SaiBork.
+- Quests added:
+	- Deadmines: The Unsent Letter (drops off VanCleef)  (from Celellach)
+	- Black Temple: Seek Out the Ashtongue
+	- Black Temple: Redemption of the Ashtongue
+	- Black Temple: The Fall of the Betrayer
+	- SM Lib & Armory: In the Name of the Light  (from Celellach)
+- Fixing up old dungeon quests, verifying/adding data, adding Entrance Map info where needed.
+	- Deadmines completed.
+	- Wailing Caverns completed.
+	- Ragefire Chasm completed.
+	- Uldaman completed.
+- In cases where the Horde and Alliance have the same quest info, I'm now having the Horde version refer (via code) to the Alliance version. I think it was Lothaer that started doing this with the BC quests. Seems like a good idea and it'll save time for any translators down the road.
+- Using two decimals in version number now, like Atlas and AtlasLoot use. 
+
+
+Version 4.05 (by Thandrenn @ US-Destromath)
+- NOTE: No problems I can see with Atlas 1.10 Pre4
+- Fixed quest completed checkbox not showing up for most BC quests.
+- Set the color of "Finished quest:" text before the completed checkbox to green, so it's visible now.
+- Rewards added for Caverns of Time quests.
+- Rewards added for Karazhan quests.
+- Rewards added for Tempest Keep quests.
+- Added section Tempest Keep: The Eye.
+- Added section for Black Temple. No quests yet.
+- Changed some abbreviations to match Atlas (HC is now HFC, CFR is now CR).
+- Quests added:
+	- Hyjal: An Artifact From the Past
+	- The Eye: Ruse of the Ashtongue
+	- The Eye: Kael'thas and the Verdant Sphere
+	- The Eye: Vials of Eternity
+	- Gruul's Lair & Karazhan: The Cudgel of Kar'desh   (from Nihlo)
+	- Shattered Halls: Tear of the Earthmother   (from SwifLeaf)
+	- Steamvault: Underworld Loam   (from SwifLeaf)
+	- Steamvault & Arcatraz: The Second and Third Fragments   (from SwifLeaf)
+	- Shadow Labyrinth: The Lexicon Demonica   (from SwifLeaf)
+	- Serpentshrine Cavern:  Vials of Eternity
+	- Mana Tombs: Stasis Chambers of the Mana-Tombs
+	- Mechanar: Fresh From The Mechanar   (from SwifLeaf)
+	- Botanica: Capturing the Keystone   (from SwifLeaf)
+
+
+Version 4.04 (by Thandrenn @ US-Destromath)
+- Cleanup and re-organized some of the data in the following files to make them more readable and easier to update.
+	-AtlasQuest_Instanzen.lua
+	-AtlasQuest_Items.lua
+	-localization.en.lua
+- Added "Eye of the Storm". No quests found for it though.
+- Rewards added for all Hellfire Citadel, Coilfang Reservoir and Auchindoun quests. 
+- Fixed and added quest lvl & attain lvl for several quests. (not done though)
+- Corrected Karazhan attunement quest for Shadow Labyrinth.
+- Corrected Trial of Naaru quests' prequest & followup quests. (Reported by bundok)
+- Added localization.de.lua that Nihlo uploaded on forums.
+
+
+Version 4.03 (by Dazerdude)
+- Added Command Line Interface
+
+
+Version 4.02 (by Rabidmax)
+- Updated for Atlas 1.9.1.
+- Updated for WoW version 2.1.0
+
+
+Version 4.01 (by Lothaer)
+- Updated for Atlas 1.9RC2.
+- Fixed the Scarlet Monastery Quests.
+- All changes are for English only.
+
+
+Version 4 (by Lothaer)
+- added CFR Slave Pens, Underbog and Steamvault.
+- added Auch, Mana Tombs, Auchenai Crypts, Sethekk Halls and Shadow Labyrinth
+- added CoT, Durnholde Keep and Black Morass 
+- added TK, Mechanar, Botanica and Arcatraz
+- added Karazhan
+- added HFC Magtheridons Lair and Shattered Halls
+- added Support for AlphaMap TBC maps
+- changed toc to 20003
+- All changes are for English only
+
+Version 3.20.55 (by Asurn)
+- added LBRS (en + ger)
+- added UBRS (en + ger)
+- added DM (en + ger)
+- fixed cords in the The Orb of Soran'ruk quest (en + ger) thx Hamderbob
+- changed toc to 20000 (full BC compatible)
+- changed/improved description of Aurius' Reckoning(strat). (en + ger)
+- changed/improved description of Doctor Theolen Krastinov, the Butcher(scholo). (en + ger)
+- fixed for atlas 1.8.6 beta
+- fixed/added Atlas_OnShow hook (thx Dan :))
+- added abilitie description for the bosses in HC (ramparts and blood furnage). Click on the instance name to see it.
+- added HC:ramparts and Blood furnage (only en). 
+- some code improvments (small)
+(the HC part is more beta then finished. I'll add more later.)
+
+
+Version 3.17.49
+- added Equip Compare support
+- added function to watch item with strg + click in the dressing room
+- added function to send Item links per shift + click into the chat
+- fixed a item which was wrong linked in the german translation
+- fixed a wrong item link @BRD(en/horde)
+- improved translation (en/ger/cn)
+- added function to shift+click on questnames in the aq panel to insert the questname and level into you chatbox
+- make more pages quest possible changed the pala quest into 2 pages (did some small changes in fr/cn for this)
+- changed brd descriptions and fixed the prequest of "Secret of the Circle"(Temple) (en/de)
+- added MC prequest to BRD (how could i forget it? :P)
+
+Version 3.17.43
+- fixed version number
+- fixed german translation of straholme
+- fixed a typo
+
+Version 3.17.42
+- added Stratholme (en + ger)
+- AQ colours quest you have at the moment in your Questlog blue
+- improved localisation (all)
+- added option to set which fraction is shown as default when you open atlasquest
+
+Version 3.16.39
+- changed way how Aq displays the Story for some instances (now pages)
+- fixed 2 mistakes in maraudon (en) thanks DYI
+- updated en loca (thanks SomeStranger)
+- updated ger loca
+- updated frech loca (thanks shan_aya!)
+- updated cn loca (Thanky DYI)
+
+Version 3.16.37
+- fixed the checkbox bug (now really -.-)
+- added finished quest checkbox. If you check the box a new icon apears next to the Quest name and the questname is shown in white.
+
+Version 3.16.36
+- added Maraudon
+- fixed texture error for only alphamap user
+- add option GUI
+- add option to turn the quest coloring off
+- added some checks to prefent error messages
+
+Version 3.15.33
+- fixed the zoneing bug
+- fixed the checkbutton-bug
+- added savedvariables
+- slashcommands (/aq [command:help/show/hide/left/right/autoshow]) are now saved
+- autoshow slahscommand added (option to turn off that atlasquest is always shown with atlas)
+
+Version 3.15.31
+- AlphaMap support (http://www.curse-gaming.com/de/wow/addons-2850-alphama...
+- Atlas is now an Optional dependencies
+- added Gnomeregan(en+de)
+- fixed some typos
+- add some slashcommands (/aq help/show/hide/left/right)
+- add function to show the panel on the left or on the right side (Note: i havn't add save variables so everytime you log in atlasquest will be shown on the left side)
+
+Version 3.14.28
+- Core Update (changed the way how aq get the shown instance)
+- Quest Rewards added for ALL Instances
+- BRD added
+- Quests are colored like they are colored in the questlog (per level)
+- fixed typos/improved information
+- autohide atlasquest inside frame if you change the faction or change the shown instance
+- Changed font now everything is smaller to have enopugh place to show the Rewards (+ i was using an addon which changed the font so everything was smaller for me now i am using blizzard default to get everything shown)
+- BG Story added
+- Icons to show you whether the quest has a prequest and if it shows you whether the prequest is shown above
+
+Version 1.13.21
+- add Shadowfang Keep (en + de)
+- Added STORY about ALL INSTANCES (en + de, BGs are missing) (information taken from the official wow side)
+- Added Palaquest to VC/BSF
+- added Attainded Quest and Needed Level to ALL Instnaces
+- review of all instances. fixed typos and improved information/translation
+- changed Uldaman quest order
+- changed background of the Atlasquestframe (looks now similar to Atlas)
+- changed colour of the AQ version and the Information... font
+- Changed size of the location information (now 2 lines)
+- Atlaquest now autohide an open atlasoot panel when you open a quest
+
+Version 1.12.14
+- uldaman translation added (en)
+- ZUL translation fixed (en)
+- some typos fixed (en/de)
+- french translation added ( Wailing Caverns + Deadmines)
+
+
+Version 1.12.13
+- Sunken Temple added (de & en)
+- added the missing quest @ WC
+- fixed Wailing Caverns bug (en)
+- Fixed Questlevel @ BFD
+
+
+Version 1.11.11
+- Blackfathomdeeps added (de/en)
+- removed horde/alliance button
+- added checkboxes and horde/alliance textures
+- removed quest buttons and replaced them with the questnames and an highlighted background
+- french people should now see the english quest text instead of the german
+- resize panel
+- toc update
+
+Version 1.10.9
+- Scholomance added
+- Razorfen Downs english translation added
+- Scarlet Monastery english translation added
+
+
+Version 1.9.7
+- Razorfen Kraul added
+- Panel Resieze to work with 100% scaling
+- Text font changed (smaller)
+- Option added to translate the alliance/horde button + translation added
+- Razorfen Kraul En translation added
+- Stockades En translation added
+- German Translation: fixed some typos
+
+Version 1.8.6
+- First release
