@@ -1,0 +1,45 @@
+Just some templates I can quickly copy/paste.
+
+
+
+--Quest 1 Alliance
+Inst61Quest1 = ""
+Inst61Quest1_Level = ""
+Inst61Quest1_Attain = ""
+Inst61Quest1_Aim = ""
+Inst61Quest1_Location = ""
+Inst61Quest1_Note = ""
+Inst61Quest1_Prequest = ""
+Inst61Quest1_Folgequest = ""
+Inst61QuestPrequest = "true"
+Inst61QuestFQuest = "true"
+--
+Inst61Quest1name1 = ""
+-- No Rewards for this quest
+
+
+
+
+--Quest 1 Alliance
+Inst49Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst49Quest1ITC1 = Itemc4;
+Inst49Quest1textur1 = "INV_"
+Inst49Quest1description1 = AQITEM_
+Inst49Quest1ID1 = ""
+--ITEM2
+Inst49Quest1ITC2 = Itemc4;
+Inst49Quest1textur2 = "INV_"
+Inst49Quest1description2 = AQITEM_
+Inst49Quest1ID2 = ""
+--ITEM3
+Inst49Quest1ITC3 = Itemc4;
+Inst49Quest1textur3 = "INV_"
+Inst49Quest1description3 = AQITEM_
+Inst49Quest1ID3 = ""
+--ITEM4
+Inst49Quest1ITC4 = Itemc4;
+Inst49Quest1textur4 = "INV_"
+Inst49Quest1description4 = AQITEM_
+Inst49Quest1ID4 = ""
+

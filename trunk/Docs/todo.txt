@@ -1,0 +1,142 @@
+=========
+ToDo List
+=========
+
+- Sweep over all quests, check for bugs, update #'s, reference entrance maps, add data, add rewards where necessary.
+- Document and go over /slash command stuff. Divide instance list and such.
+- BUG: CT_Core show quest lvl thing not working with Blue quest names.
+- BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
+- BUG: Stuff like (Questline) (Heroic) and (Class) throws off the Blue quest names stuff.
+
+
+Cleanup Checklist:
+
+DONE 1  = Deadmines (VC)
+DONE 2  = Wailing Caverns (WC)
+DONE 3  = Ragefire Chasm (RFC)
+DONE 4  = Uldaman (ULD)
+DONE 5  = Blackrock Depths (BRD)
+DONE 6  = Blackwing Lair (BWL)
+DONE 7  = Blackfathom Deeps (BFD)
+DONE 8  = Lower Blackrock Spire (LBRS)
+DONE 9  = Upper Blackrock Spire (UBRS)
+DONE 10 = Dire Maul East (DM)
+DONE 11 = Dire Maul North (DM)
+DONE 12 = Dire Maul West (DM)
+DONE 13 = Maraudon (Mara)
+DONE 14 = Molten Core (MC)
+DONE 15 = Naxxramas (Naxx)
+DONE 16 = Onyxia's Lair (Ony)
+DONE 17 = Razorfen Downs (RFD)
+DONE 18 = Razorfen Kraul (RFK)
+DONE 19 = SM: Library (SM Lib)
+DONE 20 = Scholomance (Scholo)
+DONE 21 = Shadowfang Keep (SFK)
+DONE 22 = Stratholme (Strat)
+DONE 23 = The Ruins of Ahn'Qiraj (AQ20)
+DONE 24 = The Stockade (Stocks)
+DONE 25 = Sunken Temple (ST)
+DONE 26 = The Temple of Ahn'Qiraj (AQ40)
+DONE 27 = Zul'Farrak (ZF)
+DONE 28 = Zul'Gurub (ZG)
+DONE 29 = Gnomeregan (Gnomer)
+-- 30 = Four Dragons
+-- 31 = Azuregos
+-- 32 = Kazzak
+-- 33 = Alterac Valley (AV)
+-- 34 = Arathi Basin (AB)
+-- 35 = Warsong Gulch (WSG)
+DONE 37 = HFC: Ramparts (Ramp)
+DONE 38 = HFC: Blood Furnace (BF)
+DONE 39 = HFC: Shattered Halls (SH)
+DONE 40 = HFC: Magtheridon's Lair
+DONE 41 = CR: The Slave Pens (SP)
+-- 42 = CR: The Steamvault (SV)
+-- 43 = CR: The Underbog (UB)
+-- 44 = Auchindoun: Auchenai Crypts (AC)
+-- 45 = Auchindoun: Mana Tombs (MT)
+-- 46 = Auchindoun: Sethekk Halls (Seth)
+-- 47 = Auchindoun: Shadow Labyrinth (SLabs)
+-- 48 = CR: Serpentshrine Cavern (SSC)
+-- 49 = CoT: Black Morass (BM)
+-- 50 = CoT: Battle of Mount Hyjal
+-- 51 = CoT: Old Hillsbrad
+-- 52 = Gruul's Lair (GL)
+-- 53 = Karazhan (Kara)
+-- 54 = TK: Arcatraz (Arc)
+-- 55 = TK: Botanica (Bot)
+-- 56 = TK: Mechanar (Mech)
+DONE 57 = SM: Armory (SM Arm)
+DONE 58 = SM: Cathedral (SM Cath)
+DONE 59 = SM: Graveyard (SM GY)
+DONE 60 = Eye of the Storm
+DONE 61 = TK: The Eye
+-- 62 = Black Temple (BT)
+NEW  63 = Zul'Aman (ZA)
+
+
+
+
+
+Add Quests:
+
+
+
+Battlegrounds (from  maqjav)
+
+Arathi Basin:
+It has only 1 quest now and it isn't from Arathi, it is for WSG.
+The correct quests are:
+- Arathor Basic Care Package (alliance) http://www.wowhead.com/?quest=8260
+- Arathor Standard Care Package (alliance) http://www.wowhead.com/?quest=8261
+- Arathor Advanced Care Package (alliance) http://www.wowhead.com/?quest=8262
+- Control Four Bases (alliance) http://www.wowhead.com/?quest=8114
+- Control Five Bases (alliance) http://www.wowhead.com/?quest=8115
+- Defiler's Basic Care Package (horde) http://www.wowhead.com/?quest=8263
+- Defiler's Standard Care Package (horde) http://www.wowhead.com/?quest=8264
+- Defiler's Advanced Care Package (horde) http://www.wowhead.com/?quest=8265
+- Take Four Bases (horde) http://www.wowhead.com/?quest=8121
+- Take Five Bases (horde) http://www.wowhead.com/?quest=8122
+
+Alterac Valley:
+It hasn't quests, they are...
+- A Gallon of Blood (horde) http://www.wowhead.com/?quest=7385
+- Alterac Valley Graveyards (alliance) http://www.wowhead.com/?quest=7081
+- Armor Scraps (alliance) http://www.wowhead.com/?quest=7223
+-- More Armor Scraps (alliance repeatable)
+- Begin the Attack! (alliance) http://www.wowhead.com/?quest=6846
+- Brotherly Love (both) 
+- Call of Air - Guse's Fleet (horde) http://www.wowhead.com/?quest=6825
+- Call of Air - Ichman's Fleet (alliance) http://www.wowhead.com/?quest=6943
+- Call of Air - Jeztor's Fleet (horde) http://www.wowhead.com/?quest=6826
+- Call of Air - Mulverick's Fleet (horde) http://www.wowhead.com/?quest=6827
+- Call of Air - Slidore's Fleet (horde) http://www.wowhead.com/?quest=6942
+- Call of Air - Vipore's Fleet (alliance) http://www.wowhead.com/?quest=6941
+- Capture a Mine (both) http://www.wowhead.com/?quest=7122
+- Coldtooth Supplies (both) http://www.wowhead.com/?quest=5893
+- Crystal Cluster (alliance) http://www.wowhead.com/?quest=7386
+- Empty Stables (both) http://www.wowhead.com/?quest=7001
+- Enemy booty (horde) http://www.wowhead.com/?quest=7224
+-- More booty (horde - repeatable)
+- Fallen Sky Lords (both) http://www.wowhead.com/?quest=7301
+- Hero of the Frostwolf (horde) http://www.wowhead.com/?quest=8272
+- Hero of the Stormpike (alliance) http://www.wowhead.com/?quest=8271
+- Honored Amongst the Clan (horde) http://www.wowhead.com/?quest=7164
+- Honored Amongst the Guard (alliance) http://www.wowhead.com/?quest=7169
+- In Defense of Frostwolf (horde) http://www.wowhead.com/?quest=7241
+- Invaders of Alterac Valley (horde - maybe is old) http://www.wowhead.com/?quest=8369
+- Irondeep Supplies (both) http://www.wowhead.com/?quest=8369
+- Ivus the Forest Lord (alliance) http://www.wowhead.com/?quest=6881
+- Lokholar the Ice Lord (horde) http://www.wowhead.com/?quest=6801
+- Proving Grounds (both) http://www.wowhead.com/?quest=7161
+- Ram Hide Harnesses (horde) http://www.wowhead.com/?quest=7002
+- Ram Riding Harnesses (alliance) http://www.wowhead.com/?quest=7026
+- Speak with our Quartermaster (horde) http://www.wowhead.com/?quest=7123
+- The Battle for Alterac (horde) http://www.wowhead.com/?quest=7142
+- The Battle of Alterac (alliance) http://www.wowhead.com/?quest=7141
+- The Graveyards of Alterac (horde) http://www.wowhead.com/?quest=7082
+- The Quartermaster (alliance) http://www.wowhead.com/?quest=7121
+- The Sovereign Imperative (alliance) http://www.wowhead.com/?quest=7261
+- Towers and bunkers (both) http://www.wowhead.com/?quest=7101
+
+
