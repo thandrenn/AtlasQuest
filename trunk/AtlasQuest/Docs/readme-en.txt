@@ -18,3 +18,10 @@ AtlasQuest was originally created by Asurn. It is currently maintained
 by Thandrenn (aka Mystery8).
 
 
+
+Translations:
+=============
+
+EN: Thandrenn  (previously Asurn and Lothaer)
+DE: Telchar  (previously Asurn and Nihlo)
+CN: yeachan  (previously DIY)
