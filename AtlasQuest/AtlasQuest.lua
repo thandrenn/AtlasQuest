@@ -1,34 +1,26 @@
--- ********************************************************
--- *          This is AtlasQuest v 4.0.10! enjoy ;)       *
--- ********************************************************
--- *                                                      *
--- * Author: Asurn                                        *
--- * Updated by: Lothaer, Rabidmax, Dazerdude and         *
--- * Thandrenn                                            *
--- *                                                      *
--- * Translation:                                         *
--- * EN: Asurn, Lothaer, Thandrenn                        *
--- * DE: Asurn                                            *
--- * FR:                                                  *
--- * CN: DIY, yeachan                                     *
--- ********************************************************
--- *  What does AtlasQuest?                               *
--- *++++++++++++++++++++++++++++++++++++++++++++++++++++++*
--- *                                                      *
--- *AtlasQuest shows you information about                *
--- *Quests in every Instances.                            *
--- *+ The official Story (taken from www.wow.europe.com)  *
--- *                                                      *
--- * - Shown Information:                                 *
--- * Questname, Questlevel, Attainded level to get        *
--- * the Quest, Where you get the Quest, Questrewards,    *
--- * a note about the Quest, the Quest aftert his quest   *
--- * and the prequest                                     *
--- *                                                      *
--- *                                                      *
--- *                                                      *
--- *                                                      *
--- ********************************************************
+--[[
+
+	AtlasQuest, a World of Warcraft addon.
+	Email me at mystery8@gmail.com
+
+	This file is part of AtlasQuest.
+
+	Atlas is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	Atlas is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with Atlas; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+--]]
+
 
 -- Colours
 local PURPLE = "|cff999999"; -- grey atm -- removed/useless atm

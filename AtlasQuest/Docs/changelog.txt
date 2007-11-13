@@ -2,13 +2,15 @@
 Changelog
 =========
 
-Version 4.0.10 (by Thandrenn @ US-Destromath)
+Version 4.0.10 (by Thandrenn)
 
-- Now including General Public License v2 (GPLv2) files. Not really any difference from before, but this was needed for GoogleCode.
+- TOC updated for Patch 2.3.
+- Now including GNU General Public License v2 (GPLv2) files.
+- AtlasQuest source is now hosted at Google Code. Thanks to Telchar and Dan for help and encouragement.
 - Fixed number of Alliance quests for Deadmines  (from Telchar)
 - Zul'Aman support added.
 - Updated Chinese localization file from yeachan.
-- German localisation cleanup started by Telchar. See Todo file.
+- German localization cleanup started by Telchar. See Todo file.
 - Removed French localization file. Very out of date and the only thing translated were the instance descriptions, no quest data.
 - Removed obsolete constants.lua file.
 
@@ -25,7 +27,7 @@ Version 4.0.10 (by Thandrenn @ US-Destromath)
 
 
 
-Version 4.0.9 (by Thandrenn @ US-Destromath)
+Version 4.0.9 (by Thandrenn)
 
 - Note: Stratholme Horde quest 'Ramstein" is now #18 instead of #12. The other 17 quests are shared Alliance & Horde quests. This made it a little easier to add the new quests.
 - Rewards added:
@@ -86,7 +88,8 @@ Version 4.0.9 (by Thandrenn @ US-Destromath)
 	
 
 
-Version 4.0.8 (by Thandrenn @ US-Destromath)
+Version 4.0.8 (by Thandrenn)
+
 - TOC updated for Patch 2.2.
 - Updated Simplified Chinese localization file from yeachan.
 - Dire Maul quests split into East, North and West. Quest complete checkboxes have to be re-filled in.
@@ -113,7 +116,8 @@ Version 4.0.8 (by Thandrenn @ US-Destromath)
 
 
 
-Version 4.0.7 (by Thandrenn @ US-Destromath)
+Version 4.0.7 (by Thandrenn)
+
 - FIX: Compatibility issue with Bayi's Extended Questlog. Quests in AtlasQuest that are in your questlog will be colored blue if you have that option set. Thanks gattzu for the report and Bayi for help.
 - FIX: Arcatraz: Harbinger of Doom rewards were missing item types. Whoops.
 - FIX: Linking rewards causing disconnects. Turns out this part of the code wasn't BC compatible. Huge huge thanks to Daviesh for his help. Reported by bigmajo.
@@ -142,7 +146,8 @@ Version 4.0.7 (by Thandrenn @ US-Destromath)
 	- Moved AtlasQuest version string into AtlasQuest.lua. Constants.lua is now obsolete. Will probably keep it around for now though.
 
 
-Version 4.0.6 (by Thandrenn @ US-Destromath)
+Version 4.0.6 (by Thandrenn)
+
 - Fixed quest 2 for LBRS & UBRS in DE localization file. Quest 2 was conflicting with Quest 4.
 - Added a missing '-' in DE localization file. Problem occurred when playing on Public Test Realm 2.2 patch.
 - Moved item names for LBRS, UBRS and DM quests into EN and DE localization files so they can be translated.  (Reported by maqjav)
@@ -164,7 +169,8 @@ Version 4.0.6 (by Thandrenn @ US-Destromath)
 - Using two decimals in version number now, like Atlas and AtlasLoot use. 
 
 
-Version 4.05 (by Thandrenn @ US-Destromath)
+Version 4.05 (by Thandrenn)
+
 - NOTE: No problems I can see with Atlas 1.10 Pre4
 - Fixed quest completed checkbox not showing up for most BC quests.
 - Set the color of "Finished quest:" text before the completed checkbox to green, so it's visible now.
@@ -190,7 +196,8 @@ Version 4.05 (by Thandrenn @ US-Destromath)
 	- Botanica: Capturing the Keystone   (from SwifLeaf)
 
 
-Version 4.04 (by Thandrenn @ US-Destromath)
+Version 4.04 (by Thandrenn)
+
 - Cleanup and re-organized some of the data in the following files to make them more readable and easier to update.
 	-AtlasQuest_Instanzen.lua
 	-AtlasQuest_Items.lua

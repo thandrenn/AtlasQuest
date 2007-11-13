@@ -1,4 +1,4 @@
-## Interface: 20200
+## Interface: 20300
 ## Title: AtlasQuest v4.0.10
 ## Title-deDE: AtlasQuest v4.0.10
 ## Title-frFR: AtlasQuest v4.0.10
@@ -18,7 +18,7 @@
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP
-## X-Date: November 1, 2007
+## X-Date: November 13, 2007
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: 
 ## OptionalDeps: Atlas, AlphaMap, myAddOns, EquipCompare
