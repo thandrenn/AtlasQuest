@@ -6,6 +6,7 @@ Email me at mystery8@gmail.com
 Forums at http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 
 
+
 About AtlasQuest:
 =================
 
@@ -25,3 +26,11 @@ Translations:
 EN: Thandrenn  (previously Asurn and Lothaer)
 DE: Telchar  (previously Asurn and Nihlo)
 CN: yeachan  (previously DIY)
+
+
+
+License:
+========
+
+AtlasQuest is released under the GNU General Public License (GPL).
+For the full license text please see: gpl-v2-en.txt
