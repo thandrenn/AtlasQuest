@@ -6,6 +6,7 @@ Email: mystery8@gmail.com
 Forum: http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 
 
+
 Über AtlasQuest:
 =================
 
@@ -17,3 +18,18 @@ AtlasQuest wurde ursprünglich von Asurn erstellt.
 Derzeit leitet Thandrenn (aka Mystery8) das Projekt.
 
 
+
+Übersetzungen:
+=============
+
+EN: Thandrenn  (vorher Asurn und Lothaer)
+DE: Telchar  (vorher Asurn und Nihlo)
+CN: yeachan  (vorher DIY)
+
+
+
+Lizenz:
+========
+
+AtlasQuest wird unter der GNU General Public License (GPL) vertrieben.
+Für den gesamten Lizenztext siehe: gpl-v2-de.txt
