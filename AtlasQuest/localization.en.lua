@@ -5,18 +5,18 @@
 
 	This file is part of AtlasQuest.
 
-	Atlas is free software; you can redistribute it and/or modify
+	AtlasQuest is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
 	the Free Software Foundation; either version 2 of the License, or
 	(at your option) any later version.
 
-	Atlas is distributed in the hope that it will be useful,
+	AtlasQuest is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
+	along with AtlasQuest; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
@@ -1134,7 +1134,7 @@ Inst5Quest7_HORDE_Level = "54"
 Inst5Quest7_HORDE_Attain = "49"
 Inst5Quest7_HORDE_Aim = "Venture to Blackrock Depths and destroy the vile aggressors! Warlord Goretooth wants you to kill 10 Anvilrage Medics, 10 Anvilrage Soldiers and 10 Anvilrage Officers. Return to him once your task is complete."
 Inst5Quest7_HORDE_Location = "Sign Post (Badlands - Kargath; "..YELLOW.."3,47"..WHITE..")"
-Inst5Quest7_HORDE_Note = "You find the dwarves near Bael'Gar "..YELLOW.."[11]"..WHITE..". You find Warlord Goretooth in Kargath at the top of the tower (Badlands, "..YELLOW.."5,47"..WHITE..").\n The followup quest starts at Lexlort (Badlands - Kargath; "..YELLOW.."5,47"..WHITE.."). You find Gark Lorkrub in the Burning Steppes ("..YELLOW.."38,35"..WHITE.."). You have to reduce his life below 50% to bind him and start a Escort quest."
+Inst5Quest7_HORDE_Note = "You find the dwarves near Bael'Gar "..YELLOW.."[11]"..WHITE..". You find Warlord Goretooth in Kargath at the top of the tower (Badlands, "..YELLOW.."5,47"..WHITE..").\n The followup quest starts at Lexlort (Badlands - Kargath; "..YELLOW.."5,47"..WHITE.."). You find Grark Lorkrub in the Burning Steppes ("..YELLOW.."38,35"..WHITE.."). You have to reduce his life below 50% to bind him and start a Escort quest."
 Inst5Quest7_HORDE_Prequest = "Yes, KILL ON SIGHT: Dark Iron Dwarves"
 Inst5Quest7_HORDE_Folgequest = "Yes, Grark Lorkrub -> Precarious Predicament (Escort quest)"
 Inst5Quest7FQuest_HORDE = "true"
@@ -1184,7 +1184,7 @@ Inst5Quest10name1_HORDE = Inst5Quest12name1
 Inst5Quest10name2_HORDE = Inst5Quest12name2
 Inst5Quest10name3_HORDE = Inst5Quest12name3
 
---Quest 11 Alliance  
+--Quest 11 Horde
 Inst5Quest11_HORDE = "11. Disharmony of Flame"
 Inst5Quest11_HORDE_Level = "52"
 Inst5Quest11_HORDE_Attain = "48"
@@ -1437,7 +1437,7 @@ Inst7Quest5 = "5. Twilight Falls"
 Inst7Quest5_Level = "25"
 Inst7Quest5_Attain = "20"
 Inst7Quest5_Aim = "Bring 10 Twilight Pendants to Argent Guard Manados in Darnassus."
-Inst7Quest5_Location = "Argent Guard Manados (Darnassus- Craftsmen's Terrace; "..YELLOW.."55,23"..WHITE..")"
+Inst7Quest5_Location = "Argent Guard Manados (Darnassus - Craftsmen's Terrace; "..YELLOW.."55,23"..WHITE..")"
 Inst7Quest5_Note = "Every Twilight mob can drop the pendants."
 Inst7Quest5_Prequest = "No"
 Inst7Quest5_Folgequest = "No"
@@ -1493,6 +1493,7 @@ Inst7Quest3_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..
 Inst7Quest3_HORDE_Note = "You find the Fathom Core at "..YELLOW.."[7]"..WHITE.." in the water. When you get the core Baron Aquanis appears and attacks you. He drops a quest item which you have to take back to Je'neu Sancrea."
 Inst7Quest3_HORDE_Prequest = "No"
 Inst7Quest3_HORDE_Folgequest = "No"
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst7Quest4_HORDE = "4. Blackfathom Villainy"
@@ -2222,9 +2223,9 @@ Inst10Quest3_Attain = "59"
 Inst10Quest3_Aim = "Find the Felvine in Dire Maul and acquire a shard from it. Chances are you'll only be able to procure one with the demise of Alzzin the Wildshaper. Use the Reliquary of Purity to securely seal the shard inside, and return it to Rabine Saturna in Nighthaven, Moonglade."
 Inst10Quest3_Location = "Rabine Saturna (Moonglade - Nighthaven; "..YELLOW.."51,44"..WHITE..")"
 Inst10Quest3_Note = "You find Alliz the Wildshaper in the "..YELLOW.."East"..WHITE.." part of Dire Maul at "..YELLOW.."[5]"..WHITE..". The relict is in Silithius at "..YELLOW.."62,54"..WHITE..". The prequest comes from Rabine Saturna as well."
-Inst10Quest3_Prequest = "A Reliquary of Purity"
+Inst10Quest3_Prequest = "Yes, A Reliquary of Purity"
 Inst10Quest3_Folgequest = "No"
-Inst10Quest2PreQuest = "true"
+Inst10Quest3PreQuest = "true"
 --
 Inst10Quest3name1 = "Milli's Shield"
 Inst10Quest3name2 = "Milli's Lexicon"
@@ -2405,7 +2406,7 @@ Inst12Quest2_Aim = "You must destroy the guardians surrounding the 5 Pylons that
 Inst12Quest2_Location = "Shen'dralar Ancient (Dire Maul; "..YELLOW.."West, [1] (above)"..WHITE..")"
 Inst12Quest2_Note = "The Pylons are marked as "..BLUE.."[B]"..WHITE..". Immol'thar is at "..YELLOW.."[6]"..WHITE..", Prince Tortheldrin at "..YELLOW.."[7]"..WHITE.."."
 Inst12Quest2_Prequest = "No"
-Inst12Quest2_Folgequest = "The Treasure of the Shen'dralar"
+Inst12Quest2_Folgequest = "Yes, The Treasure of the Shen'dralar"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2415,7 +2416,7 @@ Inst12Quest3_Attain = "57"
 Inst12Quest3_Aim = "Return to the Athenaeum and find the Treasure of the Shen'dralar. Claim your reward!"
 Inst12Quest3_Location = "Shen'dralar Ancient (Dire Maul; "..YELLOW.."West, [1]"..WHITE..")"
 Inst12Quest3_Note = "You can find the Treasure under the stairs "..YELLOW.."[7]"..WHITE.."."
-Inst12Quest3_Prequest = "The Madness Within"
+Inst12Quest3_Prequest = "Yes, The Madness Within"
 Inst12Quest3_Folgequest = "No"
 Inst12Quest3FQuest = "true"
 --
