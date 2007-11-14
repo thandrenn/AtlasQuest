@@ -7649,7 +7649,7 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
-Inst63Story = "To Be Added"
+Inst63Story = "The stronghold of Zul'Aman has stood for millennia as the Amani trolls' seat of power and bastion of the fearless, cunning warlord Zul'jin. \n\nZul'jin has spent several years plotting behind Zul'Aman's walls. Furious at the Horde for allowing his hated enemies, the blood elves, to join its ranks, he eagerly embraced a scheme that the witch doctor Malacrass recently proposed: to seal the power of the animal gods within the bodies of the Amani's strongest warriors. \n\nNow Zul'Aman's army grows more powerful by the day, hungry to exact vengeance in the name of its fearless leader, Zul'jin."
 Inst63Caption = "Zul'Aman"
 Inst63QAA = "1 Quest"
 Inst63QAH = "1 Quest"
@@ -7659,10 +7659,11 @@ Inst63Quest1 = "1. Promises, Promises..."
 Inst63Quest1_Level = "70"
 Inst63Quest1_Attain = "70"
 Inst63Quest1_Aim = "Budd Nedreck in Hatchet Hills wants you to retrieve his map from High Priest Nalorakk's terrace in Zul'Aman."
-Inst63Quest1_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW..""..WHITE..")"
-Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE.."."
-Inst63Quest1_Prequest = "No"
+Inst63Quest1_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..". The prequest is optional and starts from Griftah at Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE.."."
+Inst63Quest1_Prequest = "Yes, Oooh, Shinies!"
 Inst63Quest1_Folgequest = "No"
+Inst63QuestPrequest = "true"
 --
 Inst63Quest1name1 = "Tattered Hexcloth Sack"
 
@@ -7676,6 +7677,7 @@ Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
 Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
 Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
+Inst63QuestPrequest_HORDE = Inst63QuestPrequest
 --
 Inst63Quest1name1_HORDE = Inst63Quest1name1
 
