@@ -2077,184 +2077,215 @@ Inst10Quest3name2_HORDE = Inst10Quest3name2
 
 --------------- INST11 - Dire Maul North (DM) ---------------
 
-Inst11Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen ֠besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
-Inst11Caption = "Der Düsterbruch"
+Inst11Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen - besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
+Inst11Caption = "Düsterbruch (Nord)"
 Inst11QAA = "4 Quests"
 Inst11QAH = "4 Quests"
 
 --Quest1 Allianz
 Inst11Quest1 = "1. Die beschädigte Falle"
-Inst11Quest1_Attain = "?"
 Inst11Quest1_Level = "60"
-Inst11Quest1_Aim = "-"
-Inst11Quest1_Location = "Die beschädigte Falle (Düsterbruch ; "..YELLOW.."Nord"..WHITE..")"
-Inst11Quest1_Note = "Wiederholbar!\nUm die Falle zu reparieren wird ein [Thoriumapparat] und ein [Frostöl] benötigt. Sobald sie repariert ist wird sie scharf und die patrulierende Wach wird eingefroren."
-Inst11Quest1_Prequest = ""
-Inst11Quest1_Folgequest = ""
+Inst11Quest1_Attain = "60"
+Inst11Quest1_Aim = "Repariere die Falle."
+Inst11Quest1_Location = "Die beschädigte Falle (Düsterbruch; "..YELLOW.."Nord"..WHITE..")"
+Inst11Quest1_Note = "Wiederholbares Quest. Um die Falle zu reparieren wird ein [Thoriumapparat] und ein [Frostöl] benötigt."
+Inst11Quest1_Prequest = "Nein"
+Inst11Quest1_Folgequest = "Nein"
+-- Keine Belohnung
 
 --Quest2 Allianz
 Inst11Quest2 = "2. Der Ogeranzug der Gordok"
-Inst11Quest2_Attain = "?"
 Inst11Quest2_Level = "60"
-Inst11Quest2_Aim = "Bringt 4 Runenstoffballen, 8 Stücke unverwüstliches Leder, 2 Runenfaden und etwas Ogergerbemittel zu Knot Thimblejack. Momentan ist er im Gordokflügel von Düsterbruch angekettet."
-Inst11Quest2_Location = "Knot Thimblejack (Düsterbruch ; "..YELLOW.."Nord, [4]"..WHITE..")"
-Inst11Quest2_Note = "Wiederholbar!\nDas Ogergerbemittel findet man nahe "..YELLOW.."[4] (oben)"..WHITE.."."
-Inst11Quest2_Prequest = ""
-Inst11Quest2_Folgequest = ""
+Inst11Quest2_Attain = "57"
+Inst11Quest2_Aim = "Bringt 4 Runenstoffballen, 8 Stücke unverwüstliches Leder, 2 Runenfaden und etwas Ogergerbemittel zu Knot Zwingschraub. Momentan ist er im Gordokflügel von Düsterbruch angekettet."
+Inst11Quest2_Location = "Knot Zwingschraub (Düsterbruch; "..YELLOW.."Nord, [4]"..WHITE..")"
+Inst11Quest2_Note = "Wiederholbares Quest. Das Ogergerbemittel findet man nahe "..YELLOW.."[4] (oben)"..WHITE.."."
+Inst11Quest2_Prequest = "Nein"
+Inst11Quest2_Folgequest = "Nein"
 --
-Inst11Quest2name1 = "Gordok Ogre Suit"
+Inst11Quest2name1 = "Ogeranzug der Gordok"
 
 --Quest3 Allianz
 Inst11Quest3 = "3. Befreit Knot!"
-Inst11Quest3_Attain = "?"
 Inst11Quest3_Level = "60"
-Inst11Quest3_Aim = "Befreit Knot Thimblejack."
-Inst11Quest3_Location = "Knot Thimblejack (Düsterbruch ; "..YELLOW.."Nord, [4]"..WHITE..")"
-Inst11Quest3_Note = "Wiederholbar!\nDer Schlüssel für sein Gefängnis ist ein Zufallsdropp der Wachen."
-Inst11Quest3_Prequest = ""
-Inst11Quest3_Folgequest = ""
+Inst11Quest3_Attain = "60"
+Inst11Quest3_Aim = "Besorgt einen Gordokfesselschlüssel für Knot Zwingschraub."
+Inst11Quest3_Location = "Knot Zwingschraub (Düsterbruch; "..YELLOW.."Nord, [4]"..WHITE..")"
+Inst11Quest3_Note = "Wiederholbares Quest. Jede Wache kann den Schlüssel droppen."
+Inst11Quest3_Prequest = "Nein"
+Inst11Quest3_Folgequest = "Nein"
+-- Keine Belohnung
 
 --Quest4 Allianz
 Inst11Quest4 = "4. Die offene Rechnung der Gordok"
-Inst11Quest4_Attain = "?"
 Inst11Quest4_Level = "60"
-Inst11Quest4_Aim = "Findet die Stulpen der Gordokmacht und bringt sie zu Captain Kromcrush in Düsterbruch.\nKromcrush zufolge sagen die 'Alte Zeit Geschichten', dass Tortheldrin - ein 'gruseliger' Elf, der sich selbst als Prinz bezeichnet- sie einem der Gordokkönige gestohlen hat."
-Inst11Quest4_Location = "Captain Kromcrush (Düsterbruch ; "..YELLOW.."Nord, [5]"..WHITE..")"
-Inst11Quest4_Note = "Den Prinzen findet man im "..YELLOW.."Westteil"..WHITE.." der Instanz("..YELLOW.."[7]"..WHITE.."). Die Stulpen befinden sich in einer Truhe in seiner Nähe.\nMan kann diese Quest nur nach einem Tributrun annehmen!"
-Inst11Quest4_Prequest = ""
-Inst11Quest4_Folgequest = ""
+Inst11Quest4_Attain = "56"
+Inst11Quest4_Aim = "Findet die Stulpen der Gordokmacht und bringt sie zu Hauptmann Krombruch in Düsterbruch.\nKrombruch zufolge sagen die 'Alte Zeit Geschichten', dass Tortheldrin - ein 'gruseliger' Elf, der sich selbst als Prinz bezeichnet - sie einem der Gordokkönige gestohlen hat."
+Inst11Quest4_Location = "Hauptmann Krombruch (Düsterbruch; "..YELLOW.."Nord, [5]"..WHITE..")"
+Inst11Quest4_Note = "Den Prinzen findet man in Düsterbruch "..YELLOW.."West"..WHITE.." bei "..YELLOW.."[7]"..WHITE..". Die Stulpen befinden sich in einer Truhe in seiner Nähe. Man kann diese Quest nur nach einem Tribut Run annehmen, wenn man den 'König'-Buff auf sich hat!"
+Inst11Quest4_Prequest = "Nein"
+Inst11Quest4_Folgequest = "Nein"
 --
-Inst11Quest4name1 = "Gordok's Handwraps"
-Inst11Quest4name2 = "Gordok's Gloves"
-Inst11Quest4name3 = "Gordok's Gauntlets"
-Inst11Quest4name4 = "Gordok's Handguards"
+Inst11Quest4name1 = "Gordoks Handlappen"
+Inst11Quest4name2 = "Gordoks Handschuhe"
+Inst11Quest4name3 = "Gordoks Stulpen"
+Inst11Quest4name4 = "Gordoks Handschützer"
 
 
---Quest1 Horde
-Inst11Quest1_HORDE = "1. Die beschädigte Falle"
-Inst11Quest1_HORDE_Attain = "?"
-Inst11Quest1_HORDE_Level = "60"
-Inst11Quest1_HORDE_Aim = "-"
-Inst11Quest1_HORDE_Location = "Die beschädigte Falle (Düsterbruch ; "..YELLOW.."Nord"..WHITE..")"
-Inst11Quest1_HORDE_Note = "Wiederholbar!\nUm die Falle zu reparieren wird ein [Thoriumapparat] und ein [Frostöl] benötigt. Sobald sie repariert ist wird sie scharf und die patrulierende Wach wird eingefroren."
-Inst11Quest1_HORDE_Prequest = ""
-Inst11Quest1_HORDE_Folgequest = ""
+--Quest1 Horde (das selbe wie allianz quest 1)
+Inst11Quest1_HORDE = Inst11Quest1
+Inst11Quest1_HORDE_Level = Inst11Quest1_Level
+Inst11Quest1_HORDE_Attain = Inst11Quest1_Attain
+Inst11Quest1_HORDE_Aim = Inst11Quest1_Aim
+Inst11Quest1_HORDE_Location = Inst11Quest1_Location
+Inst11Quest1_HORDE_Note = Inst11Quest1_Note
+Inst11Quest1_HORDE_Prequest = Inst11Quest1_Prequest
+Inst11Quest1_HORDE_Folgequest = Inst11Quest1_Folgequest
+-- Keine Belohnung
 
---Quest2 Horde
-Inst11Quest2_HORDE = "2. Der Ogeranzug der Gordok"
-Inst11Quest2_HORDE_Attain = "?"
-Inst11Quest2_HORDE_Level = "60"
-Inst11Quest2_HORDE_Aim = "Bringt 4 Runenstoffballen, 8 Stücke unverwüstliches Leder, 2 Runenfaden und etwas Ogergerbemittel zu Knot Thimblejack. Momentan ist er im Gordokflügel von Düsterbruch angekettet."
-Inst11Quest2_HORDE_Location = "Knot Thimblejack (Düsterbruch ; "..YELLOW.."Nord, [4]"..WHITE..")"
-Inst11Quest2_HORDE_Note = "Wiederholbar!\nDas Ogergerbemittel findet man nahe "..YELLOW.."[4] (oben)"..WHITE.."."
-Inst11Quest2_HORDE_Prequest = ""
-Inst11Quest2_HORDE_Folgequest = ""
+--Quest2 Horde (das selbe wie allianz quest 2)
+Inst11Quest2_HORDE = Inst11Quest2
+Inst11Quest2_HORDE_Level = Inst11Quest2_Level
+Inst11Quest2_HORDE_Attain = Inst11Quest2_Attain
+Inst11Quest2_HORDE_Aim = Inst11Quest2_Aim
+Inst11Quest2_HORDE_Location = Inst11Quest2_Location
+Inst11Quest2_HORDE_Note = Inst11Quest2_Note
+Inst11Quest2_HORDE_Prequest = Inst11Quest2_Prequest
+Inst11Quest2_HORDE_Folgequest = Inst11Quest2_Folgequest
 --
-Inst11Quest2name1_HORDE = "Gordok Ogre Suit"
+Inst11Quest2name1_HORDE = Inst11Quest2name1
 
---Quest3 Horde
-Inst11Quest3_HORDE = "3. Befreit Knot!"
-Inst11Quest3_HORDE_Attain = "?"
-Inst11Quest3_HORDE_Level = "60"
-Inst11Quest3_HORDE_Aim = "Befreit Knot Thimblejack."
-Inst11Quest3_HORDE_Location = "Knot Thimblejack (Düsterbruch ; "..YELLOW.."Nord, [4]"..WHITE..")"
-Inst11Quest3_HORDE_Note = "Wiederholbar!\nDer Schlüssel für sein Gefängnis ist ein Zufallsdropp der Wachen."
-Inst11Quest3_HORDE_Prequest = ""
-Inst11Quest3_HORDE_Folgequest = ""
+--Quest3 Horde (das selbe wie allianz quest 3)
+Inst11Quest3_HORDE = Inst11Quest3
+Inst11Quest3_HORDE_Level = Inst11Quest3_Level
+Inst11Quest3_HORDE_Attain = Inst11Quest3_Attain
+Inst11Quest3_HORDE_Aim = Inst11Quest3_Aim
+Inst11Quest3_HORDE_Location = Inst11Quest3_Location
+Inst11Quest3_HORDE_Note = Inst11Quest3_Note
+Inst11Quest3_HORDE_Prequest = Inst11Quest3_Prequest
+Inst11Quest3_HORDE_Folgequest = Inst11Quest3_Folgequest
+-- Keine Belohnung
 
---Quest4 Horde
-Inst11Quest4_HORDE = "4. Die offene Rechnung der Gordok"
-Inst11Quest4_HORDE_Attain = "?"
-Inst11Quest4_HORDE_Level = "60"
-Inst11Quest4_HORDE_Aim = "Findet die Stulpen der Gordokmacht und bringt sie zu Captain Kromcrush in Düsterbruch.\nKromcrush zufolge sagen die 'Alte Zeit Geschichten', dass Tortheldrin - ein 'gruseliger' Elf, der sich selbst als Prinz bezeichnet- sie einem der Gordokkönige gestohlen hat."
-Inst11Quest4_HORDE_Location = "Captain Kromcrush (Düsterbruch ; "..YELLOW.."Nord, [5]"..WHITE..")"
-Inst11Quest4_HORDE_Note = "Den Prinzen findet man im "..YELLOW.."Westteil"..WHITE.." der Instanz("..YELLOW.."[7]"..WHITE.."). Die Stulpen befinden sich in einer Truhe in seiner Nähe.\nMan kann diese Quest nur nach einem Tributrun annehmen!"
-Inst11Quest4_HORDE_Prequest = ""
-Inst11Quest4_HORDE_Folgequest = ""
+--Quest4 Horde (das selbe wie allianz quest 4)
+Inst11Quest4_HORDE = Inst11Quest4
+Inst11Quest4_HORDE_Level = Inst11Quest4_Level
+Inst11Quest4_HORDE_Attain = Inst11Quest4_Attain
+Inst11Quest4_HORDE_Aim = Inst11Quest4_Aim
+Inst11Quest4_HORDE_Location = Inst11Quest4_Location
+Inst11Quest4_HORDE_Note = Inst11Quest4_Note
+Inst11Quest4_HORDE_Prequest = Inst11Quest4_Prequest
+Inst11Quest4_HORDE_Folgequest = Inst11Quest4_Folgequest
 --
-Inst11Quest4name1_HORDE = "Gordok's Handwraps"
-Inst11Quest4name2_HORDE = "Gordok's Gloves"
-Inst11Quest4name3_HORDE = "Gordok's Gauntlets"
-Inst11Quest4name4_HORDE = "Gordok's Handguards"
+Inst11Quest4name1_HORDE = Inst11Quest4name1
+Inst11Quest4name2_HORDE = Inst11Quest4name2
+Inst11Quest4name3_HORDE = Inst11Quest4name3
+Inst11Quest4name4_HORDE = Inst11Quest4name4
 
 
 --------------- INST12 - Dire Maul West (DM) ---------------
 
-Inst12Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen ֠besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
-Inst12Caption = "Der Düsterbruch"
+Inst12Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen - besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
+Inst12Caption = "Düsterbruch (West)"
 Inst12QAA = "4 Quests"
 Inst12QAH = "4 Quests"
 
 --Quest1 Allianz
 Inst12Quest1 = "1. Elfische Legenden"
-Inst12Quest1_Attain = "54"
 Inst12Quest1_Level = "60"
-Inst12Quest1_Aim = "Sucht in Düsterbruch nach Kariel Winthalus. Meldet Euch anschließend bei der Gelehrten Runethorn in Feathermoon."
-Inst12Quest1_Location = "Gelehrter Runethorn (Feralas; "..YELLOW.."30,43"..WHITE..")" --ALLYS
-Inst12Quest1_Note = "Kariel Winthalus findet man in der "..YELLOW.."Bücherrei (West)"..WHITE..""
-Inst12Quest1_Prequest = ""
-Inst12Quest1_Folgequest = ""
+Inst12Quest1_Attain = "54"
+Inst12Quest1_Aim = "Sucht in Düsterbruch nach Kariel Winthalus. Meldet Euch anschließend bei der Gelehrten Runendorn in der Mondfederfeste."
+Inst12Quest1_Location = "Gelehrten Runendorn (Feralas - Mondfederfeste; "..YELLOW.."31,43"..WHITE..")"
+Inst12Quest1_Note = "Kariel Winthalus findet man in der "..YELLOW.."Bücherrei (West)"..WHITE.."."
+Inst12Quest1_Prequest = "Nein"
+Inst12Quest1_Folgequest = "Nein"
+-- Keine Belohnung
 
 --Quest2 Allianz
 Inst12Quest2 = "2. Der innere Wahnsinn"
-Inst12Quest2_Attain = "?"
 Inst12Quest2_Level = "60"
+Inst12Quest2_Attain = "56"
 Inst12Quest2_Aim = "Zerstört alle Wächter, die um die 5 Pylonen herumstehen, welche Immol'thars Gefängnis mit Energie versorgen. Sobald die Pylone deaktiviert wurden, wird sich das Kraftfeld, das Immol'thar umgibt, auflösen.\nBetretet Immol'thars Gefängnis und vernichtet den verdorbenen Dämonen. Anschließend müsst Ihr Prinz Tortheldrin im Athenaeum entgegentreten."
 Inst12Quest2_Location = "Uralte Shen'dralar (Düsterbruch; "..YELLOW.."West, [1] (oben)"..WHITE..")"
-Inst12Quest2_Note = "Die Pylone sind als "..BLUE.."[B]"..WHITE.." auf der Karte eingezeichnet. Immol'thar findet man bei "..YELLOW.."[6]"..WHITE..", Prinz Tortheldrin bei "..YELLOW.."[7]"..WHITE.."."
-Inst12Quest2_Prequest = ""
-Inst12Quest2_Folgequest = "Der Schatz der Shen'dralar"
+Inst12Quest2_Note = "Die Pylone sind als "..BLUE.."[B]"..WHITE.." auf der Karte gekennzeichnet. Immol'thar befindet sich bei "..YELLOW.."[6]"..WHITE..", Prinz Tortheldrin bei "..YELLOW.."[7]"..WHITE.."."
+Inst12Quest2_Prequest = "Nein"
+Inst12Quest2_Folgequest = "Ja, Der Schatz der Shen'dralar"
 
 --Quest3 Allianz
 Inst12Quest3 = "3. Der Schatz der Shen'dralar"
-Inst12Quest3_Attain = "?"
 Inst12Quest3_Level = "60"
+Inst12Quest3_Attain = "57"
 Inst12Quest3_Aim = "Kehrt in das Athenaeum zurück und sucht den Schatz der Shen'dralar. Nehmt Euch Eure Belohnung!"
-Inst12Quest3_Location = "Uralte Shen'dralar (Düsterbruch ; "..YELLOW.."West, [1]"..WHITE..")"
-Inst12Quest3_Note = "Die Truhe steht unterhalb der Treppe "..YELLOW.."[7]"..WHITE.."."
-Inst12Quest3_Prequest = "Der innere Wahnsinn"
-Inst12Quest3_Folgequest = ""
+Inst12Quest3_Location = "Uralte Shen'dralar (Düsterbruch; "..YELLOW.."West, [1]"..WHITE..")"
+Inst12Quest3_Note = "Der Schatz befindet sich unterhalb der Treppe "..YELLOW.."[7]"..WHITE.."."
+Inst12Quest3_Prequest = "Ja, Der innere Wahnsinn"
+Inst12Quest3_Folgequest = "Nein"
 Inst12Quest3FQuest = "true"
 --
-Inst12Quest3name1 = "Sedge Boots"
-Inst12Quest3name2 = "Backwood Helm"
-Inst12Quest3name3 = "Bonecrusher"
+Inst12Quest3name1 = "Seggenstiefel"
+Inst12Quest3name2 = "Hinterwaldhelm"
+Inst12Quest3name3 = "Knochenzermalmer"
+
+--Quest 4 Alliance
+Inst12Quest4 = "4. Schreckensross von Xoroth (Hexenmeister)"
+Inst12Quest4_Level = "60"
+Inst12Quest4_Attain = "60"
+Inst12Quest4_Aim = "Lest Morzuls Anweisungen. Beschwört ein xorothianisches Schreckensross, besiegt es und bindet seinen Geist an Euch."
+Inst12Quest4_Location = "Mor'zul Blutbringer (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
+Inst12Quest4_Note = "Das ist das letzte Quest in der Hexenmeister Questreihe für das epische Reittier. Zuerst muss man alle Pylonen, die mit "..BLUE.."[B]"..WHITE.." gekennzeichnet sind, abschalten und anschließend Immol'thar bei "..YELLOW.."[6]"..WHITE.." töten. Danach kann man mit dem Beschwörungs Ritual beginnen. Man sollte mindestens 20 Seelensplitter bei sich haben und einen Hexenmeister speziell darauf ansetzen, die Glocke, die Kerze und das Rad aufrecht zu erhalten. Die Verdammniswachen können versklavt werden. Wenn es vorüber ist, muss man mit dem Geist des Schreckensross sprechen, um das Quest abzuschließen."
+Inst12Quest4_Prequest = "Ja, Wichtellieferung ("..YELLOW.."Scholomance"..WHITE..")"
+Inst12Quest4_Folgequest = "Nein"
+Inst12Quest4PreQuest = "true"
+-- Keine Belohnung
 
 
 --Quest1 Horde
 Inst12Quest1_HORDE = "1. Elfische Legenden"
-Inst12Quest1_HORDE_Attain = "54"
 Inst12Quest1_HORDE_Level = "60"
-Inst12Quest1_HORDE_Aim = "Sucht in Düsterbruch nach Kariel Winthalus. Meldet Euch anschließend bei Sage Korolusk in Camp Mojache."
-Inst12Quest1_HORDE_Location = "Sage Korolusk (Feralas; "..YELLOW.."74,43"..WHITE..")" --ALLYS
-Inst12Quest1_HORDE_Note = "Kariel Winthalus findet man in der "..YELLOW.."Bücherrei (West)"..WHITE..""
-Inst12Quest1_HORDE_Prequest = ""
-Inst12Quest1_HORDE_Folgequest = ""
+Inst12Quest1_HORDE_Attain = "54"
+Inst12Quest1_HORDE_Aim = "Sucht in Düsterbruch nach Kariel Winthalus. Meldet Euch anschließend bei dem Weisen Korolusk in Camp Mojache."
+Inst12Quest1_HORDE_Location = "Weiser Korolusk (Feralas - Camp Mojache; "..YELLOW.."74,43"..WHITE..")"
+Inst12Quest1_HORDE_Note = "Kariel Winthalus findet man in der "..YELLOW.."Bücherrei (West)"..WHITE.."."
+Inst12Quest1_HORDE_Prequest = "Nein"
+Inst12Quest1_HORDE_Folgequest = "Nein"
+-- Keine Belohnung
 
---Quest2 Horde
-Inst12Quest2_HORDE = "2. Der innere Wahnsinn"
-Inst12Quest2_HORDE_Attain = "?"
-Inst12Quest2_HORDE_Level = "60"
-Inst12Quest2_HORDE_Aim = "Zerstört alle Wächter, die um die 5 Pylonen herumstehen, welche Immol'thars Gefängnis mit Energie versorgen. Sobald die Pylone deaktiviert wurden, wird sich das Kraftfeld, das Immol'thar umgibt, auflösen.\nBetretet Immol'thars Gefängnis und vernichtet den verdorbenen Dämonen. Anschließend müsst Ihr Prinz Tortheldrin im Athenaeum entgegentreten."
-Inst12Quest2_HORDE_Location = "Uralte Shen'dralar (Düsterbruch; "..YELLOW.."West, [1] (oben)"..WHITE..")"
-Inst12Quest2_HORDE_Note = "Die Pylone sind als "..BLUE.."[B]"..WHITE.." auf der Karte eingezeichnet. Immol'thar findet man bei "..YELLOW.."[6]"..WHITE..", Prinz Tortheldrin bei "..YELLOW.."[7]"..WHITE.."."
-Inst12Quest2_HORDE_Prequest = ""
-Inst12Quest2_HORDE_Folgequest = "Der Schatz der Shen'dralar"
+--Quest2 Horde (das selbe wie allianz quest 2)
+Inst12Quest2_HORDE = Inst12Quest2
+Inst12Quest2_HORDE_Level = Inst12Quest2_Level
+Inst12Quest2_HORDE_Attain = Inst12Quest2_Attain
+Inst12Quest2_HORDE_Aim = Inst12Quest2_Aim
+Inst12Quest2_HORDE_Location = Inst12Quest2_Location
+Inst12Quest2_HORDE_Note = Inst12Quest2_Note
+Inst12Quest2_HORDE_Prequest = Inst12Quest2_Prequest
+Inst12Quest2_HORDE_Folgequest = Inst12Quest2_Folgequest
+-- Keine Belohnung
 
---Quest3 Horde
-Inst12Quest3_HORDE = "3. Der Schatz der Shen'dralar"
-Inst12Quest3_HORDE_Attain = "?"
-Inst12Quest3_HORDE_Level = "60"
-Inst12Quest3_HORDE_Aim = "Kehrt in das Athenaeum zurück und sucht den Schatz der Shen'dralar. Nehmt Euch Eure Belohnung!"
-Inst12Quest3_HORDE_Location = "Uralte Shen'dralar (Düsterbruch ; "..YELLOW.."West, [1]"..WHITE..")"
-Inst12Quest3_HORDE_Note = "Die Truhe steht unterhalb der Treppe "..YELLOW.."[7]"..WHITE.."."
-Inst12Quest3_HORDE_Prequest = "Der innere Wahnsinn"
-Inst12Quest3_HORDE_Folgequest = ""
+--Quest3 Horde (das selbe wie allianz quest 3)
+Inst12Quest3_HORDE = Inst12Quest3
+Inst12Quest3_HORDE_Level = Inst12Quest3_Level
+Inst12Quest3_HORDE_Attain = Inst12Quest3_Attain
+Inst12Quest3_HORDE_Aim = Inst12Quest3_Aim
+Inst12Quest3_HORDE_Location = Inst12Quest3_Location
+Inst12Quest3_HORDE_Note = Inst12Quest3_Note
+Inst12Quest3_HORDE_Prequest = Inst12Quest3_Prequest
+Inst12Quest3_HORDE_Folgequest = Inst12Quest3_Folgequest
 Inst12Quest3FQuest_HORDE = "true"
 --
-Inst12Quest3name1_HORDE = "Sedge Boots"
-Inst12Quest3name2_HORDE = "Backwood Helm"
-Inst12Quest3name3_HORDE = "Bonecrusher"
+Inst12Quest3name1_HORDE = Inst12Quest3name1
+Inst12Quest3name2_HORDE = Inst12Quest3name2
+Inst12Quest3name3_HORDE = Inst12Quest3name3
+
+--Quest4 Horde (das selbe wie allianz quest 4)
+Inst12Quest4_HORDE = Inst12Quest4
+Inst12Quest4_HORDE_Level = Inst12Quest4_Level
+Inst12Quest4_HORDE_Attain = Inst12Quest4_Attain
+Inst12Quest4_HORDE_Aim = Inst12Quest4_Aim
+Inst12Quest4_HORDE_Location = Inst12Quest4_Location
+Inst12Quest4_HORDE_Note = Inst12Quest4_Note
+Inst12Quest4_HORDE_Prequest = Inst12Quest4_Prequest
+Inst12Quest4_HORDE_Folgequest = Inst12Quest4_Folgequest
+Inst12Quest4PreQuest_HORDE = "true"
+-- Keine Belohnung
 
 
 --------------- INST13 - Maraudon (Mara) ---------------
