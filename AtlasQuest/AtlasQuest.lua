@@ -66,7 +66,7 @@ AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function
 local AQMAXINSTANCES = "62"
 local AQMAXQUESTS = "20"
 
--- Set title for AtlasQuest side pane
+-- Set title for AtlasQuest side panel
 ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.0.10";
 
 AQ_ShownSide = "Left"
@@ -139,7 +139,7 @@ function AQVersionCheck()
  end
 end
 --------------------------------
--- loads the saved varaibales
+-- loads the saved variables
 --------------------------------
 function AtlasQuest_LoadData()
   -- Which side
@@ -686,12 +686,12 @@ end
 ------------------ Events: OnUpdate -> End
 
 --******************************************
------------------- /////Events: Atlas_OnShow ////// hook atlas funktion
+------------------ /////Events: Atlas_OnShow ////// hook atlas function
 --******************************************
 
 ---------------------------------
 -- Shows the AQ panel with atlas
--- funktion hooked now! thx dan for his help
+-- function hooked now! thx dan for his help
 ---------------------------------
 original_Atlas_OnShow = Atlas_OnShow; -- new line #1
 function Atlas_OnShow()

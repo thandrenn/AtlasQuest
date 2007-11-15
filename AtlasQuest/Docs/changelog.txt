@@ -9,7 +9,7 @@ Version 4.0.10 (by Thandrenn)
 - AtlasQuest source is now hosted at Google Code. Thanks to Telchar and Dan for help and encouragement.
 - Fixed number of Alliance quests for Deadmines  (from Telchar)
 - Zul'Aman support added.
-- Updated Chinese localization file from yeachan.
+- Updated Simplified Chinese localization file from yeachan.
 - German localization cleanup started by Telchar. See Todo file.
 - Removed French localization file. Very out of date and the only thing translated were the instance descriptions, no quest data.
 - Removed obsolete constants.lua file.
