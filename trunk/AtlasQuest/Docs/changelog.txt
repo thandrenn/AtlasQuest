@@ -6,13 +6,14 @@ Version 4.0.10 (by Thandrenn)
 
 - TOC updated for Patch 2.3.
 - Now including GNU General Public License v2 (GPLv2) files.
+- Added a new Docs folder for the readme, GPL files, etc.
 - AtlasQuest source is now hosted at Google Code. Thanks to Telchar and Dan for help and encouragement.
-- Fixed number of Alliance quests for Deadmines  (from Telchar)
-- Zul'Aman support added.
 - Updated Simplified Chinese localization file from yeachan.
 - German localization cleanup started by Telchar. See Todo file.
 - Removed French localization file. Very out of date and the only thing translated were the instance descriptions, no quest data.
 - Removed obsolete constants.lua file.
+- Fixed number of Alliance quests for Deadmines  (from Telchar)
+- Zul'Aman support added.
 
 - Quests added:
 	- Magtheridon's Lair: The Fall of Magtheridon
