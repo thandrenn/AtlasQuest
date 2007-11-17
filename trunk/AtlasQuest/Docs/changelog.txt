@@ -4,16 +4,23 @@ Changelog
 
 Version 4.0.11 (by Thandrenn)
 
+- Now set the faction quests displayed based on player's faction when AtlasQuest is opened. (Suggested by Iffonox)
+- Option to show Alliance quests by default removed.
 - Fixed bug with Auchenai Crypts: Everything Will Be Alright (Horde version).
+- Fixed bug with Molten Core: A Binding Contract. Also affected "The Molten Core".
 
 - Quests added:
 	- Zul'Aman: X Marks... Your Doom!
+	- Sethekk Halls: Vanquish the Raven God (Druid epic flightform)
 	
 - Cleanup progress:
 	- CF: Serpentshrine Cavern
 	- CF: Steamvault
 	- CF: Underbog
 	- Auch: Auchenai Crypts
+	- Auch: Mana Tombs
+	- Auch: Sethekk Halls
+	- Auch: Shadow Labyrinth
 
 
 

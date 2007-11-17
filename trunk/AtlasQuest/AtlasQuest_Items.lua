@@ -1914,12 +1914,12 @@ Inst14Quest2Rewardtext = AQNoReward
 Inst14Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst14Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst14Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
-Inst14Quest1ITC1 = Itemc5;
-Inst14Quest1textur1 = "INV_Scroll_03"
-Inst14Quest1description1 = AQITEM_PATTERN
-Inst14Quest1ID1 = "18592"
+Inst14Quest4ITC1 = Itemc5;
+Inst14Quest4textur1 = "INV_Scroll_03"
+Inst14Quest4description1 = AQITEM_PATTERN
+Inst14Quest4ID1 = "18592"
 
 
 --Quest 1 Horde
@@ -1932,12 +1932,12 @@ Inst14Quest2Rewardtext_HORDE = AQNoReward
 Inst14Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst14Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst14Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
-Inst14Quest1ITC1_HORDE = Itemc5;
-Inst14Quest1textur1_HORDE = "INV_Scroll_03"
-Inst14Quest1description1_HORDE = AQITEM_PATTERN
-Inst14Quest1ID1_HORDE = "18592"
+Inst14Quest4ITC1_HORDE = Itemc5;
+Inst14Quest4textur1_HORDE = "INV_Scroll_03"
+Inst14Quest4description1_HORDE = AQITEM_PATTERN
+Inst14Quest4ID1_HORDE = "18592"
 
 
 
@@ -4534,6 +4534,14 @@ Inst46Quest2textur3 = "INV_Spear_08"
 Inst46Quest2description3 = AQITEM_POLEARM
 Inst46Quest2ID3 = "29329"
 
+--Quest 3 Alliance
+Inst46Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst46Quest3ITC1 = Itemc4;
+Inst46Quest3textur1 = "INV-Mount_Raven_54"
+Inst46Quest3description1 = AQITEM_RELIC
+Inst46Quest3ID1 = "32387"
+
 
 --Quest 1 Horde
 Inst46Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
@@ -4575,6 +4583,14 @@ Inst46Quest2ITC3_HORDE = Itemc4;
 Inst46Quest2textur3_HORDE = "INV_Spear_08"
 Inst46Quest2description3_HORDE = AQITEM_POLEARM
 Inst46Quest2ID3_HORDE = "29329"
+
+--Quest 3 Horde
+Inst46Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst46Quest3ITC1_HORDE = Itemc4;
+Inst46Quest3textur1_HORDE = "INV-Mount_Raven_54"
+Inst46Quest3description1_HORDE = AQITEM_RELIC
+Inst46Quest3ID1_HORDE = "32387"
 
 
 

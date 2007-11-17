@@ -193,6 +193,9 @@
 	    </OnShow>
 	</Scripts>
    </CheckButton>
+
+<!-- Removed in 4.0.11 so faction will automatically set.
+
    <CheckButton name="AQSetFractionOption" inherits="OptionsCheckButtonTemplate" checked="true">
     <Size>
       <AbsDimension x="30" y="30"/>
@@ -216,6 +219,8 @@
 	    </OnShow>
 	</Scripts>
    </CheckButton>
+-->
+
    <CheckButton name="AQEquipCompareOption" inherits="OptionsCheckButtonTemplate" checked="true">
     <Size>
       <AbsDimension x="30" y="30"/>
@@ -223,7 +228,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="10" y="-230"></AbsDimension>
+				<AbsDimension x="10" y="-200"></AbsDimension>
 			</Offset>
 		</Anchor>
 		<HitRectInsets>
@@ -314,6 +319,9 @@
          </Anchor>
        </Anchors>
      </FontString>
+
+<!-- Removed in 4.0.11 so faction will automatically set.
+
      <FontString name="AQSetFractionTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
        <Size>
          <AbsDimension x="240" y="35"/>
@@ -326,6 +334,8 @@
          </Anchor>
        </Anchors>
      </FontString>
+-->
+
      <FontString name="AQEquipCompareOptionTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
        <Size>
          <AbsDimension x="240" y="35"/>
@@ -333,7 +343,7 @@
        <Anchors>
          <Anchor point="TOPLEFT">
            <Offset>
-              <AbsDimension x="45" y="-230"/>
+              <AbsDimension x="45" y="-200"/>
            </Offset>
          </Anchor>
        </Anchors>
