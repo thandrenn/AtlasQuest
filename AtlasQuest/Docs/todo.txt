@@ -2,11 +2,17 @@
 ToDo List
 =========
 
-- Sweep over all quests, check for bugs, update #'s, reference entrance maps, add data, add rewards where necessary.
-- Document and go over /slash command stuff. Divide instance list and such.
+- Cleanup quests for rest of BC instances (Check Level & Attain #s, Reference Entrance Maps, Add Data, Rewards, etc.)
+- Add Outdoor Raid quests.
+- Add Battlegrounds quests.
+- Document and go over /slash command stuff. Worth keeping?
 - BUG: CT_Core show quest lvl thing not working with Blue quest names.
-- BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
 - BUG: Stuff like (Questline) (Heroic) and (Class) throws off the Blue quest names stuff.
+- BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
+
+
+- Note to self: Quest Types: Class, Profession, Heroic, Daily, Raid?
+
 
 
 Cleanup Checklist:
@@ -53,13 +59,13 @@ DONE	--	38 = HFC: Blood Furnace (BF)
 DONE	--	39 = HFC: Shattered Halls (SH)
 DONE	--	40 = HFC: Magtheridon's Lair
 DONE	--	41 = CR: The Slave Pens (SP)
--- 	--	42 = CR: The Steamvault (SV)
--- 	--	43 = CR: The Underbog (UB)
--- 	--	44 = Auchindoun: Auchenai Crypts (AC)
+DONE 	--	42 = CR: The Steamvault (SV)
+DONE 	--	43 = CR: The Underbog (UB)
+DONE 	--	44 = Auchindoun: Auchenai Crypts (AC)
 -- 	--	45 = Auchindoun: Mana Tombs (MT)
 -- 	--	46 = Auchindoun: Sethekk Halls (Seth)
 -- 	--	47 = Auchindoun: Shadow Labyrinth (SLabs)
--- 	--	48 = CR: Serpentshrine Cavern (SSC)
+DONE 	--	48 = CR: Serpentshrine Cavern (SSC)
 -- 	--	49 = CoT: Black Morass (BM)
 -- 	--	50 = CoT: Battle of Mount Hyjal
 -- 	--	51 = CoT: Old Hillsbrad
@@ -80,6 +86,8 @@ NEW  	--	63 = Zul'Aman (ZA)
 
 
 Add Quests:
+
+Dungeon Daily quests?
 
 
 

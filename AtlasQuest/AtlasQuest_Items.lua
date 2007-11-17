@@ -5432,6 +5432,9 @@ Inst63Quest1textur1 = "INV_Misc_Bag_12"
 Inst63Quest1description1 = AQITEM_BAG
 Inst63Quest1ID1 = "34067"
 
+--Quest 2 Alliance
+Inst63Quest2Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst63Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -5440,6 +5443,9 @@ Inst63Quest1ITC1_HORDE = Itemc4;
 Inst63Quest1textur1_HORDE = "INV_Misc_Bag_12"
 Inst63Quest1description1_HORDE = AQITEM_BAG
 Inst63Quest1ID1_HORDE = "34067"
+
+--Quest 2 Horde
+Inst63Quest2Rewardtext_HORDE = AQNoReward
 
 
 

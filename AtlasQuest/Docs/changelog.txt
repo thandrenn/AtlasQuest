@@ -2,6 +2,21 @@
 Changelog
 =========
 
+Version 4.0.11 (by Thandrenn)
+
+- Fixed bug with Auchenai Crypts: Everything Will Be Alright (Horde version).
+
+- Quests added:
+	- Zul'Aman: X Marks... Your Doom!
+	
+- Cleanup progress:
+	- CF: Serpentshrine Cavern
+	- CF: Steamvault
+	- CF: Underbog
+	- Auch: Auchenai Crypts
+
+
+
 Version 4.0.10 (by Thandrenn)
 
 - TOC updated for Patch 2.3.
