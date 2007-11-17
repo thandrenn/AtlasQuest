@@ -33,7 +33,6 @@ local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 local YELLOW = "|cffFFd200";   -- Ingame Yellow
--- local YELLOW = "|cffffff00"; -- Normal/Original AQ Yellow.
 
 --*********************
 -- Options translation
@@ -58,7 +57,7 @@ AQCCOFF = "AtlasQuest will not recolour quests."
 -- QuestLog Colour Check
 AQQLColourChange = ""..WHITE.."Colours all quest, you have in your Questlog "..BLUE.."blue."
 -- Set Fraction Option
-AQOptionsSetFractionTEXT = "" .. WHITE .. "Shows the " .. BLUE .. "Alliance part" .. WHITE .. " as default, when you open AtlasQuest.";
+--AQOptionsSetFractionTEXT = "" .. WHITE .. "Shows the " .. BLUE .. "Alliance part" .. WHITE .. " as default, when you open AtlasQuest.";
 -- Set Equip Compare
 AQOptionEquipCompareTEXT = "Use Equip Compare."
 
@@ -82,7 +81,6 @@ AQDiscription_AIM = "Objective: \n"
 AQDiscription_NOTE = "Note: \n"
 AQDiscription_PREQUEST= "Prequest: "
 AQDiscription_FOLGEQUEST = "Quest follows: "
-ATLAS_VERSIONWARNINGTEXT = "You are currently using an old or outdated version of Atlas. Please update to the newest version: 1.10.2"
 
 -- ITEM TRANSLATION
 AQITEM_DAGGER = " Dagger"
@@ -117,11 +115,12 @@ AQITEM_ONEHAND = "One-Hand,"
 AQITEM_TWOHAND = "Two-Hand,"
 
 AQITEM_TRINKET = "Trinket"
+AQITEM_RELIC = "Relic"
 AQITEM_POTION = "Potion"
 AQITEM_OFFHAND = "Held In Hand"
 AQITEM_NECK = "Neck"
 AQITEM_PATTERN = "Pattern"
-AQITEM_ITEM = "Item"
+AQITEM_ITEM = "Item" -- Use this for those oddball rewards which aren't really anything else.
 AQITEM_BAG = "Bag"
 AQITEM_RING = "Ring"
 AQITEM_KEY = "Key"
@@ -2712,8 +2711,8 @@ Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
 
 Inst14Story = "The Molten Core lies at the very bottom of Blackrock Depths. It is the heart of Blackrock Mountain and the exact spot where, long ago in a desperate bid to turn the tide of the dwarven civil war, Emperor Thaurissan summoned the elemental Firelord, Ragnaros, into the world. Though the fire lord is incapable of straying far from the blazing Core, it is believed that his elemental minions command the Dark Iron dwarves, who are in the midst of creating armies out of living stone. The burning lake where Ragnaros lies sleeping acts as a rift connecting to the plane of fire, allowing the malicious elementals to pass through. Chief among Ragnaros' agents is Majordomo Executus - for this cunning elemental is the only one capable of calling the Firelord from his slumber."
 Inst14Caption = "Molten Core"
-Inst14QAA = "3 Quests"
-Inst14QAH = "3 Quests"
+Inst14QAA = "4 Quests"
+Inst14QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst14Quest1 = "1. The Molten Core"
@@ -5811,7 +5810,7 @@ Inst42Quest5_Level = "70"
 Inst42Quest5_Attain = "68"
 Inst42Quest5_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
 Inst42Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst42Quest5_Note = "The Arcane Container is at "..YELLOW.."[2]"..WHITE..", at the bottom of a pool of water."
+Inst42Quest5_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..YELLOW.."[2]"..WHITE..", at the bottom of a pool of water. Opening it will spawn an elemental that must be killed to get the fragment. The Third Key Fragment is in the Arcatraz."
 Inst42Quest5_Prequest = "Yes, Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest5_Folgequest = "Yes, The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
 Inst42Quest5Prequest = "true"
@@ -5984,7 +5983,7 @@ Inst44Quest1_Level = "67"
 Inst44Quest1_Attain = "64"
 Inst44Quest1_Aim = "Enter the Auchenai Crypts and destroy Exarch Maladaar so that the spirits trapped inside can finally rest in peace."
 Inst44Quest1_Location = "Greatfather Aldrimus (Terokkar Forest; "..YELLOW.."35,65"..WHITE..")"
-Inst44Quest1_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". The prequest line starts from Ha'lei (Terokkar Forest; "..YELLOW.."35,65"..WHITE..")."
+Inst44Quest1_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". The prequest line starts from Ha'lei (Terokkar Forest - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
 Inst44Quest1_Prequest = "Yes, I See Dead Draenei -> Levixus the Soul Caller"
 Inst44Quest1_Folgequest = "No"
 Inst44Quest1Prequest = "true"
@@ -6041,16 +6040,16 @@ Inst44Quest3name4_HORDE = Inst44Quest1name4
 
 Inst45Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst45Caption = "Auch: Mana Tombs"
-Inst45QAA = "3 Quests"
-Inst45QAH = "3 Quests"
+Inst45QAA = "4 Quests"
+Inst45QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst45Quest1 = "1. Safety Is Job One"
 Inst45Quest1_Level = "66"
 Inst45Quest1_Attain = "64"
 Inst45Quest1_Aim = "Artificer Morphalius wants you to kill 10 Ethereal Crypt Raiders, 5 Ethereal Sorcerers, 5 Nexus Stalkers and 5 Ethereal Spellbinders."
-Inst45Quest1_Location = "Artificer Morphalius (Terokkar Forest; "..YELLOW.."39,58"..WHITE..")"
-Inst45Quest1_Note = "Ethereal Transporter Control Panel "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest1_Location = "Artificer Morphalius (Terokkar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")"
+Inst45Quest1_Note = "Ethereal Transporter Control Panel is at "..YELLOW.."[3]"..WHITE.."."
 Inst45Quest1_Prequest = "No"
 Inst45Quest1_Folgequest = "Yes, Someone Else's Hard Work Pays Off"
 -- No Rewards for this quest
@@ -6061,9 +6060,10 @@ Inst45Quest2_Level = "66"
 Inst45Quest2_Attain = "64"
 Inst45Quest2_Aim = "Escort Cryo-Engineer Sha'heen safely through the Mana-Tombs so that he can gather the ether held inside Shaffar's ether collectors."
 Inst45Quest2_Location = "Cryo-Engineer Sha'heen (Mana Tombs; "..YELLOW.."[3]"..WHITE..")"
-Inst45Quest2_Note = "To summon Cryo-Engineer Sha'heen, click on the Ethereal Transporter Control Panel at "..YELLOW.."[3]"..WHITE..". He'll spawn along with several other friendly Consortium NPCs.  The entire instance should be cleared before hand. Leave nothing alive."
+Inst45Quest2_Note = "To summon Cryo-Engineer Sha'heen, click on the Ethereal Transporter Control Panel at "..YELLOW.."[3]"..WHITE..". He'll spawn along with several other friendly Consortium NPCs.  The entire instance should be cleared before hand. Leave nothing alive. The escort can only be attempted once per instance."
 Inst45Quest2_Prequest = "Yes, Safety Is Job One"
 Inst45Quest2_Folgequest = "No"
+Inst45Quest2FQuest = "true"
 --
 Inst45Quest2name1 = "Consortium Prince's Wrap"
 Inst45Quest2name2 = "Cryo-mitts"
@@ -6076,7 +6076,7 @@ Inst45Quest3_Level = "66"
 Inst45Quest3_Attain = "64"
 Inst45Quest3_Aim = "Nexus-Prince Haramad located outside of the Mana-Tombs wants you to kill Nexus-Prince Shaffar and bring Shaffar's Wrappings back to him."
 Inst45Quest3_Location = "Nexus-Prince Haramand (Terrokar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")."
-Inst45Quest3_Note = ""
+Inst45Quest3_Note = "Nexus-Prince Haramad is at "..YELLOW.."[4]"..WHITE.."."
 Inst45Quest3_Prequest = "No"
 Inst45Quest3_Folgequest = "No"
 --
@@ -6090,10 +6090,11 @@ Inst45Quest4 = "4. Stasis Chambers of the Mana-Tombs (Heroic)"
 Inst45Quest4_Level = "70"
 Inst45Quest4_Attain = "70"
 Inst45Quest4_Aim = "The Image of Commander Ameer at Bash'ir's Landing in the Blade's Edge Mountains wants you to use the Mana-Tombs Stasis Chamber Key on the Stasis Chamber inside the Mana-Tombs of Auchindoun."
-Inst45Quest4_Location = "Image of Commander Ameer (Blade's Edge Mountains; "..YELLOW.."52,15"..WHITE..")."
-Inst45Quest4_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius. The second is in Nexus-Prince Shaffar's room. You'll need a Mark of the Nexus-King for each."
+Inst45Quest4_Location = "Image of Commander Ameer (Blade's Edge Mountains - Bash'ir's Landing; "..YELLOW.."52,15"..WHITE..")."
+Inst45Quest4_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[4]"..WHITE..". You'll need a Mark of the Nexus-King for each."
 Inst45Quest4_Prequest = "Yes, The Mark of the Nexus-King"
 Inst45Quest4_Folgequest = "No"
+Inst45Quest4Prequest = "true"
 --
 Inst45Quest4name1 = "Badge of Justice"
 
@@ -6118,6 +6119,7 @@ Inst45Quest2_HORDE_Location = Inst45Quest2_Location
 Inst45Quest2_HORDE_Note = Inst45Quest2_Note
 Inst45Quest2_HORDE_Prequest = Inst45Quest2_Prequest
 Inst45Quest2_HORDE_Folgequest = Inst45Quest2_Folgequest
+Inst45Quest2FQuest_HORDE = Inst45Quest2FQuest
 --
 Inst45Quest2name1_HORDE = Inst45Quest2name1
 Inst45Quest2name2_HORDE = Inst45Quest2name2
@@ -6148,6 +6150,7 @@ Inst45Quest4_HORDE_Location = Inst45Quest4_Location
 Inst45Quest4_HORDE_Note = Inst45Quest4_Note
 Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
 Inst45Quest4_HORDE_Folgequest = Inst45Quest4_Folgequest
+Inst45Quest4Prequest_HORDE = Inst45Quest4Prequest
 --
 Inst45Quest4name1_HORDE = Inst45Quest4name1
 
@@ -6157,16 +6160,16 @@ Inst45Quest4name1_HORDE = Inst45Quest4name1
 
 Inst46Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst46Caption = "Auch: Sethekk Halls"
-Inst46QAA = "2 Quests"
-Inst46QAH = "2 Quests"
+Inst46QAA = "3 Quests"
+Inst46QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst46Quest1 = "1. Brother Against Brother"
 Inst46Quest1_Level = "69"
 Inst46Quest1_Attain = "65"
 Inst46Quest1_Aim = "Kill Darkweaver Syth in the Sethekk halls, then free Lakka from captivity. Return to Isfar outside the Sethekk Halls when you've completed the rescue."
-Inst46Quest1_Location = "Isfar (Terokkar Forest; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest1_Note = "none"
+Inst46Quest1_Location = "Isfar (Terokkar Forest - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
+Inst46Quest1_Note = "Darkweaver Syth is at "..YELLOW.."[1]"..WHITE..". Lakka is in a cage nearby. Openning her cage does not spawn enemies."
 Inst46Quest1_Prequest = "No"
 Inst46Quest1_Folgequest = "No"
 --
@@ -6180,14 +6183,27 @@ Inst46Quest2 = "2. Terokk's Legacy"
 Inst46Quest2_Level = "69"
 Inst46Quest2_Attain = "65"
 Inst46Quest2_Aim = "Bring Terokk's Mask, Terokk's Quill, and the Saga of Terokk to Isfar outside the Sethekk Halls."
-Inst46Quest2_Location = "Isfar (Terokkar Forest; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest2_Note = "Mask at 1, Book at 2, Quill at 3. The Mask and Quill will drop from bosses, the Book is on the floor and will respawn shortly after someone takes it."
+Inst46Quest2_Location = "Isfar (Terokkar Forest - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
+Inst46Quest2_Note = "Terokk's Mask drops off Darkweaver Syth at "..YELLOW.."[1]"..WHITE..", the Saga of Terokk is found at "..YELLOW.."[2]"..WHITE.." and Terokk's Quill drops from Talon King Ikiss at "..YELLOW.."[3]"..WHITE.."."
 Inst46Quest2_Prequest = "No"
 Inst46Quest2_Folgequest = "No"
 --
 Inst46Quest2name1 = "The Saga of Terokk"
 Inst46Quest2name2 = "Terokk's Mask"
 Inst46Quest2name3 = "Terokk's Quill"
+
+--Quest 3 Alliance
+Inst46Quest3 = "3. Vanquish the Raven God (Druid - Heroic)"
+Inst46Quest3_Level = "70"
+Inst46Quest3_Attain = "70"
+Inst46Quest3_Aim = "Slay the Raven God and return to Morthis Whisperwing at Cenarion Refuge."
+Inst46Quest3_Location = "Morthis Whisperwing (Zangarmarsh - Cenarion Refuge; "..YELLOW.."80,65"..WHITE..")"
+Inst46Quest3_Note = "Requires Heroic Dungeon Difficulty. This is the last quest in the Druid Swift Flight Form questline. The Raven God Anzu is summoned at "..YELLOW.."[2]"..WHITE.." with materials provided by the quest giver."
+Inst46Quest3_Prequest = "Yes, The Eagle's Essence -> Chasing the Moonstone"
+Inst46Quest3_Folgequest = "No"
+Inst46Quest3Prequest = "true"
+--
+Inst46Quest3name1 = "Idol of the Raven Goddess"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6219,6 +6235,19 @@ Inst46Quest2name1_HORDE = Inst46Quest2name1
 Inst46Quest2name2_HORDE = Inst46Quest2name2
 Inst46Quest2name3_HORDE = Inst46Quest2name3
 
+--Quest3 Horde  (same as Quest 3 Alliance)
+Inst46Quest3_HORDE = Inst46Quest3
+Inst46Quest3_HORDE_Level = Inst46Quest3_Level
+Inst46Quest3_HORDE_Attain = Inst46Quest3_Attain
+Inst46Quest3_HORDE_Aim = Inst46Quest3_Aim
+Inst46Quest3_HORDE_Location = Inst46Quest3_Location
+Inst46Quest3_HORDE_Note = Inst46Quest3_Note
+Inst46Quest3_HORDE_Prequest = Inst46Quest3_Prequest
+Inst46Quest3_HORDE_Folgequest = Inst46Quest3_Folgequest
+Inst46Quest3Prequest_HORDE = Inst46Quest3Prequest
+--
+Inst46Quest3name1_HORDE = Inst46Quest3name1
+
 
 
 --------------- INST47 - Auchindoun: Shadow Labyrinth (SLabs) ---------------
@@ -6233,7 +6262,7 @@ Inst47Quest1 = "1. Find Spy To'gun"
 Inst47Quest1_Level = "70"
 Inst47Quest1_Attain = "68"
 Inst47Quest1_Aim = "Locate Spy To'gun in the Shadow Labyrinth of Auchindoun."
-Inst47Quest1_Location = "Spy Grik'tha (Terokkar Forest; "..YELLOW.."40,72"..WHITE..")"
+Inst47Quest1_Location = "Spy Grik'tha (Terokkar Forest - Auchindoun; "..YELLOW.."40,72"..WHITE..")"
 Inst47Quest1_Note = "To'gun is at "..YELLOW.."[1]"..WHITE..", and also shows on minimap"
 Inst47Quest1_Prequest = "No"
 Inst47Quest1_Folgequest = "Yes, The Soul Devices"
@@ -6245,9 +6274,10 @@ Inst47Quest2_Level = "70"
 Inst47Quest2_Attain = "68"
 Inst47Quest2_Aim = "Steal 5 Soul Devices and deliver them to Spymistress Mehlisah Highcrown at the Terrace of the Light in Shattrath City."
 Inst47Quest2_Location = "Spy To'gun (Shadow Labyrinth; "..YELLOW.."[1]"..WHITE..")"
-Inst47Quest2_Note = "Spymistress Mehlisah Highcrown (Shattrath City; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest2_Note = "Soul Devices are the dark purple orbs that can be found scattered around the instance. Spymistress Mehlisah Highcrown is at (Shattrath City - Terrace of Light; "..YELLOW.."51,45"..WHITE..")"
 Inst47Quest2_Prequest = "Yes, Find Spy To'gun"
 Inst47Quest2_Folgequest = "No"
+Inst47Quest2FQuest = "true"
 --
 Inst47Quest2name1 = "Shattrath Wraps"
 Inst47Quest2name2 = "Spymistress's Wristguards"
@@ -6260,7 +6290,7 @@ Inst47Quest3_Level = "70"
 Inst47Quest3_Attain = "68"
 Inst47Quest3_Aim = "Venture inside the Shadow Labyrinth in Auchindoun and obtain the Book of Fel Names from Blackheart the Inciter. Return to Altruis in Nagrand once you've completed this task."
 Inst47Quest3_Location = "Altruis the Sufferer (Nagrand; "..YELLOW.."27,43"..WHITE..")"
-Inst47Quest3_Note = "This is the last part of a chain quest that stars in Shadowmoon Valley 61,28 for Aldor, 55,58 for Scryer"
+Inst47Quest3_Note = "Blackheart the Inciter is at "..YELLOW.."[3]"..WHITE..". This is the last part of a chain quest that starts in Shadowmoon Valley at "..YELLOW.."61,28"..WHITE.." for Aldor and "..YELLOW.."55,58"..WHITE.." for Scryer"
 Inst47Quest3_Prequest = "Yes, Illidan's Pupil"
 Inst47Quest3_Folgequest = "Yes, Return to the Aldor or Return to the Scryers"
 -- No Rewards for this quest
@@ -6270,8 +6300,8 @@ Inst47Quest4 = "4. Trouble at Auchindoun"
 Inst47Quest4_Level = "70"
 Inst47Quest4_Attain = "68"
 Inst47Quest4_Aim = "Report to Field Commander Mahfuun at the entrance to the Shadow Labyrinth at Auchindoun in Terokkar Forest."
-Inst47Quest4_Location = "Spymistress Mehlisah Highcrown (Nagrand; "..YELLOW.."51,45"..WHITE..")"
-Inst47Quest4_Note = "None"
+Inst47Quest4_Location = "Spymistress Mehlisah Highcrown (Shattrath City - Terrace of Light; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest4_Note = "Field Commander Mahfuun is at (Terrokar Forest - Auchindoun; "..YELLOW.."40,72"..WHITE.."), just out the Shadow Labyrinth entrance."
 Inst47Quest4_Prequest = "No"
 Inst47Quest4_Folgequest = "Yes, The Codex of Blood"
 -- No Rewards for this quest
@@ -6281,10 +6311,11 @@ Inst47Quest5 = "5. The Codex of Blood"
 Inst47Quest5_Level = "70"
 Inst47Quest5_Attain = "68"
 Inst47Quest5_Aim = "Read from the Codex of Blood in the Shadow Labyrinth of Auchindoun."
-Inst47Quest5_Location = "Field Commander Mahfuun (Nagrand; "..YELLOW.."40,72"..WHITE..")"
-Inst47Quest5_Note = "The Codex of Blood is just infront of Grandmaster Vorpil"
+Inst47Quest5_Location = "Field Commander Mahfuun (Terrokar Forest - Auchindoun; "..YELLOW.."40,72"..WHITE..")"
+Inst47Quest5_Note = "The Codex of Blood is just in front of Grandmaster Vorpil at "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest5_Prequest = "Yes, Trouble at Auchindoun"
 Inst47Quest5_Folgequest = "Yes, Into the Heart of the Labyrinth"
+Inst47Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -6292,10 +6323,11 @@ Inst47Quest6 = "6. Into the Heart of the Labyrinth"
 Inst47Quest6_Level = "70"
 Inst47Quest6_Attain = "68"
 Inst47Quest6_Aim = "Destroy Murmur and inform Spymistress Mehlisah Highcrown at the Terrace of Light in Shattrath City of the events that have transpired inside the Shadow Labyrinth."
-Inst47Quest6_Location = "The Codex of Blood (Nagrand; "..YELLOW.."[4]"..WHITE..")"
-Inst47Quest6_Note = "Spymistress Mehlisah Highcrown (Nagrand; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest6_Location = "The Codex of Blood (Shadow Labyrinth; "..YELLOW.."[4]"..WHITE..")"
+Inst47Quest6_Note = "Murmur is at "..YELLOW.."[5]"..WHITE..". Spymistress Mehlisah Highcrown is at (Shattrath City - Terrace of Light; "..YELLOW.."51,45"..WHITE..")"
 Inst47Quest6_Prequest = "Yes, The Codex of Blood"
 Inst47Quest6_Folgequest = "No"
+Inst47Quest6FQuest = "true"
 --
 Inst47Quest6name1 = "Shattrath Jumpers"
 Inst47Quest6name2 = "Spymistress's Boots"
@@ -6307,8 +6339,8 @@ Inst47Quest7 = "7. Trial of the Naaru: Strength (Heroic)"
 Inst47Quest7_Level = "70"
 Inst47Quest7_Attain = "70"
 Inst47Quest7_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
-Inst47Quest7_Location = "A'dal (Shattrath City; "..YELLOW.."53,43"..WHITE..")"
-Inst47Quest7_Note = "Requires Heroic Dungeon Difficulty. Kalithresh's Trident comes from The Steamvault.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary. The Epic ring obtained after all Trial of the Naaru quests are completed may be useful though."
+Inst47Quest7_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst47Quest7_Note = "Requires Heroic Dungeon Difficulty. Murmur is at "..YELLOW.."[5]"..WHITE..". Kalithresh's Trident comes from The Steamvault.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst47Quest7_Prequest = "No"
 Inst47Quest7_Folgequest = "No"
 -- No Rewards for this quest
@@ -6318,10 +6350,11 @@ Inst47Quest8 = "8. Entry Into Karazhan"
 Inst47Quest8_Level = "70"
 Inst47Quest8_Attain = "68"
 Inst47Quest8_Aim = "Khadgar wants you to enter the Shadow Labyrinth at Auchindoun and retrieve the First Key Fragment from an Arcane Container hidden there. Return to Khadgar with the fragment."
-Inst47Quest8_Location = "Khadgar (Shattrath City; "..YELLOW.."54,44"..WHITE..")"
-Inst47Quest8_Note = "This is part of the Karazhan attunement line. The remaining Key Fragments are in Steamvaults and Arcatraz."
+Inst47Quest8_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54,44"..WHITE..")"
+Inst47Quest8_Note = "Part of the Karazhan attunement line. The Arcane Container is next to Murmur at "..YELLOW.."[5]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment."
 Inst47Quest8_Prequest = "Yes, Khadgar"
 Inst47Quest8_Folgequest = "Yes, Entry into Karazhan"
+Inst47Quest8Prequest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
@@ -6329,10 +6362,11 @@ Inst47Quest9 = "9. The Lexicon Demonica"
 Inst47Quest9_Level = "69"
 Inst47Quest9_Attain = "67"
 Inst47Quest9_Aim = "Obtain the Lexicon Demonica from Grandmaster Vorpil and bring it to David Wayne at Wayne's Refuge."
-Inst47Quest9_Location = "David Wayne (Terokkar Forest; "..YELLOW.."78,39"..WHITE..")."
-Inst47Quest9_Note = "Grandmaster Vorpil is at "..YELLOW.."[4]"..WHITE.."."
+Inst47Quest9_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
+Inst47Quest9_Note = "Grandmaster Vorpil is at "..YELLOW.."[4]"..WHITE..". Completing this quest along with Fresh from the Mechanar ("..YELLOW.."TK: The Mechanar"..WHITE..") will open up two new quests from David Wayne."
 Inst47Quest9_Prequest = "Yes, Additional Materials"
 Inst47Quest9_Folgequest = "No"
+Inst47Quest9Prequest = "true"
 -- No Rewards for this quest
 
 
@@ -6356,6 +6390,7 @@ Inst47Quest2_HORDE_Location = Inst47Quest2_Location
 Inst47Quest2_HORDE_Note = Inst47Quest2_Note
 Inst47Quest2_HORDE_Prequest = Inst47Quest2_Prequest
 Inst47Quest2_HORDE_Folgequest = Inst47Quest2_Folgequest
+Inst47Quest2FQuest_HORDE = Inst47Quest2FQuest
 --
 Inst47Quest2name1_HORDE = Inst47Quest2name1
 Inst47Quest2name2_HORDE = Inst47Quest2name2
@@ -6393,6 +6428,7 @@ Inst47Quest5_HORDE_Location = Inst47Quest5_Location
 Inst47Quest5_HORDE_Note = Inst47Quest5_Note
 Inst47Quest5_HORDE_Prequest = Inst47Quest5_Prequest
 Inst47Quest5_HORDE_Folgequest = Inst47Quest5_Folgequest
+Inst47Quest5FQuest_HORDE = Inst47Quest5FQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -6404,6 +6440,7 @@ Inst47Quest6_HORDE_Location = Inst47Quest6_Location
 Inst47Quest6_HORDE_Note = Inst47Quest6_Note
 Inst47Quest6_HORDE_Prequest = Inst47Quest6_Prequest
 Inst47Quest6_HORDE_Folgequest = Inst47Quest6_Folgequest
+Inst47Quest6FQuest_HORDE = Inst47Quest6FQuest
 --
 Inst47Quest6name1_HORDE = Inst47Quest6name1
 Inst47Quest6name2_HORDE = Inst47Quest6name2
@@ -6430,6 +6467,7 @@ Inst47Quest8_HORDE_Location = Inst47Quest8_Location
 Inst47Quest8_HORDE_Note = Inst47Quest8_Note
 Inst47Quest8_HORDE_Prequest = Inst47Quest8_Prequest
 Inst47Quest8_HORDE_Folgequest = Inst47Quest8_Folgequest
+Inst47Quest8Prequest_HORDE = Inst47Quest8Prequest
 -- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
@@ -6441,6 +6479,7 @@ Inst47Quest9_HORDE_Location = Inst47Quest9_Location
 Inst47Quest9_HORDE_Note = Inst47Quest9_Note
 Inst47Quest9_HORDE_Prequest = Inst47Quest9_Prequest
 Inst47Quest9_HORDE_Folgequest = Inst47Quest9_Folgequest
+Inst47Quest9Prequest_HORDE = Inst47Quest8Prequest
 -- No Rewards for this quest
 
 
@@ -7150,10 +7189,11 @@ Inst54Quest4 = "4. The Second and Third Fragments"
 Inst54Quest4_Level = "70"
 Inst54Quest4_Attain = "68"
 Inst54Quest4_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst54Quest4_Location = "A'dal (Shattrath City; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest4_Note = "The Arcane Container is at "..YELLOW.."[2]"..WHITE.."."
+Inst54Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest4_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..YELLOW.."[2]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
 Inst54Quest4_Prequest = "Yes, Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst54Quest4_Folgequest = "Yes, The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
+Inst54Quest4Prequest = "true"
 -- No Rewards for this quest
 
 
@@ -7202,6 +7242,7 @@ Inst54Quest4_HORDE_Location = Inst54Quest4_Location
 Inst54Quest4_HORDE_Note = Inst54Quest4_Note
 Inst54Quest4_HORDE_Prequest = Inst54Quest4_Prequest
 Inst54Quest4_HORDE_Folgequest = Inst54Quest4_Folgequest
+Inst54Quest4Prequest_HORDE = Inst54Quest4Prequest
 -- No Rewards for this quest
 
 
@@ -7325,8 +7366,8 @@ Inst56Quest2 = "2. Fresh from the Mechanar"
 Inst56Quest2_Level = "69"
 Inst56Quest2_Attain = "67"
 Inst56Quest2_Aim = "David Wayne at Wayne's Retreat wants you to bring him an Overcharged Manacell."
-Inst56Quest2_Location = "David Wayne (Terokkar Forest; "..YELLOW.."78,39"..WHITE..")."
-Inst56Quest2_Note = "The cell is before Mechano-Lord Capacitus at "..YELLOW.."[3]"..WHITE.." in a box near the wall."
+Inst56Quest2_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
+Inst56Quest2_Note = "The cell is before Mechano-Lord Capacitus at "..YELLOW.."[3]"..WHITE.." in a box near the wall. Completing this quest along with The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..") will open up two new quests from David Wayne."
 Inst56Quest2_Prequest = "Yes, Additional Materials"
 Inst56Quest2_Folgequest = "No"
 -- No Rewards for this quest

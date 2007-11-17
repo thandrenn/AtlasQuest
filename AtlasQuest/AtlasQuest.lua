@@ -50,9 +50,9 @@ local Initialized = nil; -- the variables are not loaded yet
 
 Allianceorhorde = 1; -- variable that configures whether horde or allianz is shown
 
-local EnglishFraction = ""; -- necessary to detect which fraction the player is in
+--local EnglishFraction = ""; -- necessary to detect which fraction the player is in
 
-local LocalizedFraction = ""; -- necessary to detect which fraction the player is in
+--local LocalizedFraction = ""; -- necessary to detect which fraction the player is in
 
 AQINSTANZ = 1; -- currently shown instance-pic (see AtlasQuest_Instanzen.lua)
 
@@ -82,7 +82,7 @@ local AtlasQuest_Defaults = {
     ["AtlasAutoShow"] = 1,
     ["NOColourCheck"] = nil,
     ["CheckQuestlog"] = nil,
-    ["SetFraction"] = nil,
+--    ["SetFraction"] = nil,
     ["EquipCompare"] = nil,
   },
 };
@@ -162,7 +162,7 @@ function AtlasQuest_LoadData()
   --AQCheckQuestlog
   AQCheckQuestlog = AtlasQuest_Options[UnitName("player")]["CheckQuestlog"];
   -- Fraction option
-  AQSetFraction = AtlasQuest_Options[UnitName("player")]["SetFraction"];
+--  AQSetFraction = AtlasQuest_Options[UnitName("player")]["SetFraction"];
   -- EquipCompare
   AQEquipCompare = AtlasQuest_Options[UnitName("player")]["EquipCompare"];
   if (AQEquipCompare ~= nil and EquipCompare_RegisterTooltip) then
@@ -180,7 +180,7 @@ function AtlasQuest_SaveData()
   AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"] = AQAtlasAuto;
   AtlasQuest_Options[UnitName("player")]["ColourCheck"] = AQNOColourCheck;
   AtlasQuest_Options[UnitName("player")]["CheckQuestlog"] = AQCheckQuestlog;
-  AtlasQuest_Options[UnitName("player")]["SetFraction"] = AQSetFraction;
+--  AtlasQuest_Options[UnitName("player")]["SetFraction"] = AQSetFraction;
   AtlasQuest_Options[UnitName("player")]["EquipCompare"] = AQEquipCompare;
 end
 
@@ -209,7 +209,6 @@ function AQ_OnLoad()
     HideUIPanel(AtlasQuestFrame);
     HideUIPanel(AtlasQuestInsideFrame);
     HideUIPanel(AtlasQuestOptionFrame);
-    --AQAtlasVersionCheck();
     AQUpdateNOW = true;
 end
 
@@ -220,29 +219,6 @@ function AQSlashCommandfunction()
     SlashCmdList["ATLASQ"]=atlasquest_command;
 	SLASH_ATLASQ1="/aq";
 	SLASH_ATLASQ2="/atlasquest";
-end
-
--------------------------------
--- Atlas Version Check (deactivated)
--------------------------------
-function AQAtlasVersionCheck()
-   -- if (ATLAS_VERSION == "1.8") then
-   --     --do nothing
-   --   else
-   --       ChatFrame1:AddMessage(ATLAS_VERSIONWARNINGTEXT);
-   -- end -- currently useless and buggy, maybe reintoduce it later
-end
-
-------------------------------
--- check the fraction and set the check button --disabeld
--------------------------------
-function AQFraktionCheck()
-  --  EnglishFraction, LocalizedFraction = UnitFactionGroup("player");
-  --  if ( EnglishFraction == "Horde") then
-  --     Allianceorhorde = 2;
-  --     AQHCB:SetChecked(true);
-  --     AQACB:SetChecked(false);
-  --  end
 end
 
 ---------------------------------
@@ -260,7 +236,7 @@ function AQSetButtontext()
       AQColourOptionTEXT:SetText(AQOptionsCCTEXT);
       AQFQ_TEXT:SetText(AQFinishedTEXT);
       AQCheckQuestlogTEXT:SetText(AQQLColourChange);
-      AQSetFractionTEXT:SetText(AQOptionsSetFractionTEXT);
+--      AQSetFractionTEXT:SetText(AQOptionsSetFractionTEXT);
       AQEquipCompareOptionTEXT:SetText(WHITE .. AQOptionEquipCompareTEXT)
 end
 
@@ -278,14 +254,8 @@ end
 ---------------------------------
 function atlasquest_command(param)
 
-  -- Version text (AQ and Atlas(if there) and Alphamap (if there))
-  ChatFrame1:AddMessage(ATLASQUEST_VERSION);
-  if (AtlasFrame ~= nil) then
-    ChatFrame1:AddMessage("Atlasversion: "..ATLAS_VERSION);
-  end
-  if (AlphaMapFrame ~= nil) then
-    ChatFrame1:AddMessage("AlphaMapversion: "..ALPHA_MAP_VERSION);
-  end
+ -- Show help text if no /aq command used.
+    ChatFrame1:AddMessage(RED..AQHelpText);
 
   --help text
   if (param == "help") then
@@ -361,7 +331,8 @@ function atlasquest_command(param)
         ChatFrame1:AddMessage(Orange..getglobal("Inst"..AQINSTANZ.."Quest"..q.."_HORDE"));
      end
      
-  else
+ -- Very temporary fix to /AQ bug. Must find way to check if Param is an Integer. Where's isint()?
+  elseif (param == "1") then 
      ChatFrame1:AddMessage(RED..getglobal("Inst"..AQINSTANZ.."Caption"));
      
      --Alliance
@@ -771,7 +742,7 @@ end
 ---------------------------------
 -- ask Server right-click
 -- + shift click to send link
--- + str click for dressroom
+-- + ctrl click for dressroom
 -- BIG THANKS TO Daviesh and ATLASLOOT for the CODE
 ---------------------------------
 function AtlasQuestItem_OnClick(arg1)
@@ -817,20 +788,21 @@ end
 ------------------ OnEnter/OnLeave SHOW ITEM -> END
 
 ---------------------------------
--- only added for the SetFraction option
+-- Automatically show Horde or Alliance quests based on player's faction when AtlasQuest is opened.
 ---------------------------------
 function AQ_OnShow()
-  if (AQSetFraction ~= nil) then
-    Allianceorhorde = 2;
-    AQHCB:SetChecked(true);
-    AQACB:SetChecked(false);
-  else
-    Allianceorhorde = 1;
-    AQHCB:SetChecked(false);
-    AQACB:SetChecked(true);
-  end
+   if ( UnitFactionGroup("player") == "Horde") then
+      Allianceorhorde = 2;
+      AQHCB:SetChecked(true);
+      AQACB:SetChecked(false);
+   else
+      Allianceorhorde = 1;
+      AQHCB:SetChecked(false);
+      AQACB:SetChecked(true);
+   end
   AtlasQuestSetTextandButtons()
 end
+
 -------------------------------------------------------------------------------------------------------------------
 
 --|cffff0000 - player 1 (red)

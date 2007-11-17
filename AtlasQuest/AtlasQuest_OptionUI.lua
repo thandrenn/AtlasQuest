@@ -53,12 +53,12 @@ function AtlasQuestOptionFrame_OnShow()
     else
       AQCheckQuestlogButton:SetChecked(false);
     end
-    -- SetFraction
-    if (AQSetFraction == nil) then
-      AQSetFractionOption:SetChecked(true);
-    else
-      AQSetFractionOption:SetChecked(false);
-    end
+    -- SetFraction (removed 4.0.11)
+--    if (AQSetFraction == nil) then
+--      AQSetFractionOption:SetChecked(true);
+--    else
+--      AQSetFractionOption:SetChecked(false);
+--    end
     -- Equip Compare support
     if( not EquipCompare_RegisterTooltip ) then
       AQEquipCompareOption:Disable();
@@ -167,16 +167,16 @@ end
 ---------------------------------
 -- Set the Fraction you see first when you open AQ
 ---------------------------------
-function AQSetFractionOption_OnClick()
- if (AQSetFraction == nil) then
-   AQSetFraction = "bla";
-   AQSetFractionOption:SetChecked(false);
- else
-   AQSetFraction = nil;
-   AQSetFractionOption:SetChecked(true);
- end
- AtlasQuest_SaveData();
-end
+--function AQSetFractionOption_OnClick()
+-- if (AQSetFraction == nil) then
+--   AQSetFraction = "bla";
+--   AQSetFractionOption:SetChecked(false);
+-- else
+--   AQSetFraction = nil;
+--   AQSetFractionOption:SetChecked(true);
+-- end
+-- AtlasQuest_SaveData();
+--end
 
 ---------------------------------
 -- sets whether you use EquipCompare or not
