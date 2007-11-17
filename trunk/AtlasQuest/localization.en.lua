@@ -5574,6 +5574,7 @@ Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLO
 Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE.."."
 Inst39Quest6_Prequest = "Yes, Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Yes, Bane of the Illidari"
+Inst39Quest6Prequest = "true"
 -- No Rewards for this quest
 
 
@@ -5634,6 +5635,7 @@ Inst39Quest5_HORDE_Location = Inst39Quest6_Location
 Inst39Quest5_HORDE_Note = Inst39Quest6_Note
 Inst39Quest5_HORDE_Prequest = Inst39Quest6_Prequest
 Inst39Quest5_HORDE_Folgequest = Inst39Quest6_Folgequest
+Inst39Quest5Prequest_HORDE = Inst39Quest6Prequest
 -- No Rewards for this quest
 
 
@@ -5657,6 +5659,7 @@ Inst40Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."5
 Inst40Quest1_Note = "Must have completed Trial of the Naaru Mercy, Trial of the Naaru Strength and Trial of the Naaru Tenacity all available from A'dal.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst40Quest1_Prequest = "Yes, Trial of the Naaru: Tenacity, Mercy & Strength quests."
 Inst40Quest1_Folgequest = "No"
+Inst40Quest1Prequest = "true"
 --
 Inst40Quest1name1 = "Phoenix-fire Band"
 
@@ -5685,6 +5688,7 @@ Inst40Quest1_HORDE_Location = Inst40Quest1_Location
 Inst40Quest1_HORDE_Note = Inst40Quest1_Note
 Inst40Quest1_HORDE_Prequest = Inst40Quest1_Prequest
 Inst40Quest1_HORDE_Folgequest = Inst40Quest1_Folgequest
+Inst40Quest1Prequest_HORDE = Inst40Quest1Prequest
 --
 Inst40Quest1name1_HORDE = Inst40Quest1name1
 
@@ -5721,7 +5725,7 @@ Inst41Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..
 Inst41Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Naturalist Bite is at "..YELLOW.."[4]"..WHITE..", Weeder Greenthumb is at "..YELLOW.."[2]"..WHITE..", this quest continues in Underbog. The prequests do not appear to be necessary to obtain this quest."
 Inst41Quest1_Prequest = "Yes, Drain Schematics -> Failed Incursion"
 Inst41Quest1_Folgequest = "No"
-Inst41QuestPrequest = "true"
+Inst41Quest1Prequest = "true"
 --
 Inst41Quest1name1 = "Cenarion Ring of Casting"
 Inst41Quest1name2 = "Goldenvine Wraps"
@@ -5737,6 +5741,7 @@ Inst41Quest1_HORDE_Location = Inst41Quest1_Location
 Inst41Quest1_HORDE_Note = Inst41Quest1_Note
 Inst41Quest1_HORDE_Prequest = Inst41Quest1_Prequest
 Inst41Quest1_HORDE_Folgequest = Inst41Quest1_Folgequest
+Inst41Quest1Prequest_HORDE = Inst41Quest1Prequest
 --
 Inst41Quest1name1_HORDE = Inst41Quest1name1
 Inst41Quest1name2_HORDE = Inst41Quest1name2
@@ -5756,8 +5761,8 @@ Inst42Quest1 = "1. The Warlord's Hideout"
 Inst42Quest1_Level = "70"
 Inst42Quest1_Attain = "67"
 Inst42Quest1_Aim = "Watcher Jhang wants you to find and slay Warlord Kalithresh inside Coilfang Reservoir."
-Inst42Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52, 36"..WHITE..")"
-Inst42Quest1_Note = "Make sure to destroy the Tanks when Kalithresh uses them."
+Inst42Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..WHITE..")"
+Inst42Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Warlord Kalithresh is at "..YELLOW.."[4]"..WHITE..". Make sure to destroy the Tanks when Kalithresh uses them."
 Inst42Quest1_Prequest = "No"
 Inst42Quest1_Folgequest = "No"
 --
@@ -5771,8 +5776,8 @@ Inst42Quest2 = "2. Orders from Lady Vashj"
 Inst42Quest2_Level = "70"
 Inst42Quest2_Attain = "67"
 Inst42Quest2_Aim = "Deliver the Orders from Lady Vashj to Ysiel Windsinger at the Cenarion Refuge in Zangarmarsh."
-Inst42Quest2_Location = "This quest starts from a item dropped at random inside Steamvaults. Ysiel Windsinger is at "..YELLOW.."78, 62"..WHITE.."."
-Inst42Quest2_Note = "This quest enables you to turn in Coilfang Armaments for Cenarion Refuge reputation.  So be sure to keep the Armaments that randomly drop off mobs inside the instance."
+Inst42Quest2_Location = "Orders from Lady Vashj (random drop from Steamvaults)"
+Inst42Quest2_Note = "Ysiel Windsinger is at Terrokar Forest - Cenarion Refuge; ("..YELLOW.."78,62"..WHITE.."). This quest enables you to turn in Coilfang Armaments for Cenarion Expedition reputation.  Coilfang Armaments are random drops and can be collected (but not turned in) before you do this quest.."
 Inst42Quest2_Prequest = "No"
 Inst42Quest2_Folgequest = "No"
 -- No Rewards for this quest
@@ -5782,8 +5787,8 @@ Inst42Quest3 = "3. Trial of the Naaru: Strength (Heroic)"
 Inst42Quest3_Level = "70"
 Inst42Quest3_Attain = "70"
 Inst42Quest3_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
-Inst42Quest3_Location = "A'dal (Shattrath City; "..YELLOW.."53, 43"..WHITE..")"
-Inst42Quest3_Note = "Requires Heroic Dungeon Difficulty. Murmur's Essence comes from Shadow Labyrinth.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary. The Epic ring obtained after all Trial of the Naaru quests are completed may be useful though."
+Inst42Quest3_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst42Quest3_Note = "Requires Heroic Dungeon Difficulty. Warlord Kalithresh is at "..YELLOW.."[4]"..WHITE..". Murmur's Essence comes from Shadow Labyrinth.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst42Quest3_Prequest = "No"
 Inst42Quest3_Folgequest = "No"
 -- No Rewards for this quest
@@ -5793,10 +5798,11 @@ Inst42Quest4 = "4. Underworld Loam"
 Inst42Quest4_Level = "70"
 Inst42Quest4_Attain = "70"
 Inst42Quest4_Aim = "Get a Vial of Underworld Loam from Hydromancer Thespia and bring it to David Wayne at Wayne's Refuge."
-Inst42Quest4_Location = "David Wayne (Terokkar Forest; "..YELLOW.."78,39"..WHITE..")."
+Inst42Quest4_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")"
 Inst42Quest4_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE.."."
 Inst42Quest4_Prequest = "Yes, Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest4_Folgequest = "Yes, Bane of the Illidari"
+Inst42Quest4Prequest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -5804,10 +5810,11 @@ Inst42Quest5 = "5. The Second and Third Fragments"
 Inst42Quest5_Level = "70"
 Inst42Quest5_Attain = "68"
 Inst42Quest5_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst42Quest5_Location = "A'dal (Shattrath City; "..YELLOW.."53,43"..WHITE..")"
+Inst42Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
 Inst42Quest5_Note = "The Arcane Container is at "..YELLOW.."[2]"..WHITE..", at the bottom of a pool of water."
 Inst42Quest5_Prequest = "Yes, Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest5_Folgequest = "Yes, The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
+Inst42Quest5Prequest = "true"
 -- No Rewards for this quest
 
 
@@ -5857,6 +5864,7 @@ Inst42Quest4_HORDE_Location = Inst42Quest4_Location
 Inst42Quest4_HORDE_Note = Inst42Quest4_Note
 Inst42Quest4_HORDE_Prequest = Inst42Quest4_Prequest
 Inst42Quest4_HORDE_Folgequest = Inst42Quest4_Folgequest
+Inst42Quest4Prequest_HORDE = Inst42Quest4Prequest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -5868,6 +5876,7 @@ Inst42Quest5_HORDE_Location = Inst42Quest5_Location
 Inst42Quest5_HORDE_Note = Inst42Quest5_Note
 Inst42Quest5_HORDE_Prequest = Inst42Quest5_Prequest
 Inst42Quest5_HORDE_Folgequest = Inst42Quest5_Folgequest
+Inst42Quest5Prequest_HORDE = Inst42Quest5Prequest
 -- No Rewards for this quest
 
 
@@ -5884,11 +5893,11 @@ Inst43Quest1 = "1. Lost in Action"
 Inst43Quest1_Level = "65"
 Inst43Quest1_Attain = "62"
 Inst43Quest1_Aim = "Discover what happened to Earthbinder Rayge, Naturalist Bite, Weeder Greenthumb, and Windcaller Claw. Then, return to Watcer Jhang at Coilfang Reservoir in Zangarmarsh."
-Inst43Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52, 36"..WHITE..")"
+Inst43Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..WHITE..")"
 Inst43Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Earthbinder Rayge is at "..YELLOW.."[3]"..WHITE..", Windcaller Claw is at "..YELLOW.."[4]"..WHITE..". The prequests do not appear to be necessary to obtain this quest."
 Inst43Quest1_Prequest = "Yes, Drain Schematics -> Failed Incursion"
 Inst43Quest1_Folgequest = "No"
-Inst43QuestPrequest = "true"
+Inst43Quest1Prequest = "true"
 --
 Inst43Quest1name1 = "Cenarion Ring of Casting"
 Inst43Quest1name2 = "Goldenvine Wraps"
@@ -5899,8 +5908,8 @@ Inst43Quest2 = "2. Oh, It's On!"
 Inst43Quest2_Level = "65"
 Inst43Quest2_Attain = "63"
 Inst43Quest2_Aim = "Gather an Underspore Frond and return it to T'shu at Sporeggar in Zangarmarsh."
-Inst43Quest2_Location = "T'shu (Zangarmarsh - Sporeggar; "..YELLOW.."19, 49"..WHITE..")"
-Inst43Quest2_Note = "You must be Neutral with Sporeggar to pick up this quest. Just behind Hungarfen, located at "..YELLOW.."[1]"..WHITE.."."
+Inst43Quest2_Location = "T'shu (Zangarmarsh - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
+Inst43Quest2_Note = "You must be Neutral with Sporeggar to pick up this quest. The Underspore Frond is just behind Hungarfen, located at "..YELLOW.."[1]"..WHITE.."."
 Inst43Quest2_Prequest = "No"
 Inst43Quest2_Folgequest = "No"
 --
@@ -5911,7 +5920,7 @@ Inst43Quest3 = "3. Stalk the Stalker"
 Inst43Quest3_Level = "65"
 Inst43Quest3_Attain = "63"
 Inst43Quest3_Aim = "Bring the Brain of the Black Stalker to Khn'nix at Sporeggar in Zangarmarsh."
-Inst43Quest3_Location = "Khn'nix (Zangarmarsh - Sporeggar; "..YELLOW.."19, 49"..WHITE..")"
+Inst43Quest3_Location = "Khn'nix (Zangarmarsh - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
 Inst43Quest3_Note = "You must be Neutral with Sporeggar to pick up this quest. The Black Stalker is located at "..YELLOW.."[5]"..WHITE.."."
 Inst43Quest3_Prequest = "No"
 Inst43Quest3_Folgequest = "No"
@@ -5929,6 +5938,7 @@ Inst43Quest1_HORDE_Location = Inst43Quest1_Location
 Inst43Quest1_HORDE_Note = Inst43Quest1_Note
 Inst43Quest1_HORDE_Prequest = Inst43Quest1_Prequest
 Inst43Quest1_HORDE_Folgequest = Inst43Quest1_Folgequest
+Inst43Quest1Prequest_HORDE = Inst43Quest1Prequest
 --
 Inst43Quest1name1_HORDE = Inst43Quest1name1
 Inst43Quest1name2_HORDE = Inst43Quest1name2
@@ -5973,10 +5983,11 @@ Inst44Quest1 = "1. Everything Will Be Alright"
 Inst44Quest1_Level = "67"
 Inst44Quest1_Attain = "64"
 Inst44Quest1_Aim = "Enter the Auchenai Crypts and destroy Exarch Maladaar so that the spirits trapped inside can finally rest in peace."
-Inst44Quest1_Location = "Greatfather Aldrimus (Terokkar Forest; "..YELLOW.."35,65 "..WHITE..")"
-Inst44Quest1_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". The pre-quest line starts with I See Dead Draenei from Ha'lei (Terokkar Forest; "..YELLOW.."35,65"..WHITE..")."
-Inst44Quest1_Prequest = "Yes, Levixus the Soul Caller"
+Inst44Quest1_Location = "Greatfather Aldrimus (Terokkar Forest; "..YELLOW.."35,65"..WHITE..")"
+Inst44Quest1_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". The prequest line starts from Ha'lei (Terokkar Forest; "..YELLOW.."35,65"..WHITE..")."
+Inst44Quest1_Prequest = "Yes, I See Dead Draenei -> Levixus the Soul Caller"
 Inst44Quest1_Folgequest = "No"
+Inst44Quest1Prequest = "true"
 --
 Inst44Quest1name1 = "Auchenai Anchorite's Robe"
 Inst44Quest1name2 = "Auchenai Monk's Tunic"
@@ -5987,23 +5998,25 @@ Inst44Quest1name4 = "The Exarch's Protector"
 --Quest 1 Horde
 Inst44Quest1_HORDE = "1. Auchindoun"
 Inst44Quest1_HORDE_Level = "68"
-Inst44Quest1_HORDE_Attain = "67"
+Inst44Quest1_HORDE_Attain = "66"
 Inst44Quest1_HORDE_Aim = "Travel to the Auchenai Crypts in the Bone Wastes of Terokkar Forest and slay Exarch Maladaar to free the spirit of D'ore."
-Inst44Quest1_HORDE_Location = "Adal (Shattrath City; "..YELLOW.."54,45"..WHITE..")"
-Inst44Quest1_HORDE_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE.."."
-Inst44Quest1_HORDE_Prequest = "Yes, A Secret Revealed"
+Inst44Quest1_HORDE_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst44Quest1_HORDE_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". D'ore appears after Exarch Maladarr has been killed."
+Inst44Quest1_HORDE_Prequest = "Yes, A Visit With the Greatmother -> A Secret Revealed"
 Inst44Quest1_HORDE_Folgequest = "Yes, What The Soul Sees"
+Inst44Quest1Prequest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
 Inst44Quest2_HORDE = "2. What the Soul Sees"
 Inst44Quest2_HORDE_Level = "68"
-Inst44Quest2_HORDE_Attain = "69"
+Inst44Quest2_HORDE_Attain = "66"
 Inst44Quest2_HORDE_Aim = "Locate a Soul Mirror somewhere in the Auchenai Crypts and use it to call forth a Darkened Spirit from Ancient Orc Ancestors in Nagrand. Destroy 15 Darkened Spirits so that the ancestors may rest in peace."
-Inst44Quest2_HORDE_Location = "D'ore (Auchenai Crypts; "..YELLOW..""..WHITE.."). Mother Kashur is at (Nagrand; "..YELLOW.."26,61"..WHITE..")."
-Inst44Quest2_HORDE_Note = "Get a group of 3 or more people before taking on the Orcs."
+Inst44Quest2_HORDE_Location = "D'ore (Auchenai Crypts; "..YELLOW.."[2]"..WHITE..")."
+Inst44Quest2_HORDE_Note = "D'ore appears after Exarch Maladarr has been killed. Mother Kashur is at (Nagrand; "..YELLOW.."26,61"..WHITE.."). Get a group of 3 or more people before taking on the Ancient Orc Spirits."
 Inst44Quest2_HORDE_Prequest = "Yes, Auchindoun"
 Inst44Quest2_HORDE_Folgequest = "Yes, Return to the Greatmother"
+Inst44Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 1 Alliance)
@@ -6015,11 +6028,12 @@ Inst44Quest3_HORDE_Location = Inst44Quest1_Location
 Inst44Quest3_HORDE_Note = Inst44Quest1_Note
 Inst44Quest3_HORDE_Prequest = Inst44Quest1_Prequest
 Inst44Quest3_HORDE_Folgequest = Inst44Quest1_Folgequest
+Inst44Quest3Prequest_HORDE = Inst44Quest1Prequest
 --
-Inst44Quest3name1_HORDE = Inst41Quest1name1
-Inst44Quest3name2_HORDE = Inst41Quest1name2
-Inst44Quest3name3_HORDE = Inst41Quest1name3
-Inst44Quest3name4_HORDE = Inst41Quest1name4
+Inst44Quest3name1_HORDE = Inst44Quest1name1
+Inst44Quest3name2_HORDE = Inst44Quest1name2
+Inst44Quest3name3_HORDE = Inst44Quest1name3
+Inst44Quest3name4_HORDE = Inst44Quest1name4
 
 
 
@@ -7651,8 +7665,8 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 Inst63Story = "The stronghold of Zul'Aman has stood for millennia as the Amani trolls' seat of power and bastion of the fearless, cunning warlord Zul'jin. \n\nZul'jin has spent several years plotting behind Zul'Aman's walls. Furious at the Horde for allowing his hated enemies, the blood elves, to join its ranks, he eagerly embraced a scheme that the witch doctor Malacrass recently proposed: to seal the power of the animal gods within the bodies of the Amani's strongest warriors. \n\nNow Zul'Aman's army grows more powerful by the day, hungry to exact vengeance in the name of its fearless leader, Zul'jin."
 Inst63Caption = "Zul'Aman"
-Inst63QAA = "1 Quest"
-Inst63QAH = "1 Quest"
+Inst63QAA = "2 Quests"
+Inst63QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst63Quest1 = "1. Promises, Promises..."
@@ -7662,10 +7676,22 @@ Inst63Quest1_Aim = "Budd Nedreck in Hatchet Hills wants you to retrieve his map 
 Inst63Quest1_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
 Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..". The prequest is optional and starts from Griftah at Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE.."."
 Inst63Quest1_Prequest = "Yes, Oooh, Shinies!"
-Inst63Quest1_Folgequest = "No"
-Inst63QuestPrequest = "true"
+Inst63Quest1_Folgequest = "Yes, X Marks... Your Doom!"
+Inst63Quest1Prequest = "true"
 --
 Inst63Quest1name1 = "Tattered Hexcloth Sack"
+
+--Quest 2 Alliance
+Inst63Quest2 = "2. X Marks... Your Doom!"
+Inst63Quest2_Level = "70"
+Inst63Quest2_Attain = "70"
+Inst63Quest2_Aim = "Enter Zul'Aman and visit Halazzi's Chamber, Jan'alai's Platform, and Akil'zon's Platform. Report the details of those areas to Budd, at his camp in the Ghostlands."
+Inst63Quest2_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest2_Note = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..". \n\nReportedly, the bosses do not need to be faught in order to get quest credit. Just get near them without aggroing." 
+Inst63Quest2_Prequest = "Yes, Promises, Promises..."
+Inst63Quest2_Folgequest = "Yes, (To Be Added)"
+Inst63Quest2FQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7677,9 +7703,21 @@ Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
 Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
 Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
-Inst63QuestPrequest_HORDE = Inst63QuestPrequest
+Inst63Quest1Prequest_HORDE = Inst63Quest1Prequest
 --
 Inst63Quest1name1_HORDE = Inst63Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst63Quest2_HORDE = Inst63Quest2
+Inst63Quest2_HORDE_Level = Inst63Quest2_Level
+Inst63Quest2_HORDE_Attain = Inst63Quest2_Attain
+Inst63Quest2_HORDE_Aim = Inst63Quest2_Aim
+Inst63Quest2_HORDE_Location = Inst63Quest2_Location
+Inst63Quest2_HORDE_Note = Inst63Quest2_Note
+Inst63Quest2_HORDE_Prequest = Inst63Quest2_Prequest
+Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
+Inst63Quest2FQuest_HORDE = Inst63Quest2FQuest
+-- No Rewards for this quest
 
 
 
