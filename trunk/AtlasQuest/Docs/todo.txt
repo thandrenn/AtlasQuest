@@ -66,10 +66,10 @@ DONE 	--	45 = Auchindoun: Mana Tombs (MT)
 DONE 	--	46 = Auchindoun: Sethekk Halls (Seth)
 DONE 	--	47 = Auchindoun: Shadow Labyrinth (SLabs)
 DONE 	--	48 = CR: Serpentshrine Cavern (SSC)
--- 	--	49 = CoT: Black Morass (BM)
--- 	--	50 = CoT: Battle of Mount Hyjal
--- 	--	51 = CoT: Old Hillsbrad
--- 	--	52 = Gruul's Lair (GL)
+DONE 	--	49 = CoT: Black Morass (BM)
+DONE	--	50 = CoT: Battle of Mount Hyjal
+DONE	--	51 = CoT: Old Hillsbrad
+DONE 	--	52 = Gruul's Lair (GL)
 -- 	--	53 = Karazhan (Kara)
 -- 	--	54 = TK: Arcatraz (Arc)
 -- 	--	55 = TK: Botanica (Bot)
@@ -87,15 +87,56 @@ NEW  	--	63 = Zul'Aman (ZA)
 
 Add Quests:
 
-Dungeon Daily quests?
 
+Onyxia's Lair: Victory for the Alliance  http://www.wowhead.com/?quest=7495  (repeatable)
+Onyxia's Lair: Victory for the Horde  http://www.wowhead.com/?quest=7490  (repeatable)
+
+
+Dungeon Heroic Dailys:
+
+HFC:
+- Ramparts: Wanted: Nazan's Riding Crop  http://www.wowhead.com/?quest=11375
+- Blood Furnace: Wanted: Keli'dan's Feathered Stave  http://www.wowhead.com/?quest=11362
+- Shattered Halls: Wanted: Bladefist's Seal  http://www.wowhead.com/?quest=11363
+- Shattered Halls: Wanted: Shattered Hand Centurions  http://www.wowhead.com/?quest=11364
+
+CF:
+- Underbog: Wanted: A Black Stalker Egg  http://www.wowhead.com/?quest=11369
+- Slave Pens: Wanted: The Heart of Quagmirran  http://www.wowhead.com/?quest=11368
+- Steamvault: Wanted: Coilfang Myrmidons  http://www.wowhead.com/?quest=11371
+- Steamvault: Wanted: The Warlord's Treatise  http://www.wowhead.com/?quest=11370
+
+Auch:
+- Auch Crypts: Wanted: The Exarch's Soul Gem  http://www.wowhead.com/?quest=11374
+- Mana Tombs: Wanted: Shaffar's Wondrous Pendant  http://www.wowhead.com/?quest=11373
+- Sethekk Halls: Wanted: The Headfeathers of Ikiss  http://www.wowhead.com/?quest=11372
+- Shadow Labyrinth: Wanted: Malicious Instructors  http://www.wowhead.com/?quest=11376
+- Shadow Labyrinth: Wanted: Murmur's Whisper  http://www.wowhead.com/?quest=11375
+
+TK:
+- Mechanar: Wanted: Pathaleon's Projector  http://www.wowhead.com/?quest=11386
+- Mechanar: Wanted: Tempest-Forge Destroyers  http://www.wowhead.com/?quest=11387
+- Botanica: Wanted: A Warp Splinter Clipping  http://www.wowhead.com/?quest=11384
+- Botanica: Wanted: Sunseeker Channelers  http://www.wowhead.com/?quest=11385
+- Arcatraz: Wanted: Arcatraz Sentinels  http://www.wowhead.com/?quest=11389
+- Arcatraz: Wanted: The Scroll of Skyriss  http://www.wowhead.com/?quest=11388
+
+CoT:
+- Durnholde: Wanted: The Epoch Hunter's Head  http://www.wowhead.com/?quest=11378
+- Black Morass: Wanted: Aeonus's Hourglass  http://www.wowhead.com/?quest=11382
+- Black Morass: Wanted: Rift Lords  http://www.wowhead.com/?quest=11383
+
+
+Outdoor Raids:
+
+Dragons of Nightmare: Shrouded in Nightmare  http://www.wowhead.com/?quest=8446
+Azuregos: Ancient Sinew Wrapped Lamina  http://www.wowhead.com/?quest=7634
+ 
 
 
 Battlegrounds (from  maqjav)
 
 Arathi Basin:
-It has only 1 quest now and it isn't from Arathi, it is for WSG.
-The correct quests are:
 - Arathor Basic Care Package (alliance) http://www.wowhead.com/?quest=8260
 - Arathor Standard Care Package (alliance) http://www.wowhead.com/?quest=8261
 - Arathor Advanced Care Package (alliance) http://www.wowhead.com/?quest=8262
@@ -108,7 +149,6 @@ The correct quests are:
 - Take Five Bases (horde) http://www.wowhead.com/?quest=8122
 
 Alterac Valley:
-It hasn't quests, they are...
 - A Gallon of Blood (horde) http://www.wowhead.com/?quest=7385
 - Alterac Valley Graveyards (alliance) http://www.wowhead.com/?quest=7081
 - Armor Scraps (alliance) http://www.wowhead.com/?quest=7223

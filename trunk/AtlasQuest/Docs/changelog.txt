@@ -8,9 +8,11 @@ Version 4.0.11 (by Thandrenn)
 - Option to show Alliance quests by default removed.
 - Fixed bug with Auchenai Crypts: Everything Will Be Alright (Horde version).
 - Fixed bug with Molten Core: A Binding Contract. Also affected "The Molten Core".
+- Fixed a few typos here and there, some Prequest icons not showing up.
 
 - Quests added:
 	- Zul'Aman: X Marks... Your Doom!
+	- Zul'Aman: Hex Lord? Hah!
 	- Sethekk Halls: Vanquish the Raven God (Druid epic flightform)
 	
 - Cleanup progress:
@@ -21,6 +23,10 @@ Version 4.0.11 (by Thandrenn)
 	- Auch: Mana Tombs
 	- Auch: Sethekk Halls
 	- Auch: Shadow Labyrinth
+	- CoT: Escape from Durnholde
+	- CoT: Black Morass
+	- CoT: Mount Hyjal
+	- Gruul's Lair
 
 
 

@@ -5573,7 +5573,7 @@ Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLO
 Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE.."."
 Inst39Quest6_Prequest = "Yes, Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Yes, Bane of the Illidari"
-Inst39Quest6Prequest = "true"
+Inst39Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -5634,7 +5634,7 @@ Inst39Quest5_HORDE_Location = Inst39Quest6_Location
 Inst39Quest5_HORDE_Note = Inst39Quest6_Note
 Inst39Quest5_HORDE_Prequest = Inst39Quest6_Prequest
 Inst39Quest5_HORDE_Folgequest = Inst39Quest6_Folgequest
-Inst39Quest5Prequest_HORDE = Inst39Quest6Prequest
+Inst39Quest5PreQuest_HORDE = Inst39Quest6Prequest
 -- No Rewards for this quest
 
 
@@ -5658,7 +5658,7 @@ Inst40Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."5
 Inst40Quest1_Note = "Must have completed Trial of the Naaru Mercy, Trial of the Naaru Strength and Trial of the Naaru Tenacity all available from A'dal.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst40Quest1_Prequest = "Yes, Trial of the Naaru: Tenacity, Mercy & Strength quests."
 Inst40Quest1_Folgequest = "No"
-Inst40Quest1Prequest = "true"
+Inst40Quest1PreQuest = "true"
 --
 Inst40Quest1name1 = "Phoenix-fire Band"
 
@@ -5687,7 +5687,7 @@ Inst40Quest1_HORDE_Location = Inst40Quest1_Location
 Inst40Quest1_HORDE_Note = Inst40Quest1_Note
 Inst40Quest1_HORDE_Prequest = Inst40Quest1_Prequest
 Inst40Quest1_HORDE_Folgequest = Inst40Quest1_Folgequest
-Inst40Quest1Prequest_HORDE = Inst40Quest1Prequest
+Inst40Quest1PreQuest_HORDE = Inst40Quest1PreQuest
 --
 Inst40Quest1name1_HORDE = Inst40Quest1name1
 
@@ -5724,7 +5724,7 @@ Inst41Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..
 Inst41Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Naturalist Bite is at "..YELLOW.."[4]"..WHITE..", Weeder Greenthumb is at "..YELLOW.."[2]"..WHITE..", this quest continues in Underbog. The prequests do not appear to be necessary to obtain this quest."
 Inst41Quest1_Prequest = "Yes, Drain Schematics -> Failed Incursion"
 Inst41Quest1_Folgequest = "No"
-Inst41Quest1Prequest = "true"
+Inst41Quest1PreQuest = "true"
 --
 Inst41Quest1name1 = "Cenarion Ring of Casting"
 Inst41Quest1name2 = "Goldenvine Wraps"
@@ -5740,7 +5740,7 @@ Inst41Quest1_HORDE_Location = Inst41Quest1_Location
 Inst41Quest1_HORDE_Note = Inst41Quest1_Note
 Inst41Quest1_HORDE_Prequest = Inst41Quest1_Prequest
 Inst41Quest1_HORDE_Folgequest = Inst41Quest1_Folgequest
-Inst41Quest1Prequest_HORDE = Inst41Quest1Prequest
+Inst41Quest1PreQuest_HORDE = Inst41Quest1PreQuest
 --
 Inst41Quest1name1_HORDE = Inst41Quest1name1
 Inst41Quest1name2_HORDE = Inst41Quest1name2
@@ -5801,7 +5801,7 @@ Inst42Quest4_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLO
 Inst42Quest4_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE.."."
 Inst42Quest4_Prequest = "Yes, Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest4_Folgequest = "Yes, Bane of the Illidari"
-Inst42Quest4Prequest = "true"
+Inst42Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -5813,7 +5813,7 @@ Inst42Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."5
 Inst42Quest5_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..YELLOW.."[2]"..WHITE..", at the bottom of a pool of water. Opening it will spawn an elemental that must be killed to get the fragment. The Third Key Fragment is in the Arcatraz."
 Inst42Quest5_Prequest = "Yes, Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest5_Folgequest = "Yes, The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
-Inst42Quest5Prequest = "true"
+Inst42Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -5863,7 +5863,7 @@ Inst42Quest4_HORDE_Location = Inst42Quest4_Location
 Inst42Quest4_HORDE_Note = Inst42Quest4_Note
 Inst42Quest4_HORDE_Prequest = Inst42Quest4_Prequest
 Inst42Quest4_HORDE_Folgequest = Inst42Quest4_Folgequest
-Inst42Quest4Prequest_HORDE = Inst42Quest4Prequest
+Inst42Quest4PreQuest_HORDE = Inst42Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -5875,7 +5875,7 @@ Inst42Quest5_HORDE_Location = Inst42Quest5_Location
 Inst42Quest5_HORDE_Note = Inst42Quest5_Note
 Inst42Quest5_HORDE_Prequest = Inst42Quest5_Prequest
 Inst42Quest5_HORDE_Folgequest = Inst42Quest5_Folgequest
-Inst42Quest5Prequest_HORDE = Inst42Quest5Prequest
+Inst42Quest5PreQuest_HORDE = Inst42Quest5PreQuest
 -- No Rewards for this quest
 
 
@@ -5896,7 +5896,7 @@ Inst43Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..
 Inst43Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Earthbinder Rayge is at "..YELLOW.."[3]"..WHITE..", Windcaller Claw is at "..YELLOW.."[4]"..WHITE..". The prequests do not appear to be necessary to obtain this quest."
 Inst43Quest1_Prequest = "Yes, Drain Schematics -> Failed Incursion"
 Inst43Quest1_Folgequest = "No"
-Inst43Quest1Prequest = "true"
+Inst43Quest1PreQuest = "true"
 --
 Inst43Quest1name1 = "Cenarion Ring of Casting"
 Inst43Quest1name2 = "Goldenvine Wraps"
@@ -5937,7 +5937,7 @@ Inst43Quest1_HORDE_Location = Inst43Quest1_Location
 Inst43Quest1_HORDE_Note = Inst43Quest1_Note
 Inst43Quest1_HORDE_Prequest = Inst43Quest1_Prequest
 Inst43Quest1_HORDE_Folgequest = Inst43Quest1_Folgequest
-Inst43Quest1Prequest_HORDE = Inst43Quest1Prequest
+Inst43Quest1PreQuest_HORDE = Inst43Quest1PreQuest
 --
 Inst43Quest1name1_HORDE = Inst43Quest1name1
 Inst43Quest1name2_HORDE = Inst43Quest1name2
@@ -5986,7 +5986,7 @@ Inst44Quest1_Location = "Greatfather Aldrimus (Terokkar Forest; "..YELLOW.."35,6
 Inst44Quest1_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". The prequest line starts from Ha'lei (Terokkar Forest - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
 Inst44Quest1_Prequest = "Yes, I See Dead Draenei -> Levixus the Soul Caller"
 Inst44Quest1_Folgequest = "No"
-Inst44Quest1Prequest = "true"
+Inst44Quest1PreQuest = "true"
 --
 Inst44Quest1name1 = "Auchenai Anchorite's Robe"
 Inst44Quest1name2 = "Auchenai Monk's Tunic"
@@ -6003,7 +6003,7 @@ Inst44Quest1_HORDE_Location = "A'dal (Shattrath City - Terrace of Light; "..YELL
 Inst44Quest1_HORDE_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". D'ore appears after Exarch Maladarr has been killed."
 Inst44Quest1_HORDE_Prequest = "Yes, A Visit With the Greatmother -> A Secret Revealed"
 Inst44Quest1_HORDE_Folgequest = "Yes, What The Soul Sees"
-Inst44Quest1Prequest_HORDE = "true"
+Inst44Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -6027,7 +6027,7 @@ Inst44Quest3_HORDE_Location = Inst44Quest1_Location
 Inst44Quest3_HORDE_Note = Inst44Quest1_Note
 Inst44Quest3_HORDE_Prequest = Inst44Quest1_Prequest
 Inst44Quest3_HORDE_Folgequest = Inst44Quest1_Folgequest
-Inst44Quest3Prequest_HORDE = Inst44Quest1Prequest
+Inst44Quest3PreQuest_HORDE = Inst44Quest1PreQuest
 --
 Inst44Quest3name1_HORDE = Inst44Quest1name1
 Inst44Quest3name2_HORDE = Inst44Quest1name2
@@ -6094,7 +6094,7 @@ Inst45Quest4_Location = "Image of Commander Ameer (Blade's Edge Mountains - Bash
 Inst45Quest4_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[4]"..WHITE..". You'll need a Mark of the Nexus-King for each."
 Inst45Quest4_Prequest = "Yes, The Mark of the Nexus-King"
 Inst45Quest4_Folgequest = "No"
-Inst45Quest4Prequest = "true"
+Inst45Quest4PreQuest = "true"
 --
 Inst45Quest4name1 = "Badge of Justice"
 
@@ -6150,7 +6150,7 @@ Inst45Quest4_HORDE_Location = Inst45Quest4_Location
 Inst45Quest4_HORDE_Note = Inst45Quest4_Note
 Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
 Inst45Quest4_HORDE_Folgequest = Inst45Quest4_Folgequest
-Inst45Quest4Prequest_HORDE = Inst45Quest4Prequest
+Inst45Quest4PreQuest_HORDE = Inst45Quest4PreQuest
 --
 Inst45Quest4name1_HORDE = Inst45Quest4name1
 
@@ -6201,7 +6201,7 @@ Inst46Quest3_Location = "Morthis Whisperwing (Zangarmarsh - Cenarion Refuge; "..
 Inst46Quest3_Note = "Requires Heroic Dungeon Difficulty. This is the last quest in the Druid Swift Flight Form questline. The Raven God Anzu is summoned at "..YELLOW.."[2]"..WHITE.." with materials provided by the quest giver."
 Inst46Quest3_Prequest = "Yes, The Eagle's Essence -> Chasing the Moonstone"
 Inst46Quest3_Folgequest = "No"
-Inst46Quest3Prequest = "true"
+Inst46Quest3PreQuest = "true"
 --
 Inst46Quest3name1 = "Idol of the Raven Goddess"
 
@@ -6244,7 +6244,7 @@ Inst46Quest3_HORDE_Location = Inst46Quest3_Location
 Inst46Quest3_HORDE_Note = Inst46Quest3_Note
 Inst46Quest3_HORDE_Prequest = Inst46Quest3_Prequest
 Inst46Quest3_HORDE_Folgequest = Inst46Quest3_Folgequest
-Inst46Quest3Prequest_HORDE = Inst46Quest3Prequest
+Inst46Quest3PreQuest_HORDE = Inst46Quest3PreQuest
 --
 Inst46Quest3name1_HORDE = Inst46Quest3name1
 
@@ -6354,7 +6354,7 @@ Inst47Quest8_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW..
 Inst47Quest8_Note = "Part of the Karazhan attunement line. The Arcane Container is next to Murmur at "..YELLOW.."[5]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment."
 Inst47Quest8_Prequest = "Yes, Khadgar"
 Inst47Quest8_Folgequest = "Yes, Entry into Karazhan"
-Inst47Quest8Prequest = "true"
+Inst47Quest8PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
@@ -6366,7 +6366,7 @@ Inst47Quest9_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLO
 Inst47Quest9_Note = "Grandmaster Vorpil is at "..YELLOW.."[4]"..WHITE..". Completing this quest along with Fresh from the Mechanar ("..YELLOW.."TK: The Mechanar"..WHITE..") will open up two new quests from David Wayne."
 Inst47Quest9_Prequest = "Yes, Additional Materials"
 Inst47Quest9_Folgequest = "No"
-Inst47Quest9Prequest = "true"
+Inst47Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -6467,7 +6467,7 @@ Inst47Quest8_HORDE_Location = Inst47Quest8_Location
 Inst47Quest8_HORDE_Note = Inst47Quest8_Note
 Inst47Quest8_HORDE_Prequest = Inst47Quest8_Prequest
 Inst47Quest8_HORDE_Folgequest = Inst47Quest8_Folgequest
-Inst47Quest8Prequest_HORDE = Inst47Quest8Prequest
+Inst47Quest8PreQuest_HORDE = Inst47Quest8PreQuest
 -- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
@@ -6479,7 +6479,7 @@ Inst47Quest9_HORDE_Location = Inst47Quest9_Location
 Inst47Quest9_HORDE_Note = Inst47Quest9_Note
 Inst47Quest9_HORDE_Prequest = Inst47Quest9_Prequest
 Inst47Quest9_HORDE_Folgequest = Inst47Quest9_Folgequest
-Inst47Quest9Prequest_HORDE = Inst47Quest8Prequest
+Inst47Quest9PreQuest_HORDE = Inst47Quest8PreQuest
 -- No Rewards for this quest
 
 
@@ -6528,7 +6528,7 @@ Inst49Quest1 = "1. The Black Morass"
 Inst49Quest1_Level = "70"
 Inst49Quest1_Attain = "66"
 Inst49Quest1_Aim = "Travel through the Caverns of Time to the Black Morass during the opening of the Dark Portal and speak with Sa'at."
-Inst49Quest1_Location = "Andormu (Tanaris; "..YELLOW.."58,54"..WHITE..")"
+Inst49Quest1_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE..")"
 Inst49Quest1_Note = "Must have completed Escape from Durnholde Keep to be attuned for Black Morass. Sa'at is just a little bit inside the instance."
 Inst49Quest1_Prequest = "No"
 Inst49Quest1_Folgequest = "Yes, The Opening of the Dark Portal"
@@ -6539,10 +6539,11 @@ Inst49Quest2 = "2. The Opening of the Dark Portal"
 Inst49Quest2_Level = "70"
 Inst49Quest2_Attain = "66"
 Inst49Quest2_Aim = "Sa'at inside the Black Morass of the Caverns of Time has tasked you with defending Medivh until he succeeds in opening the Dark Portal. Return to Sa'at should you succeed in your task."
-Inst49Quest2_Location = "Sa'at (Black Morass "..YELLOW.."Entrance"..WHITE..")"
+Inst49Quest2_Location = "Sa'at (Black Morass; "..YELLOW.."Entrance"..WHITE..")"
 Inst49Quest2_Note = "If you fail, you'll have to start the event over from the beginning."
 Inst49Quest2_Prequest = "Yes, The Black Morass"
 Inst49Quest2_Folgequest = "Yes, Hero of the Brood"
+Inst49Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -6550,10 +6551,11 @@ Inst49Quest3 = "3. Hero of the Brood"
 Inst49Quest3_Level = "70"
 Inst49Quest3_Attain = "66"
 Inst49Quest3_Aim = "Return to the child, Andormu, at the Caverns of Time in the Tanaris desert."
-Inst49Quest3_Location = "Andormu (Tanaris; "..YELLOW.."58,54"..WHITE..")"
+Inst49Quest3_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE..")"
 Inst49Quest3_Note = ""
 Inst49Quest3_Prequest = "Yes, The Opening of the Dark Portal"
 Inst49Quest3_Folgequest = "No"
+Inst49Quest3FQuest = "true"
 --
 Inst49Quest3name1 = "Band of the Guardian"
 Inst49Quest3name2 = "Keeper's Ring of Piety"
@@ -6565,10 +6567,11 @@ Inst49Quest4 = "4. The Master's Touch"
 Inst49Quest4_Level = "70"
 Inst49Quest4_Attain = "69"
 Inst49Quest4_Aim = "Go into the Caverns of Time and convince Medivh to enable your Restored Apprentice's Key"
-Inst49Quest4_Location = "Khadgar (Shatrath City; "..YELLOW.."54,44"..WHITE..")"
-Inst49Quest4_Note = "You must be inside the instance when Aeonus dies in order to talk to Medivh."
+Inst49Quest4_Location = "Khadgar (Shatrath City - Terrace of Light; "..YELLOW.."54,44"..WHITE..")"
+Inst49Quest4_Note = "Part of the Karazhan attunement line. You must be inside the instance when Aeonus dies in order to talk to Medivh."
 Inst49Quest4_Prequest = "Yes, The Second and Third Fragments"
 Inst49Quest4_Folgequest = "Yes, Return to Khadgar"
+Inst49Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -6577,7 +6580,7 @@ Inst49Quest5_Level = "70"
 Inst49Quest5_Attain = "68"
 Inst49Quest5_Aim = "Go to the Black Morass in the Caverns of Time and obtain 10 Essences of Infinity from Rift Lords and Rift Keepers. Bring these along with 5 Elixirs of Major Defense, 5 Elixirs of Mastery and 5 Elixirs of Major Agility to Lorokeem in Shattrath's Lower City."
 Inst49Quest5_Location = "Lorokeem (Shattrath City - Lower City; "..YELLOW.."46,23"..WHITE..")"
-Inst49Quest5_Note = "Lorokeem roams the coordinates listed."
+Inst49Quest5_Note = "Alchemy quest. Lorokeem roams the coordinates listed."
 Inst49Quest5_Prequest = "Yes, Master of Elixirs"
 Inst49Quest5_Folgequest = "No"
 Inst49Quest5PreQuest = "true"
@@ -6604,6 +6607,7 @@ Inst49Quest2_HORDE_Location = Inst49Quest2_Location
 Inst49Quest2_HORDE_Note = Inst49Quest2_Note
 Inst49Quest2_HORDE_Prequest = Inst49Quest2_Prequest
 Inst49Quest2_HORDE_Folgequest = Inst49Quest2_Folgequest
+Inst49Quest2FQuest_HORDE = Inst49Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -6615,6 +6619,7 @@ Inst49Quest3_HORDE_Location = Inst49Quest3_Location
 Inst49Quest3_HORDE_Note = Inst49Quest3_Note
 Inst49Quest3_HORDE_Prequest = Inst49Quest3_Prequest
 Inst49Quest3_HORDE_Folgequest = Inst49Quest3_Folgequest
+Inst49Quest3FQuest_HORDE = Inst49Quest3FQuest
 --
 Inst49Quest3name1_HORDE = Inst49Quest3name1
 Inst49Quest3name2_HORDE = Inst49Quest3name2
@@ -6630,6 +6635,7 @@ Inst49Quest4_HORDE_Location = Inst49Quest4_Location
 Inst49Quest4_HORDE_Note = Inst49Quest4_Note
 Inst49Quest4_HORDE_Prequest = Inst49Quest4_Prequest
 Inst49Quest4_HORDE_Folgequest = Inst49Quest4_Folgequest
+Inst49Quest4PreQuest_HORDE = Inst49Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -6658,10 +6664,11 @@ Inst50Quest1 = "1. An Artifact From the Past"
 Inst50Quest1_Level = "70"
 Inst50Quest1_Attain = "70"
 Inst50Quest1_Aim = "Go to the Caverns of Time in Tanaris and gain access to the Battle of Mount Hyjal. Once inside, defeat Rage Winterchill and bring the Time-Phased Phylactery to Akama in Shadowmoon Valley."
-Inst50Quest1_Location = "Akama (Shadowmoon Valley; "..YELLOW.."58,48"..WHITE..")"
-Inst50Quest1_Note = "Rage Winterchill is at "..YELLOW.."[1]"..WHITE.."."
+Inst50Quest1_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")"
+Inst50Quest1_Note = "Part of the Black Temple attunement line. Rage Winterchill is at "..YELLOW.."[1]"..WHITE.."."
 Inst50Quest1_Prequest = "Yes, Ruse of the Ashtongue ("..YELLOW.."TK: The Eye"..WHITE..")"
 Inst50Quest1_Folgequest = "Yes, The Hostage Soul"
+Inst50Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -6674,6 +6681,7 @@ Inst50Quest1_HORDE_Location = Inst50Quest1_Location
 Inst50Quest1_HORDE_Note = Inst50Quest1_Note
 Inst50Quest1_HORDE_Prequest = Inst50Quest1_Prequest
 Inst50Quest1_HORDE_Folgequest = Inst50Quest1_Folgequest
+Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 -- No Rewards for this quest
 
 
@@ -6690,10 +6698,11 @@ Inst51Quest1 = "1. Old Hillsbrad"
 Inst51Quest1_Level = "68"
 Inst51Quest1_Attain = "66"
 Inst51Quest1_Aim = "Andormu at the Caverns of Time has asked that you venture to Old Hillsbrad and speak with Erozion."
-Inst51Quest1_Location = "Andormu (Tanaris; "..YELLOW.."58,54"..WHITE..")"
-Inst51Quest1_Note = "Must have done the attunement quest that starts from the dragon at the entrance to CoT"
+Inst51Quest1_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE..")"
+Inst51Quest1_Note = "Must have done the attunement quest that starts from the dragon at the entrance to Caverns of Time."
 Inst51Quest1_Prequest = "Yes, The Caverns of Time"
 Inst51Quest1_Folgequest = "Yes, Tareth's Diversion"
+Inst51Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -6701,10 +6710,11 @@ Inst51Quest2 = "2. Taretha's Diversion"
 Inst51Quest2_Level = "68"
 Inst51Quest2_Attain = "66"
 Inst51Quest2_Aim = "Travel to Durnholde Keep and set 5 incendiary charges at the barrels located inside each of the internment lodges using the Pack of Incendiary Bombs given to you by Erozion. Then speak to Thrall in the basement prison of Durnholde Keep."
-Inst51Quest2_Location = "Erozion (Old Hillsbrad "..YELLOW.."Entrance"..WHITE..")"
-Inst51Quest2_Note = "Go to Southshore to hear the story of Ashbringer and see some people with familiar names like Kel'Thuzad and Herod the Bully."
+Inst51Quest2_Location = "Erozion (Old Hillsbrad; "..YELLOW.."Entrance"..WHITE..")"
+Inst51Quest2_Note = "Thrall is at "..YELLOW.."[2]"..WHITE..". Go to Southshore to hear the story of Ashbringer and see some people with familiar names like Kel'Thuzad and Herod the Bully."
 Inst51Quest2_Prequest = "Yes, Old Hillsbrad"
 Inst51Quest2_Folgequest = "Yes, Escape from Durnholde"
+Inst51Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -6712,10 +6722,11 @@ Inst51Quest3 = "3. Escape from Durnholde"
 Inst51Quest3_Level = "68"
 Inst51Quest3_Attain = "66"
 Inst51Quest3_Aim = "When you are ready to proceed, let Thrall know. Follow Thrall out of Durnholde Keep and help him free Taretha and fulfill his destiny. Speak with Erozion in Old Hillsbrad should you complete this task."
-Inst51Quest3_Location = "Thrall (Old Hillsbrad "..YELLOW.."Basement of the Keep"..WHITE..")"
-Inst51Quest3_Note = "You get 3 tries at rescuing Thrall after that you'll have to reset the Instance and you can't beat the last boss as Thrall has to make the final blow."
+Inst51Quest3_Location = "Thrall (Old Hillsbrad; "..YELLOW.."[2]"..WHITE..")"
+Inst51Quest3_Note = "Make sure everyone accepts the quest before anyone tells Thrall to start. Reportedly, the quest can be shared and successfully completed, though. You get 20 tries at rescuing Thrall after that you'll have to reset the instance and you can't kill the last boss without him as Thrall has to make the final blow."
 Inst51Quest3_Prequest = "Yes, Taretha's Diversion"
 Inst51Quest3_Folgequest = "Yes, Return to Andormu"
+Inst51Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -6723,10 +6734,11 @@ Inst51Quest4 = "4. Return to Andormu"
 Inst51Quest4_Level = "68"
 Inst51Quest4_Attain = "66"
 Inst51Quest4_Aim = "Return to the child Andormu at the Caverns of Time in the Tanaris desert."
-Inst51Quest4_Location = "Erozion (Old Hillsbrad "..YELLOW.."Entrance"..WHITE..")"
-Inst51Quest4_Note = "Andormu is located inside the Caverns of Time."
+Inst51Quest4_Location = "Erozion (Old Hillsbrad; "..YELLOW.."Entrance"..WHITE..")"
+Inst51Quest4_Note = "Andormu is at (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE.."). Completing this quest allows you to enter Black Morass."
 Inst51Quest4_Prequest = "Yes, Escape from Durnholde"
 Inst51Quest4_Folgequest = "No"
+Inst51Quest4FQuest = "true"
 --
 Inst51Quest4name1 = "Tempest's Touch"
 Inst51Quest4name2 = "Southshore Sneakers"
@@ -6743,6 +6755,7 @@ Inst51Quest1_HORDE_Location = Inst51Quest1_Location
 Inst51Quest1_HORDE_Note = Inst51Quest1_Note
 Inst51Quest1_HORDE_Prequest = Inst51Quest1_Prequest
 Inst51Quest1_HORDE_Folgequest = Inst51Quest1_Folgequest
+Inst51Quest1PreQuest_HORDE = Inst51Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -6754,6 +6767,7 @@ Inst51Quest2_HORDE_Location = Inst51Quest2_Location
 Inst51Quest2_HORDE_Note = Inst51Quest2_Note
 Inst51Quest2_HORDE_Prequest = Inst51Quest2_Prequest
 Inst51Quest2_HORDE_Folgequest = Inst51Quest2_Folgequest
+Inst51Quest2FQuest_HORDE = Inst51Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -6765,6 +6779,7 @@ Inst51Quest3_HORDE_Location = Inst51Quest3_Location
 Inst51Quest3_HORDE_Note = Inst51Quest3_Note
 Inst51Quest3_HORDE_Prequest = Inst51Quest3_Prequest
 Inst51Quest3_HORDE_Folgequest = Inst51Quest3_Folgequest
+Inst51Quest3FQuest_HORDE = Inst51Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -6776,6 +6791,7 @@ Inst51Quest4_HORDE_Location = Inst51Quest4_Location
 Inst51Quest4_HORDE_Note = Inst51Quest4_Note
 Inst51Quest4_HORDE_Prequest = Inst51Quest4_Prequest
 Inst51Quest4_HORDE_Folgequest = Inst51Quest4_Folgequest
+Inst51Quest4FQuest_HORDE = Inst51Quest4FQuest
 --
 Inst51Quest4name1_HORDE = Inst51Quest4name1
 Inst51Quest4name2_HORDE = Inst51Quest4name2
@@ -6797,7 +6813,7 @@ Inst52Quest1_Level = "70"
 Inst52Quest1_Attain = "70"
 Inst52Quest1_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
 Inst52Quest1_Location = "Skar'this the Heretic  (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")"
-Inst52Quest1_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair [2]"..WHITE.." and the Blazing Signet drops off Nightbane in "..YELLOW.."Karazhan [11]"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
+Inst52Quest1_Note = "The Earthen Signet drops off Gruul at "..YELLOW.."[2]"..WHITE.." and the Blazing Signet drops off Nightbane in "..YELLOW.."Karazhan"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
 Inst52Quest1_Prequest = "No"
 Inst52Quest1_Folgequest = "No"
 -- No Rewards for this quest
@@ -6975,7 +6991,7 @@ Inst53Quest14_Level = "70"
 Inst53Quest14_Attain = "70"
 Inst53Quest14_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
 Inst53Quest14_Location = "Skar'this the Heretic  (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")"
-Inst53Quest14_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair [2]"..WHITE.." and the Blazing Signet drops off Nightbane in "..YELLOW.."Karazhan [11]"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
+Inst53Quest14_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane at "..YELLOW.."[11]"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
 Inst53Quest14_Prequest = "No"
 Inst53Quest14_Folgequest = "No"
 -- No Rewards for this quest
@@ -7193,7 +7209,7 @@ Inst54Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."5
 Inst54Quest4_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..YELLOW.."[2]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
 Inst54Quest4_Prequest = "Yes, Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst54Quest4_Folgequest = "Yes, The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
-Inst54Quest4Prequest = "true"
+Inst54Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -7242,7 +7258,7 @@ Inst54Quest4_HORDE_Location = Inst54Quest4_Location
 Inst54Quest4_HORDE_Note = Inst54Quest4_Note
 Inst54Quest4_HORDE_Prequest = Inst54Quest4_Prequest
 Inst54Quest4_HORDE_Folgequest = Inst54Quest4_Folgequest
-Inst54Quest4Prequest_HORDE = Inst54Quest4Prequest
+Inst54Quest4PreQuest_HORDE = Inst54Quest4PreQuest
 -- No Rewards for this quest
 
 
@@ -7718,7 +7734,7 @@ Inst63Quest1_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."7
 Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..". The prequest is optional and starts from Griftah at Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE.."."
 Inst63Quest1_Prequest = "Yes, Oooh, Shinies!"
 Inst63Quest1_Folgequest = "Yes, X Marks... Your Doom!"
-Inst63Quest1Prequest = "true"
+Inst63Quest1PreQuest = "true"
 --
 Inst63Quest1name1 = "Tattered Hexcloth Sack"
 
@@ -7734,6 +7750,19 @@ Inst63Quest2_Folgequest = "Yes, (To Be Added)"
 Inst63Quest2FQuest = "true"
 -- No Rewards for this quest
 
+--Quest 3 Alliance
+Inst63Quest3 = "3. Hex Lord? Hah!"
+Inst63Quest3_Level = "70"
+Inst63Quest3_Attain = "70"
+Inst63Quest3_Aim = "Budd Nedreck in Hatchet Hills wants you to kill Hex Lord Malacrass in Zul'Aman."
+Inst63Quest3_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest3_Note = "Hex Lord Malacrass is at "..YELLOW.."[5]"..WHITE.."."
+Inst63Quest3_Prequest = "Yes, X Marks... Your Doom!"
+Inst63Quest3_Folgequest = "No"
+Inst63Quest3FQuest = "true"
+--
+Inst63Quest3name1 = "Badge of Justice"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst63Quest1_HORDE = Inst63Quest1
@@ -7744,7 +7773,7 @@ Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
 Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
 Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
-Inst63Quest1Prequest_HORDE = Inst63Quest1Prequest
+Inst63Quest1PreQuest_HORDE = Inst63Quest1PreQuest
 --
 Inst63Quest1name1_HORDE = Inst63Quest1name1
 
@@ -7759,6 +7788,19 @@ Inst63Quest2_HORDE_Prequest = Inst63Quest2_Prequest
 Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
 Inst63Quest2FQuest_HORDE = Inst63Quest2FQuest
 -- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst63Quest3_HORDE = Inst63Quest3
+Inst63Quest3_HORDE_Level = Inst63Quest3_Level
+Inst63Quest3_HORDE_Attain = Inst63Quest3_Attain
+Inst63Quest3_HORDE_Aim = Inst63Quest3_Aim
+Inst63Quest3_HORDE_Location = Inst63Quest3_Location
+Inst63Quest3_HORDE_Note = Inst63Quest3_Note
+Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
+Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
+Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
+--
+Inst63Quest3name1_HORDE = Inst63Quest3name1
 
 
 

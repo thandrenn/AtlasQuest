@@ -5451,6 +5451,14 @@ Inst63Quest1ID1 = "34067"
 --Quest 2 Alliance
 Inst63Quest2Rewardtext = AQNoReward
 
+--Quest 3 Alliance
+Inst63Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1(x5)"
+--ITEM1
+Inst63Quest3ITC1 = Itemc5;
+Inst63Quest3textur1 = "Spell_Holy_Championsbond"
+Inst63Quest3description1 = AQITEM_ITEM
+Inst63Quest3ID1 = "29434"
+
 
 --Quest 1 Horde
 Inst63Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -5462,6 +5470,14 @@ Inst63Quest1ID1_HORDE = "34067"
 
 --Quest 2 Horde
 Inst63Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst63Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x5)"
+--ITEM1
+Inst63Quest3ITC1_HORDE = Itemc5;
+Inst63Quest3textur1_HORDE = "Spell_Holy_Championsbond"
+Inst63Quest3description1_HORDE = AQITEM_ITEM
+Inst63Quest3ID1_HORDE = "29434"
 
 
 
