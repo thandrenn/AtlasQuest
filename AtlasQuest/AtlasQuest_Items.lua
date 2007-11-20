@@ -4012,6 +4012,9 @@ Inst39Quest5Rewardtext = AQNoReward
 --Quest 6 Alliance
 Inst39Quest6Rewardtext = AQNoReward
 
+--Quest 7 Alliance
+Inst39Quest7Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst39Quest1Rewardtext_HORDE = AQNoReward
@@ -4047,6 +4050,9 @@ Inst39Quest4Rewardtext_HORDE = AQNoReward
 
 --Quest 5 Horde
 Inst39Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst39Quest6Rewardtext_HORDE = AQNoReward
 
 
 
@@ -4542,6 +4548,9 @@ Inst46Quest3textur1 = "INV-Mount_Raven_54"
 Inst46Quest3description1 = AQITEM_RELIC
 Inst46Quest3ID1 = "32387"
 
+--Quest 4 Alliance
+Inst46Quest4Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst46Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
@@ -4591,6 +4600,9 @@ Inst46Quest3ITC1_HORDE = Itemc4;
 Inst46Quest3textur1_HORDE = "INV-Mount_Raven_54"
 Inst46Quest3description1_HORDE = AQITEM_RELIC
 Inst46Quest3ID1_HORDE = "32387"
+
+--Quest 4 Horde
+Inst46Quest4Rewardtext_HORDE = AQNoReward
 
 
 
