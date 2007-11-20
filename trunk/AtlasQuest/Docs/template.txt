@@ -43,3 +43,9 @@ Inst61Quest1textur4 = "INV_"
 Inst61Quest1description4 = AQITEM_
 Inst61Quest1ID4 = ""
 
+
+
+
+--Quest 1 Alliance
+Inst61Quest1Rewardtext = AQNoReward
+

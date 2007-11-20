@@ -4,16 +4,19 @@ Changelog
 
 Version 4.0.11 (by Thandrenn)
 
+- Changed map file names for Atlas 1.10.3.
 - Now set the faction quests displayed based on player's faction when AtlasQuest is opened. (Suggested by Iffonox)
 - Option to show Alliance quests by default removed.
 - Fixed bug with Auchenai Crypts: Everything Will Be Alright (Horde version).
 - Fixed bug with Molten Core: A Binding Contract. Also affected "The Molten Core".
-- Fixed a few typos here and there, some Prequest icons not showing up.
+- Fixed a few typos here and there, some Prequest icons were not showing up.
 
 - Quests added:
 	- Zul'Aman: X Marks... Your Doom!
 	- Zul'Aman: Hex Lord? Hah!
 	- Sethekk Halls: Vanquish the Raven God (Druid epic flightform)
+	- Sethekk Halls: Kalynna's Request
+	- Shattered Halls: Kalynna's Request
 	
 - Cleanup progress:
 	- CF: Serpentshrine Cavern
@@ -27,6 +30,11 @@ Version 4.0.11 (by Thandrenn)
 	- CoT: Black Morass
 	- CoT: Mount Hyjal
 	- Gruul's Lair
+	- TK: Mechanar
+	- TK: Botanica
+	- TK: Arcatraz
+	- Karazhan
+	- Black Temple (Still lacking a bit of info though.)
 
 
 

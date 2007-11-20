@@ -12,7 +12,7 @@ ToDo List
 
 
 - Note to self: Quest Types: Class, Profession, Heroic, Daily, Raid?
-
+- Note to self: Possible fix for /aq - test for existence of variable first
 
 
 Cleanup Checklist:
@@ -70,16 +70,16 @@ DONE 	--	49 = CoT: Black Morass (BM)
 DONE	--	50 = CoT: Battle of Mount Hyjal
 DONE	--	51 = CoT: Old Hillsbrad
 DONE 	--	52 = Gruul's Lair (GL)
--- 	--	53 = Karazhan (Kara)
--- 	--	54 = TK: Arcatraz (Arc)
--- 	--	55 = TK: Botanica (Bot)
--- 	--	56 = TK: Mechanar (Mech)
+DONE	--	53 = Karazhan (Kara)
+DONE 	--	54 = TK: Arcatraz (Arc)
+DONE 	--	55 = TK: Botanica (Bot)
+DONE 	--	56 = TK: Mechanar (Mech)
 DONE	--	57 = SM: Armory (SM Arm)
 DONE	--	58 = SM: Cathedral (SM Cath)
 DONE	--	59 = SM: Graveyard (SM GY)
 DONE	--	60 = Eye of the Storm
 DONE	--	61 = TK: The Eye
--- 	--	62 = Black Temple (BT)
+DONE 	--	62 = Black Temple (BT)
 NEW  	--	63 = Zul'Aman (ZA)
 
 
@@ -88,8 +88,13 @@ NEW  	--	63 = Zul'Aman (ZA)
 Add Quests:
 
 
-Onyxia's Lair: Victory for the Alliance  http://www.wowhead.com/?quest=7495  (repeatable)
-Onyxia's Lair: Victory for the Horde  http://www.wowhead.com/?quest=7490  (repeatable)
+Onyxia's Lair: Victory for the Alliance  http://www.wowhead.com/?quest=7495
+Onyxia's Lair: Victory for the Horde  http://www.wowhead.com/?quest=7490
+Zul'Aman: Tuskin' Raiders  http://www.wowhead.com/?quest=11164
+Zul'Aman: A Troll Among Trolls  http://www.wowhead.com/?quest=11165
+Zul'Aman: Playin' With Dolls  http://www.wowhead.com/?quest=11195
+Zul'Aman: Blood of the Warlord  http://www.wowhead.com/?quest=11178
+Zul'Aman: Undercover Sister  http://www.wowhead.com/?quest=11163
 
 
 Dungeon Heroic Dailys:

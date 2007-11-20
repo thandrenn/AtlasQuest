@@ -190,7 +190,7 @@ function AtlasQuest_Instanzenchecken()
         elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GruulsLair") then
            AQINSTANZ = 52;
 
-        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Karazhan") then
+        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanEnd") or (AQATLASMAP == "Interface\\AddOns\\AtlasEntrances\\Images\\KarazhanEnt") then
            AQINSTANZ = 53;
 
         elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempestKeepArcatraz") then
@@ -205,7 +205,7 @@ function AtlasQuest_Instanzenchecken()
         elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempestKeepTheEye") then
            AQINSTANZ = 61;		
 		      		   			   
-        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleFull") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleBasement") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleMiddle") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleTop") then
+        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleBasement") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleTop") then
            AQINSTANZ = 62;
 
         elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulAman") then
