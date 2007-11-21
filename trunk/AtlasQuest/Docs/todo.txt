@@ -11,8 +11,7 @@ ToDo List
 - BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
 
 
-- Note to self: Quest Types: Class, Profession, Heroic, Daily, Raid?
-- Note to self: Possible fix for /aq - test for existence of variable first
+- Note to self: Quest Types: Class, Profession, Heroic, Daily, Raid?, Drop?, Repeatable?
 
 
 Cleanup Checklist:
@@ -88,13 +87,6 @@ NEW  	--	63 = Zul'Aman (ZA)
 Add Quests:
 
 
-Onyxia's Lair: Victory for the Alliance  http://www.wowhead.com/?quest=7495
-Onyxia's Lair: Victory for the Horde  http://www.wowhead.com/?quest=7490
-Zul'Aman: Tuskin' Raiders  http://www.wowhead.com/?quest=11164
-Zul'Aman: A Troll Among Trolls  http://www.wowhead.com/?quest=11165
-Zul'Aman: Playin' With Dolls  http://www.wowhead.com/?quest=11195
-Zul'Aman: Blood of the Warlord  http://www.wowhead.com/?quest=11178
-Zul'Aman: Undercover Sister  http://www.wowhead.com/?quest=11163
 
 
 Dungeon Heroic Dailys:
