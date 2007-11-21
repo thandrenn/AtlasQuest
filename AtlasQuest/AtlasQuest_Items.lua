@@ -2056,6 +2056,24 @@ Inst16Quest1textur1 = "INV_Sword_01"
 Inst16Quest1description1 = AQITEM_SWORD
 Inst16Quest1ID1 = "18348"
 
+--Quest 2 Alliance
+Inst61Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst16Quest2ITC1 = Itemc5;
+Inst16Quest2textur1 = "Spell_Shadow_LifeDrain"
+Inst16Quest2description1 = AQITEM_TRINKET
+Inst16Quest2ID1 = "18406"
+--ITEM2
+Inst16Quest2ITC2 = Itemc5;
+Inst16Quest2textur2 = "INV_Jewelry_Ring_27"
+Inst16Quest2description2 = AQITEM_RING
+Inst16Quest2ID2 = "18403"
+--ITEM3
+Inst16Quest2ITC3 = Itemc5;
+Inst16Quest2textur3 = "INV_Jewelry_Necklace_09"
+Inst16Quest2description3 = AQITEM_NECK
+Inst16Quest2ID3 = "18404"
+
 
 --Quest 1 Horde
 Inst16Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -2064,6 +2082,24 @@ Inst16Quest1ITC1_HORDE = Itemc5;
 Inst16Quest1textur1_HORDE = "INV_Sword_01"
 Inst16Quest1description1_HORDE = AQITEM_SWORD
 Inst16Quest1ID1_HORDE = "18348"
+
+--Quest 2 Horde
+Inst61Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst16Quest2ITC1_HORDE = Itemc5;
+Inst16Quest2textur1_HORDE = "Spell_Shadow_LifeDrain"
+Inst16Quest2description1_HORDE = AQITEM_TRINKET
+Inst16Quest2ID1_HORDE = "18406"
+--ITEM2
+Inst16Quest2ITC2_HORDE = Itemc5;
+Inst16Quest2textur2_HORDE = "INV_Jewelry_Ring_27"
+Inst16Quest2description2_HORDE = AQITEM_RING
+Inst16Quest2ID2_HORDE = "18403"
+--ITEM3
+Inst16Quest2ITC3_HORDE = Itemc5;
+Inst16Quest2textur3_HORDE = "INV_Jewelry_Necklace_09"
+Inst16Quest2description3_HORDE = AQITEM_NECK
+Inst16Quest2ID3_HORDE = "18404"
 
 
 
@@ -5471,6 +5507,31 @@ Inst63Quest3textur1 = "Spell_Holy_Championsbond"
 Inst63Quest3description1 = AQITEM_ITEM
 Inst63Quest3ID1 = "29434"
 
+--Quest 4 Alliance
+Inst63Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst63Quest5Rewardtext = AQNoReward
+
+--Quest 6 Alliance
+Inst63Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst63Quest6ITC1 = Itemc5;
+Inst63Quest6textur1 = "INV_Misc_Gem_Pearl_07"
+Inst63Quest6description1 = AQITEM_GEM
+Inst63Quest6ID1 = "34256"
+
+--Quest 7 Alliance
+Inst63Quest7Rewardtext = AQNoReward
+
+--Quest 8 Alliance
+Inst63Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1(x10)"
+--ITEM1
+Inst63Quest8ITC1 = Itemc5;
+Inst63Quest8textur1 = "Spell_Holy_Championsbond"
+Inst63Quest8description1 = AQITEM_ITEM
+Inst63Quest8ID1 = "29434"
+
 
 --Quest 1 Horde
 Inst63Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -5490,6 +5551,31 @@ Inst63Quest3ITC1_HORDE = Itemc5;
 Inst63Quest3textur1_HORDE = "Spell_Holy_Championsbond"
 Inst63Quest3description1_HORDE = AQITEM_ITEM
 Inst63Quest3ID1_HORDE = "29434"
+
+--Quest 4 Horde
+Inst63Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst63Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst63Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst63Quest6ITC1_HORDE = Itemc5;
+Inst63Quest6textur1_HORDE = "INV_Misc_Gem_Pearl_07"
+Inst63Quest6description1_HORDE = AQITEM_GEM
+Inst63Quest6ID1_HORDE = "34256"
+
+--Quest 7 Horde
+Inst63Quest7Rewardtext_HORDE = AQNoReward
+
+--Quest 8 Horde
+Inst63Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x10)"
+--ITEM1
+Inst63Quest8ITC1_HORDE = Itemc5;
+Inst63Quest8textur1_HORDE = "Spell_Holy_Championsbond"
+Inst63Quest8description1_HORDE = AQITEM_ITEM
+Inst63Quest8ID1_HORDE = "29434"
 
 
 

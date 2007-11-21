@@ -1315,7 +1315,7 @@ Inst6Quest2_Level = "60"
 Inst6Quest2_Attain = "60"
 Inst6Quest2_Aim = "Return the Head of Nefarian to Highlord Bolvar Fordragon in Stormwind."
 Inst6Quest2_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[8]"..WHITE..")"
-Inst6Quest2_Note = "The follow up sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."67,72"..WHITE..") for the reward."
+Inst6Quest2_Note = "Highlord Bolvar Fordragon is at (Stormwind City - Stormwind Keep; "..YELLOW.."78,20"..WHITE.."). The follow up sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."67,72"..WHITE..") for the reward."
 Inst6Quest2_Prequest = "No"
 Inst6Quest2_Folgequest = "Yes, The Lord of Blackrock"
 --
@@ -1386,7 +1386,7 @@ Inst7Quest1_Level = "23"
 Inst7Quest1_Attain = "10"
 Inst7Quest1_Aim = "Bring the Lorgalis Manuscript to Gerrig Bonegrip in the Forlorn Cavern in Ironforge."
 Inst7Quest1_Location = "Gerrig Bonegrip (Ironforge - The Forlorn Cavern; "..YELLOW.."50,5"..WHITE..")"
-Inst7Quest1_Note = "You find the Manuscript near "..YELLOW.."[2]"..WHITE.." in the water."
+Inst7Quest1_Note = "You find the Manuscript at "..YELLOW.."[2]"..WHITE.." in the water."
 Inst7Quest1_Prequest = "No"
 Inst7Quest1_Folgequest = "No"
 --
@@ -1398,7 +1398,7 @@ Inst7Quest2_Level = "24"
 Inst7Quest2_Attain = "18"
 Inst7Quest2_Aim = "Gershala Nightwhisper in Auberdine wants 8 Corrupt Brain stems."
 Inst7Quest2_Location = "Gershala Nightwhisper (Darkshore - Auberdine; "..YELLOW.."38,43"..WHITE..")"
-Inst7Quest2_Note = "The prequest is not needed to obtain this quest. Though if you want to do it anyway, you get it from Argos Nightwhisper (Stormwind - The Park; "..YELLOW.."21,55"..WHITE.."). \n\nAll the Nagas before and in Blackfathom Deeps drop the brains."
+Inst7Quest2_Note = "The prequest is optional. You get it from Argos Nightwhisper at (Stormwind - The Park; "..YELLOW.."21,55"..WHITE.."). \n\nAll the Nagas before and in Blackfathom Deeps drop the brains."
 Inst7Quest2_Prequest = "Yes, The Corruption Abroad"
 Inst7Quest2_Folgequest = "No"
 Inst7Quest2PreQuest = "true"
@@ -1535,7 +1535,7 @@ Inst8Quest1_Level = "58"
 Inst8Quest1_Attain = "55"
 Inst8Quest1_Aim = "Bring the Fifth and Sixth Mosh'aru Tablets to Prospector Ironboot in Tanaris."
 Inst8Quest1_Location = "Prospector Ironboot (Tanaris - Steamwheedle Port; "..YELLOW.."66,23"..WHITE..")"
-Inst8Quest1_Note = "You find the tablets near "..YELLOW.."[7]"..WHITE.." and "..YELLOW.."[8]"..WHITE..".\nThe Rewards belong to 'Confront Yeh'kinya'. You find Yeh'kinya near Prospector Ironboot."
+Inst8Quest1_Note = "You find the tablets near "..YELLOW.."[7]"..WHITE.." and "..YELLOW.."[9]"..WHITE..".\nThe Rewards belong to 'Confront Yeh'kinya'. You find Yeh'kinya near Prospector Ironboot."
 Inst8Quest1_Prequest = "Yes, The Lost Tablets of Mosh'aru"
 Inst8Quest1_Folgequest = "Yes, Confront Yeh'kinya"
 Inst8Quest1PreQuest = "true"
@@ -1549,7 +1549,7 @@ Inst8Quest2_Level = "59"
 Inst8Quest2_Attain = "55"
 Inst8Quest2_Aim = "Travel to Blackrock Spire and find Bloodaxe Worg Pups. Use the cage to carry the ferocious little beasts. Bring back a Caged Worg Pup to Kibler."
 Inst8Quest2_Location = "Kibler (Burning Steppes - Flame Crest; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest2_Note = "You find the Worg Cup at "..YELLOW.."[15]"..WHITE.."."
+Inst8Quest2_Note = "You find the Worg Cup at "..YELLOW.."[17]"..WHITE.."."
 Inst8Quest2_Prequest = "No"
 Inst8Quest2_Folgequest = "No"
 --
@@ -1561,7 +1561,7 @@ Inst8Quest3_Level = "59"
 Inst8Quest3_Attain = "55"
 Inst8Quest3_Aim = "Travel to Blackrock Spire and collect 15 Spire Spider Eggs for Kibler."
 Inst8Quest3_Location = "Kibler (Burning Steppes - Flame Crest; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest3_Note = "You find the spider eggs near "..YELLOW.."[11]"..WHITE.."."
+Inst8Quest3_Note = "You find the spider eggs near "..YELLOW.."[13]"..WHITE.."."
 Inst8Quest3_Prequest = "No"
 Inst8Quest3_Folgequest = "No"
 --
@@ -1573,7 +1573,7 @@ Inst8Quest4_Level = "60"
 Inst8Quest4_Attain = "55"
 Inst8Quest4_Aim = "In the heart of Blackrock Spire you will find Mother Smolderweb. Engage her and get her to poison you. Chances are good that you will have to kill her as well. Return to Ragged John when you are poisoned so that he can 'milk' you."
 Inst8Quest4_Location = "Ragged John (Burning Steppes; "..YELLOW.."65,23"..WHITE..")"
-Inst8Quest4_Note = "Mother Smolderweb is at "..YELLOW.."[11]"..WHITE..". The poison effect snares nearby players as well. If it is removed or dispelled, you fail the quest."
+Inst8Quest4_Note = "Mother Smolderweb is at "..YELLOW.."[13]"..WHITE..". The poison effect snares nearby players as well. If it is removed or dispelled, you fail the quest."
 Inst8Quest4_Prequest = "No"
 Inst8Quest4_Folgequest = "No"
 --
@@ -1585,7 +1585,7 @@ Inst8Quest5_Level = "59"
 Inst8Quest5_Attain = "55"
 Inst8Quest5_Aim = "Travel to Blackrock Spire and destroy the source of the worg menace. As you left Helendis, he shouted a name: Halycon. It is what the orcs refer to in regards to the worg."
 Inst8Quest5_Location = "Helendis (Burning Steppes - Morgan's Vigil; "..YELLOW.."5,47"..WHITE..")"
-Inst8Quest5_Note = "You find Halycon at "..YELLOW.."[15]"..WHITE.."."
+Inst8Quest5_Note = "You find Halycon at "..YELLOW.."[17]"..WHITE.."."
 Inst8Quest5_Prequest = "No"
 Inst8Quest5_Folgequest = "No"
 --
@@ -1593,36 +1593,36 @@ Inst8Quest5name1 = "Astoria Robes"
 Inst8Quest5name2 = "Traphook Jerkin"
 Inst8Quest5name3 = "Jadescale Breastplate"
 
---Quest6 Alliance
+--Quest 6 Alliance
 Inst8Quest6 = "6. Urok Doomhowl"
 Inst8Quest6_Level = "60"
 Inst8Quest6_Attain = "55"
 Inst8Quest6_Aim = "Read Warosh's Scroll. Bring Warosh's Mojo to Warosh."
 Inst8Quest6_Location = "Warosh (Blackrock Spire; "..YELLOW.."[2]"..WHITE..")"
-Inst8Quest6_Note = "To get Warosh's Mojo you have to evoke and kill Urok Doomhowl "..YELLOW.."[13]"..WHITE..". For his Evocation you need a Spear and Highlord Omokks Head "..YELLOW.."[6]"..WHITE..". The Spear is near "..YELLOW.."[4]"..WHITE..". During the Evocation a few waves of ogres appear before Urok Doomhowl attacks you. You can use the Spear during the fight to damage the ogres."
+Inst8Quest6_Note = "To get Warosh's Mojo you have to evoke and kill Urok Doomhowl "..YELLOW.."[15]"..WHITE..". For his Evocation you need a Spear and Highlord Omokks Head "..YELLOW.."[5]"..WHITE..". The Spear is near "..YELLOW.."[3]"..WHITE..". During the Evocation a few waves of ogres appear before Urok Doomhowl attacks you. You can use the Spear during the fight to damage the ogres."
 Inst8Quest6_Prequest = "No"
 Inst8Quest6_Folgequest = "No"
 --
 Inst8Quest6name1 = "Prismcharm"
 
---Quest7 Alliance
+--Quest 7 Alliance
 Inst8Quest7 = "7. Bijou's Belongings"
 Inst8Quest7_Level = "59"
 Inst8Quest7_Attain = "55"
 Inst8Quest7_Aim = "Find Bijou's Belongings and return them to her. Good luck!"
 Inst8Quest7_Location = "Bijou (Blackrock Spire; "..YELLOW.."[3]"..WHITE..")"
-Inst8Quest7_Note = "You find Bijou's Belongings on the way to Mother Smolderweb ("..YELLOW.."[11]"..WHITE..").\nYou can find Maxwell in the Burning Steppes - Morgan's Vigil; ("..YELLOW.."84,58"..WHITE..")."
+Inst8Quest7_Note = "You find Bijou's Belongings on the way to Mother Smolderweb at "..YELLOW.."[13]"..WHITE..".\nYou can find Maxwell at (Burning Steppes - Morgan's Vigil; "..YELLOW.."84,58"..WHITE..")."
 Inst8Quest7_Prequest = "No"
 Inst8Quest7_Folgequest = "Yes, Message to Maxwell"
 -- No Rewards for this quest
 
---Quest8 Alliance
+--Quest 8 Alliance
 Inst8Quest8 = "8. Maxwell's Mission"
 Inst8Quest8_Level = "59"
 Inst8Quest8_Attain = "57"
 Inst8Quest8_Aim = "Travel to Blackrock Spire and destroy War Master Voone, Highlord Omokk, and Overlord Wyrmthalak. Return to Marshal Maxwell when the job is done."
 Inst8Quest8_Location = "Marshal Maxwell (Burning Steppes - Morgan's Vigil; "..YELLOW.."84,58"..WHITE..")"
-Inst8Quest8_Note = "You find War Master Voone at "..YELLOW.."[8]"..WHITE..", Highlord Omokk at "..YELLOW.."[6]"..WHITE.." and Overlord Wyrmthalak at "..YELLOW.."[17]"..WHITE.."."
+Inst8Quest8_Note = "You find War Master Voone at "..YELLOW.."[9]"..WHITE..", Highlord Omokk at "..YELLOW.."[5]"..WHITE.." and Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE.."."
 Inst8Quest8_Prequest = "Yes, Message to Maxwell"
 Inst8Quest8_Folgequest = "No"
 Inst8Quest8FQuest = "true"
@@ -1633,23 +1633,23 @@ Inst8Quest8name3 = "Halycon's Muzzle"
 Inst8Quest8name4 = "Vosh'gajin's Strand"
 Inst8Quest8name5 = "Voone's Vice Grips"
 
---Quest9 Alliance
+--Quest 9 Alliance
 Inst8Quest9 = "9. Seal of Ascension"
 Inst8Quest9_Level = "60"
 Inst8Quest9_Attain = "57"
 Inst8Quest9_Aim = "Find the three gemstones of command: The Gemstone of Smolderthorn, Gemstone of Spirestone, and Gemstone of Bloodaxe. Return them, along with the Unadorned Seal of Ascension, to Vaelan."
 Inst8Quest9_Location = "Vaelan (Blackrock Spire; "..YELLOW.."[1]"..WHITE..")"
-Inst8Quest9_Note = "You get the Gemstone of Spirestone from Highlord Omokk ("..YELLOW.."[6]"..WHITE.."), the Gemstone of Smolderthorn from War Master Voone ("..YELLOW.."[8]"..WHITE.."), the Gemstone of Bloodaxe from Overlord Wyrmthalak ("..YELLOW.."[17]"..WHITE..") and the Unadorned Seal of Ascension can drop from near all enemys in Lower Blackrock Spire. You get the Key for Upper Blackrock Spire if you complete this questline."
+Inst8Quest9_Note = "You get the Gemstone of Spirestone from Highlord Omokk at "..YELLOW.."[5]"..WHITE..", the Gemstone of Smolderthorn from War Master Voone at "..YELLOW.."[9]"..WHITE.." and the Gemstone of Bloodaxe from Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..". The Unadorned Seal of Ascension can drop from near all enemys in Lower Blackrock Spire. You get the Key for Upper Blackrock Spire if you complete this questline."
 Inst8Quest9_Prequest = "No"
 Inst8Quest9_Folgequest = "Yes, Seal of Ascension"
 -- No Rewards for this quest
 
---Quest10 Alliance
+--Quest 10 Alliance
 Inst8Quest10 = "10. General Drakkisath's Command"
 Inst8Quest10_Level = "60"
 Inst8Quest10_Attain = "55"
 Inst8Quest10_Aim = "Take General Drakkisath's Command to Marshal Maxwell in Burning Steppes."
-Inst8Quest10_Location = "General Drakkisath's Command (drops from Overlord Wyrmthalak; "..YELLOW.."[11]"..WHITE..")"
+Inst8Quest10_Location = "General Drakkisath's Command (drops from Overlord Wyrmthalak; "..YELLOW.."[19]"..WHITE..")"
 Inst8Quest10_Note = "Marshal Maxwell is in the Burning Steppes - Morgan's Vigil; ("..YELLOW.."84,58"..WHITE..")."
 Inst8Quest10_Prequest = "No"
 Inst8Quest10_Folgequest = "Yes, General Drakkisath's Demise ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
@@ -1697,7 +1697,7 @@ Inst8Quest14_Level = "60"
 Inst8Quest14_Attain = "58"
 Inst8Quest14_Aim = "Someone in this world must know what to do with these gauntlets. Good luck!"
 Inst8Quest14_Location = "Human Remains (Lower Blackrock Spire; "..YELLOW.."[9]"..WHITE..")"
-Inst8Quest14_Note = "Blacksmith quest. Be sure to pick up the Unfired Plate Gauntlets near the Human Remains. Turns in to Malyfous Darkhammer (Winterspring - Everlook; "..YELLOW.."61,39"..WHITE.."). Rewards listed are for the followup."
+Inst8Quest14_Note = "Blacksmith quest. Be sure to pick up the Unfired Plate Gauntlets near the Human Remains at "..YELLOW.."[11]"..WHITE..". Turns in to Malyfous Darkhammer (Winterspring - Everlook; "..YELLOW.."61,39"..WHITE.."). Rewards listed are for the followup."
 Inst8Quest14_Prequest = "No"
 Inst8Quest14_Folgequest = "Yes, Fiery Plate Gauntlets"
 --
@@ -1719,7 +1719,7 @@ Inst8Quest1PreQuest_HORDE = Inst8Quest1PreQuest
 Inst8Quest1name1_HORDE = Inst8Quest1name1
 Inst8Quest1name2_HORDE = Inst8Quest1name2
 
---Quest2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst8Quest2_HORDE = Inst8Quest2
 Inst8Quest2_HORDE_Level = Inst8Quest2_Level
 Inst8Quest2_HORDE_Attain = Inst8Quest2_Attain
@@ -1761,7 +1761,7 @@ Inst8Quest5_HORDE_Level = "59"
 Inst8Quest5_HORDE_Attain = "55"
 Inst8Quest5_HORDE_Aim = "Slay Halycon, pack mistress of the Bloodaxe worg."
 Inst8Quest5_HORDE_Location = "Galamav the Marksman (Badlands - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst8Quest5_HORDE_Note = "You find Halycon at "..YELLOW.."[15]"..WHITE.."."
+Inst8Quest5_HORDE_Note = "You find Halycon at "..YELLOW.."[17]"..WHITE.."."
 Inst8Quest5_HORDE_Prequest = "No"
 Inst8Quest5_HORDE_Folgequest = "No"
 --
@@ -1769,7 +1769,7 @@ Inst8Quest5name1_HORDE = "Astoria Robes"
 Inst8Quest5name2_HORDE = "Traphook Jerkin"
 Inst8Quest5name3_HORDE = "Jadescale Breastplate"
 
---Quest6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde  (same as Quest 6 Alliance)
 Inst8Quest6_HORDE = Inst8Quest6
 Inst8Quest6_HORDE_Level = Inst8Quest6_Level
 Inst8Quest6_HORDE_Attain = Inst8Quest6_Attain
@@ -1781,24 +1781,24 @@ Inst8Quest6_HORDE_Folgequest = Inst8Quest6_Folgequest
 --
 Inst8Quest6name1_HORDE = Inst8Quest6name1
 
---Quest7 Horde
+--Quest 7 Horde
 Inst8Quest7_HORDE = "7. Operative Bijou"
 Inst8Quest7_HORDE_Level = "59"
 Inst8Quest7_HORDE_Attain = "55"
 Inst8Quest7_HORDE_Aim = "Travel to Blackrock Spire and find out what happened to Bijou."
 Inst8Quest7_HORDE_Location = "Lexlort (Badlands - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst8Quest7_HORDE_Note = "You find Bijou at "..YELLOW.."[3]"..WHITE.."."
+Inst8Quest7_HORDE_Note = "You find Bijou at "..YELLOW.."[8]"..WHITE.."."
 Inst8Quest7_HORDE_Prequest = "No"
 Inst8Quest7_HORDE_Folgequest = "Yes, Bijou's Belongings"
 -- No Rewards for this quest
 
---Quest8 Horde
+--Quest 8 Horde
 Inst8Quest8_HORDE = "8. Bijou's Belongings"
 Inst8Quest8_HORDE_Level = "59"
 Inst8Quest8_HORDE_Attain = "55"
 Inst8Quest8_HORDE_Aim = "Find Bijou's Belongings and return them to her. You recall her mentioning that she stashed them on the bottom floor of the city."
 Inst8Quest8_HORDE_Location = "Bijou (Blackrock Spire; "..YELLOW.."[3]"..WHITE..")"
-Inst8Quest8_HORDE_Note = "You find Bijou's Belongings on the way to Mother Smolderweb "..YELLOW.."[11]"..WHITE..".\nThe Rewards belong to 'Bijou's Reconnaissance Report'."
+Inst8Quest8_HORDE_Note = "You find Bijou's Belongings on the way to Mother Smolderweb "..YELLOW.."[13]"..WHITE..".\nThe Rewards belong to 'Bijou's Reconnaissance Report'."
 Inst8Quest8_HORDE_Prequest = "Yes, Operative Bijou"
 Inst8Quest8_HORDE_Folgequest = "Yes, Bijou's Reconnaissance Report"
 Inst8Quest8FQuest_HORDE = "true"
@@ -1806,7 +1806,7 @@ Inst8Quest8FQuest_HORDE = "true"
 Inst8Quest8name1_HORDE = "Freewind Gloves"
 Inst8Quest8name2_HORDE = "Seapost Girdle"
 
---Quest9 Horde
+--Quest 9 Horde
 Inst8Quest9_HORDE = Inst8Quest9
 Inst8Quest9_HORDE_Level = Inst8Quest9_Level
 Inst8Quest9_HORDE_Attain = Inst8Quest9_Attain
@@ -1817,13 +1817,13 @@ Inst8Quest9_HORDE_Prequest = Inst8Quest9_Prequest
 Inst8Quest9_HORDE_Folgequest = Inst8Quest9_Folgequest
 -- No Rewards for this quest
 
---Quest10 Horde
+--Quest 10 Horde
 Inst8Quest10_HORDE = "10. Warlord's Command"
 Inst8Quest10_HORDE_Level = "60"
 Inst8Quest10_HORDE_Attain = "55"
 Inst8Quest10_HORDE_Aim = "Slay Highlord Omokk, War Master Voone, and Overlord Wyrmthalak. Recover Important Blackrock Documents. Return to Warlord Goretooth in Kargath when the mission has been accomplished."
 Inst8Quest10_HORDE_Location = "Warlord Goretooth (Badlands - Kargath; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest10_HORDE_Note = "Onyxia PreQuest!\nYou find Highlord Omokk at "..YELLOW.."[6]"..WHITE..", War Master Voone at "..YELLOW.."[8]"..WHITE.." and Overlord Wyrmthalak at "..YELLOW.."[17]"..WHITE..". The Blackrock Documents could appear next to one of these 3 bosses."
+Inst8Quest10_HORDE_Note = "Onyxia PreQuest!\nYou find Highlord Omokk at "..YELLOW.."[5]"..WHITE..", War Master Voone at "..YELLOW.."[9]"..WHITE.." and Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..". The Blackrock Documents could appear next to one of these 3 bosses."
 Inst8Quest10_HORDE_Prequest = "No"
 Inst8Quest10_HORDE_Folgequest = "Yes, Eitrigg's Wisdom -> For the Horde! ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
 --
@@ -1896,8 +1896,8 @@ Inst9Quest1 = "1. The Matron Protectorate"
 Inst9Quest1_Level = "60"
 Inst9Quest1_Attain = "57"
 Inst9Quest1_Aim = "Travel to Winterspring and find Haleh. Give her Awbee's scale."
-Inst9Quest1_Location = "Awbee (Blackrock Spire; "..YELLOW.."[6]"..WHITE..")"
-Inst9Quest1_Note = "You find Awbee in the room after the Arena "..YELLOW.."[6]"..WHITE..". She stands on a jutty.\nHaleh is in Winterspring ("..YELLOW.."54,51"..WHITE.."). Use the portal-sign in the end of the cave to get to her."
+Inst9Quest1_Location = "Awbee (Blackrock Spire; "..YELLOW.."[7]"..WHITE..")"
+Inst9Quest1_Note = "You find Awbee in the room after the Arena at "..YELLOW.."[7]"..WHITE..". She stands on a jutty.\nHaleh is in Winterspring ("..YELLOW.."54,51"..WHITE.."). Use the portal-sign in the end of the cave to get to her."
 Inst9Quest1_Prequest = "No"
 Inst9Quest1_Folgequest = "Yes, Wrath of the Blue Flight"
 -- No Rewards for this quest
@@ -1907,8 +1907,8 @@ Inst9Quest2 = "2. Finkle Einhorn, At Your Service!"
 Inst9Quest2_Level = "60"
 Inst9Quest2_Attain = "58"
 Inst9Quest2_Aim = "Talk to Malyfous Darkhammer in Everlook."
-Inst9Quest2_Location = "Finkle Einhorn (Blackrock Spire; "..YELLOW.."[7]"..WHITE..")"
-Inst9Quest2_Note = "Finkle Einhorn spawns after skinning The Beast. You find Malyfous in Winterspring - Everlook ("..YELLOW.."61,38"..WHITE..")."
+Inst9Quest2_Location = "Finkle Einhorn (Blackrock Spire; "..YELLOW.."[8]"..WHITE..")"
+Inst9Quest2_Note = "Finkle Einhorn spawns after skinning The Beast. You find Malyfous at (Winterspring - Everlook; "..YELLOW.."61,38"..WHITE..")."
 Inst9Quest2_Prequest = "No"
 Inst9Quest2_Folgequest = "Yes, Leggings of Arcana, Cap of the Scarlet Savant, Breastplate of Bloodthirst"
 -- No Rewards for this quest
@@ -1943,7 +1943,7 @@ Inst9Quest5_Level = "60"
 Inst9Quest5_Attain = "55"
 Inst9Quest5_Aim = "Travel to Blackrock Spire and destroy General Drakkisath. Return to Marshal Maxwell when the job is done."
 Inst9Quest5_Location = "Marshal Maxwell (Burning Steppes - Morgan's Vigil; "..YELLOW.."82,68"..WHITE..")"
-Inst9Quest5_Note = "You find General Drakkisath at "..YELLOW.."[8]"..WHITE.."."
+Inst9Quest5_Note = "You find General Drakkisath at "..YELLOW.."[9]"..WHITE.."."
 Inst9Quest5_Prequest = "Yes, General Drakkisath's Command ("..YELLOW.."Lower Blackrock Spire"..WHITE..")"
 Inst9Quest5_Folgequest = "No"
 Inst9Quest5PreQuest = "true"
@@ -1952,7 +1952,7 @@ Inst9Quest5name1 = "Mark of Tyranny"
 Inst9Quest5name2 = "Eye of the Beast"
 Inst9Quest5name3 = "Blackhand's Breadth"
 
---Quest6 Alliance
+--Quest 6 Alliance
 Inst9Quest6 = "6. Doomrigger's Clasp"
 Inst9Quest6_Level = "60"
 Inst9Quest6_Attain = "57"
@@ -1966,26 +1966,26 @@ Inst9Quest6PreQuest = "true"
 Inst9Quest6name1 = "Swiftfoot Treads"
 Inst9Quest6name2 = "Blinkstrike Armguards"
 
---Quest7 Alliance
+--Quest 7 Alliance
 Inst9Quest7 = "7. Drakefire Amulet"
 Inst9Quest7_Level = "60"
 Inst9Quest7_Attain = "52"
 Inst9Quest7_Aim = "You must retrieve the Blood of the Black Dragon Champion from General Drakkisath. Drakkisath can be found in his throne room behind the Halls of Ascension in Blackrock Spire."
 Inst9Quest7_Location = "Haleh (Winterspring; "..YELLOW.."54,51"..WHITE..")"
-Inst9Quest7_Note = "Last part of the Onyxia quest chain for the Alliance. You find General Drakkisath at "..YELLOW.."[8]"..WHITE.."."
+Inst9Quest7_Note = "Last part of the Onyxia quest chain for the Alliance. You find General Drakkisath at "..YELLOW.."[9]"..WHITE.."."
 Inst9Quest7_Prequest = "Yes, The Dragon's Eye"
 Inst9Quest7_Folgequest = "No"
 Inst9Quest7PreQuest = "true"
 --
 Inst9Quest7name1 = "Drakefire Amulet"
 
---Quest8 Alliance
+--Quest 8 Alliance
 Inst9Quest8 = "8. Blackhand's Command"
 Inst9Quest8_Level = "60"
 Inst9Quest8_Attain = "55"
 Inst9Quest8_Aim = "The letter indicates that General Drakkisath guards the brand. Perhaps you should investigate."
 Inst9Quest8_Location = "Blackhand's Command (drops from Scarshield Quartermaster; "..YELLOW.."[7] on Entrance Map"..WHITE..")"
-Inst9Quest8_Note = "Blackwing Lair attunement quest. Scarshield Quartermaster is found if you turn right before the LBRS/UBRS portal. General Drakkisath is at "..YELLOW.."[8]"..WHITE..". The brand is behind him."
+Inst9Quest8_Note = "Blackwing Lair attunement quest. Scarshield Quartermaster is found if you turn right before the LBRS/UBRS portal. General Drakkisath is at "..YELLOW.."[9]"..WHITE..". The brand is behind him."
 Inst9Quest8_Prequest = "No"
 Inst9Quest8_Folgequest = "No"
 -- No Rewards for this quest
@@ -2008,7 +2008,7 @@ Inst9Quest10_Level = "60"
 Inst9Quest10_Attain = "60"
 Inst9Quest10_Aim = "Use the Brazier of Beckoning to summon Lord Valthalak. Dispatch him, and use Lord Valthalak's Amulet on the corpse. Then, return Lord Valthalak's Amulet to the Spirit of Lord Valthalak."
 Inst9Quest10_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst9Quest10_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Lord Valthalak is summoned at "..YELLOW.."[7]"..WHITE..". Rewards listed are for Return to Bodley."
+Inst9Quest10_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Lord Valthalak is summoned at "..YELLOW.."[8]"..WHITE..". Rewards listed are for Return to Bodley."
 Inst9Quest10_Prequest = "Yes, Final Preparations"
 Inst9Quest10_Folgequest = "Yes, Return to Bodley"
 Inst9Quest10FQuest = "true"
@@ -2022,7 +2022,7 @@ Inst9Quest11_Level = "60"
 Inst9Quest11_Attain = "58"
 Inst9Quest11_Aim = "Travel to Blackrock Spire and find Goraluk Anvilcrack. Slay him and then use the Blood Stained Pike upon his corpse. After his soul has been siphoned, the pike will be Soul Stained. You must also find the Unforged Rune Covered Breastplate. Return both the Soul Stained Pike and the Unforged Rune Covered Breastplate to Lorax in Winterspring."
 Inst9Quest11_Location = "Lorax (Winterspring; "..YELLOW.."64,74"..WHITE..")"
-Inst9Quest11_Note = "Blacksmith quest. Goraluk Anvilcrack is at "..YELLOW.."[4]"..WHITE.."."
+Inst9Quest11_Note = "Blacksmith quest. Goraluk Anvilcrack is at "..YELLOW.."[5]"..WHITE.."."
 Inst9Quest11_Prequest = "No"
 Inst9Quest11_Folgequest = "No"
 --
@@ -2091,13 +2091,13 @@ Inst9Quest5PreQuest_HORDE = "true"
 Inst9Quest5name1_HORDE = "Swiftfoot Treads"
 Inst9Quest5name2_HORDE = "Blinkstrike Armguards"
 
---Quest6 Horde
+--Quest 6 Horde
 Inst9Quest6_HORDE = "6. For The Horde!"
 Inst9Quest6_HORDE_Level = "60"
 Inst9Quest6_HORDE_Attain = "55"
 Inst9Quest6_HORDE_Aim = "Travel to Blackrock Spire and slay Warchief Rend Blackhand. Take his head and return to Orgrimmar."
 Inst9Quest6_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,38"..WHITE..")"
-Inst9Quest6_HORDE_Note = "Onyxia attunement quest. You find Warchief Rend Blackhand at "..YELLOW.."[5]"..WHITE.."."
+Inst9Quest6_HORDE_Note = "Onyxia attunement quest. You find Warchief Rend Blackhand at "..YELLOW.."[6]"..WHITE.."."
 Inst9Quest6_HORDE_Prequest = "Yes, Warlord's Command -> Eitrigg's Wisdom"
 Inst9Quest6_HORDE_Folgequest = "Yes, Finding Rexxar"
 Inst9Quest6PreQuest_HORDE = "true"
@@ -2106,7 +2106,7 @@ Inst9Quest6name1_HORDE = "Mark of Tyranny"
 Inst9Quest6name2_HORDE = "Eye of the Beast"
 Inst9Quest6name3_HORDE = "Blackhand's Breadth"
 
---Quest7 Horde
+--Quest 7 Horde
 Inst9Quest7_HORDE = "7. Oculus Illusions"
 Inst9Quest7_HORDE_Level = "60"
 Inst9Quest7_HORDE_Attain = "57"
@@ -2118,13 +2118,13 @@ Inst9Quest7_HORDE_Folgequest = "Yes, Emberstrife"
 Inst9Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest8 Horde
+--Quest 8 Horde
 Inst9Quest8_HORDE = "8. Blood of the Black Dragon Champion"
 Inst9Quest8_HORDE_Level = "60"
 Inst9Quest8_HORDE_Attain = "56"
 Inst9Quest8_HORDE_Aim = "Travel to Blackrock Spire and slay General Drakkisath. Gather his blood and return it to Rokaro."
 Inst9Quest8_HORDE_Location = "Rokaro (Desolace - Shadowprey Village; "..YELLOW.."25,71"..WHITE..")"
-Inst9Quest8_HORDE_Note = "Last part of the Onyxia prequest. You find General Drakkisath at "..YELLOW.."[8]"..WHITE.."."
+Inst9Quest8_HORDE_Note = "Last part of the Onyxia prequest. You find General Drakkisath at "..YELLOW.."[9]"..WHITE.."."
 Inst9Quest8_HORDE_Prequest = "Yes, Emberstrife -> Ascension..."
 Inst9Quest8_HORDE_Folgequest = "No"
 Inst9Quest8FQuest_HORDE = "true"
@@ -2560,7 +2560,7 @@ Inst13Quest5_Prequest = "No"
 Inst13Quest5_Folgequest = "Yes, The Scepter of Celebras"
 -- No Rewards for this quest
 
---Quest6 Alliance
+--Quest 6 Alliance
 Inst13Quest6 = "6. The Scepter of Celebras"
 Inst13Quest6_Level = "49"
 Inst13Quest6_Attain = "41"
@@ -2573,7 +2573,7 @@ Inst13Quest6FQuest = "true"
 --
 Inst13Quest6name1 = "Scepter of Celebras"
 
---Quest7 Alliance
+--Quest 7 Alliance
 Inst13Quest7 = "7. Corruption of Earth and Seed"
 Inst13Quest7_Level = "51"
 Inst13Quest7_Attain = "45"
@@ -2587,7 +2587,7 @@ Inst13Quest7name1 = "Thrash Blade"
 Inst13Quest7name2 = "Resurgence Rod"
 Inst13Quest7name3 = "Verdant Keeper's Aim"
 
---Quest8 Alliance
+--Quest 8 Alliance
 Inst13Quest8 = "8. Seed of Life"
 Inst13Quest8_Level = "51"
 Inst13Quest8_Attain = "39"
@@ -2613,7 +2613,7 @@ Inst13Quest1_HORDE_Folgequest = "No"
 Inst13Quest1name1_HORDE = "Zealous Shadowshard Pendant"
 Inst13Quest1name2_HORDE = "Prodigious Shadowshard Pendant"
 
---Quest2 Horde
+--Quest 2 Horde
 Inst13Quest2_HORDE = "2. Vyletongue Corruption"
 Inst13Quest2_HORDE_Level = "47"
 Inst13Quest2_HORDE_Attain = "41"
@@ -2666,7 +2666,7 @@ Inst13Quest5_HORDE_Prequest = Inst13Quest5_Prequest
 Inst13Quest5_HORDE_Folgequest = Inst13Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde  (same as Quest 6 Alliance)
 Inst13Quest6_HORDE = Inst13Quest6
 Inst13Quest6_HORDE_Level = Inst13Quest6_Level
 Inst13Quest6_HORDE_Attain = Inst13Quest6_Attain
@@ -2679,7 +2679,7 @@ Inst13Quest6FQuest_HORDE = Inst13Quest6FQuest
 --
 Inst13Quest6name1_HORDE = Inst13Quest6name1
 
---Quest7 Horde
+--Quest 7 Horde
 Inst13Quest7_HORDE = "7. Corruption of Earth and Seed"
 Inst13Quest7_HORDE_Level = "51"
 Inst13Quest7_HORDE_Attain = "45"
@@ -2693,7 +2693,7 @@ Inst13Quest7name1_HORDE = "Thrash Blade"
 Inst13Quest7name2_HORDE = "Resurgence Rod"
 Inst13Quest7name3_HORDE = "Verdant Keeper's Aim"
 
---Quest8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde  (same as Quest 8 Alliance)
 Inst13Quest8_HORDE = Inst13Quest8
 Inst13Quest8_HORDE_Level = Inst13Quest8_Level
 Inst13Quest8_HORDE_Attain = Inst13Quest8_Attain
@@ -2954,8 +2954,8 @@ Inst15Quest5name1_HORDE = Inst15Quest5name1
 
 Inst16Story = "Onyxia is the daughter of the mighty dragon Deathwing, and sister of the scheming Nefarion Lord of Blackrock Spire. It is said that Onyxia delights in corrupting the mortal races by meddling in their political affairs. To this end it is believed that she takes on various humanoid forms and uses her charm and power to influence delicate matters between the different races. Some believe that Onyxia has even assumed an alias once used by her father - the title of the royal House Prestor. When not meddling in mortal concerns, Onyxia resides in a fiery cave below the Dragonmurk, a dismal swamp located within Dustwallow Marsh. There she is guarded by her kin, the remaining members of the insidious Black Dragon Flight."
 Inst16Caption = "Onyxias Lair"
-Inst16QAA = "1 Quest"
-Inst16QAH = "1 Quest"
+Inst16QAA = "2 Quests"
+Inst16QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst16Quest1 = "1. The Forging of Quel'Serrar"
@@ -2970,6 +2970,20 @@ Inst16Quest1PreQuest = "true"
 --
 Inst16Quest1name1 = "Quel'Serrar"
 
+--Quest 2 Alliance
+Inst16Quest2 = "2. Victory for the Alliance"
+Inst16Quest2_Level = "60"
+Inst16Quest2_Attain = "60"
+Inst16Quest2_Aim = "Take the Head of Onyxia to Highlord Bolvar Fordragon in Stormwind."
+Inst16Quest2_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest2_Note = "Highlord Bolvar Fordragon is at (Stormwind City - Stormwind Keep; "..YELLOW.."78,20"..WHITE.."). Only one person in the raid can loot this item and the quest can only be done one time.\n\nRewards listed are for the followup."
+Inst16Quest2_Prequest = "No"
+Inst16Quest2_Folgequest = "Yes, Celebrating Good Times"
+--
+Inst16Quest2name1 = "Onyxia Blood Talisman"
+Inst16Quest2name2 = "Dragonslayer's Signet"
+Inst16Quest2name3 = "Onyxia Tooth Pendant"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst16Quest1_HORDE = Inst16Quest1
@@ -2983,6 +2997,20 @@ Inst16Quest1_HORDE_Folgequest = Inst16Quest1_Folgequest
 Inst16Quest1PreQuest_HORDE = Inst16Quest1PreQuest
 --
 Inst16Quest1name1_HORDE = Inst16Quest1name1
+
+--Quest 2 Horde
+Inst16Quest2_HORDE = "2. Victory for the Horde"
+Inst16Quest2_HORDE_Level = "60"
+Inst16Quest2_HORDE_Attain = "60"
+Inst16Quest2_HORDE_Aim = "Take the Head of Onyxia to Thrall in Orgrimmar."
+Inst16Quest2_HORDE_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest2_HORDE_Note = "Thrall is at (Orgrimmar - Valley of Wisdom; "..YELLOW.."31,37"..WHITE.."). Only one person in the raid can loot this item and the quest can only be done one time.\n\nRewards listed are for the followup."
+Inst16Quest2_HORDE_Prequest = "No"
+Inst16Quest2_HORDE_Folgequest = "Yes, For All To See"
+--
+Inst16Quest2name1_HORDE = "Onyxia Blood Talisman"
+Inst16Quest2name2_HORDE = "Dragonslayer's Signet"
+Inst16Quest2name3_HORDE = "Onyxia Tooth Pendant"
 
 
 
@@ -5172,7 +5200,7 @@ Inst29Quest5_Folgequest = "No"
 Inst29Quest5PreQuest = "true"
 -- No Rewards for this quest
 
---Quest6 Alliance
+--Quest 6 Alliance
 Inst29Quest6 = "6. Data Rescue"
 Inst29Quest6_Level = "30"
 Inst29Quest6_Attain = "25"
@@ -5186,7 +5214,7 @@ Inst29Quest6name1 = "Repairman's Cape"
 Inst29Quest6name2 = "Mechanic's Pipehammer"
 Inst29Quest6PreQuest = "true"
 
---Quest7 Alliance
+--Quest 7 Alliance
 Inst29Quest7 = "7. A Fine Mess"
 Inst29Quest7_Level = "30"
 Inst29Quest7_Attain = "22"
@@ -5199,7 +5227,7 @@ Inst29Quest7_Folgequest = "No"
 Inst29Quest7name1 = "Fire-welded Bracers"
 Inst29Quest7name2 = "Fairywing Mantle"
 
---Quest8 Alliance
+--Quest 8 Alliance
 Inst29Quest8 = "8. The Grand Betrayal"
 Inst29Quest8_Level = "35"
 Inst29Quest8_Attain = "25"
@@ -6074,7 +6102,7 @@ Inst45Quest1_Level = "66"
 Inst45Quest1_Attain = "64"
 Inst45Quest1_Aim = "Artificer Morphalius wants you to kill 10 Ethereal Crypt Raiders, 5 Ethereal Sorcerers, 5 Nexus Stalkers and 5 Ethereal Spellbinders."
 Inst45Quest1_Location = "Artificer Morphalius (Terokkar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")"
-Inst45Quest1_Note = "Ethereal Transporter Control Panel is at "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest1_Note = "Ethereal Transporter Control Panel is at "..YELLOW.."[4]"..WHITE.."."
 Inst45Quest1_Prequest = "No"
 Inst45Quest1_Folgequest = "Yes, Someone Else's Hard Work Pays Off"
 -- No Rewards for this quest
@@ -6084,8 +6112,8 @@ Inst45Quest2 = "2. Someone Else's Hard Work Pays Off"
 Inst45Quest2_Level = "66"
 Inst45Quest2_Attain = "64"
 Inst45Quest2_Aim = "Escort Cryo-Engineer Sha'heen safely through the Mana-Tombs so that he can gather the ether held inside Shaffar's ether collectors."
-Inst45Quest2_Location = "Cryo-Engineer Sha'heen (Mana Tombs; "..YELLOW.."[3]"..WHITE..")"
-Inst45Quest2_Note = "To summon Cryo-Engineer Sha'heen, click on the Ethereal Transporter Control Panel at "..YELLOW.."[3]"..WHITE..". He'll spawn along with several other friendly Consortium NPCs.  The entire instance should be cleared before hand. Leave nothing alive. The escort can only be attempted once per instance."
+Inst45Quest2_Location = "Cryo-Engineer Sha'heen (Mana Tombs; "..YELLOW.."[4]"..WHITE..")"
+Inst45Quest2_Note = "To summon Cryo-Engineer Sha'heen, click on the Ethereal Transporter Control Panel at "..YELLOW.."[4]"..WHITE..". He'll spawn along with several other friendly Consortium NPCs.  The entire instance should be cleared before hand. Leave nothing alive. The escort can only be attempted once per instance."
 Inst45Quest2_Prequest = "Yes, Safety Is Job One"
 Inst45Quest2_Folgequest = "No"
 Inst45Quest2FQuest = "true"
@@ -6101,7 +6129,7 @@ Inst45Quest3_Level = "66"
 Inst45Quest3_Attain = "64"
 Inst45Quest3_Aim = "Nexus-Prince Haramad located outside of the Mana-Tombs wants you to kill Nexus-Prince Shaffar and bring Shaffar's Wrappings back to him."
 Inst45Quest3_Location = "Nexus-Prince Haramand (Terrokar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")."
-Inst45Quest3_Note = "Nexus-Prince Haramad is at "..YELLOW.."[4]"..WHITE.."."
+Inst45Quest3_Note = "Nexus-Prince Shaffar is at "..YELLOW.."[5]"..WHITE.."."
 Inst45Quest3_Prequest = "No"
 Inst45Quest3_Folgequest = "No"
 --
@@ -6116,7 +6144,7 @@ Inst45Quest4_Level = "70"
 Inst45Quest4_Attain = "70"
 Inst45Quest4_Aim = "The Image of Commander Ameer at Bash'ir's Landing in the Blade's Edge Mountains wants you to use the Mana-Tombs Stasis Chamber Key on the Stasis Chamber inside the Mana-Tombs of Auchindoun."
 Inst45Quest4_Location = "Image of Commander Ameer (Blade's Edge Mountains - Bash'ir's Landing; "..YELLOW.."52,15"..WHITE..")."
-Inst45Quest4_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[4]"..WHITE..". You'll need a Mark of the Nexus-King for each."
+Inst45Quest4_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[5]"..WHITE..". You'll need a Mark of the Nexus-King for each."
 Inst45Quest4_Prequest = "Yes, The Mark of the Nexus-King"
 Inst45Quest4_Folgequest = "No"
 Inst45Quest4PreQuest = "true"
@@ -7813,8 +7841,8 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 Inst63Story = "The stronghold of Zul'Aman has stood for millennia as the Amani trolls' seat of power and bastion of the fearless, cunning warlord Zul'jin. \n\nZul'jin has spent several years plotting behind Zul'Aman's walls. Furious at the Horde for allowing his hated enemies, the blood elves, to join its ranks, he eagerly embraced a scheme that the witch doctor Malacrass recently proposed: to seal the power of the animal gods within the bodies of the Amani's strongest warriors. \n\nNow Zul'Aman's army grows more powerful by the day, hungry to exact vengeance in the name of its fearless leader, Zul'jin."
 Inst63Caption = "Zul'Aman"
-Inst63QAA = "2 Quests"
-Inst63QAH = "2 Quests"
+Inst63QAA = "8 Quests"
+Inst63QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst63Quest1 = "1. Promises, Promises..."
@@ -7822,7 +7850,7 @@ Inst63Quest1_Level = "70"
 Inst63Quest1_Attain = "70"
 Inst63Quest1_Aim = "Budd Nedreck in Hatchet Hills wants you to retrieve his map from High Priest Nalorakk's terrace in Zul'Aman."
 Inst63Quest1_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..". The prequest is optional and starts from Griftah at Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE.."."
+Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..". The prequest is optional and starts from Griftah at (Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE..")."
 Inst63Quest1_Prequest = "Yes, Oooh, Shinies!"
 Inst63Quest1_Folgequest = "Yes, X Marks... Your Doom!"
 Inst63Quest1PreQuest = "true"
@@ -7837,7 +7865,7 @@ Inst63Quest2_Aim = "Enter Zul'Aman and visit Halazzi's Chamber, Jan'alai's Platf
 Inst63Quest2_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
 Inst63Quest2_Note = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..". \n\nReportedly, the bosses do not need to be faught in order to get quest credit. Just get near them without aggroing." 
 Inst63Quest2_Prequest = "Yes, Promises, Promises..."
-Inst63Quest2_Folgequest = "Yes, (To Be Added)"
+Inst63Quest2_Folgequest = "Yes, Hex Lord? Hah!"
 Inst63Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -7853,6 +7881,67 @@ Inst63Quest3_Folgequest = "No"
 Inst63Quest3FQuest = "true"
 --
 Inst63Quest3name1 = "Badge of Justice"
+
+--Quest 4 Alliance
+Inst63Quest4 = "4. Tuskin' Raiders"
+Inst63Quest4_Level = "70"
+Inst63Quest4_Attain = "70"
+Inst63Quest4_Aim = "Prigmon needs you to collect 10 Forest Troll Tusks from the trolls in Zul'Aman. Bring them to him at Budd's camp in the Ghostlands."
+Inst63Quest4_Location = "Prigmon (Ghostlands - Hatchet Hills; "..YELLOW.."71,68"..WHITE..")"
+Inst63Quest4_Note = "The Forest Troll Tusks drop from Amani'shi mobs inside Zul'Aman."
+Inst63Quest4_Prequest = "No"
+Inst63Quest4_Folgequest = "Yes, A Troll Among Trolls"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst63Quest5 = "5. A Troll Among Trolls"
+Inst63Quest5_Level = "70"
+Inst63Quest5_Attain = "70"
+Inst63Quest5_Aim = "Prigmon has tasked you with locating and assisting his cousin Zungam, somewhere within Zul'Aman."
+Inst63Quest5_Location = "Prigmon (Ghostlands - Hatchet Hills; "..YELLOW.."71,68"..WHITE..")"
+Inst63Quest5_Note = "Reportedly, Zungam is in a hut North of Malacrass, who is at "..YELLOW.."[5]"..WHITE..". After you release him, he gives you the followup quest."
+Inst63Quest5_Prequest = "Yes, Tuskin' Raiders"
+Inst63Quest5_Folgequest = "Yes, Playin' With Dolls"
+Inst63Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst63Quest6 = "6. Playin' With Dolls"
+Inst63Quest6_Level = "70"
+Inst63Quest6_Attain = "70"
+Inst63Quest6_Aim = "Take the Tattered Voodoo Doll to Griftah in Shattrath City."
+Inst63Quest6_Location = "Zungam (Zul'Aman; "..YELLOW.."North of [5]"..WHITE..")"
+Inst63Quest6_Note = "Griftah is at (Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE..")."
+Inst63Quest6_Prequest = "Yes, A Troll Among Trolls"
+Inst63Quest6_Folgequest = "No"
+Inst63Quest6FQuest = "true"
+--
+Inst63Quest6name1 = "Charmed Amani Jewel"
+
+--Quest 7 Alliance
+Inst63Quest7 = "7. Blood of the Warlord"
+Inst63Quest7_Level = "70"
+Inst63Quest7_Attain = "70"
+Inst63Quest7_Aim = "Bring the Blood of Zul'jin to Budd at his camp in the Ghostlands, outside Zul'Aman."
+Inst63Quest7_Location = "Blood of Zul'jin (drops from Zul'jin; "..YELLOW.."[6]"..WHITE..")"
+Inst63Quest7_Note = "Only one person in the raid can loot this item and the quest can only be done one time."
+Inst63Quest7_Prequest = "No"
+Inst63Quest7_Folgequest = "Yes, Undercover Sister"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst63Quest8 = "8. Undercover Sister"
+Inst63Quest8_Level = "70"
+Inst63Quest8_Attain = "70"
+Inst63Quest8_Aim = "Report to Donna Brascoe to collect a reward for your heroism in Zul'Aman. Donna is currently stationed in the Ghostlands, just outside Zul'aman."
+Inst63Quest8_Location = "Donna Brascoe (Ghostlands - Hatchet Hills; "..YELLOW.."70,68"..WHITE..")"
+Inst63Quest8_Note = ""
+Inst63Quest8_Prequest = "Yes, Blood of the Warlord"
+Inst63Quest8_Folgequest = "No"
+Inst63Quest8FQuest = "true"
+--
+Inst63Quest8name1 = "Badge of Justice"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7893,6 +7982,65 @@ Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
 --
 Inst63Quest3name1_HORDE = Inst63Quest3name1
 
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst63Quest4_HORDE = Inst63Quest4
+Inst63Quest4_HORDE_Level = Inst63Quest4_Level
+Inst63Quest4_HORDE_Attain = Inst63Quest4_Attain
+Inst63Quest4_HORDE_Aim = Inst63Quest4_Aim
+Inst63Quest4_HORDE_Location = Inst63Quest4_Location
+Inst63Quest4_HORDE_Note = Inst63Quest4_Note
+Inst63Quest4_HORDE_Prequest = Inst63Quest4_Prequest
+Inst63Quest4_HORDE_Folgequest = Inst63Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst63Quest5_HORDE = Inst63Quest5
+Inst63Quest5_HORDE_Level = Inst63Quest5_Level
+Inst63Quest5_HORDE_Attain = Inst63Quest5_Attain
+Inst63Quest5_HORDE_Aim = Inst63Quest5_Aim
+Inst63Quest5_HORDE_Location = Inst63Quest5_Location
+Inst63Quest5_HORDE_Note = Inst63Quest5_Note
+Inst63Quest5_HORDE_Prequest = Inst63Quest5_Prequest
+Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
+Inst63Quest5FQuest_HORDE = Inst63Quest5FQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst63Quest6_HORDE = Inst63Quest6
+Inst63Quest6_HORDE_Level = Inst63Quest6_Level
+Inst63Quest6_HORDE_Attain = Inst63Quest6_Attain
+Inst63Quest6_HORDE_Aim = Inst63Quest6_Aim
+Inst63Quest6_HORDE_Location = Inst63Quest6_Location
+Inst63Quest6_HORDE_Note = Inst63Quest6_Note
+Inst63Quest6_HORDE_Prequest = Inst63Quest6_Prequest
+Inst63Quest6_HORDE_Folgequest = Inst63Quest6_Folgequest
+Inst63Quest6FQuest_HORDE = Inst63Quest6FQuest
+--
+Inst63Quest6name1_HORDE = Inst63Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst63Quest7_HORDE = Inst63Quest7
+Inst63Quest7_HORDE_Level = Inst63Quest7_Level
+Inst63Quest7_HORDE_Attain = Inst63Quest7_Attain
+Inst63Quest7_HORDE_Aim = Inst63Quest7_Aim
+Inst63Quest7_HORDE_Location = Inst63Quest7_Location
+Inst63Quest7_HORDE_Note = Inst63Quest7_Note
+Inst63Quest7_HORDE_Prequest = Inst63Quest7_Prequest
+Inst63Quest7_HORDE_Folgequest = Inst63Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst63Quest8_HORDE = Inst63Quest8
+Inst63Quest8_HORDE_Level = Inst63Quest8_Level
+Inst63Quest8_HORDE_Attain = Inst63Quest8_Attain
+Inst63Quest8_HORDE_Aim = Inst63Quest8_Aim
+Inst63Quest8_HORDE_Location = Inst63Quest8_Location
+Inst63Quest8_HORDE_Note = Inst63Quest8_Note
+Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
+Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
+Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
+--
+Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 
 
