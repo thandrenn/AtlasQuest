@@ -38,7 +38,6 @@ local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 local YELLOW = "|cffFFd200";   -- Ingame Yellow
--- local YELLOW = "|cffffff00"; -- Normal/Original AQ Yellow.
 
 ------------------------------
 -- Options translation --
@@ -63,7 +62,7 @@ AQCCOFF = "Die Quests werden jetzt "..RED.."nicht"..WHITE.." mehr nach dem Quest
 -- QuestLog Colour Check
 AQQLColourChange = ""..WHITE.."Alle Quests, die in deinem Questlog sind, werden "..BLUE.."blau"..WHITE.." gefärbt."
 -- Set Fraction Option
-AQOptionsSetFractionTEXT = "" .. WHITE .. "Beim Öffnen von AtlasQuest, wird automatisch " .. BLUE .. "Allianz" .. WHITE .. " als Fraktion ausgewählt."
+-- AQOptionsSetFractionTEXT = "" .. WHITE .. "Beim Öffnen von AtlasQuest, wird automatisch " .. BLUE .. "Allianz" .. WHITE .. " als Fraktion ausgewählt."
 -- Set EquipCompare Option
 AQOptionEquipCompareTEXT = "Equip Compare benutzen."
 
@@ -87,7 +86,6 @@ AQDiscription_AIM = "Ziel: \n"
 AQDiscription_NOTE = "Information: \n"
 AQDiscription_PREQUEST = "Vorquest: "
 AQDiscription_FOLGEQUEST = "Folgequest: "
-ATLAS_VERSIONWARNINGTEXT = "Du benutzt eine veraltete Version von Atlas! Bitte update auf die neuste Version, um Konflikte zu vermeiden. (neuste Version: 1.10.2)"
 
 ---------------------------
 -- Item Translation --
@@ -124,6 +122,7 @@ AQITEM_ONEHAND = "Einhändig,"
 AQITEM_TWOHAND = "Zweihändig,"
 
 AQITEM_TRINKET = "Schmuck"
+AQITEM_RELIC = "Relikt"
 AQITEM_POTION = "Trank"
 AQITEM_OFFHAND = "In Schildhand geführt"
 AQITEM_NECK = "Hals"
@@ -1319,7 +1318,7 @@ Inst6Quest2_Level = "60"
 Inst6Quest2_Attain = "60"
 Inst6Quest2_Aim = "Bringt Hochlord Bolvar Drachenwill in Sturmwind den Kopf von Nefarian."
 Inst6Quest2_Location = "Kopf von Nefarian (droppt von Nefarian "..YELLOW.."[8]"..WHITE..")"
-Inst6Quest2_Note = "Das Folgequest schickt euch zu Feldmarschall Afrasiabi (Sturmwind - Tal der Helden; "..YELLOW.."67,72"..WHITE..") für die Belohnung."
+Inst6Quest2_Note = "Hochlord Bolvar Drachenwill befindet sich in (Sturmwind - Burg Sturmwind; "..YELLOW.."78,20"..WHITE.."). Das Folgequest schickt euch zu Feldmarschall Afrasiabi (Sturmwind - Tal der Helden; "..YELLOW.."67,72"..WHITE..") für die Belohnung."
 Inst6Quest2_Prequest = "Nein"
 Inst6Quest2_Folgequest = "Ja, Der Herrscher des Schwarzfels"
 --
@@ -1401,7 +1400,7 @@ Inst7Quest2_Level = "24"
 Inst7Quest2_Attain = "18"
 Inst7Quest2_Aim = "Gershala Nachtraunen in Auberdine möchte 8 verderbte Hirnstämme."
 Inst7Quest2_Location = "Gershala Nachtraunen (Dunkelküste - Auberdine; "..YELLOW.."38,43"..WHITE..")"
-Inst7Quest2_Note = "Man muss das Vorquest nicht abschließen, um dieses Quest zu erhalten. Wer es trotzdem machen will, bekommt es bei Argos Nachtraunen (Sturmwind - Der Park; "..YELLOW.."21,55"..WHITE..").\n\nDie Gehirnstämme werden von den Nagas vor und in der Instanz gedroppt."
+Inst7Quest2_Note = "Das Vorquest ist optional. Man bekommt es von Argos Nachtraunen (Sturmwind - Der Park; "..YELLOW.."21,55"..WHITE..").\n\nDie Gehirnstämme werden von den Nagas vor und in der Instanz gedroppt."
 Inst7Quest2_Prequest = "Ja, Verderbnis in der Fremde"
 Inst7Quest2_Folgequest = "Nein"
 Inst7Quest2PreQuest = "true"
