@@ -125,6 +125,8 @@ AQITEM_BAG = "Bag"
 AQITEM_RING = "Ring"
 AQITEM_KEY = "Key"
 AQITEM_GEM = "Gem"
+AQITEM_QUIVER = "Quiver"
+AQITEM_AMMOPOUCH = "Ammo Pouch"
 
 
 
@@ -2593,7 +2595,7 @@ Inst13Quest8_Level = "51"
 Inst13Quest8_Attain = "39"
 Inst13Quest8_Aim = "Seek out Remulos in Moonglade and give him the Seed of Life."
 Inst13Quest8_Location = "Zaetars Ghost (Maraudon; "..YELLOW.."[11]"..WHITE..")"
-Inst13Quest8_Note = "Zaetars Ghost appears after killing Princess Theradras "..YELLOW.."[11]"..WHITE..". You find Keeper Remulos in Moonglade "..YELLOW.."(36,41)"..WHITE.."."
+Inst13Quest8_Note = "Zaetars Ghost appears after killing Princess Theradras "..YELLOW.."[11]"..WHITE..". You find Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36,41"..WHITE..")."
 Inst13Quest8_Prequest = "Yes, Corruption of Earth and Seed"
 Inst13Quest8_Folgequest = "No"
 Inst13Quest8FQuest = "true"
@@ -2711,8 +2713,8 @@ Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
 
 Inst14Story = "The Molten Core lies at the very bottom of Blackrock Depths. It is the heart of Blackrock Mountain and the exact spot where, long ago in a desperate bid to turn the tide of the dwarven civil war, Emperor Thaurissan summoned the elemental Firelord, Ragnaros, into the world. Though the fire lord is incapable of straying far from the blazing Core, it is believed that his elemental minions command the Dark Iron dwarves, who are in the midst of creating armies out of living stone. The burning lake where Ragnaros lies sleeping acts as a rift connecting to the plane of fire, allowing the malicious elementals to pass through. Chief among Ragnaros' agents is Majordomo Executus - for this cunning elemental is the only one capable of calling the Firelord from his slumber."
 Inst14Caption = "Molten Core"
-Inst14QAA = "4 Quests"
-Inst14QAH = "4 Quests"
+Inst14QAA = "5 Quests"
+Inst14QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst14Quest1 = "1. The Molten Core"
@@ -2762,6 +2764,17 @@ Inst14Quest4_Folgequest = "No"
 --
 Inst14Quest4name1 = "Plans: Sulfuron Hammer"
 
+--Quest 5 Alliance
+Inst14Quest5 = "5. The Ancient Leaf"
+Inst14Quest5_Level = "60"
+Inst14Quest5_Attain = "60"
+Inst14Quest5_Aim = "Find the owner of the Ancient Petrified Leaf."
+Inst14Quest5_Location = "Ancient Petrified Leaf (drops from Cache of the Firelord; "..YELLOW.."[9]"..WHITE..")"
+Inst14Quest5_Note = "Turns in to Vartrus the Ancient at (Felwood - Irontree Woods; "..YELLOW.."49,24"..WHITE..")."
+Inst14Quest5_Prequest = "No"
+Inst14Quest5_Folgequest = "Yes, Ancient Sinew Wrapped Lamina ("..YELLOW.."Azuregos"..WHITE..")"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst14Quest1_HORDE = Inst14Quest1
@@ -2810,6 +2823,17 @@ Inst14Quest4_HORDE_Prequest = Inst14Quest4_Prequest
 Inst14Quest4_HORDE_Folgequest = Inst14Quest4_Folgequest
 --
 Inst14Quest4name1_HORDE = Inst14Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst14Quest5_HORDE = Inst14Quest5
+Inst14Quest5_HORDE_Level = Inst14Quest5_Level
+Inst14Quest5_HORDE_Attain = Inst14Quest5_Attain
+Inst14Quest5_HORDE_Aim = Inst14Quest5_Aim
+Inst14Quest5_HORDE_Location = Inst14Quest5_Location
+Inst14Quest5_HORDE_Note = Inst14Quest5_Note
+Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
+Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -5534,7 +5558,7 @@ Inst39Quest1_Level = "70"
 Inst39Quest1_Attain = "67"
 Inst39Quest1_Aim = "Magus Zabraxis at Honor Hold wants you to bring her a Fel Ember"
 Inst39Quest1_Location = "Magus Zabraxis (Hellfire Peninsula - Honor Hold; "..YELLOW.."54,66"..WHITE..")"
-Inst39Quest1_Note = "After killing Grand Warlock Netherkurse at "..YELLOW.."[1]"..WHITE..", he'll drop an Amulet. Use the amulet at one of the braziers near his throne to get the Fel Ember."
+Inst39Quest1_Note = "After killing Grand Warlock Netherkurse at "..YELLOW.."[2]"..WHITE..", he'll drop an Amulet. Use the amulet at one of the braziers near his throne to get the Fel Ember."
 Inst39Quest1_Prequest = "No"
 Inst39Quest1_Folgequest = "No"
 --
@@ -5561,7 +5585,7 @@ Inst39Quest3_Level = "70"
 Inst39Quest3_Attain = "67"
 Inst39Quest3_Aim = "Bring Warchief Kargath's Fist to Force Commander Danath Trollbane in Honor Hold."
 Inst39Quest3_Location = "Force Commander Danath Trollbane (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,67"..WHITE..")"
-Inst39Quest3_Note = "Warchief Kargath Bladefist is Located at "..YELLOW.."[4]"..WHITE.."."
+Inst39Quest3_Note = "Warchief Kargath Bladefist is at "..YELLOW.."[5]"..WHITE.."."
 Inst39Quest3_Prequest = "No"
 Inst39Quest3_Folgequest = "No"
 --
@@ -5575,8 +5599,8 @@ Inst39Quest4 = "4. Imprisoned in the Citadel (Heroic)"
 Inst39Quest4_Level = "70"
 Inst39Quest4_Attain = "70"
 Inst39Quest4_Aim = "Rescue Captain Alina inside Hellfire Citadel before she is executed."
-Inst39Quest4_Location = "Randy Whizzlesprocket (Shattered Halls - "..YELLOW.."Heroic"..WHITE..")"
-Inst39Quest4_Note = "Requires Heroic Dungeon Difficulty. Timer with 50 minutes starts at the beginning of the Archer event."
+Inst39Quest4_Location = "Randy Whizzlesprocket (Shattered Halls; "..YELLOW.."Heroic [1]"..WHITE..")"
+Inst39Quest4_Note = "Requires Heroic Dungeon Difficulty.\n\nCaptain Alina is at "..YELLOW.."[5]"..WHITE..". Timer with 50 minutes starts at the beginning of the Archer event."
 Inst39Quest4_Prequest = "No"
 Inst39Quest4_Folgequest = "No"
 -- No Rewards for this quest
@@ -5598,7 +5622,7 @@ Inst39Quest6_Level = "70"
 Inst39Quest6_Attain = "70"
 Inst39Quest6_Aim = "Recover the Tear of the Earthmother from Warbringer O'mrogg and return it to David Wayne at Wayne's Refuge."
 Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
-Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE.."."
+Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[4]"..WHITE.."."
 Inst39Quest6_Prequest = "Yes, Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Yes, Bane of the Illidari"
 Inst39Quest6PreQuest = "true"
@@ -5610,7 +5634,7 @@ Inst39Quest7_Level = "70"
 Inst39Quest7_Attain = "70"
 Inst39Quest7_Aim = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun."
 Inst39Quest7_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32,63"..WHITE..")"
-Inst39Quest7_Note = "Requires Heroic Dungeon Difficulty.\n\nGrand Warlock Nethekurse is at "..YELLOW.."[1]"..WHITE..". The Book of Forgotten Names drops in Sethekk Halls."
+Inst39Quest7_Note = "Requires Heroic Dungeon Difficulty.\n\nGrand Warlock Nethekurse is at "..YELLOW.."[2]"..WHITE..". The Book of Forgotten Names drops in Sethekk Halls."
 Inst39Quest7_Prequest = "Yes, A Colleague's Aid ("..YELLOW.."Karazhan"..WHITE..")"
 Inst39Quest7_Folgequest = "Yes, Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
 Inst39Quest7PreQuest = "true"
@@ -5635,7 +5659,7 @@ Inst39Quest2_HORDE_Level = "70"
 Inst39Quest2_HORDE_Attain = "67"
 Inst39Quest2_HORDE_Aim = "Bring Warchief Kargath's Fist to Nazgrel in Thrallmar."
 Inst39Quest2_HORDE_Location = "Nazgrel (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst39Quest2_HORDE_Note = "Warchief Kargath Bladefist is Located at "..YELLOW.."[4]"..WHITE.."."
+Inst39Quest2_HORDE_Note = "Warchief Kargath Bladefist is Located at "..YELLOW.."[5]"..WHITE.."."
 Inst39Quest2_HORDE_Prequest = "No"
 Inst39Quest2_HORDE_Folgequest = "No"
 --
@@ -5649,8 +5673,8 @@ Inst39Quest3_HORDE = "3. Imprisoned in the Citadel (Heroic)"
 Inst39Quest3_HORDE_Level = "70"
 Inst39Quest3_HORDE_Attain = "70"
 Inst39Quest3_HORDE_Aim = "Rescue Captain Boneshatter inside Hellfire Citadel before he is executed."
-Inst39Quest3_HORDE_Location = "Drisella (Shattered Halls - "..YELLOW.."Heroic"..WHITE..")"
-Inst39Quest3_HORDE_Note = "Requires Heroic Dungeon Difficulty. Timer with 55 minutes starts at the beginning of the Archer event."
+Inst39Quest3_HORDE_Location = "Drisella (Shattered Halls; "..YELLOW.."Heroic [1]"..WHITE..")"
+Inst39Quest3_HORDE_Note = "Requires Heroic Dungeon Difficulty.\n\nDrisella is at "..YELLOW.."[5]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event."
 Inst39Quest3_HORDE_Prequest = "No"
 Inst39Quest3_HORDE_Folgequest = "No"
 -- No Rewards for this quest
@@ -6222,7 +6246,7 @@ Inst46Quest1_Level = "69"
 Inst46Quest1_Attain = "65"
 Inst46Quest1_Aim = "Kill Darkweaver Syth in the Sethekk halls, then free Lakka from captivity. Return to Isfar outside the Sethekk Halls when you've completed the rescue."
 Inst46Quest1_Location = "Isfar (Terokkar Forest - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest1_Note = "Darkweaver Syth is at "..YELLOW.."[1]"..WHITE..". Lakka is in a cage nearby. Openning her cage does not spawn enemies."
+Inst46Quest1_Note = "Darkweaver Syth is at "..YELLOW.."[1]"..WHITE..". Lakka is in a cage in the same room. Openning her cage does not spawn enemies."
 Inst46Quest1_Prequest = "No"
 Inst46Quest1_Folgequest = "No"
 --
@@ -7766,7 +7790,7 @@ Inst62Quest1_Level = "70"
 Inst62Quest1_Attain = "70"
 Inst62Quest1_Aim = "Find Akama's Deathsworn inside the Black Temple."
 Inst62Quest1_Location = "Xi'ri (Shadowmoon Valley; "..YELLOW.."65,44"..WHITE..")."
-Inst62Quest1_Note = "Spirit of Olum is up and to your left once you enter the Black Temple. He will teleport you to Seer Kanai once you've High Warlord Naj'entus at "..YELLOW.."[1]"..WHITE.." and Supremus at "..YELLOW.."[2]"..WHITE.."."
+Inst62Quest1_Note = "Spirit of Olum is up and to your left once you enter the Black Temple at "..YELLOW.."[1]"..WHITE..". He will teleport you to Seer Kanai once you've High Warlord Naj'entus at "..YELLOW.."[2]"..WHITE.." and Supremus at "..YELLOW.."[3]"..WHITE.."."
 Inst62Quest1_Prequest = "Yes, The Secret Compromised -> A Distraction for Akama"
 Inst62Quest1_Folgequest = "Yes, Redemption of the Ashtongue"
 Inst62Quest1PreQuest = "true"
@@ -7777,8 +7801,8 @@ Inst62Quest2 = "2. Redemption of the Ashtongue"
 Inst62Quest2_Level = "70"
 Inst62Quest2_Attain = "70"
 Inst62Quest2_Aim = "Help Akama wrest control back of his soul by defeating the Shade of Akama inside the Black Temple. Return to Seer Kanai when you've completed this task."
-Inst62Quest2_Location = "Seer Kanai (Black Temple; "..YELLOW.."[??]"..WHITE..")."
-Inst62Quest2_Note = "Shade of Akama is at "..YELLOW.."[3]"..WHITE.." on the Black Temple [A] map."
+Inst62Quest2_Location = "Seer Kanai (Black Temple; "..YELLOW.."[5]"..WHITE..")."
+Inst62Quest2_Note = "Shade of Akama is at "..YELLOW.."[4]"..WHITE.."."
 Inst62Quest2_Prequest = "Yes, Seek Out the Ashtongue"
 Inst62Quest2_Folgequest = "Yes, The Fall of the Betrayer"
 Inst62Quest2FQuest = "true"
@@ -7789,8 +7813,8 @@ Inst62Quest3 = "3. The Fall of the Betrayer"
 Inst62Quest3_Level = "70"
 Inst62Quest3_Attain = "70"
 Inst62Quest3_Aim = "Seer Kanai wants you to defeat Illidan inside the Black Temple."
-Inst62Quest3_Location = "Seer Kanai (Black Temple; "..YELLOW.."[??]"..WHITE..")."
-Inst62Quest3_Note = "Illidan Stormrage is at "..YELLOW.."[3]"..WHITE.." on the Black Temple [C] map."
+Inst62Quest3_Location = "Seer Kanai (Black Temple; "..YELLOW.."[5]"..WHITE..")."
+Inst62Quest3_Note = "Illidan Stormrage is at "..YELLOW.."[11]"..WHITE.."."
 Inst62Quest3_Prequest = "Yes, Redemption of the Ashtongue"
 Inst62Quest3_Folgequest = "No"
 Inst62Quest3FQuest = "true"
@@ -8112,16 +8136,70 @@ Inst30Caption3 = "Lethon"
 Inst30Caption4 = "Emeriss"
 Inst30Caption5 = "Taerar"
 Inst30Caption6 = "Ysondre"
-Inst30QAA = "No Quests"
-Inst30QAH = "No Quests"
+Inst30QAA = "1 Quest"
+Inst30QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst30Quest1 = "1. Shrouded in Nightmare"
+Inst30Quest1_Level = "60"
+Inst30Quest1_Attain = "60"
+Inst30Quest1_Aim = "Find someone capable of deciphering the meaning behind the Nightmare Engulfed Object.\n\nPerhaps a druid of great power could assist you."
+Inst30Quest1_Location = "Nightmare Engulfed Object (drops from Emeriss, Taerar, Lethon or Ysondre)"
+Inst30Quest1_Note = "Quest turns in to Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36,41"..WHITE.."). Reward listed is for the followup."
+Inst30Quest1_Prequest = "No"
+Inst30Quest1_Folgequest = "Yes, Waking Legends"
+--
+Inst30Quest1name1 = "Malfurion's Signet Ring"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst30Quest1_HORDE = Inst30Quest1
+Inst30Quest1_HORDE_Level = Inst30Quest1_Level
+Inst30Quest1_HORDE_Attain = Inst30Quest1_Attain
+Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
+Inst30Quest1_HORDE_Location = Inst30Quest1_Location
+Inst30Quest1_HORDE_Note = Inst30Quest1_Note
+Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
+Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
+--
+Inst30Quest1name1_HORDE = Inst30Quest1name1
+
 
 
 --------------- INST31 - Azuregos ---------------
 
 Inst31Story = "Before the Great Sundering, the night elf city of Eldarath flourished in the land that is now known as Azshara. It is believed that many ancient and powerful Highborne artifacts may be found among the ruins of the once-mighty stronghold. For countless generations, the Blue Dragon Flight has safeguarded powerful artifacts and magical lore, ensuring that they do not fall into mortal hands. The presence of Azuregos, the blue dragon, seems to suggest that items of extreme significance, perhaps the fabled Vials of Eternity themselves, may be found in the wilderness of Azshara. Whatever Azuregos seeks, one thing is certain: he will fight to the death to defend Azshara's magical treasures."
 Inst31Caption = "Azuregos"
-Inst31QAA = "No Quests"
-Inst31QAH = "No Quests"
+Inst31QAA = "1 Quest"
+Inst31QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst31Quest1 = "1. Ancient Sinew Wrapped Lamina"
+Inst31Quest1_Level = "60"
+Inst31Quest1_Attain = "60"
+Inst31Quest1_Aim = "Hastat the Ancient has asked that you bring him a Mature Blue Dragon Sinew. Should you find this sinew, return it to Hastat in Felwood."
+Inst31Quest1_Location = "Hastat the Ancient (Felwood - Irontree Woods; "..YELLOW.."48,24"..WHITE..")"
+Inst31Quest1_Note = "Kill Azuregos to get the Mature Blue Dragon Sinew. He walks around the middle of the southern peninsula in Azshara."
+Inst31Quest1_Prequest = "Yes, The Ancient Leaf ("..YELLOW.."Molten Core"..WHITE..")"
+Inst31Quest1_Folgequest = "No"
+Inst31Quest1PreQuest = "true"
+--
+Inst31Quest1name1 = "Ancient Sinew Wrapped Lamina"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst31Quest1_HORDE = Inst31Quest1
+Inst31Quest1_HORDE_Level = Inst31Quest1_Level
+Inst31Quest1_HORDE_Attain = Inst31Quest1_Attain
+Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
+Inst31Quest1_HORDE_Location = Inst31Quest1_Location
+Inst31Quest1_HORDE_Note = Inst31Quest1_Note
+Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
+Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
+Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
+--
+Inst31Quest1name1_HORDE = Inst31Quest1name1
+
 
 
 --------------- INST32 - Kazzak ---------------

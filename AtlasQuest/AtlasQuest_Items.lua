@@ -48,6 +48,15 @@ local Itemc7 = "|cffFF0000" --red
 local Itemc8 = "|cffFFd200" --ingame yellow
 
 
+
+
+----------------------------------------------
+---------------- DUNGEONS --------------------
+----------------------------------------------
+
+
+
+
 --------------- INST1 - Deadmines (VC) ---------------
 
 --Quest 1 Alliance
@@ -1921,6 +1930,9 @@ Inst14Quest4textur1 = "INV_Scroll_03"
 Inst14Quest4description1 = AQITEM_PATTERN
 Inst14Quest4ID1 = "18592"
 
+--Quest 5 Alliance
+Inst14Quest5Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst14Quest1Rewardtext_HORDE = AQNoReward
@@ -1938,6 +1950,9 @@ Inst14Quest4ITC1_HORDE = Itemc5;
 Inst14Quest4textur1_HORDE = "INV_Scroll_03"
 Inst14Quest4description1_HORDE = AQITEM_PATTERN
 Inst14Quest4ID1_HORDE = "18592"
+
+--Quest 5 Horde
+Inst14Quest5Rewardtext_HORDE = AQNoReward
 
 
 
@@ -5577,6 +5592,56 @@ Inst63Quest8textur1_HORDE = "Spell_Holy_Championsbond"
 Inst63Quest8description1_HORDE = AQITEM_ITEM
 Inst63Quest8ID1_HORDE = "29434"
 
+
+
+
+---------------------------------------------------
+---------------- OUTDOOR RAIDS --------------------
+---------------------------------------------------
+
+
+
+
+--------------- INST30 - Dragons of Nightmare ---------------
+
+--Quest 1 Alliance
+Inst30Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst30Quest1ITC1 = Itemc5;
+Inst30Quest1textur1 = "INV_Jewelry_Ring_37"
+Inst30Quest1description1 = AQITEM_RING
+Inst30Quest1ID1 = "20600"
+
+
+--Quest 1 Horde
+Inst30Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst30Quest1ITC1_HORDE = Itemc5;
+Inst30Quest1textur1_HORDE = "INV_Jewelry_Ring_37"
+Inst30Quest1description1_HORDE = AQITEM_RING
+Inst30Quest1ID1_HORDE = "20600"
+
+
+
+
+--------------- INST31 - Azuregos ---------------
+
+--Quest 1 Alliance
+Inst30Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst30Quest1ITC1 = Itemc5;
+Inst30Quest1textur1 = "INV_Misc_Quiver_03"
+Inst30Quest1description1 = AQITEM_QUIVER
+Inst30Quest1ID1 = "18714"
+
+
+--Quest 1 Horde
+Inst30Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst30Quest1ITC1_HORDE = Itemc5;
+Inst30Quest1textur1_HORDE = "INV_Misc_Quiver_03"
+Inst30Quest1description1_HORDE = AQITEM_QUIVER
+Inst30Quest1ID1_HORDE = "18714"
 
 
 

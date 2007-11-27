@@ -12,6 +12,7 @@ Version 4.0.11 (by Thandrenn)
 - Fixed a few typos here and there, some Prequest icons were not showing up.
 
 - Quests added:
+	- Molten Core: The Ancient Leaf
 	- Onyxia's Lair: Victory for the Alliance
 	- Onyxia's Lair: Victory for the Horde
 	- Shattered Halls: Kalynna's Request
@@ -24,6 +25,8 @@ Version 4.0.11 (by Thandrenn)
 	- Zul'Aman: Playin' With Dolls
 	- Zul'Aman: Blood of the Warlord
 	- Zul'Aman: Undercover Sister
+	- Dragons of Nightmare: Shrouded in Nightmare
+	- Azuregos: Ancient Sinew Wrapped Lamina
 	
 - Cleanup progress (DONE!):
 	- CF: Serpentshrine Cavern
@@ -41,7 +44,7 @@ Version 4.0.11 (by Thandrenn)
 	- TK: Botanica
 	- TK: Arcatraz
 	- Karazhan
-	- Black Temple (Still lacking a bit of info though.)
+	- Black Temple
 
 
 
