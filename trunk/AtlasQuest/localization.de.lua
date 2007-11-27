@@ -25,7 +25,9 @@
 -- German localisation by Asurn
 -- updated by Telchar (ICQ:  391632535)
 
+
 if ( GetLocale() == "deDE" ) then
+
 ---------------
 -- Colours --
 ---------------
@@ -100,6 +102,7 @@ AQITEM_MACE = " Streitkolben"
 AQITEM_SHIELD = "Schild"
 AQITEM_GUN = "Schusswaffe"
 AQITEM_BOW = "Bogen"
+AQITEM_CROSSBOW = "Armbrust"
 
 AQITEM_WAIST = "Taille,"
 AQITEM_SHOULDER = "Schultern,"
@@ -132,15 +135,14 @@ AQITEM_BAG = "Behälter"
 AQITEM_RING = "Ring"
 AQITEM_KEY = "Schlüssel"
 AQITEM_GEM = "Edelstein"
+AQITEM_QUIVER = "Köcher"
+AQITEM_AMMOPOUCH = "Munitionsbeutel"
+AQITEM_ENCHANT = "Verzauberung"
 
 
-
-
--------------------
+------------------
 -- Instances --
 ------------------
-
-
 
 
 --------------- INST1 - Deadmines (VC) ---------------
@@ -231,7 +233,7 @@ Inst1Quest6_Folgequest = "Ja, Die Prüfung der Rechtschaffenheit"
 Inst1Quest6PreQuest = "true"
 --
 Inst1Quest6name1 = "Verigans Faust"
-Inst1Quest6_Page = {2, "Nur Paladine können diese Quest bekommen!\n\n1. Das Weißsteineichenholz bekommt man von Goblin-Holzschnitzern in den "..YELLOW.."[Todesminen]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden.  Er gibt einem die Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." nahe Punkt "..YELLOW.."[B]"..WHITE.." (in den Ställen).\n\n4. Den Kor-Edelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Kor-Edelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Kor-Edelstein welchen Thundris Windwirker reinigt.", };
+Inst1Quest6_Page = {2, "Nur Paladine können diese Quest bekommen.\n\n1. Das Weißsteineichenholz bekommt man von Goblin-Holzschnitzern in den "..YELLOW.."Todesminen"..WHITE.." nahe "..YELLOW.."[3]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden.  Er gibt einem die Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." nahe Punkt "..YELLOW.."[B]"..WHITE.." (in den Ställen).\n\n4. Den Kor-Edelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Kor-Edelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Kor-Edelstein welchen Thundris Windwirker reinigt.", };
 
 --Quest 7 allianz
 Inst1Quest7 = "7. Der nie verschickte Brief"
@@ -1990,8 +1992,8 @@ Inst9Quest9_HORDE_Folgequest = "Nein"
 
 Inst10Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen - besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
 Inst10Caption = "Düsterbruch (Ost)"
-Inst10QAA = "3 Quests"
-Inst10QAH = "3 Quests"
+Inst10QAA = "5 Quests"
+Inst10QAH = "5 Quests"
 
 --Quest1 Allianz
 Inst10Quest1 = "1. Pusillin und der Älteste Azj'Tordin"
@@ -2033,6 +2035,30 @@ Inst10Quest3PreQuest = "true"
 Inst10Quest3name1 = "Millis Schild"
 Inst10Quest3name2 = "Millis Lexikon"
 
+--Quest 4 Allianz
+Inst10Quest4 = "4. The Left Piece of Lord Valthalak's Amulet"
+Inst10Quest4_Level = "60"
+Inst10Quest4_Attain = "60"
+Inst10Quest4_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Isalien zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst10Quest4_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Einangs-Karte"..WHITE..")"
+Inst10Quest4_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nIsalien wird bei "..YELLOW.."[5]"..WHITE.." beschworen."
+Inst10Quest4_Prequest = "Ja, Komponenten von großer Wichtigkeit"
+Inst10Quest4_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
+Inst10Quest4PreQuest = "true"
+-- Keine Belohnung
+
+--Quest 5 Allianz
+Inst10Quest5 = "5. Das rechte Stück von Lord Valthalaks Amulett"
+Inst10Quest5_Level = "60"
+Inst10Quest5_Attain = "60"
+Inst10Quest5_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Isalien zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst10Quest5_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Einangs-Karte"..WHITE..")"
+Inst10Quest5_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nIsalien wird bei "..YELLOW.."[5]"..WHITE.." beschworen."
+Inst10Quest5_Prequest = "Ja, Mehr Komponenten von großer Wichtigkeit"
+Inst10Quest5_Folgequest = "Ja, Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
+Inst10Quest5PreQuest = "true"
+-- Keine Belohnung
+
 
 --Quest1 Horde (das selbe wie allianz quest 1)
 Inst10Quest1_HORDE = Inst10Quest1
@@ -2072,6 +2098,30 @@ Inst10Quest3_HORDE_Folgequest = Inst10Quest3_Folgequest
 --
 Inst10Quest3name1_HORDE = Inst10Quest3name1
 Inst10Quest3name2_HORDE = Inst10Quest3name2
+
+--Quest 4 Horde  (das selbe wie allianz quest 4)
+Inst10Quest4_HORDE = Inst10Quest4
+Inst10Quest4_HORDE_Level = Inst10Quest4_Level
+Inst10Quest4_HORDE_Attain = Inst10Quest4_Attain
+Inst10Quest4_HORDE_Aim = Inst10Quest4_Aim
+Inst10Quest4_HORDE_Location = Inst10Quest4_Location
+Inst10Quest4_HORDE_Note = Inst10Quest4_Note
+Inst10Quest4_HORDE_Prequest = Inst10Quest4_Prequest
+Inst10Quest4_HORDE_Folgequest = Inst10Quest4_Folgequest
+Inst10Quest4PreQuest_HORDE = Inst10Quest4PreQuest
+-- Keine Belohnung
+
+--Quest 5 Horde  (das selbe wie allianz quest 5)
+Inst10Quest5_HORDE = Inst10Quest5
+Inst10Quest5_HORDE_Level = Inst10Quest5_Level
+Inst10Quest5_HORDE_Attain = Inst10Quest5_Attain
+Inst10Quest5_HORDE_Aim = Inst10Quest5_Aim
+Inst10Quest5_HORDE_Location = Inst10Quest5_Location
+Inst10Quest5_HORDE_Note = Inst10Quest5_Note
+Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
+Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
+Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
+-- Keine Belohnung
 
 
 --------------- INST11 - Dire Maul North (DM) ---------------
