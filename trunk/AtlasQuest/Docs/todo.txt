@@ -2,10 +2,8 @@
 ToDo List
 =========
 
-- Cleanup quests for rest of BC instances (Check Level & Attain #s, Reference Entrance Maps, Add Data, Rewards, etc.)
 - Add Outdoor Raid quests.
 - Add Battlegrounds quests.
-- Document and go over /slash command stuff. Worth keeping?
 - BUG: CT_Core show quest lvl thing not working with Blue quest names.
 - BUG: Stuff like (Questline) (Heroic) and (Class) throws off the Blue quest names stuff.
 - BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
@@ -47,9 +45,9 @@ DONE	--	26 = The Temple of Ahn'Qiraj (AQ40)
 DONE 	--	27 = Zul'Farrak (ZF)
 DONE 	--	28 = Zul'Gurub (ZG)
 DONE	--	29 = Gnomeregan (Gnomer)
--- 	--	30 = Four Dragons
--- 	--	31 = Azuregos
--- 	--	32 = Kazzak
+TEST 	--	30 = Four Dragons
+TEST 	--	31 = Azuregos
+NONE 	--	32 = Kazzak
 -- 	--	33 = Alterac Valley (AV)
 -- 	--	34 = Arathi Basin (AB)
 -- 	--	35 = Warsong Gulch (WSG)
@@ -124,11 +122,6 @@ CoT:
 - Black Morass: Wanted: Rift Lords  http://www.wowhead.com/?quest=11383
 
 
-Outdoor Raids:
-
-Dragons of Nightmare: Shrouded in Nightmare  http://www.wowhead.com/?quest=8446
-Azuregos: Ancient Sinew Wrapped Lamina  http://www.wowhead.com/?quest=7634
- 
 
 
 Battlegrounds (from  maqjav)
