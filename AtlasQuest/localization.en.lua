@@ -93,6 +93,7 @@ AQITEM_MACE = " Mace"
 AQITEM_SHIELD = "Shield"
 AQITEM_GUN = "Gun"
 AQITEM_BOW = "Bow"
+AQITEM_CROSSBOW = "Crossbow"
 
 AQITEM_WAIST = "Waist,"
 AQITEM_SHOULDER = "Shoulder,"
@@ -127,6 +128,7 @@ AQITEM_KEY = "Key"
 AQITEM_GEM = "Gem"
 AQITEM_QUIVER = "Quiver"
 AQITEM_AMMOPOUCH = "Ammo Pouch"
+AQITEM_ENCHANT = "Enchant"
 
 
 
@@ -221,7 +223,7 @@ Inst1Quest6_Attain = "20"
 Inst1Quest6_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
 Inst1Quest6_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
 Inst1Quest6_Note = "To see the note click on "..YELLOW.."[The Test of Righteousness Information]"..WHITE.."."
-Inst1Quest6_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." next to "..YELLOW.."[B]"..WHITE.." (the stables).\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
+Inst1Quest6_Page = {2, "Only Paladins can get this quest.\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."Deadmines"..WHITE.." near "..YELLOW.."[3]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." next to "..YELLOW.."[B]"..WHITE.." (the stables).\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
 Inst1Quest6_Prequest = "Yes, The Tome of Valor -> The Test of Righteousness"
 Inst1Quest6_Folgequest = "Yes, The Test of Righteousness"
 Inst1Quest6PreQuest = "true"
@@ -995,7 +997,7 @@ Inst5Quest13name3 = "Valconian Sash"
 Inst5Quest14 = "14. Kharan Mighthammer"
 Inst5Quest14_Level = "59"
 Inst5Quest14_Attain = "50"
-Inst5Quest14_Aim = " Travel to Blackrock Depths and find Kharan Mighthammer.\nThe King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison."
+Inst5Quest14_Aim = "Travel to Blackrock Depths and find Kharan Mighthammer.\nThe King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison."
 Inst5Quest14_Location = "King Magni Bronzebeard (Ironforge; "..YELLOW.."39,55"..WHITE..")"
 Inst5Quest14_Note = "The prequest starts at Royal Historian Archesonus (Ironforge; "..YELLOW.."38,55"..WHITE.."). Kharan Mighthammer is at "..YELLOW.."[2]"..WHITE.."."
 Inst5Quest14_Prequest = "Yes, The Smoldering Ruins of Thaurissan"
@@ -1601,7 +1603,7 @@ Inst8Quest6_Level = "60"
 Inst8Quest6_Attain = "55"
 Inst8Quest6_Aim = "Read Warosh's Scroll. Bring Warosh's Mojo to Warosh."
 Inst8Quest6_Location = "Warosh (Blackrock Spire; "..YELLOW.."[2]"..WHITE..")"
-Inst8Quest6_Note = "To get Warosh's Mojo you have to evoke and kill Urok Doomhowl "..YELLOW.."[15]"..WHITE..". For his Evocation you need a Spear and Highlord Omokks Head "..YELLOW.."[5]"..WHITE..". The Spear is near "..YELLOW.."[3]"..WHITE..". During the Evocation a few waves of ogres appear before Urok Doomhowl attacks you. You can use the Spear during the fight to damage the ogres."
+Inst8Quest6_Note = "To get Warosh's Mojo you have to evoke and kill Urok Doomhowl "..YELLOW.."[15]"..WHITE..". For his Evocation you need a Spear and Highlord Omokk's Head "..YELLOW.."[5]"..WHITE..". The Spear is at "..YELLOW.."[3]"..WHITE..". During the Evocation a few waves of ogres appear before Urok Doomhowl attacks you. You can use the Spear during the fight to damage the ogres."
 Inst8Quest6_Prequest = "No"
 Inst8Quest6_Folgequest = "No"
 --
@@ -1613,7 +1615,7 @@ Inst8Quest7_Level = "59"
 Inst8Quest7_Attain = "55"
 Inst8Quest7_Aim = "Find Bijou's Belongings and return them to her. Good luck!"
 Inst8Quest7_Location = "Bijou (Blackrock Spire; "..YELLOW.."[3]"..WHITE..")"
-Inst8Quest7_Note = "You find Bijou's Belongings on the way to Mother Smolderweb at "..YELLOW.."[13]"..WHITE..".\nYou can find Maxwell at (Burning Steppes - Morgan's Vigil; "..YELLOW.."84,58"..WHITE..")."
+Inst8Quest7_Note = "You find Bijou's Belongings on the way to Mother Smolderweb at "..YELLOW.."[10]"..WHITE..".\nMaxwell is at (Burning Steppes - Morgan's Vigil; "..YELLOW.."84,58"..WHITE..")."
 Inst8Quest7_Prequest = "No"
 Inst8Quest7_Folgequest = "Yes, Message to Maxwell"
 -- No Rewards for this quest
@@ -1663,7 +1665,7 @@ Inst8Quest11_Level = "60"
 Inst8Quest11_Attain = "60"
 Inst8Quest11_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst8Quest11_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst8Quest11_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest."
+Inst8Quest11_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nMor Grayhoof is summoned at "..YELLOW.."[9]"..WHITE.."."
 Inst8Quest11_Prequest = "Yes, Components of Importance"
 Inst8Quest11_Folgequest = "Yes, I See Alcaz Island In Your Future..."
 Inst8Quest11PreQuest = "true"
@@ -1675,7 +1677,7 @@ Inst8Quest12_Level = "60"
 Inst8Quest12_Attain = "60"
 Inst8Quest12_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst8Quest12_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst8Quest12_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest."
+Inst8Quest12_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nMor Grayhoof is summoned at "..YELLOW.."[9]"..WHITE.."."
 Inst8Quest12_Prequest = "Yes, More Components of Importance"
 Inst8Quest12_Folgequest = "Yes, Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
 Inst8Quest12PreQuest = "true"
@@ -1800,7 +1802,7 @@ Inst8Quest8_HORDE_Level = "59"
 Inst8Quest8_HORDE_Attain = "55"
 Inst8Quest8_HORDE_Aim = "Find Bijou's Belongings and return them to her. You recall her mentioning that she stashed them on the bottom floor of the city."
 Inst8Quest8_HORDE_Location = "Bijou (Blackrock Spire; "..YELLOW.."[3]"..WHITE..")"
-Inst8Quest8_HORDE_Note = "You find Bijou's Belongings on the way to Mother Smolderweb "..YELLOW.."[13]"..WHITE..".\nThe Rewards belong to 'Bijou's Reconnaissance Report'."
+Inst8Quest8_HORDE_Note = "You find Bijou's Belongings on the way to Mother Smolderweb at "..YELLOW.."[10]"..WHITE..".\nThe Rewards belong to 'Bijou's Reconnaissance Report'."
 Inst8Quest8_HORDE_Prequest = "Yes, Operative Bijou"
 Inst8Quest8_HORDE_Folgequest = "Yes, Bijou's Reconnaissance Report"
 Inst8Quest8FQuest_HORDE = "true"
@@ -1825,7 +1827,7 @@ Inst8Quest10_HORDE_Level = "60"
 Inst8Quest10_HORDE_Attain = "55"
 Inst8Quest10_HORDE_Aim = "Slay Highlord Omokk, War Master Voone, and Overlord Wyrmthalak. Recover Important Blackrock Documents. Return to Warlord Goretooth in Kargath when the mission has been accomplished."
 Inst8Quest10_HORDE_Location = "Warlord Goretooth (Badlands - Kargath; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest10_HORDE_Note = "Onyxia PreQuest!\nYou find Highlord Omokk at "..YELLOW.."[5]"..WHITE..", War Master Voone at "..YELLOW.."[9]"..WHITE.." and Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..". The Blackrock Documents could appear next to one of these 3 bosses."
+Inst8Quest10_HORDE_Note = "Onyxia Prequest.\nYou find Highlord Omokk at "..YELLOW.."[5]"..WHITE..", War Master Voone at "..YELLOW.."[9]"..WHITE.." and Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..". The Blackrock Documents could appear next to one of these 3 bosses."
 Inst8Quest10_HORDE_Prequest = "No"
 Inst8Quest10_HORDE_Folgequest = "Yes, Eitrigg's Wisdom -> For the Horde! ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
 --
@@ -1921,7 +1923,7 @@ Inst9Quest3_Level = "60"
 Inst9Quest3_Attain = "57"
 Inst9Quest3_Aim = "Use the Eggscilloscope Prototype on an egg in the Rookery."
 Inst9Quest3_Location = "Tinkee Steamboil (Burning Steppes - Flame Crest; "..YELLOW.."65,24"..WHITE..")"
-Inst9Quest3_Note = "You find the eggs in the room of Father Flame "..YELLOW.."[2]"..WHITE.."."
+Inst9Quest3_Note = "You find the eggs in the room of Father Flame at "..YELLOW.."[2]"..WHITE.."."
 Inst9Quest3_Prequest = "Yes, Broodling Essence -> Tinkee Steamboil"
 Inst9Quest3_Folgequest = "Yes, Leonid Barthalomew -> Dawn's Gambit ("..YELLOW.."Scholomance"..WHITE..")"
 Inst9Quest3PreQuest = "true"
@@ -1960,7 +1962,7 @@ Inst9Quest6_Level = "60"
 Inst9Quest6_Attain = "57"
 Inst9Quest6_Aim = "Bring Doomrigger's Clasp to Mayara Brightwing in the Burning Steppes."
 Inst9Quest6_Location = "Mayara Brightwing (Burning Steppes - Morgan's Vigil; "..YELLOW.."84,69"..WHITE..")"
-Inst9Quest6_Note = "You get the prequest from Count Remington Ridgewell (Stormwind - Stormwind Keep; "..YELLOW.."74,30"..WHITE.."). Doomrigger's Clasp is in the Father Flame room "..YELLOW.."[2]"..WHITE.." in a chest."
+Inst9Quest6_Note = "You get the prequest from Count Remington Ridgewell (Stormwind - Stormwind Keep; "..YELLOW.."74,30"..WHITE..").\n\nDoomrigger's Clasp is at "..YELLOW.."[3]"..WHITE.." in a chest."
 Inst9Quest6_Prequest = "Yes, Mayara Brightwing"
 Inst9Quest6_Folgequest = "Yes, Delivery to Ridgewell"
 Inst9Quest6PreQuest = "true"
@@ -1987,7 +1989,7 @@ Inst9Quest8_Level = "60"
 Inst9Quest8_Attain = "55"
 Inst9Quest8_Aim = "The letter indicates that General Drakkisath guards the brand. Perhaps you should investigate."
 Inst9Quest8_Location = "Blackhand's Command (drops from Scarshield Quartermaster; "..YELLOW.."[7] on Entrance Map"..WHITE..")"
-Inst9Quest8_Note = "Blackwing Lair attunement quest. Scarshield Quartermaster is found if you turn right before the LBRS/UBRS portal. General Drakkisath is at "..YELLOW.."[9]"..WHITE..". The brand is behind him."
+Inst9Quest8_Note = "Blackwing Lair attunement quest. Scarshield Quartermaster is found if you turn right before the LBRS/UBRS portal.\n\nGeneral Drakkisath is at "..YELLOW.."[9]"..WHITE..". The brand is behind him."
 Inst9Quest8_Prequest = "No"
 Inst9Quest8_Folgequest = "No"
 -- No Rewards for this quest
@@ -2085,7 +2087,7 @@ Inst9Quest5_HORDE_Level = "60"
 Inst9Quest5_HORDE_Attain = "57"
 Inst9Quest5_HORDE_Aim = "Bring the Darkstone Tablet to Shadow Mage Vivian Lagrave in Kargath.."
 Inst9Quest5_HORDE_Location = "Vivian Lagrave (Badlands - Kargath; "..YELLOW.."2,47"..WHITE..")"
-Inst9Quest5_HORDE_Note = "You get the prequest from Apothecary Zinge in Undercity - The Apothecarium ("..YELLOW.."50,68"..WHITE.."). The Darkstone Tablet is in the Father Flame room ("..YELLOW.."[2]"..WHITE..")."
+Inst9Quest5_HORDE_Note = "You get the prequest from Apothecary Zinge in Undercity - The Apothecarium ("..YELLOW.."50,68"..WHITE..").\n\nThe Darkstone Tablet is at "..YELLOW.."[3]"..WHITE.." in a chest."
 Inst9Quest5_HORDE_Prequest = "Yes, Vivian Lagrave and the Darkstone Tablet"
 Inst9Quest5_HORDE_Folgequest = "No"
 Inst9Quest5PreQuest_HORDE = "true"
@@ -2188,8 +2190,8 @@ Inst9Quest12name3_HORDE = Inst9Quest11name3
 
 Inst10Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst10Caption = "Dire Maul (East)"
-Inst10QAA = "3 Quests"
-Inst10QAH = "3 Quests"
+Inst10QAA = "5 Quests"
+Inst10QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst10Quest1 = "1. Pusillin and the Elder Azj'Tordin"
@@ -2231,6 +2233,30 @@ Inst10Quest3PreQuest = "true"
 Inst10Quest3name1 = "Milli's Shield"
 Inst10Quest3name2 = "Milli's Lexicon"
 
+--Quest 4 Alliance
+Inst10Quest4 = "4. The Left Piece of Lord Valthalak's Amulet"
+Inst10Quest4_Level = "60"
+Inst10Quest4_Attain = "60"
+Inst10Quest4_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
+Inst10Quest4_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst10Quest4_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
+Inst10Quest4_Prequest = "Yes, Components of Importance"
+Inst10Quest4_Folgequest = "Yes, I See Alcaz Island In Your Future..."
+Inst10Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst10Quest5 = "5. The Right Piece of Lord Valthalak's Amulet"
+Inst10Quest5_Level = "60"
+Inst10Quest5_Attain = "60"
+Inst10Quest5_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
+Inst10Quest5_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst10Quest5_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
+Inst10Quest5_Prequest = "Yes, More Components of Importance"
+Inst10Quest5_Folgequest = "Yes, Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
+Inst10Quest5PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst10Quest1_HORDE = Inst10Quest1
@@ -2270,6 +2296,30 @@ Inst10Quest3_HORDE_Folgequest = Inst10Quest3_Folgequest
 --
 Inst10Quest3name1_HORDE = Inst10Quest3name1
 Inst10Quest3name2_HORDE = Inst10Quest3name2
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst10Quest4_HORDE = Inst10Quest4
+Inst10Quest4_HORDE_Level = Inst10Quest4_Level
+Inst10Quest4_HORDE_Attain = Inst10Quest4_Attain
+Inst10Quest4_HORDE_Aim = Inst10Quest4_Aim
+Inst10Quest4_HORDE_Location = Inst10Quest4_Location
+Inst10Quest4_HORDE_Note = Inst10Quest4_Note
+Inst10Quest4_HORDE_Prequest = Inst10Quest4_Prequest
+Inst10Quest4_HORDE_Folgequest = Inst10Quest4_Folgequest
+Inst10Quest4PreQuest_HORDE = Inst10Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst10Quest5_HORDE = Inst10Quest5
+Inst10Quest5_HORDE_Level = Inst10Quest5_Level
+Inst10Quest5_HORDE_Attain = Inst10Quest5_Attain
+Inst10Quest5_HORDE_Aim = Inst10Quest5_Aim
+Inst10Quest5_HORDE_Location = Inst10Quest5_Location
+Inst10Quest5_HORDE_Note = Inst10Quest5_Note
+Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
+Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
+Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
+-- No Rewards for this quest
 
 
 
@@ -2385,8 +2435,8 @@ Inst11Quest4name4_HORDE = Inst11Quest4name4
 
 Inst12Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst12Caption = "Dire Maul (West)"
-Inst12QAA = "4 Quests"
-Inst12QAH = "4 Quests"
+Inst12QAA = "17 Quests"
+Inst12QAH = "17 Quests"
 
 --Quest 1 Alliance
 Inst12Quest1 = "1. Elven Legends"
@@ -2437,6 +2487,161 @@ Inst12Quest4_Folgequest = "No"
 Inst12Quest4PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 5 Alliance
+Inst12Quest5 = "5. The Emerald Dream... (Druid)"
+Inst12Quest5_Level = "60"
+Inst12Quest5_Attain = "59"
+Inst12Quest5_Aim = "Return the book to its rightful owners."
+Inst12Quest5_Location = "The Emerald Dream (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest5_Note = "The reward is for Druids. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest5_Prequest = "No"
+Inst12Quest5_Folgequest = "No"
+--
+Inst12Quest5name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 6 Alliance
+Inst12Quest6 = "6. The Greatest Race of Hunters (Hunter)"
+Inst12Quest6_Level = "60"
+Inst12Quest6_Attain = "54"
+Inst12Quest6_Aim = "Return the book to its rightful owners."
+Inst12Quest6_Location = "The Greatest Race of Hunters (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest6_Note = "The reward is for Hunters. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest6_Prequest = "No"
+Inst12Quest6_Folgequest = "No"
+--
+Inst12Quest6name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 7 Alliance
+Inst12Quest7 = "7. The Arcanist's Cookbook (Mage)"
+Inst12Quest7_Level = "60"
+Inst12Quest7_Attain = "54"
+Inst12Quest7_Aim = "Return the book to its rightful owners."
+Inst12Quest7_Location = "The Arcanist's Cookbook (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest7_Note = "The reward is for Mages. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest7_Prequest = "No"
+Inst12Quest7_Folgequest = "No"
+--
+Inst12Quest7name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 8 Alliance
+Inst12Quest8 = "8. The Light and How To Swing It (Paladin)"
+Inst12Quest8_Level = "60"
+Inst12Quest8_Attain = "54"
+Inst12Quest8_Aim = "Return the book to its rightful owners."
+Inst12Quest8_Location = "The Light and How To Swing It (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest8_Note = "The reward is for Paladins. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest8_Prequest = "No"
+Inst12Quest8_Folgequest = "No"
+--
+Inst12Quest8name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 9 Alliance
+Inst12Quest9 = "9. Holy Bologna: What the Light Won't Tell You (Priest)"
+Inst12Quest9_Level = "60"
+Inst12Quest9_Attain = "56"
+Inst12Quest9_Aim = "Return the book to its rightful owners."
+Inst12Quest9_Location = "Holy Bologna: What the Light Won't Tell You (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest9_Note = "The reward is for Priests. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest9_Prequest = "No"
+Inst12Quest9_Folgequest = "No"
+--
+Inst12Quest9name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 10 Alliance
+Inst12Quest10 = "10. Garona: A Study on Stealth and Treachery (Rogue)"
+Inst12Quest10_Level = "60"
+Inst12Quest10_Attain = "54"
+Inst12Quest10_Aim = "Return the book to its rightful owners."
+Inst12Quest10_Location = "Garona: A Study on Stealth and Treachery (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest10_Note = "The reward is for Rogues. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest10_Prequest = "No"
+Inst12Quest10_Folgequest = "No"
+--
+Inst12Quest10name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 11 Alliance
+Inst12Quest11 = "11. Frost Shock and You (Shaman)"
+Inst12Quest11_Level = "60"
+Inst12Quest11_Attain = "59"
+Inst12Quest11_Aim = "Return the book to its rightful owners."
+Inst12Quest11_Location = "Frost Shock and You (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest11_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest11_Prequest = "No"
+Inst12Quest11_Folgequest = "No"
+--
+Inst12Quest11name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 12 Alliance
+Inst12Quest12 = "12. Harnessing Shadows (Warlock)"
+Inst12Quest12_Level = "60"
+Inst12Quest12_Attain = "54"
+Inst12Quest12_Aim = "Return the book to its rightful owners."
+Inst12Quest12_Location = "Harnessing Shadows (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest12_Note = "Warlock quest. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest12_Prequest = "No"
+Inst12Quest12_Folgequest = "No"
+--
+Inst12Quest12name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 13 Alliance
+Inst12Quest13 = "13. Codex of Defense (Warrior)"
+Inst12Quest13_Level = "60"
+Inst12Quest13_Attain = "57"
+Inst12Quest13_Aim = "Return the book to its rightful owners."
+Inst12Quest13_Location = "Codex of Defense (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest13_Note = "Warrior quest. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest13_Prequest = "No"
+Inst12Quest13_Folgequest = "No"
+--
+Inst12Quest13name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 14 Alliance
+Inst12Quest14 = "14. Libram of Focus"
+Inst12Quest14_Level = "60"
+Inst12Quest14_Attain = "60"
+Inst12Quest14_Aim = "Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Focus."
+Inst12Quest14_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")"
+Inst12Quest14_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Skin of Shadow is Soulbound and can drop off some bosses, Risen Constructs and Risen Bonewarder in "..YELLOW.."Scholomance"..WHITE.."."
+Inst12Quest14_Prequest = "No"
+Inst12Quest14_Folgequest = "No"
+--
+Inst12Quest14name1 = "Arcanum of Focus"
+
+--Quest 15 Alliance
+Inst12Quest15 = "15. Libram of Protection"
+Inst12Quest15_Level = "60"
+Inst12Quest15_Attain = "60"
+Inst12Quest15_Aim = "Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Protection."
+Inst12Quest15_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")"
+Inst12Quest15_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Frayed Abomination Stitching is Soulbound and can drop off Ramstein the Gorger, Venom Belchers, Bile Spewer and Patchwork Horror in "..YELLOW.."Stratholme"..WHITE.."."
+Inst12Quest15_Prequest = "No"
+Inst12Quest15_Folgequest = "No"
+--
+Inst12Quest15name1 = "Arcanum of Protection"
+
+--Quest 16 Alliance
+Inst12Quest16 = "16. Libram of Rapidity"
+Inst12Quest16_Level = "60"
+Inst12Quest16_Attain = "60"
+Inst12Quest16_Aim = "Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Rapidity."
+Inst12Quest16_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")"
+Inst12Quest16_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Blood of Heroes is Soulbound and can be found on the ground in random places in the Western and Eastern Plaguelands."
+Inst12Quest16_Prequest = "No"
+Inst12Quest16_Folgequest = "No"
+--
+Inst12Quest16name1 = "Arcanum of Rapidity"
+
+--Quest 17 Alliance
+Inst12Quest17 = "17. Foror's Compendium (Warrior, Paladin)"
+Inst12Quest17_Level = "60"
+Inst12Quest17_Attain = "60"
+Inst12Quest17_Aim = "Return Foror's Compendium of Dragon Slaying to the Athenaeum."
+Inst12Quest17_Location = "Foror's Compendium of Dragon Slaying (random boss drop in "..YELLOW.."Dire Maul"..WHITE..")"
+Inst12Quest17_Note = "Warrior or Paladin quest. It turns in to Lorekeeper Lydros at (Dire Maul West; "..YELLOW.."[1] Library"..WHITE.."). Turning this in allows you to start the quest for Quel'Serrar."
+Inst12Quest17_Prequest = "No"
+Inst12Quest17_Folgequest = "Yes, The Forging of Quel'Serrar"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst12Quest1_HORDE = "1. Elven Legends"
@@ -2485,6 +2690,161 @@ Inst12Quest4_HORDE_Note = Inst12Quest4_Note
 Inst12Quest4_HORDE_Prequest = Inst12Quest4_Prequest
 Inst12Quest4_HORDE_Folgequest = Inst12Quest4_Folgequest
 Inst12Quest4PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst12Quest5_HORDE = Inst12Quest5
+Inst12Quest5_HORDE_Level = Inst12Quest5_Level
+Inst12Quest5_HORDE_Attain = Inst12Quest5_Attain
+Inst12Quest5_HORDE_Aim = Inst12Quest5_Aim
+Inst12Quest5_HORDE_Location = Inst12Quest5_Location
+Inst12Quest5_HORDE_Note = Inst12Quest5_Note
+Inst12Quest5_HORDE_Prequest = Inst12Quest5_Prequest
+Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
+--
+Inst12Quest5name1_HORDE = Inst12Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst12Quest6_HORDE = Inst12Quest6
+Inst12Quest6_HORDE_Level = Inst12Quest6_Level
+Inst12Quest6_HORDE_Attain = Inst12Quest6_Attain
+Inst12Quest6_HORDE_Aim = Inst12Quest6_Aim
+Inst12Quest6_HORDE_Location = Inst12Quest6_Location
+Inst12Quest6_HORDE_Note = Inst12Quest6_Note
+Inst12Quest6_HORDE_Prequest = Inst12Quest6_Prequest
+Inst12Quest6_HORDE_Folgequest = Inst12Quest6_Folgequest
+--
+Inst12Quest6name1_HORDE = Inst12Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst12Quest7_HORDE = Inst12Quest7
+Inst12Quest7_HORDE_Level = Inst12Quest7_Level
+Inst12Quest7_HORDE_Attain = Inst12Quest7_Attain
+Inst12Quest7_HORDE_Aim = Inst12Quest7_Aim
+Inst12Quest7_HORDE_Location = Inst12Quest7_Location
+Inst12Quest7_HORDE_Note = Inst12Quest7_Note
+Inst12Quest7_HORDE_Prequest = Inst12Quest7_Prequest
+Inst12Quest7_HORDE_Folgequest = Inst12Quest7_Folgequest
+--
+Inst12Quest7name1_HORDE = Inst12Quest7name1
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst12Quest8_HORDE = Inst12Quest8
+Inst12Quest8_HORDE_Level = Inst12Quest8_Level
+Inst12Quest8_HORDE_Attain = Inst12Quest8_Attain
+Inst12Quest8_HORDE_Aim = Inst12Quest8_Aim
+Inst12Quest8_HORDE_Location = Inst12Quest8_Location
+Inst12Quest8_HORDE_Note = Inst12Quest8_Note
+Inst12Quest8_HORDE_Prequest = Inst12Quest8_Prequest
+Inst12Quest8_HORDE_Folgequest = Inst12Quest8_Folgequest
+--
+Inst12Quest8name1_HORDE = Inst12Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst12Quest9_HORDE = Inst12Quest9
+Inst12Quest9_HORDE_Level = Inst12Quest9_Level
+Inst12Quest9_HORDE_Attain = Inst12Quest9_Attain
+Inst12Quest9_HORDE_Aim = Inst12Quest9_Aim
+Inst12Quest9_HORDE_Location = Inst12Quest9_Location
+Inst12Quest9_HORDE_Note = Inst12Quest9_Note
+Inst12Quest9_HORDE_Prequest = Inst12Quest9_Prequest
+Inst12Quest9_HORDE_Folgequest = Inst12Quest9_Folgequest
+--
+Inst12Quest9name1_HORDE = Inst12Quest9name1
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst12Quest10_HORDE = Inst12Quest10
+Inst12Quest10_HORDE_Level = Inst12Quest10_Level
+Inst12Quest10_HORDE_Attain = Inst12Quest10_Attain
+Inst12Quest10_HORDE_Aim = Inst12Quest10_Aim
+Inst12Quest10_HORDE_Location = Inst12Quest10_Location
+Inst12Quest10_HORDE_Note = Inst12Quest10_Note
+Inst12Quest10_HORDE_Prequest = Inst12Quest10_Prequest
+Inst12Quest10_HORDE_Folgequest = Inst12Quest10_Folgequest
+--
+Inst12Quest10name1_HORDE = Inst12Quest10name1
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst12Quest11_HORDE = Inst12Quest11
+Inst12Quest11_HORDE_Level = Inst12Quest11_Level
+Inst12Quest11_HORDE_Attain = Inst12Quest11_Attain
+Inst12Quest11_HORDE_Aim = Inst12Quest11_Aim
+Inst12Quest11_HORDE_Location = Inst12Quest11_Location
+Inst12Quest11_HORDE_Note = Inst12Quest11_Note
+Inst12Quest11_HORDE_Prequest = Inst12Quest11_Prequest
+Inst12Quest11_HORDE_Folgequest = Inst12Quest11_Folgequest
+--
+Inst12Quest11name1_HORDE = Inst12Quest11name1
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst12Quest12_HORDE = Inst12Quest12
+Inst12Quest12_HORDE_Level = Inst12Quest12_Level
+Inst12Quest12_HORDE_Attain = Inst12Quest12_Attain
+Inst12Quest12_HORDE_Aim = Inst12Quest12_Aim
+Inst12Quest12_HORDE_Location = Inst12Quest12_Location
+Inst12Quest12_HORDE_Note = Inst12Quest12_Note
+Inst12Quest12_HORDE_Prequest = Inst12Quest12_Prequest
+Inst12Quest12_HORDE_Folgequest = Inst12Quest12_Folgequest
+--
+Inst12Quest12name1_HORDE = Inst12Quest12name1
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst12Quest13_HORDE = Inst12Quest13
+Inst12Quest13_HORDE_Level = Inst12Quest13_Level
+Inst12Quest13_HORDE_Attain = Inst12Quest13_Attain
+Inst12Quest13_HORDE_Aim = Inst12Quest13_Aim
+Inst12Quest13_HORDE_Location = Inst12Quest13_Location
+Inst12Quest13_HORDE_Note = Inst12Quest13_Note
+Inst12Quest13_HORDE_Prequest = Inst12Quest13_Prequest
+Inst12Quest13_HORDE_Folgequest = Inst12Quest13_Folgequest
+--
+Inst12Quest13name1_HORDE = Inst12Quest13name1
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst12Quest14_HORDE = Inst12Quest14
+Inst12Quest14_HORDE_Level = Inst12Quest14_Level
+Inst12Quest14_HORDE_Attain = Inst12Quest14_Attain
+Inst12Quest14_HORDE_Aim = Inst12Quest14_Aim
+Inst12Quest14_HORDE_Location = Inst12Quest14_Location
+Inst12Quest14_HORDE_Note = Inst12Quest14_Note
+Inst12Quest14_HORDE_Prequest = Inst12Quest14_Prequest
+Inst12Quest14_HORDE_Folgequest = Inst12Quest14_Folgequest
+--
+Inst12Quest14name1_HORDE = Inst12Quest14name1
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst12Quest15_HORDE = Inst12Quest15
+Inst12Quest15_HORDE_Level = Inst12Quest15_Level
+Inst12Quest15_HORDE_Attain = Inst12Quest15_Attain
+Inst12Quest15_HORDE_Aim = Inst12Quest15_Aim
+Inst12Quest15_HORDE_Location = Inst12Quest15_Location
+Inst12Quest15_HORDE_Note = Inst12Quest15_Note
+Inst12Quest15_HORDE_Prequest = Inst12Quest15_Prequest
+Inst12Quest15_HORDE_Folgequest = Inst12Quest15_Folgequest
+--
+Inst12Quest15name1_HORDE = Inst12Quest15name1
+
+--Quest 16 Horde  (same as Quest 16 Alliance)
+Inst12Quest16_HORDE = Inst12Quest16
+Inst12Quest16_HORDE_Level = Inst12Quest16_Level
+Inst12Quest16_HORDE_Attain = Inst12Quest16_Attain
+Inst12Quest16_HORDE_Aim = Inst12Quest16_Aim
+Inst12Quest16_HORDE_Location = Inst12Quest16_Location
+Inst12Quest16_HORDE_Note = Inst12Quest16_Note
+Inst12Quest16_HORDE_Prequest = Inst12Quest16_Prequest
+Inst12Quest16_HORDE_Folgequest = Inst12Quest16_Folgequest
+--
+Inst12Quest16name1_HORDE = Inst12Quest16name1
+
+--Quest 17 Horde  (same as Quest 17 Alliance)
+Inst12Quest17_HORDE = Inst12Quest17
+Inst12Quest17_HORDE_Level = Inst12Quest17_Level
+Inst12Quest17_HORDE_Attain = Inst12Quest17_Attain
+Inst12Quest17_HORDE_Aim = Inst12Quest17_Aim
+Inst12Quest17_HORDE_Location = Inst12Quest17_Location
+Inst12Quest17_HORDE_Note = Inst12Quest17_Note
+Inst12Quest17_HORDE_Prequest = Inst12Quest17_Prequest
+Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
 -- No Rewards for this quest
 
 
@@ -2746,7 +3106,7 @@ Inst14Quest3_Level = "60"
 Inst14Quest3_Attain = "60"
 Inst14Quest3_Aim = "To free Thunderaan the Windseeker from his prison, you must present the right and left halves of the Bindings of the Windseeker, 10 bars of Elementium, and the Essence of the Firelord to Highlord Demitrian in Silithus."
 Inst14Quest3_Location = "Highlord Demitrian (Silithus; "..YELLOW.."22,9"..WHITE..")"
-Inst14Quest3_Note = "Part of the Thunderfury, Blessed Blade of the Windseeker questline. It starts after obtaining either the left or right Bindings of the Windseeker from Baron Geddon "..YELLOW.."[6]"..WHITE..". Then talk to Highlord Demitrian to start the questline. Essence of the Firelord drops from Ragnaros at "..YELLOW.."[10]"..WHITE..". After turning this part in, Prince Thunderaan is summoned and you must kill him. He's a 40-man raid boss."
+Inst14Quest3_Note = "Part of the Thunderfury, Blessed Blade of the Windseeker questline. It starts after obtaining either the left or right Bindings of the Windseeker from Garr at "..YELLOW.."[4]"..WHITE.." or Baron Geddon at "..YELLOW.."[6]"..WHITE..". Then talk to Highlord Demitrian to start the questline. Essence of the Firelord drops from Ragnaros at "..YELLOW.."[10]"..WHITE..". After turning this part in, Prince Thunderaan is summoned and you must kill him. He's a 40-man raid boss."
 Inst14Quest3_Prequest = "Yes, Examine the Vessel"
 Inst14Quest3_Folgequest = "Yes, Rise, Thunderfury!"
 Inst14Quest3PreQuest = "true"
@@ -2987,8 +3347,8 @@ Inst16Quest1_Level = "60"
 Inst16Quest1_Attain = "60"
 Inst16Quest1_Aim = "You must get Onyxia to breathe fire on the Unfired Ancient Blade. Once this is done, pick up the now Heated Ancient Blade. Be warned, a Heated Ancient Blade will not remain heated forever - time is of the essence."
 Inst16Quest1_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")"
-Inst16Quest1_Note = "Drop the Sword in front of Onyxia when she's at 10% to 15% health. She'll have to breath on and heat it. When Onyxia dies, pick the sword back up, click her corpse and use the sword. Then you're ready to turn in the quest."
-Inst16Quest1_Prequest = "Yes, The Forging of Quel'Serrar"
+Inst16Quest1_Note = "Drop the Sword in front of Onyxia when she's at 10% to 15% health. She'll have to breathe on and heat it. When Onyxia dies, pick the sword back up, click her corpse and use the sword. Then you're ready to turn in the quest."
+Inst16Quest1_Prequest = "Yes, Foror's Compendium ("..YELLOW.."Dire Maul West"..WHITE..") -> The Forging of Quel'Serrar"
 Inst16Quest1_Folgequest = "No"
 Inst16Quest1PreQuest = "true"
 --
@@ -3517,7 +3877,7 @@ Inst20Quest10_Level = "60"
 Inst20Quest10_Attain = "60"
 Inst20Quest10_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst20Quest10_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst20Quest10_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Kormok is summoned near "..YELLOW.."[7]"..WHITE.."."
+Inst20Quest10_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE.."."
 Inst20Quest10_Prequest = "Yes, Components of Importance"
 Inst20Quest10_Folgequest = "Yes, I See Alcaz Island In Your Future..."
 Inst20Quest10PreQuest = "true"
@@ -3903,8 +4263,8 @@ Inst22Quest13 = "13. The Left Piece of Lord Valthalak's Amulet"
 Inst22Quest13_Level = "60"
 Inst22Quest13_Attain = "60"
 Inst22Quest13_Aim = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst22Quest13_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst22Quest13_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest."
+Inst22Quest13_Location = "Bodley is at (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst22Quest13_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE.."."
 Inst22Quest13_Prequest = "Yes, Components of Importance"
 Inst22Quest13_Folgequest = "Yes, I See Alcaz Island In Your Future..."
 Inst22Quest13PreQuest = "true"
@@ -3915,8 +4275,8 @@ Inst22Quest14 = "14. The Right Piece of Lord Valthalak's Amulet"
 Inst22Quest14_Level = "60"
 Inst22Quest14_Attain = "60"
 Inst22Quest14_Aim = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst22Quest14_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst22Quest14_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest."
+Inst22Quest14_Location = "Bodley is at (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst22Quest14_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE.."."
 Inst22Quest14_Prequest = "Yes, More Components of Importance"
 Inst22Quest14_Folgequest = "Yes, Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
 Inst22Quest14PreQuest = "true"
@@ -4198,8 +4558,8 @@ Inst22Quest18name2_HORDE = "Elemental Circle"
 
 Inst23Story = "During the final hours of the War of the Shifting Sands, the combined forces of the night elves and the four dragonflights drove the battle to the very heart of the qiraji empire, to the fortress city of Ahn'Qiraj. Yet at the city gates, the armies of Kalimdor encountered a concentration of silithid war drones more massive than any they had encountered before. Ultimately the silithid and their qiraji masters were not defeated, but merely imprisoned inside a magical barrier, and the war left the cursed city in ruins. A thousand years have passed since that day, but the qiraji forces have not been idle. A new and terrible army has been spawned from the hives, and the ruins of Ahn'Qiraj are teeming once again with swarming masses of silithid and qiraji. This threat must be eliminated, or else all of Azeroth may fall before the terrifying might of the new qiraji army."
 Inst23Caption = "Ruins of Ahn'Qiraj"
-Inst23QAA = "1 Quest"
-Inst23QAH = "1 Quest"
+Inst23QAA = "2 Quests"
+Inst23QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst23Quest1 = "1. The Fall of Ossirian"
@@ -4216,6 +4576,23 @@ Inst23Quest1name2 = "Amulet of the Shifting Sands"
 Inst23Quest1name3 = "Choker of the Shifting Sands"
 Inst23Quest1name4 = "Pendant of the Shifting Sands"
 
+--Quest 2 Alliance
+Inst23Quest2 = "2. The Perfect Poison"
+Inst23Quest2_Level = "60"
+Inst23Quest2_Attain = "60"
+Inst23Quest2_Aim = "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac."
+Inst23Quest2_Location = "Dirk Thunderwood (Silithus - Cenarion Hold; "..YELLOW.."52,39"..WHITE..")"
+Inst23Quest2_Note = "Venoxis's Venom Sac drops from High priest Venoxis in "..YELLOW.."Zul'Gurub"..WHITE..". Kurinnaxx's Venom Sac drops in the "..YELLOW.."Ruins of Ahn'Qiraj"..WHITE.." at "..YELLOW.."[1]"..WHITE.."."
+Inst23Quest2_Prequest = "No"
+Inst23Quest2_Folgequest = "No"
+--
+Inst23Quest2name1 = "Ravenholdt Slicer"
+Inst23Quest2name2 = "Shivsprocket's Shiv"
+Inst23Quest2name3 = "The Thunderwood Poker"
+Inst23Quest2name4 = "Doomulus Prime"
+Inst23Quest2name5 = "Fahrad's Reloading Repeater"
+Inst23Quest2name6 = "Simone's Cultivating Hammer"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst23Quest1_HORDE = Inst23Quest1
@@ -4231,6 +4608,23 @@ Inst23Quest1name1_HORDE = Inst23Quest1name1
 Inst23Quest1name2_HORDE = Inst23Quest1name2
 Inst23Quest1name3_HORDE = Inst23Quest1name3
 Inst23Quest1name4_HORDE = Inst23Quest1name4
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst23Quest2_HORDE = Inst23Quest2
+Inst23Quest2_HORDE_Level = Inst23Quest2_Level
+Inst23Quest2_HORDE_Attain = Inst23Quest2_Attain
+Inst23Quest2_HORDE_Aim = Inst23Quest2_Aim
+Inst23Quest2_HORDE_Location = Inst23Quest2_Location
+Inst23Quest2_HORDE_Note = Inst23Quest2_Note
+Inst23Quest2_HORDE_Prequest = Inst23Quest2_Prequest
+Inst23Quest2_HORDE_Folgequest = Inst23Quest2_Folgequest
+--
+Inst23Quest2name1_HORDE = Inst23Quest2name1
+Inst23Quest2name2_HORDE = Inst23Quest2name2
+Inst23Quest2name3_HORDE = Inst23Quest2name3
+Inst23Quest2name4_HORDE = Inst23Quest2name4
+Inst23Quest2name5_HORDE = Inst23Quest2name5
+Inst23Quest2name6_HORDE = Inst23Quest2name6
 
 
 
@@ -5070,8 +5464,8 @@ Inst28Story = {
   ["MaxPages"] = "2",
 };
 Inst28Caption = "Zul'Gurub"
-Inst28QAA = "3 Quests"
-Inst28QAH = "3 Quests"
+Inst28QAA = "4 Quests"
+Inst28QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst28Quest1 = "1. A Collection of Heads"
@@ -5113,6 +5507,23 @@ Inst28Quest3_Prequest = "No"
 Inst28Quest3_Folgequest = "No"
 -- No Rewards for this quest
 
+--Quest 4 Alliance
+Inst28Quest4 = "4. The Perfect Poison"
+Inst28Quest4_Level = "60"
+Inst28Quest4_Attain = "60"
+Inst28Quest4_Aim = "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac."
+Inst28Quest4_Location = "Dirk Thunderwood (Silithus - Cenarion Hold; "..YELLOW.."52,39"..WHITE..")"
+Inst28Quest4_Note = "Venoxis's Venom Sac drops from High priest Venoxis in "..YELLOW.."Zul'Gurub"..WHITE.." at "..YELLOW.."[2]"..WHITE..". Kurinnaxx's Venom Sac drops in the "..YELLOW.."Ruins of Ahn'Qiraj"..WHITE.."."
+Inst28Quest4_Prequest = "No"
+Inst28Quest4_Folgequest = "No"
+--
+Inst28Quest4name1 = "Ravenholdt Slicer"
+Inst28Quest4name2 = "Shivsprocket's Shiv"
+Inst28Quest4name3 = "The Thunderwood Poker"
+Inst28Quest4name4 = "Doomulus Prime"
+Inst28Quest4name5 = "Fahrad's Reloading Repeater"
+Inst28Quest4name6 = "Simone's Cultivating Hammer"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst28Quest1_HORDE = Inst28Quest1
@@ -5153,6 +5564,23 @@ Inst28Quest3_HORDE_Note = Inst28Quest3_Note
 Inst28Quest3_HORDE_Prequest = Inst28Quest3_Prequest
 Inst28Quest3_HORDE_Folgequest = Inst28Quest3_Folgequest
 -- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst28Quest4_HORDE = Inst28Quest4
+Inst28Quest4_HORDE_Level = Inst28Quest4_Level
+Inst28Quest4_HORDE_Attain = Inst28Quest4_Attain
+Inst28Quest4_HORDE_Aim = Inst28Quest4_Aim
+Inst28Quest4_HORDE_Location = Inst28Quest4_Location
+Inst28Quest4_HORDE_Note = Inst28Quest4_Note
+Inst28Quest4_HORDE_Prequest = Inst28Quest4_Prequest
+Inst28Quest4_HORDE_Folgequest = Inst28Quest4_Folgequest
+--
+Inst28Quest4name1_HORDE = Inst28Quest4name1
+Inst28Quest4name2_HORDE = Inst28Quest4name2
+Inst28Quest4name3_HORDE = Inst28Quest4name3
+Inst28Quest4name4_HORDE = Inst28Quest4name4
+Inst28Quest4name5_HORDE = Inst28Quest4name5
+Inst28Quest4name6_HORDE = Inst28Quest4name6
 
 
 
@@ -8174,12 +8602,12 @@ Inst31QAA = "1 Quest"
 Inst31QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst31Quest1 = "1. Ancient Sinew Wrapped Lamina"
+Inst31Quest1 = "1. Ancient Sinew Wrapped Lamina (Hunter)"
 Inst31Quest1_Level = "60"
 Inst31Quest1_Attain = "60"
 Inst31Quest1_Aim = "Hastat the Ancient has asked that you bring him a Mature Blue Dragon Sinew. Should you find this sinew, return it to Hastat in Felwood."
 Inst31Quest1_Location = "Hastat the Ancient (Felwood - Irontree Woods; "..YELLOW.."48,24"..WHITE..")"
-Inst31Quest1_Note = "Kill Azuregos to get the Mature Blue Dragon Sinew. He walks around the middle of the southern peninsula in Azshara."
+Inst31Quest1_Note = "Kill Azuregos to get the Mature Blue Dragon Sinew. He walks around the middle of the southern peninsula in Azshara near "..YELLOW.."[1]"..WHITE.."."
 Inst31Quest1_Prequest = "Yes, The Ancient Leaf ("..YELLOW.."Molten Core"..WHITE..")"
 Inst31Quest1_Folgequest = "No"
 Inst31Quest1PreQuest = "true"

@@ -4,7 +4,7 @@ Changelog
 
 Version 4.0.11 (by Thandrenn)
 
-- Updated map file names and numbers for Atlas 1.10.3.
+- Updated some map file names and location numbers for Atlas 1.10.3.
 - When opened, AtlasQuest will now automatically display the appropriate quests for the player's faction.  (Suggested by Iffonox)
 - Option to show Alliance quests by default removed, since it's obsolete.
 - Fixed bug with Auchenai Crypts: Everything Will Be Alright (Horde version).
@@ -27,6 +27,21 @@ Version 4.0.11 (by Thandrenn)
 	- Zul'Aman: Undercover Sister
 	- Dragons of Nightmare: Shrouded in Nightmare
 	- Azuregos: Ancient Sinew Wrapped Lamina
+	- Zul'Gurub: The Perfect Poison  (from Celellach)
+	- Ruins of Ahn'Qiraj: The Perfect Poison  (from Celellach)
+	- Dire Maul West: The Emerald Dream... (Druid)  (from Celellach)
+	- Dire Maul West: The Greatest Race of Hunters (Hunter)  (from Celellach)
+	- Dire Maul West: The Arcanist's Cookbook (Mage)  (from Celellach)
+	- Dire Maul West: The Light and How To Swing It (Paladin)  (from Celellach)
+	- Dire Maul West: Holy Bologna: What the Light Won't Tell You (Priest)  (from Celellach)
+	- Dire Maul West: Garona: A Study on Stealth and Treachery (Rogue)  (from Celellach)
+	- Dire Maul West: Frost Shock and You (Shaman)  (from Celellach)
+	- Dire Maul West: Harnessing Shadows (Warlock)  (from Celellach)
+	- Dire Maul West: Codex of Defense (Warrior)  (from Celellach)
+	- Dire Maul West: Libram of Focus  (from Celellach)
+	- Dire Maul West: Libram of Protection  (from Celellach)
+	- Dire Maul West: Libram of Rapidity  (from Celellach)
+	- Dire Maul West: Foror's Compendium  (from Celellach)
 	
 - Cleanup progress (DONE!):
 	- CF: Serpentshrine Cavern
