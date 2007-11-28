@@ -2,7 +2,6 @@
 ToDo List
 =========
 
-- Add Outdoor Raid quests.
 - Add Battlegrounds quests.
 - BUG: CT_Core show quest lvl thing not working with Blue quest names.
 - BUG: Stuff like (Questline) (Heroic) and (Class) throws off the Blue quest names stuff.
@@ -45,9 +44,9 @@ DONE	--	26 = The Temple of Ahn'Qiraj (AQ40)
 DONE 	--	27 = Zul'Farrak (ZF)
 DONE 	--	28 = Zul'Gurub (ZG)
 DONE	--	29 = Gnomeregan (Gnomer)
-TEST 	--	30 = Four Dragons
-TEST 	--	31 = Azuregos
-NONE 	--	32 = Kazzak
+DONE 	--	30 = Four Dragons
+DONE 	--	31 = Azuregos
+N/A 	N/A	32 = Highlord Kruul
 -- 	--	33 = Alterac Valley (AV)
 -- 	--	34 = Arathi Basin (AB)
 -- 	--	35 = Warsong Gulch (WSG)
@@ -74,10 +73,12 @@ DONE 	--	56 = TK: Mechanar (Mech)
 DONE	--	57 = SM: Armory (SM Arm)
 DONE	--	58 = SM: Cathedral (SM Cath)
 DONE	--	59 = SM: Graveyard (SM GY)
-DONE	--	60 = Eye of the Storm
+N/A	N/A	60 = Eye of the Storm
 DONE	--	61 = TK: The Eye
 DONE 	--	62 = Black Temple (BT)
-NEW  	--	63 = Zul'Aman (ZA)
+DONE  	--	63 = Zul'Aman (ZA)
+N/A	N/A	64 = Doom Lord Kazzak
+N/A	N/A	65 = Doomwalker
 
 
 
