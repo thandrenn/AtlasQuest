@@ -63,7 +63,7 @@ AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function
 --AQAtlasAuto (option to show the AQpanel automatically at atlas-startup, 1=yes 2=no)
 
 -- Sets the max number of instances and quests to check for. 
-local AQMAXINSTANCES = "62"
+local AQMAXINSTANCES = "65"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel

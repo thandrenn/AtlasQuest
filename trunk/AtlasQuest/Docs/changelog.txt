@@ -10,6 +10,8 @@ Version 4.0.11 (by Thandrenn)
 - Fixed bug with Auchenai Crypts: Everything Will Be Alright (Horde version).
 - Fixed bug with Molten Core: A Binding Contract. Also affected "The Molten Core".
 - Fixed a few typos here and there, some Prequest icons were not showing up.
+- Added 'Story' for Doomwalker and Highlord Kruul. No quests.
+- Updated 'Story' for Doom Lord Kazzak and Eye of the Storm. No quests.
 
 - Quests added:
 	- Molten Core: The Ancient Leaf

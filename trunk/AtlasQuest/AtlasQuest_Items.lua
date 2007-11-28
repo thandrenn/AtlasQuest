@@ -5936,6 +5936,33 @@ Inst63Quest8ID1_HORDE = "29434"
 
 
 
+---------------------------------------------------
+---------------- BATTLEGROUNDS --------------------
+---------------------------------------------------
+
+
+
+
+--------------- INST33 - Alterac Valley (AV) ---------------
+
+
+
+
+--------------- INST34 - Arathi Basin (AB) ---------------
+
+
+
+
+--------------- INST35 - Warsong Gulch (WSG) ---------------
+
+
+
+
+--------------- INST60 - Eye of the Storm (EotS) ---------------
+
+
+
+
 
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
@@ -5969,21 +5996,39 @@ Inst30Quest1ID1_HORDE = "20600"
 --------------- INST31 - Azuregos ---------------
 
 --Quest 1 Alliance
-Inst30Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst31Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
-Inst30Quest1ITC1 = Itemc5;
-Inst30Quest1textur1 = "INV_Misc_Quiver_03"
-Inst30Quest1description1 = AQITEM_QUIVER
-Inst30Quest1ID1 = "18714"
+Inst31Quest1ITC1 = Itemc5;
+Inst31Quest1textur1 = "INV_Misc_Quiver_03"
+Inst31Quest1description1 = AQITEM_QUIVER
+Inst31Quest1ID1 = "18714"
 
 
 --Quest 1 Horde
-Inst30Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst31Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
-Inst30Quest1ITC1_HORDE = Itemc5;
-Inst30Quest1textur1_HORDE = "INV_Misc_Quiver_03"
-Inst30Quest1description1_HORDE = AQITEM_QUIVER
-Inst30Quest1ID1_HORDE = "18714"
+Inst31Quest1ITC1_HORDE = Itemc5;
+Inst31Quest1textur1_HORDE = "INV_Misc_Quiver_03"
+Inst31Quest1description1_HORDE = AQITEM_QUIVER
+Inst31Quest1ID1_HORDE = "18714"
+
+
+
+
+--------------- INST32 - Highlord Kruul ---------------
+
+
+
+
+--------------- INST64 - Doom Lord Kazzak ---------------
+
+
+
+
+--------------- INST65 - Doomwalker ---------------
+
+
+
 
 
 

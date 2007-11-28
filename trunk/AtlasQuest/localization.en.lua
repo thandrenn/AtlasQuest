@@ -1529,7 +1529,7 @@ Inst7Quest5name2_HORDE = Inst7Quest6name2
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
 
 Inst8Story = "The mighty fortress carved within the fiery bowels of Blackrock Mountain was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths. Realizing that the dwarves were led by the mighty fire elemental, Ragnaros - Nefarian vowed to crush his enemies and claim the whole of Blackrock mountain for himself."
-Inst8Caption = "Blackrock Spire"
+Inst8Caption = "Blackrock Spire (Lower)"
 Inst8QAA = "14 Quests"
 Inst8QAH = "14 Quests"
 
@@ -1891,7 +1891,7 @@ Inst8Quest14name2_HORDE = Inst8Quest14name2
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
 
 Inst9Story = "The mighty fortress carved within the fiery bowels of Blackrock Mountain was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths. Realizing that the dwarves were led by the mighty fire elemental, Ragnaros - Nefarian vowed to crush his enemies and claim the whole of Blackrock mountain for himself."
-Inst9Caption = "Blackrock Spire"
+Inst9Caption = "Blackrock Spire (Upper)"
 Inst9QAA = "11 Quests"
 Inst9QAH = "12 Quests"
 
@@ -8532,7 +8532,7 @@ Inst35QAH = "No Quests"
 
 --------------- INST60 - Eye of the Storm ---------------
 
-Inst60Story = "Eye of the Storm is a Battleground located in the Outland zone of Netherstorm that combines capture-and-hold style gameplay with capture-the-flag. The game pits up to 15 high-level Alliance members against 15 Horde counterparts in a battle over two floating land masses. These aerial islands are connected by three bridges. Additionally, four towers overlook the battlefield and serve as focal points for the skirmish, while a single, capturable flag spawns in the center of the map for the teams to fight over. Unlike the other Battlegrounds, Eye of the Storm has no outside entrance or associated faction. To get in you must talk to a Battlemaster in a major city."
+Inst60Story = "Hovering high above the ravaged landscape of Netherstorm is the island known as Eye of the Storm. This battlefield is covted by the blood elves for its rich energy deposits - and the draenei seek to claim it due to its mysterious vessel - Tempest Keep."
 Inst60Caption = "Eye of the Storm"
 Inst60QAA = "No Quests"
 Inst60QAH = "No Quests"
@@ -8630,12 +8630,35 @@ Inst31Quest1name1_HORDE = Inst31Quest1name1
 
 
 
---------------- INST32 - Kazzak ---------------
+--------------- INST32 - Highlord Kruul ---------------
 
-Inst32Story = "Following the defeat of the Burning Legion at the end of the Third War, the remaining enemy forces, led by the colossal demon Lord Kazzak, pulled back to the Blasted Lands. They continue to dwell there to this day in an area called the Tainted Scar, awaiting the reopening of the Dark Portal. It is rumored that once the Portal is reopened, Kazzak will travel with his remaining forces to Outland. Once the orc homeworld of Draenor, Outland was ripped apart by the simultaneous activation of several portals created by the orc shaman Ner'zhul, and now exists as a shattered world occupied by legions of demonic agents under command of the night elf betrayer, Illidan."
-Inst32Caption = "Lord Kazzak"
+Inst32Story = "Highlord Kruul is a doomguard boss who appears in various parts of Azeroth during the Dark Portal Opens event, introduced in Patch 2.0.3. After the Dark Portal reopened, he officially replaced Lord Kazzak (now Doom Lord Kazzak in Outland's Hellfire Peninsula) as the Burning Legion's field commander in Azeroth.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst32Caption = "Highlord Kruul"
 Inst32QAA = "No Quests"
 Inst32QAH = "No Quests"
+
+
+
+--------------- INST64 - Doom Lord Kazzak ---------------
+
+Inst64Story = {
+  ["Page1"] = "Kazzak the Supreme, Kil'jaeden's Right Hand, known to most as the demon Lord Kazzak, 'Lord of Doomguard demons', was one of Archimonde's lieutenants during the Third War.\n\nAfter his master's defeat Kazzak pulled back. He and his forces then occupied a ravaged area in the Blasted Lands known as the Tainted Scar. He lived in a tower hidden in the poisonous fog. Kazzak was a mighty demon with great power, but he lacked independent initiative. Trapped within the Tainted Scar, he was completely cut off from contact with any other demonic forces on Azeroth. Even if such personages - such as Balnazzar - became aware of his presence, they would likely as not avoid contact for fear of Kazzak's power.",
+  ["Page2"] = "Two years after the founding of Durotar, with the future in peril, a relic of the past had also surfaced, radiating renewed energy. This relic had enabled Lord Kazzak to activate the current Dark Portal, thereby reopening the gateway to the shattered realm of Outland. With the portal now opened, Lord Kazzak was seen departing through the Dark Portal. In his stead he left his minion, Highlord Kruul, to sow fear and confusion among the defenders. Accompanied by a host of infernals, Kruul was seen near a number of major cities in Azeroth.\n\nOnce Lord Kazzak passed through back to Outland, he was promoted to Doom Lord Kazzak and set up his throne on top of Throne of Kil'jaeden, a mountain in the Hellfire Peninsula, which he protects to this day.",
+  ["Page3"] = "Unlike many demon leaders, who tend to stay behind the lines and direct their minions against a foe, Lord Kazzak loves nothing more than to wade right into the heat of battle. There, he shatters formations with his shadow storm ability while laying waste to individual heroes with his mighty greatsword. As the battle enters its most critical phase, he flies into a rage, reveling in an orgy of destruction.\n\n"..GREEN.."Quoted from WoWWiki",
+  ["MaxPages"] = "3",
+};
+Inst64Caption = "Doom Lord Kazzak"
+Inst64QAA = "No Quests"
+Inst64QAH = "No Quests"
+
+
+
+--------------- INST65 - Doomwalker ---------------
+
+Inst65Story = "Doomwalker is a powerful Fel Reaver sent by Kil'jaeden to assault the gates of the Black Temple in Shadowmoon Valley.\n\nIt is an ?? Elite (Boss), and has exactly the same abilities as the normal Fel Reaver except from the overrun ability that is described below. It is much stronger and hurts a lot more.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst65Caption = "Doomwalker"
+Inst65QAA = "No Quests"
+Inst65QAH = "No Quests"
 
 
 
@@ -8675,7 +8698,7 @@ Inst32QAH = "No Quests"
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Kazzak
+-- 32 = Highlord Kruul
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
@@ -8707,3 +8730,5 @@ Inst32QAH = "No Quests"
 -- 61 = TK: The Eye
 -- 62 = Black Temple (BT)
 -- 63 = Zul'Aman (ZA)
+-- 64 = Doom Lord Kazzak
+-- 65 = Doomwalker

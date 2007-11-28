@@ -30,7 +30,7 @@
 function AtlasQuest_Instanzenchecken()
         AQATLASMAP = AtlasMap:GetTexture()
 
-        -- Instances
+        -- Dungeons
         if (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\AtlasEntrances\\Images\\TheDeadminesEnt") then
            AQINSTANZ = 1;
 
@@ -128,18 +128,6 @@ function AtlasQuest_Instanzenchecken()
            AQINSTANZ = 59;
 
 
-        -- Outdoor
-
-        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\FourDragons") or (AQATLASMAP == "Interface\\AddOns\\AtlasOutdoorRaids\\Images\\FourDragons")  then
-           AQINSTANZ = 30;
-
-        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Azuregos") or (AQATLASMAP == "Interface\\AddOns\\AtlasOutdoorRaids\\Images\\Azuregos")  then
-           AQINSTANZ = 31;
-
-        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Kazzak") or (AQATLASMAP == "Interface\\AddOns\\AtlasOutdoorRaids\\Images\\Kazzak")  then
-           AQINSTANZ = 32;
-
-
         -- The Burning Crusade
 
         elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HCHellfireRamparts") then
@@ -212,7 +200,7 @@ function AtlasQuest_Instanzenchecken()
            AQINSTANZ = 63;		
 		      		   			   
 
-        -- PVP
+        -- Battlegrounds
 
         elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AlteracValleyNorth") or (AQATLASMAP == "Interface\\AddOns\\AtlasBattlegrounds\\Images\\AlteracValleyNorth") then
            AQINSTANZ = 33;
@@ -228,6 +216,24 @@ function AtlasQuest_Instanzenchecken()
 
         elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\EyeOfTheStorm") or (AQATLASMAP == "Interface\\AddOns\\AtlasBattlegrounds\\Images\\EyeOfTheStorm") then
            AQINSTANZ = 60;
+
+
+        -- Outdoor Raids
+
+        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\FourDragons") or (AQATLASMAP == "Interface\\AddOns\\AtlasOutdoorRaids\\Images\\FourDragons")  then
+           AQINSTANZ = 30;
+
+        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Azuregos") or (AQATLASMAP == "Interface\\AddOns\\AtlasOutdoorRaids\\Images\\Azuregos")  then
+           AQINSTANZ = 31;
+
+        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HighlordKruul") or (AQATLASMAP == "Interface\\AddOns\\AtlasOutdoorRaids\\Images\\HighlordKruul")  then
+           AQINSTANZ = 32;
+
+        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\DoomLordKazzak") or (AQATLASMAP == "Interface\\AddOns\\AtlasOutdoorRaids\\Images\\DoomLordKazzak")  then
+           AQINSTANZ = 64;
+
+        elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Doomwalker") or (AQATLASMAP == "Interface\\AddOns\\AtlasOutdoorRaids\\Images\\Doomwalker")  then
+           AQINSTANZ = 65;
 
 
         -- Rest
@@ -407,7 +413,7 @@ function AtlasQuest_InstanzencheckAM()
            AQINSTANZ = 63;
 
 
-        -- PVP
+        -- Battlegrounds
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap\\Maps\\AlteracValley") then
 	    AQINSTANZ = 33;
@@ -497,7 +503,7 @@ end
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Kazzak
+-- 32 = Highlord Kruul
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
@@ -529,4 +535,6 @@ end
 -- 61 = TK: The Eye
 -- 62 = Black Temple (BT)
 -- 63 = Zul'Aman (ZA)
+-- 64 = Doom Lord Kazzak
+-- 65 = Doomwalker
 
