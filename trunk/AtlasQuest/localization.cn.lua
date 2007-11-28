@@ -1,6 +1,6 @@
-﻿-- Localization for CTBC by yeachan
+﻿-- Localization for CTBC by yeachan(6区 阿拉希 燃烧军团公会 Ahunter）
 -- Email：zhengguo@live.com
--- Last update: 07-11-11
+-- Last update: 07-11-28
 
 if ( GetLocale() == "zhCN" ) then
 
@@ -105,6 +105,14 @@ AQITEM_BAG = "背包"
 AQITEM_RING = "戒指"
 AQITEM_KEY = "钥匙"
 AQITEM_GEM = "宝石"
+
+
+
+----------------------------------------------
+---------------- DUNGEONS --------------------
+----------------------------------------------
+
+
 
 --------------- INST1 - Deadmines (VC) ---------------
 
@@ -1616,7 +1624,7 @@ Inst8Quest11 = "11. 瓦塔拉克饰品的左瓣"
 Inst8Quest11_Level = "60"
 Inst8Quest11_Attain = "60"
 Inst8Quest11_Aim = "使用召唤火盆召唤出莫尔·灰蹄的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给黑石山的伯德雷。"
-Inst8Quest11_Location = "伯德雷 (黑石山; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst8Quest11_Location = "伯德雷 (黑石山; "..YELLOW.."副本入口地图 [D]"..WHITE..")"
 Inst8Quest11_Note = "你需要超维度幽灵显形器才能看到伯德雷.你可以从 寻找安泰恩 任务得到它"
 Inst8Quest11_Prequest = "有, 重要的材料"
 Inst8Quest11_Folgequest = "有, 奥卡兹岛在你前方..."
@@ -1628,7 +1636,7 @@ Inst8Quest12 = "12. 瓦塔拉克饰品的右瓣"
 Inst8Quest12_Level = "60"
 Inst8Quest12_Attain = "60"
 Inst8Quest12_Aim = "在比斯巨兽的房间里使用召唤火盆，召唤瓦塔拉克公爵。杀死他，对尸体使用瓦塔拉克的饰品。然后将瓦塔拉克的饰品还给瓦塔拉克公爵之魂。"
-Inst8Quest12_Location = "伯德雷 (黑石山; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst8Quest12_Location = "伯德雷 (黑石山; "..YELLOW.."副本入口地图 [D]"..WHITE..")"
 Inst8Quest12_Note = "你需要超维度幽灵显形器才能看到伯德雷."
 Inst8Quest12_Prequest = "有，更多重要的材料 "
 Inst8Quest12_Folgequest = "有，最后的准备 (黑上任务)"
@@ -1951,7 +1959,7 @@ Inst9Quest9 = "9. 最后的准备"
 Inst9Quest9_Level = "60"
 Inst9Quest9_Attain = "60"
 Inst9Quest9_Aim = "从黑石塔的兽人那儿收集40副黑石护腕，把它们和一瓶超级能量合剂一起交给黑石山的伯德雷。"
-Inst9Quest9_Location = "伯德雷 (黑石山; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst9Quest9_Location = "伯德雷 (黑石山; "..YELLOW.."副本入口地图 [D]"..WHITE..")"
 Inst9Quest9_Note = "必须灵魂状态才能看到伯德雷. 超级能量合剂是炼金制造."
 Inst9Quest9_Prequest = "有, 瓦塔拉克护符的右半块 (黑上任务)"
 Inst9Quest9_Folgequest = "有, 瓦塔拉克公爵"
@@ -1963,7 +1971,7 @@ Inst9Quest10 = "10. 瓦塔拉克公爵"
 Inst9Quest10_Level = "60"
 Inst9Quest10_Attain = "60"
 Inst9Quest10_Aim = "在比斯巨兽的房间里使用召唤火盆，召唤瓦塔拉克公爵。杀死他，对尸体使用瓦塔拉克的饰品。然后将瓦塔拉克的饰品还给瓦塔拉克公爵之魂."
-Inst9Quest10_Location = "伯德雷 (黑石山; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst9Quest10_Location = "伯德雷 (黑石山; "..YELLOW.."副本入口地图 [D]"..WHITE..")"
 Inst9Quest10_Note = "你需要超维度幽灵显形器才能看到伯德雷. 召唤 瓦塔拉克公爵 在 "..YELLOW.."[7]"..WHITE.."."
 Inst9Quest10_Prequest = "有，最后的准备"
 Inst9Quest10_Folgequest = "有，向伯德雷回复 "
@@ -5270,10 +5278,10 @@ Inst35Caption = "战歌峡谷"
 
 --------------- INST60 - Eye of the Storm ---------------
 
-Inst60Story = "Eye of the Storm is a Battleground located in the Outland zone of Netherstorm that combines capture-and-hold style gameplay with capture-the-flag. The game pits up to 15 high-level Alliance members against 15 Horde counterparts in a battle over two floating land masses. These aerial islands are connected by three bridges. Additionally, four towers overlook the battlefield and serve as focal points for the skirmish, while a single, capturable flag spawns in the center of the map for the teams to fight over. Unlike the other Battlegrounds, Eye of the Storm has no outside entrance or associated faction. To get in you must talk to a Battlemaster in a major city."
-Inst60Caption = "Eye of the Storm"
-Inst60QAA = "No Quests"
-Inst60QAH = "No Quests"
+Inst60Story = "风暴之眼是一个在燃烧的远征中被加入的一个全新的、刺激的战场。该战场位于外域的虚空风暴，是一个以“争夺和防守”为主题的竞技比赛。该战场允许最多15名联盟玩家同时对抗15名部落玩家。风暴之眼战场是由两块漂浮着的陆地组成，联盟和部落双方各占一块陆地，并且两块陆地之间是靠三座石桥连接。另外，这里的四座哨塔必将成为双方的必争之地，而有一面唯一的、可夺取的旗帜将会在地图中部刷新，这也将成为双方团队激战的焦点。与其它战场不同的是，风暴之眼的战场入口并没有一个连接外部世界的副本入口。唯一一个可以进入风暴之眼战场的方法就是与各主城中的战场军官对话。"
+Inst60Caption = "风暴之眼"
+Inst60QAA = "No Quests Yet"
+Inst60QAH = "No Quests Yet"
 
 
 ------------------------------------------------------------------------------------------------------
@@ -5658,6 +5666,20 @@ Inst40Quest1_Folgequest = "无"
 --
 Inst40Quest1name1 = "凤凰之火指环"
 
+--Quest 2 Alliance
+Inst40Quest2 = "2. 玛瑟里顿之死"
+Inst40Quest2_Level = "70"
+Inst40Quest2_Attain = "70"
+Inst40Quest2_Aim = "将玛瑟里顿的头颅交给荣耀堡的远征军指挥官达纳斯·托尔贝恩."
+Inst40Quest2_Location = "玛瑟里顿的头颅(玛瑟里顿掉落; "..YELLOW.."[1]"..WHITE..")"
+Inst40Quest2_Note = "团队中只有一个人能够得到头颅来触发这个任务. 远征军指挥官达纳斯·托尔贝恩 在 （地狱火半岛 - 荣耀堡） "..YELLOW.."57,67"..WHITE.."."
+Inst40Quest2_Prequest = "No."
+Inst40Quest2_Folgequest = "No"
+--
+Inst40Quest2name1 = "阿达尔的防御徽记"
+Inst40Quest2name2 = "阿达尔的防御徽记"
+Inst40Quest2name3 = "纳鲁圣光卫士指环"
+Inst40Quest2name4 = "反抗之戒"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst40Quest1_HORDE = Inst40Quest1
@@ -5670,6 +5692,21 @@ Inst40Quest1_HORDE_Prequest = Inst40Quest1_Prequest
 Inst40Quest1_HORDE_Folgequest = Inst40Quest1_Folgequest
 --
 Inst40Quest1name1_HORDE = Inst40Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+Inst40Quest2_HORDE = Inst40Quest2
+Inst40Quest2_HORDE_Level = Inst40Quest2_Level
+Inst40Quest2_HORDE_Attain = Inst40Quest2_Attain
+Inst40Quest2_HORDE_Aim = "将玛瑟里顿的头颅交给萨尔玛的纳兹格雷尔。"
+Inst40Quest2_HORDE_Location = Inst40Quest2_Location
+Inst40Quest2_HORDE_Note = "团队中只有一个人能够得到头颅来触发这个任务. 纳兹格雷尔 在（地狱火半岛 - 萨尔玛） "..YELLOW.."55,36"..WHITE.."."
+Inst40Quest2_HORDE_Prequest = Inst40Quest2_Prequest
+Inst40Quest2_HORDE_Folgequest = Inst40Quest2_Folgequest
+--
+Inst40Quest2name1_HORDE = Inst40Quest2name1
+Inst40Quest2name2_HORDE = Inst40Quest2name2
+Inst40Quest2name3_HORDE = Inst40Quest2name3
+Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 
 --------------- INST41 - CR: The Slave Pens (SP) ---------------
@@ -7773,12 +7810,44 @@ Inst62Quest3_HORDE_Folgequest = Inst62Quest3_Folgequest
 Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 
---------------- INST60 - Eye of the Storm ---------------
+--------------- INST63 - Zul'Aman (ZA) ---------------
 
-Inst60Story = "风暴之眼是一个在燃烧的远征中被加入的一个全新的、刺激的战场。该战场位于外域的虚空风暴，是一个以“争夺和防守”为主题的竞技比赛。该战场允许最多15名联盟玩家同时对抗15名部落玩家。风暴之眼战场是由两块漂浮着的陆地组成，联盟和部落双方各占一块陆地，并且两块陆地之间是靠三座石桥连接。另外，这里的四座哨塔必将成为双方的必争之地，而有一面唯一的、可夺取的旗帜将会在地图中部刷新，这也将成为双方团队激战的焦点。与其它战场不同的是，风暴之眼的战场入口并没有一个连接外部世界的副本入口。唯一一个可以进入风暴之眼战场的方法就是与各主城中的战场军官对话。"
-Inst60Caption = "风暴之眼"
-Inst60QAA = "No Quests Yet"
-Inst60QAH = "No Quests Yet"
+Inst63Story = "The stronghold of Zul'Aman has stood for millennia as the Amani trolls' seat of power and bastion of the fearless, cunning warlord Zul'jin. \n\nZul'jin has spent several years plotting behind Zul'Aman's walls. Furious at the Horde for allowing his hated enemies, the blood elves, to join its ranks, he eagerly embraced a scheme that the witch doctor Malacrass recently proposed: to seal the power of the animal gods within the bodies of the Amani's strongest warriors. \n\nNow Zul'Aman's army grows more powerful by the day, hungry to exact vengeance in the name of its fearless leader, Zul'jin."
+Inst63Caption = "Zul'Aman"
+Inst63QAA = "1 Quest"
+Inst63QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst63Quest1 = "1. Promises, Promises..."
+Inst63Quest1_Level = "70"
+Inst63Quest1_Attain = "70"
+Inst63Quest1_Aim = "Budd Nedreck in Hatchet Hills wants you to retrieve his map from High Priest Nalorakk's terrace in Zul'Aman."
+Inst63Quest1_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..". The prequest is optional and starts from Griftah at Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE.."."
+Inst63Quest1_Prequest = "Yes, Oooh, Shinies!"
+Inst63Quest1_Folgequest = "No"
+Inst63QuestPrequest = "true"
+--
+Inst63Quest1name1 = "Tattered Hexcloth Sack"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst63Quest1_HORDE = Inst63Quest1
+Inst63Quest1_HORDE_Level = Inst63Quest1_Level
+Inst63Quest1_HORDE_Attain = Inst63Quest1_Attain
+Inst63Quest1_HORDE_Aim = Inst63Quest1_Aim
+Inst63Quest1_HORDE_Location = Inst63Quest1_Location
+Inst63Quest1_HORDE_Note = Inst63Quest1_Note
+Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
+Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
+Inst63QuestPrequest_HORDE = Inst63QuestPrequest
+--
+Inst63Quest1name1_HORDE = Inst63Quest1name1
+
+
+
+
+
 
 
 -----
@@ -7849,3 +7918,4 @@ end
 -- 60 = Eye of the Storm
 -- 61 = TK: The Eye
 -- 62 = Black Temple (BT)
+-- 63 = Zul'Aman (ZA)
