@@ -4224,6 +4224,14 @@ Inst37Quest1ID4 = "25717"
 --Quest 2 Alliance
 Inst37Quest2Rewardtext = AQNoReward
 
+--Quest 3 Alliance
+Inst37Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst37Quest3ITC1 = Itemc5;
+Inst37Quest3textur1 = "Spell_Holy_ChampionsBond"
+Inst37Quest3description1 = AQITEM_ITEM
+Inst37Quest3ID1 = "29434"
+
 
 --Quest 1 Horde
 Inst37Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
@@ -4250,6 +4258,14 @@ Inst37Quest1ID4_HORDE = "25717"
 
 --Quest 2 Horde
 Inst37Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst37Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst37Quest3ITC1_HORDE = Itemc5;
+Inst37Quest3textur1_HORDE = "Spell_Holy_ChampionsBond"
+Inst37Quest3description1_HORDE = AQITEM_ITEM
+Inst37Quest3ID1_HORDE = "29434"
 
 
 
@@ -4296,6 +4312,14 @@ Inst38Quest2textur3 = "inv_misc_cape_20"
 Inst38Quest2description3 = AQITEM_BACK
 Inst38Quest2ID3 = "25712"
 
+--Quest 3 Alliance
+Inst38Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst38Quest3ITC1 = Itemc5;
+Inst38Quest3textur1 = "Spell_Holy_ChampionsBond"
+Inst38Quest3description1 = AQITEM_ITEM
+Inst38Quest3ID1 = "29434"
+
 
 --Quest 1 Horde
 Inst38Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
@@ -4337,6 +4361,14 @@ Inst38Quest2ITC3_HORDE = Itemc4;
 Inst38Quest2textur3_HORDE = "inv_misc_cape_20"
 Inst38Quest2description3_HORDE = AQITEM_BACK
 Inst38Quest2ID3_HORDE = "25712"
+
+--Quest 3 Horde
+Inst38Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst38Quest3ITC1_HORDE = Itemc5;
+Inst38Quest3textur1_HORDE = "Spell_Holy_ChampionsBond"
+Inst38Quest3description1_HORDE = AQITEM_ITEM
+Inst38Quest3ID1_HORDE = "29434"
 
 
 
@@ -4408,6 +4440,22 @@ Inst39Quest6Rewardtext = AQNoReward
 --Quest 7 Alliance
 Inst39Quest7Rewardtext = AQNoReward
 
+--Quest 8 Alliance
+Inst39Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst39Quest8ITC1 = Itemc5;
+Inst39Quest8textur1 = "Spell_Holy_ChampionsBond"
+Inst39Quest8description1 = AQITEM_ITEM
+Inst39Quest8ID1 = "29434"
+
+--Quest 9 Alliance
+Inst39Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst39Quest9ITC1 = Itemc3;
+Inst39Quest9textur1 = "INV_Qiraj_JewelEncased"
+Inst39Quest9description1 = AQITEM_ITEM
+Inst39Quest9ID1 = "29460"
+
 
 --Quest 1 Horde
 Inst39Quest1Rewardtext_HORDE = AQNoReward
@@ -4446,6 +4494,22 @@ Inst39Quest5Rewardtext_HORDE = AQNoReward
 
 --Quest 6 Horde
 Inst39Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst39Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst39Quest7ITC1_HORDE = Itemc5;
+Inst39Quest7textur1_HORDE = "Spell_Holy_ChampionsBond"
+Inst39Quest7description1_HORDE = AQITEM_ITEM
+Inst39Quest7ID1_HORDE = "29434"
+
+--Quest 8 Horde
+Inst39Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst39Quest8ITC1_HORDE = Itemc3;
+Inst39Quest8textur1_HORDE = "INV_Qiraj_JewelEncased"
+Inst39Quest8description1_HORDE = AQITEM_ITEM
+Inst39Quest8ID1_HORDE = "29460"
 
 
 

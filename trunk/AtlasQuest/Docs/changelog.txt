@@ -12,6 +12,8 @@ Version 4.0.11 (by Thandrenn)
 - Fixed a few typos here and there, some Prequest icons were not showing up.
 - Added 'Story' for Doomwalker and Highlord Kruul. No quests.
 - Updated 'Story' for Doom Lord Kazzak and Eye of the Storm. No quests.
+- German localization updated by Telchar.
+- Simplified Chinese localization updated by yeachan.
 
 - Quests added:
 	- Molten Core: The Ancient Leaf
@@ -44,6 +46,10 @@ Version 4.0.11 (by Thandrenn)
 	- Dire Maul West: Libram of Protection  (from Celellach)
 	- Dire Maul West: Libram of Rapidity  (from Celellach)
 	- Dire Maul West: Foror's Compendium  (from Celellach)
+	- Hellfire Ramparts: Wanted: Nazan's Riding Crop (Heroic Daily)
+	- Blood Furnace: Wanted: Keli'dan's Feathered Stave (Heroic Daily)
+	- Shattered Halls: Wanted: Bladefist's Seal (Heroic Daily)
+	- Shattered Halls: Wanted: Shattered Hand Centurions (Heroic Daily)
 	
 - Cleanup progress (DONE!):
 	- CF: Serpentshrine Cavern

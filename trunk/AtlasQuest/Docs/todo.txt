@@ -3,6 +3,7 @@ ToDo List
 =========
 
 - Add Battlegrounds quests.
+- Add Heroic Daily quests.
 - BUG: CT_Core show quest lvl thing not working with Blue quest names.
 - BUG: Stuff like (Questline) (Heroic) and (Class) throws off the Blue quest names stuff.
 - BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
@@ -89,12 +90,6 @@ Add Quests:
 
 
 Dungeon Heroic Dailys:
-
-HFC:
-- Ramparts: Wanted: Nazan's Riding Crop  http://www.wowhead.com/?quest=11375
-- Blood Furnace: Wanted: Keli'dan's Feathered Stave  http://www.wowhead.com/?quest=11362
-- Shattered Halls: Wanted: Bladefist's Seal  http://www.wowhead.com/?quest=11363
-- Shattered Halls: Wanted: Shattered Hand Centurions  http://www.wowhead.com/?quest=11364
 
 CF:
 - Underbog: Wanted: A Black Stalker Egg  http://www.wowhead.com/?quest=11369
