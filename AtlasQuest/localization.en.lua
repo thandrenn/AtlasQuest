@@ -5811,8 +5811,8 @@ Inst37General = {
     },
 };
 
-Inst37QAA = "2 Quests"
-Inst37QAH = "2 Quests"
+Inst37QAA = "3 Quests"
+Inst37QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst37Quest1 = "1. Weaken the Ramparts"
@@ -5841,6 +5841,18 @@ Inst37Quest2_Prequest = "No"
 Inst37Quest2_Folgequest = "Yes, The Blood is Life ("..YELLOW.."HFC: Blood Furnace"..WHITE..")"
 Inst37Quest2FQuest = "true"
 -- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst37Quest3 = "3. Wanted: Nazan's Riding Crop (Heroic Daily)"
+Inst37Quest3_Level = "70"
+Inst37Quest3_Attain = "70"
+Inst37Quest3_Aim = "Wind Trader Zhareem has asked you to obtain Nazan's Riding Crop. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst37Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst37Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNazan is at "..YELLOW.."[3]"..WHITE.."."
+Inst37Quest3_Prequest = "No"
+Inst37Quest3_Folgequest = "No"
+--
+Inst37Quest3name1 = "Badge of Justice"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance - different NPCs and pre-quest)
@@ -5871,6 +5883,18 @@ Inst37Quest2_HORDE_Folgequest = Inst37Quest2_Folgequest
 Inst37Quest2FQuest_HORDE = Inst37Quest2FQuest
 -- No Rewards for this quest
 
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst37Quest3_HORDE = Inst37Quest3
+Inst37Quest3_HORDE_Level = Inst37Quest3_Level
+Inst37Quest3_HORDE_Attain = Inst37Quest3_Attain
+Inst37Quest3_HORDE_Aim = Inst37Quest3_Aim
+Inst37Quest3_HORDE_Location = Inst37Quest3_Location
+Inst37Quest3_HORDE_Note = Inst37Quest3_Note
+Inst37Quest3_HORDE_Prequest = Inst37Quest3_Prequest
+Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
+--
+Inst37Quest3name1_HORDE = Inst37Quest3name1
+
 
 
 --------------- INST38 - HFC: Blood Furnace (BF) ---------------
@@ -5881,8 +5905,8 @@ Inst38Story = {
   ["MaxPages"] = "2",
 };
 Inst38Caption = "HFC: The Blood Furnace"
-Inst38QAA = "2 Quests"
-Inst38QAH = "2 Quests"
+Inst38QAA = "3 Quests"
+Inst38QAH = "3 Quests"
 Inst38General = {
     {
     "The Maker",
@@ -5935,6 +5959,18 @@ Inst38Quest2name1 = "Crimson Pendant of Clarity"
 Inst38Quest2name2 = "Holy Healing Band"
 Inst38Quest2name3 = "Perfectly Balanced Cape"
 
+--Quest 3 Alliance
+Inst38Quest3 = "3. Wanted: Keli'dan's Feathered Stave (Heroic Daily)"
+Inst38Quest3_Level = "70"
+Inst38Quest3_Attain = "70"
+Inst38Quest3_Aim = "Wind Trader Zhareem has asked you to obtain Keli'dan's Feathered Stave. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst38Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst38Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nKeli'dan the Breaker is at "..YELLOW.."[3]"..WHITE.."."
+Inst38Quest3_Prequest = "No"
+Inst38Quest3_Folgequest = "No"
+--
+Inst38Quest3name1 = "Badge of Justice"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance - different NPC to turn in)
 Inst38Quest1_HORDE = Inst38Quest1
@@ -5967,6 +6003,18 @@ Inst38Quest2name1_HORDE = Inst38Quest2name1
 Inst38Quest2name2_HORDE = Inst38Quest2name2
 Inst38Quest2name3_HORDE = Inst38Quest2name3
 
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst38Quest3_HORDE = Inst38Quest3
+Inst38Quest3_HORDE_Level = Inst38Quest3_Level
+Inst38Quest3_HORDE_Attain = Inst38Quest3_Attain
+Inst38Quest3_HORDE_Aim = Inst38Quest3_Aim
+Inst38Quest3_HORDE_Location = Inst38Quest3_Location
+Inst38Quest3_HORDE_Note = Inst38Quest3_Note
+Inst38Quest3_HORDE_Prequest = Inst38Quest3_Prequest
+Inst38Quest3_HORDE_Folgequest = Inst38Quest3_Folgequest
+--
+Inst38Quest3name1_HORDE = Inst38Quest3name1
+
 
 
 --------------- INST39 - HFC: Shattered Halls (SH) ---------------
@@ -5977,8 +6025,8 @@ Inst39Story = {
   ["MaxPages"] = "2",
 };
 Inst39Caption = "HFC: Shattered Halls"
-Inst39QAA = "7 Quests"
-Inst39QAH = "6 Quests"
+Inst39QAA = "9 Quests"
+Inst39QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst39Quest1 = "1. Fel Embers"
@@ -6068,6 +6116,29 @@ Inst39Quest7_Folgequest = "Yes, Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
 Inst39Quest7PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 8 Alliance
+Inst39Quest8 = "8. Wanted: Bladefist's Seal (Heroic Daily)"
+Inst39Quest8_Level = "70"
+Inst39Quest8_Attain = "70"
+Inst39Quest8_Aim = "Wind Trader Zhareem has asked you to obtain Bladefist's Seal. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst39Quest8_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst39Quest8_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarchief Kargath Bladefist is at "..YELLOW.."[5]"..WHITE.."."
+Inst39Quest8_Prequest = "No"
+Inst39Quest8_Folgequest = "No"
+--
+Inst39Quest8name1 = "Badge of Justice"
+
+--Quest 9 Alliance
+Inst39Quest9 = "9. Wanted: Shattered Hand Centurions (Heroic Daily)"
+Inst39Quest9_Level = "70"
+Inst39Quest9_Attain = "70"
+Inst39Quest9_Aim = "Nether-Stalker Mah'duun has tasked you with the deaths of 4 Shattered Hand Centurions. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst39Quest9_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst39Quest9_Note = "This daily quest can only be completed on Heroic difficulty.\n\nYou'll find the Centurion's in Sparring Hall."
+Inst39Quest9_Prequest = "No"
+Inst39Quest9_Folgequest = "No"
+--
+Inst39Quest9name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 2 Alliance - different NPC to turn in)
@@ -6141,6 +6212,30 @@ Inst39Quest6_HORDE_Prequest = Inst39Quest7_Prequest
 Inst39Quest6_HORDE_Folgequest = Inst39Quest7_Folgequest
 Inst39Quest6PreQuest_HORDE = Inst39Quest7PreQuest
 -- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 8 Alliance)
+Inst39Quest7_HORDE = "7. Wanted: Bladefist's Seal (Heroic Daily)"
+Inst39Quest7_HORDE_Level = Inst39Quest8_Level
+Inst39Quest7_HORDE_Attain = Inst39Quest8_Attain
+Inst39Quest7_HORDE_Aim = Inst39Quest8_Aim
+Inst39Quest7_HORDE_Location = Inst39Quest8_Location
+Inst39Quest7_HORDE_Note = Inst39Quest8_Note
+Inst39Quest7_HORDE_Prequest = Inst39Quest8_Prequest
+Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
+--
+Inst39Quest7name1_HORDE = Inst39Quest8name1
+
+--Quest 8 Horde  (same as Quest 9 Alliance)
+Inst39Quest8_HORDE = "8. Wanted: Shattered Hand Centurions (Heroic Daily)"
+Inst39Quest8_HORDE_Level = Inst39Quest9_Level
+Inst39Quest8_HORDE_Attain = Inst39Quest9_Attain
+Inst39Quest8_HORDE_Aim = Inst39Quest9_Aim
+Inst39Quest8_HORDE_Location = Inst39Quest9_Location
+Inst39Quest8_HORDE_Note = Inst39Quest9_Note
+Inst39Quest8_HORDE_Prequest = Inst39Quest9_Prequest
+Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
+--
+Inst39Quest8name1_HORDE = Inst39Quest9name1
 
 
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
@@ -7713,7 +7808,7 @@ Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
 --------------- INST54 - TK: Arcatraz (Arc) ---------------
 
 Inst54Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Arcatraz is the third wing of the Tempest Keep instance.\n\nThe Arcatraz is accessible either through a quest chain for the key that requires you to complete both Mechanar and Botanica, that begins with a long quest chain called (A Heap of Ethereals) from Nether-Stalker Khay'ji in Area 52, or be picked by a lvl 70 Rogue (with 350 LP).\n\nOnly one member of your group must have the key. The entrance portal is high above the other Tempest Keep instances.\n\nOne full run yields about 1750 reputation with the Sha'tar."
-Inst54Caption = "Arcatraz"
+Inst54Caption = "TK: The Arcatraz"
 Inst54QAA = "4 Quests"
 Inst54QAH = "4 Quests"
 
@@ -7823,7 +7918,7 @@ Inst54Quest4PreQuest_HORDE = Inst54Quest4PreQuest
 --------------- INST55 - TK: Botanica (Bot) ---------------
 
 Inst55Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Botanica is the second wing of the Tempest Keep instance located directly north of the main palace (The blue crystal building).\n\nThis is also the place of Kael'thas commander: Commander Sarannis."
-Inst55Caption = "Botanica"
+Inst55Caption = "TK: The Botanica"
 Inst55QAA = "3 Quests"
 Inst55QAH = "3 Quests"
 
@@ -7917,7 +8012,7 @@ Inst55Quest3PreQuest_HORDE = Inst55Quest3PreQuest
 --------------- INST56 - TK: Mechanar (Mech) ---------------
 
 Inst56Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Mechanar is the first wing of the Tempest Keep instance.\n\nThis is the purple crystal building south of the main palace.\n\nRecommended level is 70. One full run yields about 1500 reputation with the Sha'tar."
-Inst56Caption = "Mechanar"
+Inst56Caption = "TK: The Mechanar"
 Inst56QAA = "2 Quests"
 Inst56QAH = "2 Quests"
 
@@ -8126,7 +8221,7 @@ Inst59Quest2PreQuest_HORDE = "true"
 --------------- INST61 - TK: The Eye ---------------
 
 Inst61Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Mechanar is the first wing of the Tempest Keep instance.\n\nThis is the purple crystal building south of the main palace.\n\nRecommended level is 70. One full run yields about 1500 reputation with the Sha'tar."
-Inst61Caption = "The Eye"
+Inst61Caption = "TK: The Eye"
 Inst61QAA = "3 Quests"
 Inst61QAH = "3 Quests"
 
