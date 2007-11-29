@@ -971,7 +971,7 @@ Inst5Quest12_Level = "58"
 Inst5Quest12_Attain = "52"
 Inst5Quest12_Aim = "Helft Marshall Windsor, seine Ausrüstung zurückzuholen und seine Freunde zu befreien. Kehrt zu Marshall Windsor zurück, wenn Ihr Erfolg hattet."
 Inst5Quest12_Location = "Marshall Windsor (Schwarzfelstiefen; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest12_Note = "Dieses Quest ist Teil der Onyxia Questreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..".\nDas Quest ist wesentlich leichter, wenn der Ring des Gesetzes ("..YELLOW.."[6]"..WHITE..") und der Weg zum Eingang vor Beginn von Gegnern befreit wurde. Man findet Marshall Maxwell in der Brennende Steppe ("..YELLOW.."84,68"..WHITE..")"
+Inst5Quest12_Note = "Dieses Quest ist Teil der Onyxia Questreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..".\nDas Quest ist wesentlich leichter, wenn der Ring des Gesetzes ("..YELLOW.."[6]"..WHITE..") und der Weg zum Eingang vor Beginn von Gegnern befreit wurde. Man findet Marshall Maxwell in der Brennende Steppe - Morgans Wacht ("..YELLOW.."84,68"..WHITE..")"
 Inst5Quest12_Prequest = "Ja, Ein Funken Hoffnung"
 Inst5Quest12_Folgequest = "Ja, Treffen in Sturmwind"
 Inst5Quest12FQuest = "true"
@@ -1526,266 +1526,371 @@ Inst7Quest5name2_HORDE = Inst7Quest6name2
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
 
-Inst8Story = "Die mächtige Festung, die aus der feurigen Flanke des Schwarzfels herausgeschnitten wurde, geht auf Entwürfe des zwergischen Meistersteinmetzes Franclorn Forgewright zurück. Jahrhunderte lang war die Zitadelle ein Symbol der Macht des Düstereisenklans, das von den Zwergen mit äußerstem Ingrimm verteidigt wurde. Allerdings gab es jemanden, der andere Pläne für die Zitadelle hatte: Nefarian, der listige Sohn des Drachen Deathwing, stieg eines Tages mit Flamme und Klaue auf den oberen Teil der Zitadelle hinab und trug zusammen mit seinen drachischen Untergebenen den Kampf bis zu den Stellungen der Zwerge tief unten, bei den vulkanischen Abgründen unter dem Berg. Dort erkannte der Drache, dass der Anführer der Zwerge kein geringerer als der Feuerfürst Ragnaros höchstpersönlich war. Nachdem sein Vordringen gestoppt worden war, schwor sich Nefarian, seine Feinde endgültig zu vernichten und somit die Herrschaft über den Schwarzfels an sich zu reißen."
-Inst8Caption = "Die Zitadelle des Schwarzfelss"
-Inst8QAA = "10 Quests"
-Inst8QAH = "10 Quests"
+Inst8Story = "Die mächtige Festung, die aus der feurigen Flanke des Schwarzfels herausgeschnitten wurde, geht auf Entwürfe des zwergischen Meistersteinmetzes Franclorn Schmiedevater zurück. Jahrhunderte lang war die Zitadelle ein Symbol der Macht des Dunkeleisenklans, das von den Zwergen mit äußerstem Ingrimm verteidigt wurde. Allerdings gab es jemanden, der andere Pläne für die Zitadelle hatte: Nefarian, der listige Sohn des Drachen Deathwing, stieg eines Tages mit Flamme und Klaue auf den oberen Teil der Zitadelle hinab und trug zusammen mit seinen drachischen Untergebenen den Kampf bis zu den Stellungen der Zwerge tief unten, bei den vulkanischen Abgründen unter dem Berg. Dort erkannte der Drache, dass der Anführer der Zwerge kein geringerer als der Feuerfürst Ragnaros höchstpersönlich war. Nachdem sein Vordringen gestoppt worden war, schwor sich Nefarian, seine Feinde endgültig zu vernichten und somit die Herrschaft über den Schwarzfels an sich zu reißen."
+Inst8Caption = "Schwarzfelsspitze (Unten)"
+Inst8QAA = "14 Quests"
+Inst8QAH = "14 Quests"
 
 --Quest1 Allianz
 Inst8Quest1 = "1. Die letzten Schrifttafeln"
-Inst8Quest1_Attain = "56"
 Inst8Quest1_Level = "58"
-Inst8Quest1_Aim = "Bringt Ausgrabungsleiter Ironboot in Tanaris die fünfte und sechste Schrifttafel von Mosh'aru."
-Inst8Quest1_Location = "Ausgrabungsleiter Ironboot (Tanaris; "..YELLOW.."66,23"..WHITE..")"
-Inst8Quest1_Note = "Die Tafeln findet man bei "..YELLOW.."[4]"..WHITE.." und "..YELLOW.."[5]"..WHITE..".\nDie Belohnungen sind für den Folgequest 'Konfrontiert Yeh'kinya', Yeh'kinya steht neben Ironboot."
+Inst8Quest1_Attain = "55"
+Inst8Quest1_Aim = "Bringt Ausgrabungsleiter Eisenschuh in Tanaris die fünfte und sechste Schrifttafel von Mosh'aru."
+Inst8Quest1_Location = "Ausgrabungsleiter Eisenschuh (Tanaris - Dampfdruckpier; "..YELLOW.."66,23"..WHITE..")"
+Inst8Quest1_Note = "Die Tafeln findet man bei "..YELLOW.."[7]"..WHITE.." und "..YELLOW.."[9]"..WHITE..".\nDie Belohnungen gehören zum Folgequest 'Konfrontiert Yeh'kinya'. Yeh'kinya findet man nahe bei Ausgrabungsleiter Eisenschuh."
 Inst8Quest1_Prequest = "Ja, Die verlorenen Schrifttafeln von Mosh'aru"
 Inst8Quest1_Folgequest = "Ja, Konfrontiert Yeh'kinya"
 Inst8Quest1PreQuest = "true"
 --
-Inst8Quest1name1 = "Faded Hakkari Cloak"
-Inst8Quest1name2 = "Tattered Hakkari Cape"
+Inst8Quest1name1 = "Ausgeblichener Hakkariumhang"
+Inst8Quest1name2 = "Zerlumptes Hakkaricape"
 
 --Quest2 Allianz
 Inst8Quest2 = "2. Kiblers Exotische Tiere"
-Inst8Quest2_Attain = "55"
 Inst8Quest2_Level = "59"
+Inst8Quest2_Attain = "55"
 Inst8Quest2_Aim = "Begebt Euch zur Schwarzfelsspitze und sucht Worgwelpen der Blutäxte. Benutzt den Käfig, um die wilden kleinen Bestien zu transportieren. Bringt einen eingesperrten Worgwelpen zu Kibler."
-Inst8Quest2_Location = "Kibler (Brennende Steppe; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest2_Note = "Die Worgwelpen findet man bei "..YELLOW.."[10]"..WHITE..". (unter anderem)"
+Inst8Quest2_Location = "Kibler (Brennende Steppe - Flammenkamm; "..YELLOW.."65,22"..WHITE..")"
+Inst8Quest2_Note = "Die Worgwelpen findet man bei "..YELLOW.."[17]"..WHITE.."."
 Inst8Quest2_Prequest = "Nein"
 Inst8Quest2_Folgequest = "Nein"
 --
-Inst8Quest2name1 = "Worg Carrier"
+Inst8Quest2name1 = "Worgtransportkorb"
 
 --Quest3 Allianz
 Inst8Quest3 = "3. Be-Öh-Es-Eh"
-Inst8Quest3_Attain = "55"
 Inst8Quest3_Level = "59"
-Inst8Quest3_Aim = "Reist zur Schwarzfelsspitze und sammelt 15 Spitzenspinnen-Eier für Kibler."
-Inst8Quest3_Location = "Kibler (Brennende Steppe; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest3_Note = "Die Spinneneier findet man bei "..YELLOW.."[6]"..WHITE.."."
+Inst8Quest3_Attain = "55"
+Inst8Quest3_Aim = "Reist zur Schwarzfelsspitze und sammelt 15 Spitzenspinneneier für Kibler."
+Inst8Quest3_Location = "Kibler (Brennende Steppe - Flammenkamm; "..YELLOW.."65,22"..WHITE..")"
+Inst8Quest3_Note = "Die Spinneneier findet man bei "..YELLOW.."[13]"..WHITE.."."
 Inst8Quest3_Prequest = "Nein"
 Inst8Quest3_Folgequest = "Nein"
 --
-Inst8Quest3name1 = "Smolderweb Carrier"
+Inst8Quest3name1 = "Glimmernetztransportkorb"
 
 --Quest4 Allianz
 Inst8Quest4 = "4. Muttermilch"
-Inst8Quest4_Attain = "?"
 Inst8Quest4_Level = "60"
+Inst8Quest4_Attain = "55"
 Inst8Quest4_Aim = "Ihr findet Mutter Glimmernetz im Herzen der Schwarzfelsspitze. Kämpft mit ihr und bringt sie dazu, Euch zu vergiften. Es kann gut sein, dass Ihr sie sogar töten müsst. Kehrt zum struppigen John zurück, sobald Ihr vergiftet seid, damit er Euch 'melken' kann."
 Inst8Quest4_Location = "Struppiger John (Brennende Steppe; "..YELLOW.."65,23"..WHITE..")"
-Inst8Quest4_Note = "Mutter Glimmernetz findet man bei "..YELLOW.."[6]"..WHITE..". Um den Quest abzuschließen müsst ihr euch von ihr vergiften lassen und VERGIFTET zu John zurückkehren."
+Inst8Quest4_Note = "Mutter Glimmernetz findet man bei "..YELLOW.."[13]"..WHITE..". Der Effekt des Giftes wird auch auf alle anderen Spieler in der Nähe übertragen. Das Gift darf nicht entfernt werden, sonst ist das Quest fehlgeschlagen."
 Inst8Quest4_Prequest = "Nein"
 Inst8Quest4_Folgequest = "Nein"
 --
-Inst8Quest4name1 = "Ragged John's Neverending Cup"
+Inst8Quest4name1 = "Der immervolle Becher des struppigen John"
 
 --Quest5 Allianz
 Inst8Quest5 = "5. Stellt sie ab"
-Inst8Quest5_Attain = "?"
 Inst8Quest5_Level = "59"
+Inst8Quest5_Attain = "55"
 Inst8Quest5_Aim = "Begebt Euch zur Schwarzfelsspitze und vernichtet die Quelle der Bedrohung durch die Worgs. Als Ihr Helendis verlasst, ruft er Euch noch einen Namen hinterher: Halycon. Darauf beziehen sich die Orcs im Zusammenhang mit den Worgs."
-Inst8Quest5_Location = "Helendis Riverhorn (Brennende Steppe; "..YELLOW.."85,68"..WHITE..")"
-Inst8Quest5_Note = "Halycon findet man bei "..YELLOW.."[10]"..WHITE.."."
+Inst8Quest5_Location = "Helendis Flusshorn (Brennende Steppe - Morgans Wacht; "..YELLOW.."5,47"..WHITE..")"
+Inst8Quest5_Note = "Halycon findet man bei "..YELLOW.."[17]"..WHITE.."."
 Inst8Quest5_Prequest = "Nein"
 Inst8Quest5_Folgequest = "Nein"
 --
-Inst8Quest5name1 = "Astoria Robes"
-Inst8Quest5name2 = "Traphook Jerkin"
-Inst8Quest5name3 = "Jadescale Breastplate"
+Inst8Quest5name1 = "Astoriaroben"
+Inst8Quest5name2 = "Fallenstellerwams"
+Inst8Quest5name3 = "Jadeschuppenbrustplatte"
 
 --Quest6 Allianz
 Inst8Quest6 = "6. Urok Schreckensbote"
-Inst8Quest6_Attain = "?"
-Inst8Quest6_Level = "59"
+Inst8Quest6_Level = "60"
+Inst8Quest6_Attain = "55"
 Inst8Quest6_Aim = "Lest Waroshs Rolle. Bringt Waroshs Mojo zu Warosh."
-Inst8Quest6_Location = "Warosh (Schwarzfelsspitze; "..YELLOW..""..WHITE..")"
-Inst8Quest6_Note = "Waroshs Mojo findet man bei Urok Schreckensbote, den man bei "..YELLOW.."[8]"..WHITE.." beschwören kann. Dafür benötigt man eine Lanze die es bei "..YELLOW.."[2]"..WHITE.." gibt und Hochlord Omokks Kopf "..YELLOW.."[3]"..WHITE..". Bei der Beschwörung erscheinen mehrere Wellen von Ogern die man besiegen muss, bevor Urok Schreckensbote erscheint. Tipp: Man kann die Lanze während des Kampfes benutzen um den Ogern zu schaden."
+Inst8Quest6_Location = "Warosh (Schwarzfelsspitze; "..YELLOW.."[2]"..WHITE..")"
+Inst8Quest6_Note = "Waroshs Mojo bekommt man von Urok Schreckensbote, den man bei "..YELLOW.."[15]"..WHITE.." beschwören kann. Dafür benötigt man eine Lanze, die es bei "..YELLOW.."[3]"..WHITE.." gibt und Hochlord Omokks Kopf "..YELLOW.."[5]"..WHITE..". Bei der Beschwörung erscheinen mehrere Wellen von Ogern die man besiegen muss, bevor Urok Schreckensbote erscheint. Man kann die Lanze während des Kampfes benutzen, um den Ogern Schaden zuzufügen."
 Inst8Quest6_Prequest = "Nein"
 Inst8Quest6_Folgequest = "Nein"
 --
-Inst8Quest6name1 = "Prismcharm"
+Inst8Quest6name1 = "Prismatalisman"
 
 --Quest7 Allianz
 Inst8Quest7 = "7. Bijous Habseligkeiten"
-Inst8Quest7_Attain = "?"
 Inst8Quest7_Level = "59"
+Inst8Quest7_Attain = "55"
 Inst8Quest7_Aim = "Sucht Bijous Habseligkeiten und bringt sie ihr. Viel Glück!"
-Inst8Quest7_Location = "Bijou (Schwarzfelsspitze; "..YELLOW.."zwischen [1] und [2]"..WHITE..")"
-Inst8Quest7_Note = "Bijous Habseligkeiten kann man auf dem Weg vor Mutter Glimmernetz("..YELLOW.."[6]"..WHITE..") finden.\nMaxwell findet man in der Brennenden Steppe("..YELLOW.."84,58"..WHITE..")."
+Inst8Quest7_Location = "Bijou (Schwarzfelsspitze; "..YELLOW.."[3]"..WHITE..")"
+Inst8Quest7_Note = "Bijous Habseligkeiten kann man auf dem Weg zu Mutter Glimmernetz, die sich bei "..YELLOW.."[13]"..WHITE.." befindet, finden.\nMaxwell findet man in der Brennenden Steppe - Morgans Wacht ("..YELLOW.."84,58"..WHITE..")."
 Inst8Quest7_Prequest = "Nein"
 Inst8Quest7_Folgequest = "Ja, Nachricht an Maxwell"
+-- Keine Belohnung
 
 --Quest8 Allianz
 Inst8Quest8 = "8. Maxwells Mission"
-Inst8Quest8_Attain = "?"
 Inst8Quest8_Level = "59"
-Inst8Quest8_Aim = "Reist zur Schwarzfelsspitze und schaltet Kriegsmeister Voone, Hochlord Omokk und Oberanführer Wyrmthalak aus. Kehrt zu Marshal Maxwell zurück, wenn Eure Aufgabe erledigt ist."
-Inst8Quest8_Location = "Marshal Maxwell (Brennenden Steppe; "..YELLOW.."84,58"..WHITE..")"
-Inst8Quest8_Note = "Kriegsmeister Voone findet man bei "..YELLOW.."[5]"..WHITE..", Hochlord Omokk bei "..YELLOW.."[3]"..WHITE.." und Oberanführer Wyrmthalak bei "..YELLOW.."[11]"..WHITE.."."
+Inst8Quest8_Attain = "57"
+Inst8Quest8_Aim = "Reist zur Schwarzfelsspitze und schaltet Kriegsmeister Voone, Hochlord Omokk und Oberanführer Wyrmthalak aus. Kehrt zu Marschall Maxwell zurück, wenn Eure Aufgabe erledigt ist."
+Inst8Quest8_Location = "Marschall Maxwell (Brennende Steppe - Morgans Wacht; "..YELLOW.."84,58"..WHITE..")"
+Inst8Quest8_Note = "Kriegsmeister Voone findet man bei "..YELLOW.."[9]"..WHITE..", Hochlord Omokk bei "..YELLOW.."[5]"..WHITE.." und Oberanführer Wyrmthalak bei "..YELLOW.."[19]"..WHITE.."."
 Inst8Quest8_Prequest = "Ja, Nachricht an Maxwell"
 Inst8Quest8_Folgequest = "Nein"
 Inst8Quest8FQuest = "true"
 --
-Inst8Quest8name1 = "Wyrmthalak's Shackles"
-Inst8Quest8name2 = "Omokk's Girth Restrainer"
-Inst8Quest8name3 = "Halycon's Muzzle"
-Inst8Quest8name4 = "Vosh'gajin's Strand"
-Inst8Quest8name5 = "Voone's Vice Grips"
+Inst8Quest8name1 = "Wyrmthalaks Fesseln"
+Inst8Quest8name2 = "Omokks Umfangbändiger"
+Inst8Quest8name3 = "Halycons Maulkorb"
+Inst8Quest8name4 = "Vosh'gajins Strang"
+Inst8Quest8name5 = "Voones Zwingenhandschutz"
 
 --Quest9 Allianz
 Inst8Quest9 = "9. Siegel des Aufstiegs"
-Inst8Quest9_Attain = "57"
 Inst8Quest9_Level = "60"
+Inst8Quest9_Attain = "57"
 Inst8Quest9_Aim = "Sucht die drei Edelsteine der Befehlsgewalt: den Edelstein der Gluthauer, den Edelstein der Felsspitzoger und den Edelstein der Blutäxte. Bringt sie zusammen mit dem unverzierten Siegel des Aufstiegs zu Vaelan zurück."
-Inst8Quest9_Location = "Vaelan (Schwarzfelsspitze; "..YELLOW.."westlich von [1] (oben)"..WHITE..")"
-Inst8Quest9_Note = "Den Edelstein der Felsspitzoger bekommt man von Hochlord Omokk("..YELLOW.."[3]"..WHITE.."), den Edelstein der Gluthauer von Kriegsmeister Voone("..YELLOW.."[5]"..WHITE.."), den Edelstein der Blutäxte von Oberanführer Wyrmthalak("..YELLOW.."[11]"..WHITE..") und das Unverziertes Siegel des Aufstiegs kann bei allen Gegnern in der Schwarzfelsspitze droppen.\nBelohnung: Schlüssel für UBRS."
+Inst8Quest9_Location = "Vaelan (Schwarzfelsspitze; "..YELLOW.."[1]"..WHITE..")"
+Inst8Quest9_Note = "Den Edelstein der Felsspitzoger bekommt man von Hochlord Omokk bei "..YELLOW.."[3]"..WHITE..", den Edelstein der Gluthauer von Kriegsmeister Voone bei "..YELLOW.."[9]"..WHITE.." und den Edelstein der Blutäxte von Oberanführer Wyrmthalak bei "..YELLOW.."[19]"..WHITE..". Das Unverziertes Siegel des Aufstiegs kann von fast allen Gegnern in der Unteren Schwarzfelsspitze droppen. Wenn man diese Questreihe beendet, bekommt man den Schlüssel für die Obere Schwarzfelsspitze als Belohnung."
 Inst8Quest9_Prequest = "Nein"
 Inst8Quest9_Folgequest = "Ja, Siegel des Aufstiegs"
+-- Keine Belohnung
 
 --Quest10 Allianz
 Inst8Quest10 = "10. General Drakkisaths Befehl"
 Inst8Quest10_Attain = "55"
 Inst8Quest10_Level = "60"
-Inst8Quest10_Aim = "Bringt den Befehl von General Drakkisath zu Marshal Maxwell in der brennenden Steppe."
-Inst8Quest10_Location = "General Drakkisaths Befehl ("..YELLOW.."Drop von Oberanführer Wyrmthalak"..WHITE..")"
-Inst8Quest10_Note = "Die Befehle droppen bei Oberanführer Wyrmthalak("..YELLOW.."[11]"..WHITE.."), Marshal Maxwell findet man bei (Brennenden Steppe; "..YELLOW.."84,58"..WHITE..")."
+Inst8Quest10_Aim = "Bringt den Befehl von General Drakkisath zu Marschall Maxwell in der brennenden Steppe."
+Inst8Quest10_Location = "General Drakkisaths Befehl (droppt von Oberanführer Wyrmthalak; "..YELLOW.."[19]"..WHITE..")"
+Inst8Quest10_Note = "Marschall Maxwell befindet sich in der Brennenden Steppe - Morgans Wacht; ("..YELLOW.."84,58"..WHITE..")."
 Inst8Quest10_Prequest = "Nein"
-Inst8Quest10_Folgequest = "Ja, General Drakkisaths Niedergang(UBRS)"
+Inst8Quest10_Folgequest = "Ja, General Drakkisaths Niedergang ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
+-- Keine Belohnung
 
+--Quest 11 Allianz
+Inst8Quest11 = "11. Das linke Stück von Lord Valthalaks Amulett"
+Inst8Quest11_Level = "60"
+Inst8Quest11_Attain = "60"
+Inst8Quest11_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Mor Grauhuf zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst8Quest11_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst8Quest11_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nMor Grauhuf kann man bei "..YELLOW.."[9]"..WHITE.." beschwören."
+Inst8Quest11_Prequest = "Ja, Mehr Komponenten von großer Wichtigkeit"
+Inst8Quest11_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
+Inst8Quest11PreQuest = "true"
+-- Keine Belohnung
 
---Quest1 Horde
-Inst8Quest1_HORDE = "1. Die letzten Schrifttafeln"
-Inst8Quest1_HORDE_Attain = "56"
-Inst8Quest1_HORDE_Level = "58"
-Inst8Quest1_HORDE_Aim = "Bringt Ausgrabungsleiter Ironboot in Tanaris die fünfte und sechste Schrifttafel von Mosh'aru."
-Inst8Quest1_HORDE_Location = "Ausgrabungsleiter Ironboot (Tanaris; "..YELLOW.."66,23"..WHITE..")"
-Inst8Quest1_HORDE_Note = "Die Tafeln findet man bei "..YELLOW.."[4]"..WHITE.." und "..YELLOW.."[5]"..WHITE..".\nDie Belohnungen sind für den Folgequest 'Konfrontiert Yeh'kinya', Yeh'kinya steht neben Ironboot."
-Inst8Quest1_HORDE_Prequest = "Ja, Die verlorenen Schrifttafeln von Mosh'aru"
-Inst8Quest1_HORDE_Folgequest = "Ja, Konfrontiert Yeh'kinya"
-Inst8Quest1PreQuest_HORDE = "true"
+--Quest 12 Allianz
+Inst8Quest12 = "12. Das rechte Stück von Lord Valthalaks Amulett"
+Inst8Quest12_Level = "60"
+Inst8Quest12_Attain = "60"
+Inst8Quest12_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Mor Grauhuf zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst8Quest12_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst8Quest12_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nMor Grauhuf kann man bei "..YELLOW.."[9]"..WHITE.." beschwören."
+Inst8Quest12_Prequest = "Ja, Mehr Komponenten von großer Wichtigkeit"
+Inst8Quest12_Folgequest = "Ja, Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
+Inst8Quest12PreQuest = "true"
+-- Keine Belohnung
+
+--Quest 13 Allianz
+Inst8Quest13 = "13. Schlangenstein der Schattenjägerin"
+Inst8Quest13_Level = "60"
+Inst8Quest13_Attain = "51"
+Inst8Quest13_Aim = "Begebt Euch zur Schwarzfelsspitze und erschlagt Schattenjägerin Vosh'gajin. Holt Vosh'gajins Schlangenstein und kehrt zu Kilram zurück."
+Inst8Quest13_Location = "Kilram (Winterquell - Ewige Warte; "..YELLOW.."61,37"..WHITE..")"
+Inst8Quest13_Note = "Schmiedekunst Quest. Schattenjägerin Vosh'gajin befindet sich bei "..YELLOW.."[7]"..WHITE.."."
+Inst8Quest13_Prequest = "Nein"
+Inst8Quest13_Folgequest = "Nein"
 --
-Inst8Quest1name1_HORDE = "Faded Hakkari Cloak"
-Inst8Quest1name2_HORDE = "Tattered Hakkari Cape"
+Inst8Quest13name1 = "Pläne: Dämmerungsschneide"
 
---Quest2 Horde
-Inst8Quest2_HORDE = "2. Kiblers Exotische Tiere"
-Inst8Quest2_HORDE_Attain = "55"
-Inst8Quest2_HORDE_Level = "59"
-Inst8Quest2_HORDE_Aim = "Begebt Euch zur Schwarzfelsspitze und sucht Worgwelpen der Blutäxte. Benutzt den Käfig, um die wilden kleinen Bestien zu transportieren. Bringt einen eingesperrten Worgwelpen zu Kibler."
-Inst8Quest2_HORDE_Location = "Kibler (Brennende Steppe; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest2_HORDE_Note = "Die Worgwelpen findet man bei "..YELLOW.."[10]"..WHITE..". (unter anderem)"
-Inst8Quest2_HORDE_Prequest = "Nein"
-Inst8Quest2_HORDE_Folgequest = "Nein"
+--Quest 14 Allianz
+Inst8Quest14 = "14. Heißer, feuriger Tod"
+Inst8Quest14_Level = "60"
+Inst8Quest14_Attain = "58"
+Inst8Quest14_Aim = "Jemand auf dieser Welt muss doch wissen, was mit diesen Stulpen zu tun ist. Viel Glück!"
+Inst8Quest14_Location = "Menschliche Überreste (Untere Schwarzfelsspitze; "..YELLOW.."[9]"..WHITE..")"
+Inst8Quest14_Note = "Schmiedekunst Quest. Man muss die Ungebrannte Plattenstulpen nahe der Menschlichen Überreste bei "..YELLOW.."[11]"..WHITE.." einsammeln. Danach wird es bei Malyfous Düsterhammer (Winterquell - Ewige Warte; "..YELLOW.."61,39"..WHITE..") abgegeben. Die Belohnungen sind für das Folgequest."
+Inst8Quest14_Prequest = "Nein"
+Inst8Quest14_Folgequest = "Ja, Feurige Plattenstulpen"
 --
-Inst8Quest2name1_HORDE = "Worg Carrier"
+Inst8Quest14name1 = "Pläne: Feurige Plattenstulpen"
+Inst8Quest14name2 = "Feurige Plattenstulpen"
 
---Quest3 Horde
-Inst8Quest3_HORDE = "3. Be-Öh-Es-Eh"
-Inst8Quest3_HORDE_Attain = "55"
-Inst8Quest3_HORDE_Level = "59"
-Inst8Quest3_HORDE_Aim = "Reist zur Schwarzfelsspitze und sammelt 15 Spitzenspinnen-Eier für Kibler."
-Inst8Quest3_HORDE_Location = "Kibler (Brennende Steppe; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest3_HORDE_Note = "Die Spinneneier findet man bei "..YELLOW.."[6]"..WHITE.."."
-Inst8Quest3_HORDE_Prequest = "Nein"
-Inst8Quest3_HORDE_Folgequest = "Nein"
---
-Inst8Quest3name1_HORDE = "Smolderweb Carrier"
 
---Quest4 Horde
-Inst8Quest4_HORDE = "4. Muttermilch"
-Inst8Quest4_HORDE_Attain = "?"
-Inst8Quest4_HORDE_Level = "60"
-Inst8Quest4_HORDE_Aim = "Ihr findet Mutter Glimmernetz im Herzen der Schwarzfelsspitze. Kämpft mit ihr und bringt sie dazu, Euch zu vergiften. Es kann gut sein, dass Ihr sie sogar töten müsst. Kehrt zum struppigen John zurück, sobald Ihr vergiftet seid, damit er Euch 'melken' kann."
-Inst8Quest4_HORDE_Location = "Struppiger John (Brennende Steppe; "..YELLOW.."65,23"..WHITE..")"
-Inst8Quest4_HORDE_Note = "Mutter Glimmernetz findet man bei "..YELLOW.."[6]"..WHITE..". Um den Quest abzuschließen müsst ihr euch von ihr vergiften lassen und VERGIFTET zu John zurückkehren."
-Inst8Quest4_HORDE_Prequest = "Nein"
-Inst8Quest4_HORDE_Folgequest = "Nein"
+--Quest 1 Horde (das selbe wie allianz quest 1)
+Inst8Quest1_HORDE = Inst8Quest1
+Inst8Quest1_HORDE_Level = Inst8Quest1_Level
+Inst8Quest1_HORDE_Attain = Inst8Quest1_Attain
+Inst8Quest1_HORDE_Aim = Inst8Quest1_Aim
+Inst8Quest1_HORDE_Location = Inst8Quest1_Location
+Inst8Quest1_HORDE_Note = Inst8Quest1_Note
+Inst8Quest1_HORDE_Prequest = Inst8Quest1_Prequest
+Inst8Quest1_HORDE_Folgequest = Inst8Quest1_Folgequest
+Inst8Quest1PreQuest_HORDE = Inst8Quest1PreQuest
 --
-Inst8Quest4name1_HORDE = "Ragged John's Neverending Cup"
+Inst8Quest1name1_HORDE = Inst8Quest1name1
+Inst8Quest1name2_HORDE = Inst8Quest1name2
+
+--Quest2 Horde (das selbe wie allianz quest 2)
+Inst8Quest2_HORDE = Inst8Quest2
+Inst8Quest2_HORDE_Level = Inst8Quest2_Level
+Inst8Quest2_HORDE_Attain = Inst8Quest2_Attain
+Inst8Quest2_HORDE_Aim = Inst8Quest2_Aim
+Inst8Quest2_HORDE_Location = Inst8Quest2_Location
+Inst8Quest2_HORDE_Note = Inst8Quest2_Note
+Inst8Quest2_HORDE_Prequest = Inst8Quest2_Prequest
+Inst8Quest2_HORDE_Folgequest = Inst8Quest2_Folgequest
+--
+Inst8Quest2name1_HORDE = Inst8Quest2name1
+
+--Quest3 Horde (das selbe wie allianz quest 3)
+Inst8Quest3_HORDE = Inst8Quest3
+Inst8Quest3_HORDE_Level = Inst8Quest3_Level
+Inst8Quest3_HORDE_Attain = Inst8Quest3_Attain
+Inst8Quest3_HORDE_Aim = Inst8Quest3_Aim
+Inst8Quest3_HORDE_Location = Inst8Quest3_Location
+Inst8Quest3_HORDE_Note = Inst8Quest3_Note
+Inst8Quest3_HORDE_Prequest = Inst8Quest3_Prequest
+Inst8Quest3_HORDE_Folgequest = Inst8Quest3_Folgequest
+--
+Inst8Quest3name1_HORDE = Inst8Quest3name1
+
+--Quest4 Horde (das selbe wie allianz quest 4)
+Inst8Quest4_HORDE = Inst8Quest4
+Inst8Quest4_HORDE_Level = Inst8Quest4_Level
+Inst8Quest4_HORDE_Attain = Inst8Quest4_Attain
+Inst8Quest4_HORDE_Aim = Inst8Quest4_Aim
+Inst8Quest4_HORDE_Location = Inst8Quest4_Location
+Inst8Quest4_HORDE_Note = Inst8Quest4_Note
+Inst8Quest4_HORDE_Prequest = Inst8Quest4_Prequest
+Inst8Quest4_HORDE_Folgequest = Inst8Quest4_Folgequest
+--
+Inst8Quest4name1_HORDE = Inst8Quest4name1
 
 --Quest5 Horde
 Inst8Quest5_HORDE = "5. Die Herrin der Meute"
-Inst8Quest5_HORDE_Attain = "?"
 Inst8Quest5_HORDE_Level = "59"
+Inst8Quest5_HORDE_Attain = "55"
 Inst8Quest5_HORDE_Aim = "Erschlagt Halycon, die Rudelführerin der Worgs der Blutäxte."
 Inst8Quest5_HORDE_Location = "Galamav der Schütze (Ödland - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst8Quest5_HORDE_Note = "Halycon findet man bei "..YELLOW.."[10]"..WHITE.."."
+Inst8Quest5_HORDE_Note = "Halycon findet man bei "..YELLOW.."[17]"..WHITE.."."
 Inst8Quest5_HORDE_Prequest = "Nein"
 Inst8Quest5_HORDE_Folgequest = "Nein"
 --
-Inst8Quest5name1_HORDE = "Astoria Robes"
-Inst8Quest5name2_HORDE = "Traphook Jerkin"
-Inst8Quest5name3_HORDE = "Jadescale Breastplate"
+Inst8Quest5name1_HORDE = "Astoriaroben"
+Inst8Quest5name2_HORDE = "Fallenstellerwams"
+Inst8Quest5name3_HORDE = "Jadeschuppenbrustplatte"
 
---Quest6 Horde
-Inst8Quest6_HORDE = "6. Urok Schreckensbote"
-Inst8Quest6_HORDE_Attain = "?"
-Inst8Quest6_HORDE_Level = "59"
-Inst8Quest6_HORDE_Aim = "Lest Waroshs Rolle. Bringt Waroshs Mojo zu Warosh."
-Inst8Quest6_HORDE_Location = "Warosh (Schwarzfelsspitze; "..YELLOW.."[1]"..WHITE..")"
-Inst8Quest6_HORDE_Note = "Waroshs Mojo findet man bei Urok Schreckensbote, den man bei "..YELLOW.."[8]"..WHITE.." beschwören kann. Dafür benötigt man eine Lanze die es bei "..YELLOW.."[2]"..WHITE.." gibt und Hochlord Omokks Kopf "..YELLOW.."[3]"..WHITE..". Bei der Beschwörung erscheinen mehrere Wellen von Ogern die man besiegen muss, bevor Urok Schreckensbote erscheint. Tipp: Man kann die Lanze während des Kampfes benutzen um den Ogern zu schaden."
-Inst8Quest6_HORDE_Prequest = "Nein"
-Inst8Quest6_HORDE_Folgequest = "Nein"
+--Quest6 Horde (das selbe wie allianz quest 6)
+Inst8Quest6_HORDE = Inst8Quest6
+Inst8Quest6_HORDE_Level = Inst8Quest6_Level
+Inst8Quest6_HORDE_Attain = Inst8Quest6_Attain
+Inst8Quest6_HORDE_Aim = Inst8Quest6_Aim
+Inst8Quest6_HORDE_Location = Inst8Quest6_Location
+Inst8Quest6_HORDE_Note = Inst8Quest6_Note
+Inst8Quest6_HORDE_Prequest = Inst8Quest6_Prequest
+Inst8Quest6_HORDE_Folgequest = Inst8Quest6_Folgequest
 --
-Inst8Quest6name1_HORDE = "Prismcharm"
+Inst8Quest6name1_HORDE = Inst8Quest6name1
 
 --Quest7 Horde
 Inst8Quest7_HORDE = "7. Agentin Bijou"
-Inst8Quest7_HORDE_Attain = "?"
 Inst8Quest7_HORDE_Level = "59"
+Inst8Quest7_HORDE_Attain = "55"
 Inst8Quest7_HORDE_Aim = "Begebt Euch zur Schwarzfelsspitze und findet heraus, was aus Bijou geworden ist."
 Inst8Quest7_HORDE_Location = "Lexlort (Ödland - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst8Quest7_HORDE_Note = "Bijou findet man zwischen "..YELLOW.."[1] und [2]"..WHITE.."."
+Inst8Quest7_HORDE_Note = "Bijou findet man bei "..YELLOW.."[8]"..WHITE.."."
 Inst8Quest7_HORDE_Prequest = "Nein"
 Inst8Quest7_HORDE_Folgequest = "Ja, Bijous Habseligkeiten"
+-- Keine Belohnung
 
 --Quest8 Horde
 Inst8Quest8_HORDE = "8. Bijous Habseligkeiten"
-Inst8Quest8_HORDE_Attain = "?"
 Inst8Quest8_HORDE_Level = "59"
+Inst8Quest8_HORDE_Attain = "55"
 Inst8Quest8_HORDE_Aim = "Sucht Bijous Habseligkeiten und bringt sie ihr. Ihr erinnert Euch daran, dass sie erwähnte, ihre Sachen auf der untersten Ebene der Stadt versteckt zu haben."
-Inst8Quest8_HORDE_Location = "Bijou (Schwarzfelsspitze; "..YELLOW.."zwischen [1] und [2]"..WHITE..")"
-Inst8Quest8_HORDE_Note = "Bijous Habseligkeiten kann man auf dem Weg vor Mutter Glimmernetz("..YELLOW.."[6]"..WHITE..") finden.\nDie Belohungen sind für 'Bijous Aufklärungsbericht'."
+Inst8Quest8_HORDE_Location = "Bijou (Schwarzfelsspitze; "..YELLOW.."[3]"..WHITE..")"
+Inst8Quest8_HORDE_Note = "Bijous Habseligkeiten kann man auf dem Weg zu Mutter Glimmernetz, die sich bei "..YELLOW.."[13]"..WHITE.." befindet, finden.\nDie Belohungen sind für 'Bijous Aufklärungsbericht'."
 Inst8Quest8_HORDE_Prequest = "Ja, Agentin Bijou"
 Inst8Quest8_HORDE_Folgequest = "Ja, Bijous Aufklärungsbericht"
 Inst8Quest8FQuest_HORDE = "true"
 --
-Inst8Quest8name1_HORDE = "Freewind Gloves"
-Inst8Quest8name2_HORDE = "Seapost Girdle"
+Inst8Quest8name1_HORDE = "Freiwindhandschuhe"
+Inst8Quest8name2_HORDE = "Seepostengurt"
 
---Quest9 Horde
-Inst8Quest9_HORDE = "9. Siegel des Aufstiegs"
-Inst8Quest9_HORDE_Attain = "57"
-Inst8Quest9_HORDE_Level = "60"
-Inst8Quest9_HORDE_Aim = "Sucht die drei Edelsteine der Befehlsgewalt: den Edelstein der Gluthauer, den Edelstein der Felsspitzoger und den Edelstein der Blutäxte. Bringt sie zusammen mit dem unverzierten Siegel des Aufstiegs zu Vaelan zurück."
-Inst8Quest9_HORDE_Location = "Vaelan (Schwarzfelsspitze; "..YELLOW.."westlich von [1]"..WHITE..")"
-Inst8Quest9_HORDE_Note = "Den Edelstein der Felsspitzoger bekommt man von Hochlord Omokk("..YELLOW.."[3]"..WHITE.."), den Edelstein der Gluthauer von Kriegsmeister Voone("..YELLOW.."[5]"..WHITE.."), den Edelstein der Blutäxte von Oberanführer Wyrmthalak("..YELLOW.."[11]"..WHITE..") und das Unverziertes Siegel des Aufstiegs kann bei allen Gegnern in der Schwarzfelsspitze droppen.\nBelohnung: Schlüssel für UBRS."
-Inst8Quest9_HORDE_Prequest = "Nein"
-Inst8Quest9_HORDE_Folgequest = "Ja, Siegel des Aufstiegs"
+--Quest9 Horde (das selbe wie allianz quest 9)
+Inst8Quest9_HORDE = Inst8Quest9
+Inst8Quest9_HORDE_Level = Inst8Quest9_Level
+Inst8Quest9_HORDE_Attain = Inst8Quest9_Attain
+Inst8Quest9_HORDE_Aim = Inst8Quest9_Aim
+Inst8Quest9_HORDE_Location = Inst8Quest9_Location
+Inst8Quest9_HORDE_Note = Inst8Quest9_Note
+Inst8Quest9_HORDE_Prequest = Inst8Quest9_Prequest
+Inst8Quest9_HORDE_Folgequest = Inst8Quest9_Folgequest
+-- Keine Belohnung
 
 --Quest10 Horde
 Inst8Quest10_HORDE = "10. Befehl des Kriegsherrn"
-Inst8Quest10_HORDE_Attain = "55"
 Inst8Quest10_HORDE_Level = "60"
-Inst8Quest10_HORDE_Aim = "Tötet Hochlord Omokk, Kriegsmeister Voone und Oberanführer Wyrmthalak. Findet die wichtigen Schwarzfelsdokumente. Kehrt zum Kriegsherrn Goretooth nach Kargath zurück, sobald Ihr diese Mission erledigt habt."
-Inst8Quest10_HORDE_Location = "Kriegsherr Goretooth (Ödland - Kargath; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest10_HORDE_Note = "Qnyxia PreQuest!\nHochlord Omokk findet man bei "..YELLOW.."[3]"..WHITE..", Kriegsmeister Voone bei "..YELLOW.."[5]"..WHITE.." und Oberanführer Wyrmthalak bei "..YELLOW.."[11]"..WHITE..". Die Dokumente können bei einem der 3 Bossen liegen."
+Inst8Quest10_HORDE_Attain = "55"
+Inst8Quest10_HORDE_Aim = "Tötet Hochlord Omokk, Kriegsmeister Voone und Oberanführer Wyrmthalak. Findet die wichtigen Schwarzfelsdokumente. Kehrt zum Kriegsherrn Bluthauer nach Kargath zurück, sobald Ihr diese Mission erledigt habt."
+Inst8Quest10_HORDE_Location = "Kriegsherr Bluthauer (Ödland - Kargath; "..YELLOW.."65,22"..WHITE..")"
+Inst8Quest10_HORDE_Note = "Qnyxia Prequest.\nHochlord Omokk findet man bei "..YELLOW.."[5]"..WHITE..", Kriegsmeister Voone bei "..YELLOW.."[9]"..WHITE.." und Oberanführer Wyrmthalak bei "..YELLOW.."[19]"..WHITE..". Die Schwarzfelsdokumente können bei einem der drei Bosse liegen."
 Inst8Quest10_HORDE_Prequest = "Nein"
-Inst8Quest10_HORDE_Folgequest = "Ja, Eitriggs Weisheit -> Für die Horde!(UBRS)"
+Inst8Quest10_HORDE_Folgequest = "Ja, Eitriggs Weisheit -> Für die Horde!("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
 --
-Inst8Quest10name1_HORDE = "Wyrmthalak's Shackles"
-Inst8Quest10name2_HORDE = "Omokk's Girth Restrainer"
-Inst8Quest10name3_HORDE = "Halycon's Muzzle"
-Inst8Quest10name4_HORDE = "Vosh'gajin's Strand"
-Inst8Quest10name5_HORDE = "Voone's Vice Grips"
+Inst8Quest10name1_HORDE = "Wyrmthalaks Fesseln"
+Inst8Quest10name2_HORDE = "Omokks Umfangbändiger"
+Inst8Quest10name3_HORDE = "Halycons Maulkorb"
+Inst8Quest10name4_HORDE = "Vosh'gajins Strang"
+Inst8Quest10name5_HORDE = "Voones Zwingenhandschutz"
+
+--Quest 11 Horde (das selbe wie allianz quest 11)
+Inst8Quest11_HORDE = Inst8Quest11
+Inst8Quest11_HORDE_Level = Inst8Quest11_Level
+Inst8Quest11_HORDE_Attain = Inst8Quest11_Attain
+Inst8Quest11_HORDE_Aim = Inst8Quest11_Aim
+Inst8Quest11_HORDE_Location = Inst8Quest11_Location
+Inst8Quest11_HORDE_Note = Inst8Quest11_Note
+Inst8Quest11_HORDE_Prequest = Inst8Quest11_Prequest
+Inst8Quest11_HORDE_Folgequest = Inst8Quest11_Folgequest
+Inst8Quest11PreQuest_HORDE = Inst8Quest11PreQuest
+-- Keine Belohnung
+
+--Quest 12 Horde (das selbe wie allianz quest 12)
+Inst8Quest12_HORDE = Inst8Quest12
+Inst8Quest12_HORDE_Level = Inst8Quest12_Level
+Inst8Quest12_HORDE_Attain = Inst8Quest12_Attain
+Inst8Quest12_HORDE_Aim = Inst8Quest12_Aim
+Inst8Quest12_HORDE_Location = Inst8Quest12_Location
+Inst8Quest12_HORDE_Note = Inst8Quest12_Note
+Inst8Quest12_HORDE_Prequest = Inst8Quest12_Prequest
+Inst8Quest12_HORDE_Folgequest = Inst8Quest12_Folgequest
+Inst8Quest12PreQuest_HORDE = Inst8Quest12PreQuest
+-- Keine Belohnung
+
+--Quest 13 Horde (das selbe wie allianz quest 13)
+Inst8Quest13_HORDE = Inst8Quest13
+Inst8Quest13_HORDE_Level = Inst8Quest13_Level
+Inst8Quest13_HORDE_Attain = Inst8Quest13_Attain
+Inst8Quest13_HORDE_Aim = Inst8Quest13_Aim
+Inst8Quest13_HORDE_Location = Inst8Quest13_Location
+Inst8Quest13_HORDE_Note = Inst8Quest13_Note
+Inst8Quest13_HORDE_Prequest = Inst8Quest13_Prequest
+Inst8Quest13_HORDE_Folgequest = Inst8Quest13_Folgequest
+--
+Inst8Quest13name1_HORDE = Inst8Quest13name1
+
+--Quest 14 Horde (das selbe wie allianz quest 14)
+Inst8Quest14_HORDE = Inst8Quest14
+Inst8Quest14_HORDE_Level = Inst8Quest14_Level
+Inst8Quest14_HORDE_Attain = Inst8Quest14_Attain
+Inst8Quest14_HORDE_Aim = Inst8Quest14_Aim
+Inst8Quest14_HORDE_Location = Inst8Quest14_Location
+Inst8Quest14_HORDE_Note = Inst8Quest14_Note
+Inst8Quest14_HORDE_Prequest = Inst8Quest14_Prequest
+Inst8Quest14_HORDE_Folgequest = Inst8Quest14_Folgequest
+--
+Inst8Quest14name1_HORDE = Inst8Quest14name1
+Inst8Quest14name2_HORDE = Inst8Quest14name2
 
 
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
 
-Inst9Story = "Die mächtige Festung, die aus der feurigen Flanke des Schwarzfels herausgeschnitten wurde, geht auf Entwürfe des zwergischen Meistersteinmetzes Franclorn Forgewright zurück. Jahrhunderte lang war die Zitadelle ein Symbol der Macht des Düstereisenklans, das von den Zwergen mit äußerstem Ingrimm verteidigt wurde. Allerdings gab es jemanden, der andere Pläne für die Zitadelle hatte: Nefarian, der listige Sohn des Drachen Deathwing, stieg eines Tages mit Flamme und Klaue auf den oberen Teil der Zitadelle hinab und trug zusammen mit seinen drachischen Untergebenen den Kampf bis zu den Stellungen der Zwerge tief unten, bei den vulkanischen Abgründen unter dem Berg. Dort erkannte der Drache, dass der Anführer der Zwerge kein geringerer als der Feuerfürst Ragnaros höchstpersönlich war. Nachdem sein Vordringen gestoppt worden war, schwor sich Nefarian, seine Feinde endgültig zu vernichten und somit die Herrschaft über den Schwarzfels an sich zu reißen."
-Inst9Caption = "Die Zitadelle des Schwarzfelss"
+Inst9Story = "Die mächtige Festung, die aus der feurigen Flanke des Schwarzfels herausgeschnitten wurde, geht auf Entwürfe des zwergischen Meistersteinmetzes Franclorn Schmiedevater zurück. Jahrhunderte lang war die Zitadelle ein Symbol der Macht des Dunkeleisenklans, das von den Zwergen mit äußerstem Ingrimm verteidigt wurde. Allerdings gab es jemanden, der andere Pläne für die Zitadelle hatte: Nefarian, der listige Sohn des Drachen Deathwing, stieg eines Tages mit Flamme und Klaue auf den oberen Teil der Zitadelle hinab und trug zusammen mit seinen drachischen Untergebenen den Kampf bis zu den Stellungen der Zwerge tief unten, bei den vulkanischen Abgründen unter dem Berg. Dort erkannte der Drache, dass der Anführer der Zwerge kein geringerer als der Feuerfürst Ragnaros höchstpersönlich war. Nachdem sein Vordringen gestoppt worden war, schwor sich Nefarian, seine Feinde endgültig zu vernichten und somit die Herrschaft über den Schwarzfels an sich zu reißen."
+Inst9Caption = "Schwarzfelsspitze (Oben)"
+Inst9QAA = "11 Quests"
+Inst9QAH = "12 Quests"
 
 --Quest1 Allianz
 Inst9Quest1 = "1. Die oberste Beschützerin"
@@ -4416,11 +4521,11 @@ end
 -- 2  = Wailing Caverns (WC)
 -- 3  = Ragefire Chasm (RFC)
 -- 4  = Uldaman (ULD)
--- 5  = Schwarzfels Depths (BRD)
+-- 5  = Blackrock Depths (BRD)
 -- 6  = Blackwing Lair (BWL)
 -- 7  = Blackfathom Deeps (BFD)
--- 8  = Lower Schwarzfels Spire (LBRS)
--- 9  = Upper Schwarzfels Spire (UBRS)
+-- 8  = Lower Blackrock Spire (LBRS)
+-- 9  = Upper Blackrock Spire (UBRS)
 -- 10 = Dire Maul East (DM)
 -- 11 = Dire Maul North (DM)
 -- 12 = Dire Maul West (DM)
@@ -4443,7 +4548,7 @@ end
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Kazzak
+-- 32 = Highlord Kruul
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
@@ -4475,3 +4580,5 @@ end
 -- 61 = TK: The Eye
 -- 62 = Black Temple (BT)
 -- 63 = Zul'Aman (ZA)
+-- 64 = Doom Lord Kazzak
+-- 65 = Doomwalker
