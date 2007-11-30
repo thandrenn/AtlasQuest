@@ -1894,203 +1894,292 @@ Inst9QAH = "12 Quests"
 
 --Quest1 Allianz
 Inst9Quest1 = "1. Die oberste Beschützerin"
-Inst9Quest1_Attain = "57"
 Inst9Quest1_Level = "60"
-Inst9Quest1_Aim = "Begebt Euch nach Winterspring und sucht Haleh. Gebt ihr Awbees Schuppe."
-Inst9Quest1_Location = "Awbee (Schwarzfelsspitze"..YELLOW.."[6]"..WHITE..")"
-Inst9Quest1_Note = "Awbee findet man gleich hinter der Arena"..YELLOW.."[6]"..WHITE..". Sie steht auf einem Felvorsprung.\nHaleh findet man in Winterspring("..YELLOW.."54,51"..WHITE.."). Man gelangt zu ihr, indem man sich am Ende der Höhle auf den Portalkreis stellt."
+Inst9Quest1_Attain = "57"
+Inst9Quest1_Aim = "Begebt Euch nach Winterquell und sucht Haleh. Gebt ihr Awbees Schuppe."
+Inst9Quest1_Location = "Awbee (Schwarzfelsspitze; "..YELLOW.."[7]"..WHITE..")"
+Inst9Quest1_Note = "Awbee findet man in dem Raum gleich hinter der Arena bei "..YELLOW.."[7]"..WHITE..". Sie steht auf einem Felvorsprung.\nHaleh findet man in Winterquell ("..YELLOW.."54,51"..WHITE.."). Man gelangt zu ihr, indem man sich am Ende der Höhle auf den Portalkreis stellt."
 Inst9Quest1_Prequest = "Nein"
 Inst9Quest1_Folgequest = "Ja, Der Zorn des blauen Drachenschwarms"
+-- Keine Belohnung
 
 --Quest2 Allianz
 Inst9Quest2 = "2. Finkle Einhorn, zu Euren Diensten!"
-Inst9Quest2_Attain = "?"
 Inst9Quest2_Level = "60"
-Inst9Quest2_Aim = "Sprecht mit Malyfous Darkhammer in Everlook."
-Inst9Quest2_Location = "Finkle Einhorn (Schwarzfelsspitze"..YELLOW.."[7]"..WHITE..")"
-Inst9Quest2_Note = "Finkle Einhorn spawnt manchmal, wenn man die Bestie tötet.\Malyfous findet man in Winterspring(Everlook; "..YELLOW.."61,38"..WHITE..")."
+Inst9Quest2_Attain = "58"
+Inst9Quest2_Aim = "Sprecht mit Malyfous Düsterhammer in der Ewigen Warte."
+Inst9Quest2_Location = "Finkle Einhorn (Schwarzfelsspitze; "..YELLOW.."[8]"..WHITE..")"
+Inst9Quest2_Note = "Finkle Einhorn spawnt manchmal, wenn man die Bestie häutet. Malyfous findet man in (Winterquell - Ewige Warte; "..YELLOW.."61,38"..WHITE..")."
 Inst9Quest2_Prequest = "Nein"
 Inst9Quest2_Folgequest = "Ja, Gamaschen von Arcana, Kappe des scharlachroten Wissenden, Brustplatte des Blutdurstes"
+-- Keine Belohnung
 
 --Quest3 Allianz
 Inst9Quest3 = "3. Ei-Frosten"
-Inst9Quest3_Attain = "?"
 Inst9Quest3_Level = "60"
+Inst9Quest3_Attain = "57"
 Inst9Quest3_Aim = "Benutzt den Prototyp des Eiszilloskops an einem Ei im Horst."
-Inst9Quest3_Location = "Tinkee Steamboil (Brennende Steppe; "..YELLOW.."65,24"..WHITE..")"
-Inst9Quest3_Note = "Questreihe! Man findet die Eier im Raum von Vater Flamme("..YELLOW.."[2]"..WHITE..")."
-Inst9Quest3_Prequest = "Ja, Brutlingessenz -> Tinkee Steamboil"
-Inst9Quest3_Folgequest = "Ja, Leonid Barthalomew -> Dämmerungstrickfalle(Scholo)"
+Inst9Quest3_Location = "Tinkee Kesseldampf (Brennende Steppe - Flammenkamm; "..YELLOW.."65,24"..WHITE..")"
+Inst9Quest3_Note = "Man findet die Eier im Raum von Vater Flamme bei "..YELLOW.."[2]"..WHITE.."."
+Inst9Quest3_Prequest = "Ja, Brutlingessenz -> Tinkee Kesseldampf"
+Inst9Quest3_Folgequest = "Ja, Leonidas Bartholomäus -> Dämmerungstrickfalle ("..YELLOW.."Scholomance"..WHITE..")"
 Inst9Quest3PreQuest = "true"
+-- Keine Belohnung
 
 --Quest4 Allianz
 Inst9Quest4 = "4. Auge des Glutsehers"
-Inst9Quest4_Attain = "60"
 Inst9Quest4_Level = "60"
+Inst9Quest4_Attain = "55"
 Inst9Quest4_Aim = "Bringt das Auge des Glutsehers zu Fürst Hydraxis in Azshara."
 Inst9Quest4_Location = "Fürst Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
-Inst9Quest4_Note = "Das Auge bekommt man vom Glutseher bei "..YELLOW.."[1]"..WHITE.."."
+Inst9Quest4_Note = "Das Auge bekommt man von Feuerwache Glutseher bei "..YELLOW.."[1]"..WHITE.."."
 Inst9Quest4_Prequest = "Ja, Vergiftetes Wasser"
 Inst9Quest4_Folgequest = "Ja, Der geschmolzene Kern"
 Inst9Quest4PreQuest = "true"
+-- Keine Belohnung
 
 --Quest5 Allianz
 Inst9Quest5 = "5. General Drakkisaths Niedergang"
-Inst9Quest5_Attain = "55"
 Inst9Quest5_Level = "60"
-Inst9Quest5_Aim = "Begebt Euch zur Schwarzfelsspitze und schaltet General Drakkisath aus. Kehrt zu Marshal Maxwell zurück, wenn Eure Aufgabe erledigt ist."
-Inst9Quest5_Location = "Marshal Maxwell (Brennende Steppe; "..YELLOW.."82,68"..WHITE..")"
-Inst9Quest5_Note = "General Drakkisath findet man bei "..YELLOW.."[8]"..WHITE.."."
-Inst9Quest5_Prequest = "Ja, General Drakkisaths Befehl(LBRS)"
+Inst9Quest5_Attain = "55"
+Inst9Quest5_Aim = "Begebt Euch zur Schwarzfelsspitze und schaltet General Drakkisath aus. Kehrt zu Marschall Maxwell zurück, wenn Eure Aufgabe erledigt ist."
+Inst9Quest5_Location = "Marschall Maxwell (Brennende Steppe - Morgans Wacht; "..YELLOW.."82,68"..WHITE..")"
+Inst9Quest5_Note = "General Drakkisath findet man bei "..YELLOW.."[9]"..WHITE.."."
+Inst9Quest5_Prequest = "Ja, General Drakkisaths Befehl ("..YELLOW.."Untere Schwarzfelsspitze"..WHITE..")"
 Inst9Quest5_Folgequest = "Nein"
 Inst9Quest5PreQuest = "true"
 --
-Inst9Quest5name1 = "Mark of Tyranny"
-Inst9Quest5name2 = "Eye of the Beast"
-Inst9Quest5name3 = "Blackhand's Breadth"
+Inst9Quest5name1 = "Mal der Tyrannei"
+Inst9Quest5name2 = "Auge der Bestie"
+Inst9Quest5name3 = "Schwarzfausts Breite"
 
 --Quest6 Allianz
 Inst9Quest6 = "6. Doomriggers Schnalle"
-Inst9Quest6_Attain = "57"
 Inst9Quest6_Level = "60"
-Inst9Quest6_Aim = "Bringt Mayara Brightwing in der brennenden Steppe Doomriggers Schnalle."
-Inst9Quest6_Location = "Mayara Brightwing (Brennende Steppe; "..YELLOW.."84,69"..WHITE..")"
-Inst9Quest6_Note = "Die Vorquest bekommt man von Graf Remington Ridgewell (Sturmwind; "..YELLOW.."74,30"..WHITE..").\nMan findet die Schnalle im Raum von Vater Flamme "..YELLOW.."[2]"..WHITE..". Die Belohnungen bekommt man, wenn man zu Remington zurückkehrt."
-Inst9Quest6_Prequest = "Ja, Mayara Brightwing"
-Inst9Quest6_Folgequest = "Ja, Lieferung an Ridgewell"
+Inst9Quest6_Attain = "57"
+Inst9Quest6_Aim = "Bringt Mayara Wolkenglanz in der brennenden Steppe Doomriggers Schnalle."
+Inst9Quest6_Location = "Mayara Wolkenglanz (Brennende Steppe - Morgans Wacht; "..YELLOW.."84,69"..WHITE..")"
+Inst9Quest6_Note = "Das Vorquest bekommt man von Graf Remington Kronenbrunn (Sturmwind - Burg Sturmwind; "..YELLOW.."74,30"..WHITE..").\n\nDie Schnalle befindet sich bei "..YELLOW.."[3]"..WHITE.." in einer Truhe."
+Inst9Quest6_Prequest = "Ja, Mayara Wolkenglanz"
+Inst9Quest6_Folgequest = "Ja, Lieferung an Kronenbrunn"
 Inst9Quest6PreQuest = "true"
 --
-Inst9Quest6name1 = "Swiftfoot Treads"
-Inst9Quest6name2 = "Blinkstrike Armguards"
+Inst9Quest6name1 = "Treter des flinken Fußes"
+Inst9Quest6name2 = "Armschützer des flinken Schlags"
 
 --Quest7 Allianz
 Inst9Quest7 = "7. Drachenfeueramulett"
-Inst9Quest7_Attain = "53"
 Inst9Quest7_Level = "60"
-Inst9Quest7_Aim = "Ihr müsst das Blut des schwarzen Großdrachen-Helden von General Drakkisath bekommen. Ihr findet Drakkisath in seinem Thronsaal hinter den Hallen des Aufstiegs auf der Schwarzfelsspitze."
-Inst9Quest7_Location = "Haleh (Winterspring; "..YELLOW.."54,51"..WHITE..")"
-Inst9Quest7_Note = "Letzter Teil der Onyxia-Questreihe für die Allianz.\nGeneral Drakkisath findet man bei "..YELLOW.."[8]"..WHITE.."."
+Inst9Quest7_Attain = "52"
+Inst9Quest7_Aim = "Ihr müsst das Blut des schwarzen Drachenhelden von General Drakkisath bekommen. Ihr findet Drakkisath in seinem Thronsaal hinter den Hallen des Aufstiegs auf der Schwarzfelsspitze."
+Inst9Quest7_Location = "Haleh (Winterquell; "..YELLOW.."54,51"..WHITE..")"
+Inst9Quest7_Note = "Letzter Teil der Onyxia Questreihe für die Allianz. General Drakkisath findet man bei "..YELLOW.."[9]"..WHITE.."."
 Inst9Quest7_Prequest = "Ja, Das Großdrachenauge"
 Inst9Quest7_Folgequest = "Nein"
 Inst9Quest7PreQuest = "true"
 --
-Inst9Quest7name1 = "Drakefire Amulet"
+Inst9Quest7name1 = "Drachenfeueramulett"
 
 --Quest8 Alliance
-Inst9Quest8 = "8. Blackhands Befehl"
-Inst9Quest8_Attain = "60"
+Inst9Quest8 = "8. Schwarzfausts Befehl"
 Inst9Quest8_Level = "60"
+Inst9Quest8_Attain = "55"
 Inst9Quest8_Aim = "Dem Brief zufolge, wird das Brandzeichen von General Drakkisath bewacht. Vielleicht solltet Ihr diesem Hinweis nachgehen."
-Inst9Quest8_Location = "Blackhands Befehl (Drop von Rüstmeister der Schmetterschilde; "..YELLOW.."Schwarzfels"..WHITE..")"
-Inst9Quest8_Note = "BWL Prequest!\nDen Rüstmeister findet, wenn man vor dem Eingang von LBRS/UBRS rechts abbiegt.\nGeneral Drakkisath findet man bei "..YELLOW.."[8]"..WHITE..". Das Brandzeichen befindet sich genau hinter ihm."
+Inst9Quest8_Location = "Schwarzfausts Befehl (droppt vom Rüstmeister der Schmetterschilde; "..YELLOW.."[7] auf der Eingangskarte"..WHITE..")"
+Inst9Quest8_Note = "Pechschwingenhort Vorquest. Den Rüstmeister der Schmetterschilde findet man, wenn man vor dem Eingang von LBRS/UBRS rechts den Gang entlang geht.\n\nGeneral Drakkisath findet man bei "..YELLOW.."[9]"..WHITE..". Das Brandzeichen befindet sich genau hinter ihm."
 Inst9Quest8_Prequest = "Nein"
 Inst9Quest8_Folgequest = "Nein"
+-- Keine Belohnung
+
+--Quest 9 Alliance
+Inst9Quest9 = "9. Letzte Vorbereitungen"
+Inst9Quest9_Level = "60"
+Inst9Quest9_Attain = "60"
+Inst9Quest9_Aim = "Bringt Bodley im Schwarzfels 40 Schwarzfelsarmschienen und ein Fläschchen der obersten Macht."
+Inst9Quest9_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst9Quest9_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'. Schwarzfelsarmschienen droppen von Gegnern mit 'Schwarzfaust' im Namen. Fläschchen der obersten Macht wird von einem Alchemisten hergestellt."
+Inst9Quest9_Prequest = "Ja, Das rechte Stück von Lord Valthalaks Amulett ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
+Inst9Quest9_Folgequest = "Ja, Mea Culpa, Lord Valthalak"
+Inst9Quest9PreQuest = "true"
+-- Keine Belohnung
+
+--Quest 10 Alliance
+Inst9Quest10 = "10. Mea Culpa, Lord Valthalak"
+Inst9Quest10_Level = "60"
+Inst9Quest10_Attain = "60"
+Inst9Quest10_Aim = "Benutzt das Räuchergefäß der Beschwörung, um Lord Valthalak zu beschwören. Macht ihn unschädlich und benutzt dann Lord Valthalaks Amulett bei seiner Leiche. Danach werdet Ihr dem Geist von Lord Valthalak sein Amulett zurückgeben müssen."
+Inst9Quest10_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst9Quest10_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'. Lord Valthalak kann bei "..YELLOW.."[8]"..WHITE.." beschwört werden. Die Belohnungen sind für 'Rückkehr zu Bodley'."
+Inst9Quest10_Prequest = "Ja, Letzte Vorbereitungen"
+Inst9Quest10_Folgequest = "Ja, Rückkehr zu Bodley"
+Inst9Quest10FQuest = "true"
+--
+Inst9Quest10name1 = "Räuchergefäß der Anrufung"
+Inst9Quest10name2 = "Handbuch: Räuchergefäß der Anrufung"
+
+--Quest 11 Alliance
+Inst9Quest11 = "11. Die Dämonenschmiede"
+Inst9Quest11_Level = "60"
+Inst9Quest11_Attain = "58"
+Inst9Quest11_Aim = "Begebt Euch zur Schwarzfelsspitze und sucht Goraluk Hammerbruch. Erschlagt ihn und wendet dann die blutbefleckte Pike auf seine Leiche an. Nachdem seine Seele abgesaugt wurde, wird die Pike seelenbefleckt sein. Ihr müsst außerdem die ungeschmiedete runenbedeckte Brustplatte finden. Bringt die seelenbefleckte Pike und die ungeschmiedete runenbedeckte Brustplate zu Lorax in Winterquell."
+Inst9Quest11_Location = "Lorax (Winterquell; "..YELLOW.."64,74"..WHITE..")"
+Inst9Quest11_Note = "Schmiedekunst Quest. Goraluk Hammerbruch befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst9Quest11_Prequest = "Nein"
+Inst9Quest11_Folgequest = "Nein"
+--
+Inst9Quest11name1 = "Pläne: Dämonengeschmiedete Brustplatte"
+Inst9Quest11name2 = "Elixier des Dämonentötens"
+Inst9Quest11name3 = "Dämonengeküsster Sack"
 
 
---Quest1 Horde
-Inst9Quest1_HORDE = "1. Die oberste Beschützerin"
-Inst9Quest1_HORDE_Attain = "57"
-Inst9Quest1_HORDE_Level = "60"
-Inst9Quest1_HORDE_Aim = "Begebt Euch nach Winterspring und sucht Haleh. Gebt ihr Awbees Schuppe."
-Inst9Quest1_HORDE_Location = "Awbee (Schwarzfelsspitze"..YELLOW..""..WHITE..")"
-Inst9Quest1_HORDE_Note = "Awbee findet man gleich hinter der Arena"..YELLOW.."[6]"..WHITE..". Sie steht auf einem Felvorsprung.\nHaleh findet man in Winterspring("..YELLOW.."54,51"..WHITE.."). Man gelangt zu ihr, indem man sich am Ende der Höhle auf den Portalkreis stellt."
-Inst9Quest1_HORDE_Prequest = "Nein"
-Inst9Quest1_HORDE_Folgequest = "Ja, Der Zorn des blauen Drachenschwarms"
+--Quest1 Horde (das selbe wie allianz quest 1)
+Inst9Quest1_HORDE = Inst9Quest1
+Inst9Quest1_HORDE_Level = Inst9Quest1_Level
+Inst9Quest1_HORDE_Attain = Inst9Quest1_Attain
+Inst9Quest1_HORDE_Aim = Inst9Quest1_Aim
+Inst9Quest1_HORDE_Location = Inst9Quest1_Location
+Inst9Quest1_HORDE_Note = Inst9Quest1_Note
+Inst9Quest1_HORDE_Prequest = Inst9Quest1_Prequest
+Inst9Quest1_HORDE_Folgequest = Inst9Quest1_Folgequest
+-- Keine Belohnung
 
---Quest2 Horde
-Inst9Quest2_HORDE = "2. Finkle Einhorn, zu Euren Diensten!"
-Inst9Quest2_HORDE_Attain = "?"
-Inst9Quest2_HORDE_Level = "60"
-Inst9Quest2_HORDE_Aim = "Sprecht mit Malyfous Darkhammer in Everlook."
-Inst9Quest2_HORDE_Location = "Finkle Einhorn (Schwarzfelsspitze"..YELLOW.."[7]"..WHITE..")"
-Inst9Quest2_HORDE_Note = "Finkle Einhorn spawnt manchmal, wenn man die Bestie tötet.\Malyfous findet man in Winterspring(Everlook; "..YELLOW.."61,38"..WHITE..")."
-Inst9Quest2_HORDE_Prequest = "Nein"
-Inst9Quest2_HORDE_Folgequest = "Ja, Gamaschen von Arcana, Kappe des scharlachroten Wissenden, 	Brustplatte des Blutdurstes"
+--Quest2 Horde (das selbe wie allianz quest 2)
+Inst9Quest2_HORDE = Inst9Quest2
+Inst9Quest2_HORDE_Level = Inst9Quest2_Level
+Inst9Quest2_HORDE_Attain = Inst9Quest2_Attain
+Inst9Quest2_HORDE_Aim = Inst9Quest2_Aim
+Inst9Quest2_HORDE_Location = Inst9Quest2_Location
+Inst9Quest2_HORDE_Note = Inst9Quest2_Note
+Inst9Quest2_HORDE_Prequest = Inst9Quest2_Prequest
+Inst9Quest2_HORDE_Folgequest = Inst9Quest2_Folgequest
+-- Keine Belohnung
 
---Quest3 Horde
-Inst9Quest3_HORDE = "3. Ei-Frosten"
-Inst9Quest3_HORDE_Attain = "?"
-Inst9Quest3_HORDE_Level = "60"
-Inst9Quest3_HORDE_Aim = "Benutzt den Prototyp des Eiszilloskops an einem Ei im Horst."
-Inst9Quest3_HORDE_Location = "Tinkee Steamboil (Brennende Steppe; "..YELLOW.."65,24"..WHITE..")"
-Inst9Quest3_HORDE_Note = "Questreihe! Man findet die Eier im Raum von Vater Flamme("..YELLOW.."[2]"..WHITE..")."
-Inst9Quest3_HORDE_Prequest = "Ja, Brutlingessenz -> Tinkee Steamboil"
-Inst9Quest3_HORDE_Folgequest = "Ja, Leonid Barthalomew -> Dämmerungstrickfalle(Scholo)"
-Inst9Quest3PreQuest_HORDE = "true"
+--Quest3 Horde (das selbe wie allianz quest 3)
+Inst9Quest3_HORDE = Inst9Quest3
+Inst9Quest3_HORDE_Level = Inst9Quest3_Level
+Inst9Quest3_HORDE_Attain = Inst9Quest3_Attain
+Inst9Quest3_HORDE_Aim = Inst9Quest3_Aim
+Inst9Quest3_HORDE_Location = Inst9Quest3_Location
+Inst9Quest3_HORDE_Note = Inst9Quest3_Note
+Inst9Quest3_HORDE_Prequest = Inst9Quest3_Prequest
+Inst9Quest3_HORDE_Folgequest = Inst9Quest3_Folgequest
+Inst9Quest3PreQuest_HORDE = Inst9Quest3PreQuest
+-- Keine Belohnung
 
---Quest4 Horde
-Inst9Quest4_HORDE = "4. Auge des Glutsehers"
-Inst9Quest4_HORDE_Attain = "60"
-Inst9Quest4_HORDE_Level = "60"
-Inst9Quest4_HORDE_Aim = "Bringt das Auge des Glutsehers zu Fürst Hydraxis in Azshara."
-Inst9Quest4_HORDE_Location = "Fürst Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
-Inst9Quest4_HORDE_Note = "Das Auge bekommt man vom Glutseher bei "..YELLOW.."[1]"..WHITE.."."
-Inst9Quest4_HORDE_Prequest = "Ja, Vergiftetes Wasser"
-Inst9Quest4_HORDE_Folgequest = "Ja, Der geschmolzene Kern"
-Inst9Quest4PreQuest_HORDE = "true"
+--Quest4 Horde (das selbe wie allianz quest 4)
+Inst9Quest4_HORDE = Inst9Quest4
+Inst9Quest4_HORDE_Level = Inst9Quest4_Level
+Inst9Quest4_HORDE_Attain = Inst9Quest4_Attain
+Inst9Quest4_HORDE_Aim = Inst9Quest4_Aim
+Inst9Quest4_HORDE_Location = Inst9Quest4_Location
+Inst9Quest4_HORDE_Note = Inst9Quest4_Note
+Inst9Quest4_HORDE_Prequest = Inst9Quest4_Prequest
+Inst9Quest4_HORDE_Folgequest = Inst9Quest4_Folgequest
+Inst9Quest4PreQuest_HORDE = Inst9Quest4PreQuest
+-- Keine Belohnung
 
 --Quest5 Horde
 Inst9Quest5_HORDE = "5. Die Dunkelsteinschrifttafel"
-Inst9Quest5_HORDE_Attain = "57"
 Inst9Quest5_HORDE_Level = "60"
+Inst9Quest5_HORDE_Attain = "57"
 Inst9Quest5_HORDE_Aim = "Bringt der Schattenmagierin Vivian Lagrave in Kargath die Dunkelsteinschrifttafel."
-Inst9Quest5_HORDE_Location = "Vivian Lagrave (Ödland - Kargath; "..YELLOW.."02,47"..WHITE..")"
-Inst9Quest5_HORDE_Note = "Die Vorquest bekommt man von Apothekerin Zinge ind Unterstadt ("..YELLOW.."50,68"..WHITE..").\nDie Schrifttafel findet man im Raum von Vater Flamme("..YELLOW.."[2]"..WHITE..")."
+Inst9Quest5_HORDE_Location = "Vivian Lagrave (Ödland - Kargath; "..YELLOW.."2,47"..WHITE..")"
+Inst9Quest5_HORDE_Note = "Das Vorquest bekommt man von Apothekerin Zinge in Unterstadt - Das Apothekarium ("..YELLOW.."50,68"..WHITE..").\nDie Dunkelsteinschrifttafel findet man bei "..YELLOW.."[3]"..WHITE.." in einer Truhe."
 Inst9Quest5_HORDE_Prequest = "Ja, Vivian Lagrave und die Dunkelsteinschrifttafel"
 Inst9Quest5_HORDE_Folgequest = "Nein"
 Inst9Quest5PreQuest_HORDE = "true"
 --
-Inst9Quest5name1_HORDE = "Swiftfoot Treads"
-Inst9Quest5name2_HORDE = "Blinkstrike Armguards"
+Inst9Quest5name1_HORDE = "Treter des flinken Fußes"
+Inst9Quest5name2_HORDE = "Armschützer des flinken Schlags"
 
 --Quest6 Horde
 Inst9Quest6_HORDE = "6. Für die Horde!"
-Inst9Quest6_HORDE_Attain = "55"
 Inst9Quest6_HORDE_Level = "60"
-Inst9Quest6_HORDE_Aim = "Begebt Euch zur Schwarzfelsspitze und tötet den Kriegshäuptling Rend Blackhand. Nehmt seinen Kopf und kehrt nach Orgrimmar zurück."
+Inst9Quest6_HORDE_Attain = "55"
+Inst9Quest6_HORDE_Aim = "Begebt Euch zur Schwarzfelsspitze und tötet den Kriegshäuptling Rend Schwarzfaust. Nehmt seinen Kopf und kehrt nach Orgrimmar zurück."
 Inst9Quest6_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,38"..WHITE..")"
-Inst9Quest6_HORDE_Note = "Qnyxia Prequest!\nRend Blackhand findet man bei "..YELLOW.."[5]"..WHITE.."."
-Inst9Quest6_HORDE_Prequest = "Ja, Befehl des Kriegsherrn -> Eitriggs Weisheit"
+Inst9Quest6_HORDE_Note = "Qnyxia Vorquest. Kriegshäuptling Rend Schwarzfaust findet man bei "..YELLOW.."[6]"..WHITE.."."
+Inst9Quest6_HORDE_Prequest = "Ja, Befehl des Kriegsherrn -> Etriggs Weisheit"
 Inst9Quest6_HORDE_Folgequest = "Ja, Der Champion der Horde"
 Inst9Quest6PreQuest_HORDE = "true"
 --
-Inst9Quest6name1_HORDE = "Mark of Tyranny"
-Inst9Quest6name2_HORDE = "Eye of the Beast"
-Inst9Quest6name3_HORDE = "Blackhand's Breadth"
+Inst9Quest6name1_HORDE = "Mal der Tyrannei"
+Inst9Quest6name2_HORDE = "Auge der Bestie"
+Inst9Quest6name3_HORDE = "Schwarzfausts Breite"
 
 --Quest7 Horde
 Inst9Quest7_HORDE = "7. Oculus-Illusionen"
-Inst9Quest7_HORDE_Attain = "56"
 Inst9Quest7_HORDE_Level = "60"
+Inst9Quest7_HORDE_Attain = "57"
 Inst9Quest7_HORDE_Aim = "Reist zur Schwarzfelsspitze und sammelt 20 schwarze Drachenbrutaugen. Kehrt zu Myranda der Vettel zurück, sobald Ihr die Aufgabe erfüllt habt."
 Inst9Quest7_HORDE_Location = "Myranda die Vettel (Westliche Pestländer; "..YELLOW.."50,77"..WHITE..")"
 Inst9Quest7_HORDE_Note = "Alle Drachen droppen die Augen."
 Inst9Quest7_HORDE_Prequest = "Ja, Der Champion der Horde -> Nachricht von Rexxar"
 Inst9Quest7_HORDE_Folgequest = "Ja, Aschenschwinge"
 Inst9Quest7FQuest_HORDE = "true"
+-- Keine Belohnung
 
 --Quest8 Horde
-Inst9Quest8_HORDE = "8. Blut des schwarzen Großdrachen-Helden"
-Inst9Quest8_HORDE_Attain = "56"
+Inst9Quest8_HORDE = "8. Blut des schwarzen Großdrachenhelden"
 Inst9Quest8_HORDE_Level = "60"
-Inst9Quest8_HORDE_Aim = "Begebt Euch zur Schwarzfelsspitze und tötet General Drakkisath. Sammelt sein Blut und bringt es zu Rexxar."
-Inst9Quest8_HORDE_Location = "Rexxar (Feralas - Desolace - Steinkrallengebirge; "..YELLOW..""..WHITE..")"
-Inst9Quest8_HORDE_Note = "Letzter Teil der Onyxiaprequest Reihe\nMan findet General Drakkisath bei "..YELLOW.."[8]"..WHITE.."."
+Inst9Quest8_HORDE_Attain = "56"
+Inst9Quest8_HORDE_Aim = "Begebt Euch zur Schwarzfelsspitze und tötet General Drakkisath. Sammelt sein Blut und bringt es zu Rokaro."
+Inst9Quest8_HORDE_Location = "Rokaro (Desolace - Schattenflucht; "..YELLOW.."25,71"..WHITE..")"
+Inst9Quest8_HORDE_Note = "Letzter Teil der Onyxia Vorquestreihe. Man findet General Drakkisath bei "..YELLOW.."[9]"..WHITE.."."
 Inst9Quest8_HORDE_Prequest = "Ja, Aschenschwinge -> Aufstieg..."
 Inst9Quest8_HORDE_Folgequest = "Nein"
 Inst9Quest8FQuest_HORDE = "true"
 --
-Inst9Quest8name1_HORDE = "Drakefire Amulet"
+Inst9Quest8name1_HORDE = "Drachenfeueramulett"
 
---Quest9 Horde
-Inst9Quest9_HORDE = "9. Blackhands Befehl"
-Inst9Quest9_HORDE_Attain = "60"
-Inst9Quest9_HORDE_Level = "60"
-Inst9Quest9_HORDE_Aim = "Dem Brief zufolge, wird das Brandzeichen von General Drakkisath bewacht. Vielleicht solltet Ihr diesem Hinweis nachgehen."
-Inst9Quest9_HORDE_Location = "Blackhands Befehl (Drop von Rüstmeister der Schmetterschilde; "..YELLOW.."Schwarzfels"..WHITE..")"
-Inst9Quest9_HORDE_Note = "BWL Prequest!\nDen Rüstmeister findet, wenn man vor dem Eingang von LBRS/UBRS rechts abbiegt.\nGeneral Drakkisath findet man bei "..YELLOW.."[8]"..WHITE..". Das Brandzeichen befindet sich genau hinter ihm."
-Inst9Quest9_HORDE_Prequest = "Nein"
-Inst9Quest9_HORDE_Folgequest = "Nein"
+--Quest9 Horde (das selbe wie allianz quest 8)
+Inst9Quest9_HORDE = "9. Schwarzfausts Befehl"
+Inst9Quest9_HORDE_Level = Inst9Quest8_Level
+Inst9Quest9_HORDE_Attain = Inst9Quest8_Attain
+Inst9Quest9_HORDE_Aim = Inst9Quest8_Aim
+Inst9Quest9_HORDE_Location = Inst9Quest8_Location
+Inst9Quest9_HORDE_Note = Inst9Quest8_Note
+Inst9Quest9_HORDE_Prequest = Inst9Quest8_Prequest
+Inst9Quest9_HORDE_Folgequest = Inst9Quest8_Folgequest
+-- Keine Belohnung
+
+--Quest 10 Horde (das selbe wie allianz quest 9)
+Inst9Quest10_HORDE = "10. Letzte Vorbereitungen"
+Inst9Quest10_HORDE_Level = Inst9Quest9_Level
+Inst9Quest10_HORDE_Attain = Inst9Quest9_Attain
+Inst9Quest10_HORDE_Aim = Inst9Quest9_Aim
+Inst9Quest10_HORDE_Location = Inst9Quest9_Location
+Inst9Quest10_HORDE_Note = Inst9Quest9_Note
+Inst9Quest10_HORDE_Prequest = Inst9Quest9_Prequest
+Inst9Quest10_HORDE_Folgequest = Inst9Quest9_Folgequest
+-- Keine Belohnung
+
+--Quest 11 Horde (das selbe wie allianz quest 10)
+Inst9Quest11_HORDE = "11. Mea Culpa, Lord Valthalak"
+Inst9Quest11_HORDE_Level = Inst9Quest10_Level
+Inst9Quest11_HORDE_Attain = Inst9Quest10_Attain
+Inst9Quest11_HORDE_Aim = Inst9Quest10_Aim
+Inst9Quest11_HORDE_Location = Inst9Quest10_Location
+Inst9Quest11_HORDE_Note = Inst9Quest10_Note
+Inst9Quest11_HORDE_Prequest = Inst9Quest10_Prequest
+Inst9Quest11_HORDE_Folgequest = Inst9Quest10_Folgequest
+--
+Inst9Quest11name1_HORDE = Inst9Quest10name1
+Inst9Quest11name2_HORDE = Inst9Quest10name2
+
+--Quest 12 Horde (das selbe wie allianz quest 11)
+Inst9Quest12_HORDE = "12. Die Dämonenschmiede"
+Inst9Quest12_HORDE_Level = Inst9Quest11_Level
+Inst9Quest12_HORDE_Attain = Inst9Quest11_Attain
+Inst9Quest12_HORDE_Aim = Inst9Quest11_Aim
+Inst9Quest12_HORDE_Location = Inst9Quest11_Location
+Inst9Quest12_HORDE_Note = Inst9Quest11_Note
+Inst9Quest12_HORDE_Prequest = Inst9Quest11_Prequest
+Inst9Quest12_HORDE_Folgequest = Inst9Quest11_Folgequest
+--
+Inst9Quest12name1_HORDE = Inst9Quest11name1
+Inst9Quest12name2_HORDE = Inst9Quest11name2
+Inst9Quest12name3_HORDE = Inst9Quest11name3
 
 
 --------------- INST10 - Dire Maul East (DM) ---------------
