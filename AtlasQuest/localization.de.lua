@@ -2429,8 +2429,8 @@ Inst11Quest4name4_HORDE = Inst11Quest4name4
 
 Inst12Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen - besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
 Inst12Caption = "Düsterbruch (West)"
-Inst12QAA = "4 Quests"
-Inst12QAH = "4 Quests"
+Inst12QAA = "17 Quests"
+Inst12QAH = "17 Quests"
 
 --Quest1 Allianz
 Inst12Quest1 = "1. Elfische Legenden"
@@ -2478,6 +2478,161 @@ Inst12Quest4_Note = "Das ist das letzte Quest in der Hexenmeister Questreihe fü
 Inst12Quest4_Prequest = "Ja, Wichtellieferung ("..YELLOW.."Scholomance"..WHITE..")"
 Inst12Quest4_Folgequest = "Nein"
 Inst12Quest4PreQuest = "true"
+-- Keine Belohnung
+
+--Quest 5 Allianz
+Inst12Quest5 = "5. Der Smaragdgrüne Traum (Druide)"
+Inst12Quest5_Level = "60"
+Inst12Quest5_Attain = "59"
+Inst12Quest5_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest5_Location = "Der Smaragdgrüne Traum (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest5_Note = "Die Belohnung ist für Druiden. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
+Inst12Quest5_Prequest = "Nein"
+Inst12Quest5_Folgequest = "Nein"
+--
+Inst12Quest5name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 6 Allianz
+Inst12Quest6 = "6. Das größte Volk von Jägern (Jäger)"
+Inst12Quest6_Level = "60"
+Inst12Quest6_Attain = "54"
+Inst12Quest6_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest6_Location = "Das größte Volk von Jägern (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest6_Note = "Die Belohnung ist für Jäger. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
+Inst12Quest6_Prequest = "Nein"
+Inst12Quest6_Folgequest = "Nein"
+--
+Inst12Quest6name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 7 Allianz
+Inst12Quest7 = "7. Das Arkanistenkochbuch (Magier)"
+Inst12Quest7_Level = "60"
+Inst12Quest7_Attain = "54"
+Inst12Quest7_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest7_Location = "Das Arkanistenkochbuch (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest7_Note = "Die Belohnung ist für Magier. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
+Inst12Quest7_Prequest = "Nein"
+Inst12Quest7_Folgequest = "Nein"
+--
+Inst12Quest7name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 8 Allianz
+Inst12Quest8 = "8. Vom Licht und wie man es schwingt (Paladin)"
+Inst12Quest8_Level = "60"
+Inst12Quest8_Attain = "54"
+Inst12Quest8_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest8_Location = "Vom Licht und wie man es schwingt (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest8_Note = "Die Belohnung ist für Paladine. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
+Inst12Quest8_Prequest = "Nein"
+Inst12Quest8_Folgequest = "Nein"
+--
+Inst12Quest8name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 9 Allianz
+Inst12Quest9 = "9. Heiliger Fleischklops: Was das Licht Dir nicht erzählt (Priester)"
+Inst12Quest9_Level = "60"
+Inst12Quest9_Attain = "56"
+Inst12Quest9_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest9_Location = "Heiliger Fleischklops: Was das Licht Dir nicht erzählt (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest9_Note = "Die Belohnung ist für Priester. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
+Inst12Quest9_Prequest = "Nein"
+Inst12Quest9_Folgequest = "Nein"
+--
+Inst12Quest9name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 10 Allianz
+Inst12Quest10 = "10. Garona: Eine Studie über Heimlichkeit und Verrat (Schurke)"
+Inst12Quest10_Level = "60"
+Inst12Quest10_Attain = "54"
+Inst12Quest10_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest10_Location = "Garona: Eine Studie über Heimlichkeit und Verrat (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest10_Note = "Die Belohnung ist für Schurken. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
+Inst12Quest10_Prequest = "Nein"
+Inst12Quest10_Folgequest = "Nein"
+--
+Inst12Quest10name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 11 Allianz
+Inst12Quest11 = "11. Frostschock und Du (Schamane)"
+Inst12Quest11_Level = "60"
+Inst12Quest11_Attain = "59"
+Inst12Quest11_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest11_Location = "Frostschock und Du (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest11_Note = "Die Belohnung ist für Schamanen. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
+Inst12Quest11_Prequest = "Nein"
+Inst12Quest11_Folgequest = "Nein"
+--
+Inst12Quest11name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 12 Allianz
+Inst12Quest12 = "12. Schatten einspannen (Hexenmeister)"
+Inst12Quest12_Level = "60"
+Inst12Quest12_Attain = "54"
+Inst12Quest12_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest12_Location = "Schatten einspannen (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest12_Note = "Die Belohnung ist für Hexenmeister. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
+Inst12Quest12_Prequest = "Nein"
+Inst12Quest12_Folgequest = "Nein"
+--
+Inst12Quest12name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 13 Allianz
+Inst12Quest13 = "13. Kodex der Verteidigung (Krieger)"
+Inst12Quest13_Level = "60"
+Inst12Quest13_Attain = "57"
+Inst12Quest13_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest13_Location = "Kodex der Verteidigung (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest13_Note = "Die Belohnung ist für Krieger. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
+Inst12Quest13_Prequest = "Nein"
+Inst12Quest13_Folgequest = "Nein"
+--
+Inst12Quest13name1 = "Königliches Siegel von Eldre'Thalas"
+
+--Quest 14 Allianz
+Inst12Quest14 = "14. Buchband des Fokus"
+Inst12Quest14_Level = "60"
+Inst12Quest14_Attain = "60"
+Inst12Quest14_Aim = "Bringt ein Buchband des Fokus, 1 makellosen schwarzen Diamanten, 4 große glänzende Splitter und 2 mal Schattenhaut, zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum des Fokus zu erhalten."
+Inst12Quest14_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
+Inst12Quest14_Note = "Es ist nicht das Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor dieses Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Schattenhaut wird beim Aufheben gebunden und kann von einigen Bossen, Auferstandenen Konstrukten und Auferstandenen Knochenwärtern in "..YELLOW.."Scholomance"..WHITE.." droppen."
+Inst12Quest14_Prequest = "Nein"
+Inst12Quest14_Folgequest = "Nein"
+--
+Inst12Quest14name1 = "Arkanum des Fokus"
+
+--Quest 15 Allianz
+Inst12Quest15 = "15. Buchband des Schutzes"
+Inst12Quest15_Level = "60"
+Inst12Quest15_Attain = "60"
+Inst12Quest15_Aim = "Bringt ein Buchband des Schutzes, 1 makellosen schwarzen Diamanten, 2 große glänzende Splitter und 1 ausgefranste Monstrositätenstickerei zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum des Schutzes zu erhalten."
+Inst12Quest15_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
+Inst12Quest15_Note = "Es ist nicht das Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor dieses Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Ausgefranste Monstrositätenstickerei wird beim Aufheben gebunden und kann von Ramstein dem Verschlinger, Giftrülpsern, Gallspuckern und Flickwerkschrecken in "..YELLOW.."Stratholme"..WHITE.." droppen."
+Inst12Quest15_Prequest = "No"
+Inst12Quest15_Folgequest = "No"
+--
+Inst12Quest15name1 = "Arkanum des Schutzes"
+
+--Quest 16 Allianz
+Inst12Quest16 = "16. Buchband der Schnelligkeit"
+Inst12Quest16_Level = "60"
+Inst12Quest16_Attain = "60"
+Inst12Quest16_Aim = "Bringt ein Buchband der Schnelligkeit, 1 makellosen schwarzen Diamanten, 2 große glänzende Splitter und 2 mal das Blut von Helden, zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum der Schnelligkeit zu erhalten."
+Inst12Quest16_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
+Inst12Quest16_Note = "Es ist nicht das Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor dieses Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Blut von Helden wird beim Aufheben gebunden und kann an verschiedenen Plätzen in den Westlichen und Östlichen Pestländern auf dem Boden gefunden werden."
+Inst12Quest16_Prequest = "Nein"
+Inst12Quest16_Folgequest = "Nein"
+--
+Inst12Quest16name1 = "Arkanum der Schnelligkeit"
+
+--Quest 17 Allianz
+Inst12Quest17 = "17. Forors Kompendium (Krieger, Paladin)"
+Inst12Quest17_Level = "60"
+Inst12Quest17_Attain = "60"
+Inst12Quest17_Aim = "Bringt Forors Kompendium des Drachentötens zurück in das Athenaeum."
+Inst12Quest17_Location = "Forors Kompendium des Drachentötens (zufälliger Boss Dropp in "..YELLOW.."Düsterbruch"..WHITE..")"
+Inst12Quest17_Note = "Krieger oder Paladin Quest. Man gibt das Buch bei Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..") ab. Wenn das Quest abgeschlossen ist kann man mit dem Quest für Quel'Serrar beginnen."
+Inst12Quest17_Prequest = "Nein"
+Inst12Quest17_Folgequest = "Ja, Das Schmieden von Quel'Serrar"
 -- Keine Belohnung
 
 
@@ -2530,21 +2685,176 @@ Inst12Quest4_HORDE_Folgequest = Inst12Quest4_Folgequest
 Inst12Quest4PreQuest_HORDE = "true"
 -- Keine Belohnung
 
+--Quest 5 Horde (das selbe wie allianz quest 5)
+Inst12Quest5_HORDE = Inst12Quest5
+Inst12Quest5_HORDE_Level = Inst12Quest5_Level
+Inst12Quest5_HORDE_Attain = Inst12Quest5_Attain
+Inst12Quest5_HORDE_Aim = Inst12Quest5_Aim
+Inst12Quest5_HORDE_Location = Inst12Quest5_Location
+Inst12Quest5_HORDE_Note = Inst12Quest5_Note
+Inst12Quest5_HORDE_Prequest = Inst12Quest5_Prequest
+Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
+--
+Inst12Quest5name1_HORDE = Inst12Quest5name1
+
+--Quest 6 Horde (das selbe wie allianz quest 6)
+Inst12Quest6_HORDE = Inst12Quest6
+Inst12Quest6_HORDE_Level = Inst12Quest6_Level
+Inst12Quest6_HORDE_Attain = Inst12Quest6_Attain
+Inst12Quest6_HORDE_Aim = Inst12Quest6_Aim
+Inst12Quest6_HORDE_Location = Inst12Quest6_Location
+Inst12Quest6_HORDE_Note = Inst12Quest6_Note
+Inst12Quest6_HORDE_Prequest = Inst12Quest6_Prequest
+Inst12Quest6_HORDE_Folgequest = Inst12Quest6_Folgequest
+--
+Inst12Quest6name1_HORDE = Inst12Quest6name1
+
+--Quest 7 Horde (das selbe wie allianz quest 7)
+Inst12Quest7_HORDE = Inst12Quest7
+Inst12Quest7_HORDE_Level = Inst12Quest7_Level
+Inst12Quest7_HORDE_Attain = Inst12Quest7_Attain
+Inst12Quest7_HORDE_Aim = Inst12Quest7_Aim
+Inst12Quest7_HORDE_Location = Inst12Quest7_Location
+Inst12Quest7_HORDE_Note = Inst12Quest7_Note
+Inst12Quest7_HORDE_Prequest = Inst12Quest7_Prequest
+Inst12Quest7_HORDE_Folgequest = Inst12Quest7_Folgequest
+--
+Inst12Quest7name1_HORDE = Inst12Quest7name1
+
+--Quest 8 Horde (das selbe wie allianz quest 8)
+Inst12Quest8_HORDE = Inst12Quest8
+Inst12Quest8_HORDE_Level = Inst12Quest8_Level
+Inst12Quest8_HORDE_Attain = Inst12Quest8_Attain
+Inst12Quest8_HORDE_Aim = Inst12Quest8_Aim
+Inst12Quest8_HORDE_Location = Inst12Quest8_Location
+Inst12Quest8_HORDE_Note = Inst12Quest8_Note
+Inst12Quest8_HORDE_Prequest = Inst12Quest8_Prequest
+Inst12Quest8_HORDE_Folgequest = Inst12Quest8_Folgequest
+--
+Inst12Quest8name1_HORDE = Inst12Quest8name1
+
+--Quest 9 Horde (das selbe wie allianz quest 9)
+Inst12Quest9_HORDE = Inst12Quest9
+Inst12Quest9_HORDE_Level = Inst12Quest9_Level
+Inst12Quest9_HORDE_Attain = Inst12Quest9_Attain
+Inst12Quest9_HORDE_Aim = Inst12Quest9_Aim
+Inst12Quest9_HORDE_Location = Inst12Quest9_Location
+Inst12Quest9_HORDE_Note = Inst12Quest9_Note
+Inst12Quest9_HORDE_Prequest = Inst12Quest9_Prequest
+Inst12Quest9_HORDE_Folgequest = Inst12Quest9_Folgequest
+--
+Inst12Quest9name1_HORDE = Inst12Quest9name1
+
+--Quest 10 Horde (das selbe wie allianz quest 10)
+Inst12Quest10_HORDE = Inst12Quest10
+Inst12Quest10_HORDE_Level = Inst12Quest10_Level
+Inst12Quest10_HORDE_Attain = Inst12Quest10_Attain
+Inst12Quest10_HORDE_Aim = Inst12Quest10_Aim
+Inst12Quest10_HORDE_Location = Inst12Quest10_Location
+Inst12Quest10_HORDE_Note = Inst12Quest10_Note
+Inst12Quest10_HORDE_Prequest = Inst12Quest10_Prequest
+Inst12Quest10_HORDE_Folgequest = Inst12Quest10_Folgequest
+--
+Inst12Quest10name1_HORDE = Inst12Quest10name1
+
+--Quest 11 Horde (das selbe wie allianz quest 11)
+Inst12Quest11_HORDE = Inst12Quest11
+Inst12Quest11_HORDE_Level = Inst12Quest11_Level
+Inst12Quest11_HORDE_Attain = Inst12Quest11_Attain
+Inst12Quest11_HORDE_Aim = Inst12Quest11_Aim
+Inst12Quest11_HORDE_Location = Inst12Quest11_Location
+Inst12Quest11_HORDE_Note = Inst12Quest11_Note
+Inst12Quest11_HORDE_Prequest = Inst12Quest11_Prequest
+Inst12Quest11_HORDE_Folgequest = Inst12Quest11_Folgequest
+--
+Inst12Quest11name1_HORDE = Inst12Quest11name1
+
+--Quest 12 Horde (das selbe wie allianz quest 12)
+Inst12Quest12_HORDE = Inst12Quest12
+Inst12Quest12_HORDE_Level = Inst12Quest12_Level
+Inst12Quest12_HORDE_Attain = Inst12Quest12_Attain
+Inst12Quest12_HORDE_Aim = Inst12Quest12_Aim
+Inst12Quest12_HORDE_Location = Inst12Quest12_Location
+Inst12Quest12_HORDE_Note = Inst12Quest12_Note
+Inst12Quest12_HORDE_Prequest = Inst12Quest12_Prequest
+Inst12Quest12_HORDE_Folgequest = Inst12Quest12_Folgequest
+--
+Inst12Quest12name1_HORDE = Inst12Quest12name1
+
+--Quest 13 Horde (das selbe wie allianz quest 13)
+Inst12Quest13_HORDE = Inst12Quest13
+Inst12Quest13_HORDE_Level = Inst12Quest13_Level
+Inst12Quest13_HORDE_Attain = Inst12Quest13_Attain
+Inst12Quest13_HORDE_Aim = Inst12Quest13_Aim
+Inst12Quest13_HORDE_Location = Inst12Quest13_Location
+Inst12Quest13_HORDE_Note = Inst12Quest13_Note
+Inst12Quest13_HORDE_Prequest = Inst12Quest13_Prequest
+Inst12Quest13_HORDE_Folgequest = Inst12Quest13_Folgequest
+--
+Inst12Quest13name1_HORDE = Inst12Quest13name1
+
+--Quest 14 Horde (das selbe wie allianz quest 14)
+Inst12Quest14_HORDE = Inst12Quest14
+Inst12Quest14_HORDE_Level = Inst12Quest14_Level
+Inst12Quest14_HORDE_Attain = Inst12Quest14_Attain
+Inst12Quest14_HORDE_Aim = Inst12Quest14_Aim
+Inst12Quest14_HORDE_Location = Inst12Quest14_Location
+Inst12Quest14_HORDE_Note = Inst12Quest14_Note
+Inst12Quest14_HORDE_Prequest = Inst12Quest14_Prequest
+Inst12Quest14_HORDE_Folgequest = Inst12Quest14_Folgequest
+--
+Inst12Quest14name1_HORDE = Inst12Quest14name1
+
+--Quest 15 Horde (das selbe wie allianz quest 15)
+Inst12Quest15_HORDE = Inst12Quest15
+Inst12Quest15_HORDE_Level = Inst12Quest15_Level
+Inst12Quest15_HORDE_Attain = Inst12Quest15_Attain
+Inst12Quest15_HORDE_Aim = Inst12Quest15_Aim
+Inst12Quest15_HORDE_Location = Inst12Quest15_Location
+Inst12Quest15_HORDE_Note = Inst12Quest15_Note
+Inst12Quest15_HORDE_Prequest = Inst12Quest15_Prequest
+Inst12Quest15_HORDE_Folgequest = Inst12Quest15_Folgequest
+--
+Inst12Quest15name1_HORDE = Inst12Quest15name1
+
+--Quest 16 Horde (das selbe wie allianz quest 16)
+Inst12Quest16_HORDE = Inst12Quest16
+Inst12Quest16_HORDE_Level = Inst12Quest16_Level
+Inst12Quest16_HORDE_Attain = Inst12Quest16_Attain
+Inst12Quest16_HORDE_Aim = Inst12Quest16_Aim
+Inst12Quest16_HORDE_Location = Inst12Quest16_Location
+Inst12Quest16_HORDE_Note = Inst12Quest16_Note
+Inst12Quest16_HORDE_Prequest = Inst12Quest16_Prequest
+Inst12Quest16_HORDE_Folgequest = Inst12Quest16_Folgequest
+--
+Inst12Quest16name1_HORDE = Inst12Quest16name1
+
+--Quest 17 Horde (das selbe wie allianz quest 17)
+Inst12Quest17_HORDE = Inst12Quest17
+Inst12Quest17_HORDE_Level = Inst12Quest17_Level
+Inst12Quest17_HORDE_Attain = Inst12Quest17_Attain
+Inst12Quest17_HORDE_Aim = Inst12Quest17_Aim
+Inst12Quest17_HORDE_Location = Inst12Quest17_Location
+Inst12Quest17_HORDE_Note = Inst12Quest17_Note
+Inst12Quest17_HORDE_Prequest = Inst12Quest17_Prequest
+Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
+-- Keine Belohnung
+
 
 --------------- INST13 - Maraudon (Mara) ---------------
 
-Inst13Story = "Maraudon, eine der heiligsten Stätten in Desolace, wird von den wilden Maraudinezentauren beschützt. Der große Tempel ist die letzte Ruhestätte von Zaetar, einem der zwei unsterblichen Söhne des Halbgottes Cenarius. Die Legende besagt, dass Zaetar zusammen mit Theradras, der Prinzessin der Erdelementare, das missgestaltete Volk der Zentauren in die Welt setzte. Man sagt, dass die barbarischen Zentauren, als sie sich ihrer abscheulichen Gestalt gewahr wurden, sich von wildem Zorn beseelt auf ihren Vater stürzten und ihn ermordeten. Einige glauben, dass Theradras in ihrer Trauer den Geist von Zaetar in den gewundenen Höhlen von Maraudon einfing und seine Energien für einen bösartigen Zweck missbrauchte. Die Tunnels des Heligtums sind nun das Zuhause der finsteren Geister längst verstorbener Zentauren und Theradras eigener elementarer Diener."
+Inst13Story = "Maraudon, eine der heiligsten Stätten in Desolace, wird von den wilden Maraudinezentauren beschützt. Der große Tempel ist die letzte Ruhestätte von Zaetar, einem der zwei unsterblichen Söhne des Halbgottes Cenarius. Die Legende besagt, dass Zaetar zusammen mit Theradras, der Prinzessin der Erdelementare, das missgestaltete Volk der Zentauren in die Welt setzte. Man sagt, dass die barbarischen Zentauren, als sie sich ihrer abscheulichen Gestalt gewahr wurden, sich von wildem Zorn beseelt auf ihren Vater stürzten und ihn ermordeten. Einige glauben, dass Theradras in ihrer Trauer den Geist von Zaetar in den gewundenen Höhlen von Maraudon einfing und seine Energien für einen bösartigen Zweck missbrauchte. Die Tunnel des Heligtums sind nun das Zuhause der finsteren Geister längst verstorbener Zentauren und Theradras eigener elementarer Diener."
 Inst13Caption = "Maraudon"
 Inst13QAA = "8 Quests"
 Inst13QAH = "8 Quests"
 
 --Quest1 Allianz
 Inst13Quest1 = "1. Schattensplitter"
-Inst13Quest1_Attain = "?"
 Inst13Quest1_Level = "42"
-Inst13Quest1_Aim = "Sammelt 10 Schattensplitter in Maraudon und bringt sie zu Erzmagier Tervosh in den Marschen von Dustwallow."
-Inst13Quest1_Location = "Erzmagier Tervosh (Marschen von Dustwallow; "..YELLOW.."66,49"..WHITE..")"
-Inst13Quest1_Note = "Die Schattensplitter bekommt man von 'Schattensteinrumpler'n oder 'Schattensteinzerkracher'n."
+Inst13Quest1_Attain = "39"
+Inst13Quest1_Aim = "Sammelt 10 Schattensplitter in Maraudon und bringt sie zu Erzmagier Tervosh in den Düstermarschen."
+Inst13Quest1_Location = "Erzmagier Tervosh (Düstermarschen - Insel Theramore; "..YELLOW.."66,49"..WHITE..")"
+Inst13Quest1_Note = "Die Schattensplitter bekommt man von 'Schattensteinrumplern' oder 'Schattensteinzerkracher' außerhalb der Instanz auf der lila Seite."
 Inst13Quest1_Prequest = "Nein"
 Inst13Quest1_Folgequest = "Nein"
 --
@@ -2553,11 +2863,11 @@ Inst13Quest1name2 = "Vorwarnender Schattensplitteranhänger"
 
 --Quest2 Allianz
 Inst13Quest2 = "2. Schlangenzunges Verderbnis"
-Inst13Quest2_Attain = "41"
 Inst13Quest2_Level = "47"
-Inst13Quest2_Aim = "Füllt die beschichtete himmelblaue Phiole am orangefarbenen Kristallteich in Maraudon.\nBenutzt die gefüllte himmelblaue Phiole mit den Schlangenstrunkranken, damit der verderbte Noxxious-Spross herausgezwungen wird.\nHeilt 8 Pflanzen, indem Ihr diesen Noxxious-Spross tötet und kehrt dann zu Talendria an der Nijelspitze zurück."
+Inst13Quest2_Attain = "41"
+Inst13Quest2_Aim = "Füllt die beschichtete himmelblaue Phiole am orangefarbenen Kristallteich in Maraudon.\nBenutzt die gefüllte himmelblaue Phiole mit den Schlangenstrunkranken, damit der verderbte Noxxiousspross herausgezwungen wird.\nHeilt 8 Pflanzen, indem Ihr diesen Noxxiousspross tötet und kehrt dann zu Talendria an der Nijelspitze zurück."
 Inst13Quest2_Location = "Talendria (Desolace - Nijelspitze; "..YELLOW.."68,8"..WHITE..")"
-Inst13Quest2_Note = "Bei allen Teiche im orangenen Bereich der Instanz kann die Phiole gefüllt werden. Die Pflanzen findet man im orangenen und lilanen Bereich."
+Inst13Quest2_Note = "Die Phiole kann bei allen Teichen im orangen Bereich außerhalb der Instanz aufgefüllt werden. Die Pflanzen findet man im orangen und lila Bereich in der Instanz."
 Inst13Quest2_Prequest = "Nein"
 Inst13Quest2_Folgequest = "Nein"
 --
@@ -2567,11 +2877,11 @@ Inst13Quest2name3 = "Astkrallenstulpen"
 
 --Quest3 Allianz
 Inst13Quest3 = "3. Dunkles Böses"
-Inst13Quest3_Attain = "41"
 Inst13Quest3_Level = "47"
-Inst13Quest3_Aim = "Sammelt 25 theradrische Kristallschnitzereien für Willow in Desolace."
-Inst13Quest3_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
-Inst13Quest3_Note = "Die meisten gegner in Maraudon können die Schnitzereien droppen.(Die dropprate ist relativ hoch)."
+Inst13Quest3_Attain = "41"
+Inst13Quest3_Aim = "Sammelt 15 theradrische Kristallschnitzereien für Trista in Desolace."
+Inst13Quest3_Location = "Trista (Desolace; "..YELLOW.."62,39"..WHITE..")"
+Inst13Quest3_Note = "Die meisten Gegner in Maraudon können die Schnitzereien droppen."
 Inst13Quest3_Prequest = "Nein"
 Inst13Quest3_Folgequest = "Nein"
 --
@@ -2582,83 +2892,75 @@ Inst13Quest3name4 = "Schulterstücke des Steinkolosses"
 
 --Quest4 Allianz
 Inst13Quest4 = "4. Die Anweisungen des Pariahs"
-Inst13Quest4_Attain = "?"
 Inst13Quest4_Level = "48"
+Inst13Quest4_Attain = "39"
 Inst13Quest4_Aim = "Lest die Anweisungen des Pariahs. Beschafft Euch danach das Amulett der Vereinigung von Maraudon und bringt es dem Zentaurenpariah im südlichen Desolace."
 Inst13Quest4_Location = "Zentaurenpariah (Desolace; "..YELLOW.."45,86"..WHITE..")"
-Inst13Quest4_Note = "Für die Beschreibung des Quests siehe 'Die 5 Kahns (Beschreibung zu Die Anweisungen des Pariahs)'"
+Inst13Quest4_Note = "Die 5 Khans (Beschreibung zu Die Anweisungen des Pariahs)"
+Inst13Quest4_Page = {2, "Der Zentaurenpariah wandert im Süden von Desolace zwischen "..YELLOW.."44,85"..WHITE.." und "..YELLOW.."50,87"..WHITE.." umher.\nZuerst muss man den 'Namenlosen Propheten' töten ("..YELLOW.."[A] auf der Eingangskarte"..WHITE.."). Er befindet sich vor der Instanz vor der Abzweigung zwischen lilanem und orangem Eingang. Danach muss man die 5 Khans töten. Den ersten findet man, wenn man dem mittleren Gang bei der Abzweigung folgt ("..YELLOW.."[1] auf der Eingangskarte"..WHITE.."). Der zweite Khan ist im lilanen Abschnitt vor der Instanz ("..YELLOW.."[2] auf der Eingangskarte"..WHITE.."). Der dritte Khan ist im orangenen Abschnitt vor der Instanz ("..YELLOW.."[3] auf der Eingangskarte"..WHITE.."). Der vierte Khan ist nahe bei "..YELLOW.."[4]"..WHITE.." und der fünfte ist nahe bei "..YELLOW.."[1]"..WHITE..".", };
 Inst13Quest4_Prequest = "Nein"
 Inst13Quest4_Folgequest = "Nein"
 --
 Inst13Quest4name1 = "Mal der Auserwählten"
 
-Inst13Quest5 = "Die 5 Kahns (Beschreibung zu Die Anweisungen des Pariahs)"
-Inst13Quest5TEXT = "Der Zentaurenpariah wandert im Süden von Desolcae(Mannorocs Koven) zwischen 44,85 und 50,87  hin und her.\nZuerst muss man den 'Namenlosen Propheten' töten. Er befindet sich vor der Instanz vor der Abzweigung. Danach muss man 5 Kahns töten. Den ersten findet man wenn man dem mittleren Gang bei der Abzweigung folgt. Der zweite Kahn ist im lilanen Abschnitt vor der Instanz. Der dritte ist im orangenen Abschnitt vor der Instanz(vom Instanz tor aus rechts oder der längere Weg zum Instanztor). Der vierten ist bei "..YELLOW..""..YELLOW.."[4]"..WHITE..""..WHITE.." und der fünfte bei "..YELLOW..""..YELLOW.."[1]"..WHITE..""..WHITE.."."
-Inst13Quest5TEXT_AlphaMap = "Der Zentaurenpariah wandert im Süden von Desolcae(Mannorocs Koven) zwischen 44,85 und 50,87  hin und her.\nZuerst muss man den 'Namenlosen Prophet' töten. Er befindet sich vor der Instanz vor der Abzweigung. Danach muss man 5 Kahns töten. Den ersten findet man bei "..YELLOW.."[1]"..WHITE.."(der Karte die den Instanzeingang zeigt). Der zweite Kahn ist bei "..YELLOW.."[2]"..WHITE.."(der Karte die den Instanzeingang zeigt). Der dritte ist bei "..YELLOW.."[3]"..WHITE.."(der Karte die den Instanzeingang zeigt). Der vierten ist bei "..YELLOW.."[4]"..WHITE.." und der fünfte bei "..YELLOW.."[1]"..WHITE.."."
-Inst13Quest5_Level = "100"
-Inst13Quest5_Attain = ""
-Inst13Quest5_Aim = ""
-Inst13Quest5_Location = ""
-Inst13Quest5_Note = ""
-Inst13Quest5_Prequest = ""
-Inst13Quest5_Folgequest = ""
---
-Inst13Quest5name1 = "Mal der Auserwählten"
+--Quest5 Allianz
+Inst13Quest5 = "5. Legenden von Maraudon"
+Inst13Quest5_Level = "49"
+Inst13Quest5_Attain = "41"
+Inst13Quest5_Aim = "Beschafft die beiden Teile des Szepters von Celebras: den Celebriangriff und den Celebriandiamanten.\nFindet einen Weg, um mit Celebras zu sprechen."
+Inst13Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] auf der Eingangskarte"..WHITE..")"
+Inst13Quest5_Note = "Cavindra findet man am Anfang des orangenen Abschnitts vor der Instanz.\nDen Celebriangriff bekommt man von Noxxion bei "..YELLOW.."[2]"..WHITE..", den Celebriandiamanten von Lord Schlangenzunge bei "..YELLOW.."[5]"..WHITE..". Celebras ist bei "..YELLOW.."[7]"..WHITE..". Man muss ihn besiegen um mit ihm sprechen zu können."
+Inst13Quest5_Prequest = "Nein"
+Inst13Quest5_Folgequest = "Ja, Das Szepter von Celebras"
+-- Keine Belohnung
 
---Quest6 Allianz
-Inst13Quest6 = "5. Legenden von Maraudon"
-Inst13Quest6_Attain = "?"
+--Quest 6 Allianz
+Inst13Quest6 = "6. Das Szepter von Celebras"
 Inst13Quest6_Level = "49"
-Inst13Quest6_Aim = "Beschafft die beiden Teile des Szepters von Celebras: den Celebriangriff und den Celebriandiamanten.\nFindet einen Weg, um mit Celebras zu sprechen."
-Inst13Quest6_Location = "Cavindra (Desolace - Maraudon "..YELLOW..""..WHITE..")"
-Inst13Quest6_Note = "Cavindra findet man am Anfang des orangenen Abschnitts vor der Instanz.\nDen Celebriangriff bekommt man von Noxxion bei "..YELLOW.."[2]"..WHITE..", den Celebriandiamanten von Lord Schlangenzunge bei "..YELLOW.."[5]"..WHITE..". Celebras ist bei "..YELLOW.."[7]"..WHITE..". Man muss ihn besiegen um mit ihm sprechen zu können."
-Inst13Quest6_Prequest = "Nein"
-Inst13Quest6_Folgequest = "Ja, Das Szepter von Celebras"
+Inst13Quest6_Attain = "41"
+Inst13Quest6_Aim = "Helft Celebras dem Erlösten, während er das Szepter von Celebras herstellt.\nSprecht mit ihm, nachdem das Ritual vollendet ist."
+Inst13Quest6_Location = "Celebras der Erlöste (Maraudon; "..YELLOW.."[7]"..WHITE..")"
+Inst13Quest6_Note = "Celebras stellt das Szepter her. Sprecht mit ihm wenn er fertig ist."
+Inst13Quest6_Prequest = "Ja, Legenden von Maraudon"
+Inst13Quest6_Folgequest = "Nein"
+Inst13Quest6FQuest = "true"
+--
+Inst13Quest6name1 = "Szepter von Celebras"
 
 --Quest7 Allianz
-Inst13Quest7 = "6. Das Szepter von Celebras"
-Inst13Quest7_Attain = "?"
-Inst13Quest7_Level = "49"
-Inst13Quest7_Aim = "Helft Celebras dem Erlösten, während er das Szepter von Celebras herstellt.\nSprecht mit ihm, nachdem das Ritual vollendet ist."
-Inst13Quest7_Location = "Celebras der Erlöste (Maraudon "..YELLOW..""..WHITE..")"
-Inst13Quest7_Note = "Celebras stellt das Szepter her. Sprecht mit ihm wenn er fertig ist."
-Inst13Quest7_Prequest = "Ja, Legenden von Maraudon"
-Inst13Quest7_Folgequest = "Nein"
+Inst13Quest7 = "7. Verderbnis von Erde und Samenkorn"
+Inst13Quest7_Level = "51"
+Inst13Quest7_Attain = "45"
+Inst13Quest7_Aim = "Erschlagt Prinzessin Theradras und kehrt zum Bewahrer Marandis an der Nijelspitze in Desolace zurück."
+Inst13Quest7_Location = "Bewahrer Marandis (Desolace - Nijelspitze; "..YELLOW.."63,10"..WHITE..")"
+Inst13Quest7_Note = "Prinzessin Theradras findet man bei "..YELLOW.."[11]"..WHITE.."."
+Inst13Quest7_Prequest = "Nein"
+Inst13Quest7_Folgequest = "Ja, Samenkorn des Lebens"
 --
-Inst13Quest7name1 = "Szepter von Celebras"
-
---Quest7 Allianz
-Inst13Quest8 = "7. Verderbnis von Erde und Samenkorn"
-Inst13Quest8_Attain = "?"
-Inst13Quest8_Level = "51"
-Inst13Quest8_Aim = "Erschlagt Prinzessin Theradras und kehrt zum Bewahrer Marandis an der Nijelspitze in Desolace zurück."
-Inst13Quest8_Location = "Marandis (Desolace; "..YELLOW.."63,10"..WHITE..")"
-Inst13Quest8_Note = "Prinzessin Theradras findet man bei "..YELLOW.."[11]"..WHITE.."."
-Inst13Quest8_Prequest = "Nein"
-Inst13Quest8_Folgequest = "Ja, Samenkorn des Lebens"
---
-Inst13Quest8name1 = "Hauklinge"
-Inst13Quest8name2 = "Rute der Wiederauferstehung"
-Inst13Quest8name3 = "Ziel des tiefgrünen Bewahrers"
+Inst13Quest7name1 = "Hauklinge"
+Inst13Quest7name2 = "Rute der Wiederauferstehung"
+Inst13Quest7name3 = "Ziel des tiefgrünen Bewahrers"
 
 --Quest8 Allianz
-Inst13Quest9 = "8. Samenkorn des Lebens"
-Inst13Quest9_Attain = "?"
-Inst13Quest9_Level = "51"
-Inst13Quest9_Aim = "Sucht Remulos in Moonglade auf und gebt ihm das Samenkorn des Lebens."
-Inst13Quest9_Location = "Zaetars Geist (Maraudon "..YELLOW..""..WHITE..")"
-Inst13Quest9_Note = "Zaetars Geist erscheint sobald die Prinzessin ("..YELLOW.."[11]"..WHITE..") tot ist.\nRemulos findet man in Moonglade "..YELLOW.."(36,41)"..WHITE.."."
-Inst13Quest9_Prequest = "Ja, Verderbnis von Erde und Samenkorn"
-Inst13Quest9_Folgequest = "Nein"
+Inst13Quest8 = "8. Samenkorn des Lebens"
+Inst13Quest8_Level = "51"
+Inst13Quest8_Attain = "39"
+Inst13Quest8_Aim = "Sucht Remulos bei der Mondlichtung auf und gebt ihm das Samenkorn des Lebens."
+Inst13Quest8_Location = "Zaetars Geist (Maraudon; "..YELLOW.."[11]"..WHITE..")"
+Inst13Quest8_Note = "Zaetars Geist erscheint sobald Prinzessin Theradras ("..YELLOW.."[11]"..WHITE..") tot ist.\nBewahrer Remulos findet man in (Mondlichtung - Der Schrein von Remulos; "..YELLOW.."36,41"..WHITE..")."
+Inst13Quest8_Prequest = "Ja, Verderbnis von Erde und Samenkorn"
+Inst13Quest8_Folgequest = "Nein"
+Inst13Quest8FQuest = "true"
+-- Keine Belohnung
 
 
 --Quest1 Horde
 Inst13Quest1_HORDE = "1. Schattensplitter"
-Inst13Quest1_HORDE_Attain = "?"
 Inst13Quest1_HORDE_Level = "42"
+Inst13Quest1_HORDE_Attain = "39"
 Inst13Quest1_HORDE_Aim = "Sammelt 10 Schattensplitter aus Maraudon und bringt sie zu Uthel'nay nach Orgrimmar."
-Inst13Quest1_HORDE_Location = "Uthel'nay (Orgrimmar; "..YELLOW.."38,68"..WHITE..")"
-Inst13Quest1_HORDE_Note = "Die Schattensplitter bekommt man von 'Schattensteinrumpler'n oder 'Schattensteinzerkracher'n."
+Inst13Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Das Tal der Geister; "..YELLOW.."38,68"..WHITE..")"
+Inst13Quest1_HORDE_Note = "Die Schattensplitter bekommt man von 'Schattensteinrumplern' oder 'Schattensteinzerkracher' außerhalb der Instanz auf der lila Seite."
 Inst13Quest1_HORDE_Prequest = "Nein"
 Inst13Quest1_HORDE_Folgequest = "Nein"
 --
@@ -2667,11 +2969,11 @@ Inst13Quest1name2_HORDE = "Vorwarnender Schattensplitteranhänger"
 
 --Quest2 Horde
 Inst13Quest2_HORDE = "2. Schlangenzunges Verderbnis"
-Inst13Quest2_HORDE_Attain = "41"
 Inst13Quest2_HORDE_Level = "47"
-Inst13Quest2_HORDE_Aim = "Füllt die beschichtete himmelblaue Phiole am orangefarbenen Kristallteich in Maraudon.\nBenutzt die gefüllte himmelblaue Phiole mit den Schlangenstrunkranken, damit der verderbte Noxxious-Spross herausgezwungen wird.\nHeilt 8 Pflanzen, indem Ihr diesen Noxxious-Spross tötet und kehrt dann zu Vark Battlescar in Shadowprey zurück."
-Inst13Quest2_HORDE_Location = "Vark Battlescar (Desolace - Shadowprey; "..YELLOW.."23,70"..WHITE..")"
-Inst13Quest2_HORDE_Note = "Bei allen Teiche im orangenen Bereich der Instanz kann die Phiole gefüllt werden. Die Pflanzen findet man im orangenen und lilanen Bereich."
+Inst13Quest2_HORDE_Attain = "41"
+Inst13Quest2_HORDE_Aim = "Füllt die beschichtete himmelblaue Phiole am orangefarbenen Kristallteich in Maraudon.\nBenutzt die gefüllte himmelblaue Phiole mit den Schlangenstrunkranken, damit der verderbte Noxxiousspross herausgezwungen wird.\nHeilt 8 Pflanzen, indem Ihr diesen Noxxiousspross tötet und kehrt dann zu Vark Schlachtnarbe in Schattenflucht zurück."
+Inst13Quest2_HORDE_Location = "Vark Schlachtnarbe (Desolace - Schattenflucht; "..YELLOW.."23,70"..WHITE..")"
+Inst13Quest2_HORDE_Note = "Die Phiole kann bei allen Teichen im orangen Bereich außerhalb der Instanz aufgefüllt werden. Die Pflanzen findet man im orangen und lila Bereich in der Instanz."
 Inst13Quest2_HORDE_Prequest = "Nein"
 Inst13Quest2_HORDE_Folgequest = "Nein"
 --
@@ -2679,90 +2981,83 @@ Inst13Quest2name1_HORDE = "Ring der Waldsaat"
 Inst13Quest2name2_HORDE = "Weisenblattgurt"
 Inst13Quest2name3_HORDE = "Astkrallenstulpen"
 
---Quest3 Horde
-Inst13Quest3_HORDE = "3. Dunkles Böses"
-Inst13Quest3_HORDE_Attain = "41"
-Inst13Quest3_HORDE_Level = "47"
-Inst13Quest3_HORDE_Aim = "Sammelt 25 theradrische Kristallschnitzereien für Willow in Desolace."
-Inst13Quest3_HORDE_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
-Inst13Quest3_HORDE_Note = "Die meisten gegner in Maraudon können die Schnitzereien droppen.(Die dropprate ist relativ hoch)."
-Inst13Quest3_HORDE_Prequest = "Nein"
-Inst13Quest3_HORDE_Folgequest = "Nein"
+--Quest3 Horde (das selbe wie allianz quest 3)
+Inst13Quest3_HORDE = Inst13Quest3
+Inst13Quest3_HORDE_Level = Inst13Quest3_Level
+Inst13Quest3_HORDE_Attain = Inst13Quest3_Attain
+Inst13Quest3_HORDE_Aim = Inst13Quest3_Aim
+Inst13Quest3_HORDE_Location = Inst13Quest3_Location
+Inst13Quest3_HORDE_Note = Inst13Quest3_Note
+Inst13Quest3_HORDE_Prequest = Inst13Quest3_Prequest
+Inst13Quest3_HORDE_Folgequest = Inst13Quest3_Folgequest
 --
-Inst13Quest3name1_HORDE = "Scharfsinn-Roben"
-Inst13Quest3name2_HORDE = "Rüstringhelm"
-Inst13Quest3name3_HORDE = "Unerbittliche Kette"
-Inst13Quest3name4_HORDE = "Schulterstücke des Steinkolosses"
+Inst13Quest3name1_HORDE = Inst13Quest3name1
+Inst13Quest3name2_HORDE = Inst13Quest3name2
+Inst13Quest3name3_HORDE = Inst13Quest3name3
+Inst13Quest3name4_HORDE = Inst13Quest3name4
 
---Quest4 Horde
-Inst13Quest4_HORDE = "4. Die Anweisungen des Pariahs"
-Inst13Quest4_HORDE_Attain = "?"
-Inst13Quest4_HORDE_Level = "48"
-Inst13Quest4_HORDE_Aim = "Lest die Anweisungen des Pariahs. Beschafft Euch danach das Amulett der Vereinigung von Maraudon und bringt es dem Zentaurenpariah im südlichen Desolace."
-Inst13Quest4_HORDE_Location = "Zentaurenpariah (Desolace; "..YELLOW.."45,86"..WHITE..")"
-Inst13Quest4_HORDE_Note = "Für die Beschreibung des Quests siehe 'Die 5 Kahns (Beschreibung zu Die Anweisungen des Pariahs)'"
-Inst13Quest4_HORDE_Prequest = "Nein"
-Inst13Quest4_HORDE_Folgequest = "Nein"
+--Quest 4 Horde (das selbe wie allianz quest 4)
+Inst13Quest4_HORDE = Inst13Quest4
+Inst13Quest4_HORDE_Level = Inst13Quest4_Level
+Inst13Quest4_HORDE_Attain = Inst13Quest4_Attain
+Inst13Quest4_HORDE_Aim = Inst13Quest4_Aim
+Inst13Quest4_HORDE_Location = Inst13Quest4_Location
+Inst13Quest4_HORDE_Note = Inst13Quest4_Note
+Inst13Quest4_HORDE_Page = Inst13Quest4_Page
+Inst13Quest4_HORDE_Prequest = Inst13Quest4_Prequest
+Inst13Quest4_HORDE_Folgequest = Inst13Quest4_Folgequest
 --
-Inst13Quest4name1_HORDE = "Mal der Auserwählten"
+Inst13Quest4name1_HORDE = Inst13Quest4name1
 
-Inst13Quest5_HORDE = "Die 5 Kahns (Beschreibung zu Die Anweisungen des Pariahs)"
-Inst13Quest5TEXT_HORDE = "Der Zentaurenpariah wandert im Süden von Desolcae(Mannorocs Koven) zwischen 44,85 und 50,87  hin und her.\nZuerst muss man den 'Namenlosen Propheten' töten. Er befindet sich vor der Instanz vor der Abzweigung. Danach muss man 5 Kahns töten. Den ersten findet man wenn man dem mittleren Gang bei der Abzweigung folgt. Der zweite Kahn ist im lilanen Abschnitt vor der Instanz. Der dritte ist im orangenen Abschnitt vor der Instanz(vom Instanz tor aus rechts oder der längere Weg zum Instanztor). Der vierten ist bei "..YELLOW..""..YELLOW.."[4]"..WHITE..""..WHITE.." und der fünfte bei "..YELLOW..""..YELLOW.."[1]"..WHITE..""..WHITE.."."
-Inst13Quest5_HORDE_Level = "100"
-Inst13Quest5_HORDE_Attain = ""
-Inst13Quest5_HORDE_Aim = ""
-Inst13Quest5_HORDE_Location = ""
-Inst13Quest5_HORDE_Note = ""
-Inst13Quest5_HORDE_Prequest = ""
-Inst13Quest5_HORDE_Folgequest = ""
+--Quest5 Horde (das selbe wie allianz quest 5)
+Inst13Quest5_HORDE = Inst13Quest5
+Inst13Quest5_HORDE_Level = Inst13Quest5_Level
+Inst13Quest5_HORDE_Attain = Inst13Quest5_Attain
+Inst13Quest5_HORDE_Aim = Inst13Quest5_Aim
+Inst13Quest5_HORDE_Location = Inst13Quest5_Location
+Inst13Quest5_HORDE_Note = Inst13Quest5_Note
+Inst13Quest5_HORDE_Prequest = Inst13Quest5_Prequest
+Inst13Quest5_HORDE_Folgequest = Inst13Quest5_Folgequest
+-- Keine Belohnung
+
+--Quest6 Horde (das selbe wie allianz quest 6)
+Inst13Quest6_HORDE = Inst13Quest6
+Inst13Quest6_HORDE_Level = Inst13Quest6_Level
+Inst13Quest6_HORDE_Attain = Inst13Quest6_Attain
+Inst13Quest6_HORDE_Aim = Inst13Quest6_Aim
+Inst13Quest6_HORDE_Location = Inst13Quest6_Location
+Inst13Quest6_HORDE_Note = Inst13Quest6_Note
+Inst13Quest6_HORDE_Prequest = Inst13Quest6_Prequest
+Inst13Quest6_HORDE_Folgequest = Inst13Quest6_Folgequest
+Inst13Quest6FQuest_HORDE = Inst13Quest6FQuest
 --
-Inst13Quest5name1_HORDE = "Mal der Auserwählten"
-
---Quest5 Horde
-Inst13Quest6_HORDE = "5. Legenden von Maraudon"
-Inst13Quest6_HORDE_Attain = "?"
-Inst13Quest6_HORDE_Level = "49"
-Inst13Quest6_HORDE_Aim = "Beschafft die beiden Teile des Szepters von Celebras: den Celebriangriff und den Celebriandiamanten.\nFindet einen Weg, um mit Celebras zu sprechen."
-Inst13Quest6_HORDE_Location = "Cavindra (Desolace - Maraudon "..YELLOW..""..WHITE..")"
-Inst13Quest6_HORDE_Note = "Cavindra findet man am Anfang des orangenen Abschnitts vor der Instanz.\nDen Celebriangriff bekommt man von Noxxion bei "..YELLOW.."[2]"..WHITE..", den Celebriandiamanten von Lord Schlangenzunge bei "..YELLOW.."[5]"..WHITE..". Celebras ist bei "..YELLOW.."[7]"..WHITE..". Man muss ihn besiegen um mit ihm sprechen zu können."
-Inst13Quest6_HORDE_Prequest = "Nein"
-Inst13Quest6_HORDE_Folgequest = "Ja, Das Szepter von Celebras"
-
---Quest6 Horde
-Inst13Quest7_HORDE = "6. Das Szepter von Celebras"
-Inst13Quest7_HORDE_Attain = "?"
-Inst13Quest7_HORDE_Level = "49"
-Inst13Quest7_HORDE_Aim = "Helft Celebras dem Erlösten, während er das Szepter von Celebras herstellt.\nSprecht mit ihm, nachdem das Ritual vollendet ist."
-Inst13Quest7_HORDE_Location = "Celebras der Erlöste (Maraudon "..YELLOW..""..WHITE..")"
-Inst13Quest7_HORDE_Note = "Celebras stellt das Szepter her. Sprecht mit ihm, wenn er fertig ist."
-Inst13Quest7_HORDE_Prequest = "Ja, Legenden von Maraudon"
-Inst13Quest7_HORDE_Folgequest = "Nein"
---
-Inst13Quest7name1_HORDE = "Szepter von Celebras"
+Inst13Quest6name1_HORDE = Inst13Quest6name1
 
 --Quest7 Horde
-Inst13Quest8_HORDE = "7. Verderbnis von Erde und Samenkorn"
-Inst13Quest8_HORDE_Attain = "?"
-Inst13Quest8_HORDE_Level = "51"
-Inst13Quest8_HORDE_Aim = "Tötet Prinzessin Theradras und kehrt zu Selendra in der Nähe von Shadowprey in Desolace zurück."
-Inst13Quest8_HORDE_Location = "Selendra (Desolace; "..YELLOW.."26,77"..WHITE..")"
-Inst13Quest8_HORDE_Note = "Prinzessin Theradras findet man bei "..YELLOW.."[11]"..WHITE..""
-Inst13Quest8_HORDE_Prequest = "Nein"
-Inst13Quest8_HORDE_Folgequest = "Ja, Samenkorn des Lebens"
+Inst13Quest7_HORDE = "7. Verderbnis von Erde und Samenkorn"
+Inst13Quest7_HORDE_Level = "51"
+Inst13Quest7_HORDE_Attain = "45"
+Inst13Quest7_HORDE_Aim = "Tötet Prinzessin Theradras und kehrt zu Selendra in der Nähe von Schattenflucht in Desolace zurück."
+Inst13Quest7_HORDE_Location = "Selendra (Desolace; "..YELLOW.."27,77"..WHITE..")"
+Inst13Quest7_HORDE_Note = "Prinzessin Theradras findet man bei "..YELLOW.."[11]"..WHITE..""
+Inst13Quest7_HORDE_Prequest = "Nein"
+Inst13Quest7_HORDE_Folgequest = "Ja, Samenkorn des Lebens"
 --
-Inst13Quest8name1_HORDE = "Hauklinge"
-Inst13Quest8name2_HORDE = "Rute der Wiederauferstehung"
-Inst13Quest8name3_HORDE = "Ziel des tiefgrünen Bewahrers"
+Inst13Quest7name1_HORDE = "Hauklinge"
+Inst13Quest7name2_HORDE = "Rute der Wiederauferstehung"
+Inst13Quest7name3_HORDE = "Ziel des tiefgrünen Bewahrers"
 
---Quest8 Horde
-Inst13Quest9_HORDE = "8. Samenkorn des Lebens"
-Inst13Quest9_HORDE_Attain = "?"
-Inst13Quest9_HORDE_Level = "51"
-Inst13Quest9_HORDE_Aim = "Sucht Remulos in Moonglade auf und gebt ihm das Samenkorn des Lebens."
-Inst13Quest9_HORDE_Location = "Zaetars Geist (Maraudon "..YELLOW..""..WHITE..")"
-Inst13Quest9_HORDE_Note = "Zaetars Geist erscheint sobald die Prinzessin ("..YELLOW.."[11]"..WHITE..") tot ist.\nRemulos findet man in Moonglade "..YELLOW.."(36,41)"..WHITE.."."
-Inst13Quest9_HORDE_Prequest = "Ja, Verderbnis von Erde und Samenkorn"
-Inst13Quest9_HORDE_Folgequest = "Nein"
+--Quest8 Horde (das selbe wie allianz quest 8)
+Inst13Quest8_HORDE = Inst13Quest8
+Inst13Quest8_HORDE_Level = Inst13Quest8_Level
+Inst13Quest8_HORDE_Attain = Inst13Quest8_Attain
+Inst13Quest8_HORDE_Aim = Inst13Quest8_Aim
+Inst13Quest8_HORDE_Location = Inst13Quest8_Location
+Inst13Quest8_HORDE_Note = Inst13Quest8_Note
+Inst13Quest8_HORDE_Prequest = Inst13Quest8_Prequest
+Inst13Quest8_HORDE_Folgequest = Inst13Quest8_Folgequest
+Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
+-- Keine Belohnung
 
 
 --------------- INST14 - Molten Core (MC) ---------------
