@@ -3062,120 +3062,432 @@ Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
 
 --------------- INST14 - Molten Core (MC) ---------------
 
-Inst14Story = "Der geschmolzene Kern befindet sich am tiefsten Punkt des Schwarzfels. Genau hier, im Herzen des Berges, beschwor Imperator Thaurissan vor langer Zeit in einem Akt der Verzweiflung den elementaren Feuerfürsten Ragnaros, um seinen gescheiterten Putsch gegen die Zwerge von Eisenschmiede doch noch in einen Sieg zu verwandeln. Obwohl der Feuerfürst immer in der Nähe des feurigen Kerns bleiben muss, treiben seine Offiziere die Dunkeleisenzwerge gnadenlos dazu an, ihm eine Armee aus lebendem Gestein zu erschaffen. Der See aus Magma, in dem Ragnaros schläft, ist in Wirklichkeit ein interplanarer Riss, durch den bösartige Feuerelementare von der Ebene des Feuers nach Azeroth gelangen. Der höchstrangige von Ragnaros' Untergebenen ist Majordomo Executus, der als einziger in der Lage ist, den schlafenden Feuerfürsten zu wecken."
-Inst14Caption = "Der geschmolzene Kern"
+Inst14Story = "Der geschmolzene Kern befindet sich am tiefsten Punkt des Schwarzfels. Genau hier, im Herzen des Berges, beschwor Imperator Thaurissan vor langer Zeit in einem Akt der Verzweiflung den elementaren Feuerfürsten Ragnaros, um seinen gescheiterten Putsch gegen die Zwerge von Eisenschmiede doch noch in einen Sieg zu verwandeln. Obwohl der Feuerfürst immer in der Nähe des feurigen Kerns bleiben muss, treiben seine Offiziere die Dunkeleisenzwerge gnadenlos dazu an, ihm eine Armee aus lebendem Gestein zu erschaffen. Der See aus Magma, in dem Ragnaros schläft, ist in Wirklichkeit ein interplanarer Riss, durch den bösartige Feuerelementare von der Ebene des Feuers nach Azeroth gelangen. Der höchstrangige von Ragnaros' Untergebenen ist Majordomus Exekutus, der als einziger in der Lage ist, den schlafenden Feuerfürsten zu wecken."
+Inst14Caption = "Geschmolzener Kern"
+Inst14QAA = "5 Quests"
+Inst14QAH = "5 Quests"
+
+--Quest 1 Allianz
+Inst14Quest1 = "1. Der geschmolzene Kern"
+Inst14Quest1_Level = "60"
+Inst14Quest1_Attain = "58"
+Inst14Quest1_Aim = "Tötet 1 Feuerlord, 1 geschmolzenen Riesen, 1 uralten Kernhund sowie 1 Lavawoger und kehrt dann zu Fürst Hydraxis in Azshara zurück."
+Inst14Quest1_Location = "Fürst Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
+Inst14Quest1_Note = ""
+Inst14Quest1_Prequest = "Ja, Auge des Glutsehers ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
+Inst14Quest1_Folgequest = "Ja, Agent von Hydraxis"
+Inst14Quest1PreQuest = "true"
+-- Keine Belohnung
+
+--Quest 2 Allianz
+Inst14Quest2 = "2. Hände des Feindes"
+Inst14Quest2_Level = "60"
+Inst14Quest2_Attain = "60"
+Inst14Quest2_Aim = "Bringt die Hände von Lucifron, Sulfuron, Gehennas und Shazzrah zu Fürst Hydraxis in Azshara."
+Inst14Quest2_Location = "Fürst Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
+Inst14Quest2_Note = "Lucifron befindet sich bei "..YELLOW.."[1]"..WHITE..", Sulfuron bei "..YELLOW.."[8]"..WHITE..", Gehennas bei "..YELLOW.."[3]"..WHITE.." und Shazzrah bei "..YELLOW.."[5]"..WHITE.."."
+Inst14Quest2_Prequest = "Ja, Agent von Hydraxis"
+Inst14Quest2_Folgequest = "Nein"
+Inst14Quest2FQuest = "true"
+-- Keine Belohnung
+
+--Quest 3 Allianz
+Inst14Quest3 = "3. Donneraan der Windsucher"
+Inst14Quest3_Level = "60"
+Inst14Quest3_Attain = "60"
+Inst14Quest3_Aim = "Um Donneraan den Windsucher aus seiner Gefangenschaft zu befreien, müsst Ihr Hochlord Demitrian die rechten und linken Hälften der Fesseln des Windsuchers, 10 Elementiumbarren und die Essenz des Feuerfürsten bringen."
+Inst14Quest3_Location = "Hochlord Demitrian (Silithus; "..YELLOW.."22,9"..WHITE..")"
+Inst14Quest3_Note = "Teil der Donnerzorn, Gesegnete Klinge des Windsuchers Questreihe. Sie beginnt nachdem man entweder die linken oder die rechten Fesseln des Windsuchers von Garr bei "..YELLOW.."[4]"..WHITE.." oder von Baron Geddon bei "..YELLOW.."[6]"..WHITE.." erbeutet. Danach spricht man mit Hochlord Demitrian um die Questreihe zu starten. Essenz des Feuerfürsten droppt von Ragnaros bei "..YELLOW.."[10]"..WHITE..". Nachdem dieser Teil abgeschlossen wurde, muss man Prinz Donneraan beschwören und ihn töten. Es handelt sich um einen 40-Mann Schlachtzug Boss."
+Inst14Quest3_Prequest = "Ja, Untersuchung des Gefäßes"
+Inst14Quest3_Folgequest = "Ja, Donnerzorn erwache!"
+Inst14Quest3PreQuest = "true"
+-- Keine Belohnung
+
+--Quest 4 Allianz
+Inst14Quest4 = "4. Ein verbindlicher Vertrag"
+Inst14Quest4_Level = "60"
+Inst14Quest4_Attain = "60"
+Inst14Quest4_Aim = "Bringt den Vertrag der Thoriumbruderschaft zu Lokhtos Düsterfeilsch, wenn Ihr die Pläne für das Sulfuron erhalten möchtet."
+Inst14Quest4_Location = "Lokhtos Düsterfeilsch (Schwarzfelstiefen; "..YELLOW.."[15]"..WHITE..")"
+Inst14Quest4_Note = "Man benötigt einen Sulfuronblock, um den Vertrag von Lokhtos zu bekommen. Diese droppen von Golemagg dem Verbrenner im Geschmolzenen Kern bei "..YELLOW.."[7]"..WHITE.."."
+Inst14Quest4_Prequest = "Nein"
+Inst14Quest4_Folgequest = "Nein"
+--
+Inst14Quest4name1 = "Pläne: Sulfuronhammer"
+
+--Quest 5 Allianz
+Inst14Quest5 = "5. Das uralte Blatt"
+Inst14Quest5_Level = "60"
+Inst14Quest5_Attain = "60"
+Inst14Quest5_Aim = "Findet den Besitzer des uralten, versteinerten Blatts."
+Inst14Quest5_Location = "Uraltes versteinertes Blatt (droppt vom Behälter des Feuerfürsten; "..YELLOW.."[9]"..WHITE..")"
+Inst14Quest5_Note = "Abzugeben bei Vartrus dem Uralten in (Teufelswald - Der Eisenwald; "..YELLOW.."49,24"..WHITE..")."
+Inst14Quest5_Prequest = "Nein"
+Inst14Quest5_Folgequest = "Ja, Uraltes in Sehnen eingewickeltes Laminablatt ("..YELLOW.."Azuregos"..WHITE..")"
+-- Keine Belohnung
+
+
+--Quest 1 Horde (das selbe wie allianz quest 1)
+Inst14Quest1_HORDE = Inst14Quest1
+Inst14Quest1_HORDE_Level = Inst14Quest1_Level
+Inst14Quest1_HORDE_Attain = Inst14Quest1_Attain
+Inst14Quest1_HORDE_Aim = Inst14Quest1_Aim
+Inst14Quest1_HORDE_Location = Inst14Quest1_Location
+Inst14Quest1_HORDE_Note = Inst14Quest1_Note
+Inst14Quest1_HORDE_Prequest = Inst14Quest1_Prequest
+Inst14Quest1_HORDE_Folgequest = Inst14Quest1_Folgequest
+Inst14Quest1PreQuest_HORDE = Inst14Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde (das selbe wie allianz quest 2)
+Inst14Quest2_HORDE = Inst14Quest2
+Inst14Quest2_HORDE_Level = Inst14Quest2_Level
+Inst14Quest2_HORDE_Attain = Inst14Quest2_Attain
+Inst14Quest2_HORDE_Aim = Inst14Quest2_Aim
+Inst14Quest2_HORDE_Location = Inst14Quest2_Location
+Inst14Quest2_HORDE_Note = Inst14Quest2_Note
+Inst14Quest2_HORDE_Prequest = Inst14Quest2_Prequest
+Inst14Quest2_HORDE_Folgequest = Inst14Quest2_Folgequest
+Inst14Quest2FQuest_HORDE = Inst14Quest2FQuest
+-- Keine Belohnung
+
+--Quest 3 Horde (das selbe wie allianz quest 3)
+Inst14Quest3_HORDE = Inst14Quest3
+Inst14Quest3_HORDE_Level = Inst14Quest3_Level
+Inst14Quest3_HORDE_Attain = Inst14Quest3_Attain
+Inst14Quest3_HORDE_Aim = Inst14Quest3_Aim
+Inst14Quest3_HORDE_Location = Inst14Quest3_Location
+Inst14Quest3_HORDE_Note = Inst14Quest3_Note
+Inst14Quest3_HORDE_Prequest = Inst14Quest3_Prequest
+Inst14Quest3_HORDE_Folgequest = Inst14Quest3_Folgequest
+Inst14Quest3PreQuest_HORDE = Inst14Quest3PreQuest
+-- Keine Belohnung
+
+--Quest 4 Horde (das selbe wie allianz quest 4)
+Inst14Quest4_HORDE = Inst14Quest4
+Inst14Quest4_HORDE_Level = Inst14Quest4_Level
+Inst14Quest4_HORDE_Attain = Inst14Quest4_Attain
+Inst14Quest4_HORDE_Aim = Inst14Quest4_Aim
+Inst14Quest4_HORDE_Location = Inst14Quest4_Location
+Inst14Quest4_HORDE_Note = Inst14Quest4_Note
+Inst14Quest4_HORDE_Prequest = Inst14Quest4_Prequest
+Inst14Quest4_HORDE_Folgequest = Inst14Quest4_Folgequest
+--
+Inst14Quest4name1_HORDE = Inst14Quest4name1
+
+--Quest 5 Horde (das selbe wie allianz quest 5)
+Inst14Quest5_HORDE = Inst14Quest5
+Inst14Quest5_HORDE_Level = Inst14Quest5_Level
+Inst14Quest5_HORDE_Attain = Inst14Quest5_Attain
+Inst14Quest5_HORDE_Aim = Inst14Quest5_Aim
+Inst14Quest5_HORDE_Location = Inst14Quest5_Location
+Inst14Quest5_HORDE_Note = Inst14Quest5_Note
+Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
+Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
+-- Keine Belohnung
 
 
 --------------- INST15 - Naxxramas (Naxx) ---------------
 
-Inst15Story = "Hoch über den Pestländern schwebt die Nekropole Naxxramas, die Kel'Thuzad, einem der mächtigsten Offiziere des Lichkönigs, als Heimstatt dient. Schrecken der Vergangenheit und noch unbekannte Grauen warten darauf, auf die Welt losgelassen zu werden, während sich die Diener der Geißel auf ihren Ansturm vorbereiten. Bald wird die Geißel erneut marschieren"
+Inst15Story = "Hoch über den Pestländern schwebt die Nekropole Naxxramas, die Kel'Thuzad, einem der mächtigsten Offiziere des Lichkönigs, als Heimstatt dient. Schrecken der Vergangenheit und noch unbekannte Grauen warten darauf, auf die Welt losgelassen zu werden, während sich die Diener der Geißel auf ihren Ansturm vorbereiten. Bald wird die Geißel erneut marschieren..."
 Inst15Caption = "Naxxramas"
+Inst15QAA = "5 Quests"
+Inst15QAH = "5 Quests"
+
+--Quest 1 Allianz
+Inst15Quest1 = "1. Der Niedergang Kel'Thuzads"
+Inst15Quest1_Level = "60"
+Inst15Quest1_Attain = "60"
+Inst15Quest1_Aim = "Bringt Kel'Thuzads Phylakterium zur Kapelle des hoffnungsvollen Lichts in den Östlichen Pestländern."
+Inst15Quest1_Location = "Kel'Thuzad (Naxxramas; "..YELLOW.."Grüne 2"..WHITE..")"
+Inst15Quest1_Note = "Vater Inigo Montoy (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,58"..WHITE..")"
+Inst15Quest1_Prequest = "Nein"
+Inst15Quest1_Folgequest = "Nein"
+--
+Inst15Quest1name1 = "Mal des Helden"
+Inst15Quest1name2 = "Mal des Helden"
+
+--Quest 2 Allianz
+Inst15Quest2 = "2. Das Einzige, das ich kann..."
+Inst15Quest2_Level = "60"
+Inst15Quest2_Attain = "60"
+Inst15Quest2_Aim = "Handwerker Wilhelm in der Kapelle des hoffnungsvollen Lichts möchte, dass Ihr ihm 2 gefrorene Runen, 2 Essenzen des Wassers, 2 blaue Saphire und 30 Goldstücke bringt."
+Inst15Quest2_Location = "Handwerker Wilhelm (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,60"..WHITE..")"
+Inst15Quest2_Note = "Gefrorene Runen gibt es von Unheiligen Äxten in Naxxramas."
+Inst15Quest2_Prequest = "Nein"
+Inst15Quest2_Folgequest = "Nein"
+--
+Inst15Quest2name1 = "Gletschergamaschen"
+Inst15Quest2name2 = "Eisfluchgamaschen"
+Inst15Quest2name3 = "Eisschuppengamaschen"
+Inst15Quest2name4 = "Polargamaschen"
+
+--Quest 3 Allianz
+Inst15Quest3 = "3. Echo des Krieges"
+Inst15Quest3_Level = "60"
+Inst15Quest3_Attain = "60"
+Inst15Quest3_Aim = "Kommandant Eligor Morgenbringer bei der Kapelle des hoffnungsvollen Lichts in den östlichen Pestländern möchte, dass Ihr 5 lebende Monstrositäten, 5 Steinhautgargoyles, 8 Hauptmänner der Todesritter und 3 Giftpirscher tötet."
+Inst15Quest3_Location = "Kommandant Eligor Morgenbringer (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."82,58"..WHITE..")"
+Inst15Quest3_Note = "Die Gegner, die von diesem Quest betroffen sind, befinden sich am Anfang von jedem Flügel in Naxxramas. Dieses Quest ist erforderlich für die Tier 3 Rüstungs Quests."
+Inst15Quest3_Prequest = "Nein"
+Inst15Quest3_Folgequest = "Nein"
+-- Keine Belohnung
+
+--Quest 4 Allianz
+Inst15Quest4 = "4. Ramaladnis Schicksal"
+Inst15Quest4_Level = "60"
+Inst15Quest4_Attain = "60"
+Inst15Quest4_Aim = "Betretet Naxxramas und bringt Ramaladnis Schicksal in Erfahrung."
+Inst15Quest4_Location = "Korfax der Held des Lichts (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."82,58"..WHITE..")"
+Inst15Quest4_Note = "Der Ring für dieses Quest ist ein zufälliger Dropp in Naxxramas. Jeder der das Quest hat, kann ihn an sich nehmen."
+Inst15Quest4_Prequest = "Nein"
+Inst15Quest4_Folgequest = "Ja, Ramaladnis eisiger Griff"
+-- Keine Belohnung
+
+--Quest 5 Allianz
+Inst15Quest5 = "5. Ramaladnis eisiger Griff"
+Inst15Quest5_Level = "60"
+Inst15Quest5_Attain = "60"
+Inst15Quest5_Aim = "Korfax in der Kapelle des hoffnungsvollen Lichtes möchte, dass Ihr ihm 1 gefrorene Rune, 1 blauen Saphir und 1 Arkanitbarren bringt."
+Inst15Quest5_Location = "Korfax der Held des Lichts (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."82,58"..WHITE..")"
+Inst15Quest5_Note = "Gefrorene Runen gibt es von Unheiligen Äxten in Naxxramas."
+Inst15Quest5_Prequest = "Ja, Ramaladnis Schicksal"
+Inst15Quest5_Folgequest = "Nein"
+Inst15Quest5FQuest = "true"
+--
+Inst15Quest5name1 = "Ramaladnis eisiger Griff"
+
+
+--Quest 1 Horde (das selbe wie allianz quest 1)
+Inst15Quest1_HORDE = Inst15Quest1
+Inst15Quest1_HORDE_Level = Inst15Quest1_Level
+Inst15Quest1_HORDE_Attain = Inst15Quest1_Attain
+Inst15Quest1_HORDE_Aim = Inst15Quest1_Aim
+Inst15Quest1_HORDE_Location = Inst15Quest1_Location
+Inst15Quest1_HORDE_Note = Inst15Quest1_Note
+Inst15Quest1_HORDE_Prequest = Inst15Quest1_Prequest
+Inst15Quest1_HORDE_Folgequest = Inst15Quest1_Folgequest
+--
+Inst15Quest1name1_HORDE = Inst15Quest1name1
+Inst15Quest1name2_HORDE = Inst15Quest1name2
+Inst15Quest1name3_HORDE = Inst15Quest1name3
+
+--Quest 2 Horde (das selbe wie allianz quest 2)
+Inst15Quest2_HORDE = Inst15Quest2
+Inst15Quest2_HORDE_Level = Inst15Quest2_Level
+Inst15Quest2_HORDE_Attain = Inst15Quest2_Attain
+Inst15Quest2_HORDE_Aim = Inst15Quest2_Aim
+Inst15Quest2_HORDE_Location = Inst15Quest2_Location
+Inst15Quest2_HORDE_Note = Inst15Quest2_Note
+Inst15Quest2_HORDE_Prequest = Inst15Quest2_Prequest
+Inst15Quest2_HORDE_Folgequest = Inst15Quest2_Folgequest
+--
+Inst15Quest2name1_HORDE = Inst15Quest2name1
+Inst15Quest2name2_HORDE = Inst15Quest2name2
+Inst15Quest2name3_HORDE = Inst15Quest2name3
+Inst15Quest2name4_HORDE = Inst15Quest2name4
+
+--Quest 3 Horde (das selbe wie allianz quest 3)
+Inst15Quest3_HORDE = Inst15Quest3
+Inst15Quest3_HORDE_Level = Inst15Quest3_Level
+Inst15Quest3_HORDE_Attain = Inst15Quest3_Attain
+Inst15Quest3_HORDE_Aim = Inst15Quest3_Aim
+Inst15Quest3_HORDE_Location = Inst15Quest3_Location
+Inst15Quest3_HORDE_Note = Inst15Quest3_Note
+Inst15Quest3_HORDE_Prequest = Inst15Quest3_Prequest
+Inst15Quest3_HORDE_Folgequest = Inst15Quest3_Folgequest
+-- Keine Belohnung
+
+--Quest 4 Horde (das selbe wie allianz quest 4)
+Inst15Quest4_HORDE = Inst15Quest4
+Inst15Quest4_HORDE_Level = Inst15Quest4_Level
+Inst15Quest4_HORDE_Attain = Inst15Quest4_Attain
+Inst15Quest4_HORDE_Aim = Inst15Quest4_Aim
+Inst15Quest4_HORDE_Location = Inst15Quest4_Location
+Inst15Quest4_HORDE_Note = Inst15Quest4_Note
+Inst15Quest4_HORDE_Prequest = Inst15Quest4_Prequest
+Inst15Quest4_HORDE_Folgequest = Inst15Quest4_Folgequest
+-- Keine Belohnung
+
+--Quest 5 Horde (das selbe wie allianz quest 5)
+Inst15Quest5_HORDE = Inst15Quest5
+Inst15Quest5_HORDE_Level = Inst15Quest5_Level
+Inst15Quest5_HORDE_Attain = Inst15Quest5_Attain
+Inst15Quest5_HORDE_Aim = Inst15Quest5_Aim
+Inst15Quest5_HORDE_Location = Inst15Quest5_Location
+Inst15Quest5_HORDE_Note = Inst15Quest5_Note
+Inst15Quest5_HORDE_Prequest = Inst15Quest5_Prequest
+Inst15Quest5_HORDE_Folgequest = Inst15Quest5_Folgequest
+Inst15Quest5FQuest_HORDE = Inst15Quest5FQuest
+--
+Inst15Quest5name1_HORDE = Inst15Quest5name1
 
 
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
-Inst16Story = "Onyxia ist die Tochter des mächtigen Drachen Deathwing und die Schwester des gerissenen Nefarian, dem Fürsten des Schwarzfels. Selbst für einen Drachen ist Onyxia äußerst intelligent, und sie nimmt gerne die Form einer Sterblichen an, um sich heimlich in die politischen Angelegenheiten der sterblichen Völker einzumischen. Obwohl sie für einen schwarzen Drachen ihres Alters recht klein ist, verfügt sie dennoch über die gleichen Kräfte und Fähigkeiten wie der Rest ihres fürchterlichen Schwarms. Manche sagen, Onyxia habe sogar eine Tarnidentität ihres Vaters übernommen - den Titel des königlichen Hauses Prestor. Wenn sie sich nicht in den Angelegenheiten der Sterblichen einmischt, ruht Onyxia in einer feurigen Höhle unterhalb des Drachensumpfes, einer unwirtlichen Gegend der Marschen von Dustwallow. Dort wird sie von ihren Gefolgsleuten bewacht, den verbleibenden Mitgliedern des grausamen schwarzen Drachenschwarms"
+Inst16Story = "Onyxia ist die Tochter des mächtigen Drachen Todesschwinge und die Schwester des gerissenen Nefarian, dem Fürsten des Schwarzfels. Selbst für einen Drachen ist Onyxia äußerst intelligent, und sie nimmt gerne die Form einer Sterblichen an, um sich heimlich in die politischen Angelegenheiten der sterblichen Völker einzumischen. Obwohl sie für einen schwarzen Drachen ihres Alters recht klein ist, verfügt sie dennoch über die gleichen Kräfte und Fähigkeiten wie der Rest ihres fürchterlichen Schwarms. Manche sagen, Onyxia habe sogar eine Tarnidentität ihres Vaters übernommen - den Titel des königlichen Hauses Prestor. Wenn sie sich nicht in den Angelegenheiten der Sterblichen einmischt, ruht Onyxia in einer feurigen Höhle unterhalb des Drachensumpfes, einer unwirtlichen Gegend der Düstermarschen. Dort wird sie von ihren Gefolgsleuten bewacht, den verbleibenden Mitgliedern des grausamen schwarzen Drachenschwarms"
 Inst16Caption = "Onyxias Hort"
+Inst16QAA = "2 Quests"
+Inst16QAH = "2 Quests"
+
+--Quest 1 Allianz
+Inst16Quest1 = "1. Das Schmieden von Quel'Serrar"
+Inst16Quest1_Level = "60"
+Inst16Quest1_Attain = "60"
+Inst16Quest1_Aim = "Bringt Onyxia dazu, ihren Feueratem auf die noch unerhitzte Klinge zu benutzen. Sobald dies geschehen ist, hebt die erhitzte Klinge wieder auf. Doch seid gewarnt, die erhitzte Klinge wird nicht auf ewig erhitzt bleiben - behaltet also die Zeit im Auge."
+Inst16Quest1_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
+Inst16Quest1_Note = "Lasst das Schwert vor Onyxia fallen, wenn sie bei 10% bis 15% ihrer Lebenspunkte ist. Sie wird Feuer darauf spucken und es damit erhitzen. Wenn Onyxia stirbt, nimmt man das Schwert wieder auf und benutzt es mit ihrem toten Körper. Danach kann man das Quest abgeben."
+Inst16Quest1_Prequest = "Ja, Forors Kompendium ("..YELLOW.."Düsterbruch West"..WHITE..") -> Das Schmieden von Quel'Serrar"
+Inst16Quest1_Folgequest = "Nein"
+Inst16Quest1PreQuest = "true"
+--
+Inst16Quest1name1 = "Quel'Serrar"
+
+--Quest 2 Allianz
+Inst16Quest2 = "2. Sieg für die Allianz"
+Inst16Quest2_Level = "60"
+Inst16Quest2_Attain = "60"
+Inst16Quest2_Aim = "Bringt Onyxias Kopf zu Hochlord Bolvar Drachenwill in Sturmwind."
+Inst16Quest2_Location = "Onyxias Kopf (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest2_Note = "Hochlord Bolvar Drachenwill befindet sich in (Sturmwind - Burg Sturmwind; "..YELLOW.."78,20"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden.\n\nDie Belohnungen sind für das Folgequest."
+Inst16Quest2_Prequest = "Nein"
+Inst16Quest2_Folgequest = "Ja, Gute Zeiten feiern"
+--
+Inst16Quest2name1 = "Talisman mit Onyxiablut"
+Inst16Quest2name2 = "Drachentötersignet"
+Inst16Quest2name3 = "Zahn Onyxias"
+
+
+--Quest 1 Horde (das selbe wie allianz quest 1)
+Inst16Quest1_HORDE = Inst16Quest1
+Inst16Quest1_HORDE_Attain = Inst16Quest1_Attain
+Inst16Quest1_HORDE_Level = Inst16Quest1_Level
+Inst16Quest1_HORDE_Aim = Inst16Quest1_Aim
+Inst16Quest1_HORDE_Location = Inst16Quest1_Location
+Inst16Quest1_HORDE_Note = Inst16Quest1_Note
+Inst16Quest1_HORDE_Prequest = Inst16Quest1_Prequest
+Inst16Quest1_HORDE_Folgequest = Inst16Quest1_Folgequest
+Inst16Quest1PreQuest_HORDE = Inst16Quest1PreQuest
+--
+Inst16Quest1name1_HORDE = Inst16Quest1name1
+
+--Quest 2 Horde
+Inst16Quest2_HORDE = "2. Sieg für die Horde"
+Inst16Quest2_HORDE_Level = "60"
+Inst16Quest2_HORDE_Attain = "60"
+Inst16Quest2_HORDE_Aim = "Bringt Onyxias Kopf zu Thrall in Orgrimmar."
+Inst16Quest2_HORDE_Location = "Onyxias Kopf (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest2_HORDE_Note = "Thrall befindet sich in (Orgrimmar - Das Tal der Weisheit; "..YELLOW.."31,37"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden.\n\nDie Belohnungen sind für das Folgequest."
+Inst16Quest2_HORDE_Prequest = "Nein"
+Inst16Quest2_HORDE_Folgequest = "Ja, Für alle sichtbar"
+--
+Inst16Quest2name1_HORDE = "Talisman mit Onyxiablut"
+Inst16Quest2name2_HORDE = "Drachentötersignet"
+Inst16Quest2name3_HORDE = "Zahn Onyxias"
 
 
 --------------- INST17 - Razorfen Downs (RFD) ---------------
 
-Inst17Story = "Die Hügel von Razorfen, die von den selben dornigen Ranken wie der Kral von Razorfen dominiert werden, beherbergen seit jeher die Hauptstadt des Volks der Stacheleber. In dem weitläufigen, dornenverseuchten Labyrinth hält sich eine riesige Armee wilder Stacheleberkrieger auf, die ihr Leben darauf geschworen haben, ihre Hohepriester ֠die Mitglieder des Totenkopfstammes ֠um jeden Preis zu beschützen. Vor Kurzem hat sich jedoch ein unheilbringender Schatten über den kruden Bau gelegt. Abgesandte der untoten Geißel unter der Führung des Lichs Amnennar der Kältebringer haben die Kontrolle über das Volk der Stacheleber übernommen und das Labyrinth der Dornen in eine vorgeschobene Bastion untoter Macht verwandelt. Nun kämpfen die Stacheleber einen verzweifelten Kampf gegen die Zeit, denn Amnennars Einfluss dehnt sich jeden Tag weiter aus. Wenn er nicht aufgehalten wird, ist es nur eine Frage der Zeit, bis das Banner der Geißel über dem Brachland wehen wird."
-Inst17Caption = "Die Hügel von Razorfen"
+Inst17Story = "Die Hügel der Klingenhauer, die von den selben dornigen Ranken wie der Kral der Klingenhauer dominiert werden, beherbergen seit jeher die Hauptstadt des Volks der Stacheleber. In dem weitläufigen, dornenverseuchten Labyrinth hält sich eine riesige Armee wilder Stacheleberkrieger auf, die ihr Leben darauf geschworen haben, ihre Hohepriester - die Mitglieder des Totenkopfstammes - um jeden Preis zu beschützen. Vor Kurzem hat sich jedoch ein unheilbringender Schatten über den kruden Bau gelegt. Abgesandte der untoten Geißel unter der Führung des Lichs Amnennar der Kältebringer haben die Kontrolle über das Volk der Stacheleber übernommen und das Labyrinth der Dornen in eine vorgeschobene Bastion untoter Macht verwandelt. Nun kämpfen die Stacheleber einen verzweifelten Kampf gegen die Zeit, denn Amnennars Einfluss dehnt sich jeden Tag weiter aus. Wenn er nicht aufgehalten wird, ist es nur eine Frage der Zeit, bis das Banner der Geißel über dem Brachland wehen wird."
+Inst17Caption = "Hügel der Klingenhauer"
 Inst17QAA = "3 Quests"
 Inst17QAH = "4 Quests"
 
 --QUEST 1 Allianz
 Inst17Quest1 = "1. Ein Hort des Bösen"
 Inst17Quest1_Level = "35"
-Inst17Quest1_Attain = "30"
-Inst17Quest1_Aim = "Tötet 8 Schlachtwachen von Razorfen, 8 Dornenwirker von Razorfen und 8 Kultistinnen der Totenköpfe und kehrt dann zu Myriam Moonsinger nahe dem Eingang zu den Hügeln von Razorfen zurück."
-Inst17Quest1_Location = "Myriam Moonsinger (Das Brachland; "..YELLOW.."49,94 "..WHITE..")"
-Inst17Quest1_Note = "Die Mobs befinden sich außerhalb der Instanz."
+Inst17Quest1_Attain = "28"
+Inst17Quest1_Aim = "Tötet 8 Schlachtwachen der Klingenhauer, 8 Dornenwirker der Klingenhauer und 8 Kultistinnen der Totenköpfe und kehrt dann zu Myriam Mondsang nahe dem Eingang zu den Hügeln der Klingenhauer zurück."
+Inst17Quest1_Location = "Myriam Mondsang (Das Brachland; "..YELLOW.."49,94 "..WHITE..")"
+Inst17Quest1_Note = "Die Gegner und der Questgeber befinden sich außerhalb der Instanz."
 Inst17Quest1_Prequest = "Nein"
 Inst17Quest1_Folgequest = "Nein"
+-- Keine Belohnung
 
 --QUEST 2 Allianz
-Inst17Quest2 = "2. Ausschalten des Götzes"
+Inst17Quest2 = "2. Ausschalten des Götzen"
 Inst17Quest2_Level = "37"
 Inst17Quest2_Attain = "34"
-Inst17Quest2_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln von Razorfen. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
-Inst17Quest2_Location = "Belnistrasz (Die Hügel von Razorfen;); "..YELLOW..""..YELLOW.."[2]"..WHITE.." "..WHITE..")"
-Inst17Quest2_Note = "Um die Vorquest zu meistern, muss man Belnistrasz ansprechen und seinen Quest annehmen. Dadurch bekommt man einen Gegenstand, mit dem man dann nochmal Belnistrasz ansprechen kann, um diesen Quest zu starten."
-Inst17Quest2_Prequest = "Ja (Bei Belnistrasz zu bekommen)"
+Inst17Quest2_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln der Klingenhauer. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
+Inst17Quest2_Location = "Belnistrasz (Hügel der Klingenhauer; "..YELLOW.."[2]"..WHITE..")"
+Inst17Quest2_Note = "Beim Vorquest muss man sich nur dazu bereit erklären ihm zu helfen. Einige Gegner erscheinen und greifen Belnistrasz an, während er versucht den Götzen auszuschalten. Wenn man das Quest beendet hat, kann man es direkt vor dem Götzen abgeben."
+Inst17Quest2_Prequest = "Ja, Geißel der Niederungen"
 Inst17Quest2_Folgequest = "Nein"
+Inst17Quest2PreQuest = "true"
 --
 Inst17Quest2name1 = "Drachenklauenring"
 
 --QUEST 3 Allianz
 Inst17Quest3 = "3. Das Licht bringen"
-Inst17Quest3_Attain = "39"
 Inst17Quest3_Level = "42"
-Inst17Quest3_Aim = "Erzbischof Benedictus will, dass Ihr Amnennar den Kältebringer in den Hügeln von Razorfen tötet."
-Inst17Quest3_Location = "Erzbischof Benedictus (Sturmwind; "..YELLOW.."39,27 "..WHITE..")"
-Inst17Quest3_Note = "Amnennar den Kältebringer ist der Endboss von den Hügeln von Razorfen und befindet sich bei "..YELLOW.."[6]"..WHITE..". Während des Kampfes beschwört er regelmäßig 3 Gegner."
+Inst17Quest3_Attain = "39"
+Inst17Quest3_Aim = "Erzbischof Benedictus will, dass Ihr Amnennar den Kältebringer in den Hügeln der Klingenhauer tötet."
+Inst17Quest3_Location = "Erzbischof Benedictus (Sturmwind - Kathedrale des Lichts; "..YELLOW.."39,27 "..WHITE..")"
+Inst17Quest3_Note = "Amnennar der Kältebringer ist der Endgegner der Hügel der Klingenhauer und befindet sich bei "..YELLOW.."[6]"..WHITE.."."
 Inst17Quest3_Prequest = "Nein"
 Inst17Quest3_Folgequest = "Nein"
 --
 Inst17Quest3name1 = "Bezwingerschwert"
-Inst17Quest3name2 = "Bernsteinglut-Talisman"
+Inst17Quest3name2 = "Bernsteingluttalisman"
 
 
---QUEST 1 Horde
-Inst17Quest1_HORDE = "1. Ein Hort des Bösen"
-Inst17Quest1_HORDE_Level = "35"
-Inst17Quest1_HORDE_Attain = "30"
-Inst17Quest1_HORDE_Aim = "Tötet 8 Schlachtwachen von Razorfen, 8 Dornenwirker von Razorfen und 8 Kultistinnen der Totenköpfe und kehrt dann zu Myriam Moonsinger nahe dem Eingang zu den Hügeln von Razorfen zurück."
-Inst17Quest1_HORDE_Location = "Myriam Moonsinger (Das Brachland; "..YELLOW.."49,94 "..WHITE..")"
-Inst17Quest1_HORDE_Note = "Die Gegner befinden sich außerhalb der Instanz."
-Inst17Quest1_HORDE_Prequest = "Nein"
-Inst17Quest1_HORDE_Folgequest = "Nein"
+--QUEST 1 Horde (das selbe wie allianz quest 1)
+Inst17Quest1_HORDE = Inst17Quest1
+Inst17Quest1_HORDE_Level = Inst17Quest1_Level
+Inst17Quest1_HORDE_Attain = Inst17Quest1_Attain
+Inst17Quest1_HORDE_Aim = Inst17Quest1_Aim
+Inst17Quest1_HORDE_Location = Inst17Quest1_Location
+Inst17Quest1_HORDE_Note = Inst17Quest1_Note
+Inst17Quest1_HORDE_Prequest = Inst17Quest1_Prequest
+Inst17Quest1_HORDE_Folgequest = Inst17Quest1_Folgequest
+-- Keine Belohnung
 
 --Quest 2 Horde
 Inst17Quest2_HORDE = "2. Eine unheilige Allianz"
 Inst17Quest2_HORDE_Level = "36"
-Inst17Quest2_HORDE_Attain = "?"
+Inst17Quest2_HORDE_Attain = "28"
 Inst17Quest2_HORDE_Aim = "Bringt den Kopf von Botschafter Malcin zu Varimathras nach Unterstadt."
-Inst17Quest2_HORDE_Location = "Varimathras  (Unterstadt; "..YELLOW.."56,92 "..WHITE..")"
-Inst17Quest2_HORDE_Note = "Die Prequest droppt der Endboss der Instanz der Kral von Razorfen.\n Der Botschafter Malcin selbst ist außerhalb der Instanz (Brachland, 48,92)."
+Inst17Quest2_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92 "..WHITE..")"
+Inst17Quest2_HORDE_Note = "Das Vorquest erhält man vom Endgegner des Krals der Klingenhauer. Malcin findet man außerhalb der Instanz (Das Brachland; "..YELLOW.."48,92"..WHITE..")."
 Inst17Quest2_HORDE_Prequest = "Ja, Eine unheilige Allianz"
 Inst17Quest2_HORDE_Folgequest = "Nein"
+Inst17Quest2PreQuest_HORDE = "true"
 --
 Inst17Quest2name1_HORDE = "Schädelbrecher"
 Inst17Quest2name2_HORDE = "Nagelspeier"
 Inst17Quest2name3_HORDE = "Zelotenrobe"
 
--- Quest 3 Horde
-Inst17Quest3_HORDE = "3. Ausschalten des Götzes"
-Inst17Quest3_HORDE_Level = "37"
-Inst17Quest3_HORDE_Attain = "34"
-Inst17Quest3_HORDE_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln von Razorfen. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
-Inst17Quest3_HORDE_Location = "Belnistrasz (Die Hügel von Razorfen (Atlas-Nr.); "..YELLOW.."2 "..WHITE..")"
-Inst17Quest3_HORDE_Note = " Um die Vorquest zu meistern, muss man Belnistrasz ansprechen und seinen Quest annehmen. Dadurch bekommt man einen Gegenstand, mit dem man dann nochmal Belnistrasz ansprechen kann, um diesen Quest zu starten. "
-Inst17Quest3_HORDE_Prequest = "Ja (Bei Belnistrasz zu bekommen)"
-Inst17Quest3_HORDE_Folgequest = "Nein"
+-- Quest 3 Horde  (das selbe wie allianz quest 2)
+Inst17Quest3_HORDE = "3. Ausschalten des Götzen"
+Inst17Quest3_HORDE_Level = Inst17Quest2_Level
+Inst17Quest3_HORDE_Attain = Inst17Quest2_Attain
+Inst17Quest3_HORDE_Aim = Inst17Quest2_Aim
+Inst17Quest3_HORDE_Location = Inst17Quest2_Location
+Inst17Quest3_HORDE_Note = Inst17Quest2_Note
+Inst17Quest3_HORDE_Prequest = Inst17Quest2_Prequest
+Inst17Quest3_HORDE_Folgequest = Inst17Quest2_Folgequest
+Inst17Quest3PreQuest_HORDE = Inst17Quest2PreQuest
 --
-Inst17Quest3name1_HORDE = "Drachenklauenring"
+Inst17Quest3name1_HORDE = Inst17Quest2name1
 
 --QUEST 4 Horde
 Inst17Quest4_HORDE = "4. Das Ende bringen"
-Inst17Quest4_HORDE_Attain = "37"
 Inst17Quest4_HORDE_Level = "42"
-Inst17Quest4_HORDE_Aim = "Andrew Brownell will, dass Ihr Amnennar den Kältebringer tötet und ihm dessen Schädel bringt."
-Inst17Quest4_HORDE_Location = "Andrew Brownell (Untercity; "..YELLOW.."72,32 "..WHITE..")"
-Inst17Quest4_HORDE_Note = "Amnennar den Kältebringer ist der Endboss von den Hügeln von Razorfen und befindet sich bei "..YELLOW.."[6]"..WHITE..". Während des Kampfes beschwört er regelmäßig 3 Gegner."
+Inst17Quest4_HORDE_Attain = "37"
+Inst17Quest4_HORDE_Aim = "Andrew Braunell will, dass Ihr Amnennar den Kältebringer tötet und ihm dessen Schädel bringt."
+Inst17Quest4_HORDE_Location = "Andrew Braunell (Unterstadt - Das Magieviertle; "..YELLOW.."72,32 "..WHITE..")"
+Inst17Quest4_HORDE_Note = "Amnennar der Kältebringer ist der Endgegner der Hügel der Klingenhauer und befindet sich bei "..YELLOW.."[6]"..WHITE.."."
 Inst17Quest4_HORDE_Prequest = "Nein"
-Inst17Quest4_HORDE_Rewards = "itemid=10823,10824"
 Inst17Quest4_HORDE_Folgequest = "Nein"
 --
 Inst17Quest4name1_HORDE = "Bezwingerschwert"
-Inst17Quest4name2_HORDE = "Bernsteinglut-Talisman"
+Inst17Quest4name2_HORDE = "Bernsteingluttalisman"
 
 
 --------------- INST18 - Razorfen Kraul (RFK) ---------------
 
-Inst18Story = "Vor zehntausend Jahren, zum Höhepunkt des Kriegs der Uralten, betrat der mächtige Halbgott Agamaggan das Schlachtfeld, um sich der Brennenden Legion entgegenzustellen. Seinen Beitrag zur Rettung Azeroths vor dem sicheren Untergang musste der stolze Eber jedoch mit seinem Leben bezahlen. Im Lauf der Zeit sprossen dort, wo die Tropfen seines Blutes auf die Erde gefallen waren, gewaltige Dornenranken. Die Stacheleber, die sterblichen Nachkommen des mächtigen Gottes, siedelten sich dort an und betrachten den Kral bis zum heutigen Tag als ihr höchstes Heiligtum, dessen Herz der Razorfen (Klingenbusch) genannt wird. Heute wird der größte Teil des Krals von Razorfen von der alten Stammesfürstin Charlga Razorflank und ihrem Stamm kontrolliert. Unter ihrer Führung greifen die schamanistischen Stacheleber regelmäßig sowohl die feindlichen Stämme als auch nahegelegene Siedlungen der Orcs und Tauren an. In jüngster Zeit gab es Hinweise, die auf einen möglichen Pakt zwischen Charlga und den Agenten der untoten Geißel hindeuten. Kann es tatsächlich sein, dass die Uralte ihren nichtsahnenden Stamm zu irgendeinem finsteren Zweck direkt in die Arme der Untoten treibt?"
-Inst18Caption = "Der Kral von Razorfen"
+Inst18Story = "Vor zehntausend Jahren, zum Höhepunkt des Kriegs der Uralten, betrat der mächtige Halbgott Agamaggan das Schlachtfeld, um sich der Brennenden Legion entgegenzustellen. Seinen Beitrag zur Rettung Azeroths vor dem sicheren Untergang musste der stolze Eber jedoch mit seinem Leben bezahlen. Im Lauf der Zeit sprossen dort, wo die Tropfen seines Blutes auf die Erde gefallen waren, gewaltige Dornenranken. Die Stacheleber, die sterblichen Nachkommen des mächtigen Gottes, siedelten sich dort an und betrachten den Kral bis zum heutigen Tag als ihr höchstes Heiligtum, dessen Herz der Klingenhauer genannt wird. Heute wird der größte Teil des Krals der Klingenhauer von der alten Stammesfürstin Charlga Klingenflanke und ihrem Stamm kontrolliert. Unter ihrer Führung greifen die schamanistischen Stacheleber regelmäßig sowohl die feindlichen Stämme als auch nahegelegene Siedlungen der Orcs und Tauren an. In jüngster Zeit gab es Hinweise, die auf einen möglichen Pakt zwischen Charlga und den Agenten der untoten Geißel hindeuten. Kann es tatsächlich sein, dass die Uralte ihren nichtsahnenden Stamm zu irgendeinem finsteren Zweck direkt in die Arme der Untoten treibt?"
+Inst18Caption = "Kral der Klingenhauer"
 Inst18QAA = "5 Quests"
 Inst18QAH = "5 Quests"
 
