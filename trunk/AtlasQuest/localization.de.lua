@@ -1574,7 +1574,7 @@ Inst8Quest4 = "4. Muttermilch"
 Inst8Quest4_Level = "60"
 Inst8Quest4_Attain = "55"
 Inst8Quest4_Aim = "Ihr findet Mutter Glimmernetz im Herzen der Schwarzfelsspitze. Kämpft mit ihr und bringt sie dazu, Euch zu vergiften. Es kann gut sein, dass Ihr sie sogar töten müsst. Kehrt zum struppigen John zurück, sobald Ihr vergiftet seid, damit er Euch 'melken' kann."
-Inst8Quest4_Location = "Struppiger John (Brennende Steppe; "..YELLOW.."65,23"..WHITE..")"
+Inst8Quest4_Location = "Struppiger John (Brennende Steppe - Flammenkamm; "..YELLOW.."65,23"..WHITE..")"
 Inst8Quest4_Note = "Mutter Glimmernetz findet man bei "..YELLOW.."[13]"..WHITE..". Der Effekt des Giftes wird auch auf alle anderen Spieler in der Nähe übertragen. Das Gift darf nicht entfernt werden, sonst ist das Quest fehlgeschlagen."
 Inst8Quest4_Prequest = "Nein"
 Inst8Quest4_Folgequest = "Nein"
@@ -3495,9 +3495,9 @@ Inst18QAH = "5 Quests"
 Inst18Quest1 = "1. Blaulaubknollen"
 Inst18Quest1_Level = "26"
 Inst18Quest1_Attain = "20"
-Inst18Quest1_Aim = "Benutzt im Kral von Razorfen die Kiste mit Löchern, um ein Schnüffelnasenziesel zu beschwören, und benutzt den Leitstecken bei dem Ziesel, damit es nach Knollen sucht. Bringt 6 Blaulaubknollen, den Schnüffelnasenleitstecken und die Kiste mit Löchern zu Mebok Mizzyrix in Ratschet."
-Inst18Quest1_Location = "Mebok Mizzyrix (Brachland - Ratschet; "..YELLOW.."62,37"..WHITE..")"
-Inst18Quest1_Note = "Die Kiste, der Leitstecken und das Handbuch liegen gleich neben dem Questgeber."
+Inst18Quest1_Aim = "Benutzt im Kral der Klingenhauer die Kiste mit Löchern, um ein Schnüffelnasenziesel zu beschwören, und benutzt den Leitstecken bei dem Ziesel, damit es nach Knollen sucht. Bringt 6 Blaulaubknollen, den Schnüffelnasenleitstecken und die Kiste mit Löchern zu Mebok Mizzyrix in Ratschet."
+Inst18Quest1_Location = "Mebok Mizzyrix (Das Brachland - Ratschet; "..YELLOW.."62,37"..WHITE..")"
+Inst18Quest1_Note = "Die Kiste, der Leitstecken und das Handbuch befinden sich in der Nähe des Questgebers."
 Inst18Quest1_Prequest = "Nein"
 Inst18Quest1_Folgequest = "Nein"
 --
@@ -3506,23 +3506,23 @@ Inst18Quest1name1 = "Ein kleiner Behälter mit Edelsteinen"
 --QUEST 2 Allianz
 Inst18Quest2 = "2. Die Sterblichkeit schwindet"
 Inst18Quest2_Level = "30"
-Inst18Quest2_Attain = "?"
-Inst18Quest2_Aim = "Sucht und bringt Treshalas Anhänger zu Treshala Fallowbrook in Darnassus."
-Inst18Quest2_Location = "Heraltha Treshala Fallowbrook (Kral von Razorfen; "..YELLOW.." "..YELLOW.."[8]"..WHITE..""..WHITE..")"
-Inst18Quest2_Note = "Die Kette ist ein random Drop von den Stachelebern. Sobald du sie bekommen hast, musst du sie nach Darnassus zu Treshala Fallowbrook (69,67) bringen."
+Inst18Quest2_Attain = "27"
+Inst18Quest2_Aim = "Sucht und bringt Treshalas Anhänger zu Treshala Bachquell in Darnassus."
+Inst18Quest2_Location = "Heralath Bachquell (Kral der Klingenhauer; "..YELLOW.."[8]"..WHITE..")"
+Inst18Quest2_Note = "Die Kette ist ein zufälliger Dropp. Sobald du sie bekommen hast, musst du sie zu Treshala Bachquell in Darnassus - Terrasse der Händler ("..YELLOW.."69,67"..WHITE..") bringen."
 Inst18Quest2_Prequest = "Nein"
 Inst18Quest2_Folgequest = "Nein"
 --
 Inst18Quest2name1 = "Trauerschal"
-Inst18Quest2name2 = "Lanzer-Stiefel"
+Inst18Quest2name2 = "Lancierstiefel"
 
 --QUEST 3 Allianz
 Inst18Quest3 = "3. Willix der Importeur"
 Inst18Quest3_Level = "30"
-Inst18Quest3_Attain = "?"
-Inst18Quest3_Aim = "Führt Willix den Importeur aus dem Kral von Razorfen hinaus."
-Inst18Quest3_Location = "Willix der Importeur (Kral von Razorfen; "..YELLOW.." "..YELLOW.."[8]"..WHITE..""..WHITE..")"
-Inst18Quest3_Note = "Willix findt man bei "..YELLOW.."[8]"..WHITE..". Man muss ihn zum Eingang geleiten."
+Inst18Quest3_Attain = "22"
+Inst18Quest3_Aim = "Führt Willix den Importeur aus dem Kral der Klingenhauer hinaus."
+Inst18Quest3_Location = "Willix der Importeur (Kral der Klingenhauer; "..YELLOW.."[8]"..WHITE..")"
+Inst18Quest3_Note = "Willix findet man bei "..YELLOW.."[8]"..WHITE..". Man muss ihn zum Eingang geleiten. Danach gibt man das Quest bei ihm ab."
 Inst18Quest3_Prequest = "Nein"
 Inst18Quest3_Folgequest = "Nein"
 --
@@ -3533,72 +3533,76 @@ Inst18Quest3name3 = "Tigerband"
 --QUEST 4 Allianz
 Inst18Quest4 = "4. Die Greisin des Krals"
 Inst18Quest4_Level = "34"
-Inst18Quest4_Attain = "30"
-Inst18Quest4_Aim = "Bringt Falfindel Waywarder in Thalanaar Razorflanks Medaillon."
-Inst18Quest4_Location = "Falfindel Waywarder (Feralas; "..YELLOW.."89,46"..WHITE..")"
-Inst18Quest4_Note = "Das Medaillon wird von Charlga Razorflank bei "..YELLOW.."[7]"..WHITE.." gedropt."
-Inst18Quest4_Prequest = "Ja, Lonebrows Tagebuch"
-Inst18Quest4_Folgequest = "Ja, Die Greisin des Krals"
+Inst18Quest4_Attain = "29"
+Inst18Quest4_Aim = "Bringt Falfindel Wegeshut in Thalanaar Klingenflankes Medaillon."
+Inst18Quest4_Location = "Falfindel Wegeshut (Feralas - Thalanaar; "..YELLOW.."89,46"..WHITE..")"
+Inst18Quest4_Note = "Das Medaillon wird von Charlga Klingenflanke bei "..YELLOW.."[7]"..WHITE.." gedroppt."
+Inst18Quest4_Prequest = "Ja, Einbraues Tagebuch"
+Inst18Quest4_Folgequest = "Nein"
+Inst18Quest4PreQuest = "true"
 --
-Inst18Quest4name1 = "Donnerbüchse 'Magierauge'"
+Inst18Quest4name1 = "Falfindels Blaster"
 Inst18Quest4name2 = "Beryllpolster"
 Inst18Quest4name3 = "Steinfaustgurt"
 Inst18Quest4name4 = "Marmorierter Rundschild"
 
---QUEST 5 Allianz KRIEGER
+--QUEST 5 Allianz
 Inst18Quest5 = "5. Feuergehärteter Panzer (Krieger)"
 Inst18Quest5_Level = "28"
 Inst18Quest5_Attain = "20"
-Inst18Quest5_Aim = "Sammelt die Materialien, die Furen Longbeard benötigt, und bringt sie zu ihm nach Sturmwind."
-Inst18Quest5_Location = "Furen Longbeard (Sturmwind; "..YELLOW.."57,16"..WHITE..")"
-Inst18Quest5_Note = "Dieser Quest kann nur von Kriegern angenommen werden!\nDie Phiole mit Phlogiston bekommt man von Roogug bei "..YELLOW.."[1]"..WHITE.."."
+Inst18Quest5_Aim = "Sammelt die Materialien, die Furen Langbart benötigt, und bringt sie zu ihm nach Sturmwind."
+Inst18Quest5_Location = "Furen Langbart (Sturmwind - Zwergendistrikt; "..YELLOW.."57,16"..WHITE..")"
+Inst18Quest5_Note = "Dieses Quest kann nur von Kriegern angenommen werden. Die Phiole mit Phlogiston bekommt man von Roogug bei "..YELLOW.."[1]"..WHITE..". Das Folgequest hat Belohnungen."
 Inst18Quest5_Prequest = "Ja, Der Schildschmied"
 Inst18Quest5_Folgequest = "Ja"
+Inst18Quest5PreQuest = "true"
+-- Keine Belohnung
 
 
---QUEST 1 Horde
-Inst18Quest1_HORDE = "1. Blaulaubknollen"
-Inst18Quest1_HORDE_Level = "26"
-Inst18Quest1_HORDE_Attain = "20"
-Inst18Quest1_HORDE_Aim = "Benutzt im Kral von Razorfen die Kiste mit Löchern, um ein Schnüffelnasenziesel zu beschwören, und benutzt den Leitstecken bei dem Ziesel, damit es nach Knollen sucht. Bringt 6 Blaulaubknollen, den Schnüffelnasenleitstecken und die Kiste mit Löchern zu Mebok Mizzyrix in Ratschet."
-Inst18Quest1_HORDE_Location = "Mebok Mizzyrix (Brachland - Ratschet; "..YELLOW.."62,37"..WHITE..")"
-Inst18Quest1_HORDE_Note = "Die Kiste, der Leitstecken und das Handbuch liegen gleich neben dem Questgeber."
-Inst18Quest1_HORDE_Prequest = "Nein"
-Inst18Quest1_HORDE_Folgequest = "Nein"
+--QUEST 1 Horde (das selbe wie allianz quest 1)
+Inst18Quest1_HORDE = Inst18Quest1
+Inst18Quest1_HORDE_Level = Inst18Quest1_Level
+Inst18Quest1_HORDE_Attain = Inst18Quest1_Attain
+Inst18Quest1_HORDE_Aim = Inst18Quest1_Aim
+Inst18Quest1_HORDE_Location = Inst18Quest1_Location
+Inst18Quest1_HORDE_Note = Inst18Quest1_Note
+Inst18Quest1_HORDE_Prequest = Inst18Quest1_Prequest
+Inst18Quest1_HORDE_Folgequest = Inst18Quest1_Folgequest
 --
-Inst18Quest1name1_HORDE = "Ein kleiner Behälter mit Edelsteinen"
+Inst18Quest1name1_HORDE = Inst18Quest1name1
 
---Quest 2 Horde
+--Quest 2 Horde (das selbe wie allianz quest 3)
 Inst18Quest2_HORDE = "2. Willix der Importeur"
-Inst18Quest2_HORDE_Level = "30"
-Inst18Quest2_HORDE_Attain = "?"
-Inst18Quest2_HORDE_Aim = "Führt Willix den Importeur aus dem Kral von Razorfen hinaus."
-Inst18Quest2_HORDE_Location = "Willix der Importeur (Kral von Razorfen; "..YELLOW.." "..YELLOW.."[8]"..WHITE..""..WHITE..")"
-Inst18Quest2_HORDE_Note = "Willix findt man bei "..YELLOW.."[8]"..WHITE..". Man muss ihn zum Eingang geleiten."
-Inst18Quest2_HORDE_Prequest = "Nein"
-Inst18Quest2_HORDE_Folgequest = "Nein"
+Inst18Quest2_HORDE_Level = Inst18Quest3_Level
+Inst18Quest2_HORDE_Attain = Inst18Quest3_Attain
+Inst18Quest2_HORDE_Aim = Inst18Quest3_Aim
+Inst18Quest2_HORDE_Location = Inst18Quest3_Location
+Inst18Quest2_HORDE_Note = Inst18Quest3_Note
+Inst18Quest2_HORDE_Prequest = Inst18Quest3_Prequest
+Inst18Quest2_HORDE_Folgequest = Inst18Quest3_Folgequest
 --
-Inst18Quest2name1_HORDE = "Affenring"
-Inst18Quest2name2_HORDE = "Natternreifen"
-Inst18Quest2name3_HORDE = "Tigerband"
+Inst18Quest2name1_HORDE = Inst18Quest3name1
+Inst18Quest2name2_HORDE = Inst18Quest3name2
+Inst18Quest2name3_HORDE = Inst18Quest3name3
 
 -- Quest 3 Horde
 Inst18Quest3_HORDE = "3. Go, Go, Guano!"
 Inst18Quest3_HORDE_Level = "33"
-Inst18Quest3_HORDE_Attain = "?"
-Inst18Quest3_HORDE_Aim = "Bringt dem Apothekermeister Faranell in Unterstadt 1 Häufchen Kral-Guano."
-Inst18Quest3_HORDE_Location = "Apothekermeister Faranell (Unterstadt; "..YELLOW.."48,69 "..WHITE..")"
-Inst18Quest3_HORDE_Note = "Das Kral-Guano droppen alle Fledermäuse im Kral."
+Inst18Quest3_HORDE_Attain = "30"
+Inst18Quest3_HORDE_Aim = "Bringt dem Apothekermeister Faranell in Unterstadt 1 Häufchen Kralguano."
+Inst18Quest3_HORDE_Location = "Apothekermeister Faranell (Unterstadt - Das Apothekarium; "..YELLOW.."48,69 "..WHITE..")"
+Inst18Quest3_HORDE_Note = "Das Kralguano droppen alle Fledermäuse im Kral."
 Inst18Quest3_HORDE_Prequest = "Nein"
-Inst18Quest3_HORDE_Folgequest = "Ja, Herzen des Eifers (Siehe: "..YELLOW.."[Hügel von Razorfen]"..WHITE..")"
+Inst18Quest3_HORDE_Folgequest = "Ja, Herzen des Eifers ("..YELLOW.."[Das Scharlachrote Kloster]"..WHITE..")"
+-- Keine Belohnung
 
 --QUEST 4 Horde
 Inst18Quest4_HORDE = "4. Ein schreckliches Schicksal"
 Inst18Quest4_HORDE_Level = "34"
 Inst18Quest4_HORDE_Attain = "29"
-Inst18Quest4_HORDE_Aim = "Bringt Auld Stonespire in Donnerfels Razorflanks Herz."
-Inst18Quest4_HORDE_Location = "Auld Stonespire (Thunderbluff; "..YELLOW.."36,59 "..WHITE..")"
-Inst18Quest4_HORDE_Note = "Charlga Razorflank findet man bei "..YELLOW.."[7]"..WHITE..""
+Inst18Quest4_HORDE_Aim = "Bringt Auld Steinkeil in Donnerfels Klingenflankes Herz."
+Inst18Quest4_HORDE_Location = "Auld Steinkeil (Donnerfels; "..YELLOW.."36,59"..WHITE..")"
+Inst18Quest4_HORDE_Note = "Charlga Klingenflanke findet man bei "..YELLOW.."[7]"..WHITE.."."
 Inst18Quest4_HORDE_Prequest = "Nein"
 Inst18Quest4_HORDE_Folgequest = "Nein"
 --
@@ -3610,10 +3614,13 @@ Inst18Quest4name3_HORDE = "Marmorierter Rundschild"
 Inst18Quest5_HORDE = "5. Brutale Rüstung (Krieger)"
 Inst18Quest5_HORDE_Level = "30"
 Inst18Quest5_HORDE_Attain = "20"
-Inst18Quest5_HORDE_Aim = "Bringt Thun'grim Firegaze 15 rauchige Eisenblöcke, 10 pulverisierte Azurite, 10 Eisenbarren und 1 Phiole Phlogiston."
-Inst18Quest5_HORDE_Location = "Thun'grim Firegaze (Brachland; "..YELLOW.."57,30 "..WHITE..")"
-Inst18Quest5_HORDE_Note = "Dieses Quest kann nur von Kriegern angenommen werden!\nDie Phiole mit Phlogiston bekommt man von Roogug bei "..YELLOW.."[1]"..WHITE.."."
-Inst18Quest5_HORDE_Prequest = "Ja, Gespräch mit Ruga"
+Inst18Quest5_HORDE_Aim = "Bringt Thun'grim Brandblick 15 rauchige Eisenblöcke, 10 pulverisierte Azurite, 10 Eisenbarren und 1 Phiole Phlogiston."
+Inst18Quest5_HORDE_Location = "Thun'grim Brandblick (Das Brachland; "..YELLOW.."57,30"..WHITE..")"
+Inst18Quest5_HORDE_Note = "Dieses Quest kann nur von Kriegern angenommen werden. Die Phiole mit Phlogiston bekommt man von Roogug bei "..YELLOW.."[1]"..WHITE..". Das Folgequest hat Belohnungen."
+Inst18Quest5_HORDE_Prequest = "Ja, Gespräch mit Thun'grim"
+Inst18Quest5_HORDE_Folgequest = "Ja"
+Inst18Quest5PreQuest_HORDE = "true"
+-- Keine Belohnung
 
 
 --------------- INST19 - SM: Library (SM Lib) ---------------
