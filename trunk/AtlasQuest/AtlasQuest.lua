@@ -67,7 +67,7 @@ local AQMAXINSTANCES = "65"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.0.11";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.0.12";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -76,7 +76,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.0.11",
+  ["Version"] =  "4.0.12",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -624,7 +624,7 @@ local count
       TotalQuestsTable = {
         [CurrentQuestnum] = x,
       };
-      if (((beql ~= nil) and (beql.db.profile.showlevel == true)) or ((CT_QuestLevels_ShowQuestLevels ~= nil) and (CT_QuestLevels_ShowQuestLevels == 1))) then
+      if ((CT_Core) and (CT_Core:getOption("questLevels") == 1)) then
         count = 4;
 	 if (y > 10) then
           count = count + 2;
@@ -638,6 +638,13 @@ local count
           [CurrentQuestnum] = strsub(x, count)
          };
       end
+
+      -- Code from Denival to remove parentheses and anything in it so Color Quests blue option works.
+      ps, pe = strfind(OnlyQuestNameRemovedNumber," %(.*%)")
+      if (ps) then
+       OnlyQuestNameRemovedNumber = strsub(OnlyQuestNameRemovedNumber,1,ps-1)
+      end
+
       --expect this
       if (TotalQuestsTable[CurrentQuestnum] == OnlyQuestNameRemovedNumber) then
         Questisthere = 1;

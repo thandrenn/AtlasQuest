@@ -3,9 +3,7 @@ ToDo List
 =========
 
 - Add Battlegrounds quests.
-- Add Heroic Daily quests.
-- BUG: CT_Core show quest lvl thing not working with Blue quest names.
-- BUG: Stuff like (Questline) (Heroic) and (Class) throws off the Blue quest names stuff.
+- Add Heroic & Daily dungeon quests.
 - BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
 
 
@@ -90,12 +88,6 @@ Add Quests:
 
 
 Dungeon Heroic Dailys:
-
-CF:
-- Underbog: Wanted: A Black Stalker Egg  http://www.wowhead.com/?quest=11369
-- Slave Pens: Wanted: The Heart of Quagmirran  http://www.wowhead.com/?quest=11368
-- Steamvault: Wanted: Coilfang Myrmidons  http://www.wowhead.com/?quest=11371
-- Steamvault: Wanted: The Warlord's Treatise  http://www.wowhead.com/?quest=11370
 
 Auch:
 - Auch Crypts: Wanted: The Exarch's Soul Gem  http://www.wowhead.com/?quest=11374
