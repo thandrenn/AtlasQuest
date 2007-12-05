@@ -3625,120 +3625,115 @@ Inst18Quest5PreQuest_HORDE = "true"
 
 --------------- INST19 - SM: Library (SM Lib) ---------------
 
-Inst19Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitor Whitemane ֠eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
-Inst19Caption = "Das Scharlachrote Kloster"
+Inst19Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
+Inst19Caption = "SK: Bibliothek"
 Inst19QAA = "3 Quests"
-Inst19QAH = "6 Quests"
+Inst19QAH = "5 Quests"
 
 --QUEST 1 Allianz
 Inst19Quest1 = "1. Mythologie der Titanen"
 Inst19Quest1_Level = "38"
-Inst19Quest1_Attain = "?"
-Inst19Quest1_Aim = "Holt die 'Mythologie der Titanen' aus dem Kloster und bringt die der Bibliothekarin Mae Paledust in Eisenschmiede."
-Inst19Quest1_Location = "Bilbliothekarin Mae Paledust (Eisenschmiede; "..YELLOW.."74,12 "..WHITE..")"
-Inst19Quest1_Note = "Das Buch findet man im Bibliotheksteil der Instanz."
+Inst19Quest1_Attain = "28"
+Inst19Quest1_Aim = "Holt die 'Mythologie der Titanen' aus dem Kloster und bringt die der Bibliothekarin Mae Bleichstaub in Eisenschmiede."
+Inst19Quest1_Location = "Bilbliothekarin Mae Bleichstaub (Eisenschmiede - Halle der Forscher; "..YELLOW.."74,12 "..WHITE..")"
+Inst19Quest1_Note = "Das Buch findet man auf der linken Seite eines der Korridore, die zu Arkanist Doan ("..YELLOW.."[2]"..WHITE..") führen, auf dem Boden."
 Inst19Quest1_Prequest = "Nein"
 Inst19Quest1_Folgequest = "Nein"
 --
-Inst19Quest1name1 = "Forscherliga-Empfehlung"
+Inst19Quest1name1 = "Forscherligaempfehlung"
 
 --QUEST 2 Allianz
-Inst19Quest2 = "2. Im Namen des Lichts"
+Inst19Quest2 = "2. Rituale der Macht (Magier)"
 Inst19Quest2_Level = "40"
-Inst19Quest2_Attain = "39"
-Inst19Quest2_Aim = "Tötet Hochinquisitor Whitemane, den Scharlachroten Kommandant Mograine, Herod, den Scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Southshore."
-Inst19Quest2_Location = "Raleigh der Andächtige (Vorgebirge von Hillsbrad, Southshore; "..YELLOW.."51,58 "..WHITE..")"
-Inst19Quest2_Note = "Die Questreihe fängt bei Bruder Crowley (42,24 in Sturmwind) an.\nHochinquisitor Whitemane und Kommandant Mograinebei findet man bei "..YELLOW.."[5]"..WHITE..", Herod bei "..YELLOW.."[3]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."[1]"..WHITE.."."
-Inst19Quest2_Prequest = "Ja, Bruder Anton -> Auf dem Scharlachroten Pfad"
-Inst19Quest2_Folgequest = "Nein"
---
-Inst19Quest2name1 = "Schwert der Beschaulichkeit"
-Inst19Quest2name2 = "Knochenbeißer"
-Inst19Quest2name3 = "Schwarze Bedrohung"
-Inst19Quest2name4 = "Kugel von Lorica"
+Inst19Quest2_Attain = "30"
+Inst19Quest2_Aim = "Bringt das Buch 'Rituale der Macht' zu Tabetha in den Düstermarschen."
+Inst19Quest2_Location = "Tabetha (Düstermarschen; "..YELLOW.."43,57"..WHITE..")"
+Inst19Quest2_Note = "Dieses Quest kann nur von Magiern angenommen werden. Das Buch findet man im letzten Korridor, der zu Arkanist Doan ("..YELLOW.."[2]"..WHITE..") führt."
+Inst19Quest2_Prequest = "Ja, Der Knüller schlechthin"
+Inst19Quest2_Folgequest = "Ja, Der Zauberstab des Magiers"
+Inst19Quest2PreQuest = "true"
+-- Keine Belohnung
 
---QUEST 3 Allianz MAGIER
-Inst19Quest3 = "3. Rituale der Macht (Magier)"
+--QUEST 3 Allianz
+Inst19Quest3 = "3. Im Namen des Lichts"
 Inst19Quest3_Level = "40"
-Inst19Quest3_Attain = "31"
-Inst19Quest3_Aim = "Bringt das Buch 'Rituale der Macht' zu Tabetha in den Marschen von Dustwallow."
-Inst19Quest3_Location = "Tabetha (Marschen von Dustwallow; "..YELLOW.."43,57 "..WHITE..")"
-Inst19Quest3_Note = "Dieser Quest kann nur von Magiern angenommen werden!\nDas Buch findet man im Bibliotheksteil der Instanz."
-Inst19Quest3_Prequest = "Ja, Der Knüller schlechthin"
-Inst19Quest3_Folgequest = "Ja, Der Zauberstab des Magiers"
+Inst19Quest3_Attain = "34"
+Inst19Quest3_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Süderstade."
+Inst19Quest3_Location = "Raleigh der Andächtige (Vorgebirge des Hügellands - Süderstade; "..YELLOW.."51,58"..WHITE..")"
+Inst19Quest3_Note = "Diese Questreihe beginnt bei Bruder Crowley in Sturmwind - Kathedrale des Lichts ("..YELLOW.."42,24"..WHITE..").\nHochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
+Inst19Quest3_Prequest = "Ja, Bruder Anton -> Auf dem scharlachroten Pfad"
+Inst19Quest3_Folgequest = "Nein"
+Inst19Quest3PreQuest = "true"
+--
+Inst19Quest3name1 = "Schwert der Beschaulichkeit"
+Inst19Quest3name2 = "Knochenbeißer"
+Inst19Quest3name3 = "Schwarze Bedrohung"
+Inst19Quest3name4 = "Kugel von Lorica"
 
 
---QUEST 1 Horde
-Inst19Quest1_HORDE = "1. Vorrels Rache"
+--Quest 1 Horde
+Inst19Quest1_HORDE = "1. Herzen des Eifers"
 Inst19Quest1_HORDE_Level = "33"
-Inst19Quest1_HORDE_Attain = "?"
-Inst19Quest1_HORDE_Aim = "Bringt Monika Sengutz in Tarrens Mühle den Ehering von Vorrel Sengutz."
-Inst19Quest1_HORDE_Location = "Vorrel Sengutz (Das Scharlachrote Kloster, Friedhof)"
-Inst19Quest1_HORDE_Note = "Vorrel Sengutz findet man gleich am Anfang vom Friedhofsteil. Den Ring bekommt man bei Nancy Vishas, die sich in einem Haus im Alteracgebirge(31,32) befindet."
-Inst19Quest1_HORDE_Prequest = "Nein"
+Inst19Quest1_HORDE_Attain = "30"
+Inst19Quest1_HORDE_Aim = "Apothekermeister Faranell in Unterstadt möchte 20 Herzen des Eifers."
+Inst19Quest1_HORDE_Location = "Apothekermeister Faranell (Unterstadt - Das Apothekarium; "..YELLOW.."48,69"..WHITE..")"
+Inst19Quest1_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Kloster gedroppt."
+Inst19Quest1_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
 Inst19Quest1_HORDE_Folgequest = "Nein"
+Inst19Quest1PreQuest_HORDE = "true"
+-- Keine Belohnung
+
+-- Quest 2 Horde
+Inst19Quest2_HORDE = "2. Test der Lehre"
+Inst19Quest2_HORDE_Level = "36"
+Inst19Quest2_HORDE_Attain = "26"
+Inst19Quest2_HORDE_Aim = "Sucht Die Anfänge der Bedrohung durch die Untoten und bringt es zu Parqual Fintallas in Unterstadt."
+Inst19Quest2_HORDE_Location = "Parqual Fintallas (Unterstadt - Das Apothekarium; "..YELLOW.."57,65"..WHITE..")"
+Inst19Quest2_HORDE_Note = "Die Questreihe beginnt bei Dorn Ebenenpirscher (Tausend Nadeln; "..YELLOW.."53,41"..WHITE.."). Das Buch findet man im Bibliotheksteil des Klosters."
+Inst19Quest2_HORDE_Prequest = "Ja, Test der Glaubens -> Test der Lehre"
+Inst19Quest2_HORDE_Folgequest = "Ja, Test der Lehre"
+Inst19Quest2PreQuest_HORDE = "true"
+-- Keine Belohnung
+
+--QUEST 3 Horde
+Inst19Quest3_HORDE = "3. Kompendium der Gefallenen"
+Inst19Quest3_HORDE_Level = "38"
+Inst19Quest3_HORDE_Attain = "28"
+Inst19Quest3_HORDE_Aim = "Holt das 'Kompendium der Gefallenen' aus dem Kloster in Tirisfal und bringt es zu dem Weisen Wahrspruch in Donnerfels."
+Inst19Quest3_HORDE_Location = "Weiser Wahrspruch (Donnerfels; "..YELLOW.."34,47"..WHITE..")"
+Inst19Quest3_HORDE_Note = "Das Buch findet man im Bibliotheksteil des Klosters."
+Inst19Quest3_HORDE_Prequest = "Nein"
+Inst19Quest3_HORDE_Folgequest = "Nein"
 --
-Inst19Quest1name1_HORDE = "Vorrels Stiefel"
-Inst19Quest1name2_HORDE = "Mantel des Jammers"
-Inst19Quest1name3_HORDE = "Grimmstahlcape"
+Inst19Quest3name1_HORDE = "Grässlicher Beschützer"
+Inst19Quest3name2_HORDE = "Zwingsteinrundschild"
+Inst19Quest3name3_HORDE = "Omegakugel"
 
---Quest 2 Horde
-Inst19Quest2_HORDE = "2. Herzen des Eifers"
-Inst19Quest2_HORDE_Level = "33"
-Inst19Quest2_HORDE_Attain = "?"
-Inst19Quest2_HORDE_Aim = "Apothekermeister Faranell in Unterstadt möchte 20 Herzen des Eifers."
-Inst19Quest2_HORDE_Location = "Apothekermeister Faranell  (Unterstadt; "..YELLOW.."48,69 "..WHITE..")"
-Inst19Quest2_HORDE_Note = "Siehe "..YELLOW.."[Kral von Razorfen]"..WHITE.." für mehr Deatils über den Vorquest.\nDie Herzen werden von allen Gegnern im Kloster gedroppt."
-Inst19Quest2_HORDE_Prequest = "Ja, Go, Go, Guano!"
-Inst19Quest2_HORDE_Folgequest = "Nein"
-
--- Quest 3 Horde
-Inst19Quest3_HORDE = "3. Test der Lehre (Questreihe)"
-Inst19Quest3_HORDE_Level = "36"
-Inst19Quest3_HORDE_Attain = "32"
-Inst19Quest3_HORDE_Aim = "Sucht Die Anfänge der Bedrohung durch die Untoten und bringt es zu Parqual Fintallas in Unterstadt."
-Inst19Quest3_HORDE_Location = "Parqual Fintallas (Unterstadt; "..YELLOW.."57,65 "..WHITE..")"
-Inst19Quest3_HORDE_Note = "Die Questreihe beginnt bei Dorn Plainstalker (Tausend Nadeln (53,41).\nDas Buch findet man im Bibliotheksteil der Instanz."
-Inst19Quest3_HORDE_Prequest = "Ja, Test der Glaubens -> Test der Lehre"
-Inst19Quest3_HORDE_Folgequest = "Ja, Test der Lehre"
-
---QUEST 4 Horde
-Inst19Quest4_HORDE = "4. Kompendium der Gefallenen"
-Inst19Quest4_HORDE_Level = "38"
-Inst19Quest4_HORDE_Attain = "?"
-Inst19Quest4_HORDE_Aim = "Holt das 'Kompendium der Gefallenen' aus dem Kloster in Tirisfal und bringt es zu Sage Truthseeker in Donnerfels."
-Inst19Quest4_HORDE_Location = "Sage Truthseeker (Thunderbluff; "..YELLOW.."34,47 "..WHITE..")"
-Inst19Quest4_HORDE_Note = "Das Buch findet man im Bibliotheksteil der Instanz."
-Inst19Quest4_HORDE_Prequest = "Nein"
-Inst19Quest4_HORDE_Folgequest = "Nein"
---
-Inst19Quest4name1_HORDE = "Grässlicher Beschützer"
-Inst19Quest4name2_HORDE = "Zwingstein-Rundschild"
-Inst19Quest4name3_HORDE = "Omegakugel"
+--Quest 4 Horde (das selbe wie allianz quest 2)
+Inst19Quest4_HORDE = "4. Rituale der Macht (Magier)"
+Inst19Quest4_HORDE_Level = Inst19Quest2_Level
+Inst19Quest4_HORDE_Attain = Inst19Quest2_Attain
+Inst19Quest4_HORDE_Aim = Inst19Quest2_Aim
+Inst19Quest4_HORDE_Location = Inst19Quest2_Location
+Inst19Quest4_HORDE_Note = Inst19Quest2_Note
+Inst19Quest4_HORDE_Prequest = Inst19Quest2_Prequest
+Inst19Quest4_HORDE_Folgequest = Inst19Quest2_Folgequest
+Inst19Quest4PreQuest_HORDE = Inst19Quest2_PreQuest
+-- Keine Belohnung
 
 --QUEST 5 Horde
 Inst19Quest5_HORDE = "5. In das Scharlachrote Kloster"
 Inst19Quest5_HORDE_Level = "42"
 Inst19Quest5_HORDE_Attain = "33"
-Inst19Quest5_HORDE_Aim = "Tötet Hochinquisitor Whitemane, den Scharlachroten Kommandant Mograine, Herod, den Scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Varimathras in Unterstadt."
-Inst19Quest5_HORDE_Location = "Varimathras  (Unterstadt; "..YELLOW.."56,92 "..WHITE..")"
-Inst19Quest5_HORDE_Note = "Hochinquisitor Whitemane und Kommandant Mograinebei findet man bei "..YELLOW.."[5]"..WHITE..", Herod bei "..YELLOW.."[3]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."[1]"..WHITE.."."
+Inst19Quest5_HORDE_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Varimathras in Unterstadt."
+Inst19Quest5_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92"..WHITE..")"
+Inst19Quest5_HORDE_Note = "Hochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
 Inst19Quest5_HORDE_Prequest = "Nein"
 Inst19Quest5_HORDE_Folgequest = "Nein"
 --
 Inst19Quest5name1_HORDE = "Schwert des Omens"
-Inst19Quest5name2_HORDE = "Prophetenkrückstock"
-Inst19Quest5name3_HORDE = "Drachenblut-Halskette"
-
---QUEST 6 Horde
-Inst19Quest6_HORDE = "6. Rituale der Macht (Magier)"
-Inst19Quest6_HORDE_Level = "40"
-Inst19Quest6_HORDE_Attain = "31"
-Inst19Quest6_HORDE_Aim = "Bringt das Buch 'Rituale der Macht' zu Tabetha in den Marschen von Dustwallow."
-Inst19Quest6_HORDE_Location = "Tabetha (Marschen von Dustwallow; "..YELLOW.."46,57 "..WHITE..")"
-Inst19Quest6_HORDE_Note = "Dieser Quest kann nur von Magiern angenommen werden!\nDas Buch findet man im Bibliotheksteil der Instanz."
-Inst19Quest6_HORDE_Prequest = "Ja, Der Knüller schlechthin"
-Inst19Quest6_HORDE_Folgequest = "Ja, Der Zauberstab des Magiers"
+Inst19Quest5name2_HORDE = "Stock des Propheten"
+Inst19Quest5name3_HORDE = "Drachenbluthalskette"
 
 
 --------------- INST20 - Scholomance (Scholo) ---------------
