@@ -6129,12 +6129,12 @@ Inst39Quest8_Folgequest = "No"
 Inst39Quest8name1 = "Badge of Justice"
 
 --Quest 9 Alliance
-Inst39Quest9 = "9. Wanted: Shattered Hand Centurions (Heroic Daily)"
+Inst39Quest9 = "9. Wanted: Shattered Hand Centurions (Daily)"
 Inst39Quest9_Level = "70"
 Inst39Quest9_Attain = "70"
 Inst39Quest9_Aim = "Nether-Stalker Mah'duun has tasked you with the deaths of 4 Shattered Hand Centurions. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
 Inst39Quest9_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst39Quest9_Note = "This daily quest can only be completed on Heroic difficulty.\n\nYou'll find the Centurion's in Sparring Hall."
+Inst39Quest9_Note = "This is a daily quest."
 Inst39Quest9_Prequest = "No"
 Inst39Quest9_Folgequest = "No"
 --
@@ -6226,7 +6226,7 @@ Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
 Inst39Quest7name1_HORDE = Inst39Quest8name1
 
 --Quest 8 Horde  (same as Quest 9 Alliance)
-Inst39Quest8_HORDE = "8. Wanted: Shattered Hand Centurions (Heroic Daily)"
+Inst39Quest8_HORDE = "8. Wanted: Shattered Hand Centurions (Daily)"
 Inst39Quest8_HORDE_Level = Inst39Quest9_Level
 Inst39Quest8_HORDE_Attain = Inst39Quest9_Attain
 Inst39Quest8_HORDE_Aim = Inst39Quest9_Aim
@@ -6312,8 +6312,8 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 Inst41Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst41Caption = "CR: The Slave Pens"
-Inst41QAA = "1 Quest"
-Inst41QAH = "1 Quest"
+Inst41QAA = "2 Quests"
+Inst41QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst41Quest1 = "1. Lost in Action"
@@ -6329,6 +6329,18 @@ Inst41Quest1PreQuest = "true"
 Inst41Quest1name1 = "Cenarion Ring of Casting"
 Inst41Quest1name2 = "Goldenvine Wraps"
 Inst41Quest1name3 = "Dark Cloak of the Marsh"
+
+--Quest 2 Alliance
+Inst41Quest2 = "2. Wanted: The Heart of Quagmirran (Heroic Daily)"
+Inst41Quest2_Level = "70"
+Inst41Quest2_Attain = "70"
+Inst41Quest2_Aim = "Wind Trader Zhareem has asked you to obtain The Heart of Quagmirran. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst41Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst41Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nQuagmirran is at "..YELLOW.."[6]"..WHITE.."."
+Inst41Quest2_Prequest = "No"
+Inst41Quest2_Folgequest = "No"
+--
+Inst41Quest2name1 = "Badge of Justice"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6346,14 +6358,26 @@ Inst41Quest1name1_HORDE = Inst41Quest1name1
 Inst41Quest1name2_HORDE = Inst41Quest1name2
 Inst41Quest1name3_HORDE = Inst41Quest1name3
 
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst41Quest2_HORDE = Inst41Quest2
+Inst41Quest2_HORDE_Level = Inst41Quest2_Level
+Inst41Quest2_HORDE_Attain = Inst41Quest2_Attain
+Inst41Quest2_HORDE_Aim = Inst41Quest2_Aim
+Inst41Quest2_HORDE_Location = Inst41Quest2_Location
+Inst41Quest2_HORDE_Note = Inst41Quest2_Note
+Inst41Quest2_HORDE_Prequest = Inst41Quest2_Prequest
+Inst41Quest2_HORDE_Folgequest = Inst41Quest2_Folgequest
+--
+Inst41Quest2name1_HORDE = Inst41Quest2name1
+
 
 
 --------------- INST42 - CR: The Steamvault (SV) ---------------
 
 Inst42Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst42Caption = "CR: The Steamvault"
-Inst42QAA = "5 Quests"
-Inst42QAH = "5 Quests"
+Inst42QAA = "7 Quests"
+Inst42QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst42Quest1 = "1. The Warlord's Hideout"
@@ -6415,6 +6439,30 @@ Inst42Quest5_Prequest = "Yes, Entry Into Karazhan ("..YELLOW.."Auch: Shadow Laby
 Inst42Quest5_Folgequest = "Yes, The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
 Inst42Quest5PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst42Quest6 = "6. Wanted: Coilfang Myrmidons (Daily)"
+Inst42Quest6_Level = "70"
+Inst42Quest6_Attain = "70"
+Inst42Quest6_Aim = "Nether-Stalker Mah'duun has asked you to slay 14 Coilfang Myrmidons. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst42Quest6_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest6_Note = "This is a daily quest."
+Inst42Quest6_Prequest = "No"
+Inst42Quest6_Folgequest = "No"
+--
+Inst42Quest6name1 = "Ethereum Prison Key"
+
+--Quest 7 Alliance
+Inst42Quest7 = "7. Wanted: The Warlord's Treatise (Heroic Daily)"
+Inst42Quest7_Level = "70"
+Inst42Quest7_Attain = "70"
+Inst42Quest7_Aim = "Wind Trader Zhareem has asked you to acquire The Warlord's Treatise. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst42Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[4]"..WHITE.."."
+Inst42Quest7_Prequest = "No"
+Inst42Quest7_Folgequest = "No"
+--
+Inst42Quest7name1 = "Badge of Justice"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6478,14 +6526,38 @@ Inst42Quest5_HORDE_Folgequest = Inst42Quest5_Folgequest
 Inst42Quest5PreQuest_HORDE = Inst42Quest5PreQuest
 -- No Rewards for this quest
 
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst42Quest6_HORDE = Inst42Quest6
+Inst42Quest6_HORDE_Level = Inst42Quest6_Level
+Inst42Quest6_HORDE_Attain = Inst42Quest6_Attain
+Inst42Quest6_HORDE_Aim = Inst42Quest6_Aim
+Inst42Quest6_HORDE_Location = Inst42Quest6_Location
+Inst42Quest6_HORDE_Note = Inst42Quest6_Note
+Inst42Quest6_HORDE_Prequest = Inst42Quest6_Prequest
+Inst42Quest6_HORDE_Folgequest = Inst42Quest6_Folgequest
+--
+Inst42Quest6name1_HORDE = Inst42Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst42Quest7_HORDE = Inst42Quest7
+Inst42Quest7_HORDE_Level = Inst42Quest7_Level
+Inst42Quest7_HORDE_Attain = Inst42Quest7_Attain
+Inst42Quest7_HORDE_Aim = Inst42Quest7_Aim
+Inst42Quest7_HORDE_Location = Inst42Quest7_Location
+Inst42Quest7_HORDE_Note = Inst42Quest7_Note
+Inst42Quest7_HORDE_Prequest = Inst42Quest7_Prequest
+Inst42Quest7_HORDE_Folgequest = Inst42Quest7_Folgequest
+--
+Inst42Quest7name1_HORDE = Inst42Quest7name1
+
 
 
 --------------- INST43 - CR: The Underbog (UB) ---------------
 
 Inst43Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst43Caption = "CR: The Underbog"
-Inst43QAA = "3 Quests"
-Inst43QAH = "3 Quests"
+Inst43QAA = "4 Quests"
+Inst43QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst43Quest1 = "1. Lost in Action"
@@ -6527,6 +6599,18 @@ Inst43Quest3_Folgequest = "No"
 Inst43Quest3name1 = "Essence Infused Mushroom"
 Inst43Quest3name2 = "Power Infused Mushroom"
 
+--Quest 4 Alliance
+Inst43Quest4 = "4. Wanted: A Black Stalker Egg (Heroic Daily)"
+Inst43Quest4_Level = "70"
+Inst43Quest4_Attain = "70"
+Inst43Quest4_Aim = "Wind Trader Zhareem wants you to obtain a Black Stalker Egg. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst43Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst43Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Stalker is at "..YELLOW.."[5]"..WHITE.."."
+Inst43Quest4_Prequest = "No"
+Inst43Quest4_Folgequest = "No"
+--
+Inst43Quest4name1 = "Badge of Justice"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst43Quest1_HORDE = Inst43Quest1
@@ -6567,6 +6651,18 @@ Inst43Quest3_HORDE_Folgequest = Inst43Quest3_Folgequest
 --
 Inst43Quest3name1_HORDE = Inst43Quest3name1
 Inst43Quest3name2_HORDE = Inst43Quest3name2
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst43Quest4_HORDE = Inst43Quest4
+Inst43Quest4_HORDE_Level = Inst43Quest4_Level
+Inst43Quest4_HORDE_Attain = Inst43Quest4_Attain
+Inst43Quest4_HORDE_Aim = Inst43Quest4_Aim
+Inst43Quest4_HORDE_Location = Inst43Quest4_Location
+Inst43Quest4_HORDE_Note = Inst43Quest4_Note
+Inst43Quest4_HORDE_Prequest = Inst43Quest4_Prequest
+Inst43Quest4_HORDE_Folgequest = Inst43Quest4_Folgequest
+--
+Inst43Quest4name1_HORDE = Inst43Quest4name1
 
 
 

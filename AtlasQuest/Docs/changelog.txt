@@ -2,6 +2,22 @@
 Changelog
 =========
 
+Version 4.0.12 (by Thandrenn)
+
+- Updates for renamed Atlas 1.10.4 addons. (Telchar)
+- Fixed bug with quest names not being colored blue when CT Mod's Show Quest Level option was on. Big thanks to Denival for the fix.
+- Fixed bug where parentheses after a quest name (like in class quests) would break AtlasQuest's blue quest name option. Thanks again to Denival for the fix.
+- Removed fix for bEQL compatibility with quest names since bEQL handles that now.
+- Incorrectly had "Wanted: Shattered Hand Centurions" marked as a Heroic quest.
+- German localization updated by Telchar.
+
+- Quests added:
+	- Underbog: Wanted: A Black Stalker Egg (Heroic Daily)
+	- Slave Pens: Wanted: The Heart of Quagmirran (Heroic Daily)
+	- Steamvault: Wanted: Coilfang Myrmidons (Daily)
+	- Steamvault: Wanted: The Warlord's Treatise (Heroic Daily)
+
+
 Version 4.0.11 (by Thandrenn)
 
 - Updated some map file names and location numbers for Atlas 1.10.3.
@@ -10,8 +26,8 @@ Version 4.0.11 (by Thandrenn)
 - Fixed bug with Auchenai Crypts: Everything Will Be Alright (Horde version).
 - Fixed bug with Molten Core: A Binding Contract. Also affected "The Molten Core".
 - Fixed a few typos here and there, some Prequest icons were not showing up.
-- Added 'Story' for Doomwalker and Highlord Kruul. No quests.
-- Updated 'Story' for Doom Lord Kazzak and Eye of the Storm. No quests.
+- Added 'Story' for Doomwalker and Highlord Kruul. No quests.  (from Celellach)
+- Updated 'Story' for Doom Lord Kazzak and Eye of the Storm. No quests.  (from Celellach)
 - German localization updated by Telchar.
 - Simplified Chinese localization updated by yeachan.
 
