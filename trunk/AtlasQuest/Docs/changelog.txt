@@ -2,14 +2,15 @@
 Changelog
 =========
 
-Version 4.0.12 (by Thandrenn)
+Version 4.0.12
 
 - Updates for renamed Atlas 1.10.4 addons. (Telchar)
-- Fixed bug with quest names not being colored blue when CT Mod's Show Quest Level option was on. Big thanks to Denival for the fix.
-- Fixed bug where parentheses after a quest name (like in class quests) would break AtlasQuest's blue quest name option. Thanks again to Denival for the fix.
+- Fixed bug with quest names not being colored blue when CT Mod's Show Quest Level option was on.  Big thanks to Denival for the fix!
+- Fixed bug where parentheses after a quest name (like in class quests) would break AtlasQuest's blue quest name option.  Thanks again to Denival for the fix.
 - Removed fix for bEQL compatibility with quest names since bEQL handles that now.
 - Incorrectly had "Wanted: Shattered Hand Centurions" marked as a Heroic quest.
 - German localization updated by Telchar.
+- Usual fixes for typos and such. Thanks to Telchar for finding some I missed.
 
 - Quests added:
 	- Underbog: Wanted: A Black Stalker Egg (Heroic Daily)
