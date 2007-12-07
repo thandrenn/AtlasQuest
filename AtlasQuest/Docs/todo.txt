@@ -3,7 +3,6 @@ ToDo List
 =========
 
 - Add Battlegrounds quests.
-- Add Heroic & Daily dungeon quests.
 - BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
 
 
@@ -83,31 +82,6 @@ N/A	N/A	65 = Doomwalker
 
 
 Add Quests:
-
-
-
-
-Dungeon Heroic Dailys:
-
-Auch:
-- Auch Crypts: Wanted: The Exarch's Soul Gem  http://www.wowhead.com/?quest=11374
-- Mana Tombs: Wanted: Shaffar's Wondrous Pendant  http://www.wowhead.com/?quest=11373
-- Sethekk Halls: Wanted: The Headfeathers of Ikiss  http://www.wowhead.com/?quest=11372
-- Shadow Labyrinth: Wanted: Malicious Instructors  http://www.wowhead.com/?quest=11376
-- Shadow Labyrinth: Wanted: Murmur's Whisper  http://www.wowhead.com/?quest=11375
-
-TK:
-- Mechanar: Wanted: Pathaleon's Projector  http://www.wowhead.com/?quest=11386
-- Mechanar: Wanted: Tempest-Forge Destroyers  http://www.wowhead.com/?quest=11387
-- Botanica: Wanted: A Warp Splinter Clipping  http://www.wowhead.com/?quest=11384
-- Botanica: Wanted: Sunseeker Channelers  http://www.wowhead.com/?quest=11385
-- Arcatraz: Wanted: Arcatraz Sentinels  http://www.wowhead.com/?quest=11389
-- Arcatraz: Wanted: The Scroll of Skyriss  http://www.wowhead.com/?quest=11388
-
-CoT:
-- Durnholde: Wanted: The Epoch Hunter's Head  http://www.wowhead.com/?quest=11378
-- Black Morass: Wanted: Aeonus's Hourglass  http://www.wowhead.com/?quest=11382
-- Black Morass: Wanted: Rift Lords  http://www.wowhead.com/?quest=11383
 
 
 
