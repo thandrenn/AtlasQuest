@@ -22,8 +22,10 @@
 --]]
 
 
------------- TEXT VARIABLES
---Color
+---------------
+--- COLOURS ---
+---------------
+
 local GREY = "|cff999999";
 local RED = "|cffff0000";
 local REDA = "|cffcc6666";
@@ -34,43 +36,54 @@ local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
---*********************
--- Options translation
---*********************
+
+
+---------------
+--- OPTIONS ---
+---------------
+
 AQHelpText = ""..WHITE.."type /aq or atlasquest "..YELLOW.."[command]"..WHITE.."\ncommands: help; option/config; show/hide; left/right; colour; autoshow"..RED.."(only Atlas)"
 --
 AQOptionsCaptionTEXT = "AtlasQuest Options";
 AQ_OK = "OK"
--- autoshow
+
+-- Autoshow
 AQOptionsAutoshowTEXT = ""..WHITE.."Show AtlasQuest panel with "..RED.."Atlas"..WHITE..".";
 AQAtlasAutoON = "The AtlasQuest panel will be automatically displayed when atlas is opened."..GREEN.."(default)"
 AQAtlasAutoOFF = "The AtlasQuest panel "..RED.."will not"..WHITE.." be displayed when you open atlas."
--- right/left
+
+-- Right/Left
 AQOptionsLEFTTEXT = ""..WHITE.."Show the AtlasQuest panel "..RED.."left"..WHITE..".";
 AQOptionsRIGHTTEXT = ""..WHITE.."Show the AtlasQuest panel "..RED.."right"..WHITE..".";
 AQShowRight = "Now shows the AtlasQuest Panel on the "..RED.."right"..WHITE.." side.";
 AQShowLeft = "Now shows the AtlasQuest Panel on the "..RED.."left"..WHITE.." side "..GREEN.."(default)";
+
 -- Colour Check
 AQOptionsCCTEXT = ""..WHITE.."Recolour the quests depending on their levels."
 AQCCON = "AtlasQuest will now recolour quests depending on their levels."
 AQCCOFF = "AtlasQuest will not recolour quests."
+
 -- QuestLog Colour Check
 AQQLColourChange = ""..WHITE.."Colours all quest, you have in your Questlog "..BLUE.."blue."
--- Set Fraction Option
---AQOptionsSetFractionTEXT = "" .. WHITE .. "Shows the " .. BLUE .. "Alliance part" .. WHITE .. " as default, when you open AtlasQuest.";
+
+-- AutoQuery Quest Rewards
+AQOptionsAutoQueryTEXT = ""..WHITE.."Automatically query the server for items you haven't seen."
+
+-- Use Comparison Tooltips
+AQOptionsCompareTooltipTEXT = ""..WHITE.."Compare rewards to currently equipped items."
+
 -- Set Equip Compare
 AQOptionEquipCompareTEXT = "Use Equip Compare."
 
 
 AQAbilities = BLUE .. "Abilities:" .. WHITE;
-AQFinishedTEXT = "Quest finished: ";
 AQSERVERASKInformation = " Please click right until you see the Item frame."
 AQSERVERASK = "Query the server for: "
+AQERRORNOTSHOWN = "This item is not safe!"
+AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be disconnected."
 AQOptionB = "Options"
 AQStoryB = "Story"
 AQNoReward = ""..BLUE.." No Rewards"
-AQERRORNOTSHOWN = "This item is not safe!"
-AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be disconnected."
 AQDiscription_OR = ""..GREY.." or "..WHITE..""
 AQDiscription_AND = ""..GREY.." and "..WHITE..""
 AQDiscription_REWARD = ""..BLUE.." Reward: "
@@ -81,8 +94,14 @@ AQDiscription_AIM = "Objective: \n"
 AQDiscription_NOTE = "Note: \n"
 AQDiscription_PREQUEST= "Prequest: "
 AQDiscription_FOLGEQUEST = "Quest follows: "
+AQFinishedTEXT = "Quest finished: ";
 
--- ITEM TRANSLATION
+
+
+------------------
+--- ITEM TYPES ---
+------------------
+
 AQITEM_DAGGER = " Dagger"
 AQITEM_POLEARM = " Polearm"
 AQITEM_SWORD = " Sword"
@@ -115,13 +134,13 @@ AQITEM_MAINHAND = "Main Hand,"
 AQITEM_ONEHAND = "One-Hand,"
 AQITEM_TWOHAND = "Two-Hand,"
 
+AQITEM_ITEM = "Item" -- Use this for those oddball rewards which aren't really anything else.
 AQITEM_TRINKET = "Trinket"
 AQITEM_RELIC = "Relic"
 AQITEM_POTION = "Potion"
 AQITEM_OFFHAND = "Held In Hand"
 AQITEM_NECK = "Neck"
 AQITEM_PATTERN = "Pattern"
-AQITEM_ITEM = "Item" -- Use this for those oddball rewards which aren't really anything else.
 AQITEM_BAG = "Bag"
 AQITEM_RING = "Ring"
 AQITEM_KEY = "Key"
@@ -6670,8 +6689,8 @@ Inst43Quest4name1_HORDE = Inst43Quest4name1
 
 Inst44Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst44Caption = "Auch: Auchenai Crypts"
-Inst44QAA = "1 Quest"
-Inst44QAH = "3 Quests"
+Inst44QAA = "2 Quests"
+Inst44QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst44Quest1 = "1. Everything Will Be Alright"
@@ -6688,6 +6707,18 @@ Inst44Quest1name1 = "Auchenai Anchorite's Robe"
 Inst44Quest1name2 = "Auchenai Monk's Tunic"
 Inst44Quest1name3 = "Auchenai Tracker's Hauberk"
 Inst44Quest1name4 = "The Exarch's Protector"
+
+--Quest 2 Alliance
+Inst44Quest2 = "2. Wanted: The Exarch's Soul Gem (Heroic Daily)"
+Inst44Quest2_Level = "70"
+Inst44Quest2_Attain = "70"
+Inst44Quest2_Aim = "Wind Trader Zhareem has asked you to recover The Exarch's Soul Gem. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst44Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst44Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nExarch Maladaar is at "..YELLOW.."[2]"..WHITE.."."
+Inst44Quest2_Prequest = "No"
+Inst44Quest2_Folgequest = "No"
+--
+Inst44Quest2name1 = "Badge of Justice"
 
 
 --Quest 1 Horde
@@ -6730,14 +6761,26 @@ Inst44Quest3name2_HORDE = Inst44Quest1name2
 Inst44Quest3name3_HORDE = Inst44Quest1name3
 Inst44Quest3name4_HORDE = Inst44Quest1name4
 
+--Quest 4 Horde  (same as Quest 2 Alliance)
+Inst44Quest4_HORDE = "4. Wanted: The Exarch's Soul Gem (Heroic Daily)"
+Inst44Quest4_HORDE_Level = Inst44Quest2_Level
+Inst44Quest4_HORDE_Attain = Inst44Quest2_Attain
+Inst44Quest4_HORDE_Aim = Inst44Quest2_Aim
+Inst44Quest4_HORDE_Location = Inst44Quest2_Location
+Inst44Quest4_HORDE_Note = Inst44Quest2_Note
+Inst44Quest4_HORDE_Prequest = Inst44Quest2_Prequest
+Inst44Quest4_HORDE_Folgequest = Inst44Quest2_Folgequest
+--
+Inst44Quest4name1_HORDE = Inst44Quest2name1
+
 
 
 --------------- INST45 - Auchindoun: Mana Tombs (MT) ---------------
 
 Inst45Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst45Caption = "Auch: Mana Tombs"
-Inst45QAA = "4 Quests"
-Inst45QAH = "4 Quests"
+Inst45QAA = "5 Quests"
+Inst45QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst45Quest1 = "1. Safety Is Job One"
@@ -6793,6 +6836,18 @@ Inst45Quest4_Folgequest = "No"
 Inst45Quest4PreQuest = "true"
 --
 Inst45Quest4name1 = "Badge of Justice"
+
+--Quest 5 Alliance
+Inst45Quest5 = "5. Wanted: Shaffar's Wondrous Pendant (Heroic Daily)"
+Inst45Quest5_Level = "70"
+Inst45Quest5_Attain = "70"
+Inst45Quest5_Aim = "Wind Trader Zhareem wants you to obtain Shaffar's Wondrous Amulet. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst45Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst45Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNexus-Prince Shaffar is at "..YELLOW.."[5]"..WHITE.."."
+Inst45Quest5_Prequest = "No"
+Inst45Quest5_Folgequest = "No"
+--
+Inst45Quest5name1 = "Badge of Justice"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6850,14 +6905,26 @@ Inst45Quest4PreQuest_HORDE = Inst45Quest4PreQuest
 --
 Inst45Quest4name1_HORDE = Inst45Quest4name1
 
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst45Quest5_HORDE = Inst45Quest5
+Inst45Quest5_HORDE_Level = Inst45Quest5_Level
+Inst45Quest5_HORDE_Attain = Inst45Quest5_Attain
+Inst45Quest5_HORDE_Aim = Inst45Quest5_Aim
+Inst45Quest5_HORDE_Location = Inst45Quest5_Location
+Inst45Quest5_HORDE_Note = Inst45Quest5_Note
+Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
+Inst45Quest5_HORDE_Folgequest = Inst45Quest5_Folgequest
+--
+Inst45Quest5name1_HORDE = Inst45Quest5name1
+
 
 
 --------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
 
 Inst46Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst46Caption = "Auch: Sethekk Halls"
-Inst46QAA = "4 Quests"
-Inst46QAH = "4 Quests"
+Inst46QAA = "5 Quests"
+Inst46QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst46Quest1 = "1. Brother Against Brother"
@@ -6912,6 +6979,18 @@ Inst46Quest4_Prequest = "Yes, A Colleague's Aid ("..YELLOW.."Karazhan"..WHITE.."
 Inst46Quest4_Folgequest = "Yes, Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
 Inst46Quest4PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst46Quest5 = "5. Wanted: The Headfeathers of Ikiss (Heroic Daily)"
+Inst46Quest5_Level = "70"
+Inst46Quest5_Attain = "70"
+Inst46Quest5_Aim = "Wind Trader Zhareem has asked you to acquire The Headfeathers of Ikiss. Deliver them to him in Shattrath's Lower City to collect the reward."
+Inst46Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst46Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nTalon King Ikiss is at "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest5_Prequest = "No"
+Inst46Quest5_Folgequest = "No"
+--
+Inst46Quest5name1 = "Badge of Justice"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6968,14 +7047,26 @@ Inst46Quest4_HORDE_Folgequest = Inst46Quest4_Folgequest
 Inst46Quest4PreQuest_HORDE = Inst46Quest4PreQuest
 -- No Rewards for this quest
 
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst46Quest5_HORDE = Inst46Quest5
+Inst46Quest5_HORDE_Level = Inst46Quest5_Level
+Inst46Quest5_HORDE_Attain = Inst46Quest5_Attain
+Inst46Quest5_HORDE_Aim = Inst46Quest5_Aim
+Inst46Quest5_HORDE_Location = Inst46Quest5_Location
+Inst46Quest5_HORDE_Note = Inst46Quest5_Note
+Inst46Quest5_HORDE_Prequest = Inst46Quest5_Prequest
+Inst46Quest5_HORDE_Folgequest = Inst46Quest5_Folgequest
+--
+Inst46Quest5name1_HORDE = Inst46Quest5name1
+
 
 
 --------------- INST47 - Auchindoun: Shadow Labyrinth (SLabs) ---------------
 
 Inst47Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst47Caption = "Auch: Shadow Labyrinth"
-Inst47QAA = "9 Quests"
-Inst47QAH = "9 Quests"
+Inst47QAA = "11 Quests"
+Inst47QAH = "11 Quests"
 
 --Quest 1 Alliance
 Inst47Quest1 = "1. Find Spy To'gun"
@@ -7088,6 +7179,30 @@ Inst47Quest9_Prequest = "Yes, Additional Materials"
 Inst47Quest9_Folgequest = "No"
 Inst47Quest9PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst47Quest10 = "10. Wanted: Murmur's Whisper (Heroic Daily)"
+Inst47Quest10_Level = "70"
+Inst47Quest10_Attain = "70"
+Inst47Quest10_Aim = "Wind Trader Zhareem has asked you to obtain Murmur's Whisper. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst47Quest10_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst47Quest10_Note = "This daily quest can only be completed on Heroic difficulty.\n\nMurmur is at "..YELLOW.."[5]"..WHITE.."."
+Inst47Quest10_Prequest = "No"
+Inst47Quest10_Folgequest = "No"
+--
+Inst47Quest10name1 = "Badge of Justice"
+
+--Quest 11 Alliance
+Inst47Quest11 = "11. Wanted: Malicious Instructors (Daily)"
+Inst47Quest11_Level = "70"
+Inst47Quest11_Attain = "70"
+Inst47Quest11_Aim = "Nether-Stalker Mah'duun wants you to kill 3 Malicious Instructors. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst47Quest11_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst47Quest11_Note = "This is a daily quest."
+Inst47Quest11_Prequest = "No"
+Inst47Quest11_Folgequest = "No"
+--
+Inst47Quest11name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7202,6 +7317,30 @@ Inst47Quest9_HORDE_Folgequest = Inst47Quest9_Folgequest
 Inst47Quest9PreQuest_HORDE = Inst47Quest8PreQuest
 -- No Rewards for this quest
 
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst47Quest10_HORDE = Inst47Quest10
+Inst47Quest10_HORDE_Level = Inst47Quest10_Level
+Inst47Quest10_HORDE_Attain = Inst47Quest10_Attain
+Inst47Quest10_HORDE_Aim = Inst47Quest10_Aim
+Inst47Quest10_HORDE_Location = Inst47Quest10_Location
+Inst47Quest10_HORDE_Note = Inst47Quest10_Note
+Inst47Quest10_HORDE_Prequest = Inst47Quest10_Prequest
+Inst47Quest10_HORDE_Folgequest = Inst47Quest10_Folgequest
+--
+Inst47Quest10name1_HORDE = Inst47Quest10name1
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst47Quest11_HORDE = Inst47Quest11
+Inst47Quest11_HORDE_Level = Inst47Quest11_Level
+Inst47Quest11_HORDE_Attain = Inst47Quest11_Attain
+Inst47Quest11_HORDE_Aim = Inst47Quest11_Aim
+Inst47Quest11_HORDE_Location = Inst47Quest11_Location
+Inst47Quest11_HORDE_Note = Inst47Quest11_Note
+Inst47Quest11_HORDE_Prequest = Inst47Quest11_Prequest
+Inst47Quest11_HORDE_Folgequest = Inst47Quest11_Folgequest
+--
+Inst47Quest11name1_HORDE = Inst47Quest11name1
+
 
 
 --------------- INST48 - CR: Serpentshrine Cavern (SSC) ---------------
@@ -7240,8 +7379,8 @@ Inst48Quest1_HORDE_Folgequest = Inst48Quest1_Folgequest
 
 Inst49Story = "Medivh, the last of the magical Guardians of Tirisfal, was possessed at birth by the evil Titan, Sargeras.\n\nIt was Medivh who first contacted the corrupt orc sorcerer Gul'dan, also in the service of the Burning Legion.\n\nTogether they sought to bridge the dimensional gap between Azeroth and Draenor, homeworld of the orcs, to facilitate the destruction of Azeroth.\n\nOn the appointed day both Medivh and Gul'dan concentrated their considerable magic energies, forcing the collapse of the dimensional barrier.\n\nThe setting of this event is the Black Morass, now known as the Blasted Lands.\n\nPlayers will reportedly defend Medivh as he opens the portal."
 Inst49Caption = "CoT: Black Morass"
-Inst49QAA = "5 Quests"
-Inst49QAH = "5 Quests"
+Inst49QAA = "7 Quests"
+Inst49QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst49Quest1 = "1. The Black Morass"
@@ -7305,6 +7444,30 @@ Inst49Quest5_Prequest = "Yes, Master of Elixirs"
 Inst49Quest5_Folgequest = "No"
 Inst49Quest5PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst49Quest6 = "6. Wanted: Aeonus's Hourglass (Heroic Daily)"
+Inst49Quest6_Level = "70"
+Inst49Quest6_Attain = "70"
+Inst49Quest6_Aim = "Wind Trader Zhareem has asked you to acquire Aeonus's Hourglass. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst49Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst49Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nAeonus spawns in the last wave."
+Inst49Quest6_Prequest = "No"
+Inst49Quest6_Folgequest = "No"
+--
+Inst49Quest6name1 = "Badge of Justice"
+
+--Quest 7 Alliance
+Inst49Quest7 = "7. Wanted: Rift Lords (Daily)"
+Inst49Quest7_Level = "70"
+Inst49Quest7_Attain = "70"
+Inst49Quest7_Aim = "Nether-Stalker Mah'duun wants you to kill 4 Rift Lords. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst49Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst49Quest7_Note = "This is a daily quest."
+Inst49Quest7_Prequest = "No"
+Inst49Quest7_Folgequest = "No"
+--
+Inst49Quest7name1 = "Badge of Justice"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7370,6 +7533,30 @@ Inst49Quest5_HORDE_Folgequest = Inst49Quest5_Folgequest
 Inst49Quest5PreQuest_HORDE = Inst49Quest5PreQuest
 -- No Rewards for this quest
 
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst49Quest6_HORDE = Inst49Quest6
+Inst49Quest6_HORDE_Level = Inst49Quest6_Level
+Inst49Quest6_HORDE_Attain = Inst49Quest6_Attain
+Inst49Quest6_HORDE_Aim = Inst49Quest6_Aim
+Inst49Quest6_HORDE_Location = Inst49Quest6_Location
+Inst49Quest6_HORDE_Note = Inst49Quest6_Note
+Inst49Quest6_HORDE_Prequest = Inst49Quest6_Prequest
+Inst49Quest6_HORDE_Folgequest = Inst49Quest6_Folgequest
+--
+Inst49Quest6name1_HORDE = Inst49Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst49Quest7_HORDE = Inst49Quest7
+Inst49Quest7_HORDE_Level = Inst49Quest7_Level
+Inst49Quest7_HORDE_Attain = Inst49Quest7_Attain
+Inst49Quest7_HORDE_Aim = Inst49Quest7_Aim
+Inst49Quest7_HORDE_Location = Inst49Quest7_Location
+Inst49Quest7_HORDE_Note = Inst49Quest7_Note
+Inst49Quest7_HORDE_Prequest = Inst49Quest7_Prequest
+Inst49Quest7_HORDE_Folgequest = Inst49Quest7_Folgequest
+--
+Inst49Quest7name1_HORDE = Inst49Quest7name1
+
 
 
 --------------- INST50 - CoT: Battle of Mount Hyjal ---------------
@@ -7410,8 +7597,8 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 
 Inst51Story = "Durnholde Keep was the headquarters of the orcish internment camps in southern Lordaeron following the Horde's defeat in the Second War.\n\nAt this time, Thrall was a 19-year-old slave to human officer Aedelas Blackmoore, who intended to use Thrall as a puppet Warchief to control the orcish Horde and thus gain power over his fellow humans.\n\nHowever, Thrall knew that he was destined for more, and so he made his escape from Durnholde to find others of his kind, eventually discovering the Frostwolf Clan and his place as Warchief.\n\nThis instance will contain the entire Hillsbrad area as it appeared 10 years ago, before the Horde destroyed Durnholde and Tarren Mill fell to the undead"
 Inst51Caption = "CoT: Old Hillsbrad"
-Inst51QAA = "4 Quests"
-Inst51QAH = "4 Quests"
+Inst51QAA = "5 Quests"
+Inst51QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst51Quest1 = "1. Old Hillsbrad"
@@ -7465,6 +7652,18 @@ Inst51Quest4name2 = "Southshore Sneakers"
 Inst51Quest4name3 = "Tarren Mill Defender's Cinch"
 Inst51Quest4name4 = "Warchief's Mantle"
 
+--Quest 5 Alliance
+Inst51Quest5 = "5. Wanted: The Epoch Hunter's Head (Heroic Daily)"
+Inst51Quest5_Level = "70"
+Inst51Quest5_Attain = "70"
+Inst51Quest5_Aim = "Wind Trader Zhareem has asked you to obtain the Epoch Hunter's Head. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst51Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst51Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nEpoch Hunter is at "..YELLOW.."[5]"..WHITE.."."
+Inst51Quest5_Prequest = "No"
+Inst51Quest5_Folgequest = "No"
+--
+Inst51Quest5name1 = "Badge of Justice"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst51Quest1_HORDE = Inst51Quest1
@@ -7517,6 +7716,18 @@ Inst51Quest4name1_HORDE = Inst51Quest4name1
 Inst51Quest4name2_HORDE = Inst51Quest4name2
 Inst51Quest4name3_HORDE = Inst51Quest4name3
 Inst51Quest4name4_HORDE = Inst51Quest4name4
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst51Quest5_HORDE = Inst51Quest5
+Inst51Quest5_HORDE_Level = Inst51Quest5_Level
+Inst51Quest5_HORDE_Attain = Inst51Quest5_Attain
+Inst51Quest5_HORDE_Aim = Inst51Quest5_Aim
+Inst51Quest5_HORDE_Location = Inst51Quest5_Location
+Inst51Quest5_HORDE_Note = Inst51Quest5_Note
+Inst51Quest5_HORDE_Prequest = Inst51Quest5_Prequest
+Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
+--
+Inst51Quest5name1_HORDE = Inst51Quest5name1
 
 
 
@@ -7905,8 +8116,8 @@ Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
 
 Inst54Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Arcatraz is the third wing of the Tempest Keep instance.\n\nThe Arcatraz is accessible either through a quest chain for the key that requires you to complete both Mechanar and Botanica, that begins with a long quest chain called (A Heap of Ethereals) from Nether-Stalker Khay'ji in Area 52, or be picked by a lvl 70 Rogue (with 350 LP).\n\nOnly one member of your group must have the key. The entrance portal is high above the other Tempest Keep instances.\n\nOne full run yields about 1750 reputation with the Sha'tar."
 Inst54Caption = "TK: The Arcatraz"
-Inst54QAA = "4 Quests"
-Inst54QAH = "4 Quests"
+Inst54QAA = "6 Quests"
+Inst54QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst54Quest1 = "1. Harbinger of Doom"
@@ -7957,6 +8168,30 @@ Inst54Quest4_Prequest = "Yes, Entry Into Karazhan ("..YELLOW.."Auch: Shadow Laby
 Inst54Quest4_Folgequest = "Yes, The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
 Inst54Quest4PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst54Quest5 = "5. Wanted: The Scroll of Skyriss (Heroic Daily)"
+Inst54Quest5_Level = "70"
+Inst54Quest5_Attain = "70"
+Inst54Quest5_Aim = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst54Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[6]"..WHITE.."."
+Inst54Quest5_Prequest = "No"
+Inst54Quest5_Folgequest = "No"
+--
+Inst54Quest5name1 = "Badge of Justice"
+
+--Quest 6 Alliance
+Inst54Quest6 = "6. Wanted: Arcatraz Sentinels (Daily)"
+Inst54Quest6_Level = "70"
+Inst54Quest6_Attain = "70"
+Inst54Quest6_Aim = "Nether-Stalker Mah'duun wants you to dismantle 5 Arcatraz Sentinels. Return to him in Shattrath's Lower City once that has been accomplished in order to collect the bounty."
+Inst54Quest6_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest6_Note = "This is a daily quest."
+Inst54Quest6_Prequest = "No"
+Inst54Quest6_Folgequest = "No"
+--
+Inst54Quest6name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8009,14 +8244,38 @@ Inst54Quest4_HORDE_Folgequest = Inst54Quest4_Folgequest
 Inst54Quest4PreQuest_HORDE = Inst54Quest4PreQuest
 -- No Rewards for this quest
 
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst54Quest5_HORDE = Inst54Quest5
+Inst54Quest5_HORDE_Level = Inst54Quest5_Level
+Inst54Quest5_HORDE_Attain = Inst54Quest5_Attain
+Inst54Quest5_HORDE_Aim = Inst54Quest5_Aim
+Inst54Quest5_HORDE_Location = Inst54Quest5_Location
+Inst54Quest5_HORDE_Note = Inst54Quest5_Note
+Inst54Quest5_HORDE_Prequest = Inst54Quest5_Prequest
+Inst54Quest5_HORDE_Folgequest = Inst54Quest5_Folgequest
+--
+Inst54Quest5name1_HORDE = Inst54Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst54Quest6_HORDE = Inst54Quest6
+Inst54Quest6_HORDE_Level = Inst54Quest6_Level
+Inst54Quest6_HORDE_Attain = Inst54Quest6_Attain
+Inst54Quest6_HORDE_Aim = Inst54Quest6_Aim
+Inst54Quest6_HORDE_Location = Inst54Quest6_Location
+Inst54Quest6_HORDE_Note = Inst54Quest6_Note
+Inst54Quest6_HORDE_Prequest = Inst54Quest6_Prequest
+Inst54Quest6_HORDE_Folgequest = Inst54Quest6_Folgequest
+--
+Inst54Quest6name1_HORDE = Inst54Quest6name1
+
 
 
 --------------- INST55 - TK: Botanica (Bot) ---------------
 
 Inst55Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Botanica is the second wing of the Tempest Keep instance located directly north of the main palace (The blue crystal building).\n\nThis is also the place of Kael'thas commander: Commander Sarannis."
 Inst55Caption = "TK: The Botanica"
-Inst55QAA = "3 Quests"
-Inst55QAH = "3 Quests"
+Inst55QAA = "5 Quests"
+Inst55QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst55Quest1 = "1. How to Break Into the Arcatraz"
@@ -8059,6 +8318,30 @@ Inst55Quest3_Prequest = "Yes, Master of Potions"
 Inst55Quest3_Folgequest = "No"
 Inst55Quest3PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst55Quest4 = "4. Wanted: A Warp Splinter Clipping (Heroic Daily)"
+Inst55Quest4_Level = "70"
+Inst55Quest4_Attain = "70"
+Inst55Quest4_Aim = "Wind Trader Zhareem has asked you to obtain a Warp Splinter Clipping. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst55Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarp Splinter is at "..YELLOW.."[5]"..WHITE.."."
+Inst55Quest4_Prequest = "No"
+Inst55Quest4_Folgequest = "No"
+--
+Inst55Quest4name1 = "Badge of Justice"
+
+--Quest 5 Alliance
+Inst55Quest5 = "5. Wanted: Sunseeker Channelers (Daily)"
+Inst55Quest5_Level = "70"
+Inst55Quest5_Attain = "70"
+Inst55Quest5_Aim = "Nether-Stalker Mah'duun wants you to kill 6 Sunseeker Channelers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst55Quest5_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest5_Note = "This is a daily quest."
+Inst55Quest5_Prequest = "No"
+Inst55Quest5_Folgequest = "No"
+--
+Inst55Quest5name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8103,14 +8386,38 @@ Inst55Quest3_HORDE_Folgequest = Inst55Quest3_Folgequest
 Inst55Quest3PreQuest_HORDE = Inst55Quest3PreQuest
 -- No Rewards for this quest
 
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst55Quest4_HORDE = Inst55Quest4
+Inst55Quest4_HORDE_Level = Inst55Quest4_Level
+Inst55Quest4_HORDE_Attain = Inst55Quest4_Attain
+Inst55Quest4_HORDE_Aim = Inst55Quest4_Aim
+Inst55Quest4_HORDE_Location = Inst55Quest4_Location
+Inst55Quest4_HORDE_Note = Inst55Quest4_Note
+Inst55Quest4_HORDE_Prequest = Inst55Quest4_Prequest
+Inst55Quest4_HORDE_Folgequest = Inst55Quest4_Folgequest
+--
+Inst55Quest4name1_HORDE = Inst55Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst55Quest5_HORDE = Inst55Quest5
+Inst55Quest5_HORDE_Level = Inst55Quest5_Level
+Inst55Quest5_HORDE_Attain = Inst55Quest5_Attain
+Inst55Quest5_HORDE_Aim = Inst55Quest5_Aim
+Inst55Quest5_HORDE_Location = Inst55Quest5_Location
+Inst55Quest5_HORDE_Note = Inst55Quest5_Note
+Inst55Quest5_HORDE_Prequest = Inst55Quest5_Prequest
+Inst55Quest5_HORDE_Folgequest = Inst55Quest5_Folgequest
+--
+Inst55Quest5name1_HORDE = Inst55Quest5name1
+
 
 
 --------------- INST56 - TK: Mechanar (Mech) ---------------
 
 Inst56Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Mechanar is the first wing of the Tempest Keep instance.\n\nThis is the purple crystal building south of the main palace.\n\nRecommended level is 70. One full run yields about 1500 reputation with the Sha'tar."
 Inst56Caption = "TK: The Mechanar"
-Inst56QAA = "2 Quests"
-Inst56QAH = "2 Quests"
+Inst56QAA = "4 Quests"
+Inst56QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst56Quest1 = "1. How to Break Into the Arcatraz"
@@ -8142,6 +8449,30 @@ Inst56Quest2_Folgequest = "No"
 Inst56Quest2PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 3 Alliance
+Inst56Quest3 = "3. Wanted: Pathaleon's Projector (Heroic Daily)"
+Inst56Quest3_Level = "70"
+Inst56Quest3_Attain = "70"
+Inst56Quest3_Aim = "Wind Trader Zhareem has asked you to acquire Pathaleon's Projector. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst56Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPathaleon the Calculator is at "..YELLOW.."[5]"..WHITE.."."
+Inst56Quest3_Prequest = "No"
+Inst56Quest3_Folgequest = "No"
+--
+Inst56Quest3name1 = "Badge of Justice"
+
+--Quest 4 Alliance
+Inst56Quest4 = "4. Wanted: Tempest-Forge Destroyers (Daily)"
+Inst56Quest4_Level = "70"
+Inst56Quest4_Attain = "70"
+Inst56Quest4_Aim = "Nether-Stalker Mah'duun wants you to destroy 5 Tempest-Forge Destroyers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst56Quest4_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest4_Note = "This is a daily quest."
+Inst56Quest4_Prequest = "No"
+Inst56Quest4_Folgequest = "No"
+--
+Inst56Quest4name1 = "Ethereum Prison Key"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst56Quest1_HORDE = Inst56Quest1
@@ -8172,6 +8503,30 @@ Inst56Quest2_HORDE_Prequest = Inst56Quest2_Prequest
 Inst56Quest2_HORDE_Folgequest = Inst56Quest2_Folgequest
 Inst56Quest2PreQuest_HORDE = Inst56Quest2PreQuest
 -- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst56Quest3_HORDE = Inst56Quest3
+Inst56Quest3_HORDE_Level = Inst56Quest3_Level
+Inst56Quest3_HORDE_Attain = Inst56Quest3_Attain
+Inst56Quest3_HORDE_Aim = Inst56Quest3_Aim
+Inst56Quest3_HORDE_Location = Inst56Quest3_Location
+Inst56Quest3_HORDE_Note = Inst56Quest3_Note
+Inst56Quest3_HORDE_Prequest = Inst56Quest3_Prequest
+Inst56Quest3_HORDE_Folgequest = Inst56Quest3_Folgequest
+--
+Inst56Quest3name1_HORDE = Inst56Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst56Quest4_HORDE = Inst56Quest4
+Inst56Quest4_HORDE_Level = Inst56Quest4_Level
+Inst56Quest4_HORDE_Attain = Inst56Quest4_Attain
+Inst56Quest4_HORDE_Aim = Inst56Quest4_Aim
+Inst56Quest4_HORDE_Location = Inst56Quest4_Location
+Inst56Quest4_HORDE_Note = Inst56Quest4_Note
+Inst56Quest4_HORDE_Prequest = Inst56Quest4_Prequest
+Inst56Quest4_HORDE_Folgequest = Inst56Quest4_Folgequest
+--
+Inst56Quest4name1_HORDE = Inst56Quest4name1
 
 
 

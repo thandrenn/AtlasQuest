@@ -1,45 +1,6 @@
 Just some templates I can quickly copy/paste.
 
 
-
-===============================================================================
-
-HEROIC DAILY templates:
-
---Quest 3 Alliance
-Inst37Quest3 = "3.  (Heroic Daily)"
-Inst37Quest3_Level = "70"
-Inst37Quest3_Attain = "70"
-Inst37Quest3_Aim = ""
-Inst37Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst37Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNazan is at "..YELLOW.."[3]"..WHITE.."."
-Inst37Quest3_Prequest = "No"
-Inst37Quest3_Folgequest = "No"
---
-Inst37Quest3name1 = "Badge of Justice"
-
-
-
-Inst37Quest3_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-
-
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst37Quest3_HORDE = Inst37Quest3
-Inst37Quest3_HORDE_Level = Inst37Quest3_Level
-Inst37Quest3_HORDE_Attain = Inst37Quest3_Attain
-Inst37Quest3_HORDE_Aim = Inst37Quest3_Aim
-Inst37Quest3_HORDE_Location = Inst37Quest3_Location
-Inst37Quest3_HORDE_Note = Inst37Quest3_Note
-Inst37Quest3_HORDE_Prequest = Inst37Quest3_Prequest
-Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
---
-Inst37Quest3name1_HORDE = Inst37Quest3name1
-
-
-===============================================================================
-
-
 --Quest 1 Alliance
 Inst61Quest1 = ""
 Inst61Quest1_Level = ""

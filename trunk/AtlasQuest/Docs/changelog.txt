@@ -11,12 +11,28 @@ Version 4.0.12
 - Incorrectly had "Wanted: Shattered Hand Centurions" marked as a Heroic quest.
 - German localization updated by Telchar.
 - Usual fixes for typos and such. Thanks to Telchar for finding some I missed.
+- Added all Dungeon Daily quests.
 
 - Quests added:
 	- Underbog: Wanted: A Black Stalker Egg (Heroic Daily)
 	- Slave Pens: Wanted: The Heart of Quagmirran (Heroic Daily)
 	- Steamvault: Wanted: Coilfang Myrmidons (Daily)
 	- Steamvault: Wanted: The Warlord's Treatise (Heroic Daily)
+	- Auch Crypts: Wanted: The Exarch's Soul Gem (Heroic Daily)
+	- Mana Tombs: Wanted: Shaffar's Wondrous Pendant (Heroic Daily)
+	- Sethekk Halls: Wanted: The Headfeathers of Ikiss (Heroic Daily)
+	- Shadow Labyrinth: Wanted: Malicious Instructors (Daily)
+	- Shadow Labyrinth: Wanted: Murmur's Whisper (Heroic Daily)
+	- Escape from Durnholde: Wanted: The Epoch Hunter's Head  (Heroic Daily)
+	- Black Morass: Wanted: Aeonus's Hourglass  (Heroic Daily)
+	- Black Morass: Wanted: Rift Lords  (Daily)
+	- Mechanar: Wanted: Pathaleon's Projector  (Heroic Daily)
+	- Mechanar: Wanted: Tempest-Forge Destroyers  (Daily)
+	- Botanica: Wanted: A Warp Splinter Clipping  (Heroic Daily)
+	- Botanica: Wanted: Sunseeker Channelers  (Daily)
+	- Arcatraz: Wanted: Arcatraz Sentinels  (Daily)
+	- Arcatraz: Wanted: The Scroll of Skyriss  (Heroic Daily)
+
 
 
 Version 4.0.11 (by Thandrenn)
@@ -66,7 +82,7 @@ Version 4.0.11 (by Thandrenn)
 	- Hellfire Ramparts: Wanted: Nazan's Riding Crop (Heroic Daily)
 	- Blood Furnace: Wanted: Keli'dan's Feathered Stave (Heroic Daily)
 	- Shattered Halls: Wanted: Bladefist's Seal (Heroic Daily)
-	- Shattered Halls: Wanted: Shattered Hand Centurions (Heroic Daily)
+	- Shattered Halls: Wanted: Shattered Hand Centurions (Daily)
 	
 - Cleanup progress (DONE!):
 	- CF: Serpentshrine Cavern
