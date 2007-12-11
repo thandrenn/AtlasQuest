@@ -32,6 +32,7 @@ if ( GetLocale() == "deDE" ) then
 ---------------
 -- Colours --
 ---------------
+
 local GREY = "|cff999999";
 local RED = "|cffff0000";
 local REDA = "|cffcc6666";
@@ -45,40 +46,49 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 ------------------------------
 -- Options translation --
 ------------------------------
+
 AQHelpText = ""..WHITE.."Gib /aq oder atlasquest "..YELLOW.."[command]"..WHITE.." ein\ncommands: help; option/config; show/hide; left/right; colour; autoshow"..RED.."(nur Atlas)"
 --
 AQOptionsCaptionTEXT = "AtlasQuest Optionen";
 AQ_OK = "OK"
--- autoshow
+
+-- Autoshow
 AQOptionsAutoshowTEXT = ""..WHITE.."AtlasQuest-Panel mit "..RED.."Atlas"..WHITE.." anzeigen.";
 AQAtlasAutoON = "Das AtlasQuest-Panle wird jetzt automatisch mit Atlas angezeigt "..GREEN.."(Standard)"
 AQAtlasAutoOFF = "Das AtlasQuest-Panle wird jetzt "..RED.."nicht"..WHITE.." mehr beim Öffnen von Atlas angezeigt"
--- right/left
+
+-- Right/Left
 AQOptionsLEFTTEXT = ""..WHITE.."AtlasQuest-Panel "..RED.."links"..WHITE.." anzeigen.";
 AQOptionsRIGHTTEXT = ""..WHITE.."AtlasQuest-Panel "..RED.."rechts"..WHITE.." anzeigen.";
 AQShowRight = "Das AtlasQuest-Panle wird nun auf der "..RED.."rechten"..WHITE.." Seite angezeigt";
 AQShowLeft = "Das AtlasQuest-Panle wird nun auf der "..RED.."linken"..WHITE.." Seite angezeigt "..GREEN.."(Standard)";
+
 -- Colour Check
 AQOptionsCCTEXT = ""..WHITE.."Die Quests nach dem Questlevel färben."
 AQCCON = "Die Quests werden jetzt nach dem Questlevel gefärbt."
 AQCCOFF = "Die Quests werden jetzt "..RED.."nicht"..WHITE.." mehr nach dem Questlevel gefärbt."
+
 -- QuestLog Colour Check
 AQQLColourChange = ""..WHITE.."Alle Quests, die in deinem Questlog sind, werden "..BLUE.."blau"..WHITE.." gefärbt."
--- Set Fraction Option
--- AQOptionsSetFractionTEXT = "" .. WHITE .. "Beim Öffnen von AtlasQuest, wird automatisch " .. BLUE .. "Allianz" .. WHITE .. " als Fraktion ausgewählt."
+
+-- AutoQuery Quest Rewards
+AQOptionsAutoQueryTEXT = ""..WHITE.."Der Server wird automatisch nach den Gegenständen abgefragt, die du noch nicht gesehen hast."
+
+-- Use Comparison Tooltips
+AQOptionsCompareTooltipTEXT = ""..WHITE.."Die Belohnungen mit den derzeit angelegten Gegenständen vergleichen."
+
 -- Set EquipCompare Option
-AQOptionEquipCompareTEXT = "Equip Compare benutzen."
+AQOptionEquipCompareTEXT = "EquipCompare benutzen."
 
 
 AQAbilities = BLUE .. "Fähigkeiten:" .. WHITE;
-AQFinishedTEXT = "Quest beendet: ";
 AQSERVERASKInformation = " Bitte rechtsklicken bis der Gegenstand angezeigt wird."
 AQSERVERASK = "Der Server wird abgefragt nach: "
+AQERRORNOTSHOWN = "Dieser Gegenstand ist nicht sicher!"
+AQERRORASKSERVER = "Klicke rechts um den Server nach \ndiesem Gegenstand abzufragen. Es kann passieren, dass die Verbindung unterbrochen wird."
 AQOptionB = "Optionen"
 AQStoryB = "Story"
 AQNoReward = ""..BLUE.." Keine Belohnung"
-AQERRORNOTSHOWN = "Dieser Gegenstand ist nicht sicher!"
-AQERRORASKSERVER = "Klicke rechts um den Server nach dem \nGegenstand abzufragen. Es kann passieren, \ndass die Verbindung unterbrochen wird."
 AQDiscription_OR = ""..GREY.." oder "..WHITE..""
 AQDiscription_AND = ""..GREY.." und "..WHITE..""
 AQDiscription_REWARD = ""..BLUE.." Belohnung: "
@@ -89,10 +99,12 @@ AQDiscription_AIM = "Ziel: \n"
 AQDiscription_NOTE = "Information: \n"
 AQDiscription_PREQUEST = "Vorquest: "
 AQDiscription_FOLGEQUEST = "Folgequest: "
+AQFinishedTEXT = "Quest abgeschlossen: ";
 
 ---------------------------
 -- Item Translation --
 ---------------------------
+
 AQITEM_DAGGER = " Dolch"
 AQITEM_POLEARM = " Stangenwaffe"
 AQITEM_SWORD = " Schwert"
@@ -125,13 +137,13 @@ AQITEM_MAINHAND = "Waffenhand,"
 AQITEM_ONEHAND = "Einhändig,"
 AQITEM_TWOHAND = "Zweihändig,"
 
+AQITEM_ITEM = "Gegenstand"
 AQITEM_TRINKET = "Schmuck"
 AQITEM_RELIC = "Relikt"
 AQITEM_POTION = "Trank"
 AQITEM_OFFHAND = "In Schildhand geführt"
 AQITEM_NECK = "Hals"
 AQITEM_PATTERN = "Muster"
-AQITEM_ITEM = "Gegenstand"
 AQITEM_BAG = "Behälter"
 AQITEM_RING = "Ring"
 AQITEM_KEY = "Schlüssel"
@@ -139,11 +151,6 @@ AQITEM_GEM = "Edelstein"
 AQITEM_QUIVER = "Köcher"
 AQITEM_AMMOPOUCH = "Munitionsbeutel"
 AQITEM_ENCHANT = "Verzauberung"
-
-
-------------------
--- Instances --
-------------------
 
 
 --------------- INST1 - Deadmines (VC) ---------------
@@ -1884,7 +1891,6 @@ Inst8Quest14_HORDE_Folgequest = Inst8Quest14_Folgequest
 --
 Inst8Quest14name1_HORDE = Inst8Quest14name1
 Inst8Quest14name2_HORDE = Inst8Quest14name2
-
 
 
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
@@ -7581,11 +7587,11 @@ end
 -- 2  = Wailing Caverns (WC)
 -- 3  = Ragefire Chasm (RFC)
 -- 4  = Uldaman (ULD)
--- 5  = Schwarzfels Depths (BRD)
+-- 5  = Blackrock Depths (BRD)
 -- 6  = Blackwing Lair (BWL)
 -- 7  = Blackfathom Deeps (BFD)
--- 8  = Lower Schwarzfels Spire (LBRS)
--- 9  = Upper Schwarzfels Spire (UBRS)
+-- 8  = Lower Blackrock Spire (LBRS)
+-- 9  = Upper Blackrock Spire (UBRS)
 -- 10 = Dire Maul East (DM)
 -- 11 = Dire Maul North (DM)
 -- 12 = Dire Maul West (DM)
@@ -7608,7 +7614,7 @@ end
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Kazzak
+-- 32 = Highlord Kruul
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
