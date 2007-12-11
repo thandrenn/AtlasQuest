@@ -24,6 +24,7 @@
 
 -- German localisation by Asurn
 -- updated by Telchar (ICQ:  391632535)
+-- updated by Nalumis
 
 
 if ( GetLocale() == "deDE" ) then
@@ -225,15 +226,15 @@ Inst1Quest5name3 = "Stab von Westfall"
 Inst1Quest6 = "6. Die Prüfung der Rechtschaffenheit (Paladin)"
 Inst1Quest6_Level = "22"
 Inst1Quest6_Attain = "20"
-Inst1Quest6_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Kor-Edelstein und bringt alles zusammen zu Jordan Stillbrunn in Eisenschmiede."
-Inst1Quest6_Location = "Jordan Stillbrunn (Dun Morogh - Eisenschmiede Eingang; "..YELLOW.."52,36 "..WHITE..")"
-Inst1Quest6_Note = "Um die Notizen zu diesem Quest zu betrachten klicke auf "..YELLOW.."[Die Prüfung der Rechtschaffenheit Informationen]"..WHITE.."."
+Inst1Quest6_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Koredelstein und bringt alles zusammen zu Jordan Stillbrunn in Eisenschmiede."
+Inst1Quest6_Location = "Jordan Stillbrunn (Dun Morogh - Eisenschmiede Eingang; "..YELLOW.."52,36"..WHITE..")"
+Inst1Quest6_Note = "Um die Notizen zu dieser Quest zu betrachten, klicke auf "..YELLOW.."[Informationen zur Prüfung der Rechtschaffenheit]"..WHITE.."."
+Inst1Quest6_Page = {2, "Nur Paladine können diese Quest bekommen.\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."Todesminen"..WHITE.." nahe "..YELLOW.."[3]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem die Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." nahe Punkt "..YELLOW.."[B]"..WHITE.." (in den Ställen).\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man die Quest 'Suche nach dem Koredelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
 Inst1Quest6_Prequest = "Ja, Der Foliant der Ehre -> Die Prüfung der Rechtschaffenheit"
 Inst1Quest6_Folgequest = "Ja, Die Prüfung der Rechtschaffenheit"
 Inst1Quest6PreQuest = "true"
 --
 Inst1Quest6name1 = "Verigans Faust"
-Inst1Quest6_Page = {2, "Nur Paladine können diese Quest bekommen.\n\n1. Das Weißsteineichenholz bekommt man von Goblin-Holzschnitzern in den "..YELLOW.."Todesminen"..WHITE.." nahe "..YELLOW.."[3]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden.  Er gibt einem die Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." nahe Punkt "..YELLOW.."[B]"..WHITE.." (in den Ställen).\n\n4. Den Kor-Edelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Kor-Edelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Kor-Edelstein welchen Thundris Windwirker reinigt.", };
 
 --Quest 7 allianz
 Inst1Quest7 = "7. Der nie verschickte Brief"
@@ -1883,6 +1884,7 @@ Inst8Quest14_HORDE_Folgequest = Inst8Quest14_Folgequest
 --
 Inst8Quest14name1_HORDE = Inst8Quest14name1
 Inst8Quest14name2_HORDE = Inst8Quest14name2
+
 
 
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
@@ -4920,6 +4922,8 @@ Inst29Quest3_HORDE_Folgequest = "Nein"
 Inst29Quest3name1_HORDE = "Civinad-Roben"
 Inst29Quest3name2_HORDE = "Stolperläufer-Latzhose"
 Inst29Quest3name3_HORDE = "Zweifach verstärkte Gamaschen"
+
+
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------- RAID -----------------------------------------------
 ------------------------------------------------------------------------------------------------------
@@ -4957,7 +4961,7 @@ Inst32Story = "Nach der Niederlage der Brennenden Legion am Ende des Dritten Kri
 Inst32Caption = "Fürst Kazzak"
 
 
---------------Inst33 / Alterac Vally------------
+--------------Inst33 / Alterac Valley------------
 
 Inst33Story = "Vor langer Zeit schickte der Hexenmeister Gul�dan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Gul�dans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen Drek�Thar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Stormpike-Expedition gestört.\nDie Stormpikes haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen. "
 Inst33Caption = "Das Alteractal"
@@ -4975,237 +4979,2595 @@ Inst35Story = "Eingebetted in das südliche Eschental ist die Warsongschlucht na
 Inst35Caption = "Die Warsongschlucht"
 
 
+--------------- INST60 - Eye of the Storm ---------------
+
+Inst60Story = "Weit über der verwüsteten Landschaft des Nethersturms schwebt die Insel, die als Auge des Sturms bekannt ist. Dieses Schlachtfeld ist von den Blutelfen wegen seiner reichen Energieablagerungen begehrt - und die Draenei versuchen es wegen ihrer mysteriösen Behälter einzufordern - Auge des Sturms."
+Inst60Caption = "Auge des Sturms"
+Inst60QAA = "keine Quests"
+Inst60QAH = "keine Quests"
+
+
 --------------Inst37 / Hellfire Citadel / Ramparts------------
 
 Inst37Story = {
-  ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen�\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner�zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
-  ["Page2"] = "Wessen Befehl diese Orcs unterstehen, ist nicht bekannt, allerdings überwiegt die Meinung, dass sie nicht für die Brennende Legion arbeiten.\n \nDie vielleicht beunruhigendste Nachricht aus der Scherbenwelt sind allerdings die Berichte über erschütternde, wilde Schreie aus den Tiefen unterhalb der Zitadelle. Möglicherweise stehen diese unheimlichen Ausbrüche in Zusammenhang mit den Höllenorcs und ihrer wachsenden Zahl. Bedauerlicherweise müssen diese Fragen unbeantwortet bleiben.\n \nZumindest für jetzt.",
+  ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen...\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner'zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten, indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
+  ["Page2"] = "Wessen Befehl diese Orcs unterstehen, ist nicht bekannt, allerdings überwiegt die Meinung, dass sie nicht für die Brennende Legion arbeiten.\n \nDie vielleicht beunruhigendste Nachricht aus der Scherbenwelt sind allerdings die Berichte über erschütternde, wilde Schreie aus den Tiefen unterhalb der Zitadelle. Möglicherweise stehen diese unheimlichen Ausbrüche in Zusammenhang mit den Höllenorcs und ihrer wachsenden Zahl. Bedauerlicherweise müssen diese Fragen unbeantwortet bleiben.\n \nZumindest vorerst.",
   ["MaxPages"] = "2",
 };
-Inst37Caption = "HC: Höllenfeuerbollwerk"
+Inst37Caption = "HZ: Höllenfeuerbollwerk"
 Inst37General = {
     {
-    "Watchkeeper Gargolmar",
-    "He has 2 adds. Both are CCable and should be CC or killed before you focus Gargolmar. Gargolmar itself does decent melee damage",
-    RED .. "Mortal Wound:" .. WHITE .. " Gargolmar gives the MT sometimes a stackable debuff which reduced healing by 10% per stack. Offtanking isn't nedded because normally it doesn't stack above 40%(he dies to fast).",
+    "Wachhabender Gargolmar",
+    "Er hat 2 Adds. Beide sind kontrollierbar und sollten kontrolliert oder getötet werden, bevor Gargolmar selbst getötet wird. Gargolmar selbst richtet wenig Nahkampfschaden an.",
+    RED .. "Tödliche Wunde:" .. WHITE .. " Gargolmar gibt dem Maintank manchmal einen stapelbaren Debuff, der erhaltene Heilung 10 % pro Stack reduziert. Offtanking ist nicht nötig, weil der Debuff normalerweise nicht über 40 % stackt (er stirbt zu schnell).",
     },
 
     {
-    "Omor the Unscarred",
-    "Omor has an strong magic range attack, but his melle is week. He only use the magic, if someone who isn't in meele range, get the aggro.",
-    RED .. "Summoning Hound" .. WHITE .. ": Every few seconds Omar summons a 'Fiendish Hound'. This Hounds hit strong, but has less HP. They should die/get fokused imidiatly.",
+    "Omor der Narbenlose",
+    "Omor hat ein starke magischen Fernkampfangriff, aber schwache Nahkampfangriffe. Er benutzt seine Magie nur, wenn der Aggrohalter nicht in Nahkampfreichweite ist.",
+    RED .. "Hund beschwören" .. WHITE .. ": Alle paar Sekunden beschwört Omor einen 'Dämonischen Hund'. Diese Hunde schlagen hart zu und saugen Mana (gerne vom Heiler), haben aber wenig HP. Sie sollten sofort getötet werden.",
     },
 
     {
-    "Vazruden and Nazan",
-    "Vazruden lands when you kill the 2 guards before the stage. When Vazruden is at 20% Nazan lands and attack. Nazan is really strong and the hardest encounter in HC: Ramparts",
-    "Vazruden(): Nothing?\n" .. RED .. "Nazan(Dragonsbreath)" .. WHITE .. ": Nazan does strong firedamage in front of him. The tank has to turn the dragon away from the group.\n" .. RED .. "Nazan(Flamethrowing)" .. WHITE .. ": Nazan throws fireballs at you which do decent damage(-2k) and burn the ground(-600fire/sec). Everbody have to go out of the fire!",
+    "Vazruden der Herold und Nazan",
+    "Vazruden landet, wenn die 2 Wachen vor der Plattform getötet werden. Wenn Varzurden bei 20 % Leben ist, landet Nazan und greift an. Nazan ist sehr stark und der schwierigste Kampf im Höllenfeuerbollwerk.",
+    "Vazruden(): Nichts\n" .. RED .. "Nazan(Drachenatem)" .. WHITE .. ": Nazan verursacht starken Feuerschaden in dem Bereich vor ihm. Der Tank muss den Drachen von der Gruppe wegdrehen.\n" .. RED .. "Nazan(Flammenwerfen)" .. WHITE .. ": Nazan wirft Feuerbälle auf die Spieler, die einigen Schaden (~2k) anrichten und den Boden verbrennen (~600 Feuerschaden/sec). Jeder muss aus dem Feuer laufen!",
     },
 };
 
-Inst37QAA = "2 Quests"
-Inst37QAH = "2 Quests"
+Inst37QAA = "3 Quests"
+Inst37QAH = "3 Quests"
 
 --QUEST1 Allianz
 Inst37Quest1 = "1. Die Bollwerke schwächen"
-Inst37Quest1_Attain = "?"
 Inst37Quest1_Level = "62"
-Inst37Quest1_Aim = "Slay Watchkeeper Gargolmar, Omor the Unscarred and the drake, Nazan. Return Gargolmar's Hand, Omor's Hoof and Nazan's Head to Gunny at Honor Hold in Hellfire Peninsula."
-Inst37Quest1_Location = "Gunny (Hellfire Peninsula; "..YELLOW.."??,?? "..WHITE..")"
-Inst37Quest1_Note = "Gargolmar is the first boss. Omor the second and Nazan the last."
-Inst37Quest1_Prequest = "Not sure"
-Inst37Quest1_Folgequest = "Führt zu: Blut bedeutet Leben"
-
---ITEMS!
+Inst37Quest1_Attain = "59"
+Inst37Quest1_Aim = "Tötet den Wachhabenden Gargolmar, Omor den Narbenlosen und Nazan, den Drachen. Bringt Gargolmars Hand, Omors Huf und Nazans Kopf zu Gunny in der Ehrenfeste auf der Höllenfeuerhalbinsel."
+Inst37Quest1_Location = "Leutnant Chadwick (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,66"..WHITE..")"
+Inst37Quest1_Note = "Gargolmar befindet sich bei "..YELLOW.."[1]"..WHITE..", Omor ist bei "..YELLOW.."[2]"..WHITE..", und Nazan ist bei "..YELLOW.."[3]"..WHITE..". Gunny befindet sich bei (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."56,67"..WHITE.."). \n\nUm diese Quest zu erhalten, muss Schwarze Magie absolviert sein, welche mit Den Feind kennen von Truppenkommandant Danath Trollbann (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,67"..WHITE..") startet."
+Inst37Quest1_Prequest = "Ja, Den Feind kennen -> Schwarze Magie"
+Inst37Quest1_Folgequest = "Ja, Im Herzen des Hasses"
+Inst37Quest1PreQuest = "true"
+--
+Inst37Quest1name1 = "Handschützer der Präzision"
+Inst37Quest1name2 = "Jadeschulterstücke des Kriegers"
+Inst37Quest1name3 = "Mantelung der Magiemacht"
+Inst37Quest1name4 = "Stiefel des sicheren Schritts"
 
 --Quest2 Allianz
 Inst37Quest2 = "2. Düstere Neuigkeiten"
-Inst37Quest2_Attain = "?"
 Inst37Quest2_Level = "62"
-Inst37Quest2_Aim = "Take the Ominous Letter to Force Commander Danath Trollbane at Honor Hold in Hellfire Peninsula."
-Inst37Quest2_Location = "Ominous Letter (Vazruden; "..YELLOW.."[3]"..WHITE..")"
-Inst37Quest2_Note = "Drop by Vazruden.  Truppenkommandant Danath Trollbann findet man bei "..YELLOW.."??,??"..WHITE.." [Ehrenfeste]"
-Inst37Quest2_Prequest = ""
-Inst37Quest2_Folgequest = "Führt zu: Im Herzen des Hasses"
+Inst37Quest2_Attain = "59"
+Inst37Quest2_Aim = "Bringt den unheilvollen Brief zu Truppenkommandant Danath Trollbann in der Ehrenfeste auf der Höllenfeuerhalbinsel."
+Inst37Quest2_Location = "Unheilvoller Brief (droppt von Vazruden dem Herold; "..YELLOW.."[3]"..WHITE..")"
+Inst37Quest2_Note = "Truppenkommandant Danath Trollbann findet man bei "..YELLOW.."57,67"..WHITE.." in der Ehrenfeste."
+Inst37Quest2_Prequest = "Nein"
+Inst37Quest2_Folgequest = "Ja, Blut bedeutet Leben ("..YELLOW.."HZ: Der Blutkessel"..WHITE..")"
+Inst37Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Allianz
+Inst37Quest3 = "3. Gesucht: Nazans Reitgerte (Heroische Tagesquest)"
+Inst37Quest3_Level = "70"
+Inst37Quest3_Attain = "70"
+Inst37Quest3_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Nazans Reitgerte zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst37Quest3_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst37Quest3_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNazan findet man bei "..YELLOW.."[3]"..WHITE.."."
+Inst37Quest3_Prequest = "Nein"
+Inst37Quest3_Folgequest = "Nein"
+--
+Inst37Quest3name1 = "Abzeichen der Gerechtigkeit"
 
 
---QUEST1 Horde
+--Quest 1 Horde  (same as Quest 1 Alliance - different NPCs and pre-quest)
 Inst37Quest1_HORDE = Inst37Quest1
-Inst37Quest1_HORDE_Attain = Inst37Quest1_Attain
 Inst37Quest1_HORDE_Level = Inst37Quest1_Level
-Inst37Quest1_HORDE_Aim = "Slay Watchkeeper Gargolmar, Omor the Unscarred and the drake, Nazan. Return Gargolmar's Hand, Omor's Hoof and Nazan's Head to Caza'rez at Thrallmar in Hellfire Peninsula."
-Inst37Quest1_HORDE_Location = "Caza'rez (Thrallmar; "..YELLOW.."55,36 "..WHITE..")"
-Inst37Quest1_HORDE_Note = Inst37Quest1_Note
-Inst37Quest1_HORDE_Prequest = Inst37Quest1_Prequest
+Inst37Quest1_HORDE_Attain = Inst37Quest1_Attain
+Inst37Quest1_HORDE_Aim = "Tötet den Wachhabenden Gargolmar, Omor den Narbenlosen und Nazan, den Drachen. Bringt Gargolmars Hand, Omors Huf und Nazans Kopf zu Caza'rez in Thrallmar auf der Höllenfeuerhalbinsel."
+Inst37Quest1_HORDE_Location = "Steinwache Stok'ton (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
+Inst37Quest1_HORDE_Note = "Gargolmar befindet sich bei "..YELLOW.."[1]"..WHITE..", Omor befindet sich bei "..YELLOW.."[2]"..WHITE..", und Nazan befindet sich bei "..YELLOW.."[3]"..WHITE..". Caza'rez befindet sich bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE.."). \n\nUm diese Quest zu erhalten, muss Vorposten: Häschersturz absolviert sein, welche mit Durch das Dunkle Portal startet in den verwüsteten Landen startet."
+Inst37Quest1_HORDE_Prequest = "Ja, Durch das Dunkle Portal -> Vorposten: Häschersturz"
 Inst37Quest1_HORDE_Folgequest = Inst37Quest1_Folgequest
+Inst37Quest1PreQuest_HORDE = Inst37Quest1PreQuest
+--
+Inst37Quest1name1_HORDE = Inst37Quest1name1
+Inst37Quest1name2_HORDE = Inst37Quest1name2
+Inst37Quest1name3_HORDE = Inst37Quest1name3
+Inst37Quest1name4_HORDE = Inst37Quest1name4
 
---QUEST2 Horde
+--Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
 Inst37Quest2_HORDE = Inst37Quest2
-Inst37Quest2_HORDE_Attain = Inst37Quest2_Attain
 Inst37Quest2_HORDE_Level = Inst37Quest2_Level
-Inst37Quest2_HORDE_Aim = "Take the Ominous Letter to Nazgrel at Thrallmar in Hellfire Peninsula."
+Inst37Quest2_HORDE_Attain = Inst37Quest2_Attain
+Inst37Quest2_HORDE_Aim = "Bringt den unheilvollen Brief zu Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
 Inst37Quest2_HORDE_Location = Inst37Quest2_Location
-Inst37Quest2_HORDE_Note = "Drop by Vazruden. Nazgrel is at "..YELLOW.."55,36"..WHITE..""
+Inst37Quest2_HORDE_Note = "Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.." in Thrallmar."
 Inst37Quest2_HORDE_Prequest = Inst37Quest2_Prequest
 Inst37Quest2_HORDE_Folgequest = Inst37Quest2_Folgequest
+Inst37Quest2FQuest_HORDE = Inst37Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst37Quest3_HORDE = Inst37Quest3
+Inst37Quest3_HORDE_Level = Inst37Quest3_Level
+Inst37Quest3_HORDE_Attain = Inst37Quest3_Attain
+Inst37Quest3_HORDE_Aim = Inst37Quest3_Aim
+Inst37Quest3_HORDE_Location = Inst37Quest3_Location
+Inst37Quest3_HORDE_Note = Inst37Quest3_Note
+Inst37Quest3_HORDE_Prequest = Inst37Quest3_Prequest
+Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
+--
+Inst37Quest3name1_HORDE = Inst37Quest3name1
+
 
 
 --------------Inst38 / Hellfire Citadel / Blood Furnaces------------
 
 Inst38Story = {
-  ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen�\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner�zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
-  ["Page2"] = "Wessen Befehl diese Orcs unterstehen, ist nicht bekannt, allerdings überwiegt die Meinung, dass sie nicht für die Brennende Legion arbeiten.\n \nDie vielleicht beunruhigendste Nachricht aus der Scherbenwelt sind allerdings die Berichte über erschütternde, wilde Schreie aus den Tiefen unterhalb der Zitadelle. Möglicherweise stehen diese unheimlichen Ausbrüche in Zusammenhang mit den Höllenorcs und ihrer wachsenden Zahl. Bedauerlicherweise müssen diese Fragen unbeantwortet bleiben.\n \nZumindest für jetzt.",
+  ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen...\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner'zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten, indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
+  ["Page2"] = "Wessen Befehl diese Orcs unterstehen, ist nicht bekannt, allerdings überwiegt die Meinung, dass sie nicht für die Brennende Legion arbeiten.\n \nDie vielleicht beunruhigendste Nachricht aus der Scherbenwelt sind allerdings die Berichte über erschütternde, wilde Schreie aus den Tiefen unterhalb der Zitadelle. Möglicherweise stehen diese unheimlichen Ausbrüche in Zusammenhang mit den Höllenorcs und ihrer wachsenden Zahl. Bedauerlicherweise müssen diese Fragen unbeantwortet bleiben.\n \nZumindest vorerst.",
   ["MaxPages"] = "2",
 };
-Inst38Caption = "HC: Der Blutkessel"
+Inst38Caption = "HZ: Der Blutkessel"
 
-Inst38QAA = "2 Quests"
-Inst38QAH = "2 Quests"
+Inst38QAA = "3 Quests"
+Inst38QAH = "3 Quests"
 Inst38General = {
     {
-    "The Maker",
-    "Easy fight. He does not really much melee damage. Just tank and kill",
-    RED .. "Knockback" .. WHITE .. " He knocks everybody in the air(aggro wipe or lesser aggro).\n" .. RED .. "Mind Control" .. WHITE .. ": He controls randomly a player and increase its damage.",
+    "Der Schöpfer",
+    "Einfacher Kampf. Er teilt sehr wenig Nahkampfschaden aus. Einfach tanken und töten.",
+    RED .. "Rückstoß" .. WHITE .. " Er wirft jeden in die Luft (Aggroreset oder Aggroreduzierung).\n" .. RED .. "Gedankenkontrolle" .. WHITE .. ": Er kontrolliert einen zufälligen Spieler und erhöht seinen Schaden.",
     },
 
     {
     "Broggok",
-    "Hard fight. The event starts when you push the lever in his room. Before you face the boss 4 waves of mobs attack you. Between the waves you can't drink so sheep(or mc) a mob of the last wave to get enough mana to kill the boss.",
-   RED .. "4 Waves:" .. WHITE .. " First group is four normal mobs, second is 3 normal and an elite, third is 2 normal 2 elite, last is 1 normal 3 elite.\n" .. RED .. "Poisonbreath:" .. WHITE .. " He does damage to all player before him.\n" .. RED .. "Posionbomb:" .. WHITE .. " He throws randomly a bomb at a player. The bomb does less damage, but at this place a posion circle appear and damage(650/sec) everyone who stand in it.",
+    "Schwieriger Kampf. Das Ereignis startet, wenn man Hebel in seinem Raum betätigt. Bevor der Boss selbst kommt, muss man 4 Gegnerwellen bekämpfen. Zwischen den Wellen kann man nicht trinken, daher sollte man einen Gegner der letzten Welle kontrollieren, um genug Mana für den Bosskampf zu regenerieren.",
+   RED .. "4 Wellen:" .. WHITE .. " Die erste Gruppe besteht aus 4 normalen Gegnern, die zweite aus 3 normalen und einem Elitegegner, die dritte aus 2 normalen und 2 Elite-Gegnern und die letzte aus einem normalen und 3 Elitegegnern.\n" .. RED .. "Giftatem:" .. WHITE .. " Schaden auf alle Spieler vor ihm.\n" .. RED .. "Giftbombe:" .. WHITE .. " Er wirft zufällig eine Bombe auf einen Spieler. Die Bombe verursacht wenig Schaden, aber an der Einschlagstelle entsteht ein Giftkreis, der jedem Schaden (~650/sec) zufügt, der drinsteht.",
     },
 
     {
-    "Keli'dan the Breaker",
-    "Last Boss and not really hard. Fight starts if you attack one of the guys near him, when they are all dead he starts to attack you.",
-   RED .. "The Adds:" .. WHITE .. " They cast shadowbolds and a debuff(magic) which increase shadowdamage by 1000. Clean it as fast as you can.\n" .. RED .. "Shadowvolly:" .. WHITE .. " 3 Shadowbolds, not much damage without the debuff.\n" .. RED .. "Fire Nova:" .. WHITE .. " Every few seconds he yells 'Come closer!' and stopp attacking. After 2-5(not sure) seconds he does a strong fire nova(great range). So if you see him yelling run away.",
+    "Keli'dan der Zerstörer",
+    "Endboss und nicht wirklich schwierig. Der Kampf startet, wenn man einen der Kanalisierer neben ihm angreift. Wenn alle Kanalisierer tot sind, kreift Keli'dan an.",
+   RED .. "Die Adds:" .. WHITE .. " Sie zaubern Schattenblitz und verteilen einen Magie-Debuff, der erhaltenen Schattenschaten um 1000 erhöht. Sollte so schnell wie möglich entfernt werden.\n" .. RED .. "Schattenblitzsalve:" .. WHITE .. " 3 Schattenblitze, nicht viel Schaden ohne den Debuff.\n" .. RED .. "Feuernova:" .. WHITE .. " Alle paar Sekunden ruft Keli'dan 'Näher, kommt näher, und verbrennt!' und hört auf, anzugreifen. Nach etwa 5 Sekunden wirkt er eine starke Feuernova mit großem Radius. Daher sollte jeder wegrennen, sobald Keli'dan diesen Satz schreit.",
     },
 };
 
---QUEST1 Allianz
+
+--Quest 1 Alliance
 Inst38Quest1 = "1. Blut bedeutet Leben"
-Inst38Quest1_Attain = "?"
 Inst38Quest1_Level = "63"
-Inst38Quest1_Aim = "Sammelt 10 Phiolen mit Höllenorcblut und bringt Sie zu Gunny"
-Inst38Quest1_Location = "Gunny (Ehrenfeste; "..YELLOW.."??,?? "..WHITE..")"
-Inst38Quest1_Note = "Jeder Orc kann die Phiolen droppen"
-Inst38Quest1_Prequest = "Düstere Neuigkeiten"
-Inst38Quest1_Folgequest = ""
+Inst38Quest1_Attain = "59"
+Inst38Quest1_Aim = "Sammelt 10 Phiolen mit Höllenorcblut und bringt sie zu Gunny in der Ehrenfeste auf der Höllenfeuerhalbinsel."
+Inst38Quest1_Location = "Gunny (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."56,67"..WHITE..")"
+Inst38Quest1_Note = "Alle Orks im Blutkessel können die Phiolen droppen."
+Inst38Quest1_Prequest = "Ja, Düstere Neuigkeiten ("..YELLOW.."HZ: Höllenfeuerbollwerk"..WHITE..")"
+Inst38Quest1_Folgequest = "Nein"
+Inst38Quest1PreQuest = "true"
+--
+Inst38Quest1name1 = "Brustplatte der Vergeltung"
+Inst38Quest1name2 = "Gamaschen des Todestunnlers"
+Inst38Quest1name3 = "Mondkinkopfputz"
+Inst38Quest1name4 = "Schuppenbeinlinge der Zerstörung"
 
---ITEMS!
-
---Quest2 Allianz
+--Quest 2 Alliance
 Inst38Quest2 = "2. Im Herzen des Hasses"
-Inst38Quest2_Attain = "?"
-Inst38Quest2_Level = "62"
-Inst38Quest2_Aim = "Die Beschwörungs-kammer von Keli�dan dem Zerstörer betreten und quest abgeben bei Truppenkommandant Danath Trollbann in Ehrenfeste abgeben"
-Inst38Quest2_Location = "Commander Danath Trollbane (Ehrenfeste; "..YELLOW.."??,??"..WHITE..")"
-Inst38Quest2_Note = "-"
-Inst38Quest2_Prequest = "Die Bollwerke schwächen"
-Inst38Quest2_Folgequest = ""
+Inst38Quest2_Level = "63"
+Inst38Quest2_Attain = "59"
+Inst38Quest2_Aim = "Untersucht das gesamte Areal des Blutkessels und meldet Euch anschließend bei Truppenkommandant Danath Trollbann in der Ehrenfeste auf der Höllenfeuerhalbinsel."
+Inst38Quest2_Location = "Gunny (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."56,67"..WHITE..")."
+Inst38Quest2_Note = "Die Quest schließt ab, wenn man den Raum mit dem Endboss betrifft. Truppenkommandant Danath Trollbann befindet sich bei "..YELLOW.."57,67"..WHITE.." in der Ehrenfeste."
+Inst38Quest2_Prequest = "Ja, Die Bollwerke schwächen ("..YELLOW.."HZ: Höllenfeuerbollwerk"..WHITE..")"
+Inst38Quest2_Folgequest = "Nein"
+Inst38Quest2PreQuest = "true"
+--
+Inst38Quest2name1 = "Purpurroter Anhänger der Klarsicht"
+Inst38Quest2name2 = "Heiliges Band der Heilung"
+Inst38Quest2name3 = "Perfekt ausbalanciertes Cape"
+
+--Quest 3 Alliance
+Inst38Quest3 = "3. Gesucht: Keli'dans gefiederter Stab (Heroische Tagesquest)"
+Inst38Quest3_Level = "70"
+Inst38Quest3_Attain = "70"
+Inst38Quest3_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Keli'dans gefiederten Stab zu beschaffen. Bringt ihn zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst38Quest3_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst38Quest3_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKeli'dan der Zerstörer befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst38Quest3_Prequest = "Nein"
+Inst38Quest3_Folgequest = "Nein"
+--
+Inst38Quest3name1 = "Badge of Justice"
 
 
---QUEST1 Horde
+--Quest 1 Horde  (same as Quest 1 Alliance - different NPC to turn in)
 Inst38Quest1_HORDE = Inst38Quest1
-Inst38Quest1_HORDE_Attain = Inst38Quest1_Attain
 Inst38Quest1_HORDE_Level = Inst38Quest1_Level
-Inst38Quest1_HORDE_Aim = "Sammelt 10 Phiolen mit Höllenorcblut und bringt Sie zu Caza'rez"
-Inst38Quest1_HORDE_Location = "Caza'rez (Thrallmar; "..YELLOW.."55,36 "..WHITE..")"
+Inst38Quest1_HORDE_Attain = Inst38Quest1_Attain
+Inst38Quest1_HORDE_Aim = "Sammelt 10 Phiolen mit Höllenorcblut und bringt sie zu Zenturio Caza'rez in Thrallmar auf der Höllenfeuerhalbinsel."
+Inst38Quest1_HORDE_Location = "Caza'rez (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
 Inst38Quest1_HORDE_Note = Inst38Quest1_Note
 Inst38Quest1_HORDE_Prequest = Inst38Quest1_Prequest
 Inst38Quest1_HORDE_Folgequest = Inst38Quest1_Folgequest
+Inst38Quest1PreQuest_HORDE = Inst38Quest1PreQuest
+--
+Inst38Quest1name1_HORDE = Inst38Quest1name1
+Inst38Quest1name2_HORDE = Inst38Quest1name2
+Inst38Quest1name3_HORDE = Inst38Quest1name3
+Inst38Quest1name4_HORDE = Inst38Quest1name4
 
---QUEST2 Horde
+--Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
 Inst38Quest2_HORDE = Inst38Quest2
-Inst38Quest2_HORDE_Attain = Inst38Quest2_Attain
 Inst38Quest2_HORDE_Level = Inst38Quest2_Level
-Inst38Quest2_HORDE_Aim = "Die Beschwörungs-kammer von Keli�dan dem Zerstörer betreten und quest abgeben bei Nazgrel in Thrallmar abgeben"
-Inst38Quest2_HORDE_Location = "Caza'rez (Thrallmar; "..YELLOW.."55,36 "..WHITE..")"
-Inst38Quest2_HORDE_Note = Inst38Quest2_Note
+Inst38Quest2_HORDE_Attain = Inst38Quest2_Attain
+Inst38Quest2_HORDE_Aim = "Untersucht das gesamte Areal des Blutkessels und meldet Euch anschließend bei Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
+Inst38Quest2_HORDE_Location = "Caza'rez (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
+Inst38Quest2_HORDE_Note = "Die Quest schließt ab, wenn man den Raum mit dem Endboss betrifft. Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.." in Thrallmar."
 Inst38Quest2_HORDE_Prequest = Inst38Quest2_Prequest
 Inst38Quest2_HORDE_Folgequest = Inst38Quest2_Folgequest
+Inst38Quest2PreQuest_HORDE = Inst38Quest2PreQuest
+--
+Inst38Quest2name1_HORDE = Inst38Quest2name1
+Inst38Quest2name2_HORDE = Inst38Quest2name2
+Inst38Quest2name3_HORDE = Inst38Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst38Quest3_HORDE = Inst38Quest3
+Inst38Quest3_HORDE_Level = Inst38Quest3_Level
+Inst38Quest3_HORDE_Attain = Inst38Quest3_Attain
+Inst38Quest3_HORDE_Aim = Inst38Quest3_Aim
+Inst38Quest3_HORDE_Location = Inst38Quest3_Location
+Inst38Quest3_HORDE_Note = Inst38Quest3_Note
+Inst38Quest3_HORDE_Prequest = Inst38Quest3_Prequest
+Inst38Quest3_HORDE_Folgequest = Inst38Quest3_Folgequest
+--
+Inst38Quest3name1_HORDE = Inst38Quest3name1
+
 
 
 --------------Inst39 / Hellfire Citadel / ShatteredHalls------------
 
 Inst39Story = {
-  ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen�\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner�zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
-  ["Page2"] = "Wessen Befehl diese Orcs unterstehen, ist nicht bekannt, allerdings überwiegt die Meinung, dass sie nicht für die Brennende Legion arbeiten.\n \nDie vielleicht beunruhigendste Nachricht aus der Scherbenwelt sind allerdings die Berichte über erschütternde, wilde Schreie aus den Tiefen unterhalb der Zitadelle. Möglicherweise stehen diese unheimlichen Ausbrüche in Zusammenhang mit den Höllenorcs und ihrer wachsenden Zahl. Bedauerlicherweise müssen diese Fragen unbeantwortet bleiben.\n \nZumindest für jetzt.",
+  ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen...\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner'zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten, indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
+  ["Page2"] = "Wessen Befehl diese Orcs unterstehen, ist nicht bekannt, allerdings überwiegt die Meinung, dass sie nicht für die Brennende Legion arbeiten.\n \nDie vielleicht beunruhigendste Nachricht aus der Scherbenwelt sind allerdings die Berichte über erschütternde, wilde Schreie aus den Tiefen unterhalb der Zitadelle. Möglicherweise stehen diese unheimlichen Ausbrüche in Zusammenhang mit den Höllenorcs und ihrer wachsenden Zahl. Bedauerlicherweise müssen diese Fragen unbeantwortet bleiben.\n \nZumindest vorerst.",
   ["MaxPages"] = "2",
 };
-Inst39Caption = "HC: Die zerschmetterten Hallen"
+Inst39Caption = "HZ: Die zerschmetterten Hallen"
+Inst39QAA = "9 Quests"
+Inst39QAH = "8 Quests"
+
+--Quest 1 Alliance
+Inst39Quest1 = "1. Teufelsglut"
+Inst39Quest1_Level = "70"
+Inst39Quest1_Attain = "67"
+Inst39Quest1_Aim = "Magus Zabraxis in der Ehrenfeste möchte, dass Ihr ihr ein Stück Teufelsglut bringt."
+Inst39Quest1_Location = "Magus Zabraxis (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."54,66"..WHITE..")"
+Inst39Quest1_Note = "Nachdem Großhexenmeister Nethekurse bei "..YELLOW.."[2]"..WHITE.." getötet wurde, droppt er ein Amulett. Das Amulett muss bei einer der Kohlenpfannen in der Nähe seines Throns benutzt werden, um die Teufelsglut zu erhalten."
+Inst39Quest1_Prequest = "Nein"
+Inst39Quest1_Folgequest = "Nein"
+--
+Inst39Quest1name1 = "Stiefel des Kurat"
+Inst39Quest1name2 = "Gravierter Runengürtel"
+Inst39Quest1name3 = "Handschuhe der Bewahrung"
+Inst39Quest1name4 = "Späherschulterklappen der Expedition"
+Inst39Quest1name5 = "Unerschrockene Handschützer"
+
+--Quest 2 Alliance
+Inst39Quest2 = "2. Pride of the Fel Horde"
+Inst39Quest2_Level = "70"
+Inst39Quest2_Attain = "66"
+Inst39Quest2_Aim = "Feldkommandant Romus in der Ehrenfeste möchte, dass Ihr 8 Legionäre der Zerschmetterten Hand, 4 Zenturios der Zerschmetterten Hand und 4 Champions der Zerschmetterten Hand tötet."
+Inst39Quest2_Location = "Feldkommandant Romus (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,63"..WHITE..")"
+Inst39Quest2_Note = "Die Zenturios sind in der Trainingshalle zu finden."
+Inst39Quest2_Prequest = "Nein"
+Inst39Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst39Quest3 = "3. Das Schicksal wenden"
+Inst39Quest3_Level = "70"
+Inst39Quest3_Attain = "67"
+Inst39Quest3_Aim = "Bringt Kriegshäuptling Kargaths Faust zu Truppenkommandant Danath Trollbann in der Ehrenfeste."
+Inst39Quest3_Location = "Truppenkommandant Danath Trollbann (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,67"..WHITE..")"
+Inst39Quest3_Note = "Kriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst39Quest3_Prequest = "Nein"
+Inst39Quest3_Folgequest = "Nein"
+--
+Inst39Quest3name1 = "Nethekurses Rute der Qualen"
+Inst39Quest3name2 = "Mantel der Belebung"
+Inst39Quest3name3 = "Nalikos Rache"
+Inst39Quest3name4 = "Medaillon des tapferen Wächters"
+
+--Quest 4 Alliance
+Inst39Quest4 = "4. Gefangene der Zitadelle (Heroisch)"
+Inst39Quest4_Level = "70"
+Inst39Quest4_Attain = "70"
+Inst39Quest4_Aim = "Rettet Hauptmann Alina aus der Höllenfeuerzitadelle, bevor sie hingerichtet wird."
+Inst39Quest4_Location = "Randy Sauseritzel (Die zerschmetterten Hallen; "..YELLOW.."Heroisch [1]"..WHITE..")"
+Inst39Quest4_Note = "Um diese Aufgabe zu beenden, müsst Ihr den Dungeon auf dem Schwierigkeitsgrad 'Heroisch' betreten.\n\nHauptmann Alina befindet sich bei "..YELLOW.."[5]"..WHITE..". Der Timer von 50 Minuten startet am Anfang des Bogenschützen-Events."
+Inst39Quest4_Prequest = "Nein"
+Inst39Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst39Quest5 = "5. Die Prüfung der Naaru: Erbarmen (Heroisch)"
+Inst39Quest5_Level = "70"
+Inst39Quest5_Attain = "70"
+Inst39Quest5_Aim = "A'dal in Shattrath möchte, dass Ihr die unbenutzte Axt des Henkers aus den zerschmetterten Hallen der Höllenfeuerzitadelle besorgt."
+Inst39Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst39Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
+Inst39Quest5_Prequest = "Nein"
+Inst39Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst39Quest6 = "6. Träne der Erdenmutter"
+Inst39Quest6_Level = "70"
+Inst39Quest6_Attain = "70"
+Inst39Quest6_Aim = "Besorgt die Träne der Erdenmutter von Kriegshetzer O'mrogg und bringt sie zu David Wayne in Waynes Zuflucht."
+Inst39Quest6_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
+Inst39Quest6_Note = "Kriegshetzer O'mrogg befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst39Quest6_Prequest = "Ja, Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
+Inst39Quest6_Folgequest = "Ja, Bann der Illidari"
+Inst39Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst39Quest7 = "7. Kalynnas Bitte (Heroisch)"
+Inst39Quest7_Level = "70"
+Inst39Quest7_Attain = "70"
+Inst39Quest7_Aim = "Kalynna Lathred möchte, dass Ihr den Dämmerfolianten vom Großhexenmeister Nethekurse in den zerschmetterten Hallen der Höllenfeuerzitadelle und das Buch der vergessenen Namen von Dunkelwirker Syth in den Sethekkhallen in Auchindoun besorgt."
+Inst39Quest7_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
+Inst39Quest7_Note = "Ihr müsst diese Quest auf dem Schwierigkeitsgrad 'Heroisch' abschließen.\n\nGroßhexenmeister Nethekurse befindet sich bei "..YELLOW.."[2]"..WHITE..". Das Buch der vergessenen Namen droppt in den Sethekkhallen."
+Inst39Quest7_Prequest = "Ja, Hilfe unter Kollegen ("..YELLOW.."Karazhan"..WHITE..")"
+Inst39Quest7_Folgequest = "Ja, Schrecken der Nacht ("..YELLOW.."Karazhan"..WHITE..")"
+Inst39Quest7PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst39Quest8 = "8. Gesucht: Messerfausts Siegel (Heroische Tagesquest)"
+Inst39Quest8_Level = "70"
+Inst39Quest8_Attain = "70"
+Inst39Quest8_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Messerfausts Siegel zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst39Quest8_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst39Quest8_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst39Quest8_Prequest = "Nein"
+Inst39Quest8_Folgequest = "Nein"
+--
+Inst39Quest8name1 = "Abzeichen der Gerechtigkeit"
+
+--Quest 9 Alliance
+Inst39Quest9 = "9. Gesucht: Zenturionen der Zerschmetterten Hand (Tagesquest)"
+Inst39Quest9_Level = "70"
+Inst39Quest9_Attain = "70"
+Inst39Quest9_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Zenturionen der Zerschmetterten Hand zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
+Inst39Quest9_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst39Quest9_Note = "Die Zenturios sind in der Trainingshalle zu finden."
+Inst39Quest9_Prequest = "Nein"
+Inst39Quest9_Folgequest = "Nein"
+--
+Inst39Quest9name1 = "Gefängnisschlüssel des Astraleums"
+
+
+--Quest 1 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+Inst39Quest1_HORDE = "1. Der Stolz der Höllenhorde"
+Inst39Quest1_HORDE_Level = Inst39Quest2_Level
+Inst39Quest1_HORDE_Attain = Inst39Quest2_Attain
+Inst39Quest1_HORDE_Aim = "Schattenjäger Ty'jin in Thrallmar möchte, dass Ihr 8 Legionäre der Zerschmetterten Hand, 4 Zenturios der Zerschmetterten Hand und 4 Champions der Zerschmetterten Hand tötet."
+Inst39Quest1_HORDE_Location = "Schattenjäger Ty'jin (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
+Inst39Quest1_HORDE_Note = Inst39Quest2_Note
+Inst39Quest1_HORDE_Prequest = Inst39Quest2_Prequest
+Inst39Quest1_HORDE_Folgequest = Inst39Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst39Quest2_HORDE = "2. Der Wille des Kriegshäuptlings"
+Inst39Quest2_HORDE_Level = "70"
+Inst39Quest2_HORDE_Attain = "67"
+Inst39Quest2_HORDE_Aim = "Bringt Kriegshäuptling Kargaths Faust zu Nazgrel in Thrallmar."
+Inst39Quest2_HORDE_Location = "Nazgrel (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
+Inst39Quest2_HORDE_Note = "Kriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst39Quest2_HORDE_Prequest = "Nein"
+Inst39Quest2_HORDE_Folgequest = "Nein"
+--
+Inst39Quest2name1_HORDE = "Rute der finsteren Schatten"
+Inst39Quest2name2_HORDE = "Vikarsumhang"
+Inst39Quest2name3_HORDE = "Band des Eroberers"
+Inst39Quest2name4_HORDE = "Stümmelfausts Halsschmuck"
+
+--Quest 3 Horde
+Inst39Quest3_HORDE = "3. Gefangene der Zitadelle (Heroisch)"
+Inst39Quest3_HORDE_Level = "70"
+Inst39Quest3_HORDE_Attain = "70"
+Inst39Quest3_HORDE_Aim = "Rettet Hauptmann Knochenbrecher aus der Höllenfeuerzitadelle, bevor er hingerichtet wird."
+Inst39Quest3_HORDE_Location = "Drisella (Die zerschmetterten Hallen; "..YELLOW.."Heroisch [1]"..WHITE..")"
+Inst39Quest3_HORDE_Note = "Um diese Aufgabe zu beenden, müsst Ihr den Dungeon auf dem Schwierigkeitsgrad 'Heroisch' betreten.\n\nDrisella befindet sich bei "..YELLOW.."[5]"..WHITE..". Der Timer von 55 Minuten startet am Anfang des Bogenschützen-Events."
+Inst39Quest3_HORDE_Prequest = "Nein"
+Inst39Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 5 Alliance)
+Inst39Quest4_HORDE = "4. Die Prüfung der Naaru: Erbarmen (Heroisch)"
+Inst39Quest4_HORDE_Level = Inst39Quest5_Level
+Inst39Quest4_HORDE_Attain = Inst39Quest5_Attain
+Inst39Quest4_HORDE_Aim = Inst39Quest5_Aim
+Inst39Quest4_HORDE_Location = Inst39Quest5_Location
+Inst39Quest4_HORDE_Note = Inst39Quest5_Note
+Inst39Quest4_HORDE_Prequest = Inst39Quest5_Prequest
+Inst39Quest4_HORDE_Folgequest = Inst39Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 6 Alliance)
+Inst39Quest5_HORDE = "5. Träne der Erdenmutter"
+Inst39Quest5_HORDE_Level = Inst39Quest6_Level
+Inst39Quest5_HORDE_Attain = Inst39Quest6_Attain
+Inst39Quest5_HORDE_Aim = Inst39Quest6_Aim
+Inst39Quest5_HORDE_Location = Inst39Quest6_Location
+Inst39Quest5_HORDE_Note = Inst39Quest6_Note
+Inst39Quest5_HORDE_Prequest = Inst39Quest6_Prequest
+Inst39Quest5_HORDE_Folgequest = Inst39Quest6_Folgequest
+Inst39Quest5PreQuest_HORDE = Inst39Quest6Prequest
+-- No Rewards for this quest
+
+--Quest 6 Alliance  (same as Quest 7 Alliance)
+Inst39Quest6_HORDE = "6. Kalynnas Bitte (Heroisch)"
+Inst39Quest6_HORDE_Level = Inst39Quest7_Level
+Inst39Quest6_HORDE_Attain = Inst39Quest7_Attain
+Inst39Quest6_HORDE_Aim = Inst39Quest7_Aim
+Inst39Quest6_HORDE_Location = Inst39Quest7_Location
+Inst39Quest6_HORDE_Note = Inst39Quest7_Note
+Inst39Quest6_HORDE_Prequest = Inst39Quest7_Prequest
+Inst39Quest6_HORDE_Folgequest = Inst39Quest7_Folgequest
+Inst39Quest6PreQuest_HORDE = Inst39Quest7PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 8 Alliance)
+Inst39Quest7_HORDE = "7. Gesucht: Messerfausts Siegel (Heroische Tagesquest)"
+Inst39Quest7_HORDE_Level = Inst39Quest8_Level
+Inst39Quest7_HORDE_Attain = Inst39Quest8_Attain
+Inst39Quest7_HORDE_Aim = Inst39Quest8_Aim
+Inst39Quest7_HORDE_Location = Inst39Quest8_Location
+Inst39Quest7_HORDE_Note = Inst39Quest8_Note
+Inst39Quest7_HORDE_Prequest = Inst39Quest8_Prequest
+Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
+--
+Inst39Quest7name1_HORDE = Inst39Quest8name1
+
+--Quest 8 Horde  (same as Quest 9 Alliance)
+Inst39Quest8_HORDE = "8. Gesucht: Zenturionen der Zerschmetterten Hand (Tagesquest)"
+Inst39Quest8_HORDE_Level = Inst39Quest9_Level
+Inst39Quest8_HORDE_Attain = Inst39Quest9_Attain
+Inst39Quest8_HORDE_Aim = Inst39Quest9_Aim
+Inst39Quest8_HORDE_Location = Inst39Quest9_Location
+Inst39Quest8_HORDE_Note = Inst39Quest9_Note
+Inst39Quest8_HORDE_Prequest = Inst39Quest9_Prequest
+Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
+--
+Inst39Quest8name1_HORDE = Inst39Quest9name1
 
 
 --------------Inst40 / Hellfire Citadel /Magtheridons Lair------------
 
 Inst40Story = {
-  ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen�\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner�zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
-  ["Page2"] = "Wessen Befehl diese Orcs unterstehen, ist nicht bekannt, allerdings überwiegt die Meinung, dass sie nicht für die Brennende Legion arbeiten.\n \nDie vielleicht beunruhigendste Nachricht aus der Scherbenwelt sind allerdings die Berichte über erschütternde, wilde Schreie aus den Tiefen unterhalb der Zitadelle. Möglicherweise stehen diese unheimlichen Ausbrüche in Zusammenhang mit den Höllenorcs und ihrer wachsenden Zahl. Bedauerlicherweise müssen diese Fragen unbeantwortet bleiben.\n \nZumindest für jetzt.",
+  ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen...\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner'zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten, indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
+  ["Page2"] = "Wessen Befehl diese Orcs unterstehen, ist nicht bekannt, allerdings überwiegt die Meinung, dass sie nicht für die Brennende Legion arbeiten.\n \nDie vielleicht beunruhigendste Nachricht aus der Scherbenwelt sind allerdings die Berichte über erschütternde, wilde Schreie aus den Tiefen unterhalb der Zitadelle. Möglicherweise stehen diese unheimlichen Ausbrüche in Zusammenhang mit den Höllenorcs und ihrer wachsenden Zahl. Bedauerlicherweise müssen diese Fragen unbeantwortet bleiben.\n \nZumindest vorerst.",
   ["MaxPages"] = "2",
 };
-Inst40Caption = "HC: Magtheridons Kammer"
+Inst40Caption = "HZ: Magtheridons Kammer"
+Inst40QAA = "2 Quests"
+Inst40QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst40Quest1 = "1. Die Prüfung der Naaru: Magtheridon"
+Inst40Quest1_Level = "70"
+Inst40Quest1_Attain = "70"
+Inst40Quest1_Aim = "A'dal in Shattrath möchte, dass Ihr Magtheridon vernichtet."
+Inst40Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst40Quest1_Note = "Die drei anderen Prüfungen der Naaru, die es von A'dal gibt, müssen absolviert sein.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
+Inst40Quest1_Prequest = "Ja, Die Prüfung der Naaru: Zuverlässigkeit, Erbarmen und Stärke"
+Inst40Quest1_Folgequest = "Nein"
+Inst40Quest1PreQuest = "true"
+--
+Inst40Quest1name1 = "Band des Phönixfeuers"
+
+--Quest 2 Alliance
+Inst40Quest2 = "2. Magtheridons Untergang"
+Inst40Quest2_Level = "70"
+Inst40Quest2_Attain = "70"
+Inst40Quest2_Aim = "Bringt Magtheridons Kopf zu Truppenkommandant Danath Trollbann in der Ehrenfeste auf der Höllenfeuerhalbinsel zurück."
+Inst40Quest2_Location = "Magtheridons Kopf (droppt von Magtheridon; "..YELLOW.."[1]"..WHITE..")"
+Inst40Quest2_Note = "Nur eine Person im Schlachtzug kann den Kopf erhalten, um die Quest zu starten. Truppenkommandant Danath Trollbann befindet sich bei "..YELLOW.."57,67"..WHITE.."."
+Inst40Quest2_Prequest = "Nein"
+Inst40Quest2_Folgequest = "Nein"
+--
+Inst40Quest2name1 = "A'dals Siegel der Verteidigung"
+Inst40Quest2name2 = "Band des purpurroten Furors"
+Inst40Quest2name3 = "Lichtwächterband der Naaru"
+Inst40Quest2name4 = "Ring des Aufsässigen"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst40Quest1_HORDE = Inst40Quest1
+Inst40Quest1_HORDE_Level = Inst40Quest1_Level
+Inst40Quest1_HORDE_Attain = Inst40Quest1_Attain
+Inst40Quest1_HORDE_Aim = Inst40Quest1_Aim
+Inst40Quest1_HORDE_Location = Inst40Quest1_Location
+Inst40Quest1_HORDE_Note = Inst40Quest1_Note
+Inst40Quest1_HORDE_Prequest = Inst40Quest1_Prequest
+Inst40Quest1_HORDE_Folgequest = Inst40Quest1_Folgequest
+Inst40Quest1PreQuest_HORDE = Inst40Quest1PreQuest
+--
+Inst40Quest1name1_HORDE = Inst40Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+Inst40Quest2_HORDE = Inst40Quest2
+Inst40Quest2_HORDE_Level = Inst40Quest2_Level
+Inst40Quest2_HORDE_Attain = Inst40Quest2_Attain
+Inst40Quest2_HORDE_Aim = "Bringt Magtheridons Kopf zu Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
+Inst40Quest2_HORDE_Location = Inst40Quest2_Location
+Inst40Quest2_HORDE_Note = "Nur eine Person im Schlachtzug kann den Kopf erhalten, um die Quest zu starten. Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.."."
+Inst40Quest2_HORDE_Prequest = Inst40Quest2_Prequest
+Inst40Quest2_HORDE_Folgequest = Inst40Quest2_Folgequest
+--
+Inst40Quest2name1_HORDE = Inst40Quest2name1
+Inst40Quest2name2_HORDE = Inst40Quest2name2
+Inst40Quest2name3_HORDE = Inst40Quest2name3
+Inst40Quest2name4_HORDE = Inst40Quest2name4
+
 
 
 --------------Inst41 / CFR: The Slave Pens------------
 
+Inst41Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst41Caption = "EK: Die Sklavenunterkünfte"
+Inst41QAA = "1 Quest"
+Inst41QAH = "1 Quest"
 
-Inst41QAA = "1 Quests"
-Inst41QAH = "1 Quests"
-
---QUEST1 Allianz
+--Quest 1 Alliance
 Inst41Quest1 = "1. Bei der Arbeit verschollen"
-Inst41Quest1_Attain = "?"
 Inst41Quest1_Level = "65"
-Inst41Quest1_Aim = "Findet Jäter Gründaum "..YELLOW.."[2]"..WHITE.."; Erdbinder Rayge; Windrufer Klaue; Naturalist Biss "..YELLOW.."[4]"..WHITE..""
-Inst41Quest1_Location = "Beh�terin Jhang: "..YELLOW.."Eingang Echsenkessel"..WHITE..""
-Inst41Quest1_Note = "Erdbinder Rayge und Windrufer Klaue sind im Tiefensumpf zu finden"
-Inst41Quest1_Prequest = ""
-Inst41Quest1_Folgequest = ""
+Inst41Quest1_Attain = "62"
+Inst41Quest1_Aim = "Findet heraus, was mit Erdbinder Rayge, Naturalist Biss, Jäter Gründaum und Windrufer Klaue geschehen ist. Kehrt dann zu Behüterin Jhang im Echsenkessel in den Zangarmarschen zurück."
+Inst41Quest1_Location = "Behüterin Jhang (Echsenkessel; "..YELLOW.."52,36"..WHITE..")"
+Inst41Quest1_Note = "Behüterin Jhang ist in der Unterwasserhöhle am Versammlungsstein. Naturalist Biss befindet sich bei "..YELLOW.."[4]"..WHITE..", Jäter Gründaum befindet sich bei "..YELLOW.."[2]"..WHITE..", die anderen beiden im Tiefensumpf. Die Vorquests scheinen nicht nötig zu sein, um diese Quest zu erhalten."
+Inst41Quest1_Prequest = "Ja, Kanalisationspläne -> Fehlgeschlagene Operation"
+Inst41Quest1_Folgequest = "Nein"
+Inst41Quest1PreQuest = "true"
+--
+Inst41Quest1name1 = "Cenarischer Ring des Zauberwirkens"
+Inst41Quest1name2 = "Goldrankenwickeltücher"
+Inst41Quest1name3 = "Dunkler Umhang der Marschen"
 
 
---QUEST1 Horde
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst41Quest1_HORDE = Inst41Quest1
-Inst41Quest1_HORDE_Attain = Inst41Quest1_Attain
 Inst41Quest1_HORDE_Level = Inst41Quest1_Level
+Inst41Quest1_HORDE_Attain = Inst41Quest1_Attain
 Inst41Quest1_HORDE_Aim = Inst41Quest1_Aim
 Inst41Quest1_HORDE_Location = Inst41Quest1_Location
 Inst41Quest1_HORDE_Note = Inst41Quest1_Note
-Inst41Quest1_HORDE_Prequest = ""
-Inst41Quest1_HORDE_Folgequest = ""
+Inst41Quest1_HORDE_Prequest = Inst41Quest1_Prequest
+Inst41Quest1_HORDE_Folgequest = Inst41Quest1_Folgequest
+Inst41Quest1PreQuest_HORDE = Inst41Quest1PreQuest
+--
+Inst41Quest1name1_HORDE = Inst41Quest1name1
+Inst41Quest1name2_HORDE = Inst41Quest1name2
+Inst41Quest1name3_HORDE = Inst41Quest1name3
+
 
 
 --------------Inst42 / CFR: The Steamvault------------
 
+Inst42Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst42Caption = "EK: Die Dampfkammer"
+Inst42QAA = "5 Quests"
+Inst42QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst42Quest1 = "1. Das Versteck des Kriegsherren"
+Inst42Quest1_Level = "70"
+Inst42Quest1_Attain = "67"
+Inst42Quest1_Aim = "Behüterin Jhang möchte, dass Ihr Kriegsherr Kalithresh im Echsenkessel findet und tötet."
+Inst42Quest1_Location = "Behüterin Jhang (Echsenkessel; "..YELLOW.."52,36"..WHITE..")"
+Inst42Quest1_Note = "Behüterin Jhang ist in der Unterwasserhöhle am Versammlungsstein. Kriegsherr Kalithresh befindet sich bei "..YELLOW.."[4]"..WHITE..". Denkt dran, die Tanks zu zerstören, wenn Kalithresh sie benutzt."
+Inst42Quest1_Prequest = "Nein"
+Inst42Quest1_Folgequest = "Nein"
+--
+Inst42Quest1name1 = "Kopfband des Wasserbeschwörers"
+Inst42Quest1name2 = "Helm der Klaue"
+Inst42Quest1name3 = "Kappe des Erdenwächters"
+Inst42Quest1name4 = "Myrmidonenkopfputz"
+
+--Quest 2 Alliance
+Inst42Quest2 = "2. Befehle von Lady Vashj"
+Inst42Quest2_Level = "70"
+Inst42Quest2_Attain = "67"
+Inst42Quest2_Aim = "Bringt die Befehle von Lady Vashj zu Ysiel Windsänger in der Zuflucht des Cenarius in den Zangarmarschen."
+Inst42Quest2_Location = "Befehle von Lady Vashj (zufälliger Drop in der Dampfkammer)"
+Inst42Quest2_Note = "Ysiel Windsänger befindet sich in den Zangarmarschen - Cenarion Refuge; ("..YELLOW.."78,62"..WHITE.."). Diese Quest ermöglicht es, Waffen des Echsenkessels für Ruf bei der Expedition des Cenarius abzugeben. Waffen des Echsenkessels sind zufällige Drops und können gesammelt werden (ohne sie abzugeben), bevor man diese Quest hat."
+Inst42Quest2_Prequest = "Nein"
+Inst42Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst42Quest3 = "3. Die Prüfung der Naaru: Stärke (Heroisch)"
+Inst42Quest3_Level = "70"
+Inst42Quest3_Attain = "70"
+Inst42Quest3_Aim = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt."
+Inst42Quest3_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst42Quest3_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Kriegsherr Kalithresh befindet sich bei "..YELLOW.."[4]"..WHITE..". Murmurs Essenz droppt im Schattenlabyrinth.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
+Inst42Quest3_Prequest = "Nein"
+Inst42Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst42Quest4 = "4. Unterweltlehm"
+Inst42Quest4_Level = "70"
+Inst42Quest4_Attain = "70"
+Inst42Quest4_Aim = "Beschafft Euch ein Gefäß mit Unterweltlehm von Hydromant Thespia und bringt es zu David Wayne in Waynes Zuflucht."
+Inst42Quest4_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")"
+Inst42Quest4_Note = "Hydromant Thespia befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst42Quest4_Prequest = "Ja, Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
+Inst42Quest4_Folgequest = "Ja, Bann der Illidari"
+Inst42Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst42Quest5 = "5. Das zweite und das dritte Fragment"
+Inst42Quest5_Level = "70"
+Inst42Quest5_Attain = "68"
+Inst42Quest5_Aim = "Besorgt das zweite Schlüsselfragment aus einem arkanen Behälter im Echsenkessel und das dritte Schlüsselfragment aus einem arkanen Behälter in der Festung der Stürme. Kehrt dann zu Khadgar in Shattrath zurück."
+Inst42Quest5_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
+Inst42Quest5_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich bei "..YELLOW.."[2]"..WHITE.." auf dem Grund des Wassers. Wenn man ihn öffnet, erscheint ein Elementar, der getötet werden muss, um das Fragment zu erhalten. Das dritte Schlüsselfragment befindet sich in der Arkatraz."
+Inst42Quest5_Prequest = "Ja, Nach Karazhan ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
+Inst42Quest5_Folgequest = "Ja, Die Berührung des Meisters ("..YELLOW.."HdZ: Der schwarze Morast"..WHITE..")"
+Inst42Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst42Quest1_HORDE = Inst42Quest1
+Inst42Quest1_HORDE_Level = Inst42Quest1_Level
+Inst42Quest1_HORDE_Attain = Inst42Quest1_Attain
+Inst42Quest1_HORDE_Aim = Inst42Quest1_Aim
+Inst42Quest1_HORDE_Location = Inst42Quest1_Location
+Inst42Quest1_HORDE_Note = Inst42Quest1_Note
+Inst42Quest1_HORDE_Prequest = Inst42Quest1_Prequest
+Inst42Quest1_HORDE_Folgequest = Inst42Quest1_Folgequest
+--
+Inst42Quest1name1_HORDE = Inst42Quest1name1
+Inst42Quest1name2_HORDE = Inst42Quest1name2
+Inst42Quest1name3_HORDE = Inst42Quest1name3
+Inst42Quest1name4_HORDE = Inst42Quest1name4
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst42Quest2_HORDE = Inst42Quest2
+Inst42Quest2_HORDE_Level = Inst42Quest2_Level
+Inst42Quest2_HORDE_Attain = Inst42Quest2_Attain
+Inst42Quest2_HORDE_Aim = Inst42Quest2_Aim
+Inst42Quest2_HORDE_Location = Inst42Quest2_Location
+Inst42Quest2_HORDE_Note = Inst42Quest2_Note
+Inst42Quest2_HORDE_Prequest = Inst42Quest2_Prequest
+Inst42Quest2_HORDE_Folgequest = Inst42Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst42Quest3_HORDE = Inst42Quest3
+Inst42Quest3_HORDE_Level = Inst42Quest3_Level
+Inst42Quest3_HORDE_Attain = Inst42Quest3_Attain
+Inst42Quest3_HORDE_Aim = Inst42Quest3_Aim
+Inst42Quest3_HORDE_Location = Inst42Quest3_Location
+Inst42Quest3_HORDE_Note = Inst42Quest3_Note
+Inst42Quest3_HORDE_Prequest = Inst42Quest3_Prequest
+Inst42Quest3_HORDE_Folgequest = Inst42Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst42Quest4_HORDE = Inst42Quest4
+Inst42Quest4_HORDE_Level = Inst42Quest4_Level
+Inst42Quest4_HORDE_Attain = Inst42Quest4_Attain
+Inst42Quest4_HORDE_Aim = Inst42Quest4_Aim
+Inst42Quest4_HORDE_Location = Inst42Quest4_Location
+Inst42Quest4_HORDE_Note = Inst42Quest4_Note
+Inst42Quest4_HORDE_Prequest = Inst42Quest4_Prequest
+Inst42Quest4_HORDE_Folgequest = Inst42Quest4_Folgequest
+Inst42Quest4PreQuest_HORDE = Inst42Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst42Quest5_HORDE = Inst42Quest5
+Inst42Quest5_HORDE_Level = Inst42Quest5_Level
+Inst42Quest5_HORDE_Attain = Inst42Quest5_Attain
+Inst42Quest5_HORDE_Aim = Inst42Quest5_Aim
+Inst42Quest5_HORDE_Location = Inst42Quest5_Location
+Inst42Quest5_HORDE_Note = Inst42Quest5_Note
+Inst42Quest5_HORDE_Prequest = Inst42Quest5_Prequest
+Inst42Quest5_HORDE_Folgequest = Inst42Quest5_Folgequest
+Inst42Quest5PreQuest_HORDE = Inst42Quest5PreQuest
+-- No Rewards for this quest
+
 
 
 --------------Inst43 / CFR: The Underbog------------
 
+Inst43Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst43Caption = "EK: Der Tiefensumpf"
+Inst43QAA = "3 Quests"
+Inst43QAH = "3 Quests"
 
-Inst43QAA = "1 Quests"
-Inst43QAH = "1 Quests"
-
---QUEST1 Allianz
+--Quest 1 Alliance
 Inst43Quest1 = "1. Bei der Arbeit verschollen"
-Inst43Quest1_Attain = "?"
 Inst43Quest1_Level = "65"
-Inst43Quest1_Aim = "Findet Jäter Gründaum; Erdbinder Rayge "..YELLOW.."[3]"..WHITE.."; Windrufer Klaue "..YELLOW.."[4]"..WHITE.."; Naturalist Biss"
-Inst43Quest1_Location = "Beh�terin Jhang: "..YELLOW.."Eingang Echsenkessel"..WHITE..""
-Inst43Quest1_Note = "Jäter Gründaum und Naturalist Biss sind zu finden in den Sklavenunterkünfte"
-Inst43Quest1_Prequest = ""
-Inst43Quest1_Folgequest = ""
+Inst43Quest1_Attain = "62"
+Inst43Quest1_Aim = "Findet heraus, was mit Erdbinder Rayge, Naturalist Biss, Jäter Gründaum und Windrufer Klaue geschehen ist. Kehrt dann zu Behüterin Jhang im Echsenkessel in den Zangarmarschen zurück."
+Inst43Quest1_Location = "Behüterin Jhang (Echsenkessel; "..YELLOW.."52,36"..WHITE..")"
+Inst43Quest1_Note = "Behüterin Jhang ist in der Unterwasserhöhle am Versammlungsstein. Erdbinder Rayge befindet sich bei "..YELLOW.."[3]"..WHITE..", Windrufer Klaue befindet sich bei "..YELLOW.."[4]"..WHITE..", die anderen beiden in den Sklavenunterkünften. Die Vorquests scheinen nicht nötig zu sein, um diese Quest zu erhalten."
+Inst43Quest1_Prequest = "Ja, Kanalisationspläne -> Fehlgeschlagene Operation"
+Inst43Quest1_Folgequest = "Nein"
+Inst43Quest1PreQuest = "true"
+--
+Inst43Quest1name1 = "Cenarischer Ring des Zauberwirkens"
+Inst43Quest1name2 = "Goldrankenwickeltücher"
+Inst43Quest1name3 = "Dunkler Umhang der Marschen"
+
+--Quest 2 Alliance
+Inst43Quest2 = "2. Los geht's!"
+Inst43Quest2_Level = "65"
+Inst43Quest2_Attain = "63"
+Inst43Quest2_Aim = "Besorgt einen Tiefensporendorn und bringt ihn zu T'shu in Sporeggar in den Zangarmarschen."
+Inst43Quest2_Location = "T'shu (Zangarmarschen - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
+Inst43Quest2_Note = "Du musst neutral bei den Sporeggar sein, um diese Quest zu erhalten. Der Tiefensporndorn befindet sich direkt hinter Hungarfenn bei "..YELLOW.."[1]"..WHITE.."."
+Inst43Quest2_Prequest = "Nein"
+Inst43Quest2_Folgequest = "Nein"
+--
+Inst43Quest2name1 = "Unvergänglicher Tiefensporenfarn"
+
+--Quest 3 Alliance
+Inst43Quest3 = "3. Tötet die Mutter"
+Inst43Quest3_Level = "65"
+Inst43Quest3_Attain = "63"
+Inst43Quest3_Aim = "Bringt das Gehirn der Schattenmutter zu Khn'nix in Sporeggar in den Zangarmarschen."
+Inst43Quest3_Location = "Khn'nix (Zangarmarschen - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
+Inst43Quest3_Note = "Du musst neutral bei den Sporeggar sein, um diese Quest zu erhalten. Die Schattenmutter befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst43Quest3_Prequest = "Nein"
+Inst43Quest3_Folgequest = "Nein"
+--
+Inst43Quest3name1 = "Mit Essenz erfüllter Pilz"
+Inst43Quest3name2 = "Mit Macht erfüllter Pilz"
 
 
---QUEST1 Horde
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst43Quest1_HORDE = Inst43Quest1
-Inst43Quest1_HORDE_Attain = Inst43Quest1_Attain
 Inst43Quest1_HORDE_Level = Inst43Quest1_Level
+Inst43Quest1_HORDE_Attain = Inst43Quest1_Attain
 Inst43Quest1_HORDE_Aim = Inst43Quest1_Aim
 Inst43Quest1_HORDE_Location = Inst43Quest1_Location
 Inst43Quest1_HORDE_Note = Inst43Quest1_Note
-Inst43Quest1_HORDE_Prequest = ""
-Inst43Quest1_HORDE_Folgequest = ""
+Inst43Quest1_HORDE_Prequest = Inst43Quest1_Prequest
+Inst43Quest1_HORDE_Folgequest = Inst43Quest1_Folgequest
+Inst43Quest1PreQuest_HORDE = Inst43Quest1PreQuest
+--
+Inst43Quest1name1_HORDE = Inst43Quest1name1
+Inst43Quest1name2_HORDE = Inst43Quest1name2
+Inst43Quest1name3_HORDE = Inst43Quest1name3
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst43Quest2_HORDE = Inst43Quest2
+Inst43Quest2_HORDE_Level = Inst43Quest2_Level
+Inst43Quest2_HORDE_Attain = Inst43Quest2_Attain
+Inst43Quest2_HORDE_Aim = Inst43Quest2_Aim
+Inst43Quest2_HORDE_Location = Inst43Quest2_Location
+Inst43Quest2_HORDE_Note = Inst43Quest2_Note
+Inst43Quest2_HORDE_Prequest = Inst43Quest2_Prequest
+Inst43Quest2_HORDE_Folgequest = Inst43Quest2_Folgequest
+--
+Inst43Quest2name1_HORDE = Inst43Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst43Quest3_HORDE = Inst43Quest3
+Inst43Quest3_HORDE_Level = Inst43Quest3_Level
+Inst43Quest3_HORDE_Attain = Inst43Quest3_Attain
+Inst43Quest3_HORDE_Aim = Inst43Quest3_Aim
+Inst43Quest3_HORDE_Location = Inst43Quest3_Location
+Inst43Quest3_HORDE_Note = Inst43Quest3_Note
+Inst43Quest3_HORDE_Prequest = Inst43Quest3_Prequest
+Inst43Quest3_HORDE_Folgequest = Inst43Quest3_Folgequest
+--
+Inst43Quest3name1_HORDE = Inst43Quest3name1
+Inst43Quest3name2_HORDE = Inst43Quest3name2
+
+
+
+--------------- INST44 - Auchindoun: Auchenai Crypts (AC) ---------------
+
+Inst44Story = "Seit Tausenden von Jahren haben die Draenei ihre Toten in Auchindoun, ihrem heiligsten Tempel, begraben.\n\nDoch Agenten des Schattenrats sind in ihn eingedrungen, dazu entschlossen, eine entsetzliche Kreatur von gewaltigem Übel zu beschwören.\n\nIhre abscheulichen magischen Taten führten zu einer gewaltigen Explosion, die den Tempel auseinandergerissen und die Umgebung in ein verkohltes Ödland verwandelt hat.\n\nDie Druckwelle verursachte zusätzlich einen Riss im Nether selbst, so dass jenseitige Astrale in die Scherbenwelt gelockt wurden.\n\nDie begrabenen Draenei durchwandern nun die Ruinen als ruhelose Geister.\n\nUnterdessen droht das vom Schattenrat beschworene entsetzliche Gebilde, ihre Bemühungen, es im Zaum zu halten, zu übermannen.\n\nDu musst dieses Böse davon abhalten, auf dieser ahnungslosen Welt freigesetzt zu werden.\n\nAuchindoun ist in vier Flügel aufgeteilt und für Gruppen von fünf Spielern der Stufen 64-70 vorgesehen."
+Inst44Caption = "Auch: Auchenaikrypta"
+Inst44QAA = "1 Quest"
+Inst44QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst44Quest1 = "1. Alles wird gut"
+Inst44Quest1_Level = "67"
+Inst44Quest1_Attain = "64"
+Inst44Quest1_Aim = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und Exarch Maladaar vernichtet."
+Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35,65"..WHITE..")"
+Inst44Quest1_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". Die Vorquestreihe startet bei Ha'lei (Wälder von Terokkar - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
+Inst44Quest1_Prequest = "Ja, Ich sehe tote Draenei -> Levixus der Seelenrufer"
+Inst44Quest1_Folgequest = "Nein"
+Inst44Quest1PreQuest = "true"
+--
+Inst44Quest1name1 = "Anachoretenrobe der Auchenai"
+Inst44Quest1name2 = "Mönchstunika der Auchenai"
+Inst44Quest1name3 = "Fährtenleserhalsberge der Auchenai"
+Inst44Quest1name4 = "Schutz des Exarchen"
+
+
+--Quest 1 Horde
+Inst44Quest1_HORDE = "1. Auchindoun..."
+Inst44Quest1_HORDE_Level = "68"
+Inst44Quest1_HORDE_Attain = "66"
+Inst44Quest1_HORDE_Aim = "Reist zur Auchenaikrypta in der Knochenwüste der Wälder von Terokkar und tötet Exarch Maladaar um den Geist von D'ore zu befreien."
+Inst44Quest1_HORDE_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst44Quest1_HORDE_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". D'ore erscheint, wenn Exarch Maladarr getötet wurde."
+Inst44Quest1_HORDE_Prequest = "Ja, Ein Besuch bei der Großmutter -> Ein gelüftetes Geheimnis"
+Inst44Quest1_HORDE_Folgequest = "Ja, Was die Seele sieht"
+Inst44Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst44Quest2_HORDE = "2. Was die Seele sieht"
+Inst44Quest2_HORDE_Level = "68"
+Inst44Quest2_HORDE_Attain = "66"
+Inst44Quest2_HORDE_Aim = "Sucht einen Seelenspiegel in der Auchenaikrypta und benutzt ihn, um einen getrübten Geist eines uralten Orcahnen zu rufen. Zerstört 15 getrübte Geister, damit die Ahnen in Frieden ruhen können."
+Inst44Quest2_HORDE_Location = "D'ore (Auchenaikrypta; "..YELLOW.."[2]"..WHITE..")."
+Inst44Quest2_HORDE_Note = "D'ore erscheint, wenn Exarch Maladarr getötet wurde. Mutter Kashur befindet sich bei (Nagrand; "..YELLOW.."26,61"..WHITE.."). Man sollte in einer Gruppe aus 3 oder mehr Spielern sein, bevor man die getrübten Geister anspricht."
+Inst44Quest2_HORDE_Prequest = "Ja, Auchindoun..."
+Inst44Quest2_HORDE_Folgequest = "Ja, Rückkehr zur Großmutter"
+Inst44Quest2FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 1 Alliance)
+Inst44Quest3_HORDE = "3. Alles wird gut"
+Inst44Quest3_HORDE_Level = Inst44Quest1_Level
+Inst44Quest3_HORDE_Attain = Inst44Quest1_Attain
+Inst44Quest3_HORDE_Aim = Inst44Quest1_Aim
+Inst44Quest3_HORDE_Location = Inst44Quest1_Location
+Inst44Quest3_HORDE_Note = Inst44Quest1_Note
+Inst44Quest3_HORDE_Prequest = Inst44Quest1_Prequest
+Inst44Quest3_HORDE_Folgequest = Inst44Quest1_Folgequest
+Inst44Quest3PreQuest_HORDE = Inst44Quest1PreQuest
+--
+Inst44Quest3name1_HORDE = Inst44Quest1name1
+Inst44Quest3name2_HORDE = Inst44Quest1name2
+Inst44Quest3name3_HORDE = Inst44Quest1name3
+Inst44Quest3name4_HORDE = Inst44Quest1name4
+
+
+
+--------------- INST45 - Auchindoun: Mana Tombs (MT) ---------------
+
+Inst45Story = "Seit Tausenden von Jahren haben die Draenei ihre Toten in Auchindoun, ihrem heiligsten Tempel, begraben.\n\nDoch Agenten des Schattenrats sind in ihn eingedrungen, dazu entschlossen, eine entsetzliche Kreatur von gewaltigem Übel zu beschwören.\n\nIhre abscheulichen magischen Taten führten zu einer gewaltigen Explosion, die den Tempel auseinandergerissen und die Umgebung in ein verkohltes Ödland verwandelt hat.\n\nDie Druckwelle verursachte zusätzlich einen Riss im Nether selbst, so dass jenseitige Astrale in die Scherbenwelt gelockt wurden.\n\nDie begrabenen Draenei durchwandern nun die Ruinen als ruhelose Geister.\n\nUnterdessen droht das vom Schattenrat beschworene entsetzliche Gebilde, ihre Bemühungen, es im Zaum zu halten, zu übermannen.\n\nDu musst dieses Böse davon abhalten, auf dieser ahnungslosen Welt freigesetzt zu werden.\n\nAuchindoun ist in vier Flügel aufgeteilt und für Gruppen von fünf Spielern der Stufen 64-70 vorgesehen."
+Inst45Caption = "Auch: Managruft"
+Inst45QAA = "4 Quests"
+Inst45QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst45Quest1 = "1. Sicherheit geht vor"
+Inst45Quest1_Level = "66"
+Inst45Quest1_Attain = "64"
+Inst45Quest1_Aim = "Konstrukteur Morphalius möchte, dass Ihr 10 astrale Grufträuber, 5 astrale Zauberer, 5 Nexuswandler und 5 astrale Zauberbinder tötet."
+Inst45Quest1_Location = "Konstrukteur Morphalius (Wälder von Terokkar - Auchindoun; "..YELLOW.."39,58"..WHITE..")"
+Inst45Quest1_Note = "Das Bedienfeld des astralen Transporters befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst45Quest1_Prequest = "Nein"
+Inst45Quest1_Folgequest = "Ja, Jemandes Arbeit zahlt sich aus"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst45Quest2 = "2. Jemandes Arbeit zahlt sich aus"
+Inst45Quest2_Level = "66"
+Inst45Quest2_Attain = "64"
+Inst45Quest2_Aim = "Begleitet Kryoingenieur Sha'heen sicher durch die Managruft, damit er die Astralmaterie aus Shaffars Astralsammlern entnehmen kann."
+Inst45Quest2_Location = "Kryoingenieur Sha'heen (Managruft; "..YELLOW.."[4]"..WHITE..")"
+Inst45Quest2_Note = "Um Kryoingenieur Sha'heen zu beschwören, muss das Bedienfeld des astralen Transporters bei "..YELLOW.."[4]"..WHITE.." aktiviert werden. Er wird zusammen mit einigen anderen freundlichen Konsortium-NPCs erscheinen. Die komplette Instanz sollte vorher gesäubert worden sein. Lass nichts am Leben. Die Begleitquest kann nur einmal pro Instanz gestartet werden."
+Inst45Quest2_Prequest = "Ja, Sicherheit geht vor"
+Inst45Quest2_Folgequest = "Nein"
+Inst45Quest2FQuest = "true"
+--
+Inst45Quest2name1 = "Wickeltuch des Konsortiumprinzen"
+Inst45Quest2name2 = "Kryohandschuhe"
+Inst45Quest2name3 = "Konsortiummantelung der Phasen"
+Inst45Quest2name4 = "Metallschienbeinschützer der Fleischbestie"
+
+--Quest 3 Alliance
+Inst45Quest3 = "3. Die Konkurrenz untergraben"
+Inst45Quest3_Level = "66"
+Inst45Quest3_Attain = "64"
+Inst45Quest3_Aim = "Nexusprinz Haramad außerhalb der Managruft möchte, dass Ihr Nexusprinz Shaffar tötet und ihm Shaffars Bandagen bringt."
+Inst45Quest3_Location = "Nexusprinz Haramad (Wälder von Terokkar - Auchindoun; "..YELLOW.."39,58"..WHITE..")."
+Inst45Quest3_Note = "Nexusprinz Shaffar befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst45Quest3_Prequest = "No"
+Inst45Quest3_Folgequest = "No"
+--
+Inst45Quest3name1 = "Haramads Gamaschen der dritten Münze"
+Inst45Quest3name2 = "Plattenbeinschützer des Konsortiums"
+Inst45Quest3name3 = "Haramads Beinwickel"
+Inst45Quest3name4 = "Haramads gekettelte Pantalons"
+
+--Quest 4 Alliance
+Inst45Quest4 = "4. Stasiskammern der Managruft (Heroisch)"
+Inst45Quest4_Level = "70"
+Inst45Quest4_Attain = "70"
+Inst45Quest4_Aim = "Das Bild von Kommandant Ameer beim Landeplatz von Bash'ir im Schergrat möchte, dass Ihr den Stasiskammerschlüssel der Managruft verwendet, um die Stasiskammer in der Managruft Auchindouns zu öffnen."
+Inst45Quest4_Location = "Bild von Kommandant Ameer (Schergrat - Landeplatz von Bash'ir; "..YELLOW.."52,15"..WHITE..")."
+Inst45Quest4_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Es gibt zwei Stasiskammern. Die erste befindet sich direkt hinter Pandemonius "..YELLOW.."[1]"..WHITE..", die zweite im Raum von Nexusprinz Shaffar "..YELLOW.."[5]"..WHITE..". Für beide wird ein Abzeichen des Nexuskönigs benötigt."
+Inst45Quest4_Prequest = "Ja, Das Abzeichen des Nexuskönigs"
+Inst45Quest4_Folgequest = "Nein"
+Inst45Quest4PreQuest = "true"
+--
+Inst45Quest4name1 = "Abzeichen der Gerechtigkeit"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst45Quest1_HORDE = Inst45Quest1
+Inst45Quest1_HORDE_Level = Inst45Quest1_Level
+Inst45Quest1_HORDE_Attain = Inst45Quest1_Attain
+Inst45Quest1_HORDE_Aim = Inst45Quest1_Aim
+Inst45Quest1_HORDE_Location = Inst45Quest1_Location
+Inst45Quest1_HORDE_Note = Inst45Quest1_Note
+Inst45Quest1_HORDE_Prequest = Inst45Quest1_Prequest
+Inst45Quest1_HORDE_Folgequest = Inst45Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst45Quest2_HORDE = Inst45Quest2
+Inst45Quest2_HORDE_Level = Inst45Quest2_Level
+Inst45Quest2_HORDE_Attain = Inst45Quest2_Attain
+Inst45Quest2_HORDE_Aim = Inst45Quest2_Aim
+Inst45Quest2_HORDE_Location = Inst45Quest2_Location
+Inst45Quest2_HORDE_Note = Inst45Quest2_Note
+Inst45Quest2_HORDE_Prequest = Inst45Quest2_Prequest
+Inst45Quest2_HORDE_Folgequest = Inst45Quest2_Folgequest
+Inst45Quest2FQuest_HORDE = Inst45Quest2FQuest
+--
+Inst45Quest2name1_HORDE = Inst45Quest2name1
+Inst45Quest2name2_HORDE = Inst45Quest2name2
+Inst45Quest2name3_HORDE = Inst45Quest2name3
+Inst45Quest2name4_HORDE = Inst45Quest2name4
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst45Quest3_HORDE = Inst45Quest3
+Inst45Quest3_HORDE_Level = Inst45Quest3_Level
+Inst45Quest3_HORDE_Attain = Inst45Quest3_Attain
+Inst45Quest3_HORDE_Aim = Inst45Quest3_Aim
+Inst45Quest3_HORDE_Location = Inst45Quest3_Location
+Inst45Quest3_HORDE_Note = Inst45Quest3_Note
+Inst45Quest3_HORDE_Prequest = Inst45Quest3_Prequest
+Inst45Quest3_HORDE_Folgequest = Inst45Quest3_Folgequest
+--
+Inst45Quest3name1_HORDE = Inst45Quest3name1
+Inst45Quest3name2_HORDE = Inst45Quest3name2
+Inst45Quest3name3_HORDE = Inst45Quest3name3
+Inst45Quest3name4_HORDE = Inst45Quest3name4
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst45Quest4_HORDE = Inst45Quest4
+Inst45Quest4_HORDE_Level = Inst45Quest4_Level
+Inst45Quest4_HORDE_Attain = Inst45Quest4_Attain
+Inst45Quest4_HORDE_Aim = Inst45Quest4_Aim
+Inst45Quest4_HORDE_Location = Inst45Quest4_Location
+Inst45Quest4_HORDE_Note = Inst45Quest4_Note
+Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
+Inst45Quest4_HORDE_Folgequest = Inst45Quest4_Folgequest
+Inst45Quest4PreQuest_HORDE = Inst45Quest4PreQuest
+--
+Inst45Quest4name1_HORDE = Inst45Quest4name1
+
+
+
+--------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
+
+Inst46Story = "Seit Tausenden von Jahren haben die Draenei ihre Toten in Auchindoun, ihrem heiligsten Tempel, begraben.\n\nDoch Agenten des Schattenrats sind in ihn eingedrungen, dazu entschlossen, eine entsetzliche Kreatur von gewaltigem Übel zu beschwören.\n\nIhre abscheulichen magischen Taten führten zu einer gewaltigen Explosion, die den Tempel auseinandergerissen und die Umgebung in ein verkohltes Ödland verwandelt hat.\n\nDie Druckwelle verursachte zusätzlich einen Riss im Nether selbst, so dass jenseitige Astrale in die Scherbenwelt gelockt wurden.\n\nDie begrabenen Draenei durchwandern nun die Ruinen als ruhelose Geister.\n\nUnterdessen droht das vom Schattenrat beschworene entsetzliche Gebilde, ihre Bemühungen, es im Zaum zu halten, zu übermannen.\n\nDu musst dieses Böse davon abhalten, auf dieser ahnungslosen Welt freigesetzt zu werden.\n\nAuchindoun ist in vier Flügel aufgeteilt und für Gruppen von fünf Spielern der Stufen 64-70 vorgesehen."
+Inst46Caption = "Auch: Sethekkhallen"
+Inst46QAA = "4 Quests"
+Inst46QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst46Quest1 = "1. Bruder gegen Bruder"
+Inst46Quest1_Level = "69"
+Inst46Quest1_Attain = "65"
+Inst46Quest1_Aim = "Tötet Dunkelwirker Syth in den Sethekkhallen und befreit Lakka. Kehrt zu Isfar außerhalb der Sethekkhallen zurück, wenn Ihr die Aufgabe abgeschlossen habt."
+Inst46Quest1_Location = "Isfar (Wälder von Terokkar - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
+Inst46Quest1_Note = "Dunkelwirker Syth befindet sich bei "..YELLOW.."[1]"..WHITE..". Lakka ist in einem Käfig in demselben Raum. Wenn man ihren Käfig öffnet, erscheinen keine Gegner."
+Inst46Quest1_Prequest = "Nein"
+Inst46Quest1_Folgequest = "Nein"
+--
+Inst46Quest1name1 = "Prophetenhalsring der Sethekk"
+Inst46Quest1name2 = "Orakelfokus der Sethekk"
+Inst46Quest1name3 = "Halsband des Klauenlords"
+Inst46Quest1name4 = "Mal des Rabenwächters"
+
+--Quest 2 Alliance
+Inst46Quest2 = "2. Terokks Erbe"
+Inst46Quest2_Level = "69"
+Inst46Quest2_Attain = "65"
+Inst46Quest2_Aim = "Bringt Terokks Maske, Terokks Federkiel und die Sage von Terokk zu Isfar außerhalb der Sethekkhallen."
+Inst46Quest2_Location = "Isfar (Wälder von Terokkar - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
+Inst46Quest2_Note = "Terokks Maske droppt von Dunkelwirker Syth bei "..YELLOW.."[1]"..WHITE..", die Sage von Terokk findet man bei "..YELLOW.."[2]"..WHITE..", und Terokks Federkiel droppt von Klauenkönig Ikiss bei "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest2_Prequest = "Nein"
+Inst46Quest2_Folgequest = "Nein"
+--
+Inst46Quest2name1 = "Die Sage von Terokk"
+Inst46Quest2name2 = "Terokks Maske"
+Inst46Quest2name3 = "Terokks Federkiel"
+
+--Quest 3 Alliance
+Inst46Quest3 = "3. Vernichtet den Rabengott (Druide - Heroisch)"
+Inst46Quest3_Level = "70"
+Inst46Quest3_Attain = "70"
+Inst46Quest3_Aim = "Tötet den Rabengott und kehrt dann zu Morthis Flügelraunen bei der Zuflucht des Cenarius zurück."
+Inst46Quest3_Location = "Morthis Flügelraunen (Zangarmarschen - Zuflucht des Cenarius; "..YELLOW.."80,65"..WHITE..")"
+Inst46Quest3_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Dies ist die letzte Quest der Questreihe für die schnelle Flugform. Rabengott Anzu wird bei "..YELLOW.."[2]"..WHITE.." mit den Materialen beschworen, die man vom Questgeber erhalten hat."
+Inst46Quest3_Prequest = "Ja, Die Essenz des Adlers -> Auf der Jagd nach dem Mondstein"
+Inst46Quest3_Folgequest = "Nein"
+Inst46Quest3PreQuest = "true"
+--
+Inst46Quest3name1 = "Götze der Rabengöttin"
+
+--Quest 4 Alliance
+Inst46Quest4 = "4. Kalynnas Bitte (Heroisch)"
+Inst46Quest4_Level = "70"
+Inst46Quest4_Attain = "70"
+Inst46Quest4_Aim = "Kalynna Lathred möchte, dass Ihr den Dämmerfolianten vom Großhexenmeister Nethekurse in den zerschmetterten Hallen der Höllenfeuerzitadelle und das Buch der vergessenen Namen von Dunkelwirker Syth in den Sethekkhallen in Auchindoun besorgt."
+Inst46Quest4_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
+Inst46Quest4_Note = "Ihr müsst diese Quest auf dem Schwierigkeitsgrad 'Heroisch' abschließen.\n\nDunkelwirker Syth befindet sich bei "..YELLOW.."[1]"..WHITE..". Der Dämmerfoliant droppt in den zerschmetterten Hallen."
+Inst46Quest4_Prequest = "Ja, Hilfe unter Kollegen ("..YELLOW.."Karazhan"..WHITE..")"
+Inst46Quest4_Folgequest = "Ja, Schrecken der Nacht ("..YELLOW.."Karazhan"..WHITE..")"
+Inst46Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst46Quest1_HORDE = Inst46Quest1
+Inst46Quest1_HORDE_Level = Inst46Quest1_Level
+Inst46Quest1_HORDE_Attain = Inst46Quest1_Attain
+Inst46Quest1_HORDE_Aim = Inst46Quest1_Aim
+Inst46Quest1_HORDE_Location = Inst46Quest1_Location
+Inst46Quest1_HORDE_Note = Inst46Quest1_Note
+Inst46Quest1_HORDE_Prequest = Inst46Quest1_Prequest
+Inst46Quest1_HORDE_Folgequest = Inst46Quest1_Folgequest
+--
+Inst46Quest1name1_HORDE = Inst46Quest1name1
+Inst46Quest1name2_HORDE = Inst46Quest1name2
+Inst46Quest1name3_HORDE = Inst46Quest1name3
+Inst46Quest1name4_HORDE = Inst46Quest1name4
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst46Quest2_HORDE = Inst46Quest2
+Inst46Quest2_HORDE_Level = Inst46Quest2_Level
+Inst46Quest2_HORDE_Attain = Inst46Quest2_Attain
+Inst46Quest2_HORDE_Aim = Inst46Quest2_Aim
+Inst46Quest2_HORDE_Location = Inst46Quest2_Location
+Inst46Quest2_HORDE_Note = Inst46Quest2_Note
+Inst46Quest2_HORDE_Prequest = Inst46Quest2_Prequest
+Inst46Quest2_HORDE_Folgequest = Inst46Quest2_Folgequest
+--
+Inst46Quest2name1_HORDE = Inst46Quest2name1
+Inst46Quest2name2_HORDE = Inst46Quest2name2
+Inst46Quest2name3_HORDE = Inst46Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst46Quest3_HORDE = Inst46Quest3
+Inst46Quest3_HORDE_Level = Inst46Quest3_Level
+Inst46Quest3_HORDE_Attain = Inst46Quest3_Attain
+Inst46Quest3_HORDE_Aim = Inst46Quest3_Aim
+Inst46Quest3_HORDE_Location = Inst46Quest3_Location
+Inst46Quest3_HORDE_Note = Inst46Quest3_Note
+Inst46Quest3_HORDE_Prequest = Inst46Quest3_Prequest
+Inst46Quest3_HORDE_Folgequest = Inst46Quest3_Folgequest
+Inst46Quest3PreQuest_HORDE = Inst46Quest3PreQuest
+--
+Inst46Quest3name1_HORDE = Inst46Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst46Quest4_HORDE = Inst46Quest4
+Inst46Quest4_HORDE_Level = Inst46Quest4_Level
+Inst46Quest4_HORDE_Attain = Inst46Quest4_Attain
+Inst46Quest4_HORDE_Aim = Inst46Quest4_Aim
+Inst46Quest4_HORDE_Location = Inst46Quest4_Location
+Inst46Quest4_HORDE_Note = Inst46Quest4_Note
+Inst46Quest4_HORDE_Prequest = Inst46Quest4_Prequest
+Inst46Quest4_HORDE_Folgequest = Inst46Quest4_Folgequest
+Inst46Quest4PreQuest_HORDE = Inst46Quest4PreQuest
+-- No Rewards for this quest
+
+
+
+--------------- INST47 - Auchindoun: Shadow Labyrinth (SLabs) ---------------
+
+Inst47Story = "Seit Tausenden von Jahren haben die Draenei ihre Toten in Auchindoun, ihrem heiligsten Tempel, begraben.\n\nDoch Agenten des Schattenrats sind in ihn eingedrungen, dazu entschlossen, eine entsetzliche Kreatur von gewaltigem Übel zu beschwören.\n\nIhre abscheulichen magischen Taten führten zu einer gewaltigen Explosion, die den Tempel auseinandergerissen und die Umgebung in ein verkohltes Ödland verwandelt hat.\n\nDie Druckwelle verursachte zusätzlich einen Riss im Nether selbst, so dass jenseitige Astrale in die Scherbenwelt gelockt wurden.\n\nDie begrabenen Draenei durchwandern nun die Ruinen als ruhelose Geister.\n\nUnterdessen droht das vom Schattenrat beschworene entsetzliche Gebilde, ihre Bemühungen, es im Zaum zu halten, zu übermannen.\n\nDu musst dieses Böse davon abhalten, auf dieser ahnungslosen Welt freigesetzt zu werden.\n\nAuchindoun ist in vier Flügel aufgeteilt und für Gruppen von fünf Spielern der Stufen 64-70 vorgesehen."
+Inst47Caption = "Auch: Schattenlabyrinth"
+Inst47QAA = "9 Quests"
+Inst47QAH = "9 Quests"
+
+--Quest 1 Alliance
+Inst47Quest1 = "1. Findet Spion To'gun"
+Inst47Quest1_Level = "70"
+Inst47Quest1_Attain = "68"
+Inst47Quest1_Aim = "Findet Spion To'gun im Schattenlabyrinth von Auchindoun."
+Inst47Quest1_Location = "Spionin Grik'tha (Wälder von Terokkar - Auchindoun; "..YELLOW.."40,72"..WHITE..")"
+Inst47Quest1_Note = "To'gun befindet sich bei "..YELLOW.."[1]"..WHITE..", wird auch auf der Minimap angezeigt."
+Inst47Quest1_Prequest = "Nein"
+Inst47Quest1_Folgequest = "Ja, Seeleninstrumente"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst47Quest2 = "2. Seeleninstrumente"
+Inst47Quest2_Level = "70"
+Inst47Quest2_Attain = "68"
+Inst47Quest2_Aim = "Stehlt 5 Seeleninstrumente und bringt sie zu Spionagemeisterin Mehlisah Hochkrone auf der Terrasse des Lichts in Shattrath."
+Inst47Quest2_Location = "Spion To'gun (Schattenlabyrinth; "..YELLOW.."[1]"..WHITE..")"
+Inst47Quest2_Note = "Seeleninstrumente sind die dunkelvioletten Kugeln, die in der Instanz verteilt zu finden sind. Spionagemeisterin Mehlisah Hochkrone befindet sich in (Shattrath - Terrasse des Lichts; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest2_Prequest = "Ja, Findet Spion To'gun"
+Inst47Quest2_Folgequest = "Nein"
+Inst47Quest2FQuest = "true"
+--
+Inst47Quest2name1 = "Wickeltücher von Shattrath"
+Inst47Quest2name2 = "Handgelenksschutz der Spionagemeisterin"
+Inst47Quest2name3 = "Armschienen der Auchenai"
+Inst47Quest2name4 = "Eiserne Armschützer der Sha'tari"
+
+--Quest 3 Alliance
+Inst47Quest3 = "3. Das Buch der teuflischen Namen"
+Inst47Quest3_Level = "70"
+Inst47Quest3_Attain = "68"
+Inst47Quest3_Aim = "Reist in das Schattenlabyrinth von Auchindoun und besorgt das Buch der teuflischen Namen von Schwarzherz dem Hetzer. Kehrt danach zu Altruis in Nagrand zurück."
+Inst47Quest3_Location = "Altruis der Leider (Nagrand; "..YELLOW.."27,43"..WHITE..")"
+Inst47Quest3_Note = "Schwarzherz der Hetzer befindet sich bei "..YELLOW.."[3]"..WHITE..". Dies ist der letzte Teil einer Questreihe, die im Schattenmondtal bei "..YELLOW.."61,28"..WHITE.." für Aldor und bei "..YELLOW.."55,58"..WHITE.." für Seher startet."
+Inst47Quest3_Prequest = "Ja, Illidans Schüler"
+Inst47Quest3_Folgequest = "Ja, Rückkehr zu den Aldor oder Rückkehr zu den Sehern"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst47Quest4 = "4. Ärger in Auchindoun"
+Inst47Quest4_Level = "70"
+Inst47Quest4_Attain = "68"
+Inst47Quest4_Aim = "Meldet Euch bei Feldkommandeur Mahfuun beim Eingang zum Schattenlabyrinth in Auchindoun in den Wäldern von Terokkar."
+Inst47Quest4_Location = "Spionagemeisterin Mehlisah Hochkrone (Shattrath - Terrasse des Lichts; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest4_Note = "Feldkommandeur Mahfuun befindet sich bei (Wälder von Terokkar - Auchindoun; "..YELLOW.."40,72"..WHITE.."), direkt vor dem Eingang zum Schattenlabyrinth."
+Inst47Quest4_Prequest = "Nein"
+Inst47Quest4_Folgequest = "Ja, Der Kodex des Blutes"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst47Quest5 = "5. Der Kodex des Blutes"
+Inst47Quest5_Level = "70"
+Inst47Quest5_Attain = "68"
+Inst47Quest5_Aim = "Lest den Kodex des Blutes im Schattenlabyrinth von Auchindoun."
+Inst47Quest5_Location = "Feldkommandeur Mahfuun (Wälder von Terokkar - Auchindoun; "..YELLOW.."40,72"..WHITE..")"
+Inst47Quest5_Note = "Der Kodex des Blutes befindet sich direkt vor Großmeister Vorpil bei "..YELLOW.."[4]"..WHITE.."."
+Inst47Quest5_Prequest = "Ja, Ärger in Auchindoun"
+Inst47Quest5_Folgequest = "Ja, In das Herz des Labyrinths"
+Inst47Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst47Quest6 = "6. In das Herz des Labyrinths"
+Inst47Quest6_Level = "70"
+Inst47Quest6_Attain = "68"
+Inst47Quest6_Aim = "Vernichtet Murmur und informiert danach Spionagemeisterin Mehlisah Sonnenkrone auf der Terrasse des Lichts in Shattrath über die Geschehnisse im Schattenlabyrinth."
+Inst47Quest6_Location = "Kodex des Blutes (Schattenlabyrinth; "..YELLOW.."[4]"..WHITE..")"
+Inst47Quest6_Note = "Murmur befindet sich bei "..YELLOW.."[5]"..WHITE..". Spionagemeisterin Mehlisah Sonnenkrone befindet sich in (Shattrath - Terrasse des Lichts; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest6_Prequest = "Ja, Der Kodex des Blutes"
+Inst47Quest6_Folgequest = "Nein"
+Inst47Quest6FQuest = "true"
+--
+Inst47Quest6name1 = "Stofftreter von Shattrath"
+Inst47Quest6name2 = "Stiefel der Spionagemeisterin"
+Inst47Quest6name3 = "Stiefel der Auchenai"
+Inst47Quest6name4 = "Eiserne Schienbeinschützer der Sha'tari"
+
+--Quest 7 Alliance
+Inst47Quest7 = "7. Die Prüfung der Naaru: Stärke (Heroisch)"
+Inst47Quest7_Level = "70"
+Inst47Quest7_Attain = "70"
+Inst47Quest7_Aim = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt."
+Inst47Quest7_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst47Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Murmur befindet sich bei "..YELLOW.."[5]"..WHITE..". Kalithreshs Dreizack droppt in der Dampfkammer.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
+Inst47Quest7_Prequest = "Nein"
+Inst47Quest7_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst47Quest8 = "8. Nach Karazhan"
+Inst47Quest8_Level = "70"
+Inst47Quest8_Attain = "68"
+Inst47Quest8_Aim = "Khadgar möchte, dass Ihr das Schattenlabyrinth von Auchindoun betretet und das erste Schlüsselfragment aus einem versteckten arkanen Behälter besorgt."
+Inst47Quest8_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
+Inst47Quest8_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich neben Murmur bei "..YELLOW.."[5]"..WHITE..". Wenn man ihn öffnet, erscheint ein Elementar, den man töten muss, um das Fragment zu erhalten."
+Inst47Quest8_Prequest = "Ja, Khadgar"
+Inst47Quest8_Folgequest = "Ja, Das zweite und das dritte Fragment"
+Inst47Quest8PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst47Quest9 = "9. Encyclopaedia Daemonica"
+Inst47Quest9_Level = "69"
+Inst47Quest9_Attain = "67"
+Inst47Quest9_Aim = "Beschafft die Encyclopaedia Daemonica von Großmeister Vorpil und bringt sie zu David Wayne in Waynes Zuflucht."
+Inst47Quest9_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
+Inst47Quest9_Note = "Großmeister Vorpil befindet sich bei "..YELLOW.."[4]"..WHITE..". Wenn man diese Quest und Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne."
+Inst47Quest9_Prequest = "Ja, Zusätzliche Materialien"
+Inst47Quest9_Folgequest = "Nein"
+Inst47Quest9PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst47Quest1_HORDE = Inst47Quest1
+Inst47Quest1_HORDE_Level = Inst47Quest1_Level
+Inst47Quest1_HORDE_Attain = Inst47Quest1_Attain
+Inst47Quest1_HORDE_Aim = Inst47Quest1_Aim
+Inst47Quest1_HORDE_Location = Inst47Quest1_Location
+Inst47Quest1_HORDE_Note = Inst47Quest1_Note
+Inst47Quest1_HORDE_Prequest = Inst47Quest1_Prequest
+Inst47Quest1_HORDE_Folgequest = Inst47Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst47Quest2_HORDE = Inst47Quest2
+Inst47Quest2_HORDE_Level = Inst47Quest2_Level
+Inst47Quest2_HORDE_Attain = Inst47Quest2_Attain
+Inst47Quest2_HORDE_Aim = Inst47Quest2_Aim
+Inst47Quest2_HORDE_Location = Inst47Quest2_Location
+Inst47Quest2_HORDE_Note = Inst47Quest2_Note
+Inst47Quest2_HORDE_Prequest = Inst47Quest2_Prequest
+Inst47Quest2_HORDE_Folgequest = Inst47Quest2_Folgequest
+Inst47Quest2FQuest_HORDE = Inst47Quest2FQuest
+--
+Inst47Quest2name1_HORDE = Inst47Quest2name1
+Inst47Quest2name2_HORDE = Inst47Quest2name2
+Inst47Quest2name3_HORDE = Inst47Quest2name3
+Inst47Quest2name4_HORDE = Inst47Quest2name4
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst47Quest3_HORDE = Inst47Quest3
+Inst47Quest3_HORDE_Level = Inst47Quest3_Level
+Inst47Quest3_HORDE_Attain = Inst47Quest3_Attain
+Inst47Quest3_HORDE_Aim = Inst47Quest3_Aim
+Inst47Quest3_HORDE_Location = Inst47Quest3_Location
+Inst47Quest3_HORDE_Note = Inst47Quest3_Note
+Inst47Quest3_HORDE_Prequest = Inst47Quest3_Prequest
+Inst47Quest3_HORDE_Folgequest = Inst47Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst47Quest4_HORDE = Inst47Quest4
+Inst47Quest4_HORDE_Level = Inst47Quest4_Level
+Inst47Quest4_HORDE_Attain = Inst47Quest4_Attain
+Inst47Quest4_HORDE_Aim = Inst47Quest4_Aim
+Inst47Quest4_HORDE_Location = Inst47Quest4_Location
+Inst47Quest4_HORDE_Note = Inst47Quest4_Note
+Inst47Quest4_HORDE_Prequest = Inst47Quest4_Prequest
+Inst47Quest4_HORDE_Folgequest = Inst47Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst47Quest5_HORDE = Inst47Quest5
+Inst47Quest5_HORDE_Level = Inst47Quest5_Level
+Inst47Quest5_HORDE_Attain = Inst47Quest5_Attain
+Inst47Quest5_HORDE_Aim = Inst47Quest5_Aim
+Inst47Quest5_HORDE_Location = Inst47Quest5_Location
+Inst47Quest5_HORDE_Note = Inst47Quest5_Note
+Inst47Quest5_HORDE_Prequest = Inst47Quest5_Prequest
+Inst47Quest5_HORDE_Folgequest = Inst47Quest5_Folgequest
+Inst47Quest5FQuest_HORDE = Inst47Quest5FQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst47Quest6_HORDE = Inst47Quest6
+Inst47Quest6_HORDE_Level = Inst47Quest6_Level
+Inst47Quest6_HORDE_Attain = Inst47Quest6_Attain
+Inst47Quest6_HORDE_Aim = Inst47Quest6_Aim
+Inst47Quest6_HORDE_Location = Inst47Quest6_Location
+Inst47Quest6_HORDE_Note = Inst47Quest6_Note
+Inst47Quest6_HORDE_Prequest = Inst47Quest6_Prequest
+Inst47Quest6_HORDE_Folgequest = Inst47Quest6_Folgequest
+Inst47Quest6FQuest_HORDE = Inst47Quest6FQuest
+--
+Inst47Quest6name1_HORDE = Inst47Quest6name1
+Inst47Quest6name2_HORDE = Inst47Quest6name2
+Inst47Quest6name3_HORDE = Inst47Quest6name3
+Inst47Quest6name4_HORDE = Inst47Quest6name4
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst47Quest7_HORDE = Inst47Quest7
+Inst47Quest7_HORDE_Level = Inst47Quest7_Level
+Inst47Quest7_HORDE_Attain = Inst47Quest7_Attain
+Inst47Quest7_HORDE_Aim = Inst47Quest7_Aim
+Inst47Quest7_HORDE_Location = Inst47Quest7_Location
+Inst47Quest7_HORDE_Note = Inst47Quest7_Note
+Inst47Quest7_HORDE_Prequest = Inst47Quest7_Prequest
+Inst47Quest7_HORDE_Folgequest = Inst47Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst47Quest8_HORDE = Inst47Quest8
+Inst47Quest8_HORDE_Level = Inst47Quest8_Level
+Inst47Quest8_HORDE_Attain = Inst47Quest8_Attain
+Inst47Quest8_HORDE_Aim = Inst47Quest8_Aim
+Inst47Quest8_HORDE_Location = Inst47Quest8_Location
+Inst47Quest8_HORDE_Note = Inst47Quest8_Note
+Inst47Quest8_HORDE_Prequest = Inst47Quest8_Prequest
+Inst47Quest8_HORDE_Folgequest = Inst47Quest8_Folgequest
+Inst47Quest8PreQuest_HORDE = Inst47Quest8PreQuest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst47Quest9_HORDE = Inst47Quest9
+Inst47Quest9_HORDE_Level = Inst47Quest9_Level
+Inst47Quest9_HORDE_Attain = Inst47Quest9_Attain
+Inst47Quest9_HORDE_Aim = Inst47Quest9_Aim
+Inst47Quest9_HORDE_Location = Inst47Quest9_Location
+Inst47Quest9_HORDE_Note = Inst47Quest9_Note
+Inst47Quest9_HORDE_Prequest = Inst47Quest9_Prequest
+Inst47Quest9_HORDE_Folgequest = Inst47Quest9_Folgequest
+Inst47Quest9PreQuest_HORDE = Inst47Quest8PreQuest
+-- No Rewards for this quest
+
+
+
+--------------- INST48 - CR: Serpentshrine Cavern (SSC) ---------------
+
+Inst48Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
+Inst48Caption = "EK: Höhle des Schlangenschreins"
+Inst48QAA = "1 Quest"
+Inst48QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst48Quest1 = "1. Die Phiolen der Ewigkeit"
+Inst48Quest1_Level = "70"
+Inst48Quest1_Attain = "70"
+Inst48Quest1_Aim = "Soridormi in den Höhlen der Zeit möchte, dass Ihr die Überreste von Vashjs Phiole im Echsenkessel und die Überreste von Kaels Phiole von Kael'thas Sonnenwanderer in der Festung der Stürme besorgt."
+Inst48Quest1_Location = "Soridormi (Tanaris - Höhlen der Zeit; "..YELLOW.."58,57"..WHITE.."). Der NPC läuft in dem Bereich umher."
+Inst48Quest1_Note = "Dies ist die Vorquest für die Schlacht um den Berg Hyjal. Lady Vashj befindet sich bei "..YELLOW.."[6]"..WHITE.."."
+Inst48Quest1_Prequest = "Nein"
+Inst48Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst48Quest1_HORDE = Inst48Quest1
+Inst48Quest1_HORDE_Level = Inst48Quest1_Level
+Inst48Quest1_HORDE_Attain = Inst48Quest1_Attain
+Inst48Quest1_HORDE_Aim = Inst48Quest1_Aim
+Inst48Quest1_HORDE_Location = Inst48Quest1_Location
+Inst48Quest1_HORDE_Note = Inst48Quest1_Note
+Inst48Quest1_HORDE_Prequest = Inst48Quest1_Prequest
+Inst48Quest1_HORDE_Folgequest = Inst48Quest1_Folgequest
+-- No Rewards for this quest
+
+
+
+--------------- INST49 - CoT: Black Morass (BM) ---------------
+
+Inst49Story = "Medivh, der letzte der magischen Beschützer von Tirisfal, war von Geburt an vom bösen Titanen Sargeras besessen.\n\nMedivh war es, der als erstes Kontakt zu dem korrupten Orkhexenmeister Gul'dan aufnahm, der ebenfalls im Dienst der Brennenden Legion stand.\n\nZusammen wollten sie die Dimensionslücke zwischen Azeroth und Draenor, der Heimatwelt der Orks, überbrücken, um die Zerstörung Azeroths zu ermöglichen.\n\nAm verabredeten Tag konzentrierten sowohl Medivh als auch Gul'dan ihre ansehnlichen magischen Energien, um die Dimensionssperre zusammenbrechen zu lassen.\n\nDer Schauplatz dieses Ereignisses ist der schwarze Morast, heute bekannt als die verwüsteten Lande.\n\nDie Spieler verteidigen Medivh, während er das Portal öffnet."
+Inst49Caption = "HdZ: Der schwarze Morast"
+Inst49QAA = "5 Quests"
+Inst49QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst49Quest1 = "1. Der schwarze Morast"
+Inst49Quest1_Level = "70"
+Inst49Quest1_Attain = "66"
+Inst49Quest1_Aim = "Reist durch die Höhlen der Zeit in den schwarzen Morast während der Öffnung des Dunklen Portals und sprecht mit Sa'at."
+Inst49Quest1_Location = "Andormu (Tanaris - Höhlen der Zeit; "..YELLOW.."58,54"..WHITE..")"
+Inst49Quest1_Note = "Die Flucht von der Burg Durnholde muss abgeschlossen sein, bevor man den schwarzen Morast betreten kann. Sa'at befindet sich kurz hinter dem Eingang der Instanz."
+Inst49Quest1_Prequest = "Nein"
+Inst49Quest1_Folgequest = "Ja, Die Öffnung des Dunklen Portals"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst49Quest2 = "2. Die Öffnung des Dunklen Portals"
+Inst49Quest2_Level = "70"
+Inst49Quest2_Attain = "66"
+Inst49Quest2_Aim = "Sa'at im schwarzen Morast der Höhlen der Zeit möchte, dass Ihr Medivh verteidigt, bis er das Dunkle Portal geöffnet hat."
+Inst49Quest2_Location = "Sa'at (Der schwarze Morast; "..YELLOW.."Eingang"..WHITE..")"
+Inst49Quest2_Note = "Wenn die Quest missglückt, muss das Ereignis von vorne gestartet werden."
+Inst49Quest2_Prequest = "Ja, Der schwarze Morast"
+Inst49Quest2_Folgequest = "Ja, Held des Schwarms"
+Inst49Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst49Quest3 = "3. Held des Schwarms"
+Inst49Quest3_Level = "70"
+Inst49Quest3_Attain = "66"
+Inst49Quest3_Aim = "Kehrt zum Kind, Andormu, in den Höhlen der Zeit in Tanaris zurück."
+Inst49Quest3_Location = "Andormu (Tanaris - Höhlen der Zeit; "..YELLOW.."58,54"..WHITE..")"
+Inst49Quest3_Note = ""
+Inst49Quest3_Prequest = "Ja, Die Öffnung des Dunklen Portals"
+Inst49Quest3_Folgequest = "Nein"
+Inst49Quest3FQuest = "true"
+--
+Inst49Quest3name1 = "Band des Wächters"
+Inst49Quest3name2 = "Bewahrerring der Frömmigkeit"
+Inst49Quest3name3 = "Edelstein der Zeitkrümmung"
+Inst49Quest3name4 = "Andormus Träne"
+
+--Quest 4 Alliance
+Inst49Quest4 = "4. Die Berührung des Meisters"
+Inst49Quest4_Level = "70"
+Inst49Quest4_Attain = "69"
+Inst49Quest4_Aim = "Geht in die Höhlen der Zeit und überzeugt Medivh davon, den wiederhergestellten Schlüssel des Lehrlings zu aktivieren."
+Inst49Quest4_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
+Inst49Quest4_Note = "Teil der Karazhan-Vorquestreihe. Du musst dich in der Instanz befinden, wenn Aeonus stirbt, um mit Medivh reden zu können."
+Inst49Quest4_Prequest = "Ja, Das zweite und das dritte Fragment"
+Inst49Quest4_Folgequest = "Ja, Rückkehr zu Khadgar"
+Inst49Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst49Quest5 = "5. Meister der Elixiere (Alchimie)"
+Inst49Quest5_Level = "70"
+Inst49Quest5_Attain = "68"
+Inst49Quest5_Aim = "Begebt Euch in den Schwarzen Morast in den Höhlen der Zeit und besorgt 10 Essenzen der Unendlichkeit von den Fürsten der Zeitenrisse und den Bewahrerinnen der Zeitenrisse. Bringt die Essenzen zusammen mit 5 Elixieren der erheblichen Verteidigung, 5 Elixieren des Meisters und 5 Elixieren der erheblichen Beweglichkeit zu Lorokeem im unteren Viertel von Shattrath."
+Inst49Quest5_Location = "Lorokeem (Shattrath - Unteres Viertel; "..YELLOW.."46,23"..WHITE..")"
+Inst49Quest5_Note = "Alchimie-Quest. Lorokeem wandert bei den angegebenen Koordinaten umher."
+Inst49Quest5_Prequest = "Ja, Meister der Elixiere"
+Inst49Quest5_Folgequest = "Nein"
+Inst49Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst49Quest1_HORDE = Inst49Quest1
+Inst49Quest1_HORDE_Level = Inst49Quest1_Level
+Inst49Quest1_HORDE_Attain = Inst49Quest1_Attain
+Inst49Quest1_HORDE_Aim = Inst49Quest1_Aim
+Inst49Quest1_HORDE_Location = Inst49Quest1_Location
+Inst49Quest1_HORDE_Note = Inst49Quest1_Note
+Inst49Quest1_HORDE_Prequest = Inst49Quest1_Prequest
+Inst49Quest1_HORDE_Folgequest = Inst49Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst49Quest2_HORDE = Inst49Quest2
+Inst49Quest2_HORDE_Level = Inst49Quest2_Level
+Inst49Quest2_HORDE_Attain = Inst49Quest2_Attain
+Inst49Quest2_HORDE_Aim = Inst49Quest2_Aim
+Inst49Quest2_HORDE_Location = Inst49Quest2_Location
+Inst49Quest2_HORDE_Note = Inst49Quest2_Note
+Inst49Quest2_HORDE_Prequest = Inst49Quest2_Prequest
+Inst49Quest2_HORDE_Folgequest = Inst49Quest2_Folgequest
+Inst49Quest2FQuest_HORDE = Inst49Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst49Quest3_HORDE = Inst49Quest3
+Inst49Quest3_HORDE_Level = Inst49Quest3_Level
+Inst49Quest3_HORDE_Attain = Inst49Quest3_Attain
+Inst49Quest3_HORDE_Aim = Inst49Quest3_Aim
+Inst49Quest3_HORDE_Location = Inst49Quest3_Location
+Inst49Quest3_HORDE_Note = Inst49Quest3_Note
+Inst49Quest3_HORDE_Prequest = Inst49Quest3_Prequest
+Inst49Quest3_HORDE_Folgequest = Inst49Quest3_Folgequest
+Inst49Quest3FQuest_HORDE = Inst49Quest3FQuest
+--
+Inst49Quest3name1_HORDE = Inst49Quest3name1
+Inst49Quest3name2_HORDE = Inst49Quest3name2
+Inst49Quest3name3_HORDE = Inst49Quest3name3
+Inst49Quest3name4_HORDE = Inst49Quest3name4
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst49Quest4_HORDE = Inst49Quest4
+Inst49Quest4_HORDE_Level = Inst49Quest4_Level
+Inst49Quest4_HORDE_Attain = Inst49Quest4_Attain
+Inst49Quest4_HORDE_Aim = Inst49Quest4_Aim
+Inst49Quest4_HORDE_Location = Inst49Quest4_Location
+Inst49Quest4_HORDE_Note = Inst49Quest4_Note
+Inst49Quest4_HORDE_Prequest = Inst49Quest4_Prequest
+Inst49Quest4_HORDE_Folgequest = Inst49Quest4_Folgequest
+Inst49Quest4PreQuest_HORDE = Inst49Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst49Quest5_HORDE = Inst49Quest5
+Inst49Quest5_HORDE_Level = Inst49Quest5_Level
+Inst49Quest5_HORDE_Attain = Inst49Quest5_Attain
+Inst49Quest5_HORDE_Aim = Inst49Quest5_Aim
+Inst49Quest5_HORDE_Location = Inst49Quest5_Location
+Inst49Quest5_HORDE_Note = Inst49Quest5_Note
+Inst49Quest5_HORDE_Prequest = Inst49Quest5_Prequest
+Inst49Quest5_HORDE_Folgequest = Inst49Quest5_Folgequest
+Inst49Quest5PreQuest_HORDE = Inst49Quest5PreQuest
+-- No Rewards for this quest
+
+
+
+--------------- INST50 - CoT: Battle of Mount Hyjal ---------------
+
+Inst50Story = "Auf dem Höhepunkt des Zweiten Krieges gegen die Brennende Legion war den Rassen von Azeroth klar, dass es der einzige Weg, den Sieg zu erzielen, war, ihre Einheiten zu vereinen; ein verzweifelter Vorstoß zum Sieg.\n\nDieser Kampf fand auf dem Gipfel des Bergs Hyjal statt, am Fuße von Nordrassil, dem Weltenbaum.\n\nDie Nachtelfen, angeführt von Malfurion Sturmgrimm und Tyrande Wisperwind, die neue Horde, angeführt von Thrall und Cairne Bluthuf, und der Rest der Allianz von Lordaeron, angeführt von Jaina Prachtmeer, vereinten ihre Einheiten gegen Archimonde und die dämonischen Truppen der Brennenden Legion in einer gewaltigen, epischen Schlacht, um Azeroth zu verteidigen.\n\nDer Sieg wurde mit Mühe erreicht, obgleich Archimonde den Weltenbaum erreichte und versuchte, ihn wegen seiner Energie anzuzapfen."
+Inst50Caption = "HdZ: Hyjalgipfel"
+Inst50QAA = "1 Quest"
+Inst50QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst50Quest1 = "1. Ein Artefakt aus der Vergangenheit"
+Inst50Quest1_Level = "70"
+Inst50Quest1_Attain = "70"
+Inst50Quest1_Aim = "Reist zu den Höhlen der Zeit in Tanaris und verschafft Euch Zugang zur Schlacht um den Berg Hyjal. Habt Ihr dies geschafft, so bezwingt Furor Winterfrost und bringt das befristete Phylakterium zu Akama im Schattenmondtal."
+Inst50Quest1_Location = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58,48"..WHITE..")"
+Inst50Quest1_Note = "Teil der Vorquestreihe zum Schwarzen Tempel. Furor Winterfrost befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst50Quest1_Prequest = "Ja, Die List der Aschenzungen ("..YELLOW.."FdS: Festung der Stürme"..WHITE..")"
+Inst50Quest1_Folgequest = "Ja, Die Seelengeisel"
+Inst50Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst50Quest1_HORDE = Inst50Quest1
+Inst50Quest1_HORDE_Level = Inst50Quest1_Level
+Inst50Quest1_HORDE_Attain = Inst50Quest1_Attain
+Inst50Quest1_HORDE_Aim = Inst50Quest1_Aim
+Inst50Quest1_HORDE_Location = Inst50Quest1_Location
+Inst50Quest1_HORDE_Note = Inst50Quest1_Note
+Inst50Quest1_HORDE_Prequest = Inst50Quest1_Prequest
+Inst50Quest1_HORDE_Folgequest = Inst50Quest1_Folgequest
+Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
+-- No Rewards for this quest
+
+
+
+--------------- INST51 - CoT: Old Hillsbrad ---------------
+
+Inst51Story = "Burg Durnholde war der Hauptsitz der orkischen Internierungslager im südlichen Lordaeron nach der Niederlage der Horde im Zweiten Krieg.\n\nZu dieser Zeit war Thrall ein 19 Jahre alter Sklave des menschlichen Offiziers Aedelas Schwarzmoor, der Thrall als Kriegshäuptlingsmarionette benutzen wollte, um die orkische Horde zu kontrollieren und daraus Macht über seine Mitmenschen zu erhalten.\n\nAber Thrall wusste, dass er für mehr ausersehnt war, und so floh er aus Durnholde, um andere seiner Art zu finden und schließlich den Frostwolfklan und seinen Platz als Kriegshäuptling zu entdecken.\n\nDiese Instanz enthält das komplette Hügelland-Gebiet, wie es vor 7 Jahren war, bevor die Horde Durnholde zerstört hat und Tarrens Mühle an die Untoten verfallen ist."
+Inst51Caption = "HdZ: Vorgebirge des alten Hügellands"
+Inst51QAA = "4 Quests"
+Inst51QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst51Quest1 = "1. Das alte Hügelland"
+Inst51Quest1_Level = "68"
+Inst51Quest1_Attain = "66"
+Inst51Quest1_Aim = "Andormu in den Höhlen der Zeit bittet Euch, ins Alte Hügelland zu reisen und mit Erozion zu sprechen."
+Inst51Quest1_Location = "Andormu (Tanaris - Höhlen der Zeit; "..YELLOW.."58,54"..WHITE..")"
+Inst51Quest1_Note = "Die Vorquest, die bei dem Drachen am Eingang der Höhlen der Zeit startet, muss absolviert sein."
+Inst51Quest1_Prequest = "Ja, Die Höhlen der Zeit"
+Inst51Quest1_Folgequest = "Ja, Tarethas Ablenkungsmanöver"
+Inst51Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst51Quest2 = "2. Tarethas Ablenkungsmanöver"
+Inst51Quest2_Level = "68"
+Inst51Quest2_Attain = "66"
+Inst51Quest2_Aim = "Reist zur Burg Durnholde und platziert mit Hilfe des Bündels mit Brandbomben, das Ihr von Erozion erhalten habt, 5 Brandsätze auf den Fässern in jeder Internierungsbaracke. Sprecht mit Thrall im Kellergefängnis der Burg Durnholde, wenn Ihr die Internierungsbaracken angezündet habt."
+Inst51Quest2_Location = "Erozion (Vorgebirge des alten Hügellands; "..YELLOW.."Eingang"..WHITE..")"
+Inst51Quest2_Note = "Thrall befindet sich bei "..YELLOW.."[2]"..WHITE..". Reise nach Süderstade, um dir die Geschichte des Aschenbringers anzuhören und einige Leute mit bekannten Namen wie Kel'Thuzad und Herod der Tyrann zu treffen."
+Inst51Quest2_Prequest = "Ja, Das alte Hügelland"
+Inst51Quest2_Folgequest = "Ja, Flucht aus Durnholde"
+Inst51Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst51Quest3 = "3. Flucht aus Durnholde"
+Inst51Quest3_Level = "68"
+Inst51Quest3_Attain = "66"
+Inst51Quest3_Aim = "Gebt Thrall Bescheid, wenn Ihr bereit seid. Folgt Thrall aus der Burg Durnholde und helft ihm, Taretha zu befreien und sein Schicksal zu erfüllen. Sprecht mit Ezorion im Alten Hügelland, wenn Ihr diese Aufgabe erfüllt habt."
+Inst51Quest3_Location = "Thrall (Vorgebirge des alten Hügellands; "..YELLOW.."[2]"..WHITE..")"
+Inst51Quest3_Note = "Stell sicher, dass jeder die Quest angenommen hat, bevor jemand Thrall ansprecht, um die Flucht zu starten. Angeblich kann die Quest trotzdem geteilt und erfolgreich abgeschlossen werden. Du hast 20 Versuche, Thrall zu retten, danach musst du die Instanz zurücksetzen, und du kannst den letzten Boss nicht ohne Thrall töten, da Thrall den letzten Schritt tun muss."
+Inst51Quest3_Prequest = "Ja, Tarethas Ablenkungsmanöver"
+Inst51Quest3_Folgequest = "Ja, Rückkehr zu Andormu"
+Inst51Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst51Quest4 = "4. Rückkehr zu Andormu"
+Inst51Quest4_Level = "68"
+Inst51Quest4_Attain = "66"
+Inst51Quest4_Aim = "Kehrt zu dem jungen Andormu in den Höhlen der Zeit in Tanaris zurück."
+Inst51Quest4_Location = "Erozion (Vorgebirge des alten Hügellands; "..YELLOW.."Eingang"..WHITE..")"
+Inst51Quest4_Note = "Andormu befindet sich bei (Tanaris - Höhlen der Zeit; "..YELLOW.."58,54"..WHITE.."). Mit dem Abschluss dieser Quest kann man den schwarzen Morast betreten."
+Inst51Quest4_Prequest = "Ja, Flucht aus Durnholde"
+Inst51Quest4_Folgequest = "Nein"
+Inst51Quest4FQuest = "true"
+--
+Inst51Quest4name1 = "Berührung des Sturms"
+Inst51Quest4name2 = "Süderstader Schuhe"
+Inst51Quest4name3 = "Verteidigergurt von Tarrens Mühle"
+Inst51Quest4name4 = "Mantelung des Kriegshäuptlings"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst51Quest1_HORDE = Inst51Quest1
+Inst51Quest1_HORDE_Level = Inst51Quest1_Level
+Inst51Quest1_HORDE_Attain = Inst51Quest1_Attain
+Inst51Quest1_HORDE_Aim = Inst51Quest1_Aim
+Inst51Quest1_HORDE_Location = Inst51Quest1_Location
+Inst51Quest1_HORDE_Note = Inst51Quest1_Note
+Inst51Quest1_HORDE_Prequest = Inst51Quest1_Prequest
+Inst51Quest1_HORDE_Folgequest = Inst51Quest1_Folgequest
+Inst51Quest1PreQuest_HORDE = Inst51Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst51Quest2_HORDE = Inst51Quest2
+Inst51Quest2_HORDE_Level = Inst51Quest2_Level
+Inst51Quest2_HORDE_Attain = Inst51Quest2_Attain
+Inst51Quest2_HORDE_Aim = Inst51Quest2_Aim
+Inst51Quest2_HORDE_Location = Inst51Quest2_Location
+Inst51Quest2_HORDE_Note = Inst51Quest2_Note
+Inst51Quest2_HORDE_Prequest = Inst51Quest2_Prequest
+Inst51Quest2_HORDE_Folgequest = Inst51Quest2_Folgequest
+Inst51Quest2FQuest_HORDE = Inst51Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst51Quest3_HORDE = Inst51Quest3
+Inst51Quest3_HORDE_Level = Inst51Quest3_Level
+Inst51Quest3_HORDE_Attain = Inst51Quest3_Attain
+Inst51Quest3_HORDE_Aim = Inst51Quest3_Aim
+Inst51Quest3_HORDE_Location = Inst51Quest3_Location
+Inst51Quest3_HORDE_Note = Inst51Quest3_Note
+Inst51Quest3_HORDE_Prequest = Inst51Quest3_Prequest
+Inst51Quest3_HORDE_Folgequest = Inst51Quest3_Folgequest
+Inst51Quest3FQuest_HORDE = Inst51Quest3FQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst51Quest4_HORDE = Inst51Quest4
+Inst51Quest4_HORDE_Level = Inst51Quest4_Level
+Inst51Quest4_HORDE_Attain = Inst51Quest4_Attain
+Inst51Quest4_HORDE_Aim = Inst51Quest4_Aim
+Inst51Quest4_HORDE_Location = Inst51Quest4_Location
+Inst51Quest4_HORDE_Note = Inst51Quest4_Note
+Inst51Quest4_HORDE_Prequest = Inst51Quest4_Prequest
+Inst51Quest4_HORDE_Folgequest = Inst51Quest4_Folgequest
+Inst51Quest4FQuest_HORDE = Inst51Quest4FQuest
+--
+Inst51Quest4name1_HORDE = Inst51Quest4name1
+Inst51Quest4name2_HORDE = Inst51Quest4name2
+Inst51Quest4name3_HORDE = Inst51Quest4name3
+Inst51Quest4name4_HORDE = Inst51Quest4name4
+
+
+
+--------------- INST52 - Gruul's Lair (GL) ---------------
+
+Inst52Story = "Gruul der Drachenschlächter ist, wie sein Name vermuten lässt, ein bedeutender drachentötender Gronn, ebenso wie der Endboss der Schlachtzugsinstanz Gruuls Unterschlupf im Schergrat.\n\nEr droppt die Tier-4-Bein-Gutscheine.\n\nEr ist der Vater von 7 Gronns, darunter Goc, Gorgrom der Drachenfresser, Grulloc, Maggoc und Durn der Nimmersatte.\n\nZusammenfassung des Kampfes: Steine fallen herunter. Leute sterben."
+Inst52Caption = "Gruuls Unterschlupf"
+Inst52QAA = "1 Quest"
+Inst52QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst52Quest1 = "1. Der Knüppel von Kar'desh"
+Inst52Quest1_Level = "70"
+Inst52Quest1_Attain = "70"
+Inst52Quest1_Aim = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt."
+Inst52Quest1_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [3]"..WHITE..")"
+Inst52Quest1_Note = "Das Erdensiegel droppt von Gruul bei "..YELLOW.."[2]"..WHITE..", und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."Karazhan"..WHITE..".\n\nDiese Quest wurde benötigt, um die Höhle des Schlangenschreins zu betreten, ist aber nicht mehr nötig."
+Inst52Quest1_Prequest = "Nein"
+Inst52Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst52Quest1_HORDE = Inst52Quest1
+Inst52Quest1_HORDE_Level = Inst52Quest1_Level
+Inst52Quest1_HORDE_Attain = Inst52Quest1_Attain
+Inst52Quest1_HORDE_Aim = Inst52Quest1_Aim
+Inst52Quest1_HORDE_Location = Inst52Quest1_Location
+Inst52Quest1_HORDE_Note = Inst52Quest1_Note
+Inst52Quest1_HORDE_Prequest = Inst52Quest1_Prequest
+Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
+-- No Rewards for this quest
+
+
+--------------- INST53 - Karazhan (Kara) ---------------
+
+Inst53Story = "Der baufällige Turm von Karazhan beheimatete einst einen der größten Mächte, die Azeroth jemals gekannt hat: den Zauberer Medivh.\n\nSeit seinem Tod liegt ein schrecklicher Flucht über dem Turms und das ihn umgebende Land.\n\nDie Geister von Adeligen aus dem naheliegenden Dunkelhain streifen angeblich durch seine Hallen und ertragen aufgrund ihrer Neugier ein Schicksal, das schlimmer ist als der Tod.\n\nGefährlichere Geister warten in Medivhs Arbeitszimmer, da er es war, der die dämonischen Einheiten beschworen hat, damit sie nach seiner Pfeife tanzen.\n\nTrotzdem zieht es die Mutigen und die Törichten weiter schonungslos nach Karazhan, verleitet von Gerüchten über unaussprechliche Geheimnisse und mächtige Schätze.\n\nBilde eine Gruppe von zehn treuen Helden und reise in den Turm im Gebirgspass der Totenwinde - aber sei gewarnt, dass nur solche, die Stufe 70 erreicht haben, eintreten dürfen."
+Inst53Caption = "Karazhan"
+Inst53QAA = "14 Quests"
+Inst53QAH = "14 Quests"
+
+--Quest 1 Alliance
+Inst53Quest1 = "1. Einschätzung der Situation"
+Inst53Quest1_Level = "70"
+Inst53Quest1_Attain = "69"
+Inst53Quest1_Aim = "Findet Koren in Karazhan."
+Inst53Quest1_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest1_Note = "Koren befindet sich in Karazhan hinter Attumen dem Jäger bei "..YELLOW.."[6]"..WHITE.."."
+Inst53Quest1_Prequest = "Ja, Arkane Störungen -> Das Violette Auge"
+Inst53Quest1_Folgequest = "Ja, Keannas Aufzeichnungen"
+Inst53Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst53Quest2 = "2. Keannas Aufzeichnungen"
+Inst53Quest2_Level = "70"
+Inst53Quest2_Attain = "70"
+Inst53Quest2_Aim = "Durchsucht die Gästezimmer in Karazhan nach Keannas Aufzeichnungen und bringt sie zu Erzmagier Alturus außerhalb von Karazhan."
+Inst53Quest2_Location = "Koren (Karazhan; "..YELLOW.."[6]"..WHITE..")"
+Inst53Quest2_Note = "Die Aufzeichnungen befindet sich in dem zweiten Raum des Gangs, der zur Tugendhaften Maid bei "..YELLOW.."[10]"..WHITE.." führt, auf einem Tisch. Erzmagier Alturus befindet sich bei (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")."
+Inst53Quest2_Prequest = "Ja, Einschätzung der Situation"
+Inst53Quest2_Folgequest = "Ja, Eine dämonische Präsenz"
+Inst53Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst53Quest3 = "3. Eine dämonische Präsenz"
+Inst53Quest3_Level = "70"
+Inst53Quest3_Attain = "70"
+Inst53Quest3_Aim = "Erzmagier Alturus möchte, dass Ihr die dämonische Präsenz an der Turmspitze von Karazhan zerstört."
+Inst53Quest3_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest3_Note = "Prinz Malchezaar befindet sich bei "..YELLOW.."[26]"..WHITE.."."
+Inst53Quest3_Prequest = "Ja, Keannas Aufzeichnungen"
+Inst53Quest3_Folgequest = "Ja, Neue Anweisungen"
+Inst53Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst53Quest4 = "4. Neue Anweisungen"
+Inst53Quest4_Level = "70"
+Inst53Quest4_Attain = "70"
+Inst53Quest4_Aim = "Sprecht mit Erzmagier Cedric am Rande von Dalaran."
+Inst53Quest4_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest4_Note = "Erzmagier Cedric befindet sich bei (Alteracgebirge - Dalaran; "..YELLOW.."15,54"..WHITE..")"
+Inst53Quest4_Prequest = "Ja, Eine dämonische Präsenz"
+Inst53Quest4_Folgequest = "Nein"
+Inst53Quest4FQuest = "true"
+--
+Inst53Quest4name1 = "Violettes Abzeichen"
+
+--Quest 5 Alliance
+Inst53Quest5 = "5. Medivhs Tagebuch"
+Inst53Quest5_Level = "70"
+Inst53Quest5_Attain = "70"
+Inst53Quest5_Aim = "Erzmagier Alturus am Gebirgspass der Totenwinde möchte, dass Ihr nach Karazhan geht und mit Wravien sprecht."
+Inst53Quest5_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest5_Note = "Benötigt Wohlwollend beim Violetten Auge. Wravien befindet sich in der Bibliothek der Wächter hinter dem Kurator bei "..YELLOW.."[17]"..WHITE.."."
+Inst53Quest5_Prequest = "Nein"
+Inst53Quest5_Folgequest = "Ja, In guten Händen"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst53Quest6 = "6. In guten Händen"
+Inst53Quest6_Level = "70"
+Inst53Quest6_Attain = "70"
+Inst53Quest6_Aim = "Sprecht mit Gradav in der Bibliothek des Wächters in Karazhan."
+Inst53Quest6_Location = "Wravien (Karazhan; "..YELLOW.."[17]"..WHITE..")"
+Inst53Quest6_Note = "Gradav befindet sich im gleichen Raum wie Wravien bei "..YELLOW.."[18]"..WHITE.."."
+Inst53Quest6_Prequest = "Ja, Medivhs Tagebuch"
+Inst53Quest6_Folgequest = "Ja, Kamsis"
+Inst53Quest6FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst53Quest7 = "7. Kamsis"
+Inst53Quest7_Level = "70"
+Inst53Quest7_Attain = "70"
+Inst53Quest7_Aim = "Sprecht mit Kamsis in der Bibliothek des Wächters in Karazhan."
+Inst53Quest7_Location = "Gradav (Karazhan; "..YELLOW.."[18]"..WHITE..")"
+Inst53Quest7_Note = "Kamsis befindet sich im gleichen Raum wie Gradav bei "..YELLOW.."[19]"..WHITE.."."
+Inst53Quest7_Prequest = "Ja, In guten Händen"
+Inst53Quest7_Folgequest = "Ja, Arans Schemen"
+Inst53Quest7FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst53Quest8 = "8. Arans Schemen"
+Inst53Quest8_Level = "70"
+Inst53Quest8_Attain = "70"
+Inst53Quest8_Aim = "Beschafft Medivhs Tagebuch und kehrt zu Kamsis in der Bibliothek des Wächters in Karazhan zurück."
+Inst53Quest8_Location = "Kamsis (Karazhan; "..YELLOW.."[19]"..WHITE..")"
+Inst53Quest8_Note = "Arans Schemen bei "..YELLOW.."[21]"..WHITE.." droppt das Tagebuch."
+Inst53Quest8_Prequest = "Ja, Kamsis"
+Inst53Quest8_Folgequest = "Ja, Die Terrasse des Meisters"
+Inst53Quest8FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst53Quest9 = "9. Die Terrasse des Meisters"
+Inst53Quest9_Level = "70"
+Inst53Quest9_Attain = "70"
+Inst53Quest9_Aim = "Geht zur Terrasse des Meisters in Karazhan und lest Medivhs Tagebuch. Kehrt danach mit Medivhs Tagebuch zu Erzmagier Alturus zurück."
+Inst53Quest9_Location = "Kamsis (Karazhan; "..YELLOW.."[19]"..WHITE..")"
+Inst53Quest9_Note = "Erzmagier Alturus befindet sich bei (Gebirgspass der Totenwinde; "..YELLOW.."47,75"..WHITE.."). Führt zu keinem Kampf. Genieß die Darbietung."
+Inst53Quest9_Prequest = "Ja, Arans Schemen"
+Inst53Quest9_Folgequest = "Ja, Die Vergangenheit aufwühlen"
+Inst53Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst53Quest10 = "10. Die Vergangenheit aufwühlen"
+Inst53Quest10_Level = "70"
+Inst53Quest10_Attain = "70"
+Inst53Quest10_Aim = "Erzmagier Alturus möchte, dass Ihr zu den Bergen südlich von Karazhan im Gebirgspass der Totenwinde geht und ein verkohltes Knochenfragment besorgt."
+Inst53Quest10_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest10_Note = "Das verkohlte Knochenfragment befindet sich bei "..YELLOW.."44,78"..WHITE.." im Gebirgspass der Totenwinde."
+Inst53Quest10_Prequest = "Ja, Die Terrasse des Meisters"
+Inst53Quest10_Folgequest = "Ja, Hilfe unter Kollegen"
+Inst53Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst53Quest11 = "11. Hilfe unter Kollegen"
+Inst53Quest11_Level = "70"
+Inst53Quest11_Attain = "70"
+Inst53Quest11_Aim = "Bringt das verkohlte Knochenfragment zu Kalynna Lathred in Area 52 im Nethersturm."
+Inst53Quest11_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest11_Note = "Kalynna Lathred befindet sich bei (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")."
+Inst53Quest11_Prequest = "Ja, Die Vergangenheit aufwühlen"
+Inst53Quest11_Folgequest = "Ja, Kalynnas Bitte"
+Inst53Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst53Quest12 = "12. Kalynnas Bitte"
+Inst53Quest12_Level = "70"
+Inst53Quest12_Attain = "70"
+Inst53Quest12_Aim = "Kalynna Lathred möchte, dass Ihr den Dämmerfolianten vom Großhexenmeister Nethekurse in den zerschmetterten Hallen der Höllenfeuerzitadelle und das Buch der vergessenen Namen von Dunkelwirker Syth in den Sethekkhallen in Auchindoun besorgt."
+Inst53Quest12_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
+Inst53Quest12_Note = "Ihr müsst in die Zerschmetterten Hallen und die Sethekkhallen auf dem Schwierigkeitsgrad 'Heroisch' reisen."
+Inst53Quest12_Prequest = "Ja, Hilfe unter Kollegen"
+Inst53Quest12_Folgequest = "Ja, Schrecken der Nacht"
+Inst53Quest12FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst53Quest13 = "13. Schrecken der Nacht"
+Inst53Quest13_Level = "70"
+Inst53Quest13_Attain = "70"
+Inst53Quest13_Aim = "Geht zur Terrasse des Meisters in Karazhan und benutzt Kalynnas Urne, um den Schrecken der Nacht zu rufen. Entzieht dem Körper des Schreckens die schwache arkane Essenz und bringt sie zu Erzmagier Alturus."
+Inst53Quest13_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
+Inst53Quest13_Note = "Schrecken der Nacht wird bei "..YELLOW.."[15]"..WHITE.." beschworen. Kehre zu Erzmagier Alturus bei (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..") zurück, um die Quest abzugeben."
+Inst53Quest13_Prequest = "Ja, Kalynnas Bitte"
+Inst53Quest13_Folgequest = "Nein"
+Inst53Quest13FQuest = "true"
+--
+Inst53Quest13name1 = "Pulsierender Amethyst"
+Inst53Quest13name2 = "Beruhigender Amethyst"
+Inst53Quest13name3 = "Energieerfüllter Amethyst"
+
+--Quest 14 Alliance
+Inst53Quest14 = "14. Der Knüppel von Kar'desh"
+Inst53Quest14_Level = "70"
+Inst53Quest14_Attain = "70"
+Inst53Quest14_Aim = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt."
+Inst53Quest14_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [3]"..WHITE..")"
+Inst53Quest14_Note = "Das Erdensiegel droppt von Gruul bei "..YELLOW.."[2]"..WHITE..", und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."Karazhan"..WHITE..".\n\nDiese Quest wurde benötigt, um die Höhle des Schlangenschreins zu betreten, ist aber nicht mehr nötig."
+Inst53Quest14_Prequest = "Nein"
+Inst53Quest14_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst53Quest1_HORDE = Inst53Quest1
+Inst53Quest1_HORDE_Level = Inst53Quest1_Level
+Inst53Quest1_HORDE_Attain = Inst53Quest1_Attain
+Inst53Quest1_HORDE_Aim = Inst53Quest1_Aim
+Inst53Quest1_HORDE_Location = Inst53Quest1_Location
+Inst53Quest1_HORDE_Note = Inst53Quest1_Note
+Inst53Quest1_HORDE_Prequest = Inst53Quest1_Prequest
+Inst53Quest1_HORDE_Folgequest = Inst53Quest1_Folgequest
+Inst53Quest1PreQuest_HORDE = Inst53Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst53Quest2_HORDE = Inst53Quest2
+Inst53Quest2_HORDE_Level = Inst53Quest2_Level
+Inst53Quest2_HORDE_Attain = Inst53Quest2_Attain
+Inst53Quest2_HORDE_Aim = Inst53Quest2_Aim
+Inst53Quest2_HORDE_Location = Inst53Quest2_Location
+Inst53Quest2_HORDE_Note = Inst53Quest2_Note
+Inst53Quest2_HORDE_Prequest = Inst53Quest2_Prequest
+Inst53Quest2_HORDE_Folgequest = Inst53Quest2_Folgequest
+Inst53Quest2FQuest_HORDE = Inst53Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst53Quest3_HORDE = Inst53Quest3
+Inst53Quest3_HORDE_Level = Inst53Quest3_Level
+Inst53Quest3_HORDE_Attain = Inst53Quest3_Attain
+Inst53Quest3_HORDE_Aim = Inst53Quest3_Aim
+Inst53Quest3_HORDE_Location = Inst53Quest3_Location
+Inst53Quest3_HORDE_Note = Inst53Quest3_Note
+Inst53Quest3_HORDE_Prequest = Inst53Quest3_Prequest
+Inst53Quest3_HORDE_Folgequest = Inst53Quest3_Folgequest
+Inst53Quest3FQuest_HORDE = Inst53Quest3FQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst53Quest4_HORDE = Inst53Quest4
+Inst53Quest4_HORDE_Level = Inst53Quest4_Level
+Inst53Quest4_HORDE_Attain = Inst53Quest4_Attain
+Inst53Quest4_HORDE_Aim = Inst53Quest4_Aim
+Inst53Quest4_HORDE_Location = Inst53Quest4_Location
+Inst53Quest4_HORDE_Note = Inst53Quest4_Note
+Inst53Quest4_HORDE_Prequest = Inst53Quest4_Prequest
+Inst53Quest4_HORDE_Folgequest = Inst53Quest4_Folgequest
+Inst53Quest4FQuest_HORDE = Inst53Quest4FQuest
+--
+Inst53Quest4name1_HORDE = Inst53Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst53Quest5_HORDE = Inst53Quest5
+Inst53Quest5_HORDE_Level = Inst53Quest5_Level
+Inst53Quest5_HORDE_Attain = Inst53Quest5_Attain
+Inst53Quest5_HORDE_Aim = Inst53Quest5_Aim
+Inst53Quest5_HORDE_Location = Inst53Quest5_Location
+Inst53Quest5_HORDE_Note = Inst53Quest5_Note
+Inst53Quest5_HORDE_Prequest = Inst53Quest5_Prequest
+Inst53Quest5_HORDE_Folgequest = Inst53Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst53Quest6_HORDE = Inst53Quest6
+Inst53Quest6_HORDE_Level = Inst53Quest6_Level
+Inst53Quest6_HORDE_Attain = Inst53Quest6_Attain
+Inst53Quest6_HORDE_Aim = Inst53Quest6_Aim
+Inst53Quest6_HORDE_Location = Inst53Quest6_Location
+Inst53Quest6_HORDE_Note = Inst53Quest6_Note
+Inst53Quest6_HORDE_Prequest = Inst53Quest6_Prequest
+Inst53Quest6_HORDE_Folgequest = Inst53Quest6_Folgequest
+Inst53Quest6FQuest_HORDE = Inst53Quest6FQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst53Quest7_HORDE = Inst53Quest7
+Inst53Quest7_HORDE_Level = Inst53Quest7_Level
+Inst53Quest7_HORDE_Attain = Inst53Quest7_Attain
+Inst53Quest7_HORDE_Aim = Inst53Quest7_Aim
+Inst53Quest7_HORDE_Location = Inst53Quest7_Location
+Inst53Quest7_HORDE_Note = Inst53Quest7_Note
+Inst53Quest7_HORDE_Prequest = Inst53Quest7_Prequest
+Inst53Quest7_HORDE_Folgequest = Inst53Quest7_Folgequest
+Inst53Quest7FQuest_HORDE = Inst53Quest7FQuest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst53Quest8_HORDE = Inst53Quest8
+Inst53Quest8_HORDE_Level = Inst53Quest8_Level
+Inst53Quest8_HORDE_Attain = Inst53Quest8_Attain
+Inst53Quest8_HORDE_Aim = Inst53Quest8_Aim
+Inst53Quest8_HORDE_Location = Inst53Quest8_Location
+Inst53Quest8_HORDE_Note = Inst53Quest8_Note
+Inst53Quest8_HORDE_Prequest = Inst53Quest8_Prequest
+Inst53Quest8_HORDE_Folgequest = Inst53Quest8_Folgequest
+Inst53Quest8FQuest_HORDE = Inst53Quest8FQuest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst53Quest9_HORDE = Inst53Quest9
+Inst53Quest9_HORDE_Level = Inst53Quest9_Level
+Inst53Quest9_HORDE_Attain = Inst53Quest9_Attain
+Inst53Quest9_HORDE_Aim = Inst53Quest9_Aim
+Inst53Quest9_HORDE_Location = Inst53Quest9_Location
+Inst53Quest9_HORDE_Note = Inst53Quest9_Note
+Inst53Quest9_HORDE_Prequest = Inst53Quest9_Prequest
+Inst53Quest9_HORDE_Folgequest = Inst53Quest9_Folgequest
+Inst53Quest9FQuest_HORDE = Inst53Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst53Quest10_HORDE = Inst53Quest10
+Inst53Quest10_HORDE_Level = Inst53Quest10_Level
+Inst53Quest10_HORDE_Attain = Inst53Quest10_Attain
+Inst53Quest10_HORDE_Aim = Inst53Quest10_Aim
+Inst53Quest10_HORDE_Location = Inst53Quest10_Location
+Inst53Quest10_HORDE_Note = Inst53Quest10_Note
+Inst53Quest10_HORDE_Prequest = Inst53Quest10_Prequest
+Inst53Quest10_HORDE_Folgequest = Inst53Quest10_Folgequest
+Inst53Quest10FQuest_HORDE = Inst53Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst53Quest11_HORDE = Inst53Quest11
+Inst53Quest11_HORDE_Level = Inst53Quest11_Level
+Inst53Quest11_HORDE_Attain = Inst53Quest11_Attain
+Inst53Quest11_HORDE_Aim = Inst53Quest11_Aim
+Inst53Quest11_HORDE_Location = Inst53Quest11_Location
+Inst53Quest11_HORDE_Note = Inst53Quest11_Note
+Inst53Quest11_HORDE_Prequest = Inst53Quest11_Prequest
+Inst53Quest11_HORDE_Folgequest = Inst53Quest11_Folgequest
+Inst53Quest11FQuest_HORDE = Inst53Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst53Quest12_HORDE = Inst53Quest12
+Inst53Quest12_HORDE_Level = Inst53Quest12_Level
+Inst53Quest12_HORDE_Attain = Inst53Quest12_Attain
+Inst53Quest12_HORDE_Aim = Inst53Quest12_Aim
+Inst53Quest12_HORDE_Location = Inst53Quest12_Location
+Inst53Quest12_HORDE_Note = Inst53Quest12_Note
+Inst53Quest12_HORDE_Prequest = Inst53Quest12_Prequest
+Inst53Quest12_HORDE_Folgequest = Inst53Quest12_Folgequest
+Inst53Quest12FQuest_HORDE = Inst53Quest12FQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst53Quest13_HORDE = Inst53Quest13
+Inst53Quest13_HORDE_Level = Inst53Quest13_Level
+Inst53Quest13_HORDE_Attain = Inst53Quest13_Attain
+Inst53Quest13_HORDE_Aim = Inst53Quest13_Aim
+Inst53Quest13_HORDE_Location = Inst53Quest13_Location
+Inst53Quest13_HORDE_Note = Inst53Quest13_Note
+Inst53Quest13_HORDE_Prequest = Inst53Quest13_Prequest
+Inst53Quest13_HORDE_Folgequest = Inst53Quest13_Folgequest
+Inst53Quest13FQuest_HORDE = Inst53Quest13FQuest
+--
+Inst53Quest13name1_HORDE = Inst53Quest13name1
+Inst53Quest13name2_HORDE = Inst53Quest13name2
+Inst53Quest13name3_HORDE = Inst53Quest13name3
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst53Quest14_HORDE = Inst53Quest14
+Inst53Quest14_HORDE_Level = Inst53Quest14_Level
+Inst53Quest14_HORDE_Attain = Inst53Quest14_Attain
+Inst53Quest14_HORDE_Aim = Inst53Quest14_Aim
+Inst53Quest14_HORDE_Location = Inst53Quest14_Location
+Inst53Quest14_HORDE_Note = Inst53Quest14_Note
+Inst53Quest14_HORDE_Prequest = Inst53Quest14_Prequest
+Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
+-- No Rewards for this quest
+
+
+
+--------------- INST54 - TK: Arcatraz (Arc) ---------------
+
+Inst54Story = "Die Festung der Stürme ist eine ehemalige Festung der Naaru im Nethersturm in der Scherbenwelt.\n\nDiese kristallene Festung wird nun von Kael'thas Sonnenwanderer regiert, dem Herren der Blutelfen, und wird dominiert von den Kerben seiner Brüder.\n\nDie Struktur ist in drei Flügel eingeteilt - Satelliten gigantischen Ausmaßes - mit dem viertel Flügel, der Exodar, nun in the Welt von Azeroth als Hauptstadt der Draenei.\n\nDie Arkatraz ist der dritte Flügel der Festung der Stürme.\n\nDie Arkatraz ist entweder zugänglich über eine lange Questreihe für den Schlüssel, bei der man die Mechanar und die Botanika durchspielen muss und die mit einer Quest (Ein Hügel voll Astraler) von Netherpirscher Khay'ji in Area 52 beginnt, oder kann von einem Stufe-70-Schurken mit 350 Punkten in Schlossknacken geöffnet werden.\n\nNur ein Mitglied der Gruppe muss den Schlüssel haben. Das Eingangsportal ist hoch über den anderen Instanzen der Festung der Stürme.\n\nEin voller Durchlauf gewährt ungefähr 1750 Rufpunkte bei den Sha'tar."
+Inst54Caption = "FdS: Die Arkatraz"
+Inst54QAA = "4 Quests"
+Inst54QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst54Quest1 = "1. Herold der Verdammnis"
+Inst54Quest1_Level = "70"
+Inst54Quest1_Attain = "70"
+Inst54Quest1_Aim = "Ihr wurdet beauftragt, zur Arkatraz in der Festung der Stürme zu reisen und Herold Horizontiss zu töten. Kehrt danach zu A'dal auf der Terrasse des Lichts in Shattrath zurück."
+Inst54Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest1_Note = "Dies ist Teil der Schlüsselquestreihe, die im Nethersturm bei Netherpirscher Khay'ji bei (Nethersturm - Area 52; "..YELLOW.."32,64"..WHITE..") startet."
+Inst54Quest1_Prequest = "Ja, Sphärenräuber Nesaad -> Wie man in Arkatraz einbricht"
+Inst54Quest1_Folgequest = "Nein"
+Inst54Quest1PreQuest = "true"
+--
+Inst54Quest1name1 = "Mächtiger Anhänger der Sha'tari"
+Inst54Quest1name2 = "A'dals Halskette der Erholung"
+Inst54Quest1name3 = "Machtvoller Halsschmuck von Shattrath"
+
+--Quest 2 Alliance
+Inst54Quest2 = "2. Seher Udalo"
+Inst54Quest2_Level = "70"
+Inst54Quest2_Attain = "68"
+Inst54Quest2_Aim = "Sucht Seher Udalo in der Arkatraz in der Festung der Stürme."
+Inst54Quest2_Location = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58,48"..WHITE..")"
+Inst54Quest2_Note = "Diese Quest ist Teil einer Questreihe, die im Schattenmondtal bei "..YELLOW.."62,38"..WHITE.." für Aldor und bei "..YELLOW.."56,59"..WHITE.." für Seher startet."
+Inst54Quest2_Prequest = "Ja, Schrifttafeln von Baa'ri -> Akama"
+Inst54Quest2_Folgequest = "Ja, Ein mysteriöses Omen"
+Inst54Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst54Quest3 = "3. Die Prüfung der Naaru: Zuverlässigkeit (Heroisch)"
+Inst54Quest3_Level = "70"
+Inst54Quest3_Attain = "70"
+Inst54Quest3_Aim = "A'dal in Shattrath möchte, dass Ihr Millhaus Manasturm aus der Arkatraz in der Festung der Stürme rettet."
+Inst54Quest3_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest3_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Millhaus Manasturm ist in dem Raum mit Aufseher Mellichar bei "..YELLOW.."[6]"..WHITE..".\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
+Inst54Quest3_Prequest = "Nein"
+Inst54Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst54Quest4 = "4. Das zweite und das dritte Fragment"
+Inst54Quest4_Level = "70"
+Inst54Quest4_Attain = "68"
+Inst54Quest4_Aim = "Besorgt das zweite Schlüsselfragment aus einem arkanen Behälter im Echsenkessel und das dritte Schlüsselfragment aus einem arkanen Behälter in der Festung der Stürme. Kehrt dann zu Khadgar in Shattrath zurück."
+Inst54Quest4_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
+Inst54Quest4_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich bei "..YELLOW.."[2]"..WHITE..". Wenn man ihn öffnet, erscheint ein Elementar, der getötet werden muss, um das Fragment zu erhalten. Das zweite Schlüsselfragment befindet sich in der Dampfkammer."
+Inst54Quest4_Prequest = "Ja, Nach Karazhan ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
+Inst54Quest4_Folgequest = "Ja, Die Berührung des Meisters ("..YELLOW.."HdZ: Der schwarze Morast"..WHITE..")"
+Inst54Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst54Quest1_HORDE = Inst54Quest1
+Inst54Quest1_HORDE_Level = Inst54Quest1_Level
+Inst54Quest1_HORDE_Attain = Inst54Quest1_Attain
+Inst54Quest1_HORDE_Aim = Inst54Quest1_Aim
+Inst54Quest1_HORDE_Location = Inst54Quest1_Location
+Inst54Quest1_HORDE_Note = Inst54Quest1_Note
+Inst54Quest1_HORDE_Prequest = Inst54Quest1_Prequest
+Inst54Quest1_HORDE_Folgequest = Inst54Quest1_Folgequest
+Inst54Quest1PreQuest_HORDE = Inst54Quest1PreQuest
+--
+Inst54Quest1name1_HORDE = Inst54Quest1name1
+Inst54Quest1name2_HORDE = Inst54Quest1name2
+Inst54Quest1name3_HORDE = Inst54Quest1name3
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst54Quest2_HORDE = Inst54Quest2
+Inst54Quest2_HORDE_Level = Inst54Quest2_Level
+Inst54Quest2_HORDE_Attain = Inst54Quest2_Attain
+Inst54Quest2_HORDE_Aim = Inst54Quest2_Aim
+Inst54Quest2_HORDE_Location = Inst54Quest2_Location
+Inst54Quest2_HORDE_Note = Inst54Quest2_Note
+Inst54Quest2_HORDE_Prequest = Inst54Quest2_Prequest
+Inst54Quest2_HORDE_Folgequest = Inst54Quest2_Folgequest
+Inst54Quest2PreQuest_HORDE = Inst54Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst54Quest3_HORDE = Inst54Quest3
+Inst54Quest3_HORDE_Level = Inst54Quest3_Level
+Inst54Quest3_HORDE_Attain = Inst54Quest3_Attain
+Inst54Quest3_HORDE_Aim = Inst54Quest3_Aim
+Inst54Quest3_HORDE_Location = Inst54Quest3_Location
+Inst54Quest3_HORDE_Note = Inst54Quest3_Note
+Inst54Quest3_HORDE_Prequest = Inst54Quest3_Prequest
+Inst54Quest3_HORDE_Folgequest = Inst54Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst54Quest4_HORDE = Inst54Quest4
+Inst54Quest4_HORDE_Level = Inst54Quest4_Level
+Inst54Quest4_HORDE_Attain = Inst54Quest4_Attain
+Inst54Quest4_HORDE_Aim = Inst54Quest4_Aim
+Inst54Quest4_HORDE_Location = Inst54Quest4_Location
+Inst54Quest4_HORDE_Note = Inst54Quest4_Note
+Inst54Quest4_HORDE_Prequest = Inst54Quest4_Prequest
+Inst54Quest4_HORDE_Folgequest = Inst54Quest4_Folgequest
+Inst54Quest4PreQuest_HORDE = Inst54Quest4PreQuest
+-- No Rewards for this quest
+
+
+
+--------------- INST55 - TK: Botanica (Bot) ---------------
+
+Inst55Story = "Die Festung der Stürme ist eine ehemalige Festung der Naaru im Nethersturm in der Scherbenwelt.\n\nDiese kristallene Festung wird nun von Kael'thas Sonnenwanderer regiert, dem Herren der Blutelfen, und wird dominiert von den Kerben seiner Brüder.\n\nDie Struktur ist in drei Flügel eingeteilt - Satelliten gigantischen Ausmaßes - mit dem viertel Flügel, der Exodar, nun in the Welt von Azeroth als Hauptstadt der Draenei.\n\nDie Botanika ist der zweite Flügel der Festung der Stürme und liegt direkt nördlich vom Hauptpalast (dem blauen kristallenen Gebäude).\n\nDies ist auch der Sitz des Kael'thas-Kommandanten: Kommandant Sarannis."
+Inst55Caption = "FdS: Die Botanika"
+Inst55QAA = "3 Quests"
+Inst55QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst55Quest1 = "1. Wie man in Arkatraz einbricht"
+Inst55Quest1_Level = "70"
+Inst55Quest1_Attain = "67"
+Inst55Quest1_Aim = "A'dal bittet Euch, das obere und das untere Fragment des Schlüssels zur Arkatraz zu besorgen. Bringt beide Fragmente zu ihm zurück, damit er sie für Euch zum Schlüssel zur Arkatraz zusammenfügen kann."
+Inst55Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst55Quest1_Note = "Das untere Schlüsselfragment droppt von Warpzweig bei "..YELLOW.."[5]"..WHITE..". Das obere Fragment droppt in der Mechanar."
+Inst55Quest1_Prequest = "Ja, Sphärenräuber Nesaad -> Sonderlieferung nach Shattrath"
+Inst55Quest1_Folgequest = "Ja, Herold der Verdammnis ("..YELLOW.."FdS: Die Arkatraz"..WHITE..")"
+Inst55Quest1PreQuest = "true"
+--
+Inst55Quest1name1 = "Anachoretenumhang der Sha'tari"
+Inst55Quest1name2 = "A'dals Gabe"
+Inst55Quest1name3 = "Präzisionsgürtel der Naaru"
+Inst55Quest1name4 = "Championgürtel von Shattrath"
+Inst55Quest1name5 = "Verteidigertaillenschutz der Sha'tari*"
+Inst55Quest1name6 = "Schlüssel zur Arkatraz"
+
+--Quest 2 Alliance
+Inst55Quest2 = "2. Den Schlüsselstein erobern"
+Inst55Quest2_Level = "70"
+Inst55Quest2_Attain = "67"
+Inst55Quest2_Aim = "Reist zur Botanika der Festung der Stürme und besorgt Euch den Schlüsselstein von Kommandant Sarannis. Bringt ihn danach zu Erzmagier Vargoth im violetten Turm."
+Inst55Quest2_Location = "Erzmagier Vargoth (Nethersturm - Dorf Kirin'Var; "..YELLOW.."58,86"..WHITE..")"
+Inst55Quest2_Note = "Kommandant Sarannis befindet sich bei "..YELLOW.."[1]"..WHITE..". Angeblich droppt der Schlüsselstein nicht im heroischen Modus."
+Inst55Quest2_Prequest = "Ja, Den Schlüsselmeister finden"
+Inst55Quest2_Folgequest = "Nein"
+Inst55Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst55Quest3 = "3. Meister der Tränke (Alchimie)"
+Inst55Quest3_Level = "70"
+Inst55Quest3_Attain = "68"
+Inst55Quest3_Aim = "Lauranna Thar'well möchte, dass Ihr die Botanika der Festung der Stürme betretet und den Naturführer der Botanika von Botaniker Freywinn besorgt. Zusätzlich möchte sie, dass Ihr ihr 5 erstklassige Heiltränke, 5 erstklassige Manatränke und 5 erhebliche Tränke des traumlosen Schlafs bringt."
+Inst55Quest3_Location = "Lauranna Thar'well (Zangarmarschen - Zuflucht des Cenarius; "..YELLOW.."80,64"..WHITE..")"
+Inst55Quest3_Note = "Alchimie-Quest. Hochbotaniker Freywinn befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst55Quest3_Prequest = "Ja, Meister der Tränke"
+Inst55Quest3_Folgequest = "Nein"
+Inst55Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst55Quest1_HORDE = Inst55Quest1
+Inst55Quest1_HORDE_Level = Inst55Quest1_Level
+Inst55Quest1_HORDE_Attain = Inst55Quest1_Attain
+Inst55Quest1_HORDE_Aim = Inst55Quest1_Aim
+Inst55Quest1_HORDE_Location = Inst55Quest1_Location
+Inst55Quest1_HORDE_Note = Inst55Quest1_Note
+Inst55Quest1_HORDE_Prequest = Inst55Quest1_Prequest
+Inst55Quest1_HORDE_Folgequest = Inst55Quest1_Folgequest
+Inst55Quest1PreQuest_HORDE = Inst55Quest1PreQuest
+--
+Inst55Quest1name1_HORDE = Inst55Quest1name1
+Inst55Quest1name2_HORDE = Inst55Quest1name2
+Inst55Quest1name3_HORDE = Inst55Quest1name3
+Inst55Quest1name4_HORDE = Inst55Quest1name4
+Inst55Quest1name5_HORDE = Inst55Quest1name5
+Inst55Quest1name6_HORDE = Inst55Quest1name6
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst55Quest2_HORDE = Inst55Quest2
+Inst55Quest2_HORDE_Level = Inst55Quest2_Level
+Inst55Quest2_HORDE_Attain = Inst55Quest2_Attain
+Inst55Quest2_HORDE_Aim = Inst55Quest2_Aim
+Inst55Quest2_HORDE_Location = Inst55Quest2_Location
+Inst55Quest2_HORDE_Note = Inst55Quest2_Note
+Inst55Quest2_HORDE_Prequest = Inst55Quest2_Prequest
+Inst55Quest2_HORDE_Folgequest = Inst55Quest2_Folgequest
+Inst55Quest2PreQuest_HORDE = Inst55Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst55Quest3_HORDE = Inst55Quest3
+Inst55Quest3_HORDE_Level = Inst55Quest3_Level
+Inst55Quest3_HORDE_Attain = Inst55Quest3_Attain
+Inst55Quest3_HORDE_Aim = Inst55Quest3_Aim
+Inst55Quest3_HORDE_Location = Inst55Quest3_Location
+Inst55Quest3_HORDE_Note = Inst55Quest3_Note
+Inst55Quest3_HORDE_Prequest = Inst55Quest3_Prequest
+Inst55Quest3_HORDE_Folgequest = Inst55Quest3_Folgequest
+Inst55Quest3PreQuest_HORDE = Inst55Quest3PreQuest
+-- No Rewards for this quest
+
+
+
+--------------- INST56 - TK: Mechanar (Mech) ---------------
+
+Inst56Story = "Die Festung der Stürme ist eine ehemalige Festung der Naaru im Nethersturm in der Scherbenwelt.\n\nDiese kristallene Festung wird nun von Kael'thas Sonnenwanderer regiert, dem Herren der Blutelfen, und wird dominiert von den Kerben seiner Brüder.\n\nDie Struktur ist in drei Flügel eingeteilt - Satelliten gigantischen Ausmaßes - mit dem viertel Flügel, der Exodar, nun in the Welt von Azeroth als Hauptstadt der Draenei.\n\nDie Mechanar ist der erste Flügel der Festung der Stürme.\n\nEs ist das violette Kristallgebäude südlich des Hauptpalastes.\n\nDie empfohlene Stufe ist 70. Ein voller Durchlauf gewährt ungefähr 1500 Rufpunkte bei den Sha'tar."
+Inst56Caption = "FdS: Die Mechanar"
+Inst56QAA = "2 Quests"
+Inst56QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst56Quest1 = "1. Wie man in Arkatraz einbricht"
+Inst56Quest1_Level = "70"
+Inst56Quest1_Attain = "67"
+Inst56Quest1_Aim = "A'dal bittet Euch, das obere und das untere Fragment des Schlüssels zur Arkatraz zu besorgen. Bringt beide Fragmente zu ihm zurück, damit er sie für Euch zum Schlüssel zur Arkatraz zusammenfügen kann."
+Inst56Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst56Quest1_Note = "Das obere Schlüsselfragment droppt von Pathaleon dem Kalkulator bei "..YELLOW.."[5]"..WHITE..". Das untere Fragment droppt in der Botanika."
+Inst56Quest1_Prequest = "Ja, Sphärenräuber Nesaad -> Sonderlieferung nach Shattrath"
+Inst56Quest1_Folgequest = "Ja, Herold der Verdammnis ("..YELLOW.."FdS: Die Arkatraz"..WHITE..")"
+Inst56Quest1PreQuest = "true"
+--
+Inst56Quest1name1 = "Anachoretenumhang der Sha'tari"
+Inst56Quest1name2 = "A'dals Gabe"
+Inst56Quest1name3 = "Präzisionsgürtel der Naaru"
+Inst56Quest1name4 = "Championgürtel von Shattrath"
+Inst56Quest1name5 = "Verteidigertaillenschutz der Sha'tari*"
+Inst56Quest1name6 = "Schlüssel zur Arkatraz"
+
+--Quest 2 Alliance
+Inst56Quest2 = "2. Frisch von der Mechanar"
+Inst56Quest2_Level = "69"
+Inst56Quest2_Attain = "67"
+Inst56Quest2_Aim = "David Wayne bei Waynes Zuflucht möchte, dass Ihr ihm eine überladene Manazelle bringt."
+Inst56Quest2_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
+Inst56Quest2_Note = "Die Zelle befindet sich vor Mechanolord Kapazitus bei "..YELLOW.."[3]"..WHITE.." in einer Kiste in der Nähe der Mauer.\n\nWenn man diese Quest und Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne."
+Inst56Quest2_Prequest = "Ja, Zusätzliche Materialien"
+Inst56Quest2_Folgequest = "Nein"
+Inst56Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst56Quest1_HORDE = Inst56Quest1
+Inst56Quest1_HORDE_Level = Inst56Quest1_Level
+Inst56Quest1_HORDE_Attain = Inst56Quest1_Attain
+Inst56Quest1_HORDE_Aim = Inst56Quest1_Aim
+Inst56Quest1_HORDE_Location = Inst56Quest1_Location
+Inst56Quest1_HORDE_Note = Inst56Quest1_Note
+Inst56Quest1_HORDE_Prequest = Inst56Quest1_Prequest
+Inst56Quest1_HORDE_Folgequest = Inst56Quest1_Folgequest
+Inst56Quest1PreQuest_HORDE = Inst56Quest1PreQuest
+--
+Inst56Quest1name1_HORDE = Inst56Quest1name1
+Inst56Quest1name2_HORDE = Inst56Quest1name2
+Inst56Quest1name3_HORDE = Inst56Quest1name3
+Inst56Quest1name4_HORDE = Inst56Quest1name4
+Inst56Quest1name5_HORDE = Inst56Quest1name5
+Inst56Quest1name6_HORDE = Inst56Quest1name6
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst56Quest2_HORDE = Inst56Quest2
+Inst56Quest2_HORDE_Level = Inst56Quest2_Level
+Inst56Quest2_HORDE_Attain = Inst56Quest2_Attain
+Inst56Quest2_HORDE_Aim = Inst56Quest2_Aim
+Inst56Quest2_HORDE_Location = Inst56Quest2_Location
+Inst56Quest2_HORDE_Note = Inst56Quest2_Note
+Inst56Quest2_HORDE_Prequest = Inst56Quest2_Prequest
+Inst56Quest2_HORDE_Folgequest = Inst56Quest2_Folgequest
+Inst56Quest2PreQuest_HORDE = Inst56Quest2PreQuest
+-- No Rewards for this quest
+
+
+
+--------------- INST61 - TK: The Eye ---------------
+
+Inst61Story = "Die Festung der Stürme ist eine ehemalige Festung der Naaru im Nethersturm in der Scherbenwelt.\n\nDiese kristallene Festung wird nun von Kael'thas Sonnenwanderer regiert, dem Herren der Blutelfen, und wird dominiert von den Kerben seiner Brüder.\n\nDie Struktur ist in drei Flügel eingeteilt - Satelliten gigantischen Ausmaßes - mit dem viertel Flügel, der Exodar, nun in the Welt von Azeroth als Hauptstadt der Draenei."
+Inst61Caption = "FdS: Festung der Stürme"
+Inst61QAA = "3 Quests"
+Inst61QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst61Quest1 = "1. Die List der Aschenzungen"
+Inst61Quest1_Level = "70"
+Inst61Quest1_Attain = "70"
+Inst61Quest1_Aim = "Reist in die Festung der Stürme und tötet Al'ar, während Ihr die Gugel der Aschenzungen tragt. Kehrt nach Abschluß der Aufgabe zu Akama ins Schattenmondtal zurück."
+Inst61Quest1_Location = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58,48"..WHITE..")"
+Inst61Quest1_Note = "Teil der Vorquestreihe zum Schwarzen Tempel."
+Inst61Quest1_Prequest = "Ja, Das gefährdete Geheimnis"
+Inst61Quest1_Folgequest = "Ja, Ein Artefakt aus der Vergangenheit ("..YELLOW.."Hyjalgipfel"..WHITE..")"
+Inst61Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst61Quest2 = "2. Kael'thas und die tiefgrüne Sphäre"
+Inst61Quest2_Level = "70"
+Inst61Quest2_Attain = "70"
+Inst61Quest2_Aim = "Bringt die tiefgrüne Sphäre zu A'dal in Shattrath."
+Inst61Quest2_Location = "Tiefgrüne Sphäre (droppt von Kael'thas Sonnenwanderer bei "..YELLOW.."[4]"..WHITE..")"
+Inst61Quest2_Note = "A'dal befindet sich in (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")."
+Inst61Quest2_Prequest = "Nein"
+Inst61Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst61Quest3 = "3. Die Phiolen der Ewigkeit"
+Inst61Quest3_Level = "70"
+Inst61Quest3_Attain = "70"
+Inst61Quest3_Aim = "Soridormi in den Höhlen der Zeit möchte, dass Ihr die Überreste von Vashjs Phiole im Echsenkessel und die Überreste von Kaels Phiole von Kael'thas Sonnenwanderer in der Festung der Stürme besorgt."
+Inst61Quest3_Location = "Soridormi (Tanaris - Höhlen der Zeit; "..YELLOW.."58,57"..WHITE.."). Der NPC läuft in dem Bereich umher."
+Inst61Quest3_Note = "Dies ist die Vorquest für die Schlacht um den Berg Hyjal. Kael'thas Sunstrider befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst61Quest3_Prequest = "Nein"
+Inst61Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst61Quest1_HORDE = Inst61Quest1
+Inst61Quest1_HORDE_Level = Inst61Quest1_Level
+Inst61Quest1_HORDE_Attain = Inst61Quest1_Attain
+Inst61Quest1_HORDE_Aim = Inst61Quest1_Aim
+Inst61Quest1_HORDE_Location = Inst61Quest1_Location
+Inst61Quest1_HORDE_Note = Inst61Quest1_Note
+Inst61Quest1_HORDE_Prequest = Inst61Quest1_Prequest
+Inst61Quest1_HORDE_Folgequest = Inst61Quest1_Folgequest
+Inst61Quest1PreQuest_HORDE = Inst61Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst61Quest2_HORDE = Inst61Quest2
+Inst61Quest2_HORDE_Level = Inst61Quest2_Level
+Inst61Quest2_HORDE_Attain = Inst61Quest2_Attain
+Inst61Quest2_HORDE_Aim = Inst61Quest2_Aim
+Inst61Quest2_HORDE_Location = Inst61Quest2_Location
+Inst61Quest2_HORDE_Note = Inst61Quest2_Note
+Inst61Quest2_HORDE_Prequest = Inst61Quest2_Prequest
+Inst61Quest2_HORDE_Folgequest = Inst61Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst61Quest3_HORDE = Inst61Quest3
+Inst61Quest3_HORDE_Level = Inst61Quest3_Level
+Inst61Quest3_HORDE_Attain = Inst61Quest3_Attain
+Inst61Quest3_HORDE_Aim = Inst61Quest3_Aim
+Inst61Quest3_HORDE_Location = Inst61Quest3_Location
+Inst61Quest3_HORDE_Note = Inst61Quest3_Note
+Inst61Quest3_HORDE_Prequest = Inst61Quest3_Prequest
+Inst61Quest3_HORDE_Folgequest = Inst61Quest3_Folgequest
+-- No Rewards for this quest
+
+
+
+--------------- INST63 - Zul'Aman (ZA) ---------------
+
+Inst63Story = "Die Festung von Zul'Aman hat Jahrtausende als der Sitz der Macht der Amani-Trolle und der Bastion des furchtlosen, listigen Kriegsherren Zul'jin bestanden.\n\nZul'jin hat einige Jahre damit verbracht, hinter den Mauern von Zul'Aman zu planen. Erbost über die Horde, dass sie ihren verhassten Feinden, den Blutelfen, erlaubt haben, sich ihnen anzuschließen, begrüßte er eifrig einen Entwurf, den Hexendoktor Malacrass neulich vorgeschlagen hat: die Macht der Tiergötter in den Körpern der stärksten Krieger der Amani zu besiegeln.\n\nDie Armee von Zul'Aman wird nun von Tag zu Tag stärker, sie ist hungrig auf scharfe Rache im Namen ihres furchtlosen Anführers, Zul'jin."
+Inst63Caption = "Zul'Aman"
+Inst63QAA = "8 Quests"
+Inst63QAH = "8 Quests"
+
+--Quest 1 Alliance
+Inst63Quest1 = "1. Versprechen, Versprechen..."
+Inst63Quest1_Level = "70"
+Inst63Quest1_Attain = "70"
+Inst63Quest1_Aim = "Budd Winterhäldler in den Axthügeln möchte, dass Ihr bei Hohepriester Nalorakks Terrasse in Zul'Aman nach seiner Karte sucht."
+Inst63Quest1_Location = "Budd Winterhäldler (Geisterlande - Axthügel; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest1_Note = "Die Karte liegt auf der rechten Rampe neben Hohepriester Nalorakk bei "..YELLOW.."[1]"..WHITE..". Die Vorquest ist optional und startet bei Gaunah in (Shattrath - Unteres Viertel; "..YELLOW.."65,69"..WHITE..")."
+Inst63Quest1_Prequest = "Ja, Oh, es glitzert!"
+Inst63Quest1_Folgequest = "Ja, Das X markiert Euren Untergang!"
+Inst63Quest1PreQuest = "true"
+--
+Inst63Quest1name1 = "Zerlumpter Beutel aus Hexerstoff"
+
+--Quest 2 Alliance
+Inst63Quest2 = "2. Das X markiert Euren Untergang!"
+Inst63Quest2_Level = "70"
+Inst63Quest2_Attain = "70"
+Inst63Quest2_Aim = "Betretet Zul'Aman und erkundet Halazzis Kammer, Jan'alais Plateau und Akil'zons Plateau. Berichtet Budd bei seinem Lager in den Geisterlanden von den Details dieser Bereiche."
+Inst63Quest2_Location = "Budd Winterhäldler (Geisterlande - Axthügel; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest2_Note = "Halazzis Kammer ist bei "..YELLOW.."[4]"..WHITE..", Jan'alais Plattform bei "..YELLOW.."[3]"..WHITE..", und Akil'zons Plattform ist bei "..YELLOW.."[2]"..WHITE..".\n\nDie Bosse müssen nicht bekämpft werden, um die Quest abzuschließen. Einfach in die Nähe gehen, ohne Aggro zu ziehen."
+Inst63Quest2_Prequest = "Ja, Versprechen, Versprechen..."
+Inst63Quest2_Folgequest = "Ja, Hexlord? Pah!"
+Inst63Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst63Quest3 = "3. Hexlord? Pah!"
+Inst63Quest3_Level = "70"
+Inst63Quest3_Attain = "70"
+Inst63Quest3_Aim = "Budd Winterhäldler in den Axthügeln möchte, dass Ihr Hexlord Malacrass in Zul'Aman tötet."
+Inst63Quest3_Location = "Budd Winterhäldler (Geisterlande - Axthügel; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest3_Note = "Hexlord Malacrass befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst63Quest3_Prequest = "Ja, Das X markiert Euren Untergang!"
+Inst63Quest3_Folgequest = "Nein"
+Inst63Quest3FQuest = "true"
+--
+Inst63Quest3name1 = "Abzeichen der Gerechtigkeit"
+
+--Quest 4 Alliance
+Inst63Quest4 = "4. Jäger der verlorenen Hauer"
+Inst63Quest4_Level = "70"
+Inst63Quest4_Attain = "70"
+Inst63Quest4_Aim = "Prigmon möchte, dass Ihr 10 Hauer eines Waldtrolls von Trollen in Zul'Aman einsammelt. Bringt sie zu ihm bei Budds Lager in den Geisterlanden."
+Inst63Quest4_Location = "Prigmon (Geisterlande - Axthügel; "..YELLOW.."71,68"..WHITE..")"
+Inst63Quest4_Note = "Der Waldtrollhauer droppen von den Gegnern der Amani in Zul'Aman."
+Inst63Quest4_Prequest = "Nein"
+Inst63Quest4_Folgequest = "Ja, Ein Troll unter Trollen"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst63Quest5 = "5. Ein Troll unter Trollen"
+Inst63Quest5_Level = "70"
+Inst63Quest5_Attain = "70"
+Inst63Quest5_Aim = "Prigmon möchte, dass Ihr seinen Vetter Zungam in Zul'Aman ausfindig macht und ihm zur Seite steht."
+Inst63Quest5_Location = "Prigmon (Geisterlande - Axthügel; "..YELLOW.."71,68"..WHITE..")"
+Inst63Quest5_Note = "Angeblich ist Zungam in einer Hütte nördlich von Malacrass, welcher sich bei "..YELLOW.."[5]"..WHITE.." befindet. Nachdem du ihn befreit hast, gibt er dir die Folgequest."
+Inst63Quest5_Prequest = "Ja, Jäger der verlorenen Hauer"
+Inst63Quest5_Folgequest = "Ja, Das Spiel mit der Puppe"
+Inst63Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst63Quest6 = "6. Das Spiel mit der Puppe"
+Inst63Quest6_Level = "70"
+Inst63Quest6_Attain = "70"
+Inst63Quest6_Aim = "Bringt die zerlumpte Voodoopuppe zu Gaunah in Shattrath."
+Inst63Quest6_Location = "Zungam (Zul'Aman; "..YELLOW.."Nördlich von [5]"..WHITE..")"
+Inst63Quest6_Note = "Gaunah befindet sich in (Shattrath - Unteres Viertel; "..YELLOW.."65,69"..WHITE..")."
+Inst63Quest6_Prequest = "Ja, Ein Troll unter Trollen"
+Inst63Quest6_Folgequest = "Nein"
+Inst63Quest6FQuest = "true"
+--
+Inst63Quest6name1 = "Bezaubertes Juwel der Amani"
+
+--Quest 7 Alliance
+Inst63Quest7 = "7. Blut des Kriegsherren"
+Inst63Quest7_Level = "70"
+Inst63Quest7_Attain = "70"
+Inst63Quest7_Aim = "Bringt Zul'jins Blut zu Budd bei seinem Lager in den Geisterlanden, direkt außerhalb von Zul'Aman."
+Inst63Quest7_Location = "Zul'jins Blut (droppt von Zul'jin; "..YELLOW.."[6]"..WHITE..")"
+Inst63Quest7_Note = "Nur eine Person im Schlachtzug kann das Blut erhalten, um die Quest zu starten, und die Quest kann nur einmal ausgeführt werden."
+Inst63Quest7_Prequest = "Nein"
+Inst63Quest7_Folgequest = "Ja, Agentin mit Herz"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst63Quest8 = "8. Agentin mit Herz"
+Inst63Quest8_Level = "70"
+Inst63Quest8_Attain = "70"
+Inst63Quest8_Aim = "Meldet Euch bei Donna Brascoe, um eine Belohnung für Euer Heldentum in Zul'Aman zu erhalten. Donna hält sich momentan in den Geisterlanden, direkt außerhalb von Zul'Aman auf."
+Inst63Quest8_Location = "Donna Brascoe (Geisterlande - Axthügel; "..YELLOW.."70,68"..WHITE..")"
+Inst63Quest8_Note = ""
+Inst63Quest8_Prequest = "Ja, Blut des Kriegsherren"
+Inst63Quest8_Folgequest = "Nein"
+Inst63Quest8FQuest = "true"
+--
+Inst63Quest8name1 = "Abzeichen der Gerechtigkeit"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst63Quest1_HORDE = Inst63Quest1
+Inst63Quest1_HORDE_Level = Inst63Quest1_Level
+Inst63Quest1_HORDE_Attain = Inst63Quest1_Attain
+Inst63Quest1_HORDE_Aim = Inst63Quest1_Aim
+Inst63Quest1_HORDE_Location = Inst63Quest1_Location
+Inst63Quest1_HORDE_Note = Inst63Quest1_Note
+Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
+Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
+Inst63Quest1PreQuest_HORDE = Inst63Quest1PreQuest
+--
+Inst63Quest1name1_HORDE = Inst63Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst63Quest2_HORDE = Inst63Quest2
+Inst63Quest2_HORDE_Level = Inst63Quest2_Level
+Inst63Quest2_HORDE_Attain = Inst63Quest2_Attain
+Inst63Quest2_HORDE_Aim = Inst63Quest2_Aim
+Inst63Quest2_HORDE_Location = Inst63Quest2_Location
+Inst63Quest2_HORDE_Note = Inst63Quest2_Note
+Inst63Quest2_HORDE_Prequest = Inst63Quest2_Prequest
+Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
+Inst63Quest2FQuest_HORDE = Inst63Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst63Quest3_HORDE = Inst63Quest3
+Inst63Quest3_HORDE_Level = Inst63Quest3_Level
+Inst63Quest3_HORDE_Attain = Inst63Quest3_Attain
+Inst63Quest3_HORDE_Aim = Inst63Quest3_Aim
+Inst63Quest3_HORDE_Location = Inst63Quest3_Location
+Inst63Quest3_HORDE_Note = Inst63Quest3_Note
+Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
+Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
+Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
+--
+Inst63Quest3name1_HORDE = Inst63Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst63Quest4_HORDE = Inst63Quest4
+Inst63Quest4_HORDE_Level = Inst63Quest4_Level
+Inst63Quest4_HORDE_Attain = Inst63Quest4_Attain
+Inst63Quest4_HORDE_Aim = Inst63Quest4_Aim
+Inst63Quest4_HORDE_Location = Inst63Quest4_Location
+Inst63Quest4_HORDE_Note = Inst63Quest4_Note
+Inst63Quest4_HORDE_Prequest = Inst63Quest4_Prequest
+Inst63Quest4_HORDE_Folgequest = Inst63Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst63Quest5_HORDE = Inst63Quest5
+Inst63Quest5_HORDE_Level = Inst63Quest5_Level
+Inst63Quest5_HORDE_Attain = Inst63Quest5_Attain
+Inst63Quest5_HORDE_Aim = Inst63Quest5_Aim
+Inst63Quest5_HORDE_Location = Inst63Quest5_Location
+Inst63Quest5_HORDE_Note = Inst63Quest5_Note
+Inst63Quest5_HORDE_Prequest = Inst63Quest5_Prequest
+Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
+Inst63Quest5FQuest_HORDE = Inst63Quest5FQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst63Quest6_HORDE = Inst63Quest6
+Inst63Quest6_HORDE_Level = Inst63Quest6_Level
+Inst63Quest6_HORDE_Attain = Inst63Quest6_Attain
+Inst63Quest6_HORDE_Aim = Inst63Quest6_Aim
+Inst63Quest6_HORDE_Location = Inst63Quest6_Location
+Inst63Quest6_HORDE_Note = Inst63Quest6_Note
+Inst63Quest6_HORDE_Prequest = Inst63Quest6_Prequest
+Inst63Quest6_HORDE_Folgequest = Inst63Quest6_Folgequest
+Inst63Quest6FQuest_HORDE = Inst63Quest6FQuest
+--
+Inst63Quest6name1_HORDE = Inst63Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst63Quest7_HORDE = Inst63Quest7
+Inst63Quest7_HORDE_Level = Inst63Quest7_Level
+Inst63Quest7_HORDE_Attain = Inst63Quest7_Attain
+Inst63Quest7_HORDE_Aim = Inst63Quest7_Aim
+Inst63Quest7_HORDE_Location = Inst63Quest7_Location
+Inst63Quest7_HORDE_Note = Inst63Quest7_Note
+Inst63Quest7_HORDE_Prequest = Inst63Quest7_Prequest
+Inst63Quest7_HORDE_Folgequest = Inst63Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst63Quest8_HORDE = Inst63Quest8
+Inst63Quest8_HORDE_Level = Inst63Quest8_Level
+Inst63Quest8_HORDE_Attain = Inst63Quest8_Attain
+Inst63Quest8_HORDE_Aim = Inst63Quest8_Aim
+Inst63Quest8_HORDE_Location = Inst63Quest8_Location
+Inst63Quest8_HORDE_Note = Inst63Quest8_Note
+Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
+Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
+Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
+--
+Inst63Quest8name1_HORDE = Inst63Quest8name1
+
+
 
 ----
 end
@@ -5219,11 +7581,11 @@ end
 -- 2  = Wailing Caverns (WC)
 -- 3  = Ragefire Chasm (RFC)
 -- 4  = Uldaman (ULD)
--- 5  = Blackrock Depths (BRD)
+-- 5  = Schwarzfels Depths (BRD)
 -- 6  = Blackwing Lair (BWL)
 -- 7  = Blackfathom Deeps (BFD)
--- 8  = Lower Blackrock Spire (LBRS)
--- 9  = Upper Blackrock Spire (UBRS)
+-- 8  = Lower Schwarzfels Spire (LBRS)
+-- 9  = Upper Schwarzfels Spire (UBRS)
 -- 10 = Dire Maul East (DM)
 -- 11 = Dire Maul North (DM)
 -- 12 = Dire Maul West (DM)
@@ -5246,7 +7608,7 @@ end
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Highlord Kruul
+-- 32 = Kazzak
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)

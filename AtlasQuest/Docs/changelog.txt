@@ -10,6 +10,7 @@ Version 4.0.12
 - Removed fix for bEQL compatibility with quest names since bEQL handles that now.
 - Incorrectly had "Wanted: Shattered Hand Centurions" marked as a Heroic quest.
 - German localization updated by Telchar.
+- German translation of Burning Crusade quests from Nalumis.
 - Usual fixes for typos and such. Thanks to Telchar for finding some I missed.
 - Added all Dungeon Daily quests.
 
