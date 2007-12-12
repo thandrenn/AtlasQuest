@@ -77,12 +77,10 @@ AQOptionsAutoQueryTEXT = ""..WHITE.."Der Server wird automatisch nach den Gegens
 -- Use Comparison Tooltips
 AQOptionsCompareTooltipTEXT = ""..WHITE.."Die Belohnungen mit den derzeit angelegten Gegenständen vergleichen."
 
--- Set EquipCompare Option
-AQOptionEquipCompareTEXT = "EquipCompare benutzen."
-
 
 AQAbilities = BLUE .. "Fähigkeiten:" .. WHITE;
 AQSERVERASKInformation = " Bitte rechtsklicken bis der Gegenstand angezeigt wird."
+AQSERVERASKAuto = " Versuche den Mauszeiger in ein paar Sekunden über den Gegenstand zu bewegen."
 AQSERVERASK = "Der Server wird abgefragt nach: "
 AQERRORNOTSHOWN = "Dieser Gegenstand ist nicht sicher!"
 AQERRORASKSERVER = "Klicke rechts um den Server nach \ndiesem Gegenstand abzufragen. Es kann passieren, dass die Verbindung unterbrochen wird."
@@ -2967,7 +2965,7 @@ Inst13Quest1_HORDE = "1. Schattensplitter"
 Inst13Quest1_HORDE_Level = "42"
 Inst13Quest1_HORDE_Attain = "39"
 Inst13Quest1_HORDE_Aim = "Sammelt 10 Schattensplitter aus Maraudon und bringt sie zu Uthel'nay nach Orgrimmar."
-Inst13Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Das Tal der Geister; "..YELLOW.."38,68"..WHITE..")"
+Inst13Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Das Tal der Geister; "..YELLOW.."39,86"..WHITE..")"
 Inst13Quest1_HORDE_Note = "Die Schattensplitter bekommt man von 'Schattensteinrumplern' oder 'Schattensteinzerkracher' außerhalb der Instanz auf der lila Seite."
 Inst13Quest1_HORDE_Prequest = "Nein"
 Inst13Quest1_HORDE_Folgequest = "Nein"
