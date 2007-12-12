@@ -49,19 +49,19 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 AQHelpText = ""..WHITE.."Gib /aq oder atlasquest "..YELLOW.."[command]"..WHITE.." ein\ncommands: help; option/config; show/hide; left/right; colour; autoshow"..RED.."(nur Atlas)"
 --
-AQOptionsCaptionTEXT = "AtlasQuest Optionen";
+AQOptionsCaptionTEXT = "AtlasQuest-Optionen";
 AQ_OK = "OK"
 
 -- Autoshow
 AQOptionsAutoshowTEXT = ""..WHITE.."AtlasQuest-Panel mit "..RED.."Atlas"..WHITE.." anzeigen.";
-AQAtlasAutoON = "Das AtlasQuest-Panle wird jetzt automatisch mit Atlas angezeigt "..GREEN.."(Standard)"
-AQAtlasAutoOFF = "Das AtlasQuest-Panle wird jetzt "..RED.."nicht"..WHITE.." mehr beim Öffnen von Atlas angezeigt"
+AQAtlasAutoON = "Das AtlasQuest-Panel wird jetzt automatisch mit Atlas angezeigt "..GREEN.."(Standard)"
+AQAtlasAutoOFF = "Das AtlasQuest-Panel wird jetzt "..RED.."nicht"..WHITE.." mehr beim Öffnen von Atlas angezeigt"
 
 -- Right/Left
 AQOptionsLEFTTEXT = ""..WHITE.."AtlasQuest-Panel "..RED.."links"..WHITE.." anzeigen.";
 AQOptionsRIGHTTEXT = ""..WHITE.."AtlasQuest-Panel "..RED.."rechts"..WHITE.." anzeigen.";
-AQShowRight = "Das AtlasQuest-Panle wird nun auf der "..RED.."rechten"..WHITE.." Seite angezeigt";
-AQShowLeft = "Das AtlasQuest-Panle wird nun auf der "..RED.."linken"..WHITE.." Seite angezeigt "..GREEN.."(Standard)";
+AQShowRight = "Das AtlasQuest-Panel wird nun auf der "..RED.."rechten"..WHITE.." Seite angezeigt";
+AQShowLeft = "Das AtlasQuest-Panel wird nun auf der "..RED.."linken"..WHITE.." Seite angezeigt "..GREEN.."(Standard)";
 
 -- Colour Check
 AQOptionsCCTEXT = ""..WHITE.."Die Quests nach dem Questlevel färben."
@@ -85,16 +85,16 @@ AQSERVERASK = "Der Server wird abgefragt nach: "
 AQERRORNOTSHOWN = "Dieser Gegenstand ist nicht sicher!"
 AQERRORASKSERVER = "Klicke rechts um den Server nach \ndiesem Gegenstand abzufragen. Es kann passieren, dass die Verbindung unterbrochen wird."
 AQOptionB = "Optionen"
-AQStoryB = "Story"
+AQStoryB = "Geschichte"
 AQNoReward = ""..BLUE.." Keine Belohnung"
 AQDiscription_OR = ""..GREY.." oder "..WHITE..""
 AQDiscription_AND = ""..GREY.." und "..WHITE..""
 AQDiscription_REWARD = ""..BLUE.." Belohnung: "
-AQDiscription_ATTAIN = "Benötigtes Level: "
-AQDiscription_LEVEL = "Level: "
+AQDiscription_ATTAIN = "Benötigte Stufe: "
+AQDiscription_LEVEL = "Stufe: "
 AQDiscription_START = "Beginnt bei/in: \n"
 AQDiscription_AIM = "Ziel: \n"
-AQDiscription_NOTE = "Information: \n"
+AQDiscription_NOTE = "Informationen: \n"
 AQDiscription_PREQUEST = "Vorquest: "
 AQDiscription_FOLGEQUEST = "Folgequest: "
 AQFinishedTEXT = "Quest abgeschlossen: ";
@@ -153,18 +153,18 @@ AQITEM_ENCHANT = "Verzauberung"
 
 --------------- INST1 - Deadmines (VC) ---------------
 
-Inst1Story = "Die Todesminen, einst die wichtigste Goldquelle der Menschen, wurden aufgegeben, als die Horde Sturmwind während des Ersten Krieges in Schutt und Asche legte. Nun hat sich die Defias Bruderschaft in den verlassenen Minen niedergelassen und die dunklen Schächte in ihre eigene unterirdische Festung verwandelt. Gerüchten zufolge sollen die Diebe die gewitzten Goblins angeheuert haben, um tief in den Minen etwas fürchterliches zu konstruieren, doch welche Teufelei dies konkret sein soll, ist nicht bekannt. Der Zugang zu den Todesminen liegt inmitten des ruhigen, unscheinbaren Dorfes Mondbruch."
+Inst1Story = "Die Todesminen, einst die wichtigste Goldquelle der Menschen, wurden aufgegeben, als die Horde Sturmwind während des Ersten Krieges in Schutt und Asche legte. Nun hat sich die Defias-Bruderschaft in den verlassenen Minen niedergelassen und die dunklen Schächte in ihre eigene unterirdische Festung verwandelt. Gerüchten zufolge sollen die Diebe die gewitzten Goblins angeheuert haben, um tief in den Minen etwas Fürchterliches zu konstruieren, doch welche Teufelei dies konkret sein soll, ist nicht bekannt. Der Zugang zu den Todesminen liegt inmitten des ruhigen, unscheinbaren Dorfes Mondbruch."
 Inst1Caption = "Die Todesminen"
 Inst1QAA = "7 Quests"
 Inst1QAH = "keine Quests"
 
---QUEST 1 allianz
+--QUEST 1 Allianz
 Inst1Quest1 = "1. Rote Seidenkopftücher"
 Inst1Quest1_Level = "17"
 Inst1Quest1_Attain = "14"
 Inst1Quest1_Aim = "Späherin Riell am Turm auf der Späherkuppe möchte, dass Ihr ihr 10 rote Seidenkopftücher bringt."
-Inst1Quest1_Location = "Späherin Riell (Westfall - Späherkuppe; "..YELLOW.."56,47 "..WHITE..")"
-Inst1Quest1_Note = "Man bekommt die Kopftücher von den Arbeitern in den Todesminen und kurz vor dem Eingang. Das Quest wird verfügbar, sobald du die Defias Bruderschaft Questreihe soweit beendet hast, dass du Edwin van Cleef töten musst."
+Inst1Quest1_Location = "Späherin Riell (Westfall - Späherkuppe; "..YELLOW.."56,47"..WHITE..")"
+Inst1Quest1_Note = "Man bekommt die Kopftücher von den Arbeitern in den Todesminen und kurz vor dem Eingang. Die Quest wird verfügbar, sobald du die Defias-Bruderschaft-Questreihe soweit beendet hast, dass du Edwin van Cleef töten musst."
 Inst1Quest1_Prequest = "Ja (siehe Information)"
 Inst1Quest1_Folgequest = "Nein"
 Inst1Quest1PreQuest = "true"
@@ -173,32 +173,32 @@ Inst1Quest1name1 = "Robuste Kurzklinge"
 Inst1Quest1name2 = "Kunstvoll geschnitzter Dolch"
 Inst1Quest1name3 = "Durchstechende Axt"
 
---Quest 2 allianz
+--Quest 2 Allianz
 Inst1Quest2 = "2. Die Suche nach Andenken"
 Inst1Quest2_Level = "18"
 Inst1Quest2_Attain = "14"
 Inst1Quest2_Aim = "Beschafft 4 Gewerkschaftsausweise und bringt sie nach Sturmwind zu Wilder Distelklette."
-Inst1Quest2_Location = "Wilder Distelklette (Sturmwind - Zwergendistrikt; "..YELLOW.."65, 21"..WHITE..")"
-Inst1Quest2_Note = "Die Ausweise gibt es von den Untoten vor der Instanz, in der Nähe von "..YELLOW.."[3]"..WHITE.." auf der Eingangs-karte."
+Inst1Quest2_Location = "Wilder Distelklette (Sturmwind - Zwergendistrikt; "..YELLOW.."65,21"..WHITE..")"
+Inst1Quest2_Note = "Die Ausweise gibt es von den Untoten vor der Instanz in der Nähe von "..YELLOW.."[3]"..WHITE.." auf der Eingangskarte."
 Inst1Quest2_Prequest = "Nein"
 Inst1Quest2_Folgequest = "Nein"
 --
 Inst1Quest2name1 = "Stiefel des Tunnelgräbers"
-Inst1Quest2name2 = "Verstaubte Bergbau-Handschuhe"
+Inst1Quest2name2 = "Verstaubte Bergbauhandschuhe"
 
---Quest 3 allianz
-Inst1Quest3 = "3. Oh Bruder. . ."
+--Quest 3 Allianz
+Inst1Quest3 = "3. Oh Bruder..."
 Inst1Quest3_Level = "20"
 Inst1Quest3_Attain = "15"
-Inst1Quest3_Aim = "Bringt Großknecht Distelklette's Forscherliga-Abzeichen nach Sturmwind zu Wilder Distelklette."
-Inst1Quest3_Location = "Wilder Thistlenettle (Sturmwind - Zwergendistrikt; "..YELLOW.."65,21"..WHITE..")"
-Inst1Quest3_Note = "Großknecht Distelklette befindet sich vor der Instanz, in der Nähe von "..YELLOW.."[3]"..WHITE.." auf der Eingangs-karte."
+Inst1Quest3_Aim = "Bringt Großknecht Distelklettes Abzeichen der Forscherliga nach Sturmwind zu Wilder Distelklette."
+Inst1Quest3_Location = "Wilder Distelklette (Sturmwind - Zwergendistrikt; "..YELLOW.."65,21"..WHITE..")"
+Inst1Quest3_Note = "Großknecht Distelklette befindet sich vor der Instanz in der Nähe von "..YELLOW.."[3]"..WHITE.." auf der Eingangskarte."
 Inst1Quest3_Prequest = "Nein"
 Inst1Quest3_Folgequest = "Nein"
 --
 Inst1Quest3name1 = "Rächer des Minenarbeiters"
 
---Quest 4 allianz
+--Quest 4 Allianz
 Inst1Quest4 = "4. Unterirdischer Angriff"
 Inst1Quest4_Level = "20"
 Inst1Quest4_Attain = "15"
@@ -212,22 +212,22 @@ Inst1Quest4PreQuest = "true"
 Inst1Quest4name1 = "Polarstulpen"
 Inst1Quest4name2 = "Düsterer Zauberstab"
 
---Quest 5 allianz
+--Quest 5 Allianz
 Inst1Quest5 = "5. Die Bruderschaft der Defias"
 Inst1Quest5_Level = "22"
 Inst1Quest5_Attain = "14"
 Inst1Quest5_Aim = "Tötet Edwin van Cleef und bringt seinen Kopf zu Gryan Starkmantel."
-Inst1Quest5_Location = "Gryan Starkmantel (Westfall - Späherkuppe; "..YELLOW.."56,47 "..WHITE..")"
+Inst1Quest5_Location = "Gryan Starkmantel (Westfall - Späherkuppe; "..YELLOW.."56,47"..WHITE..")"
 Inst1Quest5_Note = "Diese Questreihe beginnt bei Gryan Starkmantel (Westfall; 56,47).\nEdwin van Cleef ist der Endboss in den Todesminen. Man findet ihn oben auf seinem Schiff "..YELLOW.."[6]"..WHITE.."."
 Inst1Quest5_Prequest = "Ja, Die Bruderschaft der Defias"
 Inst1Quest5_Folgequest = "Ja, Der nie verschickte Brief"
 Inst1Quest5PreQuest = "true"
 --
-Inst1Quest5name1 = "Westfall-Galoschen"
+Inst1Quest5name1 = "Galoschen von Westfall"
 Inst1Quest5name2 = "Tunika von Westfall"
 Inst1Quest5name3 = "Stab von Westfall"
 
---Quest 6 allianz
+--Quest 6 Allianz
 Inst1Quest6 = "6. Die Prüfung der Rechtschaffenheit (Paladin)"
 Inst1Quest6_Level = "22"
 Inst1Quest6_Attain = "20"
@@ -241,7 +241,7 @@ Inst1Quest6PreQuest = "true"
 --
 Inst1Quest6name1 = "Verigans Faust"
 
---Quest 7 allianz
+--Quest 7 Allianz
 Inst1Quest7 = "7. Der nie verschickte Brief"
 Inst1Quest7_Level = "22"
 Inst1Quest7_Attain = "16"
@@ -354,7 +354,7 @@ Inst2Quest3_HORDE_Level = "18"
 Inst2Quest3_HORDE_Attain = "14"
 Inst2Quest3_HORDE_Aim = "Die Apothekerin Zamah in Donnerfels möchte, dass Ihr zehn Schlangenflaum für sie sammelt."
 Inst2Quest3_HORDE_Location = "Apothekerin Zamah (Donnerfels - Anhöhe der Geister; "..YELLOW.."22,20"..WHITE..")"
-Inst2Quest3_HORDE_Note = "Apothekerin Zamah befindet sich in einer H�hle unter der Anhöhe der Geister. Das Vorquest bekommt man von Apotheker Helbrim (Brachland - Wegekreuz; "..YELLOW.."51,30"..WHITE..").\nDer Schlangenflaum kann vor und in der Instanz gefunden werden. Characktere, die der Kräuterkunde mächtig sind, können die Pflanzen auf der Minimap sehen."
+Inst2Quest3_HORDE_Note = "Apothekerin Zamah befindet sich in einer Höhle unter der Anhöhe der Geister. Das Vorquest bekommt man von Apotheker Helbrim (Brachland - Wegekreuz; "..YELLOW.."51,30"..WHITE..").\nDer Schlangenflaum kann vor und in der Instanz gefunden werden. Characktere, die der Kräuterkunde mächtig sind, können die Pflanzen auf der Minimap sehen."
 Inst2Quest3_HORDE_Prequest = "Ja, Pilzsporen -> Apothekerin Zamah"
 Inst2Quest3_HORDE_Folgequest = "Nein"
 Inst2Quest3PreQuest_HORDE = "true"
@@ -391,10 +391,10 @@ Inst2Quest5name3_HORDE = Inst2Quest4name3
 Inst2Quest6_HORDE = "6. Anführer der Giftzähne"
 Inst2Quest6_HORDE_Level = "22"
 Inst2Quest6_HORDE_Attain = "18"
-Inst2Quest6_HORDE_Aim = "Bringt die Edelsteine von Kobrahn, Anacondra, Pythas und Serpentis nach Donnerfels zu Nara Wildm�hne."
-Inst2Quest6_HORDE_Location = "Nara Wildm�hne (Donnerfels - Anhöhe der ältesten; "..YELLOW.."75,31"..WHITE..")"
-Inst2Quest6_HORDE_Note = "Die Questreihe fängt bei Erzdruide Hamuul Runentotem (Donnerfels - Anhöhe der ältesten; "..YELLOW.."78,28"..WHITE..") an.\nDie Edelsteine werden von den 4 Druiden  "..YELLOW.."[2]"..WHITE..","..YELLOW.."[3]"..WHITE..","..YELLOW.."[5]"..WHITE..","..YELLOW.."[7]"..WHITE.." gedroppt"
-Inst2Quest6_HORDE_Prequest = "Ja, Die Oasen des Brachlandes -> Nara Wildm�hne"
+Inst2Quest6_HORDE_Aim = "Bringt die Edelsteine von Kobrahn, Anacondra, Pythas und Serpentis nach Donnerfels zu Nara Wildmähne."
+Inst2Quest6_HORDE_Location = "Nara Wildmähne (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."75,31"..WHITE..")"
+Inst2Quest6_HORDE_Note = "Die Questreihe fängt bei Erzdruide Hamuul Runentotem (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."78,28"..WHITE..") an.\nDie Edelsteine werden von den 4 Druiden  "..YELLOW.."[2]"..WHITE..","..YELLOW.."[3]"..WHITE..","..YELLOW.."[5]"..WHITE..","..YELLOW.."[7]"..WHITE.." gedroppt"
+Inst2Quest6_HORDE_Prequest = "Ja, Die Oasen des Brachlandes -> Nara Wildmähne"
 Inst2Quest6_HORDE_Folgequest = "Nein"
 Inst2Quest6PreQuest_HORDE = "true"
 --
@@ -1195,7 +1195,7 @@ Inst5Quest10name1_HORDE = Inst5Quest12name1
 Inst5Quest10name2_HORDE = Inst5Quest12name2
 Inst5Quest10name3_HORDE = Inst5Quest12name3
 
---QUEST 11 Horde  
+--QUEST 11 Horde
 Inst5Quest11_HORDE = "11. Disharmonie der Flamme"
 Inst5Quest11_HORDE_Level = "52"
 Inst5Quest11_HORDE_Attain = "48"
@@ -4337,7 +4337,7 @@ Inst23Caption = "Ruinen von Ahn'Qiraj"
 
 --------------- INST24 - The Stockade (Stocks) ---------------
 
-Inst24Story = "Das Verlies ist ein Hoch-sicherheits-gefängnis, das unter dem Kanalbezirk von Sturmwind verborgen liegt. Unter der Führung von Wärter Thelwater sammelten sich im Verlies mit der Zeit ein bunter Haufen simpler Gauner, politischer Aufrührer, Mörder, Diebe, Halsabschneider und einiger der gefährlichsten Kriminellen des Landes an. Vor kurzem gab es einen Aufstand der Gefangenen, der im Verlies für Chaos sorgte � die Wachen sind geflohen und die Gefangenen haben das Gefängnis übernommen. Thelwater konnte knapp entkommen und sucht momentan nach tapferen Abenteurern, um den Anführer der Revolte auszuschalten, den gerissenen Meisterverbrecher Bazil Thredd."
+Inst24Story = "Das Verlies ist ein Hoch-sicherheits-gefängnis, das unter dem Kanalbezirk von Sturmwind verborgen liegt. Unter der Führung von Wärter Thelwater sammelten sich im Verlies mit der Zeit ein bunter Haufen simpler Gauner, politischer Aufrührer, Mörder, Diebe, Halsabschneider und einiger der gefährlichsten Kriminellen des Landes an. Vor kurzem gab es einen Aufstand der Gefangenen, der im Verlies für Chaos sorgte - die Wachen sind geflohen und die Gefangenen haben das Gefängnis übernommen. Thelwater konnte knapp entkommen und sucht momentan nach tapferen Abenteurern, um den Anführer der Revolte auszuschalten, den gerissenen Meisterverbrecher Bazil Thredd."
 Inst24Caption = "Das Verlies"
 Inst24QAA = "6 Quests"
 Inst24QAH = "keine Quests"
@@ -4951,23 +4951,83 @@ Inst30Caption3 = "Lethon"
 Inst30Caption4 = "Emeriss"
 Inst30Caption5 = "Taerar"
 Inst30Caption6 = "Ysondre"
+Inst30QAA = "1 Quest"
+Inst30QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst30Quest1 = "1. Eingehüllt in Alpträume"
+Inst30Quest1_Level = "60"
+Inst30Quest1_Attain = "60"
+Inst30Quest1_Aim = "Sucht nach jemandem, der die Bedeutung des in Alpträume gehüllten Gegenstands entschlüsseln kann.\n\nVielleicht kann Euch ein Druide von großer Macht weiterhelfen."
+Inst30Quest1_Location = "In Alpträume gehüllter Gegenstand (droppt von Emeriss, Taerar, Lethon oder Ysondre)"
+Inst30Quest1_Note = "Die Quest wird bei Bewahrer Remulos bei (Mondlichtung - Schrein von Remulos; "..YELLOW.."36,41"..WHITE..") abgegeben. Die aufgeführte Questbelohnung gibt es bei der Folgequest."
+Inst30Quest1_Prequest = "Nein"
+Inst30Quest1_Folgequest = "Ja, Legenden erwachen"
+--
+Inst30Quest1name1 = "Malfurions Siegelring"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst30Quest1_HORDE = Inst30Quest1
+Inst30Quest1_HORDE_Level = Inst30Quest1_Level
+Inst30Quest1_HORDE_Attain = Inst30Quest1_Attain
+Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
+Inst30Quest1_HORDE_Location = Inst30Quest1_Location
+Inst30Quest1_HORDE_Note = Inst30Quest1_Note
+Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
+Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
+--
+Inst30Quest1name1_HORDE = Inst30Quest1name1
+
 
 
 --------------Azuregos------------
 
-Inst31Story = "Vor der Spaltung der Welt blühte die elfische Stadt Eldarath in den Landen, die nunmehr Azshara genannt werden. Manche sagen, dass unter den Ruinen der Stadt immer noch zahllose Artefakte der Hochgeborenen schlummern. Seit ungezählten Generationen wacht der blaue Drachenschwarm über mächtige Artefakte und magisches Wissen, damit nichts davon in die falschen Hände fällt. Die Anwesenheit von Azuregos, dem blauen Drachen, scheint darauf hinzuweisen, dass in der Wildnis von Azshara extrem seltene Gegenstände schlummern, vielleicht sogar die Phiolen der Ewigkeit. Doch egal was der Drache sucht, eins ist sicher � er wird bis zum letzten Kämpfen, um diese Schätze zu verteidigen!"
+Inst31Story = "Vor der Spaltung der Welt blühte die elfische Stadt Eldarath in den Landen, die nunmehr Azshara genannt werden. Manche sagen, dass unter den Ruinen der Stadt immer noch zahllose Artefakte der Hochgeborenen schlummern. Seit ungezählten Generationen wacht der blaue Drachenschwarm über mächtige Artefakte und magisches Wissen, damit nichts davon in die falschen Hände fällt. Die Anwesenheit von Azuregos, dem blauen Drachen, scheint darauf hinzuweisen, dass in der Wildnis von Azshara extrem seltene Gegenstände schlummern, vielleicht sogar die Phiolen der Ewigkeit. Doch egal was der Drache sucht, eins ist sicher - er wird bis zum letzten Kämpfen, um diese Schätze zu verteidigen!"
 Inst31Caption = "Azuregos"
+Inst31QAA = "1 Quest"
+Inst31QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst31Quest1 = "1. Uraltes in Sehnen eingewickeltes Laminablatt (Jäger)"
+Inst31Quest1_Level = "60"
+Inst31Quest1_Attain = "60"
+Inst31Quest1_Aim = "Hastat der Uralte hat Euch um die Beschaffung einer Sehne eines ausgewachsenen, blauen Drachen gebeten. Solltet Ihr diese Sehne finden, kehrt zu Hastat im Teufelswald zurück."
+Inst31Quest1_Location = "Hastat der Uralte (Teufelswald - Der Eisenwald; "..YELLOW.."48,24"..WHITE..")"
+Inst31Quest1_Note = "Töte Azuregos, um die Sehne eines ausgewachsenen blauen Drachen zu erhalten. Er wandert in der Mitte der südlichen Halbinsel Azsharas um "..YELLOW.."[1]"..WHITE.." umher."
+Inst31Quest1_Prequest = "Ja, Das uralte Blatt ("..YELLOW.."Geschmolzener Kern"..WHITE..")"
+Inst31Quest1_Folgequest = "Nein"
+Inst31Quest1PreQuest = "true"
+--
+Inst31Quest1name1 = "Uraltes in Sehnen eingewickeltes Laminablatt"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst31Quest1_HORDE = Inst31Quest1
+Inst31Quest1_HORDE_Level = Inst31Quest1_Level
+Inst31Quest1_HORDE_Attain = Inst31Quest1_Attain
+Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
+Inst31Quest1_HORDE_Location = Inst31Quest1_Location
+Inst31Quest1_HORDE_Note = Inst31Quest1_Note
+Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
+Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
+Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
+--
+Inst31Quest1name1_HORDE = Inst31Quest1name1
+
 
 
 --------------Kazzak------------
 
-Inst32Story = "Nach der Niederlage der Brennenden Legion am Ende des Dritten Krieges zog sich der Rest der dämonischen Streitmacht unter der Führung des gigantischen Fürsten Kazzak in die verwüsteten Lande zurück. Dort, in dem Gebiet, das als die faulende Narbe bekannt ist, warten sie bis heute darauf, dass sich das Dunkle Portal erneut öffnet. Man sagt, dass Kazzak mit seiner Armee in die Scherbenwelt vordringen will, die einstige Heimatwelt der Orcs, die von den Portalen des verderbten Schamanen Ner'zhul in Stücke gerissen wurde. Die Scherbenwelt ist inzwischen das Zuhause von Illidan, dem Verräter, und seinen dämonischen Untergebenen."
-Inst32Caption = "Fürst Kazzak"
+Inst32Story = "Hochlord Kruul ist ein Verdammniswachenboss, der während des Öffnungsevents des Dunklen Portals in verschiedenen Teilen Azeroths erschien (Patch 2.0.3). Nachdem das Dunkle Portal geöffnet wurde, hat er offiziell Fürst Kazzak ersetzt (jetzt Verdammnislord Kazzak in der Höllenfeuerhalbinsel der Scherbenwelt als Feldkommandant der Brennen Legion in Azeroth)."
+Inst32Caption = "Hochlord Kruul"
+Inst32QAA = "keine Quests"
+Inst32QAH = "keine Quests"
 
 
 --------------Inst33 / Alterac Valley------------
 
-Inst33Story = "Vor langer Zeit schickte der Hexenmeister Gul�dan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Gul�dans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen Drek�Thar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Stormpike-Expedition gestört.\nDie Stormpikes haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen. "
+Inst33Story = "Vor langer Zeit schickte der Hexenmeister Guldan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Guldans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen DrekThar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Stormpike-Expedition gestört.\nDie Stormpikes haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen. "
 Inst33Caption = "Das Alteractal"
 
 
@@ -7366,6 +7426,94 @@ Inst61Quest3_HORDE_Folgequest = Inst61Quest3_Folgequest
 
 
 
+--------------- INST62 - Black Temple (BT) ---------------
+
+Inst62Story = {
+  ["Page1"] = "Vor langer Zeit, als die Scherbenwelt noch als Draenor bekannt war, diente der Tempel von Karabor als Zentrum der religiösen Praktiken der Draenei. Die hingebungsvollen Priester aber, die einst in seinen Hallen beteten, sind schon lange tot, hingemetzelt von umherziehenden, dämonischen Orcs. Als das Schlachten geendet hatte, besetzten die Hexenmeister des Schattenrates das Gebäude und belegten es mit seinem neuen, unheilverkündenden Namen: der Schwarze Tempel.\n\nViele Jahre lang verdarb der Schattenrat den Tempel mit seinen grausamen und dämonischen Ritualen, nach dem Zweiten Krieg jedoch fielen die dunklen Zauberer unter der unaufhaltsamen Invasion der Allianz in Draenor. Als der Schamane Ner’zhul in der verzweifelten Hoffnung auf ein Entkommen hastig mehrere Dimensionsportale öffnete, zerrissen die freigesetzten magischen Kräfte die Welt. Nachdem Draenor so zu einer wortwörtlichen Scherbenwelt geworden war, stellten Ner’zhuls Portale einen strategischen Gewinn dar, den sich der Dämonengeneral Magtheridon sofort sicherte, indem er den Schwarzen Tempel besetzte und zu seinem Sitz als Herrscher über diese Welt machte.",
+  ["Page2"] = "Magtheridon konnte über viele der auf der Scherbenwelt verbliebenen Orcs befehlen und durch die Portale strömten unablässig weitere Dämonenkrieger zu seiner Unterstützung. So blieb die Macht des Grubenlords unbestritten, bis Illidan der Verräter beschloss, den Schwarzen Tempel für sich selbst in Beschlag zu nehmen. Illidan und Magtheridon fochten einen gnadenlosen Kampf in den Mauern des Tempels, doch am Ende musste sich der Grubenlord dem Träger der Zwillingsklingen von Azzinoth geschlagen geben. Illidan zerschmetterte ihn, doch der Triumph des Sieges währte nur kurz...",
+  ["MaxPages"] = "2",
+};
+Inst62Caption = "Der Schwarze Tempel"
+Inst62QAA = "3 Quests"
+Inst62QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst62Quest1 = "1. Sucht die Aschenzungen auf"
+Inst62Quest1_Level = "70"
+Inst62Quest1_Attain = "70"
+Inst62Quest1_Aim = "Sucht Akamas Todeshörige im Schwarzen Tempel."
+Inst62Quest1_Location = "Xi'ri (Schattenmondtal; "..YELLOW.."65,44"..WHITE..")."
+Inst62Quest1_Note = "Der Geist von Olum befindet sich hinter dem Eingang des Schwarzen Tempels rauf und dann links bei "..YELLOW.."[1]"..WHITE..". Er teleportiert dich zu Seher Kanai, sobald du den Obersten Kriegsfürst Naj'entus bei "..YELLOW.."[2]"..WHITE.." und Supremus bei "..YELLOW.."[3]"..WHITE.." getötet hast."
+Inst62Quest1_Prequest = "Ja, Das gefährdete Geheimnis -> Ein Ablenkungsmanöver für Akama"
+Inst62Quest1_Folgequest = "Ja, Die Erlösung der Aschenzungen"
+Inst62Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst62Quest2 = "2. Die Erlösung der Aschenzungen"
+Inst62Quest2_Level = "70"
+Inst62Quest2_Attain = "70"
+Inst62Quest2_Aim = "Helft Akama die Kontrolle über seine Seele wieder zu erlangen, indem Ihr Akamas Schemen im Schwarzen Tempel besiegt. Kehrt anschließend zu Seher Kanai zurück."
+Inst62Quest2_Location = "Seher Kanai (Der Schwarze Tempel; "..YELLOW.."[5]"..WHITE..")."
+Inst62Quest2_Note = "Akamas Schemen befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst62Quest2_Prequest = "Ja, Sucht die Aschenzungen auf"
+Inst62Quest2_Folgequest = "Ja, Der Sturz des Verräters"
+Inst62Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst62Quest3 = "3. Der Sturz des Verräters"
+Inst62Quest3_Level = "70"
+Inst62Quest3_Attain = "70"
+Inst62Quest3_Aim = "Seher Kanai möchte, dass Ihr Illidan im Schwarzen Tempel besiegt."
+Inst62Quest3_Location = "Seher Kanai (Der Schwarze Tempel; "..YELLOW.."[5]"..WHITE..")."
+Inst62Quest3_Note = "Illidan Sturmgrimm befindet sich bei "..YELLOW.."[11]"..WHITE.."."
+Inst62Quest3_Prequest = "Ja, Die Erlösung der Aschenzungen"
+Inst62Quest3_Folgequest = "Nein"
+Inst62Quest3FQuest = "true"
+--
+Inst62Quest3name1 = "Gesegnetes Medaillon von Karabor"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst62Quest1_HORDE = Inst62Quest1
+Inst62Quest1_HORDE_Level = Inst62Quest1_Level
+Inst62Quest1_HORDE_Attain = Inst62Quest1_Attain
+Inst62Quest1_HORDE_Aim = Inst62Quest1_Aim
+Inst62Quest1_HORDE_Location = Inst62Quest1_Location
+Inst62Quest1_HORDE_Note = Inst62Quest1_Note
+Inst62Quest1_HORDE_Prequest = Inst62Quest1_Prequest
+Inst62Quest1_HORDE_Folgequest = Inst62Quest1_Folgequest
+Inst62Quest1PreQuest_HORDE = Inst62Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst62Quest2_HORDE = Inst62Quest2
+Inst62Quest2_HORDE_Level = Inst62Quest2_Level
+Inst62Quest2_HORDE_Attain = Inst62Quest2_Attain
+Inst62Quest2_HORDE_Aim = Inst62Quest2_Aim
+Inst62Quest2_HORDE_Location = Inst62Quest2_Location
+Inst62Quest2_HORDE_Note = Inst62Quest2_Note
+Inst62Quest2_HORDE_Prequest = Inst62Quest2_Prequest
+Inst62Quest2_HORDE_Folgequest = Inst62Quest2_Folgequest
+Inst62Quest2FQuest_HORDE = Inst62Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst62Quest3_HORDE = Inst62Quest3
+Inst62Quest3_HORDE_Level = Inst62Quest3_Level
+Inst62Quest3_HORDE_Attain = Inst62Quest3_Attain
+Inst62Quest3_HORDE_Aim = Inst62Quest3_Aim
+Inst62Quest3_HORDE_Location = Inst62Quest3_Location
+Inst62Quest3_HORDE_Note = Inst62Quest3_Note
+Inst62Quest3_HORDE_Prequest = Inst62Quest3_Prequest
+Inst62Quest3_HORDE_Folgequest = Inst62Quest3_Folgequest
+Inst62Quest3FQuest_HORDE = Inst62Quest3FQuest
+--
+Inst62Quest3name1_HORDE = Inst62Quest3name1
+
+
+
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
 Inst63Story = "Die Festung von Zul'Aman hat Jahrtausende als der Sitz der Macht der Amani-Trolle und der Bastion des furchtlosen, listigen Kriegsherren Zul'jin bestanden.\n\nZul'jin hat einige Jahre damit verbracht, hinter den Mauern von Zul'Aman zu planen. Erbost über die Horde, dass sie ihren verhassten Feinden, den Blutelfen, erlaubt haben, sich ihnen anzuschließen, begrüßte er eifrig einen Entwurf, den Hexendoktor Malacrass neulich vorgeschlagen hat: die Macht der Tiergötter in den Körpern der stärksten Krieger der Amani zu besiegeln.\n\nDie Armee von Zul'Aman wird nun von Tag zu Tag stärker, sie ist hungrig auf scharfe Rache im Namen ihres furchtlosen Anführers, Zul'jin."
@@ -7570,6 +7718,32 @@ Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
 Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
 --
 Inst63Quest8name1_HORDE = Inst63Quest8name1
+
+
+
+--------------- INST64 - Doom Lord Kazzak ---------------
+
+Inst64Story = {
+  ["Page1"] = "Kazzak der Oberste, Kil'jaeden's rechte Hand, den meisten bekannt als Dämonenfürst Kazzak, 'Herr der Verdammniswachendämonen', war einer von Archimondes Leutnants während des Dritten Krieges.\n\nNach der Niederlage seines Meisters hat Kazzak sich zurückgezogen. Er und seine Truppen haben ein verdorbenes Gebiet in den Verwüsteten Landen besetzt, bekannt als die Faulende Narbe. Er lebte in einem Turm, der im giftigen Nebel versteckt lag. Kazzak war ein gewaltiger Dämon mit großer Macht, aber ihm mangelte an unabhängiger Initiative. Gefangen in der Faulenden Narbe war er komplett vom Kontakt mit anderen dämonischen Truppen auf Azeroth abgeschnitten. Auch wenn solche Persönlichkeiten wie Balnazzar sich seiner Präsenz bewusst wurden, vermieden sie den Kontakt zu ihm aus Angst vor Kazzaks Macht.",
+  ["Page2"] = "Zwei Jahre nach der Gründung von Durotar mit einer ungewissen Zukunft kam ein Relikt aus der Vergangenheit, das erneuerte Energie ausstrahlte, zum Vorschein. Das Relikt hat Fürst Kazzak ermöglicht, das Dunkle Portal zu aktivieren, wodurch das Tor zum zerschlagenen Reich der Scherbenwelt wieder geöffnet wurde. Nachdem das Portal geöffnet wurde, wurde Fürst Kazzak gesehen, wie er die Welt durch das Dunkle Portal verlies. An seiner Stelle hinterließ er seinen Lakai Hochlord Kruul, um Angst und Verwirrung über die Verteidiger zu säen. Kruul wurde zusammen mit einem Heer von Höllenbestien in der Nähe einiger großen Städte in Azeroth gesehen.\n\nSobald Fürst Kazzak in der Scherbenwelt angekommen ist, wurde er zum Verdammnislord befördert und auf den Tron von Kil'jaeden gesetzt, einem Berg in der Höllenfeuerhalbinsel, welchen er bis heute beschützt.",
+  ["Page3"] = "Im Gegensatz zu vielen Dämonenanführern, die dazu neigen, hinter den Linien zu stehen und ihre Günstlinge auf einen Feind zu hetzen, liebt Kazzak nichts mehr als direkt in der Hitze einer Schlacht zu waten. Dort zerschlägt er Formationen mit seiner Schattensturmfähigkeit, während er mit seinem gewaltigen Großschwert Verfall über einzelne Helden bringt. Wenn die Schlacht ihre kritischste Phase erreicht, verfällt er in Rage und feiert eine Orgie der Zerstörung.",
+  ["MaxPages"] = "3",
+};
+Inst64Caption = "Verdammnislord Kazzak"
+Inst64QAA = "keine Quests"
+Inst64QAH = "keine Quests"
+
+
+
+--------------- INST65 - Doomwalker ---------------
+
+Inst65Story = "Verdammniswandler ist ein mächtiger Teufelshäscher, der von Kil'jaeden ausgesendet wurde, um die Tore des Schwarzen Tempels im Schattenmondtal zu überfallen.\n\nEr ist ein ?? Elite (Boss) und hat genau die gleichen Fähigkeiten wie ein normaler Teufelshäscher, abgesehen von seiner Fähigkeit 'Überrennen'. Er ist allerdings wesentlich stärker und haut fester zu."
+Inst65Caption = "Verdammniswandler"
+Inst65QAA = "keine Quests"
+Inst65QAH = "keine Quests"
+
+
+
 
 
 
