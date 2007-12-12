@@ -2,17 +2,23 @@
 Changelog
 =========
 
-Version 4.0.12
+Version 4.1.0
 
 - Updates for renamed Atlas 1.10.4 addons. (Telchar)
-- Fixed bug with quest names not being colored blue when CT Mod's Show Quest Level option was on.  Big thanks to Denival for the fix!
-- Fixed bug where parentheses after a quest name (like in class quests) would break AtlasQuest's blue quest name option.  Thanks again to Denival for the fix.
-- Removed fix for bEQL compatibility with quest names since bEQL handles that now.
-- Incorrectly had "Wanted: Shattered Hand Centurions" marked as a Heroic quest.
+- EquipCompare support removed.
+- Comparison Tooltips added. This is optional and toggled off by default. Thanks to Daviesh & AtlasLoot for the code!
+- Server AutoQuery added. This is optional and toggled off by default. Re-used code from Daviesh & AtlasLoot.
 - German localization updated by Telchar.
 - German translation of Burning Crusade quests from Nalumis.
-- Usual fixes for typos and such. Thanks to Telchar for finding some I missed.
 - Added all Dungeon Daily quests.
+
+- Fixes:
+	- Quest names were not being colored blue when CT Mod's Show Quest Level option was on. Big thanks to Denival for the fix!
+	- Parentheses in quest names (such as class quests) would break AtlasQuest's blue quest title option. Thanks again to Denival for the fix!
+	- Removed Bayi's Extended Questlog fix for quest names since his addon now fixes it.
+	- Incorrectly had "Wanted: Shattered Hand Centurions" marked as a Heroic quest.
+	- Coordinates of quest giver for Horde quest "Shadowshard Fragments" were wrong.
+	- Other miscellanous typos. Thanks to Telchar for finding some I missed.
 
 - Quests added:
 	- Underbog: Wanted: A Black Stalker Egg (Heroic Daily)

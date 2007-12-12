@@ -21,8 +21,10 @@
 
 --]]
 
-
+-----------------------------------------------------------------------------
 -- Colours
+-----------------------------------------------------------------------------
+
 local PURPLE = "|cff999999"; -- grey atm -- removed/useless atm
 local RED = "|cffff0000";
 local REDA = "|cffcc6666";
@@ -44,15 +46,15 @@ local Rot = "|cffFF0000"
 local Gelb = "|cffFFd200"
 local Blau = "|cff0070dd"
 
--- Variables -> need explaination / register TO DO!
+
+
+-----------------------------------------------------------------------------
+-- Variables
+-----------------------------------------------------------------------------
 
 local Initialized = nil; -- the variables are not loaded yet
 
 Allianceorhorde = 1; -- variable that configures whether horde or allianz is shown
-
---local EnglishFraction = ""; -- necessary to detect which fraction the player is in
-
---local LocalizedFraction = ""; -- necessary to detect which fraction the player is in
 
 AQINSTANZ = 1; -- currently shown instance-pic (see AtlasQuest_Instanzen.lua)
 
@@ -67,7 +69,7 @@ local AQMAXINSTANCES = "65"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.0.12";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.0";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -76,21 +78,26 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.0.12",
+  ["Version"] =  "4.1.0",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
     ["NOColourCheck"] = nil,
     ["CheckQuestlog"] = nil,
---    ["SetFraction"] = nil,
-    ["EquipCompare"] = nil,
+    ["AutoQuery"] = nil,
+    ["CompareTooltip"] = nil,
+--    ["EquipCompare"] = nil,
   },
 };
 
 AQ = {};
--------------------------------------------------------------------------
----------------------------------- FUNCTIONS ---------------------------
--------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------------------
+-- Functions
+-----------------------------------------------------------------------------
+
 
 --******************************************
 ------------------/////Events: OnEvent//////
@@ -161,8 +168,12 @@ function AtlasQuest_LoadData()
   end
   --AQCheckQuestlog
   AQCheckQuestlog = AtlasQuest_Options[UnitName("player")]["CheckQuestlog"];
-  -- Fraction option
---  AQSetFraction = AtlasQuest_Options[UnitName("player")]["SetFraction"];
+  -- AutoQuery option
+  AQAutoQuery = AtlasQuest_Options[UnitName("player")]["AutoQuery"];
+  -- Comparison Tooltips option
+  AQCompareTooltip = AtlasQuest_Options[UnitName("player")]["CompareTooltip"];
+
+--[[
   -- EquipCompare
   AQEquipCompare = AtlasQuest_Options[UnitName("player")]["EquipCompare"];
   if (AQEquipCompare ~= nil and EquipCompare_RegisterTooltip) then
@@ -170,6 +181,7 @@ function AtlasQuest_LoadData()
   elseif (AQEquipCompare == nil and EquipCompare_RegisterTooltip) then
      EquipCompare_RegisterTooltip(AtlasQuestTooltip);
   end
+--]]
 end
 
 --------------------------------
@@ -180,8 +192,9 @@ function AtlasQuest_SaveData()
   AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"] = AQAtlasAuto;
   AtlasQuest_Options[UnitName("player")]["ColourCheck"] = AQNOColourCheck;
   AtlasQuest_Options[UnitName("player")]["CheckQuestlog"] = AQCheckQuestlog;
---  AtlasQuest_Options[UnitName("player")]["SetFraction"] = AQSetFraction;
-  AtlasQuest_Options[UnitName("player")]["EquipCompare"] = AQEquipCompare;
+  AtlasQuest_Options[UnitName("player")]["AutoQuery"] = AQAutoQuery;
+  AtlasQuest_Options[UnitName("player")]["CompareTooltip"] = AQCompareTooltip;
+--  AtlasQuest_Options[UnitName("player")]["EquipCompare"] = AQEquipCompare;
 end
 
 ------------------ Events: OnEvent -> end
@@ -197,7 +210,6 @@ function AQ_OnLoad()
     this:RegisterEvent("PLAYER_ENTERING_WORLD");
     this:RegisterEvent("VARIABLES_LOADED");
     AQSetButtontext(); -- translation for all buttons
---    AQTEXTonload();
     if ( AtlasFrame ) then
     	AQATLASMAP = AtlasMap:GetTexture()
     else
@@ -236,18 +248,11 @@ function AQSetButtontext()
       AQColourOptionTEXT:SetText(AQOptionsCCTEXT);
       AQFQ_TEXT:SetText(AQFinishedTEXT);
       AQCheckQuestlogTEXT:SetText(AQQLColourChange);
---      AQSetFractionTEXT:SetText(AQOptionsSetFractionTEXT);
-      AQEquipCompareOptionTEXT:SetText(WHITE .. AQOptionEquipCompareTEXT)
+      AQAutoQueryTEXT:SetText(AQOptionsAutoQueryTEXT);
+      AQCompareTooltipTEXT:SetText(AQOptionsCompareTooltipTEXT);
+--      AQEquipCompareOptionTEXT:SetText(WHITE .. AQOptionEquipCompareTEXT)
 end
 
----------------------------------
--- show the loaded text      -- Disabled as of 4.0.7 by Thandrenn
----------------------------------
---function AQTEXTonload()
---    ChatFrame1:AddMessage(GREEN..ATLASQUEST_VERSION.." for Atlas or AlphaMap loaded.");
---    ChatFrame1:AddMessage(GREY.."type /aq or /atlasquest show the version number");
---    ChatFrame1:AddMessage(RED.."Attention:"..GREY.."You need Atlas or AlphaMap to use AtlasQuest");
---end
 
 ---------------------------------
 --  Slashcommand!! show/hide panel + Version Message
@@ -693,65 +698,86 @@ end
 ------------------//// OnEnter/OnLeave SHOW ITEM ///////
 --******************************************
 
----------------------------------
--- hide tooltip
----------------------------------
+-----------------------------------------------------------------------------
+-- Hide Tooltip
+-----------------------------------------------------------------------------
+
 function AtlasQuestItem_OnLeave()
         if(GameTooltip:IsVisible()) then
             GameTooltip:Hide();
+            if ( ShoppingTooltip2:IsVisible() or ShoppingTooltip1.IsVisible) then
+	       ShoppingTooltip2:Hide();
+	       ShoppingTooltip1:Hide();
+	    end
         end
         if(AtlasQuestTooltip:IsVisible()) then
             AtlasQuestTooltip:Hide();
+            if ( ShoppingTooltip2:IsVisible() or ShoppingTooltip1.IsVisible) then
+	       ShoppingTooltip2:Hide();
+	       ShoppingTooltip1:Hide();
+	    end
         end
 end
 
----------------------------------
--- show tooltip
--- update: function added to check whether there is a ID or not
--- update perhaps useless if hide function works -> but will stay
----------------------------------
+-----------------------------------------------------------------------------
+-- Show Tooltip
+-----------------------------------------------------------------------------
+
 function AtlasQuestItem_OnEnter()
-           if ( Allianceorhorde == 1) then
-               if (getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN) ~= nil) then
-                 if (getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN) ~= nil) then
-                  if(GetItemInfo(getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN)) ~= nil) then
-                        AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
-                         AtlasQuestTooltip:SetHyperlink("item:"..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN)..":0:0:0");
-                        AtlasQuestTooltip:Show();
-                  else
-                        AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
-                        AtlasQuestTooltip:ClearLines();
-                        AtlasQuestTooltip:AddLine(RED..AQERRORNOTSHOWN);
-                        AtlasQuestTooltip:AddLine(AQERRORASKSERVER);
-                        AtlasQuestTooltip:Show();
-                  end
-                 end
-               end
-           else
-               if (getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN.."_HORDE") ~= nil) then
-                 if (getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN.."_HORDE") ~= nil) then
-                  if(GetItemInfo(getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN.."_HORDE")) ~= nil) then
-                        AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
-                        AtlasQuestTooltip:SetHyperlink("item:"..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN.."_HORDE")..":0:0:0");
-                        AtlasQuestTooltip:Show();
-                  else
-                        AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
-                        AtlasQuestTooltip:ClearLines();
-                        AtlasQuestTooltip:AddLine(RED..AQERRORNOTSHOWN);
-                        AtlasQuestTooltip:AddLine(AQERRORASKSERVER);
-                        AtlasQuestTooltip:Show();
-                  end
-                 end
-               end
-           end
+local SHOWNID
+local name
+local nameDATA
+local colour
+local itemName, itemQuality
+local queststring
+
+     if ( Allianceorhorde == 1) then
+       SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN);
+       colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..AQTHISISSHOWN);
+       nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..AQTHISISSHOWN);
+       queststring = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN);
+     else
+       SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN.."_HORDE");
+       colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..AQTHISISSHOWN.."_HORDE");
+       nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..AQTHISISSHOWN.."_HORDE");
+       queststring = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN.."_HORDE");
+     end
+
+
+     if (queststring ~= nil) then
+        if(GetItemInfo(queststring) ~= nil) then
+              AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
+              AtlasQuestTooltip:SetHyperlink("item:"..queststring..":0:0:0");
+              if(AQCompareTooltip ~= nil) then
+                 AtlasQuestItem_ShowCompareItem();  -- Show Comparison Tooltip if option is on
+              end
+              AtlasQuestTooltip:Show();
+        else
+              if(AQAutoQuery ~= nil) then
+                 AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
+		 AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
+		 DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKAuto);
+		 AtlasQuestTooltip:Show();
+              else
+                 AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
+                 AtlasQuestTooltip:ClearLines();
+                 AtlasQuestTooltip:AddLine(RED..AQERRORNOTSHOWN);
+                 AtlasQuestTooltip:AddLine(AQERRORASKSERVER);
+                 AtlasQuestTooltip:Show();
+              end
+        end
+     end
+
+
 end
 
----------------------------------
--- ask Server right-click
+-----------------------------------------------------------------------------
+-- Ask Server right-click
 -- + shift click to send link
 -- + ctrl click for dressroom
 -- BIG THANKS TO Daviesh and ATLASLOOT for the CODE
----------------------------------
+-----------------------------------------------------------------------------
+
 function AtlasQuestItem_OnClick(arg1)
 local SHOWNID
 local name
@@ -792,11 +818,12 @@ end
 		end
 end
 
------------------- OnEnter/OnLeave SHOW ITEM -> END
 
----------------------------------
--- Automatically show Horde or Alliance quests based on player's faction when AtlasQuest is opened.
----------------------------------
+-----------------------------------------------------------------------------
+-- Automatically show Horde or Alliance quests 
+-- based on player's faction when AtlasQuest is opened.
+-----------------------------------------------------------------------------
+
 function AQ_OnShow()
    if ( UnitFactionGroup("player") == "Horde") then
       Allianceorhorde = 2;
@@ -810,24 +837,75 @@ function AQ_OnShow()
   AtlasQuestSetTextandButtons()
 end
 
--------------------------------------------------------------------------------------------------------------------
-
---|cffff0000 - player 1 (red)
---|cff0000ff - player 2 (blue)
---|cff00ffff - player 3 (bluegray)
---|cff6f2583 - player 4 (purple)
---|cffffff00 - player 5 (yellow)
---|cffd45e19 - player 6 (orange)
---|cff00ff00 - player 7 (green)
---|cffff8080 - player 8 (pink)
---|cff808080 - player 9 (gray)
---|cff8080ff - player 10 (lightblue)
---|cff008000 - player 11 (darkgreen)
---|cff4d2903 - player 12 (brown)
 
 
+-----------------------------------------------------------------------------
+-- Comparison Tooltips
+-- Huge thanks to Daviesh and AtlasLoot for this code!
+-----------------------------------------------------------------------------
+
+function AtlasQuestItem_ShowCompareItem()
+   local item,link= AtlasQuestTooltip:GetItem();
+    if ( not link ) then
+      return;
+   end
+   
+   local item1 = nil;
+   local item2 = nil;
+   local side = "left";
+   if ( ShoppingTooltip1:SetHyperlinkCompareItem(link, 1) ) then
+      item1 = true;
+   end
+   if ( ShoppingTooltip2:SetHyperlinkCompareItem(link, 2) ) then
+      item2 = true;
+   end
+   local rightDist = GetScreenWidth() - AtlasQuestTooltip:GetRight();
+   if (rightDist < AtlasQuestTooltip:GetLeft()) then
+      side = "left";
+   else
+      side = "right";
+   end
+   if ( AtlasQuestTooltip:GetAnchorType() ) then
+      local totalWidth = 0;
+      if ( item1  ) then
+         totalWidth = totalWidth + ShoppingTooltip1:GetWidth();
+      end
+      if ( item2  ) then
+         totalWidth = totalWidth + ShoppingTooltip2:GetWidth();
+      end
+
+      if ( (side == "left") and (totalWidth > AtlasQuestTooltip:GetLeft()) ) then
+         AtlasQuestTooltip:SetAnchorType(AtlasQuestTooltip:GetAnchorType(), (totalWidth - AtlasQuestTooltip:GetLeft()), 0);
+      elseif ( (side == "right") and (AtlasQuestTooltip:GetRight() + totalWidth) >  GetScreenWidth() ) then
+         AtlasQuestTooltip:SetAnchorType(AtlasQuestTooltip:GetAnchorType(), -((AtlasQuestTooltip:GetRight() + totalWidth) - GetScreenWidth()), 0);
+      end
+   end
+
+   -- anchor the compare tooltips
+   if ( item1 ) then
+      ShoppingTooltip1:SetOwner(AtlasQuestTooltip, "ANCHOR_NONE");
+      ShoppingTooltip1:ClearAllPoints();
+      if ( side and side == "left" ) then
+         ShoppingTooltip1:SetPoint("TOPRIGHT", "AtlasQuestTooltip", "TOPLEFT", 0, -10);
+      else
+         ShoppingTooltip1:SetPoint("TOPLEFT", "AtlasQuestTooltip", "TOPRIGHT", 0, -10);
+      end
+      ShoppingTooltip1:SetHyperlinkCompareItem(link, 1);
+      ShoppingTooltip1:Show();
+
+      if ( item2 ) then
+         ShoppingTooltip2:SetOwner(ShoppingTooltip1, "ANCHOR_NONE");
+         ShoppingTooltip2:ClearAllPoints();
+         if ( side and side == "left" ) then
+            ShoppingTooltip2:SetPoint("TOPRIGHT", "ShoppingTooltip1", "TOPLEFT", 0, 0);
+         else
+            ShoppingTooltip2:SetPoint("TOPLEFT", "ShoppingTooltip1", "TOPRIGHT", 0, 0);
+         end
+         ShoppingTooltip2:SetHyperlinkCompareItem(link, 2);
+         ShoppingTooltip2:Show();
+      end
+   end   
+end
 
 
---Chatframe1:AddMessage("text") adds a message to the general chatwindow
--- DEFAULT_CHAT_FRAME: '' works as well
---message("Text") posts an errormessage with the text
+

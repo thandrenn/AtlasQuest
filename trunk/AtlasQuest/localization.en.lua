@@ -72,12 +72,10 @@ AQOptionsAutoQueryTEXT = ""..WHITE.."Automatically query the server for items yo
 -- Use Comparison Tooltips
 AQOptionsCompareTooltipTEXT = ""..WHITE.."Compare rewards to currently equipped items."
 
--- Set Equip Compare
-AQOptionEquipCompareTEXT = "Use Equip Compare."
-
 
 AQAbilities = BLUE .. "Abilities:" .. WHITE;
 AQSERVERASKInformation = " Please click right until you see the Item frame."
+AQSERVERASKAuto = " Try moving the cursor over the item in a few seconds."
 AQSERVERASK = "Query the server for: "
 AQERRORNOTSHOWN = "This item is not safe!"
 AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be disconnected."
@@ -2986,7 +2984,7 @@ Inst13Quest1_HORDE = "1. Shadowshard Fragments"
 Inst13Quest1_HORDE_Level = "42"
 Inst13Quest1_HORDE_Attain = "39"
 Inst13Quest1_HORDE_Aim = "Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar"
-Inst13Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Valley of Spirits; "..YELLOW.."38,68"..WHITE..")"
+Inst13Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Valley of Spirits; "..YELLOW.."39,86"..WHITE..")"
 Inst13Quest1_HORDE_Note = "You get the Shadowshard Fragments from 'Shadowshard Rumbler' or 'Shadowshard Smasher' outside the instance on the Purple side."
 Inst13Quest1_HORDE_Prequest = "No"
 Inst13Quest1_HORDE_Folgequest = "No"
