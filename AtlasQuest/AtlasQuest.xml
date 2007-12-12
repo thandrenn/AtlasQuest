@@ -193,10 +193,7 @@
 	    </OnShow>
 	</Scripts>
    </CheckButton>
-
-<!-- Removed in 4.0.11 so faction will automatically set.
-
-   <CheckButton name="AQSetFractionOption" inherits="OptionsCheckButtonTemplate" checked="true">
+   <CheckButton name="AQAutoQueryOption" inherits="OptionsCheckButtonTemplate" checked="true">
     <Size>
       <AbsDimension x="30" y="30"/>
     </Size>
@@ -212,23 +209,21 @@
 	</Anchors>
 	<Scripts>
 		<OnClick>
-		  AQSetFractionOption_OnClick();
+		  AQAutoQueryOption_OnClick();
 	    </OnClick>
 		<OnShow>
 	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
--->
-
-   <CheckButton name="AQEquipCompareOption" inherits="OptionsCheckButtonTemplate" checked="true">
+   <CheckButton name="AQCompareTooltipOption" inherits="OptionsCheckButtonTemplate" checked="true">
     <Size>
       <AbsDimension x="30" y="30"/>
     </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="10" y="-200"></AbsDimension>
+				<AbsDimension x="10" y="-230"></AbsDimension>
 			</Offset>
 		</Anchor>
 		<HitRectInsets>
@@ -237,7 +232,7 @@
 	</Anchors>
 	<Scripts>
 		<OnClick>
-		  AQEquipCompareOption_OnClick();
+		  AQCompareTooltipOption_OnClick();
 	    </OnClick>
 		<OnShow>
 	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
@@ -319,10 +314,7 @@
          </Anchor>
        </Anchors>
      </FontString>
-
-<!-- Removed in 4.0.11 so faction will automatically set.
-
-     <FontString name="AQSetFractionTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
+     <FontString name="AQAutoQueryTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
        <Size>
          <AbsDimension x="240" y="35"/>
        </Size>
@@ -334,16 +326,14 @@
          </Anchor>
        </Anchors>
      </FontString>
--->
-
-     <FontString name="AQEquipCompareOptionTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
+     <FontString name="AQCompareTooltipTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
        <Size>
          <AbsDimension x="240" y="35"/>
        </Size>
        <Anchors>
          <Anchor point="TOPLEFT">
            <Offset>
-              <AbsDimension x="45" y="-200"/>
+              <AbsDimension x="45" y="-230"/>
            </Offset>
          </Anchor>
        </Anchors>

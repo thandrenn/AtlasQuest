@@ -29,10 +29,12 @@ local GREY = "|cff999999"; -- really grey
 -- and sets checks after the variables
 ---------------------------------
 function AtlasQuestOptionFrame_OnShow()
+
     --autoshow
     if (AQAtlasAuto == 2) then
        AQAutoshowOption:SetChecked(false);
     end
+
     --left/right
     if (AQ_ShownSide == "Left") then
        AQRIGHTOption:SetChecked(false);
@@ -41,24 +43,36 @@ function AtlasQuestOptionFrame_OnShow()
        AQRIGHTOption:SetChecked(true);
        AQLEFTOption:SetChecked(false);
     end
+
     -- Colour Check
     if (AQNOColourCheck) then
        AQColourOption:SetChecked(false);
     else
        AQColourOption:SetChecked(true);
     end
+
     --AQCheckQuestlog
     if (AQCheckQuestlog == nil) then
       AQCheckQuestlogButton:SetChecked(true);
     else
       AQCheckQuestlogButton:SetChecked(false);
     end
-    -- SetFraction (removed 4.0.11)
---    if (AQSetFraction == nil) then
---      AQSetFractionOption:SetChecked(true);
---    else
---      AQSetFractionOption:SetChecked(false);
---    end
+
+    -- AutoQuery
+    if (AQAutoQuery == nil) then
+      AQAutoQueryOption:SetChecked(false);
+    else
+      AQAutoQueryOption:SetChecked(true);
+    end
+
+    -- ComparisonTooltips
+    if (AQCompareTooltip == nil) then
+      AQCompareTooltipOption:SetChecked(false);
+    else
+      AQCompareTooltipOption:SetChecked(true);
+    end
+
+--[[
     -- Equip Compare support
     if( not EquipCompare_RegisterTooltip ) then
       AQEquipCompareOption:Disable();
@@ -72,6 +86,8 @@ function AtlasQuestOptionFrame_OnShow()
         AQEquipCompareOption:SetChecked(false);
       end
     end
+--]]
+
 end
 
 ---------------------------------
@@ -165,19 +181,35 @@ function AQCheckQuestlogButton_OnClick()
 end
 
 ---------------------------------
--- Set the Fraction you see first when you open AQ
+-- AutoQuery Option
 ---------------------------------
---function AQSetFractionOption_OnClick()
--- if (AQSetFraction == nil) then
---   AQSetFraction = "bla";
---   AQSetFractionOption:SetChecked(false);
--- else
---   AQSetFraction = nil;
---   AQSetFractionOption:SetChecked(true);
--- end
--- AtlasQuest_SaveData();
---end
+function AQAutoQueryOption_OnClick()
+ if (AQAutoQuery == nil) then
+   AQAutoQuery = "yes";
+   AQAutoQueryOption:SetChecked(true);
+ else
+   AQAutoQuery = nil;
+   AQAutoQueryOption:SetChecked(false);
+ end
+ AtlasQuest_SaveData();
+end
 
+---------------------------------
+-- Comparison Tooltips Option
+---------------------------------
+function AQCompareTooltipOption_OnClick()
+ if (AQCompareTooltip == nil) then
+   AQCompareTooltip = "yes";
+   AQCompareTooltipOption:SetChecked(true);
+ else
+   AQCompareTooltip = nil;
+   AQCompareTooltipOption:SetChecked(false);
+ end
+ AtlasQuest_SaveData();
+end
+
+
+--[[
 ---------------------------------
 -- sets whether you use EquipCompare or not
 ---------------------------------
@@ -193,3 +225,4 @@ function AQEquipCompareOption_OnClick()
   end
   AtlasQuest_SaveData();
 end
+--]]
