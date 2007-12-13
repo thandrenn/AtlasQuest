@@ -3744,58 +3744,64 @@ Inst19Quest5name3_HORDE = "Drachenbluthalskette"
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
-Inst20Story = "Die Scholomance ist ein weitläufiges Netzwerk unterirdischer Krypten, das sich unter der verfallenen Burg Caer Darrow erstreckt. Caer Darrow war früher im Besitz der Barovs, einer alten Adelsfamilie, doch während des Zweiten Krieges verfiel die Burg und wurde zu einer Ruine. Eine gängige Methode, mit der Kel'thuzad neue Anhänger für seinen Kult der Verdammten warb, war es, potentiellen Neuzugängen im Austausch gegen ihre Dienste für den Lichkönig die Unsterblichkeit zu versprechen. Die Barovs fielen auf Kel'thuzads charismatischen Schwindel herein und überließen die Burg und die dazugehörigen Krypten der Geißel. Im Gegenzug töteten die Kultisten die Barovs und machten aus den uralten Gewölben eine Schule der Nekromantie, die sie die Scholomance tauften. Auch wenn Kel'thuzad schon lange nicht mehr in den Krypten weilt, verbleiben dennoch viele Kultisten und Lehrmeister in der Scholomance. Der mächtige Lich Ras Frostwhisper verteidigt die Scholomance im Namen der Geißel gegen alle, die unbefugterweise einen Fuß über ihre Schwelle setzen, während Dunkelmeister Gandling als der hinterhältige Direktor der Schule für Ordnung unter den Lernenden sorgt."
-Inst20Caption = "Die Scholomance"
-Inst20QAA = "9 Quests"
-Inst20QAH = "9 Quests"
+Inst20Story = "Scholomance ist ein weitläufiges Netzwerk unterirdischer Krypten, das sich unter der verfallenen Burg Darrowehr erstreckt. Darrowehr war früher im Besitz der Barovs, einer alten Adelsfamilie, doch während des Zweiten Krieges verfiel die Burg und wurde zu einer Ruine. Eine gängige Methode, mit der Kel'thuzad neue Anhänger für seinen Kult der Verdammten warb, war es, potentiellen Neuzugängen im Austausch gegen ihre Dienste für den Lichkönig die Unsterblichkeit zu versprechen. Die Barovs fielen auf Kel'thuzads charismatischen Schwindel herein und überließen die Burg und die dazugehörigen Krypten der Geißel. Im Gegenzug töteten die Kultisten die Barovs und machten aus den uralten Gewölben eine Schule der Nekromantie, die sie Scholomance tauften. Auch wenn Kel'thuzad schon lange nicht mehr in den Krypten weilt, verbleiben dennoch viele Kultisten und Lehrmeister in Scholomance. Der mächtige Lich Ras Frostraunen verteidigt Scholomance im Namen der Geißel gegen alle, die unbefugterweise einen Fuß über ihre Schwelle setzen, während Dunkelmeister Gandling als der hinterhältige Direktor der Schule für Ordnung unter den Lernenden sorgt."
+Inst20Caption = "Scholomance"
+Inst20QAA = "10 Quests"
+Inst20QAH = "10 Quests"
 
 --QUEST 1 Allianz
 Inst20Quest1 = "1. Verseuchte Jungtiere"
-Inst20Quest1_Attain = "55"
 Inst20Quest1_Level = "58"
-Inst20Quest1_Aim = "Tötet 20 verseuchte Jungtiere und kehrt dann zu Betina Bigglezink bei der Kapelle des hoffnungsvollen Lichts zurück."
-Inst20Quest1_Location = "Betina Bigglezink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst20Quest1_Note = ""
+Inst20Quest1_Attain = "55"
+Inst20Quest1_Aim = "Tötet 20 verseuchte Jungtiere und kehrt dann zu Betina Moppelzink bei der Kapelle des hoffnungsvollen Lichts zurück."
+Inst20Quest1_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
+Inst20Quest1_Note = "Die verseuchten Jungtiere befinden sich auf dem Weg zu Blutrippe in einem großen Raum."
 Inst20Quest1_Prequest = "Nein"
 Inst20Quest1_Folgequest = "Ja, Gesunde Großdrachenschuppe"
+-- Keine Belohnung
 
 --QUEST 2 Allianz
 Inst20Quest2 = "2. Gesunde Großdrachenschuppe"
-Inst20Quest2_Attain = ""
 Inst20Quest2_Level = "58"
-Inst20Quest2_Aim = "Bringt die gesunde Großdrachenschuppe zu Betina Bigglezink bei der Kapelle des hoffnungsvollen Lichts in den Östlichen Pestländern."
-Inst20Quest2_Location = "Gesunde Großdrachenschuppe (Drop) (Scholomance)"
-Inst20Quest2_Note = "Die Gesunde Großdrachenschuppe dropt bei den Verseuchte Jungtiere(8% Dropchance). Betina Bigglezink ist bei 81,59."
+Inst20Quest2_Attain = "56"
+Inst20Quest2_Aim = "Bringt die gesunde Großdrachenschuppe zu Betina Moppelzink bei der Kapelle des hoffnungsvollen Lichts in den östlichen Pestländern."
+Inst20Quest2_Location = "Gesunde Großdrachenschuppe (Zufälliger Dropp in Scholomance)"
+Inst20Quest2_Note = "Die Gesunde Großdrachenschuppe droppt von den Verseuchten Jungtiere (8% Droppchance). Betina Moppelzink befindet sich in den Östlichen Pestländer - Kapelle des hoffnungsvollen Lichts ("..YELLOW.."81,59"..WHITE..")."
 Inst20Quest2_Prequest = "Ja, Verseuchte Jungtiere"
 Inst20Quest2_Folgequest = "Nein"
+Inst20Quest2FQuest = "true"
+-- Keine Belohnung
 
 --QUEST 3 Allianz
 Inst20Quest3 = "3. Doktor Theolen Krastinov, der Schlächter"
-Inst20Quest3_Attain = "55"
 Inst20Quest3_Level = "60"
+Inst20Quest3_Attain = "55"
 Inst20Quest3_Aim = "Sucht Doktor Theolen Krastinov in der Scholomance. Vernichtet ihn, verbrennt dann die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff. Kehrt zu Eva Sarkhoff zurück, sobald Ihr die Aufgabe erfüllt habt."
-Inst20Quest3_Location = "Eva Sarkhoff (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest3_Note = "Doktor Theolen Krastinov, die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff sind bei "..YELLOW.."[9]"..WHITE.."."
+Inst20Quest3_Location = "Eva Sarkhoff (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE..")"
+Inst20Quest3_Note = "Doktor Theolen Krastinov, die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff befinden sich bei "..YELLOW.."[9]"..WHITE.."."
 Inst20Quest3_Prequest = "Nein"
 Inst20Quest3_Folgequest = "Ja, Krastinovs Tasche der Schrecken"
+-- Keine Belohnung
 
 --QUEST 4 Allianz
 Inst20Quest4 = "4. Krastinovs Tasche der Schrecken"
-Inst20Quest4_Attain = "55"
 Inst20Quest4_Level = "60"
+Inst20Quest4_Attain = "55"
 Inst20Quest4_Aim = "Sucht nach Jandice Barov in der Scholomance und vernichtet sie. Entnehmt ihrer Leiche Krastinovs Tasche der Schrecken. Bringt die Tasche zu Eva Sarkhoff."
-Inst20Quest4_Location = "Eva Sarkhoff (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..")"
+Inst20Quest4_Location = "Eva Sarkhoff (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE..")"
 Inst20Quest4_Note = "Man findet Jandice Barov bei "..YELLOW.."[3]"..WHITE.."."
 Inst20Quest4_Prequest = "Ja, Doktor Theolen Krastinov, der Schlächter"
 Inst20Quest4_Folgequest = "Ja, Kirtonos der Herold"
+Inst20Quest4FQuest = "true"
+-- Keine Belohnung
 
 --QUEST 5 Allianz
 Inst20Quest5 = "5. Kirtonos der Herold"
-Inst20Quest5_Attain = "56"
 Inst20Quest5_Level = "60"
+Inst20Quest5_Attain = "55"
 Inst20Quest5_Aim = "Kehrt mit dem Blut Unschuldiger zur Scholomance zurück. Sucht die Veranda und legt das Blut der Unschuldigen in die Kohlenpfanne. Kirtonos wird kommen, um sich von Eurer Seele zu nähren. Kämpft tapfer, gebt keinen Fußbreit nach! Vernichtet Kirtonos und kehrt zu Eva Sarkhoff zurück."
-Inst20Quest5_Location = "Eva Sarkhoff (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest5_Note = "Die Kohlepfanne findet man bei "..YELLOW.."[2]"..WHITE.."."
+Inst20Quest5_Location = "Eva Sarkhoff (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE..")"
+Inst20Quest5_Note = "Die Veranda findet man bei "..YELLOW.."[2]"..WHITE.."."
 Inst20Quest5_Prequest = "Ja, Krastinovs Tasche der Schrecken"
 Inst20Quest5_Folgequest = "Ja, Der Mensch Ras Frostraunen"
 --
@@ -3805,160 +3811,201 @@ Inst20Quest5name3 = "Mirahs Lied"
 
 --QUEST 6 Allianz
 Inst20Quest6 = "6. Der Lich Ras Frostraunen"
-Inst20Quest6_Attain = "60"
 Inst20Quest6_Level = "60"
-Inst20Quest6_Aim = "Sucht Ras Frostraunen in der Scholomance. Wenn Ihr ihn gefunden habt, wendet das seelengebundene Andenken auf sein untotes Antlitz an. Solltet Ihr ihn erfolgreich in einen Sterblichen zurückverwandeln können, dann schlagt ihn nieder und nehmt den menschlichen Kopf von Ras Frostraunen an Euch. Bringt den Kopf zu Magistrat Marduke."
-Inst20Quest6_Location = "Magistrat Marduke (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..")"
+Inst20Quest6_Attain = "59"
+Inst20Quest6_Aim = "Sucht Ras Frostraunen in der Scholomance. Wenn Ihr ihn gefunden habt, wendet das seelengebundene Andenken auf sein untotes Antlitz an. Solltet Ihr ihn erfolgreich in einen Sterblichen zurückverwandeln können, dann schlagt ihn nieder und nehmt den menschlichen Kopf von Ras Frostraunen an Euch. Bringt den Kopf zu Magistrat Marduk."
+Inst20Quest6_Location = "Magistrat Marduk (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE..")"
 Inst20Quest6_Note = "Ras Frostraunen findet man bei "..YELLOW.."[7]"..WHITE.."."
 Inst20Quest6_Prequest = "Ja, Der Mensch Ras Frostraunen -> Seelengebundenes Andenken"
 Inst20Quest6_Folgequest = "Nein"
+Inst20Quest6PreQuest = "true"
 --
-Inst20Quest6name1 = "Starkwache von Darrowshire"
-Inst20Quest6name2 = "Kriegsklinge von Caer Darrow"
-Inst20Quest6name3 = "Krone von Caer Darrow"
+Inst20Quest6name1 = "Starkwache von Darroheim"
+Inst20Quest6name2 = "Kriegsklinge von Darrowehr"
+Inst20Quest6name3 = "Krone von Darrowehr"
 Inst20Quest6name4 = "Froststachel"
 
 --QUEST 7 Allianz
 Inst20Quest7 = "7. Das Familienvermögen der Barovs"
-Inst20Quest7_Attain = "60"
 Inst20Quest7_Level = "60"
-Inst20Quest7_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Weldon Barov zurück, sobald die Aufgabe erledigt ist."
-Inst20Quest7_Location = "Weldon Barov (Westliche Pestländer; "..YELLOW.."43,83"..WHITE..")"
-Inst20Quest7_Note = "Die Besitzurkunde für Caer Darrow findet man bei "..YELLOW.."[12]"..WHITE..", die Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und die Besitzurkunde für Southshore bei "..YELLOW.."[1]"..WHITE.."."
+Inst20Quest7_Attain = "52"
+Inst20Quest7_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Darrowehr, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Süderstade. Kehrt zu Weldon Barov zurück, sobald die Aufgabe erledigt ist."
+Inst20Quest7_Location = "Weldon Barov (Westliche Pestländer - Zugwindlager; "..YELLOW.."43,83"..WHITE..")"
+Inst20Quest7_Note = "Die Besitzurkunde für Darrowehr findet man bei "..YELLOW.."[12]"..WHITE..", die Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", die Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und die Besitzurkunde für Süderstade bei "..YELLOW.."[1]"..WHITE.."."
 Inst20Quest7_Prequest = "Nein"
 Inst20Quest7_Folgequest = "Ja, Der letzte Barov"
+-- Keine Belohnung
 
 --QUEST 8 Allianz
 Inst20Quest8 = "8. Dämmerungstrickfalle"
-Inst20Quest8_Attain = "59"
 Inst20Quest8_Level = "60"
-Inst20Quest8_Aim = "Legt die Dämmerungstrickfalle in den Vorführraum von Scholomance. Besiegt Vectus und kehrt dann zu Betina Bigglezink zurück."
-Inst20Quest8_Location = "Betina Bigglezink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst20Quest8_Note = "Die Questreihe beginnt mit Brutlingessenz bei Tinkee Steamboil(Brennende Steppe, 65,23). Der Vorführraum ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst20Quest8_Prequest = "Ja, Brutlingessenz -> Betina Bigglezink"
+Inst20Quest8_Attain = "58"
+Inst20Quest8_Aim = "Legt die Dämmerungstrickfalle in den Vorführraum von Scholomance. Besiegt Vectus und kehrt dann zu Betina Moppelzink zurück."
+Inst20Quest8_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
+Inst20Quest8_Note = "Die Questreihe beginnt mit Brutlingessenz bei Tinkee Kesseldampf (Brennende Steppe - Flammenkamm; "..YELLOW.."65,23"..WHITE.."). Der Vorführraum ist bei "..YELLOW.."[6]"..WHITE.."."
+Inst20Quest8_Prequest = "Ja, Brutlingessenz -> Betina Moppelzink"
 Inst20Quest8_Folgequest = "Nein"
+Inst20Quest8PreQuest = "true"
 --
 Inst20Quest8name1 = "Windschnitter"
 Inst20Quest8name2 = "Tanzender Span"
 
 --QUEST 9 Allianz
 Inst20Quest9 = "9. Wichtellieferung (Hexenmeister)"
-Inst20Quest9_Attain = "60"
 Inst20Quest9_Level = "60"
-Inst20Quest9_Aim = "Bringt den Wichtel im Gefäß in das Alchimielabor in der Scholomance. Bringt nach der Herstellung des Pergaments, dass Gefäß zurück zu Gorzeeki Wildeyes."
-Inst20Quest9_Location = "Gorzeeki Wildeyes (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
-Inst20Quest9_Note = "Dieses Quest kann nur von Hexenmeistern angenommen werden! Das Alchimielabor ist bei "..YELLOW.."[3']"..WHITE.."."
-Inst20Quest9_Prequest = "Ja, Lord Banehollow -> Xorothianischer Sternenstaub"
-Inst20Quest9_Folgequest = "Ja,  Schreckensross von Xoroth"
+Inst20Quest9_Attain = "60"
+Inst20Quest9_Aim = "Bringt den Wichtel im Gefäß in das Alchimielabor in der Scholomance. Bringt nach der Herstellung des Pergaments, dass Gefäß zurück zu Gorzeeki Wildaug."
+Inst20Quest9_Location = "Gorzeeki Wildaug (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
+Inst20Quest9_Note = "Dieses Quest kann nur von Hexenmeistern angenommen werden! Das Alchimielabor befindet sich bei "..YELLOW.."[7]"..WHITE.."."
+Inst20Quest9_Prequest = "Ja, Mor'zul Blutbringer -> Xorothianischer Sternenstaub"
+Inst20Quest9_Folgequest = "Ja, Schreckensross von Xoroth ("..YELLOW.."Düsterbruch West"..WHITE..")"
+Inst20Quest9PreQuest = "true"
+-- Keine Belohnung
+
+--Quest 10 Allianz
+Inst20Quest10 = "10. Das linke Stück von Lord Valthalaks Amulett"
+Inst20Quest10_Level = "60"
+Inst20Quest10_Attain = "60"
+Inst20Quest10_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Kormok zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst20Quest10_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst20Quest10_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nKormok wird bei "..YELLOW.."[7]"..WHITE.." beschworen."
+Inst20Quest10_Prequest = "Ja, Komponenten von großer Wichtigkeit"
+Inst20Quest10_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
+Inst20Quest10PreQuest = "true"
+-- Keine Belohnung
 
 
---QUEST 1 Horde
-Inst20Quest1_HORDE = "1. Verseuchte Jungtiere "
-Inst20Quest1_HORDE_Attain = "55"
-Inst20Quest1_HORDE_Level = "58"
-Inst20Quest1_HORDE_Aim = "Tötet 20 verseuchte Jungtiere und kehrt dann zu Betina Bigglezink bei der Kapelle des hoffnungsvollen Lichts zurück."
-Inst20Quest1_HORDE_Location = "Betina Bigglezink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst20Quest1_HORDE_Note = ""
-Inst20Quest1_HORDE_Prequest = "Nein"
-Inst20Quest1_HORDE_Folgequest = "Nein"
+--QUEST 1 Horde (das selbe wie allianz quest 1)
+Inst20Quest1_HORDE = Inst20Quest1
+Inst20Quest1_HORDE_Level = Inst20Quest1_Level
+Inst20Quest1_HORDE_Attain = Inst20Quest1_Attain
+Inst20Quest1_HORDE_Aim = Inst20Quest1_Aim
+Inst20Quest1_HORDE_Location = Inst20Quest1_Location
+Inst20Quest1_HORDE_Note = Inst20Quest1_Note
+Inst20Quest1_HORDE_Prequest = Inst20Quest1_Prequest
+Inst20Quest1_HORDE_Folgequest = Inst20Quest1_Folgequest
+-- Keine Belohnung
 
---QUEST 2 Horde
-Inst20Quest2_HORDE = "2. Gesunde Großdrachenschuppe"
-Inst20Quest2_HORDE_Attain = ""
-Inst20Quest2_HORDE_Level = "58"
-Inst20Quest2_HORDE_Aim = "Bringt die gesunde Großdrachenschuppe zu Betina Bigglezink bei der Kapelle des hoffnungsvollen Lichts in den Östlichen Pestländern."
-Inst20Quest2_HORDE_Location = "Gesunde Großdrachenschuppe (Drop) (Scholomance)"
-Inst20Quest2_HORDE_Note = "Die Gesunde Großdrachenschuppe dropt bei den Verseuchte Jungtiere(8% Dropchance). Betina Bigglezink ist bei 81,59."
-Inst20Quest2_HORDE_Prequest = "Ja, Verseuchte Jungtiere"
-Inst20Quest2_HORDE_Folgequest = "Nein"
+--QUEST 2 Horde (das selbe wie allianz quest 2)
+Inst20Quest2_HORDE = Inst20Quest2
+Inst20Quest2_HORDE_Level = Inst20Quest2_Level
+Inst20Quest2_HORDE_Attain = Inst20Quest2_Attain
+Inst20Quest2_HORDE_Aim = Inst20Quest2_Aim
+Inst20Quest2_HORDE_Location = Inst20Quest2_Location
+Inst20Quest2_HORDE_Note = Inst20Quest2_Note
+Inst20Quest2_HORDE_Prequest = Inst20Quest2_Prequest
+Inst20Quest2_HORDE_Folgequest = Inst20Quest2_Folgequest
+Inst20Quest2FQuest_HORDE = Inst20Quest2FQuest
+-- Keine Belohnung
 
---Quest 3 Horde
-Inst20Quest3_HORDE = "3. Doktor Theolen Krastinov, der Schlächter"
-Inst20Quest3_HORDE_Attain = "55"
-Inst20Quest3_HORDE_Level = "60"
-Inst20Quest3_HORDE_Aim = "Sucht Doktor Theolen Krastinov in der Scholomance. Vernichtet ihn, verbrennt dann die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff. Kehrt zu Eva Sarkhoff zurück, sobald Ihr die Aufgabe erfüllt habt."
-Inst20Quest3_HORDE_Location = "Eva Sarkhoff (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest3_HORDE_Note = "Doktor Theolen Krastinov, die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff sind bei "..YELLOW.."[9]"..WHITE.."."
-Inst20Quest3_HORDE_Prequest = "Nein"
-Inst20Quest3_HORDE_Folgequest = "Ja, Krastinovs Tasche der Schrecken"
+--Quest 3 Horde (das selbe wie allianz quest 3)
+Inst20Quest3_HORDE = Inst20Quest3
+Inst20Quest3_HORDE_Level = Inst20Quest3_Level
+Inst20Quest3_HORDE_Attain = Inst20Quest3_Attain
+Inst20Quest3_HORDE_Aim = Inst20Quest3_Aim
+Inst20Quest3_HORDE_Location = Inst20Quest3_Location
+Inst20Quest3_HORDE_Note = Inst20Quest3_Note
+Inst20Quest3_HORDE_Prequest = Inst20Quest3_Prequest
+Inst20Quest3_HORDE_Folgequest = Inst20Quest3_Folgequest
+-- Keine Belohnung
 
---QUEST 4 Horde
-Inst20Quest4_HORDE = "4. Krastinovs Tasche der Schrecken"
-Inst20Quest4_HORDE_Attain = "55"
-Inst20Quest4_HORDE_Level = "60"
-Inst20Quest4_HORDE_Aim = "Sucht nach Jandice Barov in der Scholomance und vernichtet sie. Entnehmt ihrer Leiche Krastinovs Tasche der Schrecken. Bringt die Tasche zu Eva Sarkhoff."
-Inst20Quest4_HORDE_Location = "Eva Sarkhoff (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest4_HORDE_Note = "Man findet Jandice Barov bei "..YELLOW.."[3]"..WHITE.."."
-Inst20Quest4_HORDE_Prequest = "Ja, Doktor Theolen Krastinov, der Schlächter"
-Inst20Quest4_HORDE_Folgequest = "Ja, Kirtonos der Herold"
+--QUEST 4 Horde (das selbe wie allianz quest 4)
+Inst20Quest4_HORDE = Inst20Quest4
+Inst20Quest4_HORDE_Level = Inst20Quest4_Level
+Inst20Quest4_HORDE_Attain = Inst20Quest4_Attain
+Inst20Quest4_HORDE_Aim = Inst20Quest4_Aim
+Inst20Quest4_HORDE_Location = Inst20Quest4_Location
+Inst20Quest4_HORDE_Note = Inst20Quest4_Note
+Inst20Quest4_HORDE_Prequest = Inst20Quest4_Prequest
+Inst20Quest4_HORDE_Folgequest = Inst20Quest4_Folgequest
+Inst20Quest4FQuest_HORDE = Inst20Quest4FQuest
+-- Keine Belohnung
 
---QUEST 5 Horde
-Inst20Quest5_HORDE = "5. Kirtonos der Herold"
-Inst20Quest5_HORDE_Attain = "56"
-Inst20Quest5_HORDE_Level = "60"
-Inst20Quest5_HORDE_Aim = "Kehrt mit dem Blut Unschuldiger zur Scholomance zurück. Sucht die Veranda und legt das Blut der Unschuldigen in die Kohlenpfanne. Kirtonos wird kommen, um sich von Eurer Seele zu nähren. Kämpft tapfer, gebt keinen Fußbreit nach! Vernichtet Kirtonos und kehrt zu Eva Sarkhoff zurück."
-Inst20Quest5_HORDE_Location = "Eva Sarkhoff (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest5_HORDE_Note = "Die Kohlepfanne findet man bei "..YELLOW.."[2]"..WHITE.."."
-Inst20Quest5_HORDE_Prequest = "Ja, Krastinovs Tasche der Schrecken"
-Inst20Quest5_HORDE_Folgequest = "Ja, Der Mensch Ras Frostraunen"
+--QUEST 5 Horde (das selbe wie allianz quest 5)
+Inst20Quest5_HORDE = Inst20Quest5
+Inst20Quest5_HORDE_Level = Inst20Quest5_Level
+Inst20Quest5_HORDE_Attain = Inst20Quest5_Attain
+Inst20Quest5_HORDE_Aim = Inst20Quest5_Aim
+Inst20Quest5_HORDE_Location = Inst20Quest5_Location
+Inst20Quest5_HORDE_Note = Inst20Quest5_Note
+Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
+Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
+Inst20Quest5FQuest_HORDE = Inst20Quest5FQuest
 --
-Inst20Quest5name1_HORDE = "Spektrale Essenz"
-Inst20Quest5name2_HORDE = "Penelopes Rose"
-Inst20Quest5name3_HORDE = "Mirahs Lied"
+Inst20Quest5name1_HORDE = Inst20Quest5name1
+Inst20Quest5name2_HORDE = Inst20Quest5name2
+Inst20Quest5name3_HORDE = Inst20Quest5name3
 
---QUEST 6 Horde
-Inst20Quest6_HORDE = "6. Der Lich Ras Frostraunen"
-Inst20Quest6_HORDE_Attain = "60"
-Inst20Quest6_HORDE_Level = "60"
-Inst20Quest6_HORDE_Aim = "Sucht Ras Frostraunen in der Scholomance. Wenn Ihr ihn gefunden habt, wendet das seelengebundene Andenken auf sein untotes Antlitz an. Solltet Ihr ihn erfolgreich in einen Sterblichen zurückverwandeln können, dann schlagt ihn nieder und nehmt den menschlichen Kopf von Ras Frostraunen an Euch. Bringt den Kopf zu Magistrat Marduke."
-Inst20Quest6_HORDE_Location = "Magistrat Marduke (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest6_HORDE_Note = "Ras Frostraunen findet man bei "..YELLOW.."[7]"..WHITE.."."
-Inst20Quest6_HORDE_Prequest = "Ja, Der Mensch Ras Frostraunen -> Seelengebundenes Andenken"
-Inst20Quest6_HORDE_Folgequest = "Nein"
+--QUEST 6 Horde (das selbe wie allianz quest 6)
+Inst20Quest6_HORDE = Inst20Quest6
+Inst20Quest6_HORDE_Level = Inst20Quest6_Level
+Inst20Quest6_HORDE_Attain = Inst20Quest6_Attain
+Inst20Quest6_HORDE_Aim = Inst20Quest6_Aim
+Inst20Quest6_HORDE_Location = Inst20Quest6_Location
+Inst20Quest6_HORDE_Note = Inst20Quest6_Note
+Inst20Quest6_HORDE_Prequest = Inst20Quest6_Prequest
+Inst20Quest6_HORDE_Folgequest = Inst20Quest6_Folgequest
+Inst20Quest6PreQuest_HORDE = Inst20Quest6PreQuest
 --
-Inst20Quest6name1_HORDE = "Starkwache von Darrowshire"
-Inst20Quest6name2_HORDE = "Kriegsklinge von Caer Darrow"
-Inst20Quest6name3_HORDE = "Krone von Caer Darrow"
-Inst20Quest6name4_HORDE = "Froststachel"
+Inst20Quest6name1_HORDE = Inst20Quest6name1
+Inst20Quest6name2_HORDE = Inst20Quest6name2
+Inst20Quest6name3_HORDE = Inst20Quest6name3
+Inst20Quest6name4_HORDE = Inst20Quest6name4
 
 --QUEST 7 Horde
 Inst20Quest7_HORDE = "7. Das Familienvermögen der Barovs"
-Inst20Quest7_HORDE_Attain = "60"
 Inst20Quest7_HORDE_Level = "60"
+Inst20Quest7_HORDE_Attain = "52"
 Inst20Quest7_HORDE_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Alexi Barov zurück, sobald die Aufgabe erledigt ist."
-Inst20Quest7_HORDE_Location = "Alexi Barov (Westliche Pestländer; "..YELLOW.."28,57"..WHITE..")"
-Inst20Quest7_HORDE_Note = "Die Besitzurkunde für Caer Darrow findet man bei "..YELLOW.."[12]"..WHITE..", die Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und die Besitzurkunde für Southshore bei "..YELLOW.."[1]"..WHITE.."."
+Inst20Quest7_HORDE_Location = "Alexi Barov (Tirisfal - Bollwerk; "..YELLOW.."80,73"..WHITE..")"
+Inst20Quest7_HORDE_Note = "Die Besitzurkunde für Darrowehr findet man bei "..YELLOW.."[12]"..WHITE..", die Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", die Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und die Besitzurkunde für Süderstade bei "..YELLOW.."[1]"..WHITE.."."
 Inst20Quest7_HORDE_Prequest = "Nein"
 Inst20Quest7_HORDE_Folgequest = "Ja, Der letzte Barov"
+-- Keine Belohnung
 
---QUEST 8 Horde
-Inst20Quest8_HORDE = "8. Dämmerungstrickfalle"
-Inst20Quest8_HORDE_Attain = "59"
-Inst20Quest8_HORDE_Level = "60"
-Inst20Quest8_HORDE_Aim = "Legt die Dämmerungstrickfalle in den Vorführraum von Scholomance. Besiegt Vectus und kehrt dann zu Betina Bigglezink zurück."
-Inst20Quest8_HORDE_Location = "Betina Bigglezink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst20Quest8_HORDE_Note = "Die Questreihe beginnt mit Brutlingessenz bei Tinkee Steamboil(Brennende Steppe, 65,23). Der Vorführraum ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst20Quest8_HORDE_Prequest = "Ja, Brutlingessenz -> Betina Bigglezink"
-Inst20Quest8_HORDE_Folgequest = "Nein"
+--QUEST 8 Horde (das selbe wie allianz quest 8)
+Inst20Quest8_HORDE = Inst20Quest8
+Inst20Quest8_HORDE_Level = Inst20Quest8_Level
+Inst20Quest8_HORDE_Attain = Inst20Quest8_Attain
+Inst20Quest8_HORDE_Aim = Inst20Quest8_Aim
+Inst20Quest8_HORDE_Location = Inst20Quest8_Location
+Inst20Quest8_HORDE_Note = Inst20Quest8_Note
+Inst20Quest8_HORDE_Prequest = Inst20Quest8_Prequest
+Inst20Quest8_HORDE_Folgequest = Inst20Quest8_Folgequest
+Inst20Quest8PreQuest_HORDE = Inst20Quest8PreQuest
 --
-Inst20Quest8name1_HORDE = "Windschnitter"
-Inst20Quest8name2_HORDE = "Tanzender Span"
+Inst20Quest8name1_HORDE = Inst20Quest8name1
+Inst20Quest8name2_HORDE = Inst20Quest8name2
 
---QUEST 9 Horde
-Inst20Quest9_HORDE = "9. Wichtellieferung (Hexenmeister)"
-Inst20Quest9_HORDE_Attain = "60"
-Inst20Quest9_HORDE_Level = "60"
-Inst20Quest9_HORDE_Aim = "Bringt den Wichtel im Gefäß in das Alchimielabor in der Scholomance. Bringt nach der Herstellung des Pergaments, dass Gefäß zurück zu Gorzeeki Wildeyes."
-Inst20Quest9_HORDE_Location = "Gorzeeki Wildeyes (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
-Inst20Quest9_HORDE_Note = "Dieses Quest kann nur von Hexenmeistern angenommen werden! Das Alchimielabor ist bei "..YELLOW.."[3']"..WHITE.."."
-Inst20Quest9_HORDE_Prequest = "Ja, Lord Banehollow -> Xorothianischer Sternenstaub"
-Inst20Quest9_HORDE_Folgequest = "Ja,  Schreckensross von Xoroth"
+--QUEST 9 Horde (das selbe wie allianz quest 9)
+Inst20Quest9_HORDE = Inst20Quest9
+Inst20Quest9_HORDE_Level = Inst20Quest9_Level
+Inst20Quest9_HORDE_Attain = Inst20Quest9_Attain
+Inst20Quest9_HORDE_Aim = Inst20Quest9_Aim
+Inst20Quest9_HORDE_Location = Inst20Quest9_Location
+Inst20Quest9_HORDE_Note = Inst20Quest9_Note
+Inst20Quest9_HORDE_Prequest = Inst20Quest9_Prequest
+Inst20Quest9_HORDE_Folgequest = Inst20Quest9_Folgequest
+Inst20Quest9PreQuest_HORDE = Inst20Quest9PreQuest
+-- Keine Belohnung
+
+--Quest 10 Horde (das selbe wie allianz quest 10)
+Inst20Quest10_HORDE = Inst20Quest10
+Inst20Quest10_HORDE_Level = Inst20Quest10_Level
+Inst20Quest10_HORDE_Attain = Inst20Quest10_Attain
+Inst20Quest10_HORDE_Aim = Inst20Quest10_Aim
+Inst20Quest10_HORDE_Location = Inst20Quest10_Location
+Inst20Quest10_HORDE_Note = Inst20Quest10_Note
+Inst20Quest10_HORDE_Prequest = Inst20Quest10_Prequest
+Inst20Quest10_HORDE_Folgequest = Inst20Quest10_Folgequest
+Inst20Quest10PreQuest_HORDE = Inst20Quest10PreQuest
+-- Keine Belohnung
 
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
-Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgen nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgen die Burg des adligen Barons Silverlaine jenseits des unscheinbaren Dörfchens Pyrewood angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgen als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silverlaine."
-Inst21Caption = "Burg Shadowfang"
+Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgs nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgs die Burg des adligen Barons Silberlein jenseits des unscheinbaren Dörfchens Lohenscheit angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgs als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silberlein."
+Inst21Caption = "Burg Schattenfang"
 Inst21QAA = "2 Quests"
 Inst21QAH = "4 Quests"
 
@@ -3966,31 +4013,23 @@ Inst21QAH = "4 Quests"
 Inst21Quest1 = "1. Die Prüfung der Rechtschaffenheit (Paladin)"
 Inst21Quest1_Level = "22"
 Inst21Quest1_Attain = "20"
-Inst21Quest1_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Kor-Edelstein und bringt alles zusammen zu Jordan Stilwell in Eisenschmiede."
-Inst21Quest1_Location = "Jordan Stilwell (Dun Morogh - Eisenschmiede Eingang "..YELLOW.."52,36 "..WHITE..")"
-Inst21Quest1_Note = "Um die Notizen zu diesem Quest zu betrachten klick bitte auf "..YELLOW.."[Die Prüfung der Rechtschaffenheit Informationen]"..WHITE.."."
+Inst21Quest1_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Koredelstein und bringt alles zusammen zu Jordan Stillbrunn in Eisenschmiede."
+Inst21Quest1_Location = "Jordan Stillbrunn (Dun Morogh - Eisenschmiede Eingang; "..YELLOW.."52,36"..WHITE..")"
+Inst21Quest1_Note = "Um die Notizen zu dieser Quest zu betrachten, klicke auf "..YELLOW.."[Informationen zur Prüfung der Rechtschaffenheit]"..WHITE.."."
+Inst21Quest1_Page = {2, "Nur Paladine können diese Quest bekommen.\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."Todesminen"..WHITE.." nahe "..YELLOW.."[3]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem die Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." nahe Punkt "..YELLOW.."[B]"..WHITE.." (in den Ställen).\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man die Quest 'Suche nach dem Koredelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
 Inst21Quest1_Prequest = "Ja, Der Foliant der Ehre -> Die Prüfung der Rechtschaffenheit"
 Inst21Quest1_Folgequest = "Ja, Die Prüfung der Rechtschaffenheit"
+Inst21Quest1PreQuest = "true"
 --
 Inst21Quest1name1 = "Verigans Faust"
 
-Inst21Quest2 = "Die Prüfung der Rechtschaffenheit Informationen"
-Inst21Quest2TEXT = "Nur Paladine können diese Quest bekommen!\n1. Das Weißsteineichenholz bekommt man von Goblin-Holzschnitzer in den "..YELLOW.."[Todesminen]"..WHITE..".\n2. Um Bailors aufbereitete Erzlieferung zu bekommen muss man mit Bailor Stonehand (Loch Modan; 35,44 ) reden.  Er gibt einem die Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist bei 71,21 hinter einem Baum\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Shadowfang]"..WHITE.." nahe Punkt "..YELLOW.."[B]"..WHITE.." (in den Ställen).\n4. Den Kor-Edelstein bekommt man von Thundris Windweaver (Darkshore; 37,40) wenn man den Quest 'Suche nach dem Kor-Edelstein' macht. Für diese Quest muss man for den "..YELLOW.."[Blackfathomtiefen]"..WHITE.." Blackfathom-Gezeitenpriesterin oder Blackfathom-Orakel töten. Diese droppen den Verderbten Kor-Edelstein welchen Thundris Windweaver reinigt."
-Inst21Quest2_Level = "100"
-Inst21Quest2_Attain = ""
-Inst21Quest2_Aim = ""
-Inst21Quest2_Location = ""
-Inst21Quest2_Note = ""
-Inst21Quest2_Prequest = ""
-Inst21Quest2_Folgequest = ""
-
---QUEST 2 allaince (hexenmeister)
+--QUEST 2 allianz
 Inst21Quest3 = "2. Die Kugel von Soran'ruk (Hexenmeister)"
-Inst21Quest3_Attain = "20"
 Inst21Quest3_Level = "25"
-Inst21Quest3_Aim = "Sucht 3 Soran'ruk-Fragmente und 1 großes Soran'ruk-Fragment und bringt sie zu Doan Karhan im Brachland."
+Inst21Quest3_Attain = "20"
+Inst21Quest3_Aim = "Sucht 3 Fragmente von Soran'ruk und 1 großes Fragment von Soran'ruk und bringt sie zu Doan Karhan im Brachland."
 Inst21Quest3_Location = "Doan Karhan (Brachland; "..YELLOW.."49,57"..WHITE..")"
-Inst21Quest3_Note = "Diese Quest kann nur von Hexenmeistern angenommen werden! Die Soran'ruk-Fragmente werden von den Twilight-Akolyt in den "..YELLOW.."[Blackfothamtiefen]"..WHITE.." gedroppt. Das große Soran'ruk-Fragment bekommt man in "..YELLOW.."[Burg Shadowfang]"..WHITE.." bei Shadowfang-Dunkelseele."
+Inst21Quest3_Note = "Dieses Quest kann nur von Hexenmeistern angenommen werden! Die drei Fragmente von Soran'ruk werden von den Akolyten des Schattenhammers in der "..YELLOW.."[Tiefschwarze Grotte]"..WHITE.." gedroppt. Das große Fragment von Soran'ruk bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." von Dunkelseele der Schattenfänge."
 Inst21Quest3_Prequest = "Nein"
 Inst21Quest3_Folgequest = "Nein"
 --
@@ -3999,12 +4038,12 @@ Inst21Quest3name2 = "Stab von Soran'ruk"
 
 
 --QUEST 1 Horde
-Inst21Quest1_HORDE = "1. Todespirscher in Shadowfang"
-Inst21Quest1_HORDE_Attain = "-"
+Inst21Quest1_HORDE = "1. Todespirscher in Burg Schattenfang"
 Inst21Quest1_HORDE_Level = "25"
+Inst21Quest1_HORDE_Attain = "18"
 Inst21Quest1_HORDE_Aim = "Sucht die Todespirscher Adamant und Vincent."
-Inst21Quest1_HORDE_Location = "Hochexekutor Hadrec (Silberwald; "..YELLOW.."43,40"..WHITE..")"
-Inst21Quest1_HORDE_Note = "Man findet Adamant bei "..YELLOW.."[1]"..WHITE..". Vincet ist auf der rechten Seite, wenn man den Innenhof betritt."
+Inst21Quest1_HORDE_Location = "Hochexekutor Hadrec (Silberwald - Das Grabmal; "..YELLOW.."43,40"..WHITE..")"
+Inst21Quest1_HORDE_Note = "Man findet Todespirscher Adamant bei "..YELLOW.."[1]"..WHITE..". Todespirscher Vincet ist auf der rechten Seite, wenn man den Innenhof betritt."
 Inst21Quest1_HORDE_Prequest = "Nein"
 Inst21Quest1_HORDE_Folgequest = "Nein"
 --
@@ -4012,11 +4051,11 @@ Inst21Quest1name1_HORDE = "Geisterhafter Mantel"
 
 --QUEST 2 Horde
 Inst21Quest2_HORDE = "2. Das Buch von Ur"
-Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Level = "26"
+Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = "Bringt dem Bewahrer Bel'dugur im Apothekarium in Unterstadt das Buch von Ur."
-Inst21Quest2_HORDE_Location = "Bewahrer Bel'dugur (Unterstadt; "..YELLOW.."53,54"..WHITE..")"
-Inst21Quest2_HORDE_Note = "Man findet das Buch bei "..YELLOW.."[6]"..WHITE.."(auf der linken Seite, wenn man den Raum betritt)."
+Inst21Quest2_HORDE_Location = "Bewahrer Bel'dugur (Unterstadt - Das Apothekarium; "..YELLOW.."53,54"..WHITE..")"
+Inst21Quest2_HORDE_Note = "Man findet das Buch bei "..YELLOW.."[6]"..WHITE.." auf der linken Seite, wenn man den Raum betritt."
 Inst21Quest2_HORDE_Prequest = "Nein"
 Inst21Quest2_HORDE_Folgequest = "Nein"
 --
@@ -4025,28 +4064,28 @@ Inst21Quest2name2_HORDE = "Stahlschnallenarmschienen"
 
 --QUEST 3 Horde
 Inst21Quest3_HORDE = "3. Arugal muss sterben"
-Inst21Quest3_HORDE_Attain = "?"
 Inst21Quest3_HORDE_Level = "27"
-Inst21Quest3_HORDE_Aim = "Tötet Arugal und bringt Dalar Dawnweaver in dem Grabmal seinen Kopf."
-Inst21Quest3_HORDE_Location = "Dalar Dawnweaver (Silberwald; "..YELLOW.."44,39"..WHITE..")"
+Inst21Quest3_HORDE_Attain = "18"
+Inst21Quest3_HORDE_Aim = "Tötet Arugal und bringt Dalar Morgenweber in dem Grabmal seinen Kopf."
+Inst21Quest3_HORDE_Location = "Dalar Morgenweber (Silberwald - Das Grabmal; "..YELLOW.."44,39"..WHITE..")"
 Inst21Quest3_HORDE_Note = "Man findet Argual bei "..YELLOW.."[8]"..WHITE.."."
 Inst21Quest3_HORDE_Prequest = "Nein"
 Inst21Quest3_HORDE_Folgequest = "Nein"
 --
 Inst21Quest3name1_HORDE = "Siegel von Sylvanas"
 
---QUEST 4 Horde (hexenmeister)
+--QUEST 4 Horde (das selbe wie allianz quest 2)
 Inst21Quest4_HORDE = "4. Die Kugel von Soran'ruk (Hexenmeister)"
-Inst21Quest4_HORDE_Attain = "20"
-Inst21Quest4_HORDE_Level = "25"
-Inst21Quest4_HORDE_Aim = "Sucht 3 Soran'ruk-Fragmente und 1 großes Soran'ruk-Fragment und bringt sie zu Doan Karhan im Brachland."
-Inst21Quest4_HORDE_Location = "Doan Karhan (Brachland; "..YELLOW.."49,57"..WHITE..")"
-Inst21Quest4_HORDE_Note = "Diese Quest kann nur von Hexenmeistern angenommen werden! Die Soran'ruk-Fragmente werden von den Twilight-Akolyt in den "..YELLOW.."[Blackfothamtiefen]"..WHITE.." gedroppt. Das große Soran'ruk-Fragment bekommt man in "..YELLOW.."[Burg Shadowfang]"..WHITE.." bei Shadowfang-Dunkelseele."
-Inst21Quest4_HORDE_Prequest = "Nein"
-Inst21Quest4_HORDE_Folgequest = "Nein"
+Inst21Quest4_HORDE_Level = Inst21Quest2_Level
+Inst21Quest4_HORDE_Attain = Inst21Quest2_Attain
+Inst21Quest4_HORDE_Aim = Inst21Quest2_Aim
+Inst21Quest4_HORDE_Location = Inst21Quest2_Location
+Inst21Quest4_HORDE_Note = Inst21Quest2_Note
+Inst21Quest4_HORDE_Prequest = Inst21Quest2_Prequest
+Inst21Quest4_HORDE_Folgequest = Inst21Quest2_Folgequest
 --
-Inst21Quest4name1_HORDE = "Kugel von Soran'ruk"
-Inst21Quest4name2_HORDE = "Stab von Soran'ruk"
+Inst21Quest4name1_HORDE = Inst21Quest2name1
+Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 
 --------------- INST22 - Stratholme (Strat) ---------------
@@ -7346,6 +7385,141 @@ Inst56Quest2_HORDE_Folgequest = Inst56Quest2_Folgequest
 Inst56Quest2PreQuest_HORDE = Inst56Quest2PreQuest
 -- No Rewards for this quest
 
+
+--------------- INST57 - SM: Armory (SM Arm) ---------------
+
+Inst57Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
+Inst57Caption = "SK: Waffenkammer"
+Inst57QAA = "1 Quest"
+Inst57QAH = "2 Quests"
+
+--Quest 1 Allianz
+Inst57Quest1 = "1. Im Namen des Lichts"
+Inst57Quest1_Level = "40"
+Inst57Quest1_Attain = "34"
+Inst57Quest1_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Süderstade."
+Inst57Quest1_Location = "Raleigh der Andächtige (Vorgebirge des Hügellands - Süderstade; "..YELLOW.."51,58"..WHITE..")"
+Inst57Quest1_Note = "Diese Questreihe beginnt bei Bruder Crowley in Sturmwind - Kathedrale des Lichts ("..YELLOW.."42,24"..WHITE..").\nHochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
+Inst57Quest1_Prequest = "Ja, Bruder Anton -> Auf dem scharlachroten Pfad"
+Inst57Quest1_Folgequest = "Nein"
+Inst57Quest1PreQuest = "true"
+--
+Inst57Quest1name1 = "Schwert der Beschaulichkeit"
+Inst57Quest1name2 = "Knochenbeißer"
+Inst57Quest1name3 = "Schwarze Bedrohung"
+Inst57Quest1name4 = "Kugel von Lorica"
+
+
+--Quest 1 Horde
+Inst57Quest1_HORDE = "1. Herzen des Eifers"
+Inst57Quest1_HORDE_Level = "33"
+Inst57Quest1_HORDE_Attain = "30"
+Inst57Quest1_HORDE_Aim = "Apothekermeister Faranell in Unterstadt möchte 20 Herzen des Eifers."
+Inst57Quest1_HORDE_Location = "Apothekermeister Faranell (Unterstadt - Das Apothekarium; "..YELLOW.."48,69"..WHITE..")"
+Inst57Quest1_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Kloster gedroppt."
+Inst57Quest1_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
+Inst57Quest1_HORDE_Folgequest = "Nein"
+Inst57Quest1PreQuest_HORDE = "true"
+-- Keine Belohnung
+
+--Quest 2 Horde
+Inst57Quest2_HORDE = "2. In das Scharlachrote Kloster"
+Inst57Quest2_HORDE_Level = "42"
+Inst57Quest2_HORDE_Attain = "33"
+Inst57Quest2_HORDE_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Varimathras in Unterstadt."
+Inst57Quest2_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92"..WHITE..")"
+Inst57Quest2_HORDE_Note = "Hochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
+Inst57Quest2_HORDE_Prequest = "Nein"
+Inst57Quest2_HORDE_Folgequest = "Nein"
+--
+Inst57Quest2name1_HORDE = "Schwert des Omens"
+Inst57Quest2name2_HORDE = "Stock des Propheten"
+Inst57Quest2name3_HORDE = "Drachenbluthalskette"
+
+
+--------------- INST58 - SM: Cathedral (SM Cath) ---------------
+
+Inst58Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
+Inst58Caption = "SK: Kathedrale"
+Inst58QAA = "1 Quest"
+Inst58QAH = "2 Quests"
+
+--Quest 1 Allianz
+Inst58Quest1 = "1. Im Namen des Lichts"
+Inst58Quest1_Level = "40"
+Inst58Quest1_Attain = "34"
+Inst58Quest1_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Süderstade."
+Inst58Quest1_Location = "Raleigh der Andächtige (Vorgebirge des Hügellands - Süderstade; "..YELLOW.."51,58"..WHITE..")"
+Inst58Quest1_Note = "Diese Questreihe beginnt bei Bruder Crowley in Sturmwind - Kathedrale des Lichts ("..YELLOW.."42,24"..WHITE..").\nHochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
+Inst58Quest1_Prequest = "Ja, Bruder Anton -> Auf dem scharlachroten Pfad"
+Inst58Quest1_Folgequest = "Nein"
+Inst58Quest1PreQuest = "true"
+--
+Inst58Quest1name1 = "Schwert der Beschaulichkeit"
+Inst58Quest1name2 = "Knochenbeißer"
+Inst58Quest1name3 = "Schwarze Bedrohung"
+Inst58Quest1name4 = "Kugel von Lorica"
+
+
+--Quest 1 Horde
+Inst58Quest1_HORDE = "1. Herzen des Eifers"
+Inst58Quest1_HORDE_Level = "33"
+Inst58Quest1_HORDE_Attain = "30"
+Inst58Quest1_HORDE_Aim = "Apothekermeister Faranell in Unterstadt möchte 20 Herzen des Eifers."
+Inst58Quest1_HORDE_Location = "Apothekermeister Faranell (Unterstadt - Das Apothekarium; "..YELLOW.."48,69"..WHITE..")"
+Inst58Quest1_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Kloster gedroppt."
+Inst58Quest1_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
+Inst58Quest1_HORDE_Folgequest = "Nein"
+Inst58Quest1PreQuest_HORDE = "true"
+-- Keine Belohnung
+
+--Quest 2 Horde
+Inst58Quest2_HORDE = "2. In das Scharlachrote Kloster"
+Inst58Quest2_HORDE_Level = "42"
+Inst58Quest2_HORDE_Attain = "33"
+Inst58Quest2_HORDE_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Varimathras in Unterstadt."
+Inst58Quest2_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92"..WHITE..")"
+Inst58Quest2_HORDE_Note = "Hochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
+Inst58Quest2_HORDE_Prequest = "Nein"
+Inst58Quest2_HORDE_Folgequest = "Nein"
+--
+Inst58Quest2name1_HORDE = "Schwert des Omens"
+Inst58Quest2name2_HORDE = "Stock des Propheten"
+Inst58Quest2name3_HORDE = "Drachenbluthalskette"
+
+
+--------------- INST59 - SM: Graveyard (SM GY) ---------------
+
+Inst59Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
+Inst59Caption = "SK: Friedhof"
+Inst59QAA = "Keine Quests"
+Inst59QAH = "2 Quests"
+
+--Quest 1 Horde
+Inst59Quest1_HORDE = "1. Vorrels Rache"
+Inst59Quest1_HORDE_Level = "33"
+Inst59Quest1_HORDE_Attain = "25"
+Inst59Quest1_HORDE_Aim = "Bringt Monika Sengutz in Tarrens Mühle den Ehering von Vorrel Sengutz."
+Inst59Quest1_HORDE_Location = "Vorrel Sengutz (Das Scharlachrote Kloster - Friedhof; "..YELLOW.."[1]"..WHITE..")"
+Inst59Quest1_HORDE_Note = "Vorrel Sengutz befindet sich am Anfang des Friedhofs vom Scharlachroten Kloster. Nancy Vishas, die den Ring droppt, der für dieses Quest benötigt wird, befindet sich in einem Haus im Alteracgebirge ("..YELLOW.."31,32"..WHITE..")."
+Inst59Quest1_HORDE_Prequest = "Nein"
+Inst59Quest1_HORDE_Folgequest = "Nein"
+--
+Inst59Quest1name1_HORDE = "Vorrels Stiefel"
+Inst59Quest1name2_HORDE = "Mantel des Jammers"
+Inst59Quest1name3_HORDE = "Grimmstahlcape"
+
+--Quest 2 Horde
+Inst59Quest2_HORDE = "2. Herzen des Eifers"
+Inst59Quest2_HORDE_Level = "33"
+Inst59Quest2_HORDE_Attain = "30"
+Inst59Quest2_HORDE_Aim = "Apothekermeister Faranell in Unterstadt möchte 20 Herzen des Eifers."
+Inst59Quest2_HORDE_Location = "Apothekermeister Faranell (Unterstadt - Das Apothekarium; "..YELLOW.."48,69"..WHITE..")"
+Inst59Quest2_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Kloster gedroppt."
+Inst59Quest2_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
+Inst59Quest2_HORDE_Folgequest = "Nein"
+Inst59Quest2PreQuest_HORDE = "true"
+-- Keine Belohnung
 
 
 --------------- INST61 - TK: The Eye ---------------
