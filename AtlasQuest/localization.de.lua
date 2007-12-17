@@ -29,8 +29,9 @@
 
 if ( GetLocale() == "deDE" ) then
 
+
 ---------------
--- Colours --
+--- COLOURS ---
 ---------------
 
 local GREY = "|cff999999";
@@ -43,9 +44,10 @@ local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
-------------------------------
--- Options translation --
-------------------------------
+
+---------------
+--- OPTIONS ---
+---------------
 
 AQHelpText = ""..WHITE.."Gib /aq oder atlasquest "..YELLOW.."[command]"..WHITE.." ein\ncommands: help; option/config; show/hide; left/right; colour; autoshow"..RED.."(nur Atlas)"
 --
@@ -99,9 +101,9 @@ AQDiscription_PREQUEST = "Vorquest: "
 AQDiscription_FOLGEQUEST = "Folgequest: "
 AQFinishedTEXT = "Quest abgeschlossen: ";
 
----------------------------
--- Item Translation --
----------------------------
+------------------
+--- ITEM TYPES ---
+------------------
 
 AQITEM_DAGGER = " Dolch"
 AQITEM_POLEARM = " Stangenwaffe"
@@ -151,6 +153,11 @@ AQITEM_AMMOPOUCH = "Munitionsbeutel"
 AQITEM_ENCHANT = "Verzauberung"
 
 
+----------------------------------------------
+---------------- DUNGEONS --------------------
+----------------------------------------------
+
+
 --------------- INST1 - Deadmines (VC) ---------------
 
 Inst1Story = "Die Todesminen, einst die wichtigste Goldquelle der Menschen, wurden aufgegeben, als die Horde Sturmwind während des Ersten Krieges in Schutt und Asche legte. Nun hat sich die Defias-Bruderschaft in den verlassenen Minen niedergelassen und die dunklen Schächte in ihre eigene unterirdische Festung verwandelt. Gerüchten zufolge sollen die Diebe die gewitzten Goblins angeheuert haben, um tief in den Minen etwas Fürchterliches zu konstruieren, doch welche Teufelei dies konkret sein soll, ist nicht bekannt. Der Zugang zu den Todesminen liegt inmitten des ruhigen, unscheinbaren Dorfes Mondbruch."
@@ -158,7 +165,7 @@ Inst1Caption = "Die Todesminen"
 Inst1QAA = "7 Quests"
 Inst1QAH = "keine Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst1Quest1 = "1. Rote Seidenkopftücher"
 Inst1Quest1_Level = "17"
 Inst1Quest1_Attain = "14"
@@ -173,7 +180,7 @@ Inst1Quest1name1 = "Robuste Kurzklinge"
 Inst1Quest1name2 = "Kunstvoll geschnitzter Dolch"
 Inst1Quest1name3 = "Durchstechende Axt"
 
---Quest 2 Allianz
+--Quest 2 Alliance
 Inst1Quest2 = "2. Die Suche nach Andenken"
 Inst1Quest2_Level = "18"
 Inst1Quest2_Attain = "14"
@@ -186,7 +193,7 @@ Inst1Quest2_Folgequest = "Nein"
 Inst1Quest2name1 = "Stiefel des Tunnelgräbers"
 Inst1Quest2name2 = "Verstaubte Bergbauhandschuhe"
 
---Quest 3 Allianz
+--Quest 3 Alliance
 Inst1Quest3 = "3. Oh Bruder..."
 Inst1Quest3_Level = "20"
 Inst1Quest3_Attain = "15"
@@ -198,7 +205,7 @@ Inst1Quest3_Folgequest = "Nein"
 --
 Inst1Quest3name1 = "Rächer des Minenarbeiters"
 
---Quest 4 Allianz
+--Quest 4 Alliance
 Inst1Quest4 = "4. Unterirdischer Angriff"
 Inst1Quest4_Level = "20"
 Inst1Quest4_Attain = "15"
@@ -212,7 +219,7 @@ Inst1Quest4PreQuest = "true"
 Inst1Quest4name1 = "Polarstulpen"
 Inst1Quest4name2 = "Düsterer Zauberstab"
 
---Quest 5 Allianz
+--Quest 5 Alliance
 Inst1Quest5 = "5. Die Bruderschaft der Defias"
 Inst1Quest5_Level = "22"
 Inst1Quest5_Attain = "14"
@@ -227,7 +234,7 @@ Inst1Quest5name1 = "Galoschen von Westfall"
 Inst1Quest5name2 = "Tunika von Westfall"
 Inst1Quest5name3 = "Stab von Westfall"
 
---Quest 6 Allianz
+--Quest 6 Alliance
 Inst1Quest6 = "6. Die Prüfung der Rechtschaffenheit (Paladin)"
 Inst1Quest6_Level = "22"
 Inst1Quest6_Attain = "20"
@@ -241,7 +248,7 @@ Inst1Quest6PreQuest = "true"
 --
 Inst1Quest6name1 = "Verigans Faust"
 
---Quest 7 Allianz
+--Quest 7 Alliance
 Inst1Quest7 = "7. Der nie verschickte Brief"
 Inst1Quest7_Level = "22"
 Inst1Quest7_Attain = "16"
@@ -250,7 +257,7 @@ Inst1Quest7_Location = "Ein nie abgeschickter Brief (droppt von Edwin van Cleef 
 Inst1Quest7_Note = "Baros Alexston befindet sich in Sturmwind, neben der Kathedrale des Lichts bei "..YELLOW.."49,30"..WHITE.."."
 Inst1Quest7_Prequest = "Nein"
 Inst1Quest7_Folgequest = "Ja, Bazil Thredd"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST2 - Wailing Caverns (WC) ---------------
@@ -260,7 +267,7 @@ Inst2Caption = "Höhlen des Wehklagens"
 Inst2QAA = "5 Quests"
 Inst2QAH = "7 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst2Quest1 = "1. Deviatbälge"
 Inst2Quest1_Level = "17"
 Inst2Quest1_Attain = "13"
@@ -273,7 +280,7 @@ Inst2Quest1_Folgequest = "Nein"
 Inst2Quest1name1 = "Clevere Deviatgamaschen"
 Inst2Quest1name2 = "Deviathautpack"
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst2Quest2 = "2. Ärger auf den Docks"
 Inst2Quest2_Level = "18"
 Inst2Quest2_Attain = "14"
@@ -282,9 +289,9 @@ Inst2Quest2_Location = "Kranführer Moppelfuzz (Brachland - Ratschet; "..YELLOW.
 Inst2Quest2_Note = "Den Portwein gibt es vor der Instanz von Zausel dem Verrückten. Zausel ist schwer zu finden da er recht klein ist und getarnt ist. Er befindet sich vom Eingang aus rechts gesehen bei "..YELLOW.."[2] auf der Eingangskarte"..WHITE.."."
 Inst2Quest2_Prequest = "Nein"
 Inst2Quest2_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst2Quest3 = "3. Klugheitstränke"
 Inst2Quest3_Level = "18"
 Inst2Quest3_Attain = "14"
@@ -294,9 +301,9 @@ Inst2Quest3_Note = "Das Vorquest bekommt man auch von Mebok Mizzyrix.\nAlle Ekto
 Inst2Quest3_Prequest = "Ja, Raptorhörner"
 Inst2Quest3_Folgequest = "Nein"
 Inst2Quest3PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 4 Allianz
+--Quest 4 Alliance
 Inst2Quest4 = "4. Ausrottung der Deviat"
 Inst2Quest4_Level = "21"
 Inst2Quest4_Attain = "15"
@@ -310,7 +317,7 @@ Inst2Quest4name1 = "Muster: Deviatschuppengürtel"
 Inst2Quest4name2 = "Schmorstecken"
 Inst2Quest4name3 = "Moorlandstulpen"
 
---QUEST 5 Allianz
+--Quest 5 Alliance
 Inst2Quest5 = "5. Der leuchtende Splitter"
 Inst2Quest5_Level = "25"
 Inst2Quest5_Attain = "21"
@@ -324,7 +331,7 @@ Inst2Quest5name1 = "Talbar-Mantel"
 Inst2Quest5name2 = "Morastgaloschen"
 
 
---QUEST 1 horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst2Quest1_HORDE = Inst2Quest1
 Inst2Quest1_HORDE_Level = Inst2Quest1_Level
 Inst2Quest1_HORDE_Attain = Inst2Quest1_Attain
@@ -337,7 +344,7 @@ Inst2Quest1_HORDE_Folgequest = Inst2Quest1_Folgequest
 Inst2Quest1name1_HORDE = Inst2Quest1name1
 Inst2Quest1name2_HORDE = Inst2Quest1name2
 
---QUEST 2 horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst2Quest2_HORDE = Inst2Quest2
 Inst2Quest2_HORDE_Level = Inst2Quest2_Level
 Inst2Quest2_HORDE_Attain = Inst2Quest2_Attain
@@ -346,9 +353,9 @@ Inst2Quest2_HORDE_Location = Inst2Quest2_Location
 Inst2Quest2_HORDE_Note = Inst2Quest2_Note
 Inst2Quest2_HORDE_Prequest = Inst2Quest2_Prequest
 Inst2Quest2_HORDE_Folgequest = Inst2Quest2_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 3 horde
+--Quest 3 Horde
 Inst2Quest3_HORDE = "3. Schlangenflaum"
 Inst2Quest3_HORDE_Level = "18"
 Inst2Quest3_HORDE_Attain = "14"
@@ -361,7 +368,7 @@ Inst2Quest3PreQuest_HORDE = "true"
 --
 Inst2Quest3name1_HORDE = "Apotheker-Handschuhe"
 
---QUEST 4 horde (das selbe wie allianz quest 3)
+--Quest 4 Horde  (same as Quest 3 Alliance)
 Inst2Quest4_HORDE = "4. Klugheitstränke"
 Inst2Quest4_HORDE_Level = Inst2Quest3_Level
 Inst2Quest4_HORDE_Attain = Inst2Quest3_Attain
@@ -371,9 +378,9 @@ Inst2Quest4_HORDE_Note = Inst2Quest3_Note
 Inst2Quest4_HORDE_Prequest = Inst2Quest3_Prequest
 Inst2Quest4_HORDE_Folgequest = Inst2Quest3_Folgequest
 Inst2Quest4PreQuest_HORDE = Inst2Quest3PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 5 horde (das selbe wie allianz quest 4)
+--Quest 5 Horde  (same as Quest 4 Alliance)
 Inst2Quest5_HORDE = "5. Ausrottung der Deviat"
 Inst2Quest5_HORDE_Level = Inst2Quest4_Level
 Inst2Quest5_HORDE_Attain = Inst2Quest4_Attain
@@ -387,7 +394,7 @@ Inst2Quest5name1_HORDE = Inst2Quest4name1
 Inst2Quest5name2_HORDE = Inst2Quest4name2
 Inst2Quest5name3_HORDE = Inst2Quest4name3
 
---QUEST 6 horde
+--Quest 6 Horde
 Inst2Quest6_HORDE = "6. Anführer der Giftzähne"
 Inst2Quest6_HORDE_Level = "22"
 Inst2Quest6_HORDE_Attain = "18"
@@ -401,7 +408,7 @@ Inst2Quest6PreQuest_HORDE = "true"
 Inst2Quest6name1_HORDE = "Mondsichelstab"
 Inst2Quest6name2_HORDE = "Flügelklinge"
 
---QUEST 7 horde (das selbe wie allianz quest 5)
+--Quest 7 Horde  (same as Quest 5 Alliance)
 Inst2Quest7_HORDE = "7. Der leuchtende Splitter"
 Inst2Quest7_HORDE_Level = Inst2Quest5_Level
 Inst2Quest7_HORDE_Attain = Inst2Quest5_Attain
@@ -422,7 +429,7 @@ Inst3Caption = "Der Flammenschlund"
 Inst3QAA = "keine Quests"
 Inst3QAH = "5 Quests"
 
---QUEST 1 Horde
+--Quest 1 Horde
 Inst3Quest1_HORDE = "1. Die Kraft des Feindes wird auf die Probe gestellt"
 Inst3Quest1_HORDE_Level = "15"
 Inst3Quest1_HORDE_Attain = "9"
@@ -431,9 +438,9 @@ Inst3Quest1_HORDE_Location = "Rahauro (Donnerfels - Anhöhe der Ältesten; "..YE
 Inst3Quest1_HORDE_Note = "Die Troggs findet man am Anfang der Instanz."
 Inst3Quest1_HORDE_Prequest = "Nein"
 Inst3Quest1_HORDE_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 2 Horde
+--Quest 2 Horde
 Inst3Quest2_HORDE = "2. Die Macht der Zerstörung..."
 Inst3Quest2_HORDE_Level = "16"
 Inst3Quest2_HORDE_Attain = "9"
@@ -447,7 +454,7 @@ Inst3Quest2name1_HORDE = "Garstige Beinkleider"
 Inst3Quest2name2_HORDE = "Gamaschen des Sumpfgräbers"
 Inst3Quest2name3_HORDE = "Gargoylegamaschen"
 
---QUEST 3 Horde
+--Quest 3 Horde
 Inst3Quest3_HORDE = "3. Die Suche nach dem verloren gegangenen Ranzen"
 Inst3Quest3_HORDE_Level = "16"
 Inst3Quest3_HORDE_Attain = "9"
@@ -460,7 +467,7 @@ Inst3Quest3_HORDE_Folgequest = "Ja, Wiederbeschaffung des verloren gegangenen Ra
 Inst3Quest3name1_HORDE = "Federleichte Armschienen"
 Inst3Quest3name2_HORDE = "Savannenarmschienen"
 
---QUEST 4 Horde
+--Quest 4 Horde
 Inst3Quest4_HORDE = "4. Verborgene Feinde"
 Inst3Quest4_HORDE_Level = "16"
 Inst3Quest4_HORDE_Attain = "9"
@@ -476,7 +483,7 @@ Inst3Quest4name2_HORDE = "Hammer von Orgrimmar"
 Inst3Quest4name3_HORDE = "Axt von Orgrimmar"
 Inst3Quest4name4_HORDE = "Stab von Orgrimmar"
 
---QUEST 5 Horde
+--Quest 5 Horde
 Inst3Quest5_HORDE = "5. Vernichtung der Bestie"
 Inst3Quest5_HORDE_Level = "16"
 Inst3Quest5_HORDE_Attain = "9"
@@ -485,7 +492,7 @@ Inst3Quest5_HORDE_Location = "Neeru Feuerklinge (Orgrimmar - Kluft der Schatten;
 Inst3Quest5_HORDE_Note = "Taragaman findet man bei "..YELLOW.."[2]"..WHITE.."."
 Inst3Quest5_HORDE_Prequest = "Nein"
 Inst3Quest5_HORDE_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST4 - Uldaman (Ulda) ---------------
@@ -495,7 +502,7 @@ Inst4Caption = "Uldaman"
 Inst4QAA = "16 Quests"
 Inst4QAH = "10 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst4Quest1 = "1. Ein Hoffnungsschimmer"
 Inst4Quest1_Level = "35"
 Inst4Quest1_Attain = "35"
@@ -505,9 +512,9 @@ Inst4Quest1_Note = "Das Vorquest startet bei der zerknüllten Notiz (Das Ödland
 Inst4Quest1_Prequest = "Ja, Ein Hoffnungsschimmer"
 Inst4Quest1_Folgequest = "Ja, Amulett der Geheimnisse"
 Inst4Quest1PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst4Quest2 = "2. Amulett der Geheimnisse"
 Inst4Quest2_Level = "40"
 Inst4Quest2_Attain = "36"
@@ -517,9 +524,9 @@ Inst4Quest2_Note = "Das Amulett droppt von Magregan Grubenschatten, bei "..YELLO
 Inst4Quest2_Prequest = "Ja, Ein Hoffnungsschimmer"
 Inst4Quest2_Folgequest = "Ja, Ein Funken Hoffnung"
 Inst4Quest2FQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst4Quest3 = "3. Die verlorene Tafel des Willens"
 Inst4Quest3_Level = "45"
 Inst4Quest3_Attain = "38"
@@ -532,7 +539,7 @@ Inst4Quest3FQuest = "true"
 --
 Inst4Quest3name1 = "Medaille des Mutes"
 
---QUEST 4 Allianz
+--Quest 4 Alliance
 Inst4Quest4 = "4. Kraftsteine"
 Inst4Quest4_Level = "36"
 Inst4Quest4_Attain = "31"
@@ -546,7 +553,7 @@ Inst4Quest4name1 = "Energiegeladener Steinkreis"
 Inst4Quest4name2 = "Duracin-Armschienen"
 Inst4Quest4name3 = "Ewige Stiefel"
 
---QUEST 5 Allianz
+--Quest 5 Alliance
 Inst4Quest5 = "5. Agmonds Schicksal"
 Inst4Quest5_Level = "38"
 Inst4Quest5_Attain = "33"
@@ -559,7 +566,7 @@ Inst4Quest5PreQuest = "true"
 --
 Inst4Quest5name1 = "Ausgrabungsleiter-Handschuhe"
 
---QUEST 6 Allianz
+--Quest 6 Alliance
 Inst4Quest6 = "6. Lösung der Verdammnis"
 Inst4Quest6_Level = "40"
 Inst4Quest6_Attain = "32"
@@ -571,7 +578,7 @@ Inst4Quest6_Folgequest = "Ja, Auf nach Eisenschmiede zu 'Yagyins Zusammenstellun
 --
 Inst4Quest6name1 = "Verdammnisverkünder-Robe"
 
---QUEST 7 Allianz
+--Quest 7 Alliance
 Inst4Quest7 = "7. Die verschollenen Zwerge"
 Inst4Quest7_Level = "40"
 Inst4Quest7_Attain = "35"
@@ -580,9 +587,9 @@ Inst4Quest7_Location = "Ausgrabungsleiter Sturmlanze (Eisenschmiede - Halle der 
 Inst4Quest7_Note = "Bealog findet man bei "..YELLOW.."[1]"..WHITE.."."
 Inst4Quest7_Prequest = "Nein"
 Inst4Quest7_Folgequest = "Ja, Die geheime Kammer"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 8 Allianz
+--Quest 8 Alliance
 Inst4Quest8 = "8. Die geheime Kammer"
 Inst4Quest8_Level = "40"
 Inst4Quest8_Attain = "35"
@@ -596,7 +603,7 @@ Inst4Quest8FQuest = "true"
 Inst4Quest8name1 = "Zwergenstürmer"
 Inst4Quest8name2 = "Forscherliga-Erzaderstern"
 
---QUEST 9 Allianz
+--Quest 9 Alliance
 Inst4Quest9 = "9. Die zerrissene Halskette"
 Inst4Quest9_Level = "41"
 Inst4Quest9_Attain = "37"
@@ -605,9 +612,9 @@ Inst4Quest9_Location = "Zerrissene Halskette (Zufälliger Dropp in Uldaman)"
 Inst4Quest9_Note = "Man muss die Kette zu Talvash del Kissel (Eisenschmiede - Mystikerviertel; "..YELLOW.."36,3"..WHITE..") bringen."
 Inst4Quest9_Prequest = "Nein"
 Inst4Quest9_Folgequest = "Ja, Lehren haben ihren Preis"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 10 Allianz
+--Quest 10 Alliance
 Inst4Quest10 = "10. Rückkehr nach Uldaman"
 Inst4Quest10_Level = "42"
 Inst4Quest10_Attain = "37"
@@ -616,9 +623,9 @@ Inst4Quest10_Location = "Talvash del Kissel (Eisenschmiede - Mystikerviertel; ".
 Inst4Quest10_Note = "Der Paladin befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst4Quest10_Prequest = "Ja, Lehren haben ihren Preis"
 Inst4Quest10_Folgequest = "Ja, Suche nach den Edelsteinen"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 11 Allianz
+--Quest 11 Alliance
 Inst4Quest11 = "11. Suche nach den Edelsteinen"
 Inst4Quest11_Level = "43"
 Inst4Quest11_Attain = "38"
@@ -628,9 +635,9 @@ Inst4Quest11_Note = "Die Edelsteine befinden sich bei "..YELLOW.."[1]"..WHITE.."
 Inst4Quest11_Prequest = "Ja, Rückkehr nach Uldaman"
 Inst4Quest11_Folgequest = "Ja, Restaurierung der Halskette"
 Inst4Quest11FQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 12 Allianz
+--Quest 12 Alliance
 Inst4Quest12 = "12. Restaurierung der Halskette"
 Inst4Quest12_Level = "44"
 Inst4Quest12_Attain = "38"
@@ -643,7 +650,7 @@ Inst4Quest12FQuest = "true"
 --
 Inst4Quest12name1 = "Talvashs verstärkende Halskette"
 
---QUEST 13 Allianz
+--Quest 13 Alliance
 Inst4Quest13 = "13. Reagenzsuche in Uldaman"
 Inst4Quest13_Level = "42"
 Inst4Quest13_Attain = "38"
@@ -656,7 +663,7 @@ Inst4Quest13PreQuest = "true"
 --
 Inst4Quest13name1 = "Regenerationstrank"
 
---QUEST 14 Allianz
+--Quest 14 Alliance
 Inst4Quest14 = "14. Wiederbeschaffte Schätze"
 Inst4Quest14_Level = "43"
 Inst4Quest14_Attain = "33"
@@ -665,10 +672,10 @@ Inst4Quest14_Location = "Krom Starkarm (Eisenschmiede - Halle der Forscher; "..Y
 Inst4Quest14_Note = "Der Schatz befindet sich vor der Instanz. Um zu ihm zu gelangen läuft man nördlich des Instanztors in den östlichen Gang und nimmt die südöstliche Abzweigung. Auf der Eingangskarte ist er bei "..YELLOW.."[4]"..WHITE.."."
 Inst4Quest14_Prequest = "Nein"
 Inst4Quest14_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---QUEST 15 Allianz
+--Quest 15 Alliance
 Inst4Quest15 = "15. Die Platinscheiben"
 Inst4Quest15_Level = "47"
 Inst4Quest15_Attain = "40"
@@ -682,7 +689,7 @@ Inst4Quest15name1 = "Taupelzsack"
 Inst4Quest15name2 = "Überragender Heiltrank"
 Inst4Quest15name3 = "Großer Manatrank"
 
---QUEST 16 Allianz
+--Quest 16 Alliance
 Inst4Quest16 = "16. Macht in Uldaman (Magier)"
 Inst4Quest16_Level = "40"
 Inst4Quest16_Attain = "35"
@@ -692,10 +699,10 @@ Inst4Quest16_Note = "Dieses Quest ist nur für Magier verfügbar.\nDie Obsidiank
 Inst4Quest16_Prequest = "Ja, Die Austreibung"
 Inst4Quest16_Folgequest = "Ja, Manawogen"
 Inst4Quest16PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---QUEST 1 Horde (das selbe wie allianz quest 4)
+--Quest 1 Horde  (same as Quest 4 Alliance)
 Inst4Quest1_HORDE = "1. Kraftsteine"
 Inst4Quest1_HORDE_Level = Inst4Quest4_Level
 Inst4Quest1_HORDE_Attain = Inst4Quest4_Attain
@@ -709,7 +716,7 @@ Inst4Quest1name1_HORDE = Inst4Quest4name1
 Inst4Quest1name2_HORDE = Inst4Quest4name2
 Inst4Quest1name3_HORDE = Inst4Quest4name3
 
---QUEST 2 Horde (das selbe wie allianz quest 6)
+--Quest 2 Horde  (same as Quest 6 Alliance - different followup)
 Inst4Quest2_HORDE = "2. Lösung der Verdammnis"
 Inst4Quest2_HORDE_Level = Inst4Quest6_Level
 Inst4Quest2_HORDE_Attain = Inst4Quest6_Attain
@@ -721,7 +728,7 @@ Inst4Quest2_HORDE_Folgequest = "Ja, Auf nach Unterstadt zu 'Yagyins Zusammenstel
 --
 Inst4Quest2name1_HORDE = Inst4Quest6name1
 
---QUEST 3 Horde
+--Quest 3 Horde
 Inst4Quest3_HORDE = "3. Wiederbeschaffung der Halskette"
 Inst4Quest3_HORDE_Level = "41"
 Inst4Quest3_HORDE_Attain = "37"
@@ -730,9 +737,9 @@ Inst4Quest3_HORDE_Location = "Dran Droffers (Orgrimmar - Die Gasse; "..YELLOW.."
 Inst4Quest3_HORDE_Note = "Die Halskette ist ein Zufälliger Dropp innerhalb der Instanz."
 Inst4Quest3_HORDE_Prequest = "Nein"
 Inst4Quest3_HORDE_Folgequest = "Ja, Wiederbeschaffung der Halskette, Teil 2"
--- keine Belohnung
+-- No Rewards for this quest
 
---QUEST 4 Horde
+--Quest 4 Horde
 Inst4Quest4_HORDE = "4. Wiederbeschaffung der Halskette, Teil 2"
 Inst4Quest4_HORDE_Level = "41"
 Inst4Quest4_HORDE_Attain = "37"
@@ -742,9 +749,9 @@ Inst4Quest4_HORDE_Note = "Der Paladin befindet sich bei "..YELLOW.."[2]"..WHITE.
 Inst4Quest4_HORDE_Prequest = "Ja, Wiederbeschaffung der Halskette"
 Inst4Quest4_HORDE_Folgequest = "Ja, Übersetzung des Tagebuchs"
 Inst4Quest4FQuest_HORDE = "true"
--- keine Belohnung
+-- No Rewards for this quest
 
---QUEST 5 Horde
+--Quest 5 Horde
 Inst4Quest5_HORDE = "5. Übersetzung des Tagebuchs"
 Inst4Quest5_HORDE_Level = "42"
 Inst4Quest5_HORDE_Attain = "39"
@@ -754,9 +761,9 @@ Inst4Quest5_HORDE_Note = "Der Übersetzer Jarkal Moosblut befindet sich in Karga
 Inst4Quest5_HORDE_Prequest = "Ja, Wiederbeschaffung der Halskette, Teil 2"
 Inst4Quest5_HORDE_Folgequest = "Ja, Findet die Edelsteine und die Kraftquelle"
 Inst4Quest5FQuest_HORDE = "true"
--- keine Belohnung
+-- No Rewards for this quest
 
---QUEST 6 Horde
+--Quest 6 Horde
 Inst4Quest6_HORDE = "6. Findet die Edelsteine und die Kraftquelle"
 Inst4Quest6_HORDE_Level = "44"
 Inst4Quest6_HORDE_Attain = "37"
@@ -769,7 +776,7 @@ Inst4Quest6FQuest_HORDE = "true"
 --
 Inst4Quest6name1_HORDE = "Jarkals intensivierende Halskette"
 
---QUEST 7 Horde
+--Quest 7 Horde
 Inst4Quest7_HORDE = "7. Reagenzsuche in Uldaman"
 Inst4Quest7_HORDE_Level = "42"
 Inst4Quest7_HORDE_Attain = "36"
@@ -782,7 +789,7 @@ Inst4Quest7PreQuest_HORDE = "true"
 --
 Inst4Quest7name1_HORDE = "Regenerationstrank"
 
---QUEST 8 Horde
+--Quest 8 Horde
 Inst4Quest8_HORDE = "8. Wiederbeschaffte Schätze"
 Inst4Quest8_HORDE_Level = "43"
 Inst4Quest8_HORDE_Attain = "33"
@@ -791,9 +798,9 @@ Inst4Quest8_HORDE_Location = "Patrick Garrett (Unterstadt; "..YELLOW.."72,48"..W
 Inst4Quest8_HORDE_Note = "Der Schatz befindet sich vor der Instanz. Um zu ihm zu gelangen muss man dem Gang südlich des Instanztors, bis zum Ende folgen. Auf der Eingangskarte befindet er sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst4Quest8_HORDE_Prequest = "Nein"
 Inst4Quest8_HORDE_Folgequest = "Nein"
--- keine Belohnung
+-- No Rewards for this quest
 
---QUEST 9 Horde
+--Quest 9 Horde
 Inst4Quest9_HORDE = "9. Die Platinscheiben"
 Inst4Quest9_HORDE_Level = "47"
 Inst4Quest9_HORDE_Attain = "40"
@@ -807,7 +814,7 @@ Inst4Quest9name1_HORDE = "Taupelzsack"
 Inst4Quest9name2_HORDE = "Überragender Heiltrank"
 Inst4Quest9name3_HORDE = "Großer Manatrank"
 
---QUEST 10 Horde (das selbe wie allianz quest 4)
+--Quest 10 Horde  (same as Quest 4 Alliance)
 Inst4Quest10_HORDE = "10. Macht in Uldaman (Magier)"
 Inst4Quest10_HORDE_Level = Inst4Quest16_Level
 Inst4Quest10_HORDE_Attain = Inst4Quest16_Attain
@@ -817,7 +824,7 @@ Inst4Quest10_HORDE_Note = Inst4Quest16_Note
 Inst4Quest10_HORDE_Prequest = Inst4Quest16_Prequest
 Inst4Quest10_HORDE_Folgequest = Inst4Quest16_Folgequest
 Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
--- keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST5 - Blackrock Depths (BRD) ---------------
@@ -827,7 +834,7 @@ Inst5Caption = "Die Schwarzfelstiefen"
 Inst5QAA = "18 Quests"
 Inst5QAH = "18 Quests"
 
---QUEST1 Allianz
+--Quest 1 Alliance
 Inst5Quest1 = "1. Dunkeleisenerbe"
 Inst5Quest1_Level = "52"
 Inst5Quest1_Attain = "48"
@@ -839,7 +846,7 @@ Inst5Quest1_Folgequest = "Nein"
 --
 Inst5Quest1name1 = "Schlüssel zur Schattenschmiede"
 
---QUEST2 Allianz
+--Quest 2 Alliance
 Inst5Quest2 = "2. Ribbly Schraubstutz"
 Inst5Quest2_Level = "53"
 Inst5Quest2_Attain = "48"
@@ -854,7 +861,7 @@ Inst5Quest2name1 = "Groll-Stiefel"
 Inst5Quest2name2 = "Bußwerk-Schiftung"
 Inst5Quest2name3 = "Stahlschienenrüstung"
 
---QUEST3 Allianz
+--Quest 3 Alliance
 Inst5Quest3 = "3. Der Liebestrank"
 Inst5Quest3_Level = "54"
 Inst5Quest3_Attain = "50"
@@ -867,7 +874,7 @@ Inst5Quest3_Folgequest = "Nein"
 Inst5Quest3name1 = "Handfessel-Manschetten"
 Inst5Quest3name2 = "Nagmaras Peitschen-Gürtel"
 
---QUEST4 Allianz
+--Quest 4 Alliance
 Inst5Quest4 = "4. Hurley Pestatem"
 Inst5Quest4_Level = "55"
 Inst5Quest4_Attain = "50"
@@ -882,7 +889,7 @@ Inst5Quest4name1 = "Dunkles zwergisches Lagerbier"
 Inst5Quest4name2 = "Hurtigschlagknüppel"
 Inst5Quest4name3 = "Gliedmaßenspaltbeil"
 
---QUEST5 Allianz
+--Quest 5 Alliance  
 Inst5Quest5 = "5. Übermeister Pyron"
 Inst5Quest5_Level = "52"
 Inst5Quest5_Attain = "48"
@@ -891,9 +898,9 @@ Inst5Quest5_Location = "Jalinda Sprig (Brennende Steppe - Morgans Wacht; "..YELL
 Inst5Quest5_Note = "Übermeister Pyron ist ein Feuerelementar außerhalb der Instanz. Er befindet sich bei "..YELLOW.."[24]"..WHITE.." auf der Schwarzfelstiefenkarte und bei "..YELLOW.."[1]"..WHITE.." auf der Schwarzfels-Eingangskarte."
 Inst5Quest5_Prequest = "Nein"
 Inst5Quest5_Folgequest = "Ja, Incendius!"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST6 Allianz
+--Quest 6 Alliance
 Inst5Quest6 = "6. Incendius!"
 Inst5Quest6_Level = "56"
 Inst5Quest6_Attain = "48"
@@ -909,7 +916,7 @@ Inst5Quest6name2 = "Nachtlauerhandschuhe"
 Inst5Quest6name3 = "Gruftdämonen-Armschienen"
 Inst5Quest6name4 = "Wackere Umklammerung"
 
---QUEST7 Allianz
+--Quest 7 Alliance
 Inst5Quest7 = "7. Das Herz des Berges"
 Inst5Quest7_Level = "55"
 Inst5Quest7_Attain = "50"
@@ -918,9 +925,9 @@ Inst5Quest7_Location = "Maxwort Funkelglanz (Brennende Steppe - Flammenkamm; "..
 Inst5Quest7_Note = "Das Herz des Berges befindet sich bei "..YELLOW.."[8]"..WHITE.." in einem Safe. Den Schlüssel für den Safe bekommt man von Wachmann Stahlgriff, der erscheint wenn man alle kleinen Safes geöffnet hat."
 Inst5Quest7_Prequest = "Nein"
 Inst5Quest7_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST8 Allianz
+--Quest 8 Alliance
 Inst5Quest8 = "8. Feine Sachen"
 Inst5Quest8_Level = "56"
 Inst5Quest8_Attain = "50"
@@ -932,7 +939,7 @@ Inst5Quest8_Folgequest = "Nein"
 --
 Inst5Quest8name1 = "Eine schmuddelige Gürteltasche"
 
---QUEST9 Allianz
+--Quest 9 Alliance
 Inst5Quest9 = "9. Marschall Windsor"
 Inst5Quest9_Level = "54"
 Inst5Quest9_Attain = "48"
@@ -947,7 +954,7 @@ Inst5Quest9name1 = "Konservator-Helm"
 Inst5Quest9name2 = "Schildplattensabatons"
 Inst5Quest9name3 = "Scherwindgamaschen"
 
---QUEST10 Allianz
+--Quest 10 Alliance
 Inst5Quest10 = "10. Eine zusammengeknüllte Notiz"
 Inst5Quest10_Level = "58"
 Inst5Quest10_Attain = "50"
@@ -957,9 +964,9 @@ Inst5Quest10_Note = "Dieses Quest ist Teil der Onyxia Questreihe. Marshall Winds
 Inst5Quest10_Prequest = "Ja, Marshall Windsor"
 Inst5Quest10_Folgequest = "Ja, Ein Funken Hoffnung"
 Inst5Quest10FQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST11 Allianz
+--Quest 11 Alliance
 Inst5Quest11 = "11. Ein Funken Hoffnung"
 Inst5Quest11_Level = "58"
 Inst5Quest11_Attain = "52"
@@ -969,9 +976,9 @@ Inst5Quest11_Note = "Dieses Quest ist Teil der Onyxia Questreihe. Marshall Winds
 Inst5Quest11_Prequest = "Ja, Eine zusammengeknüllte Notiz"
 Inst5Quest11_Folgequest = "Ja, Gefängnisausbruch!"
 Inst5Quest11FQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST12 Allianz
+--Quest 12 Alliance
 Inst5Quest12 = "12. Gefängnisausbruch!"
 Inst5Quest12_Level = "58"
 Inst5Quest12_Attain = "52"
@@ -986,7 +993,7 @@ Inst5Quest12name1 = "Barriere der Elemente"
 Inst5Quest12name2 = "Klinge der Abrechnung"
 Inst5Quest12name3 = "Geschickte Kampfklinge"
 
---QUEST13 Allianz
+--Quest 13 Alliance
 Inst5Quest13 = "13. Eine Kostprobe der Flamme"
 Inst5Quest13_Level = "58"
 Inst5Quest13_Attain = "52"
@@ -1001,7 +1008,7 @@ Inst5Quest13name1 = "Schieferhautcape"
 Inst5Quest13name2 = "Wyrmbalg-Schiftung"
 Inst5Quest13name3 = "Valconische Schärpe"
 
---QUEST14 Allianz
+--Quest 14 Alliance
 Inst5Quest14 = "14. Kharan Hammermacht"
 Inst5Quest14_Level = "59"
 Inst5Quest14_Attain = "50"
@@ -1011,9 +1018,9 @@ Inst5Quest14_Note = "Das Vorquest startet bei Königliche Historikerin Archesonu
 Inst5Quest14_Prequest = "Ja, Die glimmenden Ruinen von Thaurissan"
 Inst5Quest14_Folgequest = "Ja, Der Überbringer schlechter Botschaften"
 Inst5Quest14PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST15 Allianz
+--Quest 15 Alliance
 Inst5Quest15 = "15. Das Schicksal des Königreichs"
 Inst5Quest15_Level = "59"
 Inst5Quest15_Attain = "51"
@@ -1027,7 +1034,7 @@ Inst5Quest15FQuest = "true"
 Inst5Quest15name1 = "Magnis Wille"
 Inst5Quest15name2 = "Liedstein von Eisenschmiede"
 
---QUEST16 Allianz
+--Quest 16 Alliance
 Inst5Quest16 = "16. Abstimmung mit dem Kern"
 Inst5Quest16_Level = "60"
 Inst5Quest16_Attain = "55"
@@ -1036,9 +1043,9 @@ Inst5Quest16_Location = "Lothos Felsspalter (Der Schwarzfels; "..YELLOW.."[2] au
 Inst5Quest16_Note = "Wenn man diese Quest abgeschlossen hat, kann man den Stein neben Lothos Felsspalter benutzen um den Geschmolzenen Kern zu betreten.\nDas Kernfragment findet man vor dem Portal zum gescmolzenen Kern bei "..YELLOW.."[23]"..WHITE.."."
 Inst5Quest16_Prequest = "Nein"
 Inst5Quest16_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST17 Allianz
+--Quest 17 Alliance
 Inst5Quest17 = "17. Die Herausforderung"
 Inst5Quest17_Level = "60"
 Inst5Quest17_Attain = "60"
@@ -1047,9 +1054,9 @@ Inst5Quest17_Location = "Falrin Rankenweber (Düsterbruch West; "..YELLOW.."[1] 
 Inst5Quest17_Note = "Das Folgequest ist für alle Klassen unterschiedlich."
 Inst5Quest17_Prequest = "Nein"
 Inst5Quest17_Folgequest = "Ja, (Klassen Quests)"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST18 Allianz
+--Quest 18 Alliance
 Inst5Quest18 = "18. Der spektrale Kelch"
 Inst5Quest18_Level = "55"
 Inst5Quest18_Attain = "55"
@@ -1058,10 +1065,10 @@ Inst5Quest18_Location = "Dunk'rel (Schwarzfelstiefen; "..YELLOW.."[18]"..WHITE..
 Inst5Quest18_Note = "Nur Bergbauer mit Skill 230 oder höher können diese Quest annehmen, um das Schmelzen von Dunkeleisenerz zu lernen. Materialien für den Kelch: 2 [Sternrubin], 20 [Goldbarren], 10 [Echtsilberbarren]. Nachher, wenn man ein [Dunkeleisenerz] habt, kann man es zur schwarzen Schmiede bei "..YELLOW.."[22]"..WHITE.." bringen und es schmelzen."
 Inst5Quest18_Prequest = "Nein"
 Inst5Quest18_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---QUEST1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst5Quest1_HORDE = Inst5Quest1
 Inst5Quest1_HORDE_Level = Inst5Quest1_Level
 Inst5Quest1_HORDE_Attain = Inst5Quest1_Attain
@@ -1073,7 +1080,7 @@ Inst5Quest1_HORDE_Folgequest = Inst5Quest1_Folgequest
 --
 Inst5Quest1name1_HORDE = Inst5Quest1name1
 
---QUEST2 Horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst5Quest2_HORDE = Inst5Quest2
 Inst5Quest2_HORDE_Level = Inst5Quest2_Level
 Inst5Quest2_HORDE_Attain = Inst5Quest2_Attain
@@ -1088,7 +1095,7 @@ Inst5Quest2name1_HORDE = Inst5Quest2name1
 Inst5Quest2name2_HORDE = Inst5Quest2name2
 Inst5Quest2name3_HORDE = Inst5Quest2name3
 
---QUEST3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst5Quest3_HORDE = Inst5Quest3
 Inst5Quest3_HORDE_Level = Inst5Quest3_Level
 Inst5Quest3_HORDE_Attain = Inst5Quest3_Attain
@@ -1101,7 +1108,7 @@ Inst5Quest3_HORDE_Folgequest = Inst5Quest3_Folgequest
 Inst5Quest3name1_HORDE = Inst5Quest3name1
 Inst5Quest3name2_HORDE = Inst5Quest3name2
 
---QUEST 4 Horde
+--Quest 4 Horde
 Inst5Quest4_HORDE = "4. Verlorenes Donnerbräurezept"
 Inst5Quest4_HORDE_Level = "55"
 Inst5Quest4_HORDE_Attain = "50"
@@ -1117,7 +1124,7 @@ Inst5Quest4name2_HORDE = "Großer Manatrank"
 Inst5Quest4name3_HORDE = "Hurtigschlagknüppel"
 Inst5Quest4name4_HORDE = "Gliedmaßenspaltbeil"
 
---QUEST5 Horde (das selbe wie allianz quest 6)
+--Quest 5 Horde  (same as Quest 6 Alliance)
 Inst5Quest5_HORDE = "5. Das Herz des Berges"
 Inst5Quest5_HORDE_Level = Inst5Quest6_Level
 Inst5Quest5_HORDE_Attain = Inst5Quest6_Attain
@@ -1126,9 +1133,9 @@ Inst5Quest5_HORDE_Location = Inst5Quest6_Location
 Inst5Quest5_HORDE_Note = Inst5Quest6_Note
 Inst5Quest5_HORDE_Prequest = Inst5Quest6_Prequest
 Inst5Quest5_HORDE_Folgequest = Inst5Quest6_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 6 Horde
+--Quest 6 Horde
 Inst5Quest6_HORDE = "6. SOFORT TÖTEN: Dunkeleisenzwerge"
 Inst5Quest6_HORDE_Level = "52"
 Inst5Quest6_HORDE_Attain = "48"
@@ -1137,9 +1144,9 @@ Inst5Quest6_HORDE_Location = "'GESUCHT'-Schild (Ödland - Kargath; "..YELLOW.."3
 Inst5Quest6_HORDE_Note = "Man findet die Zwerge im ersten Abschnitt der Schwarzfelstiefen.\nKriegsherr Bluthauer befindet sich in Kargath auf dem Turm (Ödland, "..YELLOW.."5,47"..WHITE..")."
 Inst5Quest6_HORDE_Prequest = "Nein"
 Inst5Quest6_HORDE_Folgequest = "Ja, SOFORT TÖTEN: Hochrangige Führungskräfte der Dunkeleisenzwerge"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 7 Horde
+--Quest 7 Horde
 Inst5Quest7_HORDE = "7. SOFORT TÖTEN: Hochrangige Führungskräfte der Dunkeleisenzwerge"
 Inst5Quest7_HORDE_Level = "54"
 Inst5Quest7_HORDE_Attain = "49"
@@ -1149,9 +1156,9 @@ Inst5Quest7_HORDE_Note = "Man findet die Zwerge in der Nähe von Bael'Gar "..YEL
 Inst5Quest7_HORDE_Prequest = "Ja, SOFORT TÖTEN: Dunkeleisenzwerge"
 Inst5Quest7_HORDE_Folgequest = "Ja, Grark Lorkrub -> Gefährliche Zwickmühle (Eskortquest)"
 Inst5Quest7FQuest_HORDE = "true"
--- keine Belohnung
+-- No Rewards for this quest
 
---Quest8 Horde
+--Quest 8 Horde
 Inst5Quest8_HORDE = "8. Operation: Tod dem Zornesschmied"
 Inst5Quest8_HORDE_Level = "58"
 Inst5Quest8_HORDE_Attain = "54"
@@ -1164,7 +1171,7 @@ Inst5Quest8FQuest_HORDE = "true"
 --
 Inst5Quest8name1_HORDE = "Medaillon des Eroberers"
 
---Quest9 Horde
+--Quest 9 Horde
 Inst5Quest9_HORDE = "9. Aufstieg der Maschinen"
 Inst5Quest9_HORDE_Level = "58"
 Inst5Quest9_HORDE_Attain = "52"
@@ -1180,7 +1187,7 @@ Inst5Quest9name2_HORDE = "Regenzauberer-Tuch"
 Inst5Quest9name3_HORDE = "Basaltschuppenrüstung"
 Inst5Quest9name4_HORDE = "Lavaplattenstulpen"
 
---QUEST 10 Horde (das selbe wie allianz quest 12)
+--Quest 10 Horde  (same as Quest 12 Alliance)
 Inst5Quest10_HORDE = "10. Eine Kostprobe der Flamme"
 Inst5Quest10_HORDE_Level = Inst5Quest12_Level
 Inst5Quest10_HORDE_Attain = Inst5Quest12_Attain
@@ -1195,7 +1202,7 @@ Inst5Quest10name1_HORDE = Inst5Quest12name1
 Inst5Quest10name2_HORDE = Inst5Quest12name2
 Inst5Quest10name3_HORDE = Inst5Quest12name3
 
---QUEST 11 Horde
+--Quest 11 Horde
 Inst5Quest11_HORDE = "11. Disharmonie der Flamme"
 Inst5Quest11_HORDE_Level = "52"
 Inst5Quest11_HORDE_Attain = "48"
@@ -1204,9 +1211,9 @@ Inst5Quest11_HORDE_Location = "Donnerherz (Ödland - Kargath; "..YELLOW.."3,48".
 Inst5Quest11_HORDE_Note = "Übermeister Pyron ist ein Feuer Elementar außerhalb der Instanz. Er befindet sich bei "..YELLOW.."[24]"..WHITE.." auf der Schwarzfelstiefenkarte und bei "..YELLOW.."[1]"..WHITE.." auf der Schwarzfels Eingangskarte."
 Inst5Quest11_HORDE_Prequest = "Nein"
 Inst5Quest11_HORDE_Folgequest = "Ja, Disharmonie des Feuers"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 12 Horde
+--Quest 12 Horde
 Inst5Quest12_HORDE = "12. Disharmonie des Feuers"
 Inst5Quest12_HORDE_Level = "56"
 Inst5Quest12_HORDE_Attain = "48"
@@ -1222,7 +1229,7 @@ Inst5Quest12name2_HORDE = "Nachtlauerhandschuhe"
 Inst5Quest12name3_HORDE = "Gruftdämonen-Armschienen"
 Inst5Quest12name4_HORDE = "Wackere Umklammerung"
 
---QUEST 13 Horde
+--Quest 13 Horde
 Inst5Quest13_HORDE = "13. Das letzte Element"
 Inst5Quest13_HORDE_Level = "54"
 Inst5Quest13_HORDE_Attain = "48"
@@ -1235,7 +1242,7 @@ Inst5Quest13PreQuest_HORDE = "true"
 --
 Inst5Quest13name1_HORDE = "Lagraves Siegel"
 
---QUEST 14 Horde
+--Quest 14 Horde
 Inst5Quest14_HORDE = "14. Kommandant Gor'shak"
 Inst5Quest14_HORDE_Level = "52"
 Inst5Quest14_HORDE_Attain = "48"
@@ -1246,7 +1253,7 @@ Inst5Quest14_HORDE_Prequest = "Ja, Disharmonie der Flamme"
 Inst5Quest14_HORDE_Folgequest = "Ja, Was ist los?"
 Inst5Quest14PreQuest_HORDE = "true"
 
---QUEST 15 Horde
+--Quest 15 Horde
 Inst5Quest15_HORDE = "15. Die königliche Rettung"
 Inst5Quest15_HORDE_Level = "59"
 Inst5Quest15_HORDE_Attain = "50"
@@ -1260,7 +1267,7 @@ Inst5Quest15FQuest_HORDE = "true"
 Inst5Quest15name1_HORDE = "Thralls Entschlossenheit"
 Inst5Quest15name2_HORDE = "Auge von Orgrimmar"
 
---QUEST 16 Horde (das selbe wie allianz quest 16)
+--Quest 16 Horde  (same as Quest 16 Alliance)
 Inst5Quest16_HORDE = Inst5Quest16
 Inst5Quest16_HORDE_Level = Inst5Quest16_Level
 Inst5Quest16_HORDE_Attain = Inst5Quest16_Attain
@@ -1269,9 +1276,9 @@ Inst5Quest16_HORDE_Location = Inst5Quest16_Location
 Inst5Quest16_HORDE_Note = Inst5Quest16_Note
 Inst5Quest16_HORDE_Prequest = Inst5Quest16_Prequest
 Inst5Quest16_HORDE_Folgequest = Inst5Quest16_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 17 Horde (das selbe wie allianz quest 17)
+--Quest 17 Horde  (same as Quest 17 Alliance)
 Inst5Quest17_HORDE = Inst5Quest17
 Inst5Quest17_HORDE_Level = Inst5Quest17_Level
 Inst5Quest17_HORDE_Attain = Inst5Quest17_Attain
@@ -1280,9 +1287,9 @@ Inst5Quest17_HORDE_Location = Inst5Quest17_Location
 Inst5Quest17_HORDE_Note = Inst5Quest17_Note
 Inst5Quest17_HORDE_Prequest = Inst5Quest17_Prequest
 Inst5Quest17_HORDE_Folgequest = Inst5Quest17_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 18 Horde (das selbe wie allianz quest 18)
+--Quest 18 Horde  (same as Quest 18 Alliance)
 Inst5Quest18_HORDE = Inst5Quest18
 Inst5Quest18_HORDE_Level = Inst5Quest18_Level
 Inst5Quest18_HORDE_Attain = Inst5Quest18_Attain
@@ -1291,7 +1298,7 @@ Inst5Quest18_HORDE_Location = Inst5Quest18_Location
 Inst5Quest18_HORDE_Note = Inst5Quest18_Note
 Inst5Quest18_HORDE_Prequest = Inst5Quest18_Prequest
 Inst5Quest18_HORDE_Folgequest = Inst5Quest18_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST6 - Blackwing Lair (BWL) ---------------
@@ -1309,7 +1316,7 @@ Inst6Caption3 = "Der Pechschwingenhort (Geschichte Teil 2)"
 Inst6QAA = "3 Quests"
 Inst6QAH = "3 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst6Quest1 = "1. Nefarius' Verderbnis"
 Inst6Quest1_Level = "60"
 Inst6Quest1_Attain = "60"
@@ -1318,9 +1325,9 @@ Inst6Quest1_Location = "Vaelastrasz der Verdorbene (Pechschwingenhort; "..YELLOW
 Inst6Quest1_Note = "Nur eine Person kann den Splitter looten. Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
 Inst6Quest1_Prequest = "Nein"
 Inst6Quest1_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst6Quest2 = "2. Der Herrscher des Schwarzfels"
 Inst6Quest2_Level = "60"
 Inst6Quest2_Attain = "60"
@@ -1334,7 +1341,7 @@ Inst6Quest2name1 = "Medallion des Meisterdrachentöters"
 Inst6Quest2name2 = "Kugel des Meisterdrachentöters"
 Inst6Quest2name3 = "Ring des Meisterdrachentöters"
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst6Quest3 = "3. Nur einer kann sich erheben"
 Inst6Quest3_Level = "60"
 Inst6Quest3_Attain = "60"
@@ -1343,10 +1350,10 @@ Inst6Quest3_Location = "Kopf des Brutwächters Dreschbringer (droppt von Brutwä
 Inst6Quest3_Note = "Nur eine Person kann den Kopf looten."
 Inst6Quest3_Prequest = "Nein"
 Inst6Quest3_Folgequest = "Ja, Der Pfad des Gerechten"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---QUEST 1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst6Quest1_HORDE = Inst6Quest1
 Inst6Quest1_HORDE_Level = Inst6Quest1_Level
 Inst6Quest1_HORDE_Attain = Inst6Quest1_Attain
@@ -1355,9 +1362,9 @@ Inst6Quest1_HORDE_Location = Inst6Quest1_Location
 Inst6Quest1_HORDE_Note = Inst6Quest1_Note
 Inst6Quest1_HORDE_Prequest = Inst6Quest1_Prequest
 Inst6Quest1_HORDE_Folgequest = Inst6Quest1_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 2 Horde
+--Quest 2 Horde
 Inst6Quest2_HORDE = "2. Der Herrscher des Schwarzfels"
 Inst6Quest2_HORDE_Level = "60"
 Inst6Quest2_HORDE_Attain = "60"
@@ -1371,7 +1378,7 @@ Inst6Quest2name1_HORDE = "Medallion des Meisterdrachentöters"
 Inst6Quest2name2_HORDE = "Kugel des Meisterdrachentöters"
 Inst6Quest2name3_HORDE = "Ring des Meisterdrachentöters"
 
---QUEST 3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst6Quest3_HORDE = Inst6Quest3
 Inst6Quest3_HORDE_Level = Inst6Quest3_Level
 Inst6Quest3_HORDE_Attain = Inst6Quest3_Attain
@@ -1380,7 +1387,7 @@ Inst6Quest3_HORDE_Location = Inst6Quest3_Location
 Inst6Quest3_HORDE_Note = Inst6Quest3_Note
 Inst6Quest3_HORDE_Prequest = Inst6Quest3_Prequest
 Inst6Quest3_HORDE_Folgequest = Inst6Quest3_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
@@ -1390,7 +1397,7 @@ Inst7Caption = "Die Tiefschwarze Grotte"
 Inst7QAA = "6 Quests"
 Inst7QAH = "5 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst7Quest1 = "1. Wissen in der Tiefe"
 Inst7Quest1_Level = "23"
 Inst7Quest1_Attain = "10"
@@ -1402,7 +1409,7 @@ Inst7Quest1_Folgequest = "Nein"
 --
 Inst7Quest1name1 = "Erhaltender Ring"
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst7Quest2 = "2. Erforschung der Verderbnis"
 Inst7Quest2_Level = "24"
 Inst7Quest2_Attain = "18"
@@ -1416,7 +1423,7 @@ Inst7Quest2PreQuest = "true"
 Inst7Quest2name1 = "Käferschnallen"
 Inst7Quest2name2 = "Prälaturencape"
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst7Quest3 = "3. Auf der Suche nach Thaelrid"
 Inst7Quest3_Level = "24"
 Inst7Quest3_Attain = "18"
@@ -1425,9 +1432,9 @@ Inst7Quest3_Location = "Dämmerungsbehüter Shaedlass (Darnassus - Terrasse der 
 Inst7Quest3_Note = "Argentumwache Thaelrid findet man bei "..YELLOW.."[4]"..WHITE.."."
 Inst7Quest3_Prequest = "Nein"
 Inst7Quest3_Folgequest = "Ja, Schurkerei in der Tiefschwarzen Grotte"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 4 Alliance
+--Quest 4 Alliance
 Inst7Quest4 = "4. Schurkerei in der Tiefschwarzen Grotte"
 Inst7Quest4_Level = "27"
 Inst7Quest4_Attain = "18"
@@ -1441,7 +1448,7 @@ Inst7Quest4FQuest = "true"
 Inst7Quest4name1 = "Grabsteinszepter"
 Inst7Quest4name2 = "Arktischer Rundschild"
 
---QUEST 5 Alliance
+--Quest 5 Alliance
 Inst7Quest5 = "5. Schatten des Hammers"
 Inst7Quest5_Level = "25"
 Inst7Quest5_Attain = "20"
@@ -1454,7 +1461,7 @@ Inst7Quest5_Folgequest = "Nein"
 Inst7Quest5name1 = "Nimbusstiefel"
 Inst7Quest5name2 = "Herzholzgurt"
 
---QUEST 6 Alliance
+--Quest 6 Alliance
 Inst7Quest6 = "6. Die Kugel von Soran'ruk (Hexenmeister)"
 Inst7Quest6_Level = "25"
 Inst7Quest6_Attain = "20"
@@ -1468,7 +1475,7 @@ Inst7Quest6name1 = "Kugel von Soran'ruk"
 Inst7Quest6name2 = "Stab von Soran'ruk"
 
 
---QUEST 1 Horde
+--Quest 1 Horde
 Inst7Quest1_HORDE = "1. Die Essenz von Aku'mai"
 Inst7Quest1_HORDE_Level = "22"
 Inst7Quest1_HORDE_Attain = "17"
@@ -1478,9 +1485,9 @@ Inst7Quest1_HORDE_Note = "Das Vorquest 'Ärger in der Tiefe' bekommt man von Tsu
 Inst7Quest1_HORDE_Prequest = "Ja, Ärger in der Tiefe"
 Inst7Quest1_HORDE_Folgequest = "Nein"
 Inst7Quest1PreQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 2 Horde
+--Quest 2 Horde
 Inst7Quest2_HORDE = "2. Treue zu den Alten Göttern"
 Inst7Quest2_HORDE_Level = "26"
 Inst7Quest2_HORDE_Attain = "18"
@@ -1493,7 +1500,7 @@ Inst7Quest2_HORDE_Folgequest = "Nein"
 Inst7Quest2name1_HORDE = "Band der Faust"
 Inst7Quest2name2_HORDE = "Kastanienbrauner Mantel"
 
---QUEST 3 Horde
+--Quest 3 Horde
 Inst7Quest3_HORDE = "3. Inmitten der Ruinen"
 Inst7Quest3_HORDE_Level = "27"
 Inst7Quest3_HORDE_Attain = "21"
@@ -1502,8 +1509,9 @@ Inst7Quest3_HORDE_Location = "Je'neu Sancrea (Eschental - Außenposten von Zoram
 Inst7Quest3_HORDE_Note = "Den Tiefenkern findet man bei "..YELLOW.."[7]"..WHITE.." im Wasser. Sobald man ihn aufnimmt erscheint Lord Aquanis. Lord Aquanis droppt einen Questgegenstand, welchen man zu Je'neu Sancrea bringen muss."
 Inst7Quest3_HORDE_Prequest = "Nein"
 Inst7Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
---QUEST 4 Horde
+--Quest 4 Horde
 Inst7Quest4_HORDE = "4. Schurkerei in der Tiefschwarzen Grotte"
 Inst7Quest4_HORDE_Level = "27"
 Inst7Quest4_HORDE_Attain = "19"
@@ -1516,7 +1524,7 @@ Inst7Quest4_HORDE_Folgequest = "Nein"
 Inst7Quest4name1_HORDE = "Grabsteinszepter"
 Inst7Quest4name2_HORDE = "Arktischer Rundschild"
 
---QUEST 5 Horde (das selbe wie allianz quest 6)
+--Quest 5 Horde  (same as Quest 6 Alliance)
 Inst7Quest5_HORDE = "5. Die Kugel von Soran'ruk (Hexenmeister)"
 Inst7Quest5_HORDE_Level = Inst7Quest6_Level
 Inst7Quest5_HORDE_Attain = Inst7Quest6_Attain
@@ -1537,7 +1545,7 @@ Inst8Caption = "Schwarzfelsspitze (Unten)"
 Inst8QAA = "14 Quests"
 Inst8QAH = "14 Quests"
 
---Quest1 Allianz
+--Quest 1 Alliance
 Inst8Quest1 = "1. Die letzten Schrifttafeln"
 Inst8Quest1_Level = "58"
 Inst8Quest1_Attain = "55"
@@ -1551,7 +1559,7 @@ Inst8Quest1PreQuest = "true"
 Inst8Quest1name1 = "Ausgeblichener Hakkariumhang"
 Inst8Quest1name2 = "Zerlumptes Hakkaricape"
 
---Quest2 Allianz
+--Quest 2 Alliance
 Inst8Quest2 = "2. Kiblers Exotische Tiere"
 Inst8Quest2_Level = "59"
 Inst8Quest2_Attain = "55"
@@ -1563,7 +1571,7 @@ Inst8Quest2_Folgequest = "Nein"
 --
 Inst8Quest2name1 = "Worgtransportkorb"
 
---Quest3 Allianz
+--Quest 3 Alliance
 Inst8Quest3 = "3. Be-Öh-Es-Eh"
 Inst8Quest3_Level = "59"
 Inst8Quest3_Attain = "55"
@@ -1575,7 +1583,7 @@ Inst8Quest3_Folgequest = "Nein"
 --
 Inst8Quest3name1 = "Glimmernetztransportkorb"
 
---Quest4 Allianz
+--Quest 4 Alliance
 Inst8Quest4 = "4. Muttermilch"
 Inst8Quest4_Level = "60"
 Inst8Quest4_Attain = "55"
@@ -1587,7 +1595,7 @@ Inst8Quest4_Folgequest = "Nein"
 --
 Inst8Quest4name1 = "Der immervolle Becher des struppigen John"
 
---Quest5 Allianz
+--Quest 5 Alliance
 Inst8Quest5 = "5. Stellt sie ab"
 Inst8Quest5_Level = "59"
 Inst8Quest5_Attain = "55"
@@ -1601,7 +1609,7 @@ Inst8Quest5name1 = "Astoriaroben"
 Inst8Quest5name2 = "Fallenstellerwams"
 Inst8Quest5name3 = "Jadeschuppenbrustplatte"
 
---Quest6 Allianz
+--Quest 6 Alliance
 Inst8Quest6 = "6. Urok Schreckensbote"
 Inst8Quest6_Level = "60"
 Inst8Quest6_Attain = "55"
@@ -1613,7 +1621,7 @@ Inst8Quest6_Folgequest = "Nein"
 --
 Inst8Quest6name1 = "Prismatalisman"
 
---Quest7 Allianz
+--Quest 7 Alliance
 Inst8Quest7 = "7. Bijous Habseligkeiten"
 Inst8Quest7_Level = "59"
 Inst8Quest7_Attain = "55"
@@ -1622,9 +1630,9 @@ Inst8Quest7_Location = "Bijou (Schwarzfelsspitze; "..YELLOW.."[3]"..WHITE..")"
 Inst8Quest7_Note = "Bijous Habseligkeiten kann man auf dem Weg zu Mutter Glimmernetz, die sich bei "..YELLOW.."[13]"..WHITE.." befindet, finden.\nMaxwell findet man in der Brennenden Steppe - Morgans Wacht ("..YELLOW.."84,58"..WHITE..")."
 Inst8Quest7_Prequest = "Nein"
 Inst8Quest7_Folgequest = "Ja, Nachricht an Maxwell"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest8 Allianz
+--Quest 8 Alliance
 Inst8Quest8 = "8. Maxwells Mission"
 Inst8Quest8_Level = "59"
 Inst8Quest8_Attain = "57"
@@ -1641,7 +1649,7 @@ Inst8Quest8name3 = "Halycons Maulkorb"
 Inst8Quest8name4 = "Vosh'gajins Strang"
 Inst8Quest8name5 = "Voones Zwingenhandschutz"
 
---Quest9 Allianz
+--Quest 9 Alliance
 Inst8Quest9 = "9. Siegel des Aufstiegs"
 Inst8Quest9_Level = "60"
 Inst8Quest9_Attain = "57"
@@ -1650,9 +1658,9 @@ Inst8Quest9_Location = "Vaelan (Schwarzfelsspitze; "..YELLOW.."[1]"..WHITE..")"
 Inst8Quest9_Note = "Den Edelstein der Felsspitzoger bekommt man von Hochlord Omokk bei "..YELLOW.."[3]"..WHITE..", den Edelstein der Gluthauer von Kriegsmeister Voone bei "..YELLOW.."[9]"..WHITE.." und den Edelstein der Blutäxte von Oberanführer Wyrmthalak bei "..YELLOW.."[19]"..WHITE..". Das Unverziertes Siegel des Aufstiegs kann von fast allen Gegnern in der Unteren Schwarzfelsspitze droppen. Wenn man diese Questreihe beendet, bekommt man den Schlüssel für die Obere Schwarzfelsspitze als Belohnung."
 Inst8Quest9_Prequest = "Nein"
 Inst8Quest9_Folgequest = "Ja, Siegel des Aufstiegs"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest10 Allianz
+--Quest 10 Alliance
 Inst8Quest10 = "10. General Drakkisaths Befehl"
 Inst8Quest10_Attain = "55"
 Inst8Quest10_Level = "60"
@@ -1661,9 +1669,9 @@ Inst8Quest10_Location = "General Drakkisaths Befehl (droppt von Oberanführer Wy
 Inst8Quest10_Note = "Marschall Maxwell befindet sich in der Brennenden Steppe - Morgans Wacht; ("..YELLOW.."84,58"..WHITE..")."
 Inst8Quest10_Prequest = "Nein"
 Inst8Quest10_Folgequest = "Ja, General Drakkisaths Niedergang ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 11 Allianz
+--Quest 11 Alliance
 Inst8Quest11 = "11. Das linke Stück von Lord Valthalaks Amulett"
 Inst8Quest11_Level = "60"
 Inst8Quest11_Attain = "60"
@@ -1673,9 +1681,9 @@ Inst8Quest11_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um B
 Inst8Quest11_Prequest = "Ja, Mehr Komponenten von großer Wichtigkeit"
 Inst8Quest11_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
 Inst8Quest11PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 12 Allianz
+--Quest 12 Alliance
 Inst8Quest12 = "12. Das rechte Stück von Lord Valthalaks Amulett"
 Inst8Quest12_Level = "60"
 Inst8Quest12_Attain = "60"
@@ -1685,9 +1693,9 @@ Inst8Quest12_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um B
 Inst8Quest12_Prequest = "Ja, Mehr Komponenten von großer Wichtigkeit"
 Inst8Quest12_Folgequest = "Ja, Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
 Inst8Quest12PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 13 Allianz
+--Quest 13 Alliance
 Inst8Quest13 = "13. Schlangenstein der Schattenjägerin"
 Inst8Quest13_Level = "60"
 Inst8Quest13_Attain = "51"
@@ -1699,7 +1707,7 @@ Inst8Quest13_Folgequest = "Nein"
 --
 Inst8Quest13name1 = "Pläne: Dämmerungsschneide"
 
---Quest 14 Allianz
+--Quest 14 Alliance
 Inst8Quest14 = "14. Heißer, feuriger Tod"
 Inst8Quest14_Level = "60"
 Inst8Quest14_Attain = "58"
@@ -1713,7 +1721,7 @@ Inst8Quest14name1 = "Pläne: Feurige Plattenstulpen"
 Inst8Quest14name2 = "Feurige Plattenstulpen"
 
 
---Quest 1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst8Quest1_HORDE = Inst8Quest1
 Inst8Quest1_HORDE_Level = Inst8Quest1_Level
 Inst8Quest1_HORDE_Attain = Inst8Quest1_Attain
@@ -1727,7 +1735,7 @@ Inst8Quest1PreQuest_HORDE = Inst8Quest1PreQuest
 Inst8Quest1name1_HORDE = Inst8Quest1name1
 Inst8Quest1name2_HORDE = Inst8Quest1name2
 
---Quest2 Horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst8Quest2_HORDE = Inst8Quest2
 Inst8Quest2_HORDE_Level = Inst8Quest2_Level
 Inst8Quest2_HORDE_Attain = Inst8Quest2_Attain
@@ -1739,7 +1747,7 @@ Inst8Quest2_HORDE_Folgequest = Inst8Quest2_Folgequest
 --
 Inst8Quest2name1_HORDE = Inst8Quest2name1
 
---Quest3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst8Quest3_HORDE = Inst8Quest3
 Inst8Quest3_HORDE_Level = Inst8Quest3_Level
 Inst8Quest3_HORDE_Attain = Inst8Quest3_Attain
@@ -1751,7 +1759,7 @@ Inst8Quest3_HORDE_Folgequest = Inst8Quest3_Folgequest
 --
 Inst8Quest3name1_HORDE = Inst8Quest3name1
 
---Quest4 Horde (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst8Quest4_HORDE = Inst8Quest4
 Inst8Quest4_HORDE_Level = Inst8Quest4_Level
 Inst8Quest4_HORDE_Attain = Inst8Quest4_Attain
@@ -1763,7 +1771,7 @@ Inst8Quest4_HORDE_Folgequest = Inst8Quest4_Folgequest
 --
 Inst8Quest4name1_HORDE = Inst8Quest4name1
 
---Quest5 Horde
+--Quest 5 Horde
 Inst8Quest5_HORDE = "5. Die Herrin der Meute"
 Inst8Quest5_HORDE_Level = "59"
 Inst8Quest5_HORDE_Attain = "55"
@@ -1777,7 +1785,7 @@ Inst8Quest5name1_HORDE = "Astoriaroben"
 Inst8Quest5name2_HORDE = "Fallenstellerwams"
 Inst8Quest5name3_HORDE = "Jadeschuppenbrustplatte"
 
---Quest6 Horde (das selbe wie allianz quest 6)
+--Quest 6 Horde  (same as Quest 6 Alliance)
 Inst8Quest6_HORDE = Inst8Quest6
 Inst8Quest6_HORDE_Level = Inst8Quest6_Level
 Inst8Quest6_HORDE_Attain = Inst8Quest6_Attain
@@ -1789,7 +1797,7 @@ Inst8Quest6_HORDE_Folgequest = Inst8Quest6_Folgequest
 --
 Inst8Quest6name1_HORDE = Inst8Quest6name1
 
---Quest7 Horde
+--Quest 7 Horde
 Inst8Quest7_HORDE = "7. Agentin Bijou"
 Inst8Quest7_HORDE_Level = "59"
 Inst8Quest7_HORDE_Attain = "55"
@@ -1798,9 +1806,9 @@ Inst8Quest7_HORDE_Location = "Lexlort (Ödland - Kargath; "..YELLOW.."5,47"..WHI
 Inst8Quest7_HORDE_Note = "Bijou findet man bei "..YELLOW.."[8]"..WHITE.."."
 Inst8Quest7_HORDE_Prequest = "Nein"
 Inst8Quest7_HORDE_Folgequest = "Ja, Bijous Habseligkeiten"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest8 Horde
+--Quest 8 Horde
 Inst8Quest8_HORDE = "8. Bijous Habseligkeiten"
 Inst8Quest8_HORDE_Level = "59"
 Inst8Quest8_HORDE_Attain = "55"
@@ -1814,7 +1822,7 @@ Inst8Quest8FQuest_HORDE = "true"
 Inst8Quest8name1_HORDE = "Freiwindhandschuhe"
 Inst8Quest8name2_HORDE = "Seepostengurt"
 
---Quest9 Horde (das selbe wie allianz quest 9)
+--Quest 9 Horde  (same as Quest 9 Alliance)
 Inst8Quest9_HORDE = Inst8Quest9
 Inst8Quest9_HORDE_Level = Inst8Quest9_Level
 Inst8Quest9_HORDE_Attain = Inst8Quest9_Attain
@@ -1823,9 +1831,9 @@ Inst8Quest9_HORDE_Location = Inst8Quest9_Location
 Inst8Quest9_HORDE_Note = Inst8Quest9_Note
 Inst8Quest9_HORDE_Prequest = Inst8Quest9_Prequest
 Inst8Quest9_HORDE_Folgequest = Inst8Quest9_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest10 Horde
+--Quest 10 Horde
 Inst8Quest10_HORDE = "10. Befehl des Kriegsherrn"
 Inst8Quest10_HORDE_Level = "60"
 Inst8Quest10_HORDE_Attain = "55"
@@ -1841,7 +1849,7 @@ Inst8Quest10name3_HORDE = "Halycons Maulkorb"
 Inst8Quest10name4_HORDE = "Vosh'gajins Strang"
 Inst8Quest10name5_HORDE = "Voones Zwingenhandschutz"
 
---Quest 11 Horde (das selbe wie allianz quest 11)
+--Quest 11 Horde  (same as Quest 11 Alliance)
 Inst8Quest11_HORDE = Inst8Quest11
 Inst8Quest11_HORDE_Level = Inst8Quest11_Level
 Inst8Quest11_HORDE_Attain = Inst8Quest11_Attain
@@ -1851,9 +1859,9 @@ Inst8Quest11_HORDE_Note = Inst8Quest11_Note
 Inst8Quest11_HORDE_Prequest = Inst8Quest11_Prequest
 Inst8Quest11_HORDE_Folgequest = Inst8Quest11_Folgequest
 Inst8Quest11PreQuest_HORDE = Inst8Quest11PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 12 Horde (das selbe wie allianz quest 12)
+--Quest 12 Horde  (same as Quest 12 Alliance)
 Inst8Quest12_HORDE = Inst8Quest12
 Inst8Quest12_HORDE_Level = Inst8Quest12_Level
 Inst8Quest12_HORDE_Attain = Inst8Quest12_Attain
@@ -1863,9 +1871,9 @@ Inst8Quest12_HORDE_Note = Inst8Quest12_Note
 Inst8Quest12_HORDE_Prequest = Inst8Quest12_Prequest
 Inst8Quest12_HORDE_Folgequest = Inst8Quest12_Folgequest
 Inst8Quest12PreQuest_HORDE = Inst8Quest12PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 13 Horde (das selbe wie allianz quest 13)
+--Quest 13 Horde  (same as Quest 13 Alliance)
 Inst8Quest13_HORDE = Inst8Quest13
 Inst8Quest13_HORDE_Level = Inst8Quest13_Level
 Inst8Quest13_HORDE_Attain = Inst8Quest13_Attain
@@ -1877,7 +1885,7 @@ Inst8Quest13_HORDE_Folgequest = Inst8Quest13_Folgequest
 --
 Inst8Quest13name1_HORDE = Inst8Quest13name1
 
---Quest 14 Horde (das selbe wie allianz quest 14)
+--Quest 14 Horde  (same as Quest 14 Alliance)
 Inst8Quest14_HORDE = Inst8Quest14
 Inst8Quest14_HORDE_Level = Inst8Quest14_Level
 Inst8Quest14_HORDE_Attain = Inst8Quest14_Attain
@@ -1898,7 +1906,7 @@ Inst9Caption = "Schwarzfelsspitze (Oben)"
 Inst9QAA = "11 Quests"
 Inst9QAH = "12 Quests"
 
---Quest1 Allianz
+--Quest 1 Alliance
 Inst9Quest1 = "1. Die oberste Beschützerin"
 Inst9Quest1_Level = "60"
 Inst9Quest1_Attain = "57"
@@ -1907,9 +1915,9 @@ Inst9Quest1_Location = "Awbee (Schwarzfelsspitze; "..YELLOW.."[7]"..WHITE..")"
 Inst9Quest1_Note = "Awbee findet man in dem Raum gleich hinter der Arena bei "..YELLOW.."[7]"..WHITE..". Sie steht auf einem Felvorsprung.\nHaleh findet man in Winterquell ("..YELLOW.."54,51"..WHITE.."). Man gelangt zu ihr, indem man sich am Ende der Höhle auf den Portalkreis stellt."
 Inst9Quest1_Prequest = "Nein"
 Inst9Quest1_Folgequest = "Ja, Der Zorn des blauen Drachenschwarms"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest2 Allianz
+--Quest 2 Alliance
 Inst9Quest2 = "2. Finkle Einhorn, zu Euren Diensten!"
 Inst9Quest2_Level = "60"
 Inst9Quest2_Attain = "58"
@@ -1918,9 +1926,9 @@ Inst9Quest2_Location = "Finkle Einhorn (Schwarzfelsspitze; "..YELLOW.."[8]"..WHI
 Inst9Quest2_Note = "Finkle Einhorn spawnt manchmal, wenn man die Bestie häutet. Malyfous findet man in (Winterquell - Ewige Warte; "..YELLOW.."61,38"..WHITE..")."
 Inst9Quest2_Prequest = "Nein"
 Inst9Quest2_Folgequest = "Ja, Gamaschen von Arcana, Kappe des scharlachroten Wissenden, Brustplatte des Blutdurstes"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest3 Allianz
+--Quest 3 Alliance
 Inst9Quest3 = "3. Ei-Frosten"
 Inst9Quest3_Level = "60"
 Inst9Quest3_Attain = "57"
@@ -1930,9 +1938,9 @@ Inst9Quest3_Note = "Man findet die Eier im Raum von Vater Flamme bei "..YELLOW..
 Inst9Quest3_Prequest = "Ja, Brutlingessenz -> Tinkee Kesseldampf"
 Inst9Quest3_Folgequest = "Ja, Leonidas Bartholomäus -> Dämmerungstrickfalle ("..YELLOW.."Scholomance"..WHITE..")"
 Inst9Quest3PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest4 Allianz
+--Quest 4 Alliance
 Inst9Quest4 = "4. Auge des Glutsehers"
 Inst9Quest4_Level = "60"
 Inst9Quest4_Attain = "55"
@@ -1942,9 +1950,9 @@ Inst9Quest4_Note = "Das Auge bekommt man von Feuerwache Glutseher bei "..YELLOW.
 Inst9Quest4_Prequest = "Ja, Vergiftetes Wasser"
 Inst9Quest4_Folgequest = "Ja, Der geschmolzene Kern"
 Inst9Quest4PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest5 Allianz
+--Quest 5 Alliance
 Inst9Quest5 = "5. General Drakkisaths Niedergang"
 Inst9Quest5_Level = "60"
 Inst9Quest5_Attain = "55"
@@ -1959,7 +1967,7 @@ Inst9Quest5name1 = "Mal der Tyrannei"
 Inst9Quest5name2 = "Auge der Bestie"
 Inst9Quest5name3 = "Schwarzfausts Breite"
 
---Quest6 Allianz
+--Quest 6 Alliance
 Inst9Quest6 = "6. Doomriggers Schnalle"
 Inst9Quest6_Level = "60"
 Inst9Quest6_Attain = "57"
@@ -1973,7 +1981,7 @@ Inst9Quest6PreQuest = "true"
 Inst9Quest6name1 = "Treter des flinken Fußes"
 Inst9Quest6name2 = "Armschützer des flinken Schlags"
 
---Quest7 Allianz
+--Quest 7 Alliance
 Inst9Quest7 = "7. Drachenfeueramulett"
 Inst9Quest7_Level = "60"
 Inst9Quest7_Attain = "52"
@@ -1986,7 +1994,7 @@ Inst9Quest7PreQuest = "true"
 --
 Inst9Quest7name1 = "Drachenfeueramulett"
 
---Quest8 Alliance
+--Quest 8 Alliance
 Inst9Quest8 = "8. Schwarzfausts Befehl"
 Inst9Quest8_Level = "60"
 Inst9Quest8_Attain = "55"
@@ -1995,7 +2003,7 @@ Inst9Quest8_Location = "Schwarzfausts Befehl (droppt vom Rüstmeister der Schmet
 Inst9Quest8_Note = "Pechschwingenhort Vorquest. Den Rüstmeister der Schmetterschilde findet man, wenn man vor dem Eingang von LBRS/UBRS rechts den Gang entlang geht.\n\nGeneral Drakkisath findet man bei "..YELLOW.."[9]"..WHITE..". Das Brandzeichen befindet sich genau hinter ihm."
 Inst9Quest8_Prequest = "Nein"
 Inst9Quest8_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
 --Quest 9 Alliance
 Inst9Quest9 = "9. Letzte Vorbereitungen"
@@ -2007,7 +2015,7 @@ Inst9Quest9_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bo
 Inst9Quest9_Prequest = "Ja, Das rechte Stück von Lord Valthalaks Amulett ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
 Inst9Quest9_Folgequest = "Ja, Mea Culpa, Lord Valthalak"
 Inst9Quest9PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 --Quest 10 Alliance
 Inst9Quest10 = "10. Mea Culpa, Lord Valthalak"
@@ -2038,7 +2046,7 @@ Inst9Quest11name2 = "Elixier des Dämonentötens"
 Inst9Quest11name3 = "Dämonengeküsster Sack"
 
 
---Quest1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst9Quest1_HORDE = Inst9Quest1
 Inst9Quest1_HORDE_Level = Inst9Quest1_Level
 Inst9Quest1_HORDE_Attain = Inst9Quest1_Attain
@@ -2047,9 +2055,9 @@ Inst9Quest1_HORDE_Location = Inst9Quest1_Location
 Inst9Quest1_HORDE_Note = Inst9Quest1_Note
 Inst9Quest1_HORDE_Prequest = Inst9Quest1_Prequest
 Inst9Quest1_HORDE_Folgequest = Inst9Quest1_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest2 Horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst9Quest2_HORDE = Inst9Quest2
 Inst9Quest2_HORDE_Level = Inst9Quest2_Level
 Inst9Quest2_HORDE_Attain = Inst9Quest2_Attain
@@ -2058,9 +2066,9 @@ Inst9Quest2_HORDE_Location = Inst9Quest2_Location
 Inst9Quest2_HORDE_Note = Inst9Quest2_Note
 Inst9Quest2_HORDE_Prequest = Inst9Quest2_Prequest
 Inst9Quest2_HORDE_Folgequest = Inst9Quest2_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst9Quest3_HORDE = Inst9Quest3
 Inst9Quest3_HORDE_Level = Inst9Quest3_Level
 Inst9Quest3_HORDE_Attain = Inst9Quest3_Attain
@@ -2070,9 +2078,9 @@ Inst9Quest3_HORDE_Note = Inst9Quest3_Note
 Inst9Quest3_HORDE_Prequest = Inst9Quest3_Prequest
 Inst9Quest3_HORDE_Folgequest = Inst9Quest3_Folgequest
 Inst9Quest3PreQuest_HORDE = Inst9Quest3PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest4 Horde (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst9Quest4_HORDE = Inst9Quest4
 Inst9Quest4_HORDE_Level = Inst9Quest4_Level
 Inst9Quest4_HORDE_Attain = Inst9Quest4_Attain
@@ -2082,9 +2090,9 @@ Inst9Quest4_HORDE_Note = Inst9Quest4_Note
 Inst9Quest4_HORDE_Prequest = Inst9Quest4_Prequest
 Inst9Quest4_HORDE_Folgequest = Inst9Quest4_Folgequest
 Inst9Quest4PreQuest_HORDE = Inst9Quest4PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest5 Horde
+--Quest 5 Horde
 Inst9Quest5_HORDE = "5. Die Dunkelsteinschrifttafel"
 Inst9Quest5_HORDE_Level = "60"
 Inst9Quest5_HORDE_Attain = "57"
@@ -2098,7 +2106,7 @@ Inst9Quest5PreQuest_HORDE = "true"
 Inst9Quest5name1_HORDE = "Treter des flinken Fußes"
 Inst9Quest5name2_HORDE = "Armschützer des flinken Schlags"
 
---Quest6 Horde
+--Quest 6 Horde
 Inst9Quest6_HORDE = "6. Für die Horde!"
 Inst9Quest6_HORDE_Level = "60"
 Inst9Quest6_HORDE_Attain = "55"
@@ -2113,7 +2121,7 @@ Inst9Quest6name1_HORDE = "Mal der Tyrannei"
 Inst9Quest6name2_HORDE = "Auge der Bestie"
 Inst9Quest6name3_HORDE = "Schwarzfausts Breite"
 
---Quest7 Horde
+--Quest 7 Horde
 Inst9Quest7_HORDE = "7. Oculus-Illusionen"
 Inst9Quest7_HORDE_Level = "60"
 Inst9Quest7_HORDE_Attain = "57"
@@ -2123,9 +2131,9 @@ Inst9Quest7_HORDE_Note = "Alle Drachen droppen die Augen."
 Inst9Quest7_HORDE_Prequest = "Ja, Was der Wind erzählt -> Meisterin der Illusionen"
 Inst9Quest7_HORDE_Folgequest = "Ja, Aschenschwinge"
 Inst9Quest7FQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest8 Horde
+--Quest 8 Horde
 Inst9Quest8_HORDE = "8. Blut des schwarzen Großdrachenhelden"
 Inst9Quest8_HORDE_Level = "60"
 Inst9Quest8_HORDE_Attain = "56"
@@ -2138,7 +2146,7 @@ Inst9Quest8FQuest_HORDE = "true"
 --
 Inst9Quest8name1_HORDE = "Drachenfeueramulett"
 
---Quest9 Horde (das selbe wie allianz quest 8)
+--Quest 9 Horde  (same as Quest 8 Alliance)
 Inst9Quest9_HORDE = "9. Schwarzfausts Befehl"
 Inst9Quest9_HORDE_Level = Inst9Quest8_Level
 Inst9Quest9_HORDE_Attain = Inst9Quest8_Attain
@@ -2147,9 +2155,9 @@ Inst9Quest9_HORDE_Location = Inst9Quest8_Location
 Inst9Quest9_HORDE_Note = Inst9Quest8_Note
 Inst9Quest9_HORDE_Prequest = Inst9Quest8_Prequest
 Inst9Quest9_HORDE_Folgequest = Inst9Quest8_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 10 Horde (das selbe wie allianz quest 9)
+--Quest 10 Horde  (same as Quest 9 Alliance)
 Inst9Quest10_HORDE = "10. Letzte Vorbereitungen"
 Inst9Quest10_HORDE_Level = Inst9Quest9_Level
 Inst9Quest10_HORDE_Attain = Inst9Quest9_Attain
@@ -2158,9 +2166,9 @@ Inst9Quest10_HORDE_Location = Inst9Quest9_Location
 Inst9Quest10_HORDE_Note = Inst9Quest9_Note
 Inst9Quest10_HORDE_Prequest = Inst9Quest9_Prequest
 Inst9Quest10_HORDE_Folgequest = Inst9Quest9_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 11 Horde (das selbe wie allianz quest 10)
+--Quest 11 Horde  (same as Quest 10 Alliance)
 Inst9Quest11_HORDE = "11. Mea Culpa, Lord Valthalak"
 Inst9Quest11_HORDE_Level = Inst9Quest10_Level
 Inst9Quest11_HORDE_Attain = Inst9Quest10_Attain
@@ -2173,7 +2181,7 @@ Inst9Quest11_HORDE_Folgequest = Inst9Quest10_Folgequest
 Inst9Quest11name1_HORDE = Inst9Quest10name1
 Inst9Quest11name2_HORDE = Inst9Quest10name2
 
---Quest 12 Horde (das selbe wie allianz quest 11)
+--Quest 12 Horde  (same as Quest 11 Alliance)
 Inst9Quest12_HORDE = "12. Die Dämonenschmiede"
 Inst9Quest12_HORDE_Level = Inst9Quest11_Level
 Inst9Quest12_HORDE_Attain = Inst9Quest11_Attain
@@ -2195,7 +2203,7 @@ Inst10Caption = "Düsterbruch (Ost)"
 Inst10QAA = "5 Quests"
 Inst10QAH = "5 Quests"
 
---Quest1 Allianz
+--Quest 1 Alliance
 Inst10Quest1 = "1. Pusillin und der Älteste Azj'Tordin"
 Inst10Quest1_Level = "58"
 Inst10Quest1_Attain = "54"
@@ -2208,7 +2216,7 @@ Inst10Quest1_Folgequest = "Nein"
 Inst10Quest1name1 = "Flotte Stiefel"
 Inst10Quest1name2 = "Sprinterschwert"
 
---Quest2 Allianz
+--Quest 2 Alliance
 Inst10Quest2 = "2. Lethtendris' Netz"
 Inst10Quest2_Level = "57"
 Inst10Quest2_Attain = "54"
@@ -2221,7 +2229,7 @@ Inst10Quest2PreQuest = "true"
 --
 Inst10Quest2name1 = "Lehrenspinner"
 
---Quest3 Allianz
+--Quest 3 Alliance
 Inst10Quest3 = "3. Die Splitter der Teufelsranke"
 Inst10Quest3_Level = "60"
 Inst10Quest3_Attain = "59"
@@ -2235,7 +2243,7 @@ Inst10Quest3PreQuest = "true"
 Inst10Quest3name1 = "Millis Schild"
 Inst10Quest3name2 = "Millis Lexikon"
 
---Quest 4 Allianz
+--Quest 4 Alliance
 Inst10Quest4 = "4. The Left Piece of Lord Valthalak's Amulet"
 Inst10Quest4_Level = "60"
 Inst10Quest4_Attain = "60"
@@ -2245,9 +2253,9 @@ Inst10Quest4_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bod
 Inst10Quest4_Prequest = "Ja, Komponenten von großer Wichtigkeit"
 Inst10Quest4_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
 Inst10Quest4PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 5 Allianz
+--Quest 5 Alliance
 Inst10Quest5 = "5. Das rechte Stück von Lord Valthalaks Amulett"
 Inst10Quest5_Level = "60"
 Inst10Quest5_Attain = "60"
@@ -2257,10 +2265,10 @@ Inst10Quest5_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bod
 Inst10Quest5_Prequest = "Ja, Mehr Komponenten von großer Wichtigkeit"
 Inst10Quest5_Folgequest = "Ja, Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
 Inst10Quest5PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---Quest1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst10Quest1_HORDE = Inst10Quest1
 Inst10Quest1_HORDE_Level = Inst10Quest1_Level
 Inst10Quest1_HORDE_Attain = Inst10Quest1_Attain
@@ -2273,7 +2281,7 @@ Inst10Quest1_HORDE_Folgequest = Inst10Quest1_Folgequest
 Inst10Quest1name1_HORDE = Inst10Quest1name1
 Inst10Quest1name2_HORDE = Inst10Quest1name2
 
---Quest2 Horde
+--Quest 2 Horde
 Inst10Quest2_HORDE = "2. Lethtendris' Netz"
 Inst10Quest2_HORDE_Level = "57"
 Inst10Quest2_HORDE_Attain = "54"
@@ -2286,7 +2294,7 @@ Inst10Quest2PreQuest_HORDE = "true"
 --
 Inst10Quest2name1_HORDE = "Lehrenspinner"
 
---Quest3 Horde  (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst10Quest3_HORDE = Inst10Quest3
 Inst10Quest3_HORDE_Level = Inst10Quest3_Level
 Inst10Quest3_HORDE_Attain = Inst10Quest3_Attain
@@ -2299,7 +2307,7 @@ Inst10Quest3_HORDE_Folgequest = Inst10Quest3_Folgequest
 Inst10Quest3name1_HORDE = Inst10Quest3name1
 Inst10Quest3name2_HORDE = Inst10Quest3name2
 
---Quest 4 Horde  (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst10Quest4_HORDE = Inst10Quest4
 Inst10Quest4_HORDE_Level = Inst10Quest4_Level
 Inst10Quest4_HORDE_Attain = Inst10Quest4_Attain
@@ -2309,9 +2317,9 @@ Inst10Quest4_HORDE_Note = Inst10Quest4_Note
 Inst10Quest4_HORDE_Prequest = Inst10Quest4_Prequest
 Inst10Quest4_HORDE_Folgequest = Inst10Quest4_Folgequest
 Inst10Quest4PreQuest_HORDE = Inst10Quest4PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 5 Horde  (das selbe wie allianz quest 5)
+--Quest 5 Horde  (same as Quest 5 Alliance)
 Inst10Quest5_HORDE = Inst10Quest5
 Inst10Quest5_HORDE_Level = Inst10Quest5_Level
 Inst10Quest5_HORDE_Attain = Inst10Quest5_Attain
@@ -2321,7 +2329,7 @@ Inst10Quest5_HORDE_Note = Inst10Quest5_Note
 Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
 Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
 Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST11 - Dire Maul North (DM) ---------------
@@ -2331,7 +2339,7 @@ Inst11Caption = "Düsterbruch (Nord)"
 Inst11QAA = "4 Quests"
 Inst11QAH = "4 Quests"
 
---Quest1 Allianz
+--Quest 1 Alliance
 Inst11Quest1 = "1. Die beschädigte Falle"
 Inst11Quest1_Level = "60"
 Inst11Quest1_Attain = "60"
@@ -2340,9 +2348,9 @@ Inst11Quest1_Location = "Die beschädigte Falle (Düsterbruch; "..YELLOW.."Nord"
 Inst11Quest1_Note = "Wiederholbares Quest. Um die Falle zu reparieren wird ein [Thoriumapparat] und ein [Frostöl] benötigt."
 Inst11Quest1_Prequest = "Nein"
 Inst11Quest1_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest2 Allianz
+--Quest 2 Alliance
 Inst11Quest2 = "2. Der Ogeranzug der Gordok"
 Inst11Quest2_Level = "60"
 Inst11Quest2_Attain = "57"
@@ -2354,7 +2362,7 @@ Inst11Quest2_Folgequest = "Nein"
 --
 Inst11Quest2name1 = "Ogeranzug der Gordok"
 
---Quest3 Allianz
+--Quest 3 Alliance
 Inst11Quest3 = "3. Befreit Knot!"
 Inst11Quest3_Level = "60"
 Inst11Quest3_Attain = "60"
@@ -2363,9 +2371,9 @@ Inst11Quest3_Location = "Knot Zwingschraub (Düsterbruch; "..YELLOW.."Nord, [4]"
 Inst11Quest3_Note = "Wiederholbares Quest. Jede Wache kann den Schlüssel droppen."
 Inst11Quest3_Prequest = "Nein"
 Inst11Quest3_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest4 Allianz
+--Quest 4 Alliance
 Inst11Quest4 = "4. Die offene Rechnung der Gordok"
 Inst11Quest4_Level = "60"
 Inst11Quest4_Attain = "56"
@@ -2381,7 +2389,7 @@ Inst11Quest4name3 = "Gordoks Stulpen"
 Inst11Quest4name4 = "Gordoks Handschützer"
 
 
---Quest1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst11Quest1_HORDE = Inst11Quest1
 Inst11Quest1_HORDE_Level = Inst11Quest1_Level
 Inst11Quest1_HORDE_Attain = Inst11Quest1_Attain
@@ -2390,9 +2398,9 @@ Inst11Quest1_HORDE_Location = Inst11Quest1_Location
 Inst11Quest1_HORDE_Note = Inst11Quest1_Note
 Inst11Quest1_HORDE_Prequest = Inst11Quest1_Prequest
 Inst11Quest1_HORDE_Folgequest = Inst11Quest1_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest2 Horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst11Quest2_HORDE = Inst11Quest2
 Inst11Quest2_HORDE_Level = Inst11Quest2_Level
 Inst11Quest2_HORDE_Attain = Inst11Quest2_Attain
@@ -2404,7 +2412,7 @@ Inst11Quest2_HORDE_Folgequest = Inst11Quest2_Folgequest
 --
 Inst11Quest2name1_HORDE = Inst11Quest2name1
 
---Quest3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst11Quest3_HORDE = Inst11Quest3
 Inst11Quest3_HORDE_Level = Inst11Quest3_Level
 Inst11Quest3_HORDE_Attain = Inst11Quest3_Attain
@@ -2413,9 +2421,9 @@ Inst11Quest3_HORDE_Location = Inst11Quest3_Location
 Inst11Quest3_HORDE_Note = Inst11Quest3_Note
 Inst11Quest3_HORDE_Prequest = Inst11Quest3_Prequest
 Inst11Quest3_HORDE_Folgequest = Inst11Quest3_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest4 Horde (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst11Quest4_HORDE = Inst11Quest4
 Inst11Quest4_HORDE_Level = Inst11Quest4_Level
 Inst11Quest4_HORDE_Attain = Inst11Quest4_Attain
@@ -2438,7 +2446,7 @@ Inst12Caption = "Düsterbruch (West)"
 Inst12QAA = "17 Quests"
 Inst12QAH = "17 Quests"
 
---Quest1 Allianz
+--Quest 1 Alliance
 Inst12Quest1 = "1. Elfische Legenden"
 Inst12Quest1_Level = "60"
 Inst12Quest1_Attain = "54"
@@ -2447,9 +2455,9 @@ Inst12Quest1_Location = "Gelehrten Runendorn (Feralas - Mondfederfeste; "..YELLO
 Inst12Quest1_Note = "Kariel Winthalus findet man in der "..YELLOW.."Bücherrei (West)"..WHITE.."."
 Inst12Quest1_Prequest = "Nein"
 Inst12Quest1_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest2 Allianz
+--Quest 2 Alliance
 Inst12Quest2 = "2. Der innere Wahnsinn"
 Inst12Quest2_Level = "60"
 Inst12Quest2_Attain = "56"
@@ -2458,8 +2466,9 @@ Inst12Quest2_Location = "Uralte Shen'dralar (Düsterbruch; "..YELLOW.."West, [1]
 Inst12Quest2_Note = "Die Pylone sind als "..BLUE.."[B]"..WHITE.." auf der Karte gekennzeichnet. Immol'thar befindet sich bei "..YELLOW.."[6]"..WHITE..", Prinz Tortheldrin bei "..YELLOW.."[7]"..WHITE.."."
 Inst12Quest2_Prequest = "Nein"
 Inst12Quest2_Folgequest = "Ja, Der Schatz der Shen'dralar"
+-- No Rewards for this quest
 
---Quest3 Allianz
+--Quest 3 Alliance
 Inst12Quest3 = "3. Der Schatz der Shen'dralar"
 Inst12Quest3_Level = "60"
 Inst12Quest3_Attain = "57"
@@ -2484,9 +2493,9 @@ Inst12Quest4_Note = "Das ist das letzte Quest in der Hexenmeister Questreihe fü
 Inst12Quest4_Prequest = "Ja, Wichtellieferung ("..YELLOW.."Scholomance"..WHITE..")"
 Inst12Quest4_Folgequest = "Nein"
 Inst12Quest4PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 5 Allianz
+--Quest 5 Alliance
 Inst12Quest5 = "5. Der Smaragdgrüne Traum (Druide)"
 Inst12Quest5_Level = "60"
 Inst12Quest5_Attain = "59"
@@ -2498,7 +2507,7 @@ Inst12Quest5_Folgequest = "Nein"
 --
 Inst12Quest5name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 6 Allianz
+--Quest 6 Alliance
 Inst12Quest6 = "6. Das größte Volk von Jägern (Jäger)"
 Inst12Quest6_Level = "60"
 Inst12Quest6_Attain = "54"
@@ -2510,7 +2519,7 @@ Inst12Quest6_Folgequest = "Nein"
 --
 Inst12Quest6name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 7 Allianz
+--Quest 7 Alliance
 Inst12Quest7 = "7. Das Arkanistenkochbuch (Magier)"
 Inst12Quest7_Level = "60"
 Inst12Quest7_Attain = "54"
@@ -2522,7 +2531,7 @@ Inst12Quest7_Folgequest = "Nein"
 --
 Inst12Quest7name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 8 Allianz
+--Quest 8 Alliance
 Inst12Quest8 = "8. Vom Licht und wie man es schwingt (Paladin)"
 Inst12Quest8_Level = "60"
 Inst12Quest8_Attain = "54"
@@ -2534,7 +2543,7 @@ Inst12Quest8_Folgequest = "Nein"
 --
 Inst12Quest8name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 9 Allianz
+--Quest 9 Alliance
 Inst12Quest9 = "9. Heiliger Fleischklops: Was das Licht Dir nicht erzählt (Priester)"
 Inst12Quest9_Level = "60"
 Inst12Quest9_Attain = "56"
@@ -2546,7 +2555,7 @@ Inst12Quest9_Folgequest = "Nein"
 --
 Inst12Quest9name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 10 Allianz
+--Quest 10 Alliance
 Inst12Quest10 = "10. Garona: Eine Studie über Heimlichkeit und Verrat (Schurke)"
 Inst12Quest10_Level = "60"
 Inst12Quest10_Attain = "54"
@@ -2558,7 +2567,7 @@ Inst12Quest10_Folgequest = "Nein"
 --
 Inst12Quest10name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 11 Allianz
+--Quest 11 Alliance
 Inst12Quest11 = "11. Frostschock und Du (Schamane)"
 Inst12Quest11_Level = "60"
 Inst12Quest11_Attain = "59"
@@ -2570,7 +2579,7 @@ Inst12Quest11_Folgequest = "Nein"
 --
 Inst12Quest11name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 12 Allianz
+--Quest 12 Alliance
 Inst12Quest12 = "12. Schatten einspannen (Hexenmeister)"
 Inst12Quest12_Level = "60"
 Inst12Quest12_Attain = "54"
@@ -2582,7 +2591,7 @@ Inst12Quest12_Folgequest = "Nein"
 --
 Inst12Quest12name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 13 Allianz
+--Quest 13 Alliance
 Inst12Quest13 = "13. Kodex der Verteidigung (Krieger)"
 Inst12Quest13_Level = "60"
 Inst12Quest13_Attain = "57"
@@ -2594,7 +2603,7 @@ Inst12Quest13_Folgequest = "Nein"
 --
 Inst12Quest13name1 = "Königliches Siegel von Eldre'Thalas"
 
---Quest 14 Allianz
+--Quest 14 Alliance
 Inst12Quest14 = "14. Buchband des Fokus"
 Inst12Quest14_Level = "60"
 Inst12Quest14_Attain = "60"
@@ -2606,7 +2615,7 @@ Inst12Quest14_Folgequest = "Nein"
 --
 Inst12Quest14name1 = "Arkanum des Fokus"
 
---Quest 15 Allianz
+--Quest 15 Alliance
 Inst12Quest15 = "15. Buchband des Schutzes"
 Inst12Quest15_Level = "60"
 Inst12Quest15_Attain = "60"
@@ -2618,7 +2627,7 @@ Inst12Quest15_Folgequest = "No"
 --
 Inst12Quest15name1 = "Arkanum des Schutzes"
 
---Quest 16 Allianz
+--Quest 16 Alliance
 Inst12Quest16 = "16. Buchband der Schnelligkeit"
 Inst12Quest16_Level = "60"
 Inst12Quest16_Attain = "60"
@@ -2630,7 +2639,7 @@ Inst12Quest16_Folgequest = "Nein"
 --
 Inst12Quest16name1 = "Arkanum der Schnelligkeit"
 
---Quest 17 Allianz
+--Quest 17 Alliance
 Inst12Quest17 = "17. Forors Kompendium (Krieger, Paladin)"
 Inst12Quest17_Level = "60"
 Inst12Quest17_Attain = "60"
@@ -2639,10 +2648,10 @@ Inst12Quest17_Location = "Forors Kompendium des Drachentötens (zufälliger Boss
 Inst12Quest17_Note = "Krieger oder Paladin Quest. Man gibt das Buch bei Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..") ab. Wenn das Quest abgeschlossen ist kann man mit dem Quest für Quel'Serrar beginnen."
 Inst12Quest17_Prequest = "Nein"
 Inst12Quest17_Folgequest = "Ja, Das Schmieden von Quel'Serrar"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---Quest1 Horde
+--Quest 1 Horde
 Inst12Quest1_HORDE = "1. Elfische Legenden"
 Inst12Quest1_HORDE_Level = "60"
 Inst12Quest1_HORDE_Attain = "54"
@@ -2651,9 +2660,9 @@ Inst12Quest1_HORDE_Location = "Weiser Korolusk (Feralas - Camp Mojache; "..YELLO
 Inst12Quest1_HORDE_Note = "Kariel Winthalus findet man in der "..YELLOW.."Bücherrei (West)"..WHITE.."."
 Inst12Quest1_HORDE_Prequest = "Nein"
 Inst12Quest1_HORDE_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest2 Horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst12Quest2_HORDE = Inst12Quest2
 Inst12Quest2_HORDE_Level = Inst12Quest2_Level
 Inst12Quest2_HORDE_Attain = Inst12Quest2_Attain
@@ -2662,9 +2671,9 @@ Inst12Quest2_HORDE_Location = Inst12Quest2_Location
 Inst12Quest2_HORDE_Note = Inst12Quest2_Note
 Inst12Quest2_HORDE_Prequest = Inst12Quest2_Prequest
 Inst12Quest2_HORDE_Folgequest = Inst12Quest2_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst12Quest3_HORDE = Inst12Quest3
 Inst12Quest3_HORDE_Level = Inst12Quest3_Level
 Inst12Quest3_HORDE_Attain = Inst12Quest3_Attain
@@ -2679,7 +2688,7 @@ Inst12Quest3name1_HORDE = Inst12Quest3name1
 Inst12Quest3name2_HORDE = Inst12Quest3name2
 Inst12Quest3name3_HORDE = Inst12Quest3name3
 
---Quest4 Horde (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst12Quest4_HORDE = Inst12Quest4
 Inst12Quest4_HORDE_Level = Inst12Quest4_Level
 Inst12Quest4_HORDE_Attain = Inst12Quest4_Attain
@@ -2689,9 +2698,9 @@ Inst12Quest4_HORDE_Note = Inst12Quest4_Note
 Inst12Quest4_HORDE_Prequest = Inst12Quest4_Prequest
 Inst12Quest4_HORDE_Folgequest = Inst12Quest4_Folgequest
 Inst12Quest4PreQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 5 Horde (das selbe wie allianz quest 5)
+--Quest 5 Horde  (same as Quest 5 Alliance)
 Inst12Quest5_HORDE = Inst12Quest5
 Inst12Quest5_HORDE_Level = Inst12Quest5_Level
 Inst12Quest5_HORDE_Attain = Inst12Quest5_Attain
@@ -2703,7 +2712,7 @@ Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
 --
 Inst12Quest5name1_HORDE = Inst12Quest5name1
 
---Quest 6 Horde (das selbe wie allianz quest 6)
+--Quest 6 Horde  (same as Quest 6 Alliance)
 Inst12Quest6_HORDE = Inst12Quest6
 Inst12Quest6_HORDE_Level = Inst12Quest6_Level
 Inst12Quest6_HORDE_Attain = Inst12Quest6_Attain
@@ -2715,7 +2724,7 @@ Inst12Quest6_HORDE_Folgequest = Inst12Quest6_Folgequest
 --
 Inst12Quest6name1_HORDE = Inst12Quest6name1
 
---Quest 7 Horde (das selbe wie allianz quest 7)
+--Quest 7 Horde  (same as Quest 7 Alliance)
 Inst12Quest7_HORDE = Inst12Quest7
 Inst12Quest7_HORDE_Level = Inst12Quest7_Level
 Inst12Quest7_HORDE_Attain = Inst12Quest7_Attain
@@ -2727,7 +2736,7 @@ Inst12Quest7_HORDE_Folgequest = Inst12Quest7_Folgequest
 --
 Inst12Quest7name1_HORDE = Inst12Quest7name1
 
---Quest 8 Horde (das selbe wie allianz quest 8)
+--Quest 8 Horde  (same as Quest 8 Alliance)
 Inst12Quest8_HORDE = Inst12Quest8
 Inst12Quest8_HORDE_Level = Inst12Quest8_Level
 Inst12Quest8_HORDE_Attain = Inst12Quest8_Attain
@@ -2739,7 +2748,7 @@ Inst12Quest8_HORDE_Folgequest = Inst12Quest8_Folgequest
 --
 Inst12Quest8name1_HORDE = Inst12Quest8name1
 
---Quest 9 Horde (das selbe wie allianz quest 9)
+--Quest 9 Horde  (same as Quest 9 Alliance)
 Inst12Quest9_HORDE = Inst12Quest9
 Inst12Quest9_HORDE_Level = Inst12Quest9_Level
 Inst12Quest9_HORDE_Attain = Inst12Quest9_Attain
@@ -2751,7 +2760,7 @@ Inst12Quest9_HORDE_Folgequest = Inst12Quest9_Folgequest
 --
 Inst12Quest9name1_HORDE = Inst12Quest9name1
 
---Quest 10 Horde (das selbe wie allianz quest 10)
+--Quest 10 Horde  (same as Quest 10 Alliance)
 Inst12Quest10_HORDE = Inst12Quest10
 Inst12Quest10_HORDE_Level = Inst12Quest10_Level
 Inst12Quest10_HORDE_Attain = Inst12Quest10_Attain
@@ -2763,7 +2772,7 @@ Inst12Quest10_HORDE_Folgequest = Inst12Quest10_Folgequest
 --
 Inst12Quest10name1_HORDE = Inst12Quest10name1
 
---Quest 11 Horde (das selbe wie allianz quest 11)
+--Quest 11 Horde  (same as Quest 11 Alliance)
 Inst12Quest11_HORDE = Inst12Quest11
 Inst12Quest11_HORDE_Level = Inst12Quest11_Level
 Inst12Quest11_HORDE_Attain = Inst12Quest11_Attain
@@ -2775,7 +2784,7 @@ Inst12Quest11_HORDE_Folgequest = Inst12Quest11_Folgequest
 --
 Inst12Quest11name1_HORDE = Inst12Quest11name1
 
---Quest 12 Horde (das selbe wie allianz quest 12)
+--Quest 12 Horde  (same as Quest 12 Alliance)
 Inst12Quest12_HORDE = Inst12Quest12
 Inst12Quest12_HORDE_Level = Inst12Quest12_Level
 Inst12Quest12_HORDE_Attain = Inst12Quest12_Attain
@@ -2787,7 +2796,7 @@ Inst12Quest12_HORDE_Folgequest = Inst12Quest12_Folgequest
 --
 Inst12Quest12name1_HORDE = Inst12Quest12name1
 
---Quest 13 Horde (das selbe wie allianz quest 13)
+--Quest 13 Horde  (same as Quest 13 Alliance)
 Inst12Quest13_HORDE = Inst12Quest13
 Inst12Quest13_HORDE_Level = Inst12Quest13_Level
 Inst12Quest13_HORDE_Attain = Inst12Quest13_Attain
@@ -2799,7 +2808,7 @@ Inst12Quest13_HORDE_Folgequest = Inst12Quest13_Folgequest
 --
 Inst12Quest13name1_HORDE = Inst12Quest13name1
 
---Quest 14 Horde (das selbe wie allianz quest 14)
+--Quest 14 Horde  (same as Quest 14 Alliance)
 Inst12Quest14_HORDE = Inst12Quest14
 Inst12Quest14_HORDE_Level = Inst12Quest14_Level
 Inst12Quest14_HORDE_Attain = Inst12Quest14_Attain
@@ -2811,7 +2820,7 @@ Inst12Quest14_HORDE_Folgequest = Inst12Quest14_Folgequest
 --
 Inst12Quest14name1_HORDE = Inst12Quest14name1
 
---Quest 15 Horde (das selbe wie allianz quest 15)
+--Quest 15 Horde  (same as Quest 15 Alliance)
 Inst12Quest15_HORDE = Inst12Quest15
 Inst12Quest15_HORDE_Level = Inst12Quest15_Level
 Inst12Quest15_HORDE_Attain = Inst12Quest15_Attain
@@ -2823,7 +2832,7 @@ Inst12Quest15_HORDE_Folgequest = Inst12Quest15_Folgequest
 --
 Inst12Quest15name1_HORDE = Inst12Quest15name1
 
---Quest 16 Horde (das selbe wie allianz quest 16)
+--Quest 16 Horde  (same as Quest 16 Alliance)
 Inst12Quest16_HORDE = Inst12Quest16
 Inst12Quest16_HORDE_Level = Inst12Quest16_Level
 Inst12Quest16_HORDE_Attain = Inst12Quest16_Attain
@@ -2835,7 +2844,7 @@ Inst12Quest16_HORDE_Folgequest = Inst12Quest16_Folgequest
 --
 Inst12Quest16name1_HORDE = Inst12Quest16name1
 
---Quest 17 Horde (das selbe wie allianz quest 17)
+--Quest 17 Horde  (same as Quest 17 Alliance)
 Inst12Quest17_HORDE = Inst12Quest17
 Inst12Quest17_HORDE_Level = Inst12Quest17_Level
 Inst12Quest17_HORDE_Attain = Inst12Quest17_Attain
@@ -2844,7 +2853,7 @@ Inst12Quest17_HORDE_Location = Inst12Quest17_Location
 Inst12Quest17_HORDE_Note = Inst12Quest17_Note
 Inst12Quest17_HORDE_Prequest = Inst12Quest17_Prequest
 Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST13 - Maraudon (Mara) ---------------
@@ -2854,7 +2863,7 @@ Inst13Caption = "Maraudon"
 Inst13QAA = "8 Quests"
 Inst13QAH = "8 Quests"
 
---Quest1 Allianz
+--Quest 1 Alliance
 Inst13Quest1 = "1. Schattensplitter"
 Inst13Quest1_Level = "42"
 Inst13Quest1_Attain = "39"
@@ -2867,7 +2876,7 @@ Inst13Quest1_Folgequest = "Nein"
 Inst13Quest1name1 = "Schattensplitteranhänger des Eifers"
 Inst13Quest1name2 = "Vorwarnender Schattensplitteranhänger"
 
---Quest2 Allianz
+--Quest 2 Alliance
 Inst13Quest2 = "2. Schlangenzunges Verderbnis"
 Inst13Quest2_Level = "47"
 Inst13Quest2_Attain = "41"
@@ -2881,7 +2890,7 @@ Inst13Quest2name1 = "Ring der Waldsaat"
 Inst13Quest2name2 = "Weisenblattgurt"
 Inst13Quest2name3 = "Astkrallenstulpen"
 
---Quest3 Allianz
+--Quest 3 Alliance
 Inst13Quest3 = "3. Dunkles Böses"
 Inst13Quest3_Level = "47"
 Inst13Quest3_Attain = "41"
@@ -2896,7 +2905,7 @@ Inst13Quest3name2 = "Rüstringhelm"
 Inst13Quest3name3 = "Unerbittliche Kette"
 Inst13Quest3name4 = "Schulterstücke des Steinkolosses"
 
---Quest4 Allianz
+--Quest 4 Alliance
 Inst13Quest4 = "4. Die Anweisungen des Pariahs"
 Inst13Quest4_Level = "48"
 Inst13Quest4_Attain = "39"
@@ -2909,7 +2918,7 @@ Inst13Quest4_Folgequest = "Nein"
 --
 Inst13Quest4name1 = "Mal der Auserwählten"
 
---Quest5 Allianz
+--Quest 5 Alliance
 Inst13Quest5 = "5. Legenden von Maraudon"
 Inst13Quest5_Level = "49"
 Inst13Quest5_Attain = "41"
@@ -2918,9 +2927,9 @@ Inst13Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] auf der 
 Inst13Quest5_Note = "Cavindra findet man am Anfang des orangenen Abschnitts vor der Instanz.\nDen Celebriangriff bekommt man von Noxxion bei "..YELLOW.."[2]"..WHITE..", den Celebriandiamanten von Lord Schlangenzunge bei "..YELLOW.."[5]"..WHITE..". Celebras ist bei "..YELLOW.."[7]"..WHITE..". Man muss ihn besiegen um mit ihm sprechen zu können."
 Inst13Quest5_Prequest = "Nein"
 Inst13Quest5_Folgequest = "Ja, Das Szepter von Celebras"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 6 Allianz
+--Quest 6 Alliance
 Inst13Quest6 = "6. Das Szepter von Celebras"
 Inst13Quest6_Level = "49"
 Inst13Quest6_Attain = "41"
@@ -2933,7 +2942,7 @@ Inst13Quest6FQuest = "true"
 --
 Inst13Quest6name1 = "Szepter von Celebras"
 
---Quest7 Allianz
+--Quest 7 Alliance
 Inst13Quest7 = "7. Verderbnis von Erde und Samenkorn"
 Inst13Quest7_Level = "51"
 Inst13Quest7_Attain = "45"
@@ -2947,7 +2956,7 @@ Inst13Quest7name1 = "Hauklinge"
 Inst13Quest7name2 = "Rute der Wiederauferstehung"
 Inst13Quest7name3 = "Ziel des tiefgrünen Bewahrers"
 
---Quest8 Allianz
+--Quest 8 Alliance
 Inst13Quest8 = "8. Samenkorn des Lebens"
 Inst13Quest8_Level = "51"
 Inst13Quest8_Attain = "39"
@@ -2957,10 +2966,10 @@ Inst13Quest8_Note = "Zaetars Geist erscheint sobald Prinzessin Theradras ("..YEL
 Inst13Quest8_Prequest = "Ja, Verderbnis von Erde und Samenkorn"
 Inst13Quest8_Folgequest = "Nein"
 Inst13Quest8FQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---Quest1 Horde
+--Quest 1 Horde
 Inst13Quest1_HORDE = "1. Schattensplitter"
 Inst13Quest1_HORDE_Level = "42"
 Inst13Quest1_HORDE_Attain = "39"
@@ -2973,7 +2982,7 @@ Inst13Quest1_HORDE_Folgequest = "Nein"
 Inst13Quest1name1_HORDE = "Schattensplitteranhänger des Eifers"
 Inst13Quest1name2_HORDE = "Vorwarnender Schattensplitteranhänger"
 
---Quest2 Horde
+--Quest 2 Horde
 Inst13Quest2_HORDE = "2. Schlangenzunges Verderbnis"
 Inst13Quest2_HORDE_Level = "47"
 Inst13Quest2_HORDE_Attain = "41"
@@ -2987,7 +2996,7 @@ Inst13Quest2name1_HORDE = "Ring der Waldsaat"
 Inst13Quest2name2_HORDE = "Weisenblattgurt"
 Inst13Quest2name3_HORDE = "Astkrallenstulpen"
 
---Quest3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst13Quest3_HORDE = Inst13Quest3
 Inst13Quest3_HORDE_Level = Inst13Quest3_Level
 Inst13Quest3_HORDE_Attain = Inst13Quest3_Attain
@@ -3002,7 +3011,7 @@ Inst13Quest3name2_HORDE = Inst13Quest3name2
 Inst13Quest3name3_HORDE = Inst13Quest3name3
 Inst13Quest3name4_HORDE = Inst13Quest3name4
 
---Quest 4 Horde (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst13Quest4_HORDE = Inst13Quest4
 Inst13Quest4_HORDE_Level = Inst13Quest4_Level
 Inst13Quest4_HORDE_Attain = Inst13Quest4_Attain
@@ -3015,7 +3024,7 @@ Inst13Quest4_HORDE_Folgequest = Inst13Quest4_Folgequest
 --
 Inst13Quest4name1_HORDE = Inst13Quest4name1
 
---Quest5 Horde (das selbe wie allianz quest 5)
+--Quest 5 Horde  (same as Quest 5 Alliance)
 Inst13Quest5_HORDE = Inst13Quest5
 Inst13Quest5_HORDE_Level = Inst13Quest5_Level
 Inst13Quest5_HORDE_Attain = Inst13Quest5_Attain
@@ -3024,9 +3033,9 @@ Inst13Quest5_HORDE_Location = Inst13Quest5_Location
 Inst13Quest5_HORDE_Note = Inst13Quest5_Note
 Inst13Quest5_HORDE_Prequest = Inst13Quest5_Prequest
 Inst13Quest5_HORDE_Folgequest = Inst13Quest5_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest6 Horde (das selbe wie allianz quest 6)
+--Quest 6 Horde  (same as Quest 6 Alliance)
 Inst13Quest6_HORDE = Inst13Quest6
 Inst13Quest6_HORDE_Level = Inst13Quest6_Level
 Inst13Quest6_HORDE_Attain = Inst13Quest6_Attain
@@ -3039,7 +3048,7 @@ Inst13Quest6FQuest_HORDE = Inst13Quest6FQuest
 --
 Inst13Quest6name1_HORDE = Inst13Quest6name1
 
---Quest7 Horde
+--Quest 7 Horde
 Inst13Quest7_HORDE = "7. Verderbnis von Erde und Samenkorn"
 Inst13Quest7_HORDE_Level = "51"
 Inst13Quest7_HORDE_Attain = "45"
@@ -3053,7 +3062,7 @@ Inst13Quest7name1_HORDE = "Hauklinge"
 Inst13Quest7name2_HORDE = "Rute der Wiederauferstehung"
 Inst13Quest7name3_HORDE = "Ziel des tiefgrünen Bewahrers"
 
---Quest8 Horde (das selbe wie allianz quest 8)
+--Quest 8 Horde  (same as Quest 8 Alliance)
 Inst13Quest8_HORDE = Inst13Quest8
 Inst13Quest8_HORDE_Level = Inst13Quest8_Level
 Inst13Quest8_HORDE_Attain = Inst13Quest8_Attain
@@ -3063,7 +3072,7 @@ Inst13Quest8_HORDE_Note = Inst13Quest8_Note
 Inst13Quest8_HORDE_Prequest = Inst13Quest8_Prequest
 Inst13Quest8_HORDE_Folgequest = Inst13Quest8_Folgequest
 Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST14 - Molten Core (MC) ---------------
@@ -3073,7 +3082,7 @@ Inst14Caption = "Geschmolzener Kern"
 Inst14QAA = "5 Quests"
 Inst14QAH = "5 Quests"
 
---Quest 1 Allianz
+--Quest 1 Alliance
 Inst14Quest1 = "1. Der geschmolzene Kern"
 Inst14Quest1_Level = "60"
 Inst14Quest1_Attain = "58"
@@ -3083,9 +3092,9 @@ Inst14Quest1_Note = "Es handelt sich um Nicht-Boss Gegner."
 Inst14Quest1_Prequest = "Ja, Auge des Glutsehers ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
 Inst14Quest1_Folgequest = "Ja, Agent von Hydraxis"
 Inst14Quest1PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 2 Allianz
+--Quest 2 Alliance
 Inst14Quest2 = "2. Hände des Feindes"
 Inst14Quest2_Level = "60"
 Inst14Quest2_Attain = "60"
@@ -3095,9 +3104,9 @@ Inst14Quest2_Note = "Lucifron befindet sich bei "..YELLOW.."[1]"..WHITE..", Sulf
 Inst14Quest2_Prequest = "Ja, Agent von Hydraxis"
 Inst14Quest2_Folgequest = "Nein"
 Inst14Quest2FQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 3 Allianz
+--Quest 3 Alliance
 Inst14Quest3 = "3. Donneraan der Windsucher"
 Inst14Quest3_Level = "60"
 Inst14Quest3_Attain = "60"
@@ -3107,9 +3116,9 @@ Inst14Quest3_Note = "Teil der Donnerzorn, Gesegnete Klinge des Windsuchers Quest
 Inst14Quest3_Prequest = "Ja, Untersuchung des Gefäßes"
 Inst14Quest3_Folgequest = "Ja, Donnerzorn erwache!"
 Inst14Quest3PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 4 Allianz
+--Quest 4 Alliance
 Inst14Quest4 = "4. Ein verbindlicher Vertrag"
 Inst14Quest4_Level = "60"
 Inst14Quest4_Attain = "60"
@@ -3121,7 +3130,7 @@ Inst14Quest4_Folgequest = "Nein"
 --
 Inst14Quest4name1 = "Pläne: Sulfuronhammer"
 
---Quest 5 Allianz
+--Quest 5 Alliance
 Inst14Quest5 = "5. Das uralte Blatt"
 Inst14Quest5_Level = "60"
 Inst14Quest5_Attain = "60"
@@ -3130,10 +3139,10 @@ Inst14Quest5_Location = "Uraltes versteinertes Blatt (droppt vom Behälter des F
 Inst14Quest5_Note = "Abzugeben bei Vartrus dem Uralten in (Teufelswald - Der Eisenwald; "..YELLOW.."49,24"..WHITE..")."
 Inst14Quest5_Prequest = "Nein"
 Inst14Quest5_Folgequest = "Ja, Uraltes in Sehnen eingewickeltes Laminablatt ("..YELLOW.."Azuregos"..WHITE..")"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---Quest 1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst14Quest1_HORDE = Inst14Quest1
 Inst14Quest1_HORDE_Level = Inst14Quest1_Level
 Inst14Quest1_HORDE_Attain = Inst14Quest1_Attain
@@ -3145,7 +3154,7 @@ Inst14Quest1_HORDE_Folgequest = Inst14Quest1_Folgequest
 Inst14Quest1PreQuest_HORDE = Inst14Quest1PreQuest
 -- No Rewards for this quest
 
---Quest 2 Horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst14Quest2_HORDE = Inst14Quest2
 Inst14Quest2_HORDE_Level = Inst14Quest2_Level
 Inst14Quest2_HORDE_Attain = Inst14Quest2_Attain
@@ -3155,9 +3164,9 @@ Inst14Quest2_HORDE_Note = Inst14Quest2_Note
 Inst14Quest2_HORDE_Prequest = Inst14Quest2_Prequest
 Inst14Quest2_HORDE_Folgequest = Inst14Quest2_Folgequest
 Inst14Quest2FQuest_HORDE = Inst14Quest2FQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst14Quest3_HORDE = Inst14Quest3
 Inst14Quest3_HORDE_Level = Inst14Quest3_Level
 Inst14Quest3_HORDE_Attain = Inst14Quest3_Attain
@@ -3167,9 +3176,9 @@ Inst14Quest3_HORDE_Note = Inst14Quest3_Note
 Inst14Quest3_HORDE_Prequest = Inst14Quest3_Prequest
 Inst14Quest3_HORDE_Folgequest = Inst14Quest3_Folgequest
 Inst14Quest3PreQuest_HORDE = Inst14Quest3PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 4 Horde (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst14Quest4_HORDE = Inst14Quest4
 Inst14Quest4_HORDE_Level = Inst14Quest4_Level
 Inst14Quest4_HORDE_Attain = Inst14Quest4_Attain
@@ -3181,7 +3190,7 @@ Inst14Quest4_HORDE_Folgequest = Inst14Quest4_Folgequest
 --
 Inst14Quest4name1_HORDE = Inst14Quest4name1
 
---Quest 5 Horde (das selbe wie allianz quest 5)
+--Quest 5 Horde  (same as Quest 5 Alliance)
 Inst14Quest5_HORDE = Inst14Quest5
 Inst14Quest5_HORDE_Level = Inst14Quest5_Level
 Inst14Quest5_HORDE_Attain = Inst14Quest5_Attain
@@ -3190,7 +3199,7 @@ Inst14Quest5_HORDE_Location = Inst14Quest5_Location
 Inst14Quest5_HORDE_Note = Inst14Quest5_Note
 Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
 Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST15 - Naxxramas (Naxx) ---------------
@@ -3200,7 +3209,7 @@ Inst15Caption = "Naxxramas"
 Inst15QAA = "5 Quests"
 Inst15QAH = "5 Quests"
 
---Quest 1 Allianz
+--Quest 1 Alliance
 Inst15Quest1 = "1. Der Niedergang Kel'Thuzads"
 Inst15Quest1_Level = "60"
 Inst15Quest1_Attain = "60"
@@ -3213,7 +3222,7 @@ Inst15Quest1_Folgequest = "Nein"
 Inst15Quest1name1 = "Mal des Helden"
 Inst15Quest1name2 = "Mal des Helden"
 
---Quest 2 Allianz
+--Quest 2 Alliance
 Inst15Quest2 = "2. Das Einzige, das ich kann..."
 Inst15Quest2_Level = "60"
 Inst15Quest2_Attain = "60"
@@ -3228,7 +3237,7 @@ Inst15Quest2name2 = "Eisfluchgamaschen"
 Inst15Quest2name3 = "Eisschuppengamaschen"
 Inst15Quest2name4 = "Polargamaschen"
 
---Quest 3 Allianz
+--Quest 3 Alliance
 Inst15Quest3 = "3. Echo des Krieges"
 Inst15Quest3_Level = "60"
 Inst15Quest3_Attain = "60"
@@ -3237,9 +3246,9 @@ Inst15Quest3_Location = "Kommandant Eligor Morgenbringer (Östliche Pestländer 
 Inst15Quest3_Note = "Die Gegner, die von diesem Quest betroffen sind, befinden sich am Anfang von jedem Flügel in Naxxramas. Dieses Quest ist erforderlich für die Tier 3 Rüstungs Quests."
 Inst15Quest3_Prequest = "Nein"
 Inst15Quest3_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 4 Allianz
+--Quest 4 Alliance
 Inst15Quest4 = "4. Ramaladnis Schicksal"
 Inst15Quest4_Level = "60"
 Inst15Quest4_Attain = "60"
@@ -3248,9 +3257,9 @@ Inst15Quest4_Location = "Korfax der Held des Lichts (Östliche Pestländer - Kap
 Inst15Quest4_Note = "Der Ring für dieses Quest ist ein zufälliger Dropp in Naxxramas. Jeder der das Quest hat, kann ihn an sich nehmen."
 Inst15Quest4_Prequest = "Nein"
 Inst15Quest4_Folgequest = "Ja, Ramaladnis eisiger Griff"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 5 Allianz
+--Quest 5 Alliance
 Inst15Quest5 = "5. Ramaladnis eisiger Griff"
 Inst15Quest5_Level = "60"
 Inst15Quest5_Attain = "60"
@@ -3264,7 +3273,7 @@ Inst15Quest5FQuest = "true"
 Inst15Quest5name1 = "Ramaladnis eisiger Griff"
 
 
---Quest 1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst15Quest1_HORDE = Inst15Quest1
 Inst15Quest1_HORDE_Level = Inst15Quest1_Level
 Inst15Quest1_HORDE_Attain = Inst15Quest1_Attain
@@ -3278,7 +3287,7 @@ Inst15Quest1name1_HORDE = Inst15Quest1name1
 Inst15Quest1name2_HORDE = Inst15Quest1name2
 Inst15Quest1name3_HORDE = Inst15Quest1name3
 
---Quest 2 Horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst15Quest2_HORDE = Inst15Quest2
 Inst15Quest2_HORDE_Level = Inst15Quest2_Level
 Inst15Quest2_HORDE_Attain = Inst15Quest2_Attain
@@ -3293,7 +3302,7 @@ Inst15Quest2name2_HORDE = Inst15Quest2name2
 Inst15Quest2name3_HORDE = Inst15Quest2name3
 Inst15Quest2name4_HORDE = Inst15Quest2name4
 
---Quest 3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst15Quest3_HORDE = Inst15Quest3
 Inst15Quest3_HORDE_Level = Inst15Quest3_Level
 Inst15Quest3_HORDE_Attain = Inst15Quest3_Attain
@@ -3302,9 +3311,9 @@ Inst15Quest3_HORDE_Location = Inst15Quest3_Location
 Inst15Quest3_HORDE_Note = Inst15Quest3_Note
 Inst15Quest3_HORDE_Prequest = Inst15Quest3_Prequest
 Inst15Quest3_HORDE_Folgequest = Inst15Quest3_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 4 Horde (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst15Quest4_HORDE = Inst15Quest4
 Inst15Quest4_HORDE_Level = Inst15Quest4_Level
 Inst15Quest4_HORDE_Attain = Inst15Quest4_Attain
@@ -3313,9 +3322,9 @@ Inst15Quest4_HORDE_Location = Inst15Quest4_Location
 Inst15Quest4_HORDE_Note = Inst15Quest4_Note
 Inst15Quest4_HORDE_Prequest = Inst15Quest4_Prequest
 Inst15Quest4_HORDE_Folgequest = Inst15Quest4_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 5 Horde (das selbe wie allianz quest 5)
+--Quest 5 Horde  (same as Quest 5 Alliance)
 Inst15Quest5_HORDE = Inst15Quest5
 Inst15Quest5_HORDE_Level = Inst15Quest5_Level
 Inst15Quest5_HORDE_Attain = Inst15Quest5_Attain
@@ -3336,7 +3345,7 @@ Inst16Caption = "Onyxias Hort"
 Inst16QAA = "2 Quests"
 Inst16QAH = "2 Quests"
 
---Quest 1 Allianz
+--Quest 1 Alliance
 Inst16Quest1 = "1. Das Schmieden von Quel'Serrar"
 Inst16Quest1_Level = "60"
 Inst16Quest1_Attain = "60"
@@ -3349,7 +3358,7 @@ Inst16Quest1PreQuest = "true"
 --
 Inst16Quest1name1 = "Quel'Serrar"
 
---Quest 2 Allianz
+--Quest 2 Alliance
 Inst16Quest2 = "2. Sieg für die Allianz"
 Inst16Quest2_Level = "60"
 Inst16Quest2_Attain = "60"
@@ -3364,7 +3373,7 @@ Inst16Quest2name2 = "Drachentötersignet"
 Inst16Quest2name3 = "Zahn Onyxias"
 
 
---Quest 1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst16Quest1_HORDE = Inst16Quest1
 Inst16Quest1_HORDE_Attain = Inst16Quest1_Attain
 Inst16Quest1_HORDE_Level = Inst16Quest1_Level
@@ -3399,7 +3408,7 @@ Inst17Caption = "Hügel der Klingenhauer"
 Inst17QAA = "3 Quests"
 Inst17QAH = "4 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst17Quest1 = "1. Ein Hort des Bösen"
 Inst17Quest1_Level = "35"
 Inst17Quest1_Attain = "28"
@@ -3408,9 +3417,9 @@ Inst17Quest1_Location = "Myriam Mondsang (Das Brachland; "..YELLOW.."49,94 "..WH
 Inst17Quest1_Note = "Die Gegner und der Questgeber befinden sich außerhalb der Instanz."
 Inst17Quest1_Prequest = "Nein"
 Inst17Quest1_Folgequest = "Nein"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst17Quest2 = "2. Ausschalten des Götzen"
 Inst17Quest2_Level = "37"
 Inst17Quest2_Attain = "34"
@@ -3423,7 +3432,7 @@ Inst17Quest2PreQuest = "true"
 --
 Inst17Quest2name1 = "Drachenklauenring"
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst17Quest3 = "3. Das Licht bringen"
 Inst17Quest3_Level = "42"
 Inst17Quest3_Attain = "39"
@@ -3437,7 +3446,7 @@ Inst17Quest3name1 = "Bezwingerschwert"
 Inst17Quest3name2 = "Bernsteingluttalisman"
 
 
---QUEST 1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst17Quest1_HORDE = Inst17Quest1
 Inst17Quest1_HORDE_Level = Inst17Quest1_Level
 Inst17Quest1_HORDE_Attain = Inst17Quest1_Attain
@@ -3446,7 +3455,7 @@ Inst17Quest1_HORDE_Location = Inst17Quest1_Location
 Inst17Quest1_HORDE_Note = Inst17Quest1_Note
 Inst17Quest1_HORDE_Prequest = Inst17Quest1_Prequest
 Inst17Quest1_HORDE_Folgequest = Inst17Quest1_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst17Quest2_HORDE = "2. Eine unheilige Allianz"
@@ -3463,7 +3472,7 @@ Inst17Quest2name1_HORDE = "Schädelbrecher"
 Inst17Quest2name2_HORDE = "Nagelspeier"
 Inst17Quest2name3_HORDE = "Zelotenrobe"
 
--- Quest 3 Horde  (das selbe wie allianz quest 2)
+--Quest 3 Horde  (same as Quest 2 Alliance)
 Inst17Quest3_HORDE = "3. Ausschalten des Götzen"
 Inst17Quest3_HORDE_Level = Inst17Quest2_Level
 Inst17Quest3_HORDE_Attain = Inst17Quest2_Attain
@@ -3476,7 +3485,7 @@ Inst17Quest3PreQuest_HORDE = Inst17Quest2PreQuest
 --
 Inst17Quest3name1_HORDE = Inst17Quest2name1
 
---QUEST 4 Horde
+--Quest 4 Horde
 Inst17Quest4_HORDE = "4. Das Ende bringen"
 Inst17Quest4_HORDE_Level = "42"
 Inst17Quest4_HORDE_Attain = "37"
@@ -3497,7 +3506,7 @@ Inst18Caption = "Kral der Klingenhauer"
 Inst18QAA = "5 Quests"
 Inst18QAH = "5 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst18Quest1 = "1. Blaulaubknollen"
 Inst18Quest1_Level = "26"
 Inst18Quest1_Attain = "20"
@@ -3509,7 +3518,7 @@ Inst18Quest1_Folgequest = "Nein"
 --
 Inst18Quest1name1 = "Ein kleiner Behälter mit Edelsteinen"
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst18Quest2 = "2. Die Sterblichkeit schwindet"
 Inst18Quest2_Level = "30"
 Inst18Quest2_Attain = "27"
@@ -3522,7 +3531,7 @@ Inst18Quest2_Folgequest = "Nein"
 Inst18Quest2name1 = "Trauerschal"
 Inst18Quest2name2 = "Lancierstiefel"
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst18Quest3 = "3. Willix der Importeur"
 Inst18Quest3_Level = "30"
 Inst18Quest3_Attain = "22"
@@ -3536,7 +3545,7 @@ Inst18Quest3name1 = "Affenring"
 Inst18Quest3name2 = "Natternreifen"
 Inst18Quest3name3 = "Tigerband"
 
---QUEST 4 Allianz
+--Quest 4 Alliance
 Inst18Quest4 = "4. Die Greisin des Krals"
 Inst18Quest4_Level = "34"
 Inst18Quest4_Attain = "29"
@@ -3552,7 +3561,7 @@ Inst18Quest4name2 = "Beryllpolster"
 Inst18Quest4name3 = "Steinfaustgurt"
 Inst18Quest4name4 = "Marmorierter Rundschild"
 
---QUEST 5 Allianz
+--Quest 5 Alliance
 Inst18Quest5 = "5. Feuergehärteter Panzer (Krieger)"
 Inst18Quest5_Level = "28"
 Inst18Quest5_Attain = "20"
@@ -3562,10 +3571,10 @@ Inst18Quest5_Note = "Dieses Quest kann nur von Kriegern angenommen werden. Die P
 Inst18Quest5_Prequest = "Ja, Der Schildschmied"
 Inst18Quest5_Folgequest = "Ja, (siehe Information)"
 Inst18Quest5PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---QUEST 1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst18Quest1_HORDE = Inst18Quest1
 Inst18Quest1_HORDE_Level = Inst18Quest1_Level
 Inst18Quest1_HORDE_Attain = Inst18Quest1_Attain
@@ -3577,7 +3586,7 @@ Inst18Quest1_HORDE_Folgequest = Inst18Quest1_Folgequest
 --
 Inst18Quest1name1_HORDE = Inst18Quest1name1
 
---Quest 2 Horde (das selbe wie allianz quest 3)
+--Quest 2 Horde  (same as Quest 3 Alliance)
 Inst18Quest2_HORDE = "2. Willix der Importeur"
 Inst18Quest2_HORDE_Level = Inst18Quest3_Level
 Inst18Quest2_HORDE_Attain = Inst18Quest3_Attain
@@ -3600,9 +3609,9 @@ Inst18Quest3_HORDE_Location = "Apothekermeister Faranell (Unterstadt - Das Apoth
 Inst18Quest3_HORDE_Note = "Das Kralguano droppen alle Fledermäuse im Kral."
 Inst18Quest3_HORDE_Prequest = "Nein"
 Inst18Quest3_HORDE_Folgequest = "Ja, Herzen des Eifers ("..YELLOW.."[Das Scharlachrote Kloster]"..WHITE..")"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 4 Horde
+--Quest 4 Horde
 Inst18Quest4_HORDE = "4. Ein schreckliches Schicksal"
 Inst18Quest4_HORDE_Level = "34"
 Inst18Quest4_HORDE_Attain = "29"
@@ -3616,7 +3625,7 @@ Inst18Quest4name1_HORDE = "Beryllpolster"
 Inst18Quest4name2_HORDE = "Steinfaustgurt"
 Inst18Quest4name3_HORDE = "Marmorierter Rundschild"
 
---QUEST 5 Horde
+--Quest 5 Horde
 Inst18Quest5_HORDE = "5. Brutale Rüstung (Krieger)"
 Inst18Quest5_HORDE_Level = "30"
 Inst18Quest5_HORDE_Attain = "20"
@@ -3626,7 +3635,7 @@ Inst18Quest5_HORDE_Note = "Dieses Quest kann nur von Kriegern angenommen werden.
 Inst18Quest5_HORDE_Prequest = "Ja, Gespräch mit Thun'grim"
 Inst18Quest5_HORDE_Folgequest = "Ja, (siehe Information)"
 Inst18Quest5PreQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST19 - SM: Library (SM Lib) ---------------
@@ -3636,7 +3645,7 @@ Inst19Caption = "SK: Bibliothek"
 Inst19QAA = "3 Quests"
 Inst19QAH = "5 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst19Quest1 = "1. Mythologie der Titanen"
 Inst19Quest1_Level = "38"
 Inst19Quest1_Attain = "28"
@@ -3648,7 +3657,7 @@ Inst19Quest1_Folgequest = "Nein"
 --
 Inst19Quest1name1 = "Forscherligaempfehlung"
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst19Quest2 = "2. Rituale der Macht (Magier)"
 Inst19Quest2_Level = "40"
 Inst19Quest2_Attain = "30"
@@ -3658,9 +3667,9 @@ Inst19Quest2_Note = "Dieses Quest kann nur von Magiern angenommen werden. Das Bu
 Inst19Quest2_Prequest = "Ja, Der Knüller schlechthin"
 Inst19Quest2_Folgequest = "Ja, Der Zauberstab des Magiers"
 Inst19Quest2PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst19Quest3 = "3. Im Namen des Lichts"
 Inst19Quest3_Level = "40"
 Inst19Quest3_Attain = "34"
@@ -3687,9 +3696,9 @@ Inst19Quest1_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Klo
 Inst19Quest1_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
 Inst19Quest1_HORDE_Folgequest = "Nein"
 Inst19Quest1PreQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
--- Quest 2 Horde
+--Quest 2 Horde
 Inst19Quest2_HORDE = "2. Test der Lehre"
 Inst19Quest2_HORDE_Level = "36"
 Inst19Quest2_HORDE_Attain = "26"
@@ -3699,9 +3708,9 @@ Inst19Quest2_HORDE_Note = "Die Questreihe beginnt bei Dorn Ebenenpirscher (Tause
 Inst19Quest2_HORDE_Prequest = "Ja, Test der Glaubens -> Test der Lehre"
 Inst19Quest2_HORDE_Folgequest = "Ja, Test der Lehre"
 Inst19Quest2PreQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 3 Horde
+--Quest 3 Horde
 Inst19Quest3_HORDE = "3. Kompendium der Gefallenen"
 Inst19Quest3_HORDE_Level = "38"
 Inst19Quest3_HORDE_Attain = "28"
@@ -3715,7 +3724,7 @@ Inst19Quest3name1_HORDE = "Grässlicher Beschützer"
 Inst19Quest3name2_HORDE = "Zwingsteinrundschild"
 Inst19Quest3name3_HORDE = "Omegakugel"
 
---Quest 4 Horde (das selbe wie allianz quest 2)
+--Quest 4 Horde  (same as Quest 2 Alliance)
 Inst19Quest4_HORDE = "4. Rituale der Macht (Magier)"
 Inst19Quest4_HORDE_Level = Inst19Quest2_Level
 Inst19Quest4_HORDE_Attain = Inst19Quest2_Attain
@@ -3725,9 +3734,9 @@ Inst19Quest4_HORDE_Note = Inst19Quest2_Note
 Inst19Quest4_HORDE_Prequest = Inst19Quest2_Prequest
 Inst19Quest4_HORDE_Folgequest = Inst19Quest2_Folgequest
 Inst19Quest4PreQuest_HORDE = Inst19Quest2_PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 5 Horde
+--Quest 5 Horde
 Inst19Quest5_HORDE = "5. In das Scharlachrote Kloster"
 Inst19Quest5_HORDE_Level = "42"
 Inst19Quest5_HORDE_Attain = "33"
@@ -3749,7 +3758,7 @@ Inst20Caption = "Scholomance"
 Inst20QAA = "10 Quests"
 Inst20QAH = "10 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst20Quest1 = "1. Verseuchte Jungtiere"
 Inst20Quest1_Level = "58"
 Inst20Quest1_Attain = "55"
@@ -3758,9 +3767,9 @@ Inst20Quest1_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des 
 Inst20Quest1_Note = "Die verseuchten Jungtiere befinden sich auf dem Weg zu Blutrippe in einem großen Raum."
 Inst20Quest1_Prequest = "Nein"
 Inst20Quest1_Folgequest = "Ja, Gesunde Großdrachenschuppe"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst20Quest2 = "2. Gesunde Großdrachenschuppe"
 Inst20Quest2_Level = "58"
 Inst20Quest2_Attain = "56"
@@ -3770,9 +3779,9 @@ Inst20Quest2_Note = "Die Gesunde Großdrachenschuppe droppt von den Verseuchten 
 Inst20Quest2_Prequest = "Ja, Verseuchte Jungtiere"
 Inst20Quest2_Folgequest = "Nein"
 Inst20Quest2FQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst20Quest3 = "3. Doktor Theolen Krastinov, der Schlächter"
 Inst20Quest3_Level = "60"
 Inst20Quest3_Attain = "55"
@@ -3781,9 +3790,9 @@ Inst20Quest3_Location = "Eva Sarkhoff (Westliche Pestländer - Darrowehr; "..YEL
 Inst20Quest3_Note = "Doktor Theolen Krastinov, die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff befinden sich bei "..YELLOW.."[9]"..WHITE.."."
 Inst20Quest3_Prequest = "Nein"
 Inst20Quest3_Folgequest = "Ja, Krastinovs Tasche der Schrecken"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 4 Allianz
+--Quest 4 Alliance
 Inst20Quest4 = "4. Krastinovs Tasche der Schrecken"
 Inst20Quest4_Level = "60"
 Inst20Quest4_Attain = "55"
@@ -3793,9 +3802,9 @@ Inst20Quest4_Note = "Man findet Jandice Barov bei "..YELLOW.."[3]"..WHITE.."."
 Inst20Quest4_Prequest = "Ja, Doktor Theolen Krastinov, der Schlächter"
 Inst20Quest4_Folgequest = "Ja, Kirtonos der Herold"
 Inst20Quest4FQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 5 Allianz
+--Quest 5 Alliance
 Inst20Quest5 = "5. Kirtonos der Herold"
 Inst20Quest5_Level = "60"
 Inst20Quest5_Attain = "55"
@@ -3809,7 +3818,7 @@ Inst20Quest5name1 = "Spektrale Essenz"
 Inst20Quest5name2 = "Penelopes Rose"
 Inst20Quest5name3 = "Mirahs Lied"
 
---QUEST 6 Allianz
+--Quest 6 Alliance
 Inst20Quest6 = "6. Der Lich Ras Frostraunen"
 Inst20Quest6_Level = "60"
 Inst20Quest6_Attain = "59"
@@ -3825,7 +3834,7 @@ Inst20Quest6name2 = "Kriegsklinge von Darrowehr"
 Inst20Quest6name3 = "Krone von Darrowehr"
 Inst20Quest6name4 = "Froststachel"
 
---QUEST 7 Allianz
+--Quest 7 Alliance
 Inst20Quest7 = "7. Das Familienvermögen der Barovs"
 Inst20Quest7_Level = "60"
 Inst20Quest7_Attain = "52"
@@ -3834,9 +3843,9 @@ Inst20Quest7_Location = "Weldon Barov (Westliche Pestländer - Zugwindlager; "..
 Inst20Quest7_Note = "Die Besitzurkunde für Darrowehr findet man bei "..YELLOW.."[12]"..WHITE..", die Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", die Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und die Besitzurkunde für Süderstade bei "..YELLOW.."[1]"..WHITE.."."
 Inst20Quest7_Prequest = "Nein"
 Inst20Quest7_Folgequest = "Ja, Der letzte Barov"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 8 Allianz
+--Quest 8 Alliance
 Inst20Quest8 = "8. Dämmerungstrickfalle"
 Inst20Quest8_Level = "60"
 Inst20Quest8_Attain = "58"
@@ -3850,7 +3859,7 @@ Inst20Quest8PreQuest = "true"
 Inst20Quest8name1 = "Windschnitter"
 Inst20Quest8name2 = "Tanzender Span"
 
---QUEST 9 Allianz
+--Quest 9 Alliance
 Inst20Quest9 = "9. Wichtellieferung (Hexenmeister)"
 Inst20Quest9_Level = "60"
 Inst20Quest9_Attain = "60"
@@ -3860,9 +3869,9 @@ Inst20Quest9_Note = "Dieses Quest kann nur von Hexenmeistern angenommen werden! 
 Inst20Quest9_Prequest = "Ja, Mor'zul Blutbringer -> Xorothianischer Sternenstaub"
 Inst20Quest9_Folgequest = "Ja, Schreckensross von Xoroth ("..YELLOW.."Düsterbruch West"..WHITE..")"
 Inst20Quest9PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 10 Allianz
+--Quest 10 Alliance
 Inst20Quest10 = "10. Das linke Stück von Lord Valthalaks Amulett"
 Inst20Quest10_Level = "60"
 Inst20Quest10_Attain = "60"
@@ -3872,10 +3881,10 @@ Inst20Quest10_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bo
 Inst20Quest10_Prequest = "Ja, Komponenten von großer Wichtigkeit"
 Inst20Quest10_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
 Inst20Quest10PreQuest = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
---QUEST 1 Horde (das selbe wie allianz quest 1)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst20Quest1_HORDE = Inst20Quest1
 Inst20Quest1_HORDE_Level = Inst20Quest1_Level
 Inst20Quest1_HORDE_Attain = Inst20Quest1_Attain
@@ -3884,9 +3893,9 @@ Inst20Quest1_HORDE_Location = Inst20Quest1_Location
 Inst20Quest1_HORDE_Note = Inst20Quest1_Note
 Inst20Quest1_HORDE_Prequest = Inst20Quest1_Prequest
 Inst20Quest1_HORDE_Folgequest = Inst20Quest1_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 2 Horde (das selbe wie allianz quest 2)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst20Quest2_HORDE = Inst20Quest2
 Inst20Quest2_HORDE_Level = Inst20Quest2_Level
 Inst20Quest2_HORDE_Attain = Inst20Quest2_Attain
@@ -3896,9 +3905,9 @@ Inst20Quest2_HORDE_Note = Inst20Quest2_Note
 Inst20Quest2_HORDE_Prequest = Inst20Quest2_Prequest
 Inst20Quest2_HORDE_Folgequest = Inst20Quest2_Folgequest
 Inst20Quest2FQuest_HORDE = Inst20Quest2FQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 3 Horde (das selbe wie allianz quest 3)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst20Quest3_HORDE = Inst20Quest3
 Inst20Quest3_HORDE_Level = Inst20Quest3_Level
 Inst20Quest3_HORDE_Attain = Inst20Quest3_Attain
@@ -3907,9 +3916,9 @@ Inst20Quest3_HORDE_Location = Inst20Quest3_Location
 Inst20Quest3_HORDE_Note = Inst20Quest3_Note
 Inst20Quest3_HORDE_Prequest = Inst20Quest3_Prequest
 Inst20Quest3_HORDE_Folgequest = Inst20Quest3_Folgequest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 4 Horde (das selbe wie allianz quest 4)
+--Quest 4 Horde  (same as Quest 4 Alliance)
 Inst20Quest4_HORDE = Inst20Quest4
 Inst20Quest4_HORDE_Level = Inst20Quest4_Level
 Inst20Quest4_HORDE_Attain = Inst20Quest4_Attain
@@ -3919,9 +3928,9 @@ Inst20Quest4_HORDE_Note = Inst20Quest4_Note
 Inst20Quest4_HORDE_Prequest = Inst20Quest4_Prequest
 Inst20Quest4_HORDE_Folgequest = Inst20Quest4_Folgequest
 Inst20Quest4FQuest_HORDE = Inst20Quest4FQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 5 Horde (das selbe wie allianz quest 5)
+--Quest 5 Horde  (same as Quest 5 Alliance)
 Inst20Quest5_HORDE = Inst20Quest5
 Inst20Quest5_HORDE_Level = Inst20Quest5_Level
 Inst20Quest5_HORDE_Attain = Inst20Quest5_Attain
@@ -3936,7 +3945,7 @@ Inst20Quest5name1_HORDE = Inst20Quest5name1
 Inst20Quest5name2_HORDE = Inst20Quest5name2
 Inst20Quest5name3_HORDE = Inst20Quest5name3
 
---QUEST 6 Horde (das selbe wie allianz quest 6)
+--Quest 6 Horde  (same as Quest 6 Alliance)
 Inst20Quest6_HORDE = Inst20Quest6
 Inst20Quest6_HORDE_Level = Inst20Quest6_Level
 Inst20Quest6_HORDE_Attain = Inst20Quest6_Attain
@@ -3952,7 +3961,7 @@ Inst20Quest6name2_HORDE = Inst20Quest6name2
 Inst20Quest6name3_HORDE = Inst20Quest6name3
 Inst20Quest6name4_HORDE = Inst20Quest6name4
 
---QUEST 7 Horde
+--Quest 7 Horde
 Inst20Quest7_HORDE = "7. Das Familienvermögen der Barovs"
 Inst20Quest7_HORDE_Level = "60"
 Inst20Quest7_HORDE_Attain = "52"
@@ -3961,9 +3970,9 @@ Inst20Quest7_HORDE_Location = "Alexi Barov (Tirisfal - Bollwerk; "..YELLOW.."80,
 Inst20Quest7_HORDE_Note = "Die Besitzurkunde für Darrowehr findet man bei "..YELLOW.."[12]"..WHITE..", die Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", die Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und die Besitzurkunde für Süderstade bei "..YELLOW.."[1]"..WHITE.."."
 Inst20Quest7_HORDE_Prequest = "Nein"
 Inst20Quest7_HORDE_Folgequest = "Ja, Der letzte Barov"
--- Keine Belohnung
+-- No Rewards for this quest
 
---QUEST 8 Horde (das selbe wie allianz quest 8)
+--Quest 8 Horde  (same as Quest 8 Alliance)
 Inst20Quest8_HORDE = Inst20Quest8
 Inst20Quest8_HORDE_Level = Inst20Quest8_Level
 Inst20Quest8_HORDE_Attain = Inst20Quest8_Attain
@@ -3977,7 +3986,7 @@ Inst20Quest8PreQuest_HORDE = Inst20Quest8PreQuest
 Inst20Quest8name1_HORDE = Inst20Quest8name1
 Inst20Quest8name2_HORDE = Inst20Quest8name2
 
---QUEST 9 Horde (das selbe wie allianz quest 9)
+--Quest 9 Horde  (same as Quest 9 Alliance)
 Inst20Quest9_HORDE = Inst20Quest9
 Inst20Quest9_HORDE_Level = Inst20Quest9_Level
 Inst20Quest9_HORDE_Attain = Inst20Quest9_Attain
@@ -3987,9 +3996,9 @@ Inst20Quest9_HORDE_Note = Inst20Quest9_Note
 Inst20Quest9_HORDE_Prequest = Inst20Quest9_Prequest
 Inst20Quest9_HORDE_Folgequest = Inst20Quest9_Folgequest
 Inst20Quest9PreQuest_HORDE = Inst20Quest9PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
---Quest 10 Horde (das selbe wie allianz quest 10)
+--Quest 10 Horde  (same as Quest 10 Alliance)
 Inst20Quest10_HORDE = Inst20Quest10
 Inst20Quest10_HORDE_Level = Inst20Quest10_Level
 Inst20Quest10_HORDE_Attain = Inst20Quest10_Attain
@@ -3999,7 +4008,7 @@ Inst20Quest10_HORDE_Note = Inst20Quest10_Note
 Inst20Quest10_HORDE_Prequest = Inst20Quest10_Prequest
 Inst20Quest10_HORDE_Folgequest = Inst20Quest10_Folgequest
 Inst20Quest10PreQuest_HORDE = Inst20Quest10PreQuest
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
@@ -4009,7 +4018,7 @@ Inst21Caption = "Burg Schattenfang"
 Inst21QAA = "2 Quests"
 Inst21QAH = "4 Quests"
 
---Quest 1 allianz
+--Quest 1 Alliance
 Inst21Quest1 = "1. Die Prüfung der Rechtschaffenheit (Paladin)"
 Inst21Quest1_Level = "22"
 Inst21Quest1_Attain = "20"
@@ -4023,7 +4032,7 @@ Inst21Quest1PreQuest = "true"
 --
 Inst21Quest1name1 = "Verigans Faust"
 
---QUEST 2 allianz
+--Quest 2 Alliance
 Inst21Quest3 = "2. Die Kugel von Soran'ruk (Hexenmeister)"
 Inst21Quest3_Level = "25"
 Inst21Quest3_Attain = "20"
@@ -4037,7 +4046,7 @@ Inst21Quest3name1 = "Kugel von Soran'ruk"
 Inst21Quest3name2 = "Stab von Soran'ruk"
 
 
---QUEST 1 Horde
+--Quest 1 Horde
 Inst21Quest1_HORDE = "1. Todespirscher in Burg Schattenfang"
 Inst21Quest1_HORDE_Level = "25"
 Inst21Quest1_HORDE_Attain = "18"
@@ -4049,7 +4058,7 @@ Inst21Quest1_HORDE_Folgequest = "Nein"
 --
 Inst21Quest1name1_HORDE = "Geisterhafter Mantel"
 
---QUEST 2 Horde
+--Quest 2 Horde
 Inst21Quest2_HORDE = "2. Das Buch von Ur"
 Inst21Quest2_HORDE_Level = "26"
 Inst21Quest2_HORDE_Attain = "16"
@@ -4062,7 +4071,7 @@ Inst21Quest2_HORDE_Folgequest = "Nein"
 Inst21Quest2name1_HORDE = "Ergraute Stiefel"
 Inst21Quest2name2_HORDE = "Stahlschnallenarmschienen"
 
---QUEST 3 Horde
+--Quest 3 Horde
 Inst21Quest3_HORDE = "3. Arugal muss sterben"
 Inst21Quest3_HORDE_Level = "27"
 Inst21Quest3_HORDE_Attain = "18"
@@ -4074,7 +4083,7 @@ Inst21Quest3_HORDE_Folgequest = "Nein"
 --
 Inst21Quest3name1_HORDE = "Siegel von Sylvanas"
 
---QUEST 4 Horde (das selbe wie allianz quest 2)
+--Quest 4 Horde  (same as Quest 2 Alliance)
 Inst21Quest4_HORDE = "4. Die Kugel von Soran'ruk (Hexenmeister)"
 Inst21Quest4_HORDE_Level = Inst21Quest2_Level
 Inst21Quest4_HORDE_Attain = Inst21Quest2_Attain
@@ -4095,7 +4104,7 @@ Inst22Caption = "Stratholme"
 Inst22QAA = "11 Quests"
 Inst22QAH = "12 Quests"
 
---Quest1 Alliance
+--Quest 1 Alliance
 Inst22Quest1 = "1. Das Fleisch lügt nicht"
 Inst22Quest1_Attain = "?"
 Inst22Quest1_Level = "60"
@@ -4104,8 +4113,9 @@ Inst22Quest1_Location = "Betina Bigglezink (Östliche Pestländer; "..YELLOW.."8
 Inst22Quest1_Note = "Das Fleisch kann bei fast allen Gegnern in Stratholme droppen."
 Inst22Quest1_Prequest = "Nein"
 Inst22Quest1_Folgequest = "Ja, Der aktive Wirkstoff"
+-- No Rewards for this quest
 
---Quest2 Alliance
+--Quest 2 Alliance
 Inst22Quest2 = "2. Der aktive Wirkstoff"
 Inst22Quest2_Attain = "58"
 Inst22Quest2_Level = "60"
@@ -4118,7 +4128,7 @@ Inst22Quest2_Folgequest = "Nein"
 Inst22Quest2name1 = "Siegel der Dämmerung"
 Inst22Quest2name2 = "Rune der Dämmerung"
 
---Quest3 Alliance
+--Quest 3 Alliance
 Inst22Quest3 = "3. Häuser der Heiligen"
 Inst22Quest3_Attain = "?"
 Inst22Quest3_Level = "60"
@@ -4133,7 +4143,7 @@ Inst22Quest3name2 = "Großer Manatrank"
 Inst22Quest3name3 = "Krone des reuigen Sünders"
 Inst22Quest3name4 = "Band des reuigen Sünders"
 
---Quest4 Alliance
+--Quest 4 Alliance
 Inst22Quest4 = "4. Der große Fras Siabi"
 Inst22Quest4_Attain = "?"
 Inst22Quest4_Level = "60"
@@ -4145,7 +4155,7 @@ Inst22Quest4_Folgequest = "Nein"
 --
 Inst22Quest4name1 = "Smokeys Feuerzeug"
 
---Quest5 Alliance
+--Quest 5 Alliance
 Inst22Quest5 = "5. Die ruhelosen Seelen"
 Inst22Quest5_Attain = "55"
 Inst22Quest5_Level = "60"
@@ -4157,7 +4167,7 @@ Inst22Quest5_Folgequest = "Nein"
 --
 Inst22Quest5name1 = "Testament der Hoffnung"
 
---Quest6 Alliance
+--Quest 6 Alliance
 Inst22Quest6 = "6. Von Liebe und Familie (Questreihe)"
 Inst22Quest6_Attain = "53"
 Inst22Quest6_Level = "60"
@@ -4166,8 +4176,9 @@ Inst22Quest6_Location = "Grafiker Renfray (Westliche Pestländer; "..YELLOW.."65
 Inst22Quest6_Note = "Die Vorquest bekommt man von Tirion Fordring(Westliche Pestländer; "..YELLOW.."7,43"..WHITE..").\nDas Bild findet man bei "..YELLOW.."[7]"..WHITE.."."
 Inst22Quest6_Prequest = "Ja, Erlösung - > Von Liebe und Familie"
 Inst22Quest6_Folgequest = "Ja, Myranda suchen"
+-- No Rewards for this quest
 
---Quest7 Alliance
+--Quest 7 Alliance
 Inst22Quest7 = "7. Menethils Geschenk (Questreihe)"
 Inst22Quest7_Attain = "53"
 Inst22Quest7_Level = "60"
@@ -4176,8 +4187,9 @@ Inst22Quest7_Location = "Leonid Barthalomew der Geachtete (Östliche Pestländer
 Inst22Quest7_Note = "Die Vorquest bekommt man von Magistrat Marduke (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..").\nDas Pentagramm ist bei "..YELLOW.."[15]"..WHITE.." zu finden. Siehe auch "..YELLOW.."[Der Lich Ras Frostraunen]"..WHITE.." in Scholomance."
 Inst22Quest7_Prequest = "Ja, Der Mensch Ras Frostraunen - > Der Sterbende Ras Frostraunen"
 Inst22Quest7_Folgequest = "Ja, Menethils Geschenk"
+-- No Rewards for this quest
 
---Quest8 Alliance
+--Quest 8 Alliance
 Inst22Quest8 = "8. Aurius' Abrechnung"
 Inst22Quest8_Attain = "?"
 Inst22Quest8_Level = "60"
@@ -4190,7 +4202,7 @@ Inst22Quest8_Folgequest = "Nein"
 Inst22Quest8name1 = "Wille des Märtyrers"
 Inst22Quest8name2 = "Blut des Märtyrers"
 
---Quest9 Alliance
+--Quest 9 Alliance
 Inst22Quest9 = "9. Der Archivar"
 Inst22Quest9_Attain = "55"
 Inst22Quest9_Level = "60"
@@ -4199,8 +4211,9 @@ Inst22Quest9_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer; "..Y
 Inst22Quest9_Note = "Das Archiv und den Archivar findet man bei "..YELLOW.."[6]"..WHITE.."."
 Inst22Quest9_Prequest = "Nein"
 Inst22Quest9_Folgequest = "Ja, Die Wahrheit zeigt sich mit Macht"
+-- No Rewards for this quest
 
---Quest10 Alliance
+--Quest 10 Alliance
 Inst22Quest10 = "10. Die Wahrheit zeigt sich mit Macht"
 Inst22Quest10_Attain = "58"
 Inst22Quest10_Level = "60"
@@ -4209,8 +4222,9 @@ Inst22Quest10_Location = "Balnazzar (Stratholme; "..YELLOW.."[7]"..WHITE..")"
 Inst22Quest10_Note = "Fürst Nicholas Zverenhoff findet man in den Östliche Pestländer("..YELLOW.."81, 59"..WHITE..")."
 Inst22Quest10_Prequest = "Ja, Der Archivar"
 Inst22Quest10_Folgequest = "Ja, Übertroffen"
+-- No Rewards for this quest
 
---Quest11 Alliance
+--Quest 11 Alliance
 Inst22Quest11 = "11. Übertroffen"
 Inst22Quest11_Attain = "58"
 Inst22Quest11_Level = "60"
@@ -4967,130 +4981,7 @@ Inst29Quest3name2_HORDE = "Stolperläufer-Latzhose"
 Inst29Quest3name3_HORDE = "Zweifach verstärkte Gamaschen"
 
 
-------------------------------------------------------------------------------------------------------
-------------------------------------------------- RAID -----------------------------------------------
-------------------------------------------------------------------------------------------------------
-
-
---------------Inst30/Alptraumdrachen------------
-
-Inst30Story = {
-  ["Page1"] = "Ein rauer Wind weht durch die Kronen der Großen Bäume. Etwas Unheimliches hat sich fernab der wachsamen Augen der Beschützer Azeroths eingeschlichen und bedroht nun Eschental, den Dämmerwald, Feralas und das Hinterland. Vier der mächtigen Wächter des grünen Drachenschwarms sind aus dem smaragdgrünen Traum zurückgekehrt, doch die einstmals stolzen Beschützer verbreiten nun nichts als Tod und Zerstörung. Azeroth braucht tapfere Abenteurer mehr denn je, die das Land gegen diese düsteren Vorboten verteidigen.",
-  ["Page2"] = "Ysera, der große Drachenaspekt der Träume, führt den geheimnisvollen grünen Drachenschwarm an. Ihr Reich sind die fantastischen, mystischen Weiten des smaragdgrünen Traums, und man erzählt sich, dass sie von dort aus die Evolution allen Lebens beeinflusst. Sie ist die Beschützerin der Natur und der Phantasie; ihr und ihrem Drachenschwarm wurde die Ehre zuteil, die Großen Bäume zu bewachen, durch die allein die Druiden in den Traum hinüberwechseln können.Vor kurzem wurden Yseras treueste Diener von einer dunklen neuen Macht besudelt, die sich im smaragdgrünen Traum ausbreitet. Nun sind die abtrünnigen Wächter durch die Großen Bäume nach Azeroth zurückgekehrt, um Angst und Schrecken in den Ländern der Sterblichen zu verbreiten. Selbst die mächtigsten Abenteurer sollten sich den Drachen nicht alleine entgegenstellen, um nicht die volle Gewalt ihres entfesselten Zornes zu spüren zu bekommen.",
-  ["Page3"] = "Als Lethon der Anomalie innerhalb des smaragdgrünen Traums ausgesetzt wurde, verdunkelte sich nicht nur die Tönung seiner Schuppen... der Drache erhielt auch die Fähigkeit, bösartige Schemen aus seinen Feinden aufzusaugen. Sobald diese mit ihrem Meister verschmelzen, heilt ihn die Energie der Schemen. So ist es keine Überraschung, das Lethon einer der Furcht erregendsten Abtrünnigen ist.",
-  ["Page4"] = "Eine mysteriöse, dunkle Macht innerhalb des smaragdgrünen Traums hat die einst majestätische Emeriss in eine verwesende, faulige Monstrosität verwandelt. Die wenigen, die eine Begegnung mit dem Drachen überlebt haben, erzählen Ekel erregende Geschichten von eitrigen Pilzen, die aus den Leichen gefallener Kämpfer sprießen. Ob diese Geschichten wahr oder nur die Ausgeburten geistig Verstörter sind, lässt sich wohl nur herausfinden, indem man der scheußlichen Bestie entgegentritt.",
-  ["Page5"] = "Von all jenen, die mit der Anomalie in Kontakt gekommen sind, hat Taerar wohl am meisten gelitten. Sie hat nicht bloß seinen Verstand, sondern auch seine körperliche Gestalt gespalten. Der Drache existiert nun als Phantom, das sich in mehrere Splittergestalten aufteilen kann, die über vernichtende magische Kräfte verfügen. Taerar ist ein gerissener und erbarmungsloser Gegner, der den Wahnsinn seiner eigenen Existenz für die Bewohner Azeroths zu einer grausamen Wirklichkeit machen will.",
-  ["Page6"] = "Ysondre, einst eine von Yseras vertrautesten Anhängerinnen, hat sich den Abtrünnigen angeschlossen und verbreitet nun Chaos und Terror in Azeroth. Ihre ehemals segensreichen Heilkräfte haben sich zu dunkler Magie gewandelt, mit der sie sengende Blitze verschleudern und fehlgeleitete Druiden zu Hilfe rufen kann. Ysondre und die ihren können ihre Gegner auch einschlafen lassen, wodurch ihre hilflosen Opfer in das Reich der schrecklichsten Alpträume geschickt werden.",
-  ["MaxPages"] = "6",
-};
-
-Inst30Caption = "Die Drachen des Alptraums"
-Inst30Caption2 = "Ysera und der grüne Drachenschwarm"
-Inst30Caption3 = "Lethon"
-Inst30Caption4 = "Emeriss"
-Inst30Caption5 = "Taerar"
-Inst30Caption6 = "Ysondre"
-Inst30QAA = "1 Quest"
-Inst30QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst30Quest1 = "1. Eingehüllt in Alpträume"
-Inst30Quest1_Level = "60"
-Inst30Quest1_Attain = "60"
-Inst30Quest1_Aim = "Sucht nach jemandem, der die Bedeutung des in Alpträume gehüllten Gegenstands entschlüsseln kann.\n\nVielleicht kann Euch ein Druide von großer Macht weiterhelfen."
-Inst30Quest1_Location = "In Alpträume gehüllter Gegenstand (droppt von Emeriss, Taerar, Lethon oder Ysondre)"
-Inst30Quest1_Note = "Die Quest wird bei Bewahrer Remulos bei (Mondlichtung - Schrein von Remulos; "..YELLOW.."36,41"..WHITE..") abgegeben. Die aufgeführte Questbelohnung gibt es bei der Folgequest."
-Inst30Quest1_Prequest = "Nein"
-Inst30Quest1_Folgequest = "Ja, Legenden erwachen"
---
-Inst30Quest1name1 = "Malfurions Siegelring"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst30Quest1_HORDE = Inst30Quest1
-Inst30Quest1_HORDE_Level = Inst30Quest1_Level
-Inst30Quest1_HORDE_Attain = Inst30Quest1_Attain
-Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
-Inst30Quest1_HORDE_Location = Inst30Quest1_Location
-Inst30Quest1_HORDE_Note = Inst30Quest1_Note
-Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
-Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
---
-Inst30Quest1name1_HORDE = Inst30Quest1name1
-
-
-
---------------Azuregos------------
-
-Inst31Story = "Vor der Spaltung der Welt blühte die elfische Stadt Eldarath in den Landen, die nunmehr Azshara genannt werden. Manche sagen, dass unter den Ruinen der Stadt immer noch zahllose Artefakte der Hochgeborenen schlummern. Seit ungezählten Generationen wacht der blaue Drachenschwarm über mächtige Artefakte und magisches Wissen, damit nichts davon in die falschen Hände fällt. Die Anwesenheit von Azuregos, dem blauen Drachen, scheint darauf hinzuweisen, dass in der Wildnis von Azshara extrem seltene Gegenstände schlummern, vielleicht sogar die Phiolen der Ewigkeit. Doch egal was der Drache sucht, eins ist sicher - er wird bis zum letzten Kämpfen, um diese Schätze zu verteidigen!"
-Inst31Caption = "Azuregos"
-Inst31QAA = "1 Quest"
-Inst31QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst31Quest1 = "1. Uraltes in Sehnen eingewickeltes Laminablatt (Jäger)"
-Inst31Quest1_Level = "60"
-Inst31Quest1_Attain = "60"
-Inst31Quest1_Aim = "Hastat der Uralte hat Euch um die Beschaffung einer Sehne eines ausgewachsenen, blauen Drachen gebeten. Solltet Ihr diese Sehne finden, kehrt zu Hastat im Teufelswald zurück."
-Inst31Quest1_Location = "Hastat der Uralte (Teufelswald - Der Eisenwald; "..YELLOW.."48,24"..WHITE..")"
-Inst31Quest1_Note = "Töte Azuregos, um die Sehne eines ausgewachsenen blauen Drachen zu erhalten. Er wandert in der Mitte der südlichen Halbinsel Azsharas um "..YELLOW.."[1]"..WHITE.." umher."
-Inst31Quest1_Prequest = "Ja, Das uralte Blatt ("..YELLOW.."Geschmolzener Kern"..WHITE..")"
-Inst31Quest1_Folgequest = "Nein"
-Inst31Quest1PreQuest = "true"
---
-Inst31Quest1name1 = "Uraltes in Sehnen eingewickeltes Laminablatt"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst31Quest1_HORDE = Inst31Quest1
-Inst31Quest1_HORDE_Level = Inst31Quest1_Level
-Inst31Quest1_HORDE_Attain = Inst31Quest1_Attain
-Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
-Inst31Quest1_HORDE_Location = Inst31Quest1_Location
-Inst31Quest1_HORDE_Note = Inst31Quest1_Note
-Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
-Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
-Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
---
-Inst31Quest1name1_HORDE = Inst31Quest1name1
-
-
-
---------------Kazzak------------
-
-Inst32Story = "Hochlord Kruul ist ein Verdammniswachenboss, der während des Öffnungsevents des Dunklen Portals in verschiedenen Teilen Azeroths erschien (Patch 2.0.3). Nachdem das Dunkle Portal geöffnet wurde, hat er offiziell Fürst Kazzak ersetzt (jetzt Verdammnislord Kazzak in der Höllenfeuerhalbinsel der Scherbenwelt als Feldkommandant der Brennen Legion in Azeroth)."
-Inst32Caption = "Hochlord Kruul"
-Inst32QAA = "keine Quests"
-Inst32QAH = "keine Quests"
-
-
---------------Inst33 / Alterac Valley------------
-
-Inst33Story = "Vor langer Zeit schickte der Hexenmeister Guldan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Guldans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen DrekThar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Stormpike-Expedition gestört.\nDie Stormpikes haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen. "
-Inst33Caption = "Das Alteractal"
-
-
---------------Inst34 / Arathi Basin------------
-
-Inst34Story = "Das Arathibecken im Arathihochland ist ein dynamisches und spannendes Schlachtfeld. Das Talbecken selbst verfügt über wertvolle Rohstoffe, um die die Allianz und die Horde erbitterte Schlachten austragen. Die Verlassenen Entweihten und der Bund von Arathor sind im Talbecken, um die Rohstoffe des Talbeckens für ihre Seite zu sichern und ihrem Gegner eine empfindliche Niederlage beizubringen."
-Inst34Caption = "Das Arathibecken"
-
-
---------------Inst35 / Warsong Gulch------------
-
-Inst35Story = "Eingebetted in das südliche Eschental ist die Warsongschlucht nahe dem Gebiet wo Grom Hellscream und seine Orks während des 3. Krieges große Teile des Waldes rodeten. Einige Orks blieben in der Nähe und setzten die Arbeit fort um bei der Erweiterung der Gebiete der Horde zu helfen. Sie nennen sich selber Warsong-Vorhut.\nDie Nachtelfen, die eine starke Offensive begonnen haben um den Eschentalwald zurück zuerobern, konzentrieren sich jetzt darauf die Warsong-Vorhut für immer zu vertreiben. Die Silverwing-Schildwache haben geschworen, dass sie nicht aufhören werden bis der letzte Ork besiegt ist und aus der Warsongschlucht entfernt wurde."
-Inst35Caption = "Die Warsongschlucht"
-
-
---------------- INST60 - Eye of the Storm ---------------
-
-Inst60Story = "Weit über der verwüsteten Landschaft des Nethersturms schwebt die Insel, die als Auge des Sturms bekannt ist. Dieses Schlachtfeld ist von den Blutelfen wegen seiner reichen Energieablagerungen begehrt - und die Draenei versuchen es wegen ihrer mysteriösen Behälter einzufordern - Auge des Sturms."
-Inst60Caption = "Auge des Sturms"
-Inst60QAA = "keine Quests"
-Inst60QAH = "keine Quests"
-
-
---------------Inst37 / Hellfire Citadel / Ramparts------------
+--------------- INST37 - HFC: Ramparts (Ramp) ---------------
 
 Inst37Story = {
   ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen...\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner'zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten, indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
@@ -5121,7 +5012,7 @@ Inst37General = {
 Inst37QAA = "3 Quests"
 Inst37QAH = "3 Quests"
 
---QUEST1 Allianz
+--Quest 1 Alliance
 Inst37Quest1 = "1. Die Bollwerke schwächen"
 Inst37Quest1_Level = "62"
 Inst37Quest1_Attain = "59"
@@ -5137,7 +5028,7 @@ Inst37Quest1name2 = "Jadeschulterstücke des Kriegers"
 Inst37Quest1name3 = "Mantelung der Magiemacht"
 Inst37Quest1name4 = "Stiefel des sicheren Schritts"
 
---Quest2 Allianz
+--Quest 2 Alliance
 Inst37Quest2 = "2. Düstere Neuigkeiten"
 Inst37Quest2_Level = "62"
 Inst37Quest2_Attain = "59"
@@ -5149,7 +5040,7 @@ Inst37Quest2_Folgequest = "Ja, Blut bedeutet Leben ("..YELLOW.."HZ: Der Blutkess
 Inst37Quest2FQuest = "true"
 -- No Rewards for this quest
 
---Quest 3 Allianz
+--Quest 3 Alliance
 Inst37Quest3 = "3. Gesucht: Nazans Reitgerte (Heroische Tagesquest)"
 Inst37Quest3_Level = "70"
 Inst37Quest3_Attain = "70"
@@ -5203,8 +5094,7 @@ Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
 Inst37Quest3name1_HORDE = Inst37Quest3name1
 
 
-
---------------Inst38 / Hellfire Citadel / Blood Furnaces------------
+--------------- INST38 - HFC: Blood Furnace (BF) ---------------
 
 Inst38Story = {
   ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen...\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner'zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten, indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
@@ -5325,7 +5215,7 @@ Inst38Quest3name1_HORDE = Inst38Quest3name1
 
 
 
---------------Inst39 / Hellfire Citadel / ShatteredHalls------------
+--------------- INST39 - HFC: Shattered Halls (SH) ---------------
 
 Inst39Story = {
   ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen...\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner'zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten, indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
@@ -5546,7 +5436,7 @@ Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
 Inst39Quest8name1_HORDE = Inst39Quest9name1
 
 
---------------Inst40 / Hellfire Citadel /Magtheridons Lair------------
+--------------- INST40 - HFC: Magtheridon's Lair ---------------
 
 Inst40Story = {
   ["Page1"] = "In der verwüsteten Weite der Scherbenwelt, tief im Herzen der Höllenfeuerhalbinsel, steht die Zitadelle des Höllenfeuers: Eine fast uneinnehmbare Festung, die der Horde als Ausgangspunkt für ihre Feldzüge während des Ersten und des Zweiten Krieges diente. Lange Jahre schien es, als sei diese gigantische Festung verlassen...\n \nBis vor kurzem.\n \nObwohl der rücksichtslose Ner'zhul große Bereiche Draenors zerschmetterte, blieb die Zitadelle des Höllenfeuers intakt - und wird nun von marodierenden Banden roter, wütender Höllenorcs bewohnt. Obwohl die Anwesenheit dieser neuen, wilden Brut an sich bereits ein Rätsel darstellt, ist es noch weitaus beunruhigender, dass die Anzahl der Höllenorcs stetig zu wachsen scheint.\n \nTrotz Thralls und Grom Hellscreams erfolgreicher Bemühungen, der Korruption der Horde Einhalt zu gebieten, indem sie Mannoroth töteten, scheint es, als hätten die barbarischen Orcs der Zitadelle des Höllenfeuers eine neue Quelle entdeckt, die ihre primitive Gier nach Blut stillt.",
@@ -5616,7 +5506,7 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 
 
---------------Inst41 / CFR: The Slave Pens------------
+--------------- INST41 - CR: The Slave Pens (SP) ---------------
 
 Inst41Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst41Caption = "EK: Die Sklavenunterkünfte"
@@ -5656,7 +5546,7 @@ Inst41Quest1name3_HORDE = Inst41Quest1name3
 
 
 
---------------Inst42 / CFR: The Steamvault------------
+--------------- INST42 - CR: The Steamvault (SV) ---------------
 
 Inst42Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst42Caption = "EK: Die Dampfkammer"
@@ -5788,7 +5678,7 @@ Inst42Quest5PreQuest_HORDE = Inst42Quest5PreQuest
 
 
 
---------------Inst43 / CFR: The Underbog------------
+--------------- INST43 - CR: The Underbog (UB) ---------------
 
 Inst43Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst43Caption = "EK: Der Tiefensumpf"
@@ -7393,7 +7283,7 @@ Inst57Caption = "SK: Waffenkammer"
 Inst57QAA = "1 Quest"
 Inst57QAH = "2 Quests"
 
---Quest 1 Allianz
+--Quest 1 Alliance
 Inst57Quest1 = "1. Im Namen des Lichts"
 Inst57Quest1_Level = "40"
 Inst57Quest1_Attain = "34"
@@ -7420,7 +7310,7 @@ Inst57Quest1_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Klo
 Inst57Quest1_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
 Inst57Quest1_HORDE_Folgequest = "Nein"
 Inst57Quest1PreQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst57Quest2_HORDE = "2. In das Scharlachrote Kloster"
@@ -7444,7 +7334,7 @@ Inst58Caption = "SK: Kathedrale"
 Inst58QAA = "1 Quest"
 Inst58QAH = "2 Quests"
 
---Quest 1 Allianz
+--Quest 1 Alliance
 Inst58Quest1 = "1. Im Namen des Lichts"
 Inst58Quest1_Level = "40"
 Inst58Quest1_Attain = "34"
@@ -7471,7 +7361,7 @@ Inst58Quest1_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Klo
 Inst58Quest1_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
 Inst58Quest1_HORDE_Folgequest = "Nein"
 Inst58Quest1PreQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst58Quest2_HORDE = "2. In das Scharlachrote Kloster"
@@ -7519,7 +7409,7 @@ Inst59Quest2_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Klo
 Inst59Quest2_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
 Inst59Quest2_HORDE_Folgequest = "Nein"
 Inst59Quest2PreQuest_HORDE = "true"
--- Keine Belohnung
+-- No Rewards for this quest
 
 
 --------------- INST61 - TK: The Eye ---------------
@@ -7894,6 +7784,131 @@ Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
 Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 
+---------------------------------------------------
+---------------- BATTLEGROUNDS --------------------
+---------------------------------------------------
+
+
+--------------- INST33 - Alterac Valley (AV) ---------------
+
+Inst33Story = "Vor langer Zeit schickte der Hexenmeister Guldan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Guldans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen DrekThar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Stormpike-Expedition gestört.\nDie Stormpikes haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen. "
+Inst33Caption = "Das Alteractal"
+
+
+--------------- INST34 - Arathi Basin (AB) ---------------
+
+Inst34Story = "Das Arathibecken im Arathihochland ist ein dynamisches und spannendes Schlachtfeld. Das Talbecken selbst verfügt über wertvolle Rohstoffe, um die die Allianz und die Horde erbitterte Schlachten austragen. Die Verlassenen Entweihten und der Bund von Arathor sind im Talbecken, um die Rohstoffe des Talbeckens für ihre Seite zu sichern und ihrem Gegner eine empfindliche Niederlage beizubringen."
+Inst34Caption = "Das Arathibecken"
+
+
+--------------- INST35 - Warsong Gulch (WSG) ---------------
+
+Inst35Story = "Eingebetted in das südliche Eschental ist die Warsongschlucht nahe dem Gebiet wo Grom Hellscream und seine Orks während des 3. Krieges große Teile des Waldes rodeten. Einige Orks blieben in der Nähe und setzten die Arbeit fort um bei der Erweiterung der Gebiete der Horde zu helfen. Sie nennen sich selber Warsong-Vorhut.\nDie Nachtelfen, die eine starke Offensive begonnen haben um den Eschentalwald zurück zuerobern, konzentrieren sich jetzt darauf die Warsong-Vorhut für immer zu vertreiben. Die Silverwing-Schildwache haben geschworen, dass sie nicht aufhören werden bis der letzte Ork besiegt ist und aus der Warsongschlucht entfernt wurde."
+Inst35Caption = "Die Warsongschlucht"
+
+
+--------------- INST60 - Eye of the Storm ---------------
+
+Inst60Story = "Weit über der verwüsteten Landschaft des Nethersturms schwebt die Insel, die als Auge des Sturms bekannt ist. Dieses Schlachtfeld ist von den Blutelfen wegen seiner reichen Energieablagerungen begehrt - und die Draenei versuchen es wegen ihrer mysteriösen Behälter einzufordern - Auge des Sturms."
+Inst60Caption = "Auge des Sturms"
+Inst60QAA = "keine Quests"
+Inst60QAH = "keine Quests"
+
+
+---------------------------------------------------
+---------------- OUTDOOR RAIDS --------------------
+---------------------------------------------------
+
+
+--------------- INST30 - Dragons of Nightmare ---------------
+
+Inst30Story = {
+  ["Page1"] = "Ein rauer Wind weht durch die Kronen der Großen Bäume. Etwas Unheimliches hat sich fernab der wachsamen Augen der Beschützer Azeroths eingeschlichen und bedroht nun Eschental, den Dämmerwald, Feralas und das Hinterland. Vier der mächtigen Wächter des grünen Drachenschwarms sind aus dem smaragdgrünen Traum zurückgekehrt, doch die einstmals stolzen Beschützer verbreiten nun nichts als Tod und Zerstörung. Azeroth braucht tapfere Abenteurer mehr denn je, die das Land gegen diese düsteren Vorboten verteidigen.",
+  ["Page2"] = "Ysera, der große Drachenaspekt der Träume, führt den geheimnisvollen grünen Drachenschwarm an. Ihr Reich sind die fantastischen, mystischen Weiten des smaragdgrünen Traums, und man erzählt sich, dass sie von dort aus die Evolution allen Lebens beeinflusst. Sie ist die Beschützerin der Natur und der Phantasie; ihr und ihrem Drachenschwarm wurde die Ehre zuteil, die Großen Bäume zu bewachen, durch die allein die Druiden in den Traum hinüberwechseln können.Vor kurzem wurden Yseras treueste Diener von einer dunklen neuen Macht besudelt, die sich im smaragdgrünen Traum ausbreitet. Nun sind die abtrünnigen Wächter durch die Großen Bäume nach Azeroth zurückgekehrt, um Angst und Schrecken in den Ländern der Sterblichen zu verbreiten. Selbst die mächtigsten Abenteurer sollten sich den Drachen nicht alleine entgegenstellen, um nicht die volle Gewalt ihres entfesselten Zornes zu spüren zu bekommen.",
+  ["Page3"] = "Als Lethon der Anomalie innerhalb des smaragdgrünen Traums ausgesetzt wurde, verdunkelte sich nicht nur die Tönung seiner Schuppen... der Drache erhielt auch die Fähigkeit, bösartige Schemen aus seinen Feinden aufzusaugen. Sobald diese mit ihrem Meister verschmelzen, heilt ihn die Energie der Schemen. So ist es keine Überraschung, das Lethon einer der Furcht erregendsten Abtrünnigen ist.",
+  ["Page4"] = "Eine mysteriöse, dunkle Macht innerhalb des smaragdgrünen Traums hat die einst majestätische Emeriss in eine verwesende, faulige Monstrosität verwandelt. Die wenigen, die eine Begegnung mit dem Drachen überlebt haben, erzählen Ekel erregende Geschichten von eitrigen Pilzen, die aus den Leichen gefallener Kämpfer sprießen. Ob diese Geschichten wahr oder nur die Ausgeburten geistig Verstörter sind, lässt sich wohl nur herausfinden, indem man der scheußlichen Bestie entgegentritt.",
+  ["Page5"] = "Von all jenen, die mit der Anomalie in Kontakt gekommen sind, hat Taerar wohl am meisten gelitten. Sie hat nicht bloß seinen Verstand, sondern auch seine körperliche Gestalt gespalten. Der Drache existiert nun als Phantom, das sich in mehrere Splittergestalten aufteilen kann, die über vernichtende magische Kräfte verfügen. Taerar ist ein gerissener und erbarmungsloser Gegner, der den Wahnsinn seiner eigenen Existenz für die Bewohner Azeroths zu einer grausamen Wirklichkeit machen will.",
+  ["Page6"] = "Ysondre, einst eine von Yseras vertrautesten Anhängerinnen, hat sich den Abtrünnigen angeschlossen und verbreitet nun Chaos und Terror in Azeroth. Ihre ehemals segensreichen Heilkräfte haben sich zu dunkler Magie gewandelt, mit der sie sengende Blitze verschleudern und fehlgeleitete Druiden zu Hilfe rufen kann. Ysondre und die ihren können ihre Gegner auch einschlafen lassen, wodurch ihre hilflosen Opfer in das Reich der schrecklichsten Alpträume geschickt werden.",
+  ["MaxPages"] = "6",
+};
+
+Inst30Caption = "Die Drachen des Alptraums"
+Inst30Caption2 = "Ysera und der grüne Drachenschwarm"
+Inst30Caption3 = "Lethon"
+Inst30Caption4 = "Emeriss"
+Inst30Caption5 = "Taerar"
+Inst30Caption6 = "Ysondre"
+Inst30QAA = "1 Quest"
+Inst30QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst30Quest1 = "1. Eingehüllt in Alpträume"
+Inst30Quest1_Level = "60"
+Inst30Quest1_Attain = "60"
+Inst30Quest1_Aim = "Sucht nach jemandem, der die Bedeutung des in Alpträume gehüllten Gegenstands entschlüsseln kann.\n\nVielleicht kann Euch ein Druide von großer Macht weiterhelfen."
+Inst30Quest1_Location = "In Alpträume gehüllter Gegenstand (droppt von Emeriss, Taerar, Lethon oder Ysondre)"
+Inst30Quest1_Note = "Die Quest wird bei Bewahrer Remulos bei (Mondlichtung - Schrein von Remulos; "..YELLOW.."36,41"..WHITE..") abgegeben. Die aufgeführte Questbelohnung gibt es bei der Folgequest."
+Inst30Quest1_Prequest = "Nein"
+Inst30Quest1_Folgequest = "Ja, Legenden erwachen"
+--
+Inst30Quest1name1 = "Malfurions Siegelring"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst30Quest1_HORDE = Inst30Quest1
+Inst30Quest1_HORDE_Level = Inst30Quest1_Level
+Inst30Quest1_HORDE_Attain = Inst30Quest1_Attain
+Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
+Inst30Quest1_HORDE_Location = Inst30Quest1_Location
+Inst30Quest1_HORDE_Note = Inst30Quest1_Note
+Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
+Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
+--
+Inst30Quest1name1_HORDE = Inst30Quest1name1
+
+
+--------------- INST31 - Azuregos ---------------
+
+Inst31Story = "Vor der Spaltung der Welt blühte die elfische Stadt Eldarath in den Landen, die nunmehr Azshara genannt werden. Manche sagen, dass unter den Ruinen der Stadt immer noch zahllose Artefakte der Hochgeborenen schlummern. Seit ungezählten Generationen wacht der blaue Drachenschwarm über mächtige Artefakte und magisches Wissen, damit nichts davon in die falschen Hände fällt. Die Anwesenheit von Azuregos, dem blauen Drachen, scheint darauf hinzuweisen, dass in der Wildnis von Azshara extrem seltene Gegenstände schlummern, vielleicht sogar die Phiolen der Ewigkeit. Doch egal was der Drache sucht, eins ist sicher - er wird bis zum letzten Kämpfen, um diese Schätze zu verteidigen!"
+Inst31Caption = "Azuregos"
+Inst31QAA = "1 Quest"
+Inst31QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst31Quest1 = "1. Uraltes in Sehnen eingewickeltes Laminablatt (Jäger)"
+Inst31Quest1_Level = "60"
+Inst31Quest1_Attain = "60"
+Inst31Quest1_Aim = "Hastat der Uralte hat Euch um die Beschaffung einer Sehne eines ausgewachsenen, blauen Drachen gebeten. Solltet Ihr diese Sehne finden, kehrt zu Hastat im Teufelswald zurück."
+Inst31Quest1_Location = "Hastat der Uralte (Teufelswald - Der Eisenwald; "..YELLOW.."48,24"..WHITE..")"
+Inst31Quest1_Note = "Töte Azuregos, um die Sehne eines ausgewachsenen blauen Drachen zu erhalten. Er wandert in der Mitte der südlichen Halbinsel Azsharas um "..YELLOW.."[1]"..WHITE.." umher."
+Inst31Quest1_Prequest = "Ja, Das uralte Blatt ("..YELLOW.."Geschmolzener Kern"..WHITE..")"
+Inst31Quest1_Folgequest = "Nein"
+Inst31Quest1PreQuest = "true"
+--
+Inst31Quest1name1 = "Uraltes in Sehnen eingewickeltes Laminablatt"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst31Quest1_HORDE = Inst31Quest1
+Inst31Quest1_HORDE_Level = Inst31Quest1_Level
+Inst31Quest1_HORDE_Attain = Inst31Quest1_Attain
+Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
+Inst31Quest1_HORDE_Location = Inst31Quest1_Location
+Inst31Quest1_HORDE_Note = Inst31Quest1_Note
+Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
+Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
+Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
+--
+Inst31Quest1name1_HORDE = Inst31Quest1name1
+
+
+--------------- INST32 - Highlord Kruul ---------------
+
+Inst32Story = "Hochlord Kruul ist ein Verdammniswachenboss, der während des Öffnungsevents des Dunklen Portals in verschiedenen Teilen Azeroths erschien (Patch 2.0.3). Nachdem das Dunkle Portal geöffnet wurde, hat er offiziell Fürst Kazzak ersetzt (jetzt Verdammnislord Kazzak in der Höllenfeuerhalbinsel der Scherbenwelt als Feldkommandant der Brennen Legion in Azeroth)."
+Inst32Caption = "Hochlord Kruul"
+Inst32QAA = "keine Quests"
+Inst32QAH = "keine Quests"
+
 
 --------------- INST64 - Doom Lord Kazzak ---------------
 
@@ -7908,7 +7923,6 @@ Inst64QAA = "keine Quests"
 Inst64QAH = "keine Quests"
 
 
-
 --------------- INST65 - Doomwalker ---------------
 
 Inst65Story = "Verdammniswandler ist ein mächtiger Teufelshäscher, der von Kil'jaeden ausgesendet wurde, um die Tore des Schwarzen Tempels im Schattenmondtal zu überfallen.\n\nEr ist ein ?? Elite (Boss) und hat genau die gleichen Fähigkeiten wie ein normaler Teufelshäscher, abgesehen von seiner Fähigkeit 'Überrennen'. Er ist allerdings wesentlich stärker und haut fester zu."
@@ -7917,17 +7931,15 @@ Inst65QAA = "keine Quests"
 Inst65QAH = "keine Quests"
 
 
-
-
-
-
 ----
 end
 ----
 
-----------------------------------
--- AQ Instance Numbers --
-----------------------------------
+
+---------------------------
+--- AQ Instance Numbers ---
+---------------------------
+
 
 -- 1  = Deadmines (VC)
 -- 2  = Wailing Caverns (WC)
