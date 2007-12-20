@@ -69,6 +69,9 @@ AQQLColourChange = ""..WHITE.."Colours all quest, you have in your Questlog "..B
 -- AutoQuery Quest Rewards
 AQOptionsAutoQueryTEXT = ""..WHITE.."Automatically query the server for items you haven't seen."
 
+-- Suppress Server Query text
+AQOptionsNoQuerySpamTEXT = ""..WHITE.."Suppress Server Query spam."
+
 -- Use Comparison Tooltips
 AQOptionsCompareTooltipTEXT = ""..WHITE.."Compare rewards to currently equipped items."
 
@@ -4742,8 +4745,8 @@ Inst25Quest1_Level = "50"
 Inst25Quest1_Attain = "41"
 Inst25Quest1_Aim = "Gather 10 Atal'ai Tablets for Brohann Caskbelly in Stormwind."
 Inst25Quest1_Location = "Brohann Caskbelly (Stormwind - Dwarven District; "..YELLOW.."64,20"..WHITE..")"
-Inst25Quest1_Note = "You can find the Tablets everywhere in the Temple, both outside and inside the instance."
-Inst25Quest1_Prequest = "Yes, In Search of The Temple(same NPC) -> Rhapsody's Tale"
+Inst25Quest1_Note = "The prequest line comes from the same NPC and has quite a few steps.\n\nYou can find the Tablets everywhere in the Temple, both outside and inside the instance."
+Inst25Quest1_Prequest = "Yes, In Search of The Temple -> Rhapsody's Tale"
 Inst25Quest1_Folgequest = "No"
 Inst25Quest1PreQuest = "true"
 --

@@ -39,11 +39,11 @@
 <!-- Option panel -->
 <Frame name="AtlasQuestOptionFrame" enableMouse="true" movable="true" hidden="true" parent="UIParent" toplevel="true" frameStrata="DIALOG" enableKeyboard="true">
  <Size>
-   <AbsDimension x="300" y="300"/>
+   <AbsDimension x="300" y="350"/>
  </Size>
  <Anchors>
    <Anchor point="TOP">
-      <Offset><AbsDimension x="0" y="-300"/></Offset>>
+      <Offset><AbsDimension x="0" y="-240"/></Offset>>
    </Anchor>
  </Anchors>
  <Backdrop name="$parentBackdrop" bgFile="Interface\Minimap\TooltipBackdrop-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
@@ -216,7 +216,8 @@
 	    </OnShow>
 	</Scripts>
    </CheckButton>
-   <CheckButton name="AQCompareTooltipOption" inherits="OptionsCheckButtonTemplate" checked="true">
+
+   <CheckButton name="AQNoQuerySpamOption" inherits="OptionsCheckButtonTemplate" checked="true">
     <Size>
       <AbsDimension x="30" y="30"/>
     </Size>
@@ -224,6 +225,30 @@
 		<Anchor point="TOPLEFT">
 			<Offset>
 				<AbsDimension x="10" y="-230"></AbsDimension>
+			</Offset>
+		</Anchor>
+		<HitRectInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0"/>
+        </HitRectInsets>
+	</Anchors>
+	<Scripts>
+		<OnClick>
+		  AQNoQuerySpamOption_OnClick();
+	    </OnClick>
+		<OnShow>
+	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    </OnShow>
+	</Scripts>
+   </CheckButton>
+
+   <CheckButton name="AQCompareTooltipOption" inherits="OptionsCheckButtonTemplate" checked="true">
+    <Size>
+      <AbsDimension x="30" y="30"/>
+    </Size>
+	<Anchors>
+		<Anchor point="TOPLEFT">
+			<Offset>
+				<AbsDimension x="10" y="-260"></AbsDimension>
 			</Offset>
 		</Anchor>
 		<HitRectInsets>
@@ -326,7 +351,7 @@
          </Anchor>
        </Anchors>
      </FontString>
-     <FontString name="AQCompareTooltipTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
+     <FontString name="AQNoQuerySpamTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
        <Size>
          <AbsDimension x="240" y="35"/>
        </Size>
@@ -334,6 +359,18 @@
          <Anchor point="TOPLEFT">
            <Offset>
               <AbsDimension x="45" y="-230"/>
+           </Offset>
+         </Anchor>
+       </Anchors>
+     </FontString>
+     <FontString name="AQCompareTooltipTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT" >
+       <Size>
+         <AbsDimension x="240" y="35"/>
+       </Size>
+       <Anchors>
+         <Anchor point="TOPLEFT">
+           <Offset>
+              <AbsDimension x="45" y="-260"/>
            </Offset>
          </Anchor>
        </Anchors>

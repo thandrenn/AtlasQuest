@@ -8,6 +8,7 @@ Version 4.1.0
 - EquipCompare support removed.
 - Comparison Tooltips added. This is optional and toggled off by default. Thanks to Daviesh & AtlasLoot for the code!
 - Server AutoQuery added. This is optional and toggled off by default. Re-used code from Daviesh & AtlasLoot.
+- Option added to turn off Server Query spam (suggested by Telchar).
 - German localization updated by Telchar.
 - German translation of Burning Crusade quests from Nalumis.
 - Added all Dungeon Daily quests.

@@ -85,6 +85,7 @@ local AtlasQuest_Defaults = {
     ["NOColourCheck"] = nil,
     ["CheckQuestlog"] = nil,
     ["AutoQuery"] = nil,
+    ["NoQuerySpam"] = "yes",
     ["CompareTooltip"] = nil,
 --    ["EquipCompare"] = nil,
   },
@@ -170,6 +171,8 @@ function AtlasQuest_LoadData()
   AQCheckQuestlog = AtlasQuest_Options[UnitName("player")]["CheckQuestlog"];
   -- AutoQuery option
   AQAutoQuery = AtlasQuest_Options[UnitName("player")]["AutoQuery"];
+  -- Suppress Server Query Text option
+  AQNoQuerySpam = AtlasQuest_Options[UnitName("player")]["NoQuerySpam"];
   -- Comparison Tooltips option
   AQCompareTooltip = AtlasQuest_Options[UnitName("player")]["CompareTooltip"];
 
@@ -193,6 +196,7 @@ function AtlasQuest_SaveData()
   AtlasQuest_Options[UnitName("player")]["ColourCheck"] = AQNOColourCheck;
   AtlasQuest_Options[UnitName("player")]["CheckQuestlog"] = AQCheckQuestlog;
   AtlasQuest_Options[UnitName("player")]["AutoQuery"] = AQAutoQuery;
+  AtlasQuest_Options[UnitName("player")]["NoQuerySpam"] = AQNoQuerySpam;
   AtlasQuest_Options[UnitName("player")]["CompareTooltip"] = AQCompareTooltip;
 --  AtlasQuest_Options[UnitName("player")]["EquipCompare"] = AQEquipCompare;
 end
@@ -249,6 +253,7 @@ function AQSetButtontext()
       AQFQ_TEXT:SetText(AQFinishedTEXT);
       AQCheckQuestlogTEXT:SetText(AQQLColourChange);
       AQAutoQueryTEXT:SetText(AQOptionsAutoQueryTEXT);
+      AQNoQuerySpamTEXT:SetText(AQOptionsNoQuerySpamTEXT);
       AQCompareTooltipTEXT:SetText(AQOptionsCompareTooltipTEXT);
 --      AQEquipCompareOptionTEXT:SetText(WHITE .. AQOptionEquipCompareTEXT)
 end
@@ -720,7 +725,7 @@ function AtlasQuestItem_OnLeave()
 end
 
 -----------------------------------------------------------------------------
--- Show Tooltip
+-- Show Tooltip and automatically query server if option is enabled
 -----------------------------------------------------------------------------
 
 function AtlasQuestItem_OnEnter()
@@ -756,7 +761,9 @@ local queststring
               if(AQAutoQuery ~= nil) then
                  AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
 		 AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
-		 DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKAuto);
+		 if(AQNoQuerySpam == nil) then
+		   DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKAuto);
+		 end
 		 AtlasQuestTooltip:Show();
               else
                  AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
@@ -797,7 +804,9 @@ end
                    AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
                    AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
                    AtlasQuestTooltip:Show();
-                   DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKInformation);
+                   if(AQNoQuerySpam == nil) then
+                     DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKInformation);
+                   end
         elseif(IsShiftKeyDown()) then
             if (GetItemInfo(SHOWNID)) then
               itemName, itemLink, itemQuality = GetItemInfo(SHOWNID);
