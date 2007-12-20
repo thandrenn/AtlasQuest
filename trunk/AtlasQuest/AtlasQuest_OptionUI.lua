@@ -65,6 +65,13 @@ function AtlasQuestOptionFrame_OnShow()
       AQAutoQueryOption:SetChecked(true);
     end
 
+    -- Suppress Server Query Text
+    if (AQNoQuerySpam == nil) then
+      AQNoQuerySpamOption:SetChecked(false);
+    else
+      AQNoQuerySpamOption:SetChecked(true);
+    end
+
     -- ComparisonTooltips
     if (AQCompareTooltip == nil) then
       AQCompareTooltipOption:SetChecked(false);
@@ -190,6 +197,20 @@ function AQAutoQueryOption_OnClick()
  else
    AQAutoQuery = nil;
    AQAutoQueryOption:SetChecked(false);
+ end
+ AtlasQuest_SaveData();
+end
+
+---------------------------------
+-- Suppress AutoQuery Text Option
+---------------------------------
+function AQNoQuerySpamOption_OnClick()
+ if (AQNoQuerySpam == nil) then
+   AQNoQuerySpam = "yes";
+   AQNoQuerySpamOption:SetChecked(true);
+ else
+   AQNoQuerySpam = nil;
+   AQNoQuerySpamOption:SetChecked(false);
  end
  AtlasQuest_SaveData();
 end
