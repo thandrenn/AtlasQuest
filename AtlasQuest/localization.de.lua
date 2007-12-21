@@ -71,10 +71,13 @@ AQCCON = "Die Quests werden jetzt nach dem Questlevel gefärbt."
 AQCCOFF = "Die Quests werden jetzt "..RED.."nicht"..WHITE.." mehr nach dem Questlevel gefärbt."
 
 -- QuestLog Colour Check
-AQQLColourChange = ""..WHITE.."Alle Quests, die in deinem Questlog sind, werden "..BLUE.."blau"..WHITE.." gefärbt."
+AQQLColourChange = ""..WHITE.."Alle Quests, die in deinem Questlog sind "..BLUE.."blau"..WHITE.." färben."
 
 -- AutoQuery Quest Rewards
-AQOptionsAutoQueryTEXT = ""..WHITE.."Der Server wird automatisch nach den Gegenständen abgefragt, die du noch nicht gesehen hast."
+AQOptionsAutoQueryTEXT = ""..WHITE.."Den Server automatisch nach den Gegenständen abfragen, die man noch nicht gesehen hat."
+
+-- Suppress Server Query text
+AQOptionsNoQuerySpamTEXT = ""..WHITE.."Die Textmeldungen bei der Serverabfrage unterdrücken."
 
 -- Use Comparison Tooltips
 AQOptionsCompareTooltipTEXT = ""..WHITE.."Die Belohnungen mit den derzeit angelegten Gegenständen vergleichen."
@@ -100,6 +103,7 @@ AQDiscription_NOTE = "Informationen: \n"
 AQDiscription_PREQUEST = "Vorquest: "
 AQDiscription_FOLGEQUEST = "Folgequest: "
 AQFinishedTEXT = "Quest abgeschlossen: ";
+
 
 ------------------
 --- ITEM TYPES ---
@@ -153,9 +157,11 @@ AQITEM_AMMOPOUCH = "Munitionsbeutel"
 AQITEM_ENCHANT = "Verzauberung"
 
 
+
 ----------------------------------------------
 ---------------- DUNGEONS --------------------
 ----------------------------------------------
+
 
 
 --------------- INST1 - Deadmines (VC) ---------------
@@ -258,6 +264,7 @@ Inst1Quest7_Note = "Baros Alexston befindet sich in Sturmwind, neben der Kathedr
 Inst1Quest7_Prequest = "Nein"
 Inst1Quest7_Folgequest = "Ja, Bazil Thredd"
 -- No Rewards for this quest
+
 
 
 --------------- INST2 - Wailing Caverns (WC) ---------------
@@ -422,6 +429,7 @@ Inst2Quest7name1_HORDE = Inst2Quest5name1
 Inst2Quest7name2_HORDE = Inst2Quest5name2
 
 
+
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
 Inst3Story = "Der Flammenschlund besteht aus einer Reihe vulkanischer Höhlen, die unter Orgrimmar verlaufen, der neuen Hauptstadt der Orcs. Vor nicht allzulanger Zeit soll sich in den feurigen Tiefen ein Kult eingenistet haben, der dem dämonischen Schattenrat nahe steht. Dieser Kult, der sich selbst die Brennende Klinge nennt, stellt eine direkte Bedrohung der Unabhängigkeit von Orgrimmar dar. Viele glauben, dass Kriegshäuptling Thrall die Brennende Klinge nur deshalb nicht sofort auslöscht, weil er sich erhofft, dass sie ihn direkt zu seinem wahren Feind führen werden, dem mysteriösen Schattenrat selbst. Dennoch könnten die dunklen Mächte, die sich im Flammenschlund sammeln, alles zerstören, was die Orcs mit so viel Blut und Leid erkämpft haben."
@@ -493,6 +501,7 @@ Inst3Quest5_HORDE_Note = "Taragaman findet man bei "..YELLOW.."[2]"..WHITE.."."
 Inst3Quest5_HORDE_Prequest = "Nein"
 Inst3Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
+
 
 
 --------------- INST4 - Uldaman (Ulda) ---------------
@@ -825,6 +834,7 @@ Inst4Quest10_HORDE_Prequest = Inst4Quest16_Prequest
 Inst4Quest10_HORDE_Folgequest = Inst4Quest16_Folgequest
 Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
 -- No Rewards for this quest
+
 
 
 --------------- INST5 - Blackrock Depths (BRD) ---------------
@@ -1301,6 +1311,7 @@ Inst5Quest18_HORDE_Folgequest = Inst5Quest18_Folgequest
 -- No Rewards for this quest
 
 
+
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
 Inst6Story = {
@@ -1388,6 +1399,7 @@ Inst6Quest3_HORDE_Note = Inst6Quest3_Note
 Inst6Quest3_HORDE_Prequest = Inst6Quest3_Prequest
 Inst6Quest3_HORDE_Folgequest = Inst6Quest3_Folgequest
 -- No Rewards for this quest
+
 
 
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
@@ -1536,6 +1548,7 @@ Inst7Quest5_HORDE_Folgequest = Inst7Quest6_Folgequest
 --
 Inst7Quest5name1_HORDE = Inst7Quest6name1
 Inst7Quest5name2_HORDE = Inst7Quest6name2
+
 
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
@@ -1899,6 +1912,7 @@ Inst8Quest14name1_HORDE = Inst8Quest14name1
 Inst8Quest14name2_HORDE = Inst8Quest14name2
 
 
+
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
 
 Inst9Story = "Die mächtige Festung, die aus der feurigen Flanke des Schwarzfels herausgeschnitten wurde, geht auf Entwürfe des zwergischen Meistersteinmetzes Franclorn Schmiedevater zurück. Jahrhunderte lang war die Zitadelle ein Symbol der Macht des Dunkeleisenklans, das von den Zwergen mit äußerstem Ingrimm verteidigt wurde. Allerdings gab es jemanden, der andere Pläne für die Zitadelle hatte: Nefarian, der listige Sohn des Drachen Deathwing, stieg eines Tages mit Flamme und Klaue auf den oberen Teil der Zitadelle hinab und trug zusammen mit seinen drachischen Untergebenen den Kampf bis zu den Stellungen der Zwerge tief unten, bei den vulkanischen Abgründen unter dem Berg. Dort erkannte der Drache, dass der Anführer der Zwerge kein geringerer als der Feuerfürst Ragnaros höchstpersönlich war. Nachdem sein Vordringen gestoppt worden war, schwor sich Nefarian, seine Feinde endgültig zu vernichten und somit die Herrschaft über den Schwarzfels an sich zu reißen."
@@ -2196,6 +2210,7 @@ Inst9Quest12name2_HORDE = Inst9Quest11name2
 Inst9Quest12name3_HORDE = Inst9Quest11name3
 
 
+
 --------------- INST10 - Dire Maul East (DM) ---------------
 
 Inst10Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen - besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
@@ -2332,6 +2347,7 @@ Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
 -- No Rewards for this quest
 
 
+
 --------------- INST11 - Dire Maul North (DM) ---------------
 
 Inst11Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen - besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
@@ -2437,6 +2453,7 @@ Inst11Quest4name1_HORDE = Inst11Quest4name1
 Inst11Quest4name2_HORDE = Inst11Quest4name2
 Inst11Quest4name3_HORDE = Inst11Quest4name3
 Inst11Quest4name4_HORDE = Inst11Quest4name4
+
 
 
 --------------- INST12 - Dire Maul West (DM) ---------------
@@ -2856,6 +2873,7 @@ Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
 -- No Rewards for this quest
 
 
+
 --------------- INST13 - Maraudon (Mara) ---------------
 
 Inst13Story = "Maraudon, eine der heiligsten Stätten in Desolace, wird von den wilden Maraudinezentauren beschützt. Der große Tempel ist die letzte Ruhestätte von Zaetar, einem der zwei unsterblichen Söhne des Halbgottes Cenarius. Die Legende besagt, dass Zaetar zusammen mit Theradras, der Prinzessin der Erdelementare, das missgestaltete Volk der Zentauren in die Welt setzte. Man sagt, dass die barbarischen Zentauren, als sie sich ihrer abscheulichen Gestalt gewahr wurden, sich von wildem Zorn beseelt auf ihren Vater stürzten und ihn ermordeten. Einige glauben, dass Theradras in ihrer Trauer den Geist von Zaetar in den gewundenen Höhlen von Maraudon einfing und seine Energien für einen bösartigen Zweck missbrauchte. Die Tunnel des Heligtums sind nun das Zuhause der finsteren Geister längst verstorbener Zentauren und Theradras eigener elementarer Diener."
@@ -3075,6 +3093,7 @@ Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
 -- No Rewards for this quest
 
 
+
 --------------- INST14 - Molten Core (MC) ---------------
 
 Inst14Story = "Der geschmolzene Kern befindet sich am tiefsten Punkt des Schwarzfels. Genau hier, im Herzen des Berges, beschwor Imperator Thaurissan vor langer Zeit in einem Akt der Verzweiflung den elementaren Feuerfürsten Ragnaros, um seinen gescheiterten Putsch gegen die Zwerge von Eisenschmiede doch noch in einen Sieg zu verwandeln. Obwohl der Feuerfürst immer in der Nähe des feurigen Kerns bleiben muss, treiben seine Offiziere die Dunkeleisenzwerge gnadenlos dazu an, ihm eine Armee aus lebendem Gestein zu erschaffen. Der See aus Magma, in dem Ragnaros schläft, ist in Wirklichkeit ein interplanarer Riss, durch den bösartige Feuerelementare von der Ebene des Feuers nach Azeroth gelangen. Der höchstrangige von Ragnaros' Untergebenen ist Majordomus Exekutus, der als einziger in der Lage ist, den schlafenden Feuerfürsten zu wecken."
@@ -3200,6 +3219,7 @@ Inst14Quest5_HORDE_Note = Inst14Quest5_Note
 Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
 Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
 -- No Rewards for this quest
+
 
 
 --------------- INST15 - Naxxramas (Naxx) ---------------
@@ -3338,6 +3358,7 @@ Inst15Quest5FQuest_HORDE = Inst15Quest5FQuest
 Inst15Quest5name1_HORDE = Inst15Quest5name1
 
 
+
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
 Inst16Story = "Onyxia ist die Tochter des mächtigen Drachen Todesschwinge und die Schwester des gerissenen Nefarian, dem Fürsten des Schwarzfels. Selbst für einen Drachen ist Onyxia äußerst intelligent, und sie nimmt gerne die Form einer Sterblichen an, um sich heimlich in die politischen Angelegenheiten der sterblichen Völker einzumischen. Obwohl sie für einen schwarzen Drachen ihres Alters recht klein ist, verfügt sie dennoch über die gleichen Kräfte und Fähigkeiten wie der Rest ihres fürchterlichen Schwarms. Manche sagen, Onyxia habe sogar eine Tarnidentität ihres Vaters übernommen - den Titel des königlichen Hauses Prestor. Wenn sie sich nicht in den Angelegenheiten der Sterblichen einmischt, ruht Onyxia in einer feurigen Höhle unterhalb des Drachensumpfes, einer unwirtlichen Gegend der Düstermarschen. Dort wird sie von ihren Gefolgsleuten bewacht, den verbleibenden Mitgliedern des grausamen schwarzen Drachenschwarms"
@@ -3399,6 +3420,7 @@ Inst16Quest2_HORDE_Folgequest = "Ja, Für alle sichtbar"
 Inst16Quest2name1_HORDE = "Talisman mit Onyxiablut"
 Inst16Quest2name2_HORDE = "Drachentötersignet"
 Inst16Quest2name3_HORDE = "Zahn Onyxias"
+
 
 
 --------------- INST17 - Razorfen Downs (RFD) ---------------
@@ -3497,6 +3519,7 @@ Inst17Quest4_HORDE_Folgequest = "Nein"
 --
 Inst17Quest4name1_HORDE = "Bezwingerschwert"
 Inst17Quest4name2_HORDE = "Bernsteingluttalisman"
+
 
 
 --------------- INST18 - Razorfen Kraul (RFK) ---------------
@@ -3638,6 +3661,7 @@ Inst18Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
+
 --------------- INST19 - SM: Library (SM Lib) ---------------
 
 Inst19Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
@@ -3749,6 +3773,7 @@ Inst19Quest5_HORDE_Folgequest = "Nein"
 Inst19Quest5name1_HORDE = "Schwert des Omens"
 Inst19Quest5name2_HORDE = "Stock des Propheten"
 Inst19Quest5name3_HORDE = "Drachenbluthalskette"
+
 
 
 --------------- INST20 - Scholomance (Scholo) ---------------
@@ -4011,6 +4036,7 @@ Inst20Quest10PreQuest_HORDE = Inst20Quest10PreQuest
 -- No Rewards for this quest
 
 
+
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
 Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgs nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgs die Burg des adligen Barons Silberlein jenseits des unscheinbaren Dörfchens Lohenscheit angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgs als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silberlein."
@@ -4097,44 +4123,46 @@ Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 
+
 --------------- INST22 - Stratholme (Strat) ---------------
 
-Inst22Story = "Einst war Stratholme das Juwel von Lordaeron, aber es ist schon lange her, dass jemand die Stadt bei diesem Namen genannt hat. Hier, an genau diesem Ort, vollzog sich der Anfang des Untergangs von Lordaeron, als sich Arthas gegen seinen Mentor Uther Lightbringer wandte und hunderte treu ergebener Untertanen, die angeblich mit der Seuche des Untodes in Berührung gekommen waren, ohne jegliches Erbarmen zur Schlachtbank führte. Dies war der erste Schritt auf Arthas langer Reise abwärts in die finstersten Abgründe der menschlichen Seele, die ihn schließlich in die offenen Arme des Lichkönigs trieb. Stratholme ist nun unter der Verwaltung des mächtigen Lichs Kel'thuzad eine Festung der untoten Geißel. Ein Teil der Ruinen wird mit dem Mut der Verzweiflung von einem Kontingent Scharlachroter Kreuzritter gehalten, die von dem Obersten Kreuzritter Dathrohan angeführt werden. Beide Seiten sind in einem erbitterten Straßenkampf gefangen. Abenteurer, die mutig (oder töricht) genug sind, Stratholme zu betreten, werden sich früher oder später mit beiden Seiten auseinandersetzen müssen. Man sagt, die Stadt werde von drei gewaltigen Wachtürmen, mächtigen Totenbeschwörern, Banshees und Monstrositäten bewacht. Es gibt auch Berichte von einem unheimlichen Todesritter, der auf seinem untoten Ross durch die Straßen reitet, und jeden heimsucht, der es wagt, in das Reich der Geißel vorzudringen."
+Inst22Story = "Einst war Stratholme das Juwel von Lordaeron, aber es ist schon lange her, dass jemand die Stadt bei diesem Namen genannt hat. Hier, an genau diesem Ort, vollzog sich der Anfang des Untergangs von Lordaeron, als sich Arthas gegen seinen Mentor Uther Lichtbringer wandte und hunderte treu ergebener Untertanen, die angeblich mit der Seuche des Untodes in Berührung gekommen waren, ohne jegliches Erbarmen zur Schlachtbank führte. Dies war der erste Schritt auf Arthas langer Reise abwärts in die finstersten Abgründe der menschlichen Seele, die ihn schließlich in die offenen Arme des Lichkönigs trieb. Stratholme ist nun unter der Verwaltung des mächtigen Lichs Kel'thuzad eine Festung der untoten Geißel. Ein Teil der Ruinen wird mit dem Mut der Verzweiflung von einem Kontingent Scharlachroter Kreuzritter gehalten, die von dem Obersten Kreuzzügler Dathrohan angeführt werden. Beide Seiten sind in einem erbitterten Straßenkampf gefangen. Abenteurer, die mutig (oder töricht) genug sind, Stratholme zu betreten, werden sich früher oder später mit beiden Seiten auseinandersetzen müssen. Man sagt, die Stadt werde von drei gewaltigen Wachtürmen, mächtigen Totenbeschwörern, Banshees und Monstrositäten bewacht. Es gibt auch Berichte von einem unheimlichen Todesritter, der auf seinem untoten Ross durch die Straßen reitet, und jeden heimsucht, der es wagt, in das Reich der Geißel vorzudringen."
 Inst22Caption = "Stratholme"
-Inst22QAA = "11 Quests"
-Inst22QAH = "12 Quests"
+Inst22QAA = "17 Quests"
+Inst22QAH = "18 Quests"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. Das Fleisch lügt nicht"
-Inst22Quest1_Attain = "?"
 Inst22Quest1_Level = "60"
-Inst22Quest1_Aim = "Sammelt 20 verseuchte Fleischproben in Stratholme und bringt sie zu Betina Bigglezink zurück. Ihr vermutet, dass Ihr besagte Fleischproben bei jeder Kreatur in Stratholme finden könnt."
-Inst22Quest1_Location = "Betina Bigglezink (Östliche Pestländer; "..YELLOW.."81,59"..WHITE..")"
-Inst22Quest1_Note = "Das Fleisch kann bei fast allen Gegnern in Stratholme droppen."
+Inst22Quest1_Attain = "55"
+Inst22Quest1_Aim = "Sammelt 10 verseuchte Fleischproben in Stratholme und bringt sie zu Betina Moppelzink zurück. Ihr vermutet, dass Ihr besagte Fleischproben bei jeder Kreatur in Stratholme finden könnt."
+Inst22Quest1_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
+Inst22Quest1_Note = "Das Fleisch kann bei fast allen Gegnern in Stratholme droppen, aber die Rate ist recht niedrig."
 Inst22Quest1_Prequest = "Nein"
 Inst22Quest1_Folgequest = "Ja, Der aktive Wirkstoff"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst22Quest2 = "2. Der aktive Wirkstoff"
-Inst22Quest2_Attain = "58"
 Inst22Quest2_Level = "60"
-Inst22Quest2_Aim = "Reist nach Stratholme und durchsucht die Ziggurats. Sucht neue Geißeldaten und bringt sie zu Betina Bigglezink zurück."
-Inst22Quest2_Location = "Betina Bigglezink (Östliche Pestländer; "..YELLOW.."81,59"..WHITE..")"
-Inst22Quest2_Note = "Die Daten sind in einem der drei Türme (per Zufall verteilt). Die Türme sind nahe "..YELLOW.."[10]"..WHITE..", "..YELLOW.."[11]"..WHITE.." und "..YELLOW.."[12]"..WHITE.."."
+Inst22Quest2_Attain = "55"
+Inst22Quest2_Aim = "Reist nach Stratholme und durchsucht die Ziggurats. Sucht neue Geißeldaten und bringt sie zu Betina Moppelzink zurück."
+Inst22Quest2_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
+Inst22Quest2_Note = "Die Daten sind in einem der drei Türme, die man nahe "..YELLOW.."[15]"..WHITE..", "..YELLOW.."[16]"..WHITE.." und "..YELLOW.."[17]"..WHITE.." findet."
 Inst22Quest2_Prequest = "Ja, Das Fleisch lügt nicht"
 Inst22Quest2_Folgequest = "Nein"
+Inst22Quest2FQuest = "true"
 --
 Inst22Quest2name1 = "Siegel der Dämmerung"
 Inst22Quest2name2 = "Rune der Dämmerung"
 
 --Quest 3 Alliance
 Inst22Quest3 = "3. Häuser der Heiligen"
-Inst22Quest3_Attain = "?"
 Inst22Quest3_Level = "60"
-Inst22Quest3_Aim = "Begebt Euch nach Stratholme im Norden. Durchsucht die Vorratskisten, die über die Stadt verstreut sind, und holt 5 Einheiten Heiliges Wasser von Stratholme. Kehrt zu Leonid Barthalomew dem Geachteten zurück, wenn Ihr genug der gesegneten Flüssigkeit gesammelt habt."
-Inst22Quest3_Location = "Leonid Barthalomew der Geachtete (Östliche Pestländer; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest3_Note = "Das Heilige Wasser findet man in Vorratskisten die überall in der Stadt verteilt herum stehen. Wenn man die Kisten öffnet kann es passieren, dass Käfer erscheinen und angreifen."
+Inst22Quest3_Attain = "55"
+Inst22Quest3_Aim = "Begebt Euch nach Stratholme im Norden. Durchsucht die Vorratskisten, die über die Stadt verstreut sind, und holt 5 Einheiten Weihwasser von Stratholme. Kehrt zu Leonidas Bartholomäus dem Geachteten zurück, wenn Ihr genug der gesegneten Flüssigkeit gesammelt habt."
+Inst22Quest3_Location = "Leonidas Bartholomäus der Geachtete (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."80,58"..WHITE..")"
+Inst22Quest3_Note = "Das Weihwasser findet man in Vorratskisten, die überall in der Stadt verteilt sind. Wenn man die Kisten öffnet kann es passieren, dass Käfer erscheinen und angreifen."
 Inst22Quest3_Prequest = "Nein"
 Inst22Quest3_Folgequest = "Nein"
 --
@@ -4145,11 +4173,11 @@ Inst22Quest3name4 = "Band des reuigen Sünders"
 
 --Quest 4 Alliance
 Inst22Quest4 = "4. Der große Fras Siabi"
-Inst22Quest4_Attain = "?"
 Inst22Quest4_Level = "60"
+Inst22Quest4_Attain = "55"
 Inst22Quest4_Aim = "Sucht Fras Siabis Raucherladen in Stratholme und bergt einen Kasten von Siabis Tollem Tabak. Kehrt zu Smokey LaRue zurück, wenn Eure Aufgabe erledigt ist."
-Inst22Quest4_Location = "Smokey LaRue (Östliche Pestländer; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest4_Note = "Den Raucherladen findet man bei "..YELLOW.."[1]"..WHITE..". Fras Siabi spawnt, wenn man den Kasten öffnet."
+Inst22Quest4_Location = "Smokey LaRue (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."80,58"..WHITE..")"
+Inst22Quest4_Note = "Den Raucherladen findet man bei "..YELLOW.."[1]"..WHITE..". Fras Siabi erscheint, wenn man den Kasten öffnet."
 Inst22Quest4_Prequest = "Nein"
 Inst22Quest4_Folgequest = "Nein"
 --
@@ -4160,42 +4188,45 @@ Inst22Quest5 = "5. Die ruhelosen Seelen"
 Inst22Quest5_Attain = "55"
 Inst22Quest5_Level = "60"
 Inst22Quest5_Aim = "Wendet Egans Blaster auf die geisterhaften und spektralen Bürger von Stratholme an. Wenn die ruhelosen Geister ihre geisterhaften Hüllen sprengen, wendet den Blaster erneut an - dann sind sie endlich frei!\nBefreit 15 ruhelose Seelen und kehrt zu Egan zurück."
-Inst22Quest5_Location = "Egan (Östliche Pestländer(NW); "..YELLOW.."14,33"..WHITE..")"
-Inst22Quest5_Note = "Die Vorquest bekommt man von Verwalter Alen(Östliche Pestländer; "..YELLOW.."79,63"..WHITE..")\nDie spektralen Bürger laufen überall in Stratholme herum."
+Inst22Quest5_Location = "Egan (Östliche Pestländer; "..YELLOW.."14,33"..WHITE..")"
+Inst22Quest5_Note = "Das Vorquest bekommt man von Verwalter Alen (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."79,63"..WHITE.."). Die Spektralen Bürger laufen überall in Stratholme herum."
 Inst22Quest5_Prequest = "Ja, Die ruhelosen Seelen"
 Inst22Quest5_Folgequest = "Nein"
+Inst22Quest5PreQuest = "true"
 --
 Inst22Quest5name1 = "Testament der Hoffnung"
 
 --Quest 6 Alliance
-Inst22Quest6 = "6. Von Liebe und Familie (Questreihe)"
-Inst22Quest6_Attain = "53"
+Inst22Quest6 = "6. Von Liebe und Familie"
 Inst22Quest6_Level = "60"
+Inst22Quest6_Attain = "52"
 Inst22Quest6_Aim = "Begebt Euch nach Stratholme im nördlichen Teil der Pestländer. In der scharlachroten Bastion findet Ihr das Gemälde 'Von Liebe und Familie', das zwischen anderen Gemälden versteckt ist und auf dem die Zwillingsmonde unserer Welt abgebildet sind.\nBringt das Gemälde zu Tirion Fordring."
-Inst22Quest6_Location = "Grafiker Renfray (Westliche Pestländer; "..YELLOW.."65,75"..WHITE..")"
-Inst22Quest6_Note = "Die Vorquest bekommt man von Tirion Fordring(Westliche Pestländer; "..YELLOW.."7,43"..WHITE..").\nDas Bild findet man bei "..YELLOW.."[7]"..WHITE.."."
+Inst22Quest6_Location = "Künstlerin Renfray (Westliche Pestländer - Darrowehr; "..YELLOW.."65,75"..WHITE..")"
+Inst22Quest6_Note = "Das Vorquest bekommt man von Tirion Fordring (Westliche Pestländer; "..YELLOW.."7,43"..WHITE.."). Das Bild findet man bei "..YELLOW.."[10]"..WHITE.."."
 Inst22Quest6_Prequest = "Ja, Erlösung - > Von Liebe und Familie"
 Inst22Quest6_Folgequest = "Ja, Myranda suchen"
+Inst22Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst22Quest7 = "7. Menethils Geschenk (Questreihe)"
-Inst22Quest7_Attain = "53"
+Inst22Quest7 = "7. Menethils Geschenk"
 Inst22Quest7_Level = "60"
+Inst22Quest7_Attain = "57"
 Inst22Quest7_Aim = "Begebt Euch nach Stratholme und sucht Menethils Geschenk. Platziert das Andenken der Erinnerung auf dem unheiligen Boden."
-Inst22Quest7_Location = "Leonid Barthalomew der Geachtete (Östliche Pestländer; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest7_Note = "Die Vorquest bekommt man von Magistrat Marduke (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..").\nDas Pentagramm ist bei "..YELLOW.."[15]"..WHITE.." zu finden. Siehe auch "..YELLOW.."[Der Lich Ras Frostraunen]"..WHITE.." in Scholomance."
+Inst22Quest7_Location = "Leonidas Bartholomäus der Geachtete (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."80,58"..WHITE..")"
+Inst22Quest7_Note = "Das Vorquest bekommt man von Magistrat Marduk (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE.."). Das Pentagramm befindet sich bei "..YELLOW.."[19]"..WHITE..". Siehe auch: "..YELLOW.."[Der Lich Ras Frostraunen]"..WHITE.." in Scholomance."
 Inst22Quest7_Prequest = "Ja, Der Mensch Ras Frostraunen - > Der Sterbende Ras Frostraunen"
 Inst22Quest7_Folgequest = "Ja, Menethils Geschenk"
+Inst22Quest7PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
 Inst22Quest8 = "8. Aurius' Abrechnung"
-Inst22Quest8_Attain = "?"
 Inst22Quest8_Level = "60"
-Inst22Quest8_Aim = "???"
-Inst22Quest8_Location = "Aurius (Stratholme; "..YELLOW.."[8]"..WHITE..")"
-Inst22Quest8_Note = "Um die Quest zu starten muss man das [Das Medaillon des Glaubens] bei Aurius abgeben. Das Medalion findet man in einer Kiste in der ersten Kammer der Bastion(bevor sich der Weg teilt). Wenn man das Medallion abgegeben hat hilft Aurius beim Kampf gegen den Baron("..YELLOW.."[15]"..WHITE.."). Sobald er besiegt es muss man Aurius nochmal ansprechen um die Questbelohnung zu erhalten."
+Inst22Quest8_Attain = "55"
+Inst22Quest8_Aim = "Tötet den Baron."
+Inst22Quest8_Location = "Aurius (Stratholme; "..YELLOW.."[13]"..WHITE..")"
+Inst22Quest8_Note = "Um das Quest zu starten muss man [Das Medaillon des Glaubens] bei Aurius abgeben. Das Medaillon findet man in einer Kiste (Malors Geldkassette "..YELLOW.."[7]"..WHITE..") in der ersten Kammer der Bastion (bevor sich der Weg teilt). Wenn man das Medaillon abgegeben hat hilft Aurius beim Kampf gegen den Baron "..YELLOW.."[19]"..WHITE..". Sobald dieser besiegt ist muss man Aurius nochmal ansprechen, um die Questbelohnung zu erhalten."
 Inst22Quest8_Prequest = "Nein"
 Inst22Quest8_Folgequest = "Nein"
 --
@@ -4204,193 +4235,427 @@ Inst22Quest8name2 = "Blut des Märtyrers"
 
 --Quest 9 Alliance
 Inst22Quest9 = "9. Der Archivar"
-Inst22Quest9_Attain = "55"
 Inst22Quest9_Level = "60"
+Inst22Quest9_Attain = "55"
 Inst22Quest9_Aim = "Reist nach Stratholme und sucht Archivar Galford vom Scharlachroten Kreuzzug. Vernichtet ihn und verbrennt das Scharlachrote Archiv."
-Inst22Quest9_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer; "..YELLOW.."81, 59"..WHITE..")"
-Inst22Quest9_Note = "Das Archiv und den Archivar findet man bei "..YELLOW.."[6]"..WHITE.."."
+Inst22Quest9_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
+Inst22Quest9_Note = "Das Archiv und den Archivar findet man bei "..YELLOW.."[10]"..WHITE.."."
 Inst22Quest9_Prequest = "Nein"
 Inst22Quest9_Folgequest = "Ja, Die Wahrheit zeigt sich mit Macht"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
 Inst22Quest10 = "10. Die Wahrheit zeigt sich mit Macht"
-Inst22Quest10_Attain = "58"
 Inst22Quest10_Level = "60"
-Inst22Quest10_Aim = "Bringt den Kopf von Balnazzar zu Fürst Nicholas Zverenhoff in den Östlichen Pestländern."
-Inst22Quest10_Location = "Balnazzar (Stratholme; "..YELLOW.."[7]"..WHITE..")"
-Inst22Quest10_Note = "Fürst Nicholas Zverenhoff findet man in den Östliche Pestländer("..YELLOW.."81, 59"..WHITE..")."
+Inst22Quest10_Attain = "55"
+Inst22Quest10_Aim = "Bringt den Kopf von Balnazzar zu Fürst Nicholas Zverenhoff in den östlichen Pestländern."
+Inst22Quest10_Location = "Balnazzar (Stratholme; "..YELLOW.."[11]"..WHITE..")"
+Inst22Quest10_Note = "Fürst Nicholas Zverenhoff findet man in den Östlichen Pestländern - Kapelle des hoffnungsvollen Lichts ("..YELLOW.."81,59"..WHITE..")."
 Inst22Quest10_Prequest = "Ja, Der Archivar"
 Inst22Quest10_Folgequest = "Ja, Übertroffen"
+Inst22Quest10FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
 Inst22Quest11 = "11. Übertroffen"
-Inst22Quest11_Attain = "58"
 Inst22Quest11_Level = "60"
-Inst22Quest11_Aim = "Zieht nach Stratholme und vernichtet Baron Rivendare. Nehmt seinen Kopf und kehrt zu Fürst Nicholas Zverenhoff zurück."
-Inst22Quest11_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer; "..YELLOW.."81, 59"..WHITE..")"
-Inst22Quest11_Note = "Den Baron findet man bei "..YELLOW.."[15]"..WHITE.."."
+Inst22Quest11_Attain = "55"
+Inst22Quest11_Aim = "Zieht nach Stratholme und vernichtet Baron Totenschwur. Nehmt seinen Kopf und kehrt zu Fürst Nicholas Zverenhoff zurück."
+Inst22Quest11_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
+Inst22Quest11_Note = "Den Baron findet man bei "..YELLOW.."[19]"..WHITE.."."
 Inst22Quest11_Prequest = "Ja, Die Wahrheit zeigt sich mit Macht"
 Inst22Quest11_Folgequest = "Nein"
+Inst22Quest11FQuest = "true"
 --
 Inst22Quest11name1 = "Argentumverteidiger"
 Inst22Quest11name2 = "Argentumkreuzfahrer"
 Inst22Quest11name3 = "Argentumrächer"
 
+--Quest 12 Alliance
+Inst22Quest12 = "12. Die letzte Bitte eines toten Mannes"
+Inst22Quest12_Level = "60"
+Inst22Quest12_Attain = "58"
+Inst22Quest12_Aim = "Geht nach Stratholme und befreit Ysida Harmon aus den Fängen von Baron Totenschwur."
+Inst22Quest12_Location = "Anthion Harmon (Östliche Pestländer - Stratholme)"
+Inst22Quest12_Note = "Anthion steht vor dem Stratholme Eingangsportal. Man benötigt den Extradimensionalen Geisterdetektor, um ihn sehen zu können. Diesen erhält man beim Vorquest. Die Questreihe beginnt mit Die angemessene Entlohnung. Deliana in Eisenschmiede ("..YELLOW.."43,52"..WHITE..") für Allianz, Mokvar in Orgrimmar ("..YELLOW.."38,37"..WHITE..") für Horde.\nDas ist der berüchtigte '45 Minuten' Baron-Run."
+Inst22Quest12_Prequest = "Ja, Suche nach Anthion"
+Inst22Quest12_Folgequest = "Ja, Lebensbeweis"
+Inst22Quest12PreQuest = "true"
+-- No Rewards for this quest
 
---Quest1 Horde
-Inst22Quest1_HORDE = "1. Das Fleisch lügt nicht"
-Inst22Quest1_HORDE_Attain = "?"
-Inst22Quest1_HORDE_Level = "60"
-Inst22Quest1_HORDE_Aim = "Sammelt 20 verseuchte Fleischproben in Stratholme und bringt sie zu Betina Bigglezink zurück. Ihr vermutet, dass Ihr besagte Fleischproben bei jeder Kreatur in Stratholme finden könnt."
-Inst22Quest1_HORDE_Location = "Betina Bigglezink (Östliche Pestländer; "..YELLOW.."81,59"..WHITE..")"
-Inst22Quest1_HORDE_Note = "Das Fleisch kann bei fast allen Gegnern in Stratholme droppen."
-Inst22Quest1_HORDE_Prequest = "Nein"
-Inst22Quest1_HORDE_Folgequest = "Ja, Der aktive Wirkstoff"
+--Quest 13 Alliance
+Inst22Quest13 = "13. Das linke Stück von Lord Valthalaks Amulett"
+Inst22Quest13_Level = "60"
+Inst22Quest13_Attain = "60"
+Inst22Quest13_Aim = "Benutzt das Räuchergefäß der Beschwörung, um die Geister von Jarien und Sothos zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst22Quest13_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst22Quest13_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nJarien und Sothos werden bei "..YELLOW.."[11]"..WHITE.." beschworen."
+Inst22Quest13_Prequest = "Ja, Komponenten von großer Wichtigkeit"
+Inst22Quest13_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
+Inst22Quest13PreQuest = "true"
+-- No Rewards for this quest
 
---Quest2 Horde
-Inst22Quest2_HORDE = "2. Der aktive Wirkstoff"
-Inst22Quest2_HORDE_Attain = "58"
-Inst22Quest2_HORDE_Level = "60"
-Inst22Quest2_HORDE_Aim = "Reist nach Stratholme und durchsucht die Ziggurats. Sucht neue Geißeldaten und bringt sie zu Betina Bigglezink zurück."
-Inst22Quest2_HORDE_Location = "Betina Bigglezink (Östliche Pestländer; "..YELLOW.."81,59"..WHITE..")"
-Inst22Quest2_HORDE_Note = "Die Daten sind in einem der drei Türme (per Zufall verteilt). Die Türme sind nahe "..YELLOW.."[10]"..WHITE..", "..YELLOW.."[11]"..WHITE.." und "..YELLOW.."[12]"..WHITE.."."
-Inst22Quest2_HORDE_Prequest = "Ja, Das Fleisch lügt nicht"
-Inst22Quest2_HORDE_Folgequest = "Nein"
+--Quest 14 Alliance
+Inst22Quest14 = "14. Das rechte Stück von Lord Valthalaks Amulett"
+Inst22Quest14_Level = "60"
+Inst22Quest14_Attain = "60"
+Inst22Quest14_Aim = "UBenutzt das Räuchergefäß der Beschwörung, um die Geister von Jarien und Sothos zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst22Quest14_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst22Quest14_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nJarien und Sothos werden bei "..YELLOW.."[11]"..WHITE.." beschworen."
+Inst22Quest14_Prequest = "Ja, Mehr Komponenten von großer Wichtigkeit"
+Inst22Quest14_Folgequest = "Ja, Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
+Inst22Quest14PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 15 Alliance
+Inst22Quest15 = "15. Atiesh, Hohestab des Wächters"
+Inst22Quest15_Level = "60"
+Inst22Quest15_Attain = "60"
+Inst22Quest15_Aim = "Anachronos in den Höhlen der Zeit in Tanaris möchte, dass Ihr Atiesh, den Hohestab des Wächters, nach Stratholme bringt und dort auf dem geheiligten Boden platziert. Bezwingt das Wesen, das aus dem Stab getrieben wurde, und kehrt danach wieder zu ihm zurück."
+Inst22Quest15_Location = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
+Inst22Quest15_Note = "Atiesh wird bei "..YELLOW.."[2]"..WHITE.." beschworen."
+Inst22Quest15_Prequest = "Ja"
+Inst22Quest15_Folgequest = "Nein"
 --
-Inst22Quest2name1_HORDE = "Siegel der Dämmerung"
-Inst22Quest2name2_HORDE = "Rune der Dämmerung"
+Inst22Quest15name1 = "Atiesh, Hohestab des Wächters"
+Inst22Quest15name2 = "Atiesh, Hohestab des Wächters"
+Inst22Quest15name3 = "Atiesh, Hohestab des Wächters"
+Inst22Quest15name4 = "Atiesh, Hohestab des Wächters"
 
---Quest3 Horde
-Inst22Quest3_HORDE = "3. Häuser der Heiligen"
-Inst22Quest3_HORDE_Attain = "?"
-Inst22Quest3_HORDE_Level = "60"
-Inst22Quest3_HORDE_Aim = "Begebt Euch nach Stratholme im Norden. Durchsucht die Vorratskisten, die über die Stadt verstreut sind, und holt 5 Einheiten Heiliges Wasser von Stratholme. Kehrt zu Leonid Barthalomew dem Geachteten zurück, wenn Ihr genug der gesegneten Flüssigkeit gesammelt habt."
-Inst22Quest3_HORDE_Location = "Leonid Barthalomew der Geachtete (Östliche Pestländer; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest3_HORDE_Note = "Das Heilige Wasser findet man in Vorratskisten die überall in der Stadt verteilt herum stehen. Wenn man die Kisten öffnet kann es passieren, dass Käfer erscheinen und angreifen."
-Inst22Quest3_HORDE_Prequest = "Nein"
-Inst22Quest3_HORDE_Folgequest = "Nein"
+--Quest 16 Alliance
+Inst22Quest16 = "16. Verderbnis (Schmiedekunst)"
+Inst22Quest16_Level = "60"
+Inst22Quest16_Attain = "50"
+Inst22Quest16_Aim = "Findet den Schwertschmied der schwarzen Wache in Stratholme und vernichtet ihn. Holt die Insignien der schwarzen Wache und kehrt zu Seril Geißelbann zurück."
+Inst22Quest16_Location = "Seril Geißelbann (Winterquell - Ewige Warte; "..YELLOW.."61,37"..WHITE..")"
+Inst22Quest16_Note = "Der Schwertschmied der schwarzen Wache wird nahe bei "..YELLOW.."[15]"..WHITE.." beschworen."
+Inst22Quest16_Prequest = "Nein"
+Inst22Quest16_Folgequest = "Nein"
 --
-Inst22Quest3name1_HORDE = "Überragender Heiltrank"
-Inst22Quest3name2_HORDE = "Großer Manatrank"
-Inst22Quest3name3_HORDE = "Krone des reuigen Sünders"
-Inst22Quest3name4_HORDE = "Band des reuigen Sünders"
+Inst22Quest16name1 = "Pläne: Loderflammenrapier"
 
---Quest4 Horde
-Inst22Quest4_HORDE = "4. Der große Fras Siabi"
-Inst22Quest4_HORDE_Attain = "?"
-Inst22Quest4_HORDE_Level = "60"
-Inst22Quest4_HORDE_Aim = "Sucht Fras Siabis Raucherladen in Stratholme und bergt einen Kasten von Siabis Tollem Tabak. Kehrt zu Smokey LaRue zurück, wenn Eure Aufgabe erledigt ist."
-Inst22Quest4_HORDE_Location = "Smokey LaRue (Östliche Pestländer; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest4_HORDE_Note = "Den Raucherladen findet man bei "..YELLOW.."[1]"..WHITE..". Fras Siabi spawnt, wenn man den Kasten öffnet."
-Inst22Quest4_HORDE_Prequest = "Nein"
-Inst22Quest4_HORDE_Folgequest = "Nein"
+--Quest 17 Alliance
+Inst22Quest17 = "17. Süße Beschaulichkeit (Schmiedekunst)"
+Inst22Quest17_Level = "60"
+Inst22Quest17_Attain = "51"
+Inst22Quest17_Aim = "Begebt Euch nach Stratholme und tötet den purpurroten Hammerschmied. Nehmt die Schürze des purpurroten Hammerschmiedes und kehrt zu Lilith zurück."
+Inst22Quest17_Location = "Lilith die Liebliche (Winterquell - Ewige Warte; "..YELLOW.."61,37"..WHITE..")"
+Inst22Quest17_Note = "Der purpurrote Hammerschmied wird bei "..YELLOW.."[8]"..WHITE.." beschworen."
+Inst22Quest17_Prequest = "Nein"
+Inst22Quest17_Folgequest = "Nein"
 --
-Inst22Quest4name1_HORDE = "Smokeys Feuerzeug"
+Inst22Quest17name1 = "Pläne: Verzauberter Kampfhammer"
 
---Quest5 Horde
-Inst22Quest5_HORDE = "5. Die ruhelosen Seelen"
-Inst22Quest5_HORDE_Attain = "55"
-Inst22Quest5_HORDE_Level = "60"
-Inst22Quest5_HORDE_Aim = "Wendet Egans Blaster auf die geisterhaften und spektralen Bürger von Stratholme an. Wenn die ruhelosen Geister ihre geisterhaften Hüllen sprengen, wendet den Blaster erneut an - dann sind sie endlich frei!\nBefreit 15 ruhelose Seelen und kehrt zu Egan zurück."
-Inst22Quest5_HORDE_Location = "Egan (Östliche Pestländer(NW); "..YELLOW.."14,33"..WHITE..")"
-Inst22Quest5_HORDE_Note = "Die Vorquest bekommt man von Verwalter Alen(Östliche Pestländer; "..YELLOW.."79,63"..WHITE..")\nDie spektralen Bürger laufen überall in Stratholme herum."
-Inst22Quest5_HORDE_Prequest = "Ja, Die ruhelosen Seelen"
-Inst22Quest5_HORDE_Folgequest = "Nein"
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst22Quest1_HORDE = Inst22Quest1
+Inst22Quest1_HORDE_Level = Inst22Quest1_Level
+Inst22Quest1_HORDE_Attain = Inst22Quest1_Attain
+Inst22Quest1_HORDE_Aim = Inst22Quest1_Aim
+Inst22Quest1_HORDE_Location = Inst22Quest1_Location
+Inst22Quest1_HORDE_Note = Inst22Quest1_Note
+Inst22Quest1_HORDE_Prequest = Inst22Quest1_Prequest
+Inst22Quest1_HORDE_Folgequest = Inst22Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst22Quest2_HORDE = Inst22Quest2
+Inst22Quest2_HORDE_Level = Inst22Quest2_Level
+Inst22Quest2_HORDE_Attain = Inst22Quest2_Attain
+Inst22Quest2_HORDE_Aim = Inst22Quest2_Aim
+Inst22Quest2_HORDE_Location = Inst22Quest2_Location
+Inst22Quest2_HORDE_Note = Inst22Quest2_Note
+Inst22Quest2_HORDE_Prequest = Inst22Quest2_Prequest
+Inst22Quest2_HORDE_Folgequest = Inst22Quest2_Folgequest
+Inst22Quest2FQuest_HORDE = Inst22Quest2FQuest
 --
-Inst22Quest5name1_HORDE = "Testament der Hoffnung"
+Inst22Quest2name1_HORDE = Inst22Quest2name1
+Inst22Quest2name2_HORDE = Inst22Quest2name2
 
---Quest6 Horde
-Inst22Quest6_HORDE = "6. Von Liebe und Familie (Questreihe)"
-Inst22Quest6_HORDE_Attain = "53"
-Inst22Quest6_HORDE_Level = "60"
-Inst22Quest6_HORDE_Aim = "Begebt Euch nach Stratholme im nördlichen Teil der Pestländer. In der scharlachroten Bastion findet Ihr das Gemälde 'Von Liebe und Familie', das zwischen anderen Gemälden versteckt ist und auf dem die Zwillingsmonde unserer Welt abgebildet sind.\nBringt das Gemälde zu Tirion Fordring."
-Inst22Quest6_HORDE_Location = "Grafiker Renfray (Westliche Pestländer; "..YELLOW.."65,75"..WHITE..")"
-Inst22Quest6_HORDE_Note = "Die Vorquest bekommt man von Tirion Fordring(Westliche Pestländer; "..YELLOW.."7,43"..WHITE..").\nDas Bild findet man bei "..YELLOW.."[7]"..WHITE.."."
-Inst22Quest6_HORDE_Prequest = "Ja, Erlösung - > Von Liebe und Familie"
-Inst22Quest6_HORDE_Folgequest = "Ja, Myranda suchen"
-
---Quest7 Horde
-Inst22Quest7_HORDE = "7. Menethils Geschenk (Questreihe)"
-Inst22Quest7_HORDE_Attain = "53"
-Inst22Quest7_HORDE_Level = "60"
-Inst22Quest7_HORDE_Aim = "Begebt Euch nach Stratholme und sucht Menethils Geschenk. Platziert das Andenken der Erinnerung auf dem unheiligen Boden."
-Inst22Quest7_HORDE_Location = "Leonid Barthalomew der Geachtete (Östliche Pestländer; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest7_HORDE_Note = "Die Vorquest bekommt man von Magistrat Marduke (Westliche Pestländer; "..YELLOW.."70,73"..WHITE..").\nDas Pentagramm ist bei "..YELLOW.."[15]"..WHITE.." zu finden. Siehe auch "..YELLOW.."[Der Lich Ras Frostraunen]"..WHITE.." in Scholomance."
-Inst22Quest7_HORDE_Prequest = "Ja, Der Mensch Ras Frostraunen - > Der Sterbende Ras Frostraunen"
-Inst22Quest7_HORDE_Folgequest = "Ja, Menethils Geschenk"
-
---Quest8 Horde
-Inst22Quest8_HORDE = "8. Aurius' Abrechnung"
-Inst22Quest8_HORDE_Attain = "?"
-Inst22Quest8_HORDE_Level = "60"
-Inst22Quest8_HORDE_Aim = "???"
-Inst22Quest8_HORDE_Location = "Aurius (Stratholme; "..YELLOW.."[8]"..WHITE..")"
-Inst22Quest8_HORDE_Note = "Um die Quest zu starten muss man das [Das Medaillon des Glaubens] bei Aurius abgeben. Das Medalion findet man in einer Kiste in der ersten Kammer der Bastion(bevor sich der Weg teilt). Wenn man das Medallion abgegeben hat hilft Aurius beim Kampf gegen den Baron("..YELLOW.."[15]"..WHITE.."). Sobald er besiegt es muss man Aurius nochmal ansprechen um die Questbelohnung zu erhalten."
-Inst22Quest8_HORDE_Prequest = "Nein"
-Inst22Quest8_HORDE_Folgequest = "Nein"
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst22Quest3_HORDE = Inst22Quest3
+Inst22Quest3_HORDE_Level = Inst22Quest3_Level
+Inst22Quest3_HORDE_Attain = Inst22Quest3_Attain
+Inst22Quest3_HORDE_Aim = Inst22Quest3_Aim
+Inst22Quest3_HORDE_Location = Inst22Quest3_Location
+Inst22Quest3_HORDE_Note = Inst22Quest3_Note
+Inst22Quest3_HORDE_Prequest = Inst22Quest3_Prequest
+Inst22Quest3_HORDE_Folgequest = Inst22Quest3_Folgequest
 --
-Inst22Quest8name1_HORDE = "Wille des Märtyrers"
-Inst22Quest8name2_HORDE = "Blut des Märtyrers"
+Inst22Quest3name1_HORDE = Inst22Quest3name1
+Inst22Quest3name2_HORDE = Inst22Quest3name2
+Inst22Quest3name3_HORDE = Inst22Quest3name3
+Inst22Quest3name4_HORDE = Inst22Quest3name4
 
---Quest9 Horde
-Inst22Quest9_HORDE = "9. Der Archivar"
-Inst22Quest9_HORDE_Attain = "55"
-Inst22Quest9_HORDE_Level = "60"
-Inst22Quest9_HORDE_Aim = "Reist nach Stratholme und sucht Archivar Galford vom Scharlachroten Kreuzzug. Vernichtet ihn und verbrennt das Scharlachrote Archiv."
-Inst22Quest9_HORDE_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer; "..YELLOW.."81, 59"..WHITE..")"
-Inst22Quest9_HORDE_Note = "Das Archiv und den Archivar findet man bei "..YELLOW.."[6]"..WHITE.."."
-Inst22Quest9_HORDE_Prequest = "Nein"
-Inst22Quest9_HORDE_Folgequest = "Ja, Die Wahrheit zeigt sich mit Macht"
-
---Quest10 Horde
-Inst22Quest10_HORDE = "10. Die Wahrheit zeigt sich mit Macht"
-Inst22Quest10_HORDE_Attain = "58"
-Inst22Quest10_HORDE_Level = "60"
-Inst22Quest10_HORDE_Aim = "Bringt den Kopf von Balnazzar zu Fürst Nicholas Zverenhoff in den Östlichen Pestländern."
-Inst22Quest10_HORDE_Location = "Balnazzar (Stratholme; "..YELLOW.."[7]"..WHITE..")"
-Inst22Quest10_HORDE_Note = "Fürst Nicholas Zverenhoff findet man in den Östliche Pestländer("..YELLOW.."81, 59"..WHITE..")."
-Inst22Quest10_HORDE_Prequest = "Ja, Der Archivar"
-Inst22Quest10_HORDE_Folgequest = "Ja, Übertroffen"
-
---Quest11 Horde
-Inst22Quest11_HORDE = "11. Übertroffen"
-Inst22Quest11_HORDE_Attain = "58"
-Inst22Quest11_HORDE_Level = "60"
-Inst22Quest11_HORDE_Aim = "Zieht nach Stratholme und vernichtet Baron Rivendare. Nehmt seinen Kopf und kehrt zu Fürst Nicholas Zverenhoff zurück."
-Inst22Quest11_HORDE_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer; "..YELLOW.."81, 59"..WHITE..")"
-Inst22Quest11_HORDE_Note = "Den Baron findet man bei "..YELLOW.."[15]"..WHITE.."."
-Inst22Quest11_HORDE_Prequest = "Ja, Die Wahrheit zeigt sich mit Macht"
-Inst22Quest11_HORDE_Folgequest = "Nein"
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst22Quest4_HORDE = Inst22Quest4
+Inst22Quest4_HORDE_Level = Inst22Quest4_Level
+Inst22Quest4_HORDE_Attain = Inst22Quest4_Attain
+Inst22Quest4_HORDE_Aim = Inst22Quest4_Aim
+Inst22Quest4_HORDE_Location = Inst22Quest4_Location
+Inst22Quest4_HORDE_Note = Inst22Quest4_Note
+Inst22Quest4_HORDE_Prequest = Inst22Quest4_Prequest
+Inst22Quest4_HORDE_Folgequest = Inst22Quest4_Folgequest
 --
-Inst22Quest11name1_HORDE = "Argentumverteidiger"
-Inst22Quest11name2_HORDE = "Argentumkreuzfahrer"
-Inst22Quest11name3_HORDE = "Argentumrächer"
+Inst22Quest4name1_HORDE = Inst22Quest4name1
 
---Quest12 Horde
-Inst22Quest12_HORDE = "12. Ramstein"
-Inst22Quest12_HORDE_Attain = "?"
-Inst22Quest12_HORDE_Level = "60"
-Inst22Quest12_HORDE_Aim = "Reist nach Stratholme und tötet Ramstein den Würger. Bringt seinen Kopf als Souvenir zu Nathanos."
-Inst22Quest12_HORDE_Location = "Nathanos Blightcaller (Östliche Pestländer; "..YELLOW.."26, 74"..WHITE..")"
-Inst22Quest12_HORDE_Note = "Die Vorquest gibt es auch bei Nathanos Blightcaller.\nRamstein findet man bei"..YELLOW.."[14]"..WHITE.."."
-Inst22Quest12_HORDE_Prequest = "Ja, Das Ersuchen des Waldläuferlords -> Dämmerschwinge, oh, wie ich Euch hasse..."
-Inst22Quest12_HORDE_Folgequest = "Nein"
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst22Quest5_HORDE = Inst22Quest5
+Inst22Quest5_HORDE_Level = Inst22Quest5_Level
+Inst22Quest5_HORDE_Attain = Inst22Quest5_Attain
+Inst22Quest5_HORDE_Aim = Inst22Quest5_Aim
+Inst22Quest5_HORDE_Location = Inst22Quest5_Location
+Inst22Quest5_HORDE_Note = Inst22Quest5_Note
+Inst22Quest5_HORDE_Prequest = Inst22Quest5_Prequest
+Inst22Quest5_HORDE_Folgequest = Inst22Quest5_Folgequest
+Inst22Quest5PreQuest_HORDE = Inst22Quest5PreQuest
 --
-Inst22Quest12name1_HORDE = "Königliches Siegel von Alexis"
-Inst22Quest12name2_HORDE = "Elementarkreis"
+Inst22Quest5name1_HORDE = Inst22Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst22Quest6_HORDE = Inst22Quest6
+Inst22Quest6_HORDE_Level = Inst22Quest6_Level
+Inst22Quest6_HORDE_Attain = Inst22Quest6_Attain
+Inst22Quest6_HORDE_Aim = Inst22Quest6_Aim
+Inst22Quest6_HORDE_Location = Inst22Quest6_Location
+Inst22Quest6_HORDE_Note = Inst22Quest6_Note
+Inst22Quest6_HORDE_Prequest = Inst22Quest6_Prequest
+Inst22Quest6_HORDE_Folgequest = Inst22Quest6_Folgequest
+Inst22Quest6PreQuest_HORDE = Inst22Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst22Quest7_HORDE = Inst22Quest7
+Inst22Quest7_HORDE_Level = Inst22Quest7_Level
+Inst22Quest7_HORDE_Attain = Inst22Quest7_Attain
+Inst22Quest7_HORDE_Aim = Inst22Quest7_Aim
+Inst22Quest7_HORDE_Location = Inst22Quest7_Location
+Inst22Quest7_HORDE_Note = Inst22Quest7_Note
+Inst22Quest7_HORDE_Prequest = Inst22Quest7_Prequest
+Inst22Quest7_HORDE_Folgequest = Inst22Quest7_Folgequest
+Inst22Quest7PreQuest_HORDE = Inst22Quest7PreQuest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst22Quest8_HORDE = Inst22Quest8
+Inst22Quest8_HORDE_Level = Inst22Quest8_Level
+Inst22Quest8_HORDE_Attain = Inst22Quest8_Attain
+Inst22Quest8_HORDE_Aim = Inst22Quest8_Aim
+Inst22Quest8_HORDE_Location = Inst22Quest8_Location
+Inst22Quest8_HORDE_Note = Inst22Quest8_Note
+Inst22Quest8_HORDE_Prequest = Inst22Quest8_Prequest
+Inst22Quest8_HORDE_Folgequest = Inst22Quest8_Folgequest
+--
+Inst22Quest8name1_HORDE = Inst22Quest8name1
+Inst22Quest8name2_HORDE = Inst22Quest8name2
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst22Quest9_HORDE = Inst22Quest9
+Inst22Quest9_HORDE_Level = Inst22Quest9_Level
+Inst22Quest9_HORDE_Attain = Inst22Quest9_Attain
+Inst22Quest9_HORDE_Aim = Inst22Quest9_Aim
+Inst22Quest9_HORDE_Location = Inst22Quest9_Location
+Inst22Quest9_HORDE_Note = Inst22Quest9_Note
+Inst22Quest9_HORDE_Prequest = Inst22Quest9_Prequest
+Inst22Quest9_HORDE_Folgequest = Inst22Quest9_Folgequest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst22Quest10_HORDE = Inst22Quest10
+Inst22Quest10_HORDE_Level = Inst22Quest10_Level
+Inst22Quest10_HORDE_Attain = Inst22Quest10_Attain
+Inst22Quest10_HORDE_Aim = Inst22Quest10_Aim
+Inst22Quest10_HORDE_Location = Inst22Quest10_Location
+Inst22Quest10_HORDE_Note = Inst22Quest10_Note
+Inst22Quest10_HORDE_Prequest = Inst22Quest10_Prequest
+Inst22Quest10_HORDE_Folgequest = Inst22Quest10_Folgequest
+Inst22Quest10FQuest_HORDE = Inst22Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst22Quest11_HORDE = Inst22Quest11
+Inst22Quest11_HORDE_Level = Inst22Quest11_Level
+Inst22Quest11_HORDE_Attain = Inst22Quest11_Attain
+Inst22Quest11_HORDE_Aim = Inst22Quest11_Aim
+Inst22Quest11_HORDE_Location = Inst22Quest11_Location
+Inst22Quest11_HORDE_Note = Inst22Quest11_Note
+Inst22Quest11_HORDE_Prequest = Inst22Quest11_Prequest
+Inst22Quest11_HORDE_Folgequest = Inst22Quest11_Folgequest
+Inst22Quest11FQuest_HORDE = Inst22Quest11FQuest
+--
+Inst22Quest11name1_HORDE = Inst22Quest11name1
+Inst22Quest11name2_HORDE = Inst22Quest11name2
+Inst22Quest11name3_HORDE = Inst22Quest11name3
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst22Quest12_HORDE = Inst22Quest12
+Inst22Quest12_HORDE_Level = Inst22Quest12_Level
+Inst22Quest12_HORDE_Attain = Inst22Quest12_Attain
+Inst22Quest12_HORDE_Aim = Inst22Quest12_Aim
+Inst22Quest12_HORDE_Location = Inst22Quest12_Location
+Inst22Quest12_HORDE_Note = Inst22Quest12_Note
+Inst22Quest12_HORDE_Prequest = Inst22Quest12_Prequest
+Inst22Quest12_HORDE_Folgequest = Inst22Quest12_Folgequest
+Inst22Quest12PreQuest_HORDE = Inst22Quest12PreQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst22Quest13_HORDE = Inst22Quest13
+Inst22Quest13_HORDE_Level = Inst22Quest13_Level
+Inst22Quest13_HORDE_Attain = Inst22Quest13_Attain
+Inst22Quest13_HORDE_Aim = Inst22Quest13_Aim
+Inst22Quest13_HORDE_Location = Inst22Quest13_Location
+Inst22Quest13_HORDE_Note = Inst22Quest13_Note
+Inst22Quest13_HORDE_Prequest = Inst22Quest13_Prequest
+Inst22Quest13_HORDE_Folgequest = Inst22Quest13_Folgequest
+Inst22Quest13PreQuest_HORDE = Inst22Quest13PreQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst22Quest14_HORDE = Inst22Quest14
+Inst22Quest14_HORDE_Level = Inst22Quest14_Level
+Inst22Quest14_HORDE_Attain = Inst22Quest14_Attain
+Inst22Quest14_HORDE_Aim = Inst22Quest14_Aim
+Inst22Quest14_HORDE_Location = Inst22Quest14_Location
+Inst22Quest14_HORDE_Note = Inst22Quest14_Note
+Inst22Quest14_HORDE_Prequest = Inst22Quest14_Prequest
+Inst22Quest14_HORDE_Folgequest = Inst22Quest14_Folgequest
+Inst22Quest14PreQuest_HORDE = Inst22Quest14PreQuest
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst22Quest15_HORDE = Inst22Quest15
+Inst22Quest15_HORDE_Level = Inst22Quest15_Level
+Inst22Quest15_HORDE_Attain = Inst22Quest15_Attain
+Inst22Quest15_HORDE_Aim = Inst22Quest15_Aim
+Inst22Quest15_HORDE_Location = Inst22Quest15_Location
+Inst22Quest15_HORDE_Note = Inst22Quest15_Note
+Inst22Quest15_HORDE_Prequest = Inst22Quest15_Prequest
+Inst22Quest15_HORDE_Folgequest = Inst22Quest15_Folgequest
+Inst22Quest15PreQuest_HORDE = Inst22Quest15PreQuest
+--
+Inst22Quest15name1_HORDE = Inst22Quest15name1
+Inst22Quest15name2_HORDE = Inst22Quest15name2
+Inst22Quest15name3_HORDE = Inst22Quest15name3
+Inst22Quest15name4_HORDE = Inst22Quest15name4
+
+--Quest 16 Horde  (same as Quest 16 Alliance)
+Inst22Quest16_HORDE = Inst22Quest16
+Inst22Quest16_HORDE_Level = Inst22Quest16_Level
+Inst22Quest16_HORDE_Attain = Inst22Quest16_Attain
+Inst22Quest16_HORDE_Aim = Inst22Quest16_Aim
+Inst22Quest16_HORDE_Location = Inst22Quest16_Location
+Inst22Quest16_HORDE_Note = Inst22Quest16_Note
+Inst22Quest16_HORDE_Prequest = Inst22Quest16_Prequest
+Inst22Quest16_HORDE_Folgequest = Inst22Quest16_Folgequest
+--
+Inst22Quest16name1_HORDE = Inst22Quest16name1
+
+--Quest 17 Horde  (same as Quest 17 Alliance)
+Inst22Quest17_HORDE = Inst22Quest17
+Inst22Quest17_HORDE_Level = Inst22Quest17_Level
+Inst22Quest17_HORDE_Attain = Inst22Quest17_Attain
+Inst22Quest17_HORDE_Aim = Inst22Quest17_Aim
+Inst22Quest17_HORDE_Location = Inst22Quest17_Location
+Inst22Quest17_HORDE_Note = Inst22Quest17_Note
+Inst22Quest17_HORDE_Prequest = Inst22Quest17_Prequest
+Inst22Quest17_HORDE_Folgequest = Inst22Quest17_Folgequest
+--
+Inst22Quest17name1_HORDE = Inst22Quest17name1
+
+--Quest 18 Horde
+Inst22Quest18_HORDE = "18. Ramstein"
+Inst22Quest18_HORDE_Level = "60"
+Inst22Quest18_HORDE_Attain = "56"
+Inst22Quest18_HORDE_Aim = "Reist nach Stratholme und tötet Ramstein den Würger. Bringt seinen Kopf als Souvenir zu Nathanos."
+Inst22Quest18_HORDE_Location = "Nathanos Pestrufer (Östliche Pestländer; "..YELLOW.."26,74"..WHITE..")"
+Inst22Quest18_HORDE_Note = "Das Vorquest erhält man auch von Nathanos Pestrufer. Ramstein findet man bei "..YELLOW.."[18]"..WHITE.."."
+Inst22Quest18_HORDE_Prequest = "Ja, Das Ersuchen des Waldläuferlords -> Dämmerschwinge, oh, wie ich Euch hasse..."
+Inst22Quest18_HORDE_Folgequest = "Nein"
+Inst22Quest18PreQuest_HORDE = "true"
+--
+Inst22Quest18name1_HORDE = "Königliches Siegel von Alexis"
+Inst22Quest18name2_HORDE = "Elementarkreis"
+
 
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
 
-Inst23Story = "In den letzten Stunden des Krieges gegen die Silithiden trugen die Nachtelfen und die vier Drachenschwärme die Schlacht in das Herz des Qiraji Reichs zurück: in die Festung von Ahn'Qiraj. An den Toren der Stadt stießen sie auf ein Aufgebot von Kriegsdrohnen, gewaltiger als es je zuvor gesehen wurde. Die Silithiden und ihre Qiraji Herren konnten nicht besiegt werden und wurden stattdessen innerhalb einer magischen Barriere eingeschlossen; der Krieg hinterließ die verfluchte Stadt in Ruinen. Tausend Jahre sind seitdem vergangen ֠Jahre, in denen die Qiraji nicht untätig waren. Eine neue und schreckliche Streitmacht ist in den Stöcken ausgebrütet worden und die Ruinen von Ahn'Qiraj wurden erneut von Silithidenschwärmen und Qiraji bevölkert. Diese Bedrohung gilt es zu meistern, ansonsten wird Azeroth der schrecklichen Macht dieser neuen Qiraji Streitkraft zum Opfer fallen."
+Inst23Story = "In den letzten Stunden des Krieges gegen die Silithiden trugen die Nachtelfen und die vier Drachenschwärme die Schlacht in das Herz des Qiraji Reichs zurück: in die Festung von Ahn'Qiraj. An den Toren der Stadt stießen sie auf ein Aufgebot von Kriegsdrohnen, gewaltiger als es je zuvor gesehen wurde. Die Silithiden und ihre Qiraji Herren konnten nicht besiegt werden und wurden stattdessen innerhalb einer magischen Barriere eingeschlossen; der Krieg hinterließ die verfluchte Stadt in Ruinen. Tausend Jahre sind seitdem vergangen - Jahre, in denen die Qiraji nicht untätig waren. Eine neue und schreckliche Streitmacht ist in den Stöcken ausgebrütet worden und die Ruinen von Ahn'Qiraj wurden erneut von Silithidenschwärmen und Qiraji bevölkert. Diese Bedrohung gilt es zu meistern, ansonsten wird Azeroth der schrecklichen Macht dieser neuen Qiraji Streitkraft zum Opfer fallen."
 Inst23Caption = "Ruinen von Ahn'Qiraj"
+Inst23QAA = "2 Quests"
+Inst23QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst23Quest1 = "1. Der Untergang von Ossirian"
+Inst23Quest1_Level = "60"
+Inst23Quest1_Attain = "60"
+Inst23Quest1_Aim = "Bringt den Kopf von Ossirian dem Narbenlosen zu Kommandant Mar'alith auf Burg Cenarius in Silithus."
+Inst23Quest1_Location = "Kopf von Ossirian dem Narbenlosen (droppt von Ossirian dem Narbenlosen; "..YELLOW.."[6]"..WHITE..")"
+Inst23Quest1_Note = "Kommandant Mar'alith (Silithus - Burg Cenarius; "..YELLOW.."49,34"..WHITE..")"
+Inst23Quest1_Prequest = "Nein"
+Inst23Quest1_Folgequest = "Nein"
+--
+Inst23Quest1name1 = "Glücksbringer der Sandstürme"
+Inst23Quest1name2 = "Amulett der Sandstürme"
+Inst23Quest1name3 = "Halsschmuck der Sandstürme"
+Inst23Quest1name4 = "Anhänger der Sandstürme"
+
+--Quest 2 Alliance
+Inst23Quest2 = "2. Das perfekte Gift"
+Inst23Quest2_Level = "60"
+Inst23Quest2_Attain = "60"
+Inst23Quest2_Aim = "Dirk Donnerholz in der Burg Cenarius will, dass Ihr ihm Venoxis' Giftbeutel und Kurinnaxx' Giftbeutel bringt."
+Inst23Quest2_Location = "Dirk Donnerholz (Silithus - Burg Cenarius; "..YELLOW.."52,39"..WHITE..")"
+Inst23Quest2_Note = "Venoxis' Giftbeutel droppt von Hohepriester Venoxis in "..YELLOW.."Zul'Gurub"..WHITE..". Kurinnaxx' Giftbeutel droppt in den "..YELLOW.."Ruinen von Ahn'Qiraj"..WHITE.." bei "..YELLOW.."[1]"..WHITE.."."
+Inst23Quest2_Prequest = "Nein"
+Inst23Quest2_Folgequest = "Nein"
+--
+Inst23Quest2name1 = "Rabenholdtschnitzler"
+Inst23Quest2name2 = "Messerritzels Messer"
+Inst23Quest2name3 = "Donnerholzschüreisen"
+Inst23Quest2name4 = "Schicksalsbringer"
+Inst23Quest2name5 = "Fahrads selbstladende Repetierarmbrust"
+Inst23Quest2name6 = "Simones Hammer der Kultivierung"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst23Quest1_HORDE = Inst23Quest1
+Inst23Quest1_HORDE_Level = Inst23Quest1_Level
+Inst23Quest1_HORDE_Attain = Inst23Quest1_Attain
+Inst23Quest1_HORDE_Aim = Inst23Quest1_Aim
+Inst23Quest1_HORDE_Location = Inst23Quest1_Location
+Inst23Quest1_HORDE_Note = Inst23Quest1_Note
+Inst23Quest1_HORDE_Prequest = Inst23Quest1_Prequest
+Inst23Quest1_HORDE_Folgequest = Inst23Quest1_Folgequest
+--
+Inst23Quest1name1_HORDE = Inst23Quest1name1
+Inst23Quest1name2_HORDE = Inst23Quest1name2
+Inst23Quest1name3_HORDE = Inst23Quest1name3
+Inst23Quest1name4_HORDE = Inst23Quest1name4
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst23Quest2_HORDE = Inst23Quest2
+Inst23Quest2_HORDE_Level = Inst23Quest2_Level
+Inst23Quest2_HORDE_Attain = Inst23Quest2_Attain
+Inst23Quest2_HORDE_Aim = Inst23Quest2_Aim
+Inst23Quest2_HORDE_Location = Inst23Quest2_Location
+Inst23Quest2_HORDE_Note = Inst23Quest2_Note
+Inst23Quest2_HORDE_Prequest = Inst23Quest2_Prequest
+Inst23Quest2_HORDE_Folgequest = Inst23Quest2_Folgequest
+--
+Inst23Quest2name1_HORDE = Inst23Quest2name1
+Inst23Quest2name2_HORDE = Inst23Quest2name2
+Inst23Quest2name3_HORDE = Inst23Quest2name3
+Inst23Quest2name4_HORDE = Inst23Quest2name4
+Inst23Quest2name5_HORDE = Inst23Quest2name5
+Inst23Quest2name6_HORDE = Inst23Quest2name6
+
 
 
 --------------- INST24 - The Stockade (Stocks) ---------------
 
-Inst24Story = "Das Verlies ist ein Hoch-sicherheits-gefängnis, das unter dem Kanalbezirk von Sturmwind verborgen liegt. Unter der Führung von Wärter Thelwater sammelten sich im Verlies mit der Zeit ein bunter Haufen simpler Gauner, politischer Aufrührer, Mörder, Diebe, Halsabschneider und einiger der gefährlichsten Kriminellen des Landes an. Vor kurzem gab es einen Aufstand der Gefangenen, der im Verlies für Chaos sorgte - die Wachen sind geflohen und die Gefangenen haben das Gefängnis übernommen. Thelwater konnte knapp entkommen und sucht momentan nach tapferen Abenteurern, um den Anführer der Revolte auszuschalten, den gerissenen Meisterverbrecher Bazil Thredd."
+Inst24Story = "Das Verlies ist ein Hochsicherheitsgefängnis, das unter dem Kanalbezirk von Sturmwind verborgen liegt. Unter der Führung von Wärter Thelwater sammelten sich im Verlies mit der Zeit ein bunter Haufen simpler Gauner, politischer Aufrührer, Mörder, Diebe, Halsabschneider und einiger der gefährlichsten Kriminellen des Landes an. Vor kurzem gab es einen Aufstand der Gefangenen, der im Verlies für Chaos sorgte - die Wachen sind geflohen und die Gefangenen haben das Gefängnis übernommen. Thelwater konnte knapp entkommen und sucht momentan nach tapferen Abenteurern, um den Anführer der Revolte auszuschalten, den gerissenen Meisterverbrecher Bazil Thredd."
 Inst24Caption = "Das Verlies"
 Inst24QAA = "6 Quests"
 Inst24QAH = "keine Quests"
@@ -4463,6 +4728,7 @@ Inst24Quest6_Location = "Aufseher Thelwater (Sturmwind; "..YELLOW.."41,58 "..WHI
 Inst24Quest6_Note = "Bei "..YELLOW.."[Todesminen, Die Bruderschaft der Defias]"..WHITE.." findet man genauer Informationen über die Forquest.\nMan findet Bazil Thredd bei "..YELLOW.."[4]"..WHITE.."."
 Inst24Quest6_Prequest = "Ja, Die Bruderschaft der Defias -> Bazil Thredd"
 Inst24Quest6_Folgequest = "Ja, Der seltsame Besucher"
+
 
 
 --------------- INST25 - Sunken Temple (ST) ---------------
@@ -4661,10 +4927,12 @@ Inst25Quest8_HORDE_Folgequest = "Nein"
 Inst25Quest8name1_HORDE = "Angekettete Essenz des Eranikus"
 
 
+
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
 Inst26Story = "Im Herzen Ahn'Qirajs liegt ein uralter Tempelkomplex. Vor Beginn der Zeitrechnung erbaut, ist es ein Monument scheußlicher Gottheiten und die gewaltige Brutstätte der Qiraji Streitmacht. Seit der Krieg der wehenden Sande vor tausend Jahren endete, waren die Zwilingsimperatoren von Ahn'Qiraj, Vek'nilash und Vek'lor, in ihrem Tempel gefangen. Die magische Barriere des bronzenen Drachen Anachronos und der Nachtelfen hielt sie in ihrem Bann. Doch nun, da das Szepter der Sandstürme wieder vereint und das Siegel gebrochen ist, steht der Weg in das Heiligtum Ahn'Qirajs erneut offen. Hinter dem krabbelnden Wahnsinn des Schwarmbaus, unter dem Tempel von Ahn'Qiraj, bereiten sich Heerscharen der Qiraji auf den Einmarsch vor. Nun gilt es, sie um jeden Preis aufzuhalten bevor sie ihre unersättlichen, insektenartigen Armeen erneut auf auf Kalimdor loslassen und ein zweiter Krieg der Silithiden beginnt!"
 Inst26Caption = "Tempel von Ahn'Qiraj"
+
 
 
 --------------- INST27 - Zul'Farrak (ZF) ---------------
@@ -4832,6 +5100,7 @@ Inst27Quest7_HORDE_Folgequest = "Nein"
 Inst27Quest7name1_HORDE = "Karotte am Stiel"
 
 
+
 --------------- INST28 - Zul'Gurub (ZG) ---------------
 
 Inst28Story = {
@@ -4840,6 +5109,7 @@ Inst28Story = {
   ["MaxPages"] = "2",
 };
 Inst28Caption = "Zul'Gurub"
+
 
 
 --------------- INST29 - Gnomeregan (Gnomer) ---------------
@@ -4981,6 +5251,7 @@ Inst29Quest3name2_HORDE = "Stolperläufer-Latzhose"
 Inst29Quest3name3_HORDE = "Zweifach verstärkte Gamaschen"
 
 
+
 --------------- INST37 - HFC: Ramparts (Ramp) ---------------
 
 Inst37Story = {
@@ -5092,6 +5363,7 @@ Inst37Quest3_HORDE_Prequest = Inst37Quest3_Prequest
 Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
 --
 Inst37Quest3name1_HORDE = Inst37Quest3name1
+
 
 
 --------------- INST38 - HFC: Blood Furnace (BF) ---------------
@@ -5434,6 +5706,7 @@ Inst39Quest8_HORDE_Prequest = Inst39Quest9_Prequest
 Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
 --
 Inst39Quest8name1_HORDE = Inst39Quest9name1
+
 
 
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
@@ -6653,6 +6926,7 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 -- No Rewards for this quest
 
 
+
 --------------- INST53 - Karazhan (Kara) ---------------
 
 Inst53Story = "Der baufällige Turm von Karazhan beheimatete einst einen der größten Mächte, die Azeroth jemals gekannt hat: den Zauberer Medivh.\n\nSeit seinem Tod liegt ein schrecklicher Flucht über dem Turms und das ihn umgebende Land.\n\nDie Geister von Adeligen aus dem naheliegenden Dunkelhain streifen angeblich durch seine Hallen und ertragen aufgrund ihrer Neugier ein Schicksal, das schlimmer ist als der Tod.\n\nGefährlichere Geister warten in Medivhs Arbeitszimmer, da er es war, der die dämonischen Einheiten beschworen hat, damit sie nach seiner Pfeife tanzen.\n\nTrotzdem zieht es die Mutigen und die Törichten weiter schonungslos nach Karazhan, verleitet von Gerüchten über unaussprechliche Geheimnisse und mächtige Schätze.\n\nBilde eine Gruppe von zehn treuen Helden und reise in den Turm im Gebirgspass der Totenwinde - aber sei gewarnt, dass nur solche, die Stufe 70 erreicht haben, eintreten dürfen."
@@ -7276,6 +7550,7 @@ Inst56Quest2PreQuest_HORDE = Inst56Quest2PreQuest
 -- No Rewards for this quest
 
 
+
 --------------- INST57 - SM: Armory (SM Arm) ---------------
 
 Inst57Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
@@ -7325,6 +7600,7 @@ Inst57Quest2_HORDE_Folgequest = "Nein"
 Inst57Quest2name1_HORDE = "Schwert des Omens"
 Inst57Quest2name2_HORDE = "Stock des Propheten"
 Inst57Quest2name3_HORDE = "Drachenbluthalskette"
+
 
 
 --------------- INST58 - SM: Cathedral (SM Cath) ---------------
@@ -7378,6 +7654,7 @@ Inst58Quest2name2_HORDE = "Stock des Propheten"
 Inst58Quest2name3_HORDE = "Drachenbluthalskette"
 
 
+
 --------------- INST59 - SM: Graveyard (SM GY) ---------------
 
 Inst59Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
@@ -7410,6 +7687,7 @@ Inst59Quest2_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingen
 Inst59Quest2_HORDE_Folgequest = "Nein"
 Inst59Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
+
 
 
 --------------- INST61 - TK: The Eye ---------------
@@ -7784,9 +8062,11 @@ Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
 Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 
+
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
 ---------------------------------------------------
+
 
 
 --------------- INST33 - Alterac Valley (AV) ---------------
@@ -7795,16 +8075,19 @@ Inst33Story = "Vor langer Zeit schickte der Hexenmeister Guldan einen Klan der O
 Inst33Caption = "Das Alteractal"
 
 
+
 --------------- INST34 - Arathi Basin (AB) ---------------
 
 Inst34Story = "Das Arathibecken im Arathihochland ist ein dynamisches und spannendes Schlachtfeld. Das Talbecken selbst verfügt über wertvolle Rohstoffe, um die die Allianz und die Horde erbitterte Schlachten austragen. Die Verlassenen Entweihten und der Bund von Arathor sind im Talbecken, um die Rohstoffe des Talbeckens für ihre Seite zu sichern und ihrem Gegner eine empfindliche Niederlage beizubringen."
 Inst34Caption = "Das Arathibecken"
 
 
+
 --------------- INST35 - Warsong Gulch (WSG) ---------------
 
 Inst35Story = "Eingebetted in das südliche Eschental ist die Warsongschlucht nahe dem Gebiet wo Grom Hellscream und seine Orks während des 3. Krieges große Teile des Waldes rodeten. Einige Orks blieben in der Nähe und setzten die Arbeit fort um bei der Erweiterung der Gebiete der Horde zu helfen. Sie nennen sich selber Warsong-Vorhut.\nDie Nachtelfen, die eine starke Offensive begonnen haben um den Eschentalwald zurück zuerobern, konzentrieren sich jetzt darauf die Warsong-Vorhut für immer zu vertreiben. Die Silverwing-Schildwache haben geschworen, dass sie nicht aufhören werden bis der letzte Ork besiegt ist und aus der Warsongschlucht entfernt wurde."
 Inst35Caption = "Die Warsongschlucht"
+
 
 
 --------------- INST60 - Eye of the Storm ---------------
@@ -7815,9 +8098,11 @@ Inst60QAA = "keine Quests"
 Inst60QAH = "keine Quests"
 
 
+
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
 ---------------------------------------------------
+
 
 
 --------------- INST30 - Dragons of Nightmare ---------------
@@ -7867,6 +8152,7 @@ Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
 Inst30Quest1name1_HORDE = Inst30Quest1name1
 
 
+
 --------------- INST31 - Azuregos ---------------
 
 Inst31Story = "Vor der Spaltung der Welt blühte die elfische Stadt Eldarath in den Landen, die nunmehr Azshara genannt werden. Manche sagen, dass unter den Ruinen der Stadt immer noch zahllose Artefakte der Hochgeborenen schlummern. Seit ungezählten Generationen wacht der blaue Drachenschwarm über mächtige Artefakte und magisches Wissen, damit nichts davon in die falschen Hände fällt. Die Anwesenheit von Azuregos, dem blauen Drachen, scheint darauf hinzuweisen, dass in der Wildnis von Azshara extrem seltene Gegenstände schlummern, vielleicht sogar die Phiolen der Ewigkeit. Doch egal was der Drache sucht, eins ist sicher - er wird bis zum letzten Kämpfen, um diese Schätze zu verteidigen!"
@@ -7902,12 +8188,14 @@ Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
 Inst31Quest1name1_HORDE = Inst31Quest1name1
 
 
+
 --------------- INST32 - Highlord Kruul ---------------
 
 Inst32Story = "Hochlord Kruul ist ein Verdammniswachenboss, der während des Öffnungsevents des Dunklen Portals in verschiedenen Teilen Azeroths erschien (Patch 2.0.3). Nachdem das Dunkle Portal geöffnet wurde, hat er offiziell Fürst Kazzak ersetzt (jetzt Verdammnislord Kazzak in der Höllenfeuerhalbinsel der Scherbenwelt als Feldkommandant der Brennen Legion in Azeroth)."
 Inst32Caption = "Hochlord Kruul"
 Inst32QAA = "keine Quests"
 Inst32QAH = "keine Quests"
+
 
 
 --------------- INST64 - Doom Lord Kazzak ---------------
@@ -7923,6 +8211,7 @@ Inst64QAA = "keine Quests"
 Inst64QAH = "keine Quests"
 
 
+
 --------------- INST65 - Doomwalker ---------------
 
 Inst65Story = "Verdammniswandler ist ein mächtiger Teufelshäscher, der von Kil'jaeden ausgesendet wurde, um die Tore des Schwarzen Tempels im Schattenmondtal zu überfallen.\n\nEr ist ein ?? Elite (Boss) und hat genau die gleichen Fähigkeiten wie ein normaler Teufelshäscher, abgesehen von seiner Fähigkeit 'Überrennen'. Er ist allerdings wesentlich stärker und haut fester zu."
@@ -7936,9 +8225,11 @@ end
 ----
 
 
+
 ---------------------------
 --- AQ Instance Numbers ---
 ---------------------------
+
 
 
 -- 1  = Deadmines (VC)
