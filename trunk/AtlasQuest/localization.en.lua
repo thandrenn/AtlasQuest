@@ -37,7 +37,6 @@ local ORANGE = "|cffFF8400";
 local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 
-
 ---------------
 --- OPTIONS ---
 ---------------
@@ -98,7 +97,6 @@ AQDiscription_FOLGEQUEST = "Quest follows: "
 AQFinishedTEXT = "Quest finished: ";
 
 
-
 ------------------
 --- ITEM TYPES ---
 ------------------
@@ -152,11 +150,9 @@ AQITEM_ENCHANT = "Enchant"
 
 
 
-
 ----------------------------------------------
 ---------------- DUNGEONS --------------------
 ----------------------------------------------
-
 
 
 
@@ -4131,7 +4127,7 @@ Inst22QAH = "18 Quests"
 Inst22Quest1 = "1. The Flesh Does Not Lie"
 Inst22Quest1_Level = "60"
 Inst22Quest1_Attain = "55"
-Inst22Quest1_Aim = "Recover 20 Plagued Flesh Samples from Stratholme and return them to Betina Bigglezink. You suspect that any creature in Stratholme would have said flesh sample."
+Inst22Quest1_Aim = "Recover 10 Plagued Flesh Samples from Stratholme and return them to Betina Bigglezink. You suspect that any creature in Stratholme would have said flesh sample."
 Inst22Quest1_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81,59"..WHITE..")"
 Inst22Quest1_Note = "Most mobs in Stratholme can drop the Plagued Flesh Samples, but the drop rate seems low."
 Inst22Quest1_Prequest = "No"
@@ -4185,7 +4181,7 @@ Inst22Quest5_Level = "60"
 Inst22Quest5_Attain = "55"
 Inst22Quest5_Aim = "Use Egan's Blaster on the ghostly and spectral citizens of Stratholme. When the restless souls break free from their ghostly shells, use the blaster again - freedom will be theirs!\nFree 15 Restless Souls and return to Egan."
 Inst22Quest5_Location = "Egan (Eastern Plaguelands; "..YELLOW.."14,33"..WHITE..")"
-Inst22Quest5_Note = "You get the prequest from Caretaker Alen (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."79,63"..WHITE..") The spectral citizens walk through whole Stratholme."
+Inst22Quest5_Note = "You get the prequest from Caretaker Alen (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."79,63"..WHITE.."). The spectral citizens walk through whole Stratholme."
 Inst22Quest5_Prequest = "Yes, The Restless Souls"
 Inst22Quest5_Folgequest = "No"
 Inst22Quest5PreQuest = "true"
@@ -4210,7 +4206,7 @@ Inst22Quest7_Level = "60"
 Inst22Quest7_Attain = "57"
 Inst22Quest7_Aim = "Travel to Stratholme and find Menethil's Gift. Place the Keepsake of Remembrance upon the unholy ground."
 Inst22Quest7_Location = "Leonid Barthalomew the Revered (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest7_Note = "You get the prequest from Magistrat Marduke (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE.."). You find the sign near "..YELLOW.."[19]"..WHITE..". See also: "..YELLOW.."[The Lich, Ras Frostwhisper]"..WHITE.." in Scholomance."
+Inst22Quest7_Note = "You get the prequest from Magistrate Marduke (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE.."). You find the sign near "..YELLOW.."[19]"..WHITE..". See also: "..YELLOW.."[The Lich, Ras Frostwhisper]"..WHITE.." in Scholomance."
 Inst22Quest7_Prequest = "Yes, The Human Ras Frostraunen - > The Dying, Ras Frostwhisper"
 Inst22Quest7_Folgequest = "Yes, Menethil's Gift"
 Inst22Quest7PreQuest = "true"
@@ -4220,9 +4216,9 @@ Inst22Quest7PreQuest = "true"
 Inst22Quest8 = "8. Aurius' Reckoning"
 Inst22Quest8_Level = "60"
 Inst22Quest8_Attain = "55"
-Inst22Quest8_Aim = "Kill the Baron"
+Inst22Quest8_Aim = "Kill the Baron."
 Inst22Quest8_Location = "Aurius (Stratholme; "..YELLOW.."[13]"..WHITE..")"
-Inst22Quest8_Note = "To start the quest you have to give Aurius the [The Medallion of Faith]. You get the Medallion from a chest (Malor's Strongbox "..YELLOW.."[7]"..WHITE..") near in the first chamber of the bastion (before the ways split). After giving Aurius the Medallion he supports your group in the fight against the Baron "..YELLOW.."[19]"..WHITE..". After killing the Baron you have to talk to Aurius again to get the Rewards."
+Inst22Quest8_Note = "To start the quest you have to give Aurius [The Medallion of Faith]. You get the Medallion from a chest (Malor's Strongbox "..YELLOW.."[7]"..WHITE..") in the first chamber of the bastion (before the ways split). After giving Aurius the Medallion he supports your group in the fight against the Baron "..YELLOW.."[19]"..WHITE..". After killing the Baron you have to talk to Aurius again to get the Rewards."
 Inst22Quest8_Prequest = "No"
 Inst22Quest8_Folgequest = "No"
 --
@@ -4273,7 +4269,7 @@ Inst22Quest12_Level = "60"
 Inst22Quest12_Attain = "58"
 Inst22Quest12_Aim = "Go into Stratholme and rescue Ysida Harmon from Baron Rivendare."
 Inst22Quest12_Location = "Anthion Harmon (Eastern Plaguelands - Stratholme)"
-Inst22Quest12_Note = "Anthion stands just outside the Stratholme portal. You need the Extra-Dimensional Ghost Revealer to see him. It comes from the pre-quest. The questline starts with Just Compensation. Deliana in Ironforge ("..YELLOW.."43,52"..WHITE..") for Alliance, Mokvar in Orgrimmar ("..YELLOW.."38,37"..WHITE..") for the Horde.\nThis is the infamous '45 minute' Baron run."
+Inst22Quest12_Note = "Anthion stands just outside the Stratholme portal. You need the Extra-Dimensional Ghost Revealer to see him. It comes from the pre-quest. The questline starts with Just Compensation. Deliana in Ironforge ("..YELLOW.."43,52"..WHITE..") for Alliance, Mokvar in Orgrimmar ("..YELLOW.."38,37"..WHITE..") for Horde.\nThis is the infamous '45 minute' Baron run."
 Inst22Quest12_Prequest = "Yes, In Search of Anthion"
 Inst22Quest12_Folgequest = "Yes, Proof of Life"
 Inst22Quest12PreQuest = "true"
@@ -4284,7 +4280,7 @@ Inst22Quest13 = "13. The Left Piece of Lord Valthalak's Amulet"
 Inst22Quest13_Level = "60"
 Inst22Quest13_Attain = "60"
 Inst22Quest13_Aim = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst22Quest13_Location = "Bodley is at (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst22Quest13_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
 Inst22Quest13_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE.."."
 Inst22Quest13_Prequest = "Yes, Components of Importance"
 Inst22Quest13_Folgequest = "Yes, I See Alcaz Island In Your Future..."
@@ -4296,7 +4292,7 @@ Inst22Quest14 = "14. The Right Piece of Lord Valthalak's Amulet"
 Inst22Quest14_Level = "60"
 Inst22Quest14_Attain = "60"
 Inst22Quest14_Aim = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst22Quest14_Location = "Bodley is at (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst22Quest14_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
 Inst22Quest14_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE.."."
 Inst22Quest14_Prequest = "Yes, More Components of Importance"
 Inst22Quest14_Folgequest = "Yes, Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
@@ -9050,7 +9046,6 @@ Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 
 
-
 --------------- INST33 - Alterac Valley (AV) ---------------
 
 Inst33Story = "Long ago, before the First War, the warlock Gul'dan exiled a clan of orcs called the Frostwolves to a hidden valley deep in the heart of the Alterac Mountains. It is here in the valley's southern reaches that the Frostwolves eked out a living until the coming of Thrall.\nAfter Thrall's triumphant uniting of the clans, the Frostwolves, now led by the Orc Shaman Drek'Thar, chose to remain in the valley they had for so long called their home. In recent times, however, the relative peace of the Frostwolves has been challenged by the arrival of the Dwarven Stormpike Expedition.\nThe Stormpikes have set up residence in the valley to search for natural resources and ancient relics. Despite their intentions, the Dwarven presence has sparked heated conflict with the Frostwolf Orcs to the south, who have vowed to drive the interlopers from their lands. "
@@ -9087,11 +9082,9 @@ Inst60QAH = "No Quests"
 
 
 
-
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
 ---------------------------------------------------
-
 
 
 
@@ -9210,10 +9203,11 @@ Inst65QAH = "No Quests"
 
 
 
+---------------------------
+--- AQ Instance Numbers ---
+---------------------------
 
 
-
---    AQINSTANZ numbers
 
 -- 1  = Deadmines (VC)
 -- 2  = Wailing Caverns (WC)
