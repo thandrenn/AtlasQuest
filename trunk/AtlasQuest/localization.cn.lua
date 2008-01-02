@@ -1,6 +1,6 @@
 ﻿-- Localization for CTBC by yeachan(6区 阿拉希 燃烧军团公会 Ahunter）
 -- Email：zhengguo@live.com
--- Last update: 07-12-29
+-- Last update: 08-01-02
 
 if ( GetLocale() == "zhCN" ) then
 
@@ -2153,8 +2153,8 @@ Inst9Quest12name3_HORDE = Inst9Quest11name3
 
 Inst10Story = "埃雷萨拉斯古城是在一万二千年前由当时的一批暗夜精灵法师秘密地建造的，它被用于保护艾莎拉皇后最宝贵的奥法秘密。虽然受到了世界大震动的影响，这座伟大的城市基本屹立在那里，现在其被称为厄运之槌。这座遗迹城市分为三个部分，分别被不同的生物所占据——包括幽灵般的高等精灵，邪恶的萨特和鲁莽的食人魔。只有最勇敢的冒险队伍才敢进入这个破碎的城市并面对远古大厅中邪恶力量。"
 Inst10Caption = "厄运之槌 (东)"
-Inst10QAA = "3 个任务"
-Inst10QAH = "3 个任务"
+Inst10QAA = "5 个任务"
+Inst10QAH = "5 个任务"
 
 --Quest 1 Alliance
 Inst10Quest1 = "1. 普希林和埃斯托尔迪"
@@ -2196,6 +2196,29 @@ Inst10Quest3PreQuest = "true"
 Inst10Quest3name1 = "Milli's Shield"
 Inst10Quest3name2 = "Milli's Lexicon"
 
+--Quest 4 Alliance
+Inst10Quest4 = "4. 瓦塔拉克饰品的左瓣"
+Inst10Quest4_Level = "60"
+Inst10Quest4_Attain = "60"
+Inst10Quest4_Aim = "使用召唤火盆召唤出伊萨利恩的灵魂，然后杀掉她。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给伯德雷."
+Inst10Quest4_Location = "伯德雷 (黑石山; "..YELLOW.."副本入口地图 [D]"..WHITE..")"
+Inst10Quest4_Note = "你需要超维度幽灵显形器才能看到伯德雷."
+Inst10Quest4_Prequest = "有, 重要的材料"
+Inst10Quest4_Folgequest = "有, 奥卡兹岛在你前方..."
+Inst10Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst10Quest5 = "5. 瓦塔拉克饰品的右瓣"
+Inst10Quest5_Level = "60"
+Inst10Quest5_Attain = "60"
+Inst10Quest5_Aim = "使用召唤火盆召唤出伊萨莉恩的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克公爵的饰品还给伯德雷。."
+Inst10Quest5_Location = "伯德雷 (黑石山; "..YELLOW.."副本入口地图 [D]"..WHITE..")"
+Inst10Quest5_Note = "你需要超维度幽灵显形器才能看到伯德雷."
+Inst10Quest5_Prequest = "有，更多重要的材料 "
+Inst10Quest5_Folgequest = "有，最后的准备 (黑上任务)"
+Inst10Quest5PreQuest = "true"
+-- No Rewards for this quest
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst10Quest1_HORDE = Inst10Quest1
@@ -2236,7 +2259,29 @@ Inst10Quest3_HORDE_Folgequest = Inst10Quest3_Folgequest
 Inst10Quest3name1_HORDE = Inst10Quest3name1
 Inst10Quest3name2_HORDE = Inst10Quest3name2
 
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst10Quest4_HORDE = Inst10Quest4
+Inst10Quest4_HORDE_Level = Inst10Quest4_Level
+Inst10Quest4_HORDE_Attain = Inst10Quest4_Attain
+Inst10Quest4_HORDE_Aim = Inst10Quest4_Aim
+Inst10Quest4_HORDE_Location = Inst10Quest4_Location
+Inst10Quest4_HORDE_Note = Inst10Quest4_Note
+Inst10Quest4_HORDE_Prequest = Inst10Quest4_Prequest
+Inst10Quest4_HORDE_Folgequest = Inst10Quest4_Folgequest
+Inst10Quest4PreQuest_HORDE = Inst10Quest4PreQuest
+-- No Rewards for this quest
 
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst10Quest5_HORDE = Inst10Quest5
+Inst10Quest5_HORDE_Level = Inst10Quest5_Level
+Inst10Quest5_HORDE_Attain = Inst10Quest5_Attain
+Inst10Quest5_HORDE_Aim = Inst10Quest5_Aim
+Inst10Quest5_HORDE_Location = Inst10Quest5_Location
+Inst10Quest5_HORDE_Note = Inst10Quest5_Note
+Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
+Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
+Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
+-- No Rewards for this quest
 
 --------------- INST11 - Dire Maul North (DM) ---------------
 
@@ -2350,8 +2395,8 @@ Inst11Quest4name4_HORDE = Inst11Quest4name4
 
 Inst12Story = "埃雷萨拉斯古城是在一万二千年前由当时的一批暗夜精灵法师秘密地建造的，它被用于保护艾莎拉皇后最宝贵的奥法秘密。虽然受到了世界大震动的影响，这座伟大的城市基本屹立在那里，现在其被称为厄运之槌。这座遗迹城市分为三个部分，分别被不同的生物所占据——包括幽灵般的高等精灵，邪恶的萨特和鲁莽的食人魔。只有最勇敢的冒险队伍才敢进入这个破碎的城市并面对远古大厅中邪恶力量。"
 Inst12Caption = "厄运之槌 (西)"
-Inst12QAA = "4 个任务"
-Inst12QAH = "4 个任务"
+Inst12QAA = "17 个任务"
+Inst12QAH = "17 个任务"
 
 --Quest 1 Alliance
 Inst12Quest1 = "1. 精灵的传说"
@@ -2402,6 +2447,160 @@ Inst12Quest4_Folgequest = "无"
 Inst12Quest4PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 5 Alliance
+Inst12Quest5 = "5. 翡翠梦境 (德鲁伊职业饰品任务)"
+Inst12Quest5_Level = "60"
+Inst12Quest5_Attain = "54"
+Inst12Quest5_Aim = "将这本典籍交给它的主人。"
+Inst12Quest5_Location = "翡翠梦境 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest5_Note = "奖励小D的职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest5_Prequest = "无"
+Inst12Quest5_Folgequest = "无"
+--
+Inst12Quest5name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 6 Alliance
+Inst12Quest6 = "6. 最伟大的猎手 (猎人职业饰品任务)"
+Inst12Quest6_Level = "60"
+Inst12Quest6_Attain = "54"
+Inst12Quest6_Aim = "将这本典籍交给它的主人."
+Inst12Quest6_Location = "最伟大的猎手 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest6_Note = "奖励猎人的职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest6_Prequest = "无"
+Inst12Quest6_Folgequest = "无"
+--
+Inst12Quest6name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 7 Alliance
+Inst12Quest7 = "7. 奥法师的食谱 (法师职业饰品任务)"
+Inst12Quest7_Level = "60"
+Inst12Quest7_Attain = "54"
+Inst12Quest7_Aim = "将这本典籍交给它的主人."
+Inst12Quest7_Location = "奥法师的食谱 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest7_Note = "奖励法师的职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest7_Prequest = "无"
+Inst12Quest7_Folgequest = "无"
+--
+Inst12Quest7name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 8 Alliance
+Inst12Quest8 = "8. 圣光之力 (圣骑士职业饰品任务)"
+Inst12Quest8_Level = "60"
+Inst12Quest8_Attain = "54"
+Inst12Quest8_Aim = "将这本典籍交给它的主人."
+Inst12Quest8_Location = "圣光之力 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest8_Note = "奖励圣骑士职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest8_Prequest = "无"
+Inst12Quest8_Folgequest = "无"
+--
+Inst12Quest8name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 9 Alliance
+Inst12Quest9 = "9. 光明不会告诉你的事情 (牧师职业饰品任务)"
+Inst12Quest9_Level = "60"
+Inst12Quest9_Attain = "54"
+Inst12Quest9_Aim = "将这本典籍交给它的主人."
+Inst12Quest9_Location = "光明不会告诉你的事情 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest9_Note = "奖励牧师职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest9_Prequest = "无"
+Inst12Quest9_Folgequest = "无"
+--
+Inst12Quest9name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 10 Alliance
+Inst12Quest10 = "10. 迦罗娜：潜行与诡计研究 (盗贼职业饰品任务)"
+Inst12Quest10_Level = "60"
+Inst12Quest10_Attain = "54"
+Inst12Quest10_Aim = "将这本典籍交给它的主人."
+Inst12Quest10_Location = "迦罗娜：潜行与诡计研究 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest10_Note = "奖励盗贼职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest10_Prequest = "无"
+Inst12Quest10_Folgequest = "无"
+--
+Inst12Quest10name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 11 Alliance
+Inst12Quest11 = "11. 你与冰霜震击 (萨满职业饰品任务)"
+Inst12Quest11_Level = "60"
+Inst12Quest11_Attain = "59"
+Inst12Quest11_Aim = "将这本典籍交给它的主人."
+Inst12Quest11_Location = "你与冰霜震击 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest11_Note = "奖励萨满职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest11_Prequest = "无"
+Inst12Quest11_Folgequest = "无"
+--
+Inst12Quest11name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 12 Alliance
+Inst12Quest12 = "12. 束缚之影 (术士职业饰品任务)"
+Inst12Quest12_Level = "60"
+Inst12Quest12_Attain = "54"
+Inst12Quest12_Aim = "将这本典籍交给它的主人."
+Inst12Quest12_Location = "束缚之影 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest12_Note = "奖励术士职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest12_Prequest = "无"
+Inst12Quest12_Folgequest = "无"
+--
+Inst12Quest12name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 13 Alliance
+Inst12Quest13 = "13. 防御宝典 (战士职业饰品任务)"
+Inst12Quest13_Level = "60"
+Inst12Quest13_Attain = "54"
+Inst12Quest13_Aim = "将这本典籍交给它的主人."
+Inst12Quest13_Location = "防御宝典 (厄运之槌的所有几个副本的boss都可能掉落)"
+Inst12Quest13_Note = "奖励战士职业饰品. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest13_Prequest = "无"
+Inst12Quest13_Folgequest = "无"
+--
+Inst12Quest13name1 = "Royal Seal of Eldre'Thalas"
+
+--Quest 14 Alliance
+Inst12Quest14 = "14. 专注圣典"
+Inst12Quest14_Level = "60"
+Inst12Quest14_Attain = "60"
+Inst12Quest14_Aim = "将专注圣典、1块原始黑钻石、4份大块魔光碎片和2张暗影之皮交给厄运之槌的博学者莱德罗斯，以换取一份专注秘药."
+Inst12Quest14_Location = "博学者莱德罗斯  (厄运之槌 西; "..YELLOW.."[1'] 图书馆"..WHITE..")"
+Inst12Quest14_Note = "没有前续任务，但是 精灵的传说任务必须完成后才能接到这个任务。"
+Inst12Quest14_Prequest = "无"
+Inst12Quest14_Folgequest = "无"
+--
+Inst12Quest14name1 = "专注秘药"
+
+--Quest 15 Alliance
+Inst12Quest15 = "15. 防护圣典"
+Inst12Quest15_Level = "60"
+Inst12Quest15_Attain = "60"
+Inst12Quest15_Aim = "将防护圣典、1块原始黑钻石、2份大块魔光碎片和1份磨损的憎恶缝合线交给厄运之槌的博学者莱德罗斯，以换取一份防护秘药."
+Inst12Quest15_Location = "博学者莱德罗斯  (厄运之槌 西; "..YELLOW.."[1'] 图书馆"..WHITE..")"
+Inst12Quest15_Note = "没有前续任务，但是 精灵的传说任务必须完成后才能接到这个任务。"
+Inst12Quest15_Prequest = "无"
+Inst12Quest15_Folgequest = "无"
+--
+Inst12Quest15name1 = "防护秘药"
+
+--Quest 16 Alliance
+Inst12Quest16 = "16. 急速圣典"
+Inst12Quest16_Level = "60"
+Inst12Quest16_Attain = "60"
+Inst12Quest16_Aim = "将急速圣典、1块原始黑钻石、2份大块魔光碎片和2份英雄之血交给厄运之槌的博学者莱德罗斯，以换取一份急速秘药."
+Inst12Quest16_Location = "博学者莱德罗斯  (厄运之槌 西; "..YELLOW.."[1'] 图书馆"..WHITE..")"
+Inst12Quest16_Note = "没有前续任务，但是 精灵的传说任务必须完成后才能接到这个任务。"
+Inst12Quest16_Prequest = "无"
+Inst12Quest16_Folgequest = "无"
+--
+Inst12Quest16name1 = "急速秘药"
+
+--Quest 17 Alliance
+Inst12Quest17 = "17. 弗洛尔的屠龙技术纲要 (战士，圣骑士)"
+Inst12Quest17_Level = "60"
+Inst12Quest17_Attain = "60"
+Inst12Quest17_Aim = "将《弗洛尔的屠龙技术纲要》还回图书馆."
+Inst12Quest17_Location = "弗洛尔的屠龙技术纲要 (厄运之槌的boss都可能掉落)"
+Inst12Quest17_Note = "著名防御圣剑 奎尔塞拉 任务。战士和圣骑士才能接此任务. 把书交给博学者基尔达斯  "..YELLOW.."1' 图书馆"..WHITE.."."
+Inst12Quest17_Prequest = "无"
+Inst12Quest17_Folgequest = "有,煅造奎尔塞拉"
+-- No Rewards for this quest
 
 --Quest 1 Horde
 Inst12Quest1_HORDE = "1. 精灵的传说"
@@ -2452,6 +2651,160 @@ Inst12Quest4_HORDE_Folgequest = Inst12Quest4_Folgequest
 Inst12Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst12Quest5_HORDE = Inst12Quest5
+Inst12Quest5_HORDE_Level = Inst12Quest5_Level
+Inst12Quest5_HORDE_Attain = Inst12Quest5_Attain
+Inst12Quest5_HORDE_Aim = Inst12Quest5_Aim
+Inst12Quest5_HORDE_Location = Inst12Quest5_Location
+Inst12Quest5_HORDE_Note = Inst12Quest5_Note
+Inst12Quest5_HORDE_Prequest = Inst12Quest5_Prequest
+Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
+--
+Inst12Quest5name1_HORDE = Inst12Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst12Quest6_HORDE = Inst12Quest6
+Inst12Quest6_HORDE_Level = Inst12Quest6_Level
+Inst12Quest6_HORDE_Attain = Inst12Quest6_Attain
+Inst12Quest6_HORDE_Aim = Inst12Quest6_Aim
+Inst12Quest6_HORDE_Location = Inst12Quest6_Location
+Inst12Quest6_HORDE_Note = Inst12Quest6_Note
+Inst12Quest6_HORDE_Prequest = Inst12Quest6_Prequest
+Inst12Quest6_HORDE_Folgequest = Inst12Quest6_Folgequest
+--
+Inst12Quest6name1_HORDE = Inst12Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst12Quest7_HORDE = Inst12Quest7
+Inst12Quest7_HORDE_Level = Inst12Quest7_Level
+Inst12Quest7_HORDE_Attain = Inst12Quest7_Attain
+Inst12Quest7_HORDE_Aim = Inst12Quest7_Aim
+Inst12Quest7_HORDE_Location = Inst12Quest7_Location
+Inst12Quest7_HORDE_Note = Inst12Quest7_Note
+Inst12Quest7_HORDE_Prequest = Inst12Quest7_Prequest
+Inst12Quest7_HORDE_Folgequest = Inst12Quest7_Folgequest
+--
+Inst12Quest7name1_HORDE = Inst12Quest7name1
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst12Quest8_HORDE = Inst12Quest8
+Inst12Quest8_HORDE_Level = Inst12Quest8_Level
+Inst12Quest8_HORDE_Attain = Inst12Quest8_Attain
+Inst12Quest8_HORDE_Aim = Inst12Quest8_Aim
+Inst12Quest8_HORDE_Location = Inst12Quest8_Location
+Inst12Quest8_HORDE_Note = Inst12Quest8_Note
+Inst12Quest8_HORDE_Prequest = Inst12Quest8_Prequest
+Inst12Quest8_HORDE_Folgequest = Inst12Quest8_Folgequest
+--
+Inst12Quest8name1_HORDE = Inst12Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst12Quest9_HORDE = Inst12Quest9
+Inst12Quest9_HORDE_Level = Inst12Quest9_Level
+Inst12Quest9_HORDE_Attain = Inst12Quest9_Attain
+Inst12Quest9_HORDE_Aim = Inst12Quest9_Aim
+Inst12Quest9_HORDE_Location = Inst12Quest9_Location
+Inst12Quest9_HORDE_Note = Inst12Quest9_Note
+Inst12Quest9_HORDE_Prequest = Inst12Quest9_Prequest
+Inst12Quest9_HORDE_Folgequest = Inst12Quest9_Folgequest
+--
+Inst12Quest9name1_HORDE = Inst12Quest9name1
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst12Quest10_HORDE = Inst12Quest10
+Inst12Quest10_HORDE_Level = Inst12Quest10_Level
+Inst12Quest10_HORDE_Attain = Inst12Quest10_Attain
+Inst12Quest10_HORDE_Aim = Inst12Quest10_Aim
+Inst12Quest10_HORDE_Location = Inst12Quest10_Location
+Inst12Quest10_HORDE_Note = Inst12Quest10_Note
+Inst12Quest10_HORDE_Prequest = Inst12Quest10_Prequest
+Inst12Quest10_HORDE_Folgequest = Inst12Quest10_Folgequest
+--
+Inst12Quest10name1_HORDE = Inst12Quest10name1
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst12Quest11_HORDE = Inst12Quest11
+Inst12Quest11_HORDE_Level = Inst12Quest11_Level
+Inst12Quest11_HORDE_Attain = Inst12Quest11_Attain
+Inst12Quest11_HORDE_Aim = Inst12Quest11_Aim
+Inst12Quest11_HORDE_Location = Inst12Quest11_Location
+Inst12Quest11_HORDE_Note = Inst12Quest11_Note
+Inst12Quest11_HORDE_Prequest = Inst12Quest11_Prequest
+Inst12Quest11_HORDE_Folgequest = Inst12Quest11_Folgequest
+--
+Inst12Quest11name1_HORDE = Inst12Quest11name1
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst12Quest12_HORDE = Inst12Quest12
+Inst12Quest12_HORDE_Level = Inst12Quest12_Level
+Inst12Quest12_HORDE_Attain = Inst12Quest12_Attain
+Inst12Quest12_HORDE_Aim = Inst12Quest12_Aim
+Inst12Quest12_HORDE_Location = Inst12Quest12_Location
+Inst12Quest12_HORDE_Note = Inst12Quest12_Note
+Inst12Quest12_HORDE_Prequest = Inst12Quest12_Prequest
+Inst12Quest12_HORDE_Folgequest = Inst12Quest12_Folgequest
+--
+Inst12Quest12name1_HORDE = Inst12Quest12name1
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst12Quest13_HORDE = Inst12Quest13
+Inst12Quest13_HORDE_Level = Inst12Quest13_Level
+Inst12Quest13_HORDE_Attain = Inst12Quest13_Attain
+Inst12Quest13_HORDE_Aim = Inst12Quest13_Aim
+Inst12Quest13_HORDE_Location = Inst12Quest13_Location
+Inst12Quest13_HORDE_Note = Inst12Quest13_Note
+Inst12Quest13_HORDE_Prequest = Inst12Quest13_Prequest
+Inst12Quest13_HORDE_Folgequest = Inst12Quest13_Folgequest
+--
+Inst12Quest13name1_HORDE = Inst12Quest13name1
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst12Quest14_HORDE = Inst12Quest14
+Inst12Quest14_HORDE_Level = Inst12Quest14_Level
+Inst12Quest14_HORDE_Attain = Inst12Quest14_Attain
+Inst12Quest14_HORDE_Aim = Inst12Quest14_Aim
+Inst12Quest14_HORDE_Location = Inst12Quest14_Location
+Inst12Quest14_HORDE_Note = Inst12Quest14_Note
+Inst12Quest14_HORDE_Prequest = Inst12Quest14_Prequest
+Inst12Quest14_HORDE_Folgequest = Inst12Quest14_Folgequest
+--
+Inst12Quest14name1_HORDE = Inst12Quest14name1
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst12Quest15_HORDE = Inst12Quest15
+Inst12Quest15_HORDE_Level = Inst12Quest15_Level
+Inst12Quest15_HORDE_Attain = Inst12Quest15_Attain
+Inst12Quest15_HORDE_Aim = Inst12Quest15_Aim
+Inst12Quest15_HORDE_Location = Inst12Quest15_Location
+Inst12Quest15_HORDE_Note = Inst12Quest15_Note
+Inst12Quest15_HORDE_Prequest = Inst12Quest15_Prequest
+Inst12Quest15_HORDE_Folgequest = Inst12Quest15_Folgequest
+--
+Inst12Quest15name1_HORDE = Inst12Quest15name1
+
+--Quest 16 Horde  (same as Quest 16 Alliance)
+Inst12Quest16_HORDE = Inst12Quest16
+Inst12Quest16_HORDE_Level = Inst12Quest16_Level
+Inst12Quest16_HORDE_Attain = Inst12Quest16_Attain
+Inst12Quest16_HORDE_Aim = Inst12Quest16_Aim
+Inst12Quest16_HORDE_Location = Inst12Quest16_Location
+Inst12Quest16_HORDE_Note = Inst12Quest16_Note
+Inst12Quest16_HORDE_Prequest = Inst12Quest16_Prequest
+Inst12Quest16_HORDE_Folgequest = Inst12Quest16_Folgequest
+--
+Inst12Quest16name1_HORDE = Inst12Quest16name1
+
+--Quest 17 Horde  (same as Quest 17 Alliance)
+Inst12Quest17_HORDE = Inst12Quest17
+Inst12Quest17_HORDE_Level = Inst12Quest17_Level
+Inst12Quest17_HORDE_Attain = Inst12Quest17_Attain
+Inst12Quest17_HORDE_Aim = Inst12Quest17_Aim
+Inst12Quest17_HORDE_Location = Inst12Quest17_Location
+Inst12Quest17_HORDE_Note = Inst12Quest17_Note
+Inst12Quest17_HORDE_Prequest = Inst12Quest17_Prequest
+Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
+-- No Rewards for this quest
 
 --------------- INST13 - Maraudon (Mara) ---------------
 
