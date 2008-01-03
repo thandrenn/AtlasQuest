@@ -4655,79 +4655,84 @@ Inst23Quest2name6_HORDE = Inst23Quest2name6
 
 --------------- INST24 - The Stockade (Stocks) ---------------
 
-Inst24Story = "Das Verlies ist ein Hochsicherheitsgefängnis, das unter dem Kanalbezirk von Sturmwind verborgen liegt. Unter der Führung von Wärter Thelwater sammelten sich im Verlies mit der Zeit ein bunter Haufen simpler Gauner, politischer Aufrührer, Mörder, Diebe, Halsabschneider und einiger der gefährlichsten Kriminellen des Landes an. Vor kurzem gab es einen Aufstand der Gefangenen, der im Verlies für Chaos sorgte - die Wachen sind geflohen und die Gefangenen haben das Gefängnis übernommen. Thelwater konnte knapp entkommen und sucht momentan nach tapferen Abenteurern, um den Anführer der Revolte auszuschalten, den gerissenen Meisterverbrecher Bazil Thredd."
+Inst24Story = "Das Verlies ist ein Hochsicherheitsgefängnis, das unter dem Kanalbezirk von Sturmwind verborgen liegt. Unter der Führung von Aufseher Thelwasser sammelten sich im Verlies mit der Zeit ein bunter Haufen simpler Gauner, politischer Aufrührer, Mörder, Diebe, Halsabschneider und einiger der gefährlichsten Kriminellen des Landes an. Vor kurzem gab es einen Aufstand der Gefangenen, der im Verlies für Chaos sorgte - die Wachen sind geflohen und die Gefangenen haben das Gefängnis übernommen. Thelwasser konnte knapp entkommen und sucht momentan nach tapferen Abenteurern, um den Anführer der Revolte auszuschalten, den gerissenen Meisterverbrecher Bazil Thredd."
 Inst24Caption = "Das Verlies"
 Inst24QAA = "6 Quests"
-Inst24QAH = "keine Quests"
+Inst24QAH = "Keine Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst24Quest1 = "1. Verbrechen lohnt sich nicht"
 Inst24Quest1_Level = "25"
 Inst24Quest1_Attain = "22"
-Inst24Quest1_Aim = "Bringt Wache Berton in Lakeshire den Kopf von Targorr dem Schrecklichen."
-Inst24Quest1_Location = "Wache Berton (Redridgegebirge; "..YELLOW.."26,46 "..WHITE..")"
+Inst24Quest1_Aim = "Bringt Wache Berton in Seenhain den Kopf von Targorr dem Schrecklichen."
+Inst24Quest1_Location = "Wache Berton (Rotkammgebirge - Seehain; "..YELLOW.."26,46"..WHITE..")"
 Inst24Quest1_Note = "Targorr findet man bei "..YELLOW.."[1]"..WHITE.."."
 Inst24Quest1_Prequest = "Nein"
 Inst24Quest1_Folgequest = "Nein"
 --
-Inst24Quest1name1 = "Lucinen-Langschwert"
+Inst24Quest1name1 = "Lucinenlangschwert"
 Inst24Quest1name2 = "Gehärteter Wurzelstab"
 
---QUEST 2 Allianz
+--Quest 2 Alliance
 Inst24Quest2 = "2. Verbrechen und Strafe"
 Inst24Quest2_Level = "26"
 Inst24Quest2_Attain = "22"
-Inst24Quest2_Aim = "Ratsherr Millstipe von Darkshire will, dass Ihr ihm die Hand von Dextren Ward bringt."
-Inst24Quest2_Location = "Ratsherr Millstipe (Dämmerwald - Darkshire; "..YELLOW.."72,47 "..WHITE..")"
+Inst24Quest2_Aim = "Ratsherr Mühlenstein von Dunkelhain will, dass Ihr ihm die Hand von Dextren Ward bringt."
+Inst24Quest2_Location = "Ratsherr Mühlenstein (Dämmerwald - Dunkelhain; "..YELLOW.."72,47"..WHITE..")"
 Inst24Quest2_Note = "Dextren findet man bei "..YELLOW.."[5]"..WHITE.."."
 Inst24Quest2_Prequest = "Nein"
 Inst24Quest2_Folgequest = "Nein"
 --
-Inst24Quest2name1 = "Botschafter-Stiefel"
+Inst24Quest2name1 = "Botschafterstiefel"
 Inst24Quest2name2 = "Panzergamaschen von Dunkelhain"
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst24Quest3 = "3. Niederschlagung des Aufstandes"
 Inst24Quest3_Level = "26"
 Inst24Quest3_Attain = "22"
-Inst24Quest3_Aim = "Aufseher Thelwater aus Sturmwind will, dass Ihr im Verlies 10 gefangene Defias, 8 eingekerkerte Defias und 8 Aufrührer der Defias tötet."
-Inst24Quest3_Location = "Aufseher Thelwater (Sturmwind; "..YELLOW.."41,58 "..WHITE..")"
+Inst24Quest3_Aim = "Aufseher Thelwasser aus Sturmwind will, dass Ihr im Verlies 10 gefangene Defias, 8 eingekerkerte Defias und 8 Aufrührer der Defias tötet."
+Inst24Quest3_Location = "Aufseher Thelwasser (Sturmwind - Das Verlies; "..YELLOW.."41,58"..WHITE..")"
 Inst24Quest3_Note = ""
 Inst24Quest3_Prequest = "Nein"
 Inst24Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
 
---QUEST 4 Allianz
+--Quest 4 Alliance
 Inst24Quest4 = "4. Die Farbe von Blut"
 Inst24Quest4_Level = "26"
-Inst24Quest4_Attain = "?"
+Inst24Quest4_Attain = "22"
 Inst24Quest4_Aim = "Nikova Raskol von Sturmwind will, dass Ihr 10 rote Wollkopftücher für sie sammelt."
-Inst24Quest4_Location = "Nikova Raskol (Sturmwind; "..YELLOW.."73,46 "..WHITE..")"
-Inst24Quest4_Note = "Alle Gegner droppen die Kopftücher."
+Inst24Quest4_Location = "Nikova Raskol (Sturmwind - Die Altstadt; "..YELLOW.."73,46"..WHITE..")"
+Inst24Quest4_Note = "Alle Gegner innerhalb der Instanz droppen die Wollkopftücher."
 Inst24Quest4_Prequest = "Nein"
 Inst24Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
 
---QUEST 5 Allianz
+--Quest 5 Alliance
 Inst24Quest5 = "5. Tief empfundener Zorn"
 Inst24Quest5_Level = "27"
 Inst24Quest5_Attain = "25"
-Inst24Quest5_Aim = "Motley Garmason in Dun Modr verlangt Kam Deepfurys Kopf."
-Inst24Quest5_Location = "Motley Garmason (Das Sumpfland; "..YELLOW.."49,18 "..WHITE..")"
-Inst24Quest5_Note = "Den Prequest bekommt man auch von Motley.\nMan findet Kam Deepfury bei "..YELLOW.."[2]"..WHITE.."."
+Inst24Quest5_Aim = "Motley Garmason in Dun Modr verlangt Kam Tiefenzorns Kopf."
+Inst24Quest5_Location = "Motley Garmason (Sumpfland - Dun Modr; "..YELLOW.."49,18"..WHITE..")"
+Inst24Quest5_Note = "Das Vorquest bekommt man auch von Motley. Man findet Kam Tiefenzorn bei "..YELLOW.."[2]"..WHITE.."."
 Inst24Quest5_Prequest = "Ja, Der Dunkeleisenkrieg"
 Inst24Quest5_Folgequest = "Nein"
+Inst24Quest5PreQuest = "true"
 --
 Inst24Quest5name1 = "Gürtel der Rechtfertigung"
 Inst24Quest5name2 = "Kopfberster"
 
---QUEST 6 Allianz
-Inst24Quest6 = "6. Aufstand im Verlies (Questline)"
+--Quest 6 Alliance
+Inst24Quest6 = "6. Aufstand im Verlies"
 Inst24Quest6_Level = "29"
 Inst24Quest6_Attain = "16"
-Inst24Quest6_Aim = "Tötet Bazil Thredd und bringt seinen Kopf mit zurück zu Aufseher Thelwater im Verlies."
-Inst24Quest6_Location = "Aufseher Thelwater (Sturmwind; "..YELLOW.."41,58 "..WHITE..")"
-Inst24Quest6_Note = "Bei "..YELLOW.."[Todesminen, Die Bruderschaft der Defias]"..WHITE.." findet man genauer Informationen über die Forquest.\nMan findet Bazil Thredd bei "..YELLOW.."[4]"..WHITE.."."
+Inst24Quest6_Aim = "Tötet Bazil Thredd und bringt seinen Kopf mit zurück zu Aufseher Thelwasser im Verlies."
+Inst24Quest6_Location = "Aufseher Thelwasser (Sturmwind - Das Verlies; "..YELLOW.."41,58"..WHITE..")"
+Inst24Quest6_Note = "Bei "..YELLOW.."[Todesminen, Die Bruderschaft der Defias]"..WHITE.." findet man genauere Informationen über das Vorquest.\nMan findet Bazil Thredd bei "..YELLOW.."[4]"..WHITE.."."
 Inst24Quest6_Prequest = "Ja, Die Bruderschaft der Defias -> Bazil Thredd"
 Inst24Quest6_Folgequest = "Ja, Der seltsame Besucher"
+Inst24Quest6PreQuest = "true"
+-- No Rewards for this quest
 
 
 
@@ -4735,203 +4740,562 @@ Inst24Quest6_Folgequest = "Ja, Der seltsame Besucher"
 
 Inst25Story = "Vor mehr als tausend Jahren wurde das mächtige Reich der Gurubashi von einem gewaltigen Bürgerkrieg auseinandergerissen. Eine einflussreiche Gruppe trollischer Priester, die als die Atal'ai bekannt waren, wagten den Versuch, einen uralten Blutgott namens Hakkar der Seelenschinder zu beschwören. Obwohl ihr Plan vereitelt und die Priester letztenendes verbannt wurden zerbrach das Reich und kollabierte, da der Krieg sämtlichen inneren Zusammenhalt zwischen den Klans zerstört hatte. Die verbannten Priester flohen weit in den Norden zu den Sümpfen des Elends. Dort bauten sie Hakkar einen großen Tempel, wo sie erneut seine Rückkehr in die Welt vorbereiten wollten. Als der große Drachenaspekt Ysera von den Plänen der Atal'ai erfuhr gab es nichts, was den Zorn des Drachen zurückhalten konnte, und so zerschmetterte sie den Tempel und ließ ihn in den Marschen versinken. Bis zum heutigen Tag werden die Ruinen des Tempels von grünen Drachen bewacht, so dass niemand hinein oder hinaus kann. Allerdings sollen einige der verfluchten Atal'ai überlebt haben und immer noch an der Vollendung ihrer finsteren Pläne arbeiten."
 Inst25Caption = "Der versunkene Tempel"
---classq missing
-Inst25QAA = "8 Quests"
-Inst25QAH = "8 Quests"
+Inst25QAA = "17 Quests"
+Inst25QAH = "17 Quests"
 
---QUEST 1 Allianz
+--Quest 1 Alliance
 Inst25Quest1 = "1. Im Tempel von Atal'Hakkar"
-Inst25Quest1_Attain = "46"
 Inst25Quest1_Level = "50"
-Inst25Quest1_Aim = "Sammelt 10 Schrifttafeln der Atal'ai für Brohann Caskbelly in Sturmwind."
-Inst25Quest1_Location = "Brohann Caskbelly (Sturmwind; "..YELLOW.."64,20"..WHITE..")"
-Inst25Quest1_Note = "Man findet die Tafeln überall im Tempel."
-Inst25Quest1_Prequest = "Ja, Auf der Suche nach dem Tempel(selber NPC) -> Rhapsodys Geschichte"
+Inst25Quest1_Attain = "41"
+Inst25Quest1_Aim = "Sammelt 10 Schrifttafeln der Atal'ai für Brohann Fassbauch in Sturmwind."
+Inst25Quest1_Location = "Brohann Fassbauch (Sturmwind - Zwergendistrikt; "..YELLOW.."64,20"..WHITE..")"
+Inst25Quest1_Note = "Die Questreihe davor erhält man vom selben NPC.\n\nMan findet die Tafeln überall im Tempel, außerhalb und innerhalb der Instanz."
+Inst25Quest1_Prequest = "Ja, Auf der Suche nach dem Tempel -> Rhapsodies Geschichte"
 Inst25Quest1_Folgequest = "Nein"
+Inst25Quest1PreQuest = "true"
 --
 Inst25Quest1name1 = "Wächtertalisman"
 
---QUEST 2 Allianz
-Inst25Quest2 = "2. Der versunkene Tempel"
-Inst25Quest2_Attain = "-"
+--Quest 2 Alliance
+Inst25Quest2 = "2. Der Versunkene Tempel"
 Inst25Quest2_Level = "51"
-Inst25Quest2_Aim = "Sucht Marvon Rivetseeker in Tanaris."
-Inst25Quest2_Location = "Angelas Moonbreeze (Feralas; "..YELLOW.."31,45"..WHITE..")"
-Inst25Quest2_Note = "Marvon Rivetseeker findet man bei 52,45"
+Inst25Quest2_Attain = "46"
+Inst25Quest2_Aim = "Sucht Marvon Nietensucher in Tanaris."
+Inst25Quest2_Location = "Angelas Mondhauch (Feralas - Mondfederfeste; "..YELLOW.."31,45"..WHITE..")"
+Inst25Quest2_Note = "Marvon Nietensucher findet man bei "..YELLOW.."52,45"..WHITE.."."
 Inst25Quest2_Prequest = "Nein"
 Inst25Quest2_Folgequest = "Ja, Der runde Stein"
+-- No Rewards for this quest
 
---QUEST 3 Allianz
+--Quest 3 Alliance
 Inst25Quest3 = "3. In die Tiefen"
-Inst25Quest3_Attain = "-"
 Inst25Quest3_Level = "51"
+Inst25Quest3_Attain = "46"
 Inst25Quest3_Aim = "Sucht den Altar von Hakkar im Versunkenen Tempel in den Sümpfen des Elends."
-Inst25Quest3_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
-Inst25Quest3_Note = "Der Altar ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst25Quest3_Location = "Marvon Nietensucher (Tanaris; "..YELLOW.."52,45"..WHITE..")"
+Inst25Quest3_Note = "Der Altar befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst25Quest3_Prequest = "Ja, Der runde Stein"
 Inst25Quest3_Folgequest = "Nein"
+Inst25Quest3FQuest = "true"
+-- No Rewards for this quest
 
---QUEST 4 Alliance
+--Quest 4 Alliance
 Inst25Quest4 = "4. Das Geheimnis des Kreises"
-Inst25Quest4_Attain = "-"
 Inst25Quest4_Level = "51"
+Inst25Quest4_Attain = "46"
 Inst25Quest4_Aim = "Reist zum Versunkenen Tempel und enthüllt das Geheimnis, das sich in dem Kreis der Statuen verbirgt."
-Inst25Quest4_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
-Inst25Quest4_Note = "Man findet die Statuen bei "..YELLOW.."[1]"..WHITE..". Benutzen muss man sie in der Reihenfolge:1-6"
+Inst25Quest4_Location = "Marvon Nietensucher (Tanaris; "..YELLOW.."52,45"..WHITE..")"
+Inst25Quest4_Note = "Man findet die Statuen bei "..YELLOW.."[1]"..WHITE..". Schaut auf die Karte für die Aktivierungsreihenfolge."
 Inst25Quest4_Prequest = "Ja, Der runde Stein"
 Inst25Quest4_Folgequest = "Nein"
+Inst25Quest4FQuest = "true"
 --
 Inst25Quest4name1 = "Urne der Hakkari"
 
---QUEST 5 Alliance
+--Quest 5 Alliance
 Inst25Quest5 = "5. Der Dunst des Bösen"
-Inst25Quest5_Attain = "50"
 Inst25Quest5_Level = "52"
-Inst25Quest5_Aim = "Sammelt 5 Proben Dunst der Atal'ai und bringt sie Muigin im Un'Goro Krater."
-Inst25Quest5_Location = "Gregan Brewspewer (Feralas; "..YELLOW.."45,25"..WHITE..")"
-Inst25Quest5_Note = "Den Vorquest 'Muigin und Larion' bekommt man von Muigin (Un'Goro Crater 42,9). Den Dunst bekommt man von Tieflauerern, Düsterwürmern oder Brühschlammern im Tempel."
+Inst25Quest5_Attain = "47"
+Inst25Quest5_Aim = "Sammelt 5 Proben Dunst der Atal'ai und bringt sie Muigin im Krater von Un'Goro."
+Inst25Quest5_Location = "Gregan Hopfenspei (Feralas; "..YELLOW.."45,25"..WHITE..")"
+Inst25Quest5_Note = "Das Vorquest 'Muigin und Larion' bekommt man von Muigin (Krater von Un'Goro - Marschalls Zuflucht; "..YELLOW.."42,9"..WHITE.."). Den Dunst bekommt man von Tiefenlauerern, Düsterwürmern oder Brühschlammern im Tempel."
 Inst25Quest5_Prequest = "Ja, Muigin und Larion -> Ein Besuch bei Gregan"
 Inst25Quest5_Folgequest = "Nein"
+Inst25Quest5PreQuest = "true"
+-- No Rewards for this quest
 
---QUEST 6 Alliance
-Inst25Quest6 = "6. Der Gott Hakkar (Questreihe)"
-Inst25Quest6_Attain = "43"
+--Quest 6 Alliance
+Inst25Quest6 = "6. Der Gott Hakkar"
 Inst25Quest6_Level = "53"
+Inst25Quest6_Attain = "42"
 Inst25Quest6_Aim = "Bringt das gefüllte Ei von Hakkar zu Yeh'kinya nach Tanaris."
-Inst25Quest6_Location = "Yeh'kinya (Tanaris; "..YELLOW.."66,22"..WHITE..")"
-Inst25Quest6_Note = "Die Questreihe beginnt mit 'Kreischergeister' beim selbem NPC(Siehe "..YELLOW.."[Zul'Farrak]"..WHITE..").\nDas Ei muss man bei "..YELLOW.."[3]"..WHITE.." benutzen. Sobald man es aktiviert, spawnen Wellen von Mobs, die man besiegen muss. Einige der Mobs droppen das Blut von Hakkar, mit dem man eine der 4 brennenden Schalen in den Ecken löschen kann. Sobald alle 4 Schalen gelöscht sind muss man den Avatar von Hakkar besiegen."
+Inst25Quest6_Location = "Yeh'kinya (Tanaris - Dampfdruckpier; "..YELLOW.."66,22"..WHITE..")"
+Inst25Quest6_Note = "Die Questreihe beginnt mit 'Kreischergeister' beim selbem NPC (Siehe "..YELLOW.."[Zul'Farrak]"..WHITE..").\nDas Ei muss man bei "..YELLOW.."[3]"..WHITE.." benutzen. Sobald man es aktiviert, erscheinen Wellen von Gegnern und greifen an. Einige der Mobs droppen das Blut von Hakkar, mit dem man eine der vier brennenden Schalen in den Ecken löschen kann. Sobald alle Schalen gelöscht sind erscheint der Avatar von Hakkar. Dieser droppt die 'Essenz von Hakkar', mit der man das Ei füllt."
 Inst25Quest6_Prequest = "Ja, Kreischergeister -> Das uralte Ei"
 Inst25Quest6_Folgequest = "Nein"
+Inst25Quest6PreQuest = "true"
 --
-Inst25Quest6name1 = "Avenwach-Helm"
+Inst25Quest6name1 = "Avenwachthelm"
 Inst25Quest6name2 = "Langdolch der Lebenskraft"
 Inst25Quest6name3 = "Edelsteinbesetzter Reif"
 
---QUEST 7 Allianz
+--Quest 7 Alliance
 Inst25Quest7 = "7. Jammal'an der Prophet"
-Inst25Quest7_Attain = "43"
 Inst25Quest7_Level = "53"
+Inst25Quest7_Attain = "38"
 Inst25Quest7_Aim = "Der Verbannte der Atal'ai im Hinterland möchte den Kopf von Jammal'an."
 Inst25Quest7_Location = "Der Verbannte der Atal'ai (Das Hinterland; "..YELLOW.."33,75"..WHITE..")"
 Inst25Quest7_Note = "Jammal'an findet man bei "..YELLOW.."[4]"..WHITE.."."
 Inst25Quest7_Prequest = "Nein"
 Inst25Quest7_Folgequest = "Nein"
 --
-Inst25Quest7name1 = "Regenschreiter-Gamaschen"
+Inst25Quest7name1 = "Regenschreitergamaschen"
 Inst25Quest7name2 = "Helm des Banns"
 
---QUEST 8 Allianz
+--Quest 8 Alliance
 Inst25Quest8 = "8. Die Essenz des Eranikus"
-Inst25Quest8_Attain = "-"
 Inst25Quest8_Level = "55"
+Inst25Quest8_Attain = "48"
 Inst25Quest8_Aim = "Legt die Essenz von Eranikus in den Essenzborn, der sich in dem Versunkenen Tempel in seinem Unterschlupf befindet."
-Inst25Quest8_Location = "Essenz des Eranikus (drop) (Der Versunkene Tempel)"
-Inst25Quest8_Note = "Die Essenz des Eranikus wird von Eranikus gedroppt. Der Essenzborn befindet sich gleich bei ihm "..YELLOW.."[6]"..WHITE.."."
+Inst25Quest8_Location = "Die Essenz des Eranikus (droppt von Eranikus' Schemen; "..YELLOW.."[6]"..WHITE..")"
+Inst25Quest8_Note = "Der Essenzborn befindet sich gleich neben Eranikus' Schemen bei "..YELLOW.."[6]"..WHITE.."."
 Inst25Quest8_Prequest = "Nein"
 Inst25Quest8_Folgequest = "Nein"
 --
-Inst25Quest8name1 = "Angekettete Essenz des Eranikus"
+Inst25Quest8name1 = "Gebundene Essenz des Eranikus"
+
+--Quest 9 Alliance
+Inst25Quest9 = "9. Federn von Trollen (Hexenmeister)"
+Inst25Quest9_Level = "52"
+Inst25Quest9_Attain = "50"
+Inst25Quest9_Aim = "Bringt 6 Voodoofedern von den Trollen aus dem Versunkenen Tempel."
+Inst25Quest9_Location = "Impsy (Teufelswald; "..YELLOW.."42,45"..WHITE..")"
+Inst25Quest9_Note = "Hexenmeister-Quest. Je 1 Feder droppt von den Trollen, die sich auf den Balkonen über dem großen Raum mit dem Loch in der Mitte befinden."
+Inst25Quest9_Prequest = "Ja, Die Bitte eines Wichtels -> Das richtige Zeug"
+Inst25Quest9_Folgequest = "Nein"
+Inst25Quest9PreQuest = "true"
+--
+Inst25Quest9name1 = "Seelenernter"
+Inst25Quest9name2 = "Abysssplitter"
+Inst25Quest9name3 = "Roben der Knechtschaft"
+
+--Quest 10 Alliance
+Inst25Quest10 = "10. Voodoofedern (Krieger)"
+Inst25Quest10_Level = "52"
+Inst25Quest10_Attain = "50"
+Inst25Quest10_Aim = "Bringt die Voodoofedern der Trolle im Versunkenen Tempel zu dem gefallenen Helden der Horde."
+Inst25Quest10_Location = "Gefallener Held der Horde (Sümpfe des Elends; "..YELLOW.."34,66"..WHITE..")"
+Inst25Quest10_Note = "Krieger-Quest. Je 1 Feder droppt von den Trollen, die sich auf den Balkonen über dem großen Raum mit dem Loch in der Mitte befinden."
+Inst25Quest10_Prequest = "Ja, Ein geplagter Geist -> Krieg den Schattenanbetern"
+Inst25Quest10_Folgequest = "Nein"
+Inst25Quest10PreQuest = "true"
+--
+Inst25Quest10name1 = "Visier des Zorns"
+Inst25Quest10name2 = "Diamantenfläschchen"
+Inst25Quest10name3 = "Klingenstahlschultern"
+
+--Quest 11 Alliance
+Inst25Quest11 = "11. Die Macht des Voodoos (Schamane)"
+Inst25Quest11_Level = "52"
+Inst25Quest11_Attain = "50"
+Inst25Quest11_Aim = "Bringt Bath'rah dem Windbehüter die Voodoofedern."
+Inst25Quest11_Location = "Bath'rah der Windbehüter (Alteracgebirge; "..YELLOW.."80,67"..WHITE..")"
+Inst25Quest11_Note = "Schamanen-Quest. Je 1 Feder droppt von den Trollen, die sich auf den Balkonen über dem großen Raum mit dem Loch in der Mitte befinden."
+Inst25Quest11_Prequest = "Ja, Geistertotem"
+Inst25Quest11_Folgequest = "Nein"
+Inst25Quest11PreQuest = "true"
+--
+Inst25Quest11name1 = "Azuritfäuste"
+Inst25Quest11name2 = "Entzückter Wassergeist"
+Inst25Quest11name3 = "Wildstab"
+
+--Quest 12 Alliance
+Inst25Quest12 = "12. Eine bessere Zutat (Druide)"
+Inst25Quest12_Level = "52"
+Inst25Quest12_Attain = "50"
+Inst25Quest12_Aim = "Beschafft Euch eine Fäulnisranke von dem Wächter auf dem Grund des Versunkenen Tempels und kehrt zu Torwa Pfadfinder zurück."
+Inst25Quest12_Location = "Torwa Pfadfinder (Krater von Un'Goro; "..YELLOW.."72,76"..WHITE..")"
+Inst25Quest12_Note = "Druiden-Quest. Die Fäulnisranke droppt von Atal'alarion, der bei "..YELLOW.."[1]"..WHITE.." beschworen wird, indem man die Statuen in der Reihenfolge aktiviert, wie es auf der Karte steht."
+Inst25Quest12_Prequest = "Ja, Torwa Pfadfinder -> Giftexperiment"
+Inst25Quest12_Folgequest = "Nein"
+Inst25Quest12PreQuest = "true"
+--
+Inst25Quest12name1 = "Ergrauter Pelz"
+Inst25Quest12name2 = "Umarmung des Waldes"
+Inst25Quest12name3 = "Mondschattenstock"
+
+--Quest 13 Alliance
+Inst25Quest13 = "13. Der grüne Drache (Jäger)"
+Inst25Quest13_Level = "52"
+Inst25Quest13_Attain = "50"
+Inst25Quest13_Aim = "Bringt Morphaz' Zahn zu Ogtinc in Azshara. Ogtinc wohnt oberhalb des Kliffs, nordöstlich der Ruinen von Eldarath."
+Inst25Quest13_Location = "Ogtinc (Azshara; "..YELLOW.."42,43"..WHITE..")"
+Inst25Quest13_Note = "Jäger-Quest. Morphaz befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst25Quest13_Prequest = "Ja, Der Talisman des Jägers -> Wellenjagd"
+Inst25Quest13_Folgequest = "Nein"
+Inst25Quest13PreQuest = "true"
+--
+Inst25Quest13name1 = "Jagdspeer"
+Inst25Quest13name2 = "Auge eines Teufelssauriers"
+Inst25Quest13name3 = "Zahn eines Teufelssauriers"
+
+--Quest 14 Alliance
+Inst25Quest14 = "14. Vernichtet Morphaz (Magier)"
+Inst25Quest14_Level = "52"
+Inst25Quest14_Attain = "50"
+Inst25Quest14_Aim = "Beschafft den arkanen Splitter von Morphaz' Leichnam und kehrt mit ihm zu Erzmagier Xylem zurück."
+Inst25Quest14_Location = "Erzmagier Xylem (Azshara; "..YELLOW.."29,40"..WHITE..")"
+Inst25Quest14_Note = "Magier-Quest. Morphaz befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst25Quest14_Prequest = "Ja, Magischer Staub -> Die Koralle der Sirenen"
+Inst25Quest14_Folgequest = "Nein"
+Inst25Quest14PreQuest = "true"
+--
+Inst25Quest14name1 = "Gletscherstachel"
+Inst25Quest14name2 = "Arkankristallanhänger"
+Inst25Quest14name3 = "Feuerrubin"
+
+--Quest 15 Alliance
+Inst25Quest15 = "15. Morphaz' Blut (Priester)"
+Inst25Quest15_Level = "52"
+Inst25Quest15_Attain = "50"
+Inst25Quest15_Aim = "Tötet Morphaz im Versunkenen Tempel von Atal'Hakkar und bringt Greta Mooshuf im Teufelswald sein Blut. Der Eingang zum Versunkenen Tempel liegt in den Sümpfen des Elends."
+Inst25Quest15_Location = "Ogtinc (Azshara; "..YELLOW.."42,43"..WHITE..")"
+Inst25Quest15_Note = "Priester-Quest. Morphaz befindet sich bei "..YELLOW.."[5]"..WHITE..". Greta Mooshuf befindet sich im Teufelswald - Smaragdrefugium ("..YELLOW.."51,82"..WHITE..")."
+Inst25Quest15_Prequest = "Ja, Cenarische Hilfe -> Sekret des Untodes"
+Inst25Quest15_Folgequest = "Nein"
+Inst25Quest15PreQuest = "true"
+--
+Inst25Quest15name1 = "Gesegnete Gebetsperlen"
+Inst25Quest15name2 = "Stab des Leidens"
+Inst25Quest15name3 = "Reif der Hoffnung"
+
+--Quest 16 Alliance
+Inst25Quest16 = "16. Der azurblaue Schlüssel (Schurke)"
+Inst25Quest16_Level = "52"
+Inst25Quest16_Attain = "50"
+Inst25Quest16_Aim = "Bringt den azurblauen Schlüssel zu Lord Jorach Rabenholdt."
+Inst25Quest16_Location = "Erzmagier Xylem (Azshara; "..YELLOW.."29,40"..WHITE..")"
+Inst25Quest16_Note = "Schurken-Quest. Der azurblaue Schlüssel droppt von Morphaz bei "..YELLOW.."[5]"..WHITE..". Lord Jorach Rabenholdt befindet sich im Alteracgebirge - Rabenholdt ("..YELLOW.."86,79"..WHITE..")."
+Inst25Quest16_Prequest = "Ja, Ein simples Anliegen -> Verschlüsselte Fragmente"
+Inst25Quest16_Folgequest = "Nein"
+Inst25Quest16PreQuest = "true"
+--
+Inst25Quest16name1 = "Ebenholzmaske"
+Inst25Quest16name2 = "Leisetreter"
+Inst25Quest16name3 = "Nachtsaugertuch"
+
+--Quest 17 Alliance
+Inst25Quest17 = "17. Erschaffung des Steins der Macht (Paladin)"
+Inst25Quest17_Level = "52"
+Inst25Quest17_Attain = "50"
+Inst25Quest17_Aim = "Bringt die Voodoofedern zu Ashlam Ehrenschlag."
+Inst25Quest17_Location = "Kommandant Ashlam Ehrenschlag (Westliche Pestländer - Zugwindlager; "..YELLOW.."43,85"..WHITE..")"
+Inst25Quest17_Note = "Paladin-Quest. Je 1 Feder droppt von den Trollen, die sich auf den Balkonen über dem großen Raum mit dem Loch in der Mitte befinden."
+Inst25Quest17_Prequest = "Ja, Gereinigte Geißelsteine"
+Inst25Quest17_Folgequest = "Nein"
+Inst25Quest17PreQuest = "true"
+--
+Inst25Quest17name1 = "Heiliger Stein der Macht"
+Inst25Quest17name2 = "Lichtgeschmiedete Klinge"
+Inst25Quest17name3 = "Geweihte Kugel"
+Inst25Quest17name4 = "Siegelring der Ritterlichkeit"
 
 
---QUEST 1 Horde
+--Quest 1 Horde
 Inst25Quest1_HORDE = "1. Der Tempel von Atal'Hakkar"
-Inst25Quest1_HORDE_Attain = "46"
 Inst25Quest1_HORDE_Level = "50"
-Inst25Quest1_HORDE_Aim = "Sammelt 20 Fetische von Hakkar und bringt sie zu Fel'Zerul in Stonard."
-Inst25Quest1_HORDE_Location = "Fel'Zerul (Sümpfe des Elends - Stonard; "..YELLOW.."47,54"..WHITE..")"
-Inst25Quest1_HORDE_Note = "Alle Gegner im Tempel droppen die Fetische"
+Inst25Quest1_HORDE_Attain = "38"
+Inst25Quest1_HORDE_Aim = "Sammelt 20 Fetische von Hakkar und bringt sie zu Fel'Zerul in Steinard."
+Inst25Quest1_HORDE_Location = "Fel'Zerul (Sümpfe des Elends - Steinard; "..YELLOW.."47,54"..WHITE..")"
+Inst25Quest1_HORDE_Note = "Alle Gegner im Tempel droppen die Fetische."
 Inst25Quest1_HORDE_Prequest = "Ja, Tränenteich -> Rückkehr zu Fel'Zerul"
 Inst25Quest1_HORDE_Folgequest = "Nein"
+Inst25Quest1PreQuest_HORDE = "true"
 --
 Inst25Quest1name1_HORDE = "Wächtertalisman"
 
---QUEST 2 Horde
+--Quest 2 Horde
 Inst25Quest2_HORDE = "2. Der versunkene Tempel"
-Inst25Quest2_HORDE_Attain = "-"
 Inst25Quest2_HORDE_Level = "51"
-Inst25Quest2_HORDE_Aim = "Sucht Marvon Rivetseeker in Tanaris."
+Inst25Quest2_HORDE_Attain = "46"
+Inst25Quest2_HORDE_Aim = "Sucht Marvon Nietensucher in Tanaris."
 Inst25Quest2_HORDE_Location = "Hexendoktor Uzer'i (Feralas; "..YELLOW.."74,43"..WHITE..")"
-Inst25Quest2_HORDE_Note = "Marvon Rivetseeker findet man bei 52,45"
+Inst25Quest2_HORDE_Note = "Marvon Nietensucher findet man bei "..YELLOW.."52,45"..WHITE.."."
 Inst25Quest2_HORDE_Prequest = "Nein"
 Inst25Quest2_HORDE_Folgequest = "Ja, Der runde Stein"
 
---QUEST 3 Horde
-Inst25Quest3_HORDE = "3. In die Tiefen"
-Inst25Quest3_HORDE_Attain = "-"
-Inst25Quest3_HORDE_Level = "51"
-Inst25Quest3_HORDE_Aim = "Sucht den Altar von Hakkar im Versunkenen Tempel in den Sümpfen des Elends."
-Inst25Quest3_HORDE_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
-Inst25Quest3_HORDE_Note = "Der Altar ist bei "..YELLOW.."[1]"..WHITE.."."
-Inst25Quest3_HORDE_Prequest = "Ja, Der runde Stein"
-Inst25Quest3_HORDE_Folgequest = "Nein"
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst25Quest3_HORDE = Inst25Quest3
+Inst25Quest3_HORDE_Level = Inst25Quest3_Level
+Inst25Quest3_HORDE_Attain = Inst25Quest3_Attain
+Inst25Quest3_HORDE_Aim = Inst25Quest3_Aim
+Inst25Quest3_HORDE_Location = Inst25Quest3_Location
+Inst25Quest3_HORDE_Note = Inst25Quest3_Note
+Inst25Quest3_HORDE_Prequest = Inst25Quest3_Prequest
+Inst25Quest3_HORDE_Folgequest = Inst25Quest3_Folgequest
+Inst25Quest3FQuest_HORDE = Inst25Quest3FQuest
+-- No Rewards for this quest
 
---QUEST 4 Horde
-Inst25Quest4_HORDE = "4. Das Geheimnis des Kreises"
-Inst25Quest4_HORDE_Attain = "-"
-Inst25Quest4_HORDE_Level = "51"
-Inst25Quest4_HORDE_Aim = "Reist zum Versunkenen Tempel und enthüllt das Geheimnis, das sich in dem Kreis der Statuen verbirgt."
-Inst25Quest4_HORDE_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
-Inst25Quest4_HORDE_Note = "Man findet die Statuen bei "..YELLOW.."[1]"..WHITE..". Öffnen muss man sie in der Reihenfolge:1-6"
-Inst25Quest4_HORDE_Prequest = "Ja, Der runde Stein"
-Inst25Quest4_HORDE_Folgequest = "Nein"
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst25Quest4_HORDE = Inst25Quest4
+Inst25Quest4_HORDE_Level = Inst25Quest4_Level
+Inst25Quest4_HORDE_Attain = Inst25Quest4_Attain
+Inst25Quest4_HORDE_Aim = Inst25Quest4_Aim
+Inst25Quest4_HORDE_Location = Inst25Quest4_Location
+Inst25Quest4_HORDE_Note = Inst25Quest4_Note
+Inst25Quest4_HORDE_Prequest = Inst25Quest4_Prequest
+Inst25Quest4_HORDE_Folgequest = Inst25Quest4_Folgequest
+Inst25Quest4FQuest_HORDE = Inst25Quest4FQuest
 --
-Inst25Quest4name1_HORDE = "Urne der Hakkari"
+Inst25Quest4name1_HORDE = Inst25Quest4name1
 
---QUEST 5 Horde
-Inst25Quest5_HORDE = "5. Schrumpf-Treibstoff"
-Inst25Quest5_HORDE_Attain = "50"
+--Quest 5 Horde
+Inst25Quest5_HORDE = "5. Schrumpftreibstoff"
 Inst25Quest5_HORDE_Level = "52"
-Inst25Quest5_HORDE_Aim = "Bringt Larion in Marshals Zuflucht den ungeladenen Schrumpfer und 5 Proben Dunst der Atal'ai."
-Inst25Quest5_HORDE_Location = "Liv Rizzlefix (Bachland; "..YELLOW.."62,38"..WHITE..")"
-Inst25Quest5_HORDE_Note = "Den Vorquest 'Larion und Muigin' gibt es bei Larion (Un'Goro Crater 45,8). Man bekommt den Treibstoff von Tieflauerern, Düsterwürmern oder Brühschlammern im Tempel."
+Inst25Quest5_HORDE_Attain = "50"
+Inst25Quest5_HORDE_Aim = "Bringt Larion in Marschalls Zuflucht den ungeladenen Schrumpfer und 5 Proben Dunst der Atal'ai."
+Inst25Quest5_HORDE_Location = "Liv Ritzelflick (Bachland; "..YELLOW.."62,38"..WHITE..")"
+Inst25Quest5_HORDE_Note = "Das Vorquest 'Larion und Muigin' startet bei Larion (Krater von Un'Goro; "..YELLOW.."45,8"..WHITE.."). Man bekommt den Dunst von Tiefenlauerern, Düsterwürmern oder Brühschlammern im Tempel."
 Inst25Quest5_HORDE_Prequest = "Ja, Larion und Muigin -> Marvons Werkstatt"
 Inst25Quest5_HORDE_Folgequest = "Nein"
+Inst25Quest5PreQuest_HORDE = "true"
 
---QUEST 6 Horde
-Inst25Quest6_HORDE = "6. Der Gott Hakkar (Questreihe)"
-Inst25Quest6_HORDE_Attain = "43"
-Inst25Quest6_HORDE_Level = "53"
-Inst25Quest6_HORDE_Aim = "Bringt das gefüllte Ei von Hakkar zu Yeh'kinya nach Tanaris."
-Inst25Quest6_HORDE_Location = "Yeh'kinya (Tanaris; "..YELLOW.."66,22"..WHITE..")"
-Inst25Quest6_HORDE_Note = "Die Questreihe beginnt mit 'Kreischergeister' beim selbem NPC(Siehe "..YELLOW.."[Zul'Farrak]"..WHITE..").\nDas Ei muss man bei "..YELLOW.."[3]"..WHITE.." benutzen. Sobald man es aktiviert, spawnen Wellen von Mobs, die man besiegen muss. Einige der Mobs droppen das Blut von Hakkar, mit dem man eine der 4 brennenden Schalen in den Ecken löschen kann. Sobald alle 4 Schalen gelöscht sind muss man den Avatar von Hakkar besiegen."
-Inst25Quest6_HORDE_Prequest = "Ja, Kreischergeister -> Das uralte Ei"
-Inst25Quest6_HORDE_Folgequest = "Nein"
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst25Quest6_HORDE = Inst25Quest6
+Inst25Quest6_HORDE_Level = Inst25Quest6_Level
+Inst25Quest6_HORDE_Attain = Inst25Quest6_Attain
+Inst25Quest6_HORDE_Aim = Inst25Quest6_Aim
+Inst25Quest6_HORDE_Location = Inst25Quest6_Location
+Inst25Quest6_HORDE_Note = Inst25Quest6_Note
+Inst25Quest6_HORDE_Prequest = Inst25Quest6_Prequest
+Inst25Quest6_HORDE_Folgequest = Inst25Quest6_Folgequest
+Inst25Quest6PreQuest_HORDE = Inst25Quest6PreQuest
 --
-Inst25Quest6name1_HORDE = "Avenwach-Helm"
-Inst25Quest6name2_HORDE = "Langdolch der Lebenskraft"
-Inst25Quest6name3_HORDE = "Edelsteinbesetzter Reif"
+Inst25Quest6name1_HORDE = Inst25Quest6name1
+Inst25Quest6name2_HORDE = Inst25Quest6name2
+Inst25Quest6name3_HORDE = Inst25Quest6name3
 
---QUEST 7 Horde
-Inst25Quest7_HORDE = "7. Jammal'an der Prophet"
-Inst25Quest7_HORDE_Attain = "43"
-Inst25Quest7_HORDE_Level = "53"
-Inst25Quest7_HORDE_Aim = "Der Verbannte der Atal'ai im Hinterland möchte den Kopf von Jammal'an."
-Inst25Quest7_HORDE_Location = "Der Verbannte der Atal'ai (Das Hinterland; "..YELLOW.."33,75"..WHITE..")"
-Inst25Quest7_HORDE_Note = "Jammal'an findet man bei "..YELLOW.."[4]"..WHITE.."."
-Inst25Quest7_HORDE_Prequest = "Nein"
-Inst25Quest7_HORDE_Folgequest = "Nein"
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst25Quest7_HORDE = Inst25Quest7
+Inst25Quest7_HORDE_Level = Inst25Quest7_Level
+Inst25Quest7_HORDE_Attain = Inst25Quest7_Attain
+Inst25Quest7_HORDE_Aim = Inst25Quest7_Aim
+Inst25Quest7_HORDE_Location = Inst25Quest7_Location
+Inst25Quest7_HORDE_Note = Inst25Quest7_Note
+Inst25Quest7_HORDE_Prequest = Inst25Quest7_Prequest
+Inst25Quest7_HORDE_Folgequest = Inst25Quest7_Folgequest
 --
-Inst25Quest7name1_HORDE = "Regenschreiter-Gamaschen"
-Inst25Quest7name2_HORDE = "Helm des Banns"
+Inst25Quest7name1_HORDE = Inst25Quest7name1
+Inst25Quest7name2_HORDE = Inst25Quest7name2
 
---QUEST 8 Horde
-Inst25Quest8_HORDE = "8. Die Essenz des Eranikus"
-Inst25Quest8_HORDE_Attain = "-"
-Inst25Quest8_HORDE_Level = "55"
-Inst25Quest8_HORDE_Aim = "Legt die Essenz von Eranikus in den Essenzborn, der sich in dem Versunkenen Tempel in seinem Unterschlupf befindet."
-Inst25Quest8_HORDE_Location = "Essenz des Eranikus (drop) (Der Versunkene Tempel)"
-Inst25Quest8_HORDE_Note = "Die Essenz des Eranikus wird von Eranikus gedroppt. Der Essenzborn befindet sich gleich bei ihm (links) "..YELLOW.."[6]"..WHITE.."."
-Inst25Quest8_HORDE_Prequest = "Nein"
-Inst25Quest8_HORDE_Folgequest = "Nein"
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst25Quest8_HORDE = Inst25Quest8
+Inst25Quest8_HORDE_Level = Inst25Quest8_Level
+Inst25Quest8_HORDE_Attain = Inst25Quest8_Attain
+Inst25Quest8_HORDE_Aim = Inst25Quest8_Aim
+Inst25Quest8_HORDE_Location = Inst25Quest8_Location
+Inst25Quest8_HORDE_Note = Inst25Quest8_Note
+Inst25Quest8_HORDE_Prequest = Inst25Quest8_Prequest
+Inst25Quest8_HORDE_Folgequest = Inst25Quest8_Folgequest
 --
-Inst25Quest8name1_HORDE = "Angekettete Essenz des Eranikus"
+Inst25Quest8name1_HORDE = Inst25Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst25Quest9_HORDE = Inst25Quest9
+Inst25Quest9_HORDE_Level = Inst25Quest9_Level
+Inst25Quest9_HORDE_Attain = Inst25Quest9_Attain
+Inst25Quest9_HORDE_Aim = Inst25Quest9_Aim
+Inst25Quest9_HORDE_Location = Inst25Quest9_Location
+Inst25Quest9_HORDE_Note = Inst25Quest9_Note
+Inst25Quest9_HORDE_Prequest = Inst25Quest9_Prequest
+Inst25Quest9_HORDE_Folgequest = Inst25Quest9_Folgequest
+Inst25Quest9PreQuest_HORDE = Inst25Quest9PreQuest
+--
+Inst25Quest9name1_HORDE = Inst25Quest9name1
+Inst25Quest9name2_HORDE = Inst25Quest9name2
+Inst25Quest9name3_HORDE = Inst25Quest9name3
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst25Quest10_HORDE = Inst25Quest10
+Inst25Quest10_HORDE_Level = Inst25Quest10_Level
+Inst25Quest10_HORDE_Attain = Inst25Quest10_Attain
+Inst25Quest10_HORDE_Aim = Inst25Quest10_Aim
+Inst25Quest10_HORDE_Location = Inst25Quest10_Location
+Inst25Quest10_HORDE_Note = Inst25Quest10_Note
+Inst25Quest10_HORDE_Prequest = Inst25Quest10_Prequest
+Inst25Quest10_HORDE_Folgequest = Inst25Quest10_Folgequest
+Inst25Quest10PreQuest_HORDE = Inst25Quest10PreQuest
+--
+Inst25Quest10name1_HORDE = Inst25Quest10name1
+Inst25Quest10name2_HORDE = Inst25Quest10name2
+Inst25Quest10name3_HORDE = Inst25Quest10name3
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst25Quest11_HORDE = Inst25Quest11
+Inst25Quest11_HORDE_Level = Inst25Quest11_Level
+Inst25Quest11_HORDE_Attain = Inst25Quest11_Attain
+Inst25Quest11_HORDE_Aim = Inst25Quest11_Aim
+Inst25Quest11_HORDE_Location = Inst25Quest11_Location
+Inst25Quest11_HORDE_Note = Inst25Quest11_Note
+Inst25Quest11_HORDE_Prequest = Inst25Quest11_Prequest
+Inst25Quest11_HORDE_Folgequest = Inst25Quest11_Folgequest
+Inst25Quest11PreQuest_HORDE = Inst25Quest11PreQuest
+--
+Inst25Quest11name1_HORDE = Inst25Quest11name1
+Inst25Quest11name2_HORDE = Inst25Quest11name2
+Inst25Quest11name3_HORDE = Inst25Quest11name3
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst25Quest12_HORDE = Inst25Quest12
+Inst25Quest12_HORDE_Level = Inst25Quest12_Level
+Inst25Quest12_HORDE_Attain = Inst25Quest12_Attain
+Inst25Quest12_HORDE_Aim = Inst25Quest12_Aim
+Inst25Quest12_HORDE_Location = Inst25Quest12_Location
+Inst25Quest12_HORDE_Note = Inst25Quest12_Note
+Inst25Quest12_HORDE_Prequest = Inst25Quest12_Prequest
+Inst25Quest12_HORDE_Folgequest = Inst25Quest12_Folgequest
+Inst25Quest12PreQuest_HORDE = Inst25Quest12PreQuest
+--
+Inst25Quest12name1_HORDE = Inst25Quest12name1
+Inst25Quest12name2_HORDE = Inst25Quest12name2
+Inst25Quest12name3_HORDE = Inst25Quest12name3
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst25Quest13_HORDE = Inst25Quest13
+Inst25Quest13_HORDE_Level = Inst25Quest13_Level
+Inst25Quest13_HORDE_Attain = Inst25Quest13_Attain
+Inst25Quest13_HORDE_Aim = Inst25Quest13_Aim
+Inst25Quest13_HORDE_Location = Inst25Quest13_Location
+Inst25Quest13_HORDE_Note = Inst25Quest13_Note
+Inst25Quest13_HORDE_Prequest = Inst25Quest13_Prequest
+Inst25Quest13_HORDE_Folgequest = Inst25Quest13_Folgequest
+Inst25Quest13PreQuest_HORDE = Inst25Quest13PreQuest
+--
+Inst25Quest13name1_HORDE = Inst25Quest13name1
+Inst25Quest13name2_HORDE = Inst25Quest13name2
+Inst25Quest13name3_HORDE = Inst25Quest13name3
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst25Quest14_HORDE = Inst25Quest14
+Inst25Quest14_HORDE_Level = Inst25Quest14_Level
+Inst25Quest14_HORDE_Attain = Inst25Quest14_Attain
+Inst25Quest14_HORDE_Aim = Inst25Quest14_Aim
+Inst25Quest14_HORDE_Location = Inst25Quest14_Location
+Inst25Quest14_HORDE_Note = Inst25Quest14_Note
+Inst25Quest14_HORDE_Prequest = Inst25Quest14_Prequest
+Inst25Quest14_HORDE_Folgequest = Inst25Quest14_Folgequest
+Inst25Quest14PreQuest_HORDE = Inst25Quest14PreQuest
+--
+Inst25Quest14name1_HORDE = Inst25Quest14name1
+Inst25Quest14name2_HORDE = Inst25Quest14name2
+Inst25Quest14name3_HORDE = Inst25Quest14name3
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst25Quest15_HORDE = Inst25Quest15
+Inst25Quest15_HORDE_Level = Inst25Quest15_Level
+Inst25Quest15_HORDE_Attain = Inst25Quest15_Attain
+Inst25Quest15_HORDE_Aim = Inst25Quest15_Aim
+Inst25Quest15_HORDE_Location = Inst25Quest15_Location
+Inst25Quest15_HORDE_Note = Inst25Quest15_Note
+Inst25Quest15_HORDE_Prequest = Inst25Quest15_Prequest
+Inst25Quest15_HORDE_Folgequest = Inst25Quest15_Folgequest
+Inst25Quest15PreQuest_HORDE = Inst25Quest15PreQuest
+--
+Inst25Quest15name1_HORDE = Inst25Quest15name1
+Inst25Quest15name2_HORDE = Inst25Quest15name2
+Inst25Quest15name3_HORDE = Inst25Quest15name3
+
+--Quest 16 Horde  (same as Quest 16 Alliance)
+Inst25Quest16_HORDE = Inst25Quest16
+Inst25Quest16_HORDE_Level = Inst25Quest16_Level
+Inst25Quest16_HORDE_Attain = Inst25Quest16_Attain
+Inst25Quest16_HORDE_Aim = Inst25Quest16_Aim
+Inst25Quest16_HORDE_Location = Inst25Quest16_Location
+Inst25Quest16_HORDE_Note = Inst25Quest16_Note
+Inst25Quest16_HORDE_Prequest = Inst25Quest16_Prequest
+Inst25Quest16_HORDE_Folgequest = Inst25Quest16_Folgequest
+Inst25Quest16PreQuest_HORDE = Inst25Quest16PreQuest
+--
+Inst25Quest16name1_HORDE = Inst25Quest16name1
+Inst25Quest16name2_HORDE = Inst25Quest16name2
+Inst25Quest16name3_HORDE = Inst25Quest16name3
+
+--Quest 17 Horde
+Inst25Quest17_HORDE = "17. Das uralte Böse (Paladin)"
+Inst25Quest17_HORDE_Level = "52"
+Inst25Quest17_HORDE_Attain = "50"
+Inst25Quest17_HORDE_Aim = "Lüftet die Geheimnisse des Versunkenen Tempels und befreit Atal'alarion. Tötet ihn und schneidet die Fäulnisranke aus seinem Fleisch. Kehrt danach zu Mehlar beim Bollwerk zurück."
+Inst25Quest17_HORDE_Location = "Fürstin Sylvanas Windläufer (Unterstadt - Königliches Viertel; "..YELLOW.."59,94"..WHITE..")"
+Inst25Quest17_HORDE_Note = "Paladin-Quest. Die Fäulnisranke droppt von Atal'alarion, der bei "..YELLOW.."[1]"..WHITE.." beschworen wird, indem man die Statuen in der Reihenfolge aktiviert, wie es auf der Karte steht. Mehlar befindet sich in Tirisfal - Das Bollwerk ("..YELLOW.."83,71"..WHITE..")."
+Inst25Quest17_HORDE_Prequest = "Ja, Zum Bollwerk -> Die Weisheit der Bansheekönigin"
+Inst25Quest17_HORDE_Folgequest = "Nein"
+Inst25Quest17PreQuest_HORDE = "true"
+--
+Inst25Quest17name1_HORDE = "Geißelbann"
 
 
 
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
-Inst26Story = "Im Herzen Ahn'Qirajs liegt ein uralter Tempelkomplex. Vor Beginn der Zeitrechnung erbaut, ist es ein Monument scheußlicher Gottheiten und die gewaltige Brutstätte der Qiraji Streitmacht. Seit der Krieg der wehenden Sande vor tausend Jahren endete, waren die Zwilingsimperatoren von Ahn'Qiraj, Vek'nilash und Vek'lor, in ihrem Tempel gefangen. Die magische Barriere des bronzenen Drachen Anachronos und der Nachtelfen hielt sie in ihrem Bann. Doch nun, da das Szepter der Sandstürme wieder vereint und das Siegel gebrochen ist, steht der Weg in das Heiligtum Ahn'Qirajs erneut offen. Hinter dem krabbelnden Wahnsinn des Schwarmbaus, unter dem Tempel von Ahn'Qiraj, bereiten sich Heerscharen der Qiraji auf den Einmarsch vor. Nun gilt es, sie um jeden Preis aufzuhalten bevor sie ihre unersättlichen, insektenartigen Armeen erneut auf auf Kalimdor loslassen und ein zweiter Krieg der Silithiden beginnt!"
+Inst26Story = "Im Herzen Ahn'Qiraj liegt ein uralter Tempelkomplex. Vor Beginn der Zeitrechnung erbaut, ist es ein Monument scheußlicher Gottheiten und die gewaltige Brutstätte der Qiraji Streitmacht. Seit der Krieg der wehenden Sande vor tausend Jahren endete, waren die Zwilingsimperatoren von Ahn'Qiraj, Vek'nilash und Vek'lor, in ihrem Tempel gefangen. Die magische Barriere des bronzenen Drachen Anachronos und der Nachtelfen hielt sie in ihrem Bann. Doch nun, da das Szepter der Sandstürme wieder vereint und das Siegel gebrochen ist, steht der Weg in das Heiligtum Ahn'Qirajs erneut offen. Hinter dem krabbelnden Wahnsinn des Schwarmbaus, unter dem Tempel von Ahn'Qiraj, bereiten sich Heerscharen der Qiraji auf den Einmarsch vor. Nun gilt es, sie um jeden Preis aufzuhalten bevor sie ihre unersättlichen, insektenartigen Armeen erneut auf auf Kalimdor loslassen und ein zweiter Krieg der Silithiden beginnt!"
 Inst26Caption = "Tempel von Ahn'Qiraj"
+Inst26QAA = "3 Quests"
+Inst26QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst26Quest1 = "1. C'Thuns Vermächnis"
+Inst26Quest1_Level = "60"
+Inst26Quest1_Attain = "60"
+Inst26Quest1_Aim = "Bringt Caelastrasz im Tempel von Ahn'Qiraj das Auge von C'Thun."
+Inst26Quest1_Location = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..WHITE..")"
+Inst26Quest1_Note = "Caelestrasz (Tempel von Ahn'Qiraj; "..YELLOW.."2'"..WHITE..")"
+Inst26Quest1_Prequest = "Nein"
+Inst26Quest1_Folgequest = "Ja, Der Retter von Kalimdor"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst26Quest2 = "2. Der Retter von Kalimdor"
+Inst26Quest2_Level = "60"
+Inst26Quest2_Attain = "60"
+Inst26Quest2_Aim = "Bringt Anachronos in den Höhlen der Zeit das Auge von C'Thun."
+Inst26Quest2_Location = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..WHITE..")"
+Inst26Quest2_Note = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
+Inst26Quest2_Prequest = "Ja, C'Thuns Vermächnis"
+Inst26Quest2_Folgequest = "Nein"
+Inst26Quest2FQuest = "true"
+--
+Inst26Quest2name1 = "Amulett des gefallenen Gottes"
+Inst26Quest2name2 = "Umhang des gefallenen Gottes"
+Inst26Quest2name3 = "Ring des gefallenen Gottes"
+
+--Quest 3 Alliance
+Inst26Quest3 = "3. Geheimnisse der Qiraji"
+Inst26Quest3_Level = "60"
+Inst26Quest3_Attain = "60"
+Inst26Quest3_Aim = "Bringt das uralte Qirajiartefakt zu den Drachen, die sich nahe des Tempeleingangs versteckt halten."
+Inst26Quest3_Location = "Uraltes Qirajiartefakt (Zufälliger Dropp im Tempel von Ahn'Qiraj)"
+Inst26Quest3_Note = "Wird bei Andorgos (Tempel von Ahn'Qiraj; "..YELLOW.."1'"..WHITE..") abgegeben."
+Inst26Quest3_Prequest = "Nein"
+Inst26Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst26Quest1_HORDE = Inst26Quest1
+Inst26Quest1_HORDE_Level = Inst26Quest1_Level
+Inst26Quest1_HORDE_Attain = Inst26Quest1_Attain
+Inst26Quest1_HORDE_Aim = Inst26Quest1_Aim
+Inst26Quest1_HORDE_Location = Inst26Quest1_Location
+Inst26Quest1_HORDE_Note = Inst26Quest1_Note
+Inst26Quest1_HORDE_Prequest = Inst26Quest1_Prequest
+Inst26Quest1_HORDE_Folgequest = Inst26Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst26Quest2_HORDE = Inst26Quest2
+Inst26Quest2_HORDE_Level = Inst26Quest2_Level
+Inst26Quest2_HORDE_Attain = Inst26Quest2_Attain
+Inst26Quest2_HORDE_Aim = Inst26Quest2_Aim
+Inst26Quest2_HORDE_Location = Inst26Quest2_Location
+Inst26Quest2_HORDE_Note = Inst26Quest2_Note
+Inst26Quest2_HORDE_Prequest = Inst26Quest2_Prequest
+Inst26Quest2_HORDE_Folgequest = Inst26Quest2_Folgequest
+Inst26Quest2FQuest_HORDE = Inst26Quest2FQuest
+--
+Inst26Quest2name1_HORDE = Inst26Quest2name1
+Inst26Quest2name2_HORDE = Inst26Quest2name2
+Inst26Quest2name3_HORDE = Inst26Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst26Quest3_HORDE = Inst26Quest3
+Inst26Quest3_HORDE_Level = Inst26Quest3_Level
+Inst26Quest3_HORDE_Attain = Inst26Quest3_Attain
+Inst26Quest3_HORDE_Aim = Inst26Quest3_Aim
+Inst26Quest3_HORDE_Location = Inst26Quest3_Location
+Inst26Quest3_HORDE_Note = Inst26Quest3_Note
+Inst26Quest3_HORDE_Prequest = Inst26Quest3_Prequest
+Inst26Quest3_HORDE_Folgequest = Inst26Quest3_Folgequest
+-- No Rewards for this quest
 
 
 
