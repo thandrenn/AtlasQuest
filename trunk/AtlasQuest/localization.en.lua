@@ -5364,8 +5364,8 @@ Inst27Quest6 = "6. Divino-matic Rod"
 Inst27Quest6_Level = "47"
 Inst27Quest6_Attain = "40"
 Inst27Quest6_Aim = "Bring the Divino-matic Rod to Chief Engineer Bilgewhizzle in Gadgetzan."
-Inst27Quest6_Location = "Bilgewhizzle (Tanaris - Gadgetzan; "..YELLOW.."52,28"..WHITE..")"
-Inst27Quest6_Note = "You get the Rod from Seargent Bly. You can find him at "..YELLOW.."[4]"..WHITE.." after the Temple event."
+Inst27Quest6_Location = "Chief Engineer Bilgewhizzle (Tanaris - Gadgetzan; "..YELLOW.."52,28"..WHITE..")"
+Inst27Quest6_Note = "You get the Rod from Sergeant Bly. You can find him at "..YELLOW.."[4]"..WHITE.." after the Temple event."
 Inst27Quest6_Prequest = "No"
 Inst27Quest6_Folgequest = "No"
 --
@@ -5477,7 +5477,7 @@ Inst27Quest7name1_HORDE = Inst27Quest7name1
 
 Inst28Story = {
   ["Page1"] = "Over a thousand years ago the powerful Gurubashi Empire was torn apart by a massive civil war. An influential group of troll priests, known as the Atal'ai, called forth the avatar of an ancient and terrible blood god named Hakkar the Soulflayer. Though the priests were defeated and ultimately exiled, the great troll empire collapsed upon itself. The exiled priests fled far to the north, into the Swamp of Sorrows, where they erected a great temple to Hakkar in order to prepare for his arrival into the physical world.",
-  ["Page2"] = "In time, the Atal'ai priests discovered that Hakkar's physical form could only be summoned within the ancient capital of the Gurubashi Empire, Zul'Gurub. Unfortunately, the priests have met with recent success in their quest to call forth Hakkar -- reports confirm the presence of the dreaded Soulflayer in the heart of the Gurubashi ruins.\n \nIn order to quell the blood god, the trolls of the land banded together and sent a contingent of High Priests into the ancient city. Each priest was a powerful champion of the Primal Gods -- Bat, Panther, Tiger, Spider, and Snake -- but despite their best efforts, they fell under the sway of Hakkar. Now the champions and their Primal God aspects feed the awesome power of the Soulflayer. Any adventurers brave enough to venture into the foreboding ruins must overcome the High Priests if they are to have any hope of confronting the mighty blood god.",
+  ["Page2"] = "In time, the Atal'ai priests discovered that Hakkar's physical form could only be summoned within the ancient capital of the Gurubashi Empire, Zul'Gurub. Unfortunately, the priests have met with recent success in their quest to call forth Hakkar - reports confirm the presence of the dreaded Soulflayer in the heart of the Gurubashi ruins.\n\nIn order to quell the blood god, the trolls of the land banded together and sent a contingent of High Priests into the ancient city. Each priest was a powerful champion of the Primal Gods - Bat, Panther, Tiger, Spider, and Snake - but despite their best efforts, they fell under the sway of Hakkar. Now the champions and their Primal God aspects feed the awesome power of the Soulflayer. Any adventurers brave enough to venture into the foreboding ruins must overcome the High Priests if they are to have any hope of confronting the mighty blood god.",
   ["MaxPages"] = "2",
 };
 Inst28Caption = "Zul'Gurub"
@@ -5490,7 +5490,7 @@ Inst28Quest1_Level = "60"
 Inst28Quest1_Attain = "58"
 Inst28Quest1_Aim = "String 5 Channeler's Heads, then return the Collection of Troll Heads to Exzhal on Yojamba Isle."
 Inst28Quest1_Location = "Exzhal (Stranglethorn Vale - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
-Inst28Quest1_Note = "Make sure you loot all the priests"
+Inst28Quest1_Note = "Make sure you loot all the priests."
 Inst28Quest1_Prequest = "No"
 Inst28Quest1_Folgequest = "No"
 --
@@ -5530,7 +5530,7 @@ Inst28Quest4_Level = "60"
 Inst28Quest4_Attain = "60"
 Inst28Quest4_Aim = "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac."
 Inst28Quest4_Location = "Dirk Thunderwood (Silithus - Cenarion Hold; "..YELLOW.."52,39"..WHITE..")"
-Inst28Quest4_Note = "Venoxis's Venom Sac drops from High priest Venoxis in "..YELLOW.."Zul'Gurub"..WHITE.." at "..YELLOW.."[2]"..WHITE..". Kurinnaxx's Venom Sac drops in the "..YELLOW.."Ruins of Ahn'Qiraj"..WHITE.."."
+Inst28Quest4_Note = "Venoxis's Venom Sac drops from High priest Venoxis in "..YELLOW.."Zul'Gurub"..WHITE.." at "..YELLOW.."[2]"..WHITE..". Kurinnaxx's Venom Sac drops in the "..YELLOW.."Ruins of Ahn'Qiraj"..WHITE.." at "..YELLOW.."[1]"..WHITE.."."
 Inst28Quest4_Prequest = "No"
 Inst28Quest4_Folgequest = "No"
 --
@@ -5614,7 +5614,7 @@ Inst29Quest1_Level = "26"
 Inst29Quest1_Attain = "20"
 Inst29Quest1_Aim = "Bring Techbot's Memory Core to Tinkmaster Overspark in Ironforge."
 Inst29Quest1_Location = "Tinkmaster Overspark (Ironforge - Tinkertown; "..YELLOW.."69,50"..WHITE..")"
-Inst29Quest1_Note = "You get the prequest from Brother Sarno "..YELLOW.."(Stormwind - Cathedral Square; "..YELLOW.."40,30"..WHITE..").\nYou find Techbot before you enter the instance near the backdoor, at "..YELLOW.."[4] on Entrance Map"..WHITE.."."
+Inst29Quest1_Note = "You get the prequest from Brother Sarno (Stormwind - Cathedral Square; "..YELLOW.."40,30"..WHITE..").\nYou find Techbot before you enter the instance near the backdoor, at "..YELLOW.."[4] on Entrance Map"..WHITE.."."
 Inst29Quest1_Prequest = "Yes, Tinkmaster Overspark"
 Inst29Quest1_Folgequest = "No"
 Inst29Quest1PreQuest = "true"
@@ -5638,7 +5638,7 @@ Inst29Quest3_Level = "30"
 Inst29Quest3_Attain = "23"
 Inst29Quest3_Aim = "Travel to Gnomeregan and bring back High Potency Radioactive Fallout. Be warned, the fallout is unstable and will collapse rather quickly.\nOzzie will also require your Heavy Leaden Collection Phial when the task is complete."
 Inst29Quest3_Location = "Ozzie Togglevolt (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")"
-Inst29Quest3_Note = "To get fallout you musst use the Phial on "..RED.."alive"..WHITE.." Irradiated Slimes, Lurkers and Horrors."
+Inst29Quest3_Note = "To get fallout you musst use the Phial on "..RED.."alive"..WHITE.." Irradiated Slimes or Horrors."
 Inst29Quest3_Prequest = "Yes, Gnogaine"
 Inst29Quest3_Folgequest = "No"
 Inst29Quest3FQuest = "true"
@@ -5674,14 +5674,14 @@ Inst29Quest6 = "6. Data Rescue"
 Inst29Quest6_Level = "30"
 Inst29Quest6_Attain = "25"
 Inst29Quest6_Aim = "Bring a Prismatic Punch Card to Master Mechanic Castpipe in Ironforge."
-Inst29Quest6_Location = "Master Mechanic Castpipe (Ironforge; "..YELLOW.."69,48 "..WHITE..")"
+Inst29Quest6_Location = "Master Mechanic Castpipe (Ironforge - Tinkertown; "..YELLOW.."69,48"..WHITE..")"
 Inst29Quest6_Note = "You get the prequest from Gaxim Rustfizzle (Stonetalon Mountains; "..YELLOW.."59,67"..WHITE.."). The prequest is only a pointer quest and is not required to get this quest.\nThe white card is a random drop. You find the first terminal next to the back entrance before you enter the instance at "..YELLOW.."[3] on Entrance Map"..WHITE..". The 3005-B is at "..YELLOW.."[3]"..WHITE..", the 3005-C at "..YELLOW.."[5]"..WHITE.." and the 3005-D is at "..YELLOW.."[6]"..WHITE.."."
 Inst29Quest6_Prequest = "Yes, Castpipe's Task"
 Inst29Quest6_Folgequest = "No"
+Inst29Quest6PreQuest = "true"
 --
 Inst29Quest6name1 = "Repairman's Cape"
 Inst29Quest6name2 = "Mechanic's Pipehammer"
-Inst29Quest6PreQuest = "true"
 
 --Quest 7 Alliance
 Inst29Quest7 = "7. A Fine Mess"
@@ -5715,7 +5715,7 @@ Inst29Quest9 = "9. Grime-Encrusted Ring"
 Inst29Quest9_Level = "34"
 Inst29Quest9_Attain = "28"
 Inst29Quest9_Aim = "Figure out a way to remove the grime from the Grime-Encrusted Ring."
-Inst29Quest9_Location = "Grime-Encrusted Ring (random drop from Gnomereagan)"
+Inst29Quest9_Location = "Grime-Encrusted Ring (random drop from Gnomeregan)"
 Inst29Quest9_Note = "The Ring can be cleaned off at the Sparklematic 5200 in the Clean Room at "..YELLOW.."[2]"..WHITE.."."
 Inst29Quest9_Prequest = "No"
 Inst29Quest9_Folgequest = "Yes, Return of the Ring"
@@ -5727,12 +5727,12 @@ Inst29Quest10_Level = "34"
 Inst29Quest10_Attain = "28"
 Inst29Quest10_Aim = "You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
 Inst29Quest10_Location = "Brilliant Gold Ring (obtained from Grime-Encrusted Ring quest)"
-Inst29Quest10_Note = "Turns in to Talvash del Kissel (Ironforge - The Mystic Ward; "..YELLOW.."36,3"..WHITE.."). The followup to enhance the ring is optional."
+Inst29Quest10_Note = "Turns in to Talvash del Kissel (Ironforge - Mystic Ward; "..YELLOW.."36,3"..WHITE.."). The followup to enhance the ring is optional."
 Inst29Quest10_Prequest = "Yes, Grime-Encrusted Ring"
 Inst29Quest10_Folgequest = "Yes, Gnome Improvement"
 Inst29Quest10FQuest = "true"
 --
-Inst29Quest10name1 = "Brilliant Gold Ring "
+Inst29Quest10name1 = "Brilliant Gold Ring"
 
 
 --Quest 1 Horde
@@ -5765,7 +5765,7 @@ Inst29Quest3_HORDE = "3. Rig Wars"
 Inst29Quest3_HORDE_Level = "35"
 Inst29Quest3_HORDE_Attain = "25"
 Inst29Quest3_HORDE_Aim = "Retrieve the Rig Blueprints and Thermaplugg's Safe Combination from Gnomeregan and bring them to Nogg in Orgrimmar."
-Inst29Quest3_HORDE_Location = "Nogg (Orgrimmar - The Valley of Honor; "..YELLOW.."75,25"..WHITE..")"
+Inst29Quest3_HORDE_Location = "Nogg (Orgrimmar - Valley of Honor; "..YELLOW.."75,25"..WHITE..")"
 Inst29Quest3_HORDE_Note = "You find Thermaplugg at "..YELLOW.."[8]"..WHITE..". He is the last boss in Gnomeregan.\nDuring the fight you have to disable the columns through pushing the button on the side."
 Inst29Quest3_HORDE_Prequest = "No"
 Inst29Quest3_HORDE_Folgequest = "No"
@@ -5808,6 +5808,8 @@ Inst37Story = {
   ["MaxPages"] = "2",
 };
 Inst37Caption = "HFC: Ramparts"
+Inst37QAA = "3 Quests"
+Inst37QAH = "3 Quests"
 Inst37General = {
     {
     "Watchkeeper Gargolmar",
@@ -5827,9 +5829,6 @@ Inst37General = {
     "Vazruden(): Nothing?\n" .. RED .. "Nazan(Dragonsbreath)" .. WHITE .. ": Nazan does strong firedamage in front of him. The tank has to turn the dragon away from the group.\n" .. RED .. "Nazan(Flamethrowing)" .. WHITE .. ": Nazan throws fireballs at you which do decent damage(-2k) and burn the ground(-600fire/sec). Everbody have to go out of the fire!",
     },
 };
-
-Inst37QAA = "3 Quests"
-Inst37QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst37Quest1 = "1. Weaken the Ramparts"
@@ -5943,7 +5942,6 @@ Inst38General = {
    RED .. "The Adds:" .. WHITE .. " They cast shadowbolds and a debuff(magic) which increase shadowdamage by 1000. Clean it as fast as you can.\n" .. RED .. "Shadowvolly:" .. WHITE .. " 3 Shadowbolds, not much damage without the debuff.\n" .. RED .. "Fire Nova:" .. WHITE .. " Every few seconds he yells 'Come closer!' and stopp attacking. After 2-5(not sure) seconds he does a strong fire nova(great range). So if you see him yelling run away.",
     },
 };
-
 
 --Quest 1 Alliance
 Inst38Quest1 = "1. The Blood is Life"
@@ -7465,7 +7463,7 @@ Inst49Quest7_Note = "This is a daily quest."
 Inst49Quest7_Prequest = "No"
 Inst49Quest7_Folgequest = "No"
 --
-Inst49Quest7name1 = "Badge of Justice"
+Inst49Quest7name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9092,7 +9090,7 @@ Inst60QAH = "No Quests"
 
 Inst30Story = {
   ["Page1"] = "There is a disturbance at the Great Trees. A new threat menaces these secluded areas found in Ashenvale, Duskwood, Feralas, and Hinterlands. Four great guardians of the Green Dragonflight have arrived from the Dream, but these once-proud protectors now seek only destruction and death. Take arms with your fellows and march to these hidden groves -- only you can defend Azeroth from the corruption they bring.",
-  ["Page2"] = "Ysera, the great Dreaming dragon Aspect rules over the enigmatic green dragonflight. Her domain is the fantastic, mystical realm of the Emerald Dream - and it is said that from there she guides the evolutionary path of the world itself. She is the protector of nature and imagination, and it is the charge of her flight to guard all of the Great Trees across the world, which only druids use to enter the Dream itself.In recent times, Ysera's most trusted lieutenants have been warped by a dark new power within the Emerald Dream. Now these wayward sentinels have passed through the Great Trees into Azeroth, intending to spread madness and terror throughout the mortal kingdoms. Even the mightiest of adventurers would be well advised to give the dragons a wide berth, or suffer the consequences of their misguided wrath.",
+  ["Page2"] = "Ysera, the great Dreaming dragon Aspect rules over the enigmatic green dragonflight. Her domain is the fantastic, mystical realm of the Emerald Dream - and it is said that from there she guides the evolutionary path of the world itself. She is the protector of nature and imagination, and it is the charge of her flight to guard all of the Great Trees across the world, which only druids use to enter the Dream itself. In recent times, Ysera's most trusted lieutenants have been warped by a dark new power within the Emerald Dream. Now these wayward sentinels have passed through the Great Trees into Azeroth, intending to spread madness and terror throughout the mortal kingdoms. Even the mightiest of adventurers would be well advised to give the dragons a wide berth, or suffer the consequences of their misguided wrath.",
   ["Page3"] = "Lethon's exposure to the aberration within the Emerald Dream not only darkened the hue of the mighty dragon's scales, but also empowered him with the ability to extract malevolent shades from his enemies. Once joined with their master, the shades imbue the dragon with healing energies. It should come as no surprise, then, that Lethon is considered to be among the most formidable of Ysera's wayward lieutenants",
   ["Page4"] = "A  mysterious dark power within the Emerald Dream has transformed the once-majestic Emeriss into a rotting, diseased monstrosity. Reports from the few who have survived encounters with the dragon have told horrifying tales of putrid mushrooms erupting from the corpses of their dead companions. Emeriss is truly the most gruesome and appalling of Ysera's estranged green dragons.",
   ["Page5"] = "Taerar was perhaps the most affected of Ysera's rogue lieutenants. His interaction with the dark force within the Emerald Dream shattered Taerar's sanity as well as his corporeal form. The dragon now exists as a specter with the ability to split into multiple entities, each of which possesses destructive magical powers. Taerar is a cunning and relentless foe who is intent on turning the madness of his existence into reality for the inhabitants of Azeroth.",
