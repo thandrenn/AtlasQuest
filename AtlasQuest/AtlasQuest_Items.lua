@@ -4792,6 +4792,9 @@ Inst43Quest4textur1 = "Spell_Holy_ChampionsBond"
 Inst43Quest4description1 = AQITEM_ITEM
 Inst43Quest4ID1 = "29434"
 
+--Quest 5 Alliance
+Inst43Quest5Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst43Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
@@ -4839,6 +4842,9 @@ Inst43Quest4ITC1_HORDE = Itemc5;
 Inst43Quest4textur1_HORDE = "Spell_Holy_ChampionsBond"
 Inst43Quest4description1_HORDE = AQITEM_ITEM
 Inst43Quest4ID1_HORDE = "29434"
+
+--Quest 5 Horde
+Inst43Quest5Rewardtext_HORDE = AQNoReward
 
 
 

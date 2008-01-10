@@ -87,7 +87,6 @@ local AtlasQuest_Defaults = {
     ["AutoQuery"] = nil,
     ["NoQuerySpam"] = "yes",
     ["CompareTooltip"] = nil,
---    ["EquipCompare"] = nil,
   },
 };
 
@@ -101,12 +100,12 @@ AQ = {};
 
 
 --******************************************
-------------------/////Events: OnEvent//////
+-- Events: OnEvent
 --******************************************
 
---------------------------------
--- called when the player starts the game loads the variables
---------------------------------
+-----------------------------------------------------------------------------
+-- Called when the player starts the game loads the variables
+-----------------------------------------------------------------------------
 function AtlasQuest_OnEvent()
    if (event == "VARIABLES_LOADED") then
       VariablesLoaded = 1; -- data is loaded completely
@@ -115,10 +114,11 @@ function AtlasQuest_OnEvent()
    end
 end
 
---------------------------------
--- detects whether the variables have to be loaded
+
+-----------------------------------------------------------------------------
+-- Detects whether the variables have to be loaded
 -- or reestablishes them
---------------------------------
+-----------------------------------------------------------------------------
 function AtlasQuest_Initialize()
   if (Initialized or (not VariablesLoaded)) then
     return;
@@ -137,18 +137,21 @@ function AtlasQuest_Initialize()
   Initialized = 1;
 end
 
---------------------------------
--- NewVersion check
---------------------------------
+
+-----------------------------------------------------------------------------
+-- New Version check
+-----------------------------------------------------------------------------
 function AQVersionCheck()
  if (AtlasQuest_Options["Version"] == nil or AtlasQuest_Options["Version"] ~= AtlasQuest_Defaults["Version"] ) then
    AtlasQuest_Options["Version"] = AtlasQuest_Defaults["Version"];
    DEFAULT_CHAT_FRAME:AddMessage("First load after updating to "..ATLASQUEST_VERSION);
  end
 end
---------------------------------
--- loads the saved variables
---------------------------------
+
+
+-----------------------------------------------------------------------------
+-- Loads the saved variables
+-----------------------------------------------------------------------------
 function AtlasQuest_LoadData()
   -- Which side
   if(AtlasQuest_Options[UnitName("player")]["ShownSide"] ~= nil) then
@@ -176,20 +179,12 @@ function AtlasQuest_LoadData()
   -- Comparison Tooltips option
   AQCompareTooltip = AtlasQuest_Options[UnitName("player")]["CompareTooltip"];
 
---[[
-  -- EquipCompare
-  AQEquipCompare = AtlasQuest_Options[UnitName("player")]["EquipCompare"];
-  if (AQEquipCompare ~= nil and EquipCompare_RegisterTooltip) then
-     EquipCompare_UnregisterTooltip(AtlasQuestTooltip);
-  elseif (AQEquipCompare == nil and EquipCompare_RegisterTooltip) then
-     EquipCompare_RegisterTooltip(AtlasQuestTooltip);
-  end
---]]
 end
 
---------------------------------
--- saves the variables
---------------------------------
+
+-----------------------------------------------------------------------------
+-- Saves the variables
+-----------------------------------------------------------------------------
 function AtlasQuest_SaveData()
   AtlasQuest_Options[UnitName("player")]["ShownSide"] = AQ_ShownSide;
   AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"] = AQAtlasAuto;
@@ -198,18 +193,18 @@ function AtlasQuest_SaveData()
   AtlasQuest_Options[UnitName("player")]["AutoQuery"] = AQAutoQuery;
   AtlasQuest_Options[UnitName("player")]["NoQuerySpam"] = AQNoQuerySpam;
   AtlasQuest_Options[UnitName("player")]["CompareTooltip"] = AQCompareTooltip;
---  AtlasQuest_Options[UnitName("player")]["EquipCompare"] = AQEquipCompare;
 end
 
------------------- Events: OnEvent -> end
+
+
 
 --******************************************
-------------------/////Events: Onload//////
+-- Events: OnLoad
 --******************************************
 
---------------------------------
+-----------------------------------------------------------------------------
 -- Call OnLoad set Variables and hides the panel
---------------------------------
+-----------------------------------------------------------------------------
 function AQ_OnLoad()
     this:RegisterEvent("PLAYER_ENTERING_WORLD");
     this:RegisterEvent("VARIABLES_LOADED");
@@ -228,18 +223,19 @@ function AQ_OnLoad()
     AQUpdateNOW = true;
 end
 
-------------------------------
+
+-----------------------------------------------------------------------------
 -- Slash command added
-------------------------------
+-----------------------------------------------------------------------------
 function AQSlashCommandfunction()
     SlashCmdList["ATLASQ"]=atlasquest_command;
 	SLASH_ATLASQ1="/aq";
 	SLASH_ATLASQ2="/atlasquest";
 end
 
----------------------------------
--- set the button text
----------------------------------
+-----------------------------------------------------------------------------
+-- Set the button text
+-----------------------------------------------------------------------------
 function AQSetButtontext()
       STORYbutton:SetText(AQStoryB);
       OPTIONbutton:SetText(AQOptionB);
@@ -255,13 +251,12 @@ function AQSetButtontext()
       AQAutoQueryTEXT:SetText(AQOptionsAutoQueryTEXT);
       AQNoQuerySpamTEXT:SetText(AQOptionsNoQuerySpamTEXT);
       AQCompareTooltipTEXT:SetText(AQOptionsCompareTooltipTEXT);
---      AQEquipCompareOptionTEXT:SetText(WHITE .. AQOptionEquipCompareTEXT)
 end
 
 
----------------------------------
+-----------------------------------------------------------------------------
 --  Slashcommand!! show/hide panel + Version Message
----------------------------------
+-----------------------------------------------------------------------------
 function atlasquest_command(param)
 
  -- Show help text if no /aq command used.
@@ -367,27 +362,23 @@ function atlasquest_command(param)
   end
 end
 
----------------------------------
---  testmessages
----------------------------------
+-----------------------------------------------------------------------------
+--  Test Messages
+-----------------------------------------------------------------------------
 function AQTestmessages()
 end
 
------------------- Events: Onload -> end
-
-
 
 
 
 --******************************************
-------------------////// Events: OnUpdate//////
+-- Events: OnUpdate
 --******************************************
 
----------------------------------
---  On Update function
--- check which programm is used( atlas or am)
--- hide panel if instanze is 36(=nothing)
----------------------------------
+-----------------------------------------------------------------------------
+-- Check which program is used (Atlas or AlphaMap)
+-- hide panel if instance is 36 (nothing)
+-----------------------------------------------------------------------------
 function AQ_OnUpdate(arg1)
   local previousValue = AQINSTANZ;
 
@@ -414,9 +405,10 @@ function AQ_OnUpdate(arg1)
        end
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 --  Show whether atlas or am is shown atm
----------------------------------
+-----------------------------------------------------------------------------
 function AQ_AtlasOrAMVISCheck()
         if ((AtlasFrame ~= nil) and (AtlasFrame:IsVisible())) then
            AtlasORAlphaMap = "Atlas";
@@ -424,9 +416,11 @@ function AQ_AtlasOrAMVISCheck()
            AtlasORAlphaMap = "AlphaMap";
         end
 end
----------------------------------
+
+
+-----------------------------------------------------------------------------
 --  AlphaMap parent change
----------------------------------
+-----------------------------------------------------------------------------
 function AQ_AtlasOrAlphamap()
         if ((AtlasFrame ~= nil) and (AtlasFrame:IsVisible())) then
            AtlasORAlphaMap = "Atlas";
@@ -459,9 +453,10 @@ function AQ_AtlasOrAlphamap()
         end
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 --  Set the ZoneName
----------------------------------
+-----------------------------------------------------------------------------
 function AQ_SetCaption()
     Ueberschriftborder:SetText();
     if (getglobal("Inst"..AQINSTANZ.."Caption") ~= nil) then
@@ -469,13 +464,14 @@ function AQ_SetCaption()
     end
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 --  Set the Buttontext and the buttons if available
 --  and check whether its a other inst or not -> works fine
 --  added: Check for Questline arrows
 --  Questline arrows are shown if InstXQuestYFQuest = "true"
 --  QuestStart icon are shown if InstXQuestYPreQuest = "true"
----------------------------------
+-----------------------------------------------------------------------------
 function AtlasQuestSetTextandButtons()
 local AQQuestlevelf
 local AQQuestfarbe
@@ -597,9 +593,10 @@ local AQQuestfarbe2
        end
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Colours quest blue if they are in your questlog
----------------------------------
+-----------------------------------------------------------------------------
 function AQCompareQLtoAQ(Quest)
 local TotalQuestEntries
 local CurrentQuestnum
@@ -671,16 +668,17 @@ local count
   end
 end
 
------------------- Events: OnUpdate -> End
+
+
 
 --******************************************
------------------- /////Events: Atlas_OnShow ////// hook atlas function
+-- Events: Atlas_OnShow (Hook Atlas function)
 --******************************************
 
----------------------------------
+-----------------------------------------------------------------------------
 -- Shows the AQ panel with atlas
 -- function hooked now! thx dan for his help
----------------------------------
+-----------------------------------------------------------------------------
 original_Atlas_OnShow = Atlas_OnShow; -- new line #1
 function Atlas_OnShow()
    if ( AQAtlasAuto == 1) then
@@ -697,10 +695,11 @@ function Atlas_OnShow()
   original_Atlas_OnShow(); -- new line #2
 end
 
------------------- Events: Atlas_OnShow -> End
+
+
 
 --******************************************
-------------------//// OnEnter/OnLeave SHOW ITEM ///////
+-- Events: OnEnter/OnLeave SHOW ITEM
 --******************************************
 
 -----------------------------------------------------------------------------
@@ -723,6 +722,7 @@ function AtlasQuestItem_OnLeave()
 	    end
         end
 end
+
 
 -----------------------------------------------------------------------------
 -- Show Tooltip and automatically query server if option is enabled
@@ -758,25 +758,17 @@ local queststring
               end
               AtlasQuestTooltip:Show();
         else
-              if(AQAutoQuery ~= nil) then
-                 AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
-		 AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
-		 if(AQNoQuerySpam == nil) then
-		   DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKAuto);
-		 end
-		 AtlasQuestTooltip:Show();
-              else
-                 AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
-                 AtlasQuestTooltip:ClearLines();
-                 AtlasQuestTooltip:AddLine(RED..AQERRORNOTSHOWN);
-                 AtlasQuestTooltip:AddLine(AQERRORASKSERVER);
-                 AtlasQuestTooltip:Show();
-              end
+              AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
+              AtlasQuestTooltip:ClearLines();
+              AtlasQuestTooltip:AddLine(RED..AQERRORNOTSHOWN);
+              AtlasQuestTooltip:AddLine(AQERRORASKSERVER);
+              AtlasQuestTooltip:Show();
         end
      end
 
 
 end
+
 
 -----------------------------------------------------------------------------
 -- Ask Server right-click
@@ -845,7 +837,6 @@ function AQ_OnShow()
    end
   AtlasQuestSetTextandButtons()
 end
-
 
 
 -----------------------------------------------------------------------------

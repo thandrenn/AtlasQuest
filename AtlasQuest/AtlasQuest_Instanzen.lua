@@ -22,11 +22,10 @@
 --]]
 
 
---*************************************************************
+-----------------------------------------------------------------------------
 -- This functions returns AQINSTANZ with a number
 -- that tells which instance is shown atm @ atlas or alphamap
---**************************************************************
-
+-----------------------------------------------------------------------------
 function AtlasQuest_Instanzenchecken()
 	AQATLASMAP = AtlasMap:GetTexture()
 
@@ -246,8 +245,9 @@ function AtlasQuest_Instanzenchecken()
 end
 
 
-
----- Alpha Map Support ----
+-----------------------------------------------------------------------------
+-- Alpha Map Support 
+-----------------------------------------------------------------------------
 
 function AtlasQuest_InstanzencheckAM()
 	AQALPHAMAP = AlphaMapAlphaMapTexture:GetTexture();
@@ -433,9 +433,9 @@ function AtlasQuest_InstanzencheckAM()
 		AQINSTANZ = 36;
 	end
 
--- **************************************************
-------- function to work with outdoor boss @ alphamap
--- **************************************************
+-----------------------------------------------------------------------------
+-- function to work with outdoor boss @ alphamap
+-----------------------------------------------------------------------------
 
 	if (AlphaMapAlphaMapFrame:IsVisible()) then
 		if (GamAlphaMapMap ~= nil) then -- check to prevent errors (post  ui.worldofwar dunno why error ocour)
