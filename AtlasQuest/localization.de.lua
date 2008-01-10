@@ -6580,8 +6580,8 @@ Inst42Quest7name1_HORDE = Inst42Quest7name1
 
 Inst43Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst43Caption = "EK: Der Tiefensumpf"
-Inst43QAA = "4 Quests"
-Inst43QAH = "4 Quests"
+Inst43QAA = "5 Quests"
+Inst43QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst43Quest1 = "1. Bei der Arbeit verschollen"
@@ -6635,6 +6635,17 @@ Inst43Quest4_Folgequest = "Nein"
 --
 Inst43Quest4name1 = "Abzeichen der Gerechtigkeit"
 
+--Quest 5 Alliance
+Inst43Quest5 = "5. Bringt mir ein Gebüsch!"
+Inst43Quest5_Level = "65"
+Inst43Quest5_Attain = "63"
+Inst43Quest5_Aim = "Sammelt 5 Stück Bluthibiskus und bringt sie zu Gzhun'tt in Sporeggar in den Zangarmarschen."
+Inst43Quest5_Location = "Gzhun'tt (Zangarmarschen - Sporeggar; "..YELLOW.."19,50"..WHITE..")"
+Inst43Quest5_Note = "Man muss neutral zu Sporeggar sein, um dieses Quest annehmen zu können. Das Folgequest ist wiederholbar und gibt jedes mal 750 Sporeggar Rufpunkte. Die Bluthibiskusse sind in der Instanz verteilt, können aber auch eventuell im Auktionshaus gefunden werden."
+Inst43Quest5_Prequest = "Nein"
+Inst43Quest5_Folgequest = "Ja, Bringt mir ein weiteres Gebüsch!"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst43Quest1_HORDE = Inst43Quest1
@@ -6687,6 +6698,17 @@ Inst43Quest4_HORDE_Prequest = Inst43Quest4_Prequest
 Inst43Quest4_HORDE_Folgequest = Inst43Quest4_Folgequest
 --
 Inst43Quest4name1_HORDE = Inst43Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst43Quest5_HORDE = Inst43Quest5
+Inst43Quest5_HORDE_Level = Inst43Quest5_Level
+Inst43Quest5_HORDE_Attain = Inst43Quest5_Attain
+Inst43Quest5_HORDE_Aim = Inst43Quest5_Aim
+Inst43Quest5_HORDE_Location = Inst43Quest5_Location
+Inst43Quest5_HORDE_Note = Inst43Quest5_Note
+Inst43Quest5_HORDE_Prequest = Inst43Quest5_Prequest
+Inst43Quest5_HORDE_Folgequest = Inst43Quest5_Folgequest
+-- No Rewards for this quest
 
 
 
