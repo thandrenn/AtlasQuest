@@ -24,10 +24,11 @@
 
 local WHITE = "|cffFFFFFF";
 local GREY = "|cff999999"; -- really grey
----------------------------------
+
+-----------------------------------------------------------------------------
 -- initialises the options panel
 -- and sets checks after the variables
----------------------------------
+-----------------------------------------------------------------------------
 function AtlasQuestOptionFrame_OnShow()
 
     --autoshow
@@ -79,27 +80,12 @@ function AtlasQuestOptionFrame_OnShow()
       AQCompareTooltipOption:SetChecked(true);
     end
 
---[[
-    -- Equip Compare support
-    if( not EquipCompare_RegisterTooltip ) then
-      AQEquipCompareOption:Disable();
-      AQEquipCompareOptionTEXT:SetText(GREY .. AQOptionEquipCompareTEXT)
-    else
-      AQEquipCompareOption:Enable();
-      AQEquipCompareOptionTEXT:SetText(WHITE .. AQOptionEquipCompareTEXT)
-      if (AQEquipCompare == nil) then
-        AQEquipCompareOption:SetChecked(true);
-      else
-        AQEquipCompareOption:SetChecked(false);
-      end
-    end
---]]
-
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Autoshow option
----------------------------------
+-----------------------------------------------------------------------------
 function AQAutoshowOption_OnClick()
           if (AQAtlasAuto == 1) then
             AQAtlasAuto = 2;
@@ -114,9 +100,9 @@ function AQAutoshowOption_OnClick()
 end
 
 
----------------------------------
+-----------------------------------------------------------------------------
 -- Right option
----------------------------------
+-----------------------------------------------------------------------------
 function AQRIGHTOption_OnClick()
      if ((AtlasFrame ~= nil) and (AtlasORAlphaMap == "Atlas")) then
        AtlasQuestFrame:ClearAllPoints();
@@ -134,9 +120,10 @@ function AQRIGHTOption_OnClick()
      AtlasQuest_SaveData();
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Left option
----------------------------------
+-----------------------------------------------------------------------------
 function AQLEFTOption_OnClick()
     if ((AtlasFrame ~= nil) and (AtlasORAlphaMap == "Atlas") and ( AQ_ShownSide == "Right") ) then
        AtlasQuestFrame:ClearAllPoints();
@@ -154,10 +141,11 @@ function AQLEFTOption_OnClick()
      AtlasQuest_SaveData();
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Colour Check
 -- if AQNOColourCheck = true then NO Colour Check
----------------------------------
+-----------------------------------------------------------------------------
 function AQColourOption_OnClick()
     if (AQNOColourCheck) then
       AQNOColourCheck = nil;
@@ -172,9 +160,10 @@ function AQColourOption_OnClick()
     AQUpdateNOW = true;
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- CheckQuestlog option
----------------------------------
+-----------------------------------------------------------------------------
 function AQCheckQuestlogButton_OnClick()
           if (AQCheckQuestlog == nil) then
             AQCheckQuestlog = "no";
@@ -187,9 +176,10 @@ function AQCheckQuestlogButton_OnClick()
           AQUpdateNOW = true;
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- AutoQuery Option
----------------------------------
+-----------------------------------------------------------------------------
 function AQAutoQueryOption_OnClick()
  if (AQAutoQuery == nil) then
    AQAutoQuery = "yes";
@@ -201,9 +191,10 @@ function AQAutoQueryOption_OnClick()
  AtlasQuest_SaveData();
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Suppress AutoQuery Text Option
----------------------------------
+-----------------------------------------------------------------------------
 function AQNoQuerySpamOption_OnClick()
  if (AQNoQuerySpam == nil) then
    AQNoQuerySpam = "yes";
@@ -215,9 +206,10 @@ function AQNoQuerySpamOption_OnClick()
  AtlasQuest_SaveData();
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Comparison Tooltips Option
----------------------------------
+-----------------------------------------------------------------------------
 function AQCompareTooltipOption_OnClick()
  if (AQCompareTooltip == nil) then
    AQCompareTooltip = "yes";
@@ -229,21 +221,3 @@ function AQCompareTooltipOption_OnClick()
  AtlasQuest_SaveData();
 end
 
-
---[[
----------------------------------
--- sets whether you use EquipCompare or not
----------------------------------
-function AQEquipCompareOption_OnClick()
-  if (AQEquipCompare == nil and EquipCompare_RegisterTooltip) then
-     AQEquipCompareOption:SetChecked(false);
-     AQEquipCompare = "THIS SHIT IS NOT NIL";
-     EquipCompare_UnregisterTooltip(AtlasQuestTooltip);
-  elseif (AQEquipCompare ~= nil and EquipCompare_RegisterTooltip) then
-     AQEquipCompareOption:SetChecked(true);
-     AQEquipCompare = nil;
-     EquipCompare_RegisterTooltip(AtlasQuestTooltip);
-  end
-  AtlasQuest_SaveData();
-end
---]]

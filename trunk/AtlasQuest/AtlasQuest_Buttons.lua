@@ -45,10 +45,11 @@ local Gelb = "|cffFFd200"
 local Blau = "|cff0070dd"
 
 local AQQuestfarbe
--------------------------------------------------------------------------------------
----------------------------  Buttons   ----------------------------------------------
--------------------------------------------------------------------------------------
 
+
+-----------------------------------------------------------------------------
+-- Buttons
+-----------------------------------------------------------------------------
 function AQClearALL()
        AQPageCount:SetText();
        HideUIPanel(AQNextPageButton_Right);
@@ -68,9 +69,11 @@ function AQClearALL()
           getglobal("AtlasQuestItemframe"..b):Disable();
        end
 end
----------------------------------
+
+
+-----------------------------------------------------------------------------
 -- Option button, shows option frame or hides if shown
----------------------------------
+-----------------------------------------------------------------------------
 function AQOPTION1_OnClick()
    if (AtlasQuestOptionFrame:IsVisible()) then
      HideUIPanel(AtlasQuestOptionFrame);
@@ -80,9 +83,9 @@ function AQOPTION1_OnClick()
 end
 
 
----------------------------------
+-----------------------------------------------------------------------------
 -- upper right button / to show/close panel
----------------------------------
+-----------------------------------------------------------------------------
 function AQCLOSE_OnClick()
       AQ_AtlasOrAlphamap();
       if(AtlasQuestFrame:IsVisible()) then
@@ -94,24 +97,27 @@ function AQCLOSE_OnClick()
       AQUpdateNOW = true;
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- upper left button on the panel for closing
----------------------------------
+-----------------------------------------------------------------------------
 function AQCLOSE1_OnClick()
    HideUIPanel(AtlasQuestFrame);
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- inside button to close the quest display
----------------------------------
+-----------------------------------------------------------------------------
 function AQCLOSE2_OnClick()
     HideUIPanel(AtlasQuestInsideFrame);
     WHICHBUTTON = 0;
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Checkbox for Alliance
----------------------------------
+-----------------------------------------------------------------------------
 function Alliance_OnClick()
      Allianceorhorde = 1
      AQHCB:SetChecked(false);
@@ -120,9 +126,10 @@ function Alliance_OnClick()
      AQUpdateNOW = true;
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Checkbox for Horde
----------------------------------
+-----------------------------------------------------------------------------
 function Horde_OnClick()
      Allianceorhorde = 2
      AQHCB:SetChecked(true);
@@ -131,13 +138,10 @@ function Horde_OnClick()
      AQUpdateNOW = true;
 end
 
----------------------------  Buttons  -> END
 
---------------------- /////// QUESTBUTTON /////////////
-
----------------------------------
+-----------------------------------------------------------------------------
 -- Story Button
----------------------------------
+-----------------------------------------------------------------------------
 function AQSTORY1_OnClick()
        AQHideAL();
        if (AtlasQuestInsideFrame:IsVisible() == nil) then
@@ -152,9 +156,9 @@ function AQSTORY1_OnClick()
        end
 end
 
----------------------------------
+-----------------------------------------------------------------------------
 -- Button
----------------------------------
+-----------------------------------------------------------------------------
 function Quest_OnClick(arg1)
    if (ChatFrameEditBox:IsVisible() and IsShiftKeyDown()) then
      AQInsertQuestInformation();
@@ -175,18 +179,20 @@ function Quest_OnClick(arg1)
    end
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Hide the AtlasLoot Frame if available
----------------------------------
+-----------------------------------------------------------------------------
 function AQHideAL()
        if ( AtlasLootItemsFrame ~= nil) then
             AtlasLootItemsFrame:Hide(); -- hide atlasloot
        end
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Insert Quest Information into the chat box
----------------------------------
+-----------------------------------------------------------------------------
 function AQInsertQuestInformation()
 local OnlyQuestNameRemovedNumber
 local Quest
@@ -210,14 +216,22 @@ Quest = AQSHOWNQUEST;
     ChatFrameEditBox:Insert("["..OnlyQuestNameRemovedNumber.."] ["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Level").."]");
   end
 end
------------------------QUESTBUTTON -> END
 
------------------//////// QUESTBUTTON SET TEXT /////////////
----------------------------------
+
+-----------------------------------------------------------------------------
 -- set the Quest text
 -- executed when you push a button
----------------------------------
+-----------------------------------------------------------------------------
 function AQButton_SetText()
+local SHOWNID
+local name
+local nameDATA
+local colour
+local itemName, itemQuality
+local queststring
+
+
+
      AQClearALL();
      -- Show the finished button
      ShowUIPanel(AQFinishedQuest);
@@ -243,6 +257,33 @@ function AQButton_SetText()
          for b=1, 6 do
            REWARDstext:SetText(getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."Rewardtext"))
            if ( getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b) ~= nil) then
+
+        ------------------------
+	--- NEW AUTOQUERY WHEN QUEST DATA IS DISPLAYED
+
+            if(AQAutoQuery ~= nil) then
+            if ( Allianceorhorde == 1) then
+              SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b);
+              colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..b);
+              nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..b);
+              queststring = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b);
+            else
+              SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b.."_HORDE");
+              colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..b.."_HORDE");
+              nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..b.."_HORDE");
+              queststring = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b.."_HORDE");
+            end
+
+            AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
+            AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
+            AtlasQuestTooltip:Show();
+            if(AQNoQuerySpam == nil) then
+              DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKInformation);
+            end
+            end
+
+		-------------
+
              getglobal("AtlasQuestItemframe"..b.."_Icon"):SetTexture("Interface\\Icons\\"..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."textur"..b));
              getglobal("AtlasQuestItemframe"..b.."_Name"):SetText(AQgetItemInformation(b,"name"));
              getglobal("AtlasQuestItemframe"..b.."_Extra"):SetText(AQgetItemInformation(b,"extra"));
@@ -289,11 +330,12 @@ function AQButton_SetText()
      AQExtendedPages();
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- improve the localisation through giving back the right and translated questname
 -- sets the description text too
 -- adds a error messeage to the description if item not available
----------------------------------
+-----------------------------------------------------------------------------
 function AQgetItemInformation(count,what)
 local itemId
 local itemtext;
@@ -330,10 +372,12 @@ end
   end
 
 end
----------------------------------
+
+
+-----------------------------------------------------------------------------
 -- set the Questcolour
--- sawped out to get the code clear
----------------------------------
+-- swaped out to get the code clear
+-----------------------------------------------------------------------------
 function AQColourCheck(arg1)
  local AQQuestlevelf
        if (arg1 == 1) then
@@ -373,10 +417,11 @@ function AQColourCheck(arg1)
        end
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- set the checkbox for the finished quest check
--- sawped out to get the code clear
----------------------------------
+-- swaped out to get the code clear
+-----------------------------------------------------------------------------
 function AQQuestFinishedSetChecked()
   if ( Allianceorhorde == 1) then
     if ( AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST ] == 1) then
@@ -394,10 +439,11 @@ function AQQuestFinishedSetChecked()
 end
 
 
----------------------------------
+-----------------------------------------------------------------------------
 -- Allow pages
 -- InstXXQuestXX_Page = number of pages
---------------------------------- HideUIPanel(AQNextPageButton_Left); AQPageCount:SetText();
+-- HideUIPanel(AQNextPageButton_Left); AQPageCount:SetText();
+-----------------------------------------------------------------------------
 function AQExtendedPages()
 local SHIT
 -- SHIT is added to make the code smaller it give back the right link for horde or alliance
@@ -418,9 +464,9 @@ end
 end
 
 
----------------------------------
+-----------------------------------------------------------------------------
 -- Set Story Text
----------------------------------
+-----------------------------------------------------------------------------
 function AQButtonSTORY_SetText()
        -- first clear display
        AQClearALL();
@@ -449,9 +495,10 @@ function AQButtonSTORY_SetText()
        end
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- shows the next side
----------------------------------
+-----------------------------------------------------------------------------
 function AQNextPageR_OnClick()
 local SideAfterThis = 0;
 local SHIT
@@ -512,9 +559,10 @@ local SHIT
   ShowUIPanel(AQNextPageButton_Left);
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- shows the side before this side
----------------------------------
+-----------------------------------------------------------------------------
 function AQNextPageL_OnClick()
 local SHIT
   AQ_CurrentSide = AQ_CurrentSide - 1;
@@ -565,9 +613,10 @@ local SHIT
   ShowUIPanel(AQNextPageButton_Right);
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- Checkbox for the finished quest option
----------------------------------
+-----------------------------------------------------------------------------
 function AQFinishedQuest_OnClick()
   if (AQFinishedQuest:GetChecked() and Allianceorhorde == 1) then
     AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST ] = 1;
@@ -590,9 +639,10 @@ function AQFinishedQuest_OnClick()
   AQButton_SetText()
 end
 
----------------------------------
+
+-----------------------------------------------------------------------------
 -- General Information for the Instance
----------------------------------
+-----------------------------------------------------------------------------
 function AQGeneral_OnClick(arg1)
   -- first clear display
   AQClearALL();

@@ -6571,8 +6571,8 @@ Inst42Quest7name1_HORDE = Inst42Quest7name1
 
 Inst43Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst43Caption = "CR: The Underbog"
-Inst43QAA = "4 Quests"
-Inst43QAH = "4 Quests"
+Inst43QAA = "5 Quests"
+Inst43QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst43Quest1 = "1. Lost in Action"
@@ -6626,6 +6626,17 @@ Inst43Quest4_Folgequest = "No"
 --
 Inst43Quest4name1 = "Badge of Justice"
 
+--Quest 5 Alliance
+Inst43Quest5 = "5. Bring Me A Shrubbery!"
+Inst43Quest5_Level = "65"
+Inst43Quest5_Attain = "63"
+Inst43Quest5_Aim = "Collect 5 Sanguine Hibiscus and return them to Gzhun'tt at Sporeggar in Zangarmarsh."
+Inst43Quest5_Location = "Gzhun'tt (Zangarmarsh - Sporeggar; "..YELLOW.."19,50"..WHITE..")"
+Inst43Quest5_Note = "You must be Neutral with Sporeggar to pick up this quest. The followup is just a repeatable quest that gives 750 Sporeggar Reputation with each turn-in. The Sanguine Hibiscus are scattered throughout Underbog, but are also tradeable and can be found on the Auction House."
+Inst43Quest5_Prequest = "No"
+Inst43Quest5_Folgequest = "Yes, Bring Me Another Shrubbery!"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst43Quest1_HORDE = Inst43Quest1
@@ -6678,6 +6689,17 @@ Inst43Quest4_HORDE_Prequest = Inst43Quest4_Prequest
 Inst43Quest4_HORDE_Folgequest = Inst43Quest4_Folgequest
 --
 Inst43Quest4name1_HORDE = Inst43Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst43Quest5_HORDE = Inst43Quest5
+Inst43Quest5_HORDE_Level = Inst43Quest5_Level
+Inst43Quest5_HORDE_Attain = Inst43Quest5_Attain
+Inst43Quest5_HORDE_Aim = Inst43Quest5_Aim
+Inst43Quest5_HORDE_Location = Inst43Quest5_Location
+Inst43Quest5_HORDE_Note = Inst43Quest5_Note
+Inst43Quest5_HORDE_Prequest = Inst43Quest5_Prequest
+Inst43Quest5_HORDE_Folgequest = Inst43Quest5_Folgequest
+-- No Rewards for this quest
 
 
 
