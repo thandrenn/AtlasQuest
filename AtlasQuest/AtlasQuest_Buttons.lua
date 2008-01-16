@@ -276,7 +276,6 @@ local queststring
 
             AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
             AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
-            AtlasQuestTooltip:Show();
             if(AQNoQuerySpam == nil) then
               DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKInformation);
             end
