@@ -2975,6 +2975,14 @@ Inst22Quest17textur1 = "INV_Scroll_06"
 Inst22Quest17description1 = AQITEM_PATTERN
 Inst22Quest17ID1 = "12824"
 
+--Quest 18 Alliance
+Inst22Quest18Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst22Quest18ITC1 = Itemc5;
+Inst22Quest18textur1 = "INV_Staff_15"
+Inst22Quest18description1 = AQITEM_ITEM
+Inst22Quest18ID1 = "18659"
+
 
 --Quest 1 Horde
 Inst22Quest1Rewardtext_HORDE = AQNoReward
@@ -3134,6 +3142,14 @@ Inst22Quest18ITC2_HORDE = Itemc3;
 Inst22Quest18textur2_HORDE = "INV_Jewelry_Ring_29"
 Inst22Quest18description2_HORDE = AQITEM_RING
 Inst22Quest18ID2_HORDE = "17001"
+
+--Quest 19 Horde
+Inst22Quest19Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst22Quest19ITC1 = Itemc5;
+Inst22Quest19textur1 = "INV_Staff_15"
+Inst22Quest19description1 = AQITEM_ITEM
+Inst22Quest19ID1 = "18659"
 
 
 
@@ -6122,6 +6138,10 @@ Inst58Quest2ID3_HORDE = "10711"
 
 --------------- INST59 - SM: Graveyard (SM GY) ---------------
 
+--Quest 1 Alliance
+Inst59Quest1Rewardtext = AQNoReward
+
+
 --Quest 1 Horde
 Inst59Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
@@ -6142,6 +6162,9 @@ Inst59Quest1ID3_HORDE = "4643"
 
 --Quest 2 Horde
 Inst59Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst59Quest3Rewardtext_HORDE = AQNoReward
 
 
 
