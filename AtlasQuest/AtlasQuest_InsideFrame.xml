@@ -553,7 +553,7 @@ These fonts are useless atm -->
 				</Texture>
 			</Layer>
 			<Layer level="OVERLAY">
-			  <FontString name="Questueberschrift" inherits="SystemFont">
+			  <FontString name="QuestName" inherits="SystemFont">
                 <Size>
                   <AbsDimension x="400" y="12"/>
                 </Size>

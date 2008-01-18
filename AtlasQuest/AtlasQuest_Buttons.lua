@@ -54,7 +54,7 @@ function AQClearALL()
        AQPageCount:SetText();
        HideUIPanel(AQNextPageButton_Right);
        HideUIPanel(AQNextPageButton_Left);
-       Questueberschrift:SetText("");
+       QuestName:SetText("");
        QuestLeveltext:SetText("");
        Prequesttext:SetText("");
        QuestAttainLeveltext:SetText("");
@@ -228,7 +228,6 @@ local name
 local nameDATA
 local colour
 local itemName, itemQuality
-local queststring
 
 
 
@@ -240,15 +239,15 @@ local queststring
      if ( Allianceorhorde == 1) then
        AQColourCheck(1); --CC swaped out (see below)
        AQCompareQLtoAQ(Quest)
-         Questueberschrift:SetText(AQQuestfarbe..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST));
+         QuestName:SetText(AQQuestfarbe..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST));
          QuestLeveltext:SetText(BLUE..AQDiscription_LEVEL..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Level"));
          QuestAttainLeveltext:SetText(BLUE..AQDiscription_ATTAIN..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Attain")); 
          Prequesttext:SetText(BLUE..AQDiscription_PREQUEST..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Prequest").."\n \n"..BLUE..AQDiscription_FOLGEQUEST..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Folgequest").."\n \n"..BLUE..AQDiscription_START..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Location").."\n \n"..BLUE..AQDiscription_AIM..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Aim").."\n \n"..BLUE..AQDiscription_NOTE..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Note"));
 
-         --**++**++**++**++**++**++**++**++****++**++**++**++**++****++**++**++**++**++**++**++**++**
+         -----------------------------------------------------------------------------
          -- FOR ALPHAMAP SUPPORT
          -- If there are other descriptions for alphamap and alphamap is shown then show them
-         --**++**++**++**++**++**++**++**++****++**++**++**++**++****++**++**++**++**++**++**++**++**
+         -----------------------------------------------------------------------------
 
          if ((AtlasORAlphaMap == "AlphaMap") and (getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Note_AlphaMap") ~= nil)) then
            Prequesttext:SetText(BLUE..AQDiscription_PREQUEST..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Prequest").."\n \n"..BLUE..AQDiscription_FOLGEQUEST..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Folgequest").."\n \n"..BLUE..AQDiscription_START..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Location_AlphaMap").."\n \n"..BLUE..AQDiscription_AIM..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Aim").."\n \n"..BLUE..AQDiscription_NOTE..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Note_AlphaMap"));
@@ -258,30 +257,23 @@ local queststring
            REWARDstext:SetText(getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."Rewardtext"))
            if ( getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b) ~= nil) then
 
-        ------------------------
-	--- NEW AUTOQUERY WHEN QUEST DATA IS DISPLAYED
+             -----------------------------------------------------------------------------
+             -- Yay for AutoQuery. Boo for odd variable names.
+             -----------------------------------------------------------------------------
 
-            if(AQAutoQuery ~= nil) then
-            if ( Allianceorhorde == 1) then
-              SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b);
-              colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..b);
-              nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..b);
-              queststring = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b);
-            else
-              SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b.."_HORDE");
-              colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..b.."_HORDE");
-              nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..b.."_HORDE");
-              queststring = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b.."_HORDE");
-            end
+             if(AQAutoQuery ~= nil) then
+               SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b);
+               colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..b);
+               nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..b);
 
-            AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
-            AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
-            if(AQNoQuerySpam == nil) then
-              DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKInformation);
-            end
-            end
+               if ( GetItemInfo(SHOWNID) == nil) then
+                 GameTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
+                 if(AQNoQuerySpam == nil) then
+                   DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKAuto);
+                 end
+               end
 
-		-------------
+             end
 
              getglobal("AtlasQuestItemframe"..b.."_Icon"):SetTexture("Interface\\Icons\\"..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."textur"..b));
              getglobal("AtlasQuestItemframe"..b.."_Name"):SetText(AQgetItemInformation(b,"name"));
@@ -297,15 +289,15 @@ local queststring
      end
      if ( Allianceorhorde == 2) then
       AQColourCheck(0) --CC swaped out (see below)
-       Questueberschrift:SetText(AQQuestfarbe..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE"));
+       QuestName:SetText(AQQuestfarbe..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE"));
        QuestLeveltext:SetText(BLUE..AQDiscription_LEVEL..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Level"));
        QuestAttainLeveltext:SetText(BLUE..AQDiscription_ATTAIN..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Attain"));       
        Prequesttext:SetText(BLUE..AQDiscription_PREQUEST..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Prequest").."\n \n"..BLUE..AQDiscription_FOLGEQUEST..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Folgequest").."\n \n"..BLUE..AQDiscription_START..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Location").."\n \n"..BLUE..AQDiscription_AIM..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Aim").."\n \n"..BLUE..AQDiscription_NOTE..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Note"));
 
-       --**++**++**++**++**++**++**++**++****++**++**++**++**++****++**++**++**++**++**++**++**++**
+       -----------------------------------------------------------------------------
        -- FOR ALPHAMAP SUPPORT
        -- If there are other descriptions for alphamap and alphamap is shown then show them
-       --**++**++**++**++**++**++**++**++****++**++**++**++**++****++**++**++**++**++**++**++**++**
+       -----------------------------------------------------------------------------
 
        if ((AtlasORAlphaMap == "AlphaMap") and (getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Note_AlphaMap") ~= nil)) then
          Prequesttext:SetText(BLUE..AQDiscription_PREQUEST..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Prequest").."\n \n"..BLUE..AQDiscription_FOLGEQUEST..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Folgequest").."\n \n"..BLUE..AQDiscription_START..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Location_AlphaMap").."\n \n"..BLUE..AQDiscription_AIM..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Aim").."\n \n"..BLUE..AQDiscription_NOTE..WHITE..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Note_AlphaMap"));
@@ -313,6 +305,25 @@ local queststring
        for b=1, 6 do
            REWARDstext:SetText(getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."Rewardtext_HORDE"))
            if ( getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b.."_HORDE") ~= nil) then
+           
+             -----------------------------------------------------------------------------
+             -- Yay for AutoQuery. Boo for odd variable names.
+             -----------------------------------------------------------------------------
+
+             if(AQAutoQuery ~= nil) then
+               SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b.."_HORDE");
+               colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..b.."_HORDE");
+               nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..b.."_HORDE");
+
+               if ( GetItemInfo(SHOWNID) == nil) then
+                 GameTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
+                 if(AQNoQuerySpam == nil) then
+                   DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA..WHITE.."]"..AQSERVERASKAuto);
+                 end
+               end
+
+             end
+           
              getglobal("AtlasQuestItemframe"..b.."_Icon"):SetTexture("Interface\\Icons\\"..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."textur"..b.."_HORDE"));
              getglobal("AtlasQuestItemframe"..b.."_Name"):SetText(AQgetItemInformation(b,"name"));
              getglobal("AtlasQuestItemframe"..b.."_Extra"):SetText(AQgetItemInformation(b,"extra"));
@@ -472,7 +483,7 @@ function AQButtonSTORY_SetText()
 
        -- show right story text
        if (getglobal("Inst"..AQINSTANZ.."Story") ~= nil) then
-         Questueberschrift:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"));
+         QuestName:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"));
          if (type(getglobal("Inst"..AQINSTANZ.."Story")) == "table") then
            StoryTEXT:SetText(WHITE..getglobal("Inst"..AQINSTANZ.."Story")["Page1"]);
            -- Show Next side button if next site is avaiable
@@ -489,7 +500,7 @@ function AQButtonSTORY_SetText()
          end
        -- added to work with future versions of atlas (before i update e.g. before you dl the update)
        elseif (getglobal("Inst"..AQINSTANZ.."Story") == nil) then
-         Questueberschrift:SetText("not available");
+         QuestName:SetText("not available");
          StoryTEXT:SetText("not available");
        end
 end
@@ -512,9 +523,9 @@ local SHIT
     StoryTEXT:SetText(WHITE..getglobal("Inst"..AQINSTANZ.."Story")["Page"..AQ_CurrentSide]);
     AQPageCount:SetText(AQ_CurrentSide.."/"..getglobal("Inst"..AQINSTANZ.."Story")["MaxPages"])
     if (getglobal("Inst"..AQINSTANZ.."Caption"..AQ_CurrentSide) ~= nil) then
-      Questueberschrift:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"..AQ_CurrentSide));
+      QuestName:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"..AQ_CurrentSide));
     else
-      Questueberschrift:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"));
+      QuestName:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"));
     end
     -- hide button if no next side
     if (getglobal("Inst"..AQINSTANZ.."Story")["Page"..SideAfterThis] == nil) then
@@ -544,7 +555,7 @@ local SHIT
 
   -- it is a boss text
   if (AQ_NextPageCount == "Boss" ) then
-    Questueberschrift:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."General")[AQ_CurrentSide][1]);
+    QuestName:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."General")[AQ_CurrentSide][1]);
     StoryTEXT:SetText(WHITE..getglobal("Inst"..AQINSTANZ.."General")[AQ_CurrentSide][2].."\n \n"..getglobal("Inst"..AQINSTANZ.."General")[AQ_CurrentSide][3]);
     -- Show Next side button if next site is avaiable
     if (getglobal("Inst"..AQINSTANZ.."General")[SideAfterThis] ~= nil) then
@@ -571,9 +582,9 @@ local SHIT
     StoryTEXT:SetText(WHITE..getglobal("Inst"..AQINSTANZ.."Story")["Page"..AQ_CurrentSide]);
     AQPageCount:SetText(AQ_CurrentSide.."/"..getglobal("Inst"..AQINSTANZ.."Story")["MaxPages"])
     if (getglobal("Inst"..AQINSTANZ.."Caption"..AQ_CurrentSide) ~= nil) then
-      Questueberschrift:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"..AQ_CurrentSide));
+      QuestName:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"..AQ_CurrentSide));
     else
-      Questueberschrift:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"));
+      QuestName:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."Caption"));
     end
     -- hide button if first side
     if (AQ_CurrentSide == 1) then
@@ -599,7 +610,7 @@ local SHIT
   
   -- it is a boss text
   if (AQ_NextPageCount == "Boss" ) then
-    Questueberschrift:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."General")[AQ_CurrentSide][1]);
+    QuestName:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."General")[AQ_CurrentSide][1]);
     StoryTEXT:SetText(WHITE..getglobal("Inst"..AQINSTANZ.."General")[AQ_CurrentSide][2].."\n \n"..getglobal("Inst"..AQINSTANZ.."General")[AQ_CurrentSide][3]);
     -- Show Next side button if next site is avaiable
     if (AQ_CurrentSide == 1) then
@@ -654,7 +665,7 @@ function AQGeneral_OnClick(arg1)
 
   --
   if (getglobal("Inst"..AQINSTANZ.."General") ~= nil) then
-    Questueberschrift:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."General")[1][1]);
+    QuestName:SetText(BLUE..getglobal("Inst"..AQINSTANZ.."General")[1][1]);
     StoryTEXT:SetText(WHITE..getglobal("Inst"..AQINSTANZ.."General")[1][2].."\n \n"..getglobal("Inst"..AQINSTANZ.."General")[1][3]);
     -- Show Next side button if next site is avaiable
     AQ_NextPageCount = "Boss";

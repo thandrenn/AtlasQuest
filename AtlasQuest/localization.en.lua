@@ -77,8 +77,8 @@ AQOptionsCompareTooltipTEXT = ""..WHITE.."Compare rewards to currently equipped 
 
 AQAbilities = BLUE .. "Abilities:" .. WHITE;
 AQSERVERASKInformation = " Please click right until you see the Item frame."
-AQSERVERASKAuto = " Try moving the cursor over the item in a few seconds."
-AQSERVERASK = "Query the server for: "
+AQSERVERASKAuto = " Try moving the cursor over the item in a second."
+AQSERVERASK = "AtlasQuest is querying the server for: "
 AQERRORNOTSHOWN = "This item is not safe!"
 AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be disconnected."
 AQOptionB = "Options"
