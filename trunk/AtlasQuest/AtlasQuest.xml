@@ -893,7 +893,7 @@
          </Anchor>
        </Anchors>
      </FontString>
-     <FontString name="AtlasQuestUeberschrift" inherits="GameFontNormal">
+     <FontString name="AtlasQuestTitle" inherits="GameFontNormal">
        <Size>
          <AbsDimension x="200" y="12"/>
        </Size>

@@ -5,12 +5,6 @@ ToDo List
 - Add Battlegrounds quests.
 - BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
 
-- Option to store Options globally instead of by playername
-- Server name 
-
-
-- Note to self: Quest Types: Class, Profession, Heroic, Daily, Raid?, Drop?, Repeatable?
-
 
 Cleanup Checklist:
 
