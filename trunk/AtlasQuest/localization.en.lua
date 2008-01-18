@@ -3112,7 +3112,7 @@ Inst14Quest2_Aim = "Bring the Hands of Lucifron, Sulfuron, Gehennas and Shazzrah
 Inst14Quest2_Location = "Duke Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
 Inst14Quest2_Note = "Lucifron is at "..YELLOW.."[1]"..WHITE..", Sulfuron is at "..YELLOW.."[8]"..WHITE..", Gehennas is at "..YELLOW.."[3]"..WHITE.." and Shazzrah is at "..YELLOW.."[5]"..WHITE.."."
 Inst14Quest2_Prequest = "Yes, Agent of Hydraxis"
-Inst14Quest2_Folgequest = "No"
+Inst14Quest2_Folgequest = "Yes, A Hero's Reward"
 Inst14Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -4120,8 +4120,8 @@ Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 Inst22Story = "Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge - led by the powerful lich, Kel'thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed - dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
 Inst22Caption = "Stratholme"
-Inst22QAA = "17 Quests"
-Inst22QAH = "18 Quests"
+Inst22QAA = "18 Quests"
+Inst22QAH = "19 Quests"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. The Flesh Does Not Lie"
@@ -4337,6 +4337,18 @@ Inst22Quest17_Prequest = "No"
 Inst22Quest17_Folgequest = "No"
 --
 Inst22Quest17name1 = "Plans: Enchanted Battlehammer"
+
+--Quest 18 Alliance
+Inst22Quest18 = "18. The Balance of Light and Shadow (Priest)"
+Inst22Quest18_Level = "60"
+Inst22Quest18_Attain = "60"
+Inst22Quest18_Aim = "Save 50 Peasants before 15 are slain. Speak with Eris Havenfire should you accomplish this task."
+Inst22Quest18_Location = "Eris Havenfire (Eastern Plaguelands; "..YELLOW.."21,18"..WHITE..")"
+Inst22Quest18_Note = "In order to see Eris Havenfire and get this quest, you need either the Eye of Divinity (comes from Cache of the Firelord in "..YELLOW.."[Molten Core]"..WHITE..") or Spectral Essence (reward for "..YELLOW.."[Scholomance]"..WHITE.." quest 'Kirtonos the Herald').\n\nThis quest's reward, when combined with Eye of Divinity and The Eye of Shadow (drops from "..YELLOW.."[Highlord Kruul]"..WHITE..") form Benediction, an epic priest's staff."
+Inst22Quest18_Prequest = "No"
+Inst22Quest18_Folgequest = "No"
+--
+Inst22Quest18name1 = "Splinter of Nordrassil"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -4568,6 +4580,18 @@ Inst22Quest18PreQuest_HORDE = "true"
 --
 Inst22Quest18name1_HORDE = "Royal Seal of Alexis"
 Inst22Quest18name2_HORDE = "Elemental Circle"
+
+--Quest 19 Horde  (same as Quest 18 Alliance)
+Inst22Quest19_HORDE = Inst22Quest18
+Inst22Quest19_HORDE_Level = Inst22Quest18_Level
+Inst22Quest19_HORDE_Attain = Inst22Quest18_Attain
+Inst22Quest19_HORDE_Aim = Inst22Quest18_Aim
+Inst22Quest19_HORDE_Location = Inst22Quest18_Location
+Inst22Quest19_HORDE_Note = Inst22Quest18_Note
+Inst22Quest19_HORDE_Prequest = Inst22Quest18_Prequest
+Inst22Quest19_HORDE_Folgequest = Inst22Quest18_Folgequest
+--
+Inst22Quest19name1_HORDE = Inst22Quest18name1
 
 
 
@@ -6632,7 +6656,7 @@ Inst43Quest5_Level = "65"
 Inst43Quest5_Attain = "63"
 Inst43Quest5_Aim = "Collect 5 Sanguine Hibiscus and return them to Gzhun'tt at Sporeggar in Zangarmarsh."
 Inst43Quest5_Location = "Gzhun'tt (Zangarmarsh - Sporeggar; "..YELLOW.."19,50"..WHITE..")"
-Inst43Quest5_Note = "You must be Neutral with Sporeggar to pick up this quest. The followup is just a repeatable quest that gives 750 Sporeggar Reputation with each turn-in. The Sanguine Hibiscus are scattered throughout Underbog, but are also tradeable and can be found on the Auction House."
+Inst43Quest5_Note = "You must be Neutral with Sporeggar to pick up this quest. The followup is just a repeatable quest that gives 750 Sporeggar Reputation with each turn-in. The Sanguine Hibiscus are scattered throughout Underbog near plants and also drop off of Bog mobs, including those in Steamvault. They are also tradeable and can be found on the Auction House."
 Inst43Quest5_Prequest = "No"
 Inst43Quest5_Folgequest = "Yes, Bring Me Another Shrubbery!"
 -- No Rewards for this quest
@@ -8656,8 +8680,20 @@ Inst58Quest2name3_HORDE = "Dragon's Blood Necklace"
 
 Inst59Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
 Inst59Caption = "SM: Graveyard"
-Inst59QAA = "No Quests"
-Inst59QAH = "2 Quests"
+Inst59QAA = "1 Quest"
+Inst59QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst59Quest1 = "1. Call the Headless Horseman (Daily - Seasonal)"
+Inst59Quest1_Level = "70"
+Inst59Quest1_Attain = "70"
+Inst59Quest1_Aim = "Take a Dreary Candle to the Loosely Turned Soil."
+Inst59Quest1_Location = "Pumpkin Shrine (Scarlet Monastery - Graveyard; "..YELLOW.."[2]"..WHITE..")"
+Inst59Quest1_Note = "The Soil is just a few steps from the Pumpkin Shrine. This quest is only available during the Hallow's End event and can be done once a day per character during that event.\n\nCompleting it summons the Headless Horseman, a level 70 boss."
+Inst59Quest1_Prequest = "No"
+Inst59Quest1_Folgequest = "No"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst59Quest1_HORDE = "1. Vorrel's Revenge"
@@ -8685,6 +8721,16 @@ Inst59Quest2_HORDE_Folgequest = "No"
 Inst59Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
+--Quest 3 Horde  (same as Quest 1 Alliance)
+Inst59Quest3_HORDE = "3. Call the Headless Horseman (Daily - Seasonal)"
+Inst59Quest3_HORDE_Level = Inst59Quest1_Level
+Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
+Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
+Inst59Quest3_HORDE_Location = Inst59Quest1_Location
+Inst59Quest3_HORDE_Note = Inst59Quest1_Note
+Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
+Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
+-- No Rewards for this quest
 
 
 --------------- INST61 - TK: The Eye ---------------

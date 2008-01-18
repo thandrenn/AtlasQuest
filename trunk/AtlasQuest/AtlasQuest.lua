@@ -66,7 +66,7 @@ AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function
 
 -- Sets the max number of instances and quests to check for. 
 local AQMAXINSTANCES = "65"
-local AQMAXQUESTS = "20"
+local AQMAXQUESTS = "18"
 
 -- Set title for AtlasQuest side panel
 ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.0";

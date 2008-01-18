@@ -21,8 +21,11 @@ Version 4.1.0
 	- Incorrectly had "Wanted: Shattered Hand Centurions" marked as a Heroic quest.
 	- Coordinates of quest giver for Horde quest "Shadowshard Fragments" were wrong.
 	- Other miscellanous typos. Thanks to Telchar for finding some I missed.
+	- Added name of followup quest for Molten Core: Hands of the Enemy (Thanks Celellach)
 
 - Quests added:
+	- Stratholme: The Balance of Light and Shadow (Priest)   (Thanks Celellach)
+	- SM Graveyard: Call the Headless Horseman (Daily - Seasonal)   (Thanks Celellach)
 	- Underbog: Bring Me A Shrubbery!
 	- Underbog: Wanted: A Black Stalker Egg (Heroic Daily)
 	- Slave Pens: Wanted: The Heart of Quagmirran (Heroic Daily)
