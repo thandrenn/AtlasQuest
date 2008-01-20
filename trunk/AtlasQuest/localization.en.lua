@@ -4582,7 +4582,7 @@ Inst22Quest18name1_HORDE = "Royal Seal of Alexis"
 Inst22Quest18name2_HORDE = "Elemental Circle"
 
 --Quest 19 Horde  (same as Quest 18 Alliance)
-Inst22Quest19_HORDE = Inst22Quest18
+Inst22Quest19_HORDE = "19. The Balance of Light and Shadow (Priest)"
 Inst22Quest19_HORDE_Level = Inst22Quest18_Level
 Inst22Quest19_HORDE_Attain = Inst22Quest18_Attain
 Inst22Quest19_HORDE_Aim = Inst22Quest18_Aim
@@ -8731,6 +8731,7 @@ Inst59Quest3_HORDE_Note = Inst59Quest1_Note
 Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
 Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
 -- No Rewards for this quest
+
 
 
 --------------- INST61 - TK: The Eye ---------------

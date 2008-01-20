@@ -85,8 +85,8 @@ AQOptionsCompareTooltipTEXT = ""..WHITE.."Die Belohnungen mit den derzeit angele
 
 AQAbilities = BLUE .. "Fähigkeiten:" .. WHITE;
 AQSERVERASKInformation = " Bitte rechtsklicken bis der Gegenstand angezeigt wird."
-AQSERVERASKAuto = " Versuche den Mauszeiger in ein paar Sekunden über den Gegenstand zu bewegen."
-AQSERVERASK = "Der Server wird abgefragt nach: "
+AQSERVERASKAuto = " Versuche den Mauszeiger in einer Sekunde über den Gegenstand zu bewegen."
+AQSERVERASK = "AtlasQuest frägt den Server nach folgendem Gegenstand ab: "
 AQERRORNOTSHOWN = "Dieser Gegenstand ist nicht sicher!"
 AQERRORASKSERVER = "Klicke rechts um den Server nach \ndiesem Gegenstand abzufragen. Es kann passieren, dass die Verbindung unterbrochen wird."
 AQOptionB = "Optionen"
@@ -3121,7 +3121,7 @@ Inst14Quest2_Aim = "Bringt die Hände von Lucifron, Sulfuron, Gehennas und Shazz
 Inst14Quest2_Location = "Fürst Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
 Inst14Quest2_Note = "Lucifron befindet sich bei "..YELLOW.."[1]"..WHITE..", Sulfuron bei "..YELLOW.."[8]"..WHITE..", Gehennas bei "..YELLOW.."[3]"..WHITE.." und Shazzrah bei "..YELLOW.."[5]"..WHITE.."."
 Inst14Quest2_Prequest = "Ja, Agent von Hydraxis"
-Inst14Quest2_Folgequest = "Nein"
+Inst14Quest2_Folgequest = "Ja, Die Belohnung eines Helden"
 Inst14Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -4128,8 +4128,8 @@ Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 Inst22Story = "Einst war Stratholme das Juwel von Lordaeron, aber es ist schon lange her, dass jemand die Stadt bei diesem Namen genannt hat. Hier, an genau diesem Ort, vollzog sich der Anfang des Untergangs von Lordaeron, als sich Arthas gegen seinen Mentor Uther Lichtbringer wandte und hunderte treu ergebener Untertanen, die angeblich mit der Seuche des Untodes in Berührung gekommen waren, ohne jegliches Erbarmen zur Schlachtbank führte. Dies war der erste Schritt auf Arthas langer Reise abwärts in die finstersten Abgründe der menschlichen Seele, die ihn schließlich in die offenen Arme des Lichkönigs trieb. Stratholme ist nun unter der Verwaltung des mächtigen Lichs Kel'thuzad eine Festung der untoten Geißel. Ein Teil der Ruinen wird mit dem Mut der Verzweiflung von einem Kontingent Scharlachroter Kreuzritter gehalten, die von dem Obersten Kreuzzügler Dathrohan angeführt werden. Beide Seiten sind in einem erbitterten Straßenkampf gefangen. Abenteurer, die mutig (oder töricht) genug sind, Stratholme zu betreten, werden sich früher oder später mit beiden Seiten auseinandersetzen müssen. Man sagt, die Stadt werde von drei gewaltigen Wachtürmen, mächtigen Totenbeschwörern, Banshees und Monstrositäten bewacht. Es gibt auch Berichte von einem unheimlichen Todesritter, der auf seinem untoten Ross durch die Straßen reitet, und jeden heimsucht, der es wagt, in das Reich der Geißel vorzudringen."
 Inst22Caption = "Stratholme"
-Inst22QAA = "17 Quests"
-Inst22QAH = "18 Quests"
+Inst22QAA = "18 Quests"
+Inst22QAH = "19 Quests"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. Das Fleisch lügt nicht"
@@ -4345,6 +4345,18 @@ Inst22Quest17_Prequest = "Nein"
 Inst22Quest17_Folgequest = "Nein"
 --
 Inst22Quest17name1 = "Pläne: Verzauberter Kampfhammer"
+
+--Quest 18 Alliance
+Inst22Quest18 = "18. Die Waage von Licht und Schatten (Priester)"
+Inst22Quest18_Level = "60"
+Inst22Quest18_Attain = "60"
+Inst22Quest18_Aim = "Rettet 50 Arbeiter bevor 15 getötet wurden. Sprecht mit Eris Himmelsfeuer, falls Ihr diesen Auftrag erfolgreich zu Ende bringen solltet."
+Inst22Quest18_Location = "Eris Himmelsfeuer (Östliche Pestländer; "..YELLOW.."21,18"..WHITE..")"
+Inst22Quest18_Note = "Um Eris Himmelsfeuer sehen zu können und dieses Quest zu erhalten benötigt man entweder das Auge der Offenbarung (erhält man aus dem Behälter des Feuerfürsten im "..YELLOW.."[Geschmolzenen Kern]"..WHITE..") oder Spektrale Essenz (Belohnung für "..YELLOW.."[Scholomance]"..WHITE.." Quest 'Kirtonos der Herold').\n\nDie Belohnung für dieses Quest bildet zusammen mit dem Auge der Offenbarung und dem Auge der Schatten (droppt von "..YELLOW.."[Hochlord Kruul]"..WHITE..") Segnung, einen epischen Priesterstab."
+Inst22Quest18_Prequest = "Nein"
+Inst22Quest18_Folgequest = "Nein"
+--
+Inst22Quest18name1 = "Splitter von Nordrassil"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -4576,6 +4588,18 @@ Inst22Quest18PreQuest_HORDE = "true"
 --
 Inst22Quest18name1_HORDE = "Königliches Siegel von Alexis"
 Inst22Quest18name2_HORDE = "Elementarkreis"
+
+--Quest 19 Horde  (same as Quest 18 Alliance)
+Inst22Quest19_HORDE = "19. Die Waage von Licht und Schatten (Priester)"
+Inst22Quest19_HORDE_Level = Inst22Quest18_Level
+Inst22Quest19_HORDE_Attain = Inst22Quest18_Attain
+Inst22Quest19_HORDE_Aim = Inst22Quest18_Aim
+Inst22Quest19_HORDE_Location = Inst22Quest18_Location
+Inst22Quest19_HORDE_Note = Inst22Quest18_Note
+Inst22Quest19_HORDE_Prequest = Inst22Quest18_Prequest
+Inst22Quest19_HORDE_Folgequest = Inst22Quest18_Folgequest
+--
+Inst22Quest19name1_HORDE = Inst22Quest18name1
 
 
 
@@ -6641,7 +6665,7 @@ Inst43Quest5_Level = "65"
 Inst43Quest5_Attain = "63"
 Inst43Quest5_Aim = "Sammelt 5 Stück Bluthibiskus und bringt sie zu Gzhun'tt in Sporeggar in den Zangarmarschen."
 Inst43Quest5_Location = "Gzhun'tt (Zangarmarschen - Sporeggar; "..YELLOW.."19,50"..WHITE..")"
-Inst43Quest5_Note = "Man muss neutral zu Sporeggar sein, um dieses Quest annehmen zu können. Das Folgequest ist wiederholbar und gibt jedes mal 750 Sporeggar Rufpunkte. Die Bluthibiskusse sind in der Instanz verteilt, können aber auch eventuell im Auktionshaus gefunden werden."
+Inst43Quest5_Note = "Man muss neutral zu Sporeggar sein, um dieses Quest annehmen zu können. Das Folgequest ist wiederholbar und gibt jedes mal 750 Sporeggar Rufpunkte. Die Bluthibiskusse sind in der Instanz in der Nähe von Pflanzen verteilt und droppen auch von Sumpf Gegnern, auch von denen in der Dampfkammer. Sie können aber eventuell auch im Auktionshaus gefunden werden."
 Inst43Quest5_Prequest = "Nein"
 Inst43Quest5_Folgequest = "Ja, Bringt mir ein weiteres Gebüsch!"
 -- No Rewards for this quest
@@ -8666,8 +8690,20 @@ Inst58Quest2name3_HORDE = "Drachenbluthalskette"
 
 Inst59Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
 Inst59Caption = "SK: Friedhof"
-Inst59QAA = "Keine Quests"
-Inst59QAH = "2 Quests"
+Inst59QAA = "1 Quest"
+Inst59QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst59Quest1 = "1. Ruft den kopflosen Reiter (Tagesquest - Saisonbedingt)"
+Inst59Quest1_Level = "70"
+Inst59Quest1_Attain = "70"
+Inst59Quest1_Aim = "Bringt eine düstere Kerze zur leicht aufgewühlten Erde."
+Inst59Quest1_Location = "Kürbisschrein (Scharlachrotes Kloster - Friedhof; "..YELLOW.."[2]"..WHITE..")"
+Inst59Quest1_Note = "Die Erde befindet sich nur ein paar Schritte vom Kürbisschrein entfernt. Dieses Quest ist nur während der Schlotternächte erhältlich und kann nur einmal täglich pro Spieler angenommen werden.\n\nWenn man das Quest abschließt, erscheint der kopflose Reiter, ein Stufe 70 Boss."
+Inst59Quest1_Prequest = "Nein"
+Inst59Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst59Quest1_HORDE = "1. Vorrels Rache"
@@ -8693,6 +8729,17 @@ Inst59Quest2_HORDE_Note = "Die Herzen des Eifers werden von allen Gegnern im Klo
 Inst59Quest2_HORDE_Prequest = "Ja, Go, Go, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
 Inst59Quest2_HORDE_Folgequest = "Nein"
 Inst59Quest2PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 1 Alliance)
+Inst59Quest3_HORDE = "3. Ruft den kopflosen Reiter (Tagesquest - Saisonbedingt)"
+Inst59Quest3_HORDE_Level = Inst59Quest1_Level
+Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
+Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
+Inst59Quest3_HORDE_Location = Inst59Quest1_Location
+Inst59Quest3_HORDE_Note = Inst59Quest1_Note
+Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
+Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
 -- No Rewards for this quest
 
 
