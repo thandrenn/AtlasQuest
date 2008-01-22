@@ -66,7 +66,7 @@ AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function
 
 -- Sets the max number of instances and quests to check for. 
 local AQMAXINSTANCES = "65"
-local AQMAXQUESTS = "18"
+local AQMAXQUESTS = "19"
 
 -- Set title for AtlasQuest side panel
 ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.0";
@@ -492,7 +492,7 @@ local AQQuestfarbe2
            else
                AtlasQuestAnzahl:SetText("");
            end
-           for b=1, 18 do
+           for b=1, AQMAXQUESTS do
              if (getglobal("Inst"..AQINSTANZ.."Quest"..b.."FQuest")) then
                 getglobal("AQQuestlineArrow_"..b):SetTexture("Interface\\Glues\\Login\\UI-BackArrow")
                 getglobal("AQQuestlineArrow_"..b):Show();
@@ -545,7 +545,7 @@ local AQQuestfarbe2
            else
                AtlasQuestAnzahl:SetText("");
            end
-           for b=1, 18 do
+           for b=1, AQMAXQUESTS do
              if (getglobal("Inst"..AQINSTANZ.."Quest"..b.."FQuest_HORDE")) then
                 getglobal("AQQuestlineArrow_"..b):SetTexture("Interface\\Glues\\Login\\UI-BackArrow")
                 getglobal("AQQuestlineArrow_"..b):Show();
