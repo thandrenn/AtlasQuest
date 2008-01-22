@@ -474,7 +474,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="7" y="-73"></AbsDimension>
+				<AbsDimension x="7" y="-52"></AbsDimension>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -495,7 +495,7 @@
 	<Anchors>
 		<Anchor point="TOPRIGHT">
 			<Offset>
-				<AbsDimension x="-7" y="-73"></AbsDimension>
+				<AbsDimension x="-7" y="-52"></AbsDimension>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -516,7 +516,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-50"/>
+				<AbsDimension x="15" y="-30"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -537,7 +537,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-110"/>
+				<AbsDimension x="15" y="-90"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -559,7 +559,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-130"/>
+				<AbsDimension x="15" y="-110"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -581,7 +581,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-150"/>
+				<AbsDimension x="15" y="-130"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -600,7 +600,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-170"/>
+				<AbsDimension x="15" y="-150"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -619,7 +619,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-190"/>
+				<AbsDimension x="15" y="-170"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -638,7 +638,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-210"/>
+				<AbsDimension x="15" y="-190"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -657,7 +657,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-230"/>
+				<AbsDimension x="15" y="-210"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -676,7 +676,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-250"/>
+				<AbsDimension x="15" y="-230"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -695,7 +695,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-270"/>
+				<AbsDimension x="15" y="-250"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -714,7 +714,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-290"/>
+				<AbsDimension x="15" y="-270"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -733,7 +733,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-310"/>
+				<AbsDimension x="15" y="-290"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -752,7 +752,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-330"/>
+				<AbsDimension x="15" y="-310"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -771,7 +771,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-350"/>
+				<AbsDimension x="15" y="-330"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -790,7 +790,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-370"/>
+				<AbsDimension x="15" y="-350"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -809,7 +809,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-390"/>
+				<AbsDimension x="15" y="-370"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -828,7 +828,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-410"/>
+				<AbsDimension x="15" y="-390"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -847,7 +847,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-430"/>
+				<AbsDimension x="15" y="-410"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -866,13 +866,32 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="15" y="-450"/>
+				<AbsDimension x="15" y="-430"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
 	<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 18; Quest_OnClick(arg1); </OnClick>
+		<OnShow>
+	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    </OnShow>
+	</Scripts>
+ </Button>
+ <Button name="AQQuestbutton19" inherits="" text="18">
+   <Size>
+     <AbsDimension x="165" y="20"/>
+   </Size>
+	<Anchors>
+		<Anchor point="TOPLEFT">
+			<Offset>
+				<AbsDimension x="15" y="-450"/>
+			</Offset>
+		</Anchor>
+	</Anchors>
+	<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
+	<Scripts>
+		<OnClick> AQSHOWNQUEST = 19; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
 	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
@@ -888,7 +907,7 @@
        <Anchors>
          <Anchor point="TOP">
            <Offset>
-              <AbsDimension x="0" y="-50"/>
+              <AbsDimension x="0" y="-32"/>
            </Offset>
          </Anchor>
        </Anchors>
@@ -900,7 +919,7 @@
        <Anchors>
          <Anchor point="TOP">
            <Offset>
-              <AbsDimension x="6" y="-27"/>
+              <AbsDimension x="6" y="-12"/>
            </Offset>
          </Anchor>
        </Anchors>
@@ -912,7 +931,7 @@
        <Anchors>
          <Anchor point="TOP">
            <Offset>
-              <AbsDimension x="0" y="-70"/>
+              <AbsDimension x="0" y="-45"/>
            </Offset>
          </Anchor>
        </Anchors>
@@ -935,7 +954,7 @@
            <Anchors>
              <Anchor point="TOPLEFT" >
                <Offset>
-				  <AbsDimension x="8" y="-112"/>
+				  <AbsDimension x="8" y="-95"/>
 			   </Offset>
              </Anchor>
            </Anchors>
@@ -1076,12 +1095,20 @@
              </Anchor>
            </Anchors>
       </Texture>
+      <Texture name="AQQuestlineArrow_19" file="Interface\Glues\Login\UI-BackArrow">
+          <Size><AbsDimension x="13" y="15"/></Size>
+           <Anchors>
+             <Anchor point="TOPLEFT" relativeTo="AQQuestlineArrow_18" relativePoint="TOPLEFT">
+			<Offset><AbsDimension x="0" y="-20"/></Offset>
+             </Anchor>
+           </Anchors>
+      </Texture>
      <FontString name="AQBUTTONTEXT1" inherits="GameFontNormalSmall" text="1" justifyH = "LEFT">
        <Size><AbsDimension x="165" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="22" y="-110"/>
+				<AbsDimension x="22" y="-90"/>
 			</Offset>
          </Anchor>
        </Anchors>
@@ -1222,11 +1249,19 @@
          </Anchor>
        </Anchors>
      </FontString>
+     <FontString name="AQBUTTONTEXT19" inherits="GameFontNormalSmall" text="18" justifyH = "LEFT">
+       <Size><AbsDimension x="165" y="20"/></Size>
+       <Anchors>
+         <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT18" relativePoint="TOPLEFT">
+			<Offset><AbsDimension x="0" y="-20"/></Offset>
+         </Anchor>
+       </Anchors>
+     </FontString>
       <Texture name="AQ_HordeTexture" file="Interface\TargetingFrame\UI-PVP-HORDE">
          <Size><AbsDimension x="50" y="50"/></Size>
            <Anchors>
              <Anchor point="TOPRIGHT" >
-        	      <Offset><AbsDimension x="-22" y="-75"/></Offset>
+        	      <Offset><AbsDimension x="-22" y="-50"/></Offset>
         	  </Anchor>
            </Anchors>
       </Texture>
@@ -1234,7 +1269,7 @@
          <Size><AbsDimension x="50" y="50"/></Size>
            <Anchors>
               <Anchor point="TOPLEFT">
-        	      <Offset><AbsDimension x="38" y="-75"/></Offset>
+        	      <Offset><AbsDimension x="38" y="-50"/></Offset>
        	  </Anchor>
            </Anchors>
       </Texture>
