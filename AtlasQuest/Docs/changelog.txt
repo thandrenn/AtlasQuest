@@ -5,6 +5,7 @@ Changelog
 Version 4.1.0
 
 - Updates for renamed Atlas 1.10.4 addons. (Telchar)
+- Moved AtlasQuest frame for Atlas 1.10.4.
 - EquipCompare support removed.
 - Comparison Tooltips added. This is optional and toggled off by default. Thanks to Daviesh & AtlasLoot for the code!
 - Server AutoQuery added. AtlasQuest will query the server for rewards when quest data is shown. This is optional and toggled off by default. Re-used code from Daviesh & AtlasLoot.
@@ -13,6 +14,7 @@ Version 4.1.0
 - German translation of Burning Crusade quests from Nalumis.
 - Added all Dungeon Daily quests.
 - Simplified Chinese localization updated by yeachan.
+- Added support for Outdoor Raids: Skettis. No quests yet
 
 - Fixes:
 	- Quest names were not being colored blue when CT Mod's Show Quest Level option was on. Big thanks to Denival for the fix!
