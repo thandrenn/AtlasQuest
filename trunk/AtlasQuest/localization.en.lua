@@ -9270,6 +9270,15 @@ Inst65QAH = "No Quests"
 
 
 
+--------------- INST66 - Skettis ---------------
+
+Inst66Story = "Placeholder Text"
+Inst66Caption = "Skettis"
+Inst66QAA = "No Quests yet"
+Inst66QAH = "No Quests yet"
+
+
+
 ---------------------------
 --- AQ Instance Numbers ---
 ---------------------------
@@ -9341,3 +9350,4 @@ Inst65QAH = "No Quests"
 -- 63 = Zul'Aman (ZA)
 -- 64 = Doom Lord Kazzak
 -- 65 = Doomwalker
+-- 66 = Skettis

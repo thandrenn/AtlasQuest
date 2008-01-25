@@ -236,6 +236,9 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\Doomwalker")  then
 		AQINSTANZ = 65;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\Skettis")  then
+		AQINSTANZ = 66;
+
 
 	-- Rest
 
@@ -540,4 +543,4 @@ end
 -- 63 = Zul'Aman (ZA)
 -- 64 = Doom Lord Kazzak
 -- 65 = Doomwalker
-
+-- 66 = Skettis
