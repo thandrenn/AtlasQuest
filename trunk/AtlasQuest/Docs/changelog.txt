@@ -4,8 +4,8 @@ Changelog
 
 Version 4.1.0
 
-- Updates for renamed Atlas 1.10.4 addons. (Telchar)
-- Moved AtlasQuest frame for Atlas 1.10.4.
+- Updates for renamed Atlas 1.11.0 addons. (Telchar)
+- Moved AtlasQuest frame for Atlas 1.11.0.
 - EquipCompare support removed.
 - Comparison Tooltips added. This is optional and toggled off by default. Thanks to Daviesh & AtlasLoot for the code!
 - Server AutoQuery added. AtlasQuest will query the server for rewards when quest data is shown. This is optional and toggled off by default. Re-used code from Daviesh & AtlasLoot.

@@ -4,8 +4,8 @@ ToDo List
 
 - Add Battlegrounds quests.
 - BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
-
-- Figure out way to display more quests (limited to 18)
+- Investigate adding scrollbar
+- Add Skettis quests
 
 
 Cleanup Checklist:
