@@ -69,7 +69,7 @@ local AQMAXINSTANCES = "65"
 local AQMAXQUESTS = "19"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.0";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.0 Beta";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -428,10 +428,10 @@ function AQ_AtlasOrAlphamap()
            AtlasQuestFrame:SetParent(AtlasFrame);
            if (AQ_ShownSide == "Right" ) then
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 605, -80);
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 555, -80);
            else
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -595, -80);
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -545, -80);
            end
            AtlasQuestInsideFrame:SetParent(AtlasFrame);
            AtlasQuestInsideFrame:ClearAllPoints();
@@ -690,7 +690,7 @@ function Atlas_OnShow()
    -- AQ_AtlasOrAlphamap();
    if (AQ_ShownSide == "Right") then
        AtlasQuestFrame:ClearAllPoints();
-       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 605, -80);
+       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 555, -80);
   end
   original_Atlas_OnShow(); -- new line #2
 end

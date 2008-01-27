@@ -669,14 +669,14 @@ These fonts are useless atm -->
  			</Anchor>
  		</Anchors>
 	  <Frames>
-	  <Button name="CLOSEbutton3" inherits="OptionsButtonTemplate" text="AtlasQuest">
+	  <Button name="CLOSEbutton3" inherits="OptionsButtonTemplate" text="AQ">
           <Size>
-            <AbsDimension x="100" y="25"/>
+            <AbsDimension x="30" y="20"/>
           </Size>
 	      <Anchors>
 		     <Anchor point="TOPRIGHT">
 			   <Offset>
-				  <AbsDimension x="-150" y="-59"/>
+				  <AbsDimension x="-115" y="-59"/>
 			   </Offset>
 		     </Anchor>
 	      </Anchors>
