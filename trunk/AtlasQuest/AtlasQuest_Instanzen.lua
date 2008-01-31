@@ -476,7 +476,9 @@ function AtlasQuest_InstanzencheckAM()
 end
 
 
---    AQINSTANZ numbers
+---------------------------
+--- AQ Instance Numbers ---
+---------------------------
 
 -- 1  = Deadmines (VC)
 -- 2  = Wailing Caverns (WC)

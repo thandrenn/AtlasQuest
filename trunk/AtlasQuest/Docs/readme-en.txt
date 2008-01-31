@@ -24,7 +24,7 @@ Translations:
 =============
 
 EN: Thandrenn  (previously Asurn and Lothaer)
-DE: Telchar  (previously Asurn and Nihlo)
+DE: Telchar & Nalumis  (previously Asurn and Nihlo)
 CN: yeachan  (previously DIY)
 
 
