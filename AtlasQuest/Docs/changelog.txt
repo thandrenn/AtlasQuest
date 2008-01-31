@@ -4,17 +4,20 @@ Changelog
 
 Version 4.1.0
 
-- Updates for renamed Atlas 1.11.0 addons. (Telchar)
-- Moved AtlasQuest frame for Atlas 1.11.0.
 - EquipCompare support removed.
 - Comparison Tooltips added. This is optional and toggled off by default. Thanks to Daviesh & AtlasLoot for the code!
 - Server AutoQuery added. AtlasQuest will query the server for rewards when quest data is shown. This is optional and toggled off by default. Re-used code from Daviesh & AtlasLoot.
 - Option added to turn off Server Query spam (suggested by Telchar).
 - German localization updated by Telchar.
 - German translation of Burning Crusade quests from Nalumis.
-- Added all Dungeon Daily quests.
 - Simplified Chinese localization updated by yeachan.
-- Added support for Outdoor Raids: Skettis. No quests yet
+- Added all Dungeon Daily quests.
+
+- Updates for Atlas 1.11.0:
+	- Renamed Atlas addon paths (Telchar)
+	- Moved AtlasQuest frame
+	- Updated locations: Zul'Aman, Blackwing Lair, Shadowfang Keep
+	- Added Outdoor Raids: Skettis.
 
 - Fixes:
 	- Quest names were not being colored blue when CT Mod's Show Quest Level option was on. Big thanks to Denival for the fix!
@@ -47,6 +50,19 @@ Version 4.1.0
 	- Botanica: Wanted: Sunseeker Channelers  (Daily)
 	- Arcatraz: Wanted: Arcatraz Sentinels  (Daily)
 	- Arcatraz: Wanted: The Scroll of Skyriss  (Heroic Daily)
+	- Skettis: To Skettis!   (Thanks Celellach)
+	- Skettis: Fires over Skettis (Daily)   (Thanks Celellach)
+	- Skettis: Escape from Skettis (Daily)   (Thanks Celellach)
+	- Skettis: Hungry Nether Rays   (Thanks Celellach)
+	- Skettis: World of Shadows   (Thanks Celellach)
+	- Skettis: Secrets of the Talonpriests   (Thanks Celellach)
+	- Skettis: Ishaal's Almanac    (Thanks Celellach)
+	- Skettis: An Ally in Lower City   (Thanks Celellach)
+	- Skettis: Countdown to Doom   (Thanks Celellach)
+	- Skettis: Hazzik's Bargain   (Thanks Celellach)
+	- Skettis: A Shabby Disguise   (Thanks Celellach)
+	- Skettis: Adversarial Blood   (Thanks Celellach)
+	- Skettis: Terokk's Downfall   (Thanks Celellach)
 
 
 

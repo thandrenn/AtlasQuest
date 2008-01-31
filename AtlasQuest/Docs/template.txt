@@ -1,50 +1,69 @@
 Just some templates I can quickly copy/paste.
+If/when this slips into a release, just ignore it. :)
 
 
 --Quest 1 Alliance
-Inst61Quest1 = ""
-Inst61Quest1_Level = ""
-Inst61Quest1_Attain = ""
-Inst61Quest1_Aim = ""
-Inst61Quest1_Location = ""
-Inst61Quest1_Note = ""
-Inst61Quest1_Prequest = ""
-Inst61Quest1_Folgequest = ""
-Inst61Quest1PreQuest = "true"
-Inst61Quest1FQuest = "true"
+Inst66Quest1 = ""
+Inst66Quest1_Level = ""
+Inst66Quest1_Attain = ""
+Inst66Quest1_Aim = ""
+Inst66Quest1_Location = ""
+Inst66Quest1_Note = ""
+Inst66Quest1_Prequest = ""
+Inst66Quest1_Folgequest = ""
+Inst66Quest1PreQuest = "true"
+Inst66Quest1FQuest = "true"
 --
-Inst61Quest1name1 = ""
+Inst66Quest1name1 = ""
+-- No Rewards for this quest
+
+
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst66Quest1_HORDE = Inst66Quest1
+Inst66Quest1_HORDE_Level = Inst66Quest1_Level
+Inst66Quest1_HORDE_Attain = Inst66Quest1_Attain
+Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
+Inst66Quest1_HORDE_Location = Inst66Quest1_Location
+Inst66Quest1_HORDE_Note = Inst66Quest1_Note
+Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
+Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
+Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
+Inst66Quest1FQuest_HORDE = Inst66Quest1FQuest
+--
+Inst66Quest1name1_HORDE = Inst66Quest1name1
 -- No Rewards for this quest
 
 
 
 
 --Quest 1 Alliance
-Inst61Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst66Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst61Quest1ITC1 = Itemc4;
-Inst61Quest1textur1 = "INV_"
-Inst61Quest1description1 = AQITEM_
-Inst61Quest1ID1 = ""
+Inst66Quest1ITC1 = Itemc4;
+Inst66Quest1textur1 = "INV_"
+Inst66Quest1description1 = AQITEM_
+Inst66Quest1ID1 = ""
 --ITEM2
-Inst61Quest1ITC2 = Itemc4;
-Inst61Quest1textur2 = "INV_"
-Inst61Quest1description2 = AQITEM_
-Inst61Quest1ID2 = ""
+Inst66Quest1ITC2 = Itemc4;
+Inst66Quest1textur2 = "INV_"
+Inst66Quest1description2 = AQITEM_
+Inst66Quest1ID2 = ""
 --ITEM3
-Inst61Quest1ITC3 = Itemc4;
-Inst61Quest1textur3 = "INV_"
-Inst61Quest1description3 = AQITEM_
-Inst61Quest1ID3 = ""
+Inst66Quest1ITC3 = Itemc4;
+Inst66Quest1textur3 = "INV_"
+Inst66Quest1description3 = AQITEM_
+Inst66Quest1ID3 = ""
 --ITEM4
-Inst61Quest1ITC4 = Itemc4;
-Inst61Quest1textur4 = "INV_"
-Inst61Quest1description4 = AQITEM_
-Inst61Quest1ID4 = ""
+Inst66Quest1ITC4 = Itemc4;
+Inst66Quest1textur4 = "INV_"
+Inst66Quest1description4 = AQITEM_
+Inst66Quest1ID4 = ""
 
 
 
 
 --Quest 1 Alliance
-Inst61Quest1Rewardtext = AQNoReward
+Inst66Quest1Rewardtext = AQNoReward
 

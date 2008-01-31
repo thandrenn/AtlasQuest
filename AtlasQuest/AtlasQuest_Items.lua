@@ -6413,8 +6413,184 @@ Inst31Quest1ID1_HORDE = "18714"
 
 --------------- INST66 - Skettis ---------------
 
+--Quest 1 Alliance
+Inst66Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst66Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst66Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1(x3)"..AQDiscription_OR..WHITE.."2(x2)"
+--ITEM1
+Inst66Quest3ITC1 = Itemc2;
+Inst66Quest3textur1 = "INV_Potion_40"
+Inst66Quest3description1 = AQITEM_POTION
+Inst66Quest3ID1 = "28100"
+--ITEM2
+Inst66Quest3ITC2 = Itemc2;
+Inst66Quest3textur2 = "INV_Potion_75"
+Inst66Quest3description2 = AQITEM_POTION
+Inst66Quest3ID2 = "28101"
+
+--Quest 4 Alliance
+Inst66Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"..AQDiscription_OR..WHITE.."2(x2)"
+--ITEM1
+Inst66Quest4ITC1 = Itemc2;
+Inst66Quest4textur1 = "INV_Potion_127"
+Inst66Quest4description1 = AQITEM_POTION
+Inst66Quest4ID1 = "22831"
+--ITEM2
+Inst66Quest4ITC2 = Itemc2;
+Inst66Quest4textur2 = "INV_Potion_96"
+Inst66Quest4description2 = AQITEM_POTION
+Inst66Quest4ID2 = "28103"
+
+--Quest 5 Alliance
+Inst66Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst66Quest5ITC1 = Itemc2;
+Inst66Quest5textur1 = "INV_Poison_MindNumbing"
+Inst66Quest5description1 = AQITEM_POTION
+Inst66Quest5ID1 = "32446"
+
+--Quest 6 Alliance
+Inst66Quest6Rewardtext = AQNoReward
+
+--Quest 7 Alliance
+Inst66Quest7Rewardtext = AQNoReward
+
+--Quest 8 Alliance
+Inst66Quest8Rewardtext = AQNoReward
+
+--Quest 9 Alliance
+Inst66Quest9Rewardtext = AQNoReward
+
+--Quest 10 Alliance
+Inst66Quest10Rewardtext = AQNoReward
+
+--Quest 11 Alliance
+Inst66Quest11Rewardtext = AQNoReward
+
+--Quest 12 Alliance
+Inst66Quest12Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst66Quest12ITC1 = Itemc2;
+Inst66Quest12textur1 = "INV_Misc_Urn_01"
+Inst66Quest12description1 = AQITEM_ITEM
+Inst66Quest12ID1 = "32720"
+
+--Quest 13 Alliance
+Inst66Quest13Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst66Quest13ITC1 = Itemc4;
+Inst66Quest13textur1 = "INV_Wand_11"
+Inst66Quest13description1 = AQITEM_WAND
+Inst66Quest13ID1 = "32831"
+--ITEM2
+Inst66Quest13ITC2 = Itemc4;
+Inst66Quest13textur2 = "INV_ThrowingKnife_02"
+Inst66Quest13description2 = AQITEM_THROWN
+Inst66Quest13ID2 = "32832"
+--ITEM3
+Inst66Quest13ITC3 = Itemc4;
+Inst66Quest13textur3 = "INV_Staff_32"
+Inst66Quest13description3 = AQITEM_STAFF
+Inst66Quest13ID3 = "32830"
+--ITEM4
+Inst66Quest13ITC4 = Itemc4;
+Inst66Quest13textur4 = "INV_Spear_05"
+Inst66Quest13description4 = AQITEM_POLEARM
+Inst66Quest13ID4 = "32829"
 
 
+--Quest 1 Horde
+Inst66Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst66Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst66Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x3)"..AQDiscription_OR..WHITE.."2(x2)"
+--ITEM1
+Inst66Quest3ITC1_HORDE = Itemc2;
+Inst66Quest3textur1_HORDE = "INV_Potion_40"
+Inst66Quest3description1_HORDE = AQITEM_POTION
+Inst66Quest3ID1_HORDE = "28100"
+--ITEM2
+Inst66Quest3ITC2_HORDE = Itemc2;
+Inst66Quest3textur2_HORDE = "INV_Potion_75"
+Inst66Quest3description2_HORDE = AQITEM_POTION
+Inst66Quest3ID2_HORDE = "28101"
+
+--Quest 4 Horde
+Inst66Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"..AQDiscription_OR..WHITE.."2(x2)"
+--ITEM1
+Inst66Quest4ITC1_HORDE = Itemc2;
+Inst66Quest4textur1_HORDE = "INV_Potion_127"
+Inst66Quest4description1_HORDE = AQITEM_POTION
+Inst66Quest4ID1_HORDE = "22831"
+--ITEM2
+Inst66Quest4ITC2_HORDE = Itemc2;
+Inst66Quest4textur2_HORDE = "INV_Potion_96"
+Inst66Quest4description2_HORDE = AQITEM_POTION
+Inst66Quest4ID2_HORDE = "28103"
+
+--Quest 5 Horde
+Inst66Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst66Quest5ITC1_HORDE = Itemc2;
+Inst66Quest5textur1_HORDE = "INV_Poison_MindNumbing"
+Inst66Quest5description1_HORDE = AQITEM_POTION
+Inst66Quest5ID1_HORDE = "32446"
+
+--Quest 6 Horde
+Inst66Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst66Quest7Rewardtext_HORDE = AQNoReward
+
+--Quest 8 Horde
+Inst66Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst66Quest9Rewardtext_HORDE = AQNoReward
+
+--Quest 10 Horde
+Inst66Quest10Rewardtext_HORDE = AQNoReward
+
+--Quest 11 Horde
+Inst66Quest11Rewardtext_HORDE = AQNoReward
+
+--Quest 12 Horde
+Inst66Quest12Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst66Quest12ITC1_HORDE = Itemc2;
+Inst66Quest12textur1_HORDE = "INV_Misc_Urn_01"
+Inst66Quest12description1_HORDE = AQITEM_ITEM
+Inst66Quest12ID1_HORDE = "32720"
+
+--Quest 13 Horde
+Inst66Quest13Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst66Quest13ITC1_HORDE = Itemc4;
+Inst66Quest13textur1_HORDE = "INV_Wand_11"
+Inst66Quest13description1_HORDE = AQITEM_WAND
+Inst66Quest13ID1_HORDE = "32831"
+--ITEM2
+Inst66Quest13ITC2_HORDE = Itemc4;
+Inst66Quest13textur2_HORDE = "INV_ThrowingKnife_02"
+Inst66Quest13description2_HORDE = AQITEM_THROWN
+Inst66Quest13ID2_HORDE = "32832"
+--ITEM3
+Inst66Quest13ITC3_HORDE = Itemc4;
+Inst66Quest13textur3_HORDE = "INV_Staff_32"
+Inst66Quest13description3_HORDE = AQITEM_STAFF
+Inst66Quest13ID3_HORDE = "32830"
+--ITEM4
+Inst66Quest13ITC4_HORDE = Itemc4;
+Inst66Quest13textur4_HORDE = "INV_Spear_05"
+Inst66Quest13description4_HORDE = AQITEM_POLEARM
+Inst66Quest13ID4_HORDE = "32829"
 
 
 

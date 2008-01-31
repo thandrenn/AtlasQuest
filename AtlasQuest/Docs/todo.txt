@@ -3,9 +3,8 @@ ToDo List
 =========
 
 - Add Battlegrounds quests.
-- BUG: /aq popping up Stubby error when used for first time. From Chawgobeh.
+- BUG: /aq popping up Swatter error when used for first time. From Chawgobeh.
 - Investigate adding scrollbar
-- Add Skettis quests
 
 
 Cleanup Checklist:
@@ -76,6 +75,7 @@ DONE 	DONE	62 = Black Temple (BT)
 DONE  	DONE	63 = Zul'Aman (ZA)
 N/A	N/A	64 = Doom Lord Kazzak
 N/A	N/A	65 = Doomwalker
+DONE	--	66 = Skettis
 
 
 

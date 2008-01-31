@@ -112,6 +112,7 @@ AQITEM_SHIELD = "Shield"
 AQITEM_GUN = "Gun"
 AQITEM_BOW = "Bow"
 AQITEM_CROSSBOW = "Crossbow"
+AQITEM_THROWN = "Thrown"
 
 AQITEM_WAIST = "Waist,"
 AQITEM_SHOULDER = "Shoulder,"
@@ -239,7 +240,7 @@ Inst1Quest6_Attain = "20"
 Inst1Quest6_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
 Inst1Quest6_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
 Inst1Quest6_Note = "To see the note click on "..YELLOW.."[The Test of Righteousness Information]"..WHITE.."."
-Inst1Quest6_Page = {2, "Only Paladins can get this quest.\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."Deadmines"..WHITE.." near "..YELLOW.."[3]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." next to "..YELLOW.."[B]"..WHITE.." (the stables).\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
+Inst1Quest6_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE.." near "..YELLOW.."[3]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." at "..YELLOW.."[3]"..WHITE..".\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
 Inst1Quest6_Prequest = "Yes, The Tome of Valor -> The Test of Righteousness"
 Inst1Quest6_Folgequest = "Yes, The Test of Righteousness"
 Inst1Quest6PreQuest = "true"
@@ -1334,7 +1335,7 @@ Inst6Quest2 = "2. The Lord of Blackrock"
 Inst6Quest2_Level = "60"
 Inst6Quest2_Attain = "60"
 Inst6Quest2_Aim = "Return the Head of Nefarian to Highlord Bolvar Fordragon in Stormwind."
-Inst6Quest2_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[8]"..WHITE..")"
+Inst6Quest2_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
 Inst6Quest2_Note = "Highlord Bolvar Fordragon is at (Stormwind City - Stormwind Keep; "..YELLOW.."78,20"..WHITE.."). The follow up sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."67,72"..WHITE..") for the reward."
 Inst6Quest2_Prequest = "No"
 Inst6Quest2_Folgequest = "Yes, The Lord of Blackrock"
@@ -1371,7 +1372,7 @@ Inst6Quest2_HORDE = "2. The Lord of Blackrock"
 Inst6Quest2_HORDE_Level = "60"
 Inst6Quest2_HORDE_Attain = "60"
 Inst6Quest2_HORDE_Aim = "Return the Head of Nefarian to Thrall in Orgrimmar."
-Inst6Quest2_HORDE_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[8]"..WHITE..")"
+Inst6Quest2_HORDE_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
 Inst6Quest2_HORDE_Note = "The follow up sends you to High Overlord Saurfang (Orgrimmar - Valley of Strength; "..YELLOW.."51,76"..WHITE..") for the reward."
 Inst6Quest2_HORDE_Prequest = "No"
 Inst6Quest2_HORDE_Folgequest = "Yes, The Lord of Blackrock"
@@ -3551,7 +3552,7 @@ Inst18Quest3_Level = "30"
 Inst18Quest3_Attain = "22"
 Inst18Quest3_Aim = "Escort Willix the Importer out of Razorfen Kraul."
 Inst18Quest3_Location = "Willix the Importer (Razorfen Kraul; "..YELLOW.."[8]"..WHITE..")"
-Inst18Quest3_Note = "Willix is at "..YELLOW.."[8]"..WHITE..". You must escort him to the entrance of the instance. You turn the quest in to him."
+Inst18Quest3_Note = "Willix the Importer must be escorted to the entrance of the instance. The quest is turned in to him when completed."
 Inst18Quest3_Prequest = "No"
 Inst18Quest3_Folgequest = "No"
 --
@@ -4043,7 +4044,7 @@ Inst21Quest1_Attain = "20"
 Inst21Quest1_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
 Inst21Quest1_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
 Inst21Quest1_Note = "To see the note click on  "..YELLOW.."[The Test of Righteousness Information]"..WHITE.."."
-Inst21Quest1_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." next to "..YELLOW.."[B]"..WHITE.." (the stables).\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
+Inst21Quest1_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." at "..YELLOW.."[3]"..WHITE..".\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
 Inst21Quest1_Prequest = "Yes, The Tome of Valor -> The Test of Righteousness"
 Inst21Quest1_Folgequest = "Yes, The Test of Righteousness"
 Inst21Quest1PreQuest = "true"
@@ -4070,7 +4071,7 @@ Inst21Quest1_HORDE_Level = "25"
 Inst21Quest1_HORDE_Attain = "18"
 Inst21Quest1_HORDE_Aim = "Find the Deathstalker Adamant and Deathstalker Vincent."
 Inst21Quest1_HORDE_Location = "High Executor Hadrec (Silverpine Forest - The Sepulcher; "..YELLOW.."43,40"..WHITE..")"
-Inst21Quest1_HORDE_Note = "You find Deathstalker Adamant at "..YELLOW.."[1]"..WHITE..". Deathstalker Vincent is on the right side when you go into the courtyard."
+Inst21Quest1_HORDE_Note = "You find Deathstalker Adamant at "..YELLOW.."[1]"..WHITE..". Deathstalker Vincent is on the right side when you go into the courtyard at "..YELLOW.."[2]"..WHITE.."."
 Inst21Quest1_HORDE_Prequest = "No"
 Inst21Quest1_HORDE_Folgequest = "No"
 --
@@ -4082,7 +4083,7 @@ Inst21Quest2_HORDE_Level = "26"
 Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = "Bring the Book of Ur to Keeper Bel'dugur at the Apothecarium in the Undercity."
 Inst21Quest2_HORDE_Location = "Keeper Bel'dugur (Undercity - The Apothecarium; "..YELLOW.."53,54"..WHITE..")"
-Inst21Quest2_HORDE_Note = "You find the book at "..YELLOW.."[6]"..WHITE.." on the left side when you enter the room."
+Inst21Quest2_HORDE_Note = "You find the book at "..YELLOW.."[8]"..WHITE.." on the left side when you enter the room."
 Inst21Quest2_HORDE_Prequest = "No"
 Inst21Quest2_HORDE_Folgequest = "No"
 --
@@ -4095,7 +4096,7 @@ Inst21Quest3_HORDE_Level = "27"
 Inst21Quest3_HORDE_Attain = "18"
 Inst21Quest3_HORDE_Aim = "Kill Arugal and bring his head to Dalar Dawnweaver at the Sepulcher."
 Inst21Quest3_HORDE_Location = "Dalar Dawnweaver (Silverpine Forest - The Sepulcher; "..YELLOW.."44,39"..WHITE..")"
-Inst21Quest3_HORDE_Note = "You find Archmage Arugal at "..YELLOW.."[8]"..WHITE.."."
+Inst21Quest3_HORDE_Note = "You find Archmage Arugal at "..YELLOW.."[10]"..WHITE.."."
 Inst21Quest3_HORDE_Prequest = "No"
 Inst21Quest3_HORDE_Folgequest = "No"
 --
@@ -8938,7 +8939,7 @@ Inst63Quest3_Level = "70"
 Inst63Quest3_Attain = "70"
 Inst63Quest3_Aim = "Budd Nedreck in Hatchet Hills wants you to kill Hex Lord Malacrass in Zul'Aman."
 Inst63Quest3_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest3_Note = "Hex Lord Malacrass is at "..YELLOW.."[5]"..WHITE.."."
+Inst63Quest3_Note = "Hex Lord Malacrass is at "..YELLOW.."[6]"..WHITE.."."
 Inst63Quest3_Prequest = "Yes, X Marks... Your Doom!"
 Inst63Quest3_Folgequest = "No"
 Inst63Quest3FQuest = "true"
@@ -8962,7 +8963,7 @@ Inst63Quest5_Level = "70"
 Inst63Quest5_Attain = "70"
 Inst63Quest5_Aim = "Prigmon has tasked you with locating and assisting his cousin Zungam, somewhere within Zul'Aman."
 Inst63Quest5_Location = "Prigmon (Ghostlands - Hatchet Hills; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest5_Note = "Reportedly, Zungam is in a hut North of Malacrass, who is at "..YELLOW.."[5]"..WHITE..". After you release him, he gives you the followup quest."
+Inst63Quest5_Note = "Zungam is in a hut at "..YELLOW.."[5]"..WHITE..". After you release him, he gives you the followup quest."
 Inst63Quest5_Prequest = "Yes, Tuskin' Raiders"
 Inst63Quest5_Folgequest = "Yes, Playin' With Dolls"
 Inst63Quest5FQuest = "true"
@@ -8973,7 +8974,7 @@ Inst63Quest6 = "6. Playin' With Dolls"
 Inst63Quest6_Level = "70"
 Inst63Quest6_Attain = "70"
 Inst63Quest6_Aim = "Take the Tattered Voodoo Doll to Griftah in Shattrath City."
-Inst63Quest6_Location = "Zungam (Zul'Aman; "..YELLOW.."North of [5]"..WHITE..")"
+Inst63Quest6_Location = "Zungam (Zul'Aman; "..YELLOW.."[5]"..WHITE..")"
 Inst63Quest6_Note = "Griftah is at (Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE..")."
 Inst63Quest6_Prequest = "Yes, A Troll Among Trolls"
 Inst63Quest6_Folgequest = "No"
@@ -8986,7 +8987,7 @@ Inst63Quest7 = "7. Blood of the Warlord"
 Inst63Quest7_Level = "70"
 Inst63Quest7_Attain = "70"
 Inst63Quest7_Aim = "Bring the Blood of Zul'jin to Budd at his camp in the Ghostlands, outside Zul'Aman."
-Inst63Quest7_Location = "Blood of Zul'jin (drops from Zul'jin; "..YELLOW.."[6]"..WHITE..")"
+Inst63Quest7_Location = "Blood of Zul'jin (drops from Zul'jin; "..YELLOW.."[7]"..WHITE..")"
 Inst63Quest7_Note = "Only one person in the raid can loot this item and the quest can only be done one time."
 Inst63Quest7_Prequest = "No"
 Inst63Quest7_Folgequest = "Yes, Undercover Sister"
@@ -9272,18 +9273,344 @@ Inst65QAH = "No Quests"
 
 --------------- INST66 - Skettis ---------------
 
-Inst66Story = "Placeholder Text"
+Inst66Story = "Skettis is the hidden capital of the Arakkoa, and one of the major secrets of Terokkar Forest. It is situated in Blackwind Valley in southeastern Terokkar Forest, only accessible to players who have a flying mount or Druids who have learned Flight Form. It is made up of four veils: Veil Ala'rak, Veil Harr'ik, Lower Veil Shil'ak, and Upper Veil Shil'ak. At its center is Terokk's Rest, the site where the arakkoa lord Terokk can be summoned back into the world.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst66Caption = "Skettis"
-Inst66QAA = "No Quests yet"
-Inst66QAH = "No Quests yet"
+Inst66QAA = "13 Quests"
+Inst66QAH = "13 Quests"
+
+--Quest 1 Alliance
+Inst66Quest1 = "1. To Skettis!"
+Inst66Quest1_Level = "70"
+Inst66Quest1_Attain = "70"
+Inst66Quest1_Aim = "Take the Explosives Package to Sky Sergeant Doryn at Blackwind Landing outside Skettis."
+Inst66Quest1_Location = "Yuula (Shattrath City; "..YELLOW.."65,42"..WHITE..")"
+Inst66Quest1_Note = "The prequest is also obtained from the same NPC. Blackwind Landing is at "..YELLOW.."[1]"..WHITE.."."
+Inst66Quest1_Prequest = "Yes, Threat from Above"
+Inst66Quest1_Folgequest = "Yes, Fires Over Skettis"
+Inst66Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst66Quest2 = "2. Fires Over Skettis (Daily)"
+Inst66Quest2_Level = "70"
+Inst66Quest2_Attain = "70"
+Inst66Quest2_Aim = "Seek out Monstrous Kaliri Eggs on the tops of Skettis dwellings and use the Skyguard Blasting Charges on them. Return to Sky Sergeant Doryn."
+Inst66Quest2_Location = "Sky Sergeant Doryn (Terrokar Forest - Blackwing Landing; "..YELLOW.."65,66"..WHITE..")"
+Inst66Quest2_Note = "This quest can be completed once a day. The eggs can be bombed while on your flying mount from the air. Watch out for the Monstrous Kaliri birds flying around as they can dismount you if you aggro. The quest can be done as a group."
+Inst66Quest2_Prequest = "Yes, To Skettis!"
+Inst66Quest2_Folgequest = "No"
+Inst66Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst66Quest3 = "3. Escape from Skettis (Daily)"
+Inst66Quest3_Level = "70"
+Inst66Quest3_Attain = "70"
+Inst66Quest3_Aim = "Escort the Skyguard Prisoner to safety and report to Sky Sergeant Doryn."
+Inst66Quest3_Location = "Skyguard Prisoner (Terrokar Forest - Skettis; "..YELLOW.."[4]"..WHITE..")"
+Inst66Quest3_Note = "This quest can be completed once a day and will become available after completing 'To Skettis!'.\nThe Skyguard Prisoner randomly spawns at one of the three locations marked as "..YELLOW.."[4]"..WHITE..".  The quest can be done as a group."
+Inst66Quest3_Prequest = "No"
+Inst66Quest3_Folgequest = "No"
+--
+Inst66Quest3name1 = "Volatile Healing Potion"
+Inst66Quest3name2 = "Unstable Mana Potion"
+
+--Quest 4 Alliance
+Inst66Quest4 = "4. Hungry Nether Rays"
+Inst66Quest4_Level = "70"
+Inst66Quest4_Attain = "70"
+Inst66Quest4_Aim = "Use the Nether Ray Cage in the woods south of Blackwind Landing and slay Blackwind Warp Chasers near the Hungry Nether Ray."
+Inst66Quest4_Location = "Skyguard Handler Deesak (Terrokar Forest - Blackwing Landing; "..YELLOW.."63,66"..WHITE..")"
+Inst66Quest4_Note = "The Blackwing Warp Chasers (make sure you kill Chasers, not Stalkers) can be found along the southern edge of Skettis. The Hungry Nether Ray must be close to the Chaser when it is killed. Don't move away from the corpse until you get quest credit, it usually takes a few seconds."
+Inst66Quest4_Prequest = "No"
+Inst66Quest4_Folgequest = "No"
+--
+Inst66Quest4name1 = "Elixir of Major Agility"
+Inst66Quest4name2 = "Adept's Elixir"
+
+--Quest 5 Alliance
+Inst66Quest5 = "5. World of Shadows"
+Inst66Quest5_Level = "70"
+Inst66Quest5_Attain = "70"
+Inst66Quest5_Aim = "Severin wants you to venture into Skettis and retrieve 6 Shadow Dusts from the arakkoa that dwell there."
+Inst66Quest5_Location = "Severin (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest5_Note = "This quest is repeatable. Any of the Arakkoa can drop the Shadow Dust."
+Inst66Quest5_Prequest = "No"
+Inst66Quest5_Folgequest = "No"
+--
+Inst66Quest5name1 = "Elixir of Shadows"
+
+--Quest 6 Alliance
+Inst66Quest6 = "6. Secrets of the Talonpriests"
+Inst66Quest6_Level = "70"
+Inst66Quest6_Attain = "70"
+Inst66Quest6_Aim = "Obtain an Elixir of Shadows from Severin and use it to find and slay Talonpriest Ishaal, Talonpriest Skizzik and Talonpriest Zellek in Skettis. Return to Commander Adaris after completing this task."
+Inst66Quest6_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest6_Note = "You must complete World of Shadows to obtain the Elixir of Shadows before you can do this quest.\n\nTalonpriest Ishaal is at "..YELLOW.."[5]"..WHITE..", Talonpriest Skizzik is at "..YELLOW.."[6]"..WHITE.." and Talonpriest Zellek is at "..YELLOW.."[7]"..WHITE.."."
+Inst66Quest6_Prequest = "Yes, World of Shadows"
+Inst66Quest6_Folgequest = "No"
+Inst66Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst66Quest7 = "7. Ishaal's Almanac"
+Inst66Quest7_Level = "70"
+Inst66Quest7_Attain = "70"
+Inst66Quest7_Aim = "Bring Ishaal's Almanac to Sky Commander Adaris north of Skettis."
+Inst66Quest7_Location = "Ishaal's Almanac (drops from Talonpriest Ishaal; "..YELLOW.."[5]"..WHITE..")"
+Inst66Quest7_Note = "Sky Commander Adaris is at Terrokar Forest - Blackwing Landing ("..YELLOW.."64,66"..WHITE..")."
+Inst66Quest7_Prequest = "No"
+Inst66Quest7_Folgequest = "Yes, An Ally in Lower City"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst66Quest8 = "8. An Ally in Lower City"
+Inst66Quest8_Level = "70"
+Inst66Quest8_Attain = "70"
+Inst66Quest8_Aim = "Bring Ishaal's Almanac to Rilak the Redeemed in Lower City inside Shattrath."
+Inst66Quest8_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest8_Note = "Rilak the Redeemed is at Shattrath City - Lower City ("..YELLOW.."52,20"..WHITE..")."
+Inst66Quest8_Prequest = "Yes, Ishaal's Almanac"
+Inst66Quest8_Folgequest = "Yes, Countdown to Doom"
+Inst66Quest8FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst66Quest9 = "9. Countdown to Doom"
+Inst66Quest9_Level = "70"
+Inst66Quest9_Attain = "70"
+Inst66Quest9_Aim = "Return to Sky Commander Adaris with the news about Terokk's return."
+Inst66Quest9_Location = "Rilak the Redeemed (Shattrath City - Lower City; "..YELLOW.."52,20"..WHITE..")"
+Inst66Quest9_Note = "Sky Commander Adaris is at Terrokar Forest - Blackwing Landing ("..YELLOW.."64,66"..WHITE.."). Hazzik, who is nearby, will give you the followup quest."
+Inst66Quest9_Prequest = "Yes, An Ally in Lower City"
+Inst66Quest9_Folgequest = "Yes, Hazzik's Bargain"
+Inst66Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst66Quest10 = "10. Hazzik's Bargain"
+Inst66Quest10_Level = "70"
+Inst66Quest10_Attain = "70"
+Inst66Quest10_Aim = "Obtain Hazzik's Package at his dwelling in eastern Skettis and return to him with it."
+Inst66Quest10_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest10_Note = "Hazzik's Package is in a hut at "..YELLOW.."[8]"..WHITE.."."
+Inst66Quest10_Prequest = "Yes, Countdown to Doom"
+Inst66Quest10_Folgequest = "Yes, A Shabby Disguise"
+Inst66Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst66Quest11 = "11. A Shabby Disguise"
+Inst66Quest11_Level = "70"
+Inst66Quest11_Attain = "70"
+Inst66Quest11_Aim = "Use the Shabby Arakkoa Disguise to obtain the Adversarial Bloodlines from Sahaak and return to Hazzik."
+Inst66Quest11_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest11_Note = "Sahaak is at "..YELLOW.."[3]"..WHITE..". If any Arakkoa other than Sahaak see you with the disguise, they will attack you."
+Inst66Quest11_Prequest = "Yes, Hazzik's Bargain"
+Inst66Quest11_Folgequest = "Yes, Adversarial Blood"
+Inst66Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst66Quest12 = "12. Adversarial Blood"
+Inst66Quest12_Level = "70"
+Inst66Quest12_Attain = "70"
+Inst66Quest12_Aim = "Find the Skull Piles in the middle of the summoning circles of Skettis. Summon and defeat each of the descendants by using 10 Time-Lost Scrolls at the Skull Pile. Return to Hazzik at Blackwind Landing with a token from each."
+Inst66Quest12_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest12_Note = "The skull piles are at "..GREEN.."[1']"..WHITE..". Only one quest item per group drops for each kill. So each group member who needs the quest will need 10 Scrolls to summon the descendants for their item. The quest item is green quality, so it will have to be rolled for if group loot is on. This quest is repeatable."
+Inst66Quest12_Prequest = "Yes, A Shabby Disguise"
+Inst66Quest12_Folgequest = "No"
+Inst66Quest12FQuest = "true"
+--
+Inst66Quest12name1 = "Time-Lost Offering"
+
+--Quest 13 Alliance
+Inst66Quest13 = "13. Terokk's Downfall"
+Inst66Quest13_Level = "70"
+Inst66Quest13_Attain = "70"
+Inst66Quest13_Aim = "Take the Time-Lost Offering prepared by Hazzik to the Skull Pile at the center of Skettis and summon and defeat Terokk."
+Inst66Quest13_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest13_Note = "Terokk is summoned at "..YELLOW.."[2]"..WHITE..". Tip from fissi0nx on Wowhead:\nAt 20% Terokk becomes immune to all attacks, and you'll see a blue flare shortly afterward, where a bomb will drop down. Drag Terokk into the flame to break his shield. He'll become enraged but you'll be able to kill him."
+Inst66Quest13_Prequest = "Yes, Adversarial Blood"
+Inst66Quest13_Folgequest = "No"
+Inst66Quest13PreQuest = "true"
+--
+Inst66Quest13name1 = "Jeweled Rod"
+Inst66Quest13name2 = "Scout's Throwing Knives"
+Inst66Quest13name3 = "Severin's Cane"
+Inst66Quest13name4 = "Windcharger's Lance"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst66Quest1_HORDE = Inst66Quest1
+Inst66Quest1_HORDE_Level = Inst66Quest1_Level
+Inst66Quest1_HORDE_Attain = Inst66Quest1_Attain
+Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
+Inst66Quest1_HORDE_Location = Inst66Quest1_Location
+Inst66Quest1_HORDE_Note = Inst66Quest1_Note
+Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
+Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
+Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst66Quest2_HORDE = Inst66Quest2
+Inst66Quest2_HORDE_Level = Inst66Quest2_Level
+Inst66Quest2_HORDE_Attain = Inst66Quest2_Attain
+Inst66Quest2_HORDE_Aim = Inst66Quest2_Aim
+Inst66Quest2_HORDE_Location = Inst66Quest2_Location
+Inst66Quest2_HORDE_Note = Inst66Quest2_Note
+Inst66Quest2_HORDE_Prequest = Inst66Quest2_Prequest
+Inst66Quest2_HORDE_Folgequest = Inst66Quest2_Folgequest
+Inst66Quest2PreQuest_HORDE = Inst66Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst66Quest3_HORDE = Inst66Quest3
+Inst66Quest3_HORDE_Level = Inst66Quest3_Level
+Inst66Quest3_HORDE_Attain = Inst66Quest3_Attain
+Inst66Quest3_HORDE_Aim = Inst66Quest3_Aim
+Inst66Quest3_HORDE_Location = Inst66Quest3_Location
+Inst66Quest3_HORDE_Note = Inst66Quest3_Note
+Inst66Quest3_HORDE_Prequest = Inst66Quest3_Prequest
+Inst66Quest3_HORDE_Folgequest = Inst66Quest3_Folgequest
+--
+Inst66Quest3name1_HORDE = Inst66Quest3name1
+Inst66Quest3name2_HORDE = Inst66Quest3name2
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst66Quest4_HORDE = Inst66Quest4
+Inst66Quest4_HORDE_Level = Inst66Quest4_Level
+Inst66Quest4_HORDE_Attain = Inst66Quest4_Attain
+Inst66Quest4_HORDE_Aim = Inst66Quest4_Aim
+Inst66Quest4_HORDE_Location = Inst66Quest4_Location
+Inst66Quest4_HORDE_Note = Inst66Quest4_Note
+Inst66Quest4_HORDE_Prequest = Inst66Quest4_Prequest
+Inst66Quest4_HORDE_Folgequest = Inst66Quest4_Folgequest
+--
+Inst66Quest4name1_HORDE = Inst66Quest4name1
+Inst66Quest4name2_HORDE = Inst66Quest4name2
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst66Quest5_HORDE = Inst66Quest5
+Inst66Quest5_HORDE_Level = Inst66Quest5_Level
+Inst66Quest5_HORDE_Attain = Inst66Quest5_Attain
+Inst66Quest5_HORDE_Aim = Inst66Quest5_Aim
+Inst66Quest5_HORDE_Location = Inst66Quest5_Location
+Inst66Quest5_HORDE_Note = Inst66Quest5_Note
+Inst66Quest5_HORDE_Prequest = Inst66Quest5_Prequest
+Inst66Quest5_HORDE_Folgequest = Inst66Quest5_Folgequest
+--
+Inst66Quest5name1_HORDE = Inst66Quest5name1
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst66Quest6_HORDE = Inst66Quest6
+Inst66Quest6_HORDE_Level = Inst66Quest6_Level
+Inst66Quest6_HORDE_Attain = Inst66Quest6_Attain
+Inst66Quest6_HORDE_Aim = Inst66Quest6_Aim
+Inst66Quest6_HORDE_Location = Inst66Quest6_Location
+Inst66Quest6_HORDE_Note = Inst66Quest6_Note
+Inst66Quest6_HORDE_Prequest = Inst66Quest6_Prequest
+Inst66Quest6_HORDE_Folgequest = Inst66Quest6_Folgequest
+Inst66Quest6PreQuest_HORDE = Inst66Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst66Quest7_HORDE = Inst66Quest7
+Inst66Quest7_HORDE_Level = Inst66Quest7_Level
+Inst66Quest7_HORDE_Attain = Inst66Quest7_Attain
+Inst66Quest7_HORDE_Aim = Inst66Quest7_Aim
+Inst66Quest7_HORDE_Location = Inst66Quest7_Location
+Inst66Quest7_HORDE_Note = Inst66Quest7_Note
+Inst66Quest7_HORDE_Prequest = Inst66Quest7_Prequest
+Inst66Quest7_HORDE_Folgequest = Inst66Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst66Quest8_HORDE = Inst66Quest8
+Inst66Quest8_HORDE_Level = Inst66Quest8_Level
+Inst66Quest8_HORDE_Attain = Inst66Quest8_Attain
+Inst66Quest8_HORDE_Aim = Inst66Quest8_Aim
+Inst66Quest8_HORDE_Location = Inst66Quest8_Location
+Inst66Quest8_HORDE_Note = Inst66Quest8_Note
+Inst66Quest8_HORDE_Prequest = Inst66Quest8_Prequest
+Inst66Quest8_HORDE_Folgequest = Inst66Quest8_Folgequest
+Inst66Quest8FQuest_HORDE = Inst66Quest8FQuest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst66Quest9_HORDE = Inst66Quest9
+Inst66Quest9_HORDE_Level = Inst66Quest9_Level
+Inst66Quest9_HORDE_Attain = Inst66Quest9_Attain
+Inst66Quest9_HORDE_Aim = Inst66Quest9_Aim
+Inst66Quest9_HORDE_Location = Inst66Quest9_Location
+Inst66Quest9_HORDE_Note = Inst66Quest9_Note
+Inst66Quest9_HORDE_Prequest = Inst66Quest9_Prequest
+Inst66Quest9_HORDE_Folgequest = Inst66Quest9_Folgequest
+Inst66Quest9FQuest_HORDE = Inst66Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst66Quest10_HORDE = Inst66Quest10
+Inst66Quest10_HORDE_Level = Inst66Quest10_Level
+Inst66Quest10_HORDE_Attain = Inst66Quest10_Attain
+Inst66Quest10_HORDE_Aim = Inst66Quest10_Aim
+Inst66Quest10_HORDE_Location = Inst66Quest10_Location
+Inst66Quest10_HORDE_Note = Inst66Quest10_Note
+Inst66Quest10_HORDE_Prequest = Inst66Quest10_Prequest
+Inst66Quest10_HORDE_Folgequest = Inst66Quest10_Folgequest
+Inst66Quest10FQuest_HORDE = Inst66Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst66Quest11_HORDE = Inst66Quest11
+Inst66Quest11_HORDE_Level = Inst66Quest11_Level
+Inst66Quest11_HORDE_Attain = Inst66Quest11_Attain
+Inst66Quest11_HORDE_Aim = Inst66Quest11_Aim
+Inst66Quest11_HORDE_Location = Inst66Quest11_Location
+Inst66Quest11_HORDE_Note = Inst66Quest11_Note
+Inst66Quest11_HORDE_Prequest = Inst66Quest11_Prequest
+Inst66Quest11_HORDE_Folgequest = Inst66Quest11_Folgequest
+Inst66Quest11FQuest_HORDE = Inst66Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst66Quest12_HORDE = Inst66Quest12
+Inst66Quest12_HORDE_Level = Inst66Quest12_Level
+Inst66Quest12_HORDE_Attain = Inst66Quest12_Attain
+Inst66Quest12_HORDE_Aim = Inst66Quest12_Aim
+Inst66Quest12_HORDE_Location = Inst66Quest12_Location
+Inst66Quest12_HORDE_Note = Inst66Quest12_Note
+Inst66Quest12_HORDE_Prequest = Inst66Quest12_Prequest
+Inst66Quest12_HORDE_Folgequest = Inst66Quest12_Folgequest
+Inst66Quest12FQuest_HORDE = Inst66Quest12FQuest
+--
+Inst66Quest12name1_HORDE = Inst66Quest12name1
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst66Quest13_HORDE = Inst66Quest13
+Inst66Quest13_HORDE_Level = Inst66Quest13_Level
+Inst66Quest13_HORDE_Attain = Inst66Quest13_Attain
+Inst66Quest13_HORDE_Aim = Inst66Quest13_Aim
+Inst66Quest13_HORDE_Location = Inst66Quest13_Location
+Inst66Quest13_HORDE_Note = Inst66Quest13_Note
+Inst66Quest13_HORDE_Prequest = Inst66Quest13_Prequest
+Inst66Quest13_HORDE_Folgequest = Inst66Quest13_Folgequest
+Inst66Quest13PreQuest_HORDE = Inst66Quest13PreQuest
+Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
+--
+Inst66Quest13name1_HORDE = Inst66Quest13name1
+Inst66Quest13name2_HORDE = Inst66Quest13name2
+Inst66Quest13name3_HORDE = Inst66Quest13name3
+Inst66Quest13name4_HORDE = Inst66Quest13name4
+
 
 
 
 ---------------------------
 --- AQ Instance Numbers ---
 ---------------------------
-
-
 
 -- 1  = Deadmines (VC)
 -- 2  = Wailing Caverns (WC)
