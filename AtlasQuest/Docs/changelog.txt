@@ -12,6 +12,7 @@ Version 4.1.0
 - German translation of Burning Crusade quests from Nalumis.
 - Simplified Chinese localization updated by yeachan.
 - Added all Dungeon Daily quests.
+- Adjusted AtlasQuest button in Atlas. (suggested by Telchar)
 
 - Updates for Atlas 1.11.0:
 	- Renamed Atlas addon paths (Telchar)
