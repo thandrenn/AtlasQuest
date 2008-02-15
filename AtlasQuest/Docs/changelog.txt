@@ -19,6 +19,7 @@ Version 4.1.0
 	- Moved AtlasQuest frame
 	- Updated locations: Zul'Aman, Blackwing Lair, Shadowfang Keep
 	- Added Outdoor Raids: Skettis.
+	- Preliminary Magisters' Terrace & Sunwell Plateau support.
 
 - Fixes:
 	- Quest names were not being colored blue when CT Mod's Show Quest Level option was on. Big thanks to Denival for the fix!
