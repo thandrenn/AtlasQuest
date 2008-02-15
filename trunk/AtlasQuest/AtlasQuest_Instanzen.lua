@@ -200,6 +200,12 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulAman") then
 		AQINSTANZ = 63;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MagistersTerrace") then
+		AQINSTANZ = 67;
+
+--	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SunwellPlateau") then
+--		AQINSTANZ = 68;
+
 
 	-- Battlegrounds
 
@@ -546,3 +552,5 @@ end
 -- 64 = Doom Lord Kazzak
 -- 65 = Doomwalker
 -- 66 = Skettis
+-- 67 = Magisters' Terrace
+-- 68 = Sunwell Plateau

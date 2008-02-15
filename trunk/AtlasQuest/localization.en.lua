@@ -737,7 +737,7 @@ Inst4Quest3_HORDE_Aim = "Look for a valuable necklace within the Uldaman dig sit
 Inst4Quest3_HORDE_Location = "Dran Droffers (Orgrimmar - The Drag; "..YELLOW.."59,36"..WHITE..")"
 Inst4Quest3_HORDE_Note = "The necklace is a random drop in the instance."
 Inst4Quest3_HORDE_Prequest = "No"
-Inst4Quest3_HORDE_Folgequest = "Yes, Necklace Recovery, Take 2."
+Inst4Quest3_HORDE_Folgequest = "Yes, Necklace Recovery, Take 2"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -771,7 +771,7 @@ Inst4Quest6_HORDE_Attain = "37"
 Inst4Quest6_HORDE_Aim = "Recover all three gems and a power source for the necklace from Uldaman, and then bring them to Jarkal Mossmeld in Kargath. Jarkal believes a power source might be found on the strongest construct present in Uldaman."
 Inst4Quest6_HORDE_Location = "Jarkal Mossmeld (Badlands - Kargath; "..YELLOW.."2,46"..WHITE..")"
 Inst4Quest6_HORDE_Note = "The gems are at "..YELLOW.."[1]"..WHITE.." in a Conspicous Urn, "..YELLOW.."[8]"..WHITE.." from the Shadowforge Cache, and "..YELLOW.."[9]"..WHITE.." off Grimlok. Note that when openning the Shadowforge Cache, a few mobs will spawn an aggro you. The Shattered Necklace Power Source drops from Archaedas "..YELLOW.."[10]"..WHITE.."."
-Inst4Quest6_HORDE_Prequest = "Yes, Translating the Journal."
+Inst4Quest6_HORDE_Prequest = "Yes, Translating the Journal"
 Inst4Quest6_HORDE_Folgequest = "Yes, Deliver the Gems"
 Inst4Quest6FQuest_HORDE = "true"
 --
@@ -9108,6 +9108,24 @@ Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 
 
+--------------- INST67 - Magisters' Terrace ---------------
+
+Inst67Story = "No Data"
+Inst67Caption = "Magisters' Terrace"
+Inst67QAA = "No Quests"
+Inst67QAH = "No Quests"
+
+
+
+--------------- INST68 - Sunwell Plateau ---------------
+
+Inst68Story = "No Data"
+Inst68Caption = "Sunwell Plateau"
+Inst68QAA = "No Quests"
+Inst68QAH = "No Quests"
+
+
+
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
 ---------------------------------------------------
@@ -9678,3 +9696,5 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 64 = Doom Lord Kazzak
 -- 65 = Doomwalker
 -- 66 = Skettis
+-- 67 = Magisters' Terrace
+-- 68 = Sunwell Plateau
