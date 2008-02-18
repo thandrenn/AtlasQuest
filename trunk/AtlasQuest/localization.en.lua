@@ -123,6 +123,7 @@ AQITEM_FEET = "Feet,"
 AQITEM_WRIST = "Wrist,"
 AQITEM_HEAD = "Head,"
 AQITEM_BACK = "Back"
+AQITEM_TABARD = "Tabard"
 
 AQITEM_CLOTH = " Cloth"
 AQITEM_LEATHER = " Leather"
@@ -9136,8 +9137,30 @@ Inst68QAH = "No Quests"
 
 Inst33Story = "Long ago, before the First War, the warlock Gul'dan exiled a clan of orcs called the Frostwolves to a hidden valley deep in the heart of the Alterac Mountains. It is here in the valley's southern reaches that the Frostwolves eked out a living until the coming of Thrall.\nAfter Thrall's triumphant uniting of the clans, the Frostwolves, now led by the Orc Shaman Drek'Thar, chose to remain in the valley they had for so long called their home. In recent times, however, the relative peace of the Frostwolves has been challenged by the arrival of the Dwarven Stormpike Expedition.\nThe Stormpikes have set up residence in the valley to search for natural resources and ancient relics. Despite their intentions, the Dwarven presence has sparked heated conflict with the Frostwolf Orcs to the south, who have vowed to drive the interlopers from their lands. "
 Inst33Caption = "Alterac Valley"
-Inst33QAA = "No Quests"
-Inst33QAH = "No Quests"
+Inst33QAA = "1 Quest"
+Inst33QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst33Quest1 = "1. Call to Arms: Alterac Valley (Daily)"
+Inst33Quest1_Level = "51"
+Inst33Quest1_Attain = "51"
+Inst33Quest1_Aim = "Win an Alterac Valley battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
+Inst33Quest1_Location = "Alliance Brigadier General:\n   Shattrath: Lower City - "..YELLOW.."67,34"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83,14"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."70,91"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."59,36"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."25,55"
+Inst33Quest1_Note = "This quest can be done once a day after reaching level 51. It yields varying amounts of experience and gold based on your level."
+Inst33Quest1_Prequest = "No"
+Inst33Quest1_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst33Quest1_HORDE = "1. Call to Arms: Alterac Valley (Daily)"
+Inst33Quest1_HORDE_Level = "51"
+Inst33Quest1_HORDE_Attain = "51"
+Inst33Quest1_HORDE_Aim = "Win an Alterac Valley battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
+Inst33Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79,29"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55,78"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."59,91"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst33Quest1_HORDE_Note = "This quest can be done once a day after reaching level 51. It yields varying amounts of experience and gold based on your level."
+Inst33Quest1_HORDE_Prequest = "No"
+Inst33Quest1_HORDE_Folgequest = "No"
+-- No Rewards for this quest
 
 
 
@@ -9145,8 +9168,99 @@ Inst33QAH = "No Quests"
 
 Inst34Story = "Arathi Basin, located in Arathi Highlands, is a fast and exciting Battleground. The Basin itself is rich with resources and coveted by both the Horde and the Alliance. The Forsaken Defilers and the League of Arathor have arrived at Arathi Basin to wage war over these natural resources and claim them on behalf of their respective sides."
 Inst34Caption = "Arathi Basin"
-Inst34QAA = "No Quests"
-Inst34QAH = "No Quests"
+Inst34QAA = "2 Quests"
+Inst34QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst34Quest1 = "1. Call to Arms: Arathi Basin (Daily)"
+Inst34Quest1_Level = "20"
+Inst34Quest1_Attain = "20"
+Inst34Quest1_Aim = "Win an Arathi Basin battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
+Inst34Quest1_Location = "Alliance Brigadier General:\n   Shattrath: Lower City - "..YELLOW.."67,34"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83,14"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."70,91"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."59,36"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."25,55"
+Inst34Quest1_Note = "This quest can be done once a day after reaching level 20. It yields varying amounts of experience and gold based on your level."
+Inst34Quest1_Prequest = "No"
+Inst34Quest1_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst34Quest2 = "2. The Battle for Arathi Basin!"
+Inst34Quest2_Level = "25"
+Inst34Quest2_Attain = "25"
+Inst34Quest2_Aim = "Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe."
+Inst34Quest2_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest2_Note = "The locations to be assaulted are marked on the map as 2 through 5."
+Inst34Quest2_Prequest = "No"
+Inst34Quest2_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst34Quest3 = "3. Control Four Bases"
+Inst34Quest3_Level = "60"
+Inst34Quest3_Attain = "60"
+Inst34Quest3_Aim = "Enter Arathi Basin, capture and control four bases at the same time, and then return to Field Marshal Oslight at Refuge Pointe."
+Inst34Quest3_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest3_Note = "You need to be Friendly with the League of Arathor to get this quest."
+Inst34Quest3_Prequest = "No"
+Inst34Quest3_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst34Quest4 = "4. Control Five Bases"
+Inst34Quest4_Level = "60"
+Inst34Quest4_Attain = "60"
+Inst34Quest4_Aim = "Control 5 bases in Arathi Basin at the same time, then return to Field Marshal Oslight at Refuge Pointe."
+Inst34Quest4_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest4_Note = "You need to be Exalted with the League of Arathor to get this quest."
+Inst34Quest4_Prequest = "No"
+Inst34Quest4_Folgequest = "No"
+--
+Inst34Quest4name1 = "Arathor Battle Tabard"
+
+
+--Quest 1 Horde
+Inst34Quest1_HORDE = "1. Call to Arms: Arathi Basin (Daily)"
+Inst34Quest1_HORDE_Level = "20"
+Inst34Quest1_HORDE_Attain = "20"
+Inst34Quest1_HORDE_Aim = "Win an Arathi Basin battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
+Inst34Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79,29"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55,78"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."59,91"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst34Quest1_HORDE_Note = "This quest can be done once a day after reaching level 20. It yields varying amounts of experience and gold based on your level."
+Inst34Quest1_HORDE_Prequest = "No"
+Inst34Quest1_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst34Quest2_HORDE = "2. The Battle for Arathi Basin!"
+Inst34Quest2_HORDE_Level = "25"
+Inst34Quest2_HORDE_Attain = "25"
+Inst34Quest2_HORDE_Aim = "Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall."
+Inst34Quest2_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest2_HORDE_Note = "The locations to be assaulted are marked on the map as 1 through 4."
+Inst34Quest2_HORDE_Prequest = "No"
+Inst34Quest2_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst34Quest3_HORDE = "3. Take Four Bases"
+Inst34Quest3_HORDE_Level = "60"
+Inst34Quest3_HORDE_Attain = "60"
+Inst34Quest3_HORDE_Aim = "Hold four bases at the same time in Arathi Basin, and then return to Deathmaster Dwire in Hammerfall."
+Inst34Quest3_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest3_HORDE_Note = "You need to be Friendly with The Defilers to get this quest."
+Inst34Quest3_HORDE_Prequest = "No"
+Inst34Quest3_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst34Quest4_HORDE = "4. Take Five Bases"
+Inst34Quest4_HORDE_Level = "60"
+Inst34Quest4_HORDE_Attain = "60"
+Inst34Quest4_HORDE_Aim = "Hold five bases in Arathi Basin at the same time, then return to Deathmaster Dwire in Hammerfall."
+Inst34Quest4_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest4_HORDE_Note = "You need to be Exalted with The Defilers to get this quest."
+Inst34Quest4_HORDE_Prequest = "No"
+Inst34Quest4_HORDE_Folgequest = "No"
+--
+Inst34Quest4name1_HORDE = "Battle Tabard of the Defilers"
 
 
 
@@ -9154,8 +9268,30 @@ Inst34QAH = "No Quests"
 
 Inst35Story = "Nestled in the southern region of Ashenvale forest, Warsong Gulch is near the area where Grom Hellscream and his Orcs chopped away huge swaths of forest during the events of the Third War. Some orcs have remained in the vicinity, continuing their deforestation to fuel the Horde's expansion. They call themselves the Warsong Outriders.\nThe Night Elves, who have begun a massive push to retake the forests of Ashenvale, are now focusing their attention on ridding their land of the Outriders once and for all. And so, the Silverwing Sentinels have answered the call and sworn that they will not rest until every last Orc is defeated and cast out of Warsong Gulch. "
 Inst35Caption = "Warsong Gulch"
-Inst35QAA = "No Quests"
-Inst35QAH = "No Quests"
+Inst35QAA = "1 Quest"
+Inst35QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst35Quest1 = "1. Call to Arms: Warsong Gulch (Daily)"
+Inst35Quest1_Level = "10"
+Inst35Quest1_Attain = "10"
+Inst35Quest1_Aim = "Win a Warsong Gulch battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
+Inst35Quest1_Location = "Alliance Brigadier General:\n   Shattrath: Lower City - "..YELLOW.."67,34"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83,14"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."70,91"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."59,36"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."25,55"
+Inst35Quest1_Note = "This quest can be done once a day after reaching level 10. It yields varying amounts of experience and gold based on your level."
+Inst35Quest1_Prequest = "No"
+Inst35Quest1_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst35Quest1_HORDE = "1. Call to Arms: Warsong Gulch (Daily)"
+Inst35Quest1_HORDE_Level = "10"
+Inst35Quest1_HORDE_Attain = "10"
+Inst35Quest1_HORDE_Aim = "Win a Warsong Gulch battleground match and return to an Horde Warbringer at any Horde capital city or Shattrath."
+Inst35Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79,29"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55,78"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."59,91"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst35Quest1_HORDE_Note = "This quest can be done once a day after reaching level 10. It yields varying amounts of experience and gold based on your level."
+Inst35Quest1_HORDE_Prequest = "No"
+Inst35Quest1_HORDE_Folgequest = "No"
+-- No Rewards for this quest
 
 
 
@@ -9163,8 +9299,30 @@ Inst35QAH = "No Quests"
 
 Inst60Story = "Hovering high above the ravaged landscape of Netherstorm is the island known as Eye of the Storm. This battlefield is covted by the blood elves for its rich energy deposits - and the draenei seek to claim it due to its mysterious vessel - Tempest Keep."
 Inst60Caption = "Eye of the Storm"
-Inst60QAA = "No Quests"
-Inst60QAH = "No Quests"
+Inst60QAA = "1 Quest"
+Inst60QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst60Quest1 = "1. Call to Arms: Eye of the Storm (Daily)"
+Inst60Quest1_Level = "61"
+Inst60Quest1_Attain = "61"
+Inst60Quest1_Aim = "Win an Eye of the Storm battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
+Inst60Quest1_Location = "Alliance Brigadier General:\n   Shattrath: Lower City - "..YELLOW.."67,34"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83,14"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."70,91"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."59,36"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."25,55"
+Inst60Quest1_Note = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level."
+Inst60Quest1_Prequest = "No"
+Inst60Quest1_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst60Quest1_HORDE = "1. Call to Arms: Eye of the Storm (Daily)"
+Inst60Quest1_HORDE_Level = "61"
+Inst60Quest1_HORDE_Attain = "61"
+Inst60Quest1_HORDE_Aim = "Win an Eye of the Storm battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
+Inst60Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79,29"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55,78"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."59,91"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst60Quest1_HORDE_Note = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level."
+Inst60Quest1_HORDE_Prequest = "No"
+Inst60Quest1_HORDE_Folgequest = "No"
+-- No Rewards for this quest
 
 
 

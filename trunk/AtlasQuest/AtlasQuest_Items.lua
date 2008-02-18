@@ -6336,21 +6336,73 @@ Inst63Quest8ID1_HORDE = "29434"
 
 --------------- INST33 - Alterac Valley (AV) ---------------
 
+--Quest 1 Alliance
+Inst33Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst33Quest1Rewardtext_HORDE = AQNoReward
 
 
 
 --------------- INST34 - Arathi Basin (AB) ---------------
 
+--Quest 1 Alliance
+Inst34Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst34Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst34Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst34Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst34Quest4ITC1 = Itemc2;
+Inst34Quest4textur1 = "INV_Shirt_GuildTabard_01"
+Inst34Quest4description1 = AQITEM_TABARD
+Inst34Quest4ID1 = "20132"
+
+
+--Quest 1 Horde
+Inst34Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst34Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst34Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst34Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst34Quest4ITC1_HORDE = Itemc2;
+Inst34Quest4textur1_HORDE = "INV_Shirt_GuildTabard_01"
+Inst34Quest4description1_HORDE = AQITEM_TABARD
+Inst34Quest4ID1_HORDE = "20131"
 
 
 
 --------------- INST35 - Warsong Gulch (WSG) ---------------
 
+--Quest 1 Alliance
+Inst35Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst35Quest1Rewardtext_HORDE = AQNoReward
 
 
 
 --------------- INST60 - Eye of the Storm (EotS) ---------------
 
+--Quest 1 Alliance
+Inst60Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst60Quest1Rewardtext_HORDE = AQNoReward
 
 
 
@@ -6383,7 +6435,6 @@ Inst30Quest1ID1_HORDE = "20600"
 
 
 
-
 --------------- INST31 - Azuregos ---------------
 
 --Quest 1 Alliance
@@ -6402,7 +6453,6 @@ Inst31Quest1ITC1_HORDE = Itemc5;
 Inst31Quest1textur1_HORDE = "INV_Misc_Quiver_03"
 Inst31Quest1description1_HORDE = AQITEM_QUIVER
 Inst31Quest1ID1_HORDE = "18714"
-
 
 
 

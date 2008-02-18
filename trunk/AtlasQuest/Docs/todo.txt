@@ -5,6 +5,9 @@ ToDo List
 - Add Battlegrounds quests.
 - BUG: /aq popping up Swatter error when used for first time. From Chawgobeh.
 - Investigate adding scrollbar
+- 2.4: Add Magisters' Terrace quests
+- 2.4: Add Sunwell Plateau quests
+- 2.4: Use new function to display item icon: GetItemIcon(item)
 
 
 Cleanup Checklist:
@@ -76,6 +79,8 @@ DONE  	DONE	63 = Zul'Aman (ZA)
 N/A	N/A	64 = Doom Lord Kazzak
 N/A	N/A	65 = Doomwalker
 DONE	--	66 = Skettis
+-- 	--	67 = Magisters' Terrace
+-- 	--	68 = Sunwell Plateau
 
 
 
@@ -83,22 +88,22 @@ DONE	--	66 = Skettis
 Add Quests:
 
 
+Magisters' Terrace: (2.4 PTR)
+- Magisters' Terrace  http://www.wowhead.com/?quest=11488
+- The Scryer's Scryer  http://www.wowhead.com/?quest=11490
+- Hard to Kill  http://www.wowhead.com/?quest=11492
+
+Sunwell Plateau: (2.4 PTR)
+- Wanted: Sisters of Torment  (Daily)  http://www.wowhead.com/?quest=11500
+- Wanted: The Signet Ring of Prince Kael'thas  (Heroic Daily)  http://www.wowhead.com/?quest=11499
+
 
 Battlegrounds (from  maqjav)
 
-Arathi Basin:
-- Arathor Basic Care Package (alliance) http://www.wowhead.com/?quest=8260
-- Arathor Standard Care Package (alliance) http://www.wowhead.com/?quest=8261
-- Arathor Advanced Care Package (alliance) http://www.wowhead.com/?quest=8262
-- Control Four Bases (alliance) http://www.wowhead.com/?quest=8114
-- Control Five Bases (alliance) http://www.wowhead.com/?quest=8115
-- Defiler's Basic Care Package (horde) http://www.wowhead.com/?quest=8263
-- Defiler's Standard Care Package (horde) http://www.wowhead.com/?quest=8264
-- Defiler's Advanced Care Package (horde) http://www.wowhead.com/?quest=8265
-- Take Four Bases (horde) http://www.wowhead.com/?quest=8121
-- Take Five Bases (horde) http://www.wowhead.com/?quest=8122
-
 Alterac Valley:
+- The Battle for Alterac (horde) http://www.wowhead.com/?quest=7142
+- The Battle of Alterac (alliance) http://www.wowhead.com/?quest=7141
+
 - A Gallon of Blood (horde) http://www.wowhead.com/?quest=7385
 - Alterac Valley Graveyards (alliance) http://www.wowhead.com/?quest=7081
 - Armor Scraps (alliance) http://www.wowhead.com/?quest=7223
@@ -131,8 +136,6 @@ Alterac Valley:
 - Ram Hide Harnesses (horde) http://www.wowhead.com/?quest=7002
 - Ram Riding Harnesses (alliance) http://www.wowhead.com/?quest=7026
 - Speak with our Quartermaster (horde) http://www.wowhead.com/?quest=7123
-- The Battle for Alterac (horde) http://www.wowhead.com/?quest=7142
-- The Battle of Alterac (alliance) http://www.wowhead.com/?quest=7141
 - The Graveyards of Alterac (horde) http://www.wowhead.com/?quest=7082
 - The Quartermaster (alliance) http://www.wowhead.com/?quest=7121
 - The Sovereign Imperative (alliance) http://www.wowhead.com/?quest=7261
