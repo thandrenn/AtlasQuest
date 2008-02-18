@@ -203,8 +203,8 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MagistersTerrace") then
 		AQINSTANZ = 67;
 
---	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SunwellPlateau") then
---		AQINSTANZ = 68;
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SunwellPlateau") then
+		AQINSTANZ = 68;
 
 
 	-- Battlegrounds

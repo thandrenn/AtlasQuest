@@ -65,6 +65,15 @@ Version 4.1.0
 	- Skettis: A Shabby Disguise   (Thanks Celellach)
 	- Skettis: Adversarial Blood   (Thanks Celellach)
 	- Skettis: Terokk's Downfall   (Thanks Celellach)
+	- Call to Arms: Warsong Gulch (Daily)   (Thanks Celellach)
+	- Call to Arms: Eye of the Storm (Daily)   (Thanks Celellach)
+	- Call to Arms: Arathi Basin (Daily)   (Thanks Celellach)
+	- Call to Arms: Alterac Valley (Daily)   (Thanks Celellach)
+	- The Battle for Arathi Basin!    (Thanks Celellach)
+	- Arathi Basin: Control Four Bases   (Thanks maqjav)
+	- Arathi Basin: Control Five Bases   (Thanks maqjav)
+	- Arathi Basin: Take Four Bases   (Thanks maqjav)
+	- Arathi Basin: Take Five Bases   (Thanks maqjav)
 
 
 
