@@ -120,6 +120,7 @@ AQITEM_SHIELD = "Schild"
 AQITEM_GUN = "Schusswaffe"
 AQITEM_BOW = "Bogen"
 AQITEM_CROSSBOW = "Armbrust"
+AQITEM_THROWN = "Wurfwaffe"
 
 AQITEM_WAIST = "Taille,"
 AQITEM_SHOULDER = "Schultern,"
@@ -130,6 +131,7 @@ AQITEM_FEET = "Füße,"
 AQITEM_WRIST = "Handgelenke,"
 AQITEM_HEAD = "Kopf,"
 AQITEM_BACK = "Rücken"
+AQITEM_TABARD = "Wappenrock"
 
 AQITEM_CLOTH = " Stoff"
 AQITEM_LEATHER = " Leder"
@@ -247,7 +249,7 @@ Inst1Quest6_Attain = "20"
 Inst1Quest6_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Koredelstein und bringt alles zusammen zu Jordan Stillbrunn in Eisenschmiede."
 Inst1Quest6_Location = "Jordan Stillbrunn (Dun Morogh - Eisenschmiede Eingang; "..YELLOW.."52,36"..WHITE..")"
 Inst1Quest6_Note = "Um die Notizen zu dieser Quest zu betrachten, klicke auf "..YELLOW.."[Informationen zur Prüfung der Rechtschaffenheit]"..WHITE.."."
-Inst1Quest6_Page = {2, "Nur Paladine können diese Quest bekommen.\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."Todesminen"..WHITE.." nahe "..YELLOW.."[3]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem die Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." nahe Punkt "..YELLOW.."[B]"..WHITE.." (in den Ställen).\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man die Quest 'Suche nach dem Koredelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
+Inst1Quest6_Page = {2, "Nur Paladine können dieses Quest erhalten!\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."[Todesminen]"..WHITE.." nahe "..YELLOW.."[3]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem das Quest 'Bailors Erzlieferung'. Für dieses Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." bei "..YELLOW.."[3]"..WHITE..".\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Koredelstein' macht. Für dieses Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
 Inst1Quest6_Prequest = "Ja, Der Foliant der Ehre -> Die Prüfung der Rechtschaffenheit"
 Inst1Quest6_Folgequest = "Ja, Die Prüfung der Rechtschaffenheit"
 Inst1Quest6PreQuest = "true"
@@ -682,7 +684,6 @@ Inst4Quest14_Note = "Der Schatz befindet sich vor der Instanz. Um zu ihm zu gela
 Inst4Quest14_Prequest = "Nein"
 Inst4Quest14_Folgequest = "Nein"
 -- No Rewards for this quest
-
 
 --Quest 15 Alliance
 Inst4Quest15 = "15. Die Platinscheiben"
@@ -1343,7 +1344,7 @@ Inst6Quest2 = "2. Der Herrscher des Schwarzfels"
 Inst6Quest2_Level = "60"
 Inst6Quest2_Attain = "60"
 Inst6Quest2_Aim = "Bringt Hochlord Bolvar Drachenwill in Sturmwind den Kopf von Nefarian."
-Inst6Quest2_Location = "Kopf von Nefarian (droppt von Nefarian "..YELLOW.."[8]"..WHITE..")"
+Inst6Quest2_Location = "Kopf von Nefarian (droppt von Nefarian; "..YELLOW.."[9]"..WHITE..")"
 Inst6Quest2_Note = "Hochlord Bolvar Drachenwill befindet sich in (Sturmwind - Burg Sturmwind; "..YELLOW.."78,20"..WHITE.."). Das Folgequest schickt euch zu Feldmarschall Afrasiabi (Sturmwind - Tal der Helden; "..YELLOW.."67,72"..WHITE..") für die Belohnung."
 Inst6Quest2_Prequest = "Nein"
 Inst6Quest2_Folgequest = "Ja, Der Herrscher des Schwarzfels"
@@ -1380,7 +1381,7 @@ Inst6Quest2_HORDE = "2. Der Herrscher des Schwarzfels"
 Inst6Quest2_HORDE_Level = "60"
 Inst6Quest2_HORDE_Attain = "60"
 Inst6Quest2_HORDE_Aim = "Bringt Thrall in Orgrimmar den Kopf von Nefarian."
-Inst6Quest2_HORDE_Location = "Kopf von Nefarian (droppt von Nefarian "..YELLOW.."[8]"..WHITE..")"
+Inst6Quest2_HORDE_Location = "Kopf von Nefarian (droppt von Nefarian; "..YELLOW.."[9]"..WHITE..")"
 Inst6Quest2_HORDE_Note = "Das Folgequest schickt euch zu Hochfürst Saurfang (Orgrimmar - Tal der Stärke; "..YELLOW.."51,76"..WHITE..") für die Belohnung."
 Inst6Quest2_HORDE_Prequest = "Nein"
 Inst6Quest2_HORDE_Folgequest = "Ja, Der Herrscher des Schwarzfels"
@@ -3560,7 +3561,7 @@ Inst18Quest3_Level = "30"
 Inst18Quest3_Attain = "22"
 Inst18Quest3_Aim = "Führt Willix den Importeur aus dem Kral der Klingenhauer hinaus."
 Inst18Quest3_Location = "Willix der Importeur (Kral der Klingenhauer; "..YELLOW.."[8]"..WHITE..")"
-Inst18Quest3_Note = "Willix findet man bei "..YELLOW.."[8]"..WHITE..". Man muss ihn zum Eingang geleiten. Danach gibt man das Quest bei ihm ab."
+Inst18Quest3_Note = "Willix der Importeur muss zum Eingang der Instanz begleitet werden. Danach gibt man das Quest bei ihm ab."
 Inst18Quest3_Prequest = "Nein"
 Inst18Quest3_Folgequest = "Nein"
 --
@@ -3838,6 +3839,7 @@ Inst20Quest5_Location = "Eva Sarkhoff (Westliche Pestländer - Darrowehr; "..YEL
 Inst20Quest5_Note = "Die Veranda findet man bei "..YELLOW.."[2]"..WHITE.."."
 Inst20Quest5_Prequest = "Ja, Krastinovs Tasche der Schrecken"
 Inst20Quest5_Folgequest = "Ja, Der Mensch Ras Frostraunen"
+Inst20Quest5FQuest = "true"
 --
 Inst20Quest5name1 = "Spektrale Essenz"
 Inst20Quest5name2 = "Penelopes Rose"
@@ -4051,7 +4053,7 @@ Inst21Quest1_Attain = "20"
 Inst21Quest1_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Koredelstein und bringt alles zusammen zu Jordan Stillbrunn in Eisenschmiede."
 Inst21Quest1_Location = "Jordan Stillbrunn (Dun Morogh - Eisenschmiede Eingang; "..YELLOW.."52,36"..WHITE..")"
 Inst21Quest1_Note = "Um die Notizen zu dieser Quest zu betrachten, klicke auf "..YELLOW.."[Informationen zur Prüfung der Rechtschaffenheit]"..WHITE.."."
-Inst21Quest1_Page = {2, "Nur Paladine können diese Quest bekommen.\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."Todesminen"..WHITE.." nahe "..YELLOW.."[3]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem die Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." nahe Punkt "..YELLOW.."[B]"..WHITE.." (in den Ställen).\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man die Quest 'Suche nach dem Koredelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
+Inst21Quest1_Page = {2, "Nur Paladine können dieses Quest erhalten!\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."[Todesminen]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem das Quest 'Bailors Erzlieferung'. Für dieses Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." bei "..YELLOW.."[3]"..WHITE..".\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Koredelstein' macht. Für dieses Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
 Inst21Quest1_Prequest = "Ja, Der Foliant der Ehre -> Die Prüfung der Rechtschaffenheit"
 Inst21Quest1_Folgequest = "Ja, Die Prüfung der Rechtschaffenheit"
 Inst21Quest1PreQuest = "true"
@@ -4078,7 +4080,7 @@ Inst21Quest1_HORDE_Level = "25"
 Inst21Quest1_HORDE_Attain = "18"
 Inst21Quest1_HORDE_Aim = "Sucht die Todespirscher Adamant und Vincent."
 Inst21Quest1_HORDE_Location = "Hochexekutor Hadrec (Silberwald - Das Grabmal; "..YELLOW.."43,40"..WHITE..")"
-Inst21Quest1_HORDE_Note = "Man findet Todespirscher Adamant bei "..YELLOW.."[1]"..WHITE..". Todespirscher Vincet ist auf der rechten Seite, wenn man den Innenhof betritt."
+Inst21Quest1_HORDE_Note = "Man findet Todespirscher Adamant bei "..YELLOW.."[1]"..WHITE..". Todespirscher Vincet befindet sich auf der rechten Seite, wenn man den Innenhof betritt, bei "..YELLOW.."[2]"..WHITE.."."
 Inst21Quest1_HORDE_Prequest = "Nein"
 Inst21Quest1_HORDE_Folgequest = "Nein"
 --
@@ -4090,7 +4092,7 @@ Inst21Quest2_HORDE_Level = "26"
 Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = "Bringt dem Bewahrer Bel'dugur im Apothekarium in Unterstadt das Buch von Ur."
 Inst21Quest2_HORDE_Location = "Bewahrer Bel'dugur (Unterstadt - Das Apothekarium; "..YELLOW.."53,54"..WHITE..")"
-Inst21Quest2_HORDE_Note = "Man findet das Buch bei "..YELLOW.."[6]"..WHITE.." auf der linken Seite, wenn man den Raum betritt."
+Inst21Quest2_HORDE_Note = "Man findet das Buch bei "..YELLOW.."[8]"..WHITE.." auf der linken Seite, wenn man den Raum betritt."
 Inst21Quest2_HORDE_Prequest = "Nein"
 Inst21Quest2_HORDE_Folgequest = "Nein"
 --
@@ -4103,7 +4105,7 @@ Inst21Quest3_HORDE_Level = "27"
 Inst21Quest3_HORDE_Attain = "18"
 Inst21Quest3_HORDE_Aim = "Tötet Arugal und bringt Dalar Morgenweber in dem Grabmal seinen Kopf."
 Inst21Quest3_HORDE_Location = "Dalar Morgenweber (Silberwald - Das Grabmal; "..YELLOW.."44,39"..WHITE..")"
-Inst21Quest3_HORDE_Note = "Man findet Argual bei "..YELLOW.."[8]"..WHITE.."."
+Inst21Quest3_HORDE_Note = "Man findet Argual bei "..YELLOW.."[10]"..WHITE.."."
 Inst21Quest3_HORDE_Prequest = "Nein"
 Inst21Quest3_HORDE_Folgequest = "Nein"
 --
@@ -8948,7 +8950,7 @@ Inst63Quest3_Level = "70"
 Inst63Quest3_Attain = "70"
 Inst63Quest3_Aim = "Budd Winterhäldler in den Axthügeln möchte, dass Ihr Hexlord Malacrass in Zul'Aman tötet."
 Inst63Quest3_Location = "Budd Winterhäldler (Geisterlande - Axthügel; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest3_Note = "Hexlord Malacrass befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst63Quest3_Note = "Hexlord Malacrass befindet sich bei "..YELLOW.."[6]"..WHITE.."."
 Inst63Quest3_Prequest = "Ja, Das X markiert Euren Untergang!"
 Inst63Quest3_Folgequest = "Nein"
 Inst63Quest3FQuest = "true"
@@ -8972,7 +8974,7 @@ Inst63Quest5_Level = "70"
 Inst63Quest5_Attain = "70"
 Inst63Quest5_Aim = "Prigmon möchte, dass Ihr seinen Vetter Zungam in Zul'Aman ausfindig macht und ihm zur Seite steht."
 Inst63Quest5_Location = "Prigmon (Geisterlande - Axthügel; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest5_Note = "Angeblich ist Zungam in einer Hütte nördlich von Malacrass, welcher sich bei "..YELLOW.."[5]"..WHITE.." befindet. Nachdem du ihn befreit hast, gibt er dir die Folgequest."
+Inst63Quest5_Note = "Zungam befindet sich in einer Hütte bei "..YELLOW.."[5]"..WHITE.." befindet. Nachdem du ihn befreit hast, gibt er dir die Folgequest."
 Inst63Quest5_Prequest = "Ja, Jäger der verlorenen Hauer"
 Inst63Quest5_Folgequest = "Ja, Das Spiel mit der Puppe"
 Inst63Quest5FQuest = "true"
@@ -8983,7 +8985,7 @@ Inst63Quest6 = "6. Das Spiel mit der Puppe"
 Inst63Quest6_Level = "70"
 Inst63Quest6_Attain = "70"
 Inst63Quest6_Aim = "Bringt die zerlumpte Voodoopuppe zu Gaunah in Shattrath."
-Inst63Quest6_Location = "Zungam (Zul'Aman; "..YELLOW.."Nördlich von [5]"..WHITE..")"
+Inst63Quest6_Location = "Zungam (Zul'Aman; "..YELLOW.."[5]"..WHITE..")"
 Inst63Quest6_Note = "Gaunah befindet sich in (Shattrath - Unteres Viertel; "..YELLOW.."65,69"..WHITE..")."
 Inst63Quest6_Prequest = "Ja, Ein Troll unter Trollen"
 Inst63Quest6_Folgequest = "Nein"
@@ -8996,7 +8998,7 @@ Inst63Quest7 = "7. Blut des Kriegsherren"
 Inst63Quest7_Level = "70"
 Inst63Quest7_Attain = "70"
 Inst63Quest7_Aim = "Bringt Zul'jins Blut zu Budd bei seinem Lager in den Geisterlanden, direkt außerhalb von Zul'Aman."
-Inst63Quest7_Location = "Zul'jins Blut (droppt von Zul'jin; "..YELLOW.."[6]"..WHITE..")"
+Inst63Quest7_Location = "Zul'jins Blut (droppt von Zul'jin; "..YELLOW.."[7]"..WHITE..")"
 Inst63Quest7_Note = "Nur eine Person im Schlachtzug kann das Blut erhalten, um die Quest zu starten, und die Quest kann nur einmal ausgeführt werden."
 Inst63Quest7_Prequest = "Nein"
 Inst63Quest7_Folgequest = "Ja, Agentin mit Herz"
@@ -9117,6 +9119,24 @@ Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 
 
+--------------- INST67 - Magisters' Terrace ---------------
+
+Inst67Story = "Keine Daten"
+Inst67Caption = "Terrasse der Magister"
+Inst67QAA = "Keine Quests"
+Inst67QAH = "Keine Quests"
+
+
+
+--------------- INST68 - Sunwell Plateau ---------------
+
+Inst68Story = "Keine Daten"
+Inst68Caption = "Sonnenbrunnenplateau"
+Inst68QAA = "Keine Quests"
+Inst68QAH = "Keine Quests"
+
+
+
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
 ---------------------------------------------------
@@ -9127,8 +9147,30 @@ Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 Inst33Story = "Vor langer Zeit schickte der Hexenmeister Guldan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Guldans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen Drek'Thar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Sturmlanzen-Expedition gestört.\nDie Sturmlanzen haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen. "
 Inst33Caption = "Alteractal"
-Inst33QAA = "Keine Quests"
-Inst33QAH = "Keine Quests"
+Inst33QAA = "1 Quest"
+Inst33QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst33Quest1 = "1. Ruf zu den Waffen: Alteractal (Tagesquest)"
+Inst33Quest1_Level = "51"
+Inst33Quest1_Attain = "51"
+Inst33Quest1_Aim = "Gewinnt eine Schlacht im Alteractal und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte oder in Shattrath."
+Inst33Quest1_Location = "Brigadegeneral der Allianz:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,34"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83,14"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."70,91"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."59,36"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."25,55"
+Inst33Quest1_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 51 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst33Quest1_Prequest = "Nein"
+Inst33Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst33Quest1_HORDE = "1. Ruf zu den Waffen: Alteractal (Tagesquest)"
+Inst33Quest1_HORDE_Level = "51"
+Inst33Quest1_HORDE_Attain = "51"
+Inst33Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Alteractal und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
+Inst33Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."79,29"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."55,78"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."59,91"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst33Quest1_HORDE_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 51 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst33Quest1_HORDE_Prequest = "Nein"
+Inst33Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
@@ -9136,8 +9178,99 @@ Inst33QAH = "Keine Quests"
 
 Inst34Story = "Das Arathibecken im Arathihochland ist ein dynamisches und spannendes Schlachtfeld. Das Talbecken selbst verfügt über wertvolle Rohstoffe, um die die Allianz und die Horde erbitterte Schlachten austragen. Die Verlassenen Entweihten und der Bund von Arathor sind im Talbecken, um die Rohstoffe des Talbeckens für ihre Seite zu sichern und ihrem Gegner eine empfindliche Niederlage beizubringen."
 Inst34Caption = "Arathibecken"
-Inst34QAA = "Keine Quests"
-Inst34QAH = "Keine Quests"
+Inst34QAA = "4 Quests"
+Inst34QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst34Quest1 = "1. Ruf zu den Waffen: Arathibecken (Tagesquest)"
+Inst34Quest1_Level = "20"
+Inst34Quest1_Attain = "20"
+Inst34Quest1_Aim = "Gewinnt eine Schlacht im Arathibecken und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte oder in Shattrath."
+Inst34Quest1_Location = "Brigadegeneral der Allianz:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,34"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83,14"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."70,91"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."59,36"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."25,55"
+Inst34Quest1_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 20 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst34Quest1_Prequest = "Nein"
+Inst34Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst34Quest2 = "2. Die Schlacht um das Arathibecken!"
+Inst34Quest2_Level = "25"
+Inst34Quest2_Attain = "25"
+Inst34Quest2_Aim = "Erobert die Mine, das Sägewerk, die Schmiede und die Farm und meldet Euch anschließend bei Feldmarschall Lichtmark in der Zuflucht."
+Inst34Quest2_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest2_Note = "Die Orte die man erobern muss, sind auf der Karte mit 2 bis 5 markiert."
+Inst34Quest2_Prequest = "Nein"
+Inst34Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst34Quest3 = "3. Kontrolliert vier Stützpunkte"
+Inst34Quest3_Level = "60"
+Inst34Quest3_Attain = "60"
+Inst34Quest3_Aim = "Betretet das Arathibecken, erobert und kontrolliert gleichzeitig vier Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
+Inst34Quest3_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest3_Note = "Man muss freundlichen Ruf mit dem Bund von Arathor haben, um dieses Quest annehmen zu können."
+Inst34Quest3_Prequest = "Nein"
+Inst34Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst34Quest4 = "4. Kontrolliert fünf Stützpunkte"
+Inst34Quest4_Level = "60"
+Inst34Quest4_Attain = "60"
+Inst34Quest4_Aim = "Kontrolliert gleichzeitig fünf Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
+Inst34Quest4_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest4_Note = "Man muss ehrfürchtigen Ruf mit dem Bund von Arathor haben, um dieses Quest annehmen zu können."
+Inst34Quest4_Prequest = "Nein"
+Inst34Quest4_Folgequest = "Nein"
+--
+Inst34Quest4name1 = "Wappenrock der Arathor"
+
+
+--Quest 1 Horde
+Inst34Quest1_HORDE = "1. Ruf zu den Waffen: Arathibecken (Tagesquest)"
+Inst34Quest1_HORDE_Level = "20"
+Inst34Quest1_HORDE_Attain = "20"
+Inst34Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Arathibecken und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
+Inst34Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."79,29"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."55,78"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."59,91"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst34Quest1_HORDE_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 20 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst34Quest1_HORDE_Prequest = "Nein"
+Inst34Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst34Quest2_HORDE = "2. Die Schlacht um das Arathibecken!"
+Inst34Quest2_HORDE_Level = "25"
+Inst34Quest2_HORDE_Attain = "25"
+Inst34Quest2_HORDE_Aim = "Erobert die Mine, das Sägewerk, die Schmiede, die Farm und die Ställe und kehrt dann zu Todesmeister Dunkels in Hammerfall zurück."
+Inst34Quest2_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest2_HORDE_Note = "Die Orte die man erobern muss, sind auf der Karte mit 1 bis 4 markiert."
+Inst34Quest2_HORDE_Prequest = "Nein"
+Inst34Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst34Quest3_HORDE = "3. Erobert vier Stützpunkte"
+Inst34Quest3_HORDE_Level = "60"
+Inst34Quest3_HORDE_Attain = "60"
+Inst34Quest3_HORDE_Aim = "Haltet vier Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
+Inst34Quest3_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest3_HORDE_Note = "Man muss freundlichen Ruf mit den Entweihten haben, um dieses Quest annehmen zu können."
+Inst34Quest3_HORDE_Prequest = "Nein"
+Inst34Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst34Quest4_HORDE = "4. Erobert fünf Stützpunkte"
+Inst34Quest4_HORDE_Level = "60"
+Inst34Quest4_HORDE_Attain = "60"
+Inst34Quest4_HORDE_Aim = "Haltet fünf Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
+Inst34Quest4_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest4_HORDE_Note = "Man muss ehrfürchtigen Ruf mit den Entweihten haben, um dieses Quest annehmen zu können."
+Inst34Quest4_HORDE_Prequest = "Nein"
+Inst34Quest4_HORDE_Folgequest = "Nein"
+--
+Inst34Quest4name1_HORDE = "Wappenrock der Entweihten"
 
 
 
@@ -9145,8 +9278,30 @@ Inst34QAH = "Keine Quests"
 
 Inst35Story = "Eingebetted in das südliche Eschental ist die Warsongschlucht nahe dem Gebiet, in dem Grom Höllschrei und seine Orks während des 3. Krieges große Teile des Waldes rodeten. Einige Orks blieben in der Nähe und setzten die Arbeit fort um bei der Erweiterung der Gebiete der Horde zu helfen. Sie nennen sich selber Kriegshymnenvorhut.\nDie Nachtelfen, die eine starke Offensive begonnen haben um den Eschentalwald zurück zuerobern, konzentrieren sich jetzt darauf die Kriegshymnenvorhut für immer zu vertreiben. Die Silberschwingen-Schildwachen haben geschworen, dass sie nicht aufhören werden bis der letzte Ork besiegt ist und aus der Kriegshymnenschlucht entfernt wurde."
 Inst35Caption = "Kriegshymnenschlucht"
-Inst35QAA = "Keine Quests"
-Inst35QAH = "Keine Quests"
+Inst35QAA = "1 Quest"
+Inst35QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst35Quest1 = "1. Ruf zu den Waffen: Kriegshymnenschlucht (Tagesquest)"
+Inst35Quest1_Level = "10"
+Inst35Quest1_Attain = "10"
+Inst35Quest1_Aim = "Gewinnt eine Schlacht in der Kriegshymnenschlucht und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte oder in Shattrath."
+Inst35Quest1_Location = "Brigadegeneral der Allianz:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,34"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83,14"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."70,91"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."59,36"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."25,55"
+Inst35Quest1_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 10 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst35Quest1_Prequest = "Nein"
+Inst35Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst35Quest1_HORDE = "1. Ruf zu den Waffen: Kriegshymnenschlucht (Tagesquest)"
+Inst35Quest1_HORDE_Level = "10"
+Inst35Quest1_HORDE_Attain = "10"
+Inst35Quest1_HORDE_Aim = "Gewinnt eine Schlacht in der Kriegshymnenschlucht und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
+Inst35Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."79,29"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."55,78"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."59,91"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst35Quest1_HORDE_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 10 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst35Quest1_HORDE_Prequest = "Nein"
+Inst35Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
@@ -9154,8 +9309,30 @@ Inst35QAH = "Keine Quests"
 
 Inst60Story = "Weit über der verwüsteten Landschaft des Nethersturms schwebt die Insel, die als Auge des Sturms bekannt ist. Dieses Schlachtfeld ist von den Blutelfen wegen seiner reichen Energieablagerungen begehrt - und die Draenei versuchen es wegen ihres mysteriösen Schiffs einzufordern - Festung der Stürme."
 Inst60Caption = "Auge des Sturms"
-Inst60QAA = "Keine Quests"
-Inst60QAH = "Keine Quests"
+Inst60QAA = "1 Quest"
+Inst60QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst60Quest1 = "1. Ruf zu den Waffen: Auge des Sturms (Tagesquest)"
+Inst60Quest1_Level = "61"
+Inst60Quest1_Attain = "61"
+Inst60Quest1_Aim = "Gewinnt eine Schlacht im Auge des Sturms und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte oder in Shattrath."
+Inst60Quest1_Location = "Brigadegeneral der Allianz:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,34"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83,14"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."70,91"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."59,36"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."25,55"
+Inst60Quest1_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 61 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst60Quest1_Prequest = "Nein"
+Inst60Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst60Quest1_HORDE = "1. Ruf zu den Waffen: Auge des Sturms (Tagesquest)"
+Inst60Quest1_HORDE_Level = "61"
+Inst60Quest1_HORDE_Attain = "61"
+Inst60Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Auge des Sturms und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
+Inst60Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."79,29"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."55,78"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."59,91"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst60Quest1_HORDE_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 61 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst60Quest1_HORDE_Prequest = "Nein"
+Inst60Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
@@ -9357,3 +9534,6 @@ end
 -- 63 = Zul'Aman (ZA)
 -- 64 = Doom Lord Kazzak
 -- 65 = Doomwalker
+-- 66 = Skettis
+-- 67 = Magisters' Terrace
+-- 68 = Sunwell Plateau
