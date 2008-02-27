@@ -6279,6 +6279,7 @@ Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
 Inst39Quest8name1_HORDE = Inst39Quest9name1
 
 
+
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
 
 Inst40Story = {
@@ -7806,6 +7807,7 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 -- No Rewards for this quest
 
 
+
 --------------- INST53 - Karazhan (Kara) ---------------
 
 Inst53Story = "The decrepit tower of Karazhan once housed one of the greatest powers Azeroth has ever known: the sorcerer Medivh.\n\nSince his death, a terrible curse has pervaded the tower and the surrounding lands.\n\nThe spirits of nobles from nearby Darkshire reportedly walk its halls, suffering a fate worse than death for their curiosity.\n\nMore dangerous spirits wait within Medivh's study, for it was there that he summoned demonic entities to do his bidding.\n\nHowever, the brave and foolish are still relentlessly drawn to Karazhan, tempted by rumors of unspeakable secrets and powerful treasures.\n\nForge a group of ten stalwart heroes, and journey to the tower in Deadwind Pass - but be warned that only those who have achieved level 70 should dare enter."
@@ -9168,8 +9170,8 @@ Inst33Quest1_HORDE_Folgequest = "No"
 
 Inst34Story = "Arathi Basin, located in Arathi Highlands, is a fast and exciting Battleground. The Basin itself is rich with resources and coveted by both the Horde and the Alliance. The Forsaken Defilers and the League of Arathor have arrived at Arathi Basin to wage war over these natural resources and claim them on behalf of their respective sides."
 Inst34Caption = "Arathi Basin"
-Inst34QAA = "2 Quests"
-Inst34QAH = "2 Quests"
+Inst34QAA = "4 Quests"
+Inst34QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst34Quest1 = "1. Call to Arms: Arathi Basin (Daily)"
