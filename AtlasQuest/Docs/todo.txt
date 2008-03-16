@@ -78,7 +78,7 @@ DONE 	DONE	62 = Black Temple (BT)
 DONE  	DONE	63 = Zul'Aman (ZA)
 N/A	N/A	64 = Doom Lord Kazzak
 N/A	N/A	65 = Doomwalker
-DONE	--	66 = Skettis
+DONE	DONE	66 = Skettis
 -- 	--	67 = Magisters' Terrace
 -- 	--	68 = Sunwell Plateau
 
