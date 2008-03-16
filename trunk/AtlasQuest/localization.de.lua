@@ -9457,6 +9457,342 @@ Inst65QAA = "Keine Quests"
 Inst65QAH = "Keine Quests"
 
 
+
+--------------- INST66 - Skettis ---------------
+
+Inst66Story = "Die Himmelswache besteht aus den Kriegern der Sha'tari, die sich auf die Sicherung der Himmel über Shattrath spezialisiert haben. Und dieses Mal tragen sie den Kampf direkt zur Hauptstadt der Arakkoa, nach Skettis. Versteckt in den hohen Bergen von Terokkar und nur mit einem fliegenden Reittier erreichbar bietet Skettis neue und aufregende Inhalte für einzelne Spieler und kleine Gruppen der Stufe 70. Brandneue Quests, Endgegner für Fünfergruppen, seltene und epische Gegenstände und ein neues fliegendes Reittier erwarten alle, die sich mit Schwert oder Stab in die Schlacht wagen."
+Inst66Caption = "Skettis"
+Inst66QAA = "13 Quests"
+Inst66QAH = "13 Quests"
+
+--Quest 1 Alliance
+Inst66Quest1 = "1. Nach Skettis!"
+Inst66Quest1_Level = "70"
+Inst66Quest1_Attain = "70"
+Inst66Quest1_Aim = "Bringt das Paket mit Sprengladungen zu Himmelsoffizier Doryn beim Schattenwindlager außerhalb von Skettis."
+Inst66Quest1_Location = "Yuula (Shattrath; "..YELLOW.."65,42"..WHITE..")"
+Inst66Quest1_Note = "Das Vorquest erhält man vom selben NPC. Das Schattenwindlager befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst66Quest1_Prequest = "Ja, Bedrohung von oben"
+Inst66Quest1_Folgequest = "Ja, Feuer über Skettis"
+Inst66Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst66Quest2 = "2. Feuer über Skettis (Tagesquest)"
+Inst66Quest2_Level = "70"
+Inst66Quest2_Attain = "70"
+Inst66Quest2_Aim = "Haltet nach monströsen Kalirieiern oben in den Siedlungen von Skettis Ausschau und benutzt die Sprengladungen der Himmelswache, um sie in die Luft zu sprengen. Kehrt danach zu Himmelsoffizier Doryn zurück."
+Inst66Quest2_Location = "Himmelsoffizier Doryn (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."65,66"..WHITE..")"
+Inst66Quest2_Note = "Dieses Quest kann einmal täglich absolviert werden. Die Eier kann man während dem Fliegen mit dem Flugtier aus der Luft bombadieren. Achtet auf die Monströsen Kaliri Vögel, die herumfliegen, da sie euch vom Flugtier schmeißen, wenn ihr zu nahe kommt. Das Quest kann als Gruppe erledigt werden."
+Inst66Quest2_Prequest = "Ja, Nach Skettis!"
+Inst66Quest2_Folgequest = "Nein"
+Inst66Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst66Quest3 = "3. Flucht aus Skettis (Tagesquest)"
+Inst66Quest3_Level = "70"
+Inst66Quest3_Attain = "70"
+Inst66Quest3_Aim = "Begleitet die gefangene Himmelswache in Sicherheit und meldet Euch anschließend bei Himmelsoffizier Doryn."
+Inst66Quest3_Location = "Gefangene Himmelswache (Wälder von Terokkar - Skettis; "..YELLOW.."[4]"..WHITE..")"
+Inst66Quest3_Note = "Dieses Quest kann einmal täglich absolviert werden und ist erhältlich, sobald 'Nach Skettis!' abgeschlossen ist.\nDie Gefangene Himmelswache erscheint zufällig an einem der drei Punkte, die mit "..YELLOW.."[4]"..WHITE.." markiert sind.  Das Quest kann als Gruppe erledigt werden."
+Inst66Quest3_Prequest = "Nein"
+Inst66Quest3_Folgequest = "Nein"
+--
+Inst66Quest3name1 = "Flüchtiger Heiltrank"
+Inst66Quest3name2 = "Instabiler Manatrank"
+
+--Quest 4 Alliance
+Inst66Quest4 = "4. Hungrige Netherrochen"
+Inst66Quest4_Level = "70"
+Inst66Quest4_Attain = "70"
+Inst66Quest4_Aim = "Benutzt den Netherrochenkäfig in den Wäldern südlich des Schattenwindlagers und erlegt in der Nähe des hungrigen Netherrochens einige Schattenwindhetzer. Kehrt anschließend zu Deesak dem Tierführer der Himmelswache zurück."
+Inst66Quest4_Location = "Deesak der Tierführer der Himmelswache (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."63,66"..WHITE..")"
+Inst66Quest4_Note = "Die Schattenwindhetzer (achtet darauf Hetzer zu töten, keine Jäger) können entlang des südlichen Endes von Skettis gefunden werden. Der hungrige Netherrochen muss in der Nähe des Hetzers sein, wenn man ihn tötet. Nicht weitergehen bis angezeigt wird, dass das Quest abgeschlossen ist, es dauert normalerweise ein paar Sekunden."
+Inst66Quest4_Prequest = "Nein"
+Inst66Quest4_Folgequest = "Nein"
+--
+Inst66Quest4name1 = "Elixier der erheblichen Beweglichkeit"
+Inst66Quest4name2 = "Elixier des Adepten"
+
+--Quest 5 Alliance
+Inst66Quest5 = "5. Schattenwelt"
+Inst66Quest5_Level = "70"
+Inst66Quest5_Attain = "70"
+Inst66Quest5_Aim = "Severin möchte, dass Ihr nach Skettis reist und 6 Einheiten Schattenstaub von den dort lebenden Arakkoa sammelt."
+Inst66Quest5_Location = "Severin (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest5_Note = "Dieses Quest kann wiederholt werden. Der Schattenstaub kann von allen Arakkoa gedroppt werden."
+Inst66Quest5_Prequest = "Nein"
+Inst66Quest5_Folgequest = "Nein"
+--
+Inst66Quest5name1 = "Elixier der Schatten"
+
+--Quest 6 Alliance
+Inst66Quest6 = "6. Die Geheimnisse der Krallenpriester"
+Inst66Quest6_Level = "70"
+Inst66Quest6_Attain = "70"
+Inst66Quest6_Aim = "Beschafft Euch von Severin ein Elixier der Schatten und verwendet es, um Krallenpriester Ishaal, Krallenpriester Skizzik und Krallenpriester Zellek in Skettis ausfindig zu machen und sie zu töten. Kehrt nach Abschluss Eurer Aufgabe zu Kommandant Adaris zurück."
+Inst66Quest6_Location = "Himmelskommandant Adaris (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest6_Note = "Man muss Schattenwelt abgeschlossen haben, um das Elixier der Schatten zu erhalten, bevor man dieses Quest absolvieren kann.\n\nKrallenpriester Ishaal befindet sich bei "..YELLOW.."[5]"..WHITE..", Krallenpriester Skizzik befindet sich bei "..YELLOW.."[6]"..WHITE.." und Krallenpriester Zellek befindet sich bei "..YELLOW.."[7]"..WHITE.."."
+Inst66Quest6_Prequest = "Ja, Schattenwelt"
+Inst66Quest6_Folgequest = "Nein"
+Inst66Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst66Quest7 = "7. Ishaals Almanach"
+Inst66Quest7_Level = "70"
+Inst66Quest7_Attain = "70"
+Inst66Quest7_Aim = "Bringt Ishaals Almanach zu Himmelskommandant Adaris im Norden von Skettis."
+Inst66Quest7_Location = "Ishaals Almanach (droppt von Krallenpriester Ishaal; "..YELLOW.."[5]"..WHITE..")"
+Inst66Quest7_Note = "Himmelskommandant Adaris befindet sich in den Wäldern von Terokkar - Schattenwindlager ("..YELLOW.."64,66"..WHITE..")."
+Inst66Quest7_Prequest = "Nein"
+Inst66Quest7_Folgequest = "Ja, Ein Verbündeter im unteren Viertel"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst66Quest8 = "8. Ein Verbündeter im unteren Viertel"
+Inst66Quest8_Level = "70"
+Inst66Quest8_Attain = "70"
+Inst66Quest8_Aim = "Bringt Ishaals Almanach zu Rilak dem Erlösten im unteren Viertel in Shattrath."
+Inst66Quest8_Location = "Himmelskommandant Adaris (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest8_Note = "Rilak der Erlöste befindet sich in Shattrath - Unteres Viertel ("..YELLOW.."52,20"..WHITE..")."
+Inst66Quest8_Prequest = "Ja, Ishaals Almanach"
+Inst66Quest8_Folgequest = "Ja, Countdown des Schicksals"
+Inst66Quest8FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst66Quest9 = "9. Countdown des Schicksals"
+Inst66Quest9_Level = "70"
+Inst66Quest9_Attain = "70"
+Inst66Quest9_Aim = "Kehrt zu Himmelskommandant Adaris zurück und berichtet ihm von den Neuigkeiten über Terokks Rückkehr."
+Inst66Quest9_Location = "Rilak der Erlöste (Shattrath - Unteres Viertel; "..YELLOW.."52,20"..WHITE..")"
+Inst66Quest9_Note = "Himmelskommandant Adaris befindet sich in den Wäldern von Terokkar - Schattenwindlager ("..YELLOW.."64,66"..WHITE.."). Hazzik, der sich in der Nähe befindet, gibt euch das Folgequest."
+Inst66Quest9_Prequest = "Ja, Ein Verbündeter im unteren Viertel"
+Inst66Quest9_Folgequest = "Ja, Hazziks Handel"
+Inst66Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst66Quest10 = "10. Hazziks Handel"
+Inst66Quest10_Level = "70"
+Inst66Quest10_Attain = "70"
+Inst66Quest10_Aim = "Sucht nach Hazziks Päckchen bei seiner Behausung im östlichen Skettis und kehrt damit zu ihm zurück."
+Inst66Quest10_Location = "Hazzik (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest10_Note = "Hazziks Päckchen befindet sich in einer Hütte bei "..YELLOW.."[8]"..WHITE.."."
+Inst66Quest10_Prequest = "Ja, Countdown des Schicksals"
+Inst66Quest10_Folgequest = "Ja, Eine schäbige Verkleidung"
+Inst66Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst66Quest11 = "11. Eine schäbige Verkleidung"
+Inst66Quest11_Level = "70"
+Inst66Quest11_Attain = "70"
+Inst66Quest11_Aim = "Verwendet die schäbige Arakkoaverkleidung, um den Stammbaum der Feinde von Sahakk zu beschaffen. Kehrt anschließend zu Hazzik zurück."
+Inst66Quest11_Location = "Hazzik (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest11_Note = "Sahaak befindet sich bei "..YELLOW.."[3]"..WHITE..". Falls irgendein Arakkoa außer Sahaak euch in der Verkleidung sieht, wird er angreifen."
+Inst66Quest11_Prequest = "Ja, Hazziks Handel"
+Inst66Quest11_Folgequest = "Ja, Feindesblut"
+Inst66Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst66Quest12 = "12. Feindesblut"
+Inst66Quest12_Level = "70"
+Inst66Quest12_Attain = "70"
+Inst66Quest12_Aim = "Findet die Schädelhaufen innerhalb der Beschwörungskreise in Skettis. Beschwört und bezwingt die Nachfahren, indem Ihr 10 zeitverlorene Schriftrollen beim Schädelhaufen benutzt. Kehrt anschließend mit einem Gegenstand von jedem der Nachfahren zu Hazzik beim Schattenwindlager zurück."
+Inst66Quest12_Location = "Hazzik (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest12_Note = "Die Schädelhaufen befinden sich bei "..GREEN.."[1']"..WHITE..". Es droppt nur ein Questgegenstand pro Gruppe für jeden getöteten Nachfahren. Also benötigt jedes Gruppenmitglied, das das Quest abschließen will, 10 Schriftrollen, um die Nachfahren für den Gegenstad zu beschwören. Die Qualität des Questgegenstands ist grün, also muss darum gewürftelt werden, wenn Plündern als Gruppe aktiviert ist. Dieses Quest kann wiederholt werden."
+Inst66Quest12_Prequest = "Ja, Eine schäbige Verkleidung"
+Inst66Quest12_Folgequest = "Nein"
+Inst66Quest12FQuest = "true"
+--
+Inst66Quest12name1 = "Zeitverlorene Opfergabe"
+
+--Quest 13 Alliance
+Inst66Quest13 = "13. Terokks Fall"
+Inst66Quest13_Level = "70"
+Inst66Quest13_Attain = "70"
+Inst66Quest13_Aim = "Bringt die Zeitverlorene Opfergabe, die Hazzik angefertigt hat, zu dem Schädelhaufen im Zentrum von Skettis. Beschwört Terokk und bezwingt ihn. Habt Ihr Eure Aufgabe erfüllt, kehrt zu Himmelskommandant Adaris zurück."
+Inst66Quest13_Location = "Himmelskommandant Adaris (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest13_Note = "Terokk wird bei "..YELLOW.."[2]"..WHITE.." beschworen. Ein Tipp von fissi0nx auf Wowhead:\nBei 20% wird Terokk immun gegen alle Angriffe, und kurz danach sieht man eine blaue Flamme shortly, wo eine Bombe herabfällt. Zieht Terokk ins Feuer, um seien Schild zu brechen. Er verfällt zwar in Raserei, aber es ist wieder möglich ihn zu töten."
+Inst66Quest13_Prequest = "Ja, Feindesblut"
+Inst66Quest13_Folgequest = "Nein"
+Inst66Quest13PreQuest = "true"
+--
+Inst66Quest13name1 = "Juwelenbesetzte Rute"
+Inst66Quest13name2 = "Wurfmesser des Spähers"
+Inst66Quest13name3 = "Severins Stock"
+Inst66Quest13name4 = "Windstürmerlanze"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst66Quest1_HORDE = Inst66Quest1
+Inst66Quest1_HORDE_Level = Inst66Quest1_Level
+Inst66Quest1_HORDE_Attain = Inst66Quest1_Attain
+Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
+Inst66Quest1_HORDE_Location = Inst66Quest1_Location
+Inst66Quest1_HORDE_Note = Inst66Quest1_Note
+Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
+Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
+Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst66Quest2_HORDE = Inst66Quest2
+Inst66Quest2_HORDE_Level = Inst66Quest2_Level
+Inst66Quest2_HORDE_Attain = Inst66Quest2_Attain
+Inst66Quest2_HORDE_Aim = Inst66Quest2_Aim
+Inst66Quest2_HORDE_Location = Inst66Quest2_Location
+Inst66Quest2_HORDE_Note = Inst66Quest2_Note
+Inst66Quest2_HORDE_Prequest = Inst66Quest2_Prequest
+Inst66Quest2_HORDE_Folgequest = Inst66Quest2_Folgequest
+Inst66Quest2PreQuest_HORDE = Inst66Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst66Quest3_HORDE = Inst66Quest3
+Inst66Quest3_HORDE_Level = Inst66Quest3_Level
+Inst66Quest3_HORDE_Attain = Inst66Quest3_Attain
+Inst66Quest3_HORDE_Aim = Inst66Quest3_Aim
+Inst66Quest3_HORDE_Location = Inst66Quest3_Location
+Inst66Quest3_HORDE_Note = Inst66Quest3_Note
+Inst66Quest3_HORDE_Prequest = Inst66Quest3_Prequest
+Inst66Quest3_HORDE_Folgequest = Inst66Quest3_Folgequest
+--
+Inst66Quest3name1_HORDE = Inst66Quest3name1
+Inst66Quest3name2_HORDE = Inst66Quest3name2
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst66Quest4_HORDE = Inst66Quest4
+Inst66Quest4_HORDE_Level = Inst66Quest4_Level
+Inst66Quest4_HORDE_Attain = Inst66Quest4_Attain
+Inst66Quest4_HORDE_Aim = Inst66Quest4_Aim
+Inst66Quest4_HORDE_Location = Inst66Quest4_Location
+Inst66Quest4_HORDE_Note = Inst66Quest4_Note
+Inst66Quest4_HORDE_Prequest = Inst66Quest4_Prequest
+Inst66Quest4_HORDE_Folgequest = Inst66Quest4_Folgequest
+--
+Inst66Quest4name1_HORDE = Inst66Quest4name1
+Inst66Quest4name2_HORDE = Inst66Quest4name2
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst66Quest5_HORDE = Inst66Quest5
+Inst66Quest5_HORDE_Level = Inst66Quest5_Level
+Inst66Quest5_HORDE_Attain = Inst66Quest5_Attain
+Inst66Quest5_HORDE_Aim = Inst66Quest5_Aim
+Inst66Quest5_HORDE_Location = Inst66Quest5_Location
+Inst66Quest5_HORDE_Note = Inst66Quest5_Note
+Inst66Quest5_HORDE_Prequest = Inst66Quest5_Prequest
+Inst66Quest5_HORDE_Folgequest = Inst66Quest5_Folgequest
+--
+Inst66Quest5name1_HORDE = Inst66Quest5name1
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst66Quest6_HORDE = Inst66Quest6
+Inst66Quest6_HORDE_Level = Inst66Quest6_Level
+Inst66Quest6_HORDE_Attain = Inst66Quest6_Attain
+Inst66Quest6_HORDE_Aim = Inst66Quest6_Aim
+Inst66Quest6_HORDE_Location = Inst66Quest6_Location
+Inst66Quest6_HORDE_Note = Inst66Quest6_Note
+Inst66Quest6_HORDE_Prequest = Inst66Quest6_Prequest
+Inst66Quest6_HORDE_Folgequest = Inst66Quest6_Folgequest
+Inst66Quest6PreQuest_HORDE = Inst66Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst66Quest7_HORDE = Inst66Quest7
+Inst66Quest7_HORDE_Level = Inst66Quest7_Level
+Inst66Quest7_HORDE_Attain = Inst66Quest7_Attain
+Inst66Quest7_HORDE_Aim = Inst66Quest7_Aim
+Inst66Quest7_HORDE_Location = Inst66Quest7_Location
+Inst66Quest7_HORDE_Note = Inst66Quest7_Note
+Inst66Quest7_HORDE_Prequest = Inst66Quest7_Prequest
+Inst66Quest7_HORDE_Folgequest = Inst66Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst66Quest8_HORDE = Inst66Quest8
+Inst66Quest8_HORDE_Level = Inst66Quest8_Level
+Inst66Quest8_HORDE_Attain = Inst66Quest8_Attain
+Inst66Quest8_HORDE_Aim = Inst66Quest8_Aim
+Inst66Quest8_HORDE_Location = Inst66Quest8_Location
+Inst66Quest8_HORDE_Note = Inst66Quest8_Note
+Inst66Quest8_HORDE_Prequest = Inst66Quest8_Prequest
+Inst66Quest8_HORDE_Folgequest = Inst66Quest8_Folgequest
+Inst66Quest8FQuest_HORDE = Inst66Quest8FQuest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst66Quest9_HORDE = Inst66Quest9
+Inst66Quest9_HORDE_Level = Inst66Quest9_Level
+Inst66Quest9_HORDE_Attain = Inst66Quest9_Attain
+Inst66Quest9_HORDE_Aim = Inst66Quest9_Aim
+Inst66Quest9_HORDE_Location = Inst66Quest9_Location
+Inst66Quest9_HORDE_Note = Inst66Quest9_Note
+Inst66Quest9_HORDE_Prequest = Inst66Quest9_Prequest
+Inst66Quest9_HORDE_Folgequest = Inst66Quest9_Folgequest
+Inst66Quest9FQuest_HORDE = Inst66Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst66Quest10_HORDE = Inst66Quest10
+Inst66Quest10_HORDE_Level = Inst66Quest10_Level
+Inst66Quest10_HORDE_Attain = Inst66Quest10_Attain
+Inst66Quest10_HORDE_Aim = Inst66Quest10_Aim
+Inst66Quest10_HORDE_Location = Inst66Quest10_Location
+Inst66Quest10_HORDE_Note = Inst66Quest10_Note
+Inst66Quest10_HORDE_Prequest = Inst66Quest10_Prequest
+Inst66Quest10_HORDE_Folgequest = Inst66Quest10_Folgequest
+Inst66Quest10FQuest_HORDE = Inst66Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst66Quest11_HORDE = Inst66Quest11
+Inst66Quest11_HORDE_Level = Inst66Quest11_Level
+Inst66Quest11_HORDE_Attain = Inst66Quest11_Attain
+Inst66Quest11_HORDE_Aim = Inst66Quest11_Aim
+Inst66Quest11_HORDE_Location = Inst66Quest11_Location
+Inst66Quest11_HORDE_Note = Inst66Quest11_Note
+Inst66Quest11_HORDE_Prequest = Inst66Quest11_Prequest
+Inst66Quest11_HORDE_Folgequest = Inst66Quest11_Folgequest
+Inst66Quest11FQuest_HORDE = Inst66Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst66Quest12_HORDE = Inst66Quest12
+Inst66Quest12_HORDE_Level = Inst66Quest12_Level
+Inst66Quest12_HORDE_Attain = Inst66Quest12_Attain
+Inst66Quest12_HORDE_Aim = Inst66Quest12_Aim
+Inst66Quest12_HORDE_Location = Inst66Quest12_Location
+Inst66Quest12_HORDE_Note = Inst66Quest12_Note
+Inst66Quest12_HORDE_Prequest = Inst66Quest12_Prequest
+Inst66Quest12_HORDE_Folgequest = Inst66Quest12_Folgequest
+Inst66Quest12FQuest_HORDE = Inst66Quest12FQuest
+--
+Inst66Quest12name1_HORDE = Inst66Quest12name1
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst66Quest13_HORDE = Inst66Quest13
+Inst66Quest13_HORDE_Level = Inst66Quest13_Level
+Inst66Quest13_HORDE_Attain = Inst66Quest13_Attain
+Inst66Quest13_HORDE_Aim = Inst66Quest13_Aim
+Inst66Quest13_HORDE_Location = Inst66Quest13_Location
+Inst66Quest13_HORDE_Note = Inst66Quest13_Note
+Inst66Quest13_HORDE_Prequest = Inst66Quest13_Prequest
+Inst66Quest13_HORDE_Folgequest = Inst66Quest13_Folgequest
+Inst66Quest13PreQuest_HORDE = Inst66Quest13PreQuest
+Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
+--
+Inst66Quest13name1_HORDE = Inst66Quest13name1
+Inst66Quest13name2_HORDE = Inst66Quest13name2
+Inst66Quest13name3_HORDE = Inst66Quest13name3
+Inst66Quest13name4_HORDE = Inst66Quest13name4
+
+
 ----
 end
 ----
