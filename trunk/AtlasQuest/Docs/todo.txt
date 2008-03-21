@@ -2,12 +2,10 @@
 ToDo List
 =========
 
-- Add Battlegrounds quests.
 - BUG: /aq popping up Swatter error when used for first time. From Chawgobeh.
 - Investigate adding scrollbar
-- 2.4: Add Magisters' Terrace quests
-- 2.4: Add Sunwell Plateau quests
 - 2.4: Use new function to display item icon: GetItemIcon(item)
+- AlphaMap: Not all SM quests shown since AlphaMap doesn't split up SM maps. Blerg.
 
 
 Cleanup Checklist:
@@ -46,9 +44,9 @@ DONE	DONE	29 = Gnomeregan (Gnomer)
 DONE 	DONE	30 = Four Dragons
 DONE 	DONE	31 = Azuregos
 N/A 	N/A	32 = Highlord Kruul
--- 	--	33 = Alterac Valley (AV)
--- 	--	34 = Arathi Basin (AB)
--- 	--	35 = Warsong Gulch (WSG)
+WIP 	--	33 = Alterac Valley (AV)
+DONE 	--	34 = Arathi Basin (AB)
+DONE 	--	35 = Warsong Gulch (WSG)
 DONE	DONE	37 = HFC: Ramparts (Ramp)
 DONE	DONE	38 = HFC: Blood Furnace (BF)
 DONE	DONE	39 = HFC: Shattered Halls (SH)
@@ -79,66 +77,5 @@ DONE  	DONE	63 = Zul'Aman (ZA)
 N/A	N/A	64 = Doom Lord Kazzak
 N/A	N/A	65 = Doomwalker
 DONE	DONE	66 = Skettis
--- 	--	67 = Magisters' Terrace
+NEW 	--	67 = Magisters' Terrace
 -- 	--	68 = Sunwell Plateau
-
-
-
-
-Add Quests:
-
-
-Magisters' Terrace: (2.4 PTR)
-- Magisters' Terrace  http://www.wowhead.com/?quest=11488
-- The Scryer's Scryer  http://www.wowhead.com/?quest=11490
-- Hard to Kill  http://www.wowhead.com/?quest=11492
-
-Sunwell Plateau: (2.4 PTR)
-- Wanted: Sisters of Torment  (Daily)  http://www.wowhead.com/?quest=11500
-- Wanted: The Signet Ring of Prince Kael'thas  (Heroic Daily)  http://www.wowhead.com/?quest=11499
-
-
-Battlegrounds (from  maqjav)
-
-Alterac Valley:
-- The Battle for Alterac (horde) http://www.wowhead.com/?quest=7142
-- The Battle of Alterac (alliance) http://www.wowhead.com/?quest=7141
-
-- A Gallon of Blood (horde) http://www.wowhead.com/?quest=7385
-- Alterac Valley Graveyards (alliance) http://www.wowhead.com/?quest=7081
-- Armor Scraps (alliance) http://www.wowhead.com/?quest=7223
--- More Armor Scraps (alliance repeatable)
-- Begin the Attack! (alliance) http://www.wowhead.com/?quest=6846
-- Brotherly Love (both) 
-- Call of Air - Guse's Fleet (horde) http://www.wowhead.com/?quest=6825
-- Call of Air - Ichman's Fleet (alliance) http://www.wowhead.com/?quest=6943
-- Call of Air - Jeztor's Fleet (horde) http://www.wowhead.com/?quest=6826
-- Call of Air - Mulverick's Fleet (horde) http://www.wowhead.com/?quest=6827
-- Call of Air - Slidore's Fleet (horde) http://www.wowhead.com/?quest=6942
-- Call of Air - Vipore's Fleet (alliance) http://www.wowhead.com/?quest=6941
-- Capture a Mine (both) http://www.wowhead.com/?quest=7122
-- Coldtooth Supplies (both) http://www.wowhead.com/?quest=5893
-- Crystal Cluster (alliance) http://www.wowhead.com/?quest=7386
-- Empty Stables (both) http://www.wowhead.com/?quest=7001
-- Enemy booty (horde) http://www.wowhead.com/?quest=7224
--- More booty (horde - repeatable)
-- Fallen Sky Lords (both) http://www.wowhead.com/?quest=7301
-- Hero of the Frostwolf (horde) http://www.wowhead.com/?quest=8272
-- Hero of the Stormpike (alliance) http://www.wowhead.com/?quest=8271
-- Honored Amongst the Clan (horde) http://www.wowhead.com/?quest=7164
-- Honored Amongst the Guard (alliance) http://www.wowhead.com/?quest=7169
-- In Defense of Frostwolf (horde) http://www.wowhead.com/?quest=7241
-- Invaders of Alterac Valley (horde - maybe is old) http://www.wowhead.com/?quest=8369
-- Irondeep Supplies (both) http://www.wowhead.com/?quest=8369
-- Ivus the Forest Lord (alliance) http://www.wowhead.com/?quest=6881
-- Lokholar the Ice Lord (horde) http://www.wowhead.com/?quest=6801
-- Proving Grounds (both) http://www.wowhead.com/?quest=7161
-- Ram Hide Harnesses (horde) http://www.wowhead.com/?quest=7002
-- Ram Riding Harnesses (alliance) http://www.wowhead.com/?quest=7026
-- Speak with our Quartermaster (horde) http://www.wowhead.com/?quest=7123
-- The Graveyards of Alterac (horde) http://www.wowhead.com/?quest=7082
-- The Quartermaster (alliance) http://www.wowhead.com/?quest=7121
-- The Sovereign Imperative (alliance) http://www.wowhead.com/?quest=7261
-- Towers and bunkers (both) http://www.wowhead.com/?quest=7101
-
-

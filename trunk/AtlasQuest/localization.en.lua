@@ -37,6 +37,14 @@ local ORANGE = "|cffFF8400";
 local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 
+-- Copying some Atlas colors for use in Atlas map references. Might remove some of these if not used.
+local ATLAS_BLUE = "|cff6666ff"
+local ATLAS_GREY = "|cff999999";
+local ATLAS_GREN = "|cff66cc33";
+local ATLAS_RED = "|cffcc6666";
+local ATLAS_ORNG = "|cffcc9933";
+
+
 ---------------
 --- OPTIONS ---
 ---------------
@@ -6279,7 +6287,6 @@ Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
 Inst39Quest8name1_HORDE = Inst39Quest9name1
 
 
-
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
 
 Inst40Story = {
@@ -6442,9 +6449,9 @@ Inst42Quest2_Level = "70"
 Inst42Quest2_Attain = "67"
 Inst42Quest2_Aim = "Deliver the Orders from Lady Vashj to Ysiel Windsinger at the Cenarion Refuge in Zangarmarsh."
 Inst42Quest2_Location = "Orders from Lady Vashj (random drop from Steamvaults)"
-Inst42Quest2_Note = "Ysiel Windsinger is at Terrokar Forest - Cenarion Refuge; ("..YELLOW.."78,62"..WHITE.."). This quest enables you to turn in Coilfang Armaments for Cenarion Expedition reputation.  Coilfang Armaments are random drops and can be collected (but not turned in) before you do this quest.."
+Inst42Quest2_Note = "Ysiel Windsinger is at Terrokar Forest - Cenarion Refuge; ("..YELLOW.."78,62"..WHITE.."). The followup quest enables you to turn in Coilfang Armaments for Cenarion Expedition reputation. Coilfang Armaments are randomly dropped from Steamvaults and Serpentshrine Cavern and can be collected (but not turned in) before you do this quest. They do not bind, so they can be traded or bought from other players."
 Inst42Quest2_Prequest = "No"
-Inst42Quest2_Folgequest = "No"
+Inst42Quest2_Folgequest = "Yes, Preparing for War"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -7807,7 +7814,6 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 -- No Rewards for this quest
 
 
-
 --------------- INST53 - Karazhan (Kara) ---------------
 
 Inst53Story = "The decrepit tower of Karazhan once housed one of the greatest powers Azeroth has ever known: the sorcerer Medivh.\n\nSince his death, a terrible curse has pervaded the tower and the surrounding lands.\n\nThe spirits of nobles from nearby Darkshire reportedly walk its halls, suffering a fate worse than death for their curiosity.\n\nMore dangerous spirits wait within Medivh's study, for it was there that he summoned demonic entities to do his bidding.\n\nHowever, the brave and foolish are still relentlessly drawn to Karazhan, tempted by rumors of unspeakable secrets and powerful treasures.\n\nForge a group of ten stalwart heroes, and journey to the tower in Deadwind Pass - but be warned that only those who have achieved level 70 should dare enter."
@@ -9111,18 +9117,144 @@ Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 
 
---------------- INST67 - Magisters' Terrace ---------------
+--------------- INST67 - Magisters' Terrace (MgT) ---------------
 
-Inst67Story = "No Data"
+Inst67Story = "Magisters' Terrace is a 5-man instance located on the northeastern corner of the Isle of Quel'Danas, which will be released in Patch 2.4.0. The instance is mostly outdoors, uses the same architecture as Silvermoon and has a observatory where players can gaze at stars and look at the Sunwell to make sure everything went according to plan.\n\nThe final boss is none other than Kael'thas Sunstrider, who has survived his ordeal in Tempest Keep. However, some people believe he was indeed killed, but was resurrected by a greater power, which may explain the green crystal embedded in his chest.\n\nHalfway through the instance, a usable item known as the Scrying Orb begins a short cutscene unveiling the Sunwell Plateau raid. Following this, players meet with Kalec, the half-elf avatar of the Blue Dragon Kalecgos.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst67Caption = "Magisters' Terrace"
-Inst67QAA = "No Quests"
-Inst67QAH = "No Quests"
+Inst67QAA = "5 Quests"
+Inst67QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst67Quest1 = "1. Wanted: Sisters of Torment (Daily)"
+Inst67Quest1_Level = "70"
+Inst67Quest1_Attain = "70"
+Inst67Quest1_Aim = "Nether-Stalker Mah'duun wants you to slay 4 Sisters of Torment. Return to him in Shattrath's Lower City once you have done so in order to collect the bounty."
+Inst67Quest1_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest1_Note = "This is a daily quest."
+Inst67Quest1_Prequest = "No"
+Inst67Quest1_Folgequest = "No"
+--
+Inst67Quest1name1 = "Ethereum Prison Key"
+
+--Quest 2 Alliance
+Inst67Quest2 = "2. Wanted: The Signet Ring of Prince Kael'thas (Heroic Daily)"
+Inst67Quest2_Level = "70"
+Inst67Quest2_Attain = "70"
+Inst67Quest2_Aim = "Wind Trader Zhareem has asked you to obtain The Signet Ring of Prince Kael'thas. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst67Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPrince Kael'thas Sunstrider is at "..YELLOW.."[6]"..WHITE.."."
+Inst67Quest2_Prequest = "No"
+Inst67Quest2_Folgequest = "No"
+--
+Inst67Quest2name1 = "Badge of Justice"
+
+--Quest 3 Alliance
+Inst67Quest3 = "3. Magisters' Terrace"
+Inst67Quest3_Level = "70"
+Inst67Quest3_Attain = "70"
+Inst67Quest3_Aim = "Exarch Larethor at the Shattered Sun Staging Area wants you to search Magisters' Terrace and find Tyrith, a blood elf spy."
+Inst67Quest3_Location = "Exarch Larethor (Isle of Quel'Danas - Shattered Sun Staging Area; "..YELLOW.."??,??"..WHITE..")"
+Inst67Quest3_Note = "Tyrith is inside the instance at "..YELLOW.."[2]"..WHITE..". This questline unlocks heroic mode.\n\nThe prequest is available from either Adyen the Lightwarden (Shattrath City - Aldor Rise; "..YELLOW.."35,36"..WHITE..") or Dathris Sunstriker (Shattrath City - Scryers Tier; "..YELLOW.."55,80"..WHITE..")."
+Inst67Quest3_Prequest = "Yes, Crisis at the Sunwell or Duty Calls"
+Inst67Quest3_Folgequest = "Yes, The Scryer's Scryer"
+Inst67Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst67Quest4 = "4. The Scryer's Scryer"
+Inst67Quest4_Level = "70"
+Inst67Quest4_Attain = "70"
+Inst67Quest4_Aim = "Tyrith wants you to use the orb on the balcony in Magisters' Terrace."
+Inst67Quest4_Location = "Tyrith (Magisters' Terrace; "..YELLOW.."[2]"..WHITE..")"
+Inst67Quest4_Note = "The Scrying Orb is at "..YELLOW.."[4]"..WHITE..". After the 'movie' clip, Kalecgos will appear to start the next quest."
+Inst67Quest4_Prequest = "Yes, Magisters' Terrace"
+Inst67Quest4_Folgequest = "Yes, Hard to Kill"
+Inst67Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst67Quest5 = "5. Hard to Kill"
+Inst67Quest5_Level = "70"
+Inst67Quest5_Attain = "70"
+Inst67Quest5_Aim = "Kalecgos has asked you to defeat Kael'thas in Magisters' Terrace. You are to take Kael's head and report back to Larethor at the Shattered Sun Staging Area."
+Inst67Quest5_Location = "Kalecgos (Magisters' Terrace; "..YELLOW.."[4]"..WHITE..")"
+Inst67Quest5_Note = "Prince Kael'thas Sunstrider is at "..YELLOW.."[6]"..WHITE..". Completing this quest also enables you to do Magisters' Terrace on Heroic mode.\n\nLarethor is at (Isle of Quel'Danas - Shattered Sun Staging Area; "..YELLOW.."??,??"..WHITE..")."
+Inst67Quest5_Prequest = "Yes, The Scryer's Scryer"
+Inst67Quest5_Folgequest = "No"
+Inst67Quest5FQuest = "true"
+--
+Inst67Quest5name1 = "Bright Crimson Spinel"
+Inst67Quest5name2 = "Runed Crimson Spinel"
+Inst67Quest5name3 = "Teardrop Crimson Spinel"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst67Quest1_HORDE = Inst67Quest1
+Inst67Quest1_HORDE_Level = Inst67Quest1_Level
+Inst67Quest1_HORDE_Attain = Inst67Quest1_Attain
+Inst67Quest1_HORDE_Aim = Inst67Quest1_Aim
+Inst67Quest1_HORDE_Location = Inst67Quest1_Location
+Inst67Quest1_HORDE_Note = Inst67Quest1_Note
+Inst67Quest1_HORDE_Prequest = Inst67Quest1_Prequest
+Inst67Quest1_HORDE_Folgequest = Inst67Quest1_Folgequest
+--
+Inst67Quest1name1_HORDE = Inst67Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst67Quest2_HORDE = Inst67Quest2
+Inst67Quest2_HORDE_Level = Inst67Quest2_Level
+Inst67Quest2_HORDE_Attain = Inst67Quest2_Attain
+Inst67Quest2_HORDE_Aim = Inst67Quest2_Aim
+Inst67Quest2_HORDE_Location = Inst67Quest2_Location
+Inst67Quest2_HORDE_Note = Inst67Quest2_Note
+Inst67Quest2_HORDE_Prequest = Inst67Quest2_Prequest
+Inst67Quest2_HORDE_Folgequest = Inst67Quest2_Folgequest
+--
+Inst67Quest2name1_HORDE = Inst67Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst67Quest3_HORDE = Inst67Quest3
+Inst67Quest3_HORDE_Level = Inst67Quest3_Level
+Inst67Quest3_HORDE_Attain = Inst67Quest3_Attain
+Inst67Quest3_HORDE_Aim = Inst67Quest3_Aim
+Inst67Quest3_HORDE_Location = Inst67Quest3_Location
+Inst67Quest3_HORDE_Note = Inst67Quest3_Note
+Inst67Quest3_HORDE_Prequest = Inst67Quest3_Prequest
+Inst67Quest3_HORDE_Folgequest = Inst67Quest3_Folgequest
+Inst67Quest3PreQuest_HORDE = Inst67Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst67Quest4_HORDE = Inst67Quest4
+Inst67Quest4_HORDE_Level = Inst67Quest4_Level
+Inst67Quest4_HORDE_Attain = Inst67Quest4_Attain
+Inst67Quest4_HORDE_Aim = Inst67Quest4_Aim
+Inst67Quest4_HORDE_Location = Inst67Quest4_Location
+Inst67Quest4_HORDE_Note = Inst67Quest4_Note
+Inst67Quest4_HORDE_Prequest = Inst67Quest4_Prequest
+Inst67Quest4_HORDE_Folgequest = Inst67Quest4_Folgequest
+Inst67Quest4FQuest_HORDE = Inst67Quest4FQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst67Quest5_HORDE = Inst67Quest5
+Inst67Quest5_HORDE_Level = Inst67Quest5_Level
+Inst67Quest5_HORDE_Attain = Inst67Quest5_Attain
+Inst67Quest5_HORDE_Aim = Inst67Quest5_Aim
+Inst67Quest5_HORDE_Location = Inst67Quest5_Location
+Inst67Quest5_HORDE_Note = Inst67Quest5_Note
+Inst67Quest5_HORDE_Prequest = Inst67Quest5_Prequest
+Inst67Quest5_HORDE_Folgequest = Inst67Quest5_Folgequest
+Inst67Quest5FQuest_HORDE = Inst67Quest5FQuest
+--
+Inst67Quest5name1_HORDE = Inst67Quest5name1
+-- No Rewards for this quest
 
 
 
 --------------- INST68 - Sunwell Plateau ---------------
 
-Inst68Story = "No Data"
+Inst68Story = "The Sunwell Plateau is a raid instance located on the Isle of Quel'Danas north of Silvermoon City. Blizzard has planned for it to become the hardest raid instance in the game until the release of Wrath of the Lich King. The Sunwell Plateau is tuned for Tier 6-geared players and the gear that drops there will be additional Tier 6 items (boots, belt and bracers), and non-set epics as well. \n\nThe instance will contain both outdoor areas and building interiors, where players will find captured naaru which are the primary power source of the town, and inside the final building the Sunwell itself.\n\nThe architecture of the Sunwell Plateau will be comparable to that of Silvermoon City.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst68Caption = "Sunwell Plateau"
 Inst68QAA = "No Quests"
 Inst68QAH = "No Quests"
@@ -9137,10 +9269,37 @@ Inst68QAH = "No Quests"
 
 --------------- INST33 - Alterac Valley (AV) ---------------
 
+
+
+--[[
+
+
+******************************************************************************************
+
+
+
+
+TRANSLATERS READ THIS:
+
+The Alterac Valley section still needs a lot of work and is not finalized. 
+So I wouldn't recommend translating it just yet.
+
+
+- Thandrenn, March 21, 2008
+
+
+
+
+******************************************************************************************
+
+
+
+--]]
+
 Inst33Story = "Long ago, before the First War, the warlock Gul'dan exiled a clan of orcs called the Frostwolves to a hidden valley deep in the heart of the Alterac Mountains. It is here in the valley's southern reaches that the Frostwolves eked out a living until the coming of Thrall.\nAfter Thrall's triumphant uniting of the clans, the Frostwolves, now led by the Orc Shaman Drek'Thar, chose to remain in the valley they had for so long called their home. In recent times, however, the relative peace of the Frostwolves has been challenged by the arrival of the Dwarven Stormpike Expedition.\nThe Stormpikes have set up residence in the valley to search for natural resources and ancient relics. Despite their intentions, the Dwarven presence has sparked heated conflict with the Frostwolf Orcs to the south, who have vowed to drive the interlopers from their lands. "
 Inst33Caption = "Alterac Valley"
-Inst33QAA = "1 Quest"
-Inst33QAH = "1 Quest"
+Inst33QAA = "18 Quests"
+Inst33QAH = "18 Quests"
 
 --Quest 1 Alliance
 Inst33Quest1 = "1. Call to Arms: Alterac Valley (Daily)"
@@ -9153,16 +9312,407 @@ Inst33Quest1_Prequest = "No"
 Inst33Quest1_Folgequest = "No"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst33Quest2 = "2. The Sovereign Imperative"
+Inst33Quest2_Level = "60"
+Inst33Quest2_Attain = "51"
+Inst33Quest2_Aim = "Travel to Alterac Valley in the Hillsbrad Foothills. Outside of the entrance tunnel, find and speak with Lieutenant Haggerdin."
+Inst33Quest2_Location = "Lieutenant Rotimer (Ironforge - The Commons; "..YELLOW.."30,62"..WHITE..")"
+Inst33Quest2_Note = "Lieutenant Haggerdin is at (Alterac Mountains; "..YELLOW.."39,81"..WHITE..")."
+Inst33Quest2_Prequest = "No"
+Inst33Quest2_Folgequest = "Yes, Proving Grounds"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst33Quest3 = "3. Proving Grounds"
+Inst33Quest3_Level = "60"
+Inst33Quest3_Attain = "51"
+Inst33Quest3_Aim = "Travel to the Icewing Caverns located southwest of Dun Baldar in Alterac Valley and recover the Stormpike Banner. Return the Stormpike Banner to Lieutenant Haggerdin in the Alterac Mountains."
+Inst33Quest3_Location = "Lieutenant Haggerdin (Alterac Mountains; "..YELLOW.."39,81"..WHITE..")"
+Inst33Quest3_Note = "The Stormpike Banner is in the Icewing Cavern at "..YELLOW.."[11]"..WHITE.." on the Alterac Valley - North map. Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest, but it does yield about 9550 experience."
+Inst33Quest3_Prequest = "Yes, The Sovereign Imperative"
+Inst33Quest3_Folgequest = "No"
+Inst33Quest3FQuest = "true"
+--
+Inst33Quest3name1 = "Stormpike Insignia Rank 1"
+Inst33Quest3name2 = "The Frostwolf Artichoke"
+
+--Quest 4 Alliance
+Inst33Quest4 = "4. The Battle of Alterac"
+Inst33Quest4_Level = "60"
+Inst33Quest4_Attain = "51"
+Inst33Quest4_Aim = "Enter Alterac Valley, defeat the Horde general Drek'thar, and then return to Prospector Stonehewer in the Alterac Mountains."
+Inst33Quest4_Location = "Prospector Stonehewer (Alterac Mountains; "..YELLOW.."41,78"..WHITE..")\n(Alterac Valley - North; "..ATLAS_BLUE.."[B]"..WHITE..")"
+Inst33Quest4_Note = "Drek'thar is at (Alterac Valley - South; "..ATLAS_BLUE.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
+Inst33Quest4_Prequest = "No"
+Inst33Quest4_Folgequest = "Yes, Hero of the Stormpike"
+--
+Inst33Quest4name1 = "Bloodseeker"
+Inst33Quest4name2 = "Ice Barbed Spear"
+Inst33Quest4name3 = "Wand of Biting Cold"
+Inst33Quest4name4 = "Cold Forged Hammer"
+
+--Quest 5 Alliance
+Inst33Quest5 = "5. The Quartermaster"
+Inst33Quest5_Level = "60"
+Inst33Quest5_Attain = "51"
+Inst33Quest5_Aim = "Speak with the Stormpike Quartermaster."
+Inst33Quest5_Location = "Mountaineer Boombellow (Alterac Valley - North; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest5_Note = "The Stormpike Quartermaster is at "..YELLOW.."[7]"..WHITE.." and provides more quests."
+Inst33Quest5_Prequest = "No"
+Inst33Quest5_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst33Quest6 = "6. Coldtooth Supplies"
+Inst33Quest6_Level = "60"
+Inst33Quest6_Attain = "51"
+Inst33Quest6_Aim = "Bring 10 Coldtooth Supplies to the Alliance Quartermaster in Dun Baldar."
+Inst33Quest6_Location = "Stormpike Quartermaster (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..")"
+Inst33Quest6_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..ATLAS_RED.."[12]"..WHITE..")."
+Inst33Quest6_Prequest = "No"
+Inst33Quest6_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst33Quest7 = "7. Irondeep Supplies"
+Inst33Quest7_Level = "60"
+Inst33Quest7_Attain = "51"
+Inst33Quest7_Aim = "Bring 10 Irondeep Supplies to the Alliance Quartermaster in Dun Baldar."
+Inst33Quest7_Location = "Stormpike Quartermaster (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..")"
+Inst33Quest7_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - North; "..ATLAS_RED.."[1]"..WHITE..")."
+Inst33Quest7_Prequest = "No"
+Inst33Quest7_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst33Quest8 = "8. Armor Scraps"
+Inst33Quest8_Level = "60"
+Inst33Quest8_Attain = "51"
+Inst33Quest8_Aim = "Bring 20 Armor Scraps to Murgot Deepforge in Dun Baldar."
+Inst33Quest8_Location = "Murgot Deepforge (Alterac Valley - North; "..YELLOW.."[4]"..WHITE..")"
+Inst33Quest8_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
+Inst33Quest8_Prequest = "No"
+Inst33Quest8_Folgequest = "Yes, More Armor Scraps"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst33Quest9 = "9. Capture a Mine"
+Inst33Quest9_Level = "60"
+Inst33Quest9_Attain = "51"
+Inst33Quest9_Aim = "Capture a mine that the Stormpike does not control, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
+Inst33Quest9_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest9_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..ATLAS_RED.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..ATLAS_RED.."[12]"..WHITE..") while the Horde control it."
+Inst33Quest9_Prequest = "No"
+Inst33Quest9_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst33Quest10 = "10. Towers and Bunkers"
+Inst33Quest10_Level = "60"
+Inst33Quest10_Attain = "51"
+Inst33Quest10_Aim = "Destroy the banner at an enemy tower or bunker, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
+Inst33Quest10_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest10_Note = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted."
+Inst33Quest10_Prequest = "No"
+Inst33Quest10_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst33Quest11 = "11. Alterac Valley Graveyards"
+Inst33Quest11_Level = "60"
+Inst33Quest11_Attain = "51"
+Inst33Quest11_Aim = "Assault a graveyard, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
+Inst33Quest11_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest11_Note = "Reportedly you do not need to do anything but be near a graveyard when the Alliance assaults it. It does not need to be captured, just assaulted."
+Inst33Quest11_Prequest = "No"
+Inst33Quest11_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst33Quest12 = "12. Empty Stables"
+Inst33Quest12_Level = "60"
+Inst33Quest12_Attain = "51"
+Inst33Quest12_Aim = "Locate an Alterac Ram in Alterac Valley. Use the Stormpike Training Collar when you are near the Alterac Ram to 'tame' the beast. Once tamed, the Alterac Ram will follow you back to the Stable Master. Speak with the Stable Master to earn credit for the capture."
+Inst33Quest12_Location = "Stormpike Stable Master (Alterac Valley - North; "..YELLOW.."[6]"..WHITE..")"
+Inst33Quest12_Note = "You can find a Ram outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Stormpike Cavalry will arrive to assist in the battle."
+Inst33Quest12_Prequest = "No"
+Inst33Quest12_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst33Quest13 = "13. Ram Riding Harnesses"
+Inst33Quest13_Level = "60"
+Inst33Quest13_Attain = "51"
+Inst33Quest13_Aim = "You must strike at our enemy's base, slaying the frostwolves they use as mounts and taking their hides. Return their hides to me so that harnesses may be made for the cavalry. Go!"
+Inst33Quest13_Location = "Stormpike Ram Rider Commander (Alterac Valley - North; "..YELLOW.."[6]"..WHITE..")"
+Inst33Quest13_Note = "Frostwolves can be found in the southern area of Alterac Valley."
+Inst33Quest13_Prequest = "No"
+Inst33Quest13_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst33Quest14 = "14. Crystal Cluster"
+Inst33Quest14_Level = "60"
+Inst33Quest14_Attain = "51"
+Inst33Quest14_Aim = "There are times which you may be entrenched in battle for days or weeks on end. During those longer periods of activity you may end up collecting large clusters of the Frostwolf's storm crystals.\n\nThe Circle accepts such offerings."
+Inst33Quest14_Location = "Arch Druid Renferal (Alterac Valley - North; "..YELLOW.."[2]"..WHITE..")"
+Inst33Quest14_Note = "Reportedly it takes a total of 200 crystals to activate the druids which then go to summon Ivus the Forest Lord."
+Inst33Quest14_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - North; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to kill Horde players."
+Inst33Quest14_Prequest = "No"
+Inst33Quest14_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 15 Alliance
+Inst33Quest15 = "15. Ivus the Forest Lord"
+Inst33Quest15_Level = "60"
+Inst33Quest15_Attain = "51"
+Inst33Quest15_Aim = "The Frostwolf Clan is protected by a taint of elemental energy. Their shaman meddle in powers that will surely destroy us all if left unchecked.\n\nThe Frostwolf soldiers carry elemental charms called storm crystals. We can use the charms to conjure Ivus. Venture forth and claim the crystals."
+Inst33Quest15_Location = "Arch Druid Renferal (Alterac Valley - North; "..YELLOW.."[2]"..WHITE..")"
+Inst33Quest15_Note = "Reportedly it takes 10 people to assist the Druids summoning Ivus."
+Inst33Quest15_Prequest = "No"
+Inst33Quest15_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 16 Alliance
+Inst33Quest16 = "16. Call of Air - Vipore's Fleet"
+Inst33Quest16_Level = "60"
+Inst33Quest16_Attain = "51"
+Inst33Quest16_Aim = "The elite Frostwolf units that guard the lines must be dealt with, soldier! I'm tasking you with thinning out that herd of savages. Return to me with medals from their lieutenants and legionnaires. When I feel that enough of the riff-raff has been dealt with, I'll deploy the air strike."
+Inst33Quest16_Location = "Wing Commander Vipore (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest16_Note = "No info."
+Inst33Quest16_Prequest = "No"
+Inst33Quest16_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 17 Alliance
+Inst33Quest17 = "17. Call of Air - Slidore's Fleet"
+Inst33Quest17_Level = "60"
+Inst33Quest17_Attain = "51"
+Inst33Quest17_Aim = "My gryphons are poised to strike at the front lines but cannot make the attack until the lines are thinned out.\n\nThe Frostwolf warriors charged with holding the front lines wear medals of service proudly upon their chests. Rip those medals off their rotten corpses and bring them back here.\n\nOnce the front line is sufficiently thinned out, I will make the call to air! Death from above!"
+Inst33Quest17_Location = "Wing Commander Slidore (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest17_Note = "No info."
+Inst33Quest17_Prequest = "No"
+Inst33Quest17_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 18 Alliance
+Inst33Quest18 = "18. Call of Air - Ichman's Fleet"
+Inst33Quest18_Level = "60"
+Inst33Quest18_Attain = "51"
+Inst33Quest18_Aim = "Return to the battlefield and strike at the heart of the Frostwolf's command. Take down their commanders and guardians. Return to me with as many of their medals as you can stuff in your pack! I promise you, when my gryphons see the bounty and smell the blood of our enemies, they will fly again! Go now!"
+Inst33Quest18_Location = "Wing Commander Ichman (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest18_Note = "After turning in 50 Frostwolf Commander's Medals, Wing Commander Ichman will either send a gryphon to attack the Horde base or give you a beacon to plant in the Snowfall Graveyard. If the beacon is protected long enough a gryphon will come to defend it."
+Inst33Quest18_Prequest = "No"
+Inst33Quest18_Folgequest = "No"
+-- No Rewards for this quest
+
+
 --Quest 1 Horde
 Inst33Quest1_HORDE = "1. Call to Arms: Alterac Valley (Daily)"
 Inst33Quest1_HORDE_Level = "51"
 Inst33Quest1_HORDE_Attain = "51"
 Inst33Quest1_HORDE_Aim = "Win an Alterac Valley battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst33Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79,29"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55,78"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."59,91"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst33Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
 Inst33Quest1_HORDE_Note = "This quest can be done once a day after reaching level 51. It yields varying amounts of experience and gold based on your level."
 Inst33Quest1_HORDE_Prequest = "No"
 Inst33Quest1_HORDE_Folgequest = "No"
 -- No Rewards for this quest
+
+--Quest 2 Horde
+Inst33Quest2_HORDE = "2. In Defense of Frostwolf"
+Inst33Quest2_HORDE_Level = "60"
+Inst33Quest2_HORDE_Attain = "51"
+Inst33Quest2_HORDE_Aim = "Venture to Alterac Valley, located in the Alterac Mountains. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alterac Valley north of Tarren Mill at the base of the Alterac Mountains."
+Inst33Quest2_HORDE_Location = "Frostwolf Ambassador Rokhstrom (Orgrimmar - Valley of Strength "..YELLOW.."50,71"..WHITE..")"
+Inst33Quest2_HORDE_Note = "Warmaster Laggrond is at (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")."
+Inst33Quest2_HORDE_Prequest = "No"
+Inst33Quest2_HORDE_Folgequest = "Yes, Proving Grounds"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst33Quest3_HORDE = "3. Proving Grounds"
+Inst33Quest3_HORDE_Level = "60"
+Inst33Quest3_HORDE_Attain = "51"
+Inst33Quest3_HORDE_Aim = "Travel to the Wildpaw cavern located southeast of the main base in Alterac Valley and find the Frostwolf Banner. Return the Frostwolf Banner to Warmaster Laggrond."
+Inst33Quest3_HORDE_Location = "Warmaster Laggrond (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")"
+Inst33Quest3_HORDE_Note = "The Frostwolf Banner is in the Wildpaw Cavern at (Alterac Valley - South; "..YELLOW.."[9]"..WHITE.."). Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest, but it does yield about 9550 experience."
+Inst33Quest3_HORDE_Prequest = "Yes, In Defense of Frostwolf"
+Inst33Quest3_HORDE_Folgequest = "No"
+Inst33Quest3FQuest_HORDE = "true"
+--
+Inst33Quest3name1_HORDE = "Frostwolf Insignia Rank 1"
+Inst33Quest3name2_HORDE = "Peeling the Onion"
+
+--Quest 4 Horde
+Inst33Quest4_HORDE = "4. The Battle for Alterac"
+Inst33Quest4_HORDE_Level = "60"
+Inst33Quest4_HORDE_Attain = "51"
+Inst33Quest4_HORDE_Aim = "Enter Alterac Valley and defeat the dwarven general, Vanndar Stormpike. Then, return to Voggah Deathgrip in the Alterac Mountains."
+Inst33Quest4_HORDE_Location = "Voggah Deathgrip (Alterac Mountains; "..YELLOW.."63,60"..WHITE..")"
+Inst33Quest4_HORDE_Note = "Vanndar Stormpike is at "..ATLAS_BLUE.."[B]"..WHITE.." on the Alterac Valley - North map. He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
+Inst33Quest4_HORDE_Prequest = "No"
+Inst33Quest4_HORDE_Folgequest = "Yes, Hero of the Frostwolf"
+--
+Inst33Quest4name1_HORDE = "Bloodseeker"
+Inst33Quest4name2_HORDE = "Ice Barbed Spear"
+Inst33Quest4name3_HORDE = "Wand of Biting Cold"
+Inst33Quest4name4_HORDE = "Cold Forged Hammer"
+
+--Quest 5 Horde
+Inst33Quest5_HORDE = "5. Speak with our Quartermaster"
+Inst33Quest5_HORDE_Level = "60"
+Inst33Quest5_HORDE_Attain = "51"
+Inst33Quest5_HORDE_Aim = "Speak with the Frostwolf Quartermaster."
+Inst33Quest5_HORDE_Location = "Jotek (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest5_HORDE_Note = "The Frostwolf Quartermaster is at "..YELLOW.."[??]"..WHITE.." and provides more quests."
+Inst33Quest5_HORDE_Prequest = "No"
+Inst33Quest5_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst33Quest6_HORDE = "6. Coldtooth Supplies"
+Inst33Quest6_HORDE_Level = "60"
+Inst33Quest6_HORDE_Attain = "51"
+Inst33Quest6_HORDE_Aim = "Bring 10 Coldtooth Supplies to the Horde Quatermaster in Frostwolf Keep."
+Inst33Quest6_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest6_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..ATLAS_RED.."[12]"..WHITE..")."
+Inst33Quest6_HORDE_Prequest = "No"
+Inst33Quest6_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst33Quest7_HORDE = "7. Irondeep Supplies"
+Inst33Quest7_HORDE_Level = "60"
+Inst33Quest7_HORDE_Attain = "51"
+Inst33Quest7_HORDE_Aim = "Bring 10 Irondeep Supplies to the Horde Quartermaster in Frostwolf Keep."
+Inst33Quest7_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest7_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - North; "..ATLAS_RED.."[1]"..WHITE..")."
+Inst33Quest7_HORDE_Prequest = "No"
+Inst33Quest7_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 8 Horde
+Inst33Quest8_HORDE = "8. Enemy Booty"
+Inst33Quest8_HORDE_Level = "60"
+Inst33Quest8_HORDE_Attain = "51"
+Inst33Quest8_HORDE_Aim = "Bring 20 Armor Scraps to Smith Regzar in Frostwolf Village."
+Inst33Quest8_HORDE_Location = "Smith Regzar (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest8_HORDE_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
+Inst33Quest8_HORDE_Prequest = "No"
+Inst33Quest8_HORDE_Folgequest = "Yes, More Booty!"
+-- No Rewards for this quest
+
+--Quest 9 Horde
+Inst33Quest9_HORDE = "9. Capture a Mine"
+Inst33Quest9_HORDE_Level = "60"
+Inst33Quest9_HORDE_Attain = "51"
+Inst33Quest9_HORDE_Aim = "Capture a mine, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
+Inst33Quest9_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest9_HORDE_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..ATLAS_RED.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..ATLAS_RED.."[12]"..WHITE..") while the Alliance control it."
+Inst33Quest9_HORDE_Prequest = "No"
+Inst33Quest9_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 10 Horde
+Inst33Quest10_HORDE = "10. Towers and Bunkers"
+Inst33Quest10_HORDE_Level = "60"
+Inst33Quest10_HORDE_Attain = "51"
+Inst33Quest10_HORDE_Aim = "Capture an enemy tower, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
+Inst33Quest10_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest10_HORDE_Note = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted."
+Inst33Quest10_HORDE_Prequest = "No"
+Inst33Quest10_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 11 Horde
+Inst33Quest11_HORDE = "11. The Graveyards of Alterac"
+Inst33Quest11_HORDE_Level = "60"
+Inst33Quest11_HORDE_Attain = "51"
+Inst33Quest11_HORDE_Aim = "Assault a graveyard, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
+Inst33Quest11_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest11_HORDE_Note = "Reportedly you do not need to do anything but be near a graveyard when the Horde assaults it. It does not need to be captured, just assaulted."
+Inst33Quest11_HORDE_Prequest = "No"
+Inst33Quest11_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 12 Horde
+Inst33Quest12_HORDE = "12. Empty Stables"
+Inst33Quest12_HORDE_Level = "60"
+Inst33Quest12_HORDE_Attain = "51"
+Inst33Quest12_HORDE_Aim = "Locate a Frostwolf in Alterac Valley. Use the Frostwolf Muzzle when you are near the Frostwolf to 'tame' the beast. Once tamed, the Frostwolf will follow you back to the Frostwolf Stable Master. Speak with the Frostwolf Stable Master to earn credit for the capture."
+Inst33Quest12_HORDE_Location = "Frostwolf Stable Master (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest12_HORDE_Note = "You can find a Frostwolf outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Frostwolf Cavalry will arrive to assist in the battle."
+Inst33Quest12_HORDE_Prequest = "No"
+Inst33Quest12_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 13 Horde
+Inst33Quest13_HORDE = "13. Ram Hide Harnesses"
+Inst33Quest13_HORDE_Level = "60"
+Inst33Quest13_HORDE_Attain = "51"
+Inst33Quest13_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
+Inst33Quest13_HORDE_Location = "Frostwolf Wolf Rider Commander (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest13_HORDE_Note = "The Rams can be found in the northern area of Alterac Valley."
+Inst33Quest13_HORDE_Prequest = "No"
+Inst33Quest13_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 14 Horde
+Inst33Quest14_HORDE = "14. A Gallon of Blood"
+Inst33Quest14_HORDE_Level = "60"
+Inst33Quest14_HORDE_Attain = "51"
+Inst33Quest14_HORDE_Aim = "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings."
+Inst33Quest14_HORDE_Location = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest14_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[14]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
+Inst33Quest14_HORDE_Prequest = "No"
+Inst33Quest14_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 15 Horde
+Inst33Quest15_HORDE = "15. Lokholar the Ice Lord"
+Inst33Quest15_HORDE_Level = "60"
+Inst33Quest15_HORDE_Attain = "51"
+Inst33Quest15_HORDE_Aim = "You must strike down our enemies and bring to me their blood. Once enough blood has been gathered, the ritual of summoning may begin.\n\nVictory will be assured when the elemental lord is loosed upon the Stormpike army."
+Inst33Quest15_HORDE_Location = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest15_HORDE_Note = "Reportedly it takes 10 people to assist the summoners."
+Inst33Quest15_HORDE_Prequest = "No"
+Inst33Quest15_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 16 Horde
+Inst33Quest16_HORDE = "16. Call of Air - Guse's Fleet"
+Inst33Quest16_HORDE_Level = "60"
+Inst33Quest16_HORDE_Attain = "51"
+Inst33Quest16_HORDE_Aim = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!"
+Inst33Quest16_HORDE_Location = "Wing Commander Guse (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest16_HORDE_Note = "Reportedly 90 flesh are needed to make the Wing Commander do whatever she does."
+Inst33Quest16_HORDE_Prequest = "No"
+Inst33Quest16_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 17 Horde
+Inst33Quest17_HORDE = "17. Call of Air - Jeztor's Fleet"
+Inst33Quest17_HORDE_Level = "60"
+Inst33Quest17_HORDE_Attain = "51"
+Inst33Quest17_HORDE_Aim = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Lieutenants."
+Inst33Quest17_HORDE_Location = "Wing Commander Jeztor (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest17_HORDE_Note = "No info."
+Inst33Quest17_HORDE_Prequest = "No"
+Inst33Quest17_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 18 Horde
+Inst33Quest18_HORDE = "18. Call of Air - Mulverick's Fleet"
+Inst33Quest18_HORDE_Level = "60"
+Inst33Quest18_HORDE_Attain = "51"
+Inst33Quest18_HORDE_Aim = "First, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you."
+Inst33Quest18_HORDE_Location = "Wing Commander Mulverick (Alterac Valley - South; "..YELLOW.."[??]"..WHITE..")"
+Inst33Quest18_HORDE_Note = "No info."
+Inst33Quest18_HORDE_Prequest = "No"
+Inst33Quest18_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
 
 
 
@@ -9224,7 +9774,7 @@ Inst34Quest1_HORDE = "1. Call to Arms: Arathi Basin (Daily)"
 Inst34Quest1_HORDE_Level = "20"
 Inst34Quest1_HORDE_Attain = "20"
 Inst34Quest1_HORDE_Aim = "Win an Arathi Basin battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst34Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79,29"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55,78"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."59,91"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst34Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
 Inst34Quest1_HORDE_Note = "This quest can be done once a day after reaching level 20. It yields varying amounts of experience and gold based on your level."
 Inst34Quest1_HORDE_Prequest = "No"
 Inst34Quest1_HORDE_Folgequest = "No"
@@ -9289,7 +9839,7 @@ Inst35Quest1_HORDE = "1. Call to Arms: Warsong Gulch (Daily)"
 Inst35Quest1_HORDE_Level = "10"
 Inst35Quest1_HORDE_Attain = "10"
 Inst35Quest1_HORDE_Aim = "Win a Warsong Gulch battleground match and return to an Horde Warbringer at any Horde capital city or Shattrath."
-Inst35Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79,29"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55,78"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."59,91"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst35Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
 Inst35Quest1_HORDE_Note = "This quest can be done once a day after reaching level 10. It yields varying amounts of experience and gold based on your level."
 Inst35Quest1_HORDE_Prequest = "No"
 Inst35Quest1_HORDE_Folgequest = "No"
@@ -9320,7 +9870,7 @@ Inst60Quest1_HORDE = "1. Call to Arms: Eye of the Storm (Daily)"
 Inst60Quest1_HORDE_Level = "61"
 Inst60Quest1_HORDE_Attain = "61"
 Inst60Quest1_HORDE_Aim = "Win an Eye of the Storm battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst60Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79,29"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55,78"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."59,91"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst60Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
 Inst60Quest1_HORDE_Note = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level."
 Inst60Quest1_HORDE_Prequest = "No"
 Inst60Quest1_HORDE_Folgequest = "No"
