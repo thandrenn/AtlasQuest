@@ -6317,12 +6317,74 @@ Inst63Quest8ID1_HORDE = "29434"
 
 
 
---------------- INST67 - Magisters' Terrace (ZA) ---------------
+--------------- INST67 - Magisters' Terrace (MgT) ---------------
+
+--Quest 1 Alliance
+Inst67Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst67Quest1ITC1 = Itemc3;
+Inst67Quest1textur1 = "INV_Qiraj_JewelEncased"
+Inst67Quest1description1 = AQITEM_ITEM
+Inst67Quest1ID1 = "29460"
+
+--Quest 2 Alliance
+Inst67Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst67Quest2ITC1 = Itemc5;
+Inst67Quest2textur1 = "Spell_Holy_Championsbond"
+Inst67Quest2description1 = AQITEM_ITEM
+Inst67Quest2ID1 = "29434"
+
+--Quest 3 Alliance
+Inst67Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst67Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst67Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst67Quest5ITC1 = Itemc5;
+Inst67Quest5textur1 = "INV_Jewelcrafting_CrimsonSpinel_02"
+Inst67Quest5description1 = AQITEM_GEM
+Inst67Quest5ID1 = "35487"
+--ITEM2
+Inst67Quest5ITC2 = Itemc5;
+Inst67Quest5textur2 = "INV_Jewelcrafting_CrimsonSpinel_02"
+Inst67Quest5description2 = AQITEM_GEM
+Inst67Quest5ID2 = "35488"
+--ITEM3
+Inst67Quest5ITC3 = Itemc5;
+Inst67Quest5textur3 = "INV_Jewelcrafting_CrimsonSpinel_02"
+Inst67Quest5description3 = AQITEM_GEM
+Inst67Quest5ID3 = "35489"
+
+
+--Quest 1 Horde
+Inst67Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst67Quest1ITC1_HORDE = Itemc3;
+Inst67Quest1textur1_HORDE = "INV_Qiraj_JewelEncased"
+Inst67Quest1description1_HORDE = AQITEM_ITEM
+Inst67Quest1ID1_HORDE = "29460"
+
+--Quest 2 Horde
+Inst67Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst67Quest2ITC1_HORDE = Itemc5;
+Inst67Quest2textur1_HORDE = "Spell_Holy_Championsbond"
+Inst67Quest2description1_HORDE = AQITEM_ITEM
+Inst67Quest2ID1_HORDE = "29434"
+
+--Quest 3 Horde
+Inst67Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst67Quest4Rewardtext_HORDE = AQNoReward
 
 
 
-
---------------- INST68 - Sunwell Plateau (ZA) ---------------
+--------------- INST68 - Sunwell Plateau (SP) ---------------
 
 
 
@@ -6339,9 +6401,171 @@ Inst63Quest8ID1_HORDE = "29434"
 --Quest 1 Alliance
 Inst33Quest1Rewardtext = AQNoReward
 
+--Quest 2 Alliance
+Inst33Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst33Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
+--ITEM1
+Inst33Quest3ITC1 = Itemc3;
+Inst33Quest3textur1 = "INV_Jewelry_StormPikeTrinket_01"
+Inst33Quest3description1 = AQITEM_TRINKET
+Inst33Quest3ID1 = "17691"
+--ITEM2
+Inst33Quest3ITC2 = Itemc2;
+Inst33Quest3textur2 = "INV_Misc_Book_04"
+Inst33Quest3description2 = AQITEM_ITEM
+Inst33Quest3ID2 = "19484"
+
+--Quest 4 Alliance
+Inst33Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst33Quest4ITC1 = Itemc4;
+Inst33Quest4textur1 = "INV_Weapon_Crossbow_07"
+Inst33Quest4description1 = AQITEM_CROSSBOW
+Inst33Quest4ID1 = "19107"
+--ITEM2
+Inst33Quest4ITC2 = Itemc4;
+Inst33Quest4textur2 = "INV_Spear_04"
+Inst33Quest4description2 = AQITEM_POLEARM
+Inst33Quest4ID2 = "19106"
+--ITEM3
+Inst33Quest4ITC3 = Itemc4;
+Inst33Quest4textur3 = "INV_Wand_01"
+Inst33Quest4description3 = AQITEM_WAND
+Inst33Quest4ID3 = "19108"
+--ITEM4
+Inst33Quest4ITC4 = Itemc4;
+Inst33Quest4textur4 = "INV_Hammer_22"
+Inst33Quest4description4 = AQITEM_MAINHAND..AQITEM_MACE
+Inst33Quest4ID4 = "20648"
+
+--Quest 5 Alliance
+Inst33Quest5Rewardtext = AQNoReward
+
+--Quest 6 Alliance
+Inst33Quest6Rewardtext = AQNoReward
+
+--Quest 7 Alliance
+Inst33Quest7Rewardtext = AQNoReward
+
+--Quest 8 Alliance
+Inst33Quest8Rewardtext = AQNoReward
+
+--Quest 9 Alliance
+Inst33Quest9Rewardtext = AQNoReward
+
+--Quest 10 Alliance
+Inst33Quest10Rewardtext = AQNoReward
+
+--Quest 11 Alliance
+Inst33Quest11Rewardtext = AQNoReward
+
+--Quest 12 Alliance
+Inst33Quest12Rewardtext = AQNoReward
+
+--Quest 13 Alliance
+Inst33Quest13Rewardtext = AQNoReward
+
+--Quest 14 Alliance
+Inst33Quest14Rewardtext = AQNoReward
+
+--Quest 15 Alliance
+Inst33Quest15Rewardtext = AQNoReward
+
+--Quest 16 Alliance
+Inst33Quest16Rewardtext = AQNoReward
+
+--Quest 17 Alliance
+Inst33Quest17Rewardtext = AQNoReward
+
+--Quest 18 Alliance
+Inst33Quest18Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst33Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst33Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst33Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
+--ITEM1
+Inst33Quest3ITC1_HORDE = Itemc3;
+Inst33Quest3textur1_HORDE = "INV_Jewelry_FrostwolfTrinket_01"
+Inst33Quest3description1_HORDE = AQITEM_TRINKET
+Inst33Quest3ID1_HORDE = "17690"
+--ITEM2
+Inst33Quest3ITC2_HORDE = Itemc2;
+Inst33Quest3textur2_HORDE = "INV_Misc_Book_07"
+Inst33Quest3description2_HORDE = AQITEM_ITEM
+Inst33Quest3ID2_HORDE = "19483"
+
+--Quest 4 Horde
+Inst33Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst33Quest4ITC1_HORDE = Itemc4;
+Inst33Quest4textur1_HORDE = "INV_Weapon_Crossbow_07"
+Inst33Quest4description1_HORDE = AQITEM_CROSSBOW
+Inst33Quest4ID1_HORDE = "19107"
+--ITEM2
+Inst33Quest4ITC2_HORDE = Itemc4;
+Inst33Quest4textur2_HORDE = "INV_Spear_04"
+Inst33Quest4description2_HORDE = AQITEM_POLEARM
+Inst33Quest4ID2_HORDE = "19106"
+--ITEM3
+Inst33Quest4ITC3_HORDE = Itemc4;
+Inst33Quest4textur3_HORDE = "INV_Wand_01"
+Inst33Quest4description3_HORDE = AQITEM_WAND
+Inst33Quest4ID3_HORDE = "19108"
+--ITEM4
+Inst33Quest4ITC4_HORDE = Itemc4;
+Inst33Quest4textur4_HORDE = "INV_Hammer_22"
+Inst33Quest4description4_HORDE = AQITEM_MAINHAND..AQITEM_MACE
+Inst33Quest4ID4_HORDE = "20648"
+
+--Quest 5 Horde
+Inst33Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst33Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst33Quest7Rewardtext_HORDE = AQNoReward
+
+--Quest 8 Horde
+Inst33Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst33Quest9Rewardtext_HORDE = AQNoReward
+
+--Quest 10 Horde
+Inst33Quest10Rewardtext_HORDE = AQNoReward
+
+--Quest 11 Horde
+Inst33Quest11Rewardtext_HORDE = AQNoReward
+
+--Quest 12 Horde
+Inst33Quest12Rewardtext_HORDE = AQNoReward
+
+--Quest 13 Horde
+Inst33Quest13Rewardtext_HORDE = AQNoReward
+
+--Quest 14 Horde
+Inst33Quest14Rewardtext_HORDE = AQNoReward
+
+--Quest 15 Horde
+Inst33Quest15Rewardtext_HORDE = AQNoReward
+
+--Quest 16 Horde
+Inst33Quest16Rewardtext_HORDE = AQNoReward
+
+--Quest 17 Horde
+Inst33Quest17Rewardtext_HORDE = AQNoReward
+
+--Quest 18 Horde
+Inst33Quest18Rewardtext_HORDE = AQNoReward
 
 
 
