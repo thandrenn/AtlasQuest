@@ -4,6 +4,7 @@ Changelog
 
 Version 4.1.0
 
+- Updated TOC for 2.4 patch.
 - EquipCompare support removed.
 - Comparison Tooltips added. This is optional and toggled off by default. Thanks to Daviesh & AtlasLoot for the code!
 - Server AutoQuery added. AtlasQuest will query the server for rewards when quest data is shown. This is optional and toggled off by default. Re-used code from Daviesh & AtlasLoot.
@@ -20,7 +21,7 @@ Version 4.1.0
 	- Moved AtlasQuest frame
 	- Updated locations: Zul'Aman, Blackwing Lair, Shadowfang Keep
 	- Added Outdoor Raids: Skettis.
-	- Preliminary Magisters' Terrace & Sunwell Plateau support.
+	- Added Magisters' Terrace & Sunwell Plateau.
 
 - Fixes:
 	- Quest names were not being colored blue when CT Mod's Show Quest Level option was on. Big thanks to Denival for the fix!
@@ -31,7 +32,7 @@ Version 4.1.0
 	- Other miscellanous typos. Thanks to Telchar for finding some I missed.
 	- Added name of followup quest for Molten Core: Hands of the Enemy (Thanks Celellach)
 
-- Quests added:
+- Quests added (76!):
 	- Stratholme: The Balance of Light and Shadow (Priest)   (Thanks Celellach)
 	- SM Graveyard: Call the Headless Horseman (Daily - Seasonal)   (Thanks Celellach)
 	- Underbog: Bring Me A Shrubbery!
