@@ -2,6 +2,42 @@
 Changelog
 =========
 
+Version 4.1.1
+
+- Fixed Quest complete checkboxes not working for Skettis and Magisters' Terrace.
+
+- Quests added:
+	- Alterac Valley: The Sovereign Imperative (A)   (Thanks maqjav)
+	- Alterac Valley: In Defense of Frostwolf (H)   (Thanks maqjav)
+	- Alterac Valley: Proving Grounds   (Thanks maqjav)
+	- Alterac Valley: The Battle of Alterac (A)   (Thanks maqjav)
+	- Alterac Valley: The Battle for Alterac (H)   (Thanks maqjav)
+	- Alterac Valley: Capture a Mine   (Thanks maqjav)
+	- Alterac Valley: Empty Stables   (Thanks maqjav)
+	- Alterac Valley: Towers and Bunkers   (Thanks maqjav)
+	- Alterac Valley: Coldtooth Supplies   (Thanks maqjav)
+	- Alterac Valley: Irondeep Supplies   (Thanks maqjav)
+	- Alterac Valley: Alterac Valley Graveyards (A)   (Thanks maqjav)
+	- Alterac Valley: The Graveyards of Alterac (H)   (Thanks maqjav)
+	- Alterac Valley: Armor Scraps (A)   (Thanks maqjav)
+	- Alterac Valley: Enemy Booty (H)   (Thanks maqjav)
+	- Alterac Valley: The Quartermaster (A)   (Thanks maqjav)
+	- Alterac Valley: Speak with our Quartermaster (H)   (Thanks maqjav)
+	- Alterac Valley: Ram Riding Harnesses (A)   (Thanks maqjav)
+	- Alterac Valley: Ram Hide Harnesses (H)   (Thanks maqjav)
+	- Alterac Valley: Crystal Cluster (A)   (Thanks maqjav)
+	- Alterac Valley: Ivus the Forest Lord (A)   (Thanks maqjav)
+	- Alterac Valley: A Gallon of Blood (H)   (Thanks maqjav)
+	- Alterac Valley: Lokholar the Ice Lord (H)   (Thanks maqjav)
+	- Alterac Valley: Call of Air - Vipore's Fleet (A)   (Thanks maqjav)
+	- Alterac Valley: Call of Air - Slidore's Fleet (A)   (Thanks maqjav)
+	- Alterac Valley: Call of Air - Ichman's Fleet (A)   (Thanks maqjav)
+	- Alterac Valley: Call of Air - Guse's Fleet (H)   (Thanks maqjav)
+	- Alterac Valley: Call of Air - Jeztor's Fleet (H)   (Thanks maqjav)
+	- Alterac Valley: Call of Air - Mulverick's Fleet (H)   (Thanks maqjav)
+
+
+
 Version 4.1.0
 
 - Updated TOC for 2.4 patch.
