@@ -31,8 +31,9 @@ Version 4.1.0
 	- Coordinates of quest giver for Horde quest "Shadowshard Fragments" were wrong.
 	- Other miscellanous typos. Thanks to Telchar for finding some I missed.
 	- Added name of followup quest for Molten Core: Hands of the Enemy (Thanks Celellach)
+	- Updated Skettis: Escape from Skettis rewards for 2.4.
 
-- Quests added (76!):
+- Quests added:
 	- Stratholme: The Balance of Light and Shadow (Priest)   (Thanks Celellach)
 	- SM Graveyard: Call the Headless Horseman (Daily - Seasonal)   (Thanks Celellach)
 	- Underbog: Bring Me A Shrubbery!
@@ -71,39 +72,11 @@ Version 4.1.0
 	- Call to Arms: Eye of the Storm (Daily)   (Thanks Celellach)
 	- Call to Arms: Arathi Basin (Daily)   (Thanks Celellach)
 	- Call to Arms: Alterac Valley (Daily)   (Thanks Celellach)
-	- The Battle for Arathi Basin!    (Thanks Celellach)
+	- Arathi Basin: The Battle for Arathi Basin!    (Thanks Celellach)
 	- Arathi Basin: Control Four Bases   (Thanks maqjav)
 	- Arathi Basin: Control Five Bases   (Thanks maqjav)
 	- Arathi Basin: Take Four Bases   (Thanks maqjav)
 	- Arathi Basin: Take Five Bases   (Thanks maqjav)
-	- Alterac Valley: The Sovereign Imperative (A)   (Thanks maqjav)
-	- Alterac Valley: In Defense of Frostwolf (H)   (Thanks maqjav)
-	- Alterac Valley: Proving Grounds   (Thanks maqjav)
-	- Alterac Valley: The Battle of Alterac (A)   (Thanks maqjav)
-	- Alterac Valley: The Battle for Alterac (H)   (Thanks maqjav)
-	- Alterac Valley: Capture a Mine   (Thanks maqjav)
-	- Alterac Valley: Empty Stables   (Thanks maqjav)
-	- Alterac Valley: Towers and Bunkers   (Thanks maqjav)
-	- Alterac Valley: Coldtooth Supplies   (Thanks maqjav)
-	- Alterac Valley: Irondeep Supplies   (Thanks maqjav)
-	- Alterac Valley: Alterac Valley Graveyards (A)   (Thanks maqjav)
-	- Alterac Valley: The Graveyards of Alterac (H)   (Thanks maqjav)
-	- Alterac Valley: Armor Scraps (A)   (Thanks maqjav)
-	- Alterac Valley: Enemy Booty (H)   (Thanks maqjav)
-	- Alterac Valley: The Quartermaster (A)   (Thanks maqjav)
-	- Alterac Valley: Speak with our Quartermaster (H)   (Thanks maqjav)
-	- Alterac Valley: Ram Riding Harnesses (A)   (Thanks maqjav)
-	- Alterac Valley: Ram Hide Harnesses (H)   (Thanks maqjav)
-	- Alterac Valley: Crystal Cluster (A)   (Thanks maqjav)
-	- Alterac Valley: Ivus the Forest Lord (A)   (Thanks maqjav)
-	- Alterac Valley: A Gallon of Blood (H)   (Thanks maqjav)
-	- Alterac Valley: Lokholar the Ice Lord (H)   (Thanks maqjav)
-	- Alterac Valley: Call of Air - Vipore's Fleet (A)   (Thanks maqjav)
-	- Alterac Valley: Call of Air - Slidore's Fleet (A)   (Thanks maqjav)
-	- Alterac Valley: Call of Air - Ichman's Fleet (A)   (Thanks maqjav)
-	- Alterac Valley: Call of Air - Guse's Fleet (H)   (Thanks maqjav)
-	- Alterac Valley: Call of Air - Jeztor's Fleet (H)   (Thanks maqjav)
-	- Alterac Valley: Call of Air - Mulverick's Fleet (H)   (Thanks maqjav)
 	- Magisters' Terrace: Wanted: Sisters of Torment (Daily)
 	- Magisters' Terrace: Wanted: The Signet Ring of Prince Kael'thas (Heroic Daily)
 	- Magisters' Terrace: Magisters' Terrace

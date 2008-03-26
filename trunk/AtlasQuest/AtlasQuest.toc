@@ -16,7 +16,7 @@
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP
-## X-Date: March 25, 2008
+## X-Date: March 26, 2008
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: 
 ## OptionalDeps: Atlas, AlphaMap, myAddOns
