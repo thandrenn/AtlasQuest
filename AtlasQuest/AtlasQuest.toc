@@ -1,8 +1,8 @@
 ## Interface: 20400
-## Title: AtlasQuest v4.1.0
-## Title-deDE: AtlasQuest v4.1.0
-## Title-koKR: AtlasQuest v4.1.0
-## Title-zhCN: AtlasQuest v4.1.0
+## Title: AtlasQuest v4.1.1
+## Title-deDE: AtlasQuest v4.1.1
+## Title-koKR: AtlasQuest v4.1.1
+## Title-zhCN: AtlasQuest v4.1.1
 ## Notes: Shows the Quests for the instance.
 ## Notes-deDE: Zeigt die Quests, die es f\195\188r die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
@@ -12,7 +12,7 @@
 ## Updated by: Rabidmax
 ## Updated by: Thandrenn (aka Mystery8)
 ## CLI by: Dazerdude
-## Version: 4.1.0
+## Version: 4.1.1
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP

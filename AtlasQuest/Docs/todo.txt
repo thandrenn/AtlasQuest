@@ -4,8 +4,9 @@ ToDo List
 
 - BUG: /aq popping up Swatter error when used for first time. From Chawgobeh.
 - Investigate adding scrollbar
-- 2.4: Use new function to display item icon: GetItemIcon(item)
+- Use new 2.4 function to display item icon: GetItemIcon(item)
 - AlphaMap: Not all SM quests shown since AlphaMap doesn't split up SM maps. Blerg.
+- AlphaMap: Outdoor Raids not showing. Blerg.
 
 
 Cleanup Checklist:
@@ -70,12 +71,12 @@ DONE 	DONE	56 = TK: Mechanar (Mech)
 DONE	DONE	57 = SM: Armory (SM Arm)
 DONE	DONE	58 = SM: Cathedral (SM Cath)
 DONE	DONE	59 = SM: Graveyard (SM GY)
-N/A	N/A	60 = Eye of the Storm
+DONE	DONE	60 = Eye of the Storm
 DONE	DONE	61 = TK: The Eye
 DONE 	DONE	62 = Black Temple (BT)
 DONE  	DONE	63 = Zul'Aman (ZA)
 N/A	N/A	64 = Doom Lord Kazzak
 N/A	N/A	65 = Doomwalker
 DONE	DONE	66 = Skettis
-NEW 	--	67 = Magisters' Terrace
+DONE 	--	67 = Magisters' Terrace
 -- 	--	68 = Sunwell Plateau
