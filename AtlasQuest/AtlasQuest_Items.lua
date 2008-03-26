@@ -6382,6 +6382,24 @@ Inst67Quest3Rewardtext_HORDE = AQNoReward
 --Quest 4 Horde
 Inst67Quest4Rewardtext_HORDE = AQNoReward
 
+--Quest 5 Horde
+Inst67Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst67Quest5ITC1_HORDE = Itemc5;
+Inst67Quest5textur1_HORDE = "INV_Jewelcrafting_CrimsonSpinel_02"
+Inst67Quest5description1_HORDE = AQITEM_GEM
+Inst67Quest5ID1_HORDE = "35487"
+--ITEM2
+Inst67Quest5ITC2_HORDE = Itemc5;
+Inst67Quest5textur2_HORDE = "INV_Jewelcrafting_CrimsonSpinel_02"
+Inst67Quest5description2_HORDE = AQITEM_GEM
+Inst67Quest5ID2_HORDE = "35488"
+--ITEM3
+Inst67Quest5ITC3_HORDE = Itemc5;
+Inst67Quest5textur3_HORDE = "INV_Jewelcrafting_CrimsonSpinel_02"
+Inst67Quest5description3_HORDE = AQITEM_GEM
+Inst67Quest5ID3_HORDE = "35489"
+
 
 
 --------------- INST68 - Sunwell Plateau (SP) ---------------
@@ -6704,17 +6722,7 @@ Inst66Quest1Rewardtext = AQNoReward
 Inst66Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst66Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1(x3)"..AQDiscription_OR..WHITE.."2(x2)"
---ITEM1
-Inst66Quest3ITC1 = Itemc2;
-Inst66Quest3textur1 = "INV_Potion_40"
-Inst66Quest3description1 = AQITEM_POTION
-Inst66Quest3ID1 = "28100"
---ITEM2
-Inst66Quest3ITC2 = Itemc2;
-Inst66Quest3textur2 = "INV_Potion_75"
-Inst66Quest3description2 = AQITEM_POTION
-Inst66Quest3ID2 = "28101"
+Inst66Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
 Inst66Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"..AQDiscription_OR..WHITE.."2(x2)"
@@ -6794,17 +6802,7 @@ Inst66Quest1Rewardtext_HORDE = AQNoReward
 Inst66Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
-Inst66Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x3)"..AQDiscription_OR..WHITE.."2(x2)"
---ITEM1
-Inst66Quest3ITC1_HORDE = Itemc2;
-Inst66Quest3textur1_HORDE = "INV_Potion_40"
-Inst66Quest3description1_HORDE = AQITEM_POTION
-Inst66Quest3ID1_HORDE = "28100"
---ITEM2
-Inst66Quest3ITC2_HORDE = Itemc2;
-Inst66Quest3textur2_HORDE = "INV_Potion_75"
-Inst66Quest3description2_HORDE = AQITEM_POTION
-Inst66Quest3ID2_HORDE = "28101"
+Inst66Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
 Inst66Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"..AQDiscription_OR..WHITE.."2(x2)"

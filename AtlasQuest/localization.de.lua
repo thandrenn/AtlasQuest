@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	AtlasQuest, a World of Warcraft addon.
 	Email me at mystery8@gmail.com
@@ -9498,9 +9498,7 @@ Inst66Quest3_Location = "Gefangene Himmelswache (Wälder von Terokkar - Skettis;
 Inst66Quest3_Note = "Dieses Quest kann einmal täglich absolviert werden und ist erhältlich, sobald 'Nach Skettis!' abgeschlossen ist.\nDie Gefangene Himmelswache erscheint zufällig an einem der drei Punkte, die mit "..YELLOW.."[4]"..WHITE.." markiert sind.  Das Quest kann als Gruppe erledigt werden."
 Inst66Quest3_Prequest = "Nein"
 Inst66Quest3_Folgequest = "Nein"
---
-Inst66Quest3name1 = "Flüchtiger Heiltrank"
-Inst66Quest3name2 = "Instabiler Manatrank"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst66Quest4 = "4. Hungrige Netherrochen"
@@ -9661,9 +9659,7 @@ Inst66Quest3_HORDE_Location = Inst66Quest3_Location
 Inst66Quest3_HORDE_Note = Inst66Quest3_Note
 Inst66Quest3_HORDE_Prequest = Inst66Quest3_Prequest
 Inst66Quest3_HORDE_Folgequest = Inst66Quest3_Folgequest
---
-Inst66Quest3name1_HORDE = Inst66Quest3name1
-Inst66Quest3name2_HORDE = Inst66Quest3name2
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst66Quest4_HORDE = Inst66Quest4
