@@ -1,6 +1,6 @@
-﻿-- Localization for CTBC by yeachan(6区 阿拉希 燃烧军团公会 Ahunter）
+﻿-- Localization for CTBC by yeachan(6区 阿拉希 “缘玥”公会 Ahunter）
 -- Email：zhengguo@live.com
--- Last update: 08-01-02
+-- Last update: 08-03-28
 
 if ( GetLocale() == "zhCN" ) then
 
@@ -65,7 +65,7 @@ AQDiscription_AIM = "任务目标：\n"
 AQDiscription_NOTE = "任务注释：\n"
 AQDiscription_PREQUEST= "前导任务："
 AQDiscription_FOLGEQUEST = "后续任务："
-ATLAS_VERSIONWARNINGTEXT = "你的Atlas是老板本的！请先升级它 :) （最新版本为1.10.2）"
+ATLAS_VERSIONWARNINGTEXT = "你的Atlas是老板本的！请先升级它 :) （最新版本为1.11.0）"
 
 -- ITEM TRANSLATION
 AQITEM_DAGGER = "匕首"
@@ -6454,8 +6454,8 @@ Inst42Quest7name1_HORDE = Inst42Quest7name1
 
 Inst43Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿） "
 Inst43Caption = "盘牙水库：幽暗沼泽"
-Inst43QAA = "4 个任务"
-Inst43QAH = "4 个任务"
+Inst43QAA = "5 个任务"
+Inst43QAH = "5 个任务"
 
 Inst43General = {
     {
@@ -6534,6 +6534,17 @@ Inst43Quest4_Folgequest = "无"
 --
 Inst43Quest4name1 = "Badge of Justice"
 
+--Quest 5 Alliance
+Inst43Quest5 = "5. 我要红色木槿！"
+Inst43Quest5_Level = "65"
+Inst43Quest5_Attain = "63"
+Inst43Quest5_Aim = "将5朵红色木槿交给赞加沼泽孢子村的舒特."
+Inst43Quest5_Location = "舒特 (赞加沼泽 - 孢子村; "..YELLOW.."19,50"..WHITE..")"
+Inst43Quest5_Note = "你必须和孢子村达到友善以上声望才能接到这个任务."
+Inst43Quest5_Prequest = "No"
+Inst43Quest5_Folgequest = "有, 我还要红色木槿!"
+-- No Rewards for this quest
+
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst43Quest1_HORDE = Inst43Quest1
 Inst43Quest1_HORDE_Level = Inst43Quest1_Level
@@ -6584,6 +6595,18 @@ Inst43Quest4_HORDE_Prequest = Inst43Quest4_Prequest
 Inst43Quest4_HORDE_Folgequest = Inst43Quest4_Folgequest
 --
 Inst43Quest4name1_HORDE = Inst43Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst43Quest5_HORDE = Inst43Quest5
+Inst43Quest5_HORDE_Level = Inst43Quest5_Level
+Inst43Quest5_HORDE_Attain = Inst43Quest5_Attain
+Inst43Quest5_HORDE_Aim = Inst43Quest5_Aim
+Inst43Quest5_HORDE_Location = Inst43Quest5_Location
+Inst43Quest5_HORDE_Note = Inst43Quest5_Note
+Inst43Quest5_HORDE_Prequest = Inst43Quest5_Prequest
+Inst43Quest5_HORDE_Folgequest = Inst43Quest5_Folgequest
+-- No Rewards for this quest
+
 
 --------------- INST44 - Auchindoun: Auchenai Crypts (AC) ---------------
 
@@ -8934,16 +8957,1073 @@ Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
 Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 
+--------------- INST66 - Skettis ---------------
+
+Inst66Story = "斯克提斯曾经是鸦人的首府，现在斯克提斯的鸦人首领泰罗克在聚集自己的力量，来对沙塔斯城展开攻击，沙塔斯天空卫队当然不能坐视不管，他们正招募玩家加入抵抗泰罗克的战斗中。"
+Inst66Caption = "斯克提斯"
+Inst66QAA = "13 个任务"
+Inst66QAH = "13 个任务"
+
+--Quest 1 Alliance
+Inst66Quest1 = "1. 前往斯克提斯!"
+Inst66Quest1_Level = "70"
+Inst66Quest1_Attain = "70"
+Inst66Quest1_Aim = "前往位于斯克提斯外的黑风码头，将炸药包交给空军上尉杜尔因."
+Inst66Quest1_Location = "尤拉  (沙塔斯城; "..YELLOW.."65,42"..WHITE..")"
+Inst66Quest1_Note = "该任务的前续任务也是这个人接到的. 黑风码头 在 "..YELLOW.."[1]"..WHITE.."."
+Inst66Quest1_Prequest = "有，临近的威胁"
+Inst66Quest1_Folgequest = "有，轰炸斯克提斯"
+Inst66Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst66Quest2 = "2. 轰炸斯克提斯 (日常)"
+Inst66Quest2_Level = "70"
+Inst66Quest2_Attain = "70"
+Inst66Quest2_Aim = "找到斯克提斯巢穴上面的巨大的卡利鸟蛋，利用天空卫队的炸弹毁掉它们。完成任务之后回去向空军上尉杜尔因复命."
+Inst66Quest2_Location = "空军上尉杜尔因 (泰罗卡森林 - 黑风码头; "..YELLOW.."65,66"..WHITE..")"
+Inst66Quest2_Note = "日常任务，你可以在飞行坐骑上完成轰炸任务."
+Inst66Quest2_Prequest = "有，前往斯克提斯!"
+Inst66Quest2_Folgequest = "无"
+Inst66Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst66Quest3 = "3. 逃离斯克提斯 (日常)"
+Inst66Quest3_Level = "70"
+Inst66Quest3_Attain = "70"
+Inst66Quest3_Aim = "护送天空卫队囚犯前往安全的地方，然后向空军上尉杜尔因复命."
+Inst66Quest3_Location = "天空卫队囚犯 (泰罗卡森林 - 斯克提斯; "..YELLOW.."[4]"..WHITE..")"
+Inst66Quest3_Note = "日常任务，囚犯有3个可能的刷新点，地图上标注为 4 的地方."
+Inst66Quest3_Prequest = "无"
+Inst66Quest3_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst66Quest4 = "4. 饥饿的虚空鳐"
+Inst66Quest4_Level = "70"
+Inst66Quest4_Attain = "70"
+Inst66Quest4_Aim = "在黑风码头南边的森林内使用虚空鳐的笼子，并在饥饿的虚空鳐旁杀死黑风追迹者。完成任务之后回去向天空卫队训练师德萨克复命."
+Inst66Quest4_Location = "天空卫队训练师德萨克 (泰罗卡森林 - 黑风码头; "..YELLOW.."63,66"..WHITE..")"
+Inst66Quest4_Note = "黑风追迹者分布在斯克提斯的四周，南部居多，确保你杀死的是追迹者同时保证饥饿的虚空鳐同时也在你杀死的目标附近."
+Inst66Quest4_Prequest = "无"
+Inst66Quest4_Folgequest = "无"
+--
+Inst66Quest4name1 = "Elixir of Major Agility"
+Inst66Quest4name2 = "Adept's Elixir"
+
+--Quest 5 Alliance
+Inst66Quest5 = "5.阴影世界"
+Inst66Quest5_Level = "70"
+Inst66Quest5_Attain = "70"
+Inst66Quest5_Aim = "瑟维里要你进入斯克提斯，从居住在那里的鸦人身上找到6份暗影之尘."
+Inst66Quest5_Location = "瑟维里 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest5_Note = "任务是可重复性的，斯克提斯的鸦人都可能掉落暗影之尘."
+Inst66Quest5_Prequest = "无"
+Inst66Quest5_Folgequest = "无"
+--
+Inst66Quest5name1 = "Elixir of Shadows"
+
+--Quest 6 Alliance
+Inst66Quest6 = "6. 鸦爪祭司的秘密"
+Inst66Quest6_Level = "70"
+Inst66Quest6_Attain = "70"
+Inst66Quest6_Aim = "从瑟维里那儿获取暗影药剂。前往斯克提斯，利用暗影药剂找到并杀死伊沙尔、斯卡基克和塞尔利克三位鸦爪祭司。完成任务后向空军指挥官阿达利斯复命."
+Inst66Quest6_Location = "空军指挥官阿达利斯 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest6_Note = "你必须首先完成阴影世界任务喝下暗影药剂才能看见这个几个祭祀.\n\n 伊沙尔 在"..YELLOW.."[5]"..WHITE..", 斯卡基克 在 "..YELLOW.."[6]"..WHITE.." 塞尔利克 在 "..YELLOW.."[7]"..WHITE.."."
+Inst66Quest6_Prequest = "有，阴影世界"
+Inst66Quest6_Folgequest = "无"
+Inst66Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst66Quest7 = "7. 伊沙尔的历书"
+Inst66Quest7_Level = "70"
+Inst66Quest7_Attain = "70"
+Inst66Quest7_Aim = "把伊沙尔的历书带给天空卫队的指挥官阿达利斯."
+Inst66Quest7_Location = "伊沙尔的历书 (鸦人祭祀伊沙尔 掉落; "..YELLOW.."[5]"..WHITE..")"
+Inst66Quest7_Note = "空军指挥官阿达利斯 在 泰罗卡森林 - 黑风码头 ("..YELLOW.."64,66"..WHITE..")."
+Inst66Quest7_Prequest = "No"
+Inst66Quest7_Folgequest = "有, 贫民窟的盟友"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst66Quest8 = "8. 贫民窟的盟友"
+Inst66Quest8_Level = "70"
+Inst66Quest8_Attain = "70"
+Inst66Quest8_Aim = "将伊沙尔的历书交给沙塔斯城贫民窟中的救赎者瑞拉克."
+Inst66Quest8_Location = "空军指挥官阿达利斯 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest8_Note = "救赎者瑞拉克 在 沙塔斯城 贫民窟 ("..YELLOW.."52,20"..WHITE..")."
+Inst66Quest8_Prequest = "有, 伊沙尔的历书"
+Inst66Quest8_Folgequest = "有, 末日将至"
+Inst66Quest8FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst66Quest9 = "9. 末日将至"
+Inst66Quest9_Level = "70"
+Inst66Quest9_Attain = "70"
+Inst66Quest9_Aim = "向空军指挥官阿达利斯汇报泰罗克归来一事."
+Inst66Quest9_Location = "救赎者瑞拉克 (沙塔斯城 - 贫民窟; "..YELLOW.."52,20"..WHITE..")"
+Inst66Quest9_Note = "空军指挥官阿达利斯 在 泰罗卡森林 - 黑风码头 ("..YELLOW.."64,66"..WHITE.."). Hazzik, who is nearby, will give you the followup quest."
+Inst66Quest9_Prequest = "有, 贫民窟的盟友"
+Inst66Quest9_Folgequest = "有, 哈吉克的协议"
+Inst66Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst66Quest10 = "10. 哈吉克的协议"
+Inst66Quest10_Level = "70"
+Inst66Quest10_Attain = "70"
+Inst66Quest10_Aim = "进入斯克提斯的东部区域，在哈吉克的住处中找到哈吉克的包裹，然后把包裹带回去给他."
+Inst66Quest10_Location = "哈吉克 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest10_Note = "哈吉克的包裹 在 "..YELLOW.."[8]"..WHITE.."."
+Inst66Quest10_Prequest = "有，末日降至"
+Inst66Quest10_Folgequest = "有，粗糙的伪装"
+Inst66Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst66Quest11 = "11. 粗糙的伪装"
+Inst66Quest11_Level = "70"
+Inst66Quest11_Attain = "70"
+Inst66Quest11_Aim = "穿上粗糙的鸦人伪装服，从萨哈克那儿取得《仇敌的血脉》，然后向哈吉克复命."
+Inst66Quest11_Location = "哈吉克 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest11_Note = "萨哈克 在 "..YELLOW.."[3]"..WHITE..". "
+Inst66Quest11_Prequest = "有，哈吉克的协议"
+Inst66Quest11_Folgequest = "有，仇敌的血脉"
+Inst66Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst66Quest12 = "12. 仇敌的血脉"
+Inst66Quest12_Level = "70"
+Inst66Quest12_Attain = "70"
+Inst66Quest12_Aim = "在斯克提斯找到召唤法阵中央的颅骨堆，在此使用10个迷失卷轴，并击败每一只被召唤出来的后裔。完成之后带着从它们身上取下的信物回去向哈吉克复命."
+Inst66Quest12_Location = "哈吉克 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest12_Note = "召唤法阵 位于 "..GREEN.."[1']"..WHITE..". 每次召唤只会掉落一个任务物品，所以招之前请事先商量任务物品归属."
+Inst66Quest12_Prequest = "有，粗糙的伪装"
+Inst66Quest12_Folgequest = "无"
+Inst66Quest12FQuest = "true"
+--
+Inst66Quest12name1 = "Time-Lost Offering"
+
+--Quest 13 Alliance
+Inst66Quest13 = "13. 泰罗克的毁灭"
+Inst66Quest13_Level = "70"
+Inst66Quest13_Attain = "70"
+Inst66Quest13_Aim = "将哈吉克准备好的失落的祭品带到斯克提斯中央的颅骨堆，召唤出泰罗克并击败它。完成这个任务之后回去向空军指挥官阿达利斯复命."
+Inst66Quest13_Location = "空军指挥官阿达利斯 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest13_Note = "召唤泰罗克 在 "..YELLOW.."[2]"..WHITE..". 小帮助，当泰罗克血量低时，他会进入无敌状态，这时候需要等天空卫队丢下蓝色的烟雾弹，把泰罗克引到烟雾弹上才能解除他的无敌状态."
+Inst66Quest13_Prequest = "有，仇敌的血脉"
+Inst66Quest13_Folgequest = "无"
+Inst66Quest13PreQuest = "true"
+--
+Inst66Quest13name1 = "Jeweled Rod"
+Inst66Quest13name2 = "Scout's Throwing Knives"
+Inst66Quest13name3 = "Severin's Cane"
+Inst66Quest13name4 = "Windcharger's Lance"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst66Quest1_HORDE = Inst66Quest1
+Inst66Quest1_HORDE_Level = Inst66Quest1_Level
+Inst66Quest1_HORDE_Attain = Inst66Quest1_Attain
+Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
+Inst66Quest1_HORDE_Location = Inst66Quest1_Location
+Inst66Quest1_HORDE_Note = Inst66Quest1_Note
+Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
+Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
+Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst66Quest2_HORDE = Inst66Quest2
+Inst66Quest2_HORDE_Level = Inst66Quest2_Level
+Inst66Quest2_HORDE_Attain = Inst66Quest2_Attain
+Inst66Quest2_HORDE_Aim = Inst66Quest2_Aim
+Inst66Quest2_HORDE_Location = Inst66Quest2_Location
+Inst66Quest2_HORDE_Note = Inst66Quest2_Note
+Inst66Quest2_HORDE_Prequest = Inst66Quest2_Prequest
+Inst66Quest2_HORDE_Folgequest = Inst66Quest2_Folgequest
+Inst66Quest2PreQuest_HORDE = Inst66Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst66Quest3_HORDE = Inst66Quest3
+Inst66Quest3_HORDE_Level = Inst66Quest3_Level
+Inst66Quest3_HORDE_Attain = Inst66Quest3_Attain
+Inst66Quest3_HORDE_Aim = Inst66Quest3_Aim
+Inst66Quest3_HORDE_Location = Inst66Quest3_Location
+Inst66Quest3_HORDE_Note = Inst66Quest3_Note
+Inst66Quest3_HORDE_Prequest = Inst66Quest3_Prequest
+Inst66Quest3_HORDE_Folgequest = Inst66Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst66Quest4_HORDE = Inst66Quest4
+Inst66Quest4_HORDE_Level = Inst66Quest4_Level
+Inst66Quest4_HORDE_Attain = Inst66Quest4_Attain
+Inst66Quest4_HORDE_Aim = Inst66Quest4_Aim
+Inst66Quest4_HORDE_Location = Inst66Quest4_Location
+Inst66Quest4_HORDE_Note = Inst66Quest4_Note
+Inst66Quest4_HORDE_Prequest = Inst66Quest4_Prequest
+Inst66Quest4_HORDE_Folgequest = Inst66Quest4_Folgequest
+--
+Inst66Quest4name1_HORDE = Inst66Quest4name1
+Inst66Quest4name2_HORDE = Inst66Quest4name2
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst66Quest5_HORDE = Inst66Quest5
+Inst66Quest5_HORDE_Level = Inst66Quest5_Level
+Inst66Quest5_HORDE_Attain = Inst66Quest5_Attain
+Inst66Quest5_HORDE_Aim = Inst66Quest5_Aim
+Inst66Quest5_HORDE_Location = Inst66Quest5_Location
+Inst66Quest5_HORDE_Note = Inst66Quest5_Note
+Inst66Quest5_HORDE_Prequest = Inst66Quest5_Prequest
+Inst66Quest5_HORDE_Folgequest = Inst66Quest5_Folgequest
+--
+Inst66Quest5name1_HORDE = Inst66Quest5name1
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst66Quest6_HORDE = Inst66Quest6
+Inst66Quest6_HORDE_Level = Inst66Quest6_Level
+Inst66Quest6_HORDE_Attain = Inst66Quest6_Attain
+Inst66Quest6_HORDE_Aim = Inst66Quest6_Aim
+Inst66Quest6_HORDE_Location = Inst66Quest6_Location
+Inst66Quest6_HORDE_Note = Inst66Quest6_Note
+Inst66Quest6_HORDE_Prequest = Inst66Quest6_Prequest
+Inst66Quest6_HORDE_Folgequest = Inst66Quest6_Folgequest
+Inst66Quest6PreQuest_HORDE = Inst66Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst66Quest7_HORDE = Inst66Quest7
+Inst66Quest7_HORDE_Level = Inst66Quest7_Level
+Inst66Quest7_HORDE_Attain = Inst66Quest7_Attain
+Inst66Quest7_HORDE_Aim = Inst66Quest7_Aim
+Inst66Quest7_HORDE_Location = Inst66Quest7_Location
+Inst66Quest7_HORDE_Note = Inst66Quest7_Note
+Inst66Quest7_HORDE_Prequest = Inst66Quest7_Prequest
+Inst66Quest7_HORDE_Folgequest = Inst66Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst66Quest8_HORDE = Inst66Quest8
+Inst66Quest8_HORDE_Level = Inst66Quest8_Level
+Inst66Quest8_HORDE_Attain = Inst66Quest8_Attain
+Inst66Quest8_HORDE_Aim = Inst66Quest8_Aim
+Inst66Quest8_HORDE_Location = Inst66Quest8_Location
+Inst66Quest8_HORDE_Note = Inst66Quest8_Note
+Inst66Quest8_HORDE_Prequest = Inst66Quest8_Prequest
+Inst66Quest8_HORDE_Folgequest = Inst66Quest8_Folgequest
+Inst66Quest8FQuest_HORDE = Inst66Quest8FQuest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst66Quest9_HORDE = Inst66Quest9
+Inst66Quest9_HORDE_Level = Inst66Quest9_Level
+Inst66Quest9_HORDE_Attain = Inst66Quest9_Attain
+Inst66Quest9_HORDE_Aim = Inst66Quest9_Aim
+Inst66Quest9_HORDE_Location = Inst66Quest9_Location
+Inst66Quest9_HORDE_Note = Inst66Quest9_Note
+Inst66Quest9_HORDE_Prequest = Inst66Quest9_Prequest
+Inst66Quest9_HORDE_Folgequest = Inst66Quest9_Folgequest
+Inst66Quest9FQuest_HORDE = Inst66Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst66Quest10_HORDE = Inst66Quest10
+Inst66Quest10_HORDE_Level = Inst66Quest10_Level
+Inst66Quest10_HORDE_Attain = Inst66Quest10_Attain
+Inst66Quest10_HORDE_Aim = Inst66Quest10_Aim
+Inst66Quest10_HORDE_Location = Inst66Quest10_Location
+Inst66Quest10_HORDE_Note = Inst66Quest10_Note
+Inst66Quest10_HORDE_Prequest = Inst66Quest10_Prequest
+Inst66Quest10_HORDE_Folgequest = Inst66Quest10_Folgequest
+Inst66Quest10FQuest_HORDE = Inst66Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst66Quest11_HORDE = Inst66Quest11
+Inst66Quest11_HORDE_Level = Inst66Quest11_Level
+Inst66Quest11_HORDE_Attain = Inst66Quest11_Attain
+Inst66Quest11_HORDE_Aim = Inst66Quest11_Aim
+Inst66Quest11_HORDE_Location = Inst66Quest11_Location
+Inst66Quest11_HORDE_Note = Inst66Quest11_Note
+Inst66Quest11_HORDE_Prequest = Inst66Quest11_Prequest
+Inst66Quest11_HORDE_Folgequest = Inst66Quest11_Folgequest
+Inst66Quest11FQuest_HORDE = Inst66Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst66Quest12_HORDE = Inst66Quest12
+Inst66Quest12_HORDE_Level = Inst66Quest12_Level
+Inst66Quest12_HORDE_Attain = Inst66Quest12_Attain
+Inst66Quest12_HORDE_Aim = Inst66Quest12_Aim
+Inst66Quest12_HORDE_Location = Inst66Quest12_Location
+Inst66Quest12_HORDE_Note = Inst66Quest12_Note
+Inst66Quest12_HORDE_Prequest = Inst66Quest12_Prequest
+Inst66Quest12_HORDE_Folgequest = Inst66Quest12_Folgequest
+Inst66Quest12FQuest_HORDE = Inst66Quest12FQuest
+--
+Inst66Quest12name1_HORDE = Inst66Quest12name1
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst66Quest13_HORDE = Inst66Quest13
+Inst66Quest13_HORDE_Level = Inst66Quest13_Level
+Inst66Quest13_HORDE_Attain = Inst66Quest13_Attain
+Inst66Quest13_HORDE_Aim = Inst66Quest13_Aim
+Inst66Quest13_HORDE_Location = Inst66Quest13_Location
+Inst66Quest13_HORDE_Note = Inst66Quest13_Note
+Inst66Quest13_HORDE_Prequest = Inst66Quest13_Prequest
+Inst66Quest13_HORDE_Folgequest = Inst66Quest13_Folgequest
+Inst66Quest13PreQuest_HORDE = Inst66Quest13PreQuest
+Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
+--
+Inst66Quest13name1_HORDE = Inst66Quest13name1
+Inst66Quest13name2_HORDE = Inst66Quest13name2
+Inst66Quest13name3_HORDE = Inst66Quest13name3
+Inst66Quest13name4_HORDE = Inst66Quest13name4
+
+--------------- INST67 - Magisters' Terrace (MgT) ---------------
+
+Inst67Story = "魔导师平台，凯尔萨斯王子在奎尔丹纳斯岛的领地。经历了风暴要塞的失败之后，很多人以为这位血精灵之王已然身死，但是他却被更为强大的能量复活了。如今的凯尔萨斯已经面目全非，胸口那块散发诡异颜色的绿色水晶让他变得邪气十足。唯一没变的，是他为了追逐更强能量的信念……"
+Inst67Caption = "魔导师平台"
+Inst67QAA = "5 个任务"
+Inst67QAH = "5 个任务"
+
+--Quest 1 Alliance
+Inst67Quest1 = "1. 悬赏：痛苦的姐妹 (普通日常)"
+Inst67Quest1_Level = "70"
+Inst67Quest1_Attain = "70"
+Inst67Quest1_Aim = "虚空猎手玛哈杜恩要你前往魔导师平台，杀死4个痛苦的姐妹，完成任务后向他复命"
+Inst67Quest1_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest1_Note = "普通日常任务."
+Inst67Quest1_Prequest = "无"
+Inst67Quest1_Folgequest = "无"
+--
+Inst67Quest1name1 = "Ethereum Prison Key"
+
+--Quest 2 Alliance
+Inst67Quest2 = "2. 悬赏：凯尔萨斯王子的徽记之戒 (英雄日常)"
+Inst67Quest2_Level = "70"
+Inst67Quest2_Attain = "70"
+Inst67Quest2_Aim = "商人扎雷姆要你取得凯尔萨斯王子的徽记之戒，完成任务后向沙塔斯城贫民窟商人扎雷姆复命."
+Inst67Quest2_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest2_Note = "英雄日常任务.\n\n凯尔萨斯王子 在 "..YELLOW.."[6]"..WHITE.."."
+Inst67Quest2_Prequest = "无"
+Inst67Quest2_Folgequest = "无"
+--
+Inst67Quest2name1 = "Badge of Justice"
+
+--Quest 3 Alliance
+Inst67Quest3 = "3. 魔导师平台"
+Inst67Quest3_Level = "70"
+Inst67Quest3_Attain = "70"
+Inst67Quest3_Aim = "阳湾港的主教拉瑞瑟要你搜寻魔导师平台，找到血精灵间谍塔雷斯."
+Inst67Quest3_Location = "主教拉瑞瑟 (奎尔丹纳斯 - 阳湾港; "..YELLOW.."47,31"..WHITE..")"
+Inst67Quest3_Note = "塔雷斯 在副本 "..YELLOW.."[2]"..WHITE..". 完成这个任务线后你才能进入英雄模式的魔导师平台.\n\n这个任务的前续可以从 圣光护卫者阿德因 (沙塔斯城 - 奥尔多高地; "..YELLOW.."35,36"..WHITE..") or 达斯雷·射日者 (沙塔斯城 - 占星者平台; "..YELLOW.."55,80"..WHITE..")."
+Inst67Quest3_Prequest = "有, 太阳井的危机，使命的召唤"
+Inst67Quest3_Folgequest = "有, 占星者的占卜"
+Inst67Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst67Quest4 = "4. 占星者的占卜"
+Inst67Quest4_Level = "70"
+Inst67Quest4_Attain = "70"
+Inst67Quest4_Aim = "塔雷斯 要你在魔导师平台中的阳台上使用占卜宝珠."
+Inst67Quest4_Location = "塔雷斯 (魔导师平台; "..YELLOW.."[2]"..WHITE..")"
+Inst67Quest4_Note = "占卜宝珠 在 "..YELLOW.."[4]"..WHITE..". 在经过一小段'电影‘后，卡雷苟斯会出现开始下一步任务."
+Inst67Quest4_Prequest = "有, 魔导师平台"
+Inst67Quest4_Folgequest = "有，"
+Inst67Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst67Quest5 = "5. 充满难度的击杀"
+Inst67Quest5_Level = "70"
+Inst67Quest5_Attain = "70"
+Inst67Quest5_Aim = "卡雷苟斯要你杀死魔导师平台的凯尔萨斯王子. 完成任务后带着他的头颅向阳湾港拉瑞瑟复命."
+Inst67Quest5_Location = "卡雷苟斯 (魔导师平台; "..YELLOW.."[4]"..WHITE..")"
+Inst67Quest5_Note = "凯尔萨斯逐日者 "..YELLOW.."[6]"..WHITE..". 完成任务之后你将能够进入英雄难度的魔导师平台.\n\n拉瑞瑟 在 奎尔丹纳斯 - 阳湾港(; "..YELLOW.."47,31"..WHITE..")."
+Inst67Quest5_Prequest = "有，占星者的占卜"
+Inst67Quest5_Folgequest = "无"
+Inst67Quest5FQuest = "true"
+--
+Inst67Quest5name1 = "Bright Crimson Spinel"
+Inst67Quest5name2 = "Runed Crimson Spinel"
+Inst67Quest5name3 = "Teardrop Crimson Spinel"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst67Quest1_HORDE = Inst67Quest1
+Inst67Quest1_HORDE_Level = Inst67Quest1_Level
+Inst67Quest1_HORDE_Attain = Inst67Quest1_Attain
+Inst67Quest1_HORDE_Aim = Inst67Quest1_Aim
+Inst67Quest1_HORDE_Location = Inst67Quest1_Location
+Inst67Quest1_HORDE_Note = Inst67Quest1_Note
+Inst67Quest1_HORDE_Prequest = Inst67Quest1_Prequest
+Inst67Quest1_HORDE_Folgequest = Inst67Quest1_Folgequest
+--
+Inst67Quest1name1_HORDE = Inst67Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst67Quest2_HORDE = Inst67Quest2
+Inst67Quest2_HORDE_Level = Inst67Quest2_Level
+Inst67Quest2_HORDE_Attain = Inst67Quest2_Attain
+Inst67Quest2_HORDE_Aim = Inst67Quest2_Aim
+Inst67Quest2_HORDE_Location = Inst67Quest2_Location
+Inst67Quest2_HORDE_Note = Inst67Quest2_Note
+Inst67Quest2_HORDE_Prequest = Inst67Quest2_Prequest
+Inst67Quest2_HORDE_Folgequest = Inst67Quest2_Folgequest
+--
+Inst67Quest2name1_HORDE = Inst67Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst67Quest3_HORDE = Inst67Quest3
+Inst67Quest3_HORDE_Level = Inst67Quest3_Level
+Inst67Quest3_HORDE_Attain = Inst67Quest3_Attain
+Inst67Quest3_HORDE_Aim = Inst67Quest3_Aim
+Inst67Quest3_HORDE_Location = Inst67Quest3_Location
+Inst67Quest3_HORDE_Note = Inst67Quest3_Note
+Inst67Quest3_HORDE_Prequest = Inst67Quest3_Prequest
+Inst67Quest3_HORDE_Folgequest = Inst67Quest3_Folgequest
+Inst67Quest3PreQuest_HORDE = Inst67Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst67Quest4_HORDE = Inst67Quest4
+Inst67Quest4_HORDE_Level = Inst67Quest4_Level
+Inst67Quest4_HORDE_Attain = Inst67Quest4_Attain
+Inst67Quest4_HORDE_Aim = Inst67Quest4_Aim
+Inst67Quest4_HORDE_Location = Inst67Quest4_Location
+Inst67Quest4_HORDE_Note = Inst67Quest4_Note
+Inst67Quest4_HORDE_Prequest = Inst67Quest4_Prequest
+Inst67Quest4_HORDE_Folgequest = Inst67Quest4_Folgequest
+Inst67Quest4FQuest_HORDE = Inst67Quest4FQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst67Quest5_HORDE = Inst67Quest5
+Inst67Quest5_HORDE_Level = Inst67Quest5_Level
+Inst67Quest5_HORDE_Attain = Inst67Quest5_Attain
+Inst67Quest5_HORDE_Aim = Inst67Quest5_Aim
+Inst67Quest5_HORDE_Location = Inst67Quest5_Location
+Inst67Quest5_HORDE_Note = Inst67Quest5_Note
+Inst67Quest5_HORDE_Prequest = Inst67Quest5_Prequest
+Inst67Quest5_HORDE_Folgequest = Inst67Quest5_Folgequest
+Inst67Quest5FQuest_HORDE = Inst67Quest5FQuest
+--
+Inst67Quest5name1_HORDE = Inst67Quest5name1
+Inst67Quest5name2_HORDE = Inst67Quest5name2
+Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 
 
+--------------- INST68 - Sunwell Plateau ---------------
 
+Inst68Story = "在最新的2.4版本《决战太阳之井》中，燃烧军团的恶魔领主基尔加丹将从太阳之井中重返世界，他的栖身之地将成为一个全新的25人副本：太阳井高地"
+Inst68Caption = "太阳井高地"
+Inst68QAA = "无任务"
+Inst68QAH = "无任务"
+
+
+---------------------------------------------------
+---------------- BATTLEGROUNDS --------------------
+---------------------------------------------------
+
+
+
+--------------- INST33 - Alterac Valley (AV) ---------------
+
+Inst33Story = "雷矛远征军已经在奥特兰克山谷中安营扎寨，想要研究这里的资源和远古遗物。尽管他们来此的目的并不是为了挑衅，但是矮人们却与居住在山谷南部的霜狼氏族发生了激烈的冲突。霜狼氏族由此发誓要将入侵者赶出他们的家园. "
+Inst33Caption = "奥特兰克山谷"
+Inst33QAA = "18 个任务"
+Inst33QAH = "18 个任务"
+
+--Quest 1 Alliance
+Inst33Quest1 = "1. 战斗的召唤：奥特兰克山谷 (战场日常)"
+Inst33Quest1_Level = "51"
+Inst33Quest1_Attain = "51"
+Inst33Quest1_Aim = "在奥特兰克山谷战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命."
+Inst33Quest1_Location = "联盟准将:\n   沙塔斯城：贫民窟 "..YELLOW.."67,34"..WHITE.."\n   暴风城：暴风要塞 - "..YELLOW.."83,14"..WHITE.."\n   铁炉堡：武器大厅 - "..YELLOW.."70,91"..WHITE.."\n   达纳苏斯：战士区 - "..YELLOW.."59,36"..WHITE.."\n   埃索达：圣光穹顶 - "..YELLOW.."25,55"
+Inst33Quest1_Note = "战场日常任务."
+Inst33Quest1_Prequest = "无"
+Inst33Quest1_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst33Quest2 = "2. 国王的命令"
+Inst33Quest2_Level = "60"
+Inst33Quest2_Attain = "51"
+Inst33Quest2_Aim = "到希尔斯布莱德丘陵地区的奥特兰克山谷去。到那里之后，和哈格丁中尉谈谈."
+Inst33Quest2_Location = "洛泰姆中尉 (铁炉堡; "..YELLOW.."30,62"..WHITE..")"
+Inst33Quest2_Note = "哈格丁中尉 在(奥特兰克山脉; "..YELLOW.."39,81"..WHITE..")."
+Inst33Quest2_Prequest = "无"
+Inst33Quest2_Folgequest = "有，试炼场"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst33Quest3 = "3. 试炼场"
+Inst33Quest3_Level = "60"
+Inst33Quest3_Attain = "51"
+Inst33Quest3_Aim = "到主基地东南边的冰翼洞穴中去找到雷矛军旗，然后把它交给哈格丁中尉."
+Inst33Quest3_Location = "哈格丁中尉 (奥特兰克山谷; "..YELLOW.."39,81"..WHITE..")"
+Inst33Quest3_Note = "雷矛军旗在冰翼洞穴 "..YELLOW.."[11]"..WHITE.." 奥特兰克山谷北部地图. 当你声望提升到一个新的等级后，你可以与同一个NPC交谈领取更高级的雷矛徽章."
+Inst33Quest3_Prequest = "无"
+Inst33Quest3_Folgequest = "无"
+Inst33Quest3FQuest = "true"
+--
+Inst33Quest3name1 = "Stormpike Insignia Rank 1"
+Inst33Quest3name2 = "The Frostwolf Artichoke"
+
+--Quest 4 Alliance
+Inst33Quest4 = "4. 奥特兰克山谷的战斗"
+Inst33Quest4_Level = "60"
+Inst33Quest4_Attain = "51"
+Inst33Quest4_Aim = "进入奥特兰克山谷，击败部落将军德雷克塔尔。然后回到勘查员塔雷·石镐那里."
+Inst33Quest4_Location = "勘查员塔雷·石镐 (奥特兰克山脉; "..YELLOW.."41,78"..WHITE..") and\n(奥特兰克山谷 - 北部地图; "..YELLOW.."[B]"..WHITE..")"
+Inst33Quest4_Note = "德雷克塔尔 在 (奥特兰克山谷 - 南部地图; "..YELLOW.."[B]"..WHITE.."). 完成这个任务并不一定需要杀死德雷克塔尔，只要赢得奥特兰克山谷的战斗即可."
+Inst33Quest4_Prequest = "无"
+Inst33Quest4_Folgequest = "有，雷矛英雄"
+--
+Inst33Quest4name1 = "Bloodseeker"
+Inst33Quest4name2 = "Ice Barbed Spear"
+Inst33Quest4name3 = "Wand of Biting Cold"
+Inst33Quest4name4 = "Cold Forged Hammer"
+
+--Quest 5 Alliance
+Inst33Quest5 = "5. 军需官"
+Inst33Quest5_Level = "60"
+Inst33Quest5_Attain = "51"
+Inst33Quest5_Aim = "与雷矛军需官谈一谈."
+Inst33Quest5_Location = "巡山人布比罗 (奥特兰克山谷 - 北部地图; "..YELLOW.."[** MISSING INFO **]"..WHITE..")"
+Inst33Quest5_Note = "雷矛军需官 在 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..")."
+Inst33Quest5_Prequest = "无"
+Inst33Quest5_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst33Quest6 = "6. 冷齿矿洞的补给"
+Inst33Quest6_Level = "60"
+Inst33Quest6_Attain = "51"
+Inst33Quest6_Aim = "把10份冷齿矿洞补给品交给丹巴达尔的联盟军需官."
+Inst33Quest6_Location = "雷矛军需官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..")"
+Inst33Quest6_Note = "补给可以在冷齿矿洞找到 (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..")."
+Inst33Quest6_Prequest = "无"
+Inst33Quest6_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst33Quest7 = "7. 深铁矿洞的补给"
+Inst33Quest7_Level = "60"
+Inst33Quest7_Attain = "51"
+Inst33Quest7_Aim = "把10份深铁矿洞补给品交给丹巴达尔的联盟军需官."
+Inst33Quest7_Location = "雷矛军需官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..")"
+Inst33Quest7_Note = "补给可以在深铁矿洞找到 (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..")."
+Inst33Quest7_Prequest = "无"
+Inst33Quest7_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst33Quest8 = "8. 护甲碎片"
+Inst33Quest8_Level = "60"
+Inst33Quest8_Attain = "51"
+Inst33Quest8_Aim = "给丹巴达尔的莫高特·深炉带去20块护甲碎片."
+Inst33Quest8_Location = "莫高特·深炉 (奥特兰克山谷 - 北部地图; "..YELLOW.."[4]"..WHITE..")"
+Inst33Quest8_Note = "护甲碎片可以从对方阵营的玩家尸体中拾取，任务是可重复的."
+Inst33Quest8_Prequest = "无"
+Inst33Quest8_Folgequest = "有，更多的护甲碎片"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst33Quest9 = "9. 占领矿洞"
+Inst33Quest9_Level = "60"
+Inst33Quest9_Attain = "51"
+Inst33Quest9_Aim = "占领一座还没有被雷矛部族控制的矿洞，然后向丹巴达尔的雷矛军需官复命."
+Inst33Quest9_Location = "杜尔根·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest9_Note = "要完成这个任务，你需要杀死矿洞中的头目 (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..")  (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..") while the Horde control it."
+Inst33Quest9_Prequest = "无"
+Inst33Quest9_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst33Quest10 = "10. 哨塔和碉堡"
+Inst33Quest10_Level = "60"
+Inst33Quest10_Attain = "51"
+Inst33Quest10_Aim = "摧毁敌方的某座哨塔或者碉堡中的旗帜，然后向丹巴达尔的杜尔根·雷矛复命."
+Inst33Quest10_Location = "杜尔根·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest10_Note = "只需要烧毁旗帜即可，不需要一定摧毁哨塔或碉堡."
+Inst33Quest10_Prequest = "无"
+Inst33Quest10_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst33Quest11 = "11. 奥特兰克山谷的墓地"
+Inst33Quest11_Level = "60"
+Inst33Quest11_Attain = "51"
+Inst33Quest11_Aim = "占领一座墓地，然后向丹巴达尔的诺雷格·雷矛中尉复命."
+Inst33Quest11_Location = "诺雷格·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest11_Note = "只需要烧毁旗帜即可，不需要一定占领墓地."
+Inst33Quest11_Prequest = "无"
+Inst33Quest11_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst33Quest12 = "12. 补充坐骑"
+Inst33Quest12_Level = "60"
+Inst33Quest12_Attain = "51"
+Inst33Quest12_Aim = "找到奥特兰克山谷中的山羊。使用雷矛训练颈圈来驯服它们。被驯服的山羊会跟随你回到兽栏管理员那里，然后与兽栏管理员谈话以获得你的奖励."
+Inst33Quest12_Location = "兽栏管理员 (奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE..")"
+Inst33Quest12_Note = "你可以在基地南面找到这些羊，像猎人抓宠物一样驯服羊，然后带它回去复命."
+Inst33Quest12_Prequest = "无"
+Inst33Quest12_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst33Quest13 = "13. 山羊坐具"
+Inst33Quest13_Level = "60"
+Inst33Quest13_Attain = "51"
+Inst33Quest13_Aim = "进入敌人的基地，杀死霜狼获得它的皮来作为山羊坐骑的器具，去吧"
+Inst33Quest13_Location = "雷矛山羊骑兵指挥官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE..")"
+Inst33Quest13_Note = "霜狼可以在奥特兰克山谷的南部找到."
+Inst33Quest13_Prequest = "无"
+Inst33Quest13_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst33Quest14 = "14. 森林之王伊弗斯"
+Inst33Quest14_Level = "60"
+Inst33Quest14_Attain = "51"
+Inst33Quest14_Aim = "你可以躲避硝烟弥漫的战场，激烈战斗之外，你可以帮助我收集霜狼氏族身上的风暴水晶.."
+Inst33Quest14_Location = "大德鲁伊雷弗拉尔  (奥特兰克山谷 - 北部地图; "..YELLOW.."[2]"..WHITE..")"
+Inst33Quest14_Note = "大概需要200个水晶就能够召唤."
+Inst33Quest14_Note = "."
+Inst33Quest14_Prequest = "无"
+Inst33Quest14_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 15 Alliance
+Inst33Quest15 = "15. 森林之王伊弗斯"
+Inst33Quest15_Level = "60"
+Inst33Quest15_Attain = "51"
+Inst33Quest15_Aim = "霜狼氏族的战士身上带着一种名叫暴风水晶的符咒，我们可以用这些符咒来召唤伊弗斯。快去拿来那些水晶吧."
+Inst33Quest15_Location = "大德鲁伊雷弗拉尔 (奥特兰克山谷 - 北部地图; "..YELLOW.."[2]"..WHITE..")"
+Inst33Quest15_Note = "."
+Inst33Quest15_Prequest = "无"
+Inst33Quest15_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 16 Alliance
+Inst33Quest16 = "16. 天空的召唤 - 维波里的空军"
+Inst33Quest16_Level = "60"
+Inst33Quest16_Attain = "51"
+Inst33Quest16_Aim = "你必须去对付守卫前线的部落精英士兵!我现在命令你去削弱那些绿皮蛮子的力量，把他们的中尉和军团士兵的勋章给我拿来。当我拿到足够的勋章时，我会命令开始对他们进行空中打击的."
+Inst33Quest16_Location = "空军指挥官维波里 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest16_Note = "."
+Inst33Quest16_Prequest = "No"
+Inst33Quest16_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 17 Alliance
+Inst33Quest17 = "17. 天空的召唤 - 斯里多尔的空军"
+Inst33Quest17_Level = "60"
+Inst33Quest17_Attain = "51"
+Inst33Quest17_Aim = "我的狮鹫兽应该在前线作战，但是在那里的敌人被削弱之前，它们是无法发动攻击的。部落的战士胸前挂着代表荣誉的勋章勇猛冲锋，而你要做的就是从他们腐烂的尸体上把勋章拿下来，并把它们交视只要敌人在前线的力量受到足够的打击，我就会发出命令进行空袭!我们将从空中给敌人造成致命的创伤!!"
+Inst33Quest17_Location = "空军指挥官斯里多尔 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest17_Note = "."
+Inst33Quest17_Prequest = "无"
+Inst33Quest17_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 18 Alliance
+Inst33Quest18 = "18. 天空的召唤 - 艾克曼的空军"
+Inst33Quest18_Level = "60"
+Inst33Quest18_Attain = "51"
+Inst33Quest18_Aim = "它们的士气很低，战士。自从我们上次对部落的空中打击失败之后，它们就拒绝再次飞行!你必须鼓舞它们的士气。回到战场并攻击部落的核心力量，杀死他们的指挥官和卫兵。尽可能带回更多的勋章!我向你保证，当我的狮鹫兽看到这些战利品并嗅到敌人的鲜血时，它们就会再次起飞!现在就出发吧!"
+Inst33Quest18_Location = "空军指挥官艾克曼 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest18_Note = "."
+Inst33Quest18_Prequest = "无"
+Inst33Quest18_Folgequest = "无"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst33Quest1_HORDE = "1. Call to Arms: Alterac Valley (Daily)"
+Inst33Quest1_HORDE_Level = "51"
+Inst33Quest1_HORDE_Attain = "51"
+Inst33Quest1_HORDE_Aim = "Win an Alterac Valley battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
+Inst33Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst33Quest1_HORDE_Note = "This quest can be done once a day after reaching level 51. It yields varying amounts of experience and gold based on your level."
+Inst33Quest1_HORDE_Prequest = "No"
+Inst33Quest1_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst33Quest2_HORDE = "2. In Defense of Frostwolf"
+Inst33Quest2_HORDE_Level = "60"
+Inst33Quest2_HORDE_Attain = "51"
+Inst33Quest2_HORDE_Aim = "Venture to Alterac Valley, located in the Alterac Mountains. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alterac Valley north of Tarren Mill at the base of the Alterac Mountains."
+Inst33Quest2_HORDE_Location = "Frostwolf Ambassador Rokhstrom (Orgrimmar - Valley of Strength "..YELLOW.."50,71"..WHITE..")"
+Inst33Quest2_HORDE_Note = "Warmaster Laggrond is at (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")."
+Inst33Quest2_HORDE_Prequest = "No"
+Inst33Quest2_HORDE_Folgequest = "Yes, Proving Grounds"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst33Quest3_HORDE = "3. Proving Grounds"
+Inst33Quest3_HORDE_Level = "60"
+Inst33Quest3_HORDE_Attain = "51"
+Inst33Quest3_HORDE_Aim = "Travel to the Wildpaw cavern located southeast of the main base in Alterac Valley and find the Frostwolf Banner. Return the Frostwolf Banner to Warmaster Laggrond."
+Inst33Quest3_HORDE_Location = "Warmaster Laggrond (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")"
+Inst33Quest3_HORDE_Note = "The Frostwolf Banner is in the Wildpaw Cavern at (奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE.."). Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest, but it does yield about 9550 experience."
+Inst33Quest3_HORDE_Prequest = "Yes, In Defense of Frostwolf"
+Inst33Quest3_HORDE_Folgequest = "No"
+Inst33Quest3FQuest_HORDE = "true"
+--
+Inst33Quest3name1_HORDE = "Frostwolf Insignia Rank 1"
+Inst33Quest3name2_HORDE = "Peeling the Onion"
+
+--Quest 4 Horde
+Inst33Quest4_HORDE = "4. The Battle for Alterac"
+Inst33Quest4_HORDE_Level = "60"
+Inst33Quest4_HORDE_Attain = "51"
+Inst33Quest4_HORDE_Aim = "Enter Alterac Valley and defeat the dwarven general, Vanndar Stormpike. Then, return to Voggah Deathgrip in the Alterac Mountains."
+Inst33Quest4_HORDE_Location = "Voggah Deathgrip (Alterac Mountains; "..YELLOW.."64,60"..WHITE..")"
+Inst33Quest4_HORDE_Note = "Vanndar Stormpike is at (奥特兰克山谷 - 北部地图; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
+Inst33Quest4_HORDE_Prequest = "No"
+Inst33Quest4_HORDE_Folgequest = "Yes, Hero of the Frostwolf"
+--
+Inst33Quest4name1_HORDE = "Bloodseeker"
+Inst33Quest4name2_HORDE = "Ice Barbed Spear"
+Inst33Quest4name3_HORDE = "Wand of Biting Cold"
+Inst33Quest4name4_HORDE = "Cold Forged Hammer"
+
+--Quest 5 Horde
+Inst33Quest5_HORDE = "5. Speak with our Quartermaster"
+Inst33Quest5_HORDE_Level = "60"
+Inst33Quest5_HORDE_Attain = "51"
+Inst33Quest5_HORDE_Aim = "Speak with the Frostwolf Quartermaster."
+Inst33Quest5_HORDE_Location = "Jotek (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest5_HORDE_Note = "The Frostwolf Quartermaster is at "..YELLOW.."[10]"..WHITE.." and provides more quests."
+Inst33Quest5_HORDE_Prequest = "No"
+Inst33Quest5_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst33Quest6_HORDE = "6. Coldtooth Supplies"
+Inst33Quest6_HORDE_Level = "60"
+Inst33Quest6_HORDE_Attain = "51"
+Inst33Quest6_HORDE_Aim = "Bring 10 Coldtooth Supplies to the Horde Quatermaster in Frostwolf Keep."
+Inst33Quest6_HORDE_Location = "Frostwolf Quartermaster (奥特兰克山谷 - 南部地图; "..YELLOW.."[10]"..WHITE..")"
+Inst33Quest6_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..")."
+Inst33Quest6_HORDE_Prequest = "No"
+Inst33Quest6_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst33Quest7_HORDE = "7. Irondeep Supplies"
+Inst33Quest7_HORDE_Level = "60"
+Inst33Quest7_HORDE_Attain = "51"
+Inst33Quest7_HORDE_Aim = "Bring 10 Irondeep Supplies to the Horde Quartermaster in Frostwolf Keep."
+Inst33Quest7_HORDE_Location = "Frostwolf Quartermaster (奥特兰克山谷 - 南部地图; "..YELLOW.."[10]"..WHITE..")"
+Inst33Quest7_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..")."
+Inst33Quest7_HORDE_Prequest = "No"
+Inst33Quest7_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 8 Horde
+Inst33Quest8_HORDE = "8. Enemy Booty"
+Inst33Quest8_HORDE_Level = "60"
+Inst33Quest8_HORDE_Attain = "51"
+Inst33Quest8_HORDE_Aim = "Bring 20 Armor Scraps to Smith Regzar in Frostwolf Village."
+Inst33Quest8_HORDE_Location = "Smith Regzar (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest8_HORDE_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
+Inst33Quest8_HORDE_Prequest = "No"
+Inst33Quest8_HORDE_Folgequest = "Yes, More Booty!"
+-- No Rewards for this quest
+
+--Quest 9 Horde
+Inst33Quest9_HORDE = "9. Capture a Mine"
+Inst33Quest9_HORDE_Level = "60"
+Inst33Quest9_HORDE_Attain = "51"
+Inst33Quest9_HORDE_Aim = "Capture a mine, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
+Inst33Quest9_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest9_HORDE_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..") while the Alliance control it."
+Inst33Quest9_HORDE_Prequest = "No"
+Inst33Quest9_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 10 Horde
+Inst33Quest10_HORDE = "10. Towers and Bunkers"
+Inst33Quest10_HORDE_Level = "60"
+Inst33Quest10_HORDE_Attain = "51"
+Inst33Quest10_HORDE_Aim = "Capture an enemy tower, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
+Inst33Quest10_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest10_HORDE_Note = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted."
+Inst33Quest10_HORDE_Prequest = "No"
+Inst33Quest10_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 11 Horde
+Inst33Quest11_HORDE = "11. The Graveyards of Alterac"
+Inst33Quest11_HORDE_Level = "60"
+Inst33Quest11_HORDE_Attain = "51"
+Inst33Quest11_HORDE_Aim = "Assault a graveyard, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
+Inst33Quest11_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest11_HORDE_Note = "Reportedly you do not need to do anything but be near a graveyard when the Horde assaults it. It does not need to be captured, just assaulted."
+Inst33Quest11_HORDE_Prequest = "No"
+Inst33Quest11_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 12 Horde
+Inst33Quest12_HORDE = "12. Empty Stables"
+Inst33Quest12_HORDE_Level = "60"
+Inst33Quest12_HORDE_Attain = "51"
+Inst33Quest12_HORDE_Aim = "Locate a Frostwolf in Alterac Valley. Use the Frostwolf Muzzle when you are near the Frostwolf to 'tame' the beast. Once tamed, the Frostwolf will follow you back to the Frostwolf Stable Master. Speak with the Frostwolf Stable Master to earn credit for the capture."
+Inst33Quest12_HORDE_Location = "Frostwolf Stable Master (奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE..")"
+Inst33Quest12_HORDE_Note = "You can find a Frostwolf outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Frostwolf Cavalry will arrive to assist in the battle."
+Inst33Quest12_HORDE_Prequest = "No"
+Inst33Quest12_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 13 Horde
+Inst33Quest13_HORDE = "13. Ram Hide Harnesses"
+Inst33Quest13_HORDE_Level = "60"
+Inst33Quest13_HORDE_Attain = "51"
+Inst33Quest13_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
+Inst33Quest13_HORDE_Location = "Frostwolf Wolf Rider Commander (奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE..")"
+Inst33Quest13_HORDE_Note = "The Rams can be found in the northern area of Alterac Valley."
+Inst33Quest13_HORDE_Prequest = "No"
+Inst33Quest13_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 14 Horde
+Inst33Quest14_HORDE = "14. A Gallon of Blood"
+Inst33Quest14_HORDE_Level = "60"
+Inst33Quest14_HORDE_Attain = "51"
+Inst33Quest14_HORDE_Aim = "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings."
+Inst33Quest14_HORDE_Location = "Primalist Thurloga (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest14_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (奥特兰克山谷 - 南部地图; "..YELLOW.."[14]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
+Inst33Quest14_HORDE_Prequest = "No"
+Inst33Quest14_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 15 Horde
+Inst33Quest15_HORDE = "15. Lokholar the Ice Lord"
+Inst33Quest15_HORDE_Level = "60"
+Inst33Quest15_HORDE_Attain = "51"
+Inst33Quest15_HORDE_Aim = "You must strike down our enemies and bring to me their blood. Once enough blood has been gathered, the ritual of summoning may begin.\n\nVictory will be assured when the elemental lord is loosed upon the Stormpike army."
+Inst33Quest15_HORDE_Location = "Primalist Thurloga (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest15_HORDE_Note = "** MISSING INFO **"
+Inst33Quest15_HORDE_Prequest = "No"
+Inst33Quest15_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 16 Horde
+Inst33Quest16_HORDE = "16. Call of Air - Guse's Fleet"
+Inst33Quest16_HORDE_Level = "60"
+Inst33Quest16_HORDE_Attain = "51"
+Inst33Quest16_HORDE_Aim = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!"
+Inst33Quest16_HORDE_Location = "Wing Commander Guse (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest16_HORDE_Note = "Reportedly 90 flesh are needed to make the Wing Commander do whatever she does."
+Inst33Quest16_HORDE_Prequest = "No"
+Inst33Quest16_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 17 Horde
+Inst33Quest17_HORDE = "17. Call of Air - Jeztor's Fleet"
+Inst33Quest17_HORDE_Level = "60"
+Inst33Quest17_HORDE_Attain = "51"
+Inst33Quest17_HORDE_Aim = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Lieutenants."
+Inst33Quest17_HORDE_Location = "Wing Commander Jeztor (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest17_HORDE_Note = "** MISSING INFO **"
+Inst33Quest17_HORDE_Prequest = "No"
+Inst33Quest17_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 18 Horde
+Inst33Quest18_HORDE = "18. Call of Air - Mulverick's Fleet"
+Inst33Quest18_HORDE_Level = "60"
+Inst33Quest18_HORDE_Attain = "51"
+Inst33Quest18_HORDE_Aim = "First, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you."
+Inst33Quest18_HORDE_Location = "Wing Commander Mulverick (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest18_HORDE_Note = "** MISSING INFO **"
+Inst33Quest18_HORDE_Prequest = "No"
+Inst33Quest18_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+
+--------------- INST34 - Arathi Basin (AB) ---------------
+
+Inst34Story = "位于阿拉希高地的阿拉希盆地是一处激动人心的战场。盆地拥有丰富的资源，部落和联盟都对此垂涎不已。污染者和阿拉索联军在阿拉希盆地展开激战，想要为他们所在的阵营抢夺盆地中的资源."
+Inst34Caption = "阿拉希盆地"
+Inst34QAA = "4 个任务"
+Inst34QAH = "4 个任务"
+
+--Quest 1 Alliance
+Inst34Quest1 = "1. 战斗的召唤：阿拉希盆地 (战场日常)"
+Inst34Quest1_Level = "20"
+Inst34Quest1_Attain = "20"
+Inst34Quest1_Aim = "阿拉希盆地战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命."
+Inst34Quest1_Location = "联盟准将:\n   沙塔斯城：贫民窟 "..YELLOW.."67,34"..WHITE.."\n   暴风城：暴风要塞 - "..YELLOW.."83,14"..WHITE.."\n   铁炉堡：武器大厅 - "..YELLOW.."70,91"..WHITE.."\n   达纳苏斯：战士区 - "..YELLOW.."59,36"..WHITE.."\n   埃索达：圣光穹顶 - "..YELLOW.."25,55"
+Inst34Quest1_Note = "."
+Inst34Quest1_Prequest = "无"
+Inst34Quest1_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst34Quest2 = "2. The Battle for Arathi Basin!"
+Inst34Quest2_Level = "25"
+Inst34Quest2_Attain = "25"
+Inst34Quest2_Aim = "Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe."
+Inst34Quest2_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest2_Note = "The locations to be assaulted are marked on the map as 2 through 5."
+Inst34Quest2_Prequest = "No"
+Inst34Quest2_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst34Quest3 = "3. Control Four Bases"
+Inst34Quest3_Level = "60"
+Inst34Quest3_Attain = "60"
+Inst34Quest3_Aim = "Enter Arathi Basin, capture and control four bases at the same time, and then return to Field Marshal Oslight at Refuge Pointe."
+Inst34Quest3_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest3_Note = "You need to be Friendly with the League of Arathor to get this quest."
+Inst34Quest3_Prequest = "No"
+Inst34Quest3_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst34Quest4 = "4. Control Five Bases"
+Inst34Quest4_Level = "60"
+Inst34Quest4_Attain = "60"
+Inst34Quest4_Aim = "Control 5 bases in Arathi Basin at the same time, then return to Field Marshal Oslight at Refuge Pointe."
+Inst34Quest4_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest4_Note = "You need to be Exalted with the League of Arathor to get this quest."
+Inst34Quest4_Prequest = "No"
+Inst34Quest4_Folgequest = "No"
+--
+Inst34Quest4name1 = "Arathor Battle Tabard"
+
+
+--Quest 1 Horde
+Inst34Quest1_HORDE = "1. Call to Arms: Arathi Basin (Daily)"
+Inst34Quest1_HORDE_Level = "20"
+Inst34Quest1_HORDE_Attain = "20"
+Inst34Quest1_HORDE_Aim = "Win an Arathi Basin battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
+Inst34Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst34Quest1_HORDE_Note = "This quest can be done once a day after reaching level 20. It yields varying amounts of experience and gold based on your level."
+Inst34Quest1_HORDE_Prequest = "No"
+Inst34Quest1_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst34Quest2_HORDE = "2. The Battle for Arathi Basin!"
+Inst34Quest2_HORDE_Level = "25"
+Inst34Quest2_HORDE_Attain = "25"
+Inst34Quest2_HORDE_Aim = "Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall."
+Inst34Quest2_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest2_HORDE_Note = "The locations to be assaulted are marked on the map as 1 through 4."
+Inst34Quest2_HORDE_Prequest = "No"
+Inst34Quest2_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst34Quest3_HORDE = "3. Take Four Bases"
+Inst34Quest3_HORDE_Level = "60"
+Inst34Quest3_HORDE_Attain = "60"
+Inst34Quest3_HORDE_Aim = "Hold four bases at the same time in Arathi Basin, and then return to Deathmaster Dwire in Hammerfall."
+Inst34Quest3_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest3_HORDE_Note = "You need to be Friendly with The Defilers to get this quest."
+Inst34Quest3_HORDE_Prequest = "No"
+Inst34Quest3_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst34Quest4_HORDE = "4. Take Five Bases"
+Inst34Quest4_HORDE_Level = "60"
+Inst34Quest4_HORDE_Attain = "60"
+Inst34Quest4_HORDE_Aim = "Hold five bases in Arathi Basin at the same time, then return to Deathmaster Dwire in Hammerfall."
+Inst34Quest4_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest4_HORDE_Note = "You need to be Exalted with The Defilers to get this quest."
+Inst34Quest4_HORDE_Prequest = "No"
+Inst34Quest4_HORDE_Folgequest = "No"
+--
+Inst34Quest4name1_HORDE = "Battle Tabard of the Defilers"
+
+
+
+--------------- INST35 - Warsong Gulch (WSG) ---------------
+
+Inst35Story = "Nestled in the southern region of Ashenvale forest, Warsong Gulch is near the area where Grom Hellscream and his Orcs chopped away huge swaths of forest during the events of the Third War. Some orcs have remained in the vicinity, continuing their deforestation to fuel the Horde's expansion. They call themselves the Warsong Outriders.\nThe Night Elves, who have begun a massive push to retake the forests of Ashenvale, are now focusing their attention on ridding their land of the Outriders once and for all. And so, the Silverwing Sentinels have answered the call and sworn that they will not rest until every last Orc is defeated and cast out of Warsong Gulch. "
+Inst35Caption = "Warsong Gulch"
+Inst35QAA = "1 Quest"
+Inst35QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst35Quest1 = "1. 战斗的召唤：战歌峡谷 (战场日常)"
+Inst35Quest1_Level = "10"
+Inst35Quest1_Attain = "10"
+Inst35Quest1_Aim = "在战歌峡谷战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命."
+Inst35Quest1_Location = "联盟准将:\n   沙塔斯城：贫民窟 "..YELLOW.."67,34"..WHITE.."\n   暴风城：暴风要塞 - "..YELLOW.."83,14"..WHITE.."\n   铁炉堡：武器大厅 - "..YELLOW.."70,91"..WHITE.."\n   达纳苏斯：战士区 - "..YELLOW.."59,36"..WHITE.."\n   埃索达：圣光穹顶 - "..YELLOW.."25,55"
+Inst35Quest1_Note = "这是战场日常任务."
+Inst35Quest1_Prequest = "No"
+Inst35Quest1_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst35Quest1_HORDE = "1. Call to Arms: Warsong Gulch (Daily)"
+Inst35Quest1_HORDE_Level = "10"
+Inst35Quest1_HORDE_Attain = "10"
+Inst35Quest1_HORDE_Aim = "Win a Warsong Gulch battleground match and return to an Horde Warbringer at any Horde capital city or Shattrath."
+Inst35Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst35Quest1_HORDE_Note = "This quest can be done once a day after reaching level 10. It yields varying amounts of experience and gold based on your level."
+Inst35Quest1_HORDE_Prequest = "No"
+Inst35Quest1_HORDE_Folgequest = "No"
+-- No Rewards for this quest
+
+
+
+--------------- INST60 - Eye of the Storm ---------------
+
+Inst60Story = "Hovering high above the ravaged landscape of Netherstorm is the island known as Eye of the Storm. This battlefield is covted by the blood elves for its rich energy deposits - and the draenei seek to claim it due to its mysterious vessel - Tempest Keep."
+Inst60Caption = "Eye of the Storm"
+Inst60QAA = "1 Quest"
+Inst60QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst60Quest1 = "1. Call to Arms: Eye of the Storm (Daily)"
+Inst60Quest1_Level = "61"
+Inst60Quest1_Attain = "61"
+Inst60Quest1_Aim = "Win an Eye of the Storm battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
+Inst60Quest1_Location = "联盟准将:\n   沙塔斯城：贫民窟 "..YELLOW.."67,34"..WHITE.."\n   暴风城：暴风要塞 - "..YELLOW.."83,14"..WHITE.."\n   铁炉堡：武器大厅 - "..YELLOW.."70,91"..WHITE.."\n   达纳苏斯：战士区 - "..YELLOW.."59,36"..WHITE.."\n   埃索达：圣光穹顶 - "..YELLOW.."25,55"
+Inst60Quest1_Note = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level."
+Inst60Quest1_Prequest = "No"
+Inst60Quest1_Folgequest = "No"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst60Quest1_HORDE = "1. Call to Arms: Eye of the Storm (Daily)"
+Inst60Quest1_HORDE_Level = "61"
+Inst60Quest1_HORDE_Attain = "61"
+Inst60Quest1_HORDE_Aim = "Win an Eye of the Storm battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
+Inst60Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst60Quest1_HORDE_Note = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level."
+Inst60Quest1_HORDE_Prequest = "No"
+Inst60Quest1_HORDE_Folgequest = "No"
+-- No Rewards for this quest
 
 -----
 end
 -----
 
---    AQINSTANZ numbers
+---------------------------
+--- AQ Instance Numbers ---
+---------------------------
 
 -- 1  = Deadmines (VC)
 -- 2  = Wailing Caverns (WC)
@@ -8976,7 +10056,7 @@ end
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Kazzak
+-- 32 = Highlord Kruul
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
@@ -9006,5 +10086,12 @@ end
 -- 59 = SM: Graveyard (SM GY)
 -- 60 = Eye of the Storm
 -- 61 = TK: The Eye
+-- 62 = Black Temple (BT)
+-- 63 = Zul'Aman (ZA)
+-- 64 = Doom Lord Kazzak
+-- 65 = Doomwalker
+-- 66 = Skettis
+-- 67 = Magisters' Terrace
+-- 68 = Sunwell Plateau
 -- 62 = Black Temple (BT)
 -- 63 = Zul'Aman (ZA)
