@@ -457,8 +457,12 @@ function AtlasQuest_InstanzencheckAM()
 
 	if (AlphaMapAlphaMapFrame:IsVisible()) then
 		if (GamAlphaMapMap ~= nil) then -- check to prevent errors (post  ui.worldofwar dunno why error ocour)
-			if (GamAlphaMapMap.type == AM_TYP_RAID) then
-				if (GamAlphaMapMap.filename == "AM_Kazzak_Map") then
+			if (GamAlphaMapMap.type == AM_TYP_WORLDBOSSES) then
+				if (GamAlphaMapMap.filename == "AM_DoomKazzak_Map") then
+					AQINSTANZ = 64;
+				elseif (GamAlphaMapMap.filename == "AM_Doomwalker_Map") then
+					AQINSTANZ = 65;
+				elseif (GamAlphaMapMap.filename == "AM_Kazzak_Map") then
 					AQINSTANZ = 32;
 				elseif (GamAlphaMapMap.filename == "AM_Azuregos_Map") then
 					AQINSTANZ = 31;
