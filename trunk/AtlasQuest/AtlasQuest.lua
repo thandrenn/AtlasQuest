@@ -134,6 +134,11 @@ function AtlasQuest_Initialize()
     AQVersionCheck();
     AtlasQuest_LoadData();
   end
+
+  -- Register AQ Tooltip with EquipCompare if enabled.
+  if((AQCompareTooltip ~= nil) and EquipCompare_RegisterTooltip) then
+    EquipCompare_RegisterTooltip(AtlasQuestTooltip);
+  end
   Initialized = 1;
 end
 
@@ -751,7 +756,9 @@ local itemName, itemQuality
               AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
               AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
               if(AQCompareTooltip ~= nil) then
-                 AtlasQuestItem_ShowCompareItem();  -- Show Comparison Tooltip if option is on
+                if((EquipCompare_Enabled == nil) or (not EquipCompare_Enabled)) then  -- Only show this if EquipCompare isn't present or not enabled.
+                  AtlasQuestItem_ShowCompareItem();  -- Show Comparison Tooltip
+                end
               end
               AtlasQuestTooltip:Show();
         else

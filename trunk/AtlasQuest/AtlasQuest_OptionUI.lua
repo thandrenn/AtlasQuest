@@ -214,9 +214,17 @@ function AQCompareTooltipOption_OnClick()
  if (AQCompareTooltip == nil) then
    AQCompareTooltip = "yes";
    AQCompareTooltipOption:SetChecked(true);
+   if(EquipCompare_RegisterTooltip) then  -- Register AtlasQuest Tooltip with EquipCompare if it's enabled
+     EquipCompare_RegisterTooltip(AtlasQuestTooltip);
+   end
+
  else
    AQCompareTooltip = nil;
    AQCompareTooltipOption:SetChecked(false);
+   if(EquipCompare_RegisterTooltip) then  -- Unregister the AtlasQuest Tooltip with EquipCompare if it's enabled
+     EquipCompare_UnregisterTooltip(AtlasQuestTooltip);
+   end
+
  end
  AtlasQuest_SaveData();
 end

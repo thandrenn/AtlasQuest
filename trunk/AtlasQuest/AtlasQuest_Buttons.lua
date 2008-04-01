@@ -261,8 +261,9 @@ local itemName, itemQuality
              -- Yay for AutoQuery. Boo for odd variable names.
              -----------------------------------------------------------------------------
 
+             SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b);
+
              if(AQAutoQuery ~= nil) then
-               SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b);
                colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..b);
                nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..b);
 
@@ -275,7 +276,7 @@ local itemName, itemQuality
 
              end
 
-             getglobal("AtlasQuestItemframe"..b.."_Icon"):SetTexture("Interface\\Icons\\"..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."textur"..b));
+             getglobal("AtlasQuestItemframe"..b.."_Icon"):SetTexture(GetItemIcon(SHOWNID));
              getglobal("AtlasQuestItemframe"..b.."_Name"):SetText(AQgetItemInformation(b,"name"));
              getglobal("AtlasQuestItemframe"..b.."_Extra"):SetText(AQgetItemInformation(b,"extra"));
              getglobal("AtlasQuestItemframe"..b):Enable();
@@ -310,8 +311,9 @@ local itemName, itemQuality
              -- Yay for AutoQuery. Boo for odd variable names.
              -----------------------------------------------------------------------------
 
+             SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b.."_HORDE");
+
              if(AQAutoQuery ~= nil) then
-               SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..b.."_HORDE");
                colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..b.."_HORDE");
                nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..b.."_HORDE");
 
@@ -324,7 +326,7 @@ local itemName, itemQuality
 
              end
            
-             getglobal("AtlasQuestItemframe"..b.."_Icon"):SetTexture("Interface\\Icons\\"..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."textur"..b.."_HORDE"));
+             getglobal("AtlasQuestItemframe"..b.."_Icon"):SetTexture(GetItemIcon(SHOWNID));
              getglobal("AtlasQuestItemframe"..b.."_Name"):SetText(AQgetItemInformation(b,"name"));
              getglobal("AtlasQuestItemframe"..b.."_Extra"):SetText(AQgetItemInformation(b,"extra"));
              getglobal("AtlasQuestItemframe"..b):Enable();

@@ -4,9 +4,9 @@ ToDo List
 
 - BUG: /aq popping up Swatter error when used for first time. From Chawgobeh.
 - Investigate adding scrollbar
-- Use new 2.4 function to display item icon: GetItemIcon(item)
 - AlphaMap: Not all SM quests shown since AlphaMap doesn't split up SM maps. Blerg.
 - AlphaMap: Outdoor Raids not showing. Blerg.
+- Finish removing texture links in Items file (obsoleted by new function in 2.4)
 
 
 Cleanup Checklist:
