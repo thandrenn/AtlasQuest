@@ -5,6 +5,7 @@ Changelog
 Version 4.1.1
 
 - Fixed Quest complete checkboxes not working for Skettis and Magisters' Terrace.
+- Updated AlphaMap Outdoor Raid support.
 - Simplified Chinese localization updated by yeachan.
 - Re-added EquipCompare support. If Comparison Tooltips are enabled and EquipCompare is installed & enabled, AtlasQuest will use EquipCompare. Otherwise it'll use the built in Tooltips.
 
