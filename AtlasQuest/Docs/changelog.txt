@@ -5,6 +5,8 @@ Changelog
 Version 4.1.1
 
 - Fixed Quest complete checkboxes not working for Skettis and Magisters' Terrace.
+- Simplified Chinese localization updated by yeachan.
+- Re-added EquipCompare support. If Comparison Tooltips are enabled and EquipCompare is installed & enabled, AtlasQuest will use EquipCompare. Otherwise it'll use the built in Tooltips.
 
 - Quests added:
 	- Alterac Valley: The Sovereign Imperative (A)   (Thanks maqjav)
@@ -35,6 +37,7 @@ Version 4.1.1
 	- Alterac Valley: Call of Air - Guse's Fleet (H)   (Thanks maqjav)
 	- Alterac Valley: Call of Air - Jeztor's Fleet (H)   (Thanks maqjav)
 	- Alterac Valley: Call of Air - Mulverick's Fleet (H)   (Thanks maqjav)
+	- Shattered Halls: Entry Into the Citadel
 
 
 

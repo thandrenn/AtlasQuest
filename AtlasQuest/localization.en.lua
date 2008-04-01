@@ -6066,8 +6066,8 @@ Inst39Story = {
   ["MaxPages"] = "2",
 };
 Inst39Caption = "HFC: Shattered Halls"
-Inst39QAA = "9 Quests"
-Inst39QAH = "8 Quests"
+Inst39QAA = "10 Quests"
+Inst39QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst39Quest1 = "1. Fel Embers"
@@ -6181,6 +6181,19 @@ Inst39Quest9_Folgequest = "No"
 --
 Inst39Quest9name1 = "Ethereum Prison Key"
 
+--Quest 10 Alliance
+Inst39Quest10 = "10. Entry Into the Citadel"
+Inst39Quest10_Level = "70"
+Inst39Quest10_Attain = "68"
+Inst39Quest10_Aim = "Bring the Primed Key Mold to Force Commander Danath at Honor Hold in Hellfire Peninsula."
+Inst39Quest10_Location = "Primed Key Mold  (drops from Smith Gorlunk in Shadowmoon Valley - Temple of Karabor; "..YELLOW.."67,36"..WHITE..")"
+Inst39Quest10_Note = "The Smith that drops the Primed Key Mold is easily soloable and very easily reachable with a flying mount.\n\nForce Commander Danath is at (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,67"..WHITE.."). He sends you to Grand Master Dumphry for the next part of the quest at (Hellfire Peninsula - Honor Hold; "..YELLOW.."51,60"..WHITE..")..."
+Inst39Quest10_Page = {2, "Grand Master Dumphry will ask for 4 x [Fel Iron Bar], 2 x [Arcane Dust] and 4 x [Mote of Fire].\n\nAfter turning the materials in you need to use the Charred Key Mold he gives you at the corpse of a Fel Reaver. You do not need to kill the Fel Reaver yourself, just use the mold at it.\n\nReturn to Grand Master Dumphry at (Hellfire Peninsula - Honor Hold; "..YELLOW.."51,60"..WHITE..") for your reward.", };
+Inst39Quest10_Prequest = "No"
+Inst39Quest10_Folgequest = "Yes, Grand Master Dumphry -> Hotter than Hell"
+--
+Inst39Quest10name1 = "Shattered Halls Key"
+
 
 --Quest 1 Horde  (same as Quest 2 Alliance - different NPC to turn in)
 Inst39Quest1_HORDE = "1. Pride of the Fel Horde"
@@ -6277,6 +6290,20 @@ Inst39Quest8_HORDE_Prequest = Inst39Quest9_Prequest
 Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
 --
 Inst39Quest8name1_HORDE = Inst39Quest9name1
+
+--Quest 9 Horde
+Inst39Quest9_HORDE = "9. Entry Into the Citadel"
+Inst39Quest9_HORDE_Level = "70"
+Inst39Quest9_HORDE_Attain = "68"
+Inst39Quest9_HORDE_Aim = "Bring the Primed Key Mold to Nazgrel at Thrallmar in Hellfire Peninsula."
+Inst39Quest9_HORDE_Location = "Primed Key Mold  (drops from Smith Gorlunk in Shadowmoon Valley - Temple of Karabor; "..YELLOW.."67,36"..WHITE..")"
+Inst39Quest9_HORDE_Note = "The Smith that drops the Primed Key Mold is easily soloable and very easily reachable with a flying mount.\n\nNazgrel is at (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE.."). He sends you to Grand Master Rohok for the next part of the quest at (Hellfire Peninsula - Thrallmar; "..YELLOW.."53,38"..WHITE..")..."
+Inst39Quest9_HORDE_Page = {2, "Grand Master Rohok will ask for 4 x [Fel Iron Bar], 2 x [Arcane Dust] and 4 x [Mote of Fire].\n\nAfter turning the materials in you need to use the Charred Key Mold he gives you at the corpse of a Fel Reaver. You do not need to kill the Fel Reaver yourself, just use the mold at it.\n\nReturn to Grand Master Rohok at (Hellfire Peninsula - Thrallmar; "..YELLOW.."53,38"..WHITE..") for your reward.", };
+Inst39Quest9_HORDE_Prequest = "No"
+Inst39Quest9_HORDE_Folgequest = "Yes, Grand Master Rohok -> Hotter than Hell"
+--
+Inst39Quest9name1_HORDE = "Shattered Halls Key"
+
 
 
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
@@ -9308,7 +9335,7 @@ Inst33Quest4 = "4. The Battle of Alterac"
 Inst33Quest4_Level = "60"
 Inst33Quest4_Attain = "51"
 Inst33Quest4_Aim = "Enter Alterac Valley, defeat the Horde general Drek'thar, and then return to Prospector Stonehewer in the Alterac Mountains."
-Inst33Quest4_Location = "Prospector Stonehewer (Alterac Mountains; "..YELLOW.."41,78"..WHITE..") and\n(Alterac Valley - North; "..YELLOW.."[B]"..WHITE..")"
+Inst33Quest4_Location = "Prospector Stonehewer (Alterac Mountains; "..YELLOW.."41,80"..WHITE..") and\n(Alterac Valley - North; "..YELLOW.."[B]"..WHITE..")"
 Inst33Quest4_Note = "Drek'thar is at (Alterac Valley - South; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
 Inst33Quest4_Prequest = "No"
 Inst33Quest4_Folgequest = "Yes, Hero of the Stormpike"
@@ -9367,7 +9394,7 @@ Inst33Quest9 = "9. Capture a Mine"
 Inst33Quest9_Level = "60"
 Inst33Quest9_Attain = "51"
 Inst33Quest9_Aim = "Capture a mine that the Stormpike does not control, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
-Inst33Quest9_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest9_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
 Inst33Quest9_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Horde control it."
 Inst33Quest9_Prequest = "No"
 Inst33Quest9_Folgequest = "No"
@@ -9378,7 +9405,7 @@ Inst33Quest10 = "10. Towers and Bunkers"
 Inst33Quest10_Level = "60"
 Inst33Quest10_Attain = "51"
 Inst33Quest10_Aim = "Destroy the banner at an enemy tower or bunker, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
-Inst33Quest10_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest10_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
 Inst33Quest10_Note = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted."
 Inst33Quest10_Prequest = "No"
 Inst33Quest10_Folgequest = "No"
@@ -9389,7 +9416,7 @@ Inst33Quest11 = "11. Alterac Valley Graveyards"
 Inst33Quest11_Level = "60"
 Inst33Quest11_Attain = "51"
 Inst33Quest11_Aim = "Assault a graveyard, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
-Inst33Quest11_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,78"..WHITE..")"
+Inst33Quest11_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
 Inst33Quest11_Note = "Reportedly you do not need to do anything but be near a graveyard when the Alliance assaults it. It does not need to be captured, just assaulted."
 Inst33Quest11_Prequest = "No"
 Inst33Quest11_Folgequest = "No"
@@ -9479,7 +9506,7 @@ Inst33Quest1_HORDE = "1. Call to Arms: Alterac Valley (Daily)"
 Inst33Quest1_HORDE_Level = "51"
 Inst33Quest1_HORDE_Attain = "51"
 Inst33Quest1_HORDE_Aim = "Win an Alterac Valley battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst33Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst33Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
 Inst33Quest1_HORDE_Note = "This quest can be done once a day after reaching level 51. It yields varying amounts of experience and gold based on your level."
 Inst33Quest1_HORDE_Prequest = "No"
 Inst33Quest1_HORDE_Folgequest = "No"
@@ -9738,7 +9765,7 @@ Inst34Quest1_HORDE = "1. Call to Arms: Arathi Basin (Daily)"
 Inst34Quest1_HORDE_Level = "20"
 Inst34Quest1_HORDE_Attain = "20"
 Inst34Quest1_HORDE_Aim = "Win an Arathi Basin battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst34Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst34Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
 Inst34Quest1_HORDE_Note = "This quest can be done once a day after reaching level 20. It yields varying amounts of experience and gold based on your level."
 Inst34Quest1_HORDE_Prequest = "No"
 Inst34Quest1_HORDE_Folgequest = "No"
@@ -9803,7 +9830,7 @@ Inst35Quest1_HORDE = "1. Call to Arms: Warsong Gulch (Daily)"
 Inst35Quest1_HORDE_Level = "10"
 Inst35Quest1_HORDE_Attain = "10"
 Inst35Quest1_HORDE_Aim = "Win a Warsong Gulch battleground match and return to an Horde Warbringer at any Horde capital city or Shattrath."
-Inst35Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst35Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
 Inst35Quest1_HORDE_Note = "This quest can be done once a day after reaching level 10. It yields varying amounts of experience and gold based on your level."
 Inst35Quest1_HORDE_Prequest = "No"
 Inst35Quest1_HORDE_Folgequest = "No"
@@ -9834,7 +9861,7 @@ Inst60Quest1_HORDE = "1. Call to Arms: Eye of the Storm (Daily)"
 Inst60Quest1_HORDE_Level = "61"
 Inst60Quest1_HORDE_Attain = "61"
 Inst60Quest1_HORDE_Aim = "Win an Eye of the Storm battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst60Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
+Inst60Quest1_HORDE_Location = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."80,30"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."56,77"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."61,88"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97,38"
 Inst60Quest1_HORDE_Note = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level."
 Inst60Quest1_HORDE_Prequest = "No"
 Inst60Quest1_HORDE_Folgequest = "No"
