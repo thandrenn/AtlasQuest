@@ -78,5 +78,5 @@ DONE  	DONE	63 = Zul'Aman (ZA)
 N/A	N/A	64 = Doom Lord Kazzak
 N/A	N/A	65 = Doomwalker
 DONE	DONE	66 = Skettis
-DONE 	--	67 = Magisters' Terrace
+DONE 	DONE	67 = Magisters' Terrace
 -- 	--	68 = Sunwell Plateau
