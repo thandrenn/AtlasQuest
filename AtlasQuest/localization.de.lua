@@ -6074,8 +6074,8 @@ Inst39Story = {
   ["MaxPages"] = "2",
 };
 Inst39Caption = "HZ: Die zerschmetterten Hallen"
-Inst39QAA = "9 Quests"
-Inst39QAH = "8 Quests"
+Inst39QAA = "10 Quests"
+Inst39QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst39Quest1 = "1. Teufelsglut"
@@ -6189,6 +6189,19 @@ Inst39Quest9_Folgequest = "Nein"
 --
 Inst39Quest9name1 = "Gefängnisschlüssel des Astraleums"
 
+--Quest 10 Alliance
+Inst39Quest10 = "10. Zugang zur Zitadelle"
+Inst39Quest10_Level = "70"
+Inst39Quest10_Attain = "68"
+Inst39Quest10_Aim = "Bringt die präparierte Schlüsselform zu Truppenkommandant Danath in der Ehrenfeste auf der Höllenfeuerhalbinsel."
+Inst39Quest10_Location = "Präparierte Schlüsselform (droppt von Schmied Gorlunk im Schattenmondtal - Terrasse von Ata'mal; "..YELLOW.."68,36"..WHITE..")"
+Inst39Quest10_Note = "Der Schmied, der die Präparierte Schlüsselform droppt ist leicht mit einem Flugtier zu erreichen und es ist nicht schwierig ihn alleine zu töten.\n\nTruppenkommandant Danath befindet sich bei (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,67"..WHITE.."). Er schickt euch zu Großmeister Dumphry bei (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."51,60"..WHITE..") für den nächsten Teil des Quests..."
+Inst39Quest10_Page = {2, "Großmeister Dumphry will 4 x [Teufelseisenbarren], 2 x [Arkaner Staub] and 4 x [Feuerpartikel] von euch.\n\nNachdem ihr die Materialien abgegeben habt müsst ihr die Verkohlte Schlüsselform, die er euch gibt, mit dem Körper eines toten Teufelshäscher benutzen. Ihr müsst den Teufelshäscher nicht selbst getötet haben, damit es funktioniert.\n\nKehrt zu Großmeister Dumphry bei (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."51,60"..WHITE..") zurück, um eure Belohnung abzuholen.", };
+Inst39Quest10_Prequest = "Nein"
+Inst39Quest10_Folgequest = "Ja, Großmeister Dumphry -> Heißer als die Hölle"
+--
+Inst39Quest10name1 = "Schlüssel der zerschmetterten Hallen"
+
 
 --Quest 1 Horde  (same as Quest 2 Alliance - different NPC to turn in)
 Inst39Quest1_HORDE = "1. Der Stolz der Höllenhorde"
@@ -6285,6 +6298,19 @@ Inst39Quest8_HORDE_Prequest = Inst39Quest9_Prequest
 Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
 --
 Inst39Quest8name1_HORDE = Inst39Quest9name1
+
+--Quest 9 Horde
+Inst39Quest9_HORDE = "9. Zugang zur Zitadelle"
+Inst39Quest9_HORDE_Level = "70"
+Inst39Quest9_HORDE_Attain = "68"
+Inst39Quest9_HORDE_Aim = "Bringt die präparierte Schlüsselform zu Truppenkommandant Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
+Inst39Quest9_HORDE_Location = "Präparierte Schlüsselform (droppt von Schmied Gorlunk im Schattenmondtal - Terrasse von Ata'mal; "..YELLOW.."68,36"..WHITE..")"
+Inst39Quest9_HORDE_Note = "Der Schmied, der die Präparierte Schlüsselform droppt ist leicht mit einem Flugtier zu erreichen und es ist nicht schwierig ihn alleine zu töten.\n\nNazgrel befindet sich bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE.."). Er schickt euch zu Großmeister Rohok bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."53,38"..WHITE..") für den nächsten Teil des Quests..."
+Inst39Quest9_HORDE_Page = {2, "Großmeister Rohok will 4 x [Teufelseisenbarren], 2 x [Arkaner Staub] and 4 x [Feuerpartikel] von euch.\n\nNachdem ihr die Materialien abgegeben habt müsst ihr die Verkohlte Schlüsselform, die er euch gibt, mit dem Körper eines toten Teufelshäscher benutzen. Ihr müsst den Teufelshäscher nicht selbst getötet haben, damit es funktioniert.\n\nKehrt zu Großmeister Rohok bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."53,38"..WHITE..") zurück, um eure Belohnung abzuholen.", };
+Inst39Quest9_HORDE_Prequest = "Nein"
+Inst39Quest9_HORDE_Folgequest = "Ja, Großmeister Rohok -> Heißer als die Hölle"
+--
+Inst39Quest9name1_HORDE = "Schlüssel der zerschmetterten Hallen"
 
 
 
@@ -9123,8 +9149,135 @@ Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 Inst67Story = "Die Terrasse der Magister ist eine 5-Mann Instanz, die sich in der nord-östlichen Ecke der Insel von Quel'Danas befindet, die mit Patch 2.4.0 veröffentlicht wird. Die Instanz beinhalted hauptsächlich Außenareale, ist in der selben Architektur wie Silbermond gehalten und hat ein Observatorium, mit dem Spieler Sterne und den Sonnenbrunnen betrachten können, um zu überprüfen, ob alles nach Plan gelaufen ist.\n\nDer Endgegner ist niemand Geringerer als Kael'thas Sonnenwanderer,  der seine Prüfung in der Festung der Stürme überlebt hat. Auch wenn manche glauben er wäre wirklich gestorben, aber von einer größeren Macht wieder zum Leben erweckt worden, was auch den grünen Kristall in seiner Brust erklären würde.\n\nBei der Hälfte der Instanz erhält der Spieler die Möglichkeit mit der Seherkugel einen Blick in das Sonnenbrunnenplateau zu werfen. Danach trift der Spieler auf Kalec, den halb-elfischen Avatar des blauen Drachen Kalecgos."
 Inst67Caption = "Terrasse der Magister"
-Inst67QAA = "Keine Quests"
-Inst67QAH = "Keine Quests"
+Inst67QAA = "5 Quests"
+Inst67QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst67Quest1 = "1. Gesucht: Schwestern der Qual (Tagesquest)"
+Inst67Quest1_Level = "70"
+Inst67Quest1_Attain = "70"
+Inst67Quest1_Aim = "Netherpirscher Mah'duun möchte, dass Ihr 4 Schwestern der Qual erschlagt. Kehrt zu ihm in das untere Viertel in Shattrath zurück, sobald Ihr sie getötet habt, um das Kopfgeld einzufordern."
+Inst67Quest1_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest1_Note = "Es handelt sich um ein Tagesquest."
+Inst67Quest1_Prequest = "Nein"
+Inst67Quest1_Folgequest = "Nein"
+--
+Inst67Quest1name1 = "Gefängnisschlüssel des Astraleums"
+
+--Quest 2 Alliance
+Inst67Quest2 = "2. Gesucht: Der Siegelring von Prinz Kael'thas (Heroisches Tagesquest)"
+Inst67Quest2_Level = "70"
+Inst67Quest2_Attain = "70"
+Inst67Quest2_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm den Siegelring von Prinz Kael'thas zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst67Quest2_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest2_Note = "Dieses Tagesquest kann nur im heroischen Modus abgeschlossen werden.\n\nPrinz Kael'thas Sonnenwanderer befindet sich bei "..YELLOW.."[6]"..WHITE.."."
+Inst67Quest2_Prequest = "Nein"
+Inst67Quest2_Folgequest = "Nein"
+--
+Inst67Quest2name1 = "Abzeichen der Gerechtigkeit"
+
+--Quest 3 Alliance
+Inst67Quest3 = "3. Terrasse der Magister"
+Inst67Quest3_Level = "70"
+Inst67Quest3_Attain = "70"
+Inst67Quest3_Aim = "Exarch Larethor beim Sammelpunkt der Zerschmetterten Sonne möchte, dass Ihr die Terrasse der Magister absucht und einen Blutelfenspion namens Tyrith findet."
+Inst67Quest3_Location = "Exarch Larethor (Insel von Quel'Danas - Sammelpunkt der Zerschmetterten Sonne; "..YELLOW.."47,31"..WHITE..")"
+Inst67Quest3_Note = "Tyrith befindet sich innerhalb der Instanz bei "..YELLOW.."[2]"..WHITE..". Diese Questreihe schaltet den Heroischen Modus frei.\n\nDas Vorquest gibt es entweder von Adyen dem Lichtwächter (Shattrath - Aldorhöhe; "..YELLOW.."35,36"..WHITE..") oder Dathris Sonnensturm (Shattrath - Sehertreppe; "..YELLOW.."55,80"..WHITE..")."
+Inst67Quest3_Prequest = "Ja, Krise am Sonnenbrunnen oder Pflicht ruft"
+Inst67Quest3_Folgequest = "Ja, Der Seher der Seher"
+Inst67Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst67Quest4 = "4. Der Seher der Seher"
+Inst67Quest4_Level = "70"
+Inst67Quest4_Attain = "70"
+Inst67Quest4_Aim = "Tyrith möchte, dass Ihr die Kugel auf dem Balkon auf der Terrasse der Magister benutzt."
+Inst67Quest4_Location = "Tyrith (Terrasse der Magister; "..YELLOW.."[2]"..WHITE..")"
+Inst67Quest4_Note = "Die Seherkugel befindet sich bei "..YELLOW.."[4]"..WHITE..". Nach der Sequenz erscheint Kalecgos, um das nächste Quest zu starten."
+Inst67Quest4_Prequest = "Ja, Terrasse der Magister"
+Inst67Quest4_Folgequest = "Ja, Nicht totzukriegen"
+Inst67Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst67Quest5 = "5. Nicht totzukriegen"
+Inst67Quest5_Level = "70"
+Inst67Quest5_Attain = "70"
+Inst67Quest5_Aim = "Kalecgos hat Euch damit beauftragt, Kael'thas auf der Terrasse der Magister zu bezwingen. Ihr sollt Euch mit Kaels Kopf bei Larethor am Sammelpunkt der Zerschmetterten Sonne treffen."
+Inst67Quest5_Location = "Kalecgos (Terrasse der Magister; "..YELLOW.."[4]"..WHITE..")"
+Inst67Quest5_Note = "Prinz Kael'thas Sonnenwanderer befindet sich bei "..YELLOW.."[6]"..WHITE..". Nach Abschluss des Quests ist es möglich die Instanz im heroischen Modus zu absolvieren.\n\nLarethor befindet sich bei (Insel von Quel'Danas - Sammelpunkt der Zerschmetterten Sonne; "..YELLOW.."47,31"..WHITE..")."
+Inst67Quest5_Prequest = "Ja, Der Seher der Seher"
+Inst67Quest5_Folgequest = "Nein"
+Inst67Quest5FQuest = "true"
+--
+Inst67Quest5name1 = "Heller Purpurspinell"
+Inst67Quest5name2 = "Runenverzierter Purpurspinell"
+Inst67Quest5name3 = "Tränenförmiger Purpurspinell"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst67Quest1_HORDE = Inst67Quest1
+Inst67Quest1_HORDE_Level = Inst67Quest1_Level
+Inst67Quest1_HORDE_Attain = Inst67Quest1_Attain
+Inst67Quest1_HORDE_Aim = Inst67Quest1_Aim
+Inst67Quest1_HORDE_Location = Inst67Quest1_Location
+Inst67Quest1_HORDE_Note = Inst67Quest1_Note
+Inst67Quest1_HORDE_Prequest = Inst67Quest1_Prequest
+Inst67Quest1_HORDE_Folgequest = Inst67Quest1_Folgequest
+--
+Inst67Quest1name1_HORDE = Inst67Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst67Quest2_HORDE = Inst67Quest2
+Inst67Quest2_HORDE_Level = Inst67Quest2_Level
+Inst67Quest2_HORDE_Attain = Inst67Quest2_Attain
+Inst67Quest2_HORDE_Aim = Inst67Quest2_Aim
+Inst67Quest2_HORDE_Location = Inst67Quest2_Location
+Inst67Quest2_HORDE_Note = Inst67Quest2_Note
+Inst67Quest2_HORDE_Prequest = Inst67Quest2_Prequest
+Inst67Quest2_HORDE_Folgequest = Inst67Quest2_Folgequest
+--
+Inst67Quest2name1_HORDE = Inst67Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst67Quest3_HORDE = Inst67Quest3
+Inst67Quest3_HORDE_Level = Inst67Quest3_Level
+Inst67Quest3_HORDE_Attain = Inst67Quest3_Attain
+Inst67Quest3_HORDE_Aim = Inst67Quest3_Aim
+Inst67Quest3_HORDE_Location = Inst67Quest3_Location
+Inst67Quest3_HORDE_Note = Inst67Quest3_Note
+Inst67Quest3_HORDE_Prequest = Inst67Quest3_Prequest
+Inst67Quest3_HORDE_Folgequest = Inst67Quest3_Folgequest
+Inst67Quest3PreQuest_HORDE = Inst67Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst67Quest4_HORDE = Inst67Quest4
+Inst67Quest4_HORDE_Level = Inst67Quest4_Level
+Inst67Quest4_HORDE_Attain = Inst67Quest4_Attain
+Inst67Quest4_HORDE_Aim = Inst67Quest4_Aim
+Inst67Quest4_HORDE_Location = Inst67Quest4_Location
+Inst67Quest4_HORDE_Note = Inst67Quest4_Note
+Inst67Quest4_HORDE_Prequest = Inst67Quest4_Prequest
+Inst67Quest4_HORDE_Folgequest = Inst67Quest4_Folgequest
+Inst67Quest4FQuest_HORDE = Inst67Quest4FQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst67Quest5_HORDE = Inst67Quest5
+Inst67Quest5_HORDE_Level = Inst67Quest5_Level
+Inst67Quest5_HORDE_Attain = Inst67Quest5_Attain
+Inst67Quest5_HORDE_Aim = Inst67Quest5_Aim
+Inst67Quest5_HORDE_Location = Inst67Quest5_Location
+Inst67Quest5_HORDE_Note = Inst67Quest5_Note
+Inst67Quest5_HORDE_Prequest = Inst67Quest5_Prequest
+Inst67Quest5_HORDE_Folgequest = Inst67Quest5_Folgequest
+Inst67Quest5FQuest_HORDE = Inst67Quest5FQuest
+--
+Inst67Quest5name1_HORDE = Inst67Quest5name1
+Inst67Quest5name2_HORDE = Inst67Quest5name2
+Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 
 
@@ -9166,7 +9319,7 @@ Inst33Quest1_HORDE = "1. Ruf zu den Waffen: Alteractal (Tagesquest)"
 Inst33Quest1_HORDE_Level = "51"
 Inst33Quest1_HORDE_Attain = "51"
 Inst33Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Alteractal und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst33Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst33Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
 Inst33Quest1_HORDE_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 51 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
 Inst33Quest1_HORDE_Prequest = "Nein"
 Inst33Quest1_HORDE_Folgequest = "Nein"
@@ -9232,7 +9385,7 @@ Inst34Quest1_HORDE = "1. Ruf zu den Waffen: Arathibecken (Tagesquest)"
 Inst34Quest1_HORDE_Level = "20"
 Inst34Quest1_HORDE_Attain = "20"
 Inst34Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Arathibecken und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst34Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst34Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
 Inst34Quest1_HORDE_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 20 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
 Inst34Quest1_HORDE_Prequest = "Nein"
 Inst34Quest1_HORDE_Folgequest = "Nein"
@@ -9297,7 +9450,7 @@ Inst35Quest1_HORDE = "1. Ruf zu den Waffen: Kriegshymnenschlucht (Tagesquest)"
 Inst35Quest1_HORDE_Level = "10"
 Inst35Quest1_HORDE_Attain = "10"
 Inst35Quest1_HORDE_Aim = "Gewinnt eine Schlacht in der Kriegshymnenschlucht und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst35Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst35Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
 Inst35Quest1_HORDE_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 10 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
 Inst35Quest1_HORDE_Prequest = "Nein"
 Inst35Quest1_HORDE_Folgequest = "Nein"
@@ -9328,7 +9481,7 @@ Inst60Quest1_HORDE = "1. Ruf zu den Waffen: Auge des Sturms (Tagesquest)"
 Inst60Quest1_HORDE_Level = "61"
 Inst60Quest1_HORDE_Attain = "61"
 Inst60Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Auge des Sturms und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst60Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."70,54"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst60Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
 Inst60Quest1_HORDE_Note = "Dieses Quest kann einmal täglich absolviert werden, sobald man Stufe 61 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
 Inst60Quest1_HORDE_Prequest = "Nein"
 Inst60Quest1_HORDE_Folgequest = "Nein"
