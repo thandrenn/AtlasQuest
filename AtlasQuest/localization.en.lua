@@ -7418,8 +7418,8 @@ Inst47Quest11name1_HORDE = Inst47Quest11name1
 
 Inst48Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst48Caption = "CR: Serpentshrine Cavern"
-Inst48QAA = "1 Quest"
-Inst48QAH = "1 Quest"
+Inst48QAA = "2 Quests"
+Inst48QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst48Quest1 = "1. The Vials of Eternity"
@@ -7432,6 +7432,18 @@ Inst48Quest1_Prequest = "No"
 Inst48Quest1_Folgequest = "No"
 -- No Rewards for this quest
 
+--Quest 1 Alliance
+Inst48Quest2 = "2. The Secret Compromised"
+Inst48Quest2_Level = "70"
+Inst48Quest2_Attain = "70"
+Inst48Quest2_Aim = "Travel to the Warden's Cage in Shadowmoon Valley and speak to Akama."
+Inst48Quest2_Location = "Seer Olum (Serpentshrine Cavern; "..YELLOW.."[4]"..WHITE..")"
+Inst48Quest2_Note = "Akama is at (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..").\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62,38"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56,59"..WHITE..") for Scryers."
+Inst48Quest2_Prequest = "Yes, Tablets of Baa'ri -> Akama's Promise"
+Inst48Quest2_Folgequest = "Yes, Ruse of the Ashtongue ("..YELLOW.."TK: The Eye"..WHITE..")"
+Inst48Quest2PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst48Quest1_HORDE = Inst48Quest1
@@ -7442,6 +7454,18 @@ Inst48Quest1_HORDE_Location = Inst48Quest1_Location
 Inst48Quest1_HORDE_Note = Inst48Quest1_Note
 Inst48Quest1_HORDE_Prequest = Inst48Quest1_Prequest
 Inst48Quest1_HORDE_Folgequest = Inst48Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst48Quest2_HORDE = Inst48Quest2
+Inst48Quest2_HORDE_Level = Inst48Quest2_Level
+Inst48Quest2_HORDE_Attain = Inst48Quest2_Attain
+Inst48Quest2_HORDE_Aim = Inst48Quest2_Aim
+Inst48Quest2_HORDE_Location = Inst48Quest2_Location
+Inst48Quest2_HORDE_Note = Inst48Quest2_Note
+Inst48Quest2_HORDE_Prequest = Inst48Quest2_Prequest
+Inst48Quest2_HORDE_Folgequest = Inst48Quest2_Folgequest
+Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
 -- No Rewards for this quest
 
 
@@ -8211,7 +8235,7 @@ Inst54Quest2_Level = "70"
 Inst54Quest2_Attain = "68"
 Inst54Quest2_Aim = "Find Seer Udalo inside the Arcatraz in Tempest Keep."
 Inst54Quest2_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")"
-Inst54Quest2_Note = "This is part of a chain quest that starts in Shadowmoon Valley at "..YELLOW.."62,38"..WHITE.." for Aldor and "..YELLOW.."56,59"..WHITE.." for Scryers."
+Inst54Quest2_Note = "Seer Udalo is at "..YELLOW.."[5]"..WHITE..", just before the room with the final boss.\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62,38"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56,59"..WHITE..") for Scryers."
 Inst54Quest2_Prequest = "Yes, Tablets of Baa'ri -> Akama"
 Inst54Quest2_Folgequest = "Yes, A Mysterious Portent"
 Inst54Quest2PreQuest = "true"
@@ -8777,7 +8801,7 @@ Inst61Quest1_Attain = "70"
 Inst61Quest1_Aim = "Travel into Tempest Keep and slay Al'ar while wearing the Ashtongue Cowl. Return to Akama in Shadowmoon Valley once you've completed this task."
 Inst61Quest1_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")"
 Inst61Quest1_Note = "This is part of the Black Temple attunement line."
-Inst61Quest1_Prequest = "Yes, The Secret Compromised"
+Inst61Quest1_Prequest = "Yes, The Secret Compromised ("..YELLOW.."Serpentshrine Cavern"..WHITE..")"
 Inst61Quest1_Folgequest = "Yes, An Artifact From the Past ("..YELLOW.."Battle of Mount Hyjal"..WHITE..")"
 Inst61Quest1PreQuest = "true"
 -- No Rewards for this quest
