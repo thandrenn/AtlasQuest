@@ -948,7 +948,7 @@ Inst5Quest9_Level = "54"
 Inst5Quest9_Attain = "48"
 Inst5Quest9_Aim = "Travel to Blackrock Mountain in the northwest and enter Blackrock Depths. Find out what became of Marshal Windsor.\nYou recall Ragged John talking about Windsor being dragged off to a prison."
 Inst5Quest9_Location = "Marshal Maxwell (Burning Steppes - Morgan's Vigil; "..YELLOW.."84,68"..WHITE..")"
-Inst5Quest9_Note = "This is part of the Onyxia Attunment questline. It starts at Helendis Riverhorn (Burning Steppes - Morgan's Vigil; "..YELLOW.."85,68"..WHITE..").\nMarshal Windsor is at "..YELLOW.."[4]"..WHITE..". You have to come back to Maxwell after completing this quest."
+Inst5Quest9_Note = "This is part of the Onyxia attunement questline. It starts at Helendis Riverhorn (Burning Steppes - Morgan's Vigil; "..YELLOW.."85,68"..WHITE..").\nMarshal Windsor is at "..YELLOW.."[4]"..WHITE..". You have to come back to Maxwell after completing this quest."
 Inst5Quest9_Prequest = "Yes, Dragonkin Menace -> The True Masters"
 Inst5Quest9_Folgequest = "Yes, Abandoned Hope -> A Crumpled Up Note"
 Inst5Quest9PreQuest = "true"
@@ -963,7 +963,7 @@ Inst5Quest10_Level = "58"
 Inst5Quest10_Attain = "50"
 Inst5Quest10_Aim = "You may have just stumbled on to something that Marshal Windsor would be interested in seeing. There may be hope, after all."
 Inst5Quest10_Location = "A Crumpled Up Note (random drop from Blackrock Depths)"
-Inst5Quest10_Note = "This is part of the Onyxia Attunment questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..". Best chance for drops seems to be the Dark Iron mobs around the Quarry."
+Inst5Quest10_Note = "This is part of the Onyxia attunement questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..". Best chance for drops seems to be the Dark Iron mobs around the Quarry."
 Inst5Quest10_Prequest = "Yes, Marshal Windsor"
 Inst5Quest10_Folgequest = "Yes, A Shred of Hope"
 Inst5Quest10FQuest = "true"
@@ -974,8 +974,8 @@ Inst5Quest11 = "11. A Shred of Hope"
 Inst5Quest11_Level = "58"
 Inst5Quest11_Attain = "52"
 Inst5Quest11_Aim = "Return Marshal Windsor's Lost Information.\nMarshal Windsor believes that the information is being held by Golem Lord Argelmach and General Angerforge."
-Inst5Quest11_Location = "Marshal Windsors (Blackrock Depths; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest11_Note = "This is part of the Onyxia Attunment questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..".\nYou find Golem Lord Argelmach at "..YELLOW.."[14]"..WHITE..", General Angerforge at "..YELLOW.."[13]"..WHITE.."."
+Inst5Quest11_Location = "Marshal Windsor (Blackrock Depths; "..YELLOW.."[4]"..WHITE..")"
+Inst5Quest11_Note = "This is part of the Onyxia attunement questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..".\nYou find Golem Lord Argelmach at "..YELLOW.."[14]"..WHITE..", General Angerforge at "..YELLOW.."[13]"..WHITE.."."
 Inst5Quest11_Prequest = "Yes, A Crumpled Up Note"
 Inst5Quest11_Folgequest = "Yes, Jail Break!"
 Inst5Quest11FQuest = "true"
@@ -987,7 +987,7 @@ Inst5Quest12_Level = "58"
 Inst5Quest12_Attain = "52"
 Inst5Quest12_Aim = "Help Marshal Windsor get his gear back and free his friends. Return to Marshal Maxwell if you succeed."
 Inst5Quest12_Location = "Marshal Windsor (Blackrock Depths; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest12_Note = "This is part of the Onyxia Attunment questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..".\nThe quest is easier if you clean the Ring of Law ("..YELLOW.."[6]"..WHITE..") and the path to the entrance before you start the event. You find Marshal Maxwell at Burning Steppes - Morgan's Vigil ("..YELLOW.."84,68"..WHITE..")"
+Inst5Quest12_Note = "This is part of the Onyxia attunement questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..".\nThe quest is easier if you clean the Ring of Law ("..YELLOW.."[6]"..WHITE..") and the path to the entrance before you start the event. You find Marshal Maxwell at Burning Steppes - Morgan's Vigil ("..YELLOW.."84,68"..WHITE..")"
 Inst5Quest12_Prequest = "Yes, A Shred of Hope"
 Inst5Quest12_Folgequest = "Yes, Stormwind Rendezvous"
 Inst5Quest12FQuest = "true"
@@ -6380,8 +6380,8 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 Inst41Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst41Caption = "CR: The Slave Pens"
-Inst41QAA = "2 Quests"
-Inst41QAH = "2 Quests"
+Inst41QAA = "3 Quests"
+Inst41QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst41Quest1 = "1. Lost in Action"
@@ -6410,6 +6410,17 @@ Inst41Quest2_Folgequest = "No"
 --
 Inst41Quest2name1 = "Badge of Justice"
 
+--Quest 3 Alliance
+Inst41Quest3 = "3. The Cudgel of Kar'desh (Heroic)"
+Inst41Quest3_Level = "70"
+Inst41Quest3_Attain = "70"
+Inst41Quest3_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
+Inst41Quest3_Location = "Skar'this the Heretic  (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")"
+Inst41Quest3_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane in "..YELLOW.."Karazhan"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
+Inst41Quest3_Prequest = "No"
+Inst41Quest3_Folgequest = "No"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst41Quest1_HORDE = Inst41Quest1
@@ -6437,6 +6448,17 @@ Inst41Quest2_HORDE_Prequest = Inst41Quest2_Prequest
 Inst41Quest2_HORDE_Folgequest = Inst41Quest2_Folgequest
 --
 Inst41Quest2name1_HORDE = Inst41Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst41Quest3_HORDE = Inst41Quest3
+Inst41Quest3_HORDE_Level = Inst41Quest3_Level
+Inst41Quest3_HORDE_Attain = Inst41Quest3_Attain
+Inst41Quest3_HORDE_Aim = Inst41Quest3_Aim
+Inst41Quest3_HORDE_Location = Inst41Quest3_Location
+Inst41Quest3_HORDE_Note = Inst41Quest3_Note
+Inst41Quest3_HORDE_Prequest = Inst41Quest3_Prequest
+Inst41Quest3_HORDE_Folgequest = Inst41Quest3_Folgequest
+-- No Rewards for this quest
 
 
 

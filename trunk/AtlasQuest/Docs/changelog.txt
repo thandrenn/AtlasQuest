@@ -42,6 +42,7 @@ Version 4.1.1
 	- Alterac Valley: Call of Air - Mulverick's Fleet (H)   (Thanks maqjav)
 	- Shattered Halls: Entry Into the Citadel
 	- Serpentshrine Cavern: The Secret Compromised
+	- Slave Pens: The Cudgel of Kar'desh (was already listed in Karazhan & Gruul's Lair)
 
 
 

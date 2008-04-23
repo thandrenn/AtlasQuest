@@ -11,9 +11,8 @@ About AtlasQuest:
 =================
 
 AtlasQuest is an addon for Atlas or AlphaMap that displays a list of 
-quests for each dungeon along with information and rewards for those 
-quests. Currently all dungeons and battlegrounds are supported along
-with the majority of their quests. 
+quests for each dungeon, battleground and outdoor raid along with 
+information and rewards for those quests. 
 
 AtlasQuest was originally created by Asurn. It is currently maintained
 by Thandrenn (aka Mystery8).

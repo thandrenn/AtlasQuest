@@ -4043,6 +4043,9 @@ Inst41Quest2ITC1 = Itemc5;
 Inst41Quest2description1 = AQITEM_ITEM
 Inst41Quest2ID1 = "29434"
 
+--Quest 3 Alliance
+Inst41Quest3Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst41Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
@@ -4065,6 +4068,9 @@ Inst41Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
 Inst41Quest2ITC1_HORDE = Itemc5;
 Inst41Quest2description1_HORDE = AQITEM_ITEM
 Inst41Quest2ID1_HORDE = "29434"
+
+--Quest 3 Horde
+Inst41Quest3Rewardtext_HORDE = AQNoReward
 
 
 
