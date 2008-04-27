@@ -9326,24 +9326,24 @@ Inst67Quest3_Aim = "阳湾港的主教拉瑞瑟要你搜寻魔导师平台，找
 Inst67Quest3_Location = "主教拉瑞瑟 (奎尔丹纳斯 - 阳湾港; "..YELLOW.."47,31"..WHITE..")"
 Inst67Quest3_Note = "塔雷斯 在副本 "..YELLOW.."[2]"..WHITE..". 完成这个任务线后你才能进入英雄模式的魔导师平台.\n\n这个任务的前续可以从 圣光护卫者阿德因 (沙塔斯城 - 奥尔多高地; "..YELLOW.."35,36"..WHITE..") or 达斯雷·射日者 (沙塔斯城 - 占星者平台; "..YELLOW.."55,80"..WHITE..")."
 Inst67Quest3_Prequest = "有, 太阳井的危机，使命的召唤"
-Inst67Quest3_Folgequest = "有, 占星者的占卜"
+Inst67Quest3_Folgequest = "有, 占卜球"
 Inst67Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst67Quest4 = "4. 占星者的占卜"
+Inst67Quest4 = "4. 占卜球"
 Inst67Quest4_Level = "70"
 Inst67Quest4_Attain = "70"
 Inst67Quest4_Aim = "塔雷斯 要你在魔导师平台中的阳台上使用占卜宝珠."
 Inst67Quest4_Location = "塔雷斯 (魔导师平台; "..YELLOW.."[2]"..WHITE..")"
 Inst67Quest4_Note = "占卜宝珠 在 "..YELLOW.."[4]"..WHITE..". 在经过一小段'电影‘后，卡雷苟斯会出现开始下一步任务."
 Inst67Quest4_Prequest = "有, 魔导师平台"
-Inst67Quest4_Folgequest = "有，"
+Inst67Quest4_Folgequest = "有，大难不死"
 Inst67Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst67Quest5 = "5. 充满难度的击杀"
+Inst67Quest5 = "5. 大难不死"
 Inst67Quest5_Level = "70"
 Inst67Quest5_Attain = "70"
 Inst67Quest5_Aim = "卡雷苟斯要你杀死魔导师平台的凯尔萨斯王子. 完成任务后带着他的头颅向阳湾港拉瑞瑟复命."
