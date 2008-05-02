@@ -1354,6 +1354,9 @@ Inst10Quest4Rewardtext = AQNoReward
 --Quest 5 Alliance
 Inst10Quest5Rewardtext = AQNoReward
 
+--Quest 6 Alliance
+Inst10Quest6Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst10Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
@@ -1389,6 +1392,9 @@ Inst10Quest4Rewardtext_HORDE = AQNoReward
 
 --Quest 5 Horde
 Inst10Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst10Quest6Rewardtext_HORDE = AQNoReward
 
 
 

@@ -2208,8 +2208,8 @@ Inst9Quest12name3_HORDE = Inst9Quest11name3
 
 Inst10Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst10Caption = "Dire Maul (East)"
-Inst10QAA = "5 Quests"
-Inst10QAH = "5 Quests"
+Inst10QAA = "6 Quests"
+Inst10QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst10Quest1 = "1. Pusillin and the Elder Azj'Tordin"
@@ -2275,6 +2275,17 @@ Inst10Quest5_Folgequest = "Yes, Final Preparations ("..YELLOW.."Upper Blackrock 
 Inst10Quest5PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst10Quest6 = "6. The Prison's Bindings (Warlock)"
+Inst10Quest6_Level = "60"
+Inst10Quest6_Attain = "60"
+Inst10Quest6_Aim = "Travel to Dire Maul in Feralas and recover 15 Satyr Blood from the Wildspawn Satyr that inhabit the Warpwood Quarter. Return to Daio in the Tainted Scar when this is done."
+Inst10Quest6_Location = "Daio the Decrepit (Blasted Lands - The Tainted Scar; "..YELLOW.."34,50"..WHITE..")"
+Inst10Quest6_Note = "This along with another quest given by Daio the Decrepit are Warlock only quests for the Ritual of Doom spell.  The easiest way to get to the Wildspawn Satyr is to enter Dire Maul East through the 'back door' at the Lariss Pavilion (Feralas; "..YELLOW.."77,37"..WHITE.."). You'll need the Crescent Key, however."
+Inst10Quest6_Prequest = "No"
+Inst10Quest6_Folgequest = "No"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst10Quest1_HORDE = Inst10Quest1
@@ -2337,6 +2348,17 @@ Inst10Quest5_HORDE_Note = Inst10Quest5_Note
 Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
 Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
 Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst10Quest6_HORDE = Inst10Quest6
+Inst10Quest6_HORDE_Level = Inst10Quest6_Level
+Inst10Quest6_HORDE_Attain = Inst10Quest6_Attain
+Inst10Quest6_HORDE_Aim = Inst10Quest6_Aim
+Inst10Quest6_HORDE_Location = Inst10Quest6_Location
+Inst10Quest6_HORDE_Note = Inst10Quest6_Note
+Inst10Quest6_HORDE_Prequest = Inst10Quest6_Prequest
+Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 -- No Rewards for this quest
 
 

@@ -69,7 +69,7 @@ local AQMAXINSTANCES = "68"
 local AQMAXQUESTS = "19"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.1";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.2";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -78,7 +78,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.1.1",
+  ["Version"] =  "4.1.2",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
