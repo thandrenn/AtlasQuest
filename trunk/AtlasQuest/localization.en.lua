@@ -2281,7 +2281,7 @@ Inst10Quest6_Level = "60"
 Inst10Quest6_Attain = "60"
 Inst10Quest6_Aim = "Travel to Dire Maul in Feralas and recover 15 Satyr Blood from the Wildspawn Satyr that inhabit the Warpwood Quarter. Return to Daio in the Tainted Scar when this is done."
 Inst10Quest6_Location = "Daio the Decrepit (Blasted Lands - The Tainted Scar; "..YELLOW.."34,50"..WHITE..")"
-Inst10Quest6_Note = "This along with another quest given by Daio the Decrepit are Warlock only quests for the Ritual of Doom spell.  The easiest way to get to the Wildspawn Satyr is to enter Dire Maul East through the 'back door' at the Lariss Pavilion (Feralas; "..YELLOW.."77,37"..WHITE.."). You'll need the Crescent Key, however."
+Inst10Quest6_Note = "This along with another quest given by Daio the Decrepit are Warlock only quests for the Ritual of Doom spell. The easiest way to get to the Wildspawn Satyr is to enter Dire Maul East through the 'back door' at the Lariss Pavilion (Feralas; "..YELLOW.."77,37"..WHITE.."). You'll need the Crescent Key, however."
 Inst10Quest6_Prequest = "No"
 Inst10Quest6_Folgequest = "No"
 -- No Rewards for this quest
@@ -6437,7 +6437,7 @@ Inst41Quest3 = "3. The Cudgel of Kar'desh (Heroic)"
 Inst41Quest3_Level = "70"
 Inst41Quest3_Attain = "70"
 Inst41Quest3_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
-Inst41Quest3_Location = "Skar'this the Heretic  (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")"
+Inst41Quest3_Location = "Skar'this the Heretic (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")"
 Inst41Quest3_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane in "..YELLOW.."Karazhan"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
 Inst41Quest3_Prequest = "No"
 Inst41Quest3_Folgequest = "No"
@@ -7476,7 +7476,7 @@ Inst48Quest1_Prequest = "No"
 Inst48Quest1_Folgequest = "No"
 -- No Rewards for this quest
 
---Quest 1 Alliance
+--Quest 2 Alliance
 Inst48Quest2 = "2. The Secret Compromised"
 Inst48Quest2_Level = "70"
 Inst48Quest2_Attain = "70"
@@ -7899,6 +7899,7 @@ Inst52Quest1_HORDE_Note = Inst52Quest1_Note
 Inst52Quest1_HORDE_Prequest = Inst52Quest1_Prequest
 Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 -- No Rewards for this quest
+
 
 
 --------------- INST53 - Karazhan (Kara) ---------------
