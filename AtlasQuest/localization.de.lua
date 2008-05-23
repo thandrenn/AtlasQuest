@@ -956,7 +956,7 @@ Inst5Quest9_Level = "54"
 Inst5Quest9_Attain = "48"
 Inst5Quest9_Aim = "Reist zum Schwarzfels im Nordwesten und dann weiter zu den Schwarzfelstiefen. Findet heraus, was aus Marschall Windsor geworden ist.\nIhr erinnert Euch daran, dass der struppige John sagte, man hätte Windsor in ein Gefängnis verschleppt."
 Inst5Quest9_Location = "Marshall Maxwell (Brennende Steppe - Morgans Wacht; "..YELLOW.."84,68"..WHITE..")"
-Inst5Quest9_Note = "Dieses Quest ist Teil der Onyxia Questreihe. Sie beginnt bei Helendis Flusshorn (Brennende Steppe - Morgans Wacht; "..YELLOW.."85,68"..WHITE..").\nMarshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..". Für das Folgequest müsst ihr zu Maxwell zurückkehren."
+Inst5Quest9_Note = "Dieses Quest ist Teil der Onyxia Zugangsquestreihe. Sie beginnt bei Helendis Flusshorn (Brennende Steppe - Morgans Wacht; "..YELLOW.."85,68"..WHITE..").\nMarshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..". Für das Folgequest müsst ihr zu Maxwell zurückkehren."
 Inst5Quest9_Prequest = "Ja, Drachkin-Bedrohung -> Die wahren Meister"
 Inst5Quest9_Folgequest = "Ja, Verlorene Hoffnung -> Eine zusammengeknüllte Notiz"
 Inst5Quest9PreQuest = "true"
@@ -971,7 +971,7 @@ Inst5Quest10_Level = "58"
 Inst5Quest10_Attain = "50"
 Inst5Quest10_Aim = "Soeben seid Ihr auf etwas gestoßen, das Marschall Windsor mit Sicherheit sehr interessiert. Vielleicht besteht ja doch noch Hoffnung."
 Inst5Quest10_Location = "Eine zusammengeknüllte Notiz (Zufälliger Dropp in den Schwarzfelstiefen)"
-Inst5Quest10_Note = "Dieses Quest ist Teil der Onyxia Questreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..". Die besten Chancen auf einen Dropp scheint man bei den Dunkeleisen Mobs um den Steinbruch zu haben."
+Inst5Quest10_Note = "Dieses Quest ist Teil der Onyxia Zugangsquestreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..". Die besten Chancen auf einen Dropp scheint man bei den Dunkeleisen Mobs um den Steinbruch zu haben."
 Inst5Quest10_Prequest = "Ja, Marshall Windsor"
 Inst5Quest10_Folgequest = "Ja, Ein Funken Hoffnung"
 Inst5Quest10FQuest = "true"
@@ -983,7 +983,7 @@ Inst5Quest11_Level = "58"
 Inst5Quest11_Attain = "52"
 Inst5Quest11_Aim = "Holt Marshall Windsors verloren gegangene Informationen zurück.\nMarshall Windsor glaubt, dass sich die Informationen in den Händen des Golemlords Argelmach und des Generals Zornesschmied befinden."
 Inst5Quest11_Location = "Marshall Windsor (Schwarzfelstiefen; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest11_Note = "Dieses Quest ist Teil der Onyxia Questreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..".\nGolemlord Argelmach befindet sich bei "..YELLOW.."[14]"..WHITE..", General Zornesschmied bei "..YELLOW.."[13]"..WHITE.."."
+Inst5Quest11_Note = "Dieses Quest ist Teil der Onyxia Zugangsquestreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..".\nGolemlord Argelmach befindet sich bei "..YELLOW.."[14]"..WHITE..", General Zornesschmied bei "..YELLOW.."[13]"..WHITE.."."
 Inst5Quest11_Prequest = "Ja, Eine zusammengeknüllte Notiz"
 Inst5Quest11_Folgequest = "Ja, Gefängnisausbruch!"
 Inst5Quest11FQuest = "true"
@@ -995,7 +995,7 @@ Inst5Quest12_Level = "58"
 Inst5Quest12_Attain = "52"
 Inst5Quest12_Aim = "Helft Marshall Windsor, seine Ausrüstung zurückzuholen und seine Freunde zu befreien. Kehrt zu Marshall Windsor zurück, wenn Ihr Erfolg hattet."
 Inst5Quest12_Location = "Marshall Windsor (Schwarzfelstiefen; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest12_Note = "Dieses Quest ist Teil der Onyxia Questreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..".\nDas Quest ist wesentlich leichter, wenn der Ring des Gesetzes ("..YELLOW.."[6]"..WHITE..") und der Weg zum Eingang vor Beginn von Gegnern befreit wurde. Man findet Marshall Maxwell in der Brennende Steppe - Morgans Wacht ("..YELLOW.."84,68"..WHITE..")"
+Inst5Quest12_Note = "Dieses Quest ist Teil der Onyxia Zugangsquestreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..".\nDas Quest ist wesentlich leichter, wenn der Ring des Gesetzes ("..YELLOW.."[6]"..WHITE..") und der Weg zum Eingang vor Beginn von Gegnern befreit wurde. Man findet Marshall Maxwell in der Brennende Steppe - Morgans Wacht ("..YELLOW.."84,68"..WHITE..")"
 Inst5Quest12_Prequest = "Ja, Ein Funken Hoffnung"
 Inst5Quest12_Folgequest = "Ja, Treffen in Sturmwind"
 Inst5Quest12FQuest = "true"
@@ -2216,8 +2216,8 @@ Inst9Quest12name3_HORDE = Inst9Quest11name3
 
 Inst10Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen - besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
 Inst10Caption = "Düsterbruch (Ost)"
-Inst10QAA = "5 Quests"
-Inst10QAH = "5 Quests"
+Inst10QAA = "6 Quests"
+Inst10QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst10Quest1 = "1. Pusillin und der Älteste Azj'Tordin"
@@ -2283,6 +2283,17 @@ Inst10Quest5_Folgequest = "Ja, Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzf
 Inst10Quest5PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst10Quest6 = "6. Das Fundament des Gefängnisses (Hexenmeister)"
+Inst10Quest6_Level = "60"
+Inst10Quest6_Attain = "60"
+Inst10Quest6_Aim = "Reist nach Düsterbruch in Feralas und holt Euch das Blut von 15 Satyrn der Wildhufe, die im Wucherborkenviertel ansässig sind. Kehrt anschließend zu Daio in der faulenden Narbe zurück."
+Inst10Quest6_Location = "Daio der Klapprige (Verwüstete Lande - Die faulende Narbe; "..YELLOW.."34,50"..WHITE..")"
+Inst10Quest6_Note = "Dieses und ein weiteres Quest von Daio dem Klapprigen sind Hexenmeisterquests für das Ritual der Verdammnis. Der einfachste Weg, um zu Satyr dem Wildhufe zu gelangen, ist Düsterbruch Ost durch die 'Hintertür' in Feralas "..YELLOW.."77,37"..WHITE.." zu betreten. Dazu benötigt man den Mondsichelschlüssel."
+Inst10Quest6_Prequest = "Nein"
+Inst10Quest6_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst10Quest1_HORDE = Inst10Quest1
@@ -2345,6 +2356,17 @@ Inst10Quest5_HORDE_Note = Inst10Quest5_Note
 Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
 Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
 Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst10Quest6_HORDE = Inst10Quest6
+Inst10Quest6_HORDE_Level = Inst10Quest6_Level
+Inst10Quest6_HORDE_Attain = Inst10Quest6_Attain
+Inst10Quest6_HORDE_Aim = Inst10Quest6_Aim
+Inst10Quest6_HORDE_Location = Inst10Quest6_Location
+Inst10Quest6_HORDE_Note = Inst10Quest6_Note
+Inst10Quest6_HORDE_Prequest = Inst10Quest6_Prequest
+Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 -- No Rewards for this quest
 
 
@@ -6388,8 +6410,8 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 Inst41Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst41Caption = "EK: Die Sklavenunterkünfte"
-Inst41QAA = "2 Quests"
-Inst41QAH = "2 Quests"
+Inst41QAA = "3 Quests"
+Inst41QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst41Quest1 = "1. Bei der Arbeit verschollen"
@@ -6418,6 +6440,17 @@ Inst41Quest2_Folgequest = "Nein"
 --
 Inst41Quest2name1 = "Abzeichen der Gerechtigkeit"
 
+--Quest 3 Alliance
+Inst41Quest3 = "3. Der Knüppel von Kar'desh (Heroisch)"
+Inst41Quest3_Level = "70"
+Inst41Quest3_Attain = "70"
+Inst41Quest3_Aim = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt."
+Inst41Quest3_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [3]"..WHITE..")"
+Inst41Quest3_Note = "Das Erdensiegel droppt von Gruul in "..YELLOW.."Gruuls Unterschlupf"..WHITE.." und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."Karazhan"..WHITE..".\n\nDiese Quest wurde benötigt, um die Höhle des Schlangenschreins zu betreten, ist aber nicht mehr nötig."
+Inst41Quest3_Prequest = "Nein"
+Inst41Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst41Quest1_HORDE = Inst41Quest1
@@ -6445,6 +6478,17 @@ Inst41Quest2_HORDE_Prequest = Inst41Quest2_Prequest
 Inst41Quest2_HORDE_Folgequest = Inst41Quest2_Folgequest
 --
 Inst41Quest2name1_HORDE = Inst41Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst41Quest3_HORDE = Inst41Quest3
+Inst41Quest3_HORDE_Level = Inst41Quest3_Level
+Inst41Quest3_HORDE_Attain = Inst41Quest3_Attain
+Inst41Quest3_HORDE_Aim = Inst41Quest3_Aim
+Inst41Quest3_HORDE_Location = Inst41Quest3_Location
+Inst41Quest3_HORDE_Note = Inst41Quest3_Note
+Inst41Quest3_HORDE_Prequest = Inst41Quest3_Prequest
+Inst41Quest3_HORDE_Folgequest = Inst41Quest3_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -7426,8 +7470,8 @@ Inst47Quest11name1_HORDE = Inst47Quest11name1
 
 Inst48Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst48Caption = "EK: Höhle des Schlangenschreins"
-Inst48QAA = "1 Quest"
-Inst48QAH = "1 Quest"
+Inst48QAA = "2 Quests"
+Inst48QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst48Quest1 = "1. Die Phiolen der Ewigkeit"
@@ -7440,6 +7484,18 @@ Inst48Quest1_Prequest = "Nein"
 Inst48Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst48Quest2 = "2. Das gefährdete Geheimnis"
+Inst48Quest2_Level = "70"
+Inst48Quest2_Attain = "70"
+Inst48Quest2_Aim = "Reist zum Kerker des Wächters im Schattenmondtal und sprecht mit Akama."
+Inst48Quest2_Location = "Seher Olum (Höhle des Schlangenschreins; "..YELLOW.."[4]"..WHITE..")"
+Inst48Quest2_Note = "Akama befindet sich bei (Schattenmondtal - Kerker des Wächters; "..YELLOW.."58,48"..WHITE..").\n\nDieses Quest ist Teil der Zugangsquestreihe des Schwarzen Tempels, die bei Anachoret Ceyla (Schattenmondtal - Altar der Sha'tar; "..YELLOW.."62,38"..WHITE..") für die Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56,59"..WHITE..") für die Seher startet."
+Inst48Quest2_Prequest = "Ja, Schrifttafeln von Baa'ri -> Akamas Versprechen"
+Inst48Quest2_Folgequest = "Ja, Die List der Aschenzungen ("..YELLOW.."FdS: Festung der Stürme"..WHITE..")"
+Inst48Quest2PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst48Quest1_HORDE = Inst48Quest1
@@ -7450,6 +7506,18 @@ Inst48Quest1_HORDE_Location = Inst48Quest1_Location
 Inst48Quest1_HORDE_Note = Inst48Quest1_Note
 Inst48Quest1_HORDE_Prequest = Inst48Quest1_Prequest
 Inst48Quest1_HORDE_Folgequest = Inst48Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst48Quest2_HORDE = Inst48Quest2
+Inst48Quest2_HORDE_Level = Inst48Quest2_Level
+Inst48Quest2_HORDE_Attain = Inst48Quest2_Attain
+Inst48Quest2_HORDE_Aim = Inst48Quest2_Aim
+Inst48Quest2_HORDE_Location = Inst48Quest2_Location
+Inst48Quest2_HORDE_Note = Inst48Quest2_Note
+Inst48Quest2_HORDE_Prequest = Inst48Quest2_Prequest
+Inst48Quest2_HORDE_Folgequest = Inst48Quest2_Folgequest
+Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
 -- No Rewards for this quest
 
 
@@ -8220,7 +8288,7 @@ Inst54Quest2_Level = "70"
 Inst54Quest2_Attain = "68"
 Inst54Quest2_Aim = "Sucht Seher Udalo in der Arkatraz in der Festung der Stürme."
 Inst54Quest2_Location = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58,48"..WHITE..")"
-Inst54Quest2_Note = "Diese Quest ist Teil einer Questreihe, die im Schattenmondtal bei "..YELLOW.."62,38"..WHITE.." für Aldor und bei "..YELLOW.."56,59"..WHITE.." für Seher startet."
+Inst54Quest2_Note = "Seher Udalo befindet sich bei "..YELLOW.."[5]"..WHITE..", kurz vor dem Raum mit dem Endgegner.\n\nDieses Quest ist Teil der Zugangsquestreihe des Schwarzen Tempels, die bei Anachoret Ceyla (Schattenmondtal - Altar der Sha'tar; "..YELLOW.."62,38"..WHITE..") für die Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56,59"..WHITE..") für die Seher startet."
 Inst54Quest2_Prequest = "Ja, Schrifttafeln von Baa'ri -> Akama"
 Inst54Quest2_Folgequest = "Ja, Ein mysteriöses Omen"
 Inst54Quest2PreQuest = "true"
@@ -8786,7 +8854,7 @@ Inst61Quest1_Attain = "70"
 Inst61Quest1_Aim = "Reist in die Festung der Stürme und tötet Al'ar, während Ihr die Gugel der Aschenzungen tragt. Kehrt nach Abschluß der Aufgabe zu Akama ins Schattenmondtal zurück."
 Inst61Quest1_Location = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58,48"..WHITE..")"
 Inst61Quest1_Note = "Teil der Vorquestreihe zum Schwarzen Tempel."
-Inst61Quest1_Prequest = "Ja, Das gefährdete Geheimnis"
+Inst61Quest1_Prequest = "Ja, Das gefährdete Geheimnis ("..YELLOW.."Höhle des Schlangenschreins"..WHITE..")"
 Inst61Quest1_Folgequest = "Ja, Ein Artefakt aus der Vergangenheit ("..YELLOW.."Hyjalgipfel"..WHITE..")"
 Inst61Quest1PreQuest = "true"
 -- No Rewards for this quest
@@ -9942,6 +10010,7 @@ Inst66Quest13name3_HORDE = Inst66Quest13name3
 Inst66Quest13name4_HORDE = Inst66Quest13name4
 
 
+
 ----
 end
 ----
@@ -9951,8 +10020,6 @@ end
 ---------------------------
 --- AQ Instance Numbers ---
 ---------------------------
-
-
 
 -- 1  = Deadmines (VC)
 -- 2  = Wailing Caverns (WC)
