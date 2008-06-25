@@ -4,10 +4,17 @@ Changelog
 
 Version 4.1.2
 
+- Compatibility with Atlas 1.12.
 - Simplified Chinese localization updates by yeachan.
+- German localization updates by Telchar.
 
 - Quests added:
 	- Dire Maul East: The Prison's Bindings (Warlock)
+	- Slave Pens: Ahune, the Frost Lord
+	- Slave Pens: Ahune is Here!
+	- Slave Pens: Summon Ahune
+	- Slave Pens: Shards of Ahune
+	
 
 
 

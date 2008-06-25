@@ -32,16 +32,16 @@ function AtlasQuest_Instanzenchecken()
 
 	-- Original Instances
 
-	if (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Entrances\\Images\\TheDeadminesEnt") then
+	if (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheDeadminesEnt") then
 		AQINSTANZ = 1;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\WailingCaverns") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Entrances\\Images\\WailingCavernsEnt") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\WailingCaverns") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\WailingCavernsEnt") then
 		AQINSTANZ = 2;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\RagefireChasm") then
 		AQINSTANZ = 3;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Uldaman") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Entrances\\Images\\UldamanEnt") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Uldaman") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UldamanEnt") then
 		AQINSTANZ = 4;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockDepths") then
@@ -50,7 +50,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackwingLair") then
 		AQINSTANZ = 6;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackfathomDeeps") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Entrances\\Images\\BlackfathomDeepsEnt") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackfathomDeeps") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackfathomDeepsEnt") then
 		AQINSTANZ = 7;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockSpireLower") then
@@ -68,7 +68,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\DireMaulWest") then
 		AQINSTANZ = 12;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Maraudon") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Entrances\\Images\\MaraudonEnt") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Maraudon") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MaraudonEnt") then
 		AQINSTANZ = 13;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MoltenCore") then
@@ -104,7 +104,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheStockade") then
 		AQINSTANZ = 24;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheSunkenTemple") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Entrances\\Images\\TheSunkenTempleEnt") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheSunkenTemple") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheSunkenTempleEnt") then
 		AQINSTANZ = 25;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheTempleofAhnQiraj") then
@@ -116,7 +116,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulGurub") then
 		AQINSTANZ = 28;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Gnomeregan") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Entrances\\Images\\GnomereganEnt") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Gnomeregan") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GnomereganEnt") then
 		AQINSTANZ = 29;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SMArmory") then
@@ -179,7 +179,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GruulsLair") then
 		AQINSTANZ = 52;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanEnd") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Entrances\\Images\\KarazhanEnt") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanEnd") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanEnt") then
 		AQINSTANZ = 53;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempestKeepArcatraz") then
