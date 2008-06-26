@@ -6450,7 +6450,7 @@ Inst41Quest4_Attain = "65"
 Inst41Quest4_Aim = "Travel to the Slave Pens in Coilfang Reservoir within Zangarmarsh and speak with Numa Cloudsister."
 Inst41Quest4_Location = "Earthen Ring Elder (Found at Festival Bonfires in all Major Cities)"
 Inst41Quest4_Note = "Numa Cloudsister is just inside the entrance to Slave Pens. This quest is not required to summon Ahune. If you just go to the instance at level 65 or higher without having done any of the quests, you will still be able to summon him."
-Inst41Quest4_Prequest = "Yes, Unusual Activity -> Striking Back"
+Inst41Quest4_Prequest = "Yes, Unusual Activity -> Inform the Elder"
 Inst41Quest4_Folgequest = "Yes, Ahune is Here!"
 Inst41Quest4PreQuest = "true"
 -- No Rewards for this quest
