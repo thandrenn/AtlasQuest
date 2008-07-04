@@ -7,7 +7,8 @@
 ## Notes-deDE: Zeigt die Quests, die es f\195\188r die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
 ## Notes-zhCN: Shows the Quests for the instance.
-## Author: Asurn
+## Author: Thandrenn
+## Original Author: Asurn
 ## Updated by: Loather
 ## Updated by: Rabidmax
 ## Updated by: Thandrenn (aka Mystery8)
@@ -16,7 +17,7 @@
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP
-## X-Date: May 2, 2008
+## X-Date: July 4, 2008
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: 
 ## OptionalDeps: Atlas, AlphaMap, myAddOns
