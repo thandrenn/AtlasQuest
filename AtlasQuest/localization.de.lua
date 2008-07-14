@@ -6169,7 +6169,7 @@ Inst39Quest6_Level = "70"
 Inst39Quest6_Attain = "70"
 Inst39Quest6_Aim = "Besorgt die Träne der Erdenmutter von Kriegshetzer O'mrogg und bringt sie zu David Wayne in Waynes Zuflucht."
 Inst39Quest6_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
-Inst39Quest6_Note = "Kriegshetzer O'mrogg befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst39Quest6_Note = "Kriegshetzer O'mrogg befindet sich bei "..YELLOW.."[4]"..WHITE..".\n\nDer Gegenstand wird im heroischen Modus nicht droppen."
 Inst39Quest6_Prequest = "Ja, Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Ja, Bann der Illidari"
 Inst39Quest6PreQuest = "true"
@@ -6410,8 +6410,8 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 Inst41Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst41Caption = "EK: Die Sklavenunterkünfte"
-Inst41QAA = "3 Quests"
-Inst41QAH = "3 Quests"
+Inst41QAA = "7 Quests"
+Inst41QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst41Quest1 = "1. Bei der Arbeit verschollen"
@@ -6419,7 +6419,7 @@ Inst41Quest1_Level = "65"
 Inst41Quest1_Attain = "62"
 Inst41Quest1_Aim = "Findet heraus, was mit Erdbinder Rayge, Naturalist Biss, Jäter Gründaum und Windrufer Klaue geschehen ist. Kehrt dann zu Behüterin Jhang im Echsenkessel in den Zangarmarschen zurück."
 Inst41Quest1_Location = "Behüterin Jhang (Echsenkessel; "..YELLOW.."52,36"..WHITE..")"
-Inst41Quest1_Note = "Behüterin Jhang ist in der Unterwasserhöhle am Versammlungsstein. Naturalist Biss befindet sich bei "..YELLOW.."[4]"..WHITE..", Jäter Gründaum befindet sich bei "..YELLOW.."[2]"..WHITE..", die anderen beiden im Tiefensumpf. Die Vorquests scheinen nicht nötig zu sein, um diese Quest zu erhalten."
+Inst41Quest1_Note = "Behüterin Jhang befindet sich in der Unterwasserhöhle am Versammlungsstein. Jäter Gründaum befindet sich bei "..YELLOW.."[3]"..WHITE.." und Naturalist Biss bei "..YELLOW.."[6]"..WHITE..". Das Quest wird im Tiefensumpf vortgeführt. Die Vorquests sind optional."
 Inst41Quest1_Prequest = "Ja, Kanalisationspläne -> Fehlgeschlagene Operation"
 Inst41Quest1_Folgequest = "Nein"
 Inst41Quest1PreQuest = "true"
@@ -6434,7 +6434,7 @@ Inst41Quest2_Level = "70"
 Inst41Quest2_Attain = "70"
 Inst41Quest2_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm das Herz von Quagmirran zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
 Inst41Quest2_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst41Quest2_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nQuagmirran befindet sich bei "..YELLOW.."[6]"..WHITE.."."
+Inst41Quest2_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nQuagmirran befindet sich bei "..YELLOW.."[7]"..WHITE.."."
 Inst41Quest2_Prequest = "Nein"
 Inst41Quest2_Folgequest = "Nein"
 --
@@ -6445,11 +6445,61 @@ Inst41Quest3 = "3. Der Knüppel von Kar'desh (Heroisch)"
 Inst41Quest3_Level = "70"
 Inst41Quest3_Attain = "70"
 Inst41Quest3_Aim = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt."
-Inst41Quest3_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [3]"..WHITE..")"
+Inst41Quest3_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [4]"..WHITE..")"
 Inst41Quest3_Note = "Das Erdensiegel droppt von Gruul in "..YELLOW.."Gruuls Unterschlupf"..WHITE.." und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."Karazhan"..WHITE..".\n\nDiese Quest wurde benötigt, um die Höhle des Schlangenschreins zu betreten, ist aber nicht mehr nötig."
 Inst41Quest3_Prequest = "Nein"
 Inst41Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst41Quest4 = "4. Ahune der Frostfürst (Saisonbedingt)"
+Inst41Quest4_Level = "70"
+Inst41Quest4_Attain = "65"
+Inst41Quest4_Aim = "Begebt Euch in die Sklavenunterkünfte im Echsenkessel in den Zangarmarschen und sprecht mit Numa Wolkenschwester."
+Inst41Quest4_Location = "Urahne des Irdenen Rings (Bei den Freudenfeuern des Sonnenwendfests in allen großen Städten)"
+Inst41Quest4_Note = "Numa Wolkenschwester befindet sich kurz nach dem Eingang der Sklavenunterkünfte. Dieses Quest wird nicht benötigt, um Ahune zu beschwören. Wenn man die Instanz auf Stufe 65 oder höher betritt, ohne auch nur eins dieser Quest abgeschlossen zu haben, kann man ihn trotzdem beschwören."
+Inst41Quest4_Prequest = "Ja, Ungewöhnliche Aktivitäten -> Den Urahnen benachrichtigen"
+Inst41Quest4_Folgequest = "Ja, Ahune ist hier!"
+Inst41Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst41Quest5 = "5. Ahune ist hier! (Saisonbedingt)"
+Inst41Quest5_Level = "70"
+Inst41Quest5_Attain = "65"
+Inst41Quest5_Aim = "Findet Luma Himmelsmutter in den Sklavenunterkünften."
+Inst41Quest5_Location = "Numa Wolkenschwester (Die Sklavenunterkünfte; "..YELLOW.."Kurz nach dem Portal"..WHITE..")"
+Inst41Quest5_Note = "Luma Himmelsmutter befindet sich in der Nähe von "..YELLOW.."[1]"..WHITE..". Man muss keines der anderen saisonbedingten Quests abschließen, um dieses Quest zu erhalten. Das Vorquest ist optional."
+Inst41Quest5_Prequest = "Ja, Ahune der Frostfürst (Optional)"
+Inst41Quest5_Folgequest = "Ja, Beschwört Ahune"
+Inst41Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst41Quest6 = "6. Beschwört Ahune (Tagesquest - Saisonbedingt)"
+Inst41Quest6_Level = "70"
+Inst41Quest6_Attain = "65"
+Inst41Quest6_Aim = "Bringt dieses Magmatotem des Irdenen Rings zum Eisbrocken."
+Inst41Quest6_Location = "Luma Himmelsmutter (Die Sklavenunterkünfte; "..YELLOW.."Nahe bei [1]"..WHITE..")"
+Inst41Quest6_Note = "Der Eisbrocken befindet sich nur ein kurzes Stück von Luma Himmelsmutter entfernt. Durch Abschließen dieses Quests wird Ahune bei "..YELLOW.."[1]"..WHITE.." beschworen. Es kann einmal pro Tag pro Charakter abgeschlossen werden."
+Inst41Quest6_Prequest = "Ja, Ahune ist hier!"
+Inst41Quest6_Folgequest = "Nein"
+Inst41Quest6FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst41Quest7 = "7. Splitter von Ahune (Saisonbedingt)"
+Inst41Quest7_Level = "70"
+Inst41Quest7_Attain = "65"
+Inst41Quest7_Aim = "Bringt die Eissplitter zu Luma Himmelsmutter."
+Inst41Quest7_Location = "Splitter von Ahune (befinden sich in der Eiskiste nachdem Ahune getötet wurde)"
+Inst41Quest7_Note = "Luma Himmelsmutter befindet sich in (Die Sklavenunterkünfte; "..YELLOW.."Nahe bei [1]"..WHITE.."). Dieser Gegenstand wird nur einmal pro Jahr pro Charakter droppen."
+Inst41Quest7_Prequest = "Nein"
+Inst41Quest7_Folgequest = "Nein"
+--
+Inst41Quest7name1 = "Wappenrock der sommerlichen Himmel"
+Inst41Quest7name2 = "Wappenrock der Sommerflammen"
+Inst41Quest7name3 = "Brandblüte"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6489,6 +6539,56 @@ Inst41Quest3_HORDE_Note = Inst41Quest3_Note
 Inst41Quest3_HORDE_Prequest = Inst41Quest3_Prequest
 Inst41Quest3_HORDE_Folgequest = Inst41Quest3_Folgequest
 -- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst41Quest4_HORDE = Inst41Quest4
+Inst41Quest4_HORDE_Level = Inst41Quest4_Level
+Inst41Quest4_HORDE_Attain = Inst41Quest4_Attain
+Inst41Quest4_HORDE_Aim = Inst41Quest4_Aim
+Inst41Quest4_HORDE_Location = Inst41Quest4_Location
+Inst41Quest4_HORDE_Note = Inst41Quest4_Note
+Inst41Quest4_HORDE_Prequest = Inst41Quest4_Prequest
+Inst41Quest4_HORDE_Folgequest = Inst41Quest4_Folgequest
+Inst41Quest4PreQuest_HORDE = Inst41Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst41Quest5_HORDE = Inst41Quest5
+Inst41Quest5_HORDE_Level = Inst41Quest5_Level
+Inst41Quest5_HORDE_Attain = Inst41Quest5_Attain
+Inst41Quest5_HORDE_Aim = Inst41Quest5_Aim
+Inst41Quest5_HORDE_Location = Inst41Quest5_Location
+Inst41Quest5_HORDE_Note = Inst41Quest5_Note
+Inst41Quest5_HORDE_Prequest = Inst41Quest5_Prequest
+Inst41Quest5_HORDE_Folgequest = Inst41Quest5_Folgequest
+Inst41Quest5FQuest_HORDE = Inst41Quest5FQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst41Quest6_HORDE = Inst41Quest6
+Inst41Quest6_HORDE_Level = Inst41Quest6_Level
+Inst41Quest6_HORDE_Attain = Inst41Quest6_Attain
+Inst41Quest6_HORDE_Aim = Inst41Quest6_Aim
+Inst41Quest6_HORDE_Location = Inst41Quest6_Location
+Inst41Quest6_HORDE_Note = Inst41Quest6_Note
+Inst41Quest6_HORDE_Prequest = Inst41Quest6_Prequest
+Inst41Quest6_HORDE_Folgequest = Inst41Quest6_Folgequest
+Inst41Quest6FQuest_HORDE = Inst41Quest6FQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst41Quest7_HORDE = Inst41Quest7
+Inst41Quest7_HORDE_Level = Inst41Quest7_Level
+Inst41Quest7_HORDE_Attain = Inst41Quest7_Attain
+Inst41Quest7_HORDE_Aim = Inst41Quest7_Aim
+Inst41Quest7_HORDE_Location = Inst41Quest7_Location
+Inst41Quest7_HORDE_Note = Inst41Quest7_Note
+Inst41Quest7_HORDE_Prequest = Inst41Quest7_Prequest
+Inst41Quest7_HORDE_Folgequest = Inst41Quest7_Folgequest
+--
+Inst41Quest7name1_HORDE = Inst41Quest7name1
+Inst41Quest7name2_HORDE = Inst41Quest7name2
+Inst41Quest7name3_HORDE = Inst41Quest7name3
 
 
 
@@ -6542,7 +6642,7 @@ Inst42Quest4_Level = "70"
 Inst42Quest4_Attain = "70"
 Inst42Quest4_Aim = "Beschafft Euch ein Gefäß mit Unterweltlehm von Hydromant Thespia und bringt es zu David Wayne in Waynes Zuflucht."
 Inst42Quest4_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")"
-Inst42Quest4_Note = "Hydromant Thespia befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst42Quest4_Note = "Hydromant Thespia befindet sich bei "..YELLOW.."[1]"..WHITE..".\n\nDer Gegenstand wird im heroischen Modus nicht droppen."
 Inst42Quest4_Prequest = "Ja, Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
 Inst42Quest4_Folgequest = "Ja, Bann der Illidari"
 Inst42Quest4PreQuest = "true"
@@ -7297,7 +7397,7 @@ Inst47Quest9_Level = "69"
 Inst47Quest9_Attain = "67"
 Inst47Quest9_Aim = "Beschafft die Encyclopaedia Daemonica von Großmeister Vorpil und bringt sie zu David Wayne in Waynes Zuflucht."
 Inst47Quest9_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
-Inst47Quest9_Note = "Großmeister Vorpil befindet sich bei "..YELLOW.."[4]"..WHITE..". Wenn man diese Quest und Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne."
+Inst47Quest9_Note = "Großmeister Vorpil befindet sich bei "..YELLOW.."[4]"..WHITE..". Wenn man diese Quest und Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne.\n\nDer Gegenstand wird im heroischen Modus nicht droppen."
 Inst47Quest9_Prequest = "Ja, Zusätzliche Materialien"
 Inst47Quest9_Folgequest = "Nein"
 Inst47Quest9PreQuest = "true"
@@ -8591,7 +8691,7 @@ Inst56Quest2_Level = "69"
 Inst56Quest2_Attain = "67"
 Inst56Quest2_Aim = "David Wayne bei Waynes Zuflucht möchte, dass Ihr ihm eine überladene Manazelle bringt."
 Inst56Quest2_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
-Inst56Quest2_Note = "Die Zelle befindet sich vor Mechanolord Kapazitus bei "..YELLOW.."[3]"..WHITE.." in einer Kiste in der Nähe der Mauer.\n\nWenn man diese Quest und Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne."
+Inst56Quest2_Note = "Die Zelle befindet sich vor Mechanolord Kapazitus bei "..YELLOW.."[3]"..WHITE.." in einer Kiste in der Nähe der Mauer.\n\nWenn man diese Quest und Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne.\n\nDer Gegenstand wird im heroischen Modus nicht droppen."
 Inst56Quest2_Prequest = "Ja, Zusätzliche Materialien"
 Inst56Quest2_Folgequest = "Nein"
 Inst56Quest2PreQuest = "true"
