@@ -7,6 +7,7 @@ Version 4.1.2
 - Compatibility with Atlas 1.12.
 - Simplified Chinese localization updates by yeachan.
 - German localization updates by Telchar.
+- The usual fixes for typos and some clarification in quest information.
 
 - Quests added:
 	- Dire Maul East: The Prison's Bindings (Warlock)
