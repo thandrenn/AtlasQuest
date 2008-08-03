@@ -43,7 +43,7 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 AQHelpText = ""..WHITE.."type /aq or atlasquest "..YELLOW.."[command]"..WHITE.."\ncommands: help; option/config; show/hide; left/right; colour; autoshow"..RED.."(only Atlas)"
 --
-AQOptionsCaptionTEXT = "AtlasQuest Options";
+AQOptionsCaptionTEXT = ""..YELLOW.."AtlasQuest Options";
 AQ_OK = "OK"
 
 -- Autoshow
@@ -155,6 +155,16 @@ AQITEM_ENCHANT = "Enchant"
 ----------------------------------------------
 ---------------- DUNGEONS --------------------
 ----------------------------------------------
+
+
+
+--------------- INST36 - No Instance ---------------
+
+-- Just to display "No Quests" when the map is set to something AtlasQuest does not support. I'll probably find a better way of doing this later.
+Inst36Story = ""
+Inst36Caption = "No Information Available"
+Inst36QAA = "No Quests"
+Inst36QAH = "No Quests"
 
 
 
@@ -7836,8 +7846,8 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 
 Inst51Story = "Durnholde Keep was the headquarters of the orcish internment camps in southern Lordaeron following the Horde's defeat in the Second War.\n\nAt this time, Thrall was a 19-year-old slave to human officer Aedelas Blackmoore, who intended to use Thrall as a puppet Warchief to control the orcish Horde and thus gain power over his fellow humans.\n\nHowever, Thrall knew that he was destined for more, and so he made his escape from Durnholde to find others of his kind, eventually discovering the Frostwolf Clan and his place as Warchief.\n\nThis instance will contain the entire Hillsbrad area as it appeared 10 years ago, before the Horde destroyed Durnholde and Tarren Mill fell to the undead"
 Inst51Caption = "CoT: Old Hillsbrad"
-Inst51QAA = "5 Quests"
-Inst51QAH = "5 Quests"
+Inst51QAA = "6 Quests"
+Inst51QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst51Quest1 = "1. Old Hillsbrad"
@@ -7903,6 +7913,18 @@ Inst51Quest5_Folgequest = "No"
 --
 Inst51Quest5name1 = "Badge of Justice"
 
+--Quest 6 Alliance
+Inst51Quest6 = "6. Nice Hat..."
+Inst51Quest6_Level = "68"
+Inst51Quest6_Attain = "66"
+Inst51Quest6_Aim = "Don Carlos has inadvertently challenged you to defeat his younger self in Old Hillsbrad. Afterwards, bring Don Carlos' Hat to him in Tanaris as proof."
+Inst51Quest6_Location = "Don Carlos (Tanaris; "..YELLOW.."54,29"..WHITE..")"
+Inst51Quest6_Note = "Don Carlos patrols the road near "..YELLOW.."[??]"..WHITE.."."
+Inst51Quest6_Prequest = "No"
+Inst51Quest6_Folgequest = "No"
+--
+Inst51Quest6name1 = "Haliscan Brimmed Hat"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst51Quest1_HORDE = Inst51Quest1
@@ -7967,6 +7989,18 @@ Inst51Quest5_HORDE_Prequest = Inst51Quest5_Prequest
 Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
 --
 Inst51Quest5name1_HORDE = Inst51Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst51Quest6_HORDE = Inst51Quest6
+Inst51Quest6_HORDE_Level = Inst51Quest6_Level
+Inst51Quest6_HORDE_Attain = Inst51Quest6_Attain
+Inst51Quest6_HORDE_Aim = Inst51Quest6_Aim
+Inst51Quest6_HORDE_Location = Inst51Quest6_Location
+Inst51Quest6_HORDE_Note = Inst51Quest6_Note
+Inst51Quest6_HORDE_Prequest = Inst51Quest6_Prequest
+Inst51Quest6_HORDE_Folgequest = Inst51Quest6_Folgequest
+--
+Inst51Quest6name1_HORDE = Inst51Quest6name1
 
 
 

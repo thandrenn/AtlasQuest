@@ -69,7 +69,7 @@ local AQMAXINSTANCES = "68"
 local AQMAXQUESTS = "19"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.2";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.3";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -78,7 +78,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.1.2",
+  ["Version"] =  "4.1.3",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -397,7 +397,8 @@ function AQ_OnUpdate(arg1)
         end
 
         -- Hides the panel if the map which is shown no quests have (map = 36)
-       if ( AQINSTANZ == 36) then
+        -- Disabled this by changing 36 here to 0 until it can be written out or re-written. 
+       if ( AQINSTANZ == 0) then
              HideUIPanel(AtlasQuestFrame);
              HideUIPanel(AtlasQuestInsideFrame);
        elseif (( AQINSTANZ ~= previousValue ) or (AQUpdateNOW ~= nil)) then

@@ -13,11 +13,11 @@
 ## Updated by: Rabidmax
 ## Updated by: Thandrenn (aka Mystery8)
 ## CLI by: Dazerdude
-## Version: 4.1.2
+## Version: 4.1.3
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP
-## X-Date: July 25, 2008
+## X-Date: August 3, 2008
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: 
 ## OptionalDeps: Atlas, AlphaMap, myAddOns

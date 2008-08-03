@@ -2,6 +2,20 @@
 Changelog
 =========
 
+Version 4.1.3
+
+- Changed text color for "Options" menu to match rest of Atlas/AtlasQuest. (Suggested by Telchar)
+- Made "Story" button larger so German text isn't bigger than the button. (Suggested by Telchar)
+- Moved "AtlasQuest" button in the AtlasFrame to same level as Atlas' "Options" button. (Suggested by Telchar)
+- AtlasQuest side panel will no longer disappear when Atlas changes to an unsupported map, such as Entrances, Flight paths, etc. (Suggested by Telchar)
+- German localization updates by Telchar.
+
+- Quests added:
+	- Old Hillsbrad: Nice Hat...
+
+
+
+
 Version 4.1.2
 
 - Compatibility with Atlas 1.12.
@@ -15,7 +29,7 @@ Version 4.1.2
 	- Slave Pens: Ahune is Here!
 	- Slave Pens: Summon Ahune
 	- Slave Pens: Shards of Ahune
-	
+
 
 
 

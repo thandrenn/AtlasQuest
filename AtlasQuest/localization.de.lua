@@ -51,7 +51,7 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 AQHelpText = ""..WHITE.."Gib /aq oder atlasquest "..YELLOW.."[command]"..WHITE.." ein\ncommands: help; option/config; show/hide; left/right; colour; autoshow"..RED.."(nur Atlas)"
 --
-AQOptionsCaptionTEXT = "AtlasQuest-Optionen";
+AQOptionsCaptionTEXT = ""..YELLOW.."AtlasQuest-Optionen";
 AQ_OK = "OK"
 
 -- Autoshow
@@ -163,6 +163,16 @@ AQITEM_ENCHANT = "Verzauberung"
 ----------------------------------------------
 ---------------- DUNGEONS --------------------
 ----------------------------------------------
+
+
+
+--------------- INST36 - No Instance ---------------
+
+-- Just to display "No Quests" when the map is set to something AtlasQuest does not support. I'll probably find a better way of doing this later.
+Inst36Story = ""
+Inst36Caption = "No Information Available"
+Inst36QAA = "keine Quests"
+Inst36QAH = "keine Quests"
 
 
 

@@ -669,14 +669,14 @@ These fonts are useless atm -->
  			</Anchor>
  		</Anchors>
 	  <Frames>
-	  <Button name="CLOSEbutton3" inherits="OptionsButtonTemplate" text="AtlasQuest">
+	  <Button name="CLOSEbutton3" inherits="UIPanelButtonTemplate2" text="AtlasQuest">
           <Size>
             <AbsDimension x="90" y="20"/>
           </Size>
 	      <Anchors>
 		     <Anchor point="TOPRIGHT">
 			   <Offset>
-				  <AbsDimension x="-120" y="-61"/>
+				  <AbsDimension x="-115" y="-50"/>
 			   </Offset>
 		     </Anchor>
 	      </Anchors>
