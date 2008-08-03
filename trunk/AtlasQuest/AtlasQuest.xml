@@ -449,12 +449,12 @@
  </Button>
  <Button name="STORYbutton" inherits="OptionsButtonTemplate" text="Story">
    <Size>
-     <AbsDimension x="55" y="30"/>
+     <AbsDimension x="75" y="30"/>
    </Size>
 	<Anchors>
 		<Anchor point="BOTTOMLEFT">
 			<Offset>
-				<AbsDimension x="25" y="15"/>
+				<AbsDimension x="23" y="15"/>
 			</Offset>
 		</Anchor>
 	</Anchors>

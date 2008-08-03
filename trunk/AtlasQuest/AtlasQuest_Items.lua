@@ -4911,6 +4911,13 @@ Inst51Quest5ITC1 = Itemc5;
 Inst51Quest5description1 = AQITEM_ITEM
 Inst51Quest5ID1 = "29434"
 
+--Quest 6 Alliance
+Inst51Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst51Quest6ITC1 = Itemc2;
+Inst51Quest6description1 = AQITEM_HEAD..AQITEM_CLOTH
+Inst51Quest6ID1 = "38276"
+
 
 --Quest 1 Horde
 Inst51Quest1Rewardtext_HORDE = AQNoReward
@@ -4946,6 +4953,13 @@ Inst51Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
 Inst51Quest5ITC1_HORDE = Itemc5;
 Inst51Quest5description1_HORDE = AQITEM_ITEM
 Inst51Quest5ID1_HORDE = "29434"
+
+--Quest 6 Horde
+Inst51Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst51Quest6ITC1_HORDE = Itemc2;
+Inst51Quest6description1_HORDE = AQITEM_HEAD..AQITEM_CLOTH
+Inst51Quest6ID1_HORDE = "38276"
 
 
 

@@ -7,6 +7,10 @@ ToDo List
 - AlphaMap: Not all DM & SM quests shown since AlphaMap doesn't split up SM maps. Blerg. No known solution.
 
 
+Quests: 
+- Durnholde: Nice Hat... http://www.wowhead.com/?quest=12515
+
+
 Checklist:
 
 ENG	GER	INST
