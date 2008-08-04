@@ -8,6 +8,7 @@ Version 4.1.3
 - Made "Story" button larger so German text isn't bigger than the button. (Suggested by Telchar)
 - Moved "AtlasQuest" button in the AtlasFrame to same level as Atlas' "Options" button. (Suggested by Telchar)
 - AtlasQuest side panel will no longer disappear when Atlas changes to an unsupported map, such as Entrances, Flight paths, etc. (Suggested by Telchar)
+- Fixed BRD Horde quests "Heart of the Mountain" and "A Taste of Flame".
 - German localization updates by Telchar.
 
 - Quests added:

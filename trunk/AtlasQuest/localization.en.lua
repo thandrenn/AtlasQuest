@@ -1011,7 +1011,7 @@ Inst5Quest13 = "13. A Taste of Flame"
 Inst5Quest13_Level = "58"
 Inst5Quest13_Attain = "52"
 Inst5Quest13_Aim = "Travel to Blackrock Depths and slay Bael'Gar. "..YELLOW.."[...]"..WHITE.." Return the Encased Fiery Essence to Cyrus Therepentous."
-Inst5Quest13_Location = "Cyrus Therepentous (Burning Steppes; "..YELLOW.."94,31"..WHITE..")"
+Inst5Quest13_Location = "Cyrus Therepentous (Burning Steppes; "..YELLOW.."95,31"..WHITE..")"
 Inst5Quest13_Note = "The questline starts at Kalaran Windblade (Searing Gorge; "..YELLOW.."39,38"..WHITE..").\nBael'Gar is at "..YELLOW.."[11]"..WHITE.."."
 Inst5Quest13_Prequest = "Yes, The Flawless Flame -> A Taste of Flame"
 Inst5Quest13_Folgequest = "No"
@@ -1137,15 +1137,15 @@ Inst5Quest4name2_HORDE = "Greater Mana Potion"
 Inst5Quest4name3_HORDE = "Swiftstrike Cudgel"
 Inst5Quest4name4_HORDE = "Limb Cleaver"
 
---Quest 5 Horde  (same as Quest 6 Alliance)
+--Quest 5 Horde  (same as Quest 7 Alliance)
 Inst5Quest5_HORDE = "5. The Heart of the Mountain"
-Inst5Quest5_HORDE_Level = Inst5Quest6_Level
-Inst5Quest5_HORDE_Attain = Inst5Quest6_Attain
-Inst5Quest5_HORDE_Aim = Inst5Quest6_Aim
-Inst5Quest5_HORDE_Location = Inst5Quest6_Location
-Inst5Quest5_HORDE_Note = Inst5Quest6_Note
-Inst5Quest5_HORDE_Prequest = Inst5Quest6_Prequest
-Inst5Quest5_HORDE_Folgequest = Inst5Quest6_Folgequest
+Inst5Quest5_HORDE_Level = Inst5Quest7_Level
+Inst5Quest5_HORDE_Attain = Inst5Quest7_Attain
+Inst5Quest5_HORDE_Aim = Inst5Quest7_Aim
+Inst5Quest5_HORDE_Location = Inst5Quest7_Location
+Inst5Quest5_HORDE_Note = Inst5Quest7_Note
+Inst5Quest5_HORDE_Prequest = Inst5Quest7_Prequest
+Inst5Quest5_HORDE_Folgequest = Inst5Quest7_Folgequest
 -- No Rewards for this quest
 
 --Quest 6 Horde
@@ -1200,20 +1200,20 @@ Inst5Quest9name2_HORDE = "Raincaster Drape"
 Inst5Quest9name3_HORDE = "Basaltscale Armor"
 Inst5Quest9name4_HORDE = "Lavaplate Gauntlets"
 
---Quest 10 Horde  (same as Quest 12 Alliance)
+--Quest 10 Horde  (same as Quest 13 Alliance)
 Inst5Quest10_HORDE = "10. A Taste of Flame"
-Inst5Quest10_HORDE_Level = Inst5Quest12_Level
-Inst5Quest10_HORDE_Attain = Inst5Quest12_Attain
-Inst5Quest10_HORDE_Aim = Inst5Quest12_Aim
-Inst5Quest10_HORDE_Location = Inst5Quest12_Location
-Inst5Quest10_HORDE_Note = Inst5Quest12_Note
-Inst5Quest10_HORDE_Prequest = Inst5Quest12_Prequest
-Inst5Quest10_HORDE_Folgequest = Inst5Quest12_Folgequest
-Inst5Quest10PreQuest_HORDE = Inst5Quest12PreQuest
+Inst5Quest10_HORDE_Level = Inst5Quest13_Level
+Inst5Quest10_HORDE_Attain = Inst5Quest13_Attain
+Inst5Quest10_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest10_HORDE_Location = Inst5Quest13_Location
+Inst5Quest10_HORDE_Note = Inst5Quest13_Note
+Inst5Quest10_HORDE_Prequest = Inst5Quest13_Prequest
+Inst5Quest10_HORDE_Folgequest = Inst5Quest13_Folgequest
+Inst5Quest10PreQuest_HORDE = Inst5Quest13PreQuest
 --
-Inst5Quest10name1_HORDE = Inst5Quest12name1
-Inst5Quest10name2_HORDE = Inst5Quest12name2
-Inst5Quest10name3_HORDE = Inst5Quest12name3
+Inst5Quest10name1_HORDE = Inst5Quest13name1
+Inst5Quest10name2_HORDE = Inst5Quest13name2
+Inst5Quest10name3_HORDE = Inst5Quest13name3
 
 --Quest 11 Horde
 Inst5Quest11_HORDE = "11. Disharmony of Flame"
