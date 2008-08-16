@@ -26,7 +26,7 @@
 -- Email：zhengguo@live.com
 -- Rebuilt by Ananhaid（2区 伊利丹“紫雪之都”公会 NovaLOG）
 -- Email：ananhaid[at]gmail.com
--- Last update: 2008-07-12
+-- Last update: 2008-08-16
 
 if ( GetLocale() == "zhCN" ) then
 ---------------
@@ -162,6 +162,15 @@ AQITEM_ENCHANT = "附魔"
 ----------------------------------------------
 ---------------- DUNGEONS --------------------
 ----------------------------------------------
+
+
+--------------- INST36 - No Instance ---------------
+
+-- Just to display "No Quests" when the map is set to something AtlasQuest does not support. I'll probably find a better way of doing this later.
+Inst36Story = ""
+Inst36Caption = "没有可用的信息"
+Inst36QAA = "无任务"
+Inst36QAH = "无任务"
 
 
 
@@ -8024,8 +8033,8 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 
 Inst51Story = "敦霍尔德城堡是人类兽族第二次大战时洛丹伦王国的南方的前沿要塞。.\n\n这时候萨尔在人族指挥官布莱克眼里，萨尔只不过是一个傀儡酋长。他想利用萨尔的力量来控制其他人。\n\n但是萨尔知道，他生来注定要带领兽人摆脱枷锁，所以他开始了的逃离敦霍尔德的旅程。\n\n这个副本表现的是10年前的希尔斯布莱德，那是部落还没有摧毁敦霍尔德而且塔伦米尔没有沦陷在亡灵天灾手里。"
 Inst51Caption = "时光之穴：旧希尔斯布莱德"
-Inst51QAA = "5 个任务"
-Inst51QAH = "5 个任务"
+Inst51QAA = "6 个任务"
+Inst51QAH = "6 个任务"
 Inst51General = {
     {
     "德拉克中尉",
@@ -8110,6 +8119,17 @@ Inst51Quest5_Folgequest = "无"
 --
 Inst51Quest5name1 = "公正徽章"
 
+--Quest 6 Alliance
+Inst51Quest6 = "6. 好帽子……"
+Inst51Quest6_Level = "68"
+Inst51Quest6_Attain = "66"
+Inst51Quest6_Aim = "卡洛斯要你进入旧希尔斯布莱德，击败年轻时候的卡洛斯。然后将他的帽子交给塔纳利斯的卡洛斯。"
+Inst51Quest6_Location = "卡洛斯 (塔纳利斯; "..YELLOW.."54,29"..WHITE..")"
+Inst51Quest6_Note = "卡洛斯在 "..YELLOW.."[6]"..WHITE.."附近的路上东西方向来回游荡，但是不会过河上的桥."
+Inst51Quest6_Prequest = "No"
+Inst51Quest6_Folgequest = "No"
+--
+Inst51Quest6name1 = "流浪乐队宽边帽"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst51Quest1_HORDE = Inst51Quest1
@@ -8175,6 +8195,17 @@ Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
 --
 Inst51Quest5name1_HORDE = Inst51Quest5name1
 
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst51Quest6_HORDE = Inst51Quest6
+Inst51Quest6_HORDE_Level = Inst51Quest6_Level
+Inst51Quest6_HORDE_Attain = Inst51Quest6_Attain
+Inst51Quest6_HORDE_Aim = Inst51Quest6_Aim
+Inst51Quest6_HORDE_Location = Inst51Quest6_Location
+Inst51Quest6_HORDE_Note = Inst51Quest6_Note
+Inst51Quest6_HORDE_Prequest = Inst51Quest6_Prequest
+Inst51Quest6_HORDE_Folgequest = Inst51Quest6_Folgequest
+--
+Inst51Quest6name1_HORDE = Inst51Quest6name1
 
 
 --------------- INST52 - Gruul's Lair (GL) ---------------
