@@ -170,9 +170,9 @@ AQITEM_ENCHANT = "Verzauberung"
 
 -- Just to display "No Quests" when the map is set to something AtlasQuest does not support. I'll probably find a better way of doing this later.
 Inst36Story = ""
-Inst36Caption = "No Information Available"
-Inst36QAA = "keine Quests"
-Inst36QAH = "keine Quests"
+Inst36Caption = "Keine Informationen verfügbar"
+Inst36QAA = "Keine Quests"
+Inst36QAH = "Keine Quests"
 
 
 
@@ -181,7 +181,7 @@ Inst36QAH = "keine Quests"
 Inst1Story = "Die Todesminen, einst die wichtigste Goldquelle der Menschen, wurden aufgegeben, als die Horde Sturmwind während des Ersten Krieges in Schutt und Asche legte. Nun hat sich die Defias-Bruderschaft in den verlassenen Minen niedergelassen und die dunklen Schächte in ihre eigene unterirdische Festung verwandelt. Gerüchten zufolge sollen die Diebe die gewitzten Goblins angeheuert haben, um tief in den Minen etwas Fürchterliches zu konstruieren, doch welche Teufelei dies konkret sein soll, ist nicht bekannt. Der Zugang zu den Todesminen liegt inmitten des ruhigen, unscheinbaren Dorfes Mondbruch."
 Inst1Caption = "Die Todesminen"
 Inst1QAA = "7 Quests"
-Inst1QAH = "keine Quests"
+Inst1QAH = "Keine Quests"
 
 --Quest 1 Alliance
 Inst1Quest1 = "1. Rote Seidenkopftücher"
@@ -701,9 +701,9 @@ Inst4Quest15_Level = "47"
 Inst4Quest15_Attain = "40"
 Inst4Quest15_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon. -> Bringt die Miniaturausgabe der Scheiben von Norgannon zur Forscherliga nach Eisenschmiede."
 Inst4Quest15_Location = "Die Scheiben von Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst4Quest15_Note = "Nachdem ihr das Quest erhalten habt, müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Hochforscher Magellas in Eisenschmiede - Halle der Forscher ("..YELLOW.."69,18"..WHITE..") bringen sollt. Es gibt noch ein anderes Folgequest namens 'Mal sehen, was passiert...', dass bei Historiker Karnik in Eisenschmiede - Halle der Forscher startet."
+Inst4Quest15_Note = "Nachdem ihr das Quest erhalten habt, müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Hochforscher Magellas in Eisenschmiede - Halle der Forscher ("..YELLOW.."69,18"..WHITE..") bringen sollt. Das Folgequest wird von einem NPC in der Nähe gestartet."
 Inst4Quest15_Prequest = "Nein"
-Inst4Quest15_Folgequest = "Nein"
+Inst4Quest15_Folgequest = "Ja, Omen von Uldum"
 --
 Inst4Quest15name1 = "Taupelzsack"
 Inst4Quest15name2 = "Überragender Heiltrank"
@@ -826,9 +826,9 @@ Inst4Quest9_HORDE_Level = "47"
 Inst4Quest9_HORDE_Attain = "40"
 Inst4Quest9_HORDE_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon. -> Bringt die Miniaturausgabe der Scheiben von Norgannon zu einem der Weisen von Donnerfels."
 Inst4Quest9_HORDE_Location = "Die Scheiben von Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst4Quest9_HORDE_Note = "Nachdem ihr das Quest erhalten habt müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Weiser Wahrspruch in Donnerfels ("..YELLOW.."34,46"..WHITE..") bringt."
+Inst4Quest9_HORDE_Note = "Nachdem ihr das Quest erhalten habt müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Weiser Wahrspruch in Donnerfels ("..YELLOW.."34,46"..WHITE..") bringt. Das Folgequest wird von einem NPC in der Nähe gestartet."
 Inst4Quest9_HORDE_Prequest = "Nein"
-Inst4Quest9_HORDE_Folgequest = "Ja, Die Platinscheiben"
+Inst4Quest9_HORDE_Folgequest = "Ja, Omen von Uldum"
 --
 Inst4Quest9name1_HORDE = "Taupelzsack"
 Inst4Quest9name2_HORDE = "Überragender Heiltrank"
@@ -1019,7 +1019,7 @@ Inst5Quest13 = "13. Eine Kostprobe der Flamme"
 Inst5Quest13_Level = "58"
 Inst5Quest13_Attain = "52"
 Inst5Quest13_Aim = "Begebt Euch in die Schwarzfelstiefen und tötet Bael'Gar. "..YELLOW.."[...]"..WHITE.." Bringt die eingeschlossene feurige Essenz zu Cyrus Therepentous zurück."
-Inst5Quest13_Location = "Cyrus Therepentous (Brennende Steppe; "..YELLOW.."94,31"..WHITE..")"
+Inst5Quest13_Location = "Cyrus Therepentous (Brennende Steppe; "..YELLOW.."95,31"..WHITE..")"
 Inst5Quest13_Note = "Die Questreihe startet bei Kalaran Windklinge (Sengende Schlucht; "..YELLOW.."39,38"..WHITE..").\nBael'Gar befindet sich bei "..YELLOW.."[11]"..WHITE.."."
 Inst5Quest13_Prequest = "Ja, Die fehlerlose Flamme -> Eine Kostprobe der Flamme"
 Inst5Quest13_Folgequest = "Nein"
@@ -1145,15 +1145,15 @@ Inst5Quest4name2_HORDE = "Großer Manatrank"
 Inst5Quest4name3_HORDE = "Hurtigschlagknüppel"
 Inst5Quest4name4_HORDE = "Gliedmaßenspaltbeil"
 
---Quest 5 Horde  (same as Quest 6 Alliance)
+--Quest 5 Horde  (same as Quest 7 Alliance)
 Inst5Quest5_HORDE = "5. Das Herz des Berges"
-Inst5Quest5_HORDE_Level = Inst5Quest6_Level
-Inst5Quest5_HORDE_Attain = Inst5Quest6_Attain
-Inst5Quest5_HORDE_Aim = Inst5Quest6_Aim
-Inst5Quest5_HORDE_Location = Inst5Quest6_Location
-Inst5Quest5_HORDE_Note = Inst5Quest6_Note
-Inst5Quest5_HORDE_Prequest = Inst5Quest6_Prequest
-Inst5Quest5_HORDE_Folgequest = Inst5Quest6_Folgequest
+Inst5Quest5_HORDE_Level = Inst5Quest7_Level
+Inst5Quest5_HORDE_Attain = Inst5Quest7_Attain
+Inst5Quest5_HORDE_Aim = Inst5Quest7_Aim
+Inst5Quest5_HORDE_Location = Inst5Quest7_Location
+Inst5Quest5_HORDE_Note = Inst5Quest7_Note
+Inst5Quest5_HORDE_Prequest = Inst5Quest7_Prequest
+Inst5Quest5_HORDE_Folgequest = Inst5Quest7_Folgequest
 -- No Rewards for this quest
 
 --Quest 6 Horde
@@ -1208,20 +1208,20 @@ Inst5Quest9name2_HORDE = "Regenzauberer-Tuch"
 Inst5Quest9name3_HORDE = "Basaltschuppenrüstung"
 Inst5Quest9name4_HORDE = "Lavaplattenstulpen"
 
---Quest 10 Horde  (same as Quest 12 Alliance)
+--Quest 10 Horde  (same as Quest 13 Alliance)
 Inst5Quest10_HORDE = "10. Eine Kostprobe der Flamme"
-Inst5Quest10_HORDE_Level = Inst5Quest12_Level
-Inst5Quest10_HORDE_Attain = Inst5Quest12_Attain
-Inst5Quest10_HORDE_Aim = Inst5Quest12_Aim
-Inst5Quest10_HORDE_Location = Inst5Quest12_Location
-Inst5Quest10_HORDE_Note = Inst5Quest12_Note
-Inst5Quest10_HORDE_Prequest = Inst5Quest12_Prequest
-Inst5Quest10_HORDE_Folgequest = Inst5Quest12_Folgequest
-Inst5Quest10PreQuest_HORDE = Inst5Quest12PreQuest
+Inst5Quest10_HORDE_Level = Inst5Quest13_Level
+Inst5Quest10_HORDE_Attain = Inst5Quest13_Attain
+Inst5Quest10_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest10_HORDE_Location = Inst5Quest13_Location
+Inst5Quest10_HORDE_Note = Inst5Quest13_Note
+Inst5Quest10_HORDE_Prequest = Inst5Quest13_Prequest
+Inst5Quest10_HORDE_Folgequest = Inst5Quest13_Folgequest
+Inst5Quest10PreQuest_HORDE = Inst5Quest13PreQuest
 --
-Inst5Quest10name1_HORDE = Inst5Quest12name1
-Inst5Quest10name2_HORDE = Inst5Quest12name2
-Inst5Quest10name3_HORDE = Inst5Quest12name3
+Inst5Quest10name1_HORDE = Inst5Quest13name1
+Inst5Quest10name2_HORDE = Inst5Quest13name2
+Inst5Quest10name3_HORDE = Inst5Quest13name3
 
 --Quest 11 Horde
 Inst5Quest11_HORDE = "11. Disharmonie der Flamme"
@@ -7854,8 +7854,8 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 
 Inst51Story = "Burg Durnholde war der Hauptsitz der orkischen Internierungslager im südlichen Lordaeron nach der Niederlage der Horde im Zweiten Krieg.\n\nZu dieser Zeit war Thrall ein 19 Jahre alter Sklave des menschlichen Offiziers Aedelas Schwarzmoor, der Thrall als Kriegshäuptlingsmarionette benutzen wollte, um die orkische Horde zu kontrollieren und daraus Macht über seine Mitmenschen zu erhalten.\n\nAber Thrall wusste, dass er für mehr ausersehnt war, und so floh er aus Durnholde, um andere seiner Art zu finden und schließlich den Frostwolfklan und seinen Platz als Kriegshäuptling zu entdecken.\n\nDiese Instanz enthält das komplette Hügelland-Gebiet, wie es vor 7 Jahren war, bevor die Horde Durnholde zerstört hat und Tarrens Mühle an die Untoten verfallen ist."
 Inst51Caption = "HdZ: Vorgebirge des alten Hügellands"
-Inst51QAA = "5 Quests"
-Inst51QAH = "5 Quests"
+Inst51QAA = "6 Quests"
+Inst51QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst51Quest1 = "1. Das alte Hügelland"
@@ -7921,6 +7921,18 @@ Inst51Quest5_Folgequest = "Nein"
 --
 Inst51Quest5name1 = "Abzeichen der Gerechtigkeit"
 
+--Quest 6 Alliance
+Inst51Quest6 = "6. Netter Hut..."
+Inst51Quest6_Level = "68"
+Inst51Quest6_Attain = "66"
+Inst51Quest6_Aim = "Don Carlos hat Euch versehentlich dazu herausgefordert, sein jüngeres Ich im Alten Hügelland zu besiegen. Bringt ihm anschließend seinen Hut als Beweis. Er befindet sich in Tanaris. "
+Inst51Quest6_Location = "Don Carlos (Tanaris; "..YELLOW.."54,29"..WHITE..")"
+Inst51Quest6_Note = "Don Carlos wandert auf der Straße nahe "..YELLOW.."[??]"..WHITE.."."
+Inst51Quest6_Prequest = "Nein"
+Inst51Quest6_Folgequest = "Nein"
+--
+Inst51Quest6name1 = "Breitkrempiger Haliskanhut"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst51Quest1_HORDE = Inst51Quest1
@@ -7985,6 +7997,18 @@ Inst51Quest5_HORDE_Prequest = Inst51Quest5_Prequest
 Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
 --
 Inst51Quest5name1_HORDE = Inst51Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst51Quest6_HORDE = Inst51Quest6
+Inst51Quest6_HORDE_Level = Inst51Quest6_Level
+Inst51Quest6_HORDE_Attain = Inst51Quest6_Attain
+Inst51Quest6_HORDE_Aim = Inst51Quest6_Aim
+Inst51Quest6_HORDE_Location = Inst51Quest6_Location
+Inst51Quest6_HORDE_Note = Inst51Quest6_Note
+Inst51Quest6_HORDE_Prequest = Inst51Quest6_Prequest
+Inst51Quest6_HORDE_Folgequest = Inst51Quest6_Folgequest
+--
+Inst51Quest6name1_HORDE = Inst51Quest6name1
 
 
 
