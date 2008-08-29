@@ -1,81 +1,79 @@
-=========
-ToDo List
-=========
+=================
+ToDo & Notes List
+=================
 
-- BUG: /aq popping up Swatter error when used for first time. From Chawgobeh.
-- Investigate adding scrollbar
-- AlphaMap: Not all DM & SM quests shown since AlphaMap doesn't split up SM maps. Blerg. No known solution.
-
+- Finish adding quest IDs
+- AlphaMap: Not all DM & SM quests shown since AlphaMap doesn't split up SM maps.
 
 
-Checklist:
 
-ENG	GER	INST
 
-DONE 	DONE	1  = Deadmines (VC)
-DONE 	DONE	2  = Wailing Caverns (WC)
-DONE 	DONE	3  = Ragefire Chasm (RFC)
-DONE 	DONE	4  = Uldaman (ULD)
-DONE 	DONE	5  = Blackrock Depths (BRD)
-DONE 	DONE	6  = Blackwing Lair (BWL)
-DONE 	DONE	7  = Blackfathom Deeps (BFD)
-DONE 	DONE	8  = Lower Blackrock Spire (LBRS)
-DONE 	DONE	9  = Upper Blackrock Spire (UBRS)
-DONE 	DONE	10 = Dire Maul East (DM)
-DONE 	DONE	11 = Dire Maul North (DM)
-DONE 	DONE	12 = Dire Maul West (DM)
-DONE 	DONE	13 = Maraudon (Mara)
-DONE 	DONE	14 = Molten Core (MC)
-DONE	DONE	15 = Naxxramas (Naxx)
-DONE	DONE	16 = Onyxia's Lair (Ony)
-DONE	DONE	17 = Razorfen Downs (RFD)
-DONE	DONE	18 = Razorfen Kraul (RFK)
-DONE	DONE	19 = SM: Library (SM Lib)
-DONE	DONE	20 = Scholomance (Scholo)
-DONE	DONE	21 = Shadowfang Keep (SFK)
-DONE	DONE	22 = Stratholme (Strat)
-DONE	DONE	23 = The Ruins of Ahn'Qiraj (AQ20)
-DONE	DONE	24 = The Stockade (Stocks)
-DONE	DONE	25 = Sunken Temple (ST)
-DONE	DONE	26 = The Temple of Ahn'Qiraj (AQ40)
-DONE 	DONE	27 = Zul'Farrak (ZF)
-DONE 	DONE	28 = Zul'Gurub (ZG)
-DONE	DONE	29 = Gnomeregan (Gnomer)
-DONE 	DONE	30 = Four Dragons
-DONE 	DONE	31 = Azuregos
-N/A 	N/A	32 = Highlord Kruul
-DONE 	--	33 = Alterac Valley (AV)
-DONE 	DONE	34 = Arathi Basin (AB)
-DONE 	DONE	35 = Warsong Gulch (WSG)
-DONE	DONE	37 = HFC: Ramparts (Ramp)
-DONE	DONE	38 = HFC: Blood Furnace (BF)
-DONE	DONE	39 = HFC: Shattered Halls (SH)
-DONE	DONE	40 = HFC: Magtheridon's Lair
-DONE	DONE	41 = CR: The Slave Pens (SP)
-DONE 	DONE	42 = CR: The Steamvault (SV)
-DONE 	DONE	43 = CR: The Underbog (UB)
-DONE 	DONE	44 = Auchindoun: Auchenai Crypts (AC)
-DONE 	DONE	45 = Auchindoun: Mana Tombs (MT)
-DONE 	DONE	46 = Auchindoun: Sethekk Halls (Seth)
-DONE 	DONE	47 = Auchindoun: Shadow Labyrinth (SLabs)
-DONE 	DONE	48 = CR: Serpentshrine Cavern (SSC)
-DONE 	DONE	49 = CoT: Black Morass (BM)
-DONE	DONE	50 = CoT: Battle of Mount Hyjal
-DONE	DONE	51 = CoT: Old Hillsbrad
-DONE 	DONE	52 = Gruul's Lair (GL)
-DONE	DONE	53 = Karazhan (Kara)
-DONE 	DONE	54 = TK: Arcatraz (Arc)
-DONE 	DONE	55 = TK: Botanica (Bot)
-DONE 	DONE	56 = TK: Mechanar (Mech)
-DONE	DONE	57 = SM: Armory (SM Arm)
-DONE	DONE	58 = SM: Cathedral (SM Cath)
-DONE	DONE	59 = SM: Graveyard (SM GY)
-DONE	DONE	60 = Eye of the Storm
-DONE	DONE	61 = TK: The Eye
-DONE 	DONE	62 = Black Temple (BT)
-DONE  	DONE	63 = Zul'Aman (ZA)
-N/A	N/A	64 = Doom Lord Kazzak
-N/A	N/A	65 = Doomwalker
-DONE	DONE	66 = Skettis
-DONE 	DONE	67 = Magisters' Terrace
-N/A	N/A	68 = Sunwell Plateau
+Quest Link Progress:
+
+DONE 1  = Deadmines (VC)
+DONE 2  = Wailing Caverns (WC)
+-- 3  = Ragefire Chasm (RFC)
+-- 4  = Uldaman (ULD)
+-- 5  = Blackrock Depths (BRD)
+-- 6  = Blackwing Lair (BWL)
+-- 7  = Blackfathom Deeps (BFD)
+-- 8  = Lower Blackrock Spire (LBRS)
+-- 9  = Upper Blackrock Spire (UBRS)
+-- 10 = Dire Maul East (DM)
+-- 11 = Dire Maul North (DM)
+-- 12 = Dire Maul West (DM)
+-- 13 = Maraudon (Mara)
+-- 14 = Molten Core (MC)
+-- 15 = Naxxramas (Naxx)
+-- 16 = Onyxia's Lair (Ony)
+-- 17 = Razorfen Downs (RFD)
+-- 18 = Razorfen Kraul (RFK)
+-- 19 = SM: Library (SM Lib)
+-- 20 = Scholomance (Scholo)
+-- 21 = Shadowfang Keep (SFK)
+-- 22 = Stratholme (Strat)
+-- 23 = The Ruins of Ahn'Qiraj (AQ20)
+-- 24 = The Stockade (Stocks)
+-- 25 = Sunken Temple (ST)
+-- 26 = The Temple of Ahn'Qiraj (AQ40)
+-- 27 = Zul'Farrak (ZF)
+-- 28 = Zul'Gurub (ZG)
+-- 29 = Gnomeregan (Gnomer)
+-- 30 = Four Dragons
+-- 31 = Azuregos
+-- 32 = Highlord Kruul
+-- 33 = Alterac Valley (AV)
+-- 34 = Arathi Basin (AB)
+-- 35 = Warsong Gulch (WSG)
+-- 37 = HFC: Ramparts (Ramp)
+-- 38 = HFC: Blood Furnace (BF)
+-- 39 = HFC: Shattered Halls (SH)
+-- 40 = HFC: Magtheridon's Lair
+-- 41 = CR: The Slave Pens (SP)
+-- 42 = CR: The Steamvault (SV)
+-- 43 = CR: The Underbog (UB)
+-- 44 = Auchindoun: Auchenai Crypts (AC)
+-- 45 = Auchindoun: Mana Tombs (MT)
+-- 46 = Auchindoun: Sethekk Halls (Seth)
+-- 47 = Auchindoun: Shadow Labyrinth (SLabs)
+-- 48 = CR: Serpentshrine Cavern (SSC)
+-- 49 = CoT: Black Morass (BM)
+-- 50 = CoT: Battle of Mount Hyjal
+-- 51 = CoT: Old Hillsbrad
+-- 52 = Gruul's Lair (GL)
+-- 53 = Karazhan (Kara)
+-- 54 = TK: Arcatraz (Arc)
+-- 55 = TK: Botanica (Bot)
+-- 56 = TK: Mechanar (Mech)
+-- 57 = SM: Armory (SM Arm)
+-- 58 = SM: Cathedral (SM Cath)
+-- 59 = SM: Graveyard (SM GY)
+-- 60 = Eye of the Storm
+-- 61 = TK: The Eye
+-- 62 = Black Temple (BT)
+-- 63 = Zul'Aman (ZA)
+-- 64 = Doom Lord Kazzak
+-- 65 = Doomwalker
+-- 66 = Skettis
+-- 67 = Magisters' Terrace
+-- 68 = Sunwell Plateau
