@@ -5,6 +5,7 @@ ToDo & Notes List
 - Finish adding quest IDs
 - AlphaMap: Not all DM & SM quests shown since AlphaMap doesn't split up SM maps.
 
+- Note: Need location of Omarion in Naxx for Inst15Quest6. Deathknight Wing - where?
 
 
 
