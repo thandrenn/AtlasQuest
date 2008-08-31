@@ -1947,6 +1947,9 @@ Inst15Quest5ITC1 = Itemc5;
 Inst15Quest5description1 = AQITEM_RING
 Inst15Quest5ID1 = "22707"
 
+--Quest 6 Alliance
+Inst15Quest6Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst15Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
@@ -1990,6 +1993,9 @@ Inst15Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst15Quest5ITC1_HORDE = Itemc5;
 Inst15Quest5description1_HORDE = AQITEM_RING
 Inst15Quest5ID1_HORDE = "22707"
+
+--Quest 6 Horde
+Inst15Quest6Rewardtext_HORDE = AQNoReward
 
 
 

@@ -3251,8 +3251,8 @@ Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
 
 Inst15Story = "Floating above the Plaguelands, the necropolis known as Naxxramas serves as the seat of one of the Lich King's most powerful officers, the dreaded lich Kel'Thuzad. Horrors of the past and new terrors yet to be unleashed are gathering inside the necropolis as the Lich King's servants prepare their assault. Soon the Scourge will march again..."
 Inst15Caption = "Naxxramas"
-Inst15QAA = "5 Quests"
-Inst15QAH = "5 Quests"
+Inst15QAA = "6 Quests"
+Inst15QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst15Quest1 = "1. The Fall of Kel'Thuzad"
@@ -3316,6 +3316,17 @@ Inst15Quest5_Folgequest = "No"
 Inst15Quest5FQuest = "true"
 --
 Inst15Quest5name1 = "Ramaladni's Icy Grasp"
+
+--Quest 6 Alliance
+Inst15Quest6 = "6. Omarion's Handbook"
+Inst15Quest6_Level = "60"
+Inst15Quest6_Attain = "60"
+Inst15Quest6_Aim = "Take Omarion's Handbook to Craftsman Wilhelm at Light's Hope Chapel in the Eastern Plaguelands."
+Inst15Quest6_Location = "Item given by Master Craftsman Omarion (Naxxramas; "..YELLOW.."[??]"..WHITE..")"
+Inst15Quest6_Note = "Craftsman Wilhelm is at (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81,60"..WHITE.."). Appears to be a quest only for Tailors. After turning this quest in, Craftsman Wilhelm will teach you new patterns if you are Revered or Exalted with the Argent Dawn."
+Inst15Quest6_Prequest = "No"
+Inst15Quest6_Folgequest = "No"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3381,6 +3392,17 @@ Inst15Quest5_HORDE_Folgequest = Inst15Quest5_Folgequest
 Inst15Quest5FQuest_HORDE = Inst15Quest5FQuest
 --
 Inst15Quest5name1_HORDE = Inst15Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst15Quest6_HORDE = Inst15Quest6
+Inst15Quest6_HORDE_Level = Inst15Quest6_Level
+Inst15Quest6_HORDE_Attain = Inst15Quest6_Attain
+Inst15Quest6_HORDE_Aim = Inst15Quest6_Aim
+Inst15Quest6_HORDE_Location = Inst15Quest6_Location
+Inst15Quest6_HORDE_Note = Inst15Quest6_Note
+Inst15Quest6_HORDE_Prequest = Inst15Quest6_Prequest
+Inst15Quest6_HORDE_Folgequest = Inst15Quest6_Folgequest
+-- No Rewards for this quest
 
 
 

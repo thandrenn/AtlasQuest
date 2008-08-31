@@ -69,8 +69,7 @@ local AQMAXINSTANCES = "68"
 local AQMAXQUESTS = "19"
 
 -- Set title for AtlasQuest side panel
-AQ_VERSION = "AtlasQuest 4.1.3 Alpha";
-AQVERSION = ""..BLUE.."AtlasQuest 4.1.3 Alpha";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.1.3 Alpha";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -150,7 +149,7 @@ end
 function AQVersionCheck()
  if (AtlasQuest_Options["Version"] == nil or AtlasQuest_Options["Version"] ~= AtlasQuest_Defaults["Version"] ) then
    AtlasQuest_Options["Version"] = AtlasQuest_Defaults["Version"];
-   DEFAULT_CHAT_FRAME:AddMessage("First load after updating to "..AQVERSION);
+   DEFAULT_CHAT_FRAME:AddMessage("First load after updating to "..ATLASQUEST_VERSION);
  end
 end
 
@@ -246,7 +245,7 @@ function AQSetButtontext()
       STORYbutton:SetText(AQStoryB);
       OPTIONbutton:SetText(AQOptionB);
       AQOptionCloseButton:SetText(AQ_OK);
-      AtlasQuestTitle:SetText(AQVERSION);
+      AtlasQuestTitle:SetText(ATLASQUEST_VERSION);
       AQCaptionOptionTEXT:SetText(AQOptionsCaptionTEXT);
       AQAutoshowOptionTEXT:SetText(AQOptionsAutoshowTEXT);
       AQLEFTOptionTEXT:SetText(AQOptionsLEFTTEXT);
