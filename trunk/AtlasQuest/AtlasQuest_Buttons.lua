@@ -191,45 +191,63 @@ end
 
 
 -----------------------------------------------------------------------------
--- Insert Quest Information into the chat box
+-- Insert Quest Link into the chat box
 -----------------------------------------------------------------------------
 function AQInsertQuestInformation()
 local OnlyQuestNameRemovedNumber
 local Quest
 Quest = AQSHOWNQUEST;
 
--- Grab the Quest Link string
+
+-- Grab the Quest ID and then the QuestLink string.
 if (Allianceorhorde == 1) then
-	AQQuestLink = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_QuestLink");
+	AQ_QuestID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_QuestID");
 else
-	AQQuestLink = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_QuestLink");
+	AQ_QuestID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_QuestID");
 end
 
 
--- Verify that the variable was set then output to chat window
-if ( AQQuestLink ) then
-	ChatFrameEditBox:Insert(AQQuestLink);
-else
-	-- Otherwise, post the quest name and level.	
-	if (Quest <= 9) then
-		if (Allianceorhorde == 1) then
-			OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 4)
+-- Remove the beginning number from the quest name
+if (Quest <= 9) then
+	if (Allianceorhorde == 1) then
+		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 4)
 
-		elseif (Allianceorhorde == 2) then
-			OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 4)
-		end
-	elseif (Quest > 9) then
-		if (Allianceorhorde == 1) then
-			OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 5)
-		elseif (Allianceorhorde == 2) then
-			OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 5)
-		end
+	elseif (Allianceorhorde == 2) then
+		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 4)
 	end
+elseif (Quest > 9) then
+	if (Allianceorhorde == 1) then
+		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 5)
+	elseif (Allianceorhorde == 2) then
+		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 5)
+	end
+end
 
+
+-- Grab the quest level. Use new variable to assure that it's actually set.
+local AQ_QuestLevel = getglobal("AQ_"..AQ_QuestID.."_Level");
+
+
+-- Code from Denival to remove parentheses and anything in it from Quest Name string
+ps, pe = strfind(AQ_QuestName," %(.*%)")
+if (ps) then
+	AQ_QuestName = strsub(AQ_QuestName,1,ps-1)
+end
+
+
+-- Grab the Quest Link string using the ID and hopefully use the localized quest name for the link.
+local AQ_QuestLink = "|cffffff00|Hquest:"..AQ_QuestID..":"..AQ_QuestLevel.."|h["..AQ_QuestName.."]|h|r";
+
+
+-- Verify that the variable was set then output to chat window
+if ( AQ_QuestLink ) then
+	ChatFrameEditBox:Insert(AQ_QuestLink);
+else
+	-- Otherwise, post the quest name and level. NOTE: This code is presently obsolete. Will remove later.	
 	if ( Allianceorhorde == 1) then
-		ChatFrameEditBox:Insert("["..OnlyQuestNameRemovedNumber.."] ["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Level").."]");
+		ChatFrameEditBox:Insert("["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Level").."] ["..AQ_QuestName.."] ");
 	else
-		ChatFrameEditBox:Insert("["..OnlyQuestNameRemovedNumber.."] ["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Level").."]");
+		ChatFrameEditBox:Insert("["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Level").."] ["..AQ_QuestName.."]");
 	end
 end
 
