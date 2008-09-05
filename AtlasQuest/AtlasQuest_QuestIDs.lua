@@ -95,3 +95,20 @@ AQ_914_Level = "22"
 
 
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
+
+Inst3Quest1_HORDE_QuestID = "5723"
+Inst3Quest2_HORDE_QuestID = "5725"
+Inst3Quest3_HORDE_QuestID = "5722"
+Inst3Quest4_HORDE_QuestID = "5728"
+Inst3Quest5_HORDE_QuestID = "5761"
+
+AQ_5723_Level = "15"
+AQ_5725_Level = "16"
+AQ_5722_Level = "16"
+AQ_5728_Level = "16"
+AQ_5761_Level = "16"
+
+
+
+--------------- INST4 - Uldaman (Ulda) ---------------
+

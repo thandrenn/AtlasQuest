@@ -13,7 +13,7 @@ Quest Link Progress:
 
 DONE 1  = Deadmines (VC)
 DONE 2  = Wailing Caverns (WC)
--- 3  = Ragefire Chasm (RFC)
+DONE 3  = Ragefire Chasm (RFC)
 -- 4  = Uldaman (ULD)
 -- 5  = Blackrock Depths (BRD)
 -- 6  = Blackwing Lair (BWL)

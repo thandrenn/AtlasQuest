@@ -47,10 +47,11 @@
       <Offset><AbsDimension x="0" y="-240"/></Offset>>
    </Anchor>
  </Anchors>
- <Backdrop name="$parentBackdrop" bgFile="Interface\Minimap\TooltipBackdrop-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+ <Backdrop name="$parentBackdrop" bgFile="Interface\ChatFrame\ChatFrameBackground" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
   <EdgeSize>
    <AbsValue val="16"/>
   </EdgeSize>
+  <Color r="0" g="0" b="0" a="1"/>
   <TileSize>
     <AbsValue val="32"/>
   </TileSize>
