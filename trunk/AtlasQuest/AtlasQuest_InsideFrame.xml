@@ -43,13 +43,6 @@
     <Color r="1.0" g="0.82" b="0"/>
 </FontString>
 
-<FontString name="SystemFont" inherits="MasterFont" font="Fonts\FRIZQT__.TTF" virtual="true">
-  <FontHeight>
-    <AbsValue val="15"/>
-  </FontHeight>
-    <Color r="1.0" g="0.82" b="0"/>
-</FontString>
-
 <FontString name="AQFontVERYSmall" inherits="MasterFont" font="Fonts\FRIZQT__.TTF" virtual="true">
   <FontHeight>
     <AbsValue val="11"/>
@@ -58,6 +51,15 @@
 </FontString>
 
 These fonts are useless atm -->
+
+<!-- Re-activated this font since it seems to be needed by Wrath of the Lich King -->
+<FontString name="SystemFont" inherits="MasterFont" font="Fonts\FRIZQT__.TTF" virtual="true">
+  <FontHeight>
+    <AbsValue val="15"/>
+  </FontHeight>
+    <Color r="1.0" g="0.82" b="0"/>
+</FontString>
+
 
 
 <!--  AtlasQuest Inside Atlas/AlphaMap frame -->
