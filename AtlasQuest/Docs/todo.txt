@@ -8,30 +8,40 @@ ToDo & Notes List
 - Note: Need location of Omarion in Naxx for Inst15Quest6. Deathknight Wing - where?
 
 
+Broken Quest Links:
+- Inst6Quest2 A&H
+- Inst8Quest11 A&H
+- Inst9Quest9 A, Inst9Quest10 H
+- Inst10Quest6 A&H
+- Inst12Quest4 A&H
+- Inst14Quest4 A&H
+- Inst20Quest9 A&H
+- Inst20Quest10 A&H
+
 
 Quest Link Progress:
 
 DONE 1  = Deadmines (VC)
 DONE 2  = Wailing Caverns (WC)
 DONE 3  = Ragefire Chasm (RFC)
--- 4  = Uldaman (ULD)
--- 5  = Blackrock Depths (BRD)
--- 6  = Blackwing Lair (BWL)
--- 7  = Blackfathom Deeps (BFD)
--- 8  = Lower Blackrock Spire (LBRS)
--- 9  = Upper Blackrock Spire (UBRS)
--- 10 = Dire Maul East (DM)
--- 11 = Dire Maul North (DM)
--- 12 = Dire Maul West (DM)
--- 13 = Maraudon (Mara)
--- 14 = Molten Core (MC)
--- 15 = Naxxramas (Naxx)
--- 16 = Onyxia's Lair (Ony)
--- 17 = Razorfen Downs (RFD)
--- 18 = Razorfen Kraul (RFK)
--- 19 = SM: Library (SM Lib)
--- 20 = Scholomance (Scholo)
--- 21 = Shadowfang Keep (SFK)
+DONE 4  = Uldaman (ULD)
+DONE 5  = Blackrock Depths (BRD)
+broke 6  = Blackwing Lair (BWL)
+DONE 7  = Blackfathom Deeps (BFD)
+broke 8  = Lower Blackrock Spire (LBRS)
+broke 9  = Upper Blackrock Spire (UBRS)
+broke 10 = Dire Maul East (DM)
+DONE 11 = Dire Maul North (DM)
+broke 12 = Dire Maul West (DM)
+DONE 13 = Maraudon (Mara)
+broke 14 = Molten Core (MC)
+DONE 15 = Naxxramas (Naxx)
+DONE 16 = Onyxia's Lair (Ony)
+DONE 17 = Razorfen Downs (RFD)
+DONE 18 = Razorfen Kraul (RFK)
+DONE 19 = SM: Library (SM Lib)
+broke 20 = Scholomance (Scholo)
+DONE 21 = Shadowfang Keep (SFK)
 -- 22 = Stratholme (Strat)
 -- 23 = The Ruins of Ahn'Qiraj (AQ20)
 -- 24 = The Stockade (Stocks)
