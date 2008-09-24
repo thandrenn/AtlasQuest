@@ -239,6 +239,13 @@ end
 local AQ_QuestLink = "|cffffff00|Hquest:"..AQ_QuestID..":"..AQ_QuestLevel.."|h["..AQ_QuestName.."]|h|r";
 
 
+--[[ Debug Stuff
+ChatFrame1:AddMessage("Quest ID: "..AQ_QuestID);
+ChatFrame1:AddMessage("Quest Level: "..AQ_QuestLevel);
+ChatFrame1:AddMessage("Quest Name: "..AQ_QuestName);
+ChatFrame1:AddMessage("Quest Link: "..AQ_QuestLink);
+--]]
+
 -- Verify that the variable was set then output to chat window
 if ( AQ_QuestLink ) then
 	ChatFrameEditBox:Insert(AQ_QuestLink);
