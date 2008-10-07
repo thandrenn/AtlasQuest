@@ -669,6 +669,48 @@ AQ_1048_Level = "42"
 
 
 
+--------------- INST57 - SM: Armory (SM Arm) ---------------
+
+Inst57Quest1_QuestID = "1053"
+
+Inst57Quest1_HORDE_QuestID = "1113"
+Inst57Quest2_HORDE_QuestID = "1048"
+
+
+--AQ_1053_Level = "40"  -- Already used for SM Library. Left here just for the note.
+--AQ_1113_Level = "33"  -- Already used for SM Library. Left here just for the note.
+--AQ_1048_Level = "42"  -- Already used for SM Library. Left here just for the note.
+
+
+
+--------------- INST58 - SM: Cathedral (SM Cath) ---------------
+
+Inst58Quest1_QuestID = "1053"
+
+Inst58Quest1_HORDE_QuestID = "1113"
+Inst58Quest2_HORDE_QuestID = "1048"
+
+--AQ_1053_Level = "40"  -- Already used for SM Library. Left here just for the note.
+--AQ_1113_Level = "33"  -- Already used for SM Library. Left here just for the note.
+--AQ_1048_Level = "42"  -- Already used for SM Library. Left here just for the note.
+
+
+
+--------------- INST59 - SM: Graveyard (SM GY) ---------------
+
+Inst59Quest1_QuestID = "11392"
+
+Inst59Quest1_HORDE_QuestID = "1051"
+Inst59Quest2_HORDE_QuestID = "1113"
+Inst59Quest3_HORDE_QuestID = "11392"
+
+
+AQ_11392_Level = "65"
+AQ_1051_Level = "33"
+--AQ_1113_Level = "33"  -- Already used for SM Library. Left here just for the note.
+
+
+
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Quest1_QuestID = "5529"
@@ -728,4 +770,1078 @@ AQ_1014_Level = "27"
 
 
 --------------- INST22 - Stratholme (Strat) ---------------
+
+Inst22Quest1_QuestID = "5212"
+Inst22Quest2_QuestID = "5213"
+Inst22Quest3_QuestID = "5243"
+Inst22Quest4_QuestID = "5214"
+Inst22Quest5_QuestID = "5282"
+Inst22Quest6_QuestID = "5848"
+Inst22Quest7_QuestID = "5463"
+Inst22Quest8_QuestID = "5125"
+Inst22Quest9_QuestID = "5251"
+Inst22Quest10_QuestID = "5262"
+Inst22Quest11_QuestID = "5263"
+Inst22Quest12_QuestID = "8945"
+Inst22Quest13_QuestID = "8968"
+Inst22Quest14_QuestID = "8991"   --**
+Inst22Quest15_QuestID = "9257"   --**
+Inst22Quest16_QuestID = "5307"
+Inst22Quest17_QuestID = "5305"
+Inst22Quest18_QuestID = "7622"   --**
+
+Inst22Quest1_HORDE_QuestID = "5212"
+Inst22Quest2_HORDE_QuestID = "5213"
+Inst22Quest3_HORDE_QuestID = "5243"
+Inst22Quest4_HORDE_QuestID = "5214"
+Inst22Quest5_HORDE_QuestID = "5282"
+Inst22Quest6_HORDE_QuestID = "5848"
+Inst22Quest7_HORDE_QuestID = "5463"
+Inst22Quest8_HORDE_QuestID = "5125"
+Inst22Quest9_HORDE_QuestID = "5251"
+Inst22Quest10_HORDE_QuestID = "5262"
+Inst22Quest11_HORDE_QuestID = "5263"
+Inst22Quest12_HORDE_QuestID = "8945"
+Inst22Quest13_HORDE_QuestID = "8968"
+Inst22Quest14_HORDE_QuestID = "8991"   --**
+Inst22Quest15_HORDE_QuestID = "9257"   --**
+Inst22Quest16_HORDE_QuestID = "5307"
+Inst22Quest17_HORDE_QuestID = "5305"
+Inst22Quest18_HORDE_QuestID = "6163"
+Inst22Quest19_HORDE_QuestID = "7622"   --**
+
+
+AQ_5212_Level = "60"
+AQ_5213_Level = "60"
+AQ_5243_Level = "60"
+AQ_5214_Level = "60"
+AQ_5282_Level = "60"
+AQ_5848_Level = "60"
+AQ_5463_Level = "60"
+AQ_5125_Level = "60"
+AQ_5251_Level = "60"
+AQ_5262_Level = "60"
+AQ_5263_Level = "60"
+AQ_8945_Level = "60"
+AQ_8968_Level = "60"
+AQ_8991_Level = "60"
+AQ_9257_Level = "60" -- NOTE: Atiesh Priest version
+AQ_9269_Level = "60" -- NOTE: Atiesh Druid version
+AQ_9270_Level = "60" -- NOTE: Atiesh Mage version
+AQ_9271_Level = "60" -- NOTE: Atiesh Warlock version
+AQ_5307_Level = "60"
+AQ_5305_Level = "60"
+AQ_7622_Level = "60"
+AQ_6163_Level = "60"
+
+
+
+--------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
+
+Inst23Quest1_QuestID = "8791"
+Inst23Quest2_QuestID = "9023"
+
+Inst23Quest1_HORDE_QuestID = "8791"
+Inst23Quest2_HORDE_QuestID = "9023"
+
+
+AQ_8791_Level = "60"
+AQ_9023_Level = "60"
+
+
+
+--------------- INST24 - The Stockade (Stocks) ---------------
+
+Inst24Quest1_QuestID = "386"
+Inst24Quest2_QuestID = "377"
+Inst24Quest3_QuestID = "387"
+Inst24Quest4_QuestID = "388"
+Inst24Quest5_QuestID = "378"
+Inst24Quest6_QuestID = "391"
+
+
+AQ_386_Level = "25"
+AQ_377_Level = "26"
+AQ_387_Level = "26"
+AQ_388_Level = "26"
+AQ_378_Level = "27"
+AQ_391_Level = "29"
+
+
+
+--------------- INST25 - Sunken Temple (ST) ---------------
+
+Inst25Quest1_QuestID = "1475"
+Inst25Quest2_QuestID = "3445"
+Inst25Quest3_QuestID = "3446"
+Inst25Quest4_QuestID = "3447"
+Inst25Quest5_QuestID = "4143"
+Inst25Quest6_QuestID = "3528"
+Inst25Quest7_QuestID = "1446"
+Inst25Quest8_QuestID = "3373"
+Inst25Quest9_QuestID = "8422"
+Inst25Quest10_QuestID = "8425"
+Inst25Quest11_QuestID = "8413"
+Inst25Quest12_QuestID = "9053"
+Inst25Quest13_QuestID = "8232"
+Inst25Quest14_QuestID = "8253"
+Inst25Quest15_QuestID = "8257"
+Inst25Quest16_QuestID = "8236"
+Inst25Quest17_QuestID = "8418"
+
+Inst25Quest1_HORDE_QuestID = "1445"
+Inst25Quest2_HORDE_QuestID = "3380"
+Inst25Quest3_HORDE_QuestID = "3446"
+Inst25Quest4_HORDE_QuestID = "3447"
+Inst25Quest5_HORDE_QuestID = "4146"
+Inst25Quest6_HORDE_QuestID = "3528"
+Inst25Quest7_HORDE_QuestID = "1446"
+Inst25Quest8_HORDE_QuestID = "3373"
+Inst25Quest9_HORDE_QuestID = "8422"
+Inst25Quest10_HORDE_QuestID = "8425"
+Inst25Quest11_HORDE_QuestID = "8413"
+Inst25Quest12_HORDE_QuestID = "9053"
+Inst25Quest13_HORDE_QuestID = "8232"
+Inst25Quest14_HORDE_QuestID = "8253"
+Inst25Quest15_HORDE_QuestID = "8257"
+Inst25Quest16_HORDE_QuestID = "8236"
+Inst25Quest17_HORDE_QuestID = "10593"
+
+
+AQ_1475_Level = "50"
+AQ_3445_Level = "51"
+AQ_3446_Level = "51"
+AQ_3447_Level = "51"
+AQ_4143_Level = "52"
+AQ_3528_Level = "53"
+AQ_1446_Level = "53"
+AQ_3373_Level = "55"
+AQ_8422_Level = "52"
+AQ_8425_Level = "52"
+AQ_8413_Level = "52"
+AQ_9053_Level = "52"
+AQ_8232_Level = "52"
+AQ_8253_Level = "52"
+AQ_8257_Level = "52"
+AQ_8236_Level = "52"
+AQ_8418_Level = "52"
+AQ_1445_Level = "50"
+AQ_3380_Level = "51"
+AQ_4146_Level = "52"
+AQ_10593_Level = "52"
+
+
+
+--------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
+
+Inst26Quest1_QuestID = "8801"
+Inst26Quest2_QuestID = "8802"
+Inst26Quest3_QuestID = "8784"
+
+Inst26Quest1_HORDE_QuestID = "8801"
+Inst26Quest2_HORDE_QuestID = "8802"
+Inst26Quest3_HORDE_QuestID = "8784"
+
+
+AQ_8801_Level = "60"
+AQ_8802_Level = "60"
+AQ_8784_Level = "60"
+
+
+
+--------------- INST27 - Zul'Farrak (ZF) ---------------
+
+Inst27Quest1_QuestID = "3042"
+Inst27Quest2_QuestID = "2865"
+Inst27Quest3_QuestID = "2846"
+Inst27Quest4_QuestID = "2991"
+Inst27Quest5_QuestID = "3527"
+Inst27Quest6_QuestID = "2768"
+Inst27Quest7_QuestID = "2770"
+
+Inst27Quest1_HORDE_QuestID = "2936"
+Inst27Quest2_HORDE_QuestID = "3042"
+Inst27Quest3_HORDE_QuestID = "2865"
+Inst27Quest4_HORDE_QuestID = "2846"
+Inst27Quest5_HORDE_QuestID = "3527"
+Inst27Quest6_HORDE_QuestID = "2768"
+Inst27Quest7_HORDE_QuestID = "2770"
+
+
+AQ_3042_Level = "45"
+AQ_2865_Level = "45"
+AQ_2846_Level = "46"
+AQ_2991_Level = "47"
+AQ_3527_Level = "47"
+AQ_2768_Level = "47"
+AQ_2770_Level = "50"
+AQ_2936_Level = "45"
+
+
+
+--------------- INST28 - Zul'Gurub (ZG) ---------------
+
+Inst28Quest1_QuestID = "8201"
+Inst28Quest2_QuestID = "8183"
+Inst28Quest3_QuestID = "8227"
+Inst28Quest4_QuestID = "9023"
+
+Inst28Quest1_HORDE_QuestID = "8201"
+Inst28Quest2_HORDE_QuestID = "8183"
+Inst28Quest3_HORDE_QuestID = "8227"
+Inst28Quest4_HORDE_QuestID = "9023"
+
+
+AQ_8201_Level = "60"
+AQ_8183_Level = "60"
+AQ_8227_Level = "60"
+AQ_9023_Level = "60"
+
+
+
+--------------- INST29 - Gnomeregan (Gnomer) ---------------
+
+Inst29Quest1_QuestID = "2922"
+Inst29Quest2_QuestID = "2926"
+Inst29Quest3_QuestID = "2962"
+Inst29Quest4_QuestID = "2928"
+Inst29Quest5_QuestID = "2924"
+Inst29Quest6_QuestID = "2930"
+Inst29Quest7_QuestID = "2904"
+Inst29Quest8_QuestID = "2929"
+Inst29Quest9_QuestID = "2945"
+Inst29Quest10_QuestID = "2947"
+
+Inst29Quest1_HORDE_QuestID = "2843"
+Inst29Quest2_HORDE_QuestID = "2904"
+Inst29Quest3_HORDE_QuestID = "2841"
+Inst29Quest4_HORDE_QuestID = "2945"
+Inst29Quest5_HORDE_QuestID = "2949"
+
+
+AQ_2922_Level = "26"
+AQ_2926_Level = "27"
+AQ_2962_Level = "30"
+AQ_2928_Level = "30"
+AQ_2924_Level = "30"
+AQ_2930_Level = "30"
+AQ_2904_Level = "30"
+AQ_2929_Level = "35"
+AQ_2945_Level = "34"
+AQ_2947_Level = "34"
+AQ_2843_Level = "35"
+AQ_2841_Level = "35"
+AQ_2949_Level = "34"
+
+
+
+--------------- INST37 - HFC: Ramparts (Ramp) ---------------
+
+Inst37Quest1_QuestID = "9575"
+Inst37Quest2_QuestID = "9587"
+Inst37Quest3_QuestID = "11354"
+
+Inst37Quest1_HORDE_QuestID = "9572"
+Inst37Quest2_HORDE_QuestID = "9588"
+Inst37Quest3_HORDE_QuestID = "11354"
+
+
+AQ_9575_Level = "62"
+AQ_9587_Level = "62"
+AQ_11354_Level = "70"
+AQ_9572_Level = "62"
+AQ_9588_Level = "62"
+
+
+
+--------------- INST38 - HFC: Blood Furnace (BF) ---------------
+
+Inst38Quest1_QuestID = "9589"
+Inst38Quest2_QuestID = "9607"
+Inst38Quest3_QuestID = "11362"
+
+Inst38Quest1_HORDE_QuestID = "9590"
+Inst38Quest2_HORDE_QuestID = "9608"
+Inst38Quest3_HORDE_QuestID = "11362"
+
+
+AQ_9589_Level = "63"
+AQ_9607_Level = "63"
+AQ_11362_Level = "70"
+AQ_9590_Level = "63"
+AQ_9608_Level = "63"
+
+
+
+--------------- INST39 - HFC: Shattered Halls (SH) ---------------
+
+Inst39Quest1_QuestID = "9494"
+Inst39Quest2_QuestID = "9493"
+Inst39Quest3_QuestID = "9492"
+Inst39Quest4_QuestID = "9524"
+Inst39Quest5_QuestID = "10884"
+Inst39Quest6_QuestID = "10670"
+Inst39Quest7_QuestID = "9637"
+Inst39Quest8_QuestID = "11363"
+Inst39Quest9_QuestID = "11364"
+Inst39Quest10_QuestID = "10754"
+
+Inst39Quest1_HORDE_QuestID = "9496"
+Inst39Quest2_HORDE_QuestID = "9495"
+Inst39Quest3_HORDE_QuestID = "9525"
+Inst39Quest4_HORDE_QuestID = "10884"
+Inst39Quest5_HORDE_QuestID = "10670"
+Inst39Quest6_HORDE_QuestID = "9637"
+Inst39Quest7_HORDE_QuestID = "11363"
+Inst39Quest8_HORDE_QuestID = "11364"
+Inst39Quest9_HORDE_QuestID = "10755"
+
+
+AQ_9494_Level = "70"
+AQ_9493_Level = "70"
+AQ_9492_Level = "70"
+AQ_9524_Level = "70"
+AQ_10884_Level = "70"
+AQ_10670_Level = "70"
+AQ_9637_Level = "70"
+AQ_11363_Level = "70"
+AQ_11364_Level = "70"
+AQ_10754_Level = "70"
+AQ_9496_Level = "70"
+AQ_9495_Level = "70"
+AQ_9525_Level = "70"
+AQ_10755_Level = "70"
+
+
+
+--------------- INST40 - HFC: Magtheridon's Lair ---------------
+
+Inst40Quest1_QuestID = "10888"
+Inst40Quest2_QuestID = "11002" --**
+
+Inst40Quest1_HORDE_QuestID = "10888"
+Inst40Quest2_HORDE_QuestID = "11003"
+
+
+AQ_10888_Level = "70"
+AQ_11002_Level = "70"
+AQ_11003_Level = "70"
+
+
+
+--------------- INST41 - CR: The Slave Pens (SP) ---------------
+
+Inst41Quest1_QuestID = "9738"
+Inst41Quest2_QuestID = "11368"
+Inst41Quest3_QuestID = "10901"
+Inst41Quest4_QuestID = "11955"
+Inst41Quest5_QuestID = "11696"
+Inst41Quest6_QuestID = "11691"
+Inst41Quest7_QuestID = "11972"
+
+Inst41Quest1_HORDE_QuestID = "9738"
+Inst41Quest2_HORDE_QuestID = "11368"
+Inst41Quest3_HORDE_QuestID = "10901"
+Inst41Quest4_HORDE_QuestID = "11955"
+Inst41Quest5_HORDE_QuestID = "11696"
+Inst41Quest6_HORDE_QuestID = "11691"
+Inst41Quest7_HORDE_QuestID = "11972"
+
+
+AQ_9738_Level = "65"
+AQ_11368_Level = "70"
+AQ_10901_Level = "70"
+AQ_11955_Level = "70"
+AQ_11696_Level = "70"
+AQ_11691_Level = "70"
+AQ_11972_Level = "70"
+
+
+
+--------------- INST42 - CR: The Steamvault (SV) ---------------
+
+Inst42Quest1_QuestID = "9763"
+Inst42Quest2_QuestID = "9764"
+Inst42Quest3_QuestID = "10885"
+Inst42Quest4_QuestID = "10667"
+Inst42Quest5_QuestID = "9832"
+Inst42Quest6_QuestID = "11371"
+Inst42Quest7_QuestID = "11370"
+
+Inst42Quest1_HORDE_QuestID = "9763"
+Inst42Quest2_HORDE_QuestID = "9764"
+Inst42Quest3_HORDE_QuestID = "10885"
+Inst42Quest4_HORDE_QuestID = "10667"
+Inst42Quest5_HORDE_QuestID = "9832"
+Inst42Quest6_HORDE_QuestID = "11371"
+Inst42Quest7_HORDE_QuestID = "11370"
+
+
+AQ_9763_Level = "70"
+AQ_9764_Level = "70"
+AQ_10885_Level = "70"
+AQ_10667_Level = "70"
+AQ_9832_Level = "70"
+AQ_11371_Level = "70"
+AQ_11370_Level = "70"
+
+
+
+--------------- INST43 - CR: The Underbog (UB) ---------------
+
+Inst43Quest1_QuestID = "9738"
+Inst43Quest2_QuestID = "9717"
+Inst43Quest3_QuestID = "9719"
+Inst43Quest4_QuestID = "11369"
+Inst43Quest5_QuestID = "9715"
+
+Inst43Quest1_HORDE_QuestID = "9738"
+Inst43Quest2_HORDE_QuestID = "9717"
+Inst43Quest3_HORDE_QuestID = "9719"
+Inst43Quest4_HORDE_QuestID = "11369"
+Inst43Quest5_HORDE_QuestID = "9715"
+
+
+--AQ_9738_Level = "65"  -- Already used for CR: Slave Pens. Left here just for the note.
+AQ_9717_Level = "65"
+AQ_9719_Level = "65"
+AQ_11369_Level = "70"
+AQ_9715_Level = "65"
+
+
+
+--------------- INST44 - Auchindoun: Auchenai Crypts (AC) ---------------
+
+Inst44Quest1_QuestID = "10164"
+Inst44Quest2_QuestID = "11374"
+
+Inst44Quest1_HORDE_QuestID = "10167"
+Inst44Quest2_HORDE_QuestID = "10168"
+Inst44Quest3_HORDE_QuestID = "10164"
+Inst44Quest4_HORDE_QuestID = "11374"
+
+
+AQ_10164_Level = "67"
+AQ_11374_Level = "70"
+AQ_10167_Level = "68"
+AQ_10168_Level = "68"
+
+
+
+--------------- INST45 - Auchindoun: Mana Tombs (MT) ---------------
+
+Inst45Quest1_QuestID = "10216"
+Inst45Quest2_QuestID = "10218"
+Inst45Quest3_QuestID = "10165"
+Inst45Quest4_QuestID = "10977"
+Inst45Quest5_QuestID = "11373"
+
+Inst45Quest1_HORDE_QuestID = "10216"
+Inst45Quest2_HORDE_QuestID = "10218"
+Inst45Quest3_HORDE_QuestID = "10165"
+Inst45Quest4_HORDE_QuestID = "10977"
+Inst45Quest5_HORDE_QuestID = "11373"
+
+
+AQ_10216_Level = "66"
+AQ_10218_Level = "66"
+AQ_10165_Level = "66"
+AQ_10977_Level = "70"
+AQ_11373_Level = "70"
+
+
+
+--------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
+
+Inst46Quest1_QuestID = "10097"
+Inst46Quest2_QuestID = "10098"
+Inst46Quest3_QuestID = "11001"
+Inst46Quest4_QuestID = "9637"
+Inst46Quest5_QuestID = "11372"
+
+Inst46Quest1_HORDE_QuestID = "10097"
+Inst46Quest2_HORDE_QuestID = "10098"
+Inst46Quest3_HORDE_QuestID = "11001"
+Inst46Quest4_HORDE_QuestID = "9637"
+Inst46Quest5_HORDE_QuestID = "11372"
+
+
+AQ_10097_Level = "69"
+AQ_10098_Level = "69"
+AQ_11001_Level = "70"
+--AQ_9637_Level = "70"  -- Already used for HFC: Shattered Halls. Left here just for the note.
+AQ_11372_Level = "70"
+
+
+
+--------------- INST47 - Auchindoun: Shadow Labyrinth (SLabs) ---------------
+
+Inst47Quest1_QuestID = "10178"
+Inst47Quest2_QuestID = "10091"
+Inst47Quest3_QuestID = "10649"
+Inst47Quest4_QuestID = "10177"
+Inst47Quest5_QuestID = "10094"
+Inst47Quest6_QuestID = "10095"
+Inst47Quest7_QuestID = "10885"
+Inst47Quest8_QuestID = "9831"
+Inst47Quest9_QuestID = "10666"
+Inst47Quest10_QuestID = "11375"
+Inst47Quest11_QuestID = "11376"
+
+Inst47Quest1_HORDE_QuestID = "10178"
+Inst47Quest2_HORDE_QuestID = "10091"
+Inst47Quest3_HORDE_QuestID = "10649"
+Inst47Quest4_HORDE_QuestID = "10177"
+Inst47Quest5_HORDE_QuestID = "10094"
+Inst47Quest6_HORDE_QuestID = "10095"
+Inst47Quest7_HORDE_QuestID = "10885"
+Inst47Quest8_HORDE_QuestID = "9831"
+Inst47Quest9_HORDE_QuestID = "10666"
+Inst47Quest10_HORDE_QuestID = "11375"
+Inst47Quest11_HORDE_QuestID = "11376"
+
+
+AQ_10178_Level = "70"
+AQ_10091_Level = "70"
+AQ_10649_Level = "70"
+AQ_10177_Level = "70"
+AQ_10094_Level = "70"
+AQ_10095_Level = "70"
+AQ_10885_Level = "70"
+AQ_9831_Level = "70"
+AQ_10666_Level = "70"
+AQ_11375_Level = "70"
+AQ_11376_Level = "70"
+
+
+
+--------------- INST48 - CR: Serpentshrine Cavern (SSC) ---------------
+
+Inst48Quest1_QuestID = "10445"
+Inst48Quest2_QuestID = "10944"
+
+Inst48Quest1_HORDE_QuestID = "10445"
+Inst48Quest2_HORDE_QuestID = "10944"
+
+
+AQ_10445_Level = "70"
+AQ_10944_Level = "70"
+
+
+
+--------------- INST49 - CoT: Black Morass (BM) ---------------
+
+Inst49Quest1_QuestID = "10296"
+Inst49Quest2_QuestID = "10297"
+Inst49Quest3_QuestID = "10298"
+Inst49Quest4_QuestID = "9836"
+Inst49Quest5_QuestID = "10902"
+Inst49Quest6_QuestID = "11382"
+Inst49Quest7_QuestID = "11383"
+
+Inst49Quest1_HORDE_QuestID = "10296"
+Inst49Quest2_HORDE_QuestID = "10297"
+Inst49Quest3_HORDE_QuestID = "10298"
+Inst49Quest4_HORDE_QuestID = "9836"
+Inst49Quest5_HORDE_QuestID = "10902"
+Inst49Quest6_HORDE_QuestID = "11382"
+Inst49Quest7_HORDE_QuestID = "11383"
+
+
+AQ_10296_Level = "70"
+AQ_10297_Level = "70"
+AQ_10298_Level = "70"
+AQ_9836_Level = "70"
+AQ_10902_Level = "70"
+AQ_11382_Level = "70"
+AQ_11383_Level = "70"
+
+
+
+--------------- INST50 - CoT: Battle of Mount Hyjal ---------------
+
+Inst50Quest1_QuestID = "10947"
+
+Inst50Quest1_HORDE_QuestID = "10947"
+
+
+AQ_10947_Level = "70"
+
+
+
+--------------- INST51 - CoT: Old Hillsbrad ---------------
+
+Inst51Quest1_QuestID = "10282"
+Inst51Quest2_QuestID = "10283"
+Inst51Quest3_QuestID = "10284"
+Inst51Quest4_QuestID = "10285"
+Inst51Quest5_QuestID = "11378"
+Inst51Quest6_QuestID = "12513"
+
+Inst51Quest1_HORDE_QuestID = "10282"
+Inst51Quest2_HORDE_QuestID = "10283"
+Inst51Quest3_HORDE_QuestID = "10284"
+Inst51Quest4_HORDE_QuestID = "10285"
+Inst51Quest5_HORDE_QuestID = "11378"
+Inst51Quest6_HORDE_QuestID = "12513"
+
+
+AQ_10282_Level = "68"
+AQ_10283_Level = "68"
+AQ_10284_Level = "68"
+AQ_10285_Level = "68"
+AQ_11378_Level = "70"
+AQ_12513_Level = "68"
+
+
+
+--------------- INST52 - Gruul's Lair (GL) ---------------
+
+Inst52Quest1_QuestID = "10901"
+
+Inst52Quest1_HORDE_QuestID = "10901"
+
+
+--AQ_10901_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
+
+
+
+--------------- INST53 - Karazhan (Kara) ---------------
+
+Inst53Quest1_QuestID = "9840"
+Inst53Quest2_QuestID = "9843"
+Inst53Quest3_QuestID = "9844"
+Inst53Quest4_QuestID = "9860"
+Inst53Quest5_QuestID = "9630"
+Inst53Quest6_QuestID = "9638"
+Inst53Quest7_QuestID = "9639"
+Inst53Quest8_QuestID = "9640"
+Inst53Quest9_QuestID = "9645"
+Inst53Quest10_QuestID = "9680"
+Inst53Quest11_QuestID = "9631"
+Inst53Quest12_QuestID = "9637"
+Inst53Quest13_QuestID = "9644"
+Inst53Quest14_QuestID = "10901"
+
+Inst53Quest1_HORDE_QuestID = "9840"
+Inst53Quest2_HORDE_QuestID = "9843"
+Inst53Quest3_HORDE_QuestID = "9844"
+Inst53Quest4_HORDE_QuestID = "9860"
+Inst53Quest5_HORDE_QuestID = "9630"
+Inst53Quest6_HORDE_QuestID = "9638"
+Inst53Quest7_HORDE_QuestID = "9639"
+Inst53Quest8_HORDE_QuestID = "9640"
+Inst53Quest9_HORDE_QuestID = "9645"
+Inst53Quest10_HORDE_QuestID = "9680"
+Inst53Quest11_HORDE_QuestID = "9631"
+Inst53Quest12_HORDE_QuestID = "9637"
+Inst53Quest13_HORDE_QuestID = "9644"
+Inst53Quest14_HORDE_QuestID = "10901"
+
+
+AQ_9840_Level = "70"
+AQ_9843_Level = "70"
+AQ_9844_Level = "70"
+AQ_9860_Level = "70"
+AQ_9630_Level = "70"
+AQ_9638_Level = "70"
+AQ_9639_Level = "70"
+AQ_9640_Level = "70"
+AQ_9645_Level = "70"
+AQ_9680_Level = "70"
+AQ_9631_Level = "70"
+AQ_9637_Level = "70"
+AQ_9644_Level = "70"
+--AQ_10901_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
+
+
+
+--------------- INST54 - TK: Arcatraz (Arc) ---------------
+
+Inst54Quest1_QuestID = "10882"
+Inst54Quest2_QuestID = "10705"
+Inst54Quest3_QuestID = "10886"
+Inst54Quest4_QuestID = "9832"
+Inst54Quest5_QuestID = "11388"
+Inst54Quest6_QuestID = "11389"
+
+Inst54Quest1_HORDE_QuestID = "10882"
+Inst54Quest2_HORDE_QuestID = "10705"
+Inst54Quest3_HORDE_QuestID = "10886"
+Inst54Quest4_HORDE_QuestID = "9832"
+Inst54Quest5_HORDE_QuestID = "11388"
+Inst54Quest6_HORDE_QuestID = "11389"
+
+
+AQ_10882_Level = "70"
+AQ_10705_Level = "70"
+AQ_10886_Level = "70"
+--AQ_9832_Level = "70"  -- Already used for CR: The Steamvault. Left here just for the note.
+AQ_11388_Level = "70"
+AQ_11389_Level = "70"
+
+
+
+--------------- INST55 - TK: Botanica (Bot) ---------------
+
+Inst55Quest1_QuestID = "10704"
+Inst55Quest2_QuestID = "10257"
+Inst55Quest3_QuestID = "10897"
+Inst55Quest4_QuestID = "11384"
+Inst55Quest5_QuestID = "11385"
+
+Inst55Quest1_HORDE_QuestID = "10704"
+Inst55Quest2_HORDE_QuestID = "10257"
+Inst55Quest3_HORDE_QuestID = "10897"
+Inst55Quest4_HORDE_QuestID = "11384"
+Inst55Quest5_HORDE_QuestID = "11385"
+
+
+AQ_10704_Level = "70"
+AQ_10257_Level = "70"
+AQ_10897_Level = "70"
+AQ_11384_Level = "70"
+AQ_11385_Level = "70"
+
+
+
+--------------- INST56 - TK: Mechanar (Mech) ---------------
+
+Inst56Quest1_QuestID = "10704"
+Inst56Quest2_QuestID = "10665"
+Inst56Quest3_QuestID = "11386"
+Inst56Quest4_QuestID = "11387"
+
+Inst56Quest1_HORDE_QuestID = "10704"
+Inst56Quest2_HORDE_QuestID = "10665"
+Inst56Quest3_HORDE_QuestID = "11386"
+Inst56Quest4_HORDE_QuestID = "11387"
+
+
+--AQ_10704_Level = "70"  -- Already used for TK: Botanica. Left here just for the note.
+AQ_10665_Level = "69"
+AQ_11386_Level = "70"
+AQ_11387_Level = "70"
+
+
+
+--------------- INST61 - TK: The Eye ---------------
+
+Inst61Quest1_QuestID = "10946"
+Inst61Quest2_QuestID = "11007"
+Inst61Quest3_QuestID = "10445"
+
+Inst61Quest1_HORDE_QuestID = "10946"
+Inst61Quest2_HORDE_QuestID = "11007"
+Inst61Quest3_HORDE_QuestID = "10445"
+
+
+AQ_10946_Level = "70"
+AQ_11007_Level = "70"
+AQ_10445_Level = "70"
+
+
+
+--------------- INST62 - Black Temple (BT) ---------------
+
+Inst62Quest1_QuestID = "10958"
+Inst62Quest2_QuestID = "10957"
+Inst62Quest3_QuestID = "10959"
+
+Inst62Quest1_HORDE_QuestID = "10958"
+Inst62Quest2_HORDE_QuestID = "10957"
+Inst62Quest3_HORDE_QuestID = "10959"
+
+
+AQ_10958_Level = "70"
+AQ_10957_Level = "70"
+AQ_10959_Level = "70"
+
+
+
+--------------- INST63 - Zul'Aman (ZA) ---------------
+
+Inst63Quest1_QuestID = "11132"
+Inst63Quest2_QuestID = "11166"
+Inst63Quest3_QuestID = "11171"
+Inst63Quest4_QuestID = "11164"
+Inst63Quest5_QuestID = "11165"
+Inst63Quest6_QuestID = "11195"
+Inst63Quest7_QuestID = "11178"
+Inst63Quest8_QuestID = "11163"
+
+Inst63Quest1_HORDE_QuestID = "11132"
+Inst63Quest2_HORDE_QuestID = "11166"
+Inst63Quest3_HORDE_QuestID = "11171"
+Inst63Quest4_HORDE_QuestID = "11164"
+Inst63Quest5_HORDE_QuestID = "11165"
+Inst63Quest6_HORDE_QuestID = "11195"
+Inst63Quest7_HORDE_QuestID = "11178"
+Inst63Quest8_HORDE_QuestID = "11163"
+
+
+AQ_11132_Level = "70"
+AQ_11166_Level = "70"
+AQ_11171_Level = "70"
+AQ_11164_Level = "70"
+AQ_11165_Level = "70"
+AQ_11195_Level = "70"
+AQ_11178_Level = "70"
+AQ_11163_Level = "70"
+
+
+
+--------------- INST67 - Magisters' Terrace (MgT) ---------------
+
+Inst67Quest1_QuestID = "11500"
+Inst67Quest2_QuestID = "11499"
+Inst67Quest3_QuestID = "11488"
+Inst67Quest4_QuestID = "11490"
+Inst67Quest5_QuestID = "11492"
+
+Inst67Quest1_HORDE_QuestID = "11500"
+Inst67Quest2_HORDE_QuestID = "11499"
+Inst67Quest3_HORDE_QuestID = "11488"
+Inst67Quest4_HORDE_QuestID = "11490"
+Inst67Quest5_HORDE_QuestID = "11492"
+
+
+AQ_11500_Level = "70"
+AQ_11499_Level = "70"
+AQ_11488_Level = "70"
+AQ_11490_Level = "70"
+AQ_11492_Level = "70"
+
+
+
+--------------- INST68 - Sunwell Plateau ---------------
+
+-- No quests.
+
+
+
+---------------------------------------------------
+---------------- BATTLEGROUNDS --------------------
+---------------------------------------------------
+
+
+
+--------------- INST33 - Alterac Valley (AV) ---------------
+
+Inst33Quest1_QuestID = "11336"
+Inst33Quest2_QuestID = "7261"
+Inst33Quest3_QuestID = "7162"
+Inst33Quest4_QuestID = "7141"
+Inst33Quest5_QuestID = "7121"
+Inst33Quest6_QuestID = "6982"
+Inst33Quest7_QuestID = "5892"
+Inst33Quest8_QuestID = "7223"
+Inst33Quest9_QuestID = "7122"
+Inst33Quest10_QuestID = "7102"
+Inst33Quest11_QuestID = "7081"
+Inst33Quest12_QuestID = "7027"
+Inst33Quest13_QuestID = "7026"
+Inst33Quest14_QuestID = "7386"
+Inst33Quest15_QuestID = "6881"
+Inst33Quest16_QuestID = "6942"
+Inst33Quest17_QuestID = "6941"
+Inst33Quest18_QuestID = "6943"
+
+Inst33Quest1_HORDE_QuestID = "11340"
+Inst33Quest2_HORDE_QuestID = "7241"
+Inst33Quest3_HORDE_QuestID = "7161"
+Inst33Quest4_HORDE_QuestID = "7142"
+Inst33Quest5_HORDE_QuestID = "7123"
+Inst33Quest6_HORDE_QuestID = "5893"
+Inst33Quest7_HORDE_QuestID = "6985"
+Inst33Quest8_HORDE_QuestID = "7224"
+Inst33Quest9_HORDE_QuestID = "7124"
+Inst33Quest10_HORDE_QuestID = "7101"
+Inst33Quest11_HORDE_QuestID = "7082"
+Inst33Quest12_HORDE_QuestID = "7001"
+Inst33Quest13_HORDE_QuestID = "7002"
+Inst33Quest14_HORDE_QuestID = "7385"
+Inst33Quest15_HORDE_QuestID = "6801"
+Inst33Quest16_HORDE_QuestID = "6825"
+Inst33Quest17_HORDE_QuestID = "6826"
+Inst33Quest18_HORDE_QuestID = "6827"
+
+
+AQ_11336_Level = "-1"
+AQ_7261_Level = "60"
+AQ_7162_Level = "60"
+AQ_7141_Level = "60"
+AQ_7121_Level = "60"
+AQ_6982_Level = "60"
+AQ_5892_Level = "60"
+AQ_7223_Level = "60"
+AQ_7122_Level = "60"
+AQ_7102_Level = "60"
+AQ_7081_Level = "60"
+AQ_7027_Level = "60"
+AQ_7026_Level = "60"
+AQ_7386_Level = "60"
+AQ_6881_Level = "60"
+AQ_6942_Level = "60"
+AQ_6941_Level = "60"
+AQ_6943_Level = "60"
+AQ_11340_Level = "-1"
+AQ_7241_Level = "60"
+AQ_7161_Level = "60"
+AQ_7142_Level = "60"
+AQ_7123_Level = "60"
+AQ_5893_Level = "60"
+AQ_6985_Level = "60"
+AQ_7224_Level = "60"
+AQ_7124_Level = "60"
+AQ_7101_Level = "60"
+AQ_7082_Level = "60"
+AQ_7001_Level = "60"
+AQ_7002_Level = "60"
+AQ_7385_Level = "60"
+AQ_6801_Level = "60"
+AQ_6825_Level = "60"
+AQ_6826_Level = "60"
+AQ_6827_Level = "60"
+
+
+
+--------------- INST34 - Arathi Basin (AB) ---------------
+
+Inst34Quest1_QuestID = "11335"
+Inst34Quest2_QuestID = "8105"
+Inst34Quest3_QuestID = "8114"
+Inst34Quest4_QuestID = "8115"
+
+Inst34Quest1_HORDE_QuestID = "11339"
+Inst34Quest2_HORDE_QuestID = "8120"
+Inst34Quest3_HORDE_QuestID = "8121"
+Inst34Quest4_HORDE_QuestID = "8122"
+
+
+AQ_11335_Level = "-1"
+AQ_8105_Level = "55"
+AQ_8114_Level = "60"
+AQ_8115_Level = "60"
+AQ_11339_Level = "-1"
+AQ_8120_Level = "55"
+AQ_8121_Level = "60"
+AQ_8122_Level = "60"
+
+
+
+--------------- INST35 - Warsong Gulch (WSG) ---------------
+
+Inst35Quest1_QuestID = "11338"
+
+Inst35Quest1_HORDE_QuestID = "11342"
+
+
+AQ_11338_Level = "-1"
+AQ_11342_Level = "-1"
+
+
+
+--------------- INST60 - Eye of the Storm ---------------
+
+Inst60Quest1_QuestID = "11337"
+
+Inst60Quest1_HORDE_QuestID = "11341"
+
+
+AQ_11337_Level = "-1"
+AQ_11341_Level = "-1"
+
+
+
+---------------------------------------------------
+---------------- OUTDOOR RAIDS --------------------
+---------------------------------------------------
+
+
+
+--------------- INST30 - Dragons of Nightmare ---------------
+
+Inst30Quest1_QuestID = "8446"
+
+Inst30Quest1_HORDE_QuestID = "8446"
+
+
+AQ_8446_Level = "60"
+
+
+
+--------------- INST31 - Azuregos ---------------
+
+Inst31Quest1_QuestID = "7634"
+
+Inst31Quest1_HORDE_QuestID = "7634"
+
+
+AQ_7634_Level = "60"
+
+
+
+--------------- INST32 - Highlord Kruul ---------------
+
+-- No quests.
+
+
+
+--------------- INST64 - Doom Lord Kazzak ---------------
+
+-- No quests.
+
+
+
+--------------- INST65 - Doomwalker ---------------
+
+-- No quests.
+
+
+
+--------------- INST66 - Skettis ---------------
+
+Inst66Quest1_QuestID = "11098"
+Inst66Quest2_QuestID = "11008"
+Inst66Quest3_QuestID = "11085"
+Inst66Quest4_QuestID = "11093"
+Inst66Quest5_QuestID = "11004"
+Inst66Quest6_QuestID = "11005"
+Inst66Quest7_QuestID = "11021"
+Inst66Quest8_QuestID = "11024"
+Inst66Quest9_QuestID = "11028"
+Inst66Quest10_QuestID = "11056"
+Inst66Quest11_QuestID = "11029"
+Inst66Quest12_QuestID = "11885"
+Inst66Quest13_QuestID = "11073"
+
+Inst66Quest1_HORDE_QuestID = "11098"
+Inst66Quest2_HORDE_QuestID = "11008"
+Inst66Quest3_HORDE_QuestID = "11085"
+Inst66Quest4_HORDE_QuestID = "11093"
+Inst66Quest5_HORDE_QuestID = "11004"
+Inst66Quest6_HORDE_QuestID = "11005"
+Inst66Quest7_HORDE_QuestID = "11021"
+Inst66Quest8_HORDE_QuestID = "11024"
+Inst66Quest9_HORDE_QuestID = "11028"
+Inst66Quest10_HORDE_QuestID = "11056"
+Inst66Quest11_HORDE_QuestID = "11029"
+Inst66Quest12_HORDE_QuestID = "11885"
+Inst66Quest13_HORDE_QuestID = "11073"
+
+
+AQ_11098_Level = "70"
+AQ_11008_Level = "70"
+AQ_11085_Level = "70"
+AQ_11093_Level = "70"
+AQ_11004_Level = "70"
+AQ_11005_Level = "70"
+AQ_11021_Level = "70"
+AQ_11024_Level = "70"
+AQ_11028_Level = "70"
+AQ_11056_Level = "70"
+AQ_11029_Level = "70"
+AQ_11885_Level = "70"
+AQ_11073_Level = "70"
 
