@@ -2299,17 +2299,116 @@ Inst19Quest5ID3_HORDE = "10711"
 
 
 
+--------------- INST57 - SM: Armory (SM Arm) ---------------
+
+--Quest 1 Alliance
+Inst57Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst57Quest1ITC1 = Itemc4;
+Inst57Quest1description1 = AQITEM_ONEHAND..AQITEM_SWORD
+Inst57Quest1ID1 = "6829"
+--ITEM2
+Inst57Quest1ITC2 = Itemc4;
+Inst57Quest1description2 = AQITEM_TWOHAND..AQITEM_AXE
+Inst57Quest1ID2 = "6830"
+--ITEM3
+Inst57Quest1ITC3 = Itemc4;
+Inst57Quest1description3 = AQITEM_ONEHAND..AQITEM_DAGGER
+Inst57Quest1ID3 = "6831"
+--ITEM4
+Inst57Quest1ITC4 = Itemc4;
+Inst57Quest1description4 = AQITEM_OFFHAND
+Inst57Quest1ID4 = "11262"
 
 
------------------------------------------------------------
+--Quest 1 Horde
+Inst57Quest1Rewardtext_HORDE = AQNoReward
 
--- TEXTURE CLEANUP THIS FAR
+--Quest 2 Horde
+Inst57Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst57Quest2ITC1_HORDE = Itemc4;
+Inst57Quest2description1_HORDE = AQITEM_ONEHAND..AQITEM_SWORD
+Inst57Quest2ID1_HORDE = "6802"
+--ITEM2
+Inst57Quest2ITC2_HORDE = Itemc4;
+Inst57Quest2description2_HORDE = AQITEM_OFFHAND
+Inst57Quest2ID2_HORDE = "6803"
+--ITEM3
+Inst57Quest2ITC3_HORDE = Itemc4;
+Inst57Quest2description3_HORDE = AQITEM_NECK
+Inst57Quest2ID3_HORDE = "10711"
 
------------------------------------------------------------
+
+
+--------------- INST58 - SM: Cathedral (SM Cath) ---------------
+
+--Quest 1 Alliance
+Inst58Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst58Quest1ITC1 = Itemc4;
+Inst58Quest1description1 = AQITEM_ONEHAND..AQITEM_SWORD
+Inst58Quest1ID1 = "6829"
+--ITEM2
+Inst58Quest1ITC2 = Itemc4;
+Inst58Quest1description2 = AQITEM_TWOHAND..AQITEM_AXE
+Inst58Quest1ID2 = "6830"
+--ITEM3
+Inst58Quest1ITC3 = Itemc4;
+Inst58Quest1description3 = AQITEM_ONEHAND..AQITEM_DAGGER
+Inst58Quest1ID3 = "6831"
+--ITEM4
+Inst58Quest1ITC4 = Itemc4;
+Inst58Quest1description4 = AQITEM_OFFHAND
+Inst58Quest1ID4 = "11262"
+
+
+--Quest 1 Horde
+Inst58Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst58Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst58Quest2ITC1_HORDE = Itemc4;
+Inst58Quest2description1_HORDE = AQITEM_ONEHAND..AQITEM_SWORD
+Inst58Quest2ID1_HORDE = "6802"
+--ITEM2
+Inst58Quest2ITC2_HORDE = Itemc4;
+Inst58Quest2description2_HORDE = AQITEM_OFFHAND
+Inst58Quest2ID2_HORDE = "6803"
+--ITEM3
+Inst58Quest2ITC3_HORDE = Itemc4;
+Inst58Quest2description3_HORDE = AQITEM_NECK
+Inst58Quest2ID3_HORDE = "10711"
 
 
 
+--------------- INST59 - SM: Graveyard (SM GY) ---------------
 
+--Quest 1 Alliance
+Inst59Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst59Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst59Quest1ITC1_HORDE = Itemc3;
+Inst59Quest1description1_HORDE = AQITEM_FEET..AQITEM_LEATHER
+Inst59Quest1ID1_HORDE = "7751"
+--ITEM2
+Inst59Quest1ITC2_HORDE = Itemc3;
+Inst59Quest1description2_HORDE = AQITEM_SHOULDER..AQITEM_CLOTH
+Inst59Quest1ID2_HORDE = "7750"
+--ITEM3
+Inst59Quest1ITC3_HORDE = Itemc3;
+Inst59Quest1description3_HORDE = AQITEM_BACK
+Inst59Quest1ID3_HORDE = "4643"
+
+--Quest 2 Horde
+Inst59Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst59Quest3Rewardtext_HORDE = AQNoReward
 
 
 
@@ -5383,119 +5482,6 @@ Inst56Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst56Quest4ITC1_HORDE = Itemc3;
 Inst56Quest4description1_HORDE = AQITEM_ITEM
 Inst56Quest4ID1_HORDE = "29460"
-
-
-
---------------- INST57 - SM: Armory (SM Arm) ---------------
-
---Quest 1 Alliance
-Inst57Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst57Quest1ITC1 = Itemc4;
-Inst57Quest1description1 = AQITEM_ONEHAND..AQITEM_SWORD
-Inst57Quest1ID1 = "6829"
---ITEM2
-Inst57Quest1ITC2 = Itemc4;
-Inst57Quest1description2 = AQITEM_TWOHAND..AQITEM_AXE
-Inst57Quest1ID2 = "6830"
---ITEM3
-Inst57Quest1ITC3 = Itemc4;
-Inst57Quest1description3 = AQITEM_ONEHAND..AQITEM_DAGGER
-Inst57Quest1ID3 = "6831"
---ITEM4
-Inst57Quest1ITC4 = Itemc4;
-Inst57Quest1description4 = AQITEM_OFFHAND
-Inst57Quest1ID4 = "11262"
-
-
---Quest 1 Horde
-Inst57Quest1Rewardtext_HORDE = AQNoReward
-
---Quest 2 Horde
-Inst57Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
---ITEM1
-Inst57Quest2ITC1_HORDE = Itemc4;
-Inst57Quest2description1_HORDE = AQITEM_ONEHAND..AQITEM_SWORD
-Inst57Quest2ID1_HORDE = "6802"
---ITEM2
-Inst57Quest2ITC2_HORDE = Itemc4;
-Inst57Quest2description2_HORDE = AQITEM_OFFHAND
-Inst57Quest2ID2_HORDE = "6803"
---ITEM3
-Inst57Quest2ITC3_HORDE = Itemc4;
-Inst57Quest2description3_HORDE = AQITEM_NECK
-Inst57Quest2ID3_HORDE = "10711"
-
-
-
---------------- INST58 - SM: Cathedral (SM Cath) ---------------
-
---Quest 1 Alliance
-Inst58Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst58Quest1ITC1 = Itemc4;
-Inst58Quest1description1 = AQITEM_ONEHAND..AQITEM_SWORD
-Inst58Quest1ID1 = "6829"
---ITEM2
-Inst58Quest1ITC2 = Itemc4;
-Inst58Quest1description2 = AQITEM_TWOHAND..AQITEM_AXE
-Inst58Quest1ID2 = "6830"
---ITEM3
-Inst58Quest1ITC3 = Itemc4;
-Inst58Quest1description3 = AQITEM_ONEHAND..AQITEM_DAGGER
-Inst58Quest1ID3 = "6831"
---ITEM4
-Inst58Quest1ITC4 = Itemc4;
-Inst58Quest1description4 = AQITEM_OFFHAND
-Inst58Quest1ID4 = "11262"
-
-
---Quest 1 Horde
-Inst58Quest1Rewardtext_HORDE = AQNoReward
-
---Quest 2 Horde
-Inst58Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
---ITEM1
-Inst58Quest2ITC1_HORDE = Itemc4;
-Inst58Quest2description1_HORDE = AQITEM_ONEHAND..AQITEM_SWORD
-Inst58Quest2ID1_HORDE = "6802"
---ITEM2
-Inst58Quest2ITC2_HORDE = Itemc4;
-Inst58Quest2description2_HORDE = AQITEM_OFFHAND
-Inst58Quest2ID2_HORDE = "6803"
---ITEM3
-Inst58Quest2ITC3_HORDE = Itemc4;
-Inst58Quest2description3_HORDE = AQITEM_NECK
-Inst58Quest2ID3_HORDE = "10711"
-
-
-
---------------- INST59 - SM: Graveyard (SM GY) ---------------
-
---Quest 1 Alliance
-Inst59Quest1Rewardtext = AQNoReward
-
-
---Quest 1 Horde
-Inst59Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"..AQDiscription_OR..WHITE.."3"
---ITEM1
-Inst59Quest1ITC1_HORDE = Itemc3;
-Inst59Quest1description1_HORDE = AQITEM_FEET..AQITEM_LEATHER
-Inst59Quest1ID1_HORDE = "7751"
---ITEM2
-Inst59Quest1ITC2_HORDE = Itemc3;
-Inst59Quest1description2_HORDE = AQITEM_SHOULDER..AQITEM_CLOTH
-Inst59Quest1ID2_HORDE = "7750"
---ITEM3
-Inst59Quest1ITC3_HORDE = Itemc3;
-Inst59Quest1description3_HORDE = AQITEM_BACK
-Inst59Quest1ID3_HORDE = "4643"
-
---Quest 2 Horde
-Inst59Quest2Rewardtext_HORDE = AQNoReward
-
---Quest 3 Horde
-Inst59Quest3Rewardtext_HORDE = AQNoReward
 
 
 

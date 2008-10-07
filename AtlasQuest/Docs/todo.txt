@@ -8,6 +8,14 @@ ToDo & Notes List
 - Note: Need location of Omarion in Naxx for Inst15Quest6. Deathknight Wing - where?
 
 
+
+Brewfest Drop Quest (BRD is full :( ):
+Direbrew's Dire Brew (A): http://www.wowhead.com/?quest=12491
+Direbrew's Dire Brew (H): http://www.wowhead.com/?quest=12492
+
+AQ40: Mortal Champions
+
+
 Broken Quest Links:
 - Inst6Quest2 A&H
 - Inst8Quest11 A&H
@@ -42,49 +50,74 @@ DONE 18 = Razorfen Kraul (RFK)
 DONE 19 = SM: Library (SM Lib)
 broke 20 = Scholomance (Scholo)
 DONE 21 = Shadowfang Keep (SFK)
--- 22 = Stratholme (Strat)
--- 23 = The Ruins of Ahn'Qiraj (AQ20)
--- 24 = The Stockade (Stocks)
--- 25 = Sunken Temple (ST)
--- 26 = The Temple of Ahn'Qiraj (AQ40)
--- 27 = Zul'Farrak (ZF)
--- 28 = Zul'Gurub (ZG)
--- 29 = Gnomeregan (Gnomer)
--- 30 = Four Dragons
--- 31 = Azuregos
--- 32 = Highlord Kruul
--- 33 = Alterac Valley (AV)
--- 34 = Arathi Basin (AB)
--- 35 = Warsong Gulch (WSG)
--- 37 = HFC: Ramparts (Ramp)
--- 38 = HFC: Blood Furnace (BF)
--- 39 = HFC: Shattered Halls (SH)
--- 40 = HFC: Magtheridon's Lair
--- 41 = CR: The Slave Pens (SP)
--- 42 = CR: The Steamvault (SV)
--- 43 = CR: The Underbog (UB)
--- 44 = Auchindoun: Auchenai Crypts (AC)
--- 45 = Auchindoun: Mana Tombs (MT)
--- 46 = Auchindoun: Sethekk Halls (Seth)
--- 47 = Auchindoun: Shadow Labyrinth (SLabs)
--- 48 = CR: Serpentshrine Cavern (SSC)
--- 49 = CoT: Black Morass (BM)
--- 50 = CoT: Battle of Mount Hyjal
--- 51 = CoT: Old Hillsbrad
--- 52 = Gruul's Lair (GL)
--- 53 = Karazhan (Kara)
--- 54 = TK: Arcatraz (Arc)
--- 55 = TK: Botanica (Bot)
--- 56 = TK: Mechanar (Mech)
--- 57 = SM: Armory (SM Arm)
--- 58 = SM: Cathedral (SM Cath)
--- 59 = SM: Graveyard (SM GY)
--- 60 = Eye of the Storm
--- 61 = TK: The Eye
--- 62 = Black Temple (BT)
--- 63 = Zul'Aman (ZA)
--- 64 = Doom Lord Kazzak
--- 65 = Doomwalker
--- 66 = Skettis
--- 67 = Magisters' Terrace
--- 68 = Sunwell Plateau
+broke 22 = Stratholme (Strat)
+test 23 = The Ruins of Ahn'Qiraj (AQ20)
+test 24 = The Stockade (Stocks)
+test 25 = Sunken Temple (ST)
+test 26 = The Temple of Ahn'Qiraj (AQ40)
+test 27 = Zul'Farrak (ZF)
+test 28 = Zul'Gurub (ZG)
+test 29 = Gnomeregan (Gnomer)
+test 30 = Four Dragons
+test 31 = Azuregos
+N/A 32 = Highlord Kruul
+test 33 = Alterac Valley (AV)
+test 34 = Arathi Basin (AB)
+test 35 = Warsong Gulch (WSG)
+test 37 = HFC: Ramparts (Ramp)
+test 38 = HFC: Blood Furnace (BF)
+test 39 = HFC: Shattered Halls (SH)
+test 40 = HFC: Magtheridon's Lair
+test 41 = CR: The Slave Pens (SP)
+test 42 = CR: The Steamvault (SV)
+test 43 = CR: The Underbog (UB)
+test 44 = Auchindoun: Auchenai Crypts (AC)
+test 45 = Auchindoun: Mana Tombs (MT)
+test 46 = Auchindoun: Sethekk Halls (Seth)
+test 47 = Auchindoun: Shadow Labyrinth (SLabs)
+test 48 = CR: Serpentshrine Cavern (SSC)
+test 49 = CoT: Black Morass (BM)
+test 50 = CoT: Battle of Mount Hyjal
+test 51 = CoT: Old Hillsbrad
+test 52 = Gruul's Lair (GL)
+test 53 = Karazhan (Kara)
+test 54 = TK: Arcatraz (Arc)
+test 55 = TK: Botanica (Bot)
+test 56 = TK: Mechanar (Mech)
+test 57 = SM: Armory (SM Arm)
+test 58 = SM: Cathedral (SM Cath)
+test 59 = SM: Graveyard (SM GY)
+test 60 = Eye of the Storm
+test 61 = TK: The Eye
+test 62 = Black Temple (BT)
+test 63 = Zul'Aman (ZA)
+N/A 64 = Doom Lord Kazzak
+N/A 65 = Doomwalker
+test 66 = Skettis
+test 67 = Magisters' Terrace
+N/A 68 = Sunwell Plateau
+
+
+
+
+
+Wrath of the Lich King
+======================
+
+Dragonblight:  Azjol-Nerub (5 - 72-74)
+Dragonblight:  Chamber of Aspects: Obsidian Sanctum (10/25 - 80+)
+
+Storm Peaks:  Ulduar: Halls of Stone (5 - 80+)
+Storm Peaks:  Ulduar: Halls of Lightning (5 - 77-79)
+
+Tanaris:  Caverns of Time: Old Stratholme (5 - 80+)
+
+Coldarra, Borean Tundra:  The Nexus (5 - 71-73)
+
+Grizzly Hills: Drak'Tharon Keep (5 - 74-76)
+
+Zul'Drak:  Gundrak (5 - 76-78)
+
+Utgarde Keep:  Utgarde Pinnacle (5 - 80+)
+Howling Fjord: Utgarde Keep (5 - 70-72)
+

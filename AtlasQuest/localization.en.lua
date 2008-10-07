@@ -1083,7 +1083,7 @@ Inst5Quest18_Folgequest = "No"
 --Quest 19 Alliance
 Inst5Quest19 = "19. Save Brewfest! (Seasonal)"
 Inst5Quest19_Level = "70"
-Inst5Quest19_Attain = "70"
+Inst5Quest19_Attain = "65"
 Inst5Quest19_Aim = "Speak with the Brewfest Spy in the Grim Guzzler of Blackrock Depths."
 Inst5Quest19_Location = "Darna Honeybock (Dun Morogh - Kharanos; "..YELLOW.."46.53"..WHITE..")"
 Inst5Quest19_Note = "This quest is only available during the Brewfest seasonal event. The Brewfest Spy is at "..YELLOW.."[15]"..WHITE.."."
@@ -1094,7 +1094,7 @@ Inst5Quest19_Folgequest = "Yes, Insult Coren Direbrew"
 --Quest 20 Alliance
 Inst5Quest20 = "20. Insult Coren Direbrew (Daily - Seasonal)"
 Inst5Quest20_Level = "70"
-Inst5Quest20_Attain = "70"
+Inst5Quest20_Attain = "65"
 Inst5Quest20_Aim = "Speak with Coren Direbrew."
 Inst5Quest20_Location = "Brewfest Spy (Blackrock Depths - Grim Guzzler; "..YELLOW.."[15]"..WHITE..")"
 Inst5Quest20_Note = "Completing this quest will make Coren Direbrew attack you. It can be once a day per person during the Brewfest seasonal event.\nThe prequest only needs to be done once. Afterwards you can start the daily from inside Blackrock Depths."
@@ -3870,6 +3870,168 @@ Inst19Quest5name3_HORDE = "Dragon's Blood Necklace"
 
 
 
+--------------- INST57 - SM: Armory (SM Arm) ---------------
+
+Inst57Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
+Inst57Caption = "SM: Armory"
+Inst57QAA = "1 Quest"
+Inst57QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst57Quest1 = "1. In the Name of the Light"
+Inst57Quest1_Level = "40"
+Inst57Quest1_Attain = "34"
+Inst57Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
+Inst57Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
+Inst57Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."42,24"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst57Quest1_Prequest = "Yes, Brother Anton -> Down the Scarlet Path"
+Inst57Quest1_Folgequest = "No"
+Inst57Quest1PreQuest = "true"
+--
+Inst57Quest1name1 = "Sword of Serenity"
+Inst57Quest1name2 = "Bonebiter"
+Inst57Quest1name3 = "Black Menace"
+Inst57Quest1name4 = "Orb of Lorica"
+
+
+--Quest 1 Horde
+Inst57Quest1_HORDE = "1. Hearts of Zeal"
+Inst57Quest1_HORDE_Level = "33"
+Inst57Quest1_HORDE_Attain = "30"
+Inst57Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
+Inst57Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
+Inst57Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
+Inst57Quest1_HORDE_Prequest = "Yes, Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
+Inst57Quest1_HORDE_Folgequest = "No"
+Inst57Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst57Quest2_HORDE = "2. Into The Scarlet Monastery"
+Inst57Quest2_HORDE_Level = "42"
+Inst57Quest2_HORDE_Attain = "33"
+Inst57Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
+Inst57Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
+Inst57Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst57Quest2_HORDE_Prequest = "No"
+Inst57Quest2_HORDE_Folgequest = "No"
+--
+Inst57Quest2name1_HORDE = "Sword of Omen"
+Inst57Quest2name2_HORDE = "Prophetic Cane"
+Inst57Quest2name3_HORDE = "Dragon's Blood Necklace"
+
+
+
+--------------- INST58 - SM: Cathedral (SM Cath) ---------------
+
+Inst58Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
+Inst58Caption = "SM: Cathedral"
+Inst58QAA = "1 Quest"
+Inst58QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst58Quest1 = "1. In the Name of the Light"
+Inst58Quest1_Level = "40"
+Inst58Quest1_Attain = "34"
+Inst58Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
+Inst58Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
+Inst58Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."42,24"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst58Quest1_Prequest = "Yes, Brother Anton -> Down the Scarlet Path"
+Inst58Quest1_Folgequest = "No"
+Inst58Quest1PreQuest = "true"
+--
+Inst58Quest1name1 = "Sword of Serenity"
+Inst58Quest1name2 = "Bonebiter"
+Inst58Quest1name3 = "Black Menace"
+Inst58Quest1name4 = "Orb of Lorica"
+
+
+--Quest 1 Horde
+Inst58Quest1_HORDE = "1. Hearts of Zeal"
+Inst58Quest1_HORDE_Level = "33"
+Inst58Quest1_HORDE_Attain = "30"
+Inst58Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
+Inst58Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
+Inst58Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
+Inst58Quest1_HORDE_Prequest = "Yes, Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
+Inst58Quest1_HORDE_Folgequest = "No"
+Inst58Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst58Quest2_HORDE = "2. Into The Scarlet Monastery"
+Inst58Quest2_HORDE_Level = "42"
+Inst58Quest2_HORDE_Attain = "33"
+Inst58Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
+Inst58Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
+Inst58Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst58Quest2_HORDE_Prequest = "No"
+Inst58Quest2_HORDE_Folgequest = "No"
+--
+Inst58Quest2name1_HORDE = "Sword of Omen"
+Inst58Quest2name2_HORDE = "Prophetic Cane"
+Inst58Quest2name3_HORDE = "Dragon's Blood Necklace"
+
+
+
+--------------- INST59 - SM: Graveyard (SM GY) ---------------
+
+Inst59Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
+Inst59Caption = "SM: Graveyard"
+Inst59QAA = "1 Quest"
+Inst59QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst59Quest1 = "1. Call the Headless Horseman (Daily - Seasonal)"
+Inst59Quest1_Level = "70"
+Inst59Quest1_Attain = "65"
+Inst59Quest1_Aim = "Take a Dreary Candle to the Loosely Turned Soil."
+Inst59Quest1_Location = "Pumpkin Shrine (Scarlet Monastery - Graveyard; "..YELLOW.."[2]"..WHITE..")"
+Inst59Quest1_Note = "The Soil is just a few steps from the Pumpkin Shrine. This quest is only available during the Hallow's End event and can be done once a day per character during that event.\n\nCompleting it summons the Headless Horseman, a level 70 boss."
+Inst59Quest1_Prequest = "No"
+Inst59Quest1_Folgequest = "No"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst59Quest1_HORDE = "1. Vorrel's Revenge"
+Inst59Quest1_HORDE_Level = "33"
+Inst59Quest1_HORDE_Attain = "25"
+Inst59Quest1_HORDE_Aim = "Return Vorrel Sengutz's wedding ring to Monika Sengutz in Tarren Mill."
+Inst59Quest1_HORDE_Location = "Vorrel Sengutz (Scarlet Monastery - Graveyard; "..YELLOW.."[1]"..WHITE..")"
+Inst59Quest1_HORDE_Note = "You can find Vorrel Sengutz at the beginning of the Graveyard section of the Scarlet Monastery. Nancy Vishas, who drops the ring needed for this quest, can be found in a house in the Alterac Mountains ("..YELLOW.."31,32"..WHITE..")."
+Inst59Quest1_HORDE_Prequest = "No"
+Inst59Quest1_HORDE_Folgequest = "No"
+--
+Inst59Quest1name1_HORDE = "Vorrel's Boots"
+Inst59Quest1name2_HORDE = "Mantle of Woe"
+Inst59Quest1name3_HORDE = "Grimsteel Cape"
+
+--Quest 2 Horde
+Inst59Quest2_HORDE = "2. Hearts of Zeal"
+Inst59Quest2_HORDE_Level = "33"
+Inst59Quest2_HORDE_Attain = "30"
+Inst59Quest2_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
+Inst59Quest2_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
+Inst59Quest2_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
+Inst59Quest2_HORDE_Prequest = "Yes, Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
+Inst59Quest2_HORDE_Folgequest = "No"
+Inst59Quest2PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 1 Alliance)
+Inst59Quest3_HORDE = "3. Call the Headless Horseman (Daily - Seasonal)"
+Inst59Quest3_HORDE_Level = Inst59Quest1_Level
+Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
+Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
+Inst59Quest3_HORDE_Location = Inst59Quest1_Location
+Inst59Quest3_HORDE_Note = Inst59Quest1_Note
+Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
+Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
+-- No Rewards for this quest
+
+
+
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Story = "The Scholomance is housed within a series of crypts that lie beneath the ruined keep of Caer Darrow. Once owned by the noble Barov family, Caer Darrow fell to ruin following the Second War. As the wizard Kel'thuzad enlisted followers for his Cult of the Damned he would often promise immortality in exchange for serving his Lich King. The Barov family fell to Kel'thuzad's charismatic influence and donated the keep and its crypts to the Scourge. The cultists then killed the Barovs and turned the ancient crypts into a school for necromancy known as the Scholomance. Though Kel'thuzad no longer resides in the crypts, devoted cultists and instructors still remain. The powerful lich, Ras Frostwhisper, rules over the site and guards it in the Scourge's name - while the mortal necromancer, Darkmaster Gandling, serves as the school's insidious headmaster."
@@ -4318,7 +4480,7 @@ Inst22Quest7PreQuest = "true"
 --Quest 8 Alliance
 Inst22Quest8 = "8. Aurius' Reckoning"
 Inst22Quest8_Level = "60"
-Inst22Quest8_Attain = "55"
+Inst22Quest8_Attain = "56"
 Inst22Quest8_Aim = "Kill the Baron."
 Inst22Quest8_Location = "Aurius (Stratholme; "..YELLOW.."[13]"..WHITE..")"
 Inst22Quest8_Note = "To start the quest you have to give Aurius [The Medallion of Faith]. You get the Medallion from a chest (Malor's Strongbox "..YELLOW.."[7]"..WHITE..") in the first chamber of the bastion (before the ways split). After giving Aurius the Medallion he supports your group in the fight against the Baron "..YELLOW.."[19]"..WHITE..". After killing the Baron you have to talk to Aurius again to get the Rewards."
@@ -4381,7 +4543,7 @@ Inst22Quest12PreQuest = "true"
 --Quest 13 Alliance
 Inst22Quest13 = "13. The Left Piece of Lord Valthalak's Amulet"
 Inst22Quest13_Level = "60"
-Inst22Quest13_Attain = "60"
+Inst22Quest13_Attain = "58"
 Inst22Quest13_Aim = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst22Quest13_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
 Inst22Quest13_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE.."."
@@ -4393,7 +4555,7 @@ Inst22Quest13PreQuest = "true"
 --Quest 14 Alliance
 Inst22Quest14 = "14. The Right Piece of Lord Valthalak's Amulet"
 Inst22Quest14_Level = "60"
-Inst22Quest14_Attain = "60"
+Inst22Quest14_Attain = "58"
 Inst22Quest14_Aim = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst22Quest14_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
 Inst22Quest14_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE.."."
@@ -4432,7 +4594,7 @@ Inst22Quest16name1 = "Plans: Blazing Rapier"
 --Quest 17 Alliance
 Inst22Quest17 = "17. Sweet Serenity (Blacksmith)"
 Inst22Quest17_Level = "60"
-Inst22Quest17_Attain = "51"
+Inst22Quest17_Attain = "50"
 Inst22Quest17_Aim = "Travel to Stratholme and kill the Crimson Hammersmith. Recover the Crimson Hammersmith's Apron and return to Lilith."
 Inst22Quest17_Location = "Lilith the Lithe (Winterspring - Everlook; "..YELLOW.."61,37"..WHITE..")"
 Inst22Quest17_Note = "The Crimson Hammersmith is summoned at "..YELLOW.."[8]"..WHITE.."."
@@ -4830,7 +4992,7 @@ Inst24Quest4_Folgequest = "No"
 --Quest 5 Alliance
 Inst24Quest5 = "5. The Fury Runs Deep"
 Inst24Quest5_Level = "27"
-Inst24Quest5_Attain = "25"
+Inst24Quest5_Attain = "22"
 Inst24Quest5_Aim = "Motley Garmason wants Kam Deepfury's head brought to him at Dun Modr."
 Inst24Quest5_Location = "Motley Garmason (Wetlands - Dun Modr; "..YELLOW.."49,18"..WHITE..")"
 Inst24Quest5_Note = "The preceding quest can be obtained from Motley too. You can find Kam Deepfury at "..YELLOW.."[2]"..WHITE.."."
@@ -4865,7 +5027,7 @@ Inst25QAH = "17 Quests"
 --Quest 1 Alliance
 Inst25Quest1 = "1. Into The Temple of Atal'Hakkar"
 Inst25Quest1_Level = "50"
-Inst25Quest1_Attain = "41"
+Inst25Quest1_Attain = "38"
 Inst25Quest1_Aim = "Gather 10 Atal'ai Tablets for Brohann Caskbelly in Stormwind."
 Inst25Quest1_Location = "Brohann Caskbelly (Stormwind - Dwarven District; "..YELLOW.."64,20"..WHITE..")"
 Inst25Quest1_Note = "The prequest line comes from the same NPC and has quite a few steps.\n\nYou can find the Tablets everywhere in the Temple, both outside and inside the instance."
@@ -4926,7 +5088,7 @@ Inst25Quest5PreQuest = "true"
 --Quest 6 Alliance
 Inst25Quest6 = "6. The God Hakkar"
 Inst25Quest6_Level = "53"
-Inst25Quest6_Attain = "42"
+Inst25Quest6_Attain = "40"
 Inst25Quest6_Aim = "Bring the Filled Egg of Hakkar to Yeh'kinya in Tanaris."
 Inst25Quest6_Location = "Yeh'kinya (Tanaris - Steamwheedle Port; "..YELLOW.."66,22"..WHITE..")"
 Inst25Quest6_Note = "The Questline starts with 'Screecher Spirits' at the same NPC (See "..YELLOW.."[Zul'Farrak]"..WHITE..").\nYou have to use the Egg at "..YELLOW.."[3]"..WHITE.." to start the Event. Once it starts enemies spawn and attack you. Some of them drop the blood of Hakkar. With this blood you can put out the torch around the circle. After this the Avatar of Hakkar spawns. You kill him and loot the 'Essence of Hakkar' which you use to fill the egg."
@@ -5151,7 +5313,7 @@ Inst25Quest4name1_HORDE = Inst25Quest4name1
 --Quest 5 Horde
 Inst25Quest5_HORDE = "5. Zapper Fuel"
 Inst25Quest5_HORDE_Level = "52"
-Inst25Quest5_HORDE_Attain = "50"
+Inst25Quest5_HORDE_Attain = "47"
 Inst25Quest5_HORDE_Aim = "Deliver the Unloaded Zapper and 5 samples of Atal'ai Haze to Larion in Marshal's Refuge."
 Inst25Quest5_HORDE_Location = "Liv Rizzlefix (Barrens; "..YELLOW.."62,38"..WHITE..")"
 Inst25Quest5_HORDE_Note = "The Prequest 'Larion and Muigin' starts at Larion (Un'Goro Crater; "..YELLOW.."45,8"..WHITE.."). You get the Haze from Deep Lurkers, Murk Worms or Oozes in the Temple."
@@ -5762,7 +5924,7 @@ Inst29Quest2PreQuest = "true"
 --Quest 3 Alliance
 Inst29Quest3 = "3. The Only Cure is More Green Glow"
 Inst29Quest3_Level = "30"
-Inst29Quest3_Attain = "23"
+Inst29Quest3_Attain = "20"
 Inst29Quest3_Aim = "Travel to Gnomeregan and bring back High Potency Radioactive Fallout. Be warned, the fallout is unstable and will collapse rather quickly.\nOzzie will also require your Heavy Leaden Collection Phial when the task is complete."
 Inst29Quest3_Location = "Ozzie Togglevolt (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")"
 Inst29Quest3_Note = "To get fallout you must use the Phial on "..RED.."alive"..WHITE.." Irradiated Slimes or Horrors."
@@ -5813,7 +5975,7 @@ Inst29Quest6name2 = "Mechanic's Pipehammer"
 --Quest 7 Alliance
 Inst29Quest7 = "7. A Fine Mess"
 Inst29Quest7_Level = "30"
-Inst29Quest7_Attain = "22"
+Inst29Quest7_Attain = "20"
 Inst29Quest7_Aim = "Escort Kernobee to the Clockwerk Run exit and then report to Scooty in Booty Bay."
 Inst29Quest7_Location = "Kernobee (Gnomeregan; "..YELLOW.."[3]"..WHITE..")"
 Inst29Quest7_Note = "Escort quest! You find Scooty in Stranglethorn Vale - Booty Bay ("..YELLOW.."27,77"..WHITE..")."
@@ -5865,7 +6027,7 @@ Inst29Quest10name1 = "Brilliant Gold Ring"
 --Quest 1 Horde
 Inst29Quest1_HORDE = "1. Gnomer-gooooone!"
 Inst29Quest1_HORDE_Level = "35"
-Inst29Quest1_HORDE_Attain = "25"
+Inst29Quest1_HORDE_Attain = "20"
 Inst29Quest1_HORDE_Aim = "Wait for Scooty to calibrate the Goblin Transponder."
 Inst29Quest1_HORDE_Location = "Scooty (Stranglethorn Vale - Booty Bay; "..YELLOW.."27,77"..WHITE..")"
 Inst29Quest1_HORDE_Note = "You get the prequest from Sovik (Orgrimmar - Valley of Honor; "..YELLOW.."75,25"..WHITE..").\nWhen you complete this quest you can use the transponder in Booty Bay."
@@ -6237,7 +6399,7 @@ Inst39Quest5_Folgequest = "No"
 --Quest 6 Alliance
 Inst39Quest6 = "6. Tear of the Earthmother"
 Inst39Quest6_Level = "70"
-Inst39Quest6_Attain = "70"
+Inst39Quest6_Attain = "67"
 Inst39Quest6_Aim = "Recover the Tear of the Earthmother from Warbringer O'mrogg and return it to David Wayne at Wayne's Refuge."
 Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
 Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[4]"..WHITE..".\n\nThe item will not drop in Heroic mode."
@@ -6710,7 +6872,7 @@ Inst42Quest3_Folgequest = "No"
 --Quest 4 Alliance
 Inst42Quest4 = "4. Underworld Loam"
 Inst42Quest4_Level = "70"
-Inst42Quest4_Attain = "70"
+Inst42Quest4_Attain = "67"
 Inst42Quest4_Aim = "Get a Vial of Underworld Loam from Hydromancer Thespia and bring it to David Wayne at Wayne's Refuge."
 Inst42Quest4_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")"
 Inst42Quest4_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE..".\n\nThe item will not drop in Heroic mode."
@@ -7016,7 +7178,7 @@ Inst44Quest2name1 = "Badge of Justice"
 
 
 --Quest 1 Horde
-Inst44Quest1_HORDE = "1. Auchindoun"
+Inst44Quest1_HORDE = "1. Auchindoun..."
 Inst44Quest1_HORDE_Level = "68"
 Inst44Quest1_HORDE_Attain = "66"
 Inst44Quest1_HORDE_Aim = "Travel to the Auchenai Crypts in the Bone Wastes of Terokkar Forest and slay Exarch Maladaar to free the spirit of D'ore."
@@ -7742,7 +7904,7 @@ Inst49Quest3name4 = "Andormu's Tear"
 --Quest 4 Alliance
 Inst49Quest4 = "4. The Master's Touch"
 Inst49Quest4_Level = "70"
-Inst49Quest4_Attain = "69"
+Inst49Quest4_Attain = "68"
 Inst49Quest4_Aim = "Go into the Caverns of Time and convince Medivh to enable your Restored Apprentice's Key"
 Inst49Quest4_Location = "Khadgar (Shatrath City - Terrace of Light; "..YELLOW.."54,44"..WHITE..")"
 Inst49Quest4_Note = "Part of the Karazhan attunement line. You must be inside the instance when Aeonus dies in order to talk to Medivh."
@@ -8115,7 +8277,7 @@ Inst53QAH = "14 Quests"
 --Quest 1 Alliance
 Inst53Quest1 = "1. Assessing the Situation"
 Inst53Quest1_Level = "70"
-Inst53Quest1_Attain = "69"
+Inst53Quest1_Attain = "68"
 Inst53Quest1_Aim = "Find Koren inside Karazhan."
 Inst53Quest1_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")"
 Inst53Quest1_Note = "Koren is located inside Karazhan, just past Attumen the Huntsman at "..YELLOW.."[6]"..WHITE.."."
@@ -8127,7 +8289,7 @@ Inst53Quest1PreQuest = "true"
 --Quest 2 Alliance
 Inst53Quest2 = "2. Keanna's Log"
 Inst53Quest2_Level = "70"
-Inst53Quest2_Attain = "70"
+Inst53Quest2_Attain = "68"
 Inst53Quest2_Aim = "Search the Guest Chambers inside Karazhan for Keanna's Log and bring it to Archmage Alturus outside Karazhan."
 Inst53Quest2_Location = "Koren (Karazhan; "..YELLOW.."[6]"..WHITE..")"
 Inst53Quest2_Note = "The log is in the second room in the hall leading to Maiden of Virtue at "..YELLOW.."[10]"..WHITE..", on a table. Archmage Alturus is at (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")."
@@ -8139,7 +8301,7 @@ Inst53Quest2FQuest = "true"
 --Quest 3 Alliance
 Inst53Quest3 = "3. A Demonic Presence"
 Inst53Quest3_Level = "70"
-Inst53Quest3_Attain = "70"
+Inst53Quest3_Attain = "68"
 Inst53Quest3_Aim = "Archmage Alturus wants you to destroy the Demonic Presence at the top of Karazhan."
 Inst53Quest3_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")"
 Inst53Quest3_Note = "Prince Malchezaar is at "..YELLOW.."[26]"..WHITE.."."
@@ -8151,7 +8313,7 @@ Inst53Quest3FQuest = "true"
 --Quest 4 Alliance
 Inst53Quest4 = "4. The New Directive"
 Inst53Quest4_Level = "70"
-Inst53Quest4_Attain = "70"
+Inst53Quest4_Attain = "68"
 Inst53Quest4_Aim = "Speak to Archmage Cedric in the Outskirts of Dalaran."
 Inst53Quest4_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")"
 Inst53Quest4_Note = "Archmage Cedric is at (Alterac Mountains - Dalaran; "..YELLOW.."15,54"..WHITE..")"
@@ -8465,7 +8627,7 @@ Inst54QAH = "6 Quests"
 --Quest 1 Alliance
 Inst54Quest1 = "1. Harbinger of Doom"
 Inst54Quest1_Level = "70"
-Inst54Quest1_Attain = "70"
+Inst54Quest1_Attain = "67"
 Inst54Quest1_Aim = "You have been tasked to go to Tempest Keep's Arcatraz satellite and slay Harbinger Skyriss. Return to A'dal at the Terace of Light in Shattrath City after you have done so."
 Inst54Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
 Inst54Quest1_Note = "There is a chain quest that starts in Netherstorm from Nether-Stalker Khay'ji located at (Netherstorm - Area 52; "..YELLOW.."32,64"..WHITE..")."
@@ -8873,168 +9035,6 @@ Inst56Quest4name1_HORDE = Inst56Quest4name1
 
 
 
---------------- INST57 - SM: Armory (SM Arm) ---------------
-
-Inst57Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
-Inst57Caption = "SM: Armory"
-Inst57QAA = "1 Quest"
-Inst57QAH = "2 Quests"
-
---Quest 1 Alliance
-Inst57Quest1 = "1. In the Name of the Light"
-Inst57Quest1_Level = "40"
-Inst57Quest1_Attain = "34"
-Inst57Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
-Inst57Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
-Inst57Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."42,24"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst57Quest1_Prequest = "Yes, Brother Anton -> Down the Scarlet Path"
-Inst57Quest1_Folgequest = "No"
-Inst57Quest1PreQuest = "true"
---
-Inst57Quest1name1 = "Sword of Serenity"
-Inst57Quest1name2 = "Bonebiter"
-Inst57Quest1name3 = "Black Menace"
-Inst57Quest1name4 = "Orb of Lorica"
-
-
---Quest 1 Horde
-Inst57Quest1_HORDE = "1. Hearts of Zeal"
-Inst57Quest1_HORDE_Level = "33"
-Inst57Quest1_HORDE_Attain = "30"
-Inst57Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst57Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst57Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
-Inst57Quest1_HORDE_Prequest = "Yes, Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
-Inst57Quest1_HORDE_Folgequest = "No"
-Inst57Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst57Quest2_HORDE = "2. Into The Scarlet Monastery"
-Inst57Quest2_HORDE_Level = "42"
-Inst57Quest2_HORDE_Attain = "33"
-Inst57Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
-Inst57Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst57Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst57Quest2_HORDE_Prequest = "No"
-Inst57Quest2_HORDE_Folgequest = "No"
---
-Inst57Quest2name1_HORDE = "Sword of Omen"
-Inst57Quest2name2_HORDE = "Prophetic Cane"
-Inst57Quest2name3_HORDE = "Dragon's Blood Necklace"
-
-
-
---------------- INST58 - SM: Cathedral (SM Cath) ---------------
-
-Inst58Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
-Inst58Caption = "SM: Cathedral"
-Inst58QAA = "1 Quest"
-Inst58QAH = "2 Quests"
-
---Quest 1 Alliance
-Inst58Quest1 = "1. In the Name of the Light"
-Inst58Quest1_Level = "40"
-Inst58Quest1_Attain = "34"
-Inst58Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
-Inst58Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
-Inst58Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."42,24"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst58Quest1_Prequest = "Yes, Brother Anton -> Down the Scarlet Path"
-Inst58Quest1_Folgequest = "No"
-Inst58Quest1PreQuest = "true"
---
-Inst58Quest1name1 = "Sword of Serenity"
-Inst58Quest1name2 = "Bonebiter"
-Inst58Quest1name3 = "Black Menace"
-Inst58Quest1name4 = "Orb of Lorica"
-
-
---Quest 1 Horde
-Inst58Quest1_HORDE = "1. Hearts of Zeal"
-Inst58Quest1_HORDE_Level = "33"
-Inst58Quest1_HORDE_Attain = "30"
-Inst58Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst58Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst58Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
-Inst58Quest1_HORDE_Prequest = "Yes, Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
-Inst58Quest1_HORDE_Folgequest = "No"
-Inst58Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst58Quest2_HORDE = "2. Into The Scarlet Monastery"
-Inst58Quest2_HORDE_Level = "42"
-Inst58Quest2_HORDE_Attain = "33"
-Inst58Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
-Inst58Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst58Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst58Quest2_HORDE_Prequest = "No"
-Inst58Quest2_HORDE_Folgequest = "No"
---
-Inst58Quest2name1_HORDE = "Sword of Omen"
-Inst58Quest2name2_HORDE = "Prophetic Cane"
-Inst58Quest2name3_HORDE = "Dragon's Blood Necklace"
-
-
-
---------------- INST59 - SM: Graveyard (SM GY) ---------------
-
-Inst59Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
-Inst59Caption = "SM: Graveyard"
-Inst59QAA = "1 Quest"
-Inst59QAH = "3 Quests"
-
---Quest 1 Alliance
-Inst59Quest1 = "1. Call the Headless Horseman (Daily - Seasonal)"
-Inst59Quest1_Level = "70"
-Inst59Quest1_Attain = "70"
-Inst59Quest1_Aim = "Take a Dreary Candle to the Loosely Turned Soil."
-Inst59Quest1_Location = "Pumpkin Shrine (Scarlet Monastery - Graveyard; "..YELLOW.."[2]"..WHITE..")"
-Inst59Quest1_Note = "The Soil is just a few steps from the Pumpkin Shrine. This quest is only available during the Hallow's End event and can be done once a day per character during that event.\n\nCompleting it summons the Headless Horseman, a level 70 boss."
-Inst59Quest1_Prequest = "No"
-Inst59Quest1_Folgequest = "No"
--- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst59Quest1_HORDE = "1. Vorrel's Revenge"
-Inst59Quest1_HORDE_Level = "33"
-Inst59Quest1_HORDE_Attain = "25"
-Inst59Quest1_HORDE_Aim = "Return Vorrel Sengutz's wedding ring to Monika Sengutz in Tarren Mill."
-Inst59Quest1_HORDE_Location = "Vorrel Sengutz (Scarlet Monastery - Graveyard; "..YELLOW.."[1]"..WHITE..")"
-Inst59Quest1_HORDE_Note = "You can find Vorrel Sengutz at the beginning of the Graveyard section of the Scarlet Monastery. Nancy Vishas, who drops the ring needed for this quest, can be found in a house in the Alterac Mountains ("..YELLOW.."31,32"..WHITE..")."
-Inst59Quest1_HORDE_Prequest = "No"
-Inst59Quest1_HORDE_Folgequest = "No"
---
-Inst59Quest1name1_HORDE = "Vorrel's Boots"
-Inst59Quest1name2_HORDE = "Mantle of Woe"
-Inst59Quest1name3_HORDE = "Grimsteel Cape"
-
---Quest 2 Horde
-Inst59Quest2_HORDE = "2. Hearts of Zeal"
-Inst59Quest2_HORDE_Level = "33"
-Inst59Quest2_HORDE_Attain = "30"
-Inst59Quest2_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst59Quest2_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst59Quest2_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
-Inst59Quest2_HORDE_Prequest = "Yes, Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
-Inst59Quest2_HORDE_Folgequest = "No"
-Inst59Quest2PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 1 Alliance)
-Inst59Quest3_HORDE = "3. Call the Headless Horseman (Daily - Seasonal)"
-Inst59Quest3_HORDE_Level = Inst59Quest1_Level
-Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
-Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
-Inst59Quest3_HORDE_Location = Inst59Quest1_Location
-Inst59Quest3_HORDE_Note = Inst59Quest1_Note
-Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
-Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
--- No Rewards for this quest
-
-
-
 --------------- INST61 - TK: The Eye ---------------
 
 Inst61Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Mechanar is the first wing of the Tempest Keep instance.\n\nThis is the purple crystal building south of the main palace.\n\nRecommended level is 70. One full run yields about 1500 reputation with the Sha'tar."
@@ -9305,7 +9305,6 @@ Inst63Quest8_Folgequest = "No"
 Inst63Quest8FQuest = "true"
 --
 Inst63Quest8name1 = "Badge of Justice"
--- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
