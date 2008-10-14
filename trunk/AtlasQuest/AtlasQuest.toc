@@ -1,4 +1,4 @@
-## Interface: 20400
+## Interface: 30000
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -13,11 +13,11 @@
 ## Updated by: Rabidmax
 ## Updated by: Thandrenn (aka Mystery8)
 ## CLI by: Dazerdude
-## Version: 4.2.0 Alpha
+## Version: 4.2.0 Beta
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP
-## X-Date: September 23, 2008
+## X-Date: October 14, 2008
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: 
 ## OptionalDeps: Atlas, AlphaMap, myAddOns

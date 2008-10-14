@@ -934,11 +934,11 @@ AQ_10593_Level = "52"
 
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
-Inst26Quest1_QuestID = "8801"
+Inst26Quest1_QuestID = "8801"   --**
 Inst26Quest2_QuestID = "8802"
 Inst26Quest3_QuestID = "8784"
 
-Inst26Quest1_HORDE_QuestID = "8801"
+Inst26Quest1_HORDE_QuestID = "8801"   --**
 Inst26Quest2_HORDE_QuestID = "8802"
 Inst26Quest3_HORDE_QuestID = "8784"
 
