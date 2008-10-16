@@ -250,11 +250,11 @@ AQ_12062_Level = "70"
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
 Inst6Quest1_QuestID = "8730"
-Inst6Quest2_QuestID = "7781"   --**
+Inst6Quest2_QuestID = "7781"
 Inst6Quest3_QuestID = "8288"
 
 Inst6Quest1_HORDE_QuestID = "8730"
-Inst6Quest2_HORDE_QuestID = "7783"   --**
+Inst6Quest2_HORDE_QuestID = "7783"
 Inst6Quest3_HORDE_QuestID = "8288"
 
 
@@ -306,7 +306,7 @@ Inst8Quest7_QuestID = "5001"
 Inst8Quest8_QuestID = "5081"
 Inst8Quest9_QuestID = "4742"
 Inst8Quest10_QuestID = "5089"
-Inst8Quest11_QuestID = "8966"   --**
+Inst8Quest11_QuestID = "8966"
 Inst8Quest12_QuestID = "8989"
 Inst8Quest13_QuestID = "5306"
 Inst8Quest14_QuestID = "5103"
@@ -321,7 +321,7 @@ Inst8Quest7_HORDE_QuestID = "4981"
 Inst8Quest8_HORDE_QuestID = "4982"
 Inst8Quest9_HORDE_QuestID = "4742"
 Inst8Quest10_HORDE_QuestID = "4903"
-Inst8Quest11_HORDE_QuestID = "8966"   --**
+Inst8Quest11_HORDE_QuestID = "8966"
 Inst8Quest12_HORDE_QuestID = "8989"
 Inst8Quest13_HORDE_QuestID = "5306"
 Inst8Quest14_HORDE_QuestID = "5103"
@@ -357,7 +357,7 @@ Inst9Quest5_QuestID = "5102"
 Inst9Quest6_QuestID = "4764"
 Inst9Quest7_QuestID = "6502"
 Inst9Quest8_QuestID = "7761"
-Inst9Quest9_QuestID = "8994"   --**
+Inst9Quest9_QuestID = "8994"
 Inst9Quest10_QuestID = "8995"
 Inst9Quest11_QuestID = "5127"
 
@@ -370,7 +370,7 @@ Inst9Quest6_HORDE_QuestID = "4974"
 Inst9Quest7_HORDE_QuestID = "6569"
 Inst9Quest8_HORDE_QuestID = "6602"
 Inst9Quest9_HORDE_QuestID = "7761"
-Inst9Quest10_HORDE_QuestID = "8994"   --**
+Inst9Quest10_HORDE_QuestID = "8994"
 Inst9Quest11_HORDE_QuestID = "8995"
 Inst9Quest12_HORDE_QuestID = "5127"
 
@@ -400,14 +400,14 @@ Inst10Quest2_QuestID = "7488"
 Inst10Quest3_QuestID = "5526"
 Inst10Quest4_QuestID = "8967"
 Inst10Quest5_QuestID = "8990"
-Inst10Quest6_QuestID = "7581"   --**
+Inst10Quest6_QuestID = "7581"
 
 Inst10Quest1_HORDE_QuestID = "7441"
 Inst10Quest2_HORDE_QuestID = "7489"
 Inst10Quest3_HORDE_QuestID = "5526"
 Inst10Quest4_HORDE_QuestID = "8967"
 Inst10Quest5_HORDE_QuestID = "8990"
-Inst10Quest6_HORDE_QuestID = "7581"   --**
+Inst10Quest6_HORDE_QuestID = "7581"
 
 
 AQ_7441_Level = "58"
@@ -445,7 +445,7 @@ AQ_7703_Level = "60"
 Inst12Quest1_QuestID = "7482"
 Inst12Quest2_QuestID = "7461"
 Inst12Quest3_QuestID = "7877"
-Inst12Quest4_QuestID = "7631"   --**
+Inst12Quest4_QuestID = "7631"
 Inst12Quest5_QuestID = "7506"
 Inst12Quest6_QuestID = "7503"
 Inst12Quest7_QuestID = "7500"
@@ -463,7 +463,7 @@ Inst12Quest17_QuestID = "7507"
 Inst12Quest1_HORDE_QuestID = "7481"
 Inst12Quest2_HORDE_QuestID = "7461"
 Inst12Quest3_HORDE_QuestID = "7877"
-Inst12Quest4_HORDE_QuestID = "7631"   --**
+Inst12Quest4_HORDE_QuestID = "7631"
 Inst12Quest5_HORDE_QuestID = "7506"
 Inst12Quest6_HORDE_QuestID = "7503"
 Inst12Quest7_HORDE_QuestID = "7500"
@@ -541,13 +541,13 @@ AQ_7064_Level = "51"
 Inst14Quest1_QuestID = "6822"
 Inst14Quest2_QuestID = "6824"
 Inst14Quest3_QuestID = "7786"
-Inst14Quest4_QuestID = "7604"   --**
+Inst14Quest4_QuestID = "7604"
 Inst14Quest5_QuestID = "7632"
 
 Inst14Quest1_HORDE_QuestID = "6822"
 Inst14Quest2_HORDE_QuestID = "6824"
 Inst14Quest3_HORDE_QuestID = "7786"
-Inst14Quest4_HORDE_QuestID = "7604"   --**
+Inst14Quest4_HORDE_QuestID = "7604"
 Inst14Quest5_HORDE_QuestID = "7632"
 
 
@@ -721,8 +721,8 @@ Inst20Quest5_QuestID = "5384"
 Inst20Quest6_QuestID = "5466"
 Inst20Quest7_QuestID = "5343"
 Inst20Quest8_QuestID = "4771"
-Inst20Quest9_QuestID = "7629"   --**
-Inst20Quest10_QuestID = "8969"   --**
+Inst20Quest9_QuestID = "7629"
+Inst20Quest10_QuestID = "8969"
 
 Inst20Quest1_HORDE_QuestID = "5529"
 Inst20Quest2_HORDE_QuestID = "5582"
@@ -732,8 +732,8 @@ Inst20Quest5_HORDE_QuestID = "5384"
 Inst20Quest6_HORDE_QuestID = "5466"
 Inst20Quest7_HORDE_QuestID = "5341"
 Inst20Quest8_HORDE_QuestID = "4771"
-Inst20Quest9_HORDE_QuestID = "7629"   --**
-Inst20Quest10_HORDE_QuestID = "8969"   --**
+Inst20Quest9_HORDE_QuestID = "7629"
+Inst20Quest10_HORDE_QuestID = "8969"
 
 
 AQ_5529_Level = "58"
@@ -784,11 +784,11 @@ Inst22Quest10_QuestID = "5262"
 Inst22Quest11_QuestID = "5263"
 Inst22Quest12_QuestID = "8945"
 Inst22Quest13_QuestID = "8968"
-Inst22Quest14_QuestID = "8991"   --**
-Inst22Quest15_QuestID = "9257"   --**
+Inst22Quest14_QuestID = "8991"
+Inst22Quest15_QuestID = "9257"
 Inst22Quest16_QuestID = "5307"
 Inst22Quest17_QuestID = "5305"
-Inst22Quest18_QuestID = "7622"   --**
+Inst22Quest18_QuestID = "7622"
 
 Inst22Quest1_HORDE_QuestID = "5212"
 Inst22Quest2_HORDE_QuestID = "5213"
@@ -803,12 +803,12 @@ Inst22Quest10_HORDE_QuestID = "5262"
 Inst22Quest11_HORDE_QuestID = "5263"
 Inst22Quest12_HORDE_QuestID = "8945"
 Inst22Quest13_HORDE_QuestID = "8968"
-Inst22Quest14_HORDE_QuestID = "8991"   --**
-Inst22Quest15_HORDE_QuestID = "9257"   --**
+Inst22Quest14_HORDE_QuestID = "8991"
+Inst22Quest15_HORDE_QuestID = "9257"
 Inst22Quest16_HORDE_QuestID = "5307"
 Inst22Quest17_HORDE_QuestID = "5305"
 Inst22Quest18_HORDE_QuestID = "6163"
-Inst22Quest19_HORDE_QuestID = "7622"   --**
+Inst22Quest19_HORDE_QuestID = "7622"
 
 
 AQ_5212_Level = "60"
@@ -934,11 +934,11 @@ AQ_10593_Level = "52"
 
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
-Inst26Quest1_QuestID = "8801"   --**
+Inst26Quest1_QuestID = "8801"
 Inst26Quest2_QuestID = "8802"
 Inst26Quest3_QuestID = "8784"
 
-Inst26Quest1_HORDE_QuestID = "8801"   --**
+Inst26Quest1_HORDE_QuestID = "8801"
 Inst26Quest2_HORDE_QuestID = "8802"
 Inst26Quest3_HORDE_QuestID = "8784"
 

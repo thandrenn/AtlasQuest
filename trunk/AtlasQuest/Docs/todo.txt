@@ -2,10 +2,10 @@
 ToDo & Notes List
 =================
 
-- Finish adding quest IDs
 - AlphaMap: Not all DM & SM quests shown since AlphaMap doesn't split up SM maps.
+- Some quests don't link properly. Though I believe it a server issue as with item links, I plan to investigate further in the future.
 
-- Note: Need location of Omarion in Naxx for Inst15Quest6. Deathknight Wing - where?
+- Note: Need location of Omarion in Naxx for Inst15Quest6. Deathknight Wing - where? HA. Irrelevant now. Alas poor Naxx, we barely knew ya.
 
 
 
@@ -14,90 +14,6 @@ Direbrew's Dire Brew (A): http://www.wowhead.com/?quest=12491
 Direbrew's Dire Brew (H): http://www.wowhead.com/?quest=12492
 
 AQ40: Mortal Champions
-
-
-Broken Quest Links:
-- Inst6Quest2 A&H
-- Inst8Quest11 A&H
-- Inst9Quest9 A, Inst9Quest10 H
-- Inst10Quest6 A&H
-- Inst12Quest4 A&H
-- Inst14Quest4 A&H
-- Inst20Quest9 A&H
-- Inst20Quest10 A&H
-- Inst26Quest1 A&H
-
-
-Quest Link Progress:
-
-DONE 1  = Deadmines (VC)
-DONE 2  = Wailing Caverns (WC)
-DONE 3  = Ragefire Chasm (RFC)
-DONE 4  = Uldaman (ULD)
-DONE 5  = Blackrock Depths (BRD)
-broke 6  = Blackwing Lair (BWL)
-DONE 7  = Blackfathom Deeps (BFD)
-broke 8  = Lower Blackrock Spire (LBRS)
-broke 9  = Upper Blackrock Spire (UBRS)
-broke 10 = Dire Maul East (DM)
-DONE 11 = Dire Maul North (DM)
-broke 12 = Dire Maul West (DM)
-DONE 13 = Maraudon (Mara)
-broke 14 = Molten Core (MC)
-DONE 15 = Naxxramas (Naxx)
-DONE 16 = Onyxia's Lair (Ony)
-DONE 17 = Razorfen Downs (RFD)
-DONE 18 = Razorfen Kraul (RFK)
-DONE 19 = SM: Library (SM Lib)
-broke 20 = Scholomance (Scholo)
-DONE 21 = Shadowfang Keep (SFK)
-broke 22 = Stratholme (Strat)
-DONE 23 = The Ruins of Ahn'Qiraj (AQ20)
-DONE 24 = The Stockade (Stocks)
-DONE 25 = Sunken Temple (ST)
-broke 26 = The Temple of Ahn'Qiraj (AQ40)
-test 27 = Zul'Farrak (ZF)
-test 28 = Zul'Gurub (ZG)
-test 29 = Gnomeregan (Gnomer)
-test 30 = Four Dragons
-test 31 = Azuregos
-N/A 32 = Highlord Kruul
-test 33 = Alterac Valley (AV)
-test 34 = Arathi Basin (AB)
-test 35 = Warsong Gulch (WSG)
-test 37 = HFC: Ramparts (Ramp)
-test 38 = HFC: Blood Furnace (BF)
-test 39 = HFC: Shattered Halls (SH)
-test 40 = HFC: Magtheridon's Lair
-test 41 = CR: The Slave Pens (SP)
-test 42 = CR: The Steamvault (SV)
-test 43 = CR: The Underbog (UB)
-test 44 = Auchindoun: Auchenai Crypts (AC)
-test 45 = Auchindoun: Mana Tombs (MT)
-test 46 = Auchindoun: Sethekk Halls (Seth)
-test 47 = Auchindoun: Shadow Labyrinth (SLabs)
-test 48 = CR: Serpentshrine Cavern (SSC)
-test 49 = CoT: Black Morass (BM)
-test 50 = CoT: Battle of Mount Hyjal
-test 51 = CoT: Old Hillsbrad
-test 52 = Gruul's Lair (GL)
-test 53 = Karazhan (Kara)
-test 54 = TK: Arcatraz (Arc)
-test 55 = TK: Botanica (Bot)
-test 56 = TK: Mechanar (Mech)
-test 57 = SM: Armory (SM Arm)
-test 58 = SM: Cathedral (SM Cath)
-test 59 = SM: Graveyard (SM GY)
-test 60 = Eye of the Storm
-test 61 = TK: The Eye
-test 62 = Black Temple (BT)
-test 63 = Zul'Aman (ZA)
-N/A 64 = Doom Lord Kazzak
-N/A 65 = Doomwalker
-test 66 = Skettis
-test 67 = Magisters' Terrace
-N/A 68 = Sunwell Plateau
-
 
 
 

@@ -2,10 +2,10 @@
 Changelog
 =========
 
-Version 4.2.0 Beta
+Version 4.2.0
 
-- Minor changes to work with Wrath of the Lich King.
-- You can now link to quests in a chat window by Shift + Clicking a quest's name in the AtlasQuest list.
+- Minor changes to work with Patch 3.0.2.
+- Quest Links! You can now link to quests in a chat window by Shift + Clicking a quest's name in the AtlasQuest list. As with Item Links, some quests don't seem to link if the server hasn't seen them for a while.
 - Changed text color for "Options" menu to match rest of Atlas/AtlasQuest. (Suggested by Telchar)
 - Made background of Options window solid black for easier reading.
 - Made "Story" button larger so German text isn't bigger than the button. (Suggested by Telchar)
@@ -15,6 +15,7 @@ Version 4.2.0 Beta
 - German localization updates by Telchar.
 - Simplified Chinese localization updates by yeachan.
 - Increased maximum number of quests to 20. Had to shrink Story and Option buttons a bit to fit it though.
+- The usual minor typos fixed and such.
 
 - Quests added:
 	- Old Hillsbrad: Nice Hat...
