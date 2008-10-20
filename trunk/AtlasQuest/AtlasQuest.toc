@@ -1,12 +1,12 @@
-## Interface: 30000
+﻿## Interface: 30000
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
-## Title-zhCN: AtlasQuest
+## Title-zhCN: AtlasQuest 副本任务查询
 ## Notes: Shows the Quests for the instance.
 ## Notes-deDE: Zeigt die Quests, die es f\195\188r die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
-## Notes-zhCN: Shows the Quests for the instance.
+## Notes-zhCN: Atlas插件，在Atlas面板上显示副本相关任务及副本背景等.
 ## Author: Thandrenn
 ## Original Author: Asurn
 ## Updated by: Loather
