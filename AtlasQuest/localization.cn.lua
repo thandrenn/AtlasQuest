@@ -21,14 +21,22 @@
 
 --]]
 
+-- A CWDG Present
 
--- Localization for CTBC by yeachan(6区 阿拉希 “缘玥”公会 Ahunter）
+-- Localization for WotLK China by Yeachan(6区 阿拉希 “缘玥”公会 Ahunter）
 -- Email：zhengguo@live.com
--- Rebuilt by Ananhaid（2区 伊利丹“紫雪之都”公会 NovaLOG）
--- Email：ananhaid[at]gmail.com
--- Last update: 2008-08-16
+-- Last update: 2008-10-16
+
+-- Localization for TBC China by Yeachan and Ananhaid（2区 伊利丹“紫雪之都”公会 NovaLOG）
+-- Email：ananhaid@gmail.com
+
+-- Localization for WOW China (original world) by DIY（mop id 路漫·修远）
+
+
 
 if ( GetLocale() == "zhCN" ) then
+
+
 ---------------
 --- COLOURS ---
 ---------------
@@ -236,7 +244,7 @@ Inst1Quest4name1 = "极地护手"
 Inst1Quest4name2 = "紫貂魔杖"
 
 --Quest 5 Alliance
-Inst1Quest5 = "5. 迪菲亚兄弟会（系列任务）"
+Inst1Quest5 = "5. 迪菲亚兄弟会 (系列任务)"
 Inst1Quest5_Level = "22"
 Inst1Quest5_Attain = "14"
 Inst1Quest5_Aim = "杀死艾德温·范克里夫，把他的头交给格里安·斯托曼。"
@@ -251,7 +259,7 @@ Inst1Quest5name2 = "西部荒野外套"
 Inst1Quest5name3 = "西部荒野法杖"
 
 --Quest 6 Alliance
-Inst1Quest6 = "6. 正义试炼（圣骑士任务）"
+Inst1Quest6 = "6. 正义试炼 (圣骑士任务)"
 Inst1Quest6_Level = "22"
 Inst1Quest6_Attain = "20"
 Inst1Quest6_Aim = "按照乔丹的武器材料单上的说明去寻找一些白石橡木、精炼矿石、乔丹的铁锤和一块科尔宝石，然后回到铁炉堡去见乔丹·斯迪威尔。"
@@ -412,7 +420,7 @@ Inst2Quest5name2_HORDE = Inst2Quest4name2
 Inst2Quest5name3_HORDE = Inst2Quest4name3
 
 --Quest 6 Horde
-Inst2Quest6_HORDE = "6. 尖牙德鲁伊（连续任务）"
+Inst2Quest6_HORDE = "6. 尖牙德鲁伊 (连续任务)"
 Inst2Quest6_HORDE_Level = "22"
 Inst2Quest6_HORDE_Attain = "18"
 Inst2Quest6_HORDE_Aim = "将考布莱恩宝石、安娜科德拉宝石、皮萨斯宝石和瑟芬迪斯宝石交给雷霆崖的纳拉·蛮鬃。"
@@ -536,7 +544,7 @@ Inst4Quest1PreQuest = "true"
 --Quest 2 Alliance
 Inst4Quest2 = "2. 铁趾的护符"
 Inst4Quest2_Level = "40"
-Inst4Quest2_Attain = "36"
+Inst4Quest2_Attain = "35"
 Inst4Quest2_Aim = "找到铁趾的护符，把它交给奥达曼的铁趾。"
 Inst4Quest2_Location = "铁趾格雷兹（奥达曼; "..YELLOW.."副本入口地图[1]"..WHITE.."）。"
 Inst4Quest2_Note = "马格雷甘·深影掉落铁趾的护符"..YELLOW.."副本入口地图[2]"..WHITE.."。"
@@ -548,7 +556,7 @@ Inst4Quest2FQuest = "true"
 --Quest 3 Alliance
 Inst4Quest3 = "3. 意志石板"
 Inst4Quest3_Level = "45"
-Inst4Quest3_Attain = "38"
+Inst4Quest3_Attain = "35"
 Inst4Quest3_Aim = "找到意志石板，把它们交给铁炉堡的顾问贝尔格拉姆。"
 Inst4Quest3_Location = "顾问贝尔格拉姆（铁炉堡 - 探险者大厅; "..YELLOW.."77,10 "..WHITE.."）"
 Inst4Quest3_Note = "石板位置在"..YELLOW.."[8]"..WHITE.."。"
@@ -561,7 +569,7 @@ Inst4Quest3name1 = "勇气勋章 "
 --Quest 4 Alliance
 Inst4Quest4 = "4. 能量石"
 Inst4Quest4_Level = "36"
-Inst4Quest4_Attain = "31"
+Inst4Quest4_Attain = "30"
 Inst4Quest4_Aim = "给荒芜之地的里格弗兹带去8块德提亚姆能量石和8块安纳洛姆能量石。"
 Inst4Quest4_Location = "里格弗兹（荒芜之地; "..YELLOW.."42,52 "..WHITE.."）"
 Inst4Quest4_Note = "能量石可以在副本内外的暗炉敌人身上找到。"
@@ -575,7 +583,7 @@ Inst4Quest4name3 = "持久长靴"
 --Quest 5 Alliance
 Inst4Quest5 = "5. 阿戈莫德的命运"
 Inst4Quest5_Level = "38"
-Inst4Quest5_Attain = "33"
+Inst4Quest5_Attain = "30"
 Inst4Quest5_Aim = "收集4个雕纹石罐，把它们交给洛克莫丹的勘察员基恩萨·铁环。"
 Inst4Quest5_Location = "勘察员基恩萨·铁环（洛克莫丹 - 铁环挖掘场; "..YELLOW.."65,65 "..WHITE.."）"
 Inst4Quest5_Note = "前导任务始于勘察员塔伯斯·雷矛（铁炉堡 - 探险者大厅; "..YELLOW.."74,12"..WHITE.."）。\n雕纹石罐散布于副本前的山洞里。"
@@ -588,7 +596,7 @@ Inst4Quest5name1 = "勘察者手套"
 --Quest 6 Alliance
 Inst4Quest6 = "6. 化解灾难"
 Inst4Quest6_Level = "40"
-Inst4Quest6_Attain = "32"
+Inst4Quest6_Attain = "30"
 Inst4Quest6_Aim = "把雷乌纳石板带给迷失者塞尔杜林。"
 Inst4Quest6_Location = "迷失者塞尔杜林（荒芜之地; "..YELLOW.."51,76 "..WHITE.."）"
 Inst4Quest6_Note = "石板在洞穴北部，通道的东部尽头"..YELLOW.."副本入口地图[3]"..WHITE.."。"
@@ -647,7 +655,7 @@ Inst4Quest10_Folgequest = "有，寻找宝石"
 --Quest 11 Alliance
 Inst4Quest11 = "11. 寻找宝石"
 Inst4Quest11_Level = "43"
-Inst4Quest11_Attain = "38"
+Inst4Quest11_Attain = "37"
 Inst4Quest11_Aim = "在奥达曼寻找红宝石、蓝宝石和黄宝石的下落。找到它们之后，通过塔瓦斯德给你的占卜之瓶和他进行联系。"
 Inst4Quest11_Location = "圣骑士的遗体（奥达曼; "..YELLOW.."[2]"..WHITE.."）"
 Inst4Quest11_Note = "宝石在"..YELLOW.."[1]"..WHITE.."，"..YELLOW.."[8]"..WHITE.."和"..YELLOW.."[9]"..WHITE.."。"
@@ -708,7 +716,7 @@ Inst4Quest15name2 = "超强治疗药水"
 Inst4Quest15name3 = "强效法力药水 "
 
 --Quest 16 Alliance
-Inst4Quest16 = "16. 奥达曼的能量源（法师任务）"
+Inst4Quest16 = "16. 奥达曼的能量源 (法师任务)"
 Inst4Quest16_Level = "40"
 Inst4Quest16_Attain = "35"
 Inst4Quest16_Aim = "找到一个黑曜石能量源，将其交给尘泥沼泽的塔贝萨。"
@@ -772,7 +780,7 @@ Inst4Quest4FQuest_HORDE = "true"
 --Quest 5 Horde
 Inst4Quest5_HORDE = "5. 翻译日记"
 Inst4Quest5_HORDE_Level = "42"
-Inst4Quest5_HORDE_Attain = "39"
+Inst4Quest5_HORDE_Attain = "37"
 Inst4Quest5_HORDE_Aim = "在荒芜之地的卡加斯哨所里寻找一个可以帮你翻译圣骑士日记的人。"
 Inst4Quest5_HORDE_Location = "圣骑士的遗体（奥达曼; "..YELLOW.."[2]"..WHITE.."）"
 Inst4Quest5_HORDE_Note = "翻译圣骑士日记的人加卡尔（荒芜之地 - 卡加斯; "..YELLOW.."2,46"..WHITE.."） -> 将项链借给加卡尔，他帮你翻译日记。"
@@ -833,7 +841,7 @@ Inst4Quest9name2_HORDE = "超强治疗药水"
 Inst4Quest9name3_HORDE = "强效法力药水"
 
 --Quest 10 Horde  (same as Quest 4 Alliance)
-Inst4Quest10_HORDE = "10. 奥达曼的能量源（法师任务）"
+Inst4Quest10_HORDE = "10. 奥达曼的能量源(法师任务)"
 Inst4Quest10_HORDE_Level = Inst4Quest16_Level
 Inst4Quest10_HORDE_Attain = Inst4Quest16_Attain
 Inst4Quest10_HORDE_Aim = Inst4Quest16_Aim
@@ -850,8 +858,8 @@ Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
 
 Inst5Story = "黑石深渊曾经是黑铁矮人的伟大都城，这个火山中的迷宫现在成为拉格纳罗斯火焰领主的王座所在地。拉格纳罗斯找到了使用石头和设计图来创造一支无敌石头人均对来帮助它征服黑石深渊。即使是需要打败奈法利安和他的龙子龙孙，拉格纳罗斯会不惜一切代价来达到最后的胜利。"
 Inst5Caption = "黑石深渊"
-Inst5QAA = "18 个任务"
-Inst5QAH = "18 个任务"
+Inst5QAA = "20 个任务"
+Inst5QAH = "20 个任务"
 
 --Quest 1 Alliance
 Inst5Quest1 = "1. 黑铁的遗产"
@@ -959,7 +967,7 @@ Inst5Quest8_Folgequest = "无"
 Inst5Quest8name1 = "肮脏的背包"
 
 --Quest 9 Alliance
-Inst5Quest9 = "9. 温德索尔元帅（奥妮克希亚系列任务）"
+Inst5Quest9 = "9. 温德索尔元帅 (奥妮克希亚系列任务)"
 Inst5Quest9_Level = "54"
 Inst5Quest9_Attain = "48"
 Inst5Quest9_Aim = "到西北部的黑石山脉去，在黑石深渊中找到温德索尔元帅的下落。\n狼狈不堪的约翰曾告诉你说温德索尔被关进了一个监狱。"
@@ -974,7 +982,7 @@ Inst5Quest9name2 = "盾甲铁靴"
 Inst5Quest9name3 = "风剪护腿"
 
 --Quest 10 Alliance
-Inst5Quest10 = "10. 弄皱的便笺（奥妮克希亚系列任务）"
+Inst5Quest10 = "10. 弄皱的便笺 (奥妮克希亚系列任务)"
 Inst5Quest10_Level = "58"
 Inst5Quest10_Attain = "50"
 Inst5Quest10_Aim = "温德索尔元帅也许会对你手中的东西感兴趣。毕竟，希望还没有被完全扼杀。"
@@ -986,7 +994,7 @@ Inst5Quest10FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst5Quest11 = "11. 一丝希望（奥妮克希亚系列任务）"
+Inst5Quest11 = "11. 一丝希望 (奥妮克希亚系列任务)"
 Inst5Quest11_Level = "58"
 Inst5Quest11_Attain = "52"
 Inst5Quest11_Aim = "找回温德索尔元帅遗失的情报。\n温德索尔元帅确信那些情报在安格弗将军和傀儡统帅阿格曼奇的手里。"
@@ -998,7 +1006,7 @@ Inst5Quest11FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst5Quest12 = "12. 冲破牢笼！（奥妮克希亚系列任务）"
+Inst5Quest12 = "12. 冲破牢笼! (奥妮克希亚系列任务)"
 Inst5Quest12_Level = "58"
 Inst5Quest12_Attain = "52"
 Inst5Quest12_Aim = "帮助温德索尔元帅拿回他的装备并救出他的朋友。当你成功之后就回去向麦克斯韦尔元帅复命。"
@@ -1065,7 +1073,7 @@ Inst5Quest16_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 17 Alliance
-Inst5Quest17 = "17. 挑战（T0.5升级任务）"
+Inst5Quest17 = "17. 挑战 (T0.5升级任务)"
 Inst5Quest17_Level = "60"
 Inst5Quest17_Attain = "60"
 Inst5Quest17_Aim = "前往黑石深渊竞技场并在你被裁决者格里斯通宣判时将挑衅旗帜放在它的中央。杀死瑟尔伦和他的战士们，再带着第一块瓦萨拉克护符回到东瘟疫之地的安希恩·哈莫那里。"
@@ -1076,7 +1084,7 @@ Inst5Quest17_Folgequest = "有，各个职业的职业任务（T0.5升级任务�
 -- No Rewards for this quest
 
 --Quest 18 Alliance
-Inst5Quest18 = "18. 鬼魂之杯（采矿任务）"
+Inst5Quest18 = "18. 鬼魂之杯 (采矿任务)"
 Inst5Quest18_Level = "55"
 Inst5Quest18_Attain = "55"
 Inst5Quest18_Aim = "鬼魂之杯的塞娜尼·雷心要你找到他想要的材料。"
@@ -1086,6 +1094,28 @@ Inst5Quest18_Prequest = "无"
 Inst5Quest18_Folgequest = "无"
 -- No Rewards for this quest
 
+--Quest 19 Alliance
+Inst5Quest19 = "19. 保护美酒节! (季节性)"
+Inst5Quest19_Level = "70"
+Inst5Quest19_Attain = "65"
+Inst5Quest19_Aim = "和黑石深渊里黑石酒吧的美酒节间谍对话."
+Inst5Quest19_Location = "达尔娜·蜜酒 (丹莫罗 - 卡拉诺斯; "..YELLOW.."46.53"..WHITE..")"
+Inst5Quest19_Note = "这个任务只有美酒节的时候才会出现. 美酒节间谍在 "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest19_Prequest = "无"
+Inst5Quest19_Folgequest = "又, 干掉科林·烈酒"
+-- No Rewards for this quest
+
+--Quest 20 Alliance
+Inst5Quest20 = "20. 干掉科林·烈酒 (季节性 - 日常)"
+Inst5Quest20_Level = "70"
+Inst5Quest20_Attain = "65"
+Inst5Quest20_Aim = "Speak with 科林·烈酒."
+Inst5Quest20_Location = "美酒节间谍 (黑石深渊 - 黑铁酒吧; "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest20_Note = "完成这个任务将使 科林·烈酒 攻击你. 这个季节性日常每天只能完成一次.\n 前续任务只能完成一次，之后你只要去酒吧就可以直接接到这个任务了."
+Inst5Quest20_Prequest = "有，保护美酒节!"
+Inst5Quest20_Folgequest = "无"
+Inst5Quest20FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst5Quest1_HORDE = Inst5Quest1
@@ -1143,15 +1173,15 @@ Inst5Quest4name2_HORDE = "强效法力药水"
 Inst5Quest4name3_HORDE = "迅捷木槌"
 Inst5Quest4name4_HORDE = "叉刃巨斧"
 
---Quest 5 Horde  (same as Quest 6 Alliance)
+--Quest 5 Horde  (same as Quest 7 Alliance)
 Inst5Quest5_HORDE = "5. 山脉之心"
-Inst5Quest5_HORDE_Level = Inst5Quest6_Level
-Inst5Quest5_HORDE_Attain = Inst5Quest6_Attain
-Inst5Quest5_HORDE_Aim = Inst5Quest6_Aim
-Inst5Quest5_HORDE_Location = Inst5Quest6_Location
-Inst5Quest5_HORDE_Note = Inst5Quest6_Note
-Inst5Quest5_HORDE_Prequest = Inst5Quest6_Prequest
-Inst5Quest5_HORDE_Folgequest = Inst5Quest6_Folgequest
+Inst5Quest5_HORDE_Level = Inst5Quest7_Level
+Inst5Quest5_HORDE_Attain = Inst5Quest7_Attain
+Inst5Quest5_HORDE_Aim = Inst5Quest7_Aim
+Inst5Quest5_HORDE_Location = Inst5Quest7_Location
+Inst5Quest5_HORDE_Note = Inst5Quest7_Note
+Inst5Quest5_HORDE_Prequest = Inst5Quest7_Prequest
+Inst5Quest5_HORDE_Folgequest = Inst5Quest7_Folgequest
 -- No Rewards for this quest
 
 --Quest 6 Horde
@@ -1319,7 +1349,28 @@ Inst5Quest18_HORDE_Prequest = Inst5Quest18_Prequest
 Inst5Quest18_HORDE_Folgequest = Inst5Quest18_Folgequest
 -- No Rewards for this quest
 
+--Quest 19 Horde  (same as Quest 19 Alliance)
+Inst5Quest19_HORDE = Inst5Quest19
+Inst5Quest19_HORDE_Level = Inst5Quest19_Level
+Inst5Quest19_HORDE_Attain = Inst5Quest19_Attain
+Inst5Quest19_HORDE_Aim = Inst5Quest19_Aim
+Inst5Quest19_HORDE_Location = Inst5Quest19_Location
+Inst5Quest19_HORDE_Note = Inst5Quest19_Note
+Inst5Quest19_HORDE_Prequest = Inst5Quest19_Prequest
+Inst5Quest19_HORDE_Folgequest = Inst5Quest19_Folgequest
+-- No Rewards for this quest
 
+--Quest 20 Horde  (same as Quest 20 Alliance)
+Inst5Quest20_HORDE = Inst5Quest20
+Inst5Quest20_HORDE_Level = Inst5Quest20_Level
+Inst5Quest20_HORDE_Attain = Inst5Quest20_Attain
+Inst5Quest20_HORDE_Aim = Inst5Quest20_Aim
+Inst5Quest20_HORDE_Location = Inst5Quest20_Location
+Inst5Quest20_HORDE_Note = Inst5Quest20_Note
+Inst5Quest20_HORDE_Prequest = Inst5Quest20_Prequest
+Inst5Quest20_HORDE_Folgequest = Inst5Quest20_Folgequest
+Inst5Quest20FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
@@ -1421,7 +1472,7 @@ Inst7QAH = "5 个任务"
 --Quest 1 Alliance
 Inst7Quest1 = "1. 深渊中的知识"
 Inst7Quest1_Level = "23"
-Inst7Quest1_Attain = "10"
+Inst7Quest1_Attain = "19"
 Inst7Quest1_Aim = "把洛迦里斯手稿带给铁炉堡的葛利·硬骨。"
 Inst7Quest1_Location = "葛利·硬骨（铁炉堡 - 荒弃的洞穴; "..YELLOW.."50,5"..WHITE.."）"
 Inst7Quest1_Note = "你可以在靠近"..YELLOW.."[2]"..WHITE.."的水中找到手稿。"
@@ -1483,7 +1534,7 @@ Inst7Quest5name1 = "云光长靴"
 Inst7Quest5name2 = "赤木束带"
 
 --Quest 6 Alliance
-Inst7Quest6 = "6. 索兰鲁克宝珠（术士任务）"
+Inst7Quest6 = "6. 索兰鲁克宝珠 (术士任务)"
 Inst7Quest6_Level = "25"
 Inst7Quest6_Attain = "20"
 Inst7Quest6_Aim = "找到3块索兰鲁克宝珠的碎片和1块索兰鲁克宝珠的大碎片，把它们交给贫瘠之地的杜安·卡汉。"
@@ -1510,8 +1561,8 @@ Inst7Quest1PreQuest_HORDE = "true"
 
 --Quest 2 Horde
 Inst7Quest2_HORDE = "2. 上古之神的仆从"
-Inst7Quest2_HORDE_Level = "26"
-Inst7Quest2_HORDE_Attain = "18"
+Inst7Quest2_HORDE_Level = "22"
+Inst7Quest2_HORDE_Attain = "17"
 Inst7Quest2_HORDE_Aim = "把潮湿的便笺交给灰谷的耶努萨克雷。 -> 杀掉黑暗深渊里的洛古斯·杰特，然后向灰谷的耶努萨克雷复命。"
 Inst7Quest2_HORDE_Location = "潮湿的便笺（掉落）（请见注释）"
 Inst7Quest2_HORDE_Note = "潮湿的便笺可从黑暗深渊海潮祭司处得到（5% 掉落几率）。然后去耶努萨克雷（灰谷 - 佐拉姆加前哨站; "..YELLOW.."11,33"..WHITE.."）。洛古斯·杰特在"..YELLOW.."[6]"..WHITE.."。"
@@ -1535,7 +1586,7 @@ Inst7Quest3_HORDE_Folgequest = "无"
 --Quest 4 Horde
 Inst7Quest4_HORDE = "4. 黑暗深渊中的恶魔"
 Inst7Quest4_HORDE_Level = "27"
-Inst7Quest4_HORDE_Attain = "19"
+Inst7Quest4_HORDE_Attain = "18"
 Inst7Quest4_HORDE_Aim = "把梦游者克尔里斯的头颅带回雷霆崖交给巴珊娜·符文图腾 。"
 Inst7Quest4_HORDE_Location = "银月守卫塞尔瑞德（黑暗深渊; "..YELLOW.."[4]"..WHITE.."）"
 Inst7Quest4_HORDE_Note = "克尔里斯在"..YELLOW.."[8]"..WHITE.."。巴珊娜·符文图腾可以在（雷霆崖 - 长者高地 "..YELLOW.."70,33"..WHITE.."）处找到。注意！如果你点燃了克尔里斯身旁的火焰，会出现敌人攻击你。"
@@ -1546,7 +1597,7 @@ Inst7Quest4name1_HORDE = "墓碑节杖"
 Inst7Quest4name2_HORDE = "极光圆盾"
 
 --Quest 5 Horde  (same as Quest 6 Alliance)
-Inst7Quest5_HORDE = "5. 索兰鲁克宝珠（术士任务）"
+Inst7Quest5_HORDE = "5. 索兰鲁克宝珠 (术士任务)"
 Inst7Quest5_HORDE_Level = "25"
 Inst7Quest5_HORDE_Attain = "20"
 Inst7Quest5_HORDE_Aim = Inst7Quest6_Aim
@@ -1657,7 +1708,7 @@ Inst8Quest7_Folgequest = "有，给麦克斯韦尔的消息"
 --Quest 8 Alliance
 Inst8Quest8 = "8. 麦克斯韦尔的任务"
 Inst8Quest8_Level = "59"
-Inst8Quest8_Attain = "57"
+Inst8Quest8_Attain = "55"
 Inst8Quest8_Aim = "到黑石塔去消灭指挥官沃恩、欧莫克大王和维姆萨拉克。完成任务之后回到麦克斯韦尔元帅处复命。"
 Inst8Quest8_Location = "麦克斯韦尔（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,58"..WHITE.."）"
 Inst8Quest8_Note = "指挥官沃恩在"..YELLOW.."[9]"..WHITE.."，欧莫克大王在"..YELLOW.."[5]"..WHITE.."，维姆萨拉克在"..YELLOW.."[19]"..WHITE.."。"
@@ -1696,7 +1747,7 @@ Inst8Quest10_Folgequest = "有，达基萨斯将军之死（"..YELLOW.."黑石�
 --Quest 11 Alliance
 Inst8Quest11 = "11. 瓦塔拉克饰品的左瓣"
 Inst8Quest11_Level = "60"
-Inst8Quest11_Attain = "60"
+Inst8Quest11_Attain = "58"
 Inst8Quest11_Aim = "使用召唤火盆召唤出莫尔·灰蹄的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给黑石山的伯德雷。"
 Inst8Quest11_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）"
 Inst8Quest11_Note = "你需要超维度幽灵显形器才能看到伯德雷，你可以从《寻找安泰恩》任务得到它。\n\n莫尔·灰蹄在"..YELLOW.."[9]"..WHITE.."召唤。"
@@ -1708,7 +1759,7 @@ Inst8Quest11PreQuest = "true"
 --Quest 12 Alliance
 Inst8Quest12 = "12. 瓦塔拉克饰品的右瓣"
 Inst8Quest12_Level = "60"
-Inst8Quest12_Attain = "60"
+Inst8Quest12_Attain = "58"
 Inst8Quest12_Aim = "在比斯巨兽的房间里使用召唤火盆，召唤瓦塔拉克公爵。杀死他，对尸体使用瓦塔拉克的饰品。然后将瓦塔拉克的饰品还给瓦塔拉克公爵之魂。"
 Inst8Quest12_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）"
 Inst8Quest12_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n莫尔·灰蹄在"..YELLOW.."[9]"..WHITE.."召唤。"
@@ -1718,7 +1769,7 @@ Inst8Quest12PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst8Quest13 = "13. 沃什加斯的蛇石（锻造-铸剑大师任务）"
+Inst8Quest13 = "13. 沃什加斯的蛇石 (锻造-铸剑大师任务)"
 Inst8Quest13_Level = "60"
 Inst8Quest13_Attain = "51"
 Inst8Quest13_Aim = "到黑石塔去杀死暗影猎手沃什加斯，将沃什加斯的蛇石交给基尔拉姆。"
@@ -1732,7 +1783,7 @@ Inst8Quest13name1 = "设计图：黎明之刃"
 --Quest 14 Alliance
 Inst8Quest14 = "14. 火热的死亡"
 Inst8Quest14_Level = "60"
-Inst8Quest14_Attain = "58"
+Inst8Quest14_Attain = "56"
 Inst8Quest14_Aim = "世界上一定有人知道关于这副手套的事情，祝你好运！"
 Inst8Quest14_Location = "人类的残骸（黑石塔下层; "..YELLOW.."[9]"..WHITE.."）"
 Inst8Quest14_Note = "煅造任务。确保从人类残骸"..YELLOW.."[11]"..WHITE.."附近拿到这个板甲手套，交给玛雷弗斯·暗锤（冬泉谷 - 永望镇; "..YELLOW.."61,39"..WHITE.."）。 "
@@ -2031,7 +2082,7 @@ Inst9Quest8_Folgequest = "无"
 --Quest 9 Alliance
 Inst9Quest9 = "9. 最后的准备"
 Inst9Quest9_Level = "60"
-Inst9Quest9_Attain = "60"
+Inst9Quest9_Attain = "58"
 Inst9Quest9_Aim = "从黑石塔的兽人那儿收集40副黑石护腕，把它们和一瓶超级能量合剂一起交给黑石山的伯德雷。"
 Inst9Quest9_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）"
 Inst9Quest9_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。黑石塔的兽人掉落黑石护腕。超级能量合剂是炼金制造。"
@@ -2043,7 +2094,7 @@ Inst9Quest9PreQuest = "true"
 --Quest 10 Alliance
 Inst9Quest10 = "10. 瓦塔拉克公爵"
 Inst9Quest10_Level = "60"
-Inst9Quest10_Attain = "60"
+Inst9Quest10_Attain = "58"
 Inst9Quest10_Aim = "在比斯巨兽的房间里使用召唤火盆，召唤瓦塔拉克公爵。杀死他，对尸体使用瓦塔拉克的饰品。然后将瓦塔拉克的饰品还给瓦塔拉克公爵之魂。"
 Inst9Quest10_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）"
 Inst9Quest10_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。召唤瓦塔拉克公爵在 "..YELLOW.."[8]"..WHITE.."。向伯德雷回复领取奖励。"
@@ -2055,7 +2106,7 @@ Inst9Quest10name1 = "符咒火盆"
 Inst9Quest10name2 = "符咒火盆用户手册"
 
 --Quest 11 Alliance
-Inst9Quest11 = "11. 恶魔熔炉（煅造-铸甲大师任务）"
+Inst9Quest11 = "11. 恶魔熔炉 (煅造-铸甲大师任务)"
 Inst9Quest11_Level = "60"
 Inst9Quest11_Attain = "58"
 Inst9Quest11_Aim = "到黑石塔去找到古拉鲁克。杀死他，然后用血污长矛刺入他的尸体。当他的灵魂被吸干后，这支矛就会成为穿魂长矛。你还必须找到未铸造的符文覆饰胸甲。将穿魂长矛和未铸造的符文覆饰胸甲都交给冬泉谷的罗拉克斯。"
@@ -2130,7 +2181,7 @@ Inst9Quest5name1_HORDE = "迅捷皮靴"
 Inst9Quest5name2_HORDE = "瞬击护臂"
 
 --Quest6 Horde
-Inst9Quest6_HORDE = "6. 为部落而战！"
+Inst9Quest6_HORDE = "6. 为部落而战!"
 Inst9Quest6_HORDE_Level = "60"
 Inst9Quest6_HORDE_Attain = "55"
 Inst9Quest6_HORDE_Aim = "去黑石塔杀死大酋长雷德·黑手，带着他的头颅返回奥格瑞玛。"
@@ -2256,7 +2307,7 @@ Inst10Quest2name1 = "学识匕首"
 --Quest 3 Alliance
 Inst10Quest3 = "3. 魔藤碎片"
 Inst10Quest3_Level = "60"
-Inst10Quest3_Attain = "59"
+Inst10Quest3_Attain = "56"
 Inst10Quest3_Aim = "在厄运之槌中找到魔藤，然后从它上面采集一块碎片。只有干掉了奥兹恩之后，你才能进行采集工作。使用净化之匣安全地封印碎片，然后将其交给月光林地永夜港的拉比恩·萨图纳。"
 Inst10Quest3_Location = "拉比恩·萨图纳（月光林地; "..YELLOW.."51,44"..WHITE.."）"
 Inst10Quest3_Note = "奥兹恩在厄运之槌"..YELLOW.."东"..WHITE.."的"..YELLOW.."[5]"..WHITE.."。净化之匣在希利苏斯"..YELLOW.."62,54"..WHITE.."。前续任务同样来自拉比恩·萨图纳。"
@@ -2270,7 +2321,7 @@ Inst10Quest3name2 = "米利的词典"
 --Quest 4 Alliance
 Inst10Quest4 = "4. 瓦塔拉克饰品的左瓣"
 Inst10Quest4_Level = "60"
-Inst10Quest4_Attain = "60"
+Inst10Quest4_Attain = "58"
 Inst10Quest4_Aim = "使用召唤火盆召唤出伊萨利恩的灵魂，然后杀掉她。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给伯德雷。"
 Inst10Quest4_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）"
 Inst10Quest4_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。召唤伊萨利恩在"..YELLOW.."[5]"..WHITE.."。"
@@ -2282,7 +2333,7 @@ Inst10Quest4PreQuest = "true"
 --Quest 5 Alliance
 Inst10Quest5 = "5. 瓦塔拉克饰品的右瓣"
 Inst10Quest5_Level = "60"
-Inst10Quest5_Attain = "60"
+Inst10Quest5_Attain = "58"
 Inst10Quest5_Aim = "使用召唤火盆召唤出伊萨莉恩的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克公爵的饰品还给伯德雷。"
 Inst10Quest5_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）"
 Inst10Quest5_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。召唤伊萨利恩在"..YELLOW.."[5]"..WHITE.."。"
@@ -2292,7 +2343,7 @@ Inst10Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst10Quest6 = "6. 监牢之链（术士任务）"
+Inst10Quest6 = "6. 监牢之链 (术士任务)"
 Inst10Quest6_Level = "60"
 Inst10Quest6_Attain = "60"
 Inst10Quest6_Aim = "到菲拉斯的厄运之槌去，从扭木广场的荒野萨特身上找到15份萨特之血，然后把它们交给腐烂之痕的戴奥。"
@@ -2389,7 +2440,7 @@ Inst11QAH = "4 个任务"
 --Quest 1 Alliance
 Inst11Quest1 = "1. 破碎的陷阱 "
 Inst11Quest1_Level = "60"
-Inst11Quest1_Attain = "60"
+Inst11Quest1_Attain = "56"
 Inst11Quest1_Aim = "修复这个陷阱。"
 Inst11Quest1_Location = "破碎的陷阱（厄运之槌; "..YELLOW.."北"..WHITE.."）"
 Inst11Quest1_Note = "可重复任务。修好陷阱你必须有[瑟银零件]和一瓶[冰霜之油]。"
@@ -2400,7 +2451,7 @@ Inst11Quest1_Folgequest = "无"
 --Quest 2 Alliance
 Inst11Quest2 = "2. 戈多克食人魔装"
 Inst11Quest2_Level = "60"
-Inst11Quest2_Attain = "57"
+Inst11Quest2_Attain = "56"
 Inst11Quest2_Aim = "把4份符文布卷、8块硬甲皮、2卷符文线和一份食人魔鞣酸交给诺特·希姆加克。他现在被拴在厄运之槌的戈多克食人魔那边。"
 Inst11Quest2_Location = "诺特·希姆加克（厄运之槌; "..YELLOW.."北，[4]"..WHITE.."）"
 Inst11Quest2_Note = "可重复任务，食人魔鞣酸可以从"..YELLOW.."（上层）[4]"..WHITE.."附近得到。"
@@ -2519,7 +2570,7 @@ Inst12Quest2_Folgequest = "有，辛德拉的宝藏"
 --Quest 3 Alliance
 Inst12Quest3 = "3. 辛德拉的宝藏"
 Inst12Quest3_Level = "60"
-Inst12Quest3_Attain = "57"
+Inst12Quest3_Attain = "56"
 Inst12Quest3_Aim = "返回图书馆去找到辛德拉的宝藏。拿取你的奖励吧！"
 Inst12Quest3_Location = "辛德拉古灵（厄运之槌; "..YELLOW.."西，（上层）[1]"..WHITE.."）"
 Inst12Quest3_Note = "你可以在图书馆的梯子下面找到宝藏"..YELLOW.."[7]"..WHITE.."。"
@@ -2532,7 +2583,7 @@ Inst12Quest3name2 = "密林头盔"
 Inst12Quest3name3 = "碾骨者"
 
 --Quest 4 Alliance
-Inst12Quest4 = "4. 克索诺斯恐惧战马（术士任务）"
+Inst12Quest4 = "4. 克索诺斯恐惧战马 (术士任务)"
 Inst12Quest4_Level = "60"
 Inst12Quest4_Attain = "60"
 Inst12Quest4_Aim = "阅读莫苏尔的指南，并召唤出一匹克索诺斯恐惧战马，击败它，然后控制它的灵魂。."
@@ -2544,9 +2595,9 @@ Inst12Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst12Quest5 = "5. 翡翠梦境（德鲁伊饰品任务）"
+Inst12Quest5 = "5. 翡翠梦境 (德鲁伊饰品任务)"
 Inst12Quest5_Level = "60"
-Inst12Quest5_Attain = "59"
+Inst12Quest5_Attain = "54"
 Inst12Quest5_Aim = "将这本典籍交给它的主人。"
 Inst12Quest5_Location = "翡翠梦境（厄运之槌的所有几个副本的 Boss 都可能掉落）"
 Inst12Quest5_Note = "奖励德鲁伊的职业饰品。把书交给博学者基尔达斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）。"
@@ -2556,7 +2607,7 @@ Inst12Quest5_Folgequest = "无"
 Inst12Quest5name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 6 Alliance
-Inst12Quest6 = "6. 最伟大的猎手（猎人饰品任务）"
+Inst12Quest6 = "6. 最伟大的猎手 (猎人饰品任务)"
 Inst12Quest6_Level = "60"
 Inst12Quest6_Attain = "54"
 Inst12Quest6_Aim = "将这本典籍交给它的主人。"
@@ -2568,7 +2619,7 @@ Inst12Quest6_Folgequest = "无"
 Inst12Quest6name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 7 Alliance
-Inst12Quest7 = "7. 奥法师的食谱（法师饰品任务）"
+Inst12Quest7 = "7. 奥法师的食谱 (法师饰品任务)"
 Inst12Quest7_Level = "60"
 Inst12Quest7_Attain = "54"
 Inst12Quest7_Aim = "将这本典籍交给它的主人。"
@@ -2580,7 +2631,7 @@ Inst12Quest7_Folgequest = "无"
 Inst12Quest7name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 8 Alliance
-Inst12Quest8 = "8. 圣光之力（圣骑士饰品任务）"
+Inst12Quest8 = "8. 圣光之力 (圣骑士饰品任务)"
 Inst12Quest8_Level = "60"
 Inst12Quest8_Attain = "54"
 Inst12Quest8_Aim = "将这本典籍交给它的主人。"
@@ -2592,9 +2643,9 @@ Inst12Quest8_Folgequest = "无"
 Inst12Quest8name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 9 Alliance
-Inst12Quest9 = "9. 光明不会告诉你的事情（牧师饰品任务）"
+Inst12Quest9 = "9. 光明不会告诉你的事情 (牧师饰品任务)"
 Inst12Quest9_Level = "60"
-Inst12Quest9_Attain = "56"
+Inst12Quest9_Attain = "54"
 Inst12Quest9_Aim = "将这本典籍交给它的主人。"
 Inst12Quest9_Location = "光明不会告诉你的事情（厄运之槌的所有几个副本的 Boss 都可能掉落）"
 Inst12Quest9_Note = "奖励牧师的职业饰品。把书交给博学者基尔达斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）。"
@@ -2604,7 +2655,7 @@ Inst12Quest9_Folgequest = "无"
 Inst12Quest9name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 10 Alliance
-Inst12Quest10 = "10. 迦罗娜：潜行与诡计研究（盗贼饰品任务）"
+Inst12Quest10 = "10. 迦罗娜：潜行与诡计研究 (盗贼饰品任务)"
 Inst12Quest10_Level = "60"
 Inst12Quest10_Attain = "54"
 Inst12Quest10_Aim = "将这本典籍交给它的主人。"
@@ -2616,9 +2667,9 @@ Inst12Quest10_Folgequest = "无"
 Inst12Quest10name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 11 Alliance
-Inst12Quest11 = "11. 你与冰霜震击（萨满祭司饰品任务）"
+Inst12Quest11 = "11. 你与冰霜震击 (萨满祭司饰品任务)"
 Inst12Quest11_Level = "60"
-Inst12Quest11_Attain = "59"
+Inst12Quest11_Attain = "54"
 Inst12Quest11_Aim = "将这本典籍交给它的主人。"
 Inst12Quest11_Location = "你与冰霜震击（厄运之槌的所有几个副本的 Boss 都可能掉落）"
 Inst12Quest11_Note = "奖励萨满祭司的职业饰品。把书交给博学者基尔达斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）。"
@@ -2628,7 +2679,7 @@ Inst12Quest11_Folgequest = "无"
 Inst12Quest11name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 12 Alliance
-Inst12Quest12 = "12. 束缚之影（术士饰品任务）"
+Inst12Quest12 = "12. 束缚之影 (术士饰品任务)"
 Inst12Quest12_Level = "60"
 Inst12Quest12_Attain = "54"
 Inst12Quest12_Aim = "将这本典籍交给它的主人。"
@@ -2640,9 +2691,9 @@ Inst12Quest12_Folgequest = "无"
 Inst12Quest12name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 13 Alliance
-Inst12Quest13 = "13. 防御宝典（战士饰品任务）"
+Inst12Quest13 = "13. 防御宝典 (战士饰品任务)"
 Inst12Quest13_Level = "60"
-Inst12Quest13_Attain = "57"
+Inst12Quest13_Attain = "54"
 Inst12Quest13_Aim = "将这本典籍交给它的主人。"
 Inst12Quest13_Location = "防御宝典（厄运之槌的所有几个副本的 Boss 都可能掉落）"
 Inst12Quest13_Note = "奖励战士的职业饰品。把书交给博学者基尔达斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）。"
@@ -2688,7 +2739,7 @@ Inst12Quest16_Folgequest = "无"
 Inst12Quest16name1 = "急速秘药"
 
 --Quest 17 Alliance
-Inst12Quest17 = "17. 弗洛尔的屠龙技术纲要（战士，圣骑士）"
+Inst12Quest17 = "17. 弗洛尔的屠龙技术纲要 (战士，圣骑士)"
 Inst12Quest17_Level = "60"
 Inst12Quest17_Attain = "60"
 Inst12Quest17_Aim = "将《弗洛尔的屠龙技术纲要》还回图书馆。"
@@ -3616,7 +3667,7 @@ Inst18Quest4name3 = "石拳束带"
 Inst18Quest4name4 = "石饰圆盾"
 
 --Quest 5 Alliance
-Inst18Quest5 = "5. 弗伦的铠甲（战士任务）"
+Inst18Quest5 = "5. 弗伦的铠甲 (战士任务)"
 Inst18Quest5_Level = "28"
 Inst18Quest5_Attain = "20"
 Inst18Quest5_Aim = "收集必需的材料，将它们交给暴风城的弗伦·长须。"
@@ -3680,7 +3731,7 @@ Inst18Quest4name2_HORDE = "石拳束带"
 Inst18Quest4name3_HORDE = "石饰圆盾"
 
 --Quest 5 Horde
-Inst18Quest5_HORDE = "5. 野蛮护甲（战士任务）"
+Inst18Quest5_HORDE = "5. 野蛮护甲 (战士任务)"
 Inst18Quest5_HORDE_Level = "30"
 Inst18Quest5_HORDE_Attain = "20"
 Inst18Quest5_HORDE_Aim = "为索恩格瑞姆收集15根烟雾铁锭、10份蓝铜粉、10块铁锭和1瓶燃素。"
@@ -3713,7 +3764,7 @@ Inst19Quest1_Folgequest = "无"
 Inst19Quest1name1 = "探险者协会的奖状"
 
 --Quest 2 Alliance
-Inst19Quest2 = "2. 能量仪祭（法师任务）"
+Inst19Quest2 = "2. 能量仪祭 (法师任务)"
 Inst19Quest2_Level = "40"
 Inst19Quest2_Attain = "30"
 Inst19Quest2_Aim = "将《能量仪祭》交给尘泥沼泽的塔贝萨。"
@@ -3780,7 +3831,7 @@ Inst19Quest3name2_HORDE = "力石圆盾"
 Inst19Quest3name3_HORDE = "终结宝珠"
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
-Inst19Quest4_HORDE = "4. 能量仪祭（法师任务）"
+Inst19Quest4_HORDE = "4. 能量仪祭 (法师任务)"
 Inst19Quest4_HORDE_Level = Inst19Quest2_Level
 Inst19Quest4_HORDE_Attain = Inst19Quest2_Attain
 Inst19Quest4_HORDE_Aim = Inst19Quest2_Aim
@@ -3917,7 +3968,7 @@ Inst20Quest8name1 = "断风者"
 Inst20Quest8name2 = "舞动之藤"
 
 --Quest 9 Alliance
-Inst20Quest9 = "9. 瓶中的小鬼（术士任务）"
+Inst20Quest9 = "9. 瓶中的小鬼 (术士任务)"
 Inst20Quest9_Level = "60"
 Inst20Quest9_Attain = "60"
 Inst20Quest9_Aim = "把瓶中的小鬼带到通灵学院的炼金实验室中。在小鬼制造出羊皮纸之后，把瓶子还给戈瑟奇·邪眼。"
@@ -4077,7 +4128,7 @@ Inst21QAA = "2 个任务"
 Inst21QAH = "4 个任务"
 
 --Quest 1 Alliance
-Inst21Quest1 = "1. 正义试炼（圣骑士任务）"
+Inst21Quest1 = "1. 正义试炼 (圣骑士任务)"
 Inst21Quest1_Level = "22"
 Inst21Quest1_Attain = "20"
 Inst21Quest1_Aim = "按照乔丹的武器材料单上的说明去寻找一些白石橡木、精炼矿石、乔丹的铁锤和一块科尔宝石，然后回到铁炉堡去见乔丹·斯迪威尔。"
@@ -4091,7 +4142,7 @@ Inst21Quest1PreQuest = "true"
 Inst21Quest1name1 = "维里甘之拳"
 
 --Quest 2 Alliance
-Inst21Quest2 = "2. 索兰鲁克宝珠（术士任务）"
+Inst21Quest2 = "2. 索兰鲁克宝珠 (术士任务)"
 Inst21Quest2_Level = "25"
 Inst21Quest2_Attain = "20"
 Inst21Quest2_Aim = "找到3块索兰鲁克宝珠的碎片和1块索兰鲁克宝珠的大碎片，把它们交给贫瘠之地的杜安·卡汉。"
@@ -4142,7 +4193,7 @@ Inst21Quest3_HORDE_Folgequest = "无"
 Inst21Quest3name1_HORDE = "希尔瓦娜斯的图章"
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
-Inst21Quest4_HORDE = "4. 索兰鲁克宝珠（术士任务）"
+Inst21Quest4_HORDE = "4. 索兰鲁克宝珠 (术士任务)"
 Inst21Quest4_HORDE_Level = Inst21Quest2_Level
 Inst21Quest4_HORDE_Attain = Inst21Quest2_Attain
 Inst21Quest4_HORDE_Aim = Inst21Quest2_Aim
@@ -4229,7 +4280,7 @@ Inst22Quest5PreQuest = "true"
 Inst22Quest5name1 = "希望的证明"
 
 --Quest 6 Alliance
-Inst22Quest6 = "6. 爱与家庭（系列任务）"
+Inst22Quest6 = "6. 爱与家庭 (系列任务)"
 Inst22Quest6_Level = "60"
 Inst22Quest6_Attain = "52"
 Inst22Quest6_Aim = "到瘟疫之地北部的斯坦索姆去。你可以在血色十字军堡垒中找到“爱与家庭”这幅画，它被隐藏在另一幅描绘两个月亮的画之后。\n把这幅画还给提里奥·弗丁。"
@@ -4241,7 +4292,7 @@ Inst22Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst22Quest7 = "7. 米奈希尔的礼物（系列任务）"
+Inst22Quest7 = "7. 米奈希尔的礼物 (系列任务)"
 Inst22Quest7_Level = "60"
 Inst22Quest7_Attain = "57"
 Inst22Quest7_Aim = "到斯坦索姆城里去找到米奈希尔的礼物，把巫妖生前的遗物放在那块邪恶的土地上。"
@@ -4355,7 +4406,7 @@ Inst22Quest15name3 = "埃提耶什，守护者的传说之杖"
 Inst22Quest15name4 = "埃提耶什，守护者的传说之杖"
 
 --Quest 16 Alliance
-Inst22Quest16 = "16. 腐蚀（铸剑大师任务）"
+Inst22Quest16 = "16. 腐蚀 (铸剑大师任务)"
 Inst22Quest16_Level = "60"
 Inst22Quest16_Attain = "50"
 Inst22Quest16_Aim = "在斯坦索姆找到黑衣守卫铸剑师，然后杀死他。将黑色卫士徽记交给亡灵杀手瑟里尔。"
@@ -4367,7 +4418,7 @@ Inst22Quest16_Folgequest = "无"
 Inst22Quest16name1 = "设计图：闪耀轻剑 "
 
 --Quest 17 Alliance
-Inst22Quest17 = "17. 甜美的平静（铸锤大师任务）"
+Inst22Quest17 = "17. 甜美的平静 (铸锤大师任务)"
 Inst22Quest17_Level = "60"
 Inst22Quest17_Attain = "51"
 Inst22Quest17_Aim = "到斯坦索姆去杀死红衣铸锤师。将红衣铸锤师的围裙交给莉莉丝。"
@@ -4379,7 +4430,7 @@ Inst22Quest17_Folgequest = "无"
 Inst22Quest17name1 = "设计图：魔法战锤"
 
 --Quest 18 Alliance
-Inst22Quest18 = "18. 光与影的平衡（牧师任务）"
+Inst22Quest18 = "18. 光与影的平衡 (牧师任务)"
 Inst22Quest18_Level = "60"
 Inst22Quest18_Attain = "60"
 Inst22Quest18_Aim = "在总计有15个农夫被杀死之前拯救50个农夫。完成任务之后与艾瑞斯·哈文法谈谈。\n你可以通过浏览死亡布告来了解自己拯救了多少农夫。"
@@ -4622,7 +4673,7 @@ Inst22Quest18name1_HORDE = "阿莱克希斯皇家戒指"
 Inst22Quest18name2_HORDE = "元素之环"
 
 --Quest 19 Horde  (same as Quest 18 Alliance)
-Inst22Quest19_HORDE = "19. 光与影的平衡（牧师任务）"
+Inst22Quest19_HORDE = "19. 光与影的平衡 (牧师任务)"
 Inst22Quest19_HORDE_Level = Inst22Quest18_Level
 Inst22Quest19_HORDE_Attain = Inst22Quest18_Attain
 Inst22Quest19_HORDE_Aim = Inst22Quest18_Aim
@@ -4779,7 +4830,7 @@ Inst24Quest5name1 = "辩护腰带 "
 Inst24Quest5name2 = "碎头者"
 
 --Quest 6 Alliance
-Inst24Quest6 = "6. 监狱暴动（系列任务）"
+Inst24Quest6 = "6. 监狱暴动 (系列任务)"
 Inst24Quest6_Level = "29"
 Inst24Quest6_Attain = "16"
 Inst24Quest6_Aim = "杀死巴基尔·斯瑞德，把他的头带给监狱的典狱官塞尔沃特。"
@@ -4862,7 +4913,7 @@ Inst25Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst25Quest6 = "6. 神灵哈卡（系列任务）"
+Inst25Quest6 = "6. 神灵哈卡 (系列任务)"
 Inst25Quest6_Level = "53"
 Inst25Quest6_Attain = "42"
 Inst25Quest6_Aim = "将装满的哈卡之卵交给塔纳利斯的叶基亚。"
@@ -4902,7 +4953,7 @@ Inst25Quest8_Folgequest = "无"
 Inst25Quest8name1 = "被禁锢的伊兰尼库斯精华"
 
 --Quest 9 Alliance
-Inst25Quest9 = "9. 巨魔的羽毛（术士任务）"
+Inst25Quest9 = "9. 巨魔的羽毛 (术士任务)"
 Inst25Quest9_Level = "52"
 Inst25Quest9_Attain = "50"
 Inst25Quest9_Aim = "到沉没的神庙去，从巨魔们身上获得6支巫毒羽毛。"
@@ -4917,7 +4968,7 @@ Inst25Quest9name2 = "深渊碎片"
 Inst25Quest9name3 = "束缚长袍"
 
 --Quest 10 Alliance
-Inst25Quest10 = "10. 巫毒羽毛（战士任务）"
+Inst25Quest10 = "10. 巫毒羽毛 (战士任务)"
 Inst25Quest10_Level = "52"
 Inst25Quest10_Attain = "50"
 Inst25Quest10_Aim = "将你从沉没的神庙的巨魔身上得到的巫毒羽毛交给部落英雄的灵魂。"
@@ -4932,7 +4983,7 @@ Inst25Quest10name2 = "钻石水瓶"
 Inst25Quest10name3 = "刺钢护肩"
 
 --Quest 11 Alliance
-Inst25Quest11 = "11. 巫毒羽毛（萨满任务）"
+Inst25Quest11 = "11. 巫毒羽毛 (萨满任务)"
 Inst25Quest11_Level = "52"
 Inst25Quest11_Attain = "50"
 Inst25Quest11_Aim = "将巫毒羽毛交给捕风者巴斯拉。"
@@ -4947,7 +4998,7 @@ Inst25Quest11name2 = "被迷惑的水之魂"
 Inst25Quest11name3 = "荒野之杖"
 
 --Quest 12 Alliance
-Inst25Quest12 = "12. 更好的材料（德鲁伊任务）"
+Inst25Quest12 = "12. 更好的材料 (德鲁伊任务)"
 Inst25Quest12_Level = "52"
 Inst25Quest12_Attain = "50"
 Inst25Quest12_Aim = "从沉没的神庙底部的守卫身上得到一些腐烂藤蔓，把它们交给托尔瓦·寻路者。"
@@ -4962,7 +5013,7 @@ Inst25Quest12name2 = " 森林的拥抱"
 Inst25Quest12name3 = "月影手杖"
 
 --Quest 13 Alliance
-Inst25Quest13 = "13. 神庙中的绿龙（猎人任务）"
+Inst25Quest13 = "13. 神庙中的绿龙 (猎人任务)"
 Inst25Quest13_Level = "52"
 Inst25Quest13_Attain = "50"
 Inst25Quest13_Aim = "将摩弗拉斯的牙齿交给艾萨拉的奥汀克。他住在埃达拉斯废墟东北部悬崖的顶端。"
@@ -4977,7 +5028,7 @@ Inst25Quest13name2 = "魔暴龙眼"
 Inst25Quest13name3 = "魔暴龙牙"
 
 --Quest 14 Alliance
-Inst25Quest14 = "14. 毁灭摩弗拉斯（法师任务）"
+Inst25Quest14 = "14. 毁灭摩弗拉斯 (法师任务)"
 Inst25Quest14_Level = "52"
 Inst25Quest14_Attain = "50"
 Inst25Quest14_Aim = "从摩弗拉斯身上取回奥术碎片，然后返回大法师克希雷姆那儿。"
@@ -4992,7 +5043,7 @@ Inst25Quest14name2 = "奥术水晶坠饰"
 Inst25Quest14name3 = "火焰宝石"
 
 --Quest 15 Alliance
-Inst25Quest15 = "15. 摩弗拉斯之血（牧师任务）"
+Inst25Quest15 = "15. 摩弗拉斯之血 (牧师任务)"
 Inst25Quest15_Level = "52"
 Inst25Quest15_Attain = "50"
 Inst25Quest15_Aim = "前往沉没的阿塔哈卡神庙，杀死绿龙摩弗拉斯，将他的血液交给费伍德森林中的格雷塔·苔蹄。沉没的神庙的入口就在悲伤沼泽中。"
@@ -5007,7 +5058,7 @@ Inst25Quest15name2 = "悲哀之杖"
 Inst25Quest15name3 = "希望之环"
 
 --Quest 16 Alliance
-Inst25Quest16 = "16. 碧蓝钥匙（盗贼任务）"
+Inst25Quest16 = "16. 碧蓝钥匙 (盗贼任务)"
 Inst25Quest16_Level = "52"
 Inst25Quest16_Attain = "50"
 Inst25Quest16_Aim = "将碧蓝钥匙交给乔拉齐·拉文霍德公爵。"
@@ -5022,7 +5073,7 @@ Inst25Quest16name2 = "耳语长靴"
 Inst25Quest16name3 = "暗色蝠斗篷"
 
 --Quest 17 Alliance
-Inst25Quest17 = "17. 铸造力量之石（圣骑士任务）"
+Inst25Quest17 = "17. 铸造力量之石 (圣骑士任务)"
 Inst25Quest17_Level = "52"
 Inst25Quest17_Attain = "50"
 Inst25Quest17_Aim = "将巫毒羽毛带给阿什拉姆·瓦罗菲斯特。"
@@ -5258,7 +5309,7 @@ Inst25Quest16name2_HORDE = Inst25Quest16name2
 Inst25Quest16name3_HORDE = Inst25Quest16name3
 
 --Quest 17 Horde
-Inst25Quest17_HORDE = "17. 远古的邪恶（圣骑士）"
+Inst25Quest17_HORDE = "17. 远古的邪恶 (圣骑士)"
 Inst25Quest17_HORDE_Level = "52"
 Inst25Quest17_HORDE_Attain = "50"
 Inst25Quest17_HORDE_Aim = "揭开阿塔哈卡神庙的秘密，释放阿塔拉利恩并击败他，从他的尸体上取走腐烂藤蔓。完成任务之后向亡灵壁垒的麦拉·黎明之刃复命。"
@@ -5401,7 +5452,7 @@ Inst27Quest3name1 = "幻法之杖"
 Inst27Quest3name2 = "晶岩肩铠"
 
 --Quest 4 Alliance
-Inst27Quest4 = "4. 耐克鲁姆的徽章（系列任务）"
+Inst27Quest4 = "4. 耐克鲁姆的徽章 (系列任务)"
 Inst27Quest4_Level = "47"
 Inst27Quest4_Attain = "40"
 Inst27Quest4_Aim = "将耐克鲁姆的徽章交给诅咒之地的萨迪斯·格希德。"
@@ -5413,7 +5464,7 @@ Inst27Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst27Quest5 = "5. 摩沙鲁的预言（系列任务）"
+Inst27Quest5 = "5. 摩沙鲁的预言 (系列任务)"
 Inst27Quest5_Level = "47"
 Inst27Quest5_Attain = "40"
 Inst27Quest5_Aim = "将第一块和第二块摩沙鲁石板交给塔纳利斯的叶基亚。"
@@ -5452,7 +5503,7 @@ Inst27Quest7name1 = "棍子上的胡萝卜"
 
 
 --Quest 1 Horde
-Inst27Quest1_HORDE = "1. 蜘蛛之神（系列任务）"
+Inst27Quest1_HORDE = "1. 蜘蛛之神 (系列任务)"
 Inst27Quest1_HORDE_Level = "45"
 Inst27Quest1_HORDE_Attain = "40"
 Inst27Quest1_HORDE_Aim = "阅读塞卡石板，了解枯木巨魔的蜘蛛之神的名字，然后回到加德林大师那里。"
@@ -5924,7 +5975,7 @@ Inst37Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst37Quest3 = "3. 悬赏：纳杉的骑鞭（英雄日常）"
+Inst37Quest3 = "3. 悬赏：纳杉的骑鞭 (英雄日常)"
 Inst37Quest3_Level = "70"
 Inst37Quest3_Attain = "70"
 Inst37Quest3_Aim = "商人扎雷姆要你进入地狱火城墙取得纳杉的骑鞭，完成任务后回到沙塔斯城贫民窟，领取你的奖赏。"
@@ -6171,7 +6222,7 @@ Inst39Quest3name3 = "纳利库的复仇"
 Inst39Quest3name4 = "警醒卫士勋章"
 
 --Quest 4 Alliance
-Inst39Quest4 = "4. 堡垒的禁锢（英雄模式）"
+Inst39Quest4 = "4. 堡垒的禁锢 (英雄模式)"
 Inst39Quest4_Level = "70"
 Inst39Quest4_Attain = "70"
 Inst39Quest4_Aim = "在艾琳娜上尉被处死之前解救她."
@@ -6182,7 +6233,7 @@ Inst39Quest4_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst39Quest5 = "5.  纳鲁的试炼：仁慈（英雄模式）"
+Inst39Quest5 = "5.  纳鲁的试炼：仁慈 (英雄模式)"
 Inst39Quest5_Level = "70"
 Inst39Quest5_Attain = "70"
 Inst39Quest5_Aim = "沙塔斯城的阿达尔要求你从地狱火堡垒的破碎大厅中取回未使用的刽子手之斧。\n\n该任务必须在英雄等级难度的地下城中完成。"
@@ -6217,7 +6268,7 @@ Inst39Quest7PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst39Quest8 = "8.  悬赏：刃拳的印记(英雄日常)"
+Inst39Quest8 = "8.  悬赏：刃拳的印记 (英雄日常)"
 Inst39Quest8_Level = "70"
 Inst39Quest8_Attain = "70"
 Inst39Quest8_Aim = "商人扎雷姆要求你夺得刃拳的印记。将印记带回沙塔斯城的贫民窟交给他，就能领取奖赏。."
@@ -6241,15 +6292,15 @@ Inst39Quest9_Folgequest = "无"
 Inst39Quest9name1 = "Ethereum Prison Key"
 
 --Quest 10 Alliance
-Inst39Quest10 = "10. Entry Into the Citadel"
+Inst39Quest10 = "10. 堡垒的钥匙 (破碎大厅钥匙任务)"
 Inst39Quest10_Level = "70"
 Inst39Quest10_Attain = "68"
-Inst39Quest10_Aim = "Bring the Primed Key Mold to Force Commander Danath at Honor Hold in Hellfire Peninsula."
-Inst39Quest10_Location = "Primed Key Mold  (drops from Smith Gorlunk in Shadowmoon Valley - Ata'mal Terrace; "..YELLOW.."68,36"..WHITE..")"
-Inst39Quest10_Note = "The Smith that drops the Primed Key Mold is easily soloable and very easily reachable with a flying mount.\n\nForce Commander Danath is at (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,67"..WHITE.."). He sends you to Grand Master Dumphry for the next part of the quest at (Hellfire Peninsula - Honor Hold; "..YELLOW.."51,60"..WHITE..")..."
-Inst39Quest10_Page = {2, "Grand Master Dumphry will ask for 4 x [Fel Iron Bar], 2 x [Arcane Dust] and 4 x [Mote of Fire].\n\nAfter turning the materials in you need to use the Charred Key Mold he gives you at the corpse of a Fel Reaver. You do not need to kill the Fel Reaver yourself, just use the mold at it.\n\nReturn to Grand Master Dumphry at (Hellfire Peninsula - Honor Hold; "..YELLOW.."51,60"..WHITE..") for your reward.", };
-Inst39Quest10_Prequest = "No"
-Inst39Quest10_Folgequest = "Yes, Grand Master Dumphry -> Hotter than Hell"
+Inst39Quest10_Aim = "将原始钥匙模具交给地狱火半岛荣耀堡的远征军指挥官达纳斯·托尔贝恩."
+Inst39Quest10_Location = "原始钥匙模具  (掉落自 铁匠戈伦克 影月谷 - 阿塔玛平台; "..YELLOW.."68,36"..WHITE..")"
+Inst39Quest10_Note = "如果你有飞行坐骑，直接飞过去，这个铁匠非常容易做掉.\n\n 达纳斯·托尔贝恩 在 (地狱火半岛 - 荣耀堡; "..YELLOW.."57,67"..WHITE.."). 下一步任务他会指使你区找铁匠达姆菲 (地狱火半岛 - 荣耀堡; "..YELLOW.."51,60"..WHITE..")..."
+Inst39Quest10_Page = {2, "铁匠达姆菲 会向你要 4 x [魔铁锭], 2 x [奥法之尘] and 4 x [火焰微粒].\n\n交完物品之后，他会叫你杀死魔能机甲，在魔能机甲的尸体上使用未铸成的钥匙. 然后交还给他他就会给你破碎大厅的钥匙了", };
+Inst39Quest10_Prequest = "无"
+Inst39Quest10_Folgequest = "有, 大师级铁匠达姆菲 -> 比地域更炎热"
 --
 Inst39Quest10name1 = "Shattered Halls Key"
 
@@ -6281,7 +6332,7 @@ Inst39Quest2name3_HORDE = "Conquerer's Band"
 Inst39Quest2name4_HORDE = "Maimfist's Choker"
 
 --Quest 3 Horde
-Inst39Quest3_HORDE = "3. 堡垒的禁锢(英雄模式)"
+Inst39Quest3_HORDE = "3. 堡垒的禁锢 (英雄模式)"
 Inst39Quest3_HORDE_Level = "70"
 Inst39Quest3_HORDE_Attain = "70"
 Inst39Quest3_HORDE_Aim = "在碎骨队长被处决前解救他"
@@ -6339,7 +6390,7 @@ Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
 Inst39Quest7name1_HORDE = Inst39Quest8name1
 
 --Quest 8 Horde  (same as Quest 9 Alliance)
-Inst39Quest8_HORDE = "8. 悬赏：碎手百夫长  (普通日常)"
+Inst39Quest8_HORDE = "8. 悬赏：碎手百夫长 (普通日常)"
 Inst39Quest8_HORDE_Level = Inst39Quest9_Level
 Inst39Quest8_HORDE_Attain = Inst39Quest9_Attain
 Inst39Quest8_HORDE_Aim = Inst39Quest9_Aim
@@ -6351,15 +6402,15 @@ Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
 Inst39Quest8name1_HORDE = Inst39Quest9name1
 
 --Quest 9 Horde
-Inst39Quest9_HORDE = "9. Entry Into the Citadel"
+Inst39Quest9_HORDE = "9. 堡垒的钥匙 (破碎大厅钥匙任务)"
 Inst39Quest9_HORDE_Level = "70"
 Inst39Quest9_HORDE_Attain = "68"
-Inst39Quest9_HORDE_Aim = "Bring the Primed Key Mold to Nazgrel at Thrallmar in Hellfire Peninsula."
-Inst39Quest9_HORDE_Location = "Primed Key Mold  (drops from Smith Gorlunk in Shadowmoon Valley - Ata'mal Terrace; "..YELLOW.."68,36"..WHITE..")"
-Inst39Quest9_HORDE_Note = "The Smith that drops the Primed Key Mold is easily soloable and very easily reachable with a flying mount.\n\nNazgrel is at (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE.."). He sends you to Grand Master Rohok for the next part of the quest at (Hellfire Peninsula - Thrallmar; "..YELLOW.."53,38"..WHITE..")..."
-Inst39Quest9_HORDE_Page = {2, "Grand Master Rohok will ask for 4 x [Fel Iron Bar], 2 x [Arcane Dust] and 4 x [Mote of Fire].\n\nAfter turning the materials in you need to use the Charred Key Mold he gives you at the corpse of a Fel Reaver. You do not need to kill the Fel Reaver yourself, just use the mold at it.\n\nReturn to Grand Master Rohok at (Hellfire Peninsula - Thrallmar; "..YELLOW.."53,38"..WHITE..") for your reward.", };
-Inst39Quest9_HORDE_Prequest = "No"
-Inst39Quest9_HORDE_Folgequest = "Yes, Grand Master Rohok -> Hotter than Hell"
+Inst39Quest9_HORDE_Aim = "将原始钥匙模具交给萨尔玛的纳兹格雷尔."
+Inst39Quest9_HORDE_Location = "原始钥匙模具  (掉落自 铁匠戈伦克 影月谷 - 阿塔玛平台; "..YELLOW.."68,36"..WHITE..")"
+Inst39Quest9_HORDE_Note = "如果你有飞行坐骑，直接飞过去，这个铁匠非常容易做掉.\n\n 纳兹格雷尔 在 (地狱火半岛 - 萨尔玛; "..YELLOW.."57,67"..WHITE.."). 下一步任务他会指使你区找铁匠罗霍克 (地狱火半岛 - 萨尔玛; "..YELLOW.."55,36"..WHITE..")..."
+Inst39Quest9_HORDE_Page = {2, "铁匠罗霍克 会向你要 4 x [魔铁锭], 2 x [奥法之尘] and 4 x [火焰微粒].\n\n交完物品之后，他会叫你杀死魔能机甲，在魔能机甲的尸体上使用未铸成的钥匙. 然后交还给他他就会给你破碎大厅的钥匙了", };
+Inst39Quest9_HORDE_Prequest = "无"
+Inst39Quest9_HORDE_Folgequest = "有, 铁匠罗霍克 -> 比地狱更炎热"
 --
 Inst39Quest9name1_HORDE = "Shattered Halls Key"
 
@@ -6694,7 +6745,7 @@ Inst42Quest2_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst42Quest3 = "3. 纳鲁的试炼 ：力量(英雄模式)"
+Inst42Quest3 = "3. 纳鲁的试炼 ：力量 (英雄模式)"
 Inst42Quest3_Level = "70"
 Inst42Quest3_Attain = "70"
 Inst42Quest3_Aim = "沙塔斯城的阿达尔要求你取回卡利瑟里斯的三叉戟和摩摩尔的精华。"
@@ -8693,7 +8744,7 @@ Inst54Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst54Quest3 = "3.纳鲁的试炼：坚韧（英雄难度）"
+Inst54Quest3 = "3.纳鲁的试炼：坚韧 (英雄难度)"
 Inst54Quest3_Level = "70"
 Inst54Quest3_Attain = "70"
 Inst54Quest3_Aim = "沙塔斯城的阿达尔要求你从风暴要塞的禁魔监狱中救出米尔豪斯·法力风暴."
@@ -9245,7 +9296,7 @@ Inst59QAA = "1 个任务"
 Inst59QAH = "3 个任务"
 
 --Quest 1 Alliance
-Inst59Quest1 = "1. 召唤无头骑士（日常 - 季节性）"
+Inst59Quest1 = "1. 召唤无头骑士 (日常 - 季节性)"
 Inst59Quest1_Level = "70"
 Inst59Quest1_Attain = "70"
 Inst59Quest1_Aim = "将一根悲伤蜡烛插入翻过的泥土。"
