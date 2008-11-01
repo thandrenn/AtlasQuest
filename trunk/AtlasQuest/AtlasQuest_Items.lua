@@ -5491,7 +5491,23 @@ Inst56Quest4ID1_HORDE = "29460"
 Inst61Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst61Quest2Rewardtext = AQNoReward
+Inst61Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst61Quest2ITC1 = Itemc5;
+Inst61Quest2description1 = AQITEM_NECK
+Inst61Quest2ID1 = "30015"
+--ITEM2
+Inst61Quest2ITC2 = Itemc5;
+Inst61Quest2description2 = AQITEM_NECK
+Inst61Quest2ID2 = "30007"
+--ITEM3
+Inst61Quest2ITC3 = Itemc5;
+Inst61Quest2description3 = AQITEM_NECK
+Inst61Quest2ID3 = "30018"
+--ITEM4
+Inst61Quest2ITC4 = Itemc5;
+Inst61Quest2description4 = AQITEM_NECK
+Inst61Quest2ID4 = "30017"
 
 --Quest 3 Alliance
 Inst61Quest3Rewardtext = AQNoReward
@@ -5500,8 +5516,24 @@ Inst61Quest3Rewardtext = AQNoReward
 --Quest 1 Horde
 Inst61Quest1Rewardtext_HORDE = AQNoReward
 
---Quest 2 Horde
-Inst61Quest2Rewardtext_HORDE = AQNoReward
+--Quest 2 Alliance
+Inst61Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst61Quest2ITC1_HORDE = Itemc5;
+Inst61Quest2description1_HORDE = AQITEM_NECK
+Inst61Quest2ID1_HORDE = "30015"
+--ITEM2
+Inst61Quest2ITC2_HORDE = Itemc5;
+Inst61Quest2description2_HORDE = AQITEM_NECK
+Inst61Quest2ID2_HORDE = "30007"
+--ITEM3
+Inst61Quest2ITC3_HORDE = Itemc5;
+Inst61Quest2description3_HORDE = AQITEM_NECK
+Inst61Quest2ID3_HORDE = "30018"
+--ITEM4
+Inst61Quest2ITC4_HORDE = Itemc5;
+Inst61Quest2description4_HORDE = AQITEM_NECK
+Inst61Quest2ID4_HORDE = "30017"
 
 --Quest 3 Horde
 Inst61Quest3Rewardtext_HORDE = AQNoReward

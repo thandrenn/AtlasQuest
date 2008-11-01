@@ -9063,7 +9063,11 @@ Inst61Quest2_Location = "Verdant Sphere (drops from Kael'thas Sunstrider at "..Y
 Inst61Quest2_Note = "A'dal is at (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")."
 Inst61Quest2_Prequest = "No"
 Inst61Quest2_Folgequest = "No"
--- No Rewards for this quest
+--
+Inst61Quest2name1 = "The Sun King's Talisman"
+Inst61Quest2name2 = "The Darkener's Grasp"
+Inst61Quest2name3 = "Lord Sanguinar's Claim"
+Inst61Quest2name4 = "Telonicus's Pendant of Mayhem"
 
 --Quest 3 Alliance
 Inst61Quest3 = "3. The Vials of Eternity"
@@ -9098,7 +9102,11 @@ Inst61Quest2_HORDE_Location = Inst61Quest2_Location
 Inst61Quest2_HORDE_Note = Inst61Quest2_Note
 Inst61Quest2_HORDE_Prequest = Inst61Quest2_Prequest
 Inst61Quest2_HORDE_Folgequest = Inst61Quest2_Folgequest
--- No Rewards for this quest
+--
+Inst61Quest2name1_HORDE = Inst61Quest2name1
+Inst61Quest2name2_HORDE = Inst61Quest2name2
+Inst61Quest2name3_HORDE = Inst61Quest2name3
+Inst61Quest2name4_HORDE = Inst61Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst61Quest3_HORDE = Inst61Quest3

@@ -2,18 +2,21 @@
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
-## Title-zhCN: AtlasQuest 副本任务查询
+## Title-zhCN: AtlasQuest
+## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest
 ## Notes: Shows the Quests for the instance.
 ## Notes-deDE: Zeigt die Quests, die es f\195\188r die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
-## Notes-zhCN: Atlas插件，在Atlas面板上显示副本相关任务及副本背景等.
+## Notes-zhCN: Shows the Quests for the instance.
+## Notes-zhTW: 顯示副本背景故事、相關任務及BOSS攻略提示
 ## Author: Thandrenn
 ## Original Author: Asurn
 ## Updated by: Loather
 ## Updated by: Rabidmax
 ## Updated by: Thandrenn (aka Mystery8)
+## Updated by: Jill
 ## CLI by: Dazerdude
-## Version: 4.2.0
+## Version: 4.2.1 Beta
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP
