@@ -2,6 +2,16 @@
 Changelog
 =========
 
+Version 4.2.1 Beta
+
+- Added new Traditional Chinese localization by Jill! Thanks!
+- Simplified Chinese localization updates and ReadMe by yeachan.
+
+- Fixes:
+	- Added rewards for TK: The Eye: Kael'thas and the Verdant Sphere
+
+
+
 Version 4.2.0
 
 - Minor changes to work with Patch 3.0.2.
