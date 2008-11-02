@@ -1,4 +1,5 @@
 ﻿AtlasQuest
+
 更新：Thandrenn (Mystery8)
 电邮：mystery8@gmail.com
 论坛：http://www.atlasmod.com/phpBB3/viewforum.php?f=7
@@ -15,7 +16,8 @@ AtlasQuest的原作者是Asurn，现在由Thandren(亦称Mystery8) 维护更新�
 =================
 英语：Thandrenn (原由 Asurn 和 lothaer 更新)
 德语：Telchar 和 Nalumis(原由 Asurn 和 Nihlo 更新)
-中文：yeachan 和 Ananhaid(原由DIY更新)
+中文(简)：yeachan 和 Ananhaid(原由DIY更新)
+中文(繁)：Jill
 
 
 授权许可:

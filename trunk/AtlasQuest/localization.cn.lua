@@ -9374,7 +9374,11 @@ Inst61Quest2_Location = "翠绿的魔珠 (掉落)"
 Inst61Quest2_Note = "翠绿的魔珠由 凯尔萨斯 逐日者掉落"..YELLOW.."[4]"..WHITE.."."
 Inst61Quest2_Prequest = "无"
 Inst61Quest2_Folgequest = "无"
--- No Rewards for this quest
+--
+Inst61Quest2name1 = "The Sun King's Talisman"
+Inst61Quest2name2 = "The Darkener's Grasp"
+Inst61Quest2name3 = "Lord Sanguinar's Claim"
+Inst61Quest2name4 = "Telonicus's Pendant of Mayhem"
 
 --Quest 3 Alliance
 Inst61Quest3 = "3. 永恒水瓶"
@@ -9409,7 +9413,11 @@ Inst61Quest2_HORDE_Location = Inst61Quest2_Location
 Inst61Quest2_HORDE_Note = Inst61Quest2_Note
 Inst61Quest2_HORDE_Prequest = Inst61Quest2_Prequest
 Inst61Quest2_HORDE_Folgequest = Inst61Quest2_Folgequest
--- No Rewards for this quest
+--
+Inst61Quest2name1_HORDE = Inst61Quest2name1
+Inst61Quest2name2_HORDE = Inst61Quest2name2
+Inst61Quest2name3_HORDE = Inst61Quest2name3
+Inst61Quest2name4_HORDE = Inst61Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst61Quest3_HORDE = Inst61Quest3
