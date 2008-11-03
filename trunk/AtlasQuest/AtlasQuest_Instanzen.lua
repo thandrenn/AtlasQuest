@@ -207,6 +207,10 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 68;
 
 
+	-- Wrath of the Lich King Instances
+
+
+
 	-- Battlegrounds
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\AlteracValleyNorth") then
@@ -428,6 +432,10 @@ function AtlasQuest_InstanzencheckAM()
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\SunwellPlateau") then
 		AQINSTANZ = 68;
+
+
+	-- Wrath of the Lich King Instances
+
 
 
 	-- Battlegrounds

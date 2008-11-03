@@ -9,6 +9,11 @@ Version 4.2.1 Beta
 
 - Fixes:
 	- Added rewards for TK: The Eye: Kael'thas and the Verdant Sphere
+	- Changed display font to Blizzard default to prevent problems with CN and TW clients. (Thanks Jill)
+
+- Quests added:
+	- Karazhan: Chamber of Secrets
+
 
 
 

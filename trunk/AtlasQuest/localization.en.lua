@@ -8271,8 +8271,8 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 
 Inst53Story = "The decrepit tower of Karazhan once housed one of the greatest powers Azeroth has ever known: the sorcerer Medivh.\n\nSince his death, a terrible curse has pervaded the tower and the surrounding lands.\n\nThe spirits of nobles from nearby Darkshire reportedly walk its halls, suffering a fate worse than death for their curiosity.\n\nMore dangerous spirits wait within Medivh's study, for it was there that he summoned demonic entities to do his bidding.\n\nHowever, the brave and foolish are still relentlessly drawn to Karazhan, tempted by rumors of unspeakable secrets and powerful treasures.\n\nForge a group of ten stalwart heroes, and journey to the tower in Deadwind Pass - but be warned that only those who have achieved level 70 should dare enter."
 Inst53Caption = "Karazhan"
-Inst53QAA = "14 Quests"
-Inst53QAH = "14 Quests"
+Inst53QAA = "15 Quests"
+Inst53QAH = "15 Quests"
 
 --Quest 1 Alliance
 Inst53Quest1 = "1. Assessing the Situation"
@@ -8444,6 +8444,18 @@ Inst53Quest14_Prequest = "No"
 Inst53Quest14_Folgequest = "No"
 -- No Rewards for this quest
 
+--Quest 15 Alliance
+Inst53Quest15 = "15. Chamber of Secrets"
+Inst53Quest15_Level = "70"
+Inst53Quest15_Attain = "70"
+Inst53Quest15_Aim = "The Argent Dawn Emissary wants you to search the chamber of Tenris Mirkblood within the Servant's Quarters of Karazhan."
+Inst53Quest15_Location = "Argent Dawn Emissary  (Capital Cities and Eastern Plaguelands - Light's Hope Chapel)"
+Inst53Quest15_Note = "This quest was only available during the Scourge Invasion Event in Late October and Early November of 2008.\n\nTo complete the quest, use the scrolls behind Prince Tenris Mirkblood, who is in the Servants Chambers above Attumen the Huntsmen ("..YELLOW.."[5]"..WHITE.."). As with opening a chest, if another player is using the scrolls your quest might not complete. Try again until it does."
+Inst53Quest15_Prequest = "No"
+Inst53Quest15_Folgequest = "No"
+--
+Inst53Quest15name1 = "Monster Slayer's Kit"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst53Quest1_HORDE = Inst53Quest1
@@ -8614,6 +8626,18 @@ Inst53Quest14_HORDE_Note = Inst53Quest14_Note
 Inst53Quest14_HORDE_Prequest = Inst53Quest14_Prequest
 Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
 -- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst53Quest15_HORDE = Inst53Quest15
+Inst53Quest15_HORDE_Level = Inst53Quest15_Level
+Inst53Quest15_HORDE_Attain = Inst53Quest15_Attain
+Inst53Quest15_HORDE_Aim = Inst53Quest15_Aim
+Inst53Quest15_HORDE_Location = Inst53Quest15_Location
+Inst53Quest15_HORDE_Note = Inst53Quest15_Note
+Inst53Quest15_HORDE_Prequest = Inst53Quest15_Prequest
+Inst53Quest15_HORDE_Folgequest = Inst53Quest15_Folgequest
+--
+Inst53Quest15name1_HORDE = Inst55Quest13name1
 
 
 
