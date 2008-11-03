@@ -1422,6 +1422,7 @@ Inst53Quest11_QuestID = "9631"
 Inst53Quest12_QuestID = "9637"
 Inst53Quest13_QuestID = "9644"
 Inst53Quest14_QuestID = "10901"
+Inst53Quest15_QuestID = "12616"
 
 Inst53Quest1_HORDE_QuestID = "9840"
 Inst53Quest2_HORDE_QuestID = "9843"
@@ -1437,6 +1438,7 @@ Inst53Quest11_HORDE_QuestID = "9631"
 Inst53Quest12_HORDE_QuestID = "9637"
 Inst53Quest13_HORDE_QuestID = "9644"
 Inst53Quest14_HORDE_QuestID = "10901"
+Inst53Quest15_HORDE_QuestID = "12616"
 
 
 AQ_9840_Level = "70"
@@ -1453,6 +1455,7 @@ AQ_9631_Level = "70"
 AQ_9637_Level = "70"
 AQ_9644_Level = "70"
 --AQ_10901_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
+AQ_12616_Level = "70"
 
 
 

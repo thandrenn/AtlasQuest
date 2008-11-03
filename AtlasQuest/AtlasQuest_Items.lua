@@ -5151,6 +5151,13 @@ Inst53Quest13ID3 = "31116"
 --Quest 14 Alliance
 Inst53Quest14Rewardtext = AQNoReward
 
+--Quest 15 Alliance
+Inst53Quest15Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst53Quest15ITC1 = Itemc4;
+Inst53Quest15description1 = AQITEM_TRINKET
+Inst53Quest15ID1 = "40354"
+
 
 --Quest 1 Horde
 Inst53Quest1Rewardtext_HORDE = AQNoReward
@@ -5209,6 +5216,13 @@ Inst53Quest13ID3_HORDE = "31116"
 
 --Quest 14 Horde
 Inst53Quest14Rewardtext_HORDE = AQNoReward
+
+--Quest 15 Horde
+Inst53Quest15Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst53Quest15ITC1_HORDE = Itemc4;
+Inst53Quest15description1_HORDE = AQITEM_TRINKET
+Inst53Quest15ID1_HORDE = "40354"
 
 
 
