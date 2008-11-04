@@ -8,8 +8,10 @@ Version 4.2.1 Beta
 - Simplified Chinese localization updates and ReadMe by yeachan.
 
 - Fixes:
-	- Added rewards for TK: The Eye: Kael'thas and the Verdant Sphere
 	- Changed display font to Blizzard default to prevent problems with CN and TW clients. (Thanks Jill)
+	- Added rewards for TK: The Eye: Kael'thas and the Verdant Sphere
+	- Updated notes for Steamvaults: Underworld Loam. Quest item now drops on Heroic too.
+	- Updated notes for Shattered Halls: Tear of the Earthmother . Quest item now drops on Heroic too.
 
 - Quests added:
 	- Karazhan: Chamber of Secrets

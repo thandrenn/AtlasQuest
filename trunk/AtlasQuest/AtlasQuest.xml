@@ -270,7 +270,7 @@
    </Frames>
    <Layers>
     <Layer level="ARTWORK">
-     <FontString name="AQCaptionOptionTEXT" inherits="SystemFont">
+     <FontString name="AQCaptionOptionTEXT" inherits="GameFontNormalLarge">
        <Size>
          <AbsDimension x="300" y="25"/>
        </Size>
