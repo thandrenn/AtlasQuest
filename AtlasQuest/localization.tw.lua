@@ -21,8 +21,20 @@
 
 --]]
 
--- Translated in Traditional Chinese by Jill〈世界之樹※天命之誓※娗宮羽）
--- Last Updated: 2008-10-26
+
+--[[
+
+	Traditional Chinese Translated by Jill
+	「世界之樹※天命之誓※娗宮羽」繁體中文化
+	Last Updated: 2008-11-04
+	最後更新﹕二○○八年十一月四日
+	Added rewards for TK: The Eye: Kael'thas and the Verdant Sphere
+	新增 風暴要塞–凱爾薩斯和嫩綠球體 任務獎勵
+	Quest added: Karazhan: Chamber of Secrets
+	新增 卡拉贊–滿載秘密的房間 任務
+
+--]]
+
 
 if ( GetLocale() == "zhTW" ) then
 ---------------
@@ -50,13 +62,13 @@ AQOptionsCaptionTEXT = "AtlasQuest 選項";
 AQ_OK = "確定"
 
 -- Autoshow
-AQOptionsAutoshowTEXT = ""..WHITE.."伴隨"..RED.."Atlas"..WHITE.."打開 AtlasQuest 面板。";
+AQOptionsAutoshowTEXT = ""..WHITE.."伴隨 "..RED.."Atlas"..WHITE.." 打開 AtlasQuest 面板。";
 AQAtlasAutoON = "當你打開 Atlas 時，AtlasQuest 面板現在會自動顯示"..GREEN.."（預設）"
 AQAtlasAutoOFF = "當你打開 Atlas 時，AtlasQuest 面板"..RED.."不會"..WHITE.."自動顯示"
 
 -- Right/Left
-AQOptionsLEFTTEXT = ""..WHITE.."AtlasQuest 面板顯示位置在"..RED.."左"..WHITE..".";
-AQOptionsRIGHTTEXT = ""..WHITE.."AtlasQuest 面板顯示位置在"..RED.."右"..WHITE..".";
+AQOptionsLEFTTEXT = ""..WHITE.."AtlasQuest 面板顯示位置在"..RED.."左"..WHITE.."。";
+AQOptionsRIGHTTEXT = ""..WHITE.."AtlasQuest 面板顯示位置在"..RED.."右"..WHITE.."。";
 AQShowRight = "在"..RED.."右側"..WHITE.."顯示 AtlasQuest 面板";
 AQShowLeft = "在"..RED.."左側"..WHITE.."顯示 AtlasQuest 面板"..GREEN.."（預設）";
 
@@ -66,7 +78,7 @@ AQCCON = "AtlasQuest 現在根據任務等級顯示任務顏色。"
 AQCCOFF = "AtlasQuest 現在不根據任務等級顯示任務顏色。"
 
 -- QuestLog Colour Check
-AQQLColourChange = ""..WHITE.."將你任務日誌已擁有的任務顯示為"..BLUE.."藍色。"
+AQQLColourChange = ""..WHITE.."將任務日誌中的任務顯示為"..BLUE.."藍色。"
 
 -- AutoQuery Quest Rewards
 AQOptionsAutoQueryTEXT = ""..WHITE.."在伺服器中自動搜索任務獎勵中你未見過的物品。"
@@ -85,7 +97,7 @@ AQSERVERASK = "在伺服器上搜尋："
 AQERRORNOTSHOWN = "此物品不安全！"
 AQERRORASKSERVER = "要按右鍵在伺服器上查詢嗎？你可能會斷線。"
 AQOptionB = "選項"
-AQStoryB = "副本簡介"
+AQStoryB = "故事"
 AQNoReward = ""..BLUE.." 沒有獎勵"
 AQDiscription_OR = ""..GREY.." 或 "..WHITE..""
 AQDiscription_AND = ""..GREY.." 和 "..WHITE..""
@@ -8516,6 +8528,18 @@ Inst53Quest14_Prequest = "無"
 Inst53Quest14_Folgequest = "無"
 -- No Rewards for this quest
 
+--Quest 15 Alliance
+Inst53Quest15 = "15. 滿載秘密的房間"
+Inst53Quest15_Level = "70"
+Inst53Quest15_Attain = "70"
+Inst53Quest15_Aim = "銀色黎明大使要你到卡拉贊的佣人區去，搜索坦瑞斯．暗血的房間。"
+Inst53Quest15_Location = "銀色黎明大使（各種族主城以及東瘟疫之地 - 聖光之願禮拜堂）"
+Inst53Quest15_Note = "這個任務只有在2008年10月底至11月初的天譴入侵事件期間才會出現。\n\n要完成這個任務，你必須調查位在獵人阿圖曼上方的佣人房("..YELLOW.."[5]"..WHITE..")中，坦瑞斯．暗血王子身後的捲軸。每個人都必須確實調查捲軸以完成任務。"
+Inst53Quest15_Prequest = "無"
+Inst53Quest15_Folgequest = "無"
+--
+Inst53Quest15name1 = "怪物殺戮者工具包"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst53Quest1_HORDE = Inst53Quest1
@@ -8686,6 +8710,18 @@ Inst53Quest14_HORDE_Note = Inst53Quest14_Note
 Inst53Quest14_HORDE_Prequest = Inst53Quest14_Prequest
 Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
 -- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst53Quest15_HORDE = Inst53Quest15
+Inst53Quest15_HORDE_Level = Inst53Quest15_Level
+Inst53Quest15_HORDE_Attain = Inst53Quest15_Attain
+Inst53Quest15_HORDE_Aim = Inst53Quest15_Aim
+Inst53Quest15_HORDE_Location = Inst53Quest15_Location
+Inst53Quest15_HORDE_Note = Inst53Quest15_Note
+Inst53Quest15_HORDE_Prequest = Inst53Quest15_Prequest
+Inst53Quest15_HORDE_Folgequest = Inst53Quest15_Folgequest
+--
+Inst53Quest15name1_HORDE = Inst55Quest13name1
 
 
 
@@ -9379,7 +9415,11 @@ Inst61Quest2_Location = "嫩綠球體（凱爾薩斯掉落 - 風暴要塞; "..YE
 Inst61Quest2_Note = "阿達歐（撒塔斯城 - 聖光露臺; "..YELLOW.."53, 43"..WHITE.."）"
 Inst61Quest2_Prequest = "無"
 Inst61Quest2_Folgequest = "無"
--- No Rewards for this quest
+--
+Inst61Quest2name1 = "太陽王的咒符"
+Inst61Quest2name2 = "晦暗者之握"
+Inst61Quest2name3 = "桑古納爾領主的頸鏈"
+Inst61Quest2name4 = "泰隆尼卡斯的暴行墜飾"
 
 --Quest 3 Alliance
 Inst61Quest3 = "3. 永恆之瓶"
@@ -9726,7 +9766,7 @@ Inst63Quest8name1_HORDE = Inst63Quest8name1
 
 --------------- INST67 - Magisters' Terrace (MgT) ---------------
 
-Inst67Story = "博學者殿堂，是凱爾薩斯王子在奎爾達納斯島的領地。經歷了風暴要塞的失敗之後，很多人以為這位高貴的血精靈之王已然身死，但是他卻被更為強大的能量復活了。但是如今的凱爾薩斯已經面目全非，胸口那塊散發詭異顏色的綠色水晶讓他變得邪氣十足。唯一沒變的，是他為了追逐更強能量的信念……"
+Inst67Story = "博學者殿堂，是凱爾薩斯王子在奎爾達納斯島的領地。經歷了風暴要塞的失敗，很多人以為這位高貴的血精靈王子已香消玉殞，但他卻被更為強大的力量復活了。今天，凱爾薩斯已經面目全非，胸口那塊散發著詭異光芒的綠色水晶讓他變得邪氣十足。唯一不變的，是他追逐更強能量的信念……"
 Inst67Caption = "博學者殿堂"
 Inst67QAA = "5 個任務"
 Inst67QAH = "5 個任務"
