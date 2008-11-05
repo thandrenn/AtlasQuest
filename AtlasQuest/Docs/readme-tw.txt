@@ -1,54 +1,54 @@
-﻿
+
 
 AtlasQuest
-Thandrenn¡}¥çºÙ Mystery8¡~¬ãµoºûÅ@
-¨Ó¨ç½Ð±H mystery8@gmail.com
-±MÄÝ½×¾Â http://www.atlasmod.com/phpBB3/viewforum.php?f=7
+Thandrenn﹙亦名 Mystery8﹚研發維護
+來函請寄 mystery8@gmail.com
+專屬論壇 http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 
 
 
-Ãö©ó AtlasQuest ¡G
+關於 AtlasQuest ：
 ==================
 
-AtlasQuest ¬O¤@­ÓªþÄÝ©ó Atlas ©Î AlphaMap ªº´¡¥ó¡C
-¥¦¯à¦C¥X¦U¦a«°¡N¾Ô³õ¤Î³¥¥~­º»âªº¬ÛÃö¥ô°È¸ê°T¤Î¨ä¼úÀy¡C
-¨Ã¯àÀ°§U§A¤F¸Ñ¦U¦a«°­I´º¬G¨Æ¤Î­º»â§ð²¤¾Ô³N¡MÅý§A¦b«_ÀI®É§ó¦³·PÄ±§ó±o¤ßÀ³¤â¡C
+AtlasQuest 是一個附屬於 Atlas 或 AlphaMap 的插件。
+它能列出各地城﹑戰場及野外首領的相關任務資訊及其獎勵。
+並能幫助你了解各地城背景故事﹐讓你在冒險時更有感覺。
 
-AtlasQuest ³Ìªì¥Ñ Asurn ¬ãµo¡C
-¥Ø«e«h¥Ñ Thandrenn¡}¥çºÙ Mystery8¡~±µÄòºûÅ@µo®i¡C
+AtlasQuest 最初由 Asurn 研發。
+目前則由 Thandrenn﹙亦名 Mystery8﹚接續維護發展。
 
 
 
-¦U»y¨¥Â½Ä¶ªÌ¡G
+各語言翻譯者：
 ==============
 
-¡@¡@­^¤å¡RThandrenn¡}«e¬° Asurn ¤Î Lothaer¡~
-¡@¡@¼w¤å¡RTelchar »P Nalumis¡}«e¬° Asurn ¤Î Nihlo¡~
-Â²Åé¤¤¤å¡Ryeachan¡}«e¬° DIY¡~
-ÁcÅé¤¤¤å¡RJill
+　　英文﹕Thandrenn﹙前為 Asurn 及 Lothaer﹚
+　　德文﹕Telchar 與 Nalumis﹙前為 Asurn 及 Nihlo﹚
+簡體中文﹕yeachan﹙前為 DIY﹚
+繁體中文﹕Jill
 
 
 
-±ÂÅv¨óÄ³¡G
+授權協議：
 ==========
 
-AtlasQuest °ò©ó GNU³q¥Î¤½¦@³\¥iÃÒ¡}GPL¡~¤½¶}µoªí¡C
-§¹¾ã±ÂÅv¤å¥»¸Ô¾\¡Rgpl-v2-tw.txt¡C
+AtlasQuest 基於 GNU通用公共許可證﹙GPL﹚公開發表。
+完整授權文本詳閱﹕gpl-v2-tw.txt。
 
 
 
-ÁcÅé¤¤¤å¤Æ§ó·s¼i¾ú¡G
+繁體中文化更新履歷：
 ====================
 
-2008¦~11¤ë 4¤é¡@AtlasQuest v4.2.1
-¡@¡@¡@¡@¡@¡@¡@¡@·s¼W¡@¥d©ÔÃÙ¡Vº¡¸ü¯µ±Kªº©Ð¶¡¡@¥ô°È
-¡@¡@¡@¡@¡@¡@¡@¡@·s¼W¡@­·¼É­n¶ë¡V³Íº¸ÂÄ´µ©M¹àºñ²yÅé¡@¥ô°È¼úÀy
+2008年11月 4日　AtlasQuest v4.2.1
+　　　　　　　　新增　卡拉贊–滿載秘密的房間　任務
+　　　　　　　　新增　風暴要塞–凱爾薩斯和嫩綠球體　任務獎勵
 
-2008¦~10¤ë26¤é¡@AtlasQuest v4.2.0 ÁcÅé¤¤¤å¤Æ§¹¦¨
-¡@¡@¡@¡@¡@¡@¡@¡@·s¼W¡@¶Â¥Û²`²W¡V°à°s¸`¡@¬ÛÃö¥ô°È
-¡@¡@¡@¡@¡@¡@¡@¡@·s¼W¡@ÂÂ§Æº¸´µ¥¬µÜ¼w¥C³®¡V­ð¥d¬¥´µ¡@¥ô°È
-¡@¡@¡@¡@¡@¡@¡@¡@·s¼W¡@¯Ç§JÂÄº¿´µ¡@¥ô°È¤@«h
+2008年10月26日　AtlasQuest v4.2.0 繁體中文化完成
+　　　　　　　　新增　黑石深淵–啤酒節　相關任務
+　　　　　　　　新增　舊希爾斯布萊德丘陵–唐卡洛斯　任務
+　　　　　　　　新增　納克薩瑪斯　任務一則
 
-2008¦~ 8¤ë20¤é¡@AtlasQuest v4.1.2 ÁcÅé¤¤¤å¤Æ§¹¦¨
+2008年 8月20日　AtlasQuest v4.1.2 繁體中文化完成
 
-2008¦~ 7¤ë¤¤¦¯¡@AtlasQuest v4.1.2 ÁcÅé¤¤¤å¤Æ¶}©l
+2008年 7月中旬　AtlasQuest v4.1.2 繁體中文化開始
