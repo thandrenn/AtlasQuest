@@ -21,11 +21,9 @@
 
 --]]
 
--- A CWDG Present
-
 -- Localization for WotLK China by Yeachan(6区 阿拉希 “缘玥”公会 Ahunter）
 -- Email：zhengguo@live.com
--- Last update: 2008-10-16
+-- Last update: 2008-11-06
 
 -- Localization for TBC China by Yeachan and Ananhaid（2区 伊利丹“紫雪之都”公会 NovaLOG）
 -- Email：ananhaid@gmail.com
@@ -8295,8 +8293,8 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 
 Inst53Story = "麦迪文之塔以艾泽拉斯伟大的魔法师--先知麦迪文而闻名天下.\n\n他死后，一场突如其来的巨大灾难降临在这和周边的土地上.\n\n近几年来，一些暮色森林的贵族曾冒险去逆风小径探险并调查弥漫在那一带的奇异的死亡气息。他们进入了黑暗中的高塔，却再有没有回来.\n\n事实上，一些目击者坚称那些贵族们的亡魂依然徘徊在卡拉赞之内，痛苦地忍受着诅咒的折磨，他们将永远也无法离开塔中的支离破碎的大厅。另有一些其他的亡魂占据了夕日麦迪文那间令人毛骨悚然的研究室，那里充满了恶魔对于疯狂法师召唤的回应。\n\n坐落在逆风小径的这个副本是10人的70级团队副本."
 Inst53Caption = "卡拉赞"
-Inst53QAA = "14 个任务"
-Inst53QAH = "14 个任务"
+Inst53QAA = "15 个任务"
+Inst53QAH = "15 个任务"
 Inst53General = {
     {
     "猎手阿图门",
@@ -8511,6 +8509,17 @@ Inst53Quest14_Prequest = "无"
 Inst53Quest14_Folgequest = "无"
 -- No Rewards for this quest
 
+--Quest 15 Alliance
+Inst53Quest15 = "15. Chamber of Secrets"
+Inst53Quest15_Level = "70"
+Inst53Quest15_Attain = "70"
+Inst53Quest15_Aim = "The Argent Dawn Emissary wants you to search the chamber of Tenris Mirkblood within the Servant's Quarters of Karazhan."
+Inst53Quest15_Location = "Argent Dawn Emissary  (Capital Cities and Eastern Plaguelands - Light's Hope Chapel)"
+Inst53Quest15_Note = "This quest was only available during the Scourge Invasion Event in Late October and Early November of 2008.\n\nTo complete the quest, use the scrolls behind Prince Tenris Mirkblood, who is in the Servants Chambers above Attumen the Huntsmen ("..YELLOW.."[5]"..WHITE.."). As with opening a chest, if another player is using the scrolls your quest might not complete. Try again until it does."
+Inst53Quest15_Prequest = "No"
+Inst53Quest15_Folgequest = "No"
+--
+Inst53Quest15name1 = "Monster Slayer's Kit"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst53Quest1_HORDE = Inst53Quest1
@@ -8682,7 +8691,17 @@ Inst53Quest14_HORDE_Prequest = Inst53Quest14_Prequest
 Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
 -- No Rewards for this quest
 
-
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst53Quest15_HORDE = Inst53Quest15
+Inst53Quest15_HORDE_Level = Inst53Quest15_Level
+Inst53Quest15_HORDE_Attain = Inst53Quest15_Attain
+Inst53Quest15_HORDE_Aim = Inst53Quest15_Aim
+Inst53Quest15_HORDE_Location = Inst53Quest15_Location
+Inst53Quest15_HORDE_Note = Inst53Quest15_Note
+Inst53Quest15_HORDE_Prequest = Inst53Quest15_Prequest
+Inst53Quest15_HORDE_Folgequest = Inst53Quest15_Folgequest
+--
+Inst53Quest15name1_HORDE = Inst55Quest13name1
 
 --------------- INST54 - TK: Arcatraz (Arc) ---------------
 Inst54Story = "风暴要塞原先是神秘的纳鲁用来在大宇宙中旅行的跨次元飞船。燃烧军团的统领，堕落泰坦萨格拉斯看见了来自阿古斯行星的艾瑞达人的智慧，决定使他们成为他的恶魔军队的一员。阿克蒙德和基尔加丹，艾瑞达人的2个领袖，接受了萨格拉斯的邀请。但是第三位领袖维伦看到萨格拉斯是邪恶的，乘坐着纳鲁的风暴要塞逃离了阿古斯行星。穿越了扭曲虚空之后，维伦和他的追随者最终到达了一个被他们称为德拉诺的新世界。基尔加丹为了消灭所有艾瑞达人的残余（现在被称为德莱尼人），将德拉诺大陆的兽人腐化为野蛮的战士，大肆屠杀德莱尼人。此外，血精灵的领袖凯尔萨斯王子发现了风暴要塞中潜藏的奥术能量，用武力将风暴要塞从纳鲁和德莱尼人手中抢了过来。"
