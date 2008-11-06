@@ -2,10 +2,11 @@
 Changelog
 =========
 
-Version 4.2.1 Beta
+Version 4.2.1
 
 - Added new Traditional Chinese localization by Jill! Thanks!
 - Simplified Chinese localization updates and ReadMe by yeachan.
+- German updates by Telchar.
 
 - Fixes:
 	- Changed display font to Blizzard default to prevent problems with CN and TW clients. (Thanks Jill)
