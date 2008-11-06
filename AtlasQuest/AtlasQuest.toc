@@ -5,7 +5,7 @@
 ## Title-zhCN: AtlasQuest 副本任务查询
 ## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest
 ## Notes: Shows the Quests for the instance.
-## Notes-deDE: Zeigt die Quests, die es f\195\188r die jeweiligen Instanzen gibt.
+## Notes-deDE: Zeigt die Quests, die es für die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
 ## Notes-zhCN: Atlas插件，在Atlas面板上显示副本相关任务及副本背景等.
 ## Notes-zhTW: 顯示副本背景故事、相關任務及BOSS攻略提示
