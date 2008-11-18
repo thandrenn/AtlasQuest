@@ -561,27 +561,8 @@ AQ_7632_Level = "60"
 
 --------------- INST15 - Naxxramas (Naxx) ---------------
 
-Inst15Quest1_QuestID = "9120"
-Inst15Quest2_QuestID = "9232"
-Inst15Quest3_QuestID = "9033"
-Inst15Quest4_QuestID = "9229"
-Inst15Quest5_QuestID = "9230"
-Inst15Quest6_QuestID = "9233"
-
-Inst15Quest1_HORDE_QuestID = "9120"
-Inst15Quest2_HORDE_QuestID = "9232"
-Inst15Quest3_HORDE_QuestID = "9033"
-Inst15Quest4_HORDE_QuestID = "9229"
-Inst15Quest5_HORDE_QuestID = "9230"
-Inst15Quest6_HORDE_QuestID = "9233"
-
-
-AQ_9120_Level = "60"
-AQ_9232_Level = "60"
-AQ_9033_Level = "60"
-AQ_9229_Level = "60"
-AQ_9230_Level = "60"
-AQ_9233_Level = "60"
+-- Old Naxxramas (Before Wrath of the Lich King)
+-- Now using Inst84 for the new one.
 
 
 
@@ -1623,6 +1604,262 @@ AQ_11492_Level = "70"
 
 
 
+--------------- INST69 - Caverns of Time: Stratholme Past ---------------
+
+Inst69Quest1_QuestID = "13243"
+Inst69Quest2_QuestID = "13251"
+Inst69Quest3_QuestID = "13149"
+Inst69Quest4_QuestID = "13151"
+
+Inst69Quest1_HORDE_QuestID = "13243"
+Inst69Quest2_HORDE_QuestID = "13251"
+Inst69Quest3_HORDE_QuestID = "13149"
+Inst69Quest4_HORDE_QuestID = "13151"
+
+
+AQ_13243_Level = "80"
+AQ_13251_Level = "80"
+AQ_13149_Level = "80"
+AQ_13151_Level = "80"
+
+
+
+--------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
+
+Inst70Quest1_QuestID = "13245"
+Inst70Quest2_QuestID = "11252"
+Inst70Quest3_QuestID = "13205"
+
+Inst70Quest1_HORDE_QuestID = "13245"
+Inst70Quest2_HORDE_QuestID = "11272"
+Inst70Quest3_HORDE_QuestID = "11262"
+Inst70Quest4_HORDE_QuestID = "13206"
+
+
+AQ_13245_Level = "80"
+AQ_11252_Level = "71"
+AQ_13205_Level = "71"
+AQ_11272_Level = "71"
+AQ_11262_Level = "71"
+AQ_13206_Level = "71"
+
+
+
+--------------- INST71 - Utgarde Keep: Utgarde Pinnacle ---------------
+
+Inst71Quest1_QuestID = "13241"
+Inst71Quest2_QuestID = "13248"
+Inst71Quest3_QuestID = "13131"
+Inst71Quest4_QuestID = "13132"
+
+Inst71Quest1_HORDE_QuestID = "13241"
+Inst71Quest2_HORDE_QuestID = "13248"
+Inst71Quest3_HORDE_QuestID = "13131"
+Inst71Quest4_HORDE_QuestID = "13132"
+
+
+AQ_13241_Level = "80"
+AQ_13248_Level = "80"
+AQ_13131_Level = "80"
+AQ_13132_Level = "80"
+
+
+
+--------------- INST72 - The Nexus: The Nexus ---------------
+
+Inst72Quest1_QuestID = "13246"
+Inst72Quest2_QuestID = "13094"
+Inst72Quest3_QuestID = "11905"
+Inst72Quest4_QuestID = "11973"
+Inst72Quest5_QuestID = "11911"
+
+Inst72Quest1_HORDE_QuestID = "13246"
+Inst72Quest2_HORDE_QuestID = "13095"
+Inst72Quest3_HORDE_QuestID = "11905"
+Inst72Quest4_HORDE_QuestID = "11973"
+Inst72Quest5_HORDE_QuestID = "11911"
+
+
+AQ_13246_Level = "80"
+AQ_13094_Level = "71"
+AQ_11905_Level = "71"
+AQ_11973_Level = "71"
+AQ_11911_Level = "71"
+AQ_13095_Level = "71"
+
+
+
+--------------- INST73 - The Nexus: The Oculus ---------------
+
+Inst73Quest1_QuestID = "13240"
+Inst73Quest2_QuestID = "13247"
+Inst73Quest3_QuestID = "13124"
+Inst73Quest4_QuestID = "13126"
+Inst73Quest5_QuestID = "13127"
+Inst73Quest6_QuestID = "13128"
+
+Inst73Quest1_HORDE_QuestID = "13240"
+Inst73Quest2_HORDE_QuestID = "13247"
+Inst73Quest3_HORDE_QuestID = "13124"
+Inst73Quest4_HORDE_QuestID = "13126"
+Inst73Quest5_HORDE_QuestID = "13127"
+Inst73Quest6_HORDE_QuestID = "13128"
+
+
+AQ_13240_Level = "80"
+AQ_13247_Level = "80"
+AQ_13124_Level = "80"
+AQ_13126_Level = "80"
+AQ_13127_Level = "80"
+AQ_13128_Level = "80"
+
+
+
+--------------- INST74 - The Nexus: The Eye of Eternity ---------------
+
+
+
+--------------- INST75 - Azjol-Nerub ---------------
+
+Inst75Quest1_QuestID = "13254"
+Inst75Quest2_QuestID = "13182"
+Inst75Quest3_QuestID = "13167"
+
+Inst75Quest1_HORDE_QuestID = "13254"
+Inst75Quest2_HORDE_QuestID = "13182"
+Inst75Quest3_HORDE_QuestID = "13167"
+
+
+AQ_13254_Level = "80"
+AQ_13182_Level = "74"
+AQ_13167_Level = "74"
+
+
+
+--------------- INST76 - Ahn'kahet: The Old Kingdom ---------------
+
+Inst76Quest1_QuestID = "13255"
+Inst76Quest2_QuestID = "13190"
+Inst76Quest3_QuestID = "13204"
+Inst76Quest4_QuestID = "13187"
+
+Inst76Quest1_HORDE_QuestID = "13255"
+Inst76Quest2_HORDE_QuestID = "13190"
+Inst76Quest3_HORDE_QuestID = "13204"
+Inst76Quest4_HORDE_QuestID = "13187"
+
+
+AQ_13255_Level = "80"
+AQ_13190_Level = "80"
+AQ_13204_Level = "76"
+AQ_13187_Level = "76"
+
+
+
+--------------- INST77 - Ulduar: Halls of Stone ---------------
+
+Inst77Quest1_QuestID = "13252"
+Inst77Quest2_QuestID = "13207"
+
+Inst77Quest1_HORDE_QuestID = "13252"
+Inst77Quest2_HORDE_QuestID = "13207"
+
+
+AQ_13252_Level = "80"
+AQ_13207_Level = "78"
+
+
+
+--------------- INST78 - Ulduar: Halls of Lightning ---------------
+
+Inst78Quest1_QuestID = "13244"
+Inst78Quest2_QuestID = "13253"
+Inst78Quest3_QuestID = "13108"
+Inst78Quest4_QuestID = "13109"
+
+Inst78Quest1_HORDE_QuestID = "13244"
+Inst78Quest2_HORDE_QuestID = "13253"
+Inst78Quest3_HORDE_QuestID = "13108"
+Inst78Quest4_HORDE_QuestID = "13109"
+
+
+AQ_13244_Level = "80"
+AQ_13253_Level = "80"
+AQ_13108_Level = "80"
+AQ_13109_Level = "80"
+
+
+
+--------------- INST79 - The Obsidian Sanctum ---------------
+
+
+
+--------------- INST80 - Drak'Tharon Keep ---------------
+
+Inst80Quest1_QuestID = "13249"
+Inst80Quest2_QuestID = "12238"
+Inst80Quest3_QuestID = "12037"
+Inst80Quest4_QuestID = "13129"
+
+Inst80Quest1_HORDE_QuestID = "13249"
+Inst80Quest2_HORDE_QuestID = "12238"
+Inst80Quest3_HORDE_QuestID = "12037"
+Inst80Quest4_HORDE_QuestID = "13129"
+
+
+AQ_13249_Level = "80"
+AQ_12238_Level = "75"
+AQ_12037_Level = "74"
+AQ_13129_Level = "74"
+
+
+
+--------------- INST81 - Gundrak ---------------
+
+Inst81Quest1_QuestID = "13250"
+Inst81Quest2_QuestID = "13098"
+Inst81Quest3_QuestID = "13096"
+Inst81Quest4_QuestID = "13111"
+
+Inst81Quest1_HORDE_QuestID = "13250"
+Inst81Quest2_HORDE_QuestID = "13098"
+Inst81Quest3_HORDE_QuestID = "13096"
+Inst81Quest4_HORDE_QuestID = "13111"
+
+
+AQ_13250_Level = "80"
+AQ_13098_Level = "78"
+AQ_13096_Level = "78"
+AQ_13111_Level = "78"
+
+
+
+--------------- INST82 - The Violet Hold ---------------
+
+Inst82Quest1_QuestID = "13256"
+Inst82Quest2_QuestID = "13158"
+Inst82Quest3_QuestID = "13159"
+
+Inst82Quest1_HORDE_QuestID = "13256"
+Inst82Quest2_HORDE_QuestID = "13158"
+Inst82Quest3_HORDE_QuestID = "13159"
+
+
+AQ_13256_Level = "80"
+AQ_13158_Level = "77"
+AQ_13159_Level = "77"
+
+
+
+--------------- INST84 - Naxxramas (Naxx) ---------------
+
+
+
+--------------- INST85 - Vault of Archavon ---------------
+
+
+
+
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
 ---------------------------------------------------
@@ -1754,6 +1991,19 @@ Inst60Quest1_HORDE_QuestID = "11341"
 
 AQ_11337_Level = "-1"
 AQ_11341_Level = "-1"
+
+
+
+--------------- INST83 - Strand of the Ancients (SotA)  ---------------
+
+Inst83Quest1_QuestID = "13405"
+
+Inst83Quest1_HORDE_QuestID = "13407"
+
+
+AQ_13405_Level = "-1"
+AQ_13407_Level = "-1"
+
 
 
 

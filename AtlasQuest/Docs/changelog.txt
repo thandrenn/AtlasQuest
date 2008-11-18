@@ -2,6 +2,67 @@
 Changelog
 =========
 
+Version 4.3.0 Beta
+
+- Coordinates in Stormwind and Eastern Plaguelands updated since the changes with Patch 3.0 changed them all.
+- All new coordinates being added will include one decimal for more accuracy.
+- Removed old Naxxramas quests.
+
+- Quests added: (unless noted, quests are for both Alliance and Horde)
+	- Utgarde Keep: Proof of Demise: Ingvar the Plunderer (Heroic Daily)
+	- Utgarde Keep: Into Utgarde! (A)
+	- Utgarde Keep: Disarmament
+	- Utgarde Keep: A Score to Settle (H)
+	- Utgarde Keep: Ingvar Must Die! (H)
+	- Utgarde Pinnacle: Timear Foresees Ymirjar Berserkers in your Future! (Daily)
+	- Utgarde Pinnacle: Proof of Demise: King Ymiron (Heroic Daily)
+	- Utgarde Pinnacle: Junk in My Trunk
+	- Utgarde Pinnacle: Vengeance Be Mine!
+	- The Nexus: Proof of Demise: Keristrasza (Heroic Daily)
+	- The Nexus: Have They No Shame?
+	- The Nexus: Postponing the Inevitable
+	- The Nexus: Prisoner of War
+	- The Nexus: Quickening
+	- The Oculus: Timear Foresees Centrifuge Constructs in your Future! (Daily)
+	- The Oculus: Proof of Demise: Ley-Guardian Eregos (Heroic Daily)
+	- The Oculus: The Struggle Persists
+	- The Oculus: A Unified Front
+	- The Oculus: Mage-Lord Urom
+	- The Oculus: A Wing and a Prayer
+	- CoT: Old Stratholme: Timear Foresees Infinite Agents in your Future! (Daily)
+	- CoT: Old Stratholme: Proof of Demise: Mal'Ganis (Heroic Daily)
+	- CoT: Old Stratholme: Dispelling Illusions
+	- CoT: Old Stratholme: A Royal Escort
+	- Azjol-Nerub: Proof of Demise: Anub'arak
+	- Azjol-Nerub: Don't Forget the Eggs!
+	- Azjol-Nerub: Death to the Traitor King
+	- Ahn'kahet: Proof of Demise: Herald Volazj
+	- Ahn'kahet: All Things in Good Time (Heroic Daily)
+	- Ahn'kahet: Funky Fungi
+	- Ahn'kahet: The Faceless Ones
+	- Ulduar: Halls of Stone: Proof of Demise: Sjonnir The Ironshaper
+	- Ulduar: Halls of Stone: Halls of Stone
+	- Ulduar: Halls of Lightning: Timear Foresees Titanium Vanguards in your Future!
+	- Ulduar: Halls of Lightning: Proof of Demise: Loken
+	- Ulduar: Halls of Lightning: Whatever it Takes!
+	- Ulduar: Halls of Lightning: Diametrically Opposed
+	- Drak'Tharon Keep: Proof of Demise: The Prophet Tharon'ja
+	- Drak'Tharon Keep: Cleansing Drak'Tharon
+	- Drak'Tharon Keep: Search and Rescue
+	- Drak'Tharon Keep: Head Games
+	- Gundrak: Proof of Demise: Gal'darah
+	- Gundrak: For Posterity
+	- Gundrak: Gal'darah Must Pay
+	- Gundrak: One of a Kind
+	- The Violet Hold: Proof of Demise: Cyanigosa
+	- The Violet Hold: Discretion is Key
+	- The Violet Hold: Containment
+	- Call to Arms: Strand of the Ancients
+	
+
+
+
+
 Version 4.2.1
 
 - Added new Traditional Chinese localization by Jill! Thanks!

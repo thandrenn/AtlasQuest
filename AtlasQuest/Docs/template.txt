@@ -3,63 +3,89 @@ If/when this slips into a release, just ignore it. :)
 
 
 --Quest 1 Alliance
-Inst66Quest1 = ""
-Inst66Quest1_Level = ""
-Inst66Quest1_Attain = ""
-Inst66Quest1_Aim = ""
-Inst66Quest1_Location = ""
-Inst66Quest1_Note = ""
-Inst66Quest1_Prequest = ""
-Inst66Quest1_Folgequest = ""
-Inst66Quest1PreQuest = "true"
-Inst66Quest1FQuest = "true"
+Inst82Quest1 = ""
+Inst82Quest1_Level = ""
+Inst82Quest1_Attain = ""
+Inst82Quest1_Aim = ""
+Inst82Quest1_Location = ""
+Inst82Quest1_Note = ""
+Inst82Quest1_Prequest = ""
+Inst82Quest1_Folgequest = ""
+Inst82Quest1PreQuest = "true"
+Inst82Quest1FQuest = "true"
 --
-Inst66Quest1name1 = ""
+Inst82Quest1name1 = ""
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst82Quest1_HORDE = ""
+Inst82Quest1_HORDE_Level = ""
+Inst82Quest1_HORDE_Attain = ""
+Inst82Quest1_HORDE_Aim = ""
+Inst82Quest1_HORDE_Location = ""
+Inst82Quest1_HORDE_Note = ""
+Inst82Quest1_HORDE_Prequest = ""
+Inst82Quest1_HORDE_Folgequest = ""
+Inst82Quest1PreQuest_HORDE = "true"
+Inst82Quest1FQuest_HORDE = "true"
+--
+Inst82Quest1name1_HORDE = ""
 -- No Rewards for this quest
 
 
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst66Quest1_HORDE = Inst66Quest1
-Inst66Quest1_HORDE_Level = Inst66Quest1_Level
-Inst66Quest1_HORDE_Attain = Inst66Quest1_Attain
-Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
-Inst66Quest1_HORDE_Location = Inst66Quest1_Location
-Inst66Quest1_HORDE_Note = Inst66Quest1_Note
-Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
-Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
-Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
-Inst66Quest1FQuest_HORDE = Inst66Quest1FQuest
+Inst82Quest1_HORDE = Inst82Quest1
+Inst82Quest1_HORDE_Level = Inst82Quest1_Level
+Inst82Quest1_HORDE_Attain = Inst82Quest1_Attain
+Inst82Quest1_HORDE_Aim = Inst82Quest1_Aim
+Inst82Quest1_HORDE_Location = Inst82Quest1_Location
+Inst82Quest1_HORDE_Note = Inst82Quest1_Note
+Inst82Quest1_HORDE_Prequest = Inst82Quest1_Prequest
+Inst82Quest1_HORDE_Folgequest = Inst82Quest1_Folgequest
+Inst82Quest1PreQuest_HORDE = Inst82Quest1PreQuest
+Inst82Quest1FQuest_HORDE = Inst82Quest1FQuest
 --
-Inst66Quest1name1_HORDE = Inst66Quest1name1
+Inst82Quest1name1_HORDE = Inst82Quest1name1
 -- No Rewards for this quest
 
 
 
 
 --Quest 1 Alliance
-Inst66Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst82Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst66Quest1ITC1 = Itemc4;
-Inst66Quest1description1 = AQITEM_
-Inst66Quest1ID1 = ""
+Inst82Quest1ITC1 = Itemc4;
+Inst82Quest1description1 = AQITEM_
+Inst82Quest1ID1 = ""
 --ITEM2
-Inst66Quest1ITC2 = Itemc4;
-Inst66Quest1description2 = AQITEM_
-Inst66Quest1ID2 = ""
+Inst82Quest1ITC2 = Itemc4;
+Inst82Quest1description2 = AQITEM_
+Inst82Quest1ID2 = ""
 --ITEM3
-Inst66Quest1ITC3 = Itemc4;
-Inst66Quest1description3 = AQITEM_
-Inst66Quest1ID3 = ""
+Inst82Quest1ITC3 = Itemc4;
+Inst82Quest1description3 = AQITEM_
+Inst82Quest1ID3 = ""
 --ITEM4
-Inst66Quest1ITC4 = Itemc4;
-Inst66Quest1description4 = AQITEM_
-Inst66Quest1ID4 = ""
+Inst82Quest1ITC4 = Itemc4;
+Inst82Quest1description4 = AQITEM_
+Inst82Quest1ID4 = ""
 
 
 
 
 --Quest 1 Alliance
-Inst66Quest1Rewardtext = AQNoReward
+Inst82Quest1Rewardtext = AQNoReward
 
+
+
+
+
+Inst82Quest1_QuestID = ""
+
+Inst82Quest1_HORDE_QuestID = ""
+
+
+AQ__Level = ""
