@@ -74,9 +74,6 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MoltenCore") then
 		AQINSTANZ = 14;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Naxxramas") then
-		AQINSTANZ = 15;
-
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\OnyxiasLair") then
 		AQINSTANZ = 16;
 
@@ -209,6 +206,54 @@ function AtlasQuest_Instanzenchecken()
 
 	-- Wrath of the Lich King Instances
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTOldStratholme") then
+		AQINSTANZ = 69;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UtgardeKeep") then
+		AQINSTANZ = 70;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UtgardePinnacle") then
+		AQINSTANZ = 71;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheNexus") then
+		AQINSTANZ = 72;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheOculus") then
+		AQINSTANZ = 73;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheEyeOfEternity") then
+		AQINSTANZ = 74;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AzjolNerub") then
+		AQINSTANZ = 75;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AhnKahet") then
+		AQINSTANZ = 76;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarHallsofStone") then
+		AQINSTANZ = 77;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarHallsofLightning") then
+		AQINSTANZ = 78;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ObsidianSanctum") then
+		AQINSTANZ = 79;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\DrakTharonKeep") then
+		AQINSTANZ = 80;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Gundrak") then
+		AQINSTANZ = 81;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\VioletHold") then
+		AQINSTANZ = 82;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Naxxramas") then
+		AQINSTANZ = 84;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\VaultOfArchavon") then
+		AQINSTANZ = 85;
+
 
 
 	-- Battlegrounds
@@ -227,6 +272,9 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\EyeOfTheStorm") then
 		AQINSTANZ = 60;
+
+	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\StrandOfTheAncients") then
+		AQINSTANZ = 83;
 
 
 	-- Outdoor Raids
@@ -436,6 +484,53 @@ function AtlasQuest_InstanzencheckAM()
 
 	-- Wrath of the Lich King Instances
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\CoTOldStratholme") then
+		AQINSTANZ = 69;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\UtgardeKeep") then
+		AQINSTANZ = 70;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\UtgardePinnacle") then
+		AQINSTANZ = 71;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheNexus") then
+		AQINSTANZ = 72;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheOculus") then
+		AQINSTANZ = 73;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheEyeOfEternity") then
+		AQINSTANZ = 74;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\AzjolNerub") then
+		AQINSTANZ = 75;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\AhnKahet") then
+		AQINSTANZ = 76;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\UlduarHallsofStone") then
+		AQINSTANZ = 77;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\UlduarHallsofLightning") then
+		AQINSTANZ = 78;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ObsidianSanctum") then
+		AQINSTANZ = 79;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DrakTharonKeep") then
+		AQINSTANZ = 80;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Gundrak") then
+		AQINSTANZ = 81;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\VioletHold") then
+		AQINSTANZ = 82;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Naxxramas") then
+		AQINSTANZ = 84;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\VaultOfArchavon") then
+		AQINSTANZ = 85;
 
 
 	-- Battlegrounds
@@ -451,6 +546,9 @@ function AtlasQuest_InstanzencheckAM()
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\NetherstormBG") then
 		AQINSTANZ = 60;
+
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\SotA") then
+		AQINSTANZ = 83;
 
 
 	-- Default
@@ -510,7 +608,7 @@ end
 -- 12 = Dire Maul West (DM)
 -- 13 = Maraudon (Mara)
 -- 14 = Molten Core (MC)
--- 15 = Naxxramas (Naxx)
+-- 15 = Old Naxxramas (removed)
 -- 16 = Onyxia's Lair (Ony)
 -- 17 = Razorfen Downs (RFD)
 -- 18 = Razorfen Kraul (RFK)
@@ -564,3 +662,20 @@ end
 -- 66 = Skettis
 -- 67 = Magisters' Terrace
 -- 68 = Sunwell Plateau
+-- 69 = Caverns of Time: Stratholme Past
+-- 70 = Utgarde Keep: Utgarde Keep
+-- 71 = Utgarde Keep: Utgarde Pinnacle
+-- 72 = The Nexus: The Nexus
+-- 73 = The Nexus: The Oculus
+-- 74 = The Nexus: The Eye of Eternity
+-- 75 = Azjol-Nerub: The Upper Kingdom
+-- 76 = Azjol-Nerub: Ahn'kahet: The Old Kingdom
+-- 77 = Ulduar: Halls of Stone
+-- 78 = Ulduar: Halls of Lightning
+-- 79 = The Obsidian Sanctum
+-- 80 = Drak'Tharon Keep
+-- 81 = Zul'Drak: Gundrak
+-- 82 = The Violet Hold
+-- 83 = Strand of the Ancients (SotA)
+-- 84 = Naxxramas (Naxx)
+-- 85 = Vault of Archavon

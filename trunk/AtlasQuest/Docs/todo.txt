@@ -2,14 +2,14 @@
 ToDo & Notes List
 =================
 
-- AlphaMap: Not all DM & SM quests shown since AlphaMap doesn't split up SM maps.
-- Some quests don't link properly. Though I believe it a server issue as with item links, I plan to investigate further in the future.
+- AlphaMap: Not all DM & SM quests shown since AlphaMap doesn't split up SM maps. Will address in 5.0.
 
-- Note: Need location of Omarion in Naxx for Inst15Quest6. Deathknight Wing - where? HA. Irrelevant now. Alas poor Naxx, we barely knew ya.
+- Quests that require attention:
+	- BRD: Entire Ony attunement questline.
 
 
 
-Brewfest Drop Quest (BRD is full :( ):
+Brewfest Drop Quest (BRD is full):
 Direbrew's Dire Brew (A): http://www.wowhead.com/?quest=12491
 Direbrew's Dire Brew (H): http://www.wowhead.com/?quest=12492
 
@@ -17,26 +17,137 @@ AQ40: Mortal Champions: http://www.wowhead.com/?quest=8579
 
 
 
+================================
+Wrath of the Lich King Checklist
+================================
 
-Wrath of the Lich King
-======================
+ID	Instance			EN	DE	CN	TW
+--	--------			--	--	--	--
+69	CoT: Old Stratholme		BETA	x	x	x
+70	UK: Utgarde Keep		BETA	x	x	x
+71	UK: Utgarde Pinnacle		BETA	x	x	x
+72	TN: The Nexus			BETA	x	x	x
+73	TN: The Oculus			BETA	x	x	x
+74	TN: The Eye of Eternity		x	x	x	x
+75	AN: Azjol-Nerub			BETA	x	x	x
+76	AN: Ahn'kahet			BETA	x	x	x
+77	Ulduar: Halls of Stone		BETA	x	x	x
+78	Ulduar: Halls of Lightning	BETA	x	x	x
+79	The Obsidian Sanctum		x	x	x	x
+80	GH: Drak'Tharon Keep		BETA	x	x	x
+81	ZD: Gundrak			BETA	x	x	x
+82	The Violet Hold			BETA	x	x	x
+83	Strand of the Ancients		BETA	x	x	x
+84	Naxxramas (new)			x	x	x	x
+85	Vault of Archavon		x	x	x	x
 
-Temporary list. Will update as needed.
+
+WOTLK Quests:
+=============
+
+-- 69 = Caverns of Time: Stratholme Past
+IN	Timear Foresees Infinite Agents in your Future!  http://www.wowhead.com/?quest=13243
+IN	Proof of Demise: Mal'Ganis  http://www.wowhead.com/?quest=13251
+IN	Dispelling Illusions  http://www.wowhead.com/?quest=13149
+IN	A Royal Escort  http://www.wowhead.com/?quest=13151
 
 
--- 101 = Caverns of Time: The Culling of Stratholme
--- 102 = Utgarde Keep: Utgarde Keep
--- 103 = Utgarde Keep: Utgarde Pinnacle
--- 104 = Utgarde Keep: ???????
--- 105 = The Nexus: The Nexus
--- 106 = The Nexus: The Oculus
--- 107 = Azjol-Nerub: The Upper Kingdom
--- 108 = Azjol-Nerub: Ahn'kahet: The Old Kingdom
--- 109 = Ulduar: Halls of Stone
--- 110 = Ulduar: Halls of Lightning
--- 111 = The Obsidian Sanctum
--- 112 = Grizzly Hills: Drak'Tharon Keep
--- 113 = Zul'Drak: Gundrak
--- 114 = The Violet Hold
+-- 70 = Utgarde Keep: Utgarde Keep
+IN	A Score to Settle  http://www.wowhead.com/?quest=11272
+IN	Disarmament (A)  http://www.wowhead.com/?quest=13205
+IN	Disarmament (H)  http://www.wowhead.com/?quest=13206
+IN	Ingvar Must Die! (H)  http://www.wowhead.com/?quest=11262
+IN	Into Utgarde! (A)  http://www.wowhead.com/?quest=11252
+IN	Proof of Demise: Ingvar the Plunderer  http://www.wowhead.com/?quest=13245
+	
+	
+-- 71 = Utgarde Keep: Utgarde Pinnacle
+IN	Timear Foresees Ymirjar Berserkers in your Future!  http://www.wowhead.com/?quest=13241
+IN	Proof of Demise: King Ymiron  http://www.wowhead.com/?quest=13248
+IN	Junk in My Trunk  http://www.wowhead.com/?quest=13131
+IN	Vengeance Be Mine!  http://www.wowhead.com/?quest=13132
+
+
+-- 72 = The Nexus: The Nexus
+IN	Proof of Demise: Keristrasza  http://www.wowhead.com/?quest=13246
+IN	Have They No Shame? (A)  http://www.wowhead.com/?quest=13094
+IN	Have They No Shame? (H)  http://www.wowhead.com/?quest=13095
+IN	Postponing the Inevitable  http://www.wowhead.com/?quest=11905
+IN	Prisoner of War  http://www.wowhead.com/?quest=11973
+IN	Quickening  http://www.wowhead.com/?quest=11911
+
+
+-- 73 = The Nexus: The Oculus
+IN	Timear Foresees Centrifuge Constructs in your Future!  http://www.wowhead.com/?quest=13240
+IN	Proof of Demise: Ley-Guardian Eregos  http://www.wowhead.com/?quest=13247
+IN	The Struggle Persists  http://www.wowhead.com/?quest=13124
+IN	A Unified Front  http://www.wowhead.com/?quest=13126
+IN	Mage-Lord Urom  http://www.wowhead.com/?quest=13127
+IN	A Wing and a Prayer  http://www.wowhead.com/?quest=13128
+
+-- 74 = The Nexus: The Eye of Eternity
+	
+
+
+-- 75 = Azjol-Nerub: The Upper Kingdom
+IN	Proof of Demise: Anub'arak  http://www.wowhead.com/?quest=13254
+IN	Don't Forget the Eggs!  http://www.wowhead.com/?quest=13182
+IN	Death to the Traitor King  http://www.wowhead.com/?quest=13167
+
+
+-- 76 = Azjol-Nerub: Ahn'kahet: The Old Kingdom
+IN	Proof of Demise: Herald Volazj  http://www.wowhead.com/?quest=13255
+IN	All Things in Good Time  http://www.wowhead.com/?quest=13190
+IN	Funky Fungi  http://www.wowhead.com/?quest=13204
+IN	The Faceless Ones  http://www.wowhead.com/?quest=13187
+
+
+-- 77 = Ulduar: Halls of Stone
+IN	Proof of Demise: Sjonnir The Ironshaper  http://www.wowhead.com/?quest=13252
+IN	Halls of Stone  http://www.wowhead.com/?quest=13207
+
+
+-- 78 = Ulduar: Halls of Lightning
+IN	Proof of Demise: Loken  http://www.wowhead.com/?quest=13253
+IN	Timear Foresees Titanium Vanguards in your Future!  http://www.wowhead.com/?quest=13244
+IN	Whatever it Takes!  http://www.wowhead.com/?quest=13108
+IN	Diametrically Opposed  http://www.wowhead.com/?quest=13109
+
+
+-- 79 = The Obsidian Sanctum
+	
+
+
+-- 80 = Drak'Tharon Keep
+IN	Proof of Demise: The Prophet Tharon'ja  http://www.wowhead.com/?quest=13249
+IN	Cleansing Drak'Tharon  http://www.wowhead.com/?quest=12238
+IN	Search and Rescue  http://www.wowhead.com/?quest=12037
+IN	Head Games  http://www.wowhead.com/?quest=13129
+
+
+-- 81 = Zul'Drak: Gundrak
+IN	Proof of Demise: Gal'darah  http://www.wowhead.com/?quest=13250
+IN	For Posterity  http://www.wowhead.com/?quest=13098
+IN	Gal'darah Must Pay  http://www.wowhead.com/?quest=13096
+IN	One of a Kind  http://www.wowhead.com/?quest=13111
+
+
+-- 82 = The Violet Hold
+IN	Proof of Demise: Cyanigosa  http://www.wowhead.com/?quest=13256
+IN	Discretion is Key  http://www.wowhead.com/?quest=13158
+IN	Containment  http://www.wowhead.com/?quest=13159
+
+
+-- 83 = Strand of the Ancients (SotA)  - Battleground
+IN	Call to Arms: Strand of the Ancients (A)  http://www.wowhead.com/?quest=13405
+IN	Call to Arms: Strand of the Ancients (H)  http://www.wowhead.com/?quest=13407
+
+
+-- 84 = Naxxramas (Naxx)
+	
+
+
+-- 85 = Vault of Archavon
+	
 
 
