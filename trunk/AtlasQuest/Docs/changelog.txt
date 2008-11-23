@@ -4,8 +4,9 @@ Changelog
 
 Version 4.3.0 Beta
 
+- Support for all new Wrath of the Lich King maps in both Atlas and AlphaMap.
 - Coordinates in Stormwind and Eastern Plaguelands updated since the changes with Patch 3.0 changed them all.
-- All new coordinates being added will include one decimal for more accuracy.
+- All new coordinates being added will include one decimal for more accuracy. Coordinates already in may be updated in the future.
 - Removed old Naxxramas quests.
 
 - Quests added: (unless noted, quests are for both Alliance and Horde)
