@@ -2,14 +2,14 @@
 Changelog
 =========
 
-Version 4.3.0 Beta
+Version 4.3.0
 
 - Support for all new Wrath of the Lich King maps in both Atlas and AlphaMap.
 - Coordinates in Stormwind and Eastern Plaguelands updated since the changes with Patch 3.0 changed them all.
 - All new coordinates being added will include one decimal for more accuracy. Coordinates already in may be updated in the future.
 - Removed old Naxxramas quests.
 
-- Quests added: (unless noted, quests are for both Alliance and Horde)
+- Quests added: (some are missing data)
 	- Utgarde Keep: Proof of Demise: Ingvar the Plunderer (Heroic Daily)
 	- Utgarde Keep: Into Utgarde! (A)
 	- Utgarde Keep: Disarmament
@@ -30,10 +30,10 @@ Version 4.3.0 Beta
 	- The Oculus: A Unified Front
 	- The Oculus: Mage-Lord Urom
 	- The Oculus: A Wing and a Prayer
-	- CoT: Old Stratholme: Timear Foresees Infinite Agents in your Future! (Daily)
-	- CoT: Old Stratholme: Proof of Demise: Mal'Ganis (Heroic Daily)
-	- CoT: Old Stratholme: Dispelling Illusions
-	- CoT: Old Stratholme: A Royal Escort
+	- CoT: Stratholme Past: Timear Foresees Infinite Agents in your Future! (Daily)
+	- CoT: Stratholme Past: Proof of Demise: Mal'Ganis (Heroic Daily)
+	- CoT: Stratholme Past: Dispelling Illusions
+	- CoT: Stratholme Past: A Royal Escort
 	- Azjol-Nerub: Proof of Demise: Anub'arak
 	- Azjol-Nerub: Don't Forget the Eggs!
 	- Azjol-Nerub: Death to the Traitor King

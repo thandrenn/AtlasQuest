@@ -4,16 +4,10 @@ ToDo & Notes List
 
 - AlphaMap: Not all DM & SM quests shown since AlphaMap doesn't split up SM maps. Will address in 5.0.
 
-- Quests that require attention:
-	- BRD: Entire Ony attunement questline.
-
-
-
-Brewfest Drop Quest (BRD is full):
-Direbrew's Dire Brew (A): http://www.wowhead.com/?quest=12491
-Direbrew's Dire Brew (H): http://www.wowhead.com/?quest=12492
-
-AQ40: Mortal Champions: http://www.wowhead.com/?quest=8579
+- BRD: Entire Ony attunement questline needs to be checked. Some say it was removed, some say parts of it weren't.
+- BRD: Direbrew's Dire Brew (A): http://www.wowhead.com/?quest=12491
+- BRD: Direbrew's Dire Brew (H): http://www.wowhead.com/?quest=12492
+- AQ40: Mortal Champions: http://www.wowhead.com/?quest=8579
 
 
 
