@@ -9541,7 +9541,7 @@ Inst69Quest4_HORDE_Location = Inst69Quest4_Location
 Inst69Quest4_HORDE_Note = Inst69Quest4_Note
 Inst69Quest4_HORDE_Prequest = Inst69Quest4_Prequest
 Inst69Quest4_HORDE_Folgequest = Inst69Quest4_Folgequest
-Inst69Quest4PreQuest_HORDE = Inst69Quest4PreQuest
+Inst69Quest4FQuest_HORDE = Inst69Quest4FQuest
 --
 Inst69Quest4name1_HORDE = Inst69Quest4name1
 Inst69Quest4name2_HORDE = Inst69Quest4name2
@@ -9589,7 +9589,7 @@ Inst70Quest3_Level = "71"
 Inst70Quest3_Attain = "70"
 Inst70Quest3_Aim = "Defender Mordun wants you to enter Utgarde Keep and steal 5 Vrykul Weapons"
 Inst70Quest3_Location = "Defender Mordun (Howling Fjord - Wyrmskull Village; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest3_Note = "Incomplete data. Presumably looted from containers in Utgarde Keep."
+Inst70Quest3_Note = "The Vrykul Weapons can be found along walls scattered around the instance. The prequest comes from Scout Valory (Howling Fjord - Wyrmskull Village; "..YELLOW.."56.0, 55.8"..WHITE..")."
 Inst70Quest3_Prequest = "None"
 Inst70Quest3_Folgequest = "None"
 --
@@ -9631,8 +9631,8 @@ Inst70Quest3_HORDE = "3. Ingvar Must Die!"
 Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "70"
 Inst70Quest3_HORDE_Aim = "Dark Ranger Marrah has asked you to kill Ingvar the Plunderer in Utgarde Keep, then bring his head to High Executor Anselm at Vengeance Landing."
-Inst70Quest3_HORDE_Location = "Dark Ranger Marrah (Howling Fjord - ??; "..YELLOW.."??,??"..WHITE..")"
-Inst70Quest3_HORDE_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest3_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..YELLOW.."[??]"..WHITE..")"
+Inst70Quest3_HORDE_Note = "Dark Ranger Marrah is found in the instance, near the entrance.\n\nIngvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
 Inst70Quest3_HORDE_Prequest = "None"
 Inst70Quest3_HORDE_Folgequest = "None"
 --
@@ -9646,7 +9646,7 @@ Inst70Quest4_HORDE_Level = "71"
 Inst70Quest4_HORDE_Attain = "70"
 Inst70Quest4_HORDE_Aim = "Dark Ranger Marrah wants you to steal 5 Vrykul Weapons from Utgarde Keep and bring them to High Executor Anselm in Vengeance Landing."
 Inst70Quest4_HORDE_Location = "Dark Ranger Marrah (Howling Fjord - ??; "..YELLOW.."??,??"..WHITE..")"
-Inst70Quest4_HORDE_Note = "Incomplete data. Presumably looted from containers in Utgarde Keep.\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest4_HORDE_Note = "The Vrykul Weapons can be found along walls scattered around the instance.\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
 Inst70Quest4_HORDE_Prequest = "None"
 Inst70Quest4_HORDE_Folgequest = "None"
 --
@@ -9786,7 +9786,7 @@ Inst71Quest4name5_HORDE = Inst71Quest4name5
 --------------- INST72 - The Nexus: The Nexus ---------------
 
 Inst72Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\n"..GREEN.."Quoted from WoW Head"
-Inst72Caption = "The Nexus"
+Inst72Caption = "The Nexus: The Nexus"
 Inst72QAA = "5 Quests"
 Inst72QAH = "5 Quests"
 
@@ -9946,7 +9946,7 @@ Inst72Quest5name5_HORDE = Inst72Quest5name5
 --------------- INST73 - The Nexus: The Oculus ---------------
 
 Inst73Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\n"..GREEN.."Quoted from WoW Head"
-Inst73Caption = "The Oculus"
+Inst73Caption = "The Nexus: The Oculus"
 Inst73QAA = "6 Quests"
 Inst73QAH = "6 Quests"
 
@@ -10120,7 +10120,7 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
 Inst74Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\nThe Eye of Eternity is the final instance and the only raid of The Nexus, in which players will be able to defeat the blue dragon aspect Malygos.\n\n"..GREEN.."Quoted from WoW Head"
-Inst74Caption = "The Eye of Eternity"
+Inst74Caption = "The Nexus: The Eye of Eternity"
 Inst74QAA = "No Quests"
 Inst74QAH = "No Quests"
 
@@ -10245,7 +10245,7 @@ Inst76Quest2_Level = "80"
 Inst76Quest2_Attain = "80"
 Inst76Quest2_Aim = "Kilix the Unraveler in the Pit of Narjun wants you to obtain an Ahn'kahar Watcher's Corpse and place it upon the Ahn'kahet Brazier in Ahn'kahet."
 Inst76Quest2_Location = "Kilix the Unraveler (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst76Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Ahn'kahet Brazier is behind the last boss, Amanitar at "..YELLOW.."[5]"..WHITE..". The corpse has a 1 hour duration timer."
+Inst76Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Ahn'kahet Brazier is behind Herald Volazj at "..YELLOW.."[4]"..WHITE..". The corpse has a 1 hour duration timer."
 Inst76Quest2_Prequest = "None"
 Inst76Quest2_Folgequest = "None"
 -- No Rewards for this quest
@@ -10355,7 +10355,7 @@ Inst77Quest2_Level = "78"
 Inst77Quest2_Attain = "76"
 Inst77Quest2_Aim = "Brann Bronzebeard wants you to accompany him as he uncovers the secrets that lie in the Halls of Stone."
 Inst77Quest2_Location = "Brann Bronzebeard (Ulduar: Halls of Stone; "..YELLOW.."[3]"..WHITE..")"
-Inst77Quest2_Note = "To complete the quest you must follow Brann Bronzebeard into the nearby chamber at "..YELLOW.."[4]"..WHITE.." and protect him from waves of mobs while he works on the stone tablets there. Upon his success, the Tribunal Chest next to the tablest can be opened.\n\nTalk to Brann Bronzebeard again and he'll run to the door outside "..YELLOW.."[5]"..WHITE..". You do not need to follow him, he'll wait for you there. Once defeating Sjonnir the Ironshaper there, the quest will be complete and can be turned into Brahn Bronzebeard."
+Inst77Quest2_Note = "Follow Brann Bronzebeard into the nearby chamber at "..YELLOW.."[4]"..WHITE.." and protect him from waves of mobs while he works on the stone tablets there. Upon his success, the Tribunal Chest next to the tablets can be opened.\n\nTalk to him again and he'll run to the door outside "..YELLOW.."[5]"..WHITE..". You do not need to follow him, he'll wait for you there. Once defeating Sjonnir the Ironshaper, the quest can be turned into Brahn Bronzebeard."
 Inst77Quest2_Prequest = "None"
 Inst77Quest2_Folgequest = "None"
 --
@@ -10572,7 +10572,7 @@ Inst80Quest3_Level = "74"
 Inst80Quest3_Attain = "73"
 Inst80Quest3_Aim = "Mack at Granite Springs wants you to go into Drak'Tharon and find out what became of Kurzel."
 Inst80Quest3_Location = "Mack Fearsen (Grizzly Hills - Granite Springs; "..YELLOW.."16.6, 48.1"..WHITE..")"
-Inst80Quest3_Note = "Kurzel is one of the webbed victims up the stairs and to the right of where Trollgore "..YELLOW.."[1]"..WHITE.." is."
+Inst80Quest3_Note = "Kurzel is one of the webbed victims in the room following Trollgore at "..YELLOW.."[1]"..WHITE.."."
 Inst80Quest3_Prequest = "Seared Scourge"
 Inst80Quest3_Folgequest = "Head Games"
 Inst80Quest3PreQuest = "true"
@@ -10684,7 +10684,7 @@ Inst81Quest2_Level = "78"
 Inst81Quest2_Attain = "76"
 Inst81Quest2_Aim = "Chronicler Bah'Kini at Dubra'Jin wants you to enter Gundrak and collect 6 Drakkari History Tablets."
 Inst81Quest2_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
-Inst81Quest2_Note = "There are enough Tablets for a full party of 5 to complete the quest."
+Inst81Quest2_Note = "The tablets are scattered around the instance. There are enough for a full party to complete the quest."
 Inst81Quest2_Prequest = "Just Checkin'"
 Inst81Quest2_Folgequest = "None"
 Inst81Quest2PreQuest = "true"
