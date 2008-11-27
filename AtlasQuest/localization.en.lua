@@ -10434,8 +10434,8 @@ Inst78Quest3_Level = "80"
 Inst78Quest3_Attain = "80"
 Inst78Quest3_Aim = "King Jokkum in Dun Niffelem wants you to enter the Halls of Lightning and defeat Loken. You are then to return to King Jokkum with Loken's Tongue."
 Inst78Quest3_Location = "King Jokkum (The Storm Peaks - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
-Inst78Quest3_Note = "Loken is at "..YELLOW.."[4]"..WHITE.."."
-Inst78Quest3_Prequest = "The Reckoning"
+Inst78Quest3_Note = "Loken is at "..YELLOW.."[4]"..WHITE..".\n\nThis quest becomes available after an extremely long questline that starts from Gretchen Fizzlespark (Storm Peaks - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
+Inst78Quest3_Prequest = "They Took Our Men! -> The Reckoning"
 Inst78Quest3_Folgequest = "None"
 Inst78Quest3PreQuest = "true"
 --
@@ -10450,9 +10450,10 @@ Inst78Quest4_Level = "80"
 Inst78Quest4_Attain = "80"
 Inst78Quest4_Aim = "King Jokkum at Dun Niffelem wants you to enter the Halls of Lightning and defeat Volkhan."
 Inst78Quest4_Location = "King Jokkum (The Storm Peaks - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
-Inst78Quest4_Note = "Volkhan is at "..YELLOW.."[2]"..WHITE.."."
-Inst78Quest4_Prequest = "None"
+Inst78Quest4_Note = "Volkhan is at "..YELLOW.."[2]"..WHITE..".\n\nThis quest becomes available after an extremely long questline that starts from Gretchen Fizzlespark (Storm Peaks - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
+Inst78Quest4_Prequest = "They Took Our Men! -> The Reckoning"
 Inst78Quest4_Folgequest = "None"
+Inst78Quest4PreQuest = "true"
 --
 Inst78Quest4name1 = "Lightning Infused Mantle"
 Inst78Quest4name2 = "Charred Leather Shoulderguards"
@@ -10513,6 +10514,7 @@ Inst78Quest4_HORDE_Location = Inst78Quest4_Location
 Inst78Quest4_HORDE_Note = Inst78Quest4_Note
 Inst78Quest4_HORDE_Prequest = Inst78Quest4_Prequest
 Inst78Quest4_HORDE_Folgequest = Inst78Quest4_Folgequest
+Inst78Quest4PreQuest_HORDE = Inst78Quest4PreQuest
 --
 Inst78Quest4name1_HORDE = Inst78Quest4name1
 Inst78Quest4name2_HORDE = Inst78Quest4name2
