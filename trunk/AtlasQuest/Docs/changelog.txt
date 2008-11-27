@@ -2,6 +2,18 @@
 Changelog
 =========
 
+Version 4.3.1
+
+- Traditional Chinese localization updated.
+- Fixed AlphaMap WOTLK compatibility.
+
+- Quests Updated:
+	- Prequest info added for Ulduar: Halls of Lightning: Whatever it Takes!
+	- Prequest info added for Ulduar: Halls of Lightning: Diametrically Opposed
+
+
+
+
 Version 4.3.0
 
 - Support for all new Wrath of the Lich King maps in both Atlas and AlphaMap.
@@ -59,7 +71,6 @@ Version 4.3.0
 	- The Violet Hold: Discretion is Key
 	- The Violet Hold: Containment
 	- Call to Arms: Strand of the Ancients
-	
 
 
 
