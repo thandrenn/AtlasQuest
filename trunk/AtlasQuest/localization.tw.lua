@@ -9917,7 +9917,7 @@ Inst70Quest3_Level = "71"
 Inst70Quest3_Attain = "70"
 Inst70Quest3_Aim = "防衛者摩丹要你進入俄特加德要塞，並偷走5件維酷武器。"
 Inst70Quest3_Location = "防衛者摩丹（凜風峽灣 - 龍顱村; "..YELLOW.."59.3, 48.8"..WHITE.."）"
-Inst70Quest3_Note = "維酷武器在俄特加德要塞裡面的牆邊可以撿到。"
+Inst70Quest3_Note = "維酷武器在俄特加德要塞理面都撿得到。"
 Inst70Quest3_Prequest = "無"
 Inst70Quest3_Folgequest = "無"
 --
@@ -9960,7 +9960,7 @@ Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "70"
 Inst70Quest3_HORDE_Aim = "黑暗遊俠瑪拉請求你殺死俄特加德要塞的『盜掠者』因格瓦，然後把他的頭顱帶給復仇臺地的高階執行官安賽姆。"
 Inst70Quest3_HORDE_Location = "黑暗遊俠瑪拉（凜風峽灣 - ??; "..YELLOW.."??,??"..WHITE.."）"
-Inst70Quest3_HORDE_Note = "黑暗遊俠瑪拉在地城中靠近入口處可以找到。『盜掠者』因格瓦在"..YELLOW.."[3]"..WHITE.."。\n\回覆任務的高階執行官安賽姆在（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）。"
+Inst70Quest3_HORDE_Note = "『盜掠者』因格瓦在"..YELLOW.."[3]"..WHITE.."。\n\回覆任務的高階執行官安賽姆在（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）。"
 Inst70Quest3_HORDE_Prequest = "無"
 Inst70Quest3_HORDE_Folgequest = "無"
 --
@@ -9974,7 +9974,7 @@ Inst70Quest4_HORDE_Level = "71"
 Inst70Quest4_HORDE_Attain = "70"
 Inst70Quest4_HORDE_Aim = "黑暗遊俠瑪拉要求你，從俄特加德要塞偷走5件維酷武器，並送去給復仇臺地的高階執行官安賽姆。"
 Inst70Quest4_HORDE_Location = "黑暗遊俠瑪拉（凜風峽灣 - ??; "..YELLOW.."??,??"..WHITE.."）"
-Inst70Quest4_HORDE_Note = "維酷武器在俄特加德要塞裡面的牆邊可以撿到。\n\n回覆任務的高階執行官安賽姆在（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）。"
+Inst70Quest4_HORDE_Note = "維酷武器在俄特加德要塞理面都撿得到。\n\n回覆任務的高階執行官安賽姆在（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）。"
 Inst70Quest4_HORDE_Prequest = "無"
 Inst70Quest4_HORDE_Folgequest = "無"
 --
@@ -10573,7 +10573,7 @@ Inst76Quest2_Level = "80"
 Inst76Quest2_Attain = "80"
 Inst76Quest2_Aim = "那金之淵裡的『排除者』齊力克斯要求你，帶回一具安卡哈看守者的屍體，安放在安卡罕特的安卡罕特火盆上。"
 Inst76Quest2_Location = "『排除者』齊力克斯（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）"
-Inst76Quest2_Note = "這個任務只能在英雄難度下完成。\n\n安卡罕特火盆在信使沃菈齊"..YELLOW.."[4]"..WHITE.."的後面。屍體將能持續存在1小時。"
+Inst76Quest2_Note = "這個任務只能在英雄難度下完成。\n\n安卡罕特火盆在最後王的後面，毒蕈魔在"..YELLOW.."[5]"..WHITE.."。屍體將能持續存在1小時。"
 Inst76Quest2_Prequest = "無"
 Inst76Quest2_Folgequest = "無"
 -- No Rewards for this quest
@@ -10762,8 +10762,8 @@ Inst78Quest3_Level = "80"
 Inst78Quest3_Attain = "80"
 Inst78Quest3_Aim = "丹尼弗蘭的裘庫姆王要求你，進入雷光大廳並擊敗洛肯。帶回洛肯之舌給裘庫姆。"
 Inst78Quest3_Location = "裘庫姆王（風暴群山 - 丹尼弗蘭; "..YELLOW.."65.3, 60.1"..WHITE.."）"
-Inst78Quest3_Note = "洛肯在"..YELLOW.."[4]"..WHITE.."。"
-Inst78Quest3_Prequest = "報應"
+Inst78Quest3_Note = "洛肯在"..YELLOW.."[4]"..WHITE.."。\n\n必須在完成一連串來自格雷徹．嘶炫（風暴群山 - K3; "..YELLOW.."41.1, 86.1"..WHITE.."）的極長任務線之後才能接到這個任務。"
+Inst78Quest3_Prequest = "他們把男人抓走了！→報應"
 Inst78Quest3_Folgequest = "無"
 Inst78Quest3PreQuest = "true"
 --
@@ -10778,9 +10778,10 @@ Inst78Quest4_Level = "80"
 Inst78Quest4_Attain = "80"
 Inst78Quest4_Aim = "丹尼弗蘭的裘庫姆王要求你，前往雷光大廳，並擊敗渥克瀚。"
 Inst78Quest4_Location = "裘庫姆王（風暴群山 - 丹尼弗蘭; "..YELLOW.."65.3, 60.1"..WHITE.."）"
-Inst78Quest4_Note = "渥克瀚在"..YELLOW.."[2]"..WHITE.."。"
-Inst78Quest4_Prequest = "無"
+Inst78Quest4_Note = "渥克瀚在"..YELLOW.."[2]"..WHITE.."。\n\n必須在完成一連串來自格雷徹．嘶炫（風暴群山 - K3; "..YELLOW.."41.1, 86.1"..WHITE.."）的極長任務線之後才能接到這個任務。"
+Inst78Quest4_Prequest = "他們把男人抓走了！→報應"
 Inst78Quest4_Folgequest = "無"
+Inst78Quest4PreQuest = "true"
 --
 Inst78Quest4name1 = "閃電灌注披肩"
 Inst78Quest4name2 = "焦熱皮甲肩衛"
@@ -10841,6 +10842,7 @@ Inst78Quest4_HORDE_Location = Inst78Quest4_Location
 Inst78Quest4_HORDE_Note = Inst78Quest4_Note
 Inst78Quest4_HORDE_Prequest = Inst78Quest4_Prequest
 Inst78Quest4_HORDE_Folgequest = Inst78Quest4_Folgequest
+Inst78Quest4PreQuest_HORDE = Inst78Quest4PreQuest
 --
 Inst78Quest4name1_HORDE = Inst78Quest4name1
 Inst78Quest4name2_HORDE = Inst78Quest4name2
@@ -11012,7 +11014,7 @@ Inst81Quest2_Level = "78"
 Inst81Quest2_Attain = "76"
 Inst81Quest2_Aim = "杜布拉金的撰史者巴琪妮要你進入剛德拉克收集6個德拉克瑞歷史石板。"
 Inst81Quest2_Location = "撰史者巴琪妮（祖爾德拉克 - 杜布拉金; "..YELLOW.."70.0, 20.9"..WHITE.."）"
-Inst81Quest2_Note = "石板散落在地城各處，那裡有足夠的德拉克瑞歷史石板讓隊伍裡面的五個人都完成這個任務。"
+Inst81Quest2_Note = "那裡有足夠的德拉克瑞歷史石板讓隊伍裡面的五個人都完成這個任務。"
 Inst81Quest2_Prequest = "探班"
 Inst81Quest2_Folgequest = "無"
 Inst81Quest2PreQuest = "true"
@@ -11811,7 +11813,7 @@ Inst60Quest1_HORDE_Folgequest = "無"
 
 --------------- INST83 - Strand of the Ancients (SotA)  ---------------
 
-Inst83Story = "遠祖灘頭一個在巫妖王之怒中加入的一個全新的戰場，位於龍骨荒野南邊的海岸線。遠祖灘頭的戰爭方式分為進攻方與防守方，共有兩回合，每回合分別是十分鐘，回合結束則攻守交換。防守方的陣線由三道防線所組成，一共有六個城門、三座墳場以及一個最終據點，進攻方必須在限時之內取得防守方的最終據點以獲得戰爭的勝利。遠祖灘頭中還有許多戰爭載具（石毀車、砲台）提供玩家更多攻城的樂趣。\n\n"..GREEN.."引述自WoWWiki"
+Inst83Story = "遠祖灘頭是一個在巫妖王之怒中加入的一個全新的戰場，位於龍骨荒野南邊的海岸線。遠祖灘頭的戰爭方式分為進攻方與防守方，共有兩回合，每回合分別是十分鐘，回合結束則攻守交換。防守方的陣線由三道防線所組成，一共有六個城門、三座墳場以及一個最終據點，進攻方必須在限時之內取得防守方的最終據點以獲得戰爭的勝利。遠祖灘頭中還有許多戰爭載具（石毀車、砲台）提供玩家更多攻城的樂趣。\n\n"..GREEN.."引述自WoWWiki"
 Inst83Caption = "遠祖灘頭"
 Inst83QAA = "1 個任務"
 Inst83QAH = "1 個任務"
