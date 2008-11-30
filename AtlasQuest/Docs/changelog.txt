@@ -6,11 +6,13 @@ Version 4.3.1
 
 - Traditional Chinese localization updated.
 - Fixed AlphaMap WOTLK compatibility.
+- Fixed flags for Deadmines and Gnomeregan quests. Thanks gothic251.
 
-- Quests Updated:
-	- Prequest info added for Ulduar: Halls of Lightning: Whatever it Takes!
-	- Prequest info added for Ulduar: Halls of Lightning: Diametrically Opposed
-
+- Missing information added for quests in the following instances:
+	- The Nexus: The Oculus
+	- Caverns of Time: Stratholme Past
+	- Ulduar: Halls of Lightning
+	- Utgarde Keep: Utgarde Pinnacle
 
 
 

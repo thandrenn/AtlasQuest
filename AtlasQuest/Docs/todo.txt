@@ -79,8 +79,10 @@ IN	A Unified Front  http://www.wowhead.com/?quest=13126
 IN	Mage-Lord Urom  http://www.wowhead.com/?quest=13127
 IN	A Wing and a Prayer  http://www.wowhead.com/?quest=13128
 
+
 -- 74 = The Nexus: The Eye of Eternity
-	
+	Judgment at the Eye of Eternity  http://www.wowhead.com/?quest=13384
+	Heroic Judgment at the Eye of Eternity  http://www.wowhead.com/?quest=13385
 
 
 -- 75 = Azjol-Nerub: The Upper Kingdom
