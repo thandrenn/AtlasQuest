@@ -237,7 +237,7 @@ Inst1Quest5_Aim = "Kill Edwin VanCleef and bring his head to Gryan Stoutmantle."
 Inst1Quest5_Location = "Gryan Stoutmantle (Westfall - Sentinel Hill; "..YELLOW.."56,47"..WHITE..")"
 Inst1Quest5_Note = "You start this Questline at Gryan Stoutmantle (Westfall - Sentinel Hill; "..YELLOW.."56,47"..WHITE..").\nEdwin VanCleef is the last boss of The Deadmines. You can find him at the top of his ship "..YELLOW.."[6]"..WHITE.."."
 Inst1Quest5_Prequest = "The Defias Brotherhood."
-Inst1Quest5_Folgequest = "The Unsent Letter"
+Inst1Quest5_Folgequest = "None"
 Inst1Quest5PreQuest = "true"
 --
 Inst1Quest5name1 = "Chausses of Westfall"
@@ -4905,7 +4905,7 @@ Inst25Quest3_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE.
 Inst25Quest3_Note = "The Altar is at "..YELLOW.."[1]"..WHITE.."."
 Inst25Quest3_Prequest = "The Stone Circle"
 Inst25Quest3_Folgequest = "None"
-Inst25Quest3FQuest = "true"
+Inst25Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -4917,7 +4917,7 @@ Inst25Quest4_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE.
 Inst25Quest4_Note = "You find the statues at "..YELLOW.."[1]"..WHITE..". See map for order to activate them."
 Inst25Quest4_Prequest = "The Stone Circle"
 Inst25Quest4_Folgequest = "None"
-Inst25Quest4FQuest = "true"
+Inst25Quest4PreQuest = "true"
 --
 Inst25Quest4name1 = "Hakkari Urn"
 
@@ -5142,7 +5142,7 @@ Inst25Quest3_HORDE_Location = Inst25Quest3_Location
 Inst25Quest3_HORDE_Note = Inst25Quest3_Note
 Inst25Quest3_HORDE_Prequest = Inst25Quest3_Prequest
 Inst25Quest3_HORDE_Folgequest = Inst25Quest3_Folgequest
-Inst25Quest3FQuest_HORDE = Inst25Quest3FQuest
+Inst25Quest3PreQuest_HORDE = Inst25Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -5154,7 +5154,7 @@ Inst25Quest4_HORDE_Location = Inst25Quest4_Location
 Inst25Quest4_HORDE_Note = Inst25Quest4_Note
 Inst25Quest4_HORDE_Prequest = Inst25Quest4_Prequest
 Inst25Quest4_HORDE_Folgequest = Inst25Quest4_Folgequest
-Inst25Quest4FQuest_HORDE = Inst25Quest4FQuest
+Inst25Quest4PreQuest_HORDE = Inst25Quest4PreQuest
 --
 Inst25Quest4name1_HORDE = Inst25Quest4name1
 
@@ -5931,7 +5931,7 @@ Inst29Quest5_HORDE_Location = "Brilliant Gold Ring (obtained from Grime-Encruste
 Inst29Quest5_HORDE_Note = "Turns in to Nogg (Orgrimmar - The Valley of Honor; "..YELLOW.."75,25"..WHITE.."). The followup to enhance the ring is optional."
 Inst29Quest5_HORDE_Prequest = "Grime-Encrusted Ring"
 Inst29Quest5_HORDE_Folgequest = "None"
-Inst29Quest5FQuest = "true"
+Inst29Quest5FQuest_HORDE = "true"
 --
 Inst29Quest5name1_HORDE = "Brilliant Gold Ring"
 
@@ -9472,7 +9472,7 @@ Inst69Quest3_Level = "80"
 Inst69Quest3_Attain = "78"
 Inst69Quest3_Aim = "Chromie wants you to use the Arcane Disruptor on the suspicious crates in Stratholme Past, then speak to her near the entrance to Stratholme."
 Inst69Quest3_Location = "Chromie (Old Stratholme; "..YELLOW.."[??]"..WHITE..")"
-Inst69Quest3_Note = "No information."
+Inst69Quest3_Note = "The crates are found near the houses along the road on the way to Stratholme. After completion, you can turn the quest in at "..YELLOW.."[??]"..WHITE.."."
 Inst69Quest3_Prequest = "None"
 Inst69Quest3_Folgequest = "A Royal Escort"
 -- No Rewards for this quest
@@ -9483,7 +9483,7 @@ Inst69Quest4_Level = "80"
 Inst69Quest4_Attain = "78"
 Inst69Quest4_Aim = "Chromie has asked you to accompany Arthas in the Culling of Stratholme. You are to speak with her again after Mal'Ganis is defeated."
 Inst69Quest4_Location = "Chromie (Old Stratholme; "..YELLOW.."[??]"..WHITE..")"
-Inst69Quest4_Note = "Mal'Ganis is at "..YELLOW.."[4]"..WHITE.."."
+Inst69Quest4_Note = "Mal'Ganis is at "..YELLOW.."[4]"..WHITE..". Chromie will appear there after the event is over."
 Inst69Quest4_Prequest = "Dispelling Illusions"
 Inst69Quest4_Folgequest = "None"
 Inst69Quest4FQuest = "true"
@@ -9696,8 +9696,8 @@ Inst71Quest3 = "3. Junk in My Trunk"
 Inst71Quest3_Level = "80"
 Inst71Quest3_Attain = "80"
 Inst71Quest3_Aim = "Brigg in Utgarde Pinnacle wants you to find 5 Untarnished Silver Bars, 3 Shiny Baubles, 2 Golden Goblets, and a Jade Statue."
-Inst71Quest3_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[??]"..WHITE..")"
-Inst71Quest3_Note = "Incomplete data."
+Inst71Quest3_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[A]"..WHITE..")"
+Inst71Quest3_Note = "The items can be found scattered around the instance, usually laying on the ground. The Shiny Baubles are not the same that are used as fishing lures."
 Inst71Quest3_Prequest = "None"
 Inst71Quest3_Folgequest = "None"
 --
@@ -9711,7 +9711,7 @@ Inst71Quest4 = "4. Vengeance Be Mine!"
 Inst71Quest4_Level = "80"
 Inst71Quest4_Attain = "80"
 Inst71Quest4_Aim = "Brigg in Utgarde Pinnacle wants you to kill King Ymiron."
-Inst71Quest4_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[??]"..WHITE..")"
+Inst71Quest4_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[A]"..WHITE..")"
 Inst71Quest4_Note = "King Ymiron is at "..YELLOW.."[4]"..WHITE.."."
 Inst71Quest4_Prequest = "None"
 Inst71Quest4_Folgequest = "None"
@@ -9980,10 +9980,10 @@ Inst73Quest2name1 = "Emblem of Heroism"
 --Quest 3 Alliance
 Inst73Quest3 = "3. The Struggle Persists"
 Inst73Quest3_Level = "80"
-Inst73Quest3_Attain = "80"
+Inst73Quest3_Attain = "77"
 Inst73Quest3_Aim = "Raelorasz wants you to enter the Oculus and rescue Belgaristrasz and his companions."
 Inst73Quest3_Location = "Raelorasz (Borean Tundra - Transitus Shield; "..YELLOW.."33.2, 34.4"..WHITE..")"
-Inst73Quest3_Note = "No information."
+Inst73Quest3_Note = "Belgaristrasz is released from his cage after you defeat Drakos the Interrogator at "..YELLOW.."[1]"..WHITE.."."
 Inst73Quest3_Prequest = "None"
 Inst73Quest3_Folgequest = "A Unified Front"
 --
@@ -9995,10 +9995,10 @@ Inst73Quest3name4 = "Staunch Signet"
 --Quest 4 Alliance
 Inst73Quest4 = "4. A Unified Front"
 Inst73Quest4_Level = "80"
-Inst73Quest4_Attain = "80"
+Inst73Quest4_Attain = "77"
 Inst73Quest4_Aim = "Belgaristrasz wants you to destroy 10 Centrifuge Constructs to bring down Varos' shield. You then must defeat Varos Cloudstrider."
-Inst73Quest4_Location = "Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[??]"..WHITE..")"
-Inst73Quest4_Note = "Varos Cloudstrider is at "..YELLOW.."[3]"..WHITE.."."
+Inst73Quest4_Location = "Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[1]"..WHITE..")"
+Inst73Quest4_Note = "Belgaristrasz will appear after you defeat Varos Cloudstrider at "..YELLOW.."[3]"..WHITE.."."
 Inst73Quest4_Prequest = "The Struggle Persists"
 Inst73Quest4_Folgequest = "Mage-Lord Urom"
 Inst73Quest4FQuest = "true"
@@ -10007,10 +10007,10 @@ Inst73Quest4FQuest = "true"
 --Quest 5 Alliance
 Inst73Quest5 = "5. Mage-Lord Urom"
 Inst73Quest5_Level = "80"
-Inst73Quest5_Attain = "80"
+Inst73Quest5_Attain = "77"
 Inst73Quest5_Aim = "Belgaristrasz wants you to defeat Mage-Lord Urom in the Oculus."
-Inst73Quest5_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[??]"..WHITE..")"
-Inst73Quest5_Note = "Mage-Lord Urom is at "..YELLOW.."[2]"..WHITE.."."
+Inst73Quest5_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[3]"..WHITE..")"
+Inst73Quest5_Note = "Belgaristrasz will appear after you defeat Mage-Lord Urom at "..YELLOW.."[2]"..WHITE.."."
 Inst73Quest5_Prequest = "A Unified Front"
 Inst73Quest5_Folgequest = "A Wing and a Prayer"
 Inst73Quest5FQuest = "true"
@@ -10019,9 +10019,9 @@ Inst73Quest5FQuest = "true"
 --Quest 6 Alliance
 Inst73Quest6 = "6. A Wing and a Prayer"
 Inst73Quest6_Level = "80"
-Inst73Quest6_Attain = "80"
+Inst73Quest6_Attain = "77"
 Inst73Quest6_Aim = "Belgaristrasz wants you to kill Eregos in the Oculus and then report to Raelorasz at the Transitus Shield in Coldarra."
-Inst73Quest6_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[??]"..WHITE..")"
+Inst73Quest6_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[2]"..WHITE..")"
 Inst73Quest6_Note = "Ley-Guardian Eregos is at "..YELLOW.."[2]"..WHITE..". Raelorasz is at (Borean Tundra - Transitus Shield; "..YELLOW.."33.2, 34.4"..WHITE..")."
 Inst73Quest6_Prequest = "Mage-Lord Urom"
 Inst73Quest6_Folgequest = "None"
