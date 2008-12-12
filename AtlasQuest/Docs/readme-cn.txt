@@ -8,7 +8,8 @@
 关于AtlasQuest
 =================
 
-AtlasQuest 是一个插件扩展，可以在Atlas或者Alphamap上显示每个副本，战场或者野外首领的相关任务以及任务相关说明和奖励。
+AtlasQuest 是一个基于Atlas或者Alphamap的扩展插件。它能够显示每个副本，战场和户外首领的相关任务，
+并且有注释能够告诉你如何完成这个任务。
 
 AtlasQuest的原作者是Asurn，现在由Thandren(亦称Mystery8) 维护更新。
 
@@ -17,7 +18,7 @@ AtlasQuest的原作者是Asurn，现在由Thandren(亦称Mystery8) 维护更新�
 =================
 英语：Thandrenn (原由 Asurn 和 lothaer 更新)
 德语：Telchar 和 Nalumis (原由 Asurn 和 Nihlo 更新)
-中文(简)：Yeachan 和 Ananhaid (原由DIY更新)
+中文(简)：Yeachan (原由DIY更新)
 中文(繁)：Jill
 
 
@@ -33,11 +34,8 @@ AtlasQuest 的发布遵循 GNU通用公共许可证 (GPL).
 ==================
 
 2008-12-12   更新至4.3.1
-
-      -- 同步更新到最新
-      -- 修正了大量任务的等级
-      -- 删除重复的翻译文本
-      -- 重新格式对比以英文版本进行排序以便以后新进更新
+      -- 巫妖王之怒所有副本和战场任务，副本背景简体化完成
+      -- 按照Thandrenn的做法，移除所有的前续和后续任务说明中的"有"
 
 
 2008-11-07   更新至4.2.1
