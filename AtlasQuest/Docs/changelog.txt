@@ -7,12 +7,24 @@ Version 4.3.1
 - Traditional Chinese localization updated.
 - Fixed AlphaMap WOTLK compatibility.
 - Fixed flags for Deadmines and Gnomeregan quests. Thanks gothic251.
+- Removed Onyxia attunement quests: 
+	- BRD: Marshal Windsor (A)
+	- BRD: A Crumpled Up Note (A)
+	- BRD: A Shred of Hope (A)
+	- BRD: Jailbreak! (A)
+	- UBRS: Drakefire Amulet (A)
 
 - Missing information added for quests in the following instances:
 	- The Nexus: The Oculus
 	- Caverns of Time: Stratholme Past
 	- Ulduar: Halls of Lightning
 	- Utgarde Keep: Utgarde Pinnacle
+
+- Quests Added:
+	- Uldaman: Indurium Ore (thanks gothic251)
+	- UBRS: Egg Collection (thanks nonameform)
+	- Scholomance: The Darkreaver Menace (Shaman) (thanks nonameform)
+	- AQ40: Mortal Champions
 
 
 

@@ -512,8 +512,8 @@ Inst3Quest5_HORDE_Folgequest = "None"
 
 Inst4Story = "Uldaman is an ancient Titan vault that has laid buried deep within the earth since the world's creation. Dwarven excavations have recently penetrated this forgotten city, releasing the Titans' first failed creations: the troggs. Legends say that the Titans created troggs from stone. When they deemed the experiment a failure, the Titans locked the troggs away and tried again - resulting in the creation of the dwarven race. The secrets of the dwarves' creation are recorded on the fabled Discs of Norgannon - massive Titan artifacts that lie at the very bottom of the ancient city. Recently, the Dark Iron dwarves have launched a series of incursions into Uldaman, hoping to claim the discs for their fiery master, Ragnaros. However, protecting the buried city are several guardians - giant constructs of living stone that crush any hapless intruders they find. The Discs themselves are guarded by a massive, sentient Stonekeeper called Archaedas. Some rumors even suggest that the dwarves' stone-skinned ancestors, the earthen, still dwell deep within the city's hidden recesses."
 Inst4Caption = "Uldaman"
-Inst4QAA = "16 Quests"
-Inst4QAH = "10 Quests"
+Inst4QAA = "17 Quests"
+Inst4QAH = "11 Quests"
 
 --Quest 1 Alliance
 Inst4Quest1 = "1. A Sign of Hope"
@@ -636,6 +636,7 @@ Inst4Quest10_Location = "Talvash del Kissel (Ironforge - The Mystic Ward; "..YEL
 Inst4Quest10_Note = "The Paladin is at "..YELLOW.."[2]"..WHITE.."."
 Inst4Quest10_Prequest = "Lore for a Price"
 Inst4Quest10_Folgequest = "Find the Gems"
+Inst4Quest10FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
@@ -656,7 +657,7 @@ Inst4Quest12_Level = "44"
 Inst4Quest12_Attain = "37"
 Inst4Quest12_Aim = "Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge."
 Inst4Quest12_Location = "Talvash's Scrying Bowl"
-Inst4Quest12_Note = "The Shattered Necklace Power Source drops Archaedas "..YELLOW.."[10]"..WHITE.."."
+Inst4Quest12_Note = "The Shattered Necklace Power Source drops from Archaedas "..YELLOW.."[10]"..WHITE.."."
 Inst4Quest12_Prequest = "Find the Gems."
 Inst4Quest12_Folgequest = "None"
 --
@@ -669,7 +670,7 @@ Inst4Quest13_Level = "42"
 Inst4Quest13_Attain = "38"
 Inst4Quest13_Aim = "Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar."
 Inst4Quest13_Location = "Ghak Healtouch (Loch Modan - Thelsamar; "..YELLOW.."37,49"..WHITE..")"
-Inst4Quest13_Note = "The caps are scattered throughout the instance. Herbalists can see them on their minimap if Track Herbs is on and they have the quest."
+Inst4Quest13_Note = "The caps are scattered throughout the instance. Herbalists can see them on their minimap if Track Herbs is on and they have the quest. The prequest is obtained from the same NPC."
 Inst4Quest13_Prequest = "Badlands Reagent Run"
 Inst4Quest13_Folgequest = "None"
 Inst4Quest13PreQuest = "true"
@@ -712,6 +713,19 @@ Inst4Quest16_Prequest = "The Exorcism"
 Inst4Quest16_Folgequest = "Mana Surges"
 Inst4Quest16PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 17 Alliance
+Inst4Quest17 = "17. Indurium Ore"
+Inst4Quest17_Level = "42"
+Inst4Quest17_Attain = "29"
+Inst4Quest17_Aim = "Bring 4 Indurium Ore to Pozzik in Thousand Needles."
+Inst4Quest17_Location = "Pozzik (Thousand Needles - Mirage Raceway; "..YELLOW.."80.1, 75.9"..WHITE..")"
+Inst4Quest17_Note = "This is a repeatable quest after the prequests are complete. It gives no reputation or experience, just a small amount of money. Indurium Ore can be mined inside Uldaman or purchased from other players."
+Inst4Quest17_Prequest = "Keeping Pace -> Rizzle's Schematics"
+Inst4Quest17_Folgequest = "None"
+Inst4Quest17PreQuest = "true"
+-- No Rewards for this quest
+
 
 
 --Quest 1 Horde  (same as Quest 4 Alliance)
@@ -838,13 +852,25 @@ Inst4Quest10_HORDE_Folgequest = Inst4Quest16_Folgequest
 Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
 -- No Rewards for this quest
 
+--Quest 11 Horde  (same as Quest 17 Alliance)
+Inst4Quest11_HORDE = "11. Indurium Ore"
+Inst4Quest11_HORDE_Level = Inst4Quest17_Level
+Inst4Quest11_HORDE_Attain = Inst4Quest17_Attain
+Inst4Quest11_HORDE_Aim = Inst4Quest17_Aim
+Inst4Quest11_HORDE_Location = Inst4Quest17_Location
+Inst4Quest11_HORDE_Note = Inst4Quest17_Note
+Inst4Quest11_HORDE_Prequest = Inst4Quest17_Prequest
+Inst4Quest11_HORDE_Folgequest = Inst4Quest17_Folgequest
+Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
+-- No Rewards for this quest
+
 
 
 --------------- INST5 - Blackrock Depths (BRD) ---------------
 
 Inst5Story = "Once the capital city of the Dark Iron dwarves, this volcanic labyrinth now serves as the seat of power for Ragnaros the Firelord. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain. Obsessed with defeating Nefarian and his draconic minions, Ragnaros will go to any extreme to achieve final victory."
 Inst5Caption = "Blackrock Depths"
-Inst5QAA = "20 Quests"
+Inst5QAA = "16 Quests"
 Inst5QAH = "20 Quests"
 
 --Quest 1 Alliance
@@ -953,156 +979,101 @@ Inst5Quest8_Folgequest = "None"
 Inst5Quest8name1 = "A Dingy Fanny Pack"
 
 --Quest 9 Alliance
-Inst5Quest9 = "9. Marshal Windsor"
-Inst5Quest9_Level = "54"
-Inst5Quest9_Attain = "48"
-Inst5Quest9_Aim = "Travel to Blackrock Mountain in the northwest and enter Blackrock Depths. Find out what became of Marshal Windsor.\nYou recall Ragged John talking about Windsor being dragged off to a prison."
-Inst5Quest9_Location = "Marshal Maxwell (Burning Steppes - Morgan's Vigil; "..YELLOW.."84,68"..WHITE..")"
-Inst5Quest9_Note = "This is part of the Onyxia attunement questline. It starts at Helendis Riverhorn (Burning Steppes - Morgan's Vigil; "..YELLOW.."85,68"..WHITE..").\nMarshal Windsor is at "..YELLOW.."[4]"..WHITE..". You have to come back to Maxwell after completing this quest."
-Inst5Quest9_Prequest = "Dragonkin Menace -> The True Masters"
-Inst5Quest9_Folgequest = "Abandoned Hope -> A Crumpled Up Note"
+Inst5Quest9 = "9. A Taste of Flame"
+Inst5Quest9_Level = "58"
+Inst5Quest9_Attain = "52"
+Inst5Quest9_Aim = "Travel to Blackrock Depths and slay Bael'Gar. "..YELLOW.."[...]"..WHITE.." Return the Encased Fiery Essence to Cyrus Therepentous."
+Inst5Quest9_Location = "Cyrus Therepentous (Burning Steppes; "..YELLOW.."95,31"..WHITE..")"
+Inst5Quest9_Note = "The questline starts at Kalaran Windblade (Searing Gorge; "..YELLOW.."39,38"..WHITE..").\nBael'Gar is at "..YELLOW.."[11]"..WHITE.."."
+Inst5Quest9_Prequest = "The Flawless Flame -> A Taste of Flame"
+Inst5Quest9_Folgequest = "None"
 Inst5Quest9PreQuest = "true"
 --
-Inst5Quest9name1 = "Conservator Helm"
-Inst5Quest9name2 = "Shieldplate Sabatons"
-Inst5Quest9name3 = "Windshear Leggings"
+Inst5Quest9name1 = "Shaleskin Cape"
+Inst5Quest9name2 = "Wyrmhide Spaulders"
+Inst5Quest9name3 = "Valconian Sash"
 
 --Quest 10 Alliance
-Inst5Quest10 = "10. A Crumpled Up Note"
-Inst5Quest10_Level = "58"
+Inst5Quest10 = "10. Kharan Mighthammer"
+Inst5Quest10_Level = "59"
 Inst5Quest10_Attain = "50"
-Inst5Quest10_Aim = "You may have just stumbled on to something that Marshal Windsor would be interested in seeing. There may be hope, after all."
-Inst5Quest10_Location = "A Crumpled Up Note (random drop from Blackrock Depths)"
-Inst5Quest10_Note = "This is part of the Onyxia attunement questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..". Best chance for drops seems to be the Dark Iron mobs around the Quarry."
-Inst5Quest10_Prequest = "Marshal Windsor"
-Inst5Quest10_Folgequest = "A Shred of Hope"
-Inst5Quest10FQuest = "true"
+Inst5Quest10_Aim = "Travel to Blackrock Depths and find Kharan Mighthammer.\nThe King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison."
+Inst5Quest10_Location = "King Magni Bronzebeard (Ironforge; "..YELLOW.."39,55"..WHITE..")"
+Inst5Quest10_Note = "The prequest starts at Royal Historian Archesonus (Ironforge; "..YELLOW.."38,55"..WHITE.."). Kharan Mighthammer is at "..YELLOW.."[2]"..WHITE.."."
+Inst5Quest10_Prequest = "The Smoldering Ruins of Thaurissan"
+Inst5Quest10_Folgequest = "The Bearer of Bad News"
+Inst5Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst5Quest11 = "11. A Shred of Hope"
-Inst5Quest11_Level = "58"
-Inst5Quest11_Attain = "52"
-Inst5Quest11_Aim = "Return Marshal Windsor's Lost Information.\nMarshal Windsor believes that the information is being held by Golem Lord Argelmach and General Angerforge."
-Inst5Quest11_Location = "Marshal Windsor (Blackrock Depths; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest11_Note = "This is part of the Onyxia attunement questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..".\nYou find Golem Lord Argelmach at "..YELLOW.."[14]"..WHITE..", General Angerforge at "..YELLOW.."[13]"..WHITE.."."
-Inst5Quest11_Prequest = "A Crumpled Up Note"
-Inst5Quest11_Folgequest = "Jail Break!"
+Inst5Quest11 = "11. The Fate of the Kingdom"
+Inst5Quest11_Level = "59"
+Inst5Quest11_Attain = "51"
+Inst5Quest11_Aim = "Return to Blackrock Depths and rescue Princess Moira Bronzebeard from the evil clutches of Emperor Dagran Thaurissan."
+Inst5Quest11_Location = "King Magni Bronzebeard (Ironforge; "..YELLOW.."39,55"..WHITE..")"
+Inst5Quest11_Note = "Princess Moira Bronzebeard is at "..YELLOW.."[21]"..WHITE..". During the fight she might heal Dagran. Try to interrupt her as often as possible, but hurry as she must not die or you can't complete the quest! After talking to her you have to return to Magni Bronzebeard."
+Inst5Quest11_Prequest = "The Bearer of Bad News"
+Inst5Quest11_Folgequest = "The Princess's Surprise"
 Inst5Quest11FQuest = "true"
--- No Rewards for this quest
+--
+Inst5Quest11name1 = "Magni's Will"
+Inst5Quest11name2 = "Songstone of Ironforge"
 
 --Quest 12 Alliance
-Inst5Quest12 = "12. Jail Break!"
-Inst5Quest12_Level = "58"
-Inst5Quest12_Attain = "52"
-Inst5Quest12_Aim = "Help Marshal Windsor get his gear back and free his friends. Return to Marshal Maxwell if you succeed."
-Inst5Quest12_Location = "Marshal Windsor (Blackrock Depths; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest12_Note = "This is part of the Onyxia attunement questline. Marshal Windsor is at "..YELLOW.."[4]"..WHITE..".\nThe quest is easier if you clean the Ring of Law ("..YELLOW.."[6]"..WHITE..") and the path to the entrance before you start the event. You find Marshal Maxwell at Burning Steppes - Morgan's Vigil ("..YELLOW.."84,68"..WHITE..")"
-Inst5Quest12_Prequest = "A Shred of Hope"
-Inst5Quest12_Folgequest = "Stormwind Rendezvous"
-Inst5Quest12FQuest = "true"
---
-Inst5Quest12name1 = "Ward of the Elements"
-Inst5Quest12name2 = "Blade of Reckoning"
-Inst5Quest12name3 = "Skilled Fighting Blade"
+Inst5Quest12 = "12. Attunement to the Core"
+Inst5Quest12_Level = "60"
+Inst5Quest12_Attain = "55"
+Inst5Quest12_Aim = "Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment."
+Inst5Quest12_Location = "Lothos Riftwaker (Blackrock Mountain; "..YELLOW.."[2] on Entrance Map"..WHITE..")"
+Inst5Quest12_Note = "After comleting this quest, you can use the stone next to Lothos Riftwaker to enter the Molten Core.\nYou find the Core Fragment near "..YELLOW.."[23]"..WHITE..", very close to the Molten Core portal."
+Inst5Quest12_Prequest = "None"
+Inst5Quest12_Folgequest = "None"
+-- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst5Quest13 = "13. A Taste of Flame"
-Inst5Quest13_Level = "58"
-Inst5Quest13_Attain = "52"
-Inst5Quest13_Aim = "Travel to Blackrock Depths and slay Bael'Gar. "..YELLOW.."[...]"..WHITE.." Return the Encased Fiery Essence to Cyrus Therepentous."
-Inst5Quest13_Location = "Cyrus Therepentous (Burning Steppes; "..YELLOW.."95,31"..WHITE..")"
-Inst5Quest13_Note = "The questline starts at Kalaran Windblade (Searing Gorge; "..YELLOW.."39,38"..WHITE..").\nBael'Gar is at "..YELLOW.."[11]"..WHITE.."."
-Inst5Quest13_Prequest = "The Flawless Flame -> A Taste of Flame"
-Inst5Quest13_Folgequest = "None"
-Inst5Quest13PreQuest = "true"
---
-Inst5Quest13name1 = "Shaleskin Cape"
-Inst5Quest13name2 = "Wyrmhide Spaulders"
-Inst5Quest13name3 = "Valconian Sash"
+Inst5Quest13 = "13. The Challenge"
+Inst5Quest13_Level = "60"
+Inst5Quest13_Attain = "60"
+Inst5Quest13_Aim = "Travel to the Ring of the Law in Blackrock Depths and place the Banner of Provocation in its center as you are sentenced by High Justice Grimstone. Slay Theldren and his gladiators and return to Anthion Harmon in the Eastern Plaguelands with the first piece of Lord Valthalak's amulet."
+Inst5Quest13_Location = "Falrin Treeshaper (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")"
+Inst5Quest13_Note = "Followup quest is different for each class."
+Inst5Quest13_Prequest = "None"
+Inst5Quest13_Folgequest = "Varies for each class"
+-- No Rewards for this quest
 
 --Quest 14 Alliance
-Inst5Quest14 = "14. Kharan Mighthammer"
-Inst5Quest14_Level = "59"
-Inst5Quest14_Attain = "50"
-Inst5Quest14_Aim = "Travel to Blackrock Depths and find Kharan Mighthammer.\nThe King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison."
-Inst5Quest14_Location = "King Magni Bronzebeard (Ironforge; "..YELLOW.."39,55"..WHITE..")"
-Inst5Quest14_Note = "The prequest starts at Royal Historian Archesonus (Ironforge; "..YELLOW.."38,55"..WHITE.."). Kharan Mighthammer is at "..YELLOW.."[2]"..WHITE.."."
-Inst5Quest14_Prequest = "The Smoldering Ruins of Thaurissan"
-Inst5Quest14_Folgequest = "The Bearer of Bad News"
-Inst5Quest14PreQuest = "true"
+Inst5Quest14 = "14. The Spectral Chalice"
+Inst5Quest14_Level = "55"
+Inst5Quest14_Attain = "55"
+Inst5Quest14_Aim = "Place the materials Gloom'Rel wants in the The Spectral Chalice."
+Inst5Quest14_Location = "Gloom'Rel (Blackrock Depths; "..YELLOW.."[18]"..WHITE..")"
+Inst5Quest14_Note = "Only Miners with skill 230 or higher can get this quest to learn Smelt Dark Iron. Materials for the Chalice: 2 [Star Ruby], 20 [Gold Bar], 10 [Truesilver Bar]. Afterwards, if you have [Dark Iron Ore] you can take it to The Black Forge at "..YELLOW.."[22]"..WHITE.." and Smelt it."
+Inst5Quest14_Prequest = "None"
+Inst5Quest14_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst5Quest15 = "15. The Fate of the Kingdom"
-Inst5Quest15_Level = "59"
-Inst5Quest15_Attain = "51"
-Inst5Quest15_Aim = "Return to Blackrock Depths and rescue Princess Moira Bronzebeard from the evil clutches of Emperor Dagran Thaurissan."
-Inst5Quest15_Location = "King Magni Bronzebeard (Ironforge; "..YELLOW.."39,55"..WHITE..")"
-Inst5Quest15_Note = "Princess Moira Bronzebeard is at "..YELLOW.."[21]"..WHITE..". During the fight she might heal Dagran. Try to interrupt her as often as possible, but hurry as she must not die or you can't complete the quest! After talking to her you have to return to Magni Bronzebeard."
-Inst5Quest15_Prequest = "The Bearer of Bad News"
-Inst5Quest15_Folgequest = "The Princess's Surprise"
-Inst5Quest15FQuest = "true"
---
-Inst5Quest15name1 = "Magni's Will"
-Inst5Quest15name2 = "Songstone of Ironforge"
+Inst5Quest15 = "15. Save Brewfest! (Seasonal)"
+Inst5Quest15_Level = "70"
+Inst5Quest15_Attain = "65"
+Inst5Quest15_Aim = "Speak with the Brewfest Spy in the Grim Guzzler of Blackrock Depths."
+Inst5Quest15_Location = "Darna Honeybock (Dun Morogh - Kharanos; "..YELLOW.."46.53"..WHITE..")"
+Inst5Quest15_Note = "This quest is only available during the Brewfest seasonal event. The Brewfest Spy is at "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest15_Prequest = "None"
+Inst5Quest15_Folgequest = "Insult Coren Direbrew"
+-- No Rewards for this quest
 
 --Quest 16 Alliance
-Inst5Quest16 = "16. Attunement to the Core"
-Inst5Quest16_Level = "60"
-Inst5Quest16_Attain = "55"
-Inst5Quest16_Aim = "Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment."
-Inst5Quest16_Location = "Lothos Riftwaker (Blackrock Mountain; "..YELLOW.."[2] on Entrance Map"..WHITE..")"
-Inst5Quest16_Note = "After comleting this quest, you can use the stone next to Lothos Riftwaker to enter the Molten Core.\nYou find the Core Fragment near "..YELLOW.."[23]"..WHITE..", very close to the Molten Core portal."
-Inst5Quest16_Prequest = "None"
+Inst5Quest16 = "16. Insult Coren Direbrew (Daily - Seasonal)"
+Inst5Quest16_Level = "70"
+Inst5Quest16_Attain = "65"
+Inst5Quest16_Aim = "Speak with Coren Direbrew."
+Inst5Quest16_Location = "Brewfest Spy (Blackrock Depths - Grim Guzzler; "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest16_Note = "Completing this quest will make Coren Direbrew attack you. It can be once a day per person during the Brewfest seasonal event.\nThe prequest only needs to be done once. Afterwards you can start the daily from inside Blackrock Depths."
+Inst5Quest16_Prequest = "Save Brewfest!"
 Inst5Quest16_Folgequest = "None"
+Inst5Quest16FQuest = "true"
 -- No Rewards for this quest
-
---Quest 17 Alliance
-Inst5Quest17 = "17. The Challenge"
-Inst5Quest17_Level = "60"
-Inst5Quest17_Attain = "60"
-Inst5Quest17_Aim = "Travel to the Ring of the Law in Blackrock Depths and place the Banner of Provocation in its center as you are sentenced by High Justice Grimstone. Slay Theldren and his gladiators and return to Anthion Harmon in the Eastern Plaguelands with the first piece of Lord Valthalak's amulet."
-Inst5Quest17_Location = "Falrin Treeshaper (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")"
-Inst5Quest17_Note = "Followup quest is different for each class."
-Inst5Quest17_Prequest = "None"
-Inst5Quest17_Folgequest = "(Class Quests)"
--- No Rewards for this quest
-
---Quest 18 Alliance
-Inst5Quest18 = "18. The Spectral Chalice"
-Inst5Quest18_Level = "55"
-Inst5Quest18_Attain = "55"
-Inst5Quest18_Aim = "Place the materials Gloom'Rel wants in the The Spectral Chalice."
-Inst5Quest18_Location = "Gloom'Rel (Blackrock Depths; "..YELLOW.."[18]"..WHITE..")"
-Inst5Quest18_Note = "Only Miners with skill 230 or higher can get this quest to learn Smelt Dark Iron. Materials for the Chalice: 2 [Star Ruby], 20 [Gold Bar], 10 [Truesilver Bar]. Afterwards, if you have [Dark Iron Ore] you can take it to The Black Forge at "..YELLOW.."[22]"..WHITE.." and Smelt it."
-Inst5Quest18_Prequest = "None"
-Inst5Quest18_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 19 Alliance
-Inst5Quest19 = "19. Save Brewfest! (Seasonal)"
-Inst5Quest19_Level = "70"
-Inst5Quest19_Attain = "65"
-Inst5Quest19_Aim = "Speak with the Brewfest Spy in the Grim Guzzler of Blackrock Depths."
-Inst5Quest19_Location = "Darna Honeybock (Dun Morogh - Kharanos; "..YELLOW.."46.53"..WHITE..")"
-Inst5Quest19_Note = "This quest is only available during the Brewfest seasonal event. The Brewfest Spy is at "..YELLOW.."[15]"..WHITE.."."
-Inst5Quest19_Prequest = "None"
-Inst5Quest19_Folgequest = "Insult Coren Direbrew"
--- No Rewards for this quest
-
---Quest 20 Alliance
-Inst5Quest20 = "20. Insult Coren Direbrew (Daily - Seasonal)"
-Inst5Quest20_Level = "70"
-Inst5Quest20_Attain = "65"
-Inst5Quest20_Aim = "Speak with Coren Direbrew."
-Inst5Quest20_Location = "Brewfest Spy (Blackrock Depths - Grim Guzzler; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest20_Note = "Completing this quest will make Coren Direbrew attack you. It can be once a day per person during the Brewfest seasonal event.\nThe prequest only needs to be done once. Afterwards you can start the daily from inside Blackrock Depths."
-Inst5Quest20_Prequest = "Save Brewfest!"
-Inst5Quest20_Folgequest = "None"
-Inst5Quest20FQuest = "true"
--- No Rewards for this quest
-
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1224,20 +1195,20 @@ Inst5Quest9name2_HORDE = "Raincaster Drape"
 Inst5Quest9name3_HORDE = "Basaltscale Armor"
 Inst5Quest9name4_HORDE = "Lavaplate Gauntlets"
 
---Quest 10 Horde  (same as Quest 13 Alliance)
+--Quest 10 Horde  (same as Quest 9 Alliance)
 Inst5Quest10_HORDE = "10. A Taste of Flame"
-Inst5Quest10_HORDE_Level = Inst5Quest13_Level
-Inst5Quest10_HORDE_Attain = Inst5Quest13_Attain
-Inst5Quest10_HORDE_Aim = Inst5Quest13_Aim
-Inst5Quest10_HORDE_Location = Inst5Quest13_Location
-Inst5Quest10_HORDE_Note = Inst5Quest13_Note
-Inst5Quest10_HORDE_Prequest = Inst5Quest13_Prequest
-Inst5Quest10_HORDE_Folgequest = Inst5Quest13_Folgequest
-Inst5Quest10PreQuest_HORDE = Inst5Quest13PreQuest
+Inst5Quest10_HORDE_Level = Inst5Quest9_Level
+Inst5Quest10_HORDE_Attain = Inst5Quest9_Attain
+Inst5Quest10_HORDE_Aim = Inst5Quest9_Aim
+Inst5Quest10_HORDE_Location = Inst5Quest9_Location
+Inst5Quest10_HORDE_Note = Inst5Quest9_Note
+Inst5Quest10_HORDE_Prequest = Inst5Quest9_Prequest
+Inst5Quest10_HORDE_Folgequest = Inst5Quest9_Folgequest
+Inst5Quest10PreQuest_HORDE = Inst5Quest9PreQuest
 --
-Inst5Quest10name1_HORDE = Inst5Quest13name1
-Inst5Quest10name2_HORDE = Inst5Quest13name2
-Inst5Quest10name3_HORDE = Inst5Quest13name3
+Inst5Quest10name1_HORDE = Inst5Quest9name1
+Inst5Quest10name2_HORDE = Inst5Quest9name2
+Inst5Quest10name3_HORDE = Inst5Quest9name3
 
 --Quest 11 Horde
 Inst5Quest11_HORDE = "11. Disharmony of Flame"
@@ -1304,59 +1275,59 @@ Inst5Quest15FQuest_HORDE = "true"
 Inst5Quest15name1_HORDE = "Thrall's Resolve"
 Inst5Quest15name2_HORDE = "Eye of Orgrimmar"
 
---Quest 16 Horde  (same as Quest 16 Alliance)
-Inst5Quest16_HORDE = Inst5Quest16
-Inst5Quest16_HORDE_Level = Inst5Quest16_Level
-Inst5Quest16_HORDE_Attain = Inst5Quest16_Attain
-Inst5Quest16_HORDE_Aim = Inst5Quest16_Aim
-Inst5Quest16_HORDE_Location = Inst5Quest16_Location
-Inst5Quest16_HORDE_Note = Inst5Quest16_Note
-Inst5Quest16_HORDE_Prequest = Inst5Quest16_Prequest
-Inst5Quest16_HORDE_Folgequest = Inst5Quest16_Folgequest
+--Quest 16 Horde  (same as Quest 12 Alliance)
+Inst5Quest16_HORDE = "16. Attunement to the Core"
+Inst5Quest16_HORDE_Level = Inst5Quest12_Level
+Inst5Quest16_HORDE_Attain = Inst5Quest12_Attain
+Inst5Quest16_HORDE_Aim = Inst5Quest12_Aim
+Inst5Quest16_HORDE_Location = Inst5Quest12_Location
+Inst5Quest16_HORDE_Note = Inst5Quest12_Note
+Inst5Quest16_HORDE_Prequest = Inst5Quest12_Prequest
+Inst5Quest16_HORDE_Folgequest = Inst5Quest12_Folgequest
 -- No Rewards for this quest
 
---Quest 17 Horde  (same as Quest 17 Alliance)
-Inst5Quest17_HORDE = Inst5Quest17
-Inst5Quest17_HORDE_Level = Inst5Quest17_Level
-Inst5Quest17_HORDE_Attain = Inst5Quest17_Attain
-Inst5Quest17_HORDE_Aim = Inst5Quest17_Aim
-Inst5Quest17_HORDE_Location = Inst5Quest17_Location
-Inst5Quest17_HORDE_Note = Inst5Quest17_Note
-Inst5Quest17_HORDE_Prequest = Inst5Quest17_Prequest
-Inst5Quest17_HORDE_Folgequest = Inst5Quest17_Folgequest
+--Quest 17 Horde  (same as Quest 13 Alliance)
+Inst5Quest17_HORDE = "17. The Challenge"
+Inst5Quest17_HORDE_Level = Inst5Quest13_Level
+Inst5Quest17_HORDE_Attain = Inst5Quest13_Attain
+Inst5Quest17_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest17_HORDE_Location = Inst5Quest13_Location
+Inst5Quest17_HORDE_Note = Inst5Quest13_Note
+Inst5Quest17_HORDE_Prequest = Inst5Quest13_Prequest
+Inst5Quest17_HORDE_Folgequest = Inst5Quest13_Folgequest
 -- No Rewards for this quest
 
---Quest 18 Horde  (same as Quest 18 Alliance)
-Inst5Quest18_HORDE = Inst5Quest18
-Inst5Quest18_HORDE_Level = Inst5Quest18_Level
-Inst5Quest18_HORDE_Attain = Inst5Quest18_Attain
-Inst5Quest18_HORDE_Aim = Inst5Quest18_Aim
-Inst5Quest18_HORDE_Location = Inst5Quest18_Location
-Inst5Quest18_HORDE_Note = Inst5Quest18_Note
-Inst5Quest18_HORDE_Prequest = Inst5Quest18_Prequest
-Inst5Quest18_HORDE_Folgequest = Inst5Quest18_Folgequest
+--Quest 18 Horde  (same as Quest 14 Alliance)
+Inst5Quest18_HORDE = "18. The Spectral Chalice"
+Inst5Quest18_HORDE_Level = Inst5Quest14_Level
+Inst5Quest18_HORDE_Attain = Inst5Quest14_Attain
+Inst5Quest18_HORDE_Aim = Inst5Quest14_Aim
+Inst5Quest18_HORDE_Location = Inst5Quest14_Location
+Inst5Quest18_HORDE_Note = Inst5Quest14_Note
+Inst5Quest18_HORDE_Prequest = Inst5Quest14_Prequest
+Inst5Quest18_HORDE_Folgequest = Inst5Quest14_Folgequest
 -- No Rewards for this quest
 
---Quest 19 Horde  (same as Quest 19 Alliance)
-Inst5Quest19_HORDE = Inst5Quest19
-Inst5Quest19_HORDE_Level = Inst5Quest19_Level
-Inst5Quest19_HORDE_Attain = Inst5Quest19_Attain
-Inst5Quest19_HORDE_Aim = Inst5Quest19_Aim
-Inst5Quest19_HORDE_Location = Inst5Quest19_Location
-Inst5Quest19_HORDE_Note = Inst5Quest19_Note
-Inst5Quest19_HORDE_Prequest = Inst5Quest19_Prequest
-Inst5Quest19_HORDE_Folgequest = Inst5Quest19_Folgequest
+--Quest 19 Horde  (same as Quest15 Alliance)
+Inst5Quest19_HORDE = "19. Save Brewfest! (Seasonal)"
+Inst5Quest19_HORDE_Level = Inst5Quest15_Level
+Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
+Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
+Inst5Quest19_HORDE_Location = Inst5Quest15_Location
+Inst5Quest19_HORDE_Note = Inst5Quest15_Note
+Inst5Quest19_HORDE_Prequest = Inst5Quest15_Prequest
+Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
 -- No Rewards for this quest
 
---Quest 20 Horde  (same as Quest 20 Alliance)
-Inst5Quest20_HORDE = Inst5Quest20
-Inst5Quest20_HORDE_Level = Inst5Quest20_Level
-Inst5Quest20_HORDE_Attain = Inst5Quest20_Attain
-Inst5Quest20_HORDE_Aim = Inst5Quest20_Aim
-Inst5Quest20_HORDE_Location = Inst5Quest20_Location
-Inst5Quest20_HORDE_Note = Inst5Quest20_Note
-Inst5Quest20_HORDE_Prequest = Inst5Quest20_Prequest
-Inst5Quest20_HORDE_Folgequest = Inst5Quest20_Folgequest
+--Quest 20 Horde  (same as Quest 16 Alliance)
+Inst5Quest20_HORDE = "20. Insult Coren Direbrew (Daily - Seasonal)"
+Inst5Quest20_HORDE_Level = Inst5Quest16_Level
+Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
+Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
+Inst5Quest20_HORDE_Location = Inst5Quest16_Location
+Inst5Quest20_HORDE_Note = Inst5Quest16_Note
+Inst5Quest20_HORDE_Prequest = Inst5Quest16_Prequest
+Inst5Quest20_HORDE_Folgequest = Inst5Quest16_Folgequest
 Inst5Quest20FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -1902,7 +1873,7 @@ Inst8Quest10_HORDE_Level = "60"
 Inst8Quest10_HORDE_Attain = "55"
 Inst8Quest10_HORDE_Aim = "Slay Highlord Omokk, War Master Voone, and Overlord Wyrmthalak. Recover Important Blackrock Documents. Return to Warlord Goretooth in Kargath when the mission has been accomplished."
 Inst8Quest10_HORDE_Location = "Warlord Goretooth (Badlands - Kargath; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest10_HORDE_Note = "Onyxia Prequest.\nYou find Highlord Omokk at "..YELLOW.."[5]"..WHITE..", War Master Voone at "..YELLOW.."[9]"..WHITE.." and Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..". The Blackrock Documents could appear next to one of these 3 bosses."
+Inst8Quest10_HORDE_Note = "You find Highlord Omokk at "..YELLOW.."[5]"..WHITE..", War Master Voone at "..YELLOW.."[9]"..WHITE.." and Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..". The Blackrock Documents could appear next to one of these 3 bosses."
 Inst8Quest10_HORDE_Prequest = "None"
 Inst8Quest10_HORDE_Folgequest = "Eitrigg's Wisdom -> For the Horde! ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
 --
@@ -1967,7 +1938,7 @@ Inst8Quest14name2_HORDE = Inst8Quest14name2
 
 Inst9Story = "The mighty fortress carved within the fiery bowels of Blackrock Mountain was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths. Realizing that the dwarves were led by the mighty fire elemental, Ragnaros - Nefarian vowed to crush his enemies and claim the whole of Blackrock mountain for himself."
 Inst9Caption = "Blackrock Spire (Upper)"
-Inst9QAA = "11 Quests"
+Inst9QAA = "10 Quests"
 Inst9QAH = "12 Quests"
 
 --Quest 1 Alliance
@@ -2046,68 +2017,67 @@ Inst9Quest6name1 = "Swiftfoot Treads"
 Inst9Quest6name2 = "Blinkstrike Armguards"
 
 --Quest 7 Alliance
-Inst9Quest7 = "7. Drakefire Amulet"
+Inst9Quest7 = "7. Blackhand's Command"
 Inst9Quest7_Level = "60"
-Inst9Quest7_Attain = "50"
-Inst9Quest7_Aim = "You must retrieve the Blood of the Black Dragon Champion from General Drakkisath. Drakkisath can be found in his throne room behind the Halls of Ascension in Blackrock Spire."
-Inst9Quest7_Location = "Haleh (Winterspring; "..YELLOW.."54,51"..WHITE..")"
-Inst9Quest7_Note = "Last part of the Onyxia quest chain for the Alliance. You find General Drakkisath at "..YELLOW.."[9]"..WHITE.."."
-Inst9Quest7_Prequest = "The Dragon's Eye"
+Inst9Quest7_Attain = "55"
+Inst9Quest7_Aim = "The letter indicates that General Drakkisath guards the brand. Perhaps you should investigate."
+Inst9Quest7_Location = "Blackhand's Command (drops from Scarshield Quartermaster; "..YELLOW.."[7] on Entrance Map"..WHITE..")"
+Inst9Quest7_Note = "Blackwing Lair attunement quest. Scarshield Quartermaster is found if you turn right before the LBRS/UBRS portal.\n\nGeneral Drakkisath is at "..YELLOW.."[9]"..WHITE..". The brand is behind him."
+Inst9Quest7_Prequest = "None"
 Inst9Quest7_Folgequest = "None"
-Inst9Quest7PreQuest = "true"
---
-Inst9Quest7name1 = "Drakefire Amulet"
+-- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst9Quest8 = "8. Blackhand's Command"
+Inst9Quest8 = "8. Final Preparations"
 Inst9Quest8_Level = "60"
-Inst9Quest8_Attain = "55"
-Inst9Quest8_Aim = "The letter indicates that General Drakkisath guards the brand. Perhaps you should investigate."
-Inst9Quest8_Location = "Blackhand's Command (drops from Scarshield Quartermaster; "..YELLOW.."[7] on Entrance Map"..WHITE..")"
-Inst9Quest8_Note = "Blackwing Lair attunement quest. Scarshield Quartermaster is found if you turn right before the LBRS/UBRS portal.\n\nGeneral Drakkisath is at "..YELLOW.."[9]"..WHITE..". The brand is behind him."
-Inst9Quest8_Prequest = "None"
-Inst9Quest8_Folgequest = "None"
+Inst9Quest8_Attain = "58"
+Inst9Quest8_Aim = "Gather 40 Blackrock Bracers and acquire a Flask of Supreme Power. Return them to Bodley inside Blackrock Mountain."
+Inst9Quest8_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst9Quest8_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Blackrock Bracers drop off mobs with Blackhand in the name. Flask of Supreme Power is made by an Alchemist."
+Inst9Quest8_Prequest = "The Right Piece of Lord Valthalak's Amulet ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
+Inst9Quest8_Folgequest = "Mea Culpa, Lord Valthalak"
+Inst9Quest8PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst9Quest9 = "9. Final Preparations"
+Inst9Quest9 = "9. Mea Culpa, Lord Valthalak"
 Inst9Quest9_Level = "60"
 Inst9Quest9_Attain = "58"
-Inst9Quest9_Aim = "Gather 40 Blackrock Bracers and acquire a Flask of Supreme Power. Return them to Bodley inside Blackrock Mountain."
+Inst9Quest9_Aim = "Use the Brazier of Beckoning to summon Lord Valthalak. Dispatch him, and use Lord Valthalak's Amulet on the corpse. Then, return Lord Valthalak's Amulet to the Spirit of Lord Valthalak."
 Inst9Quest9_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst9Quest9_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Blackrock Bracers drop off mobs with Blackhand in the name. Flask of Supreme Power is made by an Alchemist."
-Inst9Quest9_Prequest = "The Right Piece of Lord Valthalak's Amulet ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
-Inst9Quest9_Folgequest = "Mea Culpa, Lord Valthalak"
-Inst9Quest9PreQuest = "true"
--- No Rewards for this quest
+Inst9Quest9_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Lord Valthalak is summoned at "..YELLOW.."[8]"..WHITE..". Rewards listed are for Return to Bodley."
+Inst9Quest9_Prequest = "Final Preparations"
+Inst9Quest9_Folgequest = "Return to Bodley"
+Inst9Quest9FQuest = "true"
+--
+Inst9Quest9name1 = "Brazier of Invocation"
+Inst9Quest9name2 = "Brazier of Invocation: User's Manual"
 
 --Quest 10 Alliance
-Inst9Quest10 = "10. Mea Culpa, Lord Valthalak"
+Inst9Quest10 = "10. The Demon Forge"
 Inst9Quest10_Level = "60"
-Inst9Quest10_Attain = "58"
-Inst9Quest10_Aim = "Use the Brazier of Beckoning to summon Lord Valthalak. Dispatch him, and use Lord Valthalak's Amulet on the corpse. Then, return Lord Valthalak's Amulet to the Spirit of Lord Valthalak."
-Inst9Quest10_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst9Quest10_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Lord Valthalak is summoned at "..YELLOW.."[8]"..WHITE..". Rewards listed are for Return to Bodley."
-Inst9Quest10_Prequest = "Final Preparations"
-Inst9Quest10_Folgequest = "Return to Bodley"
-Inst9Quest10FQuest = "true"
+Inst9Quest10_Attain = "55"
+Inst9Quest10_Aim = "Travel to Blackrock Spire and find Goraluk Anvilcrack. Slay him and then use the Blood Stained Pike upon his corpse. After his soul has been siphoned, the pike will be Soul Stained. You must also find the Unforged Rune Covered Breastplate. Return both the Soul Stained Pike and the Unforged Rune Covered Breastplate to Lorax in Winterspring."
+Inst9Quest10_Location = "Lorax (Winterspring; "..YELLOW.."64,74"..WHITE..")"
+Inst9Quest10_Note = "Blacksmith quest. Goraluk Anvilcrack is at "..YELLOW.."[5]"..WHITE.."."
+Inst9Quest10_Prequest = "None"
+Inst9Quest10_Folgequest = "None"
 --
-Inst9Quest10name1 = "Brazier of Invocation"
-Inst9Quest10name2 = "Brazier of Invocation: User's Manual"
+Inst9Quest10name1 = "Plans: Demon Forged Breastplate"
+Inst9Quest10name2 = "Elixir of Demonslaying"
+Inst9Quest10name3 = "Demon Kissed Sack"
 
 --Quest 11 Alliance
-Inst9Quest11 = "11. The Demon Forge"
+Inst9Quest11 = "11. Egg Collection"
 Inst9Quest11_Level = "60"
-Inst9Quest11_Attain = "55"
-Inst9Quest11_Aim = "Travel to Blackrock Spire and find Goraluk Anvilcrack. Slay him and then use the Blood Stained Pike upon his corpse. After his soul has been siphoned, the pike will be Soul Stained. You must also find the Unforged Rune Covered Breastplate. Return both the Soul Stained Pike and the Unforged Rune Covered Breastplate to Lorax in Winterspring."
-Inst9Quest11_Location = "Lorax (Winterspring; "..YELLOW.."64,74"..WHITE..")"
-Inst9Quest11_Note = "Blacksmith quest. Goraluk Anvilcrack is at "..YELLOW.."[5]"..WHITE.."."
-Inst9Quest11_Prequest = "None"
+Inst9Quest11_Attain = "57"
+Inst9Quest11_Aim = "Bring 8 Collected Dragon Eggs and the Collectronic Module to Tinkee Steamboil at Flame Crest in the Burning Steppes."
+Inst9Quest11_Location = "Tinkee Steamboil (Burning Steppes - Flame Crest; "..YELLOW.."65,24"..WHITE..")"
+Inst9Quest11_Note = "You find the eggs in the room of Father Flame at "..YELLOW.."[2]"..WHITE.."."
+Inst9Quest11_Prequest = "Egg Freezing"
 Inst9Quest11_Folgequest = "None"
---
-Inst9Quest11name1 = "Plans: Demon Forged Breastplate"
-Inst9Quest11name2 = "Elixir of Demonslaying"
-Inst9Quest11name3 = "Demon Kissed Sack"
+Inst9Quest11PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2176,7 +2146,7 @@ Inst9Quest6_HORDE_Level = "60"
 Inst9Quest6_HORDE_Attain = "55"
 Inst9Quest6_HORDE_Aim = "Travel to Blackrock Spire and slay Warchief Rend Blackhand. Take his head and return to Orgrimmar."
 Inst9Quest6_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,38"..WHITE..")"
-Inst9Quest6_HORDE_Note = "Onyxia attunement quest. You find Warchief Rend Blackhand at "..YELLOW.."[6]"..WHITE.."."
+Inst9Quest6_HORDE_Note = "You find Warchief Rend Blackhand at "..YELLOW.."[6]"..WHITE.."."
 Inst9Quest6_HORDE_Prequest = "Warlord's Command -> Eitrigg's Wisdom"
 Inst9Quest6_HORDE_Folgequest = "What the Wind Carries"
 Inst9Quest6PreQuest_HORDE = "true"
@@ -2210,54 +2180,66 @@ Inst9Quest8FQuest_HORDE = "true"
 --
 Inst9Quest8name1_HORDE = "Drakefire Amulet"
 
---Quest 9 Horde  (same as Quest 8 Alliance)
+--Quest 9 Horde  (same as Quest 7 Alliance)
 Inst9Quest9_HORDE = "9. Blackhand's Command"
-Inst9Quest9_HORDE_Level = Inst9Quest8_Level
-Inst9Quest9_HORDE_Attain = Inst9Quest8_Attain
-Inst9Quest9_HORDE_Aim = Inst9Quest8_Aim
-Inst9Quest9_HORDE_Location = Inst9Quest8_Location
-Inst9Quest9_HORDE_Note = Inst9Quest8_Note
-Inst9Quest9_HORDE_Prequest = Inst9Quest8_Prequest
-Inst9Quest9_HORDE_Folgequest = Inst9Quest8_Folgequest
+Inst9Quest9_HORDE_Level = Inst9Quest7_Level
+Inst9Quest9_HORDE_Attain = Inst9Quest7_Attain
+Inst9Quest9_HORDE_Aim = Inst9Quest7_Aim
+Inst9Quest9_HORDE_Location = Inst9Quest7_Location
+Inst9Quest9_HORDE_Note = Inst9Quest7_Note
+Inst9Quest9_HORDE_Prequest = Inst9Quest7_Prequest
+Inst9Quest9_HORDE_Folgequest = Inst9Quest7_Folgequest
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 9 Alliance)
+--Quest 10 Horde  (same as Quest 8 Alliance)
 Inst9Quest10_HORDE = "10. Final Preparations"
-Inst9Quest10_HORDE_Level = Inst9Quest9_Level
-Inst9Quest10_HORDE_Attain = Inst9Quest9_Attain
-Inst9Quest10_HORDE_Aim = Inst9Quest9_Aim
-Inst9Quest10_HORDE_Location = Inst9Quest9_Location
-Inst9Quest10_HORDE_Note = Inst9Quest9_Note
-Inst9Quest10_HORDE_Prequest = Inst9Quest9_Prequest
-Inst9Quest10_HORDE_Folgequest = Inst9Quest9_Folgequest
+Inst9Quest10_HORDE_Level = Inst9Quest8_Level
+Inst9Quest10_HORDE_Attain = Inst9Quest8_Attain
+Inst9Quest10_HORDE_Aim = Inst9Quest8_Aim
+Inst9Quest10_HORDE_Location = Inst9Quest8_Location
+Inst9Quest10_HORDE_Note = Inst9Quest8_Note
+Inst9Quest10_HORDE_Prequest = Inst9Quest8_Prequest
+Inst9Quest10_HORDE_Folgequest = Inst9Quest8_Folgequest
 -- No Rewards for this quest
 
---Quest 11 Horde  (same as Quest 10 Alliance)
+--Quest 11 Horde  (same as Quest 9 Alliance)
 Inst9Quest11_HORDE = "11. Mea Culpa, Lord Valthalak"
-Inst9Quest11_HORDE_Level = Inst9Quest10_Level
-Inst9Quest11_HORDE_Attain = Inst9Quest10_Attain
-Inst9Quest11_HORDE_Aim = Inst9Quest10_Aim
-Inst9Quest11_HORDE_Location = Inst9Quest10_Location
-Inst9Quest11_HORDE_Note = Inst9Quest10_Note
-Inst9Quest11_HORDE_Prequest = Inst9Quest10_Prequest
-Inst9Quest11_HORDE_Folgequest = Inst9Quest10_Folgequest
+Inst9Quest11_HORDE_Level = Inst9Quest9_Level
+Inst9Quest11_HORDE_Attain = Inst9Quest9_Attain
+Inst9Quest11_HORDE_Aim = Inst9Quest9_Aim
+Inst9Quest11_HORDE_Location = Inst9Quest9_Location
+Inst9Quest11_HORDE_Note = Inst9Quest9_Note
+Inst9Quest11_HORDE_Prequest = Inst9Quest9_Prequest
+Inst9Quest11_HORDE_Folgequest = Inst9Quest9_Folgequest
 --
-Inst9Quest11name1_HORDE = Inst9Quest10name1
-Inst9Quest11name2_HORDE = Inst9Quest10name2
+Inst9Quest11name1_HORDE = Inst9Quest9name1
+Inst9Quest11name2_HORDE = Inst9Quest9name2
 
---Quest 12 Horde  (same as Quest 11 Alliance)
+--Quest 12 Horde  (same as Quest 10 Alliance)
 Inst9Quest12_HORDE = "12. The Demon Forge"
-Inst9Quest12_HORDE_Level = Inst9Quest11_Level
-Inst9Quest12_HORDE_Attain = Inst9Quest11_Attain
-Inst9Quest12_HORDE_Aim = Inst9Quest11_Aim
-Inst9Quest12_HORDE_Location = Inst9Quest11_Location
-Inst9Quest12_HORDE_Note = Inst9Quest11_Note
-Inst9Quest12_HORDE_Prequest = Inst9Quest11_Prequest
-Inst9Quest12_HORDE_Folgequest = Inst9Quest11_Folgequest
+Inst9Quest12_HORDE_Level = Inst9Quest10_Level
+Inst9Quest12_HORDE_Attain = Inst9Quest10_Attain
+Inst9Quest12_HORDE_Aim = Inst9Quest10_Aim
+Inst9Quest12_HORDE_Location = Inst9Quest10_Location
+Inst9Quest12_HORDE_Note = Inst9Quest10_Note
+Inst9Quest12_HORDE_Prequest = Inst9Quest10_Prequest
+Inst9Quest12_HORDE_Folgequest = Inst9Quest10_Folgequest
 --
-Inst9Quest12name1_HORDE = Inst9Quest11name1
-Inst9Quest12name2_HORDE = Inst9Quest11name2
-Inst9Quest12name3_HORDE = Inst9Quest11name3
+Inst9Quest12name1_HORDE = Inst9Quest10name1
+Inst9Quest12name2_HORDE = Inst9Quest10name2
+Inst9Quest12name3_HORDE = Inst9Quest10name3
+
+--Quest 13 Horde  (same as Quest 10 Alliance)
+Inst9Quest13_HORDE = "13. Egg Collection"
+Inst9Quest13_HORDE_Level = Inst9Quest11_Level
+Inst9Quest13_HORDE_Attain = Inst9Quest11_Attain
+Inst9Quest13_HORDE_Aim = Inst9Quest11_Aim
+Inst9Quest13_HORDE_Location = Inst9Quest11_Location
+Inst9Quest13_HORDE_Note = Inst9Quest11_Note
+Inst9Quest13_HORDE_Prequest = Inst9Quest11_Prequest
+Inst9Quest13_HORDE_Folgequest = Inst9Quest11_Folgequest
+Inst9Quest13PreQuest_HORDE = Inst9Quest11PreQuest
+-- No Rewards for this quest
 
 
 
@@ -3885,7 +3867,7 @@ Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
 Inst20Story = "The Scholomance is housed within a series of crypts that lie beneath the ruined keep of Caer Darrow. Once owned by the noble Barov family, Caer Darrow fell to ruin following the Second War. As the wizard Kel'thuzad enlisted followers for his Cult of the Damned he would often promise immortality in exchange for serving his Lich King. The Barov family fell to Kel'thuzad's charismatic influence and donated the keep and its crypts to the Scourge. The cultists then killed the Barovs and turned the ancient crypts into a school for necromancy known as the Scholomance. Though Kel'thuzad no longer resides in the crypts, devoted cultists and instructors still remain. The powerful lich, Ras Frostwhisper, rules over the site and guards it in the Scourge's name - while the mortal necromancer, Darkmaster Gandling, serves as the school's insidious headmaster."
 Inst20Caption = "Scholomance"
 Inst20QAA = "10 Quests"
-Inst20QAH = "10 Quests"
+Inst20QAH = "11 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. Plagued Hatchlings"
@@ -4139,6 +4121,19 @@ Inst20Quest10_HORDE_Prequest = Inst20Quest10_Prequest
 Inst20Quest10_HORDE_Folgequest = Inst20Quest10_Folgequest
 Inst20Quest10PreQuest_HORDE = Inst20Quest10PreQuest
 -- No Rewards for this quest
+
+--Quest 11 Horde
+Inst20Quest11_HORDE = "11. The Darkreaver Menace (Shaman)"
+Inst20Quest11_HORDE_Level = "60"
+Inst20Quest11_HORDE_Attain = "58"
+Inst20Quest11_HORDE_Aim = "Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance.\n\nBring Darkreaver's Head to Sagorne Creststrider in the Valley of Wisdom, Orgrimmar."
+Inst20Quest11_HORDE_Location = "Sagorne Creststrider (Orgrimmar - Valley of Wisdom; "..YELLOW.."38.6, 36.2"..WHITE..")"
+Inst20Quest11_HORDE_Note = "This quest is only available for Shamans. The prequest is obtained from the same NPC.\n\nDeath Knight Darkreaver is summoned at "..YELLOW.."[5]"..WHITE.."."
+Inst20Quest11_HORDE_Prequest = "Material Assistance"
+Inst20Quest11_HORDE_Folgequest = "None"
+Inst20Quest11PreQuest_HORDE = "true"
+--
+Inst20Quest11name1_HORDE = "Skyfury Helm"
 
 
 
@@ -5348,8 +5343,8 @@ Inst25Quest17name1_HORDE = "Scourgebane"
 
 Inst26Story = "At the heart of Ahn'Qiraj lies an ancient temple complex. Built in the time before recorded history, it is both a monument to unspeakable gods and a massive breeding ground for the qiraji army. Since the War of the Shifting Sands ended a thousand years ago, the Twin Emperors of the qiraji empire have been trapped inside their temple, barely contained behind the magical barrier erected by the bronze dragon Anachronos and the night elves. Now that the Scepter of the Shifting Sands has been reassembled and the seal has been broken, the way into the inner sanctum of Ahn'Qiraj is open. Beyond the crawling madness of the hives, beneath the Temple of Ahn'Qiraj, legions of qiraji prepare for invasion. They must be stopped at all costs before they can unleash their voracious insectoid armies on Kalimdor once again, and a second War of the Shifting Sands breaks loose!"
 Inst26Caption = "Temple of Ahn'Qiraj"
-Inst26QAA = "3 Quests"
-Inst26QAH = "3 Quests"
+Inst26QAA = "4 Quests"
+Inst26QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst26Quest1 = "1. C'Thun's Legacy"
@@ -5388,6 +5383,17 @@ Inst26Quest3_Prequest = "None"
 Inst26Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 4 Alliance
+Inst26Quest4 = "4. Mortal Champions"
+Inst26Quest4_Level = "60"
+Inst26Quest4_Attain = "60"
+Inst26Quest4_Aim = "Turn in a Qiraji Lord's Insignia to Kandrostrasz in the Temple of Ahn'Qiraj."
+Inst26Quest4_Location = "Kandrostrasz (Temple of Ahn'Qiraj; "..YELLOW.."[1']"..WHITE..")"
+Inst26Quest4_Note = "This is a repeatable quest which yields Cenarion Circle reputation. The Qiraji Lord's Insignia drop from all bosses inside the instance. Kandrostrasz is found in the rooms behind the first boss."
+Inst26Quest4_Prequest = "None"
+Inst26Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst26Quest1_HORDE = Inst26Quest1
@@ -5424,6 +5430,17 @@ Inst26Quest3_HORDE_Location = Inst26Quest3_Location
 Inst26Quest3_HORDE_Note = Inst26Quest3_Note
 Inst26Quest3_HORDE_Prequest = Inst26Quest3_Prequest
 Inst26Quest3_HORDE_Folgequest = Inst26Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst26Quest4_HORDE = Inst26Quest4
+Inst26Quest4_HORDE_Level = Inst26Quest4_Level
+Inst26Quest4_HORDE_Attain = Inst26Quest4_Attain
+Inst26Quest4_HORDE_Aim = Inst26Quest4_Aim
+Inst26Quest4_HORDE_Location = Inst26Quest4_Location
+Inst26Quest4_HORDE_Note = Inst26Quest4_Note
+Inst26Quest4_HORDE_Prequest = Inst26Quest4_Prequest
+Inst26Quest4_HORDE_Folgequest = Inst26Quest4_Folgequest
 -- No Rewards for this quest
 
 
@@ -9575,7 +9592,7 @@ Inst70Quest2_Level = "71"
 Inst70Quest2_Attain = "68"
 Inst70Quest2_Aim = "Defender Mordun has tasked you with the execution of Ingvar the Plunderer who resides deep in Utgarde. You are then to bring his head to Vice Admiral Keller."
 Inst70Quest2_Location = "Defender Mordun (Howling Fjord - Wyrmskull Village; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest2_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nThe quest turns in to Vice Admiral Keller at (Howling Fjord - Valgarde; "..YELLOW.."60.4, 61.0"..WHITE..")."
+Inst70Quest2_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nThe prequest is optional. The quest turns in to Vice Admiral Keller at (Howling Fjord - Valgarde; "..YELLOW.."60.4, 61.0"..WHITE..")."
 Inst70Quest2_Prequest = "Fresh Legs"
 Inst70Quest2_Folgequest = "None"
 --
@@ -9589,7 +9606,7 @@ Inst70Quest3_Level = "71"
 Inst70Quest3_Attain = "70"
 Inst70Quest3_Aim = "Defender Mordun wants you to enter Utgarde Keep and steal 5 Vrykul Weapons"
 Inst70Quest3_Location = "Defender Mordun (Howling Fjord - Wyrmskull Village; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest3_Note = "The Vrykul Weapons can be found along walls scattered around the instance. The prequest comes from Scout Valory (Howling Fjord - Wyrmskull Village; "..YELLOW.."56.0, 55.8"..WHITE..")."
+Inst70Quest3_Note = "The Vrykul Weapons can be found along walls scattered around the instance. The prequest comes from Scout Valory (Howling Fjord - Wyrmskull Village; "..YELLOW.."56.0, 55.8"..WHITE..") and is optional."
 Inst70Quest3_Prequest = "None"
 Inst70Quest3_Folgequest = "None"
 --
@@ -10718,7 +10735,7 @@ Inst81Quest4_Level = "78"
 Inst81Quest4_Attain = "76"
 Inst81Quest4_Aim = "Chronicler Bah'Kini at Dubra'Jin wants you to enter Gundrak and recover a piece of the Drakkari Colossus."
 Inst81Quest4_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
-Inst81Quest4_Note = "No information."
+Inst81Quest4_Note = "The Drakkari Colossus Fragment drops from Drakkari Colossus at "..YELLOW.."[2]"..WHITE.."."
 Inst81Quest4_Prequest = "None"
 Inst81Quest4_Folgequest = "None"
 --
