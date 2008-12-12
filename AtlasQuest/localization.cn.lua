@@ -21,12 +21,13 @@
 
 --]]
 
--- Localization for WotLK China by Yeachan(6区 阿拉希 “缘玥”公会 Ahunter）
+-- Localization for WotLK and TBC China by Yeachan & Ananhaid
+-- Yeachan （6区 阿拉希“缘玥”公会 Ahunter）
 -- Email：zhengguo@live.com
--- Last update: 2008-11-06
-
--- Localization for TBC China by Yeachan and Ananhaid（2区 伊利丹“紫雪之都”公会 NovaLOG）
+-- Ananhaid（2区 伊利丹“紫雪之都”公会 NovaLOG）
 -- Email：ananhaid@gmail.com
+-- Last update: 2008-12-12
+
 
 -- Localization for WOW China (original world) by DIY（mop id 路漫·修远）
 
@@ -56,19 +57,19 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 AQHelpText = ""..WHITE.."命令格式为： /aq or atlasquest "..YELLOW.."[命令参数]"..WHITE.."\n命令参数有：help; option/config; show/hide; left/right; colour; autoshow"..RED.."（仅 Atlas）"
 --
-AQOptionsCaptionTEXT = "AtlasQuest 选项";
+AQOptionsCaptionTEXT = ""..YELLOW.."AtlasQuest 选项";
 AQ_OK = "确定"
 
 -- Autoshow
-AQOptionsAutoshowTEXT = ""..WHITE.."伴随"..RED.."Atlas"..WHITE.."打开 AtlasQuest 面板。";
+AQOptionsAutoshowTEXT = ""..WHITE.."伴随 "..RED.."Atlas"..WHITE.." 打开 AtlasQuest 面板。";
 AQAtlasAutoON = "当你打开 Atlas 时，AtlasQuest 面板现在会自动显示"..GREEN.."（默认）"
 AQAtlasAutoOFF = "当你打开 Atlas 时，AtlasQuest 面板"..RED.."不会"..WHITE.."自动显示"
 
 -- Right/Left
-AQOptionsLEFTTEXT = ""..WHITE.."AtlasQuest 面板显示位置在"..RED.."左"..WHITE..".";
-AQOptionsRIGHTTEXT = ""..WHITE.."AtlasQuest 面板显示位置在"..RED.."右"..WHITE..".";
-AQShowRight = "现在在"..RED.."右侧"..WHITE.."显示 AtlasQuest 面板";
-AQShowLeft = "现在在"..RED.."左侧"..WHITE.."显示 AtlasQuest 面板"..GREEN.."（默认）";
+AQOptionsLEFTTEXT = ""..WHITE.."AtlasQuest 面板显示位置在"..RED.."左"..WHITE.."。";
+AQOptionsRIGHTTEXT = ""..WHITE.."AtlasQuest 面板显示位置在"..RED.."右"..WHITE.."。";
+AQShowRight = "现在在"..RED.."右侧"..WHITE.."显示 AtlasQuest 面板。";
+AQShowLeft = "现在在"..RED.."左侧"..WHITE.."显示 AtlasQuest 面板。"..GREEN.."（默认）";
 
 -- Colour Check
 AQOptionsCCTEXT = ""..WHITE.."根据任务等级显示任务颜色。"
@@ -76,7 +77,7 @@ AQCCON = "AtlasQuest 现在根据任务等级显示任务颜色。"
 AQCCOFF = "AtlasQuest 现在不根据任务等级显示任务颜色。"
 
 -- QuestLog Colour Check
-AQQLColourChange = ""..WHITE.."将你任务日志里有的的任务染成"..BLUE.."蓝色。"
+AQQLColourChange = ""..WHITE.."将任务日志里有的任务染成"..BLUE.."蓝色。"
 
 -- AutoQuery Quest Rewards
 AQOptionsAutoQueryTEXT = ""..WHITE.."在服务器中自动搜索任务奖励中你未见过的物品。"
@@ -170,11 +171,12 @@ AQITEM_ENCHANT = "附魔"
 ----------------------------------------------
 
 
+
 --------------- INST36 - No Instance ---------------
 
 -- Just to display "No Quests" when the map is set to something AtlasQuest does not support. I'll probably find a better way of doing this later.
 Inst36Story = ""
-Inst36Caption = "无可用的信息"
+Inst36Caption = "无可用信息"
 Inst36QAA = "无任务"
 Inst36QAH = "无任务"
 
@@ -183,7 +185,7 @@ Inst36QAH = "无任务"
 --------------- INST1 - Deadmines (VC) ---------------
 
 Inst1Story = "这里曾经是人类最主要的产金地，希望矿井在部落第一次大战期间席卷暴风城的时候被废弃。现在迪菲亚兄弟会的人占据了那里并将这个黑暗的通道转变成他们的避难所。据说那些盗贼已经劝说了聪明的地精帮助他们在矿井的深处建造一些可怕的东西——但是没有人知道这是真的还是假的。有传言说，死亡矿井的入口在安宁的月溪镇中。"
-Inst1Caption = "死亡矿井"
+Inst1Caption = "死亡矿井（VC）"
 Inst1QAA = "7 个任务" -- how many quests for alliance
 Inst1QAH = "无任务" -- for horde
 
@@ -207,7 +209,7 @@ Inst1Quest2 = "2. 收集记忆"
 Inst1Quest2_Level = "18"
 Inst1Quest2_Attain = "14"
 Inst1Quest2_Aim = "给暴风城的维尔德·蓟草带回4张矿业工会会员卡。"
-Inst1Quest2_Location = "维尔德·蓟草（暴风城 - 矮人区; "..YELLOW.."65, 21"..WHITE.."）"
+Inst1Quest2_Location = "维尔德·蓟草（暴风城 - 矮人区; "..YELLOW.."70,41"..WHITE.."）"
 Inst1Quest2_Note = "就在你刚要进入副本之前的亡灵"..YELLOW.."副本入口地图[3]"..WHITE.."掉落矿工工会会员卡。"
 Inst1Quest2_Prequest = "无"
 Inst1Quest2_Folgequest = "无"
@@ -220,7 +222,7 @@ Inst1Quest3 = "3. 我的兄弟……"
 Inst1Quest3_Level = "20"
 Inst1Quest3_Attain = "15"
 Inst1Quest3_Aim = "将工头希斯耐特的探险者协会徽章交给暴风城的维尔德·蓟草。"
-Inst1Quest3_Location = "维尔德·蓟草（暴风城 - 矮人区; "..YELLOW.."65,21"..WHITE.."）"
+Inst1Quest3_Location = "维尔德·蓟草（暴风城 - 矮人区; "..YELLOW.."70,41"..WHITE.."）"
 Inst1Quest3_Note = "就在你刚要进入副本之前的工头希斯奈特"..YELLOW.."副本入口地图[3]"..WHITE.."掉落矿探险者协会徽章。"
 Inst1Quest3_Prequest = "无"
 Inst1Quest3_Folgequest = "无"
@@ -232,7 +234,7 @@ Inst1Quest4 = "4. 地底突袭"
 Inst1Quest4_Level = "20"
 Inst1Quest4_Attain = "15"
 Inst1Quest4_Aim = "从死亡矿井中带回小型高能发动机，将其带给暴风城矮人区中的沉默的舒尼。"
-Inst1Quest4_Location = "沉默的舒尼（暴风城 - 矮人区; "..YELLOW.."55,12"..WHITE.."）"
+Inst1Quest4_Location = "沉默的舒尼（暴风城 - 矮人区; "..YELLOW.."62,34"..WHITE.."）"
 Inst1Quest4_Note = "你可以直接接到这个任务，你也可以从诺恩那里接到此任务的引导任务（铁炉堡 - 侏儒区; "..YELLOW.."69,50"..WHITE.."）。\n斯尼德的伐木机掉落小型高能发动机，位置在"..YELLOW.."[3]"..WHITE.."。"
 Inst1Quest4_Prequest = "有，沉默的舒尼"
 Inst1Quest4_Folgequest = "无"
@@ -242,7 +244,7 @@ Inst1Quest4name1 = "极地护手"
 Inst1Quest4name2 = "紫貂魔杖"
 
 --Quest 5 Alliance
-Inst1Quest5 = "5. 迪菲亚兄弟会 (系列任务)"
+Inst1Quest5 = "5. 迪菲亚兄弟会（系列任务）"
 Inst1Quest5_Level = "22"
 Inst1Quest5_Attain = "14"
 Inst1Quest5_Aim = "杀死艾德温·范克里夫，把他的头交给格里安·斯托曼。"
@@ -257,7 +259,7 @@ Inst1Quest5name2 = "西部荒野外套"
 Inst1Quest5name3 = "西部荒野法杖"
 
 --Quest 6 Alliance
-Inst1Quest6 = "6. 正义试炼 (圣骑士任务)"
+Inst1Quest6 = "6. 正义试炼（圣骑士任务）"
 Inst1Quest6_Level = "22"
 Inst1Quest6_Attain = "20"
 Inst1Quest6_Aim = "按照乔丹的武器材料单上的说明去寻找一些白石橡木、精炼矿石、乔丹的铁锤和一块科尔宝石，然后回到铁炉堡去见乔丹·斯迪威尔。"
@@ -276,7 +278,7 @@ Inst1Quest7_Level = "22"
 Inst1Quest7_Attain = "16"
 Inst1Quest7_Aim = "搜查艾德温·范克里夫的尸体时，你从一堆杂乱的物品中找到了一封还未来得及发出的信。地址一栏上写着巴隆斯·阿历克斯顿，暴风城石工协会，城市大厅，教堂广场。"
 Inst1Quest7_Location = "未寄出的信（范克里夫掉落 "..YELLOW.."[6]"..WHITE.."）"
-Inst1Quest7_Note = "巴隆斯·阿历克斯顿在暴风城光明大教堂旁边"..YELLOW.."49,30"..WHITE.."。"
+Inst1Quest7_Note = "巴隆斯·阿历克斯顿在暴风城光明大教堂旁边"..YELLOW.."58,49"..WHITE.."。"
 Inst1Quest7_Prequest = "无"
 Inst1Quest7_Folgequest = "有，巴基尔·斯瑞德"
 -- No Rewards for this quest
@@ -286,7 +288,7 @@ Inst1Quest7_Folgequest = "有，巴基尔·斯瑞德"
 --------------- INST2 - Wailing Caverns (WC) ---------------
 
 Inst2Story = "最近一个名叫纳拉雷克斯的暗夜精灵德鲁伊在贫瘠之地中的地下发现了一个错综复杂的洞穴网。这个被称作“哀嚎洞穴”的地方有很多的蒸汽缝隙，所以当蒸气喷射的时候发出的声音就犹如哀嚎一般，其因此而得名。纳拉雷克斯可以利用洞穴中的温泉来恢复贫瘠之地的生态，让这里重新获得生机——但是这样做需要吸收传说中的翡翠梦境的能量。一旦和翡翠梦境相连接，德鲁伊的视线中就变成了一场噩梦。不久之后，哀嚎洞穴开始变化——洞中的水开始腐化——曾经温顺的生物开始变成狂暴，致命的捕食者。据说纳拉雷克斯自己还居住在这个迷宫的最深处，他被翡翠梦境的边缘所困扰着。即使他以前的随从也被他们的主人所经历的噩梦所腐化——他们都变成了邪恶的尖牙德鲁伊。"
-Inst2Caption = "哀嚎洞穴"
+Inst2Caption = "哀嚎洞穴（WC）"
 Inst2QAA = "5 个任务"
 Inst2QAH = "7 个任务"
 
@@ -418,7 +420,7 @@ Inst2Quest5name2_HORDE = Inst2Quest4name2
 Inst2Quest5name3_HORDE = Inst2Quest4name3
 
 --Quest 6 Horde
-Inst2Quest6_HORDE = "6. 尖牙德鲁伊 (连续任务)"
+Inst2Quest6_HORDE = "6. 尖牙德鲁伊（连续任务）"
 Inst2Quest6_HORDE_Level = "22"
 Inst2Quest6_HORDE_Attain = "18"
 Inst2Quest6_HORDE_Aim = "将考布莱恩宝石、安娜科德拉宝石、皮萨斯宝石和瑟芬迪斯宝石交给雷霆崖的纳拉·蛮鬃。"
@@ -449,7 +451,7 @@ Inst2Quest7name2_HORDE = Inst2Quest5name2
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
 Inst3Story = "怒焰裂谷是一个错综复杂的火焰洞穴，它位于兽人的新都城奥格瑞玛中。最近，有传言说一批崇拜恶魔阴影教的信徒占据了怒焰裂谷。这个被称为火刃的组织对杜隆塔尔的安全。许多人认为兽人的酋长萨尔已经意识到了火刃的存在并不打算摧毁他们，因为萨尔希望能够将他引到阴影议会那里。不管怎么样，黑暗的力量从怒焰裂谷散发出来，它们可能毁了兽人所有的一切。"
-Inst3Caption = "怒焰裂谷"
+Inst3Caption = "怒焰裂谷（RFC）"
 Inst3QAA = "无任务"
 Inst3QAH = "5 个任务"
 
@@ -523,7 +525,7 @@ Inst3Quest5_HORDE_Folgequest = "无"
 --------------- INST4 - Uldaman (Ulda) ---------------
 
 Inst4Story = "奥达曼是古代泰坦创世之时所留下的深埋于地下的城市。矮人探险队最近发觉到了这块被遗忘的城市，将泰坦一款失败的创造物：食腭怪唤醒了。传说说泰坦是从石头中创造了食腭怪。当实施证明这次试验很失败的时候，泰坦把食腭怪锁了起来并进行了第二次的尝试——最终创造了矮人这个种族。矮人创造的秘密被记录在精密的白金圆盘中——那是位于古代城市最底部的大型泰坦遗迹。最近，黑铁矮人在奥达曼进行了一系列的侵入活动，希望为他们的火焰之主拉格纳罗斯获得圆盘。然而，在这个地下城市中，有一些巨大的石头守卫会攻击任何入侵者。而白金圆盘是由一名巨大的石头守卫阿扎达斯。有传言说矮人的一些石头皮肤的祖先，土灵还居住在城市的隐蔽之处。"
-Inst4Caption = "奥达曼"
+Inst4Caption = "奥达曼（Ulda）"
 Inst4QAA = "16 个任务"
 Inst4QAH = "10 个任务"
 
@@ -665,7 +667,7 @@ Inst4Quest11FQuest = "true"
 --Quest 12 Alliance
 Inst4Quest12 = "12. 修复项链"
 Inst4Quest12_Level = "44"
-Inst4Quest12_Attain = "38"
+Inst4Quest12_Attain = "37"
 Inst4Quest12_Aim = "从奥达曼最强大的石人身上获得能量源，然后将其交给铁炉堡的塔瓦斯德。"
 Inst4Quest12_Location = "塔瓦斯德的占卜之碗"
 Inst4Quest12_Note = "破碎项链的能量源在阿扎达斯掉落"..YELLOW.."[10]"..WHITE.."。"
@@ -705,16 +707,16 @@ Inst4Quest15_Level = "47"
 Inst4Quest15_Attain = "40"
 Inst4Quest15_Aim = "和石头守护者交谈，从他那里了解更多古代的知识。一旦你了解到了所有的内容之后就激活诺甘农圆盘。 -> 把迷你版的诺甘农圆盘带到铁炉堡的探险者协会去。"
 Inst4Quest15_Location = "诺甘农圆盘（奥达曼; "..YELLOW.."[11]"..WHITE.."）"
-Inst4Quest15_Note = "接到任务后，和石头守护者交谈左边的盘子。然后再次使用白金圆盘，取得缩小版的圆盘， 并把缩小版的白金圆盘带给铁炉堡的资深探险家麦格拉斯（铁炉堡 - 探险者大厅; "..YELLOW.."69,18"..WHITE.."）。"
+Inst4Quest15_Note = "接到任务后，和石头守护者交谈左边的盘子。然后再次使用白金圆盘，取得缩小版的圆盘，并把缩小版的白金圆盘带给资深探险家麦格拉斯（铁炉堡 - 探险者大厅; "..YELLOW.."69,18"..WHITE.."）。后续任务可以从旁边的 NPC 那里接到。"
 Inst4Quest15_Prequest = "无"
-Inst4Quest15_Folgequest = "无"
+Inst4Quest15_Folgequest = "有，奥丹姆的线索"
 --
 Inst4Quest15name1 = "软皮袋"
 Inst4Quest15name2 = "超强治疗药水"
 Inst4Quest15name3 = "强效法力药水 "
 
 --Quest 16 Alliance
-Inst4Quest16 = "16. 奥达曼的能量源 (法师任务)"
+Inst4Quest16 = "16. 奥达曼的能量源（法师任务）"
 Inst4Quest16_Level = "40"
 Inst4Quest16_Attain = "35"
 Inst4Quest16_Aim = "找到一个黑曜石能量源，将其交给尘泥沼泽的塔贝萨。"
@@ -830,16 +832,16 @@ Inst4Quest9_HORDE_Level = "47"
 Inst4Quest9_HORDE_Attain = "40"
 Inst4Quest9_HORDE_Aim = "和石头守护者交谈，从他那里了解更多古代的知识。一旦你了解到了所有的内容之后就激活诺甘农圆盘。 -> 把迷你版的诺甘农圆盘带到雷霆崖的贤者（圣者图希克）那里。"
 Inst4Quest9_HORDE_Location = "诺甘农圆盘（奥达曼; "..YELLOW.."[11]"..WHITE.."）"
-Inst4Quest9_HORDE_Note = "你领取到任务后，和石头守护着交谈盘子的左边。然后再次使用白金圆盘得到迷你版的圆盘，带着它去雷霆崖找圣者图希克（"..YELLOW.."34,46"..WHITE.."）。"
+Inst4Quest9_HORDE_Note = "接到任务后，和石头守护者交谈左边的盘子。然后再次使用白金圆盘，取得缩小版的圆盘，并把缩小版的白金圆盘带给圣者图希克（雷霆崖; "..YELLOW.."34,46"..WHITE.."）。后续任务可以从旁边的 NPC 那里接到。"
 Inst4Quest9_HORDE_Prequest = "无"
-Inst4Quest9_HORDE_Folgequest = "无"
+Inst4Quest9_HORDE_Folgequest = "有，奥丹姆的线索"
 --
 Inst4Quest9name1_HORDE = "软皮袋"
 Inst4Quest9name2_HORDE = "超强治疗药水"
 Inst4Quest9name3_HORDE = "强效法力药水"
 
 --Quest 10 Horde  (same as Quest 4 Alliance)
-Inst4Quest10_HORDE = "10. 奥达曼的能量源(法师任务)"
+Inst4Quest10_HORDE = "10. 奥达曼的能量源（法师任务）"
 Inst4Quest10_HORDE_Level = Inst4Quest16_Level
 Inst4Quest10_HORDE_Attain = Inst4Quest16_Attain
 Inst4Quest10_HORDE_Aim = Inst4Quest16_Aim
@@ -855,7 +857,7 @@ Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
 --------------- INST5 - Blackrock Depths (BRD) ---------------
 
 Inst5Story = "黑石深渊曾经是黑铁矮人的伟大都城，这个火山中的迷宫现在成为拉格纳罗斯火焰领主的王座所在地。拉格纳罗斯找到了使用石头和设计图来创造一支无敌石头人均对来帮助它征服黑石深渊。即使是需要打败奈法利安和他的龙子龙孙，拉格纳罗斯会不惜一切代价来达到最后的胜利。"
-Inst5Caption = "黑石深渊"
+Inst5Caption = "黑石深渊（BRD）"
 Inst5QAA = "20 个任务"
 Inst5QAH = "20 个任务"
 
@@ -914,7 +916,7 @@ Inst5Quest4name1 = "矮人黑啤酒"
 Inst5Quest4name2 = "迅捷木槌"
 Inst5Quest4name3 = "叉刃巨斧"
 
---Quest 5 Alliance 
+--Quest 5 Alliance  
 Inst5Quest5 = "5. 征服者派隆"
 Inst5Quest5_Level = "52"
 Inst5Quest5_Attain = "48"
@@ -965,7 +967,7 @@ Inst5Quest8_Folgequest = "无"
 Inst5Quest8name1 = "肮脏的背包"
 
 --Quest 9 Alliance
-Inst5Quest9 = "9. 温德索尔元帅 (奥妮克希亚系列任务)"
+Inst5Quest9 = "9. 温德索尔元帅（奥妮克希亚系列任务）"
 Inst5Quest9_Level = "54"
 Inst5Quest9_Attain = "48"
 Inst5Quest9_Aim = "到西北部的黑石山脉去，在黑石深渊中找到温德索尔元帅的下落。\n狼狈不堪的约翰曾告诉你说温德索尔被关进了一个监狱。"
@@ -980,7 +982,7 @@ Inst5Quest9name2 = "盾甲铁靴"
 Inst5Quest9name3 = "风剪护腿"
 
 --Quest 10 Alliance
-Inst5Quest10 = "10. 弄皱的便笺 (奥妮克希亚系列任务)"
+Inst5Quest10 = "10. 弄皱的便笺（奥妮克希亚系列任务）"
 Inst5Quest10_Level = "58"
 Inst5Quest10_Attain = "50"
 Inst5Quest10_Aim = "温德索尔元帅也许会对你手中的东西感兴趣。毕竟，希望还没有被完全扼杀。"
@@ -992,7 +994,7 @@ Inst5Quest10FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst5Quest11 = "11. 一丝希望 (奥妮克希亚系列任务)"
+Inst5Quest11 = "11. 一丝希望（奥妮克希亚系列任务）"
 Inst5Quest11_Level = "58"
 Inst5Quest11_Attain = "52"
 Inst5Quest11_Aim = "找回温德索尔元帅遗失的情报。\n温德索尔元帅确信那些情报在安格弗将军和傀儡统帅阿格曼奇的手里。"
@@ -1004,7 +1006,7 @@ Inst5Quest11FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst5Quest12 = "12. 冲破牢笼! (奥妮克希亚系列任务)"
+Inst5Quest12 = "12. 冲破牢笼！（奥妮克希亚系列任务）"
 Inst5Quest12_Level = "58"
 Inst5Quest12_Attain = "52"
 Inst5Quest12_Aim = "帮助温德索尔元帅拿回他的装备并救出他的朋友。当你成功之后就回去向麦克斯韦尔元帅复命。"
@@ -1023,7 +1025,7 @@ Inst5Quest13 = "13. 烈焰精华"
 Inst5Quest13_Level = "58"
 Inst5Quest13_Attain = "52"
 Inst5Quest13_Aim = "到黑石深渊去杀掉贝尔加。\n你只知道这个巨型怪物住在黑石深渊的最深处。记住你要使用特殊的黑龙皮从贝尔加的尸体上采集烈焰精华。\n将你采集到的烈焰精华交给塞勒斯·萨雷芬图斯。"
-Inst5Quest13_Location = "塞勒斯·萨雷芬图斯（燃烧平原; "..YELLOW.."94,31"..WHITE.."）"
+Inst5Quest13_Location = "塞勒斯·萨雷芬图斯（燃烧平原; "..YELLOW.."95,31"..WHITE.."）"
 Inst5Quest13_Note = "此系列任务始于卡拉然·温布雷（灼热峡谷; "..YELLOW.."39,38"..WHITE.."）。\n 贝尔加在"..YELLOW.."[11]"..WHITE.."。"
 Inst5Quest13_Prequest = "有，无瑕之焰 -> 烈焰精华"
 Inst5Quest13_Folgequest = "无"
@@ -1071,7 +1073,7 @@ Inst5Quest16_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 17 Alliance
-Inst5Quest17 = "17. 挑战 (T0.5升级任务)"
+Inst5Quest17 = "17. 挑战（T0.5升级任务）"
 Inst5Quest17_Level = "60"
 Inst5Quest17_Attain = "60"
 Inst5Quest17_Aim = "前往黑石深渊竞技场并在你被裁决者格里斯通宣判时将挑衅旗帜放在它的中央。杀死瑟尔伦和他的战士们，再带着第一块瓦萨拉克护符回到东瘟疫之地的安希恩·哈莫那里。"
@@ -1082,7 +1084,7 @@ Inst5Quest17_Folgequest = "有，各个职业的职业任务（T0.5升级任务�
 -- No Rewards for this quest
 
 --Quest 18 Alliance
-Inst5Quest18 = "18. 鬼魂之杯 (采矿任务)"
+Inst5Quest18 = "18. 鬼魂之杯（采矿任务）"
 Inst5Quest18_Level = "55"
 Inst5Quest18_Attain = "55"
 Inst5Quest18_Aim = "鬼魂之杯的塞娜尼·雷心要你找到他想要的材料。"
@@ -1093,27 +1095,29 @@ Inst5Quest18_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 19 Alliance
-Inst5Quest19 = "19. 保护美酒节! (季节性)"
+Inst5Quest19 = "19. 拯救美酒节！（季节性）"
 Inst5Quest19_Level = "70"
 Inst5Quest19_Attain = "65"
-Inst5Quest19_Aim = "和黑石深渊里黑石酒吧的美酒节间谍对话."
-Inst5Quest19_Location = "达尔娜·蜜酒 (丹莫罗 - 卡拉诺斯; "..YELLOW.."46.53"..WHITE..")"
-Inst5Quest19_Note = "这个任务只有美酒节的时候才会出现. 美酒节间谍在 "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest19_Aim = "进入黑石深渊，与黑铁酒吧的美酒节间谍谈一谈。 "
+Inst5Quest19_Location = "达尔娜·蜜酒（丹莫罗 - 卡拉诺斯; "..YELLOW.."46.53"..WHITE.."）"
+Inst5Quest19_Note = "这个任务只能在美酒节期间可以接到。美酒节间谍在"..YELLOW.."[15]"..WHITE.."。"
 Inst5Quest19_Prequest = "无"
-Inst5Quest19_Folgequest = "又, 干掉科林·烈酒"
+Inst5Quest19_Folgequest = "有，侮辱科林·烈酒"
 -- No Rewards for this quest
 
 --Quest 20 Alliance
-Inst5Quest20 = "20. 干掉科林·烈酒 (季节性 - 日常)"
+Inst5Quest20 = "20. 侮辱科林·烈酒（日常 - 季节性）"
 Inst5Quest20_Level = "70"
 Inst5Quest20_Attain = "65"
-Inst5Quest20_Aim = "Speak with 科林·烈酒."
-Inst5Quest20_Location = "美酒节间谍 (黑石深渊 - 黑铁酒吧; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest20_Note = "完成这个任务将使 科林·烈酒 攻击你. 这个季节性日常每天只能完成一次.\n 前续任务只能完成一次，之后你只要去酒吧就可以直接接到这个任务了."
-Inst5Quest20_Prequest = "有，保护美酒节!"
+Inst5Quest20_Aim = "与科林·烈酒谈一谈。"
+Inst5Quest20_Location = "美酒节间谍（黑石深渊 - 黑铁酒吧; "..YELLOW.."[15]"..WHITE.."）"
+Inst5Quest20_Note = "完成这个任务时科林·烈酒将会攻击你。美酒节期间每人每天可以完成一次这个任务。\n前置任务只需要完成一次。以后每次日常你可以由黑石深渊副本内的美酒节间谍开始。"
+Inst5Quest20_Prequest = "有，拯救美酒节！"
 Inst5Quest20_Folgequest = "无"
 Inst5Quest20FQuest = "true"
 -- No Rewards for this quest
+
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst5Quest1_HORDE = Inst5Quest1
@@ -1234,20 +1238,20 @@ Inst5Quest9name2_HORDE = "雨法师斗篷"
 Inst5Quest9name3_HORDE = "黑陶鳞片护甲"
 Inst5Quest9name4_HORDE = "熔岩护手"
 
---Quest 10 Horde  (same as Quest 12 Alliance)
+--Quest 10 Horde  (same as Quest 13 Alliance)
 Inst5Quest10_HORDE = "10. 烈焰精华"
-Inst5Quest10_HORDE_Level = Inst5Quest12_Level
-Inst5Quest10_HORDE_Attain = Inst5Quest12_Attain
-Inst5Quest10_HORDE_Aim = Inst5Quest12_Aim
-Inst5Quest10_HORDE_Location = Inst5Quest12_Location
-Inst5Quest10_HORDE_Note = Inst5Quest12_Note
-Inst5Quest10_HORDE_Prequest = Inst5Quest12_Prequest
-Inst5Quest10_HORDE_Folgequest = Inst5Quest12_Folgequest
-Inst5Quest10PreQuest_HORDE = Inst5Quest12PreQuest
+Inst5Quest10_HORDE_Level = Inst5Quest13_Level
+Inst5Quest10_HORDE_Attain = Inst5Quest13_Attain
+Inst5Quest10_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest10_HORDE_Location = Inst5Quest13_Location
+Inst5Quest10_HORDE_Note = Inst5Quest13_Note
+Inst5Quest10_HORDE_Prequest = Inst5Quest13_Prequest
+Inst5Quest10_HORDE_Folgequest = Inst5Quest13_Folgequest
+Inst5Quest10PreQuest_HORDE = Inst5Quest13PreQuest
 --
-Inst5Quest10name1_HORDE = Inst5Quest12name1
-Inst5Quest10name2_HORDE = Inst5Quest12name2
-Inst5Quest10name3_HORDE = Inst5Quest12name3
+Inst5Quest10name1_HORDE = Inst5Quest13name1
+Inst5Quest10name2_HORDE = Inst5Quest13name2
+Inst5Quest10name3_HORDE = Inst5Quest13name3
 
 --Quest 11 Horde
 Inst5Quest11_HORDE = "11. 不和谐的烈焰"
@@ -1370,6 +1374,8 @@ Inst5Quest20_HORDE_Folgequest = Inst5Quest20_Folgequest
 Inst5Quest20FQuest_HORDE = "true"
 -- No Rewards for this quest
 
+
+
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
 Inst6Story = {
@@ -1378,7 +1384,7 @@ Inst6Story = {
   ["Page3"] = "而奈法利安则发誓要毁灭拉格纳罗斯，因此他近期以来加速了扩张军队的步伐，就像他的父亲死亡之翼曾经尝试过的那样。虽然死亡之翼最终失败了，但看起来奈法利安很有希望获得成功。他对于权力的疯狂渴求甚至引起了红龙军团的警觉——他们一直是黑龙最强大的敌人。不过，即便奈法利安的目标非常明显，他所采用的手段却不为人知。但是据信他正在尝试杂交各种颜色的龙以制造出最强大的战士。\n \n奈法利安的藏身之所被称为黑翼之巢，它位于黑石塔的最顶端。奈法利安就在那里进行着他的秘密计划的最后步骤，并准备摧毁拉格纳罗斯的势力，最终统治整个艾泽拉斯。",
   ["MaxPages"] = "3",
 };
-Inst6Caption = "黑翼之巢"
+Inst6Caption = "黑翼之巢（BWL）"
 Inst6Caption2 = "黑翼之巢（故事背景 第1部分）"
 Inst6Caption3 = "黑翼之巢（故事背景 第2部分）"
 
@@ -1485,7 +1491,7 @@ Inst7Quest2_Level = "24"
 Inst7Quest2_Attain = "18"
 Inst7Quest2_Aim = "奥伯丁的戈沙拉·夜语需要8块堕落者的脑干。"
 Inst7Quest2_Location = "戈沙拉·夜语（黑海岸 - 奥伯丁; "..YELLOW.."38,43"..WHITE.."）"
-Inst7Quest2_Note = "前导任务可以从阿古斯·夜语（暴风城 - 花园; "..YELLOW.."21,55"..WHITE.."）处得到。 黑暗深渊副本里面和门前的所有纳迦都可能掉落脑干。"
+Inst7Quest2_Note = "前导任务可以从阿古斯·夜语（暴风城 - 花园; "..YELLOW.."36,67"..WHITE.."）处得到。 黑暗深渊副本里面和门前的所有纳迦都可能掉落脑干。"
 Inst7Quest2_Prequest = "有，遥远的旅途"
 Inst7Quest2_Folgequest = "无"
 Inst7Quest2PreQuest = "true"
@@ -1532,7 +1538,7 @@ Inst7Quest5name1 = "云光长靴"
 Inst7Quest5name2 = "赤木束带"
 
 --Quest 6 Alliance
-Inst7Quest6 = "6. 索兰鲁克宝珠 (术士任务)"
+Inst7Quest6 = "6. 索兰鲁克宝珠（术士任务）"
 Inst7Quest6_Level = "25"
 Inst7Quest6_Attain = "20"
 Inst7Quest6_Aim = "找到3块索兰鲁克宝珠的碎片和1块索兰鲁克宝珠的大碎片，把它们交给贫瘠之地的杜安·卡汉。"
@@ -1595,9 +1601,9 @@ Inst7Quest4name1_HORDE = "墓碑节杖"
 Inst7Quest4name2_HORDE = "极光圆盾"
 
 --Quest 5 Horde  (same as Quest 6 Alliance)
-Inst7Quest5_HORDE = "5. 索兰鲁克宝珠 (术士任务)"
-Inst7Quest5_HORDE_Level = "25"
-Inst7Quest5_HORDE_Attain = "20"
+Inst7Quest5_HORDE = "5. 索兰鲁克宝珠（术士任务）"
+Inst7Quest5_HORDE_Level = Inst7Quest6_Level
+Inst7Quest5_HORDE_Attain = Inst7Quest6_Attain
 Inst7Quest5_HORDE_Aim = Inst7Quest6_Aim
 Inst7Quest5_HORDE_Location = Inst7Quest6_Location
 Inst7Quest5_HORDE_Note = Inst7Quest6_Note
@@ -1612,14 +1618,14 @@ Inst7Quest5name2_HORDE = Inst7Quest6name2
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
 
 Inst8Story = "黑石深渊深处的巨大堡垒是由矮人建筑大师弗兰克罗恩·铸铁所设计的。这个堡垒是矮人力量的象征并被邪恶的黑铁矮人占据了数个世纪。然而，奈法利安——死亡之翼狡猾的儿子——对这个巨大的堡垒别有意图。他和他的黑龙军团占据了上层黑石塔并向占据着黑石深渊的黑铁矮人宣战。奈法利安知道矮人是由强大的火元素拉格纳罗斯所领导的，所以他立志要摧毁他的敌人并将黑石深渊全都占为己有。"
-Inst8Caption = "黑石塔下层"
+Inst8Caption = "黑石塔下层（LBRS）"
 Inst8QAA = "14 个任务"
 Inst8QAH = "14 个任务"
 
 --Quest 1 Alliance
 Inst8Quest1 = "1. 最后的石板"
 Inst8Quest1_Level = "58"
-Inst8Quest1_Attain = "55"
+Inst8Quest1_Attain = "40"
 Inst8Quest1_Aim = "将第五块和第六块摩沙鲁石板交给塔纳利斯的勘查员詹斯·铁靴。"
 Inst8Quest1_Location = "勘查员詹斯·铁靴（塔纳利斯 - 热砂港; "..YELLOW.."66,23"..WHITE.."）"
 Inst8Quest1_Note = "你可以在"..YELLOW.."[7]"..WHITE.."和"..YELLOW.."[9]"..WHITE.."附近找到石板。\n任务奖励来自《面对叶基亚》。 你可以在勘查员詹斯·铁靴旁边找到叶基亚。"
@@ -1705,7 +1711,7 @@ Inst8Quest7_Folgequest = "有，给麦克斯韦尔的消息"
 
 --Quest 8 Alliance
 Inst8Quest8 = "8. 麦克斯韦尔的任务"
-Inst8Quest8_Level = "59"
+Inst8Quest8_Level = "60"
 Inst8Quest8_Attain = "55"
 Inst8Quest8_Aim = "到黑石塔去消灭指挥官沃恩、欧莫克大王和维姆萨拉克。完成任务之后回到麦克斯韦尔元帅处复命。"
 Inst8Quest8_Location = "麦克斯韦尔（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,58"..WHITE.."）"
@@ -1767,9 +1773,9 @@ Inst8Quest12PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst8Quest13 = "13. 沃什加斯的蛇石 (锻造-铸剑大师任务)"
+Inst8Quest13 = "13. 沃什加斯的蛇石（锻造-铸剑大师任务）"
 Inst8Quest13_Level = "60"
-Inst8Quest13_Attain = "51"
+Inst8Quest13_Attain = "50"
 Inst8Quest13_Aim = "到黑石塔去杀死暗影猎手沃什加斯，将沃什加斯的蛇石交给基尔拉姆。"
 Inst8Quest13_Location = "基尔拉姆（冬泉谷 - 永望镇; "..YELLOW.."61,37"..WHITE.."）"
 Inst8Quest13_Note = "暗影猎手沃什加斯在"..YELLOW.."[7]"..WHITE.."。"
@@ -1974,7 +1980,7 @@ Inst8Quest14name2_HORDE = Inst8Quest14name2
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
 
 Inst9Story = "黑石深渊深处的巨大堡垒是由矮人建筑大师弗兰克罗恩·铸铁所设计的。这个堡垒是矮人力量的象征并被邪恶的黑铁矮人占据了数个世纪。然而，奈法利安——死亡之翼狡猾的儿子——对这个巨大的堡垒别有意图。他和他的黑龙军团占据了上层黑石塔并向占据着黑石深渊的黑铁矮人宣战。奈法利安知道矮人是由强大的火元素拉格纳罗斯所领导的，所以他立志要摧毁他的敌人并将黑石深渊全都占为己有。"
-Inst9Caption = "黑石塔上层"
+Inst9Caption = "黑石塔上层（UBRS）"
 Inst9QAA = "11 个任务"
 Inst9QAH = "12 个任务"
 
@@ -1992,7 +1998,7 @@ Inst9Quest1_Folgequest = "有，蓝龙之怒"
 --Quest 2 Alliance
 Inst9Quest2 = "2. 芬克·恩霍尔，为您效劳！"
 Inst9Quest2_Level = "60"
-Inst9Quest2_Attain = "58"
+Inst9Quest2_Attain = "57"
 Inst9Quest2_Aim = "与永望镇的玛雷弗斯·暗锤谈一谈。"
 Inst9Quest2_Location = "芬克·恩霍尔（黑石塔上层; "..YELLOW.."[8]"..WHITE.."）"
 Inst9Quest2_Note = "芬克·恩霍尔会在拨完比斯巨兽的皮后出现。玛雷弗斯·暗锤在（冬泉谷 - 永望镇; "..YELLOW.."61,38"..WHITE.."）。"
@@ -2039,13 +2045,13 @@ Inst9Quest5name1 = "暴君印记"
 Inst9Quest5name2 = "比斯巨兽之眼"
 Inst9Quest5name3 = "黑手饰物"
 
---Quest6 Alliance
+--Quest 6 Alliance
 Inst9Quest6 = "6. 末日扣环"
 Inst9Quest6_Level = "60"
 Inst9Quest6_Attain = "57"
 Inst9Quest6_Aim = "将末日扣环交给燃烧平原的玛亚拉·布莱特文。"
 Inst9Quest6_Location = "玛亚拉·布莱特文（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,69"..WHITE.."）"
-Inst9Quest6_Note = "你可以接到这个任务的前续任务，从雷明顿·瑞治维尔伯爵（暴风城 - 暴风要塞; "..YELLOW.."74,30"..WHITE.."）。 末日扣环在烈焰之父的房间"..YELLOW.."[3]"..WHITE.."的一个箱子里。"
+Inst9Quest6_Note = "你可以接到这个任务的前续任务，从雷明顿·瑞治维尔伯爵（暴风城 - 暴风要塞; "..YELLOW.."77,47"..WHITE.."）。 末日扣环在烈焰之父的房间"..YELLOW.."[3]"..WHITE.."的一个箱子里。"
 Inst9Quest6_Prequest = "有，玛亚拉·布莱特文"
 Inst9Quest6_Folgequest = "有，瑞治维尔的箱子"
 Inst9Quest6PreQuest = "true"
@@ -2053,10 +2059,10 @@ Inst9Quest6PreQuest = "true"
 Inst9Quest6name1 = "迅捷皮靴"
 Inst9Quest6name2 = "瞬击护臂"
 
---Quest7 Alliance
+--Quest 7 Alliance
 Inst9Quest7 = "7. 龙火护符"
 Inst9Quest7_Level = "60"
-Inst9Quest7_Attain = "52"
+Inst9Quest7_Attain = "50"
 Inst9Quest7_Aim = "你必须从达基萨斯将军身上取回黑龙勇士之血，你可以在黑石塔的晋升大厅后面的房间里找到他。"
 Inst9Quest7_Location = "哈尔琳（冬泉谷; "..YELLOW.."54,51"..WHITE.."）"
 Inst9Quest7_Note = "联盟奥妮克希亚钥匙系列任务的最后一步。达基萨斯将军在"..YELLOW.."[9]"..WHITE.."。"
@@ -2066,7 +2072,7 @@ Inst9Quest7PreQuest = "true"
 --
 Inst9Quest7name1 = "龙火护符"
 
---Quest8 Alliance
+--Quest 8 Alliance
 Inst9Quest8 = "8. 黑手的命令"
 Inst9Quest8_Level = "60"
 Inst9Quest8_Attain = "55"
@@ -2104,9 +2110,9 @@ Inst9Quest10name1 = "符咒火盆"
 Inst9Quest10name2 = "符咒火盆用户手册"
 
 --Quest 11 Alliance
-Inst9Quest11 = "11. 恶魔熔炉 (煅造-铸甲大师任务)"
+Inst9Quest11 = "11. 恶魔熔炉（煅造-铸甲大师任务）"
 Inst9Quest11_Level = "60"
-Inst9Quest11_Attain = "58"
+Inst9Quest11_Attain = "55"
 Inst9Quest11_Aim = "到黑石塔去找到古拉鲁克。杀死他，然后用血污长矛刺入他的尸体。当他的灵魂被吸干后，这支矛就会成为穿魂长矛。你还必须找到未铸造的符文覆饰胸甲。将穿魂长矛和未铸造的符文覆饰胸甲都交给冬泉谷的罗拉克斯。"
 Inst9Quest11_Location = "罗拉克斯（冬泉谷; "..YELLOW.."64,74"..WHITE.."）"
 Inst9Quest11_Note = "煅造任务。古拉鲁克在"..YELLOW.."[5]"..WHITE.."。"
@@ -2179,7 +2185,7 @@ Inst9Quest5name1_HORDE = "迅捷皮靴"
 Inst9Quest5name2_HORDE = "瞬击护臂"
 
 --Quest6 Horde
-Inst9Quest6_HORDE = "6. 为部落而战!"
+Inst9Quest6_HORDE = "6. 为部落而战！"
 Inst9Quest6_HORDE_Level = "60"
 Inst9Quest6_HORDE_Attain = "55"
 Inst9Quest6_HORDE_Aim = "去黑石塔杀死大酋长雷德·黑手，带着他的头颅返回奥格瑞玛。"
@@ -2196,7 +2202,7 @@ Inst9Quest6name3_HORDE = "黑手饰物"
 --Quest7 Horde
 Inst9Quest7_HORDE = "7. 黑龙幻像"
 Inst9Quest7_HORDE_Level = "60"
-Inst9Quest7_HORDE_Attain = "57"
+Inst9Quest7_HORDE_Attain = "55"
 Inst9Quest7_HORDE_Aim = "到黑石塔去收集20颗黑色龙人的眼球，完成任务之后回到巫女麦兰达那里。"
 Inst9Quest7_HORDE_Location = "巫女麦兰达（西瘟疫之地; "..YELLOW.."50,77"..WHITE.."）"
 Inst9Quest7_HORDE_Note = "黑色的龙会掉落眼球。"
@@ -2208,7 +2214,7 @@ Inst9Quest7FQuest_HORDE = "true"
 --Quest8 Horde
 Inst9Quest8_HORDE = "8. 黑龙勇士之血"
 Inst9Quest8_HORDE_Level = "60"
-Inst9Quest8_HORDE_Attain = "56"
+Inst9Quest8_HORDE_Attain = "55"
 Inst9Quest8_HORDE_Aim = "到黑石塔去杀掉达基萨斯将军，把它的血交给罗卡鲁。"
 Inst9Quest8_HORDE_Location = "罗卡鲁（凄凉之地 - 葬影村; "..YELLOW.."25,71"..WHITE.."）"
 Inst9Quest8_HORDE_Note = "部落奥妮克希亚钥匙系列任务的最后一步。达基萨斯将军在"..YELLOW.."[9]"..WHITE.."。"
@@ -2272,7 +2278,7 @@ Inst9Quest12name3_HORDE = Inst9Quest11name3
 --------------- INST10 - Dire Maul East (DM) ---------------
 
 Inst10Story = "埃雷萨拉斯古城是在一万二千年前由当时的一批暗夜精灵法师秘密地建造的，它被用于保护艾莎拉皇后最宝贵的奥法秘密。虽然受到了世界大震动的影响，这座伟大的城市基本屹立在那里，现在其被称为厄运之槌。这座遗迹城市分为三个部分，分别被不同的生物所占据——包括幽灵般的高等精灵，邪恶的萨特和鲁莽的食人魔。只有最勇敢的冒险队伍才敢进入这个破碎的城市并面对远古大厅中邪恶力量。"
-Inst10Caption = "厄运之槌（东）"
+Inst10Caption = "厄运之槌（DM）（东）"
 Inst10QAA = "6 个任务"
 Inst10QAH = "6 个任务"
 
@@ -2341,7 +2347,7 @@ Inst10Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst10Quest6 = "6. 监牢之链 (术士任务)"
+Inst10Quest6 = "6. 监牢之链（术士任务）"
 Inst10Quest6_Level = "60"
 Inst10Quest6_Attain = "60"
 Inst10Quest6_Aim = "到菲拉斯的厄运之槌去，从扭木广场的荒野萨特身上找到15份萨特之血，然后把它们交给腐烂之痕的戴奥。"
@@ -2431,7 +2437,7 @@ Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 --------------- INST11 - Dire Maul North (DM) ---------------
 
 Inst11Story = "埃雷萨拉斯古城是在一万二千年前由当时的一批暗夜精灵法师秘密地建造的，它被用于保护艾莎拉皇后最宝贵的奥法秘密。虽然受到了世界大震动的影响，这座伟大的城市基本屹立在那里，现在其被称为厄运之槌。这座遗迹城市分为三个部分，分别被不同的生物所占据——包括幽灵般的高等精灵，邪恶的萨特和鲁莽的食人魔。只有最勇敢的冒险队伍才敢进入这个破碎的城市并面对远古大厅中邪恶力量。"
-Inst11Caption = "厄运之槌（北）"
+Inst11Caption = "厄运之槌（DM）（北）"
 Inst11QAA = "4 个任务"
 Inst11QAH = "4 个任务"
 
@@ -2539,7 +2545,7 @@ Inst11Quest4name4_HORDE = Inst11Quest4name4
 --------------- INST12 - Dire Maul West (DM) ---------------
 
 Inst12Story = "埃雷萨拉斯古城是在一万二千年前由当时的一批暗夜精灵法师秘密地建造的，它被用于保护艾莎拉皇后最宝贵的奥法秘密。虽然受到了世界大震动的影响，这座伟大的城市基本屹立在那里，现在其被称为厄运之槌。这座遗迹城市分为三个部分，分别被不同的生物所占据——包括幽灵般的高等精灵，邪恶的萨特和鲁莽的食人魔。只有最勇敢的冒险队伍才敢进入这个破碎的城市并面对远古大厅中邪恶力量。"
-Inst12Caption = "厄运之槌（西）"
+Inst12Caption = "厄运之槌（DM）（西）"
 Inst12QAA = "17 个任务"
 Inst12QAH = "17 个任务"
 
@@ -2581,7 +2587,7 @@ Inst12Quest3name2 = "密林头盔"
 Inst12Quest3name3 = "碾骨者"
 
 --Quest 4 Alliance
-Inst12Quest4 = "4. 克索诺斯恐惧战马 (术士任务)"
+Inst12Quest4 = "4. 克索诺斯恐惧战马（术士任务）"
 Inst12Quest4_Level = "60"
 Inst12Quest4_Attain = "60"
 Inst12Quest4_Aim = "阅读莫苏尔的指南，并召唤出一匹克索诺斯恐惧战马，击败它，然后控制它的灵魂。."
@@ -2593,7 +2599,7 @@ Inst12Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst12Quest5 = "5. 翡翠梦境 (德鲁伊饰品任务)"
+Inst12Quest5 = "5. 翡翠梦境（德鲁伊饰品任务）"
 Inst12Quest5_Level = "60"
 Inst12Quest5_Attain = "54"
 Inst12Quest5_Aim = "将这本典籍交给它的主人。"
@@ -2605,7 +2611,7 @@ Inst12Quest5_Folgequest = "无"
 Inst12Quest5name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 6 Alliance
-Inst12Quest6 = "6. 最伟大的猎手 (猎人饰品任务)"
+Inst12Quest6 = "6. 最伟大的猎手（猎人饰品任务）"
 Inst12Quest6_Level = "60"
 Inst12Quest6_Attain = "54"
 Inst12Quest6_Aim = "将这本典籍交给它的主人。"
@@ -2617,7 +2623,7 @@ Inst12Quest6_Folgequest = "无"
 Inst12Quest6name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 7 Alliance
-Inst12Quest7 = "7. 奥法师的食谱 (法师饰品任务)"
+Inst12Quest7 = "7. 奥法师的食谱（法师饰品任务）"
 Inst12Quest7_Level = "60"
 Inst12Quest7_Attain = "54"
 Inst12Quest7_Aim = "将这本典籍交给它的主人。"
@@ -2629,7 +2635,7 @@ Inst12Quest7_Folgequest = "无"
 Inst12Quest7name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 8 Alliance
-Inst12Quest8 = "8. 圣光之力 (圣骑士饰品任务)"
+Inst12Quest8 = "8. 圣光之力（圣骑士饰品任务）"
 Inst12Quest8_Level = "60"
 Inst12Quest8_Attain = "54"
 Inst12Quest8_Aim = "将这本典籍交给它的主人。"
@@ -2641,7 +2647,7 @@ Inst12Quest8_Folgequest = "无"
 Inst12Quest8name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 9 Alliance
-Inst12Quest9 = "9. 光明不会告诉你的事情 (牧师饰品任务)"
+Inst12Quest9 = "9. 光明不会告诉你的事情（牧师饰品任务）"
 Inst12Quest9_Level = "60"
 Inst12Quest9_Attain = "54"
 Inst12Quest9_Aim = "将这本典籍交给它的主人。"
@@ -2653,7 +2659,7 @@ Inst12Quest9_Folgequest = "无"
 Inst12Quest9name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 10 Alliance
-Inst12Quest10 = "10. 迦罗娜：潜行与诡计研究 (盗贼饰品任务)"
+Inst12Quest10 = "10. 迦罗娜：潜行与诡计研究（盗贼饰品任务）"
 Inst12Quest10_Level = "60"
 Inst12Quest10_Attain = "54"
 Inst12Quest10_Aim = "将这本典籍交给它的主人。"
@@ -2665,7 +2671,7 @@ Inst12Quest10_Folgequest = "无"
 Inst12Quest10name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 11 Alliance
-Inst12Quest11 = "11. 你与冰霜震击 (萨满祭司饰品任务)"
+Inst12Quest11 = "11. 你与冰霜震击（萨满祭司饰品任务）"
 Inst12Quest11_Level = "60"
 Inst12Quest11_Attain = "54"
 Inst12Quest11_Aim = "将这本典籍交给它的主人。"
@@ -2677,7 +2683,7 @@ Inst12Quest11_Folgequest = "无"
 Inst12Quest11name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 12 Alliance
-Inst12Quest12 = "12. 束缚之影 (术士饰品任务)"
+Inst12Quest12 = "12. 束缚之影（术士饰品任务）"
 Inst12Quest12_Level = "60"
 Inst12Quest12_Attain = "54"
 Inst12Quest12_Aim = "将这本典籍交给它的主人。"
@@ -2689,7 +2695,7 @@ Inst12Quest12_Folgequest = "无"
 Inst12Quest12name1 = "埃雷萨拉斯皇家徽记"
 
 --Quest 13 Alliance
-Inst12Quest13 = "13. 防御宝典 (战士饰品任务)"
+Inst12Quest13 = "13. 防御宝典（战士饰品任务）"
 Inst12Quest13_Level = "60"
 Inst12Quest13_Attain = "54"
 Inst12Quest13_Aim = "将这本典籍交给它的主人。"
@@ -2703,7 +2709,7 @@ Inst12Quest13name1 = "埃雷萨拉斯皇家徽记"
 --Quest 14 Alliance
 Inst12Quest14 = "14. 专注圣典"
 Inst12Quest14_Level = "60"
-Inst12Quest14_Attain = "60"
+Inst12Quest14_Attain = "54"
 Inst12Quest14_Aim = "将专注圣典、1块原始黑钻石、4份大块魔光碎片和2张暗影之皮交给厄运之槌的博学者莱德罗斯，以换取一份专注秘药。"
 Inst12Quest14_Location = "博学者莱德罗斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）"
 Inst12Quest14_Note = "没有前续任务，但是 精灵的传说任务必须完成后才能接到这个任务。"
@@ -2715,7 +2721,7 @@ Inst12Quest14name1 = "专注秘药"
 --Quest 15 Alliance
 Inst12Quest15 = "15. 防护圣典"
 Inst12Quest15_Level = "60"
-Inst12Quest15_Attain = "60"
+Inst12Quest15_Attain = "54"
 Inst12Quest15_Aim = "将防护圣典、1块原始黑钻石、2份大块魔光碎片和1份磨损的憎恶缝合线交给厄运之槌的博学者莱德罗斯，以换取一份防护秘药。"
 Inst12Quest15_Location = "博学者莱德罗斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）"
 Inst12Quest15_Note = "没有前续任务，但是 精灵的传说任务必须完成后才能接到这个任务。"
@@ -2727,7 +2733,7 @@ Inst12Quest15name1 = "防护秘药"
 --Quest 16 Alliance
 Inst12Quest16 = "16. 急速圣典"
 Inst12Quest16_Level = "60"
-Inst12Quest16_Attain = "60"
+Inst12Quest16_Attain = "54"
 Inst12Quest16_Aim = "将急速圣典、1块原始黑钻石、2份大块魔光碎片和2份英雄之血交给厄运之槌的博学者莱德罗斯，以换取一份急速秘药。"
 Inst12Quest16_Location = "博学者莱德罗斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）"
 Inst12Quest16_Note = "没有前续任务，但是 精灵的传说任务必须完成后才能接到这个任务。"
@@ -2737,7 +2743,7 @@ Inst12Quest16_Folgequest = "无"
 Inst12Quest16name1 = "急速秘药"
 
 --Quest 17 Alliance
-Inst12Quest17 = "17. 弗洛尔的屠龙技术纲要 (战士，圣骑士)"
+Inst12Quest17 = "17. 弗洛尔的屠龙技术纲要（战士，圣骑士）"
 Inst12Quest17_Level = "60"
 Inst12Quest17_Attain = "60"
 Inst12Quest17_Aim = "将《弗洛尔的屠龙技术纲要》还回图书馆。"
@@ -2957,7 +2963,7 @@ Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
 --------------- INST13 - Maraudon (Mara) ---------------
 
 Inst13Story = "玛拉顿被狂暴的玛拉顿半人马所保护，那是凄凉之地最神圣的地方。玛拉顿是扎尔塔的伟大神庙，扎尔塔使半神塞纳留斯不朽的儿子之一。传说说扎尔塔和瑟莱德丝大地元素公主的私生子成为了半人马种族。据说半人马这个野蛮的种族在其出生了之后就开始转向他们的父亲并将其杀死。有些人则相信瑟莱德丝在悲伤中将扎尔塔的灵魂困了起来，并将其藏在洞中——利用它的能量来达到一些不可告人的目的。在玛拉顿错综复杂的地下通道中到处都是邪恶的半人马可汗灵魂和瑟莱德丝的元素爪牙。"
-Inst13Caption = "玛拉顿"
+Inst13Caption = "玛拉顿（Mara）"
 Inst13QAA = "8 个任务"
 Inst13QAH = "8 个任务"
 
@@ -3177,7 +3183,7 @@ Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
 --------------- INST14 - Molten Core (MC) ---------------
 
 Inst14Story = "熔火之心就在黑石深渊的底层。这是黑石山的中心，也是很久以前扭转矮人内战情势的地方，索瑞森大帝将元素火焰之王，拉格纳罗斯召唤到世界来。尽管火焰之王无法远离熔火之心，但人们相信他的元素爪牙控制着黑铁矮人，在遗迹之外组建军队。拉格纳罗斯休眠的燃烧之湖有一道裂缝连接火平面，让邪恶的元素可以通过。拉格纳罗斯的首要代理人是管理者埃克索图斯——因为这是唯一能唤醒火焰之王的狡猾元素。"
-Inst14Caption = "熔火之心"
+Inst14Caption = "熔火之心（MC）"
 Inst14QAA = "5 个任务"
 Inst14QAH = "5 个任务"
 
@@ -3196,7 +3202,7 @@ Inst14Quest1PreQuest = "true"
 --Quest 2 Alliance
 Inst14Quest2 = "2. 敌人之手"
 Inst14Quest2_Level = "60"
-Inst14Quest2_Attain = "60"
+Inst14Quest2_Attain = "55"
 Inst14Quest2_Aim = "将鲁西弗隆之手、萨弗隆之手、基赫纳斯之手和沙斯拉尔之手交给艾萨拉的海达克西斯公爵。"
 Inst14Quest2_Location = "海达克西斯公爵（艾萨拉; "..YELLOW.."79,73"..WHITE.."）"
 Inst14Quest2_Note = "鲁西弗隆在"..YELLOW.."[1]"..WHITE.."，萨弗隆先驱者在"..YELLOW.."[8]"..WHITE.."，基赫纳斯在"..YELLOW.."[3]"..WHITE.."，还有沙斯拉尔在"..YELLOW.."[5]"..WHITE.."。"
@@ -3305,14 +3311,14 @@ Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
 --------------- INST15 -Old Naxxramas (Old Naxx) ---------------
 
 --旧纳克萨玛斯（巫妖王之怒前）
---现在用Inst84来标记新的纳克萨玛斯
+--现在用 Inst84 来标记新的纳克萨玛斯。
 
 
 
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
 Inst16Story = "奥妮克希亚是强大之龙死亡之翼的女儿，也是黑石塔擅长阴谋的奈法利安大王的妹妹。据说奥妮克希亚喜欢借由干涉人类种族的政治来腐化他们。为达此目的他会变成各种人型生物形态，使用魔法和力量干预不同种族间的所有事情。有些人更认为奥妮克希亚使用父亲曾用过的化名——皇室普瑞斯托。若不插手凡人事务的时候，奥妮克希亚就在黑龙谷下的一处火焰洞穴居住，那是尘泥沼泽里的一个阴暗沼泽。阴险的黑龙军团剩余成员在此守护着她。"
-Inst16Caption = "奥妮克希亚的巢穴"
+Inst16Caption = "奥妮克希亚的巢穴（Ony）"
 Inst16QAA = "2 个任务"
 Inst16QAH = "2 个任务"
 
@@ -3321,7 +3327,7 @@ Inst16Quest1 = "1. 铸造奎尔塞拉"
 Inst16Quest1_Level = "60"
 Inst16Quest1_Attain = "60"
 Inst16Quest1_Aim = "你必须设法让奥妮克希亚对这把未淬火的上古之刃喷射火焰。完成之后，捡起加热过的上古之刃。你要注意的是，加热过的上古之刃不会一直保持被加热的状态，时间非常紧迫。"
-Inst16Quest1_Location = "博学者莱德罗斯（厄运之槌; "..YELLOW.."北，图书馆[1']"..WHITE..")"
+Inst16Quest1_Location = "博学者莱德罗斯（厄运之槌; "..YELLOW.."北，图书馆[1']"..WHITE.."）"
 Inst16Quest1_Note = "当奥妮克希亚的生命值在10%到15%时，在她前面放置未淬火的上古之刃，她将为此淬火。当奥妮克希亚死亡，重新拾取任务物品，选择她的尸体并使用它后，就可以返回完成此任务。"
 Inst16Quest1_Prequest = "有，弗洛尔的屠龙技术纲要（厄运之槌; "..YELLOW..""..WHITE.."） -> 铸造奎尔塞拉"
 Inst16Quest1_Folgequest = "无"
@@ -3376,7 +3382,7 @@ Inst16Quest2name3_HORDE = "奥妮克希亚龙牙坠饰"
 --------------- INST17 - Razorfen Downs (RFD) ---------------
 
 Inst17Story = "剃刀高地和剃刀沼泽一样由巨大的藤蔓组成，剃刀高地是野猪人的传统都城。在那错综复杂的荆棘迷宫中居住着大群忠诚的野猪人军队以及他们的高等牧师——亡首部族。然而最近，一股阴影力量笼罩了这个原始的洞穴。亡灵天灾的人在巫妖寒冰之王亚门纳尔的带领下控制了野猪部族并将荆棘迷宫变成了亡灵力量的堡垒。现在野猪人正奋力战斗来重新夺回他们的城市，并阻止亚门纳尔继续控制贫瘠之地。"
-Inst17Caption = "剃刀高地"
+Inst17Caption = "剃刀高地（RFD）"
 Inst17QAA = "3 个任务"
 Inst17QAH = "4 个任务"
 
@@ -3394,7 +3400,7 @@ Inst17Quest1_Folgequest = "无"
 --Quest 2 Alliance
 Inst17Quest2 = "2. 封印神像"
 Inst17Quest2_Level = "37"
-Inst17Quest2_Attain = "34"
+Inst17Quest2_Attain = "32"
 Inst17Quest2_Aim = "保护奔尼斯特拉兹来到剃刀高地的野猪人神像处。当他在进行仪式封印神像时保护他。"
 Inst17Quest2_Location = "奔尼斯特拉兹（剃刀高地; "..YELLOW.."[2] "..WHITE.."）"
 Inst17Quest2_Note = "你必须同意帮助奔尼斯特拉兹封印神像，封印过程中会刷新怪物攻击他，必须保证他的安全。完成后在神像面前获得奖励。"
@@ -3406,8 +3412,8 @@ Inst17Quest2name1 = "龙爪戒指"
 
 --Quest 3 Alliance
 Inst17Quest3 = "3. 与圣光同在"
-Inst17Quest3_Level = "42"
-Inst17Quest3_Attain = "39"
+Inst17Quest3_Level = "37"
+Inst17Quest3_Attain = "32"
 Inst17Quest3_Aim = "大主教本尼迪塔斯要你去杀死剃刀高地的寒冰之王亚门纳尔。"
 Inst17Quest3_Location = "大主教本尼迪塔斯（暴风城 - 光明大教堂; "..YELLOW.."50,45 "..WHITE.."）"
 Inst17Quest3_Note = "寒冰之王亚门纳尔是剃刀高地的最后一个 Boss。你可以在"..YELLOW.."[6]"..WHITE.."找到他。"
@@ -3445,7 +3451,7 @@ Inst17Quest2name2_HORDE = "钉枪"
 Inst17Quest2name3_HORDE = "狂热长袍"
 
 --Quest 3 Horde  (same as Quest 2 Alliance)
-Inst17Quest3_HORDE = "3. Extinguishing the Idol"
+Inst17Quest3_HORDE = "3. 封印神像"
 Inst17Quest3_HORDE_Level = Inst17Quest2_Level
 Inst17Quest3_HORDE_Attain = Inst17Quest2_Attain
 Inst17Quest3_HORDE_Aim = Inst17Quest2_Aim
@@ -3475,7 +3481,7 @@ Inst17Quest4name2_HORDE = "琥珀之光"
 --------------- INST18 - Razorfen Kraul (RFK) ---------------
 
 Inst18Story = "在一万年前的古代战争中，万能的半神阿迦玛甘和燃烧军团进行了激战。虽然这头巨大的猪在战斗中倒下了，但是他的努力最终拯救了艾泽拉斯大陆免遭涂炭。虽然已经过去了很久，但是在它血液流淌的地方巨大的荆棘藤蔓生长出来。那些被认为是半神后代的野猪人占领了这些地区并将其奉为圣地。这些荆棘地的中心被称为剃刀岭。而巨大的剃刀沼泽则被一个老丑婆卡尔加·刺肋所占据。在她的统治下，信奉萨满教的野猪人和别的部族以及部落为敌。有些人甚至猜测卡尔加还在和亡灵天灾的有来往——她想要联合亡灵天灾来达到一些不可告人的险恶目的。"
-Inst18Caption = "剃刀沼泽"
+Inst18Caption = "剃刀沼泽（RFK）"
 Inst18QAA = "5 个任务"
 Inst18QAH = "5 个任务"
 
@@ -3494,7 +3500,7 @@ Inst18Quest1name1 = "一小袋宝石"
 --Quest 2 Alliance
 Inst18Quest2 = "2. 临终遗言"
 Inst18Quest2_Level = "30"
-Inst18Quest2_Attain = "27"
+Inst18Quest2_Attain = "25"
 Inst18Quest2_Aim = "将塔莎拉的坠饰带给达纳苏斯的塔莎拉·静水。"
 Inst18Quest2_Location = "赫尔拉斯·静水（剃刀沼泽; "..YELLOW.." [8]"..WHITE.."）"
 Inst18Quest2_Note = "坠饰随机掉落。你必须把坠饰带给塔莎拉·静水（达纳苏斯 - 贸易区; "..YELLOW.."69,67"..WHITE.."）。"
@@ -3520,8 +3526,8 @@ Inst18Quest3name3 = "猛虎指环"
 
 --Quest 4 Alliance
 Inst18Quest4 = "4. 卡尔加·刺肋"
-Inst18Quest4_Level = "34"
-Inst18Quest4_Attain = "29"
+Inst18Quest4_Level = "27"
+Inst18Quest4_Attain = "23"
 Inst18Quest4_Aim = "把卡尔加·刺肋的徽章交给萨兰纳尔的法芬德尔。"
 Inst18Quest4_Location = "法芬德尔（菲拉斯 - 萨兰纳尔; "..YELLOW.."89,46"..WHITE.."）"
 Inst18Quest4_Note = "卡尔加·刺肋"..YELLOW.."[7]"..WHITE.."掉落徽章。"
@@ -3535,11 +3541,11 @@ Inst18Quest4name3 = "石拳束带"
 Inst18Quest4name4 = "石饰圆盾"
 
 --Quest 5 Alliance
-Inst18Quest5 = "5. 弗伦的铠甲 (战士任务)"
+Inst18Quest5 = "5. 弗伦的铠甲（战士任务）"
 Inst18Quest5_Level = "28"
 Inst18Quest5_Attain = "20"
 Inst18Quest5_Aim = "收集必需的材料，将它们交给暴风城的弗伦·长须。"
-Inst18Quest5_Location = "弗伦·长须（暴风城 - 矮人区; "..YELLOW.."57,16"..WHITE.."）"
+Inst18Quest5_Location = "弗伦·长须（暴风城 - 矮人区; "..YELLOW.."64,37"..WHITE.."）"
 Inst18Quest5_Note = "只有战士才能接到这个任务！\n你可以从鲁古格"..YELLOW.."[1]"..WHITE.."得到燃素。\n\n湿地的蜘蛛掉落烧焦的蜘蛛牙，石爪山脉的奇美幼崽拉掉落烧焦的奇美拉角、雌奇美拉掉落光滑的奇美拉角。"
 Inst18Quest5_Prequest = "有，铸盾师"
 Inst18Quest5_Folgequest = "有，（请见注释）"
@@ -3575,8 +3581,8 @@ Inst18Quest2name3_HORDE = Inst18Quest3name3
 
 -- Quest 3 Horde
 Inst18Quest3_HORDE = "3. 蝙蝠的粪便"
-Inst18Quest3_HORDE_Level = "33"
-Inst18Quest3_HORDE_Attain = "30"
+Inst18Quest3_HORDE_Level = "26"
+Inst18Quest3_HORDE_Attain = "22"
 Inst18Quest3_HORDE_Aim = "帮幽暗城的大药剂师法拉尼尔带回一堆沼泽蝙蝠的粪便。"
 Inst18Quest3_HORDE_Location = "法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）"
 Inst18Quest3_HORDE_Note = "任何蝙蝠都会掉落沼泽蝙蝠的粪便。"
@@ -3586,8 +3592,8 @@ Inst18Quest3_HORDE_Folgequest = "有，狂热之心（"..YELLOW.."[剃刀高地]
 
 --Quest 4 Horde
 Inst18Quest4_HORDE = "4. 奥尔德的报复"
-Inst18Quest4_HORDE_Level = "34"
-Inst18Quest4_HORDE_Attain = "29"
+Inst18Quest4_HORDE_Level = "27"
+Inst18Quest4_HORDE_Attain = "23"
 Inst18Quest4_HORDE_Aim = "把卡尔加·刺肋的心脏交给雷霆崖的奥尔德·石塔。"
 Inst18Quest4_HORDE_Location = "奥尔德·石塔（雷霆崖; "..YELLOW.."36,59 "..WHITE.."）"
 Inst18Quest4_HORDE_Note = "卡尔加·刺肋在"..YELLOW.."[7]"..WHITE.."、"
@@ -3599,7 +3605,7 @@ Inst18Quest4name2_HORDE = "石拳束带"
 Inst18Quest4name3_HORDE = "石饰圆盾"
 
 --Quest 5 Horde
-Inst18Quest5_HORDE = "5. 野蛮护甲 (战士任务)"
+Inst18Quest5_HORDE = "5. 野蛮护甲（战士任务）"
 Inst18Quest5_HORDE_Level = "30"
 Inst18Quest5_HORDE_Attain = "20"
 Inst18Quest5_HORDE_Aim = "为索恩格瑞姆收集15根烟雾铁锭、10份蓝铜粉、10块铁锭和1瓶燃素。"
@@ -3615,7 +3621,7 @@ Inst18Quest5PreQuest_HORDE = "true"
 --------------- INST19 - SM: Library (SM Lib) ---------------
 
 Inst19Story = "血色修道院曾经是洛丹伦王国牧师的荣耀之地——那里是学习圣光只是和膜拜的中心。随着在第三次大战中亡灵天灾的崛起，宁静的修道院成为了疯狂的血色十字军的要塞。十字军对于所有非人类都有着偏激的态度，无论他们是自己的盟友还是对手。他们相信所有任何外来者都带着亡灵的瘟疫——他们必须被摧毁。有报告说所有进入修道院的冒险者都要面对血色十字军指挥官莫格莱尼——他控制了一群狂热的十字军战士。然而，修道院的真正主人是大检察官怀特迈恩——一个疯狂的牧师，她具有复活死去的战士来为其效劳的能力。"
-Inst19Caption = "血色修道院（图书馆）"
+Inst19Caption = "血色修道院（图书馆）（Lib）"
 Inst19QAA = "3 个任务"
 Inst19QAH = "5 个任务"
 
@@ -3632,7 +3638,7 @@ Inst19Quest1_Folgequest = "无"
 Inst19Quest1name1 = "探险者协会的奖状"
 
 --Quest 2 Alliance
-Inst19Quest2 = "2. 能量仪祭 (法师任务)"
+Inst19Quest2 = "2. 能量仪祭（法师任务）"
 Inst19Quest2_Level = "40"
 Inst19Quest2_Attain = "30"
 Inst19Quest2_Aim = "将《能量仪祭》交给尘泥沼泽的塔贝萨。"
@@ -3649,7 +3655,7 @@ Inst19Quest3_Level = "40"
 Inst19Quest3_Attain = "34"
 Inst19Quest3_Aim = "杀死大检察官怀特迈恩，血色十字军指挥官莫格莱尼，十字军的勇士赫洛德和驯犬者洛克希并向南海镇的莱雷恩复命。"
 Inst19Quest3_Location =  "虔诚的莱雷恩（希尔斯布莱德丘陵 - 南海镇; "..YELLOW.."51,58 "..WHITE.."）"
-Inst19Quest3_Note ="此系列任务始于克罗雷修士（暴风城 - 光明大教堂; "..YELLOW.."52,43"..WHITE.."），当然，你也可以直接从凄凉之地尼耶尔前哨站的血色十字军使者直接获得任务。\n大检察官怀特迈恩和血色十字军指挥官莫格莱尼在血色修道院"..YELLOW.."教堂[2]"..WHITE.."，赫洛德在血色修道院"..YELLOW.."军械库[1]"..WHITE.."，驯犬者洛克希在血色修道院"..YELLOW.."图书馆[1]"..WHITE.."。"
+Inst19Quest3_Note ="此系列任务始于克罗雷修士（暴风城 - 光明大教堂; "..YELLOW.."52,43"..WHITE.."）。当然，你也可以直接从凄凉之地尼耶尔前哨站的血色十字军使者直接获得任务。\n大检察官怀特迈恩和血色十字军指挥官莫格莱尼在血色修道院"..YELLOW.."教堂[2]"..WHITE.."，赫洛德在血色修道院"..YELLOW.."军械库[1]"..WHITE.."，驯犬者洛克希在血色修道院"..YELLOW.."图书馆[1]"..WHITE.."。"
 Inst19Quest3_Prequest = "有，安东修士 -> 血色之路"
 Inst19Quest3_Folgequest = "有"
 Inst19Quest3PreQuest = "true"
@@ -3675,7 +3681,7 @@ Inst19Quest1PreQuest_HORDE = "true"
 --Quest 2 Horde
 Inst19Quest2_HORDE = "2. 知识的试炼"
 Inst19Quest2_HORDE_Level = "36"
-Inst19Quest2_HORDE_Attain = "26"
+Inst19Quest2_HORDE_Attain = "25"
 Inst19Quest2_HORDE_Aim = "找到《亡灵的起源》，把它交给幽暗城的帕科瓦·芬塔拉斯。"
 Inst19Quest2_HORDE_Location = "帕科瓦·芬塔拉斯（幽暗城 - 炼金房; "..YELLOW.."57,65 "..WHITE.."）"
 Inst19Quest2_HORDE_Note = "此系列任务始于多恩·平原行者（千针石林; "..YELLOW.."53,41"..WHITE.."）。\n书在血色修道院图书馆里。"
@@ -3699,7 +3705,7 @@ Inst19Quest3name2_HORDE = "力石圆盾"
 Inst19Quest3name3_HORDE = "终结宝珠"
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
-Inst19Quest4_HORDE = "4. 能量仪祭 (法师任务)"
+Inst19Quest4_HORDE = "4. 能量仪祭（法师任务）"
 Inst19Quest4_HORDE_Level = Inst19Quest2_Level
 Inst19Quest4_HORDE_Attain = Inst19Quest2_Attain
 Inst19Quest4_HORDE_Aim = Inst19Quest2_Aim
@@ -3726,10 +3732,172 @@ Inst19Quest5name3_HORDE = "龙血项链"
 
 
 
+--------------- INST57 - SM: Armory (SM Arm) ---------------
+
+Inst57Story = "血色修道院曾经是洛丹伦王国牧师的荣耀之地——那里是学习圣光只是和膜拜的中心。随着在第三次大战中亡灵天灾的崛起，宁静的修道院成为了疯狂的血色十字军的要塞。十字军对于所有非人类都有着偏激的态度，无论他们是自己的盟友还是对手。他们相信所有任何外来者都带着亡灵的瘟疫——他们必须被摧毁。有报告说所有进入修道院的冒险者都要面对血色十字军指挥官莫格莱尼——他控制了一群狂热的十字军战士。然而，修道院的真正主人是大检察官怀特迈恩——一个疯狂的牧师，她具有复活死去的战士来为其效劳的能力。"
+Inst57Caption = "血色修道院：军械库"
+Inst57QAA = "1 个任务"
+Inst57QAH = "2 个任务"
+
+--Quest 1 Alliance
+Inst57Quest1 = "1. 以圣光之名"
+Inst57Quest1_Level = "40"
+Inst57Quest1_Attain = "34"
+Inst57Quest1_Aim = "杀死大检察官怀特迈恩，血色十字军指挥官莫格莱尼，十字军的勇士赫洛德和驯犬者洛克希并向南海镇的莱雷恩复命。"
+Inst57Quest1_Location = "虔诚的莱雷恩（希尔斯布莱德丘陵 - 南海镇; "..YELLOW.."51,58 "..WHITE.."）"
+Inst57Quest1_Note = "此系列任务始于克罗雷修士（暴风城 - 光明大教堂; "..YELLOW.."52,43"..WHITE.."），当然，你也可以直接从凄凉之地尼耶尔前哨站的血色十字军使者直接获得任务。\n大检察官怀特迈恩和血色十字军指挥官莫格莱尼在血色修道院"..YELLOW.."教堂[2]"..WHITE.."，赫洛德在血色修道院"..YELLOW.."军械库[1]"..WHITE.."，驯犬者洛克希在血色修道院"..YELLOW.."图书馆[1]"..WHITE.."。"
+Inst57Quest1_Prequest ="有，安东修士 -> 血色之路"
+Inst57Quest1_Folgequest = "无"
+Inst57Quest1PreQuest = "true"
+--
+Inst57Quest1name1 = "平静之剑"
+Inst57Quest1name2 = "咬骨之斧"
+Inst57Quest1name3 = "黑暗威胁"
+Inst57Quest1name4 = "洛瑞卡宝珠"
+
+
+--Quest 1 Horde
+Inst57Quest1_HORDE = "1. 狂热之心"
+Inst57Quest1_HORDE_Level = "33"
+Inst57Quest1_HORDE_Attain = "30"
+Inst57Quest1_HORDE_Aim = "幽暗城的大药剂师法拉尼尔需要20颗狂热之心。"
+Inst57Quest1_HORDE_Location = "大药剂师法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）"
+Inst57Quest1_HORDE_Note = "血色所有的怪均掉落。"
+Inst57Quest1_HORDE_Prequest = "有，蝙蝠的粪便（"..YELLOW.."[剃刀沼泽]"..WHITE.."）"
+Inst57Quest1_HORDE_Folgequest = "无"
+Inst57Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst57Quest2_HORDE = "2. 深入血色修道院"
+Inst57Quest2_HORDE_Level = "42"
+Inst57Quest2_HORDE_Attain = "33"
+Inst57Quest2_HORDE_Aim = "杀掉大检察官怀特迈恩、血色十字军指挥官莫格莱尼、血色十字军勇士赫洛德和驯犬者洛克希，然后向幽暗城的瓦里玛萨斯回报。"
+Inst57Quest2_HORDE_Location = "瓦里玛萨斯（幽暗城 - 皇家区; "..YELLOW.."56,92 "..WHITE.."）"
+Inst57Quest2_HORDE_Note = "大检察官怀特迈恩和血色十字军指挥官莫格莱尼在血色修道院"..YELLOW.."教堂[2]"..WHITE.."，赫洛德在血色修道院"..YELLOW.."军械库[1]"..WHITE.."，驯犬者洛克希在血色修道院"..YELLOW.."图书馆[1]"..WHITE.."。"
+Inst57Quest2_HORDE_Prequest = "无"
+Inst57Quest2_HORDE_Folgequest = "无"
+--
+Inst57Quest2name1_HORDE = "预兆之剑"
+Inst57Quest2name2_HORDE = "预言藤杖"
+Inst57Quest2name3_HORDE = "龙血项链"
+
+
+
+--------------- INST58 - SM: Cathedral (SM Cath) ---------------
+
+Inst58Story = "血色修道院曾经是洛丹伦王国牧师的荣耀之地——那里是学习圣光只是和膜拜的中心。随着在第三次大战中亡灵天灾的崛起，宁静的修道院成为了疯狂的血色十字军的要塞。十字军对于所有非人类都有着偏激的态度，无论他们是自己的盟友还是对手。他们相信所有任何外来者都带着亡灵的瘟疫——他们必须被摧毁。有报告说所有进入修道院的冒险者都要面对血色十字军指挥官莫格莱尼——他控制了一群狂热的十字军战士。然而，修道院的真正主人是大检察官怀特迈恩——一个疯狂的牧师，她具有复活死去的战士来为其效劳的能力。"
+Inst58Caption = "血色修道院：教堂（Cath）"
+Inst58QAA = "1 个任务"
+Inst58QAH = "2 个任务"
+
+--Quest 1 Alliance
+Inst58Quest1 = "1. 以圣光之名"
+Inst58Quest1_Level = "40"
+Inst58Quest1_Attain = "34"
+Inst58Quest1_Aim =  "杀死大检察官怀特迈恩，血色十字军指挥官莫格莱尼，十字军的勇士赫洛德和驯犬者洛克希并向南海镇的莱雷恩复命。"
+Inst58Quest1_Location = "虔诚的莱雷恩（希尔斯布莱德丘陵 - 南海镇; "..YELLOW.."51,58 "..WHITE.."）"
+Inst58Quest1_Note = "此系列任务始于克罗雷修士（暴风城 - 光明大教堂; "..YELLOW.."52,43"..WHITE.."），当然，你也可以直接从凄凉之地尼耶尔前哨站的血色十字军使者直接获得任务。\n大检察官怀特迈恩和血色十字军指挥官莫格莱尼在血色修道院"..YELLOW.."教堂[2]"..WHITE.."，赫洛德在血色修道院"..YELLOW.."军械库[1]"..WHITE.."，驯犬者洛克希在血色修道院"..YELLOW.."图书馆[1]"..WHITE.."。"
+Inst58Quest1_Prequest = "有，安东修士 -> 血色之路"
+Inst58Quest1_Folgequest = "无"
+Inst58Quest1PreQuest = "true"
+--
+Inst58Quest1name1 = "平静之剑"
+Inst58Quest1name2 = "咬骨手斧"
+Inst58Quest1name3 = "黑暗威胁"
+Inst58Quest1name4 = "洛瑞卡宝珠"
+
+
+--Quest 1 Horde
+Inst58Quest1_HORDE = "1. 狂热之心"
+Inst58Quest1_HORDE_Level = "33"
+Inst58Quest1_HORDE_Attain = "30"
+Inst58Quest1_HORDE_Aim = "幽暗城的大药剂师法拉尼尔需要20颗狂热之心。"
+Inst58Quest1_HORDE_Location = "大药剂师法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）"
+Inst58Quest1_HORDE_Note = "血色所有的怪均掉落。"
+Inst58Quest1_HORDE_Prequest = "有，蝙蝠的粪便（"..YELLOW.."[剃刀沼泽]"..WHITE.."）"
+Inst58Quest1_HORDE_Folgequest = "无"
+Inst58Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst58Quest2_HORDE = "2. 深入血色修道院"
+Inst58Quest2_HORDE_Level = "42"
+Inst58Quest2_HORDE_Attain = "33"
+Inst58Quest2_HORDE_Aim = "杀掉大检察官怀特迈恩、血色十字军指挥官莫格莱尼、血色十字军勇士赫洛德和驯犬者洛克希，然后向幽暗城的瓦里玛萨斯回报。"
+Inst58Quest2_HORDE_Location = "瓦里玛萨斯（幽暗城 - 皇家区; "..YELLOW.."56,92 "..WHITE.."）"
+Inst58Quest2_HORDE_Note = "大检察官怀特迈恩 和 血色十字军指挥官莫格莱尼 在 "..YELLOW.."血色修道院：教堂 [2]"..WHITE..",赫洛德 在 "..YELLOW.."血色修道院：军械库[1]"..WHITE.."，  驯犬者洛克希 在 "..YELLOW.."血色修道院：图书馆[1]"..WHITE.."."
+Inst58Quest2_HORDE_Prequest = "无"
+Inst58Quest2_HORDE_Folgequest = "无"
+--
+Inst58Quest2name1_HORDE = "预兆之剑"
+Inst58Quest2name2_HORDE = "预言藤杖"
+Inst58Quest2name3_HORDE = "龙血项链"
+
+
+
+--------------- INST59 - SM: Graveyard (SM GY) ---------------
+
+Inst59Story = "血色修道院曾经是洛丹伦王国牧师的荣耀之地——那里是学习圣光只是和膜拜的中心。随着在第三次大战中亡灵天灾的崛起，宁静的修道院成为了疯狂的血色十字军的要塞。十字军对于所有非人类都有着偏激的态度，无论他们是自己的盟友还是对手。他们相信所有任何外来者都带着亡灵的瘟疫——他们必须被摧毁。有报告说所有进入修道院的冒险者都要面对血色十字军指挥官莫格莱尼——他控制了一群狂热的十字军战士。然而，修道院的真正主人是大检察官怀特迈恩——一个疯狂的牧师，她具有复活死去的战士来为其效劳的能力。"
+Inst59Caption = "血色修道院：墓地（GY）"
+Inst59QAA = "1 个任务"
+Inst59QAH = "3 个任务"
+
+--Quest 1 Alliance
+Inst59Quest1 = "1. 召唤无头骑士（日常 - 季节性）"
+Inst59Quest1_Level = "70"
+Inst59Quest1_Attain = "65"
+Inst59Quest1_Aim = "将一根悲伤蜡烛插入翻过的泥土。"
+Inst59Quest1_Location = "南瓜神龛（血色修道院 - 墓地; "..YELLOW.."[2]"..WHITE.."）"
+Inst59Quest1_Note = "南瓜神龛旁边就是翻过的泥土。这是一个只有在万圣节期间的季节性日常任务。\n\n召唤出来的无头骑士是70级别 Boss。"
+Inst59Quest1_Prequest = "无"
+Inst59Quest1_Folgequest = "无"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst59Quest1_HORDE = "1. 沃瑞尔的复仇"
+Inst59Quest1_HORDE_Level = "33"
+Inst59Quest1_HORDE_Attain = "25"
+Inst59Quest1_HORDE_Aim = "把沃瑞尔·森加斯的结婚戒指还给塔伦米尔的莫尼卡·森古特斯。"
+Inst59Quest1_HORDE_Location =  "沃瑞尔·森加斯（血色修道院 - 墓地; "..YELLOW.."[1]"..WHITE.."）"
+Inst59Quest1_HORDE_Note = "沃瑞尔·森加斯位于血色修道院墓地前部。南茜在（奥特兰克山脉; "..YELLOW.."31,32"..WHITE..")。 她有任务需要的戒指。"
+Inst59Quest1_HORDE_Prequest = "无"
+Inst59Quest1_HORDE_Folgequest = "无"
+--
+Inst59Quest1name1_HORDE = "沃瑞尔的靴子"
+Inst59Quest1name2_HORDE = "悲哀衬肩"
+Inst59Quest1name3_HORDE = "十字军斗篷"
+
+--Quest 2 Horde
+Inst59Quest2_HORDE = "2. 狂热之心"
+Inst59Quest2_HORDE_Level = "33"
+Inst59Quest2_HORDE_Attain = "30"
+Inst59Quest2_HORDE_Aim = "幽暗城的大药剂师法拉尼尔需要20颗狂热之心。"
+Inst59Quest2_HORDE_Location = "大药剂师法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）"
+Inst59Quest2_HORDE_Note =  "血色所有的怪均掉落。"
+Inst59Quest2_HORDE_Prequest = "有，蝙蝠的粪便（"..YELLOW.."[剃刀沼泽]"..WHITE.."）"
+Inst59Quest2_HORDE_Folgequest = "无"
+Inst59Quest2PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 1 Alliance)
+Inst59Quest3_HORDE = "3. 召唤无头骑士（日常 - 季节性）"
+Inst59Quest3_HORDE_Level = Inst59Quest1_Level
+Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
+Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
+Inst59Quest3_HORDE_Location = Inst59Quest1_Location
+Inst59Quest3_HORDE_Note = Inst59Quest1_Note
+Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
+Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
+-- No Rewards for this quest
+
+
+
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Story = "通灵学院位于凯尔达隆废弃的城堡中的地下室中。那里曾经是高贵的巴罗夫家族的，但是在第二次大战中凯尔达隆变成了一块废墟。法师克尔苏加德经常向他的诅咒神教信徒承诺可以用对于巫妖王的效忠来换取永恒的生命。巴罗克家族受到克尔苏加德的魅惑而将城堡和其地下室献给了亡灵天灾。那些信徒然后将巴罗夫家族的人杀死并把地下室变成了通灵学院。虽然克尔苏加德不再住在这个地下室中，但是狂热的信徒和讲师都还留在那里。强大的巫妖，莱斯·霜语以亡灵天灾的名义控制了这里——而凡人亡灵巫师黑暗院长加丁则是这个学校邪恶的校长。"
-Inst20Caption = "通灵学院"
+Inst20Caption = "通灵学院（Scholo）"
 Inst20QAA = "10 个任务"
 Inst20QAH = "10 个任务"
 
@@ -3747,7 +3915,7 @@ Inst20Quest1_Folgequest = "有，健康的龙鳞"
 --Quest 2 Alliance
 Inst20Quest2 = "2. 健康的龙鳞"
 Inst20Quest2_Level = "58"
-Inst20Quest2_Attain = "56"
+Inst20Quest2_Attain = "55"
 Inst20Quest2_Aim = "把健康的龙鳞交给东瘟疫之地圣光之愿礼拜堂中的贝蒂娜·比格辛克。"
 Inst20Quest2_Location = "健康的龙鳞（通灵学院瘟疫龙崽掉落）"
 Inst20Quest2_Note = "瘟疫龙崽掉落健康的龙鳞（8% 掉率）。贝蒂娜·比格辛克在（东瘟疫之地 - 圣光之愿礼拜堂;"..YELLOW.."81,59"..WHITE.."）。"
@@ -3797,7 +3965,7 @@ Inst20Quest5name3 = "米拉之歌"
 --Quest 6 Alliance
 Inst20Quest6 = "6. 巫妖莱斯·霜语"
 Inst20Quest6_Level = "60"
-Inst20Quest6_Attain = "60"
+Inst20Quest6_Attain = "57"
 Inst20Quest6_Aim = "在通灵学院里找到莱斯·霜语。当你找到他之后，使用禁锢灵魂的遗物破除其亡灵的外壳。如果你成功地破除了他的不死之身，就杀掉他并拿到莱斯·霜语的头颅。把那个头颅交给马杜克镇长。"
 Inst20Quest6_Location = "马杜克镇长（西瘟疫之地 - 凯尔达隆; "..YELLOW.."70,73"..WHITE.."）"
 Inst20Quest6_Note = "你可以在"..YELLOW.."[7]"..WHITE.."找到莱斯·霜语。"
@@ -3824,7 +3992,7 @@ Inst20Quest7_Folgequest = "有，巴罗夫的继承人\n（去亡灵壁垒暗杀
 --Quest 8 Alliance
 Inst20Quest8 = "8. 黎明先锋"
 Inst20Quest8_Level = "60"
-Inst20Quest8_Attain = "58"
+Inst20Quest8_Attain = "57"
 Inst20Quest8_Aim = "将黎明先锋放在通灵学院的观察室里。打败维克图斯,然后回到贝蒂娜·比格辛克那里去。"
 Inst20Quest8_Location = "贝蒂娜·比格辛克（东瘟疫之地 - 圣光之愿礼拜堂; "..YELLOW.."81,59"..WHITE.."）"
 Inst20Quest8_Note = "雏龙精华开始于丁奇·斯迪波尔（燃烧平原 - 烈焰峰; "..YELLOW.."65,23"..WHITE.."）。 观察室在"..YELLOW.."[6]"..WHITE.."。"
@@ -3836,7 +4004,7 @@ Inst20Quest8name1 = "断风者"
 Inst20Quest8name2 = "舞动之藤"
 
 --Quest 9 Alliance
-Inst20Quest9 = "9. 瓶中的小鬼 (术士任务)"
+Inst20Quest9 = "9. 瓶中的小鬼（术士任务）"
 Inst20Quest9_Level = "60"
 Inst20Quest9_Attain = "60"
 Inst20Quest9_Aim = "把瓶中的小鬼带到通灵学院的炼金实验室中。在小鬼制造出羊皮纸之后，把瓶子还给戈瑟奇·邪眼。"
@@ -3850,7 +4018,7 @@ Inst20Quest9PreQuest = "true"
 --Quest 10 Alliance
 Inst20Quest10 = "10. 瓦塔拉克饰品的左瓣"
 Inst20Quest10_Level = "60"
-Inst20Quest10_Attain = "60"
+Inst20Quest10_Attain = "58"
 Inst20Quest10_Aim = "使用召唤火盆召唤出库尔莫克的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给黑石山的伯德雷。"
 Inst20Quest10_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D] "..WHITE.."）"
 Inst20Quest10_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n库尔莫克在"..YELLOW.."[7]"..WHITE.."。"
@@ -3991,12 +4159,12 @@ Inst20Quest10PreQuest_HORDE = Inst20Quest10PreQuest
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
 Inst21Story = "在第三次大战中，奇灵托的法师和亡灵天灾进行了殊死的战斗。当达拉然的法师最终在战斗中战死之后，他们的意志转移到了复苏的亡灵天灾身上，然后重生了。由于对于缓慢的进展感到失望（并且对他的手下的建议不予理会）大法师阿鲁高选择召唤异次沅空间的生物来壮大达拉然日渐消失的力量。阿鲁高的召唤将贪婪的狼人带到了艾泽拉斯大陆。这些狂暴的狼型生物不仅屠杀了亡灵天灾的人，而且迅速将目标转向那些法师。那些狼人开始围攻席瓦莱恩男爵的城堡。这座位于焚木村的城堡不久之后变成了黑暗势力的聚集地并从此荒废。因为对于自己罪过的愧疚，阿鲁高将那些狼人当作自己的孩子并隐居在“影牙城堡”中。据说他还住在那里，被他巨大的宠物芬鲁斯所保护着，另外，在城堡中还徘徊着瓦莱恩男爵的那些复仇的幽灵。"
-Inst21Caption = "影牙城堡"
+Inst21Caption = "影牙城堡（SFK）"
 Inst21QAA = "2 个任务"
 Inst21QAH = "4 个任务"
 
 --Quest 1 Alliance
-Inst21Quest1 = "1. 正义试炼 (圣骑士任务)"
+Inst21Quest1 = "1. 正义试炼（圣骑士任务）"
 Inst21Quest1_Level = "22"
 Inst21Quest1_Attain = "20"
 Inst21Quest1_Aim = "按照乔丹的武器材料单上的说明去寻找一些白石橡木、精炼矿石、乔丹的铁锤和一块科尔宝石，然后回到铁炉堡去见乔丹·斯迪威尔。"
@@ -4010,7 +4178,7 @@ Inst21Quest1PreQuest = "true"
 Inst21Quest1name1 = "维里甘之拳"
 
 --Quest 2 Alliance
-Inst21Quest2 = "2. 索兰鲁克宝珠 (术士任务)"
+Inst21Quest2 = "2. 索兰鲁克宝珠（术士任务）"
 Inst21Quest2_Level = "25"
 Inst21Quest2_Attain = "20"
 Inst21Quest2_Aim = "找到3块索兰鲁克宝珠的碎片和1块索兰鲁克宝珠的大碎片，把它们交给贫瘠之地的杜安·卡汉。"
@@ -4041,7 +4209,7 @@ Inst21Quest2_HORDE_Level = "26"
 Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = "把乌尔之书带给幽暗城炼金区里的看守者贝尔杜加。"
 Inst21Quest2_HORDE_Location = "看守者贝尔杜加（幽暗城 - 炼金房; "..YELLOW.."53,54"..WHITE.."）"
-Inst21Quest2_HORDE_Note = "你可以找到书在进门的左边"..YELLOW.."[8]"..WHITE..")。"
+Inst21Quest2_HORDE_Note = "你可以找到书在进门的左边"..YELLOW.."[8]"..WHITE.."。"
 Inst21Quest2_HORDE_Prequest = "无"
 Inst21Quest2_HORDE_Folgequest = "无"
 --
@@ -4061,7 +4229,7 @@ Inst21Quest3_HORDE_Folgequest = "无"
 Inst21Quest3name1_HORDE = "希尔瓦娜斯的图章"
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
-Inst21Quest4_HORDE = "4. 索兰鲁克宝珠 (术士任务)"
+Inst21Quest4_HORDE = "4. 索兰鲁克宝珠（术士任务）"
 Inst21Quest4_HORDE_Level = Inst21Quest2_Level
 Inst21Quest4_HORDE_Attain = Inst21Quest2_Attain
 Inst21Quest4_HORDE_Aim = Inst21Quest2_Aim
@@ -4078,7 +4246,7 @@ Inst21Quest4name2_HORDE = Inst21Quest2name1
 --------------- INST22 - Stratholme (Strat) ---------------
 
 Inst22Story = "斯坦索姆曾经是洛丹伦北部一颗璀璨的明珠，但是就是在这座城市阿尔萨斯王子背叛了他的导师乌瑟尔，并屠杀了数百个被认为感染了可怕瘟疫的臣民。阿尔萨斯不久之后就向巫妖王臣服。这个破碎的城市也被巫妖克尔苏拉德领导的亡灵天灾所占据。而一直由大十字军战士达索汉领导的血色十字军分遣队也占据了这个城市的一部分。这两方力量在城市中进行着激烈的战斗。而那些勇敢（亦或是愚蠢的）的冒险者在进入斯坦索姆之后将不得不面对两方的力量。据说整座城市由三座大型的通灵塔以及无数强大的亡灵巫师，女妖和憎恶所守卫着。据报告，邪恶的死亡骑士乘坐在一匹骷髅战马——他会将怒火倾泻在任何胆敢进入亡灵天灾领域的人。"
-Inst22Caption = "斯坦索姆"
+Inst22Caption = "斯坦索姆（Strat）"
 Inst22QAA = "18 个任务"
 Inst22QAH = "19 个任务"
 
@@ -4148,7 +4316,7 @@ Inst22Quest5PreQuest = "true"
 Inst22Quest5name1 = "希望的证明"
 
 --Quest 6 Alliance
-Inst22Quest6 = "6. 爱与家庭 (系列任务)"
+Inst22Quest6 = "6. 爱与家庭（系列任务）"
 Inst22Quest6_Level = "60"
 Inst22Quest6_Attain = "52"
 Inst22Quest6_Aim = "到瘟疫之地北部的斯坦索姆去。你可以在血色十字军堡垒中找到“爱与家庭”这幅画，它被隐藏在另一幅描绘两个月亮的画之后。\n把这幅画还给提里奥·弗丁。"
@@ -4160,7 +4328,7 @@ Inst22Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst22Quest7 = "7. 米奈希尔的礼物 (系列任务)"
+Inst22Quest7 = "7. 米奈希尔的礼物（系列任务）"
 Inst22Quest7_Level = "60"
 Inst22Quest7_Attain = "57"
 Inst22Quest7_Aim = "到斯坦索姆城里去找到米奈希尔的礼物，把巫妖生前的遗物放在那块邪恶的土地上。"
@@ -4174,7 +4342,7 @@ Inst22Quest7PreQuest = "true"
 --Quest 8 Alliance
 Inst22Quest8 = "8. 奥里克斯的清算"
 Inst22Quest8_Level = "60"
-Inst22Quest8_Attain = "55"
+Inst22Quest8_Attain = "56"
 Inst22Quest8_Aim = "杀掉瑞文戴尔男爵。"
 Inst22Quest8_Location = "奥里克斯（斯坦索姆; "..YELLOW.."[13]"..WHITE.."）"
 Inst22Quest8_Note = "要开始这个任务你需要给奥里克斯 [信仰奖章]。 你可以从玛洛尔的保险箱拿到这个奖章，箱子就在"..YELLOW.."[7]"..WHITE.."附近。将奖章给了奥里克斯之后，他会在对抗男爵"..YELLOW.."[19]"..WHITE.."的战斗中支持你。杀死男爵后，你需要再次和奥里克斯谈话以取得任务回报奖励。"
@@ -4237,7 +4405,7 @@ Inst22Quest12PreQuest = "true"
 --Quest 13 Alliance
 Inst22Quest13 = "13. 瓦塔拉克饰品的左瓣 "
 Inst22Quest13_Level = "60"
-Inst22Quest13_Attain = "60"
+Inst22Quest13_Attain = "58"
 Inst22Quest13_Aim = "使用召唤火盆召唤出亚雷恩和索托斯的灵魂，然后杀掉他们。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给黑石山的伯德雷。"
 Inst22Quest13_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图中的[D]"..WHITE.."）"
 Inst22Quest13_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n召唤亚雷恩和索托斯在"..YELLOW.."[11]"..WHITE.."。"
@@ -4249,7 +4417,7 @@ Inst22Quest13PreQuest = "true"
 --Quest 14 Alliance
 Inst22Quest14 = "14. 瓦塔拉克饰品的右瓣"
 Inst22Quest14_Level = "60"
-Inst22Quest14_Attain = "60"
+Inst22Quest14_Attain = "58"
 Inst22Quest14_Aim = "使用召唤火盆召唤出亚雷恩和索托斯的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克公爵的饰品还给黑石山的伯德雷。"
 Inst22Quest14_Location = "伯德雷（黑石山; "..YELLOW.."副本入口地图中的[D]"..WHITE.."）"
 Inst22Quest14_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n召唤亚雷恩和索托斯在"..YELLOW.."[11]"..WHITE.."。"
@@ -4274,7 +4442,7 @@ Inst22Quest15name3 = "埃提耶什，守护者的传说之杖"
 Inst22Quest15name4 = "埃提耶什，守护者的传说之杖"
 
 --Quest 16 Alliance
-Inst22Quest16 = "16. 腐蚀 (铸剑大师任务)"
+Inst22Quest16 = "16. 腐蚀（铸剑大师任务）"
 Inst22Quest16_Level = "60"
 Inst22Quest16_Attain = "50"
 Inst22Quest16_Aim = "在斯坦索姆找到黑衣守卫铸剑师，然后杀死他。将黑色卫士徽记交给亡灵杀手瑟里尔。"
@@ -4286,9 +4454,9 @@ Inst22Quest16_Folgequest = "无"
 Inst22Quest16name1 = "设计图：闪耀轻剑 "
 
 --Quest 17 Alliance
-Inst22Quest17 = "17. 甜美的平静 (铸锤大师任务)"
+Inst22Quest17 = "17. 甜美的平静（铸锤大师任务）"
 Inst22Quest17_Level = "60"
-Inst22Quest17_Attain = "51"
+Inst22Quest17_Attain = "50"
 Inst22Quest17_Aim = "到斯坦索姆去杀死红衣铸锤师。将红衣铸锤师的围裙交给莉莉丝。"
 Inst22Quest17_Location = "轻盈的莉莉丝（冬泉谷 - 永望镇; "..YELLOW.."61,37"..WHITE.."）"
 Inst22Quest17_Note = "召唤红衣铸锤师在"..YELLOW.."[8]"..WHITE.."。"
@@ -4298,7 +4466,7 @@ Inst22Quest17_Folgequest = "无"
 Inst22Quest17name1 = "设计图：魔法战锤"
 
 --Quest 18 Alliance
-Inst22Quest18 = "18. 光与影的平衡 (牧师任务)"
+Inst22Quest18 = "18. 光与影的平衡（牧师任务）"
 Inst22Quest18_Level = "60"
 Inst22Quest18_Attain = "60"
 Inst22Quest18_Aim = "在总计有15个农夫被杀死之前拯救50个农夫。完成任务之后与艾瑞斯·哈文法谈谈。\n你可以通过浏览死亡布告来了解自己拯救了多少农夫。"
@@ -4541,7 +4709,7 @@ Inst22Quest18name1_HORDE = "阿莱克希斯皇家戒指"
 Inst22Quest18name2_HORDE = "元素之环"
 
 --Quest 19 Horde  (same as Quest 18 Alliance)
-Inst22Quest19_HORDE = "19. 光与影的平衡 (牧师任务)"
+Inst22Quest19_HORDE = "19. 光与影的平衡（牧师任务）"
 Inst22Quest19_HORDE_Level = Inst22Quest18_Level
 Inst22Quest19_HORDE_Attain = Inst22Quest18_Attain
 Inst22Quest19_HORDE_Aim = Inst22Quest18_Aim
@@ -4557,7 +4725,7 @@ Inst22Quest19name1_HORDE = Inst22Quest18name1
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
 
 Inst23Story = "在流沙之战最后几个小时里，四巨龙军团和暗夜精灵的联军将战场逼至其拉帝国的最中心，希利苏斯的异种虫群退败至最终堡垒安其拉城。但在安其拉之门内，等待着的却是大规模的其拉异种虫，数量是卡利姆多联军所无法想象的。经过漫长的战役，卡利姆多联军仍然无法击败其拉帝王以及他的异种虫群，只能以一个强大的魔法结界将它们困禁在内，而安其拉城也因为战火而成了一个被诅咒的废墟。经过了数千年，其拉的侵略心却没有因为结界而消退。新一代的异种虫群从巢穴中慢慢的破茧而出，安其拉废墟又再度充满了其拉异种虫。这股威胁一定要被消灭，否则艾泽拉斯将可能会被这股恐怖的新世代其拉势力给毁灭。"
-Inst23Caption = "安其拉废墟"
+Inst23Caption = "安其拉废墟（AQ20）"
 Inst23QAA = "2 个任务"
 Inst23QAH = "2 个任务"
 
@@ -4686,7 +4854,7 @@ Inst24Quest4_Folgequest = "无"
 --Quest 5 Alliance
 Inst24Quest5 = "5. 卡姆·深怒"
 Inst24Quest5_Level = "27"
-Inst24Quest5_Attain = "25"
+Inst24Quest5_Attain = "22"
 Inst24Quest5_Aim = "丹莫德的莫特雷·加玛森要求你把卡姆·深怒的头颅交给他。"
 Inst24Quest5_Location = "莫特雷·加玛森（湿地 - 丹莫德; "..YELLOW.."49,18 "..WHITE.."）"
 Inst24Quest5_Note = "前导任务也从莫特雷·加玛森处得到。你可以在"..YELLOW.."[2]"..WHITE.."找到卡姆·深怒。"
@@ -4698,7 +4866,7 @@ Inst24Quest5name1 = "辩护腰带 "
 Inst24Quest5name2 = "碎头者"
 
 --Quest 6 Alliance
-Inst24Quest6 = "6. 监狱暴动 (系列任务)"
+Inst24Quest6 = "6. 监狱暴动（系列任务）"
 Inst24Quest6_Level = "29"
 Inst24Quest6_Attain = "16"
 Inst24Quest6_Aim = "杀死巴基尔·斯瑞德，把他的头带给监狱的典狱官塞尔沃特。"
@@ -4714,14 +4882,14 @@ Inst24Quest6PreQuest = "true"
 --------------- INST25 - Sunken Temple (ST) ---------------
 
 Inst25Story = "在一千年之前，强大的古拉巴什王国被一次大型内部战争所毁灭。一部份被称为阿塔莱的巨魔牧师试图将古代血神哈卡灵魂掠夺者带回这个世界。虽然这些牧师被击败并最终被流放，这个伟大的王国变得四分五裂。流放的牧师逃到了北面，来到了悲伤沼泽。他们为哈卡建立了一座伟大的神庙——在那里他们期望能够把哈卡重新带回世间。伟大的守护神龙伊瑟拉了解了阿塔莱的计划并将神庙摧毁沉入沼泽之中。在今天，神庙沉没的遗迹被绿龙所守卫并阻止任何人进入或者出去。然而，有些阿塔莱巨魔从伊瑟拉的怒火中幸存下来并再此奖自己奉献与复活哈卡的事业中。 "
-Inst25Caption = "沉没的神庙"
+Inst25Caption = "沉没的神庙（ST）"
 Inst25QAA = "17 个任务"
 Inst25QAH = "17 个任务"
 
 --Quest 1 Alliance
 Inst25Quest1 = "1. 进入阿塔哈卡神庙"
 Inst25Quest1_Level = "50"
-Inst25Quest1_Attain = "41"
+Inst25Quest1_Attain = "38"
 Inst25Quest1_Aim = "为暴风城的布罗哈恩·铁桶收集10块阿塔莱石板。"
 Inst25Quest1_Location = "布罗哈恩·铁桶（暴风城 - 矮人区; "..YELLOW.."69,40"..WHITE.."）"
 Inst25Quest1_Note = "前导任务在此领取。\n\n石板你在神庙内外里到处都能见到。"
@@ -4751,11 +4919,10 @@ Inst25Quest3_Location = "玛尔冯·瑞文斯克（塔纳利斯; "..YELLOW.."52,
 Inst25Quest3_Note = "祭坛就在图中"..YELLOW.."[1]"..WHITE.."的位置。"
 Inst25Quest3_Prequest = "有，石环"
 Inst25Quest3_Folgequest = "无"
-Inst25Quest3FQuest = "true"
+Inst25Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-
 Inst25Quest4 = "4. 雕像群的秘密"
 Inst25Quest4_Level = "51"
 Inst25Quest4_Attain = "46"
@@ -4764,7 +4931,7 @@ Inst25Quest4_Location = "玛尔冯·瑞文斯克（塔纳利斯; "..YELLOW.."52,
 Inst25Quest4_Note = "雕像群就在图中"..YELLOW.."[1]"..WHITE.."所示位置，按照地图指示的顺序打开他们。"
 Inst25Quest4_Prequest = "有，深入神庙"
 Inst25Quest4_Folgequest = "无"
-Inst25Quest4FQuest = "true"
+Inst25Quest4PreQuest = "true"
 --
 Inst25Quest4name1 = "哈卡莱骨灰"
 
@@ -4781,9 +4948,9 @@ Inst25Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst25Quest6 = "6. 神灵哈卡 (系列任务)"
+Inst25Quest6 = "6. 神灵哈卡（系列任务）"
 Inst25Quest6_Level = "53"
-Inst25Quest6_Attain = "42"
+Inst25Quest6_Attain = "40"
 Inst25Quest6_Aim = "将装满的哈卡之卵交给塔纳利斯的叶基亚。"
 Inst25Quest6_Location = "叶基亚（塔纳利斯 - 热砂港; "..YELLOW.."66,22"..WHITE.."）"
 Inst25Quest6_Note = "此系列任务始于《尖啸者的灵魂》（同样在此领取，见"..YELLOW.."[祖儿法拉克]"..WHITE.."）。\n你必须在"..YELLOW.."[3]"..WHITE.."使用哈卡之卵，触发事件。一旦事件开始，敌人会像潮水般涌出来攻击你。其中一些敌人掉落哈卡莱之血。用这些血液熄灭包含哈卡灵魂能量的不灭火焰。当你熄灭所有的火焰时，哈卡的化身就可以进入我们的世界了。"
@@ -4821,7 +4988,7 @@ Inst25Quest8_Folgequest = "无"
 Inst25Quest8name1 = "被禁锢的伊兰尼库斯精华"
 
 --Quest 9 Alliance
-Inst25Quest9 = "9. 巨魔的羽毛 (术士任务)"
+Inst25Quest9 = "9. 巨魔的羽毛（术士任务）"
 Inst25Quest9_Level = "52"
 Inst25Quest9_Attain = "50"
 Inst25Quest9_Aim = "到沉没的神庙去，从巨魔们身上获得6支巫毒羽毛。"
@@ -4836,7 +5003,7 @@ Inst25Quest9name2 = "深渊碎片"
 Inst25Quest9name3 = "束缚长袍"
 
 --Quest 10 Alliance
-Inst25Quest10 = "10. 巫毒羽毛 (战士任务)"
+Inst25Quest10 = "10. 巫毒羽毛（战士任务）"
 Inst25Quest10_Level = "52"
 Inst25Quest10_Attain = "50"
 Inst25Quest10_Aim = "将你从沉没的神庙的巨魔身上得到的巫毒羽毛交给部落英雄的灵魂。"
@@ -4851,7 +5018,7 @@ Inst25Quest10name2 = "钻石水瓶"
 Inst25Quest10name3 = "刺钢护肩"
 
 --Quest 11 Alliance
-Inst25Quest11 = "11. 巫毒羽毛 (萨满任务)"
+Inst25Quest11 = "11. 巫毒羽毛（萨满任务）"
 Inst25Quest11_Level = "52"
 Inst25Quest11_Attain = "50"
 Inst25Quest11_Aim = "将巫毒羽毛交给捕风者巴斯拉。"
@@ -4866,7 +5033,7 @@ Inst25Quest11name2 = "被迷惑的水之魂"
 Inst25Quest11name3 = "荒野之杖"
 
 --Quest 12 Alliance
-Inst25Quest12 = "12. 更好的材料 (德鲁伊任务)"
+Inst25Quest12 = "12. 更好的材料（德鲁伊任务）"
 Inst25Quest12_Level = "52"
 Inst25Quest12_Attain = "50"
 Inst25Quest12_Aim = "从沉没的神庙底部的守卫身上得到一些腐烂藤蔓，把它们交给托尔瓦·寻路者。"
@@ -4881,7 +5048,7 @@ Inst25Quest12name2 = " 森林的拥抱"
 Inst25Quest12name3 = "月影手杖"
 
 --Quest 13 Alliance
-Inst25Quest13 = "13. 神庙中的绿龙 (猎人任务)"
+Inst25Quest13 = "13. 神庙中的绿龙（猎人任务）"
 Inst25Quest13_Level = "52"
 Inst25Quest13_Attain = "50"
 Inst25Quest13_Aim = "将摩弗拉斯的牙齿交给艾萨拉的奥汀克。他住在埃达拉斯废墟东北部悬崖的顶端。"
@@ -4896,7 +5063,7 @@ Inst25Quest13name2 = "魔暴龙眼"
 Inst25Quest13name3 = "魔暴龙牙"
 
 --Quest 14 Alliance
-Inst25Quest14 = "14. 毁灭摩弗拉斯 (法师任务)"
+Inst25Quest14 = "14. 毁灭摩弗拉斯（法师任务）"
 Inst25Quest14_Level = "52"
 Inst25Quest14_Attain = "50"
 Inst25Quest14_Aim = "从摩弗拉斯身上取回奥术碎片，然后返回大法师克希雷姆那儿。"
@@ -4911,7 +5078,7 @@ Inst25Quest14name2 = "奥术水晶坠饰"
 Inst25Quest14name3 = "火焰宝石"
 
 --Quest 15 Alliance
-Inst25Quest15 = "15. 摩弗拉斯之血 (牧师任务)"
+Inst25Quest15 = "15. 摩弗拉斯之血（牧师任务）"
 Inst25Quest15_Level = "52"
 Inst25Quest15_Attain = "50"
 Inst25Quest15_Aim = "前往沉没的阿塔哈卡神庙，杀死绿龙摩弗拉斯，将他的血液交给费伍德森林中的格雷塔·苔蹄。沉没的神庙的入口就在悲伤沼泽中。"
@@ -4926,7 +5093,7 @@ Inst25Quest15name2 = "悲哀之杖"
 Inst25Quest15name3 = "希望之环"
 
 --Quest 16 Alliance
-Inst25Quest16 = "16. 碧蓝钥匙 (盗贼任务)"
+Inst25Quest16 = "16. 碧蓝钥匙（盗贼任务）"
 Inst25Quest16_Level = "52"
 Inst25Quest16_Attain = "50"
 Inst25Quest16_Aim = "将碧蓝钥匙交给乔拉齐·拉文霍德公爵。"
@@ -4941,7 +5108,7 @@ Inst25Quest16name2 = "耳语长靴"
 Inst25Quest16name3 = "暗色蝠斗篷"
 
 --Quest 17 Alliance
-Inst25Quest17 = "17. 铸造力量之石 (圣骑士任务)"
+Inst25Quest17 = "17. 铸造力量之石（圣骑士任务）"
 Inst25Quest17_Level = "52"
 Inst25Quest17_Attain = "50"
 Inst25Quest17_Aim = "将巫毒羽毛带给阿什拉姆·瓦罗菲斯特。"
@@ -4989,7 +5156,7 @@ Inst25Quest3_HORDE_Location = Inst25Quest3_Location
 Inst25Quest3_HORDE_Note = Inst25Quest3_Note
 Inst25Quest3_HORDE_Prequest = Inst25Quest3_Prequest
 Inst25Quest3_HORDE_Folgequest = Inst25Quest3_Folgequest
-Inst25Quest3FQuest_HORDE = Inst25Quest3FQuest
+Inst25Quest3PreQuest_HORDE = Inst25Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -5001,14 +5168,14 @@ Inst25Quest4_HORDE_Location = Inst25Quest4_Location
 Inst25Quest4_HORDE_Note = Inst25Quest4_Note
 Inst25Quest4_HORDE_Prequest = Inst25Quest4_Prequest
 Inst25Quest4_HORDE_Folgequest = Inst25Quest4_Folgequest
-Inst25Quest4FQuest_HORDE = Inst25Quest4FQuest
+Inst25Quest4PreQuest_HORDE = Inst25Quest4PreQuest
 --
 Inst25Quest4name1_HORDE = Inst25Quest4name1
 
 --Quest 5 Horde
 Inst25Quest5_HORDE = "5. 除草器的燃料"
 Inst25Quest5_HORDE_Level = "52"
-Inst25Quest5_HORDE_Attain = "50"
+Inst25Quest5_HORDE_Attain = "47"
 Inst25Quest5_HORDE_Aim = "收集5份阿塔莱之雾的样本，然后将它们送到马绍尔营地的拉瑞安那里。"
 Inst25Quest5_HORDE_Location = "莉芙·雷兹菲克斯（贫瘠之地; "..YELLOW.."62,38"..WHITE.."）"
 Inst25Quest5_HORDE_Note = "前导任务《拉瑞安和穆尔金》开始于拉瑞安（安戈洛环形山; "..YELLOW.."45,8"..WHITE.."）。沉没的神庙里的神庙深渊潜伏者、黑暗虫和软泥怪身上都有阿塔莱之雾。"
@@ -5177,7 +5344,7 @@ Inst25Quest16name2_HORDE = Inst25Quest16name2
 Inst25Quest16name3_HORDE = Inst25Quest16name3
 
 --Quest 17 Horde
-Inst25Quest17_HORDE = "17. 远古的邪恶 (圣骑士)"
+Inst25Quest17_HORDE = "17. 远古的邪恶（圣骑士）"
 Inst25Quest17_HORDE_Level = "52"
 Inst25Quest17_HORDE_Attain = "50"
 Inst25Quest17_HORDE_Aim = "揭开阿塔哈卡神庙的秘密，释放阿塔拉利恩并击败他，从他的尸体上取走腐烂藤蔓。完成任务之后向亡灵壁垒的麦拉·黎明之刃复命。"
@@ -5194,7 +5361,7 @@ Inst25Quest17name1_HORDE = "天灾杀手"
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
 Inst26Story = "在安其拉中心矗立着一座古老神庙综合体。它在史前时代就被建造，用以纪念伟大的神与提供其拉大军繁衍的场地。自数千年前的流沙之战结束后，其拉帝国的双子皇帝就被青铜龙阿纳克洛斯和暗夜精灵们以强大的魔法结界困在了神庙里。随着时间流逝，流沙权杖已被重组，魔法结界上的封印也逐渐消失，通往安其拉神庙深处的道路也再度敞开。那些被困在神庙地下蠢蠢欲动的其拉军团开始准备入侵。为了避免第二次流沙之战再度爆发、贪婪的虫群再次于卡利姆多大陆倾巢而出，无论如何一定要阻止它们。"
-Inst26Caption = "安其拉神殿"
+Inst26Caption = "安其拉神殿（AQ40）"
 Inst26QAA = "3 个任务"
 Inst26QAH = "3 个任务"
 
@@ -5278,7 +5445,7 @@ Inst26Quest3_HORDE_Folgequest = Inst26Quest3_Folgequest
 --------------- INST27 - Zul'Farrak (ZF) ---------------
 
 Inst27Story = "日光暴晒下的这座城市是沙怒巨魔的家园，他们一向以来都以其无情和黑暗魔法而闻名。巨魔传说中有一把强大的名叫鞭笞者苏萨斯的武器能够让最弱小的人可以击败最强大的敌人。很久以前，这把武器被分成了两半。然而，有传言说这两半可以在祖尔法拉克任何地方找到。据说还有一批加基森派来的雇佣兵进入了城市并被困住。他们的命运还不得而知。但是也许最让人感到不安的是一头远古生物正沉睡在城市中心的一个神圣的水池中——它是一个半神，它会摧毁任何胆敢唤醒它的人。"
-Inst27Caption = "祖尔法拉克"
+Inst27Caption = "祖尔法拉克（ZF）"
 Inst27QAA = "7 个任务"
 Inst27QAH = "7 个任务"
 
@@ -5320,7 +5487,7 @@ Inst27Quest3name1 = "幻法之杖"
 Inst27Quest3name2 = "晶岩肩铠"
 
 --Quest 4 Alliance
-Inst27Quest4 = "4. 耐克鲁姆的徽章 (系列任务)"
+Inst27Quest4 = "4. 耐克鲁姆的徽章（系列任务）"
 Inst27Quest4_Level = "47"
 Inst27Quest4_Attain = "40"
 Inst27Quest4_Aim = "将耐克鲁姆的徽章交给诅咒之地的萨迪斯·格希德。"
@@ -5332,7 +5499,7 @@ Inst27Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst27Quest5 = "5. 摩沙鲁的预言 (系列任务)"
+Inst27Quest5 = "5. 摩沙鲁的预言（系列任务）"
 Inst27Quest5_Level = "47"
 Inst27Quest5_Attain = "40"
 Inst27Quest5_Aim = "将第一块和第二块摩沙鲁石板交给塔纳利斯的叶基亚。"
@@ -5371,7 +5538,7 @@ Inst27Quest7name1 = "棍子上的胡萝卜"
 
 
 --Quest 1 Horde
-Inst27Quest1_HORDE = "1. 蜘蛛之神 (系列任务)"
+Inst27Quest1_HORDE = "1. 蜘蛛之神（系列任务）"
 Inst27Quest1_HORDE_Level = "45"
 Inst27Quest1_HORDE_Attain = "40"
 Inst27Quest1_HORDE_Aim = "阅读塞卡石板，了解枯木巨魔的蜘蛛之神的名字，然后回到加德林大师那里。"
@@ -5464,7 +5631,7 @@ Inst28Story = {
   ["Page2"] = "终于，阿塔莱祭司发现，哈卡的物质形态只有在古老的古拉巴什帝国的首都——祖尔格拉布，才能召唤出来。不幸的是，这些祭司们最近真的成功召唤出哈卡——传闻证实可怕的夺灵者真的出现在古拉巴什废墟的中心。\n \n为了镇压血神，所有的巨魔都联合起来，派出了一支由高阶牧师组成的小队深入这座古老的城市。队中的每个牧师都是一位远古之神的强大战士，他们分别代表着蝙蝠、豹、老虎、蜘蛛和蛇的力量，但是尽管如此，强大的哈卡仍然轻易地击败了他们。现在这些勇士和他们的远古之神全都臣服于夺灵者的力量。如果有任何冒险者想进入废墟禁地挑战强大的血神哈卡，他们就必须先击败这些高阶牧师。",
   ["MaxPages"] = "2",
 };
-Inst28Caption = "祖尔格拉布"
+Inst28Caption = "祖尔格拉布（ZG）"
 Inst28QAA = "4 个任务"
 Inst28QAH = "4 个任务"
 
@@ -5604,7 +5771,7 @@ Inst29Quest1_Folgequest = "无"
 Inst29Quest1PreQuest = "true"
 -- No Rewards for this quest
 
---Quest2 Alliance
+--Quest 2 Alliance
 Inst29Quest2 = "2. 诺恩"
 Inst29Quest2_Level = "27"
 Inst29Quest2_Attain = "20"
@@ -5616,10 +5783,10 @@ Inst29Quest2_Folgequest = "有，更多的辐射尘"
 Inst29Quest2PreQuest = "true"
 -- No Rewards for this quest
 
---Quest3 Alliance
+--Quest 3 Alliance
 Inst29Quest3 = "3. 更多的辐射尘！"
 Inst29Quest3_Level = "30"
-Inst29Quest3_Attain = "23"
+Inst29Quest3_Attain = "20"
 Inst29Quest3_Aim = "到诺莫瑞根去收集高强度辐射尘。要多加小心，这种辐射尘非常不稳定，很快就会分解。奥齐要求你把沉重的铅瓶也交给他。"
 Inst29Quest3_Location = "奥齐·电环（丹莫罗 - 卡拉诺斯; "..YELLOW.."45,49 "..WHITE.."）"
 Inst29Quest3_Note = "要得到辐射尘，你必须对"..RED.."活的"..WHITE.."辐射泥浆怪，辐射潜伏者，辐射水元素使用沉重的铅瓶。"
@@ -5628,12 +5795,12 @@ Inst29Quest3_Folgequest = "无"
 Inst29Quest3FQuest = "true"
 -- No Rewards for this quest
 
---Quest4 Alliance
+--Quest 4 Alliance
 Inst29Quest4 = "4. 陀螺式挖掘机"
 Inst29Quest4_Level = "30"
 Inst29Quest4_Attain = "20"
 Inst29Quest4_Aim = "收集24副机械内胆，把它们交给暴风城的舒尼。"
-Inst29Quest4_Location = "沉默的舒尼（暴风城 - 矮人区; "..YELLOW.."62,34"..WHITE.."）"
+Inst29Quest4_Location = "沉默的舒尼（暴风城 - 矮人区; "..YELLOW.."63,34"..WHITE.."）"
 Inst29Quest4_Note = "每个机器人都掉落内胆。"
 Inst29Quest4_Prequest = "无"
 Inst29Quest4_Folgequest = "无"
@@ -5641,7 +5808,7 @@ Inst29Quest4_Folgequest = "无"
 Inst29Quest4name1 = "舒尼的扳手"
 Inst29Quest4name2 = "欺诈手套"
 
---Quest5 Alliance
+--Quest 5 Alliance
 Inst29Quest5 = "5. 基础模组"
 Inst29Quest5_Level = "30"
 Inst29Quest5_Attain = "24"
@@ -5653,7 +5820,7 @@ Inst29Quest5_Folgequest = "无"
 Inst29Quest5PreQuest = "true"
 -- No Rewards for this quest
 
---Quest6 Alliance
+--Quest 6 Alliance
 Inst29Quest6 = "6. 抢救数据"
 Inst29Quest6_Level = "30"
 Inst29Quest6_Attain = "25"
@@ -5667,10 +5834,10 @@ Inst29Quest6PreQuest = "true"
 Inst29Quest6name1 = "修理工的斗篷"
 Inst29Quest6name2 = "蒸汽锤"
 
---Quest7 Alliance
+--Quest 7 Alliance
 Inst29Quest7 = "7. 一团混乱"
 Inst29Quest7_Level = "30"
-Inst29Quest7_Attain = "22"
+Inst29Quest7_Attain = "20"
 Inst29Quest7_Aim = "将克努比护送到出口，然后向藏宝海湾的斯库提汇报。"
 Inst29Quest7_Location = "克努比（诺莫瑞根 "..YELLOW.."[3]"..WHITE.."）"
 Inst29Quest7_Note = "护送任务！你可以在（荆棘谷 - 藏宝海湾; "..YELLOW.."27,77"..WHITE.."）找到斯库提。"
@@ -5680,7 +5847,7 @@ Inst29Quest7_Folgequest = "无"
 Inst29Quest7name1 = "焊接护腕"
 Inst29Quest7name2 = "精灵之翼"
 
---Quest8 Alliance
+--Quest 8 Alliance
 Inst29Quest8 = "8. 大叛徒"
 Inst29Quest8_Level = "35"
 Inst29Quest8_Attain = "25"
@@ -5722,7 +5889,7 @@ Inst29Quest10name1 = "闪亮的金戒指"
 --Quest 1 Horde
 Inst29Quest1_HORDE = "1. 出发！诺莫瑞根！"
 Inst29Quest1_HORDE_Level = "35"
-Inst29Quest1_HORDE_Attain = "25"
+Inst29Quest1_HORDE_Attain = "20"
 Inst29Quest1_HORDE_Aim = "等斯库提调整好地精传送器。"
 Inst29Quest1_HORDE_Location = "斯库提（荆棘谷 - 藏宝海湾; "..YELLOW.."27,77 "..WHITE.."）"
 Inst29Quest1_HORDE_Note = "你可以在索维克（奥格瑞玛 - 荣誉谷; "..YELLOW.."75,25"..WHITE.."）那儿得到此任务的前导任务。\n当你完成这个任务，你可以使用藏宝海湾的传送器。"
@@ -5744,7 +5911,7 @@ Inst29Quest2_HORDE_Folgequest = Inst29Quest7_Folgequest
 Inst29Quest2name1_HORDE = Inst29Quest7name1
 Inst29Quest2name2_HORDE = Inst29Quest7name2
 
---Quest3 Horde
+--Quest 3 Horde
 Inst29Quest3_HORDE = "3. 设备之战"
 Inst29Quest3_HORDE_Level = "35"
 Inst29Quest3_HORDE_Attain = "25"
@@ -5791,7 +5958,7 @@ Inst37Story = {
   ["Page2"] = "这些兽人的领袖是谁暂时无人可知，但是可以充分相信他们不是为燃烧军团工作。\n \n也许外域传来的最令人不安的消息就是从堡垒地下深处传来的雷霆一样的野蛮怒吼。许多人开始猜想这些怪异的吼叫是否同堕落兽人以及他们不断增长的数量有关。不幸的是，这些问题都没有答案。\n \n至少现在如此。",
   ["MaxPages"] = "2",
 };
-Inst37Caption = "地狱火堡垒：城墙"
+Inst37Caption = "地狱火堡垒：城墙（Ramp）"
 Inst37QAA = "3 个任务"
 Inst37QAH = "3 个任务"
 Inst37General = {
@@ -5810,7 +5977,7 @@ Inst37General = {
     {
     "瓦兹德和纳杉",
     "瓦兹德会在你杀死平台前面的2个守卫的时候降落。纳杉会在瓦兹德到20%血量的时候降落。",
-    "瓦兹德()：你瞧不起它？\n" .. RED .. "纳杉（龙息术）" .. WHITE .. "：纳杉会对它的前面目标造成面火焰伤害。 坦克应该把它拉的背离队友。\n" .. RED .. "纳杉（火焰弹）" .. WHITE .. "：纳杉会向玩家扔火球，造成2000左右伤害，并在周围造成每秒600的火焰伤害。每个人都一定要远离火圈！",
+    "瓦兹德()：你瞧不起它？\n" .. RED .. "纳杉（龙息术）" .. WHITE .. "：纳杉会对它的前面目标造成面火焰伤害。坦克应该把它拉的背离队友。\n" .. RED .. "纳杉（火焰弹）" .. WHITE .. "：纳杉会向玩家扔火球，造成2000左右伤害，并在周围造成每秒600的火焰伤害。每个人都一定要远离火圈！",
     },
 };
 
@@ -5843,12 +6010,12 @@ Inst37Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst37Quest3 = "3. 悬赏：纳杉的骑鞭 (英雄日常)"
+Inst37Quest3 = "3. 悬赏：纳杉的骑鞭（英雄日常）"
 Inst37Quest3_Level = "70"
 Inst37Quest3_Attain = "70"
-Inst37Quest3_Aim = "商人扎雷姆要你进入地狱火城墙取得纳杉的骑鞭，完成任务后回到沙塔斯城贫民窟，领取你的奖赏。"
+Inst37Quest3_Aim = "商人扎雷姆要你进入地狱火城墙取得纳杉的骑鞭，完成任务后回到沙塔斯城贫民窟，领取你的奖赏。\n\n该任务只能在英雄模式下完成。"
 Inst37Quest3_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
-Inst37Quest3_Note = "这个日常任务只能在英雄难度副本完成。纳杉在"..YELLOW.."[3]"..WHITE.."。"
+Inst37Quest3_Note = "需要英雄难度副本。\n\n纳杉在"..YELLOW.."[3]"..WHITE.."。"
 Inst37Quest3_Prequest = "无"
 Inst37Quest3_Folgequest = "无"
 --
@@ -5904,7 +6071,7 @@ Inst38Story = {
   ["Page2"] = "这些兽人的领袖是谁暂时无人可知，但是可以充分相信他们不是为燃烧军团工作。\n \n也许外域传来的最令人不安的消息就是从堡垒地下深处传来的雷霆一样的野蛮怒吼。许多人开始猜想这些怪异的吼叫是否同堕落兽人以及他们不断增长的数量有关。不幸的是，这些问题都没有答案。\n \n至少现在如此。",
   ["MaxPages"] = "2",
 };
-Inst38Caption = "地狱火堡垒：鲜血熔炉"
+Inst38Caption = "地狱火堡垒：鲜血熔炉（BF）"
 Inst38QAA = "3 个任务"
 Inst38QAH = "3 个任务"
 Inst38General = {
@@ -5959,12 +6126,12 @@ Inst38Quest2name2 = "神圣治疗指环"
 Inst38Quest2name3 = "完美平衡斗篷"
 
 --Quest 3 Alliance
-Inst38Quest3 = "3. 悬赏：克里丹的羽饰法杖 (英雄日常)"
+Inst38Quest3 = "3. 悬赏：克里丹的羽饰法杖（英雄日常）"
 Inst38Quest3_Level = "70"
 Inst38Quest3_Attain = "70"
-Inst38Quest3_Aim = "商人扎雷姆要求你夺得克里丹的羽饰法杖。将法杖带回沙塔斯城的贫民窟交给他，就能领取奖赏。"
+Inst38Quest3_Aim = "商人扎雷姆要求你夺得克里丹的羽饰法杖。将法杖带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
 Inst38Quest3_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
-Inst38Quest3_Note = "这个日常任务只能在英雄难度副本完成。击碎者克里丹在 "..YELLOW.."[3]"..WHITE.."。"
+Inst38Quest3_Note = "需要英雄难度副本。\n\n击碎者克里丹在 "..YELLOW.."[3]"..WHITE.."。"
 Inst38Quest3_Prequest = "无"
 Inst38Quest3_Folgequest = "无"
 --
@@ -6023,37 +6190,36 @@ Inst39Story = {
   ["Page2"] = "这些兽人的领袖是谁暂时无人可知，但是可以充分相信他们不是为燃烧军团工作。\n \n也许外域传来的最令人不安的消息就是从堡垒地下深处传来的雷霆一样的野蛮怒吼。许多人开始猜想这些怪异的吼叫是否同堕落兽人以及他们不断增长的数量有关。不幸的是，这些问题都没有答案。\n \n至少现在如此。",
   ["MaxPages"] = "2",
 };
-Inst39Caption = "地狱火堡垒：破碎大厅"
+Inst39Caption = "地狱火堡垒：破碎大厅（SH）"
 Inst39QAA = "10 个任务"
 Inst39QAH = "9 个任务"
 Inst39General = {
     {
     "高阶术士奈瑟库斯",
-    "当你靠近高阶术士奈瑟库斯时，他前面有3个恶魔守卫保护着他。在第3个恶魔守卫被消灭之后（击杀次序无关紧要），奈瑟库斯会出来攻击队伍。 在整个战斗中，奈瑟库斯都会施放虚空空间，在施放后1秒内对站在上面的玩家造成每秒1000点暗影伤害。包括坦克在内的所有玩家都需要及时跑出./n　他还会对随机玩家施放死亡缠绕，造成2000点暗影伤害并且恐惧玩家4秒，治疗他自己大约2000点生命值。/n　在20%生命时，奈瑟库斯会施放黑暗螺旋技能，对接近他的任何人造成2000点物理伤害，并且以很快的频率溅射暗影箭，暗影箭会造成1500点暗影伤害。最好尽快消耗他剩余的生命值以减少己方伤亡甚至灭团。",
-    RED .. "黑暗螺旋" .. WHITE .. "在20%生命的时候，奈瑟库斯会使用他的黑暗螺旋技能。他将攻击任何接近他的人，造成2000点物理伤害，并且飞快的对随机目标溅射出暗影箭。 暗影箭会造成1500暗影伤害。\n" .. RED .. "死亡缠绕" .. WHITE .. ": 他会向随机目标施放死亡缠绕，造成2000点暗影伤害，恐惧目标4秒，并且治疗奈瑟库斯（估计2000HP）。\n" .. RED .. "次级暗影裂隙" .. WHITE .. ": 召唤一片虚空空间，对站立在其中的玩家造成每秒1000暗影伤害。",
+    "当你靠近高阶术士奈瑟库斯时，他前面有3个恶魔守卫保护着他。在第3个恶魔守卫被消灭之后（击杀次序无关紧要），奈瑟库斯会出来攻击队伍。在整个战斗中，奈瑟库斯都会施放虚空空间，在施放后1秒内对站在上面的玩家造成每秒1000点暗影伤害。包括坦克在内的所有玩家都需要及时跑出。\n他还会对随机玩家施放死亡缠绕，造成2000点暗影伤害并且恐惧玩家4秒，治疗他自己大约2000点生命值。\n在20%生命时，奈瑟库斯会施放黑暗螺旋技能，对接近他的任何人造成2000点物理伤害，并且以很快的频率溅射暗影箭，暗影箭会造成1500点暗影伤害。最好尽快消耗他剩余的生命值以减少己方伤亡甚至灭团。",
+    RED .. "黑暗螺旋" .. WHITE .. "：在20%生命的时候，奈瑟库斯会使用他的黑暗螺旋技能。他将攻击任何接近他的人，造成2000点物理伤害，并且飞快的对随机目标溅射出暗影箭。 暗影箭会造成1500暗影伤害。\n" .. RED .. "死亡缠绕" .. WHITE .. "：他会向随机目标施放死亡缠绕，造成2000点暗影伤害，恐惧目标4秒，并且治疗奈瑟库斯（估计2000HP）。\n" .. RED .. "次级暗影裂隙" .. WHITE .. "：召唤一片虚空空间，对站立在其中的玩家造成每秒1000暗影伤害。",
     },
 
     {
     "战争使者沃姆罗格",
-    "坦克战争使者沃姆罗格的玩家应该站在房间的中间，让大家有空间来移动躲避他的冲击波和AoE恐惧（只有猎人靠他们超过40码的射程可以躲避AoE恐惧）。他有一个致命的技能就是连续2次的冲击波，造成6000伤害。近战职业在看到boss的武器开始燃烧之后应该迅速移动远离boss以避免冲击波伤害，只有坦克一个人可以承受伤害。治疗者应该在boss施放冲击波之前保持坦克血量为满。",
-   RED .. "恐惧:" .. WHITE .. " 影响身边所有玩家的恐惧怒吼.\n" .. RED .. "毒性之箭:" .. WHITE .. " 对所有他面前的玩家喷射毒箭.\n" .. RED .. "燃烧武器/冲击波:" .. WHITE .. " 当战争使者沃姆罗格的武器开始燃烧时，他对近战目标造成1000火焰伤害。然后他会连续施放2次冲击波（每次造成2500 - 3200伤害）。/n" .. RED .. "" .. WHITE .. ": ",
+    "坦克战争使者沃姆罗格的玩家应该站在房间的中间，让大家有空间来移动躲避他的冲击波和 AoE 恐惧（只有猎人靠他们超过40码的射程可以躲避AoE恐惧）。他有一个致命的技能就是连续2次的冲击波，造成6000伤害。近战职业在看到 Boss 的武器开始燃烧之后应该迅速移动远离 Boss 以避免冲击波伤害，只有坦克一个人可以承受伤害。治疗者应该在 Boss 施放冲击波之前保持坦克血量为满。",
+   RED .. "恐惧" .. WHITE .. "：影响身边所有玩家的恐惧怒吼。\n" .. RED .. "毒性之箭" .. WHITE .. "：对所有他面前的玩家喷射毒箭。\n" .. RED .. "燃烧武器/冲击波" .. WHITE .. "：当战争使者沃姆罗格的武器开始燃烧时，他对近战目标造成1000火焰伤害。然后他会连续施放2次冲击波（每次造成2500 - 3200伤害）。",
     },
 
     {
     "酋长卡加斯·刃拳",
-    "刃拳是一个比较简单的战斗，但是至少还有这么几个要点需要注意：他攻击板甲的伤害约为700，属于比较弱小的；他不会法术攻击，所以魔法增效会起到不小的效果；每几秒钟他会召唤一个非精英守卫从大厅北面跑过来，出现的怪物种类是随机的，但是生命值都很低，很快就可以杀死。每35秒卡加斯会进行刀锋之舞，以高速在不同目标之间进行冲锋，造成1000点顺劈伤害和轻微AoE效果。为了击败他你可以杀死增援，或者无视增援直接DPS掉boss。很重要的一点是队员站位需要分散，离开大厅的中间，不然刀锋之舞会相当危险。他生命值很高，但是整场战斗并不难。",
-   RED .. "召唤援助:" .. WHITE .. "蛮兵、收割者和神射手护卫将从北面出现帮助boss.\n" .. RED .. "刀锋之舞:" .. WHITE .. " 这是他的必杀技，每35秒卡加斯会进行一次刀锋之舞，在随机目标之间进行冲锋，造成1000点顺劈伤害和一点点AoE伤害.",
+    "刃拳是一个比较简单的战斗，但是至少还有这么几个要点需要注意：他攻击板甲的伤害约为700，属于比较弱小的；他不会法术攻击，所以魔法增效会起到不小的效果；每几秒钟他会召唤一个非精英守卫从大厅北面跑过来，出现的怪物种类是随机的，但是生命值都很低，很快就可以杀死。每35秒卡加斯会进行刀锋之舞，以高速在不同目标之间进行冲锋，造成1000点顺劈伤害和轻微 AoE 效果。为了击败他你可以杀死增援，或者无视增援直接 DPS 掉 Boss。很重要的一点是队员站位需要分散，离开大厅的中间，不然刀锋之舞会相当危险。他生命值很高，但是整场战斗并不难。",
+   RED .. "召唤援助" .. WHITE .. "：蛮兵、收割者和神射手护卫将从北面出现帮助 Boss。\n" .. RED .. "刀锋之舞" .. WHITE .. "：这是他的必杀技，每35秒卡加斯会进行一次刀锋之舞，在随机目标之间进行冲锋，造成1000点顺劈伤害和一点点 AoE 伤害。",
     },
 };
-
 
 --Quest 1 Alliance
 Inst39Quest1 = "1. 邪能灰烬"
 Inst39Quest1_Level = "70"
 Inst39Quest1_Attain = "67"
 Inst39Quest1_Aim = "荣耀堡的大法师萨布兰希要求你给她带回一块邪能灰烬。"
-Inst39Quest1_Location = "大法师萨布兰希 (地狱火半岛--荣誉堡; "..YELLOW.."54, 66"..WHITE..")"
-Inst39Quest1_Note = "杀死高阶术士奈瑟库斯后,它会掉落一个护符. 在它座位边上的火盆上使用即可得到邪能灰烬."
+Inst39Quest1_Location = "大法师萨布兰希（地狱火半岛 - 荣耀堡; "..YELLOW.."54, 66"..WHITE.."）"
+Inst39Quest1_Note = "杀死高阶术士奈瑟库斯"..YELLOW.."[2]"..WHITE.."后，它会掉落一个护符。在它座位边上的火盆上使用即可得到邪能灰烬。"
 Inst39Quest1_Prequest = "无"
 Inst39Quest1_Folgequest = "无"
 --
@@ -6068,8 +6234,8 @@ Inst39Quest2 = "2. 邪部落的荣耀"
 Inst39Quest2_Level = "70"
 Inst39Quest2_Attain = "66"
 Inst39Quest2_Aim = "荣耀堡的战地指挥官洛姆斯要求你杀死8名碎手军团士兵、4名碎手百夫长和4名碎手勇士。"
-Inst39Quest2_Location = "战地指挥官洛姆斯 (地狱火半岛--荣誉堡; "..YELLOW.."57, 63"..WHITE..")"
-Inst39Quest2_Note = "破碎大厅里就是这些怪"
+Inst39Quest2_Location = "战地指挥官洛姆斯（地狱火半岛 - 荣耀堡; "..YELLOW.."57, 63"..WHITE.."）"
+Inst39Quest2_Note = "你可以在破碎大厅里找到这些怪物。"
 Inst39Quest2_Prequest = "无"
 Inst39Quest2_Folgequest = "无"
 -- No Rewards for this quest
@@ -6079,34 +6245,34 @@ Inst39Quest3 = "3. 扭转战局"
 Inst39Quest3_Level = "70"
 Inst39Quest3_Attain = "67"
 Inst39Quest3_Aim = "将卡加斯酋长之拳交给荣耀堡的远征军指挥官达纳斯·托尔贝恩。"
-Inst39Quest3_Location = "远征军指挥官达纳斯·托尔贝恩 (地狱火半岛--荣誉堡; "..YELLOW.."57, 67"..WHITE..")"
-Inst39Quest3_Note = "卡加斯酋长 就在"..YELLOW.."[4]"..WHITE.."."
+Inst39Quest3_Location = "远征军指挥官达纳斯·托尔贝恩（地狱火半岛 - 荣耀堡; "..YELLOW.."57, 67"..WHITE.."）"
+Inst39Quest3_Note = "酋长卡加斯·刃拳在"..YELLOW.."[5]"..WHITE.."。"
 Inst39Quest3_Prequest = "无"
 Inst39Quest3_Folgequest = "无"
 --
 Inst39Quest3name1 = "奈瑟库斯的痛苦魔杖"
-Inst39Quest3name2 = "苏醒披风"
+Inst39Quest3name2 = "苏醒斗篷"
 Inst39Quest3name3 = "纳利库的复仇"
 Inst39Quest3name4 = "警醒卫士勋章"
 
 --Quest 4 Alliance
-Inst39Quest4 = "4. 堡垒的禁锢 (英雄模式)"
+Inst39Quest4 = "4. 堡垒中的囚徒（英雄）"
 Inst39Quest4_Level = "70"
 Inst39Quest4_Attain = "70"
-Inst39Quest4_Aim = "在艾琳娜上尉被处死之前解救她."
-Inst39Quest4_Location = "兰帝·韦兹普特 (破碎大厅; "..YELLOW.."英雄模式"..WHITE..")"
-Inst39Quest4_Note = "需要英雄难度副本."
+Inst39Quest4_Aim = "在地狱火堡垒内的奥琳娜上尉被处决前救出她。\n\n该任务必须在英雄等级难度的地下城中完成。"
+Inst39Quest4_Location = "兰迪·维兹普罗克（破碎大厅; "..YELLOW.."英雄[1]"..WHITE.."）"
+Inst39Quest4_Note = "需要英雄难度副本。\n\n兰迪·维兹普罗克在"..YELLOW.."[5]"..WHITE.."。"
 Inst39Quest4_Prequest = "无"
 Inst39Quest4_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst39Quest5 = "5.  纳鲁的试炼：仁慈 (英雄模式)"
+Inst39Quest5 = "5. 纳鲁的试炼：仁慈（英雄）"
 Inst39Quest5_Level = "70"
 Inst39Quest5_Attain = "70"
 Inst39Quest5_Aim = "沙塔斯城的阿达尔要求你从地狱火堡垒的破碎大厅中取回未使用的刽子手之斧。\n\n该任务必须在英雄等级难度的地下城中完成。"
-Inst39Quest5_Location = "阿达尔 (沙塔斯城; "..YELLOW.."53, 43"..WHITE..")"
-Inst39Quest5_Note = "需要英雄难度."
+Inst39Quest5_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53, 43"..WHITE.."）"
+Inst39Quest5_Note = "需要英雄难度副本。\n\n这个任务曾经是风暴要塞：风暴之眼进门任务，但是现在这不再是必须的。"
 Inst39Quest5_Prequest = "无"
 Inst39Quest5_Folgequest = "无"
 -- No Rewards for this quest
@@ -6114,71 +6280,71 @@ Inst39Quest5_Folgequest = "无"
 --Quest 6 Alliance
 Inst39Quest6 = "6. 大地之母眼泪"
 Inst39Quest6_Level = "70"
-Inst39Quest6_Attain = "70"
-Inst39Quest6_Aim = " 从战争使者沃姆罗格夺回大地之母的眼泪，把它交给维恩避难所的 戴维·韦恩"
-Inst39Quest6_Location = "戴维·韦恩(泰罗卡森林; "..YELLOW.."78,39"..WHITE..")."
-Inst39Quest6_Note = "战争使者沃姆罗格在 "..YELLOW.."3"..WHITE.."."
-Inst39Quest6_Prequest = "有，能源舰的热源 (能量舰) & 魔语辞典 (暗影迷宫)"
-Inst39Quest6_Folgequest = "有，伊利达雷的克星"
+Inst39Quest6_Attain = "67"
+Inst39Quest6_Aim = "从战争使者沃姆罗格手中夺得大地之母的眼泪，将它交给韦恩的避难所的戴维·韦恩。"
+Inst39Quest6_Location = "戴维·韦恩（泰罗卡森林 - 韦恩的避难所; "..YELLOW.."78,39"..WHITE.."）。"
+Inst39Quest6_Note = "战争使者沃姆罗格在"..YELLOW.."[4]"..WHITE.."。\n\n普通难度和英雄难度都会掉落任务物品。"
+Inst39Quest6_Prequest = "有，能源舰的热源（"..YELLOW.."能源舰"..WHITE.."）和 魔语辞典（"..YELLOW.."暗影迷宫"..WHITE.."）"
+Inst39Quest6_Folgequest = "有，伊利达雷的斩除者"
 Inst39Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst39Quest7 = "7. 卡琳娜的要求 (英雄模式)"
+Inst39Quest7 = "7. 卡琳娜的要求（英雄）"
 Inst39Quest7_Level = "70"
 Inst39Quest7_Attain = "70"
-Inst39Quest7_Aim = "从地狱火堡垒破碎大厅的高阶术士奈瑟库斯手中夺得暮色魔典，从奥金顿塞泰克大厅的黑暗编织者塞斯手中夺得忘却之名，将它们交给卡琳娜·拉瑟德."
-Inst39Quest7_Location = "卡琳娜·拉瑟德 (虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE..")"
-Inst39Quest7_Note = "需要英雄模式副本."
-Inst39Quest7_Prequest = "有，同事的帮助 ("..YELLOW.."卡拉赞"..WHITE..")"
-Inst39Quest7_Folgequest = "有，夜之魇 ("..YELLOW.."卡拉赞"..WHITE..")"
+Inst39Quest7_Aim = "从地狱火堡垒破碎大厅的高阶术士奈瑟库斯手中夺得暮色魔典，从奥金顿塞泰克大厅的黑暗编织者塞斯手中夺得忘却之名，将它们交给卡琳娜·拉瑟德。\n\n该任务必须在英雄等级难度的地下城中完成。"
+Inst39Quest7_Location = "卡琳娜·拉瑟德（虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE.."）"
+Inst39Quest7_Note = "需要英雄难度副本。\n\n高阶术士奈瑟库斯在"..YELLOW.."[2]"..WHITE.."。忘却之名在塞泰克大厅掉落。"
+Inst39Quest7_Prequest = "有，同事的帮助（"..YELLOW.."卡拉赞"..WHITE.."）"
+Inst39Quest7_Folgequest = "有，夜之魇（"..YELLOW.."卡拉赞"..WHITE.."）"
 Inst39Quest7PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst39Quest8 = "8.  悬赏：刃拳的印记 (英雄日常)"
+Inst39Quest8 = "8. 悬赏：刃拳的印记（英雄日常）"
 Inst39Quest8_Level = "70"
 Inst39Quest8_Attain = "70"
-Inst39Quest8_Aim = "商人扎雷姆要求你夺得刃拳的印记。将印记带回沙塔斯城的贫民窟交给他，就能领取奖赏。."
-Inst39Quest8_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst39Quest8_Note = "卡加斯·刃拳 在"..YELLOW.."[5]"..WHITE.."."
+Inst39Quest8_Aim = "商人扎雷姆要求你夺得刃拳的印记。将印记带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst39Quest8_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst39Quest8_Note = "需要英雄难度副本。\n\n酋长卡加斯·刃拳在"..YELLOW.."[5]"..WHITE.."。"
 Inst39Quest8_Prequest = "无"
 Inst39Quest8_Folgequest = "无"
 --
 Inst39Quest8name1 = "公正徽章"
 
 --Quest 9 Alliance
-Inst39Quest9 = "9. 悬赏：碎手百夫长 (普通日常)"
+Inst39Quest9 = "9. 悬赏：碎手百夫长（日常）"
 Inst39Quest9_Level = "70"
 Inst39Quest9_Attain = "70"
-Inst39Quest9_Aim = "虚空猎手玛哈杜恩要求你杀死4名碎手百夫长。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏."
-Inst39Quest9_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst39Quest9_Note = "普通日常任务."
+Inst39Quest9_Aim = "虚空猎手玛哈杜恩要求你杀死4名碎手百夫长。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
+Inst39Quest9_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst39Quest9_Note = "普通日常任务。"
 Inst39Quest9_Prequest = "无"
 Inst39Quest9_Folgequest = "无"
 --
-Inst39Quest9name1 = "Ethereum Prison Key"
+Inst39Quest9name1 = "复仇军监牢钥匙"
 
 --Quest 10 Alliance
-Inst39Quest10 = "10. 堡垒的钥匙 (破碎大厅钥匙任务)"
+Inst39Quest10 = "10. 堡垒的钥匙"
 Inst39Quest10_Level = "70"
 Inst39Quest10_Attain = "68"
-Inst39Quest10_Aim = "将原始钥匙模具交给地狱火半岛荣耀堡的远征军指挥官达纳斯·托尔贝恩."
-Inst39Quest10_Location = "原始钥匙模具  (掉落自 铁匠戈伦克 影月谷 - 阿塔玛平台; "..YELLOW.."68,36"..WHITE..")"
-Inst39Quest10_Note = "如果你有飞行坐骑，直接飞过去，这个铁匠非常容易做掉.\n\n 达纳斯·托尔贝恩 在 (地狱火半岛 - 荣耀堡; "..YELLOW.."57,67"..WHITE.."). 下一步任务他会指使你区找铁匠达姆菲 (地狱火半岛 - 荣耀堡; "..YELLOW.."51,60"..WHITE..")..."
-Inst39Quest10_Page = {2, "铁匠达姆菲 会向你要 4 x [魔铁锭], 2 x [奥法之尘] and 4 x [火焰微粒].\n\n交完物品之后，他会叫你杀死魔能机甲，在魔能机甲的尸体上使用未铸成的钥匙. 然后交还给他他就会给你破碎大厅的钥匙了", };
+Inst39Quest10_Aim = "将原始钥匙模具交给地狱火半岛荣耀堡的远征军指挥官达纳斯·托尔贝恩。"
+Inst39Quest10_Location = "铁匠戈伦克掉落原始钥匙模具（影月谷 - 阿塔玛平台; "..YELLOW.."68,36"..WHITE.."）"
+Inst39Quest10_Note = "如果你有飞行坐骑可以轻易的找到铁匠戈伦克并拿到原始钥匙模具。\n\n远征军指挥官达纳斯·托尔贝恩在（地狱火半岛 - 荣耀堡; "..YELLOW.."57,67"..WHITE.."）。下一步去达姆菲（地狱火半岛 - 荣耀堡; "..YELLOW.."51,60"..WHITE.."）……"
+Inst39Quest10_Page = {2, "将4块魔铁锭、2份奥法之尘和4颗火焰微粒交给达姆菲。\n\n下一步将未淬火的钥匙模具插入魔能机甲的残骸。你不必自己杀死魔能机甲，使用模具就可以。\n\n交还给达姆菲在（地狱火半岛 - 荣耀堡; "..YELLOW.."51,60"..WHITE.."）领取奖励。", };
 Inst39Quest10_Prequest = "无"
-Inst39Quest10_Folgequest = "有, 大师级铁匠达姆菲 -> 比地域更炎热"
+Inst39Quest10_Folgequest = "有， 达姆菲大师 -> 比地狱更炎热"
 --
-Inst39Quest10name1 = "Shattered Halls Key"
+Inst39Quest10name1 = "破碎大厅钥匙"
 
 
---Quest 1 Horde  (same as Quest 2 Alliance)
+--Quest 1 Horde  (same as Quest 2 Alliance - different NPC to turn in)
 Inst39Quest1_HORDE = "1. 邪部落的荣耀"
 Inst39Quest1_HORDE_Level = Inst39Quest2_Level
 Inst39Quest1_HORDE_Attain = Inst39Quest2_Attain
 Inst39Quest1_HORDE_Aim = "萨尔玛的暗影猎手塔金要求你杀死8名碎手军团士兵、4名碎手百夫长和4名碎手勇士。"
-Inst39Quest1_HORDE_Location = "暗影猎手塔金(地狱火半岛 - 萨尔玛; "..YELLOW.."55, 36"..WHITE..")"
+Inst39Quest1_HORDE_Location = "暗影猎手塔金（地狱火半岛 - 萨尔玛; "..YELLOW.."55, 36"..WHITE.."）"
 Inst39Quest1_HORDE_Note = Inst39Quest2_Note
 Inst39Quest1_HORDE_Prequest = Inst39Quest2_Prequest
 Inst39Quest1_HORDE_Folgequest = Inst39Quest2_Folgequest
@@ -6189,29 +6355,29 @@ Inst39Quest2_HORDE = "2. 酋长的意志"
 Inst39Quest2_HORDE_Level = "70"
 Inst39Quest2_HORDE_Attain = "67"
 Inst39Quest2_HORDE_Aim = "将卡加斯酋长之拳交给萨尔玛的纳兹格雷尔。"
-Inst39Quest2_HORDE_Location = "纳兹格雷尔 (地狱火半岛 - 萨尔玛; "..YELLOW.."55, 36"..WHITE..")"
-Inst39Quest2_HORDE_Note = "卡加斯酋长就在 "..YELLOW.."[4]"..WHITE.."."
+Inst39Quest2_HORDE_Location = "纳兹格雷尔（地狱火半岛 - 萨尔玛; "..YELLOW.."55, 36"..WHITE.."）"
+Inst39Quest2_HORDE_Note = "酋长卡加斯·刃拳在"..YELLOW.."[5]"..WHITE.."。"
 Inst39Quest2_HORDE_Prequest = "无"
 Inst39Quest2_HORDE_Folgequest = "无"
 --
-Inst39Quest2name1_HORDE = "Rod of Dire Shadows"
-Inst39Quest2name2_HORDE = "Vicar's Cloak"
-Inst39Quest2name3_HORDE = "Conquerer's Band"
-Inst39Quest2name4_HORDE = "Maimfist's Choker"
+Inst39Quest2name1_HORDE = "恐怖暗影魔杖"
+Inst39Quest2name2_HORDE = "代理牧师披风"
+Inst39Quest2name3_HORDE = "胜利者指环"
+Inst39Quest2name4_HORDE = "重拳的项圈"
 
 --Quest 3 Horde
-Inst39Quest3_HORDE = "3. 堡垒的禁锢 (英雄模式)"
+Inst39Quest3_HORDE = "3. 堡垒中的囚徒（英雄）"
 Inst39Quest3_HORDE_Level = "70"
 Inst39Quest3_HORDE_Attain = "70"
-Inst39Quest3_HORDE_Aim = "在碎骨队长被处决前解救他"
-Inst39Quest3_HORDE_Location = "崔塞拉 (破碎大厅; "..YELLOW.."英雄模式"..WHITE..")"
-Inst39Quest3_HORDE_Note = "需要英雄难度副本."
+Inst39Quest3_HORDE_Aim = "在地狱火堡垒内的沙塔·碎骨上尉被处决前救出他。\n\n该任务必须在英雄等级难度的地下城中完成。"
+Inst39Quest3_HORDE_Location = "德雷希拉（破碎大厅; "..YELLOW.."英雄模式[1]"..WHITE.."）"
+Inst39Quest3_HORDE_Note = "需要英雄难度副本。\n\n德雷希拉在"..YELLOW.."[5]"..WHITE.."。"
 Inst39Quest3_HORDE_Prequest = "无"
 Inst39Quest3_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 5 Alliance)
-Inst39Quest4_HORDE = "4. 纳鲁的试炼：仁慈 (英雄模式)"
+Inst39Quest4_HORDE = "4. 纳鲁的试炼：仁慈（英雄）"
 Inst39Quest4_HORDE_Level = Inst39Quest5_Level
 Inst39Quest4_HORDE_Attain = Inst39Quest5_Attain
 Inst39Quest4_HORDE_Aim = Inst39Quest5_Aim
@@ -6234,7 +6400,7 @@ Inst39Quest5PreQuest_HORDE = Inst39Quest6Prequest
 -- No Rewards for this quest
 
 --Quest 6 Alliance  (same as Quest 7 Alliance)
-Inst39Quest6_HORDE = "6. 卡琳娜的要求 (英雄模式)"
+Inst39Quest6_HORDE = "6. 卡琳娜的要求（英雄）"
 Inst39Quest6_HORDE_Level = Inst39Quest7_Level
 Inst39Quest6_HORDE_Attain = Inst39Quest7_Attain
 Inst39Quest6_HORDE_Aim = Inst39Quest7_Aim
@@ -6246,7 +6412,7 @@ Inst39Quest6PreQuest_HORDE = Inst39Quest7PreQuest
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 8 Alliance)
-Inst39Quest7_HORDE = "7.  悬赏：刃拳的印记 (英雄日常)"
+Inst39Quest7_HORDE = "7.  悬赏：刃拳的印记（英雄日常）"
 Inst39Quest7_HORDE_Level = Inst39Quest8_Level
 Inst39Quest7_HORDE_Attain = Inst39Quest8_Attain
 Inst39Quest7_HORDE_Aim = Inst39Quest8_Aim
@@ -6258,7 +6424,7 @@ Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
 Inst39Quest7name1_HORDE = Inst39Quest8name1
 
 --Quest 8 Horde  (same as Quest 9 Alliance)
-Inst39Quest8_HORDE = "8. 悬赏：碎手百夫长 (普通日常)"
+Inst39Quest8_HORDE = "8. 悬赏：碎手百夫长（日常）"
 Inst39Quest8_HORDE_Level = Inst39Quest9_Level
 Inst39Quest8_HORDE_Attain = Inst39Quest9_Attain
 Inst39Quest8_HORDE_Aim = Inst39Quest9_Aim
@@ -6273,53 +6439,52 @@ Inst39Quest8name1_HORDE = Inst39Quest9name1
 Inst39Quest9_HORDE = "9. 堡垒的钥匙 (破碎大厅钥匙任务)"
 Inst39Quest9_HORDE_Level = "70"
 Inst39Quest9_HORDE_Attain = "68"
-Inst39Quest9_HORDE_Aim = "将原始钥匙模具交给萨尔玛的纳兹格雷尔."
-Inst39Quest9_HORDE_Location = "原始钥匙模具  (掉落自 铁匠戈伦克 影月谷 - 阿塔玛平台; "..YELLOW.."68,36"..WHITE..")"
-Inst39Quest9_HORDE_Note = "如果你有飞行坐骑，直接飞过去，这个铁匠非常容易做掉.\n\n 纳兹格雷尔 在 (地狱火半岛 - 萨尔玛; "..YELLOW.."57,67"..WHITE.."). 下一步任务他会指使你区找铁匠罗霍克 (地狱火半岛 - 萨尔玛; "..YELLOW.."55,36"..WHITE..")..."
-Inst39Quest9_HORDE_Page = {2, "铁匠罗霍克 会向你要 4 x [魔铁锭], 2 x [奥法之尘] and 4 x [火焰微粒].\n\n交完物品之后，他会叫你杀死魔能机甲，在魔能机甲的尸体上使用未铸成的钥匙. 然后交还给他他就会给你破碎大厅的钥匙了", };
+Inst39Quest9_HORDE_Aim = "将原始钥匙模具交给地狱火半岛萨尔玛的纳兹格雷尔。"
+Inst39Quest9_HORDE_Location = "铁匠戈伦克掉落原始钥匙模具（影月谷 - 阿塔玛平台; "..YELLOW.."68,36"..WHITE.."）"
+Inst39Quest9_HORDE_Note = "如果你有飞行坐骑可以轻易的找到铁匠戈伦克并拿到原始钥匙模具。\n\n纳兹格雷尔在（地狱火半岛 - 萨尔玛; "..YELLOW.."55,36"..WHITE.."）。下一步去罗霍克（地狱火半岛 - 萨尔玛; "..YELLOW.."53,38"..WHITE.."）……"
+Inst39Quest9_HORDE_Page = {2, "将4块魔铁锭、2份奥法之尘和4颗火焰微粒交给达姆菲。\n\n下一步将未淬火的钥匙模具插入魔能机甲的残骸。你不必自己杀死魔能机甲，使用模具就可以。\n\n交还给罗霍克在（地狱火半岛 - 萨尔玛; "..YELLOW.."53,38"..WHITE.."）领取奖励。", };
 Inst39Quest9_HORDE_Prequest = "无"
-Inst39Quest9_HORDE_Folgequest = "有, 铁匠罗霍克 -> 比地狱更炎热"
+Inst39Quest9_HORDE_Folgequest = "有，罗霍克大师 -> 比地狱更炎热"
 --
-Inst39Quest9name1_HORDE = "Shattered Halls Key"
+Inst39Quest9name1_HORDE = "破碎大厅钥匙"
 
 
 
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
 
 Inst40Story = {
-  ["Page1"] = "在满目疮痍的外域，地狱火半岛的中心矗立着地狱火堡垒。在第一次和第二次兽人战争中，它作为兽人的基地，是不可攻克的象征。多年来，人们以为这座巨大的堡垒已经被遗弃了\n \直到最近\n \n虽然德拉诺大陆被耐奥祖不计后果的破坏了，但是在地狱火堡垒中仍然居住着劫掠成性的红色狂暴堕落兽人。虽然这个新出现的野蛮种族还带着不少谜团，更令人吃惊的是他们的数量还在不断增长。\n \n虽然萨尔和格罗姆地狱咆哮已经杀死了玛诺洛斯，终止了部落的堕落。但是有报告显示地狱火堡垒中的野蛮兽人找到了一种新的堕落之源来满足他们原始的嗜血欲望。",
-  ["Page2"] = "这些兽人的领袖是谁暂时无人可知，但是可以充分相信他们不是为燃烧军团工作。\n \n也许外域传来的最令人不安的消息就是从堡垒地下深处传来的雷霆一样的野蛮怒吼。许多人开始猜想这些怪异的吼叫是否同堕落兽人以及他们不断增长的数量有关。不幸的是，这些问题都没有答案。\n \n至少现在如此",
-  ["MaxPages"] = "2",
+  ["Page1"] = "作为燃烧军团的战士和嗜血的深渊领主，玛瑟里顿来到外域的土地就是替燃烧军团扩张领土。黑暗之门犹如一个沙丘蚁穴，恶魔源源不绝地从中涌出，他一度占领了德莱尼的圣堂卡拉波神殿。好景不长，随后玛瑟里顿就被驾临外域的伊利丹从卡拉波神殿中赶了出来，并被封印在地狱火堡垒地下的洞穴之中。伊利丹并没有忘记利用玛瑟里顿，他继续使用玛瑟里顿的鲜血来创造邪兽人，并且抢夺了黑暗神殿，成为了那里的主人。昔日不可一世的玛瑟里顿，如今却变成了阶下囚徒，无奈强大的封印让他寸步难移……",
+  ["MaxPages"] = "1",
 };
 Inst40Caption = "地狱火堡垒：玛瑟里顿的巢穴"
 Inst40QAA = "1 个任务"
 Inst40QAH = "1 个任务"
 
 --Quest 1 Alliance
-Inst40Quest1 = "1. 纳鲁的试炼：玛瑟里顿的巢穴"
+Inst40Quest1 = "1. 纳鲁的试炼：玛瑟里顿"
 Inst40Quest1_Level = "70"
 Inst40Quest1_Attain = "70"
-Inst40Quest1_Aim = "沙塔斯城的阿达尔要你杀死玛瑟里顿"
-Inst40Quest1_Location = "阿达尔 (沙塔斯城; "..YELLOW.."53, 43"..WHITE..")"
-Inst40Quest1_Note = "必须完成纳鲁的试炼--仁慈，力量，坚韧."
-Inst40Quest1_Prequest = "有, 纳鲁的试炼--仁慈，力量，坚韧."
+Inst40Quest1_Aim = "沙塔斯城的阿达尔要求你杀死玛瑟里顿。"
+Inst40Quest1_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53, 43"..WHITE.."）"
+Inst40Quest1_Note = "必须完成纳鲁的试炼：仁慈、纳鲁的试炼：力量和纳鲁的试炼：坚韧。\n\n这个任务曾经是风暴要塞：风暴之眼进门任务，但是现在这不再是必须的。"
+Inst40Quest1_Prequest = "有，纳鲁的试炼：仁慈、力量、坚韧。"
 Inst40Quest1_Folgequest = "无"
 Inst40Quest1PreQuest = "true"
 --
-Inst40Quest1name1 = "凤凰之火指环"
+Inst40Quest1name1 = "凤凰火焰指环"
 
 --Quest 2 Alliance
 Inst40Quest2 = "2. 玛瑟里顿之死"
 Inst40Quest2_Level = "70"
 Inst40Quest2_Attain = "70"
-Inst40Quest2_Aim = "将玛瑟里顿的头颅交给荣耀堡的远征军指挥官达纳斯·托尔贝恩."
-Inst40Quest2_Location = "玛瑟里顿的头颅(玛瑟里顿掉落; "..YELLOW.."[1]"..WHITE..")"
-Inst40Quest2_Note = "团队中只有一个人能够得到头颅来触发这个任务. 远征军指挥官达纳斯·托尔贝恩 在 （地狱火半岛 - 荣耀堡） "..YELLOW.."57,67"..WHITE.."."
-Inst40Quest2_Prequest = "No."
-Inst40Quest2_Folgequest = "No"
+Inst40Quest2_Aim = "将玛瑟里顿的头颅交给荣耀堡的远征军指挥官达纳斯·托尔贝恩。"
+Inst40Quest2_Location = "玛瑟里顿的头颅（玛瑟里顿掉落; "..YELLOW.."[1]"..WHITE.."）"
+Inst40Quest2_Note = "团队中只有一个人能够得到头颅来触发这个任务。远征军指挥官达纳斯·托尔贝恩在（地狱火半岛 - 荣耀堡; "..YELLOW.."57,67"..WHITE.."）。"
+Inst40Quest2_Prequest = "无"
+Inst40Quest2_Folgequest = "无"
 --
 Inst40Quest2name1 = "阿达尔的防御徽记"
-Inst40Quest2name2 = "阿达尔的防御徽记"
+Inst40Quest2name2 = "赤红怒火指环"
 Inst40Quest2name3 = "纳鲁圣光卫士指环"
 Inst40Quest2name4 = "反抗之戒"
 
@@ -6343,7 +6508,7 @@ Inst40Quest2_HORDE_Level = Inst40Quest2_Level
 Inst40Quest2_HORDE_Attain = Inst40Quest2_Attain
 Inst40Quest2_HORDE_Aim = "将玛瑟里顿的头颅交给萨尔玛的纳兹格雷尔。"
 Inst40Quest2_HORDE_Location = Inst40Quest2_Location
-Inst40Quest2_HORDE_Note = "团队中只有一个人能够得到头颅来触发这个任务. 纳兹格雷尔 在（地狱火半岛 - 萨尔玛） "..YELLOW.."55,36"..WHITE.."."
+Inst40Quest2_HORDE_Note = "团队中只有一个人能够得到头颅来触发这个任务。纳兹格雷尔在（地狱火半岛 - 萨尔玛; "..YELLOW.."55,36"..WHITE.."）。"
 Inst40Quest2_HORDE_Prequest = Inst40Quest2_Prequest
 Inst40Quest2_HORDE_Folgequest = Inst40Quest2_Folgequest
 --
@@ -6356,27 +6521,27 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 --------------- INST41 - CR: The Slave Pens (SP) ---------------
 
-Inst41Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿） "
-Inst41Caption = "盘牙水库：奴隶围栏"
+Inst41Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿）。"
+Inst41Caption = "盘牙水库：奴隶围栏（SP）"
 Inst41QAA = "2 个任务"
 Inst41QAH = "2 个任务"
 Inst41General = {
     {
     "背叛者门努",
-    "背叛者门努是你会遇到的第一个boss。他在一条被其他小怪包围着的斜坡上巡逻。他是一个萨满类型的boss（就象妖术师金度），他会使用近身攻击，并且安插图腾（dps，火焰新星和治疗图腾）。一定要指定你的一个队员尽快消灭图腾（特别是治疗图腾，因为它的治疗速度还是非常快的）。整场战斗还是比较简单直接的。",
-    RED .. "图腾:" .. WHITE .. "他会插4种图腾，当然，治疗图腾是最重要的，应即使打掉.\n\n" .. BLUE .. "英雄难度要点：腐化新星图腾无论是被打掉还是3秒之后爆炸都会造成6000左右伤害，故千万不要打腐化新星图腾，不断变换位置tank BOSS是最好的办法。",
+    "背叛者门努是你会遇到的第一个 Boss。他在一条被其他小怪包围着的斜坡上巡逻。他是一个萨满类型的 Boss（就象妖术师金度），他会使用近身攻击，并且安插图腾（DPS，火焰新星和治疗图腾）。一定要指定你的一个队员尽快消灭图腾（特别是治疗图腾，因为它的治疗速度还是非常快的）。整场战斗还是比较简单直接的。",
+    RED .. "图腾" .. WHITE .. "：他会插4种图腾，当然，治疗图腾是最重要的，应及时打掉。\n\n" .. BLUE .. "英雄难度要点：腐化新星图腾无论是被打掉还是3秒之后爆炸都会造成6000左右伤害，故千万不要打腐化新星图腾，不断变换位置坦克 Boss 是最好的办法。",
     },
 
     {
     "巨钳鲁克玛尔",
-    "碎裂者鲁克玛尔是这一分支的第二个boss。他长得就像一只巨大的龙虾/螃蟹。他会对坦克进行近身攻击，并使用2种技能",
-   RED .. "重伤:" .. WHITE .. " 每2秒对目标造成850 - 1000点伤害，持续直到目标被完全治愈。（状态的描述是：在目标被完全治愈之前，使目标大量失血的恐怖攻击。每2秒造成1096 - 1304点伤害直到治愈）.\n" .. RED .. "冰霜箭:" .. WHITE .. " 一种与寒冰箭类似的攻击，对随机目标释放，造成伤害并且将目标减速.\n" .. BLUE .. "英雄难度要点：boss的群体寒冰箭是有射程的，治疗和猎人站在最远位置可以不被寒冰箭打到。",
+    "巨钳鲁克玛尔是这一分支的第二个 Boss。他长得就像一只巨大的龙虾/螃蟹。他会对坦克进行近身攻击，并使用2种技能。",
+    RED .. "重伤" .. WHITE .. "：每2秒对目标造成850 - 1000点伤害，持续直到目标被完全治愈。（状态的描述是：在目标被完全治愈之前，使目标大量失血的恐怖攻击。每2秒造成1096 - 1304点伤害直到治愈）。\n" .. RED .. "冰霜箭" .. WHITE .. "：一种与寒冰箭类似的攻击，对随机目标释放，造成伤害并且将目标减速。\n" .. BLUE .. "英雄难度要点：Boss 的群体寒冰箭是有射程的，治疗和猎人站在最远位置可以不被寒冰箭打到。",
     },
 
     {
     "夸格米拉",
-    "夸格米拉是奴隶围栏中第三个也是最后一个boss。他是一个孢子巨人类型的boss。战斗是比较简单的坦克战，注意在boss前边的那个远征军的NPC一定要确保不死，能从NPC那里得到一个110自然抗的buff，boss战会容易很多",
-   RED .. "毒箭攻击:" .. WHITE .. " 造成2500 - 2600的直接伤害和一个每一跳800点伤害的dot效果，可以驱散或者治疗补充血. \n" .. RED .. "毒液喷吐" .. WHITE .. " 对其前面大约90°的范围喷射毒液，这时MT最好将其拉的背离人群.",
+    "夸格米拉是奴隶围栏中第三个也是最后一个 Boss。他是一个孢子巨人类型的 Boss。战斗是比较简单的坦克战，注意在 Boss 前边的那个远征军的 NPC 一定要确保不死，能从 NPC 那里得到一个110自然抗的增益，Boss 战会容易很多。",
+   RED .. "毒箭攻击" .. WHITE .. "：造成2500 - 2600的直接伤害和一个每一跳800点伤害的持续效果，可以驱散或者治疗加血。\n" .. RED .. "毒液喷吐" .. WHITE .. "：对其前面大约90度的范围喷射毒液，这时 MT 最好将其拉的背离人群。",
     },
 };
 
@@ -6385,88 +6550,88 @@ Inst41Quest1 = "1. 失踪的同伴"
 Inst41Quest1_Level = "65"
 Inst41Quest1_Attain = "62"
 Inst41Quest1_Aim = "查明缚地者雷葛、博学者拜特、除草者格林萨姆和唤风者克劳恩的下落，然后返回赞加沼泽的盘牙水库，向观察者杰哈恩复命。"
-Inst41Quest1_Location = "观察者杰哈恩 (盘牙水库; "..YELLOW.."52, 36"..WHITE..")"
-Inst41Quest1_Note = "博学者拜特在 "..YELLOW.."[4]"..WHITE..",除草者格林萨姆在 "..YELLOW.."[2]"..WHITE..", 这个任务还要去幽暗沼泽才能全部完成"
+Inst41Quest1_Location = "观察者杰哈恩（盘牙水库; "..YELLOW.."52, 36"..WHITE.."）"
+Inst41Quest1_Note = "观察者杰哈恩在水下洞穴的集合石旁。除草者格林萨姆在"..YELLOW.."[3]"..WHITE.."，博学者拜特在"..YELLOW.."[6]"..WHITE.."，这个任务还要去幽暗沼泽才能全部完成。"
 Inst41Quest1_Prequest = "无"
 Inst41Quest1_Folgequest = "无"
 Inst41Quest1PreQuest = "true"
 --
-Inst41Quest1name1 = "Cenarion Ring of Casting"
-Inst41Quest1name2 = "Goldenvine Wraps"
-Inst41Quest1name3 = "Dark Cloak of the Marsh"
+Inst41Quest1name1 = "塞纳里奥施法戒指"
+Inst41Quest1name2 = "金藤护腕"
+Inst41Quest1name3 = "沼泽黑暗披风"
 
 --Quest 2 Alliance
-Inst41Quest2 = "2. 悬赏：夸格米拉之心 (英雄日常)"
+Inst41Quest2 = "2. 悬赏：夸格米拉之心（英雄日常）"
 Inst41Quest2_Level = "70"
 Inst41Quest2_Attain = "70"
-Inst41Quest2_Aim = "商人扎雷姆要求你取回夸格米拉之心。将心脏带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst41Quest2_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst41Quest2_Note = "夸格米拉 在 "..YELLOW.."[6]"..WHITE.."."
+Inst41Quest2_Aim = "商人扎雷姆要求你取回夸格米拉之心。将心脏带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst41Quest2_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst41Quest2_Note = "需要英雄难度副本。\n\n夸格米拉在 "..YELLOW.."[7]"..WHITE.."。"
 Inst41Quest2_Prequest = "无"
 Inst41Quest2_Folgequest = "无"
 --
 Inst41Quest2name1 = "公正徽章"
 
 --Quest 3 Alliance
-Inst41Quest3 = "3. 卡达什圣杖 (英雄模式)"
+Inst41Quest3 = "3. 卡达什圣杖（英雄）"
 Inst41Quest3_Level = "70"
 Inst41Quest3_Attain = "70"
-Inst41Quest3_Aim = "将土灵徽记和灿烂徽记交给盘牙水库奴隶围栏的异教徒斯卡希斯."
-Inst41Quest3_Location = "异教徒斯卡希斯 (奴隶围栏; "..YELLOW.."英雄模式 [4]"..WHITE..")"
-Inst41Quest3_Note = "土灵徽记掉落自 格鲁尔  "..YELLOW.."格鲁尔的巢穴"..WHITE.." 灿烂徽记掉落自 夜之魇 "..YELLOW.."卡拉赞"..WHITE..".\n\n这个任务曾经是毒蛇神殿的进门任务."
+Inst41Quest3_Aim = "将土灵徽记和灿烂徽记交给盘牙水库奴隶围栏的异教徒斯卡希斯。\n\n该任务必须在英雄等级难度的地下城中完成。"
+Inst41Quest3_Location = "异教徒斯卡希斯（奴隶围栏; "..YELLOW.."英雄模式[4]"..WHITE.."）"
+Inst41Quest3_Note = "土灵徽记掉落自格鲁尔"..YELLOW.."格鲁尔的巢穴[2]"..WHITE.."与灿烂徽记掉落自夜之魇"..YELLOW.."卡拉赞[15]"..WHITE.."。\n\n这个任务曾经是毒蛇神殿的进门任务。但是现在这不再是必须的。"
 Inst41Quest3_Prequest = "无"
 Inst41Quest3_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst41Quest4 = "4. 冰霜之王埃霍恩 (季节性 仲夏火焰节)"
+Inst41Quest4 = "4. 冰霜之王埃霍恩（季节性 - 仲夏火焰节）"
 Inst41Quest4_Level = "70"
 Inst41Quest4_Attain = "65"
-Inst41Quest4_Aim = "前往赞加沼泽盘牙水库的奴隶围栏，与努玛·云女谈一谈."
-Inst41Quest4_Location = "大地之环长者 (所有主城的仲夏篝火旁)"
-Inst41Quest4_Note = "努玛就在奴隶围栏的入口处.当然，这个任务也不是召唤埃霍恩的必须任务，只要你在65级以上，不用完成任何任务也可以召唤埃霍恩"
-Inst41Quest4_Prequest = "有，反正的活动 -> 通知长者"
-Inst41Quest4_Folgequest = "有, 埃霍恩就在这里!"
+Inst41Quest4_Aim = "前往赞加沼泽盘牙水库的奴隶围栏，与努玛·云女谈一谈。"
+Inst41Quest4_Location = "大地之环长者（所有主城的仲夏篝火旁）"
+Inst41Quest4_Note = "努玛就在奴隶围栏的入口处。这个任务也不是召唤埃霍恩的必须任务，只要你在65级以上，不用完成任何任务也可以召唤埃霍恩。"
+Inst41Quest4_Prequest = "有，反常的活动 -> 通知长者"
+Inst41Quest4_Folgequest = "有，埃霍恩就在这里！"
 Inst41Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst41Quest5 = "5. 埃霍恩就在这里! (季节性 仲夏火焰节)"
+Inst41Quest5 = "5. 埃霍恩就在这里！（季节性 - 仲夏火焰节）"
 Inst41Quest5_Level = "70"
 Inst41Quest5_Attain = "65"
-Inst41Quest5_Aim = "前往奴隶围栏，寻找鲁玛·天母的下落."
-Inst41Quest5_Location = "努玛·云女(奴隶围栏; "..YELLOW.."副本入口处"..WHITE..")"
-Inst41Quest5_Note = "鲁玛·天母 在 "..YELLOW.."[1]"..WHITE..". 你可以不做任何任务就可以接到这个任务."
-Inst41Quest5_Prequest = "有, 冰霜之王埃霍恩 (非必须的)"
-Inst41Quest5_Folgequest = "有, 召唤埃霍恩"
+Inst41Quest5_Aim = "前往奴隶围栏，寻找鲁玛·天母的下落。"
+Inst41Quest5_Location = "努玛·云女（奴隶围栏; "..YELLOW.."副本入口"..WHITE.."）"
+Inst41Quest5_Note = "鲁玛·天母在"..YELLOW.."[1]"..WHITE.."。你可以不做任何任务就可以接到这个任务。"
+Inst41Quest5_Prequest = "有，冰霜之王埃霍恩（非必须的）"
+Inst41Quest5_Folgequest = "有，召唤埃霍恩"
 Inst41Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst41Quest6 = "6. 召唤埃霍恩 (日常-仲夏火焰节)"
+Inst41Quest6 = "6. 召唤埃霍恩（日常 - 季节性）"
 Inst41Quest6_Level = "70"
 Inst41Quest6_Attain = "65"
-Inst41Quest6_Aim = "将大地之环熔岩图腾带到寒冰之石旁边去."
-Inst41Quest6_Location = "鲁玛·天母 (奴隶围栏; "..YELLOW.."[1]附近"..WHITE..")"
-Inst41Quest6_Note = "寒冰之石就在离鲁玛很近的地方。完成这个任务并召唤埃霍恩 在 "..YELLOW.."[1]"..WHITE..". 完成这个任务将算一个日常."
-Inst41Quest6_Prequest = "有, 埃霍恩就在这里!"
+Inst41Quest6_Aim = "将大地之环熔岩图腾带到寒冰之石旁边去。"
+Inst41Quest6_Location = "鲁玛·天母（奴隶围栏; "..YELLOW.."[1]附近"..WHITE.."）"
+Inst41Quest6_Note = "寒冰之石就在离鲁玛很近的地方。完成这个任务并召唤埃霍恩在 "..YELLOW.."[1]"..WHITE.."。完成这个任务将算一个日常。"
+Inst41Quest6_Prequest = "有，埃霍恩就在这里！"
 Inst41Quest6_Folgequest = "无"
 Inst41Quest6FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst41Quest7 = "7. 埃霍恩的碎片 (季节性 仲夏火焰节)"
+Inst41Quest7 = "7. 埃霍恩的碎片（季节性 - 仲夏火焰节）"
 Inst41Quest7_Level = "70"
 Inst41Quest7_Attain = "65"
-Inst41Quest7_Aim = "将寒冰碎片交给鲁玛·天母."
-Inst41Quest7_Location = "埃霍恩的碎片 (在杀死寒冰之王后，你可以得到)"
-Inst41Quest7_Note = "鲁玛·天母  (奴隶围栏; "..YELLOW.."1"..WHITE.."). 这个物品每个角色一年只能得到一个."
+Inst41Quest7_Aim = "将寒冰碎片交给鲁玛·天母。"
+Inst41Quest7_Location = "埃霍恩的碎片（在杀死埃霍恩后，你从冰霜宝箱中得到）"
+Inst41Quest7_Note = "鲁玛·天母（奴隶围栏; "..YELLOW.."[1]"..WHITE..")。这个物品每个角色一年只能得到一个。"
 Inst41Quest7_Prequest = "无"
 Inst41Quest7_Folgequest = "无"
 --
-Inst41Quest7name1 = "Tabard of Summer Skies"
-Inst41Quest7name2 = "Tabard of Summer Flames"
-Inst41Quest7name3 = "Burning Blossom"
+Inst41Quest7name1 = "夏日天空徽章"
+Inst41Quest7name2 = "夏日烈焰徽章"
+Inst41Quest7name3 = "燃烧之花"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6561,28 +6726,28 @@ Inst41Quest7name3_HORDE = Inst41Quest7name3
 
 --------------- INST42 - CR: The Steamvault (SV) ---------------
 
-Inst42Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿） "
-Inst42Caption = "盘牙水库：蒸汽地窟"
+Inst42Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿）。"
+Inst42Caption = "盘牙水库：蒸汽地窟（SV）"
 Inst42QAA = "7 个任务"
 Inst42QAH = "7 个任务"
 
 Inst42General = {
     {
     "水术师瑟丝比娅",
-    "水术师瑟丝比娅有2个守卫（水元素，如果队伍中有术士的话可以放逐）。如果你没有放逐的职业，那么你的坦克需要冲锋并且拉住boss和一个守卫，而其他的队员迅速消灭掉第二个。守卫会随机施放800 - 1000点伤害的冰箭，治疗要注意。如果你有一个可以驱散魔法的职业，要注意驱散肺部爆破和包围之风效果。水术师瑟丝比娅在失去了2个守卫之后还是比较简单的。",
-    RED .. "闪电之云" .. WHITE .. "召唤一片闪电之云，持续14秒。对该区域中的玩家造成1575 - 2025点自然伤害并且在接下来的每2秒造成1838 -2362点额外伤害。。\n" .. RED .. "肺部爆破" .. WHITE .. ": 每2秒造成602 - 698点伤害。这是一个魔法减益效果，可以被驱散。\n" .. RED .. "包围之风:" .. WHITE .. " 用一股旋风包围一个玩家，使其昏迷6秒。魔法效果，可被驱散。\n\n" .. BLUE .. "英雄难度要点：风筝BOSS,DPS水元素,打BOSS时候注意躲雷云. 最简单的风筝办法就是宠物停在水中,然后给他加个误导射击,然后猎人开BOSS,战士接水元素。",
+    "水术师瑟丝比娅有2个守卫（水元素，如果队伍中有术士的话可以放逐）。如果你没有放逐的职业，那么你的坦克需要冲锋并且拉住 Boss 和一个守卫，而其他的队员迅速消灭掉第二个。守卫会随机施放800 - 1000点伤害的冰箭，治疗要注意。如果你有一个可以驱散魔法的职业，要注意驱散肺部爆破和包围之风效果。水术师瑟丝比娅在失去了2个守卫之后还是比较简单的。",
+    RED .. "闪电之云" .. WHITE .. "：召唤一片闪电之云，持续14秒。对该区域中的玩家造成1575 - 2025点自然伤害并且在接下来的每2秒造成1838 -2362点额外伤害。\n" .. RED .. "肺部爆破" .. WHITE .. "：每2秒造成602 - 698点伤害。这是一个魔法减益效果，可以被驱散。\n" .. RED .. "包围之风" .. WHITE .. "：用一股旋风包围一个玩家，使其昏迷6秒。魔法效果，可被驱散。\n\n" .. BLUE .. "英雄难度要点：风筝 Boss，DPS 水元素，打 Boss 时候注意躲雷云。最简单的风筝办法就是宠物停在水中，然后给他加个误导射击，然后猎人开Boss，战士接水元素。",
     },
 
     {
     "机械师斯蒂里格",
-    "你必须当心他的超级缩小射线技能。如果你的战士能够准确控制法术反射技能的时间，可以将射线反射给boss，这样会让战斗简单很多。如果你能够成功的通过AoE干掉修理员，阻止他们为boss恢复生命值，战斗会很简单。（修理员不是精英）。",
-   RED .. "电击网:" .. WHITE .. " 该技能每3秒造成400 - 700自然伤害，并且让玩家10秒不能移动\n" .. RED .. "锯刀:" .. WHITE .. " 造成物理伤害的圆锥范围攻击.\n" .. RED .. "超级缩小射线:" .. WHITE .. " 玩家造成的伤害减少35%.\n".. RED .. "斯蒂姆雷格的修理员:" .. WHITE .. " 这些小怪会治疗斯蒂姆雷格大约1000生命",
+    "你必须当心他的超级缩小射线技能。如果你的战士能够准确控制法术反射技能的时间，可以将射线反射给 Boss，这样会让战斗简单很多。如果你能够成功的通过 AoE 干掉修理员，阻止他们为 Boss 恢复生命值，战斗会很简单。（修理员不是精英）。",
+   RED .. "电击网" .. WHITE .. "：该技能每3秒造成400 - 700自然伤害，并且让玩家10秒不能移动。\n" .. RED .. "锯刀" .. WHITE .. "：造成物理伤害的圆锥范围攻击。\n" .. RED .. "超级缩小射线" .. WHITE .. "：玩家造成的伤害减少35%。\n".. RED .. "斯蒂姆雷格的修理员" .. WHITE .. "：这些小怪会治疗斯蒂姆雷格大约1000生命。",
     },
 
     {
     "督军卡利瑟里斯",
-    "作为盘牙水库最高等级分支的最终boss，督军卡利瑟里斯具有应有的难度，并且战斗也需要一定时间。队伍必须稳定的进行dps，因为他的生命值很高，并且会定期反射魔法。他另一个值得注意的技能就是穿刺，对随机目标造成每3秒500点物理伤害。如果他在某个目标的穿刺作用时间消失之前再次穿刺，那么作用时间会更新，效果会累积，治疗者必须注意。同时，不时他会大喊一声然后从旁边的某个水箱中吸取能量。在这个时候，这个水箱是可以攻击的，并且队伍中的每个成员都必须攻击水箱，包括治疗。因为boss会在吸取能量的时候停止攻击。在boss完成吸取水箱的能量之前，玩家必须消灭水箱。如果boss成功的吸取了能量，他就会激怒，获得100%攻击速度增加，和75%的攻击伤害增加。因为水箱只有在boss吸取能量的时候才能攻击。只要队伍能够成功的摧毁boss吸取能量的每一个水箱，那么boss战就没有难度了。",
-   RED .. "穿刺:" .. WHITE .. " 每3秒对一个目标造成500物理伤害，持续9秒\n" .. RED .. "法术反射:" .. WHITE .. " 法术被反射。效果是大气泡，也可以通过侦测魔法观察.\n" .. RED .. "军阀之怒:" .. WHITE .. " 这是他最危险的技能，大致情况是他会从旁边的一个纳加蒸馏器身上吸取力量，当法术完成之后，他会激怒，获得100%攻击速度增加，和75%的攻击伤害增加.",
+    "作为盘牙水库最高等级分支的最终 Boss，督军卡利瑟里斯具有应有的难度，并且战斗也需要一定时间。队伍必须稳定的进行 DPS，因为他的生命值很高，并且会定期反射魔法。他另一个值得注意的技能就是穿刺，对随机目标造成每3秒500点物理伤害。如果他在某个目标的穿刺作用时间消失之前再次穿刺，那么作用时间会更新，效果会累积，治疗者必须注意。同时，不时他会大喊一声然后从旁边的某个水箱中吸取能量。在这个时候，这个水箱是可以攻击的，并且队伍中的每个成员都必须攻击水箱，包括治疗。因为 Boss 会在吸取能量的时候停止攻击。在 Boss 完成吸取水箱的能量之前，玩家必须消灭水箱。如果 Boss 成功的吸取了能量，他就会激怒，获得100%攻击速度增加，和75%的攻击伤害增加。因为水箱只有在 Boss 吸取能量的时候才能攻击。只要队伍能够成功的摧毁 Boss 吸取能量的每一个水箱，那么 Boss 战就没有难度了。",
+   RED .. "穿刺" .. WHITE .. "：每3秒对一个目标造成500物理伤害，持续9秒。\n" .. RED .. "法术反射" .. WHITE .. "：法术被反射。效果是大气泡，也可以通过侦测魔法观察。\n" .. RED .. "军阀之怒" .. WHITE .. "：这是他最危险的技能，大致情况是他会从旁边的一个纳加蒸馏器身上吸取力量，当法术完成之后，他会激怒，获得100%攻击速度增加，和75%的攻击伤害增加。",
     },
 };
 
@@ -6591,34 +6756,34 @@ Inst42Quest1 = "1. 督军的末日"
 Inst42Quest1_Level = "70"
 Inst42Quest1_Attain = "67"
 Inst42Quest1_Aim = "观察者杰哈恩要求你找到并杀死盘牙水库的督军卡利瑟里斯。"
-Inst42Quest1_Location = "观察者杰哈恩 (盘牙水库; "..YELLOW.."52, 36"..WHITE..")"
-Inst42Quest1_Note = "一定要在BOSS使用水箱时打破它们."
+Inst42Quest1_Location = "观察者杰哈恩（盘牙水库; "..YELLOW.."52, 36"..WHITE.."）"
+Inst42Quest1_Note = "观察者杰哈恩在水下洞穴的集合石旁。督军卡利瑟里斯在"..YELLOW.."[4]"..WHITE.."。一定要在督军卡利瑟里斯使用蒸馏器之前摧毁它。"
 Inst42Quest1_Prequest = "无"
 Inst42Quest1_Folgequest = "无"
 --
-Inst42Quest1name1 = "Hydromancer's Headwrap"
-Inst42Quest1name2 = "Helm of the Claw"
-Inst42Quest1name3 = "Earthwarden's Coif"
-Inst42Quest1name4 = "Myrmidon's Headdress"
+Inst42Quest1name1 = "水术师头巾"
+Inst42Quest1name2 = "利爪头盔"
+Inst42Quest1name3 = "大地守卫者的兜帽"
+Inst42Quest1name4 = "侍从的头饰"
 
 --Quest 2 Alliance
 Inst42Quest2 = "2. 瓦丝琪的命令"
 Inst42Quest2_Level = "70"
 Inst42Quest2_Attain = "67"
 Inst42Quest2_Aim = "将瓦丝琪女王的命令交给赞加沼泽塞纳里奥庇护所的伊谢尔·风歌。"
-Inst42Quest2_Location = "这个任务是从蒸汽地窟的小怪身上随机掉落的物品触发的. 伊谢尔·风歌在"..YELLOW.."78, 62"..WHITE.."."
-Inst42Quest2_Note = "这个任务能够是你向塞纳里奥庇护所上交 盘牙武器"
+Inst42Quest2_Location = "瓦丝琪女王的命令（蒸汽地窟随机掉落）"
+Inst42Quest2_Note = "伊谢尔·风歌在（赞加沼泽 - 塞纳里奥庇护所; "..YELLOW.."78,62"..WHITE.."）这个任务能够是你向塞纳里奥庇护所上交盘牙武器。"
 Inst42Quest2_Prequest = "无"
 Inst42Quest2_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst42Quest3 = "3. 纳鲁的试炼 ：力量 (英雄模式)"
+Inst42Quest3 = "3. 纳鲁的试炼 ：力量（英雄）"
 Inst42Quest3_Level = "70"
 Inst42Quest3_Attain = "70"
-Inst42Quest3_Aim = "沙塔斯城的阿达尔要求你取回卡利瑟里斯的三叉戟和摩摩尔的精华。"
-Inst42Quest3_Location = "阿达尔 (沙塔斯城; "..YELLOW.."53, 43"..WHITE..")"
-Inst42Quest3_Note = "需要英雄模式。摩摩尔的精华出自暗影迷宫."
+Inst42Quest3_Aim = "沙塔斯城的阿达尔要求你取回卡利瑟里斯的三叉戟和摩摩尔的精华。\n\n该任务必须在英雄等级难度的地下城中完成。"
+Inst42Quest3_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53, 43"..WHITE.."）"
+Inst42Quest3_Note = "需要英雄难度副本。督军卡利瑟里斯在"..YELLOW.."[4]"..WHITE.."。摩摩尔的精华掉落自暗影迷宫。\n\n这个任务曾经是风暴要塞：风暴之眼进门任务，但是现在这不再是必须的。"
 Inst42Quest3_Prequest = "无"
 Inst42Quest3_Folgequest = "无"
 -- No Rewards for this quest
@@ -6626,12 +6791,12 @@ Inst42Quest3_Folgequest = "无"
 --Quest 4 Alliance
 Inst42Quest4 = "4. 地下的土壤"
 Inst42Quest4_Level = "70"
-Inst42Quest4_Attain = "70"
-Inst42Quest4_Aim = "从水术师瑟丝比娅手中夺得水下洞穴的沃土，将它交给韦恩的避难所的戴维·韦恩."
-Inst42Quest4_Location = "戴维·韦恩 (泰罗卡森林; "..YELLOW.."78,39"..WHITE..")."
-Inst42Quest4_Note = "水术师瑟丝比娅在 "..YELLOW.."[1]"..WHITE.."."
-Inst42Quest4_Prequest = "有,  能源舰的热源 (能量舰) & 魔语辞典 (暗影迷宫)"
-Inst42Quest4_Folgequest = "有，伊利达雷的克星"
+Inst42Quest4_Attain = "67"
+Inst42Quest4_Aim = "从水术师瑟丝比娅手中夺得水下洞穴的沃土，将它交给韦恩的避难所的戴维·韦恩。"
+Inst42Quest4_Location = "戴维·韦恩（泰罗卡森林 - 韦恩的避难所; "..YELLOW.."78,39"..WHITE.."）。"
+Inst42Quest4_Note = "水术师瑟丝比娅在"..YELLOW.."[1]"..WHITE.."。\n\n普通难度和英雄难度都会掉落任务物品。"
+Inst42Quest4_Prequest = "有，能源舰的热源（"..YELLOW.."能源舰"..WHITE.."）和魔语辞典（"..YELLOW.."暗影迷宫"..WHITE.."）"
+Inst42Quest4_Folgequest = "有，伊利达雷的斩除者"
 Inst42Quest4PreQuest = "true"
 -- No Rewards for this quest
 
@@ -6639,33 +6804,33 @@ Inst42Quest4PreQuest = "true"
 Inst42Quest5 = "5. 第二块和第三块"
 Inst42Quest5_Level = "70"
 Inst42Quest5_Attain = "68"
-Inst42Quest5_Aim = "在盘牙洞穴的秘法容器里取得第二块钥匙碎片，风暴要塞的秘法容器里取得第三块钥匙碎片。完成任务后回到撒塔斯城的卡德加那里。"
-Inst42Quest5_Location = "卡德加(沙塔斯城; "..YELLOW.."53,43"..WHITE..")"
-Inst42Quest5_Note = "秘法容器就在 "..YELLOW.."[2]"..WHITE..", 在一小潭水的底部."
-Inst42Quest5_Prequest = "有，卡拉赞的钥匙（暗影迷宫）"
-Inst42Quest5_Folgequest = "有，麦迪文的触摸 (黑暗沼泽)"
+Inst42Quest5_Aim = "从盘牙水库内的一个奥术容器中拿到第二块钥匙碎片，从风暴要塞内的一个奥术容器中拿到第三块钥匙碎片。任务完成之后向沙塔斯城的卡德加复命。"
+Inst42Quest5_Location = "卡德加（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）"
+Inst42Quest5_Note = "卡拉赞钥匙任务。秘法容器在"..YELLOW.."[2]"..WHITE.."，在一小潭水的底部，打开后杀掉第二块碎片的守护者拾取任务物品。第三块在禁魔监狱。"
+Inst42Quest5_Prequest = "有，卡拉赞的钥匙（"..YELLOW.."暗影迷宫"..WHITE.."）"
+Inst42Quest5_Folgequest = "有，麦迪文的触摸（"..YELLOW.."黑暗沼泽"..WHITE.."）"
 Inst42Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst42Quest6 = "6. 悬赏：盘牙侍从 (普通日常)"
+Inst42Quest6 = "6. 悬赏：盘牙侍从（日常）"
 Inst42Quest6_Level = "70"
 Inst42Quest6_Attain = "70"
-Inst42Quest6_Aim = "虚空猎手玛哈杜恩要求你杀死14名盘牙侍从。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏."
-Inst42Quest6_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst42Quest6_Note = "普通日常任务."
+Inst42Quest6_Aim = "虚空猎手玛哈杜恩要求你杀死14名盘牙侍从。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
+Inst42Quest6_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst42Quest6_Note = "普通日常任务。"
 Inst42Quest6_Prequest = "无"
 Inst42Quest6_Folgequest = "无"
 --
-Inst42Quest6name1 = "Ethereum Prison Key"
+Inst42Quest6name1 = "复仇军监牢钥匙"
 
 --Quest 7 Alliance
-Inst42Quest7 = "7. 悬赏：督军的论文 (英雄日常)"
+Inst42Quest7 = "7. 悬赏：督军的论文（英雄日常）"
 Inst42Quest7_Level = "70"
 Inst42Quest7_Attain = "70"
-Inst42Quest7_Aim = "商人扎雷姆要求你夺得督军的论文。将论文带回沙塔斯城的贫民窟交给他，就能领取奖赏。"
-Inst42Quest7_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst42Quest7_Note = "督军卡利瑟里斯 在 "..YELLOW.."[4]"..WHITE.."."
+Inst42Quest7_Aim = "商人扎雷姆要求你夺得督军的论文。将论文带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst42Quest7_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst42Quest7_Note = "需要英雄难度副本。\n\n督军卡利瑟里斯在"..YELLOW.."[4]"..WHITE.."。"
 Inst42Quest7_Prequest = "无"
 Inst42Quest7_Folgequest = "无"
 --
@@ -6761,34 +6926,34 @@ Inst42Quest7name1_HORDE = Inst42Quest7name1
 
 --------------- INST43 - CR: The Underbog (UB) ---------------
 
-Inst43Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿） "
-Inst43Caption = "盘牙水库：幽暗沼泽"
+Inst43Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿）。"
+Inst43Caption = "盘牙水库：幽暗沼泽（UB）"
 Inst43QAA = "5 个任务"
 Inst43QAH = "5 个任务"
 
 Inst43General = {
     {
     "霍加尔芬",
-    "所有的队伍成员必须观察地下沼泽蘑菇并且离开其范围，包括坦克在内。在霍加尔芬的生命值降低到某个程度以下时，它会开始使用邪恶孢子。包括坦克在内所有队员都需要离开boss附近，以免受到AoE伤害，同时避免Boss治疗自己。注意：霍加尔芬旁边的两个孢子巨人与boss并不是仇恨连接的，强烈推荐单独消灭",
-    RED .. "孢子云" .. WHITE .. "会在随机地点让这些蘑菇出现。生长几秒钟之后，这些蘑菇会放出孢子云,由孢子蘑菇释放的AoE型DoT。在20秒内每2秒造成360 - 540点自然伤害，最多累积5次\n" .. RED .. "邪恶孢子" .. WHITE .. ": 霍加尔芬将自己的根扎入地下，释放出AoE的毒性云雾，造成每秒400 - 600伤害，并且对霍加尔芬造成4倍于伤害量的治疗。范围15码。",
+    "所有的队伍成员必须观察地下沼泽蘑菇并且离开其范围，包括坦克在内。在霍加尔芬的生命值降低到某个程度以下时，它会开始使用邪恶孢子。包括坦克在内所有队员都需要离开 Boss 附近，以免受到 AoE 伤害，同时避免 Boss 治疗自己。注意：霍加尔芬旁边的两个孢子巨人与 Boss 并不是仇恨连接的，强烈推荐单独消灭。",
+    RED .. "孢子云" .. WHITE .. "：会在随机地点让这些蘑菇出现。生长几秒钟之后，这些蘑菇会放出孢子云，由孢子蘑菇释放的 AoE 型持续伤害。在20秒内每2秒造成360 - 540点自然伤害，最多累积5次。\n" .. RED .. "邪恶孢子" .. WHITE .. "：霍加尔芬将自己的根扎入地下，释放出 AoE 的毒性云雾，造成每秒400 - 600伤害，并且对霍加尔芬造成4倍于伤害量的治疗。范围15码。",
     },
 
     {
     "加兹安",
-    "你队伍中的主坦克需要第一个进入战场来吸引加兹安。加兹安必须侧面朝向小队，不然队员会受到酸性喷射和尾巴扫击的伤害。当坦克吸引了加兹安之后，他就开始受到酸性呼吸的伤害，但是这并不难于治疗。由于加兹安会在20% 生命时激怒，所以需要将需要长冷却的dps技能保持在那之后使用。",
-   RED .. "酸性喷射:" .. WHITE .. " 正面宽圆锥范围内攻击，造成2000 - 2500伤害.\n" .. RED .. "尾巴扫击:" .. WHITE .. " 和奥妮克西娅的尾巴扫击类似，附带500 - 800伤害的击退效果.\n" .. RED .. "酸性呼吸:" .. WHITE .. " 这个技能每3秒造成144点伤害，最多可堆积4次，不可驱散。",
+    "你队伍中的坦克需要第一个进入战场来吸引加兹安。加兹安必须侧面朝向小队，不然队员会受到酸性喷射和尾巴扫击的伤害。当坦克吸引了加兹安之后，他就开始受到酸性呼吸的伤害，但是这并不难于治疗。由于加兹安会在20%生命时激怒，所以需要将需要长冷却的DPS技能保持在那之后使用。",
+   RED .. "酸性喷射" .. WHITE .. "：正面宽圆锥范围内攻击，造成2000 - 2500伤害。\n" .. RED .. "尾巴扫击" .. WHITE .. "：和奥妮克西娅的尾巴扫击类似，附带500 - 800伤害的击退效果。\n" .. RED .. "酸性呼吸" .. WHITE .. "：这个技能每3秒造成144点伤害，最多可堆积4次，不可驱散。",
     },
 
     {
     "沼地领主穆塞雷克",
-    "一开始坦克需要冲向这个猎人boss的宠物：利爪，如果有小D也可以把熊一直睡，然后转换目标为boss本人。当坦克获得了足够仇恨之后（需要3 - 4秒），其他队员也可以开始攻击目标。每隔几秒沼地领主穆塞雷克就会冰冻所有队员，并且拉开距离射击。坦克需要尽快回到他的近战范围内并且吸引住boss。当猎人死亡之后，队员可以全力对付利爪。在它的生命值降低到5%左右时会变为友善目标，并且变形成一个德鲁伊。",
-   RED .. "瞄准射击:" .. WHITE .. " 没有被近距离坦克吸引住时会使用这一技能，对布衣可以造成2000点以上伤害\n" .. RED .. "多重射击:" .. WHITE .. " 对若干随机队员射击，造成2000 - 2500点奥术伤害。.\n" .. RED .. "冰冻陷阱:" .. WHITE .. " 常会冰冻所有队员3秒，然后拉开距离.",
+    "一开始坦克需要冲向这个猎人 Boss 的宠物：利爪，如果有德鲁伊也可以把熊一直睡，然后转换目标为 Boss 本人。当坦克获得了足够仇恨之后（需要3 - 4秒），其他队员也可以开始攻击目标。每隔几秒沼地领主穆塞雷克就会冰冻所有队员，并且拉开距离射击。坦克需要尽快回到他的近战范围内并且吸引住 Boss。当猎人死亡之后，队员可以全力对付利爪。在它的生命值降低到5%左右时会变为友善目标，并且变形成一个德鲁伊。",
+   RED .. "瞄准射击" .. WHITE .. "：没有被近距离坦克吸引住时会使用这一技能，对布衣可以造成2000点以上伤害。\n" .. RED .. "多重射击" .. WHITE .. "：对若干随机队员射击，造成2000 - 2500点奥术伤害。\n" .. RED .. "冰冻陷阱" .. WHITE .. "：会冰冻所有队员3秒，然后拉开距离。",
     },
     
     {
     "黑色阔步者",
-    "分散站位是避免闪电伤害的关键。但是真正造成伤害的是漂浮术和静电充能。静电充能每次伤害为750，除非得到治疗，玩家会被杀死。如果可能的话，安排好第二治疗和第二坦克。这一boss的战斗比起该副本中之前的战斗来说相对困难。",
-   RED .. "闪电链:" .. WHITE .. " 与萨满的技能类似，攻击接近的几个目标\n" .. RED .. "漂浮术:" .. WHITE .. " 给予玩家一个减益状态，让他漂浮在空中远离队员和boss.\n" .. RED .. "静电充能:" .. WHITE .. " DoT伤害，对玩家及邻近队友造成750点每跳伤害。这一状态无法被驱散，除非得到治疗，玩家会被杀死.",
+    "分散站位是避免闪电伤害的关键。但是真正造成伤害的是漂浮术和静电充能。静电充能每次伤害为750，除非得到治疗，玩家会被杀死。如果可能的话，安排好第二治疗和第二坦克。这一 Boss 的战斗比起该副本中之前的战斗来说相对困难。",
+   RED .. "闪电链" .. WHITE .. "：与萨满的技能类似，攻击接近的几个目标。\n" .. RED .. "漂浮术" .. WHITE .. "：给予玩家一个减益状态，让他漂浮在空中远离队员和 Boss。\n" .. RED .. "静电充能" .. WHITE .. "：持续伤害，对玩家及邻近队友造成750点每跳伤害。这一状态无法被驱散，除非得到治疗，否则玩家会被杀死。",
     },
 };
 
@@ -6797,35 +6962,35 @@ Inst43Quest1 = "1. 失踪的同伴"
 Inst43Quest1_Level = "65"
 Inst43Quest1_Attain = "62"
 Inst43Quest1_Aim = "查明缚地者雷葛、博学者拜特、除草者格林萨姆和唤风者克劳恩的下落，然后返回赞加沼泽的盘牙水库，向观察者杰哈恩复命。"
-Inst43Quest1_Location = "观察者杰哈恩 (盘牙水库; "..YELLOW.."52, 36"..WHITE..")"
-Inst43Quest1_Note = "缚地者雷葛在 "..YELLOW.."[3]"..WHITE..", 唤风者克劳恩在 "..YELLOW.."[4]"..WHITE..".注意，雷葛是潜行的，你需要走近些才能看见它，克劳恩则需要杀掉BOSS或者将它打成16%的血它才能变回原形，才能和他说话完成任务"
+Inst43Quest1_Location = "观察者杰哈恩（盘牙水库; "..YELLOW.."52, 36"..WHITE.."）"
+Inst43Quest1_Note = "观察者杰哈恩在水下洞穴的集合石旁。缚地者雷葛在"..YELLOW.."[3]"..WHITE.."，唤风者克劳恩在"..YELLOW.."[4]"..WHITE.."。注意，雷葛是潜行的，你需要走近些才能看见它，克劳恩则需要杀掉 Boss 或者将它打成16%的血它才能变回原形，才能和他说话完成任务。"
 Inst43Quest1_Prequest = "无"
 Inst43Quest1_Folgequest = "无"
 Inst43Quest1PreQuest = "true"
 --
-Inst43Quest1name1 = "Cenarion Ring of Casting"
-Inst43Quest1name2 = "Goldenvine Wraps"
-Inst43Quest1name3 = "Dark Cloak of the Marsh"
+Inst43Quest1name1 = "塞纳里奥施法戒指"
+Inst43Quest1name2 = "金藤护腕"
+Inst43Quest1name3 = "沼泽黑暗披风"
 
 --Quest 2 Alliance
 Inst43Quest2 = "2. 孢子叶"
 Inst43Quest2_Level = "65"
 Inst43Quest2_Attain = "63"
 Inst43Quest2_Aim = "将一片幽暗孢子叶交给赞加沼泽孢子村的塔苏。"
-Inst43Quest2_Location = "塔苏 (赞加沼泽; "..YELLOW.."19, 49"..WHITE..")"
-Inst43Quest2_Note = "你必须和孢子村声望中立才能接到任务。幽暗孢子叶就在霍加尔芬身后 "..YELLOW.."[1]"..WHITE.."."
+Inst43Quest2_Location = "塔苏（赞加沼泽 - 孢子村; "..YELLOW.."19, 49"..WHITE.."）"
+Inst43Quest2_Note = "你必须和孢子村声望中立才能接到任务。幽暗孢子叶就在霍加尔芬身后"..YELLOW.."[1]"..WHITE.."。"
 Inst43Quest2_Prequest = "无"
 Inst43Quest2_Folgequest = "无"
 --
-Inst43Quest2name1 = "Everlasting Underspore Frond"
+Inst43Quest2name1 = "无尽幽暗孢子叶"
 
 --Quest 3 Alliance
 Inst43Quest3 = "3. 黑色阔步者"
 Inst43Quest3_Level = "65"
 Inst43Quest3_Attain = "63"
 Inst43Quest3_Aim = "将黑色阔步者的大脑交给赞加沼泽孢子村的肯尼克斯。"
-Inst43Quest3_Location = "肯尼克斯 (赞加沼泽; "..YELLOW.."19, 49"..WHITE..")"
-Inst43Quest3_Note = "你必须和孢子村中立才能接到这个任务，黑色阔步者就在 "..YELLOW.."[5]"..WHITE.."."
+Inst43Quest3_Location = "肯尼克斯（赞加沼泽 - 孢子村; "..YELLOW.."19, 49"..WHITE.."）"
+Inst43Quest3_Note = "你必须和孢子村中立才能接到这个任务，黑色阔步者在"..YELLOW.."[5]"..WHITE.."。"
 Inst43Quest3_Prequest = "无"
 Inst43Quest3_Folgequest = "无"
 --
@@ -6833,12 +6998,12 @@ Inst43Quest3name1 = "灌注精华的蘑菇"
 Inst43Quest3name2 = "灌注能量的蘑菇"
 
 --Quest 4 Alliance
-Inst43Quest4 = "4. 悬赏：黑色阔步者的卵 (英雄日常)"
+Inst43Quest4 = "4. 悬赏：黑色阔步者的卵（英雄日常）"
 Inst43Quest4_Level = "70"
 Inst43Quest4_Attain = "70"
-Inst43Quest4_Aim = "商人扎雷姆要求你取回一枚黑色阔步者的卵。将卵带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst43Quest4_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst43Quest4_Note = "黑色阔步者 在 "..YELLOW.."[5]"..WHITE.."."
+Inst43Quest4_Aim = "商人扎雷姆要求你取回一枚黑色阔步者的卵。将卵带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst43Quest4_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst43Quest4_Note = "需要英雄难度副本。\n\n黑色阔步者在 "..YELLOW.."[5]"..WHITE.."。"
 Inst43Quest4_Prequest = "无"
 Inst43Quest4_Folgequest = "无"
 --
@@ -6848,11 +7013,11 @@ Inst43Quest4name1 = "公正徽章"
 Inst43Quest5 = "5. 我要红色木槿！"
 Inst43Quest5_Level = "65"
 Inst43Quest5_Attain = "63"
-Inst43Quest5_Aim = "将5朵红色木槿交给赞加沼泽孢子村的舒特."
-Inst43Quest5_Location = "舒特 (赞加沼泽 - 孢子村; "..YELLOW.."19,50"..WHITE..")"
-Inst43Quest5_Note = "你必须和孢子村达到友善以上声望才能接到这个任务."
-Inst43Quest5_Prequest = "No"
-Inst43Quest5_Folgequest = "有, 我还要红色木槿!"
+Inst43Quest5_Aim = "将5朵红色木槿交给赞加沼泽孢子村的舒特。"
+Inst43Quest5_Location = "舒特（赞加沼泽 - 孢子村; "..YELLOW.."19,50"..WHITE.."）"
+Inst43Quest5_Note = "你必须和孢子村达到友善以上声望才能接到这个任务。"
+Inst43Quest5_Prequest = "无"
+Inst43Quest5_Folgequest = "有，我还要红色木槿！"
 -- No Rewards for this quest
 
 
@@ -6923,21 +7088,21 @@ Inst43Quest5_HORDE_Folgequest = Inst43Quest5_Folgequest
 
 --------------- INST44 - Auchindoun: Auchenai Crypts (AC) ---------------
 
-Inst44Story = "几千年来，德莱尼人将死者埋葬在他们最神圣的庙宇奥金顿之中.\n\n但是，暗影议会的成员潜入了奥金顿，准备召唤无比邪恶的恐怖生物。他们可耻的魔法造成了一场大爆炸，将庙宇炸的四分五裂，周围的地区也成为了一片焦土\n\n爆炸同时在虚空中切开了一条裂缝，将另一个世界的灵体带入了外域。以前被埋葬的德莱尼人无法安息的灵魂在废墟中游荡。而且，暗影议会召唤的恐惧生物就要突破暗影议会控制它的努力了.\n\n你必须防止它降临到这个世界中.\n\n奥金顿分为4个5人副本，64-66的法力坟墓，65-67的奥金尼地穴，67-69的塞泰克大厅和70-72的暗影迷宫."
-Inst44Caption = "奥金顿：奥金尼地穴"
+Inst44Story = "几千年来，德莱尼人将死者埋葬在他们最神圣的庙宇奥金顿之中。\n\n但是，暗影议会的成员潜入了奥金顿，准备召唤无比邪恶的恐怖生物。他们可耻的魔法造成了一场大爆炸，将庙宇炸的四分五裂，周围的地区也成为了一片焦土\n\n爆炸同时在虚空中切开了一条裂缝，将另一个世界的灵体带入了外域。以前被埋葬的德莱尼人无法安息的灵魂在废墟中游荡。而且，暗影议会召唤的恐惧生物就要突破暗影议会控制它的努力了。\n\n你必须防止它降临到这个世界中。\n\n奥金顿分为4个5人副本，64-66的法力坟墓，65-67的奥金尼地穴，67-69的塞泰克大厅和70-72的暗影迷宫。"
+Inst44Caption = "奥金顿：奥金尼地穴（AC）"
 Inst44QAA = "2 个任务"
 Inst44QAH = "4 个任务"
 Inst44General = {
     {
     "死亡观察者希尔拉克",
     "希尔拉克不会从台阶上下来，所以队伍需要冲上去。对付他有几个战略。其中一个战略是四方移动战略，这样他的集中火力伤害将会降到最小。队伍站成一个四方形，2个在左边，2个在右边。当大家都到位之后，坦克将希尔拉克拉到四方形的一个角落上。为了保证治疗者的生存，最好他们从楼梯上走下去躲避集中火力的伤害。",
-    RED .. "食肉撕咬" .. WHITE .. "近战范围内的流血debuff，当希尔拉克把玩家拉近身时施放。\n" .. RED .. "约束魔法" .. WHITE .. ": 对所有玩家施放一个debuff， 增加施法时间50%，最多积累4次，效果为施法时间增加200%.\n" .. RED .. "集中火力:" .. WHITE .. "希尔拉克会做出’死亡守望者施拉克正在集中他的能量‘这样的动作，然后在某个玩家脚下放出标记。3 - 5 秒之后，标记会进行类似冲击波的攻击，对附近的玩家造成1650点火焰伤害。",
+    RED .. "食肉撕咬" .. WHITE .. "：近战范围内的流血减益，当希尔拉克把玩家拉近身时施放。\n" .. RED .. "约束魔法" .. WHITE .. "：对所有玩家施放一个减益，增加施法时间50%，最多积累4次，效果为施法时间增加200%。\n" .. RED .. "集中火力" .. WHITE .. "：希尔拉克会做出’死亡守望者施拉克正在集中他的能量‘这样的动作，然后在某个玩家脚下放出标记。3 - 5 秒之后，标记会进行类似冲击波的攻击，对附近的玩家造成1650点火焰伤害。",
     },
 
     {
     "大主教玛拉达尔",
-    "战斗的关键是尽量减少影之生物的数量（最好为0）。每次当一个影之生物被制造出来之后，集中火力迅速消灭它。然后再攻击大主教。万一有多个影之生物出现，可以用冰霜新星控制。在20% 生命时，大主教会召唤一个攻击力非常强劲的殉教者之灵。集中杀死大主教，然后再消灭殉教者之灵。",
-   RED .. "召唤殉教者之灵:" .. WHITE .. " 在20% 生命时，大主教将会召唤一个殉教者之灵，它会使用恶心的致死打击技能。\n" .. RED .. "心灵顺劈斩:" .. WHITE .. "所有的伤害和治疗都降低50%。\n" .. RED .. "召唤影之生物:" .. WHITE .. "制造一个玩家的阴影来攻击队员。阴影对布衣造成706 - 878伤害，还会使用伤害在1500左右的致死打击。\n" .. RED .. "心灵尖啸:" .. WHITE .. " 群体恐惧.",
+    "战斗的关键是尽量减少影之生物的数量（最好为0）。每次当一个影之生物被制造出来之后，集中火力迅速消灭它。然后再攻击大主教。万一有多个影之生物出现，可以用冰霜新星控制。在20%生命时，大主教会召唤一个攻击力非常强劲的殉教者之灵。集中杀死大主教，然后再消灭殉教者之灵。",
+   RED .. "召唤殉教者之灵" .. WHITE .. "：在20%生命时，大主教将会召唤一个殉教者之灵，它会使用恶心的致死打击技能。\n" .. RED .. "心灵顺劈斩" .. WHITE .. "：所有的伤害和治疗都降低50%。\n" .. RED .. "召唤影之生物" .. WHITE .. "：制造一个玩家的阴影来攻击队员。阴影对布衣造成706 - 878伤害，还会使用伤害在1500左右的致死打击。\n" .. RED .. "心灵尖啸" .. WHITE .. "：群体恐惧。",
     },
 };
 
@@ -6946,8 +7111,8 @@ Inst44Quest1 = "1. 一切都会变好的"
 Inst44Quest1_Level = "67"
 Inst44Quest1_Attain = "64"
 Inst44Quest1_Aim = "奥金顿奥金尼地穴外的奥德里姆斯宗父要你进入奥金尼地穴，消灭大主教玛拉达尔。"
-Inst44Quest1_Location = "奥德里姆斯宗父 (泰罗卡森林; "..YELLOW.."35,65 "..WHITE..")"
-Inst44Quest1_Note = "大主教玛拉达尔 在 "..YELLOW.."[2]"..WHITE..". 这个任务的起始任务是 我看到了死德莱尼人 ，起始NPC是 哈雷 (泰罗卡森林; "..YELLOW.."35,65"..WHITE..")."
+Inst44Quest1_Location = "奥德里姆斯宗父（泰罗卡森林; "..YELLOW.."35,65 "..WHITE.."）"
+Inst44Quest1_Note = "大主教玛拉达尔在"..YELLOW.."[2]"..WHITE.."。起始是从哈雷（泰罗卡森林 - 奥金顿; "..YELLOW.."35,65"..WHITE.."），起始任务是‘我看到了死德莱尼人’。"
 Inst44Quest1_Prequest = "有，唤魂者利维休斯"
 Inst44Quest1_Folgequest = "无"
 Inst44Quest1PreQuest = "true"
@@ -6958,12 +7123,12 @@ Inst44Quest1name3 = "奥金尼猎手外套"
 Inst44Quest1name4 = "主教护卫者"
 
 --Quest 2 Alliance
-Inst44Quest2 = "2. 悬赏：主教的灵魂宝钻 (英雄日常)"
+Inst44Quest2 = "2. 悬赏：主教的灵魂宝钻（英雄日常）"
 Inst44Quest2_Level = "70"
 Inst44Quest2_Attain = "70"
-Inst44Quest2_Aim = "商人扎雷姆要求你夺得主教的灵魂宝钻。将宝钻带回沙塔斯城的贫民窟交给他，就能领取奖赏。"
-Inst44Quest2_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst44Quest2_Note = "大主教玛拉达尔 在"..YELLOW.."[2]"..WHITE.."."
+Inst44Quest2_Aim = "商人扎雷姆要求你夺得主教的灵魂宝钻。将宝钻带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst44Quest2_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst44Quest2_Note = "需要英雄难度副本。\n\n大主教玛拉达尔在"..YELLOW.."[2]"..WHITE.."。"
 Inst44Quest2_Prequest = "无"
 Inst44Quest2_Folgequest = "无"
 --
@@ -6971,25 +7136,25 @@ Inst44Quest2name1 = "公正徽章"
 
 
 --Quest 1 Horde
-Inst44Quest1_HORDE = "1. 奥金顿"
+Inst44Quest1_HORDE = "1. 奥金顿……"
 Inst44Quest1_HORDE_Level = "68"
-Inst44Quest1_HORDE_Attain = "67"
+Inst44Quest1_HORDE_Attain = "66"
 Inst44Quest1_HORDE_Aim = "前往泰罗卡森林白骨荒野的奥金尼地穴，杀死大主教玛拉达尔，解救德欧里的灵魂。"
-Inst44Quest1_HORDE_Location = "阿达尔 (沙塔斯城; "..YELLOW.."54,45"..WHITE..")"
-Inst44Quest1_HORDE_Note = "大主教玛拉达尔 在 "..YELLOW.."[2]"..WHITE.."."
+Inst44Quest1_HORDE_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）"
+Inst44Quest1_HORDE_Note = "大主教玛拉达尔在"..YELLOW.."[2]"..WHITE.."。杀死大主教玛拉达尔后德欧里出现。"
 Inst44Quest1_HORDE_Prequest = "有，谜底揭晓"
-Inst44Quest1_HORDE_Folgequest = "有，"
+Inst44Quest1_HORDE_Folgequest = "有，灵魂之眼"
 Inst44Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
 Inst44Quest2_HORDE = "2. 灵魂之眼"
 Inst44Quest2_HORDE_Level = "68"
-Inst44Quest2_HORDE_Attain = "69"
-Inst44Quest2_HORDE_Aim = "在奥金尼地穴中找到一面灵魂之镜，用它召唤纳格兰上古兽人先祖的黑暗之魂。消灭15个黑暗的灵魂，让兽人先祖得以安然长眠。\n\n完成任务后，向先祖之地的卡舒尔宗母复命。"
-Inst44Quest2_HORDE_Location = "德欧里 (奥金尼地穴; "..YELLOW..""..WHITE.."). 卡舒尔宗母 在 (Nagrand; "..YELLOW.."26,61"..WHITE..")."
-Inst44Quest2_HORDE_Note = "最好有一个3人以上小队再召唤兽人先祖."
-Inst44Quest2_HORDE_Prequest = "有，奥金顿。。"
+Inst44Quest2_HORDE_Attain = "66"
+Inst44Quest2_HORDE_Aim = "在奥金尼地穴中找到一面灵魂之镜，用它召唤纳格兰上古兽人先祖的黑暗之魂。消灭15个黑暗的灵魂，让兽人先祖得以安然长眠。"
+Inst44Quest2_HORDE_Location = "德欧里（奥金尼地穴; "..YELLOW.."[2]"..WHITE..")。"
+Inst44Quest2_HORDE_Note = "杀死大主教玛拉达尔后德欧里出现。卡舒尔宗母（纳格兰; "..YELLOW.."26,61"..WHITE.."）。最好有一个3人以上小队再召唤上古兽人先祖。"
+Inst44Quest2_HORDE_Prequest = "有，奥金顿……"
 Inst44Quest2_HORDE_Folgequest = "有，返回盖亚安祖母身边"
 Inst44Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
@@ -7011,7 +7176,7 @@ Inst44Quest3name3_HORDE = Inst44Quest1name3
 Inst44Quest3name4_HORDE = Inst44Quest1name4
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
-Inst44Quest4_HORDE = "4. 悬赏：主教的灵魂宝钻 (英雄日常)"
+Inst44Quest4_HORDE = "4. 悬赏：主教的灵魂宝钻（英雄日常）"
 Inst44Quest4_HORDE_Level = Inst44Quest2_Level
 Inst44Quest4_HORDE_Attain = Inst44Quest2_Attain
 Inst44Quest4_HORDE_Aim = Inst44Quest2_Aim
@@ -7026,27 +7191,27 @@ Inst44Quest4name1_HORDE = Inst44Quest2name1
 
 --------------- INST45 - Auchindoun: Mana Tombs (MT) ---------------
 
-Inst45Story = "几千年来，德莱尼人将死者埋葬在他们最神圣的庙宇奥金顿之中.\n\n但是，暗影议会的成员潜入了奥金顿，准备召唤无比邪恶的恐怖生物。他们可耻的魔法造成了一场大爆炸，将庙宇炸的四分五裂，周围的地区也成为了一片焦土\n\n爆炸同时在虚空中切开了一条裂缝，将另一个世界的灵体带入了外域。以前被埋葬的德莱尼人无法安息的灵魂在废墟中游荡。而且，暗影议会召唤的恐惧生物就要突破暗影议会控制它的努力了.\n\n你必须防止它降临到这个世界中.\n\n奥金顿分为4个5人副本，64-66的法力坟墓，65-67的奥金尼地穴，67-69的塞泰克大厅和70-72的暗影迷宫."
-Inst45Caption = "奥金顿：法力陵墓"
+Inst45Story = "几千年来，德莱尼人将死者埋葬在他们最神圣的庙宇奥金顿之中。\n\n但是，暗影议会的成员潜入了奥金顿，准备召唤无比邪恶的恐怖生物。他们可耻的魔法造成了一场大爆炸，将庙宇炸的四分五裂，周围的地区也成为了一片焦土\n\n爆炸同时在虚空中切开了一条裂缝，将另一个世界的灵体带入了外域。以前被埋葬的德莱尼人无法安息的灵魂在废墟中游荡。而且，暗影议会召唤的恐惧生物就要突破暗影议会控制它的努力了。\n\n你必须防止它降临到这个世界中。\n\n奥金顿分为4个5人副本，64-66的法力坟墓，65-67的奥金尼地穴，67-69的塞泰克大厅和70-72的暗影迷宫。"
+Inst45Caption = "奥金顿：法力陵墓（MT）"
 Inst45QAA = "5 个任务"
 Inst45QAH = "5 个任务"
 Inst45General = {
     {
     "潘德莫努斯",
-    "虽然不是必须，但是暗影抗性在该场boss战中能起到很大作用。因为boss几乎所有的伤害都是暗影伤害（除了虚空爆炸）。暗抗装备，药水和buff（牧师），光环都有作用。\n战斗的关键是随时注意观察暗影护盾技能的动画效果（boss身边的绿色半圆圈）。每一个dps，包括坦克在内，在暗影护盾作用的5秒内都必须停止攻击。另外还有一点值得注意的是，你应该在一面墙附近坦克这个boss，防止boss将坦克击退后超出治疗范围。",
-    RED .. "近战攻击：" .. WHITE .. "造成暗影伤害，这意味着暗影抗性是非常重要的（抵抗前伤害为700 - 1000）。\n" .. RED .. "暗影护盾：" .. WHITE .. ": 反射所有对他施放的法术，并且对近战攻击者造成800 - 1000点伤害（绿色半圆形动画）。护盾有效时间约为5秒。\n" .. RED .. "虚空爆炸:" .. WHITE .. " 对所有附近的目标造成1000 - 2000点物理伤害并且将目标击退，伤害可以由护甲减免。有时候他会连续进行2 - 3次类似攻击.\n\n" .. BLUE .. "英雄难度要点：有一定的暗抗装会很好打.BOSS攻击很高(因为是暗影),建议双治疗解决,开虚空盾的时候停止攻击。",
+    "虽然不是必须，但是暗影抗性在该场 Boss 战中能起到很大作用。因为 Boss 几乎所有的伤害都是暗影伤害（除了虚空爆炸）。暗抗装备，药水和 Buff （牧师），光环都有作用。\n战斗的关键是随时注意观察暗影护盾技能的动画效果（Boss 身边的绿色半圆圈）。每一个DPS，包括坦克在内，在暗影护盾作用的5秒内都必须停止攻击。另外还有一点值得注意的是，你应该在一面墙附近坦克这个Boss，防止 Boss 将坦克击退后超出治疗范围。",
+    RED .. "近战攻击" .. WHITE .. "：造成暗影伤害，这意味着暗影抗性是非常重要的（抵抗前伤害为700 - 1000）。\n" .. RED .. "暗影护盾" .. WHITE .. "：反射所有对他施放的法术，并且对近战攻击者造成800 - 1000点伤害（绿色半圆形动画）。护盾有效时间约为5秒。\n" .. RED .. "虚空爆炸" .. WHITE .. "：对所有附近的目标造成1000 - 2000点物理伤害并且将目标击退，伤害可以由护甲减免。有时候他会连续进行2 - 3次类似攻击。\n\n" .. BLUE .. "英雄难度要点：有一定的暗抗装会很好打，Boss 攻击很高（因为是暗影），建议双治疗解决，开虚空盾的时候停止攻击。",
     },
 
     {
     "塔瓦洛克",
-    "没有特殊战略，基本的坦克/dps战",
-   RED .. "半月斩:" .. WHITE .. " 施放出一道弧形攻击，对面前锥形范围内的玩家造成普通攻击伤害外加125点额外伤害。\n" .. RED .. "水晶囚笼:" .. WHITE .. "该技能对随机队员施放，每秒造成10%伤害，持续5秒.\n" .. RED .. "地震:" .. WHITE .. " 对40码内的玩家造成919 - 1181点物理伤害，并使他们眩晕3秒。\n\n" .. BLUE .. "英雄难度要点：硬顶此BOSS,仍然建议2治疗,注意:BOSS大约30秒发动一次顺劈,伤害是8000一下,没错你没看错,8000一下的顺劈.还有范围击晕,攻击频率较高,注意开保命技能。",
+    "没有特殊战略，基本的坦克/DPS 战。",
+   RED .. "半月斩" .. WHITE .. "：施放出一道弧形攻击，对面前锥形范围内的玩家造成普通攻击伤害外加125点额外伤害。\n" .. RED .. "水晶囚笼" .. WHITE .. "：该技能对随机队员施放，每秒造成10%伤害，持续5秒。\n" .. RED .. "地震" .. WHITE .. "：对40码内的玩家造成919 - 1181点物理伤害，并使他们眩晕3秒。\n\n" .. BLUE .. "英雄难度要点：硬顶此 Boss，仍然建议2治疗，注意：Boss 大约30秒发动一次顺劈，伤害是8000一下，没错你没看错，8000一下的顺劈。还有范围击晕，攻击频率较高，注意开保命技能。",
     },
 
     {
     "节点亲王沙法尔",
-    "在这场战斗中你将会看到，节点亲王沙法尔附近有3个非精英的虚空道标，并且他们会制造伤害（类似法师类型）。如果你让它们生存的时间太长，它们会变成3个精英的虚空道标。所以你应该在对付boss之前快速dps掉它们。节点亲王沙法尔在战斗中将会从虚空中召唤它们，所以要随时关注它们的出现，不用关心王子，将火力集中到虚空道标上。战斗的关键在于，在一开始的时候，由于3个道标都是存在的，它们和boss的火力都会聚集在拉怪的人身上。如果在消灭掉3个道标之后你还没有失去任何队员，那么剩下的战斗也没有什么难度了。",
-   RED .. "火球:" .. WHITE .. " 造成1300 - 1650点伤害的火球。\n" .. RED .. "冰箭:" .. WHITE .. " 造成900 - 1200伤害的冰箭.\n" .. RED .. "冰霜新星:" .. WHITE .. " 同法师技能，造成550伤害.\n\n" .. BLUE .. "英雄难度要点：打这个BOSS他完全没有物理攻击,你可以放弃防御技能堆血堆暴击增加DPS. 1.5秒左右一次的冰剑火球交替释放,对治疗是个考验,不过还好掉血比较平稳.技能要舍得用。",
+    "在这场战斗中你将会看到，节点亲王沙法尔附近有3个非精英的虚空道标，并且他们会制造伤害（类似法师类型）。如果你让它们生存的时间太长，它们会变成3个精英的虚空道标。所以你应该在对付 Boss 之前快速 DPS 掉它们。节点亲王沙法尔在战斗中将会从虚空中召唤它们，所以要随时关注它们的出现，不用关心王子，将火力集中到虚空道标上。战斗的关键在于，在一开始的时候，由于3个道标都是存在的，它们和 Boss 的火力都会聚集在拉怪的人身上。如果在消灭掉3个道标之后你还没有失去任何队员，那么剩下的战斗也没有什么难度了。",
+   RED .. "火球" .. WHITE .. "：造成1300 - 1650点伤害的火球。\n" .. RED .. "冰箭" .. WHITE .. "：造成900 - 1200伤害的冰箭。\n" .. RED .. "冰霜新星" .. WHITE .. "：同法师技能，造成550伤害。\n\n" .. BLUE .. "英雄难度要点：打这个 Boss 他完全没有物理攻击，你可以放弃防御技能堆血堆暴击增加 DPS。1.5秒左右一次的冰箭火球交替释放，对治疗是个考验，不过还好掉血比较平稳。技能要舍得用。",
     },
 };
 
@@ -7055,10 +7220,10 @@ Inst45Quest1 = "1. 安全第一"
 Inst45Quest1_Level = "66"
 Inst45Quest1_Attain = "64"
 Inst45Quest1_Aim = "工匠莫法鲁斯要你杀死10个虚灵盗墓者、5个虚灵巫师、5个节点潜行者和5个虚灵缚法者。\n\n全部搞定之后，激活沙法尔房间的前一个房间中的虚灵传送器。"
-Inst45Quest1_Location = "工匠莫法鲁斯  在(泰罗卡森林; "..YELLOW.."39,58"..WHITE..")"
-Inst45Quest1_Note = "虚灵传送器 在 "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest1_Location = "工匠莫法鲁斯在（泰罗卡森林 - 奥金顿; "..YELLOW.."39,58"..WHITE.."）"
+Inst45Quest1_Note = "虚灵传送器控制台"..YELLOW.."[4]"..WHITE.."。"
 Inst45Quest1_Prequest = "无"
-Inst45Quest1_Folgequest = "有, 别人的烂摊子"
+Inst45Quest1_Folgequest = "有，别人的烂摊子"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -7066,8 +7231,8 @@ Inst45Quest2 = "2. 别人的烂摊子"
 Inst45Quest2_Level = "66"
 Inst45Quest2_Attain = "64"
 Inst45Quest2_Aim = "护送低温工程师沙赫恩穿过法力陵墓，在他从沙法尔的灵体收集器中收集灵体能量时保护他。\n\n完成任务后向节点亲王哈拉迈德复命，他就在星界财团设立在法力陵墓外的营地中。"
-Inst45Quest2_Location = "低温工程师沙赫恩 (法力坟墓; "..YELLOW.."[3]"..WHITE..")"
-Inst45Quest2_Note = "护送沙赫恩之前，点击位于 "..YELLOW.."[3]"..WHITE..". 的传送器。他身边会有几个NPC帮助他，不过在护送之前，最好还是把副本清光光，不留活口."
+Inst45Quest2_Location = "低温工程师沙赫恩（法力坟墓; "..YELLOW.."[4]"..WHITE.."）"
+Inst45Quest2_Note = "护送沙赫恩之前，点击位于"..YELLOW.."[4]"..WHITE.."的传送器控制台。他身边会有几个 NPC 帮助他，不过在护送之前，最好还是把副本清光副本。每次副本进度只能护送一次。"
 Inst45Quest2_Prequest = "有，安全第一"
 Inst45Quest2_Folgequest = "无"
 Inst45Quest2FQuest = "true"
@@ -7082,8 +7247,8 @@ Inst45Quest3 = "3. 扫除竞争者"
 Inst45Quest3_Level = "66"
 Inst45Quest3_Attain = "64"
 Inst45Quest3_Aim = "法力陵墓外的节点亲王哈拉迈德要你杀死节点亲王沙法尔，并将沙法尔的护腕带交给他。"
-Inst45Quest3_Location = "节点亲王哈拉迈德 (泰罗卡 -奥金顿; "..YELLOW.."39,58"..WHITE..")."
-Inst45Quest3_Note = "在这场战斗中你将会看到，节点王子夏法附近有3个非精英的虚空道标，并且他们会制造伤害（类似法师类型）。如果你让它们生存的时间太长，它们会变成3个精英的虚空道标。所以你应该在对付boss之前快速dps掉它们。节点王子夏法在战斗中将会从虚空中召唤它们，所以要随时关注它们的出现，不用关心王子，将火力集中到虚空道标上。"
+Inst45Quest3_Location = "节点亲王哈拉迈德（泰罗卡 -奥金顿; "..YELLOW.."39,58"..WHITE.."）。"
+Inst45Quest3_Note = "节点亲王沙法尔在"..YELLOW.."[5]"..WHITE.."。"
 Inst45Quest3_Prequest = "无"
 Inst45Quest3_Folgequest = "无"
 --
@@ -7093,25 +7258,25 @@ Inst45Quest3name3 = "哈拉迈德的裹腿"
 Inst45Quest3name4 = "哈拉迈德的链甲护腿"
 
 --Quest 4 Alliance
-Inst45Quest4 = "4. 法力陵墓的密室 (英雄模式)"
+Inst45Quest4 = "4. 法力陵墓的静止间（英雄）"
 Inst45Quest4_Level = "70"
 Inst45Quest4_Attain = "70"
-Inst45Quest4_Aim = "刀锋山巴什伊尔码头的指挥官阿密尔的幻影要你使用法力墓地静止密室钥匙打开奥金顿的法力陵墓静止密室。 \n\n这个任务只能在英雄模式的难度下进行."
-Inst45Quest4_Location = "指挥官阿密尔的幻影 (刀锋山; "..YELLOW.."52,15"..WHITE..")."
-Inst45Quest4_Note = "需要英雄难度. 有2个密室. 第一个就在潘德莫努斯身后，第二个在节点亲王沙法尔的房间里。你们其中每个人都需要有节点亲王的印记。"
-Inst45Quest4_Prequest = "有，节点亲王的印记"
+Inst45Quest4_Aim = "刀锋山巴什伊尔码头的指挥官阿米尔的影像要你进入奥金顿的法力陵墓，对静止间使用法力陵墓静止间钥匙。\n\n此任务必须在英雄难度的地下城中完成。"
+Inst45Quest4_Location = "指挥官阿米尔的影像（刀锋山 - 巴什伊尔码头; "..YELLOW.."52,15"..WHITE.."）。"
+Inst45Quest4_Note = "需要英雄难度副本。有2个静止间。第一个就在潘德莫努斯"..YELLOW.."[1]"..WHITE.."身后，第二个在节点亲王沙法尔"..YELLOW.."[5]"..WHITE.."的房间里。你们其中每个人都需要有节点之王的印记。"
+Inst45Quest4_Prequest = "有，节点之王的印记"
 Inst45Quest4_Folgequest = "无"
 Inst45Quest4PreQuest = "true"
 --
 Inst45Quest4name1 = "公正徽章"
 
 --Quest 5 Alliance
-Inst45Quest5 = "5. 悬赏：沙法尔的精致饰物 (英雄日常)"
+Inst45Quest5 = "5. 悬赏：沙法尔的精致饰物（英雄日常）"
 Inst45Quest5_Level = "70"
 Inst45Quest5_Attain = "70"
-Inst45Quest5_Aim = "商人扎雷姆要求你夺得沙法尔的精致饰物。将饰物带回沙塔斯城的贫民窟交给他，就能领取奖赏。"
-Inst45Quest5_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst45Quest5_Note = "节点亲王沙法尔 在 "..YELLOW.."[5]"..WHITE.."."
+Inst45Quest5_Aim = "商人扎雷姆要求你夺得沙法尔的精致饰物。将饰物带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst45Quest5_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst45Quest5_Note = "需要英雄难度副本。\n\n节点亲王沙法尔在"..YELLOW.."[5]"..WHITE.."。"
 Inst45Quest5_Prequest = "无"
 Inst45Quest5_Folgequest = "无"
 --
@@ -7189,27 +7354,27 @@ Inst45Quest5name1_HORDE = Inst45Quest5name1
 
 --------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
 
-Inst46Story = "几千年来，德莱尼人将死者埋葬在他们最神圣的庙宇奥金顿之中.\n\n但是，暗影议会的成员潜入了奥金顿，准备召唤无比邪恶的恐怖生物。他们可耻的魔法造成了一场大爆炸，将庙宇炸的四分五裂，周围的地区也成为了一片焦土\n\n爆炸同时在虚空中切开了一条裂缝，将另一个世界的灵体带入了外域。以前被埋葬的德莱尼人无法安息的灵魂在废墟中游荡。而且，暗影议会召唤的恐惧生物就要突破暗影议会控制它的努力了.\n\n你必须防止它降临到这个世界中.\n\n奥金顿分为4个5人副本，64-66的法力坟墓，65-67的奥金尼地穴，67-69的塞泰克大厅和70-72的暗影迷宫."
-Inst46Caption = "奥金顿：塞泰克大厅"
+Inst46Story = "几千年来，德莱尼人将死者埋葬在他们最神圣的庙宇奥金顿之中。\n\n但是，暗影议会的成员潜入了奥金顿，准备召唤无比邪恶的恐怖生物。他们可耻的魔法造成了一场大爆炸，将庙宇炸的四分五裂，周围的地区也成为了一片焦土\n\n爆炸同时在虚空中切开了一条裂缝，将另一个世界的灵体带入了外域。以前被埋葬的德莱尼人无法安息的灵魂在废墟中游荡。而且，暗影议会召唤的恐惧生物就要突破暗影议会控制它的努力了。\n\n你必须防止它降临到这个世界中。\n\n奥金顿分为4个5人副本，64-66的法力坟墓，65-67的奥金尼地穴，67-69的塞泰克大厅和70-72的暗影迷宫。"
+Inst46Caption = "奥金顿：塞泰克大厅（Seth）"
 Inst46QAA = "5 个任务"
 Inst46QAH = "5 个任务"
 Inst46General = {
     {
     "黑暗编织者塞斯",
-    "黑暗编织者塞斯本人是比较弱小的。这场战斗唯一需要注意的是每一召唤阶段（一共有三次：75%，50%和25%）。当黑暗编织者塞斯每次召唤手下时，暂时不要管boss，清理掉所有的元素生物。然后再把火力集中到boss身上。在元素出现时使用恐惧可以降低治疗压力。",
-    RED .. "奥术/冰霜/火焰震击：" .. WHITE .. "每种都造成480 - 840点伤害。\n" .. RED .. "闪电链" .. WHITE .. ": 类似萨满的技能，对附近几个目标也造成伤害。\n" .. RED .. "近战攻击:" .. WHITE .. " 近战攻击可造成1000 - 1200暗影伤害。（暗影抗性和道具在这场战斗中对坦克比较有用）\n" .. RED .. "召唤元素:" .. WHITE .. " 每下降25%生命（指的是75%，50%和25%生命时），黑暗编织者塞斯会召唤4个元素生物（暗影，火，水和奥术）。它们的攻击一次造成700点左右伤害，但是可以被恐惧。",
+    "黑暗编织者塞斯本人是比较弱小的。这场战斗唯一需要注意的是每一召唤阶段（一共有三次：75%，50%和25%）。当黑暗编织者塞斯每次召唤手下时，暂时不要管 Boss，清理掉所有的元素生物。然后再把火力集中到 Boss 身上。在元素出现时使用恐惧可以降低治疗压力。",
+    RED .. "奥术/冰霜/火焰震击" .. WHITE .. "：每种都造成480 - 840点伤害。\n" .. RED .. "闪电链" .. WHITE .. "：类似萨满的技能，对附近几个目标也造成伤害。\n" .. RED .. "近战攻击" .. WHITE .. "：近战攻击可造成1000 - 1200暗影伤害。（暗影抗性和道具在这场战斗中对坦克比较有用）\n" .. RED .. "召唤元素" .. WHITE .. "：每下降25%生命（指的是75%，50%和25%生命时），黑暗编织者塞斯会召唤4个元素生物（暗影，火，水和奥术）。它们的攻击一次造成700点左右伤害，但是可以被恐惧。",
     },
 
     {
     "利爪之王艾吉斯",
-    "战斗时最好在中间tank  BOSS，这样在boss释放魔爆术的时候可以让所有人有充分的时间躲到柱子后面（注意一定要让柱子档住你和boss才能避免被魔爆术攻击到），boss释放魔爆术后tank及时把boss拉回中间。",
-   RED .. "奥术爆炸:" .. WHITE .. " 在使用了闪现术之后，利爪之王艾吉斯马上开始施放奥术爆炸，施法时间5秒，法术范围40码，造成5000 - 6000伤害.\n" .. RED .. "奥术散射:" .. WHITE .. " AoE奥术箭（40码），造成1500 - 2000奥术伤害.\n" .. RED .. "变形术:" .. WHITE .. " 他会对随机队员施放变形术，持续5秒。法术可以被驱散，被变形的目标会回复生命值，所以最好在队友回满血的时候解除变羊效果。",
+    "战斗时最好在中间坦克 Boss，这样在 Boss 释放魔爆术的时候可以让所有人有充分的时间躲到柱子后面（注意一定要让柱子档住你和 Boss 才能避免被魔爆术攻击到），Boss 释放魔爆术后坦克及时把 Boss 拉回中间。",
+   RED .. "奥术爆炸" .. WHITE .. "：在使用了闪现术之后，利爪之王艾吉斯马上开始施放奥术爆炸，施法时间5秒，法术范围40码，造成5000 - 6000伤害。\n" .. RED .. "奥术散射" .. WHITE .. "：AoE 奥术箭（40码），造成1500 - 2000奥术伤害。\n" .. RED .. "变形术" .. WHITE .. "：他会对随机队员施放变形术，持续5秒。法术可以被驱散，被变形的目标会回复生命值，所以最好在队友回满血的时候解除变羊效果。",
     },
     
      {
     "安苏",
-    "开始召唤以后整个大厅会有很多鸟飞起来,很是壮观,接下来会有4个战鹰石像围绕着BOSS,它们会分别给BOSS下掉血的debuff,以及加自己攻击速度的buff. 法师在这里一定要节省蓝,BOSS在70%和40%左右血会变成无敌状态召唤小怪,大量非精英鸟,法师留蓝杀掉以后即可火力全开.\n\nBOSS会定期尖啸,打晕全体人.不过施法前会有施法条可观察,大约3秒反应时间,MT需要立刻打开防御饰品,治疗要套盾加好HOT.跟蜘蛛3有些类似. BOSS不碾压攻击在2200左右,所以血必须多于6000才是安全. ",
-   RED .. "总体注意2点 法师留蓝 治疗不要OT",
+    "开始召唤以后整个大厅会有很多鸟飞起来，很是壮观，接下来会有4个战鹰石像围绕着 Boss,它们会分别给 Boss 下掉血的减益，以及加自己攻击速度的增益。法师在这里一定要节省蓝，Boss 在70%和40%左右血会变成无敌状态召唤小怪，大量非精英鸟，法师留蓝杀掉以后即可火力全开。\n\nBoss 会定期尖啸，打晕全体人。不过施法前会有施法条可观察，大约3秒反应时间，坦克需要立刻打开防御饰品，治疗要套盾加好持续治疗。跟迈克斯纳有些类似。Boss 不碾压攻击在2200左右，所以血必须多于6000才是安全的。",
+   RED .. "总体注意2点：法师留蓝，治疗不要 OT。",
     },
 };
 
@@ -7218,8 +7383,8 @@ Inst46Quest1 = "1. 兄弟反目"
 Inst46Quest1_Level = "69"
 Inst46Quest1_Attain = "65"
 Inst46Quest1_Aim = "进入塞泰克大厅，杀死黑暗编织者塞斯，然后解救被囚禁的拉卡。完成任务后向塞泰克大厅外的伊斯法尔复命。"
-Inst46Quest1_Location = "伊斯法尔 (泰罗卡森林; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest1_Note = "无"
+Inst46Quest1_Location = "伊斯法尔（泰罗卡森林 - 奥金顿; "..YELLOW.."44,65"..WHITE.."）"
+Inst46Quest1_Note = "黑暗编织者塞斯在"..YELLOW.."[1]"..WHITE.."。拉卡在同一房间的牢笼中。解救拉卡不会触发战斗。"
 Inst46Quest1_Prequest = "无"
 Inst46Quest1_Folgequest = "无"
 --
@@ -7233,8 +7398,8 @@ Inst46Quest2 = "2. 泰罗克的传说"
 Inst46Quest2_Level = "69"
 Inst46Quest2_Attain = "65"
 Inst46Quest2_Aim = "将泰罗克的面具、泰罗克的羽毛和泰罗克的传说交给塞泰克大厅外的伊斯法尔。"
-Inst46Quest2_Location = "伊斯法尔(泰罗卡森林; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest2_Note = "面具在 1, 书在 2, 羽毛在 3. 面具和羽毛是boss掉落, 书在地上."
+Inst46Quest2_Location = "伊斯法尔（泰罗卡森林 - 奥金顿; "..YELLOW.."44,65"..WHITE.."）"
+Inst46Quest2_Note = "泰罗克的面具黑暗编织者塞斯"..YELLOW.."[1]"..WHITE.."掉落，泰罗克的传说在"..YELLOW.."[2]"..WHITE.."附近找到，泰罗克的羽毛由利爪之王艾吉斯"..YELLOW.."[3]"..WHITE.."掉落。"
 Inst46Quest2_Prequest = "无"
 Inst46Quest2_Folgequest = "无"
 --
@@ -7243,37 +7408,37 @@ Inst46Quest2name2 = "泰罗克的面具"
 Inst46Quest2name3 = "泰罗克的羽毛"
 
 --Quest 3 Alliance
-Inst46Quest3 = "3. 消灭乌鸦之神 (德鲁伊 - 史诗飞行任务)"
+Inst46Quest3 = "3. 消灭乌鸦之神（德鲁伊 - 英雄）"
 Inst46Quest3_Level = "70"
 Inst46Quest3_Attain = "70"
 Inst46Quest3_Aim = "杀死乌鸦之神，然后向塞纳里奥庇护所的莫希斯·轻翼复命。"
-Inst46Quest3_Location = "莫希斯·轻翼 (赞加沼泽 - 塞纳里奥庇护所; "..YELLOW.."80,65"..WHITE..")"
-Inst46Quest3_Note = "这是德鲁伊史诗飞行形态任务的最后一步."
-Inst46Quest3_Prequest = "有, 寻找月亮石"
-Inst46Quest3_Folgequest = "No"
+Inst46Quest3_Location = "莫希斯·轻翼（赞加沼泽 - 塞纳里奥庇护所; "..YELLOW.."80,65"..WHITE.."）"
+Inst46Quest3_Note = "需要英雄难度副本。这是德鲁伊史诗飞行形态任务的最后一步。使用莫希斯的材料召唤安苏在"..YELLOW.."[2]"..WHITE.."。"
+Inst46Quest3_Prequest = "有，寻找月亮石"
+Inst46Quest3_Folgequest = "无"
 Inst46Quest3PreQuest = "true"
 --
-Inst46Quest3name1 = "Idol of the Raven Goddess"
+Inst46Quest3name1 = "乌鸦之神的雕像"
 
 --Quest 4 Alliance
-Inst46Quest4 = "4. 卡琳娜的请求 (英雄模式)"
+Inst46Quest4 = "4. 卡琳娜的要求（英雄）"
 Inst46Quest4_Level = "70"
 Inst46Quest4_Attain = "70"
-Inst46Quest4_Aim = "从地狱火堡垒破碎大厅的高阶术士奈瑟库斯手中夺得暮色魔典，从奥金顿塞泰克大厅的黑暗编织者塞斯手中夺得忘却之名，将它们交给卡琳娜·拉瑟德."
-Inst46Quest4_Location = "卡琳娜·拉瑟德 (虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE..")"
-Inst46Quest4_Note = "黑暗编织者赛斯 在 "..YELLOW.."[1]"..WHITE.."."
-Inst46Quest4_Prequest = "有，同事的帮助 ("..YELLOW.."卡拉赞"..WHITE..")"
-Inst46Quest4_Folgequest = "有，夜之魇 ("..YELLOW.."卡拉赞"..WHITE..")"
+Inst46Quest4_Aim = "从地狱火堡垒破碎大厅的高阶术士奈瑟库斯手中夺得暮色魔典，从奥金顿塞泰克大厅的黑暗编织者塞斯手中夺得忘却之名，将它们交给卡琳娜·拉瑟德。\n\n该任务必须在英雄等级难度的地下城中完成。"
+Inst46Quest4_Location = "卡琳娜·拉瑟德（虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE.."）"
+Inst46Quest4_Note = "需要英雄难度副本。\n\n黑暗编织者塞斯在"..YELLOW.."[1]"..WHITE.."。暮色魔典在暗影迷宫掉落。"
+Inst46Quest4_Prequest = "有，同事的帮助（"..YELLOW.."卡拉赞"..WHITE.."）"
+Inst46Quest4_Folgequest = "有，夜之魇（"..YELLOW.."卡拉赞"..WHITE.."）"
 Inst46Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst46Quest5 = "5. 悬赏：艾吉斯的冠羽 (英雄日常)"
+Inst46Quest5 = "5. 悬赏：艾吉斯的冠羽（英雄日常）"
 Inst46Quest5_Level = "70"
 Inst46Quest5_Attain = "70"
-Inst46Quest5_Aim = "商人扎雷姆要求你夺得艾吉斯的冠羽。将羽毛带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst46Quest5_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst46Quest5_Note = "利爪之王艾吉斯 在 "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest5_Aim = "商人扎雷姆要求你夺得艾吉斯的冠羽。将羽毛带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst46Quest5_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst46Quest5_Note = "需要英雄难度副本。\n\n利爪之王艾吉斯在"..YELLOW.."[3]"..WHITE.."。"
 Inst46Quest5_Prequest = "无"
 Inst46Quest5_Folgequest = "无"
 --
@@ -7295,7 +7460,7 @@ Inst46Quest1name2_HORDE = Inst46Quest1name2
 Inst46Quest1name3_HORDE = Inst46Quest1name3
 Inst46Quest1name4_HORDE = Inst46Quest1name4
 
---Quest2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst46Quest2_HORDE = Inst46Quest2
 Inst46Quest2_HORDE_Level = Inst46Quest2_Level
 Inst46Quest2_HORDE_Attain = Inst46Quest2_Attain
@@ -7350,33 +7515,33 @@ Inst46Quest5name1_HORDE = Inst46Quest5name1
 
 --------------- INST47 - Auchindoun: Shadow Labyrinth (SLabs) ---------------
 
-Inst47Story = "几千年来，德莱尼人将死者埋葬在他们最神圣的庙宇奥金顿之中.\n\n但是，暗影议会的成员潜入了奥金顿，准备召唤无比邪恶的恐怖生物。他们可耻的魔法造成了一场大爆炸，将庙宇炸的四分五裂，周围的地区也成为了一片焦土\n\n爆炸同时在虚空中切开了一条裂缝，将另一个世界的灵体带入了外域。以前被埋葬的德莱尼人无法安息的灵魂在废墟中游荡。而且，暗影议会召唤的恐惧生物就要突破暗影议会控制它的努力了.\n\n你必须防止它降临到这个世界中.\n\n奥金顿分为4个5人副本，64-66的法力坟墓，65-67的奥金尼地穴，67-69的塞泰克大厅和70-72的暗影迷宫."
-Inst47Caption = "奥金顿：暗影迷宫"
+Inst47Story = "几千年来，德莱尼人将死者埋葬在他们最神圣的庙宇奥金顿之中。\n\n但是，暗影议会的成员潜入了奥金顿，准备召唤无比邪恶的恐怖生物。他们可耻的魔法造成了一场大爆炸，将庙宇炸的四分五裂，周围的地区也成为了一片焦土\n\n爆炸同时在虚空中切开了一条裂缝，将另一个世界的灵体带入了外域。以前被埋葬的德莱尼人无法安息的灵魂在废墟中游荡。而且，暗影议会召唤的恐惧生物就要突破暗影议会控制它的努力了。\n\n你必须防止它降临到这个世界中。\n\n奥金顿分为4个5人副本，64-66的法力坟墓，65-67的奥金尼地穴，67-69的塞泰克大厅和70-72的暗影迷宫。"
+Inst47Caption = "奥金顿：暗影迷宫（SLabs）"
 Inst47QAA = "11 个任务"
 Inst47QAH = "11 个任务"
 Inst47General = {
     {
     "赫尔默大使",
-    "这个boss主要有2种技能。恐惧技能的冷却时间是30秒钟，酸性呼吸技能可以降低护甲。他是普通的坦克/dps战斗，坦克需要切换姿态来避免恐惧。每个队员都需要被恐惧到，因为未被恐惧的队员将成为他的目标。",
-    RED .. "AoE恐惧：" .. WHITE .. "40码范围内所有玩家被恐惧5秒。\n" .. RED .. "腐蚀酸箭" .. WHITE .. ": 在他正前方圆锥形范围内放射出酸性云，降低护甲值4000 - 5000点，每5秒造成1100 - 1500点自然伤害，持续30秒。",
+    "这个 Boss 主要有2种技能。恐惧技能的冷却时间是30秒钟，酸性呼吸技能可以降低护甲。他是普通的坦克/DPS 战斗，坦克需要切换姿态来避免恐惧。每个队员都需要被恐惧到，因为未被恐惧的队员可能将成为他的目标。",
+    RED .. "AoE 恐惧" .. WHITE .. "：40码范围内所有玩家被恐惧5秒。\n" .. RED .. "腐蚀酸箭" .. WHITE .. "：在他正前方圆锥形范围内放射出酸性云，降低护甲值4000 - 5000点，每5秒造成1100 - 1500点自然伤害，持续30秒。",
     },
 
     {
     "煽动者布莱卡特",
-    "这个boss有些麻烦。首先你必须清空所有的小怪，否则boss会召唤他们来帮忙。他有3个主要技能。有一个大范围的AoE击退，会清除仇恨，随机冲锋某一个队员，以及控制所有的队员让玩家自相攻击。在房间的中间坦克他。其他队伍成员背靠柱子/角落站立，以免被击退的过远。关键是队员要站立得分散，在boss进行心灵控制时不会进行太多的内战。",
-   RED .. "冲锋:" .. WHITE .. " 对随机目标冲锋，造成300 - 500点伤害.\n" .. RED .. "制造混乱:" .. WHITE .. " 该技能会控制所有队员15秒（不可抵抗/驱散）。同时会清空煽动者布莱卡特的仇恨列表。.\n" .. RED .. "战争践踏:" .. WHITE .. " AoE击退，造成1000 - 2000伤害，同时清除仇恨。",
+    "这个 Boss 有些麻烦。首先你必须清空所有的小怪，否则 Boss 会召唤他们来帮忙。他有3个主要技能。有一个大范围的 AoE 击退，会清除仇恨，随机冲锋某一个队员，以及控制所有的队员让玩家自相攻击。在房间的中间坦克他。其他队伍成员背靠柱子/角落站立，以免被击退的过远。关键是队员要站立得分散，在 Boss 进行心灵控制时不会进行太多的内战。",
+   RED .. "冲锋" .. WHITE .. "：对随机目标冲锋，造成300 - 500点伤害。\n" .. RED .. "制造混乱" .. WHITE .. "：该技能会控制所有队员15秒（不可抵抗/驱散）。同时会清空煽动者布莱卡特的仇恨列表。\n" .. RED .. "战争践踏" .. WHITE .. "：AoE 击退，造成1000 - 2000伤害，同时清除仇恨。",
     },
 
     {
     "沃匹尔大师",
-    "当BOSS喊话的时候，会随机从地上5个召唤法阵（BOSS平台背后还有一个，一般没人注意到）出现一个虚空旅者，每个2500HP，当元素怪靠近BOSS后，会释放AOE暗影冲击并为BOSS回部分血。所以我们采取的战术，在BOSS前2次传送前，所有DPS主要击杀虚空旅者，当MT被放逐后立即驱散。在2次传送完后，虚空旅者的刷新速度会大大加快，这时候需要MT将BOSS拉着到处跑，尽量远离虚空旅者，而其他控制职业，如FS、LR等这时候尽量在DPS的同时控制住大量的虚空旅者，直到BOSS被击杀。",
-   RED .. "群体暗影箭：" .. WHITE .. " 800-1000暗影伤害 。\n" .. RED .. "放逐术：" .. WHITE .. " 无视仇恨随机放逐一个目标，可驱散 .\n" .. RED .. "暗影牵制:" .. WHITE .. " BOSS回到台子上并将所有玩家传送至平台，在平台释放火焰之雨，每3秒2000火焰伤害 .",
+    "当 Boss 喊话的时候，会随机从地上5个召唤法阵（BOSS平台背后还有一个，一般没人注意到）出现一个虚空旅者，每个2500HP，当元素怪靠近BOSS后，会释放 AoE 暗影冲击并为 Boss 回部分血。所以我们采取的战术，在 Boss 前2次传送前，所有 DPS 主要击杀虚空旅者，当坦克被放逐后立即驱散。在2次传送完后，虚空旅者的刷新速度会大大加快，这时候需要坦克将 Boss 拉着到处跑，尽量远离虚空旅者，而其他控制职业，如法师、猎人等这时候尽量在 DPS 的同时控制住大量的虚空旅者，直到 Boss 被击杀。",
+   RED .. "群体暗影箭" .. WHITE .. "：800 - 1000暗影伤害。\n" .. RED .. "放逐术" .. WHITE .. "：无视仇恨随机放逐一个目标，可驱散。\n" .. RED .. "暗影牵制" .. WHITE .. "：Boss 回到台子上并将所有玩家传送至平台，在平台释放火焰之雨，每3秒2000火焰伤害。",
     },
     
     {
     "摩摩尔",
-    "首先，摩摩尔的仇恨视野很小，你可以在他周围站好位置。这可以让摩摩尔之触技能只影响到一个玩家。（与加顿男爵的技能相似，你可以靠近墙壁减少跌落伤害）。战斗的关键是让坦克一直保持在近战范围内，不然摩摩尔的共鸣技能会造成灭团。在每一次摩摩尔施放音速爆破时，所有玩家除了坦克要远离boss。在这之前注意让坦克保持满血，因为他会受到巨大伤害。",
-   RED .. "摩摩尔之触：" .. WHITE .. " 15秒的debuff，当倒数15秒满时，队员将爆发造成2000 - 3000点自然伤害，同时沉默5秒。\n" .. RED .. "音速爆破：" .. WHITE .. " 当漠漠做出动作：‘摩摩尔从空气中集中能量。。。’时，他会对附近的敌人施放5000 - 8000自然伤害的AoE效果，同时在接下来的9秒之内还会受到持续性自然伤害。受到该技能影响的玩家移动速度下降90%.\n" .. RED .. "共鸣:" .. WHITE .. " 如果摩摩尔的近战范围内没有人，那么他会对队伍施放引导法术，造成2000点自然伤害，并且在45秒内受到的自然伤害提高2000点.",
+    "首先，摩摩尔的仇恨视野很小，你可以在他周围站好位置。这可以让摩摩尔之触技能只影响到一个玩家。（与加顿男爵的技能相似，你可以靠近墙壁减少跌落伤害）。战斗的关键是让坦克一直保持在近战范围内，不然摩摩尔的共鸣技能会造成灭团。在每一次摩摩尔施放音速爆破时，所有玩家除了坦克要远离 Boss。在这之前注意让坦克保持满血，因为他会受到巨大伤害。",
+   RED .. "摩摩尔之触" .. WHITE .. "：15秒的减益，当倒数15秒满时，队员将爆发造成2000 - 3000点自然伤害，同时沉默5秒。\n" .. RED .. "音速爆破" .. WHITE .. "：当摩摩尔做出动作：‘摩摩尔从空气中集中能量……’时，他会对附近的敌人施放5000 - 8000自然伤害的 AoE 效果，同时在接下来的9秒之内还会受到持续性自然伤害。受到该技能影响的玩家移动速度下降90%。\n" .. RED .. "共鸣" .. WHITE .. "：如果摩摩尔的近战范围内没有人，那么他会对队伍施放引导法术，造成2000点自然伤害，并且在45秒内受到的自然伤害提高2000点。",
     },
 };
 
@@ -7384,11 +7549,11 @@ Inst47General = {
 Inst47Quest1 = "1. 寻找间谍托古恩"
 Inst47Quest1_Level = "70"
 Inst47Quest1_Attain = "68"
-Inst47Quest1_Aim = "进入奥金顿的暗影迷宫，寻找间谍托古恩的下落。."
-Inst47Quest1_Location = "间谍格利克萨 (泰罗卡森林; "..YELLOW.."40,72"..WHITE..")"
-Inst47Quest1_Note = "托古恩 在 "..YELLOW.."[1]"..WHITE..", "
+Inst47Quest1_Aim = "进入奥金顿的暗影迷宫，寻找间谍托古恩的下落。"
+Inst47Quest1_Location = "间谍格利克萨（泰罗卡森林 - 奥金顿; "..YELLOW.."40,72"..WHITE.."）"
+Inst47Quest1_Note = "间谍托古恩在"..YELLOW.."[1]"..WHITE.."，在小地图上有显示。"
 Inst47Quest1_Prequest = "无"
-Inst47Quest1_Folgequest = "有, 灵魂装置"
+Inst47Quest1_Folgequest = "有，灵魂装置"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -7396,8 +7561,8 @@ Inst47Quest2 = "2. 灵魂装置"
 Inst47Quest2_Level = "70"
 Inst47Quest2_Attain = "68"
 Inst47Quest2_Aim = "偷取5个灵魂装置，将它们交给沙塔斯城圣光广场的间谍女王梅丽萨·海克隆。"
-Inst47Quest2_Location = "托古恩 (暗影迷宫; "..YELLOW.."[1]"..WHITE..")"
-Inst47Quest2_Note = "间谍女王梅丽萨·海克隆 (沙塔斯城; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest2_Location = "间谍托古恩（暗影迷宫; "..YELLOW.."[1]"..WHITE.."）"
+Inst47Quest2_Note = "灵魂装置是种暗紫色的球状体，可以在暗影迷宫内找到。间谍女王梅丽萨·海克隆（沙塔斯城 - 圣光广场; "..YELLOW.."51,45"..WHITE.."）。"
 Inst47Quest2_Prequest = "有，寻找间谍托古恩"
 Inst47Quest2_Folgequest = "无"
 Inst47Quest2FQuest = "true"
@@ -7412,19 +7577,19 @@ Inst47Quest3 = "3. 恶魔名册"
 Inst47Quest3_Level = "70"
 Inst47Quest3_Attain = "68"
 Inst47Quest3_Aim = "进入奥金顿的暗影迷宫，从煽动者布莱卡特手中夺得恶魔名册。完成任务后返回纳格兰向奥图里斯复命。"
-Inst47Quest3_Location = "受难者奥图里斯 (纳格兰; "..YELLOW.."27,43"..WHITE..")"
-Inst47Quest3_Note = "这个是影月谷连续任务的最后一步，起始NPC 奥尔多在在影月谷（61 28），占星者在影月谷（55 58）"
-Inst47Quest3_Prequest = "有,伊利丹的手下"
-Inst47Quest3_Folgequest = "有，回报奥尔多 或 回报占星者"
+Inst47Quest3_Location = "受难者奥图里斯（纳格兰; "..YELLOW.."27,43"..WHITE.."）"
+Inst47Quest3_Note = "煽动者布莱卡特在"..YELLOW.."[3]"..WHITE.."。这个是影月谷连续任务的最后一步，起始于奥尔多声望的影月谷"..YELLOW.."61,28"..WHITE.." ，占星者声望的在影月谷"..YELLOW.."55,58"..WHITE.."。"
+Inst47Quest3_Prequest = "有，伊利丹的学生"
+Inst47Quest3_Folgequest = "有，返回沙塔尔祭坛 或 返回群星圣殿"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst47Quest4 = "4. 奥金顿的麻烦"
 Inst47Quest4_Level = "70"
 Inst47Quest4_Attain = "68"
-Inst47Quest4_Aim = "前往泰罗卡森林的奥金顿，向暗影迷宫入口处的战地指挥官玛弗恩报到."
-Inst47Quest4_Location = "间谍女王梅丽萨·海克隆 (沙塔斯城; "..YELLOW.."51,45"..WHITE..")"
-Inst47Quest4_Note = "None"
+Inst47Quest4_Aim = "前往泰罗卡森林的奥金顿，向暗影迷宫入口处的战地指挥官玛弗恩报到。"
+Inst47Quest4_Location = "间谍女王梅丽萨·海克隆（沙塔斯城 - 圣光广场; "..YELLOW.."51,45"..WHITE.."）"
+Inst47Quest4_Note = "战地指挥官玛弗恩在（泰罗卡森林 - 奥金顿; "..YELLOW.."40,72"..WHITE.."），就在暗影迷宫入口外面。"
 Inst47Quest4_Prequest = "无"
 Inst47Quest4_Folgequest = "有，鲜血法典"
 -- No Rewards for this quest
@@ -7433,11 +7598,11 @@ Inst47Quest4_Folgequest = "有，鲜血法典"
 Inst47Quest5 = "5. 鲜血法典"
 Inst47Quest5_Level = "70"
 Inst47Quest5_Attain = "68"
-Inst47Quest5_Aim = "阅读奥金顿暗影迷宫中的鲜血法典."
-Inst47Quest5_Location = "战地指挥官玛弗恩 (泰罗卡森林; "..YELLOW.."40,72"..WHITE..")"
-Inst47Quest5_Note = "鲜血之书就在沃匹尔大师的前面"
-Inst47Quest5_Prequest = "有, 奥金顿的麻烦"
-Inst47Quest5_Folgequest = "有, 深入迷宫"
+Inst47Quest5_Aim = "阅读奥金顿暗影迷宫中的鲜血法典。"
+Inst47Quest5_Location = "战地指挥官玛弗恩（泰罗卡森林 - 奥金顿; "..YELLOW.."40,72"..WHITE.."）"
+Inst47Quest5_Note = "鲜血之书就在沃匹尔大师"..YELLOW.."[4]"..WHITE.."的前面。"
+Inst47Quest5_Prequest = "有，奥金顿的麻烦"
+Inst47Quest5_Folgequest = "有，深入迷宫"
 Inst47Quest5FQuest = "true"
 -- No Rewards for this quest
 
@@ -7445,9 +7610,9 @@ Inst47Quest5FQuest = "true"
 Inst47Quest6 = "6. 深入迷宫"
 Inst47Quest6_Level = "70"
 Inst47Quest6_Attain = "68"
-Inst47Quest6_Aim = "杀死摩摩尔，然后返回沙塔斯城的圣光广场，将暗影迷宫的秘密告诉间谍女王梅丽萨·海克隆."
-Inst47Quest6_Location = "鲜血法典(暗影迷宫; "..YELLOW.."[4]"..WHITE..")"
-Inst47Quest6_Note = "间谍女王梅丽萨·海克隆 (沙塔斯城; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest6_Aim = "杀死摩摩尔，然后返回沙塔斯城的圣光广场，将暗影迷宫的秘密告诉间谍女王梅丽萨·海克隆。"
+Inst47Quest6_Location = "鲜血法典（暗影迷宫; "..YELLOW.."[4]"..WHITE.."）"
+Inst47Quest6_Note = "摩摩尔在"..YELLOW.."[5]"..WHITE.."。间谍女王梅丽萨·海克隆在（沙塔斯城 - 圣光广场; "..YELLOW.."51,45"..WHITE.."）。"
 Inst47Quest6_Prequest = "有，鲜血法典"
 Inst47Quest6_Folgequest = "无"
 Inst47Quest6FQuest = "true"
@@ -7458,12 +7623,12 @@ Inst47Quest6name3 = "奥金尼长靴"
 Inst47Quest6name4 = "沙塔尔精炼护胫"
 
 --Quest 7 Alliance
-Inst47Quest7 = "7. 纳鲁的试炼：力量 (英雄模式)"
+Inst47Quest7 = "7. 纳鲁的试炼：力量（英雄）"
 Inst47Quest7_Level = "70"
 Inst47Quest7_Attain = "70"
-Inst47Quest7_Aim = "沙塔斯城的阿达尔要求你取回卡利瑟里斯的三叉戟和摩摩尔的精华。\n\n该任务必须在英雄等级难度的地下城中完成。."
-Inst47Quest7_Location = "阿达尔 (沙塔斯城; "..YELLOW.."53,43"..WHITE..")"
-Inst47Quest7_Note = "卡利瑟里斯的三叉戟出自英雄难度的蒸汽地窟."
+Inst47Quest7_Aim = "沙塔斯城的阿达尔要求你取回卡利瑟里斯的三叉戟和摩摩尔的精华。\n\n该任务必须在英雄等级难度的地下城中完成。"
+Inst47Quest7_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）"
+Inst47Quest7_Note = "需要英雄难度副本。摩摩尔在"..YELLOW.."[5]"..WHITE.."。卡利瑟里斯的三叉戟掉落自蒸汽地窟。\n\n这个任务曾经是风暴要塞：风暴之眼进门任务，但是现在这不再是必须的。"
 Inst47Quest7_Prequest = "无"
 Inst47Quest7_Folgequest = "无"
 -- No Rewards for this quest
@@ -7472,11 +7637,11 @@ Inst47Quest7_Folgequest = "无"
 Inst47Quest8 = "8. 卡拉赞的钥匙"
 Inst47Quest8_Level = "70"
 Inst47Quest8_Attain = "68"
-Inst47Quest8_Aim = "卡德加要求你进入奥金顿的暗影迷宫中，回收储藏在那里的一个奥术容器中的第一块钥匙碎片."
-Inst47Quest8_Location = "卡德加 (沙塔斯城; "..YELLOW.."54,44"..WHITE..")"
-Inst47Quest8_Note = "这是卡拉赞钥匙任务链的一个，其余2个出自蒸汽地窟和禁魔监狱."
+Inst47Quest8_Aim = "卡德加要求你进入奥金顿的暗影迷宫中，回收储藏在那里的一个奥术容器中的第一块钥匙碎片。"
+Inst47Quest8_Location = "卡德加（沙塔斯城 - 圣光广场; "..YELLOW.."54,44"..WHITE.."）"
+Inst47Quest8_Note = "这是卡拉赞钥匙任务链的一个，在摩摩尔"..YELLOW.."[5]"..WHITE.."旁边，打开后杀掉第二块碎片的守护者拾取任务物品第一块钥匙碎片。"
 Inst47Quest8_Prequest = "有，卡德加"
-Inst47Quest8_Folgequest = "有，卡拉赞的钥匙"
+Inst47Quest8_Folgequest = "有，第二块和第三块"
 Inst47Quest8PreQuest = "true"
 -- No Rewards for this quest
 
@@ -7484,37 +7649,37 @@ Inst47Quest8PreQuest = "true"
 Inst47Quest9 = "9. 魔语辞典"
 Inst47Quest9_Level = "69"
 Inst47Quest9_Attain = "67"
-Inst47Quest9_Aim = "从沃匹尔大师手中夺得魔语辞典，将它交给韦恩的避难所的戴维·韦恩."
-Inst47Quest9_Location = "戴维·韦恩 (泰罗卡森林; "..YELLOW.."78,39"..WHITE..")."
-Inst47Quest9_Note = "沃匹尔大师 在 "..YELLOW.."[4]"..WHITE.."."
-Inst47Quest9_Prequest = "有, 其它的材料"
+Inst47Quest9_Aim = "从沃匹尔大师手中夺得魔语辞典，将它交给韦恩的避难所的戴维·韦恩。"
+Inst47Quest9_Location = "戴维·韦恩（泰罗卡森林 - 韦恩的避难所; "..YELLOW.."78,39"..WHITE.."）。"
+Inst47Quest9_Note = "沃匹尔大师在"..YELLOW.."[4]"..WHITE.."。\n\n完成此任务和‘能源舰的热源’（"..YELLOW.."能源舰"..WHITE.."）后将从戴维·韦恩开启新任务。\n\n英雄难度并不掉落任务物品。"
+Inst47Quest9_Prequest = "有，其它的材料"
 Inst47Quest9_Folgequest = "无"
 Inst47Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst47Quest10 = "10. 悬赏：摩摩尔的低语 (英雄日常)"
+Inst47Quest10 = "10. 悬赏：摩摩尔的低语（英雄日常）"
 Inst47Quest10_Level = "70"
 Inst47Quest10_Attain = "70"
-Inst47Quest10_Aim = "商人扎雷姆要求你夺得摩摩尔的低语。将这件器物带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst47Quest10_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst47Quest10_Note = "This daily quest can only be completed on Heroic difficulty.\n\nMurmur is at "..YELLOW.."[5]"..WHITE.."."
+Inst47Quest10_Aim = "商人扎雷姆要求你夺得摩摩尔的低语。将这件器物带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst47Quest10_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst47Quest10_Note = "需要英雄难度副本。\n\n摩摩尔在"..YELLOW.."[5]"..WHITE.."。"
 Inst47Quest10_Prequest = "无"
 Inst47Quest10_Folgequest = "无"
 --
 Inst47Quest10name1 = "公正徽章"
 
 --Quest 11 Alliance
-Inst47Quest11 = "11. 悬赏：恶毒导师 (普通日常)"
+Inst47Quest11 = "11. 悬赏：恶毒导师（日常）"
 Inst47Quest11_Level = "70"
 Inst47Quest11_Attain = "70"
-Inst47Quest11_Aim = "虚空猎手玛哈杜恩要求你杀死3名恶毒导师。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏."
-Inst47Quest11_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst47Quest11_Note = "普通日常任务."
-Inst47Quest11_Prequest = "No"
-Inst47Quest11_Folgequest = "No"
+Inst47Quest11_Aim = "虚空猎手玛哈杜恩要求你杀死3名恶毒导师。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
+Inst47Quest11_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst47Quest11_Note = "普通日常任务。"
+Inst47Quest11_Prequest = "无"
+Inst47Quest11_Folgequest = "无"
 --
-Inst47Quest11name1 = "Ethereum Prison Key"
+Inst47Quest11name1 = "复仇军监牢钥匙"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7657,8 +7822,8 @@ Inst47Quest11name1_HORDE = Inst47Quest11name1
 
 --------------- INST48 - CR: Serpentshrine Cavern (SSC) ---------------
 
-Inst48Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿） "
-Inst48Caption = "盘牙水库：毒蛇神殿"
+Inst48Story = "赞加沼泽微妙的生态平衡已经被破坏了。\n\n非自然的现象正在腐蚀和破坏沼泽原生的动植物。\n\n骚乱的源头来自于给人不安预感的盘牙水库。\n\n传闻这一神秘建筑物的所有人不是别人，正是臭名昭著的瓦斯琪女士。\n\n在一切变得太迟之前，只有你能够揭发她的恶毒计划并阻止她和她的手下！\n\n盘牙水库分为4个部分，3个5人副本（奴隶围栏，幽暗沼泽，蒸汽地窟）和一个25人团队副本（毒蛇神殿）。"
+Inst48Caption = "盘牙水库：毒蛇神殿（SSC）"
 Inst48QAA = "2 个任务"
 Inst48QAH = "2 个任务"
 
@@ -7666,9 +7831,9 @@ Inst48QAH = "2 个任务"
 Inst48Quest1 = "1. 永恒水瓶"
 Inst48Quest1_Level = "70"
 Inst48Quest1_Attain = "70"
-Inst48Quest1_Aim = "时光之穴的索莉多米要你从盘牙水库的瓦丝琪那里取回瓦丝琪的水瓶残余，并从风暴要塞的凯尔萨斯·逐日者那里取回凯尔萨斯的水瓶残余."
-Inst48Quest1_Location = "索莉多米 (塔纳利斯--时光之穴; "..YELLOW.."58,57"..WHITE.."). NPC会在附近游荡."
-Inst48Quest1_Note = "要进去时光之穴--海加尔之战，这个任务是必须完成的. 瓦丝琪 在 "..YELLOW.."[6]"..WHITE.."."
+Inst48Quest1_Aim = "时光之穴的索莉多米要你从盘牙水库的瓦丝琪那里取回瓦丝琪的水瓶残余，并从风暴要塞的凯尔萨斯·逐日者那里取回凯尔萨斯的水瓶残余。"
+Inst48Quest1_Location = "索莉多米（塔纳利斯 - 时光之穴; "..YELLOW.."58,57"..WHITE.."）。NPC 在附近走动。"
+Inst48Quest1_Note = "（曾经）要进去时光之穴 - 海加尔峰，这个任务是必须完成的。瓦丝琪在"..YELLOW.."[6]"..WHITE.."。"
 Inst48Quest1_Prequest = "无"
 Inst48Quest1_Folgequest = "无"
 -- No Rewards for this quest
@@ -7677,11 +7842,11 @@ Inst48Quest1_Folgequest = "无"
 Inst48Quest2 = "2. 危险的秘密"
 Inst48Quest2_Level = "70"
 Inst48Quest2_Attain = "70"
-Inst48Quest2_Aim = "前往影月谷内的守望者牢笼，与阿卡玛谈一谈."
-Inst48Quest2_Location = "先知奥鲁姆 (毒蛇神殿; "..YELLOW.."[4]"..WHITE..")"
-Inst48Quest2_Note = "阿卡玛 在 (影月谷 - 守望者的牢笼; "..YELLOW.."58,48"..WHITE..").\n\n这个任务是曾经黑暗神殿开门任务的一部分，奥尔多声望可以从 学者希拉 (影月谷 - 奥尔多祭坛; "..YELLOW.."62,38"..WHITE..")接到，占星者声望可以从 奥术师塞里斯 (影月谷 - 群星圣殿; "..YELLOW.."56,59"..WHITE..") 接到."
-Inst48Quest2_Prequest = "有, 巴尔里石板 -> 阿卡玛的保证"
-Inst48Quest2_Folgequest = "有, 灰舌的计谋 ("..YELLOW.."风暴要塞-风暴之眼"..WHITE..")"
+Inst48Quest2_Aim = "前往影月谷内的守望者牢笼，与阿卡玛谈一谈。"
+Inst48Quest2_Location = "先知奥鲁姆（毒蛇神殿; "..YELLOW.."[4]"..WHITE.."）"
+Inst48Quest2_Note = "阿卡玛在（影月谷 - 守望者牢笼; "..YELLOW.."58,48"..WHITE.."）。\n\n这是黑暗神殿进门任务一部分，起始于奥尔多声望的学者希拉（影月谷 - 沙塔尔祭坛; "..YELLOW.."62,38"..WHITE.."）或占星者声望的奥术师塞里斯（影月谷 - 群星圣殿; "..YELLOW.."56,59"..WHITE.."）。"
+Inst48Quest2_Prequest = "有，巴尔里石板 -> 阿卡玛的保证"
+Inst48Quest2_Folgequest = "有，灰舌的计谋（"..YELLOW.."风暴之眼"..WHITE.."）"
 Inst48Quest2PreQuest = "true"
 -- No Rewards for this quest
 
@@ -7713,27 +7878,27 @@ Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
 
 --------------- INST49 - CoT: Black Morass (BM) ---------------
 
-Inst49Story = "麦迪文，最后的魔法守护者，出生时就被邪恶的泰坦萨格拉斯附身.\n\n是麦迪文第一个联络上了邪恶术士古尔丹并为燃烧军团的入侵提供帮助。\n\n他们一起协力打开了黑暗之门，连通了德拉诺和艾泽拉斯，无数嗜血的兽人疯狂涌入妄图毁灭这个世界。\n\n这个副本设计是在黑暗沼泽，也就是现在的诅咒之地。玩家们需要在麦迪文打开黑暗之门的过程中保护他"
-Inst49Caption = "时光之穴：黑暗沼泽"
+Inst49Story = "麦迪文，最后的魔法守护者，出生时就被邪恶的泰坦萨格拉斯附身。\n\n是麦迪文第一个联络上了邪恶术士古尔丹并为燃烧军团的入侵提供帮助。\n\n他们一起协力打开了黑暗之门，连通了德拉诺和艾泽拉斯，无数嗜血的兽人疯狂涌入妄图毁灭这个世界。\n\n这个副本设计是在黑色沼泽，也就是现在的诅咒之地。玩家们需要在麦迪文打开黑暗之门的过程中保护他。"
+Inst49Caption = "时光之穴：黑色沼泽（BM）"
 Inst49QAA = "7 个任务"
 Inst49QAH = "7 个任务"
 Inst49General = {
     {
     "时空领主德亚",
-    "就像其他由裂隙守护者或裂隙领主守卫着的传送门一样，时空领主德亚的传送门也会不断产生无限龙。根据你的队伍结构，你可以暂时无视它们，首先击杀boss再干掉龙类，你也可以在它们刷新的同时对付它们（如果你认为它们对麦迪文的威胁太大）。如果你想要优先对付boss，你必须随时驱散你的队员身上的时间流逝状态，因为你需要提高你的dps速度。",
-    RED .. "时间流逝" .. WHITE .. "降低玩家攻击速度60％，移动速度60％，持续10秒，可以被驱散。\n" .. RED .. "致死打击" .. WHITE .. ": 对目标造成武器伤害外加若干伤害，减少治疗效果50％，持续10秒。\n" .. RED .. "战争践踏:" .. WHITE .. " 对附近目标造成通常攻击伤害外加500点伤害，将它们击退，并击晕2秒。",
+    "就像其他由裂隙守护者或裂隙领主守卫着的传送门一样，时空领主德亚的传送门也会不断产生无限龙。根据你的队伍结构，你可以暂时无视它们，首先击杀 Boss 再干掉龙类，你也可以在它们刷新的同时对付它们（如果你认为它们对麦迪文的威胁太大）。如果你想要优先对付 Boss，你必须随时驱散你的队员身上的时间流逝状态，因为你需要提高你的 DPS 速度。",
+    RED .. "时间流逝" .. WHITE .. "：降低玩家攻击速度60%，移动速度60%，持续10秒，可以被驱散。\n" .. RED .. "致死打击" .. WHITE .. "：对目标造成武器伤害外加若干伤害，减少治疗效果50%，持续10秒。\n" .. RED .. "战争践踏" .. WHITE .. "：对附近目标造成通常攻击伤害外加500点伤害，将它们击退，并击晕2秒。",
     },
 
     {
     "坦普卢斯",
-    "坦普卢斯的debuff可以在坦克身上堆积很多层，这样你的治疗的法力会不足以保持坦克生存。一个应对的方法是让坦克在身上的debuff堆积了4层之后开始风筝boss，同时也需要回头对boss远程攻击以保持仇恨。还有一个方法是使用2个坦克，轮流获得boss的仇恨。",
-   RED .. "致死伤害:" .. WHITE .. " 治疗效果降低10％，最多可堆积10次.",
+    "坦普卢斯的减益可以在坦克身上堆积很多层，这样你的治疗的法力会不足以保持坦克生存。一个应对的方法是让坦克在身上的减益堆积了4层之后开始风筝 Boss，同时也需要回头对 Boss 远程攻击以保持仇恨。还有一个方法是使用2个坦克，轮流获得 Boss 的仇恨。",
+   RED .. "致死伤害" .. WHITE .. "：治疗效果降低10%，最多可叠加10次。",
     },
 
     {
     "埃欧努斯",
-    "最后的boss是名为埃欧努斯的无限龙。他的攻击力很强。这里最危险的部分是他的时间停止技能发动时，每个人都不能行动或施法。治疗需要不断的更新坦克身上的hot效果。当时间停止效果消失后，马上向坦克身上套盾，并且使用其他大治疗技能恢复。它死亡之后裂隙就会关闭，麦迪文会说出最后的台词。",
-   RED .. "时间停止:" .. WHITE .. "AoE击晕（50码距离），持续5－8秒。",
+    "最后的 Boss 是名为埃欧努斯的无限龙。他的攻击力很强。这里最危险的部分是他的时间停止技能发动时，每个人都不能行动或施法。治疗需要不断的更新坦克身上的持续治疗效果。当时间停止效果消失后，马上向坦克身上套盾，并且使用其他大治疗技能恢复。它死亡之后裂隙就会关闭，麦迪文会说出最后的台词。",
+   RED .. "时间停止" .. WHITE .. "：AoE 击晕（50码距离），持续5－8秒。",
     },
 };
 
@@ -7741,9 +7906,9 @@ Inst49General = {
 Inst49Quest1 = "1. 黑色沼泽"
 Inst49Quest1_Level = "70"
 Inst49Quest1_Attain = "66"
-Inst49Quest1_Aim = "深入时光之穴，前往正在发生黑暗之门开启这一历史事件的黑色沼泽，与萨艾特谈一谈."
-Inst49Quest1_Location = "Andormu (Tanaris; "..YELLOW.."58,54"..WHITE..")"
-Inst49Quest1_Note = "必先提前完成逃离敦霍尔德任务，萨艾特就在副本门口进去一点点."
+Inst49Quest1_Aim = "深入时光之穴，前往正在发生黑暗之门开启这一历史事件的黑色沼泽，与萨艾特谈一谈。"
+Inst49Quest1_Location = "安多尔姆（塔纳利斯 - 时光之穴; "..YELLOW.."58,54"..WHITE.."）"
+Inst49Quest1_Note = "必先提前完成‘逃离敦霍尔德任务’才能进入黑色沼泽，萨艾特就在进入副本后门口的进去一点点。"
 Inst49Quest1_Prequest = "无"
 Inst49Quest1_Folgequest = "有，开启黑暗之门"
 -- No Rewards for this quest
@@ -7753,10 +7918,10 @@ Inst49Quest2 = "2. 开启黑暗之门"
 Inst49Quest2_Level = "70"
 Inst49Quest2_Attain = "66"
 Inst49Quest2_Aim = "时光之穴黑色沼泽的萨艾特要求你保护麦迪文，直到他成功开启黑暗之门。\n\n任务完成后向萨艾特复命。"
-Inst49Quest2_Location = "萨艾特 (黑暗沼泽 "..YELLOW.."入口"..WHITE..")"
-Inst49Quest2_Note = "如果你半途失败了."
-Inst49Quest2_Prequest = "有, 黑暗沼泽"
-Inst49Quest2_Folgequest = "有, 龙族的英雄"
+Inst49Quest2_Location = "萨艾特（黑色沼泽 "..YELLOW.."入口"..WHITE.."）"
+Inst49Quest2_Note = "如果你中途失败了，你则需要重新开始。"
+Inst49Quest2_Prequest = "有，黑色沼泽"
+Inst49Quest2_Folgequest = "有，龙族的英雄"
 Inst49Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -7764,65 +7929,65 @@ Inst49Quest2FQuest = "true"
 Inst49Quest3 = "3. 龙族的英雄"
 Inst49Quest3_Level = "70"
 Inst49Quest3_Attain = "66"
-Inst49Quest3_Aim = "返回塔纳利斯沙漠的时光之穴，向幼时的安多尔姆复命."
-Inst49Quest3_Location = "安多尔姆 (塔纳利斯; "..YELLOW.."58,54"..WHITE..")"
+Inst49Quest3_Aim = "返回塔纳利斯沙漠的时光之穴，向幼时的安多尔姆复命。"
+Inst49Quest3_Location = "安多尔姆（塔纳利斯 - 时光之穴; "..YELLOW.."58,54"..WHITE.."）"
 Inst49Quest3_Note = ""
 Inst49Quest3_Prequest = "有，开启黑暗之门"
 Inst49Quest3_Folgequest = "无"
 Inst49Quest3FQuest = "true"
 --
-Inst49Quest3name1 = "Band of the Guardian"
-Inst49Quest3name2 = "Keeper's Ring of Piety"
-Inst49Quest3name3 = "Time-bending Gem"
-Inst49Quest3name4 = "Andormu's Tear"
+Inst49Quest3name1 = "守护者指环"
+Inst49Quest3name2 = "监护者的虔诚指环"
+Inst49Quest3name3 = "时间扭曲宝石"
+Inst49Quest3name4 = "安多尔姆之泪"
 
 --Quest 4 Alliance
 Inst49Quest4 = "4. 麦迪文的触摸"
 Inst49Quest4_Level = "70"
-Inst49Quest4_Attain = "69"
+Inst49Quest4_Attain = "68"
 Inst49Quest4_Aim = "进入时光之穴，说服麦迪文让复原的学徒钥匙重新获得打开卡拉赞大门的能力。"
-Inst49Quest4_Location = "卡德加 (沙塔斯城; "..YELLOW.."54,44"..WHITE..")"
-Inst49Quest4_Note = "杀死第18波boss埃欧努斯死后，你才能在副本中与麦迪文对话."
+Inst49Quest4_Location = "卡德加（沙塔斯城 - 圣光广场; "..YELLOW.."54,44"..WHITE.."）"
+Inst49Quest4_Note = "这是卡拉赞钥匙任务链的一个。杀死埃欧努斯死后，你才能在副本中与麦迪文对话。"
 Inst49Quest4_Prequest = "有，第二块和第三块"
 Inst49Quest4_Folgequest = "有，返回卡德加身边"
 Inst49Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst49Quest5 = "5. 药剂大师 (炼金术)"
+Inst49Quest5 = "5. 药剂大师（炼金术）"
 Inst49Quest5_Level = "70"
 Inst49Quest5_Attain = "68"
-Inst49Quest5_Aim = "去时光之穴的黑暗沼泽，从裂隙守卫者和裂隙领主身上收集10份永恒精华，同时将5瓶特效防御药剂，5瓶掌控药剂，5瓶特效敏捷药剂一同交给沙塔斯城的罗罗基姆."
-Inst49Quest5_Location = "罗罗基姆 (沙塔斯城 - 贫民窟; "..YELLOW.."46,23"..WHITE..")"
-Inst49Quest5_Note = ""
-Inst49Quest5_Prequest = "有, 药剂大师"
+Inst49Quest5_Aim = "进入时光之穴的黑色沼泽，从裂隙领主和裂隙守卫者身上获取10份永恒精华。将这些与5瓶特效防御药剂、5瓶掌控药剂和5瓶特效敏捷药剂一起交给沙塔斯城贫民窟中的罗罗基姆。"
+Inst49Quest5_Location = "罗罗基姆（沙塔斯城 - 贫民窟; "..YELLOW.."46,23"..WHITE.."）"
+Inst49Quest5_Note = "炼金术任务。"
+Inst49Quest5_Prequest = "有，药剂大师"
 Inst49Quest5_Folgequest = "无"
-Inst49Quest5PreQuest = "有"
+Inst49Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst49Quest6 = "6. 悬赏：埃欧努斯的沙漏 (英雄日常)"
+Inst49Quest6 = "6. 悬赏：埃欧努斯的沙漏（英雄日常）"
 Inst49Quest6_Level = "70"
 Inst49Quest6_Attain = "70"
-Inst49Quest6_Aim = "商人扎雷姆要求你夺得埃欧努斯的沙漏。将沙漏带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst49Quest6_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst49Quest6_Note = "埃欧努斯 就是最后一波的boss."
+Inst49Quest6_Aim = "商人扎雷姆要求你夺得埃欧努斯的沙漏。将沙漏带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst49Quest6_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst49Quest6_Note = "需要英雄难度副本。\n\n埃欧努斯就是最后一波的 Boss。"
 Inst49Quest6_Prequest = "无"
 Inst49Quest6_Folgequest = "无"
 --
 Inst49Quest6name1 = "公正徽章"
 
 --Quest 7 Alliance
-Inst49Quest7 = "7. 悬赏：裂隙领主 (普通日常)"
+Inst49Quest7 = "7. 悬赏：裂隙领主（日常）"
 Inst49Quest7_Level = "70"
 Inst49Quest7_Attain = "70"
 Inst49Quest7_Aim = "虚空猎手玛哈杜恩要求你杀死4名裂隙领主。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
-Inst49Quest7_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst49Quest7_Note = "普通日常任务."
-Inst49Quest7_Prequest = "No"
-Inst49Quest7_Folgequest = "No"
+Inst49Quest7_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst49Quest7_Note = "普通日常任务。"
+Inst49Quest7_Prequest = "无"
+Inst49Quest7_Folgequest = "无"
 --
-Inst49Quest7name1 = "公正徽章"
+Inst49Quest7name1 = "复仇军监牢钥匙"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7916,20 +8081,20 @@ Inst49Quest7name1_HORDE = Inst49Quest7name1
 
 --------------- INST50 - CoT: Battle of Mount Hyjal ---------------
 
-Inst50Story = "在麦迪文的指导下，萨尔和卡利姆多人类部队首领吉安娜·普罗德摩尔认识到他们必须将分歧抛之脑后。/n/n同时，玛法里奥和泰兰德领导的暗夜精灵也意识到他们必须团结起来才能保护世界之树。在达成共识之后，艾泽拉斯的各个种族开始尽最大可能加强世界之树的防御工事。/n/n玛法里奥依靠所有人的力量成功地释放出诺达希尔的怒火，彻底消灭了阿克蒙德，将燃烧军团从永恒之井赶了出去。/n/n这场最后的战役震撼了卡利姆多的大地，未能吸取永恒之井能量的燃烧军团在艾泽拉斯联合阵营的威力面前灰飞烟灭。."
-Inst50Caption = "时光之穴：海加尔之战"
+Inst50Story = "在第二次抵抗燃烧军团的战争进行到白热阶段时，艾泽拉斯世界的各大种族意识到只有团结起来奋力抗衡才有可能取得胜利。这次战斗发生在海加尔山山顶的世界之树，诺达希尔脚下。由玛法里奥·怒风和泰兰德·语风领导的暗夜精灵、由萨尔和凯恩·血蹄领导的新部落以及由吉安娜·普罗德摩尔领导的来自洛丹伦的联盟残部团结起来一起对抗阿克蒙德和燃烧军团的恶魔，打响了一场波澜壮阔的艾泽拉斯世界保卫战。就在阿克蒙德接触到世界之树并试图吸取它的能量时，联军打败他，取得了险胜。"
+Inst50Caption = "时光之穴：海加尔峰"
 Inst50QAA = "1 个任务"
 Inst50QAH = "1 个任务"
 
 --Quest 1 Alliance
-Inst50Quest1 = "1. 古老的神器"
+Inst50Quest1 = "1. 往日的神器"
 Inst50Quest1_Level = "70"
 Inst50Quest1_Attain = "70"
-Inst50Quest1_Aim = "前往塔纳利斯的时光之穴并且进入海加尔山战役。进入之后，击败瑞奇·寒冬并且将时间定相护符交给影月谷的阿卡玛."
-Inst50Quest1_Location = "阿卡玛 (影月谷; "..YELLOW.."58,48"..WHITE..")"
-Inst50Quest1_Note = "瑞奇·寒冬 就在 "..YELLOW.."[1]"..WHITE.."."
-Inst50Quest1_Prequest = "有，灰舌伪装 (风暴之眼)"
-Inst50Quest1_Folgequest = "有，被囚禁的灵魂"
+Inst50Quest1_Aim = "前往塔纳利斯的时光之穴，进入海加尔山战役之后击败雷基·冬寒，将他的时光护符匣交给影月谷的阿卡玛。"
+Inst50Quest1_Location = "阿卡玛（影月谷 - 守望者牢笼; "..YELLOW.."58,48"..WHITE.."）"
+Inst50Quest1_Note = "黑暗神殿进门任务链的一个。雷基·冬寒就在"..YELLOW.."[1]"..WHITE.."。"
+Inst50Quest1_Prequest = "有，灰舌的计谋（"..YELLOW.."风暴之眼"..WHITE.."）"
+Inst50Quest1_Folgequest = "有，灵魂之囚"
 Inst50Quest1PreQuest = "true"
 -- No Rewards for this quest
 
@@ -7950,27 +8115,27 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 
 --------------- INST51 - CoT: Old Hillsbrad ---------------
 
-Inst51Story = "敦霍尔德城堡是人类兽族第二次大战时洛丹伦王国的南方的前沿要塞。.\n\n这时候萨尔在人族指挥官布莱克眼里，萨尔只不过是一个傀儡酋长。他想利用萨尔的力量来控制其他人。\n\n但是萨尔知道，他生来注定要带领兽人摆脱枷锁，所以他开始了的逃离敦霍尔德的旅程。\n\n这个副本表现的是10年前的希尔斯布莱德，那是部落还没有摧毁敦霍尔德而且塔伦米尔没有沦陷在亡灵天灾手里。"
+Inst51Story = "敦霍尔德城堡是人类兽族第二次大战时洛丹伦王国的南方的前沿要塞。\n\n这时候萨尔在人族指挥官布莱克眼里，萨尔只不过是一个傀儡酋长。他想利用萨尔的力量来控制其他人。\n\n但是萨尔知道，他生来注定要带领兽人摆脱枷锁，所以他开始了的逃离敦霍尔德的旅程。\n\n这个副本表现的是10年前的希尔斯布莱德，那是部落还没有摧毁敦霍尔德而且塔伦米尔没有沦陷在亡灵天灾手里。"
 Inst51Caption = "时光之穴：旧希尔斯布莱德"
 Inst51QAA = "6 个任务"
 Inst51QAH = "6 个任务"
 Inst51General = {
     {
     "德拉克中尉",
-    "当兵营陷入大火并爆炸之后，第一个boss德拉克少尉就出现了。这是很简单的战斗，他是一个典型的战士，你知道应该怎么对付他。",
-    RED .. "断筋：" .. WHITE .. "对目标造成63点伤害并且降低移动速度50％，持续15秒。\n" .. RED .. "胁迫怒吼" .. WHITE .. ": 使目标因恐惧而麻痹8秒，周围其他目标逃跑。\n" .. RED .. "致死打击：" .. WHITE .. " 对目标造成武器伤害外加120点额外伤害，降低所有治疗的效果50％，持续10秒.\n" .. RED .. "旋风斩：" .. WHITE .. "攻击周围所有目标，造成武器伤害外加300点额外伤害。",
+    "当兵营陷入大火并爆炸之后，第一个 Boss 德拉克少尉就出现了。这是很简单的战斗，他是一个典型的战士，你知道应该怎么对付他。",
+    RED .. "断筋" .. WHITE .. "：对目标造成63点伤害并且降低移动速度50%，持续15秒。\n" .. RED .. "胁迫怒吼" .. WHITE .. "：使目标因恐惧而麻痹8秒，周围其他目标逃跑。\n" .. RED .. "致死打击" .. WHITE .. "：对目标造成武器伤害外加120点额外伤害，降低所有治疗的效果50%，持续10秒。\n" .. RED .. "旋风斩" .. WHITE .. "：攻击周围所有目标，造成武器伤害外加300点额外伤害。",
     },
 
     {
     "斯卡洛克上尉",
-    "斯卡洛克队长总是带有2个手下，一个敦霍尔德老兵和一个敦霍尔德狱卒。在跑出敦霍尔德城堡之后，斯卡洛克队长将骑马追上来。然后他会下马和萨尔对话。在这段时间里可以吃喝至最佳状态。当他们谈话结束后战斗就开始了。首先要杀死敦霍尔德狱卒，因为他的心灵尖啸很麻烦，然后是另一个手下。萨尔会在战斗中帮助你。治疗需要稍微照看萨尔的生命值。斯卡洛克队长是一个圣骑士，有时候他会治疗自己（需要打断）。",
-   RED .. "清洁术:" .. WHITE .. " 清洁一个队友，消除一个中毒效果，一个疾病效果和一个魔法效果。\n" .. RED .. "正义之锤:" .. WHITE .. "击晕一个敌人，使其不能移动或战斗，持续6秒。\n" .. RED .. "圣光术:" .. WHITE .. "治疗一个队友5600－5900点生命\n" .. RED .. "神圣之盾" .. WHITE .. ": 提高格档几率30％，持续10秒，每次成功的格档后对攻击者造成350－450点伤害。",
+    "斯卡洛克上尉总是带有2个手下，一个敦霍尔德老兵和一个敦霍尔德狱卒。在跑出敦霍尔德城堡之后，斯卡洛克上尉将骑马追上来。然后他会下马和萨尔对话。在这段时间里可以恢复至最佳状态。当他们谈话结束后战斗就开始了。首先要杀死敦霍尔德狱卒，因为他的心灵尖啸很麻烦，然后是另一个手下。萨尔会在战斗中帮助你。治疗需要稍微照看萨尔的生命值。斯卡洛克上尉是一个圣骑士，有时候他会治疗自己（需要打断）。",
+   RED .. "清洁术" .. WHITE .. "：清洁一个队友，消除一个中毒效果，一个疾病效果和一个魔法效果。\n" .. RED .. "正义之锤" .. WHITE .. "：击晕一个敌人，使其不能移动或战斗，持续6秒。\n" .. RED .. "圣光术" .. WHITE .. "：治疗一个队友5600－5900点生命。\n" .. RED .. "神圣之盾" .. WHITE .. "：提高格档几率30%，持续10秒，每次成功的格档后对攻击者造成350－450点伤害。",
     },
 
     {
-    "击碎者克里丹",
-    "战斗之前有3波龙需要击败。前2波每波有3只龙，第3波有4只。每一波中都有1只施法者类型的需要在没有坦克的情况下优先击杀，因为他们会给近战目标施放一个debuff，－50％治疗效果和－50%伤害。有时候第3波中有2只这种龙。在3波龙都死亡之后，你有短暂的时间来休息。Boss战很简单，不需要补充你的buff，因为boss会周期性的消除它们。死亡来临技能，会对随机目标施放。坦克应该背靠墙壁坦克，以免被boss击飞。",
-   RED .. "死亡来临:" .. WHITE .. " 每3秒造成750点暗影伤害。\n" .. RED .. "魔法干扰光环:" .. WHITE .. " 周期性从附近敌对目标身上移除魔法效果。\n" .. RED .. "砂之吐息:" .. WHITE .. " 对自己面前圆锥型范围内目标造成奥术伤害，降低移动速度50％，攻击速度延长100％，持续10秒。",
+    "时空猎手",
+    "战斗之前有3波龙需要击败。前2波每波有3只龙，第3波有4只。每一波中都有1只施法者类型的需要在没有坦克的情况下优先击杀，因为他们会给近战目标施放一个减益，降低50%治疗效果和降低50%伤害。有时候第3波中有2只这种龙。在3波龙都死亡之后，你有短暂的时间来休息。Boss 战很简单，不需要补充你的增益，因为 Boss 会周期性的消除它们。死亡来临技能，会对随机目标施放。坦克应该背靠墙壁坦克，以免被 Boss 击飞。",
+   RED .. "死亡来临" .. WHITE .. "：每3秒造成750点暗影伤害。\n" .. RED .. "魔法干扰光环" .. WHITE .. "：周期性从附近敌对目标身上移除魔法效果。\n" .. RED .. "砂之吐息" .. WHITE .. "：对自己面前圆锥型范围内目标造成奥术伤害，降低移动速度50%，攻击速度延长100%，持续10秒。",
     },
 };
 
@@ -7978,11 +8143,11 @@ Inst51General = {
 Inst51Quest1 = "1. 往日的希尔斯布莱德"
 Inst51Quest1_Level = "68"
 Inst51Quest1_Attain = "66"
-Inst51Quest1_Aim = "时光之穴的安多尔姆要求你进入旧希尔斯布莱德丘陵，与伊洛希恩谈一谈。."
-Inst51Quest1_Location = "安多尔姆 (塔纳利斯; "..YELLOW.."58,54"..WHITE..")"
-Inst51Quest1_Note = "必须完成时光之穴门口守护巨龙接的任务"
+Inst51Quest1_Aim = "时光之穴的安多尔姆要求你进入旧希尔斯布莱德丘陵，与伊洛希恩谈一谈。"
+Inst51Quest1_Location = "安多尔姆（塔纳利斯 - 时光之穴; "..YELLOW.."58,54"..WHITE.."）"
+Inst51Quest1_Note = "必须完成时光之穴门口守护巨龙接的任务。"
 Inst51Quest1_Prequest = "有，时光之穴"
-Inst51Quest1_Folgequest = "有, 塔蕾莎的计谋"
+Inst51Quest1_Folgequest = "有，塔蕾莎的计谋"
 Inst51Quest1PreQuest = "true"
 -- No Rewards for this quest
 
@@ -7990,9 +8155,9 @@ Inst51Quest1PreQuest = "true"
 Inst51Quest2 = "2. 塔蕾莎的计谋"
 Inst51Quest2_Level = "68"
 Inst51Quest2_Attain = "66"
-Inst51Quest2_Aim = "进入敦霍尔德城堡，将伊洛希恩交给你的燃烧弹包分别放入5间收容所内的木桶，并启动定时装置。\n\n引爆燃烧弹后，与被关押在敦霍尔德城堡地牢中的萨尔谈一谈."
-Inst51Quest2_Location = "伊洛希恩 (旧希尔斯布莱德 "..YELLOW.."入口"..WHITE..")"
-Inst51Quest2_Note = "去南海镇看看那些名人，像老克和血色男女."
+Inst51Quest2_Aim = "进入敦霍尔德城堡，将伊洛希恩交给你的燃烧弹包分别放入5间收容所内的木桶，并启动定时装置。\n\n引爆燃烧弹后，与被关押在敦霍尔德城堡地牢中的萨尔谈一谈。"
+Inst51Quest2_Location = "伊洛希恩（旧希尔斯布莱德丘陵; "..YELLOW.."入口"..WHITE.."）"
+Inst51Quest2_Note = "萨尔在"..YELLOW.."[2]"..WHITE.."。去南海镇了解灰烬使者的故事，看看那些名人，像克尔苏加德和血色男女。"
 Inst51Quest2_Prequest = "有，往日的希尔斯布莱德"
 Inst51Quest2_Folgequest = "有，逃离敦霍尔德"
 Inst51Quest2FQuest = "true"
@@ -8002,11 +8167,11 @@ Inst51Quest2FQuest = "true"
 Inst51Quest3 = "3. 逃离敦霍尔德"
 Inst51Quest3_Level = "68"
 Inst51Quest3_Attain = "66"
-Inst51Quest3_Aim = "准备就绪后告知萨尔。保护萨尔逃离敦霍尔德城堡，并与他一起搭救塔蕾莎。\n\n任务完成后与旧希尔斯布莱德丘陵的伊洛希恩谈一谈."
-Inst51Quest3_Location = "萨尔 (旧希尔斯布莱德 "..YELLOW.."Basement of the Keep"..WHITE..")"
-Inst51Quest3_Note = "护送路上你会遇见3个BOSS，如果你半路失败需要从新重置副本来做."
-Inst51Quest3_Prequest = "有, 塔蕾莎的计谋"
-Inst51Quest3_Folgequest = "有, 返回安多尔姆身边"
+Inst51Quest3_Aim = "准备就绪后告知萨尔。保护萨尔逃离敦霍尔德城堡，并与他一起搭救塔蕾莎。\n\n任务完成后与旧希尔斯布莱德丘陵的伊洛希恩谈一谈。"
+Inst51Quest3_Location = "萨尔（旧希尔斯布莱德丘陵; "..YELLOW.."[2]"..WHITE.."）"
+Inst51Quest3_Note = "确认所有有这个任务的有都与萨尔对话完成先前任务，然后一人领取就可以共享此任务。遇到 Boss 前萨尔死亡可以回去重新领取任务，但次数有限。护送路上你会遇见3个 Boss，如果你半路失败需要重置副本来做。"
+Inst51Quest3_Prequest = "有，塔蕾莎的计谋"
+Inst51Quest3_Folgequest = "有，返回安多尔姆身边"
 Inst51Quest3FQuest = "true"
 -- No Rewards for this quest
 
@@ -8014,25 +8179,25 @@ Inst51Quest3FQuest = "true"
 Inst51Quest4 = "4. 返回安多尔姆身边"
 Inst51Quest4_Level = "68"
 Inst51Quest4_Attain = "66"
-Inst51Quest4_Aim = "返回塔纳利斯沙漠的时光之穴，向幼时的安多尔姆复命."
-Inst51Quest4_Location = "安多尔姆 (旧希尔斯布莱德 "..YELLOW.."入口"..WHITE..")"
-Inst51Quest4_Note = "安多尔姆在副本里."
+Inst51Quest4_Aim = "返回塔纳利斯沙漠的时光之穴，向幼时的安多尔姆复命。"
+Inst51Quest4_Location = "伊洛希恩（旧希尔斯布莱德丘陵; "..YELLOW.."入口"..WHITE.."）"
+Inst51Quest4_Note = "安多尔姆在（塔纳利斯 - 时光之穴; "..YELLOW.."58,54"..WHITE.."）。完成此任务后可以进入黑色沼泽。"
 Inst51Quest4_Prequest = "有，逃离敦霍尔德"
 Inst51Quest4_Folgequest = "无"
 Inst51Quest4FQuest = "true"
 --
-Inst51Quest4name1 = "Tempest's Touch"
-Inst51Quest4name2 = "Southshore Sneakers"
-Inst51Quest4name3 = "Tarren Mill Defender's Cinch"
-Inst51Quest4name4 = "Warchief's Mantle"
+Inst51Quest4name1 = "风暴之触"
+Inst51Quest4name2 = "南海镇软鞋"
+Inst51Quest4name3 = "塔伦米尔防御者腰带"
+Inst51Quest4name4 = "酋长的衬肩"
 
 --Quest 5 Alliance
-Inst51Quest5 = "5. 悬赏：时空猎手的头颅 (英雄日常)"
+Inst51Quest5 = "5. 悬赏：时空猎手的头颅（英雄日常）"
 Inst51Quest5_Level = "70"
 Inst51Quest5_Attain = "70"
-Inst51Quest5_Aim = "商人扎雷姆要求你取回时空猎手的头颅。将头颅带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst51Quest5_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst51Quest5_Note = "时空猎手 在 "..YELLOW.."[5]"..WHITE.."."
+Inst51Quest5_Aim = "商人扎雷姆要求你取回时空猎手的头颅。将头颅带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst51Quest5_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst51Quest5_Note = "需要英雄难度副本。\n\n时空猎手在"..YELLOW.."[5]"..WHITE.."。"
 Inst51Quest5_Prequest = "无"
 Inst51Quest5_Folgequest = "无"
 --
@@ -8043,12 +8208,13 @@ Inst51Quest6 = "6. 好帽子……"
 Inst51Quest6_Level = "68"
 Inst51Quest6_Attain = "66"
 Inst51Quest6_Aim = "卡洛斯要你进入旧希尔斯布莱德，击败年轻时候的卡洛斯。然后将他的帽子交给塔纳利斯的卡洛斯。"
-Inst51Quest6_Location = "卡洛斯 (塔纳利斯; "..YELLOW.."54,29"..WHITE..")"
-Inst51Quest6_Note = "卡洛斯在 "..YELLOW.."[6]"..WHITE.."附近的路上东西方向来回游荡，但是不会过河上的桥."
+Inst51Quest6_Location = "卡洛斯（塔纳利斯; "..YELLOW.."54,29"..WHITE.."）"
+Inst51Quest6_Note = "卡洛斯在路上"..YELLOW.."[??]"..WHITE.."来回游荡。"
 Inst51Quest6_Prequest = "No"
 Inst51Quest6_Folgequest = "No"
 --
 Inst51Quest6name1 = "流浪乐队宽边帽"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst51Quest1_HORDE = Inst51Quest1
@@ -8127,10 +8293,11 @@ Inst51Quest6_HORDE_Folgequest = Inst51Quest6_Folgequest
 Inst51Quest6name1_HORDE = Inst51Quest6name1
 
 
+
 --------------- INST52 - Gruul's Lair (GL) ---------------
 
-Inst52Story = "屠龙者格鲁尔，正如它的名字，是一个嗜血屠龙的戈隆，它也是25人RADI格鲁尔的巢穴的最终BOSS "
-Inst52Caption = "格鲁尔的巢穴"
+Inst52Story = "戈隆，源生于外域，半神之体的食人魔，传说戈隆抚养了食人魔，然而却用武力统治它们。戈隆一族拥有破坏神般的强大力量，如果你经常飞过刀锋山的上空，你会发现有几只巨大的戈隆游曳其间。它们是戈隆领主格鲁尔的儿子，而戈隆一族真正的王者就是号称屠龙者的格鲁尔。"
+Inst52Caption = "格鲁尔的巢穴（GL）"
 Inst52QAA = "1 个任务"
 Inst52QAH = "1 个任务"
 
@@ -8138,9 +8305,9 @@ Inst52QAH = "1 个任务"
 Inst52Quest1 = "1. 卡达什圣杖"
 Inst52Quest1_Level = "70"
 Inst52Quest1_Attain = "70"
-Inst52Quest1_Aim = "将土灵徽记和灿烂徽记交给盘牙水库英雄难度奴隶围栏的异教徒斯卡希斯."
-Inst52Quest1_Location = "异教徒斯卡希斯 在 (盘牙水库; "..YELLOW.."英雄模式 [3]"..WHITE..")"
-Inst52Quest1_Note = "土灵徽记 掉落自 格鲁尔"..YELLOW.."格鲁尔的巢穴 [2]"..WHITE.." 灿烂徽记 掉落自 夜之魇 "..YELLOW.."卡拉赞 [11]"..WHITE.."."
+Inst52Quest1_Aim = "将土灵徽记和灿烂徽记交给盘牙水库奴隶围栏的异教徒斯卡希斯。"
+Inst52Quest1_Location = "异教徒斯卡希斯在（奴隶围栏; "..YELLOW.."英雄模式[3]"..WHITE.."）"
+Inst52Quest1_Note = "土灵徽记掉落自格鲁尔"..YELLOW.."格鲁尔的巢穴[2]"..WHITE.."与灿烂徽记掉落自夜之魇"..YELLOW.."卡拉赞[15]"..WHITE.."。\n\n这个任务曾经是毒蛇神殿的进门任务。但是现在这不再是必须的。"
 Inst52Quest1_Prequest = "无"
 Inst52Quest1_Folgequest = "无"
 -- No Rewards for this quest
@@ -8161,98 +8328,98 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 
 --------------- INST53 - Karazhan (Kara) ---------------
 
-Inst53Story = "麦迪文之塔以艾泽拉斯伟大的魔法师--先知麦迪文而闻名天下.\n\n他死后，一场突如其来的巨大灾难降临在这和周边的土地上.\n\n近几年来，一些暮色森林的贵族曾冒险去逆风小径探险并调查弥漫在那一带的奇异的死亡气息。他们进入了黑暗中的高塔，却再有没有回来.\n\n事实上，一些目击者坚称那些贵族们的亡魂依然徘徊在卡拉赞之内，痛苦地忍受着诅咒的折磨，他们将永远也无法离开塔中的支离破碎的大厅。另有一些其他的亡魂占据了夕日麦迪文那间令人毛骨悚然的研究室，那里充满了恶魔对于疯狂法师召唤的回应。\n\n坐落在逆风小径的这个副本是10人的70级团队副本."
-Inst53Caption = "卡拉赞"
+Inst53Story = "麦迪文之塔以艾泽拉斯伟大的魔法师 - 先知麦迪文而闻名天下。\n\n他死后，一场突如其来的巨大灾难降临在这和周边的土地上。\n\n近几年来，一些暮色森林的贵族曾冒险去逆风小径探险并调查弥漫在那一带的奇异的死亡气息。他们进入了黑暗中的高塔，却再有没有回来。\n\n事实上，一些目击者坚称那些贵族们的亡魂依然徘徊在卡拉赞之内，痛苦地忍受着诅咒的折磨，他们将永远也无法离开塔中的支离破碎的大厅。另有一些其他的亡魂占据了夕日麦迪文那间令人毛骨悚然的研究室，那里充满了恶魔对于疯狂法师召唤的回应。\n\n坐落在逆风小径的这个副本是10人的70级团队副本。"
+Inst53Caption = "卡拉赞（Kara）"
 Inst53QAA = "15 个任务"
 Inst53QAH = "15 个任务"
 Inst53General = {
     {
     "猎手阿图门",
     "",
-    RED .. "第一阶段：" .. WHITE .. "副坦背靠墙使午夜背朝队伍。 当午夜的血量降到95%时阿图门将出现在他身边。在阿图门被MT拉住前不要尝试攻击并尽量在其出现的那一刻停止治疗。单纯利用远程将其打到95%，近战提前上去将可能在阿图门出现时被秒。一旦阿图门被拉开就可以开始dps午夜。其间MT对boss保持挫志雷霆，法师小D注意解除诅咒。\n" .. RED .. "第二阶段" .. WHITE .. ": 当午夜血量下降到25%时，短暂的几秒时间后阿图门将骑上它。 在这个过程中所有DPS停止攻击， 它的仇恨已被清空， 两个坦克第一时间对其建立仇恨以防BOSS攻击其他成员。。唯一的改变是该阶段他将对随机一名远程人员进行冲锋并对其造成4500左右伤害。 因此在BOSS仇恨稳定后， 所有治疗与远程DPS可以靠近BOSS身后，留个猎人或者直接让副坦站在远程位置。 这样的好处是BOSS只会对他进行冲锋。DPS保持在BOSS的正后方防止被顺劈,所有治疗看好MT， 让一个骑士/萨满适当照看被冲锋的成员.维持这样的节奏将阿图门打到0％，他没有更多花招了。",
+    RED .. "第一阶段" .. WHITE .. "：副坦背靠墙使午夜背朝队伍。当午夜的血量降到95%时阿图门将出现在他身边。在阿图门被坦克拉住前不要尝试攻击并尽量在其出现的那一刻停止治疗。单纯利用远程将其打到95%，近战提前上去将可能在阿图门出现时被秒。一旦阿图门被拉开就可以开始 DPS 午夜。其间坦克对 Boss 保持挫志和雷霆，法师德鲁伊注意解除诅咒。\n" .. RED .. "第二阶段" .. WHITE .. "：当午夜血量下降到25%时，短暂的几秒时间后阿图门将骑上它。在这个过程中所有 DPS 停止攻击，它的仇恨已被清空，两个坦克第一时间对其建立仇恨以防 Boss 攻击其他成员。唯一的改变是该阶段他将对随机一名远程人员进行冲锋并对其造成4500左右伤害。因此在 Boss 仇恨稳定后，所有治疗与远程 DPS 可以靠近 Boss 身后，留个猎人或者直接让副坦站在远程位置。这样的好处是 Boss 只会对他进行冲锋。DPS 保持在 Boss 的正后方防止被顺劈，所有治疗看好坦克，让一个骑士/萨满适当照看被冲锋的成员。维持这样的节奏将阿图门打到0%，他没有更多花招了。",
     },
 
     {
     "莫罗斯",
-    "你可以利用任何团队感觉良好的方式来击杀ADDS，建议你无论出现何种组合都优先击杀神牧。同样的，若有神圣骑士那么也要优先解决。 在所有治疗职业都被干掉后，暗牧将是首要考虑目标。如果武器战或惩戒骑存在于该次组合里，那么一定要保证在你准备击杀前他们被稳定地控制着。 至于防战，开打后可以先TANK或者风筝，在干掉其余三个ADDS后将其锁住，直到杀掉BOSS。\n两个牧师ADDS和神圣骑士使用物理攻击伤害非常低，因此不需要TANK。 处理武器战士和惩戒骑士时，全场风筝击杀的办法很不错，如果你有多余的TANK也可以选择定点击杀，但治疗也必须高度集中以免坦克被秒。战斗进入最后百分30的狂暴阶段，这时候如果你的治疗仍有余力，那么DOWN掉他便是毫无悬念的，若治疗已经不堪重负，那么战士随时做好自保，DPS以最快速度RUSH掉。",
-   RED .. "1：" .. WHITE .. "战斗的关键除了控制之外最重要的就在于团队能够以多快的速度解决掉未被控制的ADDS以便尽快投入BOSS战.如果合适，就可以留一个怪一直控制\n" .. RED .. "2：" .. WHITE .. " 当莫罗斯致盲第2仇恨后，保证第一时间驱除，以避免他同时凿击MT导致无人TANK的情况出现当莫罗斯对某个玩家使用绞喉后，骑士应该立即对该名玩家使用保护祝福以祛除流血效果.\n" .. RED .. "3：" .. WHITE .. "在被控制的怪和牧师中间安排一个法师，以防不测",
+    "你可以利用任何团队感觉良好的方式来击杀小怪，建议你无论出现何种组合都优先击杀神牧。同样的，若有神圣骑士那么也要优先解决。在所有治疗职业都被干掉后，暗牧将是首要考虑目标。如果武器战或惩戒骑存在于该次组合里，那么一定要保证在你准备击杀前他们被稳定地控制着。 至于防战，开打后可以先坦克或者风筝，在干掉其余三个小怪后将其锁住，直到杀掉 Boss。\n两个牧师小怪和神圣骑士使用物理攻击伤害非常低，因此不需要坦克。处理武器战士和惩戒骑士时，全场风筝击杀的办法很不错，如果你有多余的坦克也可以选择定点击杀，但治疗也必须高度集中以免坦克被秒。战斗进入最后百分30的狂暴阶段，这时候如果你的治疗仍有余力，那么杀掉他便是毫无悬念的，若治疗已经不堪重负，那么战士随时做好自保，DPS 以最快速度解决掉。",
+   RED .. "1" .. WHITE .. "：战斗的关键除了控制之外最重要的就在于团队能够以多快的速度解决掉未被控制的小怪以便尽快投入 Boss 战。如果合适，就可以留一个怪一直控制。\n" .. RED .. "2" .. WHITE .. "：当莫罗斯致盲第2仇恨后，保证第一时间驱除，以避免他同时凿击坦克导致无人坦克的情况出现。当莫罗斯对某个玩家使用绞喉后，骑士应该立即对该名玩家使用保护祝福以祛除流血效果。\n" .. RED .. "3" .. WHITE .. "：在被控制的怪和牧师中间安排一个法师，以防不测。",
     },
 
     {
     "贞节圣女",
-    "这场战斗必须防止的地方有三，神圣之怒连人，神圣之火所附DOT导致死亡，忏悔12秒内MT死亡。对此的应对方法是，分散站位，在这个前提下，把牧师与骑士平均分派在各个点以便解除魔法，并且保证忏悔时间内有治疗处于清醒状态。近战算上MT只能站三个，BOSS的碰撞体积较大，三个人保持最远攻击距离'鼎足而立'，保证不被神圣之怒连到即可。治疗最重要的是第一时间驱散你附近的玩家所中的DOT。而实际上这个BOSS对于刚入卡拉赞开荒的MT来说是比较狠的，因此保证MT存活也需要你的专注。",
-   RED .. "忏悔的应对：" .. WHITE .. " 现在的应对方法是让一个骑士给MT上牺牲祝福，可以是低级的这样的作用是在BOSS释放忏悔后打MT的一瞬间骑士也能迅速醒来，这样平稳度过10秒便很轻松了。需要注意，BOSS在忏悔发动后有可能会直接跑去找骑士而不是MT，因此建议负责牺牲祝福的骑士站在MT背后位置。这样能给MT最大的反应时间。当然MT切换状态使用狂暴之怒来也可免疫忏悔，保证boss不乱跑。\n" .. RED .. "其他要点：" .. WHITE .. " 猎人与术士的宠物收好，他们也会连人。战斗前给近战DPS上魔法抑制，这样能有效减少神圣奉献对他们造成的伤害，给近战上上HOT基本就能保证他们的血量。人品较烂的战士可能会在忏悔刚发动后遭到连续的碾压，这样治疗跟不上的话就挂了，因此治疗石，大红，盾墙，破斧头等叼招都留在这个时候，该用就用。保证自己忏悔时不死这个BOSS就算过了大半了",
+    "这场战斗必须防止的地方有三，神圣之怒连人，神圣之火所附持续伤害导致死亡，忏悔12秒内坦克死亡。对此的应对方法是，分散站位，在这个前提下，把牧师与骑士平均分派在各个点以便解除魔法，并且保证忏悔时间内有治疗处于清醒状态。近战算上坦克只能站三个，Boss 的碰撞体积较大，三个人保持最远攻击距离三角站立，保证不被神圣之怒连到即可。治疗最重要的是第一时间驱散你附近的玩家所中的持续伤害。而实际上这个 Boss 对于刚入卡拉赞开荒的坦克来说是比较狠的，因此保证坦克存活也需要你的专注。",
+   RED .. "忏悔的应对" .. WHITE .. "：现在的应对方法是让一个骑士给坦克上牺牲祝福，可以是低级的这样的作用是在 Boss 释放忏悔后打坦克的一瞬间骑士也能迅速醒来，这样平稳度过10秒便很轻松了。需要注意，Boss 在忏悔发动后有可能会直接跑去找骑士而不是坦克，因此建议负责牺牲祝福的骑士站在坦克背后位置。这样能给坦克最大的反应时间。当然坦克切换状态使用狂暴之怒来也可免疫忏悔，保证 Boss 不乱跑。\n" .. RED .. "其他要点" .. WHITE .. "：猎人与术士的宠物收好，他们也会连人。战斗前给近战 DPS 上魔法抑制，这样能有效减少神圣奉献对他们造成的伤害，给近战上上持续治疗基本就能保证他们的血量。人品较烂的战士可能会在忏悔刚发动后遭到连续的碾压，这样治疗跟不上的话就挂了，因此治疗石，大红，盾墙，破釜沉舟都留在这个时候，该用就用。保证自己忏悔时不死这个 Boss 就算过了大半了。",
     },
     
     {
     "小红帽",
-    "大灰狼随机将一目标便为小红帽，持续10秒，被变形的玩家护甲为0，移动速度提高到180%。在此期间内大灰狼只会攻击被变成小红帽的玩家。被变成小红帽的被狼打到一下4000，辗压 6000，暴击8000。当开始有人变身成为小红帽时，即按照上图路径进行绕场，未变身的坦克及近战人员进入内圈尾随大野狼，治疗人员则是进入内圈对小红帽进行预唱动作。防恐也可以先行施加在主坦身上。当狼追逐小红帽时所受到的一切伤害都不计算仇恨。所以主坦克建立好初始仇恨在每次追逐过后会返回主坦克，dps不用太忌讳OT。 除了恐惧的问题外，坦克BOSS过程中基本上没有太大的问题。",
-    RED .. "法师" .. WHITE .. "对队友们施放魔法增效，以增加治疗能力。\n" .. RED .. "战士" .. WHITE .. ":可藉由雷霆减缓大灰狼攻击的速度。",
+    "大灰狼随机将一目标变为小红帽，持续10秒，被变形的玩家护甲为0，移动速度提高到180%。在此期间内大灰狼只会攻击被变成小红帽的玩家。被变成小红帽的被狼打到一下4000，辗压6000，暴击8000。当开始有人变身成为小红帽时，即进行绕场，未变身的坦克及近战人员进入内圈尾随大野狼，治疗人员则是进入内圈对小红帽进行预唱动作。防恐也可以先行施加在主坦身上。当狼追逐小红帽时所受到的一切伤害都不计算仇恨。所以主坦克建立好初始仇恨在每次追逐过后会返回主坦克，DPS 不用太忌讳 OT。 除了恐惧的问题外，坦克BOSS过程中基本上没有太大的问题。",
+    RED .. "法师" .. WHITE .. "：对队友们施放魔法增效，以增加治疗能力。\n" .. RED .. "战士" .. WHITE .. "：可施放雷霆减缓大灰狼攻击的速度。",
     },
 
     {
     "罗密欧与朱丽叶",
-    "战斗分为3个阶段。第一阶段你将面对朱丽叶一个人，然后面对罗密欧一个人，最后同时面对2个人。每次都要把他们杀死.第三阶段要在10秒内将2个人同时杀死，否则他们会不断复活。",
-   RED .. "第一阶段：" .. WHITE .. "第一阶段可以用打断施法的技能不断打断朱丽叶的DD魔法和治疗魔法，以节省治疗的法力值。同时可以靠法师窃取，ss狗吞噬和牧师的驱散来驱散朱丽叶的魔法。\n" .. RED .. "第二阶段：" .. WHITE .. "罗密欧的攻击很高，所以要及时治疗。罗密欧要背对墙Tank住，以减少击退对Dps职业的影响。侦测魔法最好开启，时刻注意Daring的出现。要迅速让法师偷过来/地狱犬吃掉/驱散掉。否则很容易团灭。.\n" .. RED .. "第三阶段：" .. WHITE .. " 和第一，第二阶段对罗密欧与朱丽叶的战术相同，但由于DPS被分散，战斗会拖得比较长一些，如果团队都集中精神的话，这个阶段不是什么大问题。当两个boss都到10%的时候，全力DPS掉。如果他们的血量不均衡，收敛一下DPS来平衡两个boss的血量，这样他们可以在5-10秒内连续被干掉，将2个人Tank在舞台的两端会使战斗容易些。致死打击和盗贼的致伤毒药对于战斗有比较大的帮助。侦测魔法最好开启，时刻注意Devotion的出现。要迅速让法师偷过来/地狱犬吃掉/驱散掉。战士们需要在进入第三阶段的时候站在前两个阶段的尸体上，这样他们复活的时候能够第一时间获取仇恨并拉到位。",
+    "战斗分为3个阶段。第一阶段你将面对朱丽叶一个人，然后面对罗密欧一个人，最后同时面对2个人。每次都要把他们杀死。第三阶段要在10秒内将2个人同时杀死，否则他们会不断复活。",
+   RED .. "第一阶段" .. WHITE .. "：第一阶段可以用打断施法的技能不断打断朱丽叶的魔法和治疗魔法，以节省治疗的法力值。同时可以靠法师窃取，术士地狱犬吞噬和牧师的驱散来驱散朱丽叶的魔法。\n" .. RED .. "第二阶段" .. WHITE .. "：罗密欧的攻击很高，所以要及时治疗。罗密欧要背对墙坦克住，以减少击退对 DPS 职业的影响。侦测魔法最好开启，时刻注意状态的出现。要迅速让法师偷过来/地狱犬吃掉/驱散掉。否则很容易团灭。\n" .. RED .. "第三阶段" .. WHITE .. "：和第一，第二阶段对罗密欧与朱丽叶的战术相同，但由于 DPS 被分散，战斗会拖得比较长一些，如果团队都集中精神的话，这个阶段不是什么大问题。当两个 Boss 都到10%的时候，全力 DPS 掉。如果他们的血量不均衡，收敛一下 DPS 来平衡两个 Boss 的血量，这样他们可以在5-10秒内连续被干掉，将2个人坦克在舞台的两端会使战斗容易些。致死打击和盗贼的致伤毒药对于战斗有比较大的帮助。侦测魔法最好开启，时刻注意虔诚的出现。要迅速让法师偷过来/地狱犬吃掉/驱散掉。战士们需要在进入第三阶段的时候站在前两个阶段的尸体上，这样他们复活的时候能够第一时间获取仇恨并拉到位。",
     },
 
     {
     "绿野仙踪",
-    "多萝茜将会是第一个发动攻击的BOSS。因为他没有仇恨，所以无法被坦。在战斗过程中，他会召唤托托。托托会中断施法，所以副坦克必须在他出来后把它抓住，以避免法系人员受到伤害。注意，若在多萝茜死亡前先击杀托托，多萝茜将会狂暴。。\n狮子将会是第二个发动攻击的BOSS。副坦克必须在他加入战斗的第一时间上前拉住仇恨，让它在恐惧链接结束后不至于去找法系人员。术士、牧师及猎人皆可以恐惧他。因此恐惧链是必须的。\n稻草人将是第三个发动攻击的BOSS。火焰伤害将会对他造成六秒的混乱，因此法师可以使用灼烧不断的攻击，让他陷入混乱并放风筝。副坦克可以在一开始稍微拉仇恨，让他不至于一出现就造成法系的伤亡。若使用火球术，稻草人的混乱可能会因为其附加效果解除混乱，这是法师必须考虑到的重点。\n铁皮人将会是第四个发动攻击的BOSS。他发动攻击之初，速度相当的快，主坦克必须第一时间将它抓住，并且开始制造仇恨。待时间久了之后，他开始生锈，并且效果开始叠加，即可开始绕着舞台风筝。\n前面四个BOSS解决之后，巫婆便会出现。一开始他会出现在舞台的正中央，主坦克必须马上上前准备制造仇恨。在攻击的过程中，他会随机施放龙卷风将玩家卷上空中，在空中无法施法，但是可以使用瞬发法术。故若治疗职业不幸被吹上天，记得使用HOT(持续性治疗法术)或是盾等方式维持主坦克生命力。",
-   RED .. "击杀顺序：" .. WHITE .. "多萝茜→托托→狮子→稻草人→铁皮人",
+    "多萝茜将会是第一个发动攻击的 Boss。因为他没有仇恨，所以无法被坦克。在战斗过程中，他会召唤托托。托托会中断施法，所以副坦克必须在他出来后把它拉住，以避免法系人员受到伤害。注意，若在多萝茜死亡前先击杀托托，多萝茜将会狂暴。\n狮子将会是第二个发动攻击的 Boss。副坦克必须在他加入战斗的第一时间上前拉住仇恨，让它在恐惧链接结束后不至于去找法系人员。术士、牧师及猎人皆可以恐惧他。因此恐惧链是必须的。\n稻草人将是第三个发动攻击的 Boss。火焰伤害将会对他造成六秒的混乱，因此法师可以使用灼烧不断的攻击，让他陷入混乱并放风筝。副坦克可以在一开始稍微拉仇恨，让他不至于一出现就造成法系的伤亡。若使用火球术，稻草人的混乱可能会因为其附加效果解除混乱，这是法师必须考虑到的重点。\n铁皮人将会是第四个发动攻击的 Boss。他发动攻击之初，速度相当的快，主坦克必须第一时间将它抓住，并且开始制造仇恨。待时间久了之后，他开始生锈，并且效果开始叠加，即可开始绕着舞台风筝。\n前面四个 Boss 解决之后，巫婆便会出现。一开始他会出现在舞台的正中央，主坦克必须马上上前准备制造仇恨。在攻击的过程中，他会随机施放龙卷风将玩家卷上空中，在空中无法施法，但是可以使用瞬发法术。故若治疗职业不幸被吹上天，记得使用持续性治疗或是盾等方式维持坦克生命力。",
+   RED .. "击杀顺序" .. WHITE .. "：多萝茜 -> 托托 -> 狮子 -> 稻草人 -> 铁皮人",
     },
     
     {
     "馆长",
-    "MT将馆长拉在房间中央略靠入口处。其他人分散开，人与人之间时刻保持在12—15码距离，这点很重要，若靠的过近，闪电球的闪电链将可能同时连到数人，而若离得过远，则有可能超出治疗范围。治疗者的位置最为关键，你必须找到一个可以治疗到MT，AT以及本组其他成员的位置",
-    RED .. "闪电球阶段（持续120秒）:" .. WHITE .. "在开局到第一次唤醒以及每次唤醒之后的战斗流程都是相同的。这段时间里DPS应该把注意力集中在每12秒刷一个的闪电球上，它的血量约为13000。它没有多少物理伤害。闪电球刷新后的第一目标通常是随机的。你必须尽可能的将所有DPS都集中到它身上，以保证在下一个刷新前能够解决掉。\n" .. RED .. "唤醒阶段（持续20秒）" .. WHITE .. ": 馆长耗尽法力后便进入该阶段。这20秒内他不再召唤闪电球，也不会有任何攻击行为。有点类似于克苏恩的虚弱，所承受的伤害为平时的200％，你只需全力DPS。这一阶段最重要的其实也就是所有人尽可能多的输出伤害。站位方面不用做何改变，一切以最大化输出为主。\n" .. RED .. "激怒阶段:" .. WHITE .. "重复前面两个阶段，直到馆长的血量下降到15％左右，战斗进入激怒阶段。该阶段的仇恨奥弹与物理攻击频率都有显著加快，但不再召唤闪电球，因此也不会再进入唤醒状态。那么很显然，这个阶段依然是考验团队RUSH的能力.",
+    "坦克将馆长拉在房间中央略靠入口处。其他人分散开，人与人之间时刻保持在12—15码距离，这点很重要，若靠的过近，闪电球的闪电链将可能同时连到数人，而若离得过远，则有可能超出治疗范围。治疗者的位置最为关键，你必须找到一个可以治疗到坦克，副坦克以及本组其他成员的位置。",
+    RED .. "闪电球阶段（持续120秒）" .. WHITE .. "：在开局到第一次唤醒以及每次唤醒之后的战斗流程都是相同的。这段时间里 DPS 应该把注意力集中在每12秒刷一个的闪电球上，它的血量约为13000。它没有多少物理伤害。闪电球刷新后的第一目标通常是随机的。你必须尽可能的将所有 DPS 都集中到它身上，以保证在下一个刷新前能够解决掉。\n" .. RED .. "唤醒阶段（持续20秒）" .. WHITE .. "：馆长耗尽法力后便进入该阶段。这20秒内他不再召唤闪电球，也不会有任何攻击行为。有点类似于克苏恩的虚弱，所承受的伤害为平时的200%，你只需全力 DPS。这一阶段最重要的其实也就是所有人尽可能多的输出伤害。站位方面不用做何改变，一切以最大化输出为主。\n" .. RED .. "激怒阶段" .. WHITE .. "：重复前面两个阶段，直到馆长的血量下降到15%左右，战斗进入激怒阶段。该阶段的仇恨奥弹与物理攻击频率都有显著加快，但不再召唤闪电球，因此也不会再进入唤醒状态。那么很显然，这个阶段依然是考验团队速杀的能力。",
     },
 };
 
 --Quest 1 Alliance
 Inst53Quest1 = "1. 评估事态"
 Inst53Quest1_Level = "70"
-Inst53Quest1_Attain = "69"
-Inst53Quest1_Aim = "进入卡拉赞寻找库雷恩."
-Inst53Quest1_Location = "大法师奥图鲁斯 (逆风小径; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest1_Note = "库雷恩 就在 过了猎手阿图门之后的"..YELLOW.."[1]"..WHITE.."."
-Inst53Quest1_Prequest = "有, 紫罗兰之眼"
-Inst53Quest1_Folgequest = "有,金娜的日记"
+Inst53Quest1_Attain = "68"
+Inst53Quest1_Aim = "进入卡拉赞寻找库雷恩。"
+Inst53Quest1_Location = "大法师奥图鲁斯（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）"
+Inst53Quest1_Note = "库雷恩在卡拉赞内，杀掉猎手阿图门之后的"..YELLOW.."[6]"..WHITE.."。"
+Inst53Quest1_Prequest = "有，紫罗兰之眼"
+Inst53Quest1_Folgequest = "有，金娜的日记"
 Inst53Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst53Quest2 = "2. 金娜的日记"
 Inst53Quest2_Level = "70"
-Inst53Quest2_Attain = "70"
+Inst53Quest2_Attain = "68"
 Inst53Quest2_Aim = "在卡拉赞的会客间搜寻金娜的日记，然后将它交给卡拉赞外的大法师奥图鲁斯。"
-Inst53Quest2_Location = "库雷恩 (卡拉赞; "..YELLOW.."[1]"..WHITE..")"
-Inst53Quest2_Note = "奥图鲁斯 (逆风小径; "..YELLOW.."47,75"..WHITE.."). 书就在通向贞节圣女的大厅的第二个房间 "..YELLOW.."[3]"..WHITE..", 在桌子上."
-Inst53Quest2_Prequest = "有, 评估事态"
-Inst53Quest2_Folgequest = "有, 恶魔的气息"
+Inst53Quest2_Location = "库雷恩（卡拉赞; "..YELLOW.."[6]"..WHITE.."）"
+Inst53Quest2_Note = "日记就在通向贞节圣女的大厅的第二个房间"..YELLOW.."[10]"..WHITE.."的桌子上。大法师奥图鲁斯在（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）。"
+Inst53Quest2_Prequest = "有，评估事态"
+Inst53Quest2_Folgequest = "有，恶魔的气息"
 Inst53Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst53Quest3 = "3. 恶魔的气息"
 Inst53Quest3_Level = "70"
-Inst53Quest3_Attain = "70"
-Inst53Quest3_Aim = "大法师奥图鲁斯要求你消灭出现在卡拉赞顶部的恶魔."
-Inst53Quest3_Location = "大法师奥图鲁斯 (逆风小径; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest3_Note = "玛克扎尔王子 (卡拉赞; "..YELLOW.."[10]"..WHITE..")"
-Inst53Quest3_Prequest = "有, 金娜的日记"
-Inst53Quest3_Folgequest = "有, 新的指示"
+Inst53Quest3_Attain = "68"
+Inst53Quest3_Aim = "大法师奥图鲁斯要求你消灭出现在卡拉赞顶部的恶魔。"
+Inst53Quest3_Location = "大法师奥图鲁斯（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）"
+Inst53Quest3_Note = "玛克扎尔王子（卡拉赞; "..YELLOW.."[26]"..WHITE.."）"
+Inst53Quest3_Prequest = "有，金娜的日记"
+Inst53Quest3_Folgequest = "有，新的指示"
 Inst53Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst53Quest4 = "4. 联络达拉然"
+Inst53Quest4 = "4. 新的指示"
 Inst53Quest4_Level = "70"
-Inst53Quest4_Attain = "70"
-Inst53Quest4_Aim = "将奥图鲁斯的报告交给达拉然外的大法师塞德瑞克."
-Inst53Quest4_Location = "大法师奥图鲁斯 (逆风小径; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest4_Note = "大法师塞德瑞克 (奥特兰克山脉.; "..YELLOW.."15,54"..WHITE..")"
-Inst53Quest4_Prequest = "有, 恶魔的气息"
+Inst53Quest4_Attain = "68"
+Inst53Quest4_Aim = "与达拉然外的大法师塞德瑞克谈一谈。"
+Inst53Quest4_Location = "大法师奥图鲁斯（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）"
+Inst53Quest4_Note = "大法师塞德瑞克（奥特兰克山脉 - 达拉然; "..YELLOW.."15,54"..WHITE.."）"
+Inst53Quest4_Prequest = "有，恶魔的气息"
 Inst53Quest4_Folgequest = "无"
 Inst53Quest4FQuest = "true"
 --
@@ -8262,22 +8429,22 @@ Inst53Quest4name1 = "紫罗兰徽章"
 Inst53Quest5 = "5. 麦迪文的日记"
 Inst53Quest5_Level = "70"
 Inst53Quest5_Attain = "70"
-Inst53Quest5_Aim = "逆风小径的大法师奥图鲁斯要你进入卡拉赞，与拉维恩谈一谈"
-Inst53Quest5_Location = "大法师奥图鲁斯 (逆风小径; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest5_Note = "需要紫罗兰之眼尊敬拉维恩在图书馆馆长的后边 "..YELLOW.."[5]"..WHITE.."."
+Inst53Quest5_Aim = "逆风小径的大法师奥图鲁斯要你进入卡拉赞，与拉维恩谈一谈。"
+Inst53Quest5_Location = "大法师奥图鲁斯（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）"
+Inst53Quest5_Note = "需要紫罗兰之眼声望尊敬。拉维恩在图书馆馆长的后边"..YELLOW.."[17]"..WHITE.."。"
 Inst53Quest5_Prequest = "无"
-Inst53Quest5_Folgequest = "有, 妥善保管"
+Inst53Quest5_Folgequest = "有，书呆子"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst53Quest6 = "6. 妥善保管"
+Inst53Quest6 = "6. 书呆子"
 Inst53Quest6_Level = "70"
 Inst53Quest6_Attain = "70"
-Inst53Quest6_Aim = "与卡拉赞守护者的图书馆中的格拉达夫谈一谈."
-Inst53Quest6_Location = "拉维恩 (卡拉赞; "..YELLOW.."图书馆"..WHITE..")"
-Inst53Quest6_Note = "格拉达夫和拉维恩在同一房间"
-Inst53Quest6_Prequest = "有, 麦迪文的日记"
-Inst53Quest6_Folgequest = "有, 卡姆希丝"
+Inst53Quest6_Aim = "与卡拉赞守护者的图书馆中的格拉达夫谈一谈。"
+Inst53Quest6_Location = "拉维恩（卡拉赞; "..YELLOW.."[17]"..WHITE.."）"
+Inst53Quest6_Note = "格拉达夫和拉维恩在同一房间"..YELLOW.."[18]"..WHITE.."。"
+Inst53Quest6_Prequest = "有，麦迪文的日记"
+Inst53Quest6_Folgequest = "有，卡姆希丝"
 Inst53Quest6FQuest = "true"
 -- No Rewards for this quest
 
@@ -8285,11 +8452,11 @@ Inst53Quest6FQuest = "true"
 Inst53Quest7 = "7. 卡姆希丝"
 Inst53Quest7_Level = "70"
 Inst53Quest7_Attain = "70"
-Inst53Quest7_Aim = "与卡拉赞守护者的图书馆里的卡姆希丝谈一谈."
-Inst53Quest7_Location = "格拉达夫 (卡拉赞; "..YELLOW.."图书馆"..WHITE..")"
-Inst53Quest7_Note = "卡姆希丝和格拉达夫在同一房间"
-Inst53Quest7_Prequest = "有, 妥善保管"
-Inst53Quest7_Folgequest = "有, 埃兰之影"
+Inst53Quest7_Aim = "与卡拉赞守护者的图书馆中的卡姆希丝谈一谈。"
+Inst53Quest7_Location = "格拉达夫（卡拉赞; "..YELLOW.."18"..WHITE.."）"
+Inst53Quest7_Note = "卡姆希丝和格拉达夫在同一房间"..YELLOW.."[19]"..WHITE.."。"
+Inst53Quest7_Prequest = "有，妥善保管"
+Inst53Quest7_Folgequest = "有，埃兰之影"
 Inst53Quest7FQuest = "true"
 -- No Rewards for this quest
 
@@ -8297,11 +8464,11 @@ Inst53Quest7FQuest = "true"
 Inst53Quest8 = "8. 埃兰之影"
 Inst53Quest8_Level = "70"
 Inst53Quest8_Attain = "70"
-Inst53Quest8_Aim = "将麦迪文的日记交给卡拉赞守护者的图书馆中的卡姆希丝."
-Inst53Quest8_Location = "卡姆希丝 (卡拉赞; "..YELLOW.."Library"..WHITE..")"
-Inst53Quest8_Note = "埃兰之影 在 "..YELLOW.."[7]"..WHITE.."."
-Inst53Quest8_Prequest = "有, 卡姆希丝"
-Inst53Quest8_Folgequest = "有, 大师的露台"
+Inst53Quest8_Aim = "将麦迪文的日记交给卡拉赞守护者的图书馆中的卡姆希丝。"
+Inst53Quest8_Location = "卡姆希丝（卡拉赞; "..YELLOW.."[19]"..WHITE.."）"
+Inst53Quest8_Note = "麦迪文的日记由埃兰之影"..YELLOW.."[21]"..WHITE.."掉落。"
+Inst53Quest8_Prequest = "有，卡姆希丝"
+Inst53Quest8_Folgequest = "有，主宰的露台"
 Inst53Quest8FQuest = "true"
 -- No Rewards for this quest
 
@@ -8309,23 +8476,23 @@ Inst53Quest8FQuest = "true"
 Inst53Quest9 = "9. 主宰的露台"
 Inst53Quest9_Level = "70"
 Inst53Quest9_Attain = "70"
-Inst53Quest9_Aim = "前往卡拉赞的主宰的露台并阅读麦迪文的日记。完成任务后带着麦迪文的日记回到大法师奥图鲁斯那里."
-Inst53Quest9_Location = "卡姆希丝 (卡拉赞; "..YELLOW.."图书馆"..WHITE..")"
-Inst53Quest9_Note = "大法师奥图鲁斯 (逆风小径; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest9_Prequest = "有, 埃兰之影"
-Inst53Quest9_Folgequest = "有, 发掘过去"
+Inst53Quest9_Aim = "进入卡拉赞的主宰的露台，阅读麦迪文的日记。完成任务后将麦迪文的日记交给大法师奥图鲁斯。"
+Inst53Quest9_Location = "卡姆希丝（卡拉赞; "..YELLOW.."[19]"..WHITE.."）"
+Inst53Quest9_Note = "大法师奥图鲁斯（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）。没有战斗，欣赏电影。"
+Inst53Quest9_Prequest = "有，埃兰之影"
+Inst53Quest9_Folgequest = "有，发掘历史"
 Inst53Quest9FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst53Quest10 = "10. 发掘过去"
+Inst53Quest10 = "10. 发掘历史"
 Inst53Quest10_Level = "70"
 Inst53Quest10_Attain = "70"
-Inst53Quest10_Aim = "大法师奥图鲁斯要你去逆风小径位于卡拉赞南部的山脉中取回一片烧焦的白骨碎片."
-Inst53Quest10_Location = "大法师奥图鲁斯 (逆风小径; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest10_Note = "烧焦的白骨碎片在 逆风小径 "..YELLOW.."44,78"..WHITE.." "
-Inst53Quest10_Prequest = "有, 大师的露台"
-Inst53Quest10_Folgequest = "有, 同事的帮助"
+Inst53Quest10_Aim = "大法师奥图鲁斯要求你前往逆风小径，从卡拉赞以南的山脉中取回一块焦骨碎块。"
+Inst53Quest10_Location = "大法师奥图鲁斯（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）"
+Inst53Quest10_Note = "焦骨碎块在逆风小径"..YELLOW.."44,78"..WHITE.."。"
+Inst53Quest10_Prequest = "有，大师的露台"
+Inst53Quest10_Folgequest = "有，同事的帮助"
 Inst53Quest10FQuest = "true"
 -- No Rewards for this quest
 
@@ -8333,11 +8500,11 @@ Inst53Quest10FQuest = "true"
 Inst53Quest11 = "11. 同事的帮助"
 Inst53Quest11_Level = "70"
 Inst53Quest11_Attain = "70"
-Inst53Quest11_Aim = "将烧焦的白骨碎片带给虚空风暴的."
-Inst53Quest11_Location = "大法师奥图鲁斯 (逆风小径; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest11_Note = "卡琳娜·拉瑟德 (52区; "..YELLOW.."32,63"..WHITE..")"
-Inst53Quest11_Prequest = "有, 发掘过去"
-Inst53Quest11_Folgequest = "有, 卡琳娜的要求"
+Inst53Quest11_Aim = "将焦骨碎块交给虚空风暴52区的卡琳娜·拉瑟德。"
+Inst53Quest11_Location = "大法师奥图鲁斯（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）"
+Inst53Quest11_Note = "卡琳娜·拉瑟德（虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE.."）"
+Inst53Quest11_Prequest = "有，发掘历史"
+Inst53Quest11_Folgequest = "有，卡琳娜的要求"
 Inst53Quest11FQuest = "true"
 -- No Rewards for this quest
 
@@ -8345,11 +8512,11 @@ Inst53Quest11FQuest = "true"
 Inst53Quest12 = "12. 卡琳娜的要求"
 Inst53Quest12_Level = "70"
 Inst53Quest12_Attain = "70"
-Inst53Quest12_Aim = "从地狱火堡垒破碎大厅的高阶术士奈瑟库斯手中夺得暮色魔典，从奥金顿塞泰克大厅的黑暗编织者塞斯手中夺得忘却之名，将它们交给卡琳娜·拉瑟德。\n\n该任务必须在英雄难度下完成."
-Inst53Quest12_Location = "卡琳娜·拉瑟德 (虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE..")"
-Inst53Quest12_Note = "这个任务需要你跑一遍英雄难度的破碎大厅和塞泰克大厅"
-Inst53Quest12_Prequest = "有, 同事的帮助"
-Inst53Quest12_Folgequest = "有,夜之魇"
+Inst53Quest12_Aim = "从地狱火堡垒破碎大厅的高阶术士奈瑟库斯手中夺得暮色魔典，从奥金顿塞泰克大厅的黑暗编织者塞斯手中夺得忘却之名，将它们交给卡琳娜·拉瑟德。\n\n该任务必须在英雄难度下完成。"
+Inst53Quest12_Location = "卡琳娜·拉瑟德（虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE.."）"
+Inst53Quest12_Note = "这个任务需要你跑一遍英雄难度的破碎大厅和塞泰克大厅。"
+Inst53Quest12_Prequest = "有，同事的帮助"
+Inst53Quest12_Folgequest = "有，夜之魇"
 Inst53Quest12FQuest = "true"
 -- No Rewards for this quest
 
@@ -8357,39 +8524,40 @@ Inst53Quest12FQuest = "true"
 Inst53Quest13 = "13. 夜之魇"
 Inst53Quest13_Level = "70"
 Inst53Quest13_Attain = "70"
-Inst53Quest13_Aim = "前往卡拉赞的大师的露台使用卡琳娜的骨灰坛来召唤夜之魇。从夜之魇的尸体取得微弱的秘法精华并带给大法师奥图鲁斯"
-Inst53Quest13_Location = "卡琳娜·拉瑟德 (虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE..")"
-Inst53Quest13_Note = "如果你成功杀死了夜之魇，那就找大法师奥图鲁斯领取奖励吧，祝你好运!"
-Inst53Quest13_Prequest = "有, 卡琳娜的要求"
+Inst53Quest13_Aim = "进入卡拉赞的主宰的露台，使用卡琳娜给你的骨灰盒召唤夜之魇并杀死它，然后将暗淡的奥术精华交给大法师奥图鲁斯。"
+Inst53Quest13_Location = "卡琳娜·拉瑟德（虚空风暴 - 52区; "..YELLOW.."32,63"..WHITE.."）"
+Inst53Quest13_Note = "召唤夜之魇在"..YELLOW.."[15]"..WHITE.."。然后向大法师奥图鲁斯（逆风小径 - 卡拉赞; "..YELLOW.."47,75"..WHITE.."）领取奖励。"
+Inst53Quest13_Prequest = "有，卡琳娜的要求"
 Inst53Quest13_Folgequest = "无"
 Inst53Quest13FQuest = "true"
 --
-Inst53Quest13name1 = "Pulsing Amethyst"
-Inst53Quest13name2 = "Soothing Amethyst"
-Inst53Quest13name3 = "Infused Amethyst"
+Inst53Quest13name1 = "脉动紫水晶"
+Inst53Quest13name2 = "抚慰紫水晶"
+Inst53Quest13name3 = "充能紫水晶"
 
 --Quest 14 Alliance
 Inst53Quest14 = "14. 卡达什圣杖"
 Inst53Quest14_Level = "70"
 Inst53Quest14_Attain = "70"
-Inst53Quest14_Aim = "将土灵徽记和灿烂徽记交给盘牙水库奴隶围栏的异教徒斯卡希斯."
-Inst53Quest14_Location = "异教徒斯卡希斯  (奴隶围栏; "..YELLOW.."英雄难度 [3]"..WHITE..")"
-Inst53Quest14_Note = "土灵徽记 掉落自 格鲁尔"..YELLOW.."格鲁尔的巢穴 [2]"..WHITE.." 灿烂徽记 掉落自 夜之魇 "..YELLOW.."卡拉赞 [11]"..WHITE.."."
+Inst53Quest14_Aim = "将土灵徽记和灿烂徽记交给盘牙水库奴隶围栏的异教徒斯卡希斯。"
+Inst53Quest14_Location = "异教徒斯卡希斯（奴隶围栏; "..YELLOW.."英雄难度[3]"..WHITE.."）"
+Inst53Quest14_Note = "土灵徽记掉落自格鲁尔"..YELLOW.."格鲁尔的巢穴[2]"..WHITE.."与灿烂徽记掉落自夜之魇"..YELLOW.."卡拉赞[15]"..WHITE.."。\n\n这个任务曾经是毒蛇神殿的进门任务。但是现在这不再是必须的。"
 Inst53Quest14_Prequest = "无"
 Inst53Quest14_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst53Quest15 = "15. Chamber of Secrets"
+Inst53Quest15 = "15. 卡拉赞的密室"
 Inst53Quest15_Level = "70"
 Inst53Quest15_Attain = "70"
-Inst53Quest15_Aim = "The Argent Dawn Emissary wants you to search the chamber of Tenris Mirkblood within the Servant's Quarters of Karazhan."
-Inst53Quest15_Location = "Argent Dawn Emissary  (Capital Cities and Eastern Plaguelands - Light's Hope Chapel)"
-Inst53Quest15_Note = "This quest was only available during the Scourge Invasion Event in Late October and Early November of 2008.\n\nTo complete the quest, use the scrolls behind Prince Tenris Mirkblood, who is in the Servants Chambers above Attumen the Huntsmen ("..YELLOW.."[5]"..WHITE.."). As with opening a chest, if another player is using the scrolls your quest might not complete. Try again until it does."
-Inst53Quest15_Prequest = "No"
-Inst53Quest15_Folgequest = "No"
+Inst53Quest15_Aim = "银色特使要你进入卡拉赞的仆役宿舍，在特里斯·黯血王子的房间中寻找线索。 "
+Inst53Quest15_Location = "银色特使（各大主城或者东瘟疫之地 - 圣光之愿礼拜堂）"
+Inst53Quest15_Note = "这个任务只能在20XX年X月到X月之间天在入侵事件时才能接到。\n\n完成任务后，在猎手阿图门之上的仆役宿舍，使用特里斯·黯血王子身后的卷轴("..YELLOW.."[5]"..WHITE..")。 将打开一个箱子，如果有其他玩家正在使用卷轴时你的任务并不会完成。请再次尝试打开卷轴。"
+Inst53Quest15_Prequest = "无"
+Inst53Quest15_Folgequest = "无"
 --
-Inst53Quest15name1 = "Monster Slayer's Kit"
+Inst53Quest15name1 = "要你命3000"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst53Quest1_HORDE = Inst53Quest1
@@ -8573,72 +8741,73 @@ Inst53Quest15_HORDE_Folgequest = Inst53Quest15_Folgequest
 --
 Inst53Quest15name1_HORDE = Inst55Quest13name1
 
+
+
 --------------- INST54 - TK: Arcatraz (Arc) ---------------
 Inst54Story = "风暴要塞原先是神秘的纳鲁用来在大宇宙中旅行的跨次元飞船。燃烧军团的统领，堕落泰坦萨格拉斯看见了来自阿古斯行星的艾瑞达人的智慧，决定使他们成为他的恶魔军队的一员。阿克蒙德和基尔加丹，艾瑞达人的2个领袖，接受了萨格拉斯的邀请。但是第三位领袖维伦看到萨格拉斯是邪恶的，乘坐着纳鲁的风暴要塞逃离了阿古斯行星。穿越了扭曲虚空之后，维伦和他的追随者最终到达了一个被他们称为德拉诺的新世界。基尔加丹为了消灭所有艾瑞达人的残余（现在被称为德莱尼人），将德拉诺大陆的兽人腐化为野蛮的战士，大肆屠杀德莱尼人。此外，血精灵的领袖凯尔萨斯王子发现了风暴要塞中潜藏的奥术能量，用武力将风暴要塞从纳鲁和德莱尼人手中抢了过来。"
-Inst54Caption = "风暴要塞：禁魔监狱"
+Inst54Caption = "风暴要塞：禁魔监狱（Arc）"
 Inst54QAA = "6 个任务"
 Inst54QAH = "6 个任务"
 Inst54General = {
-
     {
     "自由的瑟雷凯斯",
-    "暗影抗性装备和药水在战斗中非常有效，因为boss本身就是暗影。他所有的技能都可以躲开，虚空领域看上去就是一个黑色圆环，不要站在里面就可以了。至于腐蚀之种，它的攻击范围很小，只有10码。",
-   RED .. "腐蚀之种：" .. WHITE .. " 对目标施放一枚恶魔种子，在18秒内造成3600点暗影伤害。当目标受到2500点暗影伤害之后，种子会爆发，对10码内的玩家造成伤害.\n" .. RED .. "暗影新星：" .. WHITE .. "AoE暗影冲击波，造成2200－2500暗影伤害，附带击退效果.\n" .. RED .. "随机虚空领域：" .. WHITE .. "在房间内随机施放，对处于其中的玩家造成每秒1500暗影伤害。",
+    "暗影抗性装备和药水在战斗中非常有效，因为 Boss 本身就是暗影。他所有的技能都可以躲开，虚空领域看上去就是一个黑色圆环，不要站在里面就可以了。至于腐蚀之种，它的攻击范围很小，只有10码。",
+   RED .. "腐蚀之种" .. WHITE .. "：对目标施放一枚恶魔种子，在18秒内造成3600点暗影伤害。当目标受到2500点暗影伤害之后，种子会爆发，对10码内的玩家造成伤害。\n" .. RED .. "暗影新星" .. WHITE .. "：AoE 暗影冲击波，造成2200－2500暗影伤害，附带击退效果。\n" .. RED .. "随机虚空领域" .. WHITE .. "：在房间内随机施放，对处于其中的玩家造成每秒1500暗影伤害。",
     },
 
     {
     "末日预言者达尔莉安",
-    "必须要避免的一点是不要在坦克身上有debuff的时候治疗他。当达利阿开始施放旋风技能时（她在这个时候不会移动），所有人包括坦克在内都需要移动开。当旋风技能结束时她会施放治疗，这时候近战再上去打断。",
-    RED .. "末日诉说者的恩赐：" .. WHITE .. "这是一个危险的debuff，不能被驱散。当身上有这个debuff的队员受到治疗时，有一定几率也会治疗达尔莉安。\n" .. RED .. "治疗：" .. WHITE .. ": 在她生命不多时，施放了旋风技能之后她会施放这个技能。可以被打断（脚踢，反制等）。\n" .. RED .. "旋风：" .. WHITE .. "对附近的敌人进行旋风打击，持续8秒，造成通常伤害外加725点额外伤害。",
+    "必须要避免的一点是不要在坦克身上有减益的时候治疗他。当达尔莉安开始施放旋风技能时（她在这个时候不会移动），所有人包括坦克在内都需要移动开。当旋风技能结束时她会施放治疗，这时候近战再上去打断。",
+    RED .. "末日诉说者的恩赐" .. WHITE .. "：这是一个危险的减益，不能被驱散。当身上有这个减益的队员受到治疗时，有一定几率也会治疗达尔莉安。\n" .. RED .. "治疗" .. WHITE .. "：在她生命不多时，施放了旋风技能之后她会施放这个技能。可以被打断（脚踢，反制等）。\n" .. RED .. "旋风" .. WHITE .. "：对附近的敌人进行旋风打击，持续8秒，造成通常伤害外加725点额外伤害。",
     },
 
     {
     "天怒预言者苏克拉底",
-    "这个小boss比较难。他的击飞技能能够把玩家打飞40码。这样你必须背靠墙。这样当玩家背靠墙之后他会对随机玩家进行冲锋，在身后留下一道火痕。火痕会造成直接伤害和火系dot。\n此外，不要站在boss附近。他的火焰光环范围大约在15码左右，进入这个范围的玩家会受到一个火焰debuff的火焰伤害。你的队伍必须尽快干掉这个boss，治疗者不可能在这里支持很长时间。在必要的时候德鲁伊需要激活牧师。",
-   RED .. "击飞:" .. WHITE .. "对附近10码的玩家进行沉重打击并将他们击飞.\n" .. RED .. "献祭：" .. WHITE .. " 对附近的玩家造成每2秒832至918点火焰伤害.\n" .. RED .. "恶魔之火残焰:" .. WHITE .. " 苏格拉底经过的地方身后将留下一道火焰残余，对任何站在上面的玩家造成每秒2000点伤害。\n" .. RED .. "恶魔之火震击：" .. WHITE .. "对一个玩家造成1500直接伤害，并且接下来受到12秒的火焰dot效果。",
+    "这个小 Boss 比较难。他的击飞技能能够把玩家打飞40码。这样你必须背靠墙。这样当玩家背靠墙之后他会对随机玩家进行冲锋，在身后留下一道火痕。火痕会造成直接伤害和火系持续伤害。\n此外，不要站在 Boss 附近。他的火焰光环范围大约在15码左右，进入这个范围的玩家会受到一个火焰减益的火焰伤害。你的队伍必须尽快干掉这个 Boss，治疗者不可能在这里支持很长时间。在必要的时候德鲁伊需要激活牧师。",
+   RED .. "击飞" .. WHITE .. "：对附近10码的玩家进行沉重打击并将他们击飞。\n" .. RED .. "献祭" .. WHITE .. "：对附近的玩家造成每2秒832 - 918点火焰伤害。\n" .. RED .. "恶魔之火残焰" .. WHITE .. "：苏克拉底经过的地方身后将留下一道火焰残余，对任何站在上面的玩家造成每秒2000点伤害。\n" .. RED .. "恶魔之火震击" .. WHITE .. "：对一个玩家造成1500直接伤害，并且接下来受到12秒的火焰持续伤害效果。",
     },
 
     {
     "预言者斯克瑞斯",
-    "这一场战斗很有乐趣，也很有挑战。当你靠近这个正在引导一些罐子的血法师时，事件开始了。会分别出来四个罐子，其中第二个罐子是一个小侏儒，他会在后来的战斗中帮助你。其余3个罐子分别是小鬼，MC老七似的怪和精英龙人，中间有休息时间。BOSS战斗一开始是基本的坦克/dps战，但是他的技能很厉害。精神燃烧会对队员造成大量伤害，而一次不走运的精神控制会使战斗变得更为艰难。在战斗中他会复制自己2－3次。这时候你将会面对2个先驱者。所有队员应该马上将火力集中到无人坦克的那个先驱者身上。新出现的先驱者的生命较少，可以被很快杀死。如果你的队伍能够干掉复制，同时保持生存，那么胜利最终属于你们。",
-   RED .. "精神燃烧:" .. WHITE .. " 对随机队伍目标造成1500－2000点伤害.\n" .. RED .. "精神控制：" .. WHITE .. " 对随机队伍目标进行精神控制.\n" .. RED .. "复制:" .. WHITE .. " 复制自己，出现一个同样技能但是HP很低的精英.",
+    "这一场战斗很有乐趣，也很有挑战。当你靠近这个正在引导一些罐子的血法师时，事件开始了。会分别出来四个罐子，其中第二个罐子是一个小侏儒，他会在后来的战斗中帮助你。其余3个罐子分别是小鬼，熔火之心似的怪和精英龙人，中间有休息时间。Boss 战斗一开始是基本的坦克/DPS 战，但是他的技能很厉害。精神燃烧会对队员造成大量伤害，而一次不走运的精神控制会使战斗变得更为艰难。在战斗中他会复制自己2－3次。这时候你将会面对2个先驱者。所有队员应该马上将火力集中到无人坦克的那个先驱者身上。新出现的先驱者的生命较少，可以被很快杀死。如果你的队伍能够干掉复制，同时保持生存，那么胜利最终属于你们。",
+   RED .. "精神燃烧" .. WHITE .. "：对随机队伍目标造成1500－2000点伤害。\n" .. RED .. "精神控制" .. WHITE .. "：对随机队伍目标进行精神控制。\n" .. RED .. "复制" .. WHITE .. "：复制自己，出现一个同样技能但是生命很低的精英。",
     },
 };
 
 --Quest 1 Alliance
 Inst54Quest1 = "1. 末日的预言者"
 Inst54Quest1_Level = "70"
-Inst54Quest1_Attain = "70"
+Inst54Quest1_Attain = "67"
 Inst54Quest1_Aim = "进入风暴要塞的禁魔监狱，杀死预言者斯克瑞斯。完成任务后返回沙塔斯城的圣光广场，向阿达尔复命。"
-Inst54Quest1_Location = "阿达尔 (沙塔斯城; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest1_Note = "这是虚空风暴开始的一个连续任务，初始任务NPC是虚空行者 凯泽 在 "..YELLOW.."32,64"..WHITE.."."
-Inst54Quest1_Prequest = "有,完成三角测量"
+Inst54Quest1_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）"
+Inst54Quest1_Note = "这是虚空风暴开始的一个连续任务，初始任务 NPC 是虚空猎手卡尔伊在（虚空风暴 - 52区; "..YELLOW.."32,64"..WHITE.."）。"
+Inst54Quest1_Prequest = "有，星界强盗奈萨德 -> 如何杀入禁魔监狱"
 Inst54Quest1_Folgequest = "无"
 Inst54Quest1PreQuest = "true"
 --
-Inst54Quest1name1 = "Potent Sha'tari Pendant"
-Inst54Quest1name2 = "A'dal's Recovery Necklace"
-Inst54Quest1name3 = "Shattrath Choker of Power"
+Inst54Quest1name1 = "沙塔尔强能坠饰"
+Inst54Quest1name2 = "阿达尔的恢复项链"
+Inst54Quest1name3 = "沙塔斯能量项链"
 
 --Quest 2 Alliance
 Inst54Quest2 = "2. 先知乌达鲁"
 Inst54Quest2_Level = "70"
 Inst54Quest2_Attain = "68"
-Inst54Quest2_Aim = "前往风暴要塞的禁魔监狱，寻找乌达鲁."
-Inst54Quest2_Location = "阿卡玛 (影月谷; "..YELLOW.."58,48"..WHITE..")"
-Inst54Quest2_Note = "需要完成影月谷的一个连续任务，初始NPC在 影月谷 "..YELLOW.."62,38"..WHITE.."(奥尔多) and "..YELLOW.."56,59"..WHITE.." (占星者)"
-Inst54Quest2_Prequest = "有, 阿卡玛"
-Inst54Quest2_Folgequest = "有, 神秘的征兆"
+Inst54Quest2_Aim = "前往风暴要塞的禁魔监狱，寻找乌达鲁。"
+Inst54Quest2_Location = "阿卡玛（影月谷 - 守望者牢笼; "..YELLOW.."58,48"..WHITE.."）"
+Inst54Quest2_Note = "先知乌达鲁在"..YELLOW.."[5]"..WHITE.."，最后的 Boss 之前的房间。\n\n这是黑暗神殿进门任务一部分，起始于奥尔多声望的学者希拉（影月谷 - 沙塔尔祭坛; "..YELLOW.."62,38"..WHITE.."）或占星者声望的奥术师塞里斯（影月谷 - 群星圣殿; "..YELLOW.."56,59"..WHITE.."）。"
+Inst54Quest2_Prequest = "有，巴尔里石板 -> 阿卡玛"
+Inst54Quest2_Folgequest = "有，神秘的征兆"
 Inst54Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst54Quest3 = "3.纳鲁的试炼：坚韧 (英雄难度)"
+Inst54Quest3 = "3. 纳鲁的试炼：坚韧（英雄难度）"
 Inst54Quest3_Level = "70"
 Inst54Quest3_Attain = "70"
-Inst54Quest3_Aim = "沙塔斯城的阿达尔要求你从风暴要塞的禁魔监狱中救出米尔豪斯·法力风暴."
-Inst54Quest3_Location = "阿达尔 (沙塔斯城; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest3_Note = "这个任务需要英雄难度. 米尔豪斯·法力风暴就在监护者梅里卡尔的房间"..YELLOW.."[6]"..WHITE.."."
+Inst54Quest3_Aim = "沙塔斯城的阿达尔要求你从风暴要塞的禁魔监狱中救出米尔豪斯·法力风暴。\n\n该任务必须在英雄等级难度的地下城中完成。"
+Inst54Quest3_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）"
+Inst54Quest3_Note = "需要英雄难度副本。米尔豪斯·法力风暴就在监护者梅里卡尔的房间"..YELLOW.."[6]"..WHITE.."。\n\n这个任务曾经是风暴要塞：风暴之眼进门任务，但是现在这不再是必须的。"
 Inst54Quest3_Prequest = "无"
 Inst54Quest3_Folgequest = "无"
 -- No Rewards for this quest
@@ -8647,37 +8816,37 @@ Inst54Quest3_Folgequest = "无"
 Inst54Quest4 = "4. 第二块和第三块"
 Inst54Quest4_Level = "70"
 Inst54Quest4_Attain = "68"
-Inst54Quest4_Aim = "在盘牙洞穴的秘法容器里取得第二块钥匙碎片，风暴要塞的秘法容器里取得第三块钥匙碎片。完成任务后回到撒塔斯城的卡德加那里。"
-Inst54Quest4_Location = "卡德加 (沙塔斯城; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest4_Note = "秘法容器 在 "..YELLOW.."[2]"..WHITE.."."
-Inst54Quest4_Prequest = "有, 卡拉赞的钥匙 (暗影迷宫)"
-Inst54Quest4_Folgequest = "有, 麦迪文的触摸(黑色沼泽)"
+Inst54Quest4_Aim = "从盘牙水库内的一个奥术容器中拿到第二块钥匙碎片，从风暴要塞内的一个奥术容器中拿到第三块钥匙碎片。任务完成之后向沙塔斯城的卡德加复命。"
+Inst54Quest4_Location = "卡德加（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）"
+Inst54Quest4_Note = "卡拉赞钥匙任务。秘法容器在"..YELLOW.."[2]"..WHITE.."，打开后杀掉第三块碎片的守护者拾取任务物品。第二块在蒸汽地窟。"
+Inst54Quest4_Prequest = "有，卡拉赞的钥匙（"..YELLOW.."暗影迷宫"..WHITE.."）"
+Inst54Quest4_Folgequest = "有，麦迪文的触摸（"..YELLOW.."黑色沼泽"..WHITE.."）"
 Inst54Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst54Quest5 = "5. 悬赏：斯克瑞斯的卷轴 (英雄日常)"
+Inst54Quest5 = "5. 悬赏：斯克瑞斯的卷轴（英雄日常）"
 Inst54Quest5_Level = "70"
 Inst54Quest5_Attain = "70"
-Inst54Quest5_Aim = "商人扎雷姆要求你夺得斯克瑞斯的卷轴。将卷轴带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst54Quest5_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst54Quest5_Note = "斯克瑞斯 在 "..YELLOW.."[6]"..WHITE.."."
+Inst54Quest5_Aim = "商人扎雷姆要求你夺得斯克瑞斯的卷轴。将卷轴带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst54Quest5_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst54Quest5_Note = "需要英雄难度副本。\n\n预言者斯克瑞斯在"..YELLOW.."[6]"..WHITE.."。"
 Inst54Quest5_Prequest = "无"
 Inst54Quest5_Folgequest = "无"
 --
 Inst54Quest5name1 = "公正徽章"
 
 --Quest 6 Alliance
-Inst54Quest6 = "6. 悬赏：禁魔监狱斥候 (普通日常)"
+Inst54Quest6 = "6. 悬赏：禁魔监狱斥候（日常）"
 Inst54Quest6_Level = "70"
 Inst54Quest6_Attain = "70"
-Inst54Quest6_Aim = "虚空猎手玛哈杜恩要求你杀死5名禁魔监狱斥候。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏."
-Inst54Quest6_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst54Quest6_Note = "普通日常."
-Inst54Quest6_Prequest = "No"
-Inst54Quest6_Folgequest = "No"
+Inst54Quest6_Aim = "虚空猎手玛哈杜恩要求你杀死5名禁魔监狱斥候。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
+Inst54Quest6_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst54Quest6_Note = "普通日常任务。"
+Inst54Quest6_Prequest = "无"
+Inst54Quest6_Folgequest = "无"
 --
-Inst54Quest6name1 = "Ethereum Prison Key"
+Inst54Quest6name1 = "复仇军监牢钥匙"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8759,38 +8928,38 @@ Inst54Quest6name1_HORDE = Inst54Quest6name1
 --------------- INST55 - TK: Botanica (Bot) ---------------
 
 Inst55Story = "风暴要塞原先是神秘的纳鲁用来在大宇宙中旅行的跨次元飞船。燃烧军团的统领，堕落泰坦萨格拉斯看见了来自阿古斯行星的艾瑞达人的智慧，决定使他们成为他的恶魔军队的一员。阿克蒙德和基尔加丹，艾瑞达人的2个领袖，接受了萨格拉斯的邀请。但是第三位领袖维伦看到萨格拉斯是邪恶的，乘坐着纳鲁的风暴要塞逃离了阿古斯行星。穿越了扭曲虚空之后，维伦和他的追随者最终到达了一个被他们称为德拉诺的新世界。基尔加丹为了消灭所有艾瑞达人的残余（现在被称为德莱尼人），将德拉诺大陆的兽人腐化为野蛮的战士，大肆屠杀德莱尼人。此外，血精灵的领袖凯尔萨斯王子发现了风暴要塞中潜藏的奥术能量，用武力将风暴要塞从纳鲁和德莱尼人手中抢了过来。"
-Inst55Caption = "风暴要塞 - 生态船"
+Inst55Caption = "风暴要塞：生态船（Bot）"
 Inst55QAA = "5 个任务"
 Inst55QAH = "5 个任务"
 Inst55General = {
     {
     "指挥官萨拉妮丝",
-    "坦克可以在她的桥上拉住她，然后她会马上开始在坦克身上叠加奥术共振效果。最好驱散这些效果。很快她的生命就会降低到50％，随后她开始召唤救援。小队应该有一个计划来对付这些救援，控制他们或者干掉他们。例如说我们可以不断恐惧他们，迅速杀死boss，然后干掉血精灵护卫和血精灵修复者.",
-    RED .. "奥术灾难" .. WHITE .. "瞬发的武器攻击，造成50％武器伤害，并且目标身上每一层奥术共振都会造成1200点额外伤害。\n" .. RED .. "奥术共振" .. WHITE .. ": 在近战武器击中时有一定几率触发，使目标受到的奥术伤害增加1200点。\n" .. RED .. "召唤救援" .. WHITE .. ": 在50％生命时，撒拉妮斯会召唤2个非精英的血精灵护卫和一个精英的血精灵修复者。（血精灵修复者会对她施放强效资料术，治疗9000点以上生命。他还可以给血精灵护卫buff，使他们可以施放500点伤害的奥术攻击）。",
+    "坦克可以在她的桥上拉住她，然后她会马上开始在坦克身上叠加奥术共振效果。最好驱散这些效果。很快她的生命就会降低到50%，随后她开始召唤救援。小队应该有一个计划来对付这些救援，控制他们或者干掉他们。例如可以不断恐惧他们，迅速杀死 Boss，然后干掉血精灵护卫和血精灵修复者。",
+    RED .. "奥术灾难" .. WHITE .. "：瞬发的武器攻击，造成50%武器伤害，并且目标身上每一层奥术共振都会造成1200点额外伤害。\n" .. RED .. "奥术共振" .. WHITE .. "：在近战武器击中时有一定几率触发，使目标受到的奥术伤害增加1200点。\n" .. RED .. "召唤救援" .. WHITE .. "：在50%生命时，萨拉妮丝会召唤2个非精英的血精灵护卫和一个精英的血精灵修复者。（血精灵修复者会对她施放强效治疗术，治疗9000点以上生命。他还可以给血精灵护卫增益，使他们可以施放500点伤害的奥术攻击）。",
     },
 
     {
     "高级植物学家弗雷温",
-    "这场战斗的核心就在于站位。很重要的一点是在弗雷温开始引导宁静的时候我们把他的保护者拉出他的视线，这样我们就可以快速干掉它们。比较简单的一个策略是在桥上面对付boss然后利用墙来阻断视线。当boss刚刚变成生命之树的时候，每个人都要跑到墙的另一面去，然后等保护者一转过墙角就快速干掉它们。\n战斗的另一点就是在它施放的幼苗。幼苗会对队员，通常是坦克，施放某种debuff。我们能够驱散的只是魔法效果。但是它们的生命值很低，并且boss召唤它们的频率很快。我们需要有1个dps职业照看这些幼苗，它们只有1500血，几乎一出来就被干掉了。但是它们出现的速度如此之快，我们有可能需要第二个dps职业来对付它们，不过这也是视战斗情况而定。",
-   RED .. "棘刺保护者:" .. WHITE .. "棘刺保护者可以使用'荆棘射击'技能，这是一种远程攻击，可以造成1200点自然伤害.\n" .. RED .. "种植‘某种颜色’的幼苗:" .. WHITE .. " 每5－10秒种植一次，可以施放一种debuff.\n" .. RED .. "生命之树:" .. WHITE .. " 每30 - 40秒弗莱文会变形成为一棵生命之树，并且开始引导不可打断的宁静法术，每秒治疗他和他的保护者964点生命。同时他会召唤3个保护者。",
+    "这场战斗的核心就在于站位。很重要的一点是在弗雷温开始引导宁静的时候我们把他的保护者拉出他的视线，这样我们就可以快速干掉它们。比较简单的一个策略是在桥上面对付 Boss 然后利用墙来阻断视线。当 Boss 刚刚变成生命之树的时候，每个人都要跑到墙的另一面去，然后等保护者一转过墙角就快速干掉它们。\n战斗的另一点就是在它施放的幼苗。幼苗会对队员，通常是坦克，施放某种减益。我们能够驱散的只是魔法效果。但是它们的生命值很低，并且 Boss 召唤它们的频率很快。我们需要有1个 DPS 职业照看这些幼苗，它们只有1500血，几乎一出来就被干掉了。但是它们出现的速度如此之快，我们有可能需要第二个 DPS 职业来对付它们，不过这也是视战斗情况而定。",
+   RED .. "棘刺保护者" .. WHITE .. "：棘刺保护者可以使用‘荆棘射击’技能，这是一种远程攻击，可以造成1200点自然伤害。\n" .. RED .. "种植‘某种颜色’的幼苗" .. WHITE .. "：每5－10秒种植一次，可以施放一种减益。\n" .. RED .. "生命之树" .. WHITE .. "：每30 - 40秒弗雷温会变形成为一棵生命之树，并且开始引导不可打断的宁静法术，每秒治疗他和他的保护者964点生命。同时他会召唤3个保护者。",
     },
 
     {
     "看管者索恩格林",
-    "在拉boss之前，他南边的一条走廊应该被清空，那里的墙上有隐形的虚空藤蔓。然后将boss从站立的地方拉到空旷的大厅中，这是为了避免他的地狱火施放到一个已经被牺牲技能击晕了的队员身上造成秒杀。他的牺牲技能对随机目标施放，需要对中了该技能的队员不断进行治疗。而他的地狱火技能很好躲开，在施放技能之前他会大叫，这时候要尽快离开他身边。",
-   RED .. "激怒:" .. WHITE .. " 在20％生命时他会激怒，近战伤害增加。\n" .. RED .. "地狱火:" .. WHITE .. " AoE的火焰伤害，每秒造成1200 - 1500火焰伤害，持续8 - 10 秒，同时会大叫：我要烧尽你们.\n" .. RED .. "牺牲:" .. WHITE .. " 击晕一个队员并且每秒吸收642 - 708伤害，同时大叫：‘你的生命是我的’.",
+    "在拉 Boss 之前，他南边的一条走廊应该被清空，那里的墙上有隐形的虚空藤蔓。然后将 Boss 从站立的地方拉到空旷的大厅中，这是为了避免他的地狱火施放到一个已经被牺牲技能击晕了的队员身上造成秒杀。他的牺牲技能对随机目标施放，需要对中了该技能的队员不断进行治疗。而他的地狱火技能很好躲开，在施放技能之前他会大叫，这时候要尽快离开他身边。",
+   RED .. "激怒" .. WHITE .. "：在20%生命时他会激怒，近战伤害增加。\n" .. RED .. "地狱火" .. WHITE .. "：AoE 的火焰伤害，每秒造成1200 - 1500火焰伤害，持续8 - 10 秒，同时会大叫：我要烧尽你们。\n" .. RED .. "牺牲" .. WHITE .. "：击晕一个队员并且每秒吸收642 - 708伤害，同时大叫：‘你的生命是我的’。",
     },
     
     {
     "拉伊",
-    "拉伊的战斗比较简单，可以就在它站立的地方坦克它。在每个底座上面安排一个远程dps这样他们在消灭掉拉伊的召唤之后可以马上把火力转向boss。此外还有它的致病技能，但是只要及时驱散并且照顾好召唤，很快战斗就可以结束了。",
-   RED .. "过敏反应:" .. WHITE .. " 使一个目标生病18秒，在此期间目标受到的伤害提高500点。同时造成自然伤害。生病的目标有一定几率传染给临近的队友。\n" .. RED .. "召唤荆棘:" .. WHITE .. "在拉伊面前的2个底座上出现一个荆棘鞭挞者或荆棘抽刺者攻击小队。",
+    "拉伊的战斗比较简单，可以就在它站立的地方坦克它。在每个底座上面安排一个远程 DPS 这样他们在消灭掉拉伊的召唤之后可以马上把火力转向 Boss。此外还有它的致病技能，但是只要及时驱散并且照顾好召唤，很快战斗就可以结束了。",
+   RED .. "过敏反应" .. WHITE .. "：使一个目标生病18秒，在此期间目标受到的伤害提高500点。同时造成自然伤害。生病的目标有一定几率传染给临近的队友。\n" .. RED .. "召唤荆棘" .. WHITE .. "：在拉伊面前的2个底座上出现一个荆棘鞭笞者或荆棘抽刺者攻击小队。",
     },
     
     {
     "迁跃扭木",
-    "迁跃扭木的战斗不难，主要考验你的队伍集中火力的能力。\n战斗开始坦克要把boss拉好，然后dps和治疗都开始负起自己的责任。\n在战斗中boss会周期性的召唤树苗，树苗会缓慢走向队伍，并不会立刻造成威胁。召唤20秒过后，boss会吞噬树苗，根据树苗剩余生命的多少，恢复1％至30％生命。\n由于吞噬回复的生命值相当多，杀掉这些树苗是战斗中的首要目标。当他们出现时，所有dps必须集中尽快消灭它们。\n如果你的队伍能够坚持下去，这场战斗并不困难。",
-   RED .. "群体奥术箭:" .. WHITE .. "AoE奥术箭，造成1500 - 2200 奥术伤害。\n" .. RED .. "践踏:" .. WHITE .. " 40码范围AoE击晕，造成1000 - 2500物理伤害，受到的物理伤害提高550点，持续5秒.\n" .. RED .. "召唤树苗:" .. WHITE .. " 召唤6只树苗从草地上开始攻击队伍，造成很小的物理伤害。召唤20秒后，boss会吞噬掉树苗，恢复等同于全部树苗剩余生命值的HP。",
+    "迁跃扭木的战斗不难，主要考验你的队伍集中火力的能力。\n战斗开始坦克要把 Boss 拉好，然后 DPS 和治疗都开始负起自己的责任。\n在战斗中 Boss 会周期性的召唤树苗，树苗会缓慢走向队伍，并不会立刻造成威胁。召唤20秒过后，Boss 会吞噬树苗，根据树苗剩余生命的多少，恢复1%至30%生命。\n由于吞噬回复的生命值相当多，杀掉这些树苗是战斗中的首要目标。当他们出现时，所有 DPS 必须集中尽快消灭它们。\n如果你的队伍能够坚持下去，这场战斗并不困难。",
+   RED .. "群体奥术箭" .. WHITE .. "：AoE 奥术箭，造成1500 - 2200 奥术伤害。\n" .. RED .. "践踏" .. WHITE .. "：40码范围 AoE 击晕，造成1000 - 2500物理伤害，受到的物理伤害提高550点，持续5秒。\n" .. RED .. "召唤树苗" .. WHITE .. "：召唤6只树苗从草地上开始攻击队伍，造成很小的物理伤害。召唤20秒后，Boss 会吞噬掉树苗，恢复等同于全部树苗剩余生命值的生命。",
     },
     
 };
@@ -8799,67 +8968,67 @@ Inst55General = {
 Inst55Quest1 = "1. 如何杀入禁魔监狱"
 Inst55Quest1_Level = "70"
 Inst55Quest1_Attain = "67"
-Inst55Quest1_Aim = "阿达尔要你取回禁魔监狱钥匙的上半块和下半块，他会将这两块碎片组合成禁魔监狱钥匙."
-Inst55Quest1_Location = "阿达尔 (沙塔斯城; "..YELLOW.."53,43"..WHITE..")"
-Inst55Quest1_Note = "下半块出自 迁跃扭木 "..YELLOW.."[5]"..WHITE..". 上板块出自能量舰."
-Inst55Quest1_Prequest = "有, 送往沙塔斯的特殊货物 "
-Inst55Quest1_Folgequest = "有, 末日的预言者 (禁魔监狱)"
+Inst55Quest1_Aim = "阿达尔要你取回禁魔监狱钥匙的上半块和下半块，他会将这两块碎片组合成禁魔监狱钥匙。"
+Inst55Quest1_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）"
+Inst55Quest1_Note = "禁魔监狱钥匙的上半块由迁跃扭木"..YELLOW.."[5]"..WHITE.."掉落。禁魔监狱钥匙的下半块出自能源舰。"
+Inst55Quest1_Prequest = "有，星界强盗奈萨德 -> 送往沙塔斯的特殊货物"
+Inst55Quest1_Folgequest = "有，末日的预言者（"..YELLOW.."禁魔监狱"..WHITE.."）"
 Inst55Quest1PreQuest = "true"
 --
-Inst55Quest1name1 = "Sha'tari Anchorite's Cloak"
-Inst55Quest1name2 = "A'dal's Gift"
-Inst55Quest1name3 = "Naaru Belt of Precision"
-Inst55Quest1name4 = "Shattrath's Champion Belt"
-Inst55Quest1name5 = "Sha'tari Vindicator's Waistguard"
-Inst55Quest1name6 = "Key to the Arcatraz"
+Inst55Quest1name1 = "沙塔尔学者披风"
+Inst55Quest1name2 = "阿达尔的礼物"
+Inst55Quest1name3 = "纳鲁精准腰带"
+Inst55Quest1name4 = "沙塔斯勇士腰带"
+Inst55Quest1name5 = "沙塔尔守备官腰带"
+Inst55Quest1name6 = "禁魔监狱钥匙"
 
 --Quest 2 Alliance
 Inst55Quest2 = "2. 夺回钥石"
 Inst55Quest2_Level = "70"
 Inst55Quest2_Attain = "67"
-Inst55Quest2_Aim = "进入风暴要塞的生态船，从指挥官萨拉妮丝手中夺得钥石，将它交给紫罗兰之塔的大法师瓦格斯."
-Inst55Quest2_Location = "大法师瓦格斯 (虚空风暴; "..YELLOW.."58,86"..WHITE..")"
-Inst55Quest2_Note = "指挥官萨拉妮丝 在 "..YELLOW.."[1]"..WHITE.."."
-Inst55Quest2_Prequest = "有, 钥匙的主人"
+Inst55Quest2_Aim = "进入风暴要塞的生态船，从指挥官萨拉妮丝手中夺得钥石，将它交给紫罗兰之塔的大法师瓦格斯。"
+Inst55Quest2_Location = "大法师瓦格斯（虚空风暴 - 肯瑞瓦村; "..YELLOW.."58,86"..WHITE.."）"
+Inst55Quest2_Note = "指挥官萨拉妮丝在"..YELLOW.."[1]"..WHITE.."。\n\n普通难度和英雄难度都会掉落任务物品。"
+Inst55Quest2_Prequest = "有，钥匙的主人"
 Inst55Quest2_Folgequest = "无"
 Inst55Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst55Quest3 = "3. 药水大师 (炼金术)"
+Inst55Quest3 = "3. 药水大师（炼金术）"
 Inst55Quest3_Level = "70"
 Inst55Quest3_Attain = "68"
-Inst55Quest3_Aim = "劳兰娜·萨维尔要你去风暴要塞的生态船，从高级植物学家弗雷温那里得到植物学家的指南，同时交给她5瓶超强治疗药水，5瓶超强法力药水和5瓶超强昏睡药水."
-Inst55Quest3_Location = "劳兰娜·萨维尔 (赞加沼泽--塞纳里奥庇护所; "..YELLOW.."80,64"..WHITE..")"
-Inst55Quest3_Note = "高级植物学家弗雷温 在 "..YELLOW.."[2]"..WHITE.."."
-Inst55Quest3_Prequest = "有, 药水大师"
+Inst55Quest3_Aim = "劳兰娜·萨维尔要你前往风暴要塞的生态船，从高级植物学家弗雷温手中夺得植物学家的指南。此外，将5瓶超级治疗药水、5瓶超级法力药水和5瓶特效无梦睡眠药水一并交给她。"
+Inst55Quest3_Location = "劳兰娜·萨维尔（赞加沼泽 - 塞纳里奥庇护所; "..YELLOW.."80,64"..WHITE.."）"
+Inst55Quest3_Note = "高级植物学家弗雷温在"..YELLOW.."[2]"..WHITE.."。"
+Inst55Quest3_Prequest = "有，药水大师"
 Inst55Quest3_Folgequest = "无"
-Inst55Quest3PreQuest = "有"
+Inst55Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst55Quest4 = "4. 悬赏：扭木碎片 (英雄日常)"
+Inst55Quest4 = "4. 悬赏：扭木碎片（英雄日常）"
 Inst55Quest4_Level = "70"
 Inst55Quest4_Attain = "70"
-Inst55Quest4_Aim = "商人扎雷姆要求你夺得一份扭木碎片。将碎片带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst55Quest4_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst55Quest4_Note = "迁跃扭木 在 "..YELLOW.."[5]"..WHITE.."."
+Inst55Quest4_Aim = "商人扎雷姆要求你夺得一份扭木碎片。将碎片带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst55Quest4_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst55Quest4_Note = "需要英雄难度副本。\n\n迁跃扭木在"..YELLOW.."[5]"..WHITE.."。"
 Inst55Quest4_Prequest = "无"
 Inst55Quest4_Folgequest = "无"
 --
 Inst55Quest4name1 = "公正徽章"
 
 --Quest 5 Alliance
-Inst55Quest5 = "5. 悬赏：寻日者导魔者 (普通日常)"
+Inst55Quest5 = "5. 悬赏：寻日者导魔者（日常）"
 Inst55Quest5_Level = "70"
 Inst55Quest5_Attain = "70"
-Inst55Quest5_Aim = "虚空猎手玛哈杜恩要求你杀死6名寻日者导魔者。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏."
-Inst55Quest5_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst55Quest5_Note = "普通日常任务."
+Inst55Quest5_Aim = "虚空猎手玛哈杜恩要求你杀死6名寻日者导魔者。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
+Inst55Quest5_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst55Quest5_Note = "普通日常任务。"
 Inst55Quest5_Prequest = "无"
 Inst55Quest5_Folgequest = "无"
 --
-Inst55Quest5name1 = "Ethereum Prison Key"
+Inst55Quest5name1 = "复仇军监牢钥匙"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8933,32 +9102,32 @@ Inst55Quest5name1_HORDE = Inst55Quest5name1
 --------------- INST56 - TK: Mechanar (Mech) ---------------
 
 Inst56Story = "风暴要塞原先是神秘的纳鲁用来在大宇宙中旅行的跨次元飞船。燃烧军团的统领，堕落泰坦萨格拉斯看见了来自阿古斯行星的艾瑞达人的智慧，决定使他们成为他的恶魔军队的一员。阿克蒙德和基尔加丹，艾瑞达人的2个领袖，接受了萨格拉斯的邀请。但是第三位领袖维伦看到萨格拉斯是邪恶的，乘坐着纳鲁的风暴要塞逃离了阿古斯行星。穿越了扭曲虚空之后，维伦和他的追随者最终到达了一个被他们称为德拉诺的新世界。基尔加丹为了消灭所有艾瑞达人的残余（现在被称为德莱尼人），将德拉诺大陆的兽人腐化为野蛮的战士，大肆屠杀德莱尼人。此外，血精灵的领袖凯尔萨斯王子发现了风暴要塞中潜藏的奥术能量，用武力将风暴要塞从纳鲁和德莱尼人手中抢了过来。"
-Inst56Caption = "风暴要塞 - 能量舰"
+Inst56Caption = "风暴要塞：能源舰（Mech）"
 Inst56QAA = "4 个任务"
 Inst56QAH = "4 个任务"
 Inst56General = {
     {
     "看守者埃隆汉",
-    "英雄模式下 躲他的拳头,其余没难度",
-    RED .. "重重的抡起它的拳头" .. WHITE .. "：赶紧跑开吧，这时候它不动的",
+    "英雄模式下躲他的拳头，其余没难度。",
+    RED .. "重重的抡起它的拳头" .. WHITE .. "：赶紧跑开吧，这时候它不动的。",
     },
     
     {
     "机械领主卡帕西图斯",
-    "这个boss最厉害的攻击是虚空充能，它可以很轻易的造成团灭。你的队员需要躲开悬浮炸弹的伤害。你可以将除了坦克和近战dps的队员躲在通往boss的楼梯上。然后你的坦克将boss拉到它的房间边缘作战，远离他原来的位置。虚空充能炸弹将从那里释放。\n此外，你还需要当心他的反射盾技能。你可以通过侦测魔法技能探测，并且他的反射盾都有独特的动画显示：红色的物理攻击反射和绿色的魔法反射。",
-    RED .. "裂颅：" .. WHITE .. "单体debuff，降低耐力200点。\n" .. RED .. "虚空充能" .. WHITE .. ": 在整场战斗中，机械领主卡帕西图斯都会召唤悬浮炸弹。当这些炸弹爆炸时，会连续造成2次小的AoE伤害，然后是一次较大的AoE伤害（2000－3000）。\n" .. RED .. "伤害反射盾:" .. WHITE .. " 在boss身边召唤保护盾（红色），对击中它的近战攻击者造成750点奥术伤害\n" .. RED .. "魔法反射盾:" .. WHITE .. " 在boss身边召唤保护盾（绿色），反射100％的魔法攻击，持续10秒。\n" .. BLUE .. "英雄难度要点：英雄模式的这个BOSS会给玩家身上放正极电或者负极电的DEBUFF，电极相同的玩家在一起会得到伤害加成（比如2个同极电的在一起就会使伤害提高100%，3个同极电的在一起伤害会提高200%，以此类推），电极不同的玩家在一起则会相互放电造成伤害（每一次约2000伤害）。",
+    "这个 Boss 最厉害的攻击是虚空充能，它可以很轻易的造成团灭。你的队员需要躲开悬浮炸弹的伤害。你可以将除了坦克和近战 DPS 的队员躲在通往 Boss 的楼梯上。然后你的坦克将 Boss 拉到它的房间边缘作战，远离他原来的位置。虚空充能炸弹将从那里释放。\n此外，你还需要当心他的反射盾技能。你可以通过侦测魔法技能探测，并且他的反射盾都有独特的动画显示：红色的物理攻击反射和绿色的魔法反射。",
+    RED .. "裂颅" .. WHITE .. "：单体减益，降低耐力200点。\n" .. RED .. "虚空充能" .. WHITE .. "：在整场战斗中，机械领主卡帕西图斯都会召唤悬浮炸弹。当这些炸弹爆炸时，会连续造成2次小的 AoE 伤害，然后是一次较大的 AoE 伤害（2000－3000）。\n" .. RED .. "伤害反射盾" .. WHITE .. "：在 Boss 身边召唤保护盾（红色），对击中它的近战攻击者造成750点奥术伤害。\n" .. RED .. "魔法反射盾" .. WHITE .. "：在 Boss 身边召唤保护盾（绿色），反射100%的魔法攻击，持续10秒。\n" .. BLUE .. "英雄难度要点：英雄模式的这个 Boss 会给玩家身上放正极电或者负极电的减益，电极相同的玩家在一起会得到伤害加成（比如2个同极电的在一起就会使伤害提高100%，3个同极电的在一起伤害会提高200%，以此类推），电极不同的玩家在一起则会相互放电造成伤害（每一次约2000伤害）。",
     },
 
     {
     "灵术师塞比瑟蕾",
-    "首先要清空灵术师塞比瑟蕾的房间，因为你需要一定的空间来风筝2个愤怒火焰。只要能够小心的风筝火焰，战斗很简单。\n在boss战开始之后，灵术师塞比瑟蕾召唤2个愤怒火焰。获得愤怒火焰仇恨的人要将它们从队伍附近带开。它们移动速度很慢所以风筝起来应该很简单。\n在坦克中了困惑效果之后要马上解除，让坦克马上重新获得仇恨，否则她会攻击别人",
-   RED .. "龙息术:" .. WHITE .. " 与法师法术相同，造成的困惑效果会清除仇恨.\n" .. RED .. "霜击:" .. WHITE .. " 移动速度降低50％.\n" .. RED .. "召唤愤怒火焰:" .. WHITE .. " 进入战斗之后，灵术师塞比瑟蕾会召唤2个愤怒火焰（你不能放逐或恐惧它们）。它们的近战攻击会造成500－800点火焰伤害，在移动的时候会在地上留下一道火痕。不要踩在火痕上。在很短一段时间之后，它们会停止追逐它们的目标，开始施放地狱火。它们永远不会攻击boss的目标.\n\n" .. BLUE .. "英雄难度要点：英雄模式下会有3个火元素，更加考验站位，确保第2仇恨不是治疗可以在MT被龙息后被至于导致灭团。",
+    "首先要清空灵术师塞比瑟蕾的房间，因为你需要一定的空间来风筝2个愤怒火焰。只要能够小心的风筝火焰，战斗很简单。\n在 Boss 战开始之后，灵术师塞比瑟蕾召唤2个愤怒火焰。获得愤怒火焰仇恨的人要将它们从队伍附近带开。它们移动速度很慢所以风筝起来应该很简单。\n在坦克中了困惑效果之后要马上解除，让坦克马上重新获得仇恨，否则她会攻击别人。",
+   RED .. "龙息术" .. WHITE .. "：与法师法术相同，造成的困惑效果会清除仇恨。\n" .. RED .. "霜击" .. WHITE .. "：移动速度降低50%。\n" .. RED .. "召唤愤怒火焰" .. WHITE .. "：进入战斗之后，灵术师塞比瑟蕾会召唤2个愤怒火焰（你不能放逐或恐惧它们）。它们的近战攻击会造成500－800点火焰伤害，在移动的时候会在地上留下一道火痕。不要踩在火痕上。在很短一段时间之后，它们会停止追逐它们的目标，开始施放地狱火。它们永远不会攻击 Boss 的目标。\n\n" .. BLUE .. "英雄难度要点：英雄模式下会有3个火元素，更加考验站位，确保第2仇恨不是治疗可以在坦克被龙息后被至于导致灭团。",
     },
 
     {
     "计算者帕萨雷恩",
-    "战斗比较简单，让一个坦克来面对boss，剩余的队员全力对付召唤出来的幽魂。当所有的幽魂被消灭之后就去对付boss。至于他的精神控制，对被控制的队员稍微控制一下（恐惧，变羊……）就可以了。当然，如果有牧师或SS群恐，法师冰霜新星也可以控制怪然后集中BOSS",
-   RED .. "沉默（AoE）:" .. WHITE .. " 范围沉默，持续3秒.\n" .. RED .. "统御意志:" .. WHITE .. "精神控制技能，无法驱散.\n" .. RED .. "法力抽取:" .. WHITE .. "血精灵种族技能，抽取大约1500法力值.\n" .. RED .. "召唤虚空幽魂:" .. WHITE .. " 每30－45秒他会召唤4只虚空幽魂，幽魂会施放1300－1700伤害的奥术飞弹技能。\n\n" .. BLUE .. "英雄难度要点：BOSS攻击并不高,开始他会控制一个队友,可以冰箱解除,战斗开始30秒左右会招第一波小怪,可以先恐惧 冰环,治疗注意自己仇恨.等第二波小怪出来法师暴掉,期间DPS BOSS,最后阶段BOSS会狂暴,攻击速度和攻击都提升,开个泼技能就过去了,然后就祈祷自己的运气吧。切记，这个boss奥爆可以打断",
+    "战斗比较简单，让一个坦克来面对 Boss，剩余的队员全力对付召唤出来的幽魂。当所有的幽魂被消灭之后就去对付 Boss。至于他的精神控制，对被控制的队员稍微控制一下（恐惧，变羊……）就可以了。当然，如果有牧师或术士群恐，法师冰霜新星也可以控制怪然后集中 Boss。",
+   RED .. "沉默（AoE）" .. WHITE .. "：范围沉默，持续3秒。\n" .. RED .. "统御意志" .. WHITE .. "：精神控制技能，无法驱散。\n" .. RED .. "法力抽取" .. WHITE .. "：血精灵种族技能，抽取大约1500法力值。\n" .. RED .. "召唤虚空幽魂" .. WHITE .. "：每30－45秒他会召唤4只虚空幽魂，幽魂会施放1300－1700伤害的奥术飞弹技能。\n\n" .. BLUE .. "英雄难度要点：Boss 攻击并不高，开始他会控制一个队友，可以冰箱解除，战斗开始30秒左右会招第一波小怪，可以先恐惧、冰环，治疗注意自己仇恨。等第二波小怪出来法师暴掉，期间 DPS Boss，最后阶段 Boss 会狂暴，攻击速度和攻击都提升，开个破釜技能就过去了，然后就祈祷自己的运气吧。切记，这个 Boss 奥爆可以打断。",
     },
 };
 
@@ -8967,54 +9136,54 @@ Inst56Quest1 = "1. 如何杀入禁魔监狱"
 Inst56Quest1_Level = "70"
 Inst56Quest1_Attain = "67"
 Inst56Quest1_Aim = "阿达尔要你取回禁魔监狱钥匙的上半块和下半块，他会将这两块碎片组合成禁魔监狱钥匙."
-Inst56Quest1_Location = "阿达尔 (沙塔斯城; "..YELLOW.."53,43"..WHITE..")"
-Inst56Quest1_Note = "上半块由 计算者帕萨雷恩的影像 掉落，就在 "..YELLOW.."[5]"..WHITE..". 下半块在生态船."
-Inst56Quest1_Prequest = "有, 送往沙塔斯的特殊货物 "
-Inst56Quest1_Folgequest = "有, 末日的预言者 (禁魔监狱)"
+Inst56Quest1_Location = "阿达尔（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）"
+Inst56Quest1_Note = "禁魔监狱钥匙的下半块由计算者帕萨雷恩"..YELLOW.."[5]"..WHITE.."掉落，禁魔监狱钥匙的上半块出自生态船。"
+Inst56Quest1_Prequest = "有，星界强盗奈萨德 -> 送往沙塔斯的特殊货物"
+Inst56Quest1_Folgequest = "有，末日的预言者（"..YELLOW.."禁魔监狱"..WHITE.."）"
 Inst56Quest1PreQuest = "true"
 --
-Inst56Quest1name1 = "Sha'tari Anchorite's Cloak"
-Inst56Quest1name2 = "A'dal's Gift"
-Inst56Quest1name3 = "Naaru Belt of Precision"
-Inst56Quest1name4 = "Shattrath's Champion Belt"
-Inst56Quest1name5 = "Sha'tari Vindicator's Waistguard"
-Inst56Quest1name6 = "Key to the Arcatraz"
+Inst56Quest1name1 = "沙塔尔学者披风"
+Inst56Quest1name2 = "阿达尔的礼物"
+Inst56Quest1name3 = "纳鲁精准腰带"
+Inst56Quest1name4 = "沙塔斯勇士腰带"
+Inst56Quest1name5 = "沙塔尔守备官腰带"
+Inst56Quest1name6 = "禁魔监狱钥匙"
 
 --Quest 2 Alliance
 Inst56Quest2 = "2. 能源舰的热源"
 Inst56Quest2_Level = "69"
 Inst56Quest2_Attain = "67"
-Inst56Quest2_Aim = "将超载的魔法晶格交给韦恩的避难所的戴维·韦恩."
-Inst56Quest2_Location = "戴维·韦恩 (泰罗卡森林; "..YELLOW.."78,39"..WHITE..")."
-Inst56Quest2_Note = "魔法晶格在 机械领主卡帕西图斯 "..YELLOW.."[3]"..WHITE.." 前面，挨着墙的一个箱子里."
-Inst56Quest2_Prequest = "有, 其它的材料"
+Inst56Quest2_Aim = "将超载的魔法晶格交给韦恩的避难所的戴维·韦恩。"
+Inst56Quest2_Location = "戴维·韦恩（泰罗卡森林 - 韦恩的避难所; "..YELLOW.."78,39"..WHITE.."）。"
+Inst56Quest2_Note = "超载的魔法晶格在机械领主卡帕西图斯"..YELLOW.."[3]"..WHITE.."前面，挨着墙的一个箱子里。\n\n完成此任务和‘魔语辞典’（"..YELLOW.."暗影迷宫"..WHITE.."）后将从戴维·韦恩开启新任务。\n\n普通难度和英雄难度都会掉落任务物品。"
+Inst56Quest2_Prequest = "有，其它的材料"
 Inst56Quest2_Folgequest = "无"
 Inst56Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst56Quest3 = "3. 悬赏：帕萨雷恩的投影仪 (英雄日常)"
+Inst56Quest3 = "3. 悬赏：帕萨雷恩的投影仪（英雄日常）"
 Inst56Quest3_Level = "70"
 Inst56Quest3_Attain = "70"
-Inst56Quest3_Aim = "商人扎雷姆要求你夺得帕萨雷恩的投影仪。将投影仪带回沙塔斯城的贫民窟交给他，就能领取奖赏."
-Inst56Quest3_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst56Quest3_Note = " 帕萨雷恩 在"..YELLOW.."[5]"..WHITE.."."
-Inst56Quest3_Prequest = "No"
-Inst56Quest3_Folgequest = "No"
+Inst56Quest3_Aim = "商人扎雷姆要求你夺得帕萨雷恩的投影仪。将投影仪带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst56Quest3_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst56Quest3_Note = "需要英雄难度副本。\n\n计算者帕萨雷恩在"..YELLOW.."[5]"..WHITE.."。"
+Inst56Quest3_Prequest = "无"
+Inst56Quest3_Folgequest = "无"
 --
 Inst56Quest3name1 = "公正徽章"
 
 --Quest 4 Alliance
-Inst56Quest4 = "4. 悬赏：风暴锻铸摧毁者 (普通日常)"
+Inst56Quest4 = "4. 悬赏：风暴锻铸摧毁者（日常）"
 Inst56Quest4_Level = "70"
 Inst56Quest4_Attain = "70"
-Inst56Quest4_Aim = "虚空猎手玛哈杜恩要求你杀死5名风暴锻铸摧毁者。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏."
-Inst56Quest4_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst56Quest4_Note = "普通日常任务."
+Inst56Quest4_Aim = "虚空猎手玛哈杜恩要求你杀死5名风暴锻铸摧毁者。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
+Inst56Quest4_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst56Quest4_Note = "普通日常任务。"
 Inst56Quest4_Prequest = "无"
 Inst56Quest4_Folgequest = "无"
 --
-Inst56Quest4name1 = "Ethereum Prison Key"
+Inst56Quest4name1 = "复仇军监牢钥匙"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9073,184 +9242,22 @@ Inst56Quest4name1_HORDE = Inst56Quest4name1
 
 
 
---------------- INST57 - SM: Armory (SM Arm) ---------------
-
-Inst57Story = "血色修道院曾经是洛丹伦王国牧师的荣耀之地——那里是学习圣光只是和膜拜的中心。随着在第三次大战中亡灵天灾的崛起，宁静的修道院成为了疯狂的血色十字军的要塞。十字军对于所有非人类都有着偏激的态度，无论他们是自己的盟友还是对手。他们相信所有任何外来者都带着亡灵的瘟疫——他们必须被摧毁。有报告说所有进入修道院的冒险者都要面对血色十字军指挥官莫格莱尼——他控制了一群狂热的十字军战士。然而，修道院的真正主人是大检察官怀特迈恩——一个疯狂的牧师，她具有复活死去的战士来为其效劳的能力。"
-Inst57Caption = "血色修道院：军械库"
-Inst57QAA = "1 个任务"
-Inst57QAH = "2 个任务"
-
---Quest 1 Alliance
-Inst57Quest1 = "1. 以圣光之名"
-Inst57Quest1_Level = "40"
-Inst57Quest1_Attain = "34"
-Inst57Quest1_Aim = "杀死大检察官怀特迈恩，血色十字军指挥官莫格莱尼，十字军的勇士赫洛德和驯犬者洛克希并向南海镇的莱雷恩复命。"
-Inst57Quest1_Location = "虔诚的莱雷恩（希尔斯布莱德丘陵 - 南海镇; "..YELLOW.."51,58 "..WHITE.."）"
-Inst57Quest1_Note = "此系列任务始于克罗雷修士（暴风城 - 光明大教堂; "..YELLOW.."52,43"..WHITE.."），当然，你也可以直接从凄凉之地尼耶尔前哨站的血色十字军使者直接获得任务。\n大检察官怀特迈恩和血色十字军指挥官莫格莱尼在血色修道院"..YELLOW.."教堂[2]"..WHITE.."，赫洛德在血色修道院"..YELLOW.."军械库[1]"..WHITE.."，驯犬者洛克希在血色修道院"..YELLOW.."图书馆[1]"..WHITE.."。"
-Inst57Quest1_Prequest ="有，安东修士 -> 血色之路"
-Inst57Quest1_Folgequest = "无"
-Inst57Quest1PreQuest = "true"
---
-Inst57Quest1name1 = "平静之剑"
-Inst57Quest1name2 = "咬骨之斧"
-Inst57Quest1name3 = "黑暗威胁"
-Inst57Quest1name4 = "洛瑞卡宝珠"
-
-
---Quest 1 Horde
-Inst57Quest1_HORDE = "1. 狂热之心"
-Inst57Quest1_HORDE_Level = "33"
-Inst57Quest1_HORDE_Attain = "30"
-Inst57Quest1_HORDE_Aim = "幽暗城的大药剂师法拉尼尔需要20颗狂热之心。"
-Inst57Quest1_HORDE_Location = "大药剂师法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）"
-Inst57Quest1_HORDE_Note = "血色所有的怪均掉落。"
-Inst57Quest1_HORDE_Prequest = "有，蝙蝠的粪便（"..YELLOW.."[剃刀沼泽]"..WHITE.."）"
-Inst57Quest1_HORDE_Folgequest = "无"
-Inst57Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst57Quest2_HORDE = "2. 深入血色修道院"
-Inst57Quest2_HORDE_Level = "42"
-Inst57Quest2_HORDE_Attain = "33"
-Inst57Quest2_HORDE_Aim = "杀掉大检察官怀特迈恩、血色十字军指挥官莫格莱尼、血色十字军勇士赫洛德和驯犬者洛克希，然后向幽暗城的瓦里玛萨斯回报。"
-Inst57Quest2_HORDE_Location = "瓦里玛萨斯（幽暗城 - 皇家区; "..YELLOW.."56,92 "..WHITE.."）"
-Inst57Quest2_HORDE_Note = "大检察官怀特迈恩和血色十字军指挥官莫格莱尼在血色修道院"..YELLOW.."教堂[2]"..WHITE.."，赫洛德在血色修道院"..YELLOW.."军械库[1]"..WHITE.."，驯犬者洛克希在血色修道院"..YELLOW.."图书馆[1]"..WHITE.."。"
-Inst57Quest2_HORDE_Prequest = "无"
-Inst57Quest2_HORDE_Folgequest = "无"
---
-Inst57Quest2name1_HORDE = "预兆之剑"
-Inst57Quest2name2_HORDE = "预言藤杖"
-Inst57Quest2name3_HORDE = "龙血项链"
-
-
-
---------------- INST58 - SM: Cathedral (SM Cath) ---------------
-
-Inst58Story = "血色修道院曾经是洛丹伦王国牧师的荣耀之地——那里是学习圣光只是和膜拜的中心。随着在第三次大战中亡灵天灾的崛起，宁静的修道院成为了疯狂的血色十字军的要塞。十字军对于所有非人类都有着偏激的态度，无论他们是自己的盟友还是对手。他们相信所有任何外来者都带着亡灵的瘟疫——他们必须被摧毁。有报告说所有进入修道院的冒险者都要面对血色十字军指挥官莫格莱尼——他控制了一群狂热的十字军战士。然而，修道院的真正主人是大检察官怀特迈恩——一个疯狂的牧师，她具有复活死去的战士来为其效劳的能力。"
-Inst58Caption = "血色修道院：教堂"
-Inst58QAA = "1 个任务"
-Inst58QAH = "2 个任务"
-
---Quest 1 Alliance
-Inst58Quest1 = "1. 以圣光之名"
-Inst58Quest1_Level = "40"
-Inst58Quest1_Attain = "34"
-Inst58Quest1_Aim =  "杀死大检察官怀特迈恩，血色十字军指挥官莫格莱尼，十字军的勇士赫洛德和驯犬者洛克希并向南海镇的莱雷恩复命。"
-Inst58Quest1_Location = "虔诚的莱雷恩（希尔斯布莱德丘陵 - 南海镇; "..YELLOW.."51,58 "..WHITE.."）"
-Inst58Quest1_Note = "此系列任务始于克罗雷修士（暴风城 - 光明大教堂; "..YELLOW.."52,43"..WHITE.."），当然，你也可以直接从凄凉之地尼耶尔前哨站的血色十字军使者直接获得任务。\n大检察官怀特迈恩和血色十字军指挥官莫格莱尼在血色修道院"..YELLOW.."教堂[2]"..WHITE.."，赫洛德在血色修道院"..YELLOW.."军械库[1]"..WHITE.."，驯犬者洛克希在血色修道院"..YELLOW.."图书馆[1]"..WHITE.."。"
-Inst58Quest1_Prequest = "有，安东修士 -> 血色之路"
-Inst58Quest1_Folgequest = "无"
-Inst58Quest1PreQuest = "true"
---
-Inst58Quest1name1 = "平静之剑"
-Inst58Quest1name2 = "咬骨手斧"
-Inst58Quest1name3 = "黑暗威胁"
-Inst58Quest1name4 = "洛瑞卡宝珠"
-
-
---Quest 1 Horde
-Inst58Quest1_HORDE = "1. 狂热之心"
-Inst58Quest1_HORDE_Level = "33"
-Inst58Quest1_HORDE_Attain = "30"
-Inst58Quest1_HORDE_Aim = "幽暗城的大药剂师法拉尼尔需要20颗狂热之心。"
-Inst58Quest1_HORDE_Location = "大药剂师法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）"
-Inst58Quest1_HORDE_Note = "血色所有的怪均掉落。"
-Inst58Quest1_HORDE_Prequest = "有，蝙蝠的粪便（"..YELLOW.."[剃刀沼泽]"..WHITE.."）"
-Inst58Quest1_HORDE_Folgequest = "无"
-Inst58Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst58Quest2_HORDE = "2. 深入血色修道院"
-Inst58Quest2_HORDE_Level = "42"
-Inst58Quest2_HORDE_Attain = "33"
-Inst58Quest2_HORDE_Aim = "杀掉大检察官怀特迈恩、血色十字军指挥官莫格莱尼、血色十字军勇士赫洛德和驯犬者洛克希，然后向幽暗城的瓦里玛萨斯回报。"
-Inst58Quest2_HORDE_Location = "瓦里玛萨斯（幽暗城 - 皇家区; "..YELLOW.."56,92 "..WHITE.."）"
-Inst58Quest2_HORDE_Note = "大检察官怀特迈恩 和 血色十字军指挥官莫格莱尼 在 "..YELLOW.."血色修道院：教堂 [2]"..WHITE..",赫洛德 在 "..YELLOW.."血色修道院：军械库[1]"..WHITE.."，  驯犬者洛克希 在 "..YELLOW.."血色修道院：图书馆[1]"..WHITE.."."
-Inst58Quest2_HORDE_Prequest = "无"
-Inst58Quest2_HORDE_Folgequest = "无"
---
-Inst58Quest2name1_HORDE = "预兆之剑"
-Inst58Quest2name2_HORDE = "预言藤杖"
-Inst58Quest2name3_HORDE = "龙血项链"
-
-
-
---------------- INST59 - SM: Graveyard (SM GY) ---------------
-
-Inst59Story = "血色修道院曾经是洛丹伦王国牧师的荣耀之地——那里是学习圣光只是和膜拜的中心。随着在第三次大战中亡灵天灾的崛起，宁静的修道院成为了疯狂的血色十字军的要塞。十字军对于所有非人类都有着偏激的态度，无论他们是自己的盟友还是对手。他们相信所有任何外来者都带着亡灵的瘟疫——他们必须被摧毁。有报告说所有进入修道院的冒险者都要面对血色十字军指挥官莫格莱尼——他控制了一群狂热的十字军战士。然而，修道院的真正主人是大检察官怀特迈恩——一个疯狂的牧师，她具有复活死去的战士来为其效劳的能力。"
-Inst59Caption = "血色修道院：墓地"
-Inst59QAA = "1 个任务"
-Inst59QAH = "3 个任务"
-
---Quest 1 Alliance
-Inst59Quest1 = "1. 召唤无头骑士 (日常 - 季节性)"
-Inst59Quest1_Level = "70"
-Inst59Quest1_Attain = "70"
-Inst59Quest1_Aim = "将一根悲伤蜡烛插入翻过的泥土。"
-Inst59Quest1_Location = "南瓜神龛（血色修道院 - 墓地; "..YELLOW.."[2]"..WHITE.."）"
-Inst59Quest1_Note = "南瓜神龛旁边就是翻过的泥土。这是一个只有在万圣节期间的季节性日常任务。\n\n召唤出来的无头骑士是70级别 Boss。"
-Inst59Quest1_Prequest = "No"
-Inst59Quest1_Folgequest = "No"
--- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst59Quest1_HORDE = "1. 沃瑞尔的复仇"
-Inst59Quest1_HORDE_Level = "33"
-Inst59Quest1_HORDE_Attain = "25"
-Inst59Quest1_HORDE_Aim = "把沃瑞尔·森加斯的结婚戒指还给塔伦米尔的莫尼卡·森古特斯。"
-Inst59Quest1_HORDE_Location =  "沃瑞尔·森加斯（血色修道院 - 墓地; "..YELLOW.."[1]"..WHITE.."）"
-Inst59Quest1_HORDE_Note = "沃瑞尔·森加斯位于血色修道院墓地前部。南茜在（奥特兰克山脉; "..YELLOW.."31,32"..WHITE..")。 她有任务需要的戒指。"
-Inst59Quest1_HORDE_Prequest = "无"
-Inst59Quest1_HORDE_Folgequest = "无"
---
-Inst59Quest1name1_HORDE = "沃瑞尔的靴子"
-Inst59Quest1name2_HORDE = "悲哀衬肩"
-Inst59Quest1name3_HORDE = "十字军斗篷"
-
---Quest 2 Horde
-Inst59Quest2_HORDE = "2. 狂热之心"
-Inst59Quest2_HORDE_Level = "33"
-Inst59Quest2_HORDE_Attain = "30"
-Inst59Quest2_HORDE_Aim = "幽暗城的大药剂师法拉尼尔需要20颗狂热之心。"
-Inst59Quest2_HORDE_Location = "大药剂师法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）"
-Inst59Quest2_HORDE_Note =  "血色所有的怪均掉落。"
-Inst59Quest2_HORDE_Prequest = "有，蝙蝠的粪便（"..YELLOW.."[剃刀沼泽]"..WHITE.."）"
-Inst59Quest2_HORDE_Folgequest = "无"
-Inst59Quest2PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 1 Alliance)
-Inst59Quest3_HORDE = "3. Call the Headless Horseman (Daily - Seasonal)"
-Inst59Quest3_HORDE_Level = Inst59Quest1_Level
-Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
-Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
-Inst59Quest3_HORDE_Location = Inst59Quest1_Location
-Inst59Quest3_HORDE_Note = Inst59Quest1_Note
-Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
-Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
--- No Rewards for this quest
-
-
-
 --------------- INST61 - TK: The Eye ---------------
 
-Inst61Story = "风暴要塞原先是神秘的纳鲁用来在大宇宙中旅行的跨次元飞船。血精灵的领袖凯尔萨斯王子发现了风暴要塞中潜藏的奥术能量，用武力将风暴要塞从纳鲁和德莱尼人手中抢了过来."
+Inst61Story = "原是纳鲁的旗舰。一个叫做沙塔尔的纳鲁组织在听到了卡德加的请求后，驾驶着它来到外域对付燃烧军团。当他们集体离开要塞，分散到外域四处勘查的时候。血精灵王子凯尔萨斯乘虚而入，率军突袭了这座太空堡垒。精灵们迅速摧毁了风暴要塞的自动防御体系，并攻占了要塞的周边建筑。整个过程中遇到的唯一威胁是一个躲在要塞内部以维持防线的纳鲁，凯尔萨斯费了好大功夫才制住了这个纯能量生物，并将其送回奎尔萨拉斯，为那些魔法成瘾的血精灵提供能量源。"
 Inst61Caption = "风暴之眼"
 Inst61QAA = "3 个任务"
 Inst61QAH = "3 个任务"
 
 --Quest 1 Alliance
-Inst61Quest1 = "1. 灰舌的伪装"
+Inst61Quest1 = "1. 灰舌的计谋"
 Inst61Quest1_Level = "70"
 Inst61Quest1_Attain = "70"
-Inst61Quest1_Aim = "前往风暴要塞，穿上灰舌的伪装杀死奥. 完成任务后向影月谷的阿卡玛复命."
-Inst61Quest1_Location = "阿卡玛 (影月谷; "..YELLOW.."58,48"..WHITE..")"
-Inst61Quest1_Note = "这个是黑暗神殿任务链的一步."
-Inst61Quest1_Prequest = "有, 神秘的征兆"
-Inst61Quest1_Folgequest = "有, 古老的神器 (海加尔)"
+Inst61Quest1_Aim = "前往风暴要塞，在穿着灰舌兜帽的情况下杀死奥。完成任务之后回到影月谷，向阿卡玛复命。"
+Inst61Quest1_Location = "阿卡玛（影月谷 - 守望者牢笼; "..YELLOW.."58,48"..WHITE.."）"
+Inst61Quest1_Note = "这个是黑暗神殿任务链的一步。"
+Inst61Quest1_Prequest = "有，危险的秘密（"..YELLOW.."毒蛇神殿"..WHITE.."）"
+Inst61Quest1_Folgequest = "有，往日的神器（"..YELLOW.."海加尔峰"..WHITE.."）"
 Inst61Quest1PreQuest = "true"
 -- No Rewards for this quest
 
@@ -9258,24 +9265,24 @@ Inst61Quest1PreQuest = "true"
 Inst61Quest2 = "2. 凯尔萨斯和翠绿的魔珠"
 Inst61Quest2_Level = "70"
 Inst61Quest2_Attain = "70"
-Inst61Quest2_Aim = "将翠绿的魔珠交给沙塔斯城的阿达尔."
-Inst61Quest2_Location = "翠绿的魔珠 (掉落)"
-Inst61Quest2_Note = "翠绿的魔珠由 凯尔萨斯 逐日者掉落"..YELLOW.."[4]"..WHITE.."."
+Inst61Quest2_Aim = "将翠绿的魔珠交给沙塔斯城的阿达尔。"
+Inst61Quest2_Location = "翠绿的魔珠（凯尔萨斯·逐日者掉落"..YELLOW.."[4]"..WHITE.."）"
+Inst61Quest2_Note = "阿达尔在（沙塔斯城 - 圣光广场; "..YELLOW.."53,43"..WHITE.."）。"
 Inst61Quest2_Prequest = "无"
 Inst61Quest2_Folgequest = "无"
 --
-Inst61Quest2name1 = "The Sun King's Talisman"
-Inst61Quest2name2 = "The Darkener's Grasp"
-Inst61Quest2name3 = "Lord Sanguinar's Claim"
-Inst61Quest2name4 = "Telonicus's Pendant of Mayhem"
+Inst61Quest2name1 = "太阳之王的符咒"
+Inst61Quest2name2 = "亵渎者萨拉德雷之握"
+Inst61Quest2name3 = "萨古纳尔男爵的索求"
+Inst61Quest2name4 = "塔隆尼库斯的伤害坠饰"
 
 --Quest 3 Alliance
 Inst61Quest3 = "3. 永恒水瓶"
 Inst61Quest3_Level = "70"
 Inst61Quest3_Attain = "70"
-Inst61Quest3_Aim = "时光之穴的索莉多米要你从盘牙水库的瓦丝琪那里取回瓦丝琪的水瓶残余，并从风暴要塞的凯尔萨斯·逐日者那里取回凯尔萨斯的水瓶残余."
-Inst61Quest3_Location = "索莉多米 (塔纳利斯--时光之穴; "..YELLOW.."58,57"..WHITE.."). NPC在附近游荡."
-Inst61Quest3_Note = "曾经，要进去时光之穴--海加尔之战，这个任务是必须完成的. 卡尔萨斯 逐日者 在 "..YELLOW.."[4]"..WHITE.."."
+Inst61Quest3_Aim = "时光之穴的索莉多米要你从盘牙水库的瓦丝琪那里取回瓦丝琪的水瓶残余，并从风暴要塞的凯尔萨斯·逐日者那里取回凯尔萨斯的水瓶残余。"
+Inst61Quest3_Location = "索莉多米（塔纳利斯 - 时光之穴; "..YELLOW.."58,57"..WHITE.."）。NPC 在附近走动。"
+Inst61Quest3_Note = "（曾经）要进去时光之穴 - 海加尔峰，这个任务是必须完成的。卡尔萨斯·逐日者在"..YELLOW.."[4]"..WHITE.."。"
 Inst61Quest3_Prequest = "无"
 Inst61Quest3_Folgequest = "无"
 -- No Rewards for this quest
@@ -9324,11 +9331,11 @@ Inst61Quest3_HORDE_Folgequest = Inst61Quest3_Folgequest
 --------------- INST62 - Black Temple (BT) ---------------
 
 Inst62Story = {
-  ["Page1"] = "在德拉诺大陆分崩离析之前，黑暗神殿的名字叫做卡拉波神庙，是德莱尼人供奉先知维伦的圣堂。而邪恶的古尔丹在打开了黑暗之门后，把这里占据了.",
-  ["Page2"] = "在德拉诺大陆被燃烧军团的铁蹄碾碎后，这里改名叫做黑暗堡垒。后来玛瑟里顿又占据了这里，不过没多久，从诺森德铩羽而归的伊利丹成了这里新的主人，并将这里改名叫做‘黑暗神殿’，已然发疯的伊利丹和他的手下们就盘踞在这里.",
+  ["Page1"] = "在德拉诺大陆分崩离析之前，黑暗神殿的名字叫做卡拉波神庙，是德莱尼人供奉先知维伦的圣堂。而邪恶的古尔丹在打开了黑暗之门后，把这里占据了。在德拉诺大陆被燃烧军团的铁蹄碾碎后，这里改名叫做黑暗堡垒。",
+  ["Page2"] = "后来玛瑟里顿又占据了这里，不过没多久，从诺森德铩羽而归的伊利丹成了这里新的主人，并将这里改名叫做“黑暗神殿”，已然发疯的伊利丹和他的手下们就盘踞在这里…",
   ["MaxPages"] = "2",
 };
-Inst62Caption = "黑暗神殿"
+Inst62Caption = "黑暗神殿（BT）"
 Inst62QAA = "3 个任务"
 Inst62QAH = "3 个任务"
 
@@ -9336,23 +9343,23 @@ Inst62QAH = "3 个任务"
 Inst62Quest1 = "1. 寻找灰舌"
 Inst62Quest1_Level = "70"
 Inst62Quest1_Attain = "70"
-Inst62Quest1_Aim = "在黑暗神殿内找到阿卡玛的死誓者."
-Inst62Quest1_Location = "克希利 (影月谷; "..YELLOW.."65,44"..WHITE..")."
-Inst62Quest1_Note = ""
-Inst62Quest1_Prequest = "有，帮助阿卡玛 "
-Inst62Quest1_Folgequest = "有，灰舌族的救赎"
+Inst62Quest1_Aim = "在黑暗神殿内找到阿卡玛的死誓者。"
+Inst62Quest1_Location = "克希利（影月谷; "..YELLOW.."65,44"..WHITE.."）。"
+Inst62Quest1_Note = "进入黑暗神殿上楼左转，奥鲁姆之魂在"..YELLOW.."[1]"..WHITE.."。杀死高阶督军纳因图斯"..YELLOW.."[2]"..WHITE.."和苏普雷姆斯"..YELLOW.."[3]"..WHITE.."后他将传送你到先知坎奈那里。"
+Inst62Quest1_Prequest = "有，危险的秘密 -> 帮助阿卡玛 "
+Inst62Quest1_Folgequest = "有，灰舌的救赎"
 Inst62Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst62Quest2 = "2. 灰舌族的救赎"
+Inst62Quest2 = "2. 灰舌的救赎"
 Inst62Quest2_Level = "70"
 Inst62Quest2_Attain = "70"
-Inst62Quest2_Aim = "击败黑暗神庙的阿卡玛的阴影来帮助阿卡玛夺回他的灵魂。完成后回到先知卡奈那裡."
-Inst62Quest2_Location = "先知卡奈 (黑色神庙; "..YELLOW.."[]"..WHITE..")."
-Inst62Quest2_Note = "阿卡玛之影 在 "..YELLOW.."[4]"..WHITE.."."
-Inst62Quest2_Prequest = "有,寻找灰舌"
-Inst62Quest2_Folgequest = "有,背叛者之死 "
+Inst62Quest2_Aim = "击败黑暗神殿内的阿卡玛之影，帮助阿卡玛夺回灵魂的控制权。完成任务之后向先知坎奈复命。"
+Inst62Quest2_Location = "先知坎奈（黑暗神殿; "..YELLOW.."[5]"..WHITE.."）"
+Inst62Quest2_Note = "阿卡玛之影在"..YELLOW.."[4]"..WHITE.."。"
+Inst62Quest2_Prequest = "有，寻找灰舌"
+Inst62Quest2_Folgequest = "有，背叛者之死 "
 Inst62Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -9360,14 +9367,14 @@ Inst62Quest2FQuest = "true"
 Inst62Quest3 = "3. 背叛者之死"
 Inst62Quest3_Level = "70"
 Inst62Quest3_Attain = "70"
-Inst62Quest3_Aim = "先知卡奈要你杀死黑色神庙里的背叛者伊利丹怒风."
-Inst62Quest3_Location = "先知卡奈 (黑色神庙; "..YELLOW.."[]"..WHITE..")."
-Inst62Quest3_Note = "伊利丹怒风 在 黑色神庙上层地图的 "..YELLOW.."[3]"..WHITE.." ."
-Inst62Quest3_Prequest = "有，灰舌族的救赎"
+Inst62Quest3_Aim = "先知坎奈要求你击败黑暗神殿内的伊利丹。"
+Inst62Quest3_Location = "先知坎奈（黑暗神殿; "..YELLOW.."[5]"..WHITE.."）"
+Inst62Quest3_Note = "伊利丹·怒风在"..YELLOW.."[11]"..WHITE.." ."
+Inst62Quest3_Prequest = "有，灰舌的救赎"
 Inst62Quest3_Folgequest = "无"
 Inst62Quest3FQuest = "true"
 --
-Inst62Quest3name1 = "Blessed Medallion of Karabor"
+Inst62Quest3name1 = "卡拉波神圣勋章"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9411,8 +9418,8 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
-Inst63Story = "千百年来，祖阿曼的要塞都是阿曼尼巨魔的权力中心，以及狡猾而无畏的督军祖尔金的老巢。祖尔金花费了数年的时间在祖阿曼的城墙后面筹备他的计划。由于对部落允许让他的仇敌血精灵加入，他开始积极地按照妖术领主玛拉卡斯提出的建议行动起来：将野兽之神的力量禁锢在阿曼尼部族最强大的战士体内."
-Inst63Caption = "祖阿曼"
+Inst63Story = "千百年来，祖阿曼的要塞都是阿曼尼巨魔的权力中心，以及狡猾而无畏的督军祖尔金的老巢。祖尔金花费了数年的时间在祖阿曼的城墙后面筹备他的计划。由于对部落允许让他的仇敌血精灵加入，他开始积极地按照妖术领主玛拉卡斯提出的建议行动起来：将野兽之神的力量禁锢在阿曼尼部族最强大的战士体内。"
+Inst63Caption = "祖阿曼（ZA）"
 Inst63QAA = "8 个任务"
 Inst63QAH = "8 个任务"
 
@@ -9420,24 +9427,24 @@ Inst63QAH = "8 个任务"
 Inst63Quest1 = "1. 诱人的保证"
 Inst63Quest1_Level = "70"
 Inst63Quest1_Attain = "70"
-Inst63Quest1_Aim = "战斧岭的巴德·奈德雷克要你前往祖阿曼的高阶祭司纳洛拉克所在的平台，找回他的地图."
-Inst63Quest1_Location = "巴德·奈德雷 (幽魂之地; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest1_Note = "你可以在 高阶牧师 纳洛拉克  "..YELLOW.."[1]"..WHITE.."附近找到地图. 前续任务接自  格里伏塔(沙塔斯城 - 贫民窟; "..YELLOW.."65,69"..WHITE..")."
-Inst63Quest1_Prequest = "有，闪亮闪亮的东西"
-Inst63Quest1_Folgequest = "有,X标记……你的末日!"
+Inst63Quest1_Aim = "战斧岭的巴德·奈德雷克要你前往祖阿曼的高阶祭司纳洛拉克所在的平台，找回他的地图。"
+Inst63Quest1_Location = "巴德·奈德雷（幽魂之地 - 战斧岭; "..YELLOW.."70,67"..WHITE.."）"
+Inst63Quest1_Note = "你可以在高阶祭司纳洛拉克"..YELLOW.."[1]"..WHITE.."附近找到地图。前续任务接自格里伏塔（沙塔斯城 - 贫民窟; "..YELLOW.."65,69"..WHITE.."）。"
+Inst63Quest1_Prequest = "有，闪亮闪亮的东西！"
+Inst63Quest1_Folgequest = "有，X标记……你的末日！"
 Inst63Quest1PreQuest = "true"
 --
 Inst63Quest1name1 = "破烂的巫术布袋"
 
 --Quest 2 Alliance
-Inst63Quest2 = "2. X标记……你的末日!"
+Inst63Quest2 = "2. X标记……你的末日！"
 Inst63Quest2_Level = "70"
 Inst63Quest2_Attain = "70"
-Inst63Quest2_Aim = "进入祖阿曼并调查哈尔拉兹的大厅、加亚莱的平台和埃基尔松的平台。将这些地方的细节报告给巴德，他的营地就在幽魂之地."
-Inst63Quest2_Location = "巴德·奈德雷 (幽魂之地; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest2_Note = "哈尔拉兹的大厅 在 "..YELLOW.."[4]"..WHITE..", 加亚莱的平台 在 "..YELLOW.."[3]"..WHITE.." and 埃基尔松的平台 在 "..YELLOW.."[2]"..WHITE..". \n\n据说不用打boss就可以完成任务，只要在附近就可以." 
-Inst63Quest2_Prequest = "有, 诱人的保证"
-Inst63Quest2_Folgequest = "有, 妖术领主？哈!"
+Inst63Quest2_Aim = "进入祖阿曼并调查哈尔拉兹的大厅、加亚莱的平台和埃基尔松的平台。将这些地方的细节报告给巴德，他的营地就在幽魂之地。"
+Inst63Quest2_Location = "巴德·奈德雷（幽魂之地 - 战斧岭; "..YELLOW.."70,67"..WHITE.."）"
+Inst63Quest2_Note = "哈尔拉兹的大厅在"..YELLOW.."[4]"..WHITE.."，加亚莱的平台在"..YELLOW.."[3]"..WHITE.."，埃基尔松的平台在"..YELLOW.."[2]"..WHITE.."。\n\n不用打 Boss 就可以完成任务，只要在附近就可以。" 
+Inst63Quest2_Prequest = "有，诱人的保证"
+Inst63Quest2_Folgequest = "有，妖术领主？哈！"
 Inst63Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -9445,10 +9452,10 @@ Inst63Quest2FQuest = "true"
 Inst63Quest3 = "3. 妖术领主？哈！"
 Inst63Quest3_Level = "70"
 Inst63Quest3_Attain = "70"
-Inst63Quest3_Aim = "战斧岭的巴德·奈德雷克要你前往祖阿曼，杀死妖术领主玛拉卡斯."
-Inst63Quest3_Location = "巴德·奈德雷 (幽魂之地; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest3_Note = "妖术领主玛拉卡斯 在 "..YELLOW.."[5]"..WHITE.."."
-Inst63Quest3_Prequest = "X标记……你的末日!"
+Inst63Quest3_Aim = "战斧岭的巴德·奈德雷克要你前往祖阿曼，杀死妖术领主玛拉卡斯。"
+Inst63Quest3_Location = "巴德·奈德雷（幽魂之地 - 战斧岭; "..YELLOW.."70,67"..WHITE.."）"
+Inst63Quest3_Note = "妖术领主玛拉卡斯在"..YELLOW.."[6]"..WHITE.."。"
+Inst63Quest3_Prequest = "有，X标记……你的末日！"
 Inst63Quest3_Folgequest = "无"
 Inst63Quest3FQuest = "true"
 --
@@ -9458,20 +9465,20 @@ Inst63Quest3name1 = "公正徽章"
 Inst63Quest4 = "4. 夺牙奇兵"
 Inst63Quest4_Level = "70"
 Inst63Quest4_Attain = "70"
-Inst63Quest4_Aim = "普雷蒙要你从祖阿曼的巨魔身上收集10根森林巨魔獠牙，把它们带回巴德的营地交给他."
-Inst63Quest4_Location = "普雷蒙 (幽魂之地; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest4_Note = "森林巨魔獠牙副本离的怪都会掉落."
+Inst63Quest4_Aim = "普雷蒙要你从祖阿曼的巨魔身上收集10根森林巨魔獠牙，把它们带回巴德的营地交给他。"
+Inst63Quest4_Location = "普雷蒙（幽魂之地 - 战斧岭; "..YELLOW.."71,68"..WHITE.."）"
+Inst63Quest4_Note = "祖阿曼内的森林巨魔都会掉落森林巨魔獠牙。"
 Inst63Quest4_Prequest = "无"
-Inst63Quest4_Folgequest = "有, 失踪的巨魔"
+Inst63Quest4_Folgequest = "有，失踪的巨魔"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
 Inst63Quest5 = "5. 失踪的巨魔"
 Inst63Quest5_Level = "70"
 Inst63Quest5_Attain = "70"
-Inst63Quest5_Aim = "普雷蒙希望你深入祖阿曼，找到并帮助他的表兄苏加姆."
-Inst63Quest5_Location = "普雷蒙 (幽魂之地; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest5_Note = "据说苏加姆在玛拉卡斯 "..YELLOW.."[5]"..WHITE.."北边的一个小帐篷里 . 你找到他后他会给你下一步任务."
+Inst63Quest5_Aim = "普雷蒙希望你深入祖阿曼，找到并帮助他的表兄苏加姆。"
+Inst63Quest5_Location = "普雷蒙（幽魂之地 - 战斧岭; "..YELLOW.."71,68"..WHITE.."）"
+Inst63Quest5_Note = "苏加姆在玛拉卡斯"..YELLOW.."[5]"..WHITE.."北边的一个小帐篷里。你释放他后他会给你下一步任务。"
 Inst63Quest5_Prequest = "有，夺牙奇兵"
 Inst63Quest5_Folgequest = "有，破烂的巫毒人偶"
 Inst63Quest5FQuest = "true"
@@ -9481,39 +9488,38 @@ Inst63Quest5FQuest = "true"
 Inst63Quest6 = "6. 破烂的巫毒人偶"
 Inst63Quest6_Level = "70"
 Inst63Quest6_Attain = "70"
-Inst63Quest6_Aim = "将破烂的巫毒人偶交给沙塔斯城的格里伏塔."
-Inst63Quest6_Location = "苏加姆 (祖阿曼; "..YELLOW.." [5]北边"..WHITE..")"
-Inst63Quest6_Note = "格里伏塔 在 (沙塔斯城 - 贫民窟; "..YELLOW.."65,69"..WHITE..")."
-Inst63Quest6_Prequest = "有, 失踪的巨魔"
+Inst63Quest6_Aim = "将破烂的巫毒人偶交给沙塔斯城的格里伏塔。"
+Inst63Quest6_Location = "苏加姆（祖阿曼; "..YELLOW.." [5]"..WHITE.."）"
+Inst63Quest6_Note = "格里伏塔在（沙塔斯城 - 贫民窟; "..YELLOW.."65,69"..WHITE.."）。"
+Inst63Quest6_Prequest = "有，失踪的巨魔"
 Inst63Quest6_Folgequest = "无"
 Inst63Quest6FQuest = "true"
 --
-Inst63Quest6name1 = " 魔法阿曼尼珠宝"
+Inst63Quest6name1 = "魔法阿曼尼珠宝"
 
 --Quest 7 Alliance
 Inst63Quest7 = "7. 督军之血"
 Inst63Quest7_Level = "70"
 Inst63Quest7_Attain = "70"
-Inst63Quest7_Aim = "把祖尔金之血带给巴德·奈德雷，他的营地就在祖阿曼外面的鬼魂之地."
-Inst63Quest7_Location = "祖尔金之血 (祖尔金掉落; "..YELLOW.."[6]"..WHITE..")"
-Inst63Quest7_Note = "团队中只有一个人能够得到祖尔金之血."
+Inst63Quest7_Aim = "把祖尔金之血交给祖阿曼外面幽魂之地的巴德。"
+Inst63Quest7_Location = "祖尔金之血（祖尔金掉落; "..YELLOW.."[7]"..WHITE.."）"
+Inst63Quest7_Note = "团队中只有一个人能够得到祖尔金之血。"
 Inst63Quest7_Prequest = "无"
-Inst63Quest7_Folgequest = "有, 密探小姐"
+Inst63Quest7_Folgequest = "有，对不起，我是卧底"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst63Quest8 = "8. 密探小姐"
+Inst63Quest8 = "8. 对不起，我是卧底"
 Inst63Quest8_Level = "70"
 Inst63Quest8_Attain = "70"
-Inst63Quest8_Aim = "向多娜·布拉斯库回报，好领取你的奖励。多娜目前待在鬼魂之地，就在祖阿曼的外头."
-Inst63Quest8_Location = "多娜·布拉斯库 (幽魂之地; "..YELLOW.."70,68"..WHITE..")"
+Inst63Quest8_Aim = "向多娜·布拉斯库报告你的英雄事迹，并领取你的奖励。多娜现在驻扎在祖阿曼外面的幽魂之地。"
+Inst63Quest8_Location = "多娜·布拉斯库（幽魂之地 - 战斧岭; "..YELLOW.."70,68"..WHITE.."）"
 Inst63Quest8_Note = ""
 Inst63Quest8_Prequest = "有，督军之血"
 Inst63Quest8_Folgequest = "无"
 Inst63Quest8FQuest = "true"
 --
 Inst63Quest8name1 = "公正徽章"
--- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9619,29 +9625,29 @@ Inst63Quest8name1_HORDE = Inst63Quest8name1
 --------------- INST67 - Magisters' Terrace (MgT) ---------------
 
 Inst67Story = "魔导师平台，凯尔萨斯王子在奎尔丹纳斯岛的领地。经历了风暴要塞的失败之后，很多人以为这位血精灵之王已然身死，但是他却被更为强大的能量复活了。如今的凯尔萨斯已经面目全非，胸口那块散发诡异颜色的绿色水晶让他变得邪气十足。唯一没变的，是他为了追逐更强能量的信念……"
-Inst67Caption = "魔导师平台"
+Inst67Caption = "魔导师平台（MgT）"
 Inst67QAA = "5 个任务"
 Inst67QAH = "5 个任务"
 
 --Quest 1 Alliance
-Inst67Quest1 = "1. 悬赏：痛苦妖女 (普通日常)"
+Inst67Quest1 = "1. 悬赏：痛苦妖女（日常）"
 Inst67Quest1_Level = "70"
 Inst67Quest1_Attain = "70"
-Inst67Quest1_Aim = "虚空猎手玛哈杜恩要你前往魔导师平台，杀死4个痛苦妖女，完成任务后向他复命"
-Inst67Quest1_Location = "虚空猎手玛哈杜恩 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst67Quest1_Note = "普通日常任务."
+Inst67Quest1_Aim = "虚空猎手玛哈杜恩要求你杀死4名痛苦妖女。完成任务后返回沙塔斯城的贫民窟，向他领取奖赏。"
+Inst67Quest1_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst67Quest1_Note = "普通日常任务。"
 Inst67Quest1_Prequest = "无"
 Inst67Quest1_Folgequest = "无"
 --
-Inst67Quest1name1 = "Ethereum Prison Key"
+Inst67Quest1name1 = "复仇军监牢钥匙"
 
 --Quest 2 Alliance
-Inst67Quest2 = "2. 悬赏：凯尔萨斯王子的徽记之戒 (英雄日常)"
+Inst67Quest2 = "2. 悬赏：凯尔萨斯王子的徽记之戒（英雄日常）"
 Inst67Quest2_Level = "70"
 Inst67Quest2_Attain = "70"
-Inst67Quest2_Aim = "商人扎雷姆要你取得凯尔萨斯王子的徽记之戒，完成任务后向沙塔斯城贫民窟商人扎雷姆复命."
-Inst67Quest2_Location = "商人扎雷姆 (沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE..")"
-Inst67Quest2_Note = "英雄日常任务.\n\n凯尔萨斯王子 在 "..YELLOW.."[6]"..WHITE.."."
+Inst67Quest2_Aim = "商人扎雷姆要求你夺得凯尔萨斯王子的徽记之戒。将卷轴带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄模式下完成。"
+Inst67Quest2_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst67Quest2_Note = "英雄日常任务。\n\n凯尔萨斯王子在"..YELLOW.."[6]"..WHITE.."。"
 Inst67Quest2_Prequest = "无"
 Inst67Quest2_Folgequest = "无"
 --
@@ -9651,11 +9657,11 @@ Inst67Quest2name1 = "公正徽章"
 Inst67Quest3 = "3. 魔导师平台"
 Inst67Quest3_Level = "70"
 Inst67Quest3_Attain = "70"
-Inst67Quest3_Aim = "阳湾港的主教拉瑞瑟要你搜寻魔导师平台，找到血精灵间谍塔雷斯."
-Inst67Quest3_Location = "主教拉瑞瑟 (奎尔丹纳斯 - 阳湾港; "..YELLOW.."47,31"..WHITE..")"
-Inst67Quest3_Note = "塔雷斯 在副本 "..YELLOW.."[2]"..WHITE..". 完成这个任务线后你才能进入英雄模式的魔导师平台.\n\n这个任务的前续可以从 圣光护卫者阿德因 (沙塔斯城 - 奥尔多高地; "..YELLOW.."35,36"..WHITE..") or 达斯雷·射日者 (沙塔斯城 - 占星者平台; "..YELLOW.."55,80"..WHITE..")."
-Inst67Quest3_Prequest = "有, 太阳井的危机，使命的召唤"
-Inst67Quest3_Folgequest = "有, 占星球"
+Inst67Quest3_Aim = "破碎残阳基地的主教拉雷索尔要求你前往魔导师平台，寻找血精灵间谍塔雷斯的踪迹。"
+Inst67Quest3_Location = "主教拉瑞瑟（奎尔丹纳斯岛 - 阳湾港; "..YELLOW.."47,31"..WHITE.."）"
+Inst67Quest3_Note = "塔雷斯在"..YELLOW.."[2]"..WHITE.."。完成这个任务线后你才能进入英雄模式的魔导师平台。\n\n这个任务的前续可以从圣光护卫者阿德因（沙塔斯城 - 奥尔多高地; "..YELLOW.."35,36"..WHITE.."）或达斯雷·射日者（沙塔斯城 - 占星者平台; "..YELLOW.."55,80"..WHITE.."）领取。"
+Inst67Quest3_Prequest = "有，太阳井的危机 或 使命的召唤"
+Inst67Quest3_Folgequest = "有，占星球"
 Inst67Quest3PreQuest = "true"
 -- No Rewards for this quest
 
@@ -9663,10 +9669,10 @@ Inst67Quest3PreQuest = "true"
 Inst67Quest4 = "4. 占星球"
 Inst67Quest4_Level = "70"
 Inst67Quest4_Attain = "70"
-Inst67Quest4_Aim = "塔雷斯 要你在魔导师平台中的阳台上使用占卜宝珠."
-Inst67Quest4_Location = "塔雷斯 (魔导师平台; "..YELLOW.."[2]"..WHITE..")"
-Inst67Quest4_Note = "占卜宝珠 在 "..YELLOW.."[4]"..WHITE..". 在经过一小段'电影‘后，卡雷苟斯会出现开始下一步任务."
-Inst67Quest4_Prequest = "有, 魔导师平台"
+Inst67Quest4_Aim = "塔雷斯要求你使用魔导师平台内的阳台上的宝珠。"
+Inst67Quest4_Location = "塔雷斯（魔导师平台; "..YELLOW.."[2]"..WHITE.."）"
+Inst67Quest4_Note = "占卜宝珠在"..YELLOW.."[4]"..WHITE.."。在经过一小段“电影”后，卡雷苟斯会出现开始下一步任务。"
+Inst67Quest4_Prequest = "有，魔导师平台"
 Inst67Quest4_Folgequest = "有，大难不死"
 Inst67Quest4FQuest = "true"
 -- No Rewards for this quest
@@ -9675,16 +9681,16 @@ Inst67Quest4FQuest = "true"
 Inst67Quest5 = "5. 大难不死"
 Inst67Quest5_Level = "70"
 Inst67Quest5_Attain = "70"
-Inst67Quest5_Aim = "卡雷苟斯要你杀死魔导师平台的凯尔萨斯王子. 完成任务后带着他的头颅向阳湾港拉瑞瑟复命."
-Inst67Quest5_Location = "卡雷苟斯 (魔导师平台; "..YELLOW.."[4]"..WHITE..")"
-Inst67Quest5_Note = "凯尔萨斯逐日者 "..YELLOW.."[6]"..WHITE..". 完成任务之后你将能够进入英雄难度的魔导师平台.\n\n拉瑞瑟 在 奎尔丹纳斯 - 阳湾港(; "..YELLOW.."47,31"..WHITE..")."
+Inst67Quest5_Aim = "卡雷苟斯要求你击败魔导师平台内的凯尔萨斯。取下凯尔萨斯的头颅之后，立刻向破碎残阳基地的主教拉雷索尔复命。"
+Inst67Quest5_Location = "卡雷苟斯（魔导师平台; "..YELLOW.."[4]"..WHITE.."）"
+Inst67Quest5_Note = "凯尔萨斯·逐日者在"..YELLOW.."[6]"..WHITE.."。完成任务之后你将能够进入英雄难度的魔导师平台。\n\n雷索尔在（奎尔丹纳斯岛 - 阳湾港; "..YELLOW.."47,31"..WHITE.."）。"
 Inst67Quest5_Prequest = "有，占星球"
 Inst67Quest5_Folgequest = "无"
 Inst67Quest5FQuest = "true"
 --
-Inst67Quest5name1 = "Bright Crimson Spinel"
-Inst67Quest5name2 = "Runed Crimson Spinel"
-Inst67Quest5name3 = "Teardrop Crimson Spinel"
+Inst67Quest5name1 = "明亮赤尖石"
+Inst67Quest5name2 = "符文赤尖石"
+Inst67Quest5name3 = "泪珠赤尖石"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9754,1054 +9760,12 @@ Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 --------------- INST68 - Sunwell Plateau ---------------
 
-Inst68Story = "在最新的2.4版本《决战太阳之井》中，燃烧军团的恶魔领主基尔加丹将从太阳之井中重返世界，他的栖身之地将成为一个全新的25人副本：太阳井高地"
+Inst68Story = "在最新的2.4版本《决战太阳之井》中，燃烧军团的恶魔领主基尔加丹将从太阳之井中重返世界，他的栖身之地将成为一个全新的25人副本：太阳之井高地。"
 Inst68Caption = "太阳井高地"
 Inst68QAA = "无任务"
 Inst68QAH = "无任务"
 
 
-
----------------------------------------------------
----------------- BATTLEGROUNDS --------------------
----------------------------------------------------
-
-
-
---------------- INST33 - Alterac Valley (AV) ---------------
-
-Inst33Story = "雷矛远征军已经在奥特兰克山谷中安营扎寨，想要研究这里的资源和远古遗物。尽管他们来此的目的并不是为了挑衅，但是矮人们却与居住在山谷南部的霜狼氏族发生了激烈的冲突。霜狼氏族由此发誓要将入侵者赶出他们的家园. "
-Inst33Caption = "奥特兰克山谷"
-Inst33QAA = "18 个任务"
-Inst33QAH = "18 个任务"
-
---Quest 1 Alliance
-Inst33Quest1 = "1. 战斗的召唤：奥特兰克山谷 (战场日常)"
-Inst33Quest1_Level = "51"
-Inst33Quest1_Attain = "51"
-Inst33Quest1_Aim = "在奥特兰克山谷战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命."
-Inst33Quest1_Location = "联盟准将:\n   沙塔斯城：贫民窟 "..YELLOW.."67,34"..WHITE.."\n   暴风城：暴风要塞 - "..YELLOW.."83,14"..WHITE.."\n   铁炉堡：武器大厅 - "..YELLOW.."70,91"..WHITE.."\n   达纳苏斯：战士区 - "..YELLOW.."59,36"..WHITE.."\n   埃索达：圣光穹顶 - "..YELLOW.."25,55"..WHITE.." "
-Inst33Quest1_Note = "战场日常任务."
-Inst33Quest1_Prequest = "无"
-Inst33Quest1_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst33Quest2 = "2. 国王的命令"
-Inst33Quest2_Level = "60"
-Inst33Quest2_Attain = "51"
-Inst33Quest2_Aim = "到希尔斯布莱德丘陵地区的奥特兰克山谷去。到那里之后，和哈格丁中尉谈谈."
-Inst33Quest2_Location = "洛泰姆中尉 (铁炉堡; "..YELLOW.."30,62"..WHITE..")"
-Inst33Quest2_Note = "哈格丁中尉 在(奥特兰克山脉; "..YELLOW.."39,81"..WHITE..")."
-Inst33Quest2_Prequest = "无"
-Inst33Quest2_Folgequest = "有，实验场"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst33Quest3 = "3. 实验场"
-Inst33Quest3_Level = "60"
-Inst33Quest3_Attain = "51"
-Inst33Quest3_Aim = "到主基地东南边的冰翼洞穴中去找到雷矛军旗，然后把它交给哈格丁中尉."
-Inst33Quest3_Location = "哈格丁中尉 (奥特兰克山谷; "..YELLOW.."39,81"..WHITE..")"
-Inst33Quest3_Note = "雷矛军旗在 奥特兰克山谷北部地图 冰翼洞穴 "..YELLOW.."[11]"..WHITE.." . 当你声望提升到一个新的等级后，你可以与同一个NPC交谈领取更高级的雷矛徽章."
-Inst33Quest3_Prequest = "无"
-Inst33Quest3_Folgequest = "无"
-Inst33Quest3FQuest = "true"
---
-Inst33Quest3name1 = "Stormpike Insignia Rank 1"
-Inst33Quest3name2 = "The Frostwolf Artichoke"
-
---Quest 4 Alliance
-Inst33Quest4 = "4. 奥特兰克山谷的战斗"
-Inst33Quest4_Level = "60"
-Inst33Quest4_Attain = "51"
-Inst33Quest4_Aim = "进入奥特兰克山谷，击败部落将军德雷克塔尔。然后回到勘查员塔雷·石镐那里."
-Inst33Quest4_Location = "勘查员塔雷·石镐 (奥特兰克山脉; "..YELLOW.."41,78"..WHITE..") and\n(奥特兰克山谷 - 北部地图; "..YELLOW.."[B]"..WHITE..")"
-Inst33Quest4_Note = "德雷克塔尔 在 (奥特兰克山谷 - 南部地图; "..YELLOW.."[B]"..WHITE.."). 完成这个任务并不一定需要杀死德雷克塔尔，只要赢得奥特兰克山谷的战斗即可."
-Inst33Quest4_Prequest = "无"
-Inst33Quest4_Folgequest = "有，雷矛英雄"
---
-Inst33Quest4name1 = "Bloodseeker"
-Inst33Quest4name2 = "Ice Barbed Spear"
-Inst33Quest4name3 = "Wand of Biting Cold"
-Inst33Quest4name4 = "Cold Forged Hammer"
-
---Quest 5 Alliance
-Inst33Quest5 = "5. 军需官"
-Inst33Quest5_Level = "60"
-Inst33Quest5_Attain = "51"
-Inst33Quest5_Aim = "与雷矛军需官谈一谈."
-Inst33Quest5_Location = "巡山人布比罗 (奥特兰克山谷 - 北部地图; "..YELLOW.."[** MISSING INFO **]"..WHITE..")"
-Inst33Quest5_Note = "雷矛军需官 在 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..")."
-Inst33Quest5_Prequest = "无"
-Inst33Quest5_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst33Quest6 = "6. 冷齿矿洞的补给"
-Inst33Quest6_Level = "60"
-Inst33Quest6_Attain = "51"
-Inst33Quest6_Aim = "把10份冷齿矿洞补给品交给丹巴达尔的联盟军需官."
-Inst33Quest6_Location = "雷矛军需官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..")"
-Inst33Quest6_Note = "补给可以在冷齿矿洞找到 (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..")."
-Inst33Quest6_Prequest = "无"
-Inst33Quest6_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst33Quest7 = "7. 深铁矿洞的补给"
-Inst33Quest7_Level = "60"
-Inst33Quest7_Attain = "51"
-Inst33Quest7_Aim = "把10份深铁矿洞补给品交给丹巴达尔的联盟军需官."
-Inst33Quest7_Location = "雷矛军需官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..")"
-Inst33Quest7_Note = "补给可以在深铁矿洞找到 (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..")."
-Inst33Quest7_Prequest = "无"
-Inst33Quest7_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst33Quest8 = "8. 护甲碎片"
-Inst33Quest8_Level = "60"
-Inst33Quest8_Attain = "51"
-Inst33Quest8_Aim = "给丹巴达尔的莫高特·深炉带去20块护甲碎片."
-Inst33Quest8_Location = "莫高特·深炉 (奥特兰克山谷 - 北部地图; "..YELLOW.."[4]"..WHITE..")"
-Inst33Quest8_Note = "护甲碎片可以从对方阵营的玩家尸体中拾取，任务是可重复的."
-Inst33Quest8_Prequest = "无"
-Inst33Quest8_Folgequest = "有，更多的护甲碎片"
--- No Rewards for this quest
-
---Quest 9 Alliance
-Inst33Quest9 = "9. 占领矿洞"
-Inst33Quest9_Level = "60"
-Inst33Quest9_Attain = "51"
-Inst33Quest9_Aim = "占领一座还没有被雷矛部族控制的矿洞，然后向丹巴达尔的雷矛军需官复命."
-Inst33Quest9_Location = "杜尔根·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")"
-Inst33Quest9_Note = "要完成这个任务，你需要杀死矿洞中的头目 (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..")  (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..") while the Horde control it."
-Inst33Quest9_Prequest = "无"
-Inst33Quest9_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst33Quest10 = "10. 哨塔和碉堡"
-Inst33Quest10_Level = "60"
-Inst33Quest10_Attain = "51"
-Inst33Quest10_Aim = "摧毁敌方的某座哨塔或者碉堡中的旗帜，然后向丹巴达尔的杜尔根·雷矛复命."
-Inst33Quest10_Location = "杜尔根·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")"
-Inst33Quest10_Note = "只需要烧毁旗帜即可，不需要一定摧毁哨塔或碉堡."
-Inst33Quest10_Prequest = "无"
-Inst33Quest10_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst33Quest11 = "11. 奥特兰克山谷的墓地"
-Inst33Quest11_Level = "60"
-Inst33Quest11_Attain = "51"
-Inst33Quest11_Aim = "占领一座墓地，然后向丹巴达尔的诺雷格·雷矛中尉复命."
-Inst33Quest11_Location = "诺雷格·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")"
-Inst33Quest11_Note = "只需要烧毁旗帜即可，不需要一定占领墓地."
-Inst33Quest11_Prequest = "无"
-Inst33Quest11_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst33Quest12 = "12. 补充坐骑"
-Inst33Quest12_Level = "60"
-Inst33Quest12_Attain = "51"
-Inst33Quest12_Aim = "找到奥特兰克山谷中的山羊。使用雷矛训练颈圈来驯服它们。被驯服的山羊会跟随你回到兽栏管理员那里，然后与兽栏管理员谈话以获得你的奖励."
-Inst33Quest12_Location = "兽栏管理员 (奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE..")"
-Inst33Quest12_Note = "你可以在基地南面找到这些羊，像猎人抓宠物一样驯服羊，然后带它回去复命."
-Inst33Quest12_Prequest = "无"
-Inst33Quest12_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 13 Alliance
-Inst33Quest13 = "13. 山羊坐具"
-Inst33Quest13_Level = "60"
-Inst33Quest13_Attain = "51"
-Inst33Quest13_Aim = "进入敌人的基地，杀死霜狼获得它的皮来作为山羊坐骑的器具，去吧"
-Inst33Quest13_Location = "雷矛山羊骑兵指挥官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE..")"
-Inst33Quest13_Note = "霜狼可以在奥特兰克山谷的南部找到."
-Inst33Quest13_Prequest = "无"
-Inst33Quest13_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 14 Alliance
-Inst33Quest14 = "14. 水晶簇"
-Inst33Quest14_Level = "60"
-Inst33Quest14_Attain = "51"
-Inst33Quest14_Aim = "你可以躲避硝烟弥漫的战场，激烈战斗之外，你可以帮助我收集霜狼氏族身上的风暴水晶.."
-Inst33Quest14_Location = "大德鲁伊雷弗拉尔  (奥特兰克山谷 - 北部地图; "..YELLOW.."[2]"..WHITE..")"
-Inst33Quest14_Note = "在募集大约200个风暴水晶后，大德鲁伊伊类弗拉尔开始向（奥特兰克山谷 - 北部地图（ "..YELLOW.."[19]"..WHITE.."）移动，他将启动召唤法阵需要10个玩家去协助召唤。如果成功，森林之王伊弗斯将被召唤出来帮助抵抗部落."
-Inst33Quest14_Prequest = "无"
-Inst33Quest14_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 15 Alliance
-Inst33Quest15 = "15. 森林之王伊弗斯"
-Inst33Quest15_Level = "60"
-Inst33Quest15_Attain = "51"
-Inst33Quest15_Aim = "霜狼氏族的战士身上带着一种名叫暴风水晶的符咒，我们可以用这些符咒来召唤伊弗斯。快去拿来那些水晶吧."
-Inst33Quest15_Location = "大德鲁伊雷弗拉尔 (奥特兰克山谷 - 北部地图; "..YELLOW.."[2]"..WHITE..")"
-Inst33Quest15_Note = "在募集大约200个风暴水晶后，大德鲁伊伊类弗拉尔开始向（奥特兰克山谷 - 北部地图（ "..YELLOW.."[19]"..WHITE.."）移动，他将启动召唤法阵需要10个玩家去协助召唤。如果成功，森林之王伊弗斯将被召唤出来帮助抵抗部落."
-Inst33Quest15_Prequest = "无"
-Inst33Quest15_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 16 Alliance
-Inst33Quest16 = "16. 天空的召唤 - 维波里的空军"
-Inst33Quest16_Level = "60"
-Inst33Quest16_Attain = "51"
-Inst33Quest16_Aim = "你必须去对付守卫前线的部落精英士兵!我现在命令你去削弱那些绿皮蛮子的力量，把他们的中尉和军团士兵的勋章给我拿来。当我拿到足够的勋章时，我会命令开始对他们进行空中打击的."
-Inst33Quest16_Location = "空军指挥官维波里 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest16_Note = "你可以从对方阵营的尸体上得到这些勋章."
-Inst33Quest16_Prequest = "无"
-Inst33Quest16_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 17 Alliance
-Inst33Quest17 = "17. 天空的召唤 - 斯里多尔的空军"
-Inst33Quest17_Level = "60"
-Inst33Quest17_Attain = "51"
-Inst33Quest17_Aim = "我的狮鹫兽应该在前线作战，但是在那里的敌人被削弱之前，它们是无法发动攻击的。部落的战士胸前挂着代表荣誉的勋章勇猛冲锋，而你要做的就是从他们腐烂的尸体上把勋章拿下来，并把它们交视只要敌人在前线的力量受到足够的打击，我就会发出命令进行空袭!我们将从空中给敌人造成致命的创伤!!"
-Inst33Quest17_Location = "空军指挥官斯里多尔 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest17_Note = "你可以从对方阵营的尸体上得到这些勋章."
-Inst33Quest17_Prequest = "无"
-Inst33Quest17_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 18 Alliance
-Inst33Quest18 = "18. 天空的召唤 - 艾克曼的空军"
-Inst33Quest18_Level = "60"
-Inst33Quest18_Attain = "51"
-Inst33Quest18_Aim = "它们的士气很低，战士。自从我们上次对部落的空中打击失败之后，它们就拒绝再次飞行!你必须鼓舞它们的士气。回到战场并攻击部落的核心力量，杀死他们的指挥官和卫兵。尽可能带回更多的勋章!我向你保证，当我的狮鹫兽看到这些战利品并嗅到敌人的鲜血时，它们就会再次起飞!现在就出发吧!"
-Inst33Quest18_Location = "空军指挥官艾克曼 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest18_Note = "你可以从对方阵营的尸体上得到这些勋章."
-Inst33Quest18_Prequest = "无"
-Inst33Quest18_Folgequest = "无"
--- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst33Quest1_HORDE = "1. 战斗的召唤：奥特兰克山谷 (战场日常)"
-Inst33Quest1_HORDE_Level = "51"
-Inst33Quest1_HORDE_Attain = "51"
-Inst33Quest1_HORDE_Aim = "在奥特兰克山谷战场中获得一场胜利，然后向任意部落主城或沙塔斯城中的部落战争使者复命."
-Inst33Quest1_HORDE_Location = "部落战场使者:\n   沙塔斯城：贫民窟 - "..YELLOW.."70,54"..WHITE.."\n   奥格瑞玛：荣耀谷 - "..YELLOW.."80,30"..WHITE.."\n   雷霆崖：猎手高地 - "..YELLOW.."56,77"..WHITE.."\n   幽暗城 - "..YELLOW.."61,88"..WHITE.."\n   银月城 - "..YELLOW.."97,38"
-Inst33Quest1_HORDE_Note = "51级你才能接到这个任务，完成任务会基于你的级别奖励金钱和经验."
-Inst33Quest1_HORDE_Prequest = "无"
-Inst33Quest1_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst33Quest2_HORDE = "2. 保卫霜狼氏族"
-Inst33Quest2_HORDE_Level = "60"
-Inst33Quest2_HORDE_Attain = "51"
-Inst33Quest2_HORDE_Aim = "到希尔斯布莱德丘陵地区的奥特兰克山谷去。找到拉格隆德并和他谈谈，然后成为霜狼氏族的士兵."
-Inst33Quest2_HORDE_Location = "霜狼大使 (奥格瑞玛 - 力量谷 "..YELLOW.."50,71"..WHITE..")"
-Inst33Quest2_HORDE_Note = "拉格隆德 (奥特兰克山脉; "..YELLOW.."62,59"..WHITE..")."
-Inst33Quest2_HORDE_Prequest = "无"
-Inst33Quest2_HORDE_Folgequest = "有，实验场"
--- No Rewards for this quest
-
---Quest 3 Horde
-Inst33Quest3_HORDE = "3. 实验场"
-Inst33Quest3_HORDE_Level = "60"
-Inst33Quest3_HORDE_Attain = "51"
-Inst33Quest3_HORDE_Aim = "到主基地东南边的蛮爪洞穴中去找到霜狼军旗，然后把它交给拉格隆德."
-Inst33Quest3_HORDE_Location = "拉格隆德 (奥特兰克山脉; "..YELLOW.."62,59"..WHITE..")"
-Inst33Quest3_HORDE_Note = "霜狼军旗 在蛮爪洞穴 (奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE.."). 每当声望到达一个级别，你可以在这个人这里得到升级的徽章."
-Inst33Quest3_HORDE_Prequest = "有，保卫霜狼氏族"
-Inst33Quest3_HORDE_Folgequest = "无"
-Inst33Quest3FQuest_HORDE = "true"
---
-Inst33Quest3name1_HORDE = "Frostwolf Insignia Rank 1"
-Inst33Quest3name2_HORDE = "Peeling the Onion"
-
---Quest 4 Horde
-Inst33Quest4_HORDE = "4. 为奥特兰克而战"
-Inst33Quest4_HORDE_Level = "60"
-Inst33Quest4_HORDE_Attain = "51"
-Inst33Quest4_HORDE_Aim = "进入奥特兰克山谷，击败矮人将军范达尔·雷矛。然后回到沃加·死爪那里."
-Inst33Quest4_HORDE_Location = "沃加·死爪 (奥特兰克山脉; "..YELLOW.."64,60"..WHITE..")"
-Inst33Quest4_HORDE_Note = "范达尔 雷矛 在 (奥特兰克山谷 - 北部地图; "..YELLOW.."[B]"..WHITE.."). 不一定需要杀死范达尔才能完成任务，赢得胜利就行."
-Inst33Quest4_HORDE_Prequest = "无"
-Inst33Quest4_HORDE_Folgequest = "有，霜狼氏族的英雄"
---
-Inst33Quest4name1_HORDE = "Bloodseeker"
-Inst33Quest4name2_HORDE = "Ice Barbed Spear"
-Inst33Quest4name3_HORDE = "Wand of Biting Cold"
-Inst33Quest4name4_HORDE = "Cold Forged Hammer"
-
---Quest 5 Horde
-Inst33Quest5_HORDE = "5. 霜狼军需官"
-Inst33Quest5_HORDE_Level = "60"
-Inst33Quest5_HORDE_Attain = "51"
-Inst33Quest5_HORDE_Aim = "与霜狼军需官谈一谈."
-Inst33Quest5_HORDE_Location = "乔泰克 (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest5_HORDE_Note = "霜狼军需官 在 "..YELLOW.."[10]"..WHITE.." ."
-Inst33Quest5_HORDE_Prequest = "无"
-Inst33Quest5_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 6 Horde
-Inst33Quest6_HORDE = "6. 冷齿矿洞的补给"
-Inst33Quest6_HORDE_Level = "60"
-Inst33Quest6_HORDE_Attain = "51"
-Inst33Quest6_HORDE_Aim = "把10份冷齿矿洞补给品交给霜狼要塞的部落军需官."
-Inst33Quest6_HORDE_Location = "霜狼军需官 (奥特兰克山谷 - 南部地图; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest6_HORDE_Note = "补给品 可以在冷齿矿洞找到 (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..")."
-Inst33Quest6_HORDE_Prequest = "无"
-Inst33Quest6_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 7 Horde
-Inst33Quest7_HORDE = "7. 深铁矿洞的补给"
-Inst33Quest7_HORDE_Level = "60"
-Inst33Quest7_HORDE_Attain = "51"
-Inst33Quest7_HORDE_Aim = "把10份深铁矿洞补给品交给霜狼要塞的部落军需官."
-Inst33Quest7_HORDE_Location = "霜狼军需官 (奥特兰克山谷 - 南部地图; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest7_HORDE_Note = "补给品 可以在深铁矿洞找到 (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..")."
-Inst33Quest7_HORDE_Prequest = "无"
-Inst33Quest7_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 8 Horde
-Inst33Quest8_HORDE = "8. 敌人的物资"
-Inst33Quest8_HORDE_Level = "60"
-Inst33Quest8_HORDE_Attain = "51"
-Inst33Quest8_HORDE_Aim = "给霜狼村的铁匠雷格萨带去20块护甲碎片."
-Inst33Quest8_HORDE_Location = "铁匠雷格萨 (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest8_HORDE_Note = "这是个可重复任务."
-Inst33Quest8_HORDE_Prequest = "无"
-Inst33Quest8_HORDE_Folgequest = "有，更多的物资!"
--- No Rewards for this quest
-
---Quest 9 Horde
-Inst33Quest9_HORDE = "9. 占领矿洞"
-Inst33Quest9_HORDE_Level = "60"
-Inst33Quest9_HORDE_Attain = "51"
-Inst33Quest9_HORDE_Aim = "占领一座矿洞，然后向霜狼村的霜狼军需官报告."
-Inst33Quest9_HORDE_Location = "霜狼军需官 (奥特兰克山脉; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest9_HORDE_Note = "完成这个任务你只要杀死洞里的首领即可."
-Inst33Quest9_HORDE_Prequest = "无"
-Inst33Quest9_HORDE_Folgequest ="无"
--- No Rewards for this quest
-
---Quest 10 Horde
-Inst33Quest10_HORDE = "10. 哨塔和碉堡"
-Inst33Quest10_HORDE_Level = "60"
-Inst33Quest10_HORDE_Attain = "51"
-Inst33Quest10_HORDE_Aim = "占领敌方的某座哨塔，然后向霜狼村的提卡·血牙复命."
-Inst33Quest10_HORDE_Location = "提卡·血牙 (奥特兰克山脉; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest10_HORDE_Note = "不用摧毁，只需开旗即可."
-Inst33Quest10_HORDE_Prequest = "无"
-Inst33Quest10_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 11 Horde
-Inst33Quest11_HORDE = "11. 奥特兰克山谷的墓地"
-Inst33Quest11_HORDE_Level = "60"
-Inst33Quest11_HORDE_Attain = "51"
-Inst33Quest11_HORDE_Aim = "占领一座墓地，然后向霜狼村的亚斯拉复命."
-Inst33Quest11_HORDE_Location = "亚斯拉 (奥特兰克山脉; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest11_HORDE_Note = "只需开旗即可."
-Inst33Quest11_HORDE_Prequest = "无"
-Inst33Quest11_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 12 Horde
-Inst33Quest12_HORDE = "12. 补充坐骑"
-Inst33Quest12_HORDE_Level = "60"
-Inst33Quest12_HORDE_Attain = "51"
-Inst33Quest12_HORDE_Aim = "找到奥特兰克山谷中的霜狼。使用霜狼口套来驯服它们。被驯服的霜狼会跟随你回到兽栏管理员那里，然后与兽栏管理员谈话以获得你的奖励."
-Inst33Quest12_HORDE_Location = "霜狼兽栏管理员 (奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE..")"
-Inst33Quest12_HORDE_Note = "基地外面就可以找到这些狼."
-Inst33Quest12_HORDE_Prequest = "无"
-Inst33Quest12_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 13 Horde
-Inst33Quest13_HORDE = "13. 羊皮坐具"
-Inst33Quest13_HORDE_Level = "60"
-Inst33Quest13_HORDE_Attain = "51"
-Inst33Quest13_HORDE_Aim = "杀死雷矛卫队用作坐骑的山羊，我们就可以将羊皮作为我们的坐垫"
-Inst33Quest13_HORDE_Location = "霜狼骑兵指挥官 (奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE..")"
-Inst33Quest13_HORDE_Note = "羊能在北部的奥特兰克山谷找到."
-Inst33Quest13_HORDE_Prequest = "无"
-Inst33Quest13_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 14 Horde
-Inst33Quest14_HORDE = "14. 联盟之血"
-Inst33Quest14_HORDE_Level = "60"
-Inst33Quest14_HORDE_Attain = "51"
-Inst33Quest14_HORDE_Aim = "从联盟尸体上边得到联盟之血，把它交给我."
-Inst33Quest14_HORDE_Location = "指挥官瑟鲁加  (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest14_HORDE_Note = "你可以从对方阵营的尸体上得到这些东西"
-Inst33Quest14_HORDE_Prequest = "无"
-Inst33Quest14_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 15 Horde
-Inst33Quest15_HORDE = "15. 冰雪之王洛克霍拉"
-Inst33Quest15_HORDE_Level = "60"
-Inst33Quest15_HORDE_Attain = "51"
-Inst33Quest15_HORDE_Aim = "收集足够的联盟之血后，你就可以召唤冰雪之王."
-Inst33Quest15_HORDE_Location = "指挥官瑟鲁加  (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest15_HORDE_Note = "当交齐150个联盟之血后，指挥官瑟鲁加开始向（奥特兰克山谷 - 南部地图; "..YELLOW.."[14]"..WHITE.."）移动。召唤法阵需要10个玩家去协助召唤。如果成功，冰雪之王洛克霍拉将被召唤出来以对抗联盟。"
-Inst33Quest15_HORDE_Prequest = "无"
-Inst33Quest15_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 16 Horde
-Inst33Quest16_HORDE = "16. 天空的召唤 - 古斯的部队"
-Inst33Quest16_HORDE_Level = "60"
-Inst33Quest16_HORDE_Attain = "51"
-Inst33Quest16_HORDE_Aim = "收集联盟卫兵的肉，把它交给我"
-Inst33Quest16_HORDE_Location = "空军指挥官古斯 (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest16_HORDE_Note = "你可以从对方阵营的尸体上得到这些东西"
-Inst33Quest16_HORDE_Prequest = "无"
-Inst33Quest16_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 17 Horde
-Inst33Quest17_HORDE = "17. 天空的召唤 - 杰斯托的部队"
-Inst33Quest17_HORDE_Level = "60"
-Inst33Quest17_HORDE_Attain = "51"
-Inst33Quest17_HORDE_Aim = "收集联盟士官的食物，把它交给我."
-Inst33Quest17_HORDE_Location = "空军指挥官杰斯托  (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest17_HORDE_Note = "你可以从对方阵营的尸体上得到这些东西"
-Inst33Quest17_HORDE_Prequest = "无"
-Inst33Quest17_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 18 Horde
-Inst33Quest18_HORDE = "18. 天空的召唤 - 穆维里克的部队"
-Inst33Quest18_HORDE_Level = "60"
-Inst33Quest18_HORDE_Attain = "51"
-Inst33Quest18_HORDE_Aim = "收集联盟指挥官的食物，把它交给我"
-Inst33Quest18_HORDE_Location = "空军指挥官穆维里克 (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest18_HORDE_Note = "你可以从对方阵营的尸体上得到这些东西"
-Inst33Quest18_HORDE_Prequest = "无"
-Inst33Quest18_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
-
-
---------------- INST34 - Arathi Basin (AB) ---------------
-
-Inst34Story = "位于阿拉希高地的阿拉希盆地是一处激动人心的战场。盆地拥有丰富的资源，部落和联盟都对此垂涎不已。污染者和阿拉索联军在阿拉希盆地展开激战，想要为他们所在的阵营抢夺盆地中的资源."
-Inst34Caption = "阿拉希盆地"
-Inst34QAA = "4 个任务"
-Inst34QAH = "4 个任务"
-
---Quest 1 Alliance
-Inst34Quest1 = "1. 战斗的召唤：阿拉希盆地 (战场日常)"
-Inst34Quest1_Level = "20"
-Inst34Quest1_Attain = "20"
-Inst34Quest1_Aim = "阿拉希盆地战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命."
-Inst34Quest1_Location = "联盟准将:\n   沙塔斯城：贫民窟 "..YELLOW.."67,34"..WHITE.."\n   暴风城：暴风要塞 - "..YELLOW.."83,14"..WHITE.."\n   铁炉堡：武器大厅 - "..YELLOW.."70,91"..WHITE.."\n   达纳苏斯：战士区 - "..YELLOW.."59,36"..WHITE.."\n   埃索达：圣光穹顶 - "..YELLOW.."25,55"..WHITE.." "
-Inst34Quest1_Note = "你达到20级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱."
-Inst34Quest1_Prequest = "无"
-Inst34Quest1_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst34Quest2 = "2. 阿拉希盆地之战!"
-Inst34Quest2_Level = "25"
-Inst34Quest2_Attain = "25"
-Inst34Quest2_Aim = "进攻矿洞、伐木场、铁匠铺和农场，然后向避难谷地的奥斯莱特元帅复命."
-Inst34Quest2_Location = "奥斯莱特元帅  (阿拉希高地-避难谷地; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest2_Note = "开旗就可."
-Inst34Quest2_Prequest = "无"
-Inst34Quest2_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst34Quest3 = "3. 控制四座基地"
-Inst34Quest3_Level = "60"
-Inst34Quest3_Attain = "60"
-Inst34Quest3_Aim = "进入阿拉希盆地，同时占据并控制四座基地，当任务完成之后向避难谷地的奥斯莱特元帅报告."
-Inst34Quest3_Location = "奥斯莱特元帅 (阿拉希高地-避难谷地; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest3_Note = "你必须和阿拉索联军声望达到友善才能接到这个任务."
-Inst34Quest3_Prequest = "无"
-Inst34Quest3_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst34Quest4 = "4. 控制五座基地"
-Inst34Quest4_Level = "60"
-Inst34Quest4_Attain = "60"
-Inst34Quest4_Aim = "同时控制阿拉希盆地中的五座基地，然后向避难谷地的奥斯莱特元帅复命."
-Inst34Quest4_Location = "奥斯莱特元帅 (阿拉希高地-避难谷地; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest4_Note = "你必须和阿拉索联军达到崇拜才能接到这个任务."
-Inst34Quest4_Prequest = "无"
-Inst34Quest4_Folgequest = "无"
---
-Inst34Quest4name1 = "Arathor Battle Tabard"
-
-
---Quest 1 Horde
-Inst34Quest1_HORDE = "1. 战斗的召唤：阿拉希盆地 (战场日常)"
-Inst34Quest1_HORDE_Level = "20"
-Inst34Quest1_HORDE_Attain = "20"
-Inst34Quest1_HORDE_Aim = "在阿拉希盆地战场中获得一场胜利，然后向任意部落主城或沙塔斯城中的部落战争使者复命."
-Inst34Quest1_HORDE_Location = "部落战场使者:\n   沙塔斯城：贫民窟 - "..YELLOW.."70,54"..WHITE.."\n   奥格瑞玛：荣耀谷 - "..YELLOW.."80,30"..WHITE.."\n   雷霆崖：猎手高地 - "..YELLOW.."56,77"..WHITE.."\n   幽暗城 - "..YELLOW.."61,88"..WHITE.."\n   银月城 - "..YELLOW.."97,38"
-Inst34Quest1_HORDE_Note = "你达到20级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱."
-Inst34Quest1_HORDE_Prequest = "无"
-Inst34Quest1_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst34Quest2_HORDE = "2. 阿拉希盆地之战!"
-Inst34Quest2_HORDE_Level = "25"
-Inst34Quest2_HORDE_Attain = "25"
-Inst34Quest2_HORDE_Aim = "进攻阿拉希盆地的矿洞、伐木场、铁匠铺和兽栏，然后向落锤镇的屠杀者杜维尔复命."
-Inst34Quest2_HORDE_Location = "屠杀者杜维尔 (阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest2_HORDE_Note = "The locations to be assaulted are marked on the map as 1 through 4."
-Inst34Quest2_HORDE_Prequest = "No"
-Inst34Quest2_HORDE_Folgequest = "No"
--- No Rewards for this quest
-
---Quest 3 Horde
-Inst34Quest3_HORDE = "3. 夺取四座基地"
-Inst34Quest3_HORDE_Level = "60"
-Inst34Quest3_HORDE_Attain = "60"
-Inst34Quest3_HORDE_Aim = "同时占据阿拉希盆地中的四座基地，然后向落锤镇的屠杀者杜维尔复命."
-Inst34Quest3_HORDE_Location = "屠杀者杜维尔 (阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest3_HORDE_Note = "你必须和污染者声望达到友善才能接到任务."
-Inst34Quest3_HORDE_Prequest = "无"
-Inst34Quest3_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 4 Horde
-Inst34Quest4_HORDE = "4. 夺取五座基地"
-Inst34Quest4_HORDE_Level = "60"
-Inst34Quest4_HORDE_Attain = "60"
-Inst34Quest4_HORDE_Aim = "同时占据阿拉希盆地中的五座基地，然后向落锤镇的屠杀者杜维尔复命."
-Inst34Quest4_HORDE_Location = "屠杀者杜维尔 (阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest4_HORDE_Note = "你必须和污染者声望达到崇敬才能接到."
-Inst34Quest4_HORDE_Prequest = "无"
-Inst34Quest4_HORDE_Folgequest = "无"
---
-Inst34Quest4name1_HORDE = "Battle Tabard of the Defilers"
-
-
-
---------------- INST35 - Warsong Gulch (WSG) ---------------
-
-Inst35Story = "战歌峡谷位于灰谷森林南部。在第三次兽人战争中，格罗姆·地狱咆哮和他麾下的兽人们几乎将战歌峡谷附近的森林砍伐殆尽。其中部分兽人仍然盘踞在这里，继续砍伐着森林，想要扩张部落的势力范围。他们称自己为战歌侦查骑兵。\n\n暗夜精灵早已纠集兵力，打算收复灰谷森林。他们想要将战歌侦察骑兵彻底赶出这片土地。因此，银翼哨兵挺身而出，发誓在将兽人驱逐出战歌峡谷之前他们决不休息. "
-Inst35Caption = "战歌峡谷（WSG）"
-Inst35QAA = "1 个任务"
-Inst35QAH = "1 个任务"
-
---Quest 1 Alliance
-Inst35Quest1 = "1. 战斗的召唤：战歌峡谷 (战场日常)"
-Inst35Quest1_Level = "10"
-Inst35Quest1_Attain = "10"
-Inst35Quest1_Aim = "在战歌峡谷战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命."
-Inst35Quest1_Location = "联盟准将:\n   沙塔斯城：贫民窟 "..YELLOW.."67,34"..WHITE.."\n   暴风城：暴风要塞 - "..YELLOW.."83,14"..WHITE.."\n   铁炉堡：武器大厅 - "..YELLOW.."70,91"..WHITE.."\n   达纳苏斯：战士区 - "..YELLOW.."59,36"..WHITE.."\n   埃索达：圣光穹顶 - "..YELLOW.."25,55"..WHITE.." "
-Inst35Quest1_Note = "这是战场日常任务，你达到10级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱."
-Inst35Quest1_Prequest = "无"
-Inst35Quest1_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 1 Horde
-Inst35Quest1_HORDE = "1. 战斗的召唤：战歌峡谷 (战场日常)"
-Inst35Quest1_HORDE_Level = "10"
-Inst35Quest1_HORDE_Attain = "10"
-Inst35Quest1_HORDE_Aim = "在战歌峡谷战场中获得一场胜利，然后向任意部落主城或沙塔斯城中的部落战争使者复命."
-Inst35Quest1_HORDE_Location = "部落战场使者:\n   沙塔斯城：贫民窟 - "..YELLOW.."70,54"..WHITE.."\n   奥格瑞玛：荣耀谷 - "..YELLOW.."80,30"..WHITE.."\n   雷霆崖：猎手高地 - "..YELLOW.."56,77"..WHITE.."\n   幽暗城 - "..YELLOW.."61,88"..WHITE.."\n   银月城 - "..YELLOW.."97,38"
-Inst35Quest1_HORDE_Note = "这是战场日常任务，你达到10级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱."
-Inst35Quest1_HORDE_Prequest = "无"
-Inst35Quest1_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
-
-
---------------- INST60 - Eye of the Storm ---------------
-
-Inst60Story = "风暴之眼位于外域的虚空风暴地区，是一处激动人心的新战场。该战场有“维持占领”模式和“夺旗”模式两种玩法，高等级的联盟和部落玩家可以在两个浮空群岛上进行15v15的对抗。这些岛屿由三座桥梁连接。此外，还有四座俯瞰战场的塔楼可充当小规模对抗的争夺目标。而地图的中央，还会刷新一面旗帜供各队伍争夺."
-Inst60Caption = "风暴之眼"
-Inst60QAA = "1 个任务"
-Inst60QAH = "1 个任务"
-
---Quest 1 Alliance
-Inst60Quest1 = "1. 战斗的召唤：风暴之眼 (战场日常)"
-Inst60Quest1_Level = "61"
-Inst60Quest1_Attain = "61"
-Inst60Quest1_Aim = "在风暴之眼战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命."
-Inst60Quest1_Location = "联盟准将:\n   沙塔斯城：贫民窟 "..YELLOW.."67,34"..WHITE.."\n   暴风城：暴风要塞 - "..YELLOW.."83,14"..WHITE.."\n   铁炉堡：武器大厅 - "..YELLOW.."70,91"..WHITE.."\n   达纳苏斯：战士区 - "..YELLOW.."59,36"..WHITE.."\n   埃索达：圣光穹顶 - "..YELLOW.."25,55"
-Inst60Quest1_Note = "这是战场日常任务，你达到61级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱."
-Inst60Quest1_Prequest = "无"
-Inst60Quest1_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 1 Horde
-Inst60Quest1_HORDE = "1. 战斗的召唤：风暴之眼 (战场日常)"
-Inst60Quest1_HORDE_Level = "61"
-Inst60Quest1_HORDE_Attain = "61"
-Inst60Quest1_HORDE_Aim = "在风暴之眼战场中获得一场胜利，然后向任意部落主城或沙塔斯城中的部落战争使者复命."
-Inst60Quest1_HORDE_Location = "部落战场使者:\n   沙塔斯城：贫民窟 - "..YELLOW.."70,54"..WHITE.."\n   奥格瑞玛：荣耀谷 - "..YELLOW.."80,30"..WHITE.."\n   雷霆崖：猎手高地 - "..YELLOW.."56,77"..WHITE.."\n   幽暗城 - "..YELLOW.."61,88"..WHITE.."\n   银月城 - "..YELLOW.."97,38"
-Inst60Quest1_HORDE_Note = "这是战场日常任务，你达到61级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱."
-Inst60Quest1_HORDE_Prequest = "无"
-Inst60Quest1_HORDE_Folgequest = "无"
--- No Rewards for this quest
-
-
-
----------------------------------------------------
----------------- OUTDOOR RAIDS --------------------
----------------------------------------------------
-
-
-
---------------- INST30 - Dragons of Nightmare ---------------
-
-Inst30Story = {
-  ["Page1"] = "世界之树陷入了一场骚乱。僻静的灰谷、暮色森林、菲拉斯以及辛特兰面临着新的威胁。绿龙军团的四条守护巨龙从翡翠梦境来到了艾泽拉斯世界，这些曾经忠心耿耿的守护者，现在却为世界带来了毁灭和死亡的气息。拿起武器，跟你的伙伴一同进入那些神秘的森林——只有你能从巨龙手中拯救艾泽拉斯。",
-  ["Page2"] = "翡翠梦境的守护巨龙伊瑟拉统治着神秘的绿龙军团。她居住在翡翠梦境中，支配着世界万物的演化方向。她是自然和梦幻的守护者，她统治的绿龙军团负责保护世界之树，只有德鲁伊才能通过世界之树进入翡翠梦境。\n近来，在翡翠梦境中的某种新的黑暗力量的驱使下，伊瑟拉最忠诚的守护者们穿越世界之树，来到了艾泽拉斯世界，妄图使世界再度陷入疯狂和恐慌。即使是最强大的冒险者也应该对这些巨龙退避三舍，否则他就将为此付出惨重的代价。",
-  ["Page3"] = "受翡翠梦境黑暗力量的影响，莱索恩的龙鳞失去了光泽，他拥有了汲取敌人幻象的力量。这些幻象可以赋予巨龙治疗的能力。毫无疑问，莱索恩被认为是伊瑟拉手下最强大的守护者。",
-  ["Page4"] = "在翡翠梦境的某种神秘的黑暗力量诱惑下，高贵的艾莫莉丝成为了一头腐烂、患病的怪物。少数侥幸生还者称，他们死去的伙伴的尸体上长出了腐烂的蘑菇，那情形异常恐怖。艾莫莉丝是伊瑟拉统治的绿龙军团中最可怕的巨龙。",
-  ["Page5"] = "泰拉尔或许是伊瑟拉的守护者中受黑暗力量影响最深的巨龙。翡翠梦境的黑暗力量彻底摧毁了泰拉尔的心智和肉体。他成为拥有分身术的巨龙幽灵，各个分身都具备强大的魔法破坏力。泰拉尔是个狡猾无情的敌人，他妄图使艾泽拉斯世界的所有生物都陷入疯狂。",
-  ["Page6"] = "伊瑟拉最忠诚的守护者伊森德雷如今已面目全非，她在艾泽拉斯大陆上散播着恐慌和混乱。她先前拥有的治疗能力被黑暗魔法所取代，她能释放烟状的闪电波并召唤恶魔德鲁伊。伊森德雷和她的龙族拥有催眠技能，可以使敌人陷入最可怕的噩梦。",
-  ["MaxPages"] = "6",
-};
-Inst30Caption = "梦魇之龙"
-Inst30Caption2 = "伊瑟拉和绿龙军团"
-Inst30Caption3 = "莱索恩"
-Inst30Caption4 = "艾莫莉丝"
-Inst30Caption5 = "泰拉尔"
-Inst30Caption6 = "伊森德雷"
-Inst30QAA = "1 个任务"
-Inst30QAH = "1 个任务"
-
---Quest 1 Alliance
-Inst30Quest1 = "1. 梦魇的缠绕"
-Inst30Quest1_Level = "60"
-Inst30Quest1_Attain = "60"
-Inst30Quest1_Aim = "寻找能解读梦魇包裹的物品中所隐藏的信息的人."
-Inst30Quest1_Location = "梦魇包裹的物品 (掉落自 泰拉尔, 伊森德雷, 艾莫莉丝 或 莱索恩)"
-Inst30Quest1_Note = "物品交给 守护者雷姆洛斯  (月光林地; "..YELLOW.."36,41"..WHITE..")."
-Inst30Quest1_Prequest = "无"
-Inst30Quest1_Folgequest = "有,唤醒传说"
---
-Inst30Quest1name1 = "Malfurion's Signet Ring"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst30Quest1_HORDE = Inst30Quest1
-Inst30Quest1_HORDE_Level = Inst30Quest1_Level
-Inst30Quest1_HORDE_Attain = Inst30Quest1_Attain
-Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
-Inst30Quest1_HORDE_Location = Inst30Quest1_Location
-Inst30Quest1_HORDE_Note = Inst30Quest1_Note
-Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
-Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
---
-Inst30Quest1name1_HORDE = Inst30Quest1name1
-
-
-
---------------- INST31 - Azuregos ---------------
-
-Inst31Story = "在世界大分裂之前，暗夜精灵之城埃达拉斯在如今被称作艾萨拉的土地上可说是非常繁盛。据说很多古老和强大的高等精灵神器，可能就藏在强极一时的堡垒里。经历了无数世代，蓝龙军团全力保护神器与魔法传说，确保它们不落入凡人手中。蓝龙，艾索雷葛斯的出现，似乎暗示着那些具有极重要意义的物品，像是预言中的永恒之瓶，或许就能在艾萨拉的荒野里找到。无论艾索雷葛斯在寻找什么，可以肯定的是：他会誓死保卫艾萨拉的魔法宝藏。"
-Inst31Caption = "艾索雷葛斯"
-Inst31QAA = "1 个任务"
-Inst31QAH = "1 个任务"
-
---Quest 1 Alliance
-Inst31Quest1 = "1. 龙筋箭袋 (猎人史诗任务)"
-Inst31Quest1_Level = "60"
-Inst31Quest1_Attain = "60"
-Inst31Quest1_Aim = "费伍德森林的古树哈斯塔特要求你带回一块成年蓝龙的肌腱."
-Inst31Quest1_Location = "古树哈斯塔特 (费伍德森林 - 铁木树林; "..YELLOW.."48,24"..WHITE..")"
-Inst31Quest1_Note = "杀死艾索雷葛斯得到蓝龙肉，它在 艾萨拉 "..YELLOW.."[1]"..WHITE.."."
-Inst31Quest1_Prequest = "有，远古石叶 ("..YELLOW.."熔火之心"..WHITE..")"
-Inst31Quest1_Folgequest = "无"
-Inst31Quest1PreQuest = "true"
---
-Inst31Quest1name1 = "Ancient Sinew Wrapped Lamina"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst31Quest1_HORDE = Inst31Quest1
-Inst31Quest1_HORDE_Level = Inst31Quest1_Level
-Inst31Quest1_HORDE_Attain = Inst31Quest1_Attain
-Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
-Inst31Quest1_HORDE_Location = Inst31Quest1_Location
-Inst31Quest1_HORDE_Note = Inst31Quest1_Note
-Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
-Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
-Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
---
-Inst31Quest1name1_HORDE = Inst31Quest1name1
-
-
-
---------------- INST32 - Highlord Kruul ---------------
-
-Inst32Story = "在燃烧军团于第三次大战获胜之后，由恶魔卡扎克所领导的剩余敌军，退回了诅咒之地。到现在为止他们都还住在那里，一个叫腐烂之痕的地方，等待黑暗之门再度敞开。谣传黑暗之门再度敞开之时，卡扎克将带着他剩下的军队前往外域。曾经是兽人家园的德拉诺，外域被兽人萨满耐奥祖所建造的数个传送门同时开启而分割开来，现在更成为被暗夜精灵背叛者伊利丹统帅的恶魔军队所占领的破碎世界。"
-Inst32Caption = "卡扎克"
-Inst32QAA = "无任务"
-Inst32QAH = "无任务"
-
-
-
---------------- INST64 - Doom Lord Kazzak ---------------
-
-Inst64Story = {
-  ["Page1"] = "燃烧军团第二次入侵艾泽拉斯时,卡扎克领主是入侵军最高级别的指挥官之一。当时军团拥有一把叫龙王战刃的神器，它浸透了大地、时光、梦境、魔法和生命五种力量(正是从五色龙族的身上掠夺而来)。即便有此神兵在手，阿克蒙德和他的将士们最终依旧兵败于海加尔山，这把战刃也在战斗中被击碎。卡扎克知道第三次大战的结局已无法挽回，于是被迫撤退。战后，战刃的碎片被联军秘密地藏匿了起来.",
-  ["Page2"] = "最近，卡扎克和他的爪牙们重新激活了黑暗之门，卡扎克本人穿越了传送门前往外域统帅当地的军团大军。而与此同时，他委托他留在艾泽拉斯的最强副官——也就是魔王库鲁尔——去取回龙王碎片。一旦库鲁尔成功，这把强大的战刃将能被再度重铸。有了龙王战刃，再配上那清洗宇宙中一切生命的疯狂执念，军团将再一次不可阻挡.",
-  ["MaxPages"] = "2",
-};
-Inst64Caption = "末日领主卡扎克"
-Inst64QAA = "无任务"
-Inst64QAH = "无任务"
-
-
-
---------------- INST65 - Doomwalker ---------------
-
-Inst65Story = "末日行者是基尔加丹制造的一个魔铁机器，用来看守黑暗神殿。\n\n它是一个户外首领，拥有120级装绑的紫装掉落"
-Inst65Caption = "末日行者"
-Inst65QAA = "无任务"
-Inst65QAH = "无任务"
-
-
-
---------------- INST66 - Skettis ---------------
-
-Inst66Story = "斯克提斯曾经是鸦人的首府，现在斯克提斯的鸦人首领泰罗克在聚集自己的力量，来对沙塔斯城展开攻击，沙塔斯天空卫队当然不能坐视不管，他们正招募玩家加入抵抗泰罗克的战斗中。"
-Inst66Caption = "斯克提斯"
-Inst66QAA = "13 个任务"
-Inst66QAH = "13 个任务"
-
---Quest 1 Alliance
-Inst66Quest1 = "1. 前往斯克提斯!"
-Inst66Quest1_Level = "70"
-Inst66Quest1_Attain = "70"
-Inst66Quest1_Aim = "前往位于斯克提斯外的黑风码头，将炸药包交给空军上尉杜尔因."
-Inst66Quest1_Location = "尤拉  (沙塔斯城; "..YELLOW.."65,42"..WHITE..")"
-Inst66Quest1_Note = "该任务的前续任务也是这个人接到的. 黑风码头 在 "..YELLOW.."[1]"..WHITE.."."
-Inst66Quest1_Prequest = "有，临近的威胁"
-Inst66Quest1_Folgequest = "有，轰炸斯克提斯"
-Inst66Quest1PreQuest = "true"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst66Quest2 = "2. 轰炸斯克提斯 (日常)"
-Inst66Quest2_Level = "70"
-Inst66Quest2_Attain = "70"
-Inst66Quest2_Aim = "找到斯克提斯巢穴上面的巨大的卡利鸟蛋，利用天空卫队的炸弹毁掉它们。完成任务之后回去向空军上尉杜尔因复命."
-Inst66Quest2_Location = "空军上尉杜尔因 (泰罗卡森林 - 黑风码头; "..YELLOW.."65,66"..WHITE..")"
-Inst66Quest2_Note = "日常任务，你可以在飞行坐骑上完成轰炸任务."
-Inst66Quest2_Prequest = "有，前往斯克提斯!"
-Inst66Quest2_Folgequest = "无"
-Inst66Quest2PreQuest = "true"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst66Quest3 = "3. 逃离斯克提斯 (日常)"
-Inst66Quest3_Level = "70"
-Inst66Quest3_Attain = "70"
-Inst66Quest3_Aim = "护送天空卫队囚犯前往安全的地方，然后向空军上尉杜尔因复命."
-Inst66Quest3_Location = "天空卫队囚犯 (泰罗卡森林 - 斯克提斯; "..YELLOW.."[4]"..WHITE..")"
-Inst66Quest3_Note = "日常任务，囚犯有3个可能的刷新点，地图上标注为 4 的地方."
-Inst66Quest3_Prequest = "无"
-Inst66Quest3_Folgequest = "无"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst66Quest4 = "4. 饥饿的虚空鳐"
-Inst66Quest4_Level = "70"
-Inst66Quest4_Attain = "70"
-Inst66Quest4_Aim = "在黑风码头南边的森林内使用虚空鳐的笼子，并在饥饿的虚空鳐旁杀死黑风追迹者。完成任务之后回去向天空卫队训练师德萨克复命."
-Inst66Quest4_Location = "天空卫队训练师德萨克 (泰罗卡森林 - 黑风码头; "..YELLOW.."63,66"..WHITE..")"
-Inst66Quest4_Note = "黑风追迹者分布在斯克提斯的四周，南部居多，确保你杀死的是追迹者同时保证饥饿的虚空鳐同时也在你杀死的目标附近."
-Inst66Quest4_Prequest = "无"
-Inst66Quest4_Folgequest = "无"
---
-Inst66Quest4name1 = "Elixir of Major Agility"
-Inst66Quest4name2 = "Adept's Elixir"
-
---Quest 5 Alliance
-Inst66Quest5 = "5.阴影世界"
-Inst66Quest5_Level = "70"
-Inst66Quest5_Attain = "70"
-Inst66Quest5_Aim = "瑟维里要你进入斯克提斯，从居住在那里的鸦人身上找到6份暗影之尘."
-Inst66Quest5_Location = "瑟维里 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest5_Note = "任务是可重复性的，斯克提斯的鸦人都可能掉落暗影之尘."
-Inst66Quest5_Prequest = "无"
-Inst66Quest5_Folgequest = "无"
---
-Inst66Quest5name1 = "Elixir of Shadows"
-
---Quest 6 Alliance
-Inst66Quest6 = "6. 鸦爪祭司的秘密"
-Inst66Quest6_Level = "70"
-Inst66Quest6_Attain = "70"
-Inst66Quest6_Aim = "从瑟维里那儿获取暗影药剂。前往斯克提斯，利用暗影药剂找到并杀死伊沙尔、斯卡基克和塞尔利克三位鸦爪祭司。完成任务后向空军指挥官阿达利斯复命."
-Inst66Quest6_Location = "空军指挥官阿达利斯 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest6_Note = "你必须首先完成阴影世界任务喝下暗影药剂才能看见这个几个祭祀.\n\n 伊沙尔 在"..YELLOW.."[5]"..WHITE..", 斯卡基克 在 "..YELLOW.."[6]"..WHITE.." 塞尔利克 在 "..YELLOW.."[7]"..WHITE.."."
-Inst66Quest6_Prequest = "有，阴影世界"
-Inst66Quest6_Folgequest = "无"
-Inst66Quest6PreQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst66Quest7 = "7. 伊沙尔的历书"
-Inst66Quest7_Level = "70"
-Inst66Quest7_Attain = "70"
-Inst66Quest7_Aim = "把伊沙尔的历书带给天空卫队的指挥官阿达利斯."
-Inst66Quest7_Location = "伊沙尔的历书 (鸦人祭祀伊沙尔 掉落; "..YELLOW.."[5]"..WHITE..")"
-Inst66Quest7_Note = "空军指挥官阿达利斯 在 泰罗卡森林 - 黑风码头 ("..YELLOW.."64,66"..WHITE..")."
-Inst66Quest7_Prequest = "No"
-Inst66Quest7_Folgequest = "有, 贫民窟的盟友"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst66Quest8 = "8. 贫民窟的盟友"
-Inst66Quest8_Level = "70"
-Inst66Quest8_Attain = "70"
-Inst66Quest8_Aim = "将伊沙尔的历书交给沙塔斯城贫民窟中的救赎者瑞拉克."
-Inst66Quest8_Location = "空军指挥官阿达利斯 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest8_Note = "救赎者瑞拉克 在 沙塔斯城 贫民窟 ("..YELLOW.."52,20"..WHITE..")."
-Inst66Quest8_Prequest = "有, 伊沙尔的历书"
-Inst66Quest8_Folgequest = "有, 末日将至"
-Inst66Quest8FQuest = "true"
--- No Rewards for this quest
-
---Quest 9 Alliance
-Inst66Quest9 = "9. 末日将至"
-Inst66Quest9_Level = "70"
-Inst66Quest9_Attain = "70"
-Inst66Quest9_Aim = "向空军指挥官阿达利斯汇报泰罗克归来一事."
-Inst66Quest9_Location = "救赎者瑞拉克 (沙塔斯城 - 贫民窟; "..YELLOW.."52,20"..WHITE..")"
-Inst66Quest9_Note = "空军指挥官阿达利斯 在 泰罗卡森林 - 黑风码头 ("..YELLOW.."64,66"..WHITE.."). Hazzik, who is nearby, will give you the followup quest."
-Inst66Quest9_Prequest = "有, 贫民窟的盟友"
-Inst66Quest9_Folgequest = "有, 哈吉克的协议"
-Inst66Quest9FQuest = "true"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst66Quest10 = "10. 哈吉克的协议"
-Inst66Quest10_Level = "70"
-Inst66Quest10_Attain = "70"
-Inst66Quest10_Aim = "进入斯克提斯的东部区域，在哈吉克的住处中找到哈吉克的包裹，然后把包裹带回去给他."
-Inst66Quest10_Location = "哈吉克 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest10_Note = "哈吉克的包裹 在 "..YELLOW.."[8]"..WHITE.."."
-Inst66Quest10_Prequest = "有，末日降至"
-Inst66Quest10_Folgequest = "有，粗糙的伪装"
-Inst66Quest10FQuest = "true"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst66Quest11 = "11. 粗糙的伪装"
-Inst66Quest11_Level = "70"
-Inst66Quest11_Attain = "70"
-Inst66Quest11_Aim = "穿上粗糙的鸦人伪装服，从萨哈克那儿取得《仇敌的血脉》，然后向哈吉克复命."
-Inst66Quest11_Location = "哈吉克 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest11_Note = "萨哈克 在 "..YELLOW.."[3]"..WHITE..". "
-Inst66Quest11_Prequest = "有，哈吉克的协议"
-Inst66Quest11_Folgequest = "有，仇敌的血脉"
-Inst66Quest11FQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst66Quest12 = "12. 仇敌的血脉"
-Inst66Quest12_Level = "70"
-Inst66Quest12_Attain = "70"
-Inst66Quest12_Aim = "在斯克提斯找到召唤法阵中央的颅骨堆，在此使用10个迷失卷轴，并击败每一只被召唤出来的后裔。完成之后带着从它们身上取下的信物回去向哈吉克复命."
-Inst66Quest12_Location = "哈吉克 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest12_Note = "召唤法阵 位于 "..GREEN.."[1']"..WHITE..". 每次召唤只会掉落一个任务物品，所以招之前请事先商量任务物品归属."
-Inst66Quest12_Prequest = "有，粗糙的伪装"
-Inst66Quest12_Folgequest = "无"
-Inst66Quest12FQuest = "true"
---
-Inst66Quest12name1 = "Time-Lost Offering"
-
---Quest 13 Alliance
-Inst66Quest13 = "13. 泰罗克的毁灭"
-Inst66Quest13_Level = "70"
-Inst66Quest13_Attain = "70"
-Inst66Quest13_Aim = "将哈吉克准备好的失落的祭品带到斯克提斯中央的颅骨堆，召唤出泰罗克并击败它。完成这个任务之后回去向空军指挥官阿达利斯复命."
-Inst66Quest13_Location = "空军指挥官阿达利斯 (泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest13_Note = "召唤泰罗克 在 "..YELLOW.."[2]"..WHITE..". 小帮助，当泰罗克血量低时，他会进入无敌状态，这时候需要等天空卫队丢下蓝色的烟雾弹，把泰罗克引到烟雾弹上才能解除他的无敌状态."
-Inst66Quest13_Prequest = "有，仇敌的血脉"
-Inst66Quest13_Folgequest = "无"
-Inst66Quest13PreQuest = "true"
---
-Inst66Quest13name1 = "Jeweled Rod"
-Inst66Quest13name2 = "Scout's Throwing Knives"
-Inst66Quest13name3 = "Severin's Cane"
-Inst66Quest13name4 = "Windcharger's Lance"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst66Quest1_HORDE = Inst66Quest1
-Inst66Quest1_HORDE_Level = Inst66Quest1_Level
-Inst66Quest1_HORDE_Attain = Inst66Quest1_Attain
-Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
-Inst66Quest1_HORDE_Location = Inst66Quest1_Location
-Inst66Quest1_HORDE_Note = Inst66Quest1_Note
-Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
-Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
-Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
--- No Rewards for this quest
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst66Quest2_HORDE = Inst66Quest2
-Inst66Quest2_HORDE_Level = Inst66Quest2_Level
-Inst66Quest2_HORDE_Attain = Inst66Quest2_Attain
-Inst66Quest2_HORDE_Aim = Inst66Quest2_Aim
-Inst66Quest2_HORDE_Location = Inst66Quest2_Location
-Inst66Quest2_HORDE_Note = Inst66Quest2_Note
-Inst66Quest2_HORDE_Prequest = Inst66Quest2_Prequest
-Inst66Quest2_HORDE_Folgequest = Inst66Quest2_Folgequest
-Inst66Quest2PreQuest_HORDE = Inst66Quest2PreQuest
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst66Quest3_HORDE = Inst66Quest3
-Inst66Quest3_HORDE_Level = Inst66Quest3_Level
-Inst66Quest3_HORDE_Attain = Inst66Quest3_Attain
-Inst66Quest3_HORDE_Aim = Inst66Quest3_Aim
-Inst66Quest3_HORDE_Location = Inst66Quest3_Location
-Inst66Quest3_HORDE_Note = Inst66Quest3_Note
-Inst66Quest3_HORDE_Prequest = Inst66Quest3_Prequest
-Inst66Quest3_HORDE_Folgequest = Inst66Quest3_Folgequest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst66Quest4_HORDE = Inst66Quest4
-Inst66Quest4_HORDE_Level = Inst66Quest4_Level
-Inst66Quest4_HORDE_Attain = Inst66Quest4_Attain
-Inst66Quest4_HORDE_Aim = Inst66Quest4_Aim
-Inst66Quest4_HORDE_Location = Inst66Quest4_Location
-Inst66Quest4_HORDE_Note = Inst66Quest4_Note
-Inst66Quest4_HORDE_Prequest = Inst66Quest4_Prequest
-Inst66Quest4_HORDE_Folgequest = Inst66Quest4_Folgequest
---
-Inst66Quest4name1_HORDE = Inst66Quest4name1
-Inst66Quest4name2_HORDE = Inst66Quest4name2
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst66Quest5_HORDE = Inst66Quest5
-Inst66Quest5_HORDE_Level = Inst66Quest5_Level
-Inst66Quest5_HORDE_Attain = Inst66Quest5_Attain
-Inst66Quest5_HORDE_Aim = Inst66Quest5_Aim
-Inst66Quest5_HORDE_Location = Inst66Quest5_Location
-Inst66Quest5_HORDE_Note = Inst66Quest5_Note
-Inst66Quest5_HORDE_Prequest = Inst66Quest5_Prequest
-Inst66Quest5_HORDE_Folgequest = Inst66Quest5_Folgequest
---
-Inst66Quest5name1_HORDE = Inst66Quest5name1
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst66Quest6_HORDE = Inst66Quest6
-Inst66Quest6_HORDE_Level = Inst66Quest6_Level
-Inst66Quest6_HORDE_Attain = Inst66Quest6_Attain
-Inst66Quest6_HORDE_Aim = Inst66Quest6_Aim
-Inst66Quest6_HORDE_Location = Inst66Quest6_Location
-Inst66Quest6_HORDE_Note = Inst66Quest6_Note
-Inst66Quest6_HORDE_Prequest = Inst66Quest6_Prequest
-Inst66Quest6_HORDE_Folgequest = Inst66Quest6_Folgequest
-Inst66Quest6PreQuest_HORDE = Inst66Quest6PreQuest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst66Quest7_HORDE = Inst66Quest7
-Inst66Quest7_HORDE_Level = Inst66Quest7_Level
-Inst66Quest7_HORDE_Attain = Inst66Quest7_Attain
-Inst66Quest7_HORDE_Aim = Inst66Quest7_Aim
-Inst66Quest7_HORDE_Location = Inst66Quest7_Location
-Inst66Quest7_HORDE_Note = Inst66Quest7_Note
-Inst66Quest7_HORDE_Prequest = Inst66Quest7_Prequest
-Inst66Quest7_HORDE_Folgequest = Inst66Quest7_Folgequest
--- No Rewards for this quest
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst66Quest8_HORDE = Inst66Quest8
-Inst66Quest8_HORDE_Level = Inst66Quest8_Level
-Inst66Quest8_HORDE_Attain = Inst66Quest8_Attain
-Inst66Quest8_HORDE_Aim = Inst66Quest8_Aim
-Inst66Quest8_HORDE_Location = Inst66Quest8_Location
-Inst66Quest8_HORDE_Note = Inst66Quest8_Note
-Inst66Quest8_HORDE_Prequest = Inst66Quest8_Prequest
-Inst66Quest8_HORDE_Folgequest = Inst66Quest8_Folgequest
-Inst66Quest8FQuest_HORDE = Inst66Quest8FQuest
--- No Rewards for this quest
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst66Quest9_HORDE = Inst66Quest9
-Inst66Quest9_HORDE_Level = Inst66Quest9_Level
-Inst66Quest9_HORDE_Attain = Inst66Quest9_Attain
-Inst66Quest9_HORDE_Aim = Inst66Quest9_Aim
-Inst66Quest9_HORDE_Location = Inst66Quest9_Location
-Inst66Quest9_HORDE_Note = Inst66Quest9_Note
-Inst66Quest9_HORDE_Prequest = Inst66Quest9_Prequest
-Inst66Quest9_HORDE_Folgequest = Inst66Quest9_Folgequest
-Inst66Quest9FQuest_HORDE = Inst66Quest9FQuest
--- No Rewards for this quest
-
---Quest 10 Horde  (same as Quest 10 Alliance)
-Inst66Quest10_HORDE = Inst66Quest10
-Inst66Quest10_HORDE_Level = Inst66Quest10_Level
-Inst66Quest10_HORDE_Attain = Inst66Quest10_Attain
-Inst66Quest10_HORDE_Aim = Inst66Quest10_Aim
-Inst66Quest10_HORDE_Location = Inst66Quest10_Location
-Inst66Quest10_HORDE_Note = Inst66Quest10_Note
-Inst66Quest10_HORDE_Prequest = Inst66Quest10_Prequest
-Inst66Quest10_HORDE_Folgequest = Inst66Quest10_Folgequest
-Inst66Quest10FQuest_HORDE = Inst66Quest10FQuest
--- No Rewards for this quest
-
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst66Quest11_HORDE = Inst66Quest11
-Inst66Quest11_HORDE_Level = Inst66Quest11_Level
-Inst66Quest11_HORDE_Attain = Inst66Quest11_Attain
-Inst66Quest11_HORDE_Aim = Inst66Quest11_Aim
-Inst66Quest11_HORDE_Location = Inst66Quest11_Location
-Inst66Quest11_HORDE_Note = Inst66Quest11_Note
-Inst66Quest11_HORDE_Prequest = Inst66Quest11_Prequest
-Inst66Quest11_HORDE_Folgequest = Inst66Quest11_Folgequest
-Inst66Quest11FQuest_HORDE = Inst66Quest11FQuest
--- No Rewards for this quest
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst66Quest12_HORDE = Inst66Quest12
-Inst66Quest12_HORDE_Level = Inst66Quest12_Level
-Inst66Quest12_HORDE_Attain = Inst66Quest12_Attain
-Inst66Quest12_HORDE_Aim = Inst66Quest12_Aim
-Inst66Quest12_HORDE_Location = Inst66Quest12_Location
-Inst66Quest12_HORDE_Note = Inst66Quest12_Note
-Inst66Quest12_HORDE_Prequest = Inst66Quest12_Prequest
-Inst66Quest12_HORDE_Folgequest = Inst66Quest12_Folgequest
-Inst66Quest12FQuest_HORDE = Inst66Quest12FQuest
---
-Inst66Quest12name1_HORDE = Inst66Quest12name1
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst66Quest13_HORDE = Inst66Quest13
-Inst66Quest13_HORDE_Level = Inst66Quest13_Level
-Inst66Quest13_HORDE_Attain = Inst66Quest13_Attain
-Inst66Quest13_HORDE_Aim = Inst66Quest13_Aim
-Inst66Quest13_HORDE_Location = Inst66Quest13_Location
-Inst66Quest13_HORDE_Note = Inst66Quest13_Note
-Inst66Quest13_HORDE_Prequest = Inst66Quest13_Prequest
-Inst66Quest13_HORDE_Folgequest = Inst66Quest13_Folgequest
-Inst66Quest13PreQuest_HORDE = Inst66Quest13PreQuest
-Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
---
-Inst66Quest13name1_HORDE = Inst66Quest13name1
-Inst66Quest13name2_HORDE = Inst66Quest13name2
-Inst66Quest13name3_HORDE = Inst66Quest13name3
-Inst66Quest13name4_HORDE = Inst66Quest13name4
-
----------------------------
---- WotLK Instances ---
----------------------------
 
 --------------- INST69 - Caverns of Time: Stratholme Past ---------------
 
@@ -10843,7 +9807,7 @@ Inst69Quest3_Level = "80"
 Inst69Quest3_Attain = "78"
 Inst69Quest3_Aim = "Chromie wants you to use the Arcane Disruptor on the suspicious crates in Stratholme Past, then speak to her near the entrance to Stratholme."
 Inst69Quest3_Location = "Chromie (Old Stratholme; "..YELLOW.."[??]"..WHITE..")"
-Inst69Quest3_Note = "No information at this time."
+Inst69Quest3_Note = "The crates are found near the houses along the road on the way to Stratholme. After completion, you can turn the quest in at "..YELLOW.."[??]"..WHITE.."."
 Inst69Quest3_Prequest = "None"
 Inst69Quest3_Folgequest = "A Royal Escort"
 -- No Rewards for this quest
@@ -10854,7 +9818,7 @@ Inst69Quest4_Level = "80"
 Inst69Quest4_Attain = "78"
 Inst69Quest4_Aim = "Chromie has asked you to accompany Arthas in the Culling of Stratholme. You are to speak with her again after Mal'Ganis is defeated."
 Inst69Quest4_Location = "Chromie (Old Stratholme; "..YELLOW.."[??]"..WHITE..")"
-Inst69Quest4_Note = "Mal'Ganis is at "..YELLOW.."[4]"..WHITE.."."
+Inst69Quest4_Note = "Mal'Ganis is at "..YELLOW.."[4]"..WHITE..". Chromie will appear there after the event is over."
 Inst69Quest4_Prequest = "Dispelling Illusions"
 Inst69Quest4_Folgequest = "None"
 Inst69Quest4FQuest = "true"
@@ -10912,7 +9876,7 @@ Inst69Quest4_HORDE_Location = Inst69Quest4_Location
 Inst69Quest4_HORDE_Note = Inst69Quest4_Note
 Inst69Quest4_HORDE_Prequest = Inst69Quest4_Prequest
 Inst69Quest4_HORDE_Folgequest = Inst69Quest4_Folgequest
-Inst69Quest4PreQuest_HORDE = Inst69Quest4PreQuest
+Inst69Quest4FQuest_HORDE = Inst69Quest4FQuest
 --
 Inst69Quest4name1_HORDE = Inst69Quest4name1
 Inst69Quest4name2_HORDE = Inst69Quest4name2
@@ -10960,7 +9924,7 @@ Inst70Quest3_Level = "71"
 Inst70Quest3_Attain = "70"
 Inst70Quest3_Aim = "Defender Mordun wants you to enter Utgarde Keep and steal 5 Vrykul Weapons"
 Inst70Quest3_Location = "Defender Mordun (Howling Fjord - Wyrmskull Village; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest3_Note = "Incomplete data. Presumably looted from containers in Utgarde Keep."
+Inst70Quest3_Note = "The Vrykul Weapons can be found along walls scattered around the instance. The prequest comes from Scout Valory (Howling Fjord - Wyrmskull Village; "..YELLOW.."56.0, 55.8"..WHITE..")."
 Inst70Quest3_Prequest = "None"
 Inst70Quest3_Folgequest = "None"
 --
@@ -11002,8 +9966,8 @@ Inst70Quest3_HORDE = "3. Ingvar Must Die!"
 Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "70"
 Inst70Quest3_HORDE_Aim = "Dark Ranger Marrah has asked you to kill Ingvar the Plunderer in Utgarde Keep, then bring his head to High Executor Anselm at Vengeance Landing."
-Inst70Quest3_HORDE_Location = "Dark Ranger Marrah (Howling Fjord - ??; "..YELLOW.."??,??"..WHITE..")"
-Inst70Quest3_HORDE_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest3_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..YELLOW.."[??]"..WHITE..")"
+Inst70Quest3_HORDE_Note = "Dark Ranger Marrah is found in the instance, near the entrance.\n\nIngvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
 Inst70Quest3_HORDE_Prequest = "None"
 Inst70Quest3_HORDE_Folgequest = "None"
 --
@@ -11017,7 +9981,7 @@ Inst70Quest4_HORDE_Level = "71"
 Inst70Quest4_HORDE_Attain = "70"
 Inst70Quest4_HORDE_Aim = "Dark Ranger Marrah wants you to steal 5 Vrykul Weapons from Utgarde Keep and bring them to High Executor Anselm in Vengeance Landing."
 Inst70Quest4_HORDE_Location = "Dark Ranger Marrah (Howling Fjord - ??; "..YELLOW.."??,??"..WHITE..")"
-Inst70Quest4_HORDE_Note = "Incomplete data. Presumably looted from containers in Utgarde Keep.\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest4_HORDE_Note = "The Vrykul Weapons can be found along walls scattered around the instance.\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
 Inst70Quest4_HORDE_Prequest = "None"
 Inst70Quest4_HORDE_Folgequest = "None"
 --
@@ -11067,8 +10031,8 @@ Inst71Quest3 = "3. Junk in My Trunk"
 Inst71Quest3_Level = "80"
 Inst71Quest3_Attain = "80"
 Inst71Quest3_Aim = "Brigg in Utgarde Pinnacle wants you to find 5 Untarnished Silver Bars, 3 Shiny Baubles, 2 Golden Goblets, and a Jade Statue."
-Inst71Quest3_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[??]"..WHITE..")"
-Inst71Quest3_Note = "Incomplete data."
+Inst71Quest3_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[A]"..WHITE..")"
+Inst71Quest3_Note = "The items can be found scattered around the instance, usually laying on the ground. The Shiny Baubles are not the same that are used as fishing lures."
 Inst71Quest3_Prequest = "None"
 Inst71Quest3_Folgequest = "None"
 --
@@ -11082,7 +10046,7 @@ Inst71Quest4 = "4. Vengeance Be Mine!"
 Inst71Quest4_Level = "80"
 Inst71Quest4_Attain = "80"
 Inst71Quest4_Aim = "Brigg in Utgarde Pinnacle wants you to kill King Ymiron."
-Inst71Quest4_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[??]"..WHITE..")"
+Inst71Quest4_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[A]"..WHITE..")"
 Inst71Quest4_Note = "King Ymiron is at "..YELLOW.."[4]"..WHITE.."."
 Inst71Quest4_Prequest = "None"
 Inst71Quest4_Folgequest = "None"
@@ -11157,7 +10121,7 @@ Inst71Quest4name5_HORDE = Inst71Quest4name5
 --------------- INST72 - The Nexus: The Nexus ---------------
 
 Inst72Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\n"..GREEN.."Quoted from WoW Head"
-Inst72Caption = "The Nexus"
+Inst72Caption = "The Nexus: The Nexus"
 Inst72QAA = "5 Quests"
 Inst72QAH = "5 Quests"
 
@@ -11179,7 +10143,7 @@ Inst72Quest2_Level = "71"
 Inst72Quest2_Attain = "70"
 Inst72Quest2_Aim = "Librarian Serrah wants you to enter the Nexus and recover Berinand's Research."
 Inst72Quest2_Location = "Librarian Serrah (Borean Tundra - Transitus Shield; "..YELLOW.."33.4, 34.3"..WHITE..")"
-Inst72Quest2_Note = "The Research Book is on the ground in the hall on the way to Grand Magus Telestra near "..YELLOW.."[3]"..WHITE.."."
+Inst72Quest2_Note = "The Research Book is on the ground in the hall on the way to Grand Magus Telestra at "..YELLOW.."[6]"..WHITE.."."
 Inst72Quest2_Prequest = "None"
 Inst72Quest2_Folgequest = "None"
 --
@@ -11317,7 +10281,7 @@ Inst72Quest5name5_HORDE = Inst72Quest5name5
 --------------- INST73 - The Nexus: The Oculus ---------------
 
 Inst73Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\n"..GREEN.."Quoted from WoW Head"
-Inst73Caption = "The Oculus"
+Inst73Caption = "The Nexus: The Oculus"
 Inst73QAA = "6 Quests"
 Inst73QAH = "6 Quests"
 
@@ -11351,10 +10315,10 @@ Inst73Quest2name1 = "Emblem of Heroism"
 --Quest 3 Alliance
 Inst73Quest3 = "3. The Struggle Persists"
 Inst73Quest3_Level = "80"
-Inst73Quest3_Attain = "80"
+Inst73Quest3_Attain = "77"
 Inst73Quest3_Aim = "Raelorasz wants you to enter the Oculus and rescue Belgaristrasz and his companions."
 Inst73Quest3_Location = "Raelorasz (Borean Tundra - Transitus Shield; "..YELLOW.."33.2, 34.4"..WHITE..")"
-Inst73Quest3_Note = "No information."
+Inst73Quest3_Note = "Belgaristrasz is released from his cage after you defeat Drakos the Interrogator at "..YELLOW.."[1]"..WHITE.."."
 Inst73Quest3_Prequest = "None"
 Inst73Quest3_Folgequest = "A Unified Front"
 --
@@ -11366,10 +10330,10 @@ Inst73Quest3name4 = "Staunch Signet"
 --Quest 4 Alliance
 Inst73Quest4 = "4. A Unified Front"
 Inst73Quest4_Level = "80"
-Inst73Quest4_Attain = "80"
+Inst73Quest4_Attain = "77"
 Inst73Quest4_Aim = "Belgaristrasz wants you to destroy 10 Centrifuge Constructs to bring down Varos' shield. You then must defeat Varos Cloudstrider."
-Inst73Quest4_Location = "Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[??]"..WHITE..")"
-Inst73Quest4_Note = "Varos Cloudstrider is at "..YELLOW.."[3]"..WHITE.."."
+Inst73Quest4_Location = "Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[1]"..WHITE..")"
+Inst73Quest4_Note = "Belgaristrasz will appear after you defeat Varos Cloudstrider at "..YELLOW.."[3]"..WHITE.."."
 Inst73Quest4_Prequest = "The Struggle Persists"
 Inst73Quest4_Folgequest = "Mage-Lord Urom"
 Inst73Quest4FQuest = "true"
@@ -11378,10 +10342,10 @@ Inst73Quest4FQuest = "true"
 --Quest 5 Alliance
 Inst73Quest5 = "5. Mage-Lord Urom"
 Inst73Quest5_Level = "80"
-Inst73Quest5_Attain = "80"
+Inst73Quest5_Attain = "77"
 Inst73Quest5_Aim = "Belgaristrasz wants you to defeat Mage-Lord Urom in the Oculus."
-Inst73Quest5_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[??]"..WHITE..")"
-Inst73Quest5_Note = "Mage-Lord Urom is at "..YELLOW.."[2]"..WHITE.."."
+Inst73Quest5_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[3]"..WHITE..")"
+Inst73Quest5_Note = "Belgaristrasz will appear after you defeat Mage-Lord Urom at "..YELLOW.."[2]"..WHITE.."."
 Inst73Quest5_Prequest = "A Unified Front"
 Inst73Quest5_Folgequest = "A Wing and a Prayer"
 Inst73Quest5FQuest = "true"
@@ -11390,9 +10354,9 @@ Inst73Quest5FQuest = "true"
 --Quest 6 Alliance
 Inst73Quest6 = "6. A Wing and a Prayer"
 Inst73Quest6_Level = "80"
-Inst73Quest6_Attain = "80"
+Inst73Quest6_Attain = "77"
 Inst73Quest6_Aim = "Belgaristrasz wants you to kill Eregos in the Oculus and then report to Raelorasz at the Transitus Shield in Coldarra."
-Inst73Quest6_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[??]"..WHITE..")"
+Inst73Quest6_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[2]"..WHITE..")"
 Inst73Quest6_Note = "Ley-Guardian Eregos is at "..YELLOW.."[2]"..WHITE..". Raelorasz is at (Borean Tundra - Transitus Shield; "..YELLOW.."33.2, 34.4"..WHITE..")."
 Inst73Quest6_Prequest = "Mage-Lord Urom"
 Inst73Quest6_Folgequest = "None"
@@ -11491,7 +10455,7 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
 Inst74Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\nThe Eye of Eternity is the final instance and the only raid of The Nexus, in which players will be able to defeat the blue dragon aspect Malygos.\n\n"..GREEN.."Quoted from WoW Head"
-Inst74Caption = "The Eye of Eternity"
+Inst74Caption = "The Nexus: The Eye of Eternity"
 Inst74QAA = "No Quests"
 Inst74QAH = "No Quests"
 
@@ -11616,7 +10580,7 @@ Inst76Quest2_Level = "80"
 Inst76Quest2_Attain = "80"
 Inst76Quest2_Aim = "Kilix the Unraveler in the Pit of Narjun wants you to obtain an Ahn'kahar Watcher's Corpse and place it upon the Ahn'kahet Brazier in Ahn'kahet."
 Inst76Quest2_Location = "Kilix the Unraveler (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst76Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Ahn'kahet Brazier is behind the last boss, Amanitar at "..YELLOW.."[5]"..WHITE..". The corpse has a 1 hour duration timer."
+Inst76Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Ahn'kahet Brazier is behind Herald Volazj at "..YELLOW.."[4]"..WHITE..". The corpse has a 1 hour duration timer."
 Inst76Quest2_Prequest = "None"
 Inst76Quest2_Folgequest = "None"
 -- No Rewards for this quest
@@ -11723,10 +10687,10 @@ Inst77Quest1name1 = "Emblem of Heroism"
 --Quest 2 Alliance
 Inst77Quest2 = "2. Halls of Stone"
 Inst77Quest2_Level = "78"
-Inst77Quest2_Attain = "??"
+Inst77Quest2_Attain = "76"
 Inst77Quest2_Aim = "Brann Bronzebeard wants you to accompany him as he uncovers the secrets that lie in the Halls of Stone."
 Inst77Quest2_Location = "Brann Bronzebeard (Ulduar: Halls of Stone; "..YELLOW.."[3]"..WHITE..")"
-Inst77Quest2_Note = "No information."
+Inst77Quest2_Note = "Follow Brann Bronzebeard into the nearby chamber at "..YELLOW.."[4]"..WHITE.." and protect him from waves of mobs while he works on the stone tablets there. Upon his success, the Tribunal Chest next to the tablets can be opened.\n\nTalk to him again and he'll run to the door outside "..YELLOW.."[5]"..WHITE..". You do not need to follow him, he'll wait for you there. Once defeating Sjonnir the Ironshaper, the quest can be turned into Brahn Bronzebeard."
 Inst77Quest2_Prequest = "None"
 Inst77Quest2_Folgequest = "None"
 --
@@ -11805,8 +10769,8 @@ Inst78Quest3_Level = "80"
 Inst78Quest3_Attain = "80"
 Inst78Quest3_Aim = "King Jokkum in Dun Niffelem wants you to enter the Halls of Lightning and defeat Loken. You are then to return to King Jokkum with Loken's Tongue."
 Inst78Quest3_Location = "King Jokkum (The Storm Peaks - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
-Inst78Quest3_Note = "Loken is at "..YELLOW.."[4]"..WHITE.."."
-Inst78Quest3_Prequest = "The Reckoning"
+Inst78Quest3_Note = "Loken is at "..YELLOW.."[4]"..WHITE..".\n\nThis quest becomes available after an extremely long questline that starts from Gretchen Fizzlespark (Storm Peaks - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
+Inst78Quest3_Prequest = "They Took Our Men! -> The Reckoning"
 Inst78Quest3_Folgequest = "None"
 Inst78Quest3PreQuest = "true"
 --
@@ -11821,9 +10785,10 @@ Inst78Quest4_Level = "80"
 Inst78Quest4_Attain = "80"
 Inst78Quest4_Aim = "King Jokkum at Dun Niffelem wants you to enter the Halls of Lightning and defeat Volkhan."
 Inst78Quest4_Location = "King Jokkum (The Storm Peaks - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
-Inst78Quest4_Note = "Volkhan is at "..YELLOW.."[2]"..WHITE.."."
-Inst78Quest4_Prequest = "None"
+Inst78Quest4_Note = "Volkhan is at "..YELLOW.."[2]"..WHITE..".\n\nThis quest becomes available after an extremely long questline that starts from Gretchen Fizzlespark (Storm Peaks - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
+Inst78Quest4_Prequest = "They Took Our Men! -> The Reckoning"
 Inst78Quest4_Folgequest = "None"
+Inst78Quest4PreQuest = "true"
 --
 Inst78Quest4name1 = "Lightning Infused Mantle"
 Inst78Quest4name2 = "Charred Leather Shoulderguards"
@@ -11884,6 +10849,7 @@ Inst78Quest4_HORDE_Location = Inst78Quest4_Location
 Inst78Quest4_HORDE_Note = Inst78Quest4_Note
 Inst78Quest4_HORDE_Prequest = Inst78Quest4_Prequest
 Inst78Quest4_HORDE_Folgequest = Inst78Quest4_Folgequest
+Inst78Quest4PreQuest_HORDE = Inst78Quest4PreQuest
 --
 Inst78Quest4name1_HORDE = Inst78Quest4name1
 Inst78Quest4name2_HORDE = Inst78Quest4name2
@@ -11943,7 +10909,7 @@ Inst80Quest3_Level = "74"
 Inst80Quest3_Attain = "73"
 Inst80Quest3_Aim = "Mack at Granite Springs wants you to go into Drak'Tharon and find out what became of Kurzel."
 Inst80Quest3_Location = "Mack Fearsen (Grizzly Hills - Granite Springs; "..YELLOW.."16.6, 48.1"..WHITE..")"
-Inst80Quest3_Note = "Kurzel is one of the webbed victims up the stairs and to the right of where Trollgore "..YELLOW.."[1]"..WHITE.." is."
+Inst80Quest3_Note = "Kurzel is one of the webbed victims in the room following Trollgore at "..YELLOW.."[1]"..WHITE.."."
 Inst80Quest3_Prequest = "Seared Scourge"
 Inst80Quest3_Folgequest = "Head Games"
 Inst80Quest3PreQuest = "true"
@@ -12055,7 +11021,7 @@ Inst81Quest2_Level = "78"
 Inst81Quest2_Attain = "76"
 Inst81Quest2_Aim = "Chronicler Bah'Kini at Dubra'Jin wants you to enter Gundrak and collect 6 Drakkari History Tablets."
 Inst81Quest2_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
-Inst81Quest2_Note = "There are enough Tablets for a full party of 5 to complete the quest."
+Inst81Quest2_Note = "The tablets are scattered around the instance. There are enough for a full party to complete the quest."
 Inst81Quest2_Prequest = "Just Checkin'"
 Inst81Quest2_Folgequest = "None"
 Inst81Quest2PreQuest = "true"
@@ -12250,10 +11216,10 @@ Inst82Quest3name4_HORDE = Inst82Quest3name4
 
 --------------- INST84 - Naxxramas (Naxx) ---------------
 
-Inst84Story = "Floating above the Dragonblight, the necropolis known as Naxxramas serves as the seat of one of the Lich King's most powerful officers, the dreaded lich Kel'Thuzad. Horrors of the past and new terrors yet to be unleashed are gathering inside the necropolis as the Lich King's servants prepare their assault. Soon the Scourge will march again..."
-Inst84Caption = "Naxxramas"
-Inst84QAA = "No Quests"
-Inst84QAH = "No Quests"
+Inst84Story = "飘浮在龙骨荒野上空的浮空要塞纳克萨玛斯是巫妖王最强大的副官——克尔苏加德的旗舰。巫妖王的仆从们在这座要塞中筹划着新的攻势，要给整个艾泽拉斯世界带来恐慌和灾难。天灾军团再一次开始了他们的征程……"
+Inst84Caption = "纳克萨玛斯（Naxx）"
+Inst84QAA = "无任务"
+Inst84QAH = "无任务"
 
 
 
@@ -12277,582 +11243,582 @@ Inst85QAH = "No Quests"
 
 --------------- INST33 - Alterac Valley (AV) ---------------
 
-Inst33Story = "Long ago, before the First War, the warlock Gul'dan exiled a clan of orcs called the Frostwolves to a hidden valley deep in the heart of the Alterac Mountains. It is here in the valley's southern reaches that the Frostwolves eked out a living until the coming of Thrall.\nAfter Thrall's triumphant uniting of the clans, the Frostwolves, now led by the Orc Shaman Drek'Thar, chose to remain in the valley they had for so long called their home. In recent times, however, the relative peace of the Frostwolves has been challenged by the arrival of the Dwarven Stormpike Expedition.\nThe Stormpikes have set up residence in the valley to search for natural resources and ancient relics. Despite their intentions, the Dwarven presence has sparked heated conflict with the Frostwolf Orcs to the south, who have vowed to drive the interlopers from their lands. "
-Inst33Caption = "Alterac Valley"
-Inst33QAA = "18 Quests"
-Inst33QAH = "18 Quests"
+Inst33Story = "雷矛远征军已经在奥特兰克山谷中安营扎寨，想要研究这里的资源和远古遗物。尽管他们来此的目的并不是为了挑衅，但是矮人们却与居住在山谷南部的霜狼氏族发生了激烈的冲突。霜狼氏族由此发誓要将入侵者赶出他们的家园。"
+Inst33Caption = "奥特兰克山谷（AV）"
+Inst33QAA = "18 个任务"
+Inst33QAH = "18 个任务"
 
 --Quest 1 Alliance
-Inst33Quest1 = "1. Call to Arms: Alterac Valley (Daily)"
+Inst33Quest1 = "1. 战斗的召唤：奥特兰克山谷（战场日常）"
 Inst33Quest1_Level = "51"
 Inst33Quest1_Attain = "51"
-Inst33Quest1_Aim = "Win an Alterac Valley battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
-Inst33Quest1_Location = "Alliance Brigadier General:\n   Dalaran: The Silver Enclave - "..YELLOW.."29.8, 75.8"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."24.6, 55.4"
-Inst33Quest1_Note = "This quest can be done once a day after reaching level 51. It yields varying amounts of experience and gold based on your level."
-Inst33Quest1_Prequest = "None"
-Inst33Quest1_Folgequest = "None"
+Inst33Quest1_Aim = "在奥特兰克山谷战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命。"
+Inst33Quest1_Location = "联盟准将：\n  （达拉然 - 银色领地; "..YELLOW.."30,76"..WHITE..）\n  （沙塔斯城 - 贫民窟; "..YELLOW.."67,34"..WHITE.."）\n  （暴风城 - 暴风要塞; "..YELLOW.."84,35"..WHITE.."）\n  （铁炉堡 - 武器大厅; "..YELLOW.."70,91"..WHITE.."）\n  （达纳苏斯 - 战士区; "..YELLOW.."59,36"..WHITE.."）\n  （埃索达 - 圣光穹顶; "..YELLOW.."25,55"..WHITE.."）"
+Inst33Quest1_Note = "战场日常任务，51级你才能接到这个任务，完成任务会基于你的级别奖励金钱和经验。"
+Inst33Quest1_Prequest = "无"
+Inst33Quest1_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst33Quest2 = "2. The Sovereign Imperative"
+Inst33Quest2 = "2. 国王的命令"
 Inst33Quest2_Level = "60"
 Inst33Quest2_Attain = "51"
-Inst33Quest2_Aim = "Travel to Alterac Valley in the Hillsbrad Foothills. Outside of the entrance tunnel, find and speak with Lieutenant Haggerdin."
-Inst33Quest2_Location = "Lieutenant Rotimer (Ironforge - The Commons; "..YELLOW.."30,62"..WHITE..")"
-Inst33Quest2_Note = "Lieutenant Haggerdin is at (Alterac Mountains; "..YELLOW.."39,81"..WHITE..")."
-Inst33Quest2_Prequest = "None"
-Inst33Quest2_Folgequest = "Proving Grounds"
+Inst33Quest2_Aim = "到希尔斯布莱德丘陵地区的奥特兰克山谷去。到那里之后，和哈格丁中尉谈谈。"
+Inst33Quest2_Location = "洛泰姆中尉（铁炉堡 - 商业区; "..YELLOW.."30,62"..WHITE.."）"
+Inst33Quest2_Note = "哈格丁中尉在（奥特兰克山脉; "..YELLOW.."39,81"..WHITE.."）。"
+Inst33Quest2_Prequest = "无"
+Inst33Quest2_Folgequest = "有，实验场"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst33Quest3 = "3. Proving Grounds"
+Inst33Quest3 = "3. 实验场"
 Inst33Quest3_Level = "60"
 Inst33Quest3_Attain = "51"
-Inst33Quest3_Aim = "Travel to the Icewing Caverns located southwest of Dun Baldar in Alterac Valley and recover the Stormpike Banner. Return the Stormpike Banner to Lieutenant Haggerdin in the Alterac Mountains."
-Inst33Quest3_Location = "Lieutenant Haggerdin (Alterac Mountains; "..YELLOW.."39,81"..WHITE..")"
-Inst33Quest3_Note = "The Stormpike Banner is in the Icewing Cavern at "..YELLOW.."[11]"..WHITE.." on the Alterac Valley - North map. Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest, but it does yield about 9550 experience."
-Inst33Quest3_Prequest = "The Sovereign Imperative"
-Inst33Quest3_Folgequest = "None"
+Inst33Quest3_Aim = "到主基地东南边的冰翼洞穴中去找到雷矛军旗，然后把它交给哈格丁中尉。"
+Inst33Quest3_Location = "哈格丁中尉（奥特兰克山谷; "..YELLOW.."39,81"..WHITE.."）"
+Inst33Quest3_Note = "雷矛军旗在冰翼洞穴（奥特兰克山谷 - 北部地图; "..YELLOW.."[11]"..WHITE.."）。当你声望提升到一个新的等级后，你可以与同一个 NPC 交谈领取更高级的雷矛徽记。"
+Inst33Quest3_Prequest = "无"
+Inst33Quest3_Folgequest = "无"
 Inst33Quest3FQuest = "true"
 --
-Inst33Quest3name1 = "Stormpike Insignia Rank 1"
-Inst33Quest3name2 = "The Frostwolf Artichoke"
+Inst33Quest3name1 = "1级雷矛徽记"
+Inst33Quest3name2 = "霜狼牌洋葱"
 
 --Quest 4 Alliance
-Inst33Quest4 = "4. The Battle of Alterac"
+Inst33Quest4 = "4. 奥特兰克山谷的战斗"
 Inst33Quest4_Level = "60"
 Inst33Quest4_Attain = "51"
-Inst33Quest4_Aim = "Enter Alterac Valley, defeat the Horde general Drek'thar, and then return to Prospector Stonehewer in the Alterac Mountains."
-Inst33Quest4_Location = "Prospector Stonehewer (Alterac Mountains; "..YELLOW.."41,80"..WHITE..") and\n(Alterac Valley - North; "..YELLOW.."[B]"..WHITE..")"
-Inst33Quest4_Note = "Drek'thar is at (Alterac Valley - South; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
-Inst33Quest4_Prequest = "None"
-Inst33Quest4_Folgequest = "Hero of the Stormpike"
+Inst33Quest4_Aim = "进入奥特兰克山谷，击败部落将军德雷克塔尔。然后回到勘查员塔雷·石镐那里。"
+Inst33Quest4_Location = "勘查员塔雷·石镐（奥特兰克山脉; "..YELLOW.."41,80"..WHITE.."）和\n（奥特兰克山谷 - 北部地图; "..YELLOW.."[B]"..WHITE.."）"
+Inst33Quest4_Note = "德雷克塔尔在（奥特兰克山谷 - 南部地图; "..YELLOW.."[B]"..WHITE.."）。完成这个任务并不一定需要杀死德雷克塔尔，只要赢得奥特兰克山谷的战斗即可。"
+Inst33Quest4_Prequest = "无"
+Inst33Quest4_Folgequest = "有，雷矛英雄"
 --
-Inst33Quest4name1 = "Bloodseeker"
-Inst33Quest4name2 = "Ice Barbed Spear"
-Inst33Quest4name3 = "Wand of Biting Cold"
-Inst33Quest4name4 = "Cold Forged Hammer"
+Inst33Quest4name1 = "觅血者"
+Inst33Quest4name2 = "冰刺长矛"
+Inst33Quest4name3 = "骨寒魔杖"
+Inst33Quest4name4 = "冰冷铸锤"
 
 --Quest 5 Alliance
-Inst33Quest5 = "5. The Quartermaster"
+Inst33Quest5 = "5. 军需官"
 Inst33Quest5_Level = "60"
 Inst33Quest5_Attain = "51"
-Inst33Quest5_Aim = "Speak with the Stormpike Quartermaster."
-Inst33Quest5_Location = "Mountaineer Boombellow (Alterac Valley - North; "..YELLOW.."Near [3] Before Bridge"..WHITE..")"
-Inst33Quest5_Note = "The Stormpike Quartermaster is at (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..") and provides more quests."
-Inst33Quest5_Prequest = "None"
-Inst33Quest5_Folgequest = "None"
+Inst33Quest5_Aim = "与雷矛军需官谈一谈。"
+Inst33Quest5_Location = "巡山人布比罗（奥特兰克山谷 - 北部地图; "..YELLOW.."[3]大桥附近"..WHITE.."）"
+Inst33Quest5_Note = "雷矛军需官在（奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE.."）。"
+Inst33Quest5_Prequest = "无"
+Inst33Quest5_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst33Quest6 = "6. Coldtooth Supplies"
+Inst33Quest6 = "6. 冷齿矿洞的补给"
 Inst33Quest6_Level = "60"
 Inst33Quest6_Attain = "51"
-Inst33Quest6_Aim = "Bring 10 Coldtooth Supplies to the Alliance Quartermaster in Dun Baldar."
-Inst33Quest6_Location = "Stormpike Quartermaster (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..")"
-Inst33Quest6_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..")."
-Inst33Quest6_Prequest = "None"
-Inst33Quest6_Folgequest = "None"
+Inst33Quest6_Aim = "把10份冷齿矿洞补给品交给丹巴达尔的联盟军需官。"
+Inst33Quest6_Location = "雷矛军需官（奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE.."）"
+Inst33Quest6_Note = "补给可以在冷齿矿洞找到（奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE.."）。"
+Inst33Quest6_Prequest = "无"
+Inst33Quest6_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst33Quest7 = "7. Irondeep Supplies"
+Inst33Quest7 = "7. 深铁矿洞的补给"
 Inst33Quest7_Level = "60"
 Inst33Quest7_Attain = "51"
-Inst33Quest7_Aim = "Bring 10 Irondeep Supplies to the Alliance Quartermaster in Dun Baldar."
-Inst33Quest7_Location = "Stormpike Quartermaster (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..")"
-Inst33Quest7_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..")."
-Inst33Quest7_Prequest = "None"
-Inst33Quest7_Folgequest = "None"
+Inst33Quest7_Aim = "把10份深铁矿洞补给品交给丹巴达尔的联盟军需官。"
+Inst33Quest7_Location = "雷矛军需官（奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE.."）"
+Inst33Quest7_Note = "补给可以在深铁矿洞找到（奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE.."）。"
+Inst33Quest7_Prequest = "无"
+Inst33Quest7_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst33Quest8 = "8. Armor Scraps"
+Inst33Quest8 = "8. 护甲碎片"
 Inst33Quest8_Level = "60"
 Inst33Quest8_Attain = "51"
-Inst33Quest8_Aim = "Bring 20 Armor Scraps to Murgot Deepforge in Dun Baldar."
-Inst33Quest8_Location = "Murgot Deepforge (Alterac Valley - North; "..YELLOW.."[4]"..WHITE..")"
-Inst33Quest8_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
-Inst33Quest8_Prequest = "None"
-Inst33Quest8_Folgequest = "More Armor Scraps"
+Inst33Quest8_Aim = "给丹巴达尔的莫高特·深炉带去20块护甲碎片。"
+Inst33Quest8_Location = "莫高特·深炉（奥特兰克山谷 - 北部地图; "..YELLOW.."[4]"..WHITE.."）"
+Inst33Quest8_Note = "从敌对玩家尸体上获得护甲碎片。这是个可重复任务。"
+Inst33Quest8_Prequest = "无"
+Inst33Quest8_Folgequest = "有，更多的护甲碎片"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst33Quest9 = "9. Capture a Mine"
+Inst33Quest9 = "9. 占领矿洞"
 Inst33Quest9_Level = "60"
 Inst33Quest9_Attain = "51"
-Inst33Quest9_Aim = "Capture a mine that the Stormpike does not control, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
-Inst33Quest9_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
-Inst33Quest9_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Horde control it."
-Inst33Quest9_Prequest = "None"
-Inst33Quest9_Folgequest = "None"
+Inst33Quest9_Aim = "占领一座还没有被雷矛部族控制的矿洞，然后向丹巴达尔的雷矛军需官复命。"
+Inst33Quest9_Location = "杜尔根·雷矛（奥特兰克山谷; "..YELLOW.."37,77"..WHITE.."）"
+Inst33Quest9_Note = "完成这个任务你只要杀死洞里的首领：深铁矿洞的莫洛克（奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE.."）或冷齿矿洞的工头斯尼维尔（奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE.."）即可。"
+Inst33Quest9_Prequest = "无"
+Inst33Quest9_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst33Quest10 = "10. Towers and Bunkers"
+Inst33Quest10 = "10. 哨塔和碉堡"
 Inst33Quest10_Level = "60"
 Inst33Quest10_Attain = "51"
-Inst33Quest10_Aim = "Destroy the banner at an enemy tower or bunker, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
-Inst33Quest10_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
-Inst33Quest10_Note = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted."
-Inst33Quest10_Prequest = "None"
-Inst33Quest10_Folgequest = "None"
+Inst33Quest10_Aim = "摧毁敌方的某座哨塔或者碉堡中的旗帜，然后向丹巴达尔的杜尔根·雷矛复命。"
+Inst33Quest10_Location = "杜尔根·雷矛（奥特兰克山谷; "..YELLOW.."37,77"..WHITE.."）"
+Inst33Quest10_Note = "只需要烧毁旗帜即可，不需要一定摧毁哨塔或碉堡。"
+Inst33Quest10_Prequest = "无"
+Inst33Quest10_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst33Quest11 = "11. Alterac Valley Graveyards"
+Inst33Quest11 = "11. 奥特兰克山谷的墓地"
 Inst33Quest11_Level = "60"
 Inst33Quest11_Attain = "51"
-Inst33Quest11_Aim = "Assault a graveyard, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
-Inst33Quest11_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
-Inst33Quest11_Note = "Reportedly you do not need to do anything but be near a graveyard when the Alliance assaults it. It does not need to be captured, just assaulted."
-Inst33Quest11_Prequest = "None"
-Inst33Quest11_Folgequest = "None"
+Inst33Quest11_Aim = "占领一座墓地，然后向丹巴达尔的诺雷格·雷矛中尉复命。"
+Inst33Quest11_Location = "诺雷格·雷矛（奥特兰克山谷; "..YELLOW.."37,77"..WHITE.."）"
+Inst33Quest11_Note = "只需要烧毁旗帜即可，不需要一定占领墓地。"
+Inst33Quest11_Prequest = "无"
+Inst33Quest11_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst33Quest12 = "12. Empty Stables"
+Inst33Quest12 = "12. 补充坐骑"
 Inst33Quest12_Level = "60"
 Inst33Quest12_Attain = "51"
-Inst33Quest12_Aim = "Locate an Alterac Ram in Alterac Valley. Use the Stormpike Training Collar when you are near the Alterac Ram to 'tame' the beast. Once tamed, the Alterac Ram will follow you back to the Stable Master. Speak with the Stable Master to earn credit for the capture."
-Inst33Quest12_Location = "Stormpike Stable Master (Alterac Valley - North; "..YELLOW.."[6]"..WHITE..")"
-Inst33Quest12_Note = "You can find a Ram outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Stormpike Cavalry will arrive to assist in the battle."
-Inst33Quest12_Prequest = "None"
-Inst33Quest12_Folgequest = "None"
+Inst33Quest12_Aim = "找到奥特兰克山谷中的山羊。使用雷矛训练颈圈来驯服它们。被驯服的山羊会跟随你回到兽栏管理员那里，然后与兽栏管理员谈话以获得你的奖励。"
+Inst33Quest12_Location = "兽栏管理员（奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE.."）"
+Inst33Quest12_Note = "你可以在基地南面找到这些羊，像猎人抓宠物一样驯服羊，然后带它回去复命。"
+Inst33Quest12_Prequest = "无"
+Inst33Quest12_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst33Quest13 = "13. Ram Riding Harnesses"
+Inst33Quest13 = "13. 山羊坐具"
 Inst33Quest13_Level = "60"
 Inst33Quest13_Attain = "51"
-Inst33Quest13_Aim = "You must strike at our enemy's base, slaying the frostwolves they use as mounts and taking their hides. Return their hides to me so that harnesses may be made for the cavalry. Go!"
-Inst33Quest13_Location = "Stormpike Ram Rider Commander (Alterac Valley - North; "..YELLOW.."[6]"..WHITE..")"
-Inst33Quest13_Note = "Frostwolves can be found in the southern area of Alterac Valley."
-Inst33Quest13_Prequest = "None"
-Inst33Quest13_Folgequest = "None"
+Inst33Quest13_Aim = "进入敌人的基地，杀死霜狼获得它的皮来作为山羊坐骑的器具，去吧。"
+Inst33Quest13_Location = "雷矛山羊骑兵指挥官（奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE.."）"
+Inst33Quest13_Note = "霜狼可以在奥特兰克山谷的南部找到。"
+Inst33Quest13_Prequest = "无"
+Inst33Quest13_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
-Inst33Quest14 = "14. Crystal Cluster"
+Inst33Quest14 = "14. 风暴水晶"
 Inst33Quest14_Level = "60"
 Inst33Quest14_Attain = "51"
-Inst33Quest14_Aim = "There are times which you may be entrenched in battle for days or weeks on end. During those longer periods of activity you may end up collecting large clusters of the Frostwolf's storm crystals.\n\nThe Circle accepts such offerings."
-Inst33Quest14_Location = "Arch Druid Renferal (Alterac Valley - North; "..YELLOW.."[2]"..WHITE..")"
-Inst33Quest14_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - North; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
-Inst33Quest14_Prequest = "None"
-Inst33Quest14_Folgequest = "None"
+Inst33Quest14_Aim = "你可以躲避硝烟弥漫的战场，激烈战斗之外，你可以帮助我收集霜狼氏族身上的风暴水晶。"
+Inst33Quest14_Location = "大德鲁伊雷弗拉尔（奥特兰克山谷 - 北部地图; "..YELLOW.."[2]"..WHITE.."）"
+Inst33Quest14_Note = "在募集大约200个风暴水晶后，大德鲁伊伊类弗拉尔开始向（奥特兰克山谷 - 北部地图; "..YELLOW.."[19]"..WHITE.."）移动。他将启动召唤法阵需要10个玩家去协助召唤。如果成功，森林之王伊弗斯将被召唤出来以对抗部落。"
+Inst33Quest14_Prequest = "无"
+Inst33Quest14_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst33Quest15 = "15. Ivus the Forest Lord"
+Inst33Quest15 = "15. 森林之王伊弗斯"
 Inst33Quest15_Level = "60"
 Inst33Quest15_Attain = "51"
-Inst33Quest15_Aim = "The Frostwolf Clan is protected by a taint of elemental energy. Their shaman meddle in powers that will surely destroy us all if left unchecked.\n\nThe Frostwolf soldiers carry elemental charms called storm crystals. We can use the charms to conjure Ivus. Venture forth and claim the crystals."
-Inst33Quest15_Location = "Arch Druid Renferal (Alterac Valley - North; "..YELLOW.."[2]"..WHITE..")"
-Inst33Quest15_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - North; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
-Inst33Quest15_Prequest = "None"
-Inst33Quest15_Folgequest = "None"
+Inst33Quest15_Aim = "霜狼氏族的战士身上带着一种名叫暴风水晶的符咒，我们可以用这些符咒来召唤伊弗斯。快去拿来那些水晶吧。"
+Inst33Quest15_Location = "大德鲁伊雷弗拉尔（奥特兰克山谷 - 北部地图; "..YELLOW.."[2]"..WHITE.."）"
+Inst33Quest15_Note = "在募集大约200个风暴水晶后，大德鲁伊伊类弗拉尔开始向（奥特兰克山谷 - 北部地图; "..YELLOW.."[19]"..WHITE.."）移动。他将启动召唤法阵需要10个玩家去协助召唤。如果成功，森林之王伊弗斯将被召唤出来以对抗部落。"
+Inst33Quest15_Prequest = "无"
+Inst33Quest15_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 16 Alliance
-Inst33Quest16 = "16. Call of Air - Slidore's Fleet"
+Inst33Quest16 = "16. 天空的召唤 - 维波里的空军"
 Inst33Quest16_Level = "60"
 Inst33Quest16_Attain = "51"
-Inst33Quest16_Aim = "My gryphons are poised to strike at the front lines but cannot make the attack until the lines are thinned out.\n\nThe Frostwolf warriors charged with holding the front lines wear medals of service proudly upon their chests. Rip those medals off their rotten corpses and bring them back here.\n\nOnce the front line is sufficiently thinned out, I will make the call to air! Death from above!"
-Inst33Quest16_Location = "Wing Commander Slidore (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest16_Note = "Kill Horde NPCs for the Frostwolf Soldier's Medal."
-Inst33Quest16_Prequest = "None"
-Inst33Quest16_Folgequest = "None"
+Inst33Quest16_Aim = "你必须去对付守卫前线的部落精英士兵！我现在命令你去削弱那些绿皮蛮子的力量，把他们的中尉和军团士兵的勋章给我拿来。当我拿到足够的勋章时，我会命令开始对他们进行空中打击的。"
+Inst33Quest16_Location = "空军指挥官维波里（奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE.."）"
+Inst33Quest16_Note = "从部落 NPC 身上获得部落士官的勋章。"
+Inst33Quest16_Prequest = "无"
+Inst33Quest16_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 17 Alliance
-Inst33Quest17 = "17. Call of Air - Vipore's Fleet"
+Inst33Quest17 = "17. 天空的召唤 - 斯里多尔的空军"
 Inst33Quest17_Level = "60"
 Inst33Quest17_Attain = "51"
-Inst33Quest17_Aim = "The elite Frostwolf units that guard the lines must be dealt with, soldier! I'm tasking you with thinning out that herd of savages. Return to me with medals from their lieutenants and legionnaires. When I feel that enough of the riff-raff has been dealt with, I'll deploy the air strike."
-Inst33Quest17_Location = "Wing Commander Vipore (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest17_Note = "Kill Horde NPCs for the Frostwolf Lieutenant's Medal."
-Inst33Quest17_Prequest = "None"
-Inst33Quest17_Folgequest = "None"
+Inst33Quest17_Aim = "我的狮鹫兽应该在前线作战，但是在那里的敌人被削弱之前，它们是无法发动攻击的。部落的战士胸前挂着代表荣誉的勋章勇猛冲锋，而你要做的就是从他们腐烂的尸体上把勋章拿下来，并把它们交视只要敌人在前线的力量受到足够的打击，我就会发出命令进行空袭！我们将从空中给敌人造成致命的创伤！"
+Inst33Quest17_Location = "空军指挥官斯里多尔（奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE.."）"
+Inst33Quest17_Note = "从部落 NPC 身上获得部落士兵的勋章。"
+Inst33Quest17_Prequest = "无"
+Inst33Quest17_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 18 Alliance
-Inst33Quest18 = "18. Call of Air - Ichman's Fleet"
+Inst33Quest18 = "18. 天空的召唤 - 艾克曼的空军"
 Inst33Quest18_Level = "60"
 Inst33Quest18_Attain = "51"
-Inst33Quest18_Aim = "Return to the battlefield and strike at the heart of the Frostwolf's command. Take down their commanders and guardians. Return to me with as many of their medals as you can stuff in your pack! I promise you, when my gryphons see the bounty and smell the blood of our enemies, they will fly again! Go now!"
-Inst33Quest18_Location = "Wing Commander Ichman (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest18_Note = "Kill Horde NPCs for the Frostwolf Commander's Medals. After turning in 50, Wing Commander Ichman will either send a gryphon to attack the Horde base or give you a beacon to plant in the Snowfall Graveyard. If the beacon is protected long enough a gryphon will come to defend it."
-Inst33Quest18_Prequest = "None"
-Inst33Quest18_Folgequest = "None"
+Inst33Quest18_Aim = "它们的士气很低，战士。自从我们上次对部落的空中打击失败之后，它们就拒绝再次飞行!你必须鼓舞它们的士气。回到战场并攻击部落的核心力量，杀死他们的指挥官和卫兵。尽可能带回更多的勋章!我向你保证，当我的狮鹫兽看到这些战利品并嗅到敌人的鲜血时，它们就会再次起飞！现在就出发吧！"
+Inst33Quest18_Location = "空军指挥官艾克曼（奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE.."）"
+Inst33Quest18_Note = "从部落 NPC 身上获得部落指挥官的勋章。"
+Inst33Quest18_Prequest = "无"
+Inst33Quest18_Folgequest = "无"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst33Quest1_HORDE = "1. Call to Arms: Alterac Valley (Daily)"
+Inst33Quest1_HORDE = "1. 战斗的召唤：奥特兰克山谷（战场日常）"
 Inst33Quest1_HORDE_Level = "51"
 Inst33Quest1_HORDE_Attain = "51"
-Inst33Quest1_HORDE_Aim = "Win an Alterac Valley battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst33Quest1_HORDE_Location = "Horde Warbringer:\n   Dalaran: Sunreaver's Sanctuary - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97.0, 38.3"
-Inst33Quest1_HORDE_Note = "This quest can be done once a day after reaching level 51. It yields varying amounts of experience and gold based on your level."
-Inst33Quest1_HORDE_Prequest = "None"
-Inst33Quest1_HORDE_Folgequest = "None"
+Inst33Quest1_HORDE_Aim = "在奥特兰克山谷战场中获得一场胜利，然后向任意部落主城或沙塔斯城中的部落战争使者复命。"
+Inst33Quest1_HORDE_Location = "部落战场使者：\n  （达拉然 - 夺日者圣殿 ; "..YELLOW.."58,21"..WHITE..）\n  （沙塔斯城 - 贫民窟; "..YELLOW.."67,57"..WHITE.."）\n  （奥格瑞玛 - 荣耀谷; "..YELLOW.."80,30"..WHITE.."）\n  （雷霆崖 - 猎手高地; "..YELLOW.."56,77"..WHITE.."）\n  （幽暗城 - 皇家区; "..YELLOW.."61,88"..WHITE.."）\n  （银月城 - 远行者广场; "..YELLOW.."97,38"..WHITE.."）"
+Inst33Quest1_HORDE_Note = "战场日常任务，51级你才能接到这个任务，完成任务会基于你的级别奖励金钱和经验。"
+Inst33Quest1_HORDE_Prequest = "无"
+Inst33Quest1_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst33Quest2_HORDE = "2. In Defense of Frostwolf"
+Inst33Quest2_HORDE = "2. 保卫霜狼氏族"
 Inst33Quest2_HORDE_Level = "60"
 Inst33Quest2_HORDE_Attain = "51"
-Inst33Quest2_HORDE_Aim = "Venture to Alterac Valley, located in the Alterac Mountains. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alterac Valley north of Tarren Mill at the base of the Alterac Mountains."
-Inst33Quest2_HORDE_Location = "Frostwolf Ambassador Rokhstrom (Orgrimmar - Valley of Strength "..YELLOW.."50,71"..WHITE..")"
-Inst33Quest2_HORDE_Note = "Warmaster Laggrond is at (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")."
-Inst33Quest2_HORDE_Prequest = "None"
-Inst33Quest2_HORDE_Folgequest = "Proving Grounds"
+Inst33Quest2_HORDE_Aim = "到希尔斯布莱德丘陵地区的奥特兰克山谷去。找到拉格隆德并和他谈谈，然后成为霜狼氏族的士兵。"
+Inst33Quest2_HORDE_Location = "霜狼大使（奥格瑞玛 - 力量谷 "..YELLOW.."50,71"..WHITE.."）"
+Inst33Quest2_HORDE_Note = "拉格隆德（奥特兰克山脉; "..YELLOW.."62,59"..WHITE.."）。"
+Inst33Quest2_HORDE_Prequest = "无"
+Inst33Quest2_HORDE_Folgequest = "有，实验场"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst33Quest3_HORDE = "3. Proving Grounds"
+Inst33Quest3_HORDE = "3. 实验场"
 Inst33Quest3_HORDE_Level = "60"
 Inst33Quest3_HORDE_Attain = "51"
-Inst33Quest3_HORDE_Aim = "Travel to the Wildpaw cavern located southeast of the main base in Alterac Valley and find the Frostwolf Banner. Return the Frostwolf Banner to Warmaster Laggrond."
-Inst33Quest3_HORDE_Location = "Warmaster Laggrond (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")"
-Inst33Quest3_HORDE_Note = "The Frostwolf Banner is in the Wildpaw Cavern at (Alterac Valley - South; "..YELLOW.."[9]"..WHITE.."). Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest, but it does yield about 9550 experience."
-Inst33Quest3_HORDE_Prequest = "In Defense of Frostwolf"
-Inst33Quest3_HORDE_Folgequest = "None"
+Inst33Quest3_HORDE_Aim = "到主基地东南边的蛮爪洞穴中去找到霜狼军旗，然后把它交给拉格隆德。"
+Inst33Quest3_HORDE_Location = "拉格隆德（奥特兰克山脉; "..YELLOW.."62,59"..WHITE.."）"
+Inst33Quest3_HORDE_Note = "霜狼军旗在蛮爪洞穴（奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE.."）。每当声望到达一个级别，你可以在这个人这里得到升级的霜狼徽记。"
+Inst33Quest3_HORDE_Prequest = "有，保卫霜狼氏族"
+Inst33Quest3_HORDE_Folgequest = "无"
 Inst33Quest3FQuest_HORDE = "true"
 --
-Inst33Quest3name1_HORDE = "Frostwolf Insignia Rank 1"
-Inst33Quest3name2_HORDE = "Peeling the Onion"
+Inst33Quest3name1_HORDE = "1级霜狼徽记"
+Inst33Quest3name2_HORDE = "剥洋葱"
 
 --Quest 4 Horde
-Inst33Quest4_HORDE = "4. The Battle for Alterac"
+Inst33Quest4_HORDE = "4. 为奥特兰克而战"
 Inst33Quest4_HORDE_Level = "60"
 Inst33Quest4_HORDE_Attain = "51"
-Inst33Quest4_HORDE_Aim = "Enter Alterac Valley and defeat the dwarven general, Vanndar Stormpike. Then, return to Voggah Deathgrip in the Alterac Mountains."
-Inst33Quest4_HORDE_Location = "Voggah Deathgrip (Alterac Mountains; "..YELLOW.."64,60"..WHITE..")"
-Inst33Quest4_HORDE_Note = "Vanndar Stormpike is at (Alterac Valley - North; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
-Inst33Quest4_HORDE_Prequest = "None"
-Inst33Quest4_HORDE_Folgequest = "Hero of the Frostwolf"
+Inst33Quest4_HORDE_Aim = "进入奥特兰克山谷，击败矮人将军范达尔·雷矛。然后回到沃加·死爪那里。"
+Inst33Quest4_HORDE_Location = "沃加·死爪（奥特兰克山脉; "..YELLOW.."64,60"..WHITE.."）"
+Inst33Quest4_HORDE_Note = "范达尔·雷矛在（奥特兰克山谷 - 北部地图; "..YELLOW.."[B]"..WHITE.."）。不一定需要杀死范达尔才能完成任务，赢得胜利就行。\n完成任务后与相同 NPC 对话领取奖励。"
+Inst33Quest4_HORDE_Prequest = "无"
+Inst33Quest4_HORDE_Folgequest = "有，霜狼英雄"
 --
-Inst33Quest4name1_HORDE = "Bloodseeker"
-Inst33Quest4name2_HORDE = "Ice Barbed Spear"
-Inst33Quest4name3_HORDE = "Wand of Biting Cold"
-Inst33Quest4name4_HORDE = "Cold Forged Hammer"
+Inst33Quest4name1_HORDE = "觅血者"
+Inst33Quest4name2_HORDE = "冰刺长矛"
+Inst33Quest4name3_HORDE = "骨寒魔杖"
+Inst33Quest4name4_HORDE = "冰冷铸锤"
 
 --Quest 5 Horde
-Inst33Quest5_HORDE = "5. Speak with our Quartermaster"
+Inst33Quest5_HORDE = "5. 霜狼军需官"
 Inst33Quest5_HORDE_Level = "60"
 Inst33Quest5_HORDE_Attain = "51"
-Inst33Quest5_HORDE_Aim = "Speak with the Frostwolf Quartermaster."
-Inst33Quest5_HORDE_Location = "Jotek (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest5_HORDE_Note = "The Frostwolf Quartermaster is at "..YELLOW.."[10]"..WHITE.." and provides more quests."
-Inst33Quest5_HORDE_Prequest = "None"
-Inst33Quest5_HORDE_Folgequest = "None"
+Inst33Quest5_HORDE_Aim = "与霜狼军需官谈一谈。"
+Inst33Quest5_HORDE_Location = "乔泰克（奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE.."）"
+Inst33Quest5_HORDE_Note = "霜狼军需官在 "..YELLOW.."[10]"..WHITE.."。"
+Inst33Quest5_HORDE_Prequest = "无"
+Inst33Quest5_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 6 Horde
-Inst33Quest6_HORDE = "6. Coldtooth Supplies"
+Inst33Quest6_HORDE = "6. 冷齿矿洞的补给"
 Inst33Quest6_HORDE_Level = "60"
 Inst33Quest6_HORDE_Attain = "51"
-Inst33Quest6_HORDE_Aim = "Bring 10 Coldtooth Supplies to the Horde Quatermaster in Frostwolf Keep."
-Inst33Quest6_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest6_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..")."
-Inst33Quest6_HORDE_Prequest = "None"
-Inst33Quest6_HORDE_Folgequest = "None"
+Inst33Quest6_HORDE_Aim = "把10份冷齿矿洞补给品交给霜狼要塞的部落军需官。"
+Inst33Quest6_HORDE_Location = "霜狼军需官（奥特兰克山谷 - 南部地图; "..YELLOW.."[10]"..WHITE.."）"
+Inst33Quest6_HORDE_Note = "补给品可以在冷齿矿洞找到（奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE.."）。"
+Inst33Quest6_HORDE_Prequest = "无"
+Inst33Quest6_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 7 Horde
-Inst33Quest7_HORDE = "7. Irondeep Supplies"
+Inst33Quest7_HORDE = "7. 深铁矿洞的补给"
 Inst33Quest7_HORDE_Level = "60"
 Inst33Quest7_HORDE_Attain = "51"
-Inst33Quest7_HORDE_Aim = "Bring 10 Irondeep Supplies to the Horde Quartermaster in Frostwolf Keep."
-Inst33Quest7_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest7_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..")."
-Inst33Quest7_HORDE_Prequest = "None"
-Inst33Quest7_HORDE_Folgequest = "None"
+Inst33Quest7_HORDE_Aim = "把10份深铁矿洞补给品交给霜狼要塞的部落军需官。"
+Inst33Quest7_HORDE_Location = "霜狼军需官（奥特兰克山谷 - 南部地图; "..YELLOW.."[10]"..WHITE.."）"
+Inst33Quest7_HORDE_Note = "补给品可以在深铁矿洞找到（奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE.."）。"
+Inst33Quest7_HORDE_Prequest = "无"
+Inst33Quest7_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 8 Horde
-Inst33Quest8_HORDE = "8. Enemy Booty"
+Inst33Quest8_HORDE = "8. 敌人的物资"
 Inst33Quest8_HORDE_Level = "60"
 Inst33Quest8_HORDE_Attain = "51"
-Inst33Quest8_HORDE_Aim = "Bring 20 Armor Scraps to Smith Regzar in Frostwolf Village."
-Inst33Quest8_HORDE_Location = "Smith Regzar (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest8_HORDE_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
-Inst33Quest8_HORDE_Prequest = "None"
-Inst33Quest8_HORDE_Folgequest = "More Booty!"
+Inst33Quest8_HORDE_Aim = "给霜狼村的铁匠雷格萨带去20块护甲碎片。"
+Inst33Quest8_HORDE_Location = "铁匠雷格萨（奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE.."）"
+Inst33Quest8_HORDE_Note = "从敌对玩家尸体上获得护甲碎片。这是个可重复任务。"
+Inst33Quest8_HORDE_Prequest = "无"
+Inst33Quest8_HORDE_Folgequest = "有，更多的物资！"
 -- No Rewards for this quest
 
 --Quest 9 Horde
-Inst33Quest9_HORDE = "9. Capture a Mine"
+Inst33Quest9_HORDE = "9. 占领矿洞"
 Inst33Quest9_HORDE_Level = "60"
 Inst33Quest9_HORDE_Attain = "51"
-Inst33Quest9_HORDE_Aim = "Capture a mine, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
-Inst33Quest9_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest9_HORDE_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Alliance control it."
-Inst33Quest9_HORDE_Prequest = "None"
-Inst33Quest9_HORDE_Folgequest = "None"
+Inst33Quest9_HORDE_Aim = "占领一座矿洞，然后向霜狼村的霜狼军需官报告。"
+Inst33Quest9_HORDE_Location = "霜狼军需官（奥特兰克山脉; "..YELLOW.."66,55"..WHITE.."）"
+Inst33Quest9_HORDE_Note = "完成这个任务你只要杀死洞里的首领：深铁矿洞的莫洛克（奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE.."）或冷齿矿洞的工头斯尼维尔（奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE.."）即可。"
+Inst33Quest9_HORDE_Prequest = "无"
+Inst33Quest9_HORDE_Folgequest ="无"
 -- No Rewards for this quest
 
 --Quest 10 Horde
-Inst33Quest10_HORDE = "10. Towers and Bunkers"
+Inst33Quest10_HORDE = "10. 哨塔和碉堡"
 Inst33Quest10_HORDE_Level = "60"
 Inst33Quest10_HORDE_Attain = "51"
-Inst33Quest10_HORDE_Aim = "Capture an enemy tower, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
-Inst33Quest10_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest10_HORDE_Note = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted."
-Inst33Quest10_HORDE_Prequest = "None"
-Inst33Quest10_HORDE_Folgequest = "None"
+Inst33Quest10_HORDE_Aim = "占领敌方的某座哨塔，然后向霜狼村的提卡·血牙复命。"
+Inst33Quest10_HORDE_Location = "提卡·血牙（奥特兰克山脉; "..YELLOW.."66,55"..WHITE.."）"
+Inst33Quest10_HORDE_Note = "只需要烧毁旗帜即可，不需要一定摧毁哨塔和碉堡。"
+Inst33Quest10_HORDE_Prequest = "无"
+Inst33Quest10_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 11 Horde
-Inst33Quest11_HORDE = "11. The Graveyards of Alterac"
+Inst33Quest11_HORDE = "11. 奥特兰克山谷的墓地"
 Inst33Quest11_HORDE_Level = "60"
 Inst33Quest11_HORDE_Attain = "51"
-Inst33Quest11_HORDE_Aim = "Assault a graveyard, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
-Inst33Quest11_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest11_HORDE_Note = "Reportedly you do not need to do anything but be near a graveyard when the Horde assaults it. It does not need to be captured, just assaulted."
-Inst33Quest11_HORDE_Prequest = "None"
-Inst33Quest11_HORDE_Folgequest = "None"
+Inst33Quest11_HORDE_Aim = "占领一座墓地，然后向霜狼村的亚斯拉复命。"
+Inst33Quest11_HORDE_Location = "亚斯拉（奥特兰克山脉; "..YELLOW.."66,55"..WHITE.."）"
+Inst33Quest11_HORDE_Note = "只需要烧毁旗帜即可，不需要一定占领墓地。"
+Inst33Quest11_HORDE_Prequest = "无"
+Inst33Quest11_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 12 Horde
-Inst33Quest12_HORDE = "12. Empty Stables"
+Inst33Quest12_HORDE = "12. 补充坐骑"
 Inst33Quest12_HORDE_Level = "60"
 Inst33Quest12_HORDE_Attain = "51"
-Inst33Quest12_HORDE_Aim = "Locate a Frostwolf in Alterac Valley. Use the Frostwolf Muzzle when you are near the Frostwolf to 'tame' the beast. Once tamed, the Frostwolf will follow you back to the Frostwolf Stable Master. Speak with the Frostwolf Stable Master to earn credit for the capture."
-Inst33Quest12_HORDE_Location = "Frostwolf Stable Master (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")"
-Inst33Quest12_HORDE_Note = "You can find a Frostwolf outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Frostwolf Cavalry will arrive to assist in the battle."
-Inst33Quest12_HORDE_Prequest = "None"
-Inst33Quest12_HORDE_Folgequest = "None"
+Inst33Quest12_HORDE_Aim = "找到奥特兰克山谷中的霜狼。使用霜狼口套来驯服它们。被驯服的霜狼会跟随你回到兽栏管理员那里，然后与兽栏管理员谈话以获得你的奖励。"
+Inst33Quest12_HORDE_Location = "霜狼兽栏管理员（奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE.."）"
+Inst33Quest12_HORDE_Note = "基地外面就可以找到这些狼。"
+Inst33Quest12_HORDE_Prequest = "无"
+Inst33Quest12_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 13 Horde
-Inst33Quest13_HORDE = "13. Ram Hide Harnesses"
+Inst33Quest13_HORDE = "13. 羊皮坐具"
 Inst33Quest13_HORDE_Level = "60"
 Inst33Quest13_HORDE_Attain = "51"
-Inst33Quest13_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
-Inst33Quest13_HORDE_Location = "Frostwolf Wolf Rider Commander (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")"
-Inst33Quest13_HORDE_Note = "The Rams can be found in the northern area of Alterac Valley."
-Inst33Quest13_HORDE_Prequest = "None"
-Inst33Quest13_HORDE_Folgequest = "None"
+Inst33Quest13_HORDE_Aim = "杀死雷矛卫队用作坐骑的山羊，我们就可以将羊皮作为我们的坐垫。"
+Inst33Quest13_HORDE_Location = "霜狼骑兵指挥官（奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE.."）"
+Inst33Quest13_HORDE_Note = "羊能在北部的奥特兰克山谷找到。"
+Inst33Quest13_HORDE_Prequest = "无"
+Inst33Quest13_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 14 Horde
-Inst33Quest14_HORDE = "14. A Gallon of Blood"
+Inst33Quest14_HORDE = "14. 联盟之血"
 Inst33Quest14_HORDE_Level = "60"
 Inst33Quest14_HORDE_Attain = "51"
-Inst33Quest14_HORDE_Aim = "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings."
-Inst33Quest14_HORDE_Location = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest14_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[14]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
-Inst33Quest14_HORDE_Prequest = "None"
-Inst33Quest14_HORDE_Folgequest = "None"
+Inst33Quest14_HORDE_Aim = "从联盟尸体上边得到联盟之血，把它交给我。"
+Inst33Quest14_HORDE_Location = "指挥官瑟鲁加（奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE.."）"
+Inst33Quest14_HORDE_Note = "在募集大约150个联盟之血后，指挥官瑟鲁加开始向（奥特兰克山谷 - 南部地图; "..YELLOW.."[14]"..WHITE.."）移动。他将启动召唤法阵需要10个玩家去协助召唤。如果成功，冰雪之王洛克霍拉将被召唤出来以对抗联盟。"
+Inst33Quest14_HORDE_Prequest = "无"
+Inst33Quest14_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 15 Horde
-Inst33Quest15_HORDE = "15. Lokholar the Ice Lord"
+Inst33Quest15_HORDE = "15. 冰雪之王洛克霍拉"
 Inst33Quest15_HORDE_Level = "60"
 Inst33Quest15_HORDE_Attain = "51"
-Inst33Quest15_HORDE_Aim = "You must strike down our enemies and bring to me their blood. Once enough blood has been gathered, the ritual of summoning may begin.\n\nVictory will be assured when the elemental lord is loosed upon the Stormpike army."
-Inst33Quest15_HORDE_Location = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest15_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[14]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
-Inst33Quest15_HORDE_Prequest = "None"
-Inst33Quest15_HORDE_Folgequest = "None"
+Inst33Quest15_HORDE_Aim = "收集足够的联盟之血后，你就可以召唤冰雪之王。"
+Inst33Quest15_HORDE_Location = "指挥官瑟鲁加（奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE.."）"
+Inst33Quest15_HORDE_Note = "在募集大约150个联盟之血后，指挥官瑟鲁加开始向（奥特兰克山谷 - 南部地图; "..YELLOW.."[14]"..WHITE.."）移动。他将启动召唤法阵需要10个玩家去协助召唤。如果成功，冰雪之王洛克霍拉将被召唤出来以对抗联盟。"
+Inst33Quest15_HORDE_Prequest = "无"
+Inst33Quest15_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 16 Horde
-Inst33Quest16_HORDE = "16. Call of Air - Guse's Fleet"
+Inst33Quest16_HORDE = "16. 天空的召唤 - 古斯的部队"
 Inst33Quest16_HORDE_Level = "60"
 Inst33Quest16_HORDE_Attain = "51"
-Inst33Quest16_HORDE_Aim = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!"
-Inst33Quest16_HORDE_Location = "Wing Commander Guse (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest16_HORDE_Note = "Kill Horde NPCs for the Stormpike Soldier's Flesh. Reportedly 90 flesh are needed to make the Wing Commander do whatever she does."
-Inst33Quest16_HORDE_Prequest = "None"
-Inst33Quest16_HORDE_Folgequest = "None"
+Inst33Quest16_HORDE_Aim = "收集联盟卫兵的肉，把它交给我"
+Inst33Quest16_HORDE_Location = "空军指挥官古斯（奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE.."）"
+Inst33Quest16_HORDE_Note = "从联盟 NPC 身上获得联盟士兵的食物。"
+Inst33Quest16_HORDE_Prequest = "无"
+Inst33Quest16_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 17 Horde
-Inst33Quest17_HORDE = "17. Call of Air - Jeztor's Fleet"
+Inst33Quest17_HORDE = "17. 天空的召唤 - 杰斯托的部队"
 Inst33Quest17_HORDE_Level = "60"
 Inst33Quest17_HORDE_Attain = "51"
-Inst33Quest17_HORDE_Aim = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Lieutenants."
-Inst33Quest17_HORDE_Location = "Wing Commander Jeztor (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest17_HORDE_Note = "Kill Alliance NPCs for the Stormpike Lieutenant's Flesh."
-Inst33Quest17_HORDE_Prequest = "None"
-Inst33Quest17_HORDE_Folgequest = "None"
+Inst33Quest17_HORDE_Aim = "收集联盟士官的食物，把它交给我。"
+Inst33Quest17_HORDE_Location = "空军指挥官杰斯托（奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE.."）"
+Inst33Quest17_HORDE_Note = "从联盟 NPC 身上获得联盟士官的食物。"
+Inst33Quest17_HORDE_Prequest = "无"
+Inst33Quest17_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 18 Horde
-Inst33Quest18_HORDE = "18. Call of Air - Mulverick's Fleet"
+Inst33Quest18_HORDE = "18. 天空的召唤 - 穆维里克的部队"
 Inst33Quest18_HORDE_Level = "60"
 Inst33Quest18_HORDE_Attain = "51"
-Inst33Quest18_HORDE_Aim = "First, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you."
-Inst33Quest18_HORDE_Location = "Wing Commander Mulverick (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest18_HORDE_Note = "Kill Alliance NPCs for the Stormpike Commander's Flesh."
-Inst33Quest18_HORDE_Prequest = "None"
-Inst33Quest18_HORDE_Folgequest = "None"
+Inst33Quest18_HORDE_Aim = "收集联盟指挥官的食物，把它交给我。"
+Inst33Quest18_HORDE_Location = "空军指挥官穆维里克（奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE.."）"
+Inst33Quest18_HORDE_Note = "从联盟 NPC 身上获得联盟指挥官的食物。"
+Inst33Quest18_HORDE_Prequest = "无"
+Inst33Quest18_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 
 
 --------------- INST34 - Arathi Basin (AB) ---------------
 
-Inst34Story = "Arathi Basin, located in Arathi Highlands, is a fast and exciting Battleground. The Basin itself is rich with resources and coveted by both the Horde and the Alliance. The Forsaken Defilers and the League of Arathor have arrived at Arathi Basin to wage war over these natural resources and claim them on behalf of their respective sides."
-Inst34Caption = "Arathi Basin"
-Inst34QAA = "4 Quests"
-Inst34QAH = "4 Quests"
+Inst34Story = "位于阿拉希高地的阿拉希盆地是一处激动人心的战场。盆地拥有丰富的资源，部落和联盟都对此垂涎不已。污染者和阿拉索联军在阿拉希盆地展开激战，想要为他们所在的阵营抢夺盆地中的资源。"
+Inst34Caption = "阿拉希盆地（AB）"
+Inst34QAA = "4 个任务"
+Inst34QAH = "4 个任务"
 
 --Quest 1 Alliance
-Inst34Quest1 = "1. Call to Arms: Arathi Basin (Daily)"
+Inst34Quest1 = "1. 战斗的召唤：阿拉希盆地（战场日常）"
 Inst34Quest1_Level = "20"
 Inst34Quest1_Attain = "20"
-Inst34Quest1_Aim = "Win an Arathi Basin battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
-Inst34Quest1_Location = "Alliance Brigadier General:\n   Dalaran: The Silver Enclave - "..YELLOW.."29.8, 75.8"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."24.6, 55.4"
-Inst34Quest1_Note = "This quest can be done once a day after reaching level 20. It yields varying amounts of experience and gold based on your level."
-Inst34Quest1_Prequest = "None"
-Inst34Quest1_Folgequest = "None"
+Inst34Quest1_Aim = "阿拉希盆地战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命。"
+Inst34Quest1_Location = "联盟准将：\n  （达拉然 - 银色领地; "..YELLOW.."30,76"..WHITE..）\n  （沙塔斯城 - 贫民窟; "..YELLOW.."67,34"..WHITE.."）\n  （暴风城 - 暴风要塞; "..YELLOW.."84,35"..WHITE.."）\n  （铁炉堡 - 武器大厅; "..YELLOW.."70,91"..WHITE.."）\n  （达纳苏斯 - 战士区; "..YELLOW.."59,36"..WHITE.."）\n  （埃索达 - 圣光穹顶; "..YELLOW.."25,55"..WHITE.."）"
+Inst34Quest1_Note = "你达到20级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱。"
+Inst34Quest1_Prequest = "无"
+Inst34Quest1_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst34Quest2 = "2. The Battle for Arathi Basin!"
+Inst34Quest2 = "2. 阿拉希盆地之战！"
 Inst34Quest2_Level = "25"
 Inst34Quest2_Attain = "25"
-Inst34Quest2_Aim = "Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe."
-Inst34Quest2_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest2_Note = "The locations to be assaulted are marked on the map as 2 through 5."
-Inst34Quest2_Prequest = "None"
-Inst34Quest2_Folgequest = "None"
+Inst34Quest2_Aim = "进攻矿洞、伐木场、铁匠铺和农场，然后向避难谷地的奥斯莱特元帅复命。"
+Inst34Quest2_Location = "奥斯莱特元帅（阿拉希高地 - 避难谷地; "..YELLOW.."46,45"..WHITE.."）"
+Inst34Quest2_Note = "开旗位于盆地地图上标记的2到5。"
+Inst34Quest2_Prequest = "无"
+Inst34Quest2_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst34Quest3 = "3. Control Four Bases"
+Inst34Quest3 = "3. 控制四座基地"
 Inst34Quest3_Level = "60"
 Inst34Quest3_Attain = "60"
-Inst34Quest3_Aim = "Enter Arathi Basin, capture and control four bases at the same time, and then return to Field Marshal Oslight at Refuge Pointe."
-Inst34Quest3_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest3_Note = "You need to be Friendly with the League of Arathor to get this quest."
-Inst34Quest3_Prequest = "None"
-Inst34Quest3_Folgequest = "None"
+Inst34Quest3_Aim = "进入阿拉希盆地，同时占据并控制四座基地，当任务完成之后向避难谷地的奥斯莱特元帅报告。"
+Inst34Quest3_Location = "奥斯莱特元帅（阿拉希高地 - 避难谷地; "..YELLOW.."46,45"..WHITE.."）"
+Inst34Quest3_Note = "你必须和阿拉索联军声望达到友善才能接到这个任务。"
+Inst34Quest3_Prequest = "无"
+Inst34Quest3_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst34Quest4 = "4. Control Five Bases"
+Inst34Quest4 = "4. 控制五座基地"
 Inst34Quest4_Level = "60"
 Inst34Quest4_Attain = "60"
-Inst34Quest4_Aim = "Control 5 bases in Arathi Basin at the same time, then return to Field Marshal Oslight at Refuge Pointe."
-Inst34Quest4_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest4_Note = "You need to be Exalted with the League of Arathor to get this quest."
-Inst34Quest4_Prequest = "None"
-Inst34Quest4_Folgequest = "None"
+Inst34Quest4_Aim = "同时控制阿拉希盆地中的五座基地，然后向避难谷地的奥斯莱特元帅复命。"
+Inst34Quest4_Location = "奥斯莱特元帅（阿拉希高地 - 避难谷地; "..YELLOW.."46,45"..WHITE.."）"
+Inst34Quest4_Note = "你必须和阿拉索联军达到崇拜才能接到这个任务。"
+Inst34Quest4_Prequest = "无"
+Inst34Quest4_Folgequest = "无"
 --
-Inst34Quest4name1 = "Arathor Battle Tabard"
+Inst34Quest4name1 = "阿拉索战袍"
 
 
 --Quest 1 Horde
-Inst34Quest1_HORDE = "1. Call to Arms: Arathi Basin (Daily)"
+Inst34Quest1_HORDE = "1. 战斗的召唤：阿拉希盆地（战场日常）"
 Inst34Quest1_HORDE_Level = "20"
 Inst34Quest1_HORDE_Attain = "20"
-Inst34Quest1_HORDE_Aim = "Win an Arathi Basin battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst34Quest1_HORDE_Location = "Horde Warbringer:\n   Dalaran: Sunreaver's Sanctuary - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97.0, 38.3"
-Inst34Quest1_HORDE_Note = "This quest can be done once a day after reaching level 20. It yields varying amounts of experience and gold based on your level."
-Inst34Quest1_HORDE_Prequest = "None"
-Inst34Quest1_HORDE_Folgequest = "None"
+Inst34Quest1_HORDE_Aim = "在阿拉希盆地战场中获得一场胜利，然后向任意部落主城或沙塔斯城中的部落战争使者复命。"
+Inst34Quest1_HORDE_Location = "部落战场使者：\n  （达拉然 - 夺日者圣殿 ; "..YELLOW.."58,21"..WHITE..）\n  （沙塔斯城 - 贫民窟; "..YELLOW.."67,57"..WHITE.."）\n  （奥格瑞玛 - 荣耀谷; "..YELLOW.."80,30"..WHITE.."）\n  （雷霆崖 - 猎手高地; "..YELLOW.."56,77"..WHITE.."）\n  （幽暗城 - 皇家区; "..YELLOW.."61,88"..WHITE.."）\n  （银月城 - 远行者广场; "..YELLOW.."97,38"..WHITE.."）"
+Inst34Quest1_HORDE_Note = "你达到20级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱。"
+Inst34Quest1_HORDE_Prequest = "无"
+Inst34Quest1_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst34Quest2_HORDE = "2. The Battle for Arathi Basin!"
+Inst34Quest2_HORDE = "2. 阿拉希盆地之战！"
 Inst34Quest2_HORDE_Level = "25"
 Inst34Quest2_HORDE_Attain = "25"
-Inst34Quest2_HORDE_Aim = "Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall."
-Inst34Quest2_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest2_HORDE_Note = "The locations to be assaulted are marked on the map as 1 through 4."
-Inst34Quest2_HORDE_Prequest = "None"
-Inst34Quest2_HORDE_Folgequest = "None"
+Inst34Quest2_HORDE_Aim = "进攻阿拉希盆地的矿洞、伐木场、铁匠铺和兽栏，然后向落锤镇的屠杀者杜维尔复命。"
+Inst34Quest2_HORDE_Location = "屠杀者杜维尔（阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE.."）"
+Inst34Quest2_HORDE_Note = "开旗位于盆地地图上标记的1到4。"
+Inst34Quest2_HORDE_Prequest = "无"
+Inst34Quest2_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst34Quest3_HORDE = "3. Take Four Bases"
+Inst34Quest3_HORDE = "3. 夺取四座基地"
 Inst34Quest3_HORDE_Level = "60"
 Inst34Quest3_HORDE_Attain = "60"
-Inst34Quest3_HORDE_Aim = "Hold four bases at the same time in Arathi Basin, and then return to Deathmaster Dwire in Hammerfall."
-Inst34Quest3_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest3_HORDE_Note = "You need to be Friendly with The Defilers to get this quest."
-Inst34Quest3_HORDE_Prequest = "None"
-Inst34Quest3_HORDE_Folgequest = "None"
+Inst34Quest3_HORDE_Aim = "同时占据阿拉希盆地中的四座基地，然后向落锤镇的屠杀者杜维尔复命。"
+Inst34Quest3_HORDE_Location = "屠杀者杜维尔（阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE.."）"
+Inst34Quest3_HORDE_Note = "你必须和污染者声望达到友善才能接到任务。"
+Inst34Quest3_HORDE_Prequest = "无"
+Inst34Quest3_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst34Quest4_HORDE = "4. Take Five Bases"
+Inst34Quest4_HORDE = "4. 夺取五座基地"
 Inst34Quest4_HORDE_Level = "60"
 Inst34Quest4_HORDE_Attain = "60"
-Inst34Quest4_HORDE_Aim = "Hold five bases in Arathi Basin at the same time, then return to Deathmaster Dwire in Hammerfall."
-Inst34Quest4_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest4_HORDE_Note = "You need to be Exalted with The Defilers to get this quest."
-Inst34Quest4_HORDE_Prequest = "None"
-Inst34Quest4_HORDE_Folgequest = "None"
+Inst34Quest4_HORDE_Aim = "同时占据阿拉希盆地中的五座基地，然后向落锤镇的屠杀者杜维尔复命。"
+Inst34Quest4_HORDE_Location = "屠杀者杜维尔（阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE.."）"
+Inst34Quest4_HORDE_Note = "你必须和污染者声望达到崇拜才能接到。"
+Inst34Quest4_HORDE_Prequest = "无"
+Inst34Quest4_HORDE_Folgequest = "无"
 --
-Inst34Quest4name1_HORDE = "Battle Tabard of the Defilers"
+Inst34Quest4name1_HORDE = "污染者军旗"
 
 
 
 --------------- INST35 - Warsong Gulch (WSG) ---------------
 
-Inst35Story = "Nestled in the southern region of Ashenvale forest, Warsong Gulch is near the area where Grom Hellscream and his Orcs chopped away huge swaths of forest during the events of the Third War. Some orcs have remained in the vicinity, continuing their deforestation to fuel the Horde's expansion. They call themselves the Warsong Outriders.\nThe Night Elves, who have begun a massive push to retake the forests of Ashenvale, are now focusing their attention on ridding their land of the Outriders once and for all. And so, the Silverwing Sentinels have answered the call and sworn that they will not rest until every last Orc is defeated and cast out of Warsong Gulch. "
-Inst35Caption = "Warsong Gulch"
-Inst35QAA = "1 Quest"
-Inst35QAH = "1 Quest"
+Inst35Story = "战歌峡谷位于灰谷森林南部。在第三次兽人战争中，格罗姆·地狱咆哮和他麾下的兽人们几乎将战歌峡谷附近的森林砍伐殆尽。其中部分兽人仍然盘踞在这里，继续砍伐着森林，想要扩张部落的势力范围。他们称自己为战歌侦查骑兵。\n\n暗夜精灵早已纠集兵力，打算收复灰谷森林。他们想要将战歌侦察骑兵彻底赶出这片土地。因此，银翼哨兵挺身而出，发誓在将兽人驱逐出战歌峡谷之前他们决不休息。"
+Inst35Caption = "战歌峡谷（WSG）"
+Inst35QAA = "1 个任务"
+Inst35QAH = "1 个任务"
 
 --Quest 1 Alliance
-Inst35Quest1 = "1. Call to Arms: Warsong Gulch (Daily)"
+Inst35Quest1 = "1. 战斗的召唤：战歌峡谷（战场日常）"
 Inst35Quest1_Level = "10"
 Inst35Quest1_Attain = "10"
-Inst35Quest1_Aim = "Win a Warsong Gulch battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
-Inst35Quest1_Location = "Alliance Brigadier General:\n   Dalaran: The Silver Enclave - "..YELLOW.."29.8, 75.8"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."24.6, 55.4"
-Inst35Quest1_Note = "This quest can be done once a day after reaching level 10. It yields varying amounts of experience and gold based on your level."
-Inst35Quest1_Prequest = "None"
-Inst35Quest1_Folgequest = "None"
+Inst35Quest1_Aim = "在战歌峡谷战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命。"
+Inst35Quest1_Location = "联盟准将：\n  （达拉然 - 银色领地; "..YELLOW.."30,76"..WHITE..）\n  （沙塔斯城 - 贫民窟; "..YELLOW.."67,34"..WHITE.."）\n  （暴风城 - 暴风要塞; "..YELLOW.."84,35"..WHITE.."）\n  （铁炉堡 - 武器大厅; "..YELLOW.."70,91"..WHITE.."）\n  （达纳苏斯 - 战士区; "..YELLOW.."59,36"..WHITE.."）\n  （埃索达 - 圣光穹顶; "..YELLOW.."25,55"..WHITE.."）"
+Inst35Quest1_Note = "这是战场日常任务，你达到10级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱。"
+Inst35Quest1_Prequest = "无"
+Inst35Quest1_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 1 Horde
-Inst35Quest1_HORDE = "1. Call to Arms: Warsong Gulch (Daily)"
+Inst35Quest1_HORDE = "1. 战斗的召唤：战歌峡谷（战场日常）"
 Inst35Quest1_HORDE_Level = "10"
 Inst35Quest1_HORDE_Attain = "10"
-Inst35Quest1_HORDE_Aim = "Win a Warsong Gulch battleground match and return to an Horde Warbringer at any Horde capital city or Shattrath."
-Inst35Quest1_HORDE_Location = "Horde Warbringer:\n   Dalaran: Sunreaver's Sanctuary - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97.0, 38.3"
-Inst35Quest1_HORDE_Note = "This quest can be done once a day after reaching level 10. It yields varying amounts of experience and gold based on your level."
-Inst35Quest1_HORDE_Prequest = "None"
-Inst35Quest1_HORDE_Folgequest = "None"
+Inst35Quest1_HORDE_Aim = "在战歌峡谷战场中获得一场胜利，然后向任意部落主城或沙塔斯城中的部落战争使者复命。"
+Inst35Quest1_HORDE_Location = "部落战场使者：\n  （达拉然 - 夺日者圣殿 ; "..YELLOW.."58,21"..WHITE..）\n  （沙塔斯城 - 贫民窟; "..YELLOW.."67,57"..WHITE.."）\n  （奥格瑞玛 - 荣耀谷; "..YELLOW.."80,30"..WHITE.."）\n  （雷霆崖 - 猎手高地; "..YELLOW.."56,77"..WHITE.."）\n  （幽暗城 - 皇家区; "..YELLOW.."61,88"..WHITE.."）\n  （银月城 - 远行者广场; "..YELLOW.."97,38"..WHITE.."）"
+Inst35Quest1_HORDE_Note = "这是战场日常任务，你达到10级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱。"
+Inst35Quest1_HORDE_Prequest = "无"
+Inst35Quest1_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 
 
 --------------- INST60 - Eye of the Storm ---------------
 
-Inst60Story = "Hovering high above the ravaged landscape of Netherstorm is the island known as Eye of the Storm. This battlefield is covted by the blood elves for its rich energy deposits - and the draenei seek to claim it due to its mysterious vessel - Tempest Keep."
-Inst60Caption = "Eye of the Storm"
-Inst60QAA = "1 Quest"
-Inst60QAH = "1 Quest"
+Inst60Story = "风暴之眼位于外域的虚空风暴地区，是一处激动人心的新战场。该战场有“维持占领”模式和“夺旗”模式两种玩法，高等级的联盟和部落玩家可以在两个浮空群岛上进行15v15的对抗。这些岛屿由三座桥梁连接。此外，还有四座俯瞰战场的塔楼可充当小规模对抗的争夺目标。而地图的中央，还会刷新一面旗帜供各队伍争夺。"
+Inst60Caption = "风暴之眼"
+Inst60QAA = "1 个任务"
+Inst60QAH = "1 个任务"
 
 --Quest 1 Alliance
-Inst60Quest1 = "1. Call to Arms: Eye of the Storm (Daily)"
+Inst60Quest1 = "1. 战斗的召唤：风暴之眼（战场日常）"
 Inst60Quest1_Level = "61"
 Inst60Quest1_Attain = "61"
-Inst60Quest1_Aim = "Win an Eye of the Storm battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath."
-Inst60Quest1_Location = "Alliance Brigadier General:\n   Dalaran: The Silver Enclave - "..YELLOW.."29.8, 75.8"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."24.6, 55.4"
-Inst60Quest1_Note = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level."
-Inst60Quest1_Prequest = "None"
-Inst60Quest1_Folgequest = "None"
+Inst60Quest1_Aim = "在风暴之眼战场中获得一场胜利，然后向任意联盟主城或沙塔斯城中的联盟准将复命。"
+Inst60Quest1_Location = "联盟准将：\n  （达拉然 - 银色领地; "..YELLOW.."30,76"..WHITE..）\n  （沙塔斯城 - 贫民窟; "..YELLOW.."67,34"..WHITE.."）\n  （暴风城 - 暴风要塞; "..YELLOW.."84,35"..WHITE.."）\n  （铁炉堡 - 武器大厅; "..YELLOW.."70,91"..WHITE.."）\n  （达纳苏斯 - 战士区; "..YELLOW.."59,36"..WHITE.."）\n  （埃索达 - 圣光穹顶; "..YELLOW.."25,55"..WHITE.."）"
+Inst60Quest1_Note = "这是战场日常任务，你达到61级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱。"
+Inst60Quest1_Prequest = "无"
+Inst60Quest1_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 1 Horde
-Inst60Quest1_HORDE = "1. Call to Arms: Eye of the Storm (Daily)"
+Inst60Quest1_HORDE = "1. 战斗的召唤：风暴之眼（战场日常）"
 Inst60Quest1_HORDE_Level = "61"
 Inst60Quest1_HORDE_Attain = "61"
-Inst60Quest1_HORDE_Aim = "Win an Eye of the Storm battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath."
-Inst60Quest1_HORDE_Location = "Horde Warbringer:\n   Dalaran: Sunreaver's Sanctuary - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97.0, 38.3"
-Inst60Quest1_HORDE_Note = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level."
-Inst60Quest1_HORDE_Prequest = "None"
-Inst60Quest1_HORDE_Folgequest = "None"
+Inst60Quest1_HORDE_Aim = "在风暴之眼战场中获得一场胜利，然后向任意部落主城或沙塔斯城中的部落战争使者复命。"
+Inst60Quest1_HORDE_Location = "部落战场使者：\n  （达拉然 - 夺日者圣殿 ; "..YELLOW.."58,21"..WHITE..）\n  （沙塔斯城 - 贫民窟; "..YELLOW.."67,57"..WHITE.."）\n  （奥格瑞玛 - 荣耀谷; "..YELLOW.."80,30"..WHITE.."）\n  （雷霆崖 - 猎手高地; "..YELLOW.."56,77"..WHITE.."）\n  （幽暗城 - 皇家区; "..YELLOW.."61,88"..WHITE.."）\n  （银月城 - 远行者广场; "..YELLOW.."97,38"..WHITE.."）"
+Inst60Quest1_HORDE_Note = "这是战场日常任务，你达到61级才能接到这个任务，完成任务将基于你的级别奖励经验和金钱。"
+Inst60Quest1_HORDE_Prequest = "无"
+Inst60Quest1_HORDE_Folgequest = "无"
 -- No Rewards for this quest
 
 
@@ -12888,6 +11854,460 @@ Inst83Quest1_HORDE_Folgequest = "None"
 
 
 
+
+---------------------------------------------------
+---------------- OUTDOOR RAIDS --------------------
+---------------------------------------------------
+
+
+
+--------------- INST30 - Dragons of Nightmare ---------------
+
+Inst30Story = {
+  ["Page1"] = "世界之树陷入了一场骚乱。僻静的灰谷、暮色森林、菲拉斯以及辛特兰面临着新的威胁。绿龙军团的四条守护巨龙从翡翠梦境来到了艾泽拉斯世界，这些曾经忠心耿耿的守护者，现在却为世界带来了毁灭和死亡的气息。拿起武器，跟你的伙伴一同进入那些神秘的森林——只有你能从巨龙手中拯救艾泽拉斯。",
+  ["Page2"] = "翡翠梦境的守护巨龙伊瑟拉统治着神秘的绿龙军团。她居住在翡翠梦境中，支配着世界万物的演化方向。她是自然和梦幻的守护者，她统治的绿龙军团负责保护世界之树，只有德鲁伊才能通过世界之树进入翡翠梦境。\n近来，在翡翠梦境中的某种新的黑暗力量的驱使下，伊瑟拉最忠诚的守护者们穿越世界之树，来到了艾泽拉斯世界，妄图使世界再度陷入疯狂和恐慌。即使是最强大的冒险者也应该对这些巨龙退避三舍，否则他就将为此付出惨重的代价。",
+  ["Page3"] = "受翡翠梦境黑暗力量的影响，莱索恩的龙鳞失去了光泽，他拥有了汲取敌人幻象的力量。这些幻象可以赋予巨龙治疗的能力。毫无疑问，莱索恩被认为是伊瑟拉手下最强大的守护者。",
+  ["Page4"] = "在翡翠梦境的某种神秘的黑暗力量诱惑下，高贵的艾莫莉丝成为了一头腐烂、患病的怪物。少数侥幸生还者称，他们死去的伙伴的尸体上长出了腐烂的蘑菇，那情形异常恐怖。艾莫莉丝是伊瑟拉统治的绿龙军团中最可怕的巨龙。",
+  ["Page5"] = "泰拉尔或许是伊瑟拉的守护者中受黑暗力量影响最深的巨龙。翡翠梦境的黑暗力量彻底摧毁了泰拉尔的心智和肉体。他成为拥有分身术的巨龙幽灵，各个分身都具备强大的魔法破坏力。泰拉尔是个狡猾无情的敌人，他妄图使艾泽拉斯世界的所有生物都陷入疯狂。",
+  ["Page6"] = "伊瑟拉最忠诚的守护者伊森德雷如今已面目全非，她在艾泽拉斯大陆上散播着恐慌和混乱。她先前拥有的治疗能力被黑暗魔法所取代，她能释放烟状的闪电波并召唤恶魔德鲁伊。伊森德雷和她的龙族拥有催眠技能，可以使敌人陷入最可怕的噩梦。",
+  ["MaxPages"] = "6",
+};
+Inst30Caption = "梦魇之龙"
+Inst30Caption2 = "伊瑟拉和绿龙军团"
+Inst30Caption3 = "莱索恩"
+Inst30Caption4 = "艾莫莉丝"
+Inst30Caption5 = "泰拉尔"
+Inst30Caption6 = "伊森德雷"
+Inst30QAA = "1 个任务"
+Inst30QAH = "1 个任务"
+
+--Quest 1 Alliance
+Inst30Quest1 = "1. 梦魇的缠绕"
+Inst30Quest1_Level = "60"
+Inst30Quest1_Attain = "60"
+Inst30Quest1_Aim = "寻找能解读梦魇包裹的物品中所隐藏的信息的人。"
+Inst30Quest1_Location = "梦魇包裹的物品（掉落自泰拉尔，伊森德雷，艾莫莉丝和莱索恩）"
+Inst30Quest1_Note = "物品交给守护者雷姆洛斯（月光林地 - 雷姆洛斯神殿; "..YELLOW.."36,41"..WHITE.."）。"
+Inst30Quest1_Prequest = "无"
+Inst30Quest1_Folgequest = "有，唤醒传说"
+--
+Inst30Quest1name1 = "玛法里奥的徽记之戒"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst30Quest1_HORDE = Inst30Quest1
+Inst30Quest1_HORDE_Level = Inst30Quest1_Level
+Inst30Quest1_HORDE_Attain = Inst30Quest1_Attain
+Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
+Inst30Quest1_HORDE_Location = Inst30Quest1_Location
+Inst30Quest1_HORDE_Note = Inst30Quest1_Note
+Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
+Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
+--
+Inst30Quest1name1_HORDE = Inst30Quest1name1
+
+
+
+--------------- INST31 - Azuregos ---------------
+
+Inst31Story = "在世界大分裂之前，暗夜精灵之城埃达拉斯在如今被称作艾萨拉的土地上可说是非常繁盛。据说很多古老和强大的高等精灵神器，可能就藏在强极一时的堡垒里。经历了无数世代，蓝龙军团全力保护神器与魔法传说，确保它们不落入凡人手中。蓝龙，艾索雷葛斯的出现，似乎暗示着那些具有极重要意义的物品，像是预言中的永恒之瓶，或许就能在艾萨拉的荒野里找到。无论艾索雷葛斯在寻找什么，可以肯定的是：他会誓死保卫艾萨拉的魔法宝藏。"
+Inst31Caption = "艾索雷葛斯"
+Inst31QAA = "1 个任务"
+Inst31QAH = "1 个任务"
+
+--Quest 1 Alliance
+Inst31Quest1 = "1. 龙筋箭袋（猎人史诗任务）"
+Inst31Quest1_Level = "60"
+Inst31Quest1_Attain = "60"
+Inst31Quest1_Aim = "费伍德森林的古树哈斯塔特要求你带回一块成年蓝龙的肌腱。"
+Inst31Quest1_Location = "古树哈斯塔特（费伍德森林 - 铁木树林; "..YELLOW.."48,24"..WHITE.."）"
+Inst31Quest1_Note = "杀死艾索雷葛斯得到成年蓝龙的肌腱，它在艾萨拉"..YELLOW.."[1]"..WHITE.."附近游荡。位于冬泉谷和艾萨拉的精英蓝龙也有一定几率掉落。"
+Inst31Quest1_Prequest = "有，远古石叶（"..YELLOW.."熔火之心"..WHITE.."）"
+Inst31Quest1_Folgequest = "无"
+Inst31Quest1PreQuest = "true"
+--
+Inst31Quest1name1 = "龙筋箭袋"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst31Quest1_HORDE = Inst31Quest1
+Inst31Quest1_HORDE_Level = Inst31Quest1_Level
+Inst31Quest1_HORDE_Attain = Inst31Quest1_Attain
+Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
+Inst31Quest1_HORDE_Location = Inst31Quest1_Location
+Inst31Quest1_HORDE_Note = Inst31Quest1_Note
+Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
+Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
+Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
+--
+Inst31Quest1name1_HORDE = Inst31Quest1name1
+
+
+
+--------------- INST32 - Highlord Kruul ---------------
+
+Inst32Story = "最近，卡扎克和他的爪牙们重新激活了黑暗之门，卡扎克本人穿越了传送门前往外域统帅当地的军团大军。而与此同时，他委托他留在艾泽拉斯的最强副官——也就是魔王库鲁尔——去取回龙王碎片。一旦库鲁尔成功，这把强大的战刃将能被再度重铸。有了龙王战刃，再配上那清洗宇宙中一切生命的疯狂执念，军团将再一次不可阻挡。"
+Inst32Caption = "魔王库鲁尔"
+Inst32QAA = "无任务"
+Inst32QAH = "无任务"
+
+
+
+--------------- INST64 - Doom Lord Kazzak ---------------
+
+Inst64Story = {
+  ["Page1"] = "燃烧军团第二次入侵艾泽拉斯时，卡扎克领主是入侵军最高级别的指挥官之一。当时军团拥有一把叫龙王战刃的神器，它浸透了大地、时光、梦境、魔法和生命五种力量（正是从五色龙族的身上掠夺而来）。即便有此神兵在手，阿克蒙德和他的将士们最终依旧兵败于海加尔山，这把战刃也在战斗中被击碎。卡扎克知道第三次大战的结局已无法挽回，于是被迫撤退。战后，战刃的碎片被联军秘密地藏匿了起来。",
+  ["Page2"] = "最近，卡扎克和他的爪牙们重新激活了黑暗之门，卡扎克本人穿越了传送门前往外域统帅当地的军团大军。而与此同时，他委托他留在艾泽拉斯的最强副官——也就是魔王库鲁尔——去取回龙王碎片。一旦库鲁尔成功，这把强大的战刃将能被再度重铸。有了龙王战刃，再配上那清洗宇宙中一切生命的疯狂执念，军团将再一次不可阻挡。",
+  ["MaxPages"] = "2",
+};
+Inst64Caption = "末日领主卡扎克"
+Inst64QAA = "无任务"
+Inst64QAH = "无任务"
+
+
+
+--------------- INST65 - Doomwalker ---------------
+
+Inst65Story = "末日行者是基尔加丹制造的一个魔铁机器，用来看守位于影月谷的黑暗神殿。\n\n它是一个户外首领，拥有120级装绑的紫装掉落。"
+Inst65Caption = "末日行者"
+Inst65QAA = "无任务"
+Inst65QAH = "无任务"
+
+
+
+--------------- INST66 - Skettis ---------------
+
+Inst66Story = "斯克提斯曾经是鸦人的首府，现在斯克提斯的鸦人首领泰罗克在聚集自己的力量，来对沙塔斯城展开攻击，沙塔斯天空卫队当然不能坐视不管，他们正招募玩家加入抵抗泰罗克的战斗中。"
+Inst66Caption = "斯克提斯"
+Inst66QAA = "13 个任务"
+Inst66QAH = "13 个任务"
+
+--Quest 1 Alliance
+Inst66Quest1 = "1. 前往斯克提斯！"
+Inst66Quest1_Level = "70"
+Inst66Quest1_Attain = "70"
+Inst66Quest1_Aim = "前往位于斯克提斯外的黑风码头，将炸药包交给空军上尉杜尔因。"
+Inst66Quest1_Location = "尤拉（沙塔斯城; "..YELLOW.."65,42"..WHITE.."）"
+Inst66Quest1_Note = "该任务的前续任务也是这个人接到的。黑风码头在"..YELLOW.."[1]"..WHITE.."。"
+Inst66Quest1_Prequest = "有，临近的威胁"
+Inst66Quest1_Folgequest = "有，轰炸斯克提斯"
+Inst66Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst66Quest2 = "2. 轰炸斯克提斯（日常）"
+Inst66Quest2_Level = "70"
+Inst66Quest2_Attain = "70"
+Inst66Quest2_Aim = "找到斯克提斯巢穴上面的巨大的卡利鸟蛋，利用天空卫队的炸弹毁掉它们。完成任务之后回去向空军上尉杜尔因复命。"
+Inst66Quest2_Location = "空军上尉杜尔因（泰罗卡森林 - 黑风码头; "..YELLOW.."65,66"..WHITE.."）"
+Inst66Quest2_Note = "日常任务，你可以在飞行坐骑上完成轰炸任务。小心巨型卡利鸟将你打下坐骑。这个任务可以组队完成。"
+Inst66Quest2_Prequest = "有，前往斯克提斯！"
+Inst66Quest2_Folgequest = "无"
+Inst66Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst66Quest3 = "3. 逃离斯克提斯（日常）"
+Inst66Quest3_Level = "70"
+Inst66Quest3_Attain = "70"
+Inst66Quest3_Aim = "护送天空卫队囚犯前往安全的地方，然后向空军上尉杜尔因复命。"
+Inst66Quest3_Location = "天空卫队囚犯（泰罗卡森林 - 斯克提斯; "..YELLOW.."[4]"..WHITE.."）"
+Inst66Quest3_Note = "日常任务，完成：飞往斯克提斯！任务后才能接到。囚犯有3个可能的刷新点，地图上标注为"..YELLOW.."[4]"..WHITE.."的地方。"
+Inst66Quest3_Prequest = "无"
+Inst66Quest3_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst66Quest4 = "4. 饥饿的虚空鳐"
+Inst66Quest4_Level = "70"
+Inst66Quest4_Attain = "70"
+Inst66Quest4_Aim = "在黑风码头南边的森林内使用虚空鳐的笼子，并在饥饿的虚空鳐旁杀死黑风追迹者。完成任务之后回去向天空卫队训练师德萨克复命。"
+Inst66Quest4_Location = "天空卫队训练师德萨克（泰罗卡森林 - 黑风码头; "..YELLOW.."63,66"..WHITE.."）"
+Inst66Quest4_Note = "黑风追迹者分布在斯克提斯的四周，南部居多，确保你杀死的是追迹者同时保证饥饿的虚空鳐同时也在你杀死的目标附近。"
+Inst66Quest4_Prequest = "无"
+Inst66Quest4_Folgequest = "无"
+--
+Inst66Quest4name1 = "特效敏捷药剂"
+Inst66Quest4name2 = "法能药剂"
+
+--Quest 5 Alliance
+Inst66Quest5 = "5. 阴影世界"
+Inst66Quest5_Level = "70"
+Inst66Quest5_Attain = "70"
+Inst66Quest5_Aim = "瑟维里要你进入斯克提斯，从居住在那里的鸦人身上找到6份暗影之尘。"
+Inst66Quest5_Location = "瑟维里（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）"
+Inst66Quest5_Note = "任务是可重复性的，斯克提斯的鸦人都可能掉落暗影之尘。"
+Inst66Quest5_Prequest = "无"
+Inst66Quest5_Folgequest = "无"
+--
+Inst66Quest5name1 = "暗影药剂"
+
+--Quest 6 Alliance
+Inst66Quest6 = "6. 鸦爪祭司的秘密"
+Inst66Quest6_Level = "70"
+Inst66Quest6_Attain = "70"
+Inst66Quest6_Aim = "从瑟维里那儿获取暗影药剂。前往斯克提斯，利用暗影药剂找到并杀死伊沙尔、斯卡基克和塞尔利克三位鸦爪祭司。完成任务后向空军指挥官阿达利斯复命。"
+Inst66Quest6_Location = "空军指挥官阿达利斯（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）"
+Inst66Quest6_Note = "你必须首先完成阴影世界任务喝下暗影药剂才能看见这个几个祭祀。\n\n伊沙尔在"..YELLOW.."[5]"..WHITE.."，斯卡基克在"..YELLOW.."[6]"..WHITE.."，塞尔利克在"..YELLOW.."[7]"..WHITE.."。"
+Inst66Quest6_Prequest = "有，阴影世界"
+Inst66Quest6_Folgequest = "无"
+Inst66Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst66Quest7 = "7. 伊沙尔的历书"
+Inst66Quest7_Level = "70"
+Inst66Quest7_Attain = "70"
+Inst66Quest7_Aim = "把伊沙尔的历书带给天空卫队的指挥官阿达利斯。"
+Inst66Quest7_Location = "伊沙尔的历书（鸦人祭祀伊沙尔掉落; "..YELLOW.."[5]"..WHITE.."）"
+Inst66Quest7_Note = "空军指挥官阿达利斯（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）。"
+Inst66Quest7_Prequest = "无"
+Inst66Quest7_Folgequest = "有，贫民窟的盟友"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst66Quest8 = "8. 贫民窟的盟友"
+Inst66Quest8_Level = "70"
+Inst66Quest8_Attain = "70"
+Inst66Quest8_Aim = "将伊沙尔的历书交给沙塔斯城贫民窟中的救赎者瑞拉克。"
+Inst66Quest8_Location = "空军指挥官阿达利斯（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）"
+Inst66Quest8_Note = "救赎者瑞拉克（沙塔斯城 - 贫民窟; "..YELLOW.."52,20"..WHITE.."）。"
+Inst66Quest8_Prequest = "有，伊沙尔的历书"
+Inst66Quest8_Folgequest = "有，末日将至"
+Inst66Quest8FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst66Quest9 = "9. 末日将至"
+Inst66Quest9_Level = "70"
+Inst66Quest9_Attain = "70"
+Inst66Quest9_Aim = "向空军指挥官阿达利斯汇报泰罗克归来一事。"
+Inst66Quest9_Location = "救赎者瑞拉克（沙塔斯城 - 贫民窟; "..YELLOW.."52,20"..WHITE.."）"
+Inst66Quest9_Note = "空军指挥官阿达利斯（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）。"
+Inst66Quest9_Prequest = "有，贫民窟的盟友"
+Inst66Quest9_Folgequest = "有，哈吉克的协议"
+Inst66Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst66Quest10 = "10. 哈吉克的协议"
+Inst66Quest10_Level = "70"
+Inst66Quest10_Attain = "70"
+Inst66Quest10_Aim = "进入斯克提斯的东部区域，在哈吉克的住处中找到哈吉克的包裹，然后把包裹带回去给他。"
+Inst66Quest10_Location = "哈吉克（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）"
+Inst66Quest10_Note = "哈吉克的包裹在"..YELLOW.."[8]"..WHITE.."。"
+Inst66Quest10_Prequest = "有，末日将至"
+Inst66Quest10_Folgequest = "有，粗糙的伪装"
+Inst66Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst66Quest11 = "11. 粗糙的伪装"
+Inst66Quest11_Level = "70"
+Inst66Quest11_Attain = "70"
+Inst66Quest11_Aim = "穿上粗糙的鸦人伪装服，从萨哈克那儿取得《仇敌的血脉》，然后向哈吉克复命。"
+Inst66Quest11_Location = "哈吉克（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）"
+Inst66Quest11_Note = "萨哈克在"..YELLOW.."[3]"..WHITE.."。如果其他鸦人看到你伪装，他们会攻击你的。"
+Inst66Quest11_Prequest = "有，哈吉克的协议"
+Inst66Quest11_Folgequest = "有，仇敌的血脉"
+Inst66Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst66Quest12 = "12. 仇敌的血脉"
+Inst66Quest12_Level = "70"
+Inst66Quest12_Attain = "70"
+Inst66Quest12_Aim = "在斯克提斯找到召唤法阵中央的颅骨堆，在此使用10个迷失卷轴，并击败每一只被召唤出来的后裔。完成之后带着从它们身上取下的信物回去向哈吉克复命。"
+Inst66Quest12_Location = "哈吉克（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）"
+Inst66Quest12_Note = "召唤法阵位于"..GREEN.."[1']"..WHITE.."。每次召唤只会掉落一个任务物品，所以招之前请事先商量任务物品归属。"
+Inst66Quest12_Prequest = "有，粗糙的伪装"
+Inst66Quest12_Folgequest = "无"
+Inst66Quest12FQuest = "true"
+--
+Inst66Quest12name1 = " 失落的祭品"
+
+--Quest 13 Alliance
+Inst66Quest13 = "13. 泰罗克的毁灭"
+Inst66Quest13_Level = "70"
+Inst66Quest13_Attain = "70"
+Inst66Quest13_Aim = "将哈吉克准备好的失落的祭品带到斯克提斯中央的颅骨堆，召唤出泰罗克并击败它。完成这个任务之后回去向空军指挥官阿达利斯复命。"
+Inst66Quest13_Location = "空军指挥官阿达利斯（泰罗卡森林 - 黑风码头; "..YELLOW.."64,66"..WHITE.."）"
+Inst66Quest13_Note = "召唤泰罗克在"..YELLOW.."[2]"..WHITE.."。小提示：当泰罗克血量低时，他会进入无敌状态，这时候需要等天空卫队丢下蓝色的烟雾弹，把泰罗克引到烟雾弹上才能解除他的无敌状态。"
+Inst66Quest13_Prequest = "有，仇敌的血脉"
+Inst66Quest13_Folgequest = "无"
+Inst66Quest13PreQuest = "true"
+--
+Inst66Quest13name1 = "珠宝魔杖"
+Inst66Quest13name2 = "斥候的飞刀"
+Inst66Quest13name3 = "瑟维里的藤条"
+Inst66Quest13name4 = "突击者的长枪"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst66Quest1_HORDE = Inst66Quest1
+Inst66Quest1_HORDE_Level = Inst66Quest1_Level
+Inst66Quest1_HORDE_Attain = Inst66Quest1_Attain
+Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
+Inst66Quest1_HORDE_Location = Inst66Quest1_Location
+Inst66Quest1_HORDE_Note = Inst66Quest1_Note
+Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
+Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
+Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst66Quest2_HORDE = Inst66Quest2
+Inst66Quest2_HORDE_Level = Inst66Quest2_Level
+Inst66Quest2_HORDE_Attain = Inst66Quest2_Attain
+Inst66Quest2_HORDE_Aim = Inst66Quest2_Aim
+Inst66Quest2_HORDE_Location = Inst66Quest2_Location
+Inst66Quest2_HORDE_Note = Inst66Quest2_Note
+Inst66Quest2_HORDE_Prequest = Inst66Quest2_Prequest
+Inst66Quest2_HORDE_Folgequest = Inst66Quest2_Folgequest
+Inst66Quest2PreQuest_HORDE = Inst66Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst66Quest3_HORDE = Inst66Quest3
+Inst66Quest3_HORDE_Level = Inst66Quest3_Level
+Inst66Quest3_HORDE_Attain = Inst66Quest3_Attain
+Inst66Quest3_HORDE_Aim = Inst66Quest3_Aim
+Inst66Quest3_HORDE_Location = Inst66Quest3_Location
+Inst66Quest3_HORDE_Note = Inst66Quest3_Note
+Inst66Quest3_HORDE_Prequest = Inst66Quest3_Prequest
+Inst66Quest3_HORDE_Folgequest = Inst66Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst66Quest4_HORDE = Inst66Quest4
+Inst66Quest4_HORDE_Level = Inst66Quest4_Level
+Inst66Quest4_HORDE_Attain = Inst66Quest4_Attain
+Inst66Quest4_HORDE_Aim = Inst66Quest4_Aim
+Inst66Quest4_HORDE_Location = Inst66Quest4_Location
+Inst66Quest4_HORDE_Note = Inst66Quest4_Note
+Inst66Quest4_HORDE_Prequest = Inst66Quest4_Prequest
+Inst66Quest4_HORDE_Folgequest = Inst66Quest4_Folgequest
+--
+Inst66Quest4name1_HORDE = Inst66Quest4name1
+Inst66Quest4name2_HORDE = Inst66Quest4name2
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst66Quest5_HORDE = Inst66Quest5
+Inst66Quest5_HORDE_Level = Inst66Quest5_Level
+Inst66Quest5_HORDE_Attain = Inst66Quest5_Attain
+Inst66Quest5_HORDE_Aim = Inst66Quest5_Aim
+Inst66Quest5_HORDE_Location = Inst66Quest5_Location
+Inst66Quest5_HORDE_Note = Inst66Quest5_Note
+Inst66Quest5_HORDE_Prequest = Inst66Quest5_Prequest
+Inst66Quest5_HORDE_Folgequest = Inst66Quest5_Folgequest
+--
+Inst66Quest5name1_HORDE = Inst66Quest5name1
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst66Quest6_HORDE = Inst66Quest6
+Inst66Quest6_HORDE_Level = Inst66Quest6_Level
+Inst66Quest6_HORDE_Attain = Inst66Quest6_Attain
+Inst66Quest6_HORDE_Aim = Inst66Quest6_Aim
+Inst66Quest6_HORDE_Location = Inst66Quest6_Location
+Inst66Quest6_HORDE_Note = Inst66Quest6_Note
+Inst66Quest6_HORDE_Prequest = Inst66Quest6_Prequest
+Inst66Quest6_HORDE_Folgequest = Inst66Quest6_Folgequest
+Inst66Quest6PreQuest_HORDE = Inst66Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst66Quest7_HORDE = Inst66Quest7
+Inst66Quest7_HORDE_Level = Inst66Quest7_Level
+Inst66Quest7_HORDE_Attain = Inst66Quest7_Attain
+Inst66Quest7_HORDE_Aim = Inst66Quest7_Aim
+Inst66Quest7_HORDE_Location = Inst66Quest7_Location
+Inst66Quest7_HORDE_Note = Inst66Quest7_Note
+Inst66Quest7_HORDE_Prequest = Inst66Quest7_Prequest
+Inst66Quest7_HORDE_Folgequest = Inst66Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst66Quest8_HORDE = Inst66Quest8
+Inst66Quest8_HORDE_Level = Inst66Quest8_Level
+Inst66Quest8_HORDE_Attain = Inst66Quest8_Attain
+Inst66Quest8_HORDE_Aim = Inst66Quest8_Aim
+Inst66Quest8_HORDE_Location = Inst66Quest8_Location
+Inst66Quest8_HORDE_Note = Inst66Quest8_Note
+Inst66Quest8_HORDE_Prequest = Inst66Quest8_Prequest
+Inst66Quest8_HORDE_Folgequest = Inst66Quest8_Folgequest
+Inst66Quest8FQuest_HORDE = Inst66Quest8FQuest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst66Quest9_HORDE = Inst66Quest9
+Inst66Quest9_HORDE_Level = Inst66Quest9_Level
+Inst66Quest9_HORDE_Attain = Inst66Quest9_Attain
+Inst66Quest9_HORDE_Aim = Inst66Quest9_Aim
+Inst66Quest9_HORDE_Location = Inst66Quest9_Location
+Inst66Quest9_HORDE_Note = Inst66Quest9_Note
+Inst66Quest9_HORDE_Prequest = Inst66Quest9_Prequest
+Inst66Quest9_HORDE_Folgequest = Inst66Quest9_Folgequest
+Inst66Quest9FQuest_HORDE = Inst66Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst66Quest10_HORDE = Inst66Quest10
+Inst66Quest10_HORDE_Level = Inst66Quest10_Level
+Inst66Quest10_HORDE_Attain = Inst66Quest10_Attain
+Inst66Quest10_HORDE_Aim = Inst66Quest10_Aim
+Inst66Quest10_HORDE_Location = Inst66Quest10_Location
+Inst66Quest10_HORDE_Note = Inst66Quest10_Note
+Inst66Quest10_HORDE_Prequest = Inst66Quest10_Prequest
+Inst66Quest10_HORDE_Folgequest = Inst66Quest10_Folgequest
+Inst66Quest10FQuest_HORDE = Inst66Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst66Quest11_HORDE = Inst66Quest11
+Inst66Quest11_HORDE_Level = Inst66Quest11_Level
+Inst66Quest11_HORDE_Attain = Inst66Quest11_Attain
+Inst66Quest11_HORDE_Aim = Inst66Quest11_Aim
+Inst66Quest11_HORDE_Location = Inst66Quest11_Location
+Inst66Quest11_HORDE_Note = Inst66Quest11_Note
+Inst66Quest11_HORDE_Prequest = Inst66Quest11_Prequest
+Inst66Quest11_HORDE_Folgequest = Inst66Quest11_Folgequest
+Inst66Quest11FQuest_HORDE = Inst66Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst66Quest12_HORDE = Inst66Quest12
+Inst66Quest12_HORDE_Level = Inst66Quest12_Level
+Inst66Quest12_HORDE_Attain = Inst66Quest12_Attain
+Inst66Quest12_HORDE_Aim = Inst66Quest12_Aim
+Inst66Quest12_HORDE_Location = Inst66Quest12_Location
+Inst66Quest12_HORDE_Note = Inst66Quest12_Note
+Inst66Quest12_HORDE_Prequest = Inst66Quest12_Prequest
+Inst66Quest12_HORDE_Folgequest = Inst66Quest12_Folgequest
+Inst66Quest12FQuest_HORDE = Inst66Quest12FQuest
+--
+Inst66Quest12name1_HORDE = Inst66Quest12name1
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst66Quest13_HORDE = Inst66Quest13
+Inst66Quest13_HORDE_Level = Inst66Quest13_Level
+Inst66Quest13_HORDE_Attain = Inst66Quest13_Attain
+Inst66Quest13_HORDE_Aim = Inst66Quest13_Aim
+Inst66Quest13_HORDE_Location = Inst66Quest13_Location
+Inst66Quest13_HORDE_Note = Inst66Quest13_Note
+Inst66Quest13_HORDE_Prequest = Inst66Quest13_Prequest
+Inst66Quest13_HORDE_Folgequest = Inst66Quest13_Folgequest
+Inst66Quest13PreQuest_HORDE = Inst66Quest13PreQuest
+Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
+--
+Inst66Quest13name1_HORDE = Inst66Quest13name1
+Inst66Quest13name2_HORDE = Inst66Quest13name2
+Inst66Quest13name3_HORDE = Inst66Quest13name3
+Inst66Quest13name4_HORDE = Inst66Quest13name4
+
+
+
+
 ---------------------------
 --- AQ Instance Numbers ---
 ---------------------------
@@ -12906,7 +12326,7 @@ Inst83Quest1_HORDE_Folgequest = "None"
 -- 12 = Dire Maul West (DM)
 -- 13 = Maraudon (Mara)
 -- 14 = Molten Core (MC)
--- 15 = Naxxramas (Naxx)
+-- 15 = Old Naxxramas (removed)
 -- 16 = Onyxia's Lair (Ony)
 -- 17 = Razorfen Downs (RFD)
 -- 18 = Razorfen Kraul (RFK)
