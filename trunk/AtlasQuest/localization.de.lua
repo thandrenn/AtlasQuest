@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	AtlasQuest, a World of Warcraft addon.
 	Email me at mystery8@gmail.com
@@ -852,7 +852,7 @@ Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
 
 Inst5Story = "In dem vulkanischen Labyrinth, das von der einstigen Hauptstadt der Zwerge des Düstereisenklans übriggeblieben ist, herrscht nun Ragnaros der Feuerfürst über die Abgründe des Schwarzfels. Ragnaros ist es gelungen, das Geheimnis zu lüften, wie Leben aus Stein erschaffen werden kann. Nun plant er, sein neu gewonnenes Wissen dazu einzusetzen, eine Armee unaufhaltsamer Golems zu schaffen, die ihm bei der Eroberung des Schwarzfels helfen sollen. Vollkommen besessen von dem Gedanken daran, Nefarian endlich zu vernichten, wird Ragnaros alles tun, um seinen Konkurrenten aus dem Weg zu räumen."
 Inst5Caption = "Die Schwarzfelstiefen"
-Inst5QAA = "20 Quests"
+Inst5QAA = "16 Quests"
 Inst5QAH = "20 Quests"
 
 --Quest 1 Alliance
@@ -959,60 +959,6 @@ Inst5Quest8_Prequest = "Nein"
 Inst5Quest8_Folgequest = "Nein"
 --
 Inst5Quest8name1 = "Eine schmuddelige Gürteltasche"
-
---Quest 9 Alliance
-Inst5Quest9 = "9. Marschall Windsor"
-Inst5Quest9_Level = "54"
-Inst5Quest9_Attain = "48"
-Inst5Quest9_Aim = "Reist zum Schwarzfels im Nordwesten und dann weiter zu den Schwarzfelstiefen. Findet heraus, was aus Marschall Windsor geworden ist.\nIhr erinnert Euch daran, dass der struppige John sagte, man hätte Windsor in ein Gefängnis verschleppt."
-Inst5Quest9_Location = "Marshall Maxwell (Brennende Steppe - Morgans Wacht; "..YELLOW.."84,68"..WHITE..")"
-Inst5Quest9_Note = "Dieses Quest ist Teil der Onyxia Zugangsquestreihe. Sie beginnt bei Helendis Flusshorn (Brennende Steppe - Morgans Wacht; "..YELLOW.."85,68"..WHITE..").\nMarshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..". Für das Folgequest müsst ihr zu Maxwell zurückkehren."
-Inst5Quest9_Prequest = "Ja, Drachkin-Bedrohung -> Die wahren Meister"
-Inst5Quest9_Folgequest = "Ja, Verlorene Hoffnung -> Eine zusammengeknüllte Notiz"
-Inst5Quest9PreQuest = "true"
---
-Inst5Quest9name1 = "Konservator-Helm"
-Inst5Quest9name2 = "Schildplattensabatons"
-Inst5Quest9name3 = "Scherwindgamaschen"
-
---Quest 10 Alliance
-Inst5Quest10 = "10. Eine zusammengeknüllte Notiz"
-Inst5Quest10_Level = "58"
-Inst5Quest10_Attain = "50"
-Inst5Quest10_Aim = "Soeben seid Ihr auf etwas gestoßen, das Marschall Windsor mit Sicherheit sehr interessiert. Vielleicht besteht ja doch noch Hoffnung."
-Inst5Quest10_Location = "Eine zusammengeknüllte Notiz (Zufälliger Dropp in den Schwarzfelstiefen)"
-Inst5Quest10_Note = "Dieses Quest ist Teil der Onyxia Zugangsquestreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..". Die besten Chancen auf einen Dropp scheint man bei den Dunkeleisen Mobs um den Steinbruch zu haben."
-Inst5Quest10_Prequest = "Ja, Marshall Windsor"
-Inst5Quest10_Folgequest = "Ja, Ein Funken Hoffnung"
-Inst5Quest10FQuest = "true"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst5Quest11 = "11. Ein Funken Hoffnung"
-Inst5Quest11_Level = "58"
-Inst5Quest11_Attain = "52"
-Inst5Quest11_Aim = "Holt Marshall Windsors verloren gegangene Informationen zurück.\nMarshall Windsor glaubt, dass sich die Informationen in den Händen des Golemlords Argelmach und des Generals Zornesschmied befinden."
-Inst5Quest11_Location = "Marshall Windsor (Schwarzfelstiefen; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest11_Note = "Dieses Quest ist Teil der Onyxia Zugangsquestreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..".\nGolemlord Argelmach befindet sich bei "..YELLOW.."[14]"..WHITE..", General Zornesschmied bei "..YELLOW.."[13]"..WHITE.."."
-Inst5Quest11_Prequest = "Ja, Eine zusammengeknüllte Notiz"
-Inst5Quest11_Folgequest = "Ja, Gefängnisausbruch!"
-Inst5Quest11FQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst5Quest12 = "12. Gefängnisausbruch!"
-Inst5Quest12_Level = "58"
-Inst5Quest12_Attain = "52"
-Inst5Quest12_Aim = "Helft Marshall Windsor, seine Ausrüstung zurückzuholen und seine Freunde zu befreien. Kehrt zu Marshall Windsor zurück, wenn Ihr Erfolg hattet."
-Inst5Quest12_Location = "Marshall Windsor (Schwarzfelstiefen; "..YELLOW.."[4]"..WHITE..")"
-Inst5Quest12_Note = "Dieses Quest ist Teil der Onyxia Zugangsquestreihe. Marshall Windsor befindet sich bei "..YELLOW.."[4]"..WHITE..".\nDas Quest ist wesentlich leichter, wenn der Ring des Gesetzes ("..YELLOW.."[6]"..WHITE..") und der Weg zum Eingang vor Beginn von Gegnern befreit wurde. Man findet Marshall Maxwell in der Brennende Steppe - Morgans Wacht ("..YELLOW.."84,68"..WHITE..")"
-Inst5Quest12_Prequest = "Ja, Ein Funken Hoffnung"
-Inst5Quest12_Folgequest = "Ja, Treffen in Sturmwind"
-Inst5Quest12FQuest = "true"
---
-Inst5Quest12name1 = "Barriere der Elemente"
-Inst5Quest12name2 = "Klinge der Abrechnung"
-Inst5Quest12name3 = "Geschickte Kampfklinge"
 
 --Quest 13 Alliance
 Inst5Quest13 = "13. Eine Kostprobe der Flamme"
@@ -1231,20 +1177,20 @@ Inst5Quest9name2_HORDE = "Regenzauberer-Tuch"
 Inst5Quest9name3_HORDE = "Basaltschuppenrüstung"
 Inst5Quest9name4_HORDE = "Lavaplattenstulpen"
 
---Quest 10 Horde  (same as Quest 13 Alliance)
+--Quest 10 Horde  (same as Quest 9 Alliance)
 Inst5Quest10_HORDE = "10. Eine Kostprobe der Flamme"
-Inst5Quest10_HORDE_Level = Inst5Quest13_Level
-Inst5Quest10_HORDE_Attain = Inst5Quest13_Attain
-Inst5Quest10_HORDE_Aim = Inst5Quest13_Aim
-Inst5Quest10_HORDE_Location = Inst5Quest13_Location
-Inst5Quest10_HORDE_Note = Inst5Quest13_Note
-Inst5Quest10_HORDE_Prequest = Inst5Quest13_Prequest
-Inst5Quest10_HORDE_Folgequest = Inst5Quest13_Folgequest
-Inst5Quest10PreQuest_HORDE = Inst5Quest13PreQuest
+Inst5Quest10_HORDE_Level = Inst5Quest9_Level
+Inst5Quest10_HORDE_Attain = Inst5Quest9_Attain
+Inst5Quest10_HORDE_Aim = Inst5Quest9_Aim
+Inst5Quest10_HORDE_Location = Inst5Quest9_Location
+Inst5Quest10_HORDE_Note = Inst5Quest9_Note
+Inst5Quest10_HORDE_Prequest = Inst5Quest9_Prequest
+Inst5Quest10_HORDE_Folgequest = Inst5Quest9_Folgequest
+Inst5Quest10PreQuest_HORDE = Inst5Quest9PreQuest
 --
-Inst5Quest10name1_HORDE = Inst5Quest13name1
-Inst5Quest10name2_HORDE = Inst5Quest13name2
-Inst5Quest10name3_HORDE = Inst5Quest13name3
+Inst5Quest10name1_HORDE = Inst5Quest9name1
+Inst5Quest10name2_HORDE = Inst5Quest9name2
+Inst5Quest10name3_HORDE = Inst5Quest9name3
 
 --Quest 11 Horde
 Inst5Quest11_HORDE = "11. Disharmonie der Flamme"
@@ -1311,59 +1257,59 @@ Inst5Quest15FQuest_HORDE = "true"
 Inst5Quest15name1_HORDE = "Thralls Entschlossenheit"
 Inst5Quest15name2_HORDE = "Auge von Orgrimmar"
 
---Quest 16 Horde  (same as Quest 16 Alliance)
-Inst5Quest16_HORDE = Inst5Quest16
-Inst5Quest16_HORDE_Level = Inst5Quest16_Level
-Inst5Quest16_HORDE_Attain = Inst5Quest16_Attain
-Inst5Quest16_HORDE_Aim = Inst5Quest16_Aim
-Inst5Quest16_HORDE_Location = Inst5Quest16_Location
-Inst5Quest16_HORDE_Note = Inst5Quest16_Note
-Inst5Quest16_HORDE_Prequest = Inst5Quest16_Prequest
-Inst5Quest16_HORDE_Folgequest = Inst5Quest16_Folgequest
+--Quest 16 Horde  (same as Quest 12 Alliance)
+Inst5Quest16_HORDE = Inst5Quest12
+Inst5Quest16_HORDE_Level = Inst5Quest12_Level
+Inst5Quest16_HORDE_Attain = Inst5Quest12_Attain
+Inst5Quest16_HORDE_Aim = Inst5Quest12_Aim
+Inst5Quest16_HORDE_Location = Inst5Quest12_Location
+Inst5Quest16_HORDE_Note = Inst5Quest12_Note
+Inst5Quest16_HORDE_Prequest = Inst5Quest12_Prequest
+Inst5Quest16_HORDE_Folgequest = Inst5Quest12_Folgequest
 -- No Rewards for this quest
 
---Quest 17 Horde  (same as Quest 17 Alliance)
-Inst5Quest17_HORDE = Inst5Quest17
-Inst5Quest17_HORDE_Level = Inst5Quest17_Level
-Inst5Quest17_HORDE_Attain = Inst5Quest17_Attain
-Inst5Quest17_HORDE_Aim = Inst5Quest17_Aim
-Inst5Quest17_HORDE_Location = Inst5Quest17_Location
-Inst5Quest17_HORDE_Note = Inst5Quest17_Note
-Inst5Quest17_HORDE_Prequest = Inst5Quest17_Prequest
-Inst5Quest17_HORDE_Folgequest = Inst5Quest17_Folgequest
+--Quest 17 Horde  (same as Quest 13 Alliance)
+Inst5Quest17_HORDE = Inst5Quest13
+Inst5Quest17_HORDE_Level = Inst5Quest13_Level
+Inst5Quest17_HORDE_Attain = Inst5Quest13_Attain
+Inst5Quest17_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest17_HORDE_Location = Inst5Quest13_Location
+Inst5Quest17_HORDE_Note = Inst5Quest13_Note
+Inst5Quest17_HORDE_Prequest = Inst5Quest13_Prequest
+Inst5Quest17_HORDE_Folgequest = Inst5Quest13_Folgequest
 -- No Rewards for this quest
 
---Quest 18 Horde  (same as Quest 18 Alliance)
-Inst5Quest18_HORDE = Inst5Quest18
-Inst5Quest18_HORDE_Level = Inst5Quest18_Level
-Inst5Quest18_HORDE_Attain = Inst5Quest18_Attain
-Inst5Quest18_HORDE_Aim = Inst5Quest18_Aim
-Inst5Quest18_HORDE_Location = Inst5Quest18_Location
-Inst5Quest18_HORDE_Note = Inst5Quest18_Note
-Inst5Quest18_HORDE_Prequest = Inst5Quest18_Prequest
-Inst5Quest18_HORDE_Folgequest = Inst5Quest18_Folgequest
+--Quest 18 Horde  (same as Quest 14 Alliance)
+Inst5Quest18_HORDE = Inst5Quest14
+Inst5Quest18_HORDE_Level = Inst5Quest14_Level
+Inst5Quest18_HORDE_Attain = Inst5Quest14_Attain
+Inst5Quest18_HORDE_Aim = Inst5Quest14_Aim
+Inst5Quest18_HORDE_Location = Inst5Quest14_Location
+Inst5Quest18_HORDE_Note = Inst5Quest14_Note
+Inst5Quest18_HORDE_Prequest = Inst5Quest14_Prequest
+Inst5Quest18_HORDE_Folgequest = Inst5Quest14_Folgequest
 -- No Rewards for this quest
 
---Quest 19 Horde  (same as Quest 19 Alliance)
-Inst5Quest19_HORDE = Inst5Quest19
-Inst5Quest19_HORDE_Level = Inst5Quest19_Level
-Inst5Quest19_HORDE_Attain = Inst5Quest19_Attain
-Inst5Quest19_HORDE_Aim = Inst5Quest19_Aim
-Inst5Quest19_HORDE_Location = Inst5Quest19_Location
-Inst5Quest19_HORDE_Note = Inst5Quest19_Note
-Inst5Quest19_HORDE_Prequest = Inst5Quest19_Prequest
-Inst5Quest19_HORDE_Folgequest = Inst5Quest19_Folgequest
+--Quest 19 Horde  (same as Quest 15 Alliance)
+Inst5Quest19_HORDE = Inst5Quest15
+Inst5Quest19_HORDE_Level = Inst5Quest15_Level
+Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
+Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
+Inst5Quest19_HORDE_Location = Inst5Quest15_Location
+Inst5Quest19_HORDE_Note = Inst5Quest15_Note
+Inst5Quest19_HORDE_Prequest = Inst5Quest15_Prequest
+Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
 -- No Rewards for this quest
 
---Quest 20 Horde  (same as Quest 20 Alliance)
-Inst5Quest20_HORDE = Inst5Quest20
-Inst5Quest20_HORDE_Level = Inst5Quest20_Level
-Inst5Quest20_HORDE_Attain = Inst5Quest20_Attain
-Inst5Quest20_HORDE_Aim = Inst5Quest20_Aim
-Inst5Quest20_HORDE_Location = Inst5Quest20_Location
-Inst5Quest20_HORDE_Note = Inst5Quest20_Note
-Inst5Quest20_HORDE_Prequest = Inst5Quest20_Prequest
-Inst5Quest20_HORDE_Folgequest = Inst5Quest20_Folgequest
+--Quest 20 Horde  (same as Quest 16 Alliance)
+Inst5Quest20_HORDE = Inst5Quest16
+Inst5Quest20_HORDE_Level = Inst5Quest16_Level
+Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
+Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
+Inst5Quest20_HORDE_Location = Inst5Quest16_Location
+Inst5Quest20_HORDE_Note = Inst5Quest16_Note
+Inst5Quest20_HORDE_Prequest = Inst5Quest16_Prequest
+Inst5Quest20_HORDE_Folgequest = Inst5Quest16_Folgequest
 Inst5Quest20FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -1974,7 +1920,7 @@ Inst8Quest14name2_HORDE = Inst8Quest14name2
 
 Inst9Story = "Die mächtige Festung, die aus der feurigen Flanke des Schwarzfels herausgeschnitten wurde, geht auf Entwürfe des zwergischen Meistersteinmetzes Franclorn Schmiedevater zurück. Jahrhunderte lang war die Zitadelle ein Symbol der Macht des Dunkeleisenklans, das von den Zwergen mit äußerstem Ingrimm verteidigt wurde. Allerdings gab es jemanden, der andere Pläne für die Zitadelle hatte: Nefarian, der listige Sohn des Drachen Deathwing, stieg eines Tages mit Flamme und Klaue auf den oberen Teil der Zitadelle hinab und trug zusammen mit seinen drachischen Untergebenen den Kampf bis zu den Stellungen der Zwerge tief unten, bei den vulkanischen Abgründen unter dem Berg. Dort erkannte der Drache, dass der Anführer der Zwerge kein geringerer als der Feuerfürst Ragnaros höchstpersönlich war. Nachdem sein Vordringen gestoppt worden war, schwor sich Nefarian, seine Feinde endgültig zu vernichten und somit die Herrschaft über den Schwarzfels an sich zu reißen."
 Inst9Caption = "Schwarzfelsspitze (Oben)"
-Inst9QAA = "11 Quests"
+Inst9QAA = "10 Quests"
 Inst9QAH = "12 Quests"
 
 --Quest 1 Alliance
@@ -2053,68 +1999,55 @@ Inst9Quest6name1 = "Treter des flinken Fußes"
 Inst9Quest6name2 = "Armschützer des flinken Schlags"
 
 --Quest 7 Alliance
-Inst9Quest7 = "7. Drachenfeueramulett"
+Inst9Quest7 = "7. Schwarzfausts Befehl"
 Inst9Quest7_Level = "60"
-Inst9Quest7_Attain = "50"
-Inst9Quest7_Aim = "Ihr müsst das Blut des schwarzen Drachenhelden von General Drakkisath bekommen. Ihr findet Drakkisath in seinem Thronsaal hinter den Hallen des Aufstiegs auf der Schwarzfelsspitze."
-Inst9Quest7_Location = "Haleh (Winterquell; "..YELLOW.."54,51"..WHITE..")"
-Inst9Quest7_Note = "Letzter Teil der Onyxia Questreihe für die Allianz. General Drakkisath findet man bei "..YELLOW.."[9]"..WHITE.."."
-Inst9Quest7_Prequest = "Ja, Das Großdrachenauge"
+Inst9Quest7_Attain = "55"
+Inst9Quest7_Aim = "Dem Brief zufolge, wird das Brandzeichen von General Drakkisath bewacht. Vielleicht solltet Ihr diesem Hinweis nachgehen."
+Inst9Quest7_Location = "Schwarzfausts Befehl (droppt vom Rüstmeister der Schmetterschilde; "..YELLOW.."[7] auf der Eingangskarte"..WHITE..")"
+Inst9Quest7_Note = "Pechschwingenhort Vorquest. Den Rüstmeister der Schmetterschilde findet man, wenn man vor dem Eingang von LBRS/UBRS rechts den Gang entlang geht.\n\nGeneral Drakkisath findet man bei "..YELLOW.."[9]"..WHITE..". Das Brandzeichen befindet sich genau hinter ihm."
+Inst9Quest7_Prequest = "Nein"
 Inst9Quest7_Folgequest = "Nein"
-Inst9Quest7PreQuest = "true"
---
-Inst9Quest7name1 = "Drachenfeueramulett"
+-- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst9Quest8 = "8. Schwarzfausts Befehl"
+Inst9Quest8 = "8. Letzte Vorbereitungen"
 Inst9Quest8_Level = "60"
-Inst9Quest8_Attain = "55"
-Inst9Quest8_Aim = "Dem Brief zufolge, wird das Brandzeichen von General Drakkisath bewacht. Vielleicht solltet Ihr diesem Hinweis nachgehen."
-Inst9Quest8_Location = "Schwarzfausts Befehl (droppt vom Rüstmeister der Schmetterschilde; "..YELLOW.."[7] auf der Eingangskarte"..WHITE..")"
-Inst9Quest8_Note = "Pechschwingenhort Vorquest. Den Rüstmeister der Schmetterschilde findet man, wenn man vor dem Eingang von LBRS/UBRS rechts den Gang entlang geht.\n\nGeneral Drakkisath findet man bei "..YELLOW.."[9]"..WHITE..". Das Brandzeichen befindet sich genau hinter ihm."
-Inst9Quest8_Prequest = "Nein"
-Inst9Quest8_Folgequest = "Nein"
+Inst9Quest8_Attain = "58"
+Inst9Quest8_Aim = "Bringt Bodley im Schwarzfels 40 Schwarzfelsarmschienen und ein Fläschchen der obersten Macht."
+Inst9Quest8_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst9Quest8_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'. Schwarzfelsarmschienen droppen von Gegnern mit 'Schwarzfaust' im Namen. Fläschchen der obersten Macht wird von einem Alchemisten hergestellt."
+Inst9Quest8_Prequest = "Ja, Das rechte Stück von Lord Valthalaks Amulett ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
+Inst9Quest8_Folgequest = "Ja, Mea Culpa, Lord Valthalak"
+Inst9Quest8PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst9Quest9 = "9. Letzte Vorbereitungen"
+Inst9Quest9 = "9. Mea Culpa, Lord Valthalak"
 Inst9Quest9_Level = "60"
 Inst9Quest9_Attain = "58"
-Inst9Quest9_Aim = "Bringt Bodley im Schwarzfels 40 Schwarzfelsarmschienen und ein Fläschchen der obersten Macht."
+Inst9Quest9_Aim = "Benutzt das Räuchergefäß der Beschwörung, um Lord Valthalak zu beschwören. Macht ihn unschädlich und benutzt dann Lord Valthalaks Amulett bei seiner Leiche. Danach werdet Ihr dem Geist von Lord Valthalak sein Amulett zurückgeben müssen."
 Inst9Quest9_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst9Quest9_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'. Schwarzfelsarmschienen droppen von Gegnern mit 'Schwarzfaust' im Namen. Fläschchen der obersten Macht wird von einem Alchemisten hergestellt."
-Inst9Quest9_Prequest = "Ja, Das rechte Stück von Lord Valthalaks Amulett ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
-Inst9Quest9_Folgequest = "Ja, Mea Culpa, Lord Valthalak"
-Inst9Quest9PreQuest = "true"
--- No Rewards for this quest
+Inst9Quest9_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'. Lord Valthalak kann bei "..YELLOW.."[8]"..WHITE.." beschwört werden. Die Belohnungen sind für 'Rückkehr zu Bodley'."
+Inst9Quest9_Prequest = "Ja, Letzte Vorbereitungen"
+Inst9Quest9_Folgequest = "Ja, Rückkehr zu Bodley"
+Inst9Quest9FQuest = "true"
+--
+Inst9Quest9name1 = "Räuchergefäß der Anrufung"
+Inst9Quest9name2 = "Handbuch: Räuchergefäß der Anrufung"
 
 --Quest 10 Alliance
-Inst9Quest10 = "10. Mea Culpa, Lord Valthalak"
+Inst9Quest10 = "10. Die Dämonenschmiede"
 Inst9Quest10_Level = "60"
-Inst9Quest10_Attain = "58"
-Inst9Quest10_Aim = "Benutzt das Räuchergefäß der Beschwörung, um Lord Valthalak zu beschwören. Macht ihn unschädlich und benutzt dann Lord Valthalaks Amulett bei seiner Leiche. Danach werdet Ihr dem Geist von Lord Valthalak sein Amulett zurückgeben müssen."
-Inst9Quest10_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst9Quest10_Note = "Der Extradimensionaler Geisterdetektor wird benötigt, um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'. Lord Valthalak kann bei "..YELLOW.."[8]"..WHITE.." beschwört werden. Die Belohnungen sind für 'Rückkehr zu Bodley'."
-Inst9Quest10_Prequest = "Ja, Letzte Vorbereitungen"
-Inst9Quest10_Folgequest = "Ja, Rückkehr zu Bodley"
-Inst9Quest10FQuest = "true"
+Inst9Quest10_Attain = "55"
+Inst9Quest10_Aim = "Begebt Euch zur Schwarzfelsspitze und sucht Goraluk Hammerbruch. Erschlagt ihn und wendet dann die blutbefleckte Pike auf seine Leiche an. Nachdem seine Seele abgesaugt wurde, wird die Pike seelenbefleckt sein. Ihr müsst außerdem die ungeschmiedete runenbedeckte Brustplatte finden. Bringt die seelenbefleckte Pike und die ungeschmiedete runenbedeckte Brustplate zu Lorax in Winterquell."
+Inst9Quest10_Location = "Lorax (Winterquell; "..YELLOW.."64,74"..WHITE..")"
+Inst9Quest10_Note = "Schmiedekunst Quest. Goraluk Hammerbruch befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst9Quest10_Prequest = "Nein"
+Inst9Quest10_Folgequest = "Nein"
 --
-Inst9Quest10name1 = "Räuchergefäß der Anrufung"
-Inst9Quest10name2 = "Handbuch: Räuchergefäß der Anrufung"
-
---Quest 11 Alliance
-Inst9Quest11 = "11. Die Dämonenschmiede"
-Inst9Quest11_Level = "60"
-Inst9Quest11_Attain = "55"
-Inst9Quest11_Aim = "Begebt Euch zur Schwarzfelsspitze und sucht Goraluk Hammerbruch. Erschlagt ihn und wendet dann die blutbefleckte Pike auf seine Leiche an. Nachdem seine Seele abgesaugt wurde, wird die Pike seelenbefleckt sein. Ihr müsst außerdem die ungeschmiedete runenbedeckte Brustplatte finden. Bringt die seelenbefleckte Pike und die ungeschmiedete runenbedeckte Brustplate zu Lorax in Winterquell."
-Inst9Quest11_Location = "Lorax (Winterquell; "..YELLOW.."64,74"..WHITE..")"
-Inst9Quest11_Note = "Schmiedekunst Quest. Goraluk Hammerbruch befindet sich bei "..YELLOW.."[5]"..WHITE.."."
-Inst9Quest11_Prequest = "Nein"
-Inst9Quest11_Folgequest = "Nein"
---
-Inst9Quest11name1 = "Pläne: Dämonengeschmiedete Brustplatte"
-Inst9Quest11name2 = "Elixier des Dämonentötens"
-Inst9Quest11name3 = "Dämonengeküsster Sack"
+Inst9Quest10name1 = "Pläne: Dämonengeschmiedete Brustplatte"
+Inst9Quest10name2 = "Elixier des Dämonentötens"
+Inst9Quest10name3 = "Dämonengeküsster Sack"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2217,54 +2150,54 @@ Inst9Quest8FQuest_HORDE = "true"
 --
 Inst9Quest8name1_HORDE = "Drachenfeueramulett"
 
---Quest 9 Horde  (same as Quest 8 Alliance)
+--Quest 9 Horde  (same as Quest 7 Alliance)
 Inst9Quest9_HORDE = "9. Schwarzfausts Befehl"
-Inst9Quest9_HORDE_Level = Inst9Quest8_Level
-Inst9Quest9_HORDE_Attain = Inst9Quest8_Attain
-Inst9Quest9_HORDE_Aim = Inst9Quest8_Aim
-Inst9Quest9_HORDE_Location = Inst9Quest8_Location
-Inst9Quest9_HORDE_Note = Inst9Quest8_Note
-Inst9Quest9_HORDE_Prequest = Inst9Quest8_Prequest
-Inst9Quest9_HORDE_Folgequest = Inst9Quest8_Folgequest
+Inst9Quest9_HORDE_Level = Inst9Quest7_Level
+Inst9Quest9_HORDE_Attain = Inst9Quest7_Attain
+Inst9Quest9_HORDE_Aim = Inst9Quest7_Aim
+Inst9Quest9_HORDE_Location = Inst9Quest7_Location
+Inst9Quest9_HORDE_Note = Inst9Quest7_Note
+Inst9Quest9_HORDE_Prequest = Inst9Quest7_Prequest
+Inst9Quest9_HORDE_Folgequest = Inst9Quest7_Folgequest
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 9 Alliance)
+--Quest 10 Horde  (same as Quest 8 Alliance)
 Inst9Quest10_HORDE = "10. Letzte Vorbereitungen"
-Inst9Quest10_HORDE_Level = Inst9Quest9_Level
-Inst9Quest10_HORDE_Attain = Inst9Quest9_Attain
-Inst9Quest10_HORDE_Aim = Inst9Quest9_Aim
-Inst9Quest10_HORDE_Location = Inst9Quest9_Location
-Inst9Quest10_HORDE_Note = Inst9Quest9_Note
-Inst9Quest10_HORDE_Prequest = Inst9Quest9_Prequest
-Inst9Quest10_HORDE_Folgequest = Inst9Quest9_Folgequest
+Inst9Quest10_HORDE_Level = Inst9Quest8_Level
+Inst9Quest10_HORDE_Attain = Inst9Quest8_Attain
+Inst9Quest10_HORDE_Aim = Inst9Quest8_Aim
+Inst9Quest10_HORDE_Location = Inst9Quest8_Location
+Inst9Quest10_HORDE_Note = Inst9Quest8_Note
+Inst9Quest10_HORDE_Prequest = Inst9Quest8_Prequest
+Inst9Quest10_HORDE_Folgequest = Inst9Quest8_Folgequest
 -- No Rewards for this quest
 
---Quest 11 Horde  (same as Quest 10 Alliance)
+--Quest 11 Horde  (same as Quest 9 Alliance)
 Inst9Quest11_HORDE = "11. Mea Culpa, Lord Valthalak"
-Inst9Quest11_HORDE_Level = Inst9Quest10_Level
-Inst9Quest11_HORDE_Attain = Inst9Quest10_Attain
-Inst9Quest11_HORDE_Aim = Inst9Quest10_Aim
-Inst9Quest11_HORDE_Location = Inst9Quest10_Location
-Inst9Quest11_HORDE_Note = Inst9Quest10_Note
-Inst9Quest11_HORDE_Prequest = Inst9Quest10_Prequest
-Inst9Quest11_HORDE_Folgequest = Inst9Quest10_Folgequest
+Inst9Quest11_HORDE_Level = Inst9Quest9_Level
+Inst9Quest11_HORDE_Attain = Inst9Quest9_Attain
+Inst9Quest11_HORDE_Aim = Inst9Quest9_Aim
+Inst9Quest11_HORDE_Location = Inst9Quest9_Location
+Inst9Quest11_HORDE_Note = Inst9Quest9_Note
+Inst9Quest11_HORDE_Prequest = Inst9Quest9_Prequest
+Inst9Quest11_HORDE_Folgequest = Inst9Quest9_Folgequest
 --
-Inst9Quest11name1_HORDE = Inst9Quest10name1
-Inst9Quest11name2_HORDE = Inst9Quest10name2
+Inst9Quest11name1_HORDE = Inst9Quest9name1
+Inst9Quest11name2_HORDE = Inst9Quest9name2
 
---Quest 12 Horde  (same as Quest 11 Alliance)
+--Quest 12 Horde  (same as Quest 10 Alliance)
 Inst9Quest12_HORDE = "12. Die Dämonenschmiede"
-Inst9Quest12_HORDE_Level = Inst9Quest11_Level
-Inst9Quest12_HORDE_Attain = Inst9Quest11_Attain
-Inst9Quest12_HORDE_Aim = Inst9Quest11_Aim
-Inst9Quest12_HORDE_Location = Inst9Quest11_Location
-Inst9Quest12_HORDE_Note = Inst9Quest11_Note
-Inst9Quest12_HORDE_Prequest = Inst9Quest11_Prequest
-Inst9Quest12_HORDE_Folgequest = Inst9Quest11_Folgequest
+Inst9Quest12_HORDE_Level = Inst9Quest10_Level
+Inst9Quest12_HORDE_Attain = Inst9Quest10_Attain
+Inst9Quest12_HORDE_Aim = Inst9Quest10_Aim
+Inst9Quest12_HORDE_Location = Inst9Quest10_Location
+Inst9Quest12_HORDE_Note = Inst9Quest10_Note
+Inst9Quest12_HORDE_Prequest = Inst9Quest10_Prequest
+Inst9Quest12_HORDE_Folgequest = Inst9Quest10_Folgequest
 --
-Inst9Quest12name1_HORDE = Inst9Quest11name1
-Inst9Quest12name2_HORDE = Inst9Quest11name2
-Inst9Quest12name3_HORDE = Inst9Quest11name3
+Inst9Quest12name1_HORDE = Inst9Quest10name1
+Inst9Quest12name2_HORDE = Inst9Quest10name2
+Inst9Quest12name3_HORDE = Inst9Quest10name3
 
 
 
