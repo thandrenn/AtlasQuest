@@ -54,7 +54,7 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 AQHelpText = ""..WHITE.."命令格式为： /aq or atlasquest "..YELLOW.."[命令参数]"..WHITE.."\n命令参数有：help; option/config; show/hide; left/right; colour; autoshow"..RED.."（仅 Atlas）"
 --
-AQOptionsCaptionTEXT = "AtlasQuest 选项";
+AQOptionsCaptionTEXT = ""..YELLOW.."AtlasQuest 设置";
 AQ_OK = "确定"
 
 -- Autoshow
@@ -92,7 +92,7 @@ AQSERVERASKAuto = " 尝试鼠标指向物品时查询。"
 AQSERVERASK = "在服务器上查询："
 AQERRORNOTSHOWN = "此物品不安全！"
 AQERRORASKSERVER = "要按右键在服务器上查询吗？你可能会掉线。"
-AQOptionB = "选项"
+AQOptionB = "设置"
 AQStoryB = "副本背景"
 AQNoReward = ""..BLUE.." 没有奖励物品"
 AQDiscription_OR = ""..GREY.." 或 "..WHITE..""
@@ -11741,7 +11741,7 @@ Inst34Quest2_HORDE_Level = "25"
 Inst34Quest2_HORDE_Attain = "25"
 Inst34Quest2_HORDE_Aim = "进攻阿拉希盆地的矿洞、伐木场、铁匠铺和兽栏，然后向落锤镇的屠杀者杜维尔复命."
 Inst34Quest2_HORDE_Location = "屠杀者杜维尔 (阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest2_HORDE_Note = "The locations to be assaulted are marked on the map as 1 through 4."
+Inst34Quest2_HORDE_Note = "这些地点在地图上被标注了1到4."
 Inst34Quest2_HORDE_Prequest = "No"
 Inst34Quest2_HORDE_Folgequest = "No"
 -- No Rewards for this quest
