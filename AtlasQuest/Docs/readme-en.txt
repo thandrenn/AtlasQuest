@@ -27,7 +27,7 @@ Translations:
 
 EN: Thandrenn  (previously Asurn and Lothaer)
 DE: Telchar and Nalumis  (previously Asurn and Nihlo)
-CN: yeachan and Ananhaid (previously DIY)
+CN: yeachan (previously DIY)
 TW: Jill
 
 
