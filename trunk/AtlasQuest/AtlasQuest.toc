@@ -2,7 +2,7 @@
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
-## Title-zhCN: AtlasQuest 副本任务查询
+## Title-zhCN: AtlasQuest 副本任务
 ## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest
 ## Notes: Shows the Quests for the instance.
 ## Notes-deDE: Zeigt die Quests, die es für die jeweiligen Instanzen gibt.
