@@ -985,59 +985,71 @@ Inst5Quest8_Folgequest = "无"
 --
 Inst5Quest8name1 = "肮脏的背包"
 
---Quest Alliance  Leave the quests here for memories to Windsor
---Inst5Quest9 = "9. 温德索尔元帅 (奥妮克希亚系列任务)"
---Inst5Quest9_Level = "54"
---Inst5Quest9_Attain = "48"
---Inst5Quest9_Aim = "到西北部的黑石山脉去，在黑石深渊中找到温德索尔元帅的下落。\n狼狈不堪的约翰曾告诉你说温德索尔被关进了一个监狱。"
---Inst5Quest9_Location = "麦克斯韦尔元帅（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,68"..WHITE.."）"
---Inst5Quest9_Note = "此系列任务始于赫林迪斯·河角（燃烧平原 - 摩根的岗哨"..YELLOW.."85,68"..WHITE.."）。\n温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。完成这个任务后，你要回到麦克斯韦尔元帅那里."
---Inst5Quest9_Prequest = "黑龙的威胁 -> 真正的主人"
---Inst5Quest9_Folgequest = "被遗弃的希望 -> 弄皱的便笺"
---Inst5Quest9PreQuest = "true"
 
---Inst5Quest9name1 = "监督官头盔"
---Inst5Quest9name2 = "盾甲铁靴"
---Inst5Quest9name3 = "风剪护腿"
+--[[  
+     他拥有“瑟银的胆量”，他是一个“生动的传说” ————暴风城卫兵们如此赞颂他
+     当暴风城防卫的最高指挥官也向这位勇士跪下时，一股震撼的力量传遍了我们的心灵
+     
+     这就是-雷吉纳德·温德索尔元帅，一直毫不畏惧地与黑龙做着坚持斗争的伟大英雄，忠于自己的信念忠于自己的国家，
+     为了揭穿奥妮克西娅的阴谋而不断地努力，经历了与黑石兽人的袭击和被俘，在我们的协助下在黑石深渊的监牢中突破敌人的层层封锁，
+     最后揭穿了奥妮克西娅妄图统治人类的阴谋并让伯瓦尔公爵摆脱了奥妮克西娅的控制，自己却被奥妮克西娅残忍杀害的英雄。
+     我们永远不会忘记你，温德索尔元帅！这些任务永远为你留存。
+         
+--Quest Alliance  Leave the quests here for memories to Windsor
+Inst5Quest9 = "9. 温德索尔元帅 (奥妮克希亚系列任务)"
+Inst5Quest9_Level = "54"
+Inst5Quest9_Attain = "48"
+Inst5Quest9_Aim = "到西北部的黑石山脉去，在黑石深渊中找到温德索尔元帅的下落。\n狼狈不堪的约翰曾告诉你说温德索尔被关进了一个监狱。"
+Inst5Quest9_Location = "麦克斯韦尔元帅（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,68"..WHITE.."）"
+Inst5Quest9_Note = "此系列任务始于赫林迪斯·河角（燃烧平原 - 摩根的岗哨"..YELLOW.."85,68"..WHITE.."）。\n温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。完成这个任务后，你要回到麦克斯韦尔元帅那里."
+Inst5Quest9_Prequest = "黑龙的威胁 -> 真正的主人"
+Inst5Quest9_Folgequest = "被遗弃的希望 -> 弄皱的便笺"
+Inst5Quest9PreQuest = "true"
+
+Inst5Quest9name1 = "监督官头盔"
+Inst5Quest9name2 = "盾甲铁靴"
+Inst5Quest9name3 = "风剪护腿"
 
 --Quest 10 Alliance
---Inst5Quest10 = "10. 弄皱的便笺 (奥妮克希亚系列任务)"
---Inst5Quest10_Level = "58"
---Inst5Quest10_Attain = "50"
---Inst5Quest10_Aim = "温德索尔元帅也许会对你手中的东西感兴趣。毕竟，希望还没有被完全扼杀。"
---Inst5Quest10_Location = "弄皱的便笺（掉落）（黑石深渊）"
---Inst5Quest10_Note = "这个任务是弄皱的便笺触发的。温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。副本里和外的所有黑铁矮人都有很大几率掉落便笺。"
---Inst5Quest10_Prequest = "温德索尔元帅"
---Inst5Quest10_Folgequest = "一丝希望"
---Inst5Quest10FQuest = "true"
+Inst5Quest10 = "10. 弄皱的便笺 (奥妮克希亚系列任务)"
+Inst5Quest10_Level = "58"
+Inst5Quest10_Attain = "50"
+Inst5Quest10_Aim = "温德索尔元帅也许会对你手中的东西感兴趣。毕竟，希望还没有被完全扼杀。"
+Inst5Quest10_Location = "弄皱的便笺（掉落）（黑石深渊）"
+Inst5Quest10_Note = "这个任务是弄皱的便笺触发的。温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。副本里和外的所有黑铁矮人都有很大几率掉落便笺。"
+Inst5Quest10_Prequest = "温德索尔元帅"
+Inst5Quest10_Folgequest = "一丝希望"
+Inst5Quest10FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
---Inst5Quest11 = "11. 一丝希望 (奥妮克希亚系列任务)"
---Inst5Quest11_Level = "58"
---Inst5Quest11_Attain = "52"
---Inst5Quest11_Aim = "找回温德索尔元帅遗失的情报。\n温德索尔元帅确信那些情报在安格弗将军和傀儡统帅阿格曼奇的手里。"
---Inst5Quest11_Location = "温德索尔元帅（黑石深渊; "..YELLOW.."[4]"..WHITE.."）"
---Inst5Quest11_Note = "温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。\n傀儡统帅阿格曼奇在"..YELLOW.."[14]"..WHITE.."，安格弗将军在"..YELLOW.."[13]"..WHITE.."。"
---Inst5Quest11_Prequest = "弄皱的便笺"
---Inst5Quest11_Folgequest = "冲破牢笼！"
---Inst5Quest11FQuest = "true"
+Inst5Quest11 = "11. 一丝希望 (奥妮克希亚系列任务)"
+Inst5Quest11_Level = "58"
+Inst5Quest11_Attain = "52"
+Inst5Quest11_Aim = "找回温德索尔元帅遗失的情报。\n温德索尔元帅确信那些情报在安格弗将军和傀儡统帅阿格曼奇的手里。"
+Inst5Quest11_Location = "温德索尔元帅（黑石深渊; "..YELLOW.."[4]"..WHITE.."）"
+Inst5Quest11_Note = "温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。\n傀儡统帅阿格曼奇在"..YELLOW.."[14]"..WHITE.."，安格弗将军在"..YELLOW.."[13]"..WHITE.."。"
+Inst5Quest11_Prequest = "弄皱的便笺"
+Inst5Quest11_Folgequest = "冲破牢笼！"
+Inst5Quest11FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
---Inst5Quest12 = "12. 冲破牢笼! (奥妮克希亚系列任务)"
---Inst5Quest12_Level = "58"
---Inst5Quest12_Attain = "52"
---Inst5Quest12_Aim = "帮助温德索尔元帅拿回他的装备并救出他的朋友。当你成功之后就回去向麦克斯韦尔元帅复命。"
---Inst5Quest12_Location = "温德索尔元帅（黑石深渊; "..YELLOW.."[4]"..WHITE.."）"
---Inst5Quest12_Note = "温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。\n如果你清掉法律之环一圈的怪（"..YELLOW.."[6]"..WHITE.."）和通向副本门口的怪的话会轻松很多。护送完成后去找麦克斯韦尔元帅（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,68"..WHITE.."）。"
---Inst5Quest12_Prequest = "一丝希望"
---Inst5Quest12_Folgequest = "集合在暴风城"
---Inst5Quest12FQuest = "true"
+Inst5Quest12 = "12. 冲破牢笼! (奥妮克希亚系列任务)"
+Inst5Quest12_Level = "58"
+Inst5Quest12_Attain = "52"
+Inst5Quest12_Aim = "帮助温德索尔元帅拿回他的装备并救出他的朋友。当你成功之后就回去向麦克斯韦尔元帅复命。"
+Inst5Quest12_Location = "温德索尔元帅（黑石深渊; "..YELLOW.."[4]"..WHITE.."）"
+Inst5Quest12_Note = "温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。\n如果你清掉法律之环一圈的怪（"..YELLOW.."[6]"..WHITE.."）和通向副本门口的怪的话会轻松很多。护送完成后去找麦克斯韦尔元帅（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,68"..WHITE.."）。"
+Inst5Quest12_Prequest = "一丝希望"
+Inst5Quest12_Folgequest = "集合在暴风城"
+Inst5Quest12FQuest = "true"
 
---Inst5Quest12name1 = "元素屏障"
---Inst5Quest12name2 = "清算之刃"
---Inst5Quest12name3 = "作战之刃"
+Inst5Quest12name1 = "元素屏障"
+Inst5Quest12name2 = "清算之刃"
+Inst5Quest12name3 = "作战之刃"
+
+--]]
 
 --Quest 9 Alliance
 Inst5Quest9 = "9. 烈焰精华"
@@ -1125,7 +1137,7 @@ Inst5Quest15_Folgequest = "又, 干掉科林·烈酒"
 -- No Rewards for this quest
 
 --Quest 16 Alliance
-Inst5Quest16 = "20. 干掉科林·烈酒 (季节性 - 日常)"
+Inst5Quest16 = "16. 干掉科林·烈酒 (季节性 - 日常)"
 Inst5Quest16_Level = "70"
 Inst5Quest16_Attain = "65"
 Inst5Quest16_Aim = "和科林·烈酒对话."
@@ -1336,7 +1348,7 @@ Inst5Quest15name1_HORDE = "萨尔的决心"
 Inst5Quest15name2_HORDE = "奥格瑞玛之眼"
 
 --Quest 16 Horde  (same as Quest 12 Alliance)
-Inst5Quest16_HORDE = Inst5Quest12
+Inst5Quest16_HORDE = "16. 熔火之心的传送门"
 Inst5Quest16_HORDE_Level = Inst5Quest12_Level
 Inst5Quest16_HORDE_Attain = Inst5Quest12_Attain
 Inst5Quest16_HORDE_Aim = Inst5Quest12_Aim
@@ -1347,7 +1359,7 @@ Inst5Quest16_HORDE_Folgequest = Inst5Quest12_Folgequest
 -- No Rewards for this quest
 
 --Quest 17 Horde  (same as Quest 13 Alliance)
-Inst5Quest17_HORDE = Inst5Quest13
+Inst5Quest17_HORDE = "17. 挑战 (T0.5升级任务)"
 Inst5Quest17_HORDE_Level = Inst5Quest13_Level
 Inst5Quest17_HORDE_Attain = Inst5Quest13_Attain
 Inst5Quest17_HORDE_Aim = Inst5Quest13_Aim
@@ -1358,7 +1370,7 @@ Inst5Quest17_HORDE_Folgequest = Inst5Quest13_Folgequest
 -- No Rewards for this quest
 
 --Quest 18 Horde  (same as Quest 14 Alliance)
-Inst5Quest18_HORDE = Inst5Quest14
+Inst5Quest18_HORDE = "18. 鬼魂之杯 (采矿任务)"
 Inst5Quest18_HORDE_Level = Inst5Quest14_Level
 Inst5Quest18_HORDE_Attain = Inst5Quest14_Attain
 Inst5Quest18_HORDE_Aim = Inst5Quest14_Aim
@@ -1369,7 +1381,7 @@ Inst5Quest18_HORDE_Folgequest = Inst5Quest14_Folgequest
 -- No Rewards for this quest
 
 --Quest 19 Horde  (same as Quest 15 Alliance)
-Inst5Quest19_HORDE = Inst5Quest15
+Inst5Quest19_HORDE = "19. 保护美酒节! (季节性)"
 Inst5Quest19_HORDE_Level = Inst5Quest15_Level
 Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
 Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
@@ -1380,7 +1392,7 @@ Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
 -- No Rewards for this quest
 
 --Quest 20 Horde  (same as Quest 16 Alliance)
-Inst5Quest20_HORDE = Inst5Quest16
+Inst5Quest20_HORDE = "20. 干掉科林·烈酒 (季节性 - 日常)"
 Inst5Quest20_HORDE_Level = Inst5Quest16_Level
 Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
 Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
@@ -2074,18 +2086,23 @@ Inst9Quest6PreQuest = "true"
 Inst9Quest6name1 = "迅捷皮靴"
 Inst9Quest6name2 = "瞬击护臂"
 
+--[[   
+        为了纪念温德索尔元帅，让这些任务永远留下去吧
+
 --Quest7 Alliance
---Inst9Quest7 = "7. 龙火护符"
---Inst9Quest7_Level = "60"
---Inst9Quest7_Attain = "50"
---Inst9Quest7_Aim = "你必须从达基萨斯将军身上取回黑龙勇士之血，你可以在黑石塔的晋升大厅后面的房间里找到他。"
---Inst9Quest7_Location = "哈尔琳（冬泉谷; "..YELLOW.."54,51"..WHITE.."）"
---Inst9Quest7_Note = "联盟奥妮克希亚钥匙系列任务的最后一步。达基萨斯将军在"..YELLOW.."[9]"..WHITE.."。"
---Inst9Quest7_Prequest = "巨龙之眼"
---Inst9Quest7_Folgequest = "无"
---Inst9Quest7PreQuest = "true"
---
---Inst9Quest7name1 = "龙火护符"
+Inst9Quest7 = "7. 龙火护符"
+Inst9Quest7_Level = "60"
+Inst9Quest7_Attain = "50"
+Inst9Quest7_Aim = "你必须从达基萨斯将军身上取回黑龙勇士之血，你可以在黑石塔的晋升大厅后面的房间里找到他。"
+Inst9Quest7_Location = "哈尔琳（冬泉谷; "..YELLOW.."54,51"..WHITE.."）"
+Inst9Quest7_Note = "联盟奥妮克希亚钥匙系列任务的最后一步。达基萨斯将军在"..YELLOW.."[9]"..WHITE.."。"
+Inst9Quest7_Prequest = "巨龙之眼"
+Inst9Quest7_Folgequest = "无"
+Inst9Quest7PreQuest = "true"
+
+Inst9Quest7name1 = "龙火护符"
+
+--]]
 
 --Quest7 Alliance
 Inst9Quest7 = "7. 黑手的命令"
@@ -2243,7 +2260,7 @@ Inst9Quest8_HORDE_Level = "60"
 Inst9Quest8_HORDE_Attain = "55"
 Inst9Quest8_HORDE_Aim = "到黑石塔去杀掉达基萨斯将军，把它的血交给罗卡鲁。"
 Inst9Quest8_HORDE_Location = "罗卡鲁（凄凉之地 - 葬影村; "..YELLOW.."25,71"..WHITE.."）"
-Inst9Quest8_HORDE_Note = "部落奥妮克希亚钥匙系列任务的最后一步。达基萨斯将军在"..YELLOW.."[9]"..WHITE.."。"
+Inst9Quest8_HORDE_Note = "达基萨斯将军在"..YELLOW.."[9]"..WHITE.."。"
 Inst9Quest8_HORDE_Prequest = "埃博斯塔夫 -> 龙骨试炼……"
 Inst9Quest8_HORDE_Folgequest = "无"
 Inst9Quest8FQuest_HORDE = "true"
