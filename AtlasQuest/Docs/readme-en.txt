@@ -29,6 +29,7 @@ EN: Thandrenn  (previously Asurn and Lothaer)
 DE: Telchar and Nalumis  (previously Asurn and Nihlo)
 CN: yeachan (previously DIY)
 TW: Jill
+RU: EvgeshaH (Non-WOTLK by lorientalas)
 
 
 
