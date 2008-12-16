@@ -31,6 +31,7 @@
 <Script file="localization.de.lua" />
 <Script file="localization.cn.lua" />
 <Script file="localization.tw.lua" />
+<Script file="localization.ru.lua" />
 <Script file="AtlasQuest_Items.lua" />
 <Script file="AtlasQuest_QuestIDs.lua" />
 <Script file="AtlasQuest.lua" />
