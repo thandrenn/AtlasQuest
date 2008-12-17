@@ -1933,13 +1933,12 @@ Inst8Quest14name1_HORDE = Inst8Quest14name1
 Inst8Quest14name2_HORDE = Inst8Quest14name2
 
 
-
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
 
 Inst9Story = "The mighty fortress carved within the fiery bowels of Blackrock Mountain was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths. Realizing that the dwarves were led by the mighty fire elemental, Ragnaros - Nefarian vowed to crush his enemies and claim the whole of Blackrock mountain for himself."
 Inst9Caption = "Blackrock Spire (Upper)"
-Inst9QAA = "10 Quests"
-Inst9QAH = "12 Quests"
+Inst9QAA = "11 Quests"
+Inst9QAH = "13 Quests"
 
 --Quest 1 Alliance
 Inst9Quest1 = "1. The Matron Protectorate"
@@ -2229,7 +2228,7 @@ Inst9Quest12name1_HORDE = Inst9Quest10name1
 Inst9Quest12name2_HORDE = Inst9Quest10name2
 Inst9Quest12name3_HORDE = Inst9Quest10name3
 
---Quest 13 Horde  (same as Quest 10 Alliance)
+--Quest 13 Horde  (same as Quest 11 Alliance)
 Inst9Quest13_HORDE = "13. Egg Collection"
 Inst9Quest13_HORDE_Level = Inst9Quest11_Level
 Inst9Quest13_HORDE_Attain = Inst9Quest11_Attain
