@@ -11646,46 +11646,46 @@ Inst66QAA = "13 Заданий"
 Inst66QAH = "13 Заданий"
 
 --Quest 1 Alliance
-Inst66Quest1 = "1. To Skettis!"
+Inst66Quest1 = "1. В Скеттис!"
 Inst66Quest1_Level = "70"
 Inst66Quest1_Attain = "70"
-Inst66Quest1_Aim = "Take the Explosives Package to Sky Sergeant Doryn at Blackwind Landing outside Skettis."
-Inst66Quest1_Location = "Yuula (Шаттрат; "..YELLOW.."65,42"..WHITE..")"
-Inst66Quest1_Note = "The предшествующее задание is also obtained from the same NPC. Blackwind Landing находится около "..YELLOW.."[1]"..WHITE.."."
-Inst66Quest1_Prequest = "Threat from Above"
-Inst66Quest1_Folgequest = "Fires Over Skettis"
+Inst66Quest1_Aim = "Отнесите упаковку взрывчатки сержанту Дорину в лагерь Черного Ветра рядом со Скеттисом."
+Inst66Quest1_Location = "Юула (Шаттрат; "..YELLOW.."65,42"..WHITE..")"
+Inst66Quest1_Note = "The предыдущее задание дается этим же NPC. Лагерь Черного Ветра находится около "..YELLOW.."[1]"..WHITE.."."
+Inst66Quest1_Prequest = "Атака с воздуха"
+Inst66Quest1_Folgequest = "Огонь над Скеттисом"
 Inst66Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst66Quest2 = "2. Fires Over Skettis (ежедн.)"
+Inst66Quest2 = "2. Огонь над Скеттисом (ежедн.)"
 Inst66Quest2_Level = "70"
 Inst66Quest2_Attain = "70"
-Inst66Quest2_Aim = "Seek out Monstrous Kaliri Eggs on the tops of Skettis dwellings and use the Skyguard Blasting Charges on them. Return to Sky Sergeant Doryn."
-Inst66Quest2_Location = "Sky Sergeant Doryn (Лес Тероккар - Blackwing Landing; "..YELLOW.."65,66"..WHITE..")"
-Inst66Quest2_Note = "This quest can be completed once a day. The eggs can be bombed while on your flying mount from the air. Watch out for the Monstrous Kaliri birds flying around as they can dismount you if you aggro. The quest can be done as a group."
-Inst66Quest2_Prequest = "To Skettis!"
+Inst66Quest2_Aim = "Найдите яйца чудовищных калири на верхушках домов Скеттиса и сбросьте на них взрывчатку Стражи Небес, после чего вернитесь к небесному сержанту Дорину."
+Inst66Quest2_Location = "Небесный сержант Дорин (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."65,66"..WHITE..")"
+Inst66Quest2_Note = "Это ежедневное задание. The eggs can be bombed while on your flying mount from the air. Watch out for the Monstrous Kaliri birds flying around as they can dismount you if you aggro. The quest can be done as a group."
+Inst66Quest2_Prequest = "В Скеттис!"
 Inst66Quest2_Folgequest = "Нет"
 Inst66Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst66Quest3 = "3. Escape from Skettis (ежедн.)"
+Inst66Quest3 = "3. Побег из Скеттиса (ежедн.)"
 Inst66Quest3_Level = "70"
 Inst66Quest3_Attain = "70"
-Inst66Quest3_Aim = "Escort the Skyguard Prisoner to safety and report to Sky Sergeant Doryn."
-Inst66Quest3_Location = "Skyguard Prisoner (Лес Тероккар - Skettis; "..YELLOW.."[4]"..WHITE..")"
-Inst66Quest3_Note = "This quest can be completed once a day and will become available after completing 'To Skettis!'.\nThe Skyguard Prisoner randomly spawns at one of the three locations marked as "..YELLOW.."[4]"..WHITE..".  The quest can be done as a group."
+Inst66Quest3_Aim = "Проводите плененного Стража Небес в безопасное место, а затем доложите небесному сержанту Дорину."
+Inst66Quest3_Location = "Плененный Страж Небес (Лес Тероккар - Скеттис; "..YELLOW.."[4]"..WHITE..")"
+Inst66Quest3_Note = "Это ежедневное задание и его можно получить только после выполнения задания 'В Скеттис!'.\nThe Skyguard Prisoner randomly spawns at one of the three locations marked as "..YELLOW.."[4]"..WHITE..".  The quest can be done as a group."
 Inst66Quest3_Prequest = "Нет"
 Inst66Quest3_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst66Quest4 = "4. Hungry Nether Rays"
+Inst66Quest4 = "4. Пропитание для скатов Пустоты"
 Inst66Quest4_Level = "70"
 Inst66Quest4_Attain = "70"
-Inst66Quest4_Aim = "Use the Nether Ray Cage in the woods south of Blackwind Landing and slay Blackwind Warp Chasers near the Hungry Nether Ray. Return to Skyguard Handler Deesak when you've completed your task."
-Inst66Quest4_Location = "Skyguard Handler Deesak (Лес Тероккар - Blackwing Landing; "..YELLOW.."63,66"..WHITE..")"
+Inst66Quest4_Aim = "Возьмите клетку для скатов Пустоты в лес к югу от лагеря Черного Ветра и убейте прыгуан-ловцов Долины Черного Ветра около голодного ската Пустоты. После этого вернитесь к укротителю Диисаку из Стражи Небес."
+Inst66Quest4_Location = "Укротитель Диисак из Стражи Небес (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."63,66"..WHITE..")"
 Inst66Quest4_Note = "The Blackwing Warp Chasers (make sure you kill Chasers, not Stalkers) can be found along the southern edge of Skettis. The Hungry Nether Ray must be close to the Chaser when it is killed. Don't move away from the corpse until you get quest credit, it usually takes a few seconds."
 Inst66Quest4_Prequest = "Нет"
 Inst66Quest4_Folgequest = "Нет"
@@ -11694,109 +11694,109 @@ Inst66Quest4name1 = "Elixir of Major Agility"
 Inst66Quest4name2 = "Adept's Elixir"
 
 --Quest 5 Alliance
-Inst66Quest5 = "5. World of Shadows"
+Inst66Quest5 = "5. Мир Теней"
 Inst66Quest5_Level = "70"
 Inst66Quest5_Attain = "70"
-Inst66Quest5_Aim = "Severin wants you to venture into Skettis and retrieve 6 Shadow Dusts from the arakkoa that dwell there."
-Inst66Quest5_Location = "Severin (Лес Тероккар - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest5_Note = "This quest is repeatable. Any of the Arakkoa can drop the Shadow Dust."
+Inst66Quest5_Aim = "Проберитесь в Скеттис и добудьте 6 горстей теневой пыли с местных араккоа, после чего отнесите пыль Северину."
+Inst66Quest5_Location = "Северин (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest5_Note = "Это повторяемое задание. С любого Арракоа может упасть Теневая пыль"
 Inst66Quest5_Prequest = "Нет"
 Inst66Quest5_Folgequest = "Нет"
 --
 Inst66Quest5name1 = "Elixir of Shadows"
 
 --Quest 6 Alliance
-Inst66Quest6 = "6. Secrets of the Talonpriests"
+Inst66Quest6 = "6. Тайны жрецов когтя"
 Inst66Quest6_Level = "70"
 Inst66Quest6_Attain = "70"
-Inst66Quest6_Aim = "Obtain an Elixir of Shadows from Severin and use it to find and slay Talonpriest Ishaal, Talonpriest Skizzik and Talonpriest Zellek in Skettis. Return to Commander Adaris after completing this task."
-Inst66Quest6_Location = "Sky Commander Adaris (Лес Тероккар - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest6_Note = "You must complete World of Shadows to obtain the Elixir of Shadows before you can do this quest.\n\nTalonpriest Ishaal находится около "..YELLOW.."[5]"..WHITE..", Talonpriest Skizzik находится около "..YELLOW.."[6]"..WHITE.." and Talonpriest Zellek находится около "..YELLOW.."[7]"..WHITE.."."
-Inst66Quest6_Prequest = "World of Shadows"
+Inst66Quest6_Aim = "Возьмите у Северина эликсир Силы Теней и с его помощью найдите и убейте жрецов когтя: Ишаала, Скиззика и Зеллека в Скеттисе. После этого вернитесь к командиру Адарису."
+Inst66Quest6_Location = "Небесный командир Адарис (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest6_Note = "Вы должны сначала выполнить задание 'Мир Теней', чтобы получить 'Эликсир Теней', для выполнения этого задания.\n\nTalonpriest Ishaal находится около "..YELLOW.."[5]"..WHITE..", Talonpriest Skizzik находится около "..YELLOW.."[6]"..WHITE.." and Talonpriest Zellek находится около "..YELLOW.."[7]"..WHITE.."."
+Inst66Quest6_Prequest = "Мир Теней"
 Inst66Quest6_Folgequest = "Нет"
 Inst66Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst66Quest7 = "7. Ishaal's Almanac"
+Inst66Quest7 = "7. Альманах Ишаала"
 Inst66Quest7_Level = "70"
 Inst66Quest7_Attain = "70"
-Inst66Quest7_Aim = "Bring Ishaal's Almanac to Sky Commander Adaris north of Skettis."
-Inst66Quest7_Location = "Ishaal's Almanac (drops from Talonpriest Ishaal; "..YELLOW.."[5]"..WHITE..")"
-Inst66Quest7_Note = "Sky Commander Adaris находится около Лес Тероккар - Blackwing Landing ("..YELLOW.."64,66"..WHITE..")."
+Inst66Quest7_Aim = "Принесите альманах Ишаала небесному командиру Адарису к северу от Скеттиса."
+Inst66Quest7_Location = "Альманах Ишаала (падает с Жреца Когтя Ишааля; "..YELLOW.."[5]"..WHITE..")"
+Inst66Quest7_Note = "Небесный командир Адарис находится в Лесу Тероккар - лагерь Черного Ветра ("..YELLOW.."64,66"..WHITE..")."
 Inst66Quest7_Prequest = "Нет"
-Inst66Quest7_Folgequest = "An Ally in Нижний город"
+Inst66Quest7_Folgequest = "Союзник в Нижнем Городе"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst66Quest8 = "8. An Ally in Нижний город"
+Inst66Quest8 = "8. Союзник в Нижнем Городе"
 Inst66Quest8_Level = "70"
 Inst66Quest8_Attain = "70"
 Inst66Quest8_Aim = "Bring Ishaal's Almanac to Rilak the Redeemed in Нижний город inside Шаттрат."
-Inst66Quest8_Location = "Sky Commander Adaris (Лес Тероккар - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest8_Note = "Rilak the Redeemed находится около Шаттрат - Нижний город ("..YELLOW.."52,20"..WHITE..")."
-Inst66Quest8_Prequest = "Ishaal's Almanac"
-Inst66Quest8_Folgequest = "Countdown to Doom"
+Inst66Quest8_Location = "Небесный командир Адарис (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest8_Note = "Рилак Освобожденный находится в Шаттрате - Нижнем городе ("..YELLOW.."52,20"..WHITE..")."
+Inst66Quest8_Prequest = "Альманах Ишаала"
+Inst66Quest8_Folgequest = "Оставшееся время"
 Inst66Quest8FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst66Quest9 = "9. Countdown to Doom"
+Inst66Quest9 = "9. Оставшееся время"
 Inst66Quest9_Level = "70"
 Inst66Quest9_Attain = "70"
 Inst66Quest9_Aim = "Return to Sky Commander Adaris with the news about Terokk's return."
 Inst66Quest9_Location = "Rilak the Redeemed (Шаттрат - Нижний город; "..YELLOW.."52,20"..WHITE..")"
-Inst66Quest9_Note = "Sky Commander Adaris находится около Лес Тероккар - Blackwing Landing ("..YELLOW.."64,66"..WHITE.."). Hazzik, who is nearby, will give you the followup quest."
-Inst66Quest9_Prequest = "An Ally in Нижний город"
-Inst66Quest9_Folgequest = "Hazzik's Bargain"
+Inst66Quest9_Note = "Sky Commander Adaris находится около Лес Тероккар - лагерь Черного Ветра ("..YELLOW.."64,66"..WHITE.."). Hazzik, who is nearby, will give you the followup quest."
+Inst66Quest9_Prequest = "Союзник в Нижнем Городе"
+Inst66Quest9_Folgequest = "Просьба Хаззика"
 Inst66Quest9FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst66Quest10 = "10. Hazzik's Bargain"
+Inst66Quest10 = "10. Просьба Хаззика"
 Inst66Quest10_Level = "70"
 Inst66Quest10_Attain = "70"
 Inst66Quest10_Aim = "Obtain Hazzik's Package at his dwelling in eastern Skettis and return to him with it."
-Inst66Quest10_Location = "Hazzik (Лес Тероккар - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest10_Location = "Hazzik (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest10_Note = "Hazzik's Package находится в a hut at "..YELLOW.."[8]"..WHITE.."."
-Inst66Quest10_Prequest = "Countdown to Doom"
-Inst66Quest10_Folgequest = "A Shabby Disguise"
+Inst66Quest10_Prequest = "Оставшееся время"
+Inst66Quest10_Folgequest = "Потрепанная маскировка"
 Inst66Quest10FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst66Quest11 = "11. A Shabby Disguise"
+Inst66Quest11 = "11. Потрепанная маскировка"
 Inst66Quest11_Level = "70"
 Inst66Quest11_Attain = "70"
 Inst66Quest11_Aim = "Use the Shabby Arakkoa Disguise to obtain the Adversarial Bloodlines from Sahaak and return to Hazzik."
-Inst66Quest11_Location = "Hazzik (Лес Тероккар - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest11_Location = "Hazzik (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest11_Note = "Sahaak находится около "..YELLOW.."[3]"..WHITE..". If any Arakkoa other than Sahaak see you with the disguise, they will attack you."
-Inst66Quest11_Prequest = "Hazzik's Bargain"
-Inst66Quest11_Folgequest = "Adversarial Blood"
+Inst66Quest11_Prequest = "Просьба Хаззика"
+Inst66Quest11_Folgequest = "Вражья кровь"
 Inst66Quest11FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst66Quest12 = "12. Adversarial Blood"
+Inst66Quest12 = "12. Вражья кровь"
 Inst66Quest12_Level = "70"
 Inst66Quest12_Attain = "70"
 Inst66Quest12_Aim = "Find the Skull Piles in the middle of the summoning circles of Skettis. Summon and defeat each of the descendants by using 10 Time-Lost Scrolls at the Skull Pile. Return to Hazzik at Blackwind Landing with a token from each."
-Inst66Quest12_Location = "Hazzik (Лес Тероккар - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest12_Location = "Hazzik (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest12_Note = "The skull piles are at "..GREEN.."[1']"..WHITE..". Only one quest item per group drops for each kill. So each group member who needs the quest will need 10 Scrolls to summon the descendants for their item. The quest item is green quality, so it will have to be rolled for if group loot is on. This quest is repeatable."
-Inst66Quest12_Prequest = "A Shabby Disguise"
+Inst66Quest12_Prequest = "Потрепанная маскировка"
 Inst66Quest12_Folgequest = "Нет"
 Inst66Quest12FQuest = "true"
 --
 Inst66Quest12name1 = "Time-Lost Offering"
 
 --Quest 13 Alliance
-Inst66Quest13 = "13. Terokk's Downfall"
+Inst66Quest13 = "13. Падение Терокка"
 Inst66Quest13_Level = "70"
 Inst66Quest13_Attain = "70"
-Inst66Quest13_Aim = "Take the Time-Lost Offering prepared by Hazzik to the Skull Pile at the center of Skettis and summon and defeat Terokk. Return to Sky Commander Adaris when you've completed this task."
-Inst66Quest13_Location = "Sky Commander Adaris (Лес Тероккар - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest13_Note = "Terokk is summoned at "..YELLOW.."[2]"..WHITE..". Tip from fissi0nx on Wowhead:\nAt 20% Terokk becomes immune to all attacks, and you'll see a blue flare shortly afterward, where a bomb will drop down. Drag Terokk into the flame to break his shield. He'll become enraged but you'll be able to kill him."
-Inst66Quest13_Prequest = "Adversarial Blood"
+Inst66Quest13_Aim = "Возьмите приготовленное Хаззиком Подношение Затерянного во Времени и отнесите его к груде черепов в центре Скеттиса. С помощью подношения призовите Терокка и сразитесь с ним, после чего вернитесь к небесному командиру Адарису."
+Inst66Quest13_Location = "Небесный командир Адарис (Лес Тероккар - лагерь Черного Ветра; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest13_Note = "Терокк призывается в "..YELLOW.."[2]"..WHITE..". Tip from fissi0nx on Wowhead:\nAt 20% Terokk becomes immune to all attacks, and you'll see a blue flare shortly afterward, where a bomb will drop down. Drag Terokk into the flame to break his shield. He'll become enraged but you'll be able to kill him."
+Inst66Quest13_Prequest = "Вражья кровь"
 Inst66Quest13_Folgequest = "Нет"
 Inst66Quest13PreQuest = "true"
 --
@@ -11967,8 +11967,6 @@ Inst66Quest13name1_HORDE = Inst66Quest13name1
 Inst66Quest13name2_HORDE = Inst66Quest13name2
 Inst66Quest13name3_HORDE = Inst66Quest13name3
 Inst66Quest13name4_HORDE = Inst66Quest13name4
-
-
 
 
 ---------------------------
