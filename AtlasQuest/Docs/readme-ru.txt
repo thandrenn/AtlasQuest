@@ -1,39 +1,39 @@
-
-AtlasQuest (Атлас [Задания])
-Разработано Thandrenn (aka Mystery8)
+п»ї
+AtlasQuest (РђС‚Р»Р°СЃ [Р—Р°РґР°РЅРёСЏ])
+Р Р°Р·СЂР°Р±РѕС‚Р°РЅРѕ Thandrenn (aka Mystery8)
 Email: mystery8@gmail.com
 Forum: http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 
 
 
-О Атлас [Задания]:
+Рћ РђС‚Р»Р°СЃ [Р—Р°РґР°РЅРёСЏ]:
 =================
 
-AtlasQuest это дополнение к Atlas или AlphaMap, которое показывает список
-заданий для подземелий, полей сражений и внешних рейдовых схваток с
-указанием информации по прохождению и наградами за это задание. 
+AtlasQuest СЌС‚Рѕ РґРѕРїРѕР»РЅРµРЅРёРµ Рє Atlas РёР»Рё AlphaMap, РєРѕС‚РѕСЂРѕРµ РїРѕРєР°Р·С‹РІР°РµС‚ СЃРїРёСЃРѕРє
+Р·Р°РґР°РЅРёР№ РґР»СЏ РїРѕРґР·РµРјРµР»РёР№, РїРѕР»РµР№ СЃСЂР°Р¶РµРЅРёР№ Рё РІРЅРµС€РЅРёС… СЂРµР№РґРѕРІС‹С… СЃС…РІР°С‚РѕРє СЃ
+СѓРєР°Р·Р°РЅРёРµРј РёРЅС„РѕСЂРјР°С†РёРё РїРѕ РїСЂРѕС…РѕР¶РґРµРЅРёСЋ Рё РЅР°РіСЂР°РґР°РјРё Р·Р° СЌС‚Рѕ Р·Р°РґР°РЅРёРµ. 
 
-AtlasQuest был создан Asurn. В настоящий момент разрабатывается и
-поддерживается Thandrenn (aka Mystery8).
+AtlasQuest Р±С‹Р» СЃРѕР·РґР°РЅ Asurn. Р’ РЅР°СЃС‚РѕСЏС‰РёР№ РјРѕРјРµРЅС‚ СЂР°Р·СЂР°Р±Р°С‚С‹РІР°РµС‚СЃСЏ Рё
+РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ Thandrenn (aka Mystery8).
 
-Информация для AtlasQuest собирается "из первых рук" в игре, либо с
-ресурсов: WoWhead.com(ru.WoWhead.com), Thottbot.com or WoWwiki.com.
+РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ AtlasQuest СЃРѕР±РёСЂР°РµС‚СЃСЏ "РёР· РїРµСЂРІС‹С… СЂСѓРє" РІ РёРіСЂРµ, Р»РёР±Рѕ СЃ
+СЂРµСЃСѓСЂСЃРѕРІ: WoWhead.com(ru.WoWhead.com), Thottbot.com or WoWwiki.com.
 
 
 
-Переводы:
+РџРµСЂРµРІРѕРґС‹:
 =============
 
-EN: Thandrenn  (ранее Asurn и Lothaer)
-DE: Telchar and Nalumis  (ранее Asurn и Nihlo)
-CN: yeachan (ранее DIY)
+EN: Thandrenn  (СЂР°РЅРµРµ Asurn Рё Lothaer)
+DE: Telchar and Nalumis  (СЂР°РЅРµРµ Asurn Рё Nihlo)
+CN: yeachan (СЂР°РЅРµРµ DIY)
 TW: Jill
-RU: EvgeshaH (перевод до WotLK от lorientalas)
+RU: EvgeshaH (РїРµСЂРµРІРѕРґ РґРѕ WotLK РѕС‚ lorientalas)
 
 
 
-Лицензия:
+Р›РёС†РµРЅР·РёСЏ:
 ========
 
-AtlasQuest распространяется по лицензии GNU General Public License (GPL).
-Для прочтения полного текста лицензии см.: GPL-v2-ru.txt
+AtlasQuest СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ РїРѕ Р»РёС†РµРЅР·РёРё GNU General Public License (GPL).
+Р”Р»СЏ РїСЂРѕС‡С‚РµРЅРёСЏ РїРѕР»РЅРѕРіРѕ С‚РµРєСЃС‚Р° Р»РёС†РµРЅР·РёРё СЃРј.: GPL-v2-ru.txt
