@@ -9450,7 +9450,7 @@ Inst68QAH = "No Quests"
 
 --------------- INST69 - Caverns of Time: Stratholme Past ---------------
 
-Inst69Story = "Stratholme Past is one of the timeways accessible in the Caverns of Time. It is centered around helping Prince Arthas purge the city of Stratholme from the grain-infected populace, and is one of the first acts in Arthas' descent into madness and evil, eventually becoming one of the Lich King's greatest death knights and later the Lich King himself.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst69Story = "Prior to his unthinkable merger with the Lich King, Arthas waged war against the Scourge, bent on eradicating the plague of undeath that had spread throughout Lordaeron. After Arthas watched villages succumb to darkness and saw his fallen subjects transformed into hideous undead creatures, fear and hate engulfed his mind. Upon discovering signs of the plague within Stratholme, he knew it was only a matter of time before the residents of the city were reborn as Scourge agents. For Arthas, there was only one course of action: purge the city. Yet within the Caverns of Time, deceptive magic permeates Stratholme. The infinite dragons and their agents have targeted Arthas and his quest to cull the city, seeking to alter history. Fearing the temporal disruption might jeopardize Azeroth's very existence, the bronze dragonflight has called upon mortals to assist Arthas and ensure that the purge is carried out successfully. Regardless of how vile the event might seem, the keepers of time maintain that what was, must always be."
 Inst69Caption = "CoT: Stratholme Past"
 Inst69QAA = "4 Quests"
 Inst69QAH = "4 Quests"
@@ -9568,7 +9568,7 @@ Inst69Quest4name4_HORDE = Inst69Quest4name4
 
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
-Inst70Story = "Utgarde Keep is the first dungeon hub located on the shores of Lake Cauldros in the Howling Fjord of Northrend. Inhabited by the vrykul (led by King Ymiron), a half-giant Viking-like race bent on proving their strength to the Lich King, they are raising the most worthy of their warriors to serve him beyond the grave here at their main base of operations.\n\n"..GREEN.."Quoted from WoW Head"
+Inst70Story = "Among the cliffs of the Daggercap Bay in the Howling Fjord stands Utgarde Keep, an impervious fortress occupied by the savage and enigmatic vrykul. With mysterious, foul magic and proto-dragons at their command, the vrykul of Utgarde Keep pose an imminent threat to both the Alliance and the Horde. Only the bravest would dare to strike against Ymiron's faithful and delve into the heart of the vrykul's primeval home."
 Inst70Caption = "Utgarde Keep"
 Inst70QAA = "3 Quests"
 Inst70QAH = "4 Quests"
@@ -9675,7 +9675,7 @@ Inst70Quest4name4_HORDE = "Tiled-Stone Pendant"
 
 --------------- INST71 - Utgarde Keep: Utgarde Pinnacle ---------------
 
-Inst71Story = "Utgarde Keep is the first dungeon hub located on the shores of Lake Cauldros in the Howling Fjord of Northrend. Inhabited by the vrykul (led by King Ymiron), a half-giant Viking-like race bent on proving their strength to the Lich King, they are raising the most worthy of their warriors to serve him beyond the grave here at their main base of operations.\n\n"..GREEN.."Quoted from WoW Head"
+Inst71Story = "Among the cliffs of the Daggercap Bay in the Howling Fjord stands Utgarde Keep, an impervious fortress occupied by the savage and enigmatic vrykul. With mysterious, foul magic and proto-dragons at their command, the vrykul of Utgarde Keep pose an imminent threat to both the Alliance and the Horde. Only the bravest would dare to strike against Ymiron's faithful and delve into the heart of the vrykul's primeval home."
 Inst71Caption = "Utgarde Pinnacle"
 Inst71QAA = "4 Quests"
 Inst71QAH = "4 Quests"
@@ -9801,7 +9801,7 @@ Inst71Quest4name5_HORDE = Inst71Quest4name5
 
 --------------- INST72 - The Nexus: The Nexus ---------------
 
-Inst72Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\n"..GREEN.."Quoted from WoW Head"
+Inst72Story = "The blue Dragon Aspect, Malygos, has created rifts with his manipulation of raw magical power: tears in the very fabric of the magical dimension. The Kirin Tor, the elite magi of Dalaran, have formed a council with the red dragonflight, who are charged with the preservation of life. To this end, the two groups have begun actively subverting Malygos's devastating campaign. The sides have been chosen; the battle lines have been drawn. The only question that remains now is...Who will win."
 Inst72Caption = "The Nexus: The Nexus"
 Inst72QAA = "5 Quests"
 Inst72QAH = "5 Quests"
@@ -9961,7 +9961,7 @@ Inst72Quest5name5_HORDE = Inst72Quest5name5
 
 --------------- INST73 - The Nexus: The Oculus ---------------
 
-Inst73Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\n"..GREEN.."Quoted from WoW Head"
+Inst73Story = "The blue Dragon Aspect, Malygos, has created rifts with his manipulation of raw magical power: tears in the very fabric of the magical dimension. The Kirin Tor, the elite magi of Dalaran, have formed a council with the red dragonflight, who are charged with the preservation of life. To this end, the two groups have begun actively subverting Malygos's devastating campaign. The sides have been chosen; the battle lines have been drawn. The only question that remains now is...Who will win."
 Inst73Caption = "The Nexus: The Oculus"
 Inst73QAA = "6 Quests"
 Inst73QAH = "6 Quests"
@@ -10135,7 +10135,7 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
-Inst74Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\nThe Eye of Eternity is the final instance and the only raid of The Nexus, in which players will be able to defeat the blue dragon aspect Malygos.\n\n"..GREEN.."Quoted from WoW Head"
+Inst74Story = "rom within the safety of his personal domain, the Eye of Eternity, Malygos coordinates a crusade to reestablish his dominance over the arcane energies coursing through Azeroth. In his eyes, the foolish actions of the Kirin Tor and other mortal magi have plunged the world into chaos, and the abuse of their powers will no longer be tolerated. Threatened by the Spell-Weaver's brutal tactics, the Kirin Tor has allied itself with the red dragonflight. Together, the two groups closely observe Malygos, searching for a way to thwart his campaign and strike out at the Aspect of Magic, but thus far the elusive Spell-Weaver has proven difficult to engage.\n\nAt Wyrmrest Temple, the ancient meeting ground of the dragonflights, Alexstrasza and the ambassadors of other flights have discussed Malygos' recklessness and reluctantly concluded that he is beyond the point of salvation. With the red dragons' assistance, Azeroth's heroes may be able to accomplish what has formerly been unthinkable: challenging the Spell-Weaver from inside the Eye of Eternity. Sustaining the safety of Azeroth depends on Malygos' defeat, but his end will also herald a new age: a world of unguarded magic, absent of the Dragon Aspect powerful enough to watch over it."
 Inst74Caption = "The Nexus: The Eye of Eternity"
 Inst74QAA = "No Quests"
 Inst74QAH = "No Quests"
@@ -10272,7 +10272,7 @@ Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
 Inst76Quest3_Aim = "You are to collect 6 Grotesque Fungus from Savage Cave Beasts in Ahn'kahet and deliver them to Kilix the Unraveler in The Pit of Narjun."
 Inst76Quest3_Location = "Ooze-covered Fungus (drops from Savage Cave Beasts in Ahn'kahet)"
-Inst76Quest3_Note = "Kilix the Unraveler is at (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")."
+Inst76Quest3_Note = "The Savage Cave Beasts that drop the items for the quest are near and around "..YELLOW.."[5]"..WHITE..". Kilix the Unraveler is at (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")."
 Inst76Quest3_Prequest = "None"
 Inst76Quest3_Folgequest = "None"
 -- No Rewards for this quest
@@ -10348,7 +10348,7 @@ Inst76Quest4name4_HORDE = Inst76Quest4name4
 
 --------------- INST77 - Ulduar: Halls of Stone ---------------
 
-Inst77Story = "Ulduar is a dungeon hub located at The Storm Peaks of Northrend and is a treasure trove of information on the Titans and their activities. Ulduar is a mysterious subterranean realm of ice and stone. It is controlled by storm giants, and their minions the crystal golems. The entrance is well-hidden and heavily guarded, only allowing the clever to sneak inside. These giants are a dying race desperately avoiding their fate, hiding rather than fighting in the battle of the Sourage.\n\nHalls of Stone is a large 5 five-man dungeon, and is the first instance of the titan city Ulduar wing.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst77Story = "In the frigid cliffs of the Storm Peaks, legendary explorer Brann Bronzebeard spent countless hours piecing together clues about a recently discovered titan city known as Ulduar. But far from unearthing the mysteries of the titans, the explorer found the city overrun with iron dwarves. Eager to save the priceless information within the titan city before it was destroyed and lost forever, Brann feared that an even greater evil could be at work behind the fall of Ulduar...."
 Inst77Caption = "Ulduar: Halls of Stone"
 Inst77QAA = "2 Quests"
 Inst77QAH = "2 Quests"
@@ -10412,7 +10412,7 @@ Inst77Quest2name4_HORDE = Inst77Quest2name4
 
 --------------- INST78 - Ulduar: Halls of Lightning ---------------
 
-Inst78Story = "Ulduar is a dungeon hub located at The Storm Peaks of Northrend and is a treasure trove of information on the Titans and their activities. Ulduar is a mysterious subterranean realm of ice and stone. It is controlled by storm giants, and their minions the crystal golems. The entrance is well-hidden and heavily guarded, only allowing the clever to sneak inside. These giants are a dying race desperately avoiding their fate, hiding rather than fighting in the battle of the Sourage.\n\nHalls of Lightning is the second and highest level 5 five-man dungeon connected to the titan city Ulduar.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst78Story = "In the frigid cliffs of the Storm Peaks, legendary explorer Brann Bronzebeard spent countless hours piecing together clues about a recently discovered titan city known as Ulduar. But far from unearthing the mysteries of the titans, the explorer found the city overrun with iron dwarves. Eager to save the priceless information within the titan city before it was destroyed and lost forever, Brann feared that an even greater evil could be at work behind the fall of Ulduar...."
 Inst78Caption = "Ulduar: Halls of Lightning"
 Inst78QAA = "4 Quests"
 Inst78QAH = "4 Quests"
@@ -10809,7 +10809,7 @@ Inst81Quest4name5_HORDE = Inst81Quest4name5
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Story = "Beneath the floating city of Dalaran is the 5 man dungeon The Violet Hold. Kirin Tor prison guards are fending off invaders of the blue dragonflight and under orders from Malygos, they are using magical portals to enter the hold and try to break through the exit in order to enter the city.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst82Story = "Among the ornate spires and enchanted streets of Dalaran, a dark presence stirs within the mighty walls of the Violet Hold. Long used to restrain threats to the city, the tower holds row upon row of deadly inmates, and it has been diligently watched over by the Kirin Tor. However, a sudden assault has tested the integrity of the hold, putting at risk the safety of everyone outside the prison's walls. Using the dungeon as a means to breach the city, Malygos and his blue dragonflight have begun to chip away at the Violet Hold's defenses, hungry to reclaim arcane dominance over Azeroth. Only the brave souls of those protecting the prison stand between the continued existence of Dalaran and the city's utter annihilation."
 Inst82Caption = "The Violet Hold"
 Inst82QAA = "3 Quests"
 Inst82QAH = "3 Quests"
@@ -10897,7 +10897,11 @@ Inst82Quest3name4_HORDE = Inst82Quest3name4
 
 --------------- INST84 - Naxxramas (Naxx) ---------------
 
-Inst84Story = "Floating above the Dragonblight, the necropolis known as Naxxramas serves as the seat of one of the Lich King's most powerful officers, the dreaded lich Kel'Thuzad. Horrors of the past and new terrors yet to be unleashed are gathering inside the necropolis as the Lich King's servants prepare their assault. Soon the Scourge will march again..."
+Inst84Story = {
+  ["Page1"] = "Years ago, the crypt lord Anub'arak led an army of undead warriors into the ancient nerubian ziggurat now known as Naxxramas. The Scourge forces overran the citadel, and under the will of the Lich King its corridors were transformed into a potent war machine. Dark magic tore the fortress from its subterranean home and lifted it into the sky. Hidden behind a thick layer of clouds, Naxxramas grew in strength. At the Lich King's bidding, the burgeoning wrath within the necropolis was unleashed upon the world. Brave heroes breached the citadel and eventually overcame Naxxramas' vile commander, the lich Kel'Thuzad, but the victory was short-lived.",
+  ["Page2"] = "Above the war-ravaged wastes of the Dragonblight, Naxxramas has returned with renewed fury. Kel'Thuzad, once again seated in the frigid heart of the necropolis, has laid siege to the Alliance fortress of Wintergarde Keep. As factions from around the world converge at the gate to Icecrown, the war against the Scourge enters its most pivotal hour. It is within Naxxramas that the tide of battle could turn against the Lich King... or irrevocably in his favor.",
+  ["MaxPages"] = "2",
+};
 Inst84Caption = "Naxxramas"
 Inst84QAA = "No Quests"
 Inst84QAH = "No Quests"
@@ -10906,7 +10910,7 @@ Inst84QAH = "No Quests"
 
 --------------- INST85 - Vault of Archavon ---------------
 
-Inst85Story = "Vault of Archavon is a single-boss raid located within Wintergrasp's fortress. It is accessible for four hours to the winning faction that claims victory over Wintergrasp.\n\nPlayers who wish to enter this instance may also use the portal activated in Dalaran, only available to players of the winning faction.\n\n"..GREEN.."Quoted from WoWHead"
+Inst85Story = "Overlooking the frozen plains of the Great Dragonblight and the inhospitable wastes of Borean Tundra lies a region known to the denizens of Northrend as Wintergrasp. Seated atop a high plateau, Wintergrasp has remained undisturbed for ages, its icy winds howling unheard amongst the ancient titan fortifications that dot the landscape. However, an abundance of elemental materials and its strategically important titan fortifications are making Wintergrasp the focus of a vicious tug-of-war between the Horde and the Alliance. And then there are the persistent rumors of an ancient titan vault beneath Wintergrasp's keep. One can only marvel at the thought of what treasures may be waiting there...."
 Inst85Caption = "Vault of Archavon"
 Inst85QAA = "No Quests"
 Inst85QAH = "No Quests"
@@ -11637,10 +11641,9 @@ Inst32QAH = "No Quests"
 --------------- INST64 - Doom Lord Kazzak ---------------
 
 Inst64Story = {
-  ["Page1"] = "Kazzak the Supreme, Kil'jaeden's Right Hand, known to most as the demon Lord Kazzak, 'Lord of Doomguard demons', was one of Archimonde's lieutenants during the Third War.\n\nAfter his master's defeat Kazzak pulled back. He and his forces then occupied a ravaged area in the Blasted Lands known as the Tainted Scar. He lived in a tower hidden in the poisonous fog. Kazzak was a mighty demon with great power, but he lacked independent initiative. Trapped within the Tainted Scar, he was completely cut off from contact with any other demonic forces on Azeroth. Even if such personages - such as Balnazzar - became aware of his presence, they would likely as not avoid contact for fear of Kazzak's power.",
-  ["Page2"] = "Two years after the founding of Durotar, with the future in peril, a relic of the past had also surfaced, radiating renewed energy. This relic had enabled Lord Kazzak to activate the current Dark Portal, thereby reopening the gateway to the shattered realm of Outland. With the portal now opened, Lord Kazzak was seen departing through the Dark Portal. In his stead he left his minion, Highlord Kruul, to sow fear and confusion among the defenders. Accompanied by a host of infernals, Kruul was seen near a number of major cities in Azeroth.\n\nOnce Lord Kazzak passed through back to Outland, he was promoted to Doom Lord Kazzak and set up his throne on top of Throne of Kil'jaeden, a mountain in the Hellfire Peninsula, which he protects to this day.",
-  ["Page3"] = "Unlike many demon leaders, who tend to stay behind the lines and direct their minions against a foe, Lord Kazzak loves nothing more than to wade right into the heat of battle. There, he shatters formations with his shadow storm ability while laying waste to individual heroes with his mighty greatsword. As the battle enters its most critical phase, he flies into a rage, reveling in an orgy of destruction.\n\n"..GREEN.."Quoted from WoWWiki",
-  ["MaxPages"] = "3",
+  ["Page1"] = "When the Burning Legion began its second invasion of Azeroth, Lord Kazzak served as one of the unholy army's greatest generals. At that time the Legion possessed a powerful weapon called the Glaive of the Aspects. Forged by demons during the War of the Ancients, the glaive was imbued with the forces of earth, time, dream, magic, and life: powers taken from the mighty dragons. Even so, Archimonde and his champions were defeated during the Battle of Mount Hyjal, and the glaive was shattered. Knowing the Third War had been decided, Kazzak was forced to withdraw. In the war's aftermath, the shards of the glaive were hidden away for safekeeping.",
+  ["Page2"] = "Recently Kazzak and his minions reactivated the Dark Portal, and Kazzak went through the portal to take command of the Legion's forces in Outland. In his absence, he entrusted his most powerful lieutenant, Highlord Kruul, with retrieving the Aspect Shards. In time Kruul succeeded, and the mighty glaive was reforged.\n\nWith the Glaive of the Aspects and the raging desire to scour all life from the universe, the Legion may prove unstoppable.",
+  ["MaxPages"] = "2",
 };
 Inst64Caption = "Doom Lord Kazzak"
 Inst64QAA = "No Quests"
@@ -11650,7 +11653,11 @@ Inst64QAH = "No Quests"
 
 --------------- INST65 - Doomwalker ---------------
 
-Inst65Story = "Doomwalker is a powerful Fel Reaver sent by Kil'jaeden to assault the gates of the Black Temple in Shadowmoon Valley.\n\nIt is an ?? Elite (Boss), and has exactly the same abilities as the normal Fel Reaver except from the overrun ability that is described below. It is much stronger and hurts a lot more.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst65Story = {
+  ["Page1"] = "The cunning mo'arg engineers of the Burning Legion pushed their gan'arg workers for weeks in the construction of the first fel reaver, a massive construct that could easily raze fortified towers or tear the wings off an airborne gryphon. Though pleased by the success of their construct, the engineers quickly realized that they could improve upon the design. While the forge camps began to mass-produce these fel reavers to smash the mortal forces of Outland, all the manpower of the mighty Legion Hold in Shadowmoon Valley was dedicated to the creation of a superior machine.",
+  ["Page2"] = "Now unleashed, Doomwalker rages throughout Shadowmoon Valley, annihilating everything in its path. Infused with the captured souls of martyred draenei, the Doomwalker is empowered with unparalleled fury and might. With the fortified strength of its gargantuan body and the unbridled power of countless tortured souls, this newest fel reaver is among the most powerful weapons of the Burning Legion.",
+  ["MaxPages"] = "2",
+};
 Inst65Caption = "Doomwalker"
 Inst65QAA = "No Quests"
 Inst65QAH = "No Quests"
