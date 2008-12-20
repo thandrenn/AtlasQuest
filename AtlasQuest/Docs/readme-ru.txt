@@ -17,7 +17,7 @@ AtlasQuest был создан Asurn. В настоящий момент раз�
 поддерживается Thandrenn (aka Mystery8).
 
 Информация для AtlasQuest собирается "из первых рук" в игре, либо с
-ресурсов: WoWhead.com(ru.WoWhead.com), Thottbot.com or WoWwiki.com.
+ресурсов: WoWhead.com(ru.WoWhead.com), Thottbot.com или WoWwiki.com.
 
 
 
