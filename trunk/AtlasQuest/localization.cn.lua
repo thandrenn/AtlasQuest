@@ -27,7 +27,7 @@
 --  Original updater:DIY,Yeachan,Ananhaid
     
 --  简体中文化：Yeachan（6区 阿拉希 Ahunter）
---  更新日期：08年12月17日
+--  更新日期：08年12月20日
 
 
 if ( GetLocale() == "zhCN" ) then
@@ -6650,7 +6650,7 @@ Inst41Quest1 = "1. 失踪的同伴"
 Inst41Quest1_Level = "65"
 Inst41Quest1_Attain = "62"
 Inst41Quest1_Aim = "查明缚地者雷葛、博学者拜特、除草者格林萨姆和唤风者克劳恩的下落，然后返回赞加沼泽的盘牙水库，向观察者杰哈恩复命。"
-Inst41Quest1_Location = "观察者杰哈恩 (盘牙水库; "..YELLOW.."52, 36"..WHITE..")"
+Inst41Quest1_Location = "观察者杰哈恩 (盘牙水库; "..YELLOW.."副本入口地图[1]"..WHITE..")"
 Inst41Quest1_Note = "博学者拜特在 "..YELLOW.."[6]"..WHITE..",除草者格林萨姆在 "..YELLOW.."[3]"..WHITE..", 这个任务还要去幽暗沼泽才能全部完成"
 Inst41Quest1_Prequest = "无"
 Inst41Quest1_Folgequest = "无"
@@ -7062,7 +7062,7 @@ Inst43Quest1 = "1. 失踪的同伴"
 Inst43Quest1_Level = "65"
 Inst43Quest1_Attain = "62"
 Inst43Quest1_Aim = "查明缚地者雷葛、博学者拜特、除草者格林萨姆和唤风者克劳恩的下落，然后返回赞加沼泽的盘牙水库，向观察者杰哈恩复命。"
-Inst43Quest1_Location = "观察者杰哈恩 (盘牙水库; "..YELLOW.."52, 36"..WHITE..")"
+Inst43Quest1_Location = "观察者杰哈恩 (盘牙水库; "..YELLOW.."副本入口地图[1]"..WHITE..")"
 Inst43Quest1_Note = "缚地者雷葛在 "..YELLOW.."[3]"..WHITE..", 唤风者克劳恩在 "..YELLOW.."[4]"..WHITE..".注意，雷葛是潜行的，你需要走近些才能看见它，克劳恩则需要杀掉BOSS或者将它打成16%的血它才能变回原形，才能和他说话完成任务"
 Inst43Quest1_Prequest = "无"
 Inst43Quest1_Folgequest = "无"
@@ -7116,7 +7116,7 @@ Inst43Quest5_Attain = "63"
 Inst43Quest5_Aim = "将5朵红色木槿交给赞加沼泽孢子村的舒特."
 Inst43Quest5_Location = "舒特 (赞加沼泽 - 孢子村; "..YELLOW.."19,50"..WHITE..")"
 Inst43Quest5_Note = "你必须和孢子村达到友善以上声望才能接到这个任务."
-Inst43Quest5_Prequest = "No"
+Inst43Quest5_Prequest = "无"
 Inst43Quest5_Folgequest = " 我还要红色木槿！"
 -- No Rewards for this quest
 
@@ -8269,7 +8269,7 @@ Inst51Quest3_Level = "68"
 Inst51Quest3_Attain = "66"
 Inst51Quest3_Aim = "准备就绪后告知萨尔。保护萨尔逃离敦霍尔德城堡，并与他一起搭救塔蕾莎。\n\n任务完成后与旧希尔斯布莱德丘陵的伊洛希恩谈一谈."
 Inst51Quest3_Location = "萨尔 (旧希尔斯布莱德 "..YELLOW.."[2]"..WHITE..")"
-Inst51Quest3_Note = "护送路上你会遇见3个BOSS，如果你半路失败需要从新重置副本来做."
+Inst51Quest3_Note = "护送路上你会遇见3个BOSS，如果你半路失败需要从新等待萨尔刷出才能重做."
 Inst51Quest3_Prequest = "塔蕾莎的计谋"
 Inst51Quest3_Folgequest = "返回安多尔姆身边"
 Inst51Quest3FQuest = "true"
@@ -9879,7 +9879,7 @@ Inst69QAA = "4 个任务"
 Inst69QAH = "4 个任务"
 
 --Quest 1 Alliance
-Inst69Quest1 = "1. 提迈尔的预言：永恒神探！ (普通日常)"
+Inst69Quest1 = "1. 提迈尔的预言：永恒密探！ (普通日常)"
 Inst69Quest1_Level = "80"
 Inst69Quest1_Attain = "80"
 Inst69Quest1_Aim = "根据达拉然的大法师提迈尔的预言，你必须去杀死4个永恒密探."
@@ -9906,7 +9906,7 @@ Inst69Quest2_Folgequest = "无"
 Inst69Quest2name1 = "Emblem of Heroism"
 
 --Quest 3 Alliance
-Inst69Quest3 = "3. 驱除幻想"
+Inst69Quest3 = "3. 驱除幻象"
 Inst69Quest3_Level = "80"
 Inst69Quest3_Attain = "78"
 Inst69Quest3_Aim = "克罗米要你对往日的斯坦索姆内的可疑箱子使用奥术干扰器，然后回到斯坦索姆的入口附近去见她."
@@ -10104,7 +10104,7 @@ Inst71QAA = "4 个任务"
 Inst71QAH = "4 个任务"
 
 --Quest 1 Alliance
-Inst71Quest1 = "1. 提迈尔的预言:伊米亚狂战士！ (普通日常)"
+Inst71Quest1 = "1. 提迈尔的预言：伊米亚狂战士！ (普通日常)"
 Inst71Quest1_Level = "80"
 Inst71Quest1_Attain = "80"
 Inst71Quest1_Aim = "达拉然的大法师提迈尔要你去杀死7个伊米亚狂战士."
@@ -10248,7 +10248,7 @@ Inst72Quest1_Folgequest = "无"
 Inst72Quest1name1 = "Emblem of Heroism"
 
 --Quest 2 Alliance
-Inst72Quest2 = "2. 他们丝毫不感到羞愧吗?"
+Inst72Quest2 = "2. 他们丝毫不感到羞愧吗？"
 Inst72Quest2_Level = "71"
 Inst72Quest2_Attain = "70"
 Inst72Quest2_Aim = "图书馆员赛尔拉希望你进入魔枢，找回伯林纳德的研究笔记."
@@ -10400,7 +10400,7 @@ Inst73QAA = "6 个任务"
 Inst73QAH = "6 个任务"
 
 --Quest 1 Alliance
-Inst73Quest1 = "1. 提迈尔的预言：离心构造体 (日常)"
+Inst73Quest1 = "1. 提迈尔的预言：离心构造体！ (日常)"
 Inst73Quest1_Level = "80"
 Inst73Quest1_Attain = "80"
 Inst73Quest1_Aim = "根据达拉然的大法师提迈尔的语言，你必须去消灭10台离心构造体."
@@ -10587,12 +10587,12 @@ Inst75QAA = "3 个任务"
 Inst75QAH = "3 个任务"
 
 --Quest 1 Alliance
-Inst75Quest1 = "1. 死亡证明：阿奴巴拉克 (英雄日常)"
+Inst75Quest1 = "1. 死亡证明：阿努巴拉克 (英雄日常)"
 Inst75Quest1_Level = "80"
 Inst75Quest1_Attain = "80"
-Inst75Quest1_Aim = "达拉然的大法师兰达洛克要你将阿奴巴拉克的王冠交给他."
+Inst75Quest1_Aim = "达拉然的大法师兰达洛克要你将阿努巴拉克的王冠交给他."
 Inst75Quest1_Location = "大法师兰达洛克 (达拉然 - 紫罗兰监狱; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst75Quest1_Note = "英雄日常任务.\n\n阿奴巴拉克 在 "..YELLOW.."[3]"..WHITE.."."
+Inst75Quest1_Note = "英雄日常任务.\n\n阿努巴拉克 在 "..YELLOW.."[3]"..WHITE.."."
 Inst75Quest1_Prequest = "无"
 Inst75Quest1_Folgequest = "无"
 --
@@ -10617,9 +10617,9 @@ Inst75Quest2name4 = "Gloves of Banished Infliction"
 Inst75Quest3 = "3. 叛徒国王之死"
 Inst75Quest3_Level = "74"
 Inst75Quest3_Attain = "72"
-Inst75Quest3_Aim = "纳尔苏深渊的拆解者基里克斯要你去击败艾卓-尼鲁布的阿奴巴拉克，并将阿奴巴拉克的破碎甲壳交给基里克斯."
+Inst75Quest3_Aim = "纳尔苏深渊的拆解者基里克斯要你去击败艾卓-尼鲁布的阿努巴拉克，并将阿努巴拉克的破碎甲壳交给基里克斯."
 Inst75Quest3_Location = "拆解者基里克斯 (龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst75Quest3_Note = "阿奴巴拉克 在 "..YELLOW.."[3]"..WHITE.."."
+Inst75Quest3_Note = "阿努巴拉克 在 "..YELLOW.."[3]"..WHITE.."."
 Inst75Quest3_Prequest = "无"
 Inst75Quest3_Folgequest = "无面者 ("..YELLOW.."安卡赫特"..WHITE..")"
 --
@@ -10990,8 +10990,8 @@ Inst79QAH = "无任务"
 
 Inst80Story = "达克萨隆要塞座落在灰熊丘陵的西北部，是古代冰霜巨魔王国的要塞。亡灵天灾赶走了曾经在这里生活的巨魔并占领了这个要塞，控制了通往祖达克的道路。这个副本到处充满了被亡灵控制的各种怪物和机关。你要去探索这个庞大的副本，查找是什么原因使冰霜巨魔放弃了他们的家园逃往他处。"
 Inst80Caption = "达克萨隆要塞"
-Inst80QAA = "4个"
-Inst80QAH = "4个"
+Inst80QAA = "4 个任务"
+Inst80QAH = "4 个任务"
 
 --Quest 1 Alliance
 Inst80Quest1 = "1. 死亡证明：先知萨隆亚 (英雄日常)"
@@ -11264,7 +11264,7 @@ Inst82Quest1_Folgequest = "无"
 Inst82Quest1name1 = "Emblem of Heroism"
 
 --Quest 2 Alliance
-Inst82Quest2 = "2. 谨慎行动"
+Inst82Quest2 = "2. 谨慎行事"
 Inst82Quest2_Level = "77"
 Inst82Quest2_Attain = "75"
 Inst82Quest2_Aim = "罗宁希望你前往达拉然的紫罗兰监狱，与典狱官奥图拉斯谈一谈."
@@ -11281,7 +11281,7 @@ Inst82Quest3_Attain = "75"
 Inst82Quest3_Aim = "典狱官奥图拉斯要你进入紫罗兰监狱，消灭入侵的蓝龙军团，杀死塞安妮苟萨之后向他复命."
 Inst82Quest3_Location = "典狱官奥图拉斯 在 (达拉然 - 紫罗兰监狱; "..YELLOW.."60.8, 62.7"..WHITE..")"
 Inst82Quest3_Note = "塞安妮苟萨 在 "..YELLOW.."[6]"..WHITE.."."
-Inst82Quest3_Prequest = "谨慎行动"
+Inst82Quest3_Prequest = "谨慎行事"
 Inst82Quest3_Folgequest = "无"
 Inst82Quest3FQuest = "true"
 --
