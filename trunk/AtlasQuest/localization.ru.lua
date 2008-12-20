@@ -12086,3 +12086,4 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 83 = Strand of the Ancients (SotA)
 -- 84 = Naxxramas (Naxx)
 -- 85 = Vault of Archavon
+end
