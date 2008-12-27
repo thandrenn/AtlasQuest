@@ -1717,6 +1717,16 @@ AQ_13128_Level = "80"
 
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
+Inst74Quest1_QuestID = "13384"
+Inst74Quest2_QuestID = "13385"
+
+Inst74Quest1_HORDE_QuestID = "13384"
+Inst74Quest2_HORDE_QuestID = "13385"
+
+
+AQ_13384_Level = "80"
+AQ_13385_Level = "80"
+
 
 
 --------------- INST75 - Azjol-Nerub ---------------
@@ -1852,6 +1862,16 @@ AQ_13159_Level = "77"
 
 
 --------------- INST84 - Naxxramas (Naxx) ---------------
+
+Inst84Quest1_QuestID = "13372"
+Inst84Quest2_QuestID = "13375"
+
+Inst84Quest1_HORDE_QuestID = "13372"
+Inst84Quest2_HORDE_QuestID = "13375"
+
+
+AQ_13372_Level = "80"
+AQ_13375_Level = "80"
 
 
 

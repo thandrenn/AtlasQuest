@@ -6305,6 +6305,83 @@ Inst73Quest6ID4_HORDE = "44341"
 
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
+--Quest 1 Alliance
+Inst74Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst74Quest1ITC1 = Itemc5;
+Inst74Quest1description1 = AQITEM_RING
+Inst74Quest1ID1 = "44658"
+--ITEM2
+Inst74Quest1ITC2 = Itemc5;
+Inst74Quest1description2 = AQITEM_RING
+Inst74Quest1ID2 = "44657"
+--ITEM3
+Inst74Quest1ITC3 = Itemc5;
+Inst74Quest1description3 = AQITEM_RING
+Inst74Quest1ID3 = "44659"
+--ITEM4
+Inst74Quest1ITC4 = Itemc5;
+Inst74Quest1description4 = AQITEM_RING
+Inst74Quest1ID4 = "44660"
+
+--Quest 2 Alliance
+Inst74Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst74Quest2ITC1 = Itemc5;
+Inst74Quest2description1 = AQITEM_RING
+Inst74Quest2ID1 = "44661"
+--ITEM2
+Inst74Quest2ITC2 = Itemc5;
+Inst74Quest2description2 = AQITEM_RING
+Inst74Quest2ID2 = "44662"
+--ITEM3
+Inst74Quest2ITC3 = Itemc5;
+Inst74Quest2description3 = AQITEM_RING
+Inst74Quest2ID3 = "44664"
+--ITEM4
+Inst74Quest2ITC4 = Itemc5;
+Inst74Quest2description4 = AQITEM_RING
+Inst74Quest2ID4 = "44665"
+
+
+--Quest 1 Horde
+Inst74Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst74Quest1ITC1_HORDE = Itemc5;
+Inst74Quest1description1_HORDE = AQITEM_RING
+Inst74Quest1ID1_HORDE = "44658"
+--ITEM2
+Inst74Quest1ITC2_HORDE = Itemc5;
+Inst74Quest1description2_HORDE = AQITEM_RING
+Inst74Quest1ID2_HORDE = "44657"
+--ITEM3
+Inst74Quest1ITC3_HORDE = Itemc5;
+Inst74Quest1description3_HORDE = AQITEM_RING
+Inst74Quest1ID3_HORDE = "44659"
+--ITEM4
+Inst74Quest1ITC4_HORDE = Itemc5;
+Inst74Quest1description4_HORDE = AQITEM_RING
+Inst74Quest1ID4_HORDE = "44660"
+
+--Quest 2 Horde
+Inst74Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst74Quest2ITC1_HORDE = Itemc5;
+Inst74Quest2description1_HORDE = AQITEM_RING
+Inst74Quest2ID1_HORDE = "44661"
+--ITEM2
+Inst74Quest2ITC2_HORDE = Itemc5;
+Inst74Quest2description2_HORDE = AQITEM_RING
+Inst74Quest2ID2_HORDE = "44662"
+--ITEM3
+Inst74Quest2ITC3_HORDE = Itemc5;
+Inst74Quest2description3_HORDE = AQITEM_RING
+Inst74Quest2ID3_HORDE = "44664"
+--ITEM4
+Inst74Quest2ITC4_HORDE = Itemc5;
+Inst74Quest2description4_HORDE = AQITEM_RING
+Inst74Quest2ID4_HORDE = "44665"
+
 
 
 --------------- INST75 - Azjol-Nerub ---------------
@@ -7003,6 +7080,35 @@ Inst82Quest3ID4_HORDE = "44345"
 
 
 --------------- INST84 - Naxxramas (Naxx) ---------------
+
+--Quest 1 Alliance
+Inst84Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst84Quest1ITC1 = Itemc5;
+Inst84Quest1description1 = AQITEM_ITEM
+Inst84Quest1ID1 = "44582"
+
+--Quest 2 Alliance
+Inst84Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst84Quest2ITC1 = Itemc5;
+Inst84Quest2description1 = AQITEM_ITEM
+Inst84Quest2ID1 = "44581"
+
+
+--Quest 1 Horde
+Inst84Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst84Quest1ITC1_HORDE = Itemc5;
+Inst84Quest1description1_HORDE = AQITEM_ITEM
+Inst84Quest1ID1_HORDE = "44582"
+
+--Quest 2 Horde
+Inst84Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst84Quest2ITC1_HORDE = Itemc5;
+Inst84Quest2description1_HORDE = AQITEM_ITEM
+Inst84Quest2ID1_HORDE = "44581"
 
 
 
