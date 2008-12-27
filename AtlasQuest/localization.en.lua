@@ -3663,7 +3663,7 @@ Inst19Quest3_HORDE_Level = "38"
 Inst19Quest3_HORDE_Attain = "28"
 Inst19Quest3_HORDE_Aim = "Retrieve the Compendium of the Fallen from the Monastery in Tirisfal Glades and return to Sage Truthseeker in Thunder Bluff."
 Inst19Quest3_HORDE_Location = "Sage Truthseeker (Thunderbluff; "..YELLOW.."34,47"..WHITE..")"
-Inst19Quest3_HORDE_Note = "You can find the book in the Library section of the Scarlet Monastery."
+Inst19Quest3_HORDE_Note = "You can find the book in the Library section of the Scarlet Monastery. For lore reasons, Undead cannot do this quest."
 Inst19Quest3_HORDE_Prequest = "None"
 Inst19Quest3_HORDE_Folgequest = "None"
 --
@@ -10135,10 +10135,75 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
-Inst74Story = "rom within the safety of his personal domain, the Eye of Eternity, Malygos coordinates a crusade to reestablish his dominance over the arcane energies coursing through Azeroth. In his eyes, the foolish actions of the Kirin Tor and other mortal magi have plunged the world into chaos, and the abuse of their powers will no longer be tolerated. Threatened by the Spell-Weaver's brutal tactics, the Kirin Tor has allied itself with the red dragonflight. Together, the two groups closely observe Malygos, searching for a way to thwart his campaign and strike out at the Aspect of Magic, but thus far the elusive Spell-Weaver has proven difficult to engage.\n\nAt Wyrmrest Temple, the ancient meeting ground of the dragonflights, Alexstrasza and the ambassadors of other flights have discussed Malygos' recklessness and reluctantly concluded that he is beyond the point of salvation. With the red dragons' assistance, Azeroth's heroes may be able to accomplish what has formerly been unthinkable: challenging the Spell-Weaver from inside the Eye of Eternity. Sustaining the safety of Azeroth depends on Malygos' defeat, but his end will also herald a new age: a world of unguarded magic, absent of the Dragon Aspect powerful enough to watch over it."
+Inst74Story = "From within the safety of his personal domain, the Eye of Eternity, Malygos coordinates a crusade to reestablish his dominance over the arcane energies coursing through Azeroth. In his eyes, the foolish actions of the Kirin Tor and other mortal magi have plunged the world into chaos, and the abuse of their powers will no longer be tolerated. Threatened by the Spell-Weaver's brutal tactics, the Kirin Tor has allied itself with the red dragonflight. Together, the two groups closely observe Malygos, searching for a way to thwart his campaign and strike out at the Aspect of Magic, but thus far the elusive Spell-Weaver has proven difficult to engage.\n\nAt Wyrmrest Temple, the ancient meeting ground of the dragonflights, Alexstrasza and the ambassadors of other flights have discussed Malygos' recklessness and reluctantly concluded that he is beyond the point of salvation. With the red dragons' assistance, Azeroth's heroes may be able to accomplish what has formerly been unthinkable: challenging the Spell-Weaver from inside the Eye of Eternity. Sustaining the safety of Azeroth depends on Malygos' defeat, but his end will also herald a new age: a world of unguarded magic, absent of the Dragon Aspect powerful enough to watch over it."
 Inst74Caption = "The Nexus: The Eye of Eternity"
-Inst74QAA = "No Quests"
-Inst74QAH = "No Quests"
+Inst74QAA = "2 Quests"
+Inst74QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst74Quest1 = "1. Judgment at the Eye of Eternity"
+Inst74Quest1_Level = "80"
+Inst74Quest1_Attain = "80"
+Inst74Quest1_Aim = "Krasus atop Wyrmrest Temple in the Dragonblight wants you to return with the Heart of Magic."
+Inst74Quest1_Location = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst74Quest1_Note = "Malygos drops the Heart of Magic at "..YELLOW.."[??]"..WHITE.."."
+Inst74Quest1_Prequest = "The Key to the Focusing Iris ("..YELLOW.."Naxxramas"..WHITE..")"
+Inst74Quest1_Folgequest = "None"
+Inst74Quest1PreQuest = "true"
+--
+Inst74Quest1name1 = "Chain of the Ancient Wyrm"
+Inst74Quest1name2 = "Torque of the Red Dragonflight"
+Inst74Quest1name3 = "Pendant of the Dragonsworn"
+Inst74Quest1name4 = "Drakescale Collar"
+
+--Quest 2 Alliance
+Inst74Quest2 = "2. Heroic Judgment at the Eye of Eternity (Heroic)"
+Inst74Quest2_Level = "80"
+Inst74Quest2_Attain = "80"
+Inst74Quest2_Aim = "Krasus atop Wyrmrest Temple in the Dragonblight wants you to return with the Heart of Magic."
+Inst74Quest2_Location = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst74Quest2_Note = "Malygos drops the Heart of Magic at "..YELLOW.."[??]"..WHITE.."."
+Inst74Quest2_Prequest = "The Heroic Key to the Focusing Iris ("..YELLOW.."Naxxramas"..WHITE..")"
+Inst74Quest2_Folgequest = "None"
+Inst74Quest2PreQuest = "true"
+--
+Inst74Quest2name1 = "Wyrmrest Necklace of Power"
+Inst74Quest2name2 = "Life-Binder's Locket"
+Inst74Quest2name3 = "Favor of the Dragon Queen"
+Inst74Quest2name4 = "Nexus War Champion Beads"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst74Quest1_HORDE = Inst74Quest1
+Inst74Quest1_HORDE_Level = Inst74Quest1_Level
+Inst74Quest1_HORDE_Attain = Inst74Quest1_Attain
+Inst74Quest1_HORDE_Aim = Inst74Quest1_Aim
+Inst74Quest1_HORDE_Location = Inst74Quest1_Location
+Inst74Quest1_HORDE_Note = Inst74Quest1_Note
+Inst74Quest1_HORDE_Prequest = Inst74Quest1_Prequest
+Inst74Quest1_HORDE_Folgequest = Inst74Quest1_Folgequest
+Inst74Quest1PreQuest_HORDE = Inst74Quest1PreQuest
+--
+Inst74Quest1name1_HORDE = Inst74Quest1name1
+Inst74Quest1name2_HORDE = Inst74Quest1name2
+Inst74Quest1name3_HORDE = Inst74Quest1name3
+Inst74Quest1name4_HORDE = Inst74Quest1name4
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst74Quest2_HORDE = Inst74Quest2
+Inst74Quest2_HORDE_Level = Inst74Quest2_Level
+Inst74Quest2_HORDE_Attain = Inst74Quest2_Attain
+Inst74Quest2_HORDE_Aim = Inst74Quest2_Aim
+Inst74Quest2_HORDE_Location = Inst74Quest2_Location
+Inst74Quest2_HORDE_Note = Inst74Quest2_Note
+Inst74Quest2_HORDE_Prequest = Inst74Quest2_Prequest
+Inst74Quest2_HORDE_Folgequest = Inst74Quest2_Folgequest
+Inst74Quest2PreQuest_HORDE = Inst74Quest2PreQuest
+--
+Inst74Quest2name1_HORDE = Inst74Quest2name1
+Inst74Quest2name2_HORDE = Inst74Quest2name2
+Inst74Quest2name3_HORDE = Inst74Quest2name3
+Inst74Quest2name4_HORDE = Inst74Quest2name4
 
 
 
@@ -10256,7 +10321,7 @@ Inst76Quest1_Folgequest = "None"
 Inst76Quest1name1 = "Emblem of Heroism"
 
 --Quest 2 Alliance
-Inst76Quest2 = "2. All Things in Good Time"
+Inst76Quest2 = "2. All Things in Good Time (Heroic Daily)"
 Inst76Quest2_Level = "80"
 Inst76Quest2_Attain = "80"
 Inst76Quest2_Aim = "Kilix the Unraveler in the Pit of Narjun wants you to obtain an Ahn'kahar Watcher's Corpse and place it upon the Ahn'kahet Brazier in Ahn'kahet."
@@ -10272,7 +10337,7 @@ Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
 Inst76Quest3_Aim = "You are to collect 6 Grotesque Fungus from Savage Cave Beasts in Ahn'kahet and deliver them to Kilix the Unraveler in The Pit of Narjun."
 Inst76Quest3_Location = "Ooze-covered Fungus (drops from Savage Cave Beasts in Ahn'kahet)"
-Inst76Quest3_Note = "The Savage Cave Beasts that drop the items for the quest are near and around "..YELLOW.."[5]"..WHITE..". Kilix the Unraveler is at (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")."
+Inst76Quest3_Note = "The Savage Cave Beasts that drop the items for the quest are in the area of the heroic-only boss, Amanitar, at "..YELLOW.."[5]"..WHITE..".\n\nKilix the Unraveler is at (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")."
 Inst76Quest3_Prequest = "None"
 Inst76Quest3_Folgequest = "None"
 -- No Rewards for this quest
@@ -10903,8 +10968,57 @@ Inst84Story = {
   ["MaxPages"] = "2",
 };
 Inst84Caption = "Naxxramas"
-Inst84QAA = "No Quests"
-Inst84QAH = "No Quests"
+Inst84QAA = "2 Quests"
+Inst84QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst84Quest1 = "1. The Key to the Focusing Iris"
+Inst84Quest1_Level = "80"
+Inst84Quest1_Attain = "80"
+Inst84Quest1_Aim = "Deliver the Key to the Focusing Iris to Alexstrasza the Life-Binder atop Wyrmrest Temple in the Dragonblight."
+Inst84Quest1_Location = "Key to the Focusing Iris (drops from Sapphiron; "..YELLOW.."Frostwyrm Lair [1]"..WHITE..")"
+Inst84Quest1_Note = "Alexstrasza is at (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE.."). The reward is required to open up The Nexus: Eye of Eternity for Normal 10-man mode."
+Inst84Quest1_Prequest = "None"
+Inst84Quest1_Folgequest = "Judgment at the Eye of Eternity ("..YELLOW.."Eye of Eternity"..WHITE..")"
+--
+Inst84Quest1name1 = "Key to the Focusing Iris"
+
+--Quest 2 Alliance
+Inst84Quest2 = "2. The Heroic Key to the Focusing Iris (Heroic)"
+Inst84Quest2_Level = "80"
+Inst84Quest2_Attain = "80"
+Inst84Quest2_Aim = "Deliver the Heroic Key to the Focusing Iris to Alexstrasza the Life-Binder atop Wyrmrest Temple in the Dragonblight."
+Inst84Quest2_Location = "Heroic Key to the Focusing Iris (drops from Sapphiron; "..YELLOW.."Frostwyrm Lair [1]"..WHITE..")"
+Inst84Quest2_Note = "Alexstrasza is at (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE.."). The reward is required to open up The Nexus: Eye of Eternity for Heroic 25-man mode."
+Inst84Quest2_Prequest = "None"
+Inst84Quest2_Folgequest = "Judgment at the Eye of Eternity ("..YELLOW.."Eye of Eternity"..WHITE..")"
+--
+Inst84Quest2name1 = "Heroic Key to the Focusing Iris"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst84Quest1_HORDE = Inst84Quest1
+Inst84Quest1_HORDE_Level = Inst84Quest1_Level
+Inst84Quest1_HORDE_Attain = Inst84Quest1_Attain
+Inst84Quest1_HORDE_Aim = Inst84Quest1_Aim
+Inst84Quest1_HORDE_Location = Inst84Quest1_Location
+Inst84Quest1_HORDE_Note = Inst84Quest1_Note
+Inst84Quest1_HORDE_Prequest = Inst84Quest1_Prequest
+Inst84Quest1_HORDE_Folgequest = Inst84Quest1_Folgequest
+--
+Inst84Quest1name1_HORDE = Inst84Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst84Quest2_HORDE = Inst84Quest2
+Inst84Quest2_HORDE_Level = Inst84Quest2_Level
+Inst84Quest2_HORDE_Attain = Inst84Quest2_Attain
+Inst84Quest2_HORDE_Aim = Inst84Quest2_Aim
+Inst84Quest2_HORDE_Location = Inst84Quest2_Location
+Inst84Quest2_HORDE_Note = Inst84Quest2_Note
+Inst84Quest2_HORDE_Prequest = Inst84Quest2_Prequest
+Inst84Quest2_HORDE_Folgequest = Inst84Quest2_Folgequest
+--
+Inst84Quest2name1_HORDE = Inst84Quest2name1
 
 
 
