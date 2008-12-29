@@ -3753,7 +3753,7 @@ Inst19Quest3_HORDE_Level = "38"
 Inst19Quest3_HORDE_Attain = "28"
 Inst19Quest3_HORDE_Aim = "从提瑞斯法林地血色修道院里找到《堕落者纲要》，把它交给雷霆崖的圣者图希克。"
 Inst19Quest3_HORDE_Location = "圣者图希克（雷霆崖; "..YELLOW.."34,47"..WHITE.."）"
-Inst19Quest3_HORDE_Note = "你可以在血色图书馆里找到这这本书。"
+Inst19Quest3_HORDE_Note = "你可以在血色图书馆里找到这这本书。不过亡灵因为剧情不能接这个任务。"
 Inst19Quest3_HORDE_Prequest = "无"
 Inst19Quest3_HORDE_Folgequest = "无"
 --
@@ -10574,8 +10574,73 @@ Inst74Story = {
   ["MaxPages"] = "2",
 };
 Inst74Caption = "魔枢: 永恒之眼"
-Inst74QAA = "无任务"
-Inst74QAH = "无任务"
+Inst74QAA = "2 个任务"
+Inst74QAH = "2 个任务"
+
+--Quest 1 Alliance
+Inst74Quest1 = "1. 永恒之眼的审判"
+Inst74Quest1_Level = "80"
+Inst74Quest1_Attain = "80"
+Inst74Quest1_Aim = "龙骨荒野龙眠神殿的克拉苏斯要你取回魔法之心."
+Inst74Quest1_Location = "克拉苏斯 (龙骨荒野 - 龙眠神殿; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst74Quest1_Note = "必须在普通的10人模式下完成，玛利苟斯 "..YELLOW.."[??]"..WHITE.."掉落魔法之心."
+Inst74Quest1_Prequest = "聚焦之虹的钥匙 ("..YELLOW.."纳克萨玛斯"..WHITE..")"
+Inst74Quest1_Folgequest = "无"
+Inst74Quest1PreQuest = "true"
+--
+Inst74Quest1name1 = "Chain of the Ancient Wyrm"
+Inst74Quest1name2 = "Torque of the Red Dragonflight"
+Inst74Quest1name3 = "Pendant of the Dragonsworn"
+Inst74Quest1name4 = "Drakescale Collar"
+
+--Quest 2 Alliance
+Inst74Quest2 = "2. 英雄永恒之眼的审判 (英雄模式)"
+Inst74Quest2_Level = "80"
+Inst74Quest2_Attain = "80"
+Inst74Quest2_Aim = "龙骨荒野龙眠神殿的克拉苏斯要你取回魔法之心."
+Inst74Quest2_Location = "克拉苏斯 (龙骨荒野 - 龙眠神殿; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst74Quest2_Note = "必须在英雄模式下的25人永恒之眼中完成，玛利苟斯 "..YELLOW.."[??]"..WHITE.."掉落魔法之心."
+Inst74Quest2_Prequest = "英雄聚焦之虹的钥匙 ("..YELLOW.."纳克萨玛斯"..WHITE..")"
+Inst74Quest2_Folgequest = "无"
+Inst74Quest2PreQuest = "true"
+--
+Inst74Quest2name1 = "Wyrmrest Necklace of Power"
+Inst74Quest2name2 = "Life-Binder's Locket"
+Inst74Quest2name3 = "Favor of the Dragon Queen"
+Inst74Quest2name4 = "Nexus War Champion Beads"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst74Quest1_HORDE = Inst74Quest1
+Inst74Quest1_HORDE_Level = Inst74Quest1_Level
+Inst74Quest1_HORDE_Attain = Inst74Quest1_Attain
+Inst74Quest1_HORDE_Aim = Inst74Quest1_Aim
+Inst74Quest1_HORDE_Location = Inst74Quest1_Location
+Inst74Quest1_HORDE_Note = Inst74Quest1_Note
+Inst74Quest1_HORDE_Prequest = Inst74Quest1_Prequest
+Inst74Quest1_HORDE_Folgequest = Inst74Quest1_Folgequest
+Inst74Quest1PreQuest_HORDE = Inst74Quest1PreQuest
+--
+Inst74Quest1name1_HORDE = Inst74Quest1name1
+Inst74Quest1name2_HORDE = Inst74Quest1name2
+Inst74Quest1name3_HORDE = Inst74Quest1name3
+Inst74Quest1name4_HORDE = Inst74Quest1name4
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst74Quest2_HORDE = Inst74Quest2
+Inst74Quest2_HORDE_Level = Inst74Quest2_Level
+Inst74Quest2_HORDE_Attain = Inst74Quest2_Attain
+Inst74Quest2_HORDE_Aim = Inst74Quest2_Aim
+Inst74Quest2_HORDE_Location = Inst74Quest2_Location
+Inst74Quest2_HORDE_Note = Inst74Quest2_Note
+Inst74Quest2_HORDE_Prequest = Inst74Quest2_Prequest
+Inst74Quest2_HORDE_Folgequest = Inst74Quest2_Folgequest
+Inst74Quest2PreQuest_HORDE = Inst74Quest2PreQuest
+--
+Inst74Quest2name1_HORDE = Inst74Quest2name1
+Inst74Quest2name2_HORDE = Inst74Quest2name2
+Inst74Quest2name3_HORDE = Inst74Quest2name3
+Inst74Quest2name4_HORDE = Inst74Quest2name4
 
 
 
@@ -10693,12 +10758,12 @@ Inst76Quest1_Folgequest = "无"
 Inst76Quest1name1 = "Emblem of Heroism"
 
 --Quest 2 Alliance
-Inst76Quest2 = "2. 黄金时代 (英雄难度)"
+Inst76Quest2 = "2. 黄金时代 (英雄日常)"
 Inst76Quest2_Level = "80"
 Inst76Quest2_Attain = "80"
 Inst76Quest2_Aim = "纳尔苏深渊的拆解者基里克斯希望你弄到一具安卡哈看守者的尸体，将其放在安卡赫特的安卡赫特火盆上焚烧."
 Inst76Quest2_Location = "拆解者基里克斯 (龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst76Quest2_Note = "英雄副本任务.\n\n 安卡赫特火盆 就在 传令官沃拉兹 "..YELLOW.."[4]"..WHITE.."的身后. 尸体有1小时CD时间."
+Inst76Quest2_Note = "英雄副本日常任务.\n\n 安卡赫特火盆 就在 传令官沃拉兹 "..YELLOW.."[4]"..WHITE.."的身后. 尸体有1小时CD时间."
 Inst76Quest2_Prequest = "无"
 Inst76Quest2_Folgequest = "无"
 -- No Rewards for this quest
@@ -10709,7 +10774,7 @@ Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
 Inst76Quest3_Aim = "从安卡赫特的野蛮洞穴兽那里收集6只奇异的蘑菇，然后把它们交给纳尔苏深渊的拆解者基里克斯."
 Inst76Quest3_Location = "覆满淤泥的蘑菇 (安卡赫特里的野蛮洞穴兽掉落)"
-Inst76Quest3_Note = "拆解者基里克斯 (龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE..")"
+Inst76Quest3_Note = "掉落任务物品的野蛮洞穴兽在 "..YELLOW.."[5]"..WHITE.."周围的区域.\n\n拆解者基里克斯 (龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE..")"
 Inst76Quest3_Prequest = "无"
 Inst76Quest3_Folgequest = "无"
 -- No Rewards for this quest
@@ -11336,9 +11401,57 @@ Inst82Quest3name4_HORDE = Inst82Quest3name4
 
 Inst84Story = "漂浮在广阔的龙骨荒原。纳克萨玛斯是著名的亡灵天灾的堡垒。在这里，巫妖王手下的精英们，为首的就是巫妖克尔苏加德，正策划着新一轮的进攻"
 Inst84Caption = "纳克萨玛斯"
-Inst84QAA = "无任务"
-Inst84QAH = "无任务"
+Inst84QAA = "2 个任务"
+Inst84QAH = "2 个任务"
 
+--Quest 1 Alliance
+Inst84Quest1 = "1. 聚焦之虹的钥匙"
+Inst84Quest1_Level = "80"
+Inst84Quest1_Attain = "80"
+Inst84Quest1_Aim = "前往龙骨荒野的龙眠神殿，将聚焦之虹的钥匙交给阿莱克丝塔萨，生命的缚誓者."
+Inst84Quest1_Location = "聚焦之虹的钥匙 (掉落自 萨菲隆; "..YELLOW.."冰霜之龙巢穴 [1]"..WHITE..")"
+Inst84Quest1_Note = "阿莱克丝塔萨 在 (龙骨荒野 - 龙眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."). 完成之后能够开启 魔枢：永恒之眼 的十人模式."
+Inst84Quest1_Prequest = "无"
+Inst84Quest1_Folgequest = "永恒之眼的审判 ("..YELLOW.."永恒之眼"..WHITE..")"
+--
+Inst84Quest1name1 = "聚焦之虹的钥匙"
+
+--Quest 2 Alliance
+Inst84Quest2 = "2. 英雄聚焦之虹的钥匙 (英雄模式)"
+Inst84Quest2_Level = "80"
+Inst84Quest2_Attain = "80"
+Inst84Quest2_Aim = "前往龙骨荒野的龙眠神殿，将聚焦之虹的钥匙交给阿莱克丝塔萨，生命的缚誓者."
+Inst84Quest2_Location = "英雄聚焦之虹的钥匙 (掉落自 萨菲隆; "..YELLOW.."冰霜之龙巢穴 [1]"..WHITE..")"
+Inst84Quest2_Note = "阿莱克丝塔萨 在 (龙骨荒野 - 龙眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."). 完成之后能够开启 魔枢：永恒之眼 的普通和英雄难度."
+Inst84Quest2_Prequest = "无"
+Inst84Quest2_Folgequest = "英雄永恒之眼的审判 ("..YELLOW.."永恒之眼"..WHITE..")"
+--
+Inst84Quest2name1 = "英雄聚焦之虹的钥匙"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst84Quest1_HORDE = Inst84Quest1
+Inst84Quest1_HORDE_Level = Inst84Quest1_Level
+Inst84Quest1_HORDE_Attain = Inst84Quest1_Attain
+Inst84Quest1_HORDE_Aim = Inst84Quest1_Aim
+Inst84Quest1_HORDE_Location = Inst84Quest1_Location
+Inst84Quest1_HORDE_Note = Inst84Quest1_Note
+Inst84Quest1_HORDE_Prequest = Inst84Quest1_Prequest
+Inst84Quest1_HORDE_Folgequest = Inst84Quest1_Folgequest
+--
+Inst84Quest1name1_HORDE = Inst84Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst84Quest2_HORDE = Inst84Quest2
+Inst84Quest2_HORDE_Level = Inst84Quest2_Level
+Inst84Quest2_HORDE_Attain = Inst84Quest2_Attain
+Inst84Quest2_HORDE_Aim = Inst84Quest2_Aim
+Inst84Quest2_HORDE_Location = Inst84Quest2_Location
+Inst84Quest2_HORDE_Note = Inst84Quest2_Note
+Inst84Quest2_HORDE_Prequest = Inst84Quest2_Prequest
+Inst84Quest2_HORDE_Folgequest = Inst84Quest2_Folgequest
+--
+Inst84Quest2name1_HORDE = Inst84Quest2name1
 
 
 --------------- INST85 - Vault of Archavon ---------------

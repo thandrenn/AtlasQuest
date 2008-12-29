@@ -3670,7 +3670,7 @@ Inst19Quest3_HORDE_Level = "38"
 Inst19Quest3_HORDE_Attain = "28"
 Inst19Quest3_HORDE_Aim = "從提瑞斯法林地血色修道院裡找到《墮落者綱要》，把它交給雷霆崖的賢者圖希克。"
 Inst19Quest3_HORDE_Location = "賢者圖希克（雷霆崖 - 靈魂高地; "..YELLOW.."34,47"..WHITE.."）"
-Inst19Quest3_HORDE_Note = "你可以在血色圖書館裡找到這這本書。"
+Inst19Quest3_HORDE_Note = "你可以在血色圖書館裡找到這這本書。不過不死族因為劇情不能獲得這個任務。"
 Inst19Quest3_HORDE_Prequest = "無"
 Inst19Quest3_HORDE_Folgequest = "無"
 --
@@ -10422,8 +10422,73 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 
 Inst74Story = "奈薩斯地城群是一個古老的冰凍堡壘，座落於北風凍原區的凜懼島中心，也是藍龍軍團與瑪里苟斯的大本營。整個奈薩斯是一個廣大且連續的洞穴，由水晶和冰塊所組成，外面圍繞著充滿魔法能量且懸浮在空中的的平台，以及地底下的冰穴洞窟，是凜懼島中最神秘的地方。其中包含了兩個5人地城以及1個25人地城。\n\n永恆之眼是奈薩斯最後也是唯一的團隊地城，在此玩家們將必須準備好擊敗瑪里苟斯以及他所率領的藍龍軍團。\n\n"..GREEN.."引述自WoW Head"
 Inst74Caption = "奈薩斯：永恆之眼"
-Inst74QAA = "無任務"
-Inst74QAH = "無任務"
+Inst74QAA = "3 個任務"
+Inst74QAH = "3 個任務"
+
+--Quest 1 Alliance
+Inst74Quest1 = "1. 永恆之眼的審判"
+Inst74Quest1_Level = "80"
+Inst74Quest1_Attain = "80"
+Inst74Quest1_Aim = "卡薩斯，位於龍骨荒野的龍眠神殿頂端，要你帶著魔法之心回去."
+Inst74Quest1_Location = "卡薩斯 (龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst74Quest1_Note = "瑪里苟斯 "..YELLOW.."[??]"..WHITE.."掉落魔法之心，任務必須在普通難度的10人永恆之眼中完成."
+Inst74Quest1_Prequest = "聚源虹膜之鑰 ("..YELLOW.."納克薩瑪斯"..WHITE..")"
+Inst74Quest1_Folgequest = "無"
+Inst74Quest1PreQuest = "true"
+--
+Inst74Quest1name1 = "上古巨龍之鍊"
+Inst74Quest1name2 = "紅龍軍團頸環"
+Inst74Quest1name3 = "龍誓墜飾"
+Inst74Quest1name4 = "飛龍鱗項圈"
+
+--Quest 2 Alliance
+Inst74Quest2 = "2. 永恆之眼的英雄審判 (英雄模式)"
+Inst74Quest2_Level = "80"
+Inst74Quest2_Attain = "80"
+Inst74Quest2_Aim = "卡薩斯，位於龍骨荒野的龍眠神殿頂端，要你帶著魔法之心回去."
+Inst74Quest2_Location = "卡薩斯 (龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst74Quest2_Note = "瑪里苟斯 "..YELLOW.."[??]"..WHITE.."掉落魔法之心，任務必須在英雄難度的25人永恆之眼中完成."
+Inst74Quest2_Prequest = "聚源虹膜英雄之鑰 ("..YELLOW.."納克薩瑪斯"..WHITE..")"
+Inst74Quest2_Folgequest = "無"
+Inst74Quest2PreQuest = "true"
+--
+Inst74Quest2name1 = "龍眠力量項鍊"
+Inst74Quest2name2 = "生命守護者墜盒"
+Inst74Quest2name3 = "龍后恩典"
+Inst74Quest2name4 = "奧核戰爭勇士珠串"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst74Quest1_HORDE = Inst74Quest1
+Inst74Quest1_HORDE_Level = Inst74Quest1_Level
+Inst74Quest1_HORDE_Attain = Inst74Quest1_Attain
+Inst74Quest1_HORDE_Aim = Inst74Quest1_Aim
+Inst74Quest1_HORDE_Location = Inst74Quest1_Location
+Inst74Quest1_HORDE_Note = Inst74Quest1_Note
+Inst74Quest1_HORDE_Prequest = Inst74Quest1_Prequest
+Inst74Quest1_HORDE_Folgequest = Inst74Quest1_Folgequest
+Inst74Quest1PreQuest_HORDE = Inst74Quest1PreQuest
+--
+Inst74Quest1name1_HORDE = Inst74Quest1name1
+Inst74Quest1name2_HORDE = Inst74Quest1name2
+Inst74Quest1name3_HORDE = Inst74Quest1name3
+Inst74Quest1name4_HORDE = Inst74Quest1name4
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst74Quest2_HORDE = Inst74Quest2
+Inst74Quest2_HORDE_Level = Inst74Quest2_Level
+Inst74Quest2_HORDE_Attain = Inst74Quest2_Attain
+Inst74Quest2_HORDE_Aim = Inst74Quest2_Aim
+Inst74Quest2_HORDE_Location = Inst74Quest2_Location
+Inst74Quest2_HORDE_Note = Inst74Quest2_Note
+Inst74Quest2_HORDE_Prequest = Inst74Quest2_Prequest
+Inst74Quest2_HORDE_Folgequest = Inst74Quest2_Folgequest
+Inst74Quest2PreQuest_HORDE = Inst74Quest2PreQuest
+--
+Inst74Quest2name1_HORDE = Inst74Quest2name1
+Inst74Quest2name2_HORDE = Inst74Quest2name2
+Inst74Quest2name3_HORDE = Inst74Quest2name3
+Inst74Quest2name4_HORDE = Inst74Quest2name4
 
 
 
@@ -10557,7 +10622,7 @@ Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
 Inst76Quest3_Aim = "你必須在安卡罕特的蠻穴野獸身上，採集6朵怪誕菌菇，並送去給那金之淵裡的『排除者』齊力克斯。"
 Inst76Quest3_Location = "軟泥怪覆蕈（掉落自安卡罕特：古王國裡的蠻穴野獸）"
-Inst76Quest3_Note = "『排除者』齊力克斯在（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）。"
+Inst76Quest3_Note = "掉落任務物品的蠻穴野獸在 毒蕈魔"..YELLOW.."[5]"..WHITE.."的周邊區域。\n\n『排除者』齊力克斯在（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）。"
 Inst76Quest3_Prequest = "無"
 Inst76Quest3_Folgequest = "無"
 -- No Rewards for this quest
@@ -11184,8 +11249,57 @@ Inst82Quest3name4_HORDE = Inst82Quest3name4
 
 Inst84Story = "飄浮在龍骨荒野上方，這座被稱為納克薩瑪斯的龐大墓地是巫妖王最強大的手下之一，可怕的巫妖克爾蘇加德的領地。過去的恐懼與尚未被釋放的威脅正聚集在裡面，巫妖王的奴僕們正籌劃著新的攻勢為它們的突襲在做準備。天譴軍團很快就會再次席捲大地……。"
 Inst84Caption = "納克薩瑪斯"
-Inst84QAA = "無任務"
-Inst84QAH = "無任務"
+Inst84QAA = "2 個任務"
+Inst84QAH = "2 個任務"
+
+--Quest 1 Alliance
+Inst84Quest1 = "1. 聚源虹膜之鑰"
+Inst84Quest1_Level = "80"
+Inst84Quest1_Attain = "80"
+Inst84Quest1_Aim = "轉交聚源虹膜之鑰給『生命守護者』雅立史卓莎，她就在龍骨荒野的龍眠神殿頂端。"
+Inst84Quest1_Location = "聚源虹膜之鑰  (掉落自 薩菲隆; "..YELLOW.."冰霜巨龍的巢穴 [1]"..WHITE..")"
+Inst84Quest1_Note = "雅立史卓莎在 (龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."). 獎勵是開啟永恆之眼的普通難度十人模式."
+Inst84Quest1_Prequest = "無"
+Inst84Quest1_Folgequest = "永恆之眼的審判 ("..YELLOW.."永恆之眼"..WHITE..")"
+--
+Inst84Quest1name1 = "聚源虹膜之鑰"
+
+--Quest 2 Alliance
+Inst84Quest2 = "2. 聚源虹膜英雄之鑰 (英雄模式)"
+Inst84Quest2_Level = "80"
+Inst84Quest2_Attain = "80"
+Inst84Quest2_Aim = "轉交聚源虹膜之鑰給『生命守護者』雅立史卓莎，她就在龍骨荒野的龍眠神殿頂端。"
+Inst84Quest2_Location = "聚源虹膜之鑰  (掉落自 薩菲隆; "..YELLOW.."冰霜巨龍的巢穴 [1]"..WHITE..")"
+Inst84Quest2_Note = "雅立史卓莎在 (龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."). 獎勵是開啟永恆之眼的英雄難度25人模式."
+Inst84Quest2_Prequest = "無"
+Inst84Quest2_Folgequest = "永恆之眼的英雄審判 ("..YELLOW.."永恆之眼"..WHITE..")"
+--
+Inst84Quest2name1 = "聚源虹膜英雄之鑰"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst84Quest1_HORDE = Inst84Quest1
+Inst84Quest1_HORDE_Level = Inst84Quest1_Level
+Inst84Quest1_HORDE_Attain = Inst84Quest1_Attain
+Inst84Quest1_HORDE_Aim = Inst84Quest1_Aim
+Inst84Quest1_HORDE_Location = Inst84Quest1_Location
+Inst84Quest1_HORDE_Note = Inst84Quest1_Note
+Inst84Quest1_HORDE_Prequest = Inst84Quest1_Prequest
+Inst84Quest1_HORDE_Folgequest = Inst84Quest1_Folgequest
+--
+Inst84Quest1name1_HORDE = Inst84Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst84Quest2_HORDE = Inst84Quest2
+Inst84Quest2_HORDE_Level = Inst84Quest2_Level
+Inst84Quest2_HORDE_Attain = Inst84Quest2_Attain
+Inst84Quest2_HORDE_Aim = Inst84Quest2_Aim
+Inst84Quest2_HORDE_Location = Inst84Quest2_Location
+Inst84Quest2_HORDE_Note = Inst84Quest2_Note
+Inst84Quest2_HORDE_Prequest = Inst84Quest2_Prequest
+Inst84Quest2_HORDE_Folgequest = Inst84Quest2_Folgequest
+--
+Inst84Quest2name1_HORDE = Inst84Quest2name1
 
 
 
