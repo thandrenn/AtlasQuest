@@ -10137,8 +10137,73 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 
 Inst74Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\nThe Eye of Eternity is the final instance and the only raid of The Nexus, in which players will be able to defeat the blue dragon aspect Malygos.\n\n"..GREEN.."Quoted from WoW Head"
 Inst74Caption = "Нексус: Око Вечности"
-Inst74QAA = "Нет заданий"
-Inst74QAH = "Нет заданий"
+Inst74QAA = "2 задания"
+Inst74QAH = "2 задания"
+
+--Quest 1 Alliance
+Inst74Quest1 = "1. Правосудие в Оке Вечности"
+Inst74Quest1_Level = "80"
+Inst74Quest1_Attain = "80"
+Inst74Quest1_Aim = "Принесите Сердце Магии Красусу на вершине храма Драконьего Покоя в Драконьем Погосте."
+Inst74Quest1_Location = "Красус (Драконий Погост - храм Драконьего Покоя; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst74Quest1_Note = "После убийства Малигоса вы можете взять 'Сердце Магии' в 'Даре Алекстразы' "..YELLOW.."[??]"..WHITE.."."
+Inst74Quest1_Prequest = "Ключ к Радужному Средоточию ("..YELLOW.."Наксрамас"..WHITE..")"
+Inst74Quest1_Folgequest = "Нет"
+Inst74Quest1PreQuest = "true"
+--
+Inst74Quest1name1 = "Chain of the Ancient Wyrm"
+Inst74Quest1name2 = "Torque of the Red Dragonflight"
+Inst74Quest1name3 = "Pendant of the Dragonsworn"
+Inst74Quest1name4 = "Drakescale Collar"
+
+--Quest 2 Alliance
+Inst74Quest2 = "2. Героическое правосудие в Оке Вечности"
+Inst74Quest2_Level = "80"
+Inst74Quest2_Attain = "80"
+Inst74Quest2_Aim = "Принесите Сердце Магии Красусу на вершине храма Драконьего Покоя в Драконьем Погосте."
+Inst74Quest2_Location = "Красус (Драконий Погост - храм Драконьего Покоя; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst74Quest2_Note = "После убийства Малигоса вы можете взять 'Сердце Магии' в 'Даре Алекстразы' "..YELLOW.."[??]"..WHITE.."."
+Inst74Quest2_Prequest = "Ключ к Радужному Средоточию (героический режим) ("..YELLOW.."Наксрамас"..WHITE..")"
+Inst74Quest2_Folgequest = "Нет"
+Inst74Quest2PreQuest = "true"
+--
+Inst74Quest2name1 = "Wyrmrest Necklace of Power"
+Inst74Quest2name2 = "Life-Binder's Locket"
+Inst74Quest2name3 = "Favor of the Dragon Queen"
+Inst74Quest2name4 = "Nexus War Champion Beads"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst74Quest1_HORDE = Inst74Quest1
+Inst74Quest1_HORDE_Level = Inst74Quest1_Level
+Inst74Quest1_HORDE_Attain = Inst74Quest1_Attain
+Inst74Quest1_HORDE_Aim = Inst74Quest1_Aim
+Inst74Quest1_HORDE_Location = Inst74Quest1_Location
+Inst74Quest1_HORDE_Note = Inst74Quest1_Note
+Inst74Quest1_HORDE_Prequest = Inst74Quest1_Prequest
+Inst74Quest1_HORDE_Folgequest = Inst74Quest1_Folgequest
+Inst74Quest1PreQuest_HORDE = Inst74Quest1PreQuest
+--
+Inst74Quest1name1_HORDE = Inst74Quest1name1
+Inst74Quest1name2_HORDE = Inst74Quest1name2
+Inst74Quest1name3_HORDE = Inst74Quest1name3
+Inst74Quest1name4_HORDE = Inst74Quest1name4
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst74Quest2_HORDE = Inst74Quest2
+Inst74Quest2_HORDE_Level = Inst74Quest2_Level
+Inst74Quest2_HORDE_Attain = Inst74Quest2_Attain
+Inst74Quest2_HORDE_Aim = Inst74Quest2_Aim
+Inst74Quest2_HORDE_Location = Inst74Quest2_Location
+Inst74Quest2_HORDE_Note = Inst74Quest2_Note
+Inst74Quest2_HORDE_Prequest = Inst74Quest2_Prequest
+Inst74Quest2_HORDE_Folgequest = Inst74Quest2_Folgequest
+Inst74Quest2PreQuest_HORDE = Inst74Quest2PreQuest
+--
+Inst74Quest2name1_HORDE = Inst74Quest2name1
+Inst74Quest2name2_HORDE = Inst74Quest2name2
+Inst74Quest2name3_HORDE = Inst74Quest2name3
+Inst74Quest2name4_HORDE = Inst74Quest2name4
 
 
 
@@ -10903,8 +10968,57 @@ Inst84Story = {
   ["MaxPages"] = "2",
 };
 Inst84Caption = "Наксрамас"
-Inst84QAA = "Нет заданий"
-Inst84QAH = "Нет заданий"
+Inst84QAA = "2 задания"
+Inst84QAH = "2 задания"
+
+--Quest 1 Alliance
+Inst84Quest1 = "1. Ключ к Радужному Средоточию"
+Inst84Quest1_Level = "80"
+Inst84Quest1_Attain = "80"
+Inst84Quest1_Aim = "Отнесите ключ от Радужного Средоточия Алекстразе Хранительнице Жизни на вершине храма Драконьего Покоя в Драконьем Погосте."
+Inst84Quest1_Location = "Ключ к Радужному Средоточию (падает с Сапфирона; "..YELLOW.."Логово Ледяного змея [1]"..WHITE..")"
+Inst84Quest1_Note = "Алекстраза Хранительница Жизни (Драконий Погост - Храм Драконьего покоя; "..YELLOW.."59.8, 54.6"..WHITE.."). Наградой за выполнение задания будет возможность посетить 'Нексус: Око Вечности' в нормальном режиме на 10 человек."
+Inst84Quest1_Prequest = "Нет"
+Inst84Quest1_Folgequest = "Правосудие в Оке Вечности ("..YELLOW.."Нексус: Око Вечности"..WHITE..")"
+--
+Inst84Quest1name1 = "Key to the Focusing Iris"
+
+--Quest 2 Alliance
+Inst84Quest2 = "2. Ключ к Радужному Средоточию (героический режим)"
+Inst84Quest2_Level = "80"
+Inst84Quest2_Attain = "80"
+Inst84Quest2_Aim = "Отнесите ключ от Радужного Средоточия (героический режим) Алекстразе Хранительнице Жизни на вершине храма Драконьего Покоя в Драконьем Погосте."
+Inst84Quest2_Location = "Ключ для доступа к героическому режиму Радужного Средоточия (падает с Сапфирона; "..YELLOW.."Логово Ледяного змея [1]"..WHITE..")"
+Inst84Quest2_Note = "Алекстраза Хранительница Жизни (Драконий Погост - Храм Драконьего покоя; "..YELLOW.."59.8, 54.6"..WHITE.."). Наградой за выполнение задания будет возможность посетить 'Нексус: Око Вечности' в героическом режиме на 25 человек."
+Inst84Quest2_Prequest = "Нет"
+Inst84Quest2_Folgequest = "Правосудие в Оке Вечности ("..YELLOW.."Нексус: Око Вечности"..WHITE..")"
+--
+Inst84Quest2name1 = "Heroic Key to the Focusing Iris"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst84Quest1_HORDE = Inst84Quest1
+Inst84Quest1_HORDE_Level = Inst84Quest1_Level
+Inst84Quest1_HORDE_Attain = Inst84Quest1_Attain
+Inst84Quest1_HORDE_Aim = Inst84Quest1_Aim
+Inst84Quest1_HORDE_Location = Inst84Quest1_Location
+Inst84Quest1_HORDE_Note = Inst84Quest1_Note
+Inst84Quest1_HORDE_Prequest = Inst84Quest1_Prequest
+Inst84Quest1_HORDE_Folgequest = Inst84Quest1_Folgequest
+--
+Inst84Quest1name1_HORDE = Inst84Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst84Quest2_HORDE = Inst84Quest2
+Inst84Quest2_HORDE_Level = Inst84Quest2_Level
+Inst84Quest2_HORDE_Attain = Inst84Quest2_Attain
+Inst84Quest2_HORDE_Aim = Inst84Quest2_Aim
+Inst84Quest2_HORDE_Location = Inst84Quest2_Location
+Inst84Quest2_HORDE_Note = Inst84Quest2_Note
+Inst84Quest2_HORDE_Prequest = Inst84Quest2_Prequest
+Inst84Quest2_HORDE_Folgequest = Inst84Quest2_Folgequest
+--
+Inst84Quest2name1_HORDE = Inst84Quest2name1
 
 
 
