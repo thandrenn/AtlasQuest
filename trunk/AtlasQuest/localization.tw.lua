@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2008-12-20
-	最後更新﹕二○○八年十二月二十日
+	Last Updated: 2008-12-30
+	最後更新﹕二○○八年十二月三十日
 	新增　巫妖王之怒地城、戰場　故事＆任務
 
 --]]
@@ -10422,17 +10422,17 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 
 Inst74Story = "奈薩斯地城群是一個古老的冰凍堡壘，座落於北風凍原區的凜懼島中心，也是藍龍軍團與瑪里苟斯的大本營。整個奈薩斯是一個廣大且連續的洞穴，由水晶和冰塊所組成，外面圍繞著充滿魔法能量且懸浮在空中的的平台，以及地底下的冰穴洞窟，是凜懼島中最神秘的地方。其中包含了兩個5人地城以及1個25人地城。\n\n永恆之眼是奈薩斯最後也是唯一的團隊地城，在此玩家們將必須準備好擊敗瑪里苟斯以及他所率領的藍龍軍團。\n\n"..GREEN.."引述自WoW Head"
 Inst74Caption = "奈薩斯：永恆之眼"
-Inst74QAA = "3 個任務"
-Inst74QAH = "3 個任務"
+Inst74QAA = "2 個任務"
+Inst74QAH = "2 個任務"
 
 --Quest 1 Alliance
 Inst74Quest1 = "1. 永恆之眼的審判"
 Inst74Quest1_Level = "80"
 Inst74Quest1_Attain = "80"
-Inst74Quest1_Aim = "卡薩斯，位於龍骨荒野的龍眠神殿頂端，要你帶著魔法之心回去."
-Inst74Quest1_Location = "卡薩斯 (龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst74Quest1_Note = "瑪里苟斯 "..YELLOW.."[??]"..WHITE.."掉落魔法之心，任務必須在普通難度的10人永恆之眼中完成."
-Inst74Quest1_Prequest = "聚源虹膜之鑰 ("..YELLOW.."納克薩瑪斯"..WHITE..")"
+Inst74Quest1_Aim = "卡薩斯，位於龍骨荒野的龍眠神殿頂端，要你帶著魔法之心回去。"
+Inst74Quest1_Location = "卡薩斯（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）"
+Inst74Quest1_Note = "魔法之心由瑪里苟斯"..YELLOW.."[??]"..WHITE.."所掉落，此任務必須在普通難度的10人永恆之眼中完成。"
+Inst74Quest1_Prequest = "聚源虹膜之鑰（"..YELLOW.."納克薩瑪斯"..WHITE.."）"
 Inst74Quest1_Folgequest = "無"
 Inst74Quest1PreQuest = "true"
 --
@@ -10445,10 +10445,10 @@ Inst74Quest1name4 = "飛龍鱗項圈"
 Inst74Quest2 = "2. 永恆之眼的英雄審判 (英雄模式)"
 Inst74Quest2_Level = "80"
 Inst74Quest2_Attain = "80"
-Inst74Quest2_Aim = "卡薩斯，位於龍骨荒野的龍眠神殿頂端，要你帶著魔法之心回去."
-Inst74Quest2_Location = "卡薩斯 (龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst74Quest2_Note = "瑪里苟斯 "..YELLOW.."[??]"..WHITE.."掉落魔法之心，任務必須在英雄難度的25人永恆之眼中完成."
-Inst74Quest2_Prequest = "聚源虹膜英雄之鑰 ("..YELLOW.."納克薩瑪斯"..WHITE..")"
+Inst74Quest2_Aim = "卡薩斯，位於龍骨荒野的龍眠神殿頂端，要你帶著魔法之心回去。"
+Inst74Quest2_Location = "卡薩斯（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）"
+Inst74Quest2_Note = "魔法之心由瑪里苟斯"..YELLOW.."[??]"..WHITE.."所掉落，此任務必須在英雄難度的25人永恆之眼中完成。"
+Inst74Quest2_Prequest = "聚源虹膜英雄之鑰（"..YELLOW.."納克薩瑪斯"..WHITE.."）"
 Inst74Quest2_Folgequest = "無"
 Inst74Quest2PreQuest = "true"
 --
@@ -10892,7 +10892,7 @@ Inst78Quest4name5_HORDE = Inst78Quest4name5
 
 --------------- INST79 - The Obsidian Sanctum ---------------
 
-Inst79Story = "No information."
+Inst79Story = "無資訊"
 Inst79Caption = "守護密室：黑曜聖所"
 Inst79QAA = "無任務"
 Inst79QAH = "無任務"
@@ -11257,10 +11257,10 @@ Inst84Quest1 = "1. 聚源虹膜之鑰"
 Inst84Quest1_Level = "80"
 Inst84Quest1_Attain = "80"
 Inst84Quest1_Aim = "轉交聚源虹膜之鑰給『生命守護者』雅立史卓莎，她就在龍骨荒野的龍眠神殿頂端。"
-Inst84Quest1_Location = "聚源虹膜之鑰  (掉落自 薩菲隆; "..YELLOW.."冰霜巨龍的巢穴 [1]"..WHITE..")"
-Inst84Quest1_Note = "雅立史卓莎在 (龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."). 獎勵是開啟永恆之眼的普通難度十人模式."
+Inst84Quest1_Location = "聚源虹膜之鑰（掉落自薩菲隆; "..YELLOW.."納克薩瑪斯 - 冰霜巨龍的巢穴 [1]"..WHITE.."）"
+Inst84Quest1_Note = "雅立史卓莎在（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）。獎勵是開啟普通難度10人模式的永恆之眼鑰匙。"
 Inst84Quest1_Prequest = "無"
-Inst84Quest1_Folgequest = "永恆之眼的審判 ("..YELLOW.."永恆之眼"..WHITE..")"
+Inst84Quest1_Folgequest = "永恆之眼的審判（"..YELLOW.."永恆之眼"..WHITE.."）"
 --
 Inst84Quest1name1 = "聚源虹膜之鑰"
 
@@ -11268,11 +11268,11 @@ Inst84Quest1name1 = "聚源虹膜之鑰"
 Inst84Quest2 = "2. 聚源虹膜英雄之鑰 (英雄模式)"
 Inst84Quest2_Level = "80"
 Inst84Quest2_Attain = "80"
-Inst84Quest2_Aim = "轉交聚源虹膜之鑰給『生命守護者』雅立史卓莎，她就在龍骨荒野的龍眠神殿頂端。"
-Inst84Quest2_Location = "聚源虹膜之鑰  (掉落自 薩菲隆; "..YELLOW.."冰霜巨龍的巢穴 [1]"..WHITE..")"
-Inst84Quest2_Note = "雅立史卓莎在 (龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."). 獎勵是開啟永恆之眼的英雄難度25人模式."
+Inst84Quest2_Aim = "轉交聚源虹膜英雄之鑰給『生命守護者』雅立史卓莎，她就在龍骨荒野的龍眠神殿頂端。"
+Inst84Quest2_Location = "聚源虹膜英雄之鑰（掉落自薩菲隆; "..YELLOW.."納克薩瑪斯 - 冰霜巨龍的巢穴 [1]"..WHITE.."）"
+Inst84Quest2_Note = "雅立史卓莎在（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）。獎勵是開啟英雄難度25人模式的永恆之眼鑰匙。"
 Inst84Quest2_Prequest = "無"
-Inst84Quest2_Folgequest = "永恆之眼的英雄審判 ("..YELLOW.."永恆之眼"..WHITE..")"
+Inst84Quest2_Folgequest = "永恆之眼的英雄審判（"..YELLOW.."永恆之眼"..WHITE.."）"
 --
 Inst84Quest2name1 = "聚源虹膜英雄之鑰"
 
