@@ -4,11 +4,14 @@ Changelog
 
 Version 4.3.2
 
+- Fixed error in Karazhan: Chamber of Secrets that showed up on Horde side. (thanks nonameform)
+
 - Quests Added:
 	- Naxxramas: The Key to the Focusing Iris
 	- Naxxramas: The Heroic Key to the Focusing Iris
 	- Eye of Eternity: Judgment at the Eye of Eternity
 	- Eye of Eternity: Heroic Judgment at the Eye of Eternity
+	- Dire Maul North: The Gordok Taste Test (thanks nonameform)
 
 
 Version 4.3.1
