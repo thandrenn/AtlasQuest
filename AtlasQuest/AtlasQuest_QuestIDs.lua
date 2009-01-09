@@ -421,17 +421,20 @@ Inst11Quest1_QuestID = "1193"
 Inst11Quest2_QuestID = "5518"
 Inst11Quest3_QuestID = "5525"
 Inst11Quest4_QuestID = "7703"
+Inst11Quest5_QuestID = "5528"
 
 Inst11Quest1_HORDE_QuestID = "1193"
 Inst11Quest2_HORDE_QuestID = "5518"
 Inst11Quest3_HORDE_QuestID = "5525"
 Inst11Quest4_HORDE_QuestID = "7703"
+Inst11Quest5_HORDE_QuestID = "5528"
 
 
 AQ_1193_Level = "60"
 AQ_5518_Level = "60"
 AQ_5525_Level = "60"
 AQ_7703_Level = "60"
+AQ_5528_Level = "60"
 
 
 

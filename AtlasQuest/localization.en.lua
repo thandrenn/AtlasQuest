@@ -2405,8 +2405,8 @@ Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 
 Inst11Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst11Caption = "Dire Maul (North)"
-Inst11QAA = "4 Quests"
-Inst11QAH = "4 Quests"
+Inst11QAA = "5 Quests"
+Inst11QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst11Quest1 = "1. A Broken Trap"
@@ -2457,6 +2457,19 @@ Inst11Quest4name2 = "Gordok's Gloves"
 Inst11Quest4name3 = "Gordok's Gauntlets"
 Inst11Quest4name4 = "Gordok's Handguards"
 
+--Quest 5 Alliance
+Inst11Quest5 = "5. The Gordok Taste Test"
+Inst11Quest5_Level = "60"
+Inst11Quest5_Attain = "60"
+Inst11Quest5_Aim = "Free Booze."
+Inst11Quest5_Location = "Stomper Kreeg (Dire Maul; "..YELLOW.."North, [2]"..WHITE..")"
+Inst11Quest5_Note = "Just talk to the NPC to accept and complete the quest at the same time."
+Inst11Quest5_Prequest = "No"
+Inst11Quest5_Folgequest = "No"
+--
+Inst11Quest5name1 = "Gordok Green Grog"
+Inst11Quest5name2 = "Kreeg's Stout Beatdown"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst11Quest1_HORDE = Inst11Quest1
@@ -2506,6 +2519,19 @@ Inst11Quest4name1_HORDE = Inst11Quest4name1
 Inst11Quest4name2_HORDE = Inst11Quest4name2
 Inst11Quest4name3_HORDE = Inst11Quest4name3
 Inst11Quest4name4_HORDE = Inst11Quest4name4
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst11Quest5_HORDE = Inst11Quest5
+Inst11Quest5_HORDE_Level = Inst11Quest5_Level
+Inst11Quest5_HORDE_Attain = Inst11Quest5_Attain
+Inst11Quest5_HORDE_Aim = Inst11Quest5_Aim
+Inst11Quest5_HORDE_Location = Inst11Quest5_Location
+Inst11Quest5_HORDE_Note = Inst11Quest5_Note
+Inst11Quest5_HORDE_Prequest = Inst11Quest5_Prequest
+Inst11Quest5_HORDE_Folgequest = Inst11Quest5_Folgequest
+--
+Inst11Quest5name1_HORDE = Inst11Quest5name1
+Inst11Quest5name2_HORDE = Inst11Quest5name2
 
 
 
@@ -8501,7 +8527,7 @@ Inst53Quest15_HORDE_Note = Inst53Quest15_Note
 Inst53Quest15_HORDE_Prequest = Inst53Quest15_Prequest
 Inst53Quest15_HORDE_Folgequest = Inst53Quest15_Folgequest
 --
-Inst53Quest15name1_HORDE = Inst55Quest13name1
+Inst53Quest15name1_HORDE = Inst53Quest15name1
 
 
 
