@@ -2495,8 +2495,8 @@ Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 
 Inst11Story = "埃雷萨拉斯古城是在一万二千年前由当时的一批暗夜精灵法师秘密地建造的，它被用于保护艾莎拉皇后最宝贵的奥法秘密。虽然受到了世界大震动的影响，这座伟大的城市基本屹立在那里，现在其被称为厄运之槌。这座遗迹城市分为三个部分，分别被不同的生物所占据——包括幽灵般的高等精灵，邪恶的萨特和鲁莽的食人魔。只有最勇敢的冒险队伍才敢进入这个破碎的城市并面对远古大厅中邪恶力量。"
 Inst11Caption = "厄运之槌（北）"
-Inst11QAA = "4 个任务"
-Inst11QAH = "4 个任务"
+Inst11QAA = "5 个任务"
+Inst11QAH = "5 个任务"
 
 --Quest 1 Alliance
 Inst11Quest1 = "1. 破碎的陷阱 "
@@ -2547,6 +2547,19 @@ Inst11Quest4name2 = "戈多克手套"
 Inst11Quest4name3 = "戈多克手甲"
 Inst11Quest4name4 = "戈多克护手"
 
+--Quest 5 Alliance
+Inst11Quest5 = "5. 戈多克好酒"
+Inst11Quest5_Level = "60"
+Inst11Quest5_Attain = "60"
+Inst11Quest5_Aim = "获取免费的酒。"
+Inst11Quest5_Location = "践踏者克雷格（厄运之槌; "..YELLOW.."北，[2]"..WHITE.."）"
+Inst11Quest5_Note = "只要和克雷格交谈便可同时接受与完成任务，你也必须确保你有“当国王真好”这个状态。"
+Inst11Quest5_Prequest = "无"
+Inst11Quest5_Folgequest = "无"
+--
+Inst11Quest5name1 = "戈多克绿酒"
+Inst11Quest5name2 = "克雷格的烈酒"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst11Quest1_HORDE = Inst11Quest1
@@ -2596,6 +2609,19 @@ Inst11Quest4name1_HORDE = Inst11Quest4name1
 Inst11Quest4name2_HORDE = Inst11Quest4name2
 Inst11Quest4name3_HORDE = Inst11Quest4name3
 Inst11Quest4name4_HORDE = Inst11Quest4name4
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst11Quest5_HORDE = Inst11Quest5
+Inst11Quest5_HORDE_Level = Inst11Quest5_Level
+Inst11Quest5_HORDE_Attain = Inst11Quest5_Attain
+Inst11Quest5_HORDE_Aim = Inst11Quest5_Aim
+Inst11Quest5_HORDE_Location = Inst11Quest5_Location
+Inst11Quest5_HORDE_Note = Inst11Quest5_Note
+Inst11Quest5_HORDE_Prequest = Inst11Quest5_Prequest
+Inst11Quest5_HORDE_Folgequest = Inst11Quest5_Folgequest
+--
+Inst11Quest5name1_HORDE = Inst11Quest5name1
+Inst11Quest5name2_HORDE = Inst11Quest5name2
 
 
 
@@ -8836,7 +8862,7 @@ Inst53Quest15_HORDE_Note = Inst53Quest15_Note
 Inst53Quest15_HORDE_Prequest = Inst53Quest15_Prequest
 Inst53Quest15_HORDE_Folgequest = Inst53Quest15_Folgequest
 --
-Inst53Quest15name1_HORDE = Inst55Quest13name1
+Inst53Quest15name1_HORDE = Inst55Quest15name1
 
 --------------- INST54 - TK: Arcatraz (Arc) ---------------
 Inst54Story = "风暴要塞原先是神秘的纳鲁用来在大宇宙中旅行的跨次元飞船。燃烧军团的统领，堕落泰坦萨格拉斯看见了来自阿古斯行星的艾瑞达人的智慧，决定使他们成为他的恶魔军队的一员。阿克蒙德和基尔加丹，艾瑞达人的2个领袖，接受了萨格拉斯的邀请。但是第三位领袖维伦看到萨格拉斯是邪恶的，乘坐着纳鲁的风暴要塞逃离了阿古斯行星。穿越了扭曲虚空之后，维伦和他的追随者最终到达了一个被他们称为德拉诺的新世界。基尔加丹为了消灭所有艾瑞达人的残余（现在被称为德莱尼人），将德拉诺大陆的兽人腐化为野蛮的战士，大肆屠杀德莱尼人。此外，血精灵的领袖凯尔萨斯王子发现了风暴要塞中潜藏的奥术能量，用武力将风暴要塞从纳鲁和德莱尼人手中抢了过来。"

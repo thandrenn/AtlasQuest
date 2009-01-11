@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2008-12-30
-	最後更新﹕二○○八年十二月三十日
+	Last Updated: 2009-01-11
+	最後更新﹕二○○九年一月十一日
 	新增　巫妖王之怒地城、戰場　故事＆任務
 
 --]]
@@ -2412,8 +2412,8 @@ Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 
 Inst11Story = "埃德薩拉斯古城是在一萬二千年前由當時一批夜精靈法師所秘密建造的，它被用於保護艾薩拉女王最寶貴的法術秘密。雖然受到了世界大震動的影響，這座偉大的城市仍宏偉地屹立在那裡，現在被稱為厄運之槌。這座遺跡城市分為三個部分，分別被不同的生物所佔據——包括幽靈般的高等精靈、邪惡的薩特和魯莽的巨魔部族。只有最勇敢的冒險隊伍才敢進入這個破碎的城市，並面對遠古地窖中的邪惡力量。"
 Inst11Caption = "厄運之槌（北）"
-Inst11QAA = "4 個任務"
-Inst11QAH = "4 個任務"
+Inst11QAA = "5 個任務"
+Inst11QAH = "5 個任務"
 
 --Quest 1 Alliance
 Inst11Quest1 = "1. 破碎的陷阱"
@@ -2455,7 +2455,7 @@ Inst11Quest4_Level = "60"
 Inst11Quest4_Attain = "56"
 Inst11Quest4_Aim = "找到戈多克力量護手，並將它交給厄運之槌的克羅卡斯。"
 Inst11Quest4_Location = "克羅卡斯（厄運之槌; "..YELLOW.."北，[5]"..WHITE.."）"
-Inst11Quest4_Note = "托塞德林王子在厄運之槌"..YELLOW.."西"..WHITE.."的"..YELLOW.."[7]"..WHITE.."。力量護手在王子附近的一個箱子裡，交任務時你也必須確保你有「當國王真好」這個狀態。"
+Inst11Quest4_Note = "托塞德林王子在厄運之槌"..YELLOW.."西"..WHITE.."的"..YELLOW.."[7]"..WHITE.."。力量護手在王子附近的一個箱子裡，交任務時你也必須確保你有「我是國王」這個狀態。"
 Inst11Quest4_Prequest = "無"
 Inst11Quest4_Folgequest = "無"
 --
@@ -2463,6 +2463,19 @@ Inst11Quest4name1 = "戈多克裹手"
 Inst11Quest4name2 = "戈多克手套"
 Inst11Quest4name3 = "戈多克護手"
 Inst11Quest4name4 = "戈多克手甲"
+
+--Quest 5 Alliance
+Inst11Quest5 = "5. 戈多克好酒"
+Inst11Quest5_Level = "60"
+Inst11Quest5_Attain = "60"
+Inst11Quest5_Aim = "你是頭兒，可以喝我的酒！讓你精神煥發！都是好酒，頭兒……你嘗嘗，告訴克雷格！"
+Inst11Quest5_Location = "踐踏者克雷格（厄運之槌; "..YELLOW.."北，[2]"..WHITE.."）"
+Inst11Quest5_Note = "只要和克雷格交談便可同時接受與完成任務，你也必須確保你有「我是國王」這個狀態。"
+Inst11Quest5_Prequest = "無"
+Inst11Quest5_Folgequest = "無"
+--
+Inst11Quest5name1 = "戈多克綠酒"
+Inst11Quest5name2 = "克雷格的烈酒"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2513,6 +2526,19 @@ Inst11Quest4name1_HORDE = Inst11Quest4name1
 Inst11Quest4name2_HORDE = Inst11Quest4name2
 Inst11Quest4name3_HORDE = Inst11Quest4name3
 Inst11Quest4name4_HORDE = Inst11Quest4name4
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst11Quest5_HORDE = Inst11Quest5
+Inst11Quest5_HORDE_Level = Inst11Quest5_Level
+Inst11Quest5_HORDE_Attain = Inst11Quest5_Attain
+Inst11Quest5_HORDE_Aim = Inst11Quest5_Aim
+Inst11Quest5_HORDE_Location = Inst11Quest5_Location
+Inst11Quest5_HORDE_Note = Inst11Quest5_Note
+Inst11Quest5_HORDE_Prequest = Inst11Quest5_Prequest
+Inst11Quest5_HORDE_Folgequest = Inst11Quest5_Folgequest
+--
+Inst11Quest5name1_HORDE = Inst11Quest5name1
+Inst11Quest5name2_HORDE = Inst11Quest5name2
 
 
 
@@ -8707,7 +8733,7 @@ Inst53Quest15_HORDE_Note = Inst53Quest15_Note
 Inst53Quest15_HORDE_Prequest = Inst53Quest15_Prequest
 Inst53Quest15_HORDE_Folgequest = Inst53Quest15_Folgequest
 --
-Inst53Quest15name1_HORDE = Inst55Quest13name1
+Inst53Quest15name1_HORDE = Inst55Quest15name1
 
 
 
