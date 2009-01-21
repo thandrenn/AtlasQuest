@@ -4,7 +4,9 @@ Changelog
 
 Version 4.3.2
 
+- Russian, Simplified Chinese and Traditional Chinese localizations updated.
 - Fixed error in Karazhan: Chamber of Secrets that showed up on Horde side. (thanks nonameform)
+- Updated Maraudon: The Scepter of Celebras and Zul'Farrak: Gahz'rilla for Patch 3.08 changes.
 
 - Quests Added:
 	- Naxxramas: The Key to the Focusing Iris
