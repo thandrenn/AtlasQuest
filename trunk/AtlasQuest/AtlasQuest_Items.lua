@@ -1756,7 +1756,7 @@ Inst13Quest5Rewardtext = AQNoReward
 Inst13Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst13Quest6ITC1 = Itemc4;
-Inst13Quest6description1 = AQITEM_ITEM
+Inst13Quest6description1 = AQITEM_STAFF
 Inst13Quest6ID1 = "17191"
 
 --Quest 7 Alliance
@@ -1837,7 +1837,7 @@ Inst13Quest5Rewardtext_HORDE = AQNoReward
 Inst13Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst13Quest6ITC1_HORDE = Itemc4;
-Inst13Quest6description1_HORDE = AQITEM_ITEM
+Inst13Quest6description1_HORDE = AQITEM_STAFF
 Inst13Quest6ID1_HORDE = "17191"
 
 --Quest 7 Horde
