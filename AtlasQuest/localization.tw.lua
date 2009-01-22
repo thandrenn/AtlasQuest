@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2009-01-11
-	最後更新﹕二○○九年一月十一日
+	Last Updated: 2009-01-22
+	最後更新﹕二○○九年一月廿二日
 	新增　巫妖王之怒地城、戰場　故事＆任務
 
 --]]
@@ -5564,7 +5564,7 @@ Inst27Quest7_Level = "50"
 Inst27Quest7_Attain = "40"
 Inst27Quest7_Aim = "把加茲瑞拉的鱗片交給閃光平原的維茲爾．銅栓。"
 Inst27Quest7_Location = "維茲爾．銅栓（千針石林 - 閃光平原; "..YELLOW.."78,77 "..WHITE.."）"
-Inst27Quest7_Note = "前置任務從科羅莫特．鋼尺（鐵爐堡 - 地精區; "..YELLOW.."68,46"..WHITE.."）處得到。但這不是一個必要的任務。\n你可以在"..YELLOW.."[6]"..WHITE.."使用祖爾法拉克之槌敲鑼召喚加茲瑞拉。\n祖爾法拉克之槌來自守護者奇爾加（辛特蘭 - 祖爾祭壇; "..YELLOW.."49,70"..WHITE.."）的神聖之槌並在辛薩羅祭壇"..YELLOW.."59,77"..WHITE.."上鑄造，才能在祖爾法拉克敲鑼。"
+Inst27Quest7_Note = "前置任務從科羅莫特．鋼尺（鐵爐堡 - 地精區; "..YELLOW.."68,46"..WHITE.."）處得到。但這不是一個必要的任務。\n你可以在"..YELLOW.."[6]"..WHITE.."敲響鑼鼓鑼召喚加茲瑞拉。\n現在你不再需要祖爾法拉克之槌便可以敲鑼。"
 Inst27Quest7_Prequest = "銅栓兄弟"
 Inst27Quest7_Folgequest = "無"
 Inst27Quest7PreQuest = "true"
@@ -5651,7 +5651,7 @@ Inst27Quest7_HORDE_Level = Inst27Quest7_Level
 Inst27Quest7_HORDE_Attain = Inst27Quest7_Attain
 Inst27Quest7_HORDE_Aim = Inst27Quest7_Aim
 Inst27Quest7_HORDE_Location = Inst27Quest7_Location
-Inst27Quest7_HORDE_Note = "你可以在"..YELLOW.."[6]"..WHITE.."使用祖爾法拉克之槌敲鑼召喚加茲瑞拉。\n祖爾法拉克之槌來自守護者奇爾加（辛特蘭 - 祖爾祭壇; "..YELLOW.."49,70"..WHITE.."）的神聖之槌並在辛薩羅祭壇"..YELLOW.."59,77"..WHITE.."上鑄造，才能在祖爾法拉克敲鑼。"
+Inst27Quest7_HORDE_Note = "你可以在"..YELLOW.."[6]"..WHITE.."敲響鑼鼓鑼召喚加茲瑞拉。\n現在你不再需要祖爾法拉克之槌便可以敲鑼。"
 Inst27Quest7_HORDE_Prequest = "無"
 Inst27Quest7_HORDE_Folgequest = Inst27Quest7_Folgequest
 --
