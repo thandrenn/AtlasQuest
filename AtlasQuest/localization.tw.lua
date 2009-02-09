@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2009-01-22
-	最後更新﹕二○○九年一月廿二日
+	Last Updated: 2009-02-09
+	最後更新﹕二○○九年二月九日
 	新增　巫妖王之怒地城、戰場　故事＆任務
 
 --]]
@@ -11078,7 +11078,7 @@ Inst81Quest2_Level = "78"
 Inst81Quest2_Attain = "76"
 Inst81Quest2_Aim = "杜布拉金的撰史者巴琪妮要你進入剛德拉克收集6個德拉克瑞歷史石板。"
 Inst81Quest2_Location = "撰史者巴琪妮（祖爾德拉克 - 杜布拉金; "..YELLOW.."70.0, 20.9"..WHITE.."）"
-Inst81Quest2_Note = "那裡有足夠的德拉克瑞歷史石板讓隊伍裡面的五個人都完成這個任務。"
+Inst81Quest2_Note = "德拉克瑞歷史石板散落在地城各處，那裡有足夠的石板讓隊伍裡面的五個人都完成這個任務。前置任務[探班]並非必要的。"
 Inst81Quest2_Prequest = "探班"
 Inst81Quest2_Folgequest = "無"
 Inst81Quest2PreQuest = "true"
