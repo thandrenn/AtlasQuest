@@ -221,8 +221,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheOculus") then
 		AQINSTANZ = 73;
 
---	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheEyeOfEternity") then
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceWest") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheEyeOfEternity") then
 		AQINSTANZ = 74;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AzjolNerub") then
@@ -252,8 +251,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Naxxramas") then
 		AQINSTANZ = 84;
 
---	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\VaultOfArchavon") then
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceEast") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\VaultOfArchavon") then
 		AQINSTANZ = 85;
 
 
@@ -275,8 +273,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\EyeOfTheStorm") then
 		AQINSTANZ = 60;
 
---	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\StrandOfTheAncients") then
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceOutland") then
+	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\StrandOfTheAncients") then
 		AQINSTANZ = 83;
 
 
