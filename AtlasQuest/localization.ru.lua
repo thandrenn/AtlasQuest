@@ -9476,7 +9476,7 @@ Inst68QAH = "Нет заданий"
 --WoLTK Quests: Russian localizatiton by EvgeshaH.
 --------------- INST69 - Caverns of Time: Stratholme Past ---------------
 
-Inst69Story = "Stratholme Past is one of the timeways accessible in the Caverns of Time. It is centered around helping Prince Arthas purge the city of Stratholme from the grain-infected populace, and is one of the first acts in Arthas' descent into madness and evil, eventually becoming one of the Lich King's greatest death knights and later the Lich King himself.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst69Story = "До слияния с Королем-личом принц боролся против Плети, пытаясь искоренить чуму, терзавшую королевство. Страх и ярость завладели разумом принца. Обнаружив признаки чумы в Стратхольме, Артас понял, что рано или поздно все жители города погибнут, а после перерождения встанут на сторону Плети. Принц видел единственный выход из ситуации: очистить город, уничтожив все его население.\n\n"..GREEN.."Цитата с wow-europe.com"
 Inst69Caption = "ПВ: Очищение Стратхольма"
 Inst69QAA = "4 задания"
 Inst69QAH = "4 задания"
@@ -9594,7 +9594,7 @@ Inst69Quest4name4_HORDE = Inst69Quest4name4
 
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
-Inst70Story = "Utgarde Keep is the first dungeon hub located on the shores of Lake Cauldros in the Howling Fjord of Northrend. Inhabited by the vrykul (led by King Ymiron), a half-giant Viking-like race bent on proving their strength to the Lich King, they are raising the most worthy of their warriors to serve him beyond the grave here at their main base of operations.\n\n"..GREEN.."Quoted from WoW Head"
+Inst70Story = "Среди скал, окружающих Бухту Кинжалов, что в Ревущем Фьорде, высится Крепость Утгард, захваченная загадочным, диким племенем врайкулов. В течение нескольких тысяч лет Крепость считалась покинутой, но теперь в ее стенах засело бесчисленное врайкульское войско, постоянно нападающее на близлежащие поселения. Врайкулы фанатично преданны своему королю Имирону и живут, похоже, только ради битвы.\n\n"..GREEN.."Цитата с wow-europe.com."
 Inst70Caption = "Крепость Утгард"
 Inst70QAA = "3 задания"
 Inst70QAH = "4 задания"
@@ -9701,7 +9701,7 @@ Inst70Quest4name4_HORDE = "Tiled-Stone Pendant"
 
 --------------- INST71 - Utgarde Keep: Utgarde Pinnacle ---------------
 
-Inst71Story = "Utgarde Keep is the first dungeon hub located on the shores of Lake Cauldros in the Howling Fjord of Northrend. Inhabited by the vrykul (led by King Ymiron), a half-giant Viking-like race bent on proving their strength to the Lich King, they are raising the most worthy of their warriors to serve him beyond the grave here at their main base of operations.\n\n"..GREEN.."Quoted from WoW Head"
+Inst71Story = "Среди скал, окружающих Бухту Кинжалов, что в Ревущем Фьорде, высится Крепость Утгард, захваченная загадочным, диким племенем врайкулов. В течение нескольких тысяч лет Крепость считалась покинутой, но теперь в ее стенах засело бесчисленное врайкульское войско, постоянно нападающее на близлежащие поселения. Врайкулы фанатично преданны своему королю Имирону и живут, похоже, только ради битвы.\n\n"..GREEN.."Цитата с wow-europe.com."
 Inst71Caption = "Вершина Утгард"
 Inst71QAA = "4 задания"
 Inst71QAH = "4 задания"
@@ -9827,7 +9827,7 @@ Inst71Quest4name5_HORDE = Inst71Quest4name5
 
 --------------- INST72 - The Nexus: The Nexus ---------------
 
-Inst72Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\n"..GREEN.."Quoted from WoW Head"
+Inst72Story = "Нексус - подземелье в центре Клодарры, в Борейской тундре в Нордсколе. Нексус сосоит из многих пещер и туннелей ведущим к двум подземельям на 5 человек и одному подземелью на рейд из 25 человек.\n\n"..GREEN.."Цитата с англ. WoW Head"
 Inst72Caption = "Нексус: Нексус"
 Inst72QAA = "5 заданий"
 Inst72QAH = "5 заданий"
@@ -9987,7 +9987,7 @@ Inst72Quest5name5_HORDE = Inst72Quest5name5
 
 --------------- INST73 - The Nexus: The Oculus ---------------
 
-Inst73Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\n"..GREEN.."Quoted from WoW Head"
+Inst73Story = "Нексус - подземелье в центре Клодарры, в Борейской тундре в Нордсколе. Нексус сосоит из многих пещер и туннелей ведущим к двум подземельям на 5 человек и одному подземелью на рейд из 25 человек.\n\n"..GREEN.."Цитата с англ. WoW Head"
 Inst73Caption = "Нексус: Окулус"
 Inst73QAA = "6 заданий"
 Inst73QAH = "6 заданий"
@@ -10161,7 +10161,7 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
-Inst74Story = "The Nexus, a dungeon hub, is an ancient ice fortress found in the center of Coldarra, in Northrend's Borean Tundra. It is a column of magical energy surrounded by levitating earth-covered rings with ice caves underneath. The Nexus is an extensive series of caves and tunnels that riddles Coldarra, containing wings leading to two 5 man dungeons and one 25 man raid.\n\nThe Eye of Eternity is the final instance and the only raid of The Nexus, in which players will be able to defeat the blue dragon aspect Malygos.\n\n"..GREEN.."Quoted from WoW Head"
+Inst74Story = "Нексус - подземелье в центре Клодарры, в Борейской тундре в Нордсколе. Нексус сосоит из многих пещер и туннелей ведущим к двум подземельям на 5 человек и одному подземелью на рейд из 25 человек.\n\nОко Вечности - последнее рейдовое подземелье Нексуса, в котором игроки могут сразиться с Малигосом, драконом синего аспекта.\n\n"..GREEN.."Цитата с англ. WoW Head"
 Inst74Caption = "Нексус: Око Вечности"
 Inst74QAA = "2 задания"
 Inst74QAH = "2 задания"
@@ -10439,7 +10439,7 @@ Inst76Quest4name4_HORDE = Inst76Quest4name4
 
 --------------- INST77 - Ulduar: Halls of Stone ---------------
 
-Inst77Story = "Ulduar is a dungeon hub located at The Storm Peaks of Northrend and is a treasure trove of information on the Titans and their activities. Ulduar is a mysterious subterranean realm of ice and stone. It is controlled by storm giants, and their minions the crystal golems. The entrance is well-hidden and heavily guarded, only allowing the clever to sneak inside. These giants are a dying race desperately avoiding their fate, hiding rather than fighting in the battle of the Sourage.\n\nHalls of Stone is a large 5 five-man dungeon, and is the first instance of the titan city Ulduar wing.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst78Story = "Ульдуар - подземелье расположенное в Грозовой Гряде Нордскола и хранящее информацию о титанах и их деятельности. Непознанное подземное царство льда и камня ждет вас там. Вход в него превосходно спрятан и хорошо охраняется - только самые догадливые смогут попасть внутрь!\n\nЧертоги камня - большое подземелье на 5 человек, является первым подземельем города титанов Ульдуара.\n\n"..GREEN.."Цитата с WoWWiki"
 Inst77Caption = "Ульдуар: Чертоги Камня"
 Inst77QAA = "2 задания"
 Inst77QAH = "2 задания"
@@ -10503,7 +10503,7 @@ Inst77Quest2name4_HORDE = Inst77Quest2name4
 
 --------------- INST78 - Ulduar: Halls of Lightning ---------------
 
-Inst78Story = "Ulduar is a dungeon hub located at The Storm Peaks of Northrend and is a treasure trove of information on the Titans and their activities. Ulduar is a mysterious subterranean realm of ice and stone. It is controlled by storm giants, and their minions the crystal golems. The entrance is well-hidden and heavily guarded, only allowing the clever to sneak inside. These giants are a dying race desperately avoiding their fate, hiding rather than fighting in the battle of the Sourage.\n\nHalls of Lightning is the second and highest level 5 five-man dungeon connected to the titan city Ulduar.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst78Story = "Ульдуар - подземелье расположенное в Грозовой Гряде Нордскола и хранящее информацию о титанах и их деятельности. Непознанное подземное царство льда и камня ждет вас там. Вход в него превосходно спрятан и хорошо охраняется - только самые догадливые смогут попасть внутрь!\n\nЧертоги молний - второе подземелье на 5 человек, города титанов Ульдуара.\n\n"..GREEN.."Цитата с WoWWiki"
 Inst78Caption = "Ульдуар: Чертоги Молний"
 Inst78QAA = "4 задания"
 Inst78QAH = "4 задания"
@@ -10642,7 +10642,7 @@ Inst79QAH = "Нет заданий"
 
 --------------- INST80 - Drak'Tharon Keep ---------------
 
-Inst80Story = "Drak'Tharon Keep is located in the icy northlands of Northrend, in the northwestern part of the Grizzly Hills, and is an ancient ice troll stronghold. The Scourge drove the trolls out and took possession, and now the Scourge has a solid garrison there holding the mountain passes. The strange dungeon is filled with dinosaurs and lizards, while teeming with undead. You are sent in to discover the reasoning behind why the trolls are leaving their home of Zul'Drak.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst80Story = "К северу от зеленеющих лесов Седых Холмов расположена крепость Драк'Тарон, древний оплот Драккари. Некогда она служила пограничным форпостом ледяных троллей, но во время нашествия Плети Драк'Тарон захватили воины Короля-лича. Превращенный в гарнизон нежити, Драк'Тарон стал самой горькой утратой ледяных троллей. Трупы драккари, усеявшие крепость, символизируют мрачное будущее империи. Многие из павших защитников Драк'Тарона стали приспешниками Короля-лича и теперь патрулируют окрестности крепости и нападают на тех, кто отважится приблизиться к ней.\n\n"..GREEN.."Цитата с wow-europe.com"
 Inst80Caption = "Крепость Драк'Тарон"
 Inst80QAA = "4 задания"
 Inst80QAH = "4 задания"
@@ -10770,7 +10770,7 @@ Inst80Quest4name4_HORDE = Inst80Quest4name4
 
 --------------- INST81 - Gundrak ---------------
 
-Inst81Story = "Gundrak is the capital of the Ice Trolls. Located in Zul'Drak, the instance contains three entrances which all lead into a main circle. The Drakkari tribe rule Zul'Drak from here, constantly battling the mighty forces of the Scourge. This dungeon shows the Ice Trolls in all their glory, including the opportunity to fight the Ice Troll leader, and teach us why they have been so successful against the Scourge.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst81Story = "Гундрак - столица ледяных троллей. Подземелье находится в Зул'Драке и имеет три входа. Драккари управляли Зул'Драком от сюда, сражаясь с могучими силами Плети. В этом подземелье вы увидите Ледяных Троллей во всей красе, а также сразитесь с их лидером и, может быть, поймете, почему они так успешно борются с Плетью.\n\n"..GREEN.."Цитата с WoWWiki"
 Inst81Caption = "Гундрак"
 Inst81QAA = "4 задания"
 Inst81QAH = "4 задания"
@@ -10900,7 +10900,7 @@ Inst81Quest4name5_HORDE = Inst81Quest4name5
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Story = "Beneath the floating city of Dalaran is the 5 man dungeon The Violet Hold. Kirin Tor prison guards are fending off invaders of the blue dragonflight and under orders from Malygos, they are using magical portals to enter the hold and try to break through the exit in order to enter the city.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst82Story = "Малигос наслал подвластное ему племя синих драконов на Даларан. В ходе этого неожиданного и жестокого нападения захватчики проделали огромную щель в крыше Аметистовой Крепости и начали проникать через порталы внутрь тюрьмы, испытывая ее прочность и подвергая опасности всех жителей города. Ошеломленные столь отчаянным нападением, члены Кирин-Тора обратились за помощью к героям Орды и Альянса, прося их как можно быстрее положить конец вторжению.\n\n"..GREEN.."Цитата с wow-europe.com"
 Inst82Caption = "Аметистовая Крепость"
 Inst82QAA = "3 задания"
 Inst82QAH = "3 задания"
