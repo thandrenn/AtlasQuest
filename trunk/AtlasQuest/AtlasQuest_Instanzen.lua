@@ -254,6 +254,9 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\VaultOfArchavon") then
 		AQINSTANZ = 85;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Ulduar") then
+		AQINSTANZ = 86;
+
 
 
 	-- Battlegrounds
@@ -541,6 +544,9 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Archavon") then
 		AQINSTANZ = 85;
 
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Ulduar") then
+		AQINSTANZ = 86;
+
 
 	-- Battlegrounds
 
@@ -688,3 +694,4 @@ end
 -- 83 = Strand of the Ancients (SotA)
 -- 84 = Naxxramas (Naxx)
 -- 85 = Vault of Archavon
+-- 86 = Ulduar
