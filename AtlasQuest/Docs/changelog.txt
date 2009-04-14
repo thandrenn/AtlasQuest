@@ -4,7 +4,11 @@ Changelog
 
 Version 4.3.3
 
-- 
+- TOC updated for Patch 3.1
+- Support for Ulduar added. No quests known yet.
+- Russian, Simplified Chinese and Traditional Chinese localizations updated.
+- Added clarification to Stratholme: Aurius' Reckoning.
+- Fixed Alterac Valley quests not linking.
 
 
 

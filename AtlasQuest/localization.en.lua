@@ -4351,7 +4351,7 @@ Inst22Quest8_Level = "60"
 Inst22Quest8_Attain = "56"
 Inst22Quest8_Aim = "Kill the Baron."
 Inst22Quest8_Location = "Aurius (Stratholme; "..YELLOW.."[13]"..WHITE..")"
-Inst22Quest8_Note = "To start the quest you have to give Aurius [The Medallion of Faith]. You get the Medallion from a chest (Malor's Strongbox "..YELLOW.."[7]"..WHITE..") in the first chamber of the bastion (before the ways split). After giving Aurius the Medallion he supports your group in the fight against the Baron "..YELLOW.."[19]"..WHITE..". After killing the Baron you have to talk to Aurius again to get the Rewards."
+Inst22Quest8_Note = "You won't actually pick up a regular quest here. When you first enter Stratholme, Aurius will ask for [The Medallion of Faith]. You get the Medallion from a chest (Malor's Strongbox "..YELLOW.."[7]"..WHITE..") in the first chamber of the bastion (before the ways split).\n\nAfter giving Aurius the Medallion he'll help you when you fight Baron Rivendare "..YELLOW.."[19]"..WHITE..". After the Baron dies, Aurius too will die. Talk to his corpse to receive the reward."
 Inst22Quest8_Prequest = "None"
 Inst22Quest8_Folgequest = "None"
 --
@@ -10172,7 +10172,7 @@ Inst74Quest1_Level = "80"
 Inst74Quest1_Attain = "80"
 Inst74Quest1_Aim = "Krasus atop Wyrmrest Temple in the Dragonblight wants you to return with the Heart of Magic."
 Inst74Quest1_Location = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst74Quest1_Note = "Malygos drops the Heart of Magic at "..YELLOW.."[??]"..WHITE.."."
+Inst74Quest1_Note = "After Malygos dies, his Heart of Magic can is found in a Red Heart floating near Alexstrasza's Gift."
 Inst74Quest1_Prequest = "The Key to the Focusing Iris ("..YELLOW.."Naxxramas"..WHITE..")"
 Inst74Quest1_Folgequest = "None"
 Inst74Quest1PreQuest = "true"
@@ -10188,7 +10188,7 @@ Inst74Quest2_Level = "80"
 Inst74Quest2_Attain = "80"
 Inst74Quest2_Aim = "Krasus atop Wyrmrest Temple in the Dragonblight wants you to return with the Heart of Magic."
 Inst74Quest2_Location = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst74Quest2_Note = "Malygos drops the Heart of Magic at "..YELLOW.."[??]"..WHITE.."."
+Inst74Quest2_Note = "After Malygos dies, his Heart of Magic can is found in a Red Heart floating near Alexstrasza's Gift."
 Inst74Quest2_Prequest = "The Heroic Key to the Focusing Iris ("..YELLOW.."Naxxramas"..WHITE..")"
 Inst74Quest2_Folgequest = "None"
 Inst74Quest2PreQuest = "true"
@@ -11056,6 +11056,13 @@ Inst85QAA = "No Quests"
 Inst85QAH = "No Quests"
 
 
+
+--------------- INST86 - Ulduar ---------------
+
+Inst86Story = "For millennia, Ulduar has remained undisturbed by mortals, far away from their concerns and their struggles. Yet since its recent discovery, many have wondered what the structure's original purpose may have been. Some thought it a city, built to herald the glory of its makers; some thought it a vault containing innumerable treasures, perhaps even relics of the mighty Titans themselves. Such speculations were wrong. Beyond Ulduar's gates lies no city, no treasure vault, no final answer to the Titan's mysteries. All that awaits those who dare set foot in Ulduar is a horror even the Titans could not, would not destroy, an evil they merely... contained. Beneath ancient Ulduar, the Old God of death lies, whispering.... Tread carefully, or its prison will become your tomb."
+Inst86Caption = "Ulduar"
+Inst86QAA = "No Quests"
+Inst86QAH = "No Quests"
 
 
 
@@ -12226,3 +12233,4 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 83 = Strand of the Ancients (SotA)
 -- 84 = Naxxramas (Naxx)
 -- 85 = Vault of Archavon
+-- 86 = Ulduar
