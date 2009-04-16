@@ -4441,7 +4441,7 @@ Inst22Quest8_Level = "60"
 Inst22Quest8_Attain = "56"
 Inst22Quest8_Aim = "杀掉瑞文戴尔男爵。"
 Inst22Quest8_Location = "奥里克斯（斯坦索姆; "..YELLOW.."[13]"..WHITE.."）"
-Inst22Quest8_Note = "要开始这个任务你需要给奥里克斯 [信仰奖章]。 你可以从玛洛尔的保险箱拿到这个奖章，箱子就在"..YELLOW.."[7]"..WHITE.."附近。将奖章给了奥里克斯之后，他会在对抗男爵"..YELLOW.."[19]"..WHITE.."的战斗中支持你。杀死男爵后，你需要再次和奥里克斯谈话以取得任务回报奖励。"
+Inst22Quest8_Note = "要开始这个任务你需要给奥里克斯 [信仰奖章]。 你可以从玛洛尔的保险箱拿到这个奖章，箱子就在"..YELLOW.."[7]"..WHITE.."附近。将奖章给了奥里克斯之后，他会在对抗男爵"..YELLOW.."[19]"..WHITE.."的战斗中支持你。杀死男爵后，奥里克斯会在你身边给你奖励。"
 Inst22Quest8_Prequest = "无"
 Inst22Quest8_Folgequest = "无"
 --
@@ -10736,7 +10736,7 @@ Inst74Quest1_Level = "80"
 Inst74Quest1_Attain = "80"
 Inst74Quest1_Aim = "龙骨荒野龙眠神殿的克拉苏斯要你取回魔法之心."
 Inst74Quest1_Location = "克拉苏斯 (龙骨荒野 - 龙眠神殿; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst74Quest1_Note = "必须在普通的10人模式下完成，玛利苟斯 "..YELLOW.."[??]"..WHITE.."掉落魔法之心."
+Inst74Quest1_Note = "必须在普通的10人模式下完成，杀死玛利苟斯后，你会在阿莱克丝塔萨的礼物附近看到一个漂浮的心脏--魔法之心"
 Inst74Quest1_Prequest = "聚焦之虹的钥匙 ("..YELLOW.."纳克萨玛斯"..WHITE..")"
 Inst74Quest1_Folgequest = "无"
 Inst74Quest1PreQuest = "true"
@@ -10752,7 +10752,7 @@ Inst74Quest2_Level = "80"
 Inst74Quest2_Attain = "80"
 Inst74Quest2_Aim = "龙骨荒野龙眠神殿的克拉苏斯要你取回魔法之心."
 Inst74Quest2_Location = "克拉苏斯 (龙骨荒野 - 龙眠神殿; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst74Quest2_Note = "必须在英雄模式下的25人永恒之眼中完成，玛利苟斯 "..YELLOW.."[??]"..WHITE.."掉落魔法之心."
+Inst74Quest2_Note = "必须在英雄模式下的25人永恒之眼中完成，杀死玛利苟斯后，你会在阿莱克丝塔萨的礼物附近看到一个漂浮的心脏--魔法之心"
 Inst74Quest2_Prequest = "英雄聚焦之虹的钥匙 ("..YELLOW.."纳克萨玛斯"..WHITE..")"
 Inst74Quest2_Folgequest = "无"
 Inst74Quest2PreQuest = "true"
@@ -11813,6 +11813,17 @@ Inst85Caption = "阿尔卡冯的宝库"
 Inst85QAA = "无任务"
 Inst85QAH = "无任务"
 
+
+--------------- INST86 - Ulduar ---------------
+
+Inst86Story = {
+  ["Page1"] = "在过去的浩瀚岁月中，奥杜尔都是不为凡人所察的宁静之地，远离着世间的争执与硝烟。但是自从诺森德的冒险者们接触到不曾听闻过的传说和散步在各处的遗迹之后，对于这个地方的存在意义的猜疑就越来越多。有些人认为它是一座印证造物主的荣耀的城市，有些人认为它是容纳了数不清的宝藏的黄金城，甚至有泰坦们亲自施大能所铸之物。他们都错了。",
+  ["Page2"] = "在奥杜尔的大门下，没有城市，没有宝库，也没有什么泰坦的传说。在等待这批不知天高地厚的探险者们的，是那泰坦无法亦不能摧毁之魇，是泰坦也只能“封印”之魔。它，就在那里。\n\n在这古老的奥杜尔之内，其名死亡的上古之神在等待，在低语……谨慎此行，否则它的囚狱，将成为你的坟墓。",
+  ["MaxPages"] = "2",
+};
+Inst86Caption = "奥杜尔"
+Inst86QAA = "无任务"
+Inst86QAH = "无任务"
 
 
 ---------------------------------------------------
@@ -12975,4 +12986,5 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 83 = Strand of the Ancients (SotA)
 -- 84 = Naxxramas (Naxx)
 -- 85 = Vault of Archavon
+-- 86 = Ulduar
 end
