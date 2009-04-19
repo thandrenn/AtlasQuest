@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.3.4
+
+- More updates for Atlas 1.14. (the previous updates were done while it was in beta)
+
+
+
 Version 4.3.3
 
 - TOC updated for Patch 3.1
@@ -26,6 +32,7 @@ Version 4.3.2
 	- Eye of Eternity: Judgment at the Eye of Eternity
 	- Eye of Eternity: Heroic Judgment at the Eye of Eternity
 	- Dire Maul North: The Gordok Taste Test (thanks nonameform)
+
 
 
 Version 4.3.1

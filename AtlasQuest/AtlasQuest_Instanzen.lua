@@ -254,7 +254,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\VaultOfArchavon") then
 		AQINSTANZ = 85;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Ulduar") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarD") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarE") then
 		AQINSTANZ = 86;
 
 
