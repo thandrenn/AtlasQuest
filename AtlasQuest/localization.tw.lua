@@ -26,9 +26,9 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2009-04-16
-	最後更新﹕二○○九年四月十六日
-	新增　巫妖王之怒地城、戰場　故事＆任務
+	Last Updated: 2009-04-20
+	最後更新﹕二○○九年四月廿日
+	新增　巫妖王之怒 - 奧杜亞　故事＆任務
 
 --]]
 
@@ -10255,7 +10255,7 @@ Inst72Quest2_Level = "71"
 Inst72Quest2_Attain = "70"
 Inst72Quest2_Aim = "圖書管理員瑟菈要你進入奧核之心並取回貝瑞那德的研究。"
 Inst72Quest2_Location = "圖書管理員瑟菈（北風凍原 - 隘境之盾; "..YELLOW.."33.4, 34.3"..WHITE.."）"
-Inst72Quest2_Note = "貝瑞那德的研究在前往大魔導師特雷斯翠路上位於"..YELLOW.."[6]"..WHITE.."的地板上。"
+Inst72Quest2_Note = "貝瑞那德的研究在前往大魔導師特雷斯翠路上位於"..YELLOW.."[5]"..WHITE.."的地板上。"
 Inst72Quest2_Prequest = "無"
 Inst72Quest2_Folgequest = "無"
 --
@@ -10270,7 +10270,7 @@ Inst72Quest3_Level = "71"
 Inst72Quest3_Attain = "70"
 Inst72Quest3_Aim = "隘境之盾的大法師貝瑞那德希望你前往奧核之心，在裂縫旁邊使用間次元重製器。"
 Inst72Quest3_Location = "大法師貝瑞那德（北風凍原 - 隘境之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
-Inst72Quest3_Note = "奧核之心的裂縫在艾諾瑪路斯"..YELLOW.."[1]"..WHITE.."身後。"
+Inst72Quest3_Note = "奧核之心的裂縫在艾諾瑪路斯"..YELLOW.."[2]"..WHITE.."身後。"
 Inst72Quest3_Prequest = "檢查讀數"
 Inst72Quest3_Folgequest = "無"
 Inst72Quest3PreQuest = "true"
@@ -10301,7 +10301,7 @@ Inst72Quest5_Level = "71"
 Inst72Quest5_Attain = "70"
 Inst72Quest5_Aim = "隘境之盾的大法師貝瑞那德希望你進入奧核之心從結晶保衛者身上收集5個秘法裂塊。"
 Inst72Quest5_Location = "大法師貝瑞那德（北風凍原 - 隘境之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
-Inst72Quest5_Note = "秘法裂塊由結晶保衛者掉落。"
+Inst72Quest5_Note = "秘法裂塊由結晶保衛者掉落，在前往『樹木造形者』歐爾莫洛克的路上便可看到結晶保衛者。"
 Inst72Quest5_Prequest = "古樹的秘密"
 Inst72Quest5_Folgequest = "無"
 Inst72Quest5PreQuest = "true"
@@ -10841,7 +10841,7 @@ Inst76Quest1_Level = "80"
 Inst76Quest1_Attain = "80"
 Inst76Quest1_Aim = "達拉然的大法師朗達拉克要求你，帶回無面者的萎縮腦部。"
 Inst76Quest1_Location = "大法師朗達拉克（達拉然 - 紫羅蘭堡; "..YELLOW.."57.6, 66.9"..WHITE.."）"
-Inst76Quest1_Note = "這個任務只能在英雄難度下完成。\n\n信使沃菈齊在"..YELLOW.."[4]"..WHITE.."。"
+Inst76Quest1_Note = "這個任務只能在英雄難度下完成。\n\n信使沃菈齊在"..YELLOW.."[5]"..WHITE.."。"
 Inst76Quest1_Prequest = "無"
 Inst76Quest1_Folgequest = "無"
 --
@@ -10853,7 +10853,7 @@ Inst76Quest2_Level = "80"
 Inst76Quest2_Attain = "80"
 Inst76Quest2_Aim = "那金之淵裡的『排除者』齊力克斯要求你，帶回一具安卡哈看守者的屍體，安放在安卡罕特的安卡罕特火盆上。"
 Inst76Quest2_Location = "『排除者』齊力克斯（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）"
-Inst76Quest2_Note = "這個任務只能在英雄難度下完成。\n\n看守者的屍體掉落自地城門口的安卡哈看守者（只有兩隻），屍體只能存在於背包內一小時，所以你必須在拾取屍體後的一個小時內完成這個任務；當你在任務完成前活著離開地城，則屍體也會從你的背包中消失。安卡罕特火盆在信使沃菈齊"..YELLOW.."[4]"..WHITE.."的後面。"
+Inst76Quest2_Note = "這個任務只能在英雄難度下完成。\n\n看守者的屍體掉落自地城門口的安卡哈看守者（只有兩隻），屍體只能存在於背包內一小時，所以你必須在拾取屍體後的一個小時內完成這個任務；當你在任務完成前活著離開地城，則屍體也會從你的背包中消失。安卡罕特火盆在信使沃菈齊的後面"..YELLOW.."[6]"..WHITE.."。"
 Inst76Quest2_Prequest = "無"
 Inst76Quest2_Folgequest = "無"
 -- No Rewards for this quest
@@ -10864,7 +10864,7 @@ Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
 Inst76Quest3_Aim = "你必須在安卡罕特的蠻穴野獸身上，採集6朵怪誕菌菇，並送去給那金之淵裡的『排除者』齊力克斯。"
 Inst76Quest3_Location = "軟泥怪覆蕈（掉落自安卡罕特：古王國裡的蠻穴野獸）"
-Inst76Quest3_Note = "掉落任務物品的蠻穴野獸在 毒蕈魔"..YELLOW.."[5]"..WHITE.."的周邊區域。\n\n『排除者』齊力克斯在（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）。"
+Inst76Quest3_Note = "掉落任務物品的蠻穴野獸在毒蕈魔"..YELLOW.."[3]"..WHITE.."的周邊區域。\n\n『排除者』齊力克斯在（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）。"
 Inst76Quest3_Prequest = "無"
 Inst76Quest3_Folgequest = "無"
 -- No Rewards for this quest
@@ -10875,7 +10875,7 @@ Inst76Quest4_Level = "76"
 Inst76Quest4_Attain = "73"
 Inst76Quest4_Aim = "那金之淵裡的『排除者』齊力克斯要求你，在安卡罕特殺掉信使沃菈齊及其身邊的3個忘卻者。"
 Inst76Quest4_Location = "『排除者』齊力克斯（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）"
-Inst76Quest4_Note = "忘卻者和信使沃菈齊可以在"..YELLOW.."[4]"..WHITE.."找到。"
+Inst76Quest4_Note = "忘卻者和信使沃菈齊可以在"..YELLOW.."[5]"..WHITE.."找到。"
 Inst76Quest4_Prequest = "狙殺逆王（"..YELLOW.."阿茲歐-奈幽"..WHITE.."）"
 Inst76Quest4_Folgequest = "無"
 Inst76Quest4PreQuest = "true"
@@ -11229,7 +11229,7 @@ Inst80Quest1_Level = "80"
 Inst80Quest1_Attain = "80"
 Inst80Quest1_Aim = "達拉然的大法師朗達拉克要求你，帶回一個預言者的附魔提基像。"
 Inst80Quest1_Location = "大法師朗達拉克（達拉然 - 紫羅蘭堡; "..YELLOW.."57.6, 66.9"..WHITE.."）"
-Inst80Quest1_Note = "這個任務只能在英雄難度下完成。\n\n預言者薩隆杰在"..YELLOW.."[6]"..WHITE.."。"
+Inst80Quest1_Note = "這個任務只能在英雄難度下完成。\n\n預言者薩隆杰在"..YELLOW.."[5]"..WHITE.."。"
 Inst80Quest1_Prequest = "無"
 Inst80Quest1_Folgequest = "無"
 --
@@ -11241,7 +11241,7 @@ Inst80Quest2_Level = "75"
 Inst80Quest2_Attain = "73"
 Inst80Quest2_Aim = "德拉庫魯需要你在德拉克薩隆的火盆上使用德拉庫魯的藥劑。你需要五個耐久魔精才能使用德拉庫魯的藥劑。"
 Inst80Quest2_Location = "德拉庫魯的影像"
-Inst80Quest2_Note = "德拉克薩隆的火盆在預言者薩隆杰的後面"..YELLOW.."[5]"..WHITE.."，耐久魔精由德拉克薩隆要塞裡的小怪掉落。"
+Inst80Quest2_Note = "德拉克薩隆的火盆在預言者薩隆杰的後面"..YELLOW.."[6]"..WHITE.."，耐久魔精由德拉克薩隆要塞裡的小怪掉落。"
 Inst80Quest2_Prequest = "休戰？→自塵土而來的聲音"
 Inst80Quest2_Folgequest = "無"
 Inst80Quest2PreQuest = "true"
