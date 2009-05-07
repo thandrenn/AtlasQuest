@@ -485,7 +485,7 @@ These fonts are useless atm -->
 	     <Anchors>
 		  <Anchor point="TOPRIGHT">
 			  <Offset>
-			    	<AbsDimension x="-20" y="-45"/>
+			    	<AbsDimension x="-65" y="-45"/>
 			  </Offset>
 		  </Anchor>
 	     </Anchors>
