@@ -1357,14 +1357,16 @@ Inst6Quest1_Location = "Vaelastrasz the Corrupt (Blackwing Lair; "..YELLOW.."[2]
 Inst6Quest1_Note = "Only one person can loot the Shard. Anachronos (Tanaris - Caverns of Time; "..YELLOW.."65,49"..WHITE..")"
 Inst6Quest1_Prequest = "None"
 Inst6Quest1_Folgequest = "None"
--- No Rewards for this quest
+--
+Inst6Quest1name1 = "Onyx Embedded Leggings"
+Inst6Quest1name2 = "Amulet of Shadow Shielding"
 
 --Quest 2 Alliance
 Inst6Quest2 = "2. The Lord of Blackrock"
 Inst6Quest2_Level = "60"
 Inst6Quest2_Attain = "60"
 Inst6Quest2_Aim = "Return the Head of Nefarian to King Varian Wrynn in Stormwind."
-Inst6Quest2_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
+Inst6Quest2_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[10]"..WHITE..")"
 Inst6Quest2_Note = "King Varian Wrynn is at (Stormwind City - Stormwind Keep; "..YELLOW.."80.0, 38.5"..WHITE.."). The follow up sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."71.5, 80.5"..WHITE..") for the reward."
 Inst6Quest2_Prequest = "None"
 Inst6Quest2_Folgequest = "The Lord of Blackrock"
@@ -1394,7 +1396,9 @@ Inst6Quest1_HORDE_Location = Inst6Quest1_Location
 Inst6Quest1_HORDE_Note = Inst6Quest1_Note
 Inst6Quest1_HORDE_Prequest = Inst6Quest1_Prequest
 Inst6Quest1_HORDE_Folgequest = Inst6Quest1_Folgequest
--- No Rewards for this quest
+--
+Inst6Quest1name1_HORDE = Inst6Quest1name1
+Inst6Quest1name2_HORDE = Inst6Quest1name2
 
 --Quest 2 Horde
 Inst6Quest2_HORDE = "2. The Lord of Blackrock"
@@ -1689,7 +1693,7 @@ Inst8Quest9_Level = "60"
 Inst8Quest9_Attain = "57"
 Inst8Quest9_Aim = "Find the three gemstones of command: The Gemstone of Smolderthorn, Gemstone of Spirestone, and Gemstone of Bloodaxe. Return them, along with the Unadorned Seal of Ascension, to Vaelan."
 Inst8Quest9_Location = "Vaelan (Blackrock Spire; "..YELLOW.."[1]"..WHITE..")"
-Inst8Quest9_Note = "You get the Gemstone of Spirestone from Highlord Omokk at "..YELLOW.."[5]"..WHITE..", the Gemstone of Smolderthorn from War Master Voone at "..YELLOW.."[9]"..WHITE.." and the Gemstone of Bloodaxe from Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..". The Unadorned Seal of Ascension can drop from near all enemys in Lower Blackrock Spire. You get the Key for Upper Blackrock Spire if you complete this questline."
+Inst8Quest9_Note = "You get the Gemstone of Spirestone from Highlord Omokk at "..YELLOW.."[5]"..WHITE..", the Gemstone of Smolderthorn from War Master Voone at "..YELLOW.."[9]"..WHITE.." and the Gemstone of Bloodaxe from Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..". The Unadorned Seal of Ascension can drop from near all mobs in Lower Blackrock Spire or outside the instance. The reward for completing this questline is the a Ring which used to be needed to open the doors to Upper Blackrock Spire."
 Inst8Quest9_Prequest = "None"
 Inst8Quest9_Folgequest = "Seal of Ascension"
 -- No Rewards for this quest
@@ -1970,9 +1974,10 @@ Inst9Quest3_Aim = "Use the Eggscilloscope Prototype on an egg in the Rookery."
 Inst9Quest3_Location = "Tinkee Steamboil (Burning Steppes - Flame Crest; "..YELLOW.."65,24"..WHITE..")"
 Inst9Quest3_Note = "You find the eggs in the room of Father Flame at "..YELLOW.."[2]"..WHITE.."."
 Inst9Quest3_Prequest = "Broodling Essence -> Tinkee Steamboil"
-Inst9Quest3_Folgequest = "Leonid Barthalomew -> Dawn's Gambit ("..YELLOW.."Scholomance"..WHITE..")"
+Inst9Quest3_Folgequest = "Egg Collection"
 Inst9Quest3PreQuest = "true"
--- No Rewards for this quest
+--
+Inst9Quest3name1 = "Eggscilloscope"
 
 --Quest 4 Alliance
 Inst9Quest4 = "4. Eye of the Emberseer"
@@ -2032,7 +2037,7 @@ Inst9Quest8_Level = "60"
 Inst9Quest8_Attain = "58"
 Inst9Quest8_Aim = "Gather 40 Blackrock Bracers and acquire a Flask of Supreme Power. Return them to Bodley inside Blackrock Mountain."
 Inst9Quest8_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst9Quest8_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Blackrock Bracers drop off mobs with Blackhand in the name. Flask of Supreme Power is made by an Alchemist."
+Inst9Quest8_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest. Blackrock Bracers drop off mobs in Upper and Lower Blackrock Spire and outside the instance. Mobs with 'Blackrock' in the name have a higher chance to drop the bracers. The Flask of Supreme Power is made by an Alchemist."
 Inst9Quest8_Prequest = "The Right Piece of Lord Valthalak's Amulet ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
 Inst9Quest8_Folgequest = "Mea Culpa, Lord Valthalak"
 Inst9Quest8PreQuest = "true"
@@ -2074,7 +2079,7 @@ Inst9Quest11_Aim = "Bring 8 Collected Dragon Eggs and the Collectronic Module to
 Inst9Quest11_Location = "Tinkee Steamboil (Burning Steppes - Flame Crest; "..YELLOW.."65,24"..WHITE..")"
 Inst9Quest11_Note = "You find the eggs in the room of Father Flame at "..YELLOW.."[2]"..WHITE.."."
 Inst9Quest11_Prequest = "Egg Freezing"
-Inst9Quest11_Folgequest = "None"
+Inst9Quest11_Folgequest = "Leonid Barthalomew -> Dawn's Gambit ("..YELLOW.."Scholomance"..WHITE..")"
 Inst9Quest11PreQuest = "true"
 -- No Rewards for this quest
 
@@ -2111,7 +2116,8 @@ Inst9Quest3_HORDE_Note = Inst9Quest3_Note
 Inst9Quest3_HORDE_Prequest = Inst9Quest3_Prequest
 Inst9Quest3_HORDE_Folgequest = Inst9Quest3_Folgequest
 Inst9Quest3PreQuest_HORDE = Inst9Quest3PreQuest
--- No Rewards for this quest
+--
+Inst9Quest3name1_HORDE = Inst9Quest3name1
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst9Quest4_HORDE = Inst9Quest4
@@ -3177,8 +3183,8 @@ Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
 
 Inst14Story = "The Molten Core lies at the very bottom of Blackrock Depths. It is the heart of Blackrock Mountain and the exact spot where, long ago in a desperate bid to turn the tide of the dwarven civil war, Emperor Thaurissan summoned the elemental Firelord, Ragnaros, into the world. Though the fire lord is incapable of straying far from the blazing Core, it is believed that his elemental minions command the Dark Iron dwarves, who are in the midst of creating armies out of living stone. The burning lake where Ragnaros lies sleeping acts as a rift connecting to the plane of fire, allowing the malicious elementals to pass through. Chief among Ragnaros' agents is Majordomo Executus - for this cunning elemental is the only one capable of calling the Firelord from his slumber."
 Inst14Caption = "Molten Core"
-Inst14QAA = "5 Quests"
-Inst14QAH = "5 Quests"
+Inst14QAA = "6 Quests"
+Inst14QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst14Quest1 = "1. The Molten Core"
@@ -3198,11 +3204,13 @@ Inst14Quest2_Level = "60"
 Inst14Quest2_Attain = "55"
 Inst14Quest2_Aim = "Bring the Hands of Lucifron, Sulfuron, Gehennas and Shazzrah to Duke Hydraxis in Azshara."
 Inst14Quest2_Location = "Duke Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
-Inst14Quest2_Note = "Lucifron is at "..YELLOW.."[1]"..WHITE..", Sulfuron is at "..YELLOW.."[8]"..WHITE..", Gehennas is at "..YELLOW.."[3]"..WHITE.." and Shazzrah is at "..YELLOW.."[5]"..WHITE.."."
+Inst14Quest2_Note = "Lucifron is at "..YELLOW.."[1]"..WHITE..", Sulfuron is at "..YELLOW.."[8]"..WHITE..", Gehennas is at "..YELLOW.."[3]"..WHITE.." and Shazzrah is at "..YELLOW.."[5]"..WHITE..".\nRewards listed are for the followup, 'A Hero's Reward'."
 Inst14Quest2_Prequest = "Agent of Hydraxis"
 Inst14Quest2_Folgequest = "A Hero's Reward"
 Inst14Quest2FQuest = "true"
--- No Rewards for this quest
+--
+Inst14Quest2name1 = "Ocean's Breeze"
+Inst14Quest2name2 = "Tidal Loop"
 
 --Quest 3 Alliance
 Inst14Quest3 = "3. Thunderaan the Windseeker"
@@ -3239,6 +3247,19 @@ Inst14Quest5_Prequest = "None"
 Inst14Quest5_Folgequest = "Ancient Sinew Wrapped Lamina ("..YELLOW.."Azuregos"..WHITE..")"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst14Quest6 = "6. Scrying Goggles? No Problem!"
+Inst14Quest6_Level = "60"
+Inst14Quest6_Attain = "60"
+Inst14Quest6_Aim = "Find Narain's Scrying Goggles and return them to Narain Soothfancy in Tanaris."
+Inst14Quest6_Location = "Inconspicuous Crate (Silverpine Forest - Greymane Wall; "..YELLOW.."46.2, 86.6"..WHITE..")"
+Inst14Quest6_Note = "As of Patch 3.0.2, the Goggles will drop off any mob in Molten Core. The quest turns in to Narain Soothfancy (Tanaris; "..YELLOW.."65.3, 18.6"..WHITE.."), which is also where the pre-quest is obtained."
+Inst14Quest6_Prequest = "Stewvul, Ex-B.F.F."
+Inst14Quest6_Folgequest = "None"
+Inst14Quest6PreQuest = "true"
+--
+Inst14Quest6name1 = "Major Rejuvenation Potion"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst14Quest1_HORDE = Inst14Quest1
@@ -3262,7 +3283,9 @@ Inst14Quest2_HORDE_Note = Inst14Quest2_Note
 Inst14Quest2_HORDE_Prequest = Inst14Quest2_Prequest
 Inst14Quest2_HORDE_Folgequest = Inst14Quest2_Folgequest
 Inst14Quest2FQuest_HORDE = Inst14Quest2FQuest
--- No Rewards for this quest
+--
+Inst14Quest2name1_HORDE = Inst14Quest2name1
+Inst14Quest2name2_HORDE = Inst14Quest2name2
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst14Quest3_HORDE = Inst14Quest3
@@ -3298,6 +3321,19 @@ Inst14Quest5_HORDE_Note = Inst14Quest5_Note
 Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
 Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
 -- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst14Quest6_HORDE = Inst14Quest6
+Inst14Quest6_HORDE_Level = Inst14Quest6_Level
+Inst14Quest6_HORDE_Attain = Inst14Quest6_Attain
+Inst14Quest6_HORDE_Aim = Inst14Quest6_Aim
+Inst14Quest6_HORDE_Location = Inst14Quest6_Location
+Inst14Quest6_HORDE_Note = Inst14Quest6_Note
+Inst14Quest6_HORDE_Prequest = Inst14Quest6_Prequest
+Inst14Quest6_HORDE_Folgequest = Inst14Quest6_Folgequest
+Inst14Quest3PreQuest_HORDE = Inst14Quest3PreQuest
+--
+Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 
 
@@ -3636,11 +3672,14 @@ Inst19Quest2_Level = "40"
 Inst19Quest2_Attain = "30"
 Inst19Quest2_Aim = "Bring the book Rituals of Power to Tabetha in Dustwallow Marsh."
 Inst19Quest2_Location = "Tabetha (Dustwallow Marsh; "..YELLOW.."43,57"..WHITE..")"
-Inst19Quest2_Note = "This quest can only be obtained by mages. You can find the book in the last corridor leading to Arcanist Doan ("..YELLOW.."[2]"..WHITE..")."
-Inst19Quest2_Prequest = "Get the Scoop"
+Inst19Quest2_Note = "This quest can only be obtained by mages. You can find the book in the last corridor leading to Arcanist Doan ("..YELLOW.."[2]"..WHITE..").\n\nThe rewards listed are for the followup."
+Inst19Quest2_Prequest = "Journey to the Marsh -> Get the Scoop"
 Inst19Quest2_Folgequest = "Mage's Wand"
 Inst19Quest2PreQuest = "true"
--- No Rewards for this quest
+--
+Inst19Quest2name1 = "Icefury Wand"
+Inst19Quest2name2 = "Nether Force Wand"
+Inst19Quest2name3 = "Ragefire Wand"
 
 --Quest 3 Alliance
 Inst19Quest3 = "3. In the Name of the Light"
@@ -3665,7 +3704,7 @@ Inst19Quest1_HORDE_Level = "33"
 Inst19Quest1_HORDE_Attain = "30"
 Inst19Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
 Inst19Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst19Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
+Inst19Quest1_HORDE_Note = "All mobs inside the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
 Inst19Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."[Razorfen Kraul]"..WHITE..")"
 Inst19Quest1_HORDE_Folgequest = "None"
 Inst19Quest1PreQuest_HORDE = "true"
@@ -3677,11 +3716,13 @@ Inst19Quest2_HORDE_Level = "36"
 Inst19Quest2_HORDE_Attain = "25"
 Inst19Quest2_HORDE_Aim = "Find The Beginnings of the Undead Threat, and return it to Parqual Fintallas in Undercity."
 Inst19Quest2_HORDE_Location = "Parqual Fintallas (Undercity - The Apothecarium; "..YELLOW.."57,65"..WHITE..")"
-Inst19Quest2_HORDE_Note = "Questline starts at Dorn Plainstalker (Thousand Needles; "..YELLOW.."53,41"..WHITE.."). You can find the book in the Library of Scarlet Monastary."
-Inst19Quest2_HORDE_Prequest = "Test of Faith - > Test of Lore"
+Inst19Quest2_HORDE_Note = "Questline starts at Dorn Plainstalker (Thousand Needles; "..YELLOW.."53,41"..WHITE.."). You can find the book in the Library of Scarlet Monastary.\n\nThe rewards listed are for the followup, which just involves talking to the NPC."
+Inst19Quest2_HORDE_Prequest = "Test of Faith -> Test of Lore"
 Inst19Quest2_HORDE_Folgequest = "Test of Lore"
 Inst19Quest2PreQuest_HORDE = "true"
--- No Rewards for this quest
+--
+Inst19Quest2name1_HORDE = "Windstorm Hammer"
+Inst19Quest2name2_HORDE = "Dancing Flame"
 
 --Quest 3 Horde
 Inst19Quest3_HORDE = "3. Compendium of the Fallen"
@@ -3707,7 +3748,10 @@ Inst19Quest4_HORDE_Note = Inst19Quest2_Note
 Inst19Quest4_HORDE_Prequest = Inst19Quest2_Prequest
 Inst19Quest4_HORDE_Folgequest = Inst19Quest2_Folgequest
 Inst19Quest4PreQuest_HORDE = Inst19Quest2_PreQuest
--- No Rewards for this quest
+--
+Inst19Quest4name1_HORDE = Inst19Quest2name1
+Inst19Quest4name2_HORDE = Inst19Quest2name2
+Inst19Quest4name3_HORDE = Inst19Quest2name3
 
 --Quest 5 Horde
 Inst19Quest5_HORDE = "5. Into The Scarlet Monastery"
@@ -3755,7 +3799,7 @@ Inst57Quest1_HORDE_Level = "33"
 Inst57Quest1_HORDE_Attain = "30"
 Inst57Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
 Inst57Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst57Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
+Inst57Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
 Inst57Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
 Inst57Quest1_HORDE_Folgequest = "None"
 Inst57Quest1PreQuest_HORDE = "true"
@@ -3807,7 +3851,7 @@ Inst58Quest1_HORDE_Level = "33"
 Inst58Quest1_HORDE_Attain = "30"
 Inst58Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
 Inst58Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst58Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
+Inst58Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
 Inst58Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
 Inst58Quest1_HORDE_Folgequest = "None"
 Inst58Quest1PreQuest_HORDE = "true"
@@ -3868,7 +3912,7 @@ Inst59Quest2_HORDE_Level = "33"
 Inst59Quest2_HORDE_Attain = "30"
 Inst59Quest2_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
 Inst59Quest2_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst59Quest2_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal."
+Inst59Quest2_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
 Inst59Quest2_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
 Inst59Quest2_HORDE_Folgequest = "None"
 Inst59Quest2PreQuest_HORDE = "true"
@@ -3891,8 +3935,8 @@ Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
 
 Inst20Story = "The Scholomance is housed within a series of crypts that lie beneath the ruined keep of Caer Darrow. Once owned by the noble Barov family, Caer Darrow fell to ruin following the Second War. As the wizard Kel'thuzad enlisted followers for his Cult of the Damned he would often promise immortality in exchange for serving his Lich King. The Barov family fell to Kel'thuzad's charismatic influence and donated the keep and its crypts to the Scourge. The cultists then killed the Barovs and turned the ancient crypts into a school for necromancy known as the Scholomance. Though Kel'thuzad no longer resides in the crypts, devoted cultists and instructors still remain. The powerful lich, Ras Frostwhisper, rules over the site and guards it in the Scourge's name - while the mortal necromancer, Darkmaster Gandling, serves as the school's insidious headmaster."
 Inst20Caption = "Scholomance"
-Inst20QAA = "10 Quests"
-Inst20QAH = "11 Quests"
+Inst20QAA = "11 Quests"
+Inst20QAH = "12 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. Plagued Hatchlings"
@@ -3977,10 +4021,11 @@ Inst20Quest7_Level = "60"
 Inst20Quest7_Attain = "52"
 Inst20Quest7_Aim = "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Weldon Barov when you have completed this task."
 Inst20Quest7_Location = "Weldon Barov (Western Plaguelands - Chillwind Camp; "..YELLOW.."43,83"..WHITE..")"
-Inst20Quest7_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE.."."
+Inst20Quest7_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE..".\nThe reward listed is for the followup."
 Inst20Quest7_Prequest = "None"
 Inst20Quest7_Folgequest = "The Last Barov"
--- No Rewards for this quest
+--
+Inst20Quest7name1 = "Barov Peasant Caller"
 
 --Quest 8 Alliance
 Inst20Quest8 = "8. Dawn's Gambit"
@@ -4018,6 +4063,18 @@ Inst20Quest10_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. 
 Inst20Quest10_Prequest = "Components of Importance"
 Inst20Quest10_Folgequest = "I See Alcaz Island In Your Future..."
 Inst20Quest10PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst20Quest11 = "11. The Right Piece of Lord Valthalak's Amulet"
+Inst20Quest11_Level = "60"
+Inst20Quest11_Attain = "58"
+Inst20Quest11_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
+Inst20Quest11_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
+Inst20Quest11_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE.."."
+Inst20Quest11_Prequest = "More Components of Importance"
+Inst20Quest11_Folgequest = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
+Inst20Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -4104,10 +4161,11 @@ Inst20Quest7_HORDE_Level = "60"
 Inst20Quest7_HORDE_Attain = "52"
 Inst20Quest7_HORDE_Aim = "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Alexi Barov when you have completed this task."
 Inst20Quest7_HORDE_Location = "Alexi Barov (Tirisfal Glades - The Bulwark; "..YELLOW.."80,73"..WHITE..")"
-Inst20Quest7_HORDE_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE.."."
+Inst20Quest7_HORDE_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE..".\nThe reward listed is for the followup."
 Inst20Quest7_HORDE_Prequest = "None"
 Inst20Quest7_HORDE_Folgequest = "The Last Barov"
--- No Rewards for this quest
+--
+Inst20Quest7name1_HORDE = "Barov Peasant Caller"
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst20Quest8_HORDE = Inst20Quest8
@@ -4159,6 +4217,18 @@ Inst20Quest11_HORDE_Folgequest = "None"
 Inst20Quest11PreQuest_HORDE = "true"
 --
 Inst20Quest11name1_HORDE = "Skyfury Helm"
+
+--Quest 12 Horde  (same as Quest 11 Alliance)
+Inst20Quest12_HORDE = "12. The Right Piece of Lord Valthalak's Amulet"
+Inst20Quest12_HORDE_Level = Inst20Quest11_Level
+Inst20Quest12_HORDE_Attain = Inst20Quest11_Attain
+Inst20Quest12_HORDE_Aim = Inst20Quest11_Aim
+Inst20Quest12_HORDE_Location = Inst20Quest11_Location
+Inst20Quest12_HORDE_Note = Inst20Quest11_Note
+Inst20Quest12_HORDE_Prequest = Inst20Quest11_Prequest
+Inst20Quest12_HORDE_Folgequest = Inst20Quest11_Folgequest
+Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
+-- No Rewards for this quest
 
 
 
@@ -4254,7 +4324,7 @@ Inst21Quest4name2_HORDE = Inst21Quest2name1
 Inst22Story = "Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge - led by the powerful lich, Kel'thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed - dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
 Inst22Caption = "Stratholme"
 Inst22QAA = "18 Quests"
-Inst22QAH = "19 Quests"
+Inst22QAH = "20 Quests"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. The Flesh Does Not Lie"
@@ -4351,7 +4421,7 @@ Inst22Quest8_Level = "60"
 Inst22Quest8_Attain = "56"
 Inst22Quest8_Aim = "Kill the Baron."
 Inst22Quest8_Location = "Aurius (Stratholme; "..YELLOW.."[13]"..WHITE..")"
-Inst22Quest8_Note = "You won't actually pick up a regular quest here. When you first enter Stratholme, Aurius will ask for [The Medallion of Faith]. You get the Medallion from a chest (Malor's Strongbox "..YELLOW.."[7]"..WHITE..") in the first chamber of the bastion (before the ways split).\n\nAfter giving Aurius the Medallion he'll help you when you fight Baron Rivendare "..YELLOW.."[19]"..WHITE..". After the Baron dies, Aurius too will die. Talk to his corpse to receive the reward."
+Inst22Quest8_Note = "You get the Medallion from a chest (Malor's Strongbox "..YELLOW.."[7]"..WHITE..") in the first chamber of the bastion (before the ways split). It is not bound so you can trade it from another player or get it in a separate run.\n\nAfter giving Aurius the Medallion he'll help you when you fight Baron Rivendare "..YELLOW.."[19]"..WHITE..". After the Baron dies, Aurius too will die. Talk to his corpse to receive the reward."
 Inst22Quest8_Prequest = "None"
 Inst22Quest8_Folgequest = "None"
 --
@@ -4387,9 +4457,9 @@ Inst22Quest11_Level = "60"
 Inst22Quest11_Attain = "55"
 Inst22Quest11_Aim = "Venture to Stratholme and destroy Baron Rivendare. Take his head and return to Duke Nicholas Zverenhoff."
 Inst22Quest11_Location = "Duke Nicholas Zverenhoff (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."76,52"..WHITE..")"
-Inst22Quest11_Note = "You can find the Baron at "..YELLOW.."[19]"..WHITE.."."
+Inst22Quest11_Note = "You can find the Baron at "..YELLOW.."[19]"..WHITE..".\n\nThe rewards listed are for the followup."
 Inst22Quest11_Prequest = "The Truth Comes Crashing Down"
-Inst22Quest11_Folgequest = "None"
+Inst22Quest11_Folgequest = "Lord Maxwell Tyrosus -> The Argent Hold"
 Inst22Quest11FQuest = "true"
 --
 Inst22Quest11name1 = "Argent Defender"
@@ -4438,9 +4508,10 @@ Inst22Quest15_Level = "60"
 Inst22Quest15_Attain = "60"
 Inst22Quest15_Aim = "Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
 Inst22Quest15_Location = "Anachronos (Tanaris - Caverns of Time; "..YELLOW.."65,49"..WHITE..")"
-Inst22Quest15_Note = "Atiesh is summoned at "..YELLOW.."[2]"..WHITE.."."
+Inst22Quest15_Note = "Atiesh is summoned at "..YELLOW.."[2]"..WHITE..".\n\nAs of the Wrath of the Lich King expansion, this quest can no longer be obtained. Only those on the last step of the quest, who have the quest item to summon Atiesh can complete it."
 Inst22Quest15_Prequest = "Yes"
 Inst22Quest15_Folgequest = "None"
+Inst22Quest15PreQuest = "true"
 --
 Inst22Quest15name1 = "Atiesh, Greatstaff of the Guardian"
 Inst22Quest15name2 = "Atiesh, Greatstaff of the Guardian"
@@ -4477,9 +4548,10 @@ Inst22Quest18_Level = "60"
 Inst22Quest18_Attain = "60"
 Inst22Quest18_Aim = "Save 50 Peasants before 15 are slain. Speak with Eris Havenfire should you accomplish this task."
 Inst22Quest18_Location = "Eris Havenfire (Eastern Plaguelands; "..YELLOW.."17.6, 14.0"..WHITE..")"
-Inst22Quest18_Note = "In order to see Eris Havenfire and get this quest, you need either the Eye of Divinity (comes from Cache of the Firelord in "..YELLOW.."[Molten Core]"..WHITE..") or Spectral Essence (reward for "..YELLOW.."[Scholomance]"..WHITE.." quest 'Kirtonos the Herald').\n\nThis quest's reward, when combined with Eye of Divinity and The Eye of Shadow (drops from "..YELLOW.."[Highlord Kruul]"..WHITE..") form Benediction, an epic priest's staff."
-Inst22Quest18_Prequest = "None"
+Inst22Quest18_Note = "In order to see Eris Havenfire and get this quest and the prequest, you need the Eye of Divinity (comes from Cache of the Firelord in "..YELLOW.."[Molten Core]"..WHITE..").\n\nThis quest's reward, when combined with Eye of Divinity and The Eye of Shadow (drops from demons in Winterspring or Blasted Lands) form Benediction, an epic priest's staff."
+Inst22Quest18_Prequest = "A Warning"
 Inst22Quest18_Folgequest = "None"
+Inst22Quest18PreQuest = "true"
 --
 Inst22Quest18name1 = "Splinter of Nordrassil"
 
@@ -4723,8 +4795,22 @@ Inst22Quest19_HORDE_Location = Inst22Quest18_Location
 Inst22Quest19_HORDE_Note = Inst22Quest18_Note
 Inst22Quest19_HORDE_Prequest = Inst22Quest18_Prequest
 Inst22Quest19_HORDE_Folgequest = Inst22Quest18_Folgequest
+Inst22Quest19PreQuest_HORDE = Inst22Quest18PreQuest
 --
 Inst22Quest19name1_HORDE = Inst22Quest18name1
+
+--Quest 20 Horde
+Inst22Quest20_HORDE = "20. True Masters of the Light (Paladin)"
+Inst22Quest20_HORDE_Level = "60"
+Inst22Quest20_HORDE_Attain = "60"
+Inst22Quest20_HORDE_Aim = "Use the Extinguishing Mixture near the eternal flame in the Alonsus Chapel to remove the Light's protection. Be prepared to fight anyone who may attempt to defend the chapel."
+Inst22Quest20_HORDE_Location = "Lord Solanar Bloodwrath (Silvermoon City - Farstriders Square; "..YELLOW.."92.2, 38.7"..WHITE..")"
+Inst22Quest20_HORDE_Note = "The Alonsus Chapel is at "..YELLOW.."[13]"..WHITE..". Completing this quest gives you the Paladin Epic mount. You cannot start this quest if you've already obtained the mount from the trainer."
+Inst22Quest20_HORDE_Prequest = "A Summons from Lord Solanar -> True Masters of the Light"
+Inst22Quest20_HORDE_Folgequest = "None"
+Inst22Quest20PreQuest_HORDE = "true"
+--
+Inst22Quest20name1_HORDE = "Blood Knight Tabard"
 
 
 
@@ -5784,8 +5870,8 @@ Inst28Quest4name6_HORDE = Inst28Quest4name6
 
 Inst29Story = "Located in Dun Morogh, the technological wonder known as Gnomeregan has been the gnomes' capital city for generations. Recently, a hostile race of mutant troggs infested several regions of Dun Morogh - including the great gnome city. In a desperate attempt to destroy the invading troggs, High Tinker Mekkatorque ordered the emergency venting of the city's radioactive waste tanks. Several gnomes sought shelter from the airborne pollutants as they waited for the troggs to die or flee. Unfortunately, though the troggs became irradiated from the toxic assault - their siege continued, unabated. Those gnomes who were not killed by noxious seepage were forced to flee, seeking refuge in the nearby dwarven city of Ironforge. There, High Tinker Mekkatorque set out to enlist brave souls to help his people reclaim their beloved city. It is rumored that Mekkatorque's once-trusted advisor, Mekgineer Thermaplugg, betrayed his people by allowing the invasion to happen. Now, his sanity shattered, Thermaplug remains in Gnomeregan - furthering his dark schemes and acting as the city's new techno-overlord."
 Inst29Caption = "Gnomeregan"
-Inst29QAA = "10 Quests"
-Inst29QAH = "5 Quests"
+Inst29QAA = "11 Quests"
+Inst29QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst29Quest1 = "1. Save Techbot's Brain!"
@@ -5913,6 +5999,18 @@ Inst29Quest10FQuest = "true"
 --
 Inst29Quest10name1 = "Brilliant Gold Ring"
 
+--Quest 11 Alliance
+Inst29Quest11 = "11. The Sparklematic 5200!"
+Inst29Quest11_Level = "30"
+Inst29Quest11_Attain = "25"
+Inst29Quest11_Aim = "Insert a Grime-Encrusted Item into the Sparklematic 5200, and be sure to have three silver coins to start the machine."
+Inst29Quest11_Location = "Sparklematic 5200 (Gnomeregan - The Clean Room; "..YELLOW.."[2]"..WHITE..")"
+Inst29Quest11_Note = "You can repeat this quest for all the Grime-Encrusted Items you have."
+Inst29Quest11_Prequest = "None"
+Inst29Quest11_Folgequest = "None"
+--
+Inst29Quest11name1 = "Sparklematic-Wrapped Box"
+
 
 --Quest 1 Horde
 Inst29Quest1_HORDE = "1. Gnomer-gooooone!"
@@ -5924,7 +6022,8 @@ Inst29Quest1_HORDE_Note = "You get the prequest from Sovik (Orgrimmar - Valley o
 Inst29Quest1_HORDE_Prequest = "Chief Engineer Scooty"
 Inst29Quest1_HORDE_Folgequest = "None"
 Inst29Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
+--
+Inst29Quest1name1_HORDE = "Goblin Transponder"
 
 --Quest 2 Horde  (same as Quest 7 Alliance)
 Inst29Quest2_HORDE = "2. A Fine Mess"
@@ -5972,10 +6071,22 @@ Inst29Quest5_HORDE_Aim = "You may either keep the ring, or you may find the pers
 Inst29Quest5_HORDE_Location = "Brilliant Gold Ring (obtained from Grime-Encrusted Ring quest)"
 Inst29Quest5_HORDE_Note = "Turns in to Nogg (Orgrimmar - The Valley of Honor; "..YELLOW.."75,25"..WHITE.."). The followup to enhance the ring is optional."
 Inst29Quest5_HORDE_Prequest = "Grime-Encrusted Ring"
-Inst29Quest5_HORDE_Folgequest = "None"
+Inst29Quest5_HORDE_Folgequest = "Nogg's Ring Redo"
 Inst29Quest5FQuest_HORDE = "true"
 --
 Inst29Quest5name1_HORDE = "Brilliant Gold Ring"
+
+--Quest 6 Horde
+Inst29Quest6_HORDE = "6. The Sparklematic 5200!"
+Inst29Quest6_HORDE_Level = "30"
+Inst29Quest6_HORDE_Attain = "25"
+Inst29Quest6_HORDE_Aim = "Insert a Grime-Encrusted Item into the Sparklematic 5200, and be sure to have three silver coins to start the machine."
+Inst29Quest6_HORDE_Location = "Sparklematic 5200 (Gnomeregan - The Clean Room; "..YELLOW.."[2]"..WHITE..")"
+Inst29Quest6_HORDE_Note = "You can repeat this quest for all the Grime-Encrusted Items you have."
+Inst29Quest6_HORDE_Prequest = "None"
+Inst29Quest6_HORDE_Folgequest = "None"
+--
+Inst29Quest6name1_HORDE = "Sparklematic-Wrapped Box"
 
 
 
@@ -11063,6 +11174,7 @@ Inst86Story = "For millennia, Ulduar has remained undisturbed by mortals, far aw
 Inst86Caption = "Ulduar"
 Inst86QAA = "No Quests"
 Inst86QAH = "No Quests"
+
 
 
 

@@ -4,7 +4,14 @@ Changelog
 
 Version 4.3.4
 
-- More updates for Atlas 1.14. (the previous updates were done while it was in beta)
+- Updated boss numbers for Atlas 1.14.1. (the previous updates were done while it was in beta)
+- Small updates and tweaks to a number of quests thanks to info provided by nonameform.
+
+- Quests added:
+	- Molten Core: Scrying Goggles? No Problem! (thanks nonameform)
+	- Gnomeregan: The Sparklematic 5200! (thanks b@k$$ and nonameform)
+	- Scholomance: The Right Piece of Lord Valthalak's Amulet (thanks nonameform)
+	- Stratholme: True Masters of the Light (Horde Paladin) (thanks nonameform)
 
 
 

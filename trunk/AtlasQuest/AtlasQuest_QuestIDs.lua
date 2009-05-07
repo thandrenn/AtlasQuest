@@ -541,12 +541,14 @@ Inst14Quest2_QuestID = "6824"
 Inst14Quest3_QuestID = "7786"
 Inst14Quest4_QuestID = "7604"
 Inst14Quest5_QuestID = "7632"
+Inst14Quest6_QuestID = "8578"
 
 Inst14Quest1_HORDE_QuestID = "6822"
 Inst14Quest2_HORDE_QuestID = "6824"
 Inst14Quest3_HORDE_QuestID = "7786"
 Inst14Quest4_HORDE_QuestID = "7604"
 Inst14Quest5_HORDE_QuestID = "7632"
+Inst14Quest6_HORDE_QuestID = "8578"
 
 
 AQ_6822_Level = "60"
@@ -554,6 +556,7 @@ AQ_6824_Level = "60"
 AQ_7786_Level = "60"
 AQ_7604_Level = "60"
 AQ_7632_Level = "60"
+AQ_8578_Level = "60"
 
 
 
@@ -702,6 +705,7 @@ Inst20Quest7_QuestID = "5343"
 Inst20Quest8_QuestID = "4771"
 Inst20Quest9_QuestID = "7629"
 Inst20Quest10_QuestID = "8969"
+Inst20Quest10_QuestID = "8992"
 
 Inst20Quest1_HORDE_QuestID = "5529"
 Inst20Quest2_HORDE_QuestID = "5582"
@@ -714,6 +718,7 @@ Inst20Quest8_HORDE_QuestID = "4771"
 Inst20Quest9_HORDE_QuestID = "7629"
 Inst20Quest10_HORDE_QuestID = "8969"
 Inst20Quest11_HORDE_QuestID = "8258"
+Inst20Quest12_HORDE_QuestID = "8992"
 
 
 AQ_5529_Level = "58"
@@ -726,6 +731,7 @@ AQ_5343_Level = "60"
 AQ_4771_Level = "60"
 AQ_7629_Level = "60"
 AQ_8969_Level = "60"
+AQ_8992_Level = "60"
 AQ_5341_Level = "60"
 AQ_8258_Level = "60"
 
@@ -790,6 +796,7 @@ Inst22Quest16_HORDE_QuestID = "5307"
 Inst22Quest17_HORDE_QuestID = "5305"
 Inst22Quest18_HORDE_QuestID = "6163"
 Inst22Quest19_HORDE_QuestID = "7622"
+Inst22Quest20_HORDE_QuestID = "9737"
 
 
 AQ_5212_Level = "60"
@@ -814,6 +821,7 @@ AQ_5307_Level = "60"
 AQ_5305_Level = "60"
 AQ_7622_Level = "60"
 AQ_6163_Level = "60"
+AQ_9737_Level = "60"
 
 
 
@@ -995,12 +1003,14 @@ Inst29Quest7_QuestID = "2904"
 Inst29Quest8_QuestID = "2929"
 Inst29Quest9_QuestID = "2945"
 Inst29Quest10_QuestID = "2947"
+Inst29Quest11_QuestID = "2951"
 
 Inst29Quest1_HORDE_QuestID = "2843"
 Inst29Quest2_HORDE_QuestID = "2904"
 Inst29Quest3_HORDE_QuestID = "2841"
 Inst29Quest4_HORDE_QuestID = "2945"
 Inst29Quest5_HORDE_QuestID = "2949"
+Inst29Quest6_HORDE_QuestID = "2951"
 
 
 AQ_2922_Level = "26"
@@ -1013,6 +1023,7 @@ AQ_2904_Level = "30"
 AQ_2929_Level = "35"
 AQ_2945_Level = "34"
 AQ_2947_Level = "34"
+AQ_2951_Level = "30"
 AQ_2843_Level = "35"
 AQ_2841_Level = "35"
 AQ_2949_Level = "34"
@@ -1117,7 +1128,7 @@ AQ_11003_Level = "70"
 
 Inst41Quest1_QuestID = "9738"
 Inst41Quest2_QuestID = "11368"
-Inst41Quest3_QuestID = "10901"
+Inst41Quest3_QuestID = "13431"
 Inst41Quest4_QuestID = "11955"
 Inst41Quest5_QuestID = "11696"
 Inst41Quest6_QuestID = "11691"
@@ -1125,7 +1136,7 @@ Inst41Quest7_QuestID = "11972"
 
 Inst41Quest1_HORDE_QuestID = "9738"
 Inst41Quest2_HORDE_QuestID = "11368"
-Inst41Quest3_HORDE_QuestID = "10901"
+Inst41Quest3_HORDE_QuestID = "13431"
 Inst41Quest4_HORDE_QuestID = "11955"
 Inst41Quest5_HORDE_QuestID = "11696"
 Inst41Quest6_HORDE_QuestID = "11691"
@@ -1134,7 +1145,7 @@ Inst41Quest7_HORDE_QuestID = "11972"
 
 AQ_9738_Level = "65"
 AQ_11368_Level = "70"
-AQ_10901_Level = "70"
+AQ_13431_Level = "70"
 AQ_11955_Level = "70"
 AQ_11696_Level = "70"
 AQ_11691_Level = "70"
@@ -1381,12 +1392,12 @@ AQ_12513_Level = "68"
 
 --------------- INST52 - Gruul's Lair (GL) ---------------
 
-Inst52Quest1_QuestID = "10901"
+Inst52Quest1_QuestID = "13431"
 
-Inst52Quest1_HORDE_QuestID = "10901"
+Inst52Quest1_HORDE_QuestID = "13431"
 
 
---AQ_10901_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
+--AQ_13431_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
 
 
 
@@ -1405,7 +1416,7 @@ Inst53Quest10_QuestID = "9680"
 Inst53Quest11_QuestID = "9631"
 Inst53Quest12_QuestID = "9637"
 Inst53Quest13_QuestID = "9644"
-Inst53Quest14_QuestID = "10901"
+Inst53Quest14_QuestID = "13431"
 Inst53Quest15_QuestID = "12616"
 
 Inst53Quest1_HORDE_QuestID = "9840"
@@ -1421,7 +1432,7 @@ Inst53Quest10_HORDE_QuestID = "9680"
 Inst53Quest11_HORDE_QuestID = "9631"
 Inst53Quest12_HORDE_QuestID = "9637"
 Inst53Quest13_HORDE_QuestID = "9644"
-Inst53Quest14_HORDE_QuestID = "10901"
+Inst53Quest14_HORDE_QuestID = "13431"
 Inst53Quest15_HORDE_QuestID = "12616"
 
 
@@ -1438,7 +1449,7 @@ AQ_9680_Level = "70"
 AQ_9631_Level = "70"
 AQ_9637_Level = "70"
 AQ_9644_Level = "70"
---AQ_10901_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
+--AQ_13431_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
 AQ_12616_Level = "70"
 
 
