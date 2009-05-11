@@ -27,7 +27,7 @@
 --  Original updater:DIY,Yeachan,Ananhaid
     
 --  简体中文化：Yeachan（6区 阿拉希 Ahunter）
---  更新日期：09年04月20日
+--  更新日期：09年05月11日
 
 
 if ( GetLocale() == "zhCN" ) then
@@ -1428,15 +1428,17 @@ Inst6Quest1_Location = "堕落的瓦拉斯塔兹（黑翼之巢; "..YELLOW.."[2]
 Inst6Quest1_Note = "只有一人能拾取碎片。阿纳克洛斯（塔纳利斯 - 时光之穴; "..YELLOW.."65,49"..WHITE.."）"
 Inst6Quest1_Prequest = "无"
 Inst6Quest1_Folgequest = "无"
--- No Rewards for this quest
+--
+Inst6Quest1name1 = "玛瑙镶饰护腿"
+Inst6Quest1name2 = "暗影屏蔽护符"
 
 --Quest 2 Alliance
 Inst6Quest2 = "2. 黑石之王"
 Inst6Quest2_Level = "60"
 Inst6Quest2_Attain = "60"
 Inst6Quest2_Aim = "将奈法利安的头颅交给暴风城的瓦里安·乌瑞恩国王。 "
-Inst6Quest2_Location = "奈法利安的头颅（奈法利安掉落; "..YELLOW.."[9]"..WHITE.."）"
-Inst6Quest2_Note = "瓦里安·乌瑞恩国王（暴风城 - 暴风要塞; "..YELLOW.."80,38"..WHITE.."）。接下来前往艾法希比元帅（暴风城 - 英雄谷; "..YELLOW.."71,80"..WHITE.."）领取奖励。"
+Inst6Quest2_Location = "奈法利安的头颅（奈法利安掉落; "..YELLOW.."[10]"..WHITE.."）"
+Inst6Quest2_Note = "瓦里安·乌瑞恩国王（暴风城 - 暴风要塞; "..YELLOW.."80.0,38.5"..WHITE.."）。接下来前往艾法希比元帅（暴风城 - 英雄谷; "..YELLOW.."71,80"..WHITE.."）领取奖励。"
 Inst6Quest2_Prequest = "无"
 Inst6Quest2_Folgequest = "黑石之王"
 --
@@ -1465,7 +1467,9 @@ Inst6Quest1_HORDE_Location = Inst6Quest1_Location
 Inst6Quest1_HORDE_Note = Inst6Quest1_Note
 Inst6Quest1_HORDE_Prequest = Inst6Quest1_Prequest
 Inst6Quest1_HORDE_Folgequest = Inst6Quest1_Folgequest
--- No Rewards for this quest
+--
+Inst6Quest1name1_HORDE = Inst6Quest1name1
+Inst6Quest1name2_HORDE = Inst6Quest1name2
 
 --Quest 2 Horde
 Inst6Quest2_HORDE = "2. 黑石之王"
@@ -1760,7 +1764,7 @@ Inst8Quest9_Level = "60"
 Inst8Quest9_Attain = "57"
 Inst8Quest9_Aim = "找到三块命令宝石：燃棘宝钻、尖石宝钻和血斧宝钻。把它们和原始晋升印章一起交给维埃兰."
 Inst8Quest9_Location = "维埃兰（黑石塔下层; "..YELLOW.."[1]"..WHITE.."）"
-Inst8Quest9_Note = "燃棘宝钻从欧莫克大王"..YELLOW.."[5]"..WHITE.."，尖石宝钻从指挥官沃恩"..YELLOW.."[9]"..WHITE.."，血斧宝钻从维姆萨拉克"..YELLOW.."[19]"..WHITE.."。原始晋升印章是黑石塔所有小怪掉落，完成这个之后你就能得到黑石塔上层的钥匙。"
+Inst8Quest9_Note = "燃棘宝钻从欧莫克大王"..YELLOW.."[5]"..WHITE.."，尖石宝钻从指挥官沃恩"..YELLOW.."[9]"..WHITE.."，血斧宝钻从维姆萨拉克"..YELLOW.."[19]"..WHITE.."。原始晋升印章是黑石塔所有小怪掉落，完成这个之后你就能得到一个戒指，能够进入黑石塔上层。"
 Inst8Quest9_Prequest = "无"
 Inst8Quest9_Folgequest = "晋升印章"
 -- No Rewards for this quest
@@ -2042,9 +2046,10 @@ Inst9Quest3_Aim = "在孵化间对着某颗龙蛋使用龙蛋冷冻器初号机�
 Inst9Quest3_Location = "丁奇·斯迪波尔（燃烧平原 - 烈焰峰; "..YELLOW.."65,24"..WHITE.."）"
 Inst9Quest3_Note = "你可以在烈焰之父的房间找到龙蛋"..YELLOW.."[2]"..WHITE.."。"
 Inst9Quest3_Prequest = "冰风奇美拉角 -> 返回丁奇身边"
-Inst9Quest3_Folgequest = "莱尼德·巴萨罗梅 -> 贝蒂娜·比格辛克（"..YELLOW.."通灵学院"..WHITE.."）"
+Inst9Quest3_Folgequest = "收集龙蛋"
 Inst9Quest3PreQuest = "true"
--- No Rewards for this quest
+--
+Inst9Quest3name1 = "龙蛋冷冻器"
 
 --Quest 4 Alliance
 Inst9Quest4 = "4. 艾博希尔之眼"
@@ -2164,7 +2169,7 @@ Inst9Quest11_Aim = "将电动采集模块和8颗收集到的龙蛋交给燃烧�
 Inst9Quest11_Location = "丁奇·斯迪波尔 (燃烧平原 - 烈焰峰; "..YELLOW.."65,24"..WHITE..")"
 Inst9Quest11_Note = "这些龙蛋就在 烈焰之父 "..YELLOW.."[2]"..WHITE.."的房间里."
 Inst9Quest11_Prequest = "冷冻龙蛋"
-Inst9Quest11_Folgequest = "无"
+Inst9Quest11_Folgequest = "莱尼德·巴萨罗梅 ->黎明先锋 ("..YELLOW.."通灵学院"..WHITE..")"
 Inst9Quest11PreQuest = "true"
 -- No Rewards for this quest
 
@@ -2200,7 +2205,8 @@ Inst9Quest3_HORDE_Note = Inst9Quest3_Note
 Inst9Quest3_HORDE_Prequest = Inst9Quest3_Prequest
 Inst9Quest3_HORDE_Folgequest = Inst9Quest3_Folgequest
 Inst9Quest3PreQuest_HORDE = Inst9Quest3PreQuest
--- No Rewards for this quest
+--
+Inst9Quest3name1_HORDE = Inst9Quest3name1
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst9Quest4_HORDE = Inst9Quest4
@@ -3267,8 +3273,8 @@ Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
 
 Inst14Story = "熔火之心就在黑石深渊的底层。这是黑石山的中心，也是很久以前扭转矮人内战情势的地方，索瑞森大帝将元素火焰之王，拉格纳罗斯召唤到世界来。尽管火焰之王无法远离熔火之心，但人们相信他的元素爪牙控制着黑铁矮人，在遗迹之外组建军队。拉格纳罗斯休眠的燃烧之湖有一道裂缝连接火平面，让邪恶的元素可以通过。拉格纳罗斯的首要代理人是管理者埃克索图斯——因为这是唯一能唤醒火焰之王的狡猾元素。"
 Inst14Caption = "熔火之心"
-Inst14QAA = "5 个任务"
-Inst14QAH = "5 个任务"
+Inst14QAA = "6 个任务"
+Inst14QAH = "6 个任务"
 
 --Quest 1 Alliance
 Inst14Quest1 = "1. 熔火之心"
@@ -3288,11 +3294,13 @@ Inst14Quest2_Level = "60"
 Inst14Quest2_Attain = "55"
 Inst14Quest2_Aim = "将鲁西弗隆之手、萨弗隆之手、基赫纳斯之手和沙斯拉尔之手交给艾萨拉的海达克西斯公爵。"
 Inst14Quest2_Location = "海达克西斯公爵（艾萨拉; "..YELLOW.."79,73"..WHITE.."）"
-Inst14Quest2_Note = "鲁西弗隆在"..YELLOW.."[1]"..WHITE.."，萨弗隆先驱者在"..YELLOW.."[8]"..WHITE.."，基赫纳斯在"..YELLOW.."[3]"..WHITE.."，还有沙斯拉尔在"..YELLOW.."[5]"..WHITE.."。"
+Inst14Quest2_Note = "鲁西弗隆在"..YELLOW.."[1]"..WHITE.."，萨弗隆先驱者在"..YELLOW.."[8]"..WHITE.."，基赫纳斯在"..YELLOW.."[3]"..WHITE.."，还有沙斯拉尔在"..YELLOW.."[5]"..WHITE.."。\n这个任务的奖励是下步给予的。"
 Inst14Quest2_Prequest = "海达克西斯的使者"
 Inst14Quest2_Folgequest = "无"
 Inst14Quest2FQuest = "true"
--- No Rewards for this quest
+--
+Inst14Quest2name1 = "Ocean's Breeze"
+Inst14Quest2name2 = "Tidal Loop"
 
 --Quest 3 Alliance
 Inst14Quest3 = "3. 逐风者桑德兰"
@@ -3329,6 +3337,18 @@ Inst14Quest5_Prequest = "无"
 Inst14Quest5_Folgequest = "龙筋箭袋（"..YELLOW.."艾索雷葛斯"..WHITE.."）"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst14Quest6 = "6. 占卜眼镜？没问题！"
+Inst14Quest6_Level = "60"
+Inst14Quest6_Attain = "60"
+Inst14Quest6_Aim = "找到纳瑞安的占卜眼镜，将它交给塔纳利斯的纳瑞安。"
+Inst14Quest6_Location = "不起眼的箱子 (银松森林; "..YELLOW.."46.2, 86.6"..WHITE..")"
+Inst14Quest6_Note = "从3.0开始，熔火之心的所有怪物都可能掉落占卜眼镜。 任务完成后交给纳瑞安 (塔纳利斯; "..YELLOW.."65.3, 18.6"..WHITE..")。"
+Inst14Quest6_Prequest = "斯图沃尔，前任死党."
+Inst14Quest6_Folgequest = "无"
+Inst14Quest6PreQuest = "true"
+--
+Inst14Quest6name1 = "特效活力药水"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst14Quest1_HORDE = Inst14Quest1
@@ -3352,7 +3372,9 @@ Inst14Quest2_HORDE_Note = Inst14Quest2_Note
 Inst14Quest2_HORDE_Prequest = Inst14Quest2_Prequest
 Inst14Quest2_HORDE_Folgequest = Inst14Quest2_Folgequest
 Inst14Quest2FQuest_HORDE = Inst14Quest2FQuest
--- No Rewards for this quest
+--
+Inst14Quest2name1_HORDE = Inst14Quest2name1
+Inst14Quest2name2_HORDE = Inst14Quest2name2
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst14Quest3_HORDE = Inst14Quest3
@@ -3389,7 +3411,18 @@ Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
 Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
 -- No Rewards for this quest
 
-
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst14Quest6_HORDE = Inst14Quest6
+Inst14Quest6_HORDE_Level = Inst14Quest6_Level
+Inst14Quest6_HORDE_Attain = Inst14Quest6_Attain
+Inst14Quest6_HORDE_Aim = Inst14Quest6_Aim
+Inst14Quest6_HORDE_Location = Inst14Quest6_Location
+Inst14Quest6_HORDE_Note = Inst14Quest6_Note
+Inst14Quest6_HORDE_Prequest = Inst14Quest6_Prequest
+Inst14Quest6_HORDE_Folgequest = Inst14Quest6_Folgequest
+Inst14Quest6PreQuest_HORDE = Inst14Quest6PreQuest
+--
+Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 --------------- INST15 -Old Naxxramas (Old Naxx) ---------------
 
@@ -3726,11 +3759,14 @@ Inst19Quest2_Level = "40"
 Inst19Quest2_Attain = "30"
 Inst19Quest2_Aim = "将《能量仪祭》交给尘泥沼泽的塔贝萨。"
 Inst19Quest2_Location = "塔贝萨（尘泥沼泽; "..YELLOW.."43,57"..WHITE.."）"
-Inst19Quest2_Note = "法师职业任务，你可以在血色修道院的图书馆奥法师杜安之前左侧一个走廊的地板上（"..YELLOW.."[2]"..WHITE.."）找到这本书。"
-Inst19Quest2_Prequest = "解封咒语"
+Inst19Quest2_Note = "法师职业任务，你可以在血色修道院的图书馆奥法师杜安之前左侧一个走廊的地板上（"..YELLOW.."[2]"..WHITE.."）找到这本书。\n\n下列奖励是下步任务给与。"
+Inst19Quest2_Prequest = "沼泽之旅 ->解封咒语"
 Inst19Quest2_Folgequest = "法师的魔杖"
 Inst19Quest2PreQuest = "true"
--- No Rewards for this quest
+--
+Inst19Quest2name1 = "冰怒魔杖"
+Inst19Quest2name2 = "虚空灵力魔杖"
+Inst19Quest2name3 = "怒火魔杖"
 
 --Quest 3 Alliance
 Inst19Quest3 = "3. 以圣光之名"
@@ -3755,23 +3791,25 @@ Inst19Quest1_HORDE_Level = "33"
 Inst19Quest1_HORDE_Attain = "30"
 Inst19Quest1_HORDE_Aim = "幽暗城的大药剂师法拉尼尔需要20颗狂热之心。"
 Inst19Quest1_HORDE_Location = "大药剂师法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）"
-Inst19Quest1_HORDE_Note = "血色所有的怪物均会掉落。"
+Inst19Quest1_HORDE_Note = "血色所有的怪物均会掉落，包括副本外的。"
 Inst19Quest1_HORDE_Prequest = "蝙蝠的粪便（"..YELLOW.."[剃刀沼泽]"..WHITE.."）"
 Inst19Quest1_HORDE_Folgequest = "无"
 Inst19Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst19Quest2_HORDE = "2. 知识的试炼"
+Inst19Quest2_HORDE = "2. 知识试炼"
 Inst19Quest2_HORDE_Level = "36"
 Inst19Quest2_HORDE_Attain = "25"
 Inst19Quest2_HORDE_Aim = "找到《亡灵的起源》，把它交给幽暗城的帕科瓦·芬塔拉斯。"
 Inst19Quest2_HORDE_Location = "帕科瓦·芬塔拉斯（幽暗城 - 炼金房; "..YELLOW.."57,65 "..WHITE.."）"
-Inst19Quest2_HORDE_Note = "此系列任务始于多恩·平原行者（千针石林; "..YELLOW.."53,41"..WHITE.."）。\n书在血色修道院图书馆里。"
-Inst19Quest2_HORDE_Prequest = "信仰的试炼 -> 耐力的试炼 -> 力量的试炼"
-Inst19Quest2_HORDE_Folgequest = "知识的试炼"
+Inst19Quest2_HORDE_Note = "此系列任务始于多恩·平原行者（千针石林; "..YELLOW.."53,41"..WHITE.."）。\n书在血色修道院图书馆里。\n\n下列奖励是下步任务给与。"
+Inst19Quest2_HORDE_Prequest = "信仰试炼 -> 耐力试炼 -> 力量试炼"
+Inst19Quest2_HORDE_Folgequest = "知识试炼"
 Inst19Quest2PreQuest_HORDE = "true"
--- No Rewards for this quest
+--
+Inst19Quest2name1_HORDE = "风雷之锤"
+Inst19Quest2name2_HORDE = "跳动之火"
 
 --Quest 3 Horde
 Inst19Quest3_HORDE = "3. 堕落者纲要"
@@ -3797,7 +3835,10 @@ Inst19Quest4_HORDE_Note = Inst19Quest2_Note
 Inst19Quest4_HORDE_Prequest = Inst19Quest2_Prequest
 Inst19Quest4_HORDE_Folgequest = Inst19Quest2_Folgequest
 Inst19Quest4PreQuest_HORDE = Inst19Quest2_PreQuest
--- No Rewards for this quest
+--
+Inst19Quest4name1_HORDE = Inst19Quest2name1
+Inst19Quest4name2_HORDE = Inst19Quest2name2
+Inst19Quest4name3_HORDE = Inst19Quest2name3
 
 --Quest 5 Horde
 Inst19Quest5_HORDE = "5. 深入血色修道院"
@@ -3982,8 +4023,8 @@ Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
 
 Inst20Story = "通灵学院位于凯尔达隆废弃的城堡中的地下室中。那里曾经是高贵的巴罗夫家族的，但是在第二次大战中凯尔达隆变成了一块废墟。法师克尔苏加德经常向他的诅咒神教信徒承诺可以用对于巫妖王的效忠来换取永恒的生命。巴罗克家族受到克尔苏加德的魅惑而将城堡和其地下室献给了亡灵天灾。那些信徒然后将巴罗夫家族的人杀死并把地下室变成了通灵学院。虽然克尔苏加德不再住在这个地下室中，但是狂热的信徒和讲师都还留在那里。强大的巫妖，莱斯·霜语以亡灵天灾的名义控制了这里——而凡人亡灵巫师黑暗院长加丁则是这个学校邪恶的校长。"
 Inst20Caption = "通灵学院"
-Inst20QAA = "10 个任务"
-Inst20QAH = "11 个任务"
+Inst20QAA = "11 个任务"
+Inst20QAH = "12 个任务"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. 瘟疫之龙"
@@ -4068,10 +4109,11 @@ Inst20Quest7_Level = "60"
 Inst20Quest7_Attain = "52"
 Inst20Quest7_Aim = "到通灵学院中去取得巴罗夫家族的宝藏。这份宝藏包括四份地契：凯尔达隆地契、布瑞尔地契、塔伦米尔地契，还有南海镇地契。完成任务之后就回到维尔顿·巴罗夫那儿去。"
 Inst20Quest7_Location = "维尔顿·巴罗夫（西瘟疫之地 - 寒风营地; "..YELLOW.."43,83"..WHITE.."）"
-Inst20Quest7_Note = "你可以在"..YELLOW.."[12]"..WHITE.."找到凯尔达隆地契，在"..YELLOW.."[7]"..WHITE.."找到布瑞尔地契，在"..YELLOW.."[4]"..WHITE.."找到塔伦米尔地契，在"..YELLOW.."[1]"..WHITE.."找到南海镇地契。"
+Inst20Quest7_Note = "你可以在"..YELLOW.."[12]"..WHITE.."找到凯尔达隆地契，在"..YELLOW.."[7]"..WHITE.."找到布瑞尔地契，在"..YELLOW.."[4]"..WHITE.."找到塔伦米尔地契，在"..YELLOW.."[1]"..WHITE.."找到南海镇地契。\n\n下列奖励是下步任务给与的。"
 Inst20Quest7_Prequest = "无"
 Inst20Quest7_Folgequest = "巴罗夫的继承人\n（去亡灵壁垒暗杀阿莱克斯·巴罗夫。把他的脑袋交给维尔顿·巴罗夫。）"
--- No Rewards for this quest
+--
+Inst20Quest7name1 = "巴罗夫管家铃"
 
 --Quest 8 Alliance
 Inst20Quest8 = "8. 黎明先锋"
@@ -4111,6 +4153,17 @@ Inst20Quest10_Folgequest = " 奥卡兹岛在你前方……"
 Inst20Quest10PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 11 Alliance
+Inst20Quest11 = "11. 瓦塔拉克饰品的右瓣"
+Inst20Quest11_Level = "60"
+Inst20Quest11_Attain = "58"
+Inst20Quest11_Aim = "使用召唤火盆召唤出库尔莫克的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克公爵的饰品还给黑石山的伯德雷。"
+Inst20Quest11_Location = "伯德雷 (黑石山; "..YELLOW.."副本入口地图[D] "..WHITE..")"
+Inst20Quest11_Note = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n库尔莫克 在"..YELLOW.."[7]"..WHITE.."."
+Inst20Quest11_Prequest = "更多重要的材料"
+Inst20Quest11_Folgequest = "最后的准备 ("..YELLOW.."黑石塔上"..WHITE..")"
+Inst20Quest11PreQuest = "true"
+-- No Rewards for this quest
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst20Quest1_HORDE = Inst20Quest1
@@ -4251,6 +4304,18 @@ Inst20Quest11PreQuest_HORDE = "true"
 --
 Inst20Quest11name1_HORDE = "Skyfury Helm"
 
+--Quest 12 Horde  (same as Quest 11 Alliance)
+Inst20Quest12_HORDE = "12. 瓦塔拉克饰品的右瓣"
+Inst20Quest12_HORDE_Level = Inst20Quest11_Level
+Inst20Quest12_HORDE_Attain = Inst20Quest11_Attain
+Inst20Quest12_HORDE_Aim = Inst20Quest11_Aim
+Inst20Quest12_HORDE_Location = Inst20Quest11_Location
+Inst20Quest12_HORDE_Note = Inst20Quest11_Note
+Inst20Quest12_HORDE_Prequest = Inst20Quest11_Prequest
+Inst20Quest12_HORDE_Folgequest = Inst20Quest11_Folgequest
+Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
+-- No Rewards for this quest
+
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
@@ -4344,7 +4409,7 @@ Inst21Quest4name2_HORDE = Inst21Quest2name1
 Inst22Story = "斯坦索姆曾经是洛丹伦北部一颗璀璨的明珠，但是就是在这座城市阿尔萨斯王子背叛了他的导师乌瑟尔，并屠杀了数百个被认为感染了可怕瘟疫的臣民。阿尔萨斯不久之后就向巫妖王臣服。这个破碎的城市也被巫妖克尔苏拉德领导的亡灵天灾所占据。而一直由大十字军战士达索汉领导的血色十字军分遣队也占据了这个城市的一部分。这两方力量在城市中进行着激烈的战斗。而那些勇敢（亦或是愚蠢的）的冒险者在进入斯坦索姆之后将不得不面对两方的力量。据说整座城市由三座大型的通灵塔以及无数强大的亡灵巫师，女妖和憎恶所守卫着。据报告，邪恶的死亡骑士乘坐在一匹骷髅战马——他会将怒火倾泻在任何胆敢进入亡灵天灾领域的人。"
 Inst22Caption = "斯坦索姆"
 Inst22QAA = "18 个任务"
-Inst22QAH = "19 个任务"
+Inst22QAH = "20 个任务"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. 血肉不会撒谎"
@@ -4477,9 +4542,9 @@ Inst22Quest11_Level = "60"
 Inst22Quest11_Attain = "55"
 Inst22Quest11_Aim = "到斯坦索姆去杀掉瑞文戴尔男爵，把他的头颅交给尼古拉斯·瑟伦霍夫公爵。"
 Inst22Quest11_Location = "尼古拉斯·瑟伦霍夫公爵（东瘟疫之地 - 圣光之愿礼拜堂; "..YELLOW.."76,52"..WHITE.."）"
-Inst22Quest11_Note = "瑞文戴尔男爵在"..YELLOW.."[19]"..WHITE.."。"
+Inst22Quest11_Note = "瑞文戴尔男爵在"..YELLOW.."[19]"..WHITE.."\n\n下列奖励是下步任务给与的。"
 Inst22Quest11_Prequest = "可怕的真相"
-Inst22Quest11_Folgequest = "无"
+Inst22Quest11_Folgequest = "玛克斯韦尔·泰罗索斯男爵->银色黎明宝箱"
 Inst22Quest11FQuest = "true"
 --
 Inst22Quest11name1 = "黎明守护者"
@@ -4528,9 +4593,10 @@ Inst22Quest15_Level = "60"
 Inst22Quest15_Attain = "60"
 Inst22Quest15_Aim = "塔纳利斯时光之穴的阿纳克洛斯要你前往斯坦索姆，在神圣之地上使用埃提耶什，守护者的传说之杖。击败被驱赶出法杖的生物，然后回到阿纳克洛斯那里去。 "
 Inst22Quest15_Location = "阿纳克洛斯（塔纳利斯 - 时光之穴; "..YELLOW.."65,49"..WHITE.."）"
-Inst22Quest15_Note = "召唤位置在"..YELLOW.."[2]"..WHITE.."。"
+Inst22Quest15_Note = "召唤位置在"..YELLOW.."[2]"..WHITE.."。\n\n在3.0版本之后，这个任务即绝版了，纪念下吧"
 Inst22Quest15_Prequest = "有"
 Inst22Quest15_Folgequest = "无"
+Inst22Quest15PreQuest = "true"
 --
 Inst22Quest15name1 = "埃提耶什，守护者的传说之杖"
 Inst22Quest15name2 = "埃提耶什，守护者的传说之杖"
@@ -4567,9 +4633,10 @@ Inst22Quest18_Level = "60"
 Inst22Quest18_Attain = "60"
 Inst22Quest18_Aim = "在总计有15个农夫被杀死之前拯救50个农夫。完成任务之后与艾瑞斯·哈文法谈谈。\n你可以通过浏览死亡布告来了解自己拯救了多少农夫。"
 Inst22Quest18_Location = "艾瑞斯·哈文法（东瘟疫之地; "..YELLOW.."17,14"..WHITE.."）"
-Inst22Quest18_Note = "如果要看到艾瑞斯·哈文法和接到任务，你需要神圣之眼（火焰之王的宝箱在"..YELLOW.."[熔火之心]"..WHITE.."）或者鬼灵精华（"..YELLOW.."[通灵学院]"..WHITE.."传令官基尔图诺斯任务奖励）。\n\n完成后，将神圣之眼、诺达希尔碎片和暗影之眼（ 诅咒之地"..YELLOW.."[魔王库鲁尔]"..WHITE.."掉落）组合，将得到牧师史诗法杖——祈福。"
-Inst22Quest18_Prequest = "无"
+Inst22Quest18_Note = "如果要看到艾瑞斯·哈文法和接到任务，你需要神圣之眼（火焰之王的宝箱"..YELLOW.."[熔火之心]"..WHITE.."）或者鬼灵精华（"..YELLOW.."[通灵学院]"..WHITE.."传令官基尔图诺斯任务奖励）。\n\n完成后，将神圣之眼、诺达希尔碎片和暗影之眼（诅咒之地和冬泉谷的恶魔掉落）组合，将得到牧师史诗法杖——祈福。"
+Inst22Quest18_Prequest = "警示"
 Inst22Quest18_Folgequest = "无"
+Inst22Quest18PreQuest = "true"
 --
 Inst22Quest18name1 = "诺达希尔碎片"
 
@@ -4813,9 +4880,22 @@ Inst22Quest19_HORDE_Location = Inst22Quest18_Location
 Inst22Quest19_HORDE_Note = Inst22Quest18_Note
 Inst22Quest19_HORDE_Prequest = Inst22Quest18_Prequest
 Inst22Quest19_HORDE_Folgequest = Inst22Quest18_Folgequest
+Inst22Quest19PreQuest_HORDE = Inst22Quest18PreQuest
 --
 Inst22Quest19name1_HORDE = Inst22Quest18name1
 
+--Quest 20 Horde
+Inst22Quest20_HORDE = "20. 圣光的主人 (圣骑士)"
+Inst22Quest20_HORDE_Level = "60"
+Inst22Quest20_HORDE_Attain = "60"
+Inst22Quest20_HORDE_Aim = "在阿隆索斯礼拜堂的永恒之焰上使用熄焰之水，除去圣光的保护，然后消灭所有试图保卫礼拜堂的人."
+Inst22Quest20_HORDE_Location = "索拉纳·血怒 (银月城; "..YELLOW.."92.2, 38.7"..WHITE..")"
+Inst22Quest20_HORDE_Note = "阿隆索斯礼拜堂 在"..YELLOW.."[13]"..WHITE..". 完成这个任务奖励圣骑的100%坐骑。如果你已经学会了，那就接不到这个任务了."
+Inst22Quest20_HORDE_Prequest = "索拉纳大人的召唤 -> 圣光的主人"
+Inst22Quest20_HORDE_Folgequest = "无"
+Inst22Quest20PreQuest_HORDE = "true"
+--
+Inst22Quest20name1_HORDE = "血骑士战袍"
 
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
@@ -5874,8 +5954,8 @@ Inst28Quest4name6_HORDE = Inst28Quest4name6
 
 Inst29Story = "位于丹莫洛的科技奇迹城市诺莫瑞根世代以来都是侏儒的主城。最近，一群邪恶的变异食鄂怪侵入了包括侏儒主城在内的多处丹莫洛地区。为了做出殊死一搏来干掉入侵的食腭怪，大工匠梅卡托克命令打开城市中的紧急辐射水箱。侏儒在等待那些食腭怪死亡或者逃跑的同时也在寻找躲避辐射的方法。不幸的是，虽然食腭怪在经过辐射之后感染了毒性——但是它们的攻击没有停止，也没有丝毫的减弱。那些没有被辐射杀死的侏儒被迫逃离，他们在附近的矮人城市铁炉堡找到了安身之处。大工匠梅卡托克组建了一个智囊团来商议重新夺回他们挚爱的城市的计划。传说大工匠梅卡托克曾经最信任的顾问，麦克尼尔·瑟玛普拉格被判了他的人民并纵容了这次入侵的发生。现在，他的心智，麦克尼尔·瑟玛普拉格还留在诺莫瑞根中——他在继续筹划着自己黑暗的计划并成为这座城市新的科技领主。"
 Inst29Caption = "诺莫瑞根"
-Inst29QAA = "10 个任务"
-Inst29QAH = "5 个任务"
+Inst29QAA = "11 个任务"
+Inst29QAH = "6 个任务"
 
 --Quest 1 Alliance
 Inst29Quest1 = "1. 拯救尖端机器人！"
@@ -6003,6 +6083,17 @@ Inst29Quest10FQuest = "true"
 --
 Inst29Quest10name1 = "闪亮的金戒指"
 
+--Quest 11 Alliance
+Inst29Quest11 = "11. 超级清洁器5200型！"
+Inst29Quest11_Level = "30"
+Inst29Quest11_Attain = "25"
+Inst29Quest11_Aim = "将脏兮兮的东西放入超级清洁器5200型，记得要用三枚银币来启动机器。"
+Inst29Quest11_Location = "超级清洁器5200型 (诺莫瑞根 - 清洁室; "..YELLOW.."[2]"..WHITE..")"
+Inst29Quest11_Note = "这个是可重复的，你可以清洗你身上所有的脏兮兮的东西."
+Inst29Quest11_Prequest = "无"
+Inst29Quest11_Folgequest = "无"
+--
+Inst29Quest11name1 = "被清洁器包装过的盒子"
 
 --Quest 1 Horde
 Inst29Quest1_HORDE = "1. 出发！诺莫瑞根！"
@@ -6014,7 +6105,8 @@ Inst29Quest1_HORDE_Note = "你可以在索维克（奥格瑞玛 - 荣誉谷; "..
 Inst29Quest1_HORDE_Prequest = "主工程师斯库提"
 Inst29Quest1_HORDE_Folgequest = "无"
 Inst29Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
+--
+Inst29Quest1name1_HORDE = "地精传送器"
 
 --Quest 2 Horde  (same as Quest 7 Alliance)
 Inst29Quest2_HORDE = "2. 一团混乱"
@@ -6062,10 +6154,22 @@ Inst29Quest5_HORDE_Aim = "你要么自己留着这枚戒指，要么就按照戒
 Inst29Quest5_HORDE_Location = "闪亮的金戒指（从脏兮兮的戒指清洁后获得）"
 Inst29Quest5_HORDE_Note = "把戒指交给诺格（奥格瑞玛 - 荣誉谷; "..YELLOW.."75,25"..WHITE.."）。奖励的戒指为随机属性。"
 Inst29Quest5_HORDE_Prequest = "脏兮兮的戒指"
-Inst29Quest5_HORDE_Folgequest = "无"
+Inst29Quest5_HORDE_Folgequest = "诺格的手艺"
 Inst29Quest5FQuest_HORDE= "true"
 --
 Inst29Quest5name1_HORDE = "闪亮的金戒指"
+
+--Quest 6 Horde
+Inst29Quest6_HORDE = "6. 超级清洁器5200型！"
+Inst29Quest6_HORDE_Level = "30"
+Inst29Quest6_HORDE_Attain = "25"
+Inst29Quest6_HORDE_Aim = "将脏兮兮的东西放入超级清洁器5200型，记得要用三枚银币来启动机器。"
+Inst29Quest6_HORDE_Location = "超级清洁器5200型 (诺莫瑞根 - 清洁室; "..YELLOW.."[2]"..WHITE..")"
+Inst29Quest6_HORDE_Note = "这个是可重复的，你可以清洗你身上所有的脏兮兮的东西."
+Inst29Quest6_HORDE_Prequest = "无"
+Inst29Quest6_HORDE_Folgequest = "无"
+--
+Inst29Quest6name1_HORDE = "被清洁器包装过的盒子"
 
 
 
@@ -9892,7 +9996,7 @@ Inst68QAH = "无任务"
 
 
 ------------------------------
--------------WotLK------------
+----------TBC---WotLK---------
 ------------------------------
 
 
