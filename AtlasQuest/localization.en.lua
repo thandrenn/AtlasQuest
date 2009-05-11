@@ -3322,7 +3322,7 @@ Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
 Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 6 Horde  (same as Quest 6 Alliance)
 Inst14Quest6_HORDE = Inst14Quest6
 Inst14Quest6_HORDE_Level = Inst14Quest6_Level
 Inst14Quest6_HORDE_Attain = Inst14Quest6_Attain
@@ -3331,7 +3331,7 @@ Inst14Quest6_HORDE_Location = Inst14Quest6_Location
 Inst14Quest6_HORDE_Note = Inst14Quest6_Note
 Inst14Quest6_HORDE_Prequest = Inst14Quest6_Prequest
 Inst14Quest6_HORDE_Folgequest = Inst14Quest6_Folgequest
-Inst14Quest3PreQuest_HORDE = Inst14Quest3PreQuest
+Inst14Quest6PreQuest_HORDE = Inst14Quest6PreQuest
 --
 Inst14Quest6name1_HORDE = Inst14Quest6name1
 
