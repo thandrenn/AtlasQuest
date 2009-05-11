@@ -3261,7 +3261,7 @@ Inst14Quest6_Attain = "60"
 Inst14Quest6_Aim = "去熔火之心探險並找回那些護目鏡！當你取回護目鏡後再回到塔納利斯的納里安．柔想那裡。"
 Inst14Quest6_Location = "不起眼的木箱（銀松森林 - 格雷邁恩之牆; "..YELLOW.."46.2, 86.6"..WHITE.."）"
 Inst14Quest6_Note = "此任務為開啟安其拉之門事件任務線，必須先將「諾茲多姆的子嗣」聲望提升到中立後，再到時光洞穴找安納克羅斯接受後續任務。解完他所給予的任務後，到艾薩拉將藍龍艾索雷葛斯支線任務完成，這樣就可以在格雷邁恩之牆接到這個任務了。在遊戲3.0.2版本中，護目鏡修改為由熔火之心的任何怪物掉落。任務交還給納里安．柔想（塔納利斯; "..YELLOW.."65.3, 18.6"..WHITE.."），前置任務亦由納里安．柔想給予。"
-Inst14Quest6_Prequest = "S斯圖沃爾，曾經最好的朋友"
+Inst14Quest6_Prequest = "斯圖沃爾，曾經最好的朋友"
 Inst14Quest6_Folgequest = "無"
 Inst14Quest6PreQuest = "true"
 --
@@ -3338,7 +3338,7 @@ Inst14Quest6_HORDE_Location = Inst14Quest6_Location
 Inst14Quest6_HORDE_Note = Inst14Quest6_Note
 Inst14Quest6_HORDE_Prequest = Inst14Quest6_Prequest
 Inst14Quest6_HORDE_Folgequest = Inst14Quest6_Folgequest
-Inst14Quest3PreQuest_HORDE = Inst14Quest3PreQuest
+Inst14Quest6PreQuest_HORDE = Inst14Quest6PreQuest
 --
 Inst14Quest6name1_HORDE = Inst14Quest6name1
 
@@ -3723,7 +3723,7 @@ Inst19Quest2_HORDE_Level = "36"
 Inst19Quest2_HORDE_Attain = "25"
 Inst19Quest2_HORDE_Aim = "找到《不死生物的起源》，把它交給幽暗城的帕科瓦．芬塔拉斯。"
 Inst19Quest2_HORDE_Location = "帕科瓦．芬塔拉斯（幽暗城 - 煉金房; "..YELLOW.."57,65 "..WHITE.."）"
-Inst19Quest2_HORDE_Note = "此系列任務始於多恩．平原行者（千針石林; "..YELLOW.."53,41"..WHITE.."）。\n書在血色修道院圖書館裡，任務獎勵由後續任務「最後的旅程」提供。。"
+Inst19Quest2_HORDE_Note = "此系列任務始於多恩．平原行者（千針石林; "..YELLOW.."53,41"..WHITE.."）。\n書在血色修道院圖書館裡，任務獎勵由後續任務「最後的旅程」提供。"
 Inst19Quest2_HORDE_Prequest = "信仰試煉→耐力試煉→力量試煉"
 Inst19Quest2_HORDE_Folgequest = "知識試煉"
 Inst19Quest2PreQuest_HORDE = "true"
