@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2009-05-09
-	最後更新﹕二○○九年五月九日
+	Last Updated: 2009-05-14
+	最後更新﹕二○○九年五月十四日
 	新增　巫妖王之怒 - 奧杜亞　故事＆任務
 
 --]]
@@ -883,10 +883,10 @@ Inst5QAH = "20 個任務"
 Inst5Quest1 = "1. 黑鐵的遺產"
 Inst5Quest1_Level = "52"
 Inst5Quest1_Attain = "48"
-Inst5Quest1_Aim = "殺掉弗諾斯．達克維爾並拿回戰錘鐵膽。把鐵膽之錘拿到索瑞森神殿去，將其放在弗蘭克羅恩．鑄鐵的雕像上。"
+Inst5Quest1_Aim = "殺掉弗諾斯．達克維爾並拿回戰錘鐵膽。把鐵膽之錘拿到索瑞森神殿去，將其放在弗蘭克羅恩．鑄鐵的雕像上 。"
 Inst5Quest1_Location = "弗蘭克羅恩．鑄鐵（黑石山; "..YELLOW.."副本入口地圖[3]"..WHITE.."）"
-Inst5Quest1_Note = "弗蘭克羅恩在黑石的中心，在他的墓上方。你必須死亡後才能見到他！和他交談2次，啟動任務。\n弗諾斯．達克維爾在"..YELLOW.."[9]"..WHITE.."。你會在"..YELLOW.."[7]"..WHITE.."找到神殿。"
-Inst5Quest1_Prequest = "無"
+Inst5Quest1_Note = "弗蘭克羅恩．鑄鐵位於黑石山一座懸空的島上的中心，在靠近地城外的集合石附近。你必須死亡後在幽靈狀態下才能見到他！除了現在這個任務，他也會給你前置任務「黑鐵的遺產」，你必須聽完他的故事才能接受這個任務。\n弗諾斯．達克維爾在"..YELLOW.."[9]"..WHITE.."。你會在"..YELLOW.."[7]"..WHITE.."找到神殿。"
+Inst5Quest1_Prequest = "黑鐵的遺產"
 Inst5Quest1_Folgequest = "無"
 --
 Inst5Quest1name1 = "影爐鑰匙"
@@ -2044,7 +2044,7 @@ Inst9Quest8_Level = "60"
 Inst9Quest8_Attain = "58"
 Inst9Quest8_Aim = "從黑石塔的獸人那兒收集40副黑石護腕，把它們和一瓶超級能量精煉藥劑一起交給黑石山的布德利。"
 Inst9Quest8_Location = "布德利（黑石山; "..YELLOW.."副本入口地圖[D]"..WHITE.."）"
-Inst9Quest8_Note = "你需要超維度幽靈顯形器才能看到布德利。你可以從《尋找安泰恩》任務得到它。黑石護腕由黑石塔地城內外以及黑石塔上下的獸人隨機掉落，尤其名稱中帶有「黑石」的怪物有較高的機率掉落。超級能量精煉藥劑是煉金製造。"
+Inst9Quest8_Note = "你需要超維度幽靈顯形器才能看到布德利。你可以從《尋找安泰恩》任務得到它。黑石護腕由黑石塔地城內外以及黑石塔上下的獸人隨機掉落，尤其名稱中帶有「黑手」的怪物有較高的機率掉落。超級能量精煉藥劑是煉金製造。"
 Inst9Quest8_Prequest = "瓦薩拉克護符的右半塊（"..YELLOW.."黑石塔下層"..WHITE.."）"
 Inst9Quest8_Folgequest = "認錯，瓦薩拉克領主"
 Inst9Quest8PreQuest = "true"
@@ -3211,8 +3211,8 @@ Inst14Quest2_Level = "60"
 Inst14Quest2_Attain = "55"
 Inst14Quest2_Aim = "將魯西弗隆之手、薩弗隆之手、基赫納斯之手和沙斯拉爾之手交給艾薩拉的海達克西斯公爵。"
 Inst14Quest2_Location = "海達克西斯公爵（艾薩拉; "..YELLOW.."79,73"..WHITE.."）"
-Inst14Quest2_Note = "魯西弗隆在"..YELLOW.."[1]"..WHITE.."，基赫納斯在"..YELLOW.."[3]"..WHITE.."，沙斯拉爾在"..YELLOW.."[5]"..WHITE.."，薩弗隆先驅者在"..YELLOW.."[8]"..WHITE.."。\n獎勵由後續任務「英雄的獎賞」領取。"
-Inst14Quest2_Prequest = "海達克西斯的使者"
+Inst14Quest2_Note = "魯西弗隆在"..YELLOW.."[1]"..WHITE.."，基赫納斯在"..YELLOW.."[3]"..WHITE.."，沙斯拉爾在"..YELLOW.."[5]"..WHITE.."，薩弗隆先驅者在"..YELLOW.."[8]"..WHITE.."。\n獎勵由後續任務「英雄的獎賞」領取。在3.0.8版本之後你將不再需要進行這條任務線了，如果你已經擁有這個任務了，你仍然可以完成它。"
+Inst14Quest2_Prequest = "艾博希爾之眼→熔火之心→海達克西斯的使者"
 Inst14Quest2_Folgequest = "無"
 Inst14Quest2FQuest = "true"
 --
