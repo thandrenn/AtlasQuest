@@ -4,7 +4,7 @@ Changelog
 
 Version 4.3.4
 
-- Updated boss numbers for Atlas 1.14.1. (the previous updates were done while it was in beta)
+- Updated boss numbers for Atlas 1.14.1.
 - Small updates and tweaks to a number of quests thanks to info provided by nonameform.
 
 - Quests added:
@@ -12,6 +12,22 @@ Version 4.3.4
 	- Gnomeregan: The Sparklematic 5200! (thanks b@k$$ and nonameform)
 	- Scholomance: The Right Piece of Lord Valthalak's Amulet (thanks nonameform)
 	- Stratholme: True Masters of the Light (Horde Paladin) (thanks nonameform)
+	- Ulduar: Archivum Data Disc (thanks Celellach)
+	- Ulduar: The Celestial Planetarium (thanks Celellach)
+	- Ulduar: Hodir's Sigil (thanks Celellach)
+	- Ulduar: Thorim's Sigil (thanks Celellach)
+	- Ulduar: Freya's Sigil (thanks Celellach)
+	- Ulduar: Mimiron's Sigil (thanks Celellach)
+	- Ulduar: Algalon (thanks Celellach)
+	- Ulduar: All Is Well That Ends Well (thanks Celellach)
+	- Ulduar: Heroic: Archivum Data Disc (thanks Celellach)
+	- Ulduar: Heroic: The Celestial Planetarium (thanks Celellach)
+	- Ulduar: Heroic: Hodir's Sigil (thanks Celellach)
+	- Ulduar: Heroic: Thorim's Sigil (thanks Celellach)
+	- Ulduar: Heroic: Freya's Sigil (thanks Celellach)
+	- Ulduar: Heroic: Mimiron's Sigil (thanks Celellach)
+	- Ulduar: Heroic: Algalon (thanks Celellach)
+	- Ulduar: Heroic: All Is Well That Ends Well (thanks Celellach)
 
 
 

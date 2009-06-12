@@ -7265,6 +7265,198 @@ Inst84Quest2ID1_HORDE = "44581"
 
 --------------- INST86 - Ulduar ---------------
 
+--Quest 1 Alliance
+Inst86Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst86Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst86Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst86Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst86Quest5Rewardtext = AQNoReward
+
+--Quest 6 Alliance
+Inst86Quest6Rewardtext = AQNoReward
+
+--Quest 7 Alliance
+Inst86Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"
+--ITEM1
+Inst86Quest7ITC1 = Itemc2;
+Inst86Quest7description1 = AQITEM_KEY
+Inst86Quest7ID1 = "45796"
+--ITEM2
+Inst86Quest7ITC2 = Itemc5;
+Inst86Quest7description2 = AQITEM_ITEM
+Inst86Quest7ID2 = "45875"
+
+--Quest 8 Alliance
+Inst86Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst86Quest8ITC1 = Itemc5;
+Inst86Quest8description1 = AQITEM_BACK
+Inst86Quest8ID1 = "46320"
+--ITEM2
+Inst86Quest8ITC2 = Itemc5;
+Inst86Quest8description2 = AQITEM_BACK
+Inst86Quest8ID2 = "46321"
+--ITEM3
+Inst86Quest8ITC3 = Itemc5;
+Inst86Quest8description3 = AQITEM_RING
+Inst86Quest8ID3 = "46322"
+--ITEM4
+Inst86Quest8ITC4 = Itemc5;
+Inst86Quest8description4 = AQITEM_RING
+Inst86Quest8ID4 = "46323"
+
+--Quest 9 Alliance
+Inst86Quest9Rewardtext = AQNoReward
+
+--Quest 10 Alliance
+Inst86Quest10Rewardtext = AQNoReward
+
+--Quest 11 Alliance
+Inst86Quest11Rewardtext = AQNoReward
+
+--Quest 12 Alliance
+Inst86Quest12Rewardtext = AQNoReward
+
+--Quest 13 Alliance
+Inst86Quest13Rewardtext = AQNoReward
+
+--Quest 14 Alliance
+Inst86Quest14Rewardtext = AQNoReward
+
+--Quest 15 Alliance
+Inst86Quest15Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"
+--ITEM1
+Inst86Quest15ITC1 = Itemc2;
+Inst86Quest15description1 = AQITEM_KEY
+Inst86Quest15ID1 = "45798"
+--ITEM2
+Inst86Quest15ITC2 = Itemc5;
+Inst86Quest15description2 = AQITEM_ITEM
+Inst86Quest15ID2 = "45878"
+
+--Quest 16 Alliance
+Inst86Quest16Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst86Quest16ITC1 = Itemc5;
+Inst86Quest16description1 = AQITEM_BACK
+Inst86Quest16ID1 = "45588"
+--ITEM2
+Inst86Quest16ITC2 = Itemc5;
+Inst86Quest16description2 = AQITEM_BACK
+Inst86Quest16ID2 = "45618"
+--ITEM3
+Inst86Quest16ITC3 = Itemc5;
+Inst86Quest16description3 = AQITEM_RING
+Inst86Quest16ID3 = "45608"
+--ITEM4
+Inst86Quest16ITC4 = Itemc5;
+Inst86Quest16description4 = AQITEM_RING
+Inst86Quest16ID4 = "45614"
+
+
+--Quest 1 Horde
+Inst86Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst86Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst86Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst86Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst86Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst86Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst86Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"
+--ITEM1
+Inst86Quest7ITC1_HORDE = Itemc2;
+Inst86Quest7description1_HORDE = AQITEM_KEY
+Inst86Quest7ID1_HORDE = "45796"
+--ITEM2
+Inst86Quest7ITC2_HORDE = Itemc5;
+Inst86Quest7description2_HORDE = AQITEM_ITEM
+Inst86Quest7ID2_HORDE = "45875"
+
+--Quest 8 Horde
+Inst86Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst86Quest8ITC1_HORDE = Itemc5;
+Inst86Quest8description1_HORDE = AQITEM_BACK
+Inst86Quest8ID1_HORDE = "46320"
+--ITEM2
+Inst86Quest8ITC2_HORDE = Itemc5;
+Inst86Quest8description2_HORDE = AQITEM_BACK
+Inst86Quest8ID2_HORDE = "46321"
+--ITEM3
+Inst86Quest8ITC3_HORDE = Itemc5;
+Inst86Quest8description3_HORDE = AQITEM_RING
+Inst86Quest8ID3_HORDE = "46322"
+--ITEM4
+Inst86Quest8ITC4_HORDE = Itemc5;
+Inst86Quest8description4_HORDE = AQITEM_RING
+Inst86Quest8ID4_HORDE = "46323"
+
+--Quest 9 Horde
+Inst86Quest9Rewardtext_HORDE = AQNoReward
+
+--Quest 10 Horde
+Inst86Quest10Rewardtext_HORDE = AQNoReward
+
+--Quest 11 Horde
+Inst86Quest11Rewardtext_HORDE = AQNoReward
+
+--Quest 12 Horde
+Inst86Quest12Rewardtext_HORDE = AQNoReward
+
+--Quest 13 Horde
+Inst86Quest13Rewardtext_HORDE = AQNoReward
+
+--Quest 14 Horde
+Inst86Quest14Rewardtext_HORDE = AQNoReward
+
+--Quest 15 Horde
+Inst86Quest15Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"
+--ITEM1
+Inst86Quest15ITC1_HORDE = Itemc2;
+Inst86Quest15description1_HORDE = AQITEM_KEY
+Inst86Quest15ID1_HORDE = "45798"
+--ITEM2
+Inst86Quest15ITC2_HORDE = Itemc5;
+Inst86Quest15description2_HORDE = AQITEM_ITEM
+Inst86Quest15ID2_HORDE = "45878"
+
+--Quest 16 Horde
+Inst86Quest16Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst86Quest16ITC1_HORDE = Itemc5;
+Inst86Quest16description1_HORDE = AQITEM_BACK
+Inst86Quest16ID1_HORDE = "45588"
+--ITEM2
+Inst86Quest16ITC2_HORDE = Itemc5;
+Inst86Quest16description2_HORDE = AQITEM_BACK
+Inst86Quest16ID2_HORDE = "45618"
+--ITEM3
+Inst86Quest16ITC3_HORDE = Itemc5;
+Inst86Quest16description3_HORDE = AQITEM_RING
+Inst86Quest16ID3_HORDE = "45608"
+--ITEM4
+Inst86Quest16ITC4_HORDE = Itemc5;
+Inst86Quest16description4_HORDE = AQITEM_RING
+Inst86Quest16ID4_HORDE = "45614"
 
 
 

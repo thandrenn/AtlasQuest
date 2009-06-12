@@ -11172,9 +11172,409 @@ Inst85QAH = "No Quests"
 
 Inst86Story = "For millennia, Ulduar has remained undisturbed by mortals, far away from their concerns and their struggles. Yet since its recent discovery, many have wondered what the structure's original purpose may have been. Some thought it a city, built to herald the glory of its makers; some thought it a vault containing innumerable treasures, perhaps even relics of the mighty Titans themselves. Such speculations were wrong. Beyond Ulduar's gates lies no city, no treasure vault, no final answer to the Titan's mysteries. All that awaits those who dare set foot in Ulduar is a horror even the Titans could not, would not destroy, an evil they merely... contained. Beneath ancient Ulduar, the Old God of death lies, whispering.... Tread carefully, or its prison will become your tomb."
 Inst86Caption = "Ulduar"
-Inst86QAA = "No Quests"
-Inst86QAH = "No Quests"
+Inst86QAA = "16 Quests"
+Inst86QAH = "16 Quests"
 
+--Quest 1 Alliance
+Inst86Quest1 = "1. Archivum Data Disc"
+Inst86Quest1_Level = "80"
+Inst86Quest1_Attain = "80"
+Inst86Quest1_Aim = "Bring the Archivum Data Disc to the Archivum Console in Ulduar."
+Inst86Quest1_Location = "Archivum Data Disc (drops from Assembly of Iron; "..YELLOW.."The Antechamber [5]"..WHITE..")"
+Inst86Quest1_Note = "The Data Disc will only drop if you complete the Assembly of Iron encounter on hard mode.  Only one person in the raid will be able to pick up the Data Disc per raid.\n\nAfter the Assembly of Iron is killed, a door opens up.  Turn in the quest at the Archivum Console in the room beyond.  Prospector Doren will give you the following quest."
+Inst86Quest1_Prequest = "None"
+Inst86Quest1_Folgequest = "The Celestial Planetarium"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst86Quest2 = "2. The Celestial Planetarium"
+Inst86Quest2_Level = "80"
+Inst86Quest2_Attain = "80"
+Inst86Quest2_Aim = "Prospector Doren at the Archivum in Ulduar wants you to locate the entrance to the Celestial Planetarium."
+Inst86Quest2_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest2_Note = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[7]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests."
+Inst86Quest2_Prequest = "Archivum Data Disc"
+Inst86Quest2_Folgequest = "Four more quests"
+Inst86Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst86Quest3 = "3. Hodir's Sigil"
+Inst86Quest3_Level = "80"
+Inst86Quest3_Attain = "80"
+Inst86Quest3_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Hodir's Sigil."
+Inst86Quest3_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest3_Note = "Hodir is at "..YELLOW.."The Keepers [9]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
+Inst86Quest3_Prequest = "The Celestial Planetarium"
+Inst86Quest3_Folgequest = "None"
+Inst86Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst86Quest4 = "4. Thorim's Sigil"
+Inst86Quest4_Level = "80"
+Inst86Quest4_Attain = "80"
+Inst86Quest4_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Thorim's Sigil."
+Inst86Quest4_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest4_Note = "Thorim is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
+Inst86Quest4_Prequest = "The Celestial Planetarium"
+Inst86Quest4_Folgequest = "None"
+Inst86Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst86Quest5 = "5. Freya's Sigil"
+Inst86Quest5_Level = "80"
+Inst86Quest5_Attain = "80"
+Inst86Quest5_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Freya's Sigil."
+Inst86Quest5_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest5_Note = "Freya is at "..YELLOW.."The Keepers [11]"..WHITE..".  She must be killed on Hard Mode for the Sigil to drop."
+Inst86Quest5_Prequest = "The Celestial Planetarium"
+Inst86Quest5_Folgequest = "None"
+Inst86Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst86Quest6 = "6. Mimiron's Sigil"
+Inst86Quest6_Level = "80"
+Inst86Quest6_Attain = "80"
+Inst86Quest6_Aim = "Prospector Doren at the Ulduar Archivum wants you to obtain Mimiron's Sigil."
+Inst86Quest6_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest6_Note = "Mimiron is at "..YELLOW.."Spark of Imagination [12]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
+Inst86Quest6_Prequest = "The Celestial Planetarium"
+Inst86Quest6_Folgequest = "None"
+Inst86Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst86Quest7 = "7. Algalon"
+Inst86Quest7_Level = "80"
+Inst86Quest7_Attain = "80"
+Inst86Quest7_Aim = "Bring the Sigils of the Watchers to the Archivum Console in Ulduar."
+Inst86Quest7_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest7_Note = "Completing this quest allows you to fight Algalon the Observer in the Celestial Planetarium."
+Inst86Quest7_Prequest = "The four Sigil quests"
+Inst86Quest7_Folgequest = "None"
+Inst86Quest7PreQuest = "true"
+--
+Inst86Quest7name1 = "Celestial Planetarium Key"
+Inst86Quest7name2 = "Sack of Ulduar Spoils"
+
+--Quest 8 Alliance
+Inst86Quest8 = "8. All Is Well That Ends Well"
+Inst86Quest8_Level = "80"
+Inst86Quest8_Attain = "80"
+Inst86Quest8_Aim = "Take the Reply-Code Alpha to Rhonin in Dalaran."
+Inst86Quest8_Location = "Reply-Code Alpha (drops from Algalon the Observer; "..YELLOW.."The Antechamber [7]"..WHITE..")"
+Inst86Quest8_Note = "Only one raid member per raid can take the Reply-Code. Rhonin is at Dalaran - The Violet Citadel; "..YELLOW.."30.5, 48.4"..WHITE.."."
+Inst86Quest8_Prequest = "None"
+Inst86Quest8_Folgequest = "None"
+--
+Inst86Quest8name1 = "Drape of the Skyherald"
+Inst86Quest8name2 = "Sunglimmer Drape"
+Inst86Quest8name3 = "Brann's Sealing Ring"
+Inst86Quest8name4 = "Starshine Signet"
+
+--Quest 9 Alliance
+Inst86Quest9 = "9. Heroic: Archivum Data Disc"
+Inst86Quest9_Level = "80"
+Inst86Quest9_Attain = "80"
+Inst86Quest9_Aim = "Bring the Archivum Data Disc to the Archivum Console in Ulduar."
+Inst86Quest9_Location = "Archivum Data Disc (drops from Assembly of Iron; "..YELLOW.."The Antechamber [5]"..WHITE..")"
+Inst86Quest9_Note = "The Data Disc will only drop if you complete the Assembly of Iron encounter on Heroic Hard Mode.  Only one person in the raid will be able to pick up the Data Disc per raid.\n\nAfter the Assembly of Iron is killed, a door opens up.  Turn in the quest at the Archivum Console in the room beyond.  Prospector Doren will give you the following quest."
+Inst86Quest9_Prequest = "None"
+Inst86Quest9_Folgequest = "The Celestial Planetarium"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst86Quest10 = "10. Heroic: The Celestial Planetarium"
+Inst86Quest10_Level = "80"
+Inst86Quest10_Attain = "80"
+Inst86Quest10_Aim = "Prospector Doren at the Archivum in Ulduar wants you to locate the entrance to the Celestial Planetarium."
+Inst86Quest10_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest10_Note = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[7]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests."
+Inst86Quest10_Prequest = "Archivum Data Disc"
+Inst86Quest10_Folgequest = "Four more quests"
+Inst86Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst86Quest11 = "11. Heroic: Hodir's Sigil"
+Inst86Quest11_Level = "80"
+Inst86Quest11_Attain = "80"
+Inst86Quest11_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Hodir's Sigil."
+Inst86Quest11_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest11_Note = "Hodir is at "..YELLOW.."The Keepers [9]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
+Inst86Quest11_Prequest = "The Celestial Planetarium"
+Inst86Quest11_Folgequest = "None"
+Inst86Quest11PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst86Quest12 = "12. Heroic: Thorim's Sigil"
+Inst86Quest12_Level = "80"
+Inst86Quest12_Attain = "80"
+Inst86Quest12_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Thorim's Sigil."
+Inst86Quest12_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest12_Note = "Thorim is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
+Inst86Quest12_Prequest = "The Celestial Planetarium"
+Inst86Quest12_Folgequest = "None"
+Inst86Quest12PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst86Quest13 = "13. Heroic: Freya's Sigil"
+Inst86Quest13_Level = "80"
+Inst86Quest13_Attain = "80"
+Inst86Quest13_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Freya's Sigil."
+Inst86Quest13_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest13_Note = "Freya is at "..YELLOW.."The Keepers [11]"..WHITE..".  She must be killed on Heroic Hard Mode for the Sigil to drop."
+Inst86Quest13_Prequest = "The Celestial Planetarium"
+Inst86Quest13_Folgequest = "None"
+Inst86Quest13PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst86Quest14 = "14. Heroic: Mimiron's Sigil"
+Inst86Quest14_Level = "80"
+Inst86Quest14_Attain = "80"
+Inst86Quest14_Aim = "Prospector Doren at the Ulduar Archivum wants you to obtain Mimiron's Sigil."
+Inst86Quest14_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest14_Note = "Mimiron is at "..YELLOW.."Spark of Imagination [12]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
+Inst86Quest14_Prequest = "The Celestial Planetarium"
+Inst86Quest14_Folgequest = "None"
+Inst86Quest14PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 15 Alliance
+Inst86Quest15 = "15. Heroic: Algalon"
+Inst86Quest15_Level = "80"
+Inst86Quest15_Attain = "80"
+Inst86Quest15_Aim = "Bring the Sigils of the Watchers to the Archivum Console in Ulduar."
+Inst86Quest15_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."South of [5]"..WHITE..")"
+Inst86Quest15_Note = "Completing this quest allows you to fight Algalon the Observer in the Celestial Planetarium."
+Inst86Quest15_Prequest = "The four Sigil quests"
+Inst86Quest15_Folgequest = "None"
+Inst86Quest15PreQuest = "true"
+--
+Inst86Quest15name1 = "Heroic Celestial Planetarium Key"
+Inst86Quest15name2 = "Sack of Ulduar Spoils"
+
+--Quest 16 Alliance
+Inst86Quest16 = "16. Heroic: All Is Well That Ends Well"
+Inst86Quest16_Level = "80"
+Inst86Quest16_Attain = "80"
+Inst86Quest16_Aim = "Take the Reply-Code Alpha to Rhonin in Dalaran."
+Inst86Quest16_Location = "Reply-Code Alpha (drops from Algalon the Observer; "..YELLOW.."The Antechamber [7]"..WHITE..")"
+Inst86Quest16_Note = "Only one raid member per raid can take the Reply-Code. Rhonin is at Dalaran - The Violet Citadel; "..YELLOW.."30.5, 48.4"..WHITE.."."
+Inst86Quest16_Prequest = "None"
+Inst86Quest16_Folgequest = "None"
+--
+Inst86Quest16name1 = "Drape of the Skyborn"
+Inst86Quest16name2 = "Sunglimmer Cloak"
+Inst86Quest16name3 = "Brann's Signet Ring"
+Inst86Quest16name4 = "Starshine Circle"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst86Quest1_HORDE = Inst86Quest1
+Inst86Quest1_HORDE_Level = Inst86Quest1_Level
+Inst86Quest1_HORDE_Attain = Inst86Quest1_Attain
+Inst86Quest1_HORDE_Aim = Inst86Quest1_Aim
+Inst86Quest1_HORDE_Location = Inst86Quest1_Location
+Inst86Quest1_HORDE_Note = Inst86Quest1_Note
+Inst86Quest1_HORDE_Prequest = Inst86Quest1_Prequest
+Inst86Quest1_HORDE_Folgequest = Inst86Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst86Quest2_HORDE = Inst86Quest2
+Inst86Quest2_HORDE_Level = Inst86Quest2_Level
+Inst86Quest2_HORDE_Attain = Inst86Quest2_Attain
+Inst86Quest2_HORDE_Aim = Inst86Quest2_Aim
+Inst86Quest2_HORDE_Location = Inst86Quest2_Location
+Inst86Quest2_HORDE_Note = Inst86Quest2_Note
+Inst86Quest2_HORDE_Prequest = Inst86Quest2_Prequest
+Inst86Quest2_HORDE_Folgequest = Inst86Quest2_Folgequest
+Inst86Quest2FQuest_HORDE = Inst86Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst86Quest3_HORDE = Inst86Quest3
+Inst86Quest3_HORDE_Level = Inst86Quest3_Level
+Inst86Quest3_HORDE_Attain = Inst86Quest3_Attain
+Inst86Quest3_HORDE_Aim = Inst86Quest3_Aim
+Inst86Quest3_HORDE_Location = Inst86Quest3_Location
+Inst86Quest3_HORDE_Note = Inst86Quest3_Note
+Inst86Quest3_HORDE_Prequest = Inst86Quest3_Prequest
+Inst86Quest3_HORDE_Folgequest = Inst86Quest3_Folgequest
+Inst86Quest3PreQuest_HORDE = Inst86Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst86Quest4_HORDE = Inst86Quest4
+Inst86Quest4_HORDE_Level = Inst86Quest4_Level
+Inst86Quest4_HORDE_Attain = Inst86Quest4_Attain
+Inst86Quest4_HORDE_Aim = Inst86Quest4_Aim
+Inst86Quest4_HORDE_Location = Inst86Quest4_Location
+Inst86Quest4_HORDE_Note = Inst86Quest4_Note
+Inst86Quest4_HORDE_Prequest = Inst86Quest4_Prequest
+Inst86Quest4_HORDE_Folgequest = Inst86Quest4_Folgequest
+Inst86Quest4PreQuest_HORDE = Inst86Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst86Quest5_HORDE = Inst86Quest5
+Inst86Quest5_HORDE_Level = Inst86Quest5_Level
+Inst86Quest5_HORDE_Attain = Inst86Quest5_Attain
+Inst86Quest5_HORDE_Aim = Inst86Quest5_Aim
+Inst86Quest5_HORDE_Location = Inst86Quest5_Location
+Inst86Quest5_HORDE_Note = Inst86Quest5_Note
+Inst86Quest5_HORDE_Prequest = Inst86Quest5_Prequest
+Inst86Quest5_HORDE_Folgequest = Inst86Quest5_Folgequest
+Inst86Quest5PreQuest_HORDE = Inst86Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst86Quest6_HORDE = Inst86Quest6
+Inst86Quest6_HORDE_Level = Inst86Quest6_Level
+Inst86Quest6_HORDE_Attain = Inst86Quest6_Attain
+Inst86Quest6_HORDE_Aim = Inst86Quest6_Aim
+Inst86Quest6_HORDE_Location = Inst86Quest6_Location
+Inst86Quest6_HORDE_Note = Inst86Quest6_Note
+Inst86Quest6_HORDE_Prequest = Inst86Quest6_Prequest
+Inst86Quest6_HORDE_Folgequest = Inst86Quest6_Folgequest
+Inst86Quest6PreQuest_HORDE = Inst86Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst86Quest7_HORDE = Inst86Quest7
+Inst86Quest7_HORDE_Level = Inst86Quest7_Level
+Inst86Quest7_HORDE_Attain = Inst86Quest7_Attain
+Inst86Quest7_HORDE_Aim = Inst86Quest7_Aim
+Inst86Quest7_HORDE_Location = Inst86Quest7_Location
+Inst86Quest7_HORDE_Note = Inst86Quest7_Note
+Inst86Quest7_HORDE_Prequest = Inst86Quest7_Prequest
+Inst86Quest7_HORDE_Folgequest = Inst86Quest7_Folgequest
+Inst86Quest7PreQuest_HORDE = Inst86Quest7PreQuest
+--
+Inst86Quest7name1_HORDE = Inst86Quest7name1
+Inst86Quest7name2_HORDE = Inst86Quest7name2
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst86Quest8_HORDE = Inst86Quest8
+Inst86Quest8_HORDE_Level = Inst86Quest8_Level
+Inst86Quest8_HORDE_Attain = Inst86Quest8_Attain
+Inst86Quest8_HORDE_Aim = Inst86Quest8_Aim
+Inst86Quest8_HORDE_Location = Inst86Quest8_Location
+Inst86Quest8_HORDE_Note = Inst86Quest8_Note
+Inst86Quest8_HORDE_Prequest = Inst86Quest8_Prequest
+Inst86Quest8_HORDE_Folgequest = Inst86Quest8_Folgequest
+--
+Inst86Quest8name1_HORDE = Inst86Quest8name1
+Inst86Quest8name2_HORDE = Inst86Quest8name2
+Inst86Quest8name3_HORDE = Inst86Quest8name3
+Inst86Quest8name4_HORDE = Inst86Quest8name4
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst86Quest9_HORDE = Inst86Quest9
+Inst86Quest9_HORDE_Level = Inst86Quest9_Level
+Inst86Quest9_HORDE_Attain = Inst86Quest9_Attain
+Inst86Quest9_HORDE_Aim = Inst86Quest9_Aim
+Inst86Quest9_HORDE_Location = Inst86Quest9_Location
+Inst86Quest9_HORDE_Note = Inst86Quest9_Note
+Inst86Quest9_HORDE_Prequest = Inst86Quest9_Prequest
+Inst86Quest9_HORDE_Folgequest = Inst86Quest9_Folgequest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst86Quest10_HORDE = Inst86Quest10
+Inst86Quest10_HORDE_Level = Inst86Quest10_Level
+Inst86Quest10_HORDE_Attain = Inst86Quest10_Attain
+Inst86Quest10_HORDE_Aim = Inst86Quest10_Aim
+Inst86Quest10_HORDE_Location = Inst86Quest10_Location
+Inst86Quest10_HORDE_Note = Inst86Quest10_Note
+Inst86Quest10_HORDE_Prequest = Inst86Quest10_Prequest
+Inst86Quest10_HORDE_Folgequest = Inst86Quest10_Folgequest
+Inst86Quest10FQuest_HORDE = Inst86Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst86Quest11_HORDE = Inst86Quest11
+Inst86Quest11_HORDE_Level = Inst86Quest11_Level
+Inst86Quest11_HORDE_Attain = Inst86Quest11_Attain
+Inst86Quest11_HORDE_Aim = Inst86Quest11_Aim
+Inst86Quest11_HORDE_Location = Inst86Quest11_Location
+Inst86Quest11_HORDE_Note = Inst86Quest11_Note
+Inst86Quest11_HORDE_Prequest = Inst86Quest11_Prequest
+Inst86Quest11_HORDE_Folgequest = Inst86Quest11_Folgequest
+Inst86Quest11PreQuest_HORDE = Inst86Quest11PreQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst86Quest12_HORDE = Inst86Quest12
+Inst86Quest12_HORDE_Level = Inst86Quest12_Level
+Inst86Quest12_HORDE_Attain = Inst86Quest12_Attain
+Inst86Quest12_HORDE_Aim = Inst86Quest12_Aim
+Inst86Quest12_HORDE_Location = Inst86Quest12_Location
+Inst86Quest12_HORDE_Note = Inst86Quest12_Note
+Inst86Quest12_HORDE_Prequest = Inst86Quest12_Prequest
+Inst86Quest12_HORDE_Folgequest = Inst86Quest12_Folgequest
+Inst86Quest12PreQuest_HORDE = Inst86Quest12PreQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst86Quest13_HORDE = Inst86Quest13
+Inst86Quest13_HORDE_Level = Inst86Quest13_Level
+Inst86Quest13_HORDE_Attain = Inst86Quest13_Attain
+Inst86Quest13_HORDE_Aim = Inst86Quest13_Aim
+Inst86Quest13_HORDE_Location = Inst86Quest13_Location
+Inst86Quest13_HORDE_Note = Inst86Quest13_Note
+Inst86Quest13_HORDE_Prequest = Inst86Quest13_Prequest
+Inst86Quest13_HORDE_Folgequest = Inst86Quest13_Folgequest
+Inst86Quest13PreQuest_HORDE = Inst86Quest13PreQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst86Quest14_HORDE = Inst86Quest14
+Inst86Quest14_HORDE_Level = Inst86Quest14_Level
+Inst86Quest14_HORDE_Attain = Inst86Quest14_Attain
+Inst86Quest14_HORDE_Aim = Inst86Quest14_Aim
+Inst86Quest14_HORDE_Location = Inst86Quest14_Location
+Inst86Quest14_HORDE_Note = Inst86Quest14_Note
+Inst86Quest14_HORDE_Prequest = Inst86Quest14_Prequest
+Inst86Quest14_HORDE_Folgequest = Inst86Quest14_Folgequest
+Inst86Quest14PreQuest_HORDE = Inst86Quest14PreQuest
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst86Quest15_HORDE = Inst86Quest15
+Inst86Quest15_HORDE_Level = Inst86Quest15_Level
+Inst86Quest15_HORDE_Attain = Inst86Quest15_Attain
+Inst86Quest15_HORDE_Aim = Inst86Quest15_Aim
+Inst86Quest15_HORDE_Location = Inst86Quest15_Location
+Inst86Quest15_HORDE_Note = Inst86Quest15_Note
+Inst86Quest15_HORDE_Prequest = Inst86Quest15_Prequest
+Inst86Quest15_HORDE_Folgequest = Inst86Quest15_Folgequest
+Inst86Quest15PreQuest_HORDE = Inst86Quest15PreQuest
+--
+Inst86Quest15name1_HORDE = Inst86Quest15name1
+Inst86Quest15name2_HORDE = Inst86Quest15name2
+
+--Quest 16 Horde  (same as Quest 16 Alliance)
+Inst86Quest16_HORDE = Inst86Quest16
+Inst86Quest16_HORDE_Level = Inst86Quest16_Level
+Inst86Quest16_HORDE_Attain = Inst86Quest16_Attain
+Inst86Quest16_HORDE_Aim = Inst86Quest16_Aim
+Inst86Quest16_HORDE_Location = Inst86Quest16_Location
+Inst86Quest16_HORDE_Note = Inst86Quest16_Note
+Inst86Quest16_HORDE_Prequest = Inst86Quest16_Prequest
+Inst86Quest16_HORDE_Folgequest = Inst86Quest16_Folgequest
+--
+Inst86Quest16name1_HORDE = Inst86Quest16name1
+Inst86Quest16name2_HORDE = Inst86Quest16name2
+Inst86Quest16name3_HORDE = Inst86Quest16name3
+Inst86Quest16name4_HORDE = Inst86Quest16name4
 
 
 
