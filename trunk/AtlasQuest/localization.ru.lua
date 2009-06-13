@@ -11181,8 +11181,409 @@ Inst85QAH = "Нет заданий"
 
 Inst86Story = "Тысячелетиями ничто не тревожило покой Ульдуара, далекого от забот и войн смертных рас. Но после его открытия многие захотели выяснить изначальное предназначение этого строения. Некоторые считали его городом, возведенным во славу его создателей; другие полагали, что это сокровищница, хранящая несметные богатства – возможно, даже реликвии самих титанов. Но все гипотезы были ошибочными. За массивными вратами вы не найдете ни города, ни сокровищницы, ни разгадки древних секретов. Все, что ждет смельчаков, преступивших порог Ульдуара, – ужас, который титаны не могли и никогда не пытались уничтожить, ибо они лишь сдерживали это зло. Под Ульдуаром в глубинах Древний бог смерти томится, шепчет… ступай с осторожностью, или упокоишься в его темнице."
 Inst86Caption = "Ульдуар"
-Inst86QAA = "Нет заданий"
-Inst86QAH = "Нет заданий"
+Inst86QAA = "16 Заданий"
+Inst86QAH = "16 Заданий"
+
+--Quest 1 Alliance
+Inst86Quest1 = "1. Диск доступа к Архиву"
+Inst86Quest1_Level = "80"
+Inst86Quest1_Attain = "80"
+Inst86Quest1_Aim = "Отнесите диск доступа к Архиву к панели управления Архивом в Ульдуаре."
+Inst86Quest1_Location = "Диск доступа к Архиву (падает с Железного Собрания; "..YELLOW.."Вестибюль Ульдуара [5]"..WHITE..")"
+Inst86Quest1_Note = "Диск доступа к Архиву падает только если убить Железное Собрание в сложном режиме. Только один человек из рейда получит Диск.\n\nПосле убийства Железного Собрания откроется дверь в архив. Завершите задание у панели управления Архивом в открывшейся комнате. Геолог Дорен даст вам слудующее задание."
+Inst86Quest1_Prequest = "Нет"
+Inst86Quest1_Folgequest = "Священный планетарий"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst86Quest2 = "2. Священный планетарий"
+Inst86Quest2_Level = "80"
+Inst86Quest2_Attain = "80"
+Inst86Quest2_Aim = "Найдите Священный планетарий по заданию геолога Дорена из Архива в Ульдуаре."
+Inst86Quest2_Location = "Геолог Дорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest2_Note = "Священный планетарий находится (Вестибюль Ульдуара; "..YELLOW.."[7]"..WHITE..").\n\nПосле завершения этого задания Геолог Дорен, даст следующие 4 задания."
+Inst86Quest2_Prequest = "Диск доступа к Архиву"
+Inst86Quest2_Folgequest = "4 задания на Хранителей"
+Inst86Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst86Quest3 = "3. Печать Ходира"
+Inst86Quest3_Level = "80"
+Inst86Quest3_Attain = "80"
+Inst86Quest3_Aim = "Добудьте печать Ходира по заданию геолога Дорена."
+Inst86Quest3_Location = "Геолог Дорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest3_Note = "Ходир находится "..YELLOW.."Хранители [9]"..WHITE..". Чтобы выпала печать нужно убить Ходира в сложном режиме (Достижение - "..YELLOW.."Бесценный склад"..WHITE..")."
+Inst86Quest3_Prequest = "Священный планетарий"
+Inst86Quest3_Folgequest = "Нет"
+Inst86Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst86Quest4 = "4. Печать Торима"
+Inst86Quest4_Level = "80"
+Inst86Quest4_Attain = "80"
+Inst86Quest4_Aim = "Добудьте печать Торима по заданию геолога Дорена."
+Inst86Quest4_Location = "Геолог Дорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest4_Note = "Торим находится "..YELLOW.."Хранители [10]"..WHITE..". Чтобы выпала печать нужно убить Торима в сложном режиме (Достижение - "..YELLOW.."Избавься от иллюзий"..WHITE..")."
+Inst86Quest4_Prequest = "Священный планетарий"
+Inst86Quest4_Folgequest = "Нет"
+Inst86Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst86Quest5 = "5. Печать Фрейи"
+Inst86Quest5_Level = "80"
+Inst86Quest5_Attain = "80"
+Inst86Quest5_Aim = "Добудьте печать Фрейи по заданию геолога Дорена."
+Inst86Quest5_Location = "Геолог Дорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest5_Note = "Фрейя находится "..YELLOW.."Хранители [11]"..WHITE..". Чтобы выпала печать нужно убить Фрейу в сложном режиме (Достижение - "..YELLOW.."Трижды постучи по дереву"..WHITE..")."
+Inst86Quest5_Prequest = "Священный планетарий"
+Inst86Quest5_Folgequest = "Нет"
+Inst86Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst86Quest6 = "6. Печать Мимирона"
+Inst86Quest6_Level = "80"
+Inst86Quest6_Attain = "80"
+Inst86Quest6_Aim = "Добудьте печать Мимирона по заданию геолога Дорена."
+Inst86Quest6_Location = "Геолог Дорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest6_Note = "Мимирон находится "..YELLOW.."Искра воображения [12]"..WHITE..". Чтобы выпала печать нужно убить Мимирона в сложном режиме (Достижение - "..YELLOW.."Пожарный"..WHITE..")."
+Inst86Quest6_Prequest = "Священный планетарий"
+Inst86Quest6_Folgequest = "Нет"
+Inst86Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst86Quest7 = "7. Алгалон"
+Inst86Quest7_Level = "80"
+Inst86Quest7_Attain = "80"
+Inst86Quest7_Aim = "Принесите печати Хранителей к панели управления Архивом в Ульдуаре."
+Inst86Quest7_Location = "Геолог Дорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest7_Note = "Завершение этого задания даст вам возможность сразиться с Алгалоном Наблюдателем в Священном планетарии."
+Inst86Quest7_Prequest = "4 задания на Хранителей"
+Inst86Quest7_Folgequest = "Нет"
+Inst86Quest7PreQuest = "true"
+--
+Inst86Quest7name1 = "Ключ к Священному планетарию"
+Inst86Quest7name2 = "Sack of Ulduar Spoils"
+
+--Quest 8 Alliance
+Inst86Quest8 = "8. All Is Well That Ends Well"
+Inst86Quest8_Level = "80"
+Inst86Quest8_Attain = "80"
+Inst86Quest8_Aim = "Принесите Reply-Code Alpha Ронину в Даларане."
+Inst86Quest8_Location = "Reply-Code Alpha (падает с Алгалона Наблюдателя; "..YELLOW.."Вестибюль Ульдуара [7]"..WHITE..")"
+Inst86Quest8_Note = "Только один человек из рейда сможет получить Reply-Code. Задание сдается Ронину в Даларане - Аметистовая цитадель; "..YELLOW.."30.5, 48.4"..WHITE.."."
+Inst86Quest8_Prequest = "Нет"
+Inst86Quest8_Folgequest = "Нет"
+--
+Inst86Quest8name1 = "Drape of the Skyherald"
+Inst86Quest8name2 = "Sunglimmer Drape"
+Inst86Quest8name3 = "Brann's Sealing Ring"
+Inst86Quest8name4 = "Starshine Signet"
+
+--Quest 9 Alliance
+Inst86Quest9 = "9. Диск доступа к Архиву (героич.)"
+Inst86Quest9_Level = "80"
+Inst86Quest9_Attain = "80"
+Inst86Quest9_Aim = "Отнесите диск доступа к Архиву к панели управления Архивом в Ульдуаре."
+Inst86Quest9_Location = "Диск доступа к Архиву (падает с Железного Собрания; "..YELLOW.."Вестибюль Ульдуара [5]"..WHITE..")"
+Inst86Quest9_Note = "Диск доступа к Архиву падает только если убить Железное Собрание в героическом сложном режиме. Только один человек из рейда получит Диск.\n\nAПосле убийства Железного Собрания откроется дверь в архив. Завершите задание у панели управления Архивом в открывшейся комнате. Геолог Лорен даст вам слудующее задание."
+Inst86Quest9_Prequest = "Нет"
+Inst86Quest9_Folgequest = "Священный планетарий (героич.)"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst86Quest10 = "10. Священный планетарий (героич.)"
+Inst86Quest10_Level = "80"
+Inst86Quest10_Attain = "80"
+Inst86Quest10_Aim = "Найдите Священный планетарий по заданию геолога Лорен из Архива в Ульдуаре."
+Inst86Quest10_Location = "Геолог Лорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest10_Note = "Священный планетарий находится (Вестибюль Ульдуара; "..YELLOW.."[7]"..WHITE..").\n\nПосле завершения этого задания, Геолог Лорен, даст следующие 4 задания."
+Inst86Quest10_Prequest = "Диск доступа к Архиву"
+Inst86Quest10_Folgequest = "4 задания на Хранителей"
+Inst86Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst86Quest11 = "11. Печать Ходира (героич.)"
+Inst86Quest11_Level = "80"
+Inst86Quest11_Attain = "80"
+Inst86Quest11_Aim = "Добудьте печать Ходира по заданию геолога Лорен."
+Inst86Quest11_Location = "Геолог Лорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest11_Note = "Ходир находится "..YELLOW.."Хранители Ульдуара [9]"..WHITE..". Чтобы выпала печать нужно убить Ходира в героическом сложном режиме (Достижение - "..YELLOW.."Бесценный склад (героич.)"..WHITE..")."
+Inst86Quest11_Prequest = "Священный планетарий (героич.)"
+Inst86Quest11_Folgequest = "Нет"
+Inst86Quest11PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst86Quest12 = "12. Печать Торима (героич.)"
+Inst86Quest12_Level = "80"
+Inst86Quest12_Attain = "80"
+Inst86Quest12_Aim = "Добудьте печать Торима по заданию геолога Лорен."
+Inst86Quest12_Location = "Геолог Лорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest12_Note = "Торим находится "..YELLOW.."Хранители Ульдуара [10]"..WHITE..". Чтобы выпала печать нужно убить Торима в героическом сложном режиме (Достижение - "..YELLOW.."Избавься от иллюзий (героич.)"..WHITE..")."
+Inst86Quest12_Prequest = "Священный планетарий (героич.)"
+Inst86Quest12_Folgequest = "Нет"
+Inst86Quest12PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst86Quest13 = "13. Печать Фрейи (героич.)"
+Inst86Quest13_Level = "80"
+Inst86Quest13_Attain = "80"
+Inst86Quest13_Aim = "Добудьте печать Фрейи по заданию геолога Лорен."
+Inst86Quest13_Location = "Геолог Лорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest13_Note = "Фрейя находится "..YELLOW.."Хранители Ульдуара [11]"..WHITE..". Чтобы выпала печать нужно убить Фрейу в героическом сложном режиме (Достижение - "..YELLOW.."Трижды постучи по дереву (героич.)"..WHITE..")."
+Inst86Quest13_Prequest = "Священный планетарий (героич.)"
+Inst86Quest13_Folgequest = "Нет"
+Inst86Quest13PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst86Quest14 = "14. Печать Мимирона (героич.)"
+Inst86Quest14_Level = "80"
+Inst86Quest14_Attain = "80"
+Inst86Quest14_Aim = "Добудьте печать Мимирона по заданию геолога Лорен."
+Inst86Quest14_Location = "Геолог Лорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest14_Note = "Мимирон находится "..YELLOW.."Искра воображения [12]"..WHITE..". Чтобы выпала печать нужно убить Мимирона в героическом сложном режиме (Достижение - "..YELLOW.."Пожарный (героич.)"..WHITE..")."
+Inst86Quest14_Prequest = "Священный планетарий (героич.)"
+Inst86Quest14_Folgequest = "Нет"
+Inst86Quest14PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 15 Alliance
+Inst86Quest15 = "15. Алгалон (героич.)"
+Inst86Quest15_Level = "80"
+Inst86Quest15_Attain = "80"
+Inst86Quest15_Aim = "Принесите печати Хранителей к панели управления Архивом в Ульдуаре."
+Inst86Quest15_Location = "Геолог Лорен (Вестибюль Ульдуара; "..YELLOW.."Южнее чем [5]"..WHITE..")"
+Inst86Quest15_Note = "Завершение этого задания даст вам возможность сразиться с Алгалоном Наблюдателем в Священном планетарии в героическом режиме."
+Inst86Quest15_Prequest = "4 задания на Хранителей"
+Inst86Quest15_Folgequest = "Нет"
+Inst86Quest15PreQuest = "true"
+--
+Inst86Quest15name1 = "Ключ к Священному планетарию (героич.)"
+Inst86Quest15name2 = "Sack of Ulduar Spoils"
+
+--Quest 16 Alliance
+Inst86Quest16 = "16. All Is Well That Ends Well (героич.)"
+Inst86Quest16_Level = "80"
+Inst86Quest16_Attain = "80"
+Inst86Quest16_Aim = "Принесите Reply-Code Alpha Ронину в Даларане."
+Inst86Quest16_Location = "Reply-Code Alpha (падает с Алгалона Наблюдателя; "..YELLOW.."Вестибюль Ульдуара [7]"..WHITE..")"
+Inst86Quest16_Note = "Только один человек из рейда сможет получить Reply-Code. Задание сдается Ронину в Даларане - Аметистовая цитадель; "..YELLOW.."30.5, 48.4"..WHITE.."."
+Inst86Quest16_Prequest = "Нет"
+Inst86Quest16_Folgequest = "Нет"
+--
+Inst86Quest16name1 = "Drape of the Skyborn"
+Inst86Quest16name2 = "Sunglimmer Cloak"
+Inst86Quest16name3 = "Brann's Signet Ring"
+Inst86Quest16name4 = "Starshine Circle"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst86Quest1_HORDE = Inst86Quest1
+Inst86Quest1_HORDE_Level = Inst86Quest1_Level
+Inst86Quest1_HORDE_Attain = Inst86Quest1_Attain
+Inst86Quest1_HORDE_Aim = Inst86Quest1_Aim
+Inst86Quest1_HORDE_Location = Inst86Quest1_Location
+Inst86Quest1_HORDE_Note = Inst86Quest1_Note
+Inst86Quest1_HORDE_Prequest = Inst86Quest1_Prequest
+Inst86Quest1_HORDE_Folgequest = Inst86Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst86Quest2_HORDE = Inst86Quest2
+Inst86Quest2_HORDE_Level = Inst86Quest2_Level
+Inst86Quest2_HORDE_Attain = Inst86Quest2_Attain
+Inst86Quest2_HORDE_Aim = Inst86Quest2_Aim
+Inst86Quest2_HORDE_Location = Inst86Quest2_Location
+Inst86Quest2_HORDE_Note = Inst86Quest2_Note
+Inst86Quest2_HORDE_Prequest = Inst86Quest2_Prequest
+Inst86Quest2_HORDE_Folgequest = Inst86Quest2_Folgequest
+Inst86Quest2FQuest_HORDE = Inst86Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst86Quest3_HORDE = Inst86Quest3
+Inst86Quest3_HORDE_Level = Inst86Quest3_Level
+Inst86Quest3_HORDE_Attain = Inst86Quest3_Attain
+Inst86Quest3_HORDE_Aim = Inst86Quest3_Aim
+Inst86Quest3_HORDE_Location = Inst86Quest3_Location
+Inst86Quest3_HORDE_Note = Inst86Quest3_Note
+Inst86Quest3_HORDE_Prequest = Inst86Quest3_Prequest
+Inst86Quest3_HORDE_Folgequest = Inst86Quest3_Folgequest
+Inst86Quest3PreQuest_HORDE = Inst86Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst86Quest4_HORDE = Inst86Quest4
+Inst86Quest4_HORDE_Level = Inst86Quest4_Level
+Inst86Quest4_HORDE_Attain = Inst86Quest4_Attain
+Inst86Quest4_HORDE_Aim = Inst86Quest4_Aim
+Inst86Quest4_HORDE_Location = Inst86Quest4_Location
+Inst86Quest4_HORDE_Note = Inst86Quest4_Note
+Inst86Quest4_HORDE_Prequest = Inst86Quest4_Prequest
+Inst86Quest4_HORDE_Folgequest = Inst86Quest4_Folgequest
+Inst86Quest4PreQuest_HORDE = Inst86Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst86Quest5_HORDE = Inst86Quest5
+Inst86Quest5_HORDE_Level = Inst86Quest5_Level
+Inst86Quest5_HORDE_Attain = Inst86Quest5_Attain
+Inst86Quest5_HORDE_Aim = Inst86Quest5_Aim
+Inst86Quest5_HORDE_Location = Inst86Quest5_Location
+Inst86Quest5_HORDE_Note = Inst86Quest5_Note
+Inst86Quest5_HORDE_Prequest = Inst86Quest5_Prequest
+Inst86Quest5_HORDE_Folgequest = Inst86Quest5_Folgequest
+Inst86Quest5PreQuest_HORDE = Inst86Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst86Quest6_HORDE = Inst86Quest6
+Inst86Quest6_HORDE_Level = Inst86Quest6_Level
+Inst86Quest6_HORDE_Attain = Inst86Quest6_Attain
+Inst86Quest6_HORDE_Aim = Inst86Quest6_Aim
+Inst86Quest6_HORDE_Location = Inst86Quest6_Location
+Inst86Quest6_HORDE_Note = Inst86Quest6_Note
+Inst86Quest6_HORDE_Prequest = Inst86Quest6_Prequest
+Inst86Quest6_HORDE_Folgequest = Inst86Quest6_Folgequest
+Inst86Quest6PreQuest_HORDE = Inst86Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst86Quest7_HORDE = Inst86Quest7
+Inst86Quest7_HORDE_Level = Inst86Quest7_Level
+Inst86Quest7_HORDE_Attain = Inst86Quest7_Attain
+Inst86Quest7_HORDE_Aim = Inst86Quest7_Aim
+Inst86Quest7_HORDE_Location = Inst86Quest7_Location
+Inst86Quest7_HORDE_Note = Inst86Quest7_Note
+Inst86Quest7_HORDE_Prequest = Inst86Quest7_Prequest
+Inst86Quest7_HORDE_Folgequest = Inst86Quest7_Folgequest
+Inst86Quest7PreQuest_HORDE = Inst86Quest7PreQuest
+--
+Inst86Quest7name1_HORDE = Inst86Quest7name1
+Inst86Quest7name2_HORDE = Inst86Quest7name2
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst86Quest8_HORDE = Inst86Quest8
+Inst86Quest8_HORDE_Level = Inst86Quest8_Level
+Inst86Quest8_HORDE_Attain = Inst86Quest8_Attain
+Inst86Quest8_HORDE_Aim = Inst86Quest8_Aim
+Inst86Quest8_HORDE_Location = Inst86Quest8_Location
+Inst86Quest8_HORDE_Note = Inst86Quest8_Note
+Inst86Quest8_HORDE_Prequest = Inst86Quest8_Prequest
+Inst86Quest8_HORDE_Folgequest = Inst86Quest8_Folgequest
+--
+Inst86Quest8name1_HORDE = Inst86Quest8name1
+Inst86Quest8name2_HORDE = Inst86Quest8name2
+Inst86Quest8name3_HORDE = Inst86Quest8name3
+Inst86Quest8name4_HORDE = Inst86Quest8name4
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst86Quest9_HORDE = Inst86Quest9
+Inst86Quest9_HORDE_Level = Inst86Quest9_Level
+Inst86Quest9_HORDE_Attain = Inst86Quest9_Attain
+Inst86Quest9_HORDE_Aim = Inst86Quest9_Aim
+Inst86Quest9_HORDE_Location = Inst86Quest9_Location
+Inst86Quest9_HORDE_Note = Inst86Quest9_Note
+Inst86Quest9_HORDE_Prequest = Inst86Quest9_Prequest
+Inst86Quest9_HORDE_Folgequest = Inst86Quest9_Folgequest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst86Quest10_HORDE = Inst86Quest10
+Inst86Quest10_HORDE_Level = Inst86Quest10_Level
+Inst86Quest10_HORDE_Attain = Inst86Quest10_Attain
+Inst86Quest10_HORDE_Aim = Inst86Quest10_Aim
+Inst86Quest10_HORDE_Location = Inst86Quest10_Location
+Inst86Quest10_HORDE_Note = Inst86Quest10_Note
+Inst86Quest10_HORDE_Prequest = Inst86Quest10_Prequest
+Inst86Quest10_HORDE_Folgequest = Inst86Quest10_Folgequest
+Inst86Quest10FQuest_HORDE = Inst86Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst86Quest11_HORDE = Inst86Quest11
+Inst86Quest11_HORDE_Level = Inst86Quest11_Level
+Inst86Quest11_HORDE_Attain = Inst86Quest11_Attain
+Inst86Quest11_HORDE_Aim = Inst86Quest11_Aim
+Inst86Quest11_HORDE_Location = Inst86Quest11_Location
+Inst86Quest11_HORDE_Note = Inst86Quest11_Note
+Inst86Quest11_HORDE_Prequest = Inst86Quest11_Prequest
+Inst86Quest11_HORDE_Folgequest = Inst86Quest11_Folgequest
+Inst86Quest11PreQuest_HORDE = Inst86Quest11PreQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst86Quest12_HORDE = Inst86Quest12
+Inst86Quest12_HORDE_Level = Inst86Quest12_Level
+Inst86Quest12_HORDE_Attain = Inst86Quest12_Attain
+Inst86Quest12_HORDE_Aim = Inst86Quest12_Aim
+Inst86Quest12_HORDE_Location = Inst86Quest12_Location
+Inst86Quest12_HORDE_Note = Inst86Quest12_Note
+Inst86Quest12_HORDE_Prequest = Inst86Quest12_Prequest
+Inst86Quest12_HORDE_Folgequest = Inst86Quest12_Folgequest
+Inst86Quest12PreQuest_HORDE = Inst86Quest12PreQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst86Quest13_HORDE = Inst86Quest13
+Inst86Quest13_HORDE_Level = Inst86Quest13_Level
+Inst86Quest13_HORDE_Attain = Inst86Quest13_Attain
+Inst86Quest13_HORDE_Aim = Inst86Quest13_Aim
+Inst86Quest13_HORDE_Location = Inst86Quest13_Location
+Inst86Quest13_HORDE_Note = Inst86Quest13_Note
+Inst86Quest13_HORDE_Prequest = Inst86Quest13_Prequest
+Inst86Quest13_HORDE_Folgequest = Inst86Quest13_Folgequest
+Inst86Quest13PreQuest_HORDE = Inst86Quest13PreQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst86Quest14_HORDE = Inst86Quest14
+Inst86Quest14_HORDE_Level = Inst86Quest14_Level
+Inst86Quest14_HORDE_Attain = Inst86Quest14_Attain
+Inst86Quest14_HORDE_Aim = Inst86Quest14_Aim
+Inst86Quest14_HORDE_Location = Inst86Quest14_Location
+Inst86Quest14_HORDE_Note = Inst86Quest14_Note
+Inst86Quest14_HORDE_Prequest = Inst86Quest14_Prequest
+Inst86Quest14_HORDE_Folgequest = Inst86Quest14_Folgequest
+Inst86Quest14PreQuest_HORDE = Inst86Quest14PreQuest
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst86Quest15_HORDE = Inst86Quest15
+Inst86Quest15_HORDE_Level = Inst86Quest15_Level
+Inst86Quest15_HORDE_Attain = Inst86Quest15_Attain
+Inst86Quest15_HORDE_Aim = Inst86Quest15_Aim
+Inst86Quest15_HORDE_Location = Inst86Quest15_Location
+Inst86Quest15_HORDE_Note = Inst86Quest15_Note
+Inst86Quest15_HORDE_Prequest = Inst86Quest15_Prequest
+Inst86Quest15_HORDE_Folgequest = Inst86Quest15_Folgequest
+Inst86Quest15PreQuest_HORDE = Inst86Quest15PreQuest
+--
+Inst86Quest15name1_HORDE = Inst86Quest15name1
+Inst86Quest15name2_HORDE = Inst86Quest15name2
+
+--Quest 16 Horde  (same as Quest 16 Alliance)
+Inst86Quest16_HORDE = Inst86Quest16
+Inst86Quest16_HORDE_Level = Inst86Quest16_Level
+Inst86Quest16_HORDE_Attain = Inst86Quest16_Attain
+Inst86Quest16_HORDE_Aim = Inst86Quest16_Aim
+Inst86Quest16_HORDE_Location = Inst86Quest16_Location
+Inst86Quest16_HORDE_Note = Inst86Quest16_Note
+Inst86Quest16_HORDE_Prequest = Inst86Quest16_Prequest
+Inst86Quest16_HORDE_Folgequest = Inst86Quest16_Folgequest
+--
+Inst86Quest16name1_HORDE = Inst86Quest16name1
+Inst86Quest16name2_HORDE = Inst86Quest16name2
+Inst86Quest16name3_HORDE = Inst86Quest16name3
+Inst86Quest16name4_HORDE = Inst86Quest16name4
 
 
 
@@ -11228,7 +11629,7 @@ Inst33Quest3_Level = "60"
 Inst33Quest3_Attain = "51"
 Inst33Quest3_Aim = "Отправляйтесь в пещеру Ледяного Крыла, которая расположена в Альтеракской долине, на юго-западе от Дун Болдара, и добудьте знамя Грозовой Вершины. Отдайте знамя лейтенанту Мурпу в Альтеракских горах."
 Inst33Quest3_Location = "Лейтенант Мурп (Альтеракские горы; "..YELLOW.."39,81"..WHITE..")"
-Inst33Quest3_Note = "Знамя Грозовой Вершины находится в Пещере ледяного крыла "..YELLOW.."[11]"..WHITE.." в Альтеракская долина - Север. Говорите с этим персоонажем каждый раз, когда получаете новый уровень репутации, а также для обновления Знака различия.\n\nПредшествующее задание не обязательно для выполнения этого."
+Inst33Quest3_Note = "Знамя Грозовой Вершины находится в Пещере ледяного крыла "..YELLOW.."[11]"..WHITE.." в Альтеракская долина - Север. Говорите с этим персонажем каждый раз, когда получаете новый уровень репутации, а также для обновления Знака различия.\n\nПредшествующее задание не обязательно для выполнения этого."
 Inst33Quest3_Prequest = "Королевское право"
 Inst33Quest3_Folgequest = "Нет"
 Inst33Quest3FQuest = "true"
@@ -11418,24 +11819,24 @@ Inst33Quest1_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst33Quest2_HORDE = "2. In Defense of Frostwolf"
+Inst33Quest2_HORDE = "2. Защита клана Северного Волка"
 Inst33Quest2_HORDE_Level = "60"
 Inst33Quest2_HORDE_Attain = "51"
-Inst33Quest2_HORDE_Aim = "Venture to Alterac Valley, located in the Альтеракские горы. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alterac Valley north of Tarren Mill at the base of the Альтеракские горы."
-Inst33Quest2_HORDE_Location = "Frostwolf Ambassador Rokhstrom (Оргриммар - Аллея Силы "..YELLOW.."50,71"..WHITE..")"
-Inst33Quest2_HORDE_Note = "Warmaster Laggrond находится около (Альтеракские горы; "..YELLOW.."62,59"..WHITE..")."
+Inst33Quest2_HORDE_Aim = "Отправляйтесь в Альтеракскую долину, расположенную в Альтеракских горах. Найдите воеводу Лаггронда у входа в тоннель и поговорите с ним, чтобы начать свою военную карьеру в клане Северного Волка. Альтеракская долина находится к северу от деревни Мельница Таррен у подножия Альтеракских гор."
+Inst33Quest2_HORDE_Location = "Посол клана Северного Волка Рокстром (Оргриммар - Аллея Силы "..YELLOW.."50,71"..WHITE..")"
+Inst33Quest2_HORDE_Note = "Воевода Лаггронд находится около (Альтеракские горы; "..YELLOW.."62,59"..WHITE..")."
 Inst33Quest2_HORDE_Prequest = "Нет"
-Inst33Quest2_HORDE_Folgequest = "Proving Grounds"
+Inst33Quest2_HORDE_Folgequest = "Испытательные земли"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst33Quest3_HORDE = "3. Proving Grounds"
+Inst33Quest3_HORDE = "3. Испытательные земли"
 Inst33Quest3_HORDE_Level = "60"
 Inst33Quest3_HORDE_Attain = "51"
-Inst33Quest3_HORDE_Aim = "Travel to the Wildpaw cavern located southeast of the main base in Alterac Valley and find the Frostwolf Banner. Return the Frostwolf Banner to Warmaster Laggrond."
-Inst33Quest3_HORDE_Location = "Warmaster Laggrond (Альтеракские горы; "..YELLOW.."62,59"..WHITE..")"
-Inst33Quest3_HORDE_Note = "The Frostwolf Banner находится в the Wildpaw Cavern at (Alterac Valley - South; "..YELLOW.."[9]"..WHITE.."). Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe предшествующее задание is not necessary to obtain this quest."
-Inst33Quest3_HORDE_Prequest = "In Defense of Frostwolf"
+Inst33Quest3_HORDE_Aim = "Отправляйтесь в пещеру Дикой Лапы, расположенную на юго-востоке от основной базы в Альтеракской долине, и добудьте знамя Северного Волка. Отнесите знамя Северного Волка воеводе Лаггронду."
+Inst33Quest3_HORDE_Location = "Воевода Лаггронд (Альтеракские горы; "..YELLOW.."62,59"..WHITE..")"
+Inst33Quest3_HORDE_Note = "Знамя Северного Волка находится в пещере Дикой Лапы (Альтеракская долина - Юг; "..YELLOW.."[15]"..WHITE.."). Говорите с этим персонажем каждый раз, когда получаете новый уровень репутации, а также для обновления Знака различия.\n\nПредшествующее задание не обязательно для выполнения этого."
+Inst33Quest3_HORDE_Prequest = "Защита клана Северного Волка"
 Inst33Quest3_HORDE_Folgequest = "Нет"
 Inst33Quest3FQuest_HORDE = "true"
 --
@@ -11443,14 +11844,14 @@ Inst33Quest3name1_HORDE = "Frostwolf Insignia Rank 1"
 Inst33Quest3name2_HORDE = "Peeling the Onion"
 
 --Quest 4 Horde
-Inst33Quest4_HORDE = "4. The Battle for Alterac"
+Inst33Quest4_HORDE = "4. Битва за Альтерак"
 Inst33Quest4_HORDE_Level = "60"
 Inst33Quest4_HORDE_Attain = "51"
-Inst33Quest4_HORDE_Aim = "Enter Alterac Valley and defeat the dwarven general, Vanndar Stormpike. Then, return to Voggah Deathgrip in the Альтеракские горы."
-Inst33Quest4_HORDE_Location = "Voggah Deathgrip (Альтеракские горы; "..YELLOW.."64,60"..WHITE..")"
-Inst33Quest4_HORDE_Note = "Vanndar Stormpike находится около (Alterac Valley - North; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
+Inst33Quest4_HORDE_Aim = "Отправляйтесь в Альтеракскую долину и убейте генерала дворфов, Вандара Грозовую Вершину. После этого возвращайтесь к Вогге Смертобою в Альтеракские горы."
+Inst33Quest4_HORDE_Location = "Вогга Смертобой (Альтеракские горы; "..YELLOW.."64,60"..WHITE..")"
+Inst33Quest4_HORDE_Note = "Вогга Смертобой находится около (Альтеракская долина - Север; "..YELLOW.."[B]"..WHITE.."). Недостаточно его убить для выполнения квеста. Вы также должны выиграть поле боя.\nПосле выполнения этого задания поговорите снова с Воггой."
 Inst33Quest4_HORDE_Prequest = "Нет"
-Inst33Quest4_HORDE_Folgequest = "Hero of the Frostwolf"
+Inst33Quest4_HORDE_Folgequest = "Герой Северного Волка"
 --
 Inst33Quest4name1_HORDE = "Bloodseeker"
 Inst33Quest4name2_HORDE = "Ice Barbed Spear"
@@ -11458,154 +11859,154 @@ Inst33Quest4name3_HORDE = "Wand of Biting Cold"
 Inst33Quest4name4_HORDE = "Cold Forged Hammer"
 
 --Quest 5 Horde
-Inst33Quest5_HORDE = "5. Speak with our Quartermaster"
+Inst33Quest5_HORDE = "5. Разговор с интендантом"
 Inst33Quest5_HORDE_Level = "60"
 Inst33Quest5_HORDE_Attain = "51"
-Inst33Quest5_HORDE_Aim = "Speak with the Frostwolf Quartermaster."
-Inst33Quest5_HORDE_Location = "Jotek (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest5_HORDE_Note = "The Frostwolf Quartermaster находится около "..YELLOW.."[10]"..WHITE.." and provides more quests."
+Inst33Quest5_HORDE_Aim = "Поговорите с интендантом клана Северного Волка."
+Inst33Quest5_HORDE_Location = "Джотек (Альтеракская долина - Юг; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest5_HORDE_Note = "Интендант клана Северного Волка находится около "..YELLOW.."[10]"..WHITE.." и дает новые задания."
 Inst33Quest5_HORDE_Prequest = "Нет"
 Inst33Quest5_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 6 Horde
-Inst33Quest6_HORDE = "6. Coldtooth Supplies"
+Inst33Quest6_HORDE = "6. Припасы Ледяного Зуба"
 Inst33Quest6_HORDE_Level = "60"
 Inst33Quest6_HORDE_Attain = "51"
-Inst33Quest6_HORDE_Aim = "Bring 10 Coldtooth Supplies to the Horde Quatermaster in Frostwolf Keep."
-Inst33Quest6_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest6_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..")."
+Inst33Quest6_HORDE_Aim = "Доставьте 10 припасов Ледяного Зуба интенданту Орды в крепость Северного Волка."
+Inst33Quest6_HORDE_Location = "Интендант клана Северного Волка (Альтеракская долина - Юг; "..YELLOW.."[10]"..WHITE..")"
+Inst33Quest6_HORDE_Note = "Ящики с припасами находятся в Руднике ледяного зуба (Альтеракская долина - Юг; "..YELLOW.."[6]"..WHITE..")."
 Inst33Quest6_HORDE_Prequest = "Нет"
 Inst33Quest6_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 7 Horde
-Inst33Quest7_HORDE = "7. Irondeep Supplies"
+Inst33Quest7_HORDE = "7. Припасы Железного рудника"
 Inst33Quest7_HORDE_Level = "60"
 Inst33Quest7_HORDE_Attain = "51"
-Inst33Quest7_HORDE_Aim = "Bring 10 Irondeep Supplies to the Horde Quartermaster in Frostwolf Keep."
-Inst33Quest7_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest7_HORDE_Note = "The supplies can be found in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..")."
+Inst33Quest7_HORDE_Aim = "Доставьте 10 ящиков припасов Железного рудника интенданту Орды в крепость Северного Волка."
+Inst33Quest7_HORDE_Location = "Интендант клана Северного Волка (Альтеракская долина - Юг; "..YELLOW.."[10]"..WHITE..")"
+Inst33Quest7_HORDE_Note = "Ящики с припасами находятся в Железном руднике (Альтеракская долина - Север; "..YELLOW.."[1]"..WHITE..")."
 Inst33Quest7_HORDE_Prequest = "Нет"
 Inst33Quest7_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 8 Horde
-Inst33Quest8_HORDE = "8. Enemy Booty"
+Inst33Quest8_HORDE = "8. Вражеский трофей"
 Inst33Quest8_HORDE_Level = "60"
 Inst33Quest8_HORDE_Attain = "51"
-Inst33Quest8_HORDE_Aim = "Bring 20 Armor Scraps to Smith Regzar in Frostwolf Village."
-Inst33Quest8_HORDE_Location = "Smith Regzar (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest8_HORDE_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
+Inst33Quest8_HORDE_Aim = "Принесите 20 обломков брони кузнецу Регзару в деревню Северного Волка."
+Inst33Quest8_HORDE_Location = "Кузнец Регзар (Альтеракская долина - Юг; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest8_HORDE_Note = "Обломки падают с убитых ордынцев и их стражников. Этот квест повторяемый."
 Inst33Quest8_HORDE_Prequest = "Нет"
 Inst33Quest8_HORDE_Folgequest = "More Booty!"
 -- No Rewards for this quest
 
 --Quest 9 Horde
-Inst33Quest9_HORDE = "9. Capture a Mine"
+Inst33Quest9_HORDE = "9. Захват рудника"
 Inst33Quest9_HORDE_Level = "60"
 Inst33Quest9_HORDE_Attain = "51"
-Inst33Quest9_HORDE_Aim = "Capture a mine, then return to Corporal Teeka Bloodsnarl in the Альтеракские горы."
-Inst33Quest9_HORDE_Location = "Corporal Teeka Bloodsnarl (Альтеракские горы; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest9_HORDE_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Alliance control it."
+Inst33Quest9_HORDE_Aim = "Захватите рудник и возвращайтесь к капралу Тике Кровавому Рыку в Альтеракские горы. "
+Inst33Quest9_HORDE_Location = " Капрал Тика Кровавый Рык (Альтеракские горы; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest9_HORDE_Note = "Для выполнения задания, вы должны убить Морлоха в Железном руднике (Альтеракская долина - Север; "..YELLOW.."[1]"..WHITE..") или Надсмотрщика Хныкса в Руднике ледяного зуба (Альтеракская долина - Юг; "..YELLOW.."[6]"..WHITE.."), когда шахта находиться под контролем альянса."
 Inst33Quest9_HORDE_Prequest = "Нет"
 Inst33Quest9_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 10 Horde
-Inst33Quest10_HORDE = "10. Towers and Bunkers"
+Inst33Quest10_HORDE = "10. Башни и бункеры"
 Inst33Quest10_HORDE_Level = "60"
 Inst33Quest10_HORDE_Attain = "51"
-Inst33Quest10_HORDE_Aim = "Capture an enemy tower, then return to Corporal Teeka Bloodsnarl in the Альтеракские горы."
-Inst33Quest10_HORDE_Location = "Corporal Teeka Bloodsnarl (Альтеракские горы; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest10_HORDE_Note = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted."
+Inst33Quest10_HORDE_Aim = "Захватите башню врага и возвращайтесь к капралу Тике Кровавому Рыку в Альтеракские горы. "
+Inst33Quest10_HORDE_Location = "Капрал Тика Кровавый Рык (Альтеракские горы; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest10_HORDE_Note = "Совсем необязательно захватывать башню, т.к в случае победы на поле боя задание будет считаться выполненым."
 Inst33Quest10_HORDE_Prequest = "Нет"
 Inst33Quest10_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 11 Horde
-Inst33Quest11_HORDE = "11. The Graveyards of Alterac"
+Inst33Quest11_HORDE = "11. Кладбища долины Альтерака"
 Inst33Quest11_HORDE_Level = "60"
 Inst33Quest11_HORDE_Attain = "51"
-Inst33Quest11_HORDE_Aim = "Assault a graveyard, then return to Corporal Teeka Bloodsnarl in the Альтеракские горы."
-Inst33Quest11_HORDE_Location = "Corporal Teeka Bloodsnarl (Альтеракские горы; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest11_HORDE_Note = "Reportedly you do not need to do anything but be near a graveyard when the Horde assaults it. It does not need to be captured, just assaulted."
+Inst33Quest11_HORDE_Aim = "Захватите кладбище, затем возвращайтесь к капралу Тике Кровавому Рыку в Альтеракские горы. "
+Inst33Quest11_HORDE_Location = "Капрал Тика Кровавый Рык (Альтеракские горы; "..YELLOW.."66,55"..WHITE..")"
+Inst33Quest11_HORDE_Note = "Совсем необязательно захватывать кладбище самому, достаточно во время захвата сражаться рядом. Также в случае победы на поле боя задание будет считаться выполненым."
 Inst33Quest11_HORDE_Prequest = "Нет"
 Inst33Quest11_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 12 Horde
-Inst33Quest12_HORDE = "12. Empty Stables"
+Inst33Quest12_HORDE = "12. Пустые стойла"
 Inst33Quest12_HORDE_Level = "60"
 Inst33Quest12_HORDE_Attain = "51"
-Inst33Quest12_HORDE_Aim = "Locate a Frostwolf in Alterac Valley. Use the Frostwolf Muzzle when you are near the Frostwolf to 'tame' the beast. Once tamed, the Frostwolf will follow you back to the Frostwolf Stable Master. Speak with the Frostwolf Stable Master to earn credit for the capture."
-Inst33Quest12_HORDE_Location = "Frostwolf Stable Master (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")"
-Inst33Quest12_HORDE_Note = "You can find a Frostwolf outside the base. The taming process is just like that of a Охотник taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Frostwolf Cavalry will arrive to assist in the battle."
+Inst33Quest12_HORDE_Aim = "Найдите северного волка в Альтеракской долине. Подойдите к нему на достаточное расстояние, чтобы его 'приручить', и используйте намордник Северного Волка. После приручения северный волк проследует за вами к смотрителю стойл из клана Северного Волка. Поговорите со смотрителем, чтобы получить награду за пойманных волков."
+Inst33Quest12_HORDE_Location = "Смотритель стойл из клана Северного Волка (Альтеракская долина - Юг; "..YELLOW.."[9]"..WHITE..")"
+Inst33Quest12_HORDE_Note = "За пределами базы гуляет множество северных волков. Процесс приручения такой же как у охотников. Задание повторяемое и его можно выполнить только 25 раз за все поле боя всеми игроками. После приручения 25 северных волков прибудет кавалерия и поможет в битве."
 Inst33Quest12_HORDE_Prequest = "Нет"
 Inst33Quest12_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 13 Horde
-Inst33Quest13_HORDE = "13. Ram Hide Harnesses"
+Inst33Quest13_HORDE = "13. Упряжь из бараньей кожи"
 Inst33Quest13_HORDE_Level = "60"
 Inst33Quest13_HORDE_Attain = "51"
-Inst33Quest13_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
-Inst33Quest13_HORDE_Location = "Frostwolf Wolf Rider Commander (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")"
-Inst33Quest13_HORDE_Note = "The Rams can be found in the northern area of Alterac Valley."
+Inst33Quest13_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more! <Перевода описания на данный момент нет>"
+Inst33Quest13_HORDE_Location = "Командир всадников на волках клана Северного Волка (Альтеракская долина - Юг; "..YELLOW.."[9]"..WHITE..")"
+Inst33Quest13_HORDE_Note = "Баранов можно найти в северной части Альтеракской долины."
 Inst33Quest13_HORDE_Prequest = "Нет"
 Inst33Quest13_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 14 Horde
-Inst33Quest14_HORDE = "14. A Gallon of Blood"
+Inst33Quest14_HORDE = "14. Галлон крови"
 Inst33Quest14_HORDE_Level = "60"
 Inst33Quest14_HORDE_Attain = "51"
-Inst33Quest14_HORDE_Aim = "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings."
-Inst33Quest14_HORDE_Location = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest14_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
+Inst33Quest14_HORDE_Aim = "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings. <Перевода описания на данный момент нет>"
+Inst33Quest14_HORDE_Location = "Шаманка стихий Турлога (Альтеракская долина - Юг; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest14_HORDE_Note = "После сбора ~150 Крови, Шаманка стихий Турлога will begin walking towards (Альтеракская долина - Юг; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
 Inst33Quest14_HORDE_Prequest = "Нет"
 Inst33Quest14_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 15 Horde
-Inst33Quest15_HORDE = "15. Lokholar the Ice Lord"
+Inst33Quest15_HORDE = "15. Локолар Владыка Льда"
 Inst33Quest15_HORDE_Level = "60"
 Inst33Quest15_HORDE_Attain = "51"
-Inst33Quest15_HORDE_Aim = "You must strike down our enemies and bring to me their blood. Once enough blood has been gathered, the ritual of summoning may begin.\n\nVictory will be assured when the elemental lord is loosed upon the Stormpike army."
-Inst33Quest15_HORDE_Location = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest15_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
+Inst33Quest15_HORDE_Aim = "You must strike down our enemies and bring to me their blood. Once enough blood has been gathered, the ritual of summoning may begin.\n\nVictory will be assured when the elemental lord is loosed upon the Stormpike army. <Перевода описания на данный момент нет>"
+Inst33Quest15_HORDE_Location = "Шаманка стихий Турлога (Альтеракская долина - Юг; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest15_HORDE_Note = "После сбора ~150 Крови, Шаманка стихий Турлога will begin walking towards (Альтеракская долина - Юг; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
 Inst33Quest15_HORDE_Prequest = "Нет"
 Inst33Quest15_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 16 Horde
-Inst33Quest16_HORDE = "16. Call of Air - Guse's Fleet"
+Inst33Quest16_HORDE = "16. Небо зовет – флот Смуггла"
 Inst33Quest16_HORDE_Level = "60"
 Inst33Quest16_HORDE_Attain = "51"
-Inst33Quest16_HORDE_Aim = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!"
-Inst33Quest16_HORDE_Location = "Wing Commander Guse (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest16_HORDE_Note = "Kill Horde NPCs for the Stormpike Soldier's Flesh. Reportedly 90 flesh are needed to make the Wing Commander do whatever she does."
+Inst33Quest16_HORDE_Aim = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going! <Перевода описания на данный момент нет>"
+Inst33Quest16_HORDE_Location = "Командир звена Смуггл (Альтеракская долина - Юг; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest16_HORDE_Note = "Kill Alliance NPCs for the Stormpike Lieutenant's Flesh. Reportedly 90 flesh are needed to make the Wing Commander do whatever she does."
 Inst33Quest16_HORDE_Prequest = "Нет"
 Inst33Quest16_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 17 Horde
-Inst33Quest17_HORDE = "17. Call of Air - Jeztor's Fleet"
+Inst33Quest17_HORDE = "17. Небо зовет – флот Мааши"
 Inst33Quest17_HORDE_Level = "60"
 Inst33Quest17_HORDE_Attain = "51"
-Inst33Quest17_HORDE_Aim = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Lieutenants."
-Inst33Quest17_HORDE_Location = "Wing Commander Jeztor (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest17_HORDE_Aim = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Lieutenants. <Перевода описания на данный момент нет>"
+Inst33Quest17_HORDE_Location = "Командир звена Мааша (Альтеракская долина - Юг; "..YELLOW.."[13]"..WHITE..")"
 Inst33Quest17_HORDE_Note = "Kill Alliance NPCs for the Stormpike Lieutenant's Flesh."
 Inst33Quest17_HORDE_Prequest = "Нет"
 Inst33Quest17_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 18 Horde
-Inst33Quest18_HORDE = "18. Call of Air - Mulverick's Fleet"
+Inst33Quest18_HORDE = "18. Небо зовет – флот Маэстра"
 Inst33Quest18_HORDE_Level = "60"
 Inst33Quest18_HORDE_Attain = "51"
-Inst33Quest18_HORDE_Aim = "First, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you."
-Inst33Quest18_HORDE_Location = "Wing Commander Mulverick (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest18_HORDE_Aim = "First, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you. <Перевода описания на данный момент нет>"
+Inst33Quest18_HORDE_Location = "Командир звена Маэстр (Альтеракская долина - Юг; "..YELLOW.."[13]"..WHITE..")"
 Inst33Quest18_HORDE_Note = "Kill Alliance NPCs for the Stormpike Commander's Flesh."
 Inst33Quest18_HORDE_Prequest = "Нет"
 Inst33Quest18_HORDE_Folgequest = "Нет"
