@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2009-05-14
-	最後更新﹕二○○九年五月十四日
+	Last Updated: 2009-06-15
+	最後更新﹕二○○九年六月十五日
 	新增　巫妖王之怒 - 奧杜亞　故事＆任務
 
 --]]
@@ -11819,8 +11819,410 @@ Inst85QAH = "目前任務未知"
 
 Inst86Story = "數不盡的歲月之中，奧杜亞獨自矗立，遠離凡人的塵囂，不受世俗干擾。但自從近來被人發覺後，就有許多人在思考這棟建築的原始用途為何。有人認為它是個用來讚頌其建造者光榮的城市；也有人認為這是存放無數奇珍的寶庫，又或者是偉大泰坦們的遺物。但這些猜測全都錯了。在奧杜亞的高牆巨門之後，既非城市，也沒有寶庫，更沒泰坦奧秘的最終解答。只有深深的恐懼在等待著那些膽敢踏入奧杜亞的冒險者，即使是泰坦也無法，也不會去消滅的，一股曾受控於他們的…邪惡。\n\n古老的奧杜亞之下，上古死神在此沉睡，低語呢喃……小心你的腳步，否則它的囚牢將會成為你的葬身之地。"
 Inst86Caption = "奧杜亞"
-Inst86QAA = "目前任務未知"
-Inst86QAH = "目前任務未知" 
+Inst86QAA = "16 個任務"
+Inst86QAH = "16 個任務"
+
+--Quest 1 Alliance
+Inst86Quest1 = "1. 大資料庫資料圓盤"
+Inst86Quest1_Level = "80"
+Inst86Quest1_Attain = "80"
+Inst86Quest1_Aim = "將大資料資料取圓盤帶到奧杜亞的大資料庫控制臺。"
+Inst86Quest1_Location = "大資料庫資料圓盤（掉落自破鋼者; "..YELLOW.."前廳[5]"..WHITE.."）"
+Inst86Quest1_Note = "資料圓盤只有在困難模式的破鋼者才會掉落。每個團隊在每次只有一個人可以撿起資料圓盤。\n\n在擊殺破鋼者之後將會打開一扇門，接著在房間遠處的大資料庫控制臺回報任務。勘察員多倫將會交付你後續任務。"
+Inst86Quest1_Prequest = "無"
+Inst86Quest1_Folgequest = "星穹渾天儀"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst86Quest2 = "2. 星穹渾天儀"
+Inst86Quest2_Level = "80"
+Inst86Quest2_Attain = "80"
+Inst86Quest2_Aim = "奧杜亞大資料庫的勘察員多倫要你找到通往星穹渾天儀的入口。"
+Inst86Quest2_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest2_Note = "星穹渾天儀在（奧杜亞 - 前廳; "..YELLOW.."[7]"..WHITE.."）。\n\n向勘察員多倫回報此任務之後，他將會給你另外四個任務。"
+Inst86Quest2_Prequest = "大資料庫資料圓盤"
+Inst86Quest2_Folgequest = "另外四個任務–霍迪爾的符印、索林姆的符印、芙蕾雅的符印、彌米倫的符印"
+Inst86Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst86Quest3 = "3. 霍迪爾的符印"
+Inst86Quest3_Level = "80"
+Inst86Quest3_Attain = "80"
+Inst86Quest3_Aim = "奧杜亞大資料庫的勘察員多倫要你取得霍迪爾的符印。"
+Inst86Quest3_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest3_Note = "霍迪爾在"..YELLOW.."守衛者[9]"..WHITE.."。玩家必須在困難模式下擊殺霍迪爾以取得符印。"
+Inst86Quest3_Prequest = "星穹渾天儀"
+Inst86Quest3_Folgequest = "無"
+Inst86Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst86Quest4 = "4. 索林姆的符印"
+Inst86Quest4_Level = "80"
+Inst86Quest4_Attain = "80"
+Inst86Quest4_Aim = "奧杜亞大資料庫的勘察員多倫要你取得索林姆的符印。"
+Inst86Quest4_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest4_Note = "索林姆在"..YELLOW.."守衛者[10]"..WHITE.."。玩家必須在困難模式下擊殺索林姆以取得符印。"
+Inst86Quest4_Prequest = "星穹渾天儀"
+Inst86Quest4_Folgequest = "無"
+Inst86Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst86Quest5 = "5. 芙蕾雅的符印"
+Inst86Quest5_Level = "80"
+Inst86Quest5_Attain = "80"
+Inst86Quest5_Aim = "奧杜亞大資料庫的勘察員多倫要你取得芙蕾雅的符印。"
+Inst86Quest5_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest5_Note = "芙蕾雅在"..YELLOW.."守衛者[11]"..WHITE.."。玩家必須在困難模式下擊殺芙蕾雅以取得符印。"
+Inst86Quest5_Prequest = "星穹渾天儀"
+Inst86Quest5_Folgequest = "無"
+Inst86Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst86Quest6 = "6. 彌米倫的符印"
+Inst86Quest6_Level = "80"
+Inst86Quest6_Attain = "80"
+Inst86Quest6_Aim = "奧杜亞大資料庫的勘察員多倫要你取得彌米倫的符印。"
+Inst86Quest6_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest6_Note = "彌米倫在"..YELLOW.."創思之廳[12]"..WHITE.."。玩家必須在困難模式下擊殺彌米倫以取得符印。"
+Inst86Quest6_Prequest = "星穹渾天儀"
+Inst86Quest6_Folgequest = "無"
+Inst86Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst86Quest7 = "7. 艾爾加隆"
+Inst86Quest7_Level = "80"
+Inst86Quest7_Attain = "80"
+Inst86Quest7_Aim = "將看守者符印帶給奧杜亞的大資料庫控制臺。"
+Inst86Quest7_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest7_Note = "完成這個任務之後你將可以在星穹渾天儀與『觀察者』艾爾加隆進行戰鬥。"
+Inst86Quest7_Prequest = "四個符印任務"
+Inst86Quest7_Folgequest = "無"
+Inst86Quest7PreQuest = "true"
+--
+Inst86Quest7name1 = "星穹渾天儀之鑰"
+Inst86Quest7name2 = "奧杜亞戰利品袋"
+
+--Quest 8 Alliance
+Inst86Quest8 = "8. 情況良好，完美收場"
+Inst86Quest8_Level = "80"
+Inst86Quest8_Attain = "80"
+Inst86Quest8_Aim = "將回覆代碼Α帶給達拉然的羅甯。"
+Inst86Quest8_Location = "回覆代碼Α（掉落自『觀察者』艾爾加隆; "..YELLOW.."前廳[7]"..WHITE.."）"
+Inst86Quest8_Note = "每個團隊在每次只有一個成員可以拾取回覆代碼。羅甯在達拉然 - 紫羅蘭城塞; "..YELLOW.."30.5, 48.4"..WHITE.."。"
+Inst86Quest8_Prequest = "無"
+Inst86Quest8_Folgequest = "無"
+--
+Inst86Quest8name1 = "天穹信使披氅"
+Inst86Quest8name2 = "日微披氅"
+Inst86Quest8name3 = "布萊恩的緘印戒指"
+Inst86Quest8name4 = "星耀徽記"
+
+--Quest 9 Alliance
+Inst86Quest9 = "9. 英雄:大資料庫資料圓盤"
+Inst86Quest9_Level = "80"
+Inst86Quest9_Attain = "80"
+Inst86Quest9_Aim = "將大資料資料取圓盤帶到奧杜亞的大資料庫控制臺。"
+Inst86Quest9_Location = "大資料庫資料圓盤（掉落自破鋼者; "..YELLOW.."前廳[5]"..WHITE.."）"
+Inst86Quest9_Note = "資料圓盤只有在英雄困難模式的破鋼者才會掉落。每個團隊在每次只有一個人可以撿起資料圓盤。\n\n在擊殺破鋼者之後將會打開一扇門，接著在房間遠處的大資料庫控制臺回報任務。勘察員多倫將會交付你後續任務。"
+Inst86Quest9_Prequest = "無"
+Inst86Quest9_Folgequest = "英雄：星穹渾天儀"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst86Quest10 = "10. 英雄:星穹渾天儀"
+Inst86Quest10_Level = "80"
+Inst86Quest10_Attain = "80"
+Inst86Quest10_Aim = "奧杜亞大資料庫的勘察員多倫要你找到通往星穹渾天儀的入口。"
+Inst86Quest10_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest10_Note = "星穹渾天儀在（奧杜亞 - 前廳; "..YELLOW.."[7]"..WHITE.."）。\n\n向勘察員多倫回報此任務之後，他將會給你另外四個任務。"
+Inst86Quest10_Prequest = "英雄：大資料庫資料圓盤"
+Inst86Quest10_Folgequest = "另外四個任務–英雄：霍迪爾的符印、英雄：索林姆的符印、英雄：芙蕾雅的符印、英雄：彌米倫的符印"
+Inst86Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst86Quest11 = "11. 英雄:霍迪爾的符印"
+Inst86Quest11_Level = "80"
+Inst86Quest11_Attain = "80"
+Inst86Quest11_Aim = "奧杜亞大資料庫的勘察員多倫要你取得霍迪爾的符印。"
+Inst86Quest11_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest11_Note = "霍迪爾在"..YELLOW.."守衛者[9]"..WHITE.."。玩家必須在英雄困難模式下擊殺霍迪爾以取得符印。"
+Inst86Quest11_Prequest = "英雄：星穹渾天儀"
+Inst86Quest11_Folgequest = "無"
+Inst86Quest11PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst86Quest12 = "12. 英雄:索林姆的符印"
+Inst86Quest12_Level = "80"
+Inst86Quest12_Attain = "80"
+Inst86Quest12_Aim = "奧杜亞大資料庫的勘察員多倫要你取得索林姆的符印。"
+Inst86Quest12_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest12_Note = "索林姆在"..YELLOW.."守衛者[10]"..WHITE.."。玩家必須在英雄困難模式下擊殺索林姆以取得符印。"
+Inst86Quest12_Prequest = "英雄：星穹渾天儀"
+Inst86Quest12_Folgequest = "無"
+Inst86Quest12PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst86Quest13 = "13. 英雄:芙蕾雅的符印"
+Inst86Quest13_Level = "80"
+Inst86Quest13_Attain = "80"
+Inst86Quest13_Aim = "奧杜亞大資料庫的勘察員多倫要你取得芙蕾雅的符印。"
+Inst86Quest13_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest13_Note = "芙蕾雅在"..YELLOW.."守衛者[11]"..WHITE.."。玩家必須在英雄困難模式下擊殺芙蕾雅以取得符印。"
+Inst86Quest13_Prequest = "英雄：星穹渾天儀"
+Inst86Quest13_Folgequest = "無"
+Inst86Quest13PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst86Quest14 = "14. 英雄:彌米倫的符印"
+Inst86Quest14_Level = "80"
+Inst86Quest14_Attain = "80"
+Inst86Quest14_Aim = "奧杜亞大資料庫的勘察員多倫要你取得彌米倫的符印。"
+Inst86Quest14_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest14_Note = "彌米倫在"..YELLOW.."創思之廳[12]"..WHITE.."。玩家必須在英雄困難模式下擊殺彌米倫以取得符印。"
+Inst86Quest14_Prequest = "英雄：星穹渾天儀"
+Inst86Quest14_Folgequest = "無"
+Inst86Quest14PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 15 Alliance
+Inst86Quest15 = "15. 英雄:艾爾加隆"
+Inst86Quest15_Level = "80"
+Inst86Quest15_Attain = "80"
+Inst86Quest15_Aim = "將看守者符印帶給奧杜亞的大資料庫控制臺。"
+Inst86Quest15_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest15_Note = "完成這個任務之後你將可以在星穹渾天儀與『觀察者』艾爾加隆進行戰鬥。"
+Inst86Quest15_Prequest = "四個英雄符印任務"
+Inst86Quest15_Folgequest = "無"
+Inst86Quest15PreQuest = "true"
+--
+Inst86Quest15name1 = "英雄星穹渾天儀之鑰"
+Inst86Quest15name2 = "奧杜亞戰利品袋"
+
+--Quest 16 Alliance
+Inst86Quest16 = "16. 英雄:情況良好，完美收場"
+Inst86Quest16_Level = "80"
+Inst86Quest16_Attain = "80"
+Inst86Quest16_Aim = "將回覆代碼Α帶給達拉然的羅甯。"
+Inst86Quest16_Location = "回覆代碼Α（掉落自『觀察者』艾爾加隆; "..YELLOW.."前廳[7]"..WHITE.."）"
+Inst86Quest16_Note = "每個團隊在每次只有一個成員可以拾取回覆代碼。羅甯在達拉然 - 紫羅蘭城塞; "..YELLOW.."30.5, 48.4"..WHITE.."。"
+Inst86Quest16_Prequest = "無"
+Inst86Quest16_Folgequest = "無"
+--
+Inst86Quest16name1 = "天降披氅"
+Inst86Quest16name2 = "日微披風"
+Inst86Quest16name3 = "布萊恩的璽戒"
+Inst86Quest16name4 = "星耀環戒"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst86Quest1_HORDE = Inst86Quest1
+Inst86Quest1_HORDE_Level = Inst86Quest1_Level
+Inst86Quest1_HORDE_Attain = Inst86Quest1_Attain
+Inst86Quest1_HORDE_Aim = Inst86Quest1_Aim
+Inst86Quest1_HORDE_Location = Inst86Quest1_Location
+Inst86Quest1_HORDE_Note = Inst86Quest1_Note
+Inst86Quest1_HORDE_Prequest = Inst86Quest1_Prequest
+Inst86Quest1_HORDE_Folgequest = Inst86Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst86Quest2_HORDE = Inst86Quest2
+Inst86Quest2_HORDE_Level = Inst86Quest2_Level
+Inst86Quest2_HORDE_Attain = Inst86Quest2_Attain
+Inst86Quest2_HORDE_Aim = Inst86Quest2_Aim
+Inst86Quest2_HORDE_Location = Inst86Quest2_Location
+Inst86Quest2_HORDE_Note = Inst86Quest2_Note
+Inst86Quest2_HORDE_Prequest = Inst86Quest2_Prequest
+Inst86Quest2_HORDE_Folgequest = Inst86Quest2_Folgequest
+Inst86Quest2FQuest_HORDE = Inst86Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst86Quest3_HORDE = Inst86Quest3
+Inst86Quest3_HORDE_Level = Inst86Quest3_Level
+Inst86Quest3_HORDE_Attain = Inst86Quest3_Attain
+Inst86Quest3_HORDE_Aim = Inst86Quest3_Aim
+Inst86Quest3_HORDE_Location = Inst86Quest3_Location
+Inst86Quest3_HORDE_Note = Inst86Quest3_Note
+Inst86Quest3_HORDE_Prequest = Inst86Quest3_Prequest
+Inst86Quest3_HORDE_Folgequest = Inst86Quest3_Folgequest
+Inst86Quest3PreQuest_HORDE = Inst86Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst86Quest4_HORDE = Inst86Quest4
+Inst86Quest4_HORDE_Level = Inst86Quest4_Level
+Inst86Quest4_HORDE_Attain = Inst86Quest4_Attain
+Inst86Quest4_HORDE_Aim = Inst86Quest4_Aim
+Inst86Quest4_HORDE_Location = Inst86Quest4_Location
+Inst86Quest4_HORDE_Note = Inst86Quest4_Note
+Inst86Quest4_HORDE_Prequest = Inst86Quest4_Prequest
+Inst86Quest4_HORDE_Folgequest = Inst86Quest4_Folgequest
+Inst86Quest4PreQuest_HORDE = Inst86Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst86Quest5_HORDE = Inst86Quest5
+Inst86Quest5_HORDE_Level = Inst86Quest5_Level
+Inst86Quest5_HORDE_Attain = Inst86Quest5_Attain
+Inst86Quest5_HORDE_Aim = Inst86Quest5_Aim
+Inst86Quest5_HORDE_Location = Inst86Quest5_Location
+Inst86Quest5_HORDE_Note = Inst86Quest5_Note
+Inst86Quest5_HORDE_Prequest = Inst86Quest5_Prequest
+Inst86Quest5_HORDE_Folgequest = Inst86Quest5_Folgequest
+Inst86Quest5PreQuest_HORDE = Inst86Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst86Quest6_HORDE = Inst86Quest6
+Inst86Quest6_HORDE_Level = Inst86Quest6_Level
+Inst86Quest6_HORDE_Attain = Inst86Quest6_Attain
+Inst86Quest6_HORDE_Aim = Inst86Quest6_Aim
+Inst86Quest6_HORDE_Location = Inst86Quest6_Location
+Inst86Quest6_HORDE_Note = Inst86Quest6_Note
+Inst86Quest6_HORDE_Prequest = Inst86Quest6_Prequest
+Inst86Quest6_HORDE_Folgequest = Inst86Quest6_Folgequest
+Inst86Quest6PreQuest_HORDE = Inst86Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst86Quest7_HORDE = Inst86Quest7
+Inst86Quest7_HORDE_Level = Inst86Quest7_Level
+Inst86Quest7_HORDE_Attain = Inst86Quest7_Attain
+Inst86Quest7_HORDE_Aim = Inst86Quest7_Aim
+Inst86Quest7_HORDE_Location = Inst86Quest7_Location
+Inst86Quest7_HORDE_Note = Inst86Quest7_Note
+Inst86Quest7_HORDE_Prequest = Inst86Quest7_Prequest
+Inst86Quest7_HORDE_Folgequest = Inst86Quest7_Folgequest
+Inst86Quest7PreQuest_HORDE = Inst86Quest7PreQuest
+--
+Inst86Quest7name1_HORDE = Inst86Quest7name1
+Inst86Quest7name2_HORDE = Inst86Quest7name2
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst86Quest8_HORDE = Inst86Quest8
+Inst86Quest8_HORDE_Level = Inst86Quest8_Level
+Inst86Quest8_HORDE_Attain = Inst86Quest8_Attain
+Inst86Quest8_HORDE_Aim = Inst86Quest8_Aim
+Inst86Quest8_HORDE_Location = Inst86Quest8_Location
+Inst86Quest8_HORDE_Note = Inst86Quest8_Note
+Inst86Quest8_HORDE_Prequest = Inst86Quest8_Prequest
+Inst86Quest8_HORDE_Folgequest = Inst86Quest8_Folgequest
+--
+Inst86Quest8name1_HORDE = Inst86Quest8name1
+Inst86Quest8name2_HORDE = Inst86Quest8name2
+Inst86Quest8name3_HORDE = Inst86Quest8name3
+Inst86Quest8name4_HORDE = Inst86Quest8name4
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst86Quest9_HORDE = Inst86Quest9
+Inst86Quest9_HORDE_Level = Inst86Quest9_Level
+Inst86Quest9_HORDE_Attain = Inst86Quest9_Attain
+Inst86Quest9_HORDE_Aim = Inst86Quest9_Aim
+Inst86Quest9_HORDE_Location = Inst86Quest9_Location
+Inst86Quest9_HORDE_Note = Inst86Quest9_Note
+Inst86Quest9_HORDE_Prequest = Inst86Quest9_Prequest
+Inst86Quest9_HORDE_Folgequest = Inst86Quest9_Folgequest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst86Quest10_HORDE = Inst86Quest10
+Inst86Quest10_HORDE_Level = Inst86Quest10_Level
+Inst86Quest10_HORDE_Attain = Inst86Quest10_Attain
+Inst86Quest10_HORDE_Aim = Inst86Quest10_Aim
+Inst86Quest10_HORDE_Location = Inst86Quest10_Location
+Inst86Quest10_HORDE_Note = Inst86Quest10_Note
+Inst86Quest10_HORDE_Prequest = Inst86Quest10_Prequest
+Inst86Quest10_HORDE_Folgequest = Inst86Quest10_Folgequest
+Inst86Quest10FQuest_HORDE = Inst86Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst86Quest11_HORDE = Inst86Quest11
+Inst86Quest11_HORDE_Level = Inst86Quest11_Level
+Inst86Quest11_HORDE_Attain = Inst86Quest11_Attain
+Inst86Quest11_HORDE_Aim = Inst86Quest11_Aim
+Inst86Quest11_HORDE_Location = Inst86Quest11_Location
+Inst86Quest11_HORDE_Note = Inst86Quest11_Note
+Inst86Quest11_HORDE_Prequest = Inst86Quest11_Prequest
+Inst86Quest11_HORDE_Folgequest = Inst86Quest11_Folgequest
+Inst86Quest11PreQuest_HORDE = Inst86Quest11PreQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst86Quest12_HORDE = Inst86Quest12
+Inst86Quest12_HORDE_Level = Inst86Quest12_Level
+Inst86Quest12_HORDE_Attain = Inst86Quest12_Attain
+Inst86Quest12_HORDE_Aim = Inst86Quest12_Aim
+Inst86Quest12_HORDE_Location = Inst86Quest12_Location
+Inst86Quest12_HORDE_Note = Inst86Quest12_Note
+Inst86Quest12_HORDE_Prequest = Inst86Quest12_Prequest
+Inst86Quest12_HORDE_Folgequest = Inst86Quest12_Folgequest
+Inst86Quest12PreQuest_HORDE = Inst86Quest12PreQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst86Quest13_HORDE = Inst86Quest13
+Inst86Quest13_HORDE_Level = Inst86Quest13_Level
+Inst86Quest13_HORDE_Attain = Inst86Quest13_Attain
+Inst86Quest13_HORDE_Aim = Inst86Quest13_Aim
+Inst86Quest13_HORDE_Location = Inst86Quest13_Location
+Inst86Quest13_HORDE_Note = Inst86Quest13_Note
+Inst86Quest13_HORDE_Prequest = Inst86Quest13_Prequest
+Inst86Quest13_HORDE_Folgequest = Inst86Quest13_Folgequest
+Inst86Quest13PreQuest_HORDE = Inst86Quest13PreQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst86Quest14_HORDE = Inst86Quest14
+Inst86Quest14_HORDE_Level = Inst86Quest14_Level
+Inst86Quest14_HORDE_Attain = Inst86Quest14_Attain
+Inst86Quest14_HORDE_Aim = Inst86Quest14_Aim
+Inst86Quest14_HORDE_Location = Inst86Quest14_Location
+Inst86Quest14_HORDE_Note = Inst86Quest14_Note
+Inst86Quest14_HORDE_Prequest = Inst86Quest14_Prequest
+Inst86Quest14_HORDE_Folgequest = Inst86Quest14_Folgequest
+Inst86Quest14PreQuest_HORDE = Inst86Quest14PreQuest
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst86Quest15_HORDE = Inst86Quest15
+Inst86Quest15_HORDE_Level = Inst86Quest15_Level
+Inst86Quest15_HORDE_Attain = Inst86Quest15_Attain
+Inst86Quest15_HORDE_Aim = Inst86Quest15_Aim
+Inst86Quest15_HORDE_Location = Inst86Quest15_Location
+Inst86Quest15_HORDE_Note = Inst86Quest15_Note
+Inst86Quest15_HORDE_Prequest = Inst86Quest15_Prequest
+Inst86Quest15_HORDE_Folgequest = Inst86Quest15_Folgequest
+Inst86Quest15PreQuest_HORDE = Inst86Quest15PreQuest
+--
+Inst86Quest15name1_HORDE = Inst86Quest15name1
+Inst86Quest15name2_HORDE = Inst86Quest15name2
+
+--Quest 16 Horde  (same as Quest 16 Alliance)
+Inst86Quest16_HORDE = Inst86Quest16
+Inst86Quest16_HORDE_Level = Inst86Quest16_Level
+Inst86Quest16_HORDE_Attain = Inst86Quest16_Attain
+Inst86Quest16_HORDE_Aim = Inst86Quest16_Aim
+Inst86Quest16_HORDE_Location = Inst86Quest16_Location
+Inst86Quest16_HORDE_Note = Inst86Quest16_Note
+Inst86Quest16_HORDE_Prequest = Inst86Quest16_Prequest
+Inst86Quest16_HORDE_Folgequest = Inst86Quest16_Folgequest
+--
+Inst86Quest16name1_HORDE = Inst86Quest16name1
+Inst86Quest16name2_HORDE = Inst86Quest16name2
+Inst86Quest16name3_HORDE = Inst86Quest16name3
+Inst86Quest16name4_HORDE = Inst86Quest16name4
+
 
 
 
