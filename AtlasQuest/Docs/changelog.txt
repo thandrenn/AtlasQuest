@@ -6,6 +6,7 @@ Version 4.3.4
 
 - Updated boss numbers for Atlas 1.14.1.
 - Small updates and tweaks to a number of quests thanks to info provided by nonameform.
+- Localizations updated.
 
 - Quests added:
 	- Molten Core: Scrying Goggles? No Problem! (thanks nonameform)
