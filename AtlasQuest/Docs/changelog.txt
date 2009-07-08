@@ -2,6 +2,15 @@
 Changelog
 =========
 
+Version 4.3.5
+
+- Fixes:
+	- Corrected typo in LBRS: Kibler's Exotic Pets  (thanks gothic251)
+	- Clarified what Grime-Encrusted Ring drops from in Gnomeregan.  (thanks gothic251)
+	- Prequest added for Utgarde Keep: A Score to Settle (Horde)  (thanks tailslee)
+
+
+	
 Version 4.3.4
 
 - Updated boss numbers for Atlas 1.14.1.
