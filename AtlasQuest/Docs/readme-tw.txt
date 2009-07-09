@@ -1,7 +1,5 @@
-﻿
-
-AtlasQuest
-Thandrenn﹙亦名 Mystery8﹚研發維護
+﻿AtlasQuest
+Thandrenn（亦名 Mystery8）研發維護
 來函請寄 mystery8@gmail.com
 專屬論壇 http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 
@@ -15,16 +13,16 @@ AtlasQuest 是一個附屬於 Atlas 或 AlphaMap 的插件。
 並能幫助你了解各地城背景故事﹐讓你在冒險時更有感覺。
 
 AtlasQuest 最初由 Asurn 研發。
-目前則由 Thandrenn﹙亦名 Mystery8﹚接續維護發展。
+目前則由 Thandrenn（亦名 Mystery8）接續維護發展。
 
 
 
 各語言翻譯者：
 ==============
 
-　　英文﹕Thandrenn﹙前為 Asurn 及 Lothaer﹚
-　　德文﹕Telchar 與 Nalumis﹙前為 Asurn 及 Nihlo﹚
-簡體中文﹕yeachan﹙前為 DIY﹚
+　　英文﹕Thandrenn（前為 Asurn 及 Lothaer）
+　　德文﹕Telchar 與 Nalumis（前為 Asurn 及 Nihlo）
+簡體中文﹕yeachan（前為 DIY）
 繁體中文﹕Jill
 　　俄文﹕EvgeshaH
 
@@ -33,26 +31,31 @@ AtlasQuest 最初由 Asurn 研發。
 授權協議：
 ==========
 
-AtlasQuest 基於 GNU通用公共許可證﹙GPL﹚公開發表。
+AtlasQuest 基於 GNU通用公共許可證（GPL）公開發表。
 完整授權文本詳閱﹕gpl-v2-tw.txt。
 
 
 
 繁體中文化更新履歷：
 ====================
-2009年06月15日　AtlasQuest v4.3.4　最新一次更新
-　　　　　　　　新增　奧杜亞團隊地城　任務十六則﹙感謝Celellach﹚
+2009年07月09日　AtlasQuest v4.3.5　最新一次更新
+　　　　　　　　修正　AtlasQuest英文版　黑石塔下層 - 基布雷爾的特殊寵物　任務文字（感謝gothic251）
+　　　　　　　　　　　明確標示出髒兮兮的戒指由　諾姆瑞根　中的何種怪物掉落（感謝gothic251）
+　　　　　　　　增加　俄特加德要塞 - 有待解決的宿怨　前置任務線敘述（感謝tailslee）
+
+2009年06月15日　AtlasQuest v4.3.4
+　　　　　　　　新增　奧杜亞團隊地城　任務十六則（感謝Celellach）
 
 2009年05月14日　AtlasQuest v4.3.4
 　　　　　　　　修正　部分位於東部王國地城的任務敘述以更符合遊戲內容
 
 2009年05月09日　AtlasQuest v4.3.4
 　　　　　　　　配合Atlas 1.14.1版本，修正部分NPC與首領位於地圖上的編號
-　　　　　　　　修正　部分位於東部王國以及卡林多大陸等地城的任務敘述以更符合遊戲內容﹙感謝nonameform﹚
-　　　　　　　　新增　熔火之心　任務一則﹙感謝nonameform﹚
-　　　　　　　　新增　諾姆瑞根　任務一則﹙感謝nonameform﹚
-　　　　　　　　新增　通靈學院　任務一則﹙感謝nonameform﹚
-　　　　　　　　新增　斯坦索姆　任務一則﹙感謝nonameform﹚
+　　　　　　　　修正　部分位於東部王國以及卡林多大陸等地城的任務敘述以更符合遊戲內容（感謝nonameform）
+　　　　　　　　新增　熔火之心　任務一則（感謝nonameform）
+　　　　　　　　新增　諾姆瑞根　任務一則（感謝nonameform）
+　　　　　　　　新增　通靈學院　任務一則（感謝nonameform）
+　　　　　　　　新增　斯坦索姆　任務一則（感謝nonameform）
 　　　　　　　　補全　團隊地城　奧杜亞　故事敘述
 
 2009年04月19日　AtlasQuest v4.3.4
@@ -66,7 +69,7 @@ AtlasQuest 基於 GNU通用公共許可證﹙GPL﹚公開發表。
 　　　　　　　　修正　戰場 - 奧特蘭克山谷　任務無法顯示連結的錯誤
 
 2009年02月24日　AtlasQuest v4.3.2
-　　　　　　　　新增　北裂境5人地城　全攻略﹙感謝yeachan協助，並感謝WoWbox魔獸藏寶箱提供參考資料﹚
+　　　　　　　　新增　北裂境5人地城　全攻略（感謝yeachan協助，並感謝WoWbox魔獸藏寶箱提供參考資料）
 
 2009年02月09日　AtlasQuest v4.3.2
 　　　　　　　　修正　剛德拉克–為了後代子孫　任務敘述
@@ -76,7 +79,7 @@ AtlasQuest 基於 GNU通用公共許可證﹙GPL﹚公開發表。
 　　　　　　　　修正　瑪拉頓 - 塞雷布拉斯權杖　獎勵連結以符合3.0.8更新
 
 2009年01月11日　AtlasQuest v4.3.2
-　　　　　　　　新增　厄運之槌（北）　任務一則﹙感謝nonameform﹚
+　　　　　　　　新增　厄運之槌（北）　任務一則（感謝nonameform）
 　　　　　　　　修正　卡拉贊　滿載秘密的房間　部落獎勵錯誤
 
 2008年12月30日　AtlasQuest v4.3.2
@@ -90,11 +93,11 @@ AtlasQuest 基於 GNU通用公共許可證﹙GPL﹚公開發表。
 2008年12月15日　AtlasQuest v4.3.1
 　　　　　　　　為求一致性，按照英文版作者的方法將前置以及後續任務中的“有，”移除。
 　　　　　　　　移除　黑石深淵–聯盟方　溫德索爾元帥　相關任務：溫德索爾元帥、弄皺的便箋、一絲希望、衝破牢籠！
-　　　　　　　　﹙即使任務移除了，我們仍會永遠記得這位英雄以及偉大的大領主伯瓦爾．弗塔根公爵﹚
+　　　　　　　　（即使任務移除了，我們仍會永遠記得這位英雄以及偉大的大領主伯瓦爾．弗塔根公爵）
 　　　　　　　　移除　黑石塔上層–聯盟方　龍火護符　任務
-　　　　　　　　新增　奧達曼–精鐵礦石　任務﹙感謝gothic251﹚
-　　　　　　　　新增　黑石塔上層–收集龍蛋　任務﹙感謝nonameform﹚
-　　　　　　　　新增　通靈學院–達克雷爾的威脅　任務﹙薩滿職業任務，感謝nonameform﹚
+　　　　　　　　新增　奧達曼–精鐵礦石　任務（感謝gothic251）
+　　　　　　　　新增　黑石塔上層–收集龍蛋　任務（感謝nonameform）
+　　　　　　　　新增　通靈學院–達克雷爾的威脅　任務（薩滿職業任務，感謝nonameform）
 　　　　　　　　新增　安其拉神廟–人類勝利者　任務　　　　　　　　
 
 2008年12月02日　AtlasQuest v4.3.1
@@ -111,7 +114,7 @@ AtlasQuest 基於 GNU通用公共許可證﹙GPL﹚公開發表。
 　　　　　　　　新增　奧杜亞：雷光大廳 - 不擇手段＆一山容不得二虎　前置任務內容 
 
 2008年11月25日　AtlasQuest v4.3.0
-　　　　　　　　新增　巫妖王之怒地城、戰場　故事＆任務﹙部分資料不全﹚
+　　　　　　　　新增　巫妖王之怒地城、戰場　故事＆任務（部分資料不全）
 　　　　　　　　因位暴風城以及東瘟疫之地的地圖有部分修改，因此座標上也有所修正
 
 2008年11月 4日　AtlasQuest v4.2.1
