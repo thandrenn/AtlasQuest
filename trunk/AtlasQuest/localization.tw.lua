@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2009-06-15
-	最後更新﹕二○○九年六月十五日
+	Last Updated: 2009-07-09
+	最後更新﹕二○○九年七月九日
 	新增　巫妖王之怒 - 奧杜亞　故事＆任務
 
 --]]
@@ -677,7 +677,7 @@ Inst4Quest13_Level = "42"
 Inst4Quest13_Attain = "38"
 Inst4Quest13_Aim = "收集12顆紫色蘑菇，把它們交給塞爾薩瑪的加克。"
 Inst4Quest13_Location = "加克（洛克莫丹 - 塞爾薩瑪; "..YELLOW.."37,49 "..WHITE.."）"
-Inst4Quest13_Note = "蘑菇散佈於副本內外各處。"
+Inst4Quest13_Note = "蘑菇散佈於副本內外各處。前置任務由同一個NPC處得到。"
 Inst4Quest13_Prequest = "荒蕪之地的材料"
 Inst4Quest13_Folgequest = "無"
 Inst4Quest13PreQuest = "true"
@@ -1609,7 +1609,7 @@ Inst8Quest2_Level = "59"
 Inst8Quest2_Attain = "55"
 Inst8Quest2_Aim = "到黑石塔去找到小血斧座狼。使用籠子來捕捉這些兇猛的小野獸，然後把籠中的小座狼交給基佈雷爾。"
 Inst8Quest2_Location = "基佈雷爾（燃燒平原 - 烈焰峰; "..YELLOW.."65,22"..WHITE.."）"
-Inst8Quest2_Note = "你可以在"..YELLOW.."[17]"..WHITE.."找到小血斧座狼。"
+Inst8Quest2_Note = "你可以在哈雷肯的旁邊"..YELLOW.."[17]"..WHITE.."找到小血斧座狼。"
 Inst8Quest2_Prequest = "無"
 Inst8Quest2_Folgequest = "無"
 --
@@ -5987,7 +5987,7 @@ Inst29Quest9 = "9. 髒兮兮的戒指"
 Inst29Quest9_Level = "34"
 Inst29Quest9_Attain = "28"
 Inst29Quest9_Aim = "想方法把髒兮兮的戒指弄乾淨。"
-Inst29Quest9_Location = "髒兮兮的戒指（小怪隨機掉落 - 諾姆瑞根）"
+Inst29Quest9_Location = "髒兮兮的戒指（由諾姆瑞根中的黑鐵矮人隨機掉落）"
 Inst29Quest9_Note = "這個戒指可以使用清潔器5200型清潔，位置在"..YELLOW.."清洗區[2]"..WHITE.."。"
 Inst29Quest9_Prequest = "無"
 Inst29Quest9_Folgequest = "戒指歸來"
@@ -10111,8 +10111,8 @@ Inst70Quest2_HORDE_Level = "71"
 Inst70Quest2_HORDE_Attain = "68"
 Inst70Quest2_HORDE_Aim = "高階執行官安賽姆要你進入俄特加德並殺掉凱雷希斯王子。"
 Inst70Quest2_HORDE_Location = "高階執行官安賽姆（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）"
-Inst70Quest2_HORDE_Note = "凱雷希斯王子在"..YELLOW.."[1]"..WHITE.."。"
-Inst70Quest2_HORDE_Prequest = "無"
+Inst70Quest2_HORDE_Note = "凱雷希斯王子在"..YELLOW.."[1]"..WHITE.."。此任務的前置任務線也是由同一個NPC處開始。"
+Inst70Quest2_HORDE_Prequest = "戰爭就是地獄→來自戰場的報告→風行者艦隊→埋伏!→指引方向→痛下殺手→回報安賽姆"
 Inst70Quest2_HORDE_Folgequest = "無"
 --
 Inst70Quest2name1_HORDE = "煞婪裹帶"
