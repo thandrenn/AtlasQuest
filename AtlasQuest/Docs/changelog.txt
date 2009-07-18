@@ -4,6 +4,8 @@ Changelog
 
 Version 4.3.5
 
+- Updated Map names for AlphaMap 3.75.
+
 - Fixes:
 	- Corrected typo in LBRS: Kibler's Exotic Pets  (thanks gothic251)
 	- Clarified what Grime-Encrusted Ring drops from in Gnomeregan.  (thanks gothic251)

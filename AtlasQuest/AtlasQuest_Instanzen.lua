@@ -544,7 +544,7 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Archavon") then
 		AQINSTANZ = 85;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Ulduar") then
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld1Siege") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld2Ante") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld3Keepers") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld4Spark") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld5Descent") then
 		AQINSTANZ = 86;
 
 
