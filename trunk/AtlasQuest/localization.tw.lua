@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2009-07-09
-	最後更新﹕二○○九年七月九日
+	Last Updated: 2009-08-05
+	最後更新﹕二○○九年八月五日
 	新增　巫妖王之怒 - 奧杜亞　故事＆任務
 
 --]]
@@ -9922,6 +9922,7 @@ Inst69Quest1name1 = "祈倫托表揚徽章"
 Inst69Quest1name2 = "銀白十字軍表揚徽章"
 Inst69Quest1name3 = "黯刃表揚徽章"
 Inst69Quest1name4 = "龍眠表揚徽章"
+Inst69Quest1name5 = "征服紋章"
 
 --Quest 2 Alliance
 Inst69Quest2 = "2. 死亡證明:瑪爾加尼斯 (英雄每日)"
@@ -9933,7 +9934,7 @@ Inst69Quest2_Note = "這個任務只能在英雄難度下完成。\n\n瑪爾加�
 Inst69Quest2_Prequest = "無"
 Inst69Quest2_Folgequest = "無"
 --
-Inst69Quest2name1 = "英雄紋章"
+Inst69Quest2name1 = "凱旋紋章"
 
 --Quest 3 Alliance
 Inst69Quest3 = "3. 驅散幻影"
@@ -9977,6 +9978,7 @@ Inst69Quest1name1_HORDE = Inst69Quest1name1
 Inst69Quest1name2_HORDE = Inst69Quest1name2
 Inst69Quest1name3_HORDE = Inst69Quest1name3
 Inst69Quest1name4_HORDE = Inst69Quest1name4
+Inst69Quest1name5_HORDE = Inst69Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst69Quest2_HORDE = Inst69Quest2
@@ -10061,7 +10063,7 @@ Inst70Quest1_Note = "這個任務只能在英雄難度下完成。\n\n『盜掠�
 Inst70Quest1_Prequest = "無"
 Inst70Quest1_Folgequest = "無"
 --
-Inst70Quest1name1 = "英雄紋章"
+Inst70Quest1name1 = "凱旋紋章"
 
 --Quest 2 Alliance
 Inst70Quest2 = "2. 進入俄特加德!"
@@ -10203,6 +10205,7 @@ Inst71Quest1name1 = "祈倫托表揚徽章"
 Inst71Quest1name2 = "銀白十字軍表揚徽章"
 Inst71Quest1name3 = "黯刃表揚徽章"
 Inst71Quest1name4 = "龍眠表揚徽章"
+Inst71Quest1name5 = "征服紋章"
 
 --Quest 2 Alliance
 Inst71Quest2 = "2. 死亡證明:依米倫王 (英雄每日)"
@@ -10214,7 +10217,7 @@ Inst71Quest2_Note = "這個任務只能在英雄難度下完成。\n\n依米倫�
 Inst71Quest2_Prequest = "無"
 Inst71Quest2_Folgequest = "無"
 --
-Inst71Quest2name1 = "英雄紋章"
+Inst71Quest2name1 = "凱旋紋章"
 
 --Quest 3 Alliance
 Inst71Quest3 = "3. 我箱子裡的垃圾"
@@ -10262,6 +10265,7 @@ Inst71Quest1name1_HORDE = Inst71Quest1name1
 Inst71Quest1name2_HORDE = Inst71Quest1name2
 Inst71Quest1name3_HORDE = Inst71Quest1name3
 Inst71Quest1name4_HORDE = Inst71Quest1name4
+Inst71Quest1name5_HORDE = Inst71Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst71Quest2_HORDE = Inst71Quest2
@@ -10358,7 +10362,7 @@ Inst72Quest1_Note = "這個任務只能在英雄難度下完成。\n\n凱瑞史�
 Inst72Quest1_Prequest = "無"
 Inst72Quest1_Folgequest = "無"
 --
-Inst72Quest1name1 = "英雄紋章"
+Inst72Quest1name1 = "凱旋紋章"
 
 --Quest 2 Alliance
 Inst72Quest2 = "2. 他們不知羞恥嗎?"
@@ -10560,6 +10564,7 @@ Inst73Quest1name1 = "祈倫托表揚徽章"
 Inst73Quest1name2 = "銀白十字軍表揚徽章"
 Inst73Quest1name3 = "黯刃表揚徽章"
 Inst73Quest1name4 = "龍眠表揚徽章"
+Inst73Quest1name5 = "征服紋章"
 
 --Quest 2 Alliance
 Inst73Quest2 = "2. 死亡證明:地脈守護者伊瑞茍斯 (英雄每日)"
@@ -10571,7 +10576,7 @@ Inst73Quest2_Note = "這個任務只能在英雄難度下完成。\n\n地脈守�
 Inst73Quest2_Prequest = "無"
 Inst73Quest2_Folgequest = "無"
 --
-Inst73Quest2name1 = "英雄紋章"
+Inst73Quest2name1 = "凱旋紋章"
 
 --Quest 3 Alliance
 Inst73Quest3 = "3. 負隅頑抗"
@@ -10643,6 +10648,7 @@ Inst73Quest1name1_HORDE = Inst73Quest1name1
 Inst73Quest1name2_HORDE = Inst73Quest1name2
 Inst73Quest1name3_HORDE = Inst73Quest1name3
 Inst73Quest1name4_HORDE = Inst73Quest1name4
+Inst73Quest1name5_HORDE = Inst73Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst73Quest2_HORDE = Inst73Quest2
@@ -10831,7 +10837,7 @@ Inst75Quest1_Note = "這個任務只能在英雄難度下完成。\n\n阿努巴�
 Inst75Quest1_Prequest = "無"
 Inst75Quest1_Folgequest = "無"
 --
-Inst75Quest1name1 = "英雄紋章"
+Inst75Quest1name1 = "凱旋紋章"
 
 --Quest 2 Alliance
 Inst75Quest2 = "2. 別忘了那些蛋!"
@@ -10956,7 +10962,7 @@ Inst76Quest1_Note = "這個任務只能在英雄難度下完成。\n\n信使沃�
 Inst76Quest1_Prequest = "無"
 Inst76Quest1_Folgequest = "無"
 --
-Inst76Quest1name1 = "英雄紋章"
+Inst76Quest1name1 = "凱旋紋章"
 
 --Quest 2 Alliance
 Inst76Quest2 = "2. 好時光的一切 (英雄每日)"
@@ -11091,7 +11097,7 @@ Inst77Quest1_Note = "這個任務只能在英雄難度下完成。\n\n『塑鐵�
 Inst77Quest1_Prequest = "無"
 Inst77Quest1_Folgequest = "無"
 --
-Inst77Quest1name1 = "英雄紋章"
+Inst77Quest1name1 = "凱旋紋章"
 
 --Quest 2 Alliance
 Inst77Quest2 = "2. 岩石大廳"
@@ -11184,6 +11190,7 @@ Inst78Quest1name1 = "祈倫托表揚徽章"
 Inst78Quest1name2 = "銀白十字軍表揚徽章"
 Inst78Quest1name3 = "黯刃表揚徽章"
 Inst78Quest1name4 = "龍眠表揚徽章"
+Inst78Quest1name5 = "征服紋章"
 
 --Quest 2 Alliance
 Inst78Quest2 = "2. 死亡證明:洛肯 (英雄每日)"
@@ -11195,7 +11202,7 @@ Inst78Quest2_Note = "這個任務只能在英雄難度下完成。\n\n洛肯在"
 Inst78Quest2_Prequest = "無"
 Inst78Quest2_Folgequest = "無"
 --
-Inst78Quest2name1 = "英雄紋章"
+Inst78Quest2name1 = "凱旋紋章"
 
 --Quest 3 Alliance
 Inst78Quest3 = "3. 不擇手段!"
@@ -11245,6 +11252,7 @@ Inst78Quest1name1_HORDE = Inst78Quest1name1
 Inst78Quest1name2_HORDE = Inst78Quest1name2
 Inst78Quest1name3_HORDE = Inst78Quest1name3
 Inst78Quest1name4_HORDE = Inst78Quest1name4
+Inst78Quest1name5_HORDE = Inst78Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
@@ -11344,7 +11352,7 @@ Inst80Quest1_Note = "這個任務只能在英雄難度下完成。\n\n預言者�
 Inst80Quest1_Prequest = "無"
 Inst80Quest1_Folgequest = "無"
 --
-Inst80Quest1name1 = "英雄紋章"
+Inst80Quest1name1 = "凱旋紋章"
 
 --Quest 2 Alliance
 Inst80Quest2 = "2. 淨化德拉克薩隆"
@@ -11503,7 +11511,7 @@ Inst81Quest1_Note = "這個任務只能在英雄難度下完成。\n\n蓋爾達�
 Inst81Quest1_Prequest = "無"
 Inst81Quest1_Folgequest = "無"
 --
-Inst81Quest1name1 = "英雄紋章"
+Inst81Quest1name1 = "凱旋紋章"
 
 --Quest 2 Alliance
 Inst81Quest2 = "2. 為了後代子孫"
@@ -11677,7 +11685,7 @@ Inst82Quest1_Note = "這個任務只能在英雄難度下完成。\n\n霞妮苟�
 Inst82Quest1_Prequest = "無"
 Inst82Quest1_Folgequest = "無"
 --
-Inst82Quest1name1 = "英雄紋章"
+Inst82Quest1name1 = "凱旋紋章"
 
 --Quest 2 Alliance
 Inst82Quest2 = "2. 謹慎是關鍵"
@@ -12222,6 +12230,24 @@ Inst86Quest16name1_HORDE = Inst86Quest16name1
 Inst86Quest16name2_HORDE = Inst86Quest16name2
 Inst86Quest16name3_HORDE = Inst86Quest16name3
 Inst86Quest16name4_HORDE = Inst86Quest16name4
+
+
+
+--------------- INST87 - Trial of the Champion ---------------
+
+Inst87Story = "直搗天譴軍團心臟的時刻逐漸迫近。艾澤拉斯風起雲湧，各路英雄齊聚在飽經風霜的戰旗下，準備迎接即將來臨的暴風雨。人們說，即使烏雲蔽日，也能見到一絲光明。希望的曙光激勵著銀白十字軍的男男女女：希望聖光能帶領他們走過艱苦的時刻，希望善良能戰勝邪惡，希望能有一位受到聖光祝福的英雄挺身而出，結束巫妖王的黑暗統治。銀白十字軍為此登高一呼，召集各方英雄來到巫妖王的大門前，在艾澤拉斯前所未見的聯賽場上，證明自己的實力。當然，這樣的聯賽需要一個適當的場地。尋求資格的參賽者在此接受嚴苛的試煉；英雄在此……成為勇士。這裡就叫做十字軍大競技場。"
+Inst87Caption = "勇士試煉"
+Inst87QAA = "無任務"
+Inst87QAH = "無任務"
+
+
+
+--------------- INST88 - Trial of the Crusader ---------------
+
+Inst88Story = "直搗天譴軍團心臟的時刻逐漸迫近。艾澤拉斯風起雲湧，各路英雄齊聚在飽經風霜的戰旗下，準備迎接即將來臨的暴風雨。人們說，即使烏雲蔽日，也能見到一絲光明。希望的曙光激勵著銀白十字軍的男男女女：希望聖光能帶領他們走過艱苦的時刻，希望善良能戰勝邪惡，希望能有一位受到聖光祝福的英雄挺身而出，結束巫妖王的黑暗統治。銀白十字軍為此登高一呼，召集各方英雄來到巫妖王的大門前，在艾澤拉斯前所未見的聯賽場上，證明自己的實力。當然，這樣的聯賽需要一個適當的場地。尋求資格的參賽者在此接受嚴苛的試煉；英雄在此……成為勇士。這裡就叫做十字軍大競技場。"
+Inst88Caption = "十字軍試煉"
+Inst88QAA = "無任務"
+Inst88QAH = "無任務"
 
 
 
@@ -12843,6 +12869,16 @@ Inst83Quest1_HORDE_Folgequest = "無"
 
 
 
+--------------- INST89 - Isle of Conquest (IoC)  ---------------
+
+Inst89Story = "北裂境海外某處的一座小島。僅僅是一塊岩石，幾乎不會讓人想多看一眼。它或許看似不顯眼，但絕非一個平凡的島嶼。如雷般的聲響來自於海浪不斷拍打著沿岸，而憤怒的嘶吼則源自於，島上那一望無際的染血戰場上，刀刃相接的聲響。\n\n歡迎來到征服之島。"
+Inst89Caption = "征服之島"
+Inst89QAA = "無任務"
+Inst89QAH = "無任務"
+
+
+
+
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
 ---------------------------------------------------
@@ -13383,4 +13419,7 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 84 = Naxxramas (Naxx)
 -- 85 = Vault of Archavon
 -- 86 = Ulduar
+-- 87 = Trial of the Champion
+-- 88 = Trial of the Crusader
+-- 89 = Isle of Conquest
 end
