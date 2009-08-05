@@ -257,6 +257,12 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarD") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarE") then
 		AQINSTANZ = 86;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheChampion") then
+		AQINSTANZ = 87;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheCrusader") then
+		AQINSTANZ = 88;
+
 
 
 	-- Battlegrounds
@@ -278,6 +284,9 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\StrandOfTheAncients") then
 		AQINSTANZ = 83;
+
+	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
+		AQINSTANZ = 89;
 
 
 	-- Outdoor Raids
@@ -547,6 +556,12 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld1Siege") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld2Ante") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld3Keepers") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld4Spark") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld5Descent") then
 		AQINSTANZ = 86;
 
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TrialOfTheChampion") then
+		AQINSTANZ = 87;
+
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TrialOfTheCrusader") then
+		AQINSTANZ = 88;
+
 
 	-- Battlegrounds
 
@@ -564,6 +579,9 @@ function AtlasQuest_InstanzencheckAM()
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\SotA") then
 		AQINSTANZ = 83;
+
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\IsleOfConquest") then
+		AQINSTANZ = 89;
 
 
 	-- Default
@@ -695,3 +713,6 @@ end
 -- 84 = Naxxramas (Naxx)
 -- 85 = Vault of Archavon
 -- 86 = Ulduar
+-- 87 = Trial of the Champion
+-- 88 = Trial of the Crusader
+-- 89 = Isle of Conquest
