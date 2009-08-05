@@ -9606,6 +9606,7 @@ Inst69Quest1name1 = "Kirin Tor Commendation Badge"
 Inst69Quest1name2 = "Argent Crusade Commendation Badge"
 Inst69Quest1name3 = "Ebon Blade Commendation Badge"
 Inst69Quest1name4 = "Wyrmrest Commendation Badge"
+Inst69Quest1name5 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst69Quest2 = "2. Proof of Demise: Mal'Ganis (Heroic Daily)"
@@ -9617,7 +9618,7 @@ Inst69Quest2_Note = "This daily quest can only be completed on Heroic difficulty
 Inst69Quest2_Prequest = "None"
 Inst69Quest2_Folgequest = "None"
 --
-Inst69Quest2name1 = "Emblem of Heroism"
+Inst69Quest2name1 = "Emblem of Triumph"
 
 --Quest 3 Alliance
 Inst69Quest3 = "3. Dispelling Illusions"
@@ -9661,6 +9662,7 @@ Inst69Quest1name1_HORDE = Inst69Quest1name1
 Inst69Quest1name2_HORDE = Inst69Quest1name2
 Inst69Quest1name3_HORDE = Inst69Quest1name3
 Inst69Quest1name4_HORDE = Inst69Quest1name4
+Inst69Quest1name5_HORDE = Inst69Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst69Quest2_HORDE = Inst69Quest2
@@ -9720,7 +9722,7 @@ Inst70Quest1_Note = "This daily quest can only be completed on Heroic difficulty
 Inst70Quest1_Prequest = "None"
 Inst70Quest1_Folgequest = "None"
 --
-Inst70Quest1name1 = "Emblem of Heroism"
+Inst70Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst70Quest2 = "2. Into Utgarde!"
@@ -9831,6 +9833,7 @@ Inst71Quest1name1 = "Kirin Tor Commendation Badge"
 Inst71Quest1name2 = "Argent Crusade Commendation Badge"
 Inst71Quest1name3 = "Ebon Blade Commendation Badge"
 Inst71Quest1name4 = "Wyrmrest Commendation Badge"
+Inst71Quest1name5 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst71Quest2 = "2. Proof of Demise: King Ymiron (Heroic Daily)"
@@ -9842,7 +9845,7 @@ Inst71Quest2_Note = "This daily quest can only be completed on Heroic difficulty
 Inst71Quest2_Prequest = "None"
 Inst71Quest2_Folgequest = "None"
 --
-Inst71Quest2name1 = "Emblem of Heroism"
+Inst71Quest2name1 = "Emblem of Triumph"
 
 --Quest 3 Alliance
 Inst71Quest3 = "3. Junk in My Trunk"
@@ -9890,6 +9893,7 @@ Inst71Quest1name1_HORDE = Inst71Quest1name1
 Inst71Quest1name2_HORDE = Inst71Quest1name2
 Inst71Quest1name3_HORDE = Inst71Quest1name3
 Inst71Quest1name4_HORDE = Inst71Quest1name4
+Inst71Quest1name5_HORDE = Inst71Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst71Quest2_HORDE = Inst71Quest2
@@ -9953,7 +9957,7 @@ Inst72Quest1_Note = "This daily quest can only be completed on Heroic difficulty
 Inst72Quest1_Prequest = "None"
 Inst72Quest1_Folgequest = "None"
 --
-Inst72Quest1name1 = "Emblem of Heroism"
+Inst72Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst72Quest2 = "2. Have They No Shame?"
@@ -10117,6 +10121,7 @@ Inst73Quest1name1 = "Kirin Tor Commendation Badge"
 Inst73Quest1name2 = "Argent Crusade Commendation Badge"
 Inst73Quest1name3 = "Ebon Blade Commendation Badge"
 Inst73Quest1name4 = "Wyrmrest Commendation Badge"
+Inst73Quest1name5 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst73Quest2 = "2. Proof of Demise: Ley-Guardian Eregos (Heroic Daily)"
@@ -10128,7 +10133,7 @@ Inst73Quest2_Note = "This daily quest can only be completed on Heroic difficulty
 Inst73Quest2_Prequest = "None"
 Inst73Quest2_Folgequest = "None"
 --
-Inst73Quest2name1 = "Emblem of Heroism"
+Inst73Quest2name1 = "Emblem of Triumph"
 
 --Quest 3 Alliance
 Inst73Quest3 = "3. The Struggle Persists"
@@ -10200,6 +10205,7 @@ Inst73Quest1name1_HORDE = Inst73Quest1name1
 Inst73Quest1name2_HORDE = Inst73Quest1name2
 Inst73Quest1name3_HORDE = Inst73Quest1name3
 Inst73Quest1name4_HORDE = Inst73Quest1name4
+Inst73Quest1name5_HORDE = Inst73Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst73Quest2_HORDE = Inst73Quest2
@@ -10361,7 +10367,7 @@ Inst75Quest1_Note = "This daily quest can only be completed on Heroic difficulty
 Inst75Quest1_Prequest = "None"
 Inst75Quest1_Folgequest = "None"
 --
-Inst75Quest1name1 = "Emblem of Heroism"
+Inst75Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst75Quest2 = "2. Don't Forget the Eggs!"
@@ -10455,7 +10461,7 @@ Inst76Quest1_Note = "This daily quest can only be completed on Heroic difficulty
 Inst76Quest1_Prequest = "None"
 Inst76Quest1_Folgequest = "None"
 --
-Inst76Quest1name1 = "Emblem of Heroism"
+Inst76Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst76Quest2 = "2. All Things in Good Time (Heroic Daily)"
@@ -10565,7 +10571,7 @@ Inst77Quest1_Note = "This daily quest can only be completed on Heroic difficulty
 Inst77Quest1_Prequest = "None"
 Inst77Quest1_Folgequest = "None"
 --
-Inst77Quest1name1 = "Emblem of Heroism"
+Inst77Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst77Quest2 = "2. Halls of Stone"
@@ -10633,6 +10639,7 @@ Inst78Quest1name1 = "Kirin Tor Commendation Badge"
 Inst78Quest1name2 = "Argent Crusade Commendation Badge"
 Inst78Quest1name3 = "Ebon Blade Commendation Badge"
 Inst78Quest1name4 = "Wyrmrest Commendation Badge"
+Inst78Quest1name5 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst78Quest2 = "2. Proof of Demise: Loken (Heroic Daily)"
@@ -10644,7 +10651,7 @@ Inst78Quest2_Note = "This daily quest can only be completed on Heroic difficulty
 Inst78Quest2_Prequest = "None"
 Inst78Quest2_Folgequest = "None"
 --
-Inst78Quest2name1 = "Emblem of Heroism"
+Inst78Quest2name1 = "Emblem of Triumph"
 
 --Quest 3 Alliance
 Inst78Quest3 = "3. Whatever it Takes!"
@@ -10694,6 +10701,7 @@ Inst78Quest1name1_HORDE = Inst78Quest1name1
 Inst78Quest1name2_HORDE = Inst78Quest1name2
 Inst78Quest1name3_HORDE = Inst78Quest1name3
 Inst78Quest1name4_HORDE = Inst78Quest1name4
+Inst78Quest1name5_HORDE = Inst78Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
@@ -10768,7 +10776,7 @@ Inst80Quest1_Note = "This daily quest can only be completed on Heroic difficulty
 Inst80Quest1_Prequest = "None"
 Inst80Quest1_Folgequest = "None"
 --
-Inst80Quest1name1 = "Emblem of Heroism"
+Inst80Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst80Quest2 = "2. Cleansing Drak'Tharon"
@@ -10896,7 +10904,7 @@ Inst81Quest1_Note = "This daily quest can only be completed on Heroic difficulty
 Inst81Quest1_Prequest = "None"
 Inst81Quest1_Folgequest = "None"
 --
-Inst81Quest1name1 = "Emblem of Heroism"
+Inst81Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst81Quest2 = "2. For Posterity"
@@ -11026,7 +11034,7 @@ Inst82Quest1_Note = "This daily quest can only be completed on Heroic difficulty
 Inst82Quest1_Prequest = "None"
 Inst82Quest1_Folgequest = "None"
 --
-Inst82Quest1name1 = "Emblem of Heroism"
+Inst82Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst82Quest2 = "2. Discretion is Key"
@@ -11575,6 +11583,24 @@ Inst86Quest16name1_HORDE = Inst86Quest16name1
 Inst86Quest16name2_HORDE = Inst86Quest16name2
 Inst86Quest16name3_HORDE = Inst86Quest16name3
 Inst86Quest16name4_HORDE = Inst86Quest16name4
+
+
+
+--------------- INST87 - Trial of the Champion ---------------
+
+Inst87Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum."
+Inst87Caption = "Trial of the Champion"
+Inst87QAA = "No Quests"
+Inst87QAH = "No Quests"
+
+
+
+--------------- INST88 - Trial of the Crusader ---------------
+
+Inst88Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum."
+Inst88Caption = "Trial of the Crusader"
+Inst88QAA = "No Quests"
+Inst88QAH = "No Quests"
 
 
 
@@ -12198,6 +12224,15 @@ Inst83Quest1_HORDE_Folgequest = "None"
 
 
 
+--------------- INST89 - Isle of Conquest (IoC)  ---------------
+
+Inst89Story = "An island somewhere off the shores of Northrend. A rock, hardly worth a second look. But as insignificant as it may seem, this is no ordinary place. A sound of thunder as waves crash endlessly against rocky cliffs; a sound of fury as swords clash on the blood-stained fields of this island on the edge of forever.\n\nWelcome to the Isle of Conquest."
+Inst89Caption = "Isle of Conquest"
+Inst89QAA = "No Quest"
+Inst89QAH = "No Quest"
+
+
+
 
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
@@ -12746,3 +12781,6 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 84 = Naxxramas (Naxx)
 -- 85 = Vault of Archavon
 -- 86 = Ulduar
+-- 87 = Trial of the Champion
+-- 88 = Trial of the Crusader
+-- 89 = Isle of Conquest

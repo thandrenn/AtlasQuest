@@ -4,7 +4,11 @@ Changelog
 
 Version 4.3.5
 
+- TOC updated for Patch 3.2
+- Basic support added for Trial of the Crusader, Trial of the Champion and Isle of Conquest.
+- Updated rewards for Proof of Demise and Timear Foresees quests.
 - Updated Map names for AlphaMap 3.75.
+- Updates to localizations: ruRU, znTW. 
 
 - Fixes:
 	- Corrected typo in LBRS: Kibler's Exotic Pets  (thanks gothic251)
