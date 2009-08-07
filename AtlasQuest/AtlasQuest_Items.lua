@@ -7757,6 +7757,13 @@ Inst83Quest1Rewardtext_HORDE = AQNoReward
 
 --------------- INST89 - Isle of Conquest (IoC)  ---------------
 
+--Quest 1 Alliance
+Inst89Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst89Quest1Rewardtext_HORDE = AQNoReward
+
 
 
 

@@ -257,7 +257,8 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarD") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarE") then
 		AQINSTANZ = 86;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheChampion") then
+	--elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheChampion") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceEast") then
 		AQINSTANZ = 87;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheCrusader") then
@@ -285,7 +286,8 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\StrandOfTheAncients") then
 		AQINSTANZ = 83;
 
-	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
+--	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
+	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceWest") then
 		AQINSTANZ = 89;
 
 
