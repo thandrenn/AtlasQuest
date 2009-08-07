@@ -8,11 +8,11 @@ Version 4.3.5
 - Basic support added for Trial of the Crusader, Trial of the Champion and Isle of Conquest.
 - Updated rewards for Proof of Demise and Timear Foresees quests.
 - Updated Map names for AlphaMap 3.75.
-- Updates to localizations: ruRU, znTW. 
+- Updates to localizations: ruRU, zhTW. 
 
 - Fixes:
 	- Corrected typo in LBRS: Kibler's Exotic Pets  (thanks gothic251)
-	- Clarified what Grime-Encrusted Ring drops from in Gnomeregan.  (thanks gothic251)
+	- Clarified what the Grime-Encrusted Ring drops from in Gnomeregan.  (thanks gothic251)
 	- Prequest added for Utgarde Keep: A Score to Settle (Horde)  (thanks tailslee)
 	
 - Quests added:
