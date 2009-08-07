@@ -11590,8 +11590,34 @@ Inst86Quest16name4_HORDE = Inst86Quest16name4
 
 Inst87Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum."
 Inst87Caption = "Trial of the Champion"
-Inst87QAA = "No Quests"
-Inst87QAH = "No Quests"
+Inst87QAA = "1 Quest"
+Inst87QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst87Quest1 = "1. Proof of Demise: The Black Knight (Heroic)"
+Inst87Quest1_Level = "80"
+Inst87Quest1_Attain = "80"
+Inst87Quest1_Aim = "Archmage Lan'dalock in Dalaran wants you to return with a Fragment of the Black Knight's Soul."
+Inst87Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst87Quest1_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Knight is the final boss in Trial of the Champion."
+Inst87Quest1_Prequest = "None"
+Inst87Quest1_Folgequest = "None"
+--
+Inst87Quest1name1 = "Emblem of Triumph"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst87Quest1_HORDE = Inst87Quest1
+Inst87Quest1_HORDE_Level = Inst87Quest1_Level
+Inst87Quest1_HORDE_Attain = Inst87Quest1_Attain
+Inst87Quest1_HORDE_Aim = Inst87Quest1_Aim
+Inst87Quest1_HORDE_Location = Inst87Quest1_Location
+Inst87Quest1_HORDE_Note = Inst87Quest1_Note
+Inst87Quest1_HORDE_Prequest = Inst87Quest1_Prequest
+Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest
+--
+Inst87Quest1name1_HORDE = Inst87Quest1name1
+
 
 
 

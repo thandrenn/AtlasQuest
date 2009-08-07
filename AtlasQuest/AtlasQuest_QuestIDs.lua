@@ -1951,6 +1951,14 @@ AQ_13819_Level = "80"
 
 --------------- INST87 - Trial of the Champion ---------------
 
+Inst87Quest1_QuestID = "14199"
+
+Inst87Quest1_HORDE_QuestID = "14199"
+
+
+AQ_14199_Level = "80"
+
+
 
 
 --------------- INST88 - Trial of the Crusader ---------------
