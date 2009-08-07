@@ -7494,6 +7494,22 @@ Inst86Quest16ID4_HORDE = "45614"
 
 --------------- INST87 - Trial of the Champion ---------------
 
+--Quest 1 Alliance
+Inst87Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst87Quest1ITC1 = Itemc5;
+Inst87Quest1description1 = AQITEM_ITEM
+Inst87Quest1ID1 = "47241"
+
+
+--Quest 1 Horde
+Inst87Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst87Quest1ITC1_HORDE = Itemc5;
+Inst87Quest1description1_HORDE = AQITEM_ITEM
+Inst87Quest1ID1_HORDE = "47241"
+
+
 
 
 --------------- INST88 - Trial of the Crusader ---------------

@@ -14,6 +14,9 @@ Version 4.3.5
 	- Corrected typo in LBRS: Kibler's Exotic Pets  (thanks gothic251)
 	- Clarified what Grime-Encrusted Ring drops from in Gnomeregan.  (thanks gothic251)
 	- Prequest added for Utgarde Keep: A Score to Settle (Horde)  (thanks tailslee)
+	
+- Quests added:
+	- Trial of the Champion: Proof of Demise: The Black Knight (Heroic)
 
 
 	
