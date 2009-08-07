@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.3.6
+
+- Quests added:
+	- Call to Arms: Isle of Conquest (Daily)
+
+
+
+
 Version 4.3.5
 
 - TOC updated for Patch 3.2
@@ -16,7 +24,7 @@ Version 4.3.5
 	- Prequest added for Utgarde Keep: A Score to Settle (Horde)  (thanks tailslee)
 	
 - Quests added:
-	- Trial of the Champion: Proof of Demise: The Black Knight (Heroic)
+	- Trial of the Champion: Proof of Demise: The Black Knight (Heroic Daily)
 
 
 	
