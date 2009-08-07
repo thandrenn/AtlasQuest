@@ -25,9 +25,9 @@
 --[[
 
 	Traditional Chinese Translated by Jill
-	「世界之樹※天命之誓※娗宮羽」繁體中文化
-	Last Updated: 2009-08-05
-	最後更新﹕二○○九年八月五日
+	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
+	Last Updated: 2009-08-08
+	最後更新﹕二○○九年八月八日
 	新增　巫妖王之怒 - 奧杜亞　故事＆任務
 
 --]]
@@ -12237,8 +12237,33 @@ Inst86Quest16name4_HORDE = Inst86Quest16name4
 
 Inst87Story = "直搗天譴軍團心臟的時刻逐漸迫近。艾澤拉斯風起雲湧，各路英雄齊聚在飽經風霜的戰旗下，準備迎接即將來臨的暴風雨。人們說，即使烏雲蔽日，也能見到一絲光明。希望的曙光激勵著銀白十字軍的男男女女：希望聖光能帶領他們走過艱苦的時刻，希望善良能戰勝邪惡，希望能有一位受到聖光祝福的英雄挺身而出，結束巫妖王的黑暗統治。銀白十字軍為此登高一呼，召集各方英雄來到巫妖王的大門前，在艾澤拉斯前所未見的聯賽場上，證明自己的實力。當然，這樣的聯賽需要一個適當的場地。尋求資格的參賽者在此接受嚴苛的試煉；英雄在此……成為勇士。這裡就叫做十字軍大競技場。"
 Inst87Caption = "勇士試煉"
-Inst87QAA = "無任務"
-Inst87QAH = "無任務"
+Inst87QAA = "1 個任務"
+Inst87QAH = "1 個任務"
+
+--Quest 1 Alliance
+Inst87Quest1 = "1. 死亡證明:黑騎士 (英雄每日)"
+Inst87Quest1_Level = "80"
+Inst87Quest1_Attain = "80"
+Inst87Quest1_Aim = "達拉然的大法師朗達拉克要你帶給他一片黑騎士的靈魂碎片。"
+Inst87Quest1_Location = "大法師朗達拉克（達拉然 - 紫羅蘭堡; "..YELLOW.."57.6, 66.9"..WHITE.."）"
+Inst87Quest1_Note = "這個任務只能在英雄難度下完成。\n\n黑騎士是勇士試煉裡的最終頭目。"
+Inst87Quest1_Prequest = "無"
+Inst87Quest1_Folgequest = "無"
+--
+Inst87Quest1name1 = "凱旋紋章"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst87Quest1_HORDE = Inst87Quest1
+Inst87Quest1_HORDE_Level = Inst87Quest1_Level
+Inst87Quest1_HORDE_Attain = Inst87Quest1_Attain
+Inst87Quest1_HORDE_Aim = Inst87Quest1_Aim
+Inst87Quest1_HORDE_Location = Inst87Quest1_Location
+Inst87Quest1_HORDE_Note = Inst87Quest1_Note
+Inst87Quest1_HORDE_Prequest = Inst87Quest1_Prequest
+Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest
+--
+Inst87Quest1name1_HORDE = Inst87Quest1name1
 
 
 
