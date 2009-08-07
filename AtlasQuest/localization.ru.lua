@@ -9606,6 +9606,7 @@ Inst69Quest1name1 = "Kirin Tor Commendation Badge"
 Inst69Quest1name2 = "Argent Crusade Commendation Badge"
 Inst69Quest1name3 = "Ebon Blade Commendation Badge"
 Inst69Quest1name4 = "Wyrmrest Commendation Badge"
+Inst69Quest1name5 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst69Quest2 = "2. Доказательство смерти: Мал'Ганис (Героическое ежедневное)"
@@ -9661,6 +9662,7 @@ Inst69Quest1name1_HORDE = Inst69Quest1name1
 Inst69Quest1name2_HORDE = Inst69Quest1name2
 Inst69Quest1name3_HORDE = Inst69Quest1name3
 Inst69Quest1name4_HORDE = Inst69Quest1name4
+Inst69Quest1name5_HORDE = Inst69Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst69Quest2_HORDE = Inst69Quest2
@@ -9720,7 +9722,7 @@ Inst70Quest1_Note = "Это задание выполняется в герои�
 Inst70Quest1_Prequest = "Нет"
 Inst70Quest1_Folgequest = "Нет"
 --
-Inst70Quest1name1 = "Emblem of Heroism"
+Inst70Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst70Quest2 = "2. На Утгард!"
@@ -9831,6 +9833,7 @@ Inst71Quest1name1 = "Kirin Tor Commendation Badge"
 Inst71Quest1name2 = "Argent Crusade Commendation Badge"
 Inst71Quest1name3 = "Ebon Blade Commendation Badge"
 Inst71Quest1name4 = "Wyrmrest Commendation Badge"
+Inst71Quest1name5 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst71Quest2 = "2. Доказательство смерти: король Имирон (Героическое ежедневное)"
@@ -9842,7 +9845,7 @@ Inst71Quest2_Note = "Это задание выполняется в герои�
 Inst71Quest2_Prequest = "Нет"
 Inst71Quest2_Folgequest = "Нет"
 --
-Inst71Quest2name1 = "Emblem of Heroism"
+Inst71Quest2name1 = "Emblem of Triumph"
 
 --Quest 3 Alliance
 Inst71Quest3 = "3. Пустой сундук"
@@ -9890,6 +9893,7 @@ Inst71Quest1name1_HORDE = Inst71Quest1name1
 Inst71Quest1name2_HORDE = Inst71Quest1name2
 Inst71Quest1name3_HORDE = Inst71Quest1name3
 Inst71Quest1name4_HORDE = Inst71Quest1name4
+Inst71Quest1name5_HORDE = Inst71Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst71Quest2_HORDE = Inst71Quest2
@@ -9953,7 +9957,7 @@ Inst72Quest1_Note = "Это задание выполняется в герои�
 Inst72Quest1_Prequest = "Нет"
 Inst72Quest1_Folgequest = "Нет"
 --
-Inst72Quest1name1 = "Emblem of Heroism"
+Inst72Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst72Quest2 = "2. Ни стыда, ни совести"
@@ -10117,6 +10121,7 @@ Inst73Quest1name1 = "Kirin Tor Commendation Badge"
 Inst73Quest1name2 = "Argent Crusade Commendation Badge"
 Inst73Quest1name3 = "Ebon Blade Commendation Badge"
 Inst73Quest1name4 = "Wyrmrest Commendation Badge"
+Inst73Quest1name5 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst73Quest2 = "2. Доказательство смерти: хранитель энергии Эрегос (Героическое ежедневное)"
@@ -10128,7 +10133,7 @@ Inst73Quest2_Note = "Это задание выполняется в герои�
 Inst73Quest2_Prequest = "Нет"
 Inst73Quest2_Folgequest = "Нет"
 --
-Inst73Quest2name1 = "Emblem of Heroism"
+Inst73Quest2name1 = "Emblem of Triumph"
 
 --Quest 3 Alliance
 Inst73Quest3 = "3. И вновь продолжается бой"
@@ -10200,6 +10205,7 @@ Inst73Quest1name1_HORDE = Inst73Quest1name1
 Inst73Quest1name2_HORDE = Inst73Quest1name2
 Inst73Quest1name3_HORDE = Inst73Quest1name3
 Inst73Quest1name4_HORDE = Inst73Quest1name4
+Inst73Quest1name5_HORDE = Inst73Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst73Quest2_HORDE = Inst73Quest2
@@ -10361,7 +10367,7 @@ Inst75Quest1_Note = "Это задание выполняется в герои�
 Inst75Quest1_Prequest = "Нет"
 Inst75Quest1_Folgequest = "Нет"
 --
-Inst75Quest1name1 = "Emblem of Heroism"
+Inst75Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst75Quest2 = "2. И не забудь о яйцах!"
@@ -10455,7 +10461,7 @@ Inst76Quest1_Note = "Это задание выполняется в герои�
 Inst76Quest1_Prequest = "Нет"
 Inst76Quest1_Folgequest = "Нет"
 --
-Inst76Quest1name1 = "Emblem of Heroism"
+Inst76Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst76Quest2 = "2. Все хорошо в свое время"
@@ -10565,7 +10571,7 @@ Inst77Quest1_Note = "Это задание выполняется в герои�
 Inst77Quest1_Prequest = "Нет"
 Inst77Quest1_Folgequest = "Нет"
 --
-Inst77Quest1name1 = "Emblem of Heroism"
+Inst77Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst77Quest2 = "2. Чертоги Камня"
@@ -10633,6 +10639,7 @@ Inst78Quest1name1 = "Kirin Tor Commendation Badge"
 Inst78Quest1name2 = "Argent Crusade Commendation Badge"
 Inst78Quest1name3 = "Ebon Blade Commendation Badge"
 Inst78Quest1name4 = "Wyrmrest Commendation Badge"
+Inst78Quest1name5 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst78Quest2 = "2. Доказательство смерти: Локен (Героическое ежедневное)"
@@ -10644,7 +10651,7 @@ Inst78Quest2_Note = "Это задание выполняется в герои�
 Inst78Quest2_Prequest = "Нет"
 Inst78Quest2_Folgequest = "Нет"
 --
-Inst78Quest2name1 = "Emblem of Heroism"
+Inst78Quest2name1 = "Emblem of Triumph"
 
 --Quest 3 Alliance
 Inst78Quest3 = "3. Любой ценой!"
@@ -10694,6 +10701,7 @@ Inst78Quest1name1_HORDE = Inst78Quest1name1
 Inst78Quest1name2_HORDE = Inst78Quest1name2
 Inst78Quest1name3_HORDE = Inst78Quest1name3
 Inst78Quest1name4_HORDE = Inst78Quest1name4
+Inst78Quest1name5_HORDE = Inst78Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
@@ -10775,7 +10783,7 @@ Inst80Quest1_Note = "Это задание выполняется в герои�
 Inst80Quest1_Prequest = "Нет"
 Inst80Quest1_Folgequest = "Нет"
 --
-Inst80Quest1name1 = "Emblem of Heroism"
+Inst80Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst80Quest2 = "2. Очищение Драк'Тарона"
@@ -10903,7 +10911,7 @@ Inst81Quest1_Note = "Это задание выполняется в герои�
 Inst81Quest1_Prequest = "Нет"
 Inst81Quest1_Folgequest = "Нет"
 --
-Inst81Quest1name1 = "Emblem of Heroism"
+Inst81Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst81Quest2 = "2. Для наших потомков"
@@ -11033,7 +11041,7 @@ Inst82Quest1_Note = "Это задание выполняется в герои�
 Inst82Quest1_Prequest = "Нет"
 Inst82Quest1_Folgequest = "Нет"
 --
-Inst82Quest1name1 = "Emblem of Heroism"
+Inst82Quest1name1 = "Emblem of Triumph"
 
 --Quest 2 Alliance
 Inst82Quest2 = "2. Главное – скрытность"
@@ -11584,6 +11592,48 @@ Inst86Quest16name1_HORDE = Inst86Quest16name1
 Inst86Quest16name2_HORDE = Inst86Quest16name2
 Inst86Quest16name3_HORDE = Inst86Quest16name3
 Inst86Quest16name4_HORDE = Inst86Quest16name4
+
+
+
+--------------- INST87 - Trial of the Champion ---------------
+
+Inst87Story = "Удар в самое сердце Плети неотвратим. Облака застилают небо над Азеротом, и герои собираются под изорванными знаменами, чтобы подготовиться к грядущему шторму. Говорят, что даже у самой черной тучи серебристый ореол. Это надежда, вдохновляющяя мужей и женщин Серебряного Авангарда: надежда, что сам Свет проведет их через время испытаний, надежда, что добро снова восторжествует над злом, надежда, что герой, благословленный Светом, положит конец темному царству Короля-лича.  \n\nПрозвучал клич Серебряного авангарда - призыв к оружию, зов, обращенный ко всем защитникам Азерота, встретиться у порога крепости Короля-лича и показать на турнире доблесть, какой еще не знали в Азероте. Безусловно, подобному турниру нужна арена. Место, где воины тренируются на износ. Место, где герои становятся чемпионами. Место, названное Колизеем Серебряного Авангарда."
+Inst87Caption = "Испытание чемпиона"
+Inst87QAA = "1 задание"
+Inst87QAH = "1 задание"
+
+--Quest 1 Alliance
+Inst87Quest1 = "1. Доказательство смерти: Черный рыцарь (героич.)"
+Inst87Quest1_Level = "80"
+Inst87Quest1_Attain = "80"
+Inst87Quest1_Aim = "Принесите [частицу души Черного Рыцаря] верховному магу Ландалоку из Даларана."
+Inst87Quest1_Location = "Верховный маг Лан'далок (Даларан - Аметистовая крепость; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst87Quest1_Note = "Это задание выполняется в героическом режиме сложности.\n\Черный рыцарь - последний босс в Испытании чемпиона."
+Inst87Quest1_Prequest = "Нет"
+Inst87Quest1_Folgequest = "Нет"
+--
+Inst87Quest1name1 = "Emblem of Triumph"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst87Quest1_HORDE = Inst87Quest1
+Inst87Quest1_HORDE_Level = Inst87Quest1_Level
+Inst87Quest1_HORDE_Attain = Inst87Quest1_Attain
+Inst87Quest1_HORDE_Aim = Inst87Quest1_Aim
+Inst87Quest1_HORDE_Location = Inst87Quest1_Location
+Inst87Quest1_HORDE_Note = Inst87Quest1_Note
+Inst87Quest1_HORDE_Prequest = Inst87Quest1_Prequest
+Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest
+--
+Inst87Quest1name1_HORDE = Inst87Quest1name1
+
+
+--------------- INST88 - Trial of the Crusader ---------------
+
+Inst88Story = "Удар в самое сердце Плети неотвратим. Облака застилают небо над Азеротом, и герои собираются под изорванными знаменами, чтобы подготовиться к грядущему шторму. Говорят, что даже у самой черной тучи серебристый ореол. Это надежда, вдохновляющяя мужей и женщин Серебряного Авангарда: надежда, что сам Свет проведет их через время испытаний, надежда, что добро снова восторжествует над злом, надежда, что герой, благословленный Светом, положит конец темному царству Короля-лича.  \n\nПрозвучал клич Серебряного авангарда - призыв к оружию, зов, обращенный ко всем защитникам Азерота, встретиться у порога крепости Короля-лича и показать на турнире доблесть, какой еще не знали в Азероте. Безусловно, подобному турниру нужна арена. Место, где воины тренируются на износ. Место, где герои становятся чемпионами. Место, названное Колизеем Серебряного Авангарда."
+Inst88Caption = "Испытание крестоносца"
+Inst88QAA = "Нет заданий"
+Inst88QAH = "Нет заданий"
 
 
 
@@ -12207,6 +12257,15 @@ Inst83Quest1_HORDE_Folgequest = "Нет"
 
 
 
+--------------- INST89 - Isle of Conquest (IoC)  ---------------
+
+Inst89Story = "Остров вдали от берегов Нордскола. Ничем не примечательная скала. И все же, это не обыкновенный остров, как кажется на первый взгляд. О крутой берег с грохотом разбиваются волны: этот звук вторит яростному звону мечей тех, кто сражается на залитом кровью острове, затерянном на краю вечности. \n\nДобро пожаловать на остров Завоеваний."
+Inst89Caption = "Остров Завоеваний"
+Inst89QAA = "Нет заданий"
+Inst89QAH = "Нет заданий"
+
+
+
 
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
@@ -12755,4 +12814,7 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 84 = Naxxramas (Naxx)
 -- 85 = Vault of Archavon
 -- 86 = Ulduar
+-- 87 = Trial of the Champion
+-- 88 = Trial of the Crusader
+-- 89 = Isle of Conquest
 end
