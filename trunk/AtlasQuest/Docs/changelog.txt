@@ -4,6 +4,9 @@ Changelog
 
 Version 4.3.6
 
+- German localization updated to include most Wrath of the Lich King quests (thanks Antonidas!)
+- Updates to localizations: deDE, ruRU, zhTW
+
 - Quests added:
 	- Call to Arms: Isle of Conquest (Daily)
 
