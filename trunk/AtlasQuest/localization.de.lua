@@ -25,7 +25,7 @@
 -- German localisation by Asurn
 -- updated by Telchar (ICQ:  391632535)
 -- updated by Nalumis
--- updated by Antonidas
+-- updated by Guldukat
 
 
 if ( GetLocale() == "deDE" ) then
