@@ -2120,8 +2120,8 @@ Inst89Quest1_QuestID = "14163"
 Inst89Quest1_HORDE_QuestID = "14164"
 
 
-AQ_14163_Level = "80"
-AQ_14164_Level = "80"
+AQ_14163_Level = "-1"
+AQ_14164_Level = "-1"
 
 
 
