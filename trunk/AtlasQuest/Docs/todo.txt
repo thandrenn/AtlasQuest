@@ -22,61 +22,8 @@ the quests after the above list had to be renumbered.
 
 nonameform's list:
 BRD/MC
-DONE - Rewards for Lost Thunderbrew Recipe are 1 and 2 AND 3 OR 4.
 ONHOLD - Worth moving A Binding Contract to Blackrock Depths since NPC that starts this quest is in the Grim Guzzler.
 ONHOLD - Worth adding Rocknot's Ale to Blackrock Depths since this quest is (a) repeatable three times every run and (b) one of the possible ways to pass the Grim Guzzler.
 Not doing:
 NO - Worth moving Disharmony of Flame to Blackrock Mountain (Entrance) since NPC is not inside the instance.
 NO - Quest Dark Iron Legacy is a follow up to Dark Iron Legacy which is worth adding to Blackrock Mountain (Entrance).
-
-
-LBRS
-DONE - Worth noting that Unadorned Seal of Ascension for Seal of Ascension might drop not only in LBRS, but even outside of the instance from orcs guarding the entrance to the instance. Also Seal of Ascension is no longer required to enter UBRS.
-DONE - Reward for Fiery Plate Gauntlets (follow up to Hot Fiery Death) are 1 AND 2.
-
-
-UBRS
-DONE - There is a reward for Egg Freezing. It's an Eggscilloscope.
-DONE* - Blackrock Bracer for quest Final Preparations drops from mobs in UBRS, LBRS and outside of the instance. Mobs with "Blackhand" in their name just have higher drop rate. Might be worth adding this quest to both Blackrock Spire (Lower) and Blackrock Mountain (Entrance).
-DONE - Rewards for The Demon Forge are 1 AND 2 AND 3.
-DONE - Quest Egg Collection opens up Leonid Barthalomew which leads to Scholomance in two steps. Might be worth mentioning it as follow up.
-
-
-BWL
-DONE - There are rewards for Nefarius's Corruption. It's either Onyx Embedded Leggings or Amulet of Shadow Shielding.
-
-
-MC
-DONE - Might be worth adding Scrying Goggles? No Problem!, which is a part of the Scepter of the Shifting Sands questline (Blue Scepter Shard part). As of 3.0 quest item drops on a first kill. (Many people are doing this chain, as I can see realm-wide message "Eranikus, Tyrant of the Dream is wholly consumed by the Light of Elune. Tranquility sets in over the Moonglade." at least 10 times per month.)
-DONE - Might be worth adding rewards for a follow up to Hands of the Enemy. Rewards for A Hero's Reward are either Ocean's Breeze or Tidal Loop. Also since 3.0.8 you can no longer start this chain, as Duke Hydraxis won't give Poisoned Water to players, but when you turn in Hands of the Enemy, you get The Fifth Element achievement.
-
-
-Gnome
-DONE - There is a reward for Gnomer-gooooone!. It's a Goblin Transponder. This item is required to teleport to Gnomeregan.
-DONE - Worth adding follow up to Return of the Ring. Even though it's optional, it's worth doing if you're a low lvl char or for Loremaster achievement. Nogg's Ring Redo, reward Nogg's Gold Ring.
-DONE - Worth adding The Sparklematic 5200! which most of the time awards junk and becomes repeatable More Sparklematic Action as long as you have money and Grime-Encrusted Object.
-
-
-Kara
-DONE - Might be wotch changing quest id for The Cudgel of Kar'desh (if it wasn't changed yet). Since 3.0.2 this quest no longer awards title "Champion of the Naaru". Old quest The Cudgel of Kar'desh. (But I believe AtlasQuest simply looks at titles of the quests, not their id.)
-
-
-SM
-DONE - Worth noting that items for Hearts of Zeal drop not only from mobs inside the instance, but also outside of it, so it's soloable.
-DONE - Since two follow ups to Test of Lore only involve talking to NPCs, it might be worth adding rewards for Final Passage which are Windstorm Hammer and Dancing Flame.
-DONE - Chain that includes Rituals of Power starts at mage trainers at lvl 30 (Journey to the Marsh). Worth linking rewards for Mage's Wand, which are Icefury Wand or Nether Force Wand or Ragefire Wand.
-
-
-Scolo
-DONE - Worth adding reward for a follow up to Barov Family Fortune. Next quest is The Last Barov and it rewards Barov Peasant Caller.
-DONE - Dawn's Gambit rewards are 1 OR 2.
-DONE - Worth adding reward for The Darkreaver Menace. It's a Skyfury Helm.
-DONE - For some reason The Right Piece of Lord Valthalak's Amulet is missing.
-
-
-Strat
-DONE - Rewards listed for Above and Beyond are actually rewards for a second follow up to this one, The Argent Hold.
-DONE - Worth noting that all four quests (Atiesh, Greatstaff of the Guardian etc.) can be finished only by people who have Atiesh, Greatstaff of the Guardian, as you can't start the chain now.
-DONE - The Medallion of Faith is a repeatable hand in quest. You don't need to acquire Medallion of Faith at the same run and it can be bought at Auction House.
-DONE - The Balance of Light and Shadow has a pre-quest at the same NPC (A Warning). You need The Eye of Divinity to see the quest giver. Spectral Essence was "nerfed" pre-TBC and it only works at Caer Darrow. Also there is no Highlord Kruul in WoW anymore. The Eye of Shadow must be farmed from demons in Winterspring or Blasted Lands.
-DONE - Worth adding Paladin epic mount quest True Masters of the Light. First quest in the chain A Summons from Lord Solanar. Rewards are epic paladin ground mount, journeyman riding and Blood Knight Tabard. You can't do this chain, if you bought mount from trainer.
