@@ -5,6 +5,7 @@ Changelog
 Version 4.3.6
 
 - German localization updated to include most Wrath of the Lich King quests (thanks Guldukat!)
+- Small grammar, clarification and typo fixes (thanks gothic251)
 - Updates to localizations: deDE, ruRU, zhTW
 
 - Quests added:
