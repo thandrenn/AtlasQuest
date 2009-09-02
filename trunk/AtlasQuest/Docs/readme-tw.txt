@@ -21,7 +21,7 @@ AtlasQuest 最初由 Asurn 研發。
 ==============
 
 　　英文﹕Thandrenn（前為 Asurn 及 Lothaer）
-　　德文﹕Telchar 與 Nalumis（前為 Asurn 及 Nihlo）
+　　德文﹕Guldukat、Telchar 與 Nalumis（前為 Asurn 及 Nihlo）
 簡體中文﹕yeachan（前為 DIY）
 繁體中文﹕Jill
 　　俄文﹕EvgeshaH
@@ -38,7 +38,11 @@ AtlasQuest 基於 GNU通用公共許可證（GPL）公開發表。
 
 繁體中文化更新履歷：
 ====================
-2009年08月08日　AtlasQuest v4.3.6　最新一次更新
+2009年09月02日　AtlasQuest v4.3.6　最新一次更新
+　　　　　　　　德文語言檔更新至最新版！（感謝Guldukat！）
+　　　　　　　　修改部分任務文法（英文版）及敘述（感謝gothic251）
+
+2009年08月08日　AtlasQuest v4.3.6
 　　　　　　　　新增　征服之島　任務一則
 
 2009年08月07日　AtlasQuest v4.3.5
@@ -46,7 +50,7 @@ AtlasQuest 基於 GNU通用公共許可證（GPL）公開發表。
 
 2009年08月05日　AtlasQuest v4.3.5
 　　　　　　　　配合遊戲升級至 3.2版本
-　　　　　　　　俄語、繁體中文語言檔更新至最新版！
+　　　　　　　　繁體中文、俄文語言檔更新至最新版！
 　　　　　　　　更新AlphaMap至3.75版本
 　　　　　　　　新增　十字軍試煉
 　　　　　　　　新增　勇士試煉
