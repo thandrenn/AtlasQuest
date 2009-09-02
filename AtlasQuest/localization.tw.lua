@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2009-08-08
-	最後更新﹕二○○九年八月八日
+	Last Updated: 2009-09-02
+	最後更新﹕二○○九年九月二日
 	新增　巫妖王之怒 - 十字軍的呼喚　故事＆任務
 
 --]]
@@ -1992,7 +1992,7 @@ Inst9Quest4_Level = "60"
 Inst9Quest4_Attain = "55"
 Inst9Quest4_Aim = "將艾博希爾之眼交給艾薩拉的海達克西斯公爵。"
 Inst9Quest4_Location = "海達克西斯公爵（艾薩拉; "..YELLOW.."79,73"..WHITE.."）"
-Inst9Quest4_Note = "你可以在"..YELLOW.."[1]"..WHITE.."找到烈焰衛士艾博希爾。"
+Inst9Quest4_Note = "你可以在"..YELLOW.."[1]"..WHITE.."找到烈焰衛士艾博希爾。在3.0.8版本之後你將不再需要進行這條任務線了，如果你已經擁有這個任務了，你仍然可以完成它。"
 Inst9Quest4_Prequest = "被囚禁的水元素→雷暴和磐石"
 Inst9Quest4_Folgequest = "熔火之心"
 Inst9Quest4PreQuest = "true"
@@ -3199,7 +3199,7 @@ Inst14Quest1_Level = "60"
 Inst14Quest1_Attain = "58"
 Inst14Quest1_Aim = "殺死一個火焰之王、一個熔岩巨人、一個上古熔火惡犬和一個熔岩奔騰者，然後回到艾薩拉的海達克西斯公爵那裡。"
 Inst14Quest1_Location = "海達克西斯公爵（艾薩拉; "..YELLOW.."79,73"..WHITE.."）"
-Inst14Quest1_Note = "任務怪在團隊行進中即可完成擊殺。"
+Inst14Quest1_Note = "任務怪在團隊行進中即可完成擊殺。在3.0.8版本之後你將不再需要進行這條任務線了，如果你已經擁有這個任務了，你仍然可以完成它。"
 Inst14Quest1_Prequest = "艾博希爾之眼（"..YELLOW.."黑石塔上層"..WHITE.."）"
 Inst14Quest1_Folgequest = "海達克西斯的使者"
 Inst14Quest1PreQuest = "true"
