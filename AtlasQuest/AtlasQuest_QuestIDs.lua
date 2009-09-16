@@ -2154,12 +2154,6 @@ AQ_7634_Level = "60"
 
 
 
---------------- INST32 - Highlord Kruul ---------------
-
--- No quests.
-
-
-
 --------------- INST64 - Doom Lord Kazzak ---------------
 
 -- No quests.

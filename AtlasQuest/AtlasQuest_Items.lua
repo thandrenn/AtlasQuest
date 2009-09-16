@@ -7812,11 +7812,6 @@ Inst31Quest1ID1_HORDE = "18714"
 
 
 
---------------- INST32 - Highlord Kruul ---------------
-
-
-
-
 --------------- INST64 - Doom Lord Kazzak ---------------
 
 

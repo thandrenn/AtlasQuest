@@ -257,8 +257,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarD") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarE") then
 		AQINSTANZ = 86;
 
-	--elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheChampion") then
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceEast") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheChampion") then
 		AQINSTANZ = 87;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheCrusader") then
@@ -286,8 +285,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\StrandOfTheAncients") then
 		AQINSTANZ = 83;
 
---	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
-	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceWest") then
+	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
 		AQINSTANZ = 89;
 
 
@@ -298,9 +296,6 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\Azuregos")  then
 		AQINSTANZ = 31;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\HighlordKruul")  then
-		AQINSTANZ = 32;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\DoomLordKazzak")  then
 		AQINSTANZ = 64;
@@ -314,7 +309,7 @@ function AtlasQuest_Instanzenchecken()
 
 	-- Default
 
-	else --added for newer atlas version until i update atlasquest and for the flight pass maps
+	else 
 		AQINSTANZ = 36;
 	end
 end
@@ -660,7 +655,7 @@ end
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Highlord Kruul
+-- 32 = Highlord Kruul (removed)
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
@@ -713,8 +708,8 @@ end
 -- 82 = The Violet Hold
 -- 83 = Strand of the Ancients (SotA)
 -- 84 = Naxxramas (Naxx)
--- 85 = Vault of Archavon
+-- 85 = Vault of Archavon (VoA)
 -- 86 = Ulduar
--- 87 = Trial of the Champion
--- 88 = Trial of the Crusader
--- 89 = Isle of Conquest
+-- 87 = Trial of the Champion (ToC)
+-- 88 = Trial of the Crusader (ToC)
+-- 89 = Isle of Conquest (IoC)
