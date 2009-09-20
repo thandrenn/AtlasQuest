@@ -1054,8 +1054,8 @@ Inst5Quest14_Folgequest = "None"
 
 --Quest 15 Alliance
 Inst5Quest15 = "15. Save Brewfest! (Seasonal)"
-Inst5Quest15_Level = "70"
-Inst5Quest15_Attain = "65"
+Inst5Quest15_Level = "80"
+Inst5Quest15_Attain = "75"
 Inst5Quest15_Aim = "Speak with the Brewfest Spy in the Grim Guzzler of Blackrock Depths."
 Inst5Quest15_Location = "Darna Honeybock (Dun Morogh - Kharanos; "..YELLOW.."46.53"..WHITE..")"
 Inst5Quest15_Note = "This quest is only available during the Brewfest seasonal event. The Brewfest Spy is at "..YELLOW.."[15]"..WHITE.."."
@@ -1065,8 +1065,8 @@ Inst5Quest15_Folgequest = "Insult Coren Direbrew"
 
 --Quest 16 Alliance
 Inst5Quest16 = "16. Insult Coren Direbrew (Daily - Seasonal)"
-Inst5Quest16_Level = "70"
-Inst5Quest16_Attain = "65"
+Inst5Quest16_Level = "80"
+Inst5Quest16_Attain = "75"
 Inst5Quest16_Aim = "Speak with Coren Direbrew."
 Inst5Quest16_Location = "Brewfest Spy (Blackrock Depths - Grim Guzzler; "..YELLOW.."[15]"..WHITE..")"
 Inst5Quest16_Note = "Completing this quest will make Coren Direbrew attack you. It can be once a day per person during the Brewfest seasonal event.\nThe prequest only needs to be done once. Afterwards you can start the daily from inside Blackrock Depths."
