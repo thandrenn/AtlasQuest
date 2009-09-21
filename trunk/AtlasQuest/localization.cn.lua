@@ -27,7 +27,7 @@
 --  Original updater:DIY,Yeachan,Ananhaid
     
 --  简体中文化：Yeachan（6区 阿拉希 Ahunter）
---  更新日期：09年05月11日
+--  更新日期：09年09月21日
 
 
 if ( GetLocale() == "zhCN" ) then
@@ -1128,8 +1128,8 @@ Inst5Quest14_Folgequest = "无"
 
 --Quest 15 Alliance
 Inst5Quest15 = "15. 保护美酒节！ (季节性)"
-Inst5Quest15_Level = "70"
-Inst5Quest15_Attain = "65"
+Inst5Quest15_Level = "80"
+Inst5Quest15_Attain = "75"
 Inst5Quest15_Aim = "和黑石深渊里黑石酒吧的美酒节间谍对话."
 Inst5Quest15_Location = "达尔娜·蜜酒 (丹莫罗 - 卡拉诺斯; "..YELLOW.."46.53"..WHITE..")"
 Inst5Quest15_Note = "这个任务只有美酒节的时候才会出现. 美酒节间谍在 "..YELLOW.."[15]"..WHITE.."."
@@ -1139,8 +1139,8 @@ Inst5Quest15_Folgequest = "干掉科林·烈酒"
 
 --Quest 16 Alliance
 Inst5Quest16 = "16. 干掉科林·烈酒 (季节性 - 日常)"
-Inst5Quest16_Level = "70"
-Inst5Quest16_Attain = "65"
+Inst5Quest16_Level = "80"
+Inst5Quest16_Attain = "75"
 Inst5Quest16_Aim = "和科林·烈酒对话."
 Inst5Quest16_Location = "美酒节间谍 (黑石深渊 - 黑铁酒吧; "..YELLOW.."[15]"..WHITE..")"
 Inst5Quest16_Note = "完成这个任务将使 科林·烈酒 攻击你. 这个季节性日常每天只能完成一次.\n 前续任务只能完成一次，之后你只要去酒吧就可以直接接到这个任务了."
@@ -10466,7 +10466,7 @@ Inst72Quest1_Level = "80"
 Inst72Quest1_Attain = "80"
 Inst72Quest1_Aim = "达拉然的大法师兰达洛克要你将克莉斯塔萨的破碎之心交给他."
 Inst72Quest1_Location = "大法师兰达洛克 (达拉然 - 紫罗兰监狱; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst72Quest1_Note = "英雄日常任务.\n\n克莉斯塔萨 在 "..YELLOW.."[4]"..WHITE.."."
+Inst72Quest1_Note = "英雄日常任务.\n\n克莉斯塔萨 在 "..YELLOW.."[5]"..WHITE.."."
 Inst72Quest1_Prequest = "无"
 Inst72Quest1_Folgequest = "无"
 --
@@ -10478,7 +10478,7 @@ Inst72Quest2_Level = "71"
 Inst72Quest2_Attain = "70"
 Inst72Quest2_Aim = "图书馆员赛尔拉希望你进入魔枢，找回伯林纳德的研究笔记."
 Inst72Quest2_Location = "图书馆员赛尔拉 (北风苔原 - 永生之盾; "..YELLOW.."33.4, 34.3"..WHITE..")"
-Inst72Quest2_Note = "研究笔记在通向大魔导师泰蕾丝塔"..YELLOW.."[5]"..WHITE.."的大厅的地上."
+Inst72Quest2_Note = "研究笔记在通向大魔导师泰蕾丝塔"..YELLOW.."[4]"..WHITE.."的大厅的地上."
 Inst72Quest2_Prequest = "无"
 Inst72Quest2_Folgequest = "无"
 --
@@ -10510,7 +10510,7 @@ Inst72Quest4_Attain = "70"
 Inst72Quest4_Aim = "永生之盾的莱洛拉斯要你进入魔枢并施放克莉斯塔萨."
 Inst72Quest4_Location = "莱洛拉斯 (北风苔原 - 永生之盾; "..YELLOW.."33.2, 34.4"..WHITE..")"
 Inst72Quest4_Note = "克莉斯塔萨 在"..YELLOW.."[4]"..WHITE.."."
-Inst72Quest4_Prequest = "克莉斯塔萨 (接自 克莉斯塔萨"..YELLOW.."[4]"..WHITE..")-> 触动陷阱"
+Inst72Quest4_Prequest = "克莉斯塔萨 (接自 克莉斯塔萨"..YELLOW.."[5]"..WHITE..")-> 触动陷阱"
 Inst72Quest4_Folgequest = "无"
 Inst72Quest4PreQuest = "true"
 --
