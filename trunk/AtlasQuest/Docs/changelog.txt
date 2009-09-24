@@ -5,6 +5,7 @@ Changelog
 Version 4.3.6
 
 - Small updates for Atlas 1.15 (boss numbers and map names). 
+- Updated Rewards for Timear Foresees dailies (now includes Sons of Hodir Commendation Badge)
 - German localization updated to include most Wrath of the Lich King quests (thanks Guldukat!)
 - Small grammar, clarification and typo fixes (thanks gothic251)
 - Updates to localizations: deDE, ruRU, zhTW, zhCN

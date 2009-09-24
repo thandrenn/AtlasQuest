@@ -1069,7 +1069,7 @@ Inst5Quest16_Level = "80"
 Inst5Quest16_Attain = "75"
 Inst5Quest16_Aim = "Speak with Coren Direbrew."
 Inst5Quest16_Location = "Brewfest Spy (Blackrock Depths - Grim Guzzler; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest16_Note = "Completing this quest will make Coren Direbrew attack you. It can be once a day per person during the Brewfest seasonal event.\nThe prequest only needs to be done once. Afterwards you can start the daily from inside Blackrock Depths."
+Inst5Quest16_Note = "Completing this quest will make Coren Direbrew attack you. It can be done once a day per person during the Brewfest seasonal event.\nThe prequest only needs to be done once. Afterwards you can start the daily from inside Blackrock Depths."
 Inst5Quest16_Prequest = "Save Brewfest!"
 Inst5Quest16_Folgequest = "None"
 Inst5Quest16FQuest = "true"
@@ -9606,7 +9606,8 @@ Inst69Quest1name1 = "Kirin Tor Commendation Badge"
 Inst69Quest1name2 = "Argent Crusade Commendation Badge"
 Inst69Quest1name3 = "Ebon Blade Commendation Badge"
 Inst69Quest1name4 = "Wyrmrest Commendation Badge"
-Inst69Quest1name5 = "Emblem of Conquest"
+Inst69Quest1name5 = "Sons of Hodir Commendation Badge"
+Inst69Quest1name6 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst69Quest2 = "2. Proof of Demise: Mal'Ganis (Heroic Daily)"
@@ -9663,6 +9664,7 @@ Inst69Quest1name2_HORDE = Inst69Quest1name2
 Inst69Quest1name3_HORDE = Inst69Quest1name3
 Inst69Quest1name4_HORDE = Inst69Quest1name4
 Inst69Quest1name5_HORDE = Inst69Quest1name5
+Inst69Quest1name6_HORDE = Inst69Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst69Quest2_HORDE = Inst69Quest2
@@ -9833,7 +9835,8 @@ Inst71Quest1name1 = "Kirin Tor Commendation Badge"
 Inst71Quest1name2 = "Argent Crusade Commendation Badge"
 Inst71Quest1name3 = "Ebon Blade Commendation Badge"
 Inst71Quest1name4 = "Wyrmrest Commendation Badge"
-Inst71Quest1name5 = "Emblem of Conquest"
+Inst71Quest1name5 = "Sons of Hodir Commendation Badge"
+Inst71Quest1name6 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst71Quest2 = "2. Proof of Demise: King Ymiron (Heroic Daily)"
@@ -9894,6 +9897,7 @@ Inst71Quest1name2_HORDE = Inst71Quest1name2
 Inst71Quest1name3_HORDE = Inst71Quest1name3
 Inst71Quest1name4_HORDE = Inst71Quest1name4
 Inst71Quest1name5_HORDE = Inst71Quest1name5
+Inst71Quest1name6_HORDE = Inst71Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst71Quest2_HORDE = Inst71Quest2
@@ -10121,7 +10125,8 @@ Inst73Quest1name1 = "Kirin Tor Commendation Badge"
 Inst73Quest1name2 = "Argent Crusade Commendation Badge"
 Inst73Quest1name3 = "Ebon Blade Commendation Badge"
 Inst73Quest1name4 = "Wyrmrest Commendation Badge"
-Inst73Quest1name5 = "Emblem of Conquest"
+Inst73Quest1name5 = "Sons of Hodir Commendation Badge"
+Inst73Quest1name6 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst73Quest2 = "2. Proof of Demise: Ley-Guardian Eregos (Heroic Daily)"
@@ -10206,6 +10211,7 @@ Inst73Quest1name2_HORDE = Inst73Quest1name2
 Inst73Quest1name3_HORDE = Inst73Quest1name3
 Inst73Quest1name4_HORDE = Inst73Quest1name4
 Inst73Quest1name5_HORDE = Inst73Quest1name5
+Inst73Quest1name6_HORDE = Inst73Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst73Quest2_HORDE = Inst73Quest2
@@ -10639,7 +10645,8 @@ Inst78Quest1name1 = "Kirin Tor Commendation Badge"
 Inst78Quest1name2 = "Argent Crusade Commendation Badge"
 Inst78Quest1name3 = "Ebon Blade Commendation Badge"
 Inst78Quest1name4 = "Wyrmrest Commendation Badge"
-Inst78Quest1name5 = "Emblem of Conquest"
+Inst78Quest1name5 = "Sons of Hodir Commendation Badge"
+Inst78Quest1name6 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst78Quest2 = "2. Proof of Demise: Loken (Heroic Daily)"
@@ -10702,6 +10709,7 @@ Inst78Quest1name2_HORDE = Inst78Quest1name2
 Inst78Quest1name3_HORDE = Inst78Quest1name3
 Inst78Quest1name4_HORDE = Inst78Quest1name4
 Inst78Quest1name5_HORDE = Inst78Quest1name5
+Inst78Quest1name6_HORDE = Inst78Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
