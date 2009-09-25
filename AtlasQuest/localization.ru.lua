@@ -1069,7 +1069,7 @@ Inst5Quest16_Level = "80"
 Inst5Quest16_Attain = "75"
 Inst5Quest16_Aim = "Поговорите с Кореном Худоваром."
 Inst5Quest16_Location = "Шпион Фестиваля пива (Глубины Черной горы - Угрюмый обжора; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest16_Note = "Выполнение задания заставит Корена Худовара атаковать вас. Его можно выполнять раз в день во время сезонного Фестиваля пива.\nПредшествующее задание делается только один раз. После этого вы можете начать ежедневное задание прямо внутри глубин Черной горы."
+Inst5Quest16_Note = "Выполнение задания заставит Корена Худовара атаковать вас. Его можно выполнять раз в день каждому члену группы во время сезонного Фестиваля пива.\nПредшествующее задание делается только один раз. После этого вы можете начать ежедневное задание прямо внутри глубин Черной горы."
 Inst5Quest16_Prequest = "Спасем Фестиваль пива!"
 Inst5Quest16Folgequest = "Нет"
 Inst5Quest16FQuest = "true"
@@ -9606,7 +9606,8 @@ Inst69Quest1name1 = "Kirin Tor Commendation Badge"
 Inst69Quest1name2 = "Argent Crusade Commendation Badge"
 Inst69Quest1name3 = "Ebon Blade Commendation Badge"
 Inst69Quest1name4 = "Wyrmrest Commendation Badge"
-Inst69Quest1name5 = "Emblem of Conquest"
+Inst69Quest1name5 = "Sons of Hodir Commendation Badge"
+Inst69Quest1name6 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst69Quest2 = "2. Доказательство смерти: Мал'Ганис (Героическое ежедневное)"
@@ -9663,6 +9664,7 @@ Inst69Quest1name2_HORDE = Inst69Quest1name2
 Inst69Quest1name3_HORDE = Inst69Quest1name3
 Inst69Quest1name4_HORDE = Inst69Quest1name4
 Inst69Quest1name5_HORDE = Inst69Quest1name5
+Inst69Quest1name6_HORDE = Inst69Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst69Quest2_HORDE = Inst69Quest2
@@ -9833,7 +9835,8 @@ Inst71Quest1name1 = "Kirin Tor Commendation Badge"
 Inst71Quest1name2 = "Argent Crusade Commendation Badge"
 Inst71Quest1name3 = "Ebon Blade Commendation Badge"
 Inst71Quest1name4 = "Wyrmrest Commendation Badge"
-Inst71Quest1name5 = "Emblem of Conquest"
+Inst71Quest1name5 = "Sons of Hodir Commendation Badge"
+Inst71Quest1name6 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst71Quest2 = "2. Доказательство смерти: король Имирон (Героическое ежедневное)"
@@ -9894,6 +9897,7 @@ Inst71Quest1name2_HORDE = Inst71Quest1name2
 Inst71Quest1name3_HORDE = Inst71Quest1name3
 Inst71Quest1name4_HORDE = Inst71Quest1name4
 Inst71Quest1name5_HORDE = Inst71Quest1name5
+Inst71Quest1name6_HORDE = Inst71Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst71Quest2_HORDE = Inst71Quest2
@@ -10121,7 +10125,8 @@ Inst73Quest1name1 = "Kirin Tor Commendation Badge"
 Inst73Quest1name2 = "Argent Crusade Commendation Badge"
 Inst73Quest1name3 = "Ebon Blade Commendation Badge"
 Inst73Quest1name4 = "Wyrmrest Commendation Badge"
-Inst73Quest1name5 = "Emblem of Conquest"
+Inst73Quest1name5 = "Sons of Hodir Commendation Badge"
+Inst73Quest1name6 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst73Quest2 = "2. Доказательство смерти: хранитель энергии Эрегос (Героическое ежедневное)"
@@ -10206,6 +10211,7 @@ Inst73Quest1name2_HORDE = Inst73Quest1name2
 Inst73Quest1name3_HORDE = Inst73Quest1name3
 Inst73Quest1name4_HORDE = Inst73Quest1name4
 Inst73Quest1name5_HORDE = Inst73Quest1name5
+Inst73Quest1name6_HORDE = Inst73Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst73Quest2_HORDE = Inst73Quest2
@@ -10639,7 +10645,8 @@ Inst78Quest1name1 = "Kirin Tor Commendation Badge"
 Inst78Quest1name2 = "Argent Crusade Commendation Badge"
 Inst78Quest1name3 = "Ebon Blade Commendation Badge"
 Inst78Quest1name4 = "Wyrmrest Commendation Badge"
-Inst78Quest1name5 = "Emblem of Conquest"
+Inst78Quest1name5 = "Sons of Hodir Commendation Badge"
+Inst78Quest1name6 = "Emblem of Conquest"
 
 --Quest 2 Alliance
 Inst78Quest2 = "2. Доказательство смерти: Локен (Героическое ежедневное)"
@@ -10702,6 +10709,7 @@ Inst78Quest1name2_HORDE = Inst78Quest1name2
 Inst78Quest1name3_HORDE = Inst78Quest1name3
 Inst78Quest1name4_HORDE = Inst78Quest1name4
 Inst78Quest1name5_HORDE = Inst78Quest1name5
+Inst78Quest1name6_HORDE = Inst78Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
