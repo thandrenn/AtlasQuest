@@ -12,6 +12,7 @@ Version 4.3.6
 
 - Quests added:
 	- Call to Arms: Isle of Conquest (Daily)
+	- Onyxia's Lair: A Most Puzzling Circumstance
 
 
 

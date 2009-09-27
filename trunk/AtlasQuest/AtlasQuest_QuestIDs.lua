@@ -571,14 +571,18 @@ AQ_8578_Level = "60"
 
 Inst16Quest1_QuestID = "7509"
 Inst16Quest2_QuestID = "7495"
+Inst16Quest3_QuestID = "24428"
 
 Inst16Quest1_HORDE_QuestID = "7509"
 Inst16Quest2_HORDE_QuestID = "7490"
+Inst16Quest3_HORDE_QuestID = "24429"
 
 
 AQ_7509_Level = "60"
 AQ_7495_Level = "60"
+AQ_24428_Level = "80"
 AQ_7490_Level = "60"
+AQ_24429_Level = "80"
 
 
 
