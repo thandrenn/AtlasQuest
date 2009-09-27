@@ -1988,6 +1988,21 @@ Inst16Quest2ITC3 = Itemc5;
 Inst16Quest2description3 = AQITEM_NECK
 Inst16Quest2ID3 = "18404"
 
+--Quest 3 Alliance
+Inst16Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst16Quest3ITC1 = Itemc5;
+Inst16Quest3description1 = AQITEM_RING
+Inst16Quest3ID1 = "49486"
+--ITEM2
+Inst16Quest3ITC2 = Itemc5;
+Inst16Quest3description2 = AQITEM_NEXT
+Inst16Quest3ID2 = "49485"
+--ITEM3
+Inst16Quest3ITC3 = Itemc5;
+Inst16Quest3description3 = AQITEM_TRINKET
+Inst16Quest3ID3 = "49487"
+
 
 --Quest 1 Horde
 Inst16Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -2010,6 +2025,21 @@ Inst16Quest2ID2_HORDE = "18403"
 Inst16Quest2ITC3_HORDE = Itemc5;
 Inst16Quest2description3_HORDE = AQITEM_NECK
 Inst16Quest2ID3_HORDE = "18404"
+
+--Quest 3 Horde
+Inst16Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst16Quest3ITC1_HORDE = Itemc5;
+Inst16Quest3description1_HORDE = AQITEM_RING
+Inst16Quest3ID1_HORDE = "49486"
+--ITEM2
+Inst16Quest3ITC2_HORDE = Itemc5;
+Inst16Quest3description2_HORDE = AQITEM_NEXT
+Inst16Quest3ID2_HORDE = "49485"
+--ITEM3
+Inst16Quest3ITC3_HORDE = Itemc5;
+Inst16Quest3description3_HORDE = AQITEM_TRINKET
+Inst16Quest3ID3_HORDE = "49487"
 
 
 

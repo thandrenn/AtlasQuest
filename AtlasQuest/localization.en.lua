@@ -3348,8 +3348,8 @@ Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 Inst16Story = "Onyxia is the daughter of the mighty dragon Deathwing, and sister of the scheming Nefarion Lord of Blackrock Spire. It is said that Onyxia delights in corrupting the mortal races by meddling in their political affairs. To this end it is believed that she takes on various humanoid forms and uses her charm and power to influence delicate matters between the different races. Some believe that Onyxia has even assumed an alias once used by her father - the title of the royal House Prestor. When not meddling in mortal concerns, Onyxia resides in a fiery cave below the Dragonmurk, a dismal swamp located within Dustwallow Marsh. There she is guarded by her kin, the remaining members of the insidious Black Dragon Flight."
 Inst16Caption = "Onyxias Lair"
-Inst16QAA = "2 Quests"
-Inst16QAH = "2 Quests"
+Inst16QAA = "3 Quests"
+Inst16QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst16Quest1 = "1. The Forging of Quel'Serrar"
@@ -3370,13 +3370,27 @@ Inst16Quest2_Level = "60"
 Inst16Quest2_Attain = "60"
 Inst16Quest2_Aim = "Take the Head of Onyxia to King Varian Wrynn in Stormwind."
 Inst16Quest2_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest2_Note = "King Varian Wrynn is at (Stormwind City - Stormwind Keep; "..YELLOW.."80.0, 38.5"..WHITE.."). Only one person in the raid can loot this item and the quest can only be done one time.\n\nRewards listed are for the followup."
+Inst16Quest2_Note = "King Varian Wrynn is at (Stormwind City - Stormwind Keep; "..YELLOW.."80.0, 38.5"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character.\n\nRewards listed are for the followup. As of patch 3.2.2, Onyxia is a level 80 raid and the head for this quest no longer drops."
 Inst16Quest2_Prequest = "None"
 Inst16Quest2_Folgequest = "Celebrating Good Times"
 --
 Inst16Quest2name1 = "Onyxia Blood Talisman"
 Inst16Quest2name2 = "Dragonslayer's Signet"
 Inst16Quest2name3 = "Onyxia Tooth Pendant"
+
+--Quest 3 Alliance
+Inst16Quest3 = "3. A Most Puzzling Circumstance"
+Inst16Quest3_Level = "80"
+Inst16Quest3_Attain = "80"
+Inst16Quest3_Aim = "Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb."
+Inst16Quest3_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest3_Note = "Zardeth of the Black Claw is at (Stormwind City - The Slaughtered Lamb; "..YELLOW.."40.1, 85.1"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character."
+Inst16Quest3_Prequest = "None"
+Inst16Quest3_Folgequest = "None"
+--
+Inst16Quest3name1 = "Polished Dragonslayer's Signet"
+Inst16Quest3name2 = "Sparkling Onyxia Tooth Pendant"
+Inst16Quest3name3 = "Purified Onyxia Blood Talisman"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3398,13 +3412,27 @@ Inst16Quest2_HORDE_Level = "60"
 Inst16Quest2_HORDE_Attain = "60"
 Inst16Quest2_HORDE_Aim = "Take the Head of Onyxia to Thrall in Orgrimmar."
 Inst16Quest2_HORDE_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest2_HORDE_Note = "Thrall is at (Orgrimmar - Valley of Wisdom; "..YELLOW.."31,37"..WHITE.."). Only one person in the raid can loot this item and the quest can only be done one time.\n\nRewards listed are for the followup."
+Inst16Quest2_HORDE_Note = "Thrall is at (Orgrimmar - Valley of Wisdom; "..YELLOW.."31,37"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character.\n\nRewards listed are for the followup. As of patch 3.2.2, Onyxia is a level 80 raid and the head for this quest no longer drops."
 Inst16Quest2_HORDE_Prequest = "None"
 Inst16Quest2_HORDE_Folgequest = "For All To See"
 --
 Inst16Quest2name1_HORDE = "Onyxia Blood Talisman"
 Inst16Quest2name2_HORDE = "Dragonslayer's Signet"
 Inst16Quest2name3_HORDE = "Onyxia Tooth Pendant"
+
+--Quest 3 Horde
+Inst16Quest3_HORDE = "3. A Most Puzzling Circumstance"
+Inst16Quest3_HORDE_Level = "80"
+Inst16Quest3_HORDE_Attain = "80"
+Inst16Quest3_HORDE_Aim = "Take the Head of Onyxia to Neeru Fireblade in the Cleft of Shadow."
+Inst16Quest3_HORDE_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest3_HORDE_Note = "Neeru Fireblade is at (Orgrimmar - Cleft of Shadow; "..YELLOW.."49.7, 50.5"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character."
+Inst16Quest3_HORDE_Prequest = "None"
+Inst16Quest3_HORDE_Folgequest = "None"
+--
+Inst16Quest3name1_HORDE = "Polished Dragonslayer's Signet"
+Inst16Quest3name2_HORDE = "Sparkling Onyxia Tooth Pendant"
+Inst16Quest3name3_HORDE = "Purified Onyxia Blood Talisman"
 
 
 
