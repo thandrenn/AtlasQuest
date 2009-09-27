@@ -3348,8 +3348,8 @@ Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 Inst16Story = "Onyxia is the daughter of the mighty dragon Deathwing, and sister of the scheming Nefarion Lord of Blackrock Spire. It is said that Onyxia delights in corrupting the mortal races by meddling in their political affairs. To this end it is believed that she takes on various humanoid forms and uses her charm and power to influence delicate matters between the different races. Some believe that Onyxia has even assumed an alias once used by her father - the title of the royal House Prestor. When not meddling in mortal concerns, Onyxia resides in a fiery cave below the Dragonmurk, a dismal swamp located within Пылевые топи. There she is guarded by her kin, the remaining members of the insidious Black Dragon Flight."
 Inst16Caption = "Логово Ониксии"
-Inst16QAA = "2 Задания"
-Inst16QAH = "2 Задания"
+Inst16QAA = "3 Задания"
+Inst16QAH = "3 Задания"
 
 --Quest 1 Alliance
 Inst16Quest1 = "1. Ковка Кель-Серрара"
@@ -3370,13 +3370,26 @@ Inst16Quest2_Level = "60"
 Inst16Quest2_Attain = "60"
 Inst16Quest2_Aim = "Отнести голову Ониксии Верховному лорду Болвару Фордрагону в Штормград."
 Inst16Quest2_Location = "Голова Ониксии (падает с Ониксии; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest2_Note = "Верховный лорд Болвар Фордрагон находится в (Штормград - Крепость Штормграда; "..YELLOW.."80.0, 38.5"..WHITE.."). Только один игрок в рейде может поднять этот предмет и задание можно сделать только 1 раз.\n\nНаграды перечислены ниже."
+Inst16Quest2_Note = "Верховный лорд Болвар Фордрагон находится в (Штормград - Крепость Штормграда; "..YELLOW.."80.0, 38.5"..WHITE.."). Только один игрок в рейде может поднять этот предмет и задание можно сделать только 1 раз.\n\nНаграды перечислены ниже. После патча 3.2.2, Логово Ониксии - подземелье 80 уровня и голова на данное задание больше не падает."
 Inst16Quest2_Prequest = "Нет"
 Inst16Quest2_Folgequest = "Праздник добрых времен"
 --
 Inst16Quest2name1 = "Onyxia Blood Talisman"
 Inst16Quest2name2 = "Dragonslayer's Signet"
 Inst16Quest2name3 = "Onyxia Tooth Pendant"
+
+--Quest 3 Alliance
+Inst16Quest3 = "3. Странное стечение обстоятельств"
+Inst16Quest3_Level = "80"
+Inst16Quest3_Attain = "80"
+Inst16Quest3_Aim = "Отнесите голову Ониксии Зардету Черному Когтю. Он ждет вас в подвале Забитого ягненка."
+Inst16Quest3_Location = "Голова Ониксии (падает с Ониксии; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest3_Note = "Зардету Черному Когтю находится (Штормград - The Slaughtered Lamb; "..YELLOW.."40.1, 85.1"..WHITE.."). Только один игрок в рейде может поднять этот предмет и задание можно сделать только 1 раз."
+Inst16Quest3_Prequest = "Нет"
+Inst16Quest3_Folgequest = "Нет"
+Inst16Quest3name1 = "Polished Dragonslayer's Signet"
+Inst16Quest3name2 = "Sparkling Onyxia Tooth Pendant"
+Inst16Quest3name3 = "Purified Onyxia Blood Talisman"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3398,13 +3411,26 @@ Inst16Quest2_HORDE_Level = "60"
 Inst16Quest2_HORDE_Attain = "60"
 Inst16Quest2_HORDE_Aim = "Отнесите голову Ониксии Траллу в Оргриммар."
 Inst16Quest2_HORDE_Location = "Голова Ониксии (падает с Ониксии; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest2_HORDE_Note = "Тралл находится в (Оргриммар - Аллея Мудррости; "..YELLOW.."31,37"..WHITE.."). Только один игрок в рейде может поднять этот предмет и задание можно сделать только 1 раз.\n\nНаграды перечислены ниже."
+Inst16Quest2_HORDE_Note = "Тралл находится в (Оргриммар - Аллея Мудррости; "..YELLOW.."31,37"..WHITE.."). Только один игрок в рейде может поднять этот предмет и задание можно сделать только 1 раз.\n\nНаграды перечислены ниже. После патча 3.2.2, Логово Ониксии - подземелье 80 уровня и голова на данное задание больше не падает."
 Inst16Quest2_HORDE_Prequest = "Нет"
 Inst16Quest2_HORDE_Folgequest = "На виду у всех"
 --
 Inst16Quest2name1_HORDE = "Onyxia Blood Talisman"
 Inst16Quest2name2_HORDE = "Dragonslayer's Signet"
 Inst16Quest2name3_HORDE = "Onyxia Tooth Pendant"
+
+--Quest 3 Horde
+Inst16Quest3_HORDE = "3. Странное стечение обстоятельств"
+Inst16Quest3_HORDE_Level = "80"
+Inst16Quest3_HORDE_Attain = "80"
+Inst16Quest3_HORDE_Aim = "Отнесите голову Ониксии Ниру Огненный Клинок. Он ждет вас в Расселине теней."
+Inst16Quest3_HORDE_Location = "Голова Ониксии (падает с Ониксии; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest3_HORDE_Note = "Ниру Огненный Клинок находится (Оргриммар - Расселина теней; "..YELLOW.."49.7, 50.5"..WHITE.."). Только один игрок в рейде может поднять этот предмет и задание можно сделать только 1 раз."
+Inst16Quest3_HORDE_Prequest = "Нет"
+Inst16Quest3_HORDE_Folgequest = "Нет"
+Inst16Quest3name1_HORDE = "Polished Dragonslayer's Signet"
+Inst16Quest3name2_HORDE = "Sparkling Onyxia Tooth Pendant"
+Inst16Quest3name3_HORDE = "Purified Onyxia Blood Talisman"
 
 
 
