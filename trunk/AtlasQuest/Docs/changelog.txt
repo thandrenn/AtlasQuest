@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 4.3.7
+
+- Fixed attainment levels for Timear Foresees quests.
+- Updated Foror's Compendium & Forging of Quel'Serrar quests to note that they can no longer be started anew with patch 3.2.2.
+
+
+
 Version 4.3.6
 
 - Small updates for Atlas 1.15 (boss numbers and map names). 
