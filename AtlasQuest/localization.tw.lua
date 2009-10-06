@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2009-09-02
-	最後更新﹕二○○九年九月二日
+	Last Updated: 2009-10-07
+	最後更新﹕二○○九年十月七日
 	新增　巫妖王之怒 - 十字軍的呼喚　故事＆任務
 
 --]]
@@ -1060,8 +1060,8 @@ Inst5Quest14_Folgequest = "無"
 
 --Quest 15 Alliance
 Inst5Quest15 = "15. 挽救啤酒節! (季節性 啤酒節)"
-Inst5Quest15_Level = "70"
-Inst5Quest15_Attain = "65"
+Inst5Quest15_Level = "80"
+Inst5Quest15_Attain = "75"
 Inst5Quest15_Aim = "與啤酒節間諜交談。他就在黑石深淵的黑鐵酒吧裡。"
 Inst5Quest15_Location = "達娜．蜜酒（丹莫洛 - 卡拉諾斯; "..YELLOW.."46,53"..WHITE.."）"
 Inst5Quest15_Note = "這個任務只有在啤酒節期間才會出現。啤酒節間諜在"..YELLOW.."[15]"..WHITE.."。"
@@ -1071,8 +1071,8 @@ Inst5Quest15_Folgequest = "羞辱寇仁．恐酒"
 
 --Quest 16 Alliance
 Inst5Quest16 = "16. 羞辱寇仁·恐酒 (季節性 啤酒節每日任務)"
-Inst5Quest16_Level = "70"
-Inst5Quest16_Attain = "65"
+Inst5Quest16_Level = "80"
+Inst5Quest16_Attain = "75"
 Inst5Quest16_Aim = "與寇仁．恐酒交談。"
 Inst5Quest16_Location = "啤酒節間諜（黑石深淵 - 黑鐵酒吧; "..YELLOW.."[15]"..WHITE.."）"
 Inst5Quest16_Note = "完成這個任務將會使得寇仁．恐酒攻擊你。在啤酒節期間，每人每天都可以完成這個任務。\n前置任務只需完成一次，之後你便可以在黑鐵酒吧進行這個任務。"
@@ -2754,7 +2754,7 @@ Inst12Quest17_Level = "60"
 Inst12Quest17_Attain = "60"
 Inst12Quest17_Aim = "將《弗洛爾的屠龍技術綱要》還回圖書館。"
 Inst12Quest17_Location = "弗洛爾的屠龍技術綱要（厄運之槌的所有幾個副本的王都可能掉落，拾取散落在副本地上的書本也有可能獲得）"
-Inst12Quest17_Note = "著名防禦聖劍《奎爾塞拉》任務，只有戰士和聖騎士才能接此任務。把書交給博學者萊德羅斯（厄運之槌; "..YELLOW.."西，"..GREEN.."圖書館[1']"..WHITE.."）。完成後開始奎爾塞拉任務。"
+Inst12Quest17_Note = "著名防禦聖劍《奎爾塞拉》任務，只有戰士和聖騎士才能接此任務。把書交給博學者萊德羅斯（厄運之槌; "..YELLOW.."西，"..GREEN.."圖書館[1']"..WHITE.."）。完成後開始奎爾塞拉任務。\n\n因為3.2.2的更新你將再也不能進行這個任務線，除非你已經開始了這個任務線。"
 Inst12Quest17_Prequest = "無"
 Inst12Quest17_Folgequest = "鍛造奎爾塞拉"
 -- No Rewards for this quest
@@ -3355,8 +3355,8 @@ Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 Inst16Story = "奧妮克希亞是強大之龍死亡之翼的女兒，也是黑石塔擅陰謀的黑龍之王奈法利安的妹妹。據說奧妮克希亞喜歡藉由干涉人類種族的政治來腐化他們。為達此目的她會變成各種人型生物形態，使用魔法和力量干預不同種族間的所有事情。有些人更認為奧妮克希亞使用父親曾用過的化名 - 皇室普瑞斯托。若不插手凡人事務的時候，奧妮克希亞就在黑龍谷下的一處火焰洞穴居住，那是塵泥沼澤裡的一個陰暗沼澤。陰險的黑龍軍團剩餘成員在此守護著她。"
 Inst16Caption = "奧妮克希亞的巢穴"
-Inst16QAA = "2 個任務"
-Inst16QAH = "2 個任務"
+Inst16QAA = "3 個任務"
+Inst16QAH = "3 個任務"
 
 --Quest 1 Alliance
 Inst16Quest1 = "1. 鑄造奎爾塞拉"
@@ -3364,7 +3364,7 @@ Inst16Quest1_Level = "60"
 Inst16Quest1_Attain = "60"
 Inst16Quest1_Aim = "你必須設法讓奧妮克希亞對這把未淬火的上古之刃噴射火焰。完成之後，撿起加熱過的上古之刃。你要注意的是，加熱過的上古之刃不會一直保持被加熱的狀態，時間非常緊迫。"
 Inst16Quest1_Location = "博學者萊德羅斯（厄運之槌; "..YELLOW.."北，"..GREEN.."圖書館[1']"..WHITE..")"
-Inst16Quest1_Note = "當奧妮克西亞的血量達到10%至15%的時候，將未淬火的上古之刃插在她的前面，她的火焰氣息會為這把劍淬火，當奧妮克西亞死掉之後，將加熱過的上古之刃插入她的屍體中，這樣就可以完成它最後的鑄造儀式。"
+Inst16Quest1_Note = "當奧妮克西亞的血量達到10%至15%的時候，將未淬火的上古之刃插在她的前面，她的火焰氣息會為這把劍淬火，當奧妮克西亞死掉之後，將加熱過的上古之刃插入她的屍體中，這樣就可以完成它最後的鑄造儀式。\n\n因為3.2.2的更新你將再也不能進行這個任務線，除非你已經開始了這個任務線。"
 Inst16Quest1_Prequest = "弗洛爾的屠龍技術綱要（厄運之槌; "..YELLOW..""..WHITE.."）→鑄造奎爾塞拉"
 Inst16Quest1_Folgequest = "無"
 Inst16Quest1PreQuest = "true"
@@ -3377,13 +3377,27 @@ Inst16Quest2_Level = "60"
 Inst16Quest2_Attain = "60"
 Inst16Quest2_Aim = "將奧妮克希亞的頭顱交給暴風城的瓦里安．烏瑞恩國王。"
 Inst16Quest2_Location = "奧妮克希亞的頭顱（奧妮克希亞掉落 - 奧妮克希亞的巢穴; "..YELLOW.."[3]"..WHITE.."）"
-Inst16Quest2_Note = "瓦里安．烏瑞恩國王在（暴風城 - 暴風要塞; "..YELLOW.."80,38"..WHITE.."）。\n團隊裡面只有一個人可以拾取這樣物品，而且此任務只能完成一次\n\n任務獎勵於後續任務領取。"
+Inst16Quest2_Note = "瓦里安．烏瑞恩國王在（暴風城 - 暴風要塞; "..YELLOW.."80,38"..WHITE.."）。\n團隊裡面只有一個人可以拾取這樣物品，而且此任務只能完成一次。\n\n任務獎勵於後續任務領取。\n\n在3.2.2版本之後，奧妮克希亞的巢穴將變成一個80級團隊地城，而觸發任務[聯盟的勝利]所需的[奧妮克希亞的頭顱]將不再掉落。"
 Inst16Quest2_Prequest = "無"
 Inst16Quest2_Folgequest = "英雄慶典"
 --
 Inst16Quest2name1 = "奧妮克希亞龍血護符"
 Inst16Quest2name2 = "屠龍者的徽記"
 Inst16Quest2name3 = "奧妮克希亞龍牙墜飾"
+
+--Quest 3 Alliance
+Inst16Quest3 = "3. 難以置信的挑戰"
+Inst16Quest3_Level = "80"
+Inst16Quest3_Attain = "80"
+Inst16Quest3_Aim = "將奧妮克希亞的頭顱交給已宰的羔羊地下室裡的『黑爪』加爾德斯。"
+Inst16Quest3_Location = "奧妮克希亞的頭顱（奧妮克希亞掉落 - 奧妮克希亞的巢穴; "..YELLOW.."[3]"..WHITE.."）"
+Inst16Quest3_Note = "『黑爪』加爾德斯在（暴風城 - 已宰的羔羊; "..YELLOW.."40.1, 85.1"..WHITE.."）。\n團隊裡面只有一個人可以拾取這樣物品，而且此任務只能完成一次。"
+Inst16Quest3_Prequest = "無"
+Inst16Quest3_Folgequest = "無"
+--
+Inst16Quest3name1 = "拋光屠龍者的徽記"
+Inst16Quest3name2 = "閃亮奧妮克希亞龍牙墜飾"
+Inst16Quest3name3 = "純淨奧妮克希亞龍血咒符"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3405,13 +3419,27 @@ Inst16Quest2_HORDE_Level = "60"
 Inst16Quest2_HORDE_Attain = "60"
 Inst16Quest2_HORDE_Aim = "將奧妮克希亞的頭顱交給奧格瑪的索爾。 "
 Inst16Quest2_HORDE_Location = "奧妮克希亞的頭顱（奧妮克希亞掉落 - 奧妮克希亞的巢穴; "..YELLOW.."[3]"..WHITE.."）"
-Inst16Quest2_HORDE_Note = "索爾在（奧格瑪 - 智慧谷; "..YELLOW.."31,37"..WHITE.."）。\n團隊裡面只有一個人可以拾取這樣物品，而且此任務只能完成一次\n\n任務獎勵於後續任務領取。"
+Inst16Quest2_HORDE_Note = "索爾在（奧格瑪 - 智慧谷; "..YELLOW.."31,37"..WHITE.."）。\n團隊裡面只有一個人可以拾取這樣物品，而且此任務只能完成一次。\n\n任務獎勵於後續任務領取。\n\n在3.2.2版本之後，奧妮克希亞的巢穴將變成一個80級團隊地城，而觸發任務[部落的勝利]所需的[奧妮克希亞的頭顱]將不再掉落。"
 Inst16Quest2_HORDE_Prequest = "無"
 Inst16Quest2_HORDE_Folgequest = "萬眾景仰"
 --
 Inst16Quest2name1_HORDE = "奧妮克希亞龍血護符"
 Inst16Quest2name2_HORDE = "屠龍者的徽記"
 Inst16Quest2name3_HORDE = "奧妮克希亞龍牙墜飾"
+
+--Quest 3 Horde
+Inst16Quest3_HORDE = "3. 難以置信的挑戰"
+Inst16Quest3_HORDE_Level = "80"
+Inst16Quest3_HORDE_Attain = "80"
+Inst16Quest3_HORDE_Aim = "將奧妮克希亞的頭顱交給暗影裂口的尼爾魯．火刃。"
+Inst16Quest3_HORDE_Location = "奧妮克希亞的頭顱（奧妮克希亞掉落 - 奧妮克希亞的巢穴; "..YELLOW.."[3]"..WHITE.."）"
+Inst16Quest3_HORDE_Note = "尼爾魯．火刃在（奧格瑪 - 暗影裂口; "..YELLOW.."49.7, 50.5"..WHITE.."）。\n團隊裡面只有一個人可以拾取這樣物品，而且此任務只能完成一次。"
+Inst16Quest3_HORDE_Prequest = "無"
+Inst16Quest3_HORDE_Folgequest = "無"
+--
+Inst16Quest3name1_HORDE = "拋光屠龍者的徽記"
+Inst16Quest3name2_HORDE = "閃亮奧妮克希亞龍牙墜飾"
+Inst16Quest3name3_HORDE = "純淨奧妮克希亞龍血咒符"
 
 
 
@@ -9911,7 +9939,7 @@ Inst69General = {
 --Quest 1 Alliance
 Inst69Quest1 = "1. 泰彌亞在你的未來預見了恆龍密探! (普通每日)"
 Inst69Quest1_Level = "80"
-Inst69Quest1_Attain = "80"
+Inst69Quest1_Attain = "78"
 Inst69Quest1_Aim = "達拉然的大法師泰彌亞預見你必須殺死4頭恆龍密探。"
 Inst69Quest1_Location = "大法師泰彌亞（達拉然 - 紫羅蘭堡; "..YELLOW.."64.2, 54.7"..WHITE.."）"
 Inst69Quest1_Note = "普通每日任務。恆龍密探在斯坦索姆護送事件進行至市政廳建築內的時候便會出現。"
@@ -9922,7 +9950,8 @@ Inst69Quest1name1 = "祈倫托表揚徽章"
 Inst69Quest1name2 = "銀白十字軍表揚徽章"
 Inst69Quest1name3 = "黯刃表揚徽章"
 Inst69Quest1name4 = "龍眠表揚徽章"
-Inst69Quest1name5 = "征服紋章"
+Inst69Quest1name5 = "霍迪爾之子表揚徽章"
+Inst69Quest1name6 = "征服紋章"
 
 --Quest 2 Alliance
 Inst69Quest2 = "2. 死亡證明:瑪爾加尼斯 (英雄每日)"
@@ -9979,6 +10008,7 @@ Inst69Quest1name2_HORDE = Inst69Quest1name2
 Inst69Quest1name3_HORDE = Inst69Quest1name3
 Inst69Quest1name4_HORDE = Inst69Quest1name4
 Inst69Quest1name5_HORDE = Inst69Quest1name5
+Inst69Quest1name6_HORDE = Inst69Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst69Quest2_HORDE = Inst69Quest2
@@ -10114,7 +10144,7 @@ Inst70Quest2_HORDE_Attain = "68"
 Inst70Quest2_HORDE_Aim = "高階執行官安賽姆要你進入俄特加德並殺掉凱雷希斯王子。"
 Inst70Quest2_HORDE_Location = "高階執行官安賽姆（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）"
 Inst70Quest2_HORDE_Note = "凱雷希斯王子在"..YELLOW.."[1]"..WHITE.."。此任務的前置任務線也是由同一個NPC處開始。"
-Inst70Quest2_HORDE_Prequest = "戰爭就是地獄→來自戰場的報告→風行者艦隊→埋伏!→指引方向→痛下殺手→回報安賽姆"
+Inst70Quest2_HORDE_Prequest = "戰爭就是地獄→來自戰場的報告→風行者艦隊→埋伏！→指引方向→痛下殺手→回報安賽姆"
 Inst70Quest2_HORDE_Folgequest = "無"
 --
 Inst70Quest2name1_HORDE = "煞婪裹帶"
@@ -10127,8 +10157,8 @@ Inst70Quest3_HORDE = "3. 因格瓦非死不可!"
 Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "70"
 Inst70Quest3_HORDE_Aim = "黑暗遊俠瑪拉請求你殺死俄特加德要塞的『盜掠者』因格瓦，然後把他的頭顱帶給復仇臺地的高階執行官安賽姆。"
-Inst70Quest3_HORDE_Location = "黑暗遊俠瑪拉（凜風峽灣 - 俄特加德要塞; "..YELLOW.."[??]"..WHITE.."）"
-Inst70Quest3_HORDE_Note = "『盜掠者』因格瓦在"..YELLOW.."[3]"..WHITE.."。\n\回覆任務的高階執行官安賽姆在（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）。"
+Inst70Quest3_HORDE_Location = "黑暗遊俠瑪拉（凜風峽灣 - 俄特加德要塞; "..YELLOW.."[A] 入口"..WHITE.."）"
+Inst70Quest3_HORDE_Note = "當你進入地城時，黑暗遊俠瑪拉只會在入口處出現幾秒鐘。\n\n『盜掠者』因格瓦在"..YELLOW.."[3]"..WHITE.."。\n\n回覆任務的高階執行官安賽姆在（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）。"
 Inst70Quest3_HORDE_Prequest = "無"
 Inst70Quest3_HORDE_Folgequest = "無"
 --
@@ -10141,8 +10171,8 @@ Inst70Quest4_HORDE = "4. 撤除武裝"
 Inst70Quest4_HORDE_Level = "71"
 Inst70Quest4_HORDE_Attain = "70"
 Inst70Quest4_HORDE_Aim = "黑暗遊俠瑪拉要求你，從俄特加德要塞偷走5件維酷武器，並送去給復仇臺地的高階執行官安賽姆。"
-Inst70Quest4_HORDE_Location = "黑暗遊俠瑪拉（凜風峽灣 - ??; "..YELLOW.."??,??"..WHITE.."）"
-Inst70Quest4_HORDE_Note = "維酷武器在俄特加德要塞裡面都撿得到。\n\n回覆任務的高階執行官安賽姆在（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）。"
+Inst70Quest4_HORDE_Location = "黑暗遊俠瑪拉（凜風峽灣 - 俄特加德要塞; "..YELLOW.."[A] 入口"..WHITE.."）"
+Inst70Quest4_HORDE_Note = "當你進入地城時，黑暗遊俠瑪拉只會在入口處出現幾秒鐘。\n\n維酷武器在俄特加德要塞裡面都撿得到。\n\n回覆任務的高階執行官安賽姆在（凜風峽灣 - 復仇臺地; "..YELLOW.."78.5, 31.1"..WHITE.."）。"
 Inst70Quest4_HORDE_Prequest = "無"
 Inst70Quest4_HORDE_Folgequest = "無"
 --
@@ -10194,7 +10224,7 @@ Inst71General = {
 --Quest 1 Alliance
 Inst71Quest1 = "1. 泰彌亞在你的未來預見了依米亞狂戰士! (普通每日)"
 Inst71Quest1_Level = "80"
-Inst71Quest1_Attain = "80"
+Inst71Quest1_Attain = "78"
 Inst71Quest1_Aim = "達拉然的大法師泰彌亞要求你，殺掉7個依米亞狂戰士。"
 Inst71Quest1_Location = "大法師泰彌亞（達拉然 - 紫羅蘭堡; "..YELLOW.."64.2, 54.7"..WHITE.."）"
 Inst71Quest1_Note = "普通每日任務。"
@@ -10205,7 +10235,8 @@ Inst71Quest1name1 = "祈倫托表揚徽章"
 Inst71Quest1name2 = "銀白十字軍表揚徽章"
 Inst71Quest1name3 = "黯刃表揚徽章"
 Inst71Quest1name4 = "龍眠表揚徽章"
-Inst71Quest1name5 = "征服紋章"
+Inst71Quest1name5 = "霍迪爾之子表揚徽章"
+Inst71Quest1name6 = "征服紋章"
 
 --Quest 2 Alliance
 Inst71Quest2 = "2. 死亡證明:依米倫王 (英雄每日)"
@@ -10266,6 +10297,7 @@ Inst71Quest1name2_HORDE = Inst71Quest1name2
 Inst71Quest1name3_HORDE = Inst71Quest1name3
 Inst71Quest1name4_HORDE = Inst71Quest1name4
 Inst71Quest1name5_HORDE = Inst71Quest1name5
+Inst71Quest1name6_HORDE = Inst71Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst71Quest2_HORDE = Inst71Quest2
@@ -10358,7 +10390,7 @@ Inst72Quest1_Level = "80"
 Inst72Quest1_Attain = "80"
 Inst72Quest1_Aim = "達拉然的大法師朗達拉克要求你，帶回凱瑞史卓莎的碎心。"
 Inst72Quest1_Location = "大法師朗達拉克（達拉然 - 紫羅蘭堡; "..YELLOW.."57.6, 66.9"..WHITE.."）"
-Inst72Quest1_Note = "這個任務只能在英雄難度下完成。\n\n凱瑞史卓莎在"..YELLOW.."[4]"..WHITE.."。"
+Inst72Quest1_Note = "這個任務只能在英雄難度下完成。\n\n凱瑞史卓莎在"..YELLOW.."[5]"..WHITE.."。"
 Inst72Quest1_Prequest = "無"
 Inst72Quest1_Folgequest = "無"
 --
@@ -10370,7 +10402,7 @@ Inst72Quest2_Level = "71"
 Inst72Quest2_Attain = "70"
 Inst72Quest2_Aim = "圖書管理員瑟菈要你進入奧核之心並取回貝瑞那德的研究。"
 Inst72Quest2_Location = "圖書管理員瑟菈（北風凍原 - 隘境之盾; "..YELLOW.."33.4, 34.3"..WHITE.."）"
-Inst72Quest2_Note = "貝瑞那德的研究在前往大魔導師特雷斯翠路上位於"..YELLOW.."[5]"..WHITE.."的地板上。"
+Inst72Quest2_Note = "[貝瑞那德的研究]在前往大魔導師特雷斯翠的路上，有一堆被冰住的怪物"..YELLOW.."[4]"..WHITE.."的地板上。"
 Inst72Quest2_Prequest = "無"
 Inst72Quest2_Folgequest = "無"
 --
@@ -10401,7 +10433,7 @@ Inst72Quest4_Level = "71"
 Inst72Quest4_Attain = "70"
 Inst72Quest4_Aim = "隘境之盾的瑞洛拉茲要你進入奧核之心釋放凱瑞史卓莎。"
 Inst72Quest4_Location = "瑞洛拉茲（北風凍原 - 隘境之盾; "..YELLOW.."33.2, 34.4"..WHITE.."）"
-Inst72Quest4_Note = "凱瑞史卓莎在"..YELLOW.."[4]"..WHITE.."。"
+Inst72Quest4_Note = "凱瑞史卓莎在"..YELLOW.."[5]"..WHITE.."。"
 Inst72Quest4_Prequest = "凱瑞史卓莎→發動陷阱"
 Inst72Quest4_Folgequest = "無"
 Inst72Quest4PreQuest = "true"
@@ -10553,7 +10585,7 @@ Inst73General = {
 --Quest 1 Alliance
 Inst73Quest1 = "1. 泰彌亞在你的未來預見了離心傀儡! (普通每日)"
 Inst73Quest1_Level = "80"
-Inst73Quest1_Attain = "80"
+Inst73Quest1_Attain = "78"
 Inst73Quest1_Aim = "達拉然的大法師泰彌亞預見你必須摧毀10個離心傀儡。"
 Inst73Quest1_Location = "大法師泰彌亞（達拉然 - 紫羅蘭堡; "..YELLOW.."64.2, 54.7"..WHITE.."）"
 Inst73Quest1_Note = "普通每日任務。你可以在一王與二王之間的六個區塊"..YELLOW.."1'"..WHITE.."內找到分散的離心傀儡。"
@@ -10564,7 +10596,8 @@ Inst73Quest1name1 = "祈倫托表揚徽章"
 Inst73Quest1name2 = "銀白十字軍表揚徽章"
 Inst73Quest1name3 = "黯刃表揚徽章"
 Inst73Quest1name4 = "龍眠表揚徽章"
-Inst73Quest1name5 = "征服紋章"
+Inst73Quest1name5 = "霍迪爾之子表揚徽章"
+Inst73Quest1name6 = "征服紋章"
 
 --Quest 2 Alliance
 Inst73Quest2 = "2. 死亡證明:地脈守護者伊瑞茍斯 (英雄每日)"
@@ -10649,6 +10682,7 @@ Inst73Quest1name2_HORDE = Inst73Quest1name2
 Inst73Quest1name3_HORDE = Inst73Quest1name3
 Inst73Quest1name4_HORDE = Inst73Quest1name4
 Inst73Quest1name5_HORDE = Inst73Quest1name5
+Inst73Quest1name6_HORDE = Inst73Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst73Quest2_HORDE = Inst73Quest2
@@ -11179,7 +11213,7 @@ Inst78General = {
 --Quest 1 Alliance
 Inst78Quest1 = "1. 泰彌亞在你的未來預見了泰坦鋼先鋒! (普通每日)"
 Inst78Quest1_Level = "80"
-Inst78Quest1_Attain = "80"
+Inst78Quest1_Attain = "78"
 Inst78Quest1_Aim = "達拉然的大法師泰彌亞預見你必須殺死7個泰坦鋼先鋒。"
 Inst78Quest1_Location = "大法師泰彌亞（達拉然 - 紫羅蘭堡; "..YELLOW.."64.2, 54.7"..WHITE.."）"
 Inst78Quest1_Note = "普通每日任務。"
@@ -11190,7 +11224,8 @@ Inst78Quest1name1 = "祈倫托表揚徽章"
 Inst78Quest1name2 = "銀白十字軍表揚徽章"
 Inst78Quest1name3 = "黯刃表揚徽章"
 Inst78Quest1name4 = "龍眠表揚徽章"
-Inst78Quest1name5 = "征服紋章"
+Inst78Quest1name5 = "霍迪爾之子表揚徽章"
+Inst78Quest1name6 = "征服紋章"
 
 --Quest 2 Alliance
 Inst78Quest2 = "2. 死亡證明:洛肯 (英雄每日)"
@@ -11253,6 +11288,7 @@ Inst78Quest1name2_HORDE = Inst78Quest1name2
 Inst78Quest1name3_HORDE = Inst78Quest1name3
 Inst78Quest1name4_HORDE = Inst78Quest1name4
 Inst78Quest1name5_HORDE = Inst78Quest1name5
+Inst78Quest1name6_HORDE = Inst78Quest1name6
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
@@ -11846,8 +11882,8 @@ Inst86Quest2 = "2. 星穹渾天儀"
 Inst86Quest2_Level = "80"
 Inst86Quest2_Attain = "80"
 Inst86Quest2_Aim = "奧杜亞大資料庫的勘察員多倫要你找到通往星穹渾天儀的入口。"
-Inst86Quest2_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest2_Note = "星穹渾天儀在（奧杜亞 - 前廳; "..YELLOW.."[7]"..WHITE.."）。\n\n向勘察員多倫回報此任務之後，他將會給你另外四個任務。"
+Inst86Quest2_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest2_Note = "星穹渾天儀在（奧杜亞 - 前廳; "..YELLOW.."[8]"..WHITE.."）。\n\n向勘察員多倫回報此任務之後，他將會給你另外四個任務。"
 Inst86Quest2_Prequest = "大資料庫資料圓盤"
 Inst86Quest2_Folgequest = "另外四個任務–霍迪爾的符印、索林姆的符印、芙蕾雅的符印、彌米倫的符印"
 Inst86Quest2FQuest = "true"
@@ -11858,8 +11894,8 @@ Inst86Quest3 = "3. 霍迪爾的符印"
 Inst86Quest3_Level = "80"
 Inst86Quest3_Attain = "80"
 Inst86Quest3_Aim = "奧杜亞大資料庫的勘察員多倫要你取得霍迪爾的符印。"
-Inst86Quest3_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest3_Note = "霍迪爾在"..YELLOW.."守衛者[9]"..WHITE.."。玩家必須在困難模式下擊殺霍迪爾以取得符印。"
+Inst86Quest3_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest3_Note = "霍迪爾在"..YELLOW.."守衛者[10]"..WHITE.."。玩家必須在困難模式下擊殺霍迪爾以取得符印。"
 Inst86Quest3_Prequest = "星穹渾天儀"
 Inst86Quest3_Folgequest = "無"
 Inst86Quest3PreQuest = "true"
@@ -11870,8 +11906,8 @@ Inst86Quest4 = "4. 索林姆的符印"
 Inst86Quest4_Level = "80"
 Inst86Quest4_Attain = "80"
 Inst86Quest4_Aim = "奧杜亞大資料庫的勘察員多倫要你取得索林姆的符印。"
-Inst86Quest4_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest4_Note = "索林姆在"..YELLOW.."守衛者[10]"..WHITE.."。玩家必須在困難模式下擊殺索林姆以取得符印。"
+Inst86Quest4_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest4_Note = "索林姆在"..YELLOW.."守衛者[11]"..WHITE.."。玩家必須在困難模式下擊殺索林姆以取得符印。"
 Inst86Quest4_Prequest = "星穹渾天儀"
 Inst86Quest4_Folgequest = "無"
 Inst86Quest4PreQuest = "true"
@@ -11882,8 +11918,8 @@ Inst86Quest5 = "5. 芙蕾雅的符印"
 Inst86Quest5_Level = "80"
 Inst86Quest5_Attain = "80"
 Inst86Quest5_Aim = "奧杜亞大資料庫的勘察員多倫要你取得芙蕾雅的符印。"
-Inst86Quest5_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest5_Note = "芙蕾雅在"..YELLOW.."守衛者[11]"..WHITE.."。玩家必須在困難模式下擊殺芙蕾雅以取得符印。"
+Inst86Quest5_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest5_Note = "芙蕾雅在"..YELLOW.."守衛者[12]"..WHITE.."。玩家必須在困難模式下擊殺芙蕾雅以取得符印。"
 Inst86Quest5_Prequest = "星穹渾天儀"
 Inst86Quest5_Folgequest = "無"
 Inst86Quest5PreQuest = "true"
@@ -11894,8 +11930,8 @@ Inst86Quest6 = "6. 彌米倫的符印"
 Inst86Quest6_Level = "80"
 Inst86Quest6_Attain = "80"
 Inst86Quest6_Aim = "奧杜亞大資料庫的勘察員多倫要你取得彌米倫的符印。"
-Inst86Quest6_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest6_Note = "彌米倫在"..YELLOW.."創思之廳[12]"..WHITE.."。玩家必須在困難模式下擊殺彌米倫以取得符印。"
+Inst86Quest6_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest6_Note = "彌米倫在"..YELLOW.."創思之廳[13]"..WHITE.."。玩家必須在困難模式下擊殺彌米倫以取得符印。"
 Inst86Quest6_Prequest = "星穹渾天儀"
 Inst86Quest6_Folgequest = "無"
 Inst86Quest6PreQuest = "true"
@@ -11906,7 +11942,7 @@ Inst86Quest7 = "7. 艾爾加隆"
 Inst86Quest7_Level = "80"
 Inst86Quest7_Attain = "80"
 Inst86Quest7_Aim = "將看守者符印帶給奧杜亞的大資料庫控制臺。"
-Inst86Quest7_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest7_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
 Inst86Quest7_Note = "完成這個任務之後你將可以在星穹渾天儀與『觀察者』艾爾加隆進行戰鬥。"
 Inst86Quest7_Prequest = "四個符印任務"
 Inst86Quest7_Folgequest = "無"
@@ -11946,8 +11982,8 @@ Inst86Quest10 = "10. 英雄:星穹渾天儀"
 Inst86Quest10_Level = "80"
 Inst86Quest10_Attain = "80"
 Inst86Quest10_Aim = "奧杜亞大資料庫的勘察員多倫要你找到通往星穹渾天儀的入口。"
-Inst86Quest10_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest10_Note = "星穹渾天儀在（奧杜亞 - 前廳; "..YELLOW.."[7]"..WHITE.."）。\n\n向勘察員多倫回報此任務之後，他將會給你另外四個任務。"
+Inst86Quest10_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest10_Note = "星穹渾天儀在（奧杜亞 - 前廳; "..YELLOW.."[8]"..WHITE.."）。\n\n向勘察員多倫回報此任務之後，他將會給你另外四個任務。"
 Inst86Quest10_Prequest = "英雄：大資料庫資料圓盤"
 Inst86Quest10_Folgequest = "另外四個任務–英雄：霍迪爾的符印、英雄：索林姆的符印、英雄：芙蕾雅的符印、英雄：彌米倫的符印"
 Inst86Quest10FQuest = "true"
@@ -11958,8 +11994,8 @@ Inst86Quest11 = "11. 英雄:霍迪爾的符印"
 Inst86Quest11_Level = "80"
 Inst86Quest11_Attain = "80"
 Inst86Quest11_Aim = "奧杜亞大資料庫的勘察員多倫要你取得霍迪爾的符印。"
-Inst86Quest11_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest11_Note = "霍迪爾在"..YELLOW.."守衛者[9]"..WHITE.."。玩家必須在英雄困難模式下擊殺霍迪爾以取得符印。"
+Inst86Quest11_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest11_Note = "霍迪爾在"..YELLOW.."守衛者[10]"..WHITE.."。玩家必須在英雄困難模式下擊殺霍迪爾以取得符印。"
 Inst86Quest11_Prequest = "英雄：星穹渾天儀"
 Inst86Quest11_Folgequest = "無"
 Inst86Quest11PreQuest = "true"
@@ -11970,8 +12006,8 @@ Inst86Quest12 = "12. 英雄:索林姆的符印"
 Inst86Quest12_Level = "80"
 Inst86Quest12_Attain = "80"
 Inst86Quest12_Aim = "奧杜亞大資料庫的勘察員多倫要你取得索林姆的符印。"
-Inst86Quest12_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest12_Note = "索林姆在"..YELLOW.."守衛者[10]"..WHITE.."。玩家必須在英雄困難模式下擊殺索林姆以取得符印。"
+Inst86Quest12_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest12_Note = "索林姆在"..YELLOW.."守衛者[11]"..WHITE.."。玩家必須在英雄困難模式下擊殺索林姆以取得符印。"
 Inst86Quest12_Prequest = "英雄：星穹渾天儀"
 Inst86Quest12_Folgequest = "無"
 Inst86Quest12PreQuest = "true"
@@ -11982,8 +12018,8 @@ Inst86Quest13 = "13. 英雄:芙蕾雅的符印"
 Inst86Quest13_Level = "80"
 Inst86Quest13_Attain = "80"
 Inst86Quest13_Aim = "奧杜亞大資料庫的勘察員多倫要你取得芙蕾雅的符印。"
-Inst86Quest13_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest13_Note = "芙蕾雅在"..YELLOW.."守衛者[11]"..WHITE.."。玩家必須在英雄困難模式下擊殺芙蕾雅以取得符印。"
+Inst86Quest13_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest13_Note = "芙蕾雅在"..YELLOW.."守衛者[12]"..WHITE.."。玩家必須在英雄困難模式下擊殺芙蕾雅以取得符印。"
 Inst86Quest13_Prequest = "英雄：星穹渾天儀"
 Inst86Quest13_Folgequest = "無"
 Inst86Quest13PreQuest = "true"
@@ -11994,8 +12030,8 @@ Inst86Quest14 = "14. 英雄:彌米倫的符印"
 Inst86Quest14_Level = "80"
 Inst86Quest14_Attain = "80"
 Inst86Quest14_Aim = "奧杜亞大資料庫的勘察員多倫要你取得彌米倫的符印。"
-Inst86Quest14_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
-Inst86Quest14_Note = "彌米倫在"..YELLOW.."創思之廳[12]"..WHITE.."。玩家必須在英雄困難模式下擊殺彌米倫以取得符印。"
+Inst86Quest14_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
+Inst86Quest14_Note = "彌米倫在"..YELLOW.."創思之廳[13]"..WHITE.."。玩家必須在英雄困難模式下擊殺彌米倫以取得符印。"
 Inst86Quest14_Prequest = "英雄：星穹渾天儀"
 Inst86Quest14_Folgequest = "無"
 Inst86Quest14PreQuest = "true"
@@ -12006,7 +12042,7 @@ Inst86Quest15 = "15. 英雄:艾爾加隆"
 Inst86Quest15_Level = "80"
 Inst86Quest15_Attain = "80"
 Inst86Quest15_Aim = "將看守者符印帶給奧杜亞的大資料庫控制臺。"
-Inst86Quest15_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[5]南邊"..WHITE.."）"
+Inst86Quest15_Location = "勘察員多倫（奧杜亞 - 前廳; "..YELLOW.."[6]"..WHITE.."）"
 Inst86Quest15_Note = "完成這個任務之後你將可以在星穹渾天儀與『觀察者』艾爾加隆進行戰鬥。"
 Inst86Quest15_Prequest = "四個英雄符印任務"
 Inst86Quest15_Folgequest = "無"
@@ -13412,7 +13448,7 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Highlord Kruul
+-- 32 = Highlord Kruul (removed)
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
@@ -13465,9 +13501,9 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 82 = The Violet Hold
 -- 83 = Strand of the Ancients (SotA)
 -- 84 = Naxxramas (Naxx)
--- 85 = Vault of Archavon
+-- 85 = Vault of Archavon (VoA)
 -- 86 = Ulduar
--- 87 = Trial of the Champion
--- 88 = Trial of the Crusader
--- 89 = Isle of Conquest
+-- 87 = Trial of the Champion (ToC)
+-- 88 = Trial of the Crusader (ToC)
+-- 89 = Isle of Conquest (IoC)
 end
