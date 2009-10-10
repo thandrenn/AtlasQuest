@@ -722,6 +722,18 @@ Inst4Quest16_Folgequest = "Ja, Manawogen"
 Inst4Quest16PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 17 Alliance
+Inst4Quest17 = "17. Induriumerz"
+Inst4Quest17_Level = "42"
+Inst4Quest17_Attain = "29"
+Inst4Quest17_Aim = "Bring 4 Induriumerze zu Pozzik in Tausend Nadeln."
+Inst4Quest17_Location = "Pozzik (Tausend Nadeln - Mirage Raceway; "..YELLOW.."80.1, 75.9"..WHITE..")"
+Inst4Quest17_Note = "Dies ist eine wiederholbare Quest nachdem die Vorquest erfolgreich abgeschlossen wurde. Du bekommst dafür keinen Ruf und Erfahrung, nur ein kleines Trinkgeld. Induriumerz kannst du nur in Uldaman finden oder von anderen Spielern kaufen."
+Inst4Quest17_Prequest = "Tempo erhalten -> Rizzels Baupläne"
+Inst4Quest17_Folgequest = "None"
+Inst4Quest17PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 4 Alliance)
 Inst4Quest1_HORDE = "1. Kraftsteine"
@@ -845,6 +857,18 @@ Inst4Quest10_HORDE_Note = Inst4Quest16_Note
 Inst4Quest10_HORDE_Prequest = Inst4Quest16_Prequest
 Inst4Quest10_HORDE_Folgequest = Inst4Quest16_Folgequest
 Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 17 Alliance)
+Inst4Quest11_HORDE = "11. Induriumerz"
+Inst4Quest11_HORDE_Level = Inst4Quest17_Level
+Inst4Quest11_HORDE_Attain = Inst4Quest17_Attain
+Inst4Quest11_HORDE_Aim = Inst4Quest17_Aim
+Inst4Quest11_HORDE_Location = Inst4Quest17_Location
+Inst4Quest11_HORDE_Note = Inst4Quest17_Note
+Inst4Quest11_HORDE_Prequest = Inst4Quest17_Prequest
+Inst4Quest11_HORDE_Folgequest = Inst4Quest17_Folgequest
+Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
 -- No Rewards for this quest
 
 
@@ -994,7 +1018,7 @@ Inst5Quest11_Level = "59"
 Inst5Quest11_Attain = "51"
 Inst5Quest11_Aim = "Kehrt in die Schwarzfelstiefen zurück und rettet Prinzessin Moira Bronzebart aus den Fängen des bösen Imperators Dagran Thaurissan."
 Inst5Quest11_Location = "König Magni Bronzebart (Eisenschmiede; "..YELLOW.."39,55"..WHITE..")"
-Inst5Quest11_Note = "Prinzessin Moira Bronzebart befindet sich bei "..YELLOW.."[21]"..WHITE..". Während des Kampfs versucht sie Dagran zu heilen. Versucht ihre Zauber so oft wie möglich zu unterbrechen. Aber Beeilung, sie darf auf keinen Fall sterben, sonst könnt ihr das Quest nicht abschließen! Sobald ihr mit ihr geredet habt kehrt zu Magni Bronzebart zurück."
+Inst5Quest11_Note = "Prinzessin Moira Bronzebart befindet sich bei "..YELLOW.."[21]"..WHITE..". Während des Kampfs versucht sie Dagran zu heilen. Versucht ihre Zauber so oft wie möglich zu unterbrechen. Aber Beeilung, sie darf auf keinen Fall sterben, sonst könnt ihr diese Quest nicht abschließen! Sobald ihr mit ihr geredet habt kehrt zu Magni Bronzebart zurück."
 Inst5Quest11_Prequest = "Ja, Der Überbringer schlechter Botschaften"
 Inst5Quest11_Folgequest = "Ja, Die Überraschung der Prinzessin"
 Inst5Quest11FQuest = "true"
@@ -1047,7 +1071,7 @@ Inst5Quest15_Folgequest = "Ja, Beleidigt Coren Düsterbräu"
 -- No Rewards for this quest
 
 --Quest 16 Alliance
-Inst5Que16 = "16. Beleidigt Coren Düsterbräu (Tagesquest - Saisonbedingt)"
+Inst5Quest16 = "16. Beleidigt Coren Düsterbräu (Tagesquest - Saisonbedingt)"
 Inst5Quest16_Level = "80"
 Inst5Quest16_Attain = "75"
 Inst5Quest16_Aim = "Geht und fangt Streit mit Coren an."
@@ -1249,7 +1273,7 @@ Inst5Quest15_HORDE_Level = "59"
 Inst5Quest15_HORDE_Attain = "50"
 Inst5Quest15_HORDE_Aim = "Tötet Imperator Dagran Thaurissan und befreit Prinzessin Moira Bronzebart von seinem bösen Zauber."
 Inst5Quest15_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,37"..WHITE..")"
-Inst5Quest15_HORDE_Note = "Nachdem man mit Kharan Hammermacht und Thrall geredet hat bekommt man diese Quest.\nMan findet Imperator Dagran Thaurissan bei "..YELLOW.."[21]"..WHITE..". Die Prinzessin heilt Dagran während des Kampfs, sie darf aber auf keinen Fall sterben, sonst kann man das Quest nicht abschließen! Versucht ihre Heilungzauber zu unterbrechen. (Die Belohungen sind für 'Ist die Prinzessin gerettet?')"
+Inst5Quest15_HORDE_Note = "Nachdem man mit Kharan Hammermacht und Thrall geredet hat bekommt man diese Quest.\nMan findet Imperator Dagran Thaurissan bei "..YELLOW.."[21]"..WHITE..". Die Prinzessin heilt Dagran während des Kampfs, sie darf aber auf keinen Fall sterben, sonst kann man diese Quest nicht abschließen! Versucht ihre Heilungzauber zu unterbrechen. (Die Belohungen sind für 'Ist die Prinzessin gerettet?')"
 Inst5Quest15_HORDE_Prequest = "Ja, Kommandant Gor'shak"
 Inst5Quest15_HORDE_Folgequest = "Ja, Ist die Prinzessin gerettet?"
 Inst5Quest15FQuest_HORDE = "true"
@@ -1258,7 +1282,7 @@ Inst5Quest15name1_HORDE = "Thralls Entschlossenheit"
 Inst5Quest15name2_HORDE = "Auge von Orgrimmar"
 
 --Quest 16 Horde  (same as Quest 12 Alliance)
-Inst5Quest16_HORDE = Inst5Quest12
+Inst5Quest16_HORDE = "16. Abstimmung mit dem Kern"
 Inst5Quest16_HORDE_Level = Inst5Quest12_Level
 Inst5Quest16_HORDE_Attain = Inst5Quest12_Attain
 Inst5Quest16_HORDE_Aim = Inst5Quest12_Aim
@@ -1269,10 +1293,10 @@ Inst5Quest16_HORDE_Folgequest = Inst5Quest12_Folgequest
 -- No Rewards for this quest
 
 --Quest 17 Horde  (same as Quest 9 Alliance)
-Inst5Quest17_HORDE = Inst5Quest9
+Inst5Quest17_HORDE = "17. Eine Kostprobe der Flamme"
 Inst5Quest17_HORDE_Level = Inst5Quest9_Level
 Inst5Quest17_HORDE_Attain = Inst5Quest9_Attain
-Inst5Quest17_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest17_HORDE_Aim = Inst5Quest9_Aim
 Inst5Quest17_HORDE_Location = Inst5Quest19_Location
 Inst5Quest17_HORDE_Note = Inst5Quest9_Note
 Inst5Quest17_HORDE_Prequest = Inst5Quest9_Prequest
@@ -1280,7 +1304,7 @@ Inst5Quest17_HORDE_Folgequest = Inst5Quest9_Folgequest
 -- No Rewards for this quest
 
 --Quest 18 Horde  (same as Quest 10 Alliance)
-Inst5Quest18_HORDE = Inst5Quest10
+Inst5Quest18_HORDE = "18. Kharan Hammermacht"
 Inst5Quest18_HORDE_Level = Inst5Quest10_Level
 Inst5Quest18_HORDE_Attain = Inst5Quest10_Attain
 Inst5Quest18_HORDE_Aim = Inst5Quest10_Aim
@@ -1290,26 +1314,26 @@ Inst5Quest18_HORDE_Prequest = Inst5Quest10_Prequest
 Inst5Quest18_HORDE_Folgequest = Inst5Quest10_Folgequest
 -- No Rewards for this quest
 
---Quest 19 Horde  (same as Quest 11 Alliance)
-Inst5Quest19_HORDE = Inst5Quest11
-Inst5Quest19_HORDE_Level = Inst5Quest11_Level
-Inst5Quest19_HORDE_Attain = Inst5Quest11_Attain
-Inst5Quest19_HORDE_Aim = Inst5Quest11_Aim
-Inst5Quest19_HORDE_Location = Inst5Quest11_Location
-Inst5Quest19_HORDE_Note = Inst5Quest11_Note
-Inst5Quest19_HORDE_Prequest = Inst5Quest11_Prequest
-Inst5Quest19_HORDE_Folgequest = Inst5Quest11_Folgequest
+--Quest 19 Horde  (same as Quest 15 Alliance)
+Inst5Quest19_HORDE = "19. Rettet das Braufest! (Saisonbedingt)"
+Inst5Quest19_HORDE_Level = Inst5Quest15_Level
+Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
+Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
+Inst5Quest19_HORDE_Location = Inst5Quest15_Location
+Inst5Quest19_HORDE_Note = Inst5Quest15_Note
+Inst5Quest19_HORDE_Prequest = Inst5Quest15_Prequest
+Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
 -- No Rewards for this quest
 
---Quest 20 Horde  (same as Quest 12 Alliance)
-Inst5Quest20_HORDE = Inst5Quest12
-Inst5Quest20_HORDE_Level = Inst5Quest12_Level
-Inst5Quest20_HORDE_Attain = Inst5Quest12_Attain
-Inst5Quest20_HORDE_Aim = Inst5Quest12_Aim
-Inst5Quest20_HORDE_Location = Inst5Quest12_Location
-Inst5Quest20_HORDE_Note = Inst5Quest12_Note
-Inst5Quest20_HORDE_Prequest = Inst5Quest12_Prequest
-Inst5Quest20_HORDE_Folgequest = Inst5Quest12_Folgequest
+--Quest 20 Horde  (same as Quest 16 Alliance)
+Inst5Quest20_HORDE = "20. Beleidigt Coren Düsterbräu (Tagesquest - Saisonbedingt)"
+Inst5Quest20_HORDE_Level = Inst5Quest16_Level
+Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
+Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
+Inst5Quest20_HORDE_Location = Inst5Quest16_Location
+Inst5Quest20_HORDE_Note = Inst5Quest16_Note
+Inst5Quest20_HORDE_Prequest = Inst5Quest16_Prequest
+Inst5Quest20_HORDE_Folgequest = Inst5Quest16_Folgequest
 Inst5Quest20FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -1920,8 +1944,8 @@ Inst8Quest14name2_HORDE = Inst8Quest14name2
 
 Inst9Story = "Die mächtige Festung, die aus der feurigen Flanke des Schwarzfels herausgeschnitten wurde, geht auf Entwürfe des zwergischen Meistersteinmetzes Franclorn Schmiedevater zurück. Jahrhunderte lang war die Zitadelle ein Symbol der Macht des Dunkeleisenklans, das von den Zwergen mit äußerstem Ingrimm verteidigt wurde. Allerdings gab es jemanden, der andere Pläne für die Zitadelle hatte: Nefarian, der listige Sohn des Drachen Deathwing, stieg eines Tages mit Flamme und Klaue auf den oberen Teil der Zitadelle hinab und trug zusammen mit seinen drachischen Untergebenen den Kampf bis zu den Stellungen der Zwerge tief unten, bei den vulkanischen Abgründen unter dem Berg. Dort erkannte der Drache, dass der Anführer der Zwerge kein geringerer als der Feuerfürst Ragnaros höchstpersönlich war. Nachdem sein Vordringen gestoppt worden war, schwor sich Nefarian, seine Feinde endgültig zu vernichten und somit die Herrschaft über den Schwarzfels an sich zu reißen."
 Inst9Caption = "Schwarzfelsspitze (Oben)"
-Inst9QAA = "10 Quests"
-Inst9QAH = "12 Quests"
+Inst9QAA = "11 Quests"
+Inst9QAH = "13 Quests"
 
 --Quest 1 Alliance
 Inst9Quest1 = "1. Die oberste Beschützerin"
@@ -2048,6 +2072,18 @@ Inst9Quest10_Folgequest = "Nein"
 Inst9Quest10name1 = "Pläne: Dämonengeschmiedete Brustplatte"
 Inst9Quest10name2 = "Elixier des Dämonentötens"
 Inst9Quest10name3 = "Dämonengeküsster Sack"
+
+--Quest 11 Alliance
+Inst9Quest11 = "11. Eiersammlung"
+Inst9Quest11_Level = "60"
+Inst9Quest11_Attain = "57"
+Inst9Quest11_Aim = "Bringt 8 eingesammelte Dracheneier sowie das kollektronische Modul zu Tinkee Kesseldampf am Flammenkamm in der brennenden Steppe."
+Inst9Quest11_Location = "Tinkee Kesseldampf (Brennenden Steppe - Flammenkamm; "..YELLOW.."65,24"..WHITE..")"
+Inst9Quest11_Note = "Du findest die Eier im Raum wo Vater Flamme ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst9Quest11_Prequest = "Ei-Frosten"
+Inst9Quest11_Folgequest = "Leonid Bartholomäus -> Dämmerungsstrickfalle ("..YELLOW.."Scholomance"..WHITE..")"
+Inst9Quest11PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2199,6 +2235,18 @@ Inst9Quest12name1_HORDE = Inst9Quest10name1
 Inst9Quest12name2_HORDE = Inst9Quest10name2
 Inst9Quest12name3_HORDE = Inst9Quest10name3
 
+--Quest 13 Horde  (same as Quest 11 Alliance)
+Inst9Quest13_HORDE = "13. Eiersammlung"
+Inst9Quest13_HORDE_Level = Inst9Quest11_Level
+Inst9Quest13_HORDE_Attain = Inst9Quest11_Attain
+Inst9Quest13_HORDE_Aim = Inst9Quest11_Aim
+Inst9Quest13_HORDE_Location = Inst9Quest11_Location
+Inst9Quest13_HORDE_Note = Inst9Quest11_Note
+Inst9Quest13_HORDE_Prequest = Inst9Quest11_Prequest
+Inst9Quest13_HORDE_Folgequest = Inst9Quest11_Folgequest
+Inst9Quest13PreQuest_HORDE = Inst9Quest11PreQuest
+-- No Rewards for this quest
+
 
 
 --------------- INST10 - Dire Maul East (DM) ---------------
@@ -2249,7 +2297,7 @@ Inst10Quest3name1 = "Millis Schild"
 Inst10Quest3name2 = "Millis Lexikon"
 
 --Quest 4 Alliance
-Inst10Quest4 = "4. The Left Piece of Lord Valthalak's Amulet"
+Inst10Quest4 = "4. Das linke Stück von Lord Valthalaks Amulett"
 Inst10Quest4_Level = "60"
 Inst10Quest4_Attain = "58"
 Inst10Quest4_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Isalien zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
@@ -2416,6 +2464,19 @@ Inst11Quest4name2 = "Gordoks Handschuhe"
 Inst11Quest4name3 = "Gordoks Stulpen"
 Inst11Quest4name4 = "Gordoks Handschützer"
 
+--Quest 5 Alliance
+Inst11Quest5 = "5. Der Gordokgeschmackstest"
+Inst11Quest5_Level = "60"
+Inst11Quest5_Attain = "60"
+Inst11Quest5_Aim = "Freier Alkohol."
+Inst11Quest5_Location = "Stampfer Kreeg (Düsterbruch; "..YELLOW.."Nord, [2]"..WHITE..")"
+Inst11Quest5_Note = "Rede mit dem NPC um die Quest anzunehmen und gleichzeitig wieder abzugeben."
+Inst11Quest5_Prequest = "No"
+Inst11Quest5_Folgequest = "No"
+--
+Inst11Quest5name1 = "Grüner Gordokgrog"
+Inst11Quest5name2 = "Kreegs Hauwegsstarkbier"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst11Quest1_HORDE = Inst11Quest1
@@ -2465,6 +2526,19 @@ Inst11Quest4name1_HORDE = Inst11Quest4name1
 Inst11Quest4name2_HORDE = Inst11Quest4name2
 Inst11Quest4name3_HORDE = Inst11Quest4name3
 Inst11Quest4name4_HORDE = Inst11Quest4name4
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst11Quest5_HORDE = Inst11Quest5
+Inst11Quest5_HORDE_Level = Inst11Quest5_Level
+Inst11Quest5_HORDE_Attain = Inst11Quest5_Attain
+Inst11Quest5_HORDE_Aim = Inst11Quest5_Aim
+Inst11Quest5_HORDE_Location = Inst11Quest5_Location
+Inst11Quest5_HORDE_Note = Inst11Quest5_Note
+Inst11Quest5_HORDE_Prequest = Inst11Quest5_Prequest
+Inst11Quest5_HORDE_Folgequest = Inst11Quest5_Folgequest
+--
+Inst11Quest5name1_HORDE = Inst11Quest5name1
+Inst11Quest5name2_HORDE = Inst11Quest5name2
 
 
 
@@ -3172,6 +3246,19 @@ Inst14Quest5_Prequest = "Nein"
 Inst14Quest5_Folgequest = "Ja, Uraltes in Sehnen eingewickeltes Laminablatt ("..YELLOW.."Azuregos"..WHITE..")"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst14Quest6 = "6. ^Wahrsagerbrille? Kein Problem!"
+Inst14Quest6_Level = "60"
+Inst14Quest6_Attain = "60"
+Inst14Quest6_Aim = "Findet Narains Wahrsagerbrille und bringt sie Narain Pfauentraum in Tanaris."
+Inst14Quest6_Location = "Unscheinbare Kiste (Silberwald - Der Graumähnenwall; "..YELLOW.."46.2, 86.6"..WHITE..")"
+Inst14Quest6_Note = "Seid Patch 3.0.2 die Wahrsagerbrille droppt bei irgend einem Mob im Geschmolzenen Kern. Die Quest bringt dich zu Narain Pfauentraum (Tanaris; "..YELLOW.."65.3, 18.6"..WHITE.."), wo du auch die Vorquest erhälst."
+Inst14Quest6_Prequest = "Stewvul, Ex-B.F.F.I."
+Inst14Quest6_Folgequest = "None"
+Inst14Quest6PreQuest = "true"
+--
+Inst14Quest6name1 = "Major Rejuvenation Potion"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst14Quest1_HORDE = Inst14Quest1
@@ -3231,6 +3318,19 @@ Inst14Quest5_HORDE_Note = Inst14Quest5_Note
 Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
 Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
 -- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst14Quest6_HORDE = Inst14Quest6
+Inst14Quest6_HORDE_Level = Inst14Quest6_Level
+Inst14Quest6_HORDE_Attain = Inst14Quest6_Attain
+Inst14Quest6_HORDE_Aim = Inst14Quest6_Aim
+Inst14Quest6_HORDE_Location = Inst14Quest6_Location
+Inst14Quest6_HORDE_Note = Inst14Quest6_Note
+Inst14Quest6_HORDE_Prequest = Inst14Quest6_Prequest
+Inst14Quest6_HORDE_Folgequest = Inst14Quest6_Folgequest
+Inst14Quest6PreQuest_HORDE = Inst14Quest6PreQuest
+--
+Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 
 
@@ -4132,6 +4232,18 @@ Inst20Quest10_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
 Inst20Quest10PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 11 Alliance
+Inst20Quest11 = "11. Das rechte Stück von Lord Valthalaks Amulett"
+Inst20Quest11_Level = "60"
+Inst20Quest11_Attain = "58"
+Inst20Quest11_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Mor Grauhuf zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst20Quest11_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst20Quest11_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion.\n\nKormok wird bei "..YELLOW.."[7]"..WHITE..".beschworen"
+Inst20Quest11_Prequest = "Mehr Komponenten von großer Wichtigkeit"
+Inst20Quest11_Folgequest = "Letzte Vorbereitungen ("..YELLOW.."Untere Schwarzfelsspitze"..WHITE..")"
+Inst20Quest11PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst20Quest1_HORDE = Inst20Quest1
@@ -4257,6 +4369,31 @@ Inst20Quest10_HORDE_Note = Inst20Quest10_Note
 Inst20Quest10_HORDE_Prequest = Inst20Quest10_Prequest
 Inst20Quest10_HORDE_Folgequest = Inst20Quest10_Folgequest
 Inst20Quest10PreQuest_HORDE = Inst20Quest10PreQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde
+Inst20Quest11_HORDE = "11. Die Bedrohung durch Schattensichel (Schamane)"
+Inst20Quest11_HORDE_Level = "60"
+Inst20Quest11_HORDE_Attain = "58"
+Inst20Quest11_HORDE_Aim = "Wendet das Orakel der Anrufung inmitten des Kellergewölbes des großen Ossuariums in Scholomance an. Ihr werdet damit Geister herbeirufen, die es zu bekämpfen gilt. Nach Vernichtung dieser Geister wird der Todesritter Schattensichel auftauchen; besiegt ihn."
+Inst20Quest11_HORDE_Location = "Sagorne Gratläufer (Orgrimmar - Das Tal der Weisheit; "..YELLOW.."38.6, 36.2"..WHITE..")"
+Inst20Quest11_HORDE_Note = "Diese Quest ist nur für den Schamanen. Die Vorquest ist optional vom selben NPC.\n\nTodesritter Schattensichel erscheint bei "..YELLOW.."[5]"..WHITE.."."
+Inst20Quest11_HORDE_Prequest = "Materielle Unterstützung"
+Inst20Quest11_HORDE_Folgequest = "None"
+Inst20Quest11PreQuest_HORDE = "true"
+--
+Inst20Quest11name1_HORDE = "Helm des Himmelszorns"
+
+--Quest 12 Horde  (same as Quest 11 Alliance)
+Inst20Quest12_HORDE = "12. Das rechte Stück von Lord Valthalaks Amulett"
+Inst20Quest12_HORDE_Level = Inst20Quest11_Level
+Inst20Quest12_HORDE_Attain = Inst20Quest11_Attain
+Inst20Quest12_HORDE_Aim = Inst20Quest11_Aim
+Inst20Quest12_HORDE_Location = Inst20Quest11_Location
+Inst20Quest12_HORDE_Note = Inst20Quest11_Note
+Inst20Quest12_HORDE_Prequest = Inst20Quest11_Prequest
+Inst20Quest12_HORDE_Folgequest = Inst20Quest11_Folgequest
+Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 -- No Rewards for this quest
 
 
@@ -4824,6 +4961,19 @@ Inst22Quest19_HORDE_Prequest = Inst22Quest18_Prequest
 Inst22Quest19_HORDE_Folgequest = Inst22Quest18_Folgequest
 --
 Inst22Quest19name1_HORDE = Inst22Quest18name1
+
+--Quest 20 Horde
+Inst22Quest20_HORDE = "20. Wahre Meister des Lichts (Paladin)"
+Inst22Quest20_HORDE_Level = "60"
+Inst22Quest20_HORDE_Attain = "60"
+Inst22Quest20_HORDE_Aim = "Verwendet die Löschmischung in der Nähe der ewigen Flamme in der Alonsuskapelle, um den Schutz des Lichts zu brechen. Seid bereit, jeden zu töten, der versucht, die Kapelle zu verteidigen."
+Inst22Quest20_HORDE_Location = "Lord Solanar Blutzorn (Silbermond - Platz der Weltenwandler; "..YELLOW.."92.2, 38.7"..WHITE..")"
+Inst22Quest20_HORDE_Note = "Die Alonsuskapelle ist bei "..YELLOW.."[13]"..WHITE..". Beende diese Quest und du erhälst das epische Reittier des Paladins. Du kannst diese Quest nicht starten wenn du das epische Reittier von deinem Lehrer erhalten hast."
+Inst22Quest20_HORDE_Prequest = "Aufforderung von Lord Solanar -> Wahre Meister des Lichts"
+Inst22Quest20_HORDE_Folgequest = "None"
+Inst22Quest20PreQuest_HORDE = "true"
+--
+Inst22Quest20name1_HORDE = "Wappenrock der Blutritter"
 
 
 
@@ -5507,6 +5657,17 @@ Inst26Quest3_Prequest = "Nein"
 Inst26Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 4 Alliance
+Inst26Quest4 = "4. Sterbliche Helden"
+Inst26Quest4_Level = "60"
+Inst26Quest4_Attain = "60"
+Inst26Quest4_Aim = "Bring eine Insigne des Qirajilords zu Kandrostrasz im Tempel von Ahn'Qiraj."
+Inst26Quest4_Location = "Kandrostrasz (Tempel von Ahn'Qiraj; "..YELLOW.."[1']"..WHITE..")"
+Inst26Quest4_Note = "Das ist eine wiederholbare Quest um Ruf bei den Zirkel des Cenarius zu machen. Die Insigne des Qirajilords droppen von allen Bossen innerhalb der Instanz. Kandrostrasz kann man im Raum hinter dem ersten Boss finden."
+Inst26Quest4_Prequest = "None"
+Inst26Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst26Quest1_HORDE = Inst26Quest1
@@ -5543,6 +5704,17 @@ Inst26Quest3_HORDE_Location = Inst26Quest3_Location
 Inst26Quest3_HORDE_Note = Inst26Quest3_Note
 Inst26Quest3_HORDE_Prequest = Inst26Quest3_Prequest
 Inst26Quest3_HORDE_Folgequest = Inst26Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst26Quest4_HORDE = "4. Sterbliche Helden"
+Inst26Quest4_HORDE_Level = Inst26Quest4_Level
+Inst26Quest4_HORDE_Attain = Inst26Quest4_Attain
+Inst26Quest4_HORDE_Aim = Inst26Quest4_Aim
+Inst26Quest4_HORDE_Location = Inst26Quest4_Location
+Inst26Quest4_HORDE_Note = Inst26Quest4_Note
+Inst26Quest4_HORDE_Prequest = Inst26Quest4_Prequest
+Inst26Quest4_HORDE_Folgequest = Inst26Quest4_Folgequest
 -- No Rewards for this quest
 
 
@@ -11102,28 +11274,28 @@ Inst84QAA = "2 Quests"
 Inst84QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst84Quest1 = "1. The Key to the Focusing Iris"
+Inst84Quest1 = "1. Schlüssel der fokussierenden Iris"
 Inst84Quest1_Level = "80"
 Inst84Quest1_Attain = "80"
-Inst84Quest1_Aim = "Deliver the Key to the Focusing Iris to Alexstrasza the Life-Binder atop Wyrmrest Temple in the Dragonblight."
-Inst84Quest1_Location = "Key to the Focusing Iris (drops from Sapphiron; "..YELLOW.."Frostwyrm Lair [1]"..WHITE..")"
-Inst84Quest1_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel Temple; "..YELLOW.."59.8, 54.6"..WHITE.."). The reward is required to open up The Nexus: Eye of Eternity for Normal 10-man mode."
+Inst84Quest1_Aim = "Liefert den Schlüssel zur fokussierenden Iris bei Alexstrasza der Lebensbinderin auf der höchsten Ebene des Wyrmruhtempels in der Drachenöde ab."
+Inst84Quest1_Location = "Schlüssel der fokussierenden Iris (droppts von Sapphiron; "..YELLOW.."Frostwyrmhöhle [1]"..WHITE..")"
+Inst84Quest1_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). Die Folge der Quest öffnet die Instant Der Nexus: Auge der Ewigkeit für den normalen 10 Mann Raid."
 Inst84Quest1_Prequest = "Nein"
-Inst84Quest1_Folgequest = "Judgment at the Eye of Eternity ("..YELLOW.."Eye of Eternity"..WHITE..")"
+Inst84Quest1_Folgequest = "Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
 --
-Inst84Quest1name1 = "Key to the Focusing Iris"
+Inst84Quest1name1 = "Schlüssel der fokussierenden Iris"
 
 --Quest 2 Alliance
-Inst84Quest2 = "2. The Heroic Key to the Focusing Iris (Heroic)"
+Inst84Quest2 = "2. Heroischer Schlüssel der fokussierenden Iris  (Heroisch)"
 Inst84Quest2_Level = "80"
 Inst84Quest2_Attain = "80"
-Inst84Quest2_Aim = "Deliver the Heroic Key to the Focusing Iris to Alexstrasza the Life-Binder atop Wyrmrest Temple in the Dragonblight."
-Inst84Quest2_Location = "Heroic Key to the Focusing Iris (drops from Sapphiron; "..YELLOW.."Frostwyrm Lair [1]"..WHITE..")"
-Inst84Quest2_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). The reward is required to open up The Nexus: Eye of Eternity for Heroic 25-man mode."
+Inst84Quest2_Aim = "Liefert den heroischen Schlüssel zur fokussierenden Iris bei Alexstrasza der Lebensbinderin auf der höchsten Ebene des Wyrmruhtempels in der Drachenöde ab."
+Inst84Quest2_Location = "Der heroische Schlüssel der fokussierenden Iris (droppt von Sapphiron; "..YELLOW.."Frostwyrmhöhle [1]"..WHITE..")"
+Inst84Quest2_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). Die Folge der Quest öffnet die Instant Der Nexus: Auge der Ewigkeit für den Heroischen 25 Mann Raid."
 Inst84Quest2_Prequest = "Nein"
-Inst84Quest2_Folgequest = "Judgment at the Eye of Eternity ("..YELLOW.."Eye of Eternity"..WHITE..")"
+Inst84Quest2_Folgequest = "Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
 --
-Inst84Quest2name1 = "Heroic Key to the Focusing Iris"
+Inst84Quest2name1 = "Heroischer Schlüssel der fokussierenden Iris"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
