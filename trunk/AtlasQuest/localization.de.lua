@@ -6499,7 +6499,7 @@ Inst39Quest1name4 = "Späherschulterklappen der Expedition"
 Inst39Quest1name5 = "Unerschrockene Handschützer"
 
 --Quest 2 Alliance
-Inst39Quest2 = "2. Pride of the Fel Horde"
+Inst39Quest2 = "2. Der Stolz der Höllenhorde"
 Inst39Quest2_Level = "70"
 Inst39Quest2_Attain = "66"
 Inst39Quest2_Aim = "Feldkommandant Romus in der Ehrenfeste möchte, dass Ihr 8 Legionäre der Zerschmetterten Hand, 4 Zenturios der Zerschmetterten Hand und 4 Champions der Zerschmetterten Hand tötet."
