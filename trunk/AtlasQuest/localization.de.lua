@@ -4050,11 +4050,11 @@ Inst59QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst59Quest1 = "1. Ruft den kopflosen Reiter (Tagesquest - Saisonbedingt)"
-Inst59Quest1_Level = "70"
-Inst59Quest1_Attain = "70"
+Inst59Quest1_Level = "80"
+Inst59Quest1_Attain = "80"
 Inst59Quest1_Aim = "Bringt eine düstere Kerze zur leicht aufgewühlten Erde."
 Inst59Quest1_Location = "Kürbisschrein (Scharlachrotes Kloster - Friedhof; "..YELLOW.."[2]"..WHITE..")"
-Inst59Quest1_Note = "Die Erde befindet sich nur ein paar Schritte vom Kürbisschrein entfernt. Diese Quest ist nur während der Schlotternächte erhältlich und kann nur einmal täglich pro Spieler angenommen werden.\n\nWenn man das Quest abschließt, erscheint der kopflose Reiter, ein Stufe 70 Boss."
+Inst59Quest1_Note = "Die Erde befindet sich nur ein paar Schritte vom Kürbisschrein entfernt. Diese Quest ist nur während der Schlotternächte erhältlich und kann nur einmal täglich pro Spieler angenommen werden.\n\nWenn man diese Quest abschließt, erscheint der kopflose Reiter, ein Stufe 80 Boss."
 Inst59Quest1_Prequest = "Nein"
 Inst59Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
