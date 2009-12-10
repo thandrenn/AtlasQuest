@@ -2,10 +2,23 @@
 Changelog
 =========
 
-Version 4.3.7
+Version 4.4.0 BETA
 
-- Fixed attainment levels for Timear Foresees quests.
+- TOC updated for Patch 3.3.
+- Support for Forge of Souls, Pit of Saron, Halls of Reflection and Icecrown Citadel.
+- Removed all Lich King Dungeon Daily and Heroic Daily quests.
+- Rewards for Horde Auchenai Crypts: "Wanted: The Exarch's Soul Gem" were missing.
 - Updated Foror's Compendium & Forging of Quel'Serrar quests to note that they can no longer be started anew with patch 3.2.2.
+
+- Quests added:
+	- Forge of Souls: Inside the Frozen Citadel
+	- Forge of Souls: Echoes of Tortured Souls
+	- Pit of Saron: The Pit of Saron
+	- Pit of Saron: The Path to the Citadel
+	- Pit of Saron: Deliverance from the Pit
+	- Halls of Reflection: Frostmourne
+	- Halls of Reflection: Wrath of the Lich King
+
 
 
 

@@ -263,6 +263,22 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheCrusader") then
 		AQINSTANZ = 88;
 
+--	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ForgeOfSouls") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceEast") then
+		AQINSTANZ = 90;
+
+--	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\PitOfSaron") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceWest") then
+		AQINSTANZ = 91;
+
+--	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HallsOfReflection") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceOutland") then
+		AQINSTANZ = 92;
+
+--	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadel") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceNorthrend") then
+		AQINSTANZ = 93;
+
 
 
 	-- Battlegrounds
@@ -559,6 +575,18 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TrialOfTheCrusader") then
 		AQINSTANZ = 88;
 
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ForgeOfSouls") then
+		AQINSTANZ = 90;
+
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\PitOfSaron") then
+		AQINSTANZ = 91;
+
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\HallsOfReflection") then
+		AQINSTANZ = 92;
+
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\IcecrownCitadel") then
+		AQINSTANZ = 93;
+
 
 	-- Battlegrounds
 
@@ -713,3 +741,8 @@ end
 -- 87 = Trial of the Champion (ToC)
 -- 88 = Trial of the Crusader (ToC)
 -- 89 = Isle of Conquest (IoC)
+-- 90 = Forge of Souls (FoS)
+-- 91 = Pit of Saron (PoS)
+-- 92 = Halls of Reflection (HoR)
+-- 93 = Icecrown Citadel (ICC)
+
