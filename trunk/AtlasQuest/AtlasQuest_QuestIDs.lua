@@ -1624,19 +1624,13 @@ AQ_11492_Level = "70"
 
 --------------- INST69 - Caverns of Time: Stratholme Past ---------------
 
-Inst69Quest1_QuestID = "13243"
-Inst69Quest2_QuestID = "13251"
-Inst69Quest3_QuestID = "13149"
-Inst69Quest4_QuestID = "13151"
+Inst69Quest1_QuestID = "13149"
+Inst69Quest2_QuestID = "13151"
 
-Inst69Quest1_HORDE_QuestID = "13243"
-Inst69Quest2_HORDE_QuestID = "13251"
-Inst69Quest3_HORDE_QuestID = "13149"
-Inst69Quest4_HORDE_QuestID = "13151"
+Inst69Quest1_HORDE_QuestID = "13149"
+Inst69Quest2_HORDE_QuestID = "13151"
 
 
-AQ_13243_Level = "80"
-AQ_13251_Level = "80"
 AQ_13149_Level = "80"
 AQ_13151_Level = "80"
 
@@ -1644,17 +1638,14 @@ AQ_13151_Level = "80"
 
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
-Inst70Quest1_QuestID = "13245"
-Inst70Quest2_QuestID = "11252"
-Inst70Quest3_QuestID = "13205"
+Inst70Quest1_QuestID = "11252"
+Inst70Quest2_QuestID = "13205"
 
-Inst70Quest1_HORDE_QuestID = "13245"
-Inst70Quest2_HORDE_QuestID = "11272"
-Inst70Quest3_HORDE_QuestID = "11262"
-Inst70Quest4_HORDE_QuestID = "13206"
+Inst70Quest1_HORDE_QuestID = "11272"
+Inst70Quest2_HORDE_QuestID = "11262"
+Inst70Quest3_HORDE_QuestID = "13206"
 
 
-AQ_13245_Level = "80"
 AQ_11252_Level = "71"
 AQ_13205_Level = "71"
 AQ_11272_Level = "71"
@@ -1665,19 +1656,13 @@ AQ_13206_Level = "71"
 
 --------------- INST71 - Utgarde Keep: Utgarde Pinnacle ---------------
 
-Inst71Quest1_QuestID = "13241"
-Inst71Quest2_QuestID = "13248"
-Inst71Quest3_QuestID = "13131"
-Inst71Quest4_QuestID = "13132"
+Inst71Quest1_QuestID = "13131"
+Inst71Quest2_QuestID = "13132"
 
-Inst71Quest1_HORDE_QuestID = "13241"
-Inst71Quest2_HORDE_QuestID = "13248"
-Inst71Quest3_HORDE_QuestID = "13131"
-Inst71Quest4_HORDE_QuestID = "13132"
+Inst71Quest1_HORDE_QuestID = "13131"
+Inst71Quest2_HORDE_QuestID = "13132"
 
 
-AQ_13241_Level = "80"
-AQ_13248_Level = "80"
 AQ_13131_Level = "80"
 AQ_13132_Level = "80"
 
@@ -1685,20 +1670,17 @@ AQ_13132_Level = "80"
 
 --------------- INST72 - The Nexus: The Nexus ---------------
 
-Inst72Quest1_QuestID = "13246"
-Inst72Quest2_QuestID = "13094"
-Inst72Quest3_QuestID = "11905"
-Inst72Quest4_QuestID = "11973"
-Inst72Quest5_QuestID = "11911"
+Inst72Quest1_QuestID = "13094"
+Inst72Quest2_QuestID = "11905"
+Inst72Quest3_QuestID = "11973"
+Inst72Quest4_QuestID = "11911"
 
-Inst72Quest1_HORDE_QuestID = "13246"
-Inst72Quest2_HORDE_QuestID = "13095"
-Inst72Quest3_HORDE_QuestID = "11905"
-Inst72Quest4_HORDE_QuestID = "11973"
-Inst72Quest5_HORDE_QuestID = "11911"
+Inst72Quest1_HORDE_QuestID = "13095"
+Inst72Quest2_HORDE_QuestID = "11905"
+Inst72Quest3_HORDE_QuestID = "11973"
+Inst72Quest4_HORDE_QuestID = "11911"
 
 
-AQ_13246_Level = "80"
 AQ_13094_Level = "71"
 AQ_11905_Level = "71"
 AQ_11973_Level = "71"
@@ -1709,23 +1691,17 @@ AQ_13095_Level = "71"
 
 --------------- INST73 - The Nexus: The Oculus ---------------
 
-Inst73Quest1_QuestID = "13240"
-Inst73Quest2_QuestID = "13247"
-Inst73Quest3_QuestID = "13124"
-Inst73Quest4_QuestID = "13126"
-Inst73Quest5_QuestID = "13127"
-Inst73Quest6_QuestID = "13128"
+Inst73Quest1_QuestID = "13124"
+Inst73Quest2_QuestID = "13126"
+Inst73Quest3_QuestID = "13127"
+Inst73Quest4_QuestID = "13128"
 
-Inst73Quest1_HORDE_QuestID = "13240"
-Inst73Quest2_HORDE_QuestID = "13247"
-Inst73Quest3_HORDE_QuestID = "13124"
-Inst73Quest4_HORDE_QuestID = "13126"
-Inst73Quest5_HORDE_QuestID = "13127"
-Inst73Quest6_HORDE_QuestID = "13128"
+Inst73Quest1_HORDE_QuestID = "13124"
+Inst73Quest2_HORDE_QuestID = "13126"
+Inst73Quest3_HORDE_QuestID = "13127"
+Inst73Quest4_HORDE_QuestID = "13128"
 
 
-AQ_13240_Level = "80"
-AQ_13247_Level = "80"
 AQ_13124_Level = "80"
 AQ_13126_Level = "80"
 AQ_13127_Level = "80"
@@ -1749,16 +1725,13 @@ AQ_13385_Level = "80"
 
 --------------- INST75 - Azjol-Nerub ---------------
 
-Inst75Quest1_QuestID = "13254"
-Inst75Quest2_QuestID = "13182"
-Inst75Quest3_QuestID = "13167"
+Inst75Quest1_QuestID = "13182"
+Inst75Quest2_QuestID = "13167"
 
-Inst75Quest1_HORDE_QuestID = "13254"
-Inst75Quest2_HORDE_QuestID = "13182"
-Inst75Quest3_HORDE_QuestID = "13167"
+Inst75Quest1_HORDE_QuestID = "13182"
+Inst75Quest2_HORDE_QuestID = "13167"
 
 
-AQ_13254_Level = "80"
 AQ_13182_Level = "74"
 AQ_13167_Level = "74"
 
@@ -1766,18 +1739,15 @@ AQ_13167_Level = "74"
 
 --------------- INST76 - Ahn'kahet: The Old Kingdom ---------------
 
-Inst76Quest1_QuestID = "13255"
-Inst76Quest2_QuestID = "13190"
-Inst76Quest3_QuestID = "13204"
-Inst76Quest4_QuestID = "13187"
+Inst76Quest1_QuestID = "13190"
+Inst76Quest2_QuestID = "13204"
+Inst76Quest3_QuestID = "13187"
 
-Inst76Quest1_HORDE_QuestID = "13255"
-Inst76Quest2_HORDE_QuestID = "13190"
-Inst76Quest3_HORDE_QuestID = "13204"
-Inst76Quest4_HORDE_QuestID = "13187"
+Inst76Quest1_HORDE_QuestID = "13190"
+Inst76Quest2_HORDE_QuestID = "13204"
+Inst76Quest3_HORDE_QuestID = "13187"
 
 
-AQ_13255_Level = "80"
 AQ_13190_Level = "80"
 AQ_13204_Level = "76"
 AQ_13187_Level = "76"
@@ -1786,33 +1756,24 @@ AQ_13187_Level = "76"
 
 --------------- INST77 - Ulduar: Halls of Stone ---------------
 
-Inst77Quest1_QuestID = "13252"
-Inst77Quest2_QuestID = "13207"
+Inst77Quest1_QuestID = "13207"
 
-Inst77Quest1_HORDE_QuestID = "13252"
-Inst77Quest2_HORDE_QuestID = "13207"
+Inst77Quest1_HORDE_QuestID = "13207"
 
 
-AQ_13252_Level = "80"
 AQ_13207_Level = "78"
 
 
 
 --------------- INST78 - Ulduar: Halls of Lightning ---------------
 
-Inst78Quest1_QuestID = "13244"
-Inst78Quest2_QuestID = "13253"
-Inst78Quest3_QuestID = "13108"
-Inst78Quest4_QuestID = "13109"
+Inst78Quest1_QuestID = "13108"
+Inst78Quest2_QuestID = "13109"
 
-Inst78Quest1_HORDE_QuestID = "13244"
-Inst78Quest2_HORDE_QuestID = "13253"
-Inst78Quest3_HORDE_QuestID = "13108"
-Inst78Quest4_HORDE_QuestID = "13109"
+Inst78Quest1_HORDE_QuestID = "13108"
+Inst78Quest2_HORDE_QuestID = "13109"
 
 
-AQ_13244_Level = "80"
-AQ_13253_Level = "80"
 AQ_13108_Level = "80"
 AQ_13109_Level = "80"
 
@@ -1824,18 +1785,15 @@ AQ_13109_Level = "80"
 
 --------------- INST80 - Drak'Tharon Keep ---------------
 
-Inst80Quest1_QuestID = "13249"
-Inst80Quest2_QuestID = "12238"
-Inst80Quest3_QuestID = "12037"
-Inst80Quest4_QuestID = "13129"
+Inst80Quest1_QuestID = "12238"
+Inst80Quest2_QuestID = "12037"
+Inst80Quest3_QuestID = "13129"
 
-Inst80Quest1_HORDE_QuestID = "13249"
-Inst80Quest2_HORDE_QuestID = "12238"
-Inst80Quest3_HORDE_QuestID = "12037"
-Inst80Quest4_HORDE_QuestID = "13129"
+Inst80Quest1_HORDE_QuestID = "12238"
+Inst80Quest2_HORDE_QuestID = "12037"
+Inst80Quest3_HORDE_QuestID = "13129"
 
 
-AQ_13249_Level = "80"
 AQ_12238_Level = "75"
 AQ_12037_Level = "74"
 AQ_13129_Level = "74"
@@ -1844,18 +1802,15 @@ AQ_13129_Level = "74"
 
 --------------- INST81 - Gundrak ---------------
 
-Inst81Quest1_QuestID = "13250"
-Inst81Quest2_QuestID = "13098"
-Inst81Quest3_QuestID = "13096"
-Inst81Quest4_QuestID = "13111"
+Inst81Quest1_QuestID = "13098"
+Inst81Quest2_QuestID = "13096"
+Inst81Quest3_QuestID = "13111"
 
-Inst81Quest1_HORDE_QuestID = "13250"
-Inst81Quest2_HORDE_QuestID = "13098"
-Inst81Quest3_HORDE_QuestID = "13096"
-Inst81Quest4_HORDE_QuestID = "13111"
+Inst81Quest1_HORDE_QuestID = "13098"
+Inst81Quest2_HORDE_QuestID = "13096"
+Inst81Quest3_HORDE_QuestID = "13111"
 
 
-AQ_13250_Level = "80"
 AQ_13098_Level = "78"
 AQ_13096_Level = "78"
 AQ_13111_Level = "78"
@@ -1864,16 +1819,13 @@ AQ_13111_Level = "78"
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Quest1_QuestID = "13256"
-Inst82Quest2_QuestID = "13158"
-Inst82Quest3_QuestID = "13159"
+Inst82Quest1_QuestID = "13158"
+Inst82Quest2_QuestID = "13159"
 
-Inst82Quest1_HORDE_QuestID = "13256"
-Inst82Quest2_HORDE_QuestID = "13158"
-Inst82Quest3_HORDE_QuestID = "13159"
+Inst82Quest1_HORDE_QuestID = "13158"
+Inst82Quest2_HORDE_QuestID = "13159"
 
 
-AQ_13256_Level = "80"
 AQ_13158_Level = "77"
 AQ_13159_Level = "77"
 
@@ -1955,17 +1907,45 @@ AQ_13819_Level = "80"
 
 --------------- INST87 - Trial of the Champion ---------------
 
-Inst87Quest1_QuestID = "14199"
-
-Inst87Quest1_HORDE_QuestID = "14199"
-
-
-AQ_14199_Level = "80"
-
-
 
 
 --------------- INST88 - Trial of the Crusader ---------------
+
+
+
+--------------- INST90 - Forge of Souls (FoS)  ---------------
+
+Inst90Quest1_QuestID = "24510"
+Inst90Quest2_QuestID = "24499"
+
+Inst90Quest1_HORDE_QuestID = "24506"
+Inst90Quest2_HORDE_QuestID = "24511"
+
+
+
+--------------- INST91 - Pit of Saron (PoS)  ---------------
+
+Inst91Quest1_QuestID = "24683"
+Inst91Quest2_QuestID = "24498"
+Inst91Quest3_QuestID = "24710"
+
+Inst91Quest1_HORDE_QuestID = "24682"
+Inst91Quest2_HORDE_QuestID = "24507"
+Inst91Quest3_HORDE_QuestID = "24712"
+
+
+
+--------------- INST92 - Halls of Reflection (HoR)  ---------------
+
+Inst92Quest1_QuestID = "24711"
+Inst92Quest2_QuestID = "24500"
+
+Inst92Quest1_HORDE_QuestID = "24713"
+Inst92Quest2_HORDE_QuestID = "24802"
+
+
+
+--------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
 
 
