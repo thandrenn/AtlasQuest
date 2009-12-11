@@ -1713,13 +1713,16 @@ AQ_13128_Level = "80"
 
 Inst74Quest1_QuestID = "13384"
 Inst74Quest2_QuestID = "13385"
+Inst74Quest3_QuestID = "24584"
 
 Inst74Quest1_HORDE_QuestID = "13384"
 Inst74Quest2_HORDE_QuestID = "13385"
+Inst74Quest3_HORDE_QuestID = "24584"
 
 
 AQ_13384_Level = "80"
 AQ_13385_Level = "80"
+AQ_24584_Level = "80"
 
 
 
@@ -1781,6 +1784,13 @@ AQ_13109_Level = "80"
 
 --------------- INST79 - The Obsidian Sanctum ---------------
 
+Inst79Quest1_QuestID = "24579"
+
+Inst79Quest1_HORDE_QuestID = "24579"
+
+
+AQ_24579_Level = "80"
+
 
 
 --------------- INST80 - Drak'Tharon Keep ---------------
@@ -1835,13 +1845,25 @@ AQ_13159_Level = "77"
 
 Inst84Quest1_QuestID = "13372"
 Inst84Quest2_QuestID = "13375"
+Inst84Quest3_QuestID = "24580"
+Inst84Quest4_QuestID = "24582"
+Inst84Quest5_QuestID = "24581"
+Inst84Quest6_QuestID = "24583"
 
 Inst84Quest1_HORDE_QuestID = "13372"
 Inst84Quest2_HORDE_QuestID = "13375"
+Inst84Quest3_HORDE_QuestID = "24580"
+Inst84Quest4_HORDE_QuestID = "24582"
+Inst84Quest5_HORDE_QuestID = "24581"
+Inst84Quest6_HORDE_QuestID = "24583"
 
 
 AQ_13372_Level = "80"
 AQ_13375_Level = "80"
+AQ_24580_Level = "80"
+AQ_24582_Level = "80"
+AQ_24581_Level = "80"
+AQ_24583_Level = "80"
 
 
 
@@ -1867,6 +1889,10 @@ Inst86Quest13_QuestID = "13821"
 Inst86Quest14_QuestID = "13824"
 Inst86Quest15_QuestID = "13818"
 Inst86Quest16_QuestID = "13819"
+Inst86Quest17_QuestID = "24585"
+Inst86Quest18_QuestID = "24587"
+Inst86Quest19_QuestID = "24586"
+Inst86Quest20_QuestID = "24588"
 
 Inst86Quest1_HORDE_QuestID = "13604"
 Inst86Quest2_HORDE_QuestID = "13607"
@@ -1884,6 +1910,10 @@ Inst86Quest13_HORDE_QuestID = "13821"
 Inst86Quest14_HORDE_QuestID = "13824"
 Inst86Quest15_HORDE_QuestID = "13818"
 Inst86Quest16_HORDE_QuestID = "13819"
+Inst86Quest17_HORDE_QuestID = "24585"
+Inst86Quest18_HORDE_QuestID = "24587"
+Inst86Quest19_HORDE_QuestID = "24586"
+Inst86Quest20_HORDE_QuestID = "24588"
 
 
 AQ_13604_Level = "80"
@@ -1902,6 +1932,10 @@ AQ_13821_Level = "80"
 AQ_13824_Level = "80"
 AQ_13818_Level = "80"
 AQ_13819_Level = "80"
+AQ_24585_Level = "80"
+AQ_24587_Level = "80"
+AQ_24586_Level = "80"
+AQ_24588_Level = "80"
 
 
 
@@ -1910,6 +1944,12 @@ AQ_13819_Level = "80"
 
 
 --------------- INST88 - Trial of the Crusader ---------------
+
+Inst88Quest1_QuestID = "24589"
+
+Inst88Quest1_HORDE_QuestID = "24589"
+
+AQ_24589_Level = "80"
 
 
 
@@ -1920,6 +1960,12 @@ Inst90Quest2_QuestID = "24499"
 
 Inst90Quest1_HORDE_QuestID = "24506"
 Inst90Quest2_HORDE_QuestID = "24511"
+
+
+AQ_24510_Level = "80"
+AQ_24499_Level = "80"
+AQ_24506_Level = "80"
+AQ_24511_Level = "80"
 
 
 
@@ -1934,6 +1980,14 @@ Inst91Quest2_HORDE_QuestID = "24507"
 Inst91Quest3_HORDE_QuestID = "24712"
 
 
+AQ_24683_Level = "80"
+AQ_24498_Level = "80"
+AQ_24710_Level = "80"
+AQ_24682_Level = "80"
+AQ_24507_Level = "80"
+AQ_24712_Level = "80"
+
+
 
 --------------- INST92 - Halls of Reflection (HoR)  ---------------
 
@@ -1944,8 +1998,21 @@ Inst92Quest1_HORDE_QuestID = "24713"
 Inst92Quest2_HORDE_QuestID = "24802"
 
 
+AQ_24711_Level = "80"
+AQ_24500_Level = "80"
+AQ_24713_Level = "80"
+AQ_24802_Level = "80"
+
+
 
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
+
+Inst93Quest1_QuestID = "24590"
+
+Inst93Quest1_HORDE_QuestID = "24590"
+
+
+AQ_24590_Level = "80"
 
 
 

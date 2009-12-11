@@ -9,6 +9,7 @@ Version 4.4.0 BETA
 - Removed all Lich King Dungeon Daily and Heroic Daily quests.
 - Rewards for Horde Auchenai Crypts: "Wanted: The Exarch's Soul Gem" were missing.
 - Updated Foror's Compendium & Forging of Quel'Serrar quests to note that they can no longer be started anew with patch 3.2.2.
+- Updated: SM GY: Call the Headless Horseman for level 80.
 
 - Quests added:
 	- Forge of Souls: Inside the Frozen Citadel
@@ -18,6 +19,19 @@ Version 4.4.0 BETA
 	- Pit of Saron: Deliverance from the Pit
 	- Halls of Reflection: Frostmourne
 	- Halls of Reflection: Wrath of the Lich King
+	- Naxxramas: Anub'Rekhan Must Die! (Raid Weekly)
+	- Naxxramas: Instructor Razuvious Must Die! (Raid Weekly)
+	- Naxxramas: Noth the Plaguebringer Must Die! (Raid Weekly)
+	- Naxxramas: Patchwerk Must Die! (Raid Weekly)
+	- Ulduar: Flame Leviathan Must Die! (Raid Weekly)
+	- Ulduar: Ignis the Furnace Master Must Die! (Raid Weekly)
+	- Ulduar: Razorscale Must Die! (Raid Weekly)
+	- Ulduar: XT-002 Deconstructor Must Die! (Raid Weekly)
+	- Trial of the Crusader: Lord Jaraxxus Must Die! (Raid Weekly)
+	- Obsidian Sanctum: Sartharian Must Die! (Raid Weekly)
+	- Eye of Eternity: Malygos Must Die! (Raid Weekly)
+	- Icecrown Citadel: Lord Marrowgar Must Die! (Raid Weekly)
+	
 
 
 

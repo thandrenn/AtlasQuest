@@ -3911,11 +3911,11 @@ Inst59QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst59Quest1 = "1. Call the Headless Horseman (Daily - Seasonal)"
-Inst59Quest1_Level = "70"
-Inst59Quest1_Attain = "65"
+Inst59Quest1_Level = "80"
+Inst59Quest1_Attain = "75"
 Inst59Quest1_Aim = "Take a Dreary Candle to the Loosely Turned Soil."
 Inst59Quest1_Location = "Pumpkin Shrine (Scarlet Monastery - Graveyard; "..YELLOW.."[2]"..WHITE..")"
-Inst59Quest1_Note = "The Soil is just a few steps from the Pumpkin Shrine. This quest is only available during the Hallow's End event and can be done once a day per character during that event.\n\nCompleting it summons the Headless Horseman, a level 70 boss."
+Inst59Quest1_Note = "The Soil is just a few steps from the Pumpkin Shrine. This quest is only available during the Hallow's End event and can be done once a day per character during that event.\n\nCompleting it summons the Headless Horseman, a level 80 boss."
 Inst59Quest1_Prequest = "None"
 Inst59Quest1_Folgequest = "None"
 -- No Rewards for this quest
@@ -10093,8 +10093,8 @@ Inst73Quest4name4_HORDE = Inst73Quest4name4
 
 Inst74Story = "From within the safety of his personal domain, the Eye of Eternity, Malygos coordinates a crusade to reestablish his dominance over the arcane energies coursing through Azeroth. In his eyes, the foolish actions of the Kirin Tor and other mortal magi have plunged the world into chaos, and the abuse of their powers will no longer be tolerated. Threatened by the Spell-Weaver's brutal tactics, the Kirin Tor has allied itself with the red dragonflight. Together, the two groups closely observe Malygos, searching for a way to thwart his campaign and strike out at the Aspect of Magic, but thus far the elusive Spell-Weaver has proven difficult to engage.\n\nAt Wyrmrest Temple, the ancient meeting ground of the dragonflights, Alexstrasza and the ambassadors of other flights have discussed Malygos' recklessness and reluctantly concluded that he is beyond the point of salvation. With the red dragons' assistance, Azeroth's heroes may be able to accomplish what has formerly been unthinkable: challenging the Spell-Weaver from inside the Eye of Eternity. Sustaining the safety of Azeroth depends on Malygos' defeat, but his end will also herald a new age: a world of unguarded magic, absent of the Dragon Aspect powerful enough to watch over it."
 Inst74Caption = "The Nexus: The Eye of Eternity"
-Inst74QAA = "2 Quests"
-Inst74QAH = "2 Quests"
+Inst74QAA = "3 Quests"
+Inst74QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst74Quest1 = "1. Judgment at the Eye of Eternity"
@@ -10128,6 +10128,19 @@ Inst74Quest2name2 = "Life-Binder's Locket"
 Inst74Quest2name3 = "Favor of the Dragon Queen"
 Inst74Quest2name4 = "Nexus War Champion Beads"
 
+--Quest 3 Alliance
+Inst74Quest3 = "3. Malygos Must Die! (Weekly)"
+Inst74Quest3_Level = "80"
+Inst74Quest3_Attain = "80"
+Inst74Quest3_Aim = "Kill Malygos."
+Inst74Quest3_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst74Quest3_Note = "Malygos is at "..YELLOW.." [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst74Quest3_Prequest = "None"
+Inst74Quest3_Folgequest = "None"
+--
+Inst74Quest3name1 = "Emblem of Frost"
+Inst74Quest3name2 = "Emblem of Triumph"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst74Quest1_HORDE = Inst74Quest1
@@ -10160,6 +10173,19 @@ Inst74Quest2name1_HORDE = Inst74Quest2name1
 Inst74Quest2name2_HORDE = Inst74Quest2name2
 Inst74Quest2name3_HORDE = Inst74Quest2name3
 Inst74Quest2name4_HORDE = Inst74Quest2name4
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst74Quest3_HORDE = Inst74Quest3
+Inst74Quest3_HORDE_Level = Inst74Quest3_Level
+Inst74Quest3_HORDE_Attain = Inst74Quest3_Attain
+Inst74Quest3_HORDE_Aim = Inst74Quest3_Aim
+Inst74Quest3_HORDE_Location = Inst74Quest3_Location
+Inst74Quest3_HORDE_Note = Inst74Quest3_Note
+Inst74Quest3_HORDE_Prequest = Inst74Quest3_Prequest
+Inst74Quest3_HORDE_Folgequest = Inst74Quest3_Folgequest
+--
+Inst74Quest3name1_HORDE = Inst74Quest3name1
+Inst74Quest3name2_HORDE = Inst74Quest3name2
 
 
 
@@ -10439,8 +10465,35 @@ Inst78Quest2name5_HORDE = Inst78Quest2name5
 
 Inst79Story = "No information."
 Inst79Caption = "The Obsidian Sanctum"
-Inst79QAA = "No Quests"
-Inst79QAH = "No Quests"
+Inst79QAA = "1 Quest"
+Inst79QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst79Quest1 = "1. Sartharion Must Die! (Weekly)"
+Inst79Quest1_Level = "80"
+Inst79Quest1_Attain = "80"
+Inst79Quest1_Aim = "Kill Sartharion."
+Inst79Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst79Quest1_Note = "Sartharion is at "..YELLOW.."[4]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst79Quest1_Prequest = "None"
+Inst79Quest1_Folgequest = "None"
+--
+Inst79Quest1name1 = "Emblem of Frost"
+Inst79Quest1name2 = "Emblem of Triumph"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst79Quest1_HORDE = Inst79Quest1
+Inst79Quest1_HORDE_Level = Inst79Quest1_Level
+Inst79Quest1_HORDE_Attain = Inst79Quest1_Attain
+Inst79Quest1_HORDE_Aim = Inst79Quest1_Aim
+Inst79Quest1_HORDE_Location = Inst79Quest1_Location
+Inst79Quest1_HORDE_Note = Inst79Quest1_Note
+Inst79Quest1_HORDE_Prequest = Inst79Quest1_Prequest
+Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
+--
+Inst79Quest1name1_HORDE = Inst79Quest1name1
+Inst79Quest1name2_HORDE = Inst79Quest1name2
 
 
 
@@ -10726,8 +10779,8 @@ Inst84Story = {
   ["MaxPages"] = "2",
 };
 Inst84Caption = "Naxxramas"
-Inst84QAA = "2 Quests"
-Inst84QAH = "2 Quests"
+Inst84QAA = "6 Quests"
+Inst84QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst84Quest1 = "1. The Key to the Focusing Iris"
@@ -10752,6 +10805,58 @@ Inst84Quest2_Prequest = "None"
 Inst84Quest2_Folgequest = "Judgment at the Eye of Eternity ("..YELLOW.."Eye of Eternity"..WHITE..")"
 --
 Inst84Quest2name1 = "Heroic Key to the Focusing Iris"
+
+--Quest 3 Alliance
+Inst84Quest3 = "3. Anub'Rekhan Must Die! (Weekly)"
+Inst84Quest3_Level = "80"
+Inst84Quest3_Attain = "80"
+Inst84Quest3_Aim = "Kill Anub'Rekhan."
+Inst84Quest3_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest3_Note = "Anub'Rekhan is at "..YELLOW.."Arachnid Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst84Quest3_Prequest = "None"
+Inst84Quest3_Folgequest = "None"
+--
+Inst84Quest3name1 = "Emblem of Frost"
+Inst84Quest3name2 = "Emblem of Triumph"
+
+--Quest 4 Alliance
+Inst84Quest4 = "4. Instructor Razuvious Must Die! (Weekly)"
+Inst84Quest4_Level = "80"
+Inst84Quest4_Attain = "80"
+Inst84Quest4_Aim = "Kill Instructor Razuvious."
+Inst84Quest4_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest4_Note = "Instructor Razuvious is at "..YELLOW.."Military Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst84Quest4_Prequest = "None"
+Inst84Quest4_Folgequest = "None"
+--
+Inst84Quest4name1 = "Emblem of Frost"
+Inst84Quest4name2 = "Emblem of Triumph"
+
+--Quest 5 Alliance
+Inst84Quest5 = "5. Noth the Plaguebringer Must Die! (Weekly)"
+Inst84Quest5_Level = "80"
+Inst84Quest5_Attain = "80"
+Inst84Quest5_Aim = "Kill Noth the Plaguebringer."
+Inst84Quest5_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest5_Note = "Noth the Plaguebringer is at "..YELLOW.."Plague Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst84Quest5_Prequest = "None"
+Inst84Quest5_Folgequest = "None"
+--
+Inst84Quest5name1 = "Emblem of Frost"
+Inst84Quest5name2 = "Emblem of Triumph"
+
+--Quest 6 Alliance
+Inst84Quest6 = "6. Patchwerk Must Die! (Weekly)"
+Inst84Quest6_Level = "80"
+Inst84Quest6_Attain = "80"
+Inst84Quest6_Aim = "Kill Patchwerk."
+Inst84Quest6_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest6_Note = "Patchwerk is at "..YELLOW.."Construct Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst84Quest6_Prequest = "None"
+Inst84Quest6_Folgequest = "None"
+--
+Inst84Quest6name1 = "Emblem of Frost"
+Inst84Quest6name2 = "Emblem of Triumph"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10778,6 +10883,58 @@ Inst84Quest2_HORDE_Folgequest = Inst84Quest2_Folgequest
 --
 Inst84Quest2name1_HORDE = Inst84Quest2name1
 
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst84Quest3_HORDE = Inst84Quest3
+Inst84Quest3_HORDE_Level = Inst84Quest3_Level
+Inst84Quest3_HORDE_Attain = Inst84Quest3_Attain
+Inst84Quest3_HORDE_Aim = Inst84Quest3_Aim
+Inst84Quest3_HORDE_Location = Inst84Quest3_Location
+Inst84Quest3_HORDE_Note = Inst84Quest3_Note
+Inst84Quest3_HORDE_Prequest = Inst84Quest3_Prequest
+Inst84Quest3_HORDE_Folgequest = Inst84Quest3_Folgequest
+--
+Inst84Quest3name1_HORDE = Inst84Quest3name1
+Inst84Quest3name2_HORDE = Inst84Quest3name2
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst84Quest4_HORDE = Inst84Quest4
+Inst84Quest4_HORDE_Level = Inst84Quest4_Level
+Inst84Quest4_HORDE_Attain = Inst84Quest4_Attain
+Inst84Quest4_HORDE_Aim = Inst84Quest4_Aim
+Inst84Quest4_HORDE_Location = Inst84Quest4_Location
+Inst84Quest4_HORDE_Note = Inst84Quest4_Note
+Inst84Quest4_HORDE_Prequest = Inst84Quest4_Prequest
+Inst84Quest4_HORDE_Folgequest = Inst84Quest4_Folgequest
+--
+Inst84Quest4name1_HORDE = Inst84Quest4name1
+Inst84Quest4name2_HORDE = Inst84Quest4name2
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst84Quest5_HORDE = Inst84Quest5
+Inst84Quest5_HORDE_Level = Inst84Quest5_Level
+Inst84Quest5_HORDE_Attain = Inst84Quest5_Attain
+Inst84Quest5_HORDE_Aim = Inst84Quest5_Aim
+Inst84Quest5_HORDE_Location = Inst84Quest5_Location
+Inst84Quest5_HORDE_Note = Inst84Quest5_Note
+Inst84Quest5_HORDE_Prequest = Inst84Quest5_Prequest
+Inst84Quest5_HORDE_Folgequest = Inst84Quest5_Folgequest
+--
+Inst84Quest5name1_HORDE = Inst84Quest5name1
+Inst84Quest5name2_HORDE = Inst84Quest5name2
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst84Quest6_HORDE = Inst84Quest6
+Inst84Quest6_HORDE_Level = Inst84Quest6_Level
+Inst84Quest6_HORDE_Attain = Inst84Quest6_Attain
+Inst84Quest6_HORDE_Aim = Inst84Quest6_Aim
+Inst84Quest6_HORDE_Location = Inst84Quest6_Location
+Inst84Quest6_HORDE_Note = Inst84Quest6_Note
+Inst84Quest6_HORDE_Prequest = Inst84Quest6_Prequest
+Inst84Quest6_HORDE_Folgequest = Inst84Quest6_Folgequest
+--
+Inst84Quest6name1_HORDE = Inst84Quest6name1
+Inst84Quest6name2_HORDE = Inst84Quest6name2
+
 
 
 --------------- INST85 - Vault of Archavon ---------------
@@ -10793,8 +10950,8 @@ Inst85QAH = "No Quests"
 
 Inst86Story = "For millennia, Ulduar has remained undisturbed by mortals, far away from their concerns and their struggles. Yet since its recent discovery, many have wondered what the structure's original purpose may have been. Some thought it a city, built to herald the glory of its makers; some thought it a vault containing innumerable treasures, perhaps even relics of the mighty Titans themselves. Such speculations were wrong. Beyond Ulduar's gates lies no city, no treasure vault, no final answer to the Titan's mysteries. All that awaits those who dare set foot in Ulduar is a horror even the Titans could not, would not destroy, an evil they merely... contained. Beneath ancient Ulduar, the Old God of death lies, whispering.... Tread carefully, or its prison will become your tomb."
 Inst86Caption = "Ulduar"
-Inst86QAA = "16 Quests"
-Inst86QAH = "16 Quests"
+Inst86QAA = "20 Quests"
+Inst86QAH = "20 Quests"
 
 --Quest 1 Alliance
 Inst86Quest1 = "1. Archivum Data Disc"
@@ -10995,6 +11152,58 @@ Inst86Quest16name1 = "Drape of the Skyborn"
 Inst86Quest16name2 = "Sunglimmer Cloak"
 Inst86Quest16name3 = "Brann's Signet Ring"
 Inst86Quest16name4 = "Starshine Circle"
+
+--Quest 17 Alliance
+Inst86Quest17 = "17. Flame Leviathan Must Die! (Weekly)"
+Inst86Quest17_Level = "80"
+Inst86Quest17_Attain = "80"
+Inst86Quest17_Aim = "Kill Flame Leviathan."
+Inst86Quest17_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest17_Note = "Flame Leviathan is at "..YELLOW.."The Siege [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest17_Prequest = "None"
+Inst86Quest17_Folgequest = "None"
+--
+Inst86Quest17name1 = "Emblem of Frost"
+Inst86Quest17name2 = "Emblem of Triumph"
+
+--Quest 18 Alliance
+Inst86Quest18 = "18. Ignis the Furnace Master Must Die! (Weekly)"
+Inst86Quest18_Level = "80"
+Inst86Quest18_Attain = "80"
+Inst86Quest18_Aim = "Kill Ignis the Furnace Master."
+Inst86Quest18_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest18_Note = "Ignis the Furnace Master is at "..YELLOW.."The Siege [2]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest18_Prequest = "None"
+Inst86Quest18_Folgequest = "None"
+--
+Inst86Quest18name1 = "Emblem of Frost"
+Inst86Quest18name2 = "Emblem of Triumph"
+
+--Quest 19 Alliance
+Inst86Quest19 = "19. Razorscale Must Die! (Weekly)"
+Inst86Quest19_Level = "80"
+Inst86Quest19_Attain = "80"
+Inst86Quest19_Aim = "Kill Razorscale."
+Inst86Quest19_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest19_Note = "Razorscale is at "..YELLOW.."The Siege [3]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest19_Prequest = "None"
+Inst86Quest19_Folgequest = "None"
+--
+Inst86Quest19name1 = "Emblem of Frost"
+Inst86Quest19name2 = "Emblem of Triumph"
+
+--Quest 20 Alliance
+Inst86Quest20 = "20. XT-002 Deconstructor Must Die! (Weekly)"
+Inst86Quest20_Level = "80"
+Inst86Quest20_Attain = "80"
+Inst86Quest20_Aim = "Kill XT-002 Deconstructor."
+Inst86Quest20_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest20_Note = "XT-002 Deconstructor is at "..YELLOW.."The Siege [4]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest20_Prequest = "None"
+Inst86Quest20_Folgequest = "None"
+--
+Inst86Quest20name1 = "Emblem of Frost"
+Inst86Quest20name2 = "Emblem of Triumph"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11197,6 +11406,57 @@ Inst86Quest16name2_HORDE = Inst86Quest16name2
 Inst86Quest16name3_HORDE = Inst86Quest16name3
 Inst86Quest16name4_HORDE = Inst86Quest16name4
 
+--Quest 17 Horde  (same as Quest 17 Alliance)
+Inst86Quest17_HORDE = Inst86Quest17
+Inst86Quest17_HORDE_Level = Inst86Quest17_Level
+Inst86Quest17_HORDE_Attain = Inst86Quest17_Attain
+Inst86Quest17_HORDE_Aim = Inst86Quest17_Aim
+Inst86Quest17_HORDE_Location = Inst86Quest17_Location
+Inst86Quest17_HORDE_Note = Inst86Quest17_Note
+Inst86Quest17_HORDE_Prequest = Inst86Quest17_Prequest
+Inst86Quest17_HORDE_Folgequest = Inst86Quest17_Folgequest
+--
+Inst86Quest17name1_HORDE = Inst86Quest17name1
+Inst86Quest17name2_HORDE = Inst86Quest17name2
+
+--Quest 18 Horde  (same as Quest 18 Alliance)
+Inst86Quest18_HORDE = Inst86Quest18
+Inst86Quest18_HORDE_Level = Inst86Quest18_Level
+Inst86Quest18_HORDE_Attain = Inst86Quest18_Attain
+Inst86Quest18_HORDE_Aim = Inst86Quest18_Aim
+Inst86Quest18_HORDE_Location = Inst86Quest18_Location
+Inst86Quest18_HORDE_Note = Inst86Quest18_Note
+Inst86Quest18_HORDE_Prequest = Inst86Quest18_Prequest
+Inst86Quest18_HORDE_Folgequest = Inst86Quest18_Folgequest
+--
+Inst86Quest18name1_HORDE = Inst86Quest18name1
+Inst86Quest18name2_HORDE = Inst86Quest18name2
+
+--Quest 19 Horde  (same as Quest 19 Alliance)
+Inst86Quest19_HORDE = Inst86Quest19
+Inst86Quest19_HORDE_Level = Inst86Quest19_Level
+Inst86Quest19_HORDE_Attain = Inst86Quest19_Attain
+Inst86Quest19_HORDE_Aim = Inst86Quest19_Aim
+Inst86Quest19_HORDE_Location = Inst86Quest19_Location
+Inst86Quest19_HORDE_Note = Inst86Quest19_Note
+Inst86Quest19_HORDE_Prequest = Inst86Quest19_Prequest
+Inst86Quest19_HORDE_Folgequest = Inst86Quest19_Folgequest
+--
+Inst86Quest19name1_HORDE = Inst86Quest19name1
+Inst86Quest19name2_HORDE = Inst86Quest19name2
+
+--Quest 20 Horde  (same as Quest 20 Alliance)
+Inst86Quest20_HORDE = Inst86Quest20
+Inst86Quest20_HORDE_Level = Inst86Quest20_Level
+Inst86Quest20_HORDE_Attain = Inst86Quest20_Attain
+Inst86Quest20_HORDE_Aim = Inst86Quest20_Aim
+Inst86Quest20_HORDE_Location = Inst86Quest20_Location
+Inst86Quest20_HORDE_Note = Inst86Quest20_Note
+Inst86Quest20_HORDE_Prequest = Inst86Quest20_Prequest
+Inst86Quest20_HORDE_Folgequest = Inst86Quest20_Folgequest
+--
+Inst86Quest20name1_HORDE = Inst86Quest20name1
+Inst86Quest20name2_HORDE = Inst86Quest20name2
 
 
 --------------- INST87 - Trial of the Champion ---------------
@@ -11212,8 +11472,35 @@ Inst87QAH = "No Quests"
 
 Inst88Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum."
 Inst88Caption = "Trial of the Crusader"
-Inst88QAA = "No Quests"
-Inst88QAH = "No Quests"
+Inst88QAA = "1 Quest"
+Inst88QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst88Quest1 = "1. Lord Jaraxxus Must Die! (Weekly)"
+Inst88Quest1_Level = "80"
+Inst88Quest1_Attain = "80"
+Inst88Quest1_Aim = "Kill Lord Jaraxxus."
+Inst88Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst88Quest1_Note = "Lord Jaraxxus is the second boss.\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst88Quest1_Prequest = "None"
+Inst88Quest1_Folgequest = "None"
+--
+Inst88Quest1name1 = "Emblem of Frost"
+Inst88Quest1name2 = "Emblem of Triumph"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst88Quest1_HORDE = Inst88Quest1
+Inst88Quest1_HORDE_Level = Inst88Quest1_Level
+Inst88Quest1_HORDE_Attain = Inst88Quest1_Attain
+Inst88Quest1_HORDE_Aim = Inst88Quest1_Aim
+Inst88Quest1_HORDE_Location = Inst88Quest1_Location
+Inst88Quest1_HORDE_Note = Inst88Quest1_Note
+Inst88Quest1_HORDE_Prequest = Inst88Quest1_Prequest
+Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
+--
+Inst88Quest1name1_HORDE = Inst88Quest1name1
+Inst88Quest1name2_HORDE = Inst88Quest1name2
 
 
 
@@ -11422,8 +11709,35 @@ Inst92Quest2name1_HORDE = "Emblem of Frost"
 
 Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
 Inst93Caption = "Icecrown Citadel"
-Inst93QAA = "No Quests yet"
-Inst93QAH = "No Quests yet"
+Inst93QAA = "1 Quest"
+Inst93QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst93Quest1 = "1. Lord Marrowgar Must Die! (Weekly)"
+Inst93Quest1_Level = "80"
+Inst93Quest1_Attain = "80"
+Inst93Quest1_Aim = "Kill Lord Marrowgar."
+Inst93Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst93Quest1_Note = "Lord Marrowgar is at "..YELLOW.." [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst93Quest1_Prequest = "None"
+Inst93Quest1_Folgequest = "None"
+--
+Inst93Quest1name1 = "Emblem of Frost"
+Inst93Quest1name2 = "Emblem of Triumph"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst93Quest1_HORDE = Inst93Quest1
+Inst93Quest1_HORDE_Level = Inst93Quest1_Level
+Inst93Quest1_HORDE_Attain = Inst93Quest1_Attain
+Inst93Quest1_HORDE_Aim = Inst93Quest1_Aim
+Inst93Quest1_HORDE_Location = Inst93Quest1_Location
+Inst93Quest1_HORDE_Note = Inst93Quest1_Note
+Inst93Quest1_HORDE_Prequest = Inst93Quest1_Prequest
+Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
+--
+Inst93Quest1name1_HORDE = Inst93Quest1name1
+Inst93Quest1name2_HORDE = Inst93Quest1name2
 
 
 
