@@ -9434,7 +9434,7 @@ Inst63Quest4_Level = "70"
 Inst63Quest4_Attain = "70"
 Inst63Quest4_Aim = "Prigmon möchte, dass Ihr 10 Hauer eines Waldtrolls von Trollen in Zul'Aman einsammelt. Bringt sie zu ihm bei Budds Lager in den Geisterlanden."
 Inst63Quest4_Location = "Prigmon (Geisterlande - Axthügel; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest4_Note = "Der Waldtrollhauer droppen von den Gegnern der Amani in Zul'Aman."
+Inst63Quest4_Note = "Der Waldtrollhauer droppen von den Gegnern der Amani in Zul'Aman.Diese Quest bekommst du erst wenn du die Quest Versprechen, Versprechen... abgeschlossen hast."
 Inst63Quest4_Prequest = "Nein"
 Inst63Quest4_Folgequest = "Ja, Ein Troll unter Trollen"
 -- No Rewards for this quest
@@ -9738,64 +9738,35 @@ Inst68QAH = "Keine Quests"
 
 Inst69Story = "Prior to his unthinkable merger with the Lich King, Arthas waged war against the Scourge, bent on eradicating the plague of undeath that had spread throughout Lordaeron. After Arthas watched villages succumb to darkness and saw his fallen subjects transformed into hideous undead creatures, fear and hate engulfed his mind. Upon discovering signs of the plague within Stratholme, he knew it was only a matter of time before the residents of the city were reborn as Scourge agents. For Arthas, there was only one course of action: purge the city. Yet within the Caverns of Time, deceptive magic permeates Stratholme. The infinite dragons and their agents have targeted Arthas and his quest to cull the city, seeking to alter history. Fearing the temporal disruption might jeopardize Azeroth's very existence, the bronze dragonflight has called upon mortals to assist Arthas and ensure that the purge is carried out successfully. Regardless of how vile the event might seem, the keepers of time maintain that what was, must always be."
 Inst69Caption = "HdZ: Das Ausmerzen von Stratholme"
-Inst69QAA = "4 Quests"
-Inst69QAH = "4 Quests"
+Inst69QAA = "2 Quests"
+Inst69QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst69Quest1 = "1. Timear prophezeit ewige Agenten in Eurer Zukunft! (Tagesquest)"
+Inst69Quest1 = "1. Illusionen bannen"
 Inst69Quest1_Level = "80"
 Inst69Quest1_Attain = "78"
-Inst69Quest1_Aim = "Erzmagier Timear in Dalaran möchte, dass Ihr 4 ewige Agenten töten müsst."
-Inst69Quest1_Location = "Erzmagier Timear (Dalaran - Die violette Festung; "..YELLOW.."64.2, 54.7"..WHITE..")"
-Inst69Quest1_Note = "Es handelt sich um ein Tagesquest. The Infinite Agents are found in the Town Hall Building between the second and third bosses."
+Inst69Quest1_Aim = "Chromie möchte, dass Ihr den arkanen Disruptor auf die verdächtigen Kisten im Stratholme der Vergangenheit anwendet und sie anschließend am Eingang von Stratholme trefft."
+Inst69Quest1_Location = "Chromie (Stratholme Past; "..YELLOW.."[1]"..WHITE..")"
+Inst69Quest1_Note = "Die Kisten findet man in der nähe der Häuser entlang des Weges nach Stratholm. Nach beendigung der Aufgabe kannst Du die Quest bei Chromi bei "..YELLOW.."[2]"..WHITE.."."
 Inst69Quest1_Prequest = "Nein"
-Inst69Quest1_Folgequest = "Nein"
---
-Inst69Quest1name1 = "Kirin Tor Commendation Badge"
-Inst69Quest1name2 = "Argent Crusade Commendation Badge"
-Inst69Quest1name3 = "Ebon Blade Commendation Badge"
-Inst69Quest1name4 = "Wyrmrest Commendation Badge"
-Inst69Quest1name5 = "Sons of Hodir Commendation Badge"
-Inst69Quest1name6 = "Emblem of Conquest" 
-
---Quest 2 Alliance
-Inst69Quest2 = "2. Todesbeweis: Mal'Ganis (Heroisches Tagesquest)"
-Inst69Quest2_Level = "80"
-Inst69Quest2_Attain = "80"
-Inst69Quest2_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit dem Artefakt aus der Heimatwelt der Nathrezim zurückkehrt."
-Inst69Quest2_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst69Quest2_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nMal'Ganis ist bei "..YELLOW.."[5]"..WHITE.."."
-Inst69Quest2_Prequest = "Nein"
-Inst69Quest2_Folgequest = "Nein"
---
-Inst69Quest2name1 = "Emblem of Heroism"
-
---Quest 3 Alliance
-Inst69Quest3 = "3. Illusionen bannen"
-Inst69Quest3_Level = "80"
-Inst69Quest3_Attain = "78"
-Inst69Quest3_Aim = "Chromie möchte, dass Ihr den arkanen Disruptor auf die verdächtigen Kisten im Stratholme der Vergangenheit anwendet und sie anschließend am Eingang von Stratholme trefft."
-Inst69Quest3_Location = "Chromie (Stratholme Past; "..YELLOW.."[1]"..WHITE..")"
-Inst69Quest3_Note = "Die Kisten findet man in der nähe der Häuser entlang des Weges nach Stratholm. Nach beendigung der Aufgabe kannst Du die Quest bei Chromi bei "..YELLOW.."[2]"..WHITE.."."
-Inst69Quest3_Prequest = "Nein"
-Inst69Quest3_Folgequest = "Die Eskorte des Königs"
+Inst69Quest1_Folgequest = "Die Eskorte des Königs"
 -- No Rewards for this quest
 
---Quest 4 Alliance
-Inst69Quest4 = "4. Die Eskorte des Königs"
-Inst69Quest4_Level = "80"
-Inst69Quest4_Attain = "78"
-Inst69Quest4_Aim = "Chromie möchte, dass Ihr Arthas bei seiner Ausmerzaktion in Stratholme begleitet. Ihr sollt wieder mit ihr sprechen, nachdem Mal'Ganis besiegt ist."
-Inst69Quest4_Location = "Chromie (Stratholme Past; "..YELLOW.."[2]"..WHITE..")"
-Inst69Quest4_Note = "Mal'Ganis ist bei "..YELLOW.."[5]"..WHITE..". Chromie wird erscheinen nachdem Mal'Ganis besiegt worden ist."
-Inst69Quest4_Prequest = "Illusionen bannen"
-Inst69Quest4_Folgequest = "Nein"
-Inst69Quest4FQuest = "true"
+--Quest 2 Alliance
+Inst69Quest2 = "2. Die Eskorte des Königs"
+Inst69Quest2_Level = "80"
+Inst69Quest2_Attain = "78"
+Inst69Quest2_Aim = "Chromie möchte, dass Ihr Arthas bei seiner Ausmerzaktion in Stratholme begleitet. Ihr sollt wieder mit ihr sprechen, nachdem Mal'Ganis besiegt ist."
+Inst69Quest2_Location = "Chromie (Stratholme Past; "..YELLOW.."[2]"..WHITE..")"
+Inst69Quest2_Note = "Mal'Ganis ist bei "..YELLOW.."[5]"..WHITE..". Chromie wird erscheinen nachdem Mal'Ganis besiegt worden ist."
+Inst69Quest2_Prequest = "Illusionen bannen"
+Inst69Quest2_Folgequest = "Nein"
+Inst69Quest2FQuest = "true"
 --
-Inst69Quest4name1 = "Gloves of the Time Guardian"
-Inst69Quest4name2 = "Handwraps of Preserved History"
-Inst69Quest4name3 = "Grips of Chronological Events"
-Inst69Quest4name4 = "Gauntlets of The Culling"
+Inst69Quest2name1 = "Gloves of the Time Guardian"
+Inst69Quest2name2 = "Handwraps of Preserved History"
+Inst69Quest2name3 = "Grips of Chronological Events"
+Inst69Quest2name4 = "Gauntlets of The Culling"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9807,13 +9778,7 @@ Inst69Quest1_HORDE_Location = Inst69Quest1_Location
 Inst69Quest1_HORDE_Note = Inst69Quest1_Note
 Inst69Quest1_HORDE_Prequest = Inst69Quest1_Prequest
 Inst69Quest1_HORDE_Folgequest = Inst69Quest1_Folgequest
---
-Inst69Quest1name1_HORDE = Inst69Quest1name1
-Inst69Quest1name2_HORDE = Inst69Quest1name2
-Inst69Quest1name3_HORDE = Inst69Quest1name3
-Inst69Quest1name4_HORDE = Inst69Quest1name4
-Inst69Quest1name5_HORDE = Inst69Quest1name5
-Inst69Quest1name6_HORDE = Inst69Quest1name6 
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst69Quest2_HORDE = Inst69Quest2
@@ -9826,33 +9791,9 @@ Inst69Quest2_HORDE_Prequest = Inst69Quest2_Prequest
 Inst69Quest2_HORDE_Folgequest = Inst69Quest2_Folgequest
 --
 Inst69Quest2name1_HORDE = Inst69Quest2name1
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst69Quest3_HORDE = Inst69Quest3
-Inst69Quest3_HORDE_Level = Inst69Quest3_Level
-Inst69Quest3_HORDE_Attain = Inst69Quest3_Attain
-Inst69Quest3_HORDE_Aim = Inst69Quest3_Aim
-Inst69Quest3_HORDE_Location = Inst69Quest3_Location
-Inst69Quest3_HORDE_Note = Inst69Quest3_Note
-Inst69Quest3_HORDE_Prequest = Inst69Quest3_Prequest
-Inst69Quest3_HORDE_Folgequest = Inst69Quest3_Folgequest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst69Quest4_HORDE = Inst69Quest4
-Inst69Quest4_HORDE_Level = Inst69Quest4_Level
-Inst69Quest4_HORDE_Attain = Inst69Quest4_Attain
-Inst69Quest4_HORDE_Aim = Inst69Quest4_Aim
-Inst69Quest4_HORDE_Location = Inst69Quest4_Location
-Inst69Quest4_HORDE_Note = Inst69Quest4_Note
-Inst69Quest4_HORDE_Prequest = Inst69Quest4_Prequest
-Inst69Quest4_HORDE_Folgequest = Inst69Quest4_Folgequest
-Inst69Quest4FQuest_HORDE = Inst69Quest4FQuest
---
-Inst69Quest4name1_HORDE = Inst69Quest4name1
-Inst69Quest4name2_HORDE = Inst69Quest4name2
-Inst69Quest4name3_HORDE = Inst69Quest4name3
-Inst69Quest4name4_HORDE = Inst69Quest4name4
+Inst69Quest2name2_HORDE = Inst69Quest2name2
+Inst69Quest2name3_HORDE = Inst69Quest2name3
+Inst69Quest2name4_HORDE = Inst69Quest2name4
 
 
 
@@ -9860,106 +9801,82 @@ Inst69Quest4name4_HORDE = Inst69Quest4name4
 
 Inst70Story = "Über den Klippen der Daggercap Bucht, im Heulenden Fjord, steht die, durch die wilden und rätselhaften Vrykul besetzte und undurchdringliche, Burg Utgarde. Mit der mysteriösen, stinkenden Magie und den Protodrachen unter ihrem Befehl, stellen die Vrykul von Utgarde eine bestehende Bedrohung dar, sowohl für die Allianz als auch für die Horde. Nur die Tapfersten unter Euch trauen sich gegen die Gläubigen von Ymiron zu schreiten und sich tief ins Herzen des Haupthauses der Vrykul vorzudringen."
 Inst70Caption = "Burg Utgarde"
-Inst70QAA = "3 Quests"
-Inst70QAH = "4 Quests"
+Inst70QAA = "2 Quests"
+Inst70QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst70Quest1 = "1. Todesbeweis: Ingvar der Brandschatzer (Heroisches Tagesquest)"
-Inst70Quest1_Level = "80"
-Inst70Quest1_Attain = "80"
-Inst70Quest1_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit der Axt des Brandschatzers zurückkehrt."
-Inst70Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst70Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nIngvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst70Quest1_Prequest = "Nein"
+Inst70Quest1 = "1. Nach Utgarde!"
+Inst70Quest1_Level = "71"
+Inst70Quest1_Attain = "68"
+Inst70Quest1_Aim = "Verteidiger Mordun hat Euch mit der Exekution von Ingvar dem Brandschatzer, der tief in Utgarde wohnt, beauftragt.Anschließend sollt Ihr dessen Kopf zu Vizeadmiral Keller bringen."
+Inst70Quest1_Location = "Verteidiger Mordun (Heulender Fjord - Valgarde; "..YELLOW.."59.3, 48.8"..WHITE..")"
+Inst70Quest1_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n\nDie Vorquest ist optional. Die Quest bringt Dich zu Vizeadmiral Keller bei (Heulender Fjord - Valgarde; "..YELLOW.."60.4, 61.0"..WHITE..")."
+Inst70Quest1_Prequest = "Ein neuer Abschnitt"
 Inst70Quest1_Folgequest = "Nein"
 --
-Inst70Quest1name1 = "Emblem of Heroism"
+Inst70Quest1name1 = "Executioner's Band"
+Inst70Quest1ame2 = "Ring of Decimation"
+Inst70Quest1ame3 = "Signet of Swift Judgment"
 
 --Quest 2 Alliance
-Inst70Quest2 = "2. Nach Utgarde!"
+Inst70Quest2 = "2. Abrüstung"
 Inst70Quest2_Level = "71"
-Inst70Quest2_Attain = "68"
-Inst70Quest2_Aim = "Verteidiger Mordun hat Euch mit der Exekution von Ingvar dem Brandschatzer, der tief in Utgarde wohnt, beauftragt.Anschließend sollt Ihr dessen Kopf zu Vizeadmiral Keller bringen."
+Inst70Quest2_Attain = "70"
+Inst70Quest2_Aim = "Verteidiger Mordun möchte, dass Ihr Burg Utgarde betretet und 5 Waffen der Vrykul stehlt"
 Inst70Quest2_Location = "Verteidiger Mordun (Heulender Fjord - Valgarde; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest2_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n\nDie Vorquest ist optional. Die Quest bringt Dich zu Vizeadmiral Keller bei (Heulender Fjord - Valgarde; "..YELLOW.."60.4, 61.0"..WHITE..")."
-Inst70Quest2_Prequest = "Ein neuer Abschnitt"
+Inst70Quest2_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden. Die Vorquest bekommt man von Kundschafterin Valory (Heulender Fjord - Valgarde; "..YELLOW.."56.0, 55.8"..WHITE..") and is optional."
+Inst70Quest2_Prequest = "Nein"
 Inst70Quest2_Folgequest = "Nein"
 --
-Inst70Quest2name1 = "Executioner's Band"
-Inst70Quest2name2 = "Ring of Decimation"
-Inst70Quest2name3 = "Signet of Swift Judgment"
+Inst70Quest2name1 = "Amulet of the Tranquil Mind"
+Inst70Quest2name2 = "Razor-Blade Pendant"
+Inst70Quest2name3 = "Necklace of Fragmented Light"
+Inst70Quest2name4 = "Woven Steel Necklace"
 
---Quest 3 Alliance
-Inst70Quest3 = "3. Abrüstung"
-Inst70Quest3_Level = "71"
-Inst70Quest3_Attain = "70"
-Inst70Quest3_Aim = "Verteidiger Mordun möchte, dass Ihr Burg Utgarde betretet und 5 Waffen der Vrykul stehlt"
-Inst70Quest3_Location = "Verteidiger Mordun (Heulender Fjord - Valgarde; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest3_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden. Die Vorquest bekommt man von Kundschafterin Valory (Heulender Fjord - Valgarde; "..YELLOW.."56.0, 55.8"..WHITE..") and is optional."
-Inst70Quest3_Prequest = "Nein"
-Inst70Quest3_Folgequest = "Nein"
+
+--Quest 1 Horde
+Inst70Quest1_HORDE = "1. Eine Rechnung begleichen"
+Inst70Quest1_HORDE_Level = "71"
+Inst70Quest1_HORDE_Attain = "68"
+Inst70Quest1_HORDE_Aim = "Hochexekutor Anselm möchte, dass Ihr nach Utgarde geht und Prinz Keleseth tötet."
+Inst70Quest1_HORDE_Location = "High Executor Anselm (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")"
+Inst70Quest1_HORDE_Note = "Prinz Keleseth ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest1_HORDE_Prequest = "Nein"
+Inst70Quest1_HORDE_Folgequest = "Nein"
 --
-Inst70Quest3name1 = "Amulet of the Tranquil Mind"
-Inst70Quest3name2 = "Razor-Blade Pendant"
-Inst70Quest3name3 = "Necklace of Fragmented Light"
-Inst70Quest3name4 = "Woven Steel Necklace"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst70Quest1_HORDE = Inst70Quest1
-Inst70Quest1_HORDE_Level = Inst70Quest1_Level
-Inst70Quest1_HORDE_Attain = Inst70Quest1_Attain
-Inst70Quest1_HORDE_Aim = Inst70Quest1_Aim
-Inst70Quest1_HORDE_Location = Inst70Quest1_Location
-Inst70Quest1_HORDE_Note = Inst70Quest1_Note
-Inst70Quest1_HORDE_Prequest = Inst70Quest1_Prequest
-Inst70Quest1_HORDE_Folgequest = Inst70Quest1_Folgequest
---
-Inst70Quest1name1_HORDE = Inst70Quest1name1
+Inst70Quest1name1_HORDE = "Wraps of the San'layn"
+Inst70Quest1name2_HORDE = "Vendetta Bindings"
+Inst70Quest1name3_HORDE = "Runecaster's Bracers"
+Inst70Quest1name4_HORDE = "Vambraces of the Vengeance Bringer"
 
 --Quest 2 Horde
-Inst70Quest2_HORDE = "2. Eine Rechnung begleichen"
+Inst70Quest2_HORDE = "2. Ingvar muss sterben!"
 Inst70Quest2_HORDE_Level = "71"
-Inst70Quest2_HORDE_Attain = "68"
-Inst70Quest2_HORDE_Aim = "Hochexekutor Anselm möchte, dass Ihr nach Utgarde geht und Prinz Keleseth tötet."
-Inst70Quest2_HORDE_Location = "High Executor Anselm (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")"
-Inst70Quest2_HORDE_Note = "Prinz Keleseth ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest2_HORDE_Attain = "70"
+Inst70Quest2_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr Ingvar den Brandschatzer in Burg Utgarde tötet und seinen Kopf bei Hochexekutor Anselm im Hafen der Vergeltung abliefert."
+Inst70Quest2_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..YELLOW.."[??]"..WHITE..")"
+Inst70Quest2_HORDE_Note = "Dunkelläuferin Marrah befindet sich in der Instant, nähe des Eingangs.\n\nIngvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n\nDie Quest bringt Dich zurück zu Hochexekutor Anselm in (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")."
 Inst70Quest2_HORDE_Prequest = "Nein"
 Inst70Quest2_HORDE_Folgequest = "Nein"
 --
-Inst70Quest2name1_HORDE = "Wraps of the San'layn"
-Inst70Quest2name2_HORDE = "Vendetta Bindings"
-Inst70Quest2name3_HORDE = "Runecaster's Bracers"
-Inst70Quest2name4_HORDE = "Vambraces of the Vengeance Bringer"
+Inst70Quest2name1_HORDE = "Executioner's Band"
+Inst70Quest2name2_HORDE = "Ring of Decimation"
+Inst70Quest2name3_HORDE = "Signet of Swift Judgment"
 
 --Quest 3 Horde
-Inst70Quest3_HORDE = "3. Ingvar muss sterben!"
+Inst70Quest3_HORDE = "3. Abrüstung"
 Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "70"
-Inst70Quest3_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr Ingvar den Brandschatzer in Burg Utgarde tötet und seinen Kopf bei Hochexekutor Anselm im Hafen der Vergeltung abliefert."
-Inst70Quest3_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..YELLOW.."[??]"..WHITE..")"
-Inst70Quest3_HORDE_Note = "Dunkelläuferin Marrah befindet sich in der Instant, nähe des Eingangs.\n\nIngvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n\nDie Quest bringt Dich zurück zu Hochexekutor Anselm in (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest3_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr 5 Waffen der Vrykul aus Burg Utgarde stehlt und sie zu Hochexekutor Anselm im Hafen der Vergeltung bringt."
+Inst70Quest3_HORDE_Location = "Dunkelläuferin Marrah (Heulender Fjord - ??; "..YELLOW.."??,??"..WHITE..")"
+Inst70Quest3_HORDE_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden.\n\nDie Quest bringt Dich zu Hochexekutor Anselm in (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")."
 Inst70Quest3_HORDE_Prequest = "Nein"
 Inst70Quest3_HORDE_Folgequest = "Nein"
 --
-Inst70Quest3name1_HORDE = "Executioner's Band"
-Inst70Quest3name2_HORDE = "Ring of Decimation"
-Inst70Quest3name3_HORDE = "Signet of Swift Judgment"
-
---Quest 4 Horde
-Inst70Quest4_HORDE = "4. Abrüstung"
-Inst70Quest4_HORDE_Level = "71"
-Inst70Quest4_HORDE_Attain = "70"
-Inst70Quest4_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr 5 Waffen der Vrykul aus Burg Utgarde stehlt und sie zu Hochexekutor Anselm im Hafen der Vergeltung bringt."
-Inst70Quest4_HORDE_Location = "Dunkelläuferin Marrah (Heulender Fjord - ??; "..YELLOW.."??,??"..WHITE..")"
-Inst70Quest4_HORDE_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden.\n\nDie Quest bringt Dich zu Hochexekutor Anselm in (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")."
-Inst70Quest4_HORDE_Prequest = "Nein"
-Inst70Quest4_HORDE_Folgequest = "Nein"
---
-Inst70Quest4name1_HORDE = "Necklace of Calm Skies"
-Inst70Quest4name2_HORDE = "Hundred Tooth Necklace"
-Inst70Quest4name3_HORDE = "Amulet of Constrained Power"
-Inst70Quest4name4_HORDE = "Tiled-Stone Pendant"
+Inst70Quest3name1_HORDE = "Necklace of Calm Skies"
+Inst70Quest3name2_HORDE = "Hundred Tooth Necklace"
+Inst70Quest3name3_HORDE = "Amulet of Constrained Power"
+Inst70Quest3name4_HORDE = "Tiled-Stone Pendant"
 
 
 
@@ -9967,68 +9884,39 @@ Inst70Quest4name4_HORDE = "Tiled-Stone Pendant"
 
 Inst71Story = "Über den Klippen der Daggercap Bucht, im Heulenden Fjord, steht die, durch die wilden und rätselhaften Vrykul besetzte und undurchdringliche, Burg Utgarde. Mit der mysteriösen, stinkenden Magie und den Protodrachen unter ihrem Befehl, stellen die Vrykul von Utgarde eine bestehende Bedrohung dar, sowohl für die Allianz als auch für die Horde. Nur die Tapfersten unter Euch trauen sich gegen die Gläubigen von Ymiron zu schreiten und sich tief ins Herzen des Haupthauses der Vrykul vorzudringen."
 Inst71Caption = "Turm Utgarde"
-Inst71QAA = "4 Quests"
-Inst71QAH = "4 Quests"
+Inst71QAA = "2 Quests"
+Inst71QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst71Quest1 = "1. Timear prophezeit Berserker von Ymirjar in Eurer Zukunft! (Tagesquest)"
+Inst71Quest1 = "1. Schrott in der Truhe"
 Inst71Quest1_Level = "80"
 Inst71Quest1_Attain = "78"
-Inst71Quest1_Aim = "Erzmagier Timear in Dalaran möchte, dass Ihr 7 Berserker von Ymirjar tötet."
-Inst71Quest1_Location = "Erzmagier Timear (Dalaran - Die violette Festung; "..YELLOW.."64.2, 54.7"..WHITE..")"
-Inst71Quest1_Note = "Es handelt sich um ein Tagesquest."
+Inst71Quest1_Aim = "Brigg im Turm Utgarde möchte, dass Ihr 5 blitzblanke Silberbarren, 3 glänzende Schmuckstücke, 2 goldene Kelche und eine Jadestatue beschafft."
+Inst71Quest1_Location = "Brigg Kleinkeul (Turm Utgarde; "..YELLOW.."[A]"..WHITE..")"
+Inst71Quest1_Note = "Die Gegenstände können überall in der Instanz gefunden werden.Die glänzende Schmuckstücke sind nicht die Selben die man fürs Angeln benutzt."
 Inst71Quest1_Prequest = "Nein"
 Inst71Quest1_Folgequest = "Nein"
 --
-Inst71Quest1name1 = "Kirin Tor Commendation Badge"
-Inst71Quest1name2 = "Argent Crusade Commendation Badge"
-Inst71Quest1name3 = "Ebon Blade Commendation Badge"
-Inst71Quest1name4 = "Wyrmrest Commendation Badge"
-Inst71Quest1name5 = "Sons of Hodir Commendation Badge"
-Inst71Quest1name6 = "Emblem of Conquest" 
+Inst71Quest1name1 = "Bauble-Woven Gown"
+Inst71Quest1name2 = "Exotic Leather Tunic"
+Inst71Quest1name3 = "Silver-Plated Battlechest"
+Inst71Quest1name4 = "Gilded Ringmail Hauberk"
 
 --Quest 2 Alliance
-Inst71Quest2 = "2. Todesbeweis: König Ymiron (Heroisches Tagesquest)"
+Inst71Quest2 = "2. Die Rache ist mein!"
 Inst71Quest2_Level = "80"
-Inst71Quest2_Attain = "80"
-Inst71Quest2_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit dem Medallion der verstorbenen Königen zurückkehrt."
-Inst71Quest2_Location = "ErzmagierErzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst71Quest2_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nKönig Ymiron ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst71Quest2_Attain = "78"
+Inst71Quest2_Aim = "Brigg im Turm Utgarde möchte, dass Ihr König Ymiron tötet."
+Inst71Quest2_Location = "Brigg Kleinkeul (Turm Utgarde; "..YELLOW.."[A]"..WHITE..")"
+Inst71Quest2_Note = "König Ymiron ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst71Quest2_Prequest = "Nein"
 Inst71Quest2_Folgequest = "Nein"
 --
-Inst71Quest2name1 = "Emblem of Heroism"
-
---Quest 3 Alliance
-Inst71Quest3 = "3. Schrott in der Truhe"
-Inst71Quest3_Level = "80"
-Inst71Quest3_Attain = "78"
-Inst71Quest3_Aim = "Brigg im Turm Utgarde möchte, dass Ihr 5 blitzblanke Silberbarren, 3 glänzende Schmuckstücke, 2 goldene Kelche und eine Jadestatue beschafft."
-Inst71Quest3_Location = "Brigg Kleinkeul (Turm Utgarde; "..YELLOW.."[A]"..WHITE..")"
-Inst71Quest3_Note = "Die Gegenstände können überall in der Instanz gefunden werden.Die glänzende Schmuckstücke sind nicht die Selben die man fürs Angeln benutzt."
-Inst71Quest3_Prequest = "Nein"
-Inst71Quest3_Folgequest = "Nein"
---
-Inst71Quest3name1 = "Bauble-Woven Gown"
-Inst71Quest3name2 = "Exotic Leather Tunic"
-Inst71Quest3name3 = "Silver-Plated Battlechest"
-Inst71Quest3name4 = "Gilded Ringmail Hauberk"
-
---Quest 4 Alliance
-Inst71Quest4 = "4. Die Rache ist mein!"
-Inst71Quest4_Level = "80"
-Inst71Quest4_Attain = "78"
-Inst71Quest4_Aim = "Brigg im Turm Utgarde möchte, dass Ihr König Ymiron tötet."
-Inst71Quest4_Location = "Brigg Kleinkeul (Turm Utgarde; "..YELLOW.."[A]"..WHITE..")"
-Inst71Quest4_Note = "König Ymiron ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst71Quest4_Prequest = "Nein"
-Inst71Quest4_Folgequest = "Nein"
---
-Inst71Quest4name1 = "Cowl of the Vindictive Captain"
-Inst71Quest4name2 = "Headguard of Retaliation"
-Inst71Quest4name3 = "Helmet of Just Retribution"
-Inst71Quest4name4 = "Faceguard of Punishment"
-Inst71Quest4name5 = "Platehelm of Irate Revenge"
+Inst71Quest2name1 = "Cowl of the Vindictive Captain"
+Inst71Quest2name2 = "Headguard of Retaliation"
+Inst71Quest2name3 = "Helmet of Just Retribution"
+Inst71Quest2name4 = "Faceguard of Punishment"
+Inst71Quest2name5 = "Platehelm of Irate Revenge"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10045,8 +9933,6 @@ Inst71Quest1name1_HORDE = Inst71Quest1name1
 Inst71Quest1name2_HORDE = Inst71Quest1name2
 Inst71Quest1name3_HORDE = Inst71Quest1name3
 Inst71Quest1name4_HORDE = Inst71Quest1name4
-Inst71Quest1name5_HORDE = Inst71Quest1name5
-Inst71Quest1name6_HORDE = Inst71Quest1name6 
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst71Quest2_HORDE = Inst71Quest2
@@ -10059,37 +9945,10 @@ Inst71Quest2_HORDE_Prequest = Inst71Quest2_Prequest
 Inst71Quest2_HORDE_Folgequest = Inst71Quest2_Folgequest
 --
 Inst71Quest2name1_HORDE = Inst71Quest2name1
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst71Quest3_HORDE = Inst71Quest3
-Inst71Quest3_HORDE_Level = Inst71Quest3_Level
-Inst71Quest3_HORDE_Attain = Inst71Quest3_Attain
-Inst71Quest3_HORDE_Aim = Inst71Quest3_Aim
-Inst71Quest3_HORDE_Location = Inst71Quest3_Location
-Inst71Quest3_HORDE_Note = Inst71Quest3_Note
-Inst71Quest3_HORDE_Prequest = Inst71Quest3_Prequest
-Inst71Quest3_HORDE_Folgequest = Inst71Quest3_Folgequest
---
-Inst71Quest3name1_HORDE = Inst71Quest3name1
-Inst71Quest3name2_HORDE = Inst71Quest3name2
-Inst71Quest3name3_HORDE = Inst71Quest3name3
-Inst71Quest3name4_HORDE = Inst71Quest3name4
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst71Quest4_HORDE = Inst71Quest4
-Inst71Quest4_HORDE_Level = Inst71Quest4_Level
-Inst71Quest4_HORDE_Attain = Inst71Quest4_Attain
-Inst71Quest4_HORDE_Aim = Inst71Quest4_Aim
-Inst71Quest4_HORDE_Location = Inst71Quest4_Location
-Inst71Quest4_HORDE_Note = Inst71Quest4_Note
-Inst71Quest4_HORDE_Prequest = Inst71Quest4_Prequest
-Inst71Quest4_HORDE_Folgequest = Inst71Quest4_Folgequest
---
-Inst71Quest4name1_HORDE = Inst71Quest4name1
-Inst71Quest4name2_HORDE = Inst71Quest4name2
-Inst71Quest4name3_HORDE = Inst71Quest4name3
-Inst71Quest4name4_HORDE = Inst71Quest4name4
-Inst71Quest4name5_HORDE = Inst71Quest4name5
+Inst71Quest2name2_HORDE = Inst71Quest2name2
+Inst71Quest2name3_HORDE = Inst71Quest2name3
+Inst71Quest2name4_HORDE = Inst71Quest2name4
+Inst71Quest2name5_HORDE = Inst71Quest2name5
 
 
 
@@ -10097,83 +9956,71 @@ Inst71Quest4name5_HORDE = Inst71Quest4name5
 
 Inst72Story = "Der blaue Drachen Aspekt, Malygos, hat Risse mit seiner Handhabung der rohen magischen Energie geschaffen: Risse im Gewebe der magischen Dimension. Die Kirin Tor, die Elite Magier Dalarans, haben einen Rat mit dem roten Drachenschwarm gebildet, die mit der Bewahrung des Lebens aufgeladen werden. Zu diesem Zweck haben die zwei Gruppen aktiv begonnen, die verheerende Kampagne von Malygos zu stürzen. Die Seiten sind gewählt worden; die Kampflinien sind gezogen worden. Die einzige Frage, die jetzt bleibt, ist... Wer gewinnen wird."
 Inst72Caption = "Der Nexus: Der Nexus"
-Inst72QAA = "5 Quests"
-Inst72QAH = "5 Quests"
+Inst72QAA = "4 Quests"
+Inst72QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst72Quest1 = "1. Todesbeweis: Keristrasza (Heroisches Tagesquest)"
-Inst72Quest1_Level = "80"
-Inst72Quest1_Attain = "80"
-Inst72Quest1_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit Keristraszas gebrochenem Herzen zurückkehrt."
-Inst72Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst72Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nKeristrasza ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst72Quest1 = "1. Schämen sie sich denn nicht?"
+Inst72Quest1_Level = "71"
+Inst72Quest1_Attain = "70"
+Inst72Quest1_Aim = "Bibliothekarin Serrah möchte, dass Ihr den Nexus betretet und Berinands Forschungsergebnisse beschafft."
+Inst72Quest1_Location = "Bibliothekarin Serrah (Boreanische Tundra - Transitusschild; "..YELLOW.."33.4, 34.3"..WHITE..")"
+Inst72Quest1_Note = "Das Forschungsergebnissbuch liegt auf dem Boden in der Halle auf den Weg zum Großmagistrix Telestra bei "..YELLOW.."[6]"..WHITE.."."
 Inst72Quest1_Prequest = "Nein"
 Inst72Quest1_Folgequest = "Nein"
 --
-Inst72Quest1name1 = "Emblem of Heroism"
+Inst72Quest1name1 = "Shoulders of the Northern Lights"
+Inst72Quest1name2 = "Cured Mammoth Hide Mantle"
+Inst72Quest1name3 = "Tundra Tracker's Shoulderguards"
+Inst72Quest1name4 = "Tundra Pauldrons"
 
 --Quest 2 Alliance
-Inst72Quest2 = "2. Schämen sie sich denn nicht?"
+Inst72Quest2 = "2. Das Unvermeidliche hinauszögern"
 Inst72Quest2_Level = "71"
 Inst72Quest2_Attain = "70"
-Inst72Quest2_Aim = "Bibliothekarin Serrah möchte, dass Ihr den Nexus betretet und Berinands Forschungsergebnisse beschafft."
-Inst72Quest2_Location = "Bibliothekarin Serrah (Boreanische Tundra - Transitusschild; "..YELLOW.."33.4, 34.3"..WHITE..")"
-Inst72Quest2_Note = "Das Forschungsergebnissbuch liegt auf dem Boden in der Halle auf den Weg zum Großmagistrix Telestra bei "..YELLOW.."[6]"..WHITE.."."
-Inst72Quest2_Prequest = "Nein"
+Inst72Quest2_Aim = "Erzmagier Berinand im Transitusschild möchte, dass Ihr den interdimensionalen Refabrikator in der Nähe des Risses im Nexus benutzt."
+Inst72Quest2_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
+Inst72Quest2_Note = "Benutze den interdimensionalen Refabrikator am Ende der Plattform wo Anomaluson ist, bei "..YELLOW.."[1]"..WHITE.."."
+Inst72Quest2_Prequest = "Die Zähler ablesen"
 Inst72Quest2_Folgequest = "Nein"
+Inst72Quest2PreQuest = "true"
 --
-Inst72Quest2name1 = "Shoulders of the Northern Lights"
-Inst72Quest2name2 = "Cured Mammoth Hide Mantle"
-Inst72Quest2name3 = "Tundra Tracker's Shoulderguards"
-Inst72Quest2name4 = "Tundra Pauldrons"
+Inst72Quest2name1 = "Time-Twisted Wraps"
+Inst72Quest2name2 = "Time-Stop Gloves"
+Inst72Quest2name3 = "Bindings of Sabotage"
+Inst72Quest2name4 = "Gauntlets of the Disturbed Giant"
 
 --Quest 3 Alliance
-Inst72Quest3 = "3. Das Unvermeidliche hinauszögern"
+Inst72Quest3 = "3. Kriegsgefangene"
 Inst72Quest3_Level = "71"
 Inst72Quest3_Attain = "70"
-Inst72Quest3_Aim = "Erzmagier Berinand im Transitusschild möchte, dass Ihr den interdimensionalen Refabrikator in der Nähe des Risses im Nexus benutzt."
-Inst72Quest3_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest3_Note = "Benutze den interdimensionalen Refabrikator am Ende der Plattform wo Anomaluson ist, bei "..YELLOW.."[1]"..WHITE.."."
-Inst72Quest3_Prequest = "Die Zähler ablesen"
+Inst72Quest3_Aim = "Raelorasz im Transitusschild möchte, dass Ihr den Nexus betretet und Keristrasza befreit."
+Inst72Quest3_Location = "Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
+Inst72Quest3_Note = "Keristrasza ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst72Quest3_Prequest = "Keristrasza -> Die Falle zuschnappen lassen"
 Inst72Quest3_Folgequest = "Nein"
 Inst72Quest3PreQuest = "true"
 --
-Inst72Quest3name1 = "Time-Twisted Wraps"
-Inst72Quest3name2 = "Time-Stop Gloves"
-Inst72Quest3name3 = "Bindings of Sabotage"
-Inst72Quest3name4 = "Gauntlets of the Disturbed Giant"
+Inst72Quest3name1 = "Cloak of Azure Lights"
+Inst72Quest3name2 = "Mantle of Keristrasza"
+Inst72Quest3name3 = "Shroud of Fluid Strikes"
 
 --Quest 4 Alliance
-Inst72Quest4 = "4. Kriegsgefangene"
+Inst72Quest4 = "4. Beschleunigen"
 Inst72Quest4_Level = "71"
 Inst72Quest4_Attain = "70"
-Inst72Quest4_Aim = "Raelorasz im Transitusschild möchte, dass Ihr den Nexus betretet und Keristrasza befreit."
-Inst72Quest4_Location = "Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
-Inst72Quest4_Note = "Keristrasza ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst72Quest4_Prequest = "Keristrasza -> Die Falle zuschnappen lassen"
+Inst72Quest4_Aim = "Erzmagier Berinand im Transitusschild möchte, dass Ihr den Nexus betretet und 5 arkane Späne von den kristallinen Beschützern beschafft."
+Inst72Quest4_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
+Inst72Quest4_Note = "Arkane Späne droppen von den kristallinen Beschützern."
+Inst72Quest4_Prequest = "Geheimnisse der Urtume"
 Inst72Quest4_Folgequest = "Nein"
 Inst72Quest4PreQuest = "true"
 --
-Inst72Quest4name1 = "Cloak of Azure Lights"
-Inst72Quest4name2 = "Mantle of Keristrasza"
-Inst72Quest4name3 = "Shroud of Fluid Strikes"
-
---Quest 5 Alliance
-Inst72Quest5 = "5. Beschleunigen"
-Inst72Quest5_Level = "71"
-Inst72Quest5_Attain = "70"
-Inst72Quest5_Aim = "Erzmagier Berinand im Transitusschild möchte, dass Ihr den Nexus betretet und 5 arkane Späne von den kristallinen Beschützern beschafft."
-Inst72Quest5_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest5_Note = "Arkane Späne droppen von den kristallinen Beschützern."
-Inst72Quest5_Prequest = "Geheimnisse der Urtume"
-Inst72Quest5_Folgequest = "Nein"
-Inst72Quest5PreQuest = "true"
---
-Inst72Quest5name1 = "Sandals of Mystical Evolution"
-Inst72Quest5name2 = "Treads of Torn Future"
-Inst72Quest5name3 = "Spiked Treads of Mutation"
-Inst72Quest5name4 = "Invigorating Sabatons"
-Inst72Quest5name5 = "Boots of the Unbowed Protector"
+Inst72Quest4name1 = "Sandals of Mystical Evolution"
+Inst72Quest4name2 = "Treads of Torn Future"
+Inst72Quest4name3 = "Spiked Treads of Mutation"
+Inst72Quest4name4 = "Invigorating Sabatons"
+Inst72Quest4name5 = "Boots of the Unbowed Protector"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10187,6 +10034,9 @@ Inst72Quest1_HORDE_Prequest = Inst72Quest1_Prequest
 Inst72Quest1_HORDE_Folgequest = Inst72Quest1_Folgequest
 --
 Inst72Quest1name1_HORDE = Inst72Quest1name1
+Inst72Quest1name2_HORDE = Inst72Quest1name2
+Inst72Quest1name3_HORDE = Inst72Quest1ame3
+Inst72Quest1name4_HORDE = Inst72Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst72Quest2_HORDE = Inst72Quest2
@@ -10217,7 +10067,6 @@ Inst72Quest3PreQuest_HORDE = Inst72Quest3PreQuest
 Inst72Quest3name1_HORDE = Inst72Quest3name1
 Inst72Quest3name2_HORDE = Inst72Quest3name2
 Inst72Quest3name3_HORDE = Inst72Quest3name3
-Inst72Quest3name4_HORDE = Inst72Quest3name4
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst72Quest4_HORDE = Inst72Quest4
@@ -10233,23 +10082,8 @@ Inst72Quest4PreQuest_HORDE = Inst72Quest4PreQuest
 Inst72Quest4name1_HORDE = Inst72Quest4name1
 Inst72Quest4name2_HORDE = Inst72Quest4name2
 Inst72Quest4name3_HORDE = Inst72Quest4name3
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst72Quest5_HORDE = Inst72Quest5
-Inst72Quest5_HORDE_Level = Inst72Quest5_Level
-Inst72Quest5_HORDE_Attain = Inst72Quest5_Attain
-Inst72Quest5_HORDE_Aim = Inst72Quest5_Aim
-Inst72Quest5_HORDE_Location = Inst72Quest5_Location
-Inst72Quest5_HORDE_Note = Inst72Quest5_Note
-Inst72Quest5_HORDE_Prequest = Inst72Quest5_Prequest
-Inst72Quest5_HORDE_Folgequest = Inst72Quest5_Folgequest
-Inst72Quest5PreQuest_HORDE = Inst72Quest5PreQuest
---
-Inst72Quest5name1_HORDE = Inst72Quest5name1
-Inst72Quest5name2_HORDE = Inst72Quest5name2
-Inst72Quest5name3_HORDE = Inst72Quest5name3
-Inst72Quest5name4_HORDE = Inst72Quest5name4
-Inst72Quest5name5_HORDE = Inst72Quest5name5
+Inst72Quest4name4_HORDE = Inst72Quest4name4
+Inst72Quest4name5_HORDE = Inst72Quest4name5
 
 
 
@@ -10257,92 +10091,63 @@ Inst72Quest5name5_HORDE = Inst72Quest5name5
 
 Inst73Story = "Der blaue Drachen Aspekt, Malygos, hat Risse mit seiner Handhabung der rohen magischen Energie geschaffen: Risse im Gewebe der magischen Dimension. Die Kirin Tor, die Elite Magier Dalarans, haben einen Rat mit dem roten Drachenschwarm gebildet, die mit der Bewahrung des Lebens aufgeladen werden. Zu diesem Zweck haben die zwei Gruppen aktiv begonnen, die verheerende Kampagne von Malygos zu stürzen. Die Seiten sind gewählt worden; die Kampflinien sind gezogen worden. Die einzige Frage, die jetzt bleibt, ist... Wer gewinnen wird."
 Inst73Caption = "Der Nexus: Das Oculus"
-Inst73QAA = "6 Quests"
-Inst73QAH = "6 Quests"
+Inst73QAA = "4 Quests"
+Inst73QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst73Quest1 = "1. Timear prophezeit Tentrifugenkonstruckte in Eurer Zukunft. (Tagesquest)"
+Inst73Quest1 = "1. Der Kampf geht weiter"
 Inst73Quest1_Level = "80"
-Inst73Quest1_Attain = "78"
-Inst73Quest1_Aim = "Erzmagier Timear in Dalaran hat vorrausgesehen, dass Ihr 10 Zentrifugenkonstrukte zerstören müsst."
-Inst73Quest1_Location = "Erzmagier Timear (Dalaran - Die violette Festung; "..YELLOW.."64.2, 54.7"..WHITE..")"
-Inst73Quest1_Note = "Es handelt sich um ein Tagesquest. Du findest die Zentrifugenkonstruckte in sechs verschiedenen Gruppen zwischen dem Ersten und Zweiten Boss, bei "..YELLOW.."1'"..WHITE.."."
+Inst73Quest1_Attain = "77"
+Inst73Quest1_Aim = "Raelorasz möchte, dass Ihr Euch in das Oculus begebt und Belgaristrasz und seine Gefährten befreit."
+Inst73Quest1_Location = "Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
+Inst73Quest1_Note = "Belgaristrasz is released from his cage after you defeat Drakos the Interrogator at "..YELLOW.."[1]"..WHITE.."."
 Inst73Quest1_Prequest = "Nein"
-Inst73Quest1_Folgequest = "Nein"
+Inst73Quest1_Folgequest = "Vereinte Front"
 --
-Inst73Quest1name1 = "Kirin Tor Commendation Badge"
-Inst73Quest1name2 = "Argent Crusade Commendation Badge"
-Inst73Quest1name3 = "Ebon Blade Commendation Badge"
-Inst73Quest1name4 = "Wyrmrest Commendation Badge"
-Inst73Quest1name5 = "Sons of Hodir Commendation Badge"
-Inst73Quest1name6 = "Emblem of Conquest" 
+Inst73Quest1name1 = "Ring of Temerity"
+Inst73Quest1name2 = "Flourishing Band"
+Inst73Quest1name3 = "Band of Motivation"
+Inst73Quest1name4 = "Staunch Signet"
 
 --Quest 2 Alliance
-Inst73Quest2 = "2. Todesbeweis: Leywächter Eregos (Heroisches Tagesquest)"
+Inst73Quest2 = "2. Vereinte Front"
 Inst73Quest2_Level = "80"
-Inst73Quest2_Attain = "80"
-Inst73Quest2_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit dem Leylinienempfänger zurückkehrt."
-Inst73Quest2_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst73Quest2_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nDer Leylinienempfänger kommt aus der Kiste von Eregos bei "..YELLOW.."[5]"..WHITE.."."
-Inst73Quest2_Prequest = "Nein"
-Inst73Quest2_Folgequest = "Nein"
---
-Inst73Quest2name1 = "Emblem of Heroism"
+Inst73Quest2_Attain = "77"
+Inst73Quest2_Aim = "Belgaristrasz möchte, dass Ihr 10 Zentrifugenkonstrukte zerstört, um Varos' Schild zu beseitigen. Danach müsst Ihr Varos Wolkenwanderer besiegen."
+Inst73Quest2_Location = "Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[1]"..WHITE..")"
+Inst73Quest2_Note = "Belgaristrasz will appear after you defeat Varos Cloudstrider at "..YELLOW.."[2]"..WHITE.."."
+Inst73Quest2_Prequest = "Der Kampf geht weiter"
+Inst73Quest2_Folgequest = "Magierlord Urom"
+Inst73Quest2FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst73Quest3 = "3. Der Kampf geht weiter"
+Inst73Quest3 = "3. Magierlord Urom"
 Inst73Quest3_Level = "80"
 Inst73Quest3_Attain = "77"
-Inst73Quest3_Aim = "Raelorasz möchte, dass Ihr Euch in das Oculus begebt und Belgaristrasz und seine Gefährten befreit."
-Inst73Quest3_Location = "Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
-Inst73Quest3_Note = "Belgaristrasz is released from his cage after you defeat Drakos the Interrogator at "..YELLOW.."[1]"..WHITE.."."
-Inst73Quest3_Prequest = "Nein"
-Inst73Quest3_Folgequest = "Vereinte Front"
---
-Inst73Quest3name1 = "Ring of Temerity"
-Inst73Quest3name2 = "Flourishing Band"
-Inst73Quest3name3 = "Band of Motivation"
-Inst73Quest3name4 = "Staunch Signet"
+Inst73Quest3_Aim = "Belgaristrasz möchte, dass Ihr Magierlord Urom im Oculus besiegt."
+Inst73Quest3_Location = "Abbild von Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[2]"..WHITE..")"
+Inst73Quest3_Note = "Belgaristrasz will appear after you defeat Mage-Lord Urom at "..YELLOW.."[3]"..WHITE.."."
+Inst73Quest3_Prequest = "Vereinte Front"
+Inst73Quest3_Folgequest = "Schlacht in den Wolken"
+Inst73Quest3FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst73Quest4 = "4. Vereinte Front"
+Inst73Quest4 = "4. Schlacht in den Wolken"
 Inst73Quest4_Level = "80"
 Inst73Quest4_Attain = "77"
-Inst73Quest4_Aim = "Belgaristrasz möchte, dass Ihr 10 Zentrifugenkonstrukte zerstört, um Varos' Schild zu beseitigen. Danach müsst Ihr Varos Wolkenwanderer besiegen."
-Inst73Quest4_Location = "Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[1]"..WHITE..")"
-Inst73Quest4_Note = "Belgaristrasz will appear after you defeat Varos Cloudstrider at "..YELLOW.."[2]"..WHITE.."."
-Inst73Quest4_Prequest = "Der Kampf geht weiter"
-Inst73Quest4_Folgequest = "Magierlord Urom"
+Inst73Quest4_Aim = "Belgaristrasz möchte, dass Ihr Eregos im Oculus tötet und anschließend bei Raelorasz im Transitusschild in Kaltarra Bericht erstattet."
+Inst73Quest4_Location = "Abbild von Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[3]"..WHITE..")"
+Inst73Quest4_Note = "Leywächter Eregos ist bei "..YELLOW.."[4]"..WHITE..". Raelorasz ist bei (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")."
+Inst73Quest4_Prequest = "Magierlord Urom"
+Inst73Quest4_Folgequest = "Nein"
 Inst73Quest4FQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst73Quest5 = "5. Magierlord Urom"
-Inst73Quest5_Level = "80"
-Inst73Quest5_Attain = "77"
-Inst73Quest5_Aim = "Belgaristrasz möchte, dass Ihr Magierlord Urom im Oculus besiegt."
-Inst73Quest5_Location = "Abbild von Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[2]"..WHITE..")"
-Inst73Quest5_Note = "Belgaristrasz will appear after you defeat Mage-Lord Urom at "..YELLOW.."[3]"..WHITE.."."
-Inst73Quest5_Prequest = "Vereinte Front"
-Inst73Quest5_Folgequest = "Schlacht in den Wolken"
-Inst73Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst73Quest6 = "6. Schlacht in den Wolken"
-Inst73Quest6_Level = "80"
-Inst73Quest6_Attain = "77"
-Inst73Quest6_Aim = "Belgaristrasz möchte, dass Ihr Eregos im Oculus tötet und anschließend bei Raelorasz im Transitusschild in Kaltarra Bericht erstattet."
-Inst73Quest6_Location = "Abbild von Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[3]"..WHITE..")"
-Inst73Quest6_Note = "Leywächter Eregos ist bei "..YELLOW.."[4]"..WHITE..". Raelorasz ist bei (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")."
-Inst73Quest6_Prequest = "Magierlord Urom"
-Inst73Quest6_Folgequest = "Nein"
-Inst73Quest6FQuest = "true"
 --
-Inst73Quest6name1 = "Cuffs of Gratitude"
-Inst73Quest6name2 = "Soaring Wristwraps"
-Inst73Quest6name3 = "Bindings of Raelorasz"
-Inst73Quest6name4 = "Bracers of Reverence"
+Inst73Quest4name1 = "Cuffs of Gratitude"
+Inst73Quest4name2 = "Soaring Wristwraps"
+Inst73Quest4name3 = "Bindings of Raelorasz"
+Inst73Quest4name4 = "Bracers of Reverence"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10369,8 +10174,7 @@ Inst73Quest2_HORDE_Location = Inst73Quest2_Location
 Inst73Quest2_HORDE_Note = Inst73Quest2_Note
 Inst73Quest2_HORDE_Prequest = Inst73Quest2_Prequest
 Inst73Quest2_HORDE_Folgequest = Inst73Quest2_Folgequest
---
-Inst73Quest2name1_HORDE = Inst73Quest2name1
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst73Quest3_HORDE = Inst73Quest3
@@ -10381,13 +10185,7 @@ Inst73Quest3_HORDE_Location = Inst73Quest3_Location
 Inst73Quest3_HORDE_Note = Inst73Quest3_Note
 Inst73Quest3_HORDE_Prequest = Inst73Quest3_Prequest
 Inst73Quest3_HORDE_Folgequest = Inst73Quest3_Folgequest
---
-Inst73Quest3name1_HORDE = Inst73Quest3name1
-Inst73Quest3name2_HORDE = Inst73Quest3name2
-Inst73Quest3name3_HORDE = Inst73Quest3name3
-Inst73Quest3name4_HORDE = Inst73Quest3name4
-Inst73Quest1name5_HORDE = Inst73Quest1name5
-Inst73Quest1name6_HORDE = Inst73Quest1name6 
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst73Quest4_HORDE = Inst73Quest4
@@ -10399,35 +10197,11 @@ Inst73Quest4_HORDE_Note = Inst73Quest4_Note
 Inst73Quest4_HORDE_Prequest = Inst73Quest4_Prequest
 Inst73Quest4_HORDE_Folgequest = Inst73Quest4_Folgequest
 Inst73Quest4FQuest_HORDE = Inst73Quest4FQuest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst73Quest5_HORDE = Inst73Quest5
-Inst73Quest5_HORDE_Level = Inst73Quest5_Level
-Inst73Quest5_HORDE_Attain = Inst73Quest5_Attain
-Inst73Quest5_HORDE_Aim = Inst73Quest5_Aim
-Inst73Quest5_HORDE_Location = Inst73Quest5_Location
-Inst73Quest5_HORDE_Note = Inst73Quest5_Note
-Inst73Quest5_HORDE_Prequest = Inst73Quest5_Prequest
-Inst73Quest5_HORDE_Folgequest = Inst73Quest5_Folgequest
-Inst73Quest5FQuest_HORDE = Inst73Quest5FQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst73Quest6_HORDE = Inst73Quest6
-Inst73Quest6_HORDE_Level = Inst73Quest6_Level
-Inst73Quest6_HORDE_Attain = Inst73Quest6_Attain
-Inst73Quest6_HORDE_Aim = Inst73Quest6_Aim
-Inst73Quest6_HORDE_Location = Inst73Quest6_Location
-Inst73Quest6_HORDE_Note = Inst73Quest6_Note
-Inst73Quest6_HORDE_Prequest = Inst73Quest6_Prequest
-Inst73Quest6_HORDE_Folgequest = Inst73Quest6_Folgequest
-Inst73Quest6FQuest_HORDE = Inst73Quest6FQuest
 --
-Inst73Quest6name1_HORDE = Inst73Quest6name1
-Inst73Quest6name2_HORDE = Inst73Quest6name2
-Inst73Quest6name3_HORDE = Inst73Quest6name3
-Inst73Quest6name4_HORDE = Inst73Quest6name4
+Inst73Quest4name1_HORDE = Inst73Quest4name1
+Inst73Quest4name2_HORDE = Inst73Quest4name2
+Inst73Quest4name3_HORDE = Inst73Quest4name3
+Inst73Quest4name4_HORDE = Inst73Quest4name4
 
 
 
@@ -10435,8 +10209,8 @@ Inst73Quest6name4_HORDE = Inst73Quest6name4
 
 Inst74Story = "From within the safety of his personal domain, the Eye of Eternity, Malygos coordinates a crusade to reestablish his dominance over the arcane energies coursing through Azeroth. In his eyes, the foolish actions of the Kirin Tor and other mortal magi have plunged the world into chaos, and the abuse of their powers will no longer be tolerated. Threatened by the Spell-Weaver's brutal tactics, the Kirin Tor has allied itself with the red dragonflight. Together, the two groups closely observe Malygos, searching for a way to thwart his campaign and strike out at the Aspect of Magic, but thus far the elusive Spell-Weaver has proven difficult to engage.\n\nAt Wyrmrest Temple, the ancient meeting ground of the dragonflights, Alexstrasza and the ambassadors of other flights have discussed Malygos' recklessness and reluctantly concluded that he is beyond the point of salvation. With the red dragons' assistance, Azeroth's heroes may be able to accomplish what has formerly been unthinkable: challenging the Spell-Weaver from inside the Eye of Eternity. Sustaining the safety of Azeroth depends on Malygos' defeat, but his end will also herald a new age: a world of unguarded magic, absent of the Dragon Aspect powerful enough to watch over it."
 Inst74Caption = "Der Nexus: Das Auge der Ewigkeit"
-Inst74QAA = "2 Quests"
-Inst74QAH = "2 Quests"
+Inst74QAA = "3 Quests"
+Inst74QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst74Quest1 = "1. Entscheidung im Auge der Ewigkeit"
@@ -10469,6 +10243,19 @@ Inst74Quest2name1 = "Wyrmrest Necklace of Power"
 Inst74Quest2name2 = "Life-Binder's Locket"
 Inst74Quest2name3 = "Favor of the Dragon Queen"
 Inst74Quest2name4 = "Nexus War Champion Beads"
+
+--Quest 3 Alliance
+Inst74Quest3 = "3. Malygos Must Die! (Weekly)"
+Inst74Quest3_Level = "80"
+Inst74Quest3_Attain = "80"
+Inst74Quest3_Aim = "Kill Malygos."
+Inst74Quest3_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst74Quest3_Note = "Malygos is at "..YELLOW.." [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst74Quest3_Prequest = "None"
+Inst74Quest3_Folgequest = "None"
+--
+Inst74Quest3name1 = "Emblem of Frost"
+Inst74Quest3name2 = "Emblem of Triumph"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10503,56 +10290,57 @@ Inst74Quest2name2_HORDE = Inst74Quest2name2
 Inst74Quest2name3_HORDE = Inst74Quest2name3
 Inst74Quest2name4_HORDE = Inst74Quest2name4
 
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst74Quest3_HORDE = Inst74Quest3
+Inst74Quest3_HORDE_Level = Inst74Quest3_Level
+Inst74Quest3_HORDE_Attain = Inst74Quest3_Attain
+Inst74Quest3_HORDE_Aim = Inst74Quest3_Aim
+Inst74Quest3_HORDE_Location = Inst74Quest3_Location
+Inst74Quest3_HORDE_Note = Inst74Quest3_Note
+Inst74Quest3_HORDE_Prequest = Inst74Quest3_Prequest
+Inst74Quest3_HORDE_Folgequest = Inst74Quest3_Folgequest
+--
+Inst74Quest3name1_HORDE = Inst74Quest3name1
+Inst74Quest3name2_HORDE = Inst74Quest3name2
+
 
 
 --------------- INST75 - Azjol-Nerub ---------------
 
 Inst75Story = "Azjol-Nerub is a vast underground dungeon hub home to the arachnid-like nerubian. Located in icy Dragonblight, Azjol-Nerub can be divided into two sections: the Old Kingdom and the Upper Kingdom. Many of deepest areas in Azjol-Nerub are held by faceless ones.\n\nAzjol-Nerub: The Upper Kingdom is a mystery waiting to be explored. It once held a powerful and advanced civilization, and many of its treasures still rest here undamaged. Great riches litter the lower halls, not only gems and magic items but art and literature and scholarly tomes. The Scourge infest this place. Forgotten ones seethe below, eager to return to the world above.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst75Caption = "Azjol-Nerub"
-Inst75QAA = "3 Quests"
-Inst75QAH = "3 Quests"
+Inst75QAA = "2 Quests"
+Inst75QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst75Quest1 = "1. Todesbeweis: Anub'arak (Heroisches Tagesquest)"
-Inst75Quest1_Level = "80"
-Inst75Quest1_Attain = "80"
-Inst75Quest1_Aim = "Erzmagier Lan'dalock in Dalaran wants you to return with the Idle Crown of Anub'arak."
-Inst75Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst75Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nAnub'arak ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst75Quest1 = "1. Vergesst nicht die Eier!"
+Inst75Quest1_Level = "74"
+Inst75Quest1_Attain = "72"
+Inst75Quest1_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr Azjol-Nerub betretet und 6 Eier der Geißelneruber zerstört."
+Inst75Quest1_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
+Inst75Quest1_Note = "Die Eier der Geiselneruber sind im ersten Raum überall verteilt, beim ersten Boss, Krik'thir der Torwächter bei "..YELLOW.."[1]"..WHITE.."."
 Inst75Quest1_Prequest = "Nein"
 Inst75Quest1_Folgequest = "Nein"
 --
-Inst75Quest1name1 = "Emblem of Heroism"
+Inst75Quest1name1 = "Expelling Gauntlets"
+Inst75Quest1name2 = "Purging Handguards"
+Inst75Quest1name3 = "Wraps of Quelled Bane"
+Inst75Quest1name4 = "Gloves of Banished Infliction"
 
 --Quest 2 Alliance
-Inst75Quest2 = "2. Vergesst nicht die Eier!"
+Inst75Quest2 = "2. Tot dem verräter König"
 Inst75Quest2_Level = "74"
 Inst75Quest2_Attain = "72"
-Inst75Quest2_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr Azjol-Nerub betretet und 6 Eier der Geißelneruber zerstört."
+Inst75Quest2_Aim = "Kilix der Entwirrer in der Grube von Narjun hat Euch damit beauftragt, Anub'arak in Azjol-Nerub zu besiegen. Danach sollt Ihr Kilix Anub'araks zerbrochenen Panzer zurückbringen."
 Inst75Quest2_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst75Quest2_Note = "Die Eier der Geiselneruber sind im ersten Raum überall verteilt, beim ersten Boss, Krik'thir der Torwächter bei "..YELLOW.."[1]"..WHITE.."."
+Inst75Quest2_Note = "Anub'arak ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst75Quest2_Prequest = "Nein"
-Inst75Quest2_Folgequest = "Nein"
+Inst75Quest2_Folgequest = "Die Gesichtslosen ("..YELLOW.."Ahn'kahet"..WHITE..")"
 --
-Inst75Quest2name1 = "Expelling Gauntlets"
-Inst75Quest2name2 = "Purging Handguards"
-Inst75Quest2name3 = "Wraps of Quelled Bane"
-Inst75Quest2name4 = "Gloves of Banished Infliction"
-
---Quest 3 Alliance
-Inst75Quest3 = "3. Tot dem verräter König"
-Inst75Quest3_Level = "74"
-Inst75Quest3_Attain = "72"
-Inst75Quest3_Aim = "Kilix der Entwirrer in der Grube von Narjun hat Euch damit beauftragt, Anub'arak in Azjol-Nerub zu besiegen. Danach sollt Ihr Kilix Anub'araks zerbrochenen Panzer zurückbringen."
-Inst75Quest3_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst75Quest3_Note = "Anub'arak ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst75Quest3_Prequest = "Nein"
-Inst75Quest3_Folgequest = "Die Gesichtslosen ("..YELLOW.."Ahn'kahet"..WHITE..")"
---
-Inst75Quest3name1 = "Kilix's Silk Slippers"
-Inst75Quest3name2 = "Don Soto's Boots"
-Inst75Quest3name3 = "Husk Shard Sabatons"
-Inst75Quest3name4 = "Greaves of the Traitor"
+Inst75Quest2name1 = "Kilix's Silk Slippers"
+Inst75Quest2name2 = "Don Soto's Boots"
+Inst75Quest2name3 = "Husk Shard Sabatons"
+Inst75Quest2name4 = "Greaves of the Traitor"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10566,6 +10354,9 @@ Inst75Quest1_HORDE_Prequest = Inst75Quest1_Prequest
 Inst75Quest1_HORDE_Folgequest = Inst75Quest1_Folgequest
 --
 Inst75Quest1name1_HORDE = Inst75Quest1name1
+Inst75Quest1name2_HORDE = Inst75Quest1name2
+Inst75Quest1name3_HORDE = Inst75Quest1name3
+Inst75Quest1name4_HORDE = Inst75Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst75Quest2_HORDE = Inst75Quest2
@@ -10582,79 +10373,52 @@ Inst75Quest2name2_HORDE = Inst75Quest2name2
 Inst75Quest2name3_HORDE = Inst75Quest2name3
 Inst75Quest2name4_HORDE = Inst75Quest2name4
 
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst75Quest3_HORDE = Inst75Quest3
-Inst75Quest3_HORDE_Level = Inst75Quest3_Level
-Inst75Quest3_HORDE_Attain = Inst75Quest3_Attain
-Inst75Quest3_HORDE_Aim = Inst75Quest3_Aim
-Inst75Quest3_HORDE_Location = Inst75Quest3_Location
-Inst75Quest3_HORDE_Note = Inst75Quest3_Note
-Inst75Quest3_HORDE_Prequest = Inst75Quest3_Prequest
-Inst75Quest3_HORDE_Folgequest = Inst75Quest3_Folgequest
---
-Inst75Quest3name1_HORDE = Inst75Quest3name1
-Inst75Quest3name2_HORDE = Inst75Quest3name2
-Inst75Quest3name3_HORDE = Inst75Quest3name3
-Inst75Quest3name4_HORDE = Inst75Quest3name4
-
 
 
 --------------- INST76 - Ahn'kahet: The Old Kingdom ---------------
 
 Inst76Story = "Azjol-Nerub is a vast underground dungeon hub home to the arachnid-like nerubian. Located in icy Dragonblight, Azjol-Nerub can be divided into two sections: the Old Kingdom and the Upper Kingdom. Many of deepest areas in Azjol-Nerub are held by faceless ones.\n\nAhn'kahet: The Old Kingdom is the second dungeon located within Azjol-Nerub and is controlled by nerubians.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst76Caption = "Ahn'kahet: Das alte Königreich"
-Inst76QAA = "4 Quests"
-Inst76QAH = "4 Quests"
+Inst76QAA = "3 Quests"
+Inst76QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst76Quest1 = "1. Todesbeweis: Herald Volazj (Heroisches Tagesquest)"
+Inst76Quest1 = "1. Alles zu seiner Zeit (Heroisches Tagesquest)"
 Inst76Quest1_Level = "80"
 Inst76Quest1_Attain = "80"
-Inst76Quest1_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit dem siechenden Gehirn des Gesichtlosen zurückkehrt."
-Inst76Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst76Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nHerald Volazj ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst76Quest1_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr die Leiche eines Wächters der Ahn'kahar beschafft und sie auf das Kohlebecken von Ahn'kahet in Ahn'kahet legt."
+Inst76Quest1_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
+Inst76Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nThe Ahn'kahet Brazier ist hinter Herald Volazj bei "..YELLOW.."[4]"..WHITE..". The corpse has a 1 hour duration timer and will disappear if you leave the instance while alive."
 Inst76Quest1_Prequest = "Nein"
 Inst76Quest1_Folgequest = "Nein"
---
-Inst76Quest1name1 = "Emblem of Heroism"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst76Quest2 = "2. Alles zu seiner Zeit (Heroisches Tagesquest)"
-Inst76Quest2_Level = "80"
-Inst76Quest2_Attain = "80"
-Inst76Quest2_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr die Leiche eines Wächters der Ahn'kahar beschafft und sie auf das Kohlebecken von Ahn'kahet in Ahn'kahet legt."
-Inst76Quest2_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst76Quest2_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nThe Ahn'kahet Brazier ist hinter Herald Volazj bei "..YELLOW.."[4]"..WHITE..". The corpse has a 1 hour duration timer and will disappear if you leave the instance while alive."
+Inst76Quest2 = "2. Abgefahrene Pilze"
+Inst76Quest2_Level = "76"
+Inst76Quest2_Attain = "73"
+Inst76Quest2_Aim = "Ihr sollt 6 groteske Pilze von den wilden Höhlenbestien sammeln und sie bei Kilix der Entwirrer in der Grube von Narjun abliefern."
+Inst76Quest2_Location = "Groteske Pilze (droppen von den wilden Höhlenbestien in Ahn'kahet)"
+Inst76Quest2_Note = "Die wilden Höhlenbestien droppen das Item für die Quest im Gebiet vom Boss Amanitar, bei "..YELLOW.."[5]"..WHITE..".\n\nKilix der Entwirrer ist bei (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")."
 Inst76Quest2_Prequest = "Nein"
 Inst76Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst76Quest3 = "3. Abgefahrene Pilze"
+Inst76Quest3 = "3. Die Gesichtslosen"
 Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
-Inst76Quest3_Aim = "Ihr sollt 6 groteske Pilze von den wilden Höhlenbestien sammeln und sie bei Kilix der Entwirrer in der Grube von Narjun abliefern."
-Inst76Quest3_Location = "Groteske Pilze (droppen von den wilden Höhlenbestien in Ahn'kahet)"
-Inst76Quest3_Note = "Die wilden Höhlenbestien droppen das Item für die Quest im Gebiet vom Boss Amanitar, bei "..YELLOW.."[5]"..WHITE..".\n\nKilix der Entwirrer ist bei (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")."
-Inst76Quest3_Prequest = "Nein"
+Inst76Quest3_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr nach Ahn'Kahet geht und Herold Volazj und die drei Vergessenen an seiner Seite tötet."
+Inst76Quest3_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
+Inst76Quest3_Note = "Die Vergessenen und Herald Volazj können gefunden werden bei "..YELLOW.."[4]"..WHITE.."."
+Inst76Quest3_Prequest = "Death to the Traitor King ("..YELLOW.."Azjol-Nerub"..WHITE..")"
 Inst76Quest3_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst76Quest4 = "4. Die Gesichtslosen"
-Inst76Quest4_Level = "76"
-Inst76Quest4_Attain = "73"
-Inst76Quest4_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr nach Ahn'Kahet geht und Herold Volazj und die drei Vergessenen an seiner Seite tötet."
-Inst76Quest4_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst76Quest4_Note = "Die Vergessenen und Herald Volazj können gefunden werden bei "..YELLOW.."[4]"..WHITE.."."
-Inst76Quest4_Prequest = "Death to the Traitor King ("..YELLOW.."Azjol-Nerub"..WHITE..")"
-Inst76Quest4_Folgequest = "Nein"
-Inst76Quest4PreQuest = "true"
+Inst76Quest3PreQuest = "true"
 --
-Inst76Quest4name1 = "Mantle of Thwarted Evil"
-Inst76Quest4name2 = "Shoulderpads of Abhorrence"
-Inst76Quest4name3 = "Shoulderplates of the Abolished"
-Inst76Quest4name4 = "Epaulets of the Faceless Ones"
+Inst76Quest3name1 = "Mantle of Thwarted Evil"
+Inst76Quest3name2 = "Shoulderpads of Abhorrence"
+Inst76Quest3name3 = "Shoulderplates of the Abolished"
+Inst76Quest3name4 = "Epaulets of the Faceless Ones"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10666,8 +10430,7 @@ Inst76Quest1_HORDE_Location = Inst76Quest1_Location
 Inst76Quest1_HORDE_Note = Inst76Quest1_Note
 Inst76Quest1_HORDE_Prequest = Inst76Quest1_Prequest
 Inst76Quest1_HORDE_Folgequest = Inst76Quest1_Folgequest
---
-Inst76Quest1name1_HORDE = Inst76Quest1name1
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst76Quest2_HORDE = Inst76Quest2
@@ -10689,23 +10452,11 @@ Inst76Quest3_HORDE_Location = Inst76Quest3_Location
 Inst76Quest3_HORDE_Note = Inst76Quest3_Note
 Inst76Quest3_HORDE_Prequest = Inst76Quest3_Prequest
 Inst76Quest3_HORDE_Folgequest = Inst76Quest3_Folgequest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst76Quest4_HORDE = Inst76Quest4
-Inst76Quest4_HORDE_Level = Inst76Quest4_Level
-Inst76Quest4_HORDE_Attain = Inst76Quest4_Attain
-Inst76Quest4_HORDE_Aim = Inst76Quest4_Aim
-Inst76Quest4_HORDE_Location = Inst76Quest4_Location
-Inst76Quest4_HORDE_Note = Inst76Quest4_Note
-Inst76Quest4_HORDE_Prequest = Inst76Quest4_Prequest
-Inst76Quest4_HORDE_Folgequest = Inst76Quest4_Folgequest
-Inst76Quest4PreQuest_HORDE = Inst76Quest4PreQuest
 --
-Inst76Quest4name1_HORDE = Inst76Quest4name1
-Inst76Quest4name2_HORDE = Inst76Quest4name2
-Inst76Quest4name3_HORDE = Inst76Quest4name3
-Inst76Quest4name4_HORDE = Inst76Quest4name4
+Inst76Quest3name1_HORDE = Inst76Quest3name1
+Inst76Quest3name2_HORDE = Inst76Quest3name2
+Inst76Quest3name3_HORDE = Inst76Quest3name3
+Inst76Quest3name4_HORDE = Inst76Quest3name4
 
 
 
@@ -10713,35 +10464,23 @@ Inst76Quest4name4_HORDE = Inst76Quest4name4
 
 Inst77Story = "In the frigid cliffs of the Storm Peaks, legendary explorer Brann Bronzebeard spent countless hours piecing together clues about a recently discovered titan city known as Ulduar. But far from unearthing the mysteries of the titans, the explorer found the city overrun with iron dwarves. Eager to save the priceless information within the titan city before it was destroyed and lost forever, Brann feared that an even greater evil could be at work behind the fall of Ulduar...."
 Inst77Caption = "HdS: Hallen des Steins"
-Inst77QAA = "2 Quests"
-Inst77QAH = "2 Quests"
+Inst77QAA = "1 Quests"
+Inst77QAH = "1 Quests"
 
 --Quest 1 Alliance
-Inst77Quest1 = "1. Todesbeweis: Sjonnir der Eisenformer (Heroisches Tagesquest)"
-Inst77Quest1_Level = "80"
-Inst77Quest1_Attain = "80"
-Inst77Quest1_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit der 'Datenscheibe: Fluch des Fleisches' zurückkehrt."
-Inst77Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst77Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nSjonnir der Eisenformer ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst77Quest1 = "1. Die Hallen des Steins"
+Inst77Quest1_Level = "78"
+Inst77Quest1_Attain = "76"
+Inst77Quest1_Aim = "Brann Bronzebart möchte, dass Ihr ihn bei der Suche nach den Geheimnissen, die in den Hallen des Steins verborgen liegen, begleitet."
+Inst77Quest1_Location = "Brann Bronzebeard (Ulduar: Die Hallen des Steins; "..YELLOW.."[3]"..WHITE..")"
+Inst77Quest1_Note = "Folge Brann Bronzebeard in den naheliegenden Raum bei "..YELLOW.."[4]"..WHITE.." und beschütze ihn vor die Mobwellen während er an der Steintafel arbeitet. Nach seinem Erfolg , kann der Tribunalkasten rechts neben der Steintafel geöffnet werden.\n\nSprecht ihn erneurt an und er rennt aus dem Raum raus zu"..YELLOW.."[5]"..WHITE..". Du mußt ihm nicht folgen, er wartet auf dich dort. Once defeating Sjonnir der Eisenformer, the quest can be turned into Brann Bronzebart."
 Inst77Quest1_Prequest = "Nein"
 Inst77Quest1_Folgequest = "Nein"
 --
-Inst77Quest1name1 = "Emblem of Heroism"
-
---Quest 2 Alliance
-Inst77Quest2 = "2. Die Hallen des Steins"
-Inst77Quest2_Level = "78"
-Inst77Quest2_Attain = "76"
-Inst77Quest2_Aim = "Brann Bronzebart möchte, dass Ihr ihn bei der Suche nach den Geheimnissen, die in den Hallen des Steins verborgen liegen, begleitet."
-Inst77Quest2_Location = "Brann Bronzebeard (Ulduar: Die Hallen des Steins; "..YELLOW.."[3]"..WHITE..")"
-Inst77Quest2_Note = "Folge Brann Bronzebeard in den naheliegenden Raum bei "..YELLOW.."[4]"..WHITE.." und beschütze ihn vor die Mobwellen während er an der Steintafel arbeitet. Nach seinem Erfolg , kann der Tribunalkasten rechts neben der Steintafel geöffnet werden.\n\nSprecht ihn erneurt an und er rennt aus dem Raum raus zu"..YELLOW.."[5]"..WHITE..". Du mußt ihm nicht folgen, er wartet auf dich dort. Once defeating Sjonnir der Eisenformer, the quest can be turned into Brann Bronzebart."
-Inst77Quest2_Prequest = "Nein"
-Inst77Quest2_Folgequest = "Nein"
---
-Inst77Quest2name1 = "Mantle of the Intrepid Explorer"
-Inst77Quest2name2 = "Shoulderpads of the Adventurer"
-Inst77Quest2name3 = "Spaulders of Lost Secrets"
-Inst77Quest2name4 = "Pauldrons of Reconnaissance"
+Inst77Quest1name1 = "Mantle of the Intrepid Explorer"
+Inst77Quest1name2 = "Shoulderpads of the Adventurer"
+Inst77Quest1name3 = "Spaulders of Lost Secrets"
+Inst77Quest1name4 = "Pauldrons of Reconnaissance"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10755,21 +10494,9 @@ Inst77Quest1_HORDE_Prequest = Inst77Quest1_Prequest
 Inst77Quest1_HORDE_Folgequest = Inst77Quest1_Folgequest
 --
 Inst77Quest1name1_HORDE = Inst77Quest1name1
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst77Quest2_HORDE = Inst77Quest2
-Inst77Quest2_HORDE_Level = Inst77Quest2_Level
-Inst77Quest2_HORDE_Attain = Inst77Quest2_Attain
-Inst77Quest2_HORDE_Aim = Inst77Quest2_Aim
-Inst77Quest2_HORDE_Location = Inst77Quest2_Location
-Inst77Quest2_HORDE_Note = Inst77Quest2_Note
-Inst77Quest2_HORDE_Prequest = Inst77Quest2_Prequest
-Inst77Quest2_HORDE_Folgequest = Inst77Quest2_Folgequest
---
-Inst77Quest2name1_HORDE = Inst77Quest2name1
-Inst77Quest2name2_HORDE = Inst77Quest2name2
-Inst77Quest2name3_HORDE = Inst77Quest2name3
-Inst77Quest2name4_HORDE = Inst77Quest2name4
+Inst77Quest1name2_HORDE = Inst77Quest1name2
+Inst77Quest1name3_HORDE = Inst77Quest1name3
+Inst77Quest1name4_HORDE = Inst77Quest1name4
 
 
 
@@ -10777,70 +10504,41 @@ Inst77Quest2name4_HORDE = Inst77Quest2name4
 
 Inst78Story = "In the frigid cliffs of the Storm Peaks, legendary explorer Brann Bronzebeard spent countless hours piecing together clues about a recently discovered titan city known as Ulduar. But far from unearthing the mysteries of the titans, the explorer found the city overrun with iron dwarves. Eager to save the priceless information within the titan city before it was destroyed and lost forever, Brann feared that an even greater evil could be at work behind the fall of Ulduar...."
 Inst78Caption = "HdB: Hallen der Blitze"
-Inst78QAA = "4 Quests"
-Inst78QAH = "4 Quests"
+Inst78QAA = "2 Quests"
+Inst78QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst78Quest1 = "1. Timear prophezeit Titanvorposten in Eurer Zukunft! (Tagesquest)"
+Inst78Quest1 = "1. Koste es, was es wolle!"
 Inst78Quest1_Level = "80"
-Inst78Quest1_Attain = "78"
-Inst78Quest1_Aim = "Erzmagier Timear in Dalaran hat vorrausgesehen, dass Ihr 7 Titanvorposten töten müsst."
-Inst78Quest1_Location = "Erzmagier Timear (Dalaran - Die violette Festung; "..YELLOW.."64.2, 54.7"..WHITE..")"
-Inst78Quest1_Note = "Es handelt sich um ein Tagesquest."
-Inst78Quest1_Prequest = "Nein"
+Inst78Quest1_Attain = "80"
+Inst78Quest1_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Loken besiegt. Danach sollt Ihr mit Lokens Zunge zu König Jokkum zurückkehren."
+Inst78Quest1_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
+Inst78Quest1_Note = "Loken ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
+Inst78Quest1_Prequest = "Sie haben unsere Männer! -> Die Abrechnung"
 Inst78Quest1_Folgequest = "Nein"
+Inst78Quest1PreQuest = "true"
 --
-Inst78Quest1name1 = "Kirin Tor Commendation Badge"
-Inst78Quest1name2 = "Argent Crusade Commendation Badge"
-Inst78Quest1name3 = "Ebon Blade Commendation Badge"
-Inst78Quest1name4 = "Wyrmrest Commendation Badge"
-Inst78Quest1name5 = "Sons of Hodir Commendation Badge"
-Inst78Quest1name6 = "Emblem of Conquest" 
+Inst78Quest1name1 = "Robes of Lightning"
+Inst78Quest1name2 = "Hardened Tongue Tunic"
+Inst78Quest1name3 = "Lightningbringer's Hauberk"
+Inst78Quest1name4 = "Breastplate of Jagged Stone"
 
 --Quest 2 Alliance
-Inst78Quest2 = "2. Todesbeweis: Loken (Heroisches Tagesquest)"
+Inst78Quest2 = "2. Diametral entgegengesetzt"
 Inst78Quest2_Level = "80"
 Inst78Quest2_Attain = "80"
-Inst78Quest2_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit dem himmlischen Rubinring zurückkehrt."
-Inst78Quest2_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst78Quest2_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nLoken ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst78Quest2_Prequest = "Nein"
+Inst78Quest2_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Volkhan besiegt."
+Inst78Quest2_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
+Inst78Quest2_Note = "Volkhan ist bei "..YELLOW.."[2]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
+Inst78Quest2_Prequest = "Sie haben unsere Männer! -> Die Abrechnung"
 Inst78Quest2_Folgequest = "Nein"
+Inst78Quest2PreQuest = "true"
 --
-Inst78Quest2name1 = "Emblem of Heroism"
-
---Quest 3 Alliance
-Inst78Quest3 = "3. Koste es, was es wolle!"
-Inst78Quest3_Level = "80"
-Inst78Quest3_Attain = "80"
-Inst78Quest3_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Loken besiegt. Danach sollt Ihr mit Lokens Zunge zu König Jokkum zurückkehren."
-Inst78Quest3_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
-Inst78Quest3_Note = "Loken ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
-Inst78Quest3_Prequest = "Sie haben unsere Männer! -> Die Abrechnung"
-Inst78Quest3_Folgequest = "Nein"
-Inst78Quest3PreQuest = "true"
---
-Inst78Quest3name1 = "Robes of Lightning"
-Inst78Quest3name2 = "Hardened Tongue Tunic"
-Inst78Quest3name3 = "Lightningbringer's Hauberk"
-Inst78Quest3name4 = "Breastplate of Jagged Stone"
-
---Quest 4 Alliance
-Inst78Quest4 = "4. Diametral entgegengesetzt"
-Inst78Quest4_Level = "80"
-Inst78Quest4_Attain = "80"
-Inst78Quest4_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Volkhan besiegt."
-Inst78Quest4_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
-Inst78Quest4_Note = "Volkhan ist bei "..YELLOW.."[2]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
-Inst78Quest4_Prequest = "Sie haben unsere Männer! -> Die Abrechnung"
-Inst78Quest4_Folgequest = "Nein"
-Inst78Quest4PreQuest = "true"
---
-Inst78Quest4name1 = "Lightning Infused Mantle"
-Inst78Quest4name2 = "Charred Leather Shoulderguards"
-Inst78Quest4name3 = "Stormforged Shoulders"
-Inst78Quest4name4 = "Pauldrons of Extinguished Hatred"
-Inst78Quest4name5 = "Mantle of Volkhan"
+Inst78Quest2name1 = "Lightning Infused Mantle"
+Inst78Quest2name2 = "Charred Leather Shoulderguards"
+Inst78Quest2name3 = "Stormforged Shoulders"
+Inst78Quest2name4 = "Pauldrons of Extinguished Hatred"
+Inst78Quest2name5 = "Mantle of Volkhan"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10852,13 +10550,12 @@ Inst78Quest1_HORDE_Location = Inst78Quest1_Location
 Inst78Quest1_HORDE_Note = Inst78Quest1_Note
 Inst78Quest1_HORDE_Prequest = Inst78Quest1_Prequest
 Inst78Quest1_HORDE_Folgequest = Inst78Quest1_Folgequest
+Inst78Quest1PreQuest_HORDE = Inst78Quest1PreQuest
 --
 Inst78Quest1name1_HORDE = Inst78Quest1name1
 Inst78Quest1name2_HORDE = Inst78Quest1name2
 Inst78Quest1name3_HORDE = Inst78Quest1name3
 Inst78Quest1name4_HORDE = Inst78Quest1name4
-Inst78Quest1name5_HORDE = Inst78Quest1name5
-Inst78Quest1name6_HORDE = Inst78Quest1name6 
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
@@ -10869,41 +10566,13 @@ Inst78Quest2_HORDE_Location = Inst78Quest2_Location
 Inst78Quest2_HORDE_Note = Inst78Quest2_Note
 Inst78Quest2_HORDE_Prequest = Inst78Quest2_Prequest
 Inst78Quest2_HORDE_Folgequest = Inst78Quest2_Folgequest
+Inst78Quest2PreQuest_HORDE = Inst78Quest2PreQuest
 --
 Inst78Quest2name1_HORDE = Inst78Quest2name1
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst78Quest3_HORDE = Inst78Quest3
-Inst78Quest3_HORDE_Level = Inst78Quest3_Level
-Inst78Quest3_HORDE_Attain = Inst78Quest3_Attain
-Inst78Quest3_HORDE_Aim = Inst78Quest3_Aim
-Inst78Quest3_HORDE_Location = Inst78Quest3_Location
-Inst78Quest3_HORDE_Note = Inst78Quest3_Note
-Inst78Quest3_HORDE_Prequest = Inst78Quest3_Prequest
-Inst78Quest3_HORDE_Folgequest = Inst78Quest3_Folgequest
-Inst78Quest3PreQuest_HORDE = Inst78Quest3PreQuest
---
-Inst78Quest3name1_HORDE = Inst78Quest3name1
-Inst78Quest3name2_HORDE = Inst78Quest3name2
-Inst78Quest3name3_HORDE = Inst78Quest3name3
-Inst78Quest3name4_HORDE = Inst78Quest3name4
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst78Quest4_HORDE = Inst78Quest4
-Inst78Quest4_HORDE_Level = Inst78Quest4_Level
-Inst78Quest4_HORDE_Attain = Inst78Quest4_Attain
-Inst78Quest4_HORDE_Aim = Inst78Quest4_Aim
-Inst78Quest4_HORDE_Location = Inst78Quest4_Location
-Inst78Quest4_HORDE_Note = Inst78Quest4_Note
-Inst78Quest4_HORDE_Prequest = Inst78Quest4_Prequest
-Inst78Quest4_HORDE_Folgequest = Inst78Quest4_Folgequest
-Inst78Quest4PreQuest_HORDE = Inst78Quest4PreQuest
---
-Inst78Quest4name1_HORDE = Inst78Quest4name1
-Inst78Quest4name2_HORDE = Inst78Quest4name2
-Inst78Quest4name3_HORDE = Inst78Quest4name3
-Inst78Quest4name4_HORDE = Inst78Quest4name4
-Inst78Quest4name5_HORDE = Inst78Quest4name5
+Inst78Quest2name2_HORDE = Inst78Quest2name2
+Inst78Quest2name3_HORDE = Inst78Quest2name3
+Inst78Quest2name4_HORDE = Inst78Quest2name4
+Inst78Quest2name5_HORDE = Inst78Quest2name5
 
 
 
@@ -10911,8 +10580,35 @@ Inst78Quest4name5_HORDE = Inst78Quest4name5
 
 Inst79Story = "No information."
 Inst79Caption = "Der Obsidiandrachenschrein"
-Inst79QAA = "No Quests"
-Inst79QAH = "No Quests"
+Inst79QAA = "1 Quest"
+Inst79QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst79Quest1 = "1. Sartharion Must Die! (Weekly)"
+Inst79Quest1_Level = "80"
+Inst79Quest1_Attain = "80"
+Inst79Quest1_Aim = "Kill Sartharion."
+Inst79Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst79Quest1_Note = "Sartharion is at "..YELLOW.."[4]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst79Quest1_Prequest = "None"
+Inst79Quest1_Folgequest = "None"
+--
+Inst79Quest1name1 = "Emblem of Frost"
+Inst79Quest1name2 = "Emblem of Triumph"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst79Quest1_HORDE = Inst79Quest1
+Inst79Quest1_HORDE_Level = Inst79Quest1_Level
+Inst79Quest1_HORDE_Attain = Inst79Quest1_Attain
+Inst79Quest1_HORDE_Aim = Inst79Quest1_Aim
+Inst79Quest1_HORDE_Location = Inst79Quest1_Location
+Inst79Quest1_HORDE_Note = Inst79Quest1_Note
+Inst79Quest1_HORDE_Prequest = Inst79Quest1_Prequest
+Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
+--
+Inst79Quest1name1_HORDE = Inst79Quest1name1
+Inst79Quest1name2_HORDE = Inst79Quest1name2
 
 
 
@@ -10920,67 +10616,55 @@ Inst79QAH = "No Quests"
 
 Inst80Story = "Drak'Tharon Keep is located in the icy northlands of Northrend, in the northwestern part of the Grizzly Hills, and is an ancient ice troll stronghold. The Scourge drove the trolls out and took possession, and now the Scourge has a solid garrison there holding the mountain passes. The strange dungeon is filled with dinosaurs and lizards, while teeming with undead. You are sent in to discover the reasoning behind why the trolls are leaving their home of Zul'Drak.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst80Caption = "Feste Drak'Tharon"
-Inst80QAA = "4 Quests"
-Inst80QAH = "4 Quests"
+Inst80QAA = "3 Quests"
+Inst80QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst80Quest1 = "1. Todesbeweis: Der Prophet Tharon'ja (Heroisches Tagesquest)"
-Inst80Quest1_Level = "80"
-Inst80Quest1_Attain = "80"
-Inst80Quest1_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit dem verzauberten Tiki des Propheten zurückkehrt."
-Inst80Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst80Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nDer Prophet Tharon'ja ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst80Quest1_Prequest = "Nein"
+Inst80Quest1 = "1. Die Reinigung Drak'Tharons"
+Inst80Quest1_Level = "75"
+Inst80Quest1_Attain = "73"
+Inst80Quest1_Aim = "Drakuru möchte, dass Ihr Drakurus Elixier an seinem Kohlenbecken innerhalb Drak'Tharons Feste benutzt. Um das Elixier dort benutzen zu können, benötigt Ihr 5 Ausdauermojos."
+Inst80Quest1_Location = "Abbild von Drakuru"
+Inst80Quest1_Note = "Drakuru's Kohlenbecken ist hinter dem Propheten Tharon'ja bei "..YELLOW.."[5]"..WHITE..". Ausdauermojos droppen innerhalb Drak'Tharons Feste."
+Inst80Quest1_Prequest = "Waffenstillstand? -> Stimmen aus dem Staub"
 Inst80Quest1_Folgequest = "Nein"
+Inst80Quest1PreQuest = "true"
 --
-Inst80Quest1name1 = "Emblem of Heroism"
+Inst80Quest1name1 = "Shroud of Temptation"
+Inst80Quest1name2 = "Enticing Sabatons"
+Inst80Quest1name3 = "Shackles of Dark Whispers"
+Inst80Quest1name4 = "Shoulders of the Seducer"
 
 --Quest 2 Alliance
-Inst80Quest2 = "2. Die Reinigung Drak'Tharons"
-Inst80Quest2_Level = "75"
+Inst80Quest2 = "2. Rettungsaktion"
+Inst80Quest2_Level = "74"
 Inst80Quest2_Attain = "73"
-Inst80Quest2_Aim = "Drakuru möchte, dass Ihr Drakurus Elixier an seinem Kohlenbecken innerhalb Drak'Tharons Feste benutzt. Um das Elixier dort benutzen zu können, benötigt Ihr 5 Ausdauermojos."
-Inst80Quest2_Location = "Abbild von Drakuru"
-Inst80Quest2_Note = "Drakuru's Kohlenbecken ist hinter dem Propheten Tharon'ja bei "..YELLOW.."[5]"..WHITE..". Ausdauermojos droppen innerhalb Drak'Tharons Feste."
-Inst80Quest2_Prequest = "Waffenstillstand? -> Stimmen aus dem Staub"
-Inst80Quest2_Folgequest = "Nein"
+Inst80Quest2_Aim = "Mack beim Granitquell möchte, dass Ihr nach Drak'Tharon geht und herausfindet, was mit Kurzel passiert ist."
+Inst80Quest2_Location = "Mack Fearsen (Grizzly Hügel - Granitquell; "..YELLOW.."16.6, 48.1"..WHITE..")"
+Inst80Quest2_Note = "Kurzel ist in einem der eingesponnenen Kokons bei "..YELLOW.."[2]"..WHITE..". Bekämpfe die eingesponnenen Kokons und Du wirst sie finden."
+Inst80Quest2_Prequest = "Die angesengten Geisel"
+Inst80Quest2_Folgequest = "Psychospielchen"
 Inst80Quest2PreQuest = "true"
 --
-Inst80Quest2name1 = "Shroud of Temptation"
-Inst80Quest2name2 = "Enticing Sabatons"
-Inst80Quest2name3 = "Shackles of Dark Whispers"
-Inst80Quest2name4 = "Shoulders of the Seducer"
+Inst80Quest2name1 = "Kurzel's Angst"
+Inst80Quest2name2 = "Kurzel's Rage"
+Inst80Quest2name3 = "Kurzel's Warband"
 
 --Quest 3 Alliance
-Inst80Quest3 = "3. Rettungsaktion"
+Inst80Quest3 = "3. Psychospielchen"
 Inst80Quest3_Level = "74"
 Inst80Quest3_Attain = "73"
-Inst80Quest3_Aim = "Mack beim Granitquell möchte, dass Ihr nach Drak'Tharon geht und herausfindet, was mit Kurzel passiert ist."
-Inst80Quest3_Location = "Mack Fearsen (Grizzly Hügel - Granitquell; "..YELLOW.."16.6, 48.1"..WHITE..")"
-Inst80Quest3_Note = "Kurzel ist in einem der eingesponnenen Kokons bei "..YELLOW.."[2]"..WHITE..". Bekämpfe die eingesponnenen Kokons und Du wirst sie finden."
-Inst80Quest3_Prequest = "Die angesengten Geisel"
-Inst80Quest3_Folgequest = "Psychospielchen"
-Inst80Quest3PreQuest = "true"
+Inst80Quest3_Aim = "Kurzel möchte, dass Ihr den Fetzen von Kurzels Bluse auf die Reste von Novos dem Beschwörer in der Feste Drak'Tharon anwendet und anschließend den sekretbefleckten Stoff zu Mack bringt."
+Inst80Quest3_Location = "Kurzel (Feste Drak'Tharon; "..YELLOW.."[2]"..WHITE..")"
+Inst80Quest3_Note = "Novos der Beschwörer ist bei "..YELLOW.."[3]"..WHITE..". Mack Fearsen ist bei (Grizzly Hügel - Granitquell; "..YELLOW.."16.6, 48.1"..WHITE..")"
+Inst80Quest3_Prequest = "Rettungsaktion"
+Inst80Quest3_Folgequest = "Nein"
+Inst80Quest3FQuest = "true"
 --
-Inst80Quest3name1 = "Kurzel's Angst"
-Inst80Quest3name2 = "Kurzel's Rage"
-Inst80Quest3name3 = "Kurzel's Warband"
-
---Quest 4 Alliance
-Inst80Quest4 = "4. Psychospielchen"
-Inst80Quest4_Level = "74"
-Inst80Quest4_Attain = "73"
-Inst80Quest4_Aim = "Kurzel möchte, dass Ihr den Fetzen von Kurzels Bluse auf die Reste von Novos dem Beschwörer in der Feste Drak'Tharon anwendet und anschließend den sekretbefleckten Stoff zu Mack bringt."
-Inst80Quest4_Location = "Kurzel (Feste Drak'Tharon; "..YELLOW.."[2]"..WHITE..")"
-Inst80Quest4_Note = "Novos der Beschwörer ist bei "..YELLOW.."[3]"..WHITE..". Mack Fearsen ist bei (Grizzly Hügel - Granitquell; "..YELLOW.."16.6, 48.1"..WHITE..")"
-Inst80Quest4_Prequest = "Rettungsaktion"
-Inst80Quest4_Folgequest = "Nein"
-Inst80Quest4FQuest = "true"
---
-Inst80Quest4name1 = "Shameful Cuffs"
-Inst80Quest4name2 = "Scorned Bands"
-Inst80Quest4name3 = "Accused Wristguards"
-Inst80Quest4name4 = "Disavowed Bracers"
+Inst80Quest3name1 = "Shameful Cuffs"
+Inst80Quest3name2 = "Scorned Bands"
+Inst80Quest3name3 = "Accused Wristguards"
+Inst80Quest3name4 = "Disavowed Bracers"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10994,6 +10678,9 @@ Inst80Quest1_HORDE_Prequest = Inst80Quest1_Prequest
 Inst80Quest1_HORDE_Folgequest = Inst80Quest1_Folgequest
 --
 Inst80Quest1name1_HORDE = Inst80Quest1name1
+Inst80Quest1name2_HORDE = Inst80Quest1name2
+Inst80Quest1name3_HORDE = Inst80Quest1name3
+Inst80Quest1name4_HORDE = Inst80Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst80Quest2_HORDE = Inst80Quest2
@@ -11009,7 +10696,6 @@ Inst80Quest2PreQuest_HORDE = Inst80Quest2PreQuest
 Inst80Quest2name1_HORDE = Inst80Quest2name1
 Inst80Quest2name2_HORDE = Inst80Quest2name2
 Inst80Quest2name3_HORDE = Inst80Quest2name3
-Inst80Quest2name4_HORDE = Inst80Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst80Quest3_HORDE = Inst80Quest3
@@ -11025,22 +10711,7 @@ Inst80Quest3PreQuest_HORDE = Inst80Quest3PreQuest
 Inst80Quest3name1_HORDE = Inst80Quest3name1
 Inst80Quest3name2_HORDE = Inst80Quest3name2
 Inst80Quest3name3_HORDE = Inst80Quest3name3
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst80Quest4_HORDE = Inst80Quest4
-Inst80Quest4_HORDE_Level = Inst80Quest4_Level
-Inst80Quest4_HORDE_Attain = Inst80Quest4_Attain
-Inst80Quest4_HORDE_Aim = Inst80Quest4_Aim
-Inst80Quest4_HORDE_Location = Inst80Quest4_Location
-Inst80Quest4_HORDE_Note = Inst80Quest4_Note
-Inst80Quest4_HORDE_Prequest = Inst80Quest4_Prequest
-Inst80Quest4_HORDE_Folgequest = Inst80Quest4_Folgequest
-Inst80Quest4FQuest_HORDE = Inst80Quest4FQuest
---
-Inst80Quest4name1_HORDE = Inst80Quest4name1
-Inst80Quest4name2_HORDE = Inst80Quest4name2
-Inst80Quest4name3_HORDE = Inst80Quest4name3
-Inst80Quest4name4_HORDE = Inst80Quest4name4
+Inst80Quest3name4_HORDE = Inst80Quest3name4
 
 
 
@@ -11048,68 +10719,56 @@ Inst80Quest4name4_HORDE = Inst80Quest4name4
 
 Inst81Story = "Gundrak is the capital of the Ice Trolls. Located in Zul'Drak, the instance contains three entrances which all lead into a main circle. The Drakkari tribe rule Zul'Drak from here, constantly battling the mighty forces of the Scourge. This dungeon shows the Ice Trolls in all their glory, including the opportunity to fight the Ice Troll leader, and teach us why they have been so successful against the Scourge.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst81Caption = "Gundrak"
-Inst81QAA = "4 Quests"
-Inst81QAH = "4 Quests"
+Inst81QAA = "3 Quests"
+Inst81QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst81Quest1 = "1. Todesbeweis: Gal'darah (Heroisches Tagesquest)"
-Inst81Quest1_Level = "80"
-Inst81Quest1_Attain = "80"
-Inst81Quest1_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit den Überresten von Akalis Mojo zurückkehrt."
-Inst81Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst81Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nGal'darah ist bei "..YELLOW.."[5]"..WHITE.."."
-Inst81Quest1_Prequest = "Nein"
+Inst81Quest1 = "1. Für die Nachwelt"
+Inst81Quest1_Level = "78"
+Inst81Quest1_Attain = "76"
+Inst81Quest1_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und 6 Geschichtstafeln der Drakkari sammelt."
+Inst81Quest1_Location = "Chronistin Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
+Inst81Quest1_Note = "Die Geschichtstafeln sind überall in der Instant verteilt. Es sind genug vorhanden um damit eine komplette Gruppe diese Quest beenden kann. Die Vorquest ist optional."
+Inst81Quest1_Prequest = "Nur ma' nachsehen"
 Inst81Quest1_Folgequest = "Nein"
+Inst81Quest1PreQuest = "true"
 --
-Inst81Quest1name1 = "Emblem of Heroism"
+Inst81Quest1name1 = "Lion's Head Ring"
+Inst81Quest1name2 = "Ring of Foul Mojo"
+Inst81Quest1name3 = "Solid Platinum Band"
+Inst81Quest1name4 = "Voodoo Signet"
 
 --Quest 2 Alliance
-Inst81Quest2 = "2. Für die Nachwelt"
+Inst81Quest2 = "2. Gal'darah muss bezahlen"
 Inst81Quest2_Level = "78"
 Inst81Quest2_Attain = "76"
-Inst81Quest2_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und 6 Geschichtstafeln der Drakkari sammelt."
-Inst81Quest2_Location = "Chronistin Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
-Inst81Quest2_Note = "Die Geschichtstafeln sind überall in der Instant verteilt. Es sind genug vorhanden um damit eine komplette Gruppe diese Quest beenden kann. Die Vorquest ist optional."
-Inst81Quest2_Prequest = "Nur ma' nachsehen"
+Inst81Quest2_Aim = "Tol'mar in Dubra'Jin möchte, dass Ihr Gal'darah in Gundrak erschlagt."
+Inst81Quest2_Location = "Tol'mar (Zul'Drak - Dubra'Jin; "..YELLOW.."69.9, 22.8"..WHITE..")"
+Inst81Quest2_Note = "Gal'darah ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst81Quest2_Prequest = "Noch ein Hühnchen rupfen"
 Inst81Quest2_Folgequest = "Nein"
 Inst81Quest2PreQuest = "true"
 --
-Inst81Quest2name1 = "Lion's Head Ring"
-Inst81Quest2name2 = "Ring of Foul Mojo"
-Inst81Quest2name3 = "Solid Platinum Band"
-Inst81Quest2name4 = "Voodoo Signet"
+Inst81Quest2name1 = "Sly Mojo Sash"
+Inst81Quest2name2 = "Strange Voodoo Belt"
+Inst81Quest2name3 = "Ranger's Belt of the Fallen Empire"
+Inst81Quest2name4 = "Clasp of the Fallen Demi-God"
 
 --Quest 3 Alliance
-Inst81Quest3 = "3. Gal'darah muss bezahlen"
+Inst81Quest3 = "3. Einzelstück"
 Inst81Quest3_Level = "78"
 Inst81Quest3_Attain = "76"
-Inst81Quest3_Aim = "Tol'mar in Dubra'Jin möchte, dass Ihr Gal'darah in Gundrak erschlagt."
-Inst81Quest3_Location = "Tol'mar (Zul'Drak - Dubra'Jin; "..YELLOW.."69.9, 22.8"..WHITE..")"
-Inst81Quest3_Note = "Gal'darah ist bei "..YELLOW.."[5]"..WHITE.."."
-Inst81Quest3_Prequest = "Noch ein Hühnchen rupfen"
+Inst81Quest3_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und ein Fragment des Kolosses der Drakkari beschafft."
+Inst81Quest3_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
+Inst81Quest3_Note = "Fragment des Kolosses der Drakkari droppt von den Drakkari Kolossen bei "..YELLOW.."[2]"..WHITE.."."
+Inst81Quest3_Prequest = "Nein"
 Inst81Quest3_Folgequest = "Nein"
-Inst81Quest3PreQuest = "true"
 --
-Inst81Quest3name1 = "Sly Mojo Sash"
-Inst81Quest3name2 = "Strange Voodoo Belt"
-Inst81Quest3name3 = "Ranger's Belt of the Fallen Empire"
-Inst81Quest3name4 = "Clasp of the Fallen Demi-God"
-
---Quest 4 Alliance
-Inst81Quest4 = "4. Einzelstück"
-Inst81Quest4_Level = "78"
-Inst81Quest4_Attain = "76"
-Inst81Quest4_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und ein Fragment des Kolosses der Drakkari beschafft."
-Inst81Quest4_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
-Inst81Quest4_Note = "Fragment des Kolosses der Drakkari droppt von den Drakkari Kolossen bei "..YELLOW.."[2]"..WHITE.."."
-Inst81Quest4_Prequest = "Nein"
-Inst81Quest4_Folgequest = "Nein"
---
-Inst81Quest4name1 = "Fur-lined Moccasins"
-Inst81Quest4name2 = "Rhino Hide Kneeboots"
-Inst81Quest4name3 = "Scaled Boots of Fallen Hope"
-Inst81Quest4name4 = "Slippers of the Mojo Dojo"
-Inst81Quest4name5 = "Trollkickers"
+Inst81Quest3name1 = "Fur-lined Moccasins"
+Inst81Quest3name2 = "Rhino Hide Kneeboots"
+Inst81Quest3name3 = "Scaled Boots of Fallen Hope"
+Inst81Quest3name4 = "Slippers of the Mojo Dojo"
+Inst81Quest3name5 = "Trollkickers"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11123,6 +10782,9 @@ Inst81Quest1_HORDE_Prequest = Inst81Quest1_Prequest
 Inst81Quest1_HORDE_Folgequest = Inst81Quest1_Folgequest
 --
 Inst81Quest1name1_HORDE = Inst81Quest1name1
+Inst81Quest1name2_HORDE = Inst81Quest1name2
+Inst81Quest1name3_HORDE = Inst81Quest1name3
+Inst81Quest1name4_HORDE = Inst81Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst81Quest2_HORDE = Inst81Quest2
@@ -11155,22 +10817,7 @@ Inst81Quest3name1_HORDE = Inst81Quest3name1
 Inst81Quest3name2_HORDE = Inst81Quest3name2
 Inst81Quest3name3_HORDE = Inst81Quest3name3
 Inst81Quest3name4_HORDE = Inst81Quest3name4
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst81Quest4_HORDE = Inst81Quest4
-Inst81Quest4_HORDE_Level = Inst81Quest4_Level
-Inst81Quest4_HORDE_Attain = Inst81Quest4_Attain
-Inst81Quest4_HORDE_Aim = Inst81Quest4_Aim
-Inst81Quest4_HORDE_Location = Inst81Quest4_Location
-Inst81Quest4_HORDE_Note = Inst81Quest4_Note
-Inst81Quest4_HORDE_Prequest = Inst81Quest4_Prequest
-Inst81Quest4_HORDE_Folgequest = Inst81Quest4_Folgequest
---
-Inst81Quest4name1_HORDE = Inst81Quest4name1
-Inst81Quest4name2_HORDE = Inst81Quest4name2
-Inst81Quest4name3_HORDE = Inst81Quest4name3
-Inst81Quest4name4_HORDE = Inst81Quest4name4
-Inst81Quest4name5_HORDE = Inst81Quest4name5
+Inst81Quest3name5_HORDE = Inst81Quest3name5
 
 
 
@@ -11178,47 +10825,35 @@ Inst81Quest4name5_HORDE = Inst81Quest4name5
 
 Inst82Story = "Among the ornate spires and enchanted streets of Dalaran, a dark presence stirs within the mighty walls of the Violet Hold. Long used to restrain threats to the city, the tower holds row upon row of deadly inmates, and it has been diligently watched over by the Kirin Tor. However, a sudden assault has tested the integrity of the hold, putting at risk the safety of everyone outside the prison's walls. Using the dungeon as a means to breach the city, Malygos and his blue dragonflight have begun to chip away at the Violet Hold's defenses, hungry to reclaim arcane dominance over Azeroth. Only the brave souls of those protecting the prison stand between the continued existence of Dalaran and the city's utter annihilation."
 Inst82Caption = "VF: Die violette Festung"
-Inst82QAA = "3 Quests"
-Inst82QAH = "3 Quests"
+Inst82QAA = "2 Quests"
+Inst82QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst82Quest1 = "1. Todesbeweis: Cyanigosa (Heroisches Tagesquest)"
-Inst82Quest1_Level = "80"
-Inst82Quest1_Attain = "80"
-Inst82Quest1_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr mit Cyanigosas Kopf zurückkehrt."
-Inst82Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst82Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nCyanigosa ist bei "..YELLOW.."[6]"..WHITE.."."
+Inst82Quest1 = "1. Diskretion ist der Schlüssel"
+Inst82Quest1_Level = "77"
+Inst82Quest1_Attain = "75"
+Inst82Quest1_Aim = "Rhonin möchte, dass Ihr zur Violetten Festung in Dalaran geht und mit Aufseher Alturas sprecht."
+Inst82Quest1_Location = "Rhonin (Dalaran - Die violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")"
+Inst82Quest1_Note = "Warden Alturas ist bei (Dalaran - Die violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
 Inst82Quest1_Prequest = "Nein"
-Inst82Quest1_Folgequest = "Nein"
---
-Inst82Quest1name1 = "Emblem of Heroism"
-
---Quest 2 Alliance
-Inst82Quest2 = "2. Diskretion ist der Schlüssel"
-Inst82Quest2_Level = "77"
-Inst82Quest2_Attain = "75"
-Inst82Quest2_Aim = "Rhonin möchte, dass Ihr zur Violetten Festung in Dalaran geht und mit Aufseher Alturas sprecht."
-Inst82Quest2_Location = "Rhonin (Dalaran - Die violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")"
-Inst82Quest2_Note = "Warden Alturas ist bei (Dalaran - Die violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
-Inst82Quest2_Prequest = "Nein"
-Inst82Quest2_Folgequest = "Eindämmung"
+Inst82Quest1_Folgequest = "Eindämmung"
 -- No Rewards for this quest
 
---Quest 3 Alliance
-Inst82Quest3 = "3. Eindämmung"
-Inst82Quest3_Level = "77"
-Inst82Quest3_Attain = "75"
-Inst82Quest3_Aim = "Aufseher Alturas möchte, dass Ihr die Violette Festung betretet und den Invasionsstreitkräften des blauen Drachenschwarms ein Ende bereitet. Ihr sollt Euch wieder bei ihm melden, sobald Cyanigosa getötet wurde."
-Inst82Quest3_Location = "Aufseher Alturas (Dalaran - Die violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
-Inst82Quest3_Note = "Cyanigosa ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst82Quest3_Prequest = "Diskretion ist der Schlüssel"
-Inst82Quest3_Folgequest = "Nein"
-Inst82Quest3FQuest = "true"
+--Quest 2 Alliance
+Inst82Quest2 = "2. Eindämmung"
+Inst82Quest2_Level = "77"
+Inst82Quest2_Attain = "75"
+Inst82Quest2_Aim = "Aufseher Alturas möchte, dass Ihr die Violette Festung betretet und den Invasionsstreitkräften des blauen Drachenschwarms ein Ende bereitet. Ihr sollt Euch wieder bei ihm melden, sobald Cyanigosa getötet wurde."
+Inst82Quest2_Location = "Aufseher Alturas (Dalaran - Die violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
+Inst82Quest2_Note = "Cyanigosa ist bei "..YELLOW.."[6]"..WHITE.."."
+Inst82Quest2_Prequest = "Diskretion ist der Schlüssel"
+Inst82Quest2_Folgequest = "Nein"
+Inst82Quest2FQuest = "true"
 --
-Inst82Quest3name1 = "Tattooed Deerskin Leggings"
-Inst82Quest3name2 = "Conferred Pantaloons"
-Inst82Quest3name3 = "Labyrinthine Legguards"
-Inst82Quest3name4 = "Dalaran Warden's Legplates"
+Inst82Quest2name1 = "Tattooed Deerskin Leggings"
+Inst82Quest2name2 = "Conferred Pantaloons"
+Inst82Quest2name3 = "Labyrinthine Legguards"
+Inst82Quest2name4 = "Dalaran Warden's Legplates"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11230,8 +10865,7 @@ Inst82Quest1_HORDE_Location = Inst82Quest1_Location
 Inst82Quest1_HORDE_Note = Inst82Quest1_Note
 Inst82Quest1_HORDE_Prequest = Inst82Quest1_Prequest
 Inst82Quest1_HORDE_Folgequest = Inst82Quest1_Folgequest
---
-Inst82Quest1name1_HORDE = Inst82Quest1name1
+-- No Rewards for this ques
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst82Quest2_HORDE = Inst82Quest2
@@ -11242,23 +10876,11 @@ Inst82Quest2_HORDE_Location = Inst82Quest2_Location
 Inst82Quest2_HORDE_Note = Inst82Quest2_Note
 Inst82Quest2_HORDE_Prequest = Inst82Quest2_Prequest
 Inst82Quest2_HORDE_Folgequest = Inst82Quest2_Folgequest
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst82Quest3_HORDE = Inst82Quest3
-Inst82Quest3_HORDE_Level = Inst82Quest3_Level
-Inst82Quest3_HORDE_Attain = Inst82Quest3_Attain
-Inst82Quest3_HORDE_Aim = Inst82Quest3_Aim
-Inst82Quest3_HORDE_Location = Inst82Quest3_Location
-Inst82Quest3_HORDE_Note = Inst82Quest3_Note
-Inst82Quest3_HORDE_Prequest = Inst82Quest3_Prequest
-Inst82Quest3_HORDE_Folgequest = Inst82Quest3_Folgequest
-Inst82Quest3FQuest_HORDE = Inst82Quest3FQuest
 --
-Inst82Quest3name1_HORDE = Inst82Quest3name1
-Inst82Quest3name2_HORDE = Inst82Quest3name2
-Inst82Quest3name3_HORDE = Inst82Quest3name3
-Inst82Quest3name4_HORDE = Inst82Quest3name4
+Inst82Quest2name1_HORDE = Inst82Quest2name1
+Inst82Quest2name2_HORDE = Inst82Quest2name2
+Inst82Quest2name3_HORDE = Inst82Quest2name3
+Inst82Quest2name4_HORDE = Inst82Quest2name4
 
 
 
@@ -11270,8 +10892,8 @@ Inst84Story = {
   ["MaxPages"] = "2",
 };
 Inst84Caption = "Naxxramas"
-Inst84QAA = "2 Quests"
-Inst84QAH = "2 Quests"
+Inst84QAA = "6 Quests"
+Inst84QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst84Quest1 = "1. Schlüssel der fokussierenden Iris"
@@ -11296,6 +10918,58 @@ Inst84Quest2_Prequest = "Nein"
 Inst84Quest2_Folgequest = "Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
 --
 Inst84Quest2name1 = "Heroischer Schlüssel der fokussierenden Iris"
+
+--Quest 3 Alliance
+Inst84Quest3 = "3. Anub'Rekhan Must Die! (Weekly)"
+Inst84Quest3_Level = "80"
+Inst84Quest3_Attain = "80"
+Inst84Quest3_Aim = "Kill Anub'Rekhan."
+Inst84Quest3_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest3_Note = "Anub'Rekhan is at "..YELLOW.."Arachnid Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst84Quest3_Prequest = "None"
+Inst84Quest3_Folgequest = "None"
+--
+Inst84Quest3name1 = "Emblem of Frost"
+Inst84Quest3name2 = "Emblem of Triumph"
+
+--Quest 4 Alliance
+Inst84Quest4 = "4. Instructor Razuvious Must Die! (Weekly)"
+Inst84Quest4_Level = "80"
+Inst84Quest4_Attain = "80"
+Inst84Quest4_Aim = "Kill Instructor Razuvious."
+Inst84Quest4_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest4_Note = "Instructor Razuvious is at "..YELLOW.."Military Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst84Quest4_Prequest = "None"
+Inst84Quest4_Folgequest = "None"
+--
+Inst84Quest4name1 = "Emblem of Frost"
+Inst84Quest4name2 = "Emblem of Triumph"
+
+--Quest 5 Alliance
+Inst84Quest5 = "5. Noth the Plaguebringer Must Die! (Weekly)"
+Inst84Quest5_Level = "80"
+Inst84Quest5_Attain = "80"
+Inst84Quest5_Aim = "Kill Noth the Plaguebringer."
+Inst84Quest5_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest5_Note = "Noth the Plaguebringer is at "..YELLOW.."Plague Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst84Quest5_Prequest = "None"
+Inst84Quest5_Folgequest = "None"
+--
+Inst84Quest5name1 = "Emblem of Frost"
+Inst84Quest5name2 = "Emblem of Triumph"
+
+--Quest 6 Alliance
+Inst84Quest6 = "6. Patchwerk Must Die! (Weekly)"
+Inst84Quest6_Level = "80"
+Inst84Quest6_Attain = "80"
+Inst84Quest6_Aim = "Kill Patchwerk."
+Inst84Quest6_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest6_Note = "Patchwerk is at "..YELLOW.."Construct Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst84Quest6_Prequest = "None"
+Inst84Quest6_Folgequest = "None"
+--
+Inst84Quest6name1 = "Emblem of Frost"
+Inst84Quest6name2 = "Emblem of Triumph"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11322,6 +10996,58 @@ Inst84Quest2_HORDE_Folgequest = Inst84Quest2_Folgequest
 --
 Inst84Quest2name1_HORDE = Inst84Quest2name1
 
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst84Quest3_HORDE = Inst84Quest3
+Inst84Quest3_HORDE_Level = Inst84Quest3_Level
+Inst84Quest3_HORDE_Attain = Inst84Quest3_Attain
+Inst84Quest3_HORDE_Aim = Inst84Quest3_Aim
+Inst84Quest3_HORDE_Location = Inst84Quest3_Location
+Inst84Quest3_HORDE_Note = Inst84Quest3_Note
+Inst84Quest3_HORDE_Prequest = Inst84Quest3_Prequest
+Inst84Quest3_HORDE_Folgequest = Inst84Quest3_Folgequest
+--
+Inst84Quest3name1_HORDE = Inst84Quest3name1
+Inst84Quest3name2_HORDE = Inst84Quest3name2
+
+--Quest 4 Horde (same as Quest 4 Alliance)
+Inst84Quest4_HORDE = Inst84Quest4
+Inst84Quest4_HORDE_Level = Inst84Quest4_Level
+Inst84Quest4_HORDE_Attain = Inst84Quest4_Attain
+Inst84Quest4_HORDE_Aim = Inst84Quest4_Aim
+Inst84Quest4_HORDE_Location = Inst84Quest4_Location
+Inst84Quest4_HORDE_Note = Inst84Quest4_Note
+Inst84Quest4_HORDE_Prequest = Inst84Quest4_Prequest
+Inst84Quest4_HORDE_Folgequest = Inst84Quest4_Folgequest
+--
+Inst84Quest4name1_HORDE = Inst84Quest4name1
+Inst84Quest4name2_HORDE = Inst84Quest4name2
+
+--Quest 5 Horde (same as Quest 5 Alliance)
+Inst84Quest5_HORDE = Inst84Quest5
+Inst84Quest5_HORDE_Level = Inst84Quest5_Level
+Inst84Quest5_HORDE_Attain = Inst84Quest5_Attain
+Inst84Quest5_HORDE_Aim = Inst84Quest5_Aim
+Inst84Quest5_HORDE_Location = Inst84Quest5_Location
+Inst84Quest5_HORDE_Note = Inst84Quest5_Note
+Inst84Quest5_HORDE_Prequest = Inst84Quest5_Prequest
+Inst84Quest5_HORDE_Folgequest = Inst84Quest5_Folgequest
+--
+Inst84Quest5name1_HORDE = Inst84Quest5name1
+Inst84Quest5name2_HORDE = Inst84Quest5name2
+
+--Quest 6 Horde (same as Quest 6 Alliance)
+Inst84Quest6_HORDE = Inst84Quest6
+Inst84Quest6_HORDE_Level = Inst84Quest6_Level
+Inst84Quest6_HORDE_Attain = Inst84Quest6_Attain
+Inst84Quest6_HORDE_Aim = Inst84Quest6_Aim
+Inst84Quest6_HORDE_Location = Inst84Quest6_Location
+Inst84Quest6_HORDE_Note = Inst84Quest6_Note
+Inst84Quest6_HORDE_Prequest = Inst84Quest6_Prequest
+Inst84Quest6_HORDE_Folgequest = Inst84Quest6_Folgequest
+--
+Inst84Quest6name1_HORDE = Inst84Quest6name1
+Inst84Quest6name2_HORDE = Inst84Quest6name2
+
 
 
 --------------- INST85 - Vault of Archavon ---------------
@@ -11337,8 +11063,8 @@ Inst85QAH = "No Quests"
 
 Inst86Story = "For millennia, Ulduar has remained undisturbed by mortals, far away from their concerns and their struggles. Yet since its recent discovery, many have wondered what the structure's original purpose may have been. Some thought it a city, built to herald the glory of its makers; some thought it a vault containing innumerable treasures, perhaps even relics of the mighty Titans themselves. Such speculations were wrong. Beyond Ulduar's gates lies no city, no treasure vault, no final answer to the Titan's mysteries. All that awaits those who dare set foot in Ulduar is a horror even the Titans could not, would not destroy, an evil they merely... contained. Beneath ancient Ulduar, the Old God of death lies, whispering.... Tread carefully, or its prison will become your tomb."
 Inst86Caption = "Ulduar"
-Inst86QAA = "16 Quests"
-Inst86QAH = "16 Quests"
+Inst86QAA = "20 Quests"
+Inst86QAH = "20 Quests"
 
 --Quest 1 Alliance
 Inst86Quest1 = "1. Datenscheibe des Archivums"
@@ -11539,6 +11265,58 @@ Inst86Quest16name1 = "Drape of the Skyborn"
 Inst86Quest16name2 = "Sunglimmer Cloak"
 Inst86Quest16name3 = "Brann's Signet Ring"
 Inst86Quest16name4 = "Starshine Circle"
+
+--Quest 17 Alliance
+Inst86Quest17 = "17. Flame Leviathan Must Die! (Weekly)"
+Inst86Quest17_Level = "80"
+Inst86Quest17_Attain = "80"
+Inst86Quest17_Aim = "Kill Flame Leviathan."
+Inst86Quest17_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest17_Note = "Flame Leviathan is at "..YELLOW.."The Siege [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest17_Prequest = "None"
+Inst86Quest17_Folgequest = "None"
+--
+Inst86Quest17name1 = "Emblem of Frost"
+Inst86Quest17name2 = "Emblem of Triumph"
+
+--Quest 18 Alliance
+Inst86Quest18 = "18. Ignis the Furnace Master Must Die! (Weekly)"
+Inst86Quest18_Level = "80"
+Inst86Quest18_Attain = "80"
+Inst86Quest18_Aim = "Kill Ignis the Furnace Master."
+Inst86Quest18_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest18_Note = "Ignis the Furnace Master is at "..YELLOW.."The Siege [2]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest18_Prequest = "None"
+Inst86Quest18_Folgequest = "None"
+--
+Inst86Quest18name1 = "Emblem of Frost"
+Inst86Quest18name2 = "Emblem of Triumph"
+
+--Quest 19 Alliance
+Inst86Quest19 = "19. Razorscale Must Die! (Weekly)"
+Inst86Quest19_Level = "80"
+Inst86Quest19_Attain = "80"
+Inst86Quest19_Aim = "Kill Razorscale."
+Inst86Quest19_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest19_Note = "Razorscale is at "..YELLOW.."The Siege [3]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest19_Prequest = "None"
+Inst86Quest19_Folgequest = "None"
+--
+Inst86Quest19name1 = "Emblem of Frost"
+Inst86Quest19name2 = "Emblem of Triumph"
+
+--Quest 20 Alliance
+Inst86Quest20 = "20. XT-002 Deconstructor Must Die! (Weekly)"
+Inst86Quest20_Level = "80"
+Inst86Quest20_Attain = "80"
+Inst86Quest20_Aim = "Kill XT-002 Deconstructor."
+Inst86Quest20_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest20_Note = "XT-002 Deconstructor is at "..YELLOW.."The Siege [4]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest20_Prequest = "None"
+Inst86Quest20_Folgequest = "None"
+--
+Inst86Quest20name1 = "Emblem of Frost"
+Inst86Quest20name2 = "Emblem of Triumph" 
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11741,39 +11519,66 @@ Inst86Quest16name2_HORDE = Inst86Quest16name2
 Inst86Quest16name3_HORDE = Inst86Quest16name3
 Inst86Quest16name4_HORDE = Inst86Quest16name4
 
+--Quest 17 Horde (same as Quest 17 Alliance)
+Inst86Quest17_HORDE = Inst86Quest17
+Inst86Quest17_HORDE_Level = Inst86Quest17_Level
+Inst86Quest17_HORDE_Attain = Inst86Quest17_Attain
+Inst86Quest17_HORDE_Aim = Inst86Quest17_Aim
+Inst86Quest17_HORDE_Location = Inst86Quest17_Location
+Inst86Quest17_HORDE_Note = Inst86Quest17_Note
+Inst86Quest17_HORDE_Prequest = Inst86Quest17_Prequest
+Inst86Quest17_HORDE_Folgequest = Inst86Quest17_Folgequest
+--
+Inst86Quest17name1_HORDE = Inst86Quest17name1
+Inst86Quest17name2_HORDE = Inst86Quest17name2
+
+--Quest 18 Horde (same as Quest 18 Alliance)
+Inst86Quest18_HORDE = Inst86Quest18
+Inst86Quest18_HORDE_Level = Inst86Quest18_Level
+Inst86Quest18_HORDE_Attain = Inst86Quest18_Attain
+Inst86Quest18_HORDE_Aim = Inst86Quest18_Aim
+Inst86Quest18_HORDE_Location = Inst86Quest18_Location
+Inst86Quest18_HORDE_Note = Inst86Quest18_Note
+Inst86Quest18_HORDE_Prequest = Inst86Quest18_Prequest
+Inst86Quest18_HORDE_Folgequest = Inst86Quest18_Folgequest
+--
+Inst86Quest18name1_HORDE = Inst86Quest18name1
+Inst86Quest18name2_HORDE = Inst86Quest18name2
+
+--Quest 19 Horde (same as Quest 19 Alliance)
+Inst86Quest19_HORDE = Inst86Quest19
+Inst86Quest19_HORDE_Level = Inst86Quest19_Level
+Inst86Quest19_HORDE_Attain = Inst86Quest19_Attain
+Inst86Quest19_HORDE_Aim = Inst86Quest19_Aim
+Inst86Quest19_HORDE_Location = Inst86Quest19_Location
+Inst86Quest19_HORDE_Note = Inst86Quest19_Note
+Inst86Quest19_HORDE_Prequest = Inst86Quest19_Prequest
+Inst86Quest19_HORDE_Folgequest = Inst86Quest19_Folgequest
+--
+Inst86Quest19name1_HORDE = Inst86Quest19name1
+Inst86Quest19name2_HORDE = Inst86Quest19name2
+
+--Quest 20 Horde (same as Quest 20 Alliance)
+Inst86Quest20_HORDE = Inst86Quest20
+Inst86Quest20_HORDE_Level = Inst86Quest20_Level
+Inst86Quest20_HORDE_Attain = Inst86Quest20_Attain
+Inst86Quest20_HORDE_Aim = Inst86Quest20_Aim
+Inst86Quest20_HORDE_Location = Inst86Quest20_Location
+Inst86Quest20_HORDE_Note = Inst86Quest20_Note
+Inst86Quest20_HORDE_Prequest = Inst86Quest20_Prequest
+Inst86Quest20_HORDE_Folgequest = Inst86Quest20_Folgequest
+--
+Inst86Quest20name1_HORDE = Inst86Quest20name1
+Inst86Quest20name2_HORDE = Inst86Quest20name2
+
 
 
 --------------- INST87 - Trial of the Champion ---------------
 
 Inst87Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum." 
 Inst87Caption = "PdC: Prüfung der Champions" 
-Inst87QAA = "1 Quest" 
-Inst87QAH = "1 Quest"  
-
---Quest 1 Alliance 
-Inst87Quest1 = "1. Todesbeweis: Der schwarze Ritter (Heroische Tagesquest)" 
-Inst87Quest1_Level = "80" 
-Inst87Quest1_Attain = "80" 
-Inst87Quest1_Aim = "Erzmagier Lan'dalock in Dalaran möchte, dass Ihr ihm ein Seelenfragment des Schwarzen Ritters bringt." 
-Inst87Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")" 
-Inst87Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nDer schwarze Ritter ist der Endboss in der Instant: Prüfung der Champions." 
-Inst87Quest1_Prequest = "None" 
-Inst87Quest1_Folgequest = "None" 
-
--- Inst87Quest1name1 = "Emblem of Triumph"   
-
---Quest 1 Horde  (same as Quest 1 Alliance) 
-Inst87Quest1_HORDE = Inst87Quest1 
-Inst87Quest1_HORDE_Level = Inst87Quest1_Level 
-Inst87Quest1_HORDE_Attain = Inst87Quest1_Attain 
-Inst87Quest1_HORDE_Aim = Inst87Quest1_Aim 
-Inst87Quest1_HORDE_Location = Inst87Quest1_Location 
-Inst87Quest1_HORDE_Note = Inst87Quest1_Note 
-Inst87Quest1_HORDE_Prequest = Inst87Quest1_Prequest 
-Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest 
-
--- Inst87Quest1name1_HORDE = Inst87Quest1name1 
-
+Inst87QAA = "No Quest" 
+Inst87QAH = "No Quest"  
 
 
 
@@ -11781,8 +11586,269 @@ Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest
 
 Inst88Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum." 
 Inst88Caption = "PdK: Prüfung des Kreuzfahrers" 
-Inst88QAA = "No Quests" 
-Inst88QAH = "No Quests" 
+Inst88QAA = "1 Quest" 
+Inst88QAH = "1 Quest" 
+
+--Quest 1 Alliance
+Inst88Quest1 = "1. Lord Jaraxxus Must Die! (Weekly)"
+Inst88Quest1_Level = "80"
+Inst88Quest1_Attain = "80"
+Inst88Quest1_Aim = "Kill Lord Jaraxxus."
+Inst88Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst88Quest1_Note = "Lord Jaraxxus is the second boss.\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst88Quest1_Prequest = "None"
+Inst88Quest1_Folgequest = "None"
+--
+Inst88Quest1name1 = "Emblem of Frost"
+Inst88Quest1name2 = "Emblem of Triumph"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst88Quest1_HORDE = Inst88Quest1
+Inst88Quest1_HORDE_Level = Inst88Quest1_Level
+Inst88Quest1_HORDE_Attain = Inst88Quest1_Attain
+Inst88Quest1_HORDE_Aim = Inst88Quest1_Aim
+Inst88Quest1_HORDE_Location = Inst88Quest1_Location
+Inst88Quest1_HORDE_Note = Inst88Quest1_Note
+Inst88Quest1_HORDE_Prequest = Inst88Quest1_Prequest
+Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
+--
+Inst88Quest1name1_HORDE = Inst88Quest1name1
+Inst88Quest1name2_HORDE = Inst88Quest1name2 
+
+
+
+--------------- INST90 - Forge of Souls (FoS) ---------------
+Inst90Story = "Serving as the first wing in this expansive dungeon, the Forge of Souls will quickly put players to the test of carving through the Scourge stronghold into deeper, more treacherous locations. Jaina will command Alliance forces, and Sylvanas will direct Horde forces. The goal is to ruin the twisted engines known as soul grinders found in this portion of the citadel, and then players can advance -- that is, if the Horde and Alliance forces can overcome the foes who confront them."
+Inst90Caption = "Forge of Souls"
+Inst90QAA = "2 Quests"
+Inst90QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst90Quest1 = "1. Inside the Frozen Citadel"
+Inst90Quest1_Level = "80"
+Inst90Quest1_Attain = "80"
+Inst90Quest1_Aim = "Enter The Forge of Souls from the side of Icecrown Citadel and find Lady Jaina Proudmoore."
+Inst90Quest1_Location = "Apprentice Nelphi (Dalaran City - Roams outside South Bank)"
+Inst90Quest1_Note = "Lady Jaina Proudmoore is just inside the instance."
+Inst90Quest1_Prequest = "None"
+Inst90Quest1_Folgequest = "Echoes of Tortured Souls"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst90Quest2 = "2. Echoes of Tortured Souls"
+Inst90Quest2_Level = "80"
+Inst90Quest2_Attain = "80"
+Inst90Quest2_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
+Inst90Quest2_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
+Inst90Quest2_Note = "Completing this quest is required to enter the Pit of Saron."
+Inst90Quest2_Prequest = "Echoes of Tortured Souls"
+Inst90Quest2_Folgequest = "The Pit of Saron"
+Inst90Quest2FQuest = "true"
+--
+Inst90Quest2name1 = "Emblem of Frost"
+
+
+--Quest 1 Horde
+Inst90Quest1_HORDE = "1. Inside the Frozen Citadel"
+Inst90Quest1_HORDE_Level = "80"
+Inst90Quest1_HORDE_Attain = "80"
+Inst90Quest1_HORDE_Aim = "Enter The Forge of Souls from the side of Icecrown Citadel and locate Lady Sylvanas Windrunner."
+Inst90Quest1_HORDE_Location = "Dark Ranger Vorel (Dalaran City - Roams outside North Bank)"
+Inst90Quest1_HORDE_Note = "Lady Sylvanas Windrunner is just inside the instance."
+Inst90Quest1_HORDE_Prequest = "None"
+Inst90Quest1_HORDE_Folgequest = "Echoes of Tortured Souls"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst90Quest2_HORDE = "2. Echoes of Tortured Souls"
+Inst90Quest2_HORDE_Level = "80"
+Inst90Quest2_HORDE_Attain = "80"
+Inst90Quest2_HORDE_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
+Inst90Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
+Inst90Quest2_HORDE_Note = "Completing this quest is required to enter the Pit of Saron."
+Inst90Quest2_HORDE_Prequest = "Inside the Frozen Citadel"
+Inst90Quest2_HORDE_Folgequest = "The Pit of Saron"
+Inst90Quest2FQuest_HORDE = "true"
+--
+Inst90Quest2name1_HORDE = "Emblem of Frost" 
+
+
+
+--------------- INST91 - Pit of Saron (PoS) ---------------
+Inst91Story = "Accessible only to those who have laid waste to the Forge of Souls' unholy operations, the Pit of Saron will bring Horde and Alliance forces deeper into the Lich King's domain. Players who venture here will immediately be confronted by the lord of this lair, Scourgelord Tyrannus. But defeating him will not be as easy as it seems. Before they can present a threat to Tyrannus, the adventurers, instructed by their leaders, will need to free enslaved allies who have been trapped by the Scourge. Until that happens, Tyrannus will leave all adversaries to his minions, workers of the citadel's mines. Perhaps the challenges here will lend clues as to the whereabouts of the Lich King's private chambers outside of the Frozen Throne, deep within the Halls of Reflection."
+Inst91Caption = "Pit of Saron"
+Inst91QAA = "3 Quests"
+Inst91QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst91Quest1 = "1. The Pit of Saron"
+Inst91Quest1_Level = "80"
+Inst91Quest1_Attain = "80"
+Inst91Quest1_Aim = "Meet Lady Jaina Proudmoore just inside the Pit of Saron."
+Inst91Quest1_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."End of Instance"..WHITE..")"
+Inst91Quest1_Note = "Lady Jaina Proudmoore is just inside the instance."
+Inst91Quest1_Prequest = "Echoes of Tortured Souls"
+Inst91Quest1_Folgequest = "The Path to the Citadel"
+Inst91Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst91Quest2 = "2. The Path to the Citadel"
+Inst91Quest2_Level = "80"
+Inst91Quest2_Attain = "80"
+Inst91Quest2_Aim = "Free 15 Alliance Slaves and kill Forgemaster Garfrost."
+Inst91Quest2_Location = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."Entrance"..WHITE..")"
+Inst91Quest2_Note = "The slaves are all over the pit."
+Inst91Quest2_Prequest = "The Pit of Saron"
+Inst91Quest2_Folgequest = "Deliverance from the Pit"
+Inst91Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst91Quest3 = "3. Deliverance from the Pit"
+Inst91Quest3_Level = "80"
+Inst91Quest3_Attain = "80"
+Inst91Quest3_Aim = "Kill Scourgelord Tyrannus."
+Inst91Quest3_Location = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."??"..WHITE..")"
+Inst91Quest3_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection."
+Inst91Quest3_Prequest = "The Path to the Citadel"
+Inst91Quest3_Folgequest = "Frostmourne"
+Inst91Quest3FQuest = "true"
+--
+Inst91Quest3name1 = "Emblem of Frost"
+
+
+--Quest 1 Horde
+Inst91Quest1_HORDE = "1. The Pit of Saron"
+Inst91Quest1_HORDE_Level = "80"
+Inst91Quest1_HORDE_Attain = "80"
+Inst91Quest1_HORDE_Aim = "Meet Lady Sylvanas Windrunner inside the entrace to the Pit of Saron."
+Inst91Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."End of Instance"..WHITE..")"
+Inst91Quest1_HORDE_Note = "Lady Sylvanas Windrunner is just inside the instance."
+Inst91Quest1_HORDE_Prequest = "Echoes of Tortured Souls"
+Inst91Quest1_HORDE_Folgequest = "The Path to the Citadel"
+Inst91Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst91Quest2_HORDE = "2. The Path to the Citadel"
+Inst91Quest2_HORDE_Level = "80"
+Inst91Quest2_HORDE_Attain = "80"
+Inst91Quest2_HORDE_Aim = "Free 15 Horde Slaves and kill Forgemaster Garfrost."
+Inst91Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW.."Entrance"..WHITE..")"
+Inst91Quest2_HORDE_Note = "The slaves are all over the pit."
+Inst91Quest2_HORDE_Prequest = "The Pit of Saron"
+Inst91Quest2_HORDE_Folgequest = "Deliverance from the Pit"
+Inst91Quest2FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst91Quest3_HORDE = "3. Deliverance from the Pit"
+Inst91Quest3_HORDE_Level = "80"
+Inst91Quest3_HORDE_Attain = "80"
+Inst91Quest3_HORDE_Aim = "Kill Scourgelord Tyrannus."
+Inst91Quest3_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW.."??"..WHITE..")"
+Inst91Quest3_HORDE_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection."
+Inst91Quest3_HORDE_Prequest = "The Path to the Citadel"
+Inst91Quest3_HORDE_Folgequest = "Frostmourne"
+Inst91Quest3FQuest_HORDE = "true"
+--
+Inst91Quest3name1_HORDE = "Emblem of Frost"
+
+
+
+--------------- INST92 - Halls of Reflection (HoR) ---------------
+Inst92Story = "With Jaina and Sylvanas leading the way, adventurers who make it as far as these frigid halls will quickly recognize the weapon that lies ahead: Frostmourne, the corruptive, legendary device of the Lich King himself. The Lich King's private chambers are within reach, although they may be the death of anyone who ventures there."
+Inst92Caption = "Halls of Reflection"
+Inst92QAA = "2 Quests"
+Inst92QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst92Quest1 = "1. Frostmourne"
+Inst92Quest1_Level = "80"
+Inst92Quest1_Attain = "80"
+Inst92Quest1_Aim = "Meet Lady Jaina Proudmoore at the entrance to the Halls of Reflection."
+Inst92Quest1_Location = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."??"..WHITE..")"
+Inst92Quest1_Note = "Lady Jaina Proudmoore is just inside the instance. Be sure all party members have turned the quest in before proceding. The followup will be given after the event is completed."
+Inst92Quest1_Prequest = "Deliverance from the Pit"
+Inst92Quest1_Folgequest = "Wrath of the Lich King"
+Inst92Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst92Quest2 = "2. Wrath of the Lich King"
+Inst92Quest2_Level = "80"
+Inst92Quest2_Attain = "80"
+Inst92Quest2_Aim = "Find Lady Jaina Proudmoore and escape the Halls of Reflection."
+Inst92Quest2_Location = "Halls of Reflection"
+Inst92Quest2_Note = "Lady Jaina Proudmoore is up ahead. You turn the quest into her after the end of the super awesome event."
+Inst92Quest2_Prequest = "Frostmourne"
+Inst92Quest2_Folgequest = "None"
+Inst92Quest2FQuest = "true"
+--
+Inst92Quest2name1 = "Emblem of Frost"
+
+
+--Quest 1 Horde
+Inst92Quest1_HORDE = "1. Frostmourne"
+Inst92Quest1_HORDE_Level = "80"
+Inst92Quest1_HORDE_Attain = "80"
+Inst92Quest1_HORDE_Aim = "Meet Lady Sylvanas Windrunner inside the entrance to the Halls of Reflection."
+Inst92Quest1_HORDE_Location = "Halls of Reflection"
+Inst92Quest1_HORDE_Note = "Lady Sylvanas Windrunner is just inside the instance. Be sure all party members have turned the quest in before proceding. The followup will be given after the event is completed."
+Inst92Quest1_HORDE_Prequest = "Deliverance from the Pit"
+Inst92Quest1_HORDE_Folgequest = "Wrath of the Lich King"
+Inst92Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst92Quest2_HORDE = "2. Wrath of the Lich King"
+Inst92Quest2_HORDE_Level = "80"
+Inst92Quest2_HORDE_Attain = "80"
+Inst92Quest2_HORDE_Aim = "Find Lady Sylvanas Windrunner and escape the Halls of Reflection."
+Inst92Quest2_HORDE_Location = "Halls of Reflection"
+Inst92Quest2_HORDE_Note = "Lady Sylvanas Windrunner is up ahead. You turn the quest into her after the end of the super awesome event."
+Inst92Quest2_HORDE_Prequest = "Frostmourne"
+Inst92Quest2_HORDE_Folgequest = "None"
+Inst92Quest2FQuest_HORDE = "true"
+--
+Inst92Quest2name1_HORDE = "Emblem of Frost"
+
+
+
+--------------- INST93 - Icecrown Citadel (ICC) ---------------
+Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
+Inst93Caption = "Icecrown Citadel"
+Inst93QAA = "1 Quest"
+Inst93QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst93Quest1 = "1. Lord Marrowgar Must Die! (Weekly)"
+Inst93Quest1_Level = "80"
+Inst93Quest1_Attain = "80"
+Inst93Quest1_Aim = "Kill Lord Marrowgar."
+Inst93Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst93Quest1_Note = "Lord Marrowgar is at "..YELLOW.." [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst93Quest1_Prequest = "None"
+Inst93Quest1_Folgequest = "None"
+--
+Inst93Quest1name1 = "Emblem of Frost"
+Inst93Quest1name2 = "Emblem of Triumph"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst93Quest1_HORDE = Inst93Quest1
+Inst93Quest1_HORDE_Level = Inst93Quest1_Level
+Inst93Quest1_HORDE_Attain = Inst93Quest1_Attain
+Inst93Quest1_HORDE_Aim = Inst93Quest1_Aim
+Inst93Quest1_HORDE_Location = Inst93Quest1_Location
+Inst93Quest1_HORDE_Note = Inst93Quest1_Note
+Inst93Quest1_HORDE_Prequest = Inst93Quest1_Prequest
+Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
+--
+Inst93Quest1name1_HORDE = Inst93Quest1name1
+Inst93Quest1name2_HORDE = Inst93Quest1name2 
 
 
 
@@ -12600,3 +12666,7 @@ end
 -- 87 = Trial of the Champion
 -- 88 = Trial of the Crusader
 -- 89 = Isle of Conquest
+-- 90 = Forge of Souls (FoS)
+-- 91 = Pit of Saron (PoS)
+-- 92 = Halls of Reflection (HoR)
+-- 93 = Icecrown Citadel (ICC) 
