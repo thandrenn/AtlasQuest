@@ -2,14 +2,16 @@
 Changelog
 =========
 
-Version 4.4.0 BETA
+Version 4.4.0
 
 - TOC updated for Patch 3.3.
 - Support for Forge of Souls, Pit of Saron, Halls of Reflection and Icecrown Citadel.
+- Updated map names for the Atlas 1.15.2 Fan Update.
 - Removed all Lich King Dungeon Daily and Heroic Daily quests.
 - Rewards for Horde Auchenai Crypts: "Wanted: The Exarch's Soul Gem" were missing.
 - Updated Foror's Compendium & Forging of Quel'Serrar quests to note that they can no longer be started anew with patch 3.2.2.
 - Updated: SM GY: Call the Headless Horseman for level 80.
+- Updates all localizations.
 
 - Quests added:
 	- Forge of Souls: Inside the Frozen Citadel
