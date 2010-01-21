@@ -5814,6 +5814,13 @@ Inst67Quest5ID3_HORDE = "35489"
 
 --------------- INST68 - Sunwell Plateau (SP) ---------------
 
+--Quest 1 Alliance
+Inst68Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst68Quest1Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST69 - Caverns of Time: Stratholme Past ---------------
@@ -7433,6 +7440,9 @@ Inst90Quest2ITC1 = Itemc5;
 Inst90Quest2description1 = AQITEM_EMBLEM
 Inst90Quest2ID1 = "49426"
 
+--Quest 3 Alliance
+Inst90Quest3Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst90Quest1Rewardtext_HORDE = AQNoReward
@@ -7443,6 +7453,9 @@ Inst90Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
 Inst90Quest2ITC1_HORDE = Itemc5;
 Inst90Quest2description1_HORDE = AQITEM_EMBLEM
 Inst90Quest2ID1_HORDE = "49426"
+
+--Quest 3 Horde
+Inst90Quest3Rewardtext_HORDE = AQNoReward
 
 
 
@@ -7461,6 +7474,9 @@ Inst91Quest3ITC1 = Itemc5;
 Inst91Quest3description1 = AQITEM_EMBLEM
 Inst91Quest3ID1 = "49426"
 
+--Quest 4 Alliance
+Inst91Quest4Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst91Quest1Rewardtext_HORDE = AQNoReward
@@ -7474,6 +7490,9 @@ Inst91Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
 Inst91Quest3ITC1_HORDE = Itemc5;
 Inst91Quest3description1_HORDE = AQITEM_EMBLEM
 Inst91Quest3ID1_HORDE = "49426"
+
+--Quest 4 Horde
+Inst91Quest4Rewardtext_HORDE = AQNoReward
 
 
 
@@ -7489,6 +7508,9 @@ Inst92Quest2ITC1 = Itemc5;
 Inst92Quest2description1 = AQITEM_EMBLEM
 Inst92Quest2ID1 = "49426"
 
+--Quest 3 Alliance
+Inst92Quest3Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst92Quest1Rewardtext_HORDE = AQNoReward
@@ -7499,6 +7521,9 @@ Inst92Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
 Inst92Quest2ITC1_HORDE = Itemc5;
 Inst92Quest2description1_HORDE = AQITEM_EMBLEM
 Inst92Quest2ID1_HORDE = "49426"
+
+--Quest 3 Horde
+Inst92Quest3Rewardtext_HORDE = AQNoReward
 
 
 
@@ -7515,6 +7540,9 @@ Inst93Quest1ITC2 = Itemc5;
 Inst93Quest1description2 = AQITEM_EMBLEM
 Inst93Quest1ID2 = "47241"
 
+--Quest 2 Alliance
+Inst93Quest2Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst93Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x5)"..AQDiscription_AND..WHITE.."2(x5)"
@@ -7526,6 +7554,9 @@ Inst93Quest1ID1_HORDE = "49426"
 Inst93Quest1ITC2_HORDE = Itemc5;
 Inst93Quest1description2_HORDE = AQITEM_EMBLEM
 Inst93Quest1ID2_HORDE = "47241"
+
+--Quest 2 Horde
+Inst93Quest2Rewardtext_HORDE = AQNoReward
 
 
 

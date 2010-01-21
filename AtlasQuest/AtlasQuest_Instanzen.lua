@@ -263,16 +263,16 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheCrusader") then
 		AQINSTANZ = 88;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheForgeOfSouls") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ForgeOfSouls") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\FHTheForgeOfSouls") then
 		AQINSTANZ = 90;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\PitOfSaron") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\FHPitOfSaron") then
 		AQINSTANZ = 91;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HallsOfReflection") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\FHHallsOfReflection") then
 		AQINSTANZ = 92;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownEnd") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelC") then
 		AQINSTANZ = 93;
 
 
