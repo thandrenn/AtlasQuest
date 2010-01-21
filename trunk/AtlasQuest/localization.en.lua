@@ -9609,8 +9609,33 @@ Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 Inst68Story = "The Sunwell Plateau is a raid instance located on the Isle of Quel'Danas north of Silvermoon City. Blizzard has planned for it to become the hardest raid instance in the game until the release of Wrath of the Lich King. The Sunwell Plateau is tuned for Tier 6-geared players and the gear that drops there will be additional Tier 6 items (boots, belt and bracers), and non-set epics as well. \n\nThe instance will contain both outdoor areas and building interiors, where players will find captured naaru which are the primary power source of the town, and inside the final building the Sunwell itself.\n\nThe architecture of the Sunwell Plateau will be comparable to that of Silvermoon City.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst68Caption = "Sunwell Plateau"
-Inst68QAA = "No Quests"
-Inst68QAH = "No Quests"
+Inst68QAA = "1 Quest"
+Inst68QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst68Quest1 = "1. The Purification of Quel'Delar"
+Inst68Quest1_Level = "80"
+Inst68Quest1_Attain = "80"
+Inst68Quest1_Aim = "Immerse your Tempered Quel'Delar in the Sunwell. Speak to a Warden of the Sunwell when you are ready to enter the Sunwell Plateau."
+Inst68Quest1_Location = "Halduron Brightwing (Isle of Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
+Inst68Quest1_Note = "When you enter Sunwell Plateau, you will be in a phased version and will not have to fight any mobs or bosses.  The Sunwell is at "..YELLOW.."[4]"..WHITE.."."
+Inst68Quest1_Prequest = "Thalorien Dawnseeker"
+Inst68Quest1_Folgequest = "A Victory For The Silver Covenant"
+Inst68Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst68Quest1_HORDE = "1. The Purification of Quel'Delar"
+Inst68Quest1_HORDE_Level = "80"
+Inst68Quest1_HORDE_Attain = "80"
+Inst68Quest1_HORDE_Aim = "Immerse your Tempered Quel'Delar in the Sunwell. Speak to a Warden of the Sunwell when you are ready to enter the Sunwell Plateau."
+Inst68Quest1_HORDE_Location = "Halduron Brightwing (Isle of Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
+Inst68Quest1_HORDE_Note = "When you enter Sunwell Plateau, you will be in a phased version and will not have to fight any mobs or bosses.  The Sunwell is at "..YELLOW.."[4]"..WHITE.."."
+Inst68Quest1_HORDE_Prequest = "Thalorien Dawnseeker"
+Inst68Quest1_HORDE_Folgequest = "A Victory For The Sunreavers"
+Inst68Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -11508,8 +11533,8 @@ Inst88Quest1name2_HORDE = Inst88Quest1name2
 
 Inst90Story = "Serving as the first wing in this expansive dungeon, the Forge of Souls will quickly put players to the test of carving through the Scourge stronghold into deeper, more treacherous locations. Jaina will command Alliance forces, and Sylvanas will direct Horde forces. The goal is to ruin the twisted engines known as soul grinders found in this portion of the citadel, and then players can advance -- that is, if the Horde and Alliance forces can overcome the foes who confront them."
 Inst90Caption = "Forge of Souls"
-Inst90QAA = "2 Quests"
-Inst90QAH = "2 Quests"
+Inst90QAA = "3 Quests"
+Inst90QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst90Quest1 = "1. Inside the Frozen Citadel"
@@ -11528,12 +11553,24 @@ Inst90Quest2_Level = "80"
 Inst90Quest2_Attain = "80"
 Inst90Quest2_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
 Inst90Quest2_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
-Inst90Quest2_Note = "Completing this quest is required to enter the Pit of Saron."
+Inst90Quest2_Note = "Turn the quest in to Lady Jaina Proudmoore before at "..YELLOW.."[3]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
 Inst90Quest2_Prequest = "Echoes of Tortured Souls"
 Inst90Quest2_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest2FQuest = "true"
 --
 Inst90Quest2name1 = "Emblem of Frost"
+
+--Quest 3 Alliance
+Inst90Quest3 = "3. Tempering The Blade"
+Inst90Quest3_Level = "80"
+Inst90Quest3_Attain = "80"
+Inst90Quest3_Aim = "Temper the Reforged Quel'Delar in the Crucible of Souls."
+Inst90Quest3_Location = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst90Quest3_Note = "The Crucible of Souls is at "..YELLOW.."[3]"..WHITE..", near the end of the instance."
+Inst90Quest3_Prequest = "Reforging The Sword ("..YELLOW.."Pit of Saron"..WHITE..")"
+Inst90Quest3_Folgequest = "The Halls Of Reflection ("..YELLOW.."Halls of Reflection"..WHITE..")"
+Inst90Quest3PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -11553,12 +11590,24 @@ Inst90Quest2_HORDE_Level = "80"
 Inst90Quest2_HORDE_Attain = "80"
 Inst90Quest2_HORDE_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
 Inst90Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
-Inst90Quest2_HORDE_Note = "Completing this quest is required to enter the Pit of Saron."
+Inst90Quest2_HORDE_Note = "Turn the quest in to Lady Sylvanas Windrunner before at "..YELLOW.."[3]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
 Inst90Quest2_HORDE_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_HORDE_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest2FQuest_HORDE = "true"
 --
 Inst90Quest2name1_HORDE = "Emblem of Frost"
+
+--Quest 3 Horde
+Inst90Quest3_HORDE = "3. Tempering The Blade"
+Inst90Quest3_HORDE_Level = "80"
+Inst90Quest3_HORDE_Attain = "80"
+Inst90Quest3_HORDE_Aim = "Temper the Reforged Quel'Delar in the Crucible of Souls."
+Inst90Quest3_HORDE_Location = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.5, 31.1"..WHITE..")"
+Inst90Quest3_HORDE_Note = "The Crucible of Souls is at "..YELLOW.."[3]"..WHITE..", near the end of the instance."
+Inst90Quest3_HORDE_Prequest = "Reforging The Sword ("..YELLOW.."Pit of Saron"..WHITE..")"
+Inst90Quest3_HORDE_Folgequest = "The Halls Of Reflection ("..YELLOW.."Halls of Reflection"..WHITE..")"
+Inst90Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -11566,15 +11615,15 @@ Inst90Quest2name1_HORDE = "Emblem of Frost"
 
 Inst91Story = "Accessible only to those who have laid waste to the Forge of Souls' unholy operations, the Pit of Saron will bring Horde and Alliance forces deeper into the Lich King's domain. Players who venture here will immediately be confronted by the lord of this lair, Scourgelord Tyrannus. But defeating him will not be as easy as it seems. Before they can present a threat to Tyrannus, the adventurers, instructed by their leaders, will need to free enslaved allies who have been trapped by the Scourge. Until that happens, Tyrannus will leave all adversaries to his minions, workers of the citadel's mines. Perhaps the challenges here will lend clues as to the whereabouts of the Lich King's private chambers outside of the Frozen Throne, deep within the Halls of Reflection."
 Inst91Caption = "Pit of Saron"
-Inst91QAA = "3 Quests"
-Inst91QAH = "3 Quests"
+Inst91QAA = "4 Quests"
+Inst91QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst91Quest1 = "1. The Pit of Saron"
 Inst91Quest1_Level = "80"
 Inst91Quest1_Attain = "80"
 Inst91Quest1_Aim = "Meet Lady Jaina Proudmoore just inside the Pit of Saron."
-Inst91Quest1_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."[2]"..WHITE..")"
+Inst91Quest1_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."[3]"..WHITE..")"
 Inst91Quest1_Note = "Lady Jaina Proudmoore is just inside the instance."
 Inst91Quest1_Prequest = "Echoes of Tortured Souls ("..YELLOW.."Forge of Souls"..WHITE..")"
 Inst91Quest1_Folgequest = "The Path to the Citadel"
@@ -11586,8 +11635,8 @@ Inst91Quest2 = "2. The Path to the Citadel"
 Inst91Quest2_Level = "80"
 Inst91Quest2_Attain = "80"
 Inst91Quest2_Aim = "Free 15 Alliance Slaves and kill Forgemaster Garfrost."
-Inst91Quest2_Location = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."Entrance"..WHITE..")"
-Inst91Quest2_Note = "The slaves are all over the pit. The quest turns in to Martin Victus at "..YELLOW.."[1]"..WHITE.." after Forgemaster Garfrost is slain."
+Inst91Quest2_Location = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."[1]"..WHITE..")"
+Inst91Quest2_Note = "The slaves are all over the pit. The quest turns in to Martin Victus at "..YELLOW.."[2]"..WHITE.." after Forgemaster Garfrost is slain."
 Inst91Quest2_Prequest = "The Pit of Saron"
 Inst91Quest2_Folgequest = "Deliverance from the Pit"
 Inst91Quest2FQuest = "true"
@@ -11599,12 +11648,24 @@ Inst91Quest3_Level = "80"
 Inst91Quest3_Attain = "80"
 Inst91Quest3_Aim = "Kill Scourgelord Tyrannus."
 Inst91Quest3_Location = "Martin Victus (Pit of Saron; "..YELLOW.."[1]"..WHITE..")"
-Inst91Quest3_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection."
+Inst91Quest3_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection.\n\nRemember to turn the quest in to Lady Jaina Proudmoore before leaving."
 Inst91Quest3_Prequest = "The Path to the Citadel"
 Inst91Quest3_Folgequest = "Frostmourne ("..YELLOW.."Halls of Reflection"..WHITE..")"
 Inst91Quest3FQuest = "true"
 --
 Inst91Quest3name1 = "Emblem of Frost"
+
+--Quest 4 Alliance
+Inst91Quest4 = "4. Reforging The Sword"
+Inst91Quest4_Level = "80"
+Inst91Quest4_Attain = "80"
+Inst91Quest4_Aim = "Obtain 5 Infused Saronite Bars and the Forgemaster's Hammer and use them to make the Reforged Quel'Delar."
+Inst91Quest4_Location = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst91Quest4_Note = "The Infused Saronite Bars are spread out around the Pit.  Use the hammer that drops from Forgemaster Garfrost at the anvil near him."
+Inst91Quest4_Prequest = "Return To Caladis Brightspear"
+Inst91Quest4_Folgequest = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst91Quest4PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -11612,7 +11673,7 @@ Inst91Quest1_HORDE = "1. The Pit of Saron"
 Inst91Quest1_HORDE_Level = "80"
 Inst91Quest1_HORDE_Attain = "80"
 Inst91Quest1_HORDE_Aim = "Meet Lady Sylvanas Windrunner inside the entrace to the Pit of Saron."
-Inst91Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."[2]"..WHITE..")"
+Inst91Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."[3]"..WHITE..")"
 Inst91Quest1_HORDE_Note = "Lady Sylvanas Windrunner is just inside the instance."
 Inst91Quest1_HORDE_Prequest = "Echoes of Tortured Souls ("..YELLOW.."Forge of Souls"..WHITE..")"
 Inst91Quest1_HORDE_Folgequest = "The Path to the Citadel"
@@ -11624,8 +11685,8 @@ Inst91Quest2_HORDE = "2. The Path to the Citadel"
 Inst91Quest2_HORDE_Level = "80"
 Inst91Quest2_HORDE_Attain = "80"
 Inst91Quest2_HORDE_Aim = "Free 15 Horde Slaves and kill Forgemaster Garfrost."
-Inst91Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW.."Entrance"..WHITE..")"
-Inst91Quest2_HORDE_Note = "The slaves are all over the pit. The quest turns in to Gorkun Ironskull at "..YELLOW.."[1]"..WHITE.." after Forgemaster Garfrost is slain."
+Inst91Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW.."[1]"..WHITE..")"
+Inst91Quest2_HORDE_Note = "The slaves are all over the pit. The quest turns in to Gorkun Ironskull at "..YELLOW.."[2]"..WHITE.." after Forgemaster Garfrost is slain."
 Inst91Quest2_HORDE_Prequest = "The Pit of Saron"
 Inst91Quest2_HORDE_Folgequest = "Deliverance from the Pit"
 Inst91Quest2FQuest_HORDE = "true"
@@ -11637,12 +11698,24 @@ Inst91Quest3_HORDE_Level = "80"
 Inst91Quest3_HORDE_Attain = "80"
 Inst91Quest3_HORDE_Aim = "Kill Scourgelord Tyrannus."
 Inst91Quest3_HORDE_Location = "Gorkun Ironskull (Pit of Saron; "..YELLOW.."[1]"..WHITE..")"
-Inst91Quest3_HORDE_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection."
+Inst91Quest3_HORDE_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection.\n\nRemember to turn the quest in to Lady Sylvanas Windrunner before leaving."
 Inst91Quest3_HORDE_Prequest = "The Path to the Citadel"
 Inst91Quest3_HORDE_Folgequest = "Frostmourne ("..YELLOW.."Halls of Reflection"..WHITE..")"
 Inst91Quest3FQuest_HORDE = "true"
 --
 Inst91Quest3name1_HORDE = "Emblem of Frost"
+
+--Quest 4 Horde
+Inst91Quest4_HORDE = "4. Reforging The Sword"
+Inst91Quest4_HORDE_Level = "80"
+Inst91Quest4_HORDE_Attain = "80"
+Inst91Quest4_HORDE_Aim = "Obtain 5 Infused Saronite Bars and the Forgemaster's Hammer, then combine them with the Remnants of Quel'Delar to create the Reforged Quel'Delar."
+Inst91Quest4_HORDE_Location = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.5, 31.1"..WHITE..")"
+Inst91Quest4_HORDE_Note = "The Infused Saronite Bars are spread out around the Pit.  Use the hammer that drops from Forgemaster Garfrost at the anvil near him."
+Inst91Quest4_HORDE_Prequest = "Return To Myralion Sunblaze"
+Inst91Quest4_HORDE_Folgequest = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst91Quest4PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -11650,8 +11723,8 @@ Inst91Quest3name1_HORDE = "Emblem of Frost"
 
 Inst92Story = "With Jaina and Sylvanas leading the way, adventurers who make it as far as these frigid halls will quickly recognize the weapon that lies ahead: Frostmourne, the corruptive, legendary device of the Lich King himself. The Lich King's private chambers are within reach, although they may be the death of anyone who ventures there."
 Inst92Caption = "Halls of Reflection"
-Inst92QAA = "2 Quests"
-Inst92QAH = "2 Quests"
+Inst92QAA = "3 Quests"
+Inst92QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst92Quest1 = "1. Frostmourne"
@@ -11677,6 +11750,18 @@ Inst92Quest2_Folgequest = "None"
 Inst92Quest2FQuest = "true"
 --
 Inst92Quest2name1 = "Emblem of Frost"
+
+--Quest 3 Alliance
+Inst92Quest3 = "3. The Halls Of Reflection"
+Inst92Quest3_Level = "80"
+Inst92Quest3_Attain = "80"
+Inst92Quest3_Aim = "Bring your Tempered Quel'Delar to Sword's Rest inside the Halls of Reflection."
+Inst92Quest3_Location = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst92Quest3_Note = "You can complete the quest just inside the instance."
+Inst92Quest3_Prequest = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst92Quest3_Folgequest = "Journey To The Sunwell"
+Inst92Quest3PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -11704,13 +11789,25 @@ Inst92Quest2FQuest_HORDE = "true"
 --
 Inst92Quest2name1_HORDE = "Emblem of Frost"
 
+--Quest 3 Horde
+Inst92Quest3_HORDE = "3. The Halls Of Reflection"
+Inst92Quest3_HORDE_Level = "80"
+Inst92Quest3_HORDE_Attain = "80"
+Inst92Quest3_HORDE_Aim = "Bring your Tempered Quel'Delar to Sword's Rest inside the Halls of Reflection."
+Inst92Quest3_HORDE_Location = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.5, 31.1"..WHITE..")"
+Inst92Quest3_HORDE_Note = "You can complete the quest just inside the instance."
+Inst92Quest3_HORDE_Prequest = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst92Quest3_HORDE_Folgequest = "Journey To The Sunwell"
+Inst92Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
 
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
 Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
 Inst93Caption = "Icecrown Citadel"
-Inst93QAA = "1 Quest"
-Inst93QAH = "1 Quest"
+Inst93QAA = "2 Quests"
+Inst93QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst93Quest1 = "1. Lord Marrowgar Must Die! (Weekly)"
@@ -11725,6 +11822,17 @@ Inst93Quest1_Folgequest = "None"
 Inst93Quest1name1 = "Emblem of Frost"
 Inst93Quest1name2 = "Emblem of Triumph"
 
+--Quest 2 Alliance
+Inst93Quest2 = "2. The Sacred and the Corrupt"
+Inst93Quest2_Level = "80"
+Inst93Quest2_Attain = "80"
+Inst93Quest2_Aim = "Place Light's Vengeance, 25 Primordial Saronite, Rotface's Acidic Blood, and Festergut's Acidic Blood in Highlord Mograine's runeforge in Icecrown Citadel."
+Inst93Quest2_Location = "Highlord Darion Mograine (Icecrown Citadel; "..YELLOW.."[]"..WHITE..")"
+Inst93Quest2_Note = "Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout."
+Inst93Quest2_Prequest = "None"
+Inst93Quest2_Folgequest = "Shadow's Edge"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst93Quest1_HORDE = Inst93Quest1
@@ -11738,6 +11846,16 @@ Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
 --
 Inst93Quest1name1_HORDE = Inst93Quest1name1
 Inst93Quest1name2_HORDE = Inst93Quest1name2
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst93Quest2_HORDE = Inst93Quest2
+Inst93Quest2_HORDE_Level = Inst93Quest2_Level
+Inst93Quest2_HORDE_Attain = Inst93Quest2_Attain
+Inst93Quest2_HORDE_Aim = Inst93Quest2_Aim
+Inst93Quest2_HORDE_Location = Inst93Quest2_Location
+Inst93Quest2_HORDE_Note = Inst93Quest2_Note
+Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
+Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
 
 
 

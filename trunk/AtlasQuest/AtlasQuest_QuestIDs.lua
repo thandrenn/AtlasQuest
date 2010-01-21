@@ -1618,7 +1618,13 @@ AQ_11492_Level = "70"
 
 --------------- INST68 - Sunwell Plateau ---------------
 
--- No quests.
+Inst68Quest1_QuestID = "24553"
+
+Inst68Quest1_HORDE_QuestID = "24564"
+
+
+AQ_24553_Level = "80"
+AQ_24564_Level = "80"
 
 
 
@@ -1957,15 +1963,19 @@ AQ_24589_Level = "80"
 
 Inst90Quest1_QuestID = "24510"
 Inst90Quest2_QuestID = "24499"
+Inst90Quest3_QuestID = "24476"
 
 Inst90Quest1_HORDE_QuestID = "24506"
 Inst90Quest2_HORDE_QuestID = "24511"
+Inst90Quest3_HORDE_QuestID = "24560"
 
 
 AQ_24510_Level = "80"
 AQ_24499_Level = "80"
+AQ_24476_Level = "80"
 AQ_24506_Level = "80"
 AQ_24511_Level = "80"
+AQ_24560_Level = "80"
 
 
 
@@ -1974,18 +1984,22 @@ AQ_24511_Level = "80"
 Inst91Quest1_QuestID = "24683"
 Inst91Quest2_QuestID = "24498"
 Inst91Quest3_QuestID = "24710"
+Inst91Quest4_QuestID = "24461"
 
 Inst91Quest1_HORDE_QuestID = "24682"
 Inst91Quest2_HORDE_QuestID = "24507"
 Inst91Quest3_HORDE_QuestID = "24712"
+Inst91Quest4_HORDE_QuestID = "24559"
 
 
 AQ_24683_Level = "80"
 AQ_24498_Level = "80"
 AQ_24710_Level = "80"
+AQ_24461_Level = "80"
 AQ_24682_Level = "80"
 AQ_24507_Level = "80"
 AQ_24712_Level = "80"
+AQ_24559_Level = "80"
 
 
 
@@ -1993,26 +2007,33 @@ AQ_24712_Level = "80"
 
 Inst92Quest1_QuestID = "24711"
 Inst92Quest2_QuestID = "24500"
+Inst92Quest3_QuestID = "24480"
 
 Inst92Quest1_HORDE_QuestID = "24713"
 Inst92Quest2_HORDE_QuestID = "24802"
+Inst92Quest3_HORDE_QuestID = "24561"
 
 
 AQ_24711_Level = "80"
 AQ_24500_Level = "80"
+AQ_24480_Level = "80"
 AQ_24713_Level = "80"
 AQ_24802_Level = "80"
+AQ_24561_Level = "80"
 
 
 
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
 Inst93Quest1_QuestID = "24590"
+Inst93Quest2_QuestID = "24545"
 
 Inst93Quest1_HORDE_QuestID = "24590"
+Inst93Quest2_HORDE_QuestID = "24545"
 
 
 AQ_24590_Level = "80"
+AQ_24545_Level = "80"
 
 
 

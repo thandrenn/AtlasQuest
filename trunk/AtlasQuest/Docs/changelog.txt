@@ -2,6 +2,21 @@
 Changelog
 =========
 
+Version 4.4.1 BETA
+
+- Updated map names for the Atlas 1.16.0.
+- Localizations updated: ruRU
+
+- Quests added:
+	- Pit of Saron: Reforging The Sword
+	- Forge of Souls: Tempering The Blade
+	- Halls of Reflection: The Halls Of Reflection
+	- Icecrown Citadel: The Sacred and the Corrupt
+	- Sunwell Plateau: The Purification of Quel'Delar
+
+
+
+
 Version 4.4.0
 
 - TOC updated for Patch 3.3.
@@ -33,7 +48,6 @@ Version 4.4.0
 	- Obsidian Sanctum: Sartharian Must Die! (Raid Weekly)
 	- Eye of Eternity: Malygos Must Die! (Raid Weekly)
 	- Icecrown Citadel: Lord Marrowgar Must Die! (Raid Weekly)
-	
 
 
 
