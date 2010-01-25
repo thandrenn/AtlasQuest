@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2009-12-14
-	最後更新﹕二○○九年十二月十四日
+	Last Updated: 2010-01-26
+	最後更新﹕二○一○年一月二十六日
 	新增　巫妖王之怒 - 冰冠城塞　故事＆任務
 
 --]]
@@ -9892,10 +9892,35 @@ Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 --------------- INST68 - Sunwell Plateau ---------------
 
-Inst68Story = "在最新的2.4版本《決戰太陽之井》中，燃燒軍團的惡魔領主基爾加丹將從太陽之井中重返世界，他的棲身之地將成為一個全新的25人副本：太陽之井高地。太陽之井高地是一個座落於奎爾達納斯島銀月城的北邊的團隊地城，暴風雪公司將太陽之井高地設計成在開放巫妖王之怒前最為困難的地城。太陽之井高地為俱備T6等級裝備的玩家設計，並且新增掉落部分T6套件（鞋子、腰帶以及護腕），還有部分非套件史詩裝備。\n\n太陽之井高地包含了戶外區域以及發生於建築內的戰役，玩家們將會在此發現被囚禁於此以提供城市主要能量的納魯、還有在最後建築裡的太陽井化身。\n\n太陽之井高地的建築將會有別於銀月城。\n\n"..GREEN.."引述自WoWWiki"
+Inst68Story = "燃燒軍團的惡魔領主基爾加丹將從太陽之井中重返世界，他的棲身之地將成為一個全新的25人副本：太陽之井高地。太陽之井高地是一個座落於奎爾達納斯島銀月城的北邊的團隊地城，暴風雪公司將太陽之井高地設計成在開放巫妖王之怒前最為困難的地城。太陽之井高地為俱備T6等級裝備的玩家設計，並且新增掉落部分T6套件（鞋子、腰帶以及護腕），還有部分非套件史詩裝備。\n\n太陽之井高地包含了戶外區域以及發生於建築內的戰役，玩家們將會在此發現被囚禁於此以提供城市主要能量的納魯、還有在最後建築裡的太陽井化身。\n\n太陽之井高地的建築將會有別於銀月城。\n\n"..GREEN.."引述自WoWWiki"
 Inst68Caption = "太陽井高地"
-Inst68QAA = "無任務"
-Inst68QAH = "無任務"
+Inst68QAA = "1 個任務"
+Inst68QAH = "1 個任務"
+
+--Quest 1 Alliance
+Inst68Quest1 = "1. 淨化奎爾達拉"
+Inst68Quest1_Level = "80"
+Inst68Quest1_Attain = "80"
+Inst68Quest1_Aim = "把淬鍛的奎爾德拉浸泡在太陽之井中。當你準備好進入太陽之井高地的時候，請找一名太陽之井守望者談話。"
+Inst68Quest1_Location = "赫杜倫．亮翼（奎爾達納斯; "..YELLOW.."44.5, 45.5"..WHITE.."）"
+Inst68Quest1_Note = "當你持有此任務並進入太陽之井時，你將會進入一個階段性的副本空間，且不需要與任何怪物和首領交戰。太陽之井在"..YELLOW.."[4]"..WHITE.."。"
+Inst68Quest1_Prequest = "薩洛瑞安．曦尋者"
+Inst68Quest1_Folgequest = "白銀誓盟的勝利"
+Inst68Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst68Quest1_HORDE = "1. 淨化奎爾達拉"
+Inst68Quest1_HORDE_Level = "80"
+Inst68Quest1_HORDE_Attain = "80"
+Inst68Quest1_HORDE_Aim = "把淬鍛的奎爾德拉浸泡在太陽之井中。當你準備好進入太陽之井高地的時候，請找一名太陽之井守望者談話。"
+Inst68Quest1_HORDE_Location = "赫杜倫．亮翼（奎爾達納斯; "..YELLOW.."44.5, 45.5"..WHITE.."）"
+Inst68Quest1_HORDE_Note = "當你持有此任務並進入太陽之井時，你將會進入一個階段性的副本空間，且不需要與任何怪物和首領交戰。太陽之井在"..YELLOW.."[4]"..WHITE.."。"
+Inst68Quest1_HORDE_Prequest = "薩洛瑞安．曦尋者"
+Inst68Quest1_HORDE_Folgequest = "奪日者的勝利"
+Inst68Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -12156,8 +12181,8 @@ Inst88Quest1name2_HORDE = Inst88Quest1name2
 
 Inst90Story = "矗立在北裂境的荒涼冰原之上，冰冠城塞等待著那些無法坐視巫妖王與其天譴軍誓言要消滅艾澤拉斯而齊聚的勇士們。來自世界各地的英雄們將會在此面對前所未見的艱鉅挑戰。但在你直闖城塞大門之前，另一條刺探敵情之路正呼喚著你。深入擁有三個不同區域的全新五人地城–冰冠城塞：冰封大廳，在珍娜．普勞德摩爾或希瓦娜斯．風行者的帶領之下，闖入巫妖王的禁地。在這幅員遼闊的地城中的第一個分區，眾魂熔爐很快的就會讓玩家親身體驗到通過天譴軍的據點，朝著城塞深處更加危機四伏的地點前進會是個什麼樣的考驗。珍娜將率領聯盟軍隊，而希瓦娜斯則會指揮著部落大軍。這階段的行動目標是摧毀在城塞的這個區域中所發現的裝置–靈魂研磨者，然後再繼續往前進——前提是，如果聯盟和部落的軍隊有辦法戰勝面前的敵人。"
 Inst90Caption = "眾魂熔爐"
-Inst90QAA = "2 個任務"
-Inst90QAH = "2 個任務"
+Inst90QAA = "3 個任務"
+Inst90QAH = "3 個任務"
 
 --Quest 1 Alliance
 Inst90Quest1 = "1. 進入冰凍城塞"
@@ -12176,12 +12201,24 @@ Inst90Quest2_Level = "80"
 Inst90Quest2_Attain = "80"
 Inst90Quest2_Aim = "殺掉布朗吉姆以及眾魂吞噬者來鞏固薩倫之淵的入口。"
 Inst90Quest2_Location = "珍娜．普勞德摩爾女士（眾魂熔爐; "..YELLOW.."入口"..WHITE.."）"
-Inst90Quest2_Note = "完成此任務之後才能進入薩倫之淵。"
+Inst90Quest2_Note = "在進入下一個副本之前於"..YELLOW.."[3]"..WHITE.."向珍娜．普勞德摩爾女士回報任務。完成此任務之後才能進入薩倫之淵。"
 Inst90Quest2_Prequest = "進入冰凍城塞"
 Inst90Quest2_Folgequest = "薩倫之淵（"..YELLOW.."薩倫之淵"..WHITE.."）"
 Inst90Quest2FQuest = "true"
 --
 Inst90Quest2name1 = "冰霜紋章"
+
+--Quest 3 Alliance
+Inst90Quest3 = "3. 淬鍊劍刃"
+Inst90Quest3_Level = "80"
+Inst90Quest3_Attain = "80"
+Inst90Quest3_Aim = "去眾魂爐缸淬鍊重鑄的奎爾德拉。"
+Inst90Quest3_Location = "卡拉迪斯．亮矛（冰冠城塞 - 奎爾德拉之眠; "..YELLOW.."74.2, 31.3"..WHITE.."）"
+Inst90Quest3_Note = "眾魂爐缸在"..YELLOW.."[3]"..WHITE.."，靠近地城的盡頭。"
+Inst90Quest3_Prequest = "重鑄劍刃（"..YELLOW.."薩倫之淵"..WHITE.."）"
+Inst90Quest3_Folgequest = "倒影大廳（"..YELLOW.."倒影大廳"..WHITE.."）"
+Inst90Quest3PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -12201,12 +12238,24 @@ Inst90Quest2_HORDE_Level = "80"
 Inst90Quest2_HORDE_Attain = "80"
 Inst90Quest2_HORDE_Aim = "殺掉布朗吉姆以及眾魂吞噬者來鞏固薩倫之淵的入口。"
 Inst90Quest2_HORDE_Location = "希瓦娜斯．風行者女士（眾魂熔爐; "..YELLOW.."入口"..WHITE.."）"
-Inst90Quest2_HORDE_Note = "完成此任務之後才能進入薩倫之淵。"
+Inst90Quest2_HORDE_Note = "在進入下一個副本之前於"..YELLOW.."[3]"..WHITE.."向希瓦娜斯．風行者女士回報任務。完成此任務之後才能進入薩倫之淵。"
 Inst90Quest2_HORDE_Prequest = "進入冰凍城塞"
 Inst90Quest2_HORDE_Folgequest = "薩倫之淵（"..YELLOW.."薩倫之淵"..WHITE.."）"
 Inst90Quest2FQuest_HORDE = "true"
 --
 Inst90Quest2name1_HORDE = "冰霜紋章"
+
+--Quest 3 Horde
+Inst90Quest3_HORDE = "3. 淬鍊劍刃"
+Inst90Quest3_HORDE_Level = "80"
+Inst90Quest3_HORDE_Attain = "80"
+Inst90Quest3_HORDE_Aim = "去眾魂爐缸淬鍊重鑄的奎爾德拉。"
+Inst90Quest3_HORDE_Location = "米拉連恩．日炎（冰冠城塞 - 奎爾德拉之眠; "..YELLOW.."74.5, 31.1"..WHITE.."）"
+Inst90Quest3_HORDE_Note = "眾魂爐缸在"..YELLOW.."[3]"..WHITE.."，靠近地城的盡頭。"
+Inst90Quest3_HORDE_Prequest = "重鑄劍刃（"..YELLOW.."薩倫之淵"..WHITE.."）"
+Inst90Quest3_HORDE_Folgequest = "倒影大廳（"..YELLOW.."倒影大廳"..WHITE.."）"
+Inst90Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -12214,15 +12263,15 @@ Inst90Quest2name1_HORDE = "冰霜紋章"
 
 Inst91Story = "矗立在北裂境的荒涼冰原之上，冰冠城塞等待著那些無法坐視巫妖王與其天譴軍誓言要消滅艾澤拉斯而齊聚的勇士們。來自世界各地的英雄們將會在此面對前所未見的艱鉅挑戰。但在你直闖城塞大門之前，另一條刺探敵情之路正呼喚著你。深入擁有三個不同區域的全新五人地城–冰冠城塞：冰封大廳，在珍娜．普勞德摩爾或希瓦娜斯．風行者的帶領之下，闖入巫妖王的禁地。只有那些攻克了眾魂熔爐的人才具備進入這個區域的資格。薩倫之淵將成為聯盟及部落大軍更深入巫妖王領地的通道，來到此地的玩家們將會立即感受到來自天譴領主提朗紐斯的威脅。然而想打敗他並非容易之事，在與提朗紐斯交戰之前，冒險者們得先完成來自隊長交辦的事—先釋放所有被天譴軍團囚禁的盟友們，否則在那之前，提朗紐斯通常都將敵人交給部下去處理，也就是城塞礦脈的工人。也許這次的難關能透露出些許有關巫妖王在冰封王座以外，倒影大廳深處的私人密室的蛛絲馬跡。"
 Inst91Caption = "薩倫之淵"
-Inst91QAA = "3 個任務"
-Inst91QAH = "3 個任務"
+Inst91QAA = "4 個任務"
+Inst91QAH = "4 個任務"
 
 --Quest 1 Alliance
 Inst91Quest1 = "1. 薩倫之淵"
 Inst91Quest1_Level = "80"
 Inst91Quest1_Attain = "80"
 Inst91Quest1_Aim = "在薩倫之淵裡面與珍娜．普勞德摩爾女士會合。"
-Inst91Quest1_Location = "珍娜．普勞德摩爾女士（眾魂熔爐; "..YELLOW.."[2]"..WHITE.."）"
+Inst91Quest1_Location = "珍娜．普勞德摩爾女士（眾魂熔爐; "..YELLOW.."[3]"..WHITE.."）"
 Inst91Quest1_Note = "珍娜．普勞德摩爾女士就在地城之中。"
 Inst91Quest1_Prequest = "受苦靈魂的回聲（"..YELLOW.."眾魂熔爐"..WHITE.."）"
 Inst91Quest1_Folgequest = "入城之徑"
@@ -12234,8 +12283,8 @@ Inst91Quest2 = "2. 入城之徑"
 Inst91Quest2_Level = "80"
 Inst91Quest2_Attain = "80"
 Inst91Quest2_Aim = "釋放15名聯盟奴隸並且殺掉鍛造大師加弗羅斯。"
-Inst91Quest2_Location = "珍娜．普勞德摩爾女士（薩倫之淵; "..YELLOW.."入口"..WHITE.."）"
-Inst91Quest2_Note = "聯盟奴隸遍佈於薩倫之淵。殺掉鍛造大師加弗羅斯之後，馬汀．維特斯將會出現在"..YELLOW.."[1]"..WHITE.."，向他回報此任務並接下後續任務。"
+Inst91Quest2_Location = "珍娜．普勞德摩爾女士（薩倫之淵; "..YELLOW.."[1]"..WHITE.."）"
+Inst91Quest2_Note = "聯盟奴隸遍佈於薩倫之淵。殺掉鍛造大師加弗羅斯之後，馬汀．維特斯將會出現在"..YELLOW.."[2]"..WHITE.."，向他回報此任務並接下後續任務。"
 Inst91Quest2_Prequest = "薩倫之淵"
 Inst91Quest2_Folgequest = "逃離深淵"
 Inst91Quest2FQuest = "true"
@@ -12247,12 +12296,24 @@ Inst91Quest3_Level = "80"
 Inst91Quest3_Attain = "80"
 Inst91Quest3_Aim = "殺掉天譴領主提朗紐斯。"
 Inst91Quest3_Location = "馬汀．維特斯（薩倫之淵; "..YELLOW.."[1]"..WHITE.."）"
-Inst91Quest3_Note = "天譴領主提朗紐斯在地城的盡頭。完成此任務之後才能進入倒影大廳。"
+Inst91Quest3_Note = "天譴領主提朗紐斯在地城的盡頭。在進入下一個副本之前向珍娜．普勞德摩爾女士回報任務。完成此任務之後才能進入倒影大廳。"
 Inst91Quest3_Prequest = "入城之徑"
 Inst91Quest3_Folgequest = "霜之哀傷（"..YELLOW.."倒影大廳"..WHITE.."）"
 Inst91Quest3FQuest = "true"
 --
 Inst91Quest3name1 = "冰霜紋章"
+
+--Quest 4 Alliance
+Inst91Quest4 = "4. 重鑄劍刃"
+Inst91Quest4_Level = "80"
+Inst91Quest4_Attain = "80"
+Inst91Quest4_Aim = "取得5個灌能薩鋼錠與鍛造大師之錘，並且利用它們製作出重鑄的奎爾德拉。"
+Inst91Quest4_Location = "卡拉迪斯．亮矛（冰冠城塞 - 奎爾德拉之眠; "..YELLOW.."74.2, 31.3"..WHITE.."）"
+Inst91Quest4_Note = "灌能薩鋼錠散落在整個深淵中，蒐集完成之後在靠近鍛造大師加弗羅斯的鐵鉆前使用鍛造大師之錘。"
+Inst91Quest4_Prequest = "回報卡拉迪斯．亮矛"
+Inst91Quest4_Folgequest = "淬鍊劍刃（"..YELLOW.."眾魂熔爐"..WHITE.."）"
+Inst91Quest4PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -12260,7 +12321,7 @@ Inst91Quest1_HORDE = "1. 薩倫之淵"
 Inst91Quest1_HORDE_Level = "80"
 Inst91Quest1_HORDE_Attain = "80"
 Inst91Quest1_HORDE_Aim = "在薩倫之淵裡面與希瓦娜斯．風行者女士會合。"
-Inst91Quest1_HORDE_Location = "希瓦娜斯．風行者女士（眾魂熔爐; "..YELLOW.."[2]"..WHITE.."）"
+Inst91Quest1_HORDE_Location = "希瓦娜斯．風行者女士（眾魂熔爐; "..YELLOW.."[3]"..WHITE.."）"
 Inst91Quest1_HORDE_Note = "希瓦娜斯．風行者女士就在地城之中。"
 Inst91Quest1_HORDE_Prequest = "受苦靈魂的回聲（"..YELLOW.."眾魂熔爐"..WHITE.."）"
 Inst91Quest1_HORDE_Folgequest = "入城之徑"
@@ -12272,8 +12333,8 @@ Inst91Quest2_HORDE = "2. 入城之徑"
 Inst91Quest2_HORDE_Level = "80"
 Inst91Quest2_HORDE_Attain = "80"
 Inst91Quest2_HORDE_Aim = "釋放15名部落奴隸並且殺掉鍛造大師加弗羅斯。"
-Inst91Quest2_HORDE_Location = "希瓦娜斯．風行者女士（薩倫之淵; "..YELLOW.."入口"..WHITE.."）"
-Inst91Quest2_HORDE_Note = "部落奴隸遍佈於薩倫之淵。殺掉鍛造大師加弗羅斯之後，葛剛．鐵顱將會出現在"..YELLOW.."[1]"..WHITE.."，向他回報此任務並接下後續任務。"
+Inst91Quest2_HORDE_Location = "希瓦娜斯．風行者女士（薩倫之淵; "..YELLOW.."[1]"..WHITE.."）"
+Inst91Quest2_HORDE_Note = "部落奴隸遍佈於薩倫之淵。殺掉鍛造大師加弗羅斯之後，葛剛．鐵顱將會出現在"..YELLOW.."[2]"..WHITE.."，向他回報此任務並接下後續任務。"
 Inst91Quest2_HORDE_Prequest = "薩倫之淵"
 Inst91Quest2_HORDE_Folgequest = "逃離深淵"
 Inst91Quest2FQuest_HORDE = "true"
@@ -12285,12 +12346,24 @@ Inst91Quest3_HORDE_Level = "80"
 Inst91Quest3_HORDE_Attain = "80"
 Inst91Quest3_HORDE_Aim = "殺掉天譴領主提朗紐斯。"
 Inst91Quest3_HORDE_Location = "葛剛．鐵顱（薩倫之淵; "..YELLOW.."[1]"..WHITE.."）"
-Inst91Quest3_HORDE_Note = "天譴領主提朗紐斯在地城的盡頭。完成此任務之後才能進入倒影大廳。"
+Inst91Quest3_HORDE_Note = "天譴領主提朗紐斯在地城的盡頭。在進入下一個副本之前向希瓦娜斯．風行者女士回報任務。完成此任務之後才能進入倒影大廳。"
 Inst91Quest3_HORDE_Prequest = "入城之徑"
 Inst91Quest3_HORDE_Folgequest = "霜之哀傷（"..YELLOW.."倒影大廳"..WHITE.."）"
 Inst91Quest3FQuest_HORDE = "true"
 --
 Inst91Quest3name1_HORDE = "冰霜紋章"
+
+--Quest 4 Horde
+Inst91Quest4_HORDE = "4. 重鑄劍刃"
+Inst91Quest4_HORDE_Level = "80"
+Inst91Quest4_HORDE_Attain = "80"
+Inst91Quest4_HORDE_Aim = "取得5個灌能薩鋼錠與鍛造大師之錘，把它們跟奎爾德拉的殘塊組合起來，並且製作出重鑄的奎爾德拉。"
+Inst91Quest4_HORDE_Location = "米拉連恩．日炎（冰冠城塞 - 奎爾德拉之眠; "..YELLOW.."74.5, 31.1"..WHITE.."）"
+Inst91Quest4_HORDE_Note = "灌能薩鋼錠散落在整個深淵中，蒐集完成之後在靠近鍛造大師加弗羅斯的鐵鉆前使用鍛造大師之錘。"
+Inst91Quest4_HORDE_Prequest = "回報米拉連恩．日炎"
+Inst91Quest4_HORDE_Folgequest = "淬鍊劍刃（"..YELLOW.."眾魂熔爐"..WHITE.."）"
+Inst91Quest4PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -12298,8 +12371,8 @@ Inst91Quest3name1_HORDE = "冰霜紋章"
 
 Inst92Story = "矗立在北裂境的荒涼冰原之上，冰冠城塞等待著那些無法坐視巫妖王與其天譴軍誓言要消滅艾澤拉斯而齊聚的勇士們。來自世界各地的英雄們將會在此面對前所未見的艱鉅挑戰。但在你直闖城塞大門之前，另一條刺探敵情之路正呼喚著你。深入擁有三個不同區域的全新五人地城–冰冠城塞：冰封大廳，在珍娜．普勞德摩爾或希瓦娜斯．風行者的帶領之下，闖入巫妖王的禁地。由珍娜和希瓦娜斯領頭，那些跟著來到此處的冒險者們很快的就發現面前擺著的武器正是霜之哀傷—巫妖王那把傳說中能使人墮落的武器。巫妖王的密室就在觸手可及的地方，但這也有可能是所有冒險至此的人的葬身之地。"
 Inst92Caption = "倒影大廳"
-Inst92QAA = "2 個任務"
-Inst92QAH = "2 個任務"
+Inst92QAA = "3 個任務"
+Inst92QAH = "3 個任務"
 
 --Quest 1 Alliance
 Inst92Quest1 = "1. 霜之哀傷"
@@ -12325,6 +12398,18 @@ Inst92Quest2_Folgequest = "無"
 Inst92Quest2FQuest = "true"
 --
 Inst92Quest2name1 = "冰霜紋章"
+
+--Quest 3 Alliance
+Inst92Quest3 = "3. 倒影大廳"
+Inst92Quest3_Level = "80"
+Inst92Quest3_Attain = "80"
+Inst92Quest3_Aim = "把淬鍛的奎爾德拉帶去倒影大廳裡的劍息之地。"
+Inst92Quest3_Location = "卡拉迪斯．亮矛（冰冠城塞 - 奎爾德拉之眠; "..YELLOW.."74.2, 31.3"..WHITE.."）"
+Inst92Quest3_Note = "當你進入倒影大廳之時便可完成此任務。"
+Inst92Quest3_Prequest = "淬鍊劍刃（"..YELLOW.."眾魂熔爐"..WHITE.."）"
+Inst92Quest3_Folgequest = "前往太陽之井"
+Inst92Quest3PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -12352,13 +12437,26 @@ Inst92Quest2FQuest_HORDE = "true"
 --
 Inst92Quest2name1_HORDE = "冰霜紋章"
 
+--Quest 3 Horde
+Inst92Quest3_HORDE = "3. 倒影大廳"
+Inst92Quest3_HORDE_Level = "80"
+Inst92Quest3_HORDE_Attain = "80"
+Inst92Quest3_HORDE_Aim = "把淬鍛的奎爾德拉帶去倒影大廳裡的劍息之地。"
+Inst92Quest3_HORDE_Location = "米拉連恩．日炎（冰冠城塞 - 奎爾德拉之眠; "..YELLOW.."74.5, 31.1"..WHITE.."）"
+Inst92Quest3_HORDE_Note = "當你進入倒影大廳之時便可完成此任務。"
+Inst92Quest3_HORDE_Prequest = "淬鍊劍刃（"..YELLOW.."眾魂熔爐"..WHITE.."）"
+Inst92Quest3_HORDE_Folgequest = "前往太陽之井"
+Inst92Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+
 
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
 Inst93Story = "對抗天譴軍團的戰火在北裂境不斷蔓延著，自從聯盟與部落踏上這塊冰凍荒原之後，無數的生命因此而犧牲，但艾澤拉斯的勇士們依然勇往直前，誓要踏平天譴軍團的根基，巫妖王的立身之處–冰冠城塞。提里奧．弗丁和銀白十字軍與達瑞安．莫格萊尼和黯刃騎士團為了共同的目標而組成了一支灰燼裁決軍。這支聯軍之中最強大的戰鬥員，以及聯盟與部落的勇士將會率領大軍直搗城塞。在全新的冰冠城塞團隊地城中，艾澤拉斯的精銳們將會在冰封王座前面對前所未見的恐懼挑戰，而巫妖王與他的符文劍—霜之哀傷正坐鎮以待，等著將這些英雄們送上亡命的歸途。"
 Inst93Caption = "冰冠城塞"
-Inst93QAA = "1 個任務"
-Inst93QAH = "1 個任務"
+Inst93QAA = "2 個任務"
+Inst93QAH = "2 個任務"
 
 --Quest 1 Alliance
 Inst93Quest1 = "1. 瑪洛嘉領主必須死! (每週團隊任務)"
@@ -12373,6 +12471,17 @@ Inst93Quest1_Folgequest = "無"
 Inst93Quest1name1 = "冰霜紋章"
 Inst93Quest1name2 = "凱旋紋章"
 
+--Quest 2 Alliance
+Inst93Quest2 = "2. 聖潔與墮落"
+Inst93Quest2_Level = "80"
+Inst93Quest2_Attain = "80"
+Inst93Quest2_Aim = "在冰冠城塞中，把『聖光報復』、25個原始薩鋼、『腐臉的酸性血液』以及『膿腸的酸性血液』放置在大領主莫格萊尼的符文熔爐。"
+Inst93Quest2_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..YELLOW.."[]"..WHITE.."）"
+Inst93Quest2_Note = "大領主莫格萊尼的符文熔爐在冰冠城塞的入口。\n\n『腐臉的酸性血液』以及『膿腸的酸性血液』只有在25人副本模式才會掉落，且每個團隊在每次只有一個人可以拾取。"
+Inst93Quest2_Prequest = "無"
+Inst93Quest2_Folgequest = "暗影之鋒"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst93Quest1_HORDE = Inst93Quest1
@@ -12386,6 +12495,16 @@ Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
 --
 Inst93Quest1name1_HORDE = Inst93Quest1name1
 Inst93Quest1name2_HORDE = Inst93Quest1name2
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst93Quest2_HORDE = Inst93Quest2
+Inst93Quest2_HORDE_Level = Inst93Quest2_Level
+Inst93Quest2_HORDE_Attain = Inst93Quest2_Attain
+Inst93Quest2_HORDE_Aim = Inst93Quest2_Aim
+Inst93Quest2_HORDE_Location = Inst93Quest2_Location
+Inst93Quest2_HORDE_Note = Inst93Quest2_Note
+Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
+Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
 
 
 
