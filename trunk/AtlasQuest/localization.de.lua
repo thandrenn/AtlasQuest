@@ -6167,7 +6167,7 @@ Inst29Quest11 = "11. Der Funkelmat 5200!"
 Inst29Quest11_Level = "30"
 Inst29Quest11_Attain = "25"
 Inst29Quest11_Aim = "Füge ein verschmutzen Gegendstand in den Funkelmat 5200, und sei Dir sicher das Du drei Silbermünzen hast um die Machine zu starten."
-Inst29Quest11_Location = "Sparklematic 5200 (Gnomeregan - The Clean Room; "..YELLOW.."[2]"..WHITE..")"
+Inst29Quest11_Location = "Funkelmat 5200 (Gnomeregan - Die saubere Zone; "..YELLOW.."[2]"..WHITE..")"
 Inst29Quest11_Note = "Du kannst diese Quest immer wiederholen solange Du verschmutzte Gegenstände hast."
 Inst29Quest11_Prequest = "None"
 Inst29Quest11_Folgequest = "None"
@@ -9736,7 +9736,7 @@ Inst68QAH = "Keine Quests"
 
 --------------- INST69 - Caverns of Time: Stratholme Past ---------------
 
-Inst69Story = "Prior to his unthinkable merger with the Lich King, Arthas waged war against the Scourge, bent on eradicating the plague of undeath that had spread throughout Lordaeron. After Arthas watched villages succumb to darkness and saw his fallen subjects transformed into hideous undead creatures, fear and hate engulfed his mind. Upon discovering signs of the plague within Stratholme, he knew it was only a matter of time before the residents of the city were reborn as Scourge agents. For Arthas, there was only one course of action: purge the city. Yet within the Caverns of Time, deceptive magic permeates Stratholme. The infinite dragons and their agents have targeted Arthas and his quest to cull the city, seeking to alter history. Fearing the temporal disruption might jeopardize Azeroth's very existence, the bronze dragonflight has called upon mortals to assist Arthas and ensure that the purge is carried out successfully. Regardless of how vile the event might seem, the keepers of time maintain that what was, must always be."
+Inst69Story = "Vor seiner undenkbaren Fusion mit dem Lich König, führte Arthas Krieg gegen die Geisel, verbohrt auf die Ausrottung der Untotenplage, die sich in Lordaeron ausgebreitet hatte. Nachdem Arthas sah, dass Dörfer der Finsternis erlagen und seine Gefallenen in schreckliche untote Kreaturen verwandelt wurden, überfluteten Angst und Hass seinen Verstand. Als er die Zeichen der Pest innerhalb von Stratholm sah, wusste er, dass es nur ein Frage der Zeit war, bevor die Bewohner der Stadt als Geisel-Agenten wieder geboren werden. Für Arthas gab es nur eine Vorgehensweise: Reinigung der Stadt.Doch innerhalb der Höhlen der Zeit, durchdringt trügerische Magie die Stadt Stratholme. Der Ewige Drachenschwarm und seine Agenten haben Arthas und seine Aufgabe die Stadt zu retten, ins Visier genommen, um die Geschichte zu verändern. Die Befürchtung die zeitliche Störung könnte Azeroth's Existenz sehr gefährden, sucht der Bronzene Drachenschwarm Sterbliche Helden, um Arthas zu helfen und sicherzustellen, dass die Reinigung der Stadt erfolgreich ausgeführt wird. Unabhängig davon wie abscheulich das Ereignis scheinen mag, behaupten die Behüter der Zeit, das was war, immer sein muss."
 Inst69Caption = "HdZ: Das Ausmerzen von Stratholme"
 Inst69QAA = "2 Quests"
 Inst69QAH = "2 Quests"
