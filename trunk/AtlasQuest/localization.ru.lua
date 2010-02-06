@@ -9607,31 +9607,31 @@ Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 Inst68Story = "Плато Солнечного колодца - это рейдовое подземелье, расположенное на острове Кель'Данас на север от Луносвета. Blizzard запланировал его как самое сложное рейдовое подземелье в игре до выхода Гнева Короля-лича. Плато Солнечного колодца настроено для игроков одетых в Т6 и предметы, выпадающие там, являются дополнительными вещами Т6 (ступни, пояс и наручи), также как и эпические предметы не из наборов. \n\nПодземелье содержит как открытые пространства, так и постройки, где игроки должны найти захваченного наару, который являетс изначальным источником силы города, и находится внутри финальной постройки Плато Солнечного колодца.\n\nАрхитектура Плато Солнечного колодца сравнима с архитектурой Луносвета.\n\n"..GREEN.."Взято из WoWWiki(перевел lorientalas)"
 Inst68Caption = "Плато Солнечного колодца"
-Inst68QAA = "1 pflfybt"
-Inst68QAH = "1 Quest"
+Inst68QAA = "1 задание"
+Inst68QAH = "1 задание"
 
 --Quest 1 Alliance
-Inst68Quest1 = "1. The Purification of Quel'Delar"
+Inst68Quest1 = "1. Очищение Кель'Делара"
 Inst68Quest1_Level = "80"
 Inst68Quest1_Attain = "80"
-Inst68Quest1_Aim = "Immerse your Tempered Quel'Delar in the Sunwell. Speak to a Warden of the Sunwell when you are ready to enter the Sunwell Plateau."
+Inst68Quest1_Aim = "Окуните закаленный Кель'Делар в Солнечный Колодец. Когда вы будете готовы войти на плато Солнечного Колодца, обратитесь к хранителю Солнечного Колодца."
 Inst68Quest1_Location = "Халдарон Светлое Крыло (Остров Кель'Данас; "..YELLOW.."44.5, 45.5"..WHITE..")"
 Inst68Quest1_Note = "Поговорите с Хранителем Солнечного колодца, чтобы попасть в подземелье. Вы попадете в специальное Плато Солнечного Колодца, в котором не будет мобов и боссов. Плато Солнечного Колодца находится "..YELLOW.."[4]"..WHITE.."."
 Inst68Quest1_Prequest = "Талориен Искатель Рассвета"
-Inst68Quest1_Folgequest = "A Victory For The Silver Covenant"
+Inst68Quest1_Folgequest = "Победа Серебряного союза"
 Inst68Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst68Quest1_HORDE = "1. The Purification of Quel'Delar"
+Inst68Quest1_HORDE = "1. Очищение Кель'Делара"
 Inst68Quest1_HORDE_Level = "80"
 Inst68Quest1_HORDE_Attain = "80"
-Inst68Quest1_HORDE_Aim = "Immerse your Tempered Quel'Delar in the Sunwell. Speak to a Warden of the Sunwell when you are ready to enter the Sunwell Plateau."
+Inst68Quest1_HORDE_Aim = "Окуните закаленный Кель'Делар в Солнечный Колодец. Когда вы будете готовы войти на плато Солнечного Колодца, обратитесь к хранителю Солнечного Колодца."
 Inst68Quest1_HORDE_Location = "Халдарон Светлое Крыло (Остров Кель'Данас; "..YELLOW.."44.5, 45.5"..WHITE..")"
 Inst68Quest1_HORDE_Note = "Поговорите с Хранителем Солнечного колодца, чтобы попасть в подземелье. Вы попадете в специальное Плато Солнечного Колодца, в котором не будет мобов и боссов. Плато Солнечного Колодца находится "..YELLOW.."[4]"..WHITE.."."
 Inst68Quest1_HORDE_Prequest = "Талориен Искатель Рассвета"
-Inst68Quest1_HORDE_Folgequest = "A Victory For The Sunreavers"
+Inst68Quest1_HORDE_Folgequest = "Победа Серебряного союза"
 Inst68Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -11545,35 +11545,35 @@ Inst90QAA = "3 задания"
 Inst90QAH = "3 задания"
 
 --Quest 1 Alliance
-Inst90Quest1 = "1. Inside the Frozen Citadel"
+Inst90Quest1 = "1. В ледяную цитадель"
 Inst90Quest1_Level = "80"
 Inst90Quest1_Attain = "80"
-Inst90Quest1_Aim = "Enter The Forge of Souls from the side of Icecrown Citadel and find Lady Jaina Proudmoore."
-Inst90Quest1_Location = "Apprentice Nelphi (Даларан - Около южного (альянсовского) банка)"
-Inst90Quest1_Note = "Lady Jaina Proudmoore находится внутри подземелья."
+Inst90Quest1_Aim = "Войдите в Кузню Душ со стороны Цитадели Ледяной Короны и найдите леди Джайну Праудмур."
+Inst90Quest1_Location = "Ученица Нельфи (Даларан - Около южного (альянсовского) банка)"
+Inst90Quest1_Note = "Леди Джайна Праудмур находится внутри подземелья."
 Inst90Quest1_Prequest = "Нет"
-Inst90Quest1_Folgequest = "Echoes of Tortured Souls"
+Inst90Quest1_Folgequest = "Тени замученных душ"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst90Quest2 = "2. Echoes of Tortured Souls"
+Inst90Quest2 = "2. Тени замученных душ"
 Inst90Quest2_Level = "80"
 Inst90Quest2_Attain = "80"
-Inst90Quest2_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
-Inst90Quest2_Location = "Lady Jaina Proudmoore (Кузня душ; "..YELLOW.."Entrance"..WHITE..")"
+Inst90Quest2_Aim = "Чтобы обеспечить безопасный проход в Яму Сарона, убейте Броньяма и Пожирателя Душ."
+Inst90Quest2_Location = "Леди Джайна Праудмур (Кузня душ; "..YELLOW.."Вход"..WHITE..")"
 Inst90Quest2_Note = "Завершение этого задания откроет доступ в Яму Сарона. Завершите это задание и получите следующее до того как покинете подземелье."
-Inst90Quest2_Prequest = "Echoes of Tortured Souls"
-Inst90Quest2_Folgequest = "The Pit of Saron ("..YELLOW.."Яма Сарона"..WHITE..")"
+Inst90Quest2_Prequest = "В ледяную цитадель"
+Inst90Quest2_Folgequest = "Яма Сарона ("..YELLOW.."Яма Сарона"..WHITE..")"
 Inst90Quest2FQuest = "true"
 --
-Inst90Quest2name1 = "Emblem of Frost"
+Inst90Quest2name1 = "Эмблема льда"
 
 --Quest 3 Alliance
 Inst90Quest3 = "3. Закалить клинок"
 Inst90Quest3_Level = "80"
 Inst90Quest3_Attain = "80"
 Inst90Quest3_Aim = "Закалите перекованный Кель'Делар в горниле душ."
-Inst90Quest3_Location = "Caladis Brightspear (Ледяная корона - Покой Кель'Делара; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst90Quest3_Location = "Каладис Сияющее Копье (Ледяная корона - Покой Кель'Делара; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst90Quest3_Note = "Горнило душ находится "..YELLOW.."[3]"..WHITE..", около выхода из подземелья."
 Inst90Quest3_Prequest = "Перековать меч ("..YELLOW.."Яма Сарона"..WHITE..")"
 Inst90Quest3_Folgequest = "Залы отражений ("..YELLOW.."Залы отражений"..WHITE..")"
@@ -11582,28 +11582,28 @@ Inst90Quest3PreQuest = "true"
 
 
 --Quest 1 Horde
-Inst90Quest1_HORDE = "1. Inside the Frozen Citadel"
+Inst90Quest1_HORDE = "1. В ледяную цитадель"
 Inst90Quest1_HORDE_Level = "80"
 Inst90Quest1_HORDE_Attain = "80"
-Inst90Quest1_HORDE_Aim = "Enter The Forge of Souls from the side of Icecrown Citadel and locate Lady Sylvanas Windrunner."
-Inst90Quest1_HORDE_Location = "Dark Ranger Vorel (Даларан - Около северного (ордынского) банка)"
-Inst90Quest1_HORDE_Note = "Lady Sylvanas Windrunner находится внутри подземелья."
+Inst90Quest1_HORDE_Aim = "Войдите в Кузню Душ со стороны Цитадели Ледяной Короны и найдите леди Сильвану Ветрокрылую."
+Inst90Quest1_HORDE_Location = "Темный следопыт Ворель (Даларан - Около северного (ордынского) банка)"
+Inst90Quest1_HORDE_Note = "Леди Сильвана Ветрокрылая находится внутри подземелья."
 Inst90Quest1_HORDE_Prequest = "Нет"
-Inst90Quest1_HORDE_Folgequest = "Echoes of Tortured Souls"
+Inst90Quest1_HORDE_Folgequest = "Тени замученных душ"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst90Quest2_HORDE = "2. Echoes of Tortured Souls"
+Inst90Quest2_HORDE = "2. Тени замученных душ"
 Inst90Quest2_HORDE_Level = "80"
 Inst90Quest2_HORDE_Attain = "80"
-Inst90Quest2_HORDE_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
-Inst90Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Кузня душ; "..YELLOW.."Entrance"..WHITE..")"
+Inst90Quest2_HORDE_Aim = "Чтобы обеспечить безопасный проход в Яму Сарона, убейте Броньяма и Пожирателя Душ."
+Inst90Quest2_HORDE_Location = "Леди Сильвана Ветрокрылая (Кузня душ; "..YELLOW.."Вход"..WHITE..")"
 Inst90Quest2_HORDE_Note = "Завершение этого задания откроет доступ в Яму Сарона. Завершите это задание и получите следующее до того как покинете подземелье."
-Inst90Quest2_HORDE_Prequest = "Inside the Frozen Citadel"
-Inst90Quest2_HORDE_Folgequest = "The Pit of Saron ("..YELLOW.."Яма Сарона"..WHITE..")"
+Inst90Quest2_HORDE_Prequest = "В ледяную цитадель"
+Inst90Quest2_HORDE_Folgequest = "Яма Сарона ("..YELLOW.."Яма Сарона"..WHITE..")"
 Inst90Quest2FQuest_HORDE = "true"
 --
-Inst90Quest2name1_HORDE = "Emblem of Frost"
+Inst90Quest2name1_HORDE = "Эмблема льда"
 
 --Quest 3 Horde
 Inst90Quest3_HORDE = "3. Закалить клинок"
@@ -11627,91 +11627,91 @@ Inst91QAA = "4 задания"
 Inst91QAH = "4 задания"
 
 --Quest 1 Alliance
-Inst91Quest1 = "1. The Pit of Saron"
+Inst91Quest1 = "1. Яма Сарона"
 Inst91Quest1_Level = "80"
 Inst91Quest1_Attain = "80"
-Inst91Quest1_Aim = "Meet Lady Jaina Proudmoore just inside the Pit of Saron."
-Inst91Quest1_Location = "Lady Jaina Proudmoore (Кузня душ; "..YELLOW.."[3]"..WHITE..")"
-Inst91Quest1_Note = "Lady Jaina Proudmoore находится внутри подземелья."
-Inst91Quest1_Prequest = "Echoes of Tortured Souls ("..YELLOW.."Кузня душ"..WHITE..")"
-Inst91Quest1_Folgequest = "The Path to the Citadel"
+Inst91Quest1_Aim = "Встретьтесь с Леди Джайной Праудмур на входе в Яму Сарона."
+Inst91Quest1_Location = "Леди Джайна Праудмур (Кузня душ; "..YELLOW.."[3]"..WHITE..")"
+Inst91Quest1_Note = "Леди Джайна Праудмур находится внутри подземелья."
+Inst91Quest1_Prequest = "Тени замученных душ ("..YELLOW.."Кузня душ"..WHITE..")"
+Inst91Quest1_Folgequest = "Путь в Цитадель"
 Inst91Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst91Quest2 = "2. The Path to the Citadel"
+Inst91Quest2 = "2. Путь в Цитадель"
 Inst91Quest2_Level = "80"
 Inst91Quest2_Attain = "80"
-Inst91Quest2_Aim = "Free 15 Alliance Slaves and kill Forgemaster Garfrost."
-Inst91Quest2_Location = "Lady Jaina Proudmoore (Яма Сарона; "..YELLOW.."1"..WHITE..")"
-Inst91Quest2_Note = "Рабы встречаются по всей яме. Задание сдается Martin Victus, который находится "..YELLOW.."[2]"..WHITE.." после победы над начальником кузни Гархладом."
-Inst91Quest2_Prequest = "The Pit of Saron"
-Inst91Quest2_Folgequest = "Deliverance from the Pit"
+Inst91Quest2_Aim = "Освободите 15 порабощенных солдат Альянса и убейте начальника кузни Гархлада."
+Inst91Quest2_Location = "Леди Джайна Праудмур (Яма Сарона; "..YELLOW.."1"..WHITE..")"
+Inst91Quest2_Note = "Рабы встречаются по всей яме. Задание сдается Мартину Викту, который находится "..YELLOW.."[2]"..WHITE.." после победы над начальником кузни Гархладом."
+Inst91Quest2_Prequest = "Яма Сарона"
+Inst91Quest2_Folgequest = "Зачистка Ямы"
 Inst91Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst91Quest3 = "3. Deliverance from the Pit"
+Inst91Quest3 = "3. Зачистка Ямы"
 Inst91Quest3_Level = "80"
 Inst91Quest3_Attain = "80"
 Inst91Quest3_Aim = "Убейте Повелителя Плети Тирания."
-Inst91Quest3_Location = "Martin Victus (Яма Сарона; "..YELLOW.."[1]"..WHITE..")"
+Inst91Quest3_Location = "Мартин Викт (Яма Сарона; "..YELLOW.."[1]"..WHITE..")"
 Inst91Quest3_Note = "Повелитель Плети Тираний находится в конце подземелья. Завершение этого задания откроет доступ в Залы отражений. Завершите это задание и получите следующее до того как покинете подземелье."
-Inst91Quest3_Prequest = "The Path to the Citadel"
-Inst91Quest3_Folgequest = "Frostmourne ("..YELLOW.."Залы отражений"..WHITE..")"
+Inst91Quest3_Prequest = "Путь в Цитадель"
+Inst91Quest3_Folgequest = "Ледяная Скорбь ("..YELLOW.."Залы отражений"..WHITE..")"
 Inst91Quest3FQuest = "true"
 --
-Inst91Quest3name1 = "Emblem of Frost"
+Inst91Quest3name1 = "Эмблема льда"
 
 --Quest 4 Alliance
 Inst91Quest4 = "4. Перековать меч"
 Inst91Quest4_Level = "80"
 Inst91Quest4_Attain = "80"
 Inst91Quest4_Aim = "Возьмите 5 слитков зараженного саронита и молот начальника кузни, чтобы соединить фрагменты Кель'Делара и создать перекованный Кель'Делар."
-Inst91Quest4_Location = "Caladis Brightspear (Ледяная корона - Покой Кель'Делара; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst91Quest4_Location = "Каладис Сияющее Копье (Ледяная корона - Покой Кель'Делара; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst91Quest4_Note = "Слитки зараженного саронита лежат в яме повсеместно. Используйте молот начальника кузни, который падает с начальника кузни Гархлада, на кузню около него."
-Inst91Quest4_Prequest = "Возвращение к Caladis Brightspear"
+Inst91Quest4_Prequest = "Возвращение к Каладису Сияющему Копью"
 Inst91Quest4_Folgequest = "Закалить клинок ("..YELLOW.."Кузня душ"..WHITE..")"
 Inst91Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst91Quest1_HORDE = "1. The Pit of Saron"
+Inst91Quest1_HORDE = "1. Яма Сарона"
 Inst91Quest1_HORDE_Level = "80"
 Inst91Quest1_HORDE_Attain = "80"
-Inst91Quest1_HORDE_Aim = "Meet Lady Sylvanas Windrunner inside the entrace to the Pit of Saron."
-Inst91Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Кузня душ; "..YELLOW.."[3]"..WHITE..")"
-Inst91Quest1_HORDE_Note = "Lady Sylvanas Windrunner находится внутри подземелья."
-Inst91Quest1_HORDE_Prequest = "Echoes of Tortured Souls ("..YELLOW.."Кузня душ"..WHITE..")"
-Inst91Quest1_HORDE_Folgequest = "The Path to the Citadel"
+Inst91Quest1_HORDE_Aim = "Встретьтесь с леди Сильваной Ветрокрылой на входе в Яму Сарона."
+Inst91Quest1_HORDE_Location = "Леди Сильвана Ветрокрылая (Кузня душ; "..YELLOW.."[3]"..WHITE..")"
+Inst91Quest1_HORDE_Note = "Леди Сильвана Ветрокрылая находится внутри подземелья."
+Inst91Quest1_HORDE_Prequest = "Тени замученных душ ("..YELLOW.."Кузня душ"..WHITE..")"
+Inst91Quest1_HORDE_Folgequest = "Путь в Цитадель"
 Inst91Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst91Quest2_HORDE = "2. The Path to the Citadel"
+Inst91Quest2_HORDE = "2. Путь в Цитадель"
 Inst91Quest2_HORDE_Level = "80"
 Inst91Quest2_HORDE_Attain = "80"
-Inst91Quest2_HORDE_Aim = "Free 15 Horde Slaves and kill Forgemaster Garfrost."
-Inst91Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Яма Сарона; "..YELLOW.."1"..WHITE..")"
-Inst91Quest2_HORDE_Note = "Рабы встречаются по всей яме. Задание сдается Gorkun Ironskull, который находится"..YELLOW.."[2]"..WHITE.." после победы над начальником кузни Гархладом."
-Inst91Quest2_HORDE_Prequest = "The Pit of Saron"
-Inst91Quest2_HORDE_Folgequest = "Deliverance from the Pit"
+Inst91Quest2_HORDE_Aim = "Освободите 15 порабощенных солдат Орды и убейте начальника кузни Гархлада."
+Inst91Quest2_HORDE_Location = "Леди Сильвана Ветрокрылая (Яма Сарона; "..YELLOW.."1"..WHITE..")"
+Inst91Quest2_HORDE_Note = "Рабы встречаются по всей яме. Задание сдается Горкуну Железный Череп, который находится"..YELLOW.."[2]"..WHITE.." после победы над начальником кузни Гархладом."
+Inst91Quest2_HORDE_Prequest = "Яма Сарона"
+Inst91Quest2_HORDE_Folgequest = "Зачистка Ямы"
 Inst91Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst91Quest3_HORDE = "3. Deliverance from the Pit"
+Inst91Quest3_HORDE = "3. Зачистка Ямы"
 Inst91Quest3_HORDE_Level = "80"
 Inst91Quest3_HORDE_Attain = "80"
 Inst91Quest3_HORDE_Aim = "Убейте Повелителя Плети Тирания."
-Inst91Quest3_HORDE_Location = "Gorkun Ironskull (Яма Сарона; "..YELLOW.."[1]"..WHITE..")"
+Inst91Quest3_HORDE_Location = "Горкун Железный Череп (Яма Сарона; "..YELLOW.."[1]"..WHITE..")"
 Inst91Quest3_HORDE_Note = "Повелитель Плети Тираний находится в конце подземелья. Завершение этого задания откроет доступ в Залы отражений. Завершите это задание и получите следующее до того как покинете подземелье."
-Inst91Quest3_HORDE_Prequest = "The Path to the Citadel"
-Inst91Quest3_HORDE_Folgequest = "Frostmourne ("..YELLOW.."Залы отражений"..WHITE..")"
+Inst91Quest3_HORDE_Prequest = "Путь в Цитадель"
+Inst91Quest3_HORDE_Folgequest = "Ледяная Скорбь ("..YELLOW.."Залы отражений"..WHITE..")"
 Inst91Quest3FQuest_HORDE = "true"
 --
-Inst91Quest3name1_HORDE = "Emblem of Frost"
+Inst91Quest3name1_HORDE = "Эмблема льда"
 
 --Quest 4 Horde
 Inst91Quest4_HORDE = "4. Перековать меч"
@@ -11735,36 +11735,36 @@ Inst92QAA = "3 задания"
 Inst92QAH = "3 задания"
 
 --Quest 1 Alliance
-Inst92Quest1 = "1. Frostmourne"
+Inst92Quest1 = "1. Ледяная Скорбь"
 Inst92Quest1_Level = "80"
 Inst92Quest1_Attain = "80"
-Inst92Quest1_Aim = "Meet Lady Jaina Proudmoore at the entrance to the Halls of Reflection."
-Inst92Quest1_Location = "Lady Jaina Proudmoore (Яма Сарона; "..YELLOW.."[3]"..WHITE..")"
-Inst92Quest1_Note = "Вы получите это задание от Lady Jaina Proudmoore после прохождения Ямы Сарона и сможете его завершить в начале Залов отражений. Убедитесь, что все члены группы сдали это задание до запуска ивента. Следующее задание будет доступно после завершения ивента."
-Inst92Quest1_Prequest = "Deliverance from the Pit ("..YELLOW.."Яма Сарона"..WHITE..")"
-Inst92Quest1_Folgequest = "Wrath of the Lich King"
+Inst92Quest1_Aim = "Встретьтесь с леди Джайной Праудмур у входа в Залы Отражений."
+Inst92Quest1_Location = "Леди Джайна Праудмур (Яма Сарона; "..YELLOW.."[3]"..WHITE..")"
+Inst92Quest1_Note = "Вы получите это задание от Леди Джайны Праудмур после прохождения Ямы Сарона и сможете его завершить в начале Залов отражений. Убедитесь, что все члены группы сдали это задание до запуска ивента. Следующее задание будет доступно после завершения ивента."
+Inst92Quest1_Prequest = "Зачистка Ямы ("..YELLOW.."Яма Сарона"..WHITE..")"
+Inst92Quest1_Folgequest = "Гнев Короля-лича"
 Inst92Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst92Quest2 = "2. Wrath of the Lich King"
+Inst92Quest2 = "2. Гнев Короля-лича"
 Inst92Quest2_Level = "80"
 Inst92Quest2_Attain = "80"
-Inst92Quest2_Aim = "Find Lady Jaina Proudmoore and escape the Halls of Reflection."
+Inst92Quest2_Aim = "Найдите леди Джайну Праудмур и выберитесь из Залов Отражений."
 Inst92Quest2_Location = "Залы отражений"
-Inst92Quest2_Note = "Lady Jaina Proudmoore будет в следующей комнате. Вы сможете завершить задание после того как спасетесь от Короля Лича."
-Inst92Quest2_Prequest = "Frostmourne"
+Inst92Quest2_Note = "Леди Джайна Праудмур будет в следующей комнате. Вы сможете завершить задание после того как спасетесь от Короля Лича."
+Inst92Quest2_Prequest = "Ледяная Скорбь"
 Inst92Quest2_Folgequest = "Нет"
 Inst92Quest2FQuest = "true"
 --
-Inst92Quest2name1 = "Emblem of Frost"
+Inst92Quest2name1 = "Эмблема льда"
 
 --Quest 3 Alliance
 Inst92Quest3 = "3. Залы отражений"
 Inst92Quest3_Level = "80"
 Inst92Quest3_Attain = "80"
 Inst92Quest3_Aim = "Отнесите Кель'Делар в Покои Клинка, что в Залах Отражений."
-Inst92Quest3_Location = "Caladis Brightspear (Ледяная корона - Покой Кель'Делара; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst92Quest3_Location = "Каладис Сияющее Копье (Ледяная корона - Покой Кель'Делара; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst92Quest3_Note = "Вы сможете завершить это задание зайдя в подземелье. На подходе к Фростморну Кель'Далар вырвется из рук и атакует Вас. Убейте меч и подберите Укрощенный Кель'Делар."
 Inst92Quest3_Prequest = "Закалить клинок ("..YELLOW.."Кузня душ"..WHITE..")"
 Inst92Quest3_Folgequest = "Путешествие к Солнечному Колодцу"
@@ -11773,29 +11773,29 @@ Inst92Quest3PreQuest = "true"
 
 
 --Quest 1 Horde
-Inst92Quest1_HORDE = "1. Frostmourne"
+Inst92Quest1_HORDE = "1. Ледяная Скорбь"
 Inst92Quest1_HORDE_Level = "80"
 Inst92Quest1_HORDE_Attain = "80"
-Inst92Quest1_HORDE_Aim = "Meet Lady Sylvanas Windrunner inside the entrance to the Halls of Reflection."
-Inst92Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Яма Сарона; "..YELLOW.."[3]"..WHITE..")"
-Inst92Quest1_HORDE_Note = "Вы получите это задание от Lady Sylvanas Windrunner после прохождения Ямы Сарона и сможете его завершить в начале Залов отражений. Убедитесь, что все члены группы сдали это задание до запуска ивента. Следующее задание будет доступно после завершения ивента."
-Inst92Quest1_HORDE_Prequest = "Deliverance from the Pit ("..YELLOW.."Яма Сарона"..WHITE..")"
-Inst92Quest1_HORDE_Folgequest = "Wrath of the Lich King"
+Inst92Quest1_HORDE_Aim = "Встретьтесь с леди Сильваной Ветрокрылой на входе в Залы Отражений."
+Inst92Quest1_HORDE_Location = "Леди Сильвана Ветрокрылая (Яма Сарона; "..YELLOW.."[3]"..WHITE..")"
+Inst92Quest1_HORDE_Note = "Вы получите это задание от Леди Сильваны Ветрокрылой после прохождения Ямы Сарона и сможете его завершить в начале Залов отражений. Убедитесь, что все члены группы сдали это задание до запуска ивента. Следующее задание будет доступно после завершения ивента."
+Inst92Quest1_HORDE_Prequest = "Зачистка Ямы ("..YELLOW.."Яма Сарона"..WHITE..")"
+Inst92Quest1_HORDE_Folgequest = "Гнев Короля-лича"
 Inst92Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst92Quest2_HORDE = "2. Wrath of the Lich King"
+Inst92Quest2_HORDE = "2. Гнев Короля-лича"
 Inst92Quest2_HORDE_Level = "80"
 Inst92Quest2_HORDE_Attain = "80"
-Inst92Quest2_HORDE_Aim = "Find Lady Sylvanas Windrunner and escape the Halls of Reflection."
+Inst92Quest2_HORDE_Aim = "Найдите леди Сильвану Ветрокрылую и выберитесь из Залов Отражений."
 Inst92Quest2_HORDE_Location = "Залы отражений"
-Inst92Quest2_HORDE_Note = "Lady Sylvanas Windrunner будет в следующей комнате. Вы сможете завершить задание после того как спасетесь от Короля Лича."
-Inst92Quest2_HORDE_Prequest = "Frostmourne"
+Inst92Quest2_HORDE_Note = "Леди Сильвана Ветрокрылая будет в следующей комнате. Вы сможете завершить задание после того как спасетесь от Короля Лича."
+Inst92Quest2_HORDE_Prequest = "Ледяная Скорбь"
 Inst92Quest2_HORDE_Folgequest = "Нет"
 Inst92Quest2FQuest_HORDE = "true"
 --
-Inst92Quest2name1_HORDE = "Emblem of Frost"
+Inst92Quest2name1_HORDE = "Эмблема льда"
 
 --Quest 3 Horde
 Inst92Quest3_HORDE = "3. Залы отражений"
@@ -11827,18 +11827,18 @@ Inst93Quest1_Note = "Лорд Ребрад находится "..YELLOW.." [1]".
 Inst93Quest1_Prequest = "Нет"
 Inst93Quest1_Folgequest = "Нет"
 --
-Inst93Quest1name1 = "Emblem of Frost"
-Inst93Quest1name2 = "Emblem of Triumph"
+Inst93Quest1name1 = "Эмблема льда"
+Inst93Quest1name2 = "Эмблема триумфа"
 
 --Quest 2 Alliance
-Inst93Quest2 = "2. The Sacred and the Corrupt"
+Inst93Quest2 = "2. Святость и скверна"
 Inst93Quest2_Level = "80"
 Inst93Quest2_Attain = "80"
-Inst93Quest2_Aim = "Place Light's Vengeance, 25 Primordial Saronite, Rotface's Acidic Blood, and Festergut's Acidic Blood in Highlord Mograine's runeforge in Icecrown Citadel."
-Inst93Quest2_Location = "Highlord Darion Mograine (Icecrown Citadel; "..YELLOW.."[]"..WHITE..")"
-Inst93Quest2_Note = "Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout."
+Inst93Quest2_Aim = "Поместите Отмщение Света, 25 кусков древнейшего саронита, разъедающую кровь Гниломорда и разъедающую кровь Тухлопуза в кузню рун Верховного лорда Могрейна в Цитадели Ледяной Короны."
+Inst93Quest2_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..YELLOW.."[]"..WHITE..")"
+Inst93Quest2_Note = "Верховный лорд Дарион Могрейн находится на входе в Цитадель Ледяной Короны.\n\nРазъедающая кровь Гниломорда и Разъедающая кровь Тухлопуза падает только в подземелье на 25 человек и может быть подобрана только одним членом рейда."
 Inst93Quest2_Prequest = "Нет"
-Inst93Quest2_Folgequest = "Shadow's Edge"
+Inst93Quest2_Folgequest = "Грань Тьмы"
 -- No Rewards for this quest
 
 
