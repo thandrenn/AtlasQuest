@@ -11554,7 +11554,7 @@ Inst90Quest2_Attain = "80"
 Inst90Quest2_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
 Inst90Quest2_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
 Inst90Quest2_Note = "Turn the quest in to Lady Jaina Proudmoore before at "..YELLOW.."[3]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
-Inst90Quest2_Prequest = "Echoes of Tortured Souls"
+Inst90Quest2_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest2FQuest = "true"
 --
