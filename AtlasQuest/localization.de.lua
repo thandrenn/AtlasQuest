@@ -4402,8 +4402,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgs nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgs die Burg des adligen Barons Silberlein jenseits des unscheinbaren Dörfchens Lohenscheit angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgs als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silberlein."
 Inst21Caption = "Burg Schattenfang"
-Inst21QAA = "2 Quests"
-Inst21QAH = "4 Quests"
+Inst21QAA = "3 Quests"
+Inst21QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. Die Prüfung der Rechtschaffenheit (Paladin)"
@@ -4431,6 +4431,22 @@ Inst21Quest2_Folgequest = "Nein"
 --
 Inst21Quest2name1 = "Kugel von Soran'ruk"
 Inst21Quest2name2 = "Stab von Soran'ruk"
+
+--Quest 3 Allianz
+Inst21Quest3 = "3. Liebe muß wehtun"
+Inst21Quest3_Level = "??"
+Inst21Quest3_Attain = "??"
+Inst21Quest3_Aim = "Bezwingt das Apotheker-Trio der Chemiemanufaktur Krone in der Burg Schattenfang."
+Inst21Quest3_Location = ""
+Inst21Quest3_Note = "Diese Quest kann nur während des Events Liebe liegt in der Luft absolviert werden."
+Inst21Quest3_Prequest = "Nein"
+Inst21Quest3_Folgequest = "Nein"
+
+Inst21Quest3name1 = ""
+Inst21Quest3name2 = ""
+Inst21Quest3name1 = ""
+Inst21Quest3name2 = ""
+Inst21Quest3name1 = ""
 
 
 --Quest 1 Horde
@@ -4482,6 +4498,22 @@ Inst21Quest4_HORDE_Folgequest = Inst21Quest2_Folgequest
 --
 Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
+
+--Quest 5 Horde
+Inst21Quest5 = "5. Liebe muß wehtun"
+Inst21Quest5_Level = "??"
+Inst21Quest5_Attain = "??"
+Inst21Quest5_Aim = "Bezwingt das Apotheker-Trio der Chemiemanufaktur Krone in der Burg Schattenfang."
+Inst21Quest5_Location = ""
+Inst21Quest5_Note = "Diese Quest kann nur während des Events Liebe liegt in der Luft absolviert werden."
+Inst21Quest5_Prequest = "Nein"
+Inst21Quest5_Folgequest = "Nein"
+
+Inst21Quest5name1 = ""
+Inst21Quest5name2 = ""
+Inst21Quest5name1 = ""
+Inst21Quest5name2 = ""
+Inst21Quest5name1 = ""
 
 
 
