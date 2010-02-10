@@ -4434,19 +4434,13 @@ Inst21Quest2name2 = "Stab von Soran'ruk"
 
 --Quest 3 Allianz
 Inst21Quest3 = "3. Liebe muß wehtun"
-Inst21Quest3_Level = "??"
-Inst21Quest3_Attain = "??"
+Inst21Quest3_Level = "80"
+Inst21Quest3_Attain = "80"
 Inst21Quest3_Aim = "Bezwingt das Apotheker-Trio der Chemiemanufaktur Krone in der Burg Schattenfang."
-Inst21Quest3_Location = ""
+Inst21Quest3_Location = "Ermittler Fezzen Kupferstapel"
 Inst21Quest3_Note = "Diese Quest kann nur während des Events Liebe liegt in der Luft absolviert werden."
 Inst21Quest3_Prequest = "Nein"
 Inst21Quest3_Folgequest = "Nein"
-
-Inst21Quest3name1 = ""
-Inst21Quest3name2 = ""
-Inst21Quest3name1 = ""
-Inst21Quest3name2 = ""
-Inst21Quest3name1 = ""
 
 
 --Quest 1 Horde
@@ -4501,19 +4495,13 @@ Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 --Quest 5 Horde
 Inst21Quest5 = "5. Liebe muß wehtun"
-Inst21Quest5_Level = "??"
-Inst21Quest5_Attain = "??"
+Inst21Quest5_Level = "80"
+Inst21Quest5_Attain = "80"
 Inst21Quest5_Aim = "Bezwingt das Apotheker-Trio der Chemiemanufaktur Krone in der Burg Schattenfang."
-Inst21Quest5_Location = ""
+Inst21Quest5_Location = "Ermittler Fezzen Kupferstapel"
 Inst21Quest5_Note = "Diese Quest kann nur während des Events Liebe liegt in der Luft absolviert werden."
 Inst21Quest5_Prequest = "Nein"
 Inst21Quest5_Folgequest = "Nein"
-
-Inst21Quest5name1 = ""
-Inst21Quest5name2 = ""
-Inst21Quest5name1 = ""
-Inst21Quest5name2 = ""
-Inst21Quest5name1 = ""
 
 
 
@@ -10290,8 +10278,8 @@ Inst74Quest3_Note = "Malygos ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöch
 Inst74Quest3_Prequest = "None"
 Inst74Quest3_Folgequest = "None"
 --
-Inst74Quest3name1 = "Emblem of Frost"
-Inst74Quest3name2 = "Emblem of Triumph"
+Inst74Quest3name1 = "Emblem des Frosts"
+Inst74Quest3name2 = "Emblem des Triumphs"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10498,7 +10486,7 @@ Inst76Quest3name4_HORDE = Inst76Quest3name4
 
 --------------- INST77 - Ulduar: Halls of Stone ---------------
 
-Inst77Story = "In the frigid cliffs of the Storm Peaks, legendary explorer Brann Bronzebeard spent countless hours piecing together clues about a recently discovered titan city known as Ulduar. But far from unearthing the mysteries of the titans, the explorer found the city overrun with iron dwarves. Eager to save the priceless information within the titan city before it was destroyed and lost forever, Brann feared that an even greater evil could be at work behind the fall of Ulduar...."
+Inst77Story = "In den kalten Klippen der Sturmgipfeln, verbrachte der legendärere Forscher Brann Bronzebart unzählige Stunden damit Hinweise über die kürzlich entdeckte Titanstadt, die als Ulduar bekannt ist, zu finden. Aber weit ab davon, die Mysterien der Titanen auszugraben, fand der Forscher die Stadt überrannt mit Eisenzwergen. Eifrig, die unbezahlbare Information innerhalb der Titanenstadt zu sichern, bevor diese zerstört würden und für immer verlor gingen, fürchtete Brann, dass ein noch größeres Übel bei der Arbeit hinter dem Fall von Ulduar sein konnte...."
 Inst77Caption = "HdS: Hallen des Steins"
 Inst77QAA = "1 Quests"
 Inst77QAH = "1 Quests"
@@ -10509,7 +10497,7 @@ Inst77Quest1_Level = "78"
 Inst77Quest1_Attain = "76"
 Inst77Quest1_Aim = "Brann Bronzebart möchte, dass Ihr ihn bei der Suche nach den Geheimnissen, die in den Hallen des Steins verborgen liegen, begleitet."
 Inst77Quest1_Location = "Brann Bronzebeard (Ulduar: Die Hallen des Steins; "..YELLOW.."[3]"..WHITE..")"
-Inst77Quest1_Note = "Folge Brann Bronzebeard in den naheliegenden Raum bei "..YELLOW.."[4]"..WHITE.." und beschütze ihn vor die Mobwellen während er an der Steintafel arbeitet. Nach seinem Erfolg , kann der Tribunalkasten rechts neben der Steintafel geöffnet werden.\n\nSprecht ihn erneurt an und er rennt aus dem Raum raus zu"..YELLOW.."[5]"..WHITE..". Du mußt ihm nicht folgen, er wartet auf dich dort. Once defeating Sjonnir der Eisenformer, the quest can be turned into Brann Bronzebart."
+Inst77Quest1_Note = "Folgt Brann Bronzebart in den naheliegenden Raum bei "..YELLOW.."[4]"..WHITE.." und beschützt ihn vor die Mobwellen während er an der Steintafel arbeitet. Nach seinem Erfolg , kann der Tribunalkasten rechts neben der Steintafel geöffnet werden.\n\nSprecht ihn erneut an und er rennt aus dem Raum raus zu"..YELLOW.."[5]"..WHITE..". Du mußt ihm nicht folgen, er wartet auf dich dort. Ist Sjonnir der Eisenformer einmal besiegt kann die Quest bei Brann Bronzebart abgegeben werden."
 Inst77Quest1_Prequest = "Nein"
 Inst77Quest1_Folgequest = "Nein"
 --
@@ -10538,7 +10526,7 @@ Inst77Quest1name4_HORDE = Inst77Quest1name4
 
 --------------- INST78 - Ulduar: Halls of Lightning ---------------
 
-Inst78Story = "In the frigid cliffs of the Storm Peaks, legendary explorer Brann Bronzebeard spent countless hours piecing together clues about a recently discovered titan city known as Ulduar. But far from unearthing the mysteries of the titans, the explorer found the city overrun with iron dwarves. Eager to save the priceless information within the titan city before it was destroyed and lost forever, Brann feared that an even greater evil could be at work behind the fall of Ulduar...."
+Inst78Story = "In den kalten Klippen der Sturmgipfeln, verbrachte der legendärere Forscher Brann Bronzebart unzählige Stunden damit Hinweise über die kürzlich entdeckte Titanstadt, die als Ulduar bekannt ist, zu finden. Aber weit ab davon, die Mysterien der Titanen auszugraben, fand der Forscher die Stadt überrannt mit Eisenzwergen. Eifrig, die unbezahlbare Information innerhalb der Titanenstadt zu sichern, bevor diese zerstört würden und für immer verlor gingen, fürchtete Brann, dass ein noch größeres Übel bei der Arbeit hinter dem Fall von Ulduar sein konnte...."
 Inst78Caption = "HdB: Hallen der Blitze"
 Inst78QAA = "2 Quests"
 Inst78QAH = "2 Quests"
@@ -10629,8 +10617,8 @@ Inst79Quest1_Note = "Sartharion ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese wö
 Inst79Quest1_Prequest = "None"
 Inst79Quest1_Folgequest = "None"
 --
-Inst79Quest1name1 = "Emblem of Frost"
-Inst79Quest1name2 = "Emblem of Triumph"
+Inst79Quest1name1 = "Emblem des Frosts"
+Inst79Quest1name2 = "Emblem des Triumphs"
 
 
 --Quest 1 Horde (same as Quest 1 Alliance)
@@ -10859,7 +10847,7 @@ Inst81Quest3name5_HORDE = Inst81Quest3name5
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Story = "Among the ornate spires and enchanted streets of Dalaran, a dark presence stirs within the mighty walls of the Violet Hold. Long used to restrain threats to the city, the tower holds row upon row of deadly inmates, and it has been diligently watched over by the Kirin Tor. However, a sudden assault has tested the integrity of the hold, putting at risk the safety of everyone outside the prison's walls. Using the dungeon as a means to breach the city, Malygos and his blue dragonflight have begun to chip away at the Violet Hold's defenses, hungry to reclaim arcane dominance over Azeroth. Only the brave souls of those protecting the prison stand between the continued existence of Dalaran and the city's utter annihilation."
+Inst82Story = "Unter den reich verzierten Spitzen und verzauberten Straßen von Dalaran, rührt sich eine dunkle Anwesenheit innerhalb der mächtigen Mauern der Violetten Festung. Lange verwendet, um die Bedrohungen gegen die Stadt anzuwenden, befinden sich in der Festung tödlichen Gefangene, die mit großer Sorgfalt der Kirin Tor bewacht werden. Jedoch hat ein plötzlicher Angriff die Festigkeit der Mauern getestet, dies gefährdet die Sicherheit von jedem außerhalb der Gefängnismauerm.  Unter der Verwendung des Kerkers als Mittel die Stadt zu durchbrechen, haben Malygos und sein blauer Drachenschwarm damit begonnen, an der Verteidigung der Violetten Festung zu nagen, um die Herrschaft der Arkanen Magier über Azeroth zurückzufordern. Nur die tapfersten Seelen von denen, die das Gefängnis beschützen stehen zwischen die fortlaufenden Existenz von Dalaran und der völligen Vernichtung der Stadt."
 Inst82Caption = "VF: Die violette Festung"
 Inst82QAA = "2 Quests"
 Inst82QAH = "2 Quests"
@@ -10965,8 +10953,8 @@ Inst84Quest3_Note = "Anub'Rekhan ist bei "..YELLOW.."Spinnenviertel [1]"..WHITE.
 Inst84Quest3_Prequest = "None"
 Inst84Quest3_Folgequest = "None"
 --
-Inst84Quest3name1 = "Emblem of Frost"
-Inst84Quest3name2 = "Emblem of Triumph"
+Inst84Quest3name1 = "Emblem des Frosts"
+Inst84Quest3name2 = "Emblem des Triumphs"
 
 --Quest 4 Alliance
 Inst84Quest4 = "4. Instrukteur Razuvious muss sterben! (Wöchentlich)"
@@ -10991,8 +10979,8 @@ Inst84Quest5_Note = "Noth der Seuchenfürst ist bei "..YELLOW.."Seuchenviertel [
 Inst84Quest5_Prequest = "None"
 Inst84Quest5_Folgequest = "None"
 --
-Inst84Quest5name1 = "Emblem of Frost"
-Inst84Quest5name2 = "Emblem of Triumph"
+Inst84Quest5name1 = "Emblem des Frosts"
+Inst84Quest5name2 = "Emblem des Triumphs"
 
 --Quest 6 Alliance
 Inst84Quest6 = "6. Flickwerk muss sterben! (Wöchentlich)"
@@ -11004,8 +10992,8 @@ Inst84Quest6_Note = "Flickwerk ist bei "..YELLOW.."Konstruktviertel [1]"..WHITE.
 Inst84Quest6_Prequest = "None"
 Inst84Quest6_Folgequest = "None"
 --
-Inst84Quest6name1 = "Emblem of Frost"
-Inst84Quest6name2 = "Emblem of Triumph"
+Inst84Quest6name1 = "Emblem des Frosts"
+Inst84Quest6name2 = "Emblem des Triumphs"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11097,7 +11085,7 @@ Inst85QAH = "No Quests"
 
 --------------- INST86 - Ulduar ---------------
 
-Inst86Story = "Als die Titanen Azeroth verließen, betrauten sie loyale Wächter mit dem Schutz Ulduars, einer mysteriösen Stadt, eingebettet in die Gebirgshänge der Sturmgipfel. Als höchster unter seinen Brüdern auserkoren wurde der Wächter mit dem Namen Loken; doch mit der Macht des Titanenkomplexes in seinen Händen wandte er sich der Finsternis zu und stürzte die Region ins Chaos. Die Gründe für Lokens Verrat und das Schicksal der anderen Wächter liegen weiterhin im Dunkeln, doch gibt es Gerüchte, dass eine böse Macht beim Fall der Titanenstadt ihre Finger im Spiel gehabt hätte. Helden, die tapfer genug sind, könnten die Wahrheit in den Gängen der uralten Stätte finden. Bis jetzt konnten jedoch nur wenige den Gefahren Ulduars ins Auge blicken und lebendig zurückkehren, um von ihren Entdeckungen zu berichten."
+Inst86Story = "For millennia, Ulduar has remained undisturbed by mortals, far away from their concerns and their struggles. Yet since its recent discovery, many have wondered what the structure's original purpose may have been. Some thought it a city, built to herald the glory of its makers; some thought it a vault containing innumerable treasures, perhaps even relics of the mighty Titans themselves. Such speculations were wrong. Beyond Ulduar's gates lies no city, no treasure vault, no final answer to the Titan's mysteries. All that awaits those who dare set foot in Ulduar is a horror even the Titans could not, would not destroy, an evil they merely... contained. Beneath ancient Ulduar, the Old God of death lies, whispering.... Tread carefully, or its prison will become your tomb."
 Inst86Caption = "Ulduar"
 Inst86QAA = "20 Quests"
 Inst86QAH = "20 Quests"
@@ -11312,8 +11300,8 @@ Inst86Quest17_Note = "Flammenleviathan ist bei "..YELLOW.."Die Belagerung [1]"..
 Inst86Quest17_Prequest = "None"
 Inst86Quest17_Folgequest = "None"
 --
-Inst86Quest17name1 = "Emblem of Frost"
-Inst86Quest17name2 = "Emblem of Triumph"
+Inst86Quest17name1 = "Emblem des Frosts"
+Inst86Quest17name2 = "Emblem des Triumphs"
 
 --Quest 18 Alliance
 Inst86Quest18 = "18. Ignis, Meister des Eisenwerks, muss sterben! (Wöchentlich)"
@@ -11325,8 +11313,8 @@ Inst86Quest18_Note = "Ignis der Meister des Eisenwerks is at "..YELLOW.."Die Bel
 Inst86Quest18_Prequest = "None"
 Inst86Quest18_Folgequest = "None"
 --
-Inst86Quest18name1 = "Emblem of Frost"
-Inst86Quest18name2 = "Emblem of Triumph"
+Inst86Quest18name1 = "Emblem des Frosts"
+Inst86Quest18name2 = "Emblem des Triumphs"
 
 --Quest 19 Alliance
 Inst86Quest19 = "19. Klingenschuppe muss sterben! (Wöchentlich)"
@@ -11338,8 +11326,8 @@ Inst86Quest19_Note = "Klingenschuppe ist bei "..YELLOW.."Die Belagerung [2]"..WH
 Inst86Quest19_Prequest = "None"
 Inst86Quest19_Folgequest = "None"
 --
-Inst86Quest19name1 = "Emblem of Frost"
-Inst86Quest19name2 = "Emblem of Triumph"
+Inst86Quest19name1 = "Emblem des Frosts"
+Inst86Quest19name2 = "Emblem des Triumphs"
 
 --Quest 20 Alliance
 Inst86Quest20 = "20. XT-002 Dekonstruktor muss sterben! (Wöchentlich)"
@@ -11351,8 +11339,8 @@ Inst86Quest20_Note = "XT-002 Dekonstruktor ist bei "..YELLOW.."Die Belagerung [4
 Inst86Quest20_Prequest = "None"
 Inst86Quest20_Folgequest = "None"
 --
-Inst86Quest20name1 = "Emblem of Frost"
-Inst86Quest20name2 = "Emblem of Triumph" 
+Inst86Quest20name1 = "Emblem des Frosts"
+Inst86Quest20name2 = "Emblem des Triumphs" 
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11635,8 +11623,8 @@ Inst88Quest1_Note = "Lord Jaraxxus ist der zweite Boss.\n\nDiese wöchentliche Q
 Inst88Quest1_Prequest = "None"
 Inst88Quest1_Folgequest = "None"
 --
-Inst88Quest1name1 = "Emblem of Frost"
-Inst88Quest1name2 = "Emblem of Triumph"
+Inst88Quest1name1 = "Emblem des Frosts"
+Inst88Quest1name2 = "Emblem des Triumphs"
 
 
 --Quest 1 Horde (same as Quest 1 Alliance)
@@ -11682,7 +11670,7 @@ Inst90Quest2_Prequest = "In der eisigen Zitadelle"
 Inst90Quest2_Folgequest = "Die Grube von Saron"
 Inst90Quest2FQuest = "true"
 --
-Inst90Quest2name1 = "Emblem of Frost"
+Inst90Quest2name1 = "Emblem des Frosts"
 
 
 --Quest 1 Horde
@@ -11707,7 +11695,7 @@ Inst90Quest2_HORDE_Prequest = "In der eisigen Zitadelle"
 Inst90Quest2_HORDE_Folgequest = "Die Grube von Saron"
 Inst90Quest2FQuest_HORDE = "true"
 --
-Inst90Quest2name1_HORDE = "Emblem of Frost" 
+Inst90Quest2name1_HORDE = "Emblem des Frosts" 
 
 
 
@@ -11752,7 +11740,7 @@ Inst91Quest3_Prequest = "Der Pfad zur Zitadelle"
 Inst91Quest3_Folgequest = "Frostgram ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
 Inst91Quest3FQuest = "true"
 --
-Inst91Quest3name1 = "Emblem of Frost"
+Inst91Quest3name1 = "Emblem des Frosts"
 
 
 --Quest 1 Horde
@@ -11790,7 +11778,7 @@ Inst91Quest3_HORDE_Prequest = "Der Pfad zur Zitadelle"
 Inst91Quest3_HORDE_Folgequest = "Frostgram ("..YELLOW.."Hallen der Reflexion of Reflection"..WHITE..")"
 Inst91Quest3FQuest_HORDE = "true"
 --
-Inst91Quest3name1_HORDE = "Emblem of Frost"
+Inst91Quest3name1_HORDE = "Emblem des Frosts"
 
 
 
@@ -11823,7 +11811,7 @@ Inst92Quest2_Prequest = "Frostgram"
 Inst92Quest2_Folgequest = "None"
 Inst92Quest2FQuest = "true"
 --
-Inst92Quest2name1 = "Emblem of Frost"
+Inst92Quest2name1 = "Emblem des Frosts"
 
 
 --Quest 1 Horde
@@ -11849,7 +11837,7 @@ Inst92Quest2_HORDE_Prequest = "Frostgram"
 Inst92Quest2_HORDE_Folgequest = "None"
 Inst92Quest2FQuest_HORDE = "true"
 --
-Inst92Quest2name1_HORDE = "Emblem of Frost"
+Inst92Quest2name1_HORDE = "Emblem des Frosts"
 
 
 
@@ -11869,8 +11857,8 @@ Inst93Quest1_Note = "Lord Mark'gar ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese
 Inst93Quest1_Prequest = "None"
 Inst93Quest1_Folgequest = "None"
 --
-Inst93Quest1name1 = "Emblem of Frost"
-Inst93Quest1name2 = "Emblem of Triumph"
+Inst93Quest1name1 = "Emblem des Frosts"
+Inst93Quest1name2 = "Emblem des Triumphs"
 
 
 --Quest 1 Horde (same as Quest 1 Alliance)
