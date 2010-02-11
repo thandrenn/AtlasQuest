@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2010-01-26
-	最後更新﹕二○一○年一月二十六日
+	Last Updated: 2010-02-11
+	最後更新﹕二○一○年二月十一日
 	新增　巫妖王之怒 - 冰冠城塞　故事＆任務
 
 --]]
@@ -4272,8 +4272,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "在第三次大戰中，肯瑞托的法師和天譴軍團進行了殊死的戰鬥。當達拉然的法師們死於戰場之後，他們的意志轉移到了復甦的天譴軍團身上，然後重生了。由於對緩慢的進展感到失望，並且對手下的建議完全不予理會的大法師阿魯高，選擇了召喚異次元空間的生物來壯大達拉然日漸消失的力量。阿魯高的召喚將貪婪的狼人帶到了艾澤拉斯大陸。這些狂暴的狼型生物不僅屠殺了天譴軍團的士兵，同時也迅速地將目標轉向那些法師。那些狼人開始圍攻席瓦萊恩男爵的城堡。這座位於焚木村的城堡不久之後變成了黑暗勢力的聚集地並從此荒廢。因為對於自己罪過的愧疚而變得瘋狂的阿魯高，將那些狼人當作自己的孩子並隱居在“影牙城堡”中。據說他現在還住在那裡，被他巨大的寵物芬魯斯所保護著，另外，在城堡中還徘徊著瓦萊恩男爵和其手下的復仇幽靈。"
 Inst21Caption = "影牙城堡"
-Inst21QAA = "2 個任務"
-Inst21QAH = "4 個任務"
+Inst21QAA = "5 個任務"
+Inst21QAH = "7 個任務"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. 正義試煉 (聖騎士職業任務)"
@@ -4282,7 +4282,7 @@ Inst21Quest1_Attain = "20"
 Inst21Quest1_Aim = "按照喬丹的武器材料單上的說明去尋找一些白石橡木、精煉礦石、喬丹的鐵錘和一塊科爾寶石，然後回到鐵爐堡去見喬丹．斯迪威爾。"
 Inst21Quest1_Location = "喬丹．斯迪威爾（丹莫洛 - 鐵爐堡 "..YELLOW.."52,36 "..WHITE.."）"
 Inst21Quest1_Note = "點擊"..YELLOW.."《喬丹的武器材料單》"..WHITE.."查看喬丹的武器材料。"
-Inst21Quest1_Page = {2, "只有聖騎士們才能接到這個任務！\n\n1. 你可以從"..YELLOW.."[死亡礦坑]"..WHITE.."哥布林木匠"..YELLOW.."[3]"..WHITE.."那兒得到白石橡木。\n\n2. 要得到精煉礦石，你必須先與白洛爾．石手交談（洛克莫丹 - 塞爾薩瑪; "..YELLOW.."35,44"..WHITE.."）。他會給你《白洛爾的礦石》任務。 你在一棵樹後面找到喬丹的礦石"..YELLOW.."71,21"..WHITE.."。\n\n3. 你可以在"..YELLOW.."[影牙城堡]"..WHITE.."緊靠"..YELLOW.."[3]"..WHITE.."的地方找到喬丹的鐵錘（安全地點）。\n\n4. 要得到科爾寶石，你必須去找桑迪斯．織風（黑海岸 - 奧伯丁; "..YELLOW.."37,40"..WHITE.."）並且做完《尋找科爾寶石》任務。為了完成這個任務，你必須殺掉"..YELLOW.."[黑暗深淵]"..WHITE.."前的黑暗深淵智者或者黑暗深淵海潮祭司。他們會掉落被污染的科爾寶石。桑迪斯．織風會為你淨化它的。", };
+Inst21Quest1_Page = {2, "只有聖騎士們才能接到這個任務！\n\n1. 你可以從"..YELLOW.."[死亡礦坑]"..WHITE.."哥布林木匠"..YELLOW.."[3]"..WHITE.."那兒得到白石橡木。\n\n2. 要得到精煉礦石，你必須先與白洛爾．石手交談（洛克莫丹 - 塞爾薩瑪; "..YELLOW.."35,44"..WHITE.."）。他會給你《白洛爾的礦石》任務。 你在一棵樹後面找到喬丹的礦石"..YELLOW.."71,21"..WHITE.."。\n\n3. 你可以在"..YELLOW.."[影牙城堡]"..WHITE.."緊靠"..YELLOW.."[5]"..WHITE.."的地方找到喬丹的鐵錘（安全地點）。\n\n4. 要得到科爾寶石，你必須去找桑迪斯．織風（黑海岸 - 奧伯丁; "..YELLOW.."37,40"..WHITE.."）並且做完《尋找科爾寶石》任務。為了完成這個任務，你必須殺掉"..YELLOW.."[黑暗深淵]"..WHITE.."前的黑暗深淵智者或者黑暗深淵海潮祭司。他們會掉落被污染的科爾寶石。桑迪斯．織風會為你淨化它的。", };
 Inst21Quest1_Prequest = "勇氣之書→正義試煉"
 Inst21Quest1_Folgequest = "正義試煉"
 Inst21Quest1PreQuest = "true"
@@ -4302,6 +4302,41 @@ Inst21Quest2_Folgequest = "無"
 Inst21Quest2name1 = "索蘭魯克寶珠"
 Inst21Quest2name2 = "索拉魯克法杖"
 
+--Quest 3 Alliance
+Inst21Quest3 = "3. 裡應外合"
+Inst21Quest3_Level = "80"
+Inst21Quest3_Attain = "75"
+Inst21Quest3_Aim = "到影牙城堡找調查員菲贊．銅釘回報。"
+Inst21Quest3_Location = "巡官史尼卜．凸栓（暴風城 - 貿易區; "..YELLOW.."61.7, 75.5"..WHITE.."）"
+Inst21Quest3_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n你可以在通往庭院的大門前"..YELLOW.."[2]"..WHITE.."找到調查員菲贊．銅釘。"
+Inst21Quest3_Prequest = "善意的溝通…"
+Inst21Quest3_Folgequest = "服務到家"
+Inst21Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst21Quest4 = "4. 服務到家 (每日任務)"
+Inst21Quest4_Level = "80"
+Inst21Quest4_Attain = "75"
+Inst21Quest4_Aim = "把法院傳票交給影牙城堡的藥劑師胡默爾。"
+Inst21Quest4_Location = "調查員菲贊．銅釘（影牙城堡; "..YELLOW.."[2]"..WHITE.."）"
+Inst21Quest4_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n你不需要完成前置任務也可接到此任務。\n\n藥劑師胡默爾在庭院中的"..YELLOW.."[3]"..WHITE.."。回報任務之後便會觸發戰鬥事件，所以請確認每個隊伍在每次只有一個成員進行任務回報。"
+Inst21Quest4_Prequest = "裡應外合（非必要）"
+Inst21Quest4_Folgequest = "微妙的氣氛（肯定不是愛）"
+Inst21Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst21Quest5 = "5. 微妙的氣氛(肯定不是愛)"
+Inst21Quest5_Level = "80"
+Inst21Quest5_Attain = "75"
+Inst21Quest5_Aim = "把褪色的可愛邀請卡拿給暴風城的巡官史尼卜．凸栓。"
+Inst21Quest5_Location = "影牙城堡中的藥劑師胡默爾將會掉落褪色的可愛邀請卡。"
+Inst21Quest5_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n巡官史尼卜．凸栓在（暴風城 - 貿易區; "..YELLOW.."61.7, 75.5"..WHITE.."）。"
+Inst21Quest5_Prequest = "無"
+Inst21Quest5_Folgequest = "無"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst21Quest1_HORDE = "1. 影牙城堡裡的亡靈哨兵"
@@ -4309,7 +4344,7 @@ Inst21Quest1_HORDE_Level = "25"
 Inst21Quest1_HORDE_Attain = "18"
 Inst21Quest1_HORDE_Aim = "找到亡靈哨兵阿達曼特和亡靈哨兵文森特。"
 Inst21Quest1_HORDE_Location = "高級執行官哈德瑞克（銀松森林 - 瑟伯切爾; "..YELLOW.."43,40"..WHITE.."）"
-Inst21Quest1_HORDE_Note = "阿達曼特在"..YELLOW.."[1]"..WHITE.."，文森特在一進庭院的右側"..YELLOW.."[2]"..WHITE.."。"
+Inst21Quest1_HORDE_Note = "阿達曼特在"..YELLOW.."[1]"..WHITE.."，文森特在一進庭院的右側"..YELLOW.."[3]"..WHITE.."。"
 Inst21Quest1_HORDE_Prequest = "無"
 Inst21Quest1_HORDE_Folgequest = "無"
 --
@@ -4321,7 +4356,7 @@ Inst21Quest2_HORDE_Level = "26"
 Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = "把烏爾之書帶給幽暗城煉金區裡的看守者貝爾杜加。"
 Inst21Quest2_HORDE_Location = "看守者貝爾杜加（幽暗城 - 煉金房; "..YELLOW.."53,54"..WHITE.."）"
-Inst21Quest2_HORDE_Note = "你可以找到書在進門的左邊"..YELLOW.."[9]"..WHITE.."。"
+Inst21Quest2_HORDE_Note = "你可以找到書在進門的左邊"..YELLOW.."[11]"..WHITE.."。"
 Inst21Quest2_HORDE_Prequest = "無"
 Inst21Quest2_HORDE_Folgequest = "無"
 --
@@ -4334,7 +4369,7 @@ Inst21Quest3_HORDE_Level = "27"
 Inst21Quest3_HORDE_Attain = "18"
 Inst21Quest3_HORDE_Aim = "殺死阿魯高，把他的頭帶給瑟伯切爾的達拉爾．道恩維沃爾。"
 Inst21Quest3_HORDE_Location = "達拉爾．道恩維沃爾（銀松森林 - 瑟伯切爾; "..YELLOW.."44,39"..WHITE.."）"
-Inst21Quest3_HORDE_Note = "你可以在"..YELLOW.."[11]"..WHITE.."找到阿魯高。"
+Inst21Quest3_HORDE_Note = "你可以在"..YELLOW.."[13]"..WHITE.."找到阿魯高。"
 Inst21Quest3_HORDE_Prequest = "無"
 Inst21Quest3_HORDE_Folgequest = "無"
 --
@@ -4352,6 +4387,41 @@ Inst21Quest4_HORDE_Folgequest = Inst21Quest2_Folgequest
 --
 Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name2
+
+--Quest 5 Horde
+Inst21Quest5_HORDE = "5. 裡應外合"
+Inst21Quest5_HORDE_Level = "80"
+Inst21Quest5_HORDE_Attain = "75"
+Inst21Quest5_HORDE_Aim = "到影牙城堡找調查員菲贊．銅釘回報。"
+Inst21Quest5_HORDE_Location = "警探史內卜．凸栓（奧格瑪 - 力量谷; "..YELLOW.."50.8, 65.6"..WHITE.."）"
+Inst21Quest5_HORDE_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n你可以在通往庭院的大門前"..YELLOW.."[2]"..WHITE.."找到調查員菲贊．銅釘。"
+Inst21Quest5_HORDE_Prequest = "善意的溝通…"
+Inst21Quest5_HORDE_Folgequest = "服務到家"
+Inst21Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 4 Alliance)
+Inst21Quest6_HORDE = "6. 服務到家 (每日任務)"
+Inst21Quest6_HORDE_Level = Inst21Quest4_Level
+Inst21Quest6_HORDE_Attain = Inst21Quest4_Attain
+Inst21Quest6_HORDE_Aim = Inst21Quest4_Aim
+Inst21Quest6_HORDE_Location = Inst21Quest4_Location
+Inst21Quest6_HORDE_Note = Inst21Quest4_Note
+Inst21Quest6_HORDE_Prequest = Inst21Quest4_Prequest
+Inst21Quest6_HORDE_Folgequest = Inst21Quest4_Folgequest
+Inst21Quest6FQuest_HORDE = Inst21Quest4FQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst21Quest7_HORDE = "7. 微妙的氣氛(肯定不是愛)"
+Inst21Quest7_HORDE_Level = "80"
+Inst21Quest7_HORDE_Attain = "75"
+Inst21Quest7_HORDE_Aim = "把褪色的可愛邀請卡拿給奧格瑪的警探史內卜．凸栓。"
+Inst21Quest7_HORDE_Location = "影牙城堡中的藥劑師胡默爾將會掉落褪色的可愛邀請卡。"
+Inst21Quest7_HORDE_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n警探史內卜．凸栓在（奧格瑪 - 力量谷; "..YELLOW.."50.8, 65.6"..WHITE.."）"
+Inst21Quest7_HORDE_Prequest = "無"
+Inst21Quest7_HORDE_Folgequest = "無"
+-- No Rewards for this quest
 
 
 
@@ -12455,8 +12525,8 @@ Inst92Quest3PreQuest_HORDE = "true"
 
 Inst93Story = "對抗天譴軍團的戰火在北裂境不斷蔓延著，自從聯盟與部落踏上這塊冰凍荒原之後，無數的生命因此而犧牲，但艾澤拉斯的勇士們依然勇往直前，誓要踏平天譴軍團的根基，巫妖王的立身之處–冰冠城塞。提里奧．弗丁和銀白十字軍與達瑞安．莫格萊尼和黯刃騎士團為了共同的目標而組成了一支灰燼裁決軍。這支聯軍之中最強大的戰鬥員，以及聯盟與部落的勇士將會率領大軍直搗城塞。在全新的冰冠城塞團隊地城中，艾澤拉斯的精銳們將會在冰封王座前面對前所未見的恐懼挑戰，而巫妖王與他的符文劍—霜之哀傷正坐鎮以待，等著將這些英雄們送上亡命的歸途。"
 Inst93Caption = "冰冠城塞"
-Inst93QAA = "2 個任務"
-Inst93QAH = "2 個任務"
+Inst93QAA = "15 個任務"
+Inst93QAH = "15 個任務"
 
 --Quest 1 Alliance
 Inst93Quest1 = "1. 瑪洛嘉領主必須死! (每週團隊任務)"
@@ -12472,14 +12542,173 @@ Inst93Quest1name1 = "冰霜紋章"
 Inst93Quest1name2 = "凱旋紋章"
 
 --Quest 2 Alliance
-Inst93Quest2 = "2. 聖潔與墮落"
+Inst93Quest2 = "2. 改邪歸正 (隨機每週團隊任務)"
 Inst93Quest2_Level = "80"
 Inst93Quest2_Attain = "80"
-Inst93Quest2_Aim = "在冰冠城塞中，把『聖光報復』、25個原始薩鋼、『腐臉的酸性血液』以及『膿腸的酸性血液』放置在大領主莫格萊尼的符文熔爐。"
-Inst93Quest2_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..YELLOW.."[]"..WHITE.."）"
-Inst93Quest2_Note = "大領主莫格萊尼的符文熔爐在冰冠城塞的入口。\n\n『腐臉的酸性血液』以及『膿腸的酸性血液』只有在25人副本模式才會掉落，且每個團隊在每次只有一個人可以拾取。"
+Inst93Quest2_Aim = "在確保達納凡存活的情況之下擊敗亡語女士。"
+Inst93Quest2_Location = "滲透者敏加（冰冠城塞; "..YELLOW.."靠近[1]"..WHITE.."）"
+Inst93Quest2_Note = "如果這個任務於玩家此次的團隊ID中出現，滲透者敏加將會在你擊敗瑪洛嘉領主之後出現。\n\n在和亡語女士交戰時，達納凡便會和小兵群一起現身。玩家必須小心在不殺死他的情況下確保他的存活以完成此任務。"
 Inst93Quest2_Prequest = "無"
-Inst93Quest2_Folgequest = "暗影之鋒"
+Inst93Quest2_Folgequest = "無"
+--
+Inst93Quest2name1 = "寒霜寶藏袋"
+
+--Quest 3 Alliance
+Inst93Quest3 = "3. 攻佔壁壘 (隨機每週團隊任務)"
+Inst93Quest3_Level = "80"
+Inst93Quest3_Attain = "80"
+Inst93Quest3_Aim = "殺掉腐爛的冰霜巨人。"
+Inst93Quest3_Location = "破天者號中尉（冰冠城塞; "..GREEN.."[3']"..WHITE.."）"
+Inst93Quest3_Note = "如果這個任務於玩家此次的團隊ID中出現，在你消滅亡語女士身後高台上的第一批小怪之後，破天者號中尉便會現身。\n\n你可以在壁壘週邊看見巡邏中的腐爛的冰霜巨人。"
+Inst93Quest3_Prequest = "無"
+Inst93Quest3_Folgequest = "無"
+--
+Inst93Quest3name1 = "寒霜寶藏袋"
+
+--Quest 4 Alliance
+Inst93Quest4 = "4. 殘渣有約 (隨機每週團隊任務)"
+Inst93Quest4_Level = "80"
+Inst93Quest4_Attain = "80"
+Inst93Quest4_Aim = "在受到橘色荒疫殘渣與綠色荒疫殘渣感染的情況下，回去找鍊金師雅卓安娜。"
+Inst93Quest4_Location = "鍊金師雅卓安娜（冰冠城塞; "..GREEN.."[4']"..WHITE.."）"
+Inst93Quest4_Note = "如果這個任務於玩家此次的團隊ID中出現，鍊金師雅卓安娜將會在你完成死亡使者薩魯法爾事件之後現身。\n\n團隊中必須至少有一位成員同時得到膿腸與腐臉的橘色荒疫殘渣和綠色荒疫殘渣，並且在得到第一個荒疫殘渣之後的三十分鐘之內向鍊金師雅卓安娜回報任務。只要有一個成員完成，所有的團員皆可一併完成任務。"
+Inst93Quest4_Page = {2, "玩家只要死亡、登出遊戲及得到神聖干涉、聖盾術或其它有可能的法術效果之後將會失去荒疫殘渣的減益法術效果。獵人只要裝死並且成功活下便可以留下荒疫殘渣的減益法術效果。", };
+Inst93Quest4_Prequest = "無"
+Inst93Quest4_Folgequest = "無"
+--
+Inst93Quest4name1 = "寒霜寶藏袋"
+
+--Quest 5 Alliance
+Inst93Quest5 = "5. 血脈噴張 (隨機每週團隊任務)"
+Inst93Quest5_Level = "80"
+Inst93Quest5_Attain = "80"
+Inst93Quest5_Aim = "在滲透者敏加遭到處決之前把他救出來。"
+Inst93Quest5_Location = "『捷巧』艾琳（冰冠城塞; 赤紅大廳入口）"
+Inst93Quest5_Note = "如果這個任務於玩家此次的團隊ID中出現，『捷巧』艾琳便會在赤紅大廳的入口處現身。\n\n玩家必須在三十分鐘之內完成此任務，且計時從玩家一進入赤紅大廳便開始。你必須在時限之內擊敗所有的小兵、血親王和血腥女王菈娜薩爾以完成任務。"
+Inst93Quest5_Prequest = "無"
+Inst93Quest5_Folgequest = "無"
+--
+Inst93Quest5name1 = "寒霜寶藏袋"
+
+--Quest 6 Alliance
+Inst93Quest6 = "6. 受苦靈魂的安息 (隨機每週團隊任務)"
+Inst93Quest6_Level = "80"
+Inst93Quest6_Attain = "80"
+Inst93Quest6_Aim = "使用生命水晶來保存辛德拉苟莎的精華。"
+Inst93Quest6_Location = "瓦莉絲瑞雅．夢行者（冰冠城塞; "..YELLOW.."[11]"..WHITE.."）"
+Inst93Quest6_Note = "如果這個任務於玩家此次的團隊ID中出現，瓦莉絲瑞雅．夢行者將會在戰役結束之後給予玩家任務。\n\n為了完成這個任務，團隊成員們必須使用任務給予的生命水晶，在辛德拉苟莎因血量剩餘20%或更少而呈現虛弱狀態時在她身上堆疊減益法術（即Debuff，10人模式疊到30，25人模式則疊到75）。如果成功了，辛德拉苟莎將會在死前出現靈魂保護的徵兆，那麼在擊敗她並拾取任務物品之後便可完成任務。"
+Inst93Quest6_Prequest = "無"
+Inst93Quest6_Folgequest = "無"
+--
+Inst93Quest6name1 = "寒霜寶藏袋"
+
+--Quest 7 Alliance
+Inst93Quest7 = "7. 聖潔與墮落"
+Inst93Quest7_Level = "80"
+Inst93Quest7_Attain = "80"
+Inst93Quest7_Aim = "在冰冠城塞中，把『聖光報復』、25個原始薩鋼、『腐臉的酸性血液』以及『膿腸的酸性血液』放置在大領主莫格萊尼的符文熔爐。"
+Inst93Quest7_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest7_Note = "這個任務僅限於戰士、聖騎士以及死亡騎士可以接受。大領主莫格萊尼的符文熔爐在冰冠城塞的入口。\n\n『腐臉的酸性血液』以及『膿腸的酸性血液』只有在25人副本模式才會掉落，且每個團隊在每次只有一個人可以拾取。"
+Inst93Quest7_Prequest = "無"
+Inst93Quest7_Folgequest = "暗影之鋒"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst93Quest8 = "8. 暗影之鋒"
+Inst93Quest8_Level = "80"
+Inst93Quest8_Attain = "80"
+Inst93Quest8_Aim = "無內容。"
+Inst93Quest8_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest8_Note = "無內容，推測只是為了給予玩家暗影之鋒的任務。"
+Inst93Quest8_Prequest = "聖潔與墮落"
+Inst93Quest8_Folgequest = "眾魂宴"
+Inst93Quest8FQuest = "true"
+--
+Inst93Quest8name1 = "暗影之鋒"
+
+--Quest 9 Alliance
+Inst93Quest9 = "9. 眾魂宴"
+Inst93Quest9_Level = "80"
+Inst93Quest9_Attain = "80"
+Inst93Quest9_Aim = "大領主達瑞安．莫格萊尼要你進入冰冠城塞，使用暗影之鋒殺死1000名巫妖王的爪牙。你只能在10人或25人模式副本中吸取靈魂。"
+Inst93Quest9_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest9_Note = "只要在冰冠城塞中進行戰鬥便能取得足夠的擊殺數。"
+Inst93Quest9_Prequest = "暗影之鋒"
+Inst93Quest9_Folgequest = "穢邪之能"
+Inst93Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst93Quest10 = "10. 穢邪之能"
+Inst93Quest10_Level = "80"
+Inst93Quest10_Attain = "80"
+Inst93Quest10_Aim = "大領主達瑞安．莫格萊尼要你為暗影之鋒注入穢邪威能，並且殺掉普崔希德教授。"
+Inst93Quest10_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest10_Note = "此任務只能夠在25人模式的冰冠城塞中完成。\n\n為暗影之鋒注入穢邪威能，你必須在與普崔希德教授的交戰中控制住憎惡並且使用暗影注入。"
+Inst93Quest10_Prequest = "眾魂宴"
+Inst93Quest10_Folgequest = "血魄之能"
+Inst93Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst93Quest11 = "11. 血魄之能"
+Inst93Quest11_Level = "80"
+Inst93Quest11_Attain = "80"
+Inst93Quest11_Aim = "大領主達瑞安．莫格萊尼要你為暗影之鋒注入血魄的力量，並且擊敗血腥女王菈娜薩爾。"
+Inst93Quest11_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest11_Note = "此任務只能夠在25人模式的冰冠城塞中完成。\n\n取得[血魄之鏡]的減益法術效果之後，如果你不是第一個被咬的人，則要有個人咬你。在咬過三個或更多人並且活下來之後便可完成任務。"
+Inst93Quest11_Prequest = "穢邪之能"
+Inst93Quest11_Folgequest = "冰霜之能"
+Inst93Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst93Quest12 = "12. 冰霜之能"
+Inst93Quest12_Level = "80"
+Inst93Quest12_Attain = "80"
+Inst93Quest12_Aim = "大領主達瑞安．莫格萊尼命令你去殺掉辛德拉苟莎，並且在佩帶暗影之鋒的期間，承受四次冰霜吐息攻擊。"
+Inst93Quest12_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest12_Note = "此任務只能夠在25人模式的冰冠城塞中完成。\n\n在承受過四次冰霜吐息並且得到[霜注之刃]的增益效果之後，你必須在六分鐘之內擊敗辛德拉苟莎才能完成任務。"
+Inst93Quest12_Prequest = "血魄之能"
+Inst93Quest12_Folgequest = "破碎的王座"
+Inst93Quest12FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst93Quest13 = "13. 破碎的王座"
+Inst93Quest13_Level = "80"
+Inst93Quest13_Attain = "80"
+Inst93Quest13_Aim = "大領主達瑞安．莫格萊尼要你去收集50個暗影冰晶裂片。"
+Inst93Quest13_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest13_Note = "此任務只能夠在25人模式的冰冠城塞中完成。\n\n地城中的每位首領皆有機率掉落暗影冰晶裂片。"
+Inst93Quest13_Prequest = "冰霜之能"
+Inst93Quest13_Folgequest = "影之哀傷…"
+Inst93Quest13FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst93Quest14 = "14. 影之哀傷…"
+Inst93Quest14_Level = "80"
+Inst93Quest14_Attain = "80"
+Inst93Quest14_Aim = "大領主達瑞安．莫格萊尼要你把暗影之鋒交給他。"
+Inst93Quest14_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest14_Note = "此任務將會把你的暗影之鋒升級為影之哀傷。"
+Inst93Quest14_Prequest = "破碎的王座"
+Inst93Quest14_Folgequest = "巫妖王的末日"
+Inst93Quest14FQuest = "true"
+--
+Inst93Quest14name1 = "影之哀傷"
+
+--Quest 15 Alliance
+Inst93Quest15 = "15. 巫妖王的末日"
+Inst93Quest15_Level = "80"
+Inst93Quest15_Attain = "80"
+Inst93Quest15_Aim = "大領主達瑞安．莫格萊尼要你去冰冠城塞殺掉巫妖王。"
+Inst93Quest15_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
+Inst93Quest15_Note = "無內容，此任務大約只能夠在25人模式的冰冠城塞中完成。"
+Inst93Quest15_Prequest = "影之哀傷…"
+Inst93Quest15_Folgequest = "無"
+Inst93Quest15FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -12505,6 +12734,166 @@ Inst93Quest2_HORDE_Location = Inst93Quest2_Location
 Inst93Quest2_HORDE_Note = Inst93Quest2_Note
 Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
 Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
+--
+Inst93Quest2name1_HORDE = Inst93Quest2name1
+
+--Quest 3 Horde
+Inst93Quest3_HORDE = "3. 攻佔壁壘 (隨機每週團隊任務)"
+Inst93Quest3_HORDE_Level = "80"
+Inst93Quest3_HORDE_Attain = "80"
+Inst93Quest3_HORDE_Aim = "殺掉腐爛的冰霜巨人。"
+Inst93Quest3_HORDE_Location = "柯爾克隆中尉（冰冠城塞; "..GREEN.."[3']"..WHITE.."）"
+Inst93Quest3_HORDE_Note = "如果這個任務於玩家此次的團隊ID中出現，在你消滅亡語女士身後高台上的第一批小怪之後，破天者號中尉便會出現。\n\n你可以在壁壘週邊看見巡邏中的腐爛的冰霜巨人。"
+Inst93Quest3_HORDE_Prequest = "無"
+Inst93Quest3_HORDE_Folgequest = "無"
+--
+Inst93Quest3name1_HORDE = "寒霜寶藏袋"
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst93Quest4_HORDE = Inst93Quest4
+Inst93Quest4_HORDE_Level = Inst93Quest4_Level
+Inst93Quest4_HORDE_Attain = Inst93Quest4_Attain
+Inst93Quest4_HORDE_Aim = Inst93Quest4_Aim
+Inst93Quest4_HORDE_Location = Inst93Quest4_Location
+Inst93Quest4_HORDE_Note = Inst93Quest4_Note
+Inst93Quest4_HORDE_Page = Inst93Quest4_Page
+Inst93Quest4_HORDE_Prequest = Inst93Quest4_Prequest
+Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
+--
+Inst93Quest4name1_HORDE = Inst93Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst93Quest5_HORDE = Inst93Quest5
+Inst93Quest5_HORDE_Level = Inst93Quest5_Level
+Inst93Quest5_HORDE_Attain = Inst93Quest5_Attain
+Inst93Quest5_HORDE_Aim = Inst93Quest5_Aim
+Inst93Quest5_HORDE_Location = Inst93Quest5_Location
+Inst93Quest5_HORDE_Note = Inst93Quest5_Note
+Inst93Quest5_HORDE_Prequest = Inst93Quest5_Prequest
+Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
+--
+Inst93Quest5name1_HORDE = Inst93Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst93Quest6_HORDE = Inst93Quest6
+Inst93Quest6_HORDE_Level = Inst93Quest6_Level
+Inst93Quest6_HORDE_Attain = Inst93Quest6_Attain
+Inst93Quest6_HORDE_Aim = Inst93Quest6_Aim
+Inst93Quest6_HORDE_Location = Inst93Quest6_Location
+Inst93Quest6_HORDE_Note = Inst93Quest6_Note
+Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
+Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
+--
+Inst93Quest6name1_HORDE = Inst93Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst93Quest7_HORDE = Inst93Quest7
+Inst93Quest7_HORDE_Level = Inst93Quest7_Level
+Inst93Quest7_HORDE_Attain = Inst93Quest7_Attain
+Inst93Quest7_HORDE_Aim = Inst93Quest7_Aim
+Inst93Quest7_HORDE_Location = Inst93Quest7_Location
+Inst93Quest7_HORDE_Note = Inst93Quest7_Note
+Inst93Quest7_HORDE_Prequest = Inst93Quest7_Prequest
+Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst93Quest8_HORDE = Inst93Quest8
+Inst93Quest8_HORDE_Level = Inst93Quest8_Level
+Inst93Quest8_HORDE_Attain = Inst93Quest8_Attain
+Inst93Quest8_HORDE_Aim = Inst93Quest8_Aim
+Inst93Quest8_HORDE_Location = Inst93Quest8_Location
+Inst93Quest8_HORDE_Note = Inst93Quest8_Note
+Inst93Quest8_HORDE_Prequest = Inst93Quest8_Prequest
+Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
+Inst93Quest8FQuest_HORDE = Inst93Quest8FQuest
+--
+Inst93Quest8name1_HORDE = Inst93Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst93Quest9_HORDE = Inst93Quest9
+Inst93Quest9_HORDE_Level = Inst93Quest9_Level
+Inst93Quest9_HORDE_Attain = Inst93Quest9_Attain
+Inst93Quest9_HORDE_Aim = Inst93Quest9_Aim
+Inst93Quest9_HORDE_Location = Inst93Quest9_Location
+Inst93Quest9_HORDE_Note = Inst93Quest9_Note
+Inst93Quest9_HORDE_Prequest = Inst93Quest9_Prequest
+Inst93Quest9_HORDE_Folgequest = Inst93Quest9_Folgequest
+Inst93Quest9FQuest_HORDE = Inst93Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst93Quest10_HORDE = Inst93Quest10
+Inst93Quest10_HORDE_Level = Inst93Quest10_Level
+Inst93Quest10_HORDE_Attain = Inst93Quest10_Attain
+Inst93Quest10_HORDE_Aim = Inst93Quest10_Aim
+Inst93Quest10_HORDE_Location = Inst93Quest10_Location
+Inst93Quest10_HORDE_Note = Inst93Quest10_Note
+Inst93Quest10_HORDE_Prequest = Inst93Quest10_Prequest
+Inst93Quest10_HORDE_Folgequest = Inst93Quest10_Folgequest
+Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst93Quest11_HORDE = Inst93Quest11
+Inst93Quest11_HORDE_Level = Inst93Quest11_Level
+Inst93Quest11_HORDE_Attain = Inst93Quest11_Attain
+Inst93Quest11_HORDE_Aim = Inst93Quest11_Aim
+Inst93Quest11_HORDE_Location = Inst93Quest11_Location
+Inst93Quest11_HORDE_Note = Inst93Quest11_Note
+Inst93Quest11_HORDE_Prequest = Inst93Quest11_Prequest
+Inst93Quest11_HORDE_Folgequest = Inst93Quest11_Folgequest
+Inst93Quest11FQuest_HORDE = Inst93Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst93Quest12_HORDE = Inst93Quest12
+Inst93Quest12_HORDE_Level = Inst93Quest12_Level
+Inst93Quest12_HORDE_Attain = Inst93Quest12_Attain
+Inst93Quest12_HORDE_Aim = Inst93Quest12_Aim
+Inst93Quest12_HORDE_Location = Inst93Quest12_Location
+Inst93Quest12_HORDE_Note = Inst93Quest12_Note
+Inst93Quest12_HORDE_Prequest = Inst93Quest12_Prequest
+Inst93Quest12_HORDE_Folgequest = Inst93Quest12_Folgequest
+Inst93Quest12FQuest_HORDE = Inst93Quest12FQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst93Quest13_HORDE = Inst93Quest13
+Inst93Quest13_HORDE_Level = Inst93Quest13_Level
+Inst93Quest13_HORDE_Attain = Inst93Quest13_Attain
+Inst93Quest13_HORDE_Aim = Inst93Quest13_Aim
+Inst93Quest13_HORDE_Location = Inst93Quest13_Location
+Inst93Quest13_HORDE_Note = Inst93Quest13_Note
+Inst93Quest13_HORDE_Prequest = Inst93Quest13_Prequest
+Inst93Quest13_HORDE_Folgequest = Inst93Quest13_Folgequest
+Inst93Quest13FQuest_HORDE = Inst93Quest13FQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst93Quest14_HORDE = Inst93Quest14
+Inst93Quest14_HORDE_Level = Inst93Quest14_Level
+Inst93Quest14_HORDE_Attain = Inst93Quest14_Attain
+Inst93Quest14_HORDE_Aim = Inst93Quest14_Aim
+Inst93Quest14_HORDE_Location = Inst93Quest14_Location
+Inst93Quest14_HORDE_Note = Inst93Quest14_Note
+Inst93Quest14_HORDE_Prequest = Inst93Quest14_Prequest
+Inst93Quest14_HORDE_Folgequest = Inst93Quest14_Folgequest
+Inst93Quest14FQuest_HORDE = Inst93Quest14FQuest
+--
+Inst93Quest14name1_HORDE = Inst93Quest14name1
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst93Quest15_HORDE = Inst93Quest15
+Inst93Quest15_HORDE_Level = Inst93Quest15_Level
+Inst93Quest15_HORDE_Attain = Inst93Quest15_Attain
+Inst93Quest15_HORDE_Aim = Inst93Quest15_Aim
+Inst93Quest15_HORDE_Location = Inst93Quest15_Location
+Inst93Quest15_HORDE_Note = Inst93Quest15_Note
+Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
+Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
+Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
+-- No Rewards for this quest
 
 
 
