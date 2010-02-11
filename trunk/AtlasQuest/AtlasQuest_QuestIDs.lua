@@ -745,18 +745,29 @@ AQ_8258_Level = "60"
 
 Inst21Quest1_QuestID = "1654"
 Inst21Quest2_QuestID = "1740"
+Inst21Quest3_QuestID = "24792"
+Inst21Quest4_QuestID = "14488"
+Inst21Quest5_QuestID = "24745"
 
 Inst21Quest1_HORDE_QuestID = "1098"
 Inst21Quest2_HORDE_QuestID = "1013"
 Inst21Quest3_HORDE_QuestID = "1014"
 Inst21Quest4_HORDE_QuestID = "1740"
+Inst21Quest5_HORDE_QuestID = "24793"
+Inst21Quest6_HORDE_QuestID = "14488"
+Inst21Quest7_HORDE_QuestID = "14483"
 
 
 --AQ_1654_Level = "22"  -- Already used for Deadmines. Left here just for the note.
 --AQ_1740_Level = "25"  -- Already used for Blackfathom Deeps. Left here just for the note.
+AQ_24792_Level = "78"
+AQ_14488_Level = "80"
+AQ_24745_Level = "80"
 AQ_1098_Level = "25"
 AQ_1013_Level = "26"
 AQ_1014_Level = "27"
+AQ_24793_Level = "80"
+AQ_14483_Level = "80"
 
 
 
@@ -2026,14 +2037,53 @@ AQ_24561_Level = "80"
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
 Inst93Quest1_QuestID = "24590"
-Inst93Quest2_QuestID = "24545"
+Inst93Quest2_QuestID = "24875"
+Inst93Quest3_QuestID = "24876"
+Inst93Quest4_QuestID = "24878"
+Inst93Quest5_QuestID = "24879"
+Inst93Quest6_QuestID = "24880"
+Inst93Quest7_QuestID = "24545"
+Inst93Quest8_QuestID = "24743"
+Inst93Quest9_QuestID = "24547"
+Inst93Quest10_QuestID = "24749"
+Inst93Quest11_QuestID = "24756"
+Inst93Quest12_QuestID = "24757"
+Inst93Quest13_QuestID = "24548"
+Inst93Quest14_QuestID = "24549"
+Inst93Quest15_QuestID = "24748"
 
 Inst93Quest1_HORDE_QuestID = "24590"
-Inst93Quest2_HORDE_QuestID = "24545"
-
+Inst93Quest2_HORDE_QuestID = "24875"
+Inst93Quest3_HORDE_QuestID = "24877"
+Inst93Quest4_HORDE_QuestID = "24878"
+Inst93Quest5_HORDE_QuestID = "24879"
+Inst93Quest6_HORDE_QuestID = "24880"
+Inst93Quest7_HORDE_QuestID = "24545"
+Inst93Quest8_HORDE_QuestID = "24743"
+Inst93Quest9_HORDE_QuestID = "24547"
+Inst93Quest10_HORDE_QuestID = "24749"
+Inst93Quest11_HORDE_QuestID = "24756"
+Inst93Quest12_HORDE_QuestID = "24757"
+Inst93Quest13_HORDE_QuestID = "24548"
+Inst93Quest14_HORDE_QuestID = "24549"
+Inst93Quest15_HORDE_QuestID = "24748"
 
 AQ_24590_Level = "80"
+AQ_24875_Level = "80"
+AQ_24876_Level = "80"
+AQ_24878_Level = "80"
+AQ_24879_Level = "80"
+AQ_24880_Level = "80"
 AQ_24545_Level = "80"
+AQ_24743_Level = "80"
+AQ_24547_Level = "80"
+AQ_24749_Level = "80"
+AQ_24756_Level = "80"
+AQ_24757_Level = "80"
+AQ_24548_Level = "80"
+AQ_24549_Level = "80"
+AQ_24748_Level = "80"
+AQ_24877_Level = "80"
 
 
 
