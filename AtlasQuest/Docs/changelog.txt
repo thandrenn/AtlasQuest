@@ -4,15 +4,32 @@ Changelog
 
 Version 4.4.1 BETA
 
+- Added new Love is in the Air quests, ICC weekly quests, Quel'Delar & Shadowmourne questlines.
 - Updated map names for the Atlas 1.16.0.
-- Localizations updated: ruRU
+- Localizations updated: ruRU, deDE, znTW.
 
 - Quests added:
 	- Pit of Saron: Reforging The Sword
 	- Forge of Souls: Tempering The Blade
 	- Halls of Reflection: The Halls Of Reflection
+	- Icecrown Citadel: Deprogramming (Weekly)
+	- Icecrown Citadel: Securing the Ramparts (Weekly)
+	- Icecrown Citadel: Residue Rendezvous (Weekly)
+	- Icecrown Citadel: Blood Quickening (Weekly)
+	- Icecrown Citadel: Respite for a Tormented Soul (Weekly)
 	- Icecrown Citadel: The Sacred and the Corrupt
+	- Icecrown Citadel: Shadow's Edge
+	- Icecrown Citadel: A Feast of Souls
+	- Icecrown Citadel: Unholy Infusion
+	- Icecrown Citadel: Blood Infusion
+	- Icecrown Citadel: Frost Infusion
+	- Icecrown Citadel: The Splintered Throne
+	- Icecrown Citadel: Shadowmourne...
+	- Icecrown Citadel: The Lich King's Last Stand
 	- Sunwell Plateau: The Purification of Quel'Delar
+	- Shadowfang Keep: A Man on the Inside (Love is in the Air)
+	- Shadowfang Keep: You've Been Served (Love is in the Air)
+	- Shadowfang Keep: Something is in the Air (and it Ain't Love) (Love is in the Air)
 
 
 

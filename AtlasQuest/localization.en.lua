@@ -4265,8 +4265,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "During the Third War, the wizards of the Kirin Tor battled against the undead armies of the Scourge. When the wizards of Dalaran died in battle, they would rise soon after - adding their former might to the growing Scourge. Frustrated by their lack of progress (and against the advice of his peers) the Archmage, Arugal elected to summon extra-dimensional entities to bolster Dalaran's diminishing ranks. Arugal's summoning brought the ravenous worgen into the world of Azeroth. The feral wolf-men slaughtered not only the Scourge, but quickly turned on the wizards themselves. The worgen laid siege to the keep of the noble, Baron Silverlaine. Situated above the tiny hamlet of Pyrewood, the keep quickly fell into shadow and ruin. Driven mad with guilt, Arugal adopted the worgen as his children and retreated to the newly dubbed 'Shadowfang Keep'. It's said he still resides there, protected by his massive pet, Fenrus - and haunted by the vengeful ghost of Baron Silverlaine."
 Inst21Caption = "Shadowfang Keep"
-Inst21QAA = "2 Quests"
-Inst21QAH = "4 Quests"
+Inst21QAA = "5 Quests"
+Inst21QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. The Test of Righteousness (Paladin)"
@@ -4275,7 +4275,7 @@ Inst21Quest1_Attain = "20"
 Inst21Quest1_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
 Inst21Quest1_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
 Inst21Quest1_Note = "To see the note click on  "..YELLOW.."[The Test of Righteousness Information]"..WHITE.."."
-Inst21Quest1_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." at "..YELLOW.."[3]"..WHITE..".\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
+Inst21Quest1_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." at "..YELLOW.."[5]"..WHITE..".\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
 Inst21Quest1_Prequest = "The Tome of Valor -> The Test of Righteousness"
 Inst21Quest1_Folgequest = "The Test of Righteousness"
 Inst21Quest1PreQuest = "true"
@@ -4295,6 +4295,42 @@ Inst21Quest2_Folgequest = "None"
 Inst21Quest2name1 = "Orb of Soran'ruk"
 Inst21Quest2name2 = "Staff of Soran'ruk"
 
+--Quest 3 Alliance
+Inst21Quest3 = "3. Man on the Inside"
+Inst21Quest3_Level = "80"
+Inst21Quest3_Attain = "75"
+Inst21Quest3_Aim = "Report to Investigator Fezzen Brasstacks in Shadowfang Keep."
+Inst21Quest3_Location = "Inspector Snip Snagglebolt (Stormwind City - Trade District; "..YELLOW.."61.7, 75.5"..WHITE..")"
+Inst21Quest3_Note = "This quest is for the Love is in the Air seasonal event.\n\nYou can find Investigator Fezzen Brasstacks by the door to the courtyard, at "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest3_Prequest = "A Friendly Chat..."
+Inst21Quest3_Folgequest = "You've been Served"
+Inst21Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst21Quest4 = "4. You've been Served (Daily)"
+Inst21Quest4_Level = "80"
+Inst21Quest4_Attain = "75"
+Inst21Quest4_Aim = "Serve the Court Subpoena to Apothecary Hummel in Shadowfang Keep."
+Inst21Quest4_Location = "Investigator Fezzen Brasstacks (Shadowfang Keep; "..YELLOW.."[2]"..WHITE..")"
+Inst21Quest4_Note = "This quest is for the Love is in the Air seasonal event.\n\nThe prequest is optional.\n\nApothecary Hummel is at "..YELLOW.."[3]"..WHITE.." in the Courtyard. Turning in the quest starts the event, so make sure only one party member does it at a time."
+Inst21Quest4_Prequest = "Man on the Inside (optional)"
+Inst21Quest4_Folgequest = "Something is in the Air (and it Ain't Love)"
+Inst21Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst21Quest5 = "5. Something is in the Air (and it Ain't Love)"
+Inst21Quest5_Level = "80"
+Inst21Quest5_Attain = "75"
+Inst21Quest5_Aim = "Bring the Faded Lovely Greeting Card to Inspector Snip Snagglebolt in Stormwind."
+Inst21Quest5_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
+Inst21Quest5_Note = "This quest is for the Love is in the Air seasonal event.\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest5_Prequest = "None"
+Inst21Quest5_Folgequest = "None"
+-- No Rewards for this quest
+
+
 
 --Quest 1 Horde
 Inst21Quest1_HORDE = "1. Deathstalkers in Shadowfang"
@@ -4302,7 +4338,7 @@ Inst21Quest1_HORDE_Level = "25"
 Inst21Quest1_HORDE_Attain = "18"
 Inst21Quest1_HORDE_Aim = "Find the Deathstalker Adamant and Deathstalker Vincent."
 Inst21Quest1_HORDE_Location = "High Executor Hadrec (Silverpine Forest - The Sepulcher; "..YELLOW.."43,40"..WHITE..")"
-Inst21Quest1_HORDE_Note = "You find Deathstalker Adamant at "..YELLOW.."[1]"..WHITE..". Deathstalker Vincent is on the right side when you go into the courtyard at "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest1_HORDE_Note = "You find Deathstalker Adamant at "..YELLOW.."[1]"..WHITE..". Deathstalker Vincent is on the right side when you go into the courtyard at "..YELLOW.."[3]"..WHITE.."."
 Inst21Quest1_HORDE_Prequest = "None"
 Inst21Quest1_HORDE_Folgequest = "None"
 --
@@ -4314,7 +4350,7 @@ Inst21Quest2_HORDE_Level = "26"
 Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = "Bring the Book of Ur to Keeper Bel'dugur at the Apothecarium in the Undercity."
 Inst21Quest2_HORDE_Location = "Keeper Bel'dugur (Undercity - The Apothecarium; "..YELLOW.."53,54"..WHITE..")"
-Inst21Quest2_HORDE_Note = "You find the book at "..YELLOW.."[8]"..WHITE.." on the left side when you enter the room."
+Inst21Quest2_HORDE_Note = "You find the book at "..YELLOW.."[11]"..WHITE.." on the left side when you enter the room."
 Inst21Quest2_HORDE_Prequest = "None"
 Inst21Quest2_HORDE_Folgequest = "None"
 --
@@ -4327,7 +4363,7 @@ Inst21Quest3_HORDE_Level = "27"
 Inst21Quest3_HORDE_Attain = "18"
 Inst21Quest3_HORDE_Aim = "Kill Arugal and bring his head to Dalar Dawnweaver at the Sepulcher."
 Inst21Quest3_HORDE_Location = "Dalar Dawnweaver (Silverpine Forest - The Sepulcher; "..YELLOW.."44,39"..WHITE..")"
-Inst21Quest3_HORDE_Note = "You find Archmage Arugal at "..YELLOW.."[10]"..WHITE.."."
+Inst21Quest3_HORDE_Note = "You find Archmage Arugal at "..YELLOW.."[13]"..WHITE.."."
 Inst21Quest3_HORDE_Prequest = "None"
 Inst21Quest3_HORDE_Folgequest = "None"
 --
@@ -4345,6 +4381,41 @@ Inst21Quest4_HORDE_Folgequest = Inst21Quest2_Folgequest
 --
 Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
+
+--Quest 5 Horde
+Inst21Quest5_HORDE = "5. Man on the Inside"
+Inst21Quest5_HORDE_Level = "80"
+Inst21Quest5_HORDE_Attain = "75"
+Inst21Quest5_HORDE_Aim = "Report to Investigator Fezzen Brasstacks in Shadowfang Keep."
+Inst21Quest5_HORDE_Location = "Detective Snap Snagglebol (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")"
+Inst21Quest5_HORDE_Note = "This quest is for the Love is in the Air seasonal event.\n\nYou can find Investigator Fezzen Brasstacks by the door to the courtyard, at "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest5_HORDE_Prequest = "A Friendly Chat..."
+Inst21Quest5_HORDE_Folgequest = "You've been Served"
+Inst21Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 4 Alliance)
+Inst21Quest6_HORDE = "6. You've Been Served (Daily)"
+Inst21Quest6_HORDE_Level = Inst21Quest4_Level
+Inst21Quest6_HORDE_Attain = Inst21Quest4_Attain
+Inst21Quest6_HORDE_Aim = Inst21Quest4_Aim
+Inst21Quest6_HORDE_Location = Inst21Quest4_Location
+Inst21Quest6_HORDE_Note = Inst21Quest4_Note
+Inst21Quest6_HORDE_Prequest = Inst21Quest4_Prequest
+Inst21Quest6_HORDE_Folgequest = Inst21Quest4_Folgequest
+Inst21Quest6FQuest_HORDE = Inst21Quest4FQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst21Quest7_HORDE = "7. Something is in the Air (and it Ain't Love)"
+Inst21Quest7_HORDE_Level = "80"
+Inst21Quest7_HORDE_Attain = "75"
+Inst21Quest7_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
+Inst21Quest7_HORDE_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
+Inst21Quest7_HORDE_Note = "This quest is for the Love is in the Air seasonal event.\n\nDetective Snap Snagglebol is at (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest7_HORDE_Prequest = "None"
+Inst21Quest7_HORDE_Folgequest = "None"
+-- No Rewards for this quest
 
 
 
@@ -11806,8 +11877,8 @@ Inst92Quest3PreQuest_HORDE = "true"
 
 Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
 Inst93Caption = "Icecrown Citadel"
-Inst93QAA = "2 Quests"
-Inst93QAH = "2 Quests"
+Inst93QAA = "15 Quests"
+Inst93QAH = "15 Quests"
 
 --Quest 1 Alliance
 Inst93Quest1 = "1. Lord Marrowgar Must Die! (Weekly)"
@@ -11823,14 +11894,173 @@ Inst93Quest1name1 = "Emblem of Frost"
 Inst93Quest1name2 = "Emblem of Triumph"
 
 --Quest 2 Alliance
-Inst93Quest2 = "2. The Sacred and the Corrupt"
+Inst93Quest2 = "2. Deprogramming (Random Weekly)"
 Inst93Quest2_Level = "80"
 Inst93Quest2_Attain = "80"
-Inst93Quest2_Aim = "Place Light's Vengeance, 25 Primordial Saronite, Rotface's Acidic Blood, and Festergut's Acidic Blood in Highlord Mograine's runeforge in Icecrown Citadel."
-Inst93Quest2_Location = "Highlord Darion Mograine (Icecrown Citadel; "..YELLOW.."[]"..WHITE..")"
-Inst93Quest2_Note = "Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout."
+Inst93Quest2_Aim = "Defeat Lady Deathwhisper while ensuring that Darnavan survives."
+Inst93Quest2_Location = "Infiltrator Minchar (Icecrown Citadel; "..YELLOW.."Near [1]"..WHITE..")"
+Inst93Quest2_Note = "If this quest is available for your raid id, Infiltrator Minchar will appear after you slay Lord Marrowgar.\n\nDuring the Lady Deathwhisper encounter, Darnavan will spawn. He must be kept alive throughout the entire fight to complete the quest."
 Inst93Quest2_Prequest = "None"
-Inst93Quest2_Folgequest = "Shadow's Edge"
+Inst93Quest2_Folgequest = "None"
+--
+Inst93Quest2name1 = "Sack of Frosty Treasures"
+
+--Quest 3 Alliance
+Inst93Quest3 = "3. Securing the Ramparts (Random Weekly)"
+Inst93Quest3_Level = "80"
+Inst93Quest3_Attain = "80"
+Inst93Quest3_Aim = "Slay the Rotting Frost Giant."
+Inst93Quest3_Location = "Skybreaker Lieutenant (Icecrown Citadel; "..GREEN.."[3']"..WHITE..")"
+Inst93Quest3_Note = "If this quest is available for your raid id, the Skybreaker Lieutenant will appear when you kill the first trash pull after Lady Deathwhisper.\n\nThe Rotting Frost giant can be found patroling the rampart."
+Inst93Quest3_Prequest = "None"
+Inst93Quest3_Folgequest = "None"
+--
+Inst93Quest3name1 = "Sack of Frosty Treasures"
+
+--Quest 4 Alliance
+Inst93Quest4 = "4. Residue Rendezvous (Random Weekly)"
+Inst93Quest4_Level = "80"
+Inst93Quest4_Attain = "80"
+Inst93Quest4_Aim = "Return to Alchemist Adrianna while infected with Orange and Green Blight."
+Inst93Quest4_Location = "Alchemist Adrianna (Icecrown Citadel; "..GREEN.."[4']"..WHITE..")"
+Inst93Quest4_Note = "If this quest is available for your raid id, Alchemist Adrianna will appear after you activate the teleporter past Deathbringer Saurfang.\n\nTo complete the quest at least one raid member must obtain the debuffs from both Festergut and Rotface and return to Alchemist Adrianna within 30 minutes of obtaining the first debuff. All raid members with the quest will receive credit."
+Inst93Quest4_Page = {2, "The debuffs go away upon death, logging out, divine intervention and divine shield and possibly other abilities. Hunters who use feign death and survive will retain the debuffs.", };
+Inst93Quest4_Prequest = "None"
+Inst93Quest4_Folgequest = "None"
+--
+Inst93Quest4name1 = "Sack of Frosty Treasures"
+
+--Quest 5 Alliance
+Inst93Quest5 = "5. Blood Quickening (Random Weekly)"
+Inst93Quest5_Level = "80"
+Inst93Quest5_Attain = "80"
+Inst93Quest5_Aim = "Rescue Infiltrator Minchar before he is executed."
+Inst93Quest5_Location = "Alrin the Agile (Icecrown Citadel; Entrance to Crimson Halls)"
+Inst93Quest5_Note = "If this quest is available for your raid id, Alrin the Agile will appear at the entrance to the Crimson Halls.\n\nThe 30 minute timer begins upon entering Crimson Halls. You must clear all trash, defeat the Blood Princes and fight Blood Queen Lana'thel before the timer runs out to complete the quest."
+Inst93Quest5_Prequest = "None"
+Inst93Quest5_Folgequest = "None"
+--
+Inst93Quest5name1 = "Sack of Frosty Treasures"
+
+--Quest 6 Alliance
+Inst93Quest6 = "6. Respite for a Tormented Soul (Random Weekly)"
+Inst93Quest6_Level = "80"
+Inst93Quest6_Attain = "80"
+Inst93Quest6_Aim = "Use the Life Crystals to preserve Sindragosa's Essence."
+Inst93Quest6_Location = "Valithria Dreamwalker (Icecrown Citadel; "..YELLOW.."[11]"..WHITE..")"
+Inst93Quest6_Note = "If this quest is available for your raid id, Valithria Dreamwalker will give you the quest after you complete that encounter.\n\nTo complete the quest, raid members must use the provided item to stack debuffs (30 on 10 player, 75 on 25 player) on Sindragosa when she is at 20% health or lower. If successful and Sindragosa gets an aura of Soul Preservation before she dies, the quest is completed."
+Inst93Quest6_Prequest = "None"
+Inst93Quest6_Folgequest = "None"
+--
+Inst93Quest6name1 = "Sack of Frosty Treasures"
+
+--Quest 7 Alliance
+Inst93Quest7 = "7. The Sacred and the Corrupt"
+Inst93Quest7_Level = "80"
+Inst93Quest7_Attain = "80"
+Inst93Quest7_Aim = "Place Light's Vengeance, 25 Primordial Saronite, Rotface's Acidic Blood, and Festergut's Acidic Blood in Highlord Mograine's runeforge in Icecrown Citadel."
+Inst93Quest7_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest7_Note = "This questline is only available to Warriors, Paladins and Death Knights. Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout."
+Inst93Quest7_Prequest = "None"
+Inst93Quest7_Folgequest = "Shadow's Edge"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst93Quest8 = "8. Shadow's Edge"
+Inst93Quest8_Level = "80"
+Inst93Quest8_Attain = "80"
+Inst93Quest8_Aim = "Missing data."
+Inst93Quest8_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest8_Note = "Missing data. Presumably this is just the quest to give you Shadow's Edge."
+Inst93Quest8_Prequest = "The Sacred and the Corrupt"
+Inst93Quest8_Folgequest = "A Feast of Souls"
+Inst93Quest8FQuest = "true"
+--
+Inst93Quest8name1 = "Shadow's Edge"
+
+--Quest 9 Alliance
+Inst93Quest9 = "9. A Feast of Souls"
+Inst93Quest9_Level = "80"
+Inst93Quest9_Attain = "80"
+Inst93Quest9_Aim = "Highlord Darion Mograine wants you to use Shadow's Edge to slay 1000 of the Lich King's minions in Icecrown Citadel. Souls can be obtained in 10 or 25 person difficulty."
+Inst93Quest9_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest9_Note = "You've got a lot of killing to do. Only kills in Icecrown Citadel count towards the 1000."
+Inst93Quest9_Prequest = "Shadow's Edge"
+Inst93Quest9_Folgequest = "Unholy Infusion"
+Inst93Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst93Quest10 = "10. Unholy Infusion"
+Inst93Quest10_Level = "80"
+Inst93Quest10_Attain = "80"
+Inst93Quest10_Aim = "Highlord Darion Mograine wants you to infuse Shadow's Edge with Unholy power and slay Professor Putricide."
+Inst93Quest10_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest10_Note = "This quest can only be completed in 25-player mode.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
+Inst93Quest10_Prequest = "A Feast of Souls"
+Inst93Quest10_Folgequest = "Blood Infusion"
+Inst93Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst93Quest11 = "11. Blood Infusion"
+Inst93Quest11_Level = "80"
+Inst93Quest11_Attain = "80"
+Inst93Quest11_Aim = "Highlord Darion Mograine wants you to infuse Shadow's Edge with blood and defeat Queen Lana'thel."
+Inst93Quest11_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest11_Note = "This quest can only be completed in 25-player mode.\n\nTo complete the quest, get the Blood Mirror debuff. Then, assuming you're not bitten first, have the first person bitten bite you. Bite three more people and survive the encounter to complete the quest. Info from hobbesmarcus on WoWhead.com"
+Inst93Quest11_Prequest = "Unholy Infusion"
+Inst93Quest11_Folgequest = "Frost Infusion"
+Inst93Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst93Quest12 = "12. Frost Infusion"
+Inst93Quest12_Level = "80"
+Inst93Quest12_Attain = "80"
+Inst93Quest12_Aim = "Highlord Darion Mograine has instructed you to slay Sindragosa after subjecting yourself to 4 of her breath attacks while wielding Shadow's Edge."
+Inst93Quest12_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest12_Note = "This quest can only be completed in 25-player mode.\n\nAfter receiving the Frost-Imbued Blade buff from the 4 breath attacks, you must kill Sindragosa within 6 minutes to complete the quest. "
+Inst93Quest12_Prequest = "Blood Infusion"
+Inst93Quest12_Folgequest = "The Splintered Throne"
+Inst93Quest12FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst93Quest13 = "13. The Splintered Throne"
+Inst93Quest13_Level = "80"
+Inst93Quest13_Attain = "80"
+Inst93Quest13_Aim = "Highlord Darion Mograine wants you to collect 50 Shadowfrost Shards."
+Inst93Quest13_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest13_Note = "This quest can only be completed in 25-player mode.\n\nThe Shadowfrost Shards are rare drops from bosses."
+Inst93Quest13_Prequest = "Frost Infusion"
+Inst93Quest13_Folgequest = "Shadowmourne..."
+Inst93Quest13FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst93Quest14 = "14. Shadowmourne..."
+Inst93Quest14_Level = "80"
+Inst93Quest14_Attain = "80"
+Inst93Quest14_Aim = "Highlord Darion Mograine wants you to bring him Shadow's Edge."
+Inst93Quest14_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest14_Note = "This quest upgrades your Shadow's Edge to Shadowmourne."
+Inst93Quest14_Prequest = "The Splintered Throne"
+Inst93Quest14_Folgequest = "The Lich King's Last Stand"
+Inst93Quest14FQuest = "true"
+--
+Inst93Quest14name1 = "Shadowmourne"
+
+--Quest 15 Alliance
+Inst93Quest15 = "15. The Lich King's Last Stand"
+Inst93Quest15_Level = "80"
+Inst93Quest15_Attain = "80"
+Inst93Quest15_Aim = "Highlord Darion Mograine in Icecrown Citadel wants you to kill the Lich King."
+Inst93Quest15_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest15_Note = "Missing data, but presumably this quest can only be completed in 25-player mode."
+Inst93Quest15_Prequest = "Shadowmourne..."
+Inst93Quest15_Folgequest = "None"
+Inst93Quest15FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -11856,6 +12086,166 @@ Inst93Quest2_HORDE_Location = Inst93Quest2_Location
 Inst93Quest2_HORDE_Note = Inst93Quest2_Note
 Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
 Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
+--
+Inst93Quest2name1_HORDE = Inst93Quest2name1
+
+--Quest 3 Horde
+Inst93Quest3_HORDE = "3. Securing the Ramparts (Weekly)"
+Inst93Quest3_HORDE_Level = "80"
+Inst93Quest3_HORDE_Attain = "80"
+Inst93Quest3_HORDE_Aim = "Slay the Rotting Frost Giant."
+Inst93Quest3_HORDE_Location = "Kor'kron Lieutenant (Icecrown Citadel; "..GREEN.."[3']"..WHITE..")"
+Inst93Quest3_HORDE_Note = "This is one of five random quests that are available in Icecrown Citadel. If this is the quest for your raid id, the Kor'kron Lieutenant will appear when you kill the first trash pull after Lady Deathwhisper.\n\nThe Rotting Frost giant can be found patroling the rampart."
+Inst93Quest3_HORDE_Prequest = "None"
+Inst93Quest3_HORDE_Folgequest = "None"
+--
+Inst93Quest3name1_HORDE = "Sack of Frosty Treasures"
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst93Quest4_HORDE = Inst93Quest4
+Inst93Quest4_HORDE_Level = Inst93Quest4_Level
+Inst93Quest4_HORDE_Attain = Inst93Quest4_Attain
+Inst93Quest4_HORDE_Aim = Inst93Quest4_Aim
+Inst93Quest4_HORDE_Location = Inst93Quest4_Location
+Inst93Quest4_HORDE_Note = Inst93Quest4_Note
+Inst93Quest4_HORDE_Page = Inst93Quest4_Page
+Inst93Quest4_HORDE_Prequest = Inst93Quest4_Prequest
+Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
+--
+Inst93Quest4name1_HORDE = Inst93Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst93Quest5_HORDE = Inst93Quest5
+Inst93Quest5_HORDE_Level = Inst93Quest5_Level
+Inst93Quest5_HORDE_Attain = Inst93Quest5_Attain
+Inst93Quest5_HORDE_Aim = Inst93Quest5_Aim
+Inst93Quest5_HORDE_Location = Inst93Quest5_Location
+Inst93Quest5_HORDE_Note = Inst93Quest5_Note
+Inst93Quest5_HORDE_Prequest = Inst93Quest5_Prequest
+Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
+--
+Inst93Quest5name1_HORDE = Inst93Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst93Quest6_HORDE = Inst93Quest6
+Inst93Quest6_HORDE_Level = Inst93Quest6_Level
+Inst93Quest6_HORDE_Attain = Inst93Quest6_Attain
+Inst93Quest6_HORDE_Aim = Inst93Quest6_Aim
+Inst93Quest6_HORDE_Location = Inst93Quest6_Location
+Inst93Quest6_HORDE_Note = Inst93Quest6_Note
+Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
+Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
+--
+Inst93Quest6name1_HORDE = Inst93Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst93Quest7_HORDE = Inst93Quest7
+Inst93Quest7_HORDE_Level = Inst93Quest7_Level
+Inst93Quest7_HORDE_Attain = Inst93Quest7_Attain
+Inst93Quest7_HORDE_Aim = Inst93Quest7_Aim
+Inst93Quest7_HORDE_Location = Inst93Quest7_Location
+Inst93Quest7_HORDE_Note = Inst93Quest7_Note
+Inst93Quest7_HORDE_Prequest = Inst93Quest7_Prequest
+Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst93Quest8_HORDE = Inst93Quest8
+Inst93Quest8_HORDE_Level = Inst93Quest8_Level
+Inst93Quest8_HORDE_Attain = Inst93Quest8_Attain
+Inst93Quest8_HORDE_Aim = Inst93Quest8_Aim
+Inst93Quest8_HORDE_Location = Inst93Quest8_Location
+Inst93Quest8_HORDE_Note = Inst93Quest8_Note
+Inst93Quest8_HORDE_Prequest = Inst93Quest8_Prequest
+Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
+Inst93Quest8FQuest_HORDE = Inst93Quest8FQuest
+--
+Inst93Quest8name1_HORDE = Inst93Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst93Quest9_HORDE = Inst93Quest9
+Inst93Quest9_HORDE_Level = Inst93Quest9_Level
+Inst93Quest9_HORDE_Attain = Inst93Quest9_Attain
+Inst93Quest9_HORDE_Aim = Inst93Quest9_Aim
+Inst93Quest9_HORDE_Location = Inst93Quest9_Location
+Inst93Quest9_HORDE_Note = Inst93Quest9_Note
+Inst93Quest9_HORDE_Prequest = Inst93Quest9_Prequest
+Inst93Quest9_HORDE_Folgequest = Inst93Quest9_Folgequest
+Inst93Quest9FQuest_HORDE = Inst93Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst93Quest10_HORDE = Inst93Quest10
+Inst93Quest10_HORDE_Level = Inst93Quest10_Level
+Inst93Quest10_HORDE_Attain = Inst93Quest10_Attain
+Inst93Quest10_HORDE_Aim = Inst93Quest10_Aim
+Inst93Quest10_HORDE_Location = Inst93Quest10_Location
+Inst93Quest10_HORDE_Note = Inst93Quest10_Note
+Inst93Quest10_HORDE_Prequest = Inst93Quest10_Prequest
+Inst93Quest10_HORDE_Folgequest = Inst93Quest10_Folgequest
+Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst93Quest11_HORDE = Inst93Quest11
+Inst93Quest11_HORDE_Level = Inst93Quest11_Level
+Inst93Quest11_HORDE_Attain = Inst93Quest11_Attain
+Inst93Quest11_HORDE_Aim = Inst93Quest11_Aim
+Inst93Quest11_HORDE_Location = Inst93Quest11_Location
+Inst93Quest11_HORDE_Note = Inst93Quest11_Note
+Inst93Quest11_HORDE_Prequest = Inst93Quest11_Prequest
+Inst93Quest11_HORDE_Folgequest = Inst93Quest11_Folgequest
+Inst93Quest11FQuest_HORDE = Inst93Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst93Quest12_HORDE = Inst93Quest12
+Inst93Quest12_HORDE_Level = Inst93Quest12_Level
+Inst93Quest12_HORDE_Attain = Inst93Quest12_Attain
+Inst93Quest12_HORDE_Aim = Inst93Quest12_Aim
+Inst93Quest12_HORDE_Location = Inst93Quest12_Location
+Inst93Quest12_HORDE_Note = Inst93Quest12_Note
+Inst93Quest12_HORDE_Prequest = Inst93Quest12_Prequest
+Inst93Quest12_HORDE_Folgequest = Inst93Quest12_Folgequest
+Inst93Quest12FQuest_HORDE = Inst93Quest12FQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst93Quest13_HORDE = Inst93Quest13
+Inst93Quest13_HORDE_Level = Inst93Quest13_Level
+Inst93Quest13_HORDE_Attain = Inst93Quest13_Attain
+Inst93Quest13_HORDE_Aim = Inst93Quest13_Aim
+Inst93Quest13_HORDE_Location = Inst93Quest13_Location
+Inst93Quest13_HORDE_Note = Inst93Quest13_Note
+Inst93Quest13_HORDE_Prequest = Inst93Quest13_Prequest
+Inst93Quest13_HORDE_Folgequest = Inst93Quest13_Folgequest
+Inst93Quest13FQuest_HORDE = Inst93Quest13FQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst93Quest14_HORDE = Inst93Quest14
+Inst93Quest14_HORDE_Level = Inst93Quest14_Level
+Inst93Quest14_HORDE_Attain = Inst93Quest14_Attain
+Inst93Quest14_HORDE_Aim = Inst93Quest14_Aim
+Inst93Quest14_HORDE_Location = Inst93Quest14_Location
+Inst93Quest14_HORDE_Note = Inst93Quest14_Note
+Inst93Quest14_HORDE_Prequest = Inst93Quest14_Prequest
+Inst93Quest14_HORDE_Folgequest = Inst93Quest14_Folgequest
+Inst93Quest14FQuest_HORDE = Inst93Quest14FQuest
+--
+Inst93Quest14name1_HORDE = Inst93Quest14name1
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst93Quest15_HORDE = Inst93Quest15
+Inst93Quest15_HORDE_Level = Inst93Quest15_Level
+Inst93Quest15_HORDE_Attain = Inst93Quest15_Attain
+Inst93Quest15_HORDE_Aim = Inst93Quest15_Aim
+Inst93Quest15_HORDE_Location = Inst93Quest15_Location
+Inst93Quest15_HORDE_Note = Inst93Quest15_Note
+Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
+Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
+Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
+-- No Rewards for this quest
 
 
 
