@@ -4402,8 +4402,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgs nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgs die Burg des adligen Barons Silberlein jenseits des unscheinbaren Dörfchens Lohenscheit angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgs als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silberlein."
 Inst21Caption = "Burg Schattenfang"
-Inst21QAA = "3 Quests"
-Inst21QAH = "5 Quests"
+Inst21QAA = "5 Quests"
+Inst21QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. Die Prüfung der Rechtschaffenheit (Paladin)"
@@ -4412,7 +4412,7 @@ Inst21Quest1_Attain = "20"
 Inst21Quest1_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Koredelstein und bringt alles zusammen zu Jordan Stillbrunn in Eisenschmiede."
 Inst21Quest1_Location = "Jordan Stillbrunn (Dun Morogh - Eisenschmiede Eingang; "..YELLOW.."52,36"..WHITE..")"
 Inst21Quest1_Note = "Um die Notizen zu dieser Quest zu betrachten, klicke auf "..YELLOW.."[Informationen zur Prüfung der Rechtschaffenheit]"..WHITE.."."
-Inst21Quest1_Page = {2, "Nur Paladine können diese Quest erhalten!\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."[Todesminen]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem das Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." bei "..YELLOW.."[3]"..WHITE..".\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Koredelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
+Inst21Quest1_Page = {2, "Nur Paladine können diese Quest erhalten!\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."[Todesminen]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem das Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." bei "..YELLOW.."[5]"..WHITE..".\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Koredelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
 Inst21Quest1_Prequest = "Ja, Der Foliant der Ehre -> Die Prüfung der Rechtschaffenheit"
 Inst21Quest1_Folgequest = "Ja, Die Prüfung der Rechtschaffenheit"
 Inst21Quest1PreQuest = "true"
@@ -4433,14 +4433,38 @@ Inst21Quest2name1 = "Kugel von Soran'ruk"
 Inst21Quest2name2 = "Stab von Soran'ruk"
 
 --Quest 3 Allianz
-Inst21Quest3 = "3. Liebe muß wehtun"
+Inst21Quest3 = "3. Insider"
 Inst21Quest3_Level = "80"
-Inst21Quest3_Attain = "80"
-Inst21Quest3_Aim = "Bezwingt das Apotheker-Trio der Chemiemanufaktur Krone in der Burg Schattenfang."
-Inst21Quest3_Location = "Ermittler Fezzen Kupferstapel"
-Inst21Quest3_Note = "Diese Quest kann nur während des Events Liebe liegt in der Luft absolviert werden."
-Inst21Quest3_Prequest = "Nein"
-Inst21Quest3_Folgequest = "Nein"
+Inst21Quest3_Attain = "75"
+Inst21Quest3_Aim = "Meldet Euch bei Ermittler Fezzen Kupferstapel in Burg Schattenfang."
+Inst21Quest3_Location = "Inspektor Snip Schnappbolz (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")"
+Inst21Quest3_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nDu kannst Ermittler Fezzen Kupfersrapel vor der Tür zum Innenhof finden, bei "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest3_Prequest = "Eine nette Unterhaltung..."
+Inst21Quest3_Folgequest = "Zustellung"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst21Quest4 = "4. Zustellung (Täglich)"
+Inst21Quest4_Level = "80"
+Inst21Quest4_Attain = "75"
+Inst21Quest4_Aim = "Stellt Apotheker Hummel auf Burg Schattenfang die Vorladung bei Gericht zu."
+Inst21Quest4_Location = "Ermittler Fezzen Kupferstapel (Burg Schattenfang; "..YELLOW.."[2]"..WHITE..")"
+Inst21Quest4_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nDie Vorquest ist optional.\n\nApotheker Hummel ist bei "..YELLOW.."[3]"..WHITE.." im Innenhof. Das Event startet wenn einer die Quest abgibt, daher achtet drauf das nur einer zur selben Zeit diese Quest abgibt!"
+Inst21Quest4_Prequest = "Insider (optional)"
+Inst21Quest4_Folgequest = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
+Inst21Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst21Quest5 = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest5_Level = "80"
+Inst21Quest5_Attain = "75"
+Inst21Quest5_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
+Inst21Quest5_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest5_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest5_Prequest = "Nein"
+Inst21Quest5_Folgequest = "Nein"
+-- No Rewards for this quest 
 
 
 --Quest 1 Horde
@@ -4449,7 +4473,7 @@ Inst21Quest1_HORDE_Level = "25"
 Inst21Quest1_HORDE_Attain = "18"
 Inst21Quest1_HORDE_Aim = "Sucht die Todespirscher Adamant und Vincent."
 Inst21Quest1_HORDE_Location = "Hochexekutor Hadrec (Silberwald - Das Grabmal; "..YELLOW.."43,40"..WHITE..")"
-Inst21Quest1_HORDE_Note = "Man findet Todespirscher Adamant bei "..YELLOW.."[1]"..WHITE..". Todespirscher Vincet befindet sich auf der rechten Seite, wenn man den Innenhof betritt, bei "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest1_HORDE_Note = "Man findet Todespirscher Adamant bei "..YELLOW.."[3]"..WHITE..". Todespirscher Vincet befindet sich auf der rechten Seite, wenn man den Innenhof betritt, bei "..YELLOW.."[2]"..WHITE.."."
 Inst21Quest1_HORDE_Prequest = "Nein"
 Inst21Quest1_HORDE_Folgequest = "Nein"
 --
@@ -4461,7 +4485,7 @@ Inst21Quest2_HORDE_Level = "26"
 Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = "Bringt dem Bewahrer Bel'dugur im Apothekarium in Unterstadt das Buch von Ur."
 Inst21Quest2_HORDE_Location = "Bewahrer Bel'dugur (Unterstadt - Das Apothekarium; "..YELLOW.."53,54"..WHITE..")"
-Inst21Quest2_HORDE_Note = "Man findet das Buch bei "..YELLOW.."[8]"..WHITE.." auf der linken Seite, wenn man den Raum betritt."
+Inst21Quest2_HORDE_Note = "Man findet das Buch bei "..YELLOW.."[11]"..WHITE.." auf der linken Seite, wenn man den Raum betritt."
 Inst21Quest2_HORDE_Prequest = "Nein"
 Inst21Quest2_HORDE_Folgequest = "Nein"
 --
@@ -4474,7 +4498,7 @@ Inst21Quest3_HORDE_Level = "27"
 Inst21Quest3_HORDE_Attain = "18"
 Inst21Quest3_HORDE_Aim = "Tötet Arugal und bringt Dalar Morgenweber in dem Grabmal seinen Kopf."
 Inst21Quest3_HORDE_Location = "Dalar Morgenweber (Silberwald - Das Grabmal; "..YELLOW.."44,39"..WHITE..")"
-Inst21Quest3_HORDE_Note = "Man findet Argual bei "..YELLOW.."[10]"..WHITE.."."
+Inst21Quest3_HORDE_Note = "Man findet Argual bei "..YELLOW.."[13]"..WHITE.."."
 Inst21Quest3_HORDE_Prequest = "Nein"
 Inst21Quest3_HORDE_Folgequest = "Nein"
 --
@@ -4494,14 +4518,39 @@ Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 --Quest 5 Horde
-Inst21Quest5 = "5. Liebe muß wehtun"
-Inst21Quest5_Level = "80"
-Inst21Quest5_Attain = "80"
-Inst21Quest5_Aim = "Bezwingt das Apotheker-Trio der Chemiemanufaktur Krone in der Burg Schattenfang."
-Inst21Quest5_Location = "Ermittler Fezzen Kupferstapel"
-Inst21Quest5_Note = "Diese Quest kann nur während des Events Liebe liegt in der Luft absolviert werden."
-Inst21Quest5_Prequest = "Nein"
-Inst21Quest5_Folgequest = "Nein"
+Inst21Quest5_HORDE = "5. Insider"
+Inst21Quest5_HORDE_Level = "80"
+Inst21Quest5_HORDE_Attain = "75"
+Inst21Quest5_HORDE_Aim = "Meldet Euch bei Ermittler Fezzen Kupferstapel in Burg Schattenfang."
+Inst21Quest5_HORDE_Location = "Ermittler Snap Schnappbolz (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")"
+Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nDu kannst Ermittler Fezzen Kupferstapel vor der Tür zum Innenhof finden, bei "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest5_HORDE_Prequest = "Eine nette Unterhaltung..."
+Inst21Quest5_HORDE_Folgequest = "Zustellung"
+Inst21Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde (same as Quest 4 Alliance)
+Inst21Quest6_HORDE = "6. Zustellung (Täglich)"
+Inst21Quest6_HORDE_Level = Inst21Quest4_Level
+Inst21Quest6_HORDE_Attain = Inst21Quest4_Attain
+Inst21Quest6_HORDE_Aim = Inst21Quest4_Aim
+Inst21Quest6_HORDE_Location = Inst21Quest4_Location
+Inst21Quest6_HORDE_Note = Inst21Quest4_Note
+Inst21Quest6_HORDE_Prequest = Inst21Quest4_Prequest
+Inst21Quest6_HORDE_Folgequest = Inst21Quest4_Folgequest
+Inst21Quest6FQuest_HORDE = Inst21Quest4FQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst21Quest7_HORDE = "7. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest7_HORDE_Level = "80"
+Inst21Quest7_HORDE_Attain = "75"
+Inst21Quest7_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
+Inst21Quest7_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest7_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest7_HORDE_Prequest = "None"
+Inst21Quest7_HORDE_Folgequest = "None"
+-- No Rewards for this quest 
 
 
 
