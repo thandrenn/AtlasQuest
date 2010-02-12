@@ -10896,7 +10896,11 @@ Inst81Quest3name5_HORDE = Inst81Quest3name5
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Story = "Unter den reich verzierten Spitzen und verzauberten Straßen von Dalaran, rührt sich eine dunkle Anwesenheit innerhalb der mächtigen Mauern der Violetten Festung. Lange verwendet, um die Bedrohungen gegen die Stadt anzuwenden, befinden sich in der Festung tödlichen Gefangene, die mit großer Sorgfalt der Kirin Tor bewacht werden. Jedoch hat ein plötzlicher Angriff die Festigkeit der Mauern getestet, dies gefährdet die Sicherheit von jedem außerhalb der Gefängnismauerm.  Unter der Verwendung des Kerkers als Mittel die Stadt zu durchbrechen, haben Malygos und sein blauer Drachenschwarm damit begonnen, an der Verteidigung der Violetten Festung zu nagen, um die Herrschaft der Arkanen Magier über Azeroth zurückzufordern. Nur die tapfersten Seelen von denen, die das Gefängnis beschützen stehen zwischen die fortlaufenden Existenz von Dalaran und der völligen Vernichtung der Stadt."
+Inst82Story = ( 
+  ["Page1"] = "Inmitten der kunstvoll verzierten Dächer und verzauberten Straßen von Dalaran erhebt sich die prachtvolle Violette Festung, das Zeugnis des Ruhmes der Kirin Tor, der Herrscher über die Stadt. Und doch: Innerhalb ihrer mächtigen Mauern liegt eine dunkle Wahrheit verborgen. Die Festung, lange genutzt, um drohendem Unheil Einhalt zu gebieten, beherbergt noch immer reihenweise tödliche Gefahren in ihren Kerkern. Gewissenhaft überwacht von den Kirin Tor. In einem unerwarteten und gewalttätigen Angriff hat Malygos seinen blauen Drachenschwarm über Dalaran hereinbrechen lassen, um die arkane Dominanz über Azeroth an sich zu reißen.",
+  ["Page2"] = "Indem sie einen gewaltigen Riss im Dach der Violetten Festung zum Einstieg nutzten, ist es den Agenten des Drachenaspekts gelungen, sich Zutritt zu den Portalen innerhalb des Gefängnisses zu verschaffen und damit den Schutz, den die Festung bieten sollte, auf die Probe zu stellen und die Sicherheit aller außerhalb der Gefängnismauern zu gefährden. Während die Verteidigung der Violetten Festung langsam aber stetig unter den andauernden Angriffen geschwächt wird, stehen nur noch die tapferen Seelen derjenigen, die das Gefängnis bewachen, zwischen der weiteren Existenz Dalarans und der kompletten Zerstörung der Stadt.",
+  ["MaxPages"] = "2",
+};
 Inst82Caption = "VF: Die violette Festung"
 Inst82QAA = "2 Quests"
 Inst82QAH = "2 Quests"
@@ -11134,7 +11138,7 @@ Inst85QAH = "No Quests"
 
 --------------- INST86 - Ulduar ---------------
 
-Inst86Story = "For millennia, Ulduar has remained undisturbed by mortals, far away from their concerns and their struggles. Yet since its recent discovery, many have wondered what the structure's original purpose may have been. Some thought it a city, built to herald the glory of its makers; some thought it a vault containing innumerable treasures, perhaps even relics of the mighty Titans themselves. Such speculations were wrong. Beyond Ulduar's gates lies no city, no treasure vault, no final answer to the Titan's mysteries. All that awaits those who dare set foot in Ulduar is a horror even the Titans could not, would not destroy, an evil they merely... contained. Beneath ancient Ulduar, the Old God of death lies, whispering.... Tread carefully, or its prison will become your tomb."
+Inst86Story = "Jahrtausendelang lag Ulduar in von Sterblichen unberührtem Schlaf, fernab von ihren Sorgen, Nöten und Streitigkeiten. Nun jedoch ist der Komplex entdeckt worden und die Frage steht im Raum, welchem Zwecke er ursprünglich dienen sollte. Manche glauben, Ulduar sei eine Stadt, erbaut zum Ruhme ihrer Schöpfer, andere wiederum halten es für eine Schatzkammer, in der unzählige Schätze versteckt liegen, vielleicht sogar die Relikte der Titanen selbst. Sie haben sich geirrt. Hinter den Toren liegt keine Stadt, keine Schatzkammer und auch nicht die endgültige Antwort auf die Geheimnisse der Titanen. Alles, was diejenigen erwartet, die es wagen, einen Fuß nach Ulduar hineinzusetzen, ist ein Grauen, welches selbst die Titanen nicht zu vernichten wagten, etwas Böses, das sie lediglich... in Schach hielten. Unterhalb des uralten Ulduar wartet der Alte Gott des Todes, raunend… Passt auf, wo ihr hintretet, oder das Gefängnis wird zu Eurem Grab werden."
 Inst86Caption = "Ulduar"
 Inst86QAA = "20 Quests"
 Inst86QAH = "20 Quests"
@@ -11692,7 +11696,7 @@ Inst88Quest1name2_HORDE = Inst88Quest1name2
 
 
 --------------- INST90 - Forge of Souls (FoS) ---------------
-Inst90Story = "Serving as the first wing in this expansive dungeon, the Forge of Souls will quickly put players to the test of carving through the Scourge stronghold into deeper, more treacherous locations. Jaina will command Alliance forces, and Sylvanas will direct Horde forces. The goal is to ruin the twisted engines known as soul grinders found in this portion of the citadel, and then players can advance -- that is, if the Horde and Alliance forces can overcome the foes who confront them."
+Inst90Story = "Im ersten Flügel dieses weitläufigen Dungeons, der Seelenschmiede, werden die Spieler schnell einem Test auf Herz und Nieren unterzogen: Die Herausforderung besteht darin, sich durch die Hochburg der Geißel in Richtung der tiefer gelegenen, tückischeren Bereiche zu schlagen. Dabei befehligt auf Seiten der Allianz Jaina die Streitkräfte, während Sylvanas den Truppen der Horde vorsteht. Das Ziel ist es, die verdorbenen, als Seelenschänder bekannten Maschinen zu zerstören, die in diesem Teil der Zitadelle zu finden sind. Erst dann können die Spieler vorrücken – allerdings natürlich nur, wenn es den Streitmächten der Horde und der Allianz gelingt, die Gegner zu überwinden, die sich ihnen in den Weg stellen."
 Inst90Caption = "FoS:Die Seelenschmiede"
 Inst90QAA = "2 Quests"
 Inst90QAH = "2 Quests"
@@ -11749,7 +11753,7 @@ Inst90Quest2name1_HORDE = "Emblem des Frosts"
 
 
 --------------- INST91 - Pit of Saron (PoS) ---------------
-Inst91Story = "Accessible only to those who have laid waste to the Forge of Souls' unholy operations, the Pit of Saron will bring Horde and Alliance forces deeper into the Lich King's domain. Players who venture here will immediately be confronted by the lord of this lair, Scourgelord Tyrannus. But defeating him will not be as easy as it seems. Before they can present a threat to Tyrannus, the adventurers, instructed by their leaders, will need to free enslaved allies who have been trapped by the Scourge. Until that happens, Tyrannus will leave all adversaries to his minions, workers of the citadel's mines. Perhaps the challenges here will lend clues as to the whereabouts of the Lich King's private chambers outside of the Frozen Throne, deep within the Halls of Reflection."
+Inst91Story = "Die Grube von Saron, nur von denjenigen betretbar, die den unheiligen Vorgängen in der Schmiede der Seelen ein Ende bereitet haben, lässt die Streitkräfte der Horde und der Allianz tiefer in das Reich des Lichkönigs vordringen. Spieler, die sich hier hineinwagen, sehen sich augenblicklich mit dem Herrn dieses Ortes konfrontiert, dem Geißelfürsten Tyrannus. Ihn zu besiegen wird allerdings nicht ganz so einfach werden, wie es zunächst den Anschein hat. Bevor sie sich Tyrannus zuwenden können, müssen die Abenteurer auf Geheiß ihrer Anführer zunächst versklavte Verbündete befreien, die von der Geißel gefangen genommen wurden. Bis das gelungen ist, wird Tyrannus es seinen Günstlingen, den Arbeitern in den Minen der Zitadelle, überlassen, sich um die Eindringlinge zu kümmern. Möglicherweise lassen sich aus den Herausforderungen hier bereits Hinweise herleiten darüber, wo die privaten Gemächer des Lichkönigs jenseits des Frostthrons zu finden sind – tief innerhalb der Hallen der Reflexion."
 Inst91Caption = "PoS:Grube von Saron"
 Inst91QAA = "3 Quests"
 Inst91QAH = "3 Quests"
@@ -11832,7 +11836,7 @@ Inst91Quest3name1_HORDE = "Emblem des Frosts"
 
 
 --------------- INST92 - Halls of Reflection (HoR) ---------------
-Inst92Story = "With Jaina and Sylvanas leading the way, adventurers who make it as far as these frigid halls will quickly recognize the weapon that lies ahead: Frostmourne, the corruptive, legendary device of the Lich King himself. The Lich King's private chambers are within reach, although they may be the death of anyone who ventures there."
+Inst92Story = "Mit Jaina und Sylvanas als ihren Anführern werden die Abenteurer, die es bis in diese eisigen Hallen geschafft haben, die Waffe, die vor ihnen liegt, schnell erkennen: Frostgram, die verführerische, verderbliche und legendäre Waffe des Lichkönigs persönlich. Die Privatgemächer des Lichkönigs liegen in greifbarer Nähe– aber sie könnten der Tod eines jeden sein, der sich dorthin wagt."
 Inst92Caption = "HoR:Hallen der Reflexion"
 Inst92QAA = "2 Quests"
 Inst92QAH = "2 Quests"
@@ -11938,9 +11942,9 @@ Inst93Quest4 = "4. Wandelnder Wirt (Zufällig Wöchentlich)"
 Inst93Quest4_Level = "80"
 Inst93Quest4_Attain = "80"
 Inst93Quest4_Aim = "Kehrt zu Alchemistin Adrianna zurück, während Ihr mit der orangenen und der grünen Seuche infiziert seid."
-Inst93Quest4_Location = "Alchemist Adrianna (Eiskronenzitadelle; "..GREEN.."[4']"..WHITE..")"
-Inst93Quest4_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, Alchemist Adrianna will appear after you activate the teleporter past Deathbringer Saurfang.\n\nTo complete the quest at least one raid member must obtain the debuffs from both Festergut and Rotface and return to Alchemist Adrianna within 30 minutes of obtaining the first debuff. All raid members with the quest will receive credit."
-Inst93Quest4_Page = {2, "The debuffs go away upon death, logging out, divine intervention and divine shield and possibly other abilities. Hunters who use feign death and survive will retain the debuffs.", };
+Inst93Quest4_Location = "Alchemistin Adrianna (Eiskronenzitadelle; "..GREEN.."[4']"..WHITE..")"
+Inst93Quest4_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Alchemistin Adrianna erscheinen nachdem der Teleporter aktiviert wurde der hinter Todesbringer Saurfang ist.\n\nUm diese Quest zu beenden muß mindestens ein Raidmitglied die beiden Debuffs von Fauldarm und Modermiene besitzen und innerhalb von 30 Minuten zu Alchemistin Adrianna zurückkehren nachdem der erste Debuff gesprochen wurde. Alle Raidmitglieder mit dieser Quest bekommen einen Gutschein."
+Inst93Quest4_Page = {2, "Die Debuffs verschwinden nach dem Tot, Göttliches Eingreifen und Göttliches Schild und vielleicht auch andere Fähigkeiten könnten dies eventuell verhindern. Jäger die sich totstellen behalten die Debuffs.", };
 Inst93Quest4_Prequest = "Nein"
 Inst93Quest4_Folgequest = "Nein"
 --
@@ -11951,8 +11955,8 @@ Inst93Quest5 = "5. Erhöhter Blutdruck (Zufällig Wöchentlich)"
 Inst93Quest5_Level = "80"
 Inst93Quest5_Attain = "80"
 Inst93Quest5_Aim = "Rettet den Spitzel Minchar, bevor er hingerichtet wird."
-Inst93Quest5_Location = "Alrin the Agile (Eiskronenzitadelle; Entrance to Crimson Halls)"
-Inst93Quest5_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, Alrin the Agile will appear at the entrance to the Crimson Halls.\n\nThe 30 minute timer begins upon entering Crimson Halls. You must clear all trash, defeat the Blood Princes and fight Blood Queen Lana'thel before the timer runs out to complete the quest."
+Inst93Quest5_Location = "Alrin der Bewegliche (Eiskronenzitadelle; Eingang zu den Blutroten Hallen)"
+Inst93Quest5_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Alrin der Bewegliche erscheinen nachdem die Blutroten Hallen betreten wurden.\n\nEin 30 Minütiger Countdown beginnt nachdem die Hochroten Hallen betreten wurde. Ihr müßt alles bereinigen, besiegt den Blutprinzen und bekämpft die Blutkönigen Lana'thel bevor die Zeit abläuft um die Quest zu beenden."
 Inst93Quest5_Prequest = "Nein"
 Inst93Quest5_Folgequest = "Nein"
 --
@@ -11963,8 +11967,8 @@ Inst93Quest6 = "6. Frieden für eine geschundene Seele (Zufällig Wöchentlich)"
 Inst93Quest6_Level = "80"
 Inst93Quest6_Attain = "80"
 Inst93Quest6_Aim = "Benutzt die Lebenskristall, um Sindragosas Essenz zu erhalten."
-Inst93Quest6_Location = "Valithria Dreamwalker (Eiskronenzitadelle; "..YELLOW.."[11]"..WHITE..")"
-Inst93Quest6_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, Valithria Dreamwalker will give you the quest after you complete that encounter.\n\nTo complete the quest, raid members must use the provided item to stack debuffs (30 on 10 player, 75 on 25 player) on Sindragosa when she is at 20% health or lower. If successful and Sindragosa gets an aura of Soul Preservation before she dies, the quest is completed."
+Inst93Quest6_Location = "Valithria Traumwandler (Eiskronenzitadelle; "..YELLOW.."[11]"..WHITE..")"
+Inst93Quest6_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Valithria Traumwandler Euch eine Quest geben nachdem die Begegnung beendet ist.\n\nUm diese Quest zu beenden, müssen die Raidmitglieder den zur Verfügung gestellten Gegenstand benutzen und den Debuff hochstacken (30 bei 10 Spieler, 75 bei 25 Spieler) bei  Sindragosa wenn sie bei 20% Leben oder darunter ist. Wenn dies Erfolgreich gemacht wird und Sindragosa eine Aura der Seelenbewahrung bekommt bevor sie stirbt, ist diese Quest komplett."
 Inst93Quest6_Prequest = "Nein"
 Inst93Quest6_Folgequest = "Nein"
 --
@@ -11976,7 +11980,7 @@ Inst93Quest7_Level = "80"
 Inst93Quest7_Attain = "80"
 Inst93Quest7_Aim = "Platziert Lichträcher, 25 Einheiten urtümliches Saronit sowie Modermienes und Fauldarms ätzendes Blut in Hochlord Mograines Runenschmiede in der Eiskronenzitadelle."
 Inst93Quest7_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest7_Note = "This questline is only available to Warriors, Paladins and Death Knights. Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout."
+Inst93Quest7_Note = "Diese Questreihe ist nur für Krieger, Paldine und Todesritter. Hochlord Mograine's Runenschmiede ist am Eingang der Eiskronenzitadelle.\n\nModermienes und Fauldarms ätzendes Blut droppt nur in der 25 Spieler Version und kann nur von einem einzigen Raidmitglied aufgenommen werden."
 Inst93Quest7_Prequest = "Nein"
 Inst93Quest7_Folgequest = "Schattenschneide"
 -- No Rewards for this quest
@@ -12012,7 +12016,7 @@ Inst93Quest10_Level = "80"
 Inst93Quest10_Attain = "80"
 Inst93Quest10_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit unheiliger Macht erfüllt und Professor Seuchenmord tötet."
 Inst93Quest10_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest10_Note = "This quest can only be completed in 25-player mode.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
+Inst93Quest10_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
 Inst93Quest10_Prequest = "Ein Seelenschmaus"
 Inst93Quest10_Folgequest = "Erfüllt mit der Macht des Blutes"
 Inst93Quest10FQuest = "true"
@@ -12024,7 +12028,7 @@ Inst93Quest11_Level = "80"
 Inst93Quest11_Attain = "80"
 Inst93Quest11_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit der Macht des Blutes erfüllt und Blutkönigin Lana'thel besiegt."
 Inst93Quest11_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest11_Note = "This quest can only be completed in 25-player mode.\n\nTo complete the quest, get the Blood Mirror debuff. Then, assuming you're not bitten first, have the first person bitten bite you. Bite three more people and survive the encounter to complete the quest. Info from hobbesmarcus on WoWhead.com"
+Inst93Quest11_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nTo complete the quest, get the Blood Mirror debuff. Then, assuming you're not bitten first, have the first person bitten bite you. Bite three more people and survive the encounter to complete the quest. Info from hobbesmarcus on WoWhead.com"
 Inst93Quest11_Prequest = "Erfüllt mit unheiliger Macht"
 Inst93Quest11_Folgequest = "Erfüllt mit der Macht des Frostes"
 Inst93Quest11FQuest = "true"
@@ -12036,45 +12040,45 @@ Inst93Quest12_Level = "80"
 Inst93Quest12_Attain = "80"
 Inst93Quest12_Aim = "Hochlord Darion Mograine hat Euch den Auftrag erteilt, Sindragosa zu töten, nachdem Ihr 4-mal ihren Atemattacken ausgesetzt wart, während Ihr Schattenschneide führt."
 Inst93Quest12_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest12_Note = "This quest can only be completed in 25-player mode.\n\nAfter receiving the Frost-Imbued Blade buff from the 4 breath attacks, you must kill Sindragosa within 6 minutes to complete the quest. "
+Inst93Quest12_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nNachdem Du 4 mal den Frostatem abbekommen hast mußt Sindragosa innerhalb von 6 Minuten getötet werden um diese Quest zu beenden."
 Inst93Quest12_Prequest = "Erfüllt mit der Macht des Blutes"
 Inst93Quest12_Folgequest = "The Splintered Throne"
 Inst93Quest12FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst93Quest13 = "13. The Splintered Throne"
+Inst93Quest13 = "13. Der Zersplitterte Thron"
 Inst93Quest13_Level = "80"
 Inst93Quest13_Attain = "80"
-Inst93Quest13_Aim = "Highlord Darion Mograine wants you to collect 50 Shadowfrost Shards."
+Inst93Quest13_Aim = "Hochlord Darion Mograine möchte, dass Du 50 Schattenfrostsplitter sammelst."
 Inst93Quest13_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest13_Note = "This quest can only be completed in 25-player mode.\n\nThe Shadowfrost Shards are rare drops from bosses."
+Inst93Quest13_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nDie Schattenfrostsplitter sind seltene Drops von den Bossen."
 Inst93Quest13_Prequest = "Erfüllt mit der Macht des Frostes"
-Inst93Quest13_Folgequest = "Shadowmourne..."
+Inst93Quest13_Folgequest = "Schattengram..."
 Inst93Quest13FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
-Inst93Quest14 = "14. Shadowmourne..."
+Inst93Quest14 = "14. Schattengram..."
 Inst93Quest14_Level = "80"
 Inst93Quest14_Attain = "80"
-Inst93Quest14_Aim = "Highlord Darion Mograine wants you to bring him Shadow's Edge."
+Inst93Quest14_Aim = "Hochlord Darion Mograine möchte, dass Du ihm Schattenschneide bringst."
 Inst93Quest14_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest14_Note = "This quest upgrades your Shadow's Edge to Shadowmourne."
-Inst93Quest14_Prequest = "The Splintered Throne"
-Inst93Quest14_Folgequest = "The Lich King's Last Stand"
+Inst93Quest14_Note = "Diese Quest verbessert Deine Schattenschneide zu Schattengram."
+Inst93Quest14_Prequest = "Der Zersplitterte Thron"
+Inst93Quest14_Folgequest = "Der letzte Standplatz des Lichkönigs"
 Inst93Quest14FQuest = "true"
 --
-Inst93Quest14name1 = "Shadowmourne"
+Inst93Quest14name1 = "Schattengram"
 
 --Quest 15 Alliance
-Inst93Quest15 = "15. The Lich King's Last Stand"
+Inst93Quest15 = "15. Der letzte Standplatz des Lichkönigs"
 Inst93Quest15_Level = "80"
 Inst93Quest15_Attain = "80"
-Inst93Quest15_Aim = "Highlord Darion Mograine in Icecrown Citadel wants you to kill the Lich King."
+Inst93Quest15_Aim = "Hochlord Darion Mograine in der Eiskronenzitadelle möchte, dass Du den Lichkönig tötest."
 Inst93Quest15_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest15_Note = "Missing data, but presumably this quest can only be completed in 25-player mode."
-Inst93Quest15_Prequest = "Shadowmourne..."
+Inst93Quest15_Prequest = "Schattengram..."
 Inst93Quest15_Folgequest = "Nein"
 Inst93Quest15FQuest = "true"
 -- No Rewards for this quest
@@ -12110,8 +12114,8 @@ Inst93Quest3_HORDE = "3. Sicherung des Bollwerks (Zufällig Wöchentlich)"
 Inst93Quest3_HORDE_Level = "80"
 Inst93Quest3_HORDE_Attain = "80"
 Inst93Quest3_HORDE_Aim = "Erledigt den verrottenden Frostriesen."
-Inst93Quest3_HORDE_Location = "Leutnant der Kor'kron (Eiskronenzitadelle; "..GREEN.."[3']"..WHITE..")"
-Inst93Quest3_HORDE_Note = "This is one of five random quests that are available in Icecrown Citadel. If this is the quest for your raid id, the Kor'kron Lieutenant will appear when you kill the first trash pull after Lady Deathwhisper.\n\nThe Rotting Frost giant can be found patroling the rampart."
+Inst93Quest3_HORDE_Location = "Leutnant der Ogrims Hammer (Eiskronenzitadelle; "..GREEN.."[3']"..WHITE..")"
+Inst93Quest3_HORDE_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wir Leutnant der Ogrims Hammer erscheinen nachdem der erste Trashmob, nach dem Tot von Lady Todeswisper, gepullt wurde.\n\nDie verrottenden Frostriesen können auf der Plattform gefudnen werden."
 Inst93Quest3_HORDE_Prequest = "Nein"
 Inst93Quest3_HORDE_Folgequest = "Nein"
 --
@@ -12465,7 +12469,7 @@ Inst60Quest1_HORDE_Folgequest = "Nein"
 
 --------------- INST83 - Strand of the Ancients (SotA)  ---------------
 
-Inst83Story = "The Strand of the Ancients is a battleground located off the southern coast of the Dragonblight being introduced in Wrath of the Lich King. This battleground consists of 3 walls which have to be destroyed to continue, capture points and a graveyard after each wall. The overall goal is to be the first team to get through the last wall.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst83Story = "Strand der Uralten ist ein Schlachtfeld auf einer Insel südlich der Drachenöde. Hier wurde ein uraltes Titanenrelikt gefunden. Sowohl die Horde als auch die Allianz ist hinter diesem Relikt her und kämpft somit um die Herrschaft über den Strand der Uralten. Wer die Kontrolle über den Strand der Uralten übernimmt, wird auch das Relikt aus den Titanenruinen erhalten und das als Waffe gegen seine Feinde verwenden"
 Inst83Caption = "Strand der Uralten"
 Inst83QAA = "1 Quest"
 Inst83QAH = "1 Quest"
@@ -12495,7 +12499,7 @@ Inst83Quest1_HORDE_Folgequest = "Nein"
 
 --------------- INST89 - Isle of Conquest (IoC)  ---------------
 
-Inst89Story = "An island somewhere off the shores of Northrend. A rock, hardly worth a second look. But as insignificant as it may seem, this is no ordinary place. A sound of thunder as waves crash endlessly against rocky cliffs; a sound of fury as swords clash on the blood-stained fields of this island on the edge of forever.\n\nWelcome to the Isle of Conquest."
+Inst89Story = "Eine Insel irgendwo vor den Stränden von Nordend. Ein Fels, kaum eines zweiten Blickes würdig. Aber so unscheinbar sie auch aussehen mag, sie ist kein gewöhnlicher Ort. Es donnert, wenn die Wellen unnachgiebig gegen die schroffen Klippen schlagen. Kampfeslärm erfüllt die Luft, wo Schwerter aufeinandertreffen, hier in den blutbefleckten Landstrichen der Insel am Ende vom Nirgendwo.\n\nWillkommen auf der Insel der Eroberung."
 Inst89Caption = "Insel der Eroberung"
 Inst89QAA = "1 Quest"
 Inst89QAH = "1 Quest"
