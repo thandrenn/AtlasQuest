@@ -730,7 +730,7 @@ Inst4Quest17_Aim = "Bring 4 Induriumerze zu Pozzik in Tausend Nadeln."
 Inst4Quest17_Location = "Pozzik (Tausend Nadeln - Mirage Raceway; "..YELLOW.."80.1, 75.9"..WHITE..")"
 Inst4Quest17_Note = "Dies ist eine wiederholbare Quest nachdem die Vorquest erfolgreich abgeschlossen wurde. Du bekommst dafür keinen Ruf und Erfahrung, nur ein kleines Trinkgeld. Induriumerz kannst du nur in Uldaman finden oder von anderen Spielern kaufen."
 Inst4Quest17_Prequest = "Tempo erhalten -> Rizzels Baupläne"
-Inst4Quest17_Folgequest = "None"
+Inst4Quest17_Folgequest = "Nein"
 Inst4Quest17PreQuest = "true"
 -- No Rewards for this quest
 
@@ -3254,7 +3254,7 @@ Inst14Quest6_Aim = "Findet Narains Wahrsagerbrille und bringt sie Narain Pfauent
 Inst14Quest6_Location = "Unscheinbare Kiste (Silberwald - Der Graumähnenwall; "..YELLOW.."46.2, 86.6"..WHITE..")"
 Inst14Quest6_Note = "Seid Patch 3.0.2 die Wahrsagerbrille droppt bei irgend einem Mob im Geschmolzenen Kern. Die Quest bringt dich zu Narain Pfauentraum (Tanaris; "..YELLOW.."65.3, 18.6"..WHITE.."), wo du auch die Vorquest erhälst."
 Inst14Quest6_Prequest = "Stewvul, Ex-B.F.F.I."
-Inst14Quest6_Folgequest = "None"
+Inst14Quest6_Folgequest = "Nein"
 Inst14Quest6PreQuest = "true"
 --
 Inst14Quest6name1 = "Major Rejuvenation Potion"
@@ -3534,8 +3534,8 @@ Inst16Quest3_Attain = "80"
 Inst16Quest3_Aim = "Bringt den Kopf von Onyxia zu Zardeth der schwarzen Klaue im Keller Zum geschlachteten Lamm."
 Inst16Quest3_Location = "Kopf von Onyxia (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
 Inst16Quest3_Note = "Zardeth der schwarzen Klaue ist bei (Sturmwind - Zum geschlachteten Lamm; "..YELLOW.."40.1, 85.1"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden."
-Inst16Quest3_Prequest = "None"
-Inst16Quest3_Folgequest = "None"
+Inst16Quest3_Prequest = "Nein"
+Inst16Quest3_Folgequest = "Nein"
 --
 Inst16Quest3name1 = "Polished Dragonslayer's Signet"
 Inst16Quest3name2 = "Sparkling Onyxia Tooth Pendant"
@@ -3575,8 +3575,8 @@ Inst16Quest3_HORDE_Attain = "80"
 Inst16Quest3_HORDE_Aim = "Bringt den Kopf von Onyxia zu Neeru Feuerklinge in die Kluft des Schattens."
 Inst16Quest3_HORDE_Location = "Kopf von Onyxia (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
 Inst16Quest3_HORDE_Note = "Neeru Feuerklinge ist bei (Orgrimmar - Die Kluft des Schattens; "..YELLOW.."49.7, 50.5"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden."
-Inst16Quest3_HORDE_Prequest = "None"
-Inst16Quest3_HORDE_Folgequest = "None"
+Inst16Quest3_HORDE_Prequest = "Nein"
+Inst16Quest3_HORDE_Folgequest = "Nein"
 --
 Inst16Quest3name1_HORDE = "Polished Dragonslayer's Signet"
 Inst16Quest3name2_HORDE = "Sparkling Onyxia Tooth Pendant"
@@ -4379,7 +4379,7 @@ Inst20Quest11_HORDE_Aim = "Wendet das Orakel der Anrufung inmitten des Kellergew
 Inst20Quest11_HORDE_Location = "Sagorne Gratläufer (Orgrimmar - Das Tal der Weisheit; "..YELLOW.."38.6, 36.2"..WHITE..")"
 Inst20Quest11_HORDE_Note = "Diese Quest ist nur für den Schamanen. Die Vorquest ist optional vom selben NPC.\n\nTodesritter Schattensichel erscheint bei "..YELLOW.."[5]"..WHITE.."."
 Inst20Quest11_HORDE_Prequest = "Materielle Unterstützung"
-Inst20Quest11_HORDE_Folgequest = "None"
+Inst20Quest11_HORDE_Folgequest = "Nein"
 Inst20Quest11PreQuest_HORDE = "true"
 --
 Inst20Quest11name1_HORDE = "Helm des Himmelszorns"
@@ -4548,8 +4548,8 @@ Inst21Quest7_HORDE_Attain = "75"
 Inst21Quest7_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
 Inst21Quest7_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
 Inst21Quest7_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
-Inst21Quest7_HORDE_Prequest = "None"
-Inst21Quest7_HORDE_Folgequest = "None"
+Inst21Quest7_HORDE_Prequest = "Nein"
+Inst21Quest7_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest 
 
 
@@ -5039,7 +5039,7 @@ Inst22Quest20_HORDE_Aim = "Verwendet die Löschmischung in der Nähe der ewigen 
 Inst22Quest20_HORDE_Location = "Lord Solanar Blutzorn (Silbermond - Platz der Weltenwandler; "..YELLOW.."92.2, 38.7"..WHITE..")"
 Inst22Quest20_HORDE_Note = "Die Alonsuskapelle ist bei "..YELLOW.."[13]"..WHITE..". Beende diese Quest und du erhälst das epische Reittier des Paladins. Du kannst diese Quest nicht starten wenn du das epische Reittier von deinem Lehrer erhalten hast."
 Inst22Quest20_HORDE_Prequest = "Aufforderung von Lord Solanar -> Wahre Meister des Lichts"
-Inst22Quest20_HORDE_Folgequest = "None"
+Inst22Quest20_HORDE_Folgequest = "Nein"
 Inst22Quest20PreQuest_HORDE = "true"
 --
 Inst22Quest20name1_HORDE = "Wappenrock der Blutritter"
@@ -5733,8 +5733,8 @@ Inst26Quest4_Attain = "60"
 Inst26Quest4_Aim = "Bring eine Insigne des Qirajilords zu Kandrostrasz im Tempel von Ahn'Qiraj."
 Inst26Quest4_Location = "Kandrostrasz (Tempel von Ahn'Qiraj; "..YELLOW.."[1']"..WHITE..")"
 Inst26Quest4_Note = "Das ist eine wiederholbare Quest um Ruf bei den Zirkel des Cenarius zu machen. Die Insigne des Qirajilords droppen von allen Bossen innerhalb der Instanz. Kandrostrasz kann man im Raum hinter dem ersten Boss finden."
-Inst26Quest4_Prequest = "None"
-Inst26Quest4_Folgequest = "None"
+Inst26Quest4_Prequest = "Nein"
+Inst26Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -6238,8 +6238,8 @@ Inst29Quest11_Attain = "25"
 Inst29Quest11_Aim = "Füge ein verschmutzen Gegendstand in den Funkelmat 5200, und sei Dir sicher das Du drei Silbermünzen hast um die Machine zu starten."
 Inst29Quest11_Location = "Funkelmat 5200 (Gnomeregan - Die saubere Zone; "..YELLOW.."[2]"..WHITE..")"
 Inst29Quest11_Note = "Du kannst diese Quest immer wiederholen solange Du verschmutzte Gegenstände hast."
-Inst29Quest11_Prequest = "None"
-Inst29Quest11_Folgequest = "None"
+Inst29Quest11_Prequest = "Nein"
+Inst29Quest11_Folgequest = "Nein"
 --
 Inst29Quest11name1 = "Sparklematic-Wrapped Box"
 
@@ -10324,8 +10324,8 @@ Inst74Quest3_Attain = "80"
 Inst74Quest3_Aim = "Tötet Malygos."
 Inst74Quest3_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst74Quest3_Note = "Malygos ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst74Quest3_Prequest = "None"
-Inst74Quest3_Folgequest = "None"
+Inst74Quest3_Prequest = "Nein"
+Inst74Quest3_Folgequest = "Nein"
 --
 Inst74Quest3name1 = "Emblem des Frosts"
 Inst74Quest3name2 = "Emblem des Triumphs"
@@ -10663,8 +10663,8 @@ Inst79Quest1_Attain = "80"
 Inst79Quest1_Aim = "Tötet Sartharion."
 Inst79Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst79Quest1_Note = "Sartharion ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst79Quest1_Prequest = "None"
-Inst79Quest1_Folgequest = "None"
+Inst79Quest1_Prequest = "Nein"
+Inst79Quest1_Folgequest = "Nein"
 --
 Inst79Quest1name1 = "Emblem des Frosts"
 Inst79Quest1name2 = "Emblem des Triumphs"
@@ -10999,8 +10999,8 @@ Inst84Quest3_Attain = "80"
 Inst84Quest3_Aim = "Tötet Anub'Rekhan."
 Inst84Quest3_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst84Quest3_Note = "Anub'Rekhan ist bei "..YELLOW.."Spinnenviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst84Quest3_Prequest = "None"
-Inst84Quest3_Folgequest = "None"
+Inst84Quest3_Prequest = "Nein"
+Inst84Quest3_Folgequest = "Nein"
 --
 Inst84Quest3name1 = "Emblem des Frosts"
 Inst84Quest3name2 = "Emblem des Triumphs"
@@ -11012,8 +11012,8 @@ Inst84Quest4_Attain = "80"
 Inst84Quest4_Aim = "Tötet Instrukteur Razuvious."
 Inst84Quest4_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst84Quest4_Note = "Instrukteur Razuvious ist bei "..YELLOW.."Militärviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst84Quest4_Prequest = "None"
-Inst84Quest4_Folgequest = "None"
+Inst84Quest4_Prequest = "Nein"
+Inst84Quest4_Folgequest = "Nein"
 --
 Inst84Quest4name1 = "Emblem of Frost"
 Inst84Quest4name2 = "Emblem of Triumph"
@@ -11025,8 +11025,8 @@ Inst84Quest5_Attain = "80"
 Inst84Quest5_Aim = "Tötet Noth der Seuchenfürst."
 Inst84Quest5_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst84Quest5_Note = "Noth der Seuchenfürst ist bei "..YELLOW.."Seuchenviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst84Quest5_Prequest = "None"
-Inst84Quest5_Folgequest = "None"
+Inst84Quest5_Prequest = "Nein"
+Inst84Quest5_Folgequest = "Nein"
 --
 Inst84Quest5name1 = "Emblem des Frosts"
 Inst84Quest5name2 = "Emblem des Triumphs"
@@ -11038,8 +11038,8 @@ Inst84Quest6_Attain = "80"
 Inst84Quest6_Aim = "Tötet Flickwerk."
 Inst84Quest6_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst84Quest6_Note = "Flickwerk ist bei "..YELLOW.."Konstruktviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst84Quest6_Prequest = "None"
-Inst84Quest6_Folgequest = "None"
+Inst84Quest6_Prequest = "Nein"
+Inst84Quest6_Folgequest = "Nein"
 --
 Inst84Quest6name1 = "Emblem des Frosts"
 Inst84Quest6name2 = "Emblem des Triumphs"
@@ -11146,7 +11146,7 @@ Inst86Quest1_Attain = "80"
 Inst86Quest1_Aim = "Bringt die Datenscheibe des Archivums zur Archivumkonsole in Ulduar."
 Inst86Quest1_Location = "Datenscheibe des Archivums (droppt von der Versammlung des Eisens; "..YELLOW.."Die Vorkammer [5]"..WHITE..")"
 Inst86Quest1_Note = "Die Datenscheibe droppt nur wenn man die Versammlung des Eisens im harten Modus besiegt.  Nur einer aus dem Raid kann die Datenscheibe an sich nehmen.\n\nNach dem Tot der Versammlung des Eisens, öffnet sich eine Tür.  Gebe die Quest beim Archivumsystem im hinteren Bereich des Raum ab.  Ausgrabungsleiter Doren gibt Dir dann die Folgequest."
-Inst86Quest1_Prequest = "None"
+Inst86Quest1_Prequest = "Nein"
 Inst86Quest1_Folgequest = "Das himmlische Planetarium"
 -- No Rewards for this quest
 
@@ -11170,7 +11170,7 @@ Inst86Quest3_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass 
 Inst86Quest3_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest3_Note = "Hodir ist bei "..YELLOW.."Die Behüter [9]"..WHITE..".  Hordir muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest3_Prequest = "Das himmlische Planetarium"
-Inst86Quest3_Folgequest = "None"
+Inst86Quest3_Folgequest = "Nein"
 Inst86Quest3PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11182,7 +11182,7 @@ Inst86Quest4_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass 
 Inst86Quest4_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest4_Note = "Thorim ist bei "..YELLOW.."Die Behüter [10]"..WHITE..".  Thorim muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest4_Prequest = "Das himmlische Planetarium"
-Inst86Quest4_Folgequest = "None"
+Inst86Quest4_Folgequest = "Nein"
 Inst86Quest4PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11194,7 +11194,7 @@ Inst86Quest5_Aim = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, das
 Inst86Quest5_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest5_Note = "Freya ist bei "..YELLOW.."Die Behüter [11]"..WHITE..".  Freya muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest5_Prequest = "Das himmlische Planetarium"
-Inst86Quest5_Folgequest = "None"
+Inst86Quest5_Folgequest = "Nein"
 Inst86Quest5PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11206,7 +11206,7 @@ Inst86Quest6_Aim = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, das
 Inst86Quest6_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest6_Note = "Mimiron ist bei "..YELLOW.."Der Funke der Imagination [12]"..WHITE..".  Mimiron muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest6_Prequest = "Das himmlische Planetarium"
-Inst86Quest6_Folgequest = "None"
+Inst86Quest6_Folgequest = "Nein"
 Inst86Quest6PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11218,7 +11218,7 @@ Inst86Quest7_Aim = "Bringt die Siegel der Wächter zur Archivumkonsole in Ulduar
 Inst86Quest7_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest7_Note = "Nach Beendigung der vier Siegel Questen darfst du dann gegen Algalon der Beobachter im himmlischen Planetarium kämpfen."
 Inst86Quest7_Prequest = "Die vier Siegel Questen"
-Inst86Quest7_Folgequest = "None"
+Inst86Quest7_Folgequest = "Nein"
 Inst86Quest7PreQuest = "true"
 --
 Inst86Quest7name1 = "Celestial Planetarium Key"
@@ -11231,8 +11231,8 @@ Inst86Quest8_Attain = "80"
 Inst86Quest8_Aim = "Überbringt Rhonin in Dalaran den Antwortcode Alpha."
 Inst86Quest8_Location = "Antwortcode Alpha (droppt von Algalon der Beobachter; "..YELLOW.."Die Vorkammer [7]"..WHITE..")"
 Inst86Quest8_Note = "Nur einer aus dem Raid kann den Antwortcode nehmen. Rhonin ist in Dalaran - Die violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE.."."
-Inst86Quest8_Prequest = "None"
-Inst86Quest8_Folgequest = "None"
+Inst86Quest8_Prequest = "Nein"
+Inst86Quest8_Folgequest = "Nein"
 --
 Inst86Quest8name1 = "Drape of the Skyherald"
 Inst86Quest8name2 = "Sunglimmer Drape"
@@ -11246,7 +11246,7 @@ Inst86Quest9_Attain = "80"
 Inst86Quest9_Aim = "Bringt die Datenscheibe des Archivums zur Archivumkonsole in Ulduar."
 Inst86Quest9_Location = "Datenscheibe des Archivums (droppt von der Versammlung des Eisens; "..YELLOW.."Die Vorkammer [5]"..WHITE..")"
 Inst86Quest9_Note = "Die Datenscheibe droppt nur wenn man die Versammlung des Eisens im harten Modus besiegt.  Nur einer aus dem Raid kann die Datenscheibe an sich nehmen.\n\nNach dem Tot der Versammlung des Eisens, öffnet sich eine Tür.  Gebe die Quest beim Archivumsystem im hinteren Bereich des Raum ab.  Ausgrabungsleiter Doren gibt Dir dann die Folgequest."
-Inst86Quest9_Prequest = "None"
+Inst86Quest9_Prequest = "Nein"
 Inst86Quest9_Folgequest = "Das himmlische Planetarium"
 -- No Rewards for this quest
 
@@ -11270,7 +11270,7 @@ Inst86Quest11_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass
 Inst86Quest11_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest11_Note = "Hodir ist bei "..YELLOW.."Die Behüter [9]"..WHITE..".  Hordir muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest11_Prequest = "Das himmlische Planetarium"
-Inst86Quest11_Folgequest = "None"
+Inst86Quest11_Folgequest = "Nein"
 Inst86Quest11PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11282,7 +11282,7 @@ Inst86Quest12_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass
 Inst86Quest12_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest12_Note = "Thorim ist bei "..YELLOW.."Die Behüter [10]"..WHITE..".  Thorim muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest12_Prequest = "Das himmlische Planetarium"
-Inst86Quest12_Folgequest = "None"
+Inst86Quest12_Folgequest = "Nein"
 Inst86Quest12PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11294,7 +11294,7 @@ Inst86Quest13_Aim = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, da
 Inst86Quest13_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest13_Note = "Freya ist bei "..YELLOW.."Die Behüter [11]"..WHITE..".  Freya muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest13_Prequest = "Das himmlische Planetarium"
-Inst86Quest13_Folgequest = "None"
+Inst86Quest13_Folgequest = "Nein"
 Inst86Quest13PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11306,7 +11306,7 @@ Inst86Quest14_Aim = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, da
 Inst86Quest14_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest14_Note = "Mimiron ist bei "..YELLOW.."Der Funke der Imagination [12]"..WHITE..".  Mimiron muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest14_Prequest = "Das himmlische Planetarium"
-Inst86Quest14_Folgequest = "None"
+Inst86Quest14_Folgequest = "Nein"
 Inst86Quest14PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11318,7 +11318,7 @@ Inst86Quest15_Aim = "Bringt die Siegel der Wächter zur Archivumkonsole in Uldua
 Inst86Quest15_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..YELLOW.."Südlich von [5]"..WHITE..")"
 Inst86Quest15_Note = "Nach Beendigung der vier Siegel Questen darfst du dann gegen Algalon der Beobachter im himmlischen Planetarium kämpfen."
 Inst86Quest15_Prequest = "Die vier Siegel Questen"
-Inst86Quest15_Folgequest = "None"
+Inst86Quest15_Folgequest = "Nein"
 Inst86Quest15PreQuest = "true"
 --
 Inst86Quest15name1 = "Heroic Celestial Planetarium Key"
@@ -11331,8 +11331,8 @@ Inst86Quest16_Attain = "80"
 Inst86Quest16_Aim = "Überbringt Rhonin in Dalaran den Antwortcode Alpha."
 Inst86Quest16_Location = "Antwortcode Alpha (droppt von Algalon der Beobachter; "..YELLOW.."Die Vorkammer [7]"..WHITE..")"
 Inst86Quest16_Note = "Nur einer aus dem Raid kann den Antwortcode nehmen. Rhonin ist in Dalaran - Die violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE.."."
-Inst86Quest16_Prequest = "None"
-Inst86Quest16_Folgequest = "None"
+Inst86Quest16_Prequest = "Nein"
+Inst86Quest16_Folgequest = "Nein"
 --
 Inst86Quest16name1 = "Drape of the Skyborn"
 Inst86Quest16name2 = "Sunglimmer Cloak"
@@ -11346,8 +11346,8 @@ Inst86Quest17_Attain = "80"
 Inst86Quest17_Aim = "Tötet Flammenleviathan."
 Inst86Quest17_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst86Quest17_Note = "Flammenleviathan ist bei "..YELLOW.."Die Belagerung [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst86Quest17_Prequest = "None"
-Inst86Quest17_Folgequest = "None"
+Inst86Quest17_Prequest = "Nein"
+Inst86Quest17_Folgequest = "Nein"
 --
 Inst86Quest17name1 = "Emblem des Frosts"
 Inst86Quest17name2 = "Emblem des Triumphs"
@@ -11359,8 +11359,8 @@ Inst86Quest18_Attain = "80"
 Inst86Quest18_Aim = "Tötet Ignis der Meister des Eisenwerks."
 Inst86Quest18_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst86Quest18_Note = "Ignis der Meister des Eisenwerks is at "..YELLOW.."Die Belagerung [3]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst86Quest18_Prequest = "None"
-Inst86Quest18_Folgequest = "None"
+Inst86Quest18_Prequest = "Nein"
+Inst86Quest18_Folgequest = "Nein"
 --
 Inst86Quest18name1 = "Emblem des Frosts"
 Inst86Quest18name2 = "Emblem des Triumphs"
@@ -11372,8 +11372,8 @@ Inst86Quest19_Attain = "80"
 Inst86Quest19_Aim = "Tötet Klingenschuppe."
 Inst86Quest19_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst86Quest19_Note = "Klingenschuppe ist bei "..YELLOW.."Die Belagerung [2]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst86Quest19_Prequest = "None"
-Inst86Quest19_Folgequest = "None"
+Inst86Quest19_Prequest = "Nein"
+Inst86Quest19_Folgequest = "Nein"
 --
 Inst86Quest19name1 = "Emblem des Frosts"
 Inst86Quest19name2 = "Emblem des Triumphs"
@@ -11385,8 +11385,8 @@ Inst86Quest20_Attain = "80"
 Inst86Quest20_Aim = "Tötet XT-002 Dekonstruktor."
 Inst86Quest20_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst86Quest20_Note = "XT-002 Dekonstruktor ist bei "..YELLOW.."Die Belagerung [4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst86Quest20_Prequest = "None"
-Inst86Quest20_Folgequest = "None"
+Inst86Quest20_Prequest = "Nein"
+Inst86Quest20_Folgequest = "Nein"
 --
 Inst86Quest20name1 = "Emblem des Frosts"
 Inst86Quest20name2 = "Emblem des Triumphs" 
@@ -11669,8 +11669,8 @@ Inst88Quest1_Attain = "80"
 Inst88Quest1_Aim = "Tötet Lord Jaraxxus."
 Inst88Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst88Quest1_Note = "Lord Jaraxxus ist der zweite Boss.\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst88Quest1_Prequest = "None"
-Inst88Quest1_Folgequest = "None"
+Inst88Quest1_Prequest = "Nein"
+Inst88Quest1_Folgequest = "Nein"
 --
 Inst88Quest1name1 = "Emblem des Frosts"
 Inst88Quest1name2 = "Emblem des Triumphs"
@@ -11704,7 +11704,7 @@ Inst90Quest1_Attain = "80"
 Inst90Quest1_Aim = "Betretet die Seelenschmiede von der Seite der Eiskronenzitadelle und findet Lady Jaina Prachtmeer."
 Inst90Quest1_Location = "Lehrling Nelphi (Dalaran Stadt - Wandert vor der südlichen Bank)"
 Inst90Quest1_Note = "Lady Jaina Prachtmeer ist innerhalb der Instanz."
-Inst90Quest1_Prequest = "None"
+Inst90Quest1_Prequest = "Nein"
 Inst90Quest1_Folgequest = "Echos gequälter Seelen"
 -- No Rewards for this quest
 
@@ -11729,7 +11729,7 @@ Inst90Quest1_HORDE_Attain = "80"
 Inst90Quest1_HORDE_Aim = "Betretet die Seelenschmiede von der Seite der Eiskronenzitadelle und findet Fürstin Sylvanas Windläufer."
 Inst90Quest1_HORDE_Location = "Dunkelläuferin Vorel (Dalaran Stadt - Wandert vor der nördlichen Bank)"
 Inst90Quest1_HORDE_Note = "Lady Sylvanas Windläufer ist innerhalb der Instanz."
-Inst90Quest1_HORDE_Prequest = "None"
+Inst90Quest1_HORDE_Prequest = "Nein"
 Inst90Quest1_HORDE_Folgequest = "Echos gequälter Seelen"
 -- No Rewards for this quest
 
@@ -11857,7 +11857,7 @@ Inst92Quest2_Aim = "Findet Lady Jaina Prachtmeer und flieht aus den Hallen der R
 Inst92Quest2_Location = "Hallen der Reflexion"
 Inst92Quest2_Note = "Lady Jaina Prachtmeer flieht vorne weg. Die Quest ist beendet nachdem das Event erfolgreich abgeschlossen ist."
 Inst92Quest2_Prequest = "Frostgram"
-Inst92Quest2_Folgequest = "None"
+Inst92Quest2_Folgequest = "Nein"
 Inst92Quest2FQuest = "true"
 --
 Inst92Quest2name1 = "Emblem des Frosts"
@@ -11883,7 +11883,7 @@ Inst92Quest2_HORDE_Aim = "Findet Lady Sylvanas Windläufer und flieht aus den Ha
 Inst92Quest2_HORDE_Location = "Hallen der Reflexion"
 Inst92Quest2_HORDE_Note = "Lady Sylvanas Windläufer flieht vorne weg. Die Quest ist beendet nachdem das Event erfolgreich abgeschlossen ist."
 Inst92Quest2_HORDE_Prequest = "Frostgram"
-Inst92Quest2_HORDE_Folgequest = "None"
+Inst92Quest2_HORDE_Folgequest = "Nein"
 Inst92Quest2FQuest_HORDE = "true"
 --
 Inst92Quest2name1_HORDE = "Emblem des Frosts"
@@ -11893,21 +11893,191 @@ Inst92Quest2name1_HORDE = "Emblem des Frosts"
 --------------- INST93 - Icecrown Citadel (ICC) ---------------
 Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
 Inst93Caption = "ICC:Eiskronenzitadelle"
-Inst93QAA = "1 Quest"
-Inst93QAH = "1 Quest"
+Inst93QAA = "15 Quest"
+Inst93QAH = "15 Quest"
 
 --Quest 1 Alliance
-Inst93Quest1 = "1. Lord Mark'gar muss sterben! (Weekly)"
+Inst93Quest1 = "1. Lord Mark'gar muss sterben! (Wöchentlich)"
 Inst93Quest1_Level = "80"
 Inst93Quest1_Attain = "80"
 Inst93Quest1_Aim = "Tötet Lord Mark'gar."
 Inst93Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst93Quest1_Note = "Lord Mark'gar ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
-Inst93Quest1_Prequest = "None"
-Inst93Quest1_Folgequest = "None"
+Inst93Quest1_Prequest = "Nein"
+Inst93Quest1_Folgequest = "Nein"
 --
 Inst93Quest1name1 = "Emblem des Frosts"
 Inst93Quest1name2 = "Emblem des Triumphs"
+
+--Quest 2 Alliance
+Inst93Quest2 = "2. Entprogrammieren (Zufällig Wöchentlich)"
+Inst93Quest2_Level = "80"
+Inst93Quest2_Attain = "80"
+Inst93Quest2_Aim = "Bezwingt Lady Todeswisper, aber stellt dabei sicher, dass Darnavan überlebt."
+Inst93Quest2_Location = "Spitzel Minchar (Eiskronenzitadelle; "..YELLOW.."Near [1]"..WHITE..")"
+Inst93Quest2_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, erscheint Spietzel Minchar nachdem Lord Mark'gar besiegt wurde.\n\nWährend der Begegnung mit Lady Todeswisper, wird Darnavan erscheinen. Er muß den kompletten Kampf überleben um diese Quest zu beenden."
+Inst93Quest2_Folgequest = "Nein"
+Inst93Quest2_Folgequest = "Nein"
+--
+Inst93Quest2name1 = "Sack mit frostigen Schätzen"
+
+--Quest 3 Alliance
+Inst93Quest3 = "3. Sicherung des Bollwerks (Zufällig Wöchentlich)"
+Inst93Quest3_Level = "80"
+Inst93Quest3_Attain = "80"
+Inst93Quest3_Aim = "Erledigt den verrottenden Frostriesen."
+Inst93Quest3_Location = "Leutnant der Himmelsbrecher (Eiskronenzitadelle; "..GREEN.."[3']"..WHITE..")"
+Inst93Quest3_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Leutnant der Himmelsbrecher erscheinen nachdem der erste Trashmob, nach dem Tot von Lady Todeswisper, gepullt wurde.\n\nDie verrottenden Frostriesen können auf der Plattform gefudnen werden."
+Inst93Quest3_Prequest = "Nein"
+Inst93Quest3_Folgequest = "Nein"
+--
+Inst93Quest3name1 = "Sack mit frostigen Schätzen"
+
+--Quest 4 Alliance
+Inst93Quest4 = "4. Wandelnder Wirt (Zufällig Wöchentlich)"
+Inst93Quest4_Level = "80"
+Inst93Quest4_Attain = "80"
+Inst93Quest4_Aim = "Kehrt zu Alchemistin Adrianna zurück, während Ihr mit der orangenen und der grünen Seuche infiziert seid."
+Inst93Quest4_Location = "Alchemist Adrianna (Eiskronenzitadelle; "..GREEN.."[4']"..WHITE..")"
+Inst93Quest4_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, Alchemist Adrianna will appear after you activate the teleporter past Deathbringer Saurfang.\n\nTo complete the quest at least one raid member must obtain the debuffs from both Festergut and Rotface and return to Alchemist Adrianna within 30 minutes of obtaining the first debuff. All raid members with the quest will receive credit."
+Inst93Quest4_Page = {2, "The debuffs go away upon death, logging out, divine intervention and divine shield and possibly other abilities. Hunters who use feign death and survive will retain the debuffs.", };
+Inst93Quest4_Prequest = "Nein"
+Inst93Quest4_Folgequest = "Nein"
+--
+Inst93Quest4name1 = "Sack mit frostigen Schätzen"
+
+--Quest 5 Alliance
+Inst93Quest5 = "5. Erhöhter Blutdruck (Zufällig Wöchentlich)"
+Inst93Quest5_Level = "80"
+Inst93Quest5_Attain = "80"
+Inst93Quest5_Aim = "Rettet den Spitzel Minchar, bevor er hingerichtet wird."
+Inst93Quest5_Location = "Alrin the Agile (Eiskronenzitadelle; Entrance to Crimson Halls)"
+Inst93Quest5_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, Alrin the Agile will appear at the entrance to the Crimson Halls.\n\nThe 30 minute timer begins upon entering Crimson Halls. You must clear all trash, defeat the Blood Princes and fight Blood Queen Lana'thel before the timer runs out to complete the quest."
+Inst93Quest5_Prequest = "Nein"
+Inst93Quest5_Folgequest = "Nein"
+--
+Inst93Quest5name1 = "Sack mit frostigen Schätzen"
+
+--Quest 6 Alliance
+Inst93Quest6 = "6. Frieden für eine geschundene Seele (Zufällig Wöchentlich)"
+Inst93Quest6_Level = "80"
+Inst93Quest6_Attain = "80"
+Inst93Quest6_Aim = "Benutzt die Lebenskristall, um Sindragosas Essenz zu erhalten."
+Inst93Quest6_Location = "Valithria Dreamwalker (Eiskronenzitadelle; "..YELLOW.."[11]"..WHITE..")"
+Inst93Quest6_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, Valithria Dreamwalker will give you the quest after you complete that encounter.\n\nTo complete the quest, raid members must use the provided item to stack debuffs (30 on 10 player, 75 on 25 player) on Sindragosa when she is at 20% health or lower. If successful and Sindragosa gets an aura of Soul Preservation before she dies, the quest is completed."
+Inst93Quest6_Prequest = "Nein"
+Inst93Quest6_Folgequest = "Nein"
+--
+Inst93Quest6name1 = "Sack mit frostigen Schätzen"
+
+--Quest 7 Alliance
+Inst93Quest7 = "7. Die Heiligen und die Verderbten"
+Inst93Quest7_Level = "80"
+Inst93Quest7_Attain = "80"
+Inst93Quest7_Aim = "Platziert Lichträcher, 25 Einheiten urtümliches Saronit sowie Modermienes und Fauldarms ätzendes Blut in Hochlord Mograines Runenschmiede in der Eiskronenzitadelle."
+Inst93Quest7_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest7_Note = "This questline is only available to Warriors, Paladins and Death Knights. Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout."
+Inst93Quest7_Prequest = "Nein"
+Inst93Quest7_Folgequest = "Schattenschneide"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst93Quest8 = "8. Schattenschneide"
+Inst93Quest8_Level = "80"
+Inst93Quest8_Attain = "80"
+Inst93Quest8_Aim = "Missing data."
+Inst93Quest8_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest8_Note = "Missing data. Presumably this is just the quest to give you Shadow's Edge."
+Inst93Quest8_Prequest = "Die Heiligen und die Verderbten"
+Inst93Quest8_Folgequest = "Ein Seelenschmaus"
+Inst93Quest8FQuest = "true"
+--
+Inst93Quest8name1 = "Schattenschneide"
+
+--Quest 9 Alliance
+Inst93Quest9 = "9. Ein Seelenschmaus"
+Inst93Quest9_Level = "80"
+Inst93Quest9_Attain = "80"
+Inst93Quest9_Aim = "Hochlord Darion Mograine möchte, dass Ihr mit Schattenschneide 1.000 Diener des Lichkönigs in der Eiskronenzitadelle tötet. Die Seelen sind nur in den Schwierigkeitsgraden für 10 oder 25 Mann erhältlich."
+Inst93Quest9_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest9_Note = "You've got a lot of killing to do. Only kills in Icecrown Citadel count towards the 1000."
+Inst93Quest9_Prequest = "Schttenschneide"
+Inst93Quest9_Folgequest = "Erfüllt mit unheiliger Macht"
+Inst93Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst93Quest10 = "10. Erfüllt mit unheiliger Macht"
+Inst93Quest10_Level = "80"
+Inst93Quest10_Attain = "80"
+Inst93Quest10_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit unheiliger Macht erfüllt und Professor Seuchenmord tötet."
+Inst93Quest10_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest10_Note = "This quest can only be completed in 25-player mode.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
+Inst93Quest10_Prequest = "Ein Seelenschmaus"
+Inst93Quest10_Folgequest = "Erfüllt mit der Macht des Blutes"
+Inst93Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst93Quest11 = "11. Erfüllt mit der Macht des Blutes"
+Inst93Quest11_Level = "80"
+Inst93Quest11_Attain = "80"
+Inst93Quest11_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit der Macht des Blutes erfüllt und Blutkönigin Lana'thel besiegt."
+Inst93Quest11_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest11_Note = "This quest can only be completed in 25-player mode.\n\nTo complete the quest, get the Blood Mirror debuff. Then, assuming you're not bitten first, have the first person bitten bite you. Bite three more people and survive the encounter to complete the quest. Info from hobbesmarcus on WoWhead.com"
+Inst93Quest11_Prequest = "Erfüllt mit unheiliger Macht"
+Inst93Quest11_Folgequest = "Erfüllt mit der Macht des Frostes"
+Inst93Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst93Quest12 = "12. Erfüllt mit der Macht des Frostes"
+Inst93Quest12_Level = "80"
+Inst93Quest12_Attain = "80"
+Inst93Quest12_Aim = "Hochlord Darion Mograine hat Euch den Auftrag erteilt, Sindragosa zu töten, nachdem Ihr 4-mal ihren Atemattacken ausgesetzt wart, während Ihr Schattenschneide führt."
+Inst93Quest12_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest12_Note = "This quest can only be completed in 25-player mode.\n\nAfter receiving the Frost-Imbued Blade buff from the 4 breath attacks, you must kill Sindragosa within 6 minutes to complete the quest. "
+Inst93Quest12_Prequest = "Erfüllt mit der Macht des Blutes"
+Inst93Quest12_Folgequest = "The Splintered Throne"
+Inst93Quest12FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst93Quest13 = "13. The Splintered Throne"
+Inst93Quest13_Level = "80"
+Inst93Quest13_Attain = "80"
+Inst93Quest13_Aim = "Highlord Darion Mograine wants you to collect 50 Shadowfrost Shards."
+Inst93Quest13_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest13_Note = "This quest can only be completed in 25-player mode.\n\nThe Shadowfrost Shards are rare drops from bosses."
+Inst93Quest13_Prequest = "Erfüllt mit der Macht des Frostes"
+Inst93Quest13_Folgequest = "Shadowmourne..."
+Inst93Quest13FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst93Quest14 = "14. Shadowmourne..."
+Inst93Quest14_Level = "80"
+Inst93Quest14_Attain = "80"
+Inst93Quest14_Aim = "Highlord Darion Mograine wants you to bring him Shadow's Edge."
+Inst93Quest14_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest14_Note = "This quest upgrades your Shadow's Edge to Shadowmourne."
+Inst93Quest14_Prequest = "The Splintered Throne"
+Inst93Quest14_Folgequest = "The Lich King's Last Stand"
+Inst93Quest14FQuest = "true"
+--
+Inst93Quest14name1 = "Shadowmourne"
+
+--Quest 15 Alliance
+Inst93Quest15 = "15. The Lich King's Last Stand"
+Inst93Quest15_Level = "80"
+Inst93Quest15_Attain = "80"
+Inst93Quest15_Aim = "Highlord Darion Mograine in Icecrown Citadel wants you to kill the Lich King."
+Inst93Quest15_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest15_Note = "Missing data, but presumably this quest can only be completed in 25-player mode."
+Inst93Quest15_Prequest = "Shadowmourne..."
+Inst93Quest15_Folgequest = "Nein"
+Inst93Quest15FQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde (same as Quest 1 Alliance)
@@ -11923,6 +12093,174 @@ Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
 Inst93Quest1name1_HORDE = Inst93Quest1name1
 Inst93Quest1name2_HORDE = Inst93Quest1name2 
 
+--Quest 2 Horde (same as Quest 2 Alliance)^
+Inst93Quest2_HORDE = Inst93Quest2
+Inst93Quest2_HORDE_Level = Inst93Quest2_Level
+Inst93Quest2_HORDE_Attain = Inst93Quest2_Attain
+Inst93Quest2_HORDE_Aim = Inst93Quest2_Aim
+Inst93Quest2_HORDE_Location = Inst93Quest2_Location
+Inst93Quest2_HORDE_Note = Inst93Quest2_Note
+Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
+Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
+
+Inst93Quest2name1_HORDE = Inst93Quest2name1
+
+--Quest 3 Horde 
+Inst93Quest3_HORDE = "3. Sicherung des Bollwerks (Zufällig Wöchentlich)"
+Inst93Quest3_HORDE_Level = "80"
+Inst93Quest3_HORDE_Attain = "80"
+Inst93Quest3_HORDE_Aim = "Erledigt den verrottenden Frostriesen."
+Inst93Quest3_HORDE_Location = "Leutnant der Kor'kron (Eiskronenzitadelle; "..GREEN.."[3']"..WHITE..")"
+Inst93Quest3_HORDE_Note = "This is one of five random quests that are available in Icecrown Citadel. If this is the quest for your raid id, the Kor'kron Lieutenant will appear when you kill the first trash pull after Lady Deathwhisper.\n\nThe Rotting Frost giant can be found patroling the rampart."
+Inst93Quest3_HORDE_Prequest = "Nein"
+Inst93Quest3_HORDE_Folgequest = "Nein"
+--
+Inst93Quest3name1_HORDE = "Sack mit frostigen Schätzen"
+
+--Quest 4 Horde (same as Quest 4 Alliance)
+Inst93Quest4_HORDE = Inst93Quest4
+Inst93Quest4_HORDE_Level = Inst93Quest4_Level
+Inst93Quest4_HORDE_Attain = Inst93Quest4_Attain
+Inst93Quest4_HORDE_Aim = Inst93Quest4_Aim
+Inst93Quest4_HORDE_Location = Inst93Quest4_Location
+Inst93Quest4_HORDE_Note = Inst93Quest4_Note
+Inst93Quest4_HORDE_Page = Inst93Quest4_Page
+Inst93Quest4_HORDE_Prequest = Inst93Quest4_Prequest
+Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
+--
+Inst93Quest4name1_HORDE = Inst93Quest4name1
+
+--Quest 5 Horde (same as Quest 5 Alliance)
+Inst93Quest5_HORDE = Inst93Quest5
+Inst93Quest5_HORDE_Level = Inst93Quest5_Level
+Inst93Quest5_HORDE_Attain = Inst93Quest5_Attain
+Inst93Quest5_HORDE_Aim = Inst93Quest5_Aim
+Inst93Quest5_HORDE_Location = Inst93Quest5_Location
+Inst93Quest5_HORDE_Note = Inst93Quest5_Note
+Inst93Quest5_HORDE_Prequest = Inst93Quest5_Prequest
+Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
+--
+Inst93Quest5name1_HORDE = Inst93Quest5name1
+
+--Quest 6 Horde (same as Quest 6 Alliance)
+Inst93Quest6_HORDE = Inst93Quest6
+Inst93Quest6_HORDE_Level = Inst93Quest6_Level
+Inst93Quest6_HORDE_Attain = Inst93Quest6_Attain
+Inst93Quest6_HORDE_Aim = Inst93Quest6_Aim
+Inst93Quest6_HORDE_Location = Inst93Quest6_Location
+Inst93Quest6_HORDE_Note = Inst93Quest6_Note
+Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
+Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
+--
+Inst93Quest6name1_HORDE = Inst93Quest6name1
+
+--Quest 7 Horde (same as Quest 7 Alliance)
+Inst93Quest7_HORDE = Inst93Quest7
+Inst93Quest7_HORDE_Level = Inst93Quest7_Level
+Inst93Quest7_HORDE_Attain = Inst93Quest7_Attain
+Inst93Quest7_HORDE_Aim = Inst93Quest7_Aim
+Inst93Quest7_HORDE_Location = Inst93Quest7_Location
+Inst93Quest7_HORDE_Note = Inst93Quest7_Note
+Inst93Quest7_HORDE_Prequest = Inst93Quest7_Prequest
+Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
+
+--Quest 8 Horde (same as Quest 8 Alliance)
+Inst93Quest8_HORDE = Inst93Quest8
+Inst93Quest8_HORDE_Level = Inst93Quest8_Level
+Inst93Quest8_HORDE_Attain = Inst93Quest8_Attain
+Inst93Quest8_HORDE_Aim = Inst93Quest8_Aim
+Inst93Quest8_HORDE_Location = Inst93Quest8_Location
+Inst93Quest8_HORDE_Note = Inst93Quest8_Note
+Inst93Quest8_HORDE_Prequest = Inst93Quest8_Prequest
+Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
+Inst93Quest8FQuest_HORDE = Inst93Quest8FQuest
+--
+Inst93Quest8name1_HORDE = Inst93Quest8name1
+
+--Quest 9 Horde (same as Quest 9 Alliance)
+Inst93Quest9_HORDE = Inst93Quest9
+Inst93Quest9_HORDE_Level = Inst93Quest9_Level
+Inst93Quest9_HORDE_Attain = Inst93Quest9_Attain
+Inst93Quest9_HORDE_Aim = Inst93Quest9_Aim
+Inst93Quest9_HORDE_Location = Inst93Quest9_Location
+Inst93Quest9_HORDE_Note = Inst93Quest9_Note
+Inst93Quest9_HORDE_Prequest = Inst93Quest9_Prequest
+Inst93Quest9_HORDE_Folgequest = Inst93Quest9_Folgequest
+Inst93Quest9FQuest_HORDE = Inst93Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde (same as Quest 10 Alliance)
+Inst93Quest10_HORDE = Inst93Quest10
+Inst93Quest10_HORDE_Level = Inst93Quest10_Level
+Inst93Quest10_HORDE_Attain = Inst93Quest10_Attain
+Inst93Quest10_HORDE_Aim = Inst93Quest10_Aim
+Inst93Quest10_HORDE_Location = Inst93Quest10_Location
+Inst93Quest10_HORDE_Note = Inst93Quest10_Note
+Inst93Quest10_HORDE_Prequest = Inst93Quest10_Prequest
+Inst93Quest10_HORDE_Folgequest = Inst93Quest10_Folgequest
+Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde (same as Quest 11 Alliance)
+Inst93Quest11_HORDE = Inst93Quest11
+Inst93Quest11_HORDE_Level = Inst93Quest11_Level
+Inst93Quest11_HORDE_Attain = Inst93Quest11_Attain
+Inst93Quest11_HORDE_Aim = Inst93Quest11_Aim
+Inst93Quest11_HORDE_Location = Inst93Quest11_Location
+Inst93Quest11_HORDE_Note = Inst93Quest11_Note
+Inst93Quest11_HORDE_Prequest = Inst93Quest11_Prequest
+Inst93Quest11_HORDE_Folgequest = Inst93Quest11_Folgequest
+Inst93Quest11FQuest_HORDE = Inst93Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde (same as Quest 12 Alliance)
+Inst93Quest12_HORDE = Inst93Quest12
+Inst93Quest12_HORDE_Level = Inst93Quest12_Level
+Inst93Quest12_HORDE_Attain = Inst93Quest12_Attain
+Inst93Quest12_HORDE_Aim = Inst93Quest12_Aim
+Inst93Quest12_HORDE_Location = Inst93Quest12_Location
+Inst93Quest12_HORDE_Note = Inst93Quest12_Note
+Inst93Quest12_HORDE_Prequest = Inst93Quest12_Prequest
+Inst93Quest12_HORDE_Folgequest = Inst93Quest12_Folgequest
+Inst93Quest12FQuest_HORDE = Inst93Quest12FQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde (same as Quest 13 Alliance)
+Inst93Quest13_HORDE = Inst93Quest13
+Inst93Quest13_HORDE_Level = Inst93Quest13_Level
+Inst93Quest13_HORDE_Attain = Inst93Quest13_Attain
+Inst93Quest13_HORDE_Aim = Inst93Quest13_Aim
+Inst93Quest13_HORDE_Location = Inst93Quest13_Location
+Inst93Quest13_HORDE_Note = Inst93Quest13_Note
+Inst93Quest13_HORDE_Prequest = Inst93Quest13_Prequest
+Inst93Quest13_HORDE_Folgequest = Inst93Quest13_Folgequest
+Inst93Quest13FQuest_HORDE = Inst93Quest13FQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde (same as Quest 14 Alliance)
+Inst93Quest14_HORDE = Inst93Quest14
+Inst93Quest14_HORDE_Level = Inst93Quest14_Level
+Inst93Quest14_HORDE_Attain = Inst93Quest14_Attain
+Inst93Quest14_HORDE_Aim = Inst93Quest14_Aim
+Inst93Quest14_HORDE_Location = Inst93Quest14_Location
+Inst93Quest14_HORDE_Note = Inst93Quest14_Note
+Inst93Quest14_HORDE_Prequest = Inst93Quest14_Prequest
+Inst93Quest14_HORDE_Folgequest = Inst93Quest14_Folgequest
+Inst93Quest14FQuest_HORDE = Inst93Quest14FQuest
+--
+Inst93Quest14name1_HORDE = Inst93Quest14name1
+
+--Quest 15 Horde (same as Quest 15 Alliance)
+Inst93Quest15_HORDE = Inst93Quest15
+Inst93Quest15_HORDE_Level = Inst93Quest15_Level
+Inst93Quest15_HORDE_Attain = Inst93Quest15_Attain
+Inst93Quest15_HORDE_Aim = Inst93Quest15_Aim
+Inst93Quest15_HORDE_Location = Inst93Quest15_Location
+Inst93Quest15_HORDE_Note = Inst93Quest15_Note
+Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
+Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
+Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
+-- No Rewards for this quest 
 
 
 
@@ -12139,8 +12477,8 @@ Inst83Quest1_Attain = "71"
 Inst83Quest1_Aim = "Gewinnt eine Schlacht auf dem Strand der Uralten und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte, in Tausendwinter, Dalaran oder Shattrath."
 Inst83Quest1_Location = "Brigadegeneral der Allianz:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4"
 Inst83Quest1_Note = "Diese Quest kann man nur einmal am Tag machen und nur wenn man Level 71 erreicht hat. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level."
-Inst83Quest1_Prequest = "None"
-Inst83Quest1_Folgequest = "None"
+Inst83Quest1_Prequest = "Nein"
+Inst83Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 1 Horde
@@ -12150,7 +12488,7 @@ Inst83Quest1_HORDE_Attain = "71"
 Inst83Quest1_HORDE_Aim = "Gewinnt eine Schlacht auf dem Strand der Uralten und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte, in Tausendwinter, Dalaran oder Shattrath."
 Inst83Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Farstriders Square - "..YELLOW.."97.0, 38.3"
 Inst83Quest1_HORDE_Note = "Diese Quest kann man nur einmal am Tag machen und nur wenn man Level 71 erreicht hat. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level."
-Inst83Quest1_HORDE_Folgequest = "None"
+Inst83Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -12169,8 +12507,8 @@ Inst89Quest1_Attain = "80"
 Inst89Quest1_Aim = "Erringt den Sieg bei einer Partie auf dem Schlachtfeld Insel der Eroberung und kehrt zu einem Brigadegeneral der Allianz in irgendeiner Hauptstadt, Dalaran oder Shattrath zurück." 
 Inst89Quest1_Location = "Brigadegeneral der Allianz:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4" 
 Inst89Quest1_Note = "This quest can be done once a day when it is available. It yields varying amounts of experience and gold based on your level." 
-Inst89Quest1_Prequest = "None" 
-Inst89Quest1_Folgequest = "None" 
+Inst89Quest1_Prequest = "Nein" 
+Inst89Quest1_Folgequest = "Nein" 
 -- No Rewards for this quest   
 
 --Quest 1 Horde Inst89Quest1_HORDE = "1. Zu den Waffen: Insel der Eroberung (Tagesquest)" 
@@ -12179,8 +12517,8 @@ Inst89Quest1_HORDE_Attain = "80"
 Inst89Quest1_HORDE_Aim = "Erringt den Sieg bei einer Partie auf dem Schlachtfeld Insel der Eroberung und kehrt zu einem Kriegshetzer der Horde in irgendeiner Hauptstadt, Dalaran oder Shattrath zurück."
 Inst89Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Farstriders Square - "..YELLOW.."97.0, 38.3" 
 Inst89Quest1_HORDE_Note = "This quest can be done once a day when it is available. It yields varying amounts of experience and gold based on your level." 
-Inst89Quest1_HORDE_Prequest = "None" 
-Inst89Quest1_HORDE_Folgequest = "None" 
+Inst89Quest1_HORDE_Prequest = "Nein" 
+Inst89Quest1_HORDE_Folgequest = "Nein" 
 -- No Rewards for this quest 
 
 
