@@ -4263,8 +4263,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "Во время Третьей Войны, волшебники Кирин Тора сражались против армии нежити Плети. Когда волшебники Даларана погибли в бою, они смогли возродиться после - прибавив свою былую мощь к растущей Плети. Недовольный недостатком прогресса (и вопреки советам его соратников) Архимаг выбрал Аругала для призыва внемировых сущностей, чтобы подкрепить уменьшающиеся силы Даларана. Призыв Аругала привел изголодавшихся воргенов в мир Азерота. Дикие зверолюди устроили резню не только Плети, но быстро принялись и за самих волшебников. Воргены осадили крепость дворянина, барона Сребролена. Расположенная на небольшой деревушкой Погребальных костров, крепость быстро была ввергнута во тьму и разруху. Помешавшись из-за чувства вины, Аругал усыновил воргенов как детей и уединился в заново окрещенной 'Крепости Темного Клыка'. Говорят, он все еще живет там, защищаемый своим огромным питомцем, Фенрусом - и преследуемый мстительным духом барона Сребролена."
 Inst21Caption = "Крепость Темного Клыка"
-Inst21QAA = "2 Задания"
-Inst21QAH = "4 Задания"
+Inst21QAA = "5 Задания"
+Inst21QAH = "7 Задания"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. Испытание доблести (Паладин)"
@@ -4293,6 +4293,41 @@ Inst21Quest2_Folgequest = "Нет"
 Inst21Quest2name1 = "Orb of Soran'ruk"
 Inst21Quest2name2 = "Staff of Soran'ruk"
 
+--Quest 3 Alliance
+Inst21Quest3 = "3. Засланный шпион"
+Inst21Quest3_Level = "80"
+Inst21Quest3_Attain = "75"
+Inst21Quest3_Aim = "Найдите следователя Феззена Клейстра в Крепости Темного Клыка."
+Inst21Quest3_Location = "Инспектор Кромс Гвоздезуб (Штормград - Торговый квартал; "..YELLOW.."61.7, 75.5"..WHITE..")"
+Inst21Quest3_Note = "Это сезонное задание для Любовной лихорадки.\n\nВы найдете следователя Феззена Клейстра около двери во двор около "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest3_Prequest = "Разговор по душам..."
+Inst21Quest3_Folgequest = "Получите, распишитесь"
+Inst21Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst21Quest4 = "4. Получите, распишитесь (ежедневный)"
+Inst21Quest4_Level = "80"
+Inst21Quest4_Attain = "75"
+Inst21Quest4_Aim = "Отнесите повестку в суд аптекарю Хаммелу в Крепость Темного Клыка."
+Inst21Quest4_Location = "Испытатель Феззен Клейстр (Крепость Темного Клыка; "..YELLOW.."[2]"..WHITE..")"
+Inst21Quest4_Note = "Это сезонное задание для Любовной лихорадки.\n\nПредыдущее задание не обязательно для получения этого.\n\nАптекарь Хаммел находится "..YELLOW.."[3]"..WHITE.." во дворе. Как только вы сдадите задание запустится бой."
+Inst21Quest4_Prequest = "Засланный шпион (необязательное)"
+Inst21Quest4_Folgequest = "Не любовь витает в воздухе (а что-то иное!)"
+Inst21Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst21Quest5 = "5. Не любовь витает в воздухе (а что-то иное!)"
+Inst21Quest5_Level = "80"
+Inst21Quest5_Attain = "75"
+Inst21Quest5_Aim = "Принесите выцветшую открытку ко дню всех влюбленных инспектору Кромсу Гвоздезубу в Штормград."
+Inst21Quest5_Location = "Падает с аптекаря Хаммела в Крепости Темного Клыка, одна на всю группу."
+Inst21Quest5_Note = "Это сезонное задание для Любовной лихорадки.\n\nИнспектор Кромс Гвоздезуб находится (Штормград - Торговый квартал; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest5_Prequest = "Нет"
+Inst21Quest5_Folgequest = "Нет"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst21Quest1_HORDE = "1. Пропавшие стражи смерти"
@@ -4300,7 +4335,7 @@ Inst21Quest1_HORDE_Level = "25"
 Inst21Quest1_HORDE_Attain = "18"
 Inst21Quest1_HORDE_Aim = "Найдите стражей смерти Адаманта и Винсента."
 Inst21Quest1_HORDE_Location = "Верховный палач Хадрек (Серебряный бор - Гробница; "..YELLOW.."43,40"..WHITE..")"
-Inst21Quest1_HORDE_Note = "Вы найдете стража смерти Адаманта около "..YELLOW.."[1]"..WHITE..". Страж смерти Винсент находится справа когда вы войдете во внутренний двор около "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest1_HORDE_Note = "Вы найдете стража смерти Адаманта около "..YELLOW.."[1]"..WHITE..". Страж смерти Винсент находится справа когда вы войдете во внутренний двор около "..YELLOW.."[3]"..WHITE.."."
 Inst21Quest1_HORDE_Prequest = "Нет"
 Inst21Quest1_HORDE_Folgequest = "Нет"
 --
@@ -4312,7 +4347,7 @@ Inst21Quest2_HORDE_Level = "26"
 Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = "Принесите книгу Ура хранителю Бел'дугуру в Район Фармацевтов в Подгород."
 Inst21Quest2_HORDE_Location = "Хранитель Бел'дугур (Подгород - Квартал фармацевтов; "..YELLOW.."53,54"..WHITE..")"
-Inst21Quest2_HORDE_Note = "Вы найдете книгу около "..YELLOW.."[8]"..WHITE.." слева, когда вы войдете в комнату."
+Inst21Quest2_HORDE_Note = "Вы найдете книгу около "..YELLOW.."[11]"..WHITE.." слева, когда вы войдете в комнату."
 Inst21Quest2_HORDE_Prequest = "Нет"
 Inst21Quest2_HORDE_Folgequest = "Нет"
 --
@@ -4325,7 +4360,7 @@ Inst21Quest3_HORDE_Level = "27"
 Inst21Quest3_HORDE_Attain = "18"
 Inst21Quest3_HORDE_Aim = "Убейте Аругала и принесите его голову Далару Ткачу Рассвета в Гробницу."
 Inst21Quest3_HORDE_Location = "Далар Ткач Рассвета (Серебряный бор - Гробница; "..YELLOW.."44,39"..WHITE..")"
-Inst21Quest3_HORDE_Note = "Вы найдете Архимага Аругала около "..YELLOW.."[10]"..WHITE.."."
+Inst21Quest3_HORDE_Note = "Вы найдете Архимага Аругала около "..YELLOW.."[13]"..WHITE.."."
 Inst21Quest3_HORDE_Prequest = "Нет"
 Inst21Quest3_HORDE_Folgequest = "Нет"
 --
@@ -4343,6 +4378,41 @@ Inst21Quest4_HORDE_Folgequest = Inst21Quest2_Folgequest
 --
 Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
+
+--Quest 5 Horde
+Inst21Quest5_HORDE = "5. Засланный шпион"
+Inst21Quest5_HORDE_Level = "80"
+Inst21Quest5_HORDE_Attain = "75"
+Inst21Quest5_HORDE_Aim = "Найдите следователя Феззена Клейстра в Крепости Темного Клыка."
+Inst21Quest5_HORDE_Location = "Детектив Крямс Гвоздезуб (Оргриммар - Аллея Силы; "..YELLOW.."50.8, 65.6"..WHITE..")"
+Inst21Quest5_HORDE_Note = "Это сезонное задание для Любовной лихорадки.\n\nВы найдете следователя Феззена Клейстра около двери во двор около "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest5_HORDE_Prequest = "Разговор по душам..."
+Inst21Quest5_HORDE_Folgequest = "Получите, распишитесь"
+Inst21Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 4 Alliance)
+Inst21Quest6_HORDE = "6. Получите, распишитесь (ежедневный)"
+Inst21Quest6_HORDE_Level = Inst21Quest4_Level
+Inst21Quest6_HORDE_Attain = Inst21Quest4_Attain
+Inst21Quest6_HORDE_Aim = Inst21Quest4_Aim
+Inst21Quest6_HORDE_Location = Inst21Quest4_Location
+Inst21Quest6_HORDE_Note = Inst21Quest4_Note
+Inst21Quest6_HORDE_Prequest = Inst21Quest4_Prequest
+Inst21Quest6_HORDE_Folgequest = Inst21Quest4_Folgequest
+Inst21Quest6FQuest_HORDE = Inst21Quest4FQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst21Quest7_HORDE = "7. Не любовь витает в воздухе (а что-то иное!)"
+Inst21Quest7_HORDE_Level = "80"
+Inst21Quest7_HORDE_Attain = "75"
+Inst21Quest7_HORDE_Aim = "Принесите выцветшую открытку ко дню всех влюбленных детективу Крямсу Гвоздезубу в Оргриммар."
+Inst21Quest7_HORDE_Location = "Падает с аптекаря Хаммела в Крепости Темного Клыка, одна на всю группу."
+Inst21Quest7_HORDE_Note = "Это сезонное задание для Любовной лихорадки.\n\nДетектив Крямс Гвоздезуб находится (Оргриммар - Аллея Силы; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest7_HORDE_Prequest = "Нет"
+Inst21Quest7_HORDE_Folgequest = "Нет"
+-- No Rewards for this quest
 
 
 
@@ -11814,8 +11884,8 @@ Inst92Quest3PreQuest_HORDE = "true"
 
 Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
 Inst93Caption = "Цитадель Ледяной Короны"
-Inst93QAA = "2 задание"
-Inst93QAH = "2 задание"
+Inst93QAA = "15 заданий"
+Inst93QAH = "15 заданий"
 
 --Quest 1 Alliance
 Inst93Quest1 = "1. Лорд Ребрад должен умереть! (Еженедельный)"
@@ -11831,14 +11901,173 @@ Inst93Quest1name1 = "Эмблема льда"
 Inst93Quest1name2 = "Эмблема триумфа"
 
 --Quest 2 Alliance
-Inst93Quest2 = "2. Святость и скверна"
+Inst93Quest2 = "2. Перевербовка (Случайное еженедельное)"
 Inst93Quest2_Level = "80"
 Inst93Quest2_Attain = "80"
-Inst93Quest2_Aim = "Поместите Отмщение Света, 25 кусков древнейшего саронита, разъедающую кровь Гниломорда и разъедающую кровь Тухлопуза в кузню рун Верховного лорда Могрейна в Цитадели Ледяной Короны."
-Inst93Quest2_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..YELLOW.."[]"..WHITE..")"
-Inst93Quest2_Note = "Верховный лорд Дарион Могрейн находится на входе в Цитадель Ледяной Короны.\n\nРазъедающая кровь Гниломорда и Разъедающая кровь Тухлопуза падает только в подземелье на 25 человек и может быть подобрана только одним членом рейда."
+Inst93Quest2_Aim = "Убейте Леди Смертный Шепот, сохранив жизнь Дарнавану."
+Inst93Quest2_Location = "Разведчик Минчар (Цитадель Ледяной Короны; "..YELLOW.."Около [1]"..WHITE..")"
+Inst93Quest2_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, разведчик Минчар появится после победы над Лордом Ребрадом.\n\nКак только вы начнете бой с Леди Смертный Шепот, появится Дарнаван. Он должен жить на протяжении всей битвы с Леди для выполнения задания."
 Inst93Quest2_Prequest = "Нет"
-Inst93Quest2_Folgequest = "Грань Тьмы"
+Inst93Quest2_Folgequest = "Нет"
+--
+Inst93Quest2name1 = "Мешок ледяных сокровищ"
+
+--Quest 3 Alliance
+Inst93Quest3 = "3. Оборона Черепного вала (Случайное еженедельное)"
+Inst93Quest3_Level = "80"
+Inst93Quest3_Attain = "80"
+Inst93Quest3_Aim = "Убейте гниющего ледяного великана."
+Inst93Quest3_Location = "Лейтенант с 'Усмирителя небес' (Цитадель Ледяной Короны; "..GREEN.."[3']"..WHITE..")"
+Inst93Quest3_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Лейтенант с 'Усмирителя небес' появится после убийства первого треш-пака после Леди Смертный Шепот.\n\nГниющий ледяной великан патрулирует одну из сторон вала."
+Inst93Quest3_Prequest = "Нет"
+Inst93Quest3_Folgequest = "Нет"
+--
+Inst93Quest3name1 = "Мешок ледяных сокровищ"
+
+--Quest 4 Alliance
+Inst93Quest4 = "4. Болезненная задача (Случайное еженедельное)"
+Inst93Quest4_Level = "80"
+Inst93Quest4_Attain = "80"
+Inst93Quest4_Aim = "Если вы заразитесь оранжевой и зеленой порчей, вернитесь к алхимику Адрианне."
+Inst93Quest4_Location = "Алхимик Адрианна (Цитадель Ледяной Короны; "..GREEN.."[4']"..WHITE..")"
+Inst93Quest4_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Алхимик Адрианна появится после того как вы убьете Саурфанга Смертоносного.\n\nДля выполнения задания один из участников рейда должен собрать на себя порчу с Тухлопуза и Гниломорда и вернуться к Алхимику Адрианне в течении 30 минут после получения первого эффекта. После этого все члены рейда, имеющие задание получат сообщение о его выполнении."
+Inst93Quest4_Page = {2, "Порча пропадает, если игрок умрет, выйдет из сети, а также если использует Божественное вмешательство или Божественный щит и некоторые другие способности. Охотники, которые выживут с помощью способности Притвориться мертвым не потеряют порчу.", };
+Inst93Quest4_Prequest = "Нет"
+Inst93Quest4_Folgequest = "Нет"
+--
+Inst93Quest4name1 = "Мешок ледяных сокровищ"
+
+--Quest 5 Alliance
+Inst93Quest5 = "5. Каждая капля крови... (Случайное еженедельное)"
+Inst93Quest5_Level = "80"
+Inst93Quest5_Attain = "80"
+Inst93Quest5_Aim = "Спасите разведчика Минчара прежде, чем его казнят."
+Inst93Quest5_Location = "Алрин Проворный (Цитадель Ледяной Короны; Вход в Багровый зал)"
+Inst93Quest5_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Алрин Проворный появится как только вы подойдете к Багровому залу.\n\nКак только вы зайдете в Багровый зал появится 30-ти минутный таймер. Вы должны убить весь треш, сразится с Советом Кровавых принцев и победить Кровавую королеву Лана'тель до того как таймер истечет, для выполнения задания."
+Inst93Quest5_Prequest = "Нет"
+Inst93Quest5_Folgequest = "Нет"
+--
+Inst93Quest5name1 = "Мешок ледяных сокровищ"
+
+--Quest 6 Alliance
+Inst93Quest6 = "6. Отдых для измученной души (Случайное еженедельное)"
+Inst93Quest6_Level = "80"
+Inst93Quest6_Attain = "80"
+Inst93Quest6_Aim = "Воспользуйтесь кристаллами жизни, чтобы сохранить душу Синдрагосы."
+Inst93Quest6_Location = "Валитрия Сноходица (Цитадель Ледяной Короны; "..YELLOW.."[11]"..WHITE..")"
+Inst93Quest6_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Валитрия Сноходица даст вам это задание, после того как ваш рейд ее вылечит.\n\nДля выполнения задания, члены рейда должны использовать Пульсирующий кристалл жизни для создания отрицательного эффекта (30 в рейде на 10 человек, 75 в рейде на 25 человек) на Синдрагосе, когда у нее останется менее 20% здоровья. Если Синдрагоса получит ауру Сохранения души, до того как умрет, задание будет считаться выполненым."
+Inst93Quest6_Prequest = "Нет"
+Inst93Quest6_Folgequest = "Нет"
+--
+Inst93Quest6name1 = "Мешок ледяных сокровищ"
+
+--Quest 7 Alliance
+Inst93Quest7 = "7. Святость и скверна"
+Inst93Quest7_Level = "80"
+Inst93Quest7_Attain = "80"
+Inst93Quest7_Aim = "Поместите Отмщение Света, 25 кусков древнейшего саронита, разъедающую кровь Гниломорда и разъедающую кровь Тухлопуза в кузню рун Верховного лорда Могрейна в Цитадели Ледяной Короны."
+Inst93Quest7_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest7_Note = "Эта цепочка заданий доступна только войнам, паладинам и рыцарям смерти. Кузня рун Верховного лорда Могрейна находится на входе в Цитадель Ледяной Короны.\n\nРазъедающая кровь Гниломорда и Разъедающая кровь Тухлопуза падает только в подземелье на 25 человек и может быть подобрана только одним членом рейда."
+Inst93Quest7_Prequest = "Нет"
+Inst93Quest7_Folgequest = "Грань Тьмы"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst93Quest8 = "8. Грань Тьмы"
+Inst93Quest8_Level = "80"
+Inst93Quest8_Attain = "80"
+Inst93Quest8_Aim = "Информация отсутствует."
+Inst93Quest8_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest8_Note = "Информация отсутствует. Предположительно на данном этапе вы получите Грань Тьмы."
+Inst93Quest8_Prequest = "Святость и скверна"
+Inst93Quest8_Folgequest = "Пиршество душ"
+Inst93Quest8FQuest = "true"
+--
+Inst93Quest8name1 = "Грань Тьмы"
+
+--Quest 9 Alliance
+Inst93Quest9 = "9. Пиршество душ"
+Inst93Quest9_Level = "80"
+Inst93Quest9_Attain = "80"
+Inst93Quest9_Aim = "Верховный лорд Могрейн поручил вам убить 1000 слуг Короля-лича в Цитадели Ледяной Короны с помощью Грани Тьмы. Души будут засчитаны в рейде на 10 или 25 игроков."
+Inst93Quest9_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest9_Note = "Вы должны сделать множество убийств. Только убийства треша или боссов ЦЛК помогут вам набрать 1000."
+Inst93Quest9_Prequest = "Грань Тьмы"
+Inst93Quest9_Folgequest = "Сила нечестивости"
+Inst93Quest9FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst93Quest10 = "10. Сила нечестивости"
+Inst93Quest10_Level = "80"
+Inst93Quest10_Attain = "80"
+Inst93Quest10_Aim = "Верховный лорд Дарион Могрейн приказал вам наполнить Грань Тьмы силой нечестивости и убить профессора Мерзоцида."
+Inst93Quest10_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest10_Note = "Это задание можно выполнить только в рейде для 25 игроков в Цитадели Ледяной Короны.\n\nДля наполнения Грани Тьмы вы должны во время боя с профессором Мерзоцидом взять под свой контроль Абоминацию (Мутировавшее Поганище?) и использовать специальную способность - Защита теней."
+Inst93Quest10_Prequest = "Пиршество душ"
+Inst93Quest10_Folgequest = "Сила крови"
+Inst93Quest10FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst93Quest11 = "11. Сила крови"
+Inst93Quest11_Level = "80"
+Inst93Quest11_Attain = "80"
+Inst93Quest11_Aim = "Верховный лорд Дарион Могрейн приказал вам наполнить Грань Тьмы силой крови и убить королеву Лана'тель."
+Inst93Quest11_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest11_Note = "Это задание можно выполнить только в рейде для 25 игроков в Цитадели Ледяной Короны.\n\nДля выполнения задания, вы должны под воздействие Кровавого зеркала. Вы не должны быть укушены первым, вас обязательно должен укусить самый первый вампир, т.е. вы должны быть вторым вампиром. После этого вы должны лично укусить еще 3х членов рейда для выполнения задания."
+Inst93Quest11_Prequest = "Сила нечестивости"
+Inst93Quest11_Folgequest = "Сила льда"
+Inst93Quest11FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst93Quest12 = "12. Сила льда"
+Inst93Quest12_Level = "80"
+Inst93Quest12_Attain = "80"
+Inst93Quest12_Aim = "Верховный лорд Дарион Могрейн приказал вам четыре раза попасть под действие ледяного дыхания Синдрагосы, держа при себе Грань Тьмы, после чего убить дракона."
+Inst93Quest12_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest12_Note = "Это задание можно выполнить только в рейде для 25 игроков в Цитадели Ледяной Короны.\n\nВы должны получить 4 стака Поглощения морозного дыхания от 4х попаданий в Ледяное дыхание Синдрагосы, после этого у вас будет 6 минут чтобы убить босса и выполнить задание."
+Inst93Quest12_Prequest = "Сила крови"
+Inst93Quest12_Folgequest = "Расколотый трон"
+Inst93Quest12FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst93Quest13 = "13. Расколотый трон"
+Inst93Quest13_Level = "80"
+Inst93Quest13_Attain = "80"
+Inst93Quest13_Aim = "Верховный лорд Могрейн поручил вам собрать 50 осколков Льда Тьмы."
+Inst93Quest13_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest13_Note = "Осколки Льда Тьмы можно получить только в рейде 25 игроков.\n\nОсколки Льда Тьмы падают со всех боссов с небольшим шансом."
+Inst93Quest13_Prequest = "Сила льда"
+Inst93Quest13_Folgequest = "Темная Скорбь..."
+Inst93Quest13FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst93Quest14 = "14. Темная Скорбь..."
+Inst93Quest14_Level = "80"
+Inst93Quest14_Attain = "80"
+Inst93Quest14_Aim = "Верховный лорд Могрейн просит вас принести ему Грань Тьмы."
+Inst93Quest14_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest14_Note = "Это задание обновит вашу Грань Тьмы до Темной Скорби."
+Inst93Quest14_Prequest = "Расколотый трон"
+Inst93Quest14_Folgequest = "Последняя битва Короля-лича"
+Inst93Quest14FQuest = "true"
+--
+Inst93Quest14name1 = "Темная Скорбь"
+
+--Quest 15 Alliance
+Inst93Quest15 = "15. Последняя битва Короля-лича"
+Inst93Quest15_Level = "80"
+Inst93Quest15_Attain = "80"
+Inst93Quest15_Aim = "Верховный лорд Дарион Могрейн приказал вам убить Короля-лича."
+Inst93Quest15_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest15_Note = "Информация отсутствует, но скорее всего, чтобы выполнить это задание, вам придется убить Короля Лича в рейде на 25 игроков."
+Inst93Quest15_Prequest = "Темная Скорбь..."
+Inst93Quest15_Folgequest = "Нет"
+Inst93Quest15FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -11864,6 +12093,166 @@ Inst93Quest2_HORDE_Location = Inst93Quest2_Location
 Inst93Quest2_HORDE_Note = Inst93Quest2_Note
 Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
 Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
+--
+Inst93Quest2name1_HORDE = Inst93Quest2name1
+
+--Quest 3 Horde
+Inst93Quest3_HORDE = "3. Оборона Черепного вала (Случайное еженедельное)"
+Inst93Quest3_HORDE_Level = "80"
+Inst93Quest3_HORDE_Attain = "80"
+Inst93Quest3_HORDE_Aim = "Убейте гниющего ледяного великана."
+Inst93Quest3_HORDE_Location = "Кор'кронский лейтенант (Цитадель Ледяной Короны; "..GREEN.."[3']"..WHITE..")"
+Inst93Quest3_HORDE_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Кор'кронский лейтенант появится после убийства первого треш-пака после Леди Смертный Шепот.\n\nГниющий ледяной великан патрулирует одну из сторон вала."
+Inst93Quest3_HORDE_Prequest = "Нет"
+Inst93Quest3_HORDE_Folgequest = "Нет"
+--
+Inst93Quest3name1_HORDE = "Мешок ледяных сокровищ"
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst93Quest4_HORDE = Inst93Quest4
+Inst93Quest4_HORDE_Level = Inst93Quest4_Level
+Inst93Quest4_HORDE_Attain = Inst93Quest4_Attain
+Inst93Quest4_HORDE_Aim = Inst93Quest4_Aim
+Inst93Quest4_HORDE_Location = Inst93Quest4_Location
+Inst93Quest4_HORDE_Note = Inst93Quest4_Note
+Inst93Quest4_HORDE_Page = Inst93Quest4_Page
+Inst93Quest4_HORDE_Prequest = Inst93Quest4_Prequest
+Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
+--
+Inst93Quest4name1_HORDE = Inst93Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst93Quest5_HORDE = Inst93Quest5
+Inst93Quest5_HORDE_Level = Inst93Quest5_Level
+Inst93Quest5_HORDE_Attain = Inst93Quest5_Attain
+Inst93Quest5_HORDE_Aim = Inst93Quest5_Aim
+Inst93Quest5_HORDE_Location = Inst93Quest5_Location
+Inst93Quest5_HORDE_Note = Inst93Quest5_Note
+Inst93Quest5_HORDE_Prequest = Inst93Quest5_Prequest
+Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
+--
+Inst93Quest5name1_HORDE = Inst93Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst93Quest6_HORDE = Inst93Quest6
+Inst93Quest6_HORDE_Level = Inst93Quest6_Level
+Inst93Quest6_HORDE_Attain = Inst93Quest6_Attain
+Inst93Quest6_HORDE_Aim = Inst93Quest6_Aim
+Inst93Quest6_HORDE_Location = Inst93Quest6_Location
+Inst93Quest6_HORDE_Note = Inst93Quest6_Note
+Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
+Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
+--
+Inst93Quest6name1_HORDE = Inst93Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst93Quest7_HORDE = Inst93Quest7
+Inst93Quest7_HORDE_Level = Inst93Quest7_Level
+Inst93Quest7_HORDE_Attain = Inst93Quest7_Attain
+Inst93Quest7_HORDE_Aim = Inst93Quest7_Aim
+Inst93Quest7_HORDE_Location = Inst93Quest7_Location
+Inst93Quest7_HORDE_Note = Inst93Quest7_Note
+Inst93Quest7_HORDE_Prequest = Inst93Quest7_Prequest
+Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst93Quest8_HORDE = Inst93Quest8
+Inst93Quest8_HORDE_Level = Inst93Quest8_Level
+Inst93Quest8_HORDE_Attain = Inst93Quest8_Attain
+Inst93Quest8_HORDE_Aim = Inst93Quest8_Aim
+Inst93Quest8_HORDE_Location = Inst93Quest8_Location
+Inst93Quest8_HORDE_Note = Inst93Quest8_Note
+Inst93Quest8_HORDE_Prequest = Inst93Quest8_Prequest
+Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
+Inst93Quest8FQuest_HORDE = Inst93Quest8FQuest
+--
+Inst93Quest8name1_HORDE = Inst93Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst93Quest9_HORDE = Inst93Quest9
+Inst93Quest9_HORDE_Level = Inst93Quest9_Level
+Inst93Quest9_HORDE_Attain = Inst93Quest9_Attain
+Inst93Quest9_HORDE_Aim = Inst93Quest9_Aim
+Inst93Quest9_HORDE_Location = Inst93Quest9_Location
+Inst93Quest9_HORDE_Note = Inst93Quest9_Note
+Inst93Quest9_HORDE_Prequest = Inst93Quest9_Prequest
+Inst93Quest9_HORDE_Folgequest = Inst93Quest9_Folgequest
+Inst93Quest9FQuest_HORDE = Inst93Quest9FQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst93Quest10_HORDE = Inst93Quest10
+Inst93Quest10_HORDE_Level = Inst93Quest10_Level
+Inst93Quest10_HORDE_Attain = Inst93Quest10_Attain
+Inst93Quest10_HORDE_Aim = Inst93Quest10_Aim
+Inst93Quest10_HORDE_Location = Inst93Quest10_Location
+Inst93Quest10_HORDE_Note = Inst93Quest10_Note
+Inst93Quest10_HORDE_Prequest = Inst93Quest10_Prequest
+Inst93Quest10_HORDE_Folgequest = Inst93Quest10_Folgequest
+Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst93Quest11_HORDE = Inst93Quest11
+Inst93Quest11_HORDE_Level = Inst93Quest11_Level
+Inst93Quest11_HORDE_Attain = Inst93Quest11_Attain
+Inst93Quest11_HORDE_Aim = Inst93Quest11_Aim
+Inst93Quest11_HORDE_Location = Inst93Quest11_Location
+Inst93Quest11_HORDE_Note = Inst93Quest11_Note
+Inst93Quest11_HORDE_Prequest = Inst93Quest11_Prequest
+Inst93Quest11_HORDE_Folgequest = Inst93Quest11_Folgequest
+Inst93Quest11FQuest_HORDE = Inst93Quest11FQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst93Quest12_HORDE = Inst93Quest12
+Inst93Quest12_HORDE_Level = Inst93Quest12_Level
+Inst93Quest12_HORDE_Attain = Inst93Quest12_Attain
+Inst93Quest12_HORDE_Aim = Inst93Quest12_Aim
+Inst93Quest12_HORDE_Location = Inst93Quest12_Location
+Inst93Quest12_HORDE_Note = Inst93Quest12_Note
+Inst93Quest12_HORDE_Prequest = Inst93Quest12_Prequest
+Inst93Quest12_HORDE_Folgequest = Inst93Quest12_Folgequest
+Inst93Quest12FQuest_HORDE = Inst93Quest12FQuest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst93Quest13_HORDE = Inst93Quest13
+Inst93Quest13_HORDE_Level = Inst93Quest13_Level
+Inst93Quest13_HORDE_Attain = Inst93Quest13_Attain
+Inst93Quest13_HORDE_Aim = Inst93Quest13_Aim
+Inst93Quest13_HORDE_Location = Inst93Quest13_Location
+Inst93Quest13_HORDE_Note = Inst93Quest13_Note
+Inst93Quest13_HORDE_Prequest = Inst93Quest13_Prequest
+Inst93Quest13_HORDE_Folgequest = Inst93Quest13_Folgequest
+Inst93Quest13FQuest_HORDE = Inst93Quest13FQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst93Quest14_HORDE = Inst93Quest14
+Inst93Quest14_HORDE_Level = Inst93Quest14_Level
+Inst93Quest14_HORDE_Attain = Inst93Quest14_Attain
+Inst93Quest14_HORDE_Aim = Inst93Quest14_Aim
+Inst93Quest14_HORDE_Location = Inst93Quest14_Location
+Inst93Quest14_HORDE_Note = Inst93Quest14_Note
+Inst93Quest14_HORDE_Prequest = Inst93Quest14_Prequest
+Inst93Quest14_HORDE_Folgequest = Inst93Quest14_Folgequest
+Inst93Quest14FQuest_HORDE = Inst93Quest14FQuest
+--
+Inst93Quest14name1_HORDE = Inst93Quest14name1
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst93Quest15_HORDE = Inst93Quest15
+Inst93Quest15_HORDE_Level = Inst93Quest15_Level
+Inst93Quest15_HORDE_Attain = Inst93Quest15_Attain
+Inst93Quest15_HORDE_Aim = Inst93Quest15_Aim
+Inst93Quest15_HORDE_Location = Inst93Quest15_Location
+Inst93Quest15_HORDE_Note = Inst93Quest15_Note
+Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
+Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
+Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
+-- No Rewards for this quest
 
 
 
