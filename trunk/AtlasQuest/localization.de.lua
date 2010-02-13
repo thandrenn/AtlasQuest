@@ -10896,7 +10896,7 @@ Inst81Quest3name5_HORDE = Inst81Quest3name5
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Story = ( 
+Inst82Story = { 
   ["Page1"] = "Inmitten der kunstvoll verzierten Dächer und verzauberten Straßen von Dalaran erhebt sich die prachtvolle Violette Festung, das Zeugnis des Ruhmes der Kirin Tor, der Herrscher über die Stadt. Und doch: Innerhalb ihrer mächtigen Mauern liegt eine dunkle Wahrheit verborgen. Die Festung, lange genutzt, um drohendem Unheil Einhalt zu gebieten, beherbergt noch immer reihenweise tödliche Gefahren in ihren Kerkern. Gewissenhaft überwacht von den Kirin Tor. In einem unerwarteten und gewalttätigen Angriff hat Malygos seinen blauen Drachenschwarm über Dalaran hereinbrechen lassen, um die arkane Dominanz über Azeroth an sich zu reißen.",
   ["Page2"] = "Indem sie einen gewaltigen Riss im Dach der Violetten Festung zum Einstieg nutzten, ist es den Agenten des Drachenaspekts gelungen, sich Zutritt zu den Portalen innerhalb des Gefängnisses zu verschaffen und damit den Schutz, den die Festung bieten sollte, auf die Probe zu stellen und die Sicherheit aller außerhalb der Gefängnismauern zu gefährden. Während die Verteidigung der Violetten Festung langsam aber stetig unter den andauernden Angriffen geschwächt wird, stehen nur noch die tapferen Seelen derjenigen, die das Gefängnis bewachen, zwischen der weiteren Existenz Dalarans und der kompletten Zerstörung der Stadt.",
   ["MaxPages"] = "2",
