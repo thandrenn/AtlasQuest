@@ -10315,7 +10315,7 @@ Inst75Quest2_Aim = "Kilix the Unraveler in the Pit of Narjun has tasked you with
 Inst75Quest2_Location = "Kilix the Unraveler (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
 Inst75Quest2_Note = "Anub'arak is at "..YELLOW.."[3]"..WHITE.."."
 Inst75Quest2_Prequest = "None"
-Inst75Quest2_Folgequest = "The Faceless Ones ("..YELLOW.."Ahn'kahet"..WHITE..")"
+Inst75Quest2_Folgequest = "None"
 --
 Inst75Quest2name1 = "Kilix's Silk Slippers"
 Inst75Quest2name2 = "Don Soto's Boots"
@@ -10391,7 +10391,7 @@ Inst76Quest3_Attain = "73"
 Inst76Quest3_Aim = "Kilix the Unraveler in the Pit of Narjun wants you to kill Herald Volazj and the three Forgotten Ones that accompany him in Ahn'Kahet."
 Inst76Quest3_Location = "Kilix the Unraveler (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
 Inst76Quest3_Note = "The Forgotten Ones and Herald Volazj can be found at "..YELLOW.."[5]"..WHITE.."."
-Inst76Quest3_Prequest = "Death to the Traitor King ("..YELLOW.."Azjol-Nerub"..WHITE..")"
+Inst76Quest3_Prequest = "None"
 Inst76Quest3_Folgequest = "None"
 Inst76Quest3PreQuest = "true"
 --
