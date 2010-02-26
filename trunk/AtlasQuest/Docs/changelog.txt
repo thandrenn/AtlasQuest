@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 4.4.2 BETA
+
+-
+
+
+
+
 Version 4.4.1
 
 - Added new Love is in the Air quests, ICC weekly quests, Quel'Delar & Shadowmourne questlines.
