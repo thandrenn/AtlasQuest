@@ -9832,10 +9832,10 @@ Inst69Quest2_Prequest = "Illusionen bannen"
 Inst69Quest2_Folgequest = "Nein"
 Inst69Quest2FQuest = "true"
 --
-Inst69Quest2name1 = "Gloves of the Time Guardian"
-Inst69Quest2name2 = "Handwraps of Preserved History"
-Inst69Quest2name3 = "Grips of Chronological Events"
-Inst69Quest2name4 = "Gauntlets of The Culling"
+Inst69Quest2name1 = "Handschuhe des Zeitwächters"
+Inst69Quest2name2 = "Handlappen der erhaltenen Geschichte"
+Inst69Quest2name3 = "Handschutz der chronologischen Ereignisse"
+Inst69Quest2name4 = "Stulpen der Säuberung"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9883,9 +9883,9 @@ Inst70Quest1_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE.."
 Inst70Quest1_Prequest = "Ein neuer Abschnitt"
 Inst70Quest1_Folgequest = "Nein"
 --
-Inst70Quest1name1 = "Executioner's Band"
-Inst70Quest1ame2 = "Ring of Decimation"
-Inst70Quest1ame3 = "Signet of Swift Judgment"
+Inst70Quest1name1 = "Band des Henkers"
+Inst70Quest1name2 = "Ring der Dezimierung"
+Inst70Quest1name3 = "Signet des schnellen Richturteils"
 
 --Quest 2 Alliance
 Inst70Quest2 = "2. Abrüstung"
@@ -9897,10 +9897,10 @@ Inst70Quest2_Note = "Die Waffen der Vykul können überall in der Instant in den
 Inst70Quest2_Prequest = "Nein"
 Inst70Quest2_Folgequest = "Nein"
 --
-Inst70Quest2name1 = "Amulet of the Tranquil Mind"
-Inst70Quest2name2 = "Razor-Blade Pendant"
-Inst70Quest2name3 = "Necklace of Fragmented Light"
-Inst70Quest2name4 = "Woven Steel Necklace"
+Inst70Quest2name1 = "Amulett des ruhigen Gemüts"
+Inst70Quest2name2 = "Rasierklingenanhänger"
+Inst70Quest2name3 = "Halskette des gestreuten Lichts"
+Inst70Quest2name4 = "Gewebte Stahlhalskette"
 
 
 --Quest 1 Horde
@@ -9908,15 +9908,15 @@ Inst70Quest1_HORDE = "1. Eine Rechnung begleichen"
 Inst70Quest1_HORDE_Level = "71"
 Inst70Quest1_HORDE_Attain = "68"
 Inst70Quest1_HORDE_Aim = "Hochexekutor Anselm möchte, dass Ihr nach Utgarde geht und Prinz Keleseth tötet."
-Inst70Quest1_HORDE_Location = "High Executor Anselm (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")"
+Inst70Quest1_HORDE_Location = "Hochexekutor Anselm (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")"
 Inst70Quest1_HORDE_Note = "Prinz Keleseth ist bei "..YELLOW.."[1]"..WHITE.."."
 Inst70Quest1_HORDE_Prequest = "Nein"
 Inst70Quest1_HORDE_Folgequest = "Nein"
 --
-Inst70Quest1name1_HORDE = "Wraps of the San'layn"
-Inst70Quest1name2_HORDE = "Vendetta Bindings"
-Inst70Quest1name3_HORDE = "Runecaster's Bracers"
-Inst70Quest1name4_HORDE = "Vambraces of the Vengeance Bringer"
+Inst70Quest1name1_HORDE = "Wickel der San'layn"
+Inst70Quest1name2_HORDE = "Vendettabindungen"
+Inst70Quest1name3_HORDE = "Armschienen des Runenmagiers"
+Inst70Quest1name4_HORDE = "Unterarmschienen des Vergeltungsbringers"
 
 --Quest 2 Horde
 Inst70Quest2_HORDE = "2. Ingvar muss sterben!"
@@ -9928,9 +9928,9 @@ Inst70Quest2_HORDE_Note = "Dunkelläuferin Marrah befindet sich in der Instant, 
 Inst70Quest2_HORDE_Prequest = "Nein"
 Inst70Quest2_HORDE_Folgequest = "Nein"
 --
-Inst70Quest2name1_HORDE = "Executioner's Band"
-Inst70Quest2name2_HORDE = "Ring of Decimation"
-Inst70Quest2name3_HORDE = "Signet of Swift Judgment"
+Inst70Quest2name1_HORDE = Inst70Quest1name1
+Inst70Quest2name2_HORDE = Inst70Quest1name2
+Inst70Quest2name3_HORDE = Inst70Quest1name3
 
 --Quest 3 Horde
 Inst70Quest3_HORDE = "3. Abrüstung"
@@ -9942,10 +9942,10 @@ Inst70Quest3_HORDE_Note = "Die Waffen der Vykul können überall in der Instant 
 Inst70Quest3_HORDE_Prequest = "Nein"
 Inst70Quest3_HORDE_Folgequest = "Nein"
 --
-Inst70Quest3name1_HORDE = "Necklace of Calm Skies"
-Inst70Quest3name2_HORDE = "Hundred Tooth Necklace"
-Inst70Quest3name3_HORDE = "Amulet of Constrained Power"
-Inst70Quest3name4_HORDE = "Tiled-Stone Pendant"
+Inst70Quest3name1_HORDE = "Halskette der ruhigen Himmel"
+Inst70Quest3name2_HORDE = "Hundertzahnhalskette"
+Inst70Quest3name3_HORDE = "Amulett der eingeschränkten Kraft"
+Inst70Quest3name4_HORDE = "Kachelsteinanhänger"
 
 
 
@@ -9966,10 +9966,10 @@ Inst71Quest1_Note = "Die Gegenstände können überall in der Instanz gefunden w
 Inst71Quest1_Prequest = "Nein"
 Inst71Quest1_Folgequest = "Nein"
 --
-Inst71Quest1name1 = "Bauble-Woven Gown"
-Inst71Quest1name2 = "Exotic Leather Tunic"
-Inst71Quest1name3 = "Silver-Plated Battlechest"
-Inst71Quest1name4 = "Gilded Ringmail Hauberk"
+Inst71Quest1name1 = "Robe mit eingewebten Schmuckstücken"
+Inst71Quest1name2 = "Exotische Ledertunika"
+Inst71Quest1name3 = "Versilberte Kampfplatte"
+Inst71Quest1name4 = "Güldene Ringpanzerhalsberge"
 
 --Quest 2 Alliance
 Inst71Quest2 = "2. Die Rache ist mein!"
@@ -9981,11 +9981,11 @@ Inst71Quest2_Note = "König Ymiron ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst71Quest2_Prequest = "Nein"
 Inst71Quest2_Folgequest = "Nein"
 --
-Inst71Quest2name1 = "Cowl of the Vindictive Captain"
-Inst71Quest2name2 = "Headguard of Retaliation"
-Inst71Quest2name3 = "Helmet of Just Retribution"
-Inst71Quest2name4 = "Faceguard of Punishment"
-Inst71Quest2name5 = "Platehelm of Irate Revenge"
+Inst71Quest2name1 = "Gugel des rachgierigen Hauptmanns"
+Inst71Quest2name2 = "Kopfschutz des Gegenschlags"
+Inst71Quest2name3 = "Helm der gerechten Vergeltung"
+Inst71Quest2name4 = "Gesichtsschutz der Strafe"
+Inst71Quest2name5 = "Plattenhelm der zornigen Rache"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10038,10 +10038,10 @@ Inst72Quest1_Note = "Das Forschungsergebnissbuch liegt auf dem Boden in der Hall
 Inst72Quest1_Prequest = "Nein"
 Inst72Quest1_Folgequest = "Nein"
 --
-Inst72Quest1name1 = "Shoulders of the Northern Lights"
-Inst72Quest1name2 = "Cured Mammoth Hide Mantle"
-Inst72Quest1name3 = "Tundra Tracker's Shoulderguards"
-Inst72Quest1name4 = "Tundra Pauldrons"
+Inst72Quest1name1 = "Schultern des Nordlichts"
+Inst72Quest1name2 = "Geschmeidiger Mammutbalgmantel"
+Inst72Quest1name3 = "Schulterschutz des Tundrafährtenlesers"
+Inst72Quest1name4 = "Tundraschulterstücke"
 
 --Quest 2 Alliance
 Inst72Quest2 = "2. Das Unvermeidliche hinauszögern"
@@ -10054,10 +10054,10 @@ Inst72Quest2_Prequest = "Die Zähler ablesen"
 Inst72Quest2_Folgequest = "Nein"
 Inst72Quest2PreQuest = "true"
 --
-Inst72Quest2name1 = "Time-Twisted Wraps"
-Inst72Quest2name2 = "Time-Stop Gloves"
-Inst72Quest2name3 = "Bindings of Sabotage"
-Inst72Quest2name4 = "Gauntlets of the Disturbed Giant"
+Inst72Quest2name1 = "Zeitverzerrte Stulpen"
+Inst72Quest2name2 = "Zeitstoppende Handschuhe"
+Inst72Quest2name3 = "Bindungen der Sabotage"
+Inst72Quest2name4 = "Stuplen des verwirrten Riesen"
 
 --Quest 3 Alliance
 Inst72Quest3 = "3. Kriegsgefangene"
@@ -10070,9 +10070,9 @@ Inst72Quest3_Prequest = "Keristrasza -> Die Falle zuschnappen lassen"
 Inst72Quest3_Folgequest = "Nein"
 Inst72Quest3PreQuest = "true"
 --
-Inst72Quest3name1 = "Cloak of Azure Lights"
-Inst72Quest3name2 = "Mantle of Keristrasza"
-Inst72Quest3name3 = "Shroud of Fluid Strikes"
+Inst72Quest3name1 = "Umhang des Azurlichts"
+Inst72Quest3name2 = "Mantelung von Keristrasza"
+Inst72Quest3name3 = "Tuch der flüssigen Angriffe"
 
 --Quest 4 Alliance
 Inst72Quest4 = "4. Beschleunigen"
@@ -10085,11 +10085,11 @@ Inst72Quest4_Prequest = "Geheimnisse der Urtume"
 Inst72Quest4_Folgequest = "Nein"
 Inst72Quest4PreQuest = "true"
 --
-Inst72Quest4name1 = "Sandals of Mystical Evolution"
-Inst72Quest4name2 = "Treads of Torn Future"
-Inst72Quest4name3 = "Spiked Treads of Mutation"
-Inst72Quest4name4 = "Invigorating Sabatons"
-Inst72Quest4name5 = "Boots of the Unbowed Protector"
+Inst72Quest4name1 = "Sandalen der mystischen Evolution"
+Inst72Quest4name2 = "Treter der zerrissenen Zukunft"
+Inst72Quest4name3 = "Stacheltreter der Mutation"
+Inst72Quest4name4 = "Belebende Sabatons"
+Inst72Quest4name5 = "Stiefel des unbeugsamen Beschützers"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10169,14 +10169,14 @@ Inst73Quest1_Level = "80"
 Inst73Quest1_Attain = "77"
 Inst73Quest1_Aim = "Raelorasz möchte, dass Ihr Euch in das Oculus begebt und Belgaristrasz und seine Gefährten befreit."
 Inst73Quest1_Location = "Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
-Inst73Quest1_Note = "Belgaristrasz is released from his cage after you defeat Drakos the Interrogator at "..YELLOW.."[1]"..WHITE.."."
+Inst73Quest1_Note = "Belgaristrasz wird nach der Niedelgae von Drakos der Befrager erscheinen bei "..YELLOW.."[1]"..WHITE.."."
 Inst73Quest1_Prequest = "Nein"
 Inst73Quest1_Folgequest = "Vereinte Front"
 --
-Inst73Quest1name1 = "Ring of Temerity"
-Inst73Quest1name2 = "Flourishing Band"
-Inst73Quest1name3 = "Band of Motivation"
-Inst73Quest1name4 = "Staunch Signet"
+Inst73Quest1name1 = "Ring der Kühnheit"
+Inst73Quest1name2 = "Blühendes Band"
+Inst73Quest1name3 = "Band der Motivation"
+Inst73Quest1name4 = "Zuverlässiges Siegel"
 
 --Quest 2 Alliance
 Inst73Quest2 = "2. Vereinte Front"
@@ -10184,7 +10184,7 @@ Inst73Quest2_Level = "80"
 Inst73Quest2_Attain = "77"
 Inst73Quest2_Aim = "Belgaristrasz möchte, dass Ihr 10 Zentrifugenkonstrukte zerstört, um Varos' Schild zu beseitigen. Danach müsst Ihr Varos Wolkenwanderer besiegen."
 Inst73Quest2_Location = "Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[1]"..WHITE..")"
-Inst73Quest2_Note = "Belgaristrasz will appear after you defeat Varos Cloudstrider at "..YELLOW.."[2]"..WHITE.."."
+Inst73Quest2_Note = "Belgaristrasz erscheint nach dem Tode von Varos Wolkenwanderer bei "..YELLOW.."[2]"..WHITE.."."
 Inst73Quest2_Prequest = "Der Kampf geht weiter"
 Inst73Quest2_Folgequest = "Magierlord Urom"
 Inst73Quest2FQuest = "true"
@@ -10196,7 +10196,7 @@ Inst73Quest3_Level = "80"
 Inst73Quest3_Attain = "77"
 Inst73Quest3_Aim = "Belgaristrasz möchte, dass Ihr Magierlord Urom im Oculus besiegt."
 Inst73Quest3_Location = "Abbild von Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[2]"..WHITE..")"
-Inst73Quest3_Note = "Belgaristrasz will appear after you defeat Mage-Lord Urom at "..YELLOW.."[3]"..WHITE.."."
+Inst73Quest3_Note = "Belgaristrasz erscheint nach dem Tode von Magierlord Urom bei "..YELLOW.."[3]"..WHITE.."."
 Inst73Quest3_Prequest = "Vereinte Front"
 Inst73Quest3_Folgequest = "Schlacht in den Wolken"
 Inst73Quest3FQuest = "true"
@@ -10213,10 +10213,10 @@ Inst73Quest4_Prequest = "Magierlord Urom"
 Inst73Quest4_Folgequest = "Nein"
 Inst73Quest4FQuest = "true"
 --
-Inst73Quest4name1 = "Cuffs of Gratitude"
-Inst73Quest4name2 = "Soaring Wristwraps"
-Inst73Quest4name3 = "Bindings of Raelorasz"
-Inst73Quest4name4 = "Bracers of Reverence"
+Inst73Quest4name1 = "Fesseln der Dankbarkeit"
+Inst73Quest4name2 = "Erhabene Gelenkbänder"
+Inst73Quest4name3 = "Bindungen des Raelorasz"
+Inst73Quest4name4 = "Armschienen der Ehrerbietung"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10296,10 +10296,10 @@ Inst74Quest1_Prequest = "Der Schlüssel der fokussierenden Iris ("..YELLOW.."Nax
 Inst74Quest1_Folgequest = "Nein"
 Inst74Quest1PreQuest = "true"
 --
-Inst74Quest1name1 = "Chain of the Ancient Wyrm"
-Inst74Quest1name2 = "Torque of the Red Dragonflight"
-Inst74Quest1name3 = "Pendant of the Dragonsworn"
-Inst74Quest1name4 = "Drakescale Collar"
+Inst74Quest1name1 = "Kette des uralten Wyrms"
+Inst74Quest1name2 = "Halsreif des roten Drachenschwarms"
+Inst74Quest1name3 = "Anhänger des Drachenverschworenen"
+Inst74Quest1name4 = "Drachenschuppenkragen"
 
 --Quest 2 Alliance
 Inst74Quest2 = "2. Heroische Entscheidung im Auge der Ewigkeit"
@@ -10312,10 +10312,10 @@ Inst74Quest2_Prequest = "Der heroische Schlüssel der fokussierenden Iris ("..YE
 Inst74Quest2_Folgequest = "Nein"
 Inst74Quest2PreQuest = "true"
 --
-Inst74Quest2name1 = "Wyrmrest Necklace of Power"
-Inst74Quest2name2 = "Life-Binder's Locket"
-Inst74Quest2name3 = "Favor of the Dragon Queen"
-Inst74Quest2name4 = "Nexus War Champion Beads"
+Inst74Quest2name1 = "Wyrmruhhalskette der Macht"
+Inst74Quest2name2 = "Medaillon der Lebensbinderin"
+Inst74Quest2name3 = "Gunst der Drachenkönigin"
+Inst74Quest2name4 = "Perlen des Nexuskriegchampions"
 
 --Quest 3 Alliance
 Inst74Quest3 = "3. Malygos muss sterben! (Wöchentlich)"
@@ -10395,10 +10395,10 @@ Inst75Quest1_Note = "Die Eier der Geiselneruber sind im ersten Raum überall ver
 Inst75Quest1_Prequest = "Nein"
 Inst75Quest1_Folgequest = "Nein"
 --
-Inst75Quest1name1 = "Expelling Gauntlets"
-Inst75Quest1name2 = "Purging Handguards"
-Inst75Quest1name3 = "Wraps of Quelled Bane"
-Inst75Quest1name4 = "Gloves of Banished Infliction"
+Inst75Quest1name1 = "Ausstoßende Stulpen"
+Inst75Quest1name2 = "Reinigende Handschützer"
+Inst75Quest1name3 = "Wickeltücher des bezwungenen Banns"
+Inst75Quest1name4 = "Handschuhe der verbannten Auferlegung"
 
 --Quest 2 Alliance
 Inst75Quest2 = "2. Tot dem verräter König"
@@ -10408,12 +10408,12 @@ Inst75Quest2_Aim = "Kilix der Entwirrer in der Grube von Narjun hat Euch damit b
 Inst75Quest2_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
 Inst75Quest2_Note = "Anub'arak ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst75Quest2_Prequest = "Nein"
-Inst75Quest2_Folgequest = "Die Gesichtslosen ("..YELLOW.."Ahn'kahet"..WHITE..")"
+Inst75Quest2_Folgequest = "Nein"
 --
-Inst75Quest2name1 = "Kilix's Silk Slippers"
-Inst75Quest2name2 = "Don Soto's Boots"
-Inst75Quest2name3 = "Husk Shard Sabatons"
-Inst75Quest2name4 = "Greaves of the Traitor"
+Inst75Quest2name1 = "Kilix' Seidenslipper"
+Inst75Quest2name2 = "Don Sotos Stiefel"
+Inst75Quest2name3 = "Hüllenfragmentsabatons"
+Inst75Quest2name4 = "Schienbeinschützer des Verräters"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10484,14 +10484,14 @@ Inst76Quest3_Attain = "73"
 Inst76Quest3_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr nach Ahn'Kahet geht und Herold Volazj und die drei Vergessenen an seiner Seite tötet."
 Inst76Quest3_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
 Inst76Quest3_Note = "Die Vergessenen und Herald Volazj können gefunden werden bei "..YELLOW.."[4]"..WHITE.."."
-Inst76Quest3_Prequest = "Death to the Traitor King ("..YELLOW.."Azjol-Nerub"..WHITE..")"
+Inst76Quest3_Prequest = "Nein"
 Inst76Quest3_Folgequest = "Nein"
 Inst76Quest3PreQuest = "true"
 --
-Inst76Quest3name1 = "Mantle of Thwarted Evil"
-Inst76Quest3name2 = "Shoulderpads of Abhorrence"
-Inst76Quest3name3 = "Shoulderplates of the Abolished"
-Inst76Quest3name4 = "Epaulets of the Faceless Ones"
+Inst76Quest3name1 = "Mantel des vereitelten Übels"
+Inst76Quest3name2 = "Schulterpolster der Verachtung"
+Inst76Quest3name3 = "Schulterplatten des Abgeschafften"
+Inst76Quest3name4 = "Schulterklappen der Gesichtslosen"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10545,15 +10545,15 @@ Inst77Quest1 = "1. Die Hallen des Steins"
 Inst77Quest1_Level = "78"
 Inst77Quest1_Attain = "76"
 Inst77Quest1_Aim = "Brann Bronzebart möchte, dass Ihr ihn bei der Suche nach den Geheimnissen, die in den Hallen des Steins verborgen liegen, begleitet."
-Inst77Quest1_Location = "Brann Bronzebeard (Ulduar: Die Hallen des Steins; "..YELLOW.."[3]"..WHITE..")"
-Inst77Quest1_Note = "Folgt Brann Bronzebart in den naheliegenden Raum bei "..YELLOW.."[4]"..WHITE.." und beschützt ihn vor die Mobwellen während er an der Steintafel arbeitet. Nach seinem Erfolg , kann der Tribunalkasten rechts neben der Steintafel geöffnet werden.\n\nSprecht ihn erneut an und er rennt aus dem Raum raus zu"..YELLOW.."[5]"..WHITE..". Du mußt ihm nicht folgen, er wartet auf dich dort. Ist Sjonnir der Eisenformer einmal besiegt kann die Quest bei Brann Bronzebart abgegeben werden."
+Inst77Quest1_Location = "Brann Bronzebart (Ulduar: Die Hallen des Steins; "..YELLOW.."[3]"..WHITE..")"
+Inst77Quest1_Note = "Folgt Brann Bronzebart in den naheliegenden Raum bei "..YELLOW.."[4]"..WHITE.." und beschützt ihn vor die Mobwellen während er an der Steintafel arbeitet. Nach seinem Erfolg , kann der Tribunalkasten rechts neben der Steintafel geöffnet werden.\n\nSprecht ihn erneut an und er rennt aus dem Raum raus zu"..YELLOW.."[5]"..WHITE..". Du mußt ihm nicht folgen, er wartet dort auf dich. Ist Sjonnir der Eisenformer besiegt kann Du die Quest bei Brann Bronzebart abgegeben."
 Inst77Quest1_Prequest = "Nein"
 Inst77Quest1_Folgequest = "Nein"
 --
-Inst77Quest1name1 = "Mantle of the Intrepid Explorer"
-Inst77Quest1name2 = "Shoulderpads of the Adventurer"
-Inst77Quest1name3 = "Spaulders of Lost Secrets"
-Inst77Quest1name4 = "Pauldrons of Reconnaissance"
+Inst77Quest1name1 = "Mantel des unerschrockenen Entdeckers"
+Inst77Quest1name2 = "Schulterpolster des Abenteurers"
+Inst77Quest1name3 = "Schiftung der verlorenen Geheimnisse"
+Inst77Quest1name4 = "Schulterstücke der Aufklärung"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10591,10 +10591,10 @@ Inst78Quest1_Prequest = "Sie haben unsere Männer! -> Die Abrechnung"
 Inst78Quest1_Folgequest = "Nein"
 Inst78Quest1PreQuest = "true"
 --
-Inst78Quest1name1 = "Robes of Lightning"
-Inst78Quest1name2 = "Hardened Tongue Tunic"
-Inst78Quest1name3 = "Lightningbringer's Hauberk"
-Inst78Quest1name4 = "Breastplate of Jagged Stone"
+Inst78Quest1name1 = "Robe des Blitzes"
+Inst78Quest1name2 = "Gehärtete Zungentunika"
+Inst78Quest1name3 = "Halsberge des Blitzschlägers"
+Inst78Quest1name4 = "Brustplatte des Zackensteins"
 
 --Quest 2 Alliance
 Inst78Quest2 = "2. Diametral entgegengesetzt"
@@ -10607,11 +10607,11 @@ Inst78Quest2_Prequest = "Sie haben unsere Männer! -> Die Abrechnung"
 Inst78Quest2_Folgequest = "Nein"
 Inst78Quest2PreQuest = "true"
 --
-Inst78Quest2name1 = "Lightning Infused Mantle"
-Inst78Quest2name2 = "Charred Leather Shoulderguards"
-Inst78Quest2name3 = "Stormforged Shoulders"
-Inst78Quest2name4 = "Pauldrons of Extinguished Hatred"
-Inst78Quest2name5 = "Mantle of Volkhan"
+Inst78Quest2name1 = "Blitzerfüllte Mantelung"
+Inst78Quest2name2 = "Verkohlter Lederschulterschutz"
+Inst78Quest2name3 = "Strrmgeschmiedete Schultern"
+Inst78Quest2name4 = "Schulterstücke des erloschenen Hasses"
+Inst78Quest2name5 = "Mantelung von Volkhan"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10703,10 +10703,10 @@ Inst80Quest1_Prequest = "Waffenstillstand? -> Stimmen aus dem Staub"
 Inst80Quest1_Folgequest = "Nein"
 Inst80Quest1PreQuest = "true"
 --
-Inst80Quest1name1 = "Shroud of Temptation"
-Inst80Quest1name2 = "Enticing Sabatons"
-Inst80Quest1name3 = "Shackles of Dark Whispers"
-Inst80Quest1name4 = "Shoulders of the Seducer"
+Inst80Quest1name1 = "Schleier der Verführung"
+Inst80Quest1name2 = "Verführerische Sabatons"
+Inst80Quest1name3 = "Fesseln des dunklen Geflüsters"
+Inst80Quest1name4 = "Schultern des Verführers"
 
 --Quest 2 Alliance
 Inst80Quest2 = "2. Rettungsaktion"
@@ -10719,9 +10719,9 @@ Inst80Quest2_Prequest = "Die angesengten Geisel"
 Inst80Quest2_Folgequest = "Psychospielchen"
 Inst80Quest2PreQuest = "true"
 --
-Inst80Quest2name1 = "Kurzel's Angst"
-Inst80Quest2name2 = "Kurzel's Rage"
-Inst80Quest2name3 = "Kurzel's Warband"
+Inst80Quest2name1 = "Kurzels Angst"
+Inst80Quest2name2 = "Kurzels Zorn"
+Inst80Quest2name3 = "Kurzels Kriegsband"
 
 --Quest 3 Alliance
 Inst80Quest3 = "3. Psychospielchen"
@@ -10734,10 +10734,10 @@ Inst80Quest3_Prequest = "Rettungsaktion"
 Inst80Quest3_Folgequest = "Nein"
 Inst80Quest3FQuest = "true"
 --
-Inst80Quest3name1 = "Shameful Cuffs"
-Inst80Quest3name2 = "Scorned Bands"
-Inst80Quest3name3 = "Accused Wristguards"
-Inst80Quest3name4 = "Disavowed Bracers"
+Inst80Quest3name1 = "Beschämende Fesseln"
+Inst80Quest3name2 = "Verachtende Bänder"
+Inst80Quest3name3 = "Beschuldigte Handgelenksschützer"
+Inst80Quest3name4 = "Abgeleugnete Armschienen"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10806,10 +10806,10 @@ Inst81Quest1_Prequest = "Nur ma' nachsehen"
 Inst81Quest1_Folgequest = "Nein"
 Inst81Quest1PreQuest = "true"
 --
-Inst81Quest1name1 = "Lion's Head Ring"
-Inst81Quest1name2 = "Ring of Foul Mojo"
-Inst81Quest1name3 = "Solid Platinum Band"
-Inst81Quest1name4 = "Voodoo Signet"
+Inst81Quest1name1 = "Ring des Löwenkopfes"
+Inst81Quest1name2 = "Ring des faulen Mojos"
+Inst81Quest1name3 = "Solides Platinband"
+Inst81Quest1name4 = "Voodoosiegel"
 
 --Quest 2 Alliance
 Inst81Quest2 = "2. Gal'darah muss bezahlen"
@@ -10822,10 +10822,10 @@ Inst81Quest2_Prequest = "Noch ein Hühnchen rupfen"
 Inst81Quest2_Folgequest = "Nein"
 Inst81Quest2PreQuest = "true"
 --
-Inst81Quest2name1 = "Sly Mojo Sash"
-Inst81Quest2name2 = "Strange Voodoo Belt"
-Inst81Quest2name3 = "Ranger's Belt of the Fallen Empire"
-Inst81Quest2name4 = "Clasp of the Fallen Demi-God"
+Inst81Quest2name1 = "Listige Mojoscherpe"
+Inst81Quest2name2 = "Seltsamer Voodoogürtel"
+Inst81Quest2name3 = "Waldläufergürtel des gefallenen Imperiums"
+Inst81Quest2name4 = "Schnalle des gefallenen Halbgotts"
 
 --Quest 3 Alliance
 Inst81Quest3 = "3. Einzelstück"
@@ -10837,11 +10837,11 @@ Inst81Quest3_Note = "Fragment des Kolosses der Drakkari droppt von den Drakkari 
 Inst81Quest3_Prequest = "Nein"
 Inst81Quest3_Folgequest = "Nein"
 --
-Inst81Quest3name1 = "Fur-lined Moccasins"
-Inst81Quest3name2 = "Rhino Hide Kneeboots"
-Inst81Quest3name3 = "Scaled Boots of Fallen Hope"
-Inst81Quest3name4 = "Slippers of the Mojo Dojo"
-Inst81Quest3name5 = "Trollkickers"
+Inst81Quest3name1 = "Pelzbesetzte Moccasins"
+Inst81Quest3name2 = "Rhinozerosbalgkniestiefel"
+Inst81Quest3name3 = "Schuppenstiefel der gefallenen Hoffnung"
+Inst81Quest3name4 = "Slipper des Mojodojos"
+Inst81Quest3name5 = "Trollkicker"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10927,10 +10927,10 @@ Inst82Quest2_Prequest = "Diskretion ist der Schlüssel"
 Inst82Quest2_Folgequest = "Nein"
 Inst82Quest2FQuest = "true"
 --
-Inst82Quest2name1 = "Tattooed Deerskin Leggings"
-Inst82Quest2name2 = "Conferred Pantaloons"
-Inst82Quest2name3 = "Labyrinthine Legguards"
-Inst82Quest2name4 = "Dalaran Warden's Legplates"
+Inst82Quest2name1 = "Tätowierte Wildhautgamaschen"
+Inst82Quest2name2 = "Verliehene Pantalons"
+Inst82Quest2name3 = "Labyrinthische Beinschützer"
+Inst82Quest2name4 = "Beinplatten des Wächters von Dalaran"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11225,8 +11225,8 @@ Inst86Quest7_Prequest = "Die vier Siegel Questen"
 Inst86Quest7_Folgequest = "Nein"
 Inst86Quest7PreQuest = "true"
 --
-Inst86Quest7name1 = "Celestial Planetarium Key"
-Inst86Quest7name2 = "Sack of Ulduar Spoils"
+Inst86Quest7name1 = "Schlüssel des Himmlischen Planetariums"
+Inst86Quest7name2 = "Sack mit Schätzen von Ulduar"
 
 --Quest 8 Alliance
 Inst86Quest8 = "8. Ende gut, alles gut"
@@ -11238,10 +11238,10 @@ Inst86Quest8_Note = "Nur einer aus dem Raid kann den Antwortcode nehmen. Rhonin 
 Inst86Quest8_Prequest = "Nein"
 Inst86Quest8_Folgequest = "Nein"
 --
-Inst86Quest8name1 = "Drape of the Skyherald"
-Inst86Quest8name2 = "Sunglimmer Drape"
-Inst86Quest8name3 = "Brann's Sealing Ring"
-Inst86Quest8name4 = "Starshine Signet"
+Inst86Quest8name1 = "Tuch des Himmelsherolds"
+Inst86Quest8name2 = "Sonnenglimmertuch"
+Inst86Quest8name3 = "Branns Siegelring"
+Inst86Quest8name4 = "Sternenlichtsiegel"
 
 --Quest 9 Alliance
 Inst86Quest9 = "9. Heroisch: Datenscheibe des Archivums"
@@ -11325,8 +11325,8 @@ Inst86Quest15_Prequest = "Die vier Siegel Questen"
 Inst86Quest15_Folgequest = "Nein"
 Inst86Quest15PreQuest = "true"
 --
-Inst86Quest15name1 = "Heroic Celestial Planetarium Key"
-Inst86Quest15name2 = "Sack of Ulduar Spoils"
+Inst86Quest15name1 = "Heroischer Schlüssel des Himmlischen Planetariums"
+Inst86Quest15name2 = "Großer Sack mit Schätzen von Ulduar"
 
 --Quest 16 Alliance
 Inst86Quest16 = "16. Heroisch: Ende gut, alles gut"
@@ -11338,10 +11338,10 @@ Inst86Quest16_Note = "Nur einer aus dem Raid kann den Antwortcode nehmen. Rhonin
 Inst86Quest16_Prequest = "Nein"
 Inst86Quest16_Folgequest = "Nein"
 --
-Inst86Quest16name1 = "Drape of the Skyborn"
-Inst86Quest16name2 = "Sunglimmer Cloak"
-Inst86Quest16name3 = "Brann's Signet Ring"
-Inst86Quest16name4 = "Starshine Circle"
+Inst86Quest16name1 = "Tuch des Himmelsgeborenen"
+Inst86Quest16name2 = "Sonnenglimmerumhang"
+Inst86Quest16name3 = "Branns Siegelring"
+Inst86Quest16name4 = "Sternenlichtkreis"
 
 --Quest 17 Alliance
 Inst86Quest17 = "17. Der Flammenleviathan muss sterben! (Wöchentlich)"
@@ -12428,7 +12428,7 @@ Inst35Quest1_HORDE = "1. Ruf zu den Waffen: Kriegshymnenschlucht (Tagesquest)"
 Inst35Quest1_HORDE_Level = "10"
 Inst35Quest1_HORDE_Attain = "10"
 Inst35Quest1_HORDE_Aim = "Gewinnt eine Schlacht in der Kriegshymnenschlucht und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst35Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
+Inst35Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0,38.3"
 Inst35Quest1_HORDE_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 10 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
 Inst35Quest1_HORDE_Prequest = "Nein"
 Inst35Quest1_HORDE_Folgequest = "Nein"
@@ -12479,7 +12479,7 @@ Inst83Quest1 = "1. Ruf zu den Waffen: Strand der Uralten (Tagesquest)"
 Inst83Quest1_Level = "71"
 Inst83Quest1_Attain = "71"
 Inst83Quest1_Aim = "Gewinnt eine Schlacht auf dem Strand der Uralten und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte, in Tausendwinter, Dalaran oder Shattrath."
-Inst83Quest1_Location = "Brigadegeneral der Allianz:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4"
+Inst83Quest1_Location = "Brigadegeneral der Allianz:\n   Tausendwinter: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4"
 Inst83Quest1_Note = "Diese Quest kann man nur einmal am Tag machen und nur wenn man Level 71 erreicht hat. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level."
 Inst83Quest1_Prequest = "Nein"
 Inst83Quest1_Folgequest = "Nein"
@@ -12490,7 +12490,7 @@ Inst83Quest1_HORDE = "1. Ruf zu den Waffen: Strand der Uralten (Tagesquest)"
 Inst83Quest1_HORDE_Level = "71"
 Inst83Quest1_HORDE_Attain = "71"
 Inst83Quest1_HORDE_Aim = "Gewinnt eine Schlacht auf dem Strand der Uralten und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte, in Tausendwinter, Dalaran oder Shattrath."
-Inst83Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Farstriders Square - "..YELLOW.."97.0, 38.3"
+Inst83Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Tausendwinter: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0, 38.3"
 Inst83Quest1_HORDE_Note = "Diese Quest kann man nur einmal am Tag machen und nur wenn man Level 71 erreicht hat. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level."
 Inst83Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -12509,8 +12509,8 @@ Inst89Quest1 = "1. Zu den Waffen: Insel der Eroberung (Tagesquest)"
 Inst89Quest1_Level = "80" 
 Inst89Quest1_Attain = "80"
 Inst89Quest1_Aim = "Erringt den Sieg bei einer Partie auf dem Schlachtfeld Insel der Eroberung und kehrt zu einem Brigadegeneral der Allianz in irgendeiner Hauptstadt, Dalaran oder Shattrath zurück." 
-Inst89Quest1_Location = "Brigadegeneral der Allianz:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4" 
-Inst89Quest1_Note = "This quest can be done once a day when it is available. It yields varying amounts of experience and gold based on your level." 
+Inst89Quest1_Location = "Brigadegeneral der Allianz:\n   Tausendwintersee: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Dalaran: Die Silberne Enklave - "..YELLOW.."30.0, 76.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4" 
+Inst89Quest1_Note = "Diese Quest kann man nur einmal am Tag machen wenn sie verfügbar ist. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level." 
 Inst89Quest1_Prequest = "Nein" 
 Inst89Quest1_Folgequest = "Nein" 
 -- No Rewards for this quest   
@@ -12519,8 +12519,8 @@ Inst89Quest1_Folgequest = "Nein"
 Inst89Quest1_HORDE_Level = "80" 
 Inst89Quest1_HORDE_Attain = "80" 
 Inst89Quest1_HORDE_Aim = "Erringt den Sieg bei einer Partie auf dem Schlachtfeld Insel der Eroberung und kehrt zu einem Kriegshetzer der Horde in irgendeiner Hauptstadt, Dalaran oder Shattrath zurück."
-Inst89Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Farstriders Square - "..YELLOW.."97.0, 38.3" 
-Inst89Quest1_HORDE_Note = "This quest can be done once a day when it is available. It yields varying amounts of experience and gold based on your level." 
+Inst89Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Tausendwintersee: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0, 38.3" 
+Inst89Quest1_HORDE_Note = "Diese Quest kann man nur einmal am Tag machen wenn sie verfügbar ist. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level." 
 Inst89Quest1_HORDE_Prequest = "Nein" 
 Inst89Quest1_HORDE_Folgequest = "Nein" 
 -- No Rewards for this quest 
