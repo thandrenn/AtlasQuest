@@ -4,7 +4,13 @@ Changelog
 
 Version 4.4.2 BETA
 
--
+- Ruby Sanctum support added.
+- Localizations updated: ruRU, deDE.
+
+- Quests added:
+	- Ruby Sanctum: Trouble at Wyrmrest
+	- Ruby Sanctum: Assault on the Sanctum
+	- Ruby Sanctum: The Twilight Destroyer
 
 
 

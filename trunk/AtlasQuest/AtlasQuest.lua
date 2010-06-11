@@ -65,7 +65,7 @@ AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function
 --AQAtlasAuto (option to show the AQpanel automatically at atlas-startup, 1=yes 2=no)
 
 -- Sets the max number of instances and quests to check for. 
-local AQMAXINSTANCES = "93"
+local AQMAXINSTANCES = "94"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel
@@ -78,7 +78,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.4.1",
+  ["Version"] =  "4.4.2 BETA",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
