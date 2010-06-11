@@ -7713,6 +7713,38 @@ Inst93Quest15Rewardtext_HORDE = AQNoReward
 
 
 
+--------------- INST94 - Ruby Sanctum (RS)  ---------------
+
+--Quest 1 Alliance
+Inst94Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst94Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst94Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1(x5)"
+--ITEM1
+Inst94Quest3ITC1 = Itemc5;
+Inst94Quest3description1 = AQITEM_EMBLEM
+Inst94Quest3ID1 = "49426"
+
+
+--Quest 1 Horde
+Inst94Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst94Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst94Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x5)"
+--ITEM1
+Inst94Quest3ITC1_HORDE = Itemc5;
+Inst94Quest3description1_HORDE = AQITEM_EMBLEM
+Inst94Quest3ID1_HORDE = "49426"
+
+
+
+
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
 ---------------------------------------------------

@@ -11873,6 +11873,7 @@ Inst92Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
+
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
 Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
@@ -12246,6 +12247,88 @@ Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
 Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
 Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
 -- No Rewards for this quest
+
+
+
+--------------- INST94 - Ruby Sanctum (RS)  ---------------
+
+Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their master’s reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord – the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
+Inst94Caption = "Ruby Sanctum"
+Inst94QAA = "3 Quests"
+Inst94QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst94Quest1 = "1. Trouble at Wyrmrest"
+Inst94Quest1_Level = "80"
+Inst94Quest1_Attain = "80"
+Inst94Quest1_Aim = "Speak with Krasus at Wyrmrest Temple in Dragonblight."
+Inst94Quest1_Location = "MISSING INFO"
+Inst94Quest1_Note = "Krasus is at (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..")."
+Inst94Quest1_Prequest = "None"
+Inst94Quest1_Folgequest = "Assault on the Sanctum"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst94Quest2 = "2. Assault on the Sanctum"
+Inst94Quest2_Level = "80"
+Inst94Quest2_Attain = "80"
+Inst94Quest2_Aim = "Investigate the Ruby Sanctum beneath Wyrmrest Temple."
+Inst94Quest2_Location = "MISSING INFO"
+Inst94Quest2_Note = "MISSING INFO"
+Inst94Quest2_Prequest = "Trouble at Wyrmrest"
+Inst94Quest2_Folgequest = "The Twilight Destroyer"
+Inst94Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst94Quest3 = "3. The Twilight Destroyer"
+Inst94Quest3_Level = "80"
+Inst94Quest3_Attain = "80"
+Inst94Quest3_Aim = "Defeat Halion and repel the invasion of the Ruby Sanctum."
+Inst94Quest3_Location = "MISSING INFO"
+Inst94Quest3_Note = "MISSING INFO"
+Inst94Quest3_Prequest = "Trouble at Wyrmrest"
+Inst94Quest3_Folgequest = "None"
+Inst94Quest3FQuest = "true"
+--
+Inst94Quest3name1 = "Emblem of Frost"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst94Quest1_HORDE = Inst94Quest1
+Inst94Quest1_HORDE_Level = Inst94Quest1_Level
+Inst94Quest1_HORDE_Attain = Inst94Quest1_Attain
+Inst94Quest1_HORDE_Aim = Inst94Quest1_Aim
+Inst94Quest1_HORDE_Location = Inst94Quest1_Location
+Inst94Quest1_HORDE_Note = Inst94Quest1_Note
+Inst94Quest1_HORDE_Prequest = Inst94Quest1_Prequest
+Inst94Quest1_HORDE_Folgequest = Inst94Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst94Quest2_HORDE = Inst94Quest2
+Inst94Quest2_HORDE_Level = Inst94Quest2_Level
+Inst94Quest2_HORDE_Attain = Inst94Quest2_Attain
+Inst94Quest2_HORDE_Aim = Inst94Quest2_Aim
+Inst94Quest2_HORDE_Location = Inst94Quest2_Location
+Inst94Quest2_HORDE_Note = Inst94Quest2_Note
+Inst94Quest2_HORDE_Prequest = Inst94Quest2_Prequest
+Inst94Quest2_HORDE_Folgequest = Inst94Quest2_Folgequest
+Inst94Quest2FQuest_HORDE = Inst94Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst94Quest3_HORDE = Inst94Quest3
+Inst94Quest3_HORDE_Level = Inst94Quest3_Level
+Inst94Quest3_HORDE_Attain = Inst94Quest3_Attain
+Inst94Quest3_HORDE_Aim = Inst94Quest3_Aim
+Inst94Quest3_HORDE_Location = Inst94Quest3_Location
+Inst94Quest3_HORDE_Note = Inst94Quest3_Note
+Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
+Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
+Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
+--
+Inst94Quest3name1_HORDE = Inst94Quest3name1
 
 
 
@@ -13447,3 +13530,5 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 91 = Pit of Saron (PoS)
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC)
+-- 94 = Ruby Sanctum (RS)
+

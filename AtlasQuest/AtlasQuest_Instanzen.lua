@@ -275,6 +275,9 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownEnd") then
 		AQINSTANZ = 93;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\RubySanctum") then
+		AQINSTANZ = 94;
+
 
 
 	-- Battlegrounds
@@ -583,6 +586,9 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\IcecrownCitadel") then
 		AQINSTANZ = 93;
 
+	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\RubySanctum") then
+		AQINSTANZ = 94;
+
 
 	-- Battlegrounds
 
@@ -741,4 +747,6 @@ end
 -- 91 = Pit of Saron (PoS)
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC)
+-- 94 = Ruby Sanctum (RS)
+
 

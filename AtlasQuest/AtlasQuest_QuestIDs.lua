@@ -2087,6 +2087,22 @@ AQ_24877_Level = "80"
 
 
 
+--------------- INST94 - Ruby Sanctum (RS)  ---------------
+
+Inst94Quest1_QuestID = "26012"
+Inst94Quest2_QuestID = "26013"
+Inst94Quest3_QuestID = "26034"
+
+Inst94Quest1_HORDE_QuestID = "26012"
+Inst94Quest2_HORDE_QuestID = "26013"
+Inst94Quest3_HORDE_QuestID = "26034"
+
+AQ_26012_Level = "80"
+AQ_26013_Level = "80"
+AQ_26034_Level = "80"
+
+
+
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
