@@ -26,9 +26,9 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2010-02-11
-	最後更新﹕二○一○年二月十一日
-	新增　巫妖王之怒 - 冰冠城塞　故事＆任務
+	Last Updated: 2010-06-12
+	最後更新﹕二○一○年六月十二日
+	新增　巫妖王之怒 - 晶紅聖所　故事＆任務
 
 --]]
 
@@ -10784,7 +10784,7 @@ Inst75Quest2_Aim = "那金之淵裡的『排除者』齊力克斯交付給你一
 Inst75Quest2_Location = "『排除者』齊力克斯（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）"
 Inst75Quest2_Note = "阿努巴拉克在"..YELLOW.."[3]"..WHITE.."。"
 Inst75Quest2_Prequest = "無"
-Inst75Quest2_Folgequest = "忘卻者（"..YELLOW.."安卡罕特：古王國"..WHITE.."）"
+Inst75Quest2_Folgequest = "無"
 --
 Inst75Quest2name1 = "齊力克斯的絲質軟靴"
 Inst75Quest2name2 = "索托大爺的長靴"
@@ -10891,7 +10891,7 @@ Inst76Quest3_Attain = "73"
 Inst76Quest3_Aim = "那金之淵裡的『排除者』齊力克斯要求你，在安卡罕特殺掉信使沃菈齊及其身邊的3個忘卻者。"
 Inst76Quest3_Location = "『排除者』齊力克斯（龍骨荒野 - 阿茲歐-奈幽; "..YELLOW.."26.1, 50.0"..WHITE.."）"
 Inst76Quest3_Note = "忘卻者和信使沃菈齊可以在"..YELLOW.."[5]"..WHITE.."找到。"
-Inst76Quest3_Prequest = "狙殺逆王（"..YELLOW.."阿茲歐-奈幽"..WHITE.."）"
+Inst76Quest3_Prequest = "無"
 Inst76Quest3_Folgequest = "無"
 Inst76Quest3PreQuest = "true"
 --
@@ -12897,6 +12897,88 @@ Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
 
 
 
+--------------- INST94 - Ruby Sanctum (RS)  ---------------
+
+Inst94Story = "一支由強大的暮光巨龍哈利恩率領的黑龍軍團麾下部族向龍眠神殿下的晶紅聖所發起了攻擊。黑龍軍團想要通過摧毀聖殿來為主人奈薩里奧回歸艾澤拉斯大陸掃清道路，並最終毀滅各色巨龍的神聖契約——龍眠聯軍。\n\n這場襲擊目的將是重創紅龍軍團，然而你將需要阻止這場突襲並保衛晶紅聖所。首先你將需要面對哈利恩的僕從，薩維亞納．怒火，為戰鬥而生的巴爾薩魯斯和札里瑟里恩將軍，然後方能挑戰暮光毀滅者哈利恩。"
+Inst94Caption = "晶紅聖所"
+Inst94QAA = "3 個任務"
+Inst94QAH = "3 個任務"
+
+--Quest 1 Alliance
+Inst94Quest1 = "1. 龍眠神殿告急"
+Inst94Quest1_Level = "80"
+Inst94Quest1_Attain = "80"
+Inst94Quest1_Aim = "和卡薩斯交談，他在龍骨荒野的龍眠神殿中。"
+Inst94Quest1_Location = "目前無資訊"
+Inst94Quest1_Note = "卡薩斯（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）"
+Inst94Quest1_Prequest = "無"
+Inst94Quest1_Folgequest = "晶紅聖所的恐怖襲擊"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst94Quest2 = "2. 晶紅聖所的恐怖襲擊"
+Inst94Quest2_Level = "80"
+Inst94Quest2_Attain = "80"
+Inst94Quest2_Aim = "調查龍眠神殿下的晶紅聖所。"
+Inst94Quest2_Location = "目前無資訊"
+Inst94Quest2_Note = "目前無資訊"
+Inst94Quest2_Prequest = "龍眠神殿告急"
+Inst94Quest2_Folgequest = "暮光之災"
+Inst94Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst94Quest3 = "3. 暮光之災"
+Inst94Quest3_Level = "80"
+Inst94Quest3_Attain = "80"
+Inst94Quest3_Aim = "殺死哈裏昂，並擊退進攻晶紅聖所的黑龍軍團。"
+Inst94Quest3_Location = "目前無資訊"
+Inst94Quest3_Note = "目前無資訊"
+Inst94Quest3_Prequest = "龍眠神殿告急"
+Inst94Quest3_Folgequest = "無"
+Inst94Quest3FQuest = "true"
+--
+Inst94Quest3name1 = "冰霜紋章"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst94Quest1_HORDE = Inst94Quest1
+Inst94Quest1_HORDE_Level = Inst94Quest1_Level
+Inst94Quest1_HORDE_Attain = Inst94Quest1_Attain
+Inst94Quest1_HORDE_Aim = Inst94Quest1_Aim
+Inst94Quest1_HORDE_Location = Inst94Quest1_Location
+Inst94Quest1_HORDE_Note = Inst94Quest1_Note
+Inst94Quest1_HORDE_Prequest = Inst94Quest1_Prequest
+Inst94Quest1_HORDE_Folgequest = Inst94Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst94Quest2_HORDE = Inst94Quest2
+Inst94Quest2_HORDE_Level = Inst94Quest2_Level
+Inst94Quest2_HORDE_Attain = Inst94Quest2_Attain
+Inst94Quest2_HORDE_Aim = Inst94Quest2_Aim
+Inst94Quest2_HORDE_Location = Inst94Quest2_Location
+Inst94Quest2_HORDE_Note = Inst94Quest2_Note
+Inst94Quest2_HORDE_Prequest = Inst94Quest2_Prequest
+Inst94Quest2_HORDE_Folgequest = Inst94Quest2_Folgequest
+Inst94Quest2FQuest_HORDE = Inst94Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst94Quest3_HORDE = Inst94Quest3
+Inst94Quest3_HORDE_Level = Inst94Quest3_Level
+Inst94Quest3_HORDE_Attain = Inst94Quest3_Attain
+Inst94Quest3_HORDE_Aim = Inst94Quest3_Aim
+Inst94Quest3_HORDE_Location = Inst94Quest3_Location
+Inst94Quest3_HORDE_Note = Inst94Quest3_Note
+Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
+Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
+Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
+--
+Inst94Quest3name1_HORDE = Inst94Quest3name1
+
+
+
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
@@ -14095,4 +14177,5 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 91 = Pit of Saron (PoS)
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC)
+-- 94 = Ruby Sanctum (RS)
 end
