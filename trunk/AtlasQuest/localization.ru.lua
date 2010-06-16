@@ -10231,8 +10231,8 @@ Inst74Quest3_Note = "Малигоса находится "..YELLOW.." [1]"..WHIT
 Inst74Quest3_Prequest = "Нет"
 Inst74Quest3_Folgequest = "Нет"
 --
-Inst74Quest3name1 = "Emblem of Frost"
-Inst74Quest3name2 = "Emblem of Triumph"
+Inst74Quest3name1 = "Эмблема льда"
+Inst74Quest3name2 = "Эмблема триумфа"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10578,8 +10578,8 @@ Inst79Quest1_Note = "Сартарион находится "..YELLOW.."[4]"..WHI
 Inst79Quest1_Prequest = "Нет"
 Inst79Quest1_Folgequest = "Нет"
 --
-Inst79Quest1name1 = "Emblem of Frost"
-Inst79Quest1name2 = "Emblem of Triumph"
+Inst79Quest1name1 = "Эмблема льда"
+Inst79Quest1name2 = "Эмблема триумфа"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10918,8 +10918,8 @@ Inst84Quest3_Note = "Ануб'Рекан находится "..YELLOW.."Пауч
 Inst84Quest3_Prequest = "Нет"
 Inst84Quest3_Folgequest = "Нет"
 --
-Inst84Quest3name1 = "Emblem of Frost"
-Inst84Quest3name2 = "Emblem of Triumph"
+Inst84Quest3name1 = "Эмблема льда"
+Inst84Quest3name2 = "Эмблема триумфа"
 
 --Quest 4 Alliance
 Inst84Quest4 = "4. Инструктор Разувий должен умереть! (Еженедельный)"
@@ -10931,8 +10931,8 @@ Inst84Quest4_Note = "Инструктор Разувий находится "..Y
 Inst84Quest4_Prequest = "Нет"
 Inst84Quest4_Folgequest = "Нет"
 --
-Inst84Quest4name1 = "Emblem of Frost"
-Inst84Quest4name2 = "Emblem of Triumph"
+Inst84Quest4name1 = "Эмблема льда"
+Inst84Quest4name2 = "Эмблема триумфа"
 
 --Quest 5 Alliance
 Inst84Quest5 = "5. Нот Чумной должен умереть! (Еженедельный)"
@@ -10944,8 +10944,8 @@ Inst84Quest5_Note = "Нот Чумной находится "..YELLOW.."Чумн
 Inst84Quest5_Prequest = "Нет"
 Inst84Quest5_Folgequest = "Нет"
 --
-Inst84Quest5name1 = "Emblem of Frost"
-Inst84Quest5name2 = "Emblem of Triumph"
+Inst84Quest5name1 = "Эмблема льда"
+Inst84Quest5name2 = "Эмблема триумфа"
 
 --Quest 6 Alliance
 Inst84Quest6 = "6. Лоскутик должен умереть! (Еженедельный)"
@@ -10957,8 +10957,8 @@ Inst84Quest6_Note = "Лоскутик находится "..YELLOW.."Кварт�
 Inst84Quest6_Prequest = "Нет"
 Inst84Quest6_Folgequest = "Нет"
 --
-Inst84Quest6name1 = "Emblem of Frost"
-Inst84Quest6name2 = "Emblem of Triumph"
+Inst84Quest6name1 = "Эмблема льда"
+Inst84Quest6name2 = "Эмблема триумфа"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11265,8 +11265,8 @@ Inst86Quest17_Note = "Огненный Левиафан находится "..YE
 Inst86Quest17_Prequest = "Нет"
 Inst86Quest17_Folgequest = "Нет"
 --
-Inst86Quest17name1 = "Emblem of Frost"
-Inst86Quest17name2 = "Emblem of Triumph"
+Inst86Quest17name1 = "Эмблема льда"
+Inst86Quest17name2 = "Эмблема триумфа"
 
 --Quest 18 Alliance
 Inst86Quest18 = "18. Повелитель Горнов Игнис должен умереть! (Еженедельный)"
@@ -11278,8 +11278,8 @@ Inst86Quest18_Note = "Повелитель Горнов Игнис находи�
 Inst86Quest18_Prequest = "Нет"
 Inst86Quest18_Folgequest = "Нет"
 --
-Inst86Quest18name1 = "Emblem of Frost"
-Inst86Quest18name2 = "Emblem of Triumph"
+Inst86Quest18name1 = "Эмблема льда"
+Inst86Quest18name2 = "Эмблема триумфа"
 
 --Quest 19 Alliance
 Inst86Quest19 = "19. Острокрылая должен умереть! (Еженедельный)"
@@ -11291,8 +11291,8 @@ Inst86Quest19_Note = "Острокрылая находится "..YELLOW.."Ос
 Inst86Quest19_Prequest = "Нет"
 Inst86Quest19_Folgequest = "Нет"
 --
-Inst86Quest19name1 = "Emblem of Frost"
-Inst86Quest19name2 = "Emblem of Triumph"
+Inst86Quest19name1 = "Эмблема льда"
+Inst86Quest19name2 = "Эмблема триумфа"
 
 --Quest 20 Alliance
 Inst86Quest20 = "20. Разрушитель XT-002 должен умереть! (Еженедельный)"
@@ -11304,8 +11304,8 @@ Inst86Quest20_Note = "Разрушитель XT-002 находится "..YELLOW
 Inst86Quest20_Prequest = "Нет"
 Inst86Quest20_Folgequest = "Нет"
 --
-Inst86Quest20name1 = "Emblem of Frost"
-Inst86Quest20name2 = "Emblem of Triumph"
+Inst86Quest20name1 = "Эмблема льда"
+Inst86Quest20name2 = "Эмблема триумфа"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11588,8 +11588,8 @@ Inst88Quest1_Note = "Лорд Джараксус - второй босс ИК.\n
 Inst88Quest1_Prequest = "Нет"
 Inst88Quest1_Folgequest = "Нет"
 --
-Inst88Quest1name1 = "Emblem of Frost"
-Inst88Quest1name2 = "Emblem of Triumph"
+Inst88Quest1name1 = "Эмблема льда"
+Inst88Quest1name2 = "Эмблема триумфа"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11609,7 +11609,7 @@ Inst88Quest1name2_HORDE = Inst88Quest1name2
 
 --------------- INST90 - Forge of Souls (FoS)  ---------------
 
-Inst90Story = "Serving as the first wing in this expansive dungeon, the Forge of Souls will quickly put players to the test of carving through the Scourge stronghold into deeper, more treacherous locations. Jaina will command Alliance forces, and Sylvanas will direct Horde forces. The goal is to ruin the twisted engines known as soul grinders found in this portion of the citadel, and then players can advance -- that is, if the Horde and Alliance forces can overcome the foes who confront them."
+Inst90Story = "Кузня Душ, самое первое крыло этого обширного подземелья, станет для игроков испытанием на отвагу. Смогут ли они вместе с предводительницей войск Альянса Джайной и командиром сил Орды Сильваной проникнуть в самые опасные места крепости Плети? Их задача – уничтожить чудовищные механизмы, известные как разрушители душ. Если герои не смогут найти способ одолеть могущественных противников, стоящих у них на пути, им не пройти в следующее крыло цитадели."
 Inst90Caption = "Кузня душ"
 Inst90QAA = "3 задания"
 Inst90QAH = "3 задания"
@@ -11691,7 +11691,7 @@ Inst90Quest3PreQuest_HORDE = "true"
 
 --------------- INST91 - Pit of Saron (PoS)  ---------------
 
-Inst91Story = "Accessible only to those who have laid waste to the Forge of Souls' unholy operations, the Pit of Saron will bring Horde and Alliance forces deeper into the Lich King's domain. Players who venture here will immediately be confronted by the lord of this lair, Scourgelord Tyrannus. But defeating him will not be as easy as it seems. Before they can present a threat to Tyrannus, the adventurers, instructed by their leaders, will need to free enslaved allies who have been trapped by the Scourge. Until that happens, Tyrannus will leave all adversaries to his minions, workers of the citadel's mines. Perhaps the challenges here will lend clues as to the whereabouts of the Lich King's private chambers outside of the Frozen Throne, deep within the Halls of Reflection."
+Inst91Story = "Только те герои, что смогли прервать нечестивую работу механизмов в Кузне Душ, смогут проникнуть дальше во владения Короля-лича – в Яму Сарона. Оказавшиеся здесь игроки немедленно столкнутся с хозяином этого логова, Повелителем Плети Тиранием. Но победить его будет не так-то просто. Прежде чем бросить вызов властелину, искатели приключений получат указание от командиров освободить пленных союзников, которых Плеть удерживает в этом подземелье. До тех пор Тираний не будет обращать на захватчиков внимания, предоставив сражаться своим слугам – работникам шахт. Но возможно, это сражение подскажет героям, где находятся личные покои Короля-лича: вдалеке от Ледяного Трона, в глубине Залов Отражений."
 Inst91Caption = "Яма Сарона"
 Inst91QAA = "4 задания"
 Inst91QAH = "4 задания"
@@ -11799,7 +11799,7 @@ Inst91Quest4PreQuest_HORDE = "true"
 
 --------------- INST92 - Halls of Reflection (HoR)  ---------------
 
-Inst92Story = "With Jaina and Sylvanas leading the way, adventurers who make it as far as these frigid halls will quickly recognize the weapon that lies ahead: Frostmourne, the corruptive, legendary device of the Lich King himself. The Lich King's private chambers are within reach, although they may be the death of anyone who ventures there."
+Inst92Story = "Возглавляемые Джайной и Сильваной, отважные герои окажутся в ледяных залах, где обнаружат Ледяную Скорбь – легендарное оружие и воплощение скверны, которую несет сам Король-лич. Это значит, что личные палаты Артаса где-то недалеко. Что же ожидает отважных героев – слава или смерть?"
 Inst92Caption = "Залы отражений"
 Inst92QAA = "3 задания"
 Inst92QAH = "3 задания"
@@ -11880,9 +11880,10 @@ Inst92Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
+
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
-Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
+Inst93Story = "Пробившись в цитадель, герои столкнутся с армией нежити, готовой дать отпор незваным гостям. Командует силами обороны костяное чудовище, лорд Ребрад. Следующим противником выступает верховная надзирательница Культа Проклятых, леди Смертный Шепот. Она укрепляет веру своих последователей обещаниями вечной жизни после смерти.\n\nВзаимная ненависть продолжающих свое восхождение героев Орды и Альянса достигнет апогея во время битвы за Черепной вал. Игрокам предстоит взойти на борт управляемого Саурфангом «Молота Оргрима» или присоединиться к команде «Усмирителя небес» под командованием Мурадина Бронзоборода и принять участие в уникальном противостоянии. Герои каждой из сторон будут делать все, чтобы защитить свой боевой корабль и уничтожить вражеский, доказав, что именно они достойны выступить против Короля-лича."
 Inst93Caption = "Цитадель Ледяной Короны"
 Inst93QAA = "15 заданий"
 Inst93QAH = "15 заданий"
@@ -11918,7 +11919,7 @@ Inst93Quest3_Level = "80"
 Inst93Quest3_Attain = "80"
 Inst93Quest3_Aim = "Убейте гниющего ледяного великана."
 Inst93Quest3_Location = "Лейтенант с 'Усмирителя небес' (Цитадель Ледяной Короны; "..GREEN.."[3']"..WHITE..")"
-Inst93Quest3_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Лейтенант с 'Усмирителя небес' появится после убийства первого треш-пака после Леди Смертный Шепот.\n\nГниющий ледяной великан патрулирует одну из сторон вала."
+Inst93Quest3_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Лейтенант с 'Усмирителя небес' появится после убийства первого треш-пака после Леди Смертный Шепот.\n\nГниющий ледяной великан патрулирует одну из сторон Черепного вала от "..GREEN.."[3]"..WHITE.." до "..GREEN.."[4]"..WHITE.."."
 Inst93Quest3_Prequest = "Нет"
 Inst93Quest3_Folgequest = "Нет"
 --
@@ -11930,8 +11931,8 @@ Inst93Quest4_Level = "80"
 Inst93Quest4_Attain = "80"
 Inst93Quest4_Aim = "Если вы заразитесь оранжевой и зеленой порчей, вернитесь к алхимику Адрианне."
 Inst93Quest4_Location = "Алхимик Адрианна (Цитадель Ледяной Короны; "..GREEN.."[4']"..WHITE..")"
-Inst93Quest4_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Алхимик Адрианна появится после того как вы убьете Саурфанга Смертоносного.\n\nДля выполнения задания один из участников рейда должен собрать на себя порчу с Тухлопуза и Гниломорда и вернуться к Алхимику Адрианне в течении 30 минут после получения первого эффекта. После этого все члены рейда, имеющие задание получат сообщение о его выполнении."
-Inst93Quest4_Page = {2, "Порча пропадает, если игрок умрет, выйдет из сети, а также если использует Божественное вмешательство или Божественный щит и некоторые другие способности. Охотники, которые выживут с помощью способности Притвориться мертвым не потеряют порчу.", };
+Inst93Quest4_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Алхимик Адрианна появится после того как вы убьете Саурфанга Смертоносного.\n\nДля выполнения задания один из участников рейда должен собрать на себя порчу с Тухлопуза и Гниломорда и вернуться к Алхимику Адрианне в течении 30 минут после получения первого эффекта."
+Inst93Quest4_Page = {2, "После этого все члены рейда, имеющие задание получат сообщение о его выполнении.\n\nПорча пропадает, если игрок умрет, выйдет из сети, а также если использует Божественное вмешательство или Божественный щит и некоторые другие способности. Охотники, которые выживут с помощью способности Притвориться мертвым не потеряют порчу.", };
 Inst93Quest4_Prequest = "Нет"
 Inst93Quest4_Folgequest = "Нет"
 --
@@ -11955,7 +11956,8 @@ Inst93Quest6_Level = "80"
 Inst93Quest6_Attain = "80"
 Inst93Quest6_Aim = "Воспользуйтесь кристаллами жизни, чтобы сохранить душу Синдрагосы."
 Inst93Quest6_Location = "Валитрия Сноходица (Цитадель Ледяной Короны; "..YELLOW.."[11]"..WHITE..")"
-Inst93Quest6_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Валитрия Сноходица даст вам это задание, после того как ваш рейд ее вылечит.\n\nДля выполнения задания, члены рейда должны использовать Пульсирующий кристалл жизни для создания отрицательного эффекта (30 в рейде на 10 человек, 75 в рейде на 25 человек) на Синдрагосе, когда у нее останется менее 20% здоровья. Если Синдрагоса получит ауру Сохранения души, до того как умрет, задание будет считаться выполненым."
+Inst93Quest6_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Валитрия Сноходица даст вам это задание, после того как ваш рейд её вылечит."
+Inst93Quest6_Page = {2, "Для выполнения задания, члены рейда должны использовать Пульсирующий кристалл жизни для создания отрицательного эффекта (30 в рейде на 10 человек, 75 в рейде на 25 человек) на Синдрагосе, когда у нее останется менее 20% здоровья. Если Синдрагоса получит ауру Сохранения души, до того как умрет, задание будет считаться выполненым.", };
 Inst93Quest6_Prequest = "Нет"
 Inst93Quest6_Folgequest = "Нет"
 --
@@ -11967,7 +11969,7 @@ Inst93Quest7_Level = "80"
 Inst93Quest7_Attain = "80"
 Inst93Quest7_Aim = "Поместите Отмщение Света, 25 кусков древнейшего саронита, разъедающую кровь Гниломорда и разъедающую кровь Тухлопуза в кузню рун Верховного лорда Могрейна в Цитадели Ледяной Короны."
 Inst93Quest7_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest7_Note = "Эта цепочка заданий доступна только войнам, паладинам и рыцарям смерти. Кузня рун Верховного лорда Могрейна находится на входе в Цитадель Ледяной Короны.\n\nРазъедающая кровь Гниломорда и Разъедающая кровь Тухлопуза падает только в подземелье на 25 человек и может быть подобрана только одним членом рейда."
+Inst93Quest7_Note = " Эта цепочка заданий доступна только войнам, паладинам и рыцарям смерти. Кузня рун Верховного лорда Могрейна находится на входе в Цитадель Ледяной Короны.\n Разъедающая кровь Гниломорда и Разъедающая кровь Тухлопуза падает только в подземелье на 25 человек и может быть подобрана только одним членом рейда."
 Inst93Quest7_Prequest = "Нет"
 Inst93Quest7_Folgequest = "Грань Тьмы"
 -- No Rewards for this quest
@@ -12064,7 +12066,7 @@ Inst93Quest15_Level = "80"
 Inst93Quest15_Attain = "80"
 Inst93Quest15_Aim = "Верховный лорд Дарион Могрейн приказал вам убить Короля-лича."
 Inst93Quest15_Location = "Верховный лорд Дарион Могрейн (Цитадель Ледяной Короны; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest15_Note = "Информация отсутствует, но скорее всего, чтобы выполнить это задание, вам придется убить Короля Лича в рейде на 25 игроков."
+Inst93Quest15_Note = "Чтобы выполнить это задание, вам придется убить Короля Лича в рейде на 25 игроков."
 Inst93Quest15_Prequest = "Темная Скорбь..."
 Inst93Quest15_Folgequest = "Нет"
 Inst93Quest15FQuest = "true"
@@ -12102,7 +12104,7 @@ Inst93Quest3_HORDE_Level = "80"
 Inst93Quest3_HORDE_Attain = "80"
 Inst93Quest3_HORDE_Aim = "Убейте гниющего ледяного великана."
 Inst93Quest3_HORDE_Location = "Кор'кронский лейтенант (Цитадель Ледяной Короны; "..GREEN.."[3']"..WHITE..")"
-Inst93Quest3_HORDE_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Кор'кронский лейтенант появится после убийства первого треш-пака после Леди Смертный Шепот.\n\nГниющий ледяной великан патрулирует одну из сторон вала."
+Inst93Quest3_HORDE_Note = "Это одно из пяти случайных заданий доступных в Цитадели Ледяной Короны. Если это задание доступно для id вашего рейда, Кор'кронский лейтенант появится после убийства первого треш-пака после Леди Смертный Шепот.\n\nГниющий ледяной великан патрулирует одну из сторон Черепного вала от "..GREEN.."[3]"..WHITE.." до "..GREEN.."[4]"..WHITE.."."
 Inst93Quest3_HORDE_Prequest = "Нет"
 Inst93Quest3_HORDE_Folgequest = "Нет"
 --
@@ -12140,6 +12142,7 @@ Inst93Quest6_HORDE_Attain = Inst93Quest6_Attain
 Inst93Quest6_HORDE_Aim = Inst93Quest6_Aim
 Inst93Quest6_HORDE_Location = Inst93Quest6_Location
 Inst93Quest6_HORDE_Note = Inst93Quest6_Note
+Inst93Quest6_HORDE_Page = Inst93Quest6_Page
 Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
 Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
 --
@@ -12253,6 +12256,88 @@ Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
 Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
 Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
 -- No Rewards for this quest
+
+
+
+--------------- INST94 - Ruby Sanctum (RS)  ---------------
+
+Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their master’s reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord – the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
+Inst94Caption = "Рубиновое святилище"
+Inst94QAA = "3 задания"
+Inst94QAH = "3 задания"
+
+--Quest 1 Alliance
+Inst94Quest1 = "1. Trouble at Wyrmrest"
+Inst94Quest1_Level = "80"
+Inst94Quest1_Attain = "80"
+Inst94Quest1_Aim = "Speak with Krasus at Wyrmrest Temple in Dragonblight."
+Inst94Quest1_Location = "Информация отсутствует"
+Inst94Quest1_Note = "Krasus находится (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..")."
+Inst94Quest1_Prequest = "Нет"
+Inst94Quest1_Folgequest = "Assault on the Sanctum"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst94Quest2 = "2. Assault on the Sanctum"
+Inst94Quest2_Level = "80"
+Inst94Quest2_Attain = "80"
+Inst94Quest2_Aim = "Investigate the Ruby Sanctum beneath Wyrmrest Temple."
+Inst94Quest2_Location = "Информация отсутствует"
+Inst94Quest2_Note = "Информация отсутствует"
+Inst94Quest2_Prequest = "Trouble at Wyrmrest"
+Inst94Quest2_Folgequest = "The Twilight Destroyer"
+Inst94Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst94Quest3 = "3. The Twilight Destroyer"
+Inst94Quest3_Level = "80"
+Inst94Quest3_Attain = "80"
+Inst94Quest3_Aim = "Defeat Halion and repel the invasion of the Ruby Sanctum."
+Inst94Quest3_Location = "Информация отсутствует"
+Inst94Quest3_Note = "Информация отсутствует"
+Inst94Quest3_Prequest = "The Twilight Destroyer"
+Inst94Quest3_Folgequest = "Нет"
+Inst94Quest3FQuest = "true"
+--
+Inst94Quest3name1 = "Эмблема льда"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst94Quest1_HORDE = Inst94Quest1
+Inst94Quest1_HORDE_Level = Inst94Quest1_Level
+Inst94Quest1_HORDE_Attain = Inst94Quest1_Attain
+Inst94Quest1_HORDE_Aim = Inst94Quest1_Aim
+Inst94Quest1_HORDE_Location = Inst94Quest1_Location
+Inst94Quest1_HORDE_Note = Inst94Quest1_Note
+Inst94Quest1_HORDE_Prequest = Inst94Quest1_Prequest
+Inst94Quest1_HORDE_Folgequest = Inst94Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst94Quest2_HORDE = Inst94Quest2
+Inst94Quest2_HORDE_Level = Inst94Quest2_Level
+Inst94Quest2_HORDE_Attain = Inst94Quest2_Attain
+Inst94Quest2_HORDE_Aim = Inst94Quest2_Aim
+Inst94Quest2_HORDE_Location = Inst94Quest2_Location
+Inst94Quest2_HORDE_Note = Inst94Quest2_Note
+Inst94Quest2_HORDE_Prequest = Inst94Quest2_Prequest
+Inst94Quest2_HORDE_Folgequest = Inst94Quest2_Folgequest
+Inst94Quest2FQuest_HORDE = Inst94Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst94Quest3_HORDE = Inst94Quest3
+Inst94Quest3_HORDE_Level = Inst94Quest3_Level
+Inst94Quest3_HORDE_Attain = Inst94Quest3_Attain
+Inst94Quest3_HORDE_Aim = Inst94Quest3_Aim
+Inst94Quest3_HORDE_Location = Inst94Quest3_Location
+Inst94Quest3_HORDE_Note = Inst94Quest3_Note
+Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
+Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
+Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
+--
+Inst94Quest3name1_HORDE = Inst94Quest3name1
 
 
 
@@ -13453,4 +13538,5 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 91 = Pit of Saron (PoS)
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC)
+-- 94 = Ruby Sanctum (RS)
 end
