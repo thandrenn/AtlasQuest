@@ -47,6 +47,7 @@ local Blau = "|cff0070dd"
 local AQQuestfarbe
 
 
+
 -----------------------------------------------------------------------------
 -- Buttons
 -----------------------------------------------------------------------------
@@ -160,7 +161,8 @@ end
 -- Button
 -----------------------------------------------------------------------------
 function Quest_OnClick(arg1)
-   if (ChatFrameEditBox:IsVisible() and IsShiftKeyDown()) then
+local AQactiveWindow = ChatEdit_GetActiveWindow();
+   if (AQactiveWindow and IsShiftKeyDown()) then
      AQInsertQuestInformation();
    else
      AQHideAL();
@@ -196,6 +198,7 @@ end
 function AQInsertQuestInformation()
 local OnlyQuestNameRemovedNumber
 local Quest
+local AQactiveWindow = ChatEdit_GetActiveWindow();
 Quest = AQSHOWNQUEST;
 
 
@@ -248,13 +251,13 @@ ChatFrame1:AddMessage("Quest Link: "..AQ_QuestLink);
 
 -- Verify that the variable was set then output to chat window
 if ( AQ_QuestLink ) then
-	ChatFrameEditBox:Insert(AQ_QuestLink);
+	AQactiveWindow:Insert(AQ_QuestLink);
 else
 	-- Otherwise, post the quest name and level. NOTE: This code is presently obsolete. Will remove later.	
 	if ( Allianceorhorde == 1) then
-		ChatFrameEditBox:Insert("["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Level").."] ["..AQ_QuestName.."] ");
+		AQactiveWindow:Insert("["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Level").."] ["..AQ_QuestName.."] ");
 	else
-		ChatFrameEditBox:Insert("["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Level").."] ["..AQ_QuestName.."]");
+		AQactiveWindow:Insert("["..getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Level").."] ["..AQ_QuestName.."]");
 	end
 end
 

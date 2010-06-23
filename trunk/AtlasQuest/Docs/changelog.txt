@@ -2,10 +2,12 @@
 Changelog
 =========
 
-Version 4.4.2 BETA
+Version 4.4.2
 
+- Corrected ChatFrame error with patch 3.3.5. AtlasQuest should be fully functional.
+- Disabled the buggy, old, never-updated /aq command.
 - Ruby Sanctum support added.
-- Localizations updated: ruRU, deDE.
+- Localizations updated: ruRU, deDE, znTW.
 
 - Quests added:
 	- Ruby Sanctum: Trouble at Wyrmrest
