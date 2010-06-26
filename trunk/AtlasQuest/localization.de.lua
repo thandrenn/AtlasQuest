@@ -11725,6 +11725,18 @@ Inst90Quest2FQuest = "true"
 --
 Inst90Quest2name1 = "Emblem des Frosts"
 
+--Quest 3 Alliance
+Inst90Quest3 = "3. Die Klinge tempern"
+Inst90Quest3_Level = "80"
+Inst90Quest3_Attain = "80"
+Inst90Quest3_Aim = "Tempert das neugeschmiedete Quel'Delar im Schmelztiegel der Seelen."
+Inst90Quest3_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst90Quest3_Note = "Der Schmelztiegel der Seelen  ist bei "..YELLOW.."[3]"..WHITE..", am Ende der Instanz."
+Inst90Quest3_Prequest = "Das Schwert neu schmieden ("..YELLOW.."Grube von Saron"..WHITE..")"
+Inst90Quest3_Folgequest = "Die Hallen der Reflexion ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
+Inst90Quest3PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst90Quest1_HORDE = "1. In der eisigen Zitadelle"
@@ -11749,6 +11761,18 @@ Inst90Quest2_HORDE_Folgequest = "Die Grube von Saron"
 Inst90Quest2FQuest_HORDE = "true"
 --
 Inst90Quest2name1_HORDE = "Emblem des Frosts" 
+
+--Quest 3 Horde
+Inst90Quest3_HORDE = "3. Die Klinge tempern"
+Inst90Quest3_HORDE_Level = "80"
+Inst90Quest3_HORDE_Attain = "80"
+Inst90Quest3_HORDE_Aim = "Tempert das neugeschmiedete Quel'Delar im Schmelztiegel der Seelen."
+Inst90Quest3_HORDE_Location = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")"
+Inst90Quest3_HORDE_Note = "Der Schmelztiegel der Seelen  ist bei "..YELLOW.."[3]"..WHITE..", am Ende der Instanz."
+Inst90Quest3_HORDE_Prequest = "Das Schwert neu schmieden ("..YELLOW.."Grube von Saron"..WHITE..")"
+Inst90Quest3_HORDE_Folgequest = "Die Hallen der Reflexion ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
+Inst90Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -11795,6 +11819,18 @@ Inst91Quest3FQuest = "true"
 --
 Inst91Quest3name1 = "Emblem des Frosts"
 
+--Quest 4 Alliance
+Inst91Quest4 = "4. Das Schwert neu schmieden"
+Inst91Quest4_Level = "80"
+Inst91Quest4_Attain = "80"
+Inst91Quest4_Aim = "Besorgt 5 energieerfüllte Saronitbarren sowie den Hammer des Schmiedemeisters und schmiedet damit Quel'Delar neu."
+Inst91Quest4_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst91Quest4_Note = "Die energieerfüllten Saronitbarren sind innerhalb der Grube verteilt.  Benutzt den Hammer, der vom Boss Schmiedemeister Garfrost droppt, bem Amboss in der Nähe von ihm."
+Inst91Quest4_Prequest = "Kehrt zu Caladis Prunkspeer zurück"
+Inst91Quest4_Folgequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst91Quest4PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst91Quest1_HORDE = "1. Die Grube von Saron"
@@ -11833,6 +11869,18 @@ Inst91Quest3FQuest_HORDE = "true"
 --
 Inst91Quest3name1_HORDE = "Emblem des Frosts"
 
+--Quest 4 Horde
+Inst91Quest4_HORDE = "4. Das Schwert neu schmieden"
+Inst91Quest4_HORDE_Level = "80"
+Inst91Quest4_HORDE_Attain = "80"
+Inst91Quest4_HORDE_Aim = "Besorgt 5 energieerfüllte Saronitbarren sowie den Hammer des Schmiedemeisters und schmiedet damit Quel'Delar neu."
+Inst91Quest4_HORDE_Location = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")"
+Inst91Quest4_HORDE_Note = "Die energieerfüllten Saronitbarren sind innerhalb der Grube verteilt.  Benutzt den Hammer, der vom Boss Schmiedemeister Garfrost droppt, bem Amboss in der Nähe von ihm."
+Inst91Quest4_HORDE_Prequest = "Rückkehr zu Myralion Sonnenfeuer"
+Inst91Quest4_HORDE_Folgequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst91Quest4PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
 
 
 --------------- INST92 - Halls of Reflection (HoR) ---------------
@@ -11866,6 +11914,18 @@ Inst92Quest2FQuest = "true"
 --
 Inst92Quest2name1 = "Emblem des Frosts"
 
+--Quest 3 Alliance
+Inst92Quest3 = "3. Die Hallen der Reflexion"
+Inst92Quest3_Level = "80"
+Inst92Quest3_Attain = "80"
+Inst92Quest3_Aim = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der Reflexion."
+Inst92Quest3_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
+Inst92Quest3_Note = "Du kannst diese Quest innerhalb der Instanz beenden."
+Inst92Quest3_Prequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst92Quest3_Folgequest = "Reise zum Sonnenbrunnen"
+Inst92Quest3PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst92Quest1_HORDE = "1. Frostgram"
@@ -11891,6 +11951,18 @@ Inst92Quest2_HORDE_Folgequest = "Nein"
 Inst92Quest2FQuest_HORDE = "true"
 --
 Inst92Quest2name1_HORDE = "Emblem des Frosts"
+
+--Quest 3 Horde
+Inst92Quest3_HORDE = "3. Die Hallen der Reflexion"
+Inst92Quest3_HORDE_Level = "80"
+Inst92Quest3_HORDE_Attain = "80"
+Inst92Quest3_HORDE_Aim = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der Reflexion."
+Inst92Quest3_HORDE_Location = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")"
+Inst92Quest3_HORDE_Note = "Du kannst diese Quest innerhalb der Instanz beenden."
+Inst92Quest3_HORDE_Prequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst92Quest3_HORDE_Folgequest = "Reise zum Sonnenbrunnen"
+Inst92Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -12265,6 +12337,89 @@ Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
 Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
 Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
 -- No Rewards for this quest 
+
+
+
+--------------- INST94 - Ruby Sanctum (RS)  ---------------
+
+Inst94Story = "Eine mächtige Kampftruppe des Schwarzen Drachenschwarms, angeführt vom furchterregenden Zwielichtdrachen Halion, hat den Angriff auf das Rubinsanktum unterhalb des Wyrmruhtempels eingeläutet. Durch die Zerstörung des Rubinsanktums will der Schwarze Drachenschwarm jene vernichten, die die Rückkehr ihres Meisters nach Azeroth zu verhindern suchen und letzten Endes den Wyrmruhpakt endgültig zerschlagen – jenen heiligen Bund, der alle Drachenschwärme eint.\n\nDie Schlacht, die sich anbahnt, wird dem Roten Dracheschwarm ohne Zweifel einen empfindlichen Schlag versetzen, doch es liegt an Euch, diese nie dagewesene Attacke abzuschwächen und das Rubinsanktum zu verteidigen. Zunächst gilt es, den Angriffen von Halions Dienern standzuhalten; Saviana Flammenschlund, Baltharus der Kriegsjünger und General Zarithrian müssen bezwungen werden, bevor der Kampf gegen Halion, den Zwielichtzerstörer, eine neue und überaus tödliche Macht im Reich, aufgenommen werden kann."
+Inst94Caption = "RS:Das Rubinsanktum"
+Inst94QAA = "3 Quests"
+Inst94QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst94Quest1 = "1. Schwierigkeiten beim Wyrmruhtempel"
+Inst94Quest1_Level = "80"
+Inst94Quest1_Attain = "80"
+Inst94Quest1_Aim = "Sprecht mit Krasus beim Wyrmruhtempel in der Drachenöde."
+Inst94Quest1_Location = "MISSING INFO"
+Inst94Quest1_Note = "Krasus ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")."
+Inst94Quest1_Prequest = "Nein"
+Inst94Quest1_Folgequest = "Angriff auf das Sanktum"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst94Quest2 = "2. Angriff auf das Sanktum"
+Inst94Quest2_Level = "80"
+Inst94Quest2_Attain = "80"
+Inst94Quest2_Aim = "Untersucht das Rubinrote Sanktum unter dem Wyrmruhtempel."
+Inst94Quest2_Location = "Krasus (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")"
+Inst94Quest2_Note = "Verteidiger des Sanktum Xerestrasza ist innerhalb des Rubin Sanktum bei dem Portal."
+Inst94Quest2_Prequest = "Schwierigkeiten beim Wyrmruhtempel"
+Inst94Quest2_Folgequest = "Der Zwielicht Zerstörer"
+Inst94Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst94Quest3 = "3. Der Zwielicht Zerstörer"
+Inst94Quest3_Level = "80"
+Inst94Quest3_Attain = "80"
+Inst94Quest3_Aim = "Besiegt Halion und vertreibt die Invasion aus dem Rubinsanktum."
+Inst94Quest3_Location = "Verteidiger des Sanktum Xerestrasza (Rubinsanktum; "..YELLOW.."[A] Eingang"..WHITE..")"
+Inst94Quest3_Note = "Halion ist der Hauptboss, zu finden bei "..YELLOW.."[1]"..WHITE.."."
+Inst94Quest3_Prequest = "Schwierigkeiten beim Wyrmruhtempel"
+Inst94Quest3_Folgequest = "Nein"
+Inst94Quest3FQuest = "true"
+--
+Inst94Quest3name1 = "Emblem des Frosts"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst94Quest1_HORDE = Inst94Quest1
+Inst94Quest1_HORDE_Level = Inst94Quest1_Level
+Inst94Quest1_HORDE_Attain = Inst94Quest1_Attain
+Inst94Quest1_HORDE_Aim = Inst94Quest1_Aim
+Inst94Quest1_HORDE_Location = Inst94Quest1_Location
+Inst94Quest1_HORDE_Note = Inst94Quest1_Note
+Inst94Quest1_HORDE_Prequest = Inst94Quest1_Prequest
+Inst94Quest1_HORDE_Folgequest = Inst94Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst94Quest2_HORDE = Inst94Quest2
+Inst94Quest2_HORDE_Level = Inst94Quest2_Level
+Inst94Quest2_HORDE_Attain = Inst94Quest2_Attain
+Inst94Quest2_HORDE_Aim = Inst94Quest2_Aim
+Inst94Quest2_HORDE_Location = Inst94Quest2_Location
+Inst94Quest2_HORDE_Note = Inst94Quest2_Note
+Inst94Quest2_HORDE_Prequest = Inst94Quest2_Prequest
+Inst94Quest2_HORDE_Folgequest = Inst94Quest2_Folgequest
+Inst94Quest2FQuest_HORDE = Inst94Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst94Quest3_HORDE = Inst94Quest3
+Inst94Quest3_HORDE_Level = Inst94Quest3_Level
+Inst94Quest3_HORDE_Attain = Inst94Quest3_Attain
+Inst94Quest3_HORDE_Aim = Inst94Quest3_Aim
+Inst94Quest3_HORDE_Location = Inst94Quest3_Location
+Inst94Quest3_HORDE_Note = Inst94Quest3_Note
+Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
+Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
+Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
+--
+Inst94Quest3name1_HORDE = Inst94Quest3name1
+
 
 
 
@@ -13085,3 +13240,4 @@ end
 -- 91 = Pit of Saron (PoS)
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC) 
+-- 94 = Ruby Sanctum (RS)
