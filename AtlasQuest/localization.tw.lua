@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2010-06-12
-	最後更新﹕二○一○年六月十二日
+	Last Updated: 2010-06-30
+	最後更新﹕二○一○年六月三十日
 	新增　巫妖王之怒 - 晶紅聖所　故事＆任務
 
 --]]
@@ -10893,7 +10893,6 @@ Inst76Quest3_Location = "『排除者』齊力克斯（龍骨荒野 - 阿茲歐-
 Inst76Quest3_Note = "忘卻者和信使沃菈齊可以在"..YELLOW.."[5]"..WHITE.."找到。"
 Inst76Quest3_Prequest = "無"
 Inst76Quest3_Folgequest = "無"
-Inst76Quest3PreQuest = "true"
 --
 Inst76Quest3name1 = "邪惡阻撓披肩"
 Inst76Quest3name2 = "嫌惡肩墊"
@@ -10932,7 +10931,6 @@ Inst76Quest3_HORDE_Location = Inst76Quest3_Location
 Inst76Quest3_HORDE_Note = Inst76Quest3_Note
 Inst76Quest3_HORDE_Prequest = Inst76Quest3_Prequest
 Inst76Quest3_HORDE_Folgequest = Inst76Quest3_Folgequest
-Inst76Quest3PreQuest_HORDE = Inst76Quest3PreQuest
 --
 Inst76Quest3name1_HORDE = Inst76Quest3name1
 Inst76Quest3name2_HORDE = Inst76Quest3name2
@@ -12617,9 +12615,9 @@ Inst93Quest7_Folgequest = "暗影之鋒"
 Inst93Quest8 = "8. 暗影之鋒"
 Inst93Quest8_Level = "80"
 Inst93Quest8_Attain = "80"
-Inst93Quest8_Aim = "無內容。"
+Inst93Quest8_Aim = "等待莫格萊尼為你鍛造武器。"
 Inst93Quest8_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
-Inst93Quest8_Note = "無內容，推測只是為了給予玩家暗影之鋒的任務。"
+Inst93Quest8_Note = "看著莫格萊尼為你鍛造武器，並且在他完成之後向他領取。"
 Inst93Quest8_Prequest = "聖潔與墮落"
 Inst93Quest8_Folgequest = "眾魂宴"
 Inst93Quest8FQuest = "true"
@@ -12705,7 +12703,7 @@ Inst93Quest15_Level = "80"
 Inst93Quest15_Attain = "80"
 Inst93Quest15_Aim = "大領主達瑞安．莫格萊尼要你去冰冠城塞殺掉巫妖王。"
 Inst93Quest15_Location = "大領主達瑞安．莫格萊尼（冰冠城塞; "..GREEN.."[1']"..WHITE.."）"
-Inst93Quest15_Note = "無內容，此任務大約只能夠在25人模式的冰冠城塞中完成。"
+Inst93Quest15_Note = "此任務只能夠在25人模式的冰冠城塞中完成。"
 Inst93Quest15_Prequest = "影之哀傷…"
 Inst93Quest15_Folgequest = "無"
 Inst93Quest15FQuest = "true"
@@ -12920,8 +12918,8 @@ Inst94Quest2 = "2. 晶紅聖所的恐怖襲擊"
 Inst94Quest2_Level = "80"
 Inst94Quest2_Attain = "80"
 Inst94Quest2_Aim = "調查龍眠神殿下的晶紅聖所。"
-Inst94Quest2_Location = "目前無資訊"
-Inst94Quest2_Note = "目前無資訊"
+Inst94Quest2_Location = "卡薩斯（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）"
+Inst94Quest2_Note = "聖所守護者Xerestrasza在晶紅聖所內的入口處。"
 Inst94Quest2_Prequest = "龍眠神殿告急"
 Inst94Quest2_Folgequest = "暮光之災"
 Inst94Quest2FQuest = "true"
@@ -12931,9 +12929,9 @@ Inst94Quest2FQuest = "true"
 Inst94Quest3 = "3. 暮光之災"
 Inst94Quest3_Level = "80"
 Inst94Quest3_Attain = "80"
-Inst94Quest3_Aim = "殺死哈裏昂，並擊退進攻晶紅聖所的黑龍軍團。"
-Inst94Quest3_Location = "目前無資訊"
-Inst94Quest3_Note = "目前無資訊"
+Inst94Quest3_Aim = "殺死哈利恩，並擊退進攻晶紅聖所的黑龍軍團。"
+Inst94Quest3_Location = "聖所守護者Xerestrasza（晶紅聖所; "..YELLOW.."[A] 入口"..WHITE.."）"
+Inst94Quest3_Note = "哈利恩是晶紅聖所內的主要首領，位於"..YELLOW.."[1]"..WHITE.."。"
 Inst94Quest3_Prequest = "龍眠神殿告急"
 Inst94Quest3_Folgequest = "無"
 Inst94Quest3FQuest = "true"
