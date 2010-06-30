@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.4.3 BETA
+
+- Localizations updated: ruRU, deDE, znTW.
+- Added quest giver for Ruby Sanctum: Trouble at Wyrmrest Temple.
+
+
+
+
 Version 4.4.2
 
 - Corrected ChatFrame error with patch 3.3.5. AtlasQuest should be fully functional.
