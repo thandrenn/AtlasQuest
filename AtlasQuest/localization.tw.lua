@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2010-06-30
-	最後更新﹕二○一○年六月三十日
+	Last Updated: 2010-07-01
+	最後更新﹕二○一○年七月一日
 	新增　巫妖王之怒 - 晶紅聖所　故事＆任務
 
 --]]
@@ -12907,7 +12907,7 @@ Inst94Quest1 = "1. 龍眠神殿告急"
 Inst94Quest1_Level = "80"
 Inst94Quest1_Attain = "80"
 Inst94Quest1_Aim = "和卡薩斯交談，他在龍骨荒野的龍眠神殿中。"
-Inst94Quest1_Location = "目前無資訊"
+Inst94Quest1_Location = "羅甯（達拉然 - 紫羅蘭城塞; "..YELLOW.."30.5, 48.4"..WHITE.."）"
 Inst94Quest1_Note = "卡薩斯（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）"
 Inst94Quest1_Prequest = "無"
 Inst94Quest1_Folgequest = "晶紅聖所的恐怖襲擊"
