@@ -4,7 +4,7 @@ Changelog
 
 Version 4.4.3 BETA
 
-- Localizations updated: ruRU, deDE, znTW.
+- Localizations updated: ruRU, deDE, zhTW.
 - Added quest giver for Ruby Sanctum: Trouble at Wyrmrest Temple.
 
 
@@ -15,7 +15,7 @@ Version 4.4.2
 - Corrected ChatFrame error with patch 3.3.5. AtlasQuest should be fully functional.
 - Disabled the buggy, old, never-updated /aq command.
 - Ruby Sanctum support added.
-- Localizations updated: ruRU, deDE, znTW.
+- Localizations updated: ruRU, deDE, zhTW.
 
 - Quests added:
 	- Ruby Sanctum: Trouble at Wyrmrest
@@ -29,7 +29,7 @@ Version 4.4.1
 
 - Added new Love is in the Air quests, ICC weekly quests, Quel'Delar & Shadowmourne questlines.
 - Updated map names for the Atlas 1.16.0.
-- Localizations updated: ruRU, deDE, znTW.
+- Localizations updated: ruRU, deDE, zhTW.
 
 - Quests added:
 	- Pit of Saron: Reforging The Sword
