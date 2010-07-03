@@ -6904,50 +6904,14 @@ Inst41Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst41Quest4 = "4. Ahune der Frostfürst (Saisonbedingt)"
-Inst41Quest4_Level = "70"
-Inst41Quest4_Attain = "65"
-Inst41Quest4_Aim = "Begebt Euch in die Sklavenunterkünfte im Echsenkessel in den Zangarmarschen und sprecht mit Numa Wolkenschwester."
-Inst41Quest4_Location = "Urahne des Irdenen Rings (Bei den Freudenfeuern des Sonnenwendfests in allen großen Städten)"
-Inst41Quest4_Note = "Numa Wolkenschwester befindet sich kurz nach dem Eingang der Sklavenunterkünfte. Diese Quest wird nicht benötigt, um Ahune zu beschwören. Wenn man die Instanz auf Stufe 65 oder höher betritt, ohne auch nur eins dieser Quest abgeschlossen zu haben, kann man ihn trotzdem beschwören."
+Inst41Quest4 = "4. Splitter von Ahune (Saisonbedingt)"
+Inst41Quest4_Level = "80"
+Inst41Quest4_Attain = "70"
+Inst41Quest4_Aim = "Bringt die Eissplitter zu Luma Himmelsmutter."
+Inst41Quest4_Location = "Splitter von Ahune (befinden sich in der Eiskiste nachdem Ahune getötet wurde)"
+Inst41Quest4_Note = "Luma Himmelsmutter befindet sich in (Die Sklavenunterkünfte; "..YELLOW.."Nahe bei [1]"..WHITE.."). Dieser Gegenstand wird nur einmal pro Jahr pro Charakter droppen."
 Inst41Quest4_Prequest = "Ja, Ungewöhnliche Aktivitäten -> Den Urahnen benachrichtigen"
-Inst41Quest4_Folgequest = "Ja, Ahune ist hier!"
-Inst41Quest4PreQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst41Quest5 = "5. Ahune ist hier! (Saisonbedingt)"
-Inst41Quest5_Level = "70"
-Inst41Quest5_Attain = "65"
-Inst41Quest5_Aim = "Findet Luma Himmelsmutter in den Sklavenunterkünften."
-Inst41Quest5_Location = "Numa Wolkenschwester (Die Sklavenunterkünfte; "..YELLOW.."Kurz nach dem Portal"..WHITE..")"
-Inst41Quest5_Note = "Luma Himmelsmutter befindet sich in der Nähe von "..YELLOW.."[1]"..WHITE..". Man muss keines der anderen saisonbedingten Quests abschließen, um diese Quest zu erhalten. Die Vorquest ist optional."
-Inst41Quest5_Prequest = "Ja, Ahune der Frostfürst (Optional)"
-Inst41Quest5_Folgequest = "Ja, Beschwört Ahune"
-Inst41Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst41Quest6 = "6. Beschwört Ahune (Tagesquest - Saisonbedingt)"
-Inst41Quest6_Level = "70"
-Inst41Quest6_Attain = "65"
-Inst41Quest6_Aim = "Bringt dieses Magmatotem des Irdenen Rings zum Eisbrocken."
-Inst41Quest6_Location = "Luma Himmelsmutter (Die Sklavenunterkünfte; "..YELLOW.."Nahe bei [1]"..WHITE..")"
-Inst41Quest6_Note = "Der Eisbrocken befindet sich nur ein kurzes Stück von Luma Himmelsmutter entfernt. Durch Abschließen dieser Quest wird Ahune bei "..YELLOW.."[1]"..WHITE.." beschworen. Es kann einmal pro Tag pro Charakter abgeschlossen werden."
-Inst41Quest6_Prequest = "Ja, Ahune ist hier!"
-Inst41Quest6_Folgequest = "Nein"
-Inst41Quest6FQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst41Quest7 = "7. Splitter von Ahune (Saisonbedingt)"
-Inst41Quest7_Level = "70"
-Inst41Quest7_Attain = "65"
-Inst41Quest7_Aim = "Bringt die Eissplitter zu Luma Himmelsmutter."
-Inst41Quest7_Location = "Splitter von Ahune (befinden sich in der Eiskiste nachdem Ahune getötet wurde)"
-Inst41Quest7_Note = "Luma Himmelsmutter befindet sich in (Die Sklavenunterkünfte; "..YELLOW.."Nahe bei [1]"..WHITE.."). Dieser Gegenstand wird nur einmal pro Jahr pro Charakter droppen."
-Inst41Quest7_Prequest = "Nein"
-Inst41Quest7_Folgequest = "Nein"
+Inst41Quest4_Folgequest = "Nein"
 --
 Inst41Quest7name1 = "Wappenrock der sommerlichen Himmel"
 Inst41Quest7name2 = "Wappenrock der Sommerflammen"
@@ -7001,42 +6965,6 @@ Inst41Quest4_HORDE_Location = Inst41Quest4_Location
 Inst41Quest4_HORDE_Note = Inst41Quest4_Note
 Inst41Quest4_HORDE_Prequest = Inst41Quest4_Prequest
 Inst41Quest4_HORDE_Folgequest = Inst41Quest4_Folgequest
-Inst41Quest4PreQuest_HORDE = Inst41Quest4PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst41Quest5_HORDE = Inst41Quest5
-Inst41Quest5_HORDE_Level = Inst41Quest5_Level
-Inst41Quest5_HORDE_Attain = Inst41Quest5_Attain
-Inst41Quest5_HORDE_Aim = Inst41Quest5_Aim
-Inst41Quest5_HORDE_Location = Inst41Quest5_Location
-Inst41Quest5_HORDE_Note = Inst41Quest5_Note
-Inst41Quest5_HORDE_Prequest = Inst41Quest5_Prequest
-Inst41Quest5_HORDE_Folgequest = Inst41Quest5_Folgequest
-Inst41Quest5FQuest_HORDE = Inst41Quest5FQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst41Quest6_HORDE = Inst41Quest6
-Inst41Quest6_HORDE_Level = Inst41Quest6_Level
-Inst41Quest6_HORDE_Attain = Inst41Quest6_Attain
-Inst41Quest6_HORDE_Aim = Inst41Quest6_Aim
-Inst41Quest6_HORDE_Location = Inst41Quest6_Location
-Inst41Quest6_HORDE_Note = Inst41Quest6_Note
-Inst41Quest6_HORDE_Prequest = Inst41Quest6_Prequest
-Inst41Quest6_HORDE_Folgequest = Inst41Quest6_Folgequest
-Inst41Quest6FQuest_HORDE = Inst41Quest6FQuest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst41Quest7_HORDE = Inst41Quest7
-Inst41Quest7_HORDE_Level = Inst41Quest7_Level
-Inst41Quest7_HORDE_Attain = Inst41Quest7_Attain
-Inst41Quest7_HORDE_Aim = Inst41Quest7_Aim
-Inst41Quest7_HORDE_Location = Inst41Quest7_Location
-Inst41Quest7_HORDE_Note = Inst41Quest7_Note
-Inst41Quest7_HORDE_Prequest = Inst41Quest7_Prequest
-Inst41Quest7_HORDE_Folgequest = Inst41Quest7_Folgequest
 --
 Inst41Quest7name1_HORDE = Inst41Quest7name1
 Inst41Quest7name2_HORDE = Inst41Quest7name2
@@ -10322,7 +10250,7 @@ Inst74Quest3 = "3. Malygos muss sterben! (Wöchentlich)"
 Inst74Quest3_Level = "80"
 Inst74Quest3_Attain = "80"
 Inst74Quest3_Aim = "Tötet Malygos."
-Inst74Quest3_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst74Quest3_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst74Quest3_Note = "Malygos ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst74Quest3_Prequest = "Nein"
 Inst74Quest3_Folgequest = "Nein"
@@ -10661,7 +10589,7 @@ Inst79Quest1 = "1. Sartharion muss sterben! (Wöchentlich)"
 Inst79Quest1_Level = "80"
 Inst79Quest1_Attain = "80"
 Inst79Quest1_Aim = "Tötet Sartharion."
-Inst79Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst79Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst79Quest1_Note = "Sartharion ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst79Quest1_Prequest = "Nein"
 Inst79Quest1_Folgequest = "Nein"
@@ -10901,7 +10829,7 @@ Inst82Story = {
   ["Page2"] = "Indem sie einen gewaltigen Riss im Dach der Violetten Festung zum Einstieg nutzten, ist es den Agenten des Drachenaspekts gelungen, sich Zutritt zu den Portalen innerhalb des Gefängnisses zu verschaffen und damit den Schutz, den die Festung bieten sollte, auf die Probe zu stellen und die Sicherheit aller außerhalb der Gefängnismauern zu gefährden. Während die Verteidigung der Violetten Festung langsam aber stetig unter den andauernden Angriffen geschwächt wird, stehen nur noch die tapferen Seelen derjenigen, die das Gefängnis bewachen, zwischen der weiteren Existenz Dalarans und der kompletten Zerstörung der Stadt.",
   ["MaxPages"] = "2",
 };
-Inst82Caption = "VF: Die violette Festung"
+Inst82Caption = "VF: Die Violette Festung"
 Inst82QAA = "2 Quests"
 Inst82QAH = "2 Quests"
 
@@ -10910,8 +10838,8 @@ Inst82Quest1 = "1. Diskretion ist der Schlüssel"
 Inst82Quest1_Level = "77"
 Inst82Quest1_Attain = "75"
 Inst82Quest1_Aim = "Rhonin möchte, dass Ihr zur Violetten Festung in Dalaran geht und mit Aufseher Alturas sprecht."
-Inst82Quest1_Location = "Rhonin (Dalaran - Die violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")"
-Inst82Quest1_Note = "Aufseher Alturas ist bei (Dalaran - Die violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
+Inst82Quest1_Location = "Rhonin (Dalaran - Die Violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")"
+Inst82Quest1_Note = "Aufseher Alturas ist bei (Dalaran - Die Violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
 Inst82Quest1_Prequest = "Nein"
 Inst82Quest1_Folgequest = "Eindämmung"
 -- No Rewards for this quest
@@ -10921,7 +10849,7 @@ Inst82Quest2 = "2. Eindämmung"
 Inst82Quest2_Level = "77"
 Inst82Quest2_Attain = "75"
 Inst82Quest2_Aim = "Aufseher Alturas möchte, dass Ihr die Violette Festung betretet und den Invasionsstreitkräften des blauen Drachenschwarms ein Ende bereitet. Ihr sollt Euch wieder bei ihm melden, sobald Cyanigosa getötet wurde."
-Inst82Quest2_Location = "Aufseher Alturas (Dalaran - Die violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
+Inst82Quest2_Location = "Aufseher Alturas (Dalaran - Die Violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
 Inst82Quest2_Note = "Cyanigosa ist bei "..YELLOW.."[6]"..WHITE.."."
 Inst82Quest2_Prequest = "Diskretion ist der Schlüssel"
 Inst82Quest2_Folgequest = "Nein"
@@ -11001,7 +10929,7 @@ Inst84Quest3 = "3. Anub'Rekhan muss sterben! (Wöchentlich)"
 Inst84Quest3_Level = "80"
 Inst84Quest3_Attain = "80"
 Inst84Quest3_Aim = "Tötet Anub'Rekhan."
-Inst84Quest3_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest3_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst84Quest3_Note = "Anub'Rekhan ist bei "..YELLOW.."Spinnenviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst84Quest3_Prequest = "Nein"
 Inst84Quest3_Folgequest = "Nein"
@@ -11014,7 +10942,7 @@ Inst84Quest4 = "4. Instrukteur Razuvious muss sterben! (Wöchentlich)"
 Inst84Quest4_Level = "80"
 Inst84Quest4_Attain = "80"
 Inst84Quest4_Aim = "Tötet Instrukteur Razuvious."
-Inst84Quest4_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest4_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst84Quest4_Note = "Instrukteur Razuvious ist bei "..YELLOW.."Militärviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst84Quest4_Prequest = "Nein"
 Inst84Quest4_Folgequest = "Nein"
@@ -11027,7 +10955,7 @@ Inst84Quest5 = "5. Noth der Seuchenfürst muss sterben! (Wöchentlich)"
 Inst84Quest5_Level = "80"
 Inst84Quest5_Attain = "80"
 Inst84Quest5_Aim = "Tötet Noth der Seuchenfürst."
-Inst84Quest5_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest5_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst84Quest5_Note = "Noth der Seuchenfürst ist bei "..YELLOW.."Seuchenviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst84Quest5_Prequest = "Nein"
 Inst84Quest5_Folgequest = "Nein"
@@ -11040,7 +10968,7 @@ Inst84Quest6 = "6. Flickwerk muss sterben! (Wöchentlich)"
 Inst84Quest6_Level = "80"
 Inst84Quest6_Attain = "80"
 Inst84Quest6_Aim = "Tötet Flickwerk."
-Inst84Quest6_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst84Quest6_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst84Quest6_Note = "Flickwerk ist bei "..YELLOW.."Konstruktviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst84Quest6_Prequest = "Nein"
 Inst84Quest6_Folgequest = "Nein"
@@ -11348,7 +11276,7 @@ Inst86Quest17 = "17. Der Flammenleviathan muss sterben! (Wöchentlich)"
 Inst86Quest17_Level = "80"
 Inst86Quest17_Attain = "80"
 Inst86Quest17_Aim = "Tötet Flammenleviathan."
-Inst86Quest17_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest17_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst86Quest17_Note = "Flammenleviathan ist bei "..YELLOW.."Die Belagerung [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst86Quest17_Prequest = "Nein"
 Inst86Quest17_Folgequest = "Nein"
@@ -11361,7 +11289,7 @@ Inst86Quest18 = "18. Ignis, Meister des Eisenwerks, muss sterben! (Wöchentlich)
 Inst86Quest18_Level = "80"
 Inst86Quest18_Attain = "80"
 Inst86Quest18_Aim = "Tötet Ignis der Meister des Eisenwerks."
-Inst86Quest18_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest18_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst86Quest18_Note = "Ignis der Meister des Eisenwerks is at "..YELLOW.."Die Belagerung [3]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst86Quest18_Prequest = "Nein"
 Inst86Quest18_Folgequest = "Nein"
@@ -11374,7 +11302,7 @@ Inst86Quest19 = "19. Klingenschuppe muss sterben! (Wöchentlich)"
 Inst86Quest19_Level = "80"
 Inst86Quest19_Attain = "80"
 Inst86Quest19_Aim = "Tötet Klingenschuppe."
-Inst86Quest19_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest19_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst86Quest19_Note = "Klingenschuppe ist bei "..YELLOW.."Die Belagerung [2]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst86Quest19_Prequest = "Nein"
 Inst86Quest19_Folgequest = "Nein"
@@ -11387,7 +11315,7 @@ Inst86Quest20 = "20. XT-002 Dekonstruktor muss sterben! (Wöchentlich)"
 Inst86Quest20_Level = "80"
 Inst86Quest20_Attain = "80"
 Inst86Quest20_Aim = "Tötet XT-002 Dekonstruktor."
-Inst86Quest20_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst86Quest20_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst86Quest20_Note = "XT-002 Dekonstruktor ist bei "..YELLOW.."Die Belagerung [4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst86Quest20_Prequest = "Nein"
 Inst86Quest20_Folgequest = "Nein"
@@ -11671,7 +11599,7 @@ Inst88Quest1 = "1. Lord Jaraxxus muss sterben! (Wöchentlich)"
 Inst88Quest1_Level = "80"
 Inst88Quest1_Attain = "80"
 Inst88Quest1_Aim = "Tötet Lord Jaraxxus."
-Inst88Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst88Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst88Quest1_Note = "Lord Jaraxxus ist der zweite Boss.\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst88Quest1_Prequest = "Nein"
 Inst88Quest1_Folgequest = "Nein"
@@ -11977,7 +11905,7 @@ Inst93Quest1 = "1. Lord Mark'gar muss sterben! (Wöchentlich)"
 Inst93Quest1_Level = "80"
 Inst93Quest1_Attain = "80"
 Inst93Quest1_Aim = "Tötet Lord Mark'gar."
-Inst93Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst93Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst93Quest1_Note = "Lord Mark'gar ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst93Quest1_Prequest = "Nein"
 Inst93Quest1_Folgequest = "Nein"
@@ -12348,11 +12276,11 @@ Inst94QAA = "3 Quests"
 Inst94QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst94Quest1 = "1. Schwierigkeiten beim Wyrmruhtempel"
+Inst94Quest1 = "1. Ärger am Wyrmruhtempel"
 Inst94Quest1_Level = "80"
 Inst94Quest1_Attain = "80"
-Inst94Quest1_Aim = "Sprecht mit Krasus beim Wyrmruhtempel in der Drachenöde."
-Inst94Quest1_Location = "MISSING INFO"
+Inst94Quest1_Aim = "Sprecht mit Krasus im Wyrmruhtempel in der Drachenöde."
+Inst94Quest1_Location = "Rhonin (Dalaran - Die Violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")"
 Inst94Quest1_Note = "Krasus ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")."
 Inst94Quest1_Prequest = "Nein"
 Inst94Quest1_Folgequest = "Angriff auf das Sanktum"
@@ -12362,10 +12290,10 @@ Inst94Quest1_Folgequest = "Angriff auf das Sanktum"
 Inst94Quest2 = "2. Angriff auf das Sanktum"
 Inst94Quest2_Level = "80"
 Inst94Quest2_Attain = "80"
-Inst94Quest2_Aim = "Untersucht das Rubinrote Sanktum unter dem Wyrmruhtempel."
+Inst94Quest2_Aim = "Untersucht das Rubinsanktum unterhalb des Wyrmruhtempels."
 Inst94Quest2_Location = "Krasus (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst94Quest2_Note = "Verteidiger des Sanktum Xerestrasza ist innerhalb des Rubin Sanktum bei dem Portal."
-Inst94Quest2_Prequest = "Schwierigkeiten beim Wyrmruhtempel"
+Inst94Quest2_Note = "Wächterin des Sanktum Xerestrasza ist innerhalb des Rubin Sanktum bei dem 2. Nebenboss Baltharus der Kriegsjünger bei "..YELLOW.."[4]"..WHITE.."."
+Inst94Quest2_Prequest = "Ärger am Wyrmruhtempel"
 Inst94Quest2_Folgequest = "Der Zwielicht Zerstörer"
 Inst94Quest2FQuest = "true"
 -- No Rewards for this quest
@@ -12375,9 +12303,9 @@ Inst94Quest3 = "3. Der Zwielicht Zerstörer"
 Inst94Quest3_Level = "80"
 Inst94Quest3_Attain = "80"
 Inst94Quest3_Aim = "Besiegt Halion und vertreibt die Invasion aus dem Rubinsanktum."
-Inst94Quest3_Location = "Verteidiger des Sanktum Xerestrasza (Rubinsanktum; "..YELLOW.."[A] Eingang"..WHITE..")"
+Inst94Quest3_Location = "Wächterin des Sanktum Xerestrasza (Rubinsanktum; "..YELLOW.."[A] Eingang"..WHITE..")"
 Inst94Quest3_Note = "Halion ist der Hauptboss, zu finden bei "..YELLOW.."[1]"..WHITE.."."
-Inst94Quest3_Prequest = "Schwierigkeiten beim Wyrmruhtempel"
+Inst94Quest3_Prequest = "Ärger am Wyrmruhtempel"
 Inst94Quest3_Folgequest = "Nein"
 Inst94Quest3FQuest = "true"
 --
