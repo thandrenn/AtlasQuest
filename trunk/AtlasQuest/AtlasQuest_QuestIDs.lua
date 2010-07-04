@@ -1144,26 +1144,17 @@ AQ_11003_Level = "70"
 Inst41Quest1_QuestID = "9738"
 Inst41Quest2_QuestID = "11368"
 Inst41Quest3_QuestID = "13431"
-Inst41Quest4_QuestID = "11955"
-Inst41Quest5_QuestID = "11696"
-Inst41Quest6_QuestID = "11691"
-Inst41Quest7_QuestID = "11972"
+Inst41Quest4_QuestID = "11972"
 
 Inst41Quest1_HORDE_QuestID = "9738"
 Inst41Quest2_HORDE_QuestID = "11368"
 Inst41Quest3_HORDE_QuestID = "13431"
-Inst41Quest4_HORDE_QuestID = "11955"
-Inst41Quest5_HORDE_QuestID = "11696"
-Inst41Quest6_HORDE_QuestID = "11691"
-Inst41Quest7_HORDE_QuestID = "11972"
+Inst41Quest4_HORDE_QuestID = "11972"
 
 
 AQ_9738_Level = "65"
 AQ_11368_Level = "70"
 AQ_13431_Level = "70"
-AQ_11955_Level = "70"
-AQ_11696_Level = "70"
-AQ_11691_Level = "70"
 AQ_11972_Level = "70"
 
 
