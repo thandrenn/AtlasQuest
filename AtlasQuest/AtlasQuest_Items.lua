@@ -4256,28 +4256,19 @@ Inst41Quest2ID1 = "29434"
 Inst41Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst41Quest4Rewardtext = AQNoReward
-
---Quest 5 Alliance
-Inst41Quest5Rewardtext = AQNoReward
-
---Quest 6 Alliance
-Inst41Quest6Rewardtext = AQNoReward
-
---Quest 7 Alliance
-Inst41Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_AND..WHITE.."3(x20)"
+Inst41Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_AND..WHITE.."3(x20)"
 --ITEM1
-Inst41Quest7ITC1 = Itemc4;
-Inst41Quest7description1 = AQITEM_TABARD
-Inst41Quest7ID1 = "35279"
+Inst41Quest4ITC1 = Itemc4;
+Inst41Quest4description1 = AQITEM_TABARD
+Inst41Quest4ID1 = "35279"
 --ITEM2
-Inst41Quest7ITC2 = Itemc4;
-Inst41Quest7description2 = AQITEM_TABARD
-Inst41Quest7ID2 = "35280"
+Inst41Quest4ITC2 = Itemc4;
+Inst41Quest4description2 = AQITEM_TABARD
+Inst41Quest4ID2 = "35280"
 --ITEM3
-Inst41Quest7ITC3 = Itemc2;
-Inst41Quest7description3 = AQITEM_ITEM
-Inst41Quest7ID3 = "23247"
+Inst41Quest4ITC3 = Itemc2;
+Inst41Quest4description3 = AQITEM_ITEM
+Inst41Quest4ID3 = "23247"
 
 
 --Quest 1 Horde
@@ -4306,28 +4297,19 @@ Inst41Quest2ID1_HORDE = "29434"
 Inst41Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst41Quest4Rewardtext_HORDE = AQNoReward
-
---Quest 5 Horde
-Inst41Quest5Rewardtext_HORDE = AQNoReward
-
---Quest 6 Horde
-Inst41Quest6Rewardtext_HORDE = AQNoReward
-
---Quest 7 Horde
-Inst41Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_AND..WHITE.."3(x20)"
+Inst41Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_AND..WHITE.."3(x20)"
 --ITEM1
-Inst41Quest7ITC1_HORDE = Itemc4;
-Inst41Quest7description1_HORDE = AQITEM_TABARD
-Inst41Quest7ID1_HORDE = "35279"
+Inst41Quest4ITC1_HORDE = Itemc4;
+Inst41Quest4description1_HORDE = AQITEM_TABARD
+Inst41Quest4ID1_HORDE = "35279"
 --ITEM2
-Inst41Quest7ITC2_HORDE = Itemc4;
-Inst41Quest7description2_HORDE = AQITEM_TABARD
-Inst41Quest7ID2_HORDE = "35280"
+Inst41Quest4ITC2_HORDE = Itemc4;
+Inst41Quest4description2_HORDE = AQITEM_TABARD
+Inst41Quest4ID2_HORDE = "35280"
 --ITEM3
-Inst41Quest7ITC3_HORDE = Itemc2;
-Inst41Quest7description3_HORDE = AQITEM_ITEM
-Inst41Quest7ID3_HORDE = "23247"
+Inst41Quest4ITC3_HORDE = Itemc2;
+Inst41Quest4description3_HORDE = AQITEM_ITEM
+Inst41Quest4ID3_HORDE = "23247"
 
 
 

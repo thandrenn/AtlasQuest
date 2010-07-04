@@ -6744,8 +6744,8 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 Inst41Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst41Caption = "CR: The Slave Pens"
-Inst41QAA = "7 Quests"
-Inst41QAH = "7 Quests"
+Inst41QAA = "4 Quests"
+Inst41QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst41Quest1 = "1. Lost in Action"
@@ -6786,54 +6786,18 @@ Inst41Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst41Quest4 = "4. Ahune, the Frost Lord (Seasonal)"
-Inst41Quest4_Level = "70"
-Inst41Quest4_Attain = "65"
-Inst41Quest4_Aim = "Travel to the Slave Pens in Coilfang Reservoir within Zangarmarsh and speak with Numa Cloudsister."
-Inst41Quest4_Location = "Earthen Ring Elder (Found at Midsummer Bonfires in all Major Cities)"
-Inst41Quest4_Note = "Numa Cloudsister is just inside the entrance to Slave Pens. This quest is not required to summon Ahune. If you just go to the instance at level 65 or higher without having done any of the quests, you will still be able to summon him."
-Inst41Quest4_Prequest = "Unusual Activity -> Inform the Elder"
-Inst41Quest4_Folgequest = "Ahune is Here!"
-Inst41Quest4PreQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst41Quest5 = "5. Ahune is Here! (Seasonal)"
-Inst41Quest5_Level = "70"
-Inst41Quest5_Attain = "65"
-Inst41Quest5_Aim = "Find Luma Skymother in the Slave Pens."
-Inst41Quest5_Location = "Numa Cloudsister (Slave Pens; "..YELLOW.."Just inside the portal"..WHITE..")"
-Inst41Quest5_Note = "Luma Skymother is near "..YELLOW.."[1]"..WHITE..". You don't have to do any of the other seasonal quests to obtain this quest. The prequest is optional."
-Inst41Quest5_Prequest = "Ahune, the Frost Lord (Optional)"
-Inst41Quest5_Folgequest = "Summon Ahune"
-Inst41Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst41Quest6 = "6. Summon Ahune (Daily - Seasonal)"
-Inst41Quest6_Level = "70"
-Inst41Quest6_Attain = "65"
-Inst41Quest6_Aim = "Bring the Earthen Ring Magma Totem to the Ice Stone."
-Inst41Quest6_Location = "Luma Skymother (Slave Pens; "..YELLOW.."Near [1]"..WHITE..")"
-Inst41Quest6_Note = "The Ice Stone is a short distance from Luma Skymother. Completing this quest summons Ahune at "..YELLOW.."[1]"..WHITE..". It can be done once a day per character."
-Inst41Quest6_Prequest = "Ahune is Here!"
-Inst41Quest6_Folgequest = "None"
-Inst41Quest6FQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst41Quest7 = "7. Shards of Ahune (Seasonal)"
-Inst41Quest7_Level = "70"
-Inst41Quest7_Attain = "65"
-Inst41Quest7_Aim = "Bring the Ice Shards to Luma Skymother."
-Inst41Quest7_Location = "Shards of Ahune (drops from Ice Chest after Ahune, The Frost Lord is killed)"
-Inst41Quest7_Note = "Luma Skymother is at (Slave Pens; "..YELLOW.."Near [1]"..WHITE.."). This item will only drop once a year per character."
-Inst41Quest7_Prequest = "None"
-Inst41Quest7_Folgequest = "None"
+Inst41Quest4 = "4. Shards of Ahune (Seasonal)"
+Inst41Quest4_Level = "80"
+Inst41Quest4_Attain = "75"
+Inst41Quest4_Aim = "Bring the Ice Shards to Luma Skymother."
+Inst41Quest4_Location = "Shards of Ahune (drops from Ice Chest after Ahune, The Frost Lord is killed)"
+Inst41Quest4_Note = "Luma Skymother is at (Slave Pens; "..YELLOW.."Near [1]"..WHITE.."). This item will only drop once per character."
+Inst41Quest4_Prequest = "None"
+Inst41Quest4_Folgequest = "None"
 --
-Inst41Quest7name1 = "Tabard of Summer Skies"
-Inst41Quest7name2 = "Tabard of Summer Flames"
-Inst41Quest7name3 = "Burning Blossom"
+Inst41Quest4name1 = "Tabard of Summer Skies"
+Inst41Quest4name2 = "Tabard of Summer Flames"
+Inst41Quest4name3 = "Burning Blossom"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6883,46 +6847,10 @@ Inst41Quest4_HORDE_Location = Inst41Quest4_Location
 Inst41Quest4_HORDE_Note = Inst41Quest4_Note
 Inst41Quest4_HORDE_Prequest = Inst41Quest4_Prequest
 Inst41Quest4_HORDE_Folgequest = Inst41Quest4_Folgequest
-Inst41Quest4PreQuest_HORDE = Inst41Quest4PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst41Quest5_HORDE = Inst41Quest5
-Inst41Quest5_HORDE_Level = Inst41Quest5_Level
-Inst41Quest5_HORDE_Attain = Inst41Quest5_Attain
-Inst41Quest5_HORDE_Aim = Inst41Quest5_Aim
-Inst41Quest5_HORDE_Location = Inst41Quest5_Location
-Inst41Quest5_HORDE_Note = Inst41Quest5_Note
-Inst41Quest5_HORDE_Prequest = Inst41Quest5_Prequest
-Inst41Quest5_HORDE_Folgequest = Inst41Quest5_Folgequest
-Inst41Quest5FQuest_HORDE = Inst41Quest5FQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst41Quest6_HORDE = Inst41Quest6
-Inst41Quest6_HORDE_Level = Inst41Quest6_Level
-Inst41Quest6_HORDE_Attain = Inst41Quest6_Attain
-Inst41Quest6_HORDE_Aim = Inst41Quest6_Aim
-Inst41Quest6_HORDE_Location = Inst41Quest6_Location
-Inst41Quest6_HORDE_Note = Inst41Quest6_Note
-Inst41Quest6_HORDE_Prequest = Inst41Quest6_Prequest
-Inst41Quest6_HORDE_Folgequest = Inst41Quest6_Folgequest
-Inst41Quest6FQuest_HORDE = Inst41Quest6FQuest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst41Quest7_HORDE = Inst41Quest7
-Inst41Quest7_HORDE_Level = Inst41Quest7_Level
-Inst41Quest7_HORDE_Attain = Inst41Quest7_Attain
-Inst41Quest7_HORDE_Aim = Inst41Quest7_Aim
-Inst41Quest7_HORDE_Location = Inst41Quest7_Location
-Inst41Quest7_HORDE_Note = Inst41Quest7_Note
-Inst41Quest7_HORDE_Prequest = Inst41Quest7_Prequest
-Inst41Quest7_HORDE_Folgequest = Inst41Quest7_Folgequest
 --
-Inst41Quest7name1_HORDE = Inst41Quest7name1
-Inst41Quest7name2_HORDE = Inst41Quest7name2
-Inst41Quest7name3_HORDE = Inst41Quest7name3
+Inst41Quest4name1_HORDE = Inst41Quest4name1
+Inst41Quest4name2_HORDE = Inst41Quest4name2
+Inst41Quest4name3_HORDE = Inst41Quest4name3
 
 
 

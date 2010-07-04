@@ -6,6 +6,12 @@ Version 4.4.3 BETA
 
 - Localizations updated: ruRU, deDE, zhTW.
 - Added quest giver for Ruby Sanctum: Trouble at Wyrmrest Temple.
+- Updated level for Slave Pens: Shards of Ahune
+
+- Removed the following quests no longer ingame:
+	- Slave Pens: Ahune, the Frost Lord
+	- Slave Pens: Ahune is here!
+	- Slave Pens: Summon Ahune
 
 
 
