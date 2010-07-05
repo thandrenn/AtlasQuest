@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2010-07-01
-	最後更新﹕二○一○年七月一日
+	Last Updated: 2010-07-05
+	最後更新﹕二○一○年七月五日
 	新增　巫妖王之怒 - 晶紅聖所　故事＆任務
 
 --]]
@@ -6770,8 +6770,8 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 Inst41Story = "贊格沼澤微妙的生態平衡已經被破壞了。\n\n贊格沼澤的水位逐漸下降，異常的腐化現象也正擴散感染到這裡的植物生態。非自然的現像正在腐蝕和破壞沼澤原生的動植物。\n\n所有的跡象似乎都和毒蛇之湖底下新近發現的一連串洞穴有關，以及佔據在裡頭的納迦和他們的手下。\n\n傳聞這座神秘建築物的所有人不是別人，正是惡名昭彰的瓦許女士。\n\n在瓦許女士的率領之下，那些納迦似乎正在秘密重建一個新的永恆之井，而且是直接受命於背叛者伊利丹．怒風的指示。萬一要是讓他們的計畫成功的話，後果實在是不堪設想。在一切變得太遲之前，只有你能夠揭發她的惡毒計劃並阻止她和她的手下！\n\n盤牙蓄湖分為4個部分，3個5人副本（奴隸監獄，深幽泥沼，蒸汽洞窟）和一個25人團隊副本（毒蛇神殿洞穴）。"
 Inst41Caption = "盤牙蓄湖：奴隸監獄"
-Inst41QAA = "7 個任務"
-Inst41QAH = "7 個任務"
+Inst41QAA = "4 個任務"
+Inst41QAH = "4 個任務"
 Inst41General = {
     {
     "背叛者曼紐",
@@ -6831,54 +6831,18 @@ Inst41Quest3_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst41Quest4 = "4. 艾胡恩，冰霜領主 (季節性 仲夏火焰節)"
-Inst41Quest4_Level = "70"
-Inst41Quest4_Attain = "65"
-Inst41Quest4_Aim = "前往贊格沼澤的盤牙蓄湖，進入其中的奴隸監獄，並且和紐瑪．雲女交談。"
-Inst41Quest4_Location = "陶土議會長者（所有主城的仲夏大營火旁）"
-Inst41Quest4_Note = "紐瑪．雲女就在奴隸監獄的入口處。當然，這個任務也不是召喚艾胡恩的必須任務，只要你在65級以上，不用完成任何任務也可以召喚艾胡恩。"
-Inst41Quest4_Prequest = "不尋常的活動→無辜的偽裝→通知長者"
-Inst41Quest4_Folgequest = "艾胡恩就在這裡！"
-Inst41Quest4PreQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst41Quest5 = "5. 艾胡恩就在這裡! (季節性 仲夏火焰節)"
-Inst41Quest5_Level = "70"
-Inst41Quest5_Attain = "65"
-Inst41Quest5_Aim = "在奴隸監獄中找到魯瑪．天母。"
-Inst41Quest5_Location = "紐瑪．雲女（奴隸監獄; "..YELLOW.."副本入口處"..WHITE.."）"
-Inst41Quest5_Note = "魯瑪．天母在 "..YELLOW.."[1]"..WHITE.."。你不需要做任何前置任務就可以接到這個任務。"
-Inst41Quest5_Prequest = "艾胡恩，冰霜領主（非必須的）"
-Inst41Quest5_Folgequest = "召喚艾胡恩"
-Inst41Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst41Quest6 = "6. 召喚艾胡恩 (季節性每日 仲夏火焰節)"
-Inst41Quest6_Level = "70"
-Inst41Quest6_Attain = "65"
-Inst41Quest6_Aim = "將陶土議會熔岩圖騰帶到冰石旁邊"
-Inst41Quest6_Location = "魯瑪．天母（奴隸監獄; "..YELLOW.."[1]"..WHITE.."）"
-Inst41Quest6_Note = "冰石就在離魯瑪很近的地方。完成這個任務並在 "..YELLOW.."[1]"..WHITE.."召喚艾胡恩。完成這個任務將算一個每日。"
-Inst41Quest6_Prequest = "艾胡恩就在這裡！"
-Inst41Quest6_Folgequest = "無"
-Inst41Quest6FQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst41Quest7 = "7. 艾胡恩裂片 (季節性 仲夏火焰節)"
-Inst41Quest7_Level = "70"
-Inst41Quest7_Attain = "65"
-Inst41Quest7_Aim = "將寒冰裂片交給魯瑪．天母。"
-Inst41Quest7_Location = "艾胡恩裂片（在殺死冰霜領主艾胡恩之後你可以從箱子裡面拾取）"
-Inst41Quest7_Note = "魯瑪．天母（奴隸監獄; "..YELLOW.."[1]"..WHITE.."）。這個物品每個角色一年只能得到一個。"
-Inst41Quest7_Prequest = "無"
-Inst41Quest7_Folgequest = "無"
+Inst41Quest4 = "4. 艾胡恩裂片 (季節性 仲夏火焰節)"
+Inst41Quest4_Level = "80"
+Inst41Quest4_Attain = "75"
+Inst41Quest4_Aim = "將寒冰裂片交給魯瑪．天母。"
+Inst41Quest4_Location = "艾胡恩裂片（在殺死冰霜領主艾胡恩之後你可以從箱子裡面拾取）"
+Inst41Quest4_Note = "魯瑪．天母（奴隸監獄; "..YELLOW.."[1]"..WHITE.."）。這個物品每個角色只能得到一個。"
+Inst41Quest4_Prequest = "無"
+Inst41Quest4_Folgequest = "無"
 --
-Inst41Quest7name1 = "夏日晴空外袍"
-Inst41Quest7name2 = "夏日烈焰外袍"
-Inst41Quest7name3 = "燃燒之花"
+Inst41Quest4name1 = "夏日晴空外袍"
+Inst41Quest4name2 = "夏日烈焰外袍"
+Inst41Quest4name3 = "燃燒之花"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6928,46 +6892,10 @@ Inst41Quest4_HORDE_Location = Inst41Quest4_Location
 Inst41Quest4_HORDE_Note = Inst41Quest4_Note
 Inst41Quest4_HORDE_Prequest = Inst41Quest4_Prequest
 Inst41Quest4_HORDE_Folgequest = Inst41Quest4_Folgequest
-Inst41Quest4PreQuest_HORDE = Inst41Quest4PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst41Quest5_HORDE = Inst41Quest5
-Inst41Quest5_HORDE_Level = Inst41Quest5_Level
-Inst41Quest5_HORDE_Attain = Inst41Quest5_Attain
-Inst41Quest5_HORDE_Aim = Inst41Quest5_Aim
-Inst41Quest5_HORDE_Location = Inst41Quest5_Location
-Inst41Quest5_HORDE_Note = Inst41Quest5_Note
-Inst41Quest5_HORDE_Prequest = Inst41Quest5_Prequest
-Inst41Quest5_HORDE_Folgequest = Inst41Quest5_Folgequest
-Inst41Quest5FQuest_HORDE = Inst41Quest5FQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst41Quest6_HORDE = Inst41Quest6
-Inst41Quest6_HORDE_Level = Inst41Quest6_Level
-Inst41Quest6_HORDE_Attain = Inst41Quest6_Attain
-Inst41Quest6_HORDE_Aim = Inst41Quest6_Aim
-Inst41Quest6_HORDE_Location = Inst41Quest6_Location
-Inst41Quest6_HORDE_Note = Inst41Quest6_Note
-Inst41Quest6_HORDE_Prequest = Inst41Quest6_Prequest
-Inst41Quest6_HORDE_Folgequest = Inst41Quest6_Folgequest
-Inst41Quest6FQuest_HORDE = Inst41Quest6FQuest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst41Quest7_HORDE = Inst41Quest7
-Inst41Quest7_HORDE_Level = Inst41Quest7_Level
-Inst41Quest7_HORDE_Attain = Inst41Quest7_Attain
-Inst41Quest7_HORDE_Aim = Inst41Quest7_Aim
-Inst41Quest7_HORDE_Location = Inst41Quest7_Location
-Inst41Quest7_HORDE_Note = Inst41Quest7_Note
-Inst41Quest7_HORDE_Prequest = Inst41Quest7_Prequest
-Inst41Quest7_HORDE_Folgequest = Inst41Quest7_Folgequest
 --
-Inst41Quest7name1_HORDE = Inst41Quest7name1
-Inst41Quest7name2_HORDE = Inst41Quest7name2
-Inst41Quest7name3_HORDE = Inst41Quest7name3
+Inst41Quest4name1_HORDE = Inst41Quest4name1
+Inst41Quest4name2_HORDE = Inst41Quest4name2
+Inst41Quest4name3_HORDE = Inst41Quest4name3
 
 
 
@@ -12897,42 +12825,42 @@ Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
 
 --------------- INST94 - Ruby Sanctum (RS)  ---------------
 
-Inst94Story = "一支由強大的暮光巨龍哈利恩率領的黑龍軍團麾下部族向龍眠神殿下的晶紅聖所發起了攻擊。黑龍軍團想要通過摧毀聖殿來為主人奈薩里奧回歸艾澤拉斯大陸掃清道路，並最終毀滅各色巨龍的神聖契約——龍眠聯軍。\n\n這場襲擊目的將是重創紅龍軍團，然而你將需要阻止這場突襲並保衛晶紅聖所。首先你將需要面對哈利恩的僕從，薩維亞納．怒火，為戰鬥而生的巴爾薩魯斯和札里瑟里恩將軍，然後方能挑戰暮光毀滅者哈利恩。"
+Inst94Story = "一支由強大的暮光巨龍哈利恩率領的黑龍軍團麾下部族向龍眠神殿下的晶紅聖所發起了攻擊。黑龍軍團想要通過摧毀聖殿來為主人奈薩里奧回歸艾澤拉斯大陸掃清道路，並最終毀滅各色巨龍的神聖契約——龍眠聯軍。\n\n這場襲擊目的將是重創紅龍軍團，然而你將需要阻止這場突襲並保衛晶紅聖所。首先你將需要面對哈利恩的僕從，薩維亞納．怒火，為戰鬥而生的巴爾薩魯斯和扎里斯利安將軍，然後方能挑戰暮光毀滅者哈利恩。"
 Inst94Caption = "晶紅聖所"
 Inst94QAA = "3 個任務"
 Inst94QAH = "3 個任務"
 
 --Quest 1 Alliance
-Inst94Quest1 = "1. 龍眠神殿告急"
+Inst94Quest1 = "1. 龍眠神殿的麻煩"
 Inst94Quest1_Level = "80"
 Inst94Quest1_Attain = "80"
-Inst94Quest1_Aim = "和卡薩斯交談，他在龍骨荒野的龍眠神殿中。"
+Inst94Quest1_Aim = "到龍骨荒野的龍眠神殿找卡薩斯談談。"
 Inst94Quest1_Location = "羅甯（達拉然 - 紫羅蘭城塞; "..YELLOW.."30.5, 48.4"..WHITE.."）"
 Inst94Quest1_Note = "卡薩斯（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）"
 Inst94Quest1_Prequest = "無"
-Inst94Quest1_Folgequest = "晶紅聖所的恐怖襲擊"
+Inst94Quest1_Folgequest = "對聖所的攻擊"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst94Quest2 = "2. 晶紅聖所的恐怖襲擊"
+Inst94Quest2 = "2. 對聖所的攻擊"
 Inst94Quest2_Level = "80"
 Inst94Quest2_Attain = "80"
-Inst94Quest2_Aim = "調查龍眠神殿下的晶紅聖所。"
+Inst94Quest2_Aim = "調查龍眠神殿下的晶紅神殿。"
 Inst94Quest2_Location = "卡薩斯（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）"
-Inst94Quest2_Note = "聖所守護者Xerestrasza在晶紅聖所內，並且會在你擊敗巴爾薩魯斯"..YELLOW.."[4]"..WHITE.."之後現身。"
-Inst94Quest2_Prequest = "龍眠神殿告急（非必要的）"
-Inst94Quest2_Folgequest = "暮光之災"
+Inst94Quest2_Note = "聖所守護者克莉絲塔薩在晶紅聖所內，並且會在你擊敗巴爾薩魯斯"..YELLOW.."[4]"..WHITE.."之後現身。"
+Inst94Quest2_Prequest = "龍眠神殿的麻煩（非必要的）"
+Inst94Quest2_Folgequest = "暮光毀滅者"
 Inst94Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst94Quest3 = "3. 暮光之災"
+Inst94Quest3 = "3. 暮光毀滅者"
 Inst94Quest3_Level = "80"
 Inst94Quest3_Attain = "80"
-Inst94Quest3_Aim = "殺死哈利恩，並擊退進攻晶紅聖所的黑龍軍團。"
-Inst94Quest3_Location = "聖所守護者Xerestrasza（晶紅聖所; "..YELLOW.."[A] 入口"..WHITE.."）"
-Inst94Quest3_Note = "哈利恩是晶紅聖所內的主要首領，位於"..YELLOW.."[1]"..WHITE.."。"
-Inst94Quest3_Prequest = "龍眠神殿告急"
+Inst94Quest3_Aim = "擊敗海萊恩並擊退對晶紅聖所的入侵。"
+Inst94Quest3_Location = "聖所守護者克莉絲塔薩（晶紅聖所; "..YELLOW.."[A] 入口"..WHITE.."）"
+Inst94Quest3_Note = "海萊恩是晶紅聖所內的主要首領，位於"..YELLOW.."[1]"..WHITE.."。"
+Inst94Quest3_Prequest = "對聖所的攻擊"
 Inst94Quest3_Folgequest = "無"
 Inst94Quest3FQuest = "true"
 --
