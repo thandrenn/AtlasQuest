@@ -6741,8 +6741,8 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 Inst41Story = "Хрупкий баланс экологии Зангартопи был нарушен.\n\nНеестественный феномен исковеркал и разрушил природную флору и фауну болота.\n\nЭти беспорядки проследили до вызывающего нехорошие предчуствия Резервуара Кривого Клыка.\n\nХодят слухи, что предводителем этих таинственных сил является никто иной, как печально известная Леди Вайш.\n\nТолько вы можете раскрыть ее нечестивые планы и предотвратить их, пока не стало слишком поздно.\n\nРезервуар Кривого Клыка разделен на четыре зоны, три из которых - подземелья рассчитанные на 5 игроков (Узилище, Нижетопь, и Паровое подземелье), а еще одна - рейдовое подземелье на 25 человек - Змеиное святилище. "
 Inst41Caption = "РКК: Узилище"
-Inst41QAA = "7 Заданий"
-Inst41QAH = "7 Заданий"
+Inst41QAA = "4 Заданий"
+Inst41QAH = "4 Заданий"
 
 --Quest 1 Alliance
 Inst41Quest1 = "1. Погибли при исполнении"
@@ -6760,12 +6760,12 @@ Inst41Quest1name2 = "Goldenvine Wraps"
 Inst41Quest1name3 = "Dark Cloak of the Marsh"
 
 --Quest 2 Alliance
-Inst41Quest2 = "2. Требуется: сердце Квагмирран (Героическое (ежедн.))"
+Inst41Quest2 = "2. Требуется: сердце Зыбуна (Героическое (ежедн.))"
 Inst41Quest2_Level = "70"
 Inst41Quest2_Attain = "70"
-Inst41Quest2_Aim = "Добудьте сердце Квагмиррана и доставьте его торговцу ветром Зариму в Нижний Город Шаттрата за вознаграждение."
-Inst41Quest2_Location = "Торговец ветром Зерим (Шаттрат - Нижний город; "..YELLOW.."74,35"..WHITE..")"
-Inst41Quest2_Note = "Это ежедневное задание выполняется только в режиме героической сложности.\n\nКвагмирран находится около "..YELLOW.."[7]"..WHITE.."."
+Inst41Quest2_Aim = "Добудьте сердце Зыбуна и доставьте его торговцу ветром Зариму в Нижний Город Шаттрата за вознаграждение."
+Inst41Quest2_Location = "Торговец ветром Зарим (Шаттрат - Нижний город; "..YELLOW.."74,35"..WHITE..")"
+Inst41Quest2_Note = "Это ежедневное задание выполняется только в режиме героической сложности.\n\nЗыбун находится около "..YELLOW.."[7]"..WHITE.."."
 Inst41Quest2_Prequest = "Нет"
 Inst41Quest2_Folgequest = "Нет"
 --
@@ -6775,62 +6775,27 @@ Inst41Quest2name1 = "Знак справедливости"
 Inst41Quest3 = "3. Дубина Кардеша (Героическое)"
 Inst41Quest3_Level = "70"
 Inst41Quest3_Attain = "70"
-Inst41Quest3_Aim = "Принесите перстень Земли и пылающий перстень Скартису Еретику в Узилища в Резервуар Кривого Клыка."
-Inst41Quest3_Location = "Скартис Еретик (Узилище; "..YELLOW.."Героическое [4]"..WHITE..")"
-Inst41Quest3_Note = "Перстень Земли падает с Груула в "..YELLOW.."Логово Груула"..WHITE.." и пылающий перстень падает с Ночной Погибели в "..YELLOW.."Каражан"..WHITE..".\n\nЭто задание нужно было выполнить, чтобы войти в Змеиное святилище, но больше не необходимо."
+Inst41Quest3_Aim = "Принесите эталоны земли и огня Скартису Еретику в Узилище (героический уровень сложности) в Резервуар Кривого Клыка."
+Inst41Quest3_Location = "Скар'тис Еретик (Узилище; "..YELLOW.."Героическое [4]"..WHITE..")"
+Inst41Quest3_Note = "Перстень Земли падает с Груула в "..YELLOW.."Логово Груула"..WHITE..", а Эталон огня падает с Ночной Погибели в "..YELLOW.."Каражан"..WHITE..".\n\nЭто задание нужно было выполнить, чтобы войти в Змеиное святилище, но больше не необходимо."
 Inst41Quest3_Prequest = "Нет"
 Inst41Quest3_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst41Quest4 = "4. Ахун, Повелитель Холода (Сезонный)"
+Inst41Quest4 = "4. Осколки Ахуна (Сезонный)"
 Inst41Quest4_Level = "70"
 Inst41Quest4_Attain = "65"
-Inst41Quest4_Aim = "Отправляйтесь в Узилище в Резервуар Кривого Клыка, что в Зангартопи и поговорите с Нумой Сестрой Облаков."
-Inst41Quest4_Location = "Старейшина Кольца Земли (Можно найти во всех главных городах во время Праздника Середины лета)"
-Inst41Quest4_Note = "Нума Сестра Облаков находится прямо у входа внутри Узилища. Для этого задания не нужно призывать Ахуна. Если вы просто пойдете в подземелье на уровне 65 и выше, не выполнив никаких заданий, вы все равно сможете призвать его."
-Inst41Quest4_Prequest = "Необычная активность -> Сообщи старейшим"
-Inst41Quest4_Folgequest = "Ахун явился!"
-Inst41Quest4PreQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst41Quest5 = "5. Ахун явился! (Сезонный)"
-Inst41Quest5_Level = "70"
-Inst41Quest5_Attain = "65"
-Inst41Quest5_Aim = "Найдите Луму Матерь Небес в Узилище."
-Inst41Quest5_Location = "Нума Сестра Облаков (Узилище; "..YELLOW.."Прямо внутри портала"..WHITE..")"
-Inst41Quest5_Note = "Лума Матерь Небес находится около "..YELLOW.."[1]"..WHITE..". Вам необязательно делать другие сезонные задания, чтобы взять это. Предшествующее задание выполняется по желанию."
-Inst41Quest5_Prequest = "Ахун, Повелитель Холода (По желанию)"
-Inst41Quest5_Folgequest = "Призовите Ахуна"
-Inst41Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst41Quest6 = "6. Призовите Ахуна ((ежедн.) - Сезонный)"
-Inst41Quest6_Level = "70"
-Inst41Quest6_Attain = "65"
-Inst41Quest6_Aim = "Принесите Тотем магмы Служителей Земли к Камню Льда."
-Inst41Quest6_Location = "Лума Матерь Небес (Slave Pens; "..YELLOW.."Near [1]"..WHITE..")"
-Inst41Quest6_Note = "Камень льда находится недалеко от Лумы Матери Небес. Выполнение этого задания призовет Ахуна около "..YELLOW.."[1]"..WHITE..". Это можно делать один раз в день одним персонажем."
-Inst41Quest6_Prequest = "Ахун явился!"
-Inst41Quest6_Folgequest = "Нет"
-Inst41Quest6FQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst41Quest7 = "7. Осколки Ахуна (Сезонный)"
-Inst41Quest7_Level = "70"
-Inst41Quest7_Attain = "65"
-Inst41Quest7_Aim = "Принесите ледяные осколки Луме Матери Небес."
-Inst41Quest7_Location = "Осколки Ахуна (падают из Ледяного сундука после убийства Ахуна, Повелителя Холода)"
-Inst41Quest7_Note = "Лума Матерь Небес находится в (Узилище; "..YELLOW.."Около [1]"..WHITE.."). Этот предмет падает один раз в год одному персонажу."
-Inst41Quest7_Prequest = "Нет"
-Inst41Quest7_Folgequest = "Нет"
+Inst41Quest4_Aim = "Принесите ледяные осколки Луме Матери Небес."
+Inst41Quest4_Location = "Осколки Ахуна (падают из Ледяного сундука после убийства Ахуна, Повелителя Холода)"
+Inst41Quest4_Note = "Лума Матерь Небес находится в (Узилище; "..YELLOW.."Около [1]"..WHITE.."). Этот предмет падает один раз в год одному персонажу."
+Inst41Quest4_Prequest = "Нет"
+Inst41Quest4_Folgequest = "Нет"
 --
-Inst41Quest7name1 = "Tabard of Summer Skies"
-Inst41Quest7name2 = "Tabard of Summer Flames"
-Inst41Quest7name3 = "Burning Blossom"
+Inst41Quest7name1 = "Гербовая накидка летних небес"
+Inst41Quest7name2 = "Гербовая накидка летнего пламени"
+Inst41Quest7name3 = "Пылающий цвет"
+
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6880,46 +6845,10 @@ Inst41Quest4_HORDE_Location = Inst41Quest4_Location
 Inst41Quest4_HORDE_Note = Inst41Quest4_Note
 Inst41Quest4_HORDE_Prequest = Inst41Quest4_Prequest
 Inst41Quest4_HORDE_Folgequest = Inst41Quest4_Folgequest
-Inst41Quest4PreQuest_HORDE = Inst41Quest4PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst41Quest5_HORDE = Inst41Quest5
-Inst41Quest5_HORDE_Level = Inst41Quest5_Level
-Inst41Quest5_HORDE_Attain = Inst41Quest5_Attain
-Inst41Quest5_HORDE_Aim = Inst41Quest5_Aim
-Inst41Quest5_HORDE_Location = Inst41Quest5_Location
-Inst41Quest5_HORDE_Note = Inst41Quest5_Note
-Inst41Quest5_HORDE_Prequest = Inst41Quest5_Prequest
-Inst41Quest5_HORDE_Folgequest = Inst41Quest5_Folgequest
-Inst41Quest5FQuest_HORDE = Inst41Quest5FQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst41Quest6_HORDE = Inst41Quest6
-Inst41Quest6_HORDE_Level = Inst41Quest6_Level
-Inst41Quest6_HORDE_Attain = Inst41Quest6_Attain
-Inst41Quest6_HORDE_Aim = Inst41Quest6_Aim
-Inst41Quest6_HORDE_Location = Inst41Quest6_Location
-Inst41Quest6_HORDE_Note = Inst41Quest6_Note
-Inst41Quest6_HORDE_Prequest = Inst41Quest6_Prequest
-Inst41Quest6_HORDE_Folgequest = Inst41Quest6_Folgequest
-Inst41Quest6FQuest_HORDE = Inst41Quest6FQuest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst41Quest7_HORDE = Inst41Quest7
-Inst41Quest7_HORDE_Level = Inst41Quest7_Level
-Inst41Quest7_HORDE_Attain = Inst41Quest7_Attain
-Inst41Quest7_HORDE_Aim = Inst41Quest7_Aim
-Inst41Quest7_HORDE_Location = Inst41Quest7_Location
-Inst41Quest7_HORDE_Note = Inst41Quest7_Note
-Inst41Quest7_HORDE_Prequest = Inst41Quest7_Prequest
-Inst41Quest7_HORDE_Folgequest = Inst41Quest7_Folgequest
 --
-Inst41Quest7name1_HORDE = Inst41Quest7name1
-Inst41Quest7name2_HORDE = Inst41Quest7name2
-Inst41Quest7name3_HORDE = Inst41Quest7name3
+Inst41Quest4name1_HORDE = Inst41Quest4name1
+Inst41Quest4name2_HORDE = Inst41Quest4name2
+Inst41Quest4name3_HORDE = Inst41Quest4name3
 
 
 
