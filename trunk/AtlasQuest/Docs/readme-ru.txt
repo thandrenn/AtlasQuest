@@ -17,7 +17,7 @@ AtlasQuest был создан Asurn. В настоящий момент раз�
 поддерживается Thandrenn (aka Mystery8).
 
 Информация для AtlasQuest собирается "из первых рук" в игре, либо с
-ресурсов: WoWhead.com(ru.WoWhead.com), Thottbot.com или WoWwiki.com.
+ресурсов: WoWhead.com (ru.WoWhead.com), Thottbot.com или WoWwiki.com.
 
 
 
@@ -25,7 +25,7 @@ AtlasQuest был создан Asurn. В настоящий момент раз�
 =============
 
 EN: Thandrenn  (ранее Asurn и Lothaer)
-DE: Telchar and Nalumis  (ранее Asurn и Nihlo)
+DE: Telchar и Nalumis  (ранее Asurn и Nihlo)
 CN: yeachan (ранее DIY)
 TW: Jill
 RU: EvgeshaH (перевод до WotLK от lorientalas)
