@@ -12294,12 +12294,12 @@ Inst94Quest2_Aim = "Untersucht das Rubinsanktum unterhalb des Wyrmruhtempels."
 Inst94Quest2_Location = "Krasus (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")"
 Inst94Quest2_Note = "Wächterin des Sanktum Xerestrasza ist innerhalb des Rubin Sanktum bei dem 2. Nebenboss Baltharus der Kriegsjünger bei "..YELLOW.."[4]"..WHITE.."."
 Inst94Quest2_Prequest = "Ärger am Wyrmruhtempel"
-Inst94Quest2_Folgequest = "Der Zwielicht Zerstörer"
+Inst94Quest2_Folgequest = "Der Zwielichtzerstörer"
 Inst94Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst94Quest3 = "3. Der Zwielicht Zerstörer"
+Inst94Quest3 = "3. Der Zwielichtzerstörer"
 Inst94Quest3_Level = "80"
 Inst94Quest3_Attain = "80"
 Inst94Quest3_Aim = "Besiegt Halion und vertreibt die Invasion aus dem Rubinsanktum."
