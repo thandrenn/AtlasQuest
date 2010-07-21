@@ -871,8 +871,8 @@ Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
 
 Inst5Story = "Once the capital city of the Dark Iron dwarves, this volcanic labyrinth now serves as the seat of power for Ragnaros the Firelord. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain. Obsessed with defeating Nefarian and his draconic minions, Ragnaros will go to any extreme to achieve final victory."
 Inst5Caption = "Blackrock Depths"
-Inst5QAA = "16 Quests"
-Inst5QAH = "20 Quests"
+Inst5QAA = "15 Quests"
+Inst5QAH = "19 Quests"
 
 --Quest 1 Alliance
 Inst5Quest1 = "1. Dark Iron Legacy"
@@ -1054,27 +1054,16 @@ Inst5Quest14_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst5Quest15 = "15. Save Brewfest! (Seasonal)"
+Inst5Quest15 = "15. Direbrew's Dire Brew"
 Inst5Quest15_Level = "80"
 Inst5Quest15_Attain = "75"
-Inst5Quest15_Aim = "Speak with the Brewfest Spy in the Grim Guzzler of Blackrock Depths."
-Inst5Quest15_Location = "Darna Honeybock (Dun Morogh - Kharanos; "..YELLOW.."46.53"..WHITE..")"
-Inst5Quest15_Note = "This quest is only available during the Brewfest seasonal event. The Brewfest Spy is at "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest15_Aim = "Give Direbrew's Dire Brew to Ipfelkofer Ironkeg at the Brewfest camp near Ironforge."
+Inst5Quest15_Location = "Direbrew's Dire Brew (drops from Coren Direbrew at "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest15_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nIpfelkofer Ironkeg is at the Brewfest Camp at (Dun Morogh; "..YELLOW.."47,39"..WHITE..")."
 Inst5Quest15_Prequest = "None"
-Inst5Quest15_Folgequest = "Insult Coren Direbrew"
--- No Rewards for this quest
-
---Quest 16 Alliance
-Inst5Quest16 = "16. Insult Coren Direbrew (Daily - Seasonal)"
-Inst5Quest16_Level = "80"
-Inst5Quest16_Attain = "75"
-Inst5Quest16_Aim = "Speak with Coren Direbrew."
-Inst5Quest16_Location = "Brewfest Spy (Blackrock Depths - Grim Guzzler; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest16_Note = "Completing this quest will make Coren Direbrew attack you. It can be done once a day per person during the Brewfest seasonal event.\nThe prequest only needs to be done once. Afterwards you can start the daily from inside Blackrock Depths."
-Inst5Quest16_Prequest = "Save Brewfest!"
-Inst5Quest16_Folgequest = "None"
-Inst5Quest16FQuest = "true"
--- No Rewards for this quest
+Inst5Quest15_Folgequest = "None"
+--
+Inst5Quest15name1 = "Brewfest Prize Token"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1309,28 +1298,17 @@ Inst5Quest18_HORDE_Prequest = Inst5Quest14_Prequest
 Inst5Quest18_HORDE_Folgequest = Inst5Quest14_Folgequest
 -- No Rewards for this quest
 
---Quest 19 Horde  (same as Quest15 Alliance)
-Inst5Quest19_HORDE = "19. Save Brewfest! (Seasonal)"
-Inst5Quest19_HORDE_Level = Inst5Quest15_Level
-Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
-Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
-Inst5Quest19_HORDE_Location = Inst5Quest15_Location
-Inst5Quest19_HORDE_Note = Inst5Quest15_Note
-Inst5Quest19_HORDE_Prequest = Inst5Quest15_Prequest
-Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
--- No Rewards for this quest
-
---Quest 20 Horde  (same as Quest 16 Alliance)
-Inst5Quest20_HORDE = "20. Insult Coren Direbrew (Daily - Seasonal)"
-Inst5Quest20_HORDE_Level = Inst5Quest16_Level
-Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
-Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
-Inst5Quest20_HORDE_Location = Inst5Quest16_Location
-Inst5Quest20_HORDE_Note = Inst5Quest16_Note
-Inst5Quest20_HORDE_Prequest = Inst5Quest16_Prequest
-Inst5Quest20_HORDE_Folgequest = Inst5Quest16_Folgequest
-Inst5Quest20FQuest_HORDE = "true"
--- No Rewards for this quest
+--Quest 19 Horde
+Inst5Quest19_HORDE = "19. Direbrew's Dire Brew"
+Inst5Quest19_HORDE_Level = "80"
+Inst5Quest19_HORDE_Attain = "75"
+Inst5Quest19_HORDE_Aim = "Give Direbrew's Dire Brew to Tapper Swindlekeg at the Brewfest camp near Orgrimmar."
+Inst5Quest19_HORDE_Location = "Direbrew's Dire Brew (drops from Coren Direbrew at "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest19_HORDE_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nTapper Swindlekeg is at the Brewfest Camp at (Durotar; "..YELLOW.."45,17"..WHITE..")."
+Inst5Quest19_HORDE_Prequest = "None"
+Inst5Quest19_HORDE_Folgequest = "None"
+--
+Inst5Quest19name1_HORDE = "Brewfest Prize Token"
 
 
 
@@ -4265,8 +4243,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "During the Third War, the wizards of the Kirin Tor battled against the undead armies of the Scourge. When the wizards of Dalaran died in battle, they would rise soon after - adding their former might to the growing Scourge. Frustrated by their lack of progress (and against the advice of his peers) the Archmage, Arugal elected to summon extra-dimensional entities to bolster Dalaran's diminishing ranks. Arugal's summoning brought the ravenous worgen into the world of Azeroth. The feral wolf-men slaughtered not only the Scourge, but quickly turned on the wizards themselves. The worgen laid siege to the keep of the noble, Baron Silverlaine. Situated above the tiny hamlet of Pyrewood, the keep quickly fell into shadow and ruin. Driven mad with guilt, Arugal adopted the worgen as his children and retreated to the newly dubbed 'Shadowfang Keep'. It's said he still resides there, protected by his massive pet, Fenrus - and haunted by the vengeful ghost of Baron Silverlaine."
 Inst21Caption = "Shadowfang Keep"
-Inst21QAA = "5 Quests"
-Inst21QAH = "7 Quests"
+Inst21QAA = "3 Quests"
+Inst21QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. The Test of Righteousness (Paladin)"
@@ -4296,38 +4274,14 @@ Inst21Quest2name1 = "Orb of Soran'ruk"
 Inst21Quest2name2 = "Staff of Soran'ruk"
 
 --Quest 3 Alliance
-Inst21Quest3 = "3. Man on the Inside"
+Inst21Quest3 = "3. Something is in the Air (and it Ain't Love)"
 Inst21Quest3_Level = "80"
 Inst21Quest3_Attain = "75"
-Inst21Quest3_Aim = "Report to Investigator Fezzen Brasstacks in Shadowfang Keep."
-Inst21Quest3_Location = "Inspector Snip Snagglebolt (Stormwind City - Trade District; "..YELLOW.."61.7, 75.5"..WHITE..")"
-Inst21Quest3_Note = "This quest is for the Love is in the Air seasonal event.\n\nYou can find Investigator Fezzen Brasstacks by the door to the courtyard, at "..YELLOW.."[2]"..WHITE.."."
-Inst21Quest3_Prequest = "A Friendly Chat..."
-Inst21Quest3_Folgequest = "You've been Served"
-Inst21Quest3PreQuest = "true"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst21Quest4 = "4. You've been Served (Daily)"
-Inst21Quest4_Level = "80"
-Inst21Quest4_Attain = "75"
-Inst21Quest4_Aim = "Serve the Court Subpoena to Apothecary Hummel in Shadowfang Keep."
-Inst21Quest4_Location = "Investigator Fezzen Brasstacks (Shadowfang Keep; "..YELLOW.."[2]"..WHITE..")"
-Inst21Quest4_Note = "This quest is for the Love is in the Air seasonal event.\n\nThe prequest is optional.\n\nApothecary Hummel is at "..YELLOW.."[3]"..WHITE.." in the Courtyard. Turning in the quest starts the event, so make sure only one party member does it at a time."
-Inst21Quest4_Prequest = "Man on the Inside (optional)"
-Inst21Quest4_Folgequest = "Something is in the Air (and it Ain't Love)"
-Inst21Quest4FQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst21Quest5 = "5. Something is in the Air (and it Ain't Love)"
-Inst21Quest5_Level = "80"
-Inst21Quest5_Attain = "75"
-Inst21Quest5_Aim = "Bring the Faded Lovely Greeting Card to Inspector Snip Snagglebolt in Stormwind."
-Inst21Quest5_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
-Inst21Quest5_Note = "This quest is for the Love is in the Air seasonal event.\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.7, 75.5"..WHITE..")."
-Inst21Quest5_Prequest = "None"
-Inst21Quest5_Folgequest = "None"
+Inst21Quest3_Aim = "Bring the Faded Lovely Greeting Card to Inspector Snip Snagglebolt in Stormwind."
+Inst21Quest3_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
+Inst21Quest3_Note = "This quest is for the Love is in the Air seasonal event.\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest3_Prequest = "None"
+Inst21Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -4383,38 +4337,14 @@ Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 --Quest 5 Horde
-Inst21Quest5_HORDE = "5. Man on the Inside"
+Inst21Quest5_HORDE = "5. Something is in the Air (and it Ain't Love)"
 Inst21Quest5_HORDE_Level = "80"
 Inst21Quest5_HORDE_Attain = "75"
-Inst21Quest5_HORDE_Aim = "Report to Investigator Fezzen Brasstacks in Shadowfang Keep."
-Inst21Quest5_HORDE_Location = "Detective Snap Snagglebol (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")"
-Inst21Quest5_HORDE_Note = "This quest is for the Love is in the Air seasonal event.\n\nYou can find Investigator Fezzen Brasstacks by the door to the courtyard, at "..YELLOW.."[2]"..WHITE.."."
-Inst21Quest5_HORDE_Prequest = "A Friendly Chat..."
-Inst21Quest5_HORDE_Folgequest = "You've been Served"
-Inst21Quest5PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 4 Alliance)
-Inst21Quest6_HORDE = "6. You've Been Served (Daily)"
-Inst21Quest6_HORDE_Level = Inst21Quest4_Level
-Inst21Quest6_HORDE_Attain = Inst21Quest4_Attain
-Inst21Quest6_HORDE_Aim = Inst21Quest4_Aim
-Inst21Quest6_HORDE_Location = Inst21Quest4_Location
-Inst21Quest6_HORDE_Note = Inst21Quest4_Note
-Inst21Quest6_HORDE_Prequest = Inst21Quest4_Prequest
-Inst21Quest6_HORDE_Folgequest = Inst21Quest4_Folgequest
-Inst21Quest6FQuest_HORDE = Inst21Quest4FQuest
--- No Rewards for this quest
-
---Quest 7 Horde
-Inst21Quest7_HORDE = "7. Something is in the Air (and it Ain't Love)"
-Inst21Quest7_HORDE_Level = "80"
-Inst21Quest7_HORDE_Attain = "75"
-Inst21Quest7_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
-Inst21Quest7_HORDE_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
-Inst21Quest7_HORDE_Note = "This quest is for the Love is in the Air seasonal event.\n\nDetective Snap Snagglebol is at (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")."
-Inst21Quest7_HORDE_Prequest = "None"
-Inst21Quest7_HORDE_Folgequest = "None"
+Inst21Quest5_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
+Inst21Quest5_HORDE_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
+Inst21Quest5_HORDE_Note = "This quest is for the Love is in the Air seasonal event.\n\nDetective Snap Snagglebol is at (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest5_HORDE_Prequest = "None"
+Inst21Quest5_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 

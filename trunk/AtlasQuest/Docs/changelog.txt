@@ -8,10 +8,17 @@ Version 4.4.3 BETA
 - Added quest giver for Ruby Sanctum: Trouble at Wyrmrest Temple.
 - Updated level for Slave Pens: Shards of Ahune
 
-- Removed the following quests no longer ingame:
+- Quests added:
+	- Blackrock Depths: Direbrew's Dire Brew
+
+- Removed the following seasonal quests no longer ingame (LFG Dungeon Tool replaces them):
 	- Slave Pens: Ahune, the Frost Lord
 	- Slave Pens: Ahune is here!
 	- Slave Pens: Summon Ahune
+	- Blackrock Depths: Save Brewfest!
+	- Blackrock Depths: Insult Coren Direbrew
+	- Shadowfang Keep: Man on the Inside
+	- Shadowfang Keep: You've been Served
 
 
 

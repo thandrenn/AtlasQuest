@@ -592,10 +592,12 @@ Inst5Quest13Rewardtext = AQNoReward
 Inst5Quest14Rewardtext = AQNoReward
 
 --Quest 15 Alliance
-Inst5Quest15Rewardtext = AQNoReward
+Inst5Quest15Rewardtext = AQDiscription_REWARD..WHITE.."1(x40)"
+--ITEM1
+Inst5Quest15ITC1 = Itemc3;
+Inst5Quest15description1 = AQITEM_ITEM
+Inst5Quest15ID1 = "37829"
 
---Quest 16 Alliance
-Inst5Quest16Rewardtext = AQNoReward
 
 
 --Quest 1 Horde
@@ -753,10 +755,11 @@ Inst5Quest17Rewardtext_HORDE = AQNoReward
 Inst5Quest18Rewardtext_HORDE = AQNoReward
 
 --Quest 19 Horde
-Inst5Quest19Rewardtext_HORDE = AQNoReward
-
---Quest 20 Horde
-Inst5Quest20Rewardtext_HORDE = AQNoReward
+Inst5Quest19Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x40)"
+--ITEM1
+Inst5Quest19ITC1_HORDE = Itemc3;
+Inst5Quest19description1_HORDE = AQITEM_ITEM
+Inst5Quest19ID1_HORDE = "37829"
 
 
 
@@ -2608,12 +2611,6 @@ Inst21Quest2ID2 = "15109"
 --Quest 3 Alliance
 Inst21Quest3Rewardtext = AQNoReward
 
---Quest 4 Alliance
-Inst21Quest4Rewardtext = AQNoReward
-
---Quest 5 Alliance
-Inst21Quest5Rewardtext = AQNoReward
-
 
 
 --Quest 1 Horde
@@ -2654,12 +2651,6 @@ Inst21Quest4ID2_HORDE = "15109"
 
 --Quest 5 Horde
 Inst21Quest5Rewardtext_HORDE = AQNoReward
-
---Quest 6 Horde
-Inst21Quest6Rewardtext_HORDE = AQNoReward
-
---Quest 7 Horde
-Inst21Quest7Rewardtext_HORDE = AQNoReward
 
 
 

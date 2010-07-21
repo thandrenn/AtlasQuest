@@ -188,8 +188,7 @@ Inst5Quest11_QuestID = "4362"
 Inst5Quest12_QuestID = "7848"
 Inst5Quest13_QuestID = "9015"
 Inst5Quest14_QuestID = "4083"
-Inst5Quest15_QuestID = "12318"
-Inst5Quest16_QuestID = "12062"
+Inst5Quest15_QuestID = "12491"
 
 Inst5Quest1_HORDE_QuestID = "3802"
 Inst5Quest2_HORDE_QuestID = "4136"
@@ -209,8 +208,7 @@ Inst5Quest15_HORDE_QuestID = "4003"
 Inst5Quest16_HORDE_QuestID = "7848"
 Inst5Quest17_HORDE_QuestID = "9015"
 Inst5Quest18_HORDE_QuestID = "4083"
-Inst5Quest19_HORDE_QuestID = "12318"
-Inst5Quest20_HORDE_QuestID = "12062"
+Inst5Quest19_HORDE_QuestID = "12492"
 
 
 AQ_3802_Level = "52"
@@ -227,6 +225,7 @@ AQ_4362_Level = "59"
 AQ_7848_Level = "60"
 AQ_9015_Level = "60"
 AQ_4083_Level = "55"
+AQ_12491_Level = "80"
 AQ_4134_Level = "55"
 AQ_4081_Level = "52"
 AQ_4082_Level = "54"
@@ -237,8 +236,7 @@ AQ_3907_Level = "56"
 AQ_7201_Level = "54"
 AQ_3981_Level = "52"
 AQ_4003_Level = "59"
-AQ_12318_Level = "-1"
-AQ_12062_Level = "70"
+AQ_12492_Level = "80"
 
 
 
@@ -745,28 +743,21 @@ AQ_8258_Level = "60"
 
 Inst21Quest1_QuestID = "1654"
 Inst21Quest2_QuestID = "1740"
-Inst21Quest3_QuestID = "24792"
-Inst21Quest4_QuestID = "14488"
-Inst21Quest5_QuestID = "24745"
+Inst21Quest3_QuestID = "24745"
 
 Inst21Quest1_HORDE_QuestID = "1098"
 Inst21Quest2_HORDE_QuestID = "1013"
 Inst21Quest3_HORDE_QuestID = "1014"
 Inst21Quest4_HORDE_QuestID = "1740"
-Inst21Quest5_HORDE_QuestID = "24793"
-Inst21Quest6_HORDE_QuestID = "14488"
-Inst21Quest7_HORDE_QuestID = "14483"
+Inst21Quest5_HORDE_QuestID = "14483"
 
 
 --AQ_1654_Level = "22"  -- Already used for Deadmines. Left here just for the note.
 --AQ_1740_Level = "25"  -- Already used for Blackfathom Deeps. Left here just for the note.
-AQ_24792_Level = "78"
-AQ_14488_Level = "80"
 AQ_24745_Level = "80"
 AQ_1098_Level = "25"
 AQ_1013_Level = "26"
 AQ_1014_Level = "27"
-AQ_24793_Level = "80"
 AQ_14483_Level = "80"
 
 
