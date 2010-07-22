@@ -871,8 +871,8 @@ Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
 
 Inst5Story = "Когда-то будучи столицей дворфов клана Темного Железа, этот вулканический лабиринт теперь является безраздельными владениями Огненого лорда Рагнароса. Рагнорос открыл секрет создания жизни из камня и собирается построить армию неудержимых големов, чтобы те помогли ему завоевать всю Черную гору целиком. Помешавшись на мысли победить Нефариана и его драконьих прислужников, Рагнарос пойдет на любую крайность чтобы достичь окончательной победы."
 Inst5Caption = "Глубины Черной Горы"
-Inst5QAA = "16 Заданий"
-Inst5QAH = "20 Заданий"
+Inst5QAA = "15 Заданий"
+Inst5QAH = "19 Заданий"
 
 --Quest 1 Alliance
 Inst5Quest1 = "1. Наследие Черного Железа"
@@ -1053,28 +1053,17 @@ Inst5Quest14_Prequest = "Нет"
 Inst5Quest14_Folgequest = "Нет"
 -- No Rewards for this quest
 
---Quest 15Alliance
-Inst5Quest15= "15. Спасем Фестиваль пива! (Сезонный)"
+--Quest 15 Alliance
+Inst5Quest15 = "15. Худое варево Худовара"
 Inst5Quest15_Level = "80"
 Inst5Quest15_Attain = "75"
-Inst5Quest15_Aim = "Поговорите со шпионом Фестиваля пива в таверне 'Угрюмый обжора' в Глубинах Черной горы."
-Inst5Quest15_Location = "Дарна Медолей (Дун Морог - Каранос; "..YELLOW.."46.53"..WHITE..")"
-Inst5Quest15_Note = "Это задание доступно только во время сезонного Фестиваля пива. Шпион Фестиваля пива находится около "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest15_Aim = "Отнесите Худое варево Худовара Ипфелькоферу Железному Бочонку в лагерь Хмельного фестиваля возле Стальгорна."
+Inst5Quest15_Location = "Худое варево Худовара (падает с Корена Худовара "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest15_Note = "Корен Худовар доступен только во время Хмельного фестиваля. Худое варево Худовара падает только раз в год одному персонажу.\n\nИпфелькофер Железный Бочонок находится в Хмельном лагере в (Дун Морог; "..YELLOW.."47,39"..WHITE..")."
 Inst5Quest15_Prequest = "Нет"
-Inst5Quest15_Folgequest = "Оскорбить Корена Худовара"
--- No Rewards for this quest
-
---Quest 16 Alliance
-Inst5Quest16 = "16. Оскорбить Корена Худовара ((ежедн.) - Сезонный)"
-Inst5Quest16_Level = "80"
-Inst5Quest16_Attain = "75"
-Inst5Quest16_Aim = "Поговорите с Кореном Худоваром."
-Inst5Quest16_Location = "Шпион Фестиваля пива (Глубины Черной горы - Угрюмый обжора; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest16_Note = "Выполнение задания заставит Корена Худовара атаковать вас. Его можно выполнять раз в день каждому члену группы во время сезонного Фестиваля пива.\nПредшествующее задание делается только один раз. После этого вы можете начать ежедневное задание прямо внутри глубин Черной горы."
-Inst5Quest16_Prequest = "Спасем Фестиваль пива!"
-Inst5Quest16Folgequest = "Нет"
-Inst5Quest16FQuest = "true"
--- No Rewards for this quest
+Inst5Quest15_Folgequest = "Нет"
+--
+Inst5Quest15name1 = "Призовой жетон Хмельного фестиваля"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1309,28 +1298,17 @@ Inst5Quest18_HORDE_Prequest = Inst5Quest14_Prequest
 Inst5Quest18_HORDE_Folgequest = Inst5Quest14_Folgequest
 -- No Rewards for this quest
 
---Quest 19 Horde  (same as Quest 15 Alliance)
-Inst5Quest19_HORDE = "19. Спасем Фестиваль пива! (Сезонный)"
-Inst5Quest19_HORDE_Level = Inst5Quest15_Level
-Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
-Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
-Inst5Quest19_HORDE_Location = Inst5Quest15_Location
-Inst5Quest19_HORDE_Note = Inst5Quest15_Note
-Inst5Quest19_HORDE_Prequest = Inst5Quest15_Prequest
-Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
--- No Rewards for this quest
-
---Quest 20 Horde  (same as Quest 16 Alliance)
-Inst5Quest20_HORDE = "20. Оскорбить Корена Худовара ((ежедн.) - Сезонный)"
-Inst5Quest20_HORDE_Level = Inst5Quest16_Level
-Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
-Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
-Inst5Quest20_HORDE_Location = Inst5Quest16_Location
-Inst5Quest20_HORDE_Note = Inst5Quest16_Note
-Inst5Quest20_HORDE_Prequest = Inst5Quest16_Prequest
-Inst5Quest20_HORDE_Folgequest = Inst5Quest16_Folgequest
-Inst5Quest20FQuest_HORDE = "true"
--- No Rewards for this quest
+--Quest 19 Horde
+Inst5Quest19_HORDE = "19. Худое варево Худовара"
+Inst5Quest19_HORDE_Level = "80"
+Inst5Quest19_HORDE_Attain = "75"
+Inst5Quest19_HORDE_Aim = "Отнесите Худое варево Худовара Слухарю Мухлевару в лагерь Хмельного фестиваля возле Оргриммара."
+Inst5Quest19_HORDE_Location = "Худое варево Худовара (падает с Корена Худовара "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest19_HORDE_Note = "Корен Худовар доступен только во время Хмельного фестиваля. Худое варево Худовара падает только раз в год одному персонажу.\n\nСлухарь Мухлевар находится в Хмельном лагере в (Дуротар; "..YELLOW.."45,17"..WHITE..")."
+Inst5Quest19_HORDE_Prequest = "Нет"
+Inst5Quest19_HORDE_Folgequest = "Нет"
+--
+Inst5Quest19name1_HORDE = "Призовой жетон Хмельного фестиваля"
 
 
 
@@ -4263,8 +4241,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "Во время Третьей Войны, волшебники Кирин Тора сражались против армии нежити Плети. Когда волшебники Даларана погибли в бою, они смогли возродиться после - прибавив свою былую мощь к растущей Плети. Недовольный недостатком прогресса (и вопреки советам его соратников) Архимаг выбрал Аругала для призыва внемировых сущностей, чтобы подкрепить уменьшающиеся силы Даларана. Призыв Аругала привел изголодавшихся воргенов в мир Азерота. Дикие зверолюди устроили резню не только Плети, но быстро принялись и за самих волшебников. Воргены осадили крепость дворянина, барона Сребролена. Расположенная на небольшой деревушкой Погребальных костров, крепость быстро была ввергнута во тьму и разруху. Помешавшись из-за чувства вины, Аругал усыновил воргенов как детей и уединился в заново окрещенной 'Крепости Темного Клыка'. Говорят, он все еще живет там, защищаемый своим огромным питомцем, Фенрусом - и преследуемый мстительным духом барона Сребролена."
 Inst21Caption = "Крепость Темного Клыка"
-Inst21QAA = "5 Задания"
-Inst21QAH = "7 Задания"
+Inst21QAA = "3 Задания"
+Inst21QAH = "5 Задания"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. Испытание доблести (Паладин)"
@@ -4294,38 +4272,14 @@ Inst21Quest2name1 = "Orb of Soran'ruk"
 Inst21Quest2name2 = "Staff of Soran'ruk"
 
 --Quest 3 Alliance
-Inst21Quest3 = "3. Засланный шпион"
+Inst21Quest3 = "3. Не любовь витает в воздухе (а что-то иное!)"
 Inst21Quest3_Level = "80"
 Inst21Quest3_Attain = "75"
-Inst21Quest3_Aim = "Найдите следователя Феззена Клейстра в Крепости Темного Клыка."
-Inst21Quest3_Location = "Инспектор Кромс Гвоздезуб (Штормград - Торговый квартал; "..YELLOW.."61.7, 75.5"..WHITE..")"
-Inst21Quest3_Note = "Это сезонное задание для Любовной лихорадки.\n\nВы найдете следователя Феззена Клейстра около двери во двор около "..YELLOW.."[2]"..WHITE.."."
-Inst21Quest3_Prequest = "Разговор по душам..."
-Inst21Quest3_Folgequest = "Получите, распишитесь"
-Inst21Quest3PreQuest = "true"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst21Quest4 = "4. Получите, распишитесь (ежедневный)"
-Inst21Quest4_Level = "80"
-Inst21Quest4_Attain = "75"
-Inst21Quest4_Aim = "Отнесите повестку в суд аптекарю Хаммелу в Крепость Темного Клыка."
-Inst21Quest4_Location = "Испытатель Феззен Клейстр (Крепость Темного Клыка; "..YELLOW.."[2]"..WHITE..")"
-Inst21Quest4_Note = "Это сезонное задание для Любовной лихорадки.\n\nПредыдущее задание не обязательно для получения этого.\n\nАптекарь Хаммел находится "..YELLOW.."[3]"..WHITE.." во дворе. Как только вы сдадите задание запустится бой."
-Inst21Quest4_Prequest = "Засланный шпион (необязательное)"
-Inst21Quest4_Folgequest = "Не любовь витает в воздухе (а что-то иное!)"
-Inst21Quest4FQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst21Quest5 = "5. Не любовь витает в воздухе (а что-то иное!)"
-Inst21Quest5_Level = "80"
-Inst21Quest5_Attain = "75"
-Inst21Quest5_Aim = "Принесите выцветшую открытку ко дню всех влюбленных инспектору Кромсу Гвоздезубу в Штормград."
-Inst21Quest5_Location = "Падает с аптекаря Хаммела в Крепости Темного Клыка, одна на всю группу."
-Inst21Quest5_Note = "Это сезонное задание для Любовной лихорадки.\n\nИнспектор Кромс Гвоздезуб находится (Штормград - Торговый квартал; "..YELLOW.."61.7, 75.5"..WHITE..")."
-Inst21Quest5_Prequest = "Нет"
-Inst21Quest5_Folgequest = "Нет"
+Inst21Quest3_Aim = "Принесите выцветшую открытку ко дню всех влюбленных инспектору Кромсу Гвоздезубу в Штормград."
+Inst21Quest3_Location = "Падает с аптекаря Хаммела в Крепости Темного Клыка только раз в год одному персонажу."
+Inst21Quest3_Note = "Это сезонное задание для Любовной лихорадки.\n\nИнспектор Кромс Гвоздезуб находится (Штормград - Торговый квартал; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest3_Prequest = "Нет"
+Inst21Quest3_Folgequest = "Нет"
 -- No Rewards for this quest
 
 
@@ -4380,38 +4334,14 @@ Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 --Quest 5 Horde
-Inst21Quest5_HORDE = "5. Засланный шпион"
+Inst21Quest5_HORDE = "5. Не любовь витает в воздухе (а что-то иное!)"
 Inst21Quest5_HORDE_Level = "80"
 Inst21Quest5_HORDE_Attain = "75"
-Inst21Quest5_HORDE_Aim = "Найдите следователя Феззена Клейстра в Крепости Темного Клыка."
-Inst21Quest5_HORDE_Location = "Детектив Крямс Гвоздезуб (Оргриммар - Аллея Силы; "..YELLOW.."50.8, 65.6"..WHITE..")"
-Inst21Quest5_HORDE_Note = "Это сезонное задание для Любовной лихорадки.\n\nВы найдете следователя Феззена Клейстра около двери во двор около "..YELLOW.."[2]"..WHITE.."."
-Inst21Quest5_HORDE_Prequest = "Разговор по душам..."
-Inst21Quest5_HORDE_Folgequest = "Получите, распишитесь"
-Inst21Quest5PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 4 Alliance)
-Inst21Quest6_HORDE = "6. Получите, распишитесь (ежедневный)"
-Inst21Quest6_HORDE_Level = Inst21Quest4_Level
-Inst21Quest6_HORDE_Attain = Inst21Quest4_Attain
-Inst21Quest6_HORDE_Aim = Inst21Quest4_Aim
-Inst21Quest6_HORDE_Location = Inst21Quest4_Location
-Inst21Quest6_HORDE_Note = Inst21Quest4_Note
-Inst21Quest6_HORDE_Prequest = Inst21Quest4_Prequest
-Inst21Quest6_HORDE_Folgequest = Inst21Quest4_Folgequest
-Inst21Quest6FQuest_HORDE = Inst21Quest4FQuest
--- No Rewards for this quest
-
---Quest 7 Horde
-Inst21Quest7_HORDE = "7. Не любовь витает в воздухе (а что-то иное!)"
-Inst21Quest7_HORDE_Level = "80"
-Inst21Quest7_HORDE_Attain = "75"
-Inst21Quest7_HORDE_Aim = "Принесите выцветшую открытку ко дню всех влюбленных детективу Крямсу Гвоздезубу в Оргриммар."
-Inst21Quest7_HORDE_Location = "Падает с аптекаря Хаммела в Крепости Темного Клыка, одна на всю группу."
-Inst21Quest7_HORDE_Note = "Это сезонное задание для Любовной лихорадки.\n\nДетектив Крямс Гвоздезуб находится (Оргриммар - Аллея Силы; "..YELLOW.."50.8, 65.6"..WHITE..")."
-Inst21Quest7_HORDE_Prequest = "Нет"
-Inst21Quest7_HORDE_Folgequest = "Нет"
+Inst21Quest5_HORDE_Aim = "Принесите выцветшую открытку ко дню всех влюбленных детективу Крямсу Гвоздезубу в Оргриммар."
+Inst21Quest5_HORDE_Location = "Падает с аптекаря Хаммела в Крепости Темного Клыка только раз в год одному персонажу."
+Inst21Quest5_HORDE_Note = "Это сезонное задание для Любовной лихорадки.\n\nДетектив Крямс Гвоздезуб находится (Оргриммар - Аллея Силы; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest5_HORDE_Prequest = "Нет"
+Inst21Quest5_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
 
@@ -12210,7 +12140,7 @@ Inst94Quest2_Level = "80"
 Inst94Quest2_Attain = "80"
 Inst94Quest2_Aim = "Осмотрите Рубиновое святилище под храмом Драконьего Покоя."
 Inst94Quest2_Location = "Крас (Драконий Погост - храм Драконьего Покоя; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst94Quest2_Note = "Хранительница святилища Зерестраза находится внутри Рубинового святилища и появится после того, как вы убьете Балтаруса, Рождённого в битве около "..YELLOW.."[4]"..WHITE.."."
+Inst94Quest2_Note = "Хранительница святилища Зерестраза находится внутри Рубинового святилища и появится после того, как вы убьете Балтара, Рождённого в Битве около "..YELLOW.."[4]"..WHITE.."."
 Inst94Quest2_Prequest = "Беда в храме Драконьего Покоя (необязательно)"
 Inst94Quest2_Folgequest = "Сумеречный разрушитель"
 Inst94Quest2FQuest = "true"
