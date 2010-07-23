@@ -11793,7 +11793,7 @@ Inst93Quest5_Level = "80"
 Inst93Quest5_Attain = "80"
 Inst93Quest5_Aim = "Rescue Infiltrator Minchar before he is executed."
 Inst93Quest5_Location = "Alrin the Agile (Icecrown Citadel; Entrance to Crimson Halls)"
-Inst93Quest5_Note = "If this quest is available for your raid id, Alrin the Agile will appear at the entrance to the Crimson Halls.\n\nThe 30 minute timer begins upon entering Crimson Halls. You must clear all trash, defeat the Blood Princes and fight Blood Queen Lana'thel before the timer runs out to complete the quest."
+Inst93Quest5_Note = "If this quest is available for your raid id, Alrin the Agile will appear at the entrance to the Crimson Halls.\n\nThe 30 minute timer begins upon entering Crimson Halls. You must clear all trash, defeat the Blood Princes and Blood Queen Lana'thel before the timer runs out to complete the quest."
 Inst93Quest5_Prequest = "None"
 Inst93Quest5_Folgequest = "None"
 --
