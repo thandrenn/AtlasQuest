@@ -877,8 +877,8 @@ Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
 
 Inst5Story = "In dem vulkanischen Labyrinth, das von der einstigen Hauptstadt der Zwerge des Düstereisenklans übriggeblieben ist, herrscht nun Ragnaros der Feuerfürst über die Abgründe des Schwarzfels. Ragnaros ist es gelungen, das Geheimnis zu lüften, wie Leben aus Stein erschaffen werden kann. Nun plant er, sein neu gewonnenes Wissen dazu einzusetzen, eine Armee unaufhaltsamer Golems zu schaffen, die ihm bei der Eroberung des Schwarzfels helfen sollen. Vollkommen besessen von dem Gedanken daran, Nefarian endlich zu vernichten, wird Ragnaros alles tun, um seinen Konkurrenten aus dem Weg zu räumen."
 Inst5Caption = "Die Schwarzfelstiefen"
-Inst5QAA = "16 Quests"
-Inst5QAH = "20 Quests"
+Inst5QAA = "15 Quests"
+Inst5QAH = "19 Quests"
 
 --Quest 1 Alliance
 Inst5Quest1 = "1. Dunkeleisenerbe"
@@ -1060,26 +1060,16 @@ Inst5Quest14_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst5Quest15 = "15. Rettet das Braufest! (Saisonbedingt)"
+Inst5Quest15 = "15. Düsterbräus Düsterbräu"
 Inst5Quest15_Level = "80"
 Inst5Quest15_Attain = "75"
-Inst5Quest15_Aim = "Sprecht mit dem Spion des Braufests im Grimmigen Säufer in den Schwarzfelstiefen. "
-Inst5Quest15_Location = "Darna Honigbock (Dun Morogh - Kharanos; "..YELLOW.."46.53"..WHITE..")"
-Inst5Quest15_Note = "Diese Quest ist nur während des Braufests erhältlich. Der Spion des Braufests befindet sich bei "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest15_Aim = "Bringt Düsterbräus Düsterbräu zu Ipfelkofer Eisenfass im Braufestlager in der Nähe von Eisenschmiede. "
+Inst5Quest15_Location = "Düsterbräus Düsterbräu ( droppt von Coren Düsterbräu bei "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest15_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwrzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nIpfelkofer Eisenfassist ist auf dem Braufestplatz bei (Dun Morogh; "..YELLOW.."47,39"..WHITE..")."
 Inst5Quest15_Prequest = "Nein"
-Inst5Quest15_Folgequest = "Ja, Beleidigt Coren Düsterbräu"
--- No Rewards for this quest
-
---Quest 16 Alliance
-Inst5Quest16 = "16. Beleidigt Coren Düsterbräu (Tagesquest - Saisonbedingt)"
-Inst5Quest16_Level = "80"
-Inst5Quest16_Attain = "75"
-Inst5Quest16_Aim = "Geht und fangt Streit mit Coren an."
-Inst5Quest16_Location = "Spion des Braufests (Schwarzfelstiefen - Grimmiger Säufer; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest16_Note = "Wenn man diese Quest abgeschlossen hat, greift Coren Düsterbräu an. Während des Braufests kann es einmal täglich pro Person erledigt werden.\nDie Vorquest muss nur einmal gemacht werden. Danach kann man die Tagesquest innerhalb der Schwarzfelstiefen starten."
-Inst5Quest16_Prequest = "Ja, Rettet das Braufest!"
-Inst5Quest16_Folgequest = "Nein"
--- No Rewards for this quest
+Inst5Quest15_Folgequest = "Nein"
+--
+Inst5Quest15name1 = "Braufestmarken"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1314,28 +1304,17 @@ Inst5Quest18_HORDE_Prequest = Inst5Quest10_Prequest
 Inst5Quest18_HORDE_Folgequest = Inst5Quest10_Folgequest
 -- No Rewards for this quest
 
---Quest 19 Horde  (same as Quest 15 Alliance)
-Inst5Quest19_HORDE = "19. Rettet das Braufest! (Saisonbedingt)"
-Inst5Quest19_HORDE_Level = Inst5Quest15_Level
-Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
-Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
-Inst5Quest19_HORDE_Location = Inst5Quest15_Location
-Inst5Quest19_HORDE_Note = Inst5Quest15_Note
-Inst5Quest19_HORDE_Prequest = Inst5Quest15_Prequest
-Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
--- No Rewards for this quest
-
---Quest 20 Horde  (same as Quest 16 Alliance)
-Inst5Quest20_HORDE = "20. Beleidigt Coren Düsterbräu (Tagesquest - Saisonbedingt)"
-Inst5Quest20_HORDE_Level = Inst5Quest16_Level
-Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
-Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
-Inst5Quest20_HORDE_Location = Inst5Quest16_Location
-Inst5Quest20_HORDE_Note = Inst5Quest16_Note
-Inst5Quest20_HORDE_Prequest = Inst5Quest16_Prequest
-Inst5Quest20_HORDE_Folgequest = Inst5Quest16_Folgequest
-Inst5Quest20FQuest_HORDE = "true"
--- No Rewards for this quest
+--Quest 19 Horde
+Inst5Quest19_HORDE = "19. Düsterbräus Düsterbräu"
+Inst5Quest19_HORDE_Level = "80"
+Inst5Quest19_HORDE_Attain = "75"
+Inst5Quest19_HORDE_Aim = "Bringt Düsterbräus Düsterbräu zu Zapfus Schwindelfass im Braufestlager in der Nähe von Orgrimmar"
+Inst5Quest19_HORDE_Location = "Düsterbräus Düsterbräu ( droppt von Coren Düsterbräu bei "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest19_HORDE_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwrzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nTapper Swindlekeg ist auf dem Braufestplatz bei (Durotar; "..YELLOW.."45,17"..WHITE..")."
+Inst5Quest19_HORDE_Prequest = "Nein"
+Inst5Quest19_HORDE_Folgequest = "Nein"
+--
+Inst5Quest19name1 = "Braufestmarken"
 
 
 
@@ -4402,8 +4381,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgs nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgs die Burg des adligen Barons Silberlein jenseits des unscheinbaren Dörfchens Lohenscheit angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgs als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silberlein."
 Inst21Caption = "Burg Schattenfang"
-Inst21QAA = "5 Quests"
-Inst21QAH = "7 Quests"
+Inst21QAA = "3 Quests"
+Inst21QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. Die Prüfung der Rechtschaffenheit (Paladin)"
@@ -4432,38 +4411,15 @@ Inst21Quest2_Folgequest = "Nein"
 Inst21Quest2name1 = "Kugel von Soran'ruk"
 Inst21Quest2name2 = "Stab von Soran'ruk"
 
---Quest 3 Allianz
-Inst21Quest3 = "3. Insider"
+--Quest 3 Alliance
+Inst21Quest3 = "3. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
 Inst21Quest3_Level = "80"
 Inst21Quest3_Attain = "75"
-Inst21Quest3_Aim = "Meldet Euch bei Ermittler Fezzen Kupferstapel in Burg Schattenfang."
-Inst21Quest3_Location = "Inspektor Snip Schnappbolz (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")"
-Inst21Quest3_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nDu kannst Ermittler Fezzen Kupfersrapel vor der Tür zum Innenhof finden, bei "..YELLOW.."[2]"..WHITE.."."
-Inst21Quest3_Prequest = "Eine nette Unterhaltung..."
-Inst21Quest3_Folgequest = "Zustellung"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst21Quest4 = "4. Zustellung (Täglich)"
-Inst21Quest4_Level = "80"
-Inst21Quest4_Attain = "75"
-Inst21Quest4_Aim = "Stellt Apotheker Hummel auf Burg Schattenfang die Vorladung bei Gericht zu."
-Inst21Quest4_Location = "Ermittler Fezzen Kupferstapel (Burg Schattenfang; "..YELLOW.."[2]"..WHITE..")"
-Inst21Quest4_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nDie Vorquest ist optional.\n\nApotheker Hummel ist bei "..YELLOW.."[3]"..WHITE.." im Innenhof. Das Event startet wenn einer die Quest abgibt, daher achtet drauf das nur einer zur selben Zeit diese Quest abgibt!"
-Inst21Quest4_Prequest = "Insider (optional)"
-Inst21Quest4_Folgequest = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
-Inst21Quest4FQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst21Quest5 = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest5_Level = "80"
-Inst21Quest5_Attain = "75"
-Inst21Quest5_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
-Inst21Quest5_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
-Inst21Quest5_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")."
-Inst21Quest5_Prequest = "Nein"
-Inst21Quest5_Folgequest = "Nein"
+Inst21Quest3_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
+Inst21Quest3_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest3_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest3_Prequest = "Nein"
+Inst21Quest3_Folgequest = "Nein"
 -- No Rewards for this quest 
 
 
@@ -4518,38 +4474,14 @@ Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
 
 --Quest 5 Horde
-Inst21Quest5_HORDE = "5. Insider"
+Inst21Quest5_HORDE = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
 Inst21Quest5_HORDE_Level = "80"
 Inst21Quest5_HORDE_Attain = "75"
-Inst21Quest5_HORDE_Aim = "Meldet Euch bei Ermittler Fezzen Kupferstapel in Burg Schattenfang."
-Inst21Quest5_HORDE_Location = "Ermittler Snap Schnappbolz (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")"
-Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nDu kannst Ermittler Fezzen Kupferstapel vor der Tür zum Innenhof finden, bei "..YELLOW.."[2]"..WHITE.."."
-Inst21Quest5_HORDE_Prequest = "Eine nette Unterhaltung..."
-Inst21Quest5_HORDE_Folgequest = "Zustellung"
-Inst21Quest5PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 6 Horde (same as Quest 4 Alliance)
-Inst21Quest6_HORDE = "6. Zustellung (Täglich)"
-Inst21Quest6_HORDE_Level = Inst21Quest4_Level
-Inst21Quest6_HORDE_Attain = Inst21Quest4_Attain
-Inst21Quest6_HORDE_Aim = Inst21Quest4_Aim
-Inst21Quest6_HORDE_Location = Inst21Quest4_Location
-Inst21Quest6_HORDE_Note = Inst21Quest4_Note
-Inst21Quest6_HORDE_Prequest = Inst21Quest4_Prequest
-Inst21Quest6_HORDE_Folgequest = Inst21Quest4_Folgequest
-Inst21Quest6FQuest_HORDE = Inst21Quest4FQuest
--- No Rewards for this quest
-
---Quest 7 Horde
-Inst21Quest7_HORDE = "7. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest7_HORDE_Level = "80"
-Inst21Quest7_HORDE_Attain = "75"
-Inst21Quest7_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
-Inst21Quest7_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
-Inst21Quest7_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
-Inst21Quest7_HORDE_Prequest = "Nein"
-Inst21Quest7_HORDE_Folgequest = "Nein"
+Inst21Quest5_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
+Inst21Quest5_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest5_HORDE_Prequest = "Nein"
+Inst21Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest 
 
 
@@ -11956,7 +11888,7 @@ Inst93Quest5_Level = "80"
 Inst93Quest5_Attain = "80"
 Inst93Quest5_Aim = "Rettet den Spitzel Minchar, bevor er hingerichtet wird."
 Inst93Quest5_Location = "Alrin der Bewegliche (Eiskronenzitadelle; Eingang zu den Blutroten Hallen)"
-Inst93Quest5_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Alrin der Bewegliche erscheinen nachdem die Blutroten Hallen betreten wurden.\n\nEin 30 Minütiger Countdown beginnt nachdem die Hochroten Hallen betreten wurde. Ihr müßt alles bereinigen, besiegt den Blutprinzen und bekämpft die Blutkönigen Lana'thel bevor die Zeit abläuft um die Quest zu beenden."
+Inst93Quest5_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Alrin der Bewegliche erscheinen nachdem die Blutroten Hallen betreten wurden.\n\nEin 30 Minütiger Countdown beginnt nachdem die Hochroten Hallen betreten wurde. Ihr müßt alles bereinigen, besiegt den Blutprinzen und die Blutkönigen Lana'thel bevor die Zeit abläuft um die Quest zu beenden."
 Inst93Quest5_Prequest = "Nein"
 Inst93Quest5_Folgequest = "Nein"
 --
