@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.4.3 BETA
+Version 4.4.3
 
 - Localizations updated: ruRU, deDE, zhTW.
 - Added quest giver for Ruby Sanctum: Trouble at Wyrmrest Temple.
