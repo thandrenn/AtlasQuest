@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2010-07-05
-	最後更新﹕二○一○年七月五日
+	Last Updated: 2010-08-20
+	最後更新﹕二○一○年八月二十日
 	新增　巫妖王之怒 - 晶紅聖所　故事＆任務
 
 --]]
@@ -877,8 +877,8 @@ Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
 
 Inst5Story = "黑石深淵曾經是黑鐵矮人偉大的都城，但現在這個火山的迷宮已成為拉格納羅斯這個火焰領主的王座所在地。傳說拉格納羅斯發現可以使用石頭和設計圖來創造一支無敵石頭人軍隊，以幫助他征服黑石山。為了要打敗奈法利安和他的邪惡軍團們，拉格納羅斯將會不惜一切代價來達到最後的勝利。"
 Inst5Caption = "黑石深淵"
-Inst5QAA = "16 個任務"
-Inst5QAH = "20 個任務"
+Inst5QAA = "15 個任務"
+Inst5QAH = "19 個任務"
 
 --Quest 1 Alliance
 Inst5Quest1 = "1. 黑鐵的遺產"
@@ -1060,27 +1060,16 @@ Inst5Quest14_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst5Quest15 = "15. 挽救啤酒節! (季節性 啤酒節)"
+Inst5Quest15 = "15. 恐酒的恐酒"
 Inst5Quest15_Level = "80"
 Inst5Quest15_Attain = "75"
-Inst5Quest15_Aim = "與啤酒節間諜交談。他就在黑石深淵的黑鐵酒吧裡。"
-Inst5Quest15_Location = "達娜．蜜酒（丹莫洛 - 卡拉諾斯; "..YELLOW.."46,53"..WHITE.."）"
-Inst5Quest15_Note = "這個任務只有在啤酒節期間才會出現。啤酒節間諜在"..YELLOW.."[15]"..WHITE.."。"
+Inst5Quest15_Aim = "將恐酒的恐酒帶到鐵爐堡附近的啤酒節營地交給易菲克佛．鐵桶。"
+Inst5Quest15_Location = "恐酒的恐酒（掉落自寇仁．恐酒"..YELLOW.."[15]"..WHITE.."）"
+Inst5Quest15_Note = "寇仁．恐酒只有在啤酒節期間才會出現在黑石深淵，此任務觸發物品每個角色只能拾取一次。\n\n易菲克佛．鐵桶在啤酒節營地（丹莫洛; "..YELLOW.."47,39"..WHITE.."）裡面。"
 Inst5Quest15_Prequest = "無"
-Inst5Quest15_Folgequest = "羞辱寇仁．恐酒"
--- No Rewards for this quest
-
---Quest 16 Alliance
-Inst5Quest16 = "16. 羞辱寇仁·恐酒 (季節性 啤酒節每日任務)"
-Inst5Quest16_Level = "80"
-Inst5Quest16_Attain = "75"
-Inst5Quest16_Aim = "與寇仁．恐酒交談。"
-Inst5Quest16_Location = "啤酒節間諜（黑石深淵 - 黑鐵酒吧; "..YELLOW.."[15]"..WHITE.."）"
-Inst5Quest16_Note = "完成這個任務將會使得寇仁．恐酒攻擊你。在啤酒節期間，每人每天都可以完成這個任務。\n前置任務只需完成一次，之後你便可以在黑鐵酒吧進行這個任務。"
-Inst5Quest16_Prequest = "挽救啤酒節！"
-Inst5Quest16_Folgequest = "無"
-Inst5Quest16FQuest = "true"
--- No Rewards for this quest
+Inst5Quest15_Folgequest = "無"
+--
+Inst5Quest15name1 = "啤酒節獎品章"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1315,28 +1304,17 @@ Inst5Quest18_HORDE_Prequest = Inst5Quest14_Prequest
 Inst5Quest18_HORDE_Folgequest = Inst5Quest14_Folgequest
 -- No Rewards for this quest
 
---Quest 19 Horde  (same as Quest15 Alliance)
-Inst5Quest19_HORDE = "19. 挽救啤酒節! (季節性 啤酒節)"
-Inst5Quest19_HORDE_Level = Inst5Quest15_Level
-Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
-Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
-Inst5Quest19_HORDE_Location = Inst5Quest15_Location
-Inst5Quest19_HORDE_Note = Inst5Quest15_Note
-Inst5Quest19_HORDE_Prequest = Inst5Quest15_Prequest
-Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
--- No Rewards for this quest
-
---Quest 20 Horde  (same as Quest 16 Alliance)
-Inst5Quest20_HORDE = "20. 羞辱寇仁·恐酒 (季節性 啤酒節每日任務)"
-Inst5Quest20_HORDE_Level = Inst5Quest16_Level
-Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
-Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
-Inst5Quest20_HORDE_Location = Inst5Quest16_Location
-Inst5Quest20_HORDE_Note = Inst5Quest16_Note
-Inst5Quest20_HORDE_Prequest = Inst5Quest16_Prequest
-Inst5Quest20_HORDE_Folgequest = Inst5Quest16_Folgequest
-Inst5Quest20FQuest_HORDE = "true"
--- No Rewards for this quest
+--Quest 19 Horde
+Inst5Quest19_HORDE = "19. 恐酒的恐酒"
+Inst5Quest19_HORDE_Level = "80"
+Inst5Quest19_HORDE_Attain = "75"
+Inst5Quest19_HORDE_Aim = "將恐酒的恐酒帶到奧格瑪附近的啤酒節營地交給泰伯．詐桶。"
+Inst5Quest19_HORDE_Location = "恐酒的恐酒（掉落自寇仁．恐酒"..YELLOW.."[15]"..WHITE.."）"
+Inst5Quest19_HORDE_Note = "寇仁．恐酒只有在啤酒節期間才會出現在黑石深淵，此任務觸發物品每個角色只能拾取一次。\n\n泰伯．詐桶在啤酒節營地（杜洛塔; "..YELLOW.."45,17"..WHITE.."）裡面。"
+Inst5Quest19_HORDE_Prequest = "無"
+Inst5Quest19_HORDE_Folgequest = "無"
+--
+Inst5Quest19name1_HORDE = "啤酒節獎品章"
 
 
 
@@ -4249,7 +4227,7 @@ Inst20Quest11_HORDE_Aim = "在通靈學院地下室的屍骨儲藏所的中心�
 Inst20Quest11_HORDE_Location = "薩格尼（奧格瑪 - 智慧谷; "..YELLOW.."38.6, 36.2"..WHITE.."）"
 Inst20Quest11_HORDE_Note = "只有薩滿才能接到這個任務。前置任務由同一個NPC處得到。\n\n死亡騎士達克雷爾在"..YELLOW.."[5]"..WHITE.."的地方召喚。"
 Inst20Quest11_HORDE_Prequest = "蒐集材料"
-Inst20Quest11_HORDE_Folgequest = "None"
+Inst20Quest11_HORDE_Folgequest = "無"
 Inst20Quest11PreQuest_HORDE = "true"
 --
 Inst20Quest11name1_HORDE = "天怒頭盔"
@@ -4272,8 +4250,8 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "在第三次大戰中，肯瑞托的法師和天譴軍團進行了殊死的戰鬥。當達拉然的法師們死於戰場之後，他們的意志轉移到了復甦的天譴軍團身上，然後重生了。由於對緩慢的進展感到失望，並且對手下的建議完全不予理會的大法師阿魯高，選擇了召喚異次元空間的生物來壯大達拉然日漸消失的力量。阿魯高的召喚將貪婪的狼人帶到了艾澤拉斯大陸。這些狂暴的狼型生物不僅屠殺了天譴軍團的士兵，同時也迅速地將目標轉向那些法師。那些狼人開始圍攻席瓦萊恩男爵的城堡。這座位於焚木村的城堡不久之後變成了黑暗勢力的聚集地並從此荒廢。因為對於自己罪過的愧疚而變得瘋狂的阿魯高，將那些狼人當作自己的孩子並隱居在“影牙城堡”中。據說他現在還住在那裡，被他巨大的寵物芬魯斯所保護著，另外，在城堡中還徘徊著瓦萊恩男爵和其手下的復仇幽靈。"
 Inst21Caption = "影牙城堡"
-Inst21QAA = "5 個任務"
-Inst21QAH = "7 個任務"
+Inst21QAA = "3 個任務"
+Inst21QAH = "5 個任務"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. 正義試煉 (聖騎士職業任務)"
@@ -4303,38 +4281,14 @@ Inst21Quest2name1 = "索蘭魯克寶珠"
 Inst21Quest2name2 = "索拉魯克法杖"
 
 --Quest 3 Alliance
-Inst21Quest3 = "3. 裡應外合"
+Inst21Quest3 = "3. 微妙的氣氛(肯定不是愛)"
 Inst21Quest3_Level = "80"
 Inst21Quest3_Attain = "75"
-Inst21Quest3_Aim = "到影牙城堡找調查員菲贊．銅釘回報。"
-Inst21Quest3_Location = "巡官史尼卜．凸栓（暴風城 - 貿易區; "..YELLOW.."61.7, 75.5"..WHITE.."）"
-Inst21Quest3_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n你可以在通往庭院的大門前"..YELLOW.."[2]"..WHITE.."找到調查員菲贊．銅釘。"
-Inst21Quest3_Prequest = "善意的溝通…"
-Inst21Quest3_Folgequest = "服務到家"
-Inst21Quest3PreQuest = "true"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst21Quest4 = "4. 服務到家 (每日任務)"
-Inst21Quest4_Level = "80"
-Inst21Quest4_Attain = "75"
-Inst21Quest4_Aim = "把法院傳票交給影牙城堡的藥劑師胡默爾。"
-Inst21Quest4_Location = "調查員菲贊．銅釘（影牙城堡; "..YELLOW.."[2]"..WHITE.."）"
-Inst21Quest4_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n你不需要完成前置任務也可接到此任務。\n\n藥劑師胡默爾在庭院中的"..YELLOW.."[3]"..WHITE.."。回報任務之後便會觸發戰鬥事件，所以請確認每個隊伍在每次只有一個成員進行任務回報。"
-Inst21Quest4_Prequest = "裡應外合（非必要）"
-Inst21Quest4_Folgequest = "微妙的氣氛（肯定不是愛）"
-Inst21Quest4FQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst21Quest5 = "5. 微妙的氣氛(肯定不是愛)"
-Inst21Quest5_Level = "80"
-Inst21Quest5_Attain = "75"
-Inst21Quest5_Aim = "把褪色的可愛邀請卡拿給暴風城的巡官史尼卜．凸栓。"
-Inst21Quest5_Location = "影牙城堡中的藥劑師胡默爾將會掉落褪色的可愛邀請卡。"
-Inst21Quest5_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n巡官史尼卜．凸栓在（暴風城 - 貿易區; "..YELLOW.."61.7, 75.5"..WHITE.."）。"
-Inst21Quest5_Prequest = "無"
-Inst21Quest5_Folgequest = "無"
+Inst21Quest3_Aim = "把褪色的可愛邀請卡拿給暴風城的巡官史尼卜．凸栓。"
+Inst21Quest3_Location = "影牙城堡中的藥劑師胡默爾將會掉落褪色的可愛邀請卡。"
+Inst21Quest3_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n巡官史尼卜．凸栓在（暴風城 - 貿易區; "..YELLOW.."61.7, 75.5"..WHITE.."）。"
+Inst21Quest3_Prequest = "無"
+Inst21Quest3_Folgequest = "無"
 -- No Rewards for this quest
 
 
@@ -4389,38 +4343,14 @@ Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name2
 
 --Quest 5 Horde
-Inst21Quest5_HORDE = "5. 裡應外合"
+Inst21Quest5_HORDE = "5. 微妙的氣氛(肯定不是愛)"
 Inst21Quest5_HORDE_Level = "80"
 Inst21Quest5_HORDE_Attain = "75"
-Inst21Quest5_HORDE_Aim = "到影牙城堡找調查員菲贊．銅釘回報。"
-Inst21Quest5_HORDE_Location = "警探史內卜．凸栓（奧格瑪 - 力量谷; "..YELLOW.."50.8, 65.6"..WHITE.."）"
-Inst21Quest5_HORDE_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n你可以在通往庭院的大門前"..YELLOW.."[2]"..WHITE.."找到調查員菲贊．銅釘。"
-Inst21Quest5_HORDE_Prequest = "善意的溝通…"
-Inst21Quest5_HORDE_Folgequest = "服務到家"
-Inst21Quest5PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 4 Alliance)
-Inst21Quest6_HORDE = "6. 服務到家 (每日任務)"
-Inst21Quest6_HORDE_Level = Inst21Quest4_Level
-Inst21Quest6_HORDE_Attain = Inst21Quest4_Attain
-Inst21Quest6_HORDE_Aim = Inst21Quest4_Aim
-Inst21Quest6_HORDE_Location = Inst21Quest4_Location
-Inst21Quest6_HORDE_Note = Inst21Quest4_Note
-Inst21Quest6_HORDE_Prequest = Inst21Quest4_Prequest
-Inst21Quest6_HORDE_Folgequest = Inst21Quest4_Folgequest
-Inst21Quest6FQuest_HORDE = Inst21Quest4FQuest
--- No Rewards for this quest
-
---Quest 7 Horde
-Inst21Quest7_HORDE = "7. 微妙的氣氛(肯定不是愛)"
-Inst21Quest7_HORDE_Level = "80"
-Inst21Quest7_HORDE_Attain = "75"
-Inst21Quest7_HORDE_Aim = "把褪色的可愛邀請卡拿給奧格瑪的警探史內卜．凸栓。"
-Inst21Quest7_HORDE_Location = "影牙城堡中的藥劑師胡默爾將會掉落褪色的可愛邀請卡。"
-Inst21Quest7_HORDE_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n警探史內卜．凸栓在（奧格瑪 - 力量谷; "..YELLOW.."50.8, 65.6"..WHITE.."）"
-Inst21Quest7_HORDE_Prequest = "無"
-Inst21Quest7_HORDE_Folgequest = "無"
+Inst21Quest5_HORDE_Aim = "把褪色的可愛邀請卡拿給奧格瑪的警探史內卜．凸栓。"
+Inst21Quest5_HORDE_Location = "影牙城堡中的藥劑師胡默爾將會掉落褪色的可愛邀請卡。"
+Inst21Quest5_HORDE_Note = "這個任務是季節任務[真愛在身邊]的系列任務。\n\n警探史內卜．凸栓在（奧格瑪 - 力量谷; "..YELLOW.."50.8, 65.6"..WHITE.."）"
+Inst21Quest5_HORDE_Prequest = "無"
+Inst21Quest5_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 
@@ -12847,7 +12777,7 @@ Inst94Quest2_Level = "80"
 Inst94Quest2_Attain = "80"
 Inst94Quest2_Aim = "調查龍眠神殿下的晶紅神殿。"
 Inst94Quest2_Location = "卡薩斯（龍骨荒野 - 龍眠神殿; "..YELLOW.."59.8, 54.6"..WHITE.."）"
-Inst94Quest2_Note = "聖所守護者克莉絲塔薩在晶紅聖所內，並且會在你擊敗巴爾薩魯斯"..YELLOW.."[4]"..WHITE.."之後現身。"
+Inst94Quest2_Note = "聖所守護者薩芮史卓莎在晶紅聖所內，並且會在你擊敗巴爾薩魯斯"..YELLOW.."[4]"..WHITE.."之後現身。"
 Inst94Quest2_Prequest = "龍眠神殿的麻煩（非必要的）"
 Inst94Quest2_Folgequest = "暮光毀滅者"
 Inst94Quest2FQuest = "true"
@@ -12858,7 +12788,7 @@ Inst94Quest3 = "3. 暮光毀滅者"
 Inst94Quest3_Level = "80"
 Inst94Quest3_Attain = "80"
 Inst94Quest3_Aim = "擊敗海萊恩並擊退對晶紅聖所的入侵。"
-Inst94Quest3_Location = "聖所守護者克莉絲塔薩（晶紅聖所; "..YELLOW.."[A] 入口"..WHITE.."）"
+Inst94Quest3_Location = "聖所守護者薩芮史卓莎（晶紅聖所; "..YELLOW.."[4]"..WHITE.."）"
 Inst94Quest3_Note = "海萊恩是晶紅聖所內的主要首領，位於"..YELLOW.."[1]"..WHITE.."。"
 Inst94Quest3_Prequest = "對聖所的攻擊"
 Inst94Quest3_Folgequest = "無"
