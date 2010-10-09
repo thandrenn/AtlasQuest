@@ -78,7 +78,7 @@
 		  HideUIPanel(AtlasQuestOptionFrame);
 	    </OnClick>
 	    <OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
   </Button>
@@ -101,7 +101,7 @@
 		  AQAutoshowOption_OnClick();
 	    </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
@@ -124,7 +124,7 @@
 		  AQLEFTOption_OnClick();
 	    </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
@@ -147,7 +147,7 @@
 		  AQRIGHTOption_OnClick();
 	    </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
@@ -170,7 +170,7 @@
 		  AQColourOption_OnClick();
 	    </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
@@ -193,7 +193,7 @@
 		  AQCheckQuestlogButton_OnClick();
 	    </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
@@ -216,7 +216,7 @@
 		  AQAutoQueryOption_OnClick();
 	    </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
@@ -240,7 +240,7 @@
 		  AQNoQuerySpamOption_OnClick();
 	    </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
@@ -264,7 +264,7 @@
 		  AQCompareTooltipOption_OnClick();
 	    </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
    </CheckButton>
@@ -427,7 +427,7 @@
 		  AQCLOSE1_OnClick();
 	    </OnClick>
 	    <OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -447,7 +447,7 @@
 		  AQOPTION1_OnClick();
 	    </OnClick>
 	    <OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -467,7 +467,7 @@
 		  AQSTORY1_OnClick();
 	    </OnClick>
 	    <OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -488,7 +488,7 @@
 	<Scripts>
 		<OnClick> Alliance_OnClick(); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
 </CheckButton>
@@ -509,7 +509,7 @@
 	<Scripts>
 		<OnClick> Horde_OnClick(); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
 </CheckButton>
@@ -530,7 +530,7 @@
 		  AQGeneral_OnClick(arg1);
 		</OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -552,7 +552,7 @@
 		  Quest_OnClick(arg1);
 		</OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -574,7 +574,7 @@
 		  Quest_OnClick(arg1);
 	    </OnClick>
 	    <OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -593,7 +593,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 3; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -612,7 +612,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 4; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -631,7 +631,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 5;  Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -650,7 +650,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 6; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -669,7 +669,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 7; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -688,7 +688,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 8; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -707,7 +707,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 9; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -726,7 +726,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 10; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -745,7 +745,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 11; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -764,7 +764,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 12; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -783,7 +783,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 13; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -802,7 +802,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 14; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -821,7 +821,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 15; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -840,7 +840,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 16; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -859,7 +859,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 17; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -878,7 +878,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 18; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -897,7 +897,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 19; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>
@@ -916,7 +916,7 @@
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 20; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
-	    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
 	</Scripts>
  </Button>

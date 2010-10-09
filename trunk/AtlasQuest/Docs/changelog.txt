@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.5.0 BETA
+
+- Basic (very basic) Patch 4.0 support.
+- Fixed attainment level for SM: Into The Scarlet Monastery (thanks auha)
+- Localizations updated: deDE, zhTW.
+
+
+
 Version 4.4.3
 
 - Localizations updated: ruRU, deDE, zhTW.

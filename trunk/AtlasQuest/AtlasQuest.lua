@@ -69,7 +69,7 @@ local AQMAXINSTANCES = "94"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.4.3";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.5.0 ALPHA";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -78,7 +78,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.4.3",
+  ["Version"] =  "4.5.0 ALPHA",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -211,8 +211,8 @@ end
 -- Call OnLoad set Variables and hides the panel
 -----------------------------------------------------------------------------
 function AQ_OnLoad()
-    this:RegisterEvent("PLAYER_ENTERING_WORLD");
-    this:RegisterEvent("VARIABLES_LOADED");
+    AtlasQuestFrame:RegisterEvent("PLAYER_ENTERING_WORLD");
+    AtlasQuestFrame:RegisterEvent("VARIABLES_LOADED");
     AQSetButtontext(); -- translation for all buttons
     if ( AtlasFrame ) then
     	AQATLASMAP = AtlasMap:GetTexture()
@@ -755,7 +755,7 @@ local itemName, itemQuality
 
      if (SHOWNID ~= nil) then
         if(GetItemInfo(SHOWNID) ~= nil) then
-              AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
+              AtlasQuestTooltip:SetOwner(AtlasQuestItemframe1, "ANCHOR_RIGHT", -(AtlasQuestItemframe1:GetWidth() / 2), 24);
               AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
               if(AQCompareTooltip ~= nil) then
                 if((EquipCompare_Enabled == nil) or (not EquipCompare_Enabled)) then  -- Only show this if EquipCompare isn't present or not enabled.
@@ -764,7 +764,7 @@ local itemName, itemQuality
               end
               AtlasQuestTooltip:Show();
         else
-              AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
+              AtlasQuestTooltip:SetOwner(AtlasQuestItemframe1, "ANCHOR_RIGHT", -(AtlasQuestItemframe1:GetWidth() / 2), 24);
               AtlasQuestTooltip:ClearLines();
               AtlasQuestTooltip:AddLine(RED..AQERRORNOTSHOWN);
               AtlasQuestTooltip:AddLine(AQERRORASKSERVER);
@@ -801,7 +801,7 @@ local itemName, itemQuality
    end
 
         if(arg1=="RightButton") then
-                   AtlasQuestTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
+                   AtlasQuestTooltip:SetOwner(AtlasFrame, "ANCHOR_RIGHT", -(AtlasFrame:GetWidth() / 2), 24);
                    AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
                    AtlasQuestTooltip:Show();
                    if(AQNoQuerySpam == nil) then

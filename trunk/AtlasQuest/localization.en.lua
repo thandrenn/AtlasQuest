@@ -3763,7 +3763,7 @@ Inst19Quest4name3_HORDE = Inst19Quest2name3
 --Quest 5 Horde
 Inst19Quest5_HORDE = "5. Into The Scarlet Monastery"
 Inst19Quest5_HORDE_Level = "42"
-Inst19Quest5_HORDE_Attain = "33"
+Inst19Quest5_HORDE_Attain = "30"
 Inst19Quest5_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
 Inst19Quest5_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
 Inst19Quest5_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
