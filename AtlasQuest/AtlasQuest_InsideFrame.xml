@@ -129,11 +129,11 @@ These fonts are useless atm -->
 			  <OnClick>
 				AtlasQuestItem_OnClick(arg1);
 			  </OnClick>
-			  <OnLoad>
-                this:RegisterForClicks("LeftButtonDown", "RightButtonDown");
-              </OnLoad>
+			  <!--<OnLoad>
+                AtlasQuestInsideFrame:RegisterForClicks("LeftButtonDown", "RightButtonDown");
+              </OnLoad>-->
               <OnShow>
-	    	    this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	    AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 	          </OnShow>
            </Scripts>
         </Button>
@@ -193,11 +193,11 @@ These fonts are useless atm -->
 			  <OnClick>
 				AtlasQuestItem_OnClick(arg1);
 			  </OnClick>
-			  <OnLoad>
-                this:RegisterForClicks("LeftButtonDown", "RightButtonDown");
-              </OnLoad>
+			  <!--<OnLoad>
+                AtlasQuestInsideFrame:RegisterForClicks("LeftButtonDown", "RightButtonDown");
+              </OnLoad>-->
               <OnShow>
-	    	    this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	    AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 	          </OnShow>
            </Scripts>
         </Button>
@@ -257,11 +257,11 @@ These fonts are useless atm -->
 			  <OnClick>
 				AtlasQuestItem_OnClick(arg1);
 			  </OnClick>
-			  <OnLoad>
-                this:RegisterForClicks("LeftButtonDown", "RightButtonDown");
-              </OnLoad>
+			  <!--<OnLoad>
+                AtlasQuestInsideFrame:RegisterForClicks("LeftButtonDown", "RightButtonDown");
+              </OnLoad>-->
               <OnShow>
-	    	    this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	    AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 	          </OnShow>
            </Scripts>
         </Button>
@@ -321,11 +321,11 @@ These fonts are useless atm -->
 			  <OnClick>
 				AtlasQuestItem_OnClick(arg1);
 			  </OnClick>
-			  <OnLoad>
-                this:RegisterForClicks("LeftButtonDown", "RightButtonDown");
-              </OnLoad>
+			  <!--<OnLoad>
+                AtlasQuestInsideFrame:RegisterForClicks("LeftButtonDown", "RightButtonDown");
+              </OnLoad>-->
               <OnShow>
-	    	    this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	    AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 	          </OnShow>
            </Scripts>
         </Button>
@@ -385,11 +385,11 @@ These fonts are useless atm -->
 			  <OnClick>
 				AtlasQuestItem_OnClick(arg1);
 			  </OnClick>
-			  <OnLoad>
-                this:RegisterForClicks("LeftButtonDown", "RightButtonDown");
-              </OnLoad>
+			  <!--<OnLoad>
+                AtlasQuestInsideFrame:RegisterForClicks("LeftButtonDown", "RightButtonDown");
+              </OnLoad>-->
               <OnShow>
-	    	    this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	    AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 	          </OnShow>
            </Scripts>
         </Button>
@@ -449,11 +449,11 @@ These fonts are useless atm -->
 			  <OnClick>
 				AtlasQuestItem_OnClick(arg1);
 			  </OnClick>
-			  <OnLoad>
-                this:RegisterForClicks("LeftButtonDown", "RightButtonDown");
-              </OnLoad>
+			  <!--<OnLoad>
+                AtlasQuestInsideFrame:RegisterForClicks("LeftButtonDown", "RightButtonDown");
+              </OnLoad>-->
               <OnShow>
-	    	    this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+	    	    AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 	          </OnShow>
            </Scripts>
         </Button>
@@ -474,7 +474,7 @@ These fonts are useless atm -->
 		      AQCLOSE2_OnClick();
 	        </OnClick>
 	        <OnShow>
-		    	this:SetFrameLevel( this:GetParent():GetFrameLevel() + 1 );
+		    	AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 		    </OnShow>
 	      </Scripts>
         </Button>
@@ -495,7 +495,7 @@ These fonts are useless atm -->
 	     <Scripts>
 		   <OnClick> AQFinishedQuest_OnClick(); </OnClick>
 		   <OnShow>
-	         this:SetFrameLevel( this:GetParent():GetFrameLevel() + 2 );
+	         AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 2 );
 	       </OnShow>
 	     </Scripts>
         </CheckButton>
@@ -516,7 +516,7 @@ These fonts are useless atm -->
 	      <Scripts>
 		    <OnClick> AQNextPageR_OnClick(); </OnClick>
 		    <OnShow>
-	          this:SetFrameLevel( this:GetParent():GetFrameLevel() + 2 );
+	          AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 2 );
 	        </OnShow>
 	      </Scripts>
         </Button>
@@ -537,7 +537,7 @@ These fonts are useless atm -->
 	      <Scripts>
 		    <OnClick> AQNextPageL_OnClick(); </OnClick>
 		    <OnShow>
-	          this:SetFrameLevel( this:GetParent():GetFrameLevel() + 2 );
+	          AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 2 );
 	        </OnShow>
 	      </Scripts>
         </Button>
@@ -686,12 +686,12 @@ These fonts are useless atm -->
 	        </OnClick>
 	        <OnUpdate>
 	        	if ( AtlasFrame == nil ) then
-	        		this:Hide();
+	        		AtlasQuestInsideFrame:Hide();
 	        	end
 	        </OnUpdate>
 	        <OnShow>
 	        	if ( AtlasFrame == nil ) then
-	        		this:Hide();
+	        		AtlasQuestInsideFrame:Hide();
 	        	end
 	        </OnShow>
 	      </Scripts>
