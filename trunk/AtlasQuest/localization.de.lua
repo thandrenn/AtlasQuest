@@ -25,7 +25,7 @@
 -- German localisation by Asurn
 -- updated by Telchar (ICQ:  391632535)
 -- updated by Nalumis
--- updated by Chemicalfighter
+-- updated by Guldukat Realm Antonidas
 
 
 if ( GetLocale() == "deDE" ) then
