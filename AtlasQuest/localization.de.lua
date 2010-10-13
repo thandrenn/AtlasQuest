@@ -3903,7 +3903,7 @@ Inst19Quest4PreQuest_HORDE = Inst19Quest2_PreQuest
 --Quest 5 Horde
 Inst19Quest5_HORDE = "5. In das Scharlachrote Kloster"
 Inst19Quest5_HORDE_Level = "42"
-Inst19Quest5_HORDE_Attain = "33"
+Inst19Quest5_HORDE_Attain = "30"
 Inst19Quest5_HORDE_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Varimathras in Unterstadt."
 Inst19Quest5_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92"..WHITE..")"
 Inst19Quest5_HORDE_Note = "Hochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
