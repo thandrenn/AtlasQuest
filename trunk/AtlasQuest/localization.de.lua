@@ -25,7 +25,7 @@
 -- German localisation by Asurn
 -- updated by Telchar (ICQ:  391632535)
 -- updated by Nalumis
--- updated by Guldukat Realm Antonidas
+-- updated by Guldukat Realm Antonidas(German)
 
 
 if ( GetLocale() == "deDE" ) then
@@ -317,7 +317,7 @@ Inst2Quest3_Level = "18"
 Inst2Quest3_Attain = "14"
 Inst2Quest3_Aim = "Bringt 6 Portionen Klageessenz zu Mebok Mizzyrix in Ratschet."
 Inst2Quest3_Location = "Mebok Mizzyrix (Brachland - Ratschet; "..YELLOW.."62,37"..WHITE..")"
-Inst2Quest3_Note = "Die Vorquest bekommt man auch von Mebok Mizzyrix.\nAlle Ektoplasmagegener vor und in der Instanz droppen Klageessenzen."
+Inst2Quest3_Note = "Die Vorquest bekommt man von Mebok Mizzyrix.\nAlle Ektoplasmagegener vor und in der Instanz droppen Klageessenzen."
 Inst2Quest3_Prequest = "Ja, Raptorhörner"
 Inst2Quest3_Folgequest = "Nein"
 Inst2Quest3PreQuest = "true"
@@ -702,7 +702,7 @@ Inst4Quest15_Level = "47"
 Inst4Quest15_Attain = "40"
 Inst4Quest15_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon. -> Bringt die Miniaturausgabe der Scheiben von Norgannon zur Forscherliga nach Eisenschmiede."
 Inst4Quest15_Location = "Die Scheiben von Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst4Quest15_Note = "Nachdem ihr das Quest erhalten habt, müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Hochforscher Magellas in Eisenschmiede - Halle der Forscher ("..YELLOW.."69,18"..WHITE..") bringen sollt. Die Folgequest wird von einem NPC in der Nähe gestartet."
+Inst4Quest15_Note = "Nachdem ihr diese Quest erhalten habt, müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Hochforscher Magellas in Eisenschmiede - Halle der Forscher ("..YELLOW.."69,18"..WHITE..") bringen sollt. Die Folgequest wird von einem NPC in der Nähe gestartet."
 Inst4Quest15_Prequest = "Nein"
 Inst4Quest15_Folgequest = "Ja, Omen von Uldum"
 --
@@ -839,7 +839,7 @@ Inst4Quest9_HORDE_Level = "47"
 Inst4Quest9_HORDE_Attain = "40"
 Inst4Quest9_HORDE_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon. -> Bringt die Miniaturausgabe der Scheiben von Norgannon zu einem der Weisen von Donnerfels."
 Inst4Quest9_HORDE_Location = "Die Scheiben von Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst4Quest9_HORDE_Note = "Nachdem ihr das Quest erhalten habt müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Weiser Wahrspruch in Donnerfels ("..YELLOW.."34,46"..WHITE..") bringt. Die Folgequest wird von einem NPC in der Nähe gestartet."
+Inst4Quest9_HORDE_Note = "Nachdem ihr diese Quest erhalten habt müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Weiser Wahrspruch in Donnerfels ("..YELLOW.."34,46"..WHITE..") bringt. Die Folgequest wird von einem NPC in der Nähe gestartet."
 Inst4Quest9_HORDE_Prequest = "Nein"
 Inst4Quest9_HORDE_Folgequest = "Ja, Omen von Uldum"
 --
@@ -913,7 +913,7 @@ Inst5Quest3_Level = "54"
 Inst5Quest3_Attain = "50"
 Inst5Quest3_Aim = "Bringt 4 Gromsblut-Kräuter, 10 Riesensilbervenen und Nagmaras gefüllte Phiole zu Herrin Nagmara in den Schwarzfelstiefen."
 Inst5Quest3_Location = "Herrin Nagmara (Schwarzfelstiefen; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest3_Note = "Die Riesensilbervenen bekommt man von Riesen in Azshara. Gromsblut kann man von Kräuterkundignen oder im Auktionshaus bekommen. Die Phiole kann man beim Go-Lakka Krater (Un'Goro Krater; "..YELLOW.."31,50"..WHITE..") auffüllen.\nWenn man das Quest abgeschloßen hat, muss man nicht zwingend Phalanx töten, man kann auch durch die Hintertür verschwinden."
+Inst5Quest3_Note = "Die Riesensilbervenen bekommt man von den Riesen in Azshara. Gromsblut kann man von Kräuterkundigen oder im Auktionshaus bekommen. Die Phiole kann man beim Go-Lakka Krater (Un'Goro Krater; "..YELLOW.."31,50"..WHITE..") auffüllen.\nWenn man diese Quest abgeschloßen hat, muss man nicht zwingend Phalanx töten, man kann auch durch die Hintertür verschwinden."
 Inst5Quest3_Prequest = "Nein"
 Inst5Quest3_Folgequest = "Nein"
 --
@@ -926,7 +926,7 @@ Inst5Quest4_Level = "55"
 Inst5Quest4_Attain = "50"
 Inst5Quest4_Aim = "Bringt Ragnar Donnerbräu in Kharanos das gestohlene Donnerbräurezept."
 Inst5Quest4_Location = "Ragnar Donnerbräu  (Dun Morogh - Kharanos; "..YELLOW.."46,52"..WHITE..")"
-Inst5Quest4_Note = "Die Vorquest gibt es bei Enohar Donnerbräu (Verwüstete Lande - Nethergarde; "..YELLOW.."61,18"..WHITE..").\nDas Rezept gibt es von einer der Wachen die erscheinen, wenn ihr Fässer in der Taverne "..YELLOW.."[15]"..WHITE.." zerstört."
+Inst5Quest4_Note = "Die Vorquest bekommt man von Enohar Donnerbräu (Verwüstete Lande - Nethergarde; "..YELLOW.."61,18"..WHITE..").\nDas Rezept gibt es von einer der Wachen die erscheinen, wenn ihr Fässer in der Taverne "..YELLOW.."[15]"..WHITE.." zerstört."
 Inst5Quest4_Prequest = "Ja, Ragnar Donnerbräu"
 Inst5Quest4_Folgequest = "Nein"
 Inst5Quest4PreQuest = "true"
@@ -952,7 +952,7 @@ Inst5Quest6_Level = "56"
 Inst5Quest6_Attain = "48"
 Inst5Quest6_Aim = "Sucht Lord Incendius in den Schwarzfelstiefen und vernichtet ihn!"
 Inst5Quest6_Location = "Jalinda Sprig (Brennende Steppe - Morgans Wacht; "..YELLOW.."85,69"..WHITE..")"
-Inst5Quest6_Note = "Die Vorquest bekommt man auch von Jalinda Sprig. Lord Incendius befindet sich bei "..YELLOW.."[10]"..WHITE.."."
+Inst5Quest6_Note = "Die Vorquest bekommt man von Jalinda Sprig. Lord Incendius befindet sich bei "..YELLOW.."[10]"..WHITE.."."
 Inst5Quest6_Prequest = "Ja, Übermeister Pyron"
 Inst5Quest6_Folgequest = "Nein"
 Inst5Quest6FQuest = "true"
@@ -979,7 +979,7 @@ Inst5Quest8_Level = "56"
 Inst5Quest8_Attain = "50"
 Inst5Quest8_Aim = "Reist in die Schwarzfelstiefen und holt 20 Dunkeleisengürteltaschen. Kehrt zu Oralius zurück, sobald die Aufgabe erledigt ist. Ihr nehmt an, dass die Dunkeleisenzwerge in den Schwarzfelstiefen diese 'Gürteltaschen'-Dinger tragen."
 Inst5Quest8_Location = "Oralius (Brennende Steppe - Morgans Wacht; "..YELLOW.."84,68"..WHITE..")"
-Inst5Quest8_Note = "Alle Zwergen können die Taschen droppen."
+Inst5Quest8_Note = "Alle Zwergen können diese Taschen droppen."
 Inst5Quest8_Prequest = "Nein"
 Inst5Quest8_Folgequest = "Nein"
 --
@@ -1223,7 +1223,7 @@ Inst5Quest12_HORDE_Level = "56"
 Inst5Quest12_HORDE_Attain = "48"
 Inst5Quest12_HORDE_Aim = "Betretet die Schwarzfelstiefen und spürt Lord Incendius auf. Tötet ihn und bringt jegliche Informationsquelle, die Ihr finden könnt, zu Donnerherz."
 Inst5Quest12_HORDE_Location = "Donnerherz (Ödland - Kargath; "..YELLOW.."3,48"..WHITE..")"
-Inst5Quest12_HORDE_Note = "Die Vorquest bekommt man auch von Donnerherz.\nLord Incendius befindet sich bei "..YELLOW.."[10]"..WHITE.."."
+Inst5Quest12_HORDE_Note = "Die Vorquest bekommt man von Donnerherz.\nLord Incendius befindet sich bei "..YELLOW.."[10]"..WHITE.."."
 Inst5Quest12_HORDE_Prequest = "Ja, Disharmonie der Flamme"
 Inst5Quest12_HORDE_Folgequest = "Nein"
 Inst5Quest12FQuest_HORDE = "true"
@@ -1339,7 +1339,7 @@ Inst6Quest1_Level = "60"
 Inst6Quest1_Attain = "60"
 Inst6Quest1_Aim = "Tötet Nefarian und bringt den roten Szeptersplitter wieder in Euren Besitz. Bringt den roten Szeptersplitter zu Anachronos in den Höhlen der Zeit in Tanaris. Euch bleiben 5 Stunden, um diese Aufgabe zu erfüllen."
 Inst6Quest1_Location = "Vaelastrasz der Verdorbene (Pechschwingenhort; "..YELLOW.."[2]"..WHITE..")"
-Inst6Quest1_Note = "Nur eine Person kann den Splitter looten. Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
+Inst6Quest1_Note = "Nur eine Person kann den Splitter an sich nehmen. Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
 Inst6Quest1_Prequest = "Nein"
 Inst6Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -1364,7 +1364,7 @@ Inst6Quest3_Level = "60"
 Inst6Quest3_Attain = "60"
 Inst6Quest3_Aim = "Bringt Brutwächter Dreschbringers Kopf zu Baristolth der Sandstürme in die Burg Cenarius in Silithus."
 Inst6Quest3_Location = "Kopf des Brutwächters Dreschbringer (droppt von Brutwächter Dreschbringer "..YELLOW.."[3]"..WHITE..")"
-Inst6Quest3_Note = "Nur eine Person kann den Kopf looten."
+Inst6Quest3_Note = "Nur eine Person kann den Kopf an sich nehmen."
 Inst6Quest3_Prequest = "Nein"
 Inst6Quest3_Folgequest = "Ja, Der Pfad des Gerechten"
 -- No Rewards for this quest
@@ -1433,7 +1433,7 @@ Inst7Quest2_Level = "24"
 Inst7Quest2_Attain = "18"
 Inst7Quest2_Aim = "Gershala Nachtraunen in Auberdine möchte 8 verderbte Hirnstämme."
 Inst7Quest2_Location = "Gershala Nachtraunen (Dunkelküste - Auberdine; "..YELLOW.."38,43"..WHITE..")"
-Inst7Quest2_Note = "Die Vorquest ist optional. Man bekommt es von Argos Nachtraunen (Sturmwind - Der Park; "..YELLOW.."21,55"..WHITE..").\n\nDie Gehirnstämme werden von den Nagas vor und in der Instanz gedroppt."
+Inst7Quest2_Note = "Die Vorquest ist optional. Man bekommt die Vorquest von Argos Nachtraunen (Sturmwind - Der Park; "..YELLOW.."21,55"..WHITE..").\n\nDie Gehirnstämme werden von den Nagas vor und in der Instanz gedroppt."
 Inst7Quest2_Prequest = "Ja, Verderbnis in der Fremde"
 Inst7Quest2_Folgequest = "Nein"
 Inst7Quest2PreQuest = "true"
@@ -2400,7 +2400,7 @@ Inst11Quest1_Level = "60"
 Inst11Quest1_Attain = "56"
 Inst11Quest1_Aim = "Repariere die Falle."
 Inst11Quest1_Location = "Die beschädigte Falle (Düsterbruch; "..YELLOW.."Nord"..WHITE..")"
-Inst11Quest1_Note = "Wiederholbares Quest. Um die Falle zu reparieren wird ein [Thoriumapparat] und ein [Frostöl] benötigt."
+Inst11Quest1_Note = "Wiederholbare Quest. Um die Falle zu reparieren wird ein [Thoriumapparat] und ein [Frostöl] benötigt."
 Inst11Quest1_Prequest = "Nein"
 Inst11Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -2411,7 +2411,7 @@ Inst11Quest2_Level = "60"
 Inst11Quest2_Attain = "56"
 Inst11Quest2_Aim = "Bringt 4 Runenstoffballen, 8 Stücke unverwüstliches Leder, 2 Runenfaden und etwas Ogergerbemittel zu Knot Zwingschraub. Momentan ist er im Gordokflügel von Düsterbruch angekettet."
 Inst11Quest2_Location = "Knot Zwingschraub (Düsterbruch; "..YELLOW.."Nord, [4]"..WHITE..")"
-Inst11Quest2_Note = "Wiederholbares Quest. Das Ogergerbemittel findet man nahe "..YELLOW.."[4] (oben)"..WHITE.."."
+Inst11Quest2_Note = "Wiederholbare Quest. Das Ogergerbemittel findet man nahe "..YELLOW.."[4] (oben)"..WHITE.."."
 Inst11Quest2_Prequest = "Nein"
 Inst11Quest2_Folgequest = "Nein"
 --
@@ -2450,8 +2450,8 @@ Inst11Quest5_Attain = "60"
 Inst11Quest5_Aim = "Freier Alkohol."
 Inst11Quest5_Location = "Stampfer Kreeg (Düsterbruch; "..YELLOW.."Nord, [2]"..WHITE..")"
 Inst11Quest5_Note = "Rede mit dem NPC um die Quest anzunehmen und gleichzeitig wieder abzugeben."
-Inst11Quest5_Prequest = "No"
-Inst11Quest5_Folgequest = "No"
+Inst11Quest5_Prequest = "Nein"
+Inst11Quest5_Folgequest = "Nein"
 --
 Inst11Quest5name1 = "Grüner Gordokgrog"
 Inst11Quest5name2 = "Kreegs Hauwegsstarkbier"
@@ -2581,7 +2581,7 @@ Inst12Quest4PreQuest = "true"
 Inst12Quest5 = "5. Der Smaragdgrüne Traum (Druide)"
 Inst12Quest5_Level = "60"
 Inst12Quest5_Attain = "54"
-Inst12Quest5_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest5_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest5_Location = "Der Smaragdgrüne Traum (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest5_Note = "Die Belohnung ist für Druiden. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
 Inst12Quest5_Prequest = "Nein"
@@ -2593,7 +2593,7 @@ Inst12Quest5name1 = "Königliches Siegel von Eldre'Thalas"
 Inst12Quest6 = "6. Das größte Volk von Jägern (Jäger)"
 Inst12Quest6_Level = "60"
 Inst12Quest6_Attain = "54"
-Inst12Quest6_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest6_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest6_Location = "Das größte Volk von Jägern (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest6_Note = "Die Belohnung ist für Jäger. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
 Inst12Quest6_Prequest = "Nein"
@@ -2605,7 +2605,7 @@ Inst12Quest6name1 = "Königliches Siegel von Eldre'Thalas"
 Inst12Quest7 = "7. Das Arkanistenkochbuch (Magier)"
 Inst12Quest7_Level = "60"
 Inst12Quest7_Attain = "54"
-Inst12Quest7_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest7_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest7_Location = "Das Arkanistenkochbuch (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest7_Note = "Die Belohnung ist für Magier. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
 Inst12Quest7_Prequest = "Nein"
@@ -2617,7 +2617,7 @@ Inst12Quest7name1 = "Königliches Siegel von Eldre'Thalas"
 Inst12Quest8 = "8. Vom Licht und wie man es schwingt (Paladin)"
 Inst12Quest8_Level = "60"
 Inst12Quest8_Attain = "54"
-Inst12Quest8_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest8_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest8_Location = "Vom Licht und wie man es schwingt (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest8_Note = "Die Belohnung ist für Paladine. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
 Inst12Quest8_Prequest = "Nein"
@@ -2629,7 +2629,7 @@ Inst12Quest8name1 = "Königliches Siegel von Eldre'Thalas"
 Inst12Quest9 = "9. Heiliger Fleischklops: Was das Licht Dir nicht erzählt (Priester)"
 Inst12Quest9_Level = "60"
 Inst12Quest9_Attain = "54"
-Inst12Quest9_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest9_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest9_Location = "Heiliger Fleischklops: Was das Licht Dir nicht erzählt (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest9_Note = "Die Belohnung ist für Priester. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
 Inst12Quest9_Prequest = "Nein"
@@ -2641,7 +2641,7 @@ Inst12Quest9name1 = "Königliches Siegel von Eldre'Thalas"
 Inst12Quest10 = "10. Garona: Eine Studie über Heimlichkeit und Verrat (Schurke)"
 Inst12Quest10_Level = "60"
 Inst12Quest10_Attain = "54"
-Inst12Quest10_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest10_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest10_Location = "Garona: Eine Studie über Heimlichkeit und Verrat (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest10_Note = "Die Belohnung ist für Schurken. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
 Inst12Quest10_Prequest = "Nein"
@@ -2653,7 +2653,7 @@ Inst12Quest10name1 = "Königliches Siegel von Eldre'Thalas"
 Inst12Quest11 = "11. Frostschock und Du (Schamane)"
 Inst12Quest11_Level = "60"
 Inst12Quest11_Attain = "54"
-Inst12Quest11_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest11_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest11_Location = "Frostschock und Du (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest11_Note = "Die Belohnung ist für Schamanen. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
 Inst12Quest11_Prequest = "Nein"
@@ -2665,7 +2665,7 @@ Inst12Quest11name1 = "Königliches Siegel von Eldre'Thalas"
 Inst12Quest12 = "12. Schatten einspannen (Hexenmeister)"
 Inst12Quest12_Level = "60"
 Inst12Quest12_Attain = "54"
-Inst12Quest12_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest12_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest12_Location = "Schatten einspannen (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest12_Note = "Die Belohnung ist für Hexenmeister. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
 Inst12Quest12_Prequest = "Nein"
@@ -2677,7 +2677,7 @@ Inst12Quest12name1 = "Königliches Siegel von Eldre'Thalas"
 Inst12Quest13 = "13. Kodex der Verteidigung (Krieger)"
 Inst12Quest13_Level = "60"
 Inst12Quest13_Attain = "54"
-Inst12Quest13_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst12Quest13_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
 Inst12Quest13_Location = "Kodex der Verteidigung (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
 Inst12Quest13_Note = "Die Belohnung ist für Krieger. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
 Inst12Quest13_Prequest = "Nein"
@@ -3315,160 +3315,8 @@ Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 --------------- INST15 - Naxxramas (Naxx) ---------------
 
-Inst15Story = "Hoch über den Pestländern schwebt die Nekropole Naxxramas, die Kel'Thuzad, einem der mächtigsten Offiziere des Lichkönigs, als Heimstatt dient. Schrecken der Vergangenheit und noch unbekannte Grauen warten darauf, auf die Welt losgelassen zu werden, während sich die Diener der Geißel auf ihren Ansturm vorbereiten. Bald wird die Geißel erneut marschieren..."
-Inst15Caption = "Naxxramas"
-Inst15QAA = "6 Quests"
-Inst15QAH = "6 Quests"
-
---Quest 1 Alliance
-Inst15Quest1 = "1. Der Niedergang Kel'Thuzads"
-Inst15Quest1_Level = "60"
-Inst15Quest1_Attain = "60"
-Inst15Quest1_Aim = "Bringt Kel'Thuzads Phylakterium zur Kapelle des hoffnungsvollen Lichts in den Östlichen Pestländern."
-Inst15Quest1_Location = "Kel'Thuzad (Naxxramas; "..YELLOW.."Grüne 2"..WHITE..")"
-Inst15Quest1_Note = "Vater Inigo Montoy (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,58"..WHITE..")"
-Inst15Quest1_Prequest = "Nein"
-Inst15Quest1_Folgequest = "Nein"
---
-Inst15Quest1name1 = "Mal des Helden"
-Inst15Quest1name2 = "Mal des Helden"
-
---Quest 2 Alliance
-Inst15Quest2 = "2. Das Einzige, das ich kann..."
-Inst15Quest2_Level = "60"
-Inst15Quest2_Attain = "60"
-Inst15Quest2_Aim = "Handwerker Wilhelm in der Kapelle des hoffnungsvollen Lichts möchte, dass Ihr ihm 2 gefrorene Runen, 2 Essenzen des Wassers, 2 blaue Saphire und 30 Goldstücke bringt."
-Inst15Quest2_Location = "Handwerker Wilhelm (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,60"..WHITE..")"
-Inst15Quest2_Note = "Gefrorene Runen gibt es von Unheiligen Äxten in Naxxramas."
-Inst15Quest2_Prequest = "Nein"
-Inst15Quest2_Folgequest = "Nein"
---
-Inst15Quest2name1 = "Gletschergamaschen"
-Inst15Quest2name2 = "Eisfluchgamaschen"
-Inst15Quest2name3 = "Eisschuppengamaschen"
-Inst15Quest2name4 = "Polargamaschen"
-
---Quest 3 Alliance
-Inst15Quest3 = "3. Echo des Krieges"
-Inst15Quest3_Level = "60"
-Inst15Quest3_Attain = "60"
-Inst15Quest3_Aim = "Kommandant Eligor Morgenbringer bei der Kapelle des hoffnungsvollen Lichts in den östlichen Pestländern möchte, dass Ihr 5 lebende Monstrositäten, 5 Steinhautgargoyles, 8 Hauptmänner der Todesritter und 3 Giftpirscher tötet."
-Inst15Quest3_Location = "Kommandant Eligor Morgenbringer (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."82,58"..WHITE..")"
-Inst15Quest3_Note = "Die Gegner, die von diesem Quest betroffen sind, befinden sich am Anfang von jedem Flügel in Naxxramas. Diese Quest ist erforderlich für die Tier 3 Rüstungs Quests."
-Inst15Quest3_Prequest = "Nein"
-Inst15Quest3_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst15Quest4 = "4. Ramaladnis Schicksal"
-Inst15Quest4_Level = "60"
-Inst15Quest4_Attain = "60"
-Inst15Quest4_Aim = "Betretet Naxxramas und bringt Ramaladnis Schicksal in Erfahrung."
-Inst15Quest4_Location = "Korfax der Held des Lichts (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."82,58"..WHITE..")"
-Inst15Quest4_Note = "Der Ring für diese Quest ist ein zufälliger Dropp in Naxxramas. Jeder der das Quest hat, kann ihn an sich nehmen."
-Inst15Quest4_Prequest = "Nein"
-Inst15Quest4_Folgequest = "Ja, Ramaladnis eisiger Griff"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst15Quest5 = "5. Ramaladnis eisiger Griff"
-Inst15Quest5_Level = "60"
-Inst15Quest5_Attain = "60"
-Inst15Quest5_Aim = "Korfax in der Kapelle des hoffnungsvollen Lichtes möchte, dass Ihr ihm 1 gefrorene Rune, 1 blauen Saphir und 1 Arkanitbarren bringt."
-Inst15Quest5_Location = "Korfax der Held des Lichts (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."82,58"..WHITE..")"
-Inst15Quest5_Note = "Gefrorene Runen gibt es von Unheiligen Äxten in Naxxramas."
-Inst15Quest5_Prequest = "Ja, Ramaladnis Schicksal"
-Inst15Quest5_Folgequest = "Nein"
-Inst15Quest5FQuest = "true"
---
-Inst15Quest5name1 = "Ramaladnis eisiger Griff"
-
---Quest 6 Alliance
-Inst15Quest6 = "6. Omarions Leitfaden"
-Inst15Quest6_Level = "60"
-Inst15Quest6_Attain = "60"
-Inst15Quest6_Aim = "Bringt Omarions Leitfaden zu Handwerker Wilhelm bei der Kapelle des hoffnungsvollen Lichts in den östlichen Pestländern."
-Inst15Quest6_Location = "Gegenstand von Meisterhandwerker Omarion (Naxxramas - Todesritterflügel; "..YELLOW.."[??]"..WHITE..")"
-Inst15Quest6_Note = "Handwerker Wilhelm befindet sich bei (Östlichen Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,60"..WHITE.."). Das Quest scheint nur für Schneider erhältlich zu sein. Nachdem man das Quest abgegeben hat wird euch Handwerker Wilhelm neue Muster verkaufen, falls ihr Respektvoll oder Ehrfürchtig mit der Argentum Dämmerung seid."
-Inst15Quest6_Prequest = "Nein"
-Inst15Quest6_Folgequest = "Nein"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst15Quest1_HORDE = Inst15Quest1
-Inst15Quest1_HORDE_Level = Inst15Quest1_Level
-Inst15Quest1_HORDE_Attain = Inst15Quest1_Attain
-Inst15Quest1_HORDE_Aim = Inst15Quest1_Aim
-Inst15Quest1_HORDE_Location = Inst15Quest1_Location
-Inst15Quest1_HORDE_Note = Inst15Quest1_Note
-Inst15Quest1_HORDE_Prequest = Inst15Quest1_Prequest
-Inst15Quest1_HORDE_Folgequest = Inst15Quest1_Folgequest
---
-Inst15Quest1name1_HORDE = Inst15Quest1name1
-Inst15Quest1name2_HORDE = Inst15Quest1name2
-Inst15Quest1name3_HORDE = Inst15Quest1name3
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst15Quest2_HORDE = Inst15Quest2
-Inst15Quest2_HORDE_Level = Inst15Quest2_Level
-Inst15Quest2_HORDE_Attain = Inst15Quest2_Attain
-Inst15Quest2_HORDE_Aim = Inst15Quest2_Aim
-Inst15Quest2_HORDE_Location = Inst15Quest2_Location
-Inst15Quest2_HORDE_Note = Inst15Quest2_Note
-Inst15Quest2_HORDE_Prequest = Inst15Quest2_Prequest
-Inst15Quest2_HORDE_Folgequest = Inst15Quest2_Folgequest
---
-Inst15Quest2name1_HORDE = Inst15Quest2name1
-Inst15Quest2name2_HORDE = Inst15Quest2name2
-Inst15Quest2name3_HORDE = Inst15Quest2name3
-Inst15Quest2name4_HORDE = Inst15Quest2name4
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst15Quest3_HORDE = Inst15Quest3
-Inst15Quest3_HORDE_Level = Inst15Quest3_Level
-Inst15Quest3_HORDE_Attain = Inst15Quest3_Attain
-Inst15Quest3_HORDE_Aim = Inst15Quest3_Aim
-Inst15Quest3_HORDE_Location = Inst15Quest3_Location
-Inst15Quest3_HORDE_Note = Inst15Quest3_Note
-Inst15Quest3_HORDE_Prequest = Inst15Quest3_Prequest
-Inst15Quest3_HORDE_Folgequest = Inst15Quest3_Folgequest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst15Quest4_HORDE = Inst15Quest4
-Inst15Quest4_HORDE_Level = Inst15Quest4_Level
-Inst15Quest4_HORDE_Attain = Inst15Quest4_Attain
-Inst15Quest4_HORDE_Aim = Inst15Quest4_Aim
-Inst15Quest4_HORDE_Location = Inst15Quest4_Location
-Inst15Quest4_HORDE_Note = Inst15Quest4_Note
-Inst15Quest4_HORDE_Prequest = Inst15Quest4_Prequest
-Inst15Quest4_HORDE_Folgequest = Inst15Quest4_Folgequest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst15Quest5_HORDE = Inst15Quest5
-Inst15Quest5_HORDE_Level = Inst15Quest5_Level
-Inst15Quest5_HORDE_Attain = Inst15Quest5_Attain
-Inst15Quest5_HORDE_Aim = Inst15Quest5_Aim
-Inst15Quest5_HORDE_Location = Inst15Quest5_Location
-Inst15Quest5_HORDE_Note = Inst15Quest5_Note
-Inst15Quest5_HORDE_Prequest = Inst15Quest5_Prequest
-Inst15Quest5_HORDE_Folgequest = Inst15Quest5_Folgequest
-Inst15Quest5FQuest_HORDE = Inst15Quest5FQuest
---
-Inst15Quest5name1_HORDE = Inst15Quest5name1
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst15Quest6_HORDE = Inst15Quest6
-Inst15Quest6_HORDE_Level = Inst15Quest6_Level
-Inst15Quest6_HORDE_Attain = Inst15Quest6_Attain
-Inst15Quest6_HORDE_Aim = Inst15Quest6_Aim
-Inst15Quest6_HORDE_Location = Inst15Quest6_Location
-Inst15Quest6_HORDE_Note = Inst15Quest6_Note
-Inst15Quest6_HORDE_Prequest = Inst15Quest6_Prequest
-Inst15Quest6_HORDE_Folgequest = Inst15Quest6_Folgequest
--- No Rewards for this quest
+--Alte Instanz von Naxxramas ( bevor Wrath of the Lichking erschien)
+--Benutze jetz Inst84 für das neue.
 
 
 
@@ -3587,7 +3435,7 @@ Inst17Quest2_Level = "37"
 Inst17Quest2_Attain = "32"
 Inst17Quest2_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln der Klingenhauer. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
 Inst17Quest2_Location = "Belnistrasz (Hügel der Klingenhauer; "..YELLOW.."[2]"..WHITE..")"
-Inst17Quest2_Note = "Beim Vorquest muss man sich nur dazu bereit erklären ihm zu helfen. Einige Gegner erscheinen und greifen Belnistrasz an, während er versucht den Götzen auszuschalten. Wenn man das Quest beendet hat, kann man es direkt vor dem Götzen abgeben."
+Inst17Quest2_Note = "Bei der Vorquest muss man sich nur dazu bereit erklären ihm zu helfen. Einige Gegner erscheinen und greifen Belnistrasz an, während er versucht den Götzen auszuschalten. Wenn man diese Quest beendet hat, kann man es direkt vor dem Götzen abgeben."
 Inst17Quest2_Prequest = "Ja, Geißel der Niederungen"
 Inst17Quest2_Folgequest = "Nein"
 Inst17Quest2PreQuest = "true"
@@ -4028,10 +3876,10 @@ Inst59QAA = "1 Quest"
 Inst59QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst59Quest1 = "1. Ruft den kopflosen Reiter (Tagesquest - Saisonbedingt)"
+Inst59Quest1 = "1. Ruft den kopflosen Reiter (Tagesquest - Schlotternächte)"
 Inst59Quest1_Level = "80"
 Inst59Quest1_Attain = "80"
-Inst59Quest1_Aim = "Bringt eine düstere Kerze zur leicht aufgewühlten Erde."
+Inst59Quest1_Aim = "Man muß den Erdhaufen nur noch einmal anklicken und der Kopflose Reiter erscheint."
 Inst59Quest1_Location = "Kürbisschrein (Scharlachrotes Kloster - Friedhof; "..YELLOW.."[2]"..WHITE..")"
 Inst59Quest1_Note = "Die Erde befindet sich nur ein paar Schritte vom Kürbisschrein entfernt. Diese Quest ist nur während der Schlotternächte erhältlich und kann nur einmal täglich pro Spieler angenommen werden.\n\nWenn man diese Quest abschließt, erscheint der kopflose Reiter, ein Stufe 80 Boss."
 Inst59Quest1_Prequest = "Nein"
@@ -4066,7 +3914,7 @@ Inst59Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 1 Alliance)
-Inst59Quest3_HORDE = "3. Ruft den kopflosen Reiter (Tagesquest - Saisonbedingt)"
+Inst59Quest3_HORDE = "3. Ruft den kopflosen Reiter (Tagesquest - Schlotternächte)"
 Inst59Quest3_HORDE_Level = Inst59Quest1_Level
 Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
 Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
@@ -11829,8 +11677,8 @@ Inst92Quest3PreQuest_HORDE = "true"
 --------------- INST93 - Icecrown Citadel (ICC) ---------------
 Inst93Story = "Die Eiskronenzitadelle ist eine riesige Festung auf dem Eiskronengletscher mit dicken Wänden, robusten Wachtürmen und massiven Eingangstoren. Die Eiskrone bekam ihren Namen, als Kil'jaeden den Lichkönig zurück in die sterbliche Welt stürzte. Hier verweilte er, bis Arthas ihn befreite und sie zusammen in Arthas Körper verschmolzen. Die Vereinigung löste eine schwere Explosion aus, die den Frostthron freisetzte. Von hier aus befehligt der Lichkönig nun die Geißel. Aus den Trümmern des einstigen Eisturms ist eine mächtige, bedrohliche schwarze Festung geworden. Der Hauptteil der Zitadelle liegt oberhalb des gesplitterten Gletschers, die Gletscherteile selber werden durch Brücken und Wege überwunden. Beim Betreten der Zitadelle stellt man sofort die Kälte fest, die hier innewohnt, keine Dekoration und auch keine Teppiche oder Vorlagewerke schmücken diese Festung. Am Fuße der Gletscherspalte befindet sich der Frostthron, das Herz der Geißel und des Lichkönigs privater Sitz."
 Inst93Caption = "ICC:Eiskronenzitadelle"
-Inst93QAA = "15 Quest"
-Inst93QAH = "15 Quest"
+Inst93QAA = "10 Quest"
+Inst93QAH = "10 Quest"
 
 --Quest 1 Alliance
 Inst93Quest1 = "1. Lord Mark'gar muss sterben! (Wöchentlich)"
@@ -11846,173 +11694,112 @@ Inst93Quest1name1 = "Emblem des Frosts"
 Inst93Quest1name2 = "Emblem des Triumphs"
 
 --Quest 2 Alliance
-Inst93Quest2 = "2. Entprogrammieren (Zufällig Wöchentlich)"
+Inst93Quest2 = "2. Die Heiligen und die Verderbten"
 Inst93Quest2_Level = "80"
 Inst93Quest2_Attain = "80"
-Inst93Quest2_Aim = "Bezwingt Lady Todeswisper, aber stellt dabei sicher, dass Darnavan überlebt."
-Inst93Quest2_Location = "Spitzel Minchar (Eiskronenzitadelle; "..YELLOW.."Near [1]"..WHITE..")"
-Inst93Quest2_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, erscheint Spietzel Minchar nachdem Lord Mark'gar besiegt wurde.\n\nWährend der Begegnung mit Lady Todeswisper, wird Darnavan erscheinen. Er muß den kompletten Kampf überleben um diese Quest zu beenden."
-Inst93Quest2_Folgequest = "Nein"
-Inst93Quest2_Folgequest = "Nein"
---
-Inst93Quest2name1 = "Sack mit frostigen Schätzen"
-
---Quest 3 Alliance
-Inst93Quest3 = "3. Sicherung des Bollwerks (Zufällig Wöchentlich)"
-Inst93Quest3_Level = "80"
-Inst93Quest3_Attain = "80"
-Inst93Quest3_Aim = "Erledigt den verrottenden Frostriesen."
-Inst93Quest3_Location = "Leutnant der Himmelsbrecher (Eiskronenzitadelle; "..GREEN.."[3']"..WHITE..")"
-Inst93Quest3_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Leutnant der Himmelsbrecher erscheinen nachdem der erste Trashmob, nach dem Tot von Lady Todeswisper, gepullt wurde.\n\nDie verrottenden Frostriesen können auf der Plattform gefunden werden."
-Inst93Quest3_Prequest = "Nein"
-Inst93Quest3_Folgequest = "Nein"
---
-Inst93Quest3name1 = "Sack mit frostigen Schätzen"
-
---Quest 4 Alliance
-Inst93Quest4 = "4. Wandelnder Wirt (Zufällig Wöchentlich)"
-Inst93Quest4_Level = "80"
-Inst93Quest4_Attain = "80"
-Inst93Quest4_Aim = "Kehrt zu Alchemistin Adrianna zurück, während Ihr mit der orangenen und der grünen Seuche infiziert seid."
-Inst93Quest4_Location = "Alchemistin Adrianna (Eiskronenzitadelle; "..GREEN.."[4']"..WHITE..")"
-Inst93Quest4_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Alchemistin Adrianna erscheinen nachdem der Teleporter aktiviert wurde der hinter Todesbringer Saurfang ist.\n\nUm diese Quest zu beenden muß mindestens ein Raidmitglied die beiden Debuffs von Fauldarm und Modermiene besitzen und innerhalb von 30 Minuten zu Alchemistin Adrianna zurückkehren nachdem der erste Debuff gesprochen wurde. Alle Raidmitglieder mit dieser Quest bekommen einen Gutschein."
-Inst93Quest4_Page = {2, "Die Debuffs verschwinden nach dem Tot, Göttliches Eingreifen und Göttliches Schild und vielleicht auch andere Fähigkeiten könnten dies eventuell verhindern. Jäger die sich totstellen behalten die Debuffs.", };
-Inst93Quest4_Prequest = "Nein"
-Inst93Quest4_Folgequest = "Nein"
---
-Inst93Quest4name1 = "Sack mit frostigen Schätzen"
-
---Quest 5 Alliance
-Inst93Quest5 = "5. Erhöhter Blutdruck (Zufällig Wöchentlich)"
-Inst93Quest5_Level = "80"
-Inst93Quest5_Attain = "80"
-Inst93Quest5_Aim = "Rettet den Spitzel Minchar, bevor er hingerichtet wird."
-Inst93Quest5_Location = "Alrin der Bewegliche (Eiskronenzitadelle; Eingang zu den Blutroten Hallen)"
-Inst93Quest5_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Alrin der Bewegliche erscheinen nachdem die Blutroten Hallen betreten wurden.\n\nEin 30 Minütiger Countdown beginnt nachdem die Hochroten Hallen betreten wurde. Ihr müßt alles bereinigen, besiegt den Blutprinzen und die Blutkönigen Lana'thel bevor die Zeit abläuft um die Quest zu beenden."
-Inst93Quest5_Prequest = "Nein"
-Inst93Quest5_Folgequest = "Nein"
---
-Inst93Quest5name1 = "Sack mit frostigen Schätzen"
-
---Quest 6 Alliance
-Inst93Quest6 = "6. Frieden für eine geschundene Seele (Zufällig Wöchentlich)"
-Inst93Quest6_Level = "80"
-Inst93Quest6_Attain = "80"
-Inst93Quest6_Aim = "Benutzt die Lebenskristall, um Sindragosas Essenz zu erhalten."
-Inst93Quest6_Location = "Valithria Traumwandler (Eiskronenzitadelle; "..YELLOW.."[11]"..WHITE..")"
-Inst93Quest6_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wird Valithria Traumwandler Euch eine Quest geben nachdem die Begegnung beendet ist.\n\nUm diese Quest zu beenden, müssen die Raidmitglieder den zur Verfügung gestellten Gegenstand benutzen und den Debuff hochstacken (30 bei 10 Spieler, 75 bei 25 Spieler) bei  Sindragosa wenn sie bei 20% Leben oder darunter ist. Wenn dies Erfolgreich gemacht wird und Sindragosa eine Aura der Seelenbewahrung bekommt bevor sie stirbt, ist diese Quest beendet."
-Inst93Quest6_Prequest = "Nein"
-Inst93Quest6_Folgequest = "Nein"
---
-Inst93Quest6name1 = "Sack mit frostigen Schätzen"
-
---Quest 7 Alliance
-Inst93Quest7 = "7. Die Heiligen und die Verderbten"
-Inst93Quest7_Level = "80"
-Inst93Quest7_Attain = "80"
-Inst93Quest7_Aim = "Platziert Lichträcher, 25 Einheiten urtümliches Saronit sowie Modermienes und Fauldarms ätzendes Blut in Hochlord Mograines Runenschmiede in der Eiskronenzitadelle."
-Inst93Quest7_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest7_Note = "Diese Questreihe ist nur für Krieger, Paldine und Todesritter. Hochlord Mograine's Runenschmiede ist am Eingang der Eiskronenzitadelle.\n\nModermienes und Fauldarms ätzendes Blut droppt nur in der 25 Spieler Version und kann nur von einem einzigen Raidmitglied aufgenommen werden."
-Inst93Quest7_Prequest = "Nein"
-Inst93Quest7_Folgequest = "Schattenschneide"
+Inst93Quest2_Aim = "Platziert Lichträcher, 25 Einheiten urtümliches Saronit sowie Modermienes und Fauldarms ätzendes Blut in Hochlord Mograines Runenschmiede in der Eiskronenzitadelle."
+Inst93Quest2_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest2_Note = "Diese Questreihe ist nur für Krieger, Paldine und Todesritter. Hochlord Mograine's Runenschmiede ist am Eingang der Eiskronenzitadelle.\n\nModermienes und Fauldarms ätzendes Blut droppt nur in der 25 Spieler Version und kann nur von einem einzigen Raidmitglied aufgenommen werden."
+Inst93Quest2_Prequest = "Nein"
+Inst93Quest2_Folgequest = "Schattenschneide"
 -- No Rewards for this quest
 
---Quest 8 Alliance
-Inst93Quest8 = "8. Schattenschneide"
-Inst93Quest8_Level = "80"
-Inst93Quest8_Attain = "80"
-Inst93Quest8_Aim = "Vermutlich: Kehrt zu Hochlord Darion Mograin in der Eiskronenzitadelle zurück."
-Inst93Quest8_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest8_Note = "Vermutlich ist dies die Quest wo Du die Schattenschneide bekommst!"
-Inst93Quest8_Prequest = "Die Heiligen und die Verderbten"
-Inst93Quest8_Folgequest = "Ein Seelenschmaus"
-Inst93Quest8FQuest = "true"
+--Quest 3 Alliance
+Inst93Quest3 = "3. Schattenschneide"
+Inst93Quest3_Level = "80"
+Inst93Quest3_Attain = "80"
+Inst93Quest3_Aim = "Vermutlich: Kehrt zu Hochlord Darion Mograin in der Eiskronenzitadelle zurück."
+Inst93Quest3_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest3_Note = "Vermutlich ist dies die Quest wo Du die Schattenschneide bekommst!"
+Inst93Quest3_Prequest = "Die Heiligen und die Verderbten"
+Inst93Quest3_Folgequest = "Ein Seelenschmaus"
+Inst93Quest3FQuest = "true"
 --
 Inst93Quest8name1 = "Schattenschneide"
 
+--Quest 4 Alliance
+Inst93Quest4 = "4. Ein Seelenschmaus"
+Inst93Quest4_Level = "80"
+Inst93Quest4_Attain = "80"
+Inst93Quest4_Aim = "Hochlord Darion Mograine möchte, dass Ihr mit Schattenschneide 1.000 Diener des Lichkönigs in der Eiskronenzitadelle tötet. Die Seelen sind nur in den Schwierigkeitsgraden für 10 oder 25 Mann erhältlich."
+Inst93Quest4_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest4_Note = "Nur Tötungen in der Eiskronenzitadelle zählen um die 1000 zusammenzubekommen."
+Inst93Quest4_Prequest = "Schttenschneide"
+Inst93Quest4_Folgequest = "Erfüllt mit unheiliger Macht"
+Inst93Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst93Quest5 = "5. Erfüllt mit unheiliger Macht"
+Inst93Quest5_Level = "80"
+Inst93Quest5_Attain = "80"
+Inst93Quest5_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit unheiliger Macht erfüllt und Professor Seuchenmord tötet."
+Inst93Quest5_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest5_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
+Inst93Quest5_Prequest = "Ein Seelenschmaus"
+Inst93Quest5_Folgequest = "Erfüllt mit der Macht des Blutes"
+Inst93Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst93Quest6 = "6. Erfüllt mit der Macht des Blutes"
+Inst93Quest6_Level = "80"
+Inst93Quest6_Attain = "80"
+Inst93Quest6_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit der Macht des Blutes erfüllt und Blutkönigin Lana'thel besiegt."
+Inst93Quest6_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest6_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nUm diese Quest zu beenden, mußt Du den Blutspiegel Debuff bekommen. Dann, falls Du nicht als erstes gebissen werden solltest, muß derjenige der gebissen wurde dich beisen. Beise 3 weitere Radimitgliederr und überlebe die Begegnung um diese Quest zu beenden."
+Inst93Quest6_Prequest = "Erfüllt mit unheiliger Macht"
+Inst93Quest6_Folgequest = "Erfüllt mit der Macht des Frostes"
+Inst93Quest6FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst93Quest7 = "7. Erfüllt mit der Macht des Frostes"
+Inst93Quest7_Level = "80"
+Inst93Quest7_Attain = "80"
+Inst93Quest7_Aim = "Hochlord Darion Mograine hat Euch den Auftrag erteilt, Sindragosa zu töten, nachdem Ihr 4-mal ihren Atemattacken ausgesetzt wart, während Ihr Schattenschneide führt."
+Inst93Quest7_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest7_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nNachdem Du 4 mal den Frostatem abbekommen hast, mußt Sindragosa innerhalb von 6 Minuten getötet werden um diese Quest zu beenden."
+Inst93Quest7_Prequest = "Erfüllt mit der Macht des Blutes"
+Inst93Quest7_Folgequest = "The Splintered Throne"
+Inst93Quest7FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst93Quest8 = "8. Der Zersplitterte Thron"
+Inst93Quest8_Level = "80"
+Inst93Quest8_Attain = "80"
+Inst93Quest8_Aim = "Hochlord Darion Mograine möchte, dass Du 50 Schattenfrostsplitter sammelst."
+Inst93Quest8_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest8_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nDie Schattenfrostsplitter sind seltene Drops von den Bossen."
+Inst93Quest8_Prequest = "Erfüllt mit der Macht des Frostes"
+Inst93Quest8_Folgequest = "Schattengram..."
+Inst93Quest8FQuest = "true"
+-- No Rewards for this quest
+
 --Quest 9 Alliance
-Inst93Quest9 = "9. Ein Seelenschmaus"
+Inst93Quest9 = "9. Schattengram..."
 Inst93Quest9_Level = "80"
 Inst93Quest9_Attain = "80"
-Inst93Quest9_Aim = "Hochlord Darion Mograine möchte, dass Ihr mit Schattenschneide 1.000 Diener des Lichkönigs in der Eiskronenzitadelle tötet. Die Seelen sind nur in den Schwierigkeitsgraden für 10 oder 25 Mann erhältlich."
+Inst93Quest9_Aim = "Hochlord Darion Mograine möchte, dass Du ihm Schattenschneide bringst."
 Inst93Quest9_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest9_Note = "Nur Tötungen in der Eiskronenzitadelle zählen um die 1000 zusammenzubekommen."
-Inst93Quest9_Prequest = "Schttenschneide"
-Inst93Quest9_Folgequest = "Erfüllt mit unheiliger Macht"
+Inst93Quest9_Note = "Diese Quest verbessert Deine Schattenschneide zu Schattengram."
+Inst93Quest9_Prequest = "Der Zersplitterte Thron"
+Inst93Quest9_Folgequest = "Der letzte Standplatz des Lichkönigs"
 Inst93Quest9FQuest = "true"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst93Quest10 = "10. Erfüllt mit unheiliger Macht"
-Inst93Quest10_Level = "80"
-Inst93Quest10_Attain = "80"
-Inst93Quest10_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit unheiliger Macht erfüllt und Professor Seuchenmord tötet."
-Inst93Quest10_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest10_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
-Inst93Quest10_Prequest = "Ein Seelenschmaus"
-Inst93Quest10_Folgequest = "Erfüllt mit der Macht des Blutes"
-Inst93Quest10FQuest = "true"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst93Quest11 = "11. Erfüllt mit der Macht des Blutes"
-Inst93Quest11_Level = "80"
-Inst93Quest11_Attain = "80"
-Inst93Quest11_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit der Macht des Blutes erfüllt und Blutkönigin Lana'thel besiegt."
-Inst93Quest11_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest11_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nUm diese Quest zu beenden, mußt Du den Blutspiegel Debuff bekommen. Dann, falls Du nicht als erstes gebissen werden solltest, muß derjenige der gebissen wurde dich beisen. Beise 3 weitere Radimitgliederr und überlebe die Begegnung um diese Quest zu beenden."
-Inst93Quest11_Prequest = "Erfüllt mit unheiliger Macht"
-Inst93Quest11_Folgequest = "Erfüllt mit der Macht des Frostes"
-Inst93Quest11FQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst93Quest12 = "12. Erfüllt mit der Macht des Frostes"
-Inst93Quest12_Level = "80"
-Inst93Quest12_Attain = "80"
-Inst93Quest12_Aim = "Hochlord Darion Mograine hat Euch den Auftrag erteilt, Sindragosa zu töten, nachdem Ihr 4-mal ihren Atemattacken ausgesetzt wart, während Ihr Schattenschneide führt."
-Inst93Quest12_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest12_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nNachdem Du 4 mal den Frostatem abbekommen hast, mußt Sindragosa innerhalb von 6 Minuten getötet werden um diese Quest zu beenden."
-Inst93Quest12_Prequest = "Erfüllt mit der Macht des Blutes"
-Inst93Quest12_Folgequest = "The Splintered Throne"
-Inst93Quest12FQuest = "true"
--- No Rewards for this quest
-
---Quest 13 Alliance
-Inst93Quest13 = "13. Der Zersplitterte Thron"
-Inst93Quest13_Level = "80"
-Inst93Quest13_Attain = "80"
-Inst93Quest13_Aim = "Hochlord Darion Mograine möchte, dass Du 50 Schattenfrostsplitter sammelst."
-Inst93Quest13_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest13_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nDie Schattenfrostsplitter sind seltene Drops von den Bossen."
-Inst93Quest13_Prequest = "Erfüllt mit der Macht des Frostes"
-Inst93Quest13_Folgequest = "Schattengram..."
-Inst93Quest13FQuest = "true"
--- No Rewards for this quest
-
---Quest 14 Alliance
-Inst93Quest14 = "14. Schattengram..."
-Inst93Quest14_Level = "80"
-Inst93Quest14_Attain = "80"
-Inst93Quest14_Aim = "Hochlord Darion Mograine möchte, dass Du ihm Schattenschneide bringst."
-Inst93Quest14_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest14_Note = "Diese Quest verbessert Deine Schattenschneide zu Schattengram."
-Inst93Quest14_Prequest = "Der Zersplitterte Thron"
-Inst93Quest14_Folgequest = "Der letzte Standplatz des Lichkönigs"
-Inst93Quest14FQuest = "true"
 --
 Inst93Quest14name1 = "Schattengram"
 
---Quest 15 Alliance
-Inst93Quest15 = "15. Der letzte Standplatz des Lichkönigs"
-Inst93Quest15_Level = "80"
-Inst93Quest15_Attain = "80"
-Inst93Quest15_Aim = "Hochlord Darion Mograine in der Eiskronenzitadelle möchte, dass Du den Lichkönig tötest."
-Inst93Quest15_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest15_Note = "Diese Quest um Schattengram zu bekommen kann man Vermutlich nur in der 25 Mann Version abschließen."
-Inst93Quest15_Prequest = "Schattengram..."
-Inst93Quest15_Folgequest = "Nein"
-Inst93Quest15FQuest = "true"
+--Quest 10 Alliance
+Inst93Quest10 = "10. Der letzte Standplatz des Lichkönigs"
+Inst93Quest10_Level = "80"
+Inst93Quest10_Attain = "80"
+Inst93Quest10_Aim = "Hochlord Darion Mograine in der Eiskronenzitadelle möchte, dass Du den Lichkönig tötest."
+Inst93Quest10_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest10_Note = "Diese Quest um Schattengram zu bekommen kann man Vermutlich nur in der 25 Mann Version abschließen."
+Inst93Quest10_Prequest = "Schattengram..."
+Inst93Quest10_Folgequest = "Nein"
+Inst93Quest10FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -12136,67 +11923,6 @@ Inst93Quest10_HORDE_Prequest = Inst93Quest10_Prequest
 Inst93Quest10_HORDE_Folgequest = Inst93Quest10_Folgequest
 Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
 -- No Rewards for this quest
-
---Quest 11 Horde (same as Quest 11 Alliance)
-Inst93Quest11_HORDE = Inst93Quest11
-Inst93Quest11_HORDE_Level = Inst93Quest11_Level
-Inst93Quest11_HORDE_Attain = Inst93Quest11_Attain
-Inst93Quest11_HORDE_Aim = Inst93Quest11_Aim
-Inst93Quest11_HORDE_Location = Inst93Quest11_Location
-Inst93Quest11_HORDE_Note = Inst93Quest11_Note
-Inst93Quest11_HORDE_Prequest = Inst93Quest11_Prequest
-Inst93Quest11_HORDE_Folgequest = Inst93Quest11_Folgequest
-Inst93Quest11FQuest_HORDE = Inst93Quest11FQuest
--- No Rewards for this quest
-
---Quest 12 Horde (same as Quest 12 Alliance)
-Inst93Quest12_HORDE = Inst93Quest12
-Inst93Quest12_HORDE_Level = Inst93Quest12_Level
-Inst93Quest12_HORDE_Attain = Inst93Quest12_Attain
-Inst93Quest12_HORDE_Aim = Inst93Quest12_Aim
-Inst93Quest12_HORDE_Location = Inst93Quest12_Location
-Inst93Quest12_HORDE_Note = Inst93Quest12_Note
-Inst93Quest12_HORDE_Prequest = Inst93Quest12_Prequest
-Inst93Quest12_HORDE_Folgequest = Inst93Quest12_Folgequest
-Inst93Quest12FQuest_HORDE = Inst93Quest12FQuest
--- No Rewards for this quest
-
---Quest 13 Horde (same as Quest 13 Alliance)
-Inst93Quest13_HORDE = Inst93Quest13
-Inst93Quest13_HORDE_Level = Inst93Quest13_Level
-Inst93Quest13_HORDE_Attain = Inst93Quest13_Attain
-Inst93Quest13_HORDE_Aim = Inst93Quest13_Aim
-Inst93Quest13_HORDE_Location = Inst93Quest13_Location
-Inst93Quest13_HORDE_Note = Inst93Quest13_Note
-Inst93Quest13_HORDE_Prequest = Inst93Quest13_Prequest
-Inst93Quest13_HORDE_Folgequest = Inst93Quest13_Folgequest
-Inst93Quest13FQuest_HORDE = Inst93Quest13FQuest
--- No Rewards for this quest
-
---Quest 14 Horde (same as Quest 14 Alliance)
-Inst93Quest14_HORDE = Inst93Quest14
-Inst93Quest14_HORDE_Level = Inst93Quest14_Level
-Inst93Quest14_HORDE_Attain = Inst93Quest14_Attain
-Inst93Quest14_HORDE_Aim = Inst93Quest14_Aim
-Inst93Quest14_HORDE_Location = Inst93Quest14_Location
-Inst93Quest14_HORDE_Note = Inst93Quest14_Note
-Inst93Quest14_HORDE_Prequest = Inst93Quest14_Prequest
-Inst93Quest14_HORDE_Folgequest = Inst93Quest14_Folgequest
-Inst93Quest14FQuest_HORDE = Inst93Quest14FQuest
---
-Inst93Quest14name1_HORDE = Inst93Quest14name1
-
---Quest 15 Horde (same as Quest 15 Alliance)
-Inst93Quest15_HORDE = Inst93Quest15
-Inst93Quest15_HORDE_Level = Inst93Quest15_Level
-Inst93Quest15_HORDE_Attain = Inst93Quest15_Attain
-Inst93Quest15_HORDE_Aim = Inst93Quest15_Aim
-Inst93Quest15_HORDE_Location = Inst93Quest15_Location
-Inst93Quest15_HORDE_Note = Inst93Quest15_Note
-Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
-Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
-Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
--- No Rewards for this quest 
 
 
 
