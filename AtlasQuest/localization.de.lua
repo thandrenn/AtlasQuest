@@ -2629,7 +2629,7 @@ Inst12Quest16_Level = "60"
 Inst12Quest16_Attain = "60"
 Inst12Quest16_Aim = "Bringt Forors Kompendium des Drachentötens zurück in das Athenaeum."
 Inst12Quest16_Location = "Forors Kompendium des Drachentötens (zufälliger Boss Dropp in "..YELLOW.."Düsterbruch"..WHITE..")"
-Inst12Quest16_Note = "Krieger oder Paladin Quest. Man gibt das Buch bei Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..") ab. Wenn das Quest abgeschlossen ist kann man mit dem Quest für Quel'Serrar beginnen."
+Inst12Quest16_Note = "Krieger oder Paladin Quest. Man gibt das Buch bei Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..") ab. Wenn dieses Quest abgeschlossen ist kann man mit der Quest für Quel'Serrar beginnen."
 Inst12Quest16_Prequest = "Nein"
 Inst12Quest16_Folgequest = "Ja, Das Schmieden von Quel'Serrar"
 -- No Rewards for this quest
@@ -9016,8 +9016,33 @@ Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 Inst68Story = "Das Sonnenbrunnenplateau ist eine Schlachtzugsinstanz, die sich auf der Insel von Quel'Danas nördlich von Silbermond befindet. Blizzard plant es zur schwersten Instanz bis zum Erscheinen von Wrath of the Lich King zu machen. Das Sonnenbrunnenplateau ist für Spieler mit T6 Ausrüstung gedacht und dort werden die übrigen T6 Gegenstände (Schuhe, Gürtel und Armschienen), und andere epische Gegenstände droppen. \n\nDie Instanz beinhaltet Innen- und Außenareale, in denen die Spieler gefangene Naaru finden können, die die größte Energiequelle der Stadt sind, und innerhalb des letzten Gebäudes findet man den Sonnenbrunnen selbst.\n\nDas Sonnenbrunnenplateau ist in der selben Architektur wie Silbermond gehalten."
 Inst68Caption = "Sonnenbrunnenplateau"
-Inst68QAA = "Keine Quests"
-Inst68QAH = "Keine Quests"
+Inst68QAA = "1 Quests"
+Inst68QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst68Quest1 = "1. The Purification of Quel'Delar"
+Inst68Quest1_Level = "80"
+Inst68Quest1_Attain = "80"
+Inst68Quest1_Aim = "Immerse your Tempered Quel'Delar in the Sunwell. Speak to a Warden of the Sunwell when you are ready to enter the Sunwell Plateau."
+Inst68Quest1_Location = "Halduron Brightwing (Isle of Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
+Inst68Quest1_Note = "When you enter Sunwell Plateau, you will be in a phased version and will not have to fight any mobs or bosses.  The Sunwell is at "..YELLOW.."[4]"..WHITE.."."
+Inst68Quest1_Prequest = "Thalorien Dawnseeker"
+Inst68Quest1_Folgequest = "A Victory For The Silver Covenant"
+Inst68Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst68Quest1_HORDE = "1. The Purification of Quel'Delar"
+Inst68Quest1_HORDE_Level = "80"
+Inst68Quest1_HORDE_Attain = "80"
+Inst68Quest1_HORDE_Aim = "Immerse your Tempered Quel'Delar in the Sunwell. Speak to a Warden of the Sunwell when you are ready to enter the Sunwell Plateau."
+Inst68Quest1_HORDE_Location = "Halduron Brightwing (Isle of Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
+Inst68Quest1_HORDE_Note = "When you enter Sunwell Plateau, you will be in a phased version and will not have to fight any mobs or bosses.  The Sunwell is at "..YELLOW.."[4]"..WHITE.."."
+Inst68Quest1_HORDE_Prequest = "Thalorien Dawnseeker"
+Inst68Quest1_HORDE_Folgequest = "A Victory For The Sunreavers"
+Inst68Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -11140,7 +11165,7 @@ Inst92Quest3_Aim = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der 
 Inst92Quest3_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst92Quest3_Note = "Du kannst diese Quest innerhalb der Instanz beenden."
 Inst92Quest3_Prequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
-Inst92Quest3_Folgequest = "Reise zum Sonnenbrunnen"
+Inst92Quest3_Folgequest = "Reise zum dien"
 Inst92Quest3PreQuest = "true"
 -- No Rewards for this quest
 
