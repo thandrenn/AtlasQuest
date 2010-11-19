@@ -181,7 +181,7 @@ Inst36QAH = "Keine Quests"
 
 Inst1Story = "Die Todesminen, einst die wichtigste Goldquelle der Menschen, wurden aufgegeben, als die Horde Sturmwind während des Ersten Krieges in Schutt und Asche legte. Nun hat sich die Defias-Bruderschaft in den verlassenen Minen niedergelassen und die dunklen Schächte in ihre eigene unterirdische Festung verwandelt. Gerüchten zufolge sollen die Diebe die gewitzten Goblins angeheuert haben, um tief in den Minen etwas Fürchterliches zu konstruieren, doch welche Teufelei dies konkret sein soll, ist nicht bekannt. Der Zugang zu den Todesminen liegt inmitten des ruhigen, unscheinbaren Dorfes Mondbruch."
 Inst1Caption = "Die Todesminen"
-Inst1QAA = "7 Quests"
+Inst1QAA = "6 Quests"
 Inst1QAH = "Keine Quests"
 
 --Quest 1 Alliance
@@ -254,28 +254,14 @@ Inst1Quest5name2 = "Tunika von Westfall"
 Inst1Quest5name3 = "Stab von Westfall"
 
 --Quest 6 Alliance
-Inst1Quest6 = "6. Die Prüfung der Rechtschaffenheit (Paladin)"
+Inst1Quest6 = "6. Der nie verschickte Brief"
 Inst1Quest6_Level = "22"
-Inst1Quest6_Attain = "20"
-Inst1Quest6_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Koredelstein und bringt alles zusammen zu Jordan Stillbrunn in Eisenschmiede."
-Inst1Quest6_Location = "Jordan Stillbrunn (Dun Morogh - Eisenschmiede Eingang; "..YELLOW.."52,36"..WHITE..")"
-Inst1Quest6_Note = "Um die Notizen zu dieser Quest zu betrachten, klicke auf "..YELLOW.."[Informationen zur Prüfung der Rechtschaffenheit]"..WHITE.."."
-Inst1Quest6_Page = {2, "Nur Paladine können diese Quest erhalten!\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."[Todesminen]"..WHITE.." nahe "..YELLOW.."[3]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem das Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." bei "..YELLOW.."[3]"..WHITE..".\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Koredelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
-Inst1Quest6_Prequest = "Ja, Der Foliant der Ehre -> Die Prüfung der Rechtschaffenheit"
-Inst1Quest6_Folgequest = "Ja, Die Prüfung der Rechtschaffenheit"
-Inst1Quest6PreQuest = "true"
---
-Inst1Quest6name1 = "Verigans Faust"
-
---Quest 7 Alliance
-Inst1Quest7 = "7. Der nie verschickte Brief"
-Inst1Quest7_Level = "22"
-Inst1Quest7_Attain = "16"
-Inst1Quest7_Aim = "Bringt den Brief nach Sturmwind zum Stadtarchitekten Baros Alexston."
-Inst1Quest7_Location = "Ein nie abgeschickter Brief (droppt von Edwin van Cleef "..YELLOW.."[6]"..WHITE..")"
-Inst1Quest7_Note = "Baros Alexston befindet sich in Sturmwind, neben der Kathedrale des Lichts bei "..YELLOW.."57.7, 47.9"..WHITE.."."
-Inst1Quest7_Prequest = "Nein"
-Inst1Quest7_Folgequest = "Ja, Bazil Thredd"
+Inst1Quest6_Attain = "16"
+Inst1Quest6_Aim = "Bringt den Brief nach Sturmwind zum Stadtarchitekten Baros Alexston."
+Inst1Quest6_Location = "Ein nie abgeschickter Brief (droppt von Edwin van Cleef "..YELLOW.."[6]"..WHITE..")"
+Inst1Quest6_Note = "Baros Alexston befindet sich in Sturmwind, neben der Kathedrale des Lichts bei "..YELLOW.."57.7, 47.9"..WHITE.."."
+Inst1Quest6_Prequest = "Nein"
+Inst1Quest6_Folgequest = "Ja, Bazil Thredd"
 -- No Rewards for this quest
 
 
@@ -617,7 +603,7 @@ Inst4Quest8_Level = "40"
 Inst4Quest8_Attain = "35"
 Inst4Quest8_Aim = "Lest Baelogs Tagebuch, erforscht die geheime Kammer und erstattet dann Ausgrabungsleiter Sturmlanze Bericht."
 Inst4Quest8_Location = "Bealog (Uldaman; "..YELLOW.."[1]"..WHITE..")"
-Inst4Quest8_Note = "Die geheime Kammer ist bei "..YELLOW.."[4]"..WHITE..". Um die geheime Kammer öffnen zu können, braucht man den Schaft von Tsol von Revelosh "..YELLOW.."[3]"..WHITE.." und das Medaillon von Gni'kiv von Baelogs Truhe "..YELLOW.."[1]"..WHITE..". Kombiniere diese beiden Gegenstände um den Stab der Prähistorie herzustellen. Der Stab wird im Kartenraum zwischen "..YELLOW.."[3] and [4]"..WHITE.." benutzt, um Ironaya zu beschwören. Nachdem sie getötet wurde, läuft man in den Raum aus dem sie kam, um das Quest abzuschließen."
+Inst4Quest8_Note = "Die geheime Kammer ist bei "..YELLOW.."[4]"..WHITE..". Um die geheime Kammer öffnen zu können, braucht man den Schaft von Tsol von Revelosh "..YELLOW.."[3]"..WHITE.." und das Medaillon von Gni'kiv von Baelogs Truhe "..YELLOW.."[1]"..WHITE..". Kombiniere diese beiden Gegenstände um den Stab der Prähistorie herzustellen. Der Stab wird im Kartenraum zwischen "..YELLOW.."[3] and [4]"..WHITE.." benutzt, um Ironaya zu beschwören. Nachdem sie getötet wurde, läuft man in den Raum aus dem sie kam, um diese Quest abzuschließen."
 Inst4Quest8_Prequest = "Ja, Die verschollenen Zwerge"
 Inst4Quest8_Folgequest = "Nein"
 Inst4Quest8FQuest = "true"
@@ -711,27 +697,15 @@ Inst4Quest15name2 = "Überragender Heiltrank"
 Inst4Quest15name3 = "Großer Manatrank"
 
 --Quest 16 Alliance
-Inst4Quest16 = "16. Macht in Uldaman (Magier)"
-Inst4Quest16_Level = "40"
-Inst4Quest16_Attain = "35"
-Inst4Quest16_Aim = "Beschafft Euch eine Obsidiankraftquelle und bringt sie in die Düstermarschen zu Tabetha."
-Inst4Quest16_Location = "Tabetha (Düstermarschen; "..YELLOW.."46,57"..WHITE..")"
-Inst4Quest16_Note = "Diese Quest ist nur für Magier verfügbar.\nDie Obsidiankraftquelle wird von der  Obsidian-Schildwache bei "..YELLOW.."[5]"..WHITE.." gedroppt."
-Inst4Quest16_Prequest = "Ja, Die Austreibung"
-Inst4Quest16_Folgequest = "Ja, Manawogen"
+Inst4Quest16 = "16. Induriumerz"
+Inst4Quest16_Level = "42"
+Inst4Quest16_Attain = "29"
+Inst4Quest16_Aim = "Bring 4 Induriumerze zu Pozzik in Tausend Nadeln."
+Inst4Quest16_Location = "Pozzik (Tausend Nadeln - Illusionenrennbahn; "..YELLOW.."80.1, 75.9"..WHITE..")"
+Inst4Quest16_Note = "Dies ist eine wiederholbare Quest nachdem die Vorquest erfolgreich abgeschlossen wurde. Du bekommst dafür keinen Ruf und Erfahrung, nur ein kleines Trinkgeld. Induriumerz kannst du nur in Uldaman finden oder von anderen Spielern kaufen."
+Inst4Quest16_Prequest = "Tempo erhalten -> Rizzels Baupläne"
+Inst4Quest16_Folgequest = "Nein"
 Inst4Quest16PreQuest = "true"
--- No Rewards for this quest
-
---Quest 17 Alliance
-Inst4Quest17 = "17. Induriumerz"
-Inst4Quest17_Level = "42"
-Inst4Quest17_Attain = "29"
-Inst4Quest17_Aim = "Bring 4 Induriumerze zu Pozzik in Tausend Nadeln."
-Inst4Quest17_Location = "Pozzik (Tausend Nadeln - Illusionenrennbahn; "..YELLOW.."80.1, 75.9"..WHITE..")"
-Inst4Quest17_Note = "Dies ist eine wiederholbare Quest nachdem die Vorquest erfolgreich abgeschlossen wurde. Du bekommst dafür keinen Ruf und Erfahrung, nur ein kleines Trinkgeld. Induriumerz kannst du nur in Uldaman finden oder von anderen Spielern kaufen."
-Inst4Quest17_Prequest = "Tempo erhalten -> Rizzels Baupläne"
-Inst4Quest17_Folgequest = "Nein"
-Inst4Quest17PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -847,8 +821,8 @@ Inst4Quest9name1_HORDE = "Taupelzsack"
 Inst4Quest9name2_HORDE = "Überragender Heiltrank"
 Inst4Quest9name3_HORDE = "Großer Manatrank"
 
---Quest 10 Horde  (same as Quest 4 Alliance)
-Inst4Quest10_HORDE = "10. Macht in Uldaman (Magier)"
+--Quest 10 Horde  (same as Quest 16 Alliance)
+Inst4Quest10_HORDE = "10. Induriumerz"
 Inst4Quest10_HORDE_Level = Inst4Quest16_Level
 Inst4Quest10_HORDE_Attain = Inst4Quest16_Attain
 Inst4Quest10_HORDE_Aim = Inst4Quest16_Aim
@@ -857,18 +831,6 @@ Inst4Quest10_HORDE_Note = Inst4Quest16_Note
 Inst4Quest10_HORDE_Prequest = Inst4Quest16_Prequest
 Inst4Quest10_HORDE_Folgequest = Inst4Quest16_Folgequest
 Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
--- No Rewards for this quest
-
---Quest 11 Horde  (same as Quest 17 Alliance)
-Inst4Quest11_HORDE = "11. Induriumerz"
-Inst4Quest11_HORDE_Level = Inst4Quest17_Level
-Inst4Quest11_HORDE_Attain = Inst4Quest17_Attain
-Inst4Quest11_HORDE_Aim = Inst4Quest17_Aim
-Inst4Quest11_HORDE_Location = Inst4Quest17_Location
-Inst4Quest11_HORDE_Note = Inst4Quest17_Note
-Inst4Quest11_HORDE_Prequest = Inst4Quest17_Prequest
-Inst4Quest11_HORDE_Folgequest = Inst4Quest17_Folgequest
-Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
 -- No Rewards for this quest
 
 
@@ -886,7 +848,7 @@ Inst5Quest1_Level = "52"
 Inst5Quest1_Attain = "48"
 Inst5Quest1_Aim = "Erschlagt Fineous Dunkelader und bergt den großen Hammer Eisenhölle. Bringt Eisenhölle zum Schrein von Thaurissan und legt ihn auf die Statue von Franclorn Schmiedevater."
 Inst5Quest1_Location = "Franclorn Schmiedevater (Der Schwarzfels; "..YELLOW.."[3] auf der Eingangskarte"..WHITE..")"
-Inst5Quest1_Note = "Franclorn findet man in der Mitte des Schwarzfels, auf seinem Steinsarg. Man kann ihn nur sehen, wenn man tot ist! Um das Quest zu starten müsst ihr zweimal mit ihm sprechen.\nFineous Dunkelader findet man bei "..YELLOW.."[9]"..WHITE..". Der Schrein ist rechts neben der Arena"..YELLOW.."[7]"..WHITE.."."
+Inst5Quest1_Note = "Franclorn findet man in der Mitte des Schwarzfels, auf seinem Steinsarg. Man kann ihn nur sehen, wenn man tot ist! Um diese Quest zu starten müsst ihr zweimal mit ihm sprechen.\nFineous Dunkelader findet man bei "..YELLOW.."[9]"..WHITE..". Der Schrein ist rechts neben der Arena"..YELLOW.."[7]"..WHITE.."."
 Inst5Quest1_Prequest = "Nein"
 Inst5Quest1_Folgequest = "Nein"
 --
@@ -968,7 +930,7 @@ Inst5Quest7_Level = "55"
 Inst5Quest7_Attain = "50"
 Inst5Quest7_Aim = "Bringt das 'Herz des Berges' zu Maxwort Funkelglanz in der brennenden Steppe."
 Inst5Quest7_Location = "Maxwort Funkelglanz (Brennende Steppe - Flammenkamm; "..YELLOW.."65,23"..WHITE..")"
-Inst5Quest7_Note = "Das Herz des Berges befindet sich bei "..YELLOW.."[8]"..WHITE.." in einem Safe. Den Schlüssel für den Safe bekommt man von Wachmann Stahlgriff, der erscheint wenn man alle kleinen Safes geöffnet hat."
+Inst5Quest7_Note = "Das Herz des Berges befindet sich bei "..YELLOW.."[8]"..WHITE.." in einem Safe. Den Schlüssel für den Safe bekommt man vom Wachmann Stahlgriff, der erscheint wenn man alle kleinen Safes geöffnet hat."
 Inst5Quest7_Prequest = "Nein"
 Inst5Quest7_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -1412,8 +1374,8 @@ Inst6Quest3_HORDE_Folgequest = Inst6Quest3_Folgequest
 
 Inst7Story = "Die Tiefschwarze Grotte in der Nähe des Zoramstrandes im Eschental war vor langer Zeit ein Tempel, den die Nachtelfen zu Ehren ihrer Mondgöttin Elune erbaut hatten. Doch als die Welt gespalten wurde versank der Tempel in den Fluten des verhüllten Meeres. Dort ruhte er lange Zeit ungestört, bis eines Tages die Naga und Satyrn auftauchten, angezogen von seiner uralten Kraft, um die Geheimnisse des Tempels zu ergründen. Legenden zufolge soll das uralte Wesen Aku'mai sich ebenfalls in den Ruinen niedergelassen haben. Das liebste Schoßtier der urzeitlichen Götter ist schon oft auf Beutezügen in der Gegend gesichtet worden. Die Gegenwart von Aku'mai hat auch einen Kult mit Namen Schattenhammer angezogen, der sich die bösen Mächte der Alten Götter zunutze machen will."
 Inst7Caption = "Die Tiefschwarze Grotte"
-Inst7QAA = "6 Quests"
-Inst7QAH = "5 Quests"
+Inst7QAA = "5 Quests"
+Inst7QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst7Quest1 = "1. Wissen in der Tiefe"
@@ -1479,19 +1441,6 @@ Inst7Quest5_Folgequest = "Nein"
 Inst7Quest5name1 = "Nimbusstiefel"
 Inst7Quest5name2 = "Herzholzgurt"
 
---Quest 6 Alliance
-Inst7Quest6 = "6. Die Kugel von Soran'ruk (Hexenmeister)"
-Inst7Quest6_Level = "25"
-Inst7Quest6_Attain = "20"
-Inst7Quest6_Aim = "Sucht 3 Fragmente von Soran'ruk und 1 großes Fragment von Soran'ruk und bringt sie zu Doan Karhan im Brachland."
-Inst7Quest6_Location = "Doan Karhan (Brachland; "..YELLOW.."49,57"..WHITE..")"
-Inst7Quest6_Note = "Diese Quest kann nur von Hexenmeistern angenommen werden! Die 3 Fragmente von Soran'ruk werden von den Akolyten des Schattenhammers in der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." gedroppt. Das große Fragment von Soran'ruk bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." von Dunkelseelen der Schattenfänge."
-Inst7Quest6_Prequest = "Nein"
-Inst7Quest6_Folgequest = "Nein"
---
-Inst7Quest6name1 = "Kugel von Soran'ruk"
-Inst7Quest6name2 = "Stab von Soran'ruk"
-
 
 --Quest 1 Horde
 Inst7Quest1_HORDE = "1. Die Essenz von Aku'mai"
@@ -1541,19 +1490,6 @@ Inst7Quest4_HORDE_Folgequest = "Nein"
 --
 Inst7Quest4name1_HORDE = "Grabsteinszepter"
 Inst7Quest4name2_HORDE = "Arktischer Rundschild"
-
---Quest 5 Horde  (same as Quest 6 Alliance)
-Inst7Quest5_HORDE = "5. Die Kugel von Soran'ruk (Hexenmeister)"
-Inst7Quest5_HORDE_Level = Inst7Quest6_Level
-Inst7Quest5_HORDE_Attain = Inst7Quest6_Attain
-Inst7Quest5_HORDE_Aim = Inst7Quest6_Aim
-Inst7Quest5_HORDE_Location = Inst7Quest6_Location
-Inst7Quest5_HORDE_Note = Inst7Quest6_Note
-Inst7Quest5_HORDE_Prequest = Inst7Quest6_Prequest
-Inst7Quest5_HORDE_Folgequest = Inst7Quest6_Folgequest
---
-Inst7Quest5name1_HORDE = Inst7Quest6name1
-Inst7Quest5name2_HORDE = Inst7Quest6name2
 
 
 
@@ -2232,8 +2168,8 @@ Inst9Quest13PreQuest_HORDE = Inst9Quest11PreQuest
 
 Inst10Story = "Vor fast zwölftausend Jahren errichtete eine geheime Sekte nachtelfischer Zauberer die uralte Stadt Eldre'Thalas, um die wertvollsten Geheimnisse von Königin Azshara zu schützen. Selbst die Ruinen der Stadt, die während der Spaltung der Welt verwüstet wurde, sind immer noch äußerst beeindruckend und ehrfurchtgebietend. In den drei Flügeln der Stadt, die heute nur noch als der Düsterbruch bekannt ist, haben sich inzwischen die seltsamsten Kreaturen niedergelassen - besonders die spektralen Hochgeborenen, die hinterhältigen Satyrn und die brutalen Oger. Nur die mutigsten Abenteurer sollten sich dieser verfluchten Ruine nähern und die unglaublichen Schrecken herausfordern, die hinter den verfallenen Mauern lauern."
 Inst10Caption = "Düsterbruch (Ost)"
-Inst10QAA = "6 Quests"
-Inst10QAH = "6 Quests"
+Inst10QAA = "5 Quests"
+Inst10QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst10Quest1 = "1. Pusillin und der Älteste Azj'Tordin"
@@ -2299,17 +2235,6 @@ Inst10Quest5_Folgequest = "Ja, Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzf
 Inst10Quest5PreQuest = "true"
 -- No Rewards for this quest
 
---Quest 6 Alliance
-Inst10Quest6 = "6. Das Fundament des Gefängnisses (Hexenmeister)"
-Inst10Quest6_Level = "60"
-Inst10Quest6_Attain = "60"
-Inst10Quest6_Aim = "Reist nach Düsterbruch in Feralas und holt Euch das Blut von 15 Satyrn der Wildhufe, die im Wucherborkenviertel ansässig sind. Kehrt anschließend zu Daio in der faulenden Narbe zurück."
-Inst10Quest6_Location = "Daio der Klapprige (Verwüstete Lande - Die faulende Narbe; "..YELLOW.."34,50"..WHITE..")"
-Inst10Quest6_Note = "Dieses und ein weiteres Quest von Daio dem Klapprigen sind Hexenmeisterquests für das Ritual der Verdammnis. Der einfachste Weg, um zu Satyr dem Wildhufe zu gelangen, ist Düsterbruch Ost durch die 'Hintertür' in Feralas "..YELLOW.."77,37"..WHITE.." zu betreten. Dazu benötigt man den Mondsichelschlüssel."
-Inst10Quest6_Prequest = "Nein"
-Inst10Quest6_Folgequest = "Nein"
--- No Rewards for this quest
-
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst10Quest1_HORDE = Inst10Quest1
@@ -2372,17 +2297,6 @@ Inst10Quest5_HORDE_Note = Inst10Quest5_Note
 Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
 Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
 Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst10Quest6_HORDE = Inst10Quest6
-Inst10Quest6_HORDE_Level = Inst10Quest6_Level
-Inst10Quest6_HORDE_Attain = Inst10Quest6_Attain
-Inst10Quest6_HORDE_Aim = Inst10Quest6_Aim
-Inst10Quest6_HORDE_Location = Inst10Quest6_Location
-Inst10Quest6_HORDE_Note = Inst10Quest6_Note
-Inst10Quest6_HORDE_Prequest = Inst10Quest6_Prequest
-Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 -- No Rewards for this quest
 
 
@@ -2566,170 +2480,158 @@ Inst12Quest3name2 = "Hinterwaldhelm"
 Inst12Quest3name3 = "Knochenzermalmer"
 
 --Quest 4 Alliance
-Inst12Quest4 = "4. Schreckensross von Xoroth (Hexenmeister)"
+Inst12Quest4 = "4. Der Smaragdgrüne Traum (Druide)"
 Inst12Quest4_Level = "60"
-Inst12Quest4_Attain = "60"
-Inst12Quest4_Aim = "Lest Morzuls Anweisungen. Beschwört ein xorothianisches Schreckensross, besiegt es und bindet seinen Geist an Euch."
-Inst12Quest4_Location = "Mor'zul Blutbringer (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
-Inst12Quest4_Note = "Das ist das letzte Quest in der Hexenmeister Questreihe für das epische Reittier. Zuerst muss man alle Pylonen, die mit "..BLUE.."[B]"..WHITE.." gekennzeichnet sind, abschalten und anschließend Immol'thar bei "..YELLOW.."[6]"..WHITE.." töten. Danach kann man mit dem Beschwörungs Ritual beginnen. Man sollte mindestens 20 Seelensplitter bei sich haben und einen Hexenmeister speziell darauf ansetzen, die Glocke, die Kerze und das Rad aufrecht zu erhalten. Die Verdammniswachen können versklavt werden. Wenn es vorüber ist, muss man mit dem Geist des Schreckensross sprechen, um das Quest abzuschließen."
-Inst12Quest4_Prequest = "Ja, Wichtellieferung ("..YELLOW.."Scholomance"..WHITE..")"
+Inst12Quest4_Attain = "54"
+Inst12Quest4_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
+Inst12Quest4_Location = "Der Smaragdgrüne Traum (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest4_Note = "Die Belohnung ist für Druiden. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
+Inst12Quest4_Prequest = "Nein"
 Inst12Quest4_Folgequest = "Nein"
-Inst12Quest4PreQuest = "true"
--- No Rewards for this quest
+--
+Inst12Quest4name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 5 Alliance
-Inst12Quest5 = "5. Der Smaragdgrüne Traum (Druide)"
+Inst12Quest5 = "5. Das größte Volk von Jägern (Jäger)"
 Inst12Quest5_Level = "60"
 Inst12Quest5_Attain = "54"
 Inst12Quest5_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest5_Location = "Der Smaragdgrüne Traum (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest5_Note = "Die Belohnung ist für Druiden. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
+Inst12Quest5_Location = "Das größte Volk von Jägern (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest5_Note = "Die Belohnung ist für Jäger. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
 Inst12Quest5_Prequest = "Nein"
 Inst12Quest5_Folgequest = "Nein"
 --
 Inst12Quest5name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 6 Alliance
-Inst12Quest6 = "6. Das größte Volk von Jägern (Jäger)"
+Inst12Quest6 = "6. Das Arkanistenkochbuch (Magier)"
 Inst12Quest6_Level = "60"
 Inst12Quest6_Attain = "54"
 Inst12Quest6_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest6_Location = "Das größte Volk von Jägern (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest6_Note = "Die Belohnung ist für Jäger. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
+Inst12Quest6_Location = "Das Arkanistenkochbuch (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest6_Note = "Die Belohnung ist für Magier. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
 Inst12Quest6_Prequest = "Nein"
 Inst12Quest6_Folgequest = "Nein"
 --
 Inst12Quest6name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 7 Alliance
-Inst12Quest7 = "7. Das Arkanistenkochbuch (Magier)"
+Inst12Quest7 = "7. Vom Licht und wie man es schwingt (Paladin)"
 Inst12Quest7_Level = "60"
 Inst12Quest7_Attain = "54"
 Inst12Quest7_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest7_Location = "Das Arkanistenkochbuch (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest7_Note = "Die Belohnung ist für Magier. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
+Inst12Quest7_Location = "Vom Licht und wie man es schwingt (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest7_Note = "Die Belohnung ist für Paladine. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
 Inst12Quest7_Prequest = "Nein"
 Inst12Quest7_Folgequest = "Nein"
 --
 Inst12Quest7name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 8 Alliance
-Inst12Quest8 = "8. Vom Licht und wie man es schwingt (Paladin)"
+Inst12Quest8 = "8. Heiliger Fleischklops: Was das Licht Dir nicht erzählt (Priester)"
 Inst12Quest8_Level = "60"
 Inst12Quest8_Attain = "54"
 Inst12Quest8_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest8_Location = "Vom Licht und wie man es schwingt (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest8_Note = "Die Belohnung ist für Paladine. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
+Inst12Quest8_Location = "Heiliger Fleischklops: Was das Licht Dir nicht erzählt (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest8_Note = "Die Belohnung ist für Priester. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
 Inst12Quest8_Prequest = "Nein"
 Inst12Quest8_Folgequest = "Nein"
 --
 Inst12Quest8name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 9 Alliance
-Inst12Quest9 = "9. Heiliger Fleischklops: Was das Licht Dir nicht erzählt (Priester)"
+Inst12Quest9 = "9. Garona: Eine Studie über Heimlichkeit und Verrat (Schurke)"
 Inst12Quest9_Level = "60"
 Inst12Quest9_Attain = "54"
 Inst12Quest9_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest9_Location = "Heiliger Fleischklops: Was das Licht Dir nicht erzählt (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest9_Note = "Die Belohnung ist für Priester. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
+Inst12Quest9_Location = "Garona: Eine Studie über Heimlichkeit und Verrat (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest9_Note = "Die Belohnung ist für Schurken. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
 Inst12Quest9_Prequest = "Nein"
 Inst12Quest9_Folgequest = "Nein"
 --
 Inst12Quest9name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 10 Alliance
-Inst12Quest10 = "10. Garona: Eine Studie über Heimlichkeit und Verrat (Schurke)"
+Inst12Quest10 = "10. Frostschock und Du (Schamane)"
 Inst12Quest10_Level = "60"
 Inst12Quest10_Attain = "54"
 Inst12Quest10_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest10_Location = "Garona: Eine Studie über Heimlichkeit und Verrat (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest10_Note = "Die Belohnung ist für Schurken. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
+Inst12Quest10_Location = "Frostschock und Du (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest10_Note = "Die Belohnung ist für Schamanen. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
 Inst12Quest10_Prequest = "Nein"
 Inst12Quest10_Folgequest = "Nein"
 --
 Inst12Quest10name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 11 Alliance
-Inst12Quest11 = "11. Frostschock und Du (Schamane)"
+Inst12Quest11 = "11. Schatten einspannen (Hexenmeister)"
 Inst12Quest11_Level = "60"
 Inst12Quest11_Attain = "54"
 Inst12Quest11_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest11_Location = "Frostschock und Du (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest11_Note = "Die Belohnung ist für Schamanen. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Javon ab."
+Inst12Quest11_Location = "Schatten einspannen (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest11_Note = "Die Belohnung ist für Hexenmeister. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
 Inst12Quest11_Prequest = "Nein"
 Inst12Quest11_Folgequest = "Nein"
 --
 Inst12Quest11name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 12 Alliance
-Inst12Quest12 = "12. Schatten einspannen (Hexenmeister)"
+Inst12Quest12 = "12. Kodex der Verteidigung (Krieger)"
 Inst12Quest12_Level = "60"
 Inst12Quest12_Attain = "54"
 Inst12Quest12_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest12_Location = "Schatten einspannen (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest12_Note = "Die Belohnung ist für Hexenmeister. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüterin des Wissens Mykos ab."
+Inst12Quest12_Location = "Kodex der Verteidigung (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
+Inst12Quest12_Note = "Die Belohnung ist für Krieger. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
 Inst12Quest12_Prequest = "Nein"
 Inst12Quest12_Folgequest = "Nein"
 --
 Inst12Quest12name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 13 Alliance
-Inst12Quest13 = "13. Kodex der Verteidigung (Krieger)"
+Inst12Quest13 = "13. Buchband des Fokus"
 Inst12Quest13_Level = "60"
 Inst12Quest13_Attain = "54"
-Inst12Quest13_Aim = "Bringt das Buch seinen rechtmäßigen Besitzer zurück."
-Inst12Quest13_Location = "Kodex der Verteidigung (droppt von einem zufälligen Boss in allen Düsterbruchflügeln)"
-Inst12Quest13_Note = "Die Belohnung ist für Krieger. Das Buch gibt man in der "..YELLOW.."1' Bücherrei"..WHITE.." bei Hüter des Wissens Kildrath ab."
+Inst12Quest13_Aim = "Bringt ein Buchband des Fokus, 1 makellosen schwarzen Diamanten, 4 große glänzende Splitter und 2 mal Schattenhaut, zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum des Fokus zu erhalten."
+Inst12Quest13_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
+Inst12Quest13_Note = "Es ist nicht die Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor man diese Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Schattenhaut wird beim Aufheben gebunden und kann von einigen Bossen, Auferstandenen Konstrukten und Auferstandenen Knochenwärtern in "..YELLOW.."Scholomance"..WHITE.." droppen."
 Inst12Quest13_Prequest = "Nein"
 Inst12Quest13_Folgequest = "Nein"
 --
-Inst12Quest13name1 = "Königliches Siegel von Eldre'Thalas"
+Inst12Quest13name1 = "Arkanum des Fokus"
 
 --Quest 14 Alliance
-Inst12Quest14 = "14. Buchband des Fokus"
+Inst12Quest14 = "14. Buchband des Schutzes"
 Inst12Quest14_Level = "60"
 Inst12Quest14_Attain = "54"
-Inst12Quest14_Aim = "Bringt ein Buchband des Fokus, 1 makellosen schwarzen Diamanten, 4 große glänzende Splitter und 2 mal Schattenhaut, zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum des Fokus zu erhalten."
+Inst12Quest14_Aim = "Bringt ein Buchband des Schutzes, 1 makellosen schwarzen Diamanten, 2 große glänzende Splitter und 1 ausgefranste Monstrositätenstickerei zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum des Schutzes zu erhalten."
 Inst12Quest14_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
-Inst12Quest14_Note = "Es ist nicht die Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor man diese Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Schattenhaut wird beim Aufheben gebunden und kann von einigen Bossen, Auferstandenen Konstrukten und Auferstandenen Knochenwärtern in "..YELLOW.."Scholomance"..WHITE.." droppen."
-Inst12Quest14_Prequest = "Nein"
-Inst12Quest14_Folgequest = "Nein"
+Inst12Quest14_Note = "Es ist nicht die Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor man diese Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Ausgefranste Monstrositätenstickerei wird beim Aufheben gebunden und kann von Ramstein dem Verschlinger, Giftrülpsern, Gallspuckern und Flickwerkschrecken in "..YELLOW.."Stratholme"..WHITE.." droppen."
+Inst12Quest14_Prequest = "No"
+Inst12Quest14_Folgequest = "No"
 --
-Inst12Quest14name1 = "Arkanum des Fokus"
+Inst12Quest14name1 = "Arkanum des Schutzes"
 
 --Quest 15 Alliance
-Inst12Quest15 = "15. Buchband des Schutzes"
+Inst12Quest15 = "15. Buchband der Schnelligkeit"
 Inst12Quest15_Level = "60"
 Inst12Quest15_Attain = "54"
-Inst12Quest15_Aim = "Bringt ein Buchband des Schutzes, 1 makellosen schwarzen Diamanten, 2 große glänzende Splitter und 1 ausgefranste Monstrositätenstickerei zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum des Schutzes zu erhalten."
+Inst12Quest15_Aim = "Bringt ein Buchband der Schnelligkeit, 1 makellosen schwarzen Diamanten, 2 große glänzende Splitter und 2 mal das Blut von Helden, zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum der Schnelligkeit zu erhalten."
 Inst12Quest15_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
-Inst12Quest15_Note = "Es ist nicht die Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor man diese Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Ausgefranste Monstrositätenstickerei wird beim Aufheben gebunden und kann von Ramstein dem Verschlinger, Giftrülpsern, Gallspuckern und Flickwerkschrecken in "..YELLOW.."Stratholme"..WHITE.." droppen."
-Inst12Quest15_Prequest = "No"
-Inst12Quest15_Folgequest = "No"
+Inst12Quest15_Note = "Es ist nicht die Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor man diese Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Blut von Helden wird beim Aufheben gebunden und kann an verschiedenen Plätzen in den Westlichen und Östlichen Pestländern auf dem Boden gefunden werden."
+Inst12Quest15_Prequest = "Nein"
+Inst12Quest15_Folgequest = "Nein"
 --
-Inst12Quest15name1 = "Arkanum des Schutzes"
+Inst12Quest15name1 = "Arkanum der Schnelligkeit"
 
 --Quest 16 Alliance
-Inst12Quest16 = "16. Buchband der Schnelligkeit"
+Inst12Quest16 = "16. Forors Kompendium (Krieger, Paladin)"
 Inst12Quest16_Level = "60"
-Inst12Quest16_Attain = "54"
-Inst12Quest16_Aim = "Bringt ein Buchband der Schnelligkeit, 1 makellosen schwarzen Diamanten, 2 große glänzende Splitter und 2 mal das Blut von Helden, zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum der Schnelligkeit zu erhalten."
-Inst12Quest16_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
-Inst12Quest16_Note = "Es ist nicht die Vorquest, aber Elfische Legenden muss abgeschlossen sein, bevor man diese Quest beginnen kann.\n\nDas Buch ist ein zufälliger Dropp in Düsterbruch und man kann damit Handeln, also könnte man es auch im Auktionshaus finden. Blut von Helden wird beim Aufheben gebunden und kann an verschiedenen Plätzen in den Westlichen und Östlichen Pestländern auf dem Boden gefunden werden."
+Inst12Quest16_Attain = "60"
+Inst12Quest16_Aim = "Bringt Forors Kompendium des Drachentötens zurück in das Athenaeum."
+Inst12Quest16_Location = "Forors Kompendium des Drachentötens (zufälliger Boss Dropp in "..YELLOW.."Düsterbruch"..WHITE..")"
+Inst12Quest16_Note = "Krieger oder Paladin Quest. Man gibt das Buch bei Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..") ab. Wenn das Quest abgeschlossen ist kann man mit dem Quest für Quel'Serrar beginnen."
 Inst12Quest16_Prequest = "Nein"
-Inst12Quest16_Folgequest = "Nein"
---
-Inst12Quest16name1 = "Arkanum der Schnelligkeit"
-
---Quest 17 Alliance
-Inst12Quest17 = "17. Forors Kompendium (Krieger, Paladin)"
-Inst12Quest17_Level = "60"
-Inst12Quest17_Attain = "60"
-Inst12Quest17_Aim = "Bringt Forors Kompendium des Drachentötens zurück in das Athenaeum."
-Inst12Quest17_Location = "Forors Kompendium des Drachentötens (zufälliger Boss Dropp in "..YELLOW.."Düsterbruch"..WHITE..")"
-Inst12Quest17_Note = "Krieger oder Paladin Quest. Man gibt das Buch bei Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..") ab. Wenn das Quest abgeschlossen ist kann man mit dem Quest für Quel'Serrar beginnen."
-Inst12Quest17_Prequest = "Nein"
-Inst12Quest17_Folgequest = "Ja, Das Schmieden von Quel'Serrar"
+Inst12Quest16_Folgequest = "Ja, Das Schmieden von Quel'Serrar"
 -- No Rewards for this quest
 
 
@@ -2925,17 +2827,6 @@ Inst12Quest16_HORDE_Prequest = Inst12Quest16_Prequest
 Inst12Quest16_HORDE_Folgequest = Inst12Quest16_Folgequest
 --
 Inst12Quest16name1_HORDE = Inst12Quest16name1
-
---Quest 17 Horde  (same as Quest 17 Alliance)
-Inst12Quest17_HORDE = Inst12Quest17
-Inst12Quest17_HORDE_Level = Inst12Quest17_Level
-Inst12Quest17_HORDE_Attain = Inst12Quest17_Attain
-Inst12Quest17_HORDE_Aim = Inst12Quest17_Aim
-Inst12Quest17_HORDE_Location = Inst12Quest17_Location
-Inst12Quest17_HORDE_Note = Inst12Quest17_Note
-Inst12Quest17_HORDE_Prequest = Inst12Quest17_Prequest
-Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
--- No Rewards for this quest
 
 
 
@@ -3514,8 +3405,8 @@ Inst17Quest4name2_HORDE = "Bernsteingluttalisman"
 
 Inst18Story = "Vor zehntausend Jahren, zum Höhepunkt des Kriegs der Uralten, betrat der mächtige Halbgott Agamaggan das Schlachtfeld, um sich der Brennenden Legion entgegenzustellen. Seinen Beitrag zur Rettung Azeroths vor dem sicheren Untergang musste der stolze Eber jedoch mit seinem Leben bezahlen. Im Lauf der Zeit sprossen dort, wo die Tropfen seines Blutes auf die Erde gefallen waren, gewaltige Dornenranken. Die Stacheleber, die sterblichen Nachkommen des mächtigen Gottes, siedelten sich dort an und betrachten den Kral bis zum heutigen Tag als ihr höchstes Heiligtum, dessen Herz der Klingenhauer genannt wird. Heute wird der größte Teil des Krals der Klingenhauer von der alten Stammesfürstin Charlga Klingenflanke und ihrem Stamm kontrolliert. Unter ihrer Führung greifen die schamanistischen Stacheleber regelmäßig sowohl die feindlichen Stämme als auch nahegelegene Siedlungen der Orcs und Tauren an. In jüngster Zeit gab es Hinweise, die auf einen möglichen Pakt zwischen Charlga und den Agenten der untoten Geißel hindeuten. Kann es tatsächlich sein, dass die Uralte ihren nichtsahnenden Stamm zu irgendeinem finsteren Zweck direkt in die Arme der Untoten treibt?"
 Inst18Caption = "Kral der Klingenhauer"
-Inst18QAA = "5 Quests"
-Inst18QAH = "5 Quests"
+Inst18QAA = "4 Quests"
+Inst18QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst18Quest1 = "1. Blaulaubknollen"
@@ -3572,18 +3463,6 @@ Inst18Quest4name2 = "Beryllpolster"
 Inst18Quest4name3 = "Steinfaustgurt"
 Inst18Quest4name4 = "Marmorierter Rundschild"
 
---Quest 5 Alliance
-Inst18Quest5 = "5. Feuergehärteter Panzer (Krieger)"
-Inst18Quest5_Level = "28"
-Inst18Quest5_Attain = "20"
-Inst18Quest5_Aim = "Sammelt die Materialien, die Furen Langbart benötigt, und bringt sie zu ihm nach Sturmwind."
-Inst18Quest5_Location = "Furen Langbart (Sturmwind - Zwergendistrikt; "..YELLOW.."64.4, 37.3"..WHITE..")"
-Inst18Quest5_Note = "Diese Quest kann nur von Kriegern angenommen werden. Die Phiole mit Phlogiston bekommt man von Roogug bei "..YELLOW.."[1]"..WHITE..".\n\nDie Folgequest ist für jede Rasse unterschiedlich. Brennendes Blut für Menschen, Eisenkoralle für Zwerge und Gnome und Sonnenverbrannte Schalen für Nachtelfen."
-Inst18Quest5_Prequest = "Ja, Der Schildschmied"
-Inst18Quest5_Folgequest = "Ja, (siehe Information)"
-Inst18Quest5PreQuest = "true"
--- No Rewards for this quest
-
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst18Quest1_HORDE = Inst18Quest1
@@ -3636,26 +3515,14 @@ Inst18Quest4name1_HORDE = "Beryllpolster"
 Inst18Quest4name2_HORDE = "Steinfaustgurt"
 Inst18Quest4name3_HORDE = "Marmorierter Rundschild"
 
---Quest 5 Horde
-Inst18Quest5_HORDE = "5. Brutale Rüstung (Krieger)"
-Inst18Quest5_HORDE_Level = "30"
-Inst18Quest5_HORDE_Attain = "20"
-Inst18Quest5_HORDE_Aim = "Bringt Thun'grim Brandblick 15 rauchige Eisenblöcke, 10 pulverisierte Azurite, 10 Eisenbarren und 1 Phiole Phlogiston."
-Inst18Quest5_HORDE_Location = "Thun'grim Brandblick (Das Brachland; "..YELLOW.."57,30"..WHITE..")"
-Inst18Quest5_HORDE_Note = "Diese Quest kann nur von Kriegern angenommen werden. Die Phiole mit Phlogiston bekommt man von Roogug bei "..YELLOW.."[1]"..WHITE..".\n\nWenn man diese Quest abschließt, erhält man die Möglichkeit vier neue Folgequests von dem selben NPC anzunehmen."
-Inst18Quest5_HORDE_Prequest = "Ja, Gespräch mit Thun'grim"
-Inst18Quest5_HORDE_Folgequest = "Ja, (siehe Information)"
-Inst18Quest5PreQuest_HORDE = "true"
--- No Rewards for this quest
-
 
 
 --------------- INST19 - SM: Library (SM Lib) ---------------
 
 Inst19Story = "Das Kloster war einst der ganze Stolz der Priesterschaft von Lordaeron, ein Ort der Studien und der Erleuchtung. Doch seit dem Auftauchen der untoten Geißel während des Dritten Krieges wurde das friedliche Kloster in eine Festung des fanatischen Scharlachroten Kreuzzuges verwandelt. Die Kreuzritter zeigen gegenüber allen nichtmenschlichen Völkern nicht den geringsten Funken von Toleranz oder Achtung, egal auf welcher Seite sie stehen mögen. Sie glauben, dass alle Außenseiter potentielle Überträger der Seuche des Untodes sind und deswegen vernichtet werden müssen. Berichten Überlebender zufolge müssen sich Eindringlinge darauf gefasst machen, dem Scharlachroten Kommandanten Mograine entgegenzutreten, der zudem über eine große Streitmacht ihm fanatisch ergebener Krieger gebietet. Der wahre Herr über das Scharlachrote Kloster ist jedoch Hochinquisitorin Weißsträhne - eine furchteinflößende Priesterin, die über die einzigartige Gabe verfügt, gefallene Kämpfer in ihrem Namen ins Kampfgeschehen zurückholen zu können."
 Inst19Caption = "SK: Bibliothek"
-Inst19QAA = "3 Quests"
-Inst19QAH = "5 Quests"
+Inst19QAA = "2 Quests"
+Inst19QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst19Quest1 = "1. Mythologie der Titanen"
@@ -3670,32 +3537,20 @@ Inst19Quest1_Folgequest = "Nein"
 Inst19Quest1name1 = "Forscherligaempfehlung"
 
 --Quest 2 Alliance
-Inst19Quest2 = "2. Rituale der Macht (Magier)"
+Inst19Quest2 = "2. Im Namen des Lichts"
 Inst19Quest2_Level = "40"
-Inst19Quest2_Attain = "30"
-Inst19Quest2_Aim = "Bringt das Buch 'Rituale der Macht' zu Tabetha in den Düstermarschen."
-Inst19Quest2_Location = "Tabetha (Düstermarschen; "..YELLOW.."43,57"..WHITE..")"
-Inst19Quest2_Note = "Diese Quest kann nur von Magiern angenommen werden. Das Buch findet man im letzten Korridor, der zu Arkanist Doan ("..YELLOW.."[2]"..WHITE..") führt."
-Inst19Quest2_Prequest = "Ja, Der Knüller schlechthin"
-Inst19Quest2_Folgequest = "Ja, Der Zauberstab des Magiers"
+Inst19Quest2_Attain = "34"
+Inst19Quest2_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Süderstade."
+Inst19Quest2_Location = "Raleigh der Andächtige (Vorgebirge des Hügellands - Süderstade; "..YELLOW.."51,58"..WHITE..")"
+Inst19Quest2_Note = "Diese Questreihe beginnt bei Bruder Crowley in Sturmwind - Kathedrale des Lichts ("..YELLOW.."52.3, 43.1"..WHITE..").\nHochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
+Inst19Quest2_Prequest = "Ja, Bruder Anton -> Auf dem scharlachroten Pfad"
+Inst19Quest2_Folgequest = "Nein"
 Inst19Quest2PreQuest = "true"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst19Quest3 = "3. Im Namen des Lichts"
-Inst19Quest3_Level = "40"
-Inst19Quest3_Attain = "34"
-Inst19Quest3_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Süderstade."
-Inst19Quest3_Location = "Raleigh der Andächtige (Vorgebirge des Hügellands - Süderstade; "..YELLOW.."51,58"..WHITE..")"
-Inst19Quest3_Note = "Diese Questreihe beginnt bei Bruder Crowley in Sturmwind - Kathedrale des Lichts ("..YELLOW.."52.3, 43.1"..WHITE..").\nHochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
-Inst19Quest3_Prequest = "Ja, Bruder Anton -> Auf dem scharlachroten Pfad"
-Inst19Quest3_Folgequest = "Nein"
-Inst19Quest3PreQuest = "true"
 --
-Inst19Quest3name1 = "Schwert der Beschaulichkeit"
-Inst19Quest3name2 = "Knochenbeißer"
-Inst19Quest3name3 = "Schwarze Bedrohung"
-Inst19Quest3name4 = "Kugel von Lorica"
+Inst19Quest2name1 = "Schwert der Beschaulichkeit"
+Inst19Quest2name2 = "Knochenbeißer"
+Inst19Quest2name3 = "Schwarze Bedrohung"
+Inst19Quest2name4 = "Kugel von Lorica"
 
 
 --Quest 1 Horde
@@ -3736,27 +3591,15 @@ Inst19Quest3name1_HORDE = "Grässlicher Beschützer"
 Inst19Quest3name2_HORDE = "Zwingsteinrundschild"
 Inst19Quest3name3_HORDE = "Omegakugel"
 
---Quest 4 Horde  (same as Quest 2 Alliance)
-Inst19Quest4_HORDE = "4. Rituale der Macht (Magier)"
-Inst19Quest4_HORDE_Level = Inst19Quest2_Level
-Inst19Quest4_HORDE_Attain = Inst19Quest2_Attain
-Inst19Quest4_HORDE_Aim = Inst19Quest2_Aim
-Inst19Quest4_HORDE_Location = Inst19Quest2_Location
-Inst19Quest4_HORDE_Note = Inst19Quest2_Note
-Inst19Quest4_HORDE_Prequest = Inst19Quest2_Prequest
-Inst19Quest4_HORDE_Folgequest = Inst19Quest2_Folgequest
-Inst19Quest4PreQuest_HORDE = Inst19Quest2_PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst19Quest5_HORDE = "5. In das Scharlachrote Kloster"
-Inst19Quest5_HORDE_Level = "42"
-Inst19Quest5_HORDE_Attain = "30"
-Inst19Quest5_HORDE_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Varimathras in Unterstadt."
-Inst19Quest5_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92"..WHITE..")"
-Inst19Quest5_HORDE_Note = "Hochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
-Inst19Quest5_HORDE_Prequest = "Nein"
-Inst19Quest5_HORDE_Folgequest = "Nein"
+--Quest 4 Horde
+Inst19Quest4_HORDE = "4. In das Scharlachrote Kloster"
+Inst19Quest4_HORDE_Level = "42"
+Inst19Quest4_HORDE_Attain = "30"
+Inst19Quest4_HORDE_Aim = "Tötet Hochinquisitorin Weißsträhne, den scharlachroten Kommandant Mograine, Herod, den scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Varimathras in Unterstadt."
+Inst19Quest4_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92"..WHITE..")"
+Inst19Quest4_HORDE_Note = "Hochinquisitorin Weißsträhne und Kommandant Mograine findet man bei "..YELLOW.."SK: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SK: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SK: Bibliothek [1]"..WHITE.."."
+Inst19Quest4_HORDE_Prequest = "Nein"
+Inst19Quest4_HORDE_Folgequest = "Nein"
 --
 Inst19Quest5name1_HORDE = "Schwert des Omens"
 Inst19Quest5name2_HORDE = "Stock des Propheten"
@@ -3931,7 +3774,7 @@ Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
 Inst20Story = "Scholomance ist ein weitläufiges Netzwerk unterirdischer Krypten, das sich unter der verfallenen Burg Darrowehr erstreckt. Darrowehr war früher im Besitz der Barovs, einer alten Adelsfamilie, doch während des Zweiten Krieges verfiel die Burg und wurde zu einer Ruine. Eine gängige Methode, mit der Kel'thuzad neue Anhänger für seinen Kult der Verdammten warb, war es, potentiellen Neuzugängen im Austausch gegen ihre Dienste für den Lichkönig die Unsterblichkeit zu versprechen. Die Barovs fielen auf Kel'thuzads charismatischen Schwindel herein und überließen die Burg und die dazugehörigen Krypten der Geißel. Im Gegenzug töteten die Kultisten die Barovs und machten aus den uralten Gewölben eine Schule der Nekromantie, die sie Scholomance tauften. Auch wenn Kel'thuzad schon lange nicht mehr in den Krypten weilt, verbleiben dennoch viele Kultisten und Lehrmeister in Scholomance. Der mächtige Lich Ras Frostraunen verteidigt Scholomance im Namen der Geißel gegen alle, die unbefugterweise einen Fuß über ihre Schwelle setzen, während Dunkelmeister Gandling als der hinterhältige Direktor der Schule für Ordnung unter den Lernenden sorgt."
 Inst20Caption = "Scholomance"
 Inst20QAA = "10 Quests"
-Inst20QAH = "10 Quests"
+Inst20QAH = "11 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. Verseuchte Jungtiere"
@@ -4036,39 +3879,27 @@ Inst20Quest8name1 = "Windschnitter"
 Inst20Quest8name2 = "Tanzender Span"
 
 --Quest 9 Alliance
-Inst20Quest9 = "9. Wichtellieferung (Hexenmeister)"
+Inst20Quest9 = "9. Das linke Stück von Lord Valthalaks Amulett"
 Inst20Quest9_Level = "60"
-Inst20Quest9_Attain = "60"
-Inst20Quest9_Aim = "Bringt den Wichtel im Gefäß in das Alchimielabor in der Scholomance. Bringt nach der Herstellung des Pergaments, dass Gefäß zurück zu Gorzeeki Wildaug."
-Inst20Quest9_Location = "Gorzeeki Wildaug (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
-Inst20Quest9_Note = "Die Quest kann nur von Hexenmeistern angenommen werden! Das Alchimielabor befindet sich bei "..YELLOW.."[7]"..WHITE.."."
-Inst20Quest9_Prequest = "Ja, Mor'zul Blutbringer -> Xorothianischer Sternenstaub"
-Inst20Quest9_Folgequest = "Ja, Schreckensross von Xoroth ("..YELLOW.."Düsterbruch West"..WHITE..")"
+Inst20Quest9_Attain = "58"
+Inst20Quest9_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Kormok zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst20Quest9_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst20Quest9_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nKormok wird bei "..YELLOW.."[7]"..WHITE.." beschworen."
+Inst20Quest9_Prequest = "Ja, Komponenten von großer Wichtigkeit"
+Inst20Quest9_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
 Inst20Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst20Quest10 = "10. Das linke Stück von Lord Valthalaks Amulett"
+Inst20Quest10 = "10. Das rechte Stück von Lord Valthalaks Amulett"
 Inst20Quest10_Level = "60"
 Inst20Quest10_Attain = "58"
-Inst20Quest10_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Kormok zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst20Quest10_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Mor Grauhuf zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
 Inst20Quest10_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst20Quest10_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nKormok wird bei "..YELLOW.."[7]"..WHITE.." beschworen."
-Inst20Quest10_Prequest = "Ja, Komponenten von großer Wichtigkeit"
-Inst20Quest10_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
+Inst20Quest10_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion.\n\nKormok wird bei "..YELLOW.."[7]"..WHITE..".beschworen"
+Inst20Quest10_Prequest = "Mehr Komponenten von großer Wichtigkeit"
+Inst20Quest10_Folgequest = "Letzte Vorbereitungen ("..YELLOW.."Untere Schwarzfelsspitze"..WHITE..")"
 Inst20Quest10PreQuest = "true"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst20Quest11 = "11. Das rechte Stück von Lord Valthalaks Amulett"
-Inst20Quest11_Level = "60"
-Inst20Quest11_Attain = "58"
-Inst20Quest11_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Mor Grauhuf zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
-Inst20Quest11_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst20Quest11_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion.\n\nKormok wird bei "..YELLOW.."[7]"..WHITE..".beschworen"
-Inst20Quest11_Prequest = "Mehr Komponenten von großer Wichtigkeit"
-Inst20Quest11_Folgequest = "Letzte Vorbereitungen ("..YELLOW.."Untere Schwarzfelsspitze"..WHITE..")"
-Inst20Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -4186,41 +4017,29 @@ Inst20Quest9_HORDE_Folgequest = Inst20Quest9_Folgequest
 Inst20Quest9PreQuest_HORDE = Inst20Quest9PreQuest
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 10 Alliance)
-Inst20Quest10_HORDE = Inst20Quest10
-Inst20Quest10_HORDE_Level = Inst20Quest10_Level
-Inst20Quest10_HORDE_Attain = Inst20Quest10_Attain
-Inst20Quest10_HORDE_Aim = Inst20Quest10_Aim
-Inst20Quest10_HORDE_Location = Inst20Quest10_Location
-Inst20Quest10_HORDE_Note = Inst20Quest10_Note
-Inst20Quest10_HORDE_Prequest = Inst20Quest10_Prequest
-Inst20Quest10_HORDE_Folgequest = Inst20Quest10_Folgequest
-Inst20Quest10PreQuest_HORDE = Inst20Quest10PreQuest
--- No Rewards for this quest
-
---Quest 11 Horde
-Inst20Quest11_HORDE = "11. Die Bedrohung durch Schattensichel (Schamane)"
-Inst20Quest11_HORDE_Level = "60"
-Inst20Quest11_HORDE_Attain = "58"
-Inst20Quest11_HORDE_Aim = "Wendet das Orakel der Anrufung inmitten des Kellergewölbes des großen Ossuariums in Scholomance an. Ihr werdet damit Geister herbeirufen, die es zu bekämpfen gilt. Nach Vernichtung dieser Geister wird der Todesritter Schattensichel auftauchen; besiegt ihn."
-Inst20Quest11_HORDE_Location = "Sagorne Gratläufer (Orgrimmar - Das Tal der Weisheit; "..YELLOW.."38.6, 36.2"..WHITE..")"
-Inst20Quest11_HORDE_Note = "Diese Quest ist nur für den Schamanen. Die Vorquest ist optional vom selben NPC.\n\nTodesritter Schattensichel erscheint bei "..YELLOW.."[5]"..WHITE.."."
-Inst20Quest11_HORDE_Prequest = "Materielle Unterstützung"
-Inst20Quest11_HORDE_Folgequest = "Nein"
-Inst20Quest11PreQuest_HORDE = "true"
+--Quest 10 Horde
+Inst20Quest10_HORDE = "10. Die Bedrohung durch Schattensichel (Schamane)"
+Inst20Quest10_HORDE_Level = "60"
+Inst20Quest10_HORDE_Attain = "58"
+Inst20Quest10_HORDE_Aim = "Wendet das Orakel der Anrufung inmitten des Kellergewölbes des großen Ossuariums in Scholomance an. Ihr werdet damit Geister herbeirufen, die es zu bekämpfen gilt. Nach Vernichtung dieser Geister wird der Todesritter Schattensichel auftauchen; besiegt ihn."
+Inst20Quest10_HORDE_Location = "Sagorne Gratläufer (Orgrimmar - Das Tal der Weisheit; "..YELLOW.."38.6, 36.2"..WHITE..")"
+Inst20Quest10_HORDE_Note = "Diese Quest ist nur für den Schamanen. Die Vorquest ist optional vom selben NPC.\n\nTodesritter Schattensichel erscheint bei "..YELLOW.."[5]"..WHITE.."."
+Inst20Quest10_HORDE_Prequest = "Materielle Unterstützung"
+Inst20Quest10_HORDE_Folgequest = "Nein"
+Inst20Quest10PreQuest_HORDE = "true"
 --
 Inst20Quest11name1_HORDE = "Helm des Himmelszorns"
 
---Quest 12 Horde  (same as Quest 11 Alliance)
-Inst20Quest12_HORDE = "12. Das rechte Stück von Lord Valthalaks Amulett"
-Inst20Quest12_HORDE_Level = Inst20Quest11_Level
-Inst20Quest12_HORDE_Attain = Inst20Quest11_Attain
-Inst20Quest12_HORDE_Aim = Inst20Quest11_Aim
-Inst20Quest12_HORDE_Location = Inst20Quest11_Location
-Inst20Quest12_HORDE_Note = Inst20Quest11_Note
-Inst20Quest12_HORDE_Prequest = Inst20Quest11_Prequest
-Inst20Quest12_HORDE_Folgequest = Inst20Quest11_Folgequest
-Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
+--Quest 11 Horde  (same as Quest 10 Alliance)
+Inst20Quest11_HORDE = "11. Das rechte Stück von Lord Valthalaks Amulett"
+Inst20Quest11_HORDE_Level = Inst20Quest11_Level
+Inst20Quest11_HORDE_Attain = Inst20Quest11_Attain
+Inst20Quest11_HORDE_Aim = Inst20Quest11_Aim
+Inst20Quest11_HORDE_Location = Inst20Quest11_Location
+Inst20Quest11_HORDE_Note = Inst20Quest11_Note
+Inst20Quest11_HORDE_Prequest = Inst20Quest11_Prequest
+Inst20Quest11_HORDE_Folgequest = Inst20Quest11_Folgequest
+Inst20Quest11PreQuest_HORDE = Inst20Quest11PreQuest
 -- No Rewards for this quest
 
 
@@ -4229,45 +4048,18 @@ Inst20Quest12PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgs nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgs die Burg des adligen Barons Silberlein jenseits des unscheinbaren Dörfchens Lohenscheit angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgs als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silberlein."
 Inst21Caption = "Burg Schattenfang"
-Inst21QAA = "3 Quests"
-Inst21QAH = "5 Quests"
+Inst21QAA = "1 Quests"
+Inst21QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst21Quest1 = "1. Die Prüfung der Rechtschaffenheit (Paladin)"
-Inst21Quest1_Level = "22"
-Inst21Quest1_Attain = "20"
-Inst21Quest1_Aim = "Sucht mit Jordans Waffennotizen etwas Weißsteineichenholz, Bailors aufbereitete Erzlieferung, Jordans Schmiedehammer und einen Koredelstein und bringt alles zusammen zu Jordan Stillbrunn in Eisenschmiede."
-Inst21Quest1_Location = "Jordan Stillbrunn (Dun Morogh - Eisenschmiede Eingang; "..YELLOW.."52,36"..WHITE..")"
-Inst21Quest1_Note = "Um die Notizen zu dieser Quest zu betrachten, klicke auf "..YELLOW.."[Informationen zur Prüfung der Rechtschaffenheit]"..WHITE.."."
-Inst21Quest1_Page = {2, "Nur Paladine können diese Quest erhalten!\n\n1. Das Weißsteineichenholz bekommt man von Goblinholzschnitzer in den "..YELLOW.."[Todesminen]"..WHITE..".\n\n2. Um Bailors aufbereitete Erzlieferung zu bekommen, muss man mit Bailor Steinhand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE..") reden. Er gibt einem das Quest 'Bailors Erzlieferung'. Für diese Quest muss man Jordans Erzlieferung finden. Sie ist hinter einem Baum bei "..YELLOW.."71,21"..WHITE.."\n\n3. Jordans Schmiedehammer bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." bei "..YELLOW.."[5]"..WHITE..".\n\n4. Den Koredelstein bekommt man von Thundris Windwirker (Dunkelküste - Auberdine; "..YELLOW.."37,40"..WHITE.."), wenn man das Quest 'Suche nach dem Koredelstein' macht. Für diese Quest muss man vor der "..YELLOW.."[Tiefschwarzen Grotte]"..WHITE.." Orakel oder Gezeitenpriesterinnen der Tiefschwarzen Grotte töten. Diese droppen den Verderbten Koredelstein, welchen Thundris Windwirker reinigt.", };
-Inst21Quest1_Prequest = "Ja, Der Foliant der Ehre -> Die Prüfung der Rechtschaffenheit"
-Inst21Quest1_Folgequest = "Ja, Die Prüfung der Rechtschaffenheit"
-Inst21Quest1PreQuest = "true"
---
-Inst21Quest1name1 = "Verigans Faust"
-
---Quest 2 Alliance
-Inst21Quest2 = "2. Die Kugel von Soran'ruk (Hexenmeister)"
-Inst21Quest2_Level = "25"
-Inst21Quest2_Attain = "20"
-Inst21Quest2_Aim = "Sucht 3 Fragmente von Soran'ruk und 1 großes Fragment von Soran'ruk und bringt sie zu Doan Karhan im Brachland."
-Inst21Quest2_Location = "Doan Karhan (Brachland; "..YELLOW.."49,57"..WHITE..")"
-Inst21Quest2_Note = "Diese Quest kann nur von Hexenmeistern angenommen werden! Die drei Fragmente von Soran'ruk werden von den Akolyten des Schattenhammers in der "..YELLOW.."[Tiefschwarze Grotte]"..WHITE.." gedroppt. Das große Fragment von Soran'ruk bekommt man in "..YELLOW.."[Burg Schattenfang]"..WHITE.." von Dunkelseele der Schattenfänge."
-Inst21Quest2_Prequest = "Nein"
-Inst21Quest2_Folgequest = "Nein"
---
-Inst21Quest2name1 = "Kugel von Soran'ruk"
-Inst21Quest2name2 = "Stab von Soran'ruk"
-
---Quest 3 Alliance
-Inst21Quest3 = "3. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest3_Level = "80"
-Inst21Quest3_Attain = "75"
-Inst21Quest3_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
-Inst21Quest3_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
-Inst21Quest3_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")."
-Inst21Quest3_Prequest = "Nein"
-Inst21Quest3_Folgequest = "Nein"
+Inst21Quest1 = "1. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest1_Level = "80"
+Inst21Quest1_Attain = "75"
+Inst21Quest1_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
+Inst21Quest1_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest1_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest1_Prequest = "Nein"
+Inst21Quest1_Folgequest = "Nein"
 -- No Rewards for this quest 
 
 
@@ -4308,28 +4100,15 @@ Inst21Quest3_HORDE_Folgequest = "Nein"
 --
 Inst21Quest3name1_HORDE = "Siegel von Sylvanas"
 
---Quest 4 Horde  (same as Quest 2 Alliance)
-Inst21Quest4_HORDE = "4. Die Kugel von Soran'ruk (Hexenmeister)"
-Inst21Quest4_HORDE_Level = Inst21Quest2_Level
-Inst21Quest4_HORDE_Attain = Inst21Quest2_Attain
-Inst21Quest4_HORDE_Aim = Inst21Quest2_Aim
-Inst21Quest4_HORDE_Location = Inst21Quest2_Location
-Inst21Quest4_HORDE_Note = Inst21Quest2_Note
-Inst21Quest4_HORDE_Prequest = Inst21Quest2_Prequest
-Inst21Quest4_HORDE_Folgequest = Inst21Quest2_Folgequest
---
-Inst21Quest4name1_HORDE = Inst21Quest2name1
-Inst21Quest4name2_HORDE = Inst21Quest2name1
-
---Quest 5 Horde
-Inst21Quest5_HORDE = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest5_HORDE_Level = "80"
-Inst21Quest5_HORDE_Attain = "75"
-Inst21Quest5_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
-Inst21Quest5_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
-Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
-Inst21Quest5_HORDE_Prequest = "Nein"
-Inst21Quest5_HORDE_Folgequest = "Nein"
+--Quest 4 Horde
+Inst21Quest4_HORDE = "4. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest4_HORDE_Level = "80"
+Inst21Quest4_HORDE_Attain = "75"
+Inst21Quest4_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
+Inst21Quest4_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest4_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest4_HORDE_Prequest = "Nein"
+Inst21Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest 
 
 
@@ -4987,8 +4766,8 @@ Inst24Quest6PreQuest = "true"
 
 Inst25Story = "Vor mehr als tausend Jahren wurde das mächtige Reich der Gurubashi von einem gewaltigen Bürgerkrieg auseinandergerissen. Eine einflussreiche Gruppe trollischer Priester, die als die Atal'ai bekannt waren, wagten den Versuch, einen uralten Blutgott namens Hakkar der Seelenschinder zu beschwören. Obwohl ihr Plan vereitelt und die Priester letztenendes verbannt wurden zerbrach das Reich und kollabierte, da der Krieg sämtlichen inneren Zusammenhalt zwischen den Klans zerstört hatte. Die verbannten Priester flohen weit in den Norden zu den Sümpfen des Elends. Dort bauten sie Hakkar einen großen Tempel, wo sie erneut seine Rückkehr in die Welt vorbereiten wollten. Als der große Drachenaspekt Ysera von den Plänen der Atal'ai erfuhr gab es nichts, was den Zorn des Drachen zurückhalten konnte, und so zerschmetterte sie den Tempel und ließ ihn in den Marschen versinken. Bis zum heutigen Tag werden die Ruinen des Tempels von grünen Drachen bewacht, so dass niemand hinein oder hinaus kann. Allerdings sollen einige der verfluchten Atal'ai überlebt haben und immer noch an der Vollendung ihrer finsteren Pläne arbeiten."
 Inst25Caption = "Der versunkene Tempel"
-Inst25QAA = "17 Quests"
-Inst25QAH = "17 Quests"
+Inst25QAA = "8 Quests"
+Inst25QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst25Quest1 = "1. Im Tempel von Atal'Hakkar"
@@ -5091,142 +4870,6 @@ Inst25Quest8_Folgequest = "Nein"
 --
 Inst25Quest8name1 = "Gebundene Essenz des Eranikus"
 
---Quest 9 Alliance
-Inst25Quest9 = "9. Federn von Trollen (Hexenmeister)"
-Inst25Quest9_Level = "52"
-Inst25Quest9_Attain = "50"
-Inst25Quest9_Aim = "Bringt 6 Voodoofedern von den Trollen aus dem Versunkenen Tempel."
-Inst25Quest9_Location = "Impsy (Teufelswald; "..YELLOW.."42,45"..WHITE..")"
-Inst25Quest9_Note = "Hexenmeister-Quest. Je 1 Feder droppt von den Trollen, die sich auf den Balkonen über dem großen Raum mit dem Loch in der Mitte befinden."
-Inst25Quest9_Prequest = "Ja, Die Bitte eines Wichtels -> Das richtige Zeug"
-Inst25Quest9_Folgequest = "Nein"
-Inst25Quest9PreQuest = "true"
---
-Inst25Quest9name1 = "Seelenernter"
-Inst25Quest9name2 = "Abysssplitter"
-Inst25Quest9name3 = "Roben der Knechtschaft"
-
---Quest 10 Alliance
-Inst25Quest10 = "10. Voodoofedern (Krieger)"
-Inst25Quest10_Level = "52"
-Inst25Quest10_Attain = "50"
-Inst25Quest10_Aim = "Bringt die Voodoofedern der Trolle im Versunkenen Tempel zu dem gefallenen Helden der Horde."
-Inst25Quest10_Location = "Gefallener Held der Horde (Sümpfe des Elends; "..YELLOW.."34,66"..WHITE..")"
-Inst25Quest10_Note = "Krieger-Quest. Je 1 Feder droppt von den Trollen, die sich auf den Balkonen über dem großen Raum mit dem Loch in der Mitte befinden."
-Inst25Quest10_Prequest = "Ja, Ein geplagter Geist -> Krieg den Schattenanbetern"
-Inst25Quest10_Folgequest = "Nein"
-Inst25Quest10PreQuest = "true"
---
-Inst25Quest10name1 = "Visier des Zorns"
-Inst25Quest10name2 = "Diamantenfläschchen"
-Inst25Quest10name3 = "Klingenstahlschultern"
-
---Quest 11 Alliance
-Inst25Quest11 = "11. Die Macht des Voodoos (Schamane)"
-Inst25Quest11_Level = "52"
-Inst25Quest11_Attain = "50"
-Inst25Quest11_Aim = "Bringt Bath'rah dem Windbehüter die Voodoofedern."
-Inst25Quest11_Location = "Bath'rah der Windbehüter (Alteracgebirge; "..YELLOW.."80,67"..WHITE..")"
-Inst25Quest11_Note = "Schamanen-Quest. Je 1 Feder droppt von den Trollen, die sich auf den Balkonen über dem großen Raum mit dem Loch in der Mitte befinden."
-Inst25Quest11_Prequest = "Ja, Geistertotem"
-Inst25Quest11_Folgequest = "Nein"
-Inst25Quest11PreQuest = "true"
---
-Inst25Quest11name1 = "Azuritfäuste"
-Inst25Quest11name2 = "Entzückter Wassergeist"
-Inst25Quest11name3 = "Wildstab"
-
---Quest 12 Alliance
-Inst25Quest12 = "12. Eine bessere Zutat (Druide)"
-Inst25Quest12_Level = "52"
-Inst25Quest12_Attain = "50"
-Inst25Quest12_Aim = "Beschafft Euch eine Fäulnisranke von dem Wächter auf dem Grund des Versunkenen Tempels und kehrt zu Torwa Pfadfinder zurück."
-Inst25Quest12_Location = "Torwa Pfadfinder (Krater von Un'Goro; "..YELLOW.."72,76"..WHITE..")"
-Inst25Quest12_Note = "Druiden-Quest. Die Fäulnisranke droppt von Atal'alarion, der bei "..YELLOW.."[1]"..WHITE.." beschworen wird, indem man die Statuen in der Reihenfolge aktiviert, wie es auf der Karte steht."
-Inst25Quest12_Prequest = "Ja, Torwa Pfadfinder -> Giftexperiment"
-Inst25Quest12_Folgequest = "Nein"
-Inst25Quest12PreQuest = "true"
---
-Inst25Quest12name1 = "Ergrauter Pelz"
-Inst25Quest12name2 = "Umarmung des Waldes"
-Inst25Quest12name3 = "Mondschattenstock"
-
---Quest 13 Alliance
-Inst25Quest13 = "13. Der grüne Drache (Jäger)"
-Inst25Quest13_Level = "52"
-Inst25Quest13_Attain = "50"
-Inst25Quest13_Aim = "Bringt Morphaz' Zahn zu Ogtinc in Azshara. Ogtinc wohnt oberhalb des Kliffs, nordöstlich der Ruinen von Eldarath."
-Inst25Quest13_Location = "Ogtinc (Azshara; "..YELLOW.."42,43"..WHITE..")"
-Inst25Quest13_Note = "Jäger-Quest. Morphaz befindet sich bei "..YELLOW.."[5]"..WHITE.."."
-Inst25Quest13_Prequest = "Ja, Der Talisman des Jägers -> Wellenjagd"
-Inst25Quest13_Folgequest = "Nein"
-Inst25Quest13PreQuest = "true"
---
-Inst25Quest13name1 = "Jagdspeer"
-Inst25Quest13name2 = "Auge eines Teufelssauriers"
-Inst25Quest13name3 = "Zahn eines Teufelssauriers"
-
---Quest 14 Alliance
-Inst25Quest14 = "14. Vernichtet Morphaz (Magier)"
-Inst25Quest14_Level = "52"
-Inst25Quest14_Attain = "50"
-Inst25Quest14_Aim = "Beschafft den arkanen Splitter von Morphaz' Leichnam und kehrt mit ihm zu Erzmagier Xylem zurück."
-Inst25Quest14_Location = "Erzmagier Xylem (Azshara; "..YELLOW.."29,40"..WHITE..")"
-Inst25Quest14_Note = "Magier-Quest. Morphaz befindet sich bei "..YELLOW.."[5]"..WHITE.."."
-Inst25Quest14_Prequest = "Ja, Magischer Staub -> Die Koralle der Sirenen"
-Inst25Quest14_Folgequest = "Nein"
-Inst25Quest14PreQuest = "true"
---
-Inst25Quest14name1 = "Gletscherstachel"
-Inst25Quest14name2 = "Arkankristallanhänger"
-Inst25Quest14name3 = "Feuerrubin"
-
---Quest 15 Alliance
-Inst25Quest15 = "15. Morphaz' Blut (Priester)"
-Inst25Quest15_Level = "52"
-Inst25Quest15_Attain = "50"
-Inst25Quest15_Aim = "Tötet Morphaz im Versunkenen Tempel von Atal'Hakkar und bringt Greta Mooshuf im Teufelswald sein Blut. Der Eingang zum Versunkenen Tempel liegt in den Sümpfen des Elends."
-Inst25Quest15_Location = "Ogtinc (Azshara; "..YELLOW.."42,43"..WHITE..")"
-Inst25Quest15_Note = "Priester-Quest. Morphaz befindet sich bei "..YELLOW.."[5]"..WHITE..". Greta Mooshuf befindet sich im Teufelswald - Smaragdrefugium ("..YELLOW.."51,82"..WHITE..")."
-Inst25Quest15_Prequest = "Ja, Cenarische Hilfe -> Sekret des Untodes"
-Inst25Quest15_Folgequest = "Nein"
-Inst25Quest15PreQuest = "true"
---
-Inst25Quest15name1 = "Gesegnete Gebetsperlen"
-Inst25Quest15name2 = "Stab des Leidens"
-Inst25Quest15name3 = "Reif der Hoffnung"
-
---Quest 16 Alliance
-Inst25Quest16 = "16. Der azurblaue Schlüssel (Schurke)"
-Inst25Quest16_Level = "52"
-Inst25Quest16_Attain = "50"
-Inst25Quest16_Aim = "Bringt den azurblauen Schlüssel zu Lord Jorach Rabenholdt."
-Inst25Quest16_Location = "Erzmagier Xylem (Azshara; "..YELLOW.."29,40"..WHITE..")"
-Inst25Quest16_Note = "Schurken-Quest. Der azurblaue Schlüssel droppt von Morphaz bei "..YELLOW.."[5]"..WHITE..". Lord Jorach Rabenholdt befindet sich im Alteracgebirge - Rabenholdt ("..YELLOW.."86,79"..WHITE..")."
-Inst25Quest16_Prequest = "Ja, Ein simples Anliegen -> Verschlüsselte Fragmente"
-Inst25Quest16_Folgequest = "Nein"
-Inst25Quest16PreQuest = "true"
---
-Inst25Quest16name1 = "Ebenholzmaske"
-Inst25Quest16name2 = "Leisetreter"
-Inst25Quest16name3 = "Nachtsaugertuch"
-
---Quest 17 Alliance
-Inst25Quest17 = "17. Erschaffung des Steins der Macht (Paladin)"
-Inst25Quest17_Level = "52"
-Inst25Quest17_Attain = "50"
-Inst25Quest17_Aim = "Bringt die Voodoofedern zu Ashlam Ehrenschlag."
-Inst25Quest17_Location = "Kommandant Ashlam Ehrenschlag (Westliche Pestländer - Zugwindlager; "..YELLOW.."43,85"..WHITE..")"
-Inst25Quest17_Note = "Paladin-Quest. Je 1 Feder droppt von den Trollen, die sich auf den Balkonen über dem großen Raum mit dem Loch in der Mitte befinden."
-Inst25Quest17_Prequest = "Ja, Gereinigte Geißelsteine"
-Inst25Quest17_Folgequest = "Nein"
-Inst25Quest17PreQuest = "true"
---
-Inst25Quest17name1 = "Heiliger Stein der Macht"
-Inst25Quest17name2 = "Lichtgeschmiedete Klinge"
-Inst25Quest17name3 = "Geweihte Kugel"
-Inst25Quest17name4 = "Siegelring der Ritterlichkeit"
-
 
 --Quest 1 Horde
 Inst25Quest1_HORDE = "1. Der Tempel von Atal'Hakkar"
@@ -5326,139 +4969,6 @@ Inst25Quest8_HORDE_Prequest = Inst25Quest8_Prequest
 Inst25Quest8_HORDE_Folgequest = Inst25Quest8_Folgequest
 --
 Inst25Quest8name1_HORDE = Inst25Quest8name1
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst25Quest9_HORDE = Inst25Quest9
-Inst25Quest9_HORDE_Level = Inst25Quest9_Level
-Inst25Quest9_HORDE_Attain = Inst25Quest9_Attain
-Inst25Quest9_HORDE_Aim = Inst25Quest9_Aim
-Inst25Quest9_HORDE_Location = Inst25Quest9_Location
-Inst25Quest9_HORDE_Note = Inst25Quest9_Note
-Inst25Quest9_HORDE_Prequest = Inst25Quest9_Prequest
-Inst25Quest9_HORDE_Folgequest = Inst25Quest9_Folgequest
-Inst25Quest9PreQuest_HORDE = Inst25Quest9PreQuest
---
-Inst25Quest9name1_HORDE = Inst25Quest9name1
-Inst25Quest9name2_HORDE = Inst25Quest9name2
-Inst25Quest9name3_HORDE = Inst25Quest9name3
-
---Quest 10 Horde  (same as Quest 10 Alliance)
-Inst25Quest10_HORDE = Inst25Quest10
-Inst25Quest10_HORDE_Level = Inst25Quest10_Level
-Inst25Quest10_HORDE_Attain = Inst25Quest10_Attain
-Inst25Quest10_HORDE_Aim = Inst25Quest10_Aim
-Inst25Quest10_HORDE_Location = Inst25Quest10_Location
-Inst25Quest10_HORDE_Note = Inst25Quest10_Note
-Inst25Quest10_HORDE_Prequest = Inst25Quest10_Prequest
-Inst25Quest10_HORDE_Folgequest = Inst25Quest10_Folgequest
-Inst25Quest10PreQuest_HORDE = Inst25Quest10PreQuest
---
-Inst25Quest10name1_HORDE = Inst25Quest10name1
-Inst25Quest10name2_HORDE = Inst25Quest10name2
-Inst25Quest10name3_HORDE = Inst25Quest10name3
-
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst25Quest11_HORDE = Inst25Quest11
-Inst25Quest11_HORDE_Level = Inst25Quest11_Level
-Inst25Quest11_HORDE_Attain = Inst25Quest11_Attain
-Inst25Quest11_HORDE_Aim = Inst25Quest11_Aim
-Inst25Quest11_HORDE_Location = Inst25Quest11_Location
-Inst25Quest11_HORDE_Note = Inst25Quest11_Note
-Inst25Quest11_HORDE_Prequest = Inst25Quest11_Prequest
-Inst25Quest11_HORDE_Folgequest = Inst25Quest11_Folgequest
-Inst25Quest11PreQuest_HORDE = Inst25Quest11PreQuest
---
-Inst25Quest11name1_HORDE = Inst25Quest11name1
-Inst25Quest11name2_HORDE = Inst25Quest11name2
-Inst25Quest11name3_HORDE = Inst25Quest11name3
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst25Quest12_HORDE = Inst25Quest12
-Inst25Quest12_HORDE_Level = Inst25Quest12_Level
-Inst25Quest12_HORDE_Attain = Inst25Quest12_Attain
-Inst25Quest12_HORDE_Aim = Inst25Quest12_Aim
-Inst25Quest12_HORDE_Location = Inst25Quest12_Location
-Inst25Quest12_HORDE_Note = Inst25Quest12_Note
-Inst25Quest12_HORDE_Prequest = Inst25Quest12_Prequest
-Inst25Quest12_HORDE_Folgequest = Inst25Quest12_Folgequest
-Inst25Quest12PreQuest_HORDE = Inst25Quest12PreQuest
---
-Inst25Quest12name1_HORDE = Inst25Quest12name1
-Inst25Quest12name2_HORDE = Inst25Quest12name2
-Inst25Quest12name3_HORDE = Inst25Quest12name3
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst25Quest13_HORDE = Inst25Quest13
-Inst25Quest13_HORDE_Level = Inst25Quest13_Level
-Inst25Quest13_HORDE_Attain = Inst25Quest13_Attain
-Inst25Quest13_HORDE_Aim = Inst25Quest13_Aim
-Inst25Quest13_HORDE_Location = Inst25Quest13_Location
-Inst25Quest13_HORDE_Note = Inst25Quest13_Note
-Inst25Quest13_HORDE_Prequest = Inst25Quest13_Prequest
-Inst25Quest13_HORDE_Folgequest = Inst25Quest13_Folgequest
-Inst25Quest13PreQuest_HORDE = Inst25Quest13PreQuest
---
-Inst25Quest13name1_HORDE = Inst25Quest13name1
-Inst25Quest13name2_HORDE = Inst25Quest13name2
-Inst25Quest13name3_HORDE = Inst25Quest13name3
-
---Quest 14 Horde  (same as Quest 14 Alliance)
-Inst25Quest14_HORDE = Inst25Quest14
-Inst25Quest14_HORDE_Level = Inst25Quest14_Level
-Inst25Quest14_HORDE_Attain = Inst25Quest14_Attain
-Inst25Quest14_HORDE_Aim = Inst25Quest14_Aim
-Inst25Quest14_HORDE_Location = Inst25Quest14_Location
-Inst25Quest14_HORDE_Note = Inst25Quest14_Note
-Inst25Quest14_HORDE_Prequest = Inst25Quest14_Prequest
-Inst25Quest14_HORDE_Folgequest = Inst25Quest14_Folgequest
-Inst25Quest14PreQuest_HORDE = Inst25Quest14PreQuest
---
-Inst25Quest14name1_HORDE = Inst25Quest14name1
-Inst25Quest14name2_HORDE = Inst25Quest14name2
-Inst25Quest14name3_HORDE = Inst25Quest14name3
-
---Quest 15 Horde  (same as Quest 15 Alliance)
-Inst25Quest15_HORDE = Inst25Quest15
-Inst25Quest15_HORDE_Level = Inst25Quest15_Level
-Inst25Quest15_HORDE_Attain = Inst25Quest15_Attain
-Inst25Quest15_HORDE_Aim = Inst25Quest15_Aim
-Inst25Quest15_HORDE_Location = Inst25Quest15_Location
-Inst25Quest15_HORDE_Note = Inst25Quest15_Note
-Inst25Quest15_HORDE_Prequest = Inst25Quest15_Prequest
-Inst25Quest15_HORDE_Folgequest = Inst25Quest15_Folgequest
-Inst25Quest15PreQuest_HORDE = Inst25Quest15PreQuest
---
-Inst25Quest15name1_HORDE = Inst25Quest15name1
-Inst25Quest15name2_HORDE = Inst25Quest15name2
-Inst25Quest15name3_HORDE = Inst25Quest15name3
-
---Quest 16 Horde  (same as Quest 16 Alliance)
-Inst25Quest16_HORDE = Inst25Quest16
-Inst25Quest16_HORDE_Level = Inst25Quest16_Level
-Inst25Quest16_HORDE_Attain = Inst25Quest16_Attain
-Inst25Quest16_HORDE_Aim = Inst25Quest16_Aim
-Inst25Quest16_HORDE_Location = Inst25Quest16_Location
-Inst25Quest16_HORDE_Note = Inst25Quest16_Note
-Inst25Quest16_HORDE_Prequest = Inst25Quest16_Prequest
-Inst25Quest16_HORDE_Folgequest = Inst25Quest16_Folgequest
-Inst25Quest16PreQuest_HORDE = Inst25Quest16PreQuest
---
-Inst25Quest16name1_HORDE = Inst25Quest16name1
-Inst25Quest16name2_HORDE = Inst25Quest16name2
-Inst25Quest16name3_HORDE = Inst25Quest16name3
-
---Quest 17 Horde
-Inst25Quest17_HORDE = "17. Das uralte Böse (Paladin)"
-Inst25Quest17_HORDE_Level = "52"
-Inst25Quest17_HORDE_Attain = "50"
-Inst25Quest17_HORDE_Aim = "Lüftet die Geheimnisse des Versunkenen Tempels und befreit Atal'alarion. Tötet ihn und schneidet die Fäulnisranke aus seinem Fleisch. Kehrt danach zu Mehlar beim Bollwerk zurück."
-Inst25Quest17_HORDE_Location = "Fürstin Sylvanas Windläufer (Unterstadt - Königliches Viertel; "..YELLOW.."59,94"..WHITE..")"
-Inst25Quest17_HORDE_Note = "Paladin-Quest. Die Fäulnisranke droppt von Atal'alarion, der bei "..YELLOW.."[1]"..WHITE.." beschworen wird, indem man die Statuen in der Reihenfolge aktiviert, wie es auf der Karte steht. Mehlar befindet sich in Tirisfal - Das Bollwerk ("..YELLOW.."83,71"..WHITE..")."
-Inst25Quest17_HORDE_Prequest = "Ja, Zum Bollwerk -> Die Weisheit der Bansheekönigin"
-Inst25Quest17_HORDE_Folgequest = "Nein"
-Inst25Quest17PreQuest_HORDE = "true"
---
-Inst25Quest17name1_HORDE = "Geißelbann"
 
 
 
