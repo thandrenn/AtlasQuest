@@ -9014,33 +9014,33 @@ Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 --------------- INST68 - Sunwell Plateau ---------------
 
-Inst68Story = "Das Sonnenbrunnenplateau ist eine Schlachtzugsinstanz, die sich auf der Insel von Quel'Danas nördlich von Silbermond befindet. Blizzard plant es zur schwersten Instanz bis zum Erscheinen von Wrath of the Lich King zu machen. Das Sonnenbrunnenplateau ist für Spieler mit T6 Ausrüstung gedacht und dort werden die übrigen T6 Gegenstände (Schuhe, Gürtel und Armschienen), und andere epische Gegenstände droppen. \n\nDie Instanz beinhaltet Innen- und Außenareale, in denen die Spieler gefangene Naaru finden können, die die größte Energiequelle der Stadt sind, und innerhalb des letzten Gebäudes findet man den Sonnenbrunnen selbst.\n\nDas Sonnenbrunnenplateau ist in der selben Architektur wie Silbermond gehalten."
+Inst68Story = "Das Sonnenbrunnenplateau ist eine Schlachtzugsinstanz, die sich auf der Insel von Quel'Danas nördlich von Silbermond befindet. Das Sonnenbrunnenplateau ist für Spieler mit T6 Ausrüstung gedacht und dort werden die übrigen T6 Gegenstände (Schuhe, Gürtel und Armschienen), und andere epische Gegenstände droppen. \n\nDie Instanz beinhaltet Innen- und Außenareale, in denen die Spieler gefangene Naaru finden können, die die größte Energiequelle der Stadt sind, und innerhalb des letzten Gebäudes findet man den Sonnenbrunnen selbst.\n\nDas Sonnenbrunnenplateau ist in der selben Architektur wie Silbermond gehalten."
 Inst68Caption = "Sonnenbrunnenplateau"
 Inst68QAA = "1 Quests"
 Inst68QAH = "1 Quests"
 
 --Quest 1 Alliance
-Inst68Quest1 = "1. The Purification of Quel'Delar"
+Inst68Quest1 = "1. Die Reinigung Quel'Delars"
 Inst68Quest1_Level = "80"
 Inst68Quest1_Attain = "80"
-Inst68Quest1_Aim = "Immerse your Tempered Quel'Delar in the Sunwell. Speak to a Warden of the Sunwell when you are ready to enter the Sunwell Plateau."
-Inst68Quest1_Location = "Halduron Brightwing (Isle of Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
-Inst68Quest1_Note = "When you enter Sunwell Plateau, you will be in a phased version and will not have to fight any mobs or bosses.  The Sunwell is at "..YELLOW.."[4]"..WHITE.."."
-Inst68Quest1_Prequest = "Thalorien Dawnseeker"
-Inst68Quest1_Folgequest = "A Victory For The Silver Covenant"
+Inst68Quest1_Aim = "Taucht Euer getempertes Quel'Delar in den Sonnenbrunnen. Sprecht mit einem der Wärter des Sonnenbrunnens, wenn Ihr bereit seid, das Sonnenbrunnenplateau zu betreten."
+Inst68Quest1_Location = "Halduron Wolkenglanz (Insel von Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
+Inst68Quest1_Note = "Wenn Du den Sonnenbrunnenplateau betritts, bist du in einer Phasenverschiebung und mußt nicht gegen irgendwelche Mobs und Bosse kämpfen.  Der Sonnenbrunnen ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst68Quest1_Prequest = "Thalorien Dämmersucher"
+Inst68Quest1_Folgequest = "Ein Sieg für den Silberbund"
 Inst68Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst68Quest1_HORDE = "1. The Purification of Quel'Delar"
+Inst68Quest1_HORDE = "1. Die Reinigung Quel'Delars"
 Inst68Quest1_HORDE_Level = "80"
 Inst68Quest1_HORDE_Attain = "80"
-Inst68Quest1_HORDE_Aim = "Immerse your Tempered Quel'Delar in the Sunwell. Speak to a Warden of the Sunwell when you are ready to enter the Sunwell Plateau."
-Inst68Quest1_HORDE_Location = "Halduron Brightwing (Isle of Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
-Inst68Quest1_HORDE_Note = "When you enter Sunwell Plateau, you will be in a phased version and will not have to fight any mobs or bosses.  The Sunwell is at "..YELLOW.."[4]"..WHITE.."."
-Inst68Quest1_HORDE_Prequest = "Thalorien Dawnseeker"
-Inst68Quest1_HORDE_Folgequest = "A Victory For The Sunreavers"
+Inst68Quest1_HORDE_Aim = "Taucht Euer getempertes Quel'Delar in den Sonnenbrunnen. Sprecht mit einem der Wärter des Sonnenbrunnens, wenn Ihr bereit seid, das Sonnenbrunnenplateau zu betreten."
+Inst68Quest1_HORDE_Location = "Halduron Wolkenglanz (Insel von Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
+Inst68Quest1_HORDE_Note = "Wenn Du den Sonnenbrunnenplateau betritts, bist du in einer Phasenverschiebung und mußt nicht gegen irgendwelche Mobs und Bosse kämpfen.  Der Sonnenbrunnen ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst68Quest1_HORDE_Prequest = "Thalorien Dämmersucher"
+Inst68Quest1_HORDE_Folgequest = "Ein Sieg für den Silberbund"
 Inst68Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
