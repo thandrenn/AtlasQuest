@@ -10,6 +10,10 @@ Version 4.6.0 ALPHA
 - Code Bug fixes (Thanks Speedwaystar, Kharthus)
 - Localizations updated: deDE
 
+- Classic Dungeons updated:
+	- The Deadmines
+	
+
 
 Version 4.5.0 BETA
 

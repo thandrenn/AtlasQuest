@@ -174,102 +174,127 @@ Inst36QAH = "No Quests"
 
 Inst1Story = "Once the greatest gold production center in the human lands, the Dead Mines were abandoned when the Horde razed Stormwind city during the First War. Now the Defias Brotherhood has taken up residence and turned the dark tunnels into their private sanctum. It is rumored that the thieves have conscripted the clever goblins to help them build something terrible at the bottom of the mines - but what that may be is still uncertain. Rumor has it that the way into the Deadmines lies through the quiet, unassuming village of Moonbrook."
 Inst1Caption = "Deadmines"
-Inst1QAA = "7 Quests" -- how many quests for alliance
-Inst1QAH = "No Quests" -- for horde
+Inst1QAA = "5 Quests"
+Inst1QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst1Quest1 = "1. Red Silk Bandanas"
-Inst1Quest1_Level = "17"
-Inst1Quest1_Attain = "14"
-Inst1Quest1_Aim = "Scout Riell at the Sentinel Hill Tower wants you to bring her 10 Red Silk Bandanas."
-Inst1Quest1_Location = "Scout Riell (Westfall - Sentinel Hill; "..YELLOW.."56, 47"..WHITE..")"
-Inst1Quest1_Note = "You can get the Red Silk Bandanas from miners in the Deadmines or the in the town where the instance is located. The quest becomes available after you complete the The Defias Brotherhood questline up to the part where you have to kill Edwin VanCleef."
-Inst1Quest1_Prequest = "Yes (see Note)"
+Inst1Quest1 = "1. The Foreman"
+Inst1Quest1_Level = "16"
+Inst1Quest1_Attain = "15"
+Inst1Quest1_Aim = "Kill Glubtok."
+Inst1Quest1_Location = "Lieutenant Horatio Laine (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest1_Note = "Glubtok is the first boss, located at "..YELLOW.."[1]"..WHITE.."."
+Inst1Quest1_Prequest = "None"
 Inst1Quest1_Folgequest = "None"
-Inst1Quest1PreQuest = "true"
---
-Inst1Quest1name1 = "Solid Shortblade"
-Inst1Quest1name2 = "Scrimshaw Dagger"
-Inst1Quest1name3 = "Piercing Axe"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst1Quest2 = "2. Collecting Memories"
-Inst1Quest2_Level = "18"
-Inst1Quest2_Attain = "14"
-Inst1Quest2_Aim = "Retrieve 4 Miners' Union Cards and return them to Wilder Thistlenettle in Stormwind."
-Inst1Quest2_Location = "Wilder Thistlenettle (Stormwind - Dwarven District; "..YELLOW.."70.3, 40.8"..WHITE..")"
-Inst1Quest2_Note = "The cards drop off undead mobs outside the instance in the area near "..YELLOW.."[3]"..WHITE.." on the Entrance map."
+Inst1Quest2 = "2. The Carpenter"
+Inst1Quest2_Level = "16"
+Inst1Quest2_Attain = "15"
+Inst1Quest2_Aim = "Defeat Helix Gearbreaker."
+Inst1Quest2_Location = "Lieutenant Horatio Laine (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest2_Note = "This quest is also automatically given upon entering the Mast Room in Deadmines.\n\nHelix Gearbreaker is the second boss, located at "..YELLOW.."[2]"..WHITE.."."
 Inst1Quest2_Prequest = "None"
 Inst1Quest2_Folgequest = "None"
---
-Inst1Quest2name1 = "Tunneler's Boots"
-Inst1Quest2name2 = "Dusty Mining Gloves"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst1Quest3 = "3. Oh Brother. . ."
-Inst1Quest3_Level = "20"
+Inst1Quest3 = "3. The Machination"
+Inst1Quest3_Level = "16"
 Inst1Quest3_Attain = "15"
-Inst1Quest3_Aim = "Bring Foreman Thistlenettle's Explorers' League Badge to Wilder Thistlenettle in Stormwind."
-Inst1Quest3_Location = "Wilder Thistlenettle (Stormwind - Dwarven District; "..YELLOW.."70.3, 40.8"..WHITE..")"
-Inst1Quest3_Note = "Foreman Thistlenettle is found outside the instance in the undead area at "..YELLOW.."[3]"..WHITE.." on the Entrance map."
+Inst1Quest3_Aim = "Destroy the Foe Reaper 5000."
+Inst1Quest3_Location = "Lieutenant Horatio Laine (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest3_Note = "This quest is also automatically given upon entering the Goblin Foundary in Deadmines.\n\nHelix Gearbreaker is the second boss, located at "..YELLOW.."[3]"..WHITE.."."
 Inst1Quest3_Prequest = "None"
 Inst1Quest3_Folgequest = "None"
---
-Inst1Quest3name1 = "Miner's Revenge"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst1Quest4 = "4. Underground Assault"
-Inst1Quest4_Level = "20"
+Inst1Quest4 = "4. The Admiral"
+Inst1Quest4_Level = "16"
 Inst1Quest4_Attain = "15"
-Inst1Quest4_Aim = "Retrieve the Gnoam Sprecklesprocket from the Deadmines and return it to Shoni the Shilent in Stormwind."
-Inst1Quest4_Location = "Shoni the Silent (Stormwind - Dwarven District; "..YELLOW.."62.6, 34.1"..WHITE..")"
-Inst1Quest4_Note = "The prequest can be obtained from Gnoarn (Ironforge - Tinkertown; "..YELLOW.."69,50"..WHITE..").\nSneed's Shredder drops the Sprecklesprocket "..YELLOW.."[3]"..WHITE.."."
-Inst1Quest4_Prequest = "Speak with Shoni"
-Inst1Quest4_Folgequest = "None"
-Inst1Quest4PreQuest = "true"
---
-Inst1Quest4name1 = "Polar Gauntlets"
-Inst1Quest4name2 = "Sable Wand"
+Inst1Quest4_Aim = "Kill Admiral Ripsnarl."
+Inst1Quest4_Location = "Lieutenant Horatio Laine (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest4_Note = "This quest is also automatically given upon entering the Ironclad Cove in Deadmines.\n\nAdmiral Ripsnarl is the third boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest4_Prequest = "None"
+Inst1Quest4_Folgequest = "The Defias Kingpin"
+-- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst1Quest5 = "5. The Defias Brotherhood"
-Inst1Quest5_Level = "22"
-Inst1Quest5_Attain = "14"
-Inst1Quest5_Aim = "Kill Edwin VanCleef and bring his head to Gryan Stoutmantle."
-Inst1Quest5_Location = "Gryan Stoutmantle (Westfall - Sentinel Hill; "..YELLOW.."56,47"..WHITE..")"
-Inst1Quest5_Note = "You start this Questline at Gryan Stoutmantle (Westfall - Sentinel Hill; "..YELLOW.."56,47"..WHITE..").\nEdwin VanCleef is the last boss of The Deadmines. You can find him at the top of his ship "..YELLOW.."[6]"..WHITE.."."
-Inst1Quest5_Prequest = "The Defias Brotherhood."
+Inst1Quest5 = "5. The Defias Kingpin"
+Inst1Quest5_Level = "17"
+Inst1Quest5_Attain = "15"
+Inst1Quest5_Aim = "Kill the Defias Kingpin."
+Inst1Quest5_Location = "Lieutenant Horatio Laine (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest5_Note = "This quest is also automatically given upon entering the Mastroom in Deadmines.\n\n'Captain' Cookie is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest5_Prequest = "The Admiral"
 Inst1Quest5_Folgequest = "None"
-Inst1Quest5PreQuest = "true"
+Inst1Quest5FQuest = "true"
 --
-Inst1Quest5name1 = "Chausses of Westfall"
-Inst1Quest5name2 = "Tunic of Westfall"
-Inst1Quest5name3 = "Staff of Westfall"
+Inst1Quest5name1 = "Cookie's Meat Mallet"
+Inst1Quest5name2 = "Cookie's Stirring Stick"
+Inst1Quest5name3 = "Cookie's Table Cloth"
 
---Quest 6 Alliance
-Inst1Quest6 = "6. The Test of Righteousness (Paladin)"
-Inst1Quest6_Level = "22"
-Inst1Quest6_Attain = "20"
-Inst1Quest6_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
-Inst1Quest6_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
-Inst1Quest6_Note = "To see the note click on "..YELLOW.."[The Test of Righteousness Information]"..WHITE.."."
-Inst1Quest6_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE.." near "..YELLOW.."[3]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." at "..YELLOW.."[3]"..WHITE..".\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
-Inst1Quest6_Prequest = "The Tome of Valor -> The Test of Righteousness"
-Inst1Quest6_Folgequest = "The Test of Righteousness"
-Inst1Quest6PreQuest = "true"
---
-Inst1Quest6name1 = "Verigan's Fist"
 
---Quest 7 Alliance
-Inst1Quest7 = "7. The Unsent Letter"
-Inst1Quest7_Level = "22"
-Inst1Quest7_Attain = "16"
-Inst1Quest7_Aim = "Deliver the Letter to the City Architect to Baros Alexston in Stormwind."
-Inst1Quest7_Location = "An Unsent Letter (drops from Edwin VanCleef; "..YELLOW.."[6]"..WHITE..")"
-Inst1Quest7_Note = "Baros Alexston is in Stormwind City, next to the Cathedral of Light at "..YELLOW.."57.7, 47.9"..WHITE.."."
-Inst1Quest7_Prequest = "None"
-Inst1Quest7_Folgequest = "Bazil Thredd"
+--Quest 1 Horde
+Inst1Quest1_HORDE = "1. Only the Beginning"
+Inst1Quest1_HORDE_Level = "16"
+Inst1Quest1_HORDE_Attain = "15"
+Inst1Quest1_HORDE_Aim = "Kill Glubtok."
+Inst1Quest1_HORDE_Location = "Kagtha (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest1_HORDE_Note = "Glubtok is the first boss, located at "..YELLOW.."[1]"..WHITE.."."
+Inst1Quest1_HORDE_Prequest = "None"
+Inst1Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
+
+--Quest 2 Horde
+Inst1Quest2_HORDE = "2. Traitors!!!"
+Inst1Quest2_HORDE_Level = "16"
+Inst1Quest2_HORDE_Attain = "15"
+Inst1Quest2_HORDE_Aim = "Defeat Helix Gearbreaker."
+Inst1Quest2_HORDE_Location = "Kagtha (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest2_HORDE_Note = "This quest is also automatically given upon entering the Mast Room in Deadmines.\n\nHelix Gearbreaker is the second boss, located at "..YELLOW.."[2]"..WHITE.."."
+Inst1Quest2_HORDE_Prequest = "None"
+Inst1Quest2_HORDE_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst1Quest3_HORDE = "3. Not Quite There"
+Inst1Quest3_HORDE_Level = "16"
+Inst1Quest3_HORDE_Attain = "15"
+Inst1Quest3_HORDE_Aim = "Destroy the Foe Reaper 5000."
+Inst1Quest3_HORDE_Location = "Kagtha (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest3_HORDE_Note = "This quest is also automatically given upon entering the Goblin Foundary in Deadmines.\n\nHelix Gearbreaker is the second boss, located at "..YELLOW.."[3]"..WHITE.."."
+Inst1Quest3_HORDE_Prequest = "None"
+Inst1Quest3_HORDE_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst1Quest4_HORDE = "4.Good Intentions...Poor Execution"
+Inst1Quest4_HORDE_Level = "16"
+Inst1Quest4_HORDE_Attain = "15"
+Inst1Quest4_HORDE_Aim = "Kill Admiral Ripsnarl."
+Inst1Quest4_HORDE_Location = "Kagtha (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest4_HORDE_Note = "This quest is also automatically given upon entering the Ironclad Cove in Deadmines.\n\nAdmiral Ripsnarl is the third boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest4_HORDE_Prequest = "None"
+Inst1Quest4_HORDE_Folgequest = "The Defias Kingpin"
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst1Quest5_HORDE = "5. The Defias Kingpin"
+Inst1Quest5_HORDE_Level = "17"
+Inst1Quest5_HORDE_Attain = "15"
+Inst1Quest5_HORDE_Aim = "Kill the Defias Kingpin."
+Inst1Quest5_HORDE_Location = "Kagtha (The Deadmines; "..GREEN.."1'"..WHITE..")"
+Inst1Quest5_HORDE_Note = "This quest is also automatically given upon entering the Mastroom in Deadmines.\n\n'Captain' Cookie is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest5_HORDE_Prequest = "The Admiral"
+Inst1Quest5_HORDE_Folgequest = "None"
+Inst1Quest5FQuest_HORDE = "true"
+--
+Inst1Quest5name1_HORDE = "Cookie's Meat Mallet"
+Inst1Quest5name2_HORDE = "Cookie's Stirring Stick"
+Inst1Quest5name3_HORDE = "Cookie's Table Cloth"
 
 
 

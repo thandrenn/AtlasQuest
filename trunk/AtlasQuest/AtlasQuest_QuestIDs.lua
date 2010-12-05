@@ -50,23 +50,29 @@ for the purpose of quest links helps with that.
 
 --------------- INST1 - Deadmines (VC) ---------------
 
-Inst1Quest1_QuestID = "214"
-Inst1Quest2_QuestID = "168"
-Inst1Quest3_QuestID = "167"
-Inst1Quest4_QuestID = "2040"
-Inst1Quest5_QuestID = "166"
-Inst1Quest6_QuestID = "1654"
-Inst1Quest7_QuestID = "373"
+Inst1Quest1_QuestID = "27756"
+Inst1Quest2_QuestID = "27758"
+Inst1Quest3_QuestID = "27781"
+Inst1Quest4_QuestID = "27785"
+Inst1Quest5_QuestID = "27790"
+
+Inst1Quest1_HORDE_QuestID = "27842"
+Inst1Quest2_HORDE_QuestID = "27844"
+Inst1Quest3_HORDE_QuestID = "27847"
+Inst1Quest4_HORDE_QuestID = "27848"
+Inst1Quest5_HORDE_QuestID = "27850"
 
 
-AQ_214_Level = "17"
-AQ_168_Level = "18"
-AQ_167_Level = "20"
-AQ_2040_Level = "20"
-AQ_166_Level = "22"
-AQ_1654_Level = "22"
-AQ_373_Level = "22"
-
+AQ_27756_Level = "16"
+AQ_27758_Level = "16"
+AQ_27781_Level = "16"
+AQ_27785_Level = "16"
+AQ_27790_Level = "17"
+AQ_27842_Level = "16"
+AQ_27844_Level = "16"
+AQ_27847_Level = "16"
+AQ_27848_Level = "16"
+AQ_27850_Level = "17"
 
 
 --------------- INST2 - Wailing Caverns (WC) ---------------
