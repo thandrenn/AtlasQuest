@@ -18,14 +18,14 @@
 ## X-Author-Server: Echo Isles
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
-## X-Category: MYADDONS_CATEGORY_MAP
+## X-Category: Map
 ## X-License: GPLv2
-## X-Credits: AtlasQuest Team Present & Past
-## X-Localizations: enEN, deDE, koKR, zhCN, zhTW, ruRU
+## X-Credits: AtlasQuest Team Past & Present
+## X-Localizations: enUS, deDE, ruRU, zhCN, zhTW
 ## X-Date: Deecember 5, 2010
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: 
-## OptionalDeps: Atlas, AlphaMap, myAddOns
+## OptionalDeps: Atlas, AlphaMap
 ## LoadOnDemand: 0
 ## SavedVariablesPerCharacter:
 ## SavedVariables: AtlasQuest_Options,

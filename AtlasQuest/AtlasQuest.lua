@@ -54,6 +54,8 @@ local Blau = "|cff0070dd"
 
 local Initialized = nil; -- the variables are not loaded yet
 
+LibStub("LibAboutPanel").new(parentframe, "AtlasQuest")
+
 Allianceorhorde = 1; -- variable that configures whether horde or allianz is shown
 
 AQINSTANZ = 1; -- currently shown instance-pic (see AtlasQuest_Instanzen.lua)

@@ -59,66 +59,59 @@ local Itemc8 = "|cffFFd200" --ingame yellow
 --------------- INST1 - Deadmines (VC) ---------------
 
 --Quest 1 Alliance
-Inst1Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
---ITEM1
-Inst1Quest1ITC1 = Itemc3;
-Inst1Quest1description1 = AQITEM_ONEHAND..AQITEM_SWORD
-Inst1Quest1ID1 = "2074"
---ITEM2
-Inst1Quest1ITC2 = Itemc3;
-Inst1Quest1description2 = AQITEM_ONEHAND..AQITEM_DAGGER
-Inst1Quest1ID2 = "2089"
---ITEM3
-Inst1Quest1ITC3 = Itemc3;
-Inst1Quest1description3 = AQITEM_TWOHAND..AQITEM_AXE
-Inst1Quest1ID3 = "6094"
+Inst1Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst1Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
---ITEM1
-Inst1Quest2ITC1 = Itemc3;
-Inst1Quest2description1 = AQITEM_FEET..AQITEM_MAIL
-Inst1Quest2ID1 = "2037"
---ITEM2
-Inst1Quest2ITC2 = Itemc3;
-Inst1Quest2description2 = AQITEM_HANDS..AQITEM_LEATHER
-Inst1Quest2ID2 = "2036"
+Inst1Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst1Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst1Quest3ITC1 = Itemc3;
-Inst1Quest3description1 = AQITEM_TWOHAND..AQITEM_AXE
-Inst1Quest3ID1 = "1893"
+Inst1Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst1Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
---ITEM1
-Inst1Quest4ITC1 = Itemc3;
-Inst1Quest4description1 = AQITEM_HANDS..AQITEM_MAIL
-Inst1Quest4ID1 = "7606"
---ITEM2
-Inst1Quest4ITC2 = Itemc3;
-Inst1Quest4description2 = AQITEM_WAND
-Inst1Quest4ID2 = "7607"
+Inst1Quest4Rewardtext = AQNoReward
 
 --Quest 5 Alliance
-Inst1Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst1Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
 Inst1Quest5ITC1 = Itemc4;
-Inst1Quest5description1 = AQITEM_LEGS..AQITEM_MAIL
-Inst1Quest5ID1 = "6087"
+Inst1Quest5description1 = AQITEM_ONEHAND..AQITEM_MACE
+Inst1Quest5ID1 = "65935"
 --ITEM2
 Inst1Quest5ITC2 = Itemc4;
-Inst1Quest5description2 = AQITEM_CHEST..AQITEM_LEATHER
-Inst1Quest5ID2 = "2041"
+Inst1Quest5description2 = AQITEM_WAND
+Inst1Quest5ID2 = "65959"
 --ITEM3
 Inst1Quest5ITC3 = Itemc4;
-Inst1Quest5description3 = AQITEM_STAFF
-Inst1Quest5ID3 = "2042"
+Inst1Quest5description3 = AQITEM_BACK
+Inst1Quest5ID3 = "65983"
 
---Quest 6 Alliance
-Inst1Quest6Rewardtext = AQNoReward
+
+--Quest 1 Horde
+Inst1Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst1Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst1Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst1Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst1Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst1Quest5ITC1_HORDE = Itemc4;
+Inst1Quest5description1_HORDE = AQITEM_ONEHAND..AQITEM_MACE
+Inst1Quest5ID1_HORDE = "66019"
+--ITEM2
+Inst1Quest5ITC2_HORDE = Itemc4;
+Inst1Quest5description2_HORDE = AQITEM_WAND
+Inst1Quest5ID2_HORDE = "66028"
+--ITEM3
+Inst1Quest5ITC3_HORDE = Itemc4;
+Inst1Quest5description3_HORDE = AQITEM_BACK
+Inst1Quest5ID3_HORDE = "66037"
 
 
 
