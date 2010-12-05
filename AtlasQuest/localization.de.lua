@@ -93,6 +93,7 @@ AQERRORASKSERVER = "Klicke rechts um den Server nach \ndiesem Gegenstand abzufra
 AQOptionB = "Optionen"
 AQStoryB = "Geschichte"
 AQNoReward = ""..BLUE.." Keine Belohnung"
+AQLKRaidWeekly = ""..BLUE.." Reward: "..WHITE.."138 Gerechtigkeitspunkte"
 AQDiscription_OR = ""..GREY.." oder "..WHITE..""
 AQDiscription_AND = ""..GREY.." und "..WHITE..""
 AQDiscription_REWARD = ""..BLUE.." Belohnung: "
@@ -181,88 +182,127 @@ Inst36QAH = "Keine Quests"
 
 Inst1Story = "Die Todesminen, einst die wichtigste Goldquelle der Menschen, wurden aufgegeben, als die Horde Sturmwind während des Ersten Krieges in Schutt und Asche legte. Nun hat sich die Defias-Bruderschaft in den verlassenen Minen niedergelassen und die dunklen Schächte in ihre eigene unterirdische Festung verwandelt. Gerüchten zufolge sollen die Diebe die gewitzten Goblins angeheuert haben, um tief in den Minen etwas Fürchterliches zu konstruieren, doch welche Teufelei dies konkret sein soll, ist nicht bekannt. Der Zugang zu den Todesminen liegt inmitten des ruhigen, unscheinbaren Dorfes Mondbruch."
 Inst1Caption = "Die Todesminen"
-Inst1QAA = "6 Quests"
-Inst1QAH = "Keine Quests"
+Inst1QAA = "5 Quests"
+Inst1QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst1Quest1 = "1. Rote Seidenkopftücher"
-Inst1Quest1_Level = "17"
-Inst1Quest1_Attain = "14"
-Inst1Quest1_Aim = "Späherin Riell am Turm auf der Späherkuppe möchte, dass Ihr ihr 10 rote Seidenkopftücher bringt."
-Inst1Quest1_Location = "Späherin Riell (Westfall - Späherkuppe; "..YELLOW.."56,47"..WHITE..")"
-Inst1Quest1_Note = "Man bekommt die Kopftücher von den Arbeitern in den Todesminen und kurz vor dem Eingang. Die Quest wird verfügbar, sobald du die Defias-Bruderschaft-Questreihe soweit beendet hast, dass du Edwin van Cleef töten musst."
-Inst1Quest1_Prequest = "Ja (siehe Information)"
+Inst1Quest1 = "1. Der Vorarbeiter"
+Inst1Quest1_Level = "16"
+Inst1Quest1_Attain = "15"
+Inst1Quest1_Aim = "Tötet Glubtok."
+Inst1Quest1_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."1'"..WHITE..")"
+Inst1Quest1_Note = "Glubtok ist der erste Boss, befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst1Quest1_Prequest = "Nein"
 Inst1Quest1_Folgequest = "Nein"
-Inst1Quest1PreQuest = "true"
---
-Inst1Quest1name1 = "Robuste Kurzklinge"
-Inst1Quest1name2 = "Kunstvoll geschnitzter Dolch"
-Inst1Quest1name3 = "Durchstechende Axt"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst1Quest2 = "2. Die Suche nach Andenken"
-Inst1Quest2_Level = "18"
-Inst1Quest2_Attain = "14"
-Inst1Quest2_Aim = "Beschafft 4 Gewerkschaftsausweise und bringt sie nach Sturmwind zu Wilder Distelklette."
-Inst1Quest2_Location = "Wilder Distelklette (Sturmwind - Zwergendistrikt; "..YELLOW.."70.3, 40.8"..WHITE..")"
-Inst1Quest2_Note = "Die Ausweise gibt es von den Untoten vor der Instanz in der Nähe von "..YELLOW.."[3]"..WHITE.." auf der Eingangskarte."
+Inst1Quest2 = "2. Der Zimmermann"
+Inst1Quest2_Level = "16"
+Inst1Quest2_Attain = "15"
+Inst1Quest2_Aim = "Besiegt Helix Ritzelbrecher."
+Inst1Quest2_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."1'"..WHITE..")"
+Inst1Quest2_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr den Mastraum in den Todesminen betreten habt.\n\nHelix Ritzelbrecher ist der zweite Boss, befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst1Quest2_Prequest = "Nein"
 Inst1Quest2_Folgequest = "Nein"
---
-Inst1Quest2name1 = "Stiefel des Tunnelgräbers"
-Inst1Quest2name2 = "Verstaubte Bergbauhandschuhe"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst1Quest3 = "3. Oh Bruder..."
-Inst1Quest3_Level = "20"
+Inst1Quest3 = "3. Die Maschinerie"
+Inst1Quest3_Level = "16"
 Inst1Quest3_Attain = "15"
-Inst1Quest3_Aim = "Bringt Großknecht Distelklettes Abzeichen der Forscherliga nach Sturmwind zu Wilder Distelklette."
-Inst1Quest3_Location = "Wilder Distelklette (Sturmwind - Zwergendistrikt; "..YELLOW.."70.3, 40.8"..WHITE..")"
-Inst1Quest3_Note = "Großknecht Distelklette befindet sich vor der Instanz in der Nähe von "..YELLOW.."[3]"..WHITE.." auf der Eingangskarte."
+Inst1Quest3_Aim = "Zerstört den Feindschnitter 5000."
+Inst1Quest3_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."1'"..WHITE..")"
+Inst1Quest3_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die Goblin-Gießerei in den Todesminen betreten habt.\n\nHelix Ritzelbrecher ist der zweite Boss, befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst1Quest3_Prequest = "Nein"
 Inst1Quest3_Folgequest = "Nein"
---
-Inst1Quest3name1 = "Rächer des Minenarbeiters"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst1Quest4 = "4. Unterirdischer Angriff"
-Inst1Quest4_Level = "20"
+Inst1Quest4 = "4. Der Admiral"
+Inst1Quest4_Level = "16"
 Inst1Quest4_Attain = "15"
-Inst1Quest4_Aim = "Holt das Gnoamsprenkelspross aus den Todesminen und bringt es Shoni der Schtillen in Sturmwind."
-Inst1Quest4_Location = "Shoni die Schtille (Sturmwind - Zwergendistrikt; "..YELLOW.."62.6, 34.1"..WHITE..")"
-Inst1Quest4_Note = "Die Vorquest bekommt man von Gnoarn (Eisenschmiede - Tüftlerstadt; "..YELLOW.."69,50"..WHITE..").\nSneeds Schredder dropt das Gnoamsprenkelspross "..YELLOW.."[3]"..WHITE.."."
-Inst1Quest4_Prequest = "Ja, Sprecht mit Shoni"
-Inst1Quest4_Folgequest = "Nein"
-Inst1Quest4PreQuest = "true"
---
-Inst1Quest4name1 = "Polarstulpen"
-Inst1Quest4name2 = "Düsterer Zauberstab"
+Inst1Quest4_Aim = "Tötet Admiral Knurrreißer."
+Inst1Quest4_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."1'"..WHITE..")"
+Inst1Quest4_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die gepanzerte Bucht in den Todesminen betreten habt.\n\nAdmiral Knurrreißer ist der dritte Boss, befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest4_Prequest = "Nein"
+Inst1Quest4_Folgequest = "Ja, Die Nummer Eins der Defias"
+-- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst1Quest5 = "5. Die Bruderschaft der Defias"
-Inst1Quest5_Level = "22"
-Inst1Quest5_Attain = "14"
-Inst1Quest5_Aim = "Tötet Edwin van Cleef und bringt seinen Kopf zu Gryan Starkmantel."
-Inst1Quest5_Location = "Gryan Starkmantel (Westfall - Späherkuppe; "..YELLOW.."56,47"..WHITE..")"
-Inst1Quest5_Note = "Diese Questreihe beginnt bei Gryan Starkmantel (Westfall; 56,47).\nEdwin van Cleef ist der Endboss in den Todesminen. Man findet ihn oben auf seinem Schiff "..YELLOW.."[6]"..WHITE.."."
-Inst1Quest5_Prequest = "Ja, Die Bruderschaft der Defias"
-Inst1Quest5_Folgequest = "Ja, Der nie verschickte Brief"
+Inst1Quest5 = "5. Die Nummer Eins der Defias"
+Inst1Quest5_Level = "17"
+Inst1Quest5_Attain = "15"
+Inst1Quest5_Aim = "Töter die Nummer Eins der Defias."
+Inst1Quest5_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."1'"..WHITE..")"
+Inst1Quest5_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr den Mastraum in den Todesminen betreten habt.\n\n'Kapitän' Krümel ist der finale Endboss, befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest5_Prequest = "Ja, Der Admiral"
+Inst1Quest5_Folgequest = "Nein"
 Inst1Quest5PreQuest = "true"
 --
-Inst1Quest5name1 = "Galoschen von Westfall"
-Inst1Quest5name2 = "Tunika von Westfall"
-Inst1Quest5name3 = "Stab von Westfall"
+Inst1Quest5name1 = "Krümels Fleischklopfer"
+Inst1Quest5name2 = "Krümels Rührstab"
+Inst1Quest5name3 = "Krümels Tischdecke"
 
---Quest 6 Alliance
-Inst1Quest6 = "6. Der nie verschickte Brief"
-Inst1Quest6_Level = "22"
-Inst1Quest6_Attain = "16"
-Inst1Quest6_Aim = "Bringt den Brief nach Sturmwind zum Stadtarchitekten Baros Alexston."
-Inst1Quest6_Location = "Ein nie abgeschickter Brief (droppt von Edwin van Cleef "..YELLOW.."[6]"..WHITE..")"
-Inst1Quest6_Note = "Baros Alexston befindet sich in Sturmwind, neben der Kathedrale des Lichts bei "..YELLOW.."57.7, 47.9"..WHITE.."."
-Inst1Quest6_Prequest = "Nein"
-Inst1Quest6_Folgequest = "Ja, Bazil Thredd"
+
+--Quest 1 Horde
+Inst1Quest1_HORDE = "1. Nur der Anfang"
+Inst1Quest1_HORDE_Level = "16"
+Inst1Quest1_HORDE_Attain = "15"
+Inst1Quest1_HORDE_Aim = "Tötet Glubtok."
+Inst1Quest1_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."1'"..WHITE..")"
+Inst1Quest1_HORDE_Note = "Glubtok ist der erste Boss, befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst1Quest1_HORDE_Prequest = "Nein"
+Inst1Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 2 Horde
+Inst1Quest2_HORDE = "2. Verräter!!!"
+Inst1Quest2_HORDE_Level = "16"
+Inst1Quest2_HORDE_Attain = "15"
+Inst1Quest2_HORDE_Aim = "Besiegt Helix Ritzelbrecher."
+Inst1Quest2_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."1'"..WHITE..")"
+Inst1Quest2_HORDE_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr den Mastraum in den Todesminen betreten habt.\n\nHelix Ritzelbrecher ist der zweite Boss, befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst1Quest2_HORDE_Prequest = "Nein"
+Inst1Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst1Quest3_HORDE = "3. Not Quite There"
+Inst1Quest3_HORDE_Level = "16"
+Inst1Quest3_HORDE_Attain = "15"
+Inst1Quest3_HORDE_Aim = "Zerstört den Feindschnitter 5000."
+Inst1Quest3_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."1'"..WHITE..")"
+Inst1Quest3_HORDE_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr den Mastraum in den Todesminen betreten habt.\n\nHelix Ritzelbrecher ist der zweite Boss, befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst1Quest3_HORDE_Prequest = "Nein"
+Inst1Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst1Quest4_HORDE = "4.Gute Absicht...Schlechte Ausführung"
+Inst1Quest4_HORDE_Level = "16"
+Inst1Quest4_HORDE_Attain = "15"
+Inst1Quest4_HORDE_Aim = "Tötet Admiral Knurrreißer."
+Inst1Quest4_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."1'"..WHITE..")"
+Inst1Quest4_HORDE_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die gepanzerte Bucht in den Todesminen betreten habt.\n\nAdmiral Knurrreißer ist der dritte Boss, befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest4_HORDE_Prequest = "Nein"
+Inst1Quest4_HORDE_Folgequest = "Ja, Die Nummer Eins der Defias"
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst1Quest5_HORDE = "5. Die Nummer Eins der Defias"
+Inst1Quest5_HORDE_Level = "17"
+Inst1Quest5_HORDE_Attain = "15"
+Inst1Quest5_HORDE_Aim = "Töter die Nummer Eins der Defias."
+Inst1Quest5_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."1'"..WHITE..")"
+Inst1Quest5_HORDE_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr den Mastraum in den Todesminen betreten habt.\n\n'Kapitän' Krümel ist der finale Endboss, befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest5_HORDE_Prequest = "Ja, Gute Absicht...Schlechte Ausführung"
+Inst1Quest5_HORDE_Folgequest = "Nein"
+Inst1Quest5FQuest_HORDE = "true"
+--
+Inst1Quest5name1_HORDE = "Krümels Fleischklopfer"
+Inst1Quest5name2_HORDE = "Krümels Rührstab"
+Inst1Quest5name3_HORDE = "Krümels Tischdecke" 
 
 
 
@@ -9570,8 +9610,7 @@ Inst74Quest3_Note = "Malygos ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöch
 Inst74Quest3_Prequest = "Nein"
 Inst74Quest3_Folgequest = "Nein"
 --
-Inst74Quest3name1 = "Emblem des Frosts"
-Inst74Quest3name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9909,8 +9948,7 @@ Inst79Quest1_Note = "Sartharion ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese wö
 Inst79Quest1_Prequest = "Nein"
 Inst79Quest1_Folgequest = "Nein"
 --
-Inst79Quest1name1 = "Emblem des Frosts"
-Inst79Quest1name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde (same as Quest 1 Alliance)
@@ -9923,8 +9961,7 @@ Inst79Quest1_HORDE_Note = Inst79Quest1_Note
 Inst79Quest1_HORDE_Prequest = Inst79Quest1_Prequest
 Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
 --
-Inst79Quest1name1_HORDE = Inst79Quest1name1
-Inst79Quest1name2_HORDE = Inst79Quest1name2
+-- Preis Gerechtigkeitspunkte.
 
 
 
@@ -10249,8 +10286,7 @@ Inst84Quest3_Note = "Anub'Rekhan ist bei "..YELLOW.."Spinnenviertel [1]"..WHITE.
 Inst84Quest3_Prequest = "Nein"
 Inst84Quest3_Folgequest = "Nein"
 --
-Inst84Quest3name1 = "Emblem des Frosts"
-Inst84Quest3name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 4 Alliance
 Inst84Quest4 = "4. Instrukteur Razuvious muss sterben! (Wöchentlich)"
@@ -10262,8 +10298,7 @@ Inst84Quest4_Note = "Instrukteur Razuvious ist bei "..YELLOW.."Militärviertel [
 Inst84Quest4_Prequest = "Nein"
 Inst84Quest4_Folgequest = "Nein"
 --
-Inst84Quest4name1 = "Emblem of Frost"
-Inst84Quest4name2 = "Emblem of Triumph"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 5 Alliance
 Inst84Quest5 = "5. Noth der Seuchenfürst muss sterben! (Wöchentlich)"
@@ -10275,8 +10310,7 @@ Inst84Quest5_Note = "Noth der Seuchenfürst ist bei "..YELLOW.."Seuchenviertel [
 Inst84Quest5_Prequest = "Nein"
 Inst84Quest5_Folgequest = "Nein"
 --
-Inst84Quest5name1 = "Emblem des Frosts"
-Inst84Quest5name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 6 Alliance
 Inst84Quest6 = "6. Flickwerk muss sterben! (Wöchentlich)"
@@ -10288,8 +10322,7 @@ Inst84Quest6_Note = "Flickwerk ist bei "..YELLOW.."Konstruktviertel [1]"..WHITE.
 Inst84Quest6_Prequest = "Nein"
 Inst84Quest6_Folgequest = "Nein"
 --
-Inst84Quest6name1 = "Emblem des Frosts"
-Inst84Quest6name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10326,8 +10359,7 @@ Inst84Quest3_HORDE_Note = Inst84Quest3_Note
 Inst84Quest3_HORDE_Prequest = Inst84Quest3_Prequest
 Inst84Quest3_HORDE_Folgequest = Inst84Quest3_Folgequest
 --
-Inst84Quest3name1_HORDE = Inst84Quest3name1
-Inst84Quest3name2_HORDE = Inst84Quest3name2
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 4 Horde (same as Quest 4 Alliance)
 Inst84Quest4_HORDE = Inst84Quest4
@@ -10339,8 +10371,7 @@ Inst84Quest4_HORDE_Note = Inst84Quest4_Note
 Inst84Quest4_HORDE_Prequest = Inst84Quest4_Prequest
 Inst84Quest4_HORDE_Folgequest = Inst84Quest4_Folgequest
 --
-Inst84Quest4name1_HORDE = Inst84Quest4name1
-Inst84Quest4name2_HORDE = Inst84Quest4name2
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 5 Horde (same as Quest 5 Alliance)
 Inst84Quest5_HORDE = Inst84Quest5
@@ -10352,8 +10383,7 @@ Inst84Quest5_HORDE_Note = Inst84Quest5_Note
 Inst84Quest5_HORDE_Prequest = Inst84Quest5_Prequest
 Inst84Quest5_HORDE_Folgequest = Inst84Quest5_Folgequest
 --
-Inst84Quest5name1_HORDE = Inst84Quest5name1
-Inst84Quest5name2_HORDE = Inst84Quest5name2
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 6 Horde (same as Quest 6 Alliance)
 Inst84Quest6_HORDE = Inst84Quest6
@@ -10365,8 +10395,7 @@ Inst84Quest6_HORDE_Note = Inst84Quest6_Note
 Inst84Quest6_HORDE_Prequest = Inst84Quest6_Prequest
 Inst84Quest6_HORDE_Folgequest = Inst84Quest6_Folgequest
 --
-Inst84Quest6name1_HORDE = Inst84Quest6name1
-Inst84Quest6name2_HORDE = Inst84Quest6name2
+-- Preis Gerechtigkeitspunkte.
 
 
 
@@ -10596,8 +10625,7 @@ Inst86Quest17_Note = "Flammenleviathan ist bei "..YELLOW.."Die Belagerung [1]"..
 Inst86Quest17_Prequest = "Nein"
 Inst86Quest17_Folgequest = "Nein"
 --
-Inst86Quest17name1 = "Emblem des Frosts"
-Inst86Quest17name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 18 Alliance
 Inst86Quest18 = "18. Ignis, Meister des Eisenwerks, muss sterben! (Wöchentlich)"
@@ -10609,8 +10637,7 @@ Inst86Quest18_Note = "Ignis der Meister des Eisenwerks is at "..YELLOW.."Die Bel
 Inst86Quest18_Prequest = "Nein"
 Inst86Quest18_Folgequest = "Nein"
 --
-Inst86Quest18name1 = "Emblem des Frosts"
-Inst86Quest18name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 19 Alliance
 Inst86Quest19 = "19. Klingenschuppe muss sterben! (Wöchentlich)"
@@ -10622,8 +10649,7 @@ Inst86Quest19_Note = "Klingenschuppe ist bei "..YELLOW.."Die Belagerung [2]"..WH
 Inst86Quest19_Prequest = "Nein"
 Inst86Quest19_Folgequest = "Nein"
 --
-Inst86Quest19name1 = "Emblem des Frosts"
-Inst86Quest19name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 20 Alliance
 Inst86Quest20 = "20. XT-002 Dekonstruktor muss sterben! (Wöchentlich)"
@@ -10635,8 +10661,7 @@ Inst86Quest20_Note = "XT-002 Dekonstruktor ist bei "..YELLOW.."Die Belagerung [4
 Inst86Quest20_Prequest = "Nein"
 Inst86Quest20_Folgequest = "Nein"
 --
-Inst86Quest20name1 = "Emblem des Frosts"
-Inst86Quest20name2 = "Emblem des Triumphs" 
+-- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10821,8 +10846,7 @@ Inst86Quest15_HORDE_Prequest = Inst86Quest15_Prequest
 Inst86Quest15_HORDE_Folgequest = Inst86Quest15_Folgequest
 Inst86Quest15PreQuest_HORDE = Inst86Quest15PreQuest
 --
-Inst86Quest15name1_HORDE = Inst86Quest15name1
-Inst86Quest15name2_HORDE = Inst86Quest15name2
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 16 Horde  (same as Quest 16 Alliance)
 Inst86Quest16_HORDE = Inst86Quest16
@@ -10849,8 +10873,7 @@ Inst86Quest17_HORDE_Note = Inst86Quest17_Note
 Inst86Quest17_HORDE_Prequest = Inst86Quest17_Prequest
 Inst86Quest17_HORDE_Folgequest = Inst86Quest17_Folgequest
 --
-Inst86Quest17name1_HORDE = Inst86Quest17name1
-Inst86Quest17name2_HORDE = Inst86Quest17name2
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 18 Horde (same as Quest 18 Alliance)
 Inst86Quest18_HORDE = Inst86Quest18
@@ -10862,8 +10885,7 @@ Inst86Quest18_HORDE_Note = Inst86Quest18_Note
 Inst86Quest18_HORDE_Prequest = Inst86Quest18_Prequest
 Inst86Quest18_HORDE_Folgequest = Inst86Quest18_Folgequest
 --
-Inst86Quest18name1_HORDE = Inst86Quest18name1
-Inst86Quest18name2_HORDE = Inst86Quest18name2
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 19 Horde (same as Quest 19 Alliance)
 Inst86Quest19_HORDE = Inst86Quest19
@@ -10875,8 +10897,7 @@ Inst86Quest19_HORDE_Note = Inst86Quest19_Note
 Inst86Quest19_HORDE_Prequest = Inst86Quest19_Prequest
 Inst86Quest19_HORDE_Folgequest = Inst86Quest19_Folgequest
 --
-Inst86Quest19name1_HORDE = Inst86Quest19name1
-Inst86Quest19name2_HORDE = Inst86Quest19name2
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 20 Horde (same as Quest 20 Alliance)
 Inst86Quest20_HORDE = Inst86Quest20
@@ -10888,8 +10909,7 @@ Inst86Quest20_HORDE_Note = Inst86Quest20_Note
 Inst86Quest20_HORDE_Prequest = Inst86Quest20_Prequest
 Inst86Quest20_HORDE_Folgequest = Inst86Quest20_Folgequest
 --
-Inst86Quest20name1_HORDE = Inst86Quest20name1
-Inst86Quest20name2_HORDE = Inst86Quest20name2
+-- Preis Gerechtigkeitspunkte.
 
 
 
@@ -10919,8 +10939,7 @@ Inst88Quest1_Note = "Lord Jaraxxus ist der zweite Boss.\n\nDiese wöchentliche Q
 Inst88Quest1_Prequest = "Nein"
 Inst88Quest1_Folgequest = "Nein"
 --
-Inst88Quest1name1 = "Emblem des Frosts"
-Inst88Quest1name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde (same as Quest 1 Alliance)
@@ -10933,8 +10952,7 @@ Inst88Quest1_HORDE_Note = Inst88Quest1_Note
 Inst88Quest1_HORDE_Prequest = Inst88Quest1_Prequest
 Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
 --
-Inst88Quest1name1_HORDE = Inst88Quest1name1
-Inst88Quest1name2_HORDE = Inst88Quest1name2 
+-- Preis Gerechtigkeitspunkte.
 
 
 
@@ -10966,7 +10984,7 @@ Inst90Quest2_Prequest = "In der eisigen Zitadelle"
 Inst90Quest2_Folgequest = "Die Grube von Saron"
 Inst90Quest2FQuest = "true"
 --
-Inst90Quest2name1 = "Emblem des Frosts"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 3 Alliance
 Inst90Quest3 = "3. Die Klinge tempern"
@@ -11003,7 +11021,7 @@ Inst90Quest2_HORDE_Prequest = "In der eisigen Zitadelle"
 Inst90Quest2_HORDE_Folgequest = "Die Grube von Saron"
 Inst90Quest2FQuest_HORDE = "true"
 --
-Inst90Quest2name1_HORDE = "Emblem des Frosts" 
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 3 Horde
 Inst90Quest3_HORDE = "3. Die Klinge tempern"
@@ -11060,7 +11078,7 @@ Inst91Quest3_Prequest = "Der Pfad zur Zitadelle"
 Inst91Quest3_Folgequest = "Frostgram ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
 Inst91Quest3FQuest = "true"
 --
-Inst91Quest3name1 = "Emblem des Frosts"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 4 Alliance
 Inst91Quest4 = "4. Das Schwert neu schmieden"
@@ -11110,7 +11128,7 @@ Inst91Quest3_HORDE_Prequest = "Der Pfad zur Zitadelle"
 Inst91Quest3_HORDE_Folgequest = "Frostgram ("..YELLOW.."Hallen der Reflexion of Reflection"..WHITE..")"
 Inst91Quest3FQuest_HORDE = "true"
 --
-Inst91Quest3name1_HORDE = "Emblem des Frosts"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 4 Horde
 Inst91Quest4_HORDE = "4. Das Schwert neu schmieden"
@@ -11155,7 +11173,7 @@ Inst92Quest2_Prequest = "Frostgram"
 Inst92Quest2_Folgequest = "Nein"
 Inst92Quest2FQuest = "true"
 --
-Inst92Quest2name1 = "Emblem des Frosts"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 3 Alliance
 Inst92Quest3 = "3. Die Hallen der Reflexion"
@@ -11165,7 +11183,7 @@ Inst92Quest3_Aim = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der 
 Inst92Quest3_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst92Quest3_Note = "Du kannst diese Quest innerhalb der Instanz beenden."
 Inst92Quest3_Prequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
-Inst92Quest3_Folgequest = "Reise zum dien"
+Inst92Quest3_Folgequest = "Reise zum Sonnenbrunnen"
 Inst92Quest3PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11193,7 +11211,7 @@ Inst92Quest2_HORDE_Prequest = "Frostgram"
 Inst92Quest2_HORDE_Folgequest = "Nein"
 Inst92Quest2FQuest_HORDE = "true"
 --
-Inst92Quest2name1_HORDE = "Emblem des Frosts"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 3 Horde
 Inst92Quest3_HORDE = "3. Die Hallen der Reflexion"
@@ -11225,8 +11243,7 @@ Inst93Quest1_Note = "Lord Mark'gar ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese
 Inst93Quest1_Prequest = "Nein"
 Inst93Quest1_Folgequest = "Nein"
 --
-Inst93Quest1name1 = "Emblem des Frosts"
-Inst93Quest1name2 = "Emblem des Triumphs"
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 2 Alliance
 Inst93Quest2 = "2. Die Heiligen und die Verderbten"
@@ -11250,7 +11267,7 @@ Inst93Quest3_Prequest = "Die Heiligen und die Verderbten"
 Inst93Quest3_Folgequest = "Ein Seelenschmaus"
 Inst93Quest3FQuest = "true"
 --
-Inst93Quest8name1 = "Schattenschneide"
+Inst93Quest3name1 = "Schattenschneide"
 
 --Quest 4 Alliance
 Inst93Quest4 = "4. Ein Seelenschmaus"
@@ -11323,7 +11340,7 @@ Inst93Quest9_Prequest = "Der Zersplitterte Thron"
 Inst93Quest9_Folgequest = "Der letzte Standplatz des Lichkönigs"
 Inst93Quest9FQuest = "true"
 --
-Inst93Quest14name1 = "Schattengram"
+Inst93Quest9name1 = "Schattengram"
 
 --Quest 10 Alliance
 Inst93Quest10 = "10. Der letzte Standplatz des Lichkönigs"
@@ -11348,8 +11365,7 @@ Inst93Quest1_HORDE_Note = Inst93Quest1_Note
 Inst93Quest1_HORDE_Prequest = Inst93Quest1_Prequest
 Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
 --
-Inst93Quest1name1_HORDE = Inst93Quest1name1
-Inst93Quest1name2_HORDE = Inst93Quest1name2 
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 2 Horde (same as Quest 2 Alliance)^
 Inst93Quest2_HORDE = Inst93Quest2
@@ -11360,20 +11376,20 @@ Inst93Quest2_HORDE_Location = Inst93Quest2_Location
 Inst93Quest2_HORDE_Note = Inst93Quest2_Note
 Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
 Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
+-- No Rewards for this quest
 
-Inst93Quest2name1_HORDE = Inst93Quest2name1
-
---Quest 3 Horde 
-Inst93Quest3_HORDE = "3. Sicherung des Bollwerks (Zufällig Wöchentlich)"
-Inst93Quest3_HORDE_Level = "80"
-Inst93Quest3_HORDE_Attain = "80"
-Inst93Quest3_HORDE_Aim = "Erledigt den verrottenden Frostriesen."
-Inst93Quest3_HORDE_Location = "Leutnant der Ogrims Hammer (Eiskronenzitadelle; "..GREEN.."[3']"..WHITE..")"
-Inst93Quest3_HORDE_Note = "Wenn diese Quest für Eure Raid-ID verfügbar ist, wir Leutnant der Ogrims Hammer erscheinen nachdem der erste Trashmob, nach dem Tot von Lady Todeswisper, gepullt wurde.\n\nDie verrottenden Frostriesen können auf der Plattform gefudnen werden."
-Inst93Quest3_HORDE_Prequest = "Nein"
-Inst93Quest3_HORDE_Folgequest = "Nein"
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst93Quest3_HORDE = Inst93Quest3
+Inst93Quest3_HORDE_Level = Inst93Quest3_Level
+Inst93Quest3_HORDE_Attain = Inst93Quest3_Attain
+Inst93Quest3_HORDE_Aim = Inst93Quest3_Aim
+Inst93Quest3_HORDE_Location = Inst93Quest3_Location
+Inst93Quest3_HORDE_Note = Inst93Quest3_Note
+Inst93Quest3_HORDE_Prequest = Inst93Quest3_Prequest
+Inst93Quest3_HORDE_Folgequest = Inst93Quest3_Folgequest
+Inst93Quest3_HORDE = Inst93Quest3FQuest
 --
-Inst93Quest3name1_HORDE = "Sack mit frostigen Schätzen"
+Inst93Quest3name1_HORDE = Inst93Quest3name1
 
 --Quest 4 Horde (same as Quest 4 Alliance)
 Inst93Quest4_HORDE = Inst93Quest4
@@ -11382,11 +11398,10 @@ Inst93Quest4_HORDE_Attain = Inst93Quest4_Attain
 Inst93Quest4_HORDE_Aim = Inst93Quest4_Aim
 Inst93Quest4_HORDE_Location = Inst93Quest4_Location
 Inst93Quest4_HORDE_Note = Inst93Quest4_Note
-Inst93Quest4_HORDE_Page = Inst93Quest4_Page
 Inst93Quest4_HORDE_Prequest = Inst93Quest4_Prequest
 Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
---
-Inst93Quest4name1_HORDE = Inst93Quest4name1
+Inst93Quest4FQuest_HORDE = Inst93Quest4FQuest
+-- No Rewards for this quest
 
 --Quest 5 Horde (same as Quest 5 Alliance)
 Inst93Quest5_HORDE = Inst93Quest5
@@ -11397,8 +11412,8 @@ Inst93Quest5_HORDE_Location = Inst93Quest5_Location
 Inst93Quest5_HORDE_Note = Inst93Quest5_Note
 Inst93Quest5_HORDE_Prequest = Inst93Quest5_Prequest
 Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
---
-Inst93Quest5name1_HORDE = Inst93Quest5name1
+Inst93Quest5FQuest_HORDE = Inst93Quest5FQuest
+-- No Rewards for this quest
 
 --Quest 6 Horde (same as Quest 6 Alliance)
 Inst93Quest6_HORDE = Inst93Quest6
@@ -11409,8 +11424,8 @@ Inst93Quest6_HORDE_Location = Inst93Quest6_Location
 Inst93Quest6_HORDE_Note = Inst93Quest6_Note
 Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
 Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
---
-Inst93Quest6name1_HORDE = Inst93Quest6name1
+Inst93Quest6FQuest_HORDE = Inst93Quest6FQuest
+-- No Rewards for this quest
 
 --Quest 7 Horde (same as Quest 7 Alliance)
 Inst93Quest7_HORDE = Inst93Quest7
@@ -11421,6 +11436,8 @@ Inst93Quest7_HORDE_Location = Inst93Quest7_Location
 Inst93Quest7_HORDE_Note = Inst93Quest7_Note
 Inst93Quest7_HORDE_Prequest = Inst93Quest7_Prequest
 Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
+Inst93Quest7FQuest_HORDE = Inst93Quest7FQuest
+-- No Rewards for this quest
 
 --Quest 8 Horde (same as Quest 8 Alliance)
 Inst93Quest8_HORDE = Inst93Quest8
@@ -11432,8 +11449,7 @@ Inst93Quest8_HORDE_Note = Inst93Quest8_Note
 Inst93Quest8_HORDE_Prequest = Inst93Quest8_Prequest
 Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
 Inst93Quest8FQuest_HORDE = Inst93Quest8FQuest
---
-Inst93Quest8name1_HORDE = Inst93Quest8name1
+-- No Rewards for this quest
 
 --Quest 9 Horde (same as Quest 9 Alliance)
 Inst93Quest9_HORDE = Inst93Quest9
@@ -11445,7 +11461,8 @@ Inst93Quest9_HORDE_Note = Inst93Quest9_Note
 Inst93Quest9_HORDE_Prequest = Inst93Quest9_Prequest
 Inst93Quest9_HORDE_Folgequest = Inst93Quest9_Folgequest
 Inst93Quest9FQuest_HORDE = Inst93Quest9FQuest
--- No Rewards for this quest
+--
+Inst93Quest9name1_HORDE = Inst93Quest9name1
 
 --Quest 10 Horde (same as Quest 10 Alliance)
 Inst93Quest10_HORDE = Inst93Quest10
@@ -11502,7 +11519,7 @@ Inst94Quest3_Prequest = "Ärger am Wyrmruhtempel"
 Inst94Quest3_Folgequest = "Nein"
 Inst94Quest3FQuest = "true"
 --
-Inst94Quest3name1 = "Emblem des Frosts"
+-- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11539,7 +11556,106 @@ Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
 Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
 Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 --
-Inst94Quest3name1_HORDE = Inst94Quest3name1
+-- Preis Gerechtigkeitspunkte.
+
+
+
+--------------- INST95 - Blackrock Caverns --------------- 
+
+Inst95Story = ""
+Inst95Caption = "Blackrock Caverns"
+Inst95QAA = "No Quests"
+Inst95QAH = "No Quests"
+
+
+
+--------------- INST96 - Throne of the Tides ---------------
+
+Inst96Story = ""
+Inst96Caption = "Throne of the Tides"
+Inst96QAA = "No Quests"
+Inst96QAH = "No Quests"
+
+
+
+--------------- INST97 - The Stonecore ---------------
+
+Inst97Story = ""
+Inst97Caption = "The Stonecore"
+Inst97QAA = "No Quests"
+Inst97QAH = "No Quests"
+
+
+
+--------------- INST98 - The Vortex Pinacle ---------------
+
+Inst98Story = ""
+Inst98Caption = "The Vortex Pinacle"
+Inst98QAA = "No Quests"
+Inst98QAH = "No Quests"
+
+
+
+--------------- INST99 - Grim Batol ---------------
+
+Inst99Story = ""
+Inst99Caption = "Grim Batol"
+Inst99QAA = "No Quests"
+Inst99QAH = "No Quests"
+
+
+
+--------------- INST100 - Halls of Origination ---------------
+
+Inst100Story = ""
+Inst100Caption = "Halls of Origination"
+Inst100QAA = "No Quests"
+Inst100QAH = "No Quests"
+
+
+
+--------------- INST101 - Lost City of the Tol'vir ---------------
+
+Inst101Story = ""
+Inst101Caption = "Lost City of the Tol'vir"
+Inst101QAA = "No Quests"
+Inst101QAH = "No Quests"
+
+
+
+--------------- INST102 - Blackwing Descent ---------------
+
+Inst102Story = ""
+Inst102Caption = "Blackwing Descent"
+Inst102QAA = "No Quests"
+Inst102QAH = "No Quests"
+
+
+
+--------------- INST103 - The Bastion of Twilight ---------------
+
+Inst103Story = ""
+Inst103Caption = "The Bastion of Twilight"
+Inst103QAA = "No Quests"
+Inst103QAH = "No Quests"
+
+
+
+--------------- INST104 - Throne of the Four Winds ---------------
+
+Inst104Story = ""
+Inst104Caption = "Throne of the Four Winds"
+Inst104QAA = "No Quests"
+Inst104QAH = "No Quests"
+
+
+
+--------------- INST105 - Baradin Hold ---------------
+
+Inst105Story = ""
+Inst105Caption = "Baradin Hold"
+Inst105QAA = "No Quests"
+Inst105QAH = "No Quests"
 
 
 
@@ -11800,6 +11916,24 @@ Inst89Quest1_HORDE_Note = "Diese Quest kann man nur einmal am Tag machen wenn si
 Inst89Quest1_HORDE_Prequest = "Nein" 
 Inst89Quest1_HORDE_Folgequest = "Nein" 
 -- No Rewards for this quest 
+
+
+
+--------------- INST106 - Battle for Gilneas ---------------
+
+Inst106Story = ""
+Inst106Caption = "Battle for Gilneas"
+Inst106QAA = "No Quests"
+Inst106QAH = "No Quests"
+
+
+
+--------------- INST107 - Twin Peaks ---------------
+
+Inst107Story = ""
+Inst107Caption = "Twin Peaks"
+Inst107QAA = "No Quests"
+Inst107QAH = "No Quests" 
 
 
 
@@ -12362,3 +12496,16 @@ end
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC) 
 -- 94 = Ruby Sanctum (RS)
+-- 95 = Blackrock Caverns
+-- 96 = Throne of the Tides
+-- 97 = The Stonecore
+-- 98 = The Vortex Pinacle
+-- 99 = Grim Batol
+-- 100 = Halls of Origination
+-- 101 = Lost City of the Tol'vir
+-- 102 = Blackwing Descent
+-- 103 = The Bastion of Twilight
+-- 104 = Throne of the Four Winds
+-- 105 = Baradin Hold
+-- 106 = Battle for Gilneas
+-- 107 = Twin Peaks 
