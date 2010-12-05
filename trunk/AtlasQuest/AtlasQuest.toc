@@ -13,15 +13,16 @@
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Author: Thandrenn
 ## Original Author: Asurn
-## Updated by: Loather
-## Updated by: Rabidmax
-## Updated by: Thandrenn (aka Mystery8)
-## CLI by: Dazerdude
-## Version: 4.5.0 BETA
+## Version: 4.6.0 ALPHA
+## X-Author-Faction: Alliance
+## X-Author-Server: Echo Isles
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP
-## X-Date: October 8, 2010
+## X-License: GPLv2
+## X-Credits: AtlasQuest Team Present & Past
+## X-Localizations: enEN, deDE, koKR, zhCN, zhTW, ruRU
+## X-Date: Deecember 5, 2010
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: 
 ## OptionalDeps: Atlas, AlphaMap, myAddOns

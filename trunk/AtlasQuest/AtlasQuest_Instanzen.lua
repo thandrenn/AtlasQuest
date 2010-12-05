@@ -92,7 +92,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadowfangKeep") then
 		AQINSTANZ = 21;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Stratholme") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StratholmeCrusader") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StratholmeGauntlet") then
 		AQINSTANZ = 22;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheRuinsofAhnQiraj") then
@@ -278,6 +278,44 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\RubySanctum") then
 		AQINSTANZ = 94;
 
+		
+	-- Cataclysm Instances
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockCaverns") then
+		AQINSTANZ = 95;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneOfTheTides") then
+		AQINSTANZ = 96;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheStonecore") then
+		AQINSTANZ = 97;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheVortexPinnacle") then
+		AQINSTANZ = 98;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GrimBatol") then
+		AQINSTANZ = 99;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HallsOfOrigination") then
+		AQINSTANZ = 100;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\LostCityOfTolvir") then
+		AQINSTANZ = 101;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackwingDescent") then
+		AQINSTANZ = 102;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheBastionOfTwilight") then
+		AQINSTANZ = 103;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneOfTheFourWinds") then
+		AQINSTANZ = 104;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BaradinHold") then
+		AQINSTANZ = 105;
+
+
+
 
 
 	-- Battlegrounds
@@ -302,6 +340,12 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
 		AQINSTANZ = 89;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheBattleForGilneas") then
+		AQINSTANZ = 106;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TwinPeaks") then
+		AQINSTANZ = 107;
 
 
 	-- Outdoor Raids
@@ -748,5 +792,19 @@ end
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC)
 -- 94 = Ruby Sanctum (RS)
+-- 95 = Blackrock Caverns
+-- 96 = Throne of the Tides
+-- 97 = The Stonecore
+-- 98 = The Vortex Pinacle
+-- 99 = Grim Batol
+-- 100 = Halls of Origination
+-- 101 = Lost City of the Tol'vir
+-- 102 = Blackwing Descent
+-- 103 = The Bastion of Twilight
+-- 104 = Throne of the Four Winds
+-- 105 = Baradin Hold
+-- 106 = Battle for Gilneas
+-- 107 = Twin Peaks
+
 
 

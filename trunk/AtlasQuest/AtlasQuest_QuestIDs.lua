@@ -2019,43 +2019,28 @@ AQ_24561_Level = "80"
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
 Inst93Quest1_QuestID = "24590"
-Inst93Quest2_QuestID = "24875"
-Inst93Quest3_QuestID = "24876"
-Inst93Quest4_QuestID = "24878"
-Inst93Quest5_QuestID = "24879"
-Inst93Quest6_QuestID = "24880"
-Inst93Quest7_QuestID = "24545"
-Inst93Quest8_QuestID = "24743"
-Inst93Quest9_QuestID = "24547"
-Inst93Quest10_QuestID = "24749"
-Inst93Quest11_QuestID = "24756"
-Inst93Quest12_QuestID = "24757"
-Inst93Quest13_QuestID = "24548"
-Inst93Quest14_QuestID = "24549"
-Inst93Quest15_QuestID = "24748"
+Inst93Quest2_QuestID = "24545"
+Inst93Quest3_QuestID = "24743"
+Inst93Quest4_QuestID = "24547"
+Inst93Quest5_QuestID = "24749"
+Inst93Quest6_QuestID = "24756"
+Inst93Quest7_QuestID = "24757"
+Inst93Quest8_QuestID = "24548"
+Inst93Quest9_QuestID = "24549"
+Inst93Quest10_QuestID = "24748"
 
 Inst93Quest1_HORDE_QuestID = "24590"
-Inst93Quest2_HORDE_QuestID = "24875"
-Inst93Quest3_HORDE_QuestID = "24877"
-Inst93Quest4_HORDE_QuestID = "24878"
-Inst93Quest5_HORDE_QuestID = "24879"
-Inst93Quest6_HORDE_QuestID = "24880"
-Inst93Quest7_HORDE_QuestID = "24545"
-Inst93Quest8_HORDE_QuestID = "24743"
-Inst93Quest9_HORDE_QuestID = "24547"
-Inst93Quest10_HORDE_QuestID = "24749"
-Inst93Quest11_HORDE_QuestID = "24756"
-Inst93Quest12_HORDE_QuestID = "24757"
-Inst93Quest13_HORDE_QuestID = "24548"
-Inst93Quest14_HORDE_QuestID = "24549"
-Inst93Quest15_HORDE_QuestID = "24748"
+Inst93Quest2_HORDE_QuestID = "24545"
+Inst93Quest3_HORDE_QuestID = "24743"
+Inst93Quest4_HORDE_QuestID = "24547"
+Inst93Quest5_HORDE_QuestID = "24749"
+Inst93Quest6_HORDE_QuestID = "24756"
+Inst93Quest7_HORDE_QuestID = "24757"
+Inst93Quest8_HORDE_QuestID = "24548"
+Inst93Quest9_HORDE_QuestID = "24549"
+Inst93Quest10_HORDE_QuestID = "24748"
 
 AQ_24590_Level = "80"
-AQ_24875_Level = "80"
-AQ_24876_Level = "80"
-AQ_24878_Level = "80"
-AQ_24879_Level = "80"
-AQ_24880_Level = "80"
 AQ_24545_Level = "80"
 AQ_24743_Level = "80"
 AQ_24547_Level = "80"
@@ -2065,7 +2050,6 @@ AQ_24757_Level = "80"
 AQ_24548_Level = "80"
 AQ_24549_Level = "80"
 AQ_24748_Level = "80"
-AQ_24877_Level = "80"
 
 
 
@@ -2082,6 +2066,50 @@ Inst94Quest3_HORDE_QuestID = "26034"
 AQ_26012_Level = "80"
 AQ_26013_Level = "80"
 AQ_26034_Level = "80"
+
+
+
+--------------- INST95 - Blackrock Caverns ---------------
+
+
+
+--------------- INST96 - Throne of the Tides ---------------
+
+
+
+--------------- INST97 - The Stonecore ---------------
+
+
+
+--------------- INST98 - The Vortex Pinacle ---------------
+
+
+
+--------------- INST99 - Grim Batol ---------------
+
+
+
+--------------- INST100 - Halls of Origination ---------------
+
+
+
+--------------- INST101 - Lost City of the Tol'vir ---------------
+
+
+
+--------------- INST102 - Blackwing Descent ---------------
+
+
+
+--------------- INST103 - The Bastion of Twilight ---------------
+
+
+
+--------------- INST104 - Throne of the Four Winds ---------------
+
+
+
+--------------- INST105 - Baradin Hold ---------------
 
 
 
@@ -2242,6 +2270,14 @@ Inst89Quest1_HORDE_QuestID = "14164"
 
 AQ_14163_Level = "-1"
 AQ_14164_Level = "-1"
+
+
+
+--------------- INST106 - Battle for Gilneas ---------------
+
+
+
+--------------- INST107 - Twin Peaks ---------------
 
 
 
