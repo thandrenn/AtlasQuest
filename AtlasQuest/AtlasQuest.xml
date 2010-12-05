@@ -1325,7 +1325,7 @@
        AQ_OnShow();
      </OnShow>
      <OnEvent>
-        AtlasQuest_OnEvent();
+        AtlasQuest_OnEvent(self,event,...);
      </OnEvent>
   </Scripts>
 </Frame>

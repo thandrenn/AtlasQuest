@@ -84,6 +84,7 @@ AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be 
 AQOptionB = "Options"
 AQStoryB = "Story"
 AQNoReward = ""..BLUE.." No Rewards"
+AQLKRaidWeekly = ""..BLUE.." Reward: "..WHITE.."138 Justice Points"
 AQDiscription_OR = ""..GREY.." or "..WHITE..""
 AQDiscription_AND = ""..GREY.." and "..WHITE..""
 AQDiscription_REWARD = ""..BLUE.." Reward: "
@@ -10092,8 +10093,7 @@ Inst74Quest3_Note = "Malygos is at "..YELLOW.." [1]"..WHITE..".\n\nRaid Weekly q
 Inst74Quest3_Prequest = "None"
 Inst74Quest3_Folgequest = "None"
 --
-Inst74Quest3name1 = "Emblem of Frost"
-Inst74Quest3name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10138,8 +10138,7 @@ Inst74Quest3_HORDE_Note = Inst74Quest3_Note
 Inst74Quest3_HORDE_Prequest = Inst74Quest3_Prequest
 Inst74Quest3_HORDE_Folgequest = Inst74Quest3_Folgequest
 --
-Inst74Quest3name1_HORDE = Inst74Quest3name1
-Inst74Quest3name2_HORDE = Inst74Quest3name2
+-- Awards Justice Points.
 
 
 
@@ -10430,8 +10429,7 @@ Inst79Quest1_Note = "Sartharion is at "..YELLOW.."[4]"..WHITE..".\n\nRaid Weekly
 Inst79Quest1_Prequest = "None"
 Inst79Quest1_Folgequest = "None"
 --
-Inst79Quest1name1 = "Emblem of Frost"
-Inst79Quest1name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10444,8 +10442,7 @@ Inst79Quest1_HORDE_Note = Inst79Quest1_Note
 Inst79Quest1_HORDE_Prequest = Inst79Quest1_Prequest
 Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
 --
-Inst79Quest1name1_HORDE = Inst79Quest1name1
-Inst79Quest1name2_HORDE = Inst79Quest1name2
+-- Awards Justice Points.
 
 
 
@@ -10768,8 +10765,7 @@ Inst84Quest3_Note = "Anub'Rekhan is at "..YELLOW.."Arachnid Quarter [1]"..WHITE.
 Inst84Quest3_Prequest = "None"
 Inst84Quest3_Folgequest = "None"
 --
-Inst84Quest3name1 = "Emblem of Frost"
-Inst84Quest3name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 --Quest 4 Alliance
 Inst84Quest4 = "4. Instructor Razuvious Must Die! (Weekly)"
@@ -10781,8 +10777,7 @@ Inst84Quest4_Note = "Instructor Razuvious is at "..YELLOW.."Military Quarter [1]
 Inst84Quest4_Prequest = "None"
 Inst84Quest4_Folgequest = "None"
 --
-Inst84Quest4name1 = "Emblem of Frost"
-Inst84Quest4name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 --Quest 5 Alliance
 Inst84Quest5 = "5. Noth the Plaguebringer Must Die! (Weekly)"
@@ -10794,8 +10789,7 @@ Inst84Quest5_Note = "Noth the Plaguebringer is at "..YELLOW.."Plague Quarter [1]
 Inst84Quest5_Prequest = "None"
 Inst84Quest5_Folgequest = "None"
 --
-Inst84Quest5name1 = "Emblem of Frost"
-Inst84Quest5name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 --Quest 6 Alliance
 Inst84Quest6 = "6. Patchwerk Must Die! (Weekly)"
@@ -10807,8 +10801,7 @@ Inst84Quest6_Note = "Patchwerk is at "..YELLOW.."Construct Quarter [1]"..WHITE..
 Inst84Quest6_Prequest = "None"
 Inst84Quest6_Folgequest = "None"
 --
-Inst84Quest6name1 = "Emblem of Frost"
-Inst84Quest6name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10845,8 +10838,7 @@ Inst84Quest3_HORDE_Note = Inst84Quest3_Note
 Inst84Quest3_HORDE_Prequest = Inst84Quest3_Prequest
 Inst84Quest3_HORDE_Folgequest = Inst84Quest3_Folgequest
 --
-Inst84Quest3name1_HORDE = Inst84Quest3name1
-Inst84Quest3name2_HORDE = Inst84Quest3name2
+-- Awards Justice Points.
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst84Quest4_HORDE = Inst84Quest4
@@ -10858,8 +10850,7 @@ Inst84Quest4_HORDE_Note = Inst84Quest4_Note
 Inst84Quest4_HORDE_Prequest = Inst84Quest4_Prequest
 Inst84Quest4_HORDE_Folgequest = Inst84Quest4_Folgequest
 --
-Inst84Quest4name1_HORDE = Inst84Quest4name1
-Inst84Quest4name2_HORDE = Inst84Quest4name2
+-- Awards Justice Points.
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst84Quest5_HORDE = Inst84Quest5
@@ -10871,8 +10862,7 @@ Inst84Quest5_HORDE_Note = Inst84Quest5_Note
 Inst84Quest5_HORDE_Prequest = Inst84Quest5_Prequest
 Inst84Quest5_HORDE_Folgequest = Inst84Quest5_Folgequest
 --
-Inst84Quest5name1_HORDE = Inst84Quest5name1
-Inst84Quest5name2_HORDE = Inst84Quest5name2
+-- Awards Justice Points.
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst84Quest6_HORDE = Inst84Quest6
@@ -10884,8 +10874,7 @@ Inst84Quest6_HORDE_Note = Inst84Quest6_Note
 Inst84Quest6_HORDE_Prequest = Inst84Quest6_Prequest
 Inst84Quest6_HORDE_Folgequest = Inst84Quest6_Folgequest
 --
-Inst84Quest6name1_HORDE = Inst84Quest6name1
-Inst84Quest6name2_HORDE = Inst84Quest6name2
+-- Awards Justice Points.
 
 
 
@@ -11115,8 +11104,7 @@ Inst86Quest17_Note = "Flame Leviathan is at "..YELLOW.."The Siege [1]"..WHITE.."
 Inst86Quest17_Prequest = "None"
 Inst86Quest17_Folgequest = "None"
 --
-Inst86Quest17name1 = "Emblem of Frost"
-Inst86Quest17name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 --Quest 18 Alliance
 Inst86Quest18 = "18. Ignis the Furnace Master Must Die! (Weekly)"
@@ -11128,8 +11116,7 @@ Inst86Quest18_Note = "Ignis the Furnace Master is at "..YELLOW.."The Siege [2]".
 Inst86Quest18_Prequest = "None"
 Inst86Quest18_Folgequest = "None"
 --
-Inst86Quest18name1 = "Emblem of Frost"
-Inst86Quest18name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 --Quest 19 Alliance
 Inst86Quest19 = "19. Razorscale Must Die! (Weekly)"
@@ -11141,8 +11128,7 @@ Inst86Quest19_Note = "Razorscale is at "..YELLOW.."The Siege [3]"..WHITE..".\n\n
 Inst86Quest19_Prequest = "None"
 Inst86Quest19_Folgequest = "None"
 --
-Inst86Quest19name1 = "Emblem of Frost"
-Inst86Quest19name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 --Quest 20 Alliance
 Inst86Quest20 = "20. XT-002 Deconstructor Must Die! (Weekly)"
@@ -11154,8 +11140,7 @@ Inst86Quest20_Note = "XT-002 Deconstructor is at "..YELLOW.."The Siege [4]"..WHI
 Inst86Quest20_Prequest = "None"
 Inst86Quest20_Folgequest = "None"
 --
-Inst86Quest20name1 = "Emblem of Frost"
-Inst86Quest20name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11368,8 +11353,7 @@ Inst86Quest17_HORDE_Note = Inst86Quest17_Note
 Inst86Quest17_HORDE_Prequest = Inst86Quest17_Prequest
 Inst86Quest17_HORDE_Folgequest = Inst86Quest17_Folgequest
 --
-Inst86Quest17name1_HORDE = Inst86Quest17name1
-Inst86Quest17name2_HORDE = Inst86Quest17name2
+-- Awards Justice Points.
 
 --Quest 18 Horde  (same as Quest 18 Alliance)
 Inst86Quest18_HORDE = Inst86Quest18
@@ -11381,8 +11365,7 @@ Inst86Quest18_HORDE_Note = Inst86Quest18_Note
 Inst86Quest18_HORDE_Prequest = Inst86Quest18_Prequest
 Inst86Quest18_HORDE_Folgequest = Inst86Quest18_Folgequest
 --
-Inst86Quest18name1_HORDE = Inst86Quest18name1
-Inst86Quest18name2_HORDE = Inst86Quest18name2
+-- Awards Justice Points.
 
 --Quest 19 Horde  (same as Quest 19 Alliance)
 Inst86Quest19_HORDE = Inst86Quest19
@@ -11394,8 +11377,7 @@ Inst86Quest19_HORDE_Note = Inst86Quest19_Note
 Inst86Quest19_HORDE_Prequest = Inst86Quest19_Prequest
 Inst86Quest19_HORDE_Folgequest = Inst86Quest19_Folgequest
 --
-Inst86Quest19name1_HORDE = Inst86Quest19name1
-Inst86Quest19name2_HORDE = Inst86Quest19name2
+-- Awards Justice Points.
 
 --Quest 20 Horde  (same as Quest 20 Alliance)
 Inst86Quest20_HORDE = Inst86Quest20
@@ -11407,8 +11389,7 @@ Inst86Quest20_HORDE_Note = Inst86Quest20_Note
 Inst86Quest20_HORDE_Prequest = Inst86Quest20_Prequest
 Inst86Quest20_HORDE_Folgequest = Inst86Quest20_Folgequest
 --
-Inst86Quest20name1_HORDE = Inst86Quest20name1
-Inst86Quest20name2_HORDE = Inst86Quest20name2
+-- Awards Justice Points.
 
 
 --------------- INST87 - Trial of the Champion ---------------
@@ -11437,8 +11418,7 @@ Inst88Quest1_Note = "Lord Jaraxxus is the second boss.\n\nRaid Weekly quests can
 Inst88Quest1_Prequest = "None"
 Inst88Quest1_Folgequest = "None"
 --
-Inst88Quest1name1 = "Emblem of Frost"
-Inst88Quest1name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11451,8 +11431,7 @@ Inst88Quest1_HORDE_Note = Inst88Quest1_Note
 Inst88Quest1_HORDE_Prequest = Inst88Quest1_Prequest
 Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
 --
-Inst88Quest1name1_HORDE = Inst88Quest1name1
-Inst88Quest1name2_HORDE = Inst88Quest1name2
+-- Awards Justice Points.
 
 
 
@@ -11734,8 +11713,8 @@ Inst92Quest3PreQuest_HORDE = "true"
 
 Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
 Inst93Caption = "Icecrown Citadel"
-Inst93QAA = "15 Quests"
-Inst93QAH = "15 Quests"
+Inst93QAA = "10 Quests"
+Inst93QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst93Quest1 = "1. Lord Marrowgar Must Die! (Weekly)"
@@ -11747,177 +11726,115 @@ Inst93Quest1_Note = "Lord Marrowgar is at "..YELLOW.." [1]"..WHITE..".\n\nRaid W
 Inst93Quest1_Prequest = "None"
 Inst93Quest1_Folgequest = "None"
 --
-Inst93Quest1name1 = "Emblem of Frost"
-Inst93Quest1name2 = "Emblem of Triumph"
+-- Awards Justice Points.
 
 --Quest 2 Alliance
-Inst93Quest2 = "2. Deprogramming (Random Weekly)"
+Inst93Quest2 = "2. The Sacred and the Corrupt"
 Inst93Quest2_Level = "80"
 Inst93Quest2_Attain = "80"
-Inst93Quest2_Aim = "Defeat Lady Deathwhisper while ensuring that Darnavan survives."
-Inst93Quest2_Location = "Infiltrator Minchar (Icecrown Citadel; "..YELLOW.."Near [1]"..WHITE..")"
-Inst93Quest2_Note = "If this quest is available for your raid id, Infiltrator Minchar will appear after you slay Lord Marrowgar.\n\nDuring the Lady Deathwhisper encounter, Darnavan will spawn. He must be kept alive throughout the entire fight to complete the quest."
+Inst93Quest2_Aim = "Place Light's Vengeance, 25 Primordial Saronite, Rotface's Acidic Blood, and Festergut's Acidic Blood in Highlord Mograine's runeforge in Icecrown Citadel."
+Inst93Quest2_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest2_Note = "This questline is only available to Warriors, Paladins and Death Knights. Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout."
 Inst93Quest2_Prequest = "None"
-Inst93Quest2_Folgequest = "None"
---
-Inst93Quest2name1 = "Sack of Frosty Treasures"
+Inst93Quest2_Folgequest = "Shadow's Edge"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst93Quest3 = "3. Securing the Ramparts (Random Weekly)"
+Inst93Quest3 = "3. Shadow's Edge"
 Inst93Quest3_Level = "80"
 Inst93Quest3_Attain = "80"
-Inst93Quest3_Aim = "Slay the Rotting Frost Giant."
-Inst93Quest3_Location = "Skybreaker Lieutenant (Icecrown Citadel; "..GREEN.."[3']"..WHITE..")"
-Inst93Quest3_Note = "If this quest is available for your raid id, the Skybreaker Lieutenant will appear when you kill the first trash pull after Lady Deathwhisper.\n\nThe Rotting Frost giant can be found patroling the rampart."
-Inst93Quest3_Prequest = "None"
-Inst93Quest3_Folgequest = "None"
+Inst93Quest3_Aim = "Wait for Mograine to forge your weapon."
+Inst93Quest3_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest3_Note = "Watch as Mograine forges your weapon, and collect it when he's done."
+Inst93Quest3_Prequest = "The Sacred and the Corrupt"
+Inst93Quest3_Folgequest = "A Feast of Souls"
+Inst93Quest3FQuest = "true"
 --
-Inst93Quest3name1 = "Sack of Frosty Treasures"
+Inst93Quest3name1 = "Shadow's Edge"
 
 --Quest 4 Alliance
-Inst93Quest4 = "4. Residue Rendezvous (Random Weekly)"
+Inst93Quest4 = "4. A Feast of Souls"
 Inst93Quest4_Level = "80"
 Inst93Quest4_Attain = "80"
-Inst93Quest4_Aim = "Return to Alchemist Adrianna while infected with Orange and Green Blight."
-Inst93Quest4_Location = "Alchemist Adrianna (Icecrown Citadel; "..GREEN.."[4']"..WHITE..")"
-Inst93Quest4_Note = "If this quest is available for your raid id, Alchemist Adrianna will appear after you activate the teleporter past Deathbringer Saurfang.\n\nTo complete the quest at least one raid member must obtain the debuffs from both Festergut and Rotface and return to Alchemist Adrianna within 30 minutes of obtaining the first debuff. All raid members with the quest will receive credit."
-Inst93Quest4_Page = {2, "The debuffs go away upon death, logging out, divine intervention and divine shield and possibly other abilities. Hunters who use feign death and survive will retain the debuffs.", };
-Inst93Quest4_Prequest = "None"
-Inst93Quest4_Folgequest = "None"
---
-Inst93Quest4name1 = "Sack of Frosty Treasures"
+Inst93Quest4_Aim = "Highlord Darion Mograine wants you to use Shadow's Edge to slay 1000 of the Lich King's minions in Icecrown Citadel. Souls can be obtained in 10 or 25 person difficulty."
+Inst93Quest4_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest4_Note = "You've got a lot of killing to do. Only kills in Icecrown Citadel count towards the 1000."
+Inst93Quest4_Prequest = "Shadow's Edge"
+Inst93Quest4_Folgequest = "Unholy Infusion"
+Inst93Quest4FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst93Quest5 = "5. Blood Quickening (Random Weekly)"
+Inst93Quest5 = "5. Unholy Infusion"
 Inst93Quest5_Level = "80"
 Inst93Quest5_Attain = "80"
-Inst93Quest5_Aim = "Rescue Infiltrator Minchar before he is executed."
-Inst93Quest5_Location = "Alrin the Agile (Icecrown Citadel; Entrance to Crimson Halls)"
-Inst93Quest5_Note = "If this quest is available for your raid id, Alrin the Agile will appear at the entrance to the Crimson Halls.\n\nThe 30 minute timer begins upon entering Crimson Halls. You must clear all trash, defeat the Blood Princes and Blood Queen Lana'thel before the timer runs out to complete the quest."
-Inst93Quest5_Prequest = "None"
-Inst93Quest5_Folgequest = "None"
---
-Inst93Quest5name1 = "Sack of Frosty Treasures"
+Inst93Quest5_Aim = "Highlord Darion Mograine wants you to infuse Shadow's Edge with Unholy power and slay Professor Putricide."
+Inst93Quest5_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest5_Note = "This quest can only be completed in 25-player mode.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
+Inst93Quest5_Prequest = "A Feast of Souls"
+Inst93Quest5_Folgequest = "Blood Infusion"
+Inst93Quest5FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst93Quest6 = "6. Respite for a Tormented Soul (Random Weekly)"
+Inst93Quest6 = "6. Blood Infusion"
 Inst93Quest6_Level = "80"
 Inst93Quest6_Attain = "80"
-Inst93Quest6_Aim = "Use the Life Crystals to preserve Sindragosa's Essence."
-Inst93Quest6_Location = "Valithria Dreamwalker (Icecrown Citadel; "..YELLOW.."[11]"..WHITE..")"
-Inst93Quest6_Note = "If this quest is available for your raid id, Valithria Dreamwalker will give you the quest after you complete that encounter.\n\nTo complete the quest, raid members must use the provided item to stack debuffs (30 on 10 player, 75 on 25 player) on Sindragosa when she is at 20% health or lower. If successful and Sindragosa gets an aura of Soul Preservation before she dies, the quest is completed."
-Inst93Quest6_Prequest = "None"
-Inst93Quest6_Folgequest = "None"
---
-Inst93Quest6name1 = "Sack of Frosty Treasures"
+Inst93Quest6_Aim = "Highlord Darion Mograine wants you to infuse Shadow's Edge with blood and defeat Queen Lana'thel."
+Inst93Quest6_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
+Inst93Quest6_Note = "This quest can only be completed in 25-player mode.\n\nTo complete the quest, get the Blood Mirror debuff. Then, assuming you're not bitten first, have the first person bitten bite you. Bite three more people and survive the encounter to complete the quest. Info from hobbesmarcus on WoWhead.com"
+Inst93Quest6_Prequest = "Unholy Infusion"
+Inst93Quest6_Folgequest = "Frost Infusion"
+Inst93Quest6FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst93Quest7 = "7. The Sacred and the Corrupt"
+Inst93Quest7 = "7. Frost Infusion"
 Inst93Quest7_Level = "80"
 Inst93Quest7_Attain = "80"
-Inst93Quest7_Aim = "Place Light's Vengeance, 25 Primordial Saronite, Rotface's Acidic Blood, and Festergut's Acidic Blood in Highlord Mograine's runeforge in Icecrown Citadel."
+Inst93Quest7_Aim = "Highlord Darion Mograine has instructed you to slay Sindragosa after subjecting yourself to 4 of her breath attacks while wielding Shadow's Edge."
 Inst93Quest7_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest7_Note = "This questline is only available to Warriors, Paladins and Death Knights. Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout."
-Inst93Quest7_Prequest = "None"
-Inst93Quest7_Folgequest = "Shadow's Edge"
+Inst93Quest7_Note = "This quest can only be completed in 25-player mode.\n\nAfter receiving the Frost-Imbued Blade buff from the 4 breath attacks, you must kill Sindragosa within 6 minutes to complete the quest. "
+Inst93Quest7_Prequest = "Blood Infusion"
+Inst93Quest7_Folgequest = "The Splintered Throne"
+Inst93Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst93Quest8 = "8. Shadow's Edge"
+Inst93Quest8 = "8. The Splintered Throne"
 Inst93Quest8_Level = "80"
 Inst93Quest8_Attain = "80"
-Inst93Quest8_Aim = "Wait for Mograine to forge your weapon."
+Inst93Quest8_Aim = "Highlord Darion Mograine wants you to collect 50 Shadowfrost Shards."
 Inst93Quest8_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest8_Note = "Watch as Mograine forges your weapon, and collect it when he's done."
-Inst93Quest8_Prequest = "The Sacred and the Corrupt"
-Inst93Quest8_Folgequest = "A Feast of Souls"
+Inst93Quest8_Note = "This quest can only be completed in 25-player mode.\n\nThe Shadowfrost Shards are rare drops from bosses."
+Inst93Quest8_Prequest = "Frost Infusion"
+Inst93Quest8_Folgequest = "Shadowmourne..."
 Inst93Quest8FQuest = "true"
---
-Inst93Quest8name1 = "Shadow's Edge"
+-- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst93Quest9 = "9. A Feast of Souls"
+Inst93Quest9 = "9. Shadowmourne..."
 Inst93Quest9_Level = "80"
 Inst93Quest9_Attain = "80"
-Inst93Quest9_Aim = "Highlord Darion Mograine wants you to use Shadow's Edge to slay 1000 of the Lich King's minions in Icecrown Citadel. Souls can be obtained in 10 or 25 person difficulty."
+Inst93Quest9_Aim = "Highlord Darion Mograine wants you to bring him Shadow's Edge."
 Inst93Quest9_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest9_Note = "You've got a lot of killing to do. Only kills in Icecrown Citadel count towards the 1000."
-Inst93Quest9_Prequest = "Shadow's Edge"
-Inst93Quest9_Folgequest = "Unholy Infusion"
+Inst93Quest9_Note = "This quest upgrades your Shadow's Edge to Shadowmourne."
+Inst93Quest9_Prequest = "The Splintered Throne"
+Inst93Quest9_Folgequest = "The Lich King's Last Stand"
 Inst93Quest9FQuest = "true"
--- No Rewards for this quest
+--
+Inst93Quest9name1 = "Shadowmourne"
 
 --Quest 10 Alliance
-Inst93Quest10 = "10. Unholy Infusion"
+Inst93Quest10 = "10. The Lich King's Last Stand"
 Inst93Quest10_Level = "80"
 Inst93Quest10_Attain = "80"
-Inst93Quest10_Aim = "Highlord Darion Mograine wants you to infuse Shadow's Edge with Unholy power and slay Professor Putricide."
+Inst93Quest10_Aim = "Highlord Darion Mograine in Icecrown Citadel wants you to kill the Lich King."
 Inst93Quest10_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest10_Note = "This quest can only be completed in 25-player mode.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
-Inst93Quest10_Prequest = "A Feast of Souls"
-Inst93Quest10_Folgequest = "Blood Infusion"
+Inst93Quest10_Note = "This quest can only be completed in 25-player mode."
+Inst93Quest10_Prequest = "Shadowmourne..."
+Inst93Quest10_Folgequest = "None"
 Inst93Quest10FQuest = "true"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst93Quest11 = "11. Blood Infusion"
-Inst93Quest11_Level = "80"
-Inst93Quest11_Attain = "80"
-Inst93Quest11_Aim = "Highlord Darion Mograine wants you to infuse Shadow's Edge with blood and defeat Queen Lana'thel."
-Inst93Quest11_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest11_Note = "This quest can only be completed in 25-player mode.\n\nTo complete the quest, get the Blood Mirror debuff. Then, assuming you're not bitten first, have the first person bitten bite you. Bite three more people and survive the encounter to complete the quest. Info from hobbesmarcus on WoWhead.com"
-Inst93Quest11_Prequest = "Unholy Infusion"
-Inst93Quest11_Folgequest = "Frost Infusion"
-Inst93Quest11FQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst93Quest12 = "12. Frost Infusion"
-Inst93Quest12_Level = "80"
-Inst93Quest12_Attain = "80"
-Inst93Quest12_Aim = "Highlord Darion Mograine has instructed you to slay Sindragosa after subjecting yourself to 4 of her breath attacks while wielding Shadow's Edge."
-Inst93Quest12_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest12_Note = "This quest can only be completed in 25-player mode.\n\nAfter receiving the Frost-Imbued Blade buff from the 4 breath attacks, you must kill Sindragosa within 6 minutes to complete the quest. "
-Inst93Quest12_Prequest = "Blood Infusion"
-Inst93Quest12_Folgequest = "The Splintered Throne"
-Inst93Quest12FQuest = "true"
--- No Rewards for this quest
-
---Quest 13 Alliance
-Inst93Quest13 = "13. The Splintered Throne"
-Inst93Quest13_Level = "80"
-Inst93Quest13_Attain = "80"
-Inst93Quest13_Aim = "Highlord Darion Mograine wants you to collect 50 Shadowfrost Shards."
-Inst93Quest13_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest13_Note = "This quest can only be completed in 25-player mode.\n\nThe Shadowfrost Shards are rare drops from bosses."
-Inst93Quest13_Prequest = "Frost Infusion"
-Inst93Quest13_Folgequest = "Shadowmourne..."
-Inst93Quest13FQuest = "true"
--- No Rewards for this quest
-
---Quest 14 Alliance
-Inst93Quest14 = "14. Shadowmourne..."
-Inst93Quest14_Level = "80"
-Inst93Quest14_Attain = "80"
-Inst93Quest14_Aim = "Highlord Darion Mograine wants you to bring him Shadow's Edge."
-Inst93Quest14_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest14_Note = "This quest upgrades your Shadow's Edge to Shadowmourne."
-Inst93Quest14_Prequest = "The Splintered Throne"
-Inst93Quest14_Folgequest = "The Lich King's Last Stand"
-Inst93Quest14FQuest = "true"
---
-Inst93Quest14name1 = "Shadowmourne"
-
---Quest 15 Alliance
-Inst93Quest15 = "15. The Lich King's Last Stand"
-Inst93Quest15_Level = "80"
-Inst93Quest15_Attain = "80"
-Inst93Quest15_Aim = "Highlord Darion Mograine in Icecrown Citadel wants you to kill the Lich King."
-Inst93Quest15_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")"
-Inst93Quest15_Note = "This quest can only be completed in 25-player mode."
-Inst93Quest15_Prequest = "Shadowmourne..."
-Inst93Quest15_Folgequest = "None"
-Inst93Quest15FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -11931,8 +11848,7 @@ Inst93Quest1_HORDE_Note = Inst93Quest1_Note
 Inst93Quest1_HORDE_Prequest = Inst93Quest1_Prequest
 Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
 --
-Inst93Quest1name1_HORDE = Inst93Quest1name1
-Inst93Quest1name2_HORDE = Inst93Quest1name2
+-- Awards Justice Points.
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst93Quest2_HORDE = Inst93Quest2
@@ -11943,20 +11859,19 @@ Inst93Quest2_HORDE_Location = Inst93Quest2_Location
 Inst93Quest2_HORDE_Note = Inst93Quest2_Note
 Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
 Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
---
-Inst93Quest2name1_HORDE = Inst93Quest2name1
 
---Quest 3 Horde
-Inst93Quest3_HORDE = "3. Securing the Ramparts (Weekly)"
-Inst93Quest3_HORDE_Level = "80"
-Inst93Quest3_HORDE_Attain = "80"
-Inst93Quest3_HORDE_Aim = "Slay the Rotting Frost Giant."
-Inst93Quest3_HORDE_Location = "Kor'kron Lieutenant (Icecrown Citadel; "..GREEN.."[3']"..WHITE..")"
-Inst93Quest3_HORDE_Note = "This is one of five random quests that are available in Icecrown Citadel. If this is the quest for your raid id, the Kor'kron Lieutenant will appear when you kill the first trash pull after Lady Deathwhisper.\n\nThe Rotting Frost giant can be found patroling the rampart."
-Inst93Quest3_HORDE_Prequest = "None"
-Inst93Quest3_HORDE_Folgequest = "None"
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst93Quest3_HORDE = Inst93Quest3
+Inst93Quest3_HORDE_Level = Inst93Quest3_Level
+Inst93Quest3_HORDE_Attain = Inst93Quest3_Attain
+Inst93Quest3_HORDE_Aim = Inst93Quest3_Aim
+Inst93Quest3_HORDE_Location = Inst93Quest3_Location
+Inst93Quest3_HORDE_Note = Inst93Quest3_Note
+Inst93Quest3_HORDE_Prequest = Inst93Quest3_Prequest
+Inst93Quest3_HORDE_Folgequest = Inst93Quest3_Folgequest
+Inst93Quest3FQuest_HORDE = Inst93Quest3FQuest
 --
-Inst93Quest3name1_HORDE = "Sack of Frosty Treasures"
+Inst93Quest3name1_HORDE = Inst93Quest3name1
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst93Quest4_HORDE = Inst93Quest4
@@ -11965,11 +11880,10 @@ Inst93Quest4_HORDE_Attain = Inst93Quest4_Attain
 Inst93Quest4_HORDE_Aim = Inst93Quest4_Aim
 Inst93Quest4_HORDE_Location = Inst93Quest4_Location
 Inst93Quest4_HORDE_Note = Inst93Quest4_Note
-Inst93Quest4_HORDE_Page = Inst93Quest4_Page
 Inst93Quest4_HORDE_Prequest = Inst93Quest4_Prequest
 Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
---
-Inst93Quest4name1_HORDE = Inst93Quest4name1
+Inst93Quest4FQuest_HORDE = Inst93Quest4FQuest
+-- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst93Quest5_HORDE = Inst93Quest5
@@ -11980,8 +11894,8 @@ Inst93Quest5_HORDE_Location = Inst93Quest5_Location
 Inst93Quest5_HORDE_Note = Inst93Quest5_Note
 Inst93Quest5_HORDE_Prequest = Inst93Quest5_Prequest
 Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
---
-Inst93Quest5name1_HORDE = Inst93Quest5name1
+Inst93Quest5FQuest_HORDE = Inst93Quest5FQuest
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst93Quest6_HORDE = Inst93Quest6
@@ -11992,8 +11906,8 @@ Inst93Quest6_HORDE_Location = Inst93Quest6_Location
 Inst93Quest6_HORDE_Note = Inst93Quest6_Note
 Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
 Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
---
-Inst93Quest6name1_HORDE = Inst93Quest6name1
+Inst93Quest6FQuest_HORDE = Inst93Quest6FQuest
+-- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst93Quest7_HORDE = Inst93Quest7
@@ -12004,6 +11918,8 @@ Inst93Quest7_HORDE_Location = Inst93Quest7_Location
 Inst93Quest7_HORDE_Note = Inst93Quest7_Note
 Inst93Quest7_HORDE_Prequest = Inst93Quest7_Prequest
 Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
+Inst93Quest7FQuest_HORDE = Inst93Quest7FQuest
+-- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst93Quest8_HORDE = Inst93Quest8
@@ -12015,8 +11931,7 @@ Inst93Quest8_HORDE_Note = Inst93Quest8_Note
 Inst93Quest8_HORDE_Prequest = Inst93Quest8_Prequest
 Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
 Inst93Quest8FQuest_HORDE = Inst93Quest8FQuest
---
-Inst93Quest8name1_HORDE = Inst93Quest8name1
+-- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst93Quest9_HORDE = Inst93Quest9
@@ -12028,6 +11943,8 @@ Inst93Quest9_HORDE_Note = Inst93Quest9_Note
 Inst93Quest9_HORDE_Prequest = Inst93Quest9_Prequest
 Inst93Quest9_HORDE_Folgequest = Inst93Quest9_Folgequest
 Inst93Quest9FQuest_HORDE = Inst93Quest9FQuest
+--
+Inst93Quest9name1_HORDE = Inst93Quest9name1
 -- No Rewards for this quest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
@@ -12040,68 +11957,6 @@ Inst93Quest10_HORDE_Note = Inst93Quest10_Note
 Inst93Quest10_HORDE_Prequest = Inst93Quest10_Prequest
 Inst93Quest10_HORDE_Folgequest = Inst93Quest10_Folgequest
 Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
--- No Rewards for this quest
-
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst93Quest11_HORDE = Inst93Quest11
-Inst93Quest11_HORDE_Level = Inst93Quest11_Level
-Inst93Quest11_HORDE_Attain = Inst93Quest11_Attain
-Inst93Quest11_HORDE_Aim = Inst93Quest11_Aim
-Inst93Quest11_HORDE_Location = Inst93Quest11_Location
-Inst93Quest11_HORDE_Note = Inst93Quest11_Note
-Inst93Quest11_HORDE_Prequest = Inst93Quest11_Prequest
-Inst93Quest11_HORDE_Folgequest = Inst93Quest11_Folgequest
-Inst93Quest11FQuest_HORDE = Inst93Quest11FQuest
--- No Rewards for this quest
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst93Quest12_HORDE = Inst93Quest12
-Inst93Quest12_HORDE_Level = Inst93Quest12_Level
-Inst93Quest12_HORDE_Attain = Inst93Quest12_Attain
-Inst93Quest12_HORDE_Aim = Inst93Quest12_Aim
-Inst93Quest12_HORDE_Location = Inst93Quest12_Location
-Inst93Quest12_HORDE_Note = Inst93Quest12_Note
-Inst93Quest12_HORDE_Prequest = Inst93Quest12_Prequest
-Inst93Quest12_HORDE_Folgequest = Inst93Quest12_Folgequest
-Inst93Quest12FQuest_HORDE = Inst93Quest12FQuest
--- No Rewards for this quest
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst93Quest13_HORDE = Inst93Quest13
-Inst93Quest13_HORDE_Level = Inst93Quest13_Level
-Inst93Quest13_HORDE_Attain = Inst93Quest13_Attain
-Inst93Quest13_HORDE_Aim = Inst93Quest13_Aim
-Inst93Quest13_HORDE_Location = Inst93Quest13_Location
-Inst93Quest13_HORDE_Note = Inst93Quest13_Note
-Inst93Quest13_HORDE_Prequest = Inst93Quest13_Prequest
-Inst93Quest13_HORDE_Folgequest = Inst93Quest13_Folgequest
-Inst93Quest13FQuest_HORDE = Inst93Quest13FQuest
--- No Rewards for this quest
-
---Quest 14 Horde  (same as Quest 14 Alliance)
-Inst93Quest14_HORDE = Inst93Quest14
-Inst93Quest14_HORDE_Level = Inst93Quest14_Level
-Inst93Quest14_HORDE_Attain = Inst93Quest14_Attain
-Inst93Quest14_HORDE_Aim = Inst93Quest14_Aim
-Inst93Quest14_HORDE_Location = Inst93Quest14_Location
-Inst93Quest14_HORDE_Note = Inst93Quest14_Note
-Inst93Quest14_HORDE_Prequest = Inst93Quest14_Prequest
-Inst93Quest14_HORDE_Folgequest = Inst93Quest14_Folgequest
-Inst93Quest14FQuest_HORDE = Inst93Quest14FQuest
---
-Inst93Quest14name1_HORDE = Inst93Quest14name1
--- No Rewards for this quest
-
---Quest 15 Horde  (same as Quest 15 Alliance)
-Inst93Quest15_HORDE = Inst93Quest15
-Inst93Quest15_HORDE_Level = Inst93Quest15_Level
-Inst93Quest15_HORDE_Attain = Inst93Quest15_Attain
-Inst93Quest15_HORDE_Aim = Inst93Quest15_Aim
-Inst93Quest15_HORDE_Location = Inst93Quest15_Location
-Inst93Quest15_HORDE_Note = Inst93Quest15_Note
-Inst93Quest15_HORDE_Prequest = Inst93Quest15_Prequest
-Inst93Quest15_HORDE_Folgequest = Inst93Quest15_Folgequest
-Inst93Quest15FQuest_HORDE = Inst93Quest15FQuest
 -- No Rewards for this quest
 
 
@@ -12185,6 +12040,105 @@ Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
 Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 --
 Inst94Quest3name1_HORDE = Inst94Quest3name1
+
+
+
+--------------- INST95 - Blackrock Caverns ---------------
+
+Inst95Story = ""
+Inst95Caption = "Blackrock Caverns"
+Inst95QAA = "No Quests"
+Inst95QAH = "No Quests"
+
+
+
+--------------- INST96 - Throne of the Tides ---------------
+
+Inst96Story = ""
+Inst96Caption = "Throne of the Tides"
+Inst96QAA = "No Quests"
+Inst96QAH = "No Quests"
+
+
+
+--------------- INST97 - The Stonecore ---------------
+
+Inst97Story = ""
+Inst97Caption = "The Stonecore"
+Inst97QAA = "No Quests"
+Inst97QAH = "No Quests"
+
+
+
+--------------- INST98 - The Vortex Pinacle ---------------
+
+Inst98Story = ""
+Inst98Caption = "The Vortex Pinacle"
+Inst98QAA = "No Quests"
+Inst98QAH = "No Quests"
+
+
+
+--------------- INST99 - Grim Batol ---------------
+
+Inst99Story = ""
+Inst99Caption = "Grim Batol"
+Inst99QAA = "No Quests"
+Inst99QAH = "No Quests"
+
+
+
+--------------- INST100 - Halls of Origination ---------------
+
+Inst100Story = ""
+Inst100Caption = "Halls of Origination"
+Inst100QAA = "No Quests"
+Inst100QAH = "No Quests"
+
+
+
+--------------- INST101 - Lost City of the Tol'vir ---------------
+
+Inst101Story = ""
+Inst101Caption = "Lost City of the Tol'vir"
+Inst101QAA = "No Quests"
+Inst101QAH = "No Quests"
+
+
+
+--------------- INST102 - Blackwing Descent ---------------
+
+Inst102Story = ""
+Inst102Caption = "Blackwing Descent"
+Inst102QAA = "No Quests"
+Inst102QAH = "No Quests"
+
+
+
+--------------- INST103 - The Bastion of Twilight ---------------
+
+Inst103Story = ""
+Inst103Caption = "The Bastion of Twilight"
+Inst103QAA = "No Quests"
+Inst103QAH = "No Quests"
+
+
+
+--------------- INST104 - Throne of the Four Winds ---------------
+
+Inst104Story = ""
+Inst104Caption = "Throne of the Four Winds"
+Inst104QAA = "No Quests"
+Inst104QAH = "No Quests"
+
+
+
+--------------- INST105 - Baradin Hold ---------------
+
+Inst105Story = ""
+Inst105Caption = "Baradin Hold"
+Inst105QAA = "No Quests"
+Inst105QAH = "No Quests"
 
 
 
@@ -12840,6 +12794,24 @@ Inst89Quest1_HORDE_Folgequest = "None"
 
 
 
+--------------- INST106 - Battle for Gilneas ---------------
+
+Inst106Story = ""
+Inst106Caption = "Battle for Gilneas"
+Inst106QAA = "No Quests"
+Inst106QAH = "No Quests"
+
+
+
+--------------- INST107 - Twin Peaks ---------------
+
+Inst107Story = ""
+Inst107Caption = "Twin Peaks"
+Inst107QAA = "No Quests"
+Inst107QAH = "No Quests"
+
+
+
 
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
@@ -13387,4 +13359,16 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC)
 -- 94 = Ruby Sanctum (RS)
-
+-- 95 = Blackrock Caverns
+-- 96 = Throne of the Tides
+-- 97 = The Stonecore
+-- 98 = The Vortex Pinacle
+-- 99 = Grim Batol
+-- 100 = Halls of Origination
+-- 101 = Lost City of the Tol'vir
+-- 102 = Blackwing Descent
+-- 103 = The Bastion of Twilight
+-- 104 = Throne of the Four Winds
+-- 105 = Baradin Hold
+-- 106 = Battle for Gilneas
+-- 107 = Twin Peaks
