@@ -42,11 +42,11 @@
 <!-- Option panel -->
 <Frame name="AtlasQuestOptionFrame" enableMouse="true" movable="true" hidden="true" parent="UIParent" toplevel="true" frameStrata="DIALOG" enableKeyboard="true">
  <Size>
-   <AbsDimension x="300" y="350"/>
+   <AbsDimension x="325" y="375"/>
  </Size>
  <Anchors>
    <Anchor point="TOP">
-      <Offset><AbsDimension x="0" y="-240"/></Offset>>
+      <Offset><AbsDimension x="0" y="-210"/></Offset>>
    </Anchor>
  </Anchors>
  <Backdrop name="$parentBackdrop" bgFile="Interface\ChatFrame\ChatFrameBackground" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
@@ -62,7 +62,7 @@
   </BackgroundInsets>
  </Backdrop>
  <Frames>
-  <Button name="AQOptionCloseButton" inherits="OptionsButtonTemplate">
+ <Button name="AQOptionCloseButton" inherits="OptionsButtonTemplate">
    <Size>
      <AbsDimension x="35" y="30"/>
    </Size>
@@ -76,6 +76,26 @@
 	<Scripts>
 		<OnClick>
 		  HideUIPanel(AtlasQuestOptionFrame);
+	    </OnClick>
+	    <OnShow>
+	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
+	    </OnShow>
+	</Scripts>
+  </Button>
+   <Button name="AQOptionQuestQueryButton" inherits="OptionsButtonTemplate">
+   <Size>
+     <AbsDimension x="95" y="30"/>
+   </Size>
+	<Anchors>
+		<Anchor point="BOTTOM">
+			<Offset>
+				<AbsDimension x="-100" y="50"/>
+			</Offset>
+		</Anchor>
+	</Anchors>
+	<Scripts>
+		<OnClick>
+		  AQQuestQuery();
 	    </OnClick>
 	    <OnShow>
 	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
@@ -278,7 +298,19 @@
        <Anchors>
          <Anchor point="TOPLEFT">
            <Offset>
-              <AbsDimension x="0" y="-10"/>
+              <AbsDimension x="10" y="-10"/>
+           </Offset>
+         </Anchor>
+       </Anchors>
+     </FontString>
+   <FontString name="AQOptionQuestQuery" inherits="GameFontNormalSmall" justifyH = "LEFT">
+       <Size>
+         <AbsDimension x="240" y="25"/>
+       </Size>
+       <Anchors>
+         <Anchor point="BOTTOM">
+           <Offset>
+              <AbsDimension x="70" y="50"/>
            </Offset>
          </Anchor>
        </Anchors>

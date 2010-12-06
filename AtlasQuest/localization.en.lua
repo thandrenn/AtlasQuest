@@ -30,10 +30,11 @@ local GREY = "|cff999999";
 local RED = "|cffff0000";
 local REDA = "|cffcc6666";
 local WHITE = "|cffFFFFFF";
-local GREEN = "|cff1eff00";
+local GREEN = "|cff66cc33";
 local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
+local DARKYELLOW = "|cffcc9933";  -- Atlas uses this color for some things.
 local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 
@@ -74,6 +75,12 @@ AQOptionsNoQuerySpamTEXT = ""..WHITE.."Suppress Server Query spam."
 -- Use Comparison Tooltips
 AQOptionsCompareTooltipTEXT = ""..WHITE.."Compare rewards to currently equipped items."
 
+-- Quest Query text
+AQQuestQueryButtonTEXT = ""..WHITE.."Quest Query"
+AQQuestQueryTEXT = ""..WHITE.."Query Server for completed quests."
+AQQuestQueryStart = "AtlasQuest is now querying server for completed quests. This may take a minute"
+AQQuestQueryDone = "AtlasQuest has finished querying the server. Completed quests should now be marked."
+
 
 AQAbilities = BLUE .. "Abilities:" .. WHITE;
 AQSERVERASKInformation = " Please click right until you see the Item frame."
@@ -84,10 +91,11 @@ AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be 
 AQOptionB = "Options"
 AQStoryB = "Story"
 AQNoReward = ""..BLUE.." No Rewards"
-AQLKRaidWeekly = ""..BLUE.." Reward: "..WHITE.."138 Justice Points"
+AQJusticePoints = ""..WHITE.." Justice Points"
+AQValorPoints = ""..WHITE.." Valor Points"
+AQDiscription_REWARD = ""..BLUE.." Reward: "
 AQDiscription_OR = ""..GREY.." or "..WHITE..""
 AQDiscription_AND = ""..GREY.." and "..WHITE..""
-AQDiscription_REWARD = ""..BLUE.." Reward: "
 AQDiscription_ATTAIN = "Attain: "
 AQDiscription_LEVEL = "Level: "
 AQDiscription_START = "Starts at: \n"
@@ -150,7 +158,6 @@ AQITEM_GEM = "Gem"
 AQITEM_QUIVER = "Quiver"
 AQITEM_AMMOPOUCH = "Ammo Pouch"
 AQITEM_ENCHANT = "Enchant"
-AQITEM_EMBLEM = "Emblem"
 
 
 
@@ -6214,7 +6221,7 @@ Inst37Quest3_Note = "This daily quest can only be completed on Heroic difficulty
 Inst37Quest3_Prequest = "None"
 Inst37Quest3_Folgequest = "None"
 --
-Inst37Quest3name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance - different NPCs and pre-quest)
@@ -6255,7 +6262,7 @@ Inst37Quest3_HORDE_Note = Inst37Quest3_Note
 Inst37Quest3_HORDE_Prequest = Inst37Quest3_Prequest
 Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
 --
-Inst37Quest3name1_HORDE = Inst37Quest3name1
+-- Awards Justice Points.
 
 
 
@@ -6330,7 +6337,7 @@ Inst38Quest3_Note = "This daily quest can only be completed on Heroic difficulty
 Inst38Quest3_Prequest = "None"
 Inst38Quest3_Folgequest = "None"
 --
-Inst38Quest3name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance - different NPC to turn in)
@@ -6374,7 +6381,7 @@ Inst38Quest3_HORDE_Note = Inst38Quest3_Note
 Inst38Quest3_HORDE_Prequest = Inst38Quest3_Prequest
 Inst38Quest3_HORDE_Folgequest = Inst38Quest3_Folgequest
 --
-Inst38Quest3name1_HORDE = Inst38Quest3name1
+-- Awards Justice Points.
 
 
 
@@ -6395,7 +6402,7 @@ Inst39Quest1_Level = "70"
 Inst39Quest1_Attain = "67"
 Inst39Quest1_Aim = "Magus Zabraxis at Honor Hold wants you to bring her a Fel Ember"
 Inst39Quest1_Location = "Magus Zabraxis (Hellfire Peninsula - Honor Hold; "..YELLOW.."54,66"..WHITE..")"
-Inst39Quest1_Note = "After killing Grand Warlock Netherkurse at "..YELLOW.."[2]"..WHITE..", he'll drop an Amulet. Use the amulet at one of the braziers near his throne to get the Fel Ember."
+Inst39Quest1_Note = "After killing Grand Warlock Netherkurse at "..YELLOW.."[1]"..WHITE..", he'll drop an Amulet. Use the amulet at one of the braziers near his throne to get the Fel Ember."
 Inst39Quest1_Prequest = "None"
 Inst39Quest1_Folgequest = "None"
 --
@@ -6422,7 +6429,7 @@ Inst39Quest3_Level = "70"
 Inst39Quest3_Attain = "67"
 Inst39Quest3_Aim = "Bring Warchief Kargath's Fist to Force Commander Danath Trollbane in Honor Hold."
 Inst39Quest3_Location = "Force Commander Danath Trollbane (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,67"..WHITE..")"
-Inst39Quest3_Note = "Warchief Kargath Bladefist is at "..YELLOW.."[5]"..WHITE.."."
+Inst39Quest3_Note = "Warchief Kargath Bladefist is at "..YELLOW.."[4]"..WHITE.."."
 Inst39Quest3_Prequest = "None"
 Inst39Quest3_Folgequest = "None"
 --
@@ -6436,8 +6443,8 @@ Inst39Quest4 = "4. Imprisoned in the Citadel (Heroic)"
 Inst39Quest4_Level = "70"
 Inst39Quest4_Attain = "70"
 Inst39Quest4_Aim = "Rescue Captain Alina inside Hellfire Citadel before she is executed."
-Inst39Quest4_Location = "Randy Whizzlesprocket (Shattered Halls; "..YELLOW.."Heroic [1]"..WHITE..")"
-Inst39Quest4_Note = "Requires Heroic Dungeon Difficulty.\n\nCaptain Alina is at "..YELLOW.."[5]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event."
+Inst39Quest4_Location = "Randy Whizzlesprocket (Shattered Halls; "..GREEN.."Heroic [1']"..WHITE..")"
+Inst39Quest4_Note = "Requires Heroic Dungeon Difficulty.\n\nCaptain Alina is at "..YELLOW.."[4]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event."
 Inst39Quest4_Prequest = "None"
 Inst39Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -6459,7 +6466,7 @@ Inst39Quest6_Level = "70"
 Inst39Quest6_Attain = "67"
 Inst39Quest6_Aim = "Recover the Tear of the Earthmother from Warbringer O'mrogg and return it to David Wayne at Wayne's Refuge."
 Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
-Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[4]"..WHITE..".\n\nThe item will drop in both Normal and Heroic modes."
+Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE..".\n\nThe item will drop in both Normal and Heroic modes."
 Inst39Quest6_Prequest = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Bane of the Illidari"
 Inst39Quest6PreQuest = "true"
@@ -6471,7 +6478,7 @@ Inst39Quest7_Level = "70"
 Inst39Quest7_Attain = "70"
 Inst39Quest7_Aim = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun."
 Inst39Quest7_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32,63"..WHITE..")"
-Inst39Quest7_Note = "Requires Heroic Dungeon Difficulty.\n\nGrand Warlock Nethekurse is at "..YELLOW.."[2]"..WHITE..". The Book of Forgotten Names drops in Sethekk Halls."
+Inst39Quest7_Note = "Requires Heroic Dungeon Difficulty.\n\nGrand Warlock Nethekurse is at "..YELLOW.."[1]"..WHITE..". The Book of Forgotten Names drops in Sethekk Halls."
 Inst39Quest7_Prequest = "A Colleague's Aid ("..YELLOW.."Karazhan"..WHITE..")"
 Inst39Quest7_Folgequest = "Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
 Inst39Quest7PreQuest = "true"
@@ -6483,11 +6490,11 @@ Inst39Quest8_Level = "70"
 Inst39Quest8_Attain = "70"
 Inst39Quest8_Aim = "Wind Trader Zhareem has asked you to obtain Bladefist's Seal. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst39Quest8_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst39Quest8_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarchief Kargath Bladefist is at "..YELLOW.."[5]"..WHITE.."."
+Inst39Quest8_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarchief Kargath Bladefist is at "..YELLOW.."[4]"..WHITE.."."
 Inst39Quest8_Prequest = "None"
 Inst39Quest8_Folgequest = "None"
 --
-Inst39Quest8name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 9 Alliance
 Inst39Quest9 = "9. Wanted: Shattered Hand Centurions (Daily)"
@@ -6532,7 +6539,7 @@ Inst39Quest2_HORDE_Level = "70"
 Inst39Quest2_HORDE_Attain = "67"
 Inst39Quest2_HORDE_Aim = "Bring Warchief Kargath's Fist to Nazgrel in Thrallmar."
 Inst39Quest2_HORDE_Location = "Nazgrel (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst39Quest2_HORDE_Note = "Warchief Kargath Bladefist is Located at "..YELLOW.."[5]"..WHITE.."."
+Inst39Quest2_HORDE_Note = "Warchief Kargath Bladefist is Located at "..YELLOW.."[4]"..WHITE.."."
 Inst39Quest2_HORDE_Prequest = "None"
 Inst39Quest2_HORDE_Folgequest = "None"
 --
@@ -6546,8 +6553,8 @@ Inst39Quest3_HORDE = "3. Imprisoned in the Citadel (Heroic)"
 Inst39Quest3_HORDE_Level = "70"
 Inst39Quest3_HORDE_Attain = "70"
 Inst39Quest3_HORDE_Aim = "Rescue Captain Boneshatter inside Hellfire Citadel before he is executed."
-Inst39Quest3_HORDE_Location = "Drisella (Shattered Halls; "..YELLOW.."Heroic [1]"..WHITE..")"
-Inst39Quest3_HORDE_Note = "Requires Heroic Dungeon Difficulty.\n\nDrisella is at "..YELLOW.."[5]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event."
+Inst39Quest3_HORDE_Location = "Drisella (Shattered Halls; "..GREEN.."Heroic [1']"..WHITE..")"
+Inst39Quest3_HORDE_Note = "Requires Heroic Dungeon Difficulty.\n\nCaptain Boneshatter is at "..YELLOW.."[4]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event."
 Inst39Quest3_HORDE_Prequest = "None"
 Inst39Quest3_HORDE_Folgequest = "None"
 -- No Rewards for this quest
@@ -6597,7 +6604,7 @@ Inst39Quest7_HORDE_Note = Inst39Quest8_Note
 Inst39Quest7_HORDE_Prequest = Inst39Quest8_Prequest
 Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
 --
-Inst39Quest7name1_HORDE = Inst39Quest8name1
+-- Awards Justice Points.
 
 --Quest 8 Horde  (same as Quest 9 Alliance)
 Inst39Quest8_HORDE = "8. Wanted: Shattered Hand Centurions (Daily)"
@@ -6709,7 +6716,7 @@ Inst41Quest1_Level = "65"
 Inst41Quest1_Attain = "62"
 Inst41Quest1_Aim = "Discover what happened to Earthbinder Rayge, Naturalist Bite, Weeder Greenthumb, and Windcaller Claw. Then, return to Watcher Jhang at Coilfang Reservoir in Zangarmarsh."
 Inst41Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..WHITE..")"
-Inst41Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Weeder Greenthumb is at "..YELLOW.."[3]"..WHITE.." and Naturalist Bite is at "..YELLOW.."[6]"..WHITE..". This quest continues in Underbog. The prequests are optional."
+Inst41Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Weeder Greenthumb is at "..GREEN.."[1']"..WHITE.." and Naturalist Bite is at "..GREEN.."[2']"..WHITE..". This quest continues in Underbog. The prequests are optional."
 Inst41Quest1_Prequest = "Drain Schematics -> Failed Incursion"
 Inst41Quest1_Folgequest = "None"
 Inst41Quest1PreQuest = "true"
@@ -6724,18 +6731,18 @@ Inst41Quest2_Level = "70"
 Inst41Quest2_Attain = "70"
 Inst41Quest2_Aim = "Wind Trader Zhareem has asked you to obtain The Heart of Quagmirran. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst41Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst41Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nQuagmirran is at "..YELLOW.."[7]"..WHITE.."."
+Inst41Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nQuagmirran is at "..YELLOW.."[3]"..WHITE.."."
 Inst41Quest2_Prequest = "None"
 Inst41Quest2_Folgequest = "None"
 --
-Inst41Quest2name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 3 Alliance
 Inst41Quest3 = "3. The Cudgel of Kar'desh (Heroic)"
 Inst41Quest3_Level = "70"
 Inst41Quest3_Attain = "70"
 Inst41Quest3_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
-Inst41Quest3_Location = "Skar'this the Heretic (Slave Pens; "..YELLOW.."Heroic [4]"..WHITE..")"
+Inst41Quest3_Location = "Skar'this the Heretic (Slave Pens; "..GREEN.."Heroic [2']"..WHITE..")"
 Inst41Quest3_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane in "..YELLOW.."Karazhan"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
 Inst41Quest3_Prequest = "None"
 Inst41Quest3_Folgequest = "None"
@@ -6747,7 +6754,7 @@ Inst41Quest4_Level = "80"
 Inst41Quest4_Attain = "75"
 Inst41Quest4_Aim = "Bring the Ice Shards to Luma Skymother."
 Inst41Quest4_Location = "Shards of Ahune (drops from Ice Chest after Ahune, The Frost Lord is killed)"
-Inst41Quest4_Note = "Luma Skymother is at (Slave Pens; "..YELLOW.."Near [1]"..WHITE.."). This item will only drop once per character."
+Inst41Quest4_Note = "Luma Skymother is near where you teleport in using the Dungeon Finder. This item will only drop once per character."
 Inst41Quest4_Prequest = "None"
 Inst41Quest4_Folgequest = "None"
 --
@@ -6781,7 +6788,7 @@ Inst41Quest2_HORDE_Note = Inst41Quest2_Note
 Inst41Quest2_HORDE_Prequest = Inst41Quest2_Prequest
 Inst41Quest2_HORDE_Folgequest = Inst41Quest2_Folgequest
 --
-Inst41Quest2name1_HORDE = Inst41Quest2name1
+-- Awards Justice Points.
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst41Quest3_HORDE = Inst41Quest3
@@ -6823,7 +6830,7 @@ Inst42Quest1_Level = "70"
 Inst42Quest1_Attain = "67"
 Inst42Quest1_Aim = "Watcher Jhang wants you to find and slay Warlord Kalithresh inside Coilfang Reservoir."
 Inst42Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..WHITE..")"
-Inst42Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Warlord Kalithresh is at "..YELLOW.."[4]"..WHITE..". Make sure to destroy the Tanks when Kalithresh uses them."
+Inst42Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Warlord Kalithresh is at "..YELLOW.."[3]"..WHITE..". Make sure to destroy the Tanks when Kalithresh uses them."
 Inst42Quest1_Prequest = "None"
 Inst42Quest1_Folgequest = "None"
 --
@@ -6849,7 +6856,7 @@ Inst42Quest3_Level = "70"
 Inst42Quest3_Attain = "70"
 Inst42Quest3_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
 Inst42Quest3_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst42Quest3_Note = "Requires Heroic Dungeon Difficulty. Warlord Kalithresh is at "..YELLOW.."[4]"..WHITE..". Murmur's Essence comes from Shadow Labyrinth.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
+Inst42Quest3_Note = "Requires Heroic Dungeon Difficulty. Warlord Kalithresh is at "..YELLOW.."[3]"..WHITE..". Murmur's Essence comes from Shadow Labyrinth.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst42Quest3_Prequest = "None"
 Inst42Quest3_Folgequest = "None"
 -- No Rewards for this quest
@@ -6872,7 +6879,7 @@ Inst42Quest5_Level = "70"
 Inst42Quest5_Attain = "68"
 Inst42Quest5_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
 Inst42Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst42Quest5_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..YELLOW.."[2]"..WHITE..", at the bottom of a pool of water. Opening it will spawn an elemental that must be killed to get the fragment. The Third Key Fragment is in the Arcatraz."
+Inst42Quest5_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..", at the bottom of a pool of water on the way to Hydromancer Thespia. Opening it will spawn an elemental that must be killed to get the fragment.\n\nThe Third Key Fragment is in the Arcatraz."
 Inst42Quest5_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest5_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
 Inst42Quest5PreQuest = "true"
@@ -6896,11 +6903,11 @@ Inst42Quest7_Level = "70"
 Inst42Quest7_Attain = "70"
 Inst42Quest7_Aim = "Wind Trader Zhareem has asked you to acquire The Warlord's Treatise. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst42Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst42Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[4]"..WHITE.."."
+Inst42Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[3]"..WHITE.."."
 Inst42Quest7_Prequest = "None"
 Inst42Quest7_Folgequest = "None"
 --
-Inst42Quest7name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6986,7 +6993,7 @@ Inst42Quest7_HORDE_Note = Inst42Quest7_Note
 Inst42Quest7_HORDE_Prequest = Inst42Quest7_Prequest
 Inst42Quest7_HORDE_Folgequest = Inst42Quest7_Folgequest
 --
-Inst42Quest7name1_HORDE = Inst42Quest7name1
+-- Awards Justice Points.
 
 
 
@@ -7003,7 +7010,7 @@ Inst43Quest1_Level = "65"
 Inst43Quest1_Attain = "62"
 Inst43Quest1_Aim = "Discover what happened to Earthbinder Rayge, Naturalist Bite, Weeder Greenthumb, and Windcaller Claw. Then, return to Watcer Jhang at Coilfang Reservoir in Zangarmarsh."
 Inst43Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..WHITE..")"
-Inst43Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Earthbinder Rayge is at "..YELLOW.."[3]"..WHITE..", Windcaller Claw is at "..YELLOW.."[4]"..WHITE..". The prequests do not appear to be necessary to obtain this quest."
+Inst43Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Earthbinder Rayge is at "..GREEN.."[1']"..WHITE..", Windcaller Claw is at "..YELLOW.."[3]"..WHITE..".\n\nThe other two NPCs are in the "..YELLOW.."[Slave Pens]"..WHITE..". The prequests are not required."
 Inst43Quest1_Prequest = "Drain Schematics -> Failed Incursion"
 Inst43Quest1_Folgequest = "None"
 Inst43Quest1PreQuest = "true"
@@ -7018,7 +7025,7 @@ Inst43Quest2_Level = "65"
 Inst43Quest2_Attain = "63"
 Inst43Quest2_Aim = "Gather an Underspore Frond and return it to T'shu at Sporeggar in Zangarmarsh."
 Inst43Quest2_Location = "T'shu (Zangarmarsh - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
-Inst43Quest2_Note = "You must be Neutral with Sporeggar to pick up this quest. The Underspore Frond is just behind Hungarfen, located at "..YELLOW.."[1]"..WHITE.."."
+Inst43Quest2_Note = "You must be Neutral with Sporeggar to pick up this quest. The Underspore Frond is just behind Hungarfen at "..YELLOW.."[1]"..WHITE.."."
 Inst43Quest2_Prequest = "None"
 Inst43Quest2_Folgequest = "None"
 --
@@ -7030,7 +7037,7 @@ Inst43Quest3_Level = "65"
 Inst43Quest3_Attain = "63"
 Inst43Quest3_Aim = "Bring the Brain of the Black Stalker to Khn'nix at Sporeggar in Zangarmarsh."
 Inst43Quest3_Location = "Khn'nix (Zangarmarsh - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
-Inst43Quest3_Note = "You must be Neutral with Sporeggar to pick up this quest. The Black Stalker is located at "..YELLOW.."[5]"..WHITE.."."
+Inst43Quest3_Note = "You must be Neutral with Sporeggar to pick up this quest. The Black Stalker is located at "..YELLOW.."[4]"..WHITE.."."
 Inst43Quest3_Prequest = "None"
 Inst43Quest3_Folgequest = "None"
 --
@@ -7043,11 +7050,11 @@ Inst43Quest4_Level = "70"
 Inst43Quest4_Attain = "70"
 Inst43Quest4_Aim = "Wind Trader Zhareem wants you to obtain a Black Stalker Egg. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst43Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst43Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Stalker is at "..YELLOW.."[5]"..WHITE.."."
+Inst43Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Stalker is at "..YELLOW.."[4]"..WHITE.."."
 Inst43Quest4_Prequest = "None"
 Inst43Quest4_Folgequest = "None"
 --
-Inst43Quest4name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 5 Alliance
 Inst43Quest5 = "5. Bring Me A Shrubbery!"
@@ -7111,7 +7118,7 @@ Inst43Quest4_HORDE_Note = Inst43Quest4_Note
 Inst43Quest4_HORDE_Prequest = Inst43Quest4_Prequest
 Inst43Quest4_HORDE_Folgequest = Inst43Quest4_Folgequest
 --
-Inst43Quest4name1_HORDE = Inst43Quest4name1
+-- Awards Justice Points.
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst43Quest5_HORDE = Inst43Quest5
@@ -7159,7 +7166,7 @@ Inst44Quest2_Note = "This daily quest can only be completed on Heroic difficulty
 Inst44Quest2_Prequest = "None"
 Inst44Quest2_Folgequest = "None"
 --
-Inst44Quest2name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde
@@ -7212,7 +7219,7 @@ Inst44Quest4_HORDE_Note = Inst44Quest2_Note
 Inst44Quest4_HORDE_Prequest = Inst44Quest2_Prequest
 Inst44Quest4_HORDE_Folgequest = Inst44Quest2_Folgequest
 --
-Inst44Quest4name1_HORDE = Inst44Quest2name1
+-- Awards Justice Points.
 
 
 
@@ -7229,7 +7236,7 @@ Inst45Quest1_Level = "66"
 Inst45Quest1_Attain = "64"
 Inst45Quest1_Aim = "Artificer Morphalius wants you to kill 10 Ethereal Crypt Raiders, 5 Ethereal Sorcerers, 5 Nexus Stalkers and 5 Ethereal Spellbinders."
 Inst45Quest1_Location = "Artificer Morphalius (Terokkar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")"
-Inst45Quest1_Note = "Ethereal Transporter Control Panel is at "..YELLOW.."[4]"..WHITE.."."
+Inst45Quest1_Note = "Ethereal Transporter Control Panel is at "..GREEN.."[2']"..WHITE.."."
 Inst45Quest1_Prequest = "None"
 Inst45Quest1_Folgequest = "Someone Else's Hard Work Pays Off"
 -- No Rewards for this quest
@@ -7239,8 +7246,8 @@ Inst45Quest2 = "2. Someone Else's Hard Work Pays Off"
 Inst45Quest2_Level = "66"
 Inst45Quest2_Attain = "64"
 Inst45Quest2_Aim = "Escort Cryo-Engineer Sha'heen safely through the Mana-Tombs so that he can gather the ether held inside Shaffar's ether collectors."
-Inst45Quest2_Location = "Cryo-Engineer Sha'heen (Mana Tombs; "..YELLOW.."[4]"..WHITE..")"
-Inst45Quest2_Note = "To summon Cryo-Engineer Sha'heen, click on the Ethereal Transporter Control Panel at "..YELLOW.."[4]"..WHITE..". He'll spawn along with several other friendly Consortium NPCs.  The entire instance should be cleared before hand. Leave nothing alive. The escort can only be attempted once per instance."
+Inst45Quest2_Location = "Cryo-Engineer Sha'heen (Mana Tombs; "..GREEN.."[2']"..WHITE..")"
+Inst45Quest2_Note = "To summon Cryo-Engineer Sha'heen, click on the Ethereal Transporter Control Panel at "..GREEN.."[2']"..WHITE..". He'll spawn along with several other friendly Consortium NPCs.  The entire instance should be cleared before hand. Leave nothing alive. The escort can only be attempted once per instance."
 Inst45Quest2_Prequest = "Safety Is Job One"
 Inst45Quest2_Folgequest = "None"
 Inst45Quest2FQuest = "true"
@@ -7256,7 +7263,7 @@ Inst45Quest3_Level = "66"
 Inst45Quest3_Attain = "64"
 Inst45Quest3_Aim = "Nexus-Prince Haramad located outside of the Mana-Tombs wants you to kill Nexus-Prince Shaffar and bring Shaffar's Wrappings back to him."
 Inst45Quest3_Location = "Nexus-Prince Haramand (Terrokar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")."
-Inst45Quest3_Note = "Nexus-Prince Shaffar is at "..YELLOW.."[5]"..WHITE.."."
+Inst45Quest3_Note = "Nexus-Prince Shaffar is at "..YELLOW.."[3]"..WHITE.."."
 Inst45Quest3_Prequest = "None"
 Inst45Quest3_Folgequest = "None"
 --
@@ -7271,12 +7278,12 @@ Inst45Quest4_Level = "70"
 Inst45Quest4_Attain = "70"
 Inst45Quest4_Aim = "The Image of Commander Ameer at Bash'ir's Landing in the Blade's Edge Mountains wants you to use the Mana-Tombs Stasis Chamber Key on the Stasis Chamber inside the Mana-Tombs of Auchindoun."
 Inst45Quest4_Location = "Image of Commander Ameer (Blade's Edge Mountains - Bash'ir's Landing; "..YELLOW.."52,15"..WHITE..")."
-Inst45Quest4_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[5]"..WHITE..". You'll need a Mark of the Nexus-King for each."
+Inst45Quest4_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[3]"..WHITE..". You'll need a Mark of the Nexus-King for each."
 Inst45Quest4_Prequest = "The Mark of the Nexus-King"
 Inst45Quest4_Folgequest = "None"
 Inst45Quest4PreQuest = "true"
 --
-Inst45Quest4name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 5 Alliance
 Inst45Quest5 = "5. Wanted: Shaffar's Wondrous Pendant (Heroic Daily)"
@@ -7284,11 +7291,11 @@ Inst45Quest5_Level = "70"
 Inst45Quest5_Attain = "70"
 Inst45Quest5_Aim = "Wind Trader Zhareem wants you to obtain Shaffar's Wondrous Amulet. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst45Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst45Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNexus-Prince Shaffar is at "..YELLOW.."[5]"..WHITE.."."
+Inst45Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNexus-Prince Shaffar is at "..YELLOW.."[3]"..WHITE.."."
 Inst45Quest5_Prequest = "None"
 Inst45Quest5_Folgequest = "None"
 --
-Inst45Quest5name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7344,7 +7351,7 @@ Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
 Inst45Quest4_HORDE_Folgequest = Inst45Quest4_Folgequest
 Inst45Quest4PreQuest_HORDE = Inst45Quest4PreQuest
 --
-Inst45Quest4name1_HORDE = Inst45Quest4name1
+-- Awards Justice Points.
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst45Quest5_HORDE = Inst45Quest5
@@ -7356,7 +7363,7 @@ Inst45Quest5_HORDE_Note = Inst45Quest5_Note
 Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
 Inst45Quest5_HORDE_Folgequest = Inst45Quest5_Folgequest
 --
-Inst45Quest5name1_HORDE = Inst45Quest5name1
+-- Awards Justice Points.
 
 
 
@@ -7373,7 +7380,7 @@ Inst46Quest1_Level = "69"
 Inst46Quest1_Attain = "65"
 Inst46Quest1_Aim = "Kill Darkweaver Syth in the Sethekk halls, then free Lakka from captivity. Return to Isfar outside the Sethekk Halls when you've completed the rescue."
 Inst46Quest1_Location = "Isfar (Terokkar Forest - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest1_Note = "Darkweaver Syth is at "..YELLOW.."[1]"..WHITE..". Lakka is in a cage in the same room. Openning her cage does not spawn enemies."
+Inst46Quest1_Note = "Darkweaver Syth is at "..YELLOW.."[1]"..WHITE..". Lakka is in a cage in the same room."
 Inst46Quest1_Prequest = "None"
 Inst46Quest1_Folgequest = "None"
 --
@@ -7431,7 +7438,7 @@ Inst46Quest5_Note = "This daily quest can only be completed on Heroic difficulty
 Inst46Quest5_Prequest = "None"
 Inst46Quest5_Folgequest = "None"
 --
-Inst46Quest5name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7498,7 +7505,7 @@ Inst46Quest5_HORDE_Note = Inst46Quest5_Note
 Inst46Quest5_HORDE_Prequest = Inst46Quest5_Prequest
 Inst46Quest5_HORDE_Folgequest = Inst46Quest5_Folgequest
 --
-Inst46Quest5name1_HORDE = Inst46Quest5name1
+-- Awards Justice Points.
 
 
 
@@ -7515,7 +7522,7 @@ Inst47Quest1_Level = "70"
 Inst47Quest1_Attain = "68"
 Inst47Quest1_Aim = "Locate Spy To'gun in the Shadow Labyrinth of Auchindoun."
 Inst47Quest1_Location = "Spy Grik'tha (Terokkar Forest - Auchindoun; "..YELLOW.."40,72"..WHITE..")"
-Inst47Quest1_Note = "To'gun is at "..YELLOW.."[1]"..WHITE..", and also shows on minimap"
+Inst47Quest1_Note = "To'gun can be found at "..GREEN.."[1']"..WHITE.." in the hallway beyond Ambassador Hellmaw."
 Inst47Quest1_Prequest = "None"
 Inst47Quest1_Folgequest = "The Soul Devices"
 -- No Rewards for this quest
@@ -7525,7 +7532,7 @@ Inst47Quest2 = "2. The Soul Devices"
 Inst47Quest2_Level = "70"
 Inst47Quest2_Attain = "68"
 Inst47Quest2_Aim = "Steal 5 Soul Devices and deliver them to Spymistress Mehlisah Highcrown at the Terrace of the Light in Shattrath City."
-Inst47Quest2_Location = "Spy To'gun (Shadow Labyrinth; "..YELLOW.."[1]"..WHITE..")"
+Inst47Quest2_Location = "Spy To'gun (Shadow Labyrinth; "..GREEN.."[1']"..WHITE..")"
 Inst47Quest2_Note = "Soul Devices are the dark purple orbs that can be found scattered around the instance. Spymistress Mehlisah Highcrown is at (Shattrath City - Terrace of Light; "..YELLOW.."51,45"..WHITE..")"
 Inst47Quest2_Prequest = "Find Spy To'gun"
 Inst47Quest2_Folgequest = "None"
@@ -7542,7 +7549,7 @@ Inst47Quest3_Level = "70"
 Inst47Quest3_Attain = "68"
 Inst47Quest3_Aim = "Venture inside the Shadow Labyrinth in Auchindoun and obtain the Book of Fel Names from Blackheart the Inciter. Return to Altruis in Nagrand once you've completed this task."
 Inst47Quest3_Location = "Altruis the Sufferer (Nagrand; "..YELLOW.."27,43"..WHITE..")"
-Inst47Quest3_Note = "Blackheart the Inciter is at "..YELLOW.."[3]"..WHITE..". This is the last part of a chain quest that starts in Shadowmoon Valley at "..YELLOW.."61,28"..WHITE.." for Aldor and "..YELLOW.."55,58"..WHITE.." for Scryer"
+Inst47Quest3_Note = "Blackheart the Inciter is at "..YELLOW.."[2]"..WHITE..". This is the last part of a chain quest that starts in Shadowmoon Valley at "..YELLOW.."61,28"..WHITE.." for Aldor and "..YELLOW.."55,58"..WHITE.." for Scryer"
 Inst47Quest3_Prequest = "Illidan's Pupil"
 Inst47Quest3_Folgequest = "Return to the Aldor or Return to the Scryers"
 -- No Rewards for this quest
@@ -7564,7 +7571,7 @@ Inst47Quest5_Level = "70"
 Inst47Quest5_Attain = "68"
 Inst47Quest5_Aim = "Read from the Codex of Blood in the Shadow Labyrinth of Auchindoun."
 Inst47Quest5_Location = "Field Commander Mahfuun (Terrokar Forest - Auchindoun; "..YELLOW.."40,72"..WHITE..")"
-Inst47Quest5_Note = "The Codex of Blood is just in front of Grandmaster Vorpil at "..YELLOW.."[4]"..WHITE.."."
+Inst47Quest5_Note = "The Codex of Blood is just in front of Grandmaster Vorpil at "..YELLOW.."[3]"..WHITE.."."
 Inst47Quest5_Prequest = "Trouble at Auchindoun"
 Inst47Quest5_Folgequest = "Into the Heart of the Labyrinth"
 Inst47Quest5FQuest = "true"
@@ -7575,8 +7582,8 @@ Inst47Quest6 = "6. Into the Heart of the Labyrinth"
 Inst47Quest6_Level = "70"
 Inst47Quest6_Attain = "68"
 Inst47Quest6_Aim = "Destroy Murmur and inform Spymistress Mehlisah Highcrown at the Terrace of Light in Shattrath City of the events that have transpired inside the Shadow Labyrinth."
-Inst47Quest6_Location = "The Codex of Blood (Shadow Labyrinth; "..YELLOW.."[4]"..WHITE..")"
-Inst47Quest6_Note = "Murmur is at "..YELLOW.."[5]"..WHITE..". Spymistress Mehlisah Highcrown is at (Shattrath City - Terrace of Light; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest6_Location = "The Codex of Blood (Shadow Labyrinth; "..YELLOW.."[3]"..WHITE..")"
+Inst47Quest6_Note = "Murmur is at "..YELLOW.."[4]"..WHITE..". Spymistress Mehlisah Highcrown is at (Shattrath City - Terrace of Light; "..YELLOW.."51,45"..WHITE..")"
 Inst47Quest6_Prequest = "The Codex of Blood"
 Inst47Quest6_Folgequest = "None"
 Inst47Quest6FQuest = "true"
@@ -7592,7 +7599,7 @@ Inst47Quest7_Level = "70"
 Inst47Quest7_Attain = "70"
 Inst47Quest7_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
 Inst47Quest7_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst47Quest7_Note = "Requires Heroic Dungeon Difficulty. Murmur is at "..YELLOW.."[5]"..WHITE..". Kalithresh's Trident comes from The Steamvault.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
+Inst47Quest7_Note = "Requires Heroic Dungeon Difficulty. Murmur is at "..YELLOW.."[4]"..WHITE..". Kalithresh's Trident comes from The Steamvault.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst47Quest7_Prequest = "None"
 Inst47Quest7_Folgequest = "None"
 -- No Rewards for this quest
@@ -7603,7 +7610,7 @@ Inst47Quest8_Level = "70"
 Inst47Quest8_Attain = "68"
 Inst47Quest8_Aim = "Khadgar wants you to enter the Shadow Labyrinth at Auchindoun and retrieve the First Key Fragment from an Arcane Container hidden there. Return to Khadgar with the fragment."
 Inst47Quest8_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54,44"..WHITE..")"
-Inst47Quest8_Note = "Part of the Karazhan attunement line. The Arcane Container is next to Murmur at "..YELLOW.."[5]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment."
+Inst47Quest8_Note = "Part of the Karazhan attunement line. The Arcane Container is next to Murmur at "..YELLOW.."[4]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment."
 Inst47Quest8_Prequest = "Khadgar"
 Inst47Quest8_Folgequest = "Entry into Karazhan"
 Inst47Quest8PreQuest = "true"
@@ -7615,7 +7622,7 @@ Inst47Quest9_Level = "69"
 Inst47Quest9_Attain = "67"
 Inst47Quest9_Aim = "Obtain the Lexicon Demonica from Grandmaster Vorpil and bring it to David Wayne at Wayne's Refuge."
 Inst47Quest9_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
-Inst47Quest9_Note = "Grandmaster Vorpil is at "..YELLOW.."[4]"..WHITE..". Completing this quest along with Fresh from the Mechanar ("..YELLOW.."TK: The Mechanar"..WHITE..") will open up two new quests from David Wayne.\n\nThe item will not drop in Heroic mode."
+Inst47Quest9_Note = "Grandmaster Vorpil is at "..YELLOW.."[3]"..WHITE..". Completing this quest along with Fresh from the Mechanar ("..YELLOW.."TK: The Mechanar"..WHITE..") will open up two new quests from David Wayne.\n\nThe item will not drop in Heroic mode."
 Inst47Quest9_Prequest = "Additional Materials"
 Inst47Quest9_Folgequest = "None"
 Inst47Quest9PreQuest = "true"
@@ -7627,11 +7634,11 @@ Inst47Quest10_Level = "70"
 Inst47Quest10_Attain = "70"
 Inst47Quest10_Aim = "Wind Trader Zhareem has asked you to obtain Murmur's Whisper. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst47Quest10_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst47Quest10_Note = "This daily quest can only be completed on Heroic difficulty.\n\nMurmur is at "..YELLOW.."[5]"..WHITE.."."
+Inst47Quest10_Note = "This daily quest can only be completed on Heroic difficulty.\n\nMurmur is at "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest10_Prequest = "None"
 Inst47Quest10_Folgequest = "None"
 --
-Inst47Quest10name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 11 Alliance
 Inst47Quest11 = "11. Wanted: Malicious Instructors (Daily)"
@@ -7768,7 +7775,7 @@ Inst47Quest10_HORDE_Note = Inst47Quest10_Note
 Inst47Quest10_HORDE_Prequest = Inst47Quest10_Prequest
 Inst47Quest10_HORDE_Folgequest = Inst47Quest10_Folgequest
 --
-Inst47Quest10name1_HORDE = Inst47Quest10name1
+-- Awards Justice Points.
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
 Inst47Quest11_HORDE = Inst47Quest11
@@ -7920,7 +7927,7 @@ Inst49Quest6_Note = "This daily quest can only be completed on Heroic difficulty
 Inst49Quest6_Prequest = "None"
 Inst49Quest6_Folgequest = "None"
 --
-Inst49Quest6name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 7 Alliance
 Inst49Quest7 = "7. Wanted: Rift Lords (Daily)"
@@ -8008,7 +8015,7 @@ Inst49Quest6_HORDE_Note = Inst49Quest6_Note
 Inst49Quest6_HORDE_Prequest = Inst49Quest6_Prequest
 Inst49Quest6_HORDE_Folgequest = Inst49Quest6_Folgequest
 --
-Inst49Quest6name1_HORDE = Inst49Quest6name1
+-- Awards Justice Points.
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst49Quest7_HORDE = Inst49Quest7
@@ -8083,7 +8090,7 @@ Inst51Quest2_Level = "68"
 Inst51Quest2_Attain = "66"
 Inst51Quest2_Aim = "Travel to Durnholde Keep and set 5 incendiary charges at the barrels located inside each of the internment lodges using the Pack of Incendiary Bombs given to you by Erozion. Then speak to Thrall in the basement prison of Durnholde Keep."
 Inst51Quest2_Location = "Erozion (Old Hillsbrad; "..YELLOW.."Entrance"..WHITE..")"
-Inst51Quest2_Note = "Thrall is at "..YELLOW.."[2]"..WHITE..". Go to Southshore to hear the story of Ashbringer and see some people with familiar names like Kel'Thuzad and Herod the Bully."
+Inst51Quest2_Note = "Thrall is at "..GREEN.."[1']"..WHITE..".\n\nGo to Southshore to hear the story of Ashbringer and see some people with familiar names like Kel'Thuzad and Herod the Bully."
 Inst51Quest2_Prequest = "Old Hillsbrad"
 Inst51Quest2_Folgequest = "Escape from Durnholde"
 Inst51Quest2FQuest = "true"
@@ -8094,8 +8101,8 @@ Inst51Quest3 = "3. Escape from Durnholde"
 Inst51Quest3_Level = "68"
 Inst51Quest3_Attain = "66"
 Inst51Quest3_Aim = "When you are ready to proceed, let Thrall know. Follow Thrall out of Durnholde Keep and help him free Taretha and fulfill his destiny. Speak with Erozion in Old Hillsbrad should you complete this task."
-Inst51Quest3_Location = "Thrall (Old Hillsbrad; "..YELLOW.."[2]"..WHITE..")"
-Inst51Quest3_Note = "Make sure everyone accepts the quest before anyone tells Thrall to start. Reportedly, the quest can be shared and successfully completed, though. You get 20 tries at rescuing Thrall after that you'll have to reset the instance and you can't kill the last boss without him as Thrall has to make the final blow."
+Inst51Quest3_Location = "Thrall (Old Hillsbrad; "..GREEN.."[1']"..WHITE..")"
+Inst51Quest3_Note = "Make sure everyone accepts the quest before anyone tells Thrall to start. Reportedly, the quest can be shared and successfully completed, though. You get 20 tries at rescuing Thrall after that you'll have to reset the instance and you can't kill the last boss without him."
 Inst51Quest3_Prequest = "Taretha's Diversion"
 Inst51Quest3_Folgequest = "Return to Andormu"
 Inst51Quest3FQuest = "true"
@@ -8123,11 +8130,11 @@ Inst51Quest5_Level = "70"
 Inst51Quest5_Attain = "70"
 Inst51Quest5_Aim = "Wind Trader Zhareem has asked you to obtain the Epoch Hunter's Head. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst51Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst51Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nEpoch Hunter is at "..YELLOW.."[5]"..WHITE.."."
+Inst51Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nEpoch Hunter is at "..YELLOW.."[3]"..WHITE.."."
 Inst51Quest5_Prequest = "None"
 Inst51Quest5_Folgequest = "None"
 --
-Inst51Quest5name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 6 Alliance
 Inst51Quest6 = "6. Nice Hat..."
@@ -8135,7 +8142,7 @@ Inst51Quest6_Level = "68"
 Inst51Quest6_Attain = "66"
 Inst51Quest6_Aim = "Don Carlos has inadvertently challenged you to defeat his younger self in Old Hillsbrad. Afterwards, bring Don Carlos' Hat to him in Tanaris as proof."
 Inst51Quest6_Location = "Don Carlos (Tanaris; "..YELLOW.."54,29"..WHITE..")"
-Inst51Quest6_Note = "Don Carlos patrols the road near "..YELLOW.."[??]"..WHITE.."."
+Inst51Quest6_Note = "Don Carlos patrols the road near "..YELLOW.."[4]"..WHITE.."."
 Inst51Quest6_Prequest = "None"
 Inst51Quest6_Folgequest = "None"
 --
@@ -8204,7 +8211,7 @@ Inst51Quest5_HORDE_Note = Inst51Quest5_Note
 Inst51Quest5_HORDE_Prequest = Inst51Quest5_Prequest
 Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
 --
-Inst51Quest5name1_HORDE = Inst51Quest5name1
+-- Awards Justice Points.
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst51Quest6_HORDE = Inst51Quest6
@@ -8256,8 +8263,8 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 
 Inst53Story = "The decrepit tower of Karazhan once housed one of the greatest powers Azeroth has ever known: the sorcerer Medivh.\n\nSince his death, a terrible curse has pervaded the tower and the surrounding lands.\n\nThe spirits of nobles from nearby Darkshire reportedly walk its halls, suffering a fate worse than death for their curiosity.\n\nMore dangerous spirits wait within Medivh's study, for it was there that he summoned demonic entities to do his bidding.\n\nHowever, the brave and foolish are still relentlessly drawn to Karazhan, tempted by rumors of unspeakable secrets and powerful treasures.\n\nForge a group of ten stalwart heroes, and journey to the tower in Deadwind Pass - but be warned that only those who have achieved level 70 should dare enter."
 Inst53Caption = "Karazhan"
-Inst53QAA = "15 Quests"
-Inst53QAH = "15 Quests"
+Inst53QAA = "14 Quests"
+Inst53QAH = "14 Quests"
 
 --Quest 1 Alliance
 Inst53Quest1 = "1. Assessing the Situation"
@@ -8265,7 +8272,7 @@ Inst53Quest1_Level = "70"
 Inst53Quest1_Attain = "68"
 Inst53Quest1_Aim = "Find Koren inside Karazhan."
 Inst53Quest1_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest1_Note = "Koren is located inside Karazhan, just past Attumen the Huntsman at "..YELLOW.."[6]"..WHITE.."."
+Inst53Quest1_Note = "Koren is located inside Karazhan, just past Attumen the Huntsman at "..GREEN.."[4']"..WHITE.."."
 Inst53Quest1_Prequest = "Arcane Disturbances -> The Violet Eye"
 Inst53Quest1_Folgequest = "Keanna's Log"
 Inst53Quest1PreQuest = "true"
@@ -8276,8 +8283,8 @@ Inst53Quest2 = "2. Keanna's Log"
 Inst53Quest2_Level = "70"
 Inst53Quest2_Attain = "68"
 Inst53Quest2_Aim = "Search the Guest Chambers inside Karazhan for Keanna's Log and bring it to Archmage Alturus outside Karazhan."
-Inst53Quest2_Location = "Koren (Karazhan; "..YELLOW.."[6]"..WHITE..")"
-Inst53Quest2_Note = "The log is in the second room in the hall leading to Maiden of Virtue at "..YELLOW.."[10]"..WHITE..", on a table. Archmage Alturus is at (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")."
+Inst53Quest2_Location = "Koren (Karazhan; "..GREEN.."[4']"..WHITE..")"
+Inst53Quest2_Note = "The log is in the second room in the hall leading to Maiden of Virtue at "..GREEN.."[6']"..WHITE..", on a table. Archmage Alturus is at (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")."
 Inst53Quest2_Prequest = "Assessing the Situation"
 Inst53Quest2_Folgequest = "A Demonic Presence"
 Inst53Quest2FQuest = "true"
@@ -8289,7 +8296,7 @@ Inst53Quest3_Level = "70"
 Inst53Quest3_Attain = "68"
 Inst53Quest3_Aim = "Archmage Alturus wants you to destroy the Demonic Presence at the top of Karazhan."
 Inst53Quest3_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest3_Note = "Prince Malchezaar is at "..YELLOW.."[26]"..WHITE.."."
+Inst53Quest3_Note = "Prince Malchezaar is at "..YELLOW.."[12]"..WHITE.."."
 Inst53Quest3_Prequest = "Keanna's Log"
 Inst53Quest3_Folgequest = "The New Directive"
 Inst53Quest3FQuest = "true"
@@ -8314,7 +8321,7 @@ Inst53Quest5_Level = "70"
 Inst53Quest5_Attain = "70"
 Inst53Quest5_Aim = "Archmage Alturus at Deadwind Pass wants you go into Karazhan and speak to Wravien."
 Inst53Quest5_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest5_Note = "Requires Honored with The Violet Eye. Wravien is located in the Guardians Library beyond The Curator at "..YELLOW.."[17]"..WHITE.."."
+Inst53Quest5_Note = "Requires Honored with The Violet Eye. Wravien is located in the Guardians Library beyond The Curator at "..GREEN.."[10']"..WHITE.."."
 Inst53Quest5_Prequest = "None"
 Inst53Quest5_Folgequest = "In Good Hands"
 -- No Rewards for this quest
@@ -8324,8 +8331,8 @@ Inst53Quest6 = "6. In Good Hands"
 Inst53Quest6_Level = "70"
 Inst53Quest6_Attain = "70"
 Inst53Quest6_Aim = "Speak to Gradav at the Guardian's Library in Karazhan."
-Inst53Quest6_Location = "Wravien (Karazhan; "..YELLOW.."[17]"..WHITE..")"
-Inst53Quest6_Note = "Gradav is in the same room as Wravien at "..YELLOW.."[18]"..WHITE.."."
+Inst53Quest6_Location = "Wravien (Karazhan; "..GREEN.."[10']"..WHITE..")"
+Inst53Quest6_Note = "Gradav is in the same room as Wravien at "..GREEN.."[11']"..WHITE.."."
 Inst53Quest6_Prequest = "Medivh's Journal"
 Inst53Quest6_Folgequest = "Kamsis"
 Inst53Quest6FQuest = "true"
@@ -8336,8 +8343,8 @@ Inst53Quest7 = "7. Kamsis"
 Inst53Quest7_Level = "70"
 Inst53Quest7_Attain = "70"
 Inst53Quest7_Aim = "Speak to Kamsis at the Guardian's Library in Karazhan."
-Inst53Quest7_Location = "Gradav (Karazhan; "..YELLOW.."[18]"..WHITE..")"
-Inst53Quest7_Note = "Kamsis is in the same room as Gradav at "..YELLOW.."[19]"..WHITE.."."
+Inst53Quest7_Location = "Gradav (Karazhan; "..GREEN.."[11']"..WHITE..")"
+Inst53Quest7_Note = "Kamsis is in the same room as Gradav at "..GREEN.."[12']"..WHITE.."."
 Inst53Quest7_Prequest = "In Good Hands"
 Inst53Quest7_Folgequest = "The Shade of Aran"
 Inst53Quest7FQuest = "true"
@@ -8348,8 +8355,8 @@ Inst53Quest8 = "8. The Shade of Aran"
 Inst53Quest8_Level = "70"
 Inst53Quest8_Attain = "70"
 Inst53Quest8_Aim = "Obtain Medivh's Journal and return to Kamsis at the Guardian's Library in Karazhan."
-Inst53Quest8_Location = "Kamsis (Karazhan; "..YELLOW.."[19]"..WHITE..")"
-Inst53Quest8_Note = "Shade of Aran drops the journal at "..YELLOW.."[21]"..WHITE.."."
+Inst53Quest8_Location = "Kamsis (Karazhan; "..GREEN.."[12']"..WHITE..")"
+Inst53Quest8_Note = "Shade of Aran drops the journal at "..YELLOW.."[9]"..WHITE.."."
 Inst53Quest8_Prequest = "Kamsis"
 Inst53Quest8_Folgequest = "The Master's Terrace"
 Inst53Quest8FQuest = "true"
@@ -8360,8 +8367,8 @@ Inst53Quest9 = "9. The Master's Terrace"
 Inst53Quest9_Level = "70"
 Inst53Quest9_Attain = "70"
 Inst53Quest9_Aim = "Go to the Master's Terrace in Karazhan and read Medivh's Journal. Return to Archmage Alturus with Medivh's Journal after completing this task."
-Inst53Quest9_Location = "Kamsis (Karazhan; "..YELLOW.."[19]"..WHITE..")"
-Inst53Quest9_Note = "Archmage Alturus is at (Deadwind Pass; "..YELLOW.."47,75"..WHITE.."). No combat involved. Enjoy the show."
+Inst53Quest9_Location = "Kamsis (Karazhan; "..GREEN.."[12']"..WHITE..")"
+Inst53Quest9_Note = "The Master's Terrace is at "..YELLOW.."[5]"..WHITE..". No combat involved. Enjoy the show.\n\nArchmage Alturus is at (Deadwind Pass; "..YELLOW.."47,75"..WHITE..")."
 Inst53Quest9_Prequest = "The Shade of Aran"
 Inst53Quest9_Folgequest = "Digging Up the Past"
 Inst53Quest9FQuest = "true"
@@ -8373,7 +8380,7 @@ Inst53Quest10_Level = "70"
 Inst53Quest10_Attain = "70"
 Inst53Quest10_Aim = "Archmage Alturus wants you to go to the mountains south of Karazhan in Deadwind Pass and retrieve a Charred Bone Fragment."
 Inst53Quest10_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest10_Note = "The Charred Bone Fragment is located at "..YELLOW.."44,78"..WHITE.." in Deadwind Pass"
+Inst53Quest10_Note = "The Charred Bone Fragment is located at "..YELLOW.."44,78"..WHITE.." in Deadwind Pass."
 Inst53Quest10_Prequest = "The Master's Terrace"
 Inst53Quest10_Folgequest = "A Colleague's Aid"
 Inst53Quest10FQuest = "true"
@@ -8409,7 +8416,7 @@ Inst53Quest13_Level = "70"
 Inst53Quest13_Attain = "70"
 Inst53Quest13_Aim = "Go to the Master's Terrace in Karazhan and use Kalynna's Urn to summon Nightbane. Retrieve the Faint Arcane Essence from Nightbane's corpse and bring it to Archmage Alturus"
 Inst53Quest13_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32,63"..WHITE..")"
-Inst53Quest13_Note = "Nightbane is summoned at "..YELLOW.."[15]"..WHITE..". Return to Archmage Alturus at (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..") to turn in."
+Inst53Quest13_Note = "Nightbane is summoned at "..YELLOW.."[5]"..WHITE..". Return to Archmage Alturus at (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..") to turn in."
 Inst53Quest13_Prequest = "Kalynna's Request"
 Inst53Quest13_Folgequest = "None"
 Inst53Quest13FQuest = "true"
@@ -8424,22 +8431,11 @@ Inst53Quest14_Level = "70"
 Inst53Quest14_Attain = "70"
 Inst53Quest14_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
 Inst53Quest14_Location = "Skar'this the Heretic  (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")"
-Inst53Quest14_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane at "..YELLOW.."[15]"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
+Inst53Quest14_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane at "..YELLOW.."[5]"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
 Inst53Quest14_Prequest = "None"
 Inst53Quest14_Folgequest = "None"
 -- No Rewards for this quest
 
---Quest 15 Alliance
-Inst53Quest15 = "15. Chamber of Secrets"
-Inst53Quest15_Level = "70"
-Inst53Quest15_Attain = "70"
-Inst53Quest15_Aim = "The Argent Dawn Emissary wants you to search the chamber of Tenris Mirkblood within the Servant's Quarters of Karazhan."
-Inst53Quest15_Location = "Argent Dawn Emissary  (Capital Cities and Eastern Plaguelands - Light's Hope Chapel)"
-Inst53Quest15_Note = "This quest was only available during the Scourge Invasion Event in Late October and Early November of 2008.\n\nTo complete the quest, use the scrolls behind Prince Tenris Mirkblood, who is in the Servants Chambers above Attumen the Huntsmen ("..YELLOW.."[5]"..WHITE.."). As with opening a chest, if another player is using the scrolls your quest might not complete. Try again until it does."
-Inst53Quest15_Prequest = "None"
-Inst53Quest15_Folgequest = "None"
---
-Inst53Quest15name1 = "Monster Slayer's Kit"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8612,17 +8608,6 @@ Inst53Quest14_HORDE_Prequest = Inst53Quest14_Prequest
 Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
 -- No Rewards for this quest
 
---Quest 15 Horde  (same as Quest 15 Alliance)
-Inst53Quest15_HORDE = Inst53Quest15
-Inst53Quest15_HORDE_Level = Inst53Quest15_Level
-Inst53Quest15_HORDE_Attain = Inst53Quest15_Attain
-Inst53Quest15_HORDE_Aim = Inst53Quest15_Aim
-Inst53Quest15_HORDE_Location = Inst53Quest15_Location
-Inst53Quest15_HORDE_Note = Inst53Quest15_Note
-Inst53Quest15_HORDE_Prequest = Inst53Quest15_Prequest
-Inst53Quest15_HORDE_Folgequest = Inst53Quest15_Folgequest
---
-Inst53Quest15name1_HORDE = Inst53Quest15name1
 
 
 
@@ -8654,7 +8639,7 @@ Inst54Quest2_Level = "70"
 Inst54Quest2_Attain = "68"
 Inst54Quest2_Aim = "Find Seer Udalo inside the Arcatraz in Tempest Keep."
 Inst54Quest2_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")"
-Inst54Quest2_Note = "Seer Udalo is at "..YELLOW.."[5]"..WHITE..", just before the room with the final boss.\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62,38"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56,59"..WHITE..") for Scryers."
+Inst54Quest2_Note = "Seer Udalo is at "..GREEN.."[1']"..WHITE..", just before the room with the final boss.\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62,38"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56,59"..WHITE..") for Scryers."
 Inst54Quest2_Prequest = "Tablets of Baa'ri -> Akama"
 Inst54Quest2_Folgequest = "A Mysterious Portent"
 Inst54Quest2PreQuest = "true"
@@ -8666,7 +8651,7 @@ Inst54Quest3_Level = "70"
 Inst54Quest3_Attain = "70"
 Inst54Quest3_Aim = "A'dal in Shattrath City wants you to rescue Millhouse Manastorm from the Arcatraz of Tempest Keep."
 Inst54Quest3_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest3_Note = "This quest must be completed in Heroic dungeon difficulty. Millhouse Manastorm is in the room with Warden Mellichar at "..YELLOW.."[6]"..WHITE..".\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
+Inst54Quest3_Note = "This quest must be completed in Heroic dungeon difficulty. Millhouse Manastorm is in the room with Warden Mellichar at "..YELLOW.."[4]"..WHITE..".\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst54Quest3_Prequest = "None"
 Inst54Quest3_Folgequest = "None"
 -- No Rewards for this quest
@@ -8677,7 +8662,7 @@ Inst54Quest4_Level = "70"
 Inst54Quest4_Attain = "68"
 Inst54Quest4_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
 Inst54Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest4_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..YELLOW.."[2]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
+Inst54Quest4_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
 Inst54Quest4_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst54Quest4_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
 Inst54Quest4PreQuest = "true"
@@ -8689,11 +8674,11 @@ Inst54Quest5_Level = "70"
 Inst54Quest5_Attain = "70"
 Inst54Quest5_Aim = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst54Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst54Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[6]"..WHITE.."."
+Inst54Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[4]"..WHITE.."."
 Inst54Quest5_Prequest = "None"
 Inst54Quest5_Folgequest = "None"
 --
-Inst54Quest5name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 6 Alliance
 Inst54Quest6 = "6. Wanted: Arcatraz Sentinels (Daily)"
@@ -8768,7 +8753,7 @@ Inst54Quest5_HORDE_Note = Inst54Quest5_Note
 Inst54Quest5_HORDE_Prequest = Inst54Quest5_Prequest
 Inst54Quest5_HORDE_Folgequest = Inst54Quest5_Folgequest
 --
-Inst54Quest5name1_HORDE = Inst54Quest5name1
+-- Awards Justice Points.
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst54Quest6_HORDE = Inst54Quest6
@@ -8843,7 +8828,7 @@ Inst55Quest4_Note = "This daily quest can only be completed on Heroic difficulty
 Inst55Quest4_Prequest = "None"
 Inst55Quest4_Folgequest = "None"
 --
-Inst55Quest4name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 5 Alliance
 Inst55Quest5 = "5. Wanted: Sunseeker Channelers (Daily)"
@@ -8910,7 +8895,7 @@ Inst55Quest4_HORDE_Note = Inst55Quest4_Note
 Inst55Quest4_HORDE_Prequest = Inst55Quest4_Prequest
 Inst55Quest4_HORDE_Folgequest = Inst55Quest4_Folgequest
 --
-Inst55Quest4name1_HORDE = Inst55Quest4name1
+-- Awards Justice Points.
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst55Quest5_HORDE = Inst55Quest5
@@ -8973,7 +8958,7 @@ Inst56Quest3_Note = "This daily quest can only be completed on Heroic difficulty
 Inst56Quest3_Prequest = "None"
 Inst56Quest3_Folgequest = "None"
 --
-Inst56Quest3name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 4 Alliance
 Inst56Quest4 = "4. Wanted: Tempest-Forge Destroyers (Daily)"
@@ -9028,7 +9013,7 @@ Inst56Quest3_HORDE_Note = Inst56Quest3_Note
 Inst56Quest3_HORDE_Prequest = Inst56Quest3_Prequest
 Inst56Quest3_HORDE_Folgequest = Inst56Quest3_Folgequest
 --
-Inst56Quest3name1_HORDE = Inst56Quest3name1
+-- Awards Justice Points.
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst56Quest4_HORDE = Inst56Quest4
@@ -9147,7 +9132,7 @@ Inst62Quest1_Level = "70"
 Inst62Quest1_Attain = "70"
 Inst62Quest1_Aim = "Find Akama's Deathsworn inside the Black Temple."
 Inst62Quest1_Location = "Xi'ri (Shadowmoon Valley; "..YELLOW.."65,44"..WHITE..")."
-Inst62Quest1_Note = "Spirit of Olum is up and to your left once you enter the Black Temple at "..YELLOW.."[1]"..WHITE..". He will teleport you to Seer Kanai once you've High Warlord Naj'entus at "..YELLOW.."[2]"..WHITE.." and Supremus at "..YELLOW.."[3]"..WHITE.."."
+Inst62Quest1_Note = "Spirit of Olum is up the tunnel once you enter the Black Temple at "..GREEN.."[1']"..WHITE..". He will teleport you to Seer Kanai once you've defeated High Warlord Naj'entus at "..YELLOW.."[1]"..WHITE.." and Supremus at "..YELLOW.."[2]"..WHITE.."."
 Inst62Quest1_Prequest = "The Secret Compromised -> A Distraction for Akama"
 Inst62Quest1_Folgequest = "Redemption of the Ashtongue"
 Inst62Quest1PreQuest = "true"
@@ -9158,8 +9143,8 @@ Inst62Quest2 = "2. Redemption of the Ashtongue"
 Inst62Quest2_Level = "70"
 Inst62Quest2_Attain = "70"
 Inst62Quest2_Aim = "Help Akama wrest control back of his soul by defeating the Shade of Akama inside the Black Temple. Return to Seer Kanai when you've completed this task."
-Inst62Quest2_Location = "Seer Kanai (Black Temple; "..YELLOW.."[5]"..WHITE..")."
-Inst62Quest2_Note = "Shade of Akama is at "..YELLOW.."[4]"..WHITE.."."
+Inst62Quest2_Location = "Seer Kanai (Black Temple; "..GREEN.."[2']"..WHITE..")."
+Inst62Quest2_Note = "Shade of Akama is at "..YELLOW.."[3]"..WHITE.."."
 Inst62Quest2_Prequest = "Seek Out the Ashtongue"
 Inst62Quest2_Folgequest = "The Fall of the Betrayer"
 Inst62Quest2FQuest = "true"
@@ -9170,8 +9155,8 @@ Inst62Quest3 = "3. The Fall of the Betrayer"
 Inst62Quest3_Level = "70"
 Inst62Quest3_Attain = "70"
 Inst62Quest3_Aim = "Seer Kanai wants you to defeat Illidan inside the Black Temple."
-Inst62Quest3_Location = "Seer Kanai (Black Temple; "..YELLOW.."[5]"..WHITE..")."
-Inst62Quest3_Note = "Illidan Stormrage is at "..YELLOW.."[11]"..WHITE.."."
+Inst62Quest3_Location = "Seer Kanai (Black Temple; "..GREEN.."[2']"..WHITE..")."
+Inst62Quest3_Note = "Illidan Stormrage is at "..YELLOW.."[9]"..WHITE.."."
 Inst62Quest3_Prequest = "Redemption of the Ashtongue"
 Inst62Quest3_Folgequest = "None"
 Inst62Quest3FQuest = "true"
@@ -9244,7 +9229,7 @@ Inst63Quest2_Level = "70"
 Inst63Quest2_Attain = "70"
 Inst63Quest2_Aim = "Enter Zul'Aman and visit Halazzi's Chamber, Jan'alai's Platform, and Akil'zon's Platform. Report the details of those areas to Budd, at his camp in the Ghostlands."
 Inst63Quest2_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest2_Note = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..". \n\nReportedly, the bosses do not need to be faught in order to get quest credit. Just get near them without aggroing." 
+Inst63Quest2_Note = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..". \n\nReportedly, the bosses do not need to be fought in order to get quest credit. Just get near them without aggroing." 
 Inst63Quest2_Prequest = "Promises, Promises..."
 Inst63Quest2_Folgequest = "Hex Lord? Hah!"
 Inst63Quest2FQuest = "true"
@@ -9256,12 +9241,12 @@ Inst63Quest3_Level = "70"
 Inst63Quest3_Attain = "70"
 Inst63Quest3_Aim = "Budd Nedreck in Hatchet Hills wants you to kill Hex Lord Malacrass in Zul'Aman."
 Inst63Quest3_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest3_Note = "Hex Lord Malacrass is at "..YELLOW.."[6]"..WHITE.."."
+Inst63Quest3_Note = "Hex Lord Malacrass is at "..YELLOW.."[5]"..WHITE.."."
 Inst63Quest3_Prequest = "X Marks... Your Doom!"
 Inst63Quest3_Folgequest = "None"
 Inst63Quest3FQuest = "true"
 --
-Inst63Quest3name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 4 Alliance
 Inst63Quest4 = "4. Tuskin' Raiders"
@@ -9280,7 +9265,7 @@ Inst63Quest5_Level = "70"
 Inst63Quest5_Attain = "70"
 Inst63Quest5_Aim = "Prigmon has tasked you with locating and assisting his cousin Zungam, somewhere within Zul'Aman."
 Inst63Quest5_Location = "Prigmon (Ghostlands - Hatchet Hills; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest5_Note = "Zungam is in a hut at "..YELLOW.."[5]"..WHITE..". After you release him, he gives you the followup quest."
+Inst63Quest5_Note = "Zungam is in a hut at "..GREEN.."[1']"..WHITE..". After you release him, he gives you the followup quest."
 Inst63Quest5_Prequest = "Tuskin' Raiders"
 Inst63Quest5_Folgequest = "Playin' With Dolls"
 Inst63Quest5FQuest = "true"
@@ -9291,7 +9276,7 @@ Inst63Quest6 = "6. Playin' With Dolls"
 Inst63Quest6_Level = "70"
 Inst63Quest6_Attain = "70"
 Inst63Quest6_Aim = "Take the Tattered Voodoo Doll to Griftah in Shattrath City."
-Inst63Quest6_Location = "Zungam (Zul'Aman; "..YELLOW.."[5]"..WHITE..")"
+Inst63Quest6_Location = "Zungam (Zul'Aman; "..GREEN.."[1']"..WHITE..")"
 Inst63Quest6_Note = "Griftah is at (Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE..")."
 Inst63Quest6_Prequest = "A Troll Among Trolls"
 Inst63Quest6_Folgequest = "None"
@@ -9304,7 +9289,7 @@ Inst63Quest7 = "7. Blood of the Warlord"
 Inst63Quest7_Level = "70"
 Inst63Quest7_Attain = "70"
 Inst63Quest7_Aim = "Bring the Blood of Zul'jin to Budd at his camp in the Ghostlands, outside Zul'Aman."
-Inst63Quest7_Location = "Blood of Zul'jin (drops from Zul'jin; "..YELLOW.."[7]"..WHITE..")"
+Inst63Quest7_Location = "Blood of Zul'jin (drops from Zul'jin; "..YELLOW.."[6]"..WHITE..")"
 Inst63Quest7_Note = "Only one person in the raid can loot this item and the quest can only be done one time."
 Inst63Quest7_Prequest = "None"
 Inst63Quest7_Folgequest = "Undercover Sister"
@@ -9321,7 +9306,7 @@ Inst63Quest8_Prequest = "Blood of the Warlord"
 Inst63Quest8_Folgequest = "None"
 Inst63Quest8FQuest = "true"
 --
-Inst63Quest8name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9360,7 +9345,7 @@ Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
 Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
 Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
 --
-Inst63Quest3name1_HORDE = Inst63Quest3name1
+-- Awards Justice Points.
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst63Quest4_HORDE = Inst63Quest4
@@ -9420,7 +9405,7 @@ Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
 Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
 Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
 --
-Inst63Quest8name1_HORDE = Inst63Quest8name1
+-- Awards Justice Points.
 
 
 
@@ -9449,11 +9434,11 @@ Inst67Quest2_Level = "70"
 Inst67Quest2_Attain = "70"
 Inst67Quest2_Aim = "Wind Trader Zhareem has asked you to obtain The Signet Ring of Prince Kael'thas. Deliver it to him in Shattrath's Lower City to collect the reward."
 Inst67Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst67Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPrince Kael'thas Sunstrider is at "..YELLOW.."[6]"..WHITE.."."
+Inst67Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPrince Kael'thas Sunstrider is at "..YELLOW.."[4]"..WHITE.."."
 Inst67Quest2_Prequest = "None"
 Inst67Quest2_Folgequest = "None"
 --
-Inst67Quest2name1 = "Badge of Justice"
+-- Awards Justice Points.
 
 --Quest 3 Alliance
 Inst67Quest3 = "3. Magisters' Terrace"
@@ -9461,7 +9446,7 @@ Inst67Quest3_Level = "70"
 Inst67Quest3_Attain = "70"
 Inst67Quest3_Aim = "Exarch Larethor at the Shattered Sun Staging Area wants you to search Magisters' Terrace and find Tyrith, a blood elf spy."
 Inst67Quest3_Location = "Exarch Larethor (Isle of Quel'Danas - Shattered Sun Staging Area; "..YELLOW.."47,31"..WHITE..")"
-Inst67Quest3_Note = "Tyrith is inside the instance at "..YELLOW.."[2]"..WHITE..". This questline unlocks heroic mode.\n\nThe prequest is available from either Adyen the Lightwarden (Shattrath City - Aldor Rise; "..YELLOW.."35,36"..WHITE..") or Dathris Sunstriker (Shattrath City - Scryers Tier; "..YELLOW.."55,80"..WHITE..")."
+Inst67Quest3_Note = "Tyrith is inside the instance at "..GREEN.."[1']"..WHITE..". This questline unlocks heroic mode.\n\nThe prequest is available from either Adyen the Lightwarden (Shattrath City - Aldor Rise; "..YELLOW.."35,36"..WHITE..") or Dathris Sunstriker (Shattrath City - Scryers Tier; "..YELLOW.."55,80"..WHITE..")."
 Inst67Quest3_Prequest = "Crisis at the Sunwell or Duty Calls"
 Inst67Quest3_Folgequest = "The Scryer's Scryer"
 Inst67Quest3PreQuest = "true"
@@ -9472,8 +9457,8 @@ Inst67Quest4 = "4. The Scryer's Scryer"
 Inst67Quest4_Level = "70"
 Inst67Quest4_Attain = "70"
 Inst67Quest4_Aim = "Tyrith wants you to use the orb on the balcony in Magisters' Terrace."
-Inst67Quest4_Location = "Tyrith (Magisters' Terrace; "..YELLOW.."[2]"..WHITE..")"
-Inst67Quest4_Note = "The Scrying Orb is at "..YELLOW.."[4]"..WHITE..". After the 'movie' clip, Kalecgos will appear to start the next quest."
+Inst67Quest4_Location = "Tyrith (Magisters' Terrace; "..GREEN.."[1']"..WHITE..")"
+Inst67Quest4_Note = "The Scrying Orb is at "..GREEN.."[2']"..WHITE..". After the 'movie' clip, Kalecgos will appear to start the next quest."
 Inst67Quest4_Prequest = "Magisters' Terrace"
 Inst67Quest4_Folgequest = "Hard to Kill"
 Inst67Quest4FQuest = "true"
@@ -9484,8 +9469,8 @@ Inst67Quest5 = "5. Hard to Kill"
 Inst67Quest5_Level = "70"
 Inst67Quest5_Attain = "70"
 Inst67Quest5_Aim = "Kalecgos has asked you to defeat Kael'thas in Magisters' Terrace. You are to take Kael's head and report back to Larethor at the Shattered Sun Staging Area."
-Inst67Quest5_Location = "Kalecgos (Magisters' Terrace; "..YELLOW.."[4]"..WHITE..")"
-Inst67Quest5_Note = "Prince Kael'thas Sunstrider is at "..YELLOW.."[6]"..WHITE..". Completing this quest also enables you to do Magisters' Terrace on Heroic mode.\n\nLarethor is at (Isle of Quel'Danas - Shattered Sun Staging Area; "..YELLOW.."47,31"..WHITE..")."
+Inst67Quest5_Location = "Kalecgos (Magisters' Terrace; "..GREEN.."[2']"..WHITE..")"
+Inst67Quest5_Note = "Prince Kael'thas Sunstrider is at "..YELLOW.."[4]"..WHITE..". Completing this quest also enables you to do Magisters' Terrace on Heroic mode.\n\nLarethor is at (Isle of Quel'Danas - Shattered Sun Staging Area; "..YELLOW.."47,31"..WHITE..")."
 Inst67Quest5_Prequest = "The Scryer's Scryer"
 Inst67Quest5_Folgequest = "None"
 Inst67Quest5FQuest = "true"
@@ -9517,7 +9502,7 @@ Inst67Quest2_HORDE_Note = Inst67Quest2_Note
 Inst67Quest2_HORDE_Prequest = Inst67Quest2_Prequest
 Inst67Quest2_HORDE_Folgequest = Inst67Quest2_Folgequest
 --
-Inst67Quest2name1_HORDE = Inst67Quest2name1
+-- Awards Justice Points.
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst67Quest3_HORDE = Inst67Quest3
@@ -9606,8 +9591,8 @@ Inst69Quest1 = "1. Dispelling Illusions"
 Inst69Quest1_Level = "80"
 Inst69Quest1_Attain = "78"
 Inst69Quest1_Aim = "Chromie wants you to use the Arcane Disruptor on the suspicious crates in Stratholme Past, then speak to her near the entrance to Stratholme."
-Inst69Quest1_Location = "Chromie (Stratholme Past; "..YELLOW.."[1]"..WHITE..")"
-Inst69Quest1_Note = "The crates are found near the houses along the road on the way to Stratholme. After completion, you can turn the quest in to another Chromie at "..YELLOW.."[2]"..WHITE.."."
+Inst69Quest1_Location = "Chromie (Stratholme Past; "..GREEN.."[1']"..WHITE..")"
+Inst69Quest1_Note = "The crates are found near the houses along the road on the way to Stratholme. After completion, you can turn the quest in to another Chromie at "..GREEN.."[1']"..WHITE.."."
 Inst69Quest1_Prequest = "None"
 Inst69Quest1_Folgequest = "A Royal Escort"
 -- No Rewards for this quest
@@ -9617,7 +9602,7 @@ Inst69Quest2 = "2. A Royal Escort"
 Inst69Quest2_Level = "80"
 Inst69Quest2_Attain = "78"
 Inst69Quest2_Aim = "Chromie has asked you to accompany Arthas in the Culling of Stratholme. You are to speak with her again after Mal'Ganis is defeated."
-Inst69Quest2_Location = "Chromie (Stratholme Past; "..YELLOW.."[2]"..WHITE..")"
+Inst69Quest2_Location = "Chromie (Stratholme Past; "..GREEN.."[1']"..WHITE..")"
 Inst69Quest2_Note = "Mal'Ganis is at "..YELLOW.."[5]"..WHITE..". Chromie will appear there after the event is over."
 Inst69Quest2_Prequest = "Dispelling Illusions"
 Inst69Quest2_Folgequest = "None"
@@ -9716,7 +9701,7 @@ Inst70Quest2_HORDE_Level = "71"
 Inst70Quest2_HORDE_Attain = "70"
 Inst70Quest2_HORDE_Aim = "Dark Ranger Marrah has asked you to kill Ingvar the Plunderer in Utgarde Keep, then bring his head to High Executor Anselm at Vengeance Landing."
 Inst70Quest2_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..YELLOW.."[A] Entrance"..WHITE..")"
-Inst70Quest2_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance.\n\nIngvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest2_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance.\n\nIngvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nHigh Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
 Inst70Quest2_HORDE_Prequest = "None"
 Inst70Quest2_HORDE_Folgequest = "None"
 --
@@ -9730,7 +9715,7 @@ Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "70"
 Inst70Quest3_HORDE_Aim = "Dark Ranger Marrah wants you to steal 5 Vrykul Weapons from Utgarde Keep and bring them to High Executor Anselm in Vengeance Landing."
 Inst70Quest3_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..YELLOW.."[A] Entrance"..WHITE..")"
-Inst70Quest3_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance.\n\nThe Vrykul Weapons can be found along walls scattered around the instance.\n\nThe quest turns in to High Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest3_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance. The Vrykul Weapons can be found along walls scattered around the instance.\n\nHigh Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
 Inst70Quest3_HORDE_Prequest = "None"
 Inst70Quest3_HORDE_Folgequest = "None"
 --
@@ -9826,7 +9811,7 @@ Inst72Quest1_Level = "71"
 Inst72Quest1_Attain = "70"
 Inst72Quest1_Aim = "Librarian Serrah wants you to enter the Nexus and recover Berinand's Research."
 Inst72Quest1_Location = "Librarian Serrah (Borean Tundra - Transitus Shield; "..YELLOW.."33.4, 34.3"..WHITE..")"
-Inst72Quest1_Note = "The Research Book is on the ground in the hall with the frozen NPCs at "..YELLOW.."[4]"..WHITE.."."
+Inst72Quest1_Note = "The Research Book is on the ground in the hall with the frozen NPCs at "..YELLOW.."[1]"..WHITE.."."
 Inst72Quest1_Prequest = "None"
 Inst72Quest1_Folgequest = "None"
 --
@@ -9841,7 +9826,7 @@ Inst72Quest2_Level = "71"
 Inst72Quest2_Attain = "70"
 Inst72Quest2_Aim = "Archmage Berinand in the Transitus Shield wants you to use the Interdimensional Refabricator near the rift in the Nexus."
 Inst72Quest2_Location = "Archmage Berinand (Borean Tundra - Transitus Shield; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest2_Note = "Use the Interdimensional Refabricator on the edge of the platform where Anomalus is, at "..YELLOW.."[2]"..WHITE.."."
+Inst72Quest2_Note = "Use the Interdimensional Refabricator on the edge of the platform where Anomalus is, at "..YELLOW.."[3]"..WHITE.."."
 Inst72Quest2_Prequest = "Reading the Meters"
 Inst72Quest2_Folgequest = "None"
 Inst72Quest2PreQuest = "true"
@@ -10250,7 +10235,7 @@ Inst76Quest1_Level = "80"
 Inst76Quest1_Attain = "80"
 Inst76Quest1_Aim = "Kilix the Unraveler in the Pit of Narjun wants you to obtain an Ahn'kahar Watcher's Corpse and place it upon the Ahn'kahet Brazier in Ahn'kahet."
 Inst76Quest1_Location = "Kilix the Unraveler (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst76Quest1_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Ahn'kahet Brazier is behind Herald Volazj at "..YELLOW.."[6]"..WHITE..". The corpse has a 1 hour duration timer and will disappear if you leave the instance while alive."
+Inst76Quest1_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Ahn'kahet Brazier is behind Herald Volazj at "..GREEN.."[1']"..WHITE..". The corpse has a 1 hour duration timer and will disappear if you leave the instance while alive or dead."
 Inst76Quest1_Prequest = "None"
 Inst76Quest1_Folgequest = "None"
 -- No Rewards for this quest
@@ -10333,8 +10318,8 @@ Inst77Quest1 = "1. Halls of Stone"
 Inst77Quest1_Level = "78"
 Inst77Quest1_Attain = "76"
 Inst77Quest1_Aim = "Brann Bronzebeard wants you to accompany him as he uncovers the secrets that lie in the Halls of Stone."
-Inst77Quest1_Location = "Brann Bronzebeard (Ulduar: Halls of Stone; "..YELLOW.."[3]"..WHITE..")"
-Inst77Quest1_Note = "Follow Brann Bronzebeard into the nearby chamber at "..YELLOW.."[4]"..WHITE.." and protect him from waves of mobs while he works on the stone tablets there. Upon his success, the Tribunal Chest next to the tablets can be opened.\n\nTalk to him again and he'll run to the door outside "..YELLOW.."[5]"..WHITE..". You do not need to follow him, he'll wait for you there. Once defeating Sjonnir the Ironshaper, the quest can be turned into Brahn Bronzebeard."
+Inst77Quest1_Location = "Brann Bronzebeard (Ulduar: Halls of Stone; "..GREEN.."[2']"..WHITE..")"
+Inst77Quest1_Note = "Follow Brann Bronzebeard into the nearby chamber at "..YELLOW.."[3]"..WHITE.." and protect him from waves of mobs while he works on the stone tablets there. Upon his success, the Tribunal Chest next to the tablets can be opened.\n\nTalk to him again and he'll run to the door outside "..YELLOW.."[4]"..WHITE..". You do not need to follow him, he'll wait for you there. Once defeating Sjonnir the Ironshaper, the quest can be turned into Brahn Bronzebeard."
 Inst77Quest1_Prequest = "None"
 Inst77Quest1_Folgequest = "None"
 --
@@ -10484,7 +10469,7 @@ Inst80Quest1_Level = "75"
 Inst80Quest1_Attain = "73"
 Inst80Quest1_Aim = "Drakuru wants you to use Drakuru's Elixir at his brazier inside Drak'Tharon. Using Drakuru's Elixir there will require 5 Enduring Mojo."
 Inst80Quest1_Location = "Image of Drakuru"
-Inst80Quest1_Note = "Drakuru's Brazier is behind The Prophet Tharon'ja at "..YELLOW.."[6]"..WHITE..". Enduring Mojo drops inside Drak'Tharon Keep."
+Inst80Quest1_Note = "Drakuru's Brazier is behind The Prophet Tharon'ja at "..GREEN.."[3']"..WHITE..". Enduring Mojo drops inside Drak'Tharon Keep."
 Inst80Quest1_Prequest = "Truce? -> Voices From the Dust"
 Inst80Quest1_Folgequest = "None"
 Inst80Quest1PreQuest = "true"
@@ -10500,7 +10485,7 @@ Inst80Quest2_Level = "74"
 Inst80Quest2_Attain = "73"
 Inst80Quest2_Aim = "Mack at Granite Springs wants you to go into Drak'Tharon and find out what became of Kurzel."
 Inst80Quest2_Location = "Mack Fearsen (Grizzly Hills - Granite Springs; "..YELLOW.."16.6, 48.1"..WHITE..")"
-Inst80Quest2_Note = "Kurzel is one of the webbed victims at "..YELLOW.."[2]"..WHITE..". Attack the webbed victims until you find her."
+Inst80Quest2_Note = "Kurzel is one of the webbed victims at "..GREEN.."[1']"..WHITE..". Attack the webbed victims until you find her."
 Inst80Quest2_Prequest = "Seared Scourge"
 Inst80Quest2_Folgequest = "Head Games"
 Inst80Quest2PreQuest = "true"
@@ -10514,8 +10499,8 @@ Inst80Quest3 = "3. Head Games"
 Inst80Quest3_Level = "74"
 Inst80Quest3_Attain = "73"
 Inst80Quest3_Aim = "Kurzel wants you to use Kurzel's Blouse Scrap at the corpse of Novos the Summoner, then take the Ichor-Stained Cloth to Mack."
-Inst80Quest3_Location = "Kurzel (Drak'Tharon Keep; "..YELLOW.."[2]"..WHITE..")"
-Inst80Quest3_Note = "Novos the Summoner is at "..YELLOW.."[3]"..WHITE..". Mack Fearsen is at (Grizzly Hills - Granite Springs; "..YELLOW.."16.6, 48.1"..WHITE..")"
+Inst80Quest3_Location = "Kurzel (Drak'Tharon Keep; "..GREEN.."[1']"..WHITE..")"
+Inst80Quest3_Note = "Novos the Summoner is at "..YELLOW.."[2]"..WHITE..". Mack Fearsen is at (Grizzly Hills - Granite Springs; "..YELLOW.."16.6, 48.1"..WHITE..")"
 Inst80Quest3_Prequest = "Search and Rescue"
 Inst80Quest3_Folgequest = "None"
 Inst80Quest3FQuest = "true"
@@ -10705,7 +10690,7 @@ Inst82Quest2_Level = "77"
 Inst82Quest2_Attain = "75"
 Inst82Quest2_Aim = "Warden Alturas wants you to enter the Violet Hold and put and end to the blue dragon invasion force. You are to report back to him once Cyanigosa is slain."
 Inst82Quest2_Location = "Warden Alturas (Dalaran - The Violet Hold; "..YELLOW.."60.8, 62.7"..WHITE..")"
-Inst82Quest2_Note = "Cyanigosa is at "..YELLOW.."[6]"..WHITE.."."
+Inst82Quest2_Note = "Cyanigosa is in the final wave."
 Inst82Quest2_Prequest = "Discretion is Key"
 Inst82Quest2_Folgequest = "None"
 Inst82Quest2FQuest = "true"
@@ -10935,8 +10920,8 @@ Inst86Quest2 = "2. The Celestial Planetarium"
 Inst86Quest2_Level = "80"
 Inst86Quest2_Attain = "80"
 Inst86Quest2_Aim = "Prospector Doren at the Archivum in Ulduar wants you to locate the entrance to the Celestial Planetarium."
-Inst86Quest2_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest2_Note = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[8]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests."
+Inst86Quest2_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest2_Note = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[7]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests."
 Inst86Quest2_Prequest = "Archivum Data Disc"
 Inst86Quest2_Folgequest = "Four more quests"
 Inst86Quest2FQuest = "true"
@@ -10947,8 +10932,8 @@ Inst86Quest3 = "3. Hodir's Sigil"
 Inst86Quest3_Level = "80"
 Inst86Quest3_Attain = "80"
 Inst86Quest3_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Hodir's Sigil."
-Inst86Quest3_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest3_Note = "Hodir is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
+Inst86Quest3_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest3_Note = "Hodir is at "..YELLOW.."The Keepers [9]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
 Inst86Quest3_Prequest = "The Celestial Planetarium"
 Inst86Quest3_Folgequest = "None"
 Inst86Quest3PreQuest = "true"
@@ -10959,8 +10944,8 @@ Inst86Quest4 = "4. Thorim's Sigil"
 Inst86Quest4_Level = "80"
 Inst86Quest4_Attain = "80"
 Inst86Quest4_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Thorim's Sigil."
-Inst86Quest4_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest4_Note = "Thorim is at "..YELLOW.."The Keepers [11]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
+Inst86Quest4_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest4_Note = "Thorim is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
 Inst86Quest4_Prequest = "The Celestial Planetarium"
 Inst86Quest4_Folgequest = "None"
 Inst86Quest4PreQuest = "true"
@@ -10971,8 +10956,8 @@ Inst86Quest5 = "5. Freya's Sigil"
 Inst86Quest5_Level = "80"
 Inst86Quest5_Attain = "80"
 Inst86Quest5_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Freya's Sigil."
-Inst86Quest5_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest5_Note = "Freya is at "..YELLOW.."The Keepers [12]"..WHITE..".  She must be killed on Hard Mode for the Sigil to drop."
+Inst86Quest5_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest5_Note = "Freya is at "..YELLOW.."The Keepers [11]"..WHITE..".  She must be killed on Hard Mode for the Sigil to drop."
 Inst86Quest5_Prequest = "The Celestial Planetarium"
 Inst86Quest5_Folgequest = "None"
 Inst86Quest5PreQuest = "true"
@@ -10983,8 +10968,8 @@ Inst86Quest6 = "6. Mimiron's Sigil"
 Inst86Quest6_Level = "80"
 Inst86Quest6_Attain = "80"
 Inst86Quest6_Aim = "Prospector Doren at the Ulduar Archivum wants you to obtain Mimiron's Sigil."
-Inst86Quest6_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest6_Note = "Mimiron is at "..YELLOW.."Spark of Imagination [13]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
+Inst86Quest6_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest6_Note = "Mimiron is at "..YELLOW.."Spark of Imagination [15]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
 Inst86Quest6_Prequest = "The Celestial Planetarium"
 Inst86Quest6_Folgequest = "None"
 Inst86Quest6PreQuest = "true"
@@ -10995,7 +10980,7 @@ Inst86Quest7 = "7. Algalon"
 Inst86Quest7_Level = "80"
 Inst86Quest7_Attain = "80"
 Inst86Quest7_Aim = "Bring the Sigils of the Watchers to the Archivum Console in Ulduar."
-Inst86Quest7_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
+Inst86Quest7_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest7_Note = "Completing this quest allows you to fight Algalon the Observer in the Celestial Planetarium."
 Inst86Quest7_Prequest = "The four Sigil quests"
 Inst86Quest7_Folgequest = "None"
@@ -11035,8 +11020,8 @@ Inst86Quest10 = "10. Heroic: The Celestial Planetarium"
 Inst86Quest10_Level = "80"
 Inst86Quest10_Attain = "80"
 Inst86Quest10_Aim = "Prospector Doren at the Archivum in Ulduar wants you to locate the entrance to the Celestial Planetarium."
-Inst86Quest10_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest10_Note = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[8]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests."
+Inst86Quest10_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest10_Note = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[7]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests."
 Inst86Quest10_Prequest = "Archivum Data Disc"
 Inst86Quest10_Folgequest = "Four more quests"
 Inst86Quest10FQuest = "true"
@@ -11047,8 +11032,8 @@ Inst86Quest11 = "11. Heroic: Hodir's Sigil"
 Inst86Quest11_Level = "80"
 Inst86Quest11_Attain = "80"
 Inst86Quest11_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Hodir's Sigil."
-Inst86Quest11_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest11_Note = "Hodir is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
+Inst86Quest11_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest11_Note = "Hodir is at "..YELLOW.."The Keepers [9]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
 Inst86Quest11_Prequest = "The Celestial Planetarium"
 Inst86Quest11_Folgequest = "None"
 Inst86Quest11PreQuest = "true"
@@ -11059,8 +11044,8 @@ Inst86Quest12 = "12. Heroic: Thorim's Sigil"
 Inst86Quest12_Level = "80"
 Inst86Quest12_Attain = "80"
 Inst86Quest12_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Thorim's Sigil."
-Inst86Quest12_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest12_Note = "Thorim is at "..YELLOW.."The Keepers [11]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
+Inst86Quest12_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest12_Note = "Thorim is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
 Inst86Quest12_Prequest = "The Celestial Planetarium"
 Inst86Quest12_Folgequest = "None"
 Inst86Quest12PreQuest = "true"
@@ -11071,8 +11056,8 @@ Inst86Quest13 = "13. Heroic: Freya's Sigil"
 Inst86Quest13_Level = "80"
 Inst86Quest13_Attain = "80"
 Inst86Quest13_Aim = "Prospector Doren at the Archivum in Ulduar wants you to obtain Freya's Sigil."
-Inst86Quest13_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest13_Note = "Freya is at "..YELLOW.."The Keepers [12]"..WHITE..".  She must be killed on Heroic Hard Mode for the Sigil to drop."
+Inst86Quest13_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest13_Note = "Freya is at "..YELLOW.."The Keepers [11]"..WHITE..".  She must be killed on Heroic Hard Mode for the Sigil to drop."
 Inst86Quest13_Prequest = "The Celestial Planetarium"
 Inst86Quest13_Folgequest = "None"
 Inst86Quest13PreQuest = "true"
@@ -11083,8 +11068,8 @@ Inst86Quest14 = "14. Heroic: Mimiron's Sigil"
 Inst86Quest14_Level = "80"
 Inst86Quest14_Attain = "80"
 Inst86Quest14_Aim = "Prospector Doren at the Ulduar Archivum wants you to obtain Mimiron's Sigil."
-Inst86Quest14_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
-Inst86Quest14_Note = "Mimiron is at "..YELLOW.."Spark of Imagination [13]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
+Inst86Quest14_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
+Inst86Quest14_Note = "Mimiron is at "..YELLOW.."Spark of Imagination [15]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
 Inst86Quest14_Prequest = "The Celestial Planetarium"
 Inst86Quest14_Folgequest = "None"
 Inst86Quest14PreQuest = "true"
@@ -11095,7 +11080,7 @@ Inst86Quest15 = "15. Heroic: Algalon"
 Inst86Quest15_Level = "80"
 Inst86Quest15_Attain = "80"
 Inst86Quest15_Aim = "Bring the Sigils of the Watchers to the Archivum Console in Ulduar."
-Inst86Quest15_Location = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")"
+Inst86Quest15_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest15_Note = "Completing this quest allows you to fight Algalon the Observer in the Celestial Planetarium."
 Inst86Quest15_Prequest = "The four Sigil quests"
 Inst86Quest15_Folgequest = "None"
@@ -11137,7 +11122,7 @@ Inst86Quest18_Level = "80"
 Inst86Quest18_Attain = "80"
 Inst86Quest18_Aim = "Kill Ignis the Furnace Master."
 Inst86Quest18_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst86Quest18_Note = "Ignis the Furnace Master is at "..YELLOW.."The Siege [2]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest18_Note = "Ignis the Furnace Master is at "..YELLOW.."The Siege [3]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst86Quest18_Prequest = "None"
 Inst86Quest18_Folgequest = "None"
 --
@@ -11149,7 +11134,7 @@ Inst86Quest19_Level = "80"
 Inst86Quest19_Attain = "80"
 Inst86Quest19_Aim = "Kill Razorscale."
 Inst86Quest19_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
-Inst86Quest19_Note = "Razorscale is at "..YELLOW.."The Siege [3]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
+Inst86Quest19_Note = "Razorscale is at "..YELLOW.."The Siege [2]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst86Quest19_Prequest = "None"
 Inst86Quest19_Folgequest = "None"
 --
@@ -11484,12 +11469,12 @@ Inst90Quest2_Level = "80"
 Inst90Quest2_Attain = "80"
 Inst90Quest2_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
 Inst90Quest2_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
-Inst90Quest2_Note = "Turn the quest in to Lady Jaina Proudmoore before at "..YELLOW.."[3]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
+Inst90Quest2_Note = "Turn the quest in to Lady Jaina Proudmoore before at "..YELLOW.."[2]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
 Inst90Quest2_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest2FQuest = "true"
 --
-Inst90Quest2name1 = "Emblem of Frost"
+-- Awards Justice Points.
 
 --Quest 3 Alliance
 Inst90Quest3 = "3. Tempering The Blade"
@@ -11497,7 +11482,7 @@ Inst90Quest3_Level = "80"
 Inst90Quest3_Attain = "80"
 Inst90Quest3_Aim = "Temper the Reforged Quel'Delar in the Crucible of Souls."
 Inst90Quest3_Location = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.2, 31.3"..WHITE..")"
-Inst90Quest3_Note = "The Crucible of Souls is at "..YELLOW.."[3]"..WHITE..", near the end of the instance."
+Inst90Quest3_Note = "The Crucible of Souls is at "..YELLOW.."[2]"..WHITE..", near the end of the instance."
 Inst90Quest3_Prequest = "Reforging The Sword ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest3_Folgequest = "The Halls Of Reflection ("..YELLOW.."Halls of Reflection"..WHITE..")"
 Inst90Quest3PreQuest = "true"
@@ -11521,12 +11506,12 @@ Inst90Quest2_HORDE_Level = "80"
 Inst90Quest2_HORDE_Attain = "80"
 Inst90Quest2_HORDE_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
 Inst90Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
-Inst90Quest2_HORDE_Note = "Turn the quest in to Lady Sylvanas Windrunner before at "..YELLOW.."[3]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
+Inst90Quest2_HORDE_Note = "Turn the quest in to Lady Sylvanas Windrunner before at "..YELLOW.."[2]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
 Inst90Quest2_HORDE_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_HORDE_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest2FQuest_HORDE = "true"
 --
-Inst90Quest2name1_HORDE = "Emblem of Frost"
+-- Awards Justice Points.
 
 --Quest 3 Horde
 Inst90Quest3_HORDE = "3. Tempering The Blade"
@@ -11534,7 +11519,7 @@ Inst90Quest3_HORDE_Level = "80"
 Inst90Quest3_HORDE_Attain = "80"
 Inst90Quest3_HORDE_Aim = "Temper the Reforged Quel'Delar in the Crucible of Souls."
 Inst90Quest3_HORDE_Location = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.5, 31.1"..WHITE..")"
-Inst90Quest3_HORDE_Note = "The Crucible of Souls is at "..YELLOW.."[3]"..WHITE..", near the end of the instance."
+Inst90Quest3_HORDE_Note = "The Crucible of Souls is at "..YELLOW.."[2]"..WHITE..", near the end of the instance."
 Inst90Quest3_HORDE_Prequest = "Reforging The Sword ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest3_HORDE_Folgequest = "The Halls Of Reflection ("..YELLOW.."Halls of Reflection"..WHITE..")"
 Inst90Quest3PreQuest_HORDE = "true"
@@ -11554,7 +11539,7 @@ Inst91Quest1 = "1. The Pit of Saron"
 Inst91Quest1_Level = "80"
 Inst91Quest1_Attain = "80"
 Inst91Quest1_Aim = "Meet Lady Jaina Proudmoore just inside the Pit of Saron."
-Inst91Quest1_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."[3]"..WHITE..")"
+Inst91Quest1_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."[2]"..WHITE..")"
 Inst91Quest1_Note = "Lady Jaina Proudmoore is just inside the instance."
 Inst91Quest1_Prequest = "Echoes of Tortured Souls ("..YELLOW.."Forge of Souls"..WHITE..")"
 Inst91Quest1_Folgequest = "The Path to the Citadel"
@@ -11566,8 +11551,8 @@ Inst91Quest2 = "2. The Path to the Citadel"
 Inst91Quest2_Level = "80"
 Inst91Quest2_Attain = "80"
 Inst91Quest2_Aim = "Free 15 Alliance Slaves and kill Forgemaster Garfrost."
-Inst91Quest2_Location = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."[1]"..WHITE..")"
-Inst91Quest2_Note = "The slaves are all over the pit. The quest turns in to Martin Victus at "..YELLOW.."[2]"..WHITE.." after Forgemaster Garfrost is slain."
+Inst91Quest2_Location = "Lady Jaina Proudmoore (Pit of Saron; "..GREEN.."[1']"..WHITE..")"
+Inst91Quest2_Note = "The slaves are all over the pit. The quest turns in to Martin Victus at "..YELLOW.."[1]"..WHITE.." after Forgemaster Garfrost is slain."
 Inst91Quest2_Prequest = "The Pit of Saron"
 Inst91Quest2_Folgequest = "Deliverance from the Pit"
 Inst91Quest2FQuest = "true"
@@ -11584,7 +11569,7 @@ Inst91Quest3_Prequest = "The Path to the Citadel"
 Inst91Quest3_Folgequest = "Frostmourne ("..YELLOW.."Halls of Reflection"..WHITE..")"
 Inst91Quest3FQuest = "true"
 --
-Inst91Quest3name1 = "Emblem of Frost"
+-- Awards Justice Points.
 
 --Quest 4 Alliance
 Inst91Quest4 = "4. Reforging The Sword"
@@ -11604,7 +11589,7 @@ Inst91Quest1_HORDE = "1. The Pit of Saron"
 Inst91Quest1_HORDE_Level = "80"
 Inst91Quest1_HORDE_Attain = "80"
 Inst91Quest1_HORDE_Aim = "Meet Lady Sylvanas Windrunner inside the entrace to the Pit of Saron."
-Inst91Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."[3]"..WHITE..")"
+Inst91Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."[2]"..WHITE..")"
 Inst91Quest1_HORDE_Note = "Lady Sylvanas Windrunner is just inside the instance."
 Inst91Quest1_HORDE_Prequest = "Echoes of Tortured Souls ("..YELLOW.."Forge of Souls"..WHITE..")"
 Inst91Quest1_HORDE_Folgequest = "The Path to the Citadel"
@@ -11616,8 +11601,8 @@ Inst91Quest2_HORDE = "2. The Path to the Citadel"
 Inst91Quest2_HORDE_Level = "80"
 Inst91Quest2_HORDE_Attain = "80"
 Inst91Quest2_HORDE_Aim = "Free 15 Horde Slaves and kill Forgemaster Garfrost."
-Inst91Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW.."[1]"..WHITE..")"
-Inst91Quest2_HORDE_Note = "The slaves are all over the pit. The quest turns in to Gorkun Ironskull at "..YELLOW.."[2]"..WHITE.." after Forgemaster Garfrost is slain."
+Inst91Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..GREEN.."[1']"..WHITE..")"
+Inst91Quest2_HORDE_Note = "The slaves are all over the pit. The quest turns in to Gorkun Ironskull at "..YELLOW.."[1]"..WHITE.." after Forgemaster Garfrost is slain."
 Inst91Quest2_HORDE_Prequest = "The Pit of Saron"
 Inst91Quest2_HORDE_Folgequest = "Deliverance from the Pit"
 Inst91Quest2FQuest_HORDE = "true"
@@ -11634,7 +11619,7 @@ Inst91Quest3_HORDE_Prequest = "The Path to the Citadel"
 Inst91Quest3_HORDE_Folgequest = "Frostmourne ("..YELLOW.."Halls of Reflection"..WHITE..")"
 Inst91Quest3FQuest_HORDE = "true"
 --
-Inst91Quest3name1_HORDE = "Emblem of Frost"
+-- Awards Justice Points.
 
 --Quest 4 Horde
 Inst91Quest4_HORDE = "4. Reforging The Sword"
@@ -11680,7 +11665,7 @@ Inst92Quest2_Prequest = "Frostmourne"
 Inst92Quest2_Folgequest = "None"
 Inst92Quest2FQuest = "true"
 --
-Inst92Quest2name1 = "Emblem of Frost"
+-- Awards Justice Points.
 
 --Quest 3 Alliance
 Inst92Quest3 = "3. The Halls Of Reflection"
@@ -11718,7 +11703,7 @@ Inst92Quest2_HORDE_Prequest = "Frostmourne"
 Inst92Quest2_HORDE_Folgequest = "None"
 Inst92Quest2FQuest_HORDE = "true"
 --
-Inst92Quest2name1_HORDE = "Emblem of Frost"
+-- Awards Justice Points.
 
 --Quest 3 Horde
 Inst92Quest3_HORDE = "3. The Halls Of Reflection"
@@ -12010,7 +11995,7 @@ Inst94Quest2_Level = "80"
 Inst94Quest2_Attain = "80"
 Inst94Quest2_Aim = "Investigate the Ruby Sanctum beneath Wyrmrest Temple."
 Inst94Quest2_Location = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..")"
-Inst94Quest2_Note = "Sanctum Guardian Xerestrasza is inside the Ruby Sanctum and appears after you slay the second sub-boss, Baltharius the Warborn at "..YELLOW.."[4]"..WHITE.."."
+Inst94Quest2_Note = "Sanctum Guardian Xerestrasza is inside the Ruby Sanctum and appears after you slay the second sub-boss, Baltharius the Warborn at "..YELLOW.."[1]"..WHITE.."."
 Inst94Quest2_Prequest = "Trouble at Wyrmrest (optional)"
 Inst94Quest2_Folgequest = "The Twilight Destroyer"
 Inst94Quest2FQuest = "true"
@@ -12022,12 +12007,12 @@ Inst94Quest3_Level = "80"
 Inst94Quest3_Attain = "80"
 Inst94Quest3_Aim = "Defeat Halion and repel the invasion of the Ruby Sanctum."
 Inst94Quest3_Location = "Sanctum Guardian Xerestrasza (Ruby Sanctum; "..YELLOW.."[A] Entrance"..WHITE..")"
-Inst94Quest3_Note = "Halion is the main boss, located at "..YELLOW.."[1]"..WHITE.."."
+Inst94Quest3_Note = "Halion is the main boss, located at "..YELLOW.."[4]"..WHITE.."."
 Inst94Quest3_Prequest = "Trouble at Wyrmrest"
 Inst94Quest3_Folgequest = "None"
 Inst94Quest3FQuest = "true"
 --
-Inst94Quest3name1 = "Emblem of Frost"
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12064,7 +12049,7 @@ Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
 Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
 Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 --
-Inst94Quest3name1_HORDE = Inst94Quest3name1
+-- Awards Justice Points.
 
 
 

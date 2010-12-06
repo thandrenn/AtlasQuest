@@ -15,7 +15,7 @@
 ## Original Author: Asurn
 ## Version: 4.6.0 ALPHA
 ## X-Author-Faction: Alliance
-## X-Author-Server: Echo Isles
+## X-Author-Server: Echo Isles US
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: Map

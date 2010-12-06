@@ -228,4 +228,3 @@ function AQCompareTooltipOption_OnClick()
  end
  AtlasQuest_SaveData();
 end
-

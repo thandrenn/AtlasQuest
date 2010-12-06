@@ -5,10 +5,11 @@ Changelog
 Version 4.6.0 ALPHA
 
 - Basic Cataclysm dungeon support.
-- Updated Lich King Raid Weekly rewards.
-- Removed Icecrown Citadel weekly quests.
+- Updated Location numbers for all Burning Crusade & Lich King dungeons to match Atlas 1.18.0.
+- All quests the used to reward Badges or Emblems now correctly list Justice Points as their rewards.
 - Code Bug fixes (Thanks Speedwaystar, Kharthus)
-- Localizations updated: deDE
+- Merged in Natch's AtlasQuest Helper code importing completed quests from the server.
+- Localizations updated: deDE, ruRU
 
 - Classic Dungeons updated:
 	- The Deadmines

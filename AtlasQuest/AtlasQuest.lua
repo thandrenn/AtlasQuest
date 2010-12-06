@@ -52,6 +52,8 @@ local Blau = "|cff0070dd"
 -- Variables
 -----------------------------------------------------------------------------
 
+AQ = {};
+
 local Initialized = nil; -- the variables are not loaded yet
 
 LibStub("LibAboutPanel").new(parentframe, "AtlasQuest")
@@ -62,22 +64,12 @@ AQINSTANZ = 1; -- currently shown instance-pic (see AtlasQuest_Instanzen.lua)
 
 AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function AtlasQuestSetTextandButtons())
 
---AQ_ShownSide = "Left"  -- configures at which side the AQ panel is shown
-
---AQAtlasAuto (option to show the AQpanel automatically at atlas-startup, 1=yes 2=no)
-
 -- Sets the max number of instances and quests to check for. 
 local AQMAXINSTANCES = "107"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel
 ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.0 ALPHA";
-
-AQ_ShownSide = "Left"
-AQAtlasAuto = 1;
-AQNOColourCheck = nil;
---AtlasQuestHelp = {};
---AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
   ["Version"] =  "4.6.0 ALPHA",
@@ -91,8 +83,6 @@ local AtlasQuest_Defaults = {
     ["CompareTooltip"] = nil,
   },
 };
-
-AQ = {};
 
 
 
@@ -154,6 +144,7 @@ function AQVersionCheck()
    DEFAULT_CHAT_FRAME:AddMessage("First load after updating to "..ATLASQUEST_VERSION);
  end
 end
+
 
 
 -----------------------------------------------------------------------------
@@ -247,6 +238,8 @@ function AQSetButtontext()
       STORYbutton:SetText(AQStoryB);
       OPTIONbutton:SetText(AQOptionB);
       AQOptionCloseButton:SetText(AQ_OK);
+	  AQOptionQuestQueryButton:SetText(AQQuestQueryButtonTEXT);
+	  AQOptionQuestQuery:SetText(AQQuestQueryTEXT);
       AtlasQuestTitle:SetText(ATLASQUEST_VERSION);
       AQCaptionOptionTEXT:SetText(AQOptionsCaptionTEXT);
       AQAutoshowOptionTEXT:SetText(AQOptionsAutoshowTEXT);
@@ -258,122 +251,6 @@ function AQSetButtontext()
       AQAutoQueryTEXT:SetText(AQOptionsAutoQueryTEXT);
       AQNoQuerySpamTEXT:SetText(AQOptionsNoQuerySpamTEXT);
       AQCompareTooltipTEXT:SetText(AQOptionsCompareTooltipTEXT);
-end
-
-
------------------------------------------------------------------------------
---  Slashcommand!! show/hide panel + Version Message
------------------------------------------------------------------------------
---[[
-function atlasquest_command(param)
-
- -- Show help text if no /aq command used.
-    ChatFrame1:AddMessage(RED..AQHelpText);
-
-  --help text
-  if (param == "help") then
-    ChatFrame1:AddMessage(RED..AQHelpText);
-  -- hide show function
-  elseif (param == "show") then
-      ShowUIPanel(AtlasQuestFrame);
-      ChatFrame1:AddMessage("Shows AtlasQuest");
-  elseif (param == "hide") then
-      HideUIPanel(AtlasQuestFrame);
-      HideUIPanel(AtlasQuestInsideFrame);
-      ChatFrame1:AddMessage("Hides AtlasQuest");
-  -- right/left show function
-  elseif (param == "right") then
-     AQRIGHTOption_OnClick();
-  elseif (param == "left") then
-     AQLEFTOption_OnClick();
-  -- Options
-  elseif ((param == "option") or (param == "config")) then
-      ShowUIPanel(AtlasQuestOptionFrame);
-  --test messages
-  elseif (param == "test") then
-     AQTestmessages();
-  -- autoshow
-  elseif (param == "autoshow") then
-     AQAutoshowOption_OnClick()
-  -- CC
-  elseif (param == "colour") then
-     AQColourOption_OnClick();
-  --List of Instances
-  elseif (param == "list") then
-     ChatFrame1:AddMessage("Instances, and Numbers (Alphabetical Order):");
-     ChatFrame1:AddMessage("Blackfathom Deeps: 7");
-     ChatFrame1:AddMessage("Blackrock Depths: 5");
-     ChatFrame1:AddMessage("Blackrock Spire (Lower): 8");
-     ChatFrame1:AddMessage("Blackrock Spire (Upper): 9");
-     ChatFrame1:AddMessage("Blackwing Lair: 6");
-     ChatFrame1:AddMessage("Deadmines: 1");
-     ChatFrame1:AddMessage("Dire Maul: 10");
-     ChatFrame1:AddMessage("Gnomeregan: 29");
-     ChatFrame1:AddMessage("Maraudon: 13");
-     ChatFrame1:AddMessage("Molten Core: 14");
-     ChatFrame1:AddMessage("Naxxramas: 15");
-     ChatFrame1:AddMessage("Onyxia's Lair: 16");
-     ChatFrame1:AddMessage("RageFire Chasm: 3");
-     ChatFrame1:AddMessage("Razorfen Downs: 17");
-     ChatFrame1:AddMessage("Razorfen Kraul: 18");
-     ChatFrame1:AddMessage("Scarlet Monestary: 19");
-     ChatFrame1:AddMessage("Scholomance: 20");
-     ChatFrame1:AddMessage("Shadowfang Keep: 21");
-     ChatFrame1:AddMessage("Stratholme: 22");
-     ChatFrame1:AddMessage("The Ruins of Ahn Qiraj: 23");
-     ChatFrame1:AddMessage("The Stockade: 24");
-     ChatFrame1:AddMessage("The Sunken Temple: 25");
-     ChatFrame1:AddMessage("The Temple of Ahn Qiraj: 26");
-     ChatFrame1:AddMessage("Uldaman: 4");
-     ChatFrame1:AddMessage("Wailing Caverns: 2");
-     ChatFrame1:AddMessage("Zul Farrak: 27");
-     ChatFrame1:AddMessage("Zul Gurub: 28");
-     
-  --List of Alliance Quests
-  elseif (param == "inst a") then
-     ChatFrame1:AddMessage(RED..getglobal("Inst"..AQINSTANZ.."Caption"));
-     ChatFrame1:AddMessage(GREY..getglobal("Inst"..AQINSTANZ.."QAA"));
-     for q=1,20 do
-        ChatFrame1:AddMessage(Orange..getglobal("Inst"..AQINSTANZ.."Quest"..q));
-     end
-  --List of Horde Quests
-  elseif (param == "inst h") then
-     ChatFrame1:AddMessage(RED..getglobal("Inst"..AQINSTANZ.."Caption"));
-     ChatFrame1:AddMessage(GREY..getglobal("Inst"..AQINSTANZ.."QAH"));
-     for q=1,20 do
-        ChatFrame1:AddMessage(Orange..getglobal("Inst"..AQINSTANZ.."Quest"..q.."_HORDE"));
-     end
-     
- -- Very temporary fix to /AQ bug. Must find way to check if Param is an Integer. Where's isint()?
-  elseif (param == "1") then 
-     ChatFrame1:AddMessage(RED..getglobal("Inst"..AQINSTANZ.."Caption"));
-     
-     --Alliance
-     ChatFrame1:AddMessage(ORANGE.."Alliance Quest: "..getglobal("Inst"..AQINSTANZ.."Quest"..param));
-     ChatFrame1:AddMessage("Level: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_Level"));
-     ChatFrame1:AddMessage("Attain: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_Attain"));
-     ChatFrame1:AddMessage("Goal: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_Aim"));
-     ChatFrame1:AddMessage("Start: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_Location"));
-     ChatFrame1:AddMessage("Note: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_Note"));
-     ChatFrame1:AddMessage("Prequest: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_Prequest"));
-     ChatFrame1:AddMessage("Postquest: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_Folgequest"));
-     
-     --Horde
-     ChatFrame1:AddMessage(ORANGE.."Horde Quest: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_HORDE"));
-     ChatFrame1:AddMessage("Level: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_HORDE_Level"));
-     ChatFrame1:AddMessage("Attain: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_HORDE_Attain"));
-     ChatFrame1:AddMessage("Goal: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_HORDE_Aim"));
-     ChatFrame1:AddMessage("Start: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_HORDE_Location"));
-     ChatFrame1:AddMessage("Note: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_HORDE_Note"));
-     ChatFrame1:AddMessage("Prequest: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_HORDE_Prequest"));
-     ChatFrame1:AddMessage("Postquest: "..getglobal("Inst"..AQINSTANZ.."Quest"..param.."_HORDE_Folgequest"));
-  end
-end
-]]--
------------------------------------------------------------------------------
---  Test Messages
------------------------------------------------------------------------------
-function AQTestmessages()
 end
 
 
@@ -917,5 +794,72 @@ function AtlasQuestItem_ShowCompareItem()
    end   
 end
 
+
+
+-----------------------------------------------------------------------------
+-- Quest Query stuff (Code written by Natch)
+-----------------------------------------------------------------------------
+
+local f = CreateFrame("Frame");
+f:SetScript("OnEvent", function(_, event, ...) f[event](f, ...) end);
+f:RegisterEvent("QUEST_QUERY_COMPLETE");
+
+function AQQuestQuery()
+	ChatFrame1:AddMessage(AQQuestQueryStart);
+	QueryQuestsCompleted();	
+end
+
+function f:QUEST_QUERY_COMPLETE()
+	local qct, gurka, qcs, ral, rat = {}, false, ":", false, false;
+--	self.stamp = time();
+     
+	GetQuestsCompleted(qct);
+
+	for qx in pairs(qct) do
+		qcs = qcs .. qx .. ":";
+	end
+
+	-- Hide Atlas/AlphaMap while updating
+	if((AtlasFrame ~= nil) and (AtlasFrame:IsVisible())) then
+		AtlasFrame:Hide();
+		rat = true;
+	end
+	if((AlphaMapFrame ~= nil) and (AlphaMapFrame:IsVisible())) then
+		AlphaMapFrame:Hide();
+		ral = true;
+	end
+
+	-- Update AQ database
+	for i = 1, AQMAXINSTANCES do
+		for q = 1, AQMAXQUESTS do
+			local a = _G["Inst"..i.."Quest"..q.."_QuestID"];
+			local h = _G["Inst"..i.."Quest"..q.."_HORDE_QuestID"];
+			
+			if(a and string.find(qcs, ":"..a..":")) then
+				AQ["AQFinishedQuest_Inst"..i.."Quest"..q]                              = 1;
+				AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..i.."Quest"..q] = 1;
+				gurka = true;
+			end
+
+			if(h and string.find(qcs, ":"..h..":")) then
+				AQ["AQFinishedQuest_Inst"..i.."Quest"..q.."_HORDE"]                              = 1;
+				AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..i.."Quest"..q.."_HORDE"] = 1;
+				gurka = true;
+			end
+		end
+	end
+
+	-- Show map if hidden
+	if(rat == true) then
+		AtlasFrame:Show();
+	end
+	if(ral == true) then
+		AlphaMapFrame:Show();
+	end
+
+	if(gurka == true) then
+		ChatFrame1:AddMessage(AQQuestQueryDone);
+	end
+end
 
 
