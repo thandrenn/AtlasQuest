@@ -309,71 +309,47 @@ Inst1Quest5name3_HORDE = "Cookie's Table Cloth"
 
 Inst2Story = "Recently, a night elf druid named Naralex discovered a network of underground caverns within the heart of the Barrens. Dubbed the 'Wailing Caverns', these natural caves were filled with steam fissures which produced long, mournful wails as they vented. Naralex believed he could use the caverns' underground springs to restore lushness and fertility to the Barrens - but to do so would require siphoning the energies of the fabled Emerald Dream. Once connected to the Dream however, the druid's vision somehow became a nightmare. Soon the Wailing Caverns began to change - the waters turned foul and the once-docile creatures inside metamorphosed into vicious, deadly predators. It is said that Naralex himself still resides somewhere inside the heart of the labyrinth, trapped beyond the edges of the Emerald Dream. Even his former acolytes have been corrupted by their master's waking nightmare - transformed into the wicked Druids of the Fang."
 Inst2Caption = "Wailing Caverns"
-Inst2QAA = "5 Quests"
-Inst2QAH = "7 Quests"
+Inst2QAA = "3 Quests"
+Inst2QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst2Quest1 = "1. Deviate Hides"
-Inst2Quest1_Level = "17"
-Inst2Quest1_Attain = "13"
-Inst2Quest1_Aim = "Nalpak in the Wailing Caverns wants 20 Deviate Hides."
-Inst2Quest1_Location = "Nalpak (Barrens - Wailing Caverns; "..YELLOW.."47,36"..WHITE..")"
-Inst2Quest1_Note = "All deviate mobs inside of and right before the entrance to the instance can drop hides.\nNalpak can be found in a hidden cave above the actual cave entrance. Easiest way to him seems to be to run up the hill outside and behind the entrance and drop down the slight ledge above the cave entrance."
+Inst2Quest1_Level = "18"
+Inst2Quest1_Attain = "16"
+Inst2Quest1_Aim = "Nalpak wants 10 Deviate Hides."
+Inst2Quest1_Location = "Nalpak (Wailing Caverns; "..YELLOW.."Entrance"..WHITE..")"
+Inst2Quest1_Note = "All deviate mobs inside the instance can drop hides."
 Inst2Quest1_Prequest = "None"
 Inst2Quest1_Folgequest = "None"
---
-Inst2Quest1name1 = "Slick Deviate Leggings"
-Inst2Quest1name2 = "Deviate Hide Pack"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst2Quest2 = "2. Trouble at the Docks"
+Inst2Quest2 = "2. Preemptive Methods"
 Inst2Quest2_Level = "18"
-Inst2Quest2_Attain = "14"
-Inst2Quest2_Aim = "Crane Operator Bigglefuzz in Ratchet wants you to retrieve the bottle of 99-Year-Old Port from Mad Magglish who is hiding in the Wailing Caverns."
-Inst2Quest2_Location = "Crane Operator Bigglefuzz (Barrens - Ratchet; "..YELLOW.."63,37"..WHITE..")"
-Inst2Quest2_Note = "You get the bottle right before you go into the instance by killing Mad Magglish. When you first enter the cave make an immediate right to find him at the end of the passage. He is stealthed by the wall at "..YELLOW.."[2] on the Entrance Map"..WHITE.."."
+Inst2Quest2_Attain = "16"
+Inst2Quest2_Aim = "Nalpak wants you to collect 5 Serpentbloom."
+Inst2Quest2_Location = "Nalpak (Wailing Caverns; "..YELLOW.."Entrance"..WHITE..")"
+Inst2Quest2_Note = "Serpentbloom is scattered all over the instance on the ground."
 Inst2Quest2_Prequest = "None"
 Inst2Quest2_Folgequest = "None"
+
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst2Quest3 = "3. Smart Drinks"
-Inst2Quest3_Level = "18"
-Inst2Quest3_Attain = "14"
-Inst2Quest3_Aim = "Bring 6 portions of Wailing Essence to Mebok Mizzyrix in Ratchet."
-Inst2Quest3_Location = "Mebok Mizzyrix (Barrens - Ratchet; "..YELLOW.."62,37"..WHITE..")"
-Inst2Quest3_Note = "The prequest can be obtained from Mebok Mizzyrix too.\nAll Ectoplasm enemies in and before the instance drop the Essence."
-Inst2Quest3_Prequest = "Raptor Horns"
+Inst2Quest3 = "3. Cleansing the Caverns"
+Inst2Quest3_Level = "21"
+Inst2Quest3_Attain = "16"
+Inst2Quest3_Aim = "Ebru in the Wailing Caverns wants you to kill the Fanglords Cobrahn, Anacondra, Pythas, and Serpentis."
+Inst2Quest3_Location = "Ebru (Wailing Caverns; "..YELLOW.."Entrance"..WHITE..")"
+Inst2Quest3_Note = "Lady Anacondra is at "..YELLOW.."[1]"..WHITE..", Lord Cobrahn is at "..YELLOW.."[3]"..WHITE..", Lord Pythas is at "..YELLOW.."[4]"..WHITE.." and Lord Serpentis is at "..YELLOW.."[6]"..WHITE.."."
+Inst2Quest3_Prequest = "None"
 Inst2Quest3_Folgequest = "None"
-Inst2Quest3PreQuest = "true"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst2Quest4 = "4. Deviate Eradication"
-Inst2Quest4_Level = "21"
-Inst2Quest4_Attain = "15"
-Inst2Quest4_Aim = "Ebru in the Wailing Caverns wants you to kill 7 Deviate Ravagers, 7 Deviate Vipers, 7 Deviate Shamblers and 7 Deviate Dreadfangs."
-Inst2Quest4_Location = "Ebru (Barrens - Wailing Caverns; "..YELLOW.."47,36"..WHITE..")"
-Inst2Quest4_Note = "Ebru is in a hidden cave above the cave entrance. Easiest way to him seems to be to run up the hill outside and behind the entrance and drop down the slight ledge above the cave entrance."
-Inst2Quest4_Prequest = "None"
-Inst2Quest4_Folgequest = "None"
 --
-Inst2Quest4name1 = "Pattern: Deviate Scale Belt"
-Inst2Quest4name2 = "Sizzle Stick"
-Inst2Quest4name3 = "Dagmire Gauntlets"
-
---Quest 5 Alliance
-Inst2Quest5 = "5. The Glowing Shard"
-Inst2Quest5_Level = "25"
-Inst2Quest5_Attain = "21"
-Inst2Quest5_Aim = "Travel to Ratchet to find the meaning behind the Nightmare Shard."
-Inst2Quest5_Location = "The Glowing Shard (drops from Mutanus the Devourer; "..YELLOW.."[9]"..WHITE..")"
-Inst2Quest5_Note = "Mutanus the Devourer will only appear if you kill the four leader druids of the fang and escort the tauren druid at the entrance.\nWhen you have the Shard, you must bring it to the Bank at Ratchet, and then back to the top of the hill over Wailing Caverns to Falla Sagewind."
-Inst2Quest5_Prequest = "None"
-Inst2Quest5_Folgequest = "In Nightmares"
---
-Inst2Quest5name1 = "Talbar Mantle"
-Inst2Quest5name2 = "Quagmire Galoshes"
+Inst2Quest3name1 = "Cleansed Pauldrons"
+Inst2Quest3name2 = "Serpentis' Gloves"
+Inst2Quest3name3 = "Cobrahn's Boots"
+Inst2Quest3name4 = "Pythas' Vest"
+Inst2Quest3name5 = "Anacondra's Robe"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -385,9 +361,7 @@ Inst2Quest1_HORDE_Location = Inst2Quest1_Location
 Inst2Quest1_HORDE_Note = Inst2Quest1_Note
 Inst2Quest1_HORDE_Prequest = Inst2Quest1_Prequest
 Inst2Quest1_HORDE_Folgequest = Inst2Quest1_Folgequest
---
-Inst2Quest1name1_HORDE = Inst2Quest1name1
-Inst2Quest1name2_HORDE = Inst2Quest1name2
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst2Quest2_HORDE = Inst2Quest2
@@ -400,71 +374,21 @@ Inst2Quest2_HORDE_Prequest = Inst2Quest2_Prequest
 Inst2Quest2_HORDE_Folgequest = Inst2Quest2_Folgequest
 -- No Rewards for this quest
 
---Quest 3 Horde
-Inst2Quest3_HORDE = "3. Serpentbloom"
-Inst2Quest3_HORDE_Level = "18"
-Inst2Quest3_HORDE_Attain = "14"
-Inst2Quest3_HORDE_Aim = "Apothecary Zamah in Thunder Bluff wants you to collect 10 Serpentbloom."
-Inst2Quest3_HORDE_Location = "Apothecary Zamah (Thunder Bluff - Spirit Rise; "..YELLOW.."22,20"..WHITE..")"
-Inst2Quest3_HORDE_Note = "Apothecary Zamah is in a cave under the Spirit Rise.  You get the prequest from Apothecary Helbrim (Barrens - Crossroads; "..YELLOW.."51,30"..WHITE..").\nYou get the Serpentbloom inside the cave in front of the instance and inside the instance. Players with Herbalism can see the plants on their minimap."
-Inst2Quest3_HORDE_Prequest = "Fungal Spores -> Apothecary Zamah"
-Inst2Quest3_HORDE_Folgequest = "None"
-Inst2Quest3PreQuest_HORDE = "true"
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst2Quest3_HORDE = Inst2Quest3
+Inst2Quest3_HORDE_Level = Inst2Quest3_Level
+Inst2Quest3_HORDE_Attain = Inst2Quest3_Attain
+Inst2Quest3_HORDE_Aim = Inst2Quest3_Aim
+Inst2Quest3_HORDE_Location = Inst2Quest3_Location
+Inst2Quest3_HORDE_Note = Inst2Quest3_Note
+Inst2Quest3_HORDE_Prequest = Inst2Quest3_Prequest
+Inst2Quest3_HORDE_Folgequest = Inst2Quest3_Folgequest
 --
-Inst2Quest3name1_HORDE = "Apothecary Gloves"
-
---Quest 4 Horde  (same as Quest 3 Alliance)
-Inst2Quest4_HORDE = "4. Smart Drinks"
-Inst2Quest4_HORDE_Level = Inst2Quest3_Level
-Inst2Quest4_HORDE_Attain = Inst2Quest3_Attain
-Inst2Quest4_HORDE_Aim = Inst2Quest3_Aim
-Inst2Quest4_HORDE_Location = Inst2Quest3_Location
-Inst2Quest4_HORDE_Note = Inst2Quest3_Note
-Inst2Quest4_HORDE_Prequest = Inst2Quest3_Prequest
-Inst2Quest4_HORDE_Folgequest = Inst2Quest3_Folgequest
-Inst2Quest4PreQuest_HORDE = Inst2Quest3PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 4 Alliance)
-Inst2Quest5_HORDE = "5. Deviate Eradication"
-Inst2Quest5_HORDE_Level = Inst2Quest4_Level
-Inst2Quest5_HORDE_Attain = Inst2Quest4_Attain
-Inst2Quest5_HORDE_Aim = Inst2Quest4_Aim
-Inst2Quest5_HORDE_Location = Inst2Quest4_Location
-Inst2Quest5_HORDE_Note = Inst2Quest4_Note
-Inst2Quest5_HORDE_Prequest = Inst2Quest4_Prequest
-Inst2Quest5_HORDE_Folgequest = Inst2Quest4_Folgequest
---
-Inst2Quest5name1_HORDE = Inst2Quest4name1
-Inst2Quest5name2_HORDE = Inst2Quest4name2
-Inst2Quest5name3_HORDE = Inst2Quest4name3
-
---Quest 6 Horde
-Inst2Quest6_HORDE = "6. Leaders of the Fang"
-Inst2Quest6_HORDE_Level = "22"
-Inst2Quest6_HORDE_Attain = "18"
-Inst2Quest6_HORDE_Aim = "Bring the Gems of Cobrahn, Anacondra, Pythas and Serpentis to Nara Wildmane in Thunder Bluff."
-Inst2Quest6_HORDE_Location = "Nara Wildmane (Thunder Bluff - Elder Rise; "..YELLOW.."75,31"..WHITE..")"
-Inst2Quest6_HORDE_Note = "The Questline starts at Hamuul Runetotem (Thunderbluff - Elder Rise; "..YELLOW.."78,28"..WHITE..")\nThe 4 druids drop the gems "..YELLOW.."[2]"..WHITE..", "..YELLOW.."[3]"..WHITE..", "..YELLOW.."[5]"..WHITE..", "..YELLOW.."[7]"..WHITE.."."
-Inst2Quest6_HORDE_Prequest = "The Barrens Oases -> Nara Wildmane"
-Inst2Quest6_HORDE_Folgequest = "None"
-Inst2Quest6PreQuest_HORDE = "true"
---
-Inst2Quest6name1_HORDE = "Crescent Staff"
-Inst2Quest6name2_HORDE = "Wingblade"
-
---Quest 7 Horde  (same as Quest 5 Alliance)
-Inst2Quest7_HORDE = "7. The Glowing Shard"
-Inst2Quest7_HORDE_Level = Inst2Quest5_Level
-Inst2Quest7_HORDE_Attain = Inst2Quest5_Attain
-Inst2Quest7_HORDE_Aim = Inst2Quest5_Aim
-Inst2Quest7_HORDE_Location = Inst2Quest5_Location
-Inst2Quest7_HORDE_Note = Inst2Quest5_Note
-Inst2Quest7_HORDE_Prequest = Inst2Quest5_Prequest
-Inst2Quest7_HORDE_Folgequest = Inst2Quest5_Folgequest
---
-Inst2Quest7name1_HORDE = Inst2Quest5name1
-Inst2Quest7name2_HORDE = Inst2Quest5name2
+Inst2Quest3name1_HORDE = Inst2Quest3name1
+Inst2Quest3name2_HORDE = Inst2Quest3name2
+Inst2Quest3name3_HORDE = Inst2Quest3name3
+Inst2Quest3name4_HORDE = Inst2Quest3name4
+Inst2Quest3name5_HORDE = Inst2Quest3name5
 
 
 

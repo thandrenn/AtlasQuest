@@ -75,30 +75,21 @@ AQ_27848_Level = "16"
 AQ_27850_Level = "17"
 
 
+
 --------------- INST2 - Wailing Caverns (WC) ---------------
 
-Inst2Quest1_QuestID = "1486"
-Inst2Quest2_QuestID = "959"
-Inst2Quest3_QuestID = "1491"
-Inst2Quest4_QuestID = "1487"
-Inst2Quest5_QuestID = "6981"
+Inst2Quest1_QuestID = "26872"
+Inst2Quest2_QuestID = "26873"
+Inst2Quest3_QuestID = "26870"
 
-Inst2Quest1_HORDE_QuestID = "1486"
-Inst2Quest2_HORDE_QuestID = "959"
-Inst2Quest3_HORDE_QuestID = "962"
-Inst2Quest4_HORDE_QuestID = "1491"
-Inst2Quest5_HORDE_QuestID = "1487"
-Inst2Quest6_HORDE_QuestID = "914"
-Inst2Quest7_HORDE_QuestID = "6981"
+Inst2Quest1_HORDE_QuestID = "26872"
+Inst2Quest2_HORDE_QuestID = "26873"
+Inst2Quest3_HORDE_QuestID = "26870"
 
 
-AQ_1486_Level = "17"
-AQ_959_Level = "18"
-AQ_1491_Level = "18"
-AQ_1487_Level = "21"
-AQ_6981_Level = "26"
-AQ_962_Level = "18"
-AQ_914_Level = "22"
+AQ_26872_Level = "18"
+AQ_26873_Level = "18"
+AQ_26870_Level = "21"
 
 
 

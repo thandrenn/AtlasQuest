@@ -3,89 +3,89 @@ If/when this slips into a release, just ignore it. :)
 
 
 --Quest 1 Alliance
-Inst94Quest1 = ""
-Inst94Quest1_Level = ""
-Inst94Quest1_Attain = ""
-Inst94Quest1_Aim = ""
-Inst94Quest1_Location = ""
-Inst94Quest1_Note = ""
-Inst94Quest1_Prequest = ""
-Inst94Quest1_Folgequest = ""
-Inst94Quest1PreQuest = "true"
-Inst94Quest1FQuest = "true"
+Inst1Quest1 = ""
+Inst1Quest1_Level = ""
+Inst1Quest1_Attain = ""
+Inst1Quest1_Aim = ""
+Inst1Quest1_Location = ""
+Inst1Quest1_Note = ""
+Inst1Quest1_Prequest = ""
+Inst1Quest1_Folgequest = ""
+Inst1Quest1PreQuest = "true"
+Inst1Quest1FQuest = "true"
 --
-Inst94Quest1name1 = ""
+Inst1Quest1name1 = ""
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst94Quest1_HORDE = ""
-Inst94Quest1_HORDE_Level = ""
-Inst94Quest1_HORDE_Attain = ""
-Inst94Quest1_HORDE_Aim = ""
-Inst94Quest1_HORDE_Location = ""
-Inst94Quest1_HORDE_Note = ""
-Inst94Quest1_HORDE_Prequest = ""
-Inst94Quest1_HORDE_Folgequest = ""
-Inst94Quest1PreQuest_HORDE = "true"
-Inst94Quest1FQuest_HORDE = "true"
+Inst1Quest1_HORDE = ""
+Inst1Quest1_HORDE_Level = ""
+Inst1Quest1_HORDE_Attain = ""
+Inst1Quest1_HORDE_Aim = ""
+Inst1Quest1_HORDE_Location = ""
+Inst1Quest1_HORDE_Note = ""
+Inst1Quest1_HORDE_Prequest = ""
+Inst1Quest1_HORDE_Folgequest = ""
+Inst1Quest1PreQuest_HORDE = "true"
+Inst1Quest1FQuest_HORDE = "true"
 --
-Inst94Quest1name1_HORDE = ""
+Inst1Quest1name1_HORDE = ""
 -- No Rewards for this quest
 
 
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst94Quest1_HORDE = Inst94Quest1
-Inst94Quest1_HORDE_Level = Inst94Quest1_Level
-Inst94Quest1_HORDE_Attain = Inst94Quest1_Attain
-Inst94Quest1_HORDE_Aim = Inst94Quest1_Aim
-Inst94Quest1_HORDE_Location = Inst94Quest1_Location
-Inst94Quest1_HORDE_Note = Inst94Quest1_Note
-Inst94Quest1_HORDE_Prequest = Inst94Quest1_Prequest
-Inst94Quest1_HORDE_Folgequest = Inst94Quest1_Folgequest
-Inst94Quest1PreQuest_HORDE = Inst94Quest1PreQuest
-Inst94Quest1FQuest_HORDE = Inst94Quest1FQuest
+Inst1Quest1_HORDE = Inst1Quest1
+Inst1Quest1_HORDE_Level = Inst1Quest1_Level
+Inst1Quest1_HORDE_Attain = Inst1Quest1_Attain
+Inst1Quest1_HORDE_Aim = Inst1Quest1_Aim
+Inst1Quest1_HORDE_Location = Inst1Quest1_Location
+Inst1Quest1_HORDE_Note = Inst1Quest1_Note
+Inst1Quest1_HORDE_Prequest = Inst1Quest1_Prequest
+Inst1Quest1_HORDE_Folgequest = Inst1Quest1_Folgequest
+Inst1Quest1PreQuest_HORDE = Inst1Quest1PreQuest
+Inst1Quest1FQuest_HORDE = Inst1Quest1FQuest
 --
-Inst94Quest1name1_HORDE = Inst94Quest1name1
+Inst1Quest1name1_HORDE = Inst1Quest1name1
 -- No Rewards for this quest
 
 
 
 
 --Quest 1 Alliance
-Inst94Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst1Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst94Quest1ITC1 = Itemc4;
-Inst94Quest1description1 = AQITEM_
-Inst94Quest1ID1 = ""
+Inst1Quest1ITC1 = Itemc4;
+Inst1Quest1description1 = AQITEM_
+Inst1Quest1ID1 = ""
 --ITEM2
-Inst94Quest1ITC2 = Itemc4;
-Inst94Quest1description2 = AQITEM_
-Inst94Quest1ID2 = ""
+Inst1Quest1ITC2 = Itemc4;
+Inst1Quest1description2 = AQITEM_
+Inst1Quest1ID2 = ""
 --ITEM3
-Inst94Quest1ITC3 = Itemc4;
-Inst94Quest1description3 = AQITEM_
-Inst94Quest1ID3 = ""
+Inst1Quest1ITC3 = Itemc4;
+Inst1Quest1description3 = AQITEM_
+Inst1Quest1ID3 = ""
 --ITEM4
-Inst94Quest1ITC4 = Itemc4;
-Inst94Quest1description4 = AQITEM_
-Inst94Quest1ID4 = ""
+Inst1Quest1ITC4 = Itemc4;
+Inst1Quest1description4 = AQITEM_
+Inst1Quest1ID4 = ""
 
 
 
 
 --Quest 1 Alliance
-Inst94Quest1Rewardtext = AQNoReward
+Inst1Quest1Rewardtext = AQNoReward
 
 
 
 
 
-Inst94Quest1_QuestID = ""
+Inst1Quest1_QuestID = ""
 
-Inst94Quest1_HORDE_QuestID = ""
+Inst1Quest1_HORDE_QuestID = ""
 
 
 AQ__Level = ""
