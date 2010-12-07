@@ -15,14 +15,17 @@ Version 4.6.0 ALPHA
 	- The Deadmines
 	- Wailing Caverns
 	- Ragefire Chasm
+	- Uldaman
+
+
+
 	
-
-
 Version 4.5.0 BETA
 
 - Basic (very basic) Patch 4.0 support.
 - Fixed attainment level for SM: Into The Scarlet Monastery (thanks auha)
 - Localizations updated: deDE, zhTW.
+
 
 
 
