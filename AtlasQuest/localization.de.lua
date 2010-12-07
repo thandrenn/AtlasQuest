@@ -408,71 +408,58 @@ Inst2Quest3name5_HORDE = Inst2Quest3name5
 Inst3Story = "Der Flammenschlund besteht aus einer Reihe vulkanischer Höhlen, die unter Orgrimmar verlaufen, der neuen Hauptstadt der Orcs. Vor nicht allzulanger Zeit soll sich in den feurigen Tiefen ein Kult eingenistet haben, der dem dämonischen Schattenrat nahe steht. Dieser Kult, der sich selbst die Brennende Klinge nennt, stellt eine direkte Bedrohung der Unabhängigkeit von Orgrimmar dar. Viele glauben, dass Kriegshäuptling Thrall die Brennende Klinge nur deshalb nicht sofort auslöscht, weil er sich erhofft, dass sie ihn direkt zu seinem wahren Feind führen werden, dem mysteriösen Schattenrat selbst. Dennoch könnten die dunklen Mächte, die sich im Flammenschlund sammeln, alles zerstören, was die Orcs mit so viel Blut und Leid erkämpft haben."
 Inst3Caption = "Der Flammenschlund"
 Inst3QAA = "keine Quests"
-Inst3QAH = "5 Quests"
+Inst3QAH = "4 Quests"
 
 --Quest 1 Horde
-Inst3Quest1_HORDE = "1. Die Kraft des Feindes wird auf die Probe gestellt"
-Inst3Quest1_HORDE_Level = "15"
-Inst3Quest1_HORDE_Attain = "9"
-Inst3Quest1_HORDE_Aim = "Sucht in Orgrimmar nach dem Flammenschlund, tötet dann 8 Flammenschlundtroggs und 8 Schamanen der Flammenschlundtroggs und kehrt anschließend zu Rahauro in Donnerfels zurück."
-Inst3Quest1_HORDE_Location = "Rahauro (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."70,29"..WHITE..")"
-Inst3Quest1_HORDE_Note = "Die Troggs findet man am Anfang der Instanz."
+Inst3Quest1_HORDE = "1. Der Feind tief unten"
+Inst3Quest1_HORDE_Level = "13"
+Inst3Quest1_HORDE_Attain = "10"
+Inst3Quest1_HORDE_Aim = "Sprecht mit Steinwächter Kurjack."
+Inst3Quest1_HORDE_Location = "Garrosh Höllschrei (Orgrimmar - Das Tal der Stärke; "..YELLOW.."48.2, 70.6"..WHITE..")\nBaine Bluthuf (Donnerfels - The High Rise; "..YELLOW.."60.6, 51.6"..WHITE..")\nFürstin Sylvanas Windläufer (Unterstadt - Das königliche Viertel; "..YELLOW.."58.6, 93.0"..WHITE..")"
+Inst3Quest1_HORDE_Note = "Dies ist eine optionale Quest.Du kannst sie in drei verschiedenen Hauptstädten annehmen."
 Inst3Quest1_HORDE_Prequest = "Nein"
-Inst3Quest1_HORDE_Folgequest = "Nein"
+Inst3Quest1_HORDE_Folgequest = "Ja, Taragaman der Hungerleider"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst3Quest2_HORDE = "2. Die Macht der Zerstörung..."
+Inst3Quest2_HORDE = "2. Taragaman der Hungerleider"
 Inst3Quest2_HORDE_Level = "16"
-Inst3Quest2_HORDE_Attain = "9"
-Inst3Quest2_HORDE_Aim = "Bringt die Bücher 'Schattenzauber' und 'Zauberformeln aus dem Nether' zu Varimathras nach Unterstadt."
-Inst3Quest2_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92"..WHITE..")"
-Inst3Quest2_HORDE_Note = "Die Kultisten und die Hexenmeister der Sengenden Klinge droppen die Bücher"
-Inst3Quest2_HORDE_Prequest = "Nein"
+Inst3Quest2_HORDE_Attain = "10"
+Inst3Quest2_HORDE_Aim = "Holt das Herz von Taragaman dem Hungerleider."
+Inst3Quest2_HORDE_Location = "Steinwächter Kurjack (Der Flammenschlund; "..YELLOW.."Eingang"..WHITE..")"
+Inst3Quest2_HORDE_Note = ""Die Mobs von der Sengenden Klinge sind auf den Weg zu Taragaman dem Hungerleider der bei "..YELLOW.."[2]"..WHITE.."ist."
+Inst3Quest2_HORDE_Prequest = "Ja, Der Feind tief unten"
 Inst3Quest2_HORDE_Folgequest = "Nein"
+Inst3Quest2FQuest_HORDE = "true"
 --
-Inst3Quest2name1_HORDE = "Garstige Beinkleider"
-Inst3Quest2name2_HORDE = "Gamaschen des Sumpfgräbers"
-Inst3Quest2name3_HORDE = "Gargoylegamaschen"
+Inst3Quest2name1_HORDE = "Sengender Gürtel"
+Inst3Quest2name2_HORDE = "Steingardistenschienbeinschützer"
+Inst3Quest2name3_HORDE = "Balgweste des Hungerers"
+Inst3Quest2name1_HORDE = "Flammenschlundgamaschen"
+Inst3Quest2name2_HORDE = "Roben des glorreichen Gesangs"
 
 --Quest 3 Horde
-Inst3Quest3_HORDE = "3. Die Suche nach dem verloren gegangenen Ranzen"
-Inst3Quest3_HORDE_Level = "16"
-Inst3Quest3_HORDE_Attain = "9"
-Inst3Quest3_HORDE_Aim = "Sucht im Flammenschlund nach Maur Grimmtotems Leiche und durchsucht sie nach interessanten Gegenständen."
-Inst3Quest3_HORDE_Location = "Rahauro (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."70,29"..WHITE..")"
-Inst3Quest3_HORDE_Note = "Maur Grimmtotem kann man bei "..YELLOW.."[1]"..WHITE.." finden. Danach muss man den Ranzen zurück zu Rahauro in Donnerfels bringen."
+Inst3Quest3_HORDE = "3. Werft die Invasion zurück"
+Inst3Quest3_HORDE_Level = "14"
+Inst3Quest3_HORDE_Attain = "10"
+Inst3Quest3_HORDE_Aim = "Tötet Flintauge, Bazzalan und Jergosh den Herbeirufer."
+Inst3Quest3_HORDE_Location = "Steinwächter Kurjack (Der Flammenschlund; "..YELLOW.."Eingang"..WHITE..")"
+Inst3Quest3_HORDE_Note = "Flintauge ist bei "..YELLOW.."[1]"..WHITE..", Bazzalan ist bei "..YELLOW.."[3]"..WHITE.." und Jergosh den Herbeirufer ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst3Quest3_HORDE_Prequest = "Nein"
-Inst3Quest3_HORDE_Folgequest = "Ja, Wiederbeschaffung des verloren gegangenen Ranzens"
---
-Inst3Quest3name1_HORDE = "Federleichte Armschienen"
-Inst3Quest3name2_HORDE = "Savannenarmschienen"
+Inst3Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 4 Horde
-Inst3Quest4_HORDE = "4. Verborgene Feinde"
-Inst3Quest4_HORDE_Level = "16"
-Inst3Quest4_HORDE_Attain = "9"
-Inst3Quest4_HORDE_Aim = "Tötet Bazzalan und Jergosh den Herbeirufer, bevor Ihr zu Thrall nach Orgrimmar zurückkehrt."
-Inst3Quest4_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,37"..WHITE..")"
-Inst3Quest4_HORDE_Note = "Bazzalan findet man bei "..YELLOW.."[4]"..WHITE.." und Jergosh bei "..YELLOW.."[3]"..WHITE..". Die Questline startet bei Thrall in Ogrimmar."
-Inst3Quest4_HORDE_Prequest = "Ja, Verborgene Feinde"
-Inst3Quest4_HORDE_Folgequest = "Ja, Verborgene Feinde"
-Inst3Quest4PreQuest_HORDE = "true"
---
-Inst3Quest4name1_HORDE = "Kris von Orgrimmar"
-Inst3Quest4name2_HORDE = "Hammer von Orgrimmar"
-Inst3Quest4name3_HORDE = "Axt von Orgrimmar"
-Inst3Quest4name4_HORDE = "Stab von Orgrimmar"
+Inst3Quest4_HORDE = "4. Verpfuschte Elementare"
+Inst3Quest4_HORDE_Level = "15"
+Inst3Quest4_HORDE_Attain = "10"
+Inst3Quest4_HORDE_Aim = "Beschafft 6 sengende Bindungen."
+Inst3Quest4_HORDE_Location = "Bovaal Weißhorn (Der Flammenschlund; "..YELLOW.."Eingang"..WHITE..")"
+Inst3Quest4_HORDE_Note = "Die Felselementare auf dem Weg zum ersten Boss droppen die sengenden Bindungen."
+Inst3Quest4_HORDE_Prequest = "Nein"
+Inst3Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
---Quest 5 Horde
-Inst3Quest5_HORDE = "5. Vernichtung der Bestie"
-Inst3Quest5_HORDE_Level = "16"
-Inst3Quest5_HORDE_Attain = "9"
-Inst3Quest5_HORDE_Aim = "Begebt Euch in den Flammenschlund und erschlagt Taragaman den Hungerleider. Bringt anschließend dessen Herz zu Neeru Feuerklinge nach Orgrimmar."
-Inst3Quest5_HORDE_Location = "Neeru Feuerklinge (Orgrimmar - Kluft der Schatten; "..YELLOW.."49,50"..WHITE..")"
-Inst3Quest5_HORDE_Note = "Taragaman findet man bei "..YELLOW.."[2]"..WHITE.."."
-Inst3Quest5_HORDE_Prequest = "Nein"
-Inst3Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -481,331 +468,151 @@ Inst3Quest5_HORDE_Folgequest = "Nein"
 
 Inst4Story = "Uldaman ist ein uraltes titanisches Verlies, das seit der Zeit der Titanen tief unter der Erde verborgen lag. Vor Kurzem stießen die Zwerge bei ihren Ausgrabungen auf die vergessene Stadt, wobei sie die missglückten ersten Schöpfungen der Titanen entfesselten: Die Troggs. Der Legende nach erschufen die Titanen die Troggs aus Stein. Als sie sahen, dass ihre Schöpfung ein Fehlschlag war, verbannten sie die Troggs nach Uldaman und begannen von vorne. Das Ergebnis dieses zweiten Versuchs waren die Urahnen der heutigen Zwerge. Das Geheimnis der Entstehung der Zwerge ist auf den sagenumwobenen Scheiben von Norgannon festgehalten, gewaltigen titanischen Artefakten, die im Allerheiligsten der vergessenen Stadt Uldaman aufbewahrt werden. Die Zwerge des Düstereisenklans haben damit begonnen, nach Uldaman vorzudringen, um die Scheiben für ihren Meister zu stehlen, den Feuerfürsten Ragnaros. Die Stadt und die Scheiben werden jedoch von mehreren Wächtern beschützt, riesigen Geschöpfen aus lebendem Stein, die jeden unglücklichen Eindringling zerquetschen, der ihnen über den Weg läuft. Die Scheiben selbst werden von einem gewaltigen Steinwächter namens Archaedas bewacht, und einige, die aus Uldaman zurückgekehrt sind, berichten von Begegnungen mit seltsamen Wesen, bei denen es sich aller Wahrscheinlichkeit um die steinhäutigen Vorfahren der Zwerge handelt, die lange verloren geglaubten Irdenen."
 Inst4Caption = "Uldaman"
-Inst4QAA = "16 Quests"
-Inst4QAH = "10 Quests"
+Inst4QAA = "6 Quests"
+Inst4QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst4Quest1 = "1. Ein Hoffnungsschimmer"
-Inst4Quest1_Level = "35"
-Inst4Quest1_Attain = "35"
-Inst4Quest1_Aim = "Sucht in Uldaman nach Hammerzeh Grez."
-Inst4Quest1_Location = "Ausgrabungsleiter Roggendol (Das Ödland; "..YELLOW.."53,43"..WHITE..")"
-Inst4Quest1_Note = "Die Vorquest startet bei der zerknüllten Notiz (Das Ödland; "..YELLOW.."53,33"..WHITE..").\nHammerzeh Grez befindet sich noch vor der Instanz, bei "..YELLOW.."[1]"..WHITE.." auf der Eingangskarte."
-Inst4Quest1_Prequest = "Ja, Ein Hoffnungsschimmer"
-Inst4Quest1_Folgequest = "Ja, Amulett der Geheimnisse"
-Inst4Quest1PreQuest = "true"
+Inst4Quest1 = "1. Die Kammer von Khaz'mul"
+Inst4Quest1_Level = "39"
+Inst4Quest1_Attain = "37"
+Inst4Quest1_Aim = "Besiegt Ironaya."
+Inst4Quest1_Location = "Oberausgrabungsleiter Durdin (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
+Inst4Quest1_Note = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nYou can turn the quest in and accept the followup with the Quest Log."
+Inst4Quest1_Prequest = "Nein"
+Inst4Quest1_Folgequest = "Ja, Archaedas, der alte Steinbehüter"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst4Quest2 = "2. Amulett der Geheimnisse"
+Inst4Quest2 = "2. Archaedas, der alte Steinbehüter"
 Inst4Quest2_Level = "40"
-Inst4Quest2_Attain = "35"
-Inst4Quest2_Aim = "Sucht Hammerzehs Amulett und bringt es ihm nach Uldaman."
-Inst4Quest2_Location = "Hammerzeh Grez (Uldaman - "..YELLOW.."[1] auf der Eingangskarte"..WHITE..")."
-Inst4Quest2_Note = "Das Amulett droppt von Magregan Grubenschatten, bei "..YELLOW.."[2] auf der Eingangskarte"..WHITE.."."
-Inst4Quest2_Prequest = "Ja, Ein Hoffnungsschimmer"
-Inst4Quest2_Folgequest = "Ja, Ein Funken Hoffnung"
+Inst4Quest2_Attain = "37"
+Inst4Quest2_Aim = "Besiegt Archaedas."
+Inst4Quest2_Location = "Oberausgrabungsleiter Durdin (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
+Inst4Quest2_Note = "Archaedas ist bei "..YELLOW.."[8]"..WHITE.."."
+Inst4Quest2_Prequest = "Ja, Die Kammer von Khaz'mul"
+Inst4Quest2_Folgequest = "Nein"
 Inst4Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst4Quest3 = "3. Die verlorene Tafel des Willens"
-Inst4Quest3_Level = "45"
-Inst4Quest3_Attain = "35"
-Inst4Quest3_Aim = "Sucht die Tafel des Willens und bringt sie zu Berater Belgrum in Eisenschmiede."
-Inst4Quest3_Location = "Berater Belgrum (Eisenschmiede - Halle der Forscher; "..YELLOW.."77,10"..WHITE..")"
-Inst4Quest3_Note = "Die Tafel ist bei "..YELLOW.."[8]"..WHITE.."."
-Inst4Quest3_Prequest = "Ja, Amulett der Geheimnisse -> Ein Botschafter des Bösen"
+Inst4Quest3 = "3. Es kommt auf die inneren Werte an"
+Inst4Quest3_Level = "39"
+Inst4Quest3_Attain = "37"
+Inst4Quest3_Aim = "Beschafft Euch den Obsidiankraftkern und den Titankraftkern."
+Inst4Quest3_Location = "Kand Sandsucher (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
+Inst4Quest3_Note = "Der Obsidiankraftkern droppt von den Obsidianschildwache bei "..YELLOW.."[4]"..WHITE.." und der Titankraftkern von dem Uralter Steinbewahrer bei "..YELLOW.."[5]"..WHITE.."."
+Inst4Quest3_Prequest = "Nein"
 Inst4Quest3_Folgequest = "Nein"
-Inst4Quest3FQuest = "true"
---
-Inst4Quest3name1 = "Medaille des Mutes"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst4Quest4 = "4. Kraftsteine"
-Inst4Quest4_Level = "36"
-Inst4Quest4_Attain = "30"
-Inst4Quest4_Aim = "Bringt Riggelfuzz im Ödland 8 Kraftsteine aus Dentrium und 8 Kraftsteine aus An'Alleum."
-Inst4Quest4_Location = "Riggelfuzz (Das Ödland; "..YELLOW.."42,52"..WHITE..")"
-Inst4Quest4_Note = "Die Kraftsteine findet man bei allen Schattenschmiedegegnern vor und innerhalb der Instanz."
+Inst4Quest4 = "4. Hinter verschlossenen Türen"
+Inst4Quest4_Level = "39"
+Inst4Quest4_Attain = "37"
+Inst4Quest4_Aim = "Tötet Galgann Feuerhammer."
+Inst4Quest4_Location = "Olga Runenschwur (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
+Inst4Quest4_Note = "Galgann Feuerhammer ist bei "..YELLOW.."[6]"..WHITE.."."
 Inst4Quest4_Prequest = "Nein"
 Inst4Quest4_Folgequest = "Nein"
---
-Inst4Quest4name1 = "Energiegeladener Steinkreis"
-Inst4Quest4name2 = "Duracin-Armschienen"
-Inst4Quest4name3 = "Ewige Stiefel"
+-- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst4Quest5 = "5. Agmonds Schicksal"
-Inst4Quest5_Level = "38"
-Inst4Quest5_Attain = "30"
-Inst4Quest5_Aim = "Bringt Ausgrabungsleiter Eisenband am Loch Modan 4 verzierte Steinurnen."
-Inst4Quest5_Location = "Ausgrabungsleiter Eisenband (Loch Modan - Eisenbands Ausgrabungsstätte; "..YELLOW.."65,65"..WHITE..")"
-Inst4Quest5_Note = "Die Vorquest startet bei Ausgrabungsleiter Sturmlanze (Eisenschmiede - Halle der Forscher; "..YELLOW.."74,12"..WHITE..").\nDie Urnen findet man überall in der Höhle vor der Instanz."
-Inst4Quest5_Prequest = "Ja, Eisenband sucht Euch! -> Murdaloc"
-Inst4Quest5_Folgequest = "Nein"
-Inst4Quest5PreQuest = "true"
---
-Inst4Quest5name1 = "Ausgrabungsleiter-Handschuhe"
+Inst4Quest5 = "5. Die Platinscheiben"
+Inst4Quest5_Level = "40"
+Inst4Quest5_Attain = "37"
+Inst4Quest5_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon."
+Inst4Quest5_Location = "Die Platinscheiben (Uldaman; "..GREEN.."[3']"..WHITE..")" 
+Inst4Quest5_Note = "Der Steinbehüter ist neben den Scheiben. Gebe die Quest bei den Platinscheiben ab um die nächste Quest anzunehmen."
+Inst4Quest5_Prequest = "Nein"
+Inst4Quest5_Folgequest = "Ja, Die Platinscheiben"
+-- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst4Quest6 = "6. Lösung der Verdammnis"
+Inst4Quest6 = "6. Die Platinscheiben"
 Inst4Quest6_Level = "40"
-Inst4Quest6_Attain = "30"
-Inst4Quest6_Aim = "Bringt Theldurin dem Verirrten die Schrifttafel von Ryun'eh."
-Inst4Quest6_Location = "Theldurin der Verirrte (Das Ödland; "..YELLOW.."51,76"..WHITE..")"
-Inst4Quest6_Note = "Die Schrifttafel befindet sich vor der Instanz. Um zu ihr zu gelangen muss man, nördlich des Instanztors, dem östlichen Gang bis zum Ende folgen. Auf der Eingangskarte ist sie bei "..YELLOW.."[3]"..WHITE.."."
-Inst4Quest6_Prequest = "Nein"
-Inst4Quest6_Folgequest = "Ja, Auf nach Eisenschmiede zu 'Yagyins Zusammenstellung'"
+Inst4Quest6_Attain = "37"
+Inst4Quest6_Aim = "Bringt die Miniaturausgabe der Scheiben von Norgannon zu jemandem, der sich brennend dafür interessiert."
+Inst4Quest6_Location = "Die Platinscheiben (Uldaman; "..GREEN.."[3']"..WHITE..")" 
+Inst4Quest6_Note = "Diese Quest bringt dich wieder zum Oberausgrabungsleiter Durdin der am Eingang der Instanz steht."
+Inst4Quest6_Prequest = "Ja, Die Platinscheiben"
+Inst4Quest6_Folgequest = "Nein"
+Inst4Quest6FQuest = "true"
 --
-Inst4Quest6name1 = "Verdammnisverkünder-Robe"
+Inst4Quest6name1 = "Platinschwert"
+Inst4Quest6name2 = "Band von Uldaman"
+Inst4Quest6name3 = "Durdins Hammer"
 
---Quest 7 Alliance
-Inst4Quest7 = "7. Die verschollenen Zwerge"
-Inst4Quest7_Level = "40"
-Inst4Quest7_Attain = "35"
-Inst4Quest7_Aim = "Sucht in Uldaman nach Baelog."
-Inst4Quest7_Location = "Ausgrabungsleiter Sturmlanze (Eisenschmiede - Halle der Forscher; "..YELLOW.."74,12"..WHITE..")"
-Inst4Quest7_Note = "Bealog findet man bei "..YELLOW.."[1]"..WHITE.."."
-Inst4Quest7_Prequest = "Nein"
-Inst4Quest7_Folgequest = "Ja, Die geheime Kammer"
+
+--Quest 1 Horde
+Inst4Quest1_HORDE = "1. Die Kammer von Khaz'mul"
+Inst4Quest1_HORDE_Level = "39"
+Inst4Quest1_HORDE_Attain = "37"
+Inst4Quest1_HORDE_Aim = "Besiegt Ironaya."
+Inst4Quest1_HORDE_Location = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
+Inst4Quest1_HORDE_Note = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nYou can turn the quest in and accept the followup with the Quest Log."
+Inst4Quest1_HORDE_Prequest = "Nein"
+Inst4Quest1_HORDE_Folgequest = "Ja, Archaedas, der alte Steinbehüter"
 -- No Rewards for this quest
 
---Quest 8 Alliance
-Inst4Quest8 = "8. Die geheime Kammer"
-Inst4Quest8_Level = "40"
-Inst4Quest8_Attain = "35"
-Inst4Quest8_Aim = "Lest Baelogs Tagebuch, erforscht die geheime Kammer und erstattet dann Ausgrabungsleiter Sturmlanze Bericht."
-Inst4Quest8_Location = "Bealog (Uldaman; "..YELLOW.."[1]"..WHITE..")"
-Inst4Quest8_Note = "Die geheime Kammer ist bei "..YELLOW.."[4]"..WHITE..". Um die geheime Kammer öffnen zu können, braucht man den Schaft von Tsol von Revelosh "..YELLOW.."[3]"..WHITE.." und das Medaillon von Gni'kiv von Baelogs Truhe "..YELLOW.."[1]"..WHITE..". Kombiniere diese beiden Gegenstände um den Stab der Prähistorie herzustellen. Der Stab wird im Kartenraum zwischen "..YELLOW.."[3] and [4]"..WHITE.." benutzt, um Ironaya zu beschwören. Nachdem sie getötet wurde, läuft man in den Raum aus dem sie kam, um diese Quest abzuschließen."
-Inst4Quest8_Prequest = "Ja, Die verschollenen Zwerge"
-Inst4Quest8_Folgequest = "Nein"
-Inst4Quest8FQuest = "true"
---
-Inst4Quest8name1 = "Zwergenstürmer"
-Inst4Quest8name2 = "Forscherliga-Erzaderstern"
-
---Quest 9 Alliance
-Inst4Quest9 = "9. Die zerrissene Halskette"
-Inst4Quest9_Level = "41"
-Inst4Quest9_Attain = "37"
-Inst4Quest9_Aim = "Sucht nach dem Erschaffer der zerrissenen Halskette, um etwas über ihren möglichen Wert zu erfahren."
-Inst4Quest9_Location = "Zerrissene Halskette (Zufälliger Dropp in Uldaman)"
-Inst4Quest9_Note = "Man muss die Kette zu Talvash del Kissel (Eisenschmiede - Mystikerviertel; "..YELLOW.."36,3"..WHITE..") bringen."
-Inst4Quest9_Prequest = "Nein"
-Inst4Quest9_Folgequest = "Ja, Lehren haben ihren Preis"
+--Quest 2 Horde
+Inst4Quest2_HORDE = "2. Archaedas, der alte Steinbehüter"
+Inst4Quest2_HORDE_Level = "40"
+Inst4Quest2_HORDE_Attain = "37"
+Inst4Quest2_HORDE_Aim = "Besiegt Archaedas."
+Inst4Quest2_HORDE_Location = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
+Inst4Quest2_HORDE_Note = "Archaedas ist bei "..YELLOW.."[8]"..WHITE.."."
+Inst4Quest2_HORDE_Prequest = "Ja, Die Kammer von Khaz'mul"
+Inst4Quest2_HORDE_Folgequest = "Nein"
+Inst4Quest2FQuest_Horde = "true"
 -- No Rewards for this quest
-
---Quest 10 Alliance
-Inst4Quest10 = "10. Rückkehr nach Uldaman"
-Inst4Quest10_Level = "42"
-Inst4Quest10_Attain = "37"
-Inst4Quest10_Aim = "Sucht in Uldaman nach Hinweisen auf den momentanen Zustand von Talvashs Halskette. Der getötete Paladin, den Talvash erwähnte, hatte die Kette zuletzt."
-Inst4Quest10_Location = "Talvash del Kissel (Eisenschmiede - Mystikerviertel; "..YELLOW.."36,3 "..WHITE..")"
-Inst4Quest10_Note = "Der Paladin befindet sich bei "..YELLOW.."[2]"..WHITE.."."
-Inst4Quest10_Prequest = "Ja, Lehren haben ihren Preis"
-Inst4Quest10_Folgequest = "Ja, Suche nach den Edelsteinen"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst4Quest11 = "11. Suche nach den Edelsteinen"
-Inst4Quest11_Level = "43"
-Inst4Quest11_Attain = "37"
-Inst4Quest11_Aim = "Findet den Rubin, den Saphir und den Topas, die in ganz Uldaman verstreut sind. Wenn Ihr sie habt, wendet Euch aus der Ferne an Talvash del Kissel, indem Ihr die Wahrsagephiole nutzt, die er Euch zuvor gegeben hat."
-Inst4Quest11_Location = "Überreste eines Paladins (Uldaman; "..YELLOW.."[2]"..WHITE..")"
-Inst4Quest11_Note = "Die Edelsteine befinden sich bei "..YELLOW.."[1]"..WHITE.." in einer Verdächtigen Urne, "..YELLOW.."[8]"..WHITE.." aus dem Schattenschmiedecache, und "..YELLOW.."[9]"..WHITE.." von Grimlok. Wenn der Schattenschmiedecache geöffnet wird, wird man von einigen Gegnern angegriffen.\nBenutze Talvashs Wahrsagephiole, um das Quest abzuschließen und das nächste zu erhalten."
-Inst4Quest11_Prequest = "Ja, Rückkehr nach Uldaman"
-Inst4Quest11_Folgequest = "Ja, Restaurierung der Halskette"
-Inst4Quest11FQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst4Quest12 = "12. Restaurierung der Halskette"
-Inst4Quest12_Level = "44"
-Inst4Quest12_Attain = "37"
-Inst4Quest12_Aim = "Besorgt Euch eine Kraftquelle vom mächtigsten Konstrukt, das Ihr in Uldaman finden könnt, und liefert sie bei Talvash del Kissel in Eisenschmiede ab"
-Inst4Quest12_Location = "Talvashs Wahrsageschale"
-Inst4Quest12_Note = "Die Kraftquelle findet man beim Endboss Archaedas "..YELLOW.."[10]"..WHITE.."."
-Inst4Quest12_Prequest = "Ja, Suche nach den Edelsteinen"
-Inst4Quest12_Folgequest = "Nein"
-Inst4Quest12FQuest = "true"
---
-Inst4Quest12name1 = "Talvashs verstärkende Halskette"
-
---Quest 13 Alliance
-Inst4Quest13 = "13. Reagenzsuche in Uldaman"
-Inst4Quest13_Level = "42"
-Inst4Quest13_Attain = "38"
-Inst4Quest13_Aim = "Bringt zwölf magenta Funguskappen nach Thelsamar zu Ghak Heilsegen."
-Inst4Quest13_Location = "Ghak Heilsegen (Loch Modan - Thelsamar; "..YELLOW.."37,49"..WHITE..")"
-Inst4Quest13_Note = "Die Pilze wachsen überall in Uldaman. Spieler, die der Kräuterkunde mächtig sind können sie auf der Minimap sehen, wenn sie diese Quest haben."
-Inst4Quest13_Prequest = "Ja, Reagenziensuche im Ödland"
-Inst4Quest13_Folgequest = "Nein"
-Inst4Quest13PreQuest = "true"
---
-Inst4Quest13name1 = "Regenerationstrank"
-
---Quest 14 Alliance
-Inst4Quest14 = "14. Wiederbeschaffte Schätze"
-Inst4Quest14_Level = "43"
-Inst4Quest14_Attain = "33"
-Inst4Quest14_Aim = "Holt Krom Starkarms wertvollen Besitz aus seiner Truhe in der nördlichen Bankenhalle von Uldaman und bringt den Schatz zu ihm nach Eisenschmiede."
-Inst4Quest14_Location = "Krom Starkarm (Eisenschmiede - Halle der Forscher; "..YELLOW.."74,9"..WHITE..")"
-Inst4Quest14_Note = "Der Schatz befindet sich vor der Instanz. Um zu ihm zu gelangen läuft man nördlich des Instanztors in den östlichen Gang und nimmt die südöstliche Abzweigung. Auf der Eingangskarte ist er bei "..YELLOW.."[4]"..WHITE.."."
-Inst4Quest14_Prequest = "Nein"
-Inst4Quest14_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 15 Alliance
-Inst4Quest15 = "15. Die Platinscheiben"
-Inst4Quest15_Level = "47"
-Inst4Quest15_Attain = "40"
-Inst4Quest15_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon. -> Bringt die Miniaturausgabe der Scheiben von Norgannon zur Forscherliga nach Eisenschmiede."
-Inst4Quest15_Location = "Die Scheiben von Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst4Quest15_Note = "Nachdem ihr diese Quest erhalten habt, müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Hochforscher Magellas in Eisenschmiede - Halle der Forscher ("..YELLOW.."69,18"..WHITE..") bringen sollt. Die Folgequest wird von einem NPC in der Nähe gestartet."
-Inst4Quest15_Prequest = "Nein"
-Inst4Quest15_Folgequest = "Ja, Omen von Uldum"
---
-Inst4Quest15name1 = "Taupelzsack"
-Inst4Quest15name2 = "Überragender Heiltrank"
-Inst4Quest15name3 = "Großer Manatrank"
-
---Quest 16 Alliance
-Inst4Quest16 = "16. Induriumerz"
-Inst4Quest16_Level = "42"
-Inst4Quest16_Attain = "29"
-Inst4Quest16_Aim = "Bring 4 Induriumerze zu Pozzik in Tausend Nadeln."
-Inst4Quest16_Location = "Pozzik (Tausend Nadeln - Illusionenrennbahn; "..YELLOW.."80.1, 75.9"..WHITE..")"
-Inst4Quest16_Note = "Dies ist eine wiederholbare Quest nachdem die Vorquest erfolgreich abgeschlossen wurde. Du bekommst dafür keinen Ruf und Erfahrung, nur ein kleines Trinkgeld. Induriumerz kannst du nur in Uldaman finden oder von anderen Spielern kaufen."
-Inst4Quest16_Prequest = "Tempo erhalten -> Rizzels Baupläne"
-Inst4Quest16_Folgequest = "Nein"
-Inst4Quest16PreQuest = "true"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 4 Alliance)
-Inst4Quest1_HORDE = "1. Kraftsteine"
-Inst4Quest1_HORDE_Level = Inst4Quest4_Level
-Inst4Quest1_HORDE_Attain = Inst4Quest4_Attain
-Inst4Quest1_HORDE_Aim = Inst4Quest4_Aim
-Inst4Quest1_HORDE_Location = Inst4Quest4_Location
-Inst4Quest1_HORDE_Note = Inst4Quest4_Note
-Inst4Quest1_HORDE_Prequest = Inst4Quest4_Prequest
-Inst4Quest1_HORDE_Folgequest = Inst4Quest4_Folgequest
---
-Inst4Quest1name1_HORDE = Inst4Quest4name1
-Inst4Quest1name2_HORDE = Inst4Quest4name2
-Inst4Quest1name3_HORDE = Inst4Quest4name3
-
---Quest 2 Horde  (same as Quest 6 Alliance - different followup)
-Inst4Quest2_HORDE = "2. Lösung der Verdammnis"
-Inst4Quest2_HORDE_Level = Inst4Quest6_Level
-Inst4Quest2_HORDE_Attain = Inst4Quest6_Attain
-Inst4Quest2_HORDE_Aim = Inst4Quest6_Aim
-Inst4Quest2_HORDE_Location = Inst4Quest6_Location
-Inst4Quest2_HORDE_Note = Inst4Quest6_Note
-Inst4Quest2_HORDE_Prequest = Inst4Quest6_Prequest
-Inst4Quest2_HORDE_Folgequest = "Ja, Auf nach Unterstadt zu 'Yagyins Zusammenstellung'"
---
-Inst4Quest2name1_HORDE = Inst4Quest6name1
 
 --Quest 3 Horde
-Inst4Quest3_HORDE = "3. Wiederbeschaffung der Halskette"
-Inst4Quest3_HORDE_Level = "41"
+Inst4Quest3_HORDE = "3. Es kommt auf die inneren Werte an"
+Inst4Quest3_HORDE_Level = "39"
 Inst4Quest3_HORDE_Attain = "37"
-Inst4Quest3_HORDE_Aim = "Sucht in der Grabungsstätte von Uldaman nach einer wertvollen Halskette und bringt sie nach Orgrimmar zu Dran Droffers. Die Halskette ist vielleicht beschädigt."
-Inst4Quest3_HORDE_Location = "Dran Droffers (Orgrimmar - Die Gasse; "..YELLOW.."59,36"..WHITE..")"
-Inst4Quest3_HORDE_Note = "Die Halskette ist ein Zufälliger Dropp innerhalb der Instanz."
+Inst4Quest3_HORDE_Aim = "Beschafft Euch den Obsidiankraftkern und den Titankraftkern."
+Inst4Quest3_HORDE_Location = "Aoren Sonnenglanz (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
+Inst4Quest3_HORDE_Note = "Der Obsidiankraftkern droppt von den Obsidianschildwache bei "..YELLOW.."[4]"..WHITE.." und der Titankraftkern von dem Uralter Steinbewahrer bei "..YELLOW.."[5]"..WHITE.."."
 Inst4Quest3_HORDE_Prequest = "Nein"
-Inst4Quest3_HORDE_Folgequest = "Ja, Wiederbeschaffung der Halskette, Teil 2"
+Inst4Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst4Quest4_HORDE = "4. Wiederbeschaffung der Halskette, Teil 2"
-Inst4Quest4_HORDE_Level = "41"
+Inst4Quest4_HORDE = "4. Hinter verschlossenen Türen"
+Inst4Quest4_HORDE_Level = "39"
 Inst4Quest4_HORDE_Attain = "37"
-Inst4Quest4_HORDE_Aim = "Sucht in den Tiefen von Uldaman nach einem Hinweis auf den Verbleib der Edelsteine."
-Inst4Quest4_HORDE_Location = "Dran Droffers (Orgrimmar - Die Gasse; "..YELLOW.."59,36"..WHITE..")"
-Inst4Quest4_HORDE_Note = "Der Paladin befindet sich bei "..YELLOW.."[2]"..WHITE.."."
-Inst4Quest4_HORDE_Prequest = "Ja, Wiederbeschaffung der Halskette"
-Inst4Quest4_HORDE_Folgequest = "Ja, Übersetzung des Tagebuchs"
-Inst4Quest4FQuest_HORDE = "true"
+Inst4Quest4_HORDE_Aim = "Tötet Galgann Feuerhammer."
+Inst4Quest4_HORDE_Location = "Lidia Sonnenglanz (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
+Inst4Quest4_HORDE_Note = "Galgann Feuerhammer ist bei "..YELLOW.."[6]"..WHITE.."."
+Inst4Quest4_HORDE_Prequest = "Nein"
+Inst4Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde
-Inst4Quest5_HORDE = "5. Übersetzung des Tagebuchs"
-Inst4Quest5_HORDE_Level = "42"
-Inst4Quest5_HORDE_Attain = "37"
-Inst4Quest5_HORDE_Aim = "Sucht jemanden, der das Tagebuch des Paladins übersetzen kann. Der nächstgelegene Ort, wo Ihr so jemanden finden könntet, ist Kargath im Ödland."
-Inst4Quest5_HORDE_Location = "Überreste eines Paladins (Uldaman; "..YELLOW.."[2]"..WHITE..")"
-Inst4Quest5_HORDE_Note = "Der Übersetzer Jarkal Moosblut befindet sich in Kargath (Das Ödland; "..YELLOW.."2,46"..WHITE..")."
-Inst4Quest5_HORDE_Prequest = "Ja, Wiederbeschaffung der Halskette, Teil 2"
-Inst4Quest5_HORDE_Folgequest = "Ja, Findet die Edelsteine und die Kraftquelle"
-Inst4Quest5FQuest_HORDE = "true"
+--Quest 5 Horde (same as Quest 5 Alliance)
+Inst4Quest5_HORDE = Inst4Quest5
+Inst4Quest5_HORDE_Level = Inst4Quest5_Level
+Inst4Quest5_HORDE_Attain = Inst4Quest5_Attain
+Inst4Quest5_HORDE_Aim = Inst4Quest5_Aim
+Inst4Quest5_HORDE_Location = Inst4Quest5_Location
+Inst4Quest5_HORDE_Note = Inst4Quest5_Note
+Inst4Quest5_HORDE_Prequest = Inst4Quest5_Prequest
+Inst4Quest5_HORDE_Folgequest = Inst4Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest 6 Horde
-Inst4Quest6_HORDE = "6. Findet die Edelsteine und die Kraftquelle"
-Inst4Quest6_HORDE_Level = "44"
-Inst4Quest6_HORDE_Attain = "37"
-Inst4Quest6_HORDE_Aim = "Beschafft in Uldaman alle drei Edelsteine sowie eine Kraftquelle für die Halskette und bringt sie anschließend zu Jarkal Moosblut nach Kargath. Jarkal glaubt, dass sich eine Kraftquelle vielleicht im stärksten Konstrukt in Uldaman findet."
-Inst4Quest6_HORDE_Location = "Jarkal Moosblut (Das Ödland - Kargath; "..YELLOW.."2,46"..WHITE..")"
-Inst4Quest6_HORDE_Note = "Die Edelsteine befinden sich bei "..YELLOW.."[1]"..WHITE.." in einer Verdächtigen Urne, "..YELLOW.."[8]"..WHITE.." aus dem Schattenschmiedecache, und "..YELLOW.."[9]"..WHITE.." von Grimlok. Wenn der Schattenschmiedecache geöffnet wird, wird man von einigen Gegnern angegriffen. Die Kraftquelle droppt vom Endboss Archaedas "..YELLOW.."[10]"..WHITE.."."
-Inst4Quest6_HORDE_Prequest = "Ja, Übersetzung des Tagebuchs"
-Inst4Quest6_HORDE_Folgequest = "Ja, Ablieferung der Edelsteine"
-Inst4Quest6FQuest_HORDE = "true"
+--Quest 6 Horde (same as Quest 6 Alliance)
+Inst4Quest6_HORDE = Inst4Quest6
+Inst4Quest6_HORDE_Level = Inst4Quest6_Level
+Inst4Quest6_HORDE_Attain = Inst4Quest6_Attain
+Inst4Quest6_HORDE_Aim = Inst4Quest6_Aim
+Inst4Quest6_HORDE_Location = Inst4Quest6_Location
+Inst4Quest6_HORDE_Note = "Diese Quest bringt dich wieder zum Oberster Prüfer Tae'thelan Blutwächter der am Eingang der Instanz steht."
+Inst4Quest6_HORDE_Prequest = Inst4Quest6_Prequest
+Inst4Quest6_HORDE_Folgequest = Inst4Quest6_Folgequest
+Inst4Quest6FQuest_HORDE = Inst4Quest6FQuest
 --
-Inst4Quest6name1_HORDE = "Jarkals intensivierende Halskette"
-
---Quest 7 Horde
-Inst4Quest7_HORDE = "7. Reagenzsuche in Uldaman"
-Inst4Quest7_HORDE_Level = "42"
-Inst4Quest7_HORDE_Attain = "36"
-Inst4Quest7_HORDE_Aim = "Bringt 12 magenta Funguskappen nach Kargath zu Jarkal Moosblut."
-Inst4Quest7_HORDE_Location = "Jarkal Moosblut (Das Ödland - Kargath; "..YELLOW.."2,69"..WHITE..")"
-Inst4Quest7_HORDE_Note = "Die Vorquest bekommt man auch von Jarkal Moosblut.\nDie Pilze wachsen überall in Uldaman. Spieler, die der Kräuterkunde mächtig sind, können sie auf ihrer Minimap sehen."
-Inst4Quest7_HORDE_Prequest = "Ja, Reagenzien-Suche im Ödland"
-Inst4Quest7_HORDE_Folgequest = "Ja, Reagenzien-Suche im Ödland II"
-Inst4Quest7PreQuest_HORDE = "true"
---
-Inst4Quest7name1_HORDE = "Regenerationstrank"
-
---Quest 8 Horde
-Inst4Quest8_HORDE = "8. Wiederbeschaffte Schätze"
-Inst4Quest8_HORDE_Level = "43"
-Inst4Quest8_HORDE_Attain = "33"
-Inst4Quest8_HORDE_Aim = "Holt Patrick Garretts Familienschatz aus der Truhe der Familie in der südlichen Bankenhalle von Uldaman und bringt diesen zu ihm nach Unterstadt."
-Inst4Quest8_HORDE_Location = "Patrick Garrett (Unterstadt; "..YELLOW.."72,48"..WHITE..")"
-Inst4Quest8_HORDE_Note = "Der Schatz befindet sich vor der Instanz. Um zu ihm zu gelangen muss man dem Gang südlich des Instanztors, bis zum Ende folgen. Auf der Eingangskarte befindet er sich bei "..YELLOW.."[5]"..WHITE.."."
-Inst4Quest8_HORDE_Prequest = "Nein"
-Inst4Quest8_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 9 Horde
-Inst4Quest9_HORDE = "9. Die Platinscheiben"
-Inst4Quest9_HORDE_Level = "47"
-Inst4Quest9_HORDE_Attain = "40"
-Inst4Quest9_HORDE_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon. -> Bringt die Miniaturausgabe der Scheiben von Norgannon zu einem der Weisen von Donnerfels."
-Inst4Quest9_HORDE_Location = "Die Scheiben von Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst4Quest9_HORDE_Note = "Nachdem ihr diese Quest erhalten habt müsst ihr mit dem Steinbehüter links von der Scheibe sprechen. Danach benutzt ihr nochmal die Platinscheibe und bekommt eine Miniaturscheibe die ihr zu Weiser Wahrspruch in Donnerfels ("..YELLOW.."34,46"..WHITE..") bringt. Die Folgequest wird von einem NPC in der Nähe gestartet."
-Inst4Quest9_HORDE_Prequest = "Nein"
-Inst4Quest9_HORDE_Folgequest = "Ja, Omen von Uldum"
---
-Inst4Quest9name1_HORDE = "Taupelzsack"
-Inst4Quest9name2_HORDE = "Überragender Heiltrank"
-Inst4Quest9name3_HORDE = "Großer Manatrank"
-
---Quest 10 Horde  (same as Quest 16 Alliance)
-Inst4Quest10_HORDE = "10. Induriumerz"
-Inst4Quest10_HORDE_Level = Inst4Quest16_Level
-Inst4Quest10_HORDE_Attain = Inst4Quest16_Attain
-Inst4Quest10_HORDE_Aim = Inst4Quest16_Aim
-Inst4Quest10_HORDE_Location = Inst4Quest16_Location
-Inst4Quest10_HORDE_Note = Inst4Quest16_Note
-Inst4Quest10_HORDE_Prequest = Inst4Quest16_Prequest
-Inst4Quest10_HORDE_Folgequest = Inst4Quest16_Folgequest
-Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
--- No Rewards for this quest
+Inst4Quest6name1_HORDE = Inst4Quest6name1
+Inst4Quest6name2_HORDE = Inst4Quest6name2
+Inst4Quest6name3_HORDE = Inst4Quest6name3
 
 
 
@@ -1266,81 +1073,31 @@ Inst6Caption = "Der Pechschwingenhort"
 Inst6Caption2 = "Der Pechschwingenhort (Geschichte Teil 1)"
 Inst6Caption3 = "Der Pechschwingenhort (Geschichte Teil 2)"
 
-Inst6QAA = "3 Quests"
-Inst6QAH = "3 Quests"
+Inst6QAA = "1 Quests"
+Inst6QAH = "1 Quests"
 
 --Quest 1 Alliance
-Inst6Quest1 = "1. Nefarius' Verderbnis"
+Inst6Quest1 = "1. Der Herrscher des Schwarzfels"
 Inst6Quest1_Level = "60"
 Inst6Quest1_Attain = "60"
-Inst6Quest1_Aim = "Tötet Nefarian und bringt den roten Szeptersplitter wieder in Euren Besitz. Bringt den roten Szeptersplitter zu Anachronos in den Höhlen der Zeit in Tanaris. Euch bleiben 5 Stunden, um diese Aufgabe zu erfüllen."
-Inst6Quest1_Location = "Vaelastrasz der Verdorbene (Pechschwingenhort; "..YELLOW.."[2]"..WHITE..")"
-Inst6Quest1_Note = "Nur eine Person kann den Splitter an sich nehmen. Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
+Inst6Quest1_Aim = "Bringt König Varian Wrynn in Sturmwind den Kopf von Nefarian."
+Inst6Quest1_Location = "Kopf von Nefarian (droppt von Nefarian; "..YELLOW.."[9]"..WHITE..")"
+Inst6Quest1_Note = "König Varian Wrynn befindet sich in (Sturmwind - Burg Sturmwind; "..YELLOW.."80.0, 38.5"..WHITE.."). Die Folgequest schickt euch zu Feldmarschall Afrasiabi (Sturmwind - Tal der Helden; "..YELLOW.."67,72"..WHITE..") für die Belohnung."
 Inst6Quest1_Prequest = "Nein"
-Inst6Quest1_Folgequest = "Nein"
--- No Rewards for this quest
+Inst6Quest1_Folgequest = "Ja, Der Herrscher des Schwarzfels"
+-- No Rewards for this Quest
 
---Quest 2 Alliance
-Inst6Quest2 = "2. Der Herrscher des Schwarzfels"
-Inst6Quest2_Level = "60"
-Inst6Quest2_Attain = "60"
-Inst6Quest2_Aim = "Bringt König Varian Wrynn in Sturmwind den Kopf von Nefarian."
-Inst6Quest2_Location = "Kopf von Nefarian (droppt von Nefarian; "..YELLOW.."[9]"..WHITE..")"
-Inst6Quest2_Note = "König Varian Wrynn befindet sich in (Sturmwind - Burg Sturmwind; "..YELLOW.."80.0, 38.5"..WHITE.."). Die Folgequest schickt euch zu Feldmarschall Afrasiabi (Sturmwind - Tal der Helden; "..YELLOW.."67,72"..WHITE..") für die Belohnung."
-Inst6Quest2_Prequest = "Nein"
-Inst6Quest2_Folgequest = "Ja, Der Herrscher des Schwarzfels"
+
+--Quest 1 Horde
+Inst6Quest1_HORDE = "1. Der Herrscher des Schwarzfels"
+Inst6Quest1_HORDE_Level = "60"
+Inst6Quest1_HORDE_Attain = "60"
+Inst6Quest1_HORDE_Aim = "Bringt Thrall in Orgrimmar den Kopf von Nefarian."
+Inst6Quest1_HORDE_Location = "Kopf von Nefarian (droppt von Nefarian; "..YELLOW.."[9]"..WHITE..")"
+Inst6Quest1_HORDE_Note = "Die Folgequest schickt euch zu Hochfürst Saurfang (Orgrimmar - Tal der Stärke; "..YELLOW.."51,76"..WHITE..") für die Belohnung."
+Inst6Quest1_HORDE_Prequest = "Nein"
+Inst6Quest1_HORDE_Folgequest = "Ja, Der Herrscher des Schwarzfels"
 --
-Inst6Quest2name1 = "Medallion des Meisterdrachentöters"
-Inst6Quest2name2 = "Kugel des Meisterdrachentöters"
-Inst6Quest2name3 = "Ring des Meisterdrachentöters"
-
---Quest 3 Alliance
-Inst6Quest3 = "3. Nur einer kann sich erheben"
-Inst6Quest3_Level = "60"
-Inst6Quest3_Attain = "60"
-Inst6Quest3_Aim = "Bringt Brutwächter Dreschbringers Kopf zu Baristolth der Sandstürme in die Burg Cenarius in Silithus."
-Inst6Quest3_Location = "Kopf des Brutwächters Dreschbringer (droppt von Brutwächter Dreschbringer "..YELLOW.."[3]"..WHITE..")"
-Inst6Quest3_Note = "Nur eine Person kann den Kopf an sich nehmen."
-Inst6Quest3_Prequest = "Nein"
-Inst6Quest3_Folgequest = "Ja, Der Pfad des Gerechten"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst6Quest1_HORDE = Inst6Quest1
-Inst6Quest1_HORDE_Level = Inst6Quest1_Level
-Inst6Quest1_HORDE_Attain = Inst6Quest1_Attain
-Inst6Quest1_HORDE_Aim = Inst6Quest1_Aim
-Inst6Quest1_HORDE_Location = Inst6Quest1_Location
-Inst6Quest1_HORDE_Note = Inst6Quest1_Note
-Inst6Quest1_HORDE_Prequest = Inst6Quest1_Prequest
-Inst6Quest1_HORDE_Folgequest = Inst6Quest1_Folgequest
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst6Quest2_HORDE = "2. Der Herrscher des Schwarzfels"
-Inst6Quest2_HORDE_Level = "60"
-Inst6Quest2_HORDE_Attain = "60"
-Inst6Quest2_HORDE_Aim = "Bringt Thrall in Orgrimmar den Kopf von Nefarian."
-Inst6Quest2_HORDE_Location = "Kopf von Nefarian (droppt von Nefarian; "..YELLOW.."[9]"..WHITE..")"
-Inst6Quest2_HORDE_Note = "Die Folgequest schickt euch zu Hochfürst Saurfang (Orgrimmar - Tal der Stärke; "..YELLOW.."51,76"..WHITE..") für die Belohnung."
-Inst6Quest2_HORDE_Prequest = "Nein"
-Inst6Quest2_HORDE_Folgequest = "Ja, Der Herrscher des Schwarzfels"
---
-Inst6Quest2name1_HORDE = "Medallion des Meisterdrachentöters"
-Inst6Quest2name2_HORDE = "Kugel des Meisterdrachentöters"
-Inst6Quest2name3_HORDE = "Ring des Meisterdrachentöters"
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst6Quest3_HORDE = Inst6Quest3
-Inst6Quest3_HORDE_Level = Inst6Quest3_Level
-Inst6Quest3_HORDE_Attain = Inst6Quest3_Attain
-Inst6Quest3_HORDE_Aim = Inst6Quest3_Aim
-Inst6Quest3_HORDE_Location = Inst6Quest3_Location
-Inst6Quest3_HORDE_Note = Inst6Quest3_Note
-Inst6Quest3_HORDE_Prequest = Inst6Quest3_Prequest
-Inst6Quest3_HORDE_Folgequest = Inst6Quest3_Folgequest
--- No Rewards for this quest
 
 
 
@@ -1353,20 +1110,23 @@ Inst7QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst7Quest1 = "1. Wissen in der Tiefe"
-Inst7Quest1_Level = "23"
-Inst7Quest1_Attain = "19"
+Inst7Quest1_Level = "25"
+Inst7Quest1_Attain = "22"
 Inst7Quest1_Aim = "Bringt das 'Lorgalismanuskript' zu Gerrig Knochengriff in Eisenschmiede."
 Inst7Quest1_Location = "Gerrig Knochengriff (Eisenschmiede - Das Düstere Viertel; "..YELLOW.."50,5"..WHITE..")"
 Inst7Quest1_Note = "Das Manuskript befindet sich bei "..YELLOW.."[2]"..WHITE.." im Wasser."
 Inst7Quest1_Prequest = "Nein"
 Inst7Quest1_Folgequest = "Nein"
 --
+Inst7Quest1name1 = "Abendrugbogen"
+Inst7Quest1name2 = "Verstaubter Umhang"
+Inst7Quest1name1 = "Dämmerungsband"
 Inst7Quest1name1 = "Erhaltender Ring"
 
 --Quest 2 Alliance
 Inst7Quest2 = "2. Erforschung der Verderbnis"
-Inst7Quest2_Level = "24"
-Inst7Quest2_Attain = "18"
+Inst7Quest2_Level = "26"
+Inst7Quest2_Attain = "22"
 Inst7Quest2_Aim = "Gershala Nachtraunen in Auberdine möchte 8 verderbte Hirnstämme."
 Inst7Quest2_Location = "Gershala Nachtraunen (Dunkelküste - Auberdine; "..YELLOW.."38,43"..WHITE..")"
 Inst7Quest2_Note = "Die Vorquest ist optional. Man bekommt die Vorquest von Argos Nachtraunen (Sturmwind - Der Park; "..YELLOW.."21,55"..WHITE..").\n\nDie Gehirnstämme werden von den Nagas vor und in der Instanz gedroppt."
@@ -1374,13 +1134,15 @@ Inst7Quest2_Prequest = "Ja, Verderbnis in der Fremde"
 Inst7Quest2_Folgequest = "Nein"
 Inst7Quest2PreQuest = "true"
 --
-Inst7Quest2name1 = "Käferschnallen"
-Inst7Quest2name2 = "Prälaturencape"
+Inst7Quest2name1 = "Sezierer"
+Inst7Quest2name2 = "Suchender Zauberstab"
+Inst7Quest2name3 = " Schattensternkolben "
+Inst7Quest2name4 = "Band des Schädelquetschers"
 
 --Quest 3 Alliance
 Inst7Quest3 = "3. Auf der Suche nach Thaelrid"
-Inst7Quest3_Level = "24"
-Inst7Quest3_Attain = "18"
+Inst7Quest3_Level = "25"
+Inst7Quest3_Attain = "22"
 Inst7Quest3_Aim = "Sucht Argentumwache Thaelrid in der Tiefschwarzen Grotte auf."
 Inst7Quest3_Location = "Dämmerungsbehüter Shaedlass (Darnassus - Terrasse der Handwerker; "..YELLOW.."55,24"..WHITE..")"
 Inst7Quest3_Note = "Argentumwache Thaelrid findet man bei "..YELLOW.."[4]"..WHITE.."."
@@ -1390,8 +1152,8 @@ Inst7Quest3_Folgequest = "Ja, Schurkerei in der Tiefschwarzen Grotte"
 
 --Quest 4 Alliance
 Inst7Quest4 = "4. Schurkerei in der Tiefschwarzen Grotte"
-Inst7Quest4_Level = "27"
-Inst7Quest4_Attain = "18"
+Inst7Quest4_Level = "28"
+Inst7Quest4_Attain = "22"
 Inst7Quest4_Aim = "Bringt den Kopf von Lord des Schattenhammers Kelris zu Dämmerungsbehüter Selgorm in Darnassus."
 Inst7Quest4_Location = "Argentumwache Thaelrid (Tiefschwarze Grotte; "..YELLOW.."[4]"..WHITE..")"
 Inst7Quest4_Note = "Der Lord des Schattenhammers Kelris befindet sich bei "..YELLOW.."[8]"..WHITE..". Dämmerungsbehüter Selgorm findet man in Darnassus - Terrasse der Handwerker ("..YELLOW.."55,24"..WHITE..").\n\nVORSICHT! Wenn man die Feuerschalen bei Lord Kelris entzündet, erscheinen mehrere Gegner."
@@ -1399,21 +1161,24 @@ Inst7Quest4_Prequest = "Ja, Auf der Suche nach Thaelrid"
 Inst7Quest4_Folgequest = "Nein"
 Inst7Quest4FQuest = "true"
 --
-Inst7Quest4name1 = "Grabsteinszepter"
-Inst7Quest4name2 = "Arktischer Rundschild"
+Inst7Quest4name1 = "Schild gegen die bösartige Präsenz"
+Inst7Quest4name2 = "Tiefschwarze Gamaschen"
+Inst7Quest4name3 = "Thaelrids Schienbeinschützer"
+Inst7Quest4name4 = "Kelris' Robe"
 
 --Quest 5 Alliance
-Inst7Quest5 = "5. Schatten des Hammers"
+Inst7Quest5 = "5. Die Stunde der Finsternis"
 Inst7Quest5_Level = "25"
 Inst7Quest5_Attain = "20"
-Inst7Quest5_Aim = "Bringt 10 Anhänger des Schattenhammerklans zu Argentumwache Manados in Darnassus."
+Inst7Quest5_Aim = "Bringt 10 Zwielichtanhänger an Euch."
 Inst7Quest5_Location = "Argentumwache Manados (Darnassus - Terrasse der Handwerker; "..YELLOW.."55,23"..WHITE..")"
 Inst7Quest5_Note = "Alle Schattenhammergegner droppen die Anhänger."
 Inst7Quest5_Prequest = "Nein"
 Inst7Quest5_Folgequest = "Nein"
 --
-Inst7Quest5name1 = "Nimbusstiefel"
-Inst7Quest5name2 = "Herzholzgurt"
+Inst7Quest5name1 = "Streitkolben der Tiefschwarzen Grotte"
+Inst7Quest5name2 = "Aluwyns Beinschützer"
+Inst7Quest5name2 = " Geschenk des enigmatischen Baumes "
 
 
 --Quest 1 Horde
