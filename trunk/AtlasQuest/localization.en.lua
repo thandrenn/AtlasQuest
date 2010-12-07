@@ -455,357 +455,151 @@ Inst3Quest4_HORDE_Folgequest = "None"
 
 Inst4Story = "Uldaman is an ancient Titan vault that has laid buried deep within the earth since the world's creation. Dwarven excavations have recently penetrated this forgotten city, releasing the Titans' first failed creations: the troggs. Legends say that the Titans created troggs from stone. When they deemed the experiment a failure, the Titans locked the troggs away and tried again - resulting in the creation of the dwarven race. The secrets of the dwarves' creation are recorded on the fabled Discs of Norgannon - massive Titan artifacts that lie at the very bottom of the ancient city. Recently, the Dark Iron dwarves have launched a series of incursions into Uldaman, hoping to claim the discs for their fiery master, Ragnaros. However, protecting the buried city are several guardians - giant constructs of living stone that crush any hapless intruders they find. The Discs themselves are guarded by a massive, sentient Stonekeeper called Archaedas. Some rumors even suggest that the dwarves' stone-skinned ancestors, the earthen, still dwell deep within the city's hidden recesses."
 Inst4Caption = "Uldaman"
-Inst4QAA = "17 Quests"
-Inst4QAH = "11 Quests"
+Inst4QAA = "6 Quests"
+Inst4QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst4Quest1 = "1. A Sign of Hope"
-Inst4Quest1_Level = "35"
-Inst4Quest1_Attain = "35"
-Inst4Quest1_Aim = "Find Hammertoe Grez in Uldaman."
-Inst4Quest1_Location = "Prospector Ryedol (Badlands; "..YELLOW.."53,43"..WHITE..")"
-Inst4Quest1_Note = "The Prequest starts at the Crumpled Map (Badlands; "..YELLOW.."53,33"..WHITE..").\nYou find Hammertoe Grez before you enter the instance, at "..YELLOW.."[1]"..WHITE.." on the Entrance map."
-Inst4Quest1_Prequest = "A Sign of Hope"
-Inst4Quest1_Folgequest = "Amulet of Secrets"
-Inst4Quest1PreQuest = "true"
+Inst4Quest1 = "1. The Chamber of Khaz'mul"
+Inst4Quest1_Level = "39"
+Inst4Quest1_Attain = "37"
+Inst4Quest1_Aim = "Defeat Ironaya."
+Inst4Quest1_Location = "Lead Prospector Durdin (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest1_Note = "Ironaya is at "..YELLOW.."[3]"..WHITE..". To open her chamber, get the Gni'kiv Medallion from Baelog's Chest at "..YELLOW.."[1]"..WHITE.." and the The Shaft of Tsol from Revelosh at "..YELLOW.."[2]"..WHITE..".\n\nYou can turn the quest in and accept the followup with the Quest Log."
+Inst4Quest1_Prequest = "None"
+Inst4Quest1_Folgequest = "Archaedas, The Ancient Stone Watcher"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst4Quest2 = "2. Amulet of Secrets"
+Inst4Quest2 = "2. Archaedas, The Ancient Stone Watcher"
 Inst4Quest2_Level = "40"
-Inst4Quest2_Attain = "35"
-Inst4Quest2_Aim = "Find Hammertoe's Amulet and return it to him in Uldaman."
-Inst4Quest2_Location = "Hammertoe Grez (Uldaman; "..YELLOW.."[1] on Entrance Map"..WHITE..")."
-Inst4Quest2_Note = "The Amulet drops from Magregan Deepshadow at "..YELLOW.."[2] on the Entrance Map"..WHITE.."."
-Inst4Quest2_Prequest = "A Sign of Hope"
-Inst4Quest2_Folgequest = "Prospect of Faith"
+Inst4Quest2_Attain = "37"
+Inst4Quest2_Aim = "Defeat Archaedas."
+Inst4Quest2_Location = "Lead Prospector Durdin (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest2_Note = "Archaedas is at "..YELLOW.."[8]"..WHITE.."."
+Inst4Quest2_Prequest = "The Chamber of Khaz'mul"
+Inst4Quest2_Folgequest = "None"
 Inst4Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst4Quest3 = "3. The Lost Tablets of Will"
-Inst4Quest3_Level = "45"
-Inst4Quest3_Attain = "35"
-Inst4Quest3_Aim = "Find the Tablet of Will, and return them to Advisor Belgrum in Ironforge."
-Inst4Quest3_Location = "Advisor Belgrum (Ironforge - Hall of Explorers; "..YELLOW.."77,10"..WHITE..")"
-Inst4Quest3_Note = "The tablet is at "..YELLOW.."[8]"..WHITE.."."
-Inst4Quest3_Prequest = "Amulet of Secrets -> An Ambassador of Evil"
+Inst4Quest3 = "3. It's What's Inside That Counts"
+Inst4Quest3_Level = "39"
+Inst4Quest3_Attain = "37"
+Inst4Quest3_Aim = "Obtain the Obsidian Power Core and the Titan Power Core."
+Inst4Quest3_Location = "Kand Sandseeker (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest3_Note = "The Obsidian Power Core drops from the Obsidian Sentinel at "..YELLOW.."[4]"..WHITE.." and the Titan Power Core from the Ancient Stone Keeper at "..YELLOW.."[5]"..WHITE.."."
+Inst4Quest3_Prequest = "None"
 Inst4Quest3_Folgequest = "None"
-Inst4Quest3FQuest = "true"
---
-Inst4Quest3name1 = "Medal of Courage"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst4Quest4 = "4. Power Stones"
-Inst4Quest4_Level = "36"
-Inst4Quest4_Attain = "30"
-Inst4Quest4_Aim = "Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands."
-Inst4Quest4_Location = "Rigglefuzz (Badlands; "..YELLOW.."42,52"..WHITE..")"
-Inst4Quest4_Note = "The stones can be found on any Shadowforge enemies before and in the instance."
+Inst4Quest4 = "4. Behind Closed Doors"
+Inst4Quest4_Level = "39"
+Inst4Quest4_Attain = "37"
+Inst4Quest4_Aim = "Kill Galgann Firehammer."
+Inst4Quest4_Location = "Olga Runesworn (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest4_Note = "Galgann Firehammer is at "..YELLOW.."[6]"..WHITE.."."
 Inst4Quest4_Prequest = "None"
 Inst4Quest4_Folgequest = "None"
---
-Inst4Quest4name1 = "Energized Stone Circle"
-Inst4Quest4name2 = "Duracin Bracers"
-Inst4Quest4name3 = "Everlast Boots"
+-- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst4Quest5 = "5. Agmond's Fate"
-Inst4Quest5_Level = "38"
-Inst4Quest5_Attain = "30"
-Inst4Quest5_Aim = "Bring 4 Carved Stone Urns to Prospector Ironband in Loch Modan."
-Inst4Quest5_Location = "Prospector Ironband (Loch Modan - Ironband's Excavation Site; "..YELLOW.."65,65"..WHITE..")"
-Inst4Quest5_Note = "The Prequest starts at Prospector Stormpike (Ironforge - Hall of Explorers; "..YELLOW.."74,12"..WHITE..").\nThe Urns are scattered throughout the caves before the instance."
-Inst4Quest5_Prequest = "Ironband Wants You! -> Murdaloc"
-Inst4Quest5_Folgequest = "None"
-Inst4Quest5PreQuest = "true"
---
-Inst4Quest5name1 = "Prospector Gloves"
+Inst4Quest5 = "5. The Platinum Discs"
+Inst4Quest5_Level = "40"
+Inst4Quest5_Attain = "37"
+Inst4Quest5_Aim = "Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon."
+Inst4Quest5_Location = "The Platinum Discs (Uldaman; "..GREEN.."[3']"..WHITE..")"
+Inst4Quest5_Note = "The Stone Watcher is next to the discs. Turn the quest in at the discs for the next quest."
+Inst4Quest5_Prequest = "None"
+Inst4Quest5_Folgequest = "The Platinum Discs"
+-- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst4Quest6 = "6. Solution to Doom"
+Inst4Quest6 = "6. The Platinum Discs"
 Inst4Quest6_Level = "40"
-Inst4Quest6_Attain = "30"
-Inst4Quest6_Aim = "Bring the Tablet of Ryun'eh to Theldurin the Lost."
-Inst4Quest6_Location = "Theldurin the Lost (Badlands; "..YELLOW.."51,76"..WHITE..")"
-Inst4Quest6_Note = "The tablet is north of the caves, at the east end of a tunnel, before the instance. On the Entrance map, it's at "..YELLOW.."[3]"..WHITE.."."
-Inst4Quest6_Prequest = "None"
-Inst4Quest6_Folgequest = "To Ironforge for Yagyin's Digest"
+Inst4Quest6_Attain = "37"
+Inst4Quest6_Aim = "Take the miniature version of the Discs of Norgannon to someone very interested in them."
+Inst4Quest6_Location = "The Platinum Discs (Uldaman; "..GREEN.."[3']"..WHITE..")"
+Inst4Quest6_Note = "The quest turns in to Lead Prospector Durdin at the entrance of the instance."
+Inst4Quest6_Prequest = "The Platinum Discs"
+Inst4Quest6_Folgequest = "None"
+Inst4Quest6FQuest = "true"
 --
-Inst4Quest6name1 = "Doomsayer's Robe"
+Inst4Quest6name1 = "Platinum Sword"
+Inst4Quest6name2 = "Band of Uldaman"
+Inst4Quest6name3 = "Durdin's Hammer"
 
---Quest 7 Alliance
-Inst4Quest7 = "7. The Lost Dwarves"
-Inst4Quest7_Level = "40"
-Inst4Quest7_Attain = "35"
-Inst4Quest7_Aim = "Find Baelog in Uldaman."
-Inst4Quest7_Location = "Prospector Stormpike (Ironforge - Hall of Explorers; "..YELLOW.."75,12"..WHITE..")"
-Inst4Quest7_Note = "Baelog is at "..YELLOW.."[1]"..WHITE.."."
-Inst4Quest7_Prequest = "None"
-Inst4Quest7_Folgequest = "The Hidden Chamber"
+
+--Quest 1 Horde
+Inst4Quest1_HORDE = "1. The Chamber of Khaz'mul"
+Inst4Quest1_HORDE_Level = "39"
+Inst4Quest1_HORDE_Attain = "37"
+Inst4Quest1_HORDE_Aim = "Defeat Ironaya."
+Inst4Quest1_HORDE_Location = "High Examiner Tae'thelan Bloodwatcher (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest1_HORDE_Note = "Ironaya is at "..YELLOW.."[3]"..WHITE..". To open her chamber, get the Gni'kiv Medallion from Baelog's Chest at "..YELLOW.."[1]"..WHITE.." and the The Shaft of Tsol from Revelosh at "..YELLOW.."[2]"..WHITE..".\n\nYou can turn the quest in and accept the followup with the Quest Log."
+Inst4Quest1_HORDE_Prequest = "None"
+Inst4Quest1_HORDE_Folgequest = "Archaedas, The Ancient Stone Watcher"
 -- No Rewards for this quest
 
---Quest 8 Alliance
-Inst4Quest8 = "8. The Hidden Chamber"
-Inst4Quest8_Level = "40"
-Inst4Quest8_Attain = "35"
-Inst4Quest8_Aim = "Read Baelog's Journal, explore the hidden chamber, then report to Prospector Stormpike."
-Inst4Quest8_Location = "Baelog (Uldaman; "..YELLOW.."[1]"..WHITE..")"
-Inst4Quest8_Note = "The Hidden Chamber is at "..YELLOW.."[4]"..WHITE..". To open the Hidden Chamber you need The Shaft of Tsol from Revelosh "..YELLOW.."[3]"..WHITE.." and the Gni'kiv Medallion from Baelog's Chest "..YELLOW.."[1]"..WHITE..". Combine these two items to form Staff of Prehistoria. The Staff is used in the Map Room between "..YELLOW.."[3] and [4]"..WHITE.." to summon Ironaya. After killing her, run inside the room she came from to get quest credit."
-Inst4Quest8_Prequest = "The Lost Dwarves"
-Inst4Quest8_Folgequest = "None"
-Inst4Quest8FQuest = "true"
---
-Inst4Quest8name1 = "Dwarven Charge"
-Inst4Quest8name2 = "Explorer's League Lodestar"
-
---Quest 9 Alliance
-Inst4Quest9 = "9. The Shattered Necklace"
-Inst4Quest9_Level = "41"
-Inst4Quest9_Attain = "37"
-Inst4Quest9_Aim = "Search for the original creator of the shattered necklace to learn of its potential value."
-Inst4Quest9_Location = "Shattered Necklace (random drop from Uldaman)"
-Inst4Quest9_Note = "Bring the necklace to Talvash del Kissel (Ironforge - The Mystic Ward; "..YELLOW.."36,3"..WHITE..")."
-Inst4Quest9_Prequest = "None"
-Inst4Quest9_Folgequest = "Lore for a Price"
+--Quest 2 Horde
+Inst4Quest2_HORDE = "2. Archaedas, The Ancient Stone Watcher"
+Inst4Quest2_HORDE_Level = "40"
+Inst4Quest2_HORDE_Attain = "37"
+Inst4Quest2_HORDE_Aim = "Defeat Archaedas."
+Inst4Quest2_HORDE_Location = "High Examiner Tae'thelan Bloodwatcher (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest2_HORDE_Note = "Archaedas is at "..YELLOW.."[8]"..WHITE.."."
+Inst4Quest2_HORDE_Prequest = "The Chamber of Khaz'mul"
+Inst4Quest2_HORDE_Folgequest = "None"
+Inst4Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
-
---Quest 10 Alliance
-Inst4Quest10 = "10. Back to Uldaman"
-Inst4Quest10_Level = "42"
-Inst4Quest10_Attain = "37"
-Inst4Quest10_Aim = "Search for clues as to the current disposition of Talvash's necklace within Uldaman. The slain paladin he mentioned was the person who has it last."
-Inst4Quest10_Location = "Talvash del Kissel (Ironforge - The Mystic Ward; "..YELLOW.."36,3"..WHITE..")"
-Inst4Quest10_Note = "The Paladin is at "..YELLOW.."[2]"..WHITE.."."
-Inst4Quest10_Prequest = "Lore for a Price"
-Inst4Quest10_Folgequest = "Find the Gems"
-Inst4Quest10FQuest = "true"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst4Quest11 = "11. Find the Gems"
-Inst4Quest11_Level = "43"
-Inst4Quest11_Attain = "37"
-Inst4Quest11_Aim = "Find the ruby, sapphire, and topaz that are scattered throughout Uldaman. Once acquired, contact Talvash del Kissel remotely by using the Phial of Scrying he previously gave you."
-Inst4Quest11_Location = "Remains of a Paladin (Uldaman; "..YELLOW.."[2]"..WHITE..")"
-Inst4Quest11_Note = "The gems are at "..YELLOW.."[1]"..WHITE.." in a Conspicous Urn, "..YELLOW.."[8]"..WHITE.." from the Shadowforge Cache, and "..YELLOW.."[9]"..WHITE.." off Grimlok. Note that when openning the Shadowforge Cache, a few mobs will spawn an aggro you.\nUse Talvash's Scrying Bowl to turn the quest in and get the followup."
-Inst4Quest11_Prequest = "Back to Uldaman"
-Inst4Quest11_Folgequest = "Restoring the Necklace"
-Inst4Quest11FQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst4Quest12 = "12. Restoring the Necklace"
-Inst4Quest12_Level = "44"
-Inst4Quest12_Attain = "37"
-Inst4Quest12_Aim = "Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge."
-Inst4Quest12_Location = "Talvash's Scrying Bowl"
-Inst4Quest12_Note = "The Shattered Necklace Power Source drops from Archaedas "..YELLOW.."[10]"..WHITE.."."
-Inst4Quest12_Prequest = "Find the Gems."
-Inst4Quest12_Folgequest = "None"
---
-Inst4Quest12name1 = "Talvash's Enhancing Necklace"
-Inst4Quest12FQuest = "true"
-
---Quest 13 Alliance
-Inst4Quest13 = "13. Uldaman Reagent Run"
-Inst4Quest13_Level = "42"
-Inst4Quest13_Attain = "38"
-Inst4Quest13_Aim = "Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar."
-Inst4Quest13_Location = "Ghak Healtouch (Loch Modan - Thelsamar; "..YELLOW.."37,49"..WHITE..")"
-Inst4Quest13_Note = "The caps are scattered throughout the instance. Herbalists can see them on their minimap if Track Herbs is on and they have the quest. The prequest is obtained from the same NPC."
-Inst4Quest13_Prequest = "Badlands Reagent Run"
-Inst4Quest13_Folgequest = "None"
-Inst4Quest13PreQuest = "true"
---
-Inst4Quest13name1 = "Restorative Potion"
-
---Quest 14 Alliance
-Inst4Quest14 = "14. Reclaimed Treasures"
-Inst4Quest14_Level = "43"
-Inst4Quest14_Attain = "33"
-Inst4Quest14_Aim = "Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge."
-Inst4Quest14_Location = "Krom Stoutarm (Ironforge - Hall of Explorers; "..YELLOW.."74,9"..WHITE..")"
-Inst4Quest14_Note = "You find the treasure before you enter the instance. It is in the north of the caves, at the southeast end of the first tunnel. On the entrance map, it's at "..YELLOW.."[4]"..WHITE.."."
-Inst4Quest14_Prequest = "None"
-Inst4Quest14_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 15 Alliance
-Inst4Quest15 = "15. The Platinum Discs"
-Inst4Quest15_Level = "47"
-Inst4Quest15_Attain = "40"
-Inst4Quest15_Aim = "Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon. -> Take the miniature version of the Discs of Norgannon to the Explorers' League in Ironforge."
-Inst4Quest15_Location = "The Discs of Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst4Quest15_Note = "After you receive the quest, speak to the stone watcher to the left of the discs.  Then use the platinum discs again to recieve miniature discs, which you'll have to take to High Explorer Magellas in Ironforge - Hall of Explorers ("..YELLOW.."69,18"..WHITE.."). The followup starts another NPC who is nearby."
-Inst4Quest15_Prequest = "None"
-Inst4Quest15_Folgequest = "Portents of Uldum"
---
-Inst4Quest15name1 = "Thawpelt Sack"
-Inst4Quest15name2 = "Superior Healing Potion"
-Inst4Quest15name3 = "Greater Mana Potion"
-
---Quest 16 Alliance
-Inst4Quest16 = "16. Power in Uldaman (Mage)"
-Inst4Quest16_Level = "40"
-Inst4Quest16_Attain = "35"
-Inst4Quest16_Aim = "Retrieve an Obsidian Power Source and bring it to Tabetha in Dustwallow Marsh."
-Inst4Quest16_Location = "Tabetha (Dustwallow Marsh; "..YELLOW.."46,57"..WHITE..")"
-Inst4Quest16_Note = "This quest is only available to Mages!\nThe Obsidian Power Source drops from the Obsidian Sentinel at "..YELLOW.."[5]"..WHITE.."."
-Inst4Quest16_Prequest = "The Exorcism"
-Inst4Quest16_Folgequest = "Mana Surges"
-Inst4Quest16PreQuest = "true"
--- No Rewards for this quest
-
---Quest 17 Alliance
-Inst4Quest17 = "17. Indurium Ore"
-Inst4Quest17_Level = "42"
-Inst4Quest17_Attain = "29"
-Inst4Quest17_Aim = "Bring 4 Indurium Ore to Pozzik in Thousand Needles."
-Inst4Quest17_Location = "Pozzik (Thousand Needles - Mirage Raceway; "..YELLOW.."80.1, 75.9"..WHITE..")"
-Inst4Quest17_Note = "This is a repeatable quest after the prequests are complete. It gives no reputation or experience, just a small amount of money. Indurium Ore can be mined inside Uldaman or purchased from other players."
-Inst4Quest17_Prequest = "Keeping Pace -> Rizzle's Schematics"
-Inst4Quest17_Folgequest = "None"
-Inst4Quest17PreQuest = "true"
--- No Rewards for this quest
-
-
-
---Quest 1 Horde  (same as Quest 4 Alliance)
-Inst4Quest1_HORDE = "1. Power Stones"
-Inst4Quest1_HORDE_Level = Inst4Quest4_Level
-Inst4Quest1_HORDE_Attain = Inst4Quest4_Attain
-Inst4Quest1_HORDE_Aim = Inst4Quest4_Aim
-Inst4Quest1_HORDE_Location = Inst4Quest4_Location
-Inst4Quest1_HORDE_Note = Inst4Quest4_Note
-Inst4Quest1_HORDE_Prequest = Inst4Quest4_Prequest
-Inst4Quest1_HORDE_Folgequest = Inst4Quest4_Folgequest
---
-Inst4Quest1name1_HORDE = Inst4Quest4name1
-Inst4Quest1name2_HORDE = Inst4Quest4name2
-Inst4Quest1name3_HORDE = Inst4Quest4name3
-
---Quest 2 Horde  (same as Quest 6 Alliance - different followup)
-Inst4Quest2_HORDE = "2. Solution to Doom"
-Inst4Quest2_HORDE_Level = Inst4Quest6_Level
-Inst4Quest2_HORDE_Attain = Inst4Quest6_Attain
-Inst4Quest2_HORDE_Aim = Inst4Quest6_Aim
-Inst4Quest2_HORDE_Location = Inst4Quest6_Location
-Inst4Quest2_HORDE_Note = Inst4Quest6_Note
-Inst4Quest2_HORDE_Prequest = Inst4Quest6_Prequest
-Inst4Quest2_HORDE_Folgequest = "To the Undercity for Yagyin's Digest"
---
-Inst4Quest2name1_HORDE = Inst4Quest6name1
 
 --Quest 3 Horde
-Inst4Quest3_HORDE = "3. Necklace Recovery"
-Inst4Quest3_HORDE_Level = "41"
+Inst4Quest3_HORDE = "3. We Require More Minerals"
+Inst4Quest3_HORDE_Level = "39"
 Inst4Quest3_HORDE_Attain = "37"
-Inst4Quest3_HORDE_Aim = "Look for a valuable necklace within the Uldaman dig site and bring it back to Dran Droffers in Orgrimmar. The necklace may be damaged."
-Inst4Quest3_HORDE_Location = "Dran Droffers (Orgrimmar - The Drag; "..YELLOW.."59,36"..WHITE..")"
-Inst4Quest3_HORDE_Note = "The necklace is a random drop in the instance."
+Inst4Quest3_HORDE_Aim = "Obtain the Obsidian Power Core and the Titan Power Core."
+Inst4Quest3_HORDE_Location = "Aoren Sunglow (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest3_HORDE_Note = "The Obsidian Power Core drops from the Obsidian Sentinel at "..YELLOW.."[4]"..WHITE.." and the Titan Power Core from the Ancient Stone Keeper at "..YELLOW.."[5]"..WHITE.."."
 Inst4Quest3_HORDE_Prequest = "None"
-Inst4Quest3_HORDE_Folgequest = "Necklace Recovery, Take 2"
+Inst4Quest3_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst4Quest4_HORDE = "4. Necklace Recovery, Take 2"
-Inst4Quest4_HORDE_Level = "41"
+Inst4Quest4_HORDE = "4. Behind Closed Doors"
+Inst4Quest4_HORDE_Level = "39"
 Inst4Quest4_HORDE_Attain = "37"
-Inst4Quest4_HORDE_Aim = "Find a clue as to the gems' whereabouts in the depths of Uldaman."
-Inst4Quest4_HORDE_Location = "Dran Droffers (Orgrimmar - The Drag; "..YELLOW.."59,36"..WHITE..")"
-Inst4Quest4_HORDE_Note = "The Paladin is at "..YELLOW.."[2]"..WHITE.."."
-Inst4Quest4_HORDE_Prequest = "Necklace Recovery"
-Inst4Quest4_HORDE_Folgequest = "Translating the Journal"
-Inst4Quest4FQuest_HORDE = "true"
+Inst4Quest4_HORDE_Aim = "Kill Galgann Firehammer."
+Inst4Quest4_HORDE_Location = "Lidia Sunglow (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest4_HORDE_Note = "Galgann Firehammer is at "..YELLOW.."[6]"..WHITE.."."
+Inst4Quest4_HORDE_Prequest = "None"
+Inst4Quest4_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
---Quest 5 Horde
-Inst4Quest5_HORDE = "5. Translating the Journal"
-Inst4Quest5_HORDE_Level = "42"
-Inst4Quest5_HORDE_Attain = "37"
-Inst4Quest5_HORDE_Aim = "Find someone who can translate the paladin's journal. The closest location that might have someone is Kargath, in the Badlands."
-Inst4Quest5_HORDE_Location = "Remains of a Paladin (Uldaman; "..YELLOW.."[2]"..WHITE..")"
-Inst4Quest5_HORDE_Note = "The translator Jarkal Mossmeld is in Kargath (Badlands; "..YELLOW.."2,46"..WHITE..")."
-Inst4Quest5_HORDE_Prequest = "Necklace Recovery, Take 2"
-Inst4Quest5_HORDE_Folgequest = "Find the Gems and Power Source"
-Inst4Quest5FQuest_HORDE = "true"
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst4Quest5_HORDE = Inst4Quest5
+Inst4Quest5_HORDE_Level = Inst4Quest5_Level
+Inst4Quest5_HORDE_Attain = Inst4Quest5_Attain
+Inst4Quest5_HORDE_Aim = Inst4Quest5_Aim
+Inst4Quest5_HORDE_Location = Inst4Quest5_Location
+Inst4Quest5_HORDE_Note = Inst4Quest5_Note
+Inst4Quest5_HORDE_Prequest = Inst4Quest5_Prequest
+Inst4Quest5_HORDE_Folgequest = Inst4Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest 6 Horde
-Inst4Quest6_HORDE = "6. Find the Gems and Power Source"
-Inst4Quest6_HORDE_Level = "44"
-Inst4Quest6_HORDE_Attain = "37"
-Inst4Quest6_HORDE_Aim = "Recover all three gems and a power source for the necklace from Uldaman, and then bring them to Jarkal Mossmeld in Kargath. Jarkal believes a power source might be found on the strongest construct present in Uldaman."
-Inst4Quest6_HORDE_Location = "Jarkal Mossmeld (Badlands - Kargath; "..YELLOW.."2,46"..WHITE..")"
-Inst4Quest6_HORDE_Note = "The gems are at "..YELLOW.."[1]"..WHITE.." in a Conspicous Urn, "..YELLOW.."[8]"..WHITE.." from the Shadowforge Cache, and "..YELLOW.."[9]"..WHITE.." off Grimlok. Note that when openning the Shadowforge Cache, a few mobs will spawn an aggro you. The Shattered Necklace Power Source drops from Archaedas "..YELLOW.."[10]"..WHITE.."."
-Inst4Quest6_HORDE_Prequest = "Translating the Journal"
-Inst4Quest6_HORDE_Folgequest = "Deliver the Gems"
-Inst4Quest6FQuest_HORDE = "true"
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst4Quest6_HORDE = Inst4Quest6
+Inst4Quest6_HORDE_Level = Inst4Quest6_Level
+Inst4Quest6_HORDE_Attain = Inst4Quest6_Attain
+Inst4Quest6_HORDE_Aim = Inst4Quest6_Aim
+Inst4Quest6_HORDE_Location = Inst4Quest6_Location
+Inst4Quest6_HORDE_Note = Inst4Quest6_Note
+Inst4Quest6_HORDE_Prequest = Inst4Quest6_Prequest
+Inst4Quest6_HORDE_Folgequest = Inst4Quest6_Folgequest
+Inst4Quest6FQuest_HORDE = Inst4Quest6FQuest
 --
-Inst4Quest6name1_HORDE = "Jarkal's Enhancing Necklace"
-
---Quest 7 Horde
-Inst4Quest7_HORDE = "7. Uldaman Reagent Run"
-Inst4Quest7_HORDE_Level = "42"
-Inst4Quest7_HORDE_Attain = "36"
-Inst4Quest7_HORDE_Aim = "Bring 12 Magenta Fungus Caps to Jarkal Mossmeld in Kargath."
-Inst4Quest7_HORDE_Location = "Jarkal Mossmeld (Badlands - Kargath; "..YELLOW.."2,69"..WHITE..")"
-Inst4Quest7_HORDE_Note = "You get the Prequest from Jarkal Mossmeld, too.\nThe caps are scattered throughout the instance. Herbalists can see them on their minimap if Track Herbs is on and they have the quest. The prequest is obtained from the same NPC."
-Inst4Quest7_HORDE_Prequest = "Badlands Reagent Run"
-Inst4Quest7_HORDE_Folgequest = "Badlands Reagent Run II"
-Inst4Quest7PreQuest_HORDE = "true"
---
-Inst4Quest7name1_HORDE = "Restorative Potion"
-
---Quest 8 Horde
-Inst4Quest8_HORDE = "8. Reclaimed Treasures"
-Inst4Quest8_HORDE_Level = "43"
-Inst4Quest8_HORDE_Attain = "33"
-Inst4Quest8_HORDE_Aim = "Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity."
-Inst4Quest8_HORDE_Location = "Patrick Garrett (Undercity; "..YELLOW.."72,48"..WHITE..")"
-Inst4Quest8_HORDE_Note = "You find the treasure before you enter the instance. It is at the end of the south tunnel. On the entrance map, it's at "..YELLOW.."[5]"..WHITE.."."
-Inst4Quest8_HORDE_Prequest = "None"
-Inst4Quest8_HORDE_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 9 Horde
-Inst4Quest9_HORDE = "9. The Platinum Discs"
-Inst4Quest9_HORDE_Level = "47"
-Inst4Quest9_HORDE_Attain = "40"
-Inst4Quest9_HORDE_Aim = "Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon. -> Take the miniature version of the Discs of Norgannon to the one of the sages in Thunder Bluff."
-Inst4Quest9_HORDE_Location = "The Discs of Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst4Quest9_HORDE_Note = "After you receive the quest, speak to the stone watcher to the left of the discs.  Then use the platinum discs again to recieve miniature discs, which you'll have to take to Sage Truthseeker in Thunder Bluff ("..YELLOW.."34,46"..WHITE.."). The followup starts another NPC who is nearby."
-Inst4Quest9_HORDE_Prequest = "None"
-Inst4Quest9_HORDE_Folgequest = "Portents of Uldum"
---
-Inst4Quest9name1_HORDE = "Thawpelt Sack"
-Inst4Quest9name2_HORDE = "Superior Healing Potion"
-Inst4Quest9name3_HORDE = "Greater Mana Potion"
-
---Quest 10 Horde  (same as Quest 4 Alliance)
-Inst4Quest10_HORDE = "10. Power in Uldaman (Mage)"
-Inst4Quest10_HORDE_Level = Inst4Quest16_Level
-Inst4Quest10_HORDE_Attain = Inst4Quest16_Attain
-Inst4Quest10_HORDE_Aim = Inst4Quest16_Aim
-Inst4Quest10_HORDE_Location = Inst4Quest16_Location
-Inst4Quest10_HORDE_Note = Inst4Quest16_Note
-Inst4Quest10_HORDE_Prequest = Inst4Quest16_Prequest
-Inst4Quest10_HORDE_Folgequest = Inst4Quest16_Folgequest
-Inst4Quest10PreQuest_HORDE = Inst4Quest16PreQuest
--- No Rewards for this quest
-
---Quest 11 Horde  (same as Quest 17 Alliance)
-Inst4Quest11_HORDE = "11. Indurium Ore"
-Inst4Quest11_HORDE_Level = Inst4Quest17_Level
-Inst4Quest11_HORDE_Attain = Inst4Quest17_Attain
-Inst4Quest11_HORDE_Aim = Inst4Quest17_Aim
-Inst4Quest11_HORDE_Location = Inst4Quest17_Location
-Inst4Quest11_HORDE_Note = Inst4Quest17_Note
-Inst4Quest11_HORDE_Prequest = Inst4Quest17_Prequest
-Inst4Quest11_HORDE_Folgequest = Inst4Quest17_Folgequest
-Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
--- No Rewards for this quest
+Inst4Quest6name1_HORDE = Inst4Quest6name1
+Inst4Quest6name2_HORDE = Inst4Quest6name2
+Inst4Quest6name3_HORDE = Inst4Quest6name3
 
 
 
