@@ -397,71 +397,56 @@ Inst2Quest3name5_HORDE = Inst2Quest3name5
 Inst3Story = "Ragefire Chasm consists of a network of volcanic caverns that lie below the orcs' new capital city of Orgrimmar. Recently, rumors have spread that a cult loyal to the demonic Shadow Council has taken up residence within the Chasm's fiery depths. This cult, known as the Burning Blade, threatens the very sovereignty of Durotar. Many believe that the orc Warchief, Thrall, is aware of the Blade's existence and has chosen not to destroy it in the hopes that its members might lead him straight to the Shadow Council. Either way, the dark powers emanating from Ragefire Chasm could undo all that the orcs have fought to attain."
 Inst3Caption = "Ragefire Chasm"
 Inst3QAA = "No Quests"
-Inst3QAH = "5 Quests"
+Inst3QAH = "4 Quests"
 
 --Quest 1 Horde
-Inst3Quest1_HORDE = "1. Testing an Enemy's Strength"
-Inst3Quest1_HORDE_Level = "15"
-Inst3Quest1_HORDE_Attain = "9"
-Inst3Quest1_HORDE_Aim = "Search Orgrimmar for Ragefire Chasm, then kill 8 Ragefire Troggs and 8 Ragefire Shaman before returning to Rahauro in Thunder Bluff."
-Inst3Quest1_HORDE_Location = "Rahauro (Thunder Bluff - Elder Rise; "..YELLOW.."70,29"..WHITE..")"
-Inst3Quest1_HORDE_Note = "You find the troggs at the beginning."
+Inst3Quest1_HORDE = "1. Enemies Below"
+Inst3Quest1_HORDE_Level = "13"
+Inst3Quest1_HORDE_Attain = "10"
+Inst3Quest1_HORDE_Aim = "Speak with Stone Guard Kurjack."
+Inst3Quest1_HORDE_Location = "Garrosh Hellscream (Orgrimmar - Valley of Strength; "..YELLOW.."48.2, 70.6"..WHITE..")\nBaine Bloodhoof (Thunder Bluff - The High Rise; "..YELLOW.."60.6, 51.6"..WHITE..")\nLady Sylvanas Windrunner (Undercity - The Royal Quarter; "..YELLOW.."58.6, 93.0"..WHITE..")"
+Inst3Quest1_HORDE_Note = "This is an optional quest that can be picked up in three different cities."
 Inst3Quest1_HORDE_Prequest = "None"
-Inst3Quest1_HORDE_Folgequest = "None"
+Inst3Quest1_HORDE_Folgequest = "Taragaman the Hungerer"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst3Quest2_HORDE = "2. The Power to Destroy..."
+Inst3Quest2_HORDE = "2. Taragaman the Hungerer"
 Inst3Quest2_HORDE_Level = "16"
-Inst3Quest2_HORDE_Attain = "9"
-Inst3Quest2_HORDE_Aim = "Bring the books Spells of Shadow and Incantations from the Nether to Varimathras in Undercity."
-Inst3Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst3Quest2_HORDE_Note = "Searing Blade Cultists and Warlocks drop the books"
-Inst3Quest2_HORDE_Prequest = "None"
+Inst3Quest2_HORDE_Attain = "10"
+Inst3Quest2_HORDE_Aim = "Take Taragaman the Hungerer's heart."
+Inst3Quest2_HORDE_Location = "Stone Guard Kurjack (Ragefire Chasm; "..YELLOW.."Entrance"..WHITE..")"
+Inst3Quest2_HORDE_Note = "The Searing Blade mobs are on the way to Taragaman the Hungerer who is at "..YELLOW.."[2]"..WHITE.."."
+Inst3Quest2_HORDE_Prequest = "Enemies Below (optional)"
 Inst3Quest2_HORDE_Folgequest = "None"
+Inst3Quest2FQuest_HORDE = "true"
 --
-Inst3Quest2name1_HORDE = "Ghastly Trousers"
-Inst3Quest2name2_HORDE = "Dredgemire Leggings"
-Inst3Quest2name3_HORDE = "Gargoyle Leggings"
+Inst3Quest2name1_HORDE = "Searing Belt"
+Inst3Quest2name2_HORDE = "Stone Guard Greaves"
+Inst3Quest2name3_HORDE = "Hide Vest of the Hungerer"
+Inst3Quest2name4_HORDE = "Ragefire Leggings"
+Inst3Quest2name5_HORDE = "Robes of the Glorious Song"
 
 --Quest 3 Horde
-Inst3Quest3_HORDE = "3. Searching for the Lost Satchel"
-Inst3Quest3_HORDE_Level = "16"
-Inst3Quest3_HORDE_Attain = "9"
-Inst3Quest3_HORDE_Aim = "Search Ragefire Chasm for Maur Grimtotem's corpse and search it for any items of interest."
-Inst3Quest3_HORDE_Location = "Rahauro (Thunder Bluff - Elder Rise; "..YELLOW.."70,29"..WHITE..")"
-Inst3Quest3_HORDE_Note = "You find Maur Grimtotem at "..YELLOW.."[1]"..WHITE..". After getting the satchel you must bring it back to Rahauro in Thunder Bluff"
+Inst3Quest3_HORDE = "3. Repel the Invasion"
+Inst3Quest3_HORDE_Level = "14"
+Inst3Quest3_HORDE_Attain = "10"
+Inst3Quest3_HORDE_Aim = "Kill Oggleflint, Bazzalan, and Jergosh the Invoker."
+Inst3Quest3_HORDE_Location = "Stone Guard Kurjack (Ragefire Chasm; "..YELLOW.."Entrance"..WHITE..")"
+Inst3Quest3_HORDE_Note = "Oggleflint is at "..YELLOW.."[1]"..WHITE..", Bazzalan is at "..YELLOW.."[3]"..WHITE.." and Jergosh the Invoker is at "..YELLOW.."[4]"..WHITE.."."
 Inst3Quest3_HORDE_Prequest = "None"
-Inst3Quest3_HORDE_Folgequest = "Returning the Lost Satchel"
---
-Inst3Quest3name1_HORDE = "Featherbead Bracers"
-Inst3Quest3name2_HORDE = "Savannah Bracers"
+Inst3Quest3_HORDE_Folgequest = "None"
+-- No Rewards for this quest
 
 --Quest 4 Horde
-Inst3Quest4_HORDE = "4. Hidden Enemies"
-Inst3Quest4_HORDE_Level = "16"
-Inst3Quest4_HORDE_Attain = "9"
-Inst3Quest4_HORDE_Aim = "Kill Bazzalan and Jergosh the Invoker before returning to Thrall in Orgrimmar."
-Inst3Quest4_HORDE_Location = "Thrall (Orgrimmar - Valley of Wisdom; "..YELLOW.."31,37"..WHITE..")"
-Inst3Quest4_HORDE_Note = "You find Bazzalan at  "..YELLOW.."[4]"..WHITE.." and Jergosh at "..YELLOW.."[3]"..WHITE..". The questline starts at Warchief Thrall in Orgrimmar."
-Inst3Quest4_HORDE_Prequest = "Hidden Enemies"
-Inst3Quest4_HORDE_Folgequest = "Hidden Enemies"
-Inst3Quest4PreQuest_HORDE = "true"
---
-Inst3Quest4name1_HORDE = "Kris of Orgrimmar"
-Inst3Quest4name2_HORDE = "Hammer of Orgrimmar"
-Inst3Quest4name3_HORDE = "Axe of Orgrimmar"
-Inst3Quest4name4_HORDE = "Staff of Orgrimmar"
-
---Quest 5 Horde
-Inst3Quest5_HORDE = "5. Slaying the Beast"
-Inst3Quest5_HORDE_Level = "16"
-Inst3Quest5_HORDE_Attain = "9"
-Inst3Quest5_HORDE_Aim = "Enter Ragefire Chasm and slay Taragaman the Hungerer, then bring his heart back to Neeru Fireblade in Orgrimmar."
-Inst3Quest5_HORDE_Location = "Neeru Fireblade (Orgrimmar - Cleft of Shadow; "..YELLOW.."49,50"..WHITE..")"
-Inst3Quest5_HORDE_Note = "You find Taragaman at "..YELLOW.."[2]"..WHITE.."."
-Inst3Quest5_HORDE_Prequest = "None"
-Inst3Quest5_HORDE_Folgequest = "None"
+Inst3Quest4_HORDE = "4. Elemental Tampering"
+Inst3Quest4_HORDE_Level = "15"
+Inst3Quest4_HORDE_Attain = "10"
+Inst3Quest4_HORDE_Aim = "Obtain 6 Searing Bindings."
+Inst3Quest4_HORDE_Location = "Bovaal Whitehorn (Ragefire Chasm; "..YELLOW.."Entrance"..WHITE..")"
+Inst3Quest4_HORDE_Note = "The rock elementals on the way to the first boss drop the bindings."
+Inst3Quest4_HORDE_Prequest = "None"
+Inst3Quest4_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -4962,8 +4947,8 @@ Inst24Quest6PreQuest = "true"
 
 Inst25Story = "Over a thousand years ago, the powerful Gurubashi Empire was torn apart by a massive civil war. An influential group of troll priests, known as the Atal'ai, attempted to bring back an ancient blood god named Hakkar the Soulflayer. Though the priests were defeated and ultimately exiled, the great troll empire buckled in upon itself. The exiled priests fled far to the north, into the Swamp of Sorrows. There they erected a great temple to Hakkar - where they could prepare for his arrival into the physical world. The great dragon Aspect, Ysera, learned of the Atal'ai's plans and smashed the temple beneath the marshes. To this day, the temple's drowned ruins are guarded by the green dragons who prevent anyone from getting in or out. However, it is believed that some of the fanatical Atal'ai may have survived Ysera's wrath - and recommitted themselves to the dark service of Hakkar."
 Inst25Caption = "The Sunken Temple"
-Inst25QAA = "17 Quests"
-Inst25QAH = "17 Quests"
+Inst25QAA = "8 Quests"
+Inst25QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst25Quest1 = "1. Into The Temple of Atal'Hakkar"
@@ -5066,142 +5051,6 @@ Inst25Quest8_Folgequest = "None"
 --
 Inst25Quest8name1 = "Chained Essence of Eranikus"
 
---Quest 9 Alliance
-Inst25Quest9 = "9. Trolls of a Feather (Warlock)"
-Inst25Quest9_Level = "52"
-Inst25Quest9_Attain = "50"
-Inst25Quest9_Aim = "Bring a total of 6 Voodoo Feathers from the trolls in sunken temple."
-Inst25Quest9_Location = "Impsy (Felwood; "..YELLOW.."42,45"..WHITE..")"
-Inst25Quest9_Note = "Warlock quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
-Inst25Quest9_Prequest = "An Imp's Request -> The Wrong Stuff"
-Inst25Quest9_Folgequest = "None"
-Inst25Quest9PreQuest = "true"
---
-Inst25Quest9name1 = "Soul Harvester"
-Inst25Quest9name2 = "Abyss Shard"
-Inst25Quest9name3 = "Robes of Servitude"
-
---Quest 10 Alliance
-Inst25Quest10 = "10. Voodoo Feathers (Warrior)"
-Inst25Quest10_Level = "52"
-Inst25Quest10_Attain = "50"
-Inst25Quest10_Aim = "Bring the Voodoo Feathers from the trolls in the Sunken Temple to the Fallen Hero of the Horde."
-Inst25Quest10_Location = "Fallen Hero of the Horde (Swamp of Sorrows; "..YELLOW.."34,66"..WHITE..")"
-Inst25Quest10_Note = "Warrior quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
-Inst25Quest10_Prequest = "A Troubled Spirit -> War on the Shadowsworn"
-Inst25Quest10_Folgequest = "None"
-Inst25Quest10PreQuest = "true"
---
-Inst25Quest10name1 = "Fury Visor"
-Inst25Quest10name2 = "Diamond Flask"
-Inst25Quest10name3 = "Razorsteel Shoulders"
-
---Quest 11 Alliance
-Inst25Quest11 = "11. Da Voodoo (Shaman)"
-Inst25Quest11_Level = "52"
-Inst25Quest11_Attain = "50"
-Inst25Quest11_Aim = "Bring the voodoo feathers to Bath'rah the Windwatcher."
-Inst25Quest11_Location = "Bath'rah the Windwatcher (Alterac Mountains; "..YELLOW.."80,67"..WHITE..")"
-Inst25Quest11_Note = "Shaman quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
-Inst25Quest11_Prequest = "Spirit Totem"
-Inst25Quest11_Folgequest = "None"
-Inst25Quest11PreQuest = "true"
---
-Inst25Quest11name1 = "Azurite Fists"
-Inst25Quest11name2 = "Enamored Water Spirit"
-Inst25Quest11name3 = "Wildstaff"
-
---Quest 12 Alliance
-Inst25Quest12 = "12. A Better Ingredient (Druid)"
-Inst25Quest12_Level = "52"
-Inst25Quest12_Attain = "50"
-Inst25Quest12_Aim = "Retrieve a Putrid Vine from the guardian at the bottom of the Sunken Temple and return to Torwa Pathfinder."
-Inst25Quest12_Location = "Torwa Pathfinder (Un'Goro Crater; "..YELLOW.."72,76"..WHITE..")"
-Inst25Quest12_Note = "Druid quest. The Putrid Vine drops from Atal'alarion who is summoned at "..YELLOW.."[1]"..WHITE.." by activating the statues in the order listed on the map."
-Inst25Quest12_Prequest = "Torwa Pathfinder -> Toxic Test"
-Inst25Quest12_Folgequest = "None"
-Inst25Quest12PreQuest = "true"
---
-Inst25Quest12name1 = "Grizzled Pelt"
-Inst25Quest12name2 = "Forest's Embrace"
-Inst25Quest12name3 = "Moonshadow Stave"
-
---Quest 13 Alliance
-Inst25Quest13 = "13. The Green Drake (Hunter)"
-Inst25Quest13_Level = "52"
-Inst25Quest13_Attain = "50"
-Inst25Quest13_Aim = "Bring the Tooth of Morphaz to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
-Inst25Quest13_Location = "Ogtinc (Azshara; "..YELLOW.."42,43"..WHITE..")"
-Inst25Quest13_Note = "Hunter quest. Morphaz is at "..YELLOW.."[5]"..WHITE.."."
-Inst25Quest13_Prequest = "The Hunter's Charm -> Wavethrashing"
-Inst25Quest13_Folgequest = "None"
-Inst25Quest13PreQuest = "true"
---
-Inst25Quest13name1 = "Hunting Spear"
-Inst25Quest13name2 = "Devilsaur Eye"
-Inst25Quest13name3 = "Devilsaur Tooth"
-
---Quest 14 Alliance
-Inst25Quest14 = "14. Destroy Morphaz (Mage)"
-Inst25Quest14_Level = "52"
-Inst25Quest14_Attain = "50"
-Inst25Quest14_Aim = "Retrieve the Arcane Shard from Morphaz and return to Archmage Xylem."
-Inst25Quest14_Location = "Archmage Xylem (Azshara; "..YELLOW.."29,40"..WHITE..")"
-Inst25Quest14_Note = "Mage quest. Morphaz is at "..YELLOW.."[5]"..WHITE.."."
-Inst25Quest14_Prequest = "Magic Dust -> The Siren's Coral"
-Inst25Quest14_Folgequest = "None"
-Inst25Quest14PreQuest = "true"
---
-Inst25Quest14name1 = "Glacial Spike"
-Inst25Quest14name2 = "Arcane Crystal Pendant"
-Inst25Quest14name3 = "Fire Ruby"
-
---Quest 15 Alliance
-Inst25Quest15 = "15. Blood of Morphaz (Priest)"
-Inst25Quest15_Level = "52"
-Inst25Quest15_Attain = "50"
-Inst25Quest15_Aim = "Kill Morphaz in the sunken temple of Atal'Hakkar, and return his blood to Greta Mosshoof in Felwood. The entrance to the sunken temple can be found in the Swamp of Sorrows."
-Inst25Quest15_Location = "Ogtinc (Azshara; "..YELLOW.."42,43"..WHITE..")"
-Inst25Quest15_Note = "Priest quest. Morphaz is at "..YELLOW.."[5]"..WHITE..". Greta Mosshoof is at Felwood - Emerald Sanctuary ("..YELLOW.."51,82"..WHITE..")."
-Inst25Quest15_Prequest = "Cenarion Aid -> The Ichor of Undeath"
-Inst25Quest15_Folgequest = "None"
-Inst25Quest15PreQuest = "true"
---
-Inst25Quest15name1 = "Blessed Prayer Beads"
-Inst25Quest15name2 = "Woestave"
-Inst25Quest15name3 = "Circle of Hope"
-
---Quest 16 Alliance
-Inst25Quest16 = "16. The Azure Key (Rogue)"
-Inst25Quest16_Level = "52"
-Inst25Quest16_Attain = "50"
-Inst25Quest16_Aim = "Return the Azure Key to Lord Jorach Ravenholdt."
-Inst25Quest16_Location = "Archmage Xylem (Azshara; "..YELLOW.."29,40"..WHITE..")"
-Inst25Quest16_Note = "Rogue quest. The Azure Key drops from Morphaz at "..YELLOW.."[5]"..WHITE..". Lord Jorach Ravenholdt is at Alterac Mountains - Ravenholdt ("..YELLOW.."86,79"..WHITE..")."
-Inst25Quest16_Prequest = "A Simple Request -> Encoded Fragments"
-Inst25Quest16_Folgequest = "None"
-Inst25Quest16PreQuest = "true"
---
-Inst25Quest16name1 = "Ebon Mask"
-Inst25Quest16name2 = "Whisperwalk Boots"
-Inst25Quest16name3 = "Duskbat Drape"
-
---Quest 17 Alliance
-Inst25Quest17 = "17. Forging the Mightstone (Paladin)"
-Inst25Quest17_Level = "52"
-Inst25Quest17_Attain = "50"
-Inst25Quest17_Aim = "Bring the voodoo feathers to Ashlam Valorfist."
-Inst25Quest17_Location = "Commander Ashlam Valorfist (Western Plaguelands - Chillwind Camp; "..YELLOW.."43,85"..WHITE..")"
-Inst25Quest17_Note = "Paladin quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
-Inst25Quest17_Prequest = "Inert Scourgestones"
-Inst25Quest17_Folgequest = "None"
-Inst25Quest17PreQuest = "true"
---
-Inst25Quest17name1 = "Holy Mightstone"
-Inst25Quest17name2 = "Lightforged Blade"
-Inst25Quest17name3 = "Sanctified Orb"
-Inst25Quest17name4 = "Chivalrous Signet"
-
 
 --Quest 1 Horde
 Inst25Quest1_HORDE = "1. The Temple of Atal'Hakkar"
@@ -5301,139 +5150,6 @@ Inst25Quest8_HORDE_Prequest = Inst25Quest8_Prequest
 Inst25Quest8_HORDE_Folgequest = Inst25Quest8_Folgequest
 --
 Inst25Quest8name1_HORDE = Inst25Quest8name1
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst25Quest9_HORDE = Inst25Quest9
-Inst25Quest9_HORDE_Level = Inst25Quest9_Level
-Inst25Quest9_HORDE_Attain = Inst25Quest9_Attain
-Inst25Quest9_HORDE_Aim = Inst25Quest9_Aim
-Inst25Quest9_HORDE_Location = Inst25Quest9_Location
-Inst25Quest9_HORDE_Note = Inst25Quest9_Note
-Inst25Quest9_HORDE_Prequest = Inst25Quest9_Prequest
-Inst25Quest9_HORDE_Folgequest = Inst25Quest9_Folgequest
-Inst25Quest9PreQuest_HORDE = Inst25Quest9PreQuest
---
-Inst25Quest9name1_HORDE = Inst25Quest9name1
-Inst25Quest9name2_HORDE = Inst25Quest9name2
-Inst25Quest9name3_HORDE = Inst25Quest9name3
-
---Quest 10 Horde  (same as Quest 10 Alliance)
-Inst25Quest10_HORDE = Inst25Quest10
-Inst25Quest10_HORDE_Level = Inst25Quest10_Level
-Inst25Quest10_HORDE_Attain = Inst25Quest10_Attain
-Inst25Quest10_HORDE_Aim = Inst25Quest10_Aim
-Inst25Quest10_HORDE_Location = Inst25Quest10_Location
-Inst25Quest10_HORDE_Note = Inst25Quest10_Note
-Inst25Quest10_HORDE_Prequest = Inst25Quest10_Prequest
-Inst25Quest10_HORDE_Folgequest = Inst25Quest10_Folgequest
-Inst25Quest10PreQuest_HORDE = Inst25Quest10PreQuest
---
-Inst25Quest10name1_HORDE = Inst25Quest10name1
-Inst25Quest10name2_HORDE = Inst25Quest10name2
-Inst25Quest10name3_HORDE = Inst25Quest10name3
-
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst25Quest11_HORDE = Inst25Quest11
-Inst25Quest11_HORDE_Level = Inst25Quest11_Level
-Inst25Quest11_HORDE_Attain = Inst25Quest11_Attain
-Inst25Quest11_HORDE_Aim = Inst25Quest11_Aim
-Inst25Quest11_HORDE_Location = Inst25Quest11_Location
-Inst25Quest11_HORDE_Note = Inst25Quest11_Note
-Inst25Quest11_HORDE_Prequest = Inst25Quest11_Prequest
-Inst25Quest11_HORDE_Folgequest = Inst25Quest11_Folgequest
-Inst25Quest11PreQuest_HORDE = Inst25Quest11PreQuest
---
-Inst25Quest11name1_HORDE = Inst25Quest11name1
-Inst25Quest11name2_HORDE = Inst25Quest11name2
-Inst25Quest11name3_HORDE = Inst25Quest11name3
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst25Quest12_HORDE = Inst25Quest12
-Inst25Quest12_HORDE_Level = Inst25Quest12_Level
-Inst25Quest12_HORDE_Attain = Inst25Quest12_Attain
-Inst25Quest12_HORDE_Aim = Inst25Quest12_Aim
-Inst25Quest12_HORDE_Location = Inst25Quest12_Location
-Inst25Quest12_HORDE_Note = Inst25Quest12_Note
-Inst25Quest12_HORDE_Prequest = Inst25Quest12_Prequest
-Inst25Quest12_HORDE_Folgequest = Inst25Quest12_Folgequest
-Inst25Quest12PreQuest_HORDE = Inst25Quest12PreQuest
---
-Inst25Quest12name1_HORDE = Inst25Quest12name1
-Inst25Quest12name2_HORDE = Inst25Quest12name2
-Inst25Quest12name3_HORDE = Inst25Quest12name3
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst25Quest13_HORDE = Inst25Quest13
-Inst25Quest13_HORDE_Level = Inst25Quest13_Level
-Inst25Quest13_HORDE_Attain = Inst25Quest13_Attain
-Inst25Quest13_HORDE_Aim = Inst25Quest13_Aim
-Inst25Quest13_HORDE_Location = Inst25Quest13_Location
-Inst25Quest13_HORDE_Note = Inst25Quest13_Note
-Inst25Quest13_HORDE_Prequest = Inst25Quest13_Prequest
-Inst25Quest13_HORDE_Folgequest = Inst25Quest13_Folgequest
-Inst25Quest13PreQuest_HORDE = Inst25Quest13PreQuest
---
-Inst25Quest13name1_HORDE = Inst25Quest13name1
-Inst25Quest13name2_HORDE = Inst25Quest13name2
-Inst25Quest13name3_HORDE = Inst25Quest13name3
-
---Quest 14 Horde  (same as Quest 14 Alliance)
-Inst25Quest14_HORDE = Inst25Quest14
-Inst25Quest14_HORDE_Level = Inst25Quest14_Level
-Inst25Quest14_HORDE_Attain = Inst25Quest14_Attain
-Inst25Quest14_HORDE_Aim = Inst25Quest14_Aim
-Inst25Quest14_HORDE_Location = Inst25Quest14_Location
-Inst25Quest14_HORDE_Note = Inst25Quest14_Note
-Inst25Quest14_HORDE_Prequest = Inst25Quest14_Prequest
-Inst25Quest14_HORDE_Folgequest = Inst25Quest14_Folgequest
-Inst25Quest14PreQuest_HORDE = Inst25Quest14PreQuest
---
-Inst25Quest14name1_HORDE = Inst25Quest14name1
-Inst25Quest14name2_HORDE = Inst25Quest14name2
-Inst25Quest14name3_HORDE = Inst25Quest14name3
-
---Quest 15 Horde  (same as Quest 15 Alliance)
-Inst25Quest15_HORDE = Inst25Quest15
-Inst25Quest15_HORDE_Level = Inst25Quest15_Level
-Inst25Quest15_HORDE_Attain = Inst25Quest15_Attain
-Inst25Quest15_HORDE_Aim = Inst25Quest15_Aim
-Inst25Quest15_HORDE_Location = Inst25Quest15_Location
-Inst25Quest15_HORDE_Note = Inst25Quest15_Note
-Inst25Quest15_HORDE_Prequest = Inst25Quest15_Prequest
-Inst25Quest15_HORDE_Folgequest = Inst25Quest15_Folgequest
-Inst25Quest15PreQuest_HORDE = Inst25Quest15PreQuest
---
-Inst25Quest15name1_HORDE = Inst25Quest15name1
-Inst25Quest15name2_HORDE = Inst25Quest15name2
-Inst25Quest15name3_HORDE = Inst25Quest15name3
-
---Quest 16 Horde  (same as Quest 16 Alliance)
-Inst25Quest16_HORDE = Inst25Quest16
-Inst25Quest16_HORDE_Level = Inst25Quest16_Level
-Inst25Quest16_HORDE_Attain = Inst25Quest16_Attain
-Inst25Quest16_HORDE_Aim = Inst25Quest16_Aim
-Inst25Quest16_HORDE_Location = Inst25Quest16_Location
-Inst25Quest16_HORDE_Note = Inst25Quest16_Note
-Inst25Quest16_HORDE_Prequest = Inst25Quest16_Prequest
-Inst25Quest16_HORDE_Folgequest = Inst25Quest16_Folgequest
-Inst25Quest16PreQuest_HORDE = Inst25Quest16PreQuest
---
-Inst25Quest16name1_HORDE = Inst25Quest16name1
-Inst25Quest16name2_HORDE = Inst25Quest16name2
-Inst25Quest16name3_HORDE = Inst25Quest16name3
-
---Quest 17 Horde
-Inst25Quest17_HORDE = "17. Ancient Evil (Paladin)"
-Inst25Quest17_HORDE_Level = "52"
-Inst25Quest17_HORDE_Attain = "50"
-Inst25Quest17_HORDE_Aim = "Unlock the secrets of the Temple of Atal'Hakkar to release Atal'alarion and recover the Putrid Vine from his flesh. Return to Mehlar at the Bulwark when you have done this."
-Inst25Quest17_HORDE_Location = "Lady Sylvanas Windrunner (Undercity - Royal Quarter; "..YELLOW.."59,94"..WHITE..")"
-Inst25Quest17_HORDE_Note = "Paladin quest. The Putrid Vine drops from Atal'alarion who is summoned at "..YELLOW.."[1]"..WHITE.." by activating the statues in the order listed on the map. Mehlar is at Tirisfal Glades - The Bulwark ("..YELLOW.."83,71"..WHITE..")."
-Inst25Quest17_HORDE_Prequest = "To The Bulwark -> Wisdom of the Banshee Queen"
-Inst25Quest17_HORDE_Folgequest = "None"
-Inst25Quest17PreQuest_HORDE = "true"
---
-Inst25Quest17name1_HORDE = "Scourgebane"
 
 
 
