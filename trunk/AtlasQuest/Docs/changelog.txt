@@ -14,6 +14,7 @@ Version 4.6.0 ALPHA
 - Classic Dungeons updated:
 	- The Deadmines
 	- Wailing Caverns
+	- Ragefire Chasm
 	
 
 
