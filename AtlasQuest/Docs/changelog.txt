@@ -5,17 +5,20 @@ Changelog
 Version 4.6.0 ALPHA
 
 - Basic Cataclysm dungeon support.
+- No longer "officially" supporting AlphaMap. AtlasQuest will still work with AlphaMap (I'm leaving the support code in), but its been a long time since the Boss location numbers matched up. In the future, perhaps with a major rewrite of AtlasQuest I'll be able to work something out to support both Atlas and AlphaMap.
+- Merged in Natch's AtlasQuest Helper code importing completed quests from the server.
 - Updated Location numbers for all Burning Crusade & Lich King dungeons to match Atlas 1.18.0.
 - All quests the used to reward Badges or Emblems now correctly list Justice Points as their rewards.
 - Code Bug fixes (Thanks Speedwaystar, Kharthus)
-- Merged in Natch's AtlasQuest Helper code importing completed quests from the server.
-- Localizations updated: deDE, ruRU
+- Increased Dungeon quest limit to 22. AtlasQuest frame now overlaps Atlas frame a tiny bit on Left side, but isn't too noticeable.
+- Localizations updated: deDE, ruRU, zhCN.
 
 - Classic Dungeons updated:
 	- The Deadmines
 	- Wailing Caverns
 	- Ragefire Chasm
 	- Uldaman
+	- Blackrock Depths
 
 
 

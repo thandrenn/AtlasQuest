@@ -607,227 +607,295 @@ Inst4Quest6name3_HORDE = Inst4Quest6name3
 
 Inst5Story = "Once the capital city of the Dark Iron dwarves, this volcanic labyrinth now serves as the seat of power for Ragnaros the Firelord. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain. Obsessed with defeating Nefarian and his draconic minions, Ragnaros will go to any extreme to achieve final victory."
 Inst5Caption = "Blackrock Depths"
-Inst5QAA = "15 Quests"
-Inst5QAH = "19 Quests"
+Inst5QAA = "21 Quests"
+Inst5QAH = "22 Quests"
 
 --Quest 1 Alliance
-Inst5Quest1 = "1. Dark Iron Legacy"
+Inst5Quest1 = "1. Into the Prison"
 Inst5Quest1_Level = "52"
-Inst5Quest1_Attain = "48"
-Inst5Quest1_Aim = "Slay Fineous Darkvire and recover the great hammer, Ironfel. Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright."
-Inst5Quest1_Location = "Franclorn Forgewright (Blackrock Mountain; "..YELLOW.."[3] on Entrance map"..WHITE..")"
-Inst5Quest1_Note = "Franclorn Forgewright is in the middle of the floating island in Blackrock Mountain, outside the instance near the Summoning Stone. You have to be dead to see him. He also gives you the prequest which just requires you listen to his story.\nFineous Darkvire is at "..YELLOW.."[9]"..WHITE..". The Shrine next to the arena at "..YELLOW.."[7]"..WHITE.."."
-Inst5Quest1_Prequest = "Dark Iron Legacy"
-Inst5Quest1_Folgequest = "None"
---
-Inst5Quest1name1 = "Shadowforge Key"
+Inst5Quest1_Attain = "47"
+Inst5Quest1_Aim = "Find Kevin Dawson."
+Inst5Quest1_Location = "Jalinda Sprig (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest1_Note = "Kevin Dawson is on the way to the Prison at "..GREEN.."[2']"..WHITE.."."
+Inst5Quest1_Prequest = "None"
+Inst5Quest1_Folgequest = "Twilight?! No!"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst5Quest2 = "2. Ribbly Screwspigot"
-Inst5Quest2_Level = "53"
-Inst5Quest2_Attain = "48"
-Inst5Quest2_Aim = "Bring Ribbly's Head to Yuka Screwspigot in the Burning Steppes."
-Inst5Quest2_Location = "Yuka Screwspigot (Burning Steppes - Flame Crest; "..YELLOW.."65,22"..WHITE..")"
-Inst5Quest2_Note = "You get the prequest from Yorba Screwspigot (Tanaris - Steamwheedle Port; "..YELLOW.."67,23"..WHITE..").\nRibbly is at "..YELLOW.."[15]"..WHITE.."."
-Inst5Quest2_Prequest = "Yuka Screwspigot"
+Inst5Quest2 = "2. Twilight?! No!"
+Inst5Quest2_Level = "55"
+Inst5Quest2_Attain = "47"
+Inst5Quest2_Aim = "'Interrogate' High Interrogator Gerstahn."
+Inst5Quest2_Location = "Kevin Dawson (Blackrock Depths; "..GREEN.."['2']"..WHITE..")"
+Inst5Quest2_Note = "High Interrogator Gerstahn can be found at "..YELLOW.."[1]"..WHITE.."."
+Inst5Quest2_Prequest = "Into the Prison"
 Inst5Quest2_Folgequest = "None"
-Inst5Quest2PreQuest = "true"
---
-Inst5Quest2name1 = "Rancor Boots"
-Inst5Quest2name2 = "Penance Spaulders"
-Inst5Quest2name3 = "Splintsteel Armor"
+Inst5Quest2FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst5Quest3 = "3. The Love Potion"
-Inst5Quest3_Level = "54"
-Inst5Quest3_Attain = "50"
-Inst5Quest3_Aim = "Bring 4 Gromsblood, 10 Giant Silver Veins and Nagmara's Filled Vial to Mistress Nagmara in Blackrock Depths."
-Inst5Quest3_Location = "Mistress Nagmara (Blackrock Depths; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest3_Note = "You get the Giant Silver Veins from Giants in Azshara. Gromsblood can be most easily acquired from either an herbalist or at the Auction House. Lastly, the vial can be filled at the Go-Lakka crater (Un'Goro Crater; "..YELLOW.."31,50"..WHITE..").\nAfter completing the quest, you can use the backdoor instead of killing Phalanx."
+Inst5Quest3 = "3. The Sealed Gate"
+Inst5Quest3_Level = "52"
+Inst5Quest3_Attain = "47"
+Inst5Quest3_Aim = "Kill Bael'gar."
+Inst5Quest3_Location = "Tinkee Steamboil (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest3_Note = "Bael'gar is at "..YELLOW.."[4]"..WHITE.."."
 Inst5Quest3_Prequest = "None"
 Inst5Quest3_Folgequest = "None"
---
-Inst5Quest3name1 = "Manacle Cuffs"
-Inst5Quest3name2 = "Nagmara's Whipping Belt"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst5Quest4 = "4. Hurley Blackbreath"
-Inst5Quest4_Level = "55"
-Inst5Quest4_Attain = "50"
-Inst5Quest4_Aim = "Bring the Lost Thunderbrew Recipe to Ragnar Thunderbrew in Kharanos."
-Inst5Quest4_Location = "Ragnar Thunderbrew  (Dun Morogh - Kharanos; "..YELLOW.."46,52"..WHITE..")"
-Inst5Quest4_Note = "You get the prequest from Enohar Thunderbrew (Blasted Lands - Nethergarde Keep; "..YELLOW.."61,18"..WHITE..").\nYou get the recipe from one of the guards who appear if you destroy the ale "..YELLOW.."[15]"..WHITE.."."
-Inst5Quest4_Prequest = "Ragnar Thunderbrew"
-Inst5Quest4_Folgequest = "None"
-Inst5Quest4PreQuest = "true"
---
-Inst5Quest4name1 = "Dark Dwarven Lager"
-Inst5Quest4name2 = "Swiftstrike Cudgel"
-Inst5Quest4name3 = "Limb Cleaver"
+Inst5Quest4 = "4. Infiltrating Shadowforge City"
+Inst5Quest4_Level = "54"
+Inst5Quest4_Attain = "51"
+Inst5Quest4_Aim = "Speak to Prospector Seymour."
+Inst5Quest4_Location = "Oralius (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest4_Note = "Prospector Seymour is at "..GREEN.."[3']"..WHITE.."."
+Inst5Quest4_Prequest = "None"
+Inst5Quest4_Folgequest = "Dark Iron Tacticians"
+-- No Rewards for this quest
 
---Quest 5 Alliance  
-Inst5Quest5 = "5. Overmaster Pyron"
-Inst5Quest5_Level = "52"
-Inst5Quest5_Attain = "48"
-Inst5Quest5_Aim = "Slay Overmaster Pyron and return to Jalinda Sprig."
-Inst5Quest5_Location = "Jalinda Sprig (Burning Steppes - Morgan's Vigil; "..YELLOW.."85,69"..WHITE..")"
-Inst5Quest5_Note = "Overmaster Pyron is a fire elemental outside the instance. He's at "..YELLOW.."[24]"..WHITE.." on the Blackrock Depths map and at "..YELLOW.."[1]"..WHITE.." on the Blackrock Mountain entrance map."
-Inst5Quest5_Prequest = "None"
-Inst5Quest5_Folgequest = "Incendius!"
+--Quest 5 Alliance
+Inst5Quest5 = "5. Dark Iron Tacticians"
+Inst5Quest5_Level = "55"
+Inst5Quest5_Attain = "51"
+Inst5Quest5_Aim = "Kill General Angerforge and Golem Lord Argelmach."
+Inst5Quest5_Location = "Prospector Seymour (Blackrock Depths; "..GREEN.."[3']"..WHITE..")"
+Inst5Quest5_Note = "General Angerforge is at "..YELLOW.."[10]"..WHITE.." and Golem Lord Argelmach is at "..YELLOW.."[11]"..WHITE..". The quest turns in to Mayara Brightwing at "..GREEN.."[7']"..WHITE.."."
+Inst5Quest5_Prequest = "Infiltrating Shadowforge City"
+Inst5Quest5_Folgequest = "The Grim Guzzler"
+Inst5Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst5Quest6 = "6. Incendius!"
+Inst5Quest6 = "6. The Grim Guzzler"
 Inst5Quest6_Level = "56"
-Inst5Quest6_Attain = "48"
-Inst5Quest6_Aim = "Find Lord Incendius in Blackrock Depths and destroy him!"
-Inst5Quest6_Location = "Jalinda Sprig (Burning Steppes - Morgan's Vigil; "..YELLOW.."85,69"..WHITE..")"
-Inst5Quest6_Note = "You get the prequest from Jalinda Sprig, too. You find Lord Incendius at "..YELLOW.."[10]"..WHITE.."."
-Inst5Quest6_Prequest = "Overmaster Pyron"
-Inst5Quest6_Folgequest = "None"
+Inst5Quest6_Attain = "51"
+Inst5Quest6_Aim = "Fight Hurley Blackbreath, Plugger Spazzring, and Ribbly Screwspigot."
+Inst5Quest6_Location = "Mayara Brightwing (Blackrock Depths; "..GREEN.."[7']"..WHITE..")"
+Inst5Quest6_Note = "All three are in the Grim Guzzler at "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." and "..YELLOW.."[14]"..WHITE..". The quest turns in to Mountaineer Orfus near "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest6_Prequest = "Dark Iron Tacticians"
+Inst5Quest6_Folgequest = "The Dark Iron Pact"
 Inst5Quest6FQuest = "true"
---
-Inst5Quest6name1 = "Sunborne Cape"
-Inst5Quest6name2 = "Nightfall Gloves"
-Inst5Quest6name3 = "Crypt Demon Bracers"
-Inst5Quest6name4 = "Stalwart Clutch"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst5Quest7 = "7. The Heart of the Mountain"
-Inst5Quest7_Level = "55"
-Inst5Quest7_Attain = "50"
-Inst5Quest7_Aim = "Bring the Heart of the Mountain to Maxwort Uberglint in the Burning Steppes."
-Inst5Quest7_Location = "Maxwort Uberglint (Burning Steppes - Flame Crest; "..YELLOW.."65,23"..WHITE..")"
-Inst5Quest7_Note = "You find the Heart at "..YELLOW.."[8]"..WHITE.." in a safe. You get the key for the safe from Warder Stillgiss. He appears after opening all small safes."
-Inst5Quest7_Prequest = "None"
-Inst5Quest7_Folgequest = "None"
+Inst5Quest7 = "7. The Dark Iron Pact"
+Inst5Quest7_Level = "57"
+Inst5Quest7_Attain = "51"
+Inst5Quest7_Aim = "Kill Ambassador Flamelash and Doom'rel."
+Inst5Quest7_Location = "Mountaineer Orfus (Blackrock Depths; "..YELLOW.."Near [15]"..WHITE..")"
+Inst5Quest7_Note = "Ambassador Flamelash is at "..YELLOW.."[15]"..WHITE.." and Doom'rel is at "..YELLOW.."[16]"..WHITE..". The quest turns in to Marshall Maxwell just beyond "..YELLOW.."[16]"..WHITE.."."
+Inst5Quest7_Prequest = "The Grim Guzzler"
+Inst5Quest7_Folgequest = "Morgan's Fruition"
+Inst5Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst5Quest8 = "8. The Good Stuff"
-Inst5Quest8_Level = "56"
-Inst5Quest8_Attain = "50"
-Inst5Quest8_Aim = "Travel to Blackrock Depths and recover 20 Dark Iron Fanny Packs. Return to Oralius when you have completed this task. You assume that the Dark Iron dwarves inside Blackrock Depths carry these 'fanny pack' contraptions."
-Inst5Quest8_Location = "Oralius (Burning Steppes - Morgan's Vigil; "..YELLOW.."84,68"..WHITE..")"
-Inst5Quest8_Note = "All dwarves can drop the packs."
-Inst5Quest8_Prequest = "None"
+Inst5Quest8 = "8. Morgan's Fruition"
+Inst5Quest8_Level = "58"
+Inst5Quest8_Attain = "51"
+Inst5Quest8_Aim = "Kill Emperor Dagran Thaurissan."
+Inst5Quest8_Location = "Marshall Maxwell (Blackrock Depths; "..YELLOW.."Beyond [16]"..WHITE..")"
+Inst5Quest8_Note = "Emperor Dagran Thaurissan is at "..YELLOW.."[18]"..WHITE..". The quest turns in back at Marshall Maxwell."
+Inst5Quest8_Prequest = "The Dark Iron Pact"
 Inst5Quest8_Folgequest = "None"
+Inst5Quest8FQuest = "true"
 --
-Inst5Quest8name1 = "A Dingy Fanny Pack"
+Inst5Quest8name1 = "Thaurissan's Breastplate"
+Inst5Quest8name2 = "Maxwell's Cloak"
+Inst5Quest8name3 = "Dark Iron Band"
 
 --Quest 9 Alliance
-Inst5Quest9 = "9. A Taste of Flame"
-Inst5Quest9_Level = "58"
-Inst5Quest9_Attain = "52"
-Inst5Quest9_Aim = "Travel to Blackrock Depths and slay Bael'Gar. "..YELLOW.."[...]"..WHITE.." Return the Encased Fiery Essence to Cyrus Therepentous."
-Inst5Quest9_Location = "Cyrus Therepentous (Burning Steppes; "..YELLOW.."95,31"..WHITE..")"
-Inst5Quest9_Note = "The questline starts at Kalaran Windblade (Searing Gorge; "..YELLOW.."39,38"..WHITE..").\nBael'Gar is at "..YELLOW.."[11]"..WHITE.."."
-Inst5Quest9_Prequest = "The Flawless Flame -> A Taste of Flame"
+Inst5Quest9 = "9. The Heart of the Mountain"
+Inst5Quest9_Level = "55"
+Inst5Quest9_Attain = "51"
+Inst5Quest9_Aim = "Obtain the Heart of the Mountain."
+Inst5Quest9_Location = "Maxwort Uberglint (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest9_Note = "The Heart of the Mountain is in the Vault at "..YELLOW.."[7]"..WHITE.."."
+Inst5Quest9_Prequest = "None"
 Inst5Quest9_Folgequest = "None"
-Inst5Quest9PreQuest = "true"
---
-Inst5Quest9name1 = "Shaleskin Cape"
-Inst5Quest9name2 = "Wyrmhide Spaulders"
-Inst5Quest9name3 = "Valconian Sash"
+-- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst5Quest10 = "10. Kharan Mighthammer"
-Inst5Quest10_Level = "59"
+Inst5Quest10 = "10. A Dangerous Alliance (Warrior)"
+Inst5Quest10_Level = "50"
 Inst5Quest10_Attain = "50"
-Inst5Quest10_Aim = "Travel to Blackrock Depths and find Kharan Mighthammer.\nThe King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison."
-Inst5Quest10_Location = "King Magni Bronzebeard (Ironforge; "..YELLOW.."39,55"..WHITE..")"
-Inst5Quest10_Note = "The prequest starts at Royal Historian Archesonus (Ironforge; "..YELLOW.."38,55"..WHITE.."). Kharan Mighthammer is at "..YELLOW.."[2]"..WHITE.."."
-Inst5Quest10_Prequest = "The Smoldering Ruins of Thaurissan"
-Inst5Quest10_Folgequest = "The Bearer of Bad News"
+Inst5Quest10_Aim = "Kill 6 Fireguard Destroyers and recover the General's Attack Plans from General Angerforge at the West Garrison in Blackrock Depths."
+Inst5Quest10_Location = "Ander Germaine (Stormwind City - Old Town; "..YELLOW.."79.8, 69.5"..WHITE..")"
+Inst5Quest10_Note = "This is a Warrior class quest. The optional prequest comes from Warrior trainers in the capital cities.\n\nGeneral Angerforge is at "..YELLOW.."[10]"..WHITE.." and the Fireguard Destroyers are on the way to him."
+Inst5Quest10_Prequest = "Meet with Ander Germaine"
+Inst5Quest10_Folgequest = "None"
 Inst5Quest10PreQuest = "true"
--- No Rewards for this quest
+--
+Inst5Quest10name1 = "Faceguard of the Crown"
+Inst5Quest10name2 = "Headguard of the Crown"
 
 --Quest 11 Alliance
-Inst5Quest11 = "11. The Fate of the Kingdom"
-Inst5Quest11_Level = "59"
-Inst5Quest11_Attain = "51"
-Inst5Quest11_Aim = "Return to Blackrock Depths and rescue Princess Moira Bronzebeard from the evil clutches of Emperor Dagran Thaurissan."
-Inst5Quest11_Location = "King Magni Bronzebeard (Ironforge; "..YELLOW.."39,55"..WHITE..")"
-Inst5Quest11_Note = "Princess Moira Bronzebeard is at "..YELLOW.."[21]"..WHITE..". During the fight she might heal Dagran. Try to interrupt her as often as possible, but hurry as she must not die or you can't complete the quest! After talking to her you have to return to Magni Bronzebeard."
-Inst5Quest11_Prequest = "The Bearer of Bad News"
-Inst5Quest11_Folgequest = "The Princess's Surprise"
-Inst5Quest11FQuest = "true"
+Inst5Quest11 = "11. Slaves of the Firelord (Shaman)"
+Inst5Quest11_Level = "50"
+Inst5Quest11_Attain = "50"
+Inst5Quest11_Aim = "Use the Totem of Freedom to free the essences of 6 Fireguards, Fireguard Destroyers, or Blazing Fireguards in Blackrock Depths."
+Inst5Quest11_Location = "Farseer Umbrua (Stormwind City - Dwarven District"..YELLOW.."65.9, 31.4"..WHITE..")"
+Inst5Quest11_Note = "This is a Shaman class quest. The optional prequest comes from Shaman trainers in the capital cities.\n\nThe Fireguards can be found in various locations inside Blackrock Depths. Use the Totem first before killing them."
+Inst5Quest11_Prequest = "Meet with Farseer Umbrua"
+Inst5Quest11_Folgequest = "None"
+Inst5Quest11PreQuest = "true"
 --
-Inst5Quest11name1 = "Magni's Will"
-Inst5Quest11name2 = "Songstone of Ironforge"
+Inst5Quest11name1 = "Mask of the Farseer"
+Inst5Quest11name2 = "Headcover of the Farseer"
 
 --Quest 12 Alliance
-Inst5Quest12 = "12. Attunement to the Core"
-Inst5Quest12_Level = "60"
-Inst5Quest12_Attain = "55"
-Inst5Quest12_Aim = "Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment."
-Inst5Quest12_Location = "Lothos Riftwaker (Blackrock Mountain; "..YELLOW.."[2] on Entrance Map"..WHITE..")"
-Inst5Quest12_Note = "After comleting this quest, you can use the stone next to Lothos Riftwaker to enter the Molten Core.\nYou find the Core Fragment near "..YELLOW.."[23]"..WHITE..", very close to the Molten Core portal."
-Inst5Quest12_Prequest = "None"
+Inst5Quest12 = "12. Stones of Binding (Warlock)"
+Inst5Quest12_Level = "50"
+Inst5Quest12_Attain = "50"
+Inst5Quest12_Aim = "Recover 6 Elemental Binding Stones from Blackrock Depths. You can find the stones in Shadowforge City, the Domicile, the Shrine of Thaurissan, the East Garrison, and the West Garrison."
+Inst5Quest12_Location = "Demisette Cloyce (Stormwind City - The Mage Quarter; "..YELLOW.."39.7, 84.5"..WHITE..")"
+Inst5Quest12_Note = "This is a Warlock class quest. The optional prequest comes from Warlock trainers in the capital cities."
+Inst5Quest12_Prequest = "Meet with Demisette Cloyce"
 Inst5Quest12_Folgequest = "None"
--- No Rewards for this quest
+Inst5Quest12PreQuest = "true"
+--
+Inst5Quest12name1 = "Horns of Justified Sins"
 
 --Quest 13 Alliance
-Inst5Quest13 = "13. The Challenge"
-Inst5Quest13_Level = "60"
-Inst5Quest13_Attain = "60"
-Inst5Quest13_Aim = "Travel to the Ring of the Law in Blackrock Depths and place the Banner of Provocation in its center as you are sentenced by High Justice Grimstone. Slay Theldren and his gladiators and return to Anthion Harmon in the Eastern Plaguelands with the first piece of Lord Valthalak's amulet."
-Inst5Quest13_Location = "Falrin Treeshaper (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")"
-Inst5Quest13_Note = "Followup quest is different for each class."
-Inst5Quest13_Prequest = "None"
-Inst5Quest13_Folgequest = "Varies for each class"
--- No Rewards for this quest
+Inst5Quest13 = "13. The Breath of Cenarius (Druid)"
+Inst5Quest13_Level = "50"
+Inst5Quest13_Attain = "50"
+Inst5Quest13_Aim = "Recover the Breath of Cenarius from Pyromancer Loregrain in Blackrock Depths and use the artifact to close 3 Elemental Gates."
+Inst5Quest13_Location = "Loganaar (Moonglade - Nighthaven; "..YELLOW.."52.5, 40.5"..WHITE..")"
+Inst5Quest13_Note = "This is a Druid class quest. The optional prequest comes from Druid trainers in the capital cities.\n\nPyromancer Loregrain is at "..YELLOW.."[8]"..WHITE.."."
+Inst5Quest13_Prequest = "Moonglade Calls"
+Inst5Quest13_Folgequest = "None"
+Inst5Quest13PreQuest = "true"
+--
+Inst5Quest13name1 = "Headdress of the Verdant Circle"
+Inst5Quest13name2 = "Headdress of the Green Circle"
 
 --Quest 14 Alliance
-Inst5Quest14 = "14. The Spectral Chalice"
-Inst5Quest14_Level = "55"
-Inst5Quest14_Attain = "55"
-Inst5Quest14_Aim = "Place the materials Gloom'Rel wants in the The Spectral Chalice."
-Inst5Quest14_Location = "Gloom'Rel (Blackrock Depths; "..YELLOW.."[18]"..WHITE..")"
-Inst5Quest14_Note = "Only Miners with skill 230 or higher can get this quest to learn Smelt Dark Iron. Materials for the Chalice: 2 [Star Ruby], 20 [Gold Bar], 10 [Truesilver Bar]. Afterwards, if you have [Dark Iron Ore] you can take it to The Black Forge at "..YELLOW.."[22]"..WHITE.." and Smelt it."
-Inst5Quest14_Prequest = "None"
+Inst5Quest14 = "14. The Dark Iron Army (Rogue)"
+Inst5Quest14_Level = "50"
+Inst5Quest14_Attain = "50"
+Inst5Quest14_Aim = "Use the Fast-Acting Poison to contaminate 6 in the West Garrison or East Garrison of Blackrock Depths."
+Inst5Quest14_Location = "Lord Tony Romano (Stormwind City - Old Town; "..YELLOW.."79.6, 61.2"..WHITE..")"
+Inst5Quest14_Note = "This is a Rogue class quest. The optional prequest comes from Rogue trainers in the capital cities."
+Inst5Quest14_Prequest = "Meet with Lord Tony Romano"
 Inst5Quest14_Folgequest = "None"
--- No Rewards for this quest
+Inst5Quest14PreQuest = "true"
+--
+Inst5Quest14name1 = "SI:7 Special Issue Facemask"
 
 --Quest 15 Alliance
-Inst5Quest15 = "15. Direbrew's Dire Brew"
-Inst5Quest15_Level = "80"
-Inst5Quest15_Attain = "75"
-Inst5Quest15_Aim = "Give Direbrew's Dire Brew to Ipfelkofer Ironkeg at the Brewfest camp near Ironforge."
-Inst5Quest15_Location = "Direbrew's Dire Brew (drops from Coren Direbrew at "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest15_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nIpfelkofer Ironkeg is at the Brewfest Camp at (Dun Morogh; "..YELLOW.."47,39"..WHITE..")."
-Inst5Quest15_Prequest = "None"
+Inst5Quest15 = "15. The Golem Lord's Creations (Hunter)"
+Inst5Quest15_Level = "50"
+Inst5Quest15_Attain = "50"
+Inst5Quest15_Aim = "Obtain 5 Elemental Modules from the golems in the Manufactory of Blackrock Depths and recover the Elemental Golem Blueprints."
+Inst5Quest15_Location = "Wulf Hansreim (Stormwind City - Old Town; "..YELLOW.."79.5, 70.9"..WHITE..")"
+Inst5Quest15_Note = "This is a Hunter class quest. The optional prequest comes from Hunter trainers in the capital cities.\n\nThe Elemental Golem Blueprints drop from Golem Lord Argelmach at "..YELLOW.."[11]"..WHITE.." and the Elemental Modules from the nearby Golems."
+Inst5Quest15_Prequest = "Meet with Wulf Hansreim"
 Inst5Quest15_Folgequest = "None"
+Inst5Quest15PreQuest = "true"
 --
-Inst5Quest15name1 = "Brewfest Prize Token"
+Inst5Quest15name1 = "Helm of the Crown"
 
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst5Quest1_HORDE = Inst5Quest1
-Inst5Quest1_HORDE_Level = Inst5Quest1_Level
-Inst5Quest1_HORDE_Attain = Inst5Quest1_Attain
-Inst5Quest1_HORDE_Aim = Inst5Quest1_Aim
-Inst5Quest1_HORDE_Location = Inst5Quest1_Location
-Inst5Quest1_HORDE_Note = Inst5Quest1_Note
-Inst5Quest1_HORDE_Prequest = Inst5Quest1_Prequest
-Inst5Quest1_HORDE_Folgequest = Inst5Quest1_Folgequest
+--Quest 16 Alliance
+Inst5Quest16 = "16. The Pyromancer's Grimoire (Mage)"
+Inst5Quest16_Level = "50"
+Inst5Quest16_Attain = "50"
+Inst5Quest16_Aim = "Kill 6 Twilight Emissaries and recover Loregrain's Grimoire from Pyromancer Loregrain at the Shrine of Thaurissan in Blackrock Depths."
+Inst5Quest16_Location = "Maginor Dumas (Stormwind City - Mage Quarter; "..YELLOW.."49.5, 87.0"..WHITE..")"
+Inst5Quest16_Note = "This is a Mage class quest. The optional prequest comes from Mage trainers in the capital cities.\n\nPyromancer Loregrain is at "..YELLOW.."[8]"..WHITE.."."
+Inst5Quest16_Prequest = "Meet with Maginor Dumas"
+Inst5Quest16_Folgequest = "None"
+Inst5Quest16PreQuest = "true"
 --
-Inst5Quest1name1_HORDE = Inst5Quest1name1
+Inst5Quest16name1 = "Hood of the Royal Wizard"
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 17 Alliance
+Inst5Quest17 = "17. Twilight Scheming (Priest)"
+Inst5Quest17_Level = "50"
+Inst5Quest17_Attain = "50"
+Inst5Quest17_Aim = "Use the Glowing Torch to destroy 8 copies of The Twilight Creed in the Domicile of Blackrock Depths."
+Inst5Quest17_Location = "High Priestess Laurena (Stormwind City - Cathedral Square; "..YELLOW.."49.7, 44.9"..WHITE..")"
+Inst5Quest17_Note = "This is a Priest class quest. The optional prequest comes from Priest trainers in the capital cities."
+Inst5Quest17_Prequest = "Meet with High Priestess Laurena"
+Inst5Quest17_Folgequest = "None"
+Inst5Quest17PreQuest = "true"
+--
+Inst5Quest17name1 = "Crown of the Hallowed"
+
+--Quest 18 Alliance
+Inst5Quest18 = "18. Weapons of Darkness (Paladin)"
+Inst5Quest18_Level = "50"
+Inst5Quest18_Attain = "50"
+Inst5Quest18_Aim = "Capture 5 Elemental-Imbued Weapons from Anvilrage dwarves in Blackrock Depths, then break them over the Black Anvil in Shadowforge City."
+Inst5Quest18_Location = "Lord Grayson Shadowbreaker (Stormwind City - Cathedral Square; "..YELLOW.."52.7, 45.1"..WHITE..")"
+Inst5Quest18_Note = "This is a Paladin class quest. The optional prequest comes from Paladin trainers in the capital cities.\n\nThe Black Anvil is at "..YELLOW.."[5]"..WHITE.."."
+Inst5Quest18_Prequest = "Meet with Lord Grayson Shadowbreaker"
+Inst5Quest18_Folgequest = "None"
+Inst5Quest18PreQuest = "true"
+--
+Inst5Quest18name1 = "Helm of the Order"
+Inst5Quest18name2 = "Faceguard of the Order"
+Inst5Quest18name3 = "Headguard of the Order"
+
+--Quest 19 Alliance
+Inst5Quest19 = "19. Attunement to the Core"
+Inst5Quest19_Level = "60"
+Inst5Quest19_Attain = "55"
+Inst5Quest19_Aim = "Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment."
+Inst5Quest19_Location = "Lothos Riftwaker (Blackrock Mountain; "..YELLOW.."Bottom of lowest Chain"..WHITE..")"
+Inst5Quest19_Note = "After completing this quest, you can use the stone next to Lothos Riftwaker to enter the Molten Core.\nYou find the Core Fragment near "..BLUE.."[E]"..WHITE..", very close to the Molten Core portal."
+Inst5Quest19_Prequest = "None"
+Inst5Quest19_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 20 Alliance
+Inst5Quest20 = "20. The Spectral Chalice"
+Inst5Quest20_Level = "55"
+Inst5Quest20_Attain = "55"
+Inst5Quest20_Aim = "Place the materials Gloom'Rel wants in the The Spectral Chalice."
+Inst5Quest20_Location = "Gloom'Rel (Blackrock Depths; "..YELLOW.."[16]"..WHITE..")"
+Inst5Quest20_Note = "Only Miners with skill 230 or higher can get this quest to learn Smelt Dark Iron. Materials for the Chalice: 2 [Star Ruby], 20 [Gold Bar], 10 [Truesilver Bar]. Afterwards, if you have [Dark Iron Ore] you can take it to The Black Forge near "..BLUE.."[E]"..WHITE.." and Smelt it."
+Inst5Quest20_Prequest = "None"
+Inst5Quest20_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 21 Alliance
+Inst5Quest21 = "21. Direbrew's Dire Brew"
+Inst5Quest21_Level = "85"
+Inst5Quest21_Attain = "85"
+Inst5Quest21_Aim = "Give Direbrew's Dire Brew to Ipfelkofer Ironkeg at the Brewfest camp near Ironforge."
+Inst5Quest21_Location = "Direbrew's Dire Brew (drops from Coren Direbrew at "..YELLOW.."[12]"..WHITE..")"
+Inst5Quest21_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nIpfelkofer Ironkeg is at the Brewfest Camp at (Dun Morogh; "..YELLOW.."47,39"..WHITE..")."
+Inst5Quest21_Prequest = "None"
+Inst5Quest21_Folgequest = "None"
+--
+Inst5Quest21name1 = "Brewfest Prize Token"
+
+
+--Quest 1 Horde
+Inst5Quest1_HORDE = "1. Into the Prison"
+Inst5Quest1_HORDE_Level = "52"
+Inst5Quest1_HORDE_Attain = "47"
+Inst5Quest1_HORDE_Aim = "Find Lexlort."
+Inst5Quest1_HORDE_Location = "Thal'trak Proudtusk (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest1_HORDE_Note = "Lexlort is on the way to the Prison at "..GREEN.."[2']"..WHITE.."."
+Inst5Quest1_HORDE_Prequest = "None"
+Inst5Quest1_HORDE_Folgequest = "Twilight?! No!"
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance - different quest giver)
 Inst5Quest2_HORDE = Inst5Quest2
 Inst5Quest2_HORDE_Level = Inst5Quest2_Level
 Inst5Quest2_HORDE_Attain = Inst5Quest2_Attain
-Inst5Quest2_HORDE_Aim = Inst5Quest2_Aim
-Inst5Quest2_HORDE_Location = Inst5Quest2_Location
+Inst5Quest2_HORDE_Aim = "Kill High Interrogator Gerstahn."
+Inst5Quest2_HORDE_Location = "Lexlort (Blackrock Depths; "..GREEN.."['2']"..WHITE..")"
 Inst5Quest2_HORDE_Note = Inst5Quest2_Note
 Inst5Quest2_HORDE_Prequest = Inst5Quest2_Prequest
 Inst5Quest2_HORDE_Folgequest = Inst5Quest2_Folgequest
-Inst5Quest2PreQuest_HORDE = Inst5Quest2PreQuest
---
-Inst5Quest2name1_HORDE = Inst5Quest2name1
-Inst5Quest2name2_HORDE = Inst5Quest2name2
-Inst5Quest2name3_HORDE = Inst5Quest2name3
+Inst5Quest2FQuest_HORDE = Inst5Quest2FQuest
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst5Quest3_HORDE = Inst5Quest3
@@ -838,213 +906,252 @@ Inst5Quest3_HORDE_Location = Inst5Quest3_Location
 Inst5Quest3_HORDE_Note = Inst5Quest3_Note
 Inst5Quest3_HORDE_Prequest = Inst5Quest3_Prequest
 Inst5Quest3_HORDE_Folgequest = Inst5Quest3_Folgequest
---
-Inst5Quest3name1_HORDE = Inst5Quest3name1
-Inst5Quest3name2_HORDE = Inst5Quest3name2
+-- No Rewards for this quest
 
 --Quest 4 Horde
-Inst5Quest4_HORDE = "4. Lost Thunderbrew Recipe"
-Inst5Quest4_HORDE_Level = "55"
-Inst5Quest4_HORDE_Attain = "50"
-Inst5Quest4_HORDE_Aim = "Bring the Lost Thunderbrew Recipe to Vivian Lagrave in Kargath."
-Inst5Quest4_HORDE_Location = "Shadowmage Vivian Lagrave (Badlands - Kargath; "..YELLOW.."2,47"..WHITE..")"
-Inst5Quest4_HORDE_Note = "You get the prequest from Apothecary Zinge in Undercity - The Apothecarium ("..YELLOW.."50,68"..WHITE..").\nYou get the recipe from one of the guards who appear if you destroy the ale "..YELLOW.."[15]"..WHITE.."."
-Inst5Quest4_HORDE_Prequest = "Vivian Lagrave"
-Inst5Quest4_HORDE_Folgequest = "None"
-Inst5Quest4PreQuest_HORDE = "true"
---
-Inst5Quest4name1_HORDE = "Superior Healing Potion"
-Inst5Quest4name2_HORDE = "Greater Mana Potion"
-Inst5Quest4name3_HORDE = "Swiftstrike Cudgel"
-Inst5Quest4name4_HORDE = "Limb Cleaver"
+Inst5Quest4_HORDE = "4. Infiltrating Shadowforge City"
+Inst5Quest4_HORDE_Level = "54"
+Inst5Quest4_HORDE_Attain = "51"
+Inst5Quest4_HORDE_Aim = "Speak to Razal'blade."
+Inst5Quest4_HORDE_Location = "Galamav the Marksman (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest4_HORDE_Note = "Razal'blade is at "..GREEN.."[3']"..WHITE.."."
+Inst5Quest4_HORDE_Prequest = "None"
+Inst5Quest4_HORDE_Folgequest = "The 109th Division"
+-- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 7 Alliance)
-Inst5Quest5_HORDE = "5. The Heart of the Mountain"
-Inst5Quest5_HORDE_Level = Inst5Quest7_Level
-Inst5Quest5_HORDE_Attain = Inst5Quest7_Attain
-Inst5Quest5_HORDE_Aim = Inst5Quest7_Aim
-Inst5Quest5_HORDE_Location = Inst5Quest7_Location
-Inst5Quest5_HORDE_Note = Inst5Quest7_Note
-Inst5Quest5_HORDE_Prequest = Inst5Quest7_Prequest
-Inst5Quest5_HORDE_Folgequest = Inst5Quest7_Folgequest
+--Quest 5 Horde
+Inst5Quest5_HORDE = "5. The 109th Division"
+Inst5Quest5_HORDE_Level = "55"
+Inst5Quest5_HORDE_Attain = "51"
+Inst5Quest5_HORDE_Aim = "Kill General Angerforge and Golem Lord Argelmach."
+Inst5Quest5_HORDE_Location = "Razal'blade (Blackrock Depths; "..GREEN.."[3']"..WHITE..")"
+Inst5Quest5_HORDE_Note = "General Angerforge is at "..YELLOW.."[10]"..WHITE.." and Golem Lord Argelmach is at "..YELLOW.."[11]"..WHITE..". The quest turns in to Hierophant Theodora Mulvadania at "..GREEN.."[7']"..WHITE.."."
+Inst5Quest5_HORDE_Prequest = "Infiltrating Shadowforge City"
+Inst5Quest5_HORDE_Folgequest = "The Grim Guzzler"
+Inst5Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde
-Inst5Quest6_HORDE = "6. KILL ON SIGHT: Dark Iron Dwarves"
-Inst5Quest6_HORDE_Level = "52"
-Inst5Quest6_HORDE_Attain = "48"
-Inst5Quest6_HORDE_Aim = "Venture to Blackrock Depths and destroy the vile aggressors! Warlord Goretooth wants you to kill 15 Anvilrage Guardsmen, 10 Anvilrage Wardens and 5 Anvilrage Footmen. Return to him once your task is complete."
-Inst5Quest6_HORDE_Location = "Sign Post (Badlands - Kargath; "..YELLOW.."3,47"..WHITE..")"
-Inst5Quest6_HORDE_Note = "You find the dwarves in the first part of Blackrock Depths.\nYou find Warlord Goretooth in Kargath at the top of the tower (Badlands, "..YELLOW.."5,47"..WHITE..")."
-Inst5Quest6_HORDE_Prequest = "None"
-Inst5Quest6_HORDE_Folgequest = "KILL ON SIGHT: High Ranking Dark Iron Officials"
+Inst5Quest6_HORDE = "6. The Grim Guzzler"
+Inst5Quest6_HORDE_Level = "56"
+Inst5Quest6_HORDE_Attain = "51"
+Inst5Quest6_HORDE_Aim = "Fight Hurley Blackbreath, Plugger Spazzring, and Ribbly Screwspigot."
+Inst5Quest6_HORDE_Location = "Hierophant Theodora Mulvadania (Blackrock Depths; "..GREEN.."[7']"..WHITE..")"
+Inst5Quest6_HORDE_Note = "All three are in the Grim Guzzler at "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." and "..YELLOW.."[14]"..WHITE..". The quest turns in to Thunderheart near "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest6_HORDE_Prequest = "The 109th Division"
+Inst5Quest6_HORDE_Folgequest = "The Dark Iron Pact"
+Inst5Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde
-Inst5Quest7_HORDE = "7. KILL ON SIGHT: High Ranking Dark Iron Officials"
-Inst5Quest7_HORDE_Level = "54"
-Inst5Quest7_HORDE_Attain = "49"
-Inst5Quest7_HORDE_Aim = "Venture to Blackrock Depths and destroy the vile aggressors! Warlord Goretooth wants you to kill 10 Anvilrage Medics, 10 Anvilrage Soldiers and 10 Anvilrage Officers. Return to him once your task is complete."
-Inst5Quest7_HORDE_Location = "Sign Post (Badlands - Kargath; "..YELLOW.."3,47"..WHITE..")"
-Inst5Quest7_HORDE_Note = "You find the dwarves near Bael'Gar "..YELLOW.."[11]"..WHITE..". You find Warlord Goretooth in Kargath at the top of the tower (Badlands, "..YELLOW.."5,47"..WHITE..").\n The followup quest starts at Lexlort (Badlands - Kargath; "..YELLOW.."5,47"..WHITE.."). You find Grark Lorkrub in the Burning Steppes ("..YELLOW.."38,35"..WHITE.."). You have to reduce his life below 50% to bind him and start a Escort quest."
-Inst5Quest7_HORDE_Prequest = "KILL ON SIGHT: Dark Iron Dwarves"
-Inst5Quest7_HORDE_Folgequest = "Grark Lorkrub -> Precarious Predicament (Escort quest)"
+Inst5Quest7_HORDE = "7. The Dark Iron Pact"
+Inst5Quest7_HORDE_Level = "57"
+Inst5Quest7_HORDE_Attain = "51"
+Inst5Quest7_HORDE_Aim = "Kill Ambassador Flamelash and Doom'rel."
+Inst5Quest7_HORDE_Location = "Thunderheart (Blackrock Depths; "..YELLOW.."Near [15]"..WHITE..")"
+Inst5Quest7_HORDE_Note = "Ambassador Flamelash is at "..YELLOW.."[15]"..WHITE.." and Doom'rel is at "..YELLOW.."[16]"..WHITE..". The quest turns in to Warlord Goretooth just beyond "..YELLOW.."[16]"..WHITE.."."
+Inst5Quest7_HORDE_Prequest = "The Grim Guzzler"
+Inst5Quest7_HORDE_Folgequest = "Rebirth of the K.E.F."
 Inst5Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 8 Horde
-Inst5Quest8_HORDE = "8. Operation: Death to Angerforge"
+Inst5Quest8_HORDE = "8. Rebirth of the K.E.F."
 Inst5Quest8_HORDE_Level = "58"
-Inst5Quest8_HORDE_Attain = "54"
-Inst5Quest8_HORDE_Aim = "Travel to Blackrock Depths and slay General Angerforge! Return to Warlord Goretooth when the task is complete."
-Inst5Quest8_HORDE_Location = "Warlord Goretooth (Badlands - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst5Quest8_HORDE_Note = "You find General Angerforge at "..YELLOW.."[13]"..WHITE..". He calls help below 30%!"
-Inst5Quest8_HORDE_Prequest = "Precarious Predicament"
+Inst5Quest8_HORDE_Attain = "51"
+Inst5Quest8_HORDE_Aim = "Kill Emperor Dagran Thaurissan."
+Inst5Quest8_HORDE_Location = "Warlord Goretooth (Blackrock Depths; "..YELLOW.."Beyond [16]"..WHITE..")"
+Inst5Quest8_HORDE_Note = "Emperor Dagran Thaurissan is at "..YELLOW.."[18]"..WHITE..". The quest turns in back at Warlord Goretooth."
+Inst5Quest8_HORDE_Prequest = "The Dark Iron Pact"
 Inst5Quest8_HORDE_Folgequest = "None"
 Inst5Quest8FQuest_HORDE = "true"
 --
-Inst5Quest8name1_HORDE = "Conqueror's Medallion"
+Inst5Quest8name1_HORDE = "Dark Iron Band"
+Inst5Quest8name2_HORDE = "Thaurissan's Breastplate"
+Inst5Quest8name3_HORDE = "Kargath Cloak"
 
---Quest 9 Horde
-Inst5Quest9_HORDE = "9. The Rise of the Machines"
-Inst5Quest9_HORDE_Level = "58"
-Inst5Quest9_HORDE_Attain = "52"
-Inst5Quest9_HORDE_Aim = "Find and slay Golem Lord Argelmach. Return his head to Lotwil. You will also need to collect 10 Intact Elemental Cores from the Ragereaver Golems and Warbringer Constructs protecting Argelmach. You know this because you are psychic."
-Inst5Quest9_HORDE_Location = "Lotwil Veriatus (Badlands; "..YELLOW.."25,44"..WHITE..")"
-Inst5Quest9_HORDE_Note = "You get the prequest from Hierophant Theodora Mulvadania (Badlands - Kargath; "..YELLOW.."3,47"..WHITE..").\nYou find Argelmach at "..YELLOW.."[14]"..WHITE.."."
-Inst5Quest9_HORDE_Prequest = "The Rise of the Machines"
-Inst5Quest9_HORDE_Folgequest = "None"
-Inst5Quest9PreQuest_HORDE = "true"
---
-Inst5Quest9name1_HORDE = "Azure Moon Amice"
-Inst5Quest9name2_HORDE = "Raincaster Drape"
-Inst5Quest9name3_HORDE = "Basaltscale Armor"
-Inst5Quest9name4_HORDE = "Lavaplate Gauntlets"
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst5Quest9_HORDE = Inst5Quest9
+Inst5Quest9_HORDE_Level = Inst5Quest9_Level
+Inst5Quest9_HORDE_Attain = Inst5Quest9_Attain
+Inst5Quest9_HORDE_Aim = Inst5Quest9_Aim
+Inst5Quest9_HORDE_Location = Inst5Quest9_Location
+Inst5Quest9_HORDE_Note = Inst5Quest9_Note
+Inst5Quest9_HORDE_Prequest = Inst5Quest9_Prequest
+Inst5Quest9_HORDE_Folgequest = Inst5Quest9_Folgequest
+-- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 9 Alliance)
-Inst5Quest10_HORDE = "10. A Taste of Flame"
-Inst5Quest10_HORDE_Level = Inst5Quest9_Level
-Inst5Quest10_HORDE_Attain = Inst5Quest9_Attain
-Inst5Quest10_HORDE_Aim = Inst5Quest9_Aim
-Inst5Quest10_HORDE_Location = Inst5Quest9_Location
-Inst5Quest10_HORDE_Note = Inst5Quest9_Note
-Inst5Quest10_HORDE_Prequest = Inst5Quest9_Prequest
-Inst5Quest10_HORDE_Folgequest = Inst5Quest9_Folgequest
-Inst5Quest10PreQuest_HORDE = Inst5Quest9PreQuest
+--Quest 10 Horde
+Inst5Quest10_HORDE = "10. A Dangerous Alliance (Warrior)"
+Inst5Quest10_HORDE_Level = "50"
+Inst5Quest10_HORDE_Attain = "50"
+Inst5Quest10_HORDE_Aim = "Kill 6 Fireguard Destroyers and recover the General's Attack Plans from General Angerforge at the West Garrison in Blackrock Depths."
+Inst5Quest10_HORDE_Location = "Grezz Ragefist (Orgrimmar - Valley of Honor; "..YELLOW.."73.7, 45.6"..WHITE..")"
+Inst5Quest10_HORDE_Note = "This is a Warrior class quest. The optional prequest comes from Warrior trainers in the capital cities.\n\nGeneral Angerforge is at "..YELLOW.."[10]"..WHITE.." and the Fireguard Destroyers are on the way to him."
+Inst5Quest10_HORDE_Prequest = "Meet with Grezz Ragefist"
+Inst5Quest10_HORDE_Folgequest = "None"
+Inst5Quest10PreQuest_HORDE = "true"
 --
-Inst5Quest10name1_HORDE = Inst5Quest9name1
-Inst5Quest10name2_HORDE = Inst5Quest9name2
-Inst5Quest10name3_HORDE = Inst5Quest9name3
+Inst5Quest10name1_HORDE = "Faceguard of the Horde"
+Inst5Quest10name2_HORDE = "Headguard of the Horde"
 
 --Quest 11 Horde
-Inst5Quest11_HORDE = "11. Disharmony of Flame"
-Inst5Quest11_HORDE_Level = "52"
-Inst5Quest11_HORDE_Attain = "48"
-Inst5Quest11_HORDE_Aim = "Travel to the quarry in Blackrock Mountain and slay Overmaster Pyron. Return to Thunderheart when you have completed this assignment."
-Inst5Quest11_HORDE_Location = "Thunderheart (Badlands - Kargath; "..YELLOW.."3,48"..WHITE..")"
-Inst5Quest11_HORDE_Note = "Overmaster Pyron is a fire elemental outside the instance. He's at "..YELLOW.."[24]"..WHITE.." on the Blackrock Depths map and at "..YELLOW.."[1]"..WHITE.." on the Blackrock Mountain entrance map."
-Inst5Quest11_HORDE_Prequest = "None"
-Inst5Quest11_HORDE_Folgequest = "Disharmony of Fire"
--- No Rewards for this quest
+Inst5Quest11_HORDE = "11. Slaves of the Firelord (Shaman)"
+Inst5Quest11_HORDE_Level = "50"
+Inst5Quest11_HORDE_Attain = "50"
+Inst5Quest11_HORDE_Aim = "Use the Totem of Freedom to free the essences of 6 Fireguards, Fireguard Destroyers, or Blazing Fireguards in Blackrock Depths."
+Inst5Quest11_HORDE_Location = "Kardris Dreamseeker (Orgrimmar - Valley of Wisdom"..YELLOW.."39.5, 47.0"..WHITE..")"
+Inst5Quest11_HORDE_Note = "This is a Shaman class quest. The optional prequest comes from Shaman trainers in the capital cities.\n\nThe Fireguards can be found in various locations inside Blackrock Depths. Use the Totem first before killing them."
+Inst5Quest11_HORDE_Prequest = "Meet with Kardris Dreamseeker"
+Inst5Quest11_HORDE_Folgequest = "None"
+Inst5Quest11PreQuest_HORDE = "true"
+--
+Inst5Quest11name1_HORDE = "Mask of the Speaker"
+Inst5Quest11name2_HORDE = "Headcover of the Speaker"
 
 --Quest 12 Horde
-Inst5Quest12_HORDE = "12. Disharmony of Fire"
-Inst5Quest12_HORDE_Level = "56"
-Inst5Quest12_HORDE_Attain = "48"
-Inst5Quest12_HORDE_Aim = "Enter Blackrock Depths and track down Lord Incendius. Slay him and return any source of information you may find to Thunderheart."
-Inst5Quest12_HORDE_Location = "Thunderheart (Badlands - Kargath; "..YELLOW.."3,48"..WHITE..")"
-Inst5Quest12_HORDE_Note = "You get the prequest from Thunderheart, too.\nYou find Lord Incendius at "..YELLOW.."[10]"..WHITE.."."
-Inst5Quest12_HORDE_Prequest = "Disharmony of Flame"
+Inst5Quest12_HORDE = "12. Stones of Binding (Warlock)"
+Inst5Quest12_HORDE_Level = "50"
+Inst5Quest12_HORDE_Attain = "50"
+Inst5Quest12_HORDE_Aim = "Recover 6 Elemental Binding Stones from Blackrock Depths. You can find the stones in Shadowforge City, the Domicile, the Shrine of Thaurissan, the East Garrison, and the West Garrison."
+Inst5Quest12_HORDE_Location = "Zevrost (Orgrimmar - Cleft of Shadow; "..YELLOW.."49.0, 55.3"..WHITE..")"
+Inst5Quest12_HORDE_Note = "This is a Warlock class quest. The optional prequest comes from Warlock trainers in the capital cities."
+Inst5Quest12_HORDE_Prequest = "Meet with Zevrost"
 Inst5Quest12_HORDE_Folgequest = "None"
-Inst5Quest12FQuest_HORDE = "true"
+Inst5Quest12PreQuest_HORDE = "true"
 --
-Inst5Quest12name1_HORDE = "Sunborne Cape"
-Inst5Quest12name2_HORDE = "Nightfall Gloves"
-Inst5Quest12name3_HORDE = "Crypt Demon Bracers"
-Inst5Quest12name4_HORDE = "Stalwart Clutch"
+Inst5Quest12name1_HORDE = "Horns of the Left Hand Path"
 
---Quest 13 Horde
-Inst5Quest13_HORDE = "13. The Last Element"
-Inst5Quest13_HORDE_Level = "54"
-Inst5Quest13_HORDE_Attain = "48"
-Inst5Quest13_HORDE_Aim = "Travel to Blackrock Depths and recover 10 Essence of the Elements. Your first inclination is to search the golems and golem makers. You remember Vivian Lagrave also muttering something about elementals."
-Inst5Quest13_HORDE_Location = "Shadowmage Vivian Lagrave (Badlands - Kargath; "..YELLOW.."2,47"..WHITE..")"
-Inst5Quest13_HORDE_Note = "You get the prequest from Thunderheart (Badlands - Kargath; "..YELLOW.."3,48"..WHITE..").\n Every elemental can drop the Essence"
-Inst5Quest13_HORDE_Prequest = "Disharmony of Flame"
-Inst5Quest13_HORDE_Folgequest = "None"
-Inst5Quest13PreQuest_HORDE = "true"
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst5Quest13_HORDE = Inst5Quest13
+Inst5Quest13_HORDE_Level = Inst5Quest13_Level
+Inst5Quest13_HORDE_Attain = Inst5Quest13_Attain
+Inst5Quest13_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest13_HORDE_Location = Inst5Quest13_Location
+Inst5Quest13_HORDE_Note = Inst5Quest13_Note
+Inst5Quest13_HORDE_Prequest = Inst5Quest13_Prequest
+Inst5Quest13_HORDE_Folgequest = Inst5Quest13_Folgequest
+Inst5Quest13PreQuest_HORDE = Inst5Quest13PreQuest
 --
-Inst5Quest13name1_HORDE = "Lagrave's Seal"
+Inst5Quest13name1_HORDE = Inst5Quest13name1
+Inst5Quest13name2_HORDE = Inst5Quest13name2
 
 --Quest 14 Horde
-Inst5Quest14_HORDE = "14. Commander Gor'shak"
-Inst5Quest14_HORDE_Level = "52"
-Inst5Quest14_HORDE_Attain = "48"
-Inst5Quest14_HORDE_Aim = "Find Commander Gor'shak in Blackrock Depths.\nYou recall that the crudely drawn picture of the orc included bars drawn over the portrait. Perhaps you should search for a prison of some sort."
-Inst5Quest14_HORDE_Location = "Galamav the Marksman (Badlands - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst5Quest14_HORDE_Note = "You get the prequest from Thunderheart (Badlands - Kargath; "..YELLOW.."3,48"..WHITE..").\nYou find Commander Gor'shak at "..YELLOW.."[3]"..WHITE..". The key to open the prison drops from High Interrogator Gerstahn "..YELLOW.."[5]"..WHITE..". If you talk to him and start the next Quest enemys appears."
-Inst5Quest14_HORDE_Prequest = "Disharmony of Flame"
-Inst5Quest14_HORDE_Folgequest = "What Is Going On?"
+Inst5Quest14_HORDE = "14. The Dark Iron Army (Rogue)"
+Inst5Quest14_HORDE_Level = "50"
+Inst5Quest14_HORDE_Attain = "50"
+Inst5Quest14_HORDE_Aim = "Use the Fast-Acting Poison to contaminate 6 in the West Garrison or East Garrison of Blackrock Depths."
+Inst5Quest14_HORDE_Location = "Gordul (Orgrimmar - Cleft of Shadow; "..YELLOW.."44.8, 61.3"..WHITE..")"
+Inst5Quest14_HORDE_Note = "This is a Rogue class quest. The optional prequest comes from Rogue trainers in the capital cities."
+Inst5Quest14_HORDE_Prequest = "Meet with Gordul"
+Inst5Quest14_HORDE_Folgequest = "None"
 Inst5Quest14PreQuest_HORDE = "true"
+--
+Inst5Quest14name1_HORDE = "Facemask of the Shattered Hand"
 
 --Quest 15 Horde
-Inst5Quest15_HORDE = "15. The Royal Rescue"
-Inst5Quest15_HORDE_Level = "59"
+Inst5Quest15_HORDE = "15. The Golem Lord's Creations (Hunter)"
+Inst5Quest15_HORDE_Level = "50"
 Inst5Quest15_HORDE_Attain = "50"
-Inst5Quest15_HORDE_Aim = "Slay Emperor Dagran Thaurissan and free Princess Moira Bronzebeard from his evil spell."
-Inst5Quest15_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,37"..WHITE..")"
-Inst5Quest15_HORDE_Note = "After talking a with Kharan Mighthammer and Thrall you get this quest.\nYou find Emperor Dagran Thaurissan at "..YELLOW.."[21]"..WHITE..". The Princess heals Dagran but you must not kill her to complete the quest! Try to interrupt her healing spells. (Rewards are for The Princess Saved?)"
-Inst5Quest15_HORDE_Prequest = "Commander Gor'shak"
-Inst5Quest15_HORDE_Folgequest = "The Princess Saved?"
-Inst5Quest15FQuest_HORDE = "true"
+Inst5Quest15_HORDE_Aim = "Obtain 5 Elemental Modules from the golems in the Manufactory of Blackrock Depths and recover the Elemental Golem Blueprints."
+Inst5Quest15_HORDE_Location = "Ormak Grimshot (Orgrimmar - Valley of Honor; "..YELLOW.."64.0, 32.7"..WHITE..")"
+Inst5Quest15_HORDE_Note = "This is a Hunter class quest. The optional prequest comes from Hunter trainers in the capital cities.\n\nThe Elemental Golem Blueprints drop from Golem Lord Argelmach at "..YELLOW.."[11]"..WHITE.." and the Elemental Modules from the nearby Golems."
+Inst5Quest15_HORDE_Prequest = "Meet with Ormak Grimshot"
+Inst5Quest15_HORDE_Folgequest = "None"
+Inst5Quest15PreQuest_HORDE = "true"
 --
-Inst5Quest15name1_HORDE = "Thrall's Resolve"
-Inst5Quest15name2_HORDE = "Eye of Orgrimmar"
+Inst5Quest15name1_HORDE = "Helm of the Great Hunter"
 
---Quest 16 Horde  (same as Quest 12 Alliance)
-Inst5Quest16_HORDE = "16. Attunement to the Core"
-Inst5Quest16_HORDE_Level = Inst5Quest12_Level
-Inst5Quest16_HORDE_Attain = Inst5Quest12_Attain
-Inst5Quest16_HORDE_Aim = Inst5Quest12_Aim
-Inst5Quest16_HORDE_Location = Inst5Quest12_Location
-Inst5Quest16_HORDE_Note = Inst5Quest12_Note
-Inst5Quest16_HORDE_Prequest = Inst5Quest12_Prequest
-Inst5Quest16_HORDE_Folgequest = Inst5Quest12_Folgequest
--- No Rewards for this quest
+--Quest 16 Horde
+Inst5Quest16_HORDE = "16. The Pyromancer's Grimoire (Mage)"
+Inst5Quest16_HORDE_Level = "50"
+Inst5Quest16_HORDE_Attain = "50"
+Inst5Quest16_HORDE_Aim = "Kill 6 Twilight Emissaries and recover Loregrain's Grimoire from Pyromancer Loregrain at the Shrine of Thaurissan in Blackrock Depths."
+Inst5Quest16_HORDE_Location = "Ureda (Orgrimmar - Cleft of Shadow; "..YELLOW.."51.3, 72.3"..WHITE..")"
+Inst5Quest16_HORDE_Note = "This is a Mage class quest. The optional prequest comes from Mage trainers in the capital cities.\n\nPyromancer Loregrain is at "..YELLOW.."[8]"..WHITE.."."
+Inst5Quest16_HORDE_Prequest = "Meet with Ureda"
+Inst5Quest16_HORDE_Folgequest = "None"
+Inst5Quest16PreQuest_HORDE = "true"
+--
+Inst5Quest16name1_HORDE = "Hood of the Arcane Path"
 
---Quest 17 Horde  (same as Quest 13 Alliance)
-Inst5Quest17_HORDE = "17. The Challenge"
-Inst5Quest17_HORDE_Level = Inst5Quest13_Level
-Inst5Quest17_HORDE_Attain = Inst5Quest13_Attain
-Inst5Quest17_HORDE_Aim = Inst5Quest13_Aim
-Inst5Quest17_HORDE_Location = Inst5Quest13_Location
-Inst5Quest17_HORDE_Note = Inst5Quest13_Note
-Inst5Quest17_HORDE_Prequest = Inst5Quest13_Prequest
-Inst5Quest17_HORDE_Folgequest = Inst5Quest13_Folgequest
--- No Rewards for this quest
+--Quest 17 Horde
+Inst5Quest17_HORDE = "17. Twilight Scheming (Priest)"
+Inst5Quest17_HORDE_Level = "50"
+Inst5Quest17_HORDE_Attain = "50"
+Inst5Quest17_HORDE_Aim = "Use the Glowing Torch to destroy 8 copies of The Twilight Creed in the Domicile of Blackrock Depths."
+Inst5Quest17_HORDE_Location = "Dark Cleric Cecille (Orgrimmar - Valley of Strength; "..YELLOW.."48.7, 72.8"..WHITE..")"
+Inst5Quest17_HORDE_Note = "This is a Priest class quest. The optional prequest comes from Priest trainers in the capital cities."
+Inst5Quest17_HORDE_Prequest = "Meet with Dark Cleric Cecille"
+Inst5Quest17_HORDE_Folgequest = "None"
+Inst5Quest17PreQuest_HORDE = "true"
+--
+Inst5Quest17name1_HORDE = "Crown of Forsaken Faith"
 
---Quest 18 Horde  (same as Quest 14 Alliance)
-Inst5Quest18_HORDE = "18. The Spectral Chalice"
-Inst5Quest18_HORDE_Level = Inst5Quest14_Level
-Inst5Quest18_HORDE_Attain = Inst5Quest14_Attain
-Inst5Quest18_HORDE_Aim = Inst5Quest14_Aim
-Inst5Quest18_HORDE_Location = Inst5Quest14_Location
-Inst5Quest18_HORDE_Note = Inst5Quest14_Note
-Inst5Quest18_HORDE_Prequest = Inst5Quest14_Prequest
-Inst5Quest18_HORDE_Folgequest = Inst5Quest14_Folgequest
--- No Rewards for this quest
+--Quest 18 Horde
+Inst5Quest18_HORDE = "18. Weapons of Darkness (Paladin)"
+Inst5Quest18_HORDE_Level = "50"
+Inst5Quest18_HORDE_Attain = "50"
+Inst5Quest18_HORDE_Aim = "Capture 5 Elemental-Imbued Weapons from Anvilrage dwarves in Blackrock Depths, then break them over the Black Anvil in Shadowforge City."
+Inst5Quest18_HORDE_Location = "Master Pyreanor (Orgrimmar - Valley of Strength; "..YELLOW.."49.2, 71.3"..WHITE..")"
+Inst5Quest18_HORDE_Note = "This is a Blood Elf Paladin quest. The optional prequest comes from Paladin trainers in the capital cities.\n\nThe Black Anvil is at "..YELLOW.."[5]"..WHITE.."."
+Inst5Quest18_HORDE_Prequest = "Meet with Master Pyreanor"
+Inst5Quest18_HORDE_Folgequest = "None"
+Inst5Quest18PreQuest_HORDE = "true"
+--
+Inst5Quest18name1_HORDE = "Helm of the Order"
+Inst5Quest18name2_HORDE = "Faceguard of the Order"
+Inst5Quest18name3_HORDE = "Headguard of the Order"
+Inst5Quest18name4_HORDE = "Blood Knight Tabard"
 
 --Quest 19 Horde
-Inst5Quest19_HORDE = "19. Direbrew's Dire Brew"
-Inst5Quest19_HORDE_Level = "80"
-Inst5Quest19_HORDE_Attain = "75"
-Inst5Quest19_HORDE_Aim = "Give Direbrew's Dire Brew to Tapper Swindlekeg at the Brewfest camp near Orgrimmar."
-Inst5Quest19_HORDE_Location = "Direbrew's Dire Brew (drops from Coren Direbrew at "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest19_HORDE_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nTapper Swindlekeg is at the Brewfest Camp at (Durotar; "..YELLOW.."45,17"..WHITE..")."
-Inst5Quest19_HORDE_Prequest = "None"
+Inst5Quest19_HORDE = "19. Weapons of Darkness (Paladin)"
+Inst5Quest19_HORDE_Level = "50"
+Inst5Quest19_HORDE_Attain = "50"
+Inst5Quest19_HORDE_Aim = "Capture 5 Elemental-Imbued Weapons from Anvilrage dwarves in Blackrock Depths, then break them over the Black Anvil in Shadowforge City."
+Inst5Quest19_HORDE_Location = "Sunwalker Atohmo (Orgrimmar - Valley of Wisdom;"..YELLOW.."45.2, 53.7"..WHITE..")"
+Inst5Quest19_HORDE_Note = "This is a Tauren Paladin quest. The optional prequest comes from Paladin trainers in the capital cities.\n\nThe Black Anvil is at "..YELLOW.."[5]"..WHITE.."."
+Inst5Quest19_HORDE_Prequest = "Meet with Sunwalker Atohmo"
 Inst5Quest19_HORDE_Folgequest = "None"
+Inst5Quest19PreQuest_HORDE = "true"
 --
-Inst5Quest19name1_HORDE = "Brewfest Prize Token"
+Inst5Quest19name1_HORDE = "Helm of the Sunwalker"
+Inst5Quest19name2_HORDE = "Faceguard of the Sunwalker"
+Inst5Quest19name3_HORDE = "Headguard of the Sunwalker"
+
+--Quest 20 Horde  (same as Quest 19 Alliance)
+Inst5Quest20_HORDE = "20. Attunement to the Core"
+Inst5Quest20_HORDE_Level = Inst5Quest19_Level
+Inst5Quest20_HORDE_Attain = Inst5Quest19_Attain
+Inst5Quest20_HORDE_Aim = Inst5Quest19_Aim
+Inst5Quest20_HORDE_Location = Inst5Quest19_Location
+Inst5Quest20_HORDE_Note = Inst5Quest19_Note
+Inst5Quest20_HORDE_Prequest = Inst5Quest19_Prequest
+Inst5Quest20_HORDE_Folgequest = Inst5Quest19_Folgequest
+-- No Rewards for this quest
+
+--Quest 21 Horde  (same as Quest 20 Alliance)
+Inst5Quest21_HORDE = "21. The Spectral Chalice"
+Inst5Quest21_HORDE_Level = Inst5Quest20_Level
+Inst5Quest21_HORDE_Attain = Inst5Quest20_Attain
+Inst5Quest21_HORDE_Aim = Inst5Quest20_Aim
+Inst5Quest21_HORDE_Location = Inst5Quest20_Location
+Inst5Quest21_HORDE_Note = Inst5Quest20_Note
+Inst5Quest21_HORDE_Prequest = Inst5Quest20_Prequest
+Inst5Quest21_HORDE_Folgequest = Inst5Quest20_Folgequest
+-- No Rewards for this quest
+
+--Quest 22 Horde
+Inst5Quest22_HORDE = "22. Direbrew's Dire Brew"
+Inst5Quest22_HORDE_Level = "85"
+Inst5Quest22_HORDE_Attain = "85"
+Inst5Quest22_HORDE_Aim = "Give Direbrew's Dire Brew to Tapper Swindlekeg at the Brewfest camp near Orgrimmar."
+Inst5Quest22_HORDE_Location = "Direbrew's Dire Brew (drops from Coren Direbrew at "..YELLOW.."[12]"..WHITE..")"
+Inst5Quest22_HORDE_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nTapper Swindlekeg is at the Brewfest Camp at (Durotar; "..YELLOW.."45,17"..WHITE..")."
+Inst5Quest22_HORDE_Prequest = "None"
+Inst5Quest22_HORDE_Folgequest = "None"
+--
+Inst5Quest22name1_HORDE = "Brewfest Prize Token"
 
 
 

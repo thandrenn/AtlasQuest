@@ -424,11 +424,11 @@
 <!-- AtlasQuest Panel-->
 <Frame name="AtlasQuestFrame" toplevel="false" enableMouse="true" movable="false" parent="AtlasFrame">
  <Size>
-   <AbsDimension x="198" y="520"/>
+   <AbsDimension x="198" y="565"/>
  </Size>
  <Anchors>
    <Anchor point="TOP" relativeTo="AtlasFrame">
-      <Offset><AbsDimension x="-545" y="-80"/></Offset>>
+      <Offset><AbsDimension x="-545" y="-35"/></Offset>>
    </Anchor>
  </Anchors>
  <Backdrop name="$parentBackdrop" bgFile="Interface\Minimap\TooltipBackdrop-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
@@ -952,6 +952,47 @@
 	    </OnShow>
 	</Scripts>
  </Button>
+
+ <Button name="AQQuestbutton21" inherits="" text="18">
+   <Size>
+     <AbsDimension x="165" y="20"/>
+   </Size>
+	<Anchors>
+		<Anchor point="TOPLEFT">
+			<Offset>
+				<AbsDimension x="15" y="-485"/>
+			</Offset>
+		</Anchor>
+	</Anchors>
+	<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
+	<Scripts>
+		<OnClick> AQSHOWNQUEST = 21; Quest_OnClick(arg1); </OnClick>
+		<OnShow>
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
+	    </OnShow>
+	</Scripts>
+ </Button>
+ <Button name="AQQuestbutton22" inherits="" text="18">
+   <Size>
+     <AbsDimension x="165" y="20"/>
+   </Size>
+	<Anchors>
+		<Anchor point="TOPLEFT">
+			<Offset>
+				<AbsDimension x="15" y="-505"/>
+			</Offset>
+		</Anchor>
+	</Anchors>
+	<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
+	<Scripts>
+		<OnClick> AQSHOWNQUEST = 22; Quest_OnClick(arg1); </OnClick>
+		<OnShow>
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
+	    </OnShow>
+	</Scripts>
+ </Button>
+
+
  </Frames>
  <Layers>
    <Layer level="ARTWORK">
@@ -992,7 +1033,7 @@
        </Anchors>
      </FontString>
      <Texture name="AQBACKGROUNDTEXTUR" file="Interface\AddOns\AtlasQuest\Images\AtlasQuestPanelFrame">
-         <Size><AbsDimension x="187" y="508"/></Size>
+         <Size><AbsDimension x="187" y="555"/></Size>
            <Anchors>
              <Anchor point="TOPRIGHT" >
                <Offset>
@@ -1166,7 +1207,23 @@
              </Anchor>
            </Anchors>
       </Texture>
-     <FontString name="AQBUTTONTEXT1" inherits="GameFontNormalSmall" text="1" justifyH = "LEFT">
+	  <Texture name="AQQuestlineArrow_21" file="Interface\Glues\Login\UI-BackArrow">
+          <Size><AbsDimension x="13" y="15"/></Size>
+           <Anchors>
+             <Anchor point="TOPLEFT" relativeTo="AQQuestlineArrow_20" relativePoint="TOPLEFT">
+			<Offset><AbsDimension x="0" y="-20"/></Offset>
+             </Anchor>
+           </Anchors>
+      </Texture>
+	  <Texture name="AQQuestlineArrow_22" file="Interface\Glues\Login\UI-BackArrow">
+          <Size><AbsDimension x="13" y="15"/></Size>
+           <Anchors>
+             <Anchor point="TOPLEFT" relativeTo="AQQuestlineArrow_21" relativePoint="TOPLEFT">
+			<Offset><AbsDimension x="0" y="-20"/></Offset>
+             </Anchor>
+           </Anchors>
+      </Texture>
+	  <FontString name="AQBUTTONTEXT1" inherits="GameFontNormalSmall" text="1" justifyH = "LEFT">
        <Size><AbsDimension x="165" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT">
@@ -1328,7 +1385,25 @@
          </Anchor>
        </Anchors>
      </FontString>
-      <Texture name="AQ_HordeTexture" file="Interface\TargetingFrame\UI-PVP-HORDE">
+
+     <FontString name="AQBUTTONTEXT21" inherits="GameFontNormalSmall" text="18" justifyH = "LEFT">
+       <Size><AbsDimension x="165" y="20"/></Size>
+       <Anchors>
+         <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT20" relativePoint="TOPLEFT">
+			<Offset><AbsDimension x="0" y="-20"/></Offset>
+         </Anchor>
+       </Anchors>
+     </FontString>
+     <FontString name="AQBUTTONTEXT22" inherits="GameFontNormalSmall" text="18" justifyH = "LEFT">
+       <Size><AbsDimension x="165" y="20"/></Size>
+       <Anchors>
+         <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT21" relativePoint="TOPLEFT">
+			<Offset><AbsDimension x="0" y="-20"/></Offset>
+         </Anchor>
+       </Anchors>
+     </FontString>
+
+	 <Texture name="AQ_HordeTexture" file="Interface\TargetingFrame\UI-PVP-HORDE">
          <Size><AbsDimension x="50" y="50"/></Size>
            <Anchors>
              <Anchor point="TOPRIGHT" >

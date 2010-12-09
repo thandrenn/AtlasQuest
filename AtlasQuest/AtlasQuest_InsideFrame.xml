@@ -25,41 +25,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
 ------------------ FRAME INSIDE ATLAS
 
-<!--  Fonts -->
-<!-- Cause Problems with the CN font i will use blizzard default font to prevent problems! -->
-<!-- Blizz Fonts (Height): -->
-
-<!-- GameFontNormalSmall (10)  .. use instead of AQFontVERYSmall but it is smaller -->
-<!-- SystemFont (15)  .. use for AQFontBIG -->
-<!-- QuestFont (13)  .. use for AQFont -->
-<!-- GameFontNormalLarge (16) .. perhaps useful -->
-<!-- QuestFontHighlight (14)  .. perhaps useful -->
-
-<!--
-<FontString name="QuestFont" inherits="MasterFont" font="Fonts\FRIZQT__.TTF" virtual="true">
-  <FontHeight>
-    <AbsValue val="13"/>
-  </FontHeight>
-    <Color r="1.0" g="0.82" b="0"/>
-</FontString>
-
-<FontString name="AQFontVERYSmall" inherits="MasterFont" font="Fonts\FRIZQT__.TTF" virtual="true">
-  <FontHeight>
-    <AbsValue val="11"/>
-    </FontHeight>
-    <Color r="1.0" g="0.82" b="0"/>
-</FontString>
-
-<FontString name="SystemFont" inherits="MasterFont" font="Fonts\FRIZQT__.TTF" virtual="true">
-  <FontHeight>
-    <AbsValue val="15"/>
-  </FontHeight>
-    <Color r="1.0" g="0.82" b="0"/>
-</FontString>
-
-These fonts are useless atm -->
-
-
 <!--  AtlasQuest Inside Atlas/AlphaMap frame -->
 <Frame name="AtlasQuestInsideFrame" toplevel="true" enableMouse="true" parent="AtlasFrame" hidden="false">
    <Size>
@@ -516,7 +481,7 @@ These fonts are useless atm -->
 	      <Scripts>
 		    <OnClick> AQNextPageR_OnClick(); </OnClick>
 		    <OnShow>
-	          AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 2 );
+	          AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 	        </OnShow>
 	      </Scripts>
         </Button>
@@ -537,7 +502,7 @@ These fonts are useless atm -->
 	      <Scripts>
 		    <OnClick> AQNextPageL_OnClick(); </OnClick>
 		    <OnShow>
-	          AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 2 );
+	          AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 );
 	        </OnShow>
 	      </Scripts>
         </Button>

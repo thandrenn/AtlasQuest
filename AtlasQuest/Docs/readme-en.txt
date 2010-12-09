@@ -10,7 +10,7 @@ Forums at http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 About AtlasQuest:
 =================
 
-AtlasQuest is an addon for Atlas or AlphaMap that displays a list of 
+AtlasQuest is an addon for Atlas that displays a list of 
 quests for each dungeon, battleground and outdoor raid along with 
 information and rewards for those quests. 
 
