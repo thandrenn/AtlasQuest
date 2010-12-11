@@ -11606,8 +11606,8 @@ Inst95Quest1 = "1. This Can Only Mean One Thing..."
 Inst95Quest1_Level = "82"
 Inst95Quest1_Attain = "80"
 Inst95Quest1_Aim = "Take Finkle's Mole Machine to Blackrock Mountain."
-Inst95Quest1_Location = "Finkle Einhorn (Mount Hyjal - Circle of Cinders; "..YELLOW.."43.6, 28.1"..WHITE..")"
-Inst95Quest1_Note = "The Mole Machine is next to Finkle. The quest turns in to Finkle Einhorn just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE.."."
+Inst95Quest1_Location = "Finkle Einhorn (Mount Hyjal - Circle of Cinders; "..YELLOW.."42.6, 28.1"..WHITE..")"
+Inst95Quest1_Note = "The Mole Machine is nearby at "..YELLOW.."42.8, 28.9"..WHITE..". The quest turns in to Finkle Einhorn just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE.."."
 Inst95Quest1_Prequest = "None"
 Inst95Quest1_Folgequest = "To the Chamber of Incineration!"
 Inst95Quest1PreQuest = "true"
@@ -11754,7 +11754,7 @@ Inst95Quest6name3_HORDE = Inst95Quest6name3
 
 --------------- INST96 - Throne of the Tides ---------------
 
-Inst96Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+Inst96Story = "Throne of the Tides is a five-player dungeon in the Abyssal Maw complex located in Vashj'ir, introduced in World of Warcraft: Cataclysm."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst96Caption = "Throne of the Tides"
 Inst96QAA = "No Quests"
 Inst96QAH = "No Quests"
