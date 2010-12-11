@@ -8952,7 +8952,7 @@ Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
 
 --------------- INST67 - Magisters' Terrace (MgT) ---------------
 
-Inst67Story = "Magisters' Terrace is a 5-man instance located on the northeastern corner of the Isle of Quel'Danas, which will be released in Patch 2.4.0. The instance is mostly outdoors, uses the same architecture as Silvermoon and has a observatory where players can gaze at stars and look at the Sunwell to make sure everything went according to plan.\n\nThe final boss is none other than Kael'thas Sunstrider, who has survived his ordeal in Tempest Keep. However, some people believe he was indeed killed, but was resurrected by a greater power, which may explain the green crystal embedded in his chest.\n\nHalfway through the instance, a usable item known as the Scrying Orb begins a short cutscene unveiling the Sunwell Plateau raid. Following this, players meet with Kalec, the half-elf avatar of the Blue Dragon Kalecgos.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst67Story = "Magisters' Terrace is a 5-man instance located on the northeastern corner of the Isle of Quel'Danas, which will be released in Patch 2.4.0. The instance is mostly outdoors, uses the same architecture as Silvermoon and has a observatory where players can gaze at stars and look at the Sunwell to make sure everything went according to plan.\n\nThe final boss is none other than Kael'thas Sunstrider, who has survived his ordeal in Tempest Keep. However, some people believe he was indeed killed, but was resurrected by a greater power, which may explain the green crystal embedded in his chest.\n\nHalfway through the instance, a usable item known as the Scrying Orb begins a short cutscene unveiling the Sunwell Plateau raid. Following this, players meet with Kalec, the half-elf avatar of the Blue Dragon Kalecgos."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst67Caption = "Magisters' Terrace"
 Inst67QAA = "5 Quests"
 Inst67QAH = "5 Quests"
@@ -9088,7 +9088,7 @@ Inst67Quest5name3_HORDE = Inst67Quest5name3
 
 --------------- INST68 - Sunwell Plateau ---------------
 
-Inst68Story = "The Sunwell Plateau is a raid instance located on the Isle of Quel'Danas north of Silvermoon City. Blizzard has planned for it to become the hardest raid instance in the game until the release of Wrath of the Lich King. The Sunwell Plateau is tuned for Tier 6-geared players and the gear that drops there will be additional Tier 6 items (boots, belt and bracers), and non-set epics as well. \n\nThe instance will contain both outdoor areas and building interiors, where players will find captured naaru which are the primary power source of the town, and inside the final building the Sunwell itself.\n\nThe architecture of the Sunwell Plateau will be comparable to that of Silvermoon City.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst68Story = "The Sunwell Plateau is a raid instance located on the Isle of Quel'Danas north of Silvermoon City. Blizzard has planned for it to become the hardest raid instance in the game until the release of Wrath of the Lich King. The Sunwell Plateau is tuned for Tier 6-geared players and the gear that drops there will be additional Tier 6 items (boots, belt and bracers), and non-set epics as well. \n\nThe instance will contain both outdoor areas and building interiors, where players will find captured naaru which are the primary power source of the town, and inside the final building the Sunwell itself.\n\nThe architecture of the Sunwell Plateau will be comparable to that of Silvermoon City."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst68Caption = "Sunwell Plateau"
 Inst68QAA = "1 Quest"
 Inst68QAH = "1 Quest"
@@ -9695,7 +9695,7 @@ Inst74Quest3_HORDE_Folgequest = Inst74Quest3_Folgequest
 
 --------------- INST75 - Azjol-Nerub ---------------
 
-Inst75Story = "Azjol-Nerub is a vast underground dungeon hub home to the arachnid-like nerubian. Located in icy Dragonblight, Azjol-Nerub can be divided into two sections: the Old Kingdom and the Upper Kingdom. Many of deepest areas in Azjol-Nerub are held by faceless ones.\n\nAzjol-Nerub: The Upper Kingdom is a mystery waiting to be explored. It once held a powerful and advanced civilization, and many of its treasures still rest here undamaged. Great riches litter the lower halls, not only gems and magic items but art and literature and scholarly tomes. The Scourge infest this place. Forgotten ones seethe below, eager to return to the world above.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst75Story = "Azjol-Nerub is a vast underground dungeon hub home to the arachnid-like nerubian. Located in icy Dragonblight, Azjol-Nerub can be divided into two sections: the Old Kingdom and the Upper Kingdom. Many of deepest areas in Azjol-Nerub are held by faceless ones.\n\nAzjol-Nerub: The Upper Kingdom is a mystery waiting to be explored. It once held a powerful and advanced civilization, and many of its treasures still rest here undamaged. Great riches litter the lower halls, not only gems and magic items but art and literature and scholarly tomes. The Scourge infest this place. Forgotten ones seethe below, eager to return to the world above."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst75Caption = "Azjol-Nerub"
 Inst75QAA = "2 Quests"
 Inst75QAH = "2 Quests"
@@ -9765,7 +9765,7 @@ Inst75Quest2name4_HORDE = Inst75Quest2name4
 
 --------------- INST76 - Ahn'kahet: The Old Kingdom ---------------
 
-Inst76Story = "Azjol-Nerub is a vast underground dungeon hub home to the arachnid-like nerubian. Located in icy Dragonblight, Azjol-Nerub can be divided into two sections: the Old Kingdom and the Upper Kingdom. Many of deepest areas in Azjol-Nerub are held by faceless ones.\n\nAhn'kahet: The Old Kingdom is the second dungeon located within Azjol-Nerub and is controlled by nerubians.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst76Story = "Azjol-Nerub is a vast underground dungeon hub home to the arachnid-like nerubian. Located in icy Dragonblight, Azjol-Nerub can be divided into two sections: the Old Kingdom and the Upper Kingdom. Many of deepest areas in Azjol-Nerub are held by faceless ones.\n\nAhn'kahet: The Old Kingdom is the second dungeon located within Azjol-Nerub and is controlled by nerubians."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst76Caption = "Ahn'kahet: The Old Kingdom"
 Inst76QAA = "3 Quests"
 Inst76QAH = "3 Quests"
@@ -9999,7 +9999,7 @@ Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
 
 --------------- INST80 - Drak'Tharon Keep ---------------
 
-Inst80Story = "Drak'Tharon Keep is located in the icy northlands of Northrend, in the northwestern part of the Grizzly Hills, and is an ancient ice troll stronghold. The Scourge drove the trolls out and took possession, and now the Scourge has a solid garrison there holding the mountain passes. The strange dungeon is filled with dinosaurs and lizards, while teeming with undead. You are sent in to discover the reasoning behind why the trolls are leaving their home of Zul'Drak.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst80Story = "Drak'Tharon Keep is located in the icy northlands of Northrend, in the northwestern part of the Grizzly Hills, and is an ancient ice troll stronghold. The Scourge drove the trolls out and took possession, and now the Scourge has a solid garrison there holding the mountain passes. The strange dungeon is filled with dinosaurs and lizards, while teeming with undead. You are sent in to discover the reasoning behind why the trolls are leaving their home of Zul'Drak."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst80Caption = "Drak'Tharon Keep"
 Inst80QAA = "3 Quests"
 Inst80QAH = "3 Quests"
@@ -10103,7 +10103,7 @@ Inst80Quest3name4_HORDE = Inst80Quest3name4
 
 --------------- INST81 - Gundrak ---------------
 
-Inst81Story = "Gundrak is the capital of the Ice Trolls. Located in Zul'Drak, the instance contains three entrances which all lead into a main circle. The Drakkari tribe rule Zul'Drak from here, constantly battling the mighty forces of the Scourge. This dungeon shows the Ice Trolls in all their glory, including the opportunity to fight the Ice Troll leader, and teach us why they have been so successful against the Scourge.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst81Story = "Gundrak is the capital of the Ice Trolls. Located in Zul'Drak, the instance contains three entrances which all lead into a main circle. The Drakkari tribe rule Zul'Drak from here, constantly battling the mighty forces of the Scourge. This dungeon shows the Ice Trolls in all their glory, including the opportunity to fight the Ice Troll leader, and teach us why they have been so successful against the Scourge."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst81Caption = "Gundrak"
 Inst81QAA = "3 Quests"
 Inst81QAH = "3 Quests"
@@ -11596,16 +11596,165 @@ Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 
 --------------- INST95 - Blackrock Caverns ---------------
 
-Inst95Story = ""
+Inst95Story = "Blackrock Caverns is the first of two new wings in Blackrock Spire introduced in World of Warcraft: Cataclysm. It is designed as a 5-man instance for players level 80 to 81. It is a series of tunnels created by Twilight's Hammer clan in order to gather the remaining Ragnaros' minions and transport them back and forth to Mount Hyjal, as well as to perform horrific experiments conducted by the nihilistic cult in order to use the essence of the dragon in order to transform the worthy into dragonspawn. Finkle Einhorn and Raz the Crazed were enlisted by the Guardians of Hyjal to investigate the activity within the caverns. The forces here are led by the Ascendant Lord Obsidius."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst95Caption = "Blackrock Caverns"
-Inst95QAA = "No Quests"
-Inst95QAH = "No Quests"
+Inst95QAA = "6 Quests"
+Inst95QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst95Quest1 = "1. This Can Only Mean One Thing..."
+Inst95Quest1_Level = "82"
+Inst95Quest1_Attain = "80"
+Inst95Quest1_Aim = "Take Finkle's Mole Machine to Blackrock Mountain."
+Inst95Quest1_Location = "Finkle Einhorn (Mount Hyjal - Circle of Cinders; "..YELLOW.."43.6, 28.1"..WHITE..")"
+Inst95Quest1_Note = "The Mole Machine is next to Finkle. The quest turns in to Finkle Einhorn just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE.."."
+Inst95Quest1_Prequest = "None"
+Inst95Quest1_Folgequest = "To the Chamber of Incineration!"
+Inst95Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst95Quest2 = "2. To the Chamber of Incineration!"
+Inst95Quest2_Level = "82"
+Inst95Quest2_Attain = "80"
+Inst95Quest2_Aim = "Kill Rom'ogg Bonecrusher."
+Inst95Quest2_Location = "Finkle Einhorn (Blackrock Caverns; "..GREEN.."[1']"..WHITE..")"
+Inst95Quest2_Note = "Rom'ogg Bonecrusher is the first boss, at "..YELLOW.."[1]"..WHITE.."."
+Inst95Quest2_Prequest = "This Can Only Mean One Thing..."
+Inst95Quest2_Folgequest = "None"
+Inst95Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst95Quest3 = "3. What Is This Place?"
+Inst95Quest3_Level = "82"
+Inst95Quest3_Attain = "80"
+Inst95Quest3_Aim = "Kill Corla, Herald of Twilight."
+Inst95Quest3_Location = "Finkle Einhorn's Helmet or given automatically"
+Inst95Quest3_Note = "Corla, Herald of Twilight is at "..YELLOW.."[2]"..WHITE.."."
+Inst95Quest3_Prequest = "None"
+Inst95Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst95Quest4 = "4. The Twilight Forge"
+Inst95Quest4_Level = "82"
+Inst95Quest4_Attain = "80"
+Inst95Quest4_Aim = "Kill Karsh Steelbender."
+Inst95Quest4_Location = "Finkle Einhorn's Helmet or given automatically"
+Inst95Quest4_Note = "Karsh Steelbender is at "..YELLOW.."[3]"..WHITE.."."
+Inst95Quest4_Prequest = "None"
+Inst95Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst95Quest5 = "5. Do My Eyes Deceive Me?"
+Inst95Quest5_Level = "82"
+Inst95Quest5_Attain = "80"
+Inst95Quest5_Aim = "Kill Beauty."
+Inst95Quest5_Location = "Finkle Einhorn's Helmet or given automatically"
+Inst95Quest5_Note = "Beauty is at "..YELLOW.."[4]"..WHITE.."."
+Inst95Quest5_Prequest = "None"
+Inst95Quest5_Folgequest = "None"
+--
+Inst95Quest5name1 = "Finkle's Twinkle"
+Inst95Quest5name2 = "Beauty's Cootie-Ridden Blankie"
+Inst95Quest5name3 = "Beauty Jr.'s Collar"
+
+--Quest 6 Alliance
+Inst95Quest6 = "6. Ascendant Lord Obsidius"
+Inst95Quest6_Level = "82"
+Inst95Quest6_Attain = "80"
+Inst95Quest6_Aim = "Kill Ascendant Lord Obsidius."
+Inst95Quest6_Location = "Finkle Einhorn's Helmet or given automatically"
+Inst95Quest6_Note = "Ascendant Lord Obsidius is at "..YELLOW.."[5]"..WHITE.."."
+Inst95Quest6_Prequest = "None"
+Inst95Quest6_Folgequest = "None"
+--
+Inst95Quest6name1 = "Acid-Eaten Vest"
+Inst95Quest6name2 = "Diamond-Studded Helm"
+Inst95Quest6name3 = "Raz's Breastplate"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst95Quest1_HORDE = Inst95Quest1
+Inst95Quest1_HORDE_Level = Inst95Quest1_Level
+Inst95Quest1_HORDE_Attain = Inst95Quest1_Attain
+Inst95Quest1_HORDE_Aim = Inst95Quest1_Aim
+Inst95Quest1_HORDE_Location = Inst95Quest1_Location
+Inst95Quest1_HORDE_Note = Inst95Quest1_Note
+Inst95Quest1_HORDE_Prequest = Inst95Quest1_Prequest
+Inst95Quest1_HORDE_Folgequest = Inst95Quest1_Folgequest
+Inst95Quest1PreQuest_HORDE = Inst95Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst95Quest2_HORDE = Inst95Quest2
+Inst95Quest2_HORDE_Level = Inst95Quest2_Level
+Inst95Quest2_HORDE_Attain = Inst95Quest2_Attain
+Inst95Quest2_HORDE_Aim = Inst95Quest2_Aim
+Inst95Quest2_HORDE_Location = Inst95Quest2_Location
+Inst95Quest2_HORDE_Note = Inst95Quest2_Note
+Inst95Quest2_HORDE_Prequest = Inst95Quest2_Prequest
+Inst95Quest2_HORDE_Folgequest = Inst95Quest2_Folgequest
+Inst95Quest2FQuest_HORDE = Inst95Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst95Quest3_HORDE = Inst95Quest3
+Inst95Quest3_HORDE_Level = Inst95Quest3_Level
+Inst95Quest3_HORDE_Attain = Inst95Quest3_Attain
+Inst95Quest3_HORDE_Aim = Inst95Quest3_Aim
+Inst95Quest3_HORDE_Location = Inst95Quest3_Location
+Inst95Quest3_HORDE_Note = Inst95Quest3_Note
+Inst95Quest3_HORDE_Prequest = Inst95Quest3_Prequest
+Inst95Quest3_HORDE_Folgequest = Inst95Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst95Quest4_HORDE = Inst95Quest4
+Inst95Quest4_HORDE_Level = Inst95Quest4_Level
+Inst95Quest4_HORDE_Attain = Inst95Quest4_Attain
+Inst95Quest4_HORDE_Aim = Inst95Quest4_Aim
+Inst95Quest4_HORDE_Location = Inst95Quest4_Location
+Inst95Quest4_HORDE_Note = Inst95Quest4_Note
+Inst95Quest4_HORDE_Prequest = Inst95Quest4_Prequest
+Inst95Quest4_HORDE_Folgequest = Inst95Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst95Quest5_HORDE = Inst95Quest5
+Inst95Quest5_HORDE_Level = Inst95Quest5_Level
+Inst95Quest5_HORDE_Attain = Inst95Quest5_Attain
+Inst95Quest5_HORDE_Aim = Inst95Quest5_Aim
+Inst95Quest5_HORDE_Location = Inst95Quest5_Location
+Inst95Quest5_HORDE_Note = Inst95Quest5_Note
+Inst95Quest5_HORDE_Prequest = Inst95Quest5_Prequest
+Inst95Quest5_HORDE_Folgequest = Inst95Quest5_Folgequest
+--
+Inst95Quest5name1_HORDE = Inst95Quest5name1
+Inst95Quest5name2_HORDE = Inst95Quest5name2
+Inst95Quest5name3_HORDE = Inst95Quest5name3
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst95Quest6_HORDE = Inst95Quest6
+Inst95Quest6_HORDE_Level = Inst95Quest6_Level
+Inst95Quest6_HORDE_Attain = Inst95Quest6_Attain
+Inst95Quest6_HORDE_Aim = Inst95Quest6_Aim
+Inst95Quest6_HORDE_Location = Inst95Quest6_Location
+Inst95Quest6_HORDE_Note = Inst95Quest6_Note
+Inst95Quest6_HORDE_Prequest = Inst95Quest6_Prequest
+Inst95Quest6_HORDE_Folgequest = Inst95Quest6_Folgequest
+--
+Inst95Quest6name1_HORDE = Inst95Quest6name1
+Inst95Quest6name2_HORDE = Inst95Quest6name2
+Inst95Quest6name3_HORDE = Inst95Quest6name3
 
 
 
 --------------- INST96 - Throne of the Tides ---------------
 
-Inst96Story = ""
+Inst96Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst96Caption = "Throne of the Tides"
 Inst96QAA = "No Quests"
 Inst96QAH = "No Quests"
@@ -11614,7 +11763,7 @@ Inst96QAH = "No Quests"
 
 --------------- INST97 - The Stonecore ---------------
 
-Inst97Story = ""
+Inst97Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst97Caption = "The Stonecore"
 Inst97QAA = "No Quests"
 Inst97QAH = "No Quests"
@@ -11623,16 +11772,99 @@ Inst97QAH = "No Quests"
 
 --------------- INST98 - The Vortex Pinacle ---------------
 
-Inst98Story = ""
+Inst98Story = "Here the armies of Al'Akir reside, and will not take kindly to any intruders in his elemental plane. The air elementals have entered an unholy alliance with the Worldbreaker, Deathwing and now threaten the denizens of Uldum. It is up to the adventurers to stop the elemental incursion to the ancient land, and the task is uneasy as they have to face the most powerful lieutenants of the Air Lord. \n\nWhen a player falls (or leaps) off the edge of platforms in this instance they are swept up in the winds and flung back onto the platform unharmed. This does, however, render them inactive for some time and would be inadvisable during combat. To pass from platform to platform, players have to jump onto Tornados. This is achieved by clicking on the tornado rather than by jumping off the platform and aiming for it."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst98Caption = "The Vortex Pinacle"
-Inst98QAA = "No Quests"
-Inst98QAH = "No Quests"
+Inst98QAA = "3 Quests"
+Inst98QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst98Quest1 = "1. The Vortex Pinnacle"
+Inst98Quest1_Level = "84"
+Inst98Quest1_Attain = "82"
+Inst98Quest1_Aim = "Find Itesh inside the Vortex Pinnacle."
+Inst98Quest1_Location = "General Ammantep (Uldum; "..YELLOW.."45.2, 37.8"..WHITE..")"
+Inst98Quest1_Note = "This is an optional 'breadcrumb' quest to send you to the Vortex Pinnacle. It becomes available after completing certain quests in Uldum.\n\nItesh is just inside the entrance."
+Inst98Quest1_Prequest = "MISSING INFO"
+Inst98Quest1_Folgequest = "Vengeance for Orsis"
+Inst98Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst98Quest2 = "2. Vengeance for Orsis"
+Inst98Quest2_Level = "84"
+Inst98Quest2_Attain = "82"
+Inst98Quest2_Aim = "Slay Asaad."
+Inst98Quest2_Location = "Itesh (Vortex Pinnacle; "..YELLOW.."Entrance"..WHITE..")"
+Inst98Quest2_Note = "Asaad is the final boss, at "..YELLOW.."[3]"..WHITE..". The prequest is optional. Quest turns in back at the entrance."
+Inst98Quest2_Prequest = "The Vortex Pinnacle"
+Inst98Quest2_Folgequest = "None"
+Inst98Quest2FQuest = "true"
+--
+Inst98Quest2name1 = "Token of Gratitude"
+Inst98Quest2name2 = "Greaves of Orsis"
+Inst98Quest2name3 = "Caliph's Band"
+
+--Quest 3 Alliance
+Inst98Quest3 = "3. A Long Way from Home"
+Inst98Quest3_Level = "84"
+Inst98Quest3_Attain = "82"
+Inst98Quest3_Aim = "Obtain Grand Vizier Ertan's Heart."
+Inst98Quest3_Location = "Itesh (Vortex Pinnacle; "..YELLOW.."Entrance"..WHITE..")"
+Inst98Quest3_Note = "Grand Vizier Ertan is the first boss, at "..YELLOW.."[1]"..WHITE..". Quest turns in back at the entrance."
+Inst98Quest3_Prequest = "None"
+Inst98Quest3_Folgequest = "None"
+--
+Inst98Quest3name1 = "Cloak of Itesh"
+Inst98Quest3name2 = "Leggings of the Vortex Pinnacle"
+Inst98Quest3name3 = "Band of the Dead End"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst98Quest1_HORDE = Inst98Quest1
+Inst98Quest1_HORDE_Level = Inst98Quest1_Level
+Inst98Quest1_HORDE_Attain = Inst98Quest1_Attain
+Inst98Quest1_HORDE_Aim = Inst98Quest1_Aim
+Inst98Quest1_HORDE_Location = Inst98Quest1_Location
+Inst98Quest1_HORDE_Note = Inst98Quest1_Note
+Inst98Quest1_HORDE_Prequest = Inst98Quest1_Prequest
+Inst98Quest1_HORDE_Folgequest = Inst98Quest1_Folgequest
+Inst98Quest1PreQuest_HORDE = Inst98Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst98Quest2_HORDE = Inst98Quest2
+Inst98Quest2_HORDE_Level = Inst98Quest2_Level
+Inst98Quest2_HORDE_Attain = Inst98Quest2_Attain
+Inst98Quest2_HORDE_Aim = Inst98Quest2_Aim
+Inst98Quest2_HORDE_Location = Inst98Quest2_Location
+Inst98Quest2_HORDE_Note = Inst98Quest2_Note
+Inst98Quest2_HORDE_Prequest = Inst98Quest2_Prequest
+Inst98Quest2_HORDE_Folgequest = Inst98Quest2_Folgequest
+Inst98Quest2FQuest_HORDE = Inst98Quest2FQuest
+--
+Inst98Quest2name1_HORDE = Inst98Quest2name1
+Inst98Quest2name2_HORDE = Inst98Quest2name2
+Inst98Quest2name3_HORDE = Inst98Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst98Quest3_HORDE = Inst98Quest3
+Inst98Quest3_HORDE_Level = Inst98Quest3_Level
+Inst98Quest3_HORDE_Attain = Inst98Quest3_Attain
+Inst98Quest3_HORDE_Aim = Inst98Quest3_Aim
+Inst98Quest3_HORDE_Location = Inst98Quest3_Location
+Inst98Quest3_HORDE_Note = Inst98Quest3_Note
+Inst98Quest3_HORDE_Prequest = Inst98Quest3_Prequest
+Inst98Quest3_HORDE_Folgequest = Inst98Quest3_Folgequest
+--
+Inst98Quest3name1_HORDE = Inst98Quest3name1
+Inst98Quest3name2_HORDE = Inst98Quest3name2
+Inst98Quest3name3_HORDE = Inst98Quest3name3
 
 
 
 --------------- INST99 - Grim Batol ---------------
 
-Inst99Story = ""
+Inst99Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst99Caption = "Grim Batol"
 Inst99QAA = "No Quests"
 Inst99QAH = "No Quests"
@@ -11641,7 +11873,7 @@ Inst99QAH = "No Quests"
 
 --------------- INST100 - Halls of Origination ---------------
 
-Inst100Story = ""
+Inst100Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst100Caption = "Halls of Origination"
 Inst100QAA = "No Quests"
 Inst100QAH = "No Quests"
@@ -11650,7 +11882,7 @@ Inst100QAH = "No Quests"
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
-Inst101Story = ""
+Inst101Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst101Caption = "Lost City of the Tol'vir"
 Inst101QAA = "No Quests"
 Inst101QAH = "No Quests"
@@ -11659,7 +11891,7 @@ Inst101QAH = "No Quests"
 
 --------------- INST102 - Blackwing Descent ---------------
 
-Inst102Story = ""
+Inst102Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst102Caption = "Blackwing Descent"
 Inst102QAA = "No Quests"
 Inst102QAH = "No Quests"
@@ -11668,7 +11900,7 @@ Inst102QAH = "No Quests"
 
 --------------- INST103 - The Bastion of Twilight ---------------
 
-Inst103Story = ""
+Inst103Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst103Caption = "The Bastion of Twilight"
 Inst103QAA = "No Quests"
 Inst103QAH = "No Quests"
@@ -11677,7 +11909,7 @@ Inst103QAH = "No Quests"
 
 --------------- INST104 - Throne of the Four Winds ---------------
 
-Inst104Story = ""
+Inst104Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst104Caption = "Throne of the Four Winds"
 Inst104QAA = "No Quests"
 Inst104QAH = "No Quests"
@@ -11686,7 +11918,7 @@ Inst104QAH = "No Quests"
 
 --------------- INST105 - Baradin Hold ---------------
 
-Inst105Story = ""
+Inst105Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
 Inst105Caption = "Baradin Hold"
 Inst105QAA = "No Quests"
 Inst105QAH = "No Quests"
@@ -12284,7 +12516,7 @@ Inst60Quest1_HORDE_Folgequest = "None"
 
 --------------- INST83 - Strand of the Ancients (SotA)  ---------------
 
-Inst83Story = "The Strand of the Ancients is a battleground located off the southern coast of the Dragonblight being introduced in Wrath of the Lich King. This battleground consists of 3 walls which have to be destroyed to continue, capture points and a graveyard after each wall. The overall goal is to be the first team to get through the last wall.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst83Story = "The Strand of the Ancients is a battleground located off the southern coast of the Dragonblight being introduced in Wrath of the Lich King. This battleground consists of 3 walls which have to be destroyed to continue, capture points and a graveyard after each wall. The overall goal is to be the first team to get through the last wall."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst83Caption = "Strand of the Ancients"
 Inst83QAA = "1 Quest"
 Inst83QAH = "1 Quest"
@@ -12481,7 +12713,7 @@ Inst65QAH = "No Quests"
 
 --------------- INST66 - Skettis ---------------
 
-Inst66Story = "Skettis is the hidden capital of the Arakkoa, and one of the major secrets of Terokkar Forest. It is situated in Blackwind Valley in southeastern Terokkar Forest, only accessible to players who have a flying mount or Druids who have learned Flight Form. It is made up of four veils: Veil Ala'rak, Veil Harr'ik, Lower Veil Shil'ak, and Upper Veil Shil'ak. At its center is Terokk's Rest, the site where the arakkoa lord Terokk can be summoned back into the world.\n\n"..GREEN.."Quoted from WoWWiki"
+Inst66Story = "Skettis is the hidden capital of the Arakkoa, and one of the major secrets of Terokkar Forest. It is situated in Blackwind Valley in southeastern Terokkar Forest, only accessible to players who have a flying mount or Druids who have learned Flight Form. It is made up of four veils: Veil Ala'rak, Veil Harr'ik, Lower Veil Shil'ak, and Upper Veil Shil'ak. At its center is Terokk's Rest, the site where the arakkoa lord Terokk can be summoned back into the world."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst66Caption = "Skettis"
 Inst66QAA = "13 Quests"
 Inst66QAH = "13 Quests"

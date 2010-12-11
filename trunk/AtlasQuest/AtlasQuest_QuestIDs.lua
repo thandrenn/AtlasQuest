@@ -2028,45 +2028,152 @@ AQ_26034_Level = "80"
 
 --------------- INST95 - Blackrock Caverns ---------------
 
+Inst95Quest1_QuestID = "28732"
+Inst95Quest2_QuestID = "28735"
+Inst95Quest3_QuestID = "28737"
+Inst95Quest4_QuestID = "28738"
+Inst95Quest5_QuestID = "28740"
+Inst95Quest6_QuestID = "28741"
+
+Inst95Quest1_HORDE_QuestID = "28732"
+Inst95Quest2_HORDE_QuestID = "28735"
+Inst95Quest3_HORDE_QuestID = "28737"
+Inst95Quest4_HORDE_QuestID = "28738"
+Inst95Quest5_HORDE_QuestID = "28740"
+Inst95Quest6_HORDE_QuestID = "28741"
+
+
+AQ_28732_Level = "82"
+AQ_28735_Level = "82"
+AQ_28737_Level = "82"
+AQ_28738_Level = "82"
+AQ_28740_Level = "82"
+AQ_28741_Level = "82"
+
 
 
 --------------- INST96 - Throne of the Tides ---------------
+
+
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
 
 
 
 --------------- INST97 - The Stonecore ---------------
 
 
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+
+
 
 --------------- INST98 - The Vortex Pinacle ---------------
+
+Inst98Quest1_QuestID = "28845"
+Inst98Quest2_QuestID = "28760"
+Inst98Quest3_QuestID = "28779"
+
+Inst98Quest1_HORDE_QuestID = "28845"
+Inst98Quest2_HORDE_QuestID = "28760"
+Inst98Quest3_HORDE_QuestID = "28779"
+
+
+AQ_28845_Level = "84"
+AQ_28760_Level = "84"
+AQ_28779_Level = "84"
 
 
 
 --------------- INST99 - Grim Batol ---------------
 
 
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+
+
 
 --------------- INST100 - Halls of Origination ---------------
+
+
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
 
 
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
 
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+
+
 
 --------------- INST102 - Blackwing Descent ---------------
+
+
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
 
 
 
 --------------- INST103 - The Bastion of Twilight ---------------
 
 
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+
+
 
 --------------- INST104 - Throne of the Four Winds ---------------
 
 
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+
+
 
 --------------- INST105 - Baradin Hold ---------------
+
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+
 
 
 

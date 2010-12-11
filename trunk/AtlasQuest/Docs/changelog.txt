@@ -20,6 +20,10 @@ Version 4.6.0 ALPHA
 	- Uldaman
 	- Blackrock Depths
 
+- Cataclysm Dungeons added:
+	- Blackrock Caverns
+	- The Vortex Pinnacle
+	
 
 
 	
