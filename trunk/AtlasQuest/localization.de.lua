@@ -427,7 +427,7 @@ Inst3Quest2_HORDE_Level = "16"
 Inst3Quest2_HORDE_Attain = "10"
 Inst3Quest2_HORDE_Aim = "Holt das Herz von Taragaman dem Hungerleider."
 Inst3Quest2_HORDE_Location = "Steinwächter Kurjack (Der Flammenschlund; "..YELLOW.."Eingang"..WHITE..")"
-Inst3Quest2_HORDE_Note = ""Die Mobs von der Sengenden Klinge sind auf den Weg zu Taragaman dem Hungerleider der bei "..YELLOW.."[2]"..WHITE.."ist."
+Inst3Quest2_HORDE_Note = "Die Mobs von der Sengenden Klinge sind auf den Weg zu Taragaman dem Hungerleider der bei "..YELLOW.."[2]"..WHITE.."ist."
 Inst3Quest2_HORDE_Prequest = "Ja, Der Feind tief unten"
 Inst3Quest2_HORDE_Folgequest = "Nein"
 Inst3Quest2FQuest_HORDE = "true"
@@ -620,227 +620,295 @@ Inst4Quest6name3_HORDE = Inst4Quest6name3
 
 Inst5Story = "In dem vulkanischen Labyrinth, das von der einstigen Hauptstadt der Zwerge des Düstereisenklans übriggeblieben ist, herrscht nun Ragnaros der Feuerfürst über die Abgründe des Schwarzfels. Ragnaros ist es gelungen, das Geheimnis zu lüften, wie Leben aus Stein erschaffen werden kann. Nun plant er, sein neu gewonnenes Wissen dazu einzusetzen, eine Armee unaufhaltsamer Golems zu schaffen, die ihm bei der Eroberung des Schwarzfels helfen sollen. Vollkommen besessen von dem Gedanken daran, Nefarian endlich zu vernichten, wird Ragnaros alles tun, um seinen Konkurrenten aus dem Weg zu räumen."
 Inst5Caption = "Die Schwarzfelstiefen"
-Inst5QAA = "15 Quests"
-Inst5QAH = "19 Quests"
+Inst5QAA = "21 Quests"
+Inst5QAH = "22 Quests"
 
 --Quest 1 Alliance
-Inst5Quest1 = "1. Dunkeleisenerbe"
+Inst5Quest1 = "1. Ins Gefängnis"
 Inst5Quest1_Level = "52"
-Inst5Quest1_Attain = "48"
-Inst5Quest1_Aim = "Erschlagt Fineous Dunkelader und bergt den großen Hammer Eisenhölle. Bringt Eisenhölle zum Schrein von Thaurissan und legt ihn auf die Statue von Franclorn Schmiedevater."
-Inst5Quest1_Location = "Franclorn Schmiedevater (Der Schwarzfels; "..YELLOW.."[3] auf der Eingangskarte"..WHITE..")"
-Inst5Quest1_Note = "Franclorn findet man in der Mitte des Schwarzfels, auf seinem Steinsarg. Man kann ihn nur sehen, wenn man tot ist! Um diese Quest zu starten müsst ihr zweimal mit ihm sprechen.\nFineous Dunkelader findet man bei "..YELLOW.."[9]"..WHITE..". Der Schrein ist rechts neben der Arena"..YELLOW.."[7]"..WHITE.."."
+Inst5Quest1_Attain = "47"
+Inst5Quest1_Aim = "Findet Kevin Dawson."
+Inst5Quest1_Location = "Jalinda Sprig (Schwarzfelstiefen; "..YELLOW.."Eingang"..WHITE..")"
+Inst5Quest1_Note = "Kevin Dawson ist auf dem Weg zum Gefängnis bei "..GREEN.."[2']"..WHITE.."."
 Inst5Quest1_Prequest = "Nein"
-Inst5Quest1_Folgequest = "Nein"
---
-Inst5Quest1name1 = "Schlüssel zur Schattenschmiede"
+Inst5Quest1_Folgequest = "Ja, Schattenhammer?! Nein!"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst5Quest2 = "2. Ribbly Schraubstutz"
-Inst5Quest2_Level = "53"
-Inst5Quest2_Attain = "48"
-Inst5Quest2_Aim = "Bringt Yuka Schraubstutz in der brennenden Steppe Ribblys Kopf."
-Inst5Quest2_Location = "Yuka Schraubstutz (Brennende Steppe - Flammenkamm; "..YELLOW.."65,22"..WHITE..")"
-Inst5Quest2_Note = "Die Vorquest bekommt man von Yorba Schraubstutz (Tanaris - Dampfdruckpier; "..YELLOW.."67,23"..WHITE..").\nRibbly findet man bei "..YELLOW.."[15]"..WHITE.."."
-Inst5Quest2_Prequest = "Ja, Yuka Schraubstutz"
+Inst5Quest2 = "2. Schattenhammer?! Nein!"
+Inst5Quest2_Level = "55"
+Inst5Quest2_Attain = "47"
+Inst5Quest2_Aim = "'Verhört' Verhörmeisterin Gerstahn."
+Inst5Quest2_Location = "Kevin Dawson (Schwarzfelstiefen; "..GREEN.."['2']"..WHITE..")"
+Inst5Quest2_Note = "Verhörmeisterin Gerstahn kann gefunden werden bei "..YELLOW.."[1]"..WHITE.."."
+Inst5Quest2_Prequest = "Ja, Ins Gefängnis"
 Inst5Quest2_Folgequest = "Nein"
-Inst5Quest2PreQuest = "true"
---
-Inst5Quest2name1 = "Groll-Stiefel"
-Inst5Quest2name2 = "Bußwerk-Schiftung"
-Inst5Quest2name3 = "Stahlschienenrüstung"
+Inst5Quest2FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst5Quest3 = "3. Der Liebestrank"
-Inst5Quest3_Level = "54"
-Inst5Quest3_Attain = "50"
-Inst5Quest3_Aim = "Bringt 4 Gromsblut-Kräuter, 10 Riesensilbervenen und Nagmaras gefüllte Phiole zu Herrin Nagmara in den Schwarzfelstiefen."
-Inst5Quest3_Location = "Herrin Nagmara (Schwarzfelstiefen; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest3_Note = "Die Riesensilbervenen bekommt man von den Riesen in Azshara. Gromsblut kann man von Kräuterkundigen oder im Auktionshaus bekommen. Die Phiole kann man beim Go-Lakka Krater (Un'Goro Krater; "..YELLOW.."31,50"..WHITE..") auffüllen.\nWenn man diese Quest abgeschloßen hat, muss man nicht zwingend Phalanx töten, man kann auch durch die Hintertür verschwinden."
+Inst5Quest3 = "3. Das versiegelte Tor"
+Inst5Quest3_Level = "52"
+Inst5Quest3_Attain = "47"
+Inst5Quest3_Aim = "Tötet Bael'gar."
+Inst5Quest3_Location = "Tinkee Kesseldampf (Schwarzfelstiefen; "..YELLOW.."Eingang"..WHITE..")"
+Inst5Quest3_Note = "Bael'gar ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst5Quest3_Prequest = "Nein"
 Inst5Quest3_Folgequest = "Nein"
---
-Inst5Quest3name1 = "Handfessel-Manschetten"
-Inst5Quest3name2 = "Nagmaras Peitschen-Gürtel"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst5Quest4 = "4. Hurley Pestatem"
-Inst5Quest4_Level = "55"
-Inst5Quest4_Attain = "50"
-Inst5Quest4_Aim = "Bringt Ragnar Donnerbräu in Kharanos das gestohlene Donnerbräurezept."
-Inst5Quest4_Location = "Ragnar Donnerbräu  (Dun Morogh - Kharanos; "..YELLOW.."46,52"..WHITE..")"
-Inst5Quest4_Note = "Die Vorquest bekommt man von Enohar Donnerbräu (Verwüstete Lande - Nethergarde; "..YELLOW.."61,18"..WHITE..").\nDas Rezept gibt es von einer der Wachen die erscheinen, wenn ihr Fässer in der Taverne "..YELLOW.."[15]"..WHITE.." zerstört."
-Inst5Quest4_Prequest = "Ja, Ragnar Donnerbräu"
-Inst5Quest4_Folgequest = "Nein"
-Inst5Quest4PreQuest = "true"
---
-Inst5Quest4name1 = "Dunkles zwergisches Lagerbier"
-Inst5Quest4name2 = "Hurtigschlagknüppel"
-Inst5Quest4name3 = "Gliedmaßenspaltbeil"
+Inst5Quest4 = "4. Schattenschmiede unterwandern"
+Inst5Quest4_Level = "51"
+Inst5Quest4_Attain = "51"
+Inst5Quest4_Aim = "Sprecht mit Ausgrabungsleiter Seymour."
+Inst5Quest4_Location = "Oralius (Schwarzfelstiefen; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest4_Note = "Ausgrabungsleiter Seymour ist bei "..GREEN.."[3']"..WHITE.."."
+Inst5Quest4_Prequest = "Nein"
+Inst5Quest4_Folgequest = "Ja, Strategen der Dunkeleisenzwerge"
+-- No Rewards for this quest
 
 --Quest 5 Alliance  
-Inst5Quest5 = "5. Übermeister Pyron"
-Inst5Quest5_Level = "52"
-Inst5Quest5_Attain = "48"
-Inst5Quest5_Aim = "Erschlagt Übermeister Pyron und kehrt dann zu Jalinda Sprig zurück."
-Inst5Quest5_Location = "Jalinda Sprig (Brennende Steppe - Morgans Wacht; "..YELLOW.."85,69"..WHITE..")"
-Inst5Quest5_Note = "Übermeister Pyron ist ein Feuerelementar außerhalb der Instanz. Er befindet sich bei "..YELLOW.."[24]"..WHITE.." auf der Schwarzfelstiefenkarte und bei "..YELLOW.."[1]"..WHITE.." auf der Schwarzfels-Eingangskarte."
-Inst5Quest5_Prequest = "Nein"
-Inst5Quest5_Folgequest = "Ja, Incendius!"
+Inst5Quest5 = "5. Strategen der Dunkeleisenzwerge"
+Inst5Quest5_Level = "56"
+Inst5Quest5_Attain = "51"
+Inst5Quest5_Aim = "Tötet General Zornesschmied und Golemlord Argelmach."
+Inst5Quest5_Location = "Mayara Wolkenglanz (Schwarzfelstiefen; "..GREEN.."[7']"..WHITE..")"
+Inst5Quest5_Note = "General Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und Golemlord Argelmach ist bei "..YELLOW.."[11]"..WHITE..". Diese Quest führt dich zu Mayara Wolkenglanz bei "..GREEN.."[7']"..WHITE.."."
+Inst5Quest5_Prequest = "Ja, Schattenschmiede unterwandern"
+Inst5Quest5_Folgequest = "Ja, Der Grimige Säufer"
+Inst5Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst5Quest6 = "6. Incendius!"
+Inst5Quest6 = "6. Der Grimmige Säufer"
 Inst5Quest6_Level = "56"
-Inst5Quest6_Attain = "48"
-Inst5Quest6_Aim = "Sucht Lord Incendius in den Schwarzfelstiefen und vernichtet ihn!"
-Inst5Quest6_Location = "Jalinda Sprig (Brennende Steppe - Morgans Wacht; "..YELLOW.."85,69"..WHITE..")"
-Inst5Quest6_Note = "Die Vorquest bekommt man von Jalinda Sprig. Lord Incendius befindet sich bei "..YELLOW.."[10]"..WHITE.."."
-Inst5Quest6_Prequest = "Ja, Übermeister Pyron"
-Inst5Quest6_Folgequest = "Nein"
+Inst5Quest6_Attain = "51"
+Inst5Quest6_Aim = "Kämpft gegen Hurley Pestatem, Stöpsel Zapfring und Ribbly Schraubstutz."
+Inst5Quest6_Location = "Mayara Wolkenglanz (Schwarzfelstiefen; "..GREEN.."[7']"..WHITE..")"
+Inst5Quest6_Note = "Alle drei sind im Grimmigen Säufer zu finden bei "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." und "..YELLOW.."[14]"..WHITE..". Diese Quest bringt dich in die Nähe von Gebirgsjäger Orfus "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest6_Prequest = "Ja, Strategen der Dunkeleisenzwerge"
+Inst5Quest6_Folgequest = "Ja, Pakt mit den Dunkeleisenzwergen"
 Inst5Quest6FQuest = "true"
---
-Inst5Quest6name1 = "Sonnentuchcape"
-Inst5Quest6name2 = "Nachtlauerhandschuhe"
-Inst5Quest6name3 = "Gruftdämonen-Armschienen"
-Inst5Quest6name4 = "Wackere Umklammerung"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst5Quest7 = "7. Das Herz des Berges"
-Inst5Quest7_Level = "55"
-Inst5Quest7_Attain = "50"
-Inst5Quest7_Aim = "Bringt das 'Herz des Berges' zu Maxwort Funkelglanz in der brennenden Steppe."
-Inst5Quest7_Location = "Maxwort Funkelglanz (Brennende Steppe - Flammenkamm; "..YELLOW.."65,23"..WHITE..")"
-Inst5Quest7_Note = "Das Herz des Berges befindet sich bei "..YELLOW.."[8]"..WHITE.." in einem Safe. Den Schlüssel für den Safe bekommt man vom Wachmann Stahlgriff, der erscheint wenn man alle kleinen Safes geöffnet hat."
-Inst5Quest7_Prequest = "Nein"
-Inst5Quest7_Folgequest = "Nein"
+Inst5Quest7 = "7. Pakt mit den Dunkeleisenzwergen"
+Inst5Quest7_Level = "57"
+Inst5Quest7_Attain = "51"
+Inst5Quest7_Aim = "Tötet Botschafter Flammenschlag und Un'rel."
+Inst5Quest7_Location = "Gebirgsjäger Orfus (Schwarzfelstiefen; "..YELLOW.."Nähe [15]"..WHITE..")"
+Inst5Quest7_Note = "Botschafter Flammenschlag ist bei "..YELLOW.."[15]"..WHITE.." und Un'rel ist bei "..YELLOW.."[16]"..WHITE..". Diese Quest führt dich zu Marschall Maxwell gerade hinaus "..YELLOW.."[16]"..WHITE.."."
+Inst5Quest7_Prequest = "Ja, Der Grimmige Säufer"
+Inst5Quest7_Folgequest = "Ja, Morgans Verwirklichung"
+Inst5Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst5Quest8 = "8. Feine Sachen"
-Inst5Quest8_Level = "56"
-Inst5Quest8_Attain = "50"
-Inst5Quest8_Aim = "Reist in die Schwarzfelstiefen und holt 20 Dunkeleisengürteltaschen. Kehrt zu Oralius zurück, sobald die Aufgabe erledigt ist. Ihr nehmt an, dass die Dunkeleisenzwerge in den Schwarzfelstiefen diese 'Gürteltaschen'-Dinger tragen."
-Inst5Quest8_Location = "Oralius (Brennende Steppe - Morgans Wacht; "..YELLOW.."84,68"..WHITE..")"
-Inst5Quest8_Note = "Alle Zwergen können diese Taschen droppen."
-Inst5Quest8_Prequest = "Nein"
+Inst5Quest8 = "8. Morgans Verwirklichung"
+Inst5Quest8_Level = "58"
+Inst5Quest8_Attain = "51"
+Inst5Quest8_Aim = "Tötet Imperator Dagran Thaurissan."
+Inst5Quest8_Location = "Marschall Maxwell (Schwarzfelstiefen; "..YELLOW.."darüber hinaus [16]"..WHITE..")"
+Inst5Quest8_Note = "Imperator Dagran Thaurissan ist bei "..YELLOW.."[18]"..WHITE..". Diese Quest bringt dich zurüch zu Marschall Maxwell."
+Inst5Quest8_Prequest = "Ja, Pakt mit den Dunkeleisenzwergen"
 Inst5Quest8_Folgequest = "Nein"
+Inst5Quest8FQuest = "true"
 --
-Inst5Quest8name1 = "Eine schmuddelige Gürteltasche"
+Inst5Quest8name1 = "Thaurissans Brustplatte"
+Inst5Quest8name1 = "Maxwells Umhang"
+Inst5Quest8name1 = "Dunkeleisenband"
 
 --Quest 9 Alliance
-Inst5Quest9 = "9. Eine Kostprobe der Flamme"
-Inst5Quest9_Level = "58"
-Inst5Quest9_Attain = "52"
-Inst5Quest9_Aim = "Begebt Euch in die Schwarzfelstiefen und tötet Bael'Gar. "..YELLOW.."[...]"..WHITE.." Bringt die eingeschlossene feurige Essenz zu Cyrus Therepentous zurück."
-Inst5Quest9_Location = "Cyrus Therepentous (Brennende Steppe; "..YELLOW.."95,31"..WHITE..")"
-Inst5Quest9_Note = "Die Questreihe startet bei Kalaran Windklinge (Sengende Schlucht; "..YELLOW.."39,38"..WHITE..").\nBael'Gar befindet sich bei "..YELLOW.."[11]"..WHITE.."."
-Inst5Quest9_Prequest = "Ja, Die fehlerlose Flamme -> Eine Kostprobe der Flamme"
+Inst5Quest9 = "9. Das Herz des Berges"
+Inst5Quest9_Level = "55"
+Inst5Quest9_Attain = "51"
+Inst5Quest9_Aim = "Besorgt Euch das Herz des Berges."
+Inst5Quest9_Location = "Maxwort Funkelglanz (Schwarzfelstiefen; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest9_Note = "Das Herz des Berges ist im Gewölbe bei "..YELLOW.."[7]"..WHITE.."."
+Inst5Quest9_Prequest = "Nein"
 Inst5Quest9_Folgequest = "Nein"
-Inst5Quest9PreQuest = "true"
---
-Inst5Quest9name1 = "Schieferhautcape"
-Inst5Quest9name2 = "Wyrmbalg-Schiftung"
-Inst5Quest9name3 = "Valconische Schärpe"
+-- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst5Quest10 = "10. Kharan Hammermacht"
-Inst5Quest10_Level = "59"
+Inst5Quest10 = "10. Ein gefährliches Bündnis (Krieger)"
+Inst5Quest10_Level = "50"
 Inst5Quest10_Attain = "50"
-Inst5Quest10_Aim = "Begebt Euch in die Schwarzfelstiefen und findet Kharan Hammermacht.\nDer König erwähnte, dass Kharan dort gefangen sei - vielleicht solltet Ihr nach einem Gefängnis Ausschau halten."
-Inst5Quest10_Location = "König Magni Bronzebart (Eisenschmiede; "..YELLOW.."39,55"..WHITE..")"
-Inst5Quest10_Note = "Die Vorquest startet bei Königliche Historikerin Archesonus (Eisenschmiede; "..YELLOW.."38,55"..WHITE.."). Kharan Hammermacht befindet sich bei "..YELLOW.."[2]"..WHITE.."."
-Inst5Quest10_Prequest = "Ja, Die glimmenden Ruinen von Thaurissan"
-Inst5Quest10_Folgequest = "Ja, Der Überbringer schlechter Botschaften"
-Inst5Quest10PreQuest = "true"
--- No Rewards for this quest
+Inst5Quest10_Aim = "Tötet 6 Brandwachenzerstörer und beschafft Euch die Angriffspläne des Generals von General Zornesschmied in der Westgarnison der Schwarzfelstiefen."
+Inst5Quest10_Location = "Ander Germaine (Sturmwind - Altstadt; "..YELLOW.."79.8, 69.5"..WHITE..")"
+Inst5Quest10_Note = "Dies ist eine Kriegerklassenquest. Die optionale Vorquest startet bei jedem Kriegerlehrer in den Haupstädten.\n\nGeneral Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und die Brandwachenzerstörer sind auf dem Weg zum Boss."
+Inst5Quest10_Prequest = "Ja, Trefft Ander Germaine"
+Inst5Quest10_Folgequest = "Nein"
+Inst5Quest10FQuest = "true"
+--
+Inst5Quest10name1 = "Gesichtsschutz der Krone"
+Inst5Quest10name2 = "Kopfschutz der Krone" 
 
 --Quest 11 Alliance
-Inst5Quest11 = "11. Das Schicksal des Königreichs"
-Inst5Quest11_Level = "59"
-Inst5Quest11_Attain = "51"
-Inst5Quest11_Aim = "Kehrt in die Schwarzfelstiefen zurück und rettet Prinzessin Moira Bronzebart aus den Fängen des bösen Imperators Dagran Thaurissan."
-Inst5Quest11_Location = "König Magni Bronzebart (Eisenschmiede; "..YELLOW.."39,55"..WHITE..")"
-Inst5Quest11_Note = "Prinzessin Moira Bronzebart befindet sich bei "..YELLOW.."[21]"..WHITE..". Während des Kampfs versucht sie Dagran zu heilen. Versucht ihre Zauber so oft wie möglich zu unterbrechen. Aber Beeilung, sie darf auf keinen Fall sterben, sonst könnt ihr diese Quest nicht abschließen! Sobald ihr mit ihr geredet habt kehrt zu Magni Bronzebart zurück."
-Inst5Quest11_Prequest = "Ja, Der Überbringer schlechter Botschaften"
-Inst5Quest11_Folgequest = "Ja, Die Überraschung der Prinzessin"
+Inst5Quest11 = "11. Sklaven des Feuerlords (Schamane)"
+Inst5Quest11_Level = "50"
+Inst5Quest11_Attain = "50"
+Inst5Quest11_Aim = "Benutzt das Totem der Freiheit, um die Essenzen von 6 Brandwachen, Brandwachenzerstörern oder lodernden Brandwachen in den Schwarzfelstiefen zu befreien."
+Inst5Quest11_Location = "Scharfseherin Umbrua (Sturmwind - Zwergendistrikt; "..YELLOW.."65.9, 31.4"..WHITE..")"
+Inst5Quest11_Note = "Dies ist eine Schamanenklassenquest. Die optionale Vorquest startet bei jedem Schmanenlehrer in den Hauptstädten.\n\nDie Brandwachen können in den verschiedenen Bereichen der Schwarzfelstiefen gefunden werden. Benutze erst das Totem bevor du diese tötest."
+Inst5Quest11_Prequest = "Ja, Trefft Scharfseherin Umbrua"
+Inst5Quest11_Folgequest = "Nein"
 Inst5Quest11FQuest = "true"
 --
-Inst5Quest11name1 = "Magnis Wille"
-Inst5Quest11name2 = "Liedstein von Eisenschmiede"
+Inst5Quest11name1 = "Maske des Scharfsehers"
+Inst5Quest11name2 = "Kopfbedeckung des Scharfsehers"
 
 --Quest 12 Alliance
-Inst5Quest12 = "12. Abstimmung mit dem Kern"
-Inst5Quest12_Level = "60"
-Inst5Quest12_Attain = "55"
-Inst5Quest12_Aim = "Begebt Euch zum Portal in den Schwarzfelstiefen, das in den geschmolzenen Kern führt, und findet ein Kernfragment. Kehrt mit dem Fragment zu Lothos Felsspalter am Schwarzfels zurück."
-Inst5Quest12_Location = "Lothos Felsspalter (Der Schwarzfels; "..YELLOW.."[2] auf der Eingangskarte"..WHITE..")"
-Inst5Quest12_Note = "Wenn man diese Quest abgeschlossen hat, kann man den Stein neben Lothos Felsspalter benutzen um den Geschmolzenen Kern zu betreten.\nDas Kernfragment findet man vor dem Portal zum gescmolzenen Kern bei "..YELLOW.."[23]"..WHITE.."."
-Inst5Quest12_Prequest = "Nein"
+Inst5Quest12 = "12. Steine der Bindung (Hexenmeister)"
+Inst5Quest12_Level = "50"
+Inst5Quest12_Attain = "50"
+Inst5Quest12_Aim = "Besorgt 6 Steine der Elementarbindung aus den Schwarzfelstiefen. Ihr findet die Steine in der Schattenschmiede, dem Domizil, am Schrein von Thaurissan, in der Ostgarnison und in der Westgarnison."
+Inst5Quest12_Location = "Demisette Cloyce (Sturmwind - Das Magierviertel; "..YELLOW.."39.7, 84.5"..WHITE..")"
+Inst5Quest12_Note = "Dies ist eine Hexenmeisterklassenquest. Die optionale Vorquest startet bei jedem Hexenmeisterlehrer in den Hauptstädten."
+Inst5Quest12_Prequest = "Ja, Trefft Demisette Cloyce"
 Inst5Quest12_Folgequest = "Nein"
--- No Rewards for this quest
+Inst5Quest12FQuest = "true"
+--
+Inst5Quest12name1 = "Hörner der gerechtfertigten Sünden"
 
 --Quest 13 Alliance
-Inst5Quest13 = "13. Die Herausforderung"
-Inst5Quest13_Level = "60"
-Inst5Quest13_Attain = "60"
-Inst5Quest13_Aim = "Reist zum Ring des Gesetzes der Schwarzfelstiefen und errichtet das Banner der Provokation in dessen Mitte, während Ihr von Oberrichter Grimmstein verurteilt werdet. Tötet Theldren und seine Gladiatoren und kehrt dann mit dem ersten Stück von Lord Valthalaks Amulett zu Anthion Harmon in den östlichen Pestländern zurück."
-Inst5Quest13_Location = "Falrin Rankenweber (Düsterbruch West; "..YELLOW.."[1] Bücherei"..WHITE..")"
-Inst5Quest13_Note = "Die Folgequest ist für alle Klassen unterschiedlich."
-Inst5Quest13_Prequest = "Nein"
-Inst5Quest13_Folgequest = "Ja, (Klassen Quests)"
--- No Rewards for this quest
+Inst5Quest13 = "13. Der Atem des Cenarius (Druide)"
+Inst5Quest13_Level = "50"
+Inst5Quest13_Attain = "50"
+Inst5Quest13_Aim = "Beschafft den Atem des Cenarius von Pyromant Weisenkorn in den Schwarzfelstiefen und benutzt das Artefakt, um 3 Elementartore zu schließen."
+Inst5Quest13_Location = "Loganaar (Mondlichtung - Nachthafen; "..YELLOW.."52.5, 40.5"..WHITE..")"
+Inst5Quest13_Note = "Dies ist eine Druidenklassenquest. Die optionale Vorquest startet bei jedem Druidenlehrer in den Hauptstädten.\n\nPyromant Weisenkorn ist bei "..YELLOW.."[8]"..WHITE.."."
+Inst5Quest13_Prequest = "Ja, Mondlichtung ruft"
+Inst5Quest13_Folgequest = "Nein"
+Inst5Quest13FQuest = "true"
+--
+Inst5Quest13name1 = "Kopfputz des tiefgrünen Zirkels"
+Inst5Quest13name1 = "Kopfputz des grünen Zirkels"
 
 --Quest 14 Alliance
-Inst5Quest14 = "14. Der spektrale Kelch"
-Inst5Quest14_Level = "55"
-Inst5Quest14_Attain = "55"
-Inst5Quest14_Aim = "Lege die Materialien, die Dunk'rel möchte, in den spektralen Kelch."
-Inst5Quest14_Location = "Dunk'rel (Schwarzfelstiefen; "..YELLOW.."[18]"..WHITE..")"
-Inst5Quest14_Note = "Nur Bergbauer mit Skill 230 oder höher können diese Quest annehmen, um das Schmelzen von Dunkeleisenerz zu lernen. Materialien für den Kelch: 2 [Sternrubin], 20 [Goldbarren], 10 [Echtsilberbarren]. Nachher, wenn man ein [Dunkeleisenerz] habt, kann man es zur schwarzen Schmiede bei "..YELLOW.."[22]"..WHITE.." bringen und es schmelzen."
-Inst5Quest14_Prequest = "Nein"
+Inst5Quest14 = "14. Die Armee der Dunkeleisenzwerge (Schurke)"
+Inst5Quest14_Level = "50"
+Inst5Quest14_Attain = "50"
+Inst5Quest14_Aim = "Benutzt das schnell wirksame Gift, um 6 Getreiderationen in der Westgarnison oder Ostgarnison der Schwarzfelstiefen zu vergiften."
+Inst5Quest14_Location = "Lord Tony Romano (Sturmwind - Altstadt; "..YELLOW.."79.6, 61.2"..WHITE..")"
+Inst5Quest14_Note = "Dies ist eine Schurkenklassenquest. Die optionale Vorquest startet bei jedem Schurkenlehrer in den Hauptstädten."
+Inst5Quest14_Prequest = "Ja,  Trefft Lord Tony Romano"
 Inst5Quest14_Folgequest = "Nein"
--- No Rewards for this quest
+Inst5Quest14FQuest = "true"
+--
+Inst5Quest14name1 = "Spezialgesichtsmaske von SI:7"
 
 --Quest 15 Alliance
-Inst5Quest15 = "15. Düsterbräus Düsterbräu"
-Inst5Quest15_Level = "80"
-Inst5Quest15_Attain = "75"
-Inst5Quest15_Aim = "Bringt Düsterbräus Düsterbräu zu Ipfelkofer Eisenfass im Braufestlager in der Nähe von Eisenschmiede. "
-Inst5Quest15_Location = "Düsterbräus Düsterbräu ( droppt von Coren Düsterbräu bei "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest15_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwarzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nIpfelkofer Eisenfass ist ist auf dem Braufestplatz bei (Dun Morogh; "..YELLOW.."47,39"..WHITE..")."
-Inst5Quest15_Prequest = "Nein"
+Inst5Quest15 = "15. Die Geschöpfe des Golemlords (Jäger)"
+Inst5Quest15_Level = "50"
+Inst5Quest15_Attain = "50"
+Inst5Quest15_Aim = "Beschafft 5 Elementarmodule von den Golems in der Manufaktur der Schwarzfelstiefen und stehlt die Baupläne für einen ElementargolemBringt Düsterbräus Düsterbräu zu Ipfelkofer Eisenfass im Braufestlager in der Nähe von Eisenschmiede. "
+Inst5Quest15_Location = "Wulf Hansreim (Sturmwind - Altstadt; "..YELLOW.."79.5, 70.9"..WHITE..")"
+Inst5Quest15_Note = "Dies ist eine Jägerklassenquest. Die optionale Vorquest startet bei jedem Jägerlehrer in den Hauptstädten.\n\nDie Blaupausen eines Elementargolems droppt vom Golem Lord Argelmach bei "..YELLOW.."[11]"..WHITE.." und die Elementarmodule von den in der Nähe befindlichen Golems."
+Inst5Quest15_Prequest = "Ja, Trefft Wulf Hansreim"
 Inst5Quest15_Folgequest = "Nein"
+Inst5Quest15FQuest = "true"
 --
-Inst5Quest15name1 = "Braufestmarken"
+Inst5Quest15name1 = "Helm der Krone"
+
+--Quest 16 Alliance
+Inst5Quest16 = "16. Der Zauberfoliant des Pyromanten (Magier)"
+Inst5Quest16_Level = "50"
+Inst5Quest16_Attain = "50"
+Inst5Quest16_Aim = "Tötet 6 Zwielichtabgesandte und besorgt Weisenkorns Zauberfoliant von Pyromant Weisenkorn am Schrein von Thaurissan in den Schwarzfelstiefen."
+Inst5Quest16_Location = "Maginor Dumas (Sturmwind - Magierviertel; "..YELLOW.."49.5, 87.0"..WHITE..")"
+Inst5Quest16_Note = "Dies ist eine Magierklassenquest. Die optionale Vorquest startet bei jedem Magierlehrer in den Hauptstädten.\n\nPyromant Weisenkorn ist bei "..YELLOW.."[8]"..WHITE.."."
+Inst5Quest16_Prequest = "Ja, Trefft Maginor Dumas"
+Inst5Quest16_Folgequest = "Nein"
+Inst5Quest16FQuest = "true"
+--
+Inst5Quest16name1 = "Kapuze des königlichen Zauberers"
+
+--Quest 17 Alliance
+Inst5Quest17 = "17. Zwielichttränke (Priester)"
+Inst5Quest17_Level = "50"
+Inst5Quest17_Attain = "50"
+Inst5Quest17_Aim = "Benutzt die leuchtende Fackel, um 8 Abschriften des Glaubensbekenntnisses des Schattenhammers im Domizil der Schwarzfelstiefen zu zerstören."
+Inst5Quest17_Location = "Hohepriesterin Laurena (Sturmwind - Kathedralenplatz; "..YELLOW.."49.7, 44.9"..WHITE..")"
+Inst5Quest17_Note = "Dies ist eine Priesterklassenquest. Die optionale Vorquest startet bei jedem Priesterlehrer in den Hauptstädten."
+Inst5Quest17_Prequest = "Ja, Trefft Hohepriesterin Laurena"
+Inst5Quest17_Folgequest = "Nein"
+Inst5Quest17FQuest = "true"
+--
+Inst5Quest17name1 = "Krone der Geheiligten"
+
+--Quest 18 Alliance
+Inst5Quest18 = "18. Waffen der Dunkelheit (Paladin)"
+Inst5Quest18_Level = "50"
+Inst5Quest18_Attain = "50"
+Inst5Quest18_Aim = "Sammelt 5 elementarerfüllte Waffen von den Zwergen der Zorneshämmer in den Schwarzfelstiefen und zerbrecht sie auf dem Schwarzen Amboss in der Schattenschmiede."
+Inst5Quest18_Location = "Lord Grayson Schattenbruch (Sturmwind - Kathedralenplatz; "..YELLOW.."52.7, 45.1"..WHITE..")"
+Inst5Quest18_Note = "Dies ist eine Paladinklassenquest. Die optionale Vorquest startet bei jedem Paladinlehrer in den Hauptstädten.\n\nDer schwarze Amboss ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst5Quest18_Prequest = "Ja, Trefft Lord Grayson Schattenbruch"
+Inst5Quest18_Folgequest = "Nein"
+Inst5Quest18FQuest = "true"
+--
+Inst5Quest18name1 = "Helm des Ordens"
+Inst5Quest18name1 = "Gesichtsschutz des Ordens"
+Inst5Quest18name1 = "Kopfschutz des Ordens"
+
+--Quest 19 Alliance
+Inst5Quest19 = "19. Abstimmung mit dem Kern"
+Inst5Quest19_Level = "60"
+Inst5Quest19_Attain = "55"
+Inst5Quest19_Aim = "Begebt Euch zum Portal in den Schwarzfelstiefen, das in den geschmolzenen Kern führt, und findet ein Kernfragment. Kehrt mit dem Fragment zu Lothos Felsspalter am Schwarzfels zurück."
+Inst5Quest19_Location = "Lothos Felsspalter (Schwarzfels; "..YELLOW.."Boden der niedrigen Ketten"..WHITE..")"
+Inst5Quest19_Note = "Nach Beendigung dieser Quest, kannst du den Stein in der Nähe von Lothos Felsspalterbenutzen, um in den Geschmolzenen Kern zu gelangen.\nDu kannst das Kernfragment in der Nähe von "..BLUE.."[E]"..WHITE.." finden, sehr nahe am am Portal zum Geschmolzenen Kern."
+Inst5Quest19_Prequest = "Nein"
+Inst5Quest19_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 20 Alliance
+Inst5Quest20 = "20. Der spektrale Kelch"
+Inst5Quest20_Level = "55"
+Inst5Quest20_Attain = "40"
+Inst5Quest20_Aim = "Legt die Materialien, die Dunk'rel möchte, in den spektralen Kelch."
+Inst5Quest20_Location = "Dunk'rel (Schwarzfelstiefen; "..YELLOW.."[16]"..WHITE..")"
+Inst5Quest20_Note = "Nur Bergbauer mit Skill 230 oder höher können diese Quest annehmen, um das Schmelzen von Dunkeleisenerz zu lernen. Materialien für den Kelch: 2 [Sternrubin], 20 [Goldbarren], 10 [Echtsilberbarren]. Nachher, wenn man ein [Dunkeleisenerz] habt, kann man es zur schwarzen Schmiede bei "..BLUE.."[E]"..WHITE.." bringen und es schmelzen."
+Inst5Quest20_Prequest = "Nein"
+Inst5Quest20_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 21 Alliance
+Inst5Quest21 = "21. Düsterbräus Düsterbräu"
+Inst5Quest21_Level = "85"
+Inst5Quest21_Attain = "85"
+Inst5Quest21_Aim = "Bringt Düsterbräus Düsterbräu zu Ipfelkofer Eisenfass im Braufestlager in der Nähe von Eisenschmiede."
+Inst5Quest21_Location = "Düsterbräus Düsterbräu ( droppt von Coren Düsterbräu bei "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest21_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwarzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nIpfelkofer Eisenfass ist ist auf dem Braufestplatz bei (Dun Morogh; "..YELLOW.."47,39"..WHITE..")."
+Inst5Quest21_Prequest = "Nein"
+Inst5Quest21_Folgequest = "Nein"
+--
+Inst5Quest21name1 = "Braufestmarken"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst5Quest1_HORDE = Inst5Quest1
+Inst5Quest1_HORDE = "1. Ins Gefängis"
 Inst5Quest1_HORDE_Level = Inst5Quest1_Level
 Inst5Quest1_HORDE_Attain = Inst5Quest1_Attain
-Inst5Quest1_HORDE_Aim = Inst5Quest1_Aim
-Inst5Quest1_HORDE_Location = Inst5Quest1_Location
-Inst5Quest1_HORDE_Note = Inst5Quest1_Note
+Inst5Quest1_HORDE_Aim = "Findet Lexlort."
+Inst5Quest1_HORDE_Location = "Thal'trak Ehrenhauer (Schwarzfelstiefen; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest1_HORDE_Note = "Lexlort ist auf den Weg zum Gefängnis bei "..GREEN.."[2']"..WHITE.."."
 Inst5Quest1_HORDE_Prequest = Inst5Quest1_Prequest
 Inst5Quest1_HORDE_Folgequest = Inst5Quest1_Folgequest
---
-Inst5Quest1name1_HORDE = Inst5Quest1name1
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
-Inst5Quest2_HORDE = Inst5Quest2
+Inst5Quest2_HORDE = "2. Schattenhammer?! Nein!"
 Inst5Quest2_HORDE_Level = Inst5Quest2_Level
 Inst5Quest2_HORDE_Attain = Inst5Quest2_Attain
-Inst5Quest2_HORDE_Aim = Inst5Quest2_Aim
-Inst5Quest2_HORDE_Location = Inst5Quest2_Location
+Inst5Quest2_HORDE_Aim = "Tötet Verhörmeisterin Gerstahn."
+Inst5Quest2_HORDE_Location = "Lexlort (Blackrock Depths; "..GREEN.."['2']"..WHITE..")"
 Inst5Quest2_HORDE_Note = Inst5Quest2_Note
 Inst5Quest2_HORDE_Prequest = Inst5Quest2_Prequest
 Inst5Quest2_HORDE_Folgequest = Inst5Quest2_Folgequest
 Inst5Quest2PreQuest_HORDE = Inst5Quest2PreQuest
---
-Inst5Quest2name1_HORDE = Inst5Quest2name1
-Inst5Quest2name2_HORDE = Inst5Quest2name2
-Inst5Quest2name3_HORDE = Inst5Quest2name3
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst5Quest3_HORDE = Inst5Quest3
@@ -851,213 +919,250 @@ Inst5Quest3_HORDE_Location = Inst5Quest3_Location
 Inst5Quest3_HORDE_Note = Inst5Quest3_Note
 Inst5Quest3_HORDE_Prequest = Inst5Quest3_Prequest
 Inst5Quest3_HORDE_Folgequest = Inst5Quest3_Folgequest
---
-Inst5Quest3name1_HORDE = Inst5Quest3name1
-Inst5Quest3name2_HORDE = Inst5Quest3name2
+-- No Rewards for this quest
 
 --Quest 4 Horde
-Inst5Quest4_HORDE = "4. Verlorenes Donnerbräurezept"
-Inst5Quest4_HORDE_Level = "55"
-Inst5Quest4_HORDE_Attain = "50"
-Inst5Quest4_HORDE_Aim = "Bringt Vivian Lagrave in Kargath das gestohlene Donnerbräurezept."
-Inst5Quest4_HORDE_Location = "Schattenmagierin Vivian Lagrave (Ödland - Kargath; "..YELLOW.."2,47"..WHITE..")"
-Inst5Quest4_HORDE_Note = "Die Vorquest bekommt man bei Apothekerin Zinge in Unterstadt - Das Apothekarium ("..YELLOW.."50,68"..WHITE..").\nDas Rezept gibt es bei einem der Wachen die erscheinen, wenn ihr die Fässer in der Taverne "..YELLOW.."[15]"..WHITE.." zerstört."
-Inst5Quest4_HORDE_Prequest = "Ja, Vivian Lagrave"
-Inst5Quest4_HORDE_Folgequest = "Nein"
-Inst5Quest4PreQuest_HORDE = "true"
---
-Inst5Quest4name1_HORDE = "Überragender Heiltrank"
-Inst5Quest4name2_HORDE = "Großer Manatrank"
-Inst5Quest4name3_HORDE = "Hurtigschlagknüppel"
-Inst5Quest4name4_HORDE = "Gliedmaßenspaltbeil"
-
---Quest 5 Horde  (same as Quest 7 Alliance)
-Inst5Quest5_HORDE = "5. Das Herz des Berges"
-Inst5Quest5_HORDE_Level = Inst5Quest7_Level
-Inst5Quest5_HORDE_Attain = Inst5Quest7_Attain
-Inst5Quest5_HORDE_Aim = Inst5Quest7_Aim
-Inst5Quest5_HORDE_Location = Inst5Quest7_Location
-Inst5Quest5_HORDE_Note = Inst5Quest7_Note
-Inst5Quest5_HORDE_Prequest = Inst5Quest7_Prequest
-Inst5Quest5_HORDE_Folgequest = Inst5Quest7_Folgequest
+Inst5Quest4_HORDE = "4. Schattenschmiede unterwandern"
+Inst5Quest4_HORDE_Level = "54"
+Inst5Quest4_HORDE_Attain = "51"
+Inst5Quest4_HORDE_Aim = "Sprecht mit Razal'hieb."
+Inst5Quest4_HORDE_Location = "Galamav der Schütze (Schwarzfelstiefen; "..YELLOW.."Eingang"..WHITE..")"
+Inst5Quest4_HORDE_Note = "Razal'hiebist bei "..GREEN.."[3']"..WHITE.."."
+Inst5Quest4_HORDE_Prequest = "Nein"
+Inst5Quest4_HORDE_Folgequest = "Ja, Die 109te Division"
 -- No Rewards for this quest
 
---Quest 6 Horde
-Inst5Quest6_HORDE = "6. SOFORT TÖTEN: Dunkeleisenzwerge"
-Inst5Quest6_HORDE_Level = "52"
-Inst5Quest6_HORDE_Attain = "48"
-Inst5Quest6_HORDE_Aim = "Kriegsherr Bluthauer möchte, dass Ihr 15 Gardisten der Zorneshämmer, 10 Aufseher der Zorneshämmer und 5 Fußsoldaten der Zorneshämmer tötet. Kehrt zu ihm zurück, sobald Ihr die Aufgabe erfüllt habt."
-Inst5Quest6_HORDE_Location = "'GESUCHT'-Schild (Ödland - Kargath; "..YELLOW.."3,47"..WHITE..")"
-Inst5Quest6_HORDE_Note = "Man findet die Zwerge im ersten Abschnitt der Schwarzfelstiefen.\nKriegsherr Bluthauer befindet sich in Kargath auf dem Turm (Ödland, "..YELLOW.."5,47"..WHITE..")."
-Inst5Quest6_HORDE_Prequest = "Nein"
-Inst5Quest6_HORDE_Folgequest = "Ja, SOFORT TÖTEN: Hochrangige Führungskräfte der Dunkeleisenzwerge"
+--Quest 5 Horde
+Inst5Quest5_HORDE = "5. Die 109te Division"
+Inst5Quest5_HORDE_Level = "55"
+Inst5Quest5_HORDE_Attain = "51"
+Inst5Quest5_HORDE_Aim = Inst5Quest5_Aim
+Inst5Quest5_HORDE_Location = "Razal'hieb (Schwarzfelstiefen; "..GREEN.."[3']"..WHITE..")"
+Inst5Quest5_HORDE_Note = "General Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und Golemlord Argelmach ist bei "..YELLOW.."[11]"..WHITE..". Diese Quest führt dich zu Hierophantin Theodora Mulvadania bei "..GREEN.."[7']"..WHITE.."."
+Inst5Quest5_HORDE_Prequest = Inst5Quest5_Prequest
+Inst5Quest5_HORDE_Folgequest = Inst5Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest 7 Horde
-Inst5Quest7_HORDE = "7. SOFORT TÖTEN: Hochrangige Führungskräfte der Dunkeleisenzwerge"
-Inst5Quest7_HORDE_Level = "54"
-Inst5Quest7_HORDE_Attain = "49"
-Inst5Quest7_HORDE_Aim = "Kriegsherr Bluthauer möchte, dass Ihr 10 Sanitäter der Zorneshämmer, 10 Soldaten der Zorneshämmer und 10 Offiziere der Zorneshämmer tötet. Kehrt zu ihm zurück, sobald Ihr die Aufgabe erfüllt habt."
-Inst5Quest7_HORDE_Location = "'GESUCHT'-Schild (Ödland - Kargath; "..YELLOW.."3,47"..WHITE..")"
-Inst5Quest7_HORDE_Note = "Man findet die Zwerge in der Nähe von Bael'Gar "..YELLOW.."[11]"..WHITE..". Kriegsherr Bluthauer befindet sich in Kargath auf dem Turm (Ödland, "..YELLOW.."5,47"..WHITE..").\nDie Folgequest beginnt bei Lexlort (Ödland - Kargath; "..YELLOW.."5,47"..WHITE.."). Grark Lorkrub findet man in der Brennenden Steppe ("..YELLOW.."38,35"..WHITE.."). Nachdem man ihn auf 50% seiner Lebenspunkte gebracht hat, startet er ein Eskortquest."
-Inst5Quest7_HORDE_Prequest = "Ja, SOFORT TÖTEN: Dunkeleisenzwerge"
-Inst5Quest7_HORDE_Folgequest = "Ja, Grark Lorkrub -> Gefährliche Zwickmühle (Eskortquest)"
+--Quest 6 Horde (same as Quest 6 Alliance)
+Inst5Quest6_HORDE = "6. Der Grimmige Säufer"
+Inst5Quest6_HORDE_Level = "56"
+Inst5Quest6_HORDE_Attain = "51"
+Inst5Quest6_HORDE_Aim = Inst5Quest6_Aim
+Inst5Quest6_HORDE_Location = "Hierophantin Theodora Mulvadania (Schwarzfelstiefen; "..GREEN.."[7']"..WHITE..")"
+Inst5Quest6_HORDE_Note = "Alle drei sind im Grimmigen Säufer zu finden bei "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." und "..YELLOW.."[14]"..WHITE..". Diese Quest bringt dich in die Nähe von Donnerherz "..YELLOW.."[15]"..WHITE.."."
+Inst5Quest6_HORDE_Prequest = "Ja, Die 109te Division"
+Inst5Quest6_HORDE_Folgequest = Inst5Quest6_Folgequest
+-- No Rewards for this quest
+
+--Quest 7 Horde (same as Quest 7 Alliance)
+Inst5Quest7_HORDE = "7. Pakt mit den Dunkeleisenzwergen"
+Inst5Quest7_HORDE_Level = "57"
+Inst5Quest7_HORDE_Attain = "51"
+Inst5Quest7_HORDE_Aim = Inst5Quest7_Aim
+Inst5Quest7_HORDE_Location = "Donnerherz (Schwarzfelstiefen; "..YELLOW.."Nähe [15]"..WHITE..")"
+Inst5Quest7_HORDE_Note = "Botschafter Flammenschlag ist bei "..YELLOW.."[15]"..WHITE.." und Un'rel ist bei "..YELLOW.."[16]"..WHITE..". Diese Quest führt dich zu Kriegsherr Bluthauer gerade hinaus "..YELLOW.."[16]"..WHITE.."."
+Inst5Quest7_HORDE_Prequest = Inst5Quest7_Prequest
+Inst5Quest7_HORDE_Folgequest = "Ja, Die Wiedergeburt des KEK"
 Inst5Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 8 Horde
-Inst5Quest8_HORDE = "8. Operation: Tod dem Zornesschmied"
+Inst5Quest8_HORDE = "8. Die Wiedergeburt des KEK"
 Inst5Quest8_HORDE_Level = "58"
-Inst5Quest8_HORDE_Attain = "54"
-Inst5Quest8_HORDE_Aim = "Begebt Euch zu den Schwarzfelstiefen und eliminiert General Zornesschmied! Kehrt zum Kriegsherrn Bluthauer zurück, sobald Ihr diese Aufgabe erledigt habt."
-Inst5Quest8_HORDE_Location = "Kriegsherr Bluthauer (Ödland - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst5Quest8_HORDE_Note = "Man findet General Zornesschmied bei "..YELLOW.."[13]"..WHITE..". Wenn er bei ca. 30% ist ruft er nach Verstärkung!"
-Inst5Quest8_HORDE_Prequest = "Ja, Gefährliche Zwickmühle"
+Inst5Quest8_HORDE_Attain = "51"
+Inst5Quest8_HORDE_Aim = Inst5Quest8_Aim
+Inst5Quest8_HORDE_Location = "Kriegsherr Bluthauer (Schwarzfelstiefen; "..YELLOW.."Beyond [16]"..WHITE..")"
+Inst5Quest8_HORDE_Note = "Imperator Dagran Thaurissan ist bei "..YELLOW.."[18]"..WHITE..". Diese Quest bringt dich zurüch zu Kriegsherr Bluthauer."
+Inst5Quest8_HORDE_Prequest = Inst5Quest8_Prequest
 Inst5Quest8_HORDE_Folgequest = "Nein"
 Inst5Quest8FQuest_HORDE = "true"
 --
-Inst5Quest8name1_HORDE = "Medaillon des Eroberers"
+Inst5Quest8name1_HORDE = "Dunkeleisenband"
+Inst5Quest8name2_HORDE = "Thaurissans Brustplatte"
+Inst5Quest8name3_HORDE = "Umhang von Kargath"
 
---Quest 9 Horde
-Inst5Quest9_HORDE = "9. Aufstieg der Maschinen"
-Inst5Quest9_HORDE_Level = "58"
-Inst5Quest9_HORDE_Attain = "52"
-Inst5Quest9_HORDE_Aim = "Sucht und tötet Golemlord Argelmach. Bringt Lotwil seinen Kopf. Außerdem müsst Ihr 10 intakte Elementarkerne von den Wuthäschergolems und Kriegshetzerkonstrukten, die Argelmach beschützen, beschaffen."
-Inst5Quest9_HORDE_Location = "Lotwil Veriatus (Ödland; "..YELLOW.."25,44"..WHITE..")"
-Inst5Quest9_HORDE_Note = "Die Vorquest bekommt man bei Hierophantin Theodora Mulvadania (Ödland - Kargath; "..YELLOW.."3,47"..WHITE..").\nMan findet Argelmach bei "..YELLOW.."[14]"..WHITE.."."
-Inst5Quest9_HORDE_Prequest = "Ja, Aufstieg der Maschinen"
-Inst5Quest9_HORDE_Folgequest = "Nein"
-Inst5Quest9PreQuest_HORDE = "true"
---
-Inst5Quest9name1_HORDE = "Azurblaue Mondamicia"
-Inst5Quest9name2_HORDE = "Regenzauberer-Tuch"
-Inst5Quest9name3_HORDE = "Basaltschuppenrüstung"
-Inst5Quest9name4_HORDE = "Lavaplattenstulpen"
+--Quest 9 Horde (same as Quest 9 Alliance)
+Inst5Quest9_HORDE = Inst5Quest9
+Inst5Quest9_HORDE_Level = Inst5Quest9_Level
+Inst5Quest9_HORDE_Attain = Inst5Quest9_Attain
+Inst5Quest9_HORDE_Aim = Inst5Quest9_Aim
+Inst5Quest9_HORDE_Location = Inst5Quest9_Location
+Inst5Quest9_HORDE_Note = Inst5Quest9_Note
+Inst5Quest9_HORDE_Prequest = Inst5Quest9_Prequest
+Inst5Quest9_HORDE_Folgequest = Inst5Quest9_Folgequest
+-- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 9 Alliance)
-Inst5Quest10_HORDE = "10. Eine Kostprobe der Flamme"
-Inst5Quest10_HORDE_Level = Inst5Quest9_Level
-Inst5Quest10_HORDE_Attain = Inst5Quest9_Attain
-Inst5Quest10_HORDE_Aim = Inst5Quest9_Aim
-Inst5Quest10_HORDE_Location = Inst5Quest9_Location
-Inst5Quest10_HORDE_Note = Inst5Quest9_Note
-Inst5Quest10_HORDE_Prequest = Inst5Quest9_Prequest
-Inst5Quest10_HORDE_Folgequest = Inst5Quest9_Folgequest
-Inst5Quest10PreQuest_HORDE = Inst5Quest9PreQuest
+--Quest 10 Horde
+Inst5Quest10 = "10. Ein gefährliches Bündnis (Krieger)"
+Inst5Quest10_Level = "50"
+Inst5Quest10_Attain = "50"
+Inst5Quest10_Aim = "Tötet 6 Brandwachenzerstörer und beschafft Euch die Angriffspläne des Generals von General Zornesschmied in der Westgarnison der Schwarzfelstiefen."
+Inst5Quest10_Location = "Grezz Zornfaust (Orgrimmar - Tal der Ehre; "..YELLOW.."73.7, 45.6"..WHITE..")"
+Inst5Quest10_Note = "Dies ist eine Kriegerklassenquest. Die optionale Vorquest startet bei jedem Kriegerlehrer in den Haupstädten.\n\nGeneral Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und die Brandwachenzerstörer sind auf dem Weg zum Boss."
+Inst5Quest10_Prequest = "Ja, Trefft Grezz Zornfaust"
+Inst5Quest10_Folgequest = "Nein"
+Inst5Quest10FQuest = "true"
 --
-Inst5Quest10name1_HORDE = Inst5Quest9name1
-Inst5Quest10name2_HORDE = Inst5Quest9name2
-Inst5Quest10name3_HORDE = Inst5Quest9name3
+Inst5Quest10name1_HORDE = "Gesichtsschutz der Horde"
+Inst5Quest10name2_HORDE = "Kopfschutz der Horde" 
 
 --Quest 11 Horde
-Inst5Quest11_HORDE = "11. Disharmonie der Flamme"
-Inst5Quest11_HORDE_Level = "52"
-Inst5Quest11_HORDE_Attain = "48"
-Inst5Quest11_HORDE_Aim = "Reist zum Steinbruch am Schwarzfels und tötet Übermeister Pyron. Kehrt zu Donnerherz zurück, sobald Ihr den Auftrag erledigt habt."
-Inst5Quest11_HORDE_Location = "Donnerherz (Ödland - Kargath; "..YELLOW.."3,48"..WHITE..")"
-Inst5Quest11_HORDE_Note = "Übermeister Pyron ist ein Feuer Elementar außerhalb der Instanz. Er befindet sich bei "..YELLOW.."[24]"..WHITE.." auf der Schwarzfelstiefenkarte und bei "..YELLOW.."[1]"..WHITE.." auf der Schwarzfels Eingangskarte."
-Inst5Quest11_HORDE_Prequest = "Nein"
-Inst5Quest11_HORDE_Folgequest = "Ja, Disharmonie des Feuers"
--- No Rewards for this quest
+Inst5Quest11 = "11. Sklaven des Feuerlords (Schamane)"
+Inst5Quest11_Level = "50"
+Inst5Quest11_Attain = "50"
+Inst5Quest11_Aim = "Benutzt das Totem der Freiheit, um die Essenzen von 6 Brandwachen, Brandwachenzerstörern oder lodernden Brandwachen in den Schwarzfelstiefen zu befreien."
+Inst5Quest11_Location = "Kardris Traumsucher (Orgrimmar - Tal der Weisheit"..YELLOW.."39.5, 47.0"..WHITE..")"
+Inst5Quest11_Note = "Dies ist eine Schamanenklassenquest. Die optionale Vorquest startet bei jedem Schmanenlehrer in den Hauptstädten.\n\nDie Brandwachen können in den verschiedenen Bereichen der Schwarzfelstiefen gefunden werden. Benutze erst das Totem bevor du diese tötest."
+Inst5Quest11_Prequest = "Ja, Trefft Kardris Traumsucher"
+Inst5Quest11_Folgequest = "Nein"
+Inst5Quest11FQuest = "true"
+--
+Inst5Quest11name1_HORDE = "Maske des Redners"
+Inst5Quest11name2_HORDE = "Kopfbedeckung des Redners"
 
 --Quest 12 Horde
-Inst5Quest12_HORDE = "12. Disharmonie des Feuers"
-Inst5Quest12_HORDE_Level = "56"
-Inst5Quest12_HORDE_Attain = "48"
-Inst5Quest12_HORDE_Aim = "Betretet die Schwarzfelstiefen und spürt Lord Incendius auf. Tötet ihn und bringt jegliche Informationsquelle, die Ihr finden könnt, zu Donnerherz."
-Inst5Quest12_HORDE_Location = "Donnerherz (Ödland - Kargath; "..YELLOW.."3,48"..WHITE..")"
-Inst5Quest12_HORDE_Note = "Die Vorquest bekommt man von Donnerherz.\nLord Incendius befindet sich bei "..YELLOW.."[10]"..WHITE.."."
-Inst5Quest12_HORDE_Prequest = "Ja, Disharmonie der Flamme"
-Inst5Quest12_HORDE_Folgequest = "Nein"
-Inst5Quest12FQuest_HORDE = "true"
+Inst5Quest12 = "12. Steine der Bindung (Hexenmeister)"
+Inst5Quest12_Level = "50"
+Inst5Quest12_Attain = "50"
+Inst5Quest12_Aim = "Besorgt 6 Steine der Elementarbindung aus den Schwarzfelstiefen. Ihr findet die Steine in der Schattenschmiede, dem Domizil, am Schrein von Thaurissan, in der Ostgarnison und in der Westgarnison."
+Inst5Quest12_Location = "Zevrost (Orgrimmar - Kluft der Schatten; "..YELLOW.."49.0, 55.3"..WHITE..")"
+Inst5Quest12_Note = "Dies ist eine Hexenmeisterklassenquest. Die optionale Vorquest startet bei jedem Hexenmeisterlehrer in den Hauptstädten."
+Inst5Quest12_Prequest = "Ja, Trefft Zevrost"
+Inst5Quest12_Folgequest = "Nein"
+Inst5Quest12FQuest = "true"
 --
-Inst5Quest12name1_HORDE = "Sonnentuchcape"
-Inst5Quest12name2_HORDE = "Nachtlauerhandschuhe"
-Inst5Quest12name3_HORDE = "Gruftdämonen-Armschienen"
-Inst5Quest12name4_HORDE = "Wackere Umklammerung"
+Inst5Quest12name1_HORDE = "Hörner des linken Pfades"
 
---Quest 13 Horde
-Inst5Quest13_HORDE = "13. Das letzte Element"
-Inst5Quest13_HORDE_Level = "54"
-Inst5Quest13_HORDE_Attain = "48"
-Inst5Quest13_HORDE_Aim = "Begebt Euch in die Schwarzfelstiefen und beschafft 10 Essenzen der Elemente. Euer erster Gedanke ist, die Golems und die Schöpfer der Golems zu suchen. Doch Ihr erinnert Euch, dass Vivian Lagrave auch etwas von Elementaren vor sich hingemurmelt hat."
-Inst5Quest13_HORDE_Location = "Schattenmagierin Vivian Lagrave (Ödland - Kargath; "..YELLOW.."2,47"..WHITE..")"
-Inst5Quest13_HORDE_Note = "Die Vorquest bekommt man von Donnerherz (Ödland - Kargath; "..YELLOW.."3,48"..WHITE..").\nAlle Elementare droppen die Essenzen."
-Inst5Quest13_HORDE_Prequest = "Ja, Disharmonie der Flamme"
-Inst5Quest13_HORDE_Folgequest = "Nein"
-Inst5Quest13PreQuest_HORDE = "true"
+--Quest 13 Horde (same as Quest 13 Alliance)
+Inst5Quest13_HORDE = Inst5Quest13
+Inst5Quest13_HORDE_Level = Inst5Quest13_Level
+Inst5Quest13_HORDE_Attain = Inst5Quest13_Attain
+Inst5Quest13_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest13_HORDE_Location = Inst5Quest13_Location
+Inst5Quest13_HORDE_Note = Inst5Quest13_Note
+Inst5Quest13_HORDE_Prequest = Inst5Quest13_Prequest
+Inst5Quest13_HORDE_Folgequest = Inst5Quest13_Folgequest
+Inst5Quest13PreQuest_HORDE = Inst5Quest13PreQuest
 --
-Inst5Quest13name1_HORDE = "Lagraves Siegel"
+Inst5Quest13name1_HORDE = Inst5Quest13name1
+Inst5Quest13name2_HORDE = Inst5Quest13name2
 
 --Quest 14 Horde
-Inst5Quest14_HORDE = "14. Kommandant Gor'shak"
-Inst5Quest14_HORDE_Level = "52"
-Inst5Quest14_HORDE_Attain = "48"
-Inst5Quest14_HORDE_Aim = "Sucht Kommandant Gor'shak in den Schwarzfelstiefen.\nIhr erinnert Euch, dass auf dem primitiv gezeichneten Bild des Orcs auch Gitter vor dem Gesicht zu sehen waren. Vielleicht solltet Ihr nach einer Art Gefängnis suchen."
-Inst5Quest14_HORDE_Location = "Galamav der Schütze (Ödland - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst5Quest14_HORDE_Note = "Die Vorquest bekommt man von Donnerherz (Ödland - Kargath; "..YELLOW.."3,48"..WHITE..").\nKommandant Gor'shak befindet sich bei "..YELLOW.."[3]"..WHITE..". Der Schlüssel, um die Zelle zu öffnen droppt von Verhörmeisterin Gerstahn "..YELLOW.."[5]"..WHITE..". Wenn man die Folgequest startet spawnen mehrere Gegner."
-Inst5Quest14_HORDE_Prequest = "Ja, Disharmonie der Flamme"
-Inst5Quest14_HORDE_Folgequest = "Ja, Was ist los?"
-Inst5Quest14PreQuest_HORDE = "true"
+Inst5Quest14 = "14. Die Armee der Dunkeleisenzwerge (Schurke)"
+Inst5Quest14_Level = "50"
+Inst5Quest14_Attain = "50"
+Inst5Quest14_Aim = "Benutzt das schnell wirksame Gift, um 6 Getreiderationen in der Westgarnison oder Ostgarnison der Schwarzfelstiefen zu vergiften."
+Inst5Quest14_Location = "Gordul (Orgrimmar - Kluft der Schatten; "..YELLOW.."44.8, 61.3"..WHITE..")"
+Inst5Quest14_Note = "Dies ist eine Schurkenklassenquest. Die optionale Vorquest startet bei jedem Schurkenlehrer in den Hauptstädten."
+Inst5Quest14_Prequest = "Ja,  Trefft Gordul"
+Inst5Quest14_Folgequest = "Nein"
+Inst5Quest14FQuest = "true"
+--
+Inst5Quest14name1_HORDE = "Gesichtsmaske der Zerschmetterten Hand"
 
 --Quest 15 Horde
-Inst5Quest15_HORDE = "15. Die königliche Rettung"
-Inst5Quest15_HORDE_Level = "59"
-Inst5Quest15_HORDE_Attain = "50"
-Inst5Quest15_HORDE_Aim = "Tötet Imperator Dagran Thaurissan und befreit Prinzessin Moira Bronzebart von seinem bösen Zauber."
-Inst5Quest15_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,37"..WHITE..")"
-Inst5Quest15_HORDE_Note = "Nachdem man mit Kharan Hammermacht und Thrall geredet hat bekommt man diese Quest.\nMan findet Imperator Dagran Thaurissan bei "..YELLOW.."[21]"..WHITE..". Die Prinzessin heilt Dagran während des Kampfs, sie darf aber auf keinen Fall sterben, sonst kann man diese Quest nicht abschließen! Versucht ihre Heilungzauber zu unterbrechen. (Die Belohungen sind für 'Ist die Prinzessin gerettet?')"
-Inst5Quest15_HORDE_Prequest = "Ja, Kommandant Gor'shak"
-Inst5Quest15_HORDE_Folgequest = "Ja, Ist die Prinzessin gerettet?"
-Inst5Quest15FQuest_HORDE = "true"
+Inst5Quest15 = "15. Die Geschöpfe des Golemlords (Jäger)"
+Inst5Quest15_Level = "50"
+Inst5Quest15_Attain = "50"
+Inst5Quest15_Aim = "Beschafft 5 Elementarmodule von den Golems in der Manufaktur der Schwarzfelstiefen und stehlt die Baupläne für einen ElementargolemBringt Düsterbräus Düsterbräu zu Ipfelkofer Eisenfass im Braufestlager in der Nähe von Eisenschmiede. "
+Inst5Quest15_Location = "Ormak Grimmschlag (Orgrimmar - Tal der Ehre; "..YELLOW.."64.0, 32.7"..WHITE..")"
+Inst5Quest15_Note = "Dies ist eine Jägerklassenquest. Die optionale Vorquest startet bei jedem Jägerlehrer in den Hauptstädten.\n\nDie Blaupausen eines Elementargolems droppt vom Golem Lord Argelmach bei "..YELLOW.."[11]"..WHITE.." und die Elementarmodule von den in der Nähe befindlichen Golems."
+Inst5Quest15_Prequest = "Ja, Trefft Ormak Grimmschlag"
+Inst5Quest15_Folgequest = "Nein"
+Inst5Quest15FQuest = "true"
 --
-Inst5Quest15name1_HORDE = "Thralls Entschlossenheit"
-Inst5Quest15name2_HORDE = "Auge von Orgrimmar"
+Inst5Quest15name1_HORDE = "Helm des großen Jägers"
 
---Quest 16 Horde  (same as Quest 12 Alliance)
-Inst5Quest16_HORDE = "16. Abstimmung mit dem Kern"
-Inst5Quest16_HORDE_Level = Inst5Quest12_Level
-Inst5Quest16_HORDE_Attain = Inst5Quest12_Attain
-Inst5Quest16_HORDE_Aim = Inst5Quest12_Aim
-Inst5Quest16_HORDE_Location = Inst5Quest12_Location
-Inst5Quest16_HORDE_Note = Inst5Quest12_Note
-Inst5Quest16_HORDE_Prequest = Inst5Quest12_Prequest
-Inst5Quest16_HORDE_Folgequest = Inst5Quest12_Folgequest
--- No Rewards for this quest
+--Quest 16 Horde
+Inst5Quest16 = "16. Der Zauberfoliant des Pyromanten (Magier)"
+Inst5Quest16_Level = "50"
+Inst5Quest16_Attain = "50"
+Inst5Quest16_Aim = "Tötet 6 Zwielichtabgesandte und besorgt Weisenkorns Zauberfoliant von Pyromant Weisenkorn am Schrein von Thaurissan in den Schwarzfelstiefen."
+Inst5Quest16_Location = "Ureda (Orgrimmar - Kluft der Schatten; "..YELLOW.."51.3, 72.3"..WHITE..")"
+Inst5Quest16_Note = "Dies ist eine Magierklassenquest. Die optionale Vorquest startet bei jedem Magierlehrer in den Hauptstädten.\n\nPyromant Weisenkorn ist bei "..YELLOW.."[8]"..WHITE.."."
+Inst5Quest16_Prequest = "Ja, Trefft Ureda"
+Inst5Quest16_Folgequest = "Nein"
+Inst5Quest16FQuest = "true"
+--
+Inst5Quest16name1_HORDE = "Kapuze des arkanen Pfades"
 
---Quest 17 Horde  (same as Quest 9 Alliance)
-Inst5Quest17_HORDE = "17. Eine Kostprobe der Flamme"
-Inst5Quest17_HORDE_Level = Inst5Quest9_Level
-Inst5Quest17_HORDE_Attain = Inst5Quest9_Attain
-Inst5Quest17_HORDE_Aim = Inst5Quest9_Aim
-Inst5Quest17_HORDE_Location = Inst5Quest19_Location
-Inst5Quest17_HORDE_Note = Inst5Quest9_Note
-Inst5Quest17_HORDE_Prequest = Inst5Quest9_Prequest
-Inst5Quest17_HORDE_Folgequest = Inst5Quest9_Folgequest
--- No Rewards for this quest
+--Quest 17 Horde
+Inst5Quest17 = "17. Zwielichttränke (Priester)"
+Inst5Quest17_Level = "50"
+Inst5Quest17_Attain = "50"
+Inst5Quest17_Aim = "Benutzt die leuchtende Fackel, um 8 Abschriften des Glaubensbekenntnisses des Schattenhammers im Domizil der Schwarzfelstiefen zu zerstören."
+Inst5Quest17_Location = "Dunkle Klerikerin Cecille (Orgrimmar - Tal der Stärke; "..YELLOW.."48.7, 72.8"..WHITE..")"
+Inst5Quest17_Note = "Dies ist eine Priesterklassenquest. Die optionale Vorquest startet bei jedem Priesterlehrer in den Hauptstädten."
+Inst5Quest17_Prequest = "Ja, Trefft Dunkle Klerikerin Cecille"
+Inst5Quest17_Folgequest = "Nein"
+Inst5Quest17FQuest = "true"
+--
+Inst5Quest17name1_HORDE = "Krone des aufgegebenen Glaubens"
 
---Quest 18 Horde  (same as Quest 10 Alliance)
-Inst5Quest18_HORDE = "18. Kharan Hammermacht"
-Inst5Quest18_HORDE_Level = Inst5Quest10_Level
-Inst5Quest18_HORDE_Attain = Inst5Quest10_Attain
-Inst5Quest18_HORDE_Aim = Inst5Quest10_Aim
-Inst5Quest18_HORDE_Location = Inst5Quest10_Location
-Inst5Quest18_HORDE_Note = Inst5Quest10_Note
-Inst5Quest18_HORDE_Prequest = Inst5Quest10_Prequest
-Inst5Quest18_HORDE_Folgequest = Inst5Quest10_Folgequest
--- No Rewards for this quest
+--Quest 18 Horde
+Inst5Quest18 = "18. Waffen der Dunkelheit (Paladin)"
+Inst5Quest18_Level = "50"
+Inst5Quest18_Attain = "50"
+Inst5Quest18_Aim = "Sammelt 5 elementarerfüllte Waffen von den Zwergen der Zorneshämmer in den Schwarzfelstiefen und zerbrecht sie auf dem Schwarzen Amboss in der Schattenschmiede."
+Inst5Quest18_Location = "Meister Pyreanor (Orgrimmar - Tal der Stärke; "..YELLOW.."49.2, 71.3"..WHITE..")"
+Inst5Quest18_Note = "Dies ist eine Paladinklassenquest. Die optionale Vorquest startet bei jedem Paladinlehrer in den Hauptstädten.\n\nDer schwarze Amboss ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst5Quest18_Prequest = "Ja, Trefft Meister Pyreanor"
+Inst5Quest18_Folgequest = "Nein"
+Inst5Quest18FQuest = "true"
+--
+Inst5Quest18name1_HORDE = "Helm des Ordens"
+Inst5Quest18name2_HORDE = "Gesichtsschutz des Ordens"
+Inst5Quest18name3_HORDE = "Kopfschutz des Ordens"
+Inst5Quest18name4_HORDE = "Wappenrock der Blutritter"
 
 --Quest 19 Horde
-Inst5Quest19_HORDE = "19. Düsterbräus Düsterbräu"
-Inst5Quest19_HORDE_Level = "80"
-Inst5Quest19_HORDE_Attain = "75"
-Inst5Quest19_HORDE_Aim = "Bringt Düsterbräus Düsterbräu zu Zapfus Schwindelfass im Braufestlager in der Nähe von Orgrimmar"
-Inst5Quest19_HORDE_Location = "Düsterbräus Düsterbräu ( droppt von Coren Düsterbräu bei "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest19_HORDE_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwarzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nZapfus Schwindelfass ist auf dem Braufestplatz bei (Durotar; "..YELLOW.."45,17"..WHITE..")."
-Inst5Quest19_HORDE_Prequest = "Nein"
-Inst5Quest19_HORDE_Folgequest = "Nein"
+Inst5Quest19 = "19. Waffen der Dunkelheit (Paladin)"
+Inst5Quest19_Level = "50"
+Inst5Quest19_Attain = "50"
+Inst5Quest19_Aim = "Sammelt 5 elementarerfüllte Waffen von den Zwergen der Zorneshämmer in den Schwarzfelstiefen und zerbrecht sie auf dem Schwarzen Amboss in der Schattenschmiede."
+Inst5Quest19_Location = "Sonnenläufer Atohmo (Orgrimmar - Tal der Weisheit;"..YELLOW.."45.2, 53.7"..WHITE..")"
+Inst5Quest19_Note = "Dies ist eine Paladinklassenquest. Die optionale Vorquest startet bei jedem Paladinlehrer in den Hauptstädten.\n\nDer schwarze Amboss ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst5Quest19_Prequest = "Ja, Trefft Sonnenläufer Atohmo"
+Inst5Quest19_Folgequest = "Nein"
+Inst5Quest19FQuest = "true"
 --
-Inst5Quest19name1 = "Braufestmarken"
+Inst5Quest19name1_HORDE = "Helm des Sonnenläufers"
+Inst5Quest19name2_HORDE = "Gesichtsschutz des Sonnenläufers"
+Inst5Quest19name3_HORDE = "Kopfschutz des Sonnenläufers"
+
+--Quest 20 Horde (same as Quest 19 Alliance)
+Inst5Quest20_HORDE = "20. Abstimmung mit dem Kern"
+Inst5Quest20_HORDE_Level = Inst5Quest19_Level
+Inst5Quest20_HORDE_Attain = Inst5Quest19_Attain
+Inst5Quest20_HORDE_Aim = Inst5Quest19_Aim
+Inst5Quest20_HORDE_Location = Inst5Quest19_Location
+Inst5Quest20_HORDE_Note = Inst5Quest19_Note
+Inst5Quest20_HORDE_Prequest = Inst5Quest19_Prequest
+Inst5Quest20_HORDE_Folgequest = Inst5Quest19_Folgequest
+-- No Rewards for this quest 
+
+--Quest 21 Horde (same as Quest 20 Alliance)
+Inst5Quest21_HORDE = "21. Der spektrale Kelch"
+Inst5Quest21_HORDE_Level = Inst5Quest20_Level
+Inst5Quest21_HORDE_Attain = Inst5Quest20_Attain
+Inst5Quest21_HORDE_Aim = Inst5Quest20_Aim
+Inst5Quest21_HORDE_Location = Inst5Quest20_Location
+Inst5Quest21_HORDE_Note = Inst5Quest20_Note
+Inst5Quest21_HORDE_Prequest = Inst5Quest20_Prequest
+Inst5Quest21_HORDE_Folgequest = Inst5Quest20_Folgequest
+-- No Rewards for this quest 
+
+--Quest 22 Horde
+Inst5Quest22_HORDE = "22. Düsterbräus Düsterbräu"
+Inst5Quest22_HORDE_Level = "85"
+Inst5Quest22_HORDE_Attain = "85"
+Inst5Quest22_HORDE_Aim = "Bringt Düsterbräus Düsterbräu zu Zapfus Schwindelfass im Braufestlager in der Nähe von Orgrimmar"
+Inst5Quest22_HORDE_Location = "Düsterbräus Düsterbräu ( droppt von Coren Düsterbräu bei "..YELLOW.."[15]"..WHITE..")"
+Inst5Quest22_HORDE_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwarzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nZapfus Schwindelfass ist auf dem Braufestplatz bei (Durotar; "..YELLOW.."45,17"..WHITE..")."
+Inst5Quest22_HORDE_Prequest = "Nein"
+Inst5Quest22_HORDE_Folgequest = "Nein"
+--
+Inst5Quest22name1_HORDE = "Braufestmarken"
 
 
 
@@ -6194,7 +6299,7 @@ Inst43Quest1_Level = "65"
 Inst43Quest1_Attain = "62"
 Inst43Quest1_Aim = "Findet heraus, was mit Erdbinder Rayge, Naturalist Biss, Jäter Gründaum und Windrufer Klaue geschehen ist. Kehrt dann zu Behüterin Jhang im Echsenkessel in den Zangarmarschen zurück."
 Inst43Quest1_Location = "Behüterin Jhang (Echsenkessel; "..YELLOW.."52,36"..WHITE..")"
-Inst43Quest1_Note = "Behüterin Jhang ist in der Unterwasserhöhle am Versammlungsstein. Erdbinder Rayge befindet sich bei "..GREEN.."[1']"..WHITE..", Windrufer Klaue befindet sich bei "..YELLOW.."[3]"..WHITE..".\n\nDie anderen beiden in den "..YELLOW.."[Sklavenunterkünften]"..WHITE..".
+Inst43Quest1_Note = "Behüterin Jhang ist in der Unterwasserhöhle am Versammlungsstein. Erdbinder Rayge befindet sich bei "..GREEN.."[1']"..WHITE..", Windrufer Klaue befindet sich bei "..YELLOW.."[3]"..WHITE..".\n\nDie anderen beiden in den "..YELLOW.."[Sklavenunterkünften]"..WHITE.."."
 Inst43Quest1_Prequest = "Ja, Kanalisationspläne -> Fehlgeschlagene Operation"
 Inst43Quest1_Folgequest = "Nein"
 Inst43Quest1PreQuest = "true"
@@ -10117,7 +10222,7 @@ Inst86Quest3 = "3. Hodirs Siegel"
 Inst86Quest3_Level = "80"
 Inst86Quest3_Attain = "80"
 Inst86Quest3_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt."
-Inst86Quest3_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITEE..")"
+Inst86Quest3_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest3_Note = "Hodir ist bei "..YELLOW.."Die Behüter [9]"..WHITE..".  Hordir muss im harten Modus gelegt werden um das Siegel zu bekommen."
 Inst86Quest3_Prequest = "Das himmlische Planetarium"
 Inst86Quest3_Folgequest = "Nein"
@@ -11236,37 +11341,326 @@ Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 
 --------------- INST95 - Blackrock Caverns --------------- 
 
-Inst95Story = ""
-Inst95Caption = "Blackrock Caverns"
-Inst95QAA = "No Quests"
-Inst95QAH = "No Quests"
+Inst95Story = "Die Schwarzfelshöhlen bestehen aus einer Reihe von Tunneln, die Todesschwinge vom Schattenhochland zum Schwarzfelsberg erschaffen hat. Sie werden vom Zwielichtklan verwendet, um Nachschub zwischen den Orten zu transportieren und Zelots in Drachenbrut zu transmutieren. Die Truppen der Schwarzfelshöhlen werden von Aszendentenfürst Obsidius angeführt."
+Inst95Caption = "Schwarzfelshöhlen"
+Inst95QAA = "6 Quests"
+Inst95QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst95Quest1 = "1. Das kann nur eins bedeuten..."
+Inst95Quest1_Level = "82"
+Inst95Quest1_Attain = "80"
+Inst95Quest1_Aim = "Nehmt Finkles Maulwurfmaschine zum Schwarzfels."
+Inst95Quest1_Location = "Finkle Einhorn (Berg Hyjal - Der Aschenzirkel; "..YELLOW.."42.6, 28.1"..WHITE..")"
+Inst95Quest1_Note = "Die Maulwurfmaschine ist in der Nähe von "..YELLOW.."42.8, 28.9"..WHITE..". Diese Quest bringt dich zu Finkle Einhorn innerhalb der Schwarzfelshöhlen am Eingang bei "..GREEN.."[1']"..WHITE.."."
+Inst95Quest1_Prequest = "Nein"
+Inst95Quest1_Folgequest = "Ja, Zur Kammer der Verbrennung!"
+Inst95Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst95Quest2 = "2. Zur Kammer der Verbrennung!"
+Inst95Quest2_Level = "82"
+Inst95Quest2_Attain = "80"
+Inst95Quest2_Aim = "Tötet Rom'ogg Knochenbrecher."
+Inst95Quest2_Location = "Finkle Einhorn (Schwarzfelshöhlen; "..GREEN.."[1']"..WHITE..")"
+Inst95Quest2_Note = "Rom'ogg Knochenbrecher ist der erste Boss, bei "..YELLOW.."[1]"..WHITE.."."
+Inst95Quest2_Prequest = "Das kann nur eins bedeuten..."
+Inst95Quest2_Folgequest = "Nein"
+Inst95Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst95Quest3 = "3. Wo sind wir hier?"
+Inst95Quest3_Level = "82"
+Inst95Quest3_Attain = "80"
+Inst95Quest3_Aim = "Tötet Corla, Botin des Zwielichts."
+Inst95Quest3_Location = "Finkle Einhorns Helm gibt dir die Quest automatisch"
+Inst95Quest3_Note = "Corla, Botin des Zwielichts ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst95Quest3_Prequest = "Nein"
+Inst95Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst95Quest4 = "4. Die Zwielichtschmiede"
+Inst95Quest4_Level = "82"
+Inst95Quest4_Attain = "80"
+Inst95Quest4_Aim = "Tötet Karsh Stahlbieger."
+Inst95Quest4_Location = "Finkle Einhorns Helm gibt dir die Quest automatisch"
+Inst95Quest4_Note = "Karsh Stahlbieger ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst95Quest4_Prequest = "Nein"
+Inst95Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst95Quest5 = "5. Kann ich meinen Augen trauen?"
+Inst95Quest5_Level = "82"
+Inst95Quest5_Attain = "80"
+Inst95Quest5_Aim = "Tötet Bella."
+Inst95Quest5_Location = "Finkle Einhorns Helm gibt dir die Quest automatisch"
+Inst95Quest5_Note = "Bella ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst95Quest5_Prequest = "Nein"
+Inst95Quest5_Folgequest = "Nein"
+--
+Inst95Quest5name1 = "Finkles Glitzern"
+Inst95Quest5name2 = "Bellas Bazillenübersätes Deckchen"
+Inst95Quest5name3 = "Bellissimas Halsband"
+
+--Quest 6 Alliance
+Inst95Quest6 = "6. Aszendentenfürst Obsidius"
+Inst95Quest6_Level = "82"
+Inst95Quest6_Attain = "80"
+Inst95Quest6_Aim = "Tötet Aszendentenfürst Obsidius."
+Inst95Quest6_Location = "Finkle Einhorns Helm gibt dir die Quest automatisch"
+Inst95Quest6_Note = "Aszendentenfürst Obsidius ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst95Quest6_Prequest = "Nein"
+Inst95Quest6_Folgequest = "Nein"
+--
+Inst95Quest6name1 = "Säurezerfressene Weste"
+Inst95Quest6name2 = "Diamantbesetzter Helm"
+Inst95Quest6name3 = "Raz' Brustplatte"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst95Quest1_HORDE = Inst95Quest1
+Inst95Quest1_HORDE_Level = Inst95Quest1_Level
+Inst95Quest1_HORDE_Attain = Inst95Quest1_Attain
+Inst95Quest1_HORDE_Aim = Inst95Quest1_Aim
+Inst95Quest1_HORDE_Location = Inst95Quest1_Location
+Inst95Quest1_HORDE_Note = Inst95Quest1_Note
+Inst95Quest1_HORDE_Prequest = Inst95Quest1_Prequest
+Inst95Quest1_HORDE_Folgequest = Inst95Quest1_Folgequest
+Inst95Quest1PreQuest_HORDE = Inst95Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde (same as Quest 2 Alliance)
+Inst95Quest2_HORDE = Inst95Quest2
+Inst95Quest2_HORDE_Level = Inst95Quest2_Level
+Inst95Quest2_HORDE_Attain = Inst95Quest2_Attain
+Inst95Quest2_HORDE_Aim = Inst95Quest2_Aim
+Inst95Quest2_HORDE_Location = Inst95Quest2_Location
+Inst95Quest2_HORDE_Note = Inst95Quest2_Note
+Inst95Quest2_HORDE_Prequest = Inst95Quest2_Prequest
+Inst95Quest2_HORDE_Folgequest = Inst95Quest2_Folgequest
+Inst95Quest2FQuest_HORDE = Inst95Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst95Quest3_HORDE = Inst95Quest3
+Inst95Quest3_HORDE_Level = Inst95Quest3_Level
+Inst95Quest3_HORDE_Attain = Inst95Quest3_Attain
+Inst95Quest3_HORDE_Aim = Inst95Quest3_Aim
+Inst95Quest3_HORDE_Location = Inst95Quest3_Location
+Inst95Quest3_HORDE_Note = Inst95Quest3_Note
+Inst95Quest3_HORDE_Prequest = Inst95Quest3_Prequest
+Inst95Quest3_HORDE_Folgequest = Inst95Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde (same as Quest 4 Alliance)
+Inst95Quest4_HORDE = Inst95Quest4
+Inst95Quest4_HORDE_Level = Inst95Quest4_Level
+Inst95Quest4_HORDE_Attain = Inst95Quest4_Attain
+Inst95Quest4_HORDE_Aim = Inst95Quest4_Aim
+Inst95Quest4_HORDE_Location = Inst95Quest4_Location
+Inst95Quest4_HORDE_Note = Inst95Quest4_Note
+Inst95Quest4_HORDE_Prequest = Inst95Quest4_Prequest
+Inst95Quest4_HORDE_Folgequest = Inst95Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde (same as Quest 5 Alliance)
+Inst95Quest5_HORDE = Inst95Quest5
+Inst95Quest5_HORDE_Level = Inst95Quest5_Level
+Inst95Quest5_HORDE_Attain = Inst95Quest5_Attain
+Inst95Quest5_HORDE_Aim = Inst95Quest5_Aim
+Inst95Quest5_HORDE_Location = Inst95Quest5_Location
+Inst95Quest5_HORDE_Note = Inst95Quest5_Note
+Inst95Quest5_HORDE_Prequest = Inst95Quest5_Prequest
+Inst95Quest5_HORDE_Folgequest = Inst95Quest5_Folgequest
+--
+Inst95Quest5name1_HORDE = Inst95Quest5name1
+Inst95Quest5name2_HORDE = Inst95Quest5name2
+Inst95Quest5name3_HORDE = Inst95Quest5name3
+
+--Quest 6 Horde (same as Quest 6 Alliance)
+Inst95Quest6_HORDE = Inst95Quest6
+Inst95Quest6_HORDE_Level = Inst95Quest6_Level
+Inst95Quest6_HORDE_Attain = Inst95Quest6_Attain
+Inst95Quest6_HORDE_Aim = Inst95Quest6_Aim
+Inst95Quest6_HORDE_Location = Inst95Quest6_Location
+Inst95Quest6_HORDE_Note = Inst95Quest6_Note
+Inst95Quest6_HORDE_Prequest = Inst95Quest6_Prequest
+Inst95Quest6_HORDE_Folgequest = Inst95Quest6_Folgequest
+--
+Inst95Quest6name1_HORDE = Inst95Quest6name1
+Inst95Quest6name2_HORDE = Inst95Quest6name2
+Inst95Quest6name3_HORDE = Inst95Quest6name3 
 
 
 
 --------------- INST96 - Throne of the Tides ---------------
 
 Inst96Story = ""
-Inst96Caption = "Throne of the Tides"
-Inst96QAA = "No Quests"
-Inst96QAH = "No Quests"
+Inst96Caption = "Thron der Gezeiten"
+Inst96QAA = "2 Quests"
+Inst96QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst96Quest1 = "1. Die Sünden der Meerhexe"
+Inst96Quest1_Level = "82"
+Inst96Quest1_Attain = "80"
+Inst96Quest1_Aim = "Kapitän Taylor will, dass Ihr Lady Naz'jar besiegt."
+Inst96Quest1_Location = ""
+Inst96Quest1_Note = ""
+Inst96Quest1_Prequest = "Nein"
+Inst96Quest1_Folgequest = "Nein"
+--
+Inst96Quest1name1 = "Tiefennebelroben"
+Inst96Quest1name2 = "Kelpwaldweste"
+Inst96Quest1name3 = "Steinsprechergürtel"
+
+--Quest 2 Alliance
+Inst96Quest2 = "2. Rettet den Erdsprecher!"
+Inst96Quest2_Level = "82"
+Inst96Quest2_Attain = "80"
+Inst96Quest2_Aim = "Rettet Erunak Steinsprecher."
+Inst96Quest2_Location = ""
+Inst96Quest2_Note = ""
+Inst96Quest2_Prequest = "Nein"
+Inst96Quest2_Folgequest = "Nein"
+--
+Inst96Quest2name1 = "Seehexenglücksbringer"
+Inst96Quest2name2 = "Gamaschen der günstigen Schläge"
+Inst96Quest2name3 = "Gürtel der tausend Tode"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst96Quest1_HORDE = Inst96Quest1
+Inst96Quest1_HORDE_Level = Inst96Quest1_Level
+Inst96Quest1_HORDE_Attain = "Legionär Nazgrim will, dass Ihr Lady Naz'jar vernichtet."
+Inst96Quest1_HORDE_Aim = Inst96Quest2_Aim
+Inst96Quest1_HORDE_Location = Inst96Quest1_Location
+Inst96Quest1_HORDE_Note = Inst96Quest1_Note
+Inst96Quest1_HORDE_Prequest = Inst96Quest1_Prequest
+Inst96Quest1_HORDE_Folgequest = Inst96Quest1_Folgequest
+--
+Inst96Quest1name1_Horde = "Tiefennebelroben"
+Inst96Quest1name2_Horde = "Kelpwaldweste"
+Inst96Quest1name3_Horde = "Steinsprechergürtel"
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst96Quest2_HORDE = Inst96Quest2
+Inst96Quest2_HORDE_Level = Inst96Quest2_Level
+Inst96Quest2_HORDE_Attain = Inst96Quest2_Attain
+Inst96Quest2_HORDE_Aim = Inst96Quest2_Aim
+Inst96Quest2_HORDE_Location = Inst96Quest2_Location
+Inst96Quest2_HORDE_Note = Inst96Quest2_Note
+Inst96Quest2_HORDE_Prequest = Inst96Quest2_Prequest
+Inst96Quest2_HORDE_Folgequest = Inst96Quest2_Folgequest
+--
+Inst96Quest2name1_Horde = "Seehexenglücksbringer"
+Inst96Quest2name2_Horde = "Gamaschen der günstigen Schläge"
+Inst96Quest2name3_Horde = "Gürtel der tausend Tode"
 
 
 
 --------------- INST97 - The Stonecore ---------------
 
 Inst97Story = ""
-Inst97Caption = "The Stonecore"
-Inst97QAA = "No Quests"
-Inst97QAH = "No Quests"
+Inst97Caption = "Der steinerne Kern"
+Inst97QAA = "4 Quests"
+Inst97QAH = "4 Quests"
 
 
 
 --------------- INST98 - The Vortex Pinacle ---------------
 
-Inst98Story = ""
-Inst98Caption = "The Vortex Pinacle"
-Inst98QAA = "No Quests"
-Inst98QAH = "No Quests"
+Inst98Story = "Wird noch nachgereicht"
+Inst98Caption = "Der Vortexgipfel"
+Inst98QAA = "3 Quests"
+Inst98QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst98Quest1 = "1. Der Vortexgipfel"
+Inst98Quest1_Level = "84"
+Inst98Quest1_Attain = "82"
+Inst98Quest1_Aim = "Findet Itesh im Vortexgipfel."
+Inst98Quest1_Location = "General Ammantep (Uldum; "..YELLOW.."45.2, 37.8"..WHITE..")"
+Inst98Quest1_Note = "Dies ist eine optionale 'Brotkrumen' Quest die dich zum Vortexgipfel schickt. Du bekommst diese Quest nachdem du einige Questen in Uldum erledigt hast.\n\nItesh ist in der Nähe vom Eingang."
+Inst98Quest1_Prequest = "MISSING INFO"
+Inst98Quest1_Folgequest = "Rache für Orsis"
+Inst98Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst98Quest2 = "2. Rache für Orsis"
+Inst98Quest2_Level = "84"
+Inst98Quest2_Attain = "82"
+Inst98Quest2_Aim = "Tötet Asaad."
+Inst98Quest2_Location = "Itesh (Vortexgipfel; "..YELLOW.."Eingang"..WHITE..")"
+Inst98Quest2_Note = "Asaad ist der finale Boss, bei "..YELLOW.."[3]"..WHITE..". Die Vorquest ist optional. Diese Quest bringt dich zurück zum Eingang."
+Inst98Quest2_Prequest = "Der Vortexgipfel"
+Inst98Quest2_Folgequest = "Nein"
+Inst98Quest2FQuest = "true"
+--
+Inst98Quest2name1 = "Zeichen der Dankbarkeit"
+Inst98Quest2name2 = "Schienbeinschützer von Orsis"
+Inst98Quest2name3 = "Kalifenband"
+
+--Quest 3 Alliance
+Inst98Quest3 = "3. Weit von zuhause entfernt"
+Inst98Quest3_Level = "84"
+Inst98Quest3_Attain = "82"
+Inst98Quest3_Aim = "Beschafft das Herz von Großwesir Ertan."
+Inst98Quest3_Location = "Itesh (Vortexgipfel; "..YELLOW.."Eingang"..WHITE..")"
+Inst98Quest3_Note = "Großwesir Ertan ist der erste Boss, bei "..YELLOW.."[1]"..WHITE..". Diese Quest bringt dich zurück zum Eingang."
+Inst98Quest3_Prequest = "Nein"
+Inst98Quest3_Folgequest = "Nein"
+--
+Inst98Quest3name1 = "Umhang von Itesh"
+Inst98Quest3name2 = "Gamaschen des Vortexgipfels"
+Inst98Quest3name3 = " Band der Sackgasse "
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst98Quest1_HORDE = Inst98Quest1
+Inst98Quest1_HORDE_Level = Inst98Quest1_Level
+Inst98Quest1_HORDE_Attain = Inst98Quest1_Attain
+Inst98Quest1_HORDE_Aim = Inst98Quest1_Aim
+Inst98Quest1_HORDE_Location = Inst98Quest1_Location
+Inst98Quest1_HORDE_Note = Inst98Quest1_Note
+Inst98Quest1_HORDE_Prequest = Inst98Quest1_Prequest
+Inst98Quest1_HORDE_Folgequest = Inst98Quest1_Folgequest
+Inst98Quest1PreQuest_HORDE = Inst98Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde (same as Quest 2 Alliance)
+Inst98Quest2_HORDE = Inst98Quest2
+Inst98Quest2_HORDE_Level = Inst98Quest2_Level
+Inst98Quest2_HORDE_Attain = Inst98Quest2_Attain
+Inst98Quest2_HORDE_Aim = Inst98Quest2_Aim
+Inst98Quest2_HORDE_Location = Inst98Quest2_Location
+Inst98Quest2_HORDE_Note = Inst98Quest2_Note
+Inst98Quest2_HORDE_Prequest = Inst98Quest2_Prequest
+Inst98Quest2_HORDE_Folgequest = Inst98Quest2_Folgequest
+Inst98Quest2FQuest_HORDE = Inst98Quest2FQuest
+--
+Inst98Quest2name1_HORDE = Inst98Quest2name1
+Inst98Quest2name2_HORDE = Inst98Quest2name2
+Inst98Quest2name3_HORDE = Inst98Quest2name3
+
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst98Quest3_HORDE = Inst98Quest3
+Inst98Quest3_HORDE_Level = Inst98Quest3_Level
+Inst98Quest3_HORDE_Attain = Inst98Quest3_Attain
+Inst98Quest3_HORDE_Aim = Inst98Quest3_Aim
+Inst98Quest3_HORDE_Location = Inst98Quest3_Location
+Inst98Quest3_HORDE_Note = Inst98Quest3_Note
+Inst98Quest3_HORDE_Prequest = Inst98Quest3_Prequest
+Inst98Quest3_HORDE_Folgequest = Inst98Quest3_Folgequest
+--
+Inst98Quest3name1_HORDE = Inst98Quest3name1
+Inst98Quest3name2_HORDE = Inst98Quest3name2
+Inst98Quest3name3_HORDE = Inst98Quest3name3
 
 
 
@@ -11274,26 +11668,26 @@ Inst98QAH = "No Quests"
 
 Inst99Story = ""
 Inst99Caption = "Grim Batol"
-Inst99QAA = "No Quests"
-Inst99QAH = "No Quests"
+Inst99QAA = "3 Quests"
+Inst99QAH = "3 Quests"
 
 
 
 --------------- INST100 - Halls of Origination ---------------
 
 Inst100Story = ""
-Inst100Caption = "Halls of Origination"
-Inst100QAA = "No Quests"
-Inst100QAH = "No Quests"
+Inst100Caption = "Hallen des Ursprungs"
+Inst100QAA = "3 Quests"
+Inst100QAH = "3 Quests"
 
 
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
 Inst101Story = ""
-Inst101Caption = "Lost City of the Tol'vir"
-Inst101QAA = "No Quests"
-Inst101QAH = "No Quests"
+Inst101Caption = "Die Verlorene Stadt der Tol'vir"
+Inst101QAA = "3 Quests"
+Inst101QAH = "3 Quests"
 
 
 
@@ -11318,7 +11712,7 @@ Inst103QAH = "No Quests"
 --------------- INST104 - Throne of the Four Winds ---------------
 
 Inst104Story = ""
-Inst104Caption = "Throne of the Four Winds"
+Inst104Caption = "Thron der vier Winde"
 Inst104QAA = "No Quests"
 Inst104QAH = "No Quests"
 
