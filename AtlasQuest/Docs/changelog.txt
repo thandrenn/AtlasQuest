@@ -4,9 +4,8 @@ Changelog
 
 Version 4.6.0 ALPHA
 
-- Basic Cataclysm dungeon support.
 - No longer "officially" supporting AlphaMap. AtlasQuest will still work with AlphaMap (I'm leaving the support code in), but its been a long time since the Boss location numbers matched up. In the future, perhaps with a major rewrite of AtlasQuest I'll be able to work something out to support both Atlas and AlphaMap.
-- Merged in Natch's AtlasQuest Helper code importing completed quests from the server.
+- Merged in Natch's AtlasQuest Helper code. You can now query the server for completed quests to fill in the "Quest completed" check boxes. This is in options.
 - Updated Location numbers for all Burning Crusade & Lich King dungeons to match Atlas 1.18.0.
 - All quests the used to reward Badges or Emblems now correctly list Justice Points as their rewards.
 - Code Bug fixes (Thanks Speedwaystar, Kharthus)
@@ -22,7 +21,10 @@ Version 4.6.0 ALPHA
 
 - Cataclysm Dungeons added:
 	- Blackrock Caverns
+	- Throne of the Tides
+	- The Stonecore
 	- The Vortex Pinnacle
+	- Grim Batol
 	
 
 
