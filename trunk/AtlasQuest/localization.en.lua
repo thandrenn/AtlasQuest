@@ -11756,17 +11756,180 @@ Inst95Quest6name3_HORDE = Inst95Quest6name3
 
 Inst96Story = "Throne of the Tides is a five-player dungeon in the Abyssal Maw complex located in Vashj'ir, introduced in World of Warcraft: Cataclysm."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst96Caption = "Throne of the Tides"
-Inst96QAA = "No Quests"
-Inst96QAH = "No Quests"
+Inst96QAA = "2 Quests"
+Inst96QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst96Quest1 = "1. Rescue the Earthspeaker!"
+Inst96Quest1_Level = "82"
+Inst96Quest1_Attain = "80"
+Inst96Quest1_Aim = "Rescue Erunak Stonespeaker."
+Inst96Quest1_Location = "Captain Taylor (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest1_Note = "Erunak Stonespeaker is at "..YELLOW.."[3]"..WHITE.."."
+Inst96Quest1_Prequest = "None"
+Inst96Quest1_Folgequest = "None"
+--
+Inst96Quest1name1 = "Sea Witch Charm"
+Inst96Quest1name2 = "Leggings of Opportune Strikes"
+Inst96Quest1name3 = "Belt of a Thousand Deaths"
+
+--Quest 2 Alliance
+Inst96Quest2 = "2. Sins of the Sea Witch"
+Inst96Quest2_Level = "82"
+Inst96Quest2_Attain = "80"
+Inst96Quest2_Aim = "Captain Taylor wants you to slay Lady Naz'jar."
+Inst96Quest2_Location = "Captain Taylor (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest2_Note = "Lady Naz'jar is at "..YELLOW.."[1]"..WHITE.."."
+Inst96Quest2_Prequest = "None"
+Inst96Quest2_Folgequest = "None"
+--
+Inst96Quest2name1 = "Deepmist Robes"
+Inst96Quest2name2 = "Kelp Forest Vest"
+Inst96Quest2name3 = "Stonespeaker's Belt"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance - different quest giver)
+Inst96Quest1_HORDE = Inst96Quest1
+Inst96Quest1_HORDE_Level = Inst96Quest1_Level
+Inst96Quest1_HORDE_Attain = Inst96Quest1_Attain
+Inst96Quest1_HORDE_Aim = Inst96Quest1_Aim
+Inst96Quest1_HORDE_Location = "Legionnaire Nazgrim (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest1_HORDE_Note = Inst96Quest1_Note
+Inst96Quest1_HORDE_Prequest = Inst96Quest1_Prequest
+Inst96Quest1_HORDE_Folgequest = Inst96Quest1_Folgequest
+--
+Inst96Quest1name1_HORDE = Inst96Quest1name1
+Inst96Quest1name2_HORDE = Inst96Quest1name2
+Inst96Quest1name3_HORDE = Inst96Quest1name3
+
+--Quest 2 Horde (same as Quest 2 Alliance - different quest giver)
+Inst96Quest2_HORDE = Inst96Quest2
+Inst96Quest2_HORDE_Level = Inst96Quest2_Level
+Inst96Quest2_HORDE_Attain = Inst96Quest2_Attain
+Inst96Quest2_HORDE_Aim = "Legionnaire Nazgrim wants you to slay Lady Naz'jar."
+Inst96Quest2_HORDE_Location = "Legionnaire Nazgrim (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest2_HORDE_Note = Inst96Quest2_Note
+Inst96Quest2_HORDE_Prequest = Inst96Quest2_Prequest
+Inst96Quest2_HORDE_Folgequest = Inst96Quest2_Folgequest
+--
+Inst96Quest2name1_HORDE = Inst96Quest2name1
+Inst96Quest2name2_HORDE = Inst96Quest2name2
+Inst96Quest2name3_HORDE = Inst96Quest2name3
 
 
 
 --------------- INST97 - The Stonecore ---------------
 
-Inst97Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+
+Inst97Story = {
+  ["Page1"] = "Within the Temple of Earth, locked in the heart of Deepholm, lies the Stonecore. It was inside this mysterious domain that the Twilight's Hammer toiled over Deathwing, hammering elementium plates to the Dragon Aspect's skin to hold his tormented body together. It was also here that Deathwing began his ascent into Azeroth, shattering the fabled World Pillar and destabilizing the entire region of Deepholm. \n\nAlthough the corrupted Dragon Aspect is now gone, his fanatical Twilight's Hammer followers are still entrenched within the deepest recesses of the Stonecore. For these zealous worshippers, the point of Deathwing's ascent is sacred ground, and they would gladly give their lives to preserve its sanctity.",
+  ["Page2"] = "Shaman of the Earthen Ring have recently arrived in Deepholm to mend the broken World Pillar, but their efforts have come under attack by a host of malevolent forces, not the least of which is the Twilight's Hammer. As Horde and Alliance heroes struggle to aid the shaman, the Stonecore has become a demoralizing symbol of the grim hold that Deathwing's followers still have on Deepholm."..GREEN.."\n\nQuoted from worldofwarcraft.com",
+  ["MaxPages"] = "2",
+};
 Inst97Caption = "The Stonecore"
-Inst97QAA = "No Quests"
-Inst97QAH = "No Quests"
+Inst97QAA = "4 Quests"
+Inst97QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst97Quest1 = "1. Into the Stonecore"
+Inst97Quest1_Level = "83"
+Inst97Quest1_Attain = "82"
+Inst97Quest1_Aim = "Speak to Earthwarden Yrsa inside the Stonecore"
+Inst97Quest1_Location = "Stormcaller Mylra (Deepholm; "..YELLOW.."64.5, 82.2"..WHITE..")"
+Inst97Quest1_Note = "Earthwarden Yrsa is just inside the entrance of the Stonecore instance. There is a prequest required, but it is unclear where it begins. This quest is optional however."
+Inst97Quest1_Prequest = "Yes"
+Inst97Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst97Quest2 = "2. Twilight Documents"
+Inst97Quest2_Level = "84"
+Inst97Quest2_Attain = "82"
+Inst97Quest2_Aim = "Obtain the Twilight Documents."
+Inst97Quest2_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..")"
+Inst97Quest2_Note = "The documents appear on the ground after defeating Corborus at "..YELLOW.."[1]"..WHITE.."."
+Inst97Quest2_Prequest = "None"
+Inst97Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst97Quest3 = "3. Wayward Child"
+Inst97Quest3_Level = "84"
+Inst97Quest3_Attain = "82"
+Inst97Quest3_Aim = "Slay Ozruk."
+Inst97Quest3_Location = "Therazane (Deepholm - Therazane's Throne; "..YELLOW.."56.3, 12.8"..WHITE..")"
+Inst97Quest3_Note = "Ozruk is at "..YELLOW.."[3]"..WHITE..". Missing info on any prequests or reputation requirements for this quest."
+Inst97Quest3_Prequest = "None"
+Inst97Quest3_Folgequest = "None"
+--
+Inst97Quest3name1 = "Leggings of the Lost Child"
+Inst97Quest3name2 = "Stonecore Belt"
+Inst97Quest3name3 = "Crystal Shimmer Cloak"
+
+--Quest 4 Alliance
+Inst97Quest4 = "4. Followers and Leaders"
+Inst97Quest4_Level = "84"
+Inst97Quest4_Attain = "82"
+Inst97Quest4_Aim = "Slay High Priestess Azil and 101 Devout Followers."
+Inst97Quest4_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..") or automatically given."
+Inst97Quest4_Note = "High Priestess Azil is at "..YELLOW.."[4]"..WHITE.." and the Devout Followers are on the way to her. The quest turns in back at Earthwarden Yrsa at the instance entrance."
+Inst97Quest4_Prequest = "None"
+Inst97Quest4_Folgequest = "None"
+--
+Inst97Quest4name1 = "Band of the One Hundred and One"
+Inst97Quest4name2 = "High Priestess' Signet"
+Inst97Quest4name3 = "Pauldrons of Unholy Rituals"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst97Quest1_HORDE = Inst97Quest1
+Inst97Quest1_HORDE_Level = Inst97Quest1_Level
+Inst97Quest1_HORDE_Attain = Inst97Quest1_Attain
+Inst97Quest1_HORDE_Aim = Inst97Quest1_Aim
+Inst97Quest1_HORDE_Location = Inst97Quest1_Location
+Inst97Quest1_HORDE_Note = Inst97Quest1_Note
+Inst97Quest1_HORDE_Prequest = Inst97Quest1_Prequest
+Inst97Quest1_HORDE_Folgequest = Inst97Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst97Quest2_HORDE = Inst97Quest2
+Inst97Quest2_HORDE_Level = Inst97Quest2_Level
+Inst97Quest2_HORDE_Attain = Inst97Quest2_Attain
+Inst97Quest2_HORDE_Aim = Inst97Quest2_Aim
+Inst97Quest2_HORDE_Location = Inst97Quest2_Location
+Inst97Quest2_HORDE_Note = Inst97Quest2_Note
+Inst97Quest2_HORDE_Prequest = Inst97Quest2_Prequest
+Inst97Quest2_HORDE_Folgequest = Inst97Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst97Quest3_HORDE = Inst97Quest3
+Inst97Quest3_HORDE_Level = Inst97Quest3_Level
+Inst97Quest3_HORDE_Attain = Inst97Quest3_Attain
+Inst97Quest3_HORDE_Aim = Inst97Quest3_Aim
+Inst97Quest3_HORDE_Location = Inst97Quest3_Location
+Inst97Quest3_HORDE_Note = Inst97Quest3_Note
+Inst97Quest3_HORDE_Prequest = Inst97Quest3_Prequest
+Inst97Quest3_HORDE_Folgequest = Inst97Quest3_Folgequest
+--
+Inst97Quest3name1_HORDE = Inst97Quest3name1
+Inst97Quest3name2_HORDE = Inst97Quest3name2
+Inst97Quest3name3_HORDE = Inst97Quest3name3
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst97Quest4_HORDE = Inst97Quest4
+Inst97Quest4_HORDE_Level = Inst97Quest4_Level
+Inst97Quest4_HORDE_Attain = Inst97Quest4_Attain
+Inst97Quest4_HORDE_Aim = Inst97Quest4_Aim
+Inst97Quest4_HORDE_Location = Inst97Quest4_Location
+Inst97Quest4_HORDE_Note = Inst97Quest4_Note
+Inst97Quest4_HORDE_Prequest = Inst97Quest4_Prequest
+Inst97Quest4_HORDE_Folgequest = Inst97Quest4_Folgequest
+--
+Inst97Quest4name1_HORDE = Inst97Quest4name1
+Inst97Quest4name2_HORDE = Inst97Quest4name2
+Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 
 
@@ -11864,10 +12027,91 @@ Inst98Quest3name3_HORDE = Inst98Quest3name3
 
 --------------- INST99 - Grim Batol ---------------
 
-Inst99Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+Inst99Story = "During a bloody civil war among the three dwarven factions of Ironforge, the Bronzebeards ousted the Wildhammer and the Dark Iron clans from the ancient corridors of the mountain city. In the wake of the defeat, the Wildhammers ventured north and forged a new home, Grim Batol, in the mountains of what is now the Twilight Highlands. However, although they worked tirelessly to create a better future for themselves, the Dark Irons, who established the city of Thaurissan in the Redridge Mountains, could not move beyond the memory of their defeat. Consumed by the desire for revenge and desperate to control the entire dwarven region of Khaz Modan, the Dark Irons led a two-pronged assault on the Bronzebeards in Ironforge and the Wildhammers in Grim Batol. Despite their past differences, these two embattled rivals joined forces and drove the Dark Irons out of Khaz Modan, decimating the armies of the treacherous clan's sorcerer-thane, Thaurissan. Yet victory carried grave consequences. Although Thaurissan's wife and queen, Modgud, was slain during the attack on Grim Batol, her death tainted the mountain fortress. While the Bronzebeards rebuilt their glorious city of Ironforge, the Wildhammers felt forever changed by the horrors they witnessed at Grim Batol. They fled their cursed home and never returned."..GREEN.."\n\nQuoted from worldofwarcraft.com"
 Inst99Caption = "Grim Batol"
-Inst99QAA = "No Quests"
-Inst99QAH = "No Quests"
+Inst99QAA = "3 Quests"
+Inst99QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst99Quest1 = "1. Soften them Up"
+Inst99Quest1_Level = "85"
+Inst99Quest1_Attain = "84"
+Inst99Quest1_Aim = "Free a Red Drake within Grim Batol and use it to destroy 30 Troggs and 15 Twilight's Hammer minions."
+Inst99Quest1_Location = "Velastrasza (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
+Inst99Quest1_Note = "Missing information. The quest turns in back at the entrance."
+Inst99Quest1_Prequest = "None"
+Inst99Quest1_Folgequest = "None"
+--
+Inst99Quest1name1 = "Treasures from Grim Batol"
+
+--Quest 2 Alliance
+Inst99Quest2 = "2. Kill the Courier"
+Inst99Quest2_Level = "85"
+Inst99Quest2_Attain = "84"
+Inst99Quest2_Aim = "Kill Drahga Shadowburner and grab his Missive to Cho'gall."
+Inst99Quest2_Location = "Farseer Tooranu (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
+Inst99Quest2_Note = "Drahga Shadowburner is at "..YELLOW.."[3]"..WHITE..". The quest turns in back at the entrance."
+Inst99Quest2_Prequest = "None"
+Inst99Quest2_Folgequest = "None"
+--
+Inst99Quest2name1 = "Sandals of the Courier"
+Inst99Quest2name2 = "Helm of Secret Knowledge"
+Inst99Quest2name3 = "Tooranu's Spaulders"
+
+--Quest 3 Alliance
+Inst99Quest3 = "3. Closing a Dark Chapter"
+Inst99Quest3_Level = "85"
+Inst99Quest3_Attain = "84"
+Inst99Quest3_Aim = "Slay Erudax, the Duke of Below."
+Inst99Quest3_Location = "Baleflame (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
+Inst99Quest3_Note = "Erudax is at "..YELLOW.."[4]"..WHITE..". The quest turns in back at the entrance."
+Inst99Quest3_Prequest = "None"
+Inst99Quest3_Folgequest = "None"
+--
+Inst99Quest3name1 = "Gloves of Baleflame"
+Inst99Quest3name2 = "Eradicator's Bracers"
+Inst99Quest3name3 = "Breastplate of the Witness"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst99Quest1_HORDE = Inst99Quest1
+Inst99Quest1_HORDE_Level = Inst99Quest1_Level
+Inst99Quest1_HORDE_Attain = Inst99Quest1_Attain
+Inst99Quest1_HORDE_Aim = Inst99Quest1_Aim
+Inst99Quest1_HORDE_Location = Inst99Quest1_Location
+Inst99Quest1_HORDE_Note = Inst99Quest1_Note
+Inst99Quest1_HORDE_Prequest = Inst99Quest1_Prequest
+Inst99Quest1_HORDE_Folgequest = Inst99Quest1_Folgequest
+--
+Inst99Quest1name1_HORDE = Inst99Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst99Quest2_HORDE = Inst99Quest2
+Inst99Quest2_HORDE_Level = Inst99Quest2_Level
+Inst99Quest2_HORDE_Attain = Inst99Quest2_Attain
+Inst99Quest2_HORDE_Aim = Inst99Quest2_Aim
+Inst99Quest2_HORDE_Location = Inst99Quest2_Location
+Inst99Quest2_HORDE_Note = Inst99Quest2_Note
+Inst99Quest2_HORDE_Prequest = Inst99Quest2_Prequest
+Inst99Quest2_HORDE_Folgequest = Inst99Quest2_Folgequest
+--
+Inst99Quest2name1_HORDE = Inst99Quest2name1
+Inst99Quest2name2_HORDE = Inst99Quest2name2
+Inst99Quest2name3_HORDE = Inst99Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst99Quest3_HORDE = Inst99Quest3
+Inst99Quest3_HORDE_Level = Inst99Quest3_Level
+Inst99Quest3_HORDE_Attain = Inst99Quest3_Attain
+Inst99Quest3_HORDE_Aim = Inst99Quest3_Aim
+Inst99Quest3_HORDE_Location = Inst99Quest3_Location
+Inst99Quest3_HORDE_Note = Inst99Quest3_Note
+Inst99Quest3_HORDE_Prequest = Inst99Quest3_Prequest
+Inst99Quest3_HORDE_Folgequest = Inst99Quest3_Folgequest
+--
+Inst99Quest3name1_HORDE = Inst99Quest3name1
+Inst99Quest3name2_HORDE = Inst99Quest3name2
+Inst99Quest3name3_HORDE = Inst99Quest3name3
 
 
 
