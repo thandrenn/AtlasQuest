@@ -545,13 +545,6 @@ AQ_8578_Level = "60"
 
 
 
---------------- INST15 - Naxxramas (Naxx) ---------------
-
--- Old Naxxramas (Before Wrath of the Lich King)
--- Now using Inst84 for the new one.
-
-
-
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
 Inst16Quest1_QuestID = "7509"
@@ -934,26 +927,6 @@ AQ_3527_Level = "47"
 AQ_2768_Level = "47"
 AQ_2770_Level = "50"
 AQ_2936_Level = "45"
-
-
-
---------------- INST28 - Zul'Gurub (ZG) ---------------
-
-Inst28Quest1_QuestID = "8201"
-Inst28Quest2_QuestID = "8183"
-Inst28Quest3_QuestID = "8227"
-Inst28Quest4_QuestID = "9023"
-
-Inst28Quest1_HORDE_QuestID = "8201"
-Inst28Quest2_HORDE_QuestID = "8183"
-Inst28Quest3_HORDE_QuestID = "8227"
-Inst28Quest4_HORDE_QuestID = "9023"
-
-
-AQ_8201_Level = "60"
-AQ_8183_Level = "60"
-AQ_8227_Level = "60"
-AQ_9023_Level = "60"
 
 
 
@@ -2124,73 +2097,50 @@ AQ_28854_Level = "85"
 
 --------------- INST100 - Halls of Origination ---------------
 
+Inst100Quest1_QuestID = "28654"
+Inst100Quest2_QuestID = "28746"
+Inst100Quest3_QuestID = "28753"
 
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
+Inst100Quest1_HORDE_QuestID = "28654"
+Inst100Quest2_HORDE_QuestID = "28746"
+Inst100Quest3_HORDE_QuestID = "28753"
+
+AQ_28654_Level = "83"
+AQ_28746_Level = "83"
+AQ_28753_Level = "83"
 
 
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
+Inst101Quest1_QuestID = "28870"
+Inst101Quest2_QuestID = "28781"
+Inst101Quest3_QuestID = "28783"
 
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
+Inst101Quest1_HORDE_QuestID = "28870"
+Inst101Quest2_HORDE_QuestID = "28781"
+Inst101Quest3_HORDE_QuestID = "28783"
+
+
+AQ_28870_Level = "83"
+AQ_28781_Level = "85"
+AQ_28783_Level = "85"
 
 
 
 --------------- INST102 - Blackwing Descent ---------------
 
 
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-
-
 
 --------------- INST103 - The Bastion of Twilight ---------------
-
-
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
 
 
 
 --------------- INST104 - Throne of the Four Winds ---------------
 
 
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-
-
 
 --------------- INST105 - Baradin Hold ---------------
-
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-
 
 
 
@@ -2369,37 +2319,11 @@ AQ_14164_Level = "-1"
 
 
 
---------------- INST30 - Dragons of Nightmare ---------------
-
-Inst30Quest1_QuestID = "8446"
-
-Inst30Quest1_HORDE_QuestID = "8446"
-
-
-AQ_8446_Level = "60"
-
-
-
---------------- INST31 - Azuregos ---------------
-
-Inst31Quest1_QuestID = "7634"
-
-Inst31Quest1_HORDE_QuestID = "7634"
-
-
-AQ_7634_Level = "60"
-
-
-
 --------------- INST64 - Doom Lord Kazzak ---------------
-
--- No quests.
 
 
 
 --------------- INST65 - Doomwalker ---------------
-
--- No quests.
 
 
 
