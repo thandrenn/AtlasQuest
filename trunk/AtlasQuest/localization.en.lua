@@ -3159,13 +3159,6 @@ Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 
 
---------------- INST15 - Old Naxxramas ---------------
-
--- Old Naxxramas (Before Wrath of the Lich King)
--- Now using Inst84 for the new one.
-
-
-
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
 Inst16Story = "Onyxia is the daughter of the mighty dragon Deathwing, and sister of the scheming Nefarion Lord of Blackrock Spire. It is said that Onyxia delights in corrupting the mortal races by meddling in their political affairs. To this end it is believed that she takes on various humanoid forms and uses her charm and power to influence delicate matters between the different races. Some believe that Onyxia has even assumed an alias once used by her father - the title of the royal House Prestor. When not meddling in mortal concerns, Onyxia resides in a fiery cave below the Dragonmurk, a dismal swamp located within Dustwallow Marsh. There she is guarded by her kin, the remaining members of the insidious Black Dragon Flight."
@@ -5339,134 +5332,6 @@ Inst27Quest7_HORDE_Prequest = "None"
 Inst27Quest7_HORDE_Folgequest = Inst27Quest7_Folgequest
 --
 Inst27Quest7name1_HORDE = Inst27Quest7name1
-
-
-
---------------- INST28 - Zul'Gurub (ZG) ---------------
-
-Inst28Story = {
-  ["Page1"] = "Over a thousand years ago the powerful Gurubashi Empire was torn apart by a massive civil war. An influential group of troll priests, known as the Atal'ai, called forth the avatar of an ancient and terrible blood god named Hakkar the Soulflayer. Though the priests were defeated and ultimately exiled, the great troll empire collapsed upon itself. The exiled priests fled far to the north, into the Swamp of Sorrows, where they erected a great temple to Hakkar in order to prepare for his arrival into the physical world.",
-  ["Page2"] = "In time, the Atal'ai priests discovered that Hakkar's physical form could only be summoned within the ancient capital of the Gurubashi Empire, Zul'Gurub. Unfortunately, the priests have met with recent success in their quest to call forth Hakkar - reports confirm the presence of the dreaded Soulflayer in the heart of the Gurubashi ruins.\n\nIn order to quell the blood god, the trolls of the land banded together and sent a contingent of High Priests into the ancient city. Each priest was a powerful champion of the Primal Gods - Bat, Panther, Tiger, Spider, and Snake - but despite their best efforts, they fell under the sway of Hakkar. Now the champions and their Primal God aspects feed the awesome power of the Soulflayer. Any adventurers brave enough to venture into the foreboding ruins must overcome the High Priests if they are to have any hope of confronting the mighty blood god.",
-  ["MaxPages"] = "2",
-};
-Inst28Caption = "Zul'Gurub"
-Inst28QAA = "4 Quests"
-Inst28QAH = "4 Quests"
-
---Quest 1 Alliance
-Inst28Quest1 = "1. A Collection of Heads"
-Inst28Quest1_Level = "60"
-Inst28Quest1_Attain = "58"
-Inst28Quest1_Aim = "String 5 Channeler's Heads, then return the Collection of Troll Heads to Exzhal on Yojamba Isle."
-Inst28Quest1_Location = "Exzhal (Stranglethorn Vale - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
-Inst28Quest1_Note = "Make sure you loot all the priests."
-Inst28Quest1_Prequest = "None"
-Inst28Quest1_Folgequest = "None"
---
-Inst28Quest1name1 = "Belt of Shrunken Heads"
-Inst28Quest1name2 = "Belt of Shriveled Heads"
-Inst28Quest1name3 = "Belt of Preserved Heads"
-Inst28Quest1name4 = "Belt of Tiny Heads"
-
---Quest 2 Alliance
-Inst28Quest2 = "2. The Heart of Hakkar"
-Inst28Quest2_Level = "60"
-Inst28Quest2_Attain = "58"
-Inst28Quest2_Aim = "Bring the Heart of Hakkar to Molthor on Yojamba Isle."
-Inst28Quest2_Location = "Heart of Hakkar (drops from Hakkar; "..YELLOW.."[11]"..WHITE..")"
-Inst28Quest2_Note = "Molthor (Stranglethorn Vale - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
-Inst28Quest2_Prequest = "None"
-Inst28Quest2_Folgequest = "None"
---
-Inst28Quest2name1 = "Zandalarian Hero Badge"
-Inst28Quest2name2 = "Zandalarian Hero Charm"
-Inst28Quest2name3 = "Zandalarian Hero Medallion"
-
---Quest 3 Alliance
-Inst28Quest3 = "3. Nat's Measuring Tape"
-Inst28Quest3_Level = "60"
-Inst28Quest3_Attain = "59"
-Inst28Quest3_Aim = "Return Nat's Measuring Tape to Nat Pagle in Dustwallow Marsh."
-Inst28Quest3_Location = "Battered Tackle Box (Zul'Gurub - Northeast by water from Hakkar's Island)"
-Inst28Quest3_Note = "Nat Pagle is at Dustwallow Marsh ("..YELLOW.."59,60"..WHITE.."). Turning the quest in allows you to buy Mudskunk Lures from Nat Pagle to summon Gahz'ranka in Zul'Gurub."
-Inst28Quest3_Prequest = "None"
-Inst28Quest3_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst28Quest4 = "4. The Perfect Poison"
-Inst28Quest4_Level = "60"
-Inst28Quest4_Attain = "60"
-Inst28Quest4_Aim = "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac."
-Inst28Quest4_Location = "Dirk Thunderwood (Silithus - Cenarion Hold; "..YELLOW.."52,39"..WHITE..")"
-Inst28Quest4_Note = "Venoxis's Venom Sac drops from High priest Venoxis in "..YELLOW.."Zul'Gurub"..WHITE.." at "..YELLOW.."[2]"..WHITE..". Kurinnaxx's Venom Sac drops in the "..YELLOW.."Ruins of Ahn'Qiraj"..WHITE.." at "..YELLOW.."[1]"..WHITE.."."
-Inst28Quest4_Prequest = "None"
-Inst28Quest4_Folgequest = "None"
---
-Inst28Quest4name1 = "Ravenholdt Slicer"
-Inst28Quest4name2 = "Shivsprocket's Shiv"
-Inst28Quest4name3 = "The Thunderwood Poker"
-Inst28Quest4name4 = "Doomulus Prime"
-Inst28Quest4name5 = "Fahrad's Reloading Repeater"
-Inst28Quest4name6 = "Simone's Cultivating Hammer"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst28Quest1_HORDE = Inst28Quest1
-Inst28Quest1_HORDE_Level = Inst28Quest1_Level
-Inst28Quest1_HORDE_Attain = Inst28Quest1_Attain
-Inst28Quest1_HORDE_Aim = Inst28Quest1_Aim
-Inst28Quest1_HORDE_Location = Inst28Quest1_Location
-Inst28Quest1_HORDE_Note = Inst28Quest1_Note
-Inst28Quest1_HORDE_Prequest = Inst28Quest1_Prequest
-Inst28Quest1_HORDE_Folgequest = Inst28Quest1_Folgequest
---
-Inst28Quest1name1_HORDE = Inst28Quest1name1
-Inst28Quest1name2_HORDE = Inst28Quest1name2
-Inst28Quest1name3_HORDE = Inst28Quest1name3
-Inst28Quest1name4_HORDE = Inst28Quest1name4
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst28Quest2_HORDE = Inst28Quest2
-Inst28Quest2_HORDE_Level = Inst28Quest2_Level
-Inst28Quest2_HORDE_Attain = Inst28Quest2_Attain
-Inst28Quest2_HORDE_Aim = Inst28Quest2_Aim
-Inst28Quest2_HORDE_Location = Inst28Quest2_Location
-Inst28Quest2_HORDE_Note = Inst28Quest2_Note
-Inst28Quest2_HORDE_Prequest = Inst28Quest2_Prequest
-Inst28Quest2_HORDE_Folgequest = Inst28Quest2_Folgequest
---
-Inst28Quest2name1_HORDE = Inst28Quest2name1
-Inst28Quest2name2_HORDE = Inst28Quest2name2
-Inst28Quest2name3_HORDE = Inst28Quest2name3
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst28Quest3_HORDE = Inst28Quest3
-Inst28Quest3_HORDE_Level = Inst28Quest3_Level
-Inst28Quest3_HORDE_Attain = Inst28Quest3_Attain
-Inst28Quest3_HORDE_Aim = Inst28Quest3_Aim
-Inst28Quest3_HORDE_Location = Inst28Quest3_Location
-Inst28Quest3_HORDE_Note = Inst28Quest3_Note
-Inst28Quest3_HORDE_Prequest = Inst28Quest3_Prequest
-Inst28Quest3_HORDE_Folgequest = Inst28Quest3_Folgequest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst28Quest4_HORDE = Inst28Quest4
-Inst28Quest4_HORDE_Level = Inst28Quest4_Level
-Inst28Quest4_HORDE_Attain = Inst28Quest4_Attain
-Inst28Quest4_HORDE_Aim = Inst28Quest4_Aim
-Inst28Quest4_HORDE_Location = Inst28Quest4_Location
-Inst28Quest4_HORDE_Note = Inst28Quest4_Note
-Inst28Quest4_HORDE_Prequest = Inst28Quest4_Prequest
-Inst28Quest4_HORDE_Folgequest = Inst28Quest4_Folgequest
---
-Inst28Quest4name1_HORDE = Inst28Quest4name1
-Inst28Quest4name2_HORDE = Inst28Quest4name2
-Inst28Quest4name3_HORDE = Inst28Quest4name3
-Inst28Quest4name4_HORDE = Inst28Quest4name4
-Inst28Quest4name5_HORDE = Inst28Quest4name5
-Inst28Quest4name6_HORDE = Inst28Quest4name6
 
 
 
@@ -12117,25 +11982,197 @@ Inst99Quest3name3_HORDE = Inst99Quest3name3
 
 --------------- INST100 - Halls of Origination ---------------
 
-Inst100Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+Inst100Story = "The Halls of Origination in Uldum is a level-85 five-player dungeon available in World of Warcraft: Cataclysm, featuring an unparalleled journey through the timeless titan construction and seven unique boss fights. Hidden deep within its halls lies an ancient treasure that, if placed in the wrong hands, could endanger all life on Azeroth. Should players survive the perils of Uldum, they will be called to help Brann Bronzebeard unlock the mysteries within these treacherous titan halls and protect the titans' ancient secrets."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst100Caption = "Halls of Origination"
-Inst100QAA = "No Quests"
-Inst100QAH = "No Quests"
+Inst100QAA = "3 Quests"
+Inst100QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst100Quest1 = "1. The Heart of the Matter"
+Inst100Quest1_Level = "83"
+Inst100Quest1_Attain = "83"
+Inst100Quest1_Aim = "Brann Bronzebeard wants you to meet him in the Halls of Origination."
+Inst100Quest1_Location = "Brann Bronzebeard (Uldum - Cradle of the Ancients; "..YELLOW.."44.9, 67.4"..WHITE..")"
+Inst100Quest1_Note = "Brann Bronzebeard is a little bit inside the Halls of Origination. The prequest line is part of a series of other quests you'll do while in Uldum."
+Inst100Quest1_Prequest = "Sullah's Gift -> The Coffer of Promise"
+Inst100Quest1_Folgequest = "Penetrating Their Defenses"
+Inst100PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst100Quest2 = "2. Penetrating Their Defenses"
+Inst100Quest2_Level = "83"
+Inst100Quest2_Attain = "83"
+Inst100Quest2_Aim = "Gain entry to the Titan Control Room."
+Inst100Quest2_Location = "Brann Bronzebeard (Halls of Origination; "..YELLOW.."[??]"..WHITE..")"
+Inst100Quest2_Note = "The Titan Control Room is accessible after defeating Anraphet at "..YELLOW.."3"..WHITE.."."
+Inst100Quest2_Prequest = "The Heart of the Matter"
+Inst100Quest2_Folgequest = "Doing it the Hard Way"
+Inst100Quest2FQuest = "true"
+--
+Inst100Quest2name1 = "Repository Gauntlets"
+Inst100Quest2name2 = "Offline Greaves"
+Inst100Quest2name3 = "Boots of the Hard Way"
+
+--Quest 3 Alliance
+Inst100Quest3 = "3. Doing it the Hard Way"
+Inst100Quest3_Level = "83"
+Inst100Quest3_Attain = "83"
+Inst100Quest3_Aim = "Brann Bronzebeard wants you to kill Isiset, Ammunae, Setesh, and Rajh."
+Inst100Quest3_Location = "Brann Bronzebeard (Halls of Origination; "..YELLOW.."[??]"..WHITE..")"
+Inst100Quest3_Note = "Isiset is at "..YELLOW.."[4]"..WHITE..", Ammunae is at "..YELLOW.."[5]"..WHITE..", Setesh is at "..YELLOW.."[6]"..WHITE..", and Rajh is at "..YELLOW.."[7]"..WHITE.."."
+Inst100Quest3_Prequest = "Penetrating Their Defenses"
+Inst100Quest3_Folgequest = "None"
+Inst100Quest3FQuest = "true"
+--
+Inst100Quest3name1 = "True Archaeologist's Bracers"
+Inst100Quest3name2 = "Helm of Reorigination"
+Inst100Quest3name3 = "Treasure Hunter's Gloves"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst100Quest1_HORDE = Inst100Quest1
+Inst100Quest1_HORDE_Level = Inst100Quest1_Level
+Inst100Quest1_HORDE_Attain = Inst100Quest1_Attain
+Inst100Quest1_HORDE_Aim = Inst100Quest1_Aim
+Inst100Quest1_HORDE_Location = Inst100Quest1_Location
+Inst100Quest1_HORDE_Note = Inst100Quest1_Note
+Inst100Quest1_HORDE_Prequest = Inst100Quest1_Prequest
+Inst100Quest1_HORDE_Folgequest = Inst100Quest1_Folgequest
+Inst100Quest1PreQuest_HORDE = Inst100Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst100Quest2_HORDE = Inst100Quest2
+Inst100Quest2_HORDE_Level = Inst100Quest2_Level
+Inst100Quest2_HORDE_Attain = Inst100Quest2_Attain
+Inst100Quest2_HORDE_Aim = Inst100Quest2_Aim
+Inst100Quest2_HORDE_Location = Inst100Quest2_Location
+Inst100Quest2_HORDE_Note = Inst100Quest2_Note
+Inst100Quest2_HORDE_Prequest = Inst100Quest2_Prequest
+Inst100Quest2_HORDE_Folgequest = Inst100Quest2_Folgequest
+Inst100Quest2FQuest_HORDE = Inst100Quest2FQuest
+--
+Inst100Quest2name1_HORDE = Inst100Quest2name1
+Inst100Quest2name2_HORDE = Inst100Quest2name2
+Inst100Quest2name3_HORDE = Inst100Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst100Quest3_HORDE = Inst100Quest3
+Inst100Quest3_HORDE_Level = Inst100Quest3_Level
+Inst100Quest3_HORDE_Attain = Inst100Quest3_Attain
+Inst100Quest3_HORDE_Aim = Inst100Quest3_Aim
+Inst100Quest3_HORDE_Location = Inst100Quest3_Location
+Inst100Quest3_HORDE_Note = Inst100Quest3_Note
+Inst100Quest3_HORDE_Prequest = Inst100Quest3_Prequest
+Inst100Quest3_HORDE_Folgequest = Inst100Quest3_Folgequest
+Inst100Quest3FQuest_HORDE = Inst100Quest3FQuest
+--
+Inst100Quest3name1_HORDE = Inst100Quest3name1
+Inst100Quest3name2_HORDE = Inst100Quest3name2
+Inst100Quest3name3_HORDE = Inst100Quest3name3
 
 
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
-Inst101Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+Inst101Story = "Lost City of the Tol'vir is one of the three dungeons in Uldum introduced in World of Warcraft: Cataclysm. It is designed for level 85 players and features the Tol'vir race. Having allied themselves with Al'Akir and Deathwing in exchange for retaining their stone bodies lost in effect of the Curse of Flesh, they now pose a serious threat to the races of Uldum as well as the whole world of Azeroth that must be eliminated at all costs. The forces of Neferset here are led by the mighty djinni - Siamat, Lord of the South Wind."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst101Caption = "Lost City of the Tol'vir"
-Inst101QAA = "No Quests"
-Inst101QAH = "No Quests"
+Inst101QAA = "3 Quests"
+Inst101QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst101Quest1 = "1. Return to the Lost City"
+Inst101Quest1_Level = "83"
+Inst101Quest1_Attain = "81"
+Inst101Quest1_Aim = "Speak to Captain Hadan inside the Lost City of the Tol'vir."
+Inst101Quest1_Location = "King Phaoris (Uldum - Ramakahen; "..YELLOW.."54.9, 32.8"..WHITE..")"
+Inst101Quest1_Note = "Captain Hadan is just inside the instance. This quest becomes available after completing a series of quests from Ramakahen in Uldum. It is not required to obtain the other two quests."
+Inst101Quest1_Prequest = "Yes"
+Inst101Quest1_Folgequest = "None"
+Inst101Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst101Quest2 = "2. Targets of Opportunity"
+Inst101Quest2_Level = "85"
+Inst101Quest2_Attain = "83"
+Inst101Quest2_Aim = "Slay General Husam and 2 Oathsworn Captains."
+Inst101Quest2_Location = "Captain Hadan (Lost City of the Tol'vir; "..YELLOW.."Entrance"..WHITE..")"
+Inst101Quest2_Note = "General Husam is at "..YELLOW.."[1]"..WHITE..". The quest turns in back at the entrance."
+Inst101Quest2_Prequest = "None"
+Inst101Quest2_Folgequest = "None"
+--
+Inst101Quest2name1 = "Captain Hadan's Pauldrons"
+Inst101Quest2name2 = "Clandestine Spaulders"
+Inst101Quest2name3 = "Bracers of the Lost City"
+
+--Quest 3 Alliance
+Inst101Quest3 = "3. The Source of Their Power"
+Inst101Quest3_Level = "85"
+Inst101Quest3_Attain = "83"
+Inst101Quest3_Aim = "Slay Siamat."
+Inst101Quest3_Location = "Captain Hadan (Lost City of the Tol'vir; "..YELLOW.."Entrance"..WHITE..")"
+Inst101Quest3_Note = "Siamat is at "..YELLOW.."[4]"..WHITE..". The quest turns in back at the entrance."
+Inst101Quest3_Prequest = "None"
+Inst101Quest3_Folgequest = "None"
+--
+Inst101Quest3name1 = "Blight-Lifter's Mantle"
+Inst101Quest3name2 = "Treads of the Neferset"
+Inst101Quest3name3 = "Ramkahen Front Boots"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst101Quest1_HORDE = Inst101Quest1
+Inst101Quest1_HORDE_Level = Inst101Quest1_Level
+Inst101Quest1_HORDE_Attain = Inst101Quest1_Attain
+Inst101Quest1_HORDE_Aim = Inst101Quest1_Aim
+Inst101Quest1_HORDE_Location = Inst101Quest1_Location
+Inst101Quest1_HORDE_Note = Inst101Quest1_Note
+Inst101Quest1_HORDE_Prequest = Inst101Quest1_Prequest
+Inst101Quest1_HORDE_Folgequest = Inst101Quest1_Folgequest
+Inst101Quest1PreQuest_HORDE = Inst101Quest1PreQuest
+Inst101Quest1FQuest_HORDE = Inst101Quest1FQuest
+--
+Inst101Quest1name1_HORDE = Inst101Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst101Quest2_HORDE = Inst101Quest2
+Inst101Quest2_HORDE_Level = Inst101Quest2_Level
+Inst101Quest2_HORDE_Attain = Inst101Quest2_Attain
+Inst101Quest2_HORDE_Aim = Inst101Quest2_Aim
+Inst101Quest2_HORDE_Location = Inst101Quest2_Location
+Inst101Quest2_HORDE_Note = Inst101Quest2_Note
+Inst101Quest2_HORDE_Prequest = Inst101Quest2_Prequest
+Inst101Quest2_HORDE_Folgequest = Inst101Quest2_Folgequest
+Inst101Quest2PreQuest_HORDE = Inst101Quest2PreQuest
+Inst101Quest2FQuest_HORDE = Inst101Quest2FQuest
+--
+Inst101Quest2name1_HORDE = Inst101Quest2name1
+Inst101Quest2name2_HORDE = Inst101Quest2name2
+Inst101Quest2name3_HORDE = Inst101Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst101Quest3_HORDE = Inst101Quest3
+Inst101Quest3_HORDE_Level = Inst101Quest3_Level
+Inst101Quest3_HORDE_Attain = Inst101Quest3_Attain
+Inst101Quest3_HORDE_Aim = Inst101Quest3_Aim
+Inst101Quest3_HORDE_Location = Inst101Quest3_Location
+Inst101Quest3_HORDE_Note = Inst101Quest3_Note
+Inst101Quest3_HORDE_Prequest = Inst101Quest3_Prequest
+Inst101Quest3_HORDE_Folgequest = Inst101Quest3_Folgequest
+Inst101Quest3PreQuest_HORDE = Inst101Quest3PreQuest
+Inst101Quest3FQuest_HORDE = Inst101Quest3FQuest
+--
+Inst101Quest3name1_HORDE = Inst101Quest3name1
+Inst101Quest3name2_HORDE = Inst101Quest3name2
+Inst101Quest3name3_HORDE = Inst101Quest3name3
 
 
 
 --------------- INST102 - Blackwing Descent ---------------
 
-Inst102Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+Inst102Story = "Blackwing Descent is an entry-level level 85 raid instance. Having retreated further into Blackrock Mountain following his defeat in Blackwing Lair, Nefarian has been bolstering his forces here and must be stopped once more. The entrance to the instance is near Nefarian's throne in the uninstanced portion of Blackwing Lair and is accessible by flying mount only."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst102Caption = "Blackwing Descent"
 Inst102QAA = "No Quests"
 Inst102QAH = "No Quests"
@@ -12144,7 +12181,7 @@ Inst102QAH = "No Quests"
 
 --------------- INST103 - The Bastion of Twilight ---------------
 
-Inst103Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+Inst103Story = "Bastion of Twilight is a new entry-level raid instance that came with World of Warcraft: Cataclysm. It features five bosses plus one optional heroic boss."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst103Caption = "The Bastion of Twilight"
 Inst103QAA = "No Quests"
 Inst103QAH = "No Quests"
@@ -12153,7 +12190,7 @@ Inst103QAH = "No Quests"
 
 --------------- INST104 - Throne of the Four Winds ---------------
 
-Inst104Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+Inst104Story = "Throne of the Four Winds is a raid in the Skywall complex, introduced in World of Warcraft: Cataclysm. It can be found off the southwest coast of Uldum at high in the air. Along with Bastion of Twilight and Blackwing Descent, Throne of the Four Winds serves as an entry-level raiding instance, much as the level 80 version of Naxxramas was for Wrath of the Lich King and Karazhan was for the Burning Crusade."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst104Caption = "Throne of the Four Winds"
 Inst104QAA = "No Quests"
 Inst104QAH = "No Quests"
@@ -12162,7 +12199,7 @@ Inst104QAH = "No Quests"
 
 --------------- INST105 - Baradin Hold ---------------
 
-Inst105Story = ""..GREEN.."\n\nQuoted from wowpedia.org"
+Inst105Story = "Baradin Hold is the main fortress of Tol Barad, located at the island's center. Whoever controls the Hold - by taking and holding the three major fortifications around it - controls Tol Barad."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst105Caption = "Baradin Hold"
 Inst105QAA = "No Quests"
 Inst105QAH = "No Quests"
@@ -12823,7 +12860,7 @@ Inst89Quest1_HORDE_Folgequest = "None"
 
 --------------- INST106 - Battle for Gilneas ---------------
 
-Inst106Story = ""
+Inst106Story = "When King Greymane severed ties with the Alliance after the Second War, the kingdom of Gilneas became independent from all other nations and opposing forces. Although the massive Greymane Wall protected Gilneas from outside threats, a virulent worgen curse and civil war crippled the kingdom from within. As the Cataclysm strikes and the Greymane Wall's gates are destroyed, the people of Gilneas must come to terms with their dark curse and learn to persevere through catastrophic earthquakes and an unrelenting Forsaken invasion.\n\nThe Horde recognizes this land as a strategic location with key resources to fuel the faction's war effort against the Alliance, and Horde forces will not stop their siege until the city and its surrounding territories are under their control. To protect its lands from the Horde, the once-isolated nation of Gilneas must now work with the Alliance."
 Inst106Caption = "Battle for Gilneas"
 Inst106QAA = "No Quests"
 Inst106QAH = "No Quests"
@@ -12832,7 +12869,7 @@ Inst106QAH = "No Quests"
 
 --------------- INST107 - Twin Peaks ---------------
 
-Inst107Story = ""
+Inst107Story = "Located within the Twilight Highlands, the Twin Peaks remains a crucial point of high ground for staging effective and debilitating attacks against the black dragonflight and the Twilight's Hammer, who dominate this foreboding environment. And now, two previous occupants of the nearby city of Grim Batol vie once again for control of the peaks' defenses.\n\nThe Wildhammer clan, architects and original owners of the once-great fortress city, maintains some operations in forested outposts of the highlands. The Wildhammers now call upon heroes of the Alliance to help claim the peaks and fend off the Dragonmaw orcs. The Dragonmaw clan, having spent years working to enslave red dragons, once again provides strategic importance to the Horde. As the Dragonmaw and Wildhammers fight for territory they once called home, the Alliance and Horde carry out the struggle to control the Twin Peaks."
 Inst107Caption = "Twin Peaks"
 Inst107QAA = "No Quests"
 Inst107QAH = "No Quests"
@@ -12843,89 +12880,6 @@ Inst107QAH = "No Quests"
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
 ---------------------------------------------------
-
-
-
---------------- INST30 - Dragons of Nightmare ---------------
-
-Inst30Story = {
-  ["Page1"] = "There is a disturbance at the Great Trees. A new threat menaces these secluded areas found in Ashenvale, Duskwood, Feralas, and Hinterlands. Four great guardians of the Green Dragonflight have arrived from the Dream, but these once-proud protectors now seek only destruction and death. Take arms with your fellows and march to these hidden groves -- only you can defend Azeroth from the corruption they bring.",
-  ["Page2"] = "Ysera, the great Dreaming dragon Aspect rules over the enigmatic green dragonflight. Her domain is the fantastic, mystical realm of the Emerald Dream - and it is said that from there she guides the evolutionary path of the world itself. She is the protector of nature and imagination, and it is the charge of her flight to guard all of the Great Trees across the world, which only druids use to enter the Dream itself. In recent times, Ysera's most trusted lieutenants have been warped by a dark new power within the Emerald Dream. Now these wayward sentinels have passed through the Great Trees into Azeroth, intending to spread madness and terror throughout the mortal kingdoms. Even the mightiest of adventurers would be well advised to give the dragons a wide berth, or suffer the consequences of their misguided wrath.",
-  ["Page3"] = "Lethon's exposure to the aberration within the Emerald Dream not only darkened the hue of the mighty dragon's scales, but also empowered him with the ability to extract malevolent shades from his enemies. Once joined with their master, the shades imbue the dragon with healing energies. It should come as no surprise, then, that Lethon is considered to be among the most formidable of Ysera's wayward lieutenants",
-  ["Page4"] = "A  mysterious dark power within the Emerald Dream has transformed the once-majestic Emeriss into a rotting, diseased monstrosity. Reports from the few who have survived encounters with the dragon have told horrifying tales of putrid mushrooms erupting from the corpses of their dead companions. Emeriss is truly the most gruesome and appalling of Ysera's estranged green dragons.",
-  ["Page5"] = "Taerar was perhaps the most affected of Ysera's rogue lieutenants. His interaction with the dark force within the Emerald Dream shattered Taerar's sanity as well as his corporeal form. The dragon now exists as a specter with the ability to split into multiple entities, each of which possesses destructive magical powers. Taerar is a cunning and relentless foe who is intent on turning the madness of his existence into reality for the inhabitants of Azeroth.",
-  ["Page6"] = "Once one of Ysera's most trusted lieutenants, Ysondre has now gone rogue, sewing terror and chaos across the land of Azeroth. Her formerly beneficent healing powers have given way to dark magics, enabling her to cast smoldering lightning waves and summon the aid of fiendish druids. Ysondre and her kin also possess the ability to induce sleep, sending her unfortunate mortal foes to the realm of their most terrifying nightmares.",
-  ["MaxPages"] = "6",
-};
-Inst30Caption = "Dragons of Nightmare"
-Inst30Caption2 = "Ysera and the Green Dragonflight"
-Inst30Caption3 = "Lethon"
-Inst30Caption4 = "Emeriss"
-Inst30Caption5 = "Taerar"
-Inst30Caption6 = "Ysondre"
-Inst30QAA = "1 Quest"
-Inst30QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst30Quest1 = "1. Shrouded in Nightmare"
-Inst30Quest1_Level = "60"
-Inst30Quest1_Attain = "60"
-Inst30Quest1_Aim = "Find someone capable of deciphering the meaning behind the Nightmare Engulfed Object.\n\nPerhaps a druid of great power could assist you."
-Inst30Quest1_Location = "Nightmare Engulfed Object (drops from Emeriss, Taerar, Lethon or Ysondre)"
-Inst30Quest1_Note = "Quest turns in to Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36,41"..WHITE.."). Reward listed is for the followup."
-Inst30Quest1_Prequest = "None"
-Inst30Quest1_Folgequest = "Waking Legends"
---
-Inst30Quest1name1 = "Malfurion's Signet Ring"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst30Quest1_HORDE = Inst30Quest1
-Inst30Quest1_HORDE_Level = Inst30Quest1_Level
-Inst30Quest1_HORDE_Attain = Inst30Quest1_Attain
-Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
-Inst30Quest1_HORDE_Location = Inst30Quest1_Location
-Inst30Quest1_HORDE_Note = Inst30Quest1_Note
-Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
-Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
---
-Inst30Quest1name1_HORDE = Inst30Quest1name1
-
-
-
---------------- INST31 - Azuregos ---------------
-
-Inst31Story = "Before the Great Sundering, the night elf city of Eldarath flourished in the land that is now known as Azshara. It is believed that many ancient and powerful Highborne artifacts may be found among the ruins of the once-mighty stronghold. For countless generations, the Blue Dragon Flight has safeguarded powerful artifacts and magical lore, ensuring that they do not fall into mortal hands. The presence of Azuregos, the blue dragon, seems to suggest that items of extreme significance, perhaps the fabled Vials of Eternity themselves, may be found in the wilderness of Azshara. Whatever Azuregos seeks, one thing is certain: he will fight to the death to defend Azshara's magical treasures."
-Inst31Caption = "Azuregos"
-Inst31QAA = "1 Quest"
-Inst31QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst31Quest1 = "1. Ancient Sinew Wrapped Lamina (Hunter)"
-Inst31Quest1_Level = "60"
-Inst31Quest1_Attain = "60"
-Inst31Quest1_Aim = "Hastat the Ancient has asked that you bring him a Mature Blue Dragon Sinew. Should you find this sinew, return it to Hastat in Felwood."
-Inst31Quest1_Location = "Hastat the Ancient (Felwood - Irontree Woods; "..YELLOW.."48,24"..WHITE..")"
-Inst31Quest1_Note = "Kill Azuregos to get the Mature Blue Dragon Sinew. He walks around the middle of the southern peninsula in Azshara near "..YELLOW.."[1]"..WHITE.."."
-Inst31Quest1_Prequest = "The Ancient Leaf ("..YELLOW.."Molten Core"..WHITE..")"
-Inst31Quest1_Folgequest = "None"
-Inst31Quest1PreQuest = "true"
---
-Inst31Quest1name1 = "Ancient Sinew Wrapped Lamina"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst31Quest1_HORDE = Inst31Quest1
-Inst31Quest1_HORDE_Level = Inst31Quest1_Level
-Inst31Quest1_HORDE_Attain = Inst31Quest1_Attain
-Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
-Inst31Quest1_HORDE_Location = Inst31Quest1_Location
-Inst31Quest1_HORDE_Note = Inst31Quest1_Note
-Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
-Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
-Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
---
-Inst31Quest1name1_HORDE = Inst31Quest1name1
 
 
 
@@ -13319,10 +13273,10 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 25 = Sunken Temple (ST)
 -- 26 = The Temple of Ahn'Qiraj (AQ40)
 -- 27 = Zul'Farrak (ZF)
--- 28 = Zul'Gurub (ZG)
+-- 28 = Zul'Gurub (ZG) (removed)
 -- 29 = Gnomeregan (Gnomer)
--- 30 = Four Dragons
--- 31 = Azuregos
+-- 30 = Four Dragons (removed)
+-- 31 = Azuregos (removed)
 -- 32 = Highlord Kruul (removed)
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)

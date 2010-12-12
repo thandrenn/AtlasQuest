@@ -110,9 +110,6 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulFarrak") then
 		AQINSTANZ = 27;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulGurub") then
-		AQINSTANZ = 28;
-
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Gnomeregan") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GnomereganEnt") then
 		AQINSTANZ = 29;
 
@@ -341,20 +338,14 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
 		AQINSTANZ = 89;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheBattleForGilneas") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TheBattleForGilneas") then
 		AQINSTANZ = 106;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TwinPeaks") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TwinPeaks") then
 		AQINSTANZ = 107;
 
 
 	-- Outdoor Raids
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\FourDragons")  then
-		AQINSTANZ = 30;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\Azuregos")  then
-		AQINSTANZ = 31;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\DoomLordKazzak")  then
 		AQINSTANZ = 64;
@@ -464,9 +455,6 @@ function AtlasQuest_InstanzencheckAM()
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ZulFarrak") then
 		AQINSTANZ = 27;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ZulGurub") then
-		AQINSTANZ = 28;
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Gnomeregan") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Exteriors\\Maps\\GnomereganExt") then
 		AQINSTANZ = 29;
@@ -672,18 +660,6 @@ function AtlasQuest_InstanzencheckAM()
 					AQINSTANZ = 64;
 				elseif (GamAlphaMapMap.filename == "AM_Doomwalker_Map") then
 					AQINSTANZ = 65;
-				elseif (GamAlphaMapMap.filename == "AM_Kazzak_Map") then
-					AQINSTANZ = 32;
-				elseif (GamAlphaMapMap.filename == "AM_Azuregos_Map") then
-					AQINSTANZ = 31;
-				elseif (GamAlphaMapMap.filename == "AM_Dragon_Duskwood_Map") then
-					AQINSTANZ = 30;
-				elseif (GamAlphaMapMap.filename == "AM_Dragon_Hinterlands_Map") then
-					AQINSTANZ = 30;
-				elseif (GamAlphaMapMap.filename == "AM_Dragon_Feralas_Map") then
-					AQINSTANZ = 30;
-				elseif (GamAlphaMapMap.filename == "AM_Dragon_Ashenvale_Map") then
-					AQINSTANZ = 30;
 				else
 					AQINSTANZ = 36;
 				end
@@ -725,10 +701,10 @@ end
 -- 25 = Sunken Temple (ST)
 -- 26 = The Temple of Ahn'Qiraj (AQ40)
 -- 27 = Zul'Farrak (ZF)
--- 28 = Zul'Gurub (ZG)
+-- 28 = Zul'Gurub (ZG) (removed)
 -- 29 = Gnomeregan (Gnomer)
--- 30 = Four Dragons
--- 31 = Azuregos
+-- 30 = Four Dragons (removed)
+-- 31 = Azuregos (removed)
 -- 32 = Highlord Kruul (removed)
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)

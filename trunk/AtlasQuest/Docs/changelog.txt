@@ -8,6 +8,7 @@ Version 4.6.0 ALPHA
 - Merged in Natch's AtlasQuest Helper code. You can now query the server for completed quests to fill in the "Quest completed" check boxes. This is in options.
 - Updated Location numbers for all Burning Crusade & Lich King dungeons to match Atlas 1.18.0.
 - All quests the used to reward Badges or Emblems now correctly list Justice Points as their rewards.
+- Removed Zul'gurub, Azuergos & Dragons of Nightmare quests.
 - Code Bug fixes (Thanks Speedwaystar, Kharthus)
 - Increased Dungeon quest limit to 22. AtlasQuest frame now overlaps Atlas frame a tiny bit on Left side, but isn't too noticeable.
 - Localizations updated: deDE, ruRU, zhCN.
@@ -25,6 +26,14 @@ Version 4.6.0 ALPHA
 	- The Stonecore
 	- The Vortex Pinnacle
 	- Grim Batol
+	- Halls of Origination
+	- Lost City of the Tol'vir
+	- Blackwing Descent (no quests found)
+	- The Bastion of Twilight (no quests found)
+	- Throne of the Four Winds (no quests found)
+	- Baradin Hold (no quests found)
+	- Battle for Gilneas (Battleground - no quests found)
+	- Twin Peaks (Battlegrounds - no quests found)
 	
 
 
