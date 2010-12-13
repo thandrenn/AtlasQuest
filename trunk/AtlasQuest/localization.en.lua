@@ -11714,36 +11714,37 @@ Inst97Quest2_Aim = "Obtain the Twilight Documents."
 Inst97Quest2_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..")"
 Inst97Quest2_Note = "The documents appear on the ground after defeating Corborus at "..YELLOW.."[1]"..WHITE.."."
 Inst97Quest2_Prequest = "None"
-Inst97Quest2_Folgequest = "None"
+Inst97Quest2_Folgequest = "Followers and Leaders"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst97Quest3 = "3. Wayward Child"
+Inst97Quest3 = "3. Followers and Leaders"
 Inst97Quest3_Level = "84"
 Inst97Quest3_Attain = "82"
-Inst97Quest3_Aim = "Slay Ozruk."
-Inst97Quest3_Location = "Therazane (Deepholm - Therazane's Throne; "..YELLOW.."56.3, 12.8"..WHITE..")"
-Inst97Quest3_Note = "Ozruk is at "..YELLOW.."[3]"..WHITE..". Missing info on any prequests or reputation requirements for this quest."
-Inst97Quest3_Prequest = "None"
+Inst97Quest3_Aim = "Slay High Priestess Azil and 101 Devout Followers."
+Inst97Quest3_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..") or automatically given."
+Inst97Quest3_Note = "High Priestess Azil is at "..YELLOW.."[4]"..WHITE.." and the Devout Followers are on the way to her. The quest turns in back at Earthwarden Yrsa at the instance entrance."
+Inst97Quest3_Prequest = "Twilight Documents"
 Inst97Quest3_Folgequest = "None"
+Inst97Quest3FQuest = "true"
 --
-Inst97Quest3name1 = "Leggings of the Lost Child"
-Inst97Quest3name2 = "Stonecore Belt"
-Inst97Quest3name3 = "Crystal Shimmer Cloak"
+Inst97Quest3name1 = "Band of the One Hundred and One"
+Inst97Quest3name2 = "High Priestess' Signet"
+Inst97Quest3name3 = "Pauldrons of Unholy Rituals"
 
 --Quest 4 Alliance
-Inst97Quest4 = "4. Followers and Leaders"
+Inst97Quest4 = "4. Wayward Child"
 Inst97Quest4_Level = "84"
 Inst97Quest4_Attain = "82"
-Inst97Quest4_Aim = "Slay High Priestess Azil and 101 Devout Followers."
-Inst97Quest4_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..") or automatically given."
-Inst97Quest4_Note = "High Priestess Azil is at "..YELLOW.."[4]"..WHITE.." and the Devout Followers are on the way to her. The quest turns in back at Earthwarden Yrsa at the instance entrance."
+Inst97Quest4_Aim = "Slay Ozruk."
+Inst97Quest4_Location = "Therazane (Deepholm - Therazane's Throne; "..YELLOW.."56.3, 12.8"..WHITE..")"
+Inst97Quest4_Note = "Ozruk is at "..YELLOW.."[3]"..WHITE..". Missing info on any prequests or reputation requirements for this quest."
 Inst97Quest4_Prequest = "None"
 Inst97Quest4_Folgequest = "None"
 --
-Inst97Quest4name1 = "Band of the One Hundred and One"
-Inst97Quest4name2 = "High Priestess' Signet"
-Inst97Quest4name3 = "Pauldrons of Unholy Rituals"
+Inst97Quest4name1 = "Leggings of the Lost Child"
+Inst97Quest4name2 = "Stonecore Belt"
+Inst97Quest4name3 = "Crystal Shimmer Cloak"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11777,6 +11778,7 @@ Inst97Quest3_HORDE_Location = Inst97Quest3_Location
 Inst97Quest3_HORDE_Note = Inst97Quest3_Note
 Inst97Quest3_HORDE_Prequest = Inst97Quest3_Prequest
 Inst97Quest3_HORDE_Folgequest = Inst97Quest3_Folgequest
+Inst97Quest3FQuest_HORDE = Inst97Quest3FQuest
 --
 Inst97Quest3name1_HORDE = Inst97Quest3name1
 Inst97Quest3name2_HORDE = Inst97Quest3name2
@@ -12132,9 +12134,7 @@ Inst101Quest1_HORDE_Note = Inst101Quest1_Note
 Inst101Quest1_HORDE_Prequest = Inst101Quest1_Prequest
 Inst101Quest1_HORDE_Folgequest = Inst101Quest1_Folgequest
 Inst101Quest1PreQuest_HORDE = Inst101Quest1PreQuest
-Inst101Quest1FQuest_HORDE = Inst101Quest1FQuest
---
-Inst101Quest1name1_HORDE = Inst101Quest1name1
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst101Quest2_HORDE = Inst101Quest2

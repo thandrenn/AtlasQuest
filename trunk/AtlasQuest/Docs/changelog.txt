@@ -11,7 +11,7 @@ Version 4.6.0 ALPHA
 - Removed Zul'gurub, Azuergos & Dragons of Nightmare quests.
 - Code Bug fixes (Thanks Speedwaystar, Kharthus)
 - Increased Dungeon quest limit to 22. AtlasQuest frame now overlaps Atlas frame a tiny bit on Left side, but isn't too noticeable.
-- Localizations updated: deDE, ruRU, zhCN.
+- Localizations updated: deDE, ruRU, zhCN, zhTW.
 
 - Classic Dungeons updated:
 	- The Deadmines
