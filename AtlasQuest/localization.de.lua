@@ -3048,13 +3048,6 @@ Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 
 
---------------- INST15 - Naxxramas (Naxx) ---------------
-
---Alte Instanz von Naxxramas ( bevor Wrath of the Lichking erschien)
---Benutze jetz Inst84 für das neue.
-
-
-
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
 Inst16Story = "Onyxia ist die Tochter des mächtigen Drachen Todesschwinge und die Schwester des gerissenen Nefarian, dem Fürsten des Schwarzfels. Selbst für einen Drachen ist Onyxia äußerst intelligent, und sie nimmt gerne die Form einer Sterblichen an, um sich heimlich in die politischen Angelegenheiten der sterblichen Völker einzumischen. Obwohl sie für einen schwarzen Drachen ihres Alters recht klein ist, verfügt sie dennoch über die gleichen Kräfte und Fähigkeiten wie der Rest ihres fürchterlichen Schwarms. Manche sagen, Onyxia habe sogar eine Tarnidentität ihres Vaters übernommen - den Titel des königlichen Hauses Prestor. Wenn sie sich nicht in den Angelegenheiten der Sterblichen einmischt, ruht Onyxia in einer feurigen Höhle unterhalb des Drachensumpfes, einer unwirtlichen Gegend der Düstermarschen. Dort wird sie von ihren Gefolgsleuten bewacht, den verbleibenden Mitgliedern des grausamen schwarzen Drachenschwarms"
@@ -5101,134 +5094,6 @@ Inst27Quest7_HORDE_Prequest = "Nein"
 Inst27Quest7_HORDE_Folgequest = Inst27Quest7_Folgequest
 --
 Inst27Quest7name1_HORDE = Inst27Quest7name1
-
-
-
---------------- INST28 - Zul'Gurub (ZG) ---------------
-
-Inst28Story = {
-  ["Page1"] = "Vor mehr als tausend Jahren wurde das mächtige Reich der Gurubashi von einem gewaltigen Bürgerkrieg in Stücke gerissen. Eine einflussreiche Gruppe trollischer Priester, die als die Atal'ai bekannt waren, beschworen damals den Avatar des uralten und fürchterlichen Blutgottes, Hakkar, der Seelenschinder. Obwohl die Priester besiegt und ins Exil geschickt wurden, brach das ehemals glorreiche Reich der Trolle zusammen. Die Reise ins Exil führte die verbannten Priester weit nach Norden, bis in die Sümpfe des Elends, wo sie ihrem Gott Hakkar einen Tempel errichteten, um seine Rückkehr in die Welt der Sterblichen vorzubereiten.",
-  ["Page2"] = "Im Lauf der Zeit erkannten die Atal'ai, dass Hakkars physische Gestalt nur in Zul'Gurub, der uralten Tempelstadt, der Hauptstadt des Reichs der Gurubashi, beschworen werden konnte. Erschreckenderweise hatten die Priester vor Kurzem einen Durchbruch bei ihren Bemühungen, Hakkar herbeizurufen - Berichten zufolge thront der Seelenschinder erneut über den lang verlorenen Ruinen der Gurubaschi.\n\nUm den Blutgott zu stoppen, haben sich die Trolle des Landes zusammengeschlossen und eine Gruppe trollischer Hohepriester in die uralte Stadt entsandt, jeder Priester ein mächtiger Diener der ursprünglichen Götter - Fledermaus, Panther, Tiger, Spinne und Schlange. Doch trotz ihrer Mühen wurden auch die Hohepriester von Hakkar verführt. Nun nähren die Hohepriester und die Aspekte ihrer ursprünglichen Götter die ohnehin schon überwältigende Kraft des Seelenschinders. Abenteurer, die mutig genug sind, sich in die unheilsvollen Ruinen vorzuwagen, müssen sich zuerst den Hohepriestern stellen, wenn sie auch nur die geringste Chance gegen den mächtigen Blutgott selbst haben wollen.",
-  ["MaxPages"] = "2",
-};
-Inst28Caption = "Zul'Gurub"
-Inst28QAA = "4 Quests"
-Inst28QAH = "4 Quests"
-
---Quest 1 Alliance
-Inst28Quest1 = "1. Die Schädelsammlung"
-Inst28Quest1_Level = "60"
-Inst28Quest1_Attain = "58"
-Inst28Quest1_Aim = "Reiht die Köpfe der 5 Kanalisierer auf der heiligen Kordel aneinander. Bringt dann die Trollschädelsammlung zu Exzhal auf der Insel Yojamba."
-Inst28Quest1_Location = "Exzhal (Schlingendorntal - Insel Yojamba; "..YELLOW.."15,15"..WHITE..")"
-Inst28Quest1_Note = "Vergesst nicht alle Priester zu plündern."
-Inst28Quest1_Prequest = "Nein"
-Inst28Quest1_Folgequest = "Nein"
---
-Inst28Quest1name1 = "Gürtel mit Schrumpfköpfen"
-Inst28Quest1name2 = "Gürtel mit Schrumpelköpfen"
-Inst28Quest1name3 = "Gürtel mit konservierten Köpfen"
-Inst28Quest1name4 = "Gürtel mit winzigen Köpfen"
-
---Quest 2 Alliance
-Inst28Quest2 = "2. Das Herz von Hakkar"
-Inst28Quest2_Level = "60"
-Inst28Quest2_Attain = "58"
-Inst28Quest2_Aim = "Bringt das Herz von Hakkar zu Molthor auf die Insel Yojamba."
-Inst28Quest2_Location = "Herz von Hakkar (droppt von Hakkar; "..YELLOW.."[11]"..WHITE..")"
-Inst28Quest2_Note = "Molthor (Schlingendorntal - Insel Yojamba; "..YELLOW.."15,15"..WHITE..")"
-Inst28Quest2_Prequest = "Nein"
-Inst28Quest2_Folgequest = "Nein"
---
-Inst28Quest2name1 = "Zandalarianisches Heldenabzeichen"
-Inst28Quest2name2 = "Zandalarianisches Heldenamulett"
-Inst28Quest2name3 = "Zandalarianisches Heldenmedallion"
-
---Quest 3 Alliance
-Inst28Quest3 = "3. Nats Maßband"
-Inst28Quest3_Level = "60"
-Inst28Quest3_Attain = "59"
-Inst28Quest3_Aim = "Bringt Nats Maßband zu Nat Pagle in den Düstermarschen zurück."
-Inst28Quest3_Location = "Ramponierter Ausrüstungskasten (Zul'Gurub - Nordöstlich am Wasser von Hakkars Insel)"
-Inst28Quest3_Note = "Nat Pagle befindet sich in den Düstermarschen ("..YELLOW.."59,60"..WHITE.."). Wenn man das Quest abgegeben hat, kann man Matschstinkerköder von Nat Pagle kaufen, die man benötigt, um Gahz'ranka in Zul'Gurub zu beschwören."
-Inst28Quest3_Prequest = "Nein"
-Inst28Quest3_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst28Quest4 = "4. Das perfekte Gift"
-Inst28Quest4_Level = "60"
-Inst28Quest4_Attain = "60"
-Inst28Quest4_Aim = "Dirk Donnerholz in der Burg Cenarius will, dass Ihr ihm Venoxis' Giftbeutel und Kurinnaxx' Giftbeutel bringt."
-Inst28Quest4_Location = "Dirk Donnerholz (Silithus - Burg Cenarius; "..YELLOW.."52,39"..WHITE..")"
-Inst28Quest4_Note = "Venoxis' Giftbeutel droppt von Hohepriester Venoxis in "..YELLOW.."Zul'Gurub"..WHITE..". Kurinnaxx' Giftbeutel droppt in den "..YELLOW.."Ruinen von Ahn'Qiraj"..WHITE.." bei "..YELLOW.."[1]"..WHITE.."."
-Inst28Quest4_Prequest = "Nein"
-Inst28Quest4_Folgequest = "Nein"
---
-Inst28Quest4name1 = "Rabenholdtschnitzler"
-Inst28Quest4name2 = "Messerritzels Messer"
-Inst28Quest4name3 = "Donnerholzschüreisen"
-Inst28Quest4name4 = "Schicksalsbringer"
-Inst28Quest4name5 = "Fahrads selbstladende Repetierarmbrust"
-Inst28Quest4name6 = "Simones Hammer der Kultivierung"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst28Quest1_HORDE = Inst28Quest1
-Inst28Quest1_HORDE_Level = Inst28Quest1_Level
-Inst28Quest1_HORDE_Attain = Inst28Quest1_Attain
-Inst28Quest1_HORDE_Aim = Inst28Quest1_Aim
-Inst28Quest1_HORDE_Location = Inst28Quest1_Location
-Inst28Quest1_HORDE_Note = Inst28Quest1_Note
-Inst28Quest1_HORDE_Prequest = Inst28Quest1_Prequest
-Inst28Quest1_HORDE_Folgequest = Inst28Quest1_Folgequest
---
-Inst28Quest1name1_HORDE = Inst28Quest1name1
-Inst28Quest1name2_HORDE = Inst28Quest1name2
-Inst28Quest1name3_HORDE = Inst28Quest1name3
-Inst28Quest1name4_HORDE = Inst28Quest1name4
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst28Quest2_HORDE = Inst28Quest2
-Inst28Quest2_HORDE_Level = Inst28Quest2_Level
-Inst28Quest2_HORDE_Attain = Inst28Quest2_Attain
-Inst28Quest2_HORDE_Aim = Inst28Quest2_Aim
-Inst28Quest2_HORDE_Location = Inst28Quest2_Location
-Inst28Quest2_HORDE_Note = Inst28Quest2_Note
-Inst28Quest2_HORDE_Prequest = Inst28Quest2_Prequest
-Inst28Quest2_HORDE_Folgequest = Inst28Quest2_Folgequest
---
-Inst28Quest2name1_HORDE = Inst28Quest2name1
-Inst28Quest2name2_HORDE = Inst28Quest2name2
-Inst28Quest2name3_HORDE = Inst28Quest2name3
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst28Quest3_HORDE = Inst28Quest3
-Inst28Quest3_HORDE_Level = Inst28Quest3_Level
-Inst28Quest3_HORDE_Attain = Inst28Quest3_Attain
-Inst28Quest3_HORDE_Aim = Inst28Quest3_Aim
-Inst28Quest3_HORDE_Location = Inst28Quest3_Location
-Inst28Quest3_HORDE_Note = Inst28Quest3_Note
-Inst28Quest3_HORDE_Prequest = Inst28Quest3_Prequest
-Inst28Quest3_HORDE_Folgequest = Inst28Quest3_Folgequest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst28Quest4_HORDE = Inst28Quest4
-Inst28Quest4_HORDE_Level = Inst28Quest4_Level
-Inst28Quest4_HORDE_Attain = Inst28Quest4_Attain
-Inst28Quest4_HORDE_Aim = Inst28Quest4_Aim
-Inst28Quest4_HORDE_Location = Inst28Quest4_Location
-Inst28Quest4_HORDE_Note = Inst28Quest4_Note
-Inst28Quest4_HORDE_Prequest = Inst28Quest4_Prequest
-Inst28Quest4_HORDE_Folgequest = Inst28Quest4_Folgequest
---
-Inst28Quest4name1_HORDE = Inst28Quest4name1
-Inst28Quest4name2_HORDE = Inst28Quest4name2
-Inst28Quest4name3_HORDE = Inst28Quest4name3
-Inst28Quest4name4_HORDE = Inst28Quest4name4
-Inst28Quest4name5_HORDE = Inst28Quest4name5
-Inst28Quest4name6_HORDE = Inst28Quest4name6
 
 
 
@@ -11499,38 +11364,42 @@ Inst95Quest6name3_HORDE = Inst95Quest6name3
 
 --------------- INST96 - Throne of the Tides ---------------
 
-Inst96Story = ""
+Inst96Story = {
+  ["Page1"] = "Die in Azeroth heimischen Elementare hatten unter dem Einfluss der alten Götter erheblichen Schaden in der Welt angerichtet. Um Azeroth vor dieser Bedrohung zu bewahren, kerkerten die Titanen die alten Götter unterirdisch ein und verbannten die wütenden Elementare auf die von den Titanen erschaffene Elementarebene, ein sicheres Reich, von dem aus die Elementare Azeroth keinen weiteren Schaden zufügen konnten. Vier Sphären wurden in diesem primitiven Reich erschaffen, um jedem Elementar die perfekte Umgebung zu bieten. Seit Unzeiten führen die Elementare von Luft, Wasser, Erde und Feuer erbittert Krieg gegeneinander und schlagen gigantische Schlachten innerhalb der Grenzen ihres Elementarreiches. Eine der Sphären der Elementarebene, ein Meer überwältigenden Ausmaßes, welches als Meeresschlund bekannt ist, beherbergt die Wasserelementare. Der Legende nach soll Neptulon der Gezeitenjäger, mächtiger Herrscher des aquatischen Reiches, eine gefährliche Waffe besitzen, die ihrem Besitzer die Kontrolle über sämtliche Meere Azeroths ermöglicht. Dieses Artefakt ruhte bisher friedlich im Reich der Wasserelementare... doch dies wird sich bald ändern.",
+  ["Page2"] = "In Tiefenheim, dem Herrschaftsbereich der Erdelementare, lauert der bösartige Drachenaspekt Todesschwinge auf die Gelegenheit, eine ungeheure Katastrophe herbeiführen zu können: er will aus der Elementarebene an die Oberfläche ausbrechen, nach Azeroth. Dieser Akt wird die Oberfläche der Welt spalten und die Grenzen zur Elementarebene auflösen. Ob Neptulon und seine Untertanen sich zu diesem Zweck mit Todesschwinge verbündet haben, bleibt ungewiss. In jedem Falle werden sowohl die schändlichen wie auch die ehrenhaften Fraktionen sich in den Meeresschlund auf die Jagd nach der sagenumwobenen Waffe Neptulons begeben, sobald durch Todesschwinge ein Zugang in diese Wasserwelt entsteht. Wer auch immer das Artefakt erringen kann, wird Macht über die Weltmeere gewinnen, eine Macht, die vielleicht niemand, nicht einmal Horde oder Allianz, besitzen sollte.",
+  ["MaxPages"] = "2",
+};
 Inst96Caption = "Thron der Gezeiten"
 Inst96QAA = "2 Quests"
 Inst96QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst96Quest1 = "1. Die Sünden der Meerhexe"
+Inst96Quest1 = "1. Rettet den Erdsprecher!"
 Inst96Quest1_Level = "82"
 Inst96Quest1_Attain = "80"
-Inst96Quest1_Aim = "Kapitän Taylor will, dass Ihr Lady Naz'jar besiegt."
-Inst96Quest1_Location = ""
-Inst96Quest1_Note = ""
+Inst96Quest1_Aim = "Rettet Erunak Steinsprecher."
+Inst96Quest1_Location = "Kapitän Taylor (Thron der Gezeiten; "..YELLOW.."Eingang"..WHITE..")"
+Inst96Quest1_Note = "Erunak Steinsprecher ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst96Quest1_Prequest = "Nein"
 Inst96Quest1_Folgequest = "Nein"
 --
-Inst96Quest1name1 = "Tiefennebelroben"
-Inst96Quest1name2 = "Kelpwaldweste"
-Inst96Quest1name3 = "Steinsprechergürtel"
+Inst96Quest1name1 = "Seehexenglücksbringer"
+Inst96Quest1name2 = "Gamaschen der günstigen Schläge"
+Inst96Quest1name3 = "Gürtel der tausend Tode"
 
 --Quest 2 Alliance
-Inst96Quest2 = "2. Rettet den Erdsprecher!"
+Inst96Quest2 = "2. Die Sünden der Meerhexe"
 Inst96Quest2_Level = "82"
 Inst96Quest2_Attain = "80"
-Inst96Quest2_Aim = "Rettet Erunak Steinsprecher."
-Inst96Quest2_Location = ""
-Inst96Quest2_Note = ""
+Inst96Quest2_Aim = "Kapitän Taylor will, dass Ihr Lady Naz'jar besiegt."
+Inst96Quest2_Location = "Kapitän Taylor (Thron der Gezeiten; "..YELLOW.."Eingang"..WHITE..")"
+Inst96Quest2_Note = "Lady Naz'jar ist bei "..YELLOW.."[1]"..WHITE.."."
 Inst96Quest2_Prequest = "Nein"
 Inst96Quest2_Folgequest = "Nein"
 --
-Inst96Quest2name1 = "Seehexenglücksbringer"
-Inst96Quest2name2 = "Gamaschen der günstigen Schläge"
-Inst96Quest2name3 = "Gürtel der tausend Tode"
+Inst96Quest2name1 = "Tiefennebelroben"
+Inst96Quest2name2 = "Kelpwaldweste"
+Inst96Quest2name3 = "Steinsprechergürtel"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11543,9 +11412,9 @@ Inst96Quest1_HORDE_Note = Inst96Quest1_Note
 Inst96Quest1_HORDE_Prequest = Inst96Quest1_Prequest
 Inst96Quest1_HORDE_Folgequest = Inst96Quest1_Folgequest
 --
-Inst96Quest1name1_Horde = "Tiefennebelroben"
-Inst96Quest1name2_Horde = "Kelpwaldweste"
-Inst96Quest1name3_Horde = "Steinsprechergürtel"
+Inst96Quest1name1_Horde = Inst96Quest1name1
+Inst96Quest1name2_Horde = Inst96Quest1name2
+Inst96Quest1name3_Horde = Inst96Quest1name3
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst96Quest2_HORDE = Inst96Quest2
@@ -11557,24 +11426,129 @@ Inst96Quest2_HORDE_Note = Inst96Quest2_Note
 Inst96Quest2_HORDE_Prequest = Inst96Quest2_Prequest
 Inst96Quest2_HORDE_Folgequest = Inst96Quest2_Folgequest
 --
-Inst96Quest2name1_Horde = "Seehexenglücksbringer"
-Inst96Quest2name2_Horde = "Gamaschen der günstigen Schläge"
-Inst96Quest2name3_Horde = "Gürtel der tausend Tode"
+Inst96Quest2name1_Horde = Inst96Quest2name1	
+Inst96Quest2name2_Horde = Inst96Quest2name2
+Inst96Quest2name3_Horde = Inst96Quest2name3
 
 
 
 --------------- INST97 - The Stonecore ---------------
 
-Inst97Story = ""
+Inst97Story = {
+  ["Page1"] = "Inmitten des Tempels der Erde, eingeschlossen im Herzen Tiefenheims, liegt der Steinerne Kern. Es war hier, in dieser mysteriösen Instanz, in der sich der Schattenhammerklan an Todesschwinge geplagt hat und Elementiumplatten an die Haut des Drachenaspekts hämmerte, um seinen gepeinigten Körper zusammenzuhalten. An diesem Ort begann auch Todesschwinges Aufstieg nach Azeroth, während dessen er die Weltensäule zerstörte und ganz Tiefenheim ins Schwanken gebracht hat. Trotzdem der korrupte Drachenaspekt nun fort ist, haben sich seine fanatischen Gefolgsleute des Schattenhammers in den tiefsten Tiefen des Steinernen Kerns verschanzt. Für diese eifernden Anhänger ist der Ort von Todesschwinges Aufstieg heiliger Grund und Boden und sie würden ohne zu zögern ihr Leben dafür geben, seine Heiligkeit zu bewahren. Schamanen des Irdenen Rings sind vor kurzem in Tiefenheim angekommen, um die zerbrochene Weltensäule zu heilen. In ihrem Bestreben sind sie den Attacken einer Unzahl heimtückischer Mächte ausgesetzt, allen voran der Schattenhammer. Während die Helden der Horde und Allianz versuchen den Schamanen zu helfen, ist der Steinerne Kern ein entmutigendes Symbol des Einflusses geworden, den Todesschwinge und seine Anhänger noch immer auf Tiefenheim haben.",
+  ["Page2"] = "Abgesehen von der Präsenz des Schattenhammers, gibt es kaum detaillierte Informationen bezüglich des Steinernen Kerns. Die wenigen Forscher, die mutig genug waren das innere Heiligtum des Tempels der Erde aufzusuchen, sprechen von zerklüfteten, unberechenbaren Gängen ? die Arbeit eines bisher unentdeckten elementaren Biests ? die sich durch das Gebiet ziehen und meist in einer Sackgasse enden. Besonders besorgniserregend sind allerdings die Berichte über einen monströsen steinernen Wyrm, der in den Schatten der unterirdischen Region lauert. Abgesehen davon ist, was auch immer den Ort von Todesschwinges Aufstieg in den tiefsten Höhlen des steinernen Kerns bewacht, ein Mysterium. Ob die einheimischen elementaren Kreaturen des Steinernen Kerns sich unter dem Einfluss des Schattenhammers befinden ist nicht bekannt. Es besteht jedoch kein Zweifel daran, dass sie Eindringlingen nicht freundlich gesinnt sein werden. Sollte der unterirdische Bau nicht gereinigt werden, werden die Anstrengungen des Irdenen Rings und anderer wohlwollender Kräfte in Tiefenheim bedeutungslos sein. Solange der Schattenhammer seinen Halt über den Tempel der Erde beibehält, wird die ganze Region weiter von Todesschwinge überschattet bleiben.",
+  ["MaxPages"] = "2",
+};
 Inst97Caption = "Der steinerne Kern"
 Inst97QAA = "4 Quests"
 Inst97QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst97Quest1 = "1. In den Steinernen Kern"
+Inst97Quest1_Level = "83"
+Inst97Quest1_Attain = "82"
+Inst97Quest1_Aim = "Sprecht mit der Erdwächterin Yrsa im Steinernen Kern."
+Inst97Quest1_Location = "Sturmruferin Mylra (Tiefenheim; "..YELLOW.."64.5, 82.2"..WHITE..")"
+Inst97Quest1_Note = "Erdwächterin Yrsa ist innerhalb der Instanz direkt am Eingang. Es gibt eine Vorquest, noch ist unklar von wem wird noch eingefügt. Die Vorquest ist optional."
+Inst97Quest1_Prequest = "Ja, wird noch eingefügt"
+Inst97Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst97Quest2 = "2. Dokumente des Schattenhammers"
+Inst97Quest2_Level = "84"
+Inst97Quest2_Attain = "82"
+Inst97Quest2_Aim = "Beschafft die Dokumente des Schattenhammers."
+Inst97Quest2_Location = "Erdwächterin Yrsa (Der steinerne Kern; "..YELLOW.."Entrance"..WHITE..")"
+Inst97Quest2_Note = "Die Dokumente liegen auf den Boden nachdem Corborus besiegt wurde, bei "..YELLOW.."[1]"..WHITE.."."
+Inst97Quest2_Prequest = "Nein"
+Inst97Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst97Quest3 = "3. Eine Anführerin und ihre Anhänger"
+Inst97Quest3_Level = "84"
+Inst97Quest3_Attain = "82"
+Inst97Quest3_Aim = "Vernichtet Hohepriesterin Azil und 101 ihrer ergebenen Anhänger."
+Inst97Quest3_Location = "Erdwächterin Yrsa (Der steinerne Kern; "..YELLOW.."Eingang"..WHITE..") or automatically given."
+Inst97Quest3_Note = "Hohepriesterin Azil ist bei "..YELLOW.."[4]"..WHITE.." und die ergebenen Anhänger sind überall auf den Weg zu ihr verteilt. Diese Quest bringt dich zurück zu Erdwächterin Yrsa am Eingang der Instanz."
+Inst97Quest3_Prequest = "Nein"
+Inst97Quest3_Folgequest = "Nein"
+--
+Inst97Quest3name1 = "Band der Einhundert und Eins"
+Inst97Quest3name2 = "Signet der Hohepriesterin"
+Inst97Quest3name3 = "Schulterstücke der unheiligen Rituale"
+
+--Quest 4 Alliance
+Inst97Quest4 = "4. Launisches Kind"
+Inst97Quest4_Level = "84"
+Inst97Quest4_Attain = "82"
+Inst97Quest4_Aim = "Vernichtet Ozruk."
+Inst97Quest4_Location = "Therazane (Tiefenheim - Therazanes Thron; "..YELLOW.."56.3, 12.8"..WHITE..")"
+Inst97Quest4_Note = "Ozruk ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst97Quest4_Prequest = "Nein"
+Inst97Quest4_Folgequest = "Nein"
+--
+Inst97Quest4name1 = "Gamaschen des verlorenen Kidnes"
+Inst97Quest4name2 = "Gürtel des Steinernen Kerns"
+Inst97Quest4name3 = "Kristallschimmerumhang"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst97Quest1_HORDE = Inst97Quest1
+Inst97Quest1_HORDE_Level = Inst97Quest1_Level
+Inst97Quest1_HORDE_Attain = Inst97Quest1_Attain
+Inst97Quest1_HORDE_Aim = Inst97Quest1_Aim
+Inst97Quest1_HORDE_Location = Inst97Quest1_Location
+Inst97Quest1_HORDE_Note = Inst97Quest1_Note
+Inst97Quest1_HORDE_Prequest = Inst97Quest1_Prequest
+Inst97Quest1_HORDE_Folgequest = Inst97Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde (same as Quest 2 Alliance)
+Inst97Quest2_HORDE = Inst97Quest2
+Inst97Quest2_HORDE_Level = Inst97Quest2_Level
+Inst97Quest2_HORDE_Attain = Inst97Quest2_Attain
+Inst97Quest2_HORDE_Aim = Inst97Quest2_Aim
+Inst97Quest2_HORDE_Location = Inst97Quest2_Location
+Inst97Quest2_HORDE_Note = Inst97Quest2_Note
+Inst97Quest2_HORDE_Prequest = Inst97Quest2_Prequest
+Inst97Quest2_HORDE_Folgequest = Inst97Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst97Quest3_HORDE = Inst97Quest3
+Inst97Quest3_HORDE_Level = Inst97Quest3_Level
+Inst97Quest3_HORDE_Attain = Inst97Quest3_Attain
+Inst97Quest3_HORDE_Aim = Inst97Quest3_Aim
+Inst97Quest3_HORDE_Location = Inst97Quest3_Location
+Inst97Quest3_HORDE_Note = Inst97Quest3_Note
+Inst97Quest3_HORDE_Prequest = Inst97Quest3_Prequest
+Inst97Quest3_HORDE_Folgequest = Inst97Quest3_Folgequest
+--
+Inst97Quest3name1_HORDE = Inst97Quest3name1
+Inst97Quest3name2_HORDE = Inst97Quest3name2
+Inst97Quest3name3_HORDE = Inst97Quest3name3
+
+--Quest 4 Horde (same as Quest 4 Alliance)
+Inst97Quest4_HORDE = Inst97Quest4
+Inst97Quest4_HORDE_Level = Inst97Quest4_Level
+Inst97Quest4_HORDE_Attain = Inst97Quest4_Attain
+Inst97Quest4_HORDE_Aim = Inst97Quest4_Aim
+Inst97Quest4_HORDE_Location = Inst97Quest4_Location
+Inst97Quest4_HORDE_Note = Inst97Quest4_Note
+Inst97Quest4_HORDE_Prequest = Inst97Quest4_Prequest
+Inst97Quest4_HORDE_Folgequest = Inst97Quest4_Folgequest
+--
+Inst97Quest4name1_HORDE = Inst97Quest4name1
+Inst97Quest4name2_HORDE = Inst97Quest4name2
+Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 
 
 --------------- INST98 - The Vortex Pinacle ---------------
 
-Inst98Story = "Wird noch nachgereicht"
+Inst98Story = "Kommt noch"
 Inst98Caption = "Der Vortexgipfel"
 Inst98QAA = "3 Quests"
 Inst98QAH = "3 Quests"
@@ -11666,28 +11640,285 @@ Inst98Quest3name3_HORDE = Inst98Quest3name3
 
 --------------- INST99 - Grim Batol ---------------
 
-Inst99Story = ""
+Inst99Story = {
+  ["Page1"] = "In einem blutigen Bürgerkrieg verdrängte der Klan der Bronzebärte die Wildhammer- und die Dunkeleisenzwerge aus den uralten Korridoren der Bergstadt Eisenschmiede. Nach ihrer Niederlage zog der Wildhammerklan nach Norden und gründeten sein neues Zuhause Grim Batol in den Bergen, die heute als Schattenhochland bekannt sind. Die Dunkeleisenzwerge errichteten die Stadt Thaurissan im Rotkammgebirge und arbeiteten unermüdlich an einer besseren Zukunft; jedoch sollte es ihnen nicht gelingen, sich von den Erinnerungen an die Niederlage zu befreien. Getrieben von ihrem Verlangen nach Rache und fest entschlossen, das gesamte Gebiet von Khaz Modan unter ihre Kontrolle zu bringen, starteten die Dunkeleisenzwerge schließlich einen doppelten Angriff auf die Bronzebärte in Eisenschmiede und die Wildhämmer in Grim Batol. Aller früheren Differenzen zum Trotz verbündeten sich die angegriffenen Zwerge, dezimierten die Armeen des Zaubererthans Thaurissan und vertrieben die Dunkeleisenzwerge aus Khaz Modan. Doch die Sieger zahlten einen hohen Preis: Thaurissans Ehefrau und Königin Modgud fiel während des Angriffs auf Grim Batol und ihr Tod verunreinigte die Bergfestung.",
+  ["Page2"] = "Während die Bronzebärte ihre glorreiche Stadt Eisenschmiede wieder aufbauten, fühlten sich die Wildhämmer von den Schrecken in Grim Batol für immer verändert und verließen ihre verfluchte Heimat schließlich, um niemals zurückzukehren. Die entweihten Korridore der verlassenen Stadt wurden später Schauplatz verschiedener Gräueltaten: Als die Dämonenseele dem Klan des Drachenmals in die Hände fiel und missbraucht wurde, um Alextraszas Schwarm in den Dienst der Horde zu zwingen, wurde Grim Batol das Foltergefängnis des roten Drachenaspekts. Während des zweiten Krieges hielt der Drachenmalklan die Bergfestung bis er von Todesschwinge vertrieben wurde. Todesschwinge wollte Alextraszas Eier stehlen; als er seinen Plan aber in die Tat umsetzte, wurde die Dämonenseele zerstört und die in ihr gefangenen Kräfte kehrten zu Alexstrasza, Ysera, Nozdormu, und Malygos zurück. Nur knapp entkam Todesschwinge dem Angriff der vier wieder erstarkten Drachenaspekte.",
+  ["Page3"] = "Er floh jedoch nicht mit leeren Händen; die Eier Alexstraszas waren in seinen Klauen. Für ihren hinterhältigen Übergriff wurde dem fliehenden Drachenmalklan keine Gnade gezeigt und die Auseinandersetzung kam zu einem schnellen Ende. Mitglieder des roten Drachenschwarms blieben zurück, um über Grim Batol zu wachen und über Jahre hinweg verteidigten sie die verlassenen Hallen erfolgreich gegen weitere Eindringlinge - bis zur Ankunft des Schattenhammerclans, eines finsteren Kults, der die bösartigen Alten Götter verehrt. Der Kult, verführt von Todesschwinges Verlangen nach absoluter Herrschaft über ganz Azeroth, beanspruchte das Schattenhochland als seine Ausgangsbasis. Der schwarze Drachenschwarm vertrieb die Wächter des roten Drachenschwarms aus Grim Batol und die Festung konnte fortan zur Ausbildung von Todesschwinges Dienern genutzt werden. Die Hallen der Stadt reichen tief in die Erde hinein und es ist nicht bekannt, welche niederträchtigen Ziele der Schattenhammerklan in diesem verfluchten Wunderwerk zwergischer Handwerkskunst verfolgt.",
+  ["MaxPages"] = "3",
+};
 Inst99Caption = "Grim Batol"
 Inst99QAA = "3 Quests"
 Inst99QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst99Quest1 = "1. Klopft sie weich"
+Inst99Quest1_Level = "85"
+Inst99Quest1_Attain = "84"
+Inst99Quest1_Aim = "Befreit einen Roten Drachen in Grim Batol und vernichtet mit ihm 30 Troggs und 15 Anhänger des Schattenhammers."
+Inst99Quest1_Location = "Velastrasza (Grim Batol; "..YELLOW.."Eingang"..WHITE..")"
+Inst99Quest1_Note = "Wird nachgereicht da Infos fehlen. Diese Quest bringt dich zurück zum Eingang."
+Inst99Quest1_Prequest = "Nein"
+Inst99Quest1_Folgequest = "Nein"
+--
+Inst99Quest1name1 = "Schätze aus Grim Batol"
+
+--Quest 2 Alliance
+Inst99Quest2 = "2. Tötet den Kurier"
+Inst99Quest2_Level = "85"
+Inst99Quest2_Attain = "84"
+Inst99Quest2_Aim = "Tötet Drahga Schattenbrenner und bringt sein Sendschreiben an Cho'gall an Euch."
+Inst99Quest2_Location = "Scharfseher Tooranu (Grim Batol; "..YELLOW.."Eingang"..WHITE..")"
+Inst99Quest2_Note = "Drahga Schattenbrennerist bei "..YELLOW.."[3]"..WHITE..". Diese Quest bringt dich zurück zum Eingang."
+Inst99Quest2_Prequest = "Nein"
+Inst99Quest2_Folgequest = "Nein"
+--
+Inst99Quest2name1 = "Sandalen des Kuriers"
+Inst99Quest2name2 = "Helm des Geheimwissens"
+Inst99Quest2name3 = "Tooranus Schiftung"
+
+--Quest 3 Alliance
+Inst99Quest3 = "3. Der Abschluss eines finsteren Kapitels"
+Inst99Quest3_Level = "85"
+Inst99Quest3_Attain = "84"
+Inst99Quest3_Aim = "Vernichtet Erudax, den Herzog aus der Tiefe."
+Inst99Quest3_Location = "Unheilsflamme (Grim Batol; "..YELLOW.."Eingang"..WHITE..")"
+Inst99Quest3_Note = "Erudax ist bei "..YELLOW.."[4]"..WHITE..". Diese Quest bringt dich zurück zum Eingang."
+Inst99Quest3_Prequest = "Nein"
+Inst99Quest3_Folgequest = "Nein"
+--
+Inst99Quest3name1 = "Unheilsflammes Handschuhe"
+Inst99Quest3name2 = "Armschienen des Auslöschers"
+Inst99Quest3name3 = "Brustplatte des Zeugen"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst99Quest1_HORDE = Inst99Quest1
+Inst99Quest1_HORDE_Level = Inst99Quest1_Level
+Inst99Quest1_HORDE_Attain = Inst99Quest1_Attain
+Inst99Quest1_HORDE_Aim = Inst99Quest1_Aim
+Inst99Quest1_HORDE_Location = Inst99Quest1_Location
+Inst99Quest1_HORDE_Note = Inst99Quest1_Note
+Inst99Quest1_HORDE_Prequest = Inst99Quest1_Prequest
+Inst99Quest1_HORDE_Folgequest = Inst99Quest1_Folgequest
+--
+Inst99Quest1name1_HORDE = Inst99Quest1name1
+
+--Quest 2 Horde (same as Quest 2 Alliance)
+Inst99Quest2_HORDE = Inst99Quest2
+Inst99Quest2_HORDE_Level = Inst99Quest2_Level
+Inst99Quest2_HORDE_Attain = Inst99Quest2_Attain
+Inst99Quest2_HORDE_Aim = Inst99Quest2_Aim
+Inst99Quest2_HORDE_Location = Inst99Quest2_Location
+Inst99Quest2_HORDE_Note = Inst99Quest2_Note
+Inst99Quest2_HORDE_Prequest = Inst99Quest2_Prequest
+Inst99Quest2_HORDE_Folgequest = Inst99Quest2_Folgequest
+--
+Inst99Quest2name1_HORDE = Inst99Quest2name1
+Inst99Quest2name2_HORDE = Inst99Quest2name2
+Inst99Quest2name3_HORDE = Inst99Quest2name3
+
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst99Quest3_HORDE = Inst99Quest3
+Inst99Quest3_HORDE_Level = Inst99Quest3_Level
+Inst99Quest3_HORDE_Attain = Inst99Quest3_Attain
+Inst99Quest3_HORDE_Aim = Inst99Quest3_Aim
+Inst99Quest3_HORDE_Location = Inst99Quest3_Location
+Inst99Quest3_HORDE_Note = Inst99Quest3_Note
+Inst99Quest3_HORDE_Prequest = Inst99Quest3_Prequest
+Inst99Quest3_HORDE_Folgequest = Inst99Quest3_Folgequest
+--
+Inst99Quest3name1_HORDE = Inst99Quest3name1
+Inst99Quest3name2_HORDE = Inst99Quest3name2
+Inst99Quest3name3_HORDE = Inst99Quest3name3
 
 
 
 --------------- INST100 - Halls of Origination ---------------
 
-Inst100Story = ""
+Inst100Story = "Wie Uldaman und Ulduar beherbergt auch Uldum eine der Konstruktionen der Titanen, von denen nur eine Handvoll bekannt sind und deren Existenz das sterbliche Leben auf Azeroth überdauert. Jahre lang haben Historiker das südliche Kalimdor auf der Suche nach Einlass in dieses uralte Gebiet der Titanen erforscht, um mehr Beweise für den Ursprung Azeroths ans Tageslicht zu bringen. Mit dem Kataklysmus wird sich aber alles ändern und die Fassade, hinter der sich Uldum für Jahrtausende verbarg, zerbrechen.\n\nNun liegen die größten Mysterien brach, um von den tapfersten, cleversten oder vielleicht auch brutalsten Forschern entdeckt zu werden."
 Inst100Caption = "Hallen des Ursprungs"
 Inst100QAA = "3 Quests"
 Inst100QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst100Quest1 = "1. Des Pudels Kern"
+Inst100Quest1_Level = "83"
+Inst100Quest1_Attain = "83"
+Inst100Quest1_Aim = "Brann Bronzebart möchte, dass Ihr ihn in den Hallen des Ursprungs trefft."
+Inst100Quest1_Location = "Brann Bronzebart (Uldum - Wiege der Uralten; "..YELLOW.."44.9, 67.4"..WHITE..")"
+Inst100Quest1_Note = "Brann Bronzebart ist ein wenig innerhalb der Hallen des Ursprungs. Die Vorquest ist eine Questreihe in Uldum die bei Brann Bronzebart startet."
+Inst100Quest1_Prequest = "Ja, Sullahs Geschenk -> Die Lade der Verheißung"
+Inst100Quest1_Folgequest = "Ja, Ihre Verteidigung durchbrechen"
+Inst100PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst100Quest2 = "2. Ihre Verteidigung durchbrechen"
+Inst100Quest2_Level = "83"
+Inst100Quest2_Attain = "83"
+Inst100Quest2_Aim = "Verschafft euch Zutritt zum Kontrollraum der Titanen."
+Inst100Quest2_Location = "Brann Bronzebart (Hallen des Ursprungs; "..YELLOW.."[??]"..WHITE..")"
+Inst100Quest2_Note = "Der Kontrollraum der Titanen ist zugänglich nachdem Anraphet besiegt wurde, bei "..YELLOW.."3"..WHITE.."."
+Inst100Quest2_Prequest = "Ja, Des Pudels Kern"
+Inst100Quest2_Folgequest = "Ja, Auf die harte Tour"
+Inst100Quest2FQuest = "true"
+--
+Inst100Quest2name1 = "Warenlagerstulpen"
+Inst100Quest2name2 = "Offlineschienbeinschützer"
+Inst100Quest2name3 = "Stiefel des schweren Weges"
+
+--Quest 3 Alliance
+Inst100Quest3 = "3. Auf die harte Tour"
+Inst100Quest3_Level = "83"
+Inst100Quest3_Attain = "83"
+Inst100Quest3_Aim = "Brann Bronzebart will, dass Ihr Isiset, Ammunae, Setesh und Rajh tötet."
+Inst100Quest3_Location = "Brann Bronzebart (Hallen des Ursprungs; "..YELLOW.."[??]"..WHITE..")"
+Inst100Quest3_Note = "Isiset ist bei "..YELLOW.."[4]"..WHITE..", Ammunae ist bei "..YELLOW.."[5]"..WHITE..", Setesh ist bei "..YELLOW.."[6]"..WHITE..", und Rajh ist bei "..YELLOW.."[7]"..WHITE.."."
+Inst100Quest3_Prequest = "Ja, Ihre Verteidigung durchbrechen"
+Inst100Quest3_Folgequest = "Nein"
+Inst100Quest3FQuest = "true"
+--
+Inst100Quest3name1 = "Armschienen des wahren Archäologen"
+Inst100Quest3name2 = "Helm der Neuerschaffung"
+Inst100Quest3name3 = "Handschuhe des Schatzjägers"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst100Quest1_HORDE = Inst100Quest1
+Inst100Quest1_HORDE_Level = Inst100Quest1_Level
+Inst100Quest1_HORDE_Attain = Inst100Quest1_Attain
+Inst100Quest1_HORDE_Aim = Inst100Quest1_Aim
+Inst100Quest1_HORDE_Location = Inst100Quest1_Location
+Inst100Quest1_HORDE_Note = Inst100Quest1_Note
+Inst100Quest1_HORDE_Prequest = Inst100Quest1_Prequest
+Inst100Quest1_HORDE_Folgequest = Inst100Quest1_Folgequest
+Inst100Quest1PreQuest_HORDE = Inst100Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde (same as Quest 2 Alliance)
+Inst100Quest2_HORDE = Inst100Quest2
+Inst100Quest2_HORDE_Level = Inst100Quest2_Level
+Inst100Quest2_HORDE_Attain = Inst100Quest2_Attain
+Inst100Quest2_HORDE_Aim = Inst100Quest2_Aim
+Inst100Quest2_HORDE_Location = Inst100Quest2_Location
+Inst100Quest2_HORDE_Note = Inst100Quest2_Note
+Inst100Quest2_HORDE_Prequest = Inst100Quest2_Prequest
+Inst100Quest2_HORDE_Folgequest = Inst100Quest2_Folgequest
+Inst100Quest2FQuest_HORDE = Inst100Quest2FQuest
+--
+Inst100Quest2name1_HORDE = Inst100Quest2name1
+Inst100Quest2name2_HORDE = Inst100Quest2name2
+Inst100Quest2name3_HORDE = Inst100Quest2name3
+
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst100Quest3_HORDE = Inst100Quest3
+Inst100Quest3_HORDE_Level = Inst100Quest3_Level
+Inst100Quest3_HORDE_Attain = Inst100Quest3_Attain
+Inst100Quest3_HORDE_Aim = Inst100Quest3_Aim
+Inst100Quest3_HORDE_Location = Inst100Quest3_Location
+Inst100Quest3_HORDE_Note = Inst100Quest3_Note
+Inst100Quest3_HORDE_Prequest = Inst100Quest3_Prequest
+Inst100Quest3_HORDE_Folgequest = Inst100Quest3_Folgequest
+Inst100Quest3FQuest_HORDE = Inst100Quest3FQuest
+--
+Inst100Quest3name1_HORDE = Inst100Quest3name1
+Inst100Quest3name2_HORDE = Inst100Quest3name2
+Inst100Quest3name3_HORDE = Inst100Quest3name3
 
 
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
-Inst101Story = ""
+Inst101Story = "Kommt noch"
 Inst101Caption = "Die Verlorene Stadt der Tol'vir"
 Inst101QAA = "3 Quests"
 Inst101QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst101Quest1 = "1. Rückkehr zur Verlorenen Stadt"
+Inst101Quest1_Level = "83"
+Inst101Quest1_Attain = "81"
+Inst101Quest1_Aim = "Sprecht mit Hauptmann Hadan in der Verlorenen Stadt der Tol'vir."
+Inst101Quest1_Location = "König Phaoris (Uldum - Ramakahen; "..YELLOW.."54.9, 32.8"..WHITE..")"
+Inst101Quest1_Note = "Hauptmann Hadan ist innerhalb der Instanz. Diese Quest bekommst du nachdem du einige Questen von Ramakahen in Uldum abgeschlossen hast. Diese Quest ist nicht erforderlich um die anderen beiden Questen annehmen zu können."
+Inst101Quest1_Prequest = "Ja,Information kommt noch"
+Inst101Quest1_Folgequest = "Nein"
+Inst101Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst101Quest2 = "2. Im Auftrag seiner Majestät"
+Inst101Quest2_Level = "85"
+Inst101Quest2_Attain = "83"
+Inst101Quest2_Aim = "Tötet General Husam und 2 eingeschworene Hauptmänner."
+Inst101Quest2_Location = "Hauptmann Hadan (Verlorene Stadt der Tol'vir; "..YELLOW.."Eingang"..WHITE..")"
+Inst101Quest2_Note = "General Husam ist bei "..YELLOW.."[1]"..WHITE..". Diese Quest bringt dich zurück zum Eingang."
+Inst101Quest2_Prequest = "Nein"
+Inst101Quest2_Folgequest = "Nein"
+--
+Inst101Quest2name1 = "Kapitän Hadans Schulterstücke"
+Inst101Quest2name2 = "Geheime Schultern"
+Inst101Quest2name3 = "Armschienen der verlorenen Stadt"
+
+--Quest 3 Alliance
+Inst101Quest3 = "3. Die Quelle ihrer Macht"
+Inst101Quest3_Level = "85"
+Inst101Quest3_Attain = "83"
+Inst101Quest3_Aim = "Slay Siamat."
+Inst101Quest3_Location = "Hauptmann Hadan (Verlorene Stadt der Tol'vir; "..YELLOW.."Eingang"..WHITE..")"
+Inst101Quest3_Note = "Siamat ist bei "..YELLOW.."[4]"..WHITE..". Diese Quest bringt dich zurück zum Eingang."
+Inst101Quest3_Prequest = "Nein"
+Inst101Quest3_Folgequest = "Nein"
+--
+Inst101Quest3name1 = "Mantel des Seuchenheilers"
+Inst101Quest3name2 = "Treter der Neferset"
+Inst101Quest3name3 = "Frontstiefel von Ramkahen"
+
+
+--Quest 1 Horde (same as Quest 1 Alliance)
+Inst101Quest1_HORDE = Inst101Quest1
+Inst101Quest1_HORDE_Level = Inst101Quest1_Level
+Inst101Quest1_HORDE_Attain = Inst101Quest1_Attain
+Inst101Quest1_HORDE_Aim = Inst101Quest1_Aim
+Inst101Quest1_HORDE_Location = Inst101Quest1_Location
+Inst101Quest1_HORDE_Note = Inst101Quest1_Note
+Inst101Quest1_HORDE_Prequest = Inst101Quest1_Prequest
+Inst101Quest1_HORDE_Folgequest = Inst101Quest1_Folgequest
+Inst101Quest1PreQuest_HORDE = Inst101Quest1PreQuest
+Inst101Quest1FQuest_HORDE = Inst101Quest1FQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde (same as Quest 2 Alliance)
+Inst101Quest2_HORDE = Inst101Quest2
+Inst101Quest2_HORDE_Level = Inst101Quest2_Level
+Inst101Quest2_HORDE_Attain = Inst101Quest2_Attain
+Inst101Quest2_HORDE_Aim = Inst101Quest2_Aim
+Inst101Quest2_HORDE_Location = Inst101Quest2_Location
+Inst101Quest2_HORDE_Note = Inst101Quest2_Note
+Inst101Quest2_HORDE_Prequest = Inst101Quest2_Prequest
+Inst101Quest2_HORDE_Folgequest = Inst101Quest2_Folgequest
+Inst101Quest2PreQuest_HORDE = Inst101Quest2PreQuest
+Inst101Quest2FQuest_HORDE = Inst101Quest2FQuest
+--
+Inst101Quest2name1_HORDE = Inst101Quest2name1
+Inst101Quest2name2_HORDE = Inst101Quest2name2
+Inst101Quest2name3_HORDE = Inst101Quest2name3
+
+--Quest 3 Horde (same as Quest 3 Alliance)
+Inst101Quest3_HORDE = Inst101Quest3
+Inst101Quest3_HORDE_Level = Inst101Quest3_Level
+Inst101Quest3_HORDE_Attain = Inst101Quest3_Attain
+Inst101Quest3_HORDE_Aim = Inst101Quest3_Aim
+Inst101Quest3_HORDE_Location = Inst101Quest3_Location
+Inst101Quest3_HORDE_Note = Inst101Quest3_Note
+Inst101Quest3_HORDE_Prequest = Inst101Quest3_Prequest
+Inst101Quest3_HORDE_Folgequest = Inst101Quest3_Folgequest
+Inst101Quest3PreQuest_HORDE = Inst101Quest3PreQuest
+Inst101Quest3FQuest_HORDE = Inst101Quest3FQuest
+--
+Inst101Quest3name1_HORDE = Inst101Quest3name1
+Inst101Quest3name2_HORDE = Inst101Quest3name2
+Inst101Quest3name3_HORDE = Inst101Quest3name3
 
 
 
@@ -12009,90 +12240,6 @@ Inst107QAH = "No Quests"
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
 ---------------------------------------------------
-
-
-
---------------- INST30 - Dragons of Nightmare ---------------
-
-Inst30Story = {
-  ["Page1"] = "Ein rauer Wind weht durch die Kronen der Großen Bäume. Etwas Unheimliches hat sich fernab der wachsamen Augen der Beschützer Azeroths eingeschlichen und bedroht nun Eschental, den Dämmerwald, Feralas und das Hinterland. Vier der mächtigen Wächter des grünen Drachenschwarms sind aus dem smaragdgrünen Traum zurückgekehrt, doch die einstmals stolzen Beschützer verbreiten nun nichts als Tod und Zerstörung. Azeroth braucht tapfere Abenteurer mehr denn je, die das Land gegen diese düsteren Vorboten verteidigen.",
-  ["Page2"] = "Ysera, der große Drachenaspekt der Träume, führt den geheimnisvollen grünen Drachenschwarm an. Ihr Reich sind die fantastischen, mystischen Weiten des smaragdgrünen Traums, und man erzählt sich, dass sie von dort aus die Evolution allen Lebens beeinflusst. Sie ist die Beschützerin der Natur und der Phantasie; ihr und ihrem Drachenschwarm wurde die Ehre zuteil, die Großen Bäume zu bewachen, durch die allein die Druiden in den Traum hinüberwechseln können. Vor kurzem wurden Yseras treueste Diener von einer dunklen neuen Macht besudelt, die sich im smaragdgrünen Traum ausbreitet. Nun sind die abtrünnigen Wächter durch die Großen Bäume nach Azeroth zurückgekehrt, um Angst und Schrecken in den Ländern der Sterblichen zu verbreiten. Selbst die mächtigsten Abenteurer sollten sich den Drachen nicht alleine entgegenstellen, um nicht die volle Gewalt ihres entfesselten Zornes zu spüren zu bekommen.",
-  ["Page3"] = "Als Lethon der Anomalie innerhalb des smaragdgrünen Traums ausgesetzt wurde, verdunkelte sich nicht nur die Tönung seiner Schuppen... der Drache erhielt auch die Fähigkeit, bösartige Schemen aus seinen Feinden aufzusaugen. Sobald diese mit ihrem Meister verschmelzen, heilt ihn die Energie der Schemen. So ist es keine Überraschung, das Lethon einer der Furcht erregendsten Abtrünnigen ist.",
-  ["Page4"] = "Eine mysteriöse, dunkle Macht innerhalb des smaragdgrünen Traums hat die einst majestätische Emeriss in eine verwesende, faulige Monstrosität verwandelt. Die wenigen, die eine Begegnung mit dem Drachen überlebt haben, erzählen Ekel erregende Geschichten von eitrigen Pilzen, die aus den Leichen gefallener Kämpfer sprießen. Ob diese Geschichten wahr oder nur die Ausgeburten geistig Verstörter sind, lässt sich wohl nur herausfinden, indem man der scheußlichen Bestie entgegentritt.",
-  ["Page5"] = "Von all jenen, die mit der Anomalie in Kontakt gekommen sind, hat Taerar wohl am meisten gelitten. Sie hat nicht bloß seinen Verstand, sondern auch seine körperliche Gestalt gespalten. Der Drache existiert nun als Phantom, das sich in mehrere Splittergestalten aufteilen kann, die über vernichtende magische Kräfte verfügen. Taerar ist ein gerissener und erbarmungsloser Gegner, der den Wahnsinn seiner eigenen Existenz für die Bewohner Azeroths zu einer grausamen Wirklichkeit machen will.",
-  ["Page6"] = "Ysondre, einst eine von Yseras vertrautesten Anhängerinnen, hat sich den Abtrünnigen angeschlossen und verbreitet nun Chaos und Terror in Azeroth. Ihre ehemals segensreichen Heilkräfte haben sich zu dunkler Magie gewandelt, mit der sie sengende Blitze verschleudern und fehlgeleitete Druiden zu Hilfe rufen kann. Ysondre und die ihren können ihre Gegner auch einschlafen lassen, wodurch ihre hilflosen Opfer in das Reich der schrecklichsten Alpträume geschickt werden.",
-  ["MaxPages"] = "6",
-};
-
-Inst30Caption = "Alptraumdrachen"
-Inst30Caption2 = "Ysera und der grüne Drachenschwarm"
-Inst30Caption3 = "Lethon"
-Inst30Caption4 = "Emeriss"
-Inst30Caption5 = "Taerar"
-Inst30Caption6 = "Ysondre"
-Inst30QAA = "1 Quest"
-Inst30QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst30Quest1 = "1. Eingehüllt in Alpträume"
-Inst30Quest1_Level = "60"
-Inst30Quest1_Attain = "60"
-Inst30Quest1_Aim = "Sucht nach jemandem, der die Bedeutung des in Alpträume gehüllten Gegenstands entschlüsseln kann.\n\nVielleicht kann Euch ein Druide von großer Macht weiterhelfen."
-Inst30Quest1_Location = "In Alpträume gehüllter Gegenstand (droppt von Emeriss, Taerar, Lethon oder Ysondre)"
-Inst30Quest1_Note = "Die Quest wird bei Bewahrer Remulos bei (Mondlichtung - Schrein von Remulos; "..YELLOW.."36,41"..WHITE..") abgegeben. Die aufgeführte Questbelohnung gibt es beim Folgequest."
-Inst30Quest1_Prequest = "Nein"
-Inst30Quest1_Folgequest = "Ja, Legenden erwachen"
---
-Inst30Quest1name1 = "Malfurions Siegelring"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst30Quest1_HORDE = Inst30Quest1
-Inst30Quest1_HORDE_Level = Inst30Quest1_Level
-Inst30Quest1_HORDE_Attain = Inst30Quest1_Attain
-Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
-Inst30Quest1_HORDE_Location = Inst30Quest1_Location
-Inst30Quest1_HORDE_Note = Inst30Quest1_Note
-Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
-Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
---
-Inst30Quest1name1_HORDE = Inst30Quest1name1
-
-
-
---------------- INST31 - Azuregos ---------------
-
-Inst31Story = "Vor der Spaltung der Welt blühte die elfische Stadt Eldarath in den Landen, die nunmehr Azshara genannt werden. Manche sagen, dass unter den Ruinen der Stadt immer noch zahllose Artefakte der Hochgeborenen schlummern. Seit ungezählten Generationen wacht der blaue Drachenschwarm über mächtige Artefakte und magisches Wissen, damit nichts davon in die falschen Hände fällt. Die Anwesenheit von Azuregos, dem blauen Drachen, scheint darauf hinzuweisen, dass in der Wildnis von Azshara extrem seltene Gegenstände schlummern, vielleicht sogar die Phiolen der Ewigkeit. Doch egal was der Drache sucht, eins ist sicher - er wird bis zum letzten Kämpfen, um diese Schätze zu verteidigen!"
-Inst31Caption = "Azuregos"
-Inst31QAA = "1 Quest"
-Inst31QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst31Quest1 = "1. Uraltes in Sehnen eingewickeltes Laminablatt (Jäger)"
-Inst31Quest1_Level = "60"
-Inst31Quest1_Attain = "60"
-Inst31Quest1_Aim = "Hastat der Uralte hat Euch um die Beschaffung einer Sehne eines ausgewachsenen, blauen Drachen gebeten. Solltet Ihr diese Sehne finden, kehrt zu Hastat im Teufelswald zurück."
-Inst31Quest1_Location = "Hastat der Uralte (Teufelswald - Der Eisenwald; "..YELLOW.."48,24"..WHITE..")"
-Inst31Quest1_Note = "Töte Azuregos, um die Sehne eines ausgewachsenen blauen Drachen zu erhalten. Er wandert in der Mitte der südlichen Halbinsel Azsharas um "..YELLOW.."[1]"..WHITE.." umher."
-Inst31Quest1_Prequest = "Ja, Das uralte Blatt ("..YELLOW.."Geschmolzener Kern"..WHITE..")"
-Inst31Quest1_Folgequest = "Nein"
-Inst31Quest1PreQuest = "true"
---
-Inst31Quest1name1 = "Uraltes in Sehnen eingewickeltes Laminablatt"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst31Quest1_HORDE = Inst31Quest1
-Inst31Quest1_HORDE_Level = Inst31Quest1_Level
-Inst31Quest1_HORDE_Attain = Inst31Quest1_Attain
-Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
-Inst31Quest1_HORDE_Location = Inst31Quest1_Location
-Inst31Quest1_HORDE_Note = Inst31Quest1_Note
-Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
-Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
-Inst31Quest1PreQuest_HORDE = Inst31Quest1PreQuest
---
-Inst31Quest1name1_HORDE = Inst31Quest1name1
 
 
 
@@ -12497,10 +12644,10 @@ end
 -- 25 = Sunken Temple (ST)
 -- 26 = The Temple of Ahn'Qiraj (AQ40)
 -- 27 = Zul'Farrak (ZF)
--- 28 = Zul'Gurub (ZG)
+-- 28 = Zul'Gurub (ZG) (removed)
 -- 29 = Gnomeregan (Gnomer)
--- 30 = Four Dragons
--- 31 = Azuregos
+-- 30 = Four Dragons (removed)
+-- 31 = Azuregos (removed)
 -- 32 = Highlord Kruul
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
