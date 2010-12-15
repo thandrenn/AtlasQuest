@@ -11800,10 +11800,10 @@ Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 
 
---------------- INST98 - The Vortex Pinacle ---------------
+--------------- INST98 - The Vortex Pinnacle ---------------
 
-Inst98Story = "Here the armies of Al'Akir reside, and will not take kindly to any intruders in his elemental plane. The air elementals have entered an unholy alliance with the Worldbreaker, Deathwing and now threaten the denizens of Uldum. It is up to the adventurers to stop the elemental incursion to the ancient land, and the task is uneasy as they have to face the most powerful lieutenants of the Air Lord. \n\nWhen a player falls (or leaps) off the edge of platforms in this instance they are swept up in the winds and flung back onto the platform unharmed. This does, however, render them inactive for some time and would be inadvisable during combat. To pass from platform to platform, players have to jump onto Tornados. This is achieved by clicking on the tornado rather than by jumping off the platform and aiming for it."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst98Caption = "The Vortex Pinacle"
+Inst98Story = "Here the armies of Al'Akir reside, and will not take kindly to any intruders in his elemental plane. The air elementals have entered an unholy alliance with the Worldbreaker, Deathwing and now threaten the denizens of Uldum. It is up to the adventurers to stop the elemental incursion to the ancient land, and the task is uneasy as they have to face the most powerful lieutenants of the Air Lord."..GREEN.."\n\nQuoted from wowpedia.org"
+Inst98Caption = "The Vortex Pinnacle"
 Inst98QAA = "3 Quests"
 Inst98QAH = "3 Quests"
 
@@ -11984,7 +11984,7 @@ Inst99Quest3name3_HORDE = Inst99Quest3name3
 
 --------------- INST100 - Halls of Origination ---------------
 
-Inst100Story = "The Halls of Origination in Uldum is a level-85 five-player dungeon available in World of Warcraft: Cataclysm, featuring an unparalleled journey through the timeless titan construction and seven unique boss fights. Hidden deep within its halls lies an ancient treasure that, if placed in the wrong hands, could endanger all life on Azeroth. Should players survive the perils of Uldum, they will be called to help Brann Bronzebeard unlock the mysteries within these treacherous titan halls and protect the titans' ancient secrets."..GREEN.."\n\nQuoted from wowpedia.org"
+Inst100Story = "The Halls of Origination in Uldum is a level-85 five-player dungeon available in World of Warcraft: Cataclysm, featuring an unparalleled journey through the timeless titan construction and seven unique boss fights. Hidden deep within its halls lies an ancient treasure that, if placed in the wrong hands, could endanger all life on Azeroth. Should players survive the perils of Uldum, they will be called to help Brann Bronzebeard unlock the mysteries within these treacherous titan halls and protect the titans' ancient secrets."..GREEN.."\n\nQuoted from wowpedia.org"..BLUE.."\n\n\nLocation: "..WHITE.."Uldum - The Vortex Portal ("..YELLOW.."76.8, 84.3"..WHITE..")\nFly Southeast from The Lost City of the Tol'vir up into the sky. You'll see a few floating spires in the clouds. The Portal and summoning stone are at the highest one."
 Inst100Caption = "Halls of Origination"
 Inst100QAA = "3 Quests"
 Inst100QAH = "3 Quests"
@@ -13343,7 +13343,7 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 95 = Blackrock Caverns
 -- 96 = Throne of the Tides
 -- 97 = The Stonecore
--- 98 = The Vortex Pinacle
+-- 98 = The Vortex Pinnacle
 -- 99 = Grim Batol
 -- 100 = Halls of Origination
 -- 101 = Lost City of the Tol'vir

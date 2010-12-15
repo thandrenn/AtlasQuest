@@ -6731,31 +6731,31 @@ Inst97Quest2Rewardtext = AQNoReward
 Inst97Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
 Inst97Quest3ITC1 = Itemc4;
-Inst97Quest3description1 = AQITEM_LEGS..AQITEM_LEATHER
-Inst97Quest3ID1 = "66894"
+Inst97Quest3description1 = AQITEM_WAIST..AQITEM_CLOTH
+Inst97Quest3ID1 = "66892"
 --ITEM2
 Inst97Quest3ITC2 = Itemc4;
-Inst97Quest3description2 = AQITEM_WAIST..AQITEM_LEATHER
-Inst97Quest3ID2 = "66896"
+Inst97Quest3description2 = AQITEM_RING
+Inst97Quest3ID2 = "66893"
 --ITEM3
 Inst97Quest3ITC3 = Itemc4;
-Inst97Quest3description3 = AQITEM_BACK
-Inst97Quest3ID3 = "66897"
+Inst97Quest3description3 = AQITEM_SHOULDER..AQITEM_PLATE
+Inst97Quest3ID3 = "66891"
 
 --Quest 4 Alliance
 Inst97Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
 Inst97Quest4ITC1 = Itemc4;
-Inst97Quest4description1 = AQITEM_WAIST..AQITEM_CLOTH
-Inst97Quest4ID1 = "66892"
+Inst97Quest4description1 = AQITEM_LEGS..AQITEM_LEATHER
+Inst97Quest4ID1 = "66894"
 --ITEM2
 Inst97Quest4ITC2 = Itemc4;
-Inst97Quest4description2 = AQITEM_RING
-Inst97Quest4ID2 = "66893"
+Inst97Quest4description2 = AQITEM_WAIST..AQITEM_LEATHER
+Inst97Quest4ID2 = "66896"
 --ITEM3
 Inst97Quest4ITC3 = Itemc4;
-Inst97Quest4description3 = AQITEM_SHOULDER..AQITEM_PLATE
-Inst97Quest4ID3 = "66891"
+Inst97Quest4description3 = AQITEM_BACK
+Inst97Quest4ID3 = "66897"
 
 
 --Quest 1 Horde
@@ -6768,35 +6768,35 @@ Inst97Quest2Rewardtext_HORDE = AQNoReward
 Inst97Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
 Inst97Quest3ITC1_HORDE = Itemc4;
-Inst97Quest3description1_HORDE = AQITEM_LEGS..AQITEM_LEATHER
-Inst97Quest3ID1_HORDE = "66894"
+Inst97Quest3description1_HORDE = AQITEM_WAIST..AQITEM_CLOTH
+Inst97Quest3ID1_HORDE = "66892"
 --ITEM2
 Inst97Quest3ITC2_HORDE = Itemc4;
-Inst97Quest3description2_HORDE = AQITEM_WAIST..AQITEM_LEATHER
-Inst97Quest3ID2_HORDE = "66896"
+Inst97Quest3description2_HORDE = AQITEM_RING
+Inst97Quest3ID2_HORDE = "66893"
 --ITEM3
 Inst97Quest3ITC3_HORDE = Itemc4;
-Inst97Quest3description3_HORDE = AQITEM_BACK
-Inst97Quest3ID3_HORDE = "66897"
+Inst97Quest3description3_HORDE = AQITEM_SHOULDER..AQITEM_PLATE
+Inst97Quest3ID3_HORDE = "66891"
 
 --Quest 4 Horde
 Inst97Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
 Inst97Quest4ITC1_HORDE = Itemc4;
-Inst97Quest4description1_HORDE = AQITEM_WAIST..AQITEM_CLOTH
-Inst97Quest4ID1_HORDE = "66892"
+Inst97Quest4description1_HORDE = AQITEM_LEGS..AQITEM_LEATHER
+Inst97Quest4ID1_HORDE = "66894"
 --ITEM2
 Inst97Quest4ITC2_HORDE = Itemc4;
-Inst97Quest4description2_HORDE = AQITEM_RING
-Inst97Quest4ID2_HORDE = "66893"
+Inst97Quest4description2_HORDE = AQITEM_WAIST..AQITEM_LEATHER
+Inst97Quest4ID2_HORDE = "66896"
 --ITEM3
 Inst97Quest4ITC3_HORDE = Itemc4;
-Inst97Quest4description3_HORDE = AQITEM_SHOULDER..AQITEM_PLATE
-Inst97Quest4ID3_HORDE = "66891"
+Inst97Quest4description3_HORDE = AQITEM_BACK
+Inst97Quest4ID3_HORDE = "66897"
 
 
 
---------------- INST98 - The Vortex Pinacle ---------------
+--------------- INST98 - The Vortex Pinnacle ---------------
 
 --Quest 1 Alliance
 Inst98Quest1Rewardtext = AQNoReward

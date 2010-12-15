@@ -2045,23 +2045,23 @@ AQ_28843_Level = "82"
 
 Inst97Quest1_QuestID = "28866"
 Inst97Quest2_QuestID = "28815"
-Inst97Quest3_QuestID = "28824"
-Inst97Quest4_QuestID = "28814"
+Inst97Quest3_QuestID = "28814"
+Inst97Quest4_QuestID = "28824"
 
 Inst97Quest1_HORDE_QuestID = "28866"
 Inst97Quest2_HORDE_QuestID = "28815"
-Inst97Quest3_HORDE_QuestID = "28824"
-Inst97Quest4_HORDE_QuestID = "28814"
+Inst97Quest3_HORDE_QuestID = "28814"
+Inst97Quest4_HORDE_QuestID = "28824"
 
 
 AQ_28866_Level = "83"
 AQ_28815_Level = "84"
-AQ_28824_Level = "84"
 AQ_28814_Level = "84"
+AQ_28824_Level = "84"
 
 
 
---------------- INST98 - The Vortex Pinacle ---------------
+--------------- INST98 - The Vortex Pinnacle ---------------
 
 Inst98Quest1_QuestID = "28845"
 Inst98Quest2_QuestID = "28760"
