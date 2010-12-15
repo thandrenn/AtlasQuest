@@ -11462,7 +11462,7 @@ Inst97Quest2_Aim = "Beschafft die Dokumente des Schattenhammers."
 Inst97Quest2_Location = "Erdwächterin Yrsa (Der steinerne Kern; "..YELLOW.."Entrance"..WHITE..")"
 Inst97Quest2_Note = "Die Dokumente liegen auf den Boden nachdem Corborus besiegt wurde, bei "..YELLOW.."[1]"..WHITE.."."
 Inst97Quest2_Prequest = "Nein"
-Inst97Quest2_Folgequest = "Nein"
+Inst97Quest2_Folgequest = "Ja, Eine Anführerin und ihre Anhänger"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -11472,7 +11472,7 @@ Inst97Quest3_Attain = "82"
 Inst97Quest3_Aim = "Vernichtet Hohepriesterin Azil und 101 ihrer ergebenen Anhänger."
 Inst97Quest3_Location = "Erdwächterin Yrsa (Der steinerne Kern; "..YELLOW.."Eingang"..WHITE..") or automatically given."
 Inst97Quest3_Note = "Hohepriesterin Azil ist bei "..YELLOW.."[4]"..WHITE.." und die ergebenen Anhänger sind überall auf den Weg zu ihr verteilt. Diese Quest bringt dich zurück zu Erdwächterin Yrsa am Eingang der Instanz."
-Inst97Quest3_Prequest = "Nein"
+Inst97Quest3_Prequest = "Ja, Dokumente des Schattenhammers"
 Inst97Quest3_Folgequest = "Nein"
 --
 Inst97Quest3name1 = "Band der Einhundert und Eins"
@@ -11546,7 +11546,7 @@ Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 
 
---------------- INST98 - The Vortex Pinacle ---------------
+--------------- INST98 - The Vortex Pinnacle ---------------
 
 Inst98Story = "Kommt noch"
 Inst98Caption = "Der Vortexgipfel"
