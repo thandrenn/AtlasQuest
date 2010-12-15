@@ -771,7 +771,7 @@ end
 -- 95 = Blackrock Caverns
 -- 96 = Throne of the Tides
 -- 97 = The Stonecore
--- 98 = The Vortex Pinacle
+-- 98 = The Vortex Pinnacle
 -- 99 = Grim Batol
 -- 100 = Halls of Origination
 -- 101 = Lost City of the Tol'vir
