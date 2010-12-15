@@ -11474,6 +11474,7 @@ Inst97Quest3_Location = "Erdwächterin Yrsa (Der steinerne Kern; "..YELLOW.."Ein
 Inst97Quest3_Note = "Hohepriesterin Azil ist bei "..YELLOW.."[4]"..WHITE.." und die ergebenen Anhänger sind überall auf den Weg zu ihr verteilt. Diese Quest bringt dich zurück zu Erdwächterin Yrsa am Eingang der Instanz."
 Inst97Quest3_Prequest = "Ja, Dokumente des Schattenhammers"
 Inst97Quest3_Folgequest = "Nein"
+Inst97Quest3PreQuest = "true"
 --
 Inst97Quest3name1 = "Band der Einhundert und Eins"
 Inst97Quest3name2 = "Signet der Hohepriesterin"
@@ -11525,6 +11526,7 @@ Inst97Quest3_HORDE_Location = Inst97Quest3_Location
 Inst97Quest3_HORDE_Note = Inst97Quest3_Note
 Inst97Quest3_HORDE_Prequest = Inst97Quest3_Prequest
 Inst97Quest3_HORDE_Folgequest = Inst97Quest3_Folgequest
+Inst97Quest3FQuest_HORDE = Inst97Quest3FQuest
 --
 Inst97Quest3name1_HORDE = Inst97Quest3name1
 Inst97Quest3name2_HORDE = Inst97Quest3name2
