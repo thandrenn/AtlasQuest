@@ -1790,7 +1790,7 @@ Inst9Quest1_Folgequest = "藍龍之怒"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst9Quest2 = "2. 芬克．恩霍爾，為您效勞!"
+Inst9Quest2 = "2. 芬克·恩霍爾，為您效勞!"
 Inst9Quest2_Level = "60"
 Inst9Quest2_Attain = "57"
 Inst9Quest2_Aim = "與永望鎮的瑪雷弗斯．暗錘談話。"
@@ -3817,7 +3817,7 @@ Inst20Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst20Quest3 = "3. 『屠夫』瑟爾林．卡斯迪諾夫教授"
+Inst20Quest3 = "3. 『屠夫』瑟爾林·卡斯迪諾夫教授"
 Inst20Quest3_Level = "60"
 Inst20Quest3_Attain = "55"
 Inst20Quest3_Aim = "在通靈學院中找到瑟爾林．卡斯迪諾夫教授。殺死他，並燒毀艾瓦．薩克霍夫和盧森．薩克霍夫的遺體。任務完成後就回到艾瓦．薩克霍夫那兒。"
@@ -3855,7 +3855,7 @@ Inst20Quest5name2 = "波尼的玫瑰"
 Inst20Quest5name3 = "米拉之歌"
 
 --Quest 6 Alliance
-Inst20Quest6 = "6. 巫妖萊斯．霜語"
+Inst20Quest6 = "6. 巫妖萊斯·霜語"
 Inst20Quest6_Level = "60"
 Inst20Quest6_Attain = "57"
 Inst20Quest6_Aim = "在通靈學院裡找到萊斯．霜語。當你找到他之後，使用禁錮靈魂的遺物破除其亡靈的外殼。如果你成功地破除了他的不死之身，就殺掉他並拿到萊斯．霜語的頭顱。把那個頭顱交給馬杜克鎮長。"
@@ -4244,7 +4244,7 @@ Inst22Quest3name3 = "懺悔之冠"
 Inst22Quest3name4 = "懺悔者指環"
 
 --Quest 4 Alliance
-Inst22Quest4 = "4. 弗拉斯．希亞比"
+Inst22Quest4 = "4. 弗拉斯·希亞比"
 Inst22Quest4_Level = "60"
 Inst22Quest4_Attain = "55"
 Inst22Quest4_Aim = "找到弗拉斯．希亞比在斯坦索姆的煙草店，並從中找回一盒希亞比的煙草，把它交給煙鬼拉魯恩。"
@@ -7095,7 +7095,7 @@ Inst47General = {
 };
 
 --Quest 1 Alliance
-Inst47Quest1 = "1. 找尋間諜．吐剛"
+Inst47Quest1 = "1. 找尋間諜·吐剛"
 Inst47Quest1_Level = "70"
 Inst47Quest1_Attain = "68"
 Inst47Quest1_Aim = "在奧齊頓的暗影迷宮裡找到間諜．吐剛。"
