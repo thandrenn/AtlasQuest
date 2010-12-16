@@ -26,9 +26,9 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2010-12-13
-	最後更新﹕二○一○年十二月十三日
-	新增　浩劫重生　任務
+	Last Updated: 2010-12-16
+	最後更新﹕二○一○年十二月十六日
+	新增　浩劫與重生　任務
 
 --]]
 
@@ -201,10 +201,10 @@ Inst1Quest1 = "1. 工頭"
 Inst1Quest1_Level = "16"
 Inst1Quest1_Attain = "15"
 Inst1Quest1_Aim = "殺死格魯巴托克。"
-Inst1Quest1_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest1_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest1_Note = "格魯巴托克是死亡礦坑中的第一個首領，位在"..YELLOW.."[1]"..WHITE.."。"
-Inst1Quest1_Prequest = "None"
-Inst1Quest1_Folgequest = "None"
+Inst1Quest1_Prequest = "無"
+Inst1Quest1_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -212,10 +212,10 @@ Inst1Quest2 = "2. 木工"
 Inst1Quest2_Level = "16"
 Inst1Quest2_Attain = "15"
 Inst1Quest2_Aim = "擊敗赫利克斯．碎輪者。"
-Inst1Quest2_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest2_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest2_Note = "當你踏入死亡礦坑的船桅室之後，這個任務將會自動給予。\n\n赫利克斯．碎輪者是死亡礦坑中的第二個首領，位在"..YELLOW.."[2]"..WHITE.."。"
-Inst1Quest2_Prequest = "None"
-Inst1Quest2_Folgequest = "None"
+Inst1Quest2_Prequest = "無"
+Inst1Quest2_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -223,10 +223,10 @@ Inst1Quest3 = "3. 機械"
 Inst1Quest3_Level = "16"
 Inst1Quest3_Attain = "15"
 Inst1Quest3_Aim = "摧毀敵人收割者5000。"
-Inst1Quest3_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest3_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest3_Note = "當你踏入死亡礦坑的哥布林鍛造廠之後，這個任務將會自動給予。\n\n敵人收割者5000 是死亡礦坑中的第三個首領，位在"..YELLOW.."[3]"..WHITE.."。"
-Inst1Quest3_Prequest = "None"
-Inst1Quest3_Folgequest = "None"
+Inst1Quest3_Prequest = "無"
+Inst1Quest3_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -234,9 +234,9 @@ Inst1Quest4 = "4. 利普斯納爾上將"
 Inst1Quest4_Level = "16"
 Inst1Quest4_Attain = "15"
 Inst1Quest4_Aim = "殺死利普斯納爾上將。"
-Inst1Quest4_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest4_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest4_Note = "當你踏入死亡礦坑的鐵甲灣之後，這個任務將會自動給予。\n\n利普斯納爾上將是死亡礦坑中的第四個首領，位在"..YELLOW.."[4]"..WHITE.."。"
-Inst1Quest4_Prequest = "None"
+Inst1Quest4_Prequest = "無"
 Inst1Quest4_Folgequest = "迪菲亞兄弟會首腦"
 -- No Rewards for this quest
 
@@ -245,10 +245,10 @@ Inst1Quest5 = "5. 迪菲亞兄弟會首腦"
 Inst1Quest5_Level = "17"
 Inst1Quest5_Attain = "15"
 Inst1Quest5_Aim = "殺死迪菲亞兄弟會首腦。"
-Inst1Quest5_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest5_Location = "何瑞修．萊恩中尉（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest5_Note = "當你完成[利普斯納爾上將]之後，這個任務將會自動給予。\n\n『隊長』餅乾是死亡礦坑中的最後一個首領，位在"..YELLOW.."[4]"..WHITE.."。"
 Inst1Quest5_Prequest = "利普斯納爾上將"
-Inst1Quest5_Folgequest = "None"
+Inst1Quest5_Folgequest = "無"
 Inst1Quest5FQuest = "true"
 --
 Inst1Quest5name1 = "廚師的敲肉槌"
@@ -261,10 +261,10 @@ Inst1Quest1_HORDE = "1. 只是開始"
 Inst1Quest1_HORDE_Level = "16"
 Inst1Quest1_HORDE_Attain = "15"
 Inst1Quest1_HORDE_Aim = "殺死格魯巴托克。"
-Inst1Quest1_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest1_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest1_HORDE_Note = "格魯巴托克是死亡礦坑中的第一個首領，位在"..YELLOW.."[1]"..WHITE.."。"
-Inst1Quest1_HORDE_Prequest = "None"
-Inst1Quest1_HORDE_Folgequest = "None"
+Inst1Quest1_HORDE_Prequest = "無"
+Inst1Quest1_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -272,10 +272,10 @@ Inst1Quest2_HORDE = "2. 背叛者!!!"
 Inst1Quest2_HORDE_Level = "16"
 Inst1Quest2_HORDE_Attain = "15"
 Inst1Quest2_HORDE_Aim = "擊敗赫利克斯．碎輪者。"
-Inst1Quest2_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest2_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest2_HORDE_Note = "當你踏入死亡礦坑的船桅室之後，這個任務將會自動給予。\n\n赫利克斯．碎輪者是死亡礦坑中的第二個首領，位在"..YELLOW.."[2]"..WHITE.."。"
-Inst1Quest2_HORDE_Prequest = "None"
-Inst1Quest2_HORDE_Folgequest = "None"
+Inst1Quest2_HORDE_Prequest = "無"
+Inst1Quest2_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -283,10 +283,10 @@ Inst1Quest3_HORDE = "3. 還差了點"
 Inst1Quest3_HORDE_Level = "16"
 Inst1Quest3_HORDE_Attain = "15"
 Inst1Quest3_HORDE_Aim = "摧毀敵人收割者5000。"
-Inst1Quest3_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest3_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest3_HORDE_Note = "當你踏入死亡礦坑的哥布林鍛造廠之後，這個任務將會自動給予。\n\n敵人收割者5000 是死亡礦坑中的第三個首領，位在"..YELLOW.."[3]"..WHITE.."。"
-Inst1Quest3_HORDE_Prequest = "None"
-Inst1Quest3_HORDE_Folgequest = "None"
+Inst1Quest3_HORDE_Prequest = "無"
+Inst1Quest3_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -294,9 +294,9 @@ Inst1Quest4_HORDE = "4.立意良善...但執行薄弱"
 Inst1Quest4_HORDE_Level = "16"
 Inst1Quest4_HORDE_Attain = "15"
 Inst1Quest4_HORDE_Aim = "殺死利普斯納爾上將。"
-Inst1Quest4_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest4_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest4_HORDE_Note = "當你踏入死亡礦坑的鐵甲灣之後，這個任務將會自動給予。\n\n利普斯納爾上將是死亡礦坑中的第四個首領，位在"..YELLOW.."[4]"..WHITE.."。"
-Inst1Quest4_HORDE_Prequest = "None"
+Inst1Quest4_HORDE_Prequest = "無"
 Inst1Quest4_HORDE_Folgequest = "迪菲亞兄弟會的首腦"
 -- No Rewards for this quest
 
@@ -305,10 +305,10 @@ Inst1Quest5_HORDE = "5. 迪菲亞兄弟的會首腦"
 Inst1Quest5_HORDE_Level = "17"
 Inst1Quest5_HORDE_Attain = "15"
 Inst1Quest5_HORDE_Aim = "殺死迪菲亞兄弟會的首腦。"
-Inst1Quest5_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."1'"..WHITE.."）"
+Inst1Quest5_HORDE_Location = "卡格薩（死亡礦坑; "..GREEN.."[1']"..WHITE.."）"
 Inst1Quest5_HORDE_Note = "當你完成[立意良善...但執行薄弱]之後，這個任務將會自動給予。\n\n『隊長』餅乾是死亡礦坑中的最後一個首領，位在"..YELLOW.."[4]"..WHITE.."。"
 Inst1Quest5_HORDE_Prequest = "立意良善...但執行薄弱"
-Inst1Quest5_HORDE_Folgequest = "None"
+Inst1Quest5_HORDE_Folgequest = "無"
 Inst1Quest5FQuest_HORDE = "true"
 --
 Inst1Quest5name1_HORDE = "廚師的敲肉槌"
@@ -342,8 +342,8 @@ Inst2Quest2_Attain = "16"
 Inst2Quest2_Aim = "納爾派克想要你收集5朵毒蛇花。"
 Inst2Quest2_Location = "納爾派克（哀嚎洞穴; "..YELLOW.."入口"..WHITE.."）"
 Inst2Quest2_Note = "毒蛇花遍布於地城內的地板上。"
-Inst2Quest2_Prequest = "None"
-Inst2Quest2_Folgequest = "None"
+Inst2Quest2_Prequest = "無"
+Inst2Quest2_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -353,8 +353,8 @@ Inst2Quest3_Attain = "16"
 Inst2Quest3_Aim = "哀嚎洞穴的厄布魯要求你殺掉毒牙之王考布萊恩，安娜科德拉，皮薩斯，和瑟芬迪斯。"
 Inst2Quest3_Location = "厄布魯（哀嚎洞穴; "..YELLOW.."入口"..WHITE.."）"
 Inst2Quest3_Note = "安娜科德拉女士在"..YELLOW.."[1]"..WHITE.."，考布萊恩領主在"..YELLOW.."[3]"..WHITE.."，皮薩斯領主在"..YELLOW.."[4]"..WHITE.."，瑟芬迪斯領主則在"..YELLOW.."[6]"..WHITE.."。"
-Inst2Quest3_Prequest = "None"
-Inst2Quest3_Folgequest = "None"
+Inst2Quest3_Prequest = "無"
+Inst2Quest3_Folgequest = "無"
 --
 Inst2Quest3name1 = "淨化過的肩鎧"
 Inst2Quest3name2 = "瑟芬迪斯手套"
@@ -416,8 +416,8 @@ Inst3Quest1_HORDE_Level = "13"
 Inst3Quest1_HORDE_Attain = "10"
 Inst3Quest1_HORDE_Aim = "與石衛士療舉談話。"
 Inst3Quest1_HORDE_Location = "卡爾洛斯．地獄吼（奧格瑪 - 力量谷; "..YELLOW.."48.2, 70.6"..WHITE.."）\n貝恩．血蹄（雷霆崖 - 上部高地; "..YELLOW.."60.6, 51.6"..WHITE.."）\n希瓦娜斯．風行者女士（幽暗城 - 皇家區; "..YELLOW.."58.6, 93.0"..WHITE.."）"
-Inst3Quest1_HORDE_Note = "這是一個可以在三個主城接到的非必要性前導任務。"
-Inst3Quest1_HORDE_Prequest = "None"
+Inst3Quest1_HORDE_Note = "這是一個可以在三個主城接到的非必要性前置任務。"
+Inst3Quest1_HORDE_Prequest = "無"
 Inst3Quest1_HORDE_Folgequest = "『飢餓者』塔拉加曼"
 -- No Rewards for this quest
 
@@ -429,7 +429,7 @@ Inst3Quest2_HORDE_Aim = "取出『飢餓者』塔拉加曼的心臟。"
 Inst3Quest2_HORDE_Location = "石衛士療舉談話（怒焰裂谷; "..YELLOW.."入口"..WHITE.."）"
 Inst3Quest2_HORDE_Note = "『飢餓者』塔拉加曼在"..YELLOW.."[2]"..WHITE.."，任務所需的灼刃信徒、灼刃執行者和灼刃術士則在通往『飢餓者』塔拉加曼的路上。"
 Inst3Quest2_HORDE_Prequest = "下方的敵人（非必要）"
-Inst3Quest2_HORDE_Folgequest = "None"
+Inst3Quest2_HORDE_Folgequest = "無"
 Inst3Quest2FQuest_HORDE = "true"
 --
 Inst3Quest2name1_HORDE = "灼熱腰帶"
@@ -445,8 +445,8 @@ Inst3Quest3_HORDE_Attain = "10"
 Inst3Quest3_HORDE_Aim = "殺死奧格弗林特、巴札蘭以及『塑能師』耶戈什。"
 Inst3Quest3_HORDE_Location = "石衛士療舉談話（怒焰裂谷; "..YELLOW.."入口"..WHITE.."）"
 Inst3Quest3_HORDE_Note = "奧格弗林特在"..YELLOW.."[1]"..WHITE.."，巴札蘭在"..YELLOW.."[3]"..WHITE.."，『塑能師』耶戈什在"..YELLOW.."[4]"..WHITE.."。"
-Inst3Quest3_HORDE_Prequest = "None"
-Inst3Quest3_HORDE_Folgequest = "None"
+Inst3Quest3_HORDE_Prequest = "無"
+Inst3Quest3_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -456,8 +456,8 @@ Inst3Quest4_HORDE_Attain = "10"
 Inst3Quest4_HORDE_Aim = "獲得6個灼熱束腕。"
 Inst3Quest4_HORDE_Location = "波瓦爾．白角（怒焰裂谷; "..YELLOW.."入口"..WHITE.."）"
 Inst3Quest4_HORDE_Note = "在通往第一個首領路上的石元素都會掉落任務所需物品。"
-Inst3Quest4_HORDE_Prequest = "None"
-Inst3Quest4_HORDE_Folgequest = "None"
+Inst3Quest4_HORDE_Prequest = "無"
+Inst3Quest4_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 
@@ -476,7 +476,7 @@ Inst4Quest1_Attain = "37"
 Inst4Quest1_Aim = "擊敗艾隆納亞。"
 Inst4Quest1_Location = "首席勘察員杜爾丁（奧達曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest1_Note = "艾隆納亞在"..YELLOW.."[3]"..WHITE.."。你必須從巴爾洛戈的箱子"..YELLOW.."[1]"..WHITE.."中拿取尼基夫勳章，並且從魯維羅什"..YELLOW.."[2]"..WHITE.."身上取得索爾之杖，將之合併成為開啟密室的鑰匙。\n\n你可以在任務完成之後，於任務列表處的互動式任務交付[卡茲莫爾密室]及接受後續任務。"
-Inst4Quest1_Prequest = "None"
+Inst4Quest1_Prequest = "無"
 Inst4Quest1_Folgequest = "阿札達斯，遠古石之看守者"
 -- No Rewards for this quest
 
@@ -488,7 +488,7 @@ Inst4Quest2_Aim = "擊敗阿札達斯。"
 Inst4Quest2_Location = "首席勘察員杜爾丁（奧達曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest2_Note = "阿札達斯在"..YELLOW.."[8]"..WHITE.."。"
 Inst4Quest2_Prequest = "卡茲莫爾密室"
-Inst4Quest2_Folgequest = "None"
+Inst4Quest2_Folgequest = "無"
 Inst4Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -499,8 +499,8 @@ Inst4Quest3_Attain = "37"
 Inst4Quest3_Aim = "取得黑曜能量核心和泰坦能量核心。"
 Inst4Quest3_Location = "坎德．覓沙（奧達曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest3_Note = "黑曜能量核心掉落自黑曜石哨兵"..YELLOW.."[4]"..WHITE.."，泰坦能量核心掉落自上古石之守衛者"..YELLOW.."[5]"..WHITE.."。"
-Inst4Quest3_Prequest = "None"
-Inst4Quest3_Folgequest = "None"
+Inst4Quest3_Prequest = "無"
+Inst4Quest3_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -510,8 +510,8 @@ Inst4Quest4_Attain = "37"
 Inst4Quest4_Aim = "殺死加加恩．火錘。"
 Inst4Quest4_Location = "歐嘉．符誓（奧達曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest4_Note = "加加恩．火錘在"..YELLOW.."[6]"..WHITE.."。"
-Inst4Quest4_Prequest = "None"
-Inst4Quest4_Folgequest = "None"
+Inst4Quest4_Prequest = "無"
+Inst4Quest4_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -521,7 +521,7 @@ Inst4Quest5_Attain = "37"
 Inst4Quest5_Aim = "和石之看守者者交談，從他那裡瞭解更多古代的知識。一旦你瞭解到了所有的內容之後就啟動諾甘農圓盤。"
 Inst4Quest5_Location = "白金圓盤（奧達曼; "..GREEN.."[3']"..WHITE.."）"
 Inst4Quest5_Note = "石之看守者者就在白金圓盤的旁邊，啟動諾甘農圓盤以交付任務並領取後續任務。"
-Inst4Quest5_Prequest = "None"
+Inst4Quest5_Prequest = "無"
 Inst4Quest5_Folgequest = "白金圓盤"
 -- No Rewards for this quest
 
@@ -533,7 +533,7 @@ Inst4Quest6_Aim = "把迷你版的諾甘農圓盤帶給某個對它們很有興�
 Inst4Quest6_Location = "白金圓盤（奧達曼; "..GREEN.."[3']"..WHITE.."）"
 Inst4Quest6_Note = "向地城入口的首席勘察員杜爾丁交付任務。"
 Inst4Quest6_Prequest = "白金圓盤"
-Inst4Quest6_Folgequest = "None"
+Inst4Quest6_Folgequest = "無"
 Inst4Quest6FQuest = "true"
 --
 Inst4Quest6name1 = "白金劍"
@@ -548,7 +548,7 @@ Inst4Quest1_HORDE_Attain = "37"
 Inst4Quest1_HORDE_Aim = "擊敗艾隆納亞。"
 Inst4Quest1_HORDE_Location = "高階審查員泰瑟連．血腥看守者（奧達曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest1_HORDE_Note = "艾隆納亞在"..YELLOW.."[3]"..WHITE.."。你必須從巴爾洛戈的箱子"..YELLOW.."[1]"..WHITE.."中拿取尼基夫勳章，並且從魯維羅什"..YELLOW.."[2]"..WHITE.."身上取得索爾之杖，將之合併成為開啟密室的鑰匙。\n\n你可以在任務完成之後，於任務列表處的互動式任務交付[卡茲莫爾密室]及接受後續任務。"
-Inst4Quest1_HORDE_Prequest = "None"
+Inst4Quest1_HORDE_Prequest = "無"
 Inst4Quest1_HORDE_Folgequest = "阿札達斯，遠古石之看守者"
 -- No Rewards for this quest
 
@@ -560,7 +560,7 @@ Inst4Quest2_HORDE_Aim = "擊敗阿札達斯。"
 Inst4Quest2_HORDE_Location = "高階審查員泰瑟連．血腥看守者（奧達曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest2_HORDE_Note = "阿札達斯在"..YELLOW.."[8]"..WHITE.."。"
 Inst4Quest2_HORDE_Prequest = "卡茲莫爾密室"
-Inst4Quest2_HORDE_Folgequest = "None"
+Inst4Quest2_HORDE_Folgequest = "無"
 Inst4Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -571,8 +571,8 @@ Inst4Quest3_HORDE_Attain = "37"
 Inst4Quest3_HORDE_Aim = "取得黑曜能量核心和泰坦能量核心。"
 Inst4Quest3_HORDE_Location = "安歐連．日耀 （奧達曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest3_HORDE_Note = "黑曜能量核心掉落自黑曜石哨兵"..YELLOW.."[4]"..WHITE.."，泰坦能量核心掉落自上古石之守衛者"..YELLOW.."[5]"..WHITE.."。"
-Inst4Quest3_HORDE_Prequest = "None"
-Inst4Quest3_HORDE_Folgequest = "None"
+Inst4Quest3_HORDE_Prequest = "無"
+Inst4Quest3_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -582,8 +582,8 @@ Inst4Quest4_HORDE_Attain = "37"
 Inst4Quest4_HORDE_Aim = "殺死加加恩．火錘。"
 Inst4Quest4_HORDE_Location = "莉蒂雅．日耀（奧達曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest4_HORDE_Note = "加加恩．火錘在"..YELLOW.."[6]"..WHITE.."。"
-Inst4Quest4_HORDE_Prequest = "None"
-Inst4Quest4_HORDE_Folgequest = "None"
+Inst4Quest4_HORDE_Prequest = "無"
+Inst4Quest4_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -626,9 +626,9 @@ Inst5Quest1 = "1. 深入監獄"
 Inst5Quest1_Level = "52"
 Inst5Quest1_Attain = "47"
 Inst5Quest1_Aim = "找到凱文．多森。"
-Inst5Quest1_Location = "加琳達·短枝（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest1_Location = "加琳達．短枝（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
 Inst5Quest1_Note = "凱文．多森在前往監獄"..GREEN.."[2']"..WHITE.."的路上。"
-Inst5Quest1_Prequest = "None"
+Inst5Quest1_Prequest = "無"
 Inst5Quest1_Folgequest = "暮光?!不會吧!"
 -- No Rewards for this quest
 
@@ -637,10 +637,10 @@ Inst5Quest2 = "2. 暮光?!不會吧!"
 Inst5Quest2_Level = "55"
 Inst5Quest2_Attain = "47"
 Inst5Quest2_Aim = "「審問」高階審問者格斯塔恩。"
-Inst5Quest2_Location = "凱文．多森（黑石深淵; "..GREEN.."['2']"..WHITE.."）"
+Inst5Quest2_Location = "凱文．多森（黑石深淵; "..GREEN.."[2']"..WHITE.."）"
 Inst5Quest2_Note = "高階審問者格斯塔恩可以在"..YELLOW.."[1]"..WHITE.."的地方找到。"
 Inst5Quest2_Prequest = "深入監獄"
-Inst5Quest2_Folgequest = "None"
+Inst5Quest2_Folgequest = "無"
 Inst5Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -649,10 +649,10 @@ Inst5Quest3 = "3. 封鎖的門"
 Inst5Quest3_Level = "52"
 Inst5Quest3_Attain = "47"
 Inst5Quest3_Aim = "殺死貝爾加。"
-Inst5Quest3_Location = "丁奇·斯迪波爾（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest3_Location = "丁奇．斯迪波爾（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
 Inst5Quest3_Note = "貝爾加在"..YELLOW.."[4]"..WHITE.."。"
-Inst5Quest3_Prequest = "None"
-Inst5Quest3_Folgequest = "None"
+Inst5Quest3_Prequest = "無"
+Inst5Quest3_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -661,8 +661,8 @@ Inst5Quest4_Level = "54"
 Inst5Quest4_Attain = "51"
 Inst5Quest4_Aim = "和勘察員希摩爾談話。"
 Inst5Quest4_Location = "奧拉留斯（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
-Inst5Quest4_Note = "勘察員希摩爾 is at "..GREEN.."[3']"..WHITE.."。"
-Inst5Quest4_Prequest = "None"
+Inst5Quest4_Note = "勘察員希摩爾在"..GREEN.."[3']"..WHITE.."。"
+Inst5Quest4_Prequest = "無"
 Inst5Quest4_Folgequest = "黑鐵戰術家"
 -- No Rewards for this quest
 
@@ -672,7 +672,7 @@ Inst5Quest5_Level = "55"
 Inst5Quest5_Attain = "51"
 Inst5Quest5_Aim = "殺死安格弗將軍和魔像領主阿格曼奇。"
 Inst5Quest5_Location = "勘察員希摩爾（黑石深淵; "..GREEN.."[3']"..WHITE.."）"
-Inst5Quest5_Note = "安格弗將軍在"..YELLOW.."[10]"..WHITE.."，魔像領主阿格曼奇在"..YELLOW.."[11]"..WHITE.."。在"..GREEN.."[7']"..WHITE.."向瑪亞拉·亮翼回報任務。"
+Inst5Quest5_Note = "安格弗將軍在"..YELLOW.."[10]"..WHITE.."，魔像領主阿格曼奇在"..YELLOW.."[11]"..WHITE.."。在"..GREEN.."[7']"..WHITE.."向瑪亞拉．亮翼回報任務。"
 Inst5Quest5_Prequest = "滲透影爐城"
 Inst5Quest5_Folgequest = "黑鐵酒吧"
 Inst5Quest5FQuest = "true"
@@ -683,7 +683,7 @@ Inst5Quest6 = "6. 黑鐵酒吧"
 Inst5Quest6_Level = "56"
 Inst5Quest6_Attain = "51"
 Inst5Quest6_Aim = "和霍爾雷•黑鬚、普拉格•史帕齊林、雷布里•斯庫比格特交戰。"
-Inst5Quest6_Location = "瑪亞拉·亮翼（黑石深淵; "..GREEN.."[7']"..WHITE.."）"
+Inst5Quest6_Location = "瑪亞拉．亮翼（黑石深淵; "..GREEN.."[7']"..WHITE.."）"
 Inst5Quest6_Note = "任務所需的三個人都在黑鐵酒吧裡的"..YELLOW.."[12]"..WHITE.."、"..YELLOW.."[13]"..WHITE.."和"..YELLOW.."[14]"..WHITE.."。在靠近"..YELLOW.."[15]"..WHITE.."的地方向巡山人歐弗斯回報任務。"
 Inst5Quest6_Prequest = "黑鐵戰術家"
 Inst5Quest6_Folgequest = "黑鐵契約"
@@ -706,11 +706,11 @@ Inst5Quest7FQuest = "true"
 Inst5Quest8 = "8. 莫加努斯的成就"
 Inst5Quest8_Level = "58"
 Inst5Quest8_Attain = "51"
-Inst5Quest8_Aim = "殺死達格蘭‧索瑞森大帝。"
+Inst5Quest8_Aim = "殺死達格蘭．索瑞森大帝。"
 Inst5Quest8_Location = "麥斯威爾元帥（黑石深淵; "..YELLOW.."[16]的後面"..WHITE.."）"
-Inst5Quest8_Note = "達格蘭‧索瑞森大帝在"..YELLOW.."[18]"..WHITE.."。向身後的麥斯威爾元帥回報任務。"
+Inst5Quest8_Note = "達格蘭．索瑞森大帝在"..YELLOW.."[18]"..WHITE.."。向身後的麥斯威爾元帥回報任務。"
 Inst5Quest8_Prequest = "黑鐵契約"
-Inst5Quest8_Folgequest = "None"
+Inst5Quest8_Folgequest = "無"
 Inst5Quest8FQuest = "true"
 --
 Inst5Quest8name1 = "索瑞森的胸甲"
@@ -722,10 +722,10 @@ Inst5Quest9 = "9. 山脈之心"
 Inst5Quest9_Level = "55"
 Inst5Quest9_Attain = "51"
 Inst5Quest9_Aim = "取得山脈之心。"
-Inst5Quest9_Location = "麥克斯沃特·尤柏格林（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest9_Location = "麥克斯沃特．尤柏格林（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
 Inst5Quest9_Note = "山脈之心在"..YELLOW.."[7]"..WHITE.."。"
-Inst5Quest9_Prequest = "None"
-Inst5Quest9_Folgequest = "None"
+Inst5Quest9_Prequest = "無"
+Inst5Quest9_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
@@ -733,10 +733,10 @@ Inst5Quest10 = "10. 危險的聯盟 （戰士職業任務）"
 Inst5Quest10_Level = "50"
 Inst5Quest10_Attain = "50"
 Inst5Quest10_Aim = "到黑石深淵的西部兵營殺死6個火焰驅逐者，並從安格弗將軍身上找出將軍的攻擊計畫。"
-Inst5Quest10_Location = "安得爾·傑曼（暴風城 - 舊城區; "..YELLOW.."79.8, 69.5"..WHITE.."）"
-Inst5Quest10_Note = "這是戰士職業任務。非必要的前導任務[與安得爾·傑曼見面]來自各主城的戰士訓練師。\n\n安格弗將軍在"..YELLOW.."[10]"..WHITE.."，火焰驅逐者則在通往安格弗將軍所在位置的路上。"
-Inst5Quest10_Prequest = "與安得爾·傑曼見面"
-Inst5Quest10_Folgequest = "None"
+Inst5Quest10_Location = "安得爾．傑曼（暴風城 - 舊城區; "..YELLOW.."79.8, 69.5"..WHITE.."）"
+Inst5Quest10_Note = "這是戰士職業任務。非必要的前置任務[與安得爾．傑曼見面]來自各主城的戰士訓練師。\n\n安格弗將軍在"..YELLOW.."[10]"..WHITE.."，火焰驅逐者則在通往安格弗將軍所在位置的路上。"
+Inst5Quest10_Prequest = "與安得爾．傑曼見面"
+Inst5Quest10_Folgequest = "無"
 Inst5Quest10PreQuest = "true"
 --
 Inst5Quest10name1 = "皇冠面甲"
@@ -747,10 +747,10 @@ Inst5Quest11 = "11. 火焰之王的奴隸 （薩滿職業任務）"
 Inst5Quest11_Level = "50"
 Inst5Quest11_Attain = "50"
 Inst5Quest11_Aim = "使用自由圖騰解放黑石深淵的6位火焰衛士，火焰驅逐者，或熾熱火焰衛士。"
-Inst5Quest11_Location = "先知安布洛（暴風城 - 矮人區"..YELLOW.."65.9, 31.4"..WHITE.."）"
-Inst5Quest11_Note = "這是薩滿職業任務。非必要的前導任務[會見先知安布洛]來自各主城的薩滿訓練師。\n\n火焰衛士可以在黑石深淵的各處找到。在殺死他們之前先使用自由圖騰。"
+Inst5Quest11_Location = "先知安布洛（暴風城 - 矮人區; "..YELLOW.."65.9, 31.4"..WHITE.."）"
+Inst5Quest11_Note = "這是薩滿職業任務。非必要的前置任務[會見先知安布洛]來自各主城的薩滿訓練師。\n\n火焰衛士可以在黑石深淵的各處找到。在殺死他們之前先使用自由圖騰。"
 Inst5Quest11_Prequest = "會見先知安布洛"
-Inst5Quest11_Folgequest = "None"
+Inst5Quest11_Folgequest = "無"
 Inst5Quest11PreQuest = "true"
 --
 Inst5Quest11name1 = "先知面具"
@@ -761,10 +761,10 @@ Inst5Quest12 = "12. 禁錮之石 （術士職業任務）"
 Inst5Quest12_Level = "50"
 Inst5Quest12_Attain = "50"
 Inst5Quest12_Aim = "從黑石深淵收回6件元素束縛之石。你可以在影爐城，住宅區，索瑞森神殿，西部兵營和東部兵營找到這些石頭。"
-Inst5Quest12_Location = "德米賽特·克勞斯（暴風城 - 法師區; "..YELLOW.."39.7, 84.5"..WHITE.."）"
-Inst5Quest12_Note = "這是術士職業任務。非必要的前導任務[與德米賽特·克勞斯見面]來自各主城的術士訓練師。"
-Inst5Quest12_Prequest = "與德米賽特·克勞斯見面"
-Inst5Quest12_Folgequest = "None"
+Inst5Quest12_Location = "德米賽特．克勞斯（暴風城 - 法師區; "..YELLOW.."39.7, 84.5"..WHITE.."）"
+Inst5Quest12_Note = "這是術士職業任務。非必要的前置任務[與德米賽特．克勞斯見面]來自各主城的術士訓練師。"
+Inst5Quest12_Prequest = "與德米賽特．克勞斯見面"
+Inst5Quest12_Folgequest = "無"
 Inst5Quest12PreQuest = "true"
 --
 Inst5Quest12name1 = "正當罪行角帽"
@@ -775,9 +775,9 @@ Inst5Quest13_Level = "50"
 Inst5Quest13_Attain = "50"
 Inst5Quest13_Aim = "到黑石深淵去從火占師羅格雷恩身上找出塞納留斯之息，並使用這個神器關閉3個元素之門。"
 Inst5Quest13_Location = "洛甘納爾（月光林地 - 永夜港; "..YELLOW.."52.5, 40.5"..WHITE.."）"
-Inst5Quest13_Note = "這是德魯伊職業任務。非必要的前導任務[來自月光林地的請求]來自各主城的德魯伊訓練師。\n\n火占師羅格雷恩在"..YELLOW.."[8]"..WHITE.."。"
+Inst5Quest13_Note = "這是德魯伊職業任務。非必要的前置任務[來自月光林地的請求]來自各主城的德魯伊訓練師。\n\n火占師羅格雷恩在"..YELLOW.."[8]"..WHITE.."。"
 Inst5Quest13_Prequest = "來自月光林地的請求"
-Inst5Quest13_Folgequest = "None"
+Inst5Quest13_Folgequest = "無"
 Inst5Quest13PreQuest = "true"
 --
 Inst5Quest13name1 = "青翠之環頭飾"
@@ -788,10 +788,10 @@ Inst5Quest14 = "14. 黑鐵軍團 （盜賊職業任務）"
 Inst5Quest14_Level = "50"
 Inst5Quest14_Attain = "50"
 Inst5Quest14_Aim = "使用急性毒藥汙染黑石深淵的西部或東部兵營的6袋穀物口糧上。"
-Inst5Quest14_Location = "東尼·羅曼諾領主（暴風城 - 舊城區; "..YELLOW.."79.6, 61.2"..WHITE.."）"
-Inst5Quest14_Note = "這是盜賊職業任務。非必要的前導任務[謁見東尼·羅曼諾領主]來自各主城的盜賊訓練師。"
-Inst5Quest14_Prequest = "謁見東尼·羅曼諾領主"
-Inst5Quest14_Folgequest = "None"
+Inst5Quest14_Location = "東尼．羅曼諾領主（暴風城 - 舊城區; "..YELLOW.."79.6, 61.2"..WHITE.."）"
+Inst5Quest14_Note = "這是盜賊職業任務。非必要的前置任務[謁見東尼．羅曼諾領主]來自各主城的盜賊訓練師。"
+Inst5Quest14_Prequest = "謁見東尼．羅曼諾領主"
+Inst5Quest14_Folgequest = "無"
 Inst5Quest14PreQuest = "true"
 --
 Inst5Quest14name1 = "軍情七處特殊用途面罩"
@@ -801,10 +801,10 @@ Inst5Quest15 = "15. 魔像領主的創作 （獵人職業任務）"
 Inst5Quest15_Level = "50"
 Inst5Quest15_Attain = "50"
 Inst5Quest15_Aim = "到黑石深淵的製造廠從魔像身上收集5樣元素模組並取得元素魔像藍圖。"
-Inst5Quest15_Location = "伍爾夫·韓斯里姆（暴風城 - 舊城區; "..YELLOW.."79.5, 70.9"..WHITE.."）"
-Inst5Quest15_Note = "這是獵人職業任務。非必要的前導任務[與伍爾夫·韓斯里姆見面]來自各主城的獵人訓練師。\n\n元素魔像藍圖掉落自魔像領主阿格曼奇"..YELLOW.."[11]"..WHITE.."，而元素模組則在魔像附近。"
-Inst5Quest15_Prequest = "與伍爾夫·韓斯里姆見面"
-Inst5Quest15_Folgequest = "None"
+Inst5Quest15_Location = "伍爾夫．韓斯里姆（暴風城 - 舊城區; "..YELLOW.."79.5, 70.9"..WHITE.."）"
+Inst5Quest15_Note = "這是獵人職業任務。非必要的前置任務[與伍爾夫．韓斯里姆見面]來自各主城的獵人訓練師。\n\n元素魔像藍圖掉落自魔像領主阿格曼奇"..YELLOW.."[11]"..WHITE.."，而元素模組則在魔像附近。"
+Inst5Quest15_Prequest = "與伍爾夫．韓斯里姆見面"
+Inst5Quest15_Folgequest = "無"
 Inst5Quest15PreQuest = "true"
 --
 Inst5Quest15name1 = "皇冠頭盔"
@@ -814,10 +814,10 @@ Inst5Quest16 = "16. 火占師的魔典 （法師職業任務）"
 Inst5Quest16_Level = "50"
 Inst5Quest16_Attain = "50"
 Inst5Quest16_Aim = "殺死6位暮光使者並在黑石深淵的索瑞森神殿從火占師羅格雷恩身上取得羅格雷恩的魔典。"
-Inst5Quest16_Location = "瑪姬諾·仲馬（暴風城 - 法師區; "..YELLOW.."49.5, 87.0"..WHITE.."）"
-Inst5Quest16_Note = "這是法師職業任務。非必要的前導任務[與瑪姬諾·仲馬見面]來自各主城的法師訓練師。\n\n火占師羅格雷恩在"..YELLOW.."[8]"..WHITE.."。"
-Inst5Quest16_Prequest = "與瑪姬諾·仲馬見面"
-Inst5Quest16_Folgequest = "None"
+Inst5Quest16_Location = "瑪姬諾．仲馬（暴風城 - 法師區; "..YELLOW.."49.5, 87.0"..WHITE.."）"
+Inst5Quest16_Note = "這是法師職業任務。非必要的前置任務[與瑪姬諾．仲馬見面]來自各主城的法師訓練師。\n\n火占師羅格雷恩在"..YELLOW.."[8]"..WHITE.."。"
+Inst5Quest16_Prequest = "與瑪姬諾．仲馬見面"
+Inst5Quest16_Folgequest = "無"
 Inst5Quest16PreQuest = "true"
 --
 Inst5Quest16name1 = "皇家巫師兜帽"
@@ -828,9 +828,9 @@ Inst5Quest17_Level = "50"
 Inst5Quest17_Attain = "50"
 Inst5Quest17_Aim = "到黑石深淵的住宅區利用白熾火炬燒毀8件暮光綱領。"
 Inst5Quest17_Location = "高階牧師勞瑞娜（暴風城 - 教堂廣場; "..YELLOW.."49.7, 44.9"..WHITE.."）"
-Inst5Quest17_Note = "這是牧師職業任務。非必要的前導任務[與高階牧師勞瑞娜見面]來自各主城的牧師訓練師。"
+Inst5Quest17_Note = "這是牧師職業任務。非必要的前置任務[與高階牧師勞瑞娜見面]來自各主城的牧師訓練師。"
 Inst5Quest17_Prequest = "與高階牧師勞瑞娜見面"
-Inst5Quest17_Folgequest = "None"
+Inst5Quest17_Folgequest = "無"
 Inst5Quest17PreQuest = "true"
 --
 Inst5Quest17name1 = "神聖之冠"
@@ -840,10 +840,10 @@ Inst5Quest18 = "18. 黑暗的武器 （聖騎士職業任務）"
 Inst5Quest18_Level = "50"
 Inst5Quest18_Attain = "50"
 Inst5Quest18_Aim = "從黑石深淵的鐵怒矮人那裡取得5件元素灌注武器，然後在影爐城的黑鐵砧上方將武器銷燬。"
-Inst5Quest18_Location = "格雷森·破影者領主（暴風城 - 教堂廣場; "..YELLOW.."52.7, 45.1"..WHITE.."）"
-Inst5Quest18_Note = "這是聖騎士職業任務。非必要的前導任務[與格雷森·破影者領主見面]來自各主城的聖騎士訓練師。\n\n黑鐵砧在"..YELLOW.."[5]"..WHITE.."。"
-Inst5Quest18_Prequest = "與格雷森·破影者領主見面"
-Inst5Quest18_Folgequest = "None"
+Inst5Quest18_Location = "格雷森．破影者領主（暴風城 - 教堂廣場; "..YELLOW.."52.7, 45.1"..WHITE.."）"
+Inst5Quest18_Note = "這是聖騎士職業任務。非必要的前置任務[與格雷森．破影者領主見面]來自各主城的聖騎士訓練師。\n\n黑鐵砧在"..YELLOW.."[5]"..WHITE.."。"
+Inst5Quest18_Prequest = "與格雷森．破影者領主見面"
+Inst5Quest18_Folgequest = "無"
 Inst5Quest18PreQuest = "true"
 --
 Inst5Quest18name1 = "秩序頭盔"
@@ -854,11 +854,11 @@ Inst5Quest18name3 = "秩序護盔"
 Inst5Quest19 = "19. 熔火之心的傳送門"
 Inst5Quest19_Level = "60"
 Inst5Quest19_Attain = "55"
-Inst5Quest19_Aim = "進入黑石深淵，在通往熔火之心的傳送門附近找到一塊熔核碎片，然後回到黑石山脈的洛索斯·天痕那裡。"
-Inst5Quest19_Location = "洛索斯·天痕（黑石山; "..YELLOW.."鎖鍊橋底部"..WHITE.."）"
-Inst5Quest19_Note = "完成這個任務後，你可以直接使用洛索斯·天痕身後的石頭進入熔火之心。\n你可以在"..BLUE.."[E]"..WHITE.."的附近找到熔核碎片，非常靠近熔火之心的地城入口。"
-Inst5Quest19_Prequest = "None"
-Inst5Quest19_Folgequest = "None"
+Inst5Quest19_Aim = "進入黑石深淵，在通往熔火之心的傳送門附近找到一塊熔核碎片，然後回到黑石山脈的洛索斯．天痕那裡。"
+Inst5Quest19_Location = "洛索斯．天痕（黑石山; "..YELLOW.."鎖鍊橋底部"..WHITE.."）"
+Inst5Quest19_Note = "完成這個任務後，你可以直接使用洛索斯．天痕身後的石頭進入熔火之心。\n你可以在"..BLUE.."[E]"..WHITE.."的附近找到熔核碎片，非常靠近熔火之心的地城入口。"
+Inst5Quest19_Prequest = "無"
+Inst5Quest19_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 20 Alliance
@@ -868,8 +868,8 @@ Inst5Quest20_Attain = "55"
 Inst5Quest20_Aim = "將格魯雷爾所要求的材料放入鬼靈之杯。"
 Inst5Quest20_Location = "格魯雷爾（黑石深淵; "..YELLOW.."[16]"..WHITE.."）"
 Inst5Quest20_Note = "只有採礦技能達到或高於230的玩家才能習得熔製黑鐵錠。材料如下：2個[紅寶石]，20個[金錠]，10個[真銀錠]。完成之後，如果你有[黑鐵礦石]，你可以在黑熔爐"..BLUE.."[E]"..WHITE.."熔煉黑鐵。"
-Inst5Quest20_Prequest = "None"
-Inst5Quest20_Folgequest = "None"
+Inst5Quest20_Prequest = "無"
+Inst5Quest20_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 21 Alliance
@@ -879,8 +879,8 @@ Inst5Quest21_Attain = "85"
 Inst5Quest21_Aim = "將恐酒的恐酒帶到鐵爐堡附近的啤酒節營地交給易菲克佛．鐵桶。"
 Inst5Quest21_Location = "恐酒的恐酒（掉落自寇仁．恐酒"..YELLOW.."[12]"..WHITE.."）"
 Inst5Quest21_Note = "寇仁．恐酒只有在啤酒節期間才會出現在黑石深淵，此任務觸發物品每個角色只能拾取一次。\n\n易菲克佛．鐵桶在啤酒節營地（丹莫洛; "..YELLOW.."47,39"..WHITE.."）裡面。"
-Inst5Quest21_Prequest = "None"
-Inst5Quest21_Folgequest = "None"
+Inst5Quest21_Prequest = "無"
+Inst5Quest21_Folgequest = "無"
 --
 Inst5Quest21name1 = "啤酒節獎品章"
 
@@ -890,9 +890,9 @@ Inst5Quest1_HORDE = "1. 深入囹吾"
 Inst5Quest1_HORDE_Level = "52"
 Inst5Quest1_HORDE_Attain = "47"
 Inst5Quest1_HORDE_Aim = "找到雷克斯洛特。"
-Inst5Quest1_HORDE_Location = "薩特拉克·長齒(Blackrock Depths; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest1_HORDE_Location = "薩特拉克．長齒（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
 Inst5Quest1_HORDE_Note = "雷克斯洛特在前往監獄"..GREEN.."[2']"..WHITE.."的路上。"
-Inst5Quest1_HORDE_Prequest = "None"
+Inst5Quest1_HORDE_Prequest = "無"
 Inst5Quest1_HORDE_Folgequest = "暮光?!不會吧!"
 -- No Rewards for this quest
 
@@ -901,7 +901,7 @@ Inst5Quest2_HORDE = Inst5Quest2
 Inst5Quest2_HORDE_Level = Inst5Quest2_Level
 Inst5Quest2_HORDE_Attain = Inst5Quest2_Attain
 Inst5Quest2_HORDE_Aim = "殺死高階審問者格斯塔恩。"
-Inst5Quest2_HORDE_Location = "雷克斯洛特（黑石深淵; "..GREEN.."['2']"..WHITE.."）"
+Inst5Quest2_HORDE_Location = "雷克斯洛特（黑石深淵; "..GREEN.."[2']"..WHITE.."）"
 Inst5Quest2_HORDE_Note = Inst5Quest2_Note
 Inst5Quest2_HORDE_Prequest = Inst5Quest2_Prequest
 Inst5Quest2_HORDE_Folgequest = Inst5Quest2_Folgequest
@@ -926,7 +926,7 @@ Inst5Quest4_HORDE_Attain = "51"
 Inst5Quest4_HORDE_Aim = "和拉札布雷德談話。"
 Inst5Quest4_HORDE_Location = "『神射手』賈拉瑪弗（黑石深淵; "..YELLOW.."入口"..WHITE.."）"
 Inst5Quest4_HORDE_Note = "拉札布雷德在"..GREEN.."[3']"..WHITE.."。"
-Inst5Quest4_HORDE_Prequest = "None"
+Inst5Quest4_HORDE_Prequest = "無"
 Inst5Quest4_HORDE_Folgequest = "第109師"
 -- No Rewards for this quest
 
@@ -936,7 +936,7 @@ Inst5Quest5_HORDE_Level = "55"
 Inst5Quest5_HORDE_Attain = "51"
 Inst5Quest5_HORDE_Aim = "殺死安格弗將軍和魔像領主阿格曼奇。"
 Inst5Quest5_HORDE_Location = "拉札布雷德（黑石深淵; "..GREEN.."[3']"..WHITE.."）"
-Inst5Quest5_HORDE_Note = "安格弗將軍在"..YELLOW.."[10]"..WHITE.."，魔像領主阿格曼奇在"..YELLOW.."[11]"..WHITE.."。在"..GREEN.."[7']"..WHITE.."向祭師塞朵拉·穆瓦丹尼回報任務。"
+Inst5Quest5_HORDE_Note = "安格弗將軍在"..YELLOW.."[10]"..WHITE.."，魔像領主阿格曼奇在"..YELLOW.."[11]"..WHITE.."。在"..GREEN.."[7']"..WHITE.."向祭師塞朵拉．穆瓦丹尼回報任務。"
 Inst5Quest5_HORDE_Prequest = "滲透影爐城"
 Inst5Quest5_HORDE_Folgequest = "黑鐵酒吧"
 Inst5Quest5FQuest_HORDE = "true"
@@ -947,7 +947,7 @@ Inst5Quest6_HORDE = "6. 黑鐵酒吧"
 Inst5Quest6_HORDE_Level = "56"
 Inst5Quest6_HORDE_Attain = "51"
 Inst5Quest6_HORDE_Aim = "和霍爾雷•黑鬚、普拉格•史帕齊林、雷布里•斯庫比格特交戰。"
-Inst5Quest6_HORDE_Location = "祭師塞朵拉·穆瓦丹尼（黑石深淵; "..GREEN.."[7']"..WHITE.."）"
+Inst5Quest6_HORDE_Location = "祭師塞朵拉．穆瓦丹尼（黑石深淵; "..GREEN.."[7']"..WHITE.."）"
 Inst5Quest6_HORDE_Note = "任務所需的三個人都在黑鐵酒吧裡的"..YELLOW.."[12]"..WHITE.."、"..YELLOW.."[13]"..WHITE.."和"..YELLOW.."[14]"..WHITE.."。在靠近"..YELLOW.."[15]"..WHITE.."的地方向桑德哈特回報任務。"
 Inst5Quest6_HORDE_Prequest = "第109師"
 Inst5Quest6_HORDE_Folgequest = "黑鐵契約"
@@ -970,11 +970,11 @@ Inst5Quest7FQuest_HORDE = "true"
 Inst5Quest8_HORDE = "8. K.E.F.的重生"
 Inst5Quest8_HORDE_Level = "58"
 Inst5Quest8_HORDE_Attain = "51"
-Inst5Quest8_HORDE_Aim = "殺死達格蘭‧索瑞森大帝。"
+Inst5Quest8_HORDE_Aim = "殺死達格蘭．索瑞森大帝。"
 Inst5Quest8_HORDE_Location = "督軍高圖斯（黑石深淵; "..YELLOW.."[16]的後面"..WHITE.."）"
-Inst5Quest8_HORDE_Note = "達格蘭‧索瑞森大帝在"..YELLOW.."[18]"..WHITE.."。向身後的督軍高圖斯回報任務。"
+Inst5Quest8_HORDE_Note = "達格蘭．索瑞森大帝在"..YELLOW.."[18]"..WHITE.."。向身後的督軍高圖斯回報任務。"
 Inst5Quest8_HORDE_Prequest = "黑鐵契約"
-Inst5Quest8_HORDE_Folgequest = "None"
+Inst5Quest8_HORDE_Folgequest = "無"
 Inst5Quest8FQuest_HORDE = "true"
 --
 Inst5Quest8name1_HORDE = "黑鐵指環"
@@ -997,10 +997,10 @@ Inst5Quest10_HORDE = "10. 危險的聯盟 （戰士職業任務）"
 Inst5Quest10_HORDE_Level = "50"
 Inst5Quest10_HORDE_Attain = "50"
 Inst5Quest10_HORDE_Aim = "到黑石深淵的西部兵營殺死6個火焰驅逐者，並從安格弗將軍身上找出將軍的攻擊計畫。"
-Inst5Quest10_HORDE_Location = "格雷茲·怒拳（奧格瑪 - 榮譽股; "..YELLOW.."73.7, 45.6"..WHITE.."）"
-Inst5Quest10_HORDE_Note = "這是戰士職業任務。非必要的前導任務[和格雷茲·怒拳會面]來自各主城的戰士訓練師。\n\n安格弗將軍在"..YELLOW.."[10]"..WHITE.."，火焰驅逐者則在通往安格弗將軍所在位置的路上。"
-Inst5Quest10_HORDE_Prequest = "和格雷茲·怒拳會面"
-Inst5Quest10_HORDE_Folgequest = "None"
+Inst5Quest10_HORDE_Location = "格雷茲．怒拳（奧格瑪 - 榮譽谷; "..YELLOW.."73.7, 45.6"..WHITE.."）"
+Inst5Quest10_HORDE_Note = "這是戰士職業任務。非必要的前置任務[和格雷茲．怒拳會面]來自各主城的戰士訓練師。\n\n安格弗將軍在"..YELLOW.."[10]"..WHITE.."，火焰驅逐者則在通往安格弗將軍所在位置的路上。"
+Inst5Quest10_HORDE_Prequest = "和格雷茲．怒拳會面"
+Inst5Quest10_HORDE_Folgequest = "無"
 Inst5Quest10PreQuest_HORDE = "true"
 --
 Inst5Quest10name1_HORDE = "群集面甲"
@@ -1011,10 +1011,10 @@ Inst5Quest11_HORDE = "11. 火焰之王的奴隸 （薩滿職業任務）"
 Inst5Quest11_HORDE_Level = "50"
 Inst5Quest11_HORDE_Attain = "50"
 Inst5Quest11_HORDE_Aim = "使用自由圖騰解放黑石深淵的6位火焰衛士，火焰驅逐者，或熾熱火焰衛士。"
-Inst5Quest11_HORDE_Location = "卡德里斯·尋夢者（奧格瑪 - 智慧谷"..YELLOW.."39.5, 47.0"..WHITE.."）"
-Inst5Quest11_HORDE_Note = "這是薩滿職業任務。非必要的前導任務[與卡德里斯·尋夢者會面]來自各主城的薩滿訓練師。\n\n火焰衛士可以在黑石深淵的各處找到。在殺死他們之前先使用自由圖騰。"
-Inst5Quest11_HORDE_Prequest = "與卡德里斯·尋夢者會面"
-Inst5Quest11_HORDE_Folgequest = "None"
+Inst5Quest11_HORDE_Location = "卡德里斯．尋夢者（奧格瑪 - 智慧谷; "..YELLOW.."39.5, 47.0"..WHITE.."）"
+Inst5Quest11_HORDE_Note = "這是薩滿職業任務。非必要的前置任務[與卡德里斯．尋夢者會面]來自各主城的薩滿訓練師。\n\n火焰衛士可以在黑石深淵的各處找到。在殺死他們之前先使用自由圖騰。"
+Inst5Quest11_HORDE_Prequest = "與卡德里斯．尋夢者會面"
+Inst5Quest11_HORDE_Folgequest = "無"
 Inst5Quest11PreQuest_HORDE = "true"
 --
 Inst5Quest11name1_HORDE = "演講者面具"
@@ -1026,9 +1026,9 @@ Inst5Quest12_HORDE_Level = "50"
 Inst5Quest12_HORDE_Attain = "50"
 Inst5Quest12_HORDE_Aim = "從黑石深淵收回6件元素束縛之石。你可以在影爐城，住宅區，索瑞森神殿，西部兵營和東部兵營找到這些石頭。"
 Inst5Quest12_HORDE_Location = "澤弗洛斯特（奧格瑪 - 暗巷區; "..YELLOW.."49.0, 55.3"..WHITE.."）"
-Inst5Quest12_HORDE_Note = "這是術士職業任務。非必要的前導任務[與澤弗洛斯特會面]來自各主城的術士訓練師。"
+Inst5Quest12_HORDE_Note = "這是術士職業任務。非必要的前置任務[與澤弗洛斯特會面]來自各主城的術士訓練師。"
 Inst5Quest12_HORDE_Prequest = "與澤弗洛斯特會面"
-Inst5Quest12_HORDE_Folgequest = "None"
+Inst5Quest12_HORDE_Folgequest = "無"
 Inst5Quest12PreQuest_HORDE = "true"
 --
 Inst5Quest12name1_HORDE = "左手之道角帽"
@@ -1053,9 +1053,9 @@ Inst5Quest14_HORDE_Level = "50"
 Inst5Quest14_HORDE_Attain = "50"
 Inst5Quest14_HORDE_Aim = "使用急性毒藥汙染黑石深淵的西部或東部兵營的6袋穀物口糧上。"
 Inst5Quest14_HORDE_Location = "哥度爾（奧格瑪 - 暗巷區; "..YELLOW.."44.8, 61.3"..WHITE.."）"
-Inst5Quest14_HORDE_Note = "這是盜賊職業任務。非必要的前導任務[和哥度爾會面]來自各主城的盜賊訓練師。"
+Inst5Quest14_HORDE_Note = "這是盜賊職業任務。非必要的前置任務[和哥度爾會面]來自各主城的盜賊訓練師。"
 Inst5Quest14_HORDE_Prequest = "和哥度爾會面"
-Inst5Quest14_HORDE_Folgequest = "None"
+Inst5Quest14_HORDE_Folgequest = "無"
 Inst5Quest14PreQuest_HORDE = "true"
 --
 Inst5Quest14name1_HORDE = "破碎之手面甲"
@@ -1065,10 +1065,10 @@ Inst5Quest15_HORDE = "15. 魔像領主的創作 （獵人職業任務）"
 Inst5Quest15_HORDE_Level = "50"
 Inst5Quest15_HORDE_Attain = "50"
 Inst5Quest15_HORDE_Aim = "到黑石深淵的製造廠從魔像身上收集5樣元素模組並取得元素魔像藍圖。"
-Inst5Quest15_HORDE_Location = "奧瑪克·邪擊（奧格瑪 - 榮譽谷; "..YELLOW.."64.0, 32.7"..WHITE.."）"
-Inst5Quest15_HORDE_Note = "這是獵人職業任務。非必要的前導任務[與奧瑪克·邪擊會面]來自各主城的獵人訓練師。\n\n元素魔像藍圖掉落自魔像領主阿格曼奇"..YELLOW.."[11]"..WHITE.."，而元素模組則在魔像附近。"
-Inst5Quest15_HORDE_Prequest = "與奧瑪克·邪擊會面"
-Inst5Quest15_HORDE_Folgequest = "None"
+Inst5Quest15_HORDE_Location = "奧瑪克．邪擊（奧格瑪 - 榮譽谷; "..YELLOW.."64.0, 32.7"..WHITE.."）"
+Inst5Quest15_HORDE_Note = "這是獵人職業任務。非必要的前置任務[與奧瑪克．邪擊會面]來自各主城的獵人訓練師。\n\n元素魔像藍圖掉落自魔像領主阿格曼奇"..YELLOW.."[11]"..WHITE.."，而元素模組則在魔像附近。"
+Inst5Quest15_HORDE_Prequest = "與奧瑪克．邪擊會面"
+Inst5Quest15_HORDE_Folgequest = "無"
 Inst5Quest15PreQuest_HORDE = "true"
 --
 Inst5Quest15name1_HORDE = "偉大獵人頭盔"
@@ -1079,9 +1079,9 @@ Inst5Quest16_HORDE_Level = "50"
 Inst5Quest16_HORDE_Attain = "50"
 Inst5Quest16_HORDE_Aim = "殺死6位暮光使者並在黑石深淵的索瑞森神殿從火占師羅格雷恩身上取得羅格雷恩的魔典。"
 Inst5Quest16_HORDE_Location = "烏瑞達（奧格瑪 - 暗巷區; "..YELLOW.."51.3, 72.3"..WHITE.."）"
-Inst5Quest16_HORDE_Note = "這是法師職業任務。非必要的前導任務[與烏瑞達會面]來自各主城的法師訓練師。\n\n火占師羅格雷恩在"..YELLOW.."[8]"..WHITE.."。"
+Inst5Quest16_HORDE_Note = "這是法師職業任務。非必要的前置任務[與烏瑞達會面]來自各主城的法師訓練師。\n\n火占師羅格雷恩在"..YELLOW.."[8]"..WHITE.."。"
 Inst5Quest16_HORDE_Prequest = "與烏瑞達會面"
-Inst5Quest16_HORDE_Folgequest = "None"
+Inst5Quest16_HORDE_Folgequest = "無"
 Inst5Quest16PreQuest_HORDE = "true"
 --
 Inst5Quest16name1_HORDE = "秘法之路兜帽"
@@ -1092,9 +1092,9 @@ Inst5Quest17_HORDE_Level = "50"
 Inst5Quest17_HORDE_Attain = "50"
 Inst5Quest17_HORDE_Aim = "到黑石深淵的住宅區利用白熾火炬燒毀8件暮光綱領。"
 Inst5Quest17_HORDE_Location = "黑暗教士瑟希爾（奧格瑪 - 力量谷; "..YELLOW.."48.7, 72.8"..WHITE.."）"
-Inst5Quest17_HORDE_Note = "這是牧師職業任務。非必要的前導任務[與黑暗教士瑟希爾會面]來自各主城的牧師訓練師。"
+Inst5Quest17_HORDE_Note = "這是牧師職業任務。非必要的前置任務[與黑暗教士瑟希爾會面]來自各主城的牧師訓練師。"
 Inst5Quest17_HORDE_Prequest = "與黑暗教士瑟希爾會面"
-Inst5Quest17_HORDE_Folgequest = "None"
+Inst5Quest17_HORDE_Folgequest = "無"
 Inst5Quest17PreQuest_HORDE = "true"
 --
 Inst5Quest17name1_HORDE = "被遺忘者信念之冠"
@@ -1105,9 +1105,9 @@ Inst5Quest18_HORDE_Level = "50"
 Inst5Quest18_HORDE_Attain = "50"
 Inst5Quest18_HORDE_Aim = "從黑石深淵的鐵怒矮人那裡取得5件元素灌注武器，然後在影爐城的黑鐵砧上方將武器銷燬。"
 Inst5Quest18_HORDE_Location = "大師皮禮諾（奧格瑪 - 力量谷; "..YELLOW.."49.2, 71.3"..WHITE.."）"
-Inst5Quest18_HORDE_Note = "這是血精靈聖騎士職業任務。非必要的前導任務[與大師皮禮諾會面]來自各主城的聖騎士訓練師。\n\n黑鐵砧在"..YELLOW.."[5]"..WHITE.."。"
+Inst5Quest18_HORDE_Note = "這是血精靈聖騎士職業任務。非必要的前置任務[與大師皮禮諾會面]來自各主城的聖騎士訓練師。\n\n黑鐵砧在"..YELLOW.."[5]"..WHITE.."。"
 Inst5Quest18_HORDE_Prequest = "與大師皮禮諾會面"
-Inst5Quest18_HORDE_Folgequest = "None"
+Inst5Quest18_HORDE_Folgequest = "無"
 Inst5Quest18PreQuest_HORDE = "true"
 --
 Inst5Quest18name1_HORDE = "秩序頭盔"
@@ -1121,9 +1121,9 @@ Inst5Quest19_HORDE_Level = "50"
 Inst5Quest19_HORDE_Attain = "50"
 Inst5Quest19_HORDE_Aim = "從黑石深淵的鐵怒矮人那裡取得5件元素灌注武器，然後在影爐城的黑鐵砧上方將武器銷燬。"
 Inst5Quest19_HORDE_Location = "日行者安托摩（奧格瑪 - 智慧谷;"..YELLOW.."45.2, 53.7"..WHITE.."）"
-Inst5Quest19_HORDE_Note = "這是牛頭人聖騎士職業任務。非必要的前導任務[與日行者安托摩會面]來自各主城的聖騎士訓練師。\n\n黑鐵砧在"..YELLOW.."[5]"..WHITE.."。"
+Inst5Quest19_HORDE_Note = "這是牛頭人聖騎士職業任務。非必要的前置任務[與日行者安托摩會面]來自各主城的聖騎士訓練師。\n\n黑鐵砧在"..YELLOW.."[5]"..WHITE.."。"
 Inst5Quest19_HORDE_Prequest = "與日行者安托摩會面"
-Inst5Quest19_HORDE_Folgequest = "None"
+Inst5Quest19_HORDE_Folgequest = "無"
 Inst5Quest19PreQuest_HORDE = "true"
 --
 Inst5Quest19name1_HORDE = "日行者頭盔"
@@ -1131,7 +1131,7 @@ Inst5Quest19name2_HORDE = "日行者面甲"
 Inst5Quest19name3_HORDE = "日行者護盔"
 
 --Quest 20 Horde  (same as Quest 19 Alliance)
-Inst5Quest20_HORDE = "20. Attunement to the Core"
+Inst5Quest20_HORDE = "20. 熔火之心的傳送門"
 Inst5Quest20_HORDE_Level = Inst5Quest19_Level
 Inst5Quest20_HORDE_Attain = Inst5Quest19_Attain
 Inst5Quest20_HORDE_Aim = Inst5Quest19_Aim
@@ -1142,7 +1142,7 @@ Inst5Quest20_HORDE_Folgequest = Inst5Quest19_Folgequest
 -- No Rewards for this quest
 
 --Quest 21 Horde  (same as Quest 20 Alliance)
-Inst5Quest21_HORDE = "21. The Spectral Chalice"
+Inst5Quest21_HORDE = "21. 鬼靈之杯 （採礦任務）"
 Inst5Quest21_HORDE_Level = Inst5Quest20_Level
 Inst5Quest21_HORDE_Attain = Inst5Quest20_Attain
 Inst5Quest21_HORDE_Aim = Inst5Quest20_Aim
@@ -1159,8 +1159,8 @@ Inst5Quest22_HORDE_Attain = "85"
 Inst5Quest22_HORDE_Aim = "將恐酒的恐酒帶到奧格瑪附近的啤酒節營地交給泰伯．詐桶。"
 Inst5Quest22_HORDE_Location = "恐酒的恐酒（掉落自寇仁．恐酒"..YELLOW.."[12]"..WHITE.."）"
 Inst5Quest22_HORDE_Note = "寇仁．恐酒只有在啤酒節期間才會出現在黑石深淵，此任務觸發物品每個角色只能拾取一次。\n\n泰伯．詐桶在啤酒節營地（杜洛塔; "..YELLOW.."45,17"..WHITE.."）裡面。"
-Inst5Quest22_HORDE_Prequest = "None"
-Inst5Quest22_HORDE_Folgequest = "None"
+Inst5Quest22_HORDE_Prequest = "無"
+Inst5Quest22_HORDE_Folgequest = "無"
 --
 Inst5Quest22name1_HORDE = "啤酒節獎品章"
 
@@ -1790,7 +1790,7 @@ Inst9Quest1_Folgequest = "藍龍之怒"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst9Quest2 = "2. 芬克·恩霍爾，為您效勞!"
+Inst9Quest2 = "2. 芬克．恩霍爾，為您效勞!"
 Inst9Quest2_Level = "60"
 Inst9Quest2_Attain = "57"
 Inst9Quest2_Aim = "與永望鎮的瑪雷弗斯．暗錘談話。"
@@ -3817,7 +3817,7 @@ Inst20Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst20Quest3 = "3. 『屠夫』瑟爾林·卡斯迪諾夫教授"
+Inst20Quest3 = "3. 『屠夫』瑟爾林．卡斯迪諾夫教授"
 Inst20Quest3_Level = "60"
 Inst20Quest3_Attain = "55"
 Inst20Quest3_Aim = "在通靈學院中找到瑟爾林．卡斯迪諾夫教授。殺死他，並燒毀艾瓦．薩克霍夫和盧森．薩克霍夫的遺體。任務完成後就回到艾瓦．薩克霍夫那兒。"
@@ -3855,7 +3855,7 @@ Inst20Quest5name2 = "波尼的玫瑰"
 Inst20Quest5name3 = "米拉之歌"
 
 --Quest 6 Alliance
-Inst20Quest6 = "6. 巫妖萊斯·霜語"
+Inst20Quest6 = "6. 巫妖萊斯．霜語"
 Inst20Quest6_Level = "60"
 Inst20Quest6_Attain = "57"
 Inst20Quest6_Aim = "在通靈學院裡找到萊斯．霜語。當你找到他之後，使用禁錮靈魂的遺物破除其亡靈的外殼。如果你成功地破除了他的不死之身，就殺掉他並拿到萊斯．霜語的頭顱。把那個頭顱交給馬杜克鎮長。"
@@ -4244,7 +4244,7 @@ Inst22Quest3name3 = "懺悔之冠"
 Inst22Quest3name4 = "懺悔者指環"
 
 --Quest 4 Alliance
-Inst22Quest4 = "4. 弗拉斯·希亞比"
+Inst22Quest4 = "4. 弗拉斯．希亞比"
 Inst22Quest4_Level = "60"
 Inst22Quest4_Attain = "55"
 Inst22Quest4_Aim = "找到弗拉斯．希亞比在斯坦索姆的煙草店，並從中找回一盒希亞比的煙草，把它交給煙鬼拉魯恩。"
@@ -5638,7 +5638,7 @@ Inst37Quest3_Note = "這個每日任務只能在英雄難度副本完成。納�
 Inst37Quest3_Prequest = "無"
 Inst37Quest3_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -5679,7 +5679,7 @@ Inst37Quest3_HORDE_Note = Inst37Quest3_Note
 Inst37Quest3_HORDE_Prequest = Inst37Quest3_Prequest
 Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -5754,7 +5754,7 @@ Inst38Quest3_Note = "這個每日任務只能在英雄難度副本完成。破�
 Inst38Quest3_Prequest = "無"
 Inst38Quest3_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -5798,7 +5798,7 @@ Inst38Quest3_HORDE_Note = Inst38Quest3_Note
 Inst38Quest3_HORDE_Prequest = Inst38Quest3_Prequest
 Inst38Quest3_HORDE_Folgequest = Inst38Quest3_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -5931,7 +5931,7 @@ Inst39Quest8_Note = "大酋長卡加斯．刃拳在"..YELLOW.."[4]"..WHITE.."。
 Inst39Quest8_Prequest = "無"
 Inst39Quest8_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 9 Alliance
 Inst39Quest9 = "9. 懸賞:破碎之手百夫長 (普通每日)"
@@ -6041,7 +6041,7 @@ Inst39Quest7_HORDE_Note = Inst39Quest8_Note
 Inst39Quest7_HORDE_Prequest = Inst39Quest8_Prequest
 Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 8 Horde  (same as Quest 9 Alliance)
 Inst39Quest8_HORDE = "8. 懸賞:破碎之手百夫長 (普通每日)"
@@ -6191,7 +6191,7 @@ Inst41Quest2_Note = "奎克米瑞在 "..YELLOW.."[3]"..WHITE.."。"
 Inst41Quest2_Prequest = "無"
 Inst41Quest2_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 3 Alliance
 Inst41Quest3 = "3. 卡德許的鬥棍 (英雄模式)"
@@ -6244,7 +6244,7 @@ Inst41Quest2_HORDE_Note = Inst41Quest2_Note
 Inst41Quest2_HORDE_Prequest = Inst41Quest2_Prequest
 Inst41Quest2_HORDE_Folgequest = Inst41Quest2_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst41Quest3_HORDE = Inst41Quest3
@@ -6383,7 +6383,7 @@ Inst42Quest7_Note = "督軍卡利斯瑞在"..YELLOW.."[3]"..WHITE.."。"
 Inst42Quest7_Prequest = "無"
 Inst42Quest7_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6469,7 +6469,7 @@ Inst42Quest7_HORDE_Note = Inst42Quest7_Note
 Inst42Quest7_HORDE_Prequest = Inst42Quest7_Prequest
 Inst42Quest7_HORDE_Folgequest = Inst42Quest7_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -6556,7 +6556,7 @@ Inst43Quest4_Note = "黑色捕獵者在"..YELLOW.."[5]"..WHITE.."。"
 Inst43Quest4_Prequest = "無"
 Inst43Quest4_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 5 Alliance
 Inst43Quest5 = "5. 給我木槿花!"
@@ -6620,7 +6620,7 @@ Inst43Quest4_HORDE_Note = Inst43Quest4_Note
 Inst43Quest4_HORDE_Prequest = Inst43Quest4_Prequest
 Inst43Quest4_HORDE_Folgequest = Inst43Quest4_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst43Quest5_HORDE = Inst43Quest5
@@ -6681,7 +6681,7 @@ Inst44Quest2_Note = "主教瑪拉達爾在"..YELLOW.."[2]"..WHITE.."。"
 Inst44Quest2_Prequest = "無"
 Inst44Quest2_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde
@@ -6734,7 +6734,7 @@ Inst44Quest4_HORDE_Note = Inst44Quest2_Note
 Inst44Quest4_HORDE_Prequest = Inst44Quest2_Prequest
 Inst44Quest4_HORDE_Folgequest = Inst44Quest2_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -6817,7 +6817,7 @@ Inst45Quest4_Prequest = "奈薩斯王印記"
 Inst45Quest4_Folgequest = "無"
 Inst45Quest4PreQuest = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 5 Alliance
 Inst45Quest5 = "5. 懸賞:薩法爾的奇妙護符 (英雄每日)"
@@ -6829,7 +6829,7 @@ Inst45Quest5_Note = "奈薩斯王子薩法爾在"..YELLOW.."[3]"..WHITE.."。"
 Inst45Quest5_Prequest = "無"
 Inst45Quest5_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6885,7 +6885,7 @@ Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
 Inst45Quest4_HORDE_Folgequest = Inst45Quest4_Folgequest
 Inst45Quest4PreQuest_HORDE = Inst45Quest4PreQuest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst45Quest5_HORDE = Inst45Quest5
@@ -6897,7 +6897,7 @@ Inst45Quest5_HORDE_Note = Inst45Quest5_Note
 Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
 Inst45Quest5_HORDE_Folgequest = Inst45Quest5_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -6991,7 +6991,7 @@ Inst46Quest5_Note = "鷹王伊奇斯在"..YELLOW.."[3]"..WHITE.."。"
 Inst46Quest5_Prequest = "無"
 Inst46Quest5_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7058,7 +7058,7 @@ Inst46Quest5_HORDE_Note = Inst46Quest5_Note
 Inst46Quest5_HORDE_Prequest = Inst46Quest5_Prequest
 Inst46Quest5_HORDE_Folgequest = Inst46Quest5_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -7095,7 +7095,7 @@ Inst47General = {
 };
 
 --Quest 1 Alliance
-Inst47Quest1 = "1. 找尋間諜·吐剛"
+Inst47Quest1 = "1. 找尋間諜．吐剛"
 Inst47Quest1_Level = "70"
 Inst47Quest1_Attain = "68"
 Inst47Quest1_Aim = "在奧齊頓的暗影迷宮裡找到間諜．吐剛。"
@@ -7216,7 +7216,7 @@ Inst47Quest10_Note = "莫爾墨在"..YELLOW.."[4]"..WHITE.."。"
 Inst47Quest10_Prequest = "無"
 Inst47Quest10_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 11 Alliance
 Inst47Quest11 = "11. 懸賞:惡毒導師 (普通每日)"
@@ -7353,7 +7353,7 @@ Inst47Quest10_HORDE_Note = Inst47Quest10_Note
 Inst47Quest10_HORDE_Prequest = Inst47Quest10_Prequest
 Inst47Quest10_HORDE_Folgequest = Inst47Quest10_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
 Inst47Quest11_HORDE = Inst47Quest11
@@ -7524,7 +7524,7 @@ Inst49Quest6_Note = "艾奧那斯就是最後一波的王。"
 Inst49Quest6_Prequest = "無"
 Inst49Quest6_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 7 Alliance
 Inst49Quest7 = "7. 懸賞:裂縫領主 (普通每日)"
@@ -7612,7 +7612,7 @@ Inst49Quest6_HORDE_Note = Inst49Quest6_Note
 Inst49Quest6_HORDE_Prequest = Inst49Quest6_Prequest
 Inst49Quest6_HORDE_Folgequest = Inst49Quest6_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst49Quest7_HORDE = Inst49Quest7
@@ -7750,7 +7750,7 @@ Inst51Quest5_Note = "紀元狩獵者在"..YELLOW.."[3]"..WHITE.."。"
 Inst51Quest5_Prequest = "無"
 Inst51Quest5_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 6 Alliance
 Inst51Quest6 = "6. 漂亮的帽子……"
@@ -7827,7 +7827,7 @@ Inst51Quest5_HORDE_Note = Inst51Quest5_Note
 Inst51Quest5_HORDE_Prequest = Inst51Quest5_Prequest
 Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst51Quest6_HORDE = Inst51Quest6
@@ -8317,7 +8317,7 @@ Inst54Quest5_Note = "先驅者史蓋力司在"..YELLOW.."[4]"..WHITE.."。"
 Inst54Quest5_Prequest = "無"
 Inst54Quest5_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 6 Alliance
 Inst54Quest6 = "6. 懸賞:亞克崔茲哨兵 (普通每日)"
@@ -8392,7 +8392,7 @@ Inst54Quest5_HORDE_Note = Inst54Quest5_Note
 Inst54Quest5_HORDE_Prequest = Inst54Quest5_Prequest
 Inst54Quest5_HORDE_Folgequest = Inst54Quest5_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst54Quest6_HORDE = Inst54Quest6
@@ -8499,7 +8499,7 @@ Inst55Quest4_Note = "扭曲分裂者在"..YELLOW.."[5]"..WHITE.."。"
 Inst55Quest4_Prequest = "無"
 Inst55Quest4_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 5 Alliance
 Inst55Quest5 = "5. 懸賞:尋日導魔師 (普通每日)"
@@ -8566,7 +8566,7 @@ Inst55Quest4_HORDE_Note = Inst55Quest4_Note
 Inst55Quest4_HORDE_Prequest = Inst55Quest4_Prequest
 Inst55Quest4_HORDE_Folgequest = Inst55Quest4_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst55Quest5_HORDE = Inst55Quest5
@@ -8654,7 +8654,7 @@ Inst56Quest3_Note = " 帕薩里歐在"..YELLOW.."[5]"..WHITE.."。"
 Inst56Quest3_Prequest = "無"
 Inst56Quest3_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 4 Alliance
 Inst56Quest4 = "4. 懸賞:風暴要塞-熔爐毀滅者 (普通每日)"
@@ -8709,7 +8709,7 @@ Inst56Quest3_HORDE_Note = Inst56Quest3_Note
 Inst56Quest3_HORDE_Prequest = Inst56Quest3_Prequest
 Inst56Quest3_HORDE_Folgequest = Inst56Quest3_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst56Quest4_HORDE = Inst56Quest4
@@ -8938,7 +8938,7 @@ Inst63Quest3_Prequest = "Ｘ標記…你的末日！"
 Inst63Quest3_Folgequest = "無"
 Inst63Quest3FQuest = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 4 Alliance
 Inst63Quest4 = "4. 長牙劫掠者"
@@ -8998,7 +8998,7 @@ Inst63Quest8_Prequest = "督軍之血"
 Inst63Quest8_Folgequest = "無"
 Inst63Quest8FQuest = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9037,7 +9037,7 @@ Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
 Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
 Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst63Quest4_HORDE = Inst63Quest4
@@ -9097,7 +9097,7 @@ Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
 Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
 Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -9130,7 +9130,7 @@ Inst67Quest2_Note = "英雄每日任務。\n\n凱爾薩斯王子在"..YELLOW.."[
 Inst67Quest2_Prequest = "無"
 Inst67Quest2_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 3 Alliance
 Inst67Quest3 = "3. 博學者殿堂"
@@ -9194,7 +9194,7 @@ Inst67Quest2_HORDE_Note = Inst67Quest2_Note
 Inst67Quest2_HORDE_Prequest = Inst67Quest2_Prequest
 Inst67Quest2_HORDE_Folgequest = Inst67Quest2_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst67Quest3_HORDE = Inst67Quest3
@@ -9961,7 +9961,7 @@ Inst74Quest3_Note = "瑪里苟斯在"..YELLOW.." [1]"..WHITE.."。\n\n每週團�
 Inst74Quest3_Prequest = "無"
 Inst74Quest3_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10006,7 +10006,7 @@ Inst74Quest3_HORDE_Note = Inst74Quest3_Note
 Inst74Quest3_HORDE_Prequest = Inst74Quest3_Prequest
 Inst74Quest3_HORDE_Folgequest = Inst74Quest3_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -10397,7 +10397,7 @@ Inst79Quest1_Note = "撒爾薩里安在"..YELLOW.."[4]"..WHITE.."。\n\n每週�
 Inst79Quest1_Prequest = "無"
 Inst79Quest1_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10410,7 +10410,7 @@ Inst79Quest1_HORDE_Note = Inst79Quest1_Note
 Inst79Quest1_HORDE_Prequest = Inst79Quest1_Prequest
 Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -10829,7 +10829,7 @@ Inst84Quest3_Note = "阿努比瑞克漢在"..YELLOW.."蜘蛛區[1]"..WHITE.."。
 Inst84Quest3_Prequest = "無"
 Inst84Quest3_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 4 Alliance
 Inst84Quest4 = "4. 講師拉祖維斯必須死! (每週團隊任務)"
@@ -10841,7 +10841,7 @@ Inst84Quest4_Note = "講師拉祖維斯在"..YELLOW.."死亡騎士區[1]"..WHITE
 Inst84Quest4_Prequest = "無"
 Inst84Quest4_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 5 Alliance
 Inst84Quest5 = "5. 『瘟疫使者』諾斯必須死! (每週團隊任務)"
@@ -10853,7 +10853,7 @@ Inst84Quest5_Note = "『瘟疫使者』諾斯在"..YELLOW.."瘟疫區[1]"..WHITE
 Inst84Quest5_Prequest = "無"
 Inst84Quest5_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 6 Alliance
 Inst84Quest6 = "6. 縫補者必須死! (每週團隊任務)"
@@ -10865,7 +10865,7 @@ Inst84Quest6_Note = "縫補者在"..YELLOW.."憎惡區[1]"..WHITE.."。\n\n每�
 Inst84Quest6_Prequest = "無"
 Inst84Quest6_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10902,7 +10902,7 @@ Inst84Quest3_HORDE_Note = Inst84Quest3_Note
 Inst84Quest3_HORDE_Prequest = Inst84Quest3_Prequest
 Inst84Quest3_HORDE_Folgequest = Inst84Quest3_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst84Quest4_HORDE = Inst84Quest4
@@ -10914,7 +10914,7 @@ Inst84Quest4_HORDE_Note = Inst84Quest4_Note
 Inst84Quest4_HORDE_Prequest = Inst84Quest4_Prequest
 Inst84Quest4_HORDE_Folgequest = Inst84Quest4_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst84Quest5_HORDE = Inst84Quest5
@@ -10926,7 +10926,7 @@ Inst84Quest5_HORDE_Note = Inst84Quest5_Note
 Inst84Quest5_HORDE_Prequest = Inst84Quest5_Prequest
 Inst84Quest5_HORDE_Folgequest = Inst84Quest5_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst84Quest6_HORDE = Inst84Quest6
@@ -10938,13 +10938,13 @@ Inst84Quest6_HORDE_Note = Inst84Quest6_Note
 Inst84Quest6_HORDE_Prequest = Inst84Quest6_Prequest
 Inst84Quest6_HORDE_Folgequest = Inst84Quest6_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
 --------------- INST85 - Vault of Archavon ---------------
 
-Inst85Story = "數不盡的歲月之中，奧杜亞獨自矗立，遠離凡人的塵囂，不受世俗干擾。自從在風暴群山中發現了奧杜亞，許多的冒險者來到這座泰坦城市來瞭解更多它神秘的過去。有許多人在思考這棟建築的原始用途為何，有人認為它是個用來讚頌其建造者光榮的城市；也有人認為這是存放無數奇珍的寶庫，又或者是偉大泰坦們的遺物。但這些猜測全都錯了，在奧杜亞的高牆巨門之後更進一步的探索才發現，奧杜亞既非城市，也沒有寶庫，更沒泰坦奧秘的最終解答。在它壯麗的建築群之下是一座監牢，用來永久囚禁遠古死神，尤格薩倫－－這古老的恐怖存在腐化了那些守衛，即將要突破他最後的禁錮；面對尤格薩倫即將重獲自由的危機，一群凡人準備要攻入這座城市。在那裡只有深深的恐懼在等待著那些膽敢踏入奧杜亞的冒險者，想擊敗鐵族軍團並且突破城市的防禦系統需要驚人的力量，但這樣的偉大勝利也未必足以抵抗深藏於地底的瘋狂，即使是泰坦也無法，也不會去消滅的，一股曾受控於他們的…邪惡。\n\n古老的奧杜亞之下，上古死神在此沉睡，低語呢喃……小心你的腳步，否則它的囚牢將會成為你的葬身之地。"
+Inst85Story = "俯瞰幅員寬廣的龍骨荒野和荒涼孤寂的北風凍原間，那片北裂境中的冰封曠野冬握湖。由於高原的地勢，冬握湖在許多年間都未受人打擾，彷彿沒人聽見的寒風呼嘯，吹打著遠古泰坦遺留在這地表的零星防禦要塞。然而最近來到北裂境的部落及聯盟大軍，也意味著冬握湖長期以來的寧靜與和平將劃下休止符，那混合著鋼鐵碰撞的聲響和戰爭的吶喊，很快的就淹沒了這片廢墟的幽靜。\n\n豐富的自然資源和泰坦遺留的防禦要塞那重要的戰略考量，促使部落及聯盟為了爭奪冬握湖展開了拉鋸戰。現階段大致上還在架構基礎配置，而雙方都再一次開始加強戰事裝備，從投石車到蒸氣動力的攻城坦克都有。繼續閱讀以了解更多關於此地的自然環境和新戰場的獨特挑戰，當部落和聯盟在冬握湖這古老廢墟的衝突逐漸升溫之際，讓知識的力量成為你的助力吧。\n\n亞夏梵穹殿是一個座落於冬握湖的城堡。只有在自己的陣營取得冬握湖勝利之後的四小時內可以進入。當冬握湖在自己陣營佔領下時想進入此地城的玩家們也可以使用位於達拉然的傳送門前往冬握湖。"
 Inst85Caption = "亞夏梵穹殿"
 Inst85QAA = "目前任務未知"
 Inst85QAH = "目前任務未知"
@@ -10953,7 +10953,7 @@ Inst85QAH = "目前任務未知"
 
 --------------- INST86 - Ulduar ---------------
 
-Inst86Story = "數不盡的歲月之中，奧杜亞獨自矗立，遠離凡人的塵囂，不受世俗干擾。但自從近來被人發覺後，就有許多人在思考這棟建築的原始用途為何。有人認為它是個用來讚頌其建造者光榮的城市；也有人認為這是存放無數奇珍的寶庫，又或者是偉大泰坦們的遺物。但這些猜測全都錯了。在奧杜亞的高牆巨門之後，既非城市，也沒有寶庫，更沒泰坦奧秘的最終解答。只有深深的恐懼在等待著那些膽敢踏入奧杜亞的冒險者，即使是泰坦也無法，也不會去消滅的，一股曾受控於他們的…邪惡。\n\n古老的奧杜亞之下，上古死神在此沉睡，低語呢喃……小心你的腳步，否則它的囚牢將會成為你的葬身之地。"
+Inst86Story = "數不盡的歲月之中，奧杜亞獨自矗立，遠離凡人的塵囂，不受世俗干擾。自從在風暴群山中發現了奧杜亞，許多的冒險者來到這座泰坦城市來瞭解更多它神秘的過去。有許多人在思考這棟建築的原始用途為何，有人認為它是個用來讚頌其建造者光榮的城市；也有人認為這是存放無數奇珍的寶庫，又或者是偉大泰坦們的遺物。但這些猜測全都錯了，在奧杜亞的高牆巨門之後更進一步的探索才發現，奧杜亞既非城市，也沒有寶庫，更沒泰坦奧秘的最終解答。在它壯麗的建築群之下是一座監牢，用來永久囚禁遠古死神，尤格薩倫－－這古老的恐怖存在腐化了那些守衛，即將要突破他最後的禁錮；面對尤格薩倫即將重獲自由的危機，一群凡人準備要攻入這座城市。在那裡只有深深的恐懼在等待著那些膽敢踏入奧杜亞的冒險者，想擊敗鐵族軍團並且突破城市的防禦系統需要驚人的力量，但這樣的偉大勝利也未必足以抵抗深藏於地底的瘋狂，即使是泰坦也無法，也不會去消滅的，一股曾受控於他們的…邪惡。\n\n古老的奧杜亞之下，上古死神在此沉睡，低語呢喃……小心你的腳步，否則它的囚牢將會成為你的葬身之地。"
 Inst86Caption = "奧杜亞"
 Inst86QAA = "20 個任務"
 Inst86QAH = "20 個任務"
@@ -11168,7 +11168,7 @@ Inst86Quest17_Note = "烈焰戰輪在"..YELLOW.."攻城區[1]"..WHITE.."。\n\n�
 Inst86Quest17_Prequest = "無"
 Inst86Quest17_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 18 Alliance
 Inst86Quest18 = "18. 『火爐之主』伊格尼司必須死! (每週團隊任務)"
@@ -11180,7 +11180,7 @@ Inst86Quest18_Note = "『火爐之主』伊格尼司在"..YELLOW.."攻城區[3]"
 Inst86Quest18_Prequest = "無"
 Inst86Quest18_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 19 Alliance
 Inst86Quest19 = "19. 銳鱗必須死! (每週團隊任務)"
@@ -11192,7 +11192,7 @@ Inst86Quest19_Note = "銳鱗在"..YELLOW.."攻城區[2]"..WHITE.."。\n\n每週�
 Inst86Quest19_Prequest = "無"
 Inst86Quest19_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 20 Alliance
 Inst86Quest20 = "20. XT-002拆解者必須死! (每週團隊任務)"
@@ -11204,7 +11204,7 @@ Inst86Quest20_Note = "XT-002拆解者在"..YELLOW.."攻城區[4]"..WHITE.."。\n
 Inst86Quest20_Prequest = "無"
 Inst86Quest20_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11417,7 +11417,7 @@ Inst86Quest17_HORDE_Note = Inst86Quest17_Note
 Inst86Quest17_HORDE_Prequest = Inst86Quest17_Prequest
 Inst86Quest17_HORDE_Folgequest = Inst86Quest17_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 18 Horde  (same as Quest 18 Alliance)
 Inst86Quest18_HORDE = Inst86Quest18
@@ -11429,7 +11429,7 @@ Inst86Quest18_HORDE_Note = Inst86Quest18_Note
 Inst86Quest18_HORDE_Prequest = Inst86Quest18_Prequest
 Inst86Quest18_HORDE_Folgequest = Inst86Quest18_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 19 Horde  (same as Quest 19 Alliance)
 Inst86Quest19_HORDE = Inst86Quest19
@@ -11441,7 +11441,7 @@ Inst86Quest19_HORDE_Note = Inst86Quest19_Note
 Inst86Quest19_HORDE_Prequest = Inst86Quest19_Prequest
 Inst86Quest19_HORDE_Folgequest = Inst86Quest19_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 20 Horde  (same as Quest 20 Alliance)
 Inst86Quest20_HORDE = Inst86Quest20
@@ -11453,7 +11453,7 @@ Inst86Quest20_HORDE_Note = Inst86Quest20_Note
 Inst86Quest20_HORDE_Prequest = Inst86Quest20_Prequest
 Inst86Quest20_HORDE_Folgequest = Inst86Quest20_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -11483,7 +11483,7 @@ Inst88Quest1_Note = "賈拉克瑟斯領主是第二個王。\n\n每週團隊任�
 Inst88Quest1_Prequest = "無"
 Inst88Quest1_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11496,7 +11496,7 @@ Inst88Quest1_HORDE_Note = Inst88Quest1_Note
 Inst88Quest1_HORDE_Prequest = Inst88Quest1_Prequest
 Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
@@ -11529,7 +11529,7 @@ Inst90Quest2_Prequest = "進入冰凍城塞"
 Inst90Quest2_Folgequest = "薩倫之淵（"..YELLOW.."薩倫之淵"..WHITE.."）"
 Inst90Quest2FQuest = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 3 Alliance
 Inst90Quest3 = "3. 淬鍊劍刃"
@@ -11566,7 +11566,7 @@ Inst90Quest2_HORDE_Prequest = "進入冰凍城塞"
 Inst90Quest2_HORDE_Folgequest = "薩倫之淵（"..YELLOW.."薩倫之淵"..WHITE.."）"
 Inst90Quest2FQuest_HORDE = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 3 Horde
 Inst90Quest3_HORDE = "3. 淬鍊劍刃"
@@ -11624,7 +11624,7 @@ Inst91Quest3_Prequest = "入城之徑"
 Inst91Quest3_Folgequest = "霜之哀傷（"..YELLOW.."倒影大廳"..WHITE.."）"
 Inst91Quest3FQuest = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 4 Alliance
 Inst91Quest4 = "4. 重鑄劍刃"
@@ -11674,7 +11674,7 @@ Inst91Quest3_HORDE_Prequest = "入城之徑"
 Inst91Quest3_HORDE_Folgequest = "霜之哀傷（"..YELLOW.."倒影大廳"..WHITE.."）"
 Inst91Quest3FQuest_HORDE = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 4 Horde
 Inst91Quest4_HORDE = "4. 重鑄劍刃"
@@ -11720,7 +11720,7 @@ Inst92Quest2_Prequest = "霜之哀傷"
 Inst92Quest2_Folgequest = "無"
 Inst92Quest2FQuest = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 3 Alliance
 Inst92Quest3 = "3. 倒影大廳"
@@ -11758,7 +11758,7 @@ Inst92Quest2_HORDE_Prequest = "霜之哀傷"
 Inst92Quest2_HORDE_Folgequest = "無"
 Inst92Quest2FQuest_HORDE = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 3 Horde
 Inst92Quest3_HORDE = "3. 倒影大廳"
@@ -11791,7 +11791,7 @@ Inst93Quest1_Note = "瑪洛嘉領主在"..YELLOW.."[1]"..WHITE.."。\n\n每週�
 Inst93Quest1_Prequest = "無"
 Inst93Quest1_Folgequest = "無"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 2 Alliance
 Inst93Quest2 = "2. 聖潔與墮落"
@@ -11913,7 +11913,7 @@ Inst93Quest1_HORDE_Note = Inst93Quest1_Note
 Inst93Quest1_HORDE_Prequest = Inst93Quest1_Prequest
 Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst93Quest2_HORDE = Inst93Quest2
@@ -12067,7 +12067,7 @@ Inst94Quest3_Prequest = "對聖所的攻擊"
 Inst94Quest3_Folgequest = "無"
 Inst94Quest3FQuest = "true"
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12104,90 +12104,90 @@ Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
 Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
 Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 --
--- Awards Justice Points.
+-- 獎勵正義點數。
 
 
 
 --------------- INST95 - Blackrock Caverns ---------------
 
-Inst95Story = "Blackrock Caverns is the first of two new wings in Blackrock Spire introduced in World of Warcraft: Cataclysm. It is designed as a 5-man instance for players level 80 to 81. It is a series of tunnels created by Twilight's Hammer clan in order to gather the remaining Ragnaros' minions and transport them back and forth to Mount Hyjal, as well as to perform horrific experiments conducted by the nihilistic cult in order to use the essence of the dragon in order to transform the worthy into dragonspawn. Finkle Einhorn and Raz the Crazed were enlisted by the Guardians of Hyjal to investigate the activity within the caverns. The forces here are led by the Ascendant Lord Obsidius."..GREEN.."\n\nQuoted from wowpedia.org"
+Inst95Story = "黑石洞穴是在浩劫與重生中，於黑石山新開放的五人地城，普通模式適合80 - 81級的玩家。它是由暮光之錘所挖掘的一系列洞穴之一，用來召集剩餘的拉格納羅斯的爪牙，並且將他們送往海加爾山進行可怕的實驗。芬克．恩霍爾和瘋狂的拉茲則應海加爾山守護者的要求進入黑石洞穴中調查暮光之錘的活動。在這洞穴中的勢力由卓越者統領奧希迪厄斯所領導。"..GREEN.."\n\n引述自 wowpedia.org"
 Inst95Caption = "黑石洞穴"
 Inst95QAA = "6 個任務"
 Inst95QAH = "6 個任務"
 
 --Quest 1 Alliance
-Inst95Quest1 = "1. This Can Only Mean One Thing..."
+Inst95Quest1 = "1. 這只代表一件事..."
 Inst95Quest1_Level = "82"
 Inst95Quest1_Attain = "80"
-Inst95Quest1_Aim = "Take Finkle's Mole Machine to Blackrock Mountain."
-Inst95Quest1_Location = "Finkle Einhorn (Mount Hyjal - Circle of Cinders; "..YELLOW.."42.6, 28.1"..WHITE..")"
-Inst95Quest1_Note = "The Mole Machine is nearby at "..YELLOW.."42.8, 28.9"..WHITE..". The quest turns in to Finkle Einhorn just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE.."."
-Inst95Quest1_Prequest = "None"
-Inst95Quest1_Folgequest = "To the Chamber of Incineration!"
+Inst95Quest1_Aim = "將芬克的鑽地機帶到黑石山。"
+Inst95Quest1_Location = "芬克．恩霍爾（海加爾山 - 灰燼之環; "..YELLOW.."42.6, 28.1"..WHITE.."）"
+Inst95Quest1_Note = "鑽地機在"..YELLOW.."42.8, 28.9"..WHITE.."。在黑石洞穴的入口處"..GREEN.."[1']"..WHITE.."找芬克．恩霍爾回報任務。"
+Inst95Quest1_Prequest = "無"
+Inst95Quest1_Folgequest = "前往焚化之廳!"
 Inst95Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst95Quest2 = "2. To the Chamber of Incineration!"
+Inst95Quest2 = "2. 前往焚化之廳!"
 Inst95Quest2_Level = "82"
 Inst95Quest2_Attain = "80"
-Inst95Quest2_Aim = "Kill Rom'ogg Bonecrusher."
-Inst95Quest2_Location = "Finkle Einhorn (Blackrock Caverns; "..GREEN.."[1']"..WHITE..")"
-Inst95Quest2_Note = "Rom'ogg Bonecrusher is the first boss, at "..YELLOW.."[1]"..WHITE.."."
-Inst95Quest2_Prequest = "This Can Only Mean One Thing..."
-Inst95Quest2_Folgequest = "None"
+Inst95Quest2_Aim = "殺死羅姆歐格．裂骨者。"
+Inst95Quest2_Location = "芬克．恩霍爾（黑石洞穴; "..GREEN.."[1']"..WHITE.."）"
+Inst95Quest2_Note = "羅姆歐格．裂骨者是第一個首領，位在"..YELLOW.."[1]"..WHITE.."。"
+Inst95Quest2_Prequest = "這只代表一件事..."
+Inst95Quest2_Folgequest = "無"
 Inst95Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst95Quest3 = "3. What Is This Place?"
+Inst95Quest3 = "3. 這是什麼地方?"
 Inst95Quest3_Level = "82"
 Inst95Quest3_Attain = "80"
-Inst95Quest3_Aim = "Kill Corla, Herald of Twilight."
-Inst95Quest3_Location = "Finkle Einhorn's Helmet or given automatically"
-Inst95Quest3_Note = "Corla, Herald of Twilight is at "..YELLOW.."[2]"..WHITE.."."
-Inst95Quest3_Prequest = "None"
-Inst95Quest3_Folgequest = "None"
+Inst95Quest3_Aim = "殺死柯爾菈．暮光信使。"
+Inst95Quest3_Location = "你不需要回到門口接任務，芬克的頭盔會自動給予任務。"
+Inst95Quest3_Note = "柯爾菈．暮光信使在"..YELLOW.."[2]"..WHITE.."。"
+Inst95Quest3_Prequest = "無"
+Inst95Quest3_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst95Quest4 = "4. The Twilight Forge"
+Inst95Quest4 = "4. 暮光熔爐"
 Inst95Quest4_Level = "82"
 Inst95Quest4_Attain = "80"
-Inst95Quest4_Aim = "Kill Karsh Steelbender."
-Inst95Quest4_Location = "Finkle Einhorn's Helmet or given automatically"
-Inst95Quest4_Note = "Karsh Steelbender is at "..YELLOW.."[3]"..WHITE.."."
-Inst95Quest4_Prequest = "None"
-Inst95Quest4_Folgequest = "None"
+Inst95Quest4_Aim = "殺死卡爾許．控鋼者。"
+Inst95Quest4_Location = "你不需要回到門口接任務，芬克的頭盔會自動給予任務。"
+Inst95Quest4_Note = "卡爾許．控鋼者在"..YELLOW.."[3]"..WHITE.."。"
+Inst95Quest4_Prequest = "無"
+Inst95Quest4_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst95Quest5 = "5. Do My Eyes Deceive Me?"
+Inst95Quest5 = "5. 我眼花了嗎?"
 Inst95Quest5_Level = "82"
 Inst95Quest5_Attain = "80"
-Inst95Quest5_Aim = "Kill Beauty."
-Inst95Quest5_Location = "Finkle Einhorn's Helmet or given automatically"
-Inst95Quest5_Note = "Beauty is at "..YELLOW.."[4]"..WHITE.."."
-Inst95Quest5_Prequest = "None"
-Inst95Quest5_Folgequest = "None"
+Inst95Quest5_Aim = "殺死美麗。"
+Inst95Quest5_Location = "你不需要回到門口接任務，芬克的頭盔會自動給予任務。"
+Inst95Quest5_Note = "美麗在"..YELLOW.."[4]"..WHITE.."。"
+Inst95Quest5_Prequest = "無"
+Inst95Quest5_Folgequest = "無"
 --
-Inst95Quest5name1 = "Finkle's Twinkle"
-Inst95Quest5name2 = "Beauty's Cootie-Ridden Blankie"
-Inst95Quest5name3 = "Beauty Jr.'s Collar"
+Inst95Quest5name1 = "芬克的閃耀"
+Inst95Quest5name2 = "美麗的虱子幼兒巾"
+Inst95Quest5name3 = "美麗二世的項圈"
 
 --Quest 6 Alliance
-Inst95Quest6 = "6. Ascendant Lord Obsidius"
+Inst95Quest6 = "6. 卓越者統領奧希迪厄斯"
 Inst95Quest6_Level = "82"
 Inst95Quest6_Attain = "80"
-Inst95Quest6_Aim = "Kill Ascendant Lord Obsidius."
-Inst95Quest6_Location = "Finkle Einhorn's Helmet or given automatically"
-Inst95Quest6_Note = "Ascendant Lord Obsidius is at "..YELLOW.."[5]"..WHITE.."."
-Inst95Quest6_Prequest = "None"
-Inst95Quest6_Folgequest = "None"
+Inst95Quest6_Aim = "殺死卓越者統領奧希迪厄斯。"
+Inst95Quest6_Location = "你不需要回到門口接任務，芬克的頭盔會自動給予任務。"
+Inst95Quest6_Note = "卓越者統領奧希迪厄斯在"..YELLOW.."[5]"..WHITE.."。"
+Inst95Quest6_Prequest = "無"
+Inst95Quest6_Folgequest = "無"
 --
-Inst95Quest6name1 = "Acid-Eaten Vest"
-Inst95Quest6name2 = "Diamond-Studded Helm"
-Inst95Quest6name3 = "Raz's Breastplate"
+Inst95Quest6name1 = "酸腐外衣"
+Inst95Quest6name2 = "鑽石釘飾頭盔"
+Inst95Quest6name3 = "拉茲的胸甲"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12268,38 +12268,38 @@ Inst95Quest6name3_HORDE = Inst95Quest6name3
 
 --------------- INST96 - Throne of the Tides ---------------
 
-Inst96Story = "Throne of the Tides is a five-player dungeon in the Abyssal Maw complex located in Vashj'ir, introduced in World of Warcraft: Cataclysm."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst96Caption = "Throne of the Tides"
+Inst96Story = "瓦許伊爾曾經是一座偉大的精靈貴族之城，住滿卡林多最受尊崇的夜精靈。這座城市在大崩裂中被無盡之海吞沒，也消失在人們的記憶中。夜精靈所敬愛的艾薩拉女王在永恆之井的爆炸中僥倖逃生，但追隨她的貴族和她本身都付出了巨大的代價：他們轉變成醜惡的納迦，毫無希望地在大海中徘徊了數千年之久。納迦的存在對現今生活在艾澤拉斯的人們來說幾乎只是個傳說，但是陶土議會聆聽地獄深淵中的元素呼喚，並發現艾薩拉手下的納迦為了某種目的正打算要佔領瓦許伊爾。"
+Inst96Caption = "海潮王座"
 Inst96QAA = "2 個任務"
 Inst96QAH = "2 個任務"
 
 --Quest 1 Alliance
-Inst96Quest1 = "1. Rescue the Earthspeaker!"
+Inst96Quest1 = "1. 解救語地者!"
 Inst96Quest1_Level = "82"
 Inst96Quest1_Attain = "80"
-Inst96Quest1_Aim = "Rescue Erunak Stonespeaker."
-Inst96Quest1_Location = "Captain Taylor (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
-Inst96Quest1_Note = "Erunak Stonespeaker is at "..YELLOW.."[3]"..WHITE.."."
-Inst96Quest1_Prequest = "None"
-Inst96Quest1_Folgequest = "None"
+Inst96Quest1_Aim = "解救伊魯納克．石語者。"
+Inst96Quest1_Location = "泰勒隊長（海潮王座; "..YELLOW.."入口"..WHITE.."）"
+Inst96Quest1_Note = "伊魯納克．石語者在"..YELLOW.."[3]"..WHITE.."。"
+Inst96Quest1_Prequest = "無"
+Inst96Quest1_Folgequest = "無"
 --
-Inst96Quest1name1 = "Sea Witch Charm"
-Inst96Quest1name2 = "Leggings of Opportune Strikes"
-Inst96Quest1name3 = "Belt of a Thousand Deaths"
+Inst96Quest1name1 = "海巫符咒"
+Inst96Quest1name2 = "適時打擊護腿"
+Inst96Quest1name3 = "千死腰帶"
 
 --Quest 2 Alliance
-Inst96Quest2 = "2. Sins of the Sea Witch"
+Inst96Quest2 = "2. 海巫的原罪"
 Inst96Quest2_Level = "82"
 Inst96Quest2_Attain = "80"
-Inst96Quest2_Aim = "Captain Taylor wants you to slay Lady Naz'jar."
-Inst96Quest2_Location = "Captain Taylor (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
-Inst96Quest2_Note = "Lady Naz'jar is at "..YELLOW.."[1]"..WHITE.."."
-Inst96Quest2_Prequest = "None"
-Inst96Quest2_Folgequest = "None"
+Inst96Quest2_Aim = "泰勒隊長要你殺死納茲賈爾女士。"
+Inst96Quest2_Location = "泰勒隊長（海潮王座; "..YELLOW.."入口"..WHITE.."）"
+Inst96Quest2_Note = "納茲賈爾女士在"..YELLOW.."[1]"..WHITE.."。"
+Inst96Quest2_Prequest = "無"
+Inst96Quest2_Folgequest = "無"
 --
-Inst96Quest2name1 = "Deepmist Robes"
-Inst96Quest2name2 = "Kelp Forest Vest"
-Inst96Quest2name3 = "Stonespeaker's Belt"
+Inst96Quest2name1 = "深霧長袍"
+Inst96Quest2name2 = "凱波薩爾森林外衣"
+Inst96Quest2name3 = "石語者腰帶"
 
 
 --Quest 1 Horde (same as Quest 1 Alliance - different quest giver)
@@ -12307,7 +12307,7 @@ Inst96Quest1_HORDE = Inst96Quest1
 Inst96Quest1_HORDE_Level = Inst96Quest1_Level
 Inst96Quest1_HORDE_Attain = Inst96Quest1_Attain
 Inst96Quest1_HORDE_Aim = Inst96Quest1_Aim
-Inst96Quest1_HORDE_Location = "Legionnaire Nazgrim (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest1_HORDE_Location = "軍團士兵納茲格寧姆（海潮王座; "..YELLOW.."入口"..WHITE.."）"
 Inst96Quest1_HORDE_Note = Inst96Quest1_Note
 Inst96Quest1_HORDE_Prequest = Inst96Quest1_Prequest
 Inst96Quest1_HORDE_Folgequest = Inst96Quest1_Folgequest
@@ -12320,8 +12320,8 @@ Inst96Quest1name3_HORDE = Inst96Quest1name3
 Inst96Quest2_HORDE = Inst96Quest2
 Inst96Quest2_HORDE_Level = Inst96Quest2_Level
 Inst96Quest2_HORDE_Attain = Inst96Quest2_Attain
-Inst96Quest2_HORDE_Aim = "Legionnaire Nazgrim wants you to slay Lady Naz'jar."
-Inst96Quest2_HORDE_Location = "Legionnaire Nazgrim (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest2_HORDE_Aim = "軍團士兵納茲格寧姆要你殺死納茲賈爾女士。"
+Inst96Quest2_HORDE_Location = "軍團士兵納茲格寧姆（海潮王座; "..YELLOW.."入口"..WHITE.."）"
 Inst96Quest2_HORDE_Note = Inst96Quest2_Note
 Inst96Quest2_HORDE_Prequest = Inst96Quest2_Prequest
 Inst96Quest2_HORDE_Folgequest = Inst96Quest2_Folgequest
@@ -12335,63 +12335,63 @@ Inst96Quest2name3_HORDE = Inst96Quest2name3
 --------------- INST97 - The Stonecore ---------------
 
 Inst97Story = {
-  ["Page1"] = "Within the Temple of Earth, locked in the heart of Deepholm, lies the Stonecore. It was inside this mysterious domain that the Twilight's Hammer toiled over Deathwing, hammering elementium plates to the Dragon Aspect's skin to hold his tormented body together. It was also here that Deathwing began his ascent into Azeroth, shattering the fabled World Pillar and destabilizing the entire region of Deepholm. \n\nAlthough the corrupted Dragon Aspect is now gone, his fanatical Twilight's Hammer followers are still entrenched within the deepest recesses of the Stonecore. For these zealous worshippers, the point of Deathwing's ascent is sacred ground, and they would gladly give their lives to preserve its sanctity.",
-  ["Page2"] = "Shaman of the Earthen Ring have recently arrived in Deepholm to mend the broken World Pillar, but their efforts have come under attack by a host of malevolent forces, not the least of which is the Twilight's Hammer. As Horde and Alliance heroes struggle to aid the shaman, the Stonecore has become a demoralizing symbol of the grim hold that Deathwing's followers still have on Deepholm."..GREEN.."\n\nQuoted from worldofwarcraft.com",
+  ["Page1"] = "在大地神廟中，石岩之心深鎖在地深之源的核心。暮光之鎚在這神秘王國伺候著死亡之翼，把元素鎧甲鍛製在這頭守護巨龍的外皮上，包緊它受盡折磨的軀體。這裡也是死亡之翼開始空襲艾澤拉斯、粉碎傳說中的世界柱、搖動整個地深之源地區之所在。\n\n儘管墮落的守護巨龍已經離去，他的暮光之鎚狂熱信徒仍然鞏固著石岩之心的最深處。對這些狂熱的崇拜者而言，死亡之翼升空的地點是神聖之地，他們很樂意犧牲生命來保存其莊嚴。\n\n陶土議會近期來到了地深之源來修復破損的世界柱，但是他們的努力卻招來了惡毒居民的攻擊，至少有暮光之鎚。由於部落與聯盟的英雄拼命幫助薩滿們，石岩之心成為了這冷酷據點令人喪氣的象徵，也是 死亡之翼追隨者在地深之源的僅有之地。",
+  ["Page2"] = "除了暮光之鎚教徒的存在，石岩之心所需了解的情報非常稀少。少數冒險進入大地神廟內部聖所的探險家訴說著崎嶇、不規律的通道，前所未見的元素怪獸盤繞在這個地區，很多時候，把人逼上絕路。最令人不安的是報告指出，有巨大的石龍潛伏在地底王國的暗處。除此之外，是什麼在洞穴深處守護著死亡之翼升空地點仍是個謎。\n\n無論石岩之心在地的元素生物是否受制暮光之鎚的淫威之下。然而，毫無疑問地，他們把外來入侵者視為敵人。除非地底之巢受到淨化，不然陶土議會與其他友軍努力將毫無意義。只要暮光之鎚佔據著大地神廟，整個地底王國將持續籠罩在死亡之翼的陰影之下。"..GREEN.."\n\n引述自worldofwarcraft.com",
   ["MaxPages"] = "2",
 };
-Inst97Caption = "The Stonecore"
+Inst97Caption = "石岩之心"
 Inst97QAA = "4 個任務"
 Inst97QAH = "4 個任務"
 
 --Quest 1 Alliance
-Inst97Quest1 = "1. Into the Stonecore"
+Inst97Quest1 = "1. 進入石岩之心"
 Inst97Quest1_Level = "83"
 Inst97Quest1_Attain = "82"
-Inst97Quest1_Aim = "Speak to Earthwarden Yrsa inside the Stonecore"
-Inst97Quest1_Location = "Stormcaller Mylra (Deepholm; "..YELLOW.."64.5, 82.2"..WHITE..")"
-Inst97Quest1_Note = "Earthwarden Yrsa is just inside the entrance of the Stonecore instance. There is a prequest required, but it is unclear where it begins. This quest is optional however."
-Inst97Quest1_Prequest = "Yes"
-Inst97Quest1_Folgequest = "None"
+Inst97Quest1_Aim = "在石岩之心的內部與大地守望者伊爾薩交談。"
+Inst97Quest1_Location = "風暴召喚者米爾拉（地深之源; "..YELLOW.."64.5, 82.2"..WHITE.."）"
+Inst97Quest1_Note = "大地守望者伊爾薩就在地城的入口處。目前有一個未知的前置任務，而這個任務並非必需的。"
+Inst97Quest1_Prequest = "有"
+Inst97Quest1_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst97Quest2 = "2. Twilight Documents"
+Inst97Quest2 = "2. 暮光密件"
 Inst97Quest2_Level = "84"
 Inst97Quest2_Attain = "82"
-Inst97Quest2_Aim = "Obtain the Twilight Documents."
-Inst97Quest2_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..")"
-Inst97Quest2_Note = "The documents appear on the ground after defeating Corborus at "..YELLOW.."[1]"..WHITE.."."
-Inst97Quest2_Prequest = "None"
-Inst97Quest2_Folgequest = "None"
+Inst97Quest2_Aim = "取得暮光密件。"
+Inst97Quest2_Location = "大地守望者伊爾薩（石岩之心; "..YELLOW.."入口"..WHITE.."）"
+Inst97Quest2_Note = "擊敗寇伯拉斯"..YELLOW.."[1]"..WHITE.."之後，暮光密件會出現在地板上。"
+Inst97Quest2_Prequest = "無"
+Inst97Quest2_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst97Quest3 = "3. Wayward Child"
+Inst97Quest3 = "3. 任性的孩子"
 Inst97Quest3_Level = "84"
 Inst97Quest3_Attain = "82"
-Inst97Quest3_Aim = "Slay Ozruk."
-Inst97Quest3_Location = "Therazane (Deepholm - Therazane's Throne; "..YELLOW.."56.3, 12.8"..WHITE..")"
-Inst97Quest3_Note = "Ozruk is at "..YELLOW.."[3]"..WHITE..". Missing info on any prequests or reputation requirements for this quest."
-Inst97Quest3_Prequest = "None"
-Inst97Quest3_Folgequest = "None"
+Inst97Quest3_Aim = "殺死歐茲魯克。"
+Inst97Quest3_Location = "瑟拉贊恩（地深之源 - 瑟拉贊恩王座; "..YELLOW.."56.3, 12.8"..WHITE.."）"
+Inst97Quest3_Note = "歐茲魯克在"..YELLOW.."[3]"..WHITE.."目前沒有此任務的前置任務或聲望需求資訊。"
+Inst97Quest3_Prequest = "無"
+Inst97Quest3_Folgequest = "無"
 --
-Inst97Quest3name1 = "Leggings of the Lost Child"
-Inst97Quest3name2 = "Stonecore Belt"
-Inst97Quest3name3 = "Crystal Shimmer Cloak"
+Inst97Quest3name1 = "迷路孩童護腿"
+Inst97Quest3name2 = "石岩之心腰帶"
+Inst97Quest3name3 = "水晶光芒披風"
 
 --Quest 4 Alliance
-Inst97Quest4 = "4. Followers and Leaders"
+Inst97Quest4 = "4. 跟隨者與領導者"
 Inst97Quest4_Level = "84"
 Inst97Quest4_Attain = "82"
-Inst97Quest4_Aim = "Slay High Priestess Azil and 101 Devout Followers."
-Inst97Quest4_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..") or automatically given."
-Inst97Quest4_Note = "High Priestess Azil is at "..YELLOW.."[4]"..WHITE.." and the Devout Followers are on the way to her. The quest turns in back at Earthwarden Yrsa at the instance entrance."
-Inst97Quest4_Prequest = "None"
-Inst97Quest4_Folgequest = "None"
+Inst97Quest4_Aim = "殺死高階祭司艾吉兒和101名虔誠的跟隨者。"
+Inst97Quest4_Location = "大地守望者伊爾薩（石岩之心; "..YELLOW.."入口"..WHITE.."）或自動給予任務。"
+Inst97Quest4_Note = "高階祭司艾吉兒在"..YELLOW.."[4]"..WHITE.."，而虔誠的跟隨者就在前往高階祭司艾吉兒的路上。完成後回到地城入口向大地守望者伊爾薩回報任務。"
+Inst97Quest4_Prequest = "無"
+Inst97Quest4_Folgequest = "無"
 --
-Inst97Quest4name1 = "Band of the One Hundred and One"
-Inst97Quest4name2 = "High Priestess' Signet"
-Inst97Quest4name3 = "Pauldrons of Unholy Rituals"
+Inst97Quest4name1 = "一零一腰環"
+Inst97Quest4name2 = "高階祭司徽記"
+Inst97Quest4name3 = "邪惡儀式肩鎧"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12446,53 +12446,53 @@ Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 
 
---------------- INST98 - The Vortex Pinacle ---------------
+--------------- INST98 - The Vortex Pinnacle ---------------
 
-Inst98Story = "Here the armies of Al'Akir reside, and will not take kindly to any intruders in his elemental plane. The air elementals have entered an unholy alliance with the Worldbreaker, Deathwing and now threaten the denizens of Uldum. It is up to the adventurers to stop the elemental incursion to the ancient land, and the task is uneasy as they have to face the most powerful lieutenants of the Air Lord. \n\nWhen a player falls (or leaps) off the edge of platforms in this instance they are swept up in the winds and flung back onto the platform unharmed. This does, however, render them inactive for some time and would be inadvisable during combat. To pass from platform to platform, players have to jump onto Tornados. This is achieved by clicking on the tornado rather than by jumping off the platform and aiming for it."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst98Caption = "The Vortex Pinacle"
+Inst98Story = "這裡駐紮著奧拉基爾的軍隊，任何擅自闖入他領地的入侵者都不會受到友善的對待。風元素們和世界的破壞者——死亡之翼締結了盟約，並且威脅著奧丹姆的居民們。冒險者們必須揹負起這項艱鉅的任務，阻止由風之領主所率領的強大風元素入侵這塊古老的土地。"..GREEN.."\n\n引述自wowpedia.org"
+Inst98Caption = "漩渦尖塔"
 Inst98QAA = "3 個任務"
 Inst98QAH = "3 個任務"
 
 --Quest 1 Alliance
-Inst98Quest1 = "1. The Vortex Pinnacle"
+Inst98Quest1 = "1. 漩渦尖塔"
 Inst98Quest1_Level = "84"
 Inst98Quest1_Attain = "82"
-Inst98Quest1_Aim = "Find Itesh inside the Vortex Pinnacle."
-Inst98Quest1_Location = "General Ammantep (Uldum; "..YELLOW.."45.2, 37.8"..WHITE..")"
-Inst98Quest1_Note = "This is an optional 'breadcrumb' quest to send you to the Vortex Pinnacle. It becomes available after completing certain quests in Uldum.\n\nItesh is just inside the entrance."
-Inst98Quest1_Prequest = "MISSING INFO"
-Inst98Quest1_Folgequest = "Vengeance for Orsis"
+Inst98Quest1_Aim = "在漩渦尖塔裡找到伊塔許。"
+Inst98Quest1_Location = "安姆曼泰普將軍（奧丹姆; "..YELLOW.."45.2, 37.8"..WHITE.."）"
+Inst98Quest1_Note = "這是一個非必需的任務，只用來將你引導至漩渦尖塔。當你完成某些奧丹姆的任務之後，這個任務才會出現。\n\n伊塔許就在地城入口處。"
+Inst98Quest1_Prequest = "無資訊"
+Inst98Quest1_Folgequest = "奧爾希斯的復仇"
 Inst98Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst98Quest2 = "2. Vengeance for Orsis"
+Inst98Quest2 = "2. 奧爾希斯的復仇"
 Inst98Quest2_Level = "84"
 Inst98Quest2_Attain = "82"
-Inst98Quest2_Aim = "Slay Asaad."
-Inst98Quest2_Location = "Itesh (Vortex Pinnacle; "..YELLOW.."Entrance"..WHITE..")"
-Inst98Quest2_Note = "Asaad is the final boss, at "..YELLOW.."[3]"..WHITE..". The prequest is optional. Quest turns in back at the entrance."
-Inst98Quest2_Prequest = "The Vortex Pinnacle"
-Inst98Quest2_Folgequest = "None"
+Inst98Quest2_Aim = "殺死亞沙德。"
+Inst98Quest2_Location = "伊塔許（漩渦尖塔; "..YELLOW.."入口"..WHITE.."）"
+Inst98Quest2_Note = "亞沙德是第一個首領，位於"..YELLOW.."[3]"..WHITE.."前置任務為非必要的。完成後回到地城入口處向伊塔許回報任務。"
+Inst98Quest2_Prequest = "漩渦尖塔"
+Inst98Quest2_Folgequest = "無"
 Inst98Quest2FQuest = "true"
 --
-Inst98Quest2name1 = "Token of Gratitude"
-Inst98Quest2name2 = "Greaves of Orsis"
-Inst98Quest2name3 = "Caliph's Band"
+Inst98Quest2name1 = "謝意信物"
+Inst98Quest2name2 = "奧爾希斯護脛"
+Inst98Quest2name3 = "卡利夫的指環"
 
 --Quest 3 Alliance
-Inst98Quest3 = "3. A Long Way from Home"
+Inst98Quest3 = "3. 遠離家園"
 Inst98Quest3_Level = "84"
 Inst98Quest3_Attain = "82"
-Inst98Quest3_Aim = "Obtain Grand Vizier Ertan's Heart."
-Inst98Quest3_Location = "Itesh (Vortex Pinnacle; "..YELLOW.."Entrance"..WHITE..")"
-Inst98Quest3_Note = "Grand Vizier Ertan is the first boss, at "..YELLOW.."[1]"..WHITE..". Quest turns in back at the entrance."
-Inst98Quest3_Prequest = "None"
-Inst98Quest3_Folgequest = "None"
+Inst98Quest3_Aim = "取得首相伊爾丹的心臟。"
+Inst98Quest3_Location = "伊塔許（漩渦尖塔; "..YELLOW.."入口"..WHITE.."）"
+Inst98Quest3_Note = "首相伊爾丹是第一個首領，位於"..YELLOW.."[1]"..WHITE.."。完成後回到地城入口處向伊塔許回報任務。"
+Inst98Quest3_Prequest = "無"
+Inst98Quest3_Folgequest = "無"
 --
-Inst98Quest3name1 = "Cloak of Itesh"
-Inst98Quest3name2 = "Leggings of the Vortex Pinnacle"
-Inst98Quest3name3 = "Band of the Dead End"
+Inst98Quest3name1 = "伊塔許披風"
+Inst98Quest3name2 = "漩渦尖塔護腿"
+Inst98Quest3name3 = "死路指環"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12540,50 +12540,50 @@ Inst98Quest3name3_HORDE = Inst98Quest3name3
 
 --------------- INST99 - Grim Batol ---------------
 
-Inst99Story = "During a bloody civil war among the three dwarven factions of Ironforge, the Bronzebeards ousted the Wildhammer and the Dark Iron clans from the ancient corridors of the mountain city. In the wake of the defeat, the Wildhammers ventured north and forged a new home, Grim Batol, in the mountains of what is now the Twilight Highlands. However, although they worked tirelessly to create a better future for themselves, the Dark Irons, who established the city of Thaurissan in the Redridge Mountains, could not move beyond the memory of their defeat. Consumed by the desire for revenge and desperate to control the entire dwarven region of Khaz Modan, the Dark Irons led a two-pronged assault on the Bronzebeards in Ironforge and the Wildhammers in Grim Batol. Despite their past differences, these two embattled rivals joined forces and drove the Dark Irons out of Khaz Modan, decimating the armies of the treacherous clan's sorcerer-thane, Thaurissan. Yet victory carried grave consequences. Although Thaurissan's wife and queen, Modgud, was slain during the attack on Grim Batol, her death tainted the mountain fortress. While the Bronzebeards rebuilt their glorious city of Ironforge, the Wildhammers felt forever changed by the horrors they witnessed at Grim Batol. They fled their cursed home and never returned."..GREEN.."\n\nQuoted from worldofwarcraft.com"
-Inst99Caption = "Grim Batol"
+Inst99Story = "鐵爐堡的矮人三族在經歷了血腥的內戰後，銅鬚矮人把蠻槌矮人和黑鐵矮人從山城的遠古迴廊驅逐出境。戰敗的蠻槌部族往北涉險建立了新家園，格瑞姆巴托，如今這個山脈被稱為暮光高地。然而，即使他們不眠不休地打造更好的未來，在赤脊山中建立索瑞森城的黑鐵部族，卻無法忘卻慘敗的回憶。由於復仇慾的驅使以及控制整個矮人王國『加茲莫丹』的期盼，黑鐵矮人對鐵爐堡的銅鬚矮人與格瑞姆巴托的蠻槌矮人發動了雙線突襲。\n\n兩個遭受攻擊的部族捨棄了過去的歧見集結成軍，把黑鐵矮人趕出了卡茲莫丹，並且殲滅了巫王索瑞森所率領的狡詐部族軍隊。但是勝利卻帶來了惡果。雖然索瑞森的妻子莫佳德皇后在格瑞姆巴托之戰戰死，她的死亡卻污染了這座山城。正當銅鬚矮人重建他們偉大的鐵爐堡時，蠻槌矮人卻因在格瑞姆巴托所目睹的恐怖而從此改變。他們逃離了受詛咒的家園，永遠不再歸返。"..GREEN.."\n\n引述自worldofwarcraft.com"
+Inst99Caption = "格瑞姆巴托"
 Inst99QAA = "3 個任務"
 Inst99QAH = "3 個任務"
 
 --Quest 1 Alliance
-Inst99Quest1 = "1. Soften them Up"
+Inst99Quest1 = "1. 弱化他們"
 Inst99Quest1_Level = "85"
 Inst99Quest1_Attain = "84"
-Inst99Quest1_Aim = "Free a Red Drake within Grim Batol and use it to destroy 30 Troggs and 15 Twilight's Hammer minions."
-Inst99Quest1_Location = "Velastrasza (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
-Inst99Quest1_Note = "Missing information. The quest turns in back at the entrance."
-Inst99Quest1_Prequest = "None"
-Inst99Quest1_Folgequest = "None"
+Inst99Quest1_Aim = "釋放格瑞姆巴托裡的紅龍，用牠消滅30個穴居怪和15個暮光之錘爪牙。"
+Inst99Quest1_Location = "維菈史卓莎（格瑞姆巴托; "..YELLOW.."入口"..WHITE.."）"
+Inst99Quest1_Note = "你必須騎著紅龍，於飛行途中轟炸足夠的敵人以完成任務。任務完成後在入口處回覆任務。"
+Inst99Quest1_Prequest = "無"
+Inst99Quest1_Folgequest = "無"
 --
-Inst99Quest1name1 = "Treasures from Grim Batol"
+Inst99Quest1name1 = "格瑞姆巴托的寶藏"
 
 --Quest 2 Alliance
-Inst99Quest2 = "2. Kill the Courier"
+Inst99Quest2 = "2. 殺了信差"
 Inst99Quest2_Level = "85"
 Inst99Quest2_Attain = "84"
-Inst99Quest2_Aim = "Kill Drahga Shadowburner and grab his Missive to Cho'gall."
-Inst99Quest2_Location = "Farseer Tooranu (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
-Inst99Quest2_Note = "Drahga Shadowburner is at "..YELLOW.."[3]"..WHITE..". The quest turns in back at the entrance."
-Inst99Quest2_Prequest = "None"
-Inst99Quest2_Folgequest = "None"
+Inst99Quest2_Aim = "殺掉德拉卡．燃影者，拿走他給丘加利的書信。"
+Inst99Quest2_Location = "先知圖拉奴（格瑞姆巴托; "..YELLOW.."入口"..WHITE.."）"
+Inst99Quest2_Note = "德拉卡．燃影者在"..YELLOW.."[3]"..WHITE.."。任務完成後在入口處回覆任務。"
+Inst99Quest2_Prequest = "無"
+Inst99Quest2_Folgequest = "無"
 --
-Inst99Quest2name1 = "Sandals of the Courier"
-Inst99Quest2name2 = "Helm of Secret Knowledge"
-Inst99Quest2name3 = "Tooranu's Spaulders"
+Inst99Quest2name1 = "信差便鞋"
+Inst99Quest2name2 = "神秘知識頭盔"
+Inst99Quest2name3 = "圖拉奴肩甲"
 
 --Quest 3 Alliance
-Inst99Quest3 = "3. Closing a Dark Chapter"
+Inst99Quest3 = "3. 結束黑暗之章"
 Inst99Quest3_Level = "85"
 Inst99Quest3_Attain = "84"
-Inst99Quest3_Aim = "Slay Erudax, the Duke of Below."
-Inst99Quest3_Location = "Baleflame (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
-Inst99Quest3_Note = "Erudax is at "..YELLOW.."[4]"..WHITE..". The quest turns in back at the entrance."
-Inst99Quest3_Prequest = "None"
-Inst99Quest3_Folgequest = "None"
+Inst99Quest3_Aim = "殺掉地獄公爵伊魯達克斯。"
+Inst99Quest3_Location = "罪火（格瑞姆巴托; "..YELLOW.."入口"..WHITE.."）"
+Inst99Quest3_Note = "地獄公爵伊魯達克斯在"..YELLOW.."[4]"..WHITE.."。任務完成後在入口處回覆任務。"
+Inst99Quest3_Prequest = "無"
+Inst99Quest3_Folgequest = "無"
 --
-Inst99Quest3name1 = "Gloves of Baleflame"
-Inst99Quest3name2 = "Eradicator's Bracers"
-Inst99Quest3name3 = "Breastplate of the Witness"
+Inst99Quest3name1 = "大堆柴火手套"
+Inst99Quest3name2 = "根除者護腕"
+Inst99Quest3name3 = "見證胸甲"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12630,52 +12630,52 @@ Inst99Quest3name3_HORDE = Inst99Quest3name3
 
 --------------- INST100 - Halls of Origination ---------------
 
-Inst100Story = "The Halls of Origination in Uldum is a level-85 five-player dungeon available in World of Warcraft: Cataclysm, featuring an unparalleled journey through the timeless titan construction and seven unique boss fights. Hidden deep within its halls lies an ancient treasure that, if placed in the wrong hands, could endanger all life on Azeroth. Should players survive the perils of Uldum, they will be called to help Brann Bronzebeard unlock the mysteries within these treacherous titan halls and protect the titans' ancient secrets."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst100Caption = "Halls of Origination"
+Inst100Story = "奧丹姆的起源大廳是一個85級的五人副本，將在魔獸世界：浩劫與重生中開放，將帶給玩家一段深入古老泰坦遺跡的空前冒險，以及七個首領的精彩戰鬥。而在大廳深處則藏著遠古的寶藏，若是落入惡黨之手，便可能危急艾澤拉斯所有的生靈。若是玩家能從奧丹姆的重重危機中倖存，他們便能獲得布萊恩．銅鬚的幫助，以解開這些危險大廳中的謎團，並保護這些泰坦的古老秘密。\n\n如同奧達曼與奧杜亞，奧丹姆同樣有著罕見的泰坦建築，早在艾澤拉斯的凡物出現前就已存在。多年來歷史學家在卡林多南方探索，尋找一個進入這片古老泰坦之地的方法，搜尋更多關於艾澤拉斯起源的證據。然而大崩裂改變了這一切，數千年來覆蓋於奧丹姆之外的表層終於裂開，而它神秘而強大的秘密正等待著最勇敢、最聰明或最冷酷的探險家來發掘。"
+Inst100Caption = "起源大廳"
 Inst100QAA = "3 個任務"
 Inst100QAH = "3 個任務"
 
 --Quest 1 Alliance
-Inst100Quest1 = "1. The Heart of the Matter"
+Inst100Quest1 = "1. 問題核心"
 Inst100Quest1_Level = "83"
 Inst100Quest1_Attain = "83"
-Inst100Quest1_Aim = "Brann Bronzebeard wants you to meet him in the Halls of Origination."
-Inst100Quest1_Location = "Brann Bronzebeard (Uldum - Cradle of the Ancients; "..YELLOW.."44.9, 67.4"..WHITE..")"
-Inst100Quest1_Note = "Brann Bronzebeard is a little bit inside the Halls of Origination. The prequest line is part of a series of other quests you'll do while in Uldum."
-Inst100Quest1_Prequest = "Sullah's Gift -> The Coffer of Promise"
-Inst100Quest1_Folgequest = "Penetrating Their Defenses"
+Inst100Quest1_Aim = "布萊恩．銅鬚要你到起源大廳和他碰面。"
+Inst100Quest1_Location = "布萊恩．銅鬚（奧丹姆 - 先祖育床; "..YELLOW.."44.9, 67.4"..WHITE.."）"
+Inst100Quest1_Note = "布萊恩．銅鬚在起源大廳稍微裡面一些的地方。前置任務來自奧丹姆的系列任務。"
+Inst100Quest1_Prequest = "蘇拉的禮物→應許法櫃"
+Inst100Quest1_Folgequest = "滲透防禦"
 Inst100PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst100Quest2 = "2. Penetrating Their Defenses"
+Inst100Quest2 = "2. 滲透防禦"
 Inst100Quest2_Level = "83"
 Inst100Quest2_Attain = "83"
-Inst100Quest2_Aim = "Gain entry to the Titan Control Room."
-Inst100Quest2_Location = "Brann Bronzebeard (Halls of Origination; "..YELLOW.."[??]"..WHITE..")"
-Inst100Quest2_Note = "The Titan Control Room is accessible after defeating Anraphet at "..YELLOW.."3"..WHITE.."."
-Inst100Quest2_Prequest = "The Heart of the Matter"
-Inst100Quest2_Folgequest = "Doing it the Hard Way"
+Inst100Quest2_Aim = "進入泰坦控制室。"
+Inst100Quest2_Location = "布萊恩．銅鬚（起源大廳; "..YELLOW.."[??]"..WHITE.."）"
+Inst100Quest2_Note = "泰坦控制室在"..YELLOW.."3"..WHITE.."，當你擊敗安拉斐特之後便可以進入。"
+Inst100Quest2_Prequest = "問題核心"
+Inst100Quest2_Folgequest = "硬著頭皮來"
 Inst100Quest2FQuest = "true"
 --
-Inst100Quest2name1 = "Repository Gauntlets"
-Inst100Quest2name2 = "Offline Greaves"
-Inst100Quest2name3 = "Boots of the Hard Way"
+Inst100Quest2name1 = "寶庫護手"
+Inst100Quest2name2 = "離線護脛"
+Inst100Quest2name3 = "艱辛之路長靴"
 
 --Quest 3 Alliance
-Inst100Quest3 = "3. Doing it the Hard Way"
+Inst100Quest3 = "3. 硬著頭皮來"
 Inst100Quest3_Level = "83"
 Inst100Quest3_Attain = "83"
-Inst100Quest3_Aim = "Brann Bronzebeard wants you to kill Isiset, Ammunae, Setesh, and Rajh."
-Inst100Quest3_Location = "Brann Bronzebeard (Halls of Origination; "..YELLOW.."[??]"..WHITE..")"
-Inst100Quest3_Note = "Isiset is at "..YELLOW.."[4]"..WHITE..", Ammunae is at "..YELLOW.."[5]"..WHITE..", Setesh is at "..YELLOW.."[6]"..WHITE..", and Rajh is at "..YELLOW.."[7]"..WHITE.."."
-Inst100Quest3_Prequest = "Penetrating Their Defenses"
-Inst100Quest3_Folgequest = "None"
+Inst100Quest3_Aim = "布萊恩．銅鬚要你殺死伊希賽特、安姆內、賽特胥和拉頡。"
+Inst100Quest3_Location = "布萊恩．銅鬚（起源大廳; "..YELLOW.."[??]"..WHITE.."）"
+Inst100Quest3_Note = "伊希賽特在"..YELLOW.."[4]"..WHITE.."，安姆內在"..YELLOW.."[5]"..WHITE.."，賽特胥在"..YELLOW.."[6]"..WHITE.."，拉頡在"..YELLOW.."[7]"..WHITE.."。"
+Inst100Quest3_Prequest = "滲透防禦"
+Inst100Quest3_Folgequest = "無"
 Inst100Quest3FQuest = "true"
 --
-Inst100Quest3name1 = "True Archaeologist's Bracers"
-Inst100Quest3name2 = "Helm of Reorigination"
-Inst100Quest3name3 = "Treasure Hunter's Gloves"
+Inst100Quest3name1 = "真考古學家護腕"
+Inst100Quest3name2 = "重組頭盔"
+Inst100Quest3name3 = "寶藏獵人手套"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12724,50 +12724,50 @@ Inst100Quest3name3_HORDE = Inst100Quest3name3
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
-Inst101Story = "Lost City of the Tol'vir is one of the three dungeons in Uldum introduced in World of Warcraft: Cataclysm. It is designed for level 85 players and features the Tol'vir race. Having allied themselves with Al'Akir and Deathwing in exchange for retaining their stone bodies lost in effect of the Curse of Flesh, they now pose a serious threat to the races of Uldum as well as the whole world of Azeroth that must be eliminated at all costs. The forces of Neferset here are led by the mighty djinni - Siamat, Lord of the South Wind."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst101Caption = "Lost City of the Tol'vir"
+Inst101Story = "托維爾的失落之城是在浩劫與重生中，於奧丹姆開放的三個地城之一，專為85級的玩家所設計，充滿著托維爾風格。奧拉基爾為了維持他們披覆著石頭的軀體而和死亡之翼做了交易，但這給他們帶來了血肉詛咒。現在他們不只威脅著奧丹姆的居民們，就連整個艾澤拉斯世界都必須付出巨大的代價來阻止他們。這股強大的奈斐賽特由一個具有強大力量的精靈所領導 - 南風領主希亞梅特。"..GREEN.."\n\n引述自wowpedia.org"
+Inst101Caption = "托維爾的失落之城"
 Inst101QAA = "3 個任務"
 Inst101QAH = "3 個任務"
 
 --Quest 1 Alliance
-Inst101Quest1 = "1. Return to the Lost City"
+Inst101Quest1 = "1. 重回失落之城"
 Inst101Quest1_Level = "83"
 Inst101Quest1_Attain = "81"
-Inst101Quest1_Aim = "Speak to Captain Hadan inside the Lost City of the Tol'vir."
-Inst101Quest1_Location = "King Phaoris (Uldum - Ramakahen; "..YELLOW.."54.9, 32.8"..WHITE..")"
-Inst101Quest1_Note = "Captain Hadan is just inside the instance. This quest becomes available after completing a series of quests from Ramakahen in Uldum. It is not required to obtain the other two quests."
-Inst101Quest1_Prequest = "Yes"
-Inst101Quest1_Folgequest = "None"
+Inst101Quest1_Aim = "到托維爾的失落之城裡和哈丹隊長談話。"
+Inst101Quest1_Location = "法歐瑞斯王（奧丹姆 - 蘭姆卡韓; "..YELLOW.."54.9, 32.8"..WHITE.."）"
+Inst101Quest1_Note = "哈丹隊長就在地城的門口。這個任務開始於一連串來自蘭姆卡韓的任務，就算不解也不會影響後續兩個任務的銜接。"
+Inst101Quest1_Prequest = "有"
+Inst101Quest1_Folgequest = "無"
 Inst101Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst101Quest2 = "2. Targets of Opportunity"
+Inst101Quest2 = "2. 可能的目標"
 Inst101Quest2_Level = "85"
 Inst101Quest2_Attain = "83"
-Inst101Quest2_Aim = "Slay General Husam and 2 Oathsworn Captains."
-Inst101Quest2_Location = "Captain Hadan (Lost City of the Tol'vir; "..YELLOW.."Entrance"..WHITE..")"
-Inst101Quest2_Note = "General Husam is at "..YELLOW.."[1]"..WHITE..". The quest turns in back at the entrance."
-Inst101Quest2_Prequest = "None"
-Inst101Quest2_Folgequest = "None"
+Inst101Quest2_Aim = "消滅胡薩姆將軍和2個誓語隊長。"
+Inst101Quest2_Location = "哈丹隊長（托維爾的失落之城; "..YELLOW.."入口"..WHITE.."）"
+Inst101Quest2_Note = "胡薩姆將軍在"..YELLOW.."[1]"..WHITE.."。任務完成後在入口處回覆任務。"
+Inst101Quest2_Prequest = "無"
+Inst101Quest2_Folgequest = "無"
 --
-Inst101Quest2name1 = "Captain Hadan's Pauldrons"
-Inst101Quest2name2 = "Clandestine Spaulders"
-Inst101Quest2name3 = "Bracers of the Lost City"
+Inst101Quest2name1 = "哈丹隊長的肩鎧"
+Inst101Quest2name2 = "偷偷摸摸肩甲"
+Inst101Quest2name3 = "失落之城護腕"
 
 --Quest 3 Alliance
-Inst101Quest3 = "3. The Source of Their Power"
+Inst101Quest3 = "3. 它們的力量源頭"
 Inst101Quest3_Level = "85"
 Inst101Quest3_Attain = "83"
-Inst101Quest3_Aim = "Slay Siamat."
-Inst101Quest3_Location = "Captain Hadan (Lost City of the Tol'vir; "..YELLOW.."Entrance"..WHITE..")"
-Inst101Quest3_Note = "Siamat is at "..YELLOW.."[4]"..WHITE..". The quest turns in back at the entrance."
-Inst101Quest3_Prequest = "None"
-Inst101Quest3_Folgequest = "None"
+Inst101Quest3_Aim = "消滅希亞梅特。"
+Inst101Quest3_Location = "哈丹隊長（托維爾的失落之城; "..YELLOW.."入口"..WHITE.."）"
+Inst101Quest3_Note = "希亞梅特在"..YELLOW.."[4]"..WHITE.."。任務完成後在入口處回覆任務。"
+Inst101Quest3_Prequest = "無"
+Inst101Quest3_Folgequest = "無"
 --
-Inst101Quest3name1 = "Blight-Lifter's Mantle"
-Inst101Quest3name2 = "Treads of the Neferset"
-Inst101Quest3name3 = "Ramkahen Front Boots"
+Inst101Quest3name1 = "荒疫解咒之披肩"
+Inst101Quest3name2 = "奈斐賽特足靴"
+Inst101Quest3name3 = "蘭姆卡韓前線長靴"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12820,37 +12820,37 @@ Inst101Quest3name3_HORDE = Inst101Quest3name3
 
 --------------- INST102 - Blackwing Descent ---------------
 
-Inst102Story = "Blackwing Descent is an entry-level level 85 raid instance. Having retreated further into Blackrock Mountain following his defeat in Blackwing Lair, Nefarian has been bolstering his forces here and must be stopped once more. The entrance to the instance is near Nefarian's throne in the uninstanced portion of Blackwing Lair and is accessible by flying mount only."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst102Caption = "Blackwing Descent"
-Inst102QAA = "No 個任務"
-Inst102QAH = "No 個任務"
+Inst102Story = "黑翼陷窟是一個85級的入門級團隊地城。從黑石山裡的黑翼之巢撤退至更深處的黑翼陷窟之後，奈法利安有了更強大的支撐力量，為了艾澤拉斯的和平，他必須再一次被擊倒。地城的入口靠近某部分非地城區的奈法利安的王座，只有使用飛行坐騎才可以進去。"..GREEN.."\n\n引述自wowpedia.org"
+Inst102Caption = "黑翼陷窟"
+Inst102QAA = "無任務"
+Inst102QAH = "無任務"
 
 
 
 --------------- INST103 - The Bastion of Twilight ---------------
 
-Inst103Story = "Bastion of Twilight is a new entry-level raid instance that came with World of Warcraft: Cataclysm. It features five bosses plus one optional heroic boss."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst103Caption = "The Bastion of Twilight"
-Inst103QAA = "No 個任務"
-Inst103QAH = "No 個任務"
+Inst103Story = "暮光堡壘也是一個在浩劫與重生之中新開放的入門級團隊地城。他有五個團隊首領和一個非必需的英雄模式首領。"..GREEN.."\n\n引述自wowpedia.org"
+Inst103Caption = "暮光堡壘"
+Inst103QAA = "無任務"
+Inst103QAH = "無任務"
 
 
 
 --------------- INST104 - Throne of the Four Winds ---------------
 
-Inst104Story = "Throne of the Four Winds is a raid in the Skywall complex, introduced in World of Warcraft: Cataclysm. It can be found off the southwest coast of Uldum at high in the air. Along with Bastion of Twilight and Blackwing Descent, Throne of the Four Winds serves as an entry-level raiding instance, much as the level 80 version of Naxxramas was for Wrath of the Lich King and Karazhan was for the Burning Crusade."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst104Caption = "Throne of the Four Winds"
-Inst104QAA = "No 個任務"
-Inst104QAH = "No 個任務"
+Inst104Story = "四風王座是一個在浩劫與重生中開放，位於錯綜複雜的天空之中的團隊地城。它可以在奧丹姆西南沿岸的上空被找到。與暮光堡壘和黑翼陷窟一樣，四風王座也是一個在浩劫與重生之中新開放的入門級團隊地城，就好比巫妖王之怒的納克薩瑪斯和燃燒的遠征的卡拉贊一樣。"..GREEN.."\n\n引述自wowpedia.org"
+Inst104Caption = "四風王座"
+Inst104QAA = "無任務"
+Inst104QAH = "無任務"
 
 
 
 --------------- INST105 - Baradin Hold ---------------
 
-Inst105Story = "Baradin Hold is the main fortress of Tol Barad, located at the island's center. Whoever controls the Hold - by taking and holding the three major fortifications around it - controls Tol Barad."..GREEN.."\n\nQuoted from wowpedia.org"
-Inst105Caption = "Baradin Hold"
-Inst105QAA = "No 個任務"
-Inst105QAH = "No 個任務"
+Inst105Story = "巴拉丁堡是托巴拉德裡的主要堡壘，坐落在島嶼的中心。和巫妖王之怒的亞夏梵穹殿一樣，任何取得托巴拉德半島領導權的勢力，就能進入巴拉丁堡。"..GREEN.."\n\n引述自wowpedia.org"
+Inst105Caption = "巴拉丁堡"
+Inst105QAA = "無任務"
+Inst105QAH = "無任務"
 
 
 
@@ -13506,19 +13506,19 @@ Inst89Quest1_HORDE_Folgequest = "無"
 
 --------------- INST106 - Battle for Gilneas ---------------
 
-Inst106Story = "When King Greymane severed ties with the Alliance after the Second War, the kingdom of Gilneas became independent from all other nations and opposing forces. Although the massive Greymane Wall protected Gilneas from outside threats, a virulent worgen curse and civil war crippled the kingdom from within. As the Cataclysm strikes and the Greymane Wall's gates are destroyed, the people of Gilneas must come to terms with their dark curse and learn to persevere through catastrophic earthquakes and an unrelenting Forsaken invasion.\n\nThe Horde recognizes this land as a strategic location with key resources to fuel the faction's war effort against the Alliance, and Horde forces will not stop their siege until the city and its surrounding territories are under their control. To protect its lands from the Horde, the once-isolated nation of Gilneas must now work with the Alliance."
-Inst106Caption = "Battle for Gilneas"
-Inst106QAA = "No 個任務"
-Inst106QAH = "No 個任務"
+Inst106Story = "當葛雷邁恩國王在第二次大戰後與聯盟切斷關係時，吉爾尼斯王國從聯合王國與反對勢力中獨立出來。儘管巨大的葛雷邁恩之牆保護吉爾尼斯不受外來之害，一種劇烈的狼人詛咒與內戰從王國內部爆發。吉爾尼斯的人民受到黑暗詛咒迫害，並得學習在毀滅性的地震與無情的被遺忘者侵略下堅毅生存。部落把這片土地當成戰略要點，其擁有對抗聯盟的陣營戰爭所需之關鍵資源，而部落在控制這座城市與周邊領土之前都不會放棄進攻。為了防止部落侵略領土，曾經鎖國的吉爾尼斯必須與聯盟合作。\n\n當死亡之翼的歸返給艾澤拉斯帶來混亂時，許多堅定的領導者把這場災難當成為人民謀利的機會…或純粹為了爭權。吉爾尼斯的情況也沒有兩樣。受侵略的吉爾尼斯人在與聯盟重新結盟後能夠收復失土嗎？還是被遺忘者在卡洛斯部落的增援之下，能夠攻取這近乎遺忘的領土，作為東部王國的新堡壘？"
+Inst106Caption = "吉爾尼斯之戰"
+Inst106QAA = "無任務"
+Inst106QAH = "無任務"
 
 
 
 --------------- INST107 - Twin Peaks ---------------
 
-Inst107Story = "Located within the Twilight Highlands, the Twin Peaks remains a crucial point of high ground for staging effective and debilitating attacks against the black dragonflight and the Twilight's Hammer, who dominate this foreboding environment. And now, two previous occupants of the nearby city of Grim Batol vie once again for control of the peaks' defenses.\n\nThe Wildhammer clan, architects and original owners of the once-great fortress city, maintains some operations in forested outposts of the highlands. The Wildhammers now call upon heroes of the Alliance to help claim the peaks and fend off the Dragonmaw orcs. The Dragonmaw clan, having spent years working to enslave red dragons, once again provides strategic importance to the Horde. As the Dragonmaw and Wildhammers fight for territory they once called home, the Alliance and Horde carry out the struggle to control the Twin Peaks."
-Inst107Caption = "Twin Peaks"
-Inst107QAA = "No 個任務"
-Inst107QAH = "No 個任務"
+Inst107Story = "位居暮光高地，雙子峰是個處於至高點的戰略要地，可以對霸佔這預言之地的黑龍軍團與暮光之鎚做出有效的攻擊。如今，格瑞姆巴托的兩個 老住戶再次回來爭奪山峰的控制權。蠻錘氏族，這座曾經輝煌的偉大要塞城市的建造者與原始擁有者，如今召喚聯盟的英雄們來協助奪回山頭 並擊退龍喉氏族的獸人。龍喉氏族曾花費多年的時間奴役紅龍，而今再次為部落提供了重要的戰略價值。當龍喉與蠻錘為了曾稱作家園的領土 而戰之時，聯盟與部落也展開了對雙子峰控制權的爭奪戰。\n\n作為聯盟北方的堡壘，蠻槌長屋盤據在山谷之上，位於平原的至高點。長屋有三個入口，玩家有兩種方式可以進入建築；從高原的西北方 推進，或利用中央的樓梯井前往這三個入口。要注意！跌落或被推落山崖不僅會造成傷害，還可以成功地牽制住進攻或防守基地的人。\n\n作為部落南方的基地，龍喉氏族營地坐落在谷川灌注的水體之上。廣場有三個入口，玩家可以進入的方式不多。第一個入口位於東南方，必須 騎上斜坡並且涉過一條深度過膝的河流。第二個入口必須穿越湖邊的渠道，而主要的入口必須通過湖濱的橋樑。當你想進入主要入口時必須注 意四周，因為玩家可能會被擊入河中，作為緩敵或削弱防禦之用。\n\n那些想控制雙子峰的人將會面臨一場激烈的戰鬥。這個動亂不休之地是死亡之翼與他的爪牙的重要策略據點。暮光高地以充滿災難與悲劇的歷史 著名。到底是重新加入由卡爾洛斯帶領的部落的龍喉氏族會取得控制權，還是重新與鐵爐堡團結並且加入聯盟的蠻槌矮人會攻佔山頭呢？"
+Inst107Caption = "雙子峰"
+Inst107QAA = "無任務"
+Inst107QAH = "無任務"
 
 
 
@@ -13982,7 +13982,7 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 95 = Blackrock Caverns
 -- 96 = Throne of the Tides
 -- 97 = The Stonecore
--- 98 = The Vortex Pinacle
+-- 98 = The Vortex Pinnacle
 -- 99 = Grim Batol
 -- 100 = Halls of Origination
 -- 101 = Lost City of the Tol'vir
