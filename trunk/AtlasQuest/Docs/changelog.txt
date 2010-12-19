@@ -2,6 +2,15 @@
 Changelog
 =========
 
+Version 4.6.0a
+
+- Quick fix: Made the Quest Query complete message only display once per login. 
+
+NOTE: AtlasQuest will *only* query the server for completed quests when you hit the button in options. If you saw or see the Query complete message periodically it is because other addons automatically check for completed quests.
+
+
+
+
 Version 4.6.0
 
 - No longer "officially" supporting AlphaMap. AtlasQuest will still work with AlphaMap (I'm leaving the support code in), but its been a long time since the Boss location numbers matched up. In the future, perhaps with a major rewrite of AtlasQuest I'll be able to work something out to support both Atlas and AlphaMap.
