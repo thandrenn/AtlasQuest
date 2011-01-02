@@ -69,10 +69,10 @@ local AQMAXINSTANCES = "107"
 local AQMAXQUESTS = "22"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.0a";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.1 BETA";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.6.0a",
+  ["Version"] =  "4.6.1 BETA",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -857,10 +857,10 @@ function f:QUEST_QUERY_COMPLETE()
 		AlphaMapFrame:Show();
 	end
 
-	if(gurka == true and AQQueryDONE == nil) then
-		ChatFrame1:AddMessage(AQQuestQueryDone);
-		local AQQueryDONE = "done"
-	end
+--	if(gurka == true and AQQueryDONE == nil) then
+--		ChatFrame1:AddMessage(AQQuestQueryDone);
+--		local AQQueryDONE = "done"
+--	end
 end
 
 

@@ -2,9 +2,19 @@
 Changelog
 =========
 
+Version 4.6.1 BETA
+
+- 
+
+- Classic Dungeons updated:
+	- Blackwing Lair
+	- Blackfathom Deeps
+	
+
+
 Version 4.6.0a
 
-- Quick fix: Made the Quest Query complete message only display once per login. 
+- Quick fix: Disabled "Quest Query complete" message.
 
 NOTE: AtlasQuest will *only* query the server for completed quests when you hit the button in options. If you saw or see the Query complete message periodically it is because other addons automatically check for completed quests.
 
