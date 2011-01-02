@@ -1167,85 +1167,37 @@ Inst6Caption = "Blackwing Lair"
 Inst6Caption2 = "Blackwing Lair (Story Part 1)"
 Inst6Caption3 = "Blackwing Lair (Story Part 2)"
 
-Inst6QAA = "3 Quests"
-Inst6QAH = "3 Quests"
+Inst6QAA = "1 Quest"
+Inst6QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst6Quest1 = "1. Nefarius's Corruption"
+Inst6Quest1 = "1. The Lord of Blackrock"
 Inst6Quest1_Level = "60"
 Inst6Quest1_Attain = "60"
-Inst6Quest1_Aim = "Slay Nefarian and recover the Red Scepter Shard. Return the Red Scepter Shard to Anachronos at the Caverns of Time in Tanaris. You have 5 hours to complete this task."
-Inst6Quest1_Location = "Vaelastrasz the Corrupt (Blackwing Lair; "..YELLOW.."[2]"..WHITE..")"
-Inst6Quest1_Note = "Only one person can loot the Shard. Anachronos (Tanaris - Caverns of Time; "..YELLOW.."65,49"..WHITE..")"
+Inst6Quest1_Aim = "Return the Head of Nefarian to King Varian Wrynn in Stormwind."
+Inst6Quest1_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
+Inst6Quest1_Note = "King Varian Wrynn is at (Stormwind City - Stormwind Keep; "..YELLOW.."85.7, 31.8"..WHITE..").\n\nThe followup sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."71.5, 80.5"..WHITE..") for the reward."
 Inst6Quest1_Prequest = "None"
-Inst6Quest1_Folgequest = "None"
+Inst6Quest1_Folgequest = "The Lord of Blackrock"
 --
-Inst6Quest1name1 = "Onyx Embedded Leggings"
-Inst6Quest1name2 = "Amulet of Shadow Shielding"
+Inst6Quest1name1 = "Master Dragonslayer's Medallion"
+Inst6Quest1name2 = "Master Dragonslayer's Orb"
+Inst6Quest1name3 = "Master Dragonslayer's Ring"
 
---Quest 2 Alliance
-Inst6Quest2 = "2. The Lord of Blackrock"
-Inst6Quest2_Level = "60"
-Inst6Quest2_Attain = "60"
-Inst6Quest2_Aim = "Return the Head of Nefarian to King Varian Wrynn in Stormwind."
-Inst6Quest2_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[10]"..WHITE..")"
-Inst6Quest2_Note = "King Varian Wrynn is at (Stormwind City - Stormwind Keep; "..YELLOW.."80.0, 38.5"..WHITE.."). The follow up sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."71.5, 80.5"..WHITE..") for the reward."
-Inst6Quest2_Prequest = "None"
-Inst6Quest2_Folgequest = "The Lord of Blackrock"
+
+--Quest 1 Horde
+Inst6Quest1_HORDE = "1. The Lord of Blackrock"
+Inst6Quest1_HORDE_Level = "60"
+Inst6Quest1_HORDE_Attain = "60"
+Inst6Quest1_HORDE_Aim = "Return the Head of Nefarian to Garrosh in Orgrimmar."
+Inst6Quest1_HORDE_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
+Inst6Quest1_HORDE_Note = "Garrosh Hellscream is at (Orgrimmar - Valley of Strength; "..YELLOW.."48.2, 70.6"..WHITE..").\n\nThe followup sends you to Overlord Runthak (Orgrimmar - Valley of Strength; "..YELLOW.."51.3, 83.2"..WHITE..") for the reward."
+Inst6Quest1_HORDE_Prequest = "None"
+Inst6Quest1_HORDE_Folgequest = "The Lord of Blackrock"
 --
-Inst6Quest2name1 = "Master Dragonslayer's Medallion"
-Inst6Quest2name2 = "Master Dragonslayer's Orb"
-Inst6Quest2name3 = "Master Dragonslayer's Ring"
-
---Quest 3 Alliance
-Inst6Quest3 = "3. Only One May Rise"
-Inst6Quest3_Level = "60"
-Inst6Quest3_Attain = "60"
-Inst6Quest3_Aim = "Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands at Cenarion Hold in Silithus."
-Inst6Quest3_Location = "Head of the Broodlord Lashlayer (drops from Broodlord Lashlayer; "..YELLOW.."[3]"..WHITE..")"
-Inst6Quest3_Note = "Only one person can pick up the head."
-Inst6Quest3_Prequest = "None"
-Inst6Quest3_Folgequest = "The Path of the Righteous"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst6Quest1_HORDE = Inst6Quest1
-Inst6Quest1_HORDE_Level = Inst6Quest1_Level
-Inst6Quest1_HORDE_Attain = Inst6Quest1_Attain
-Inst6Quest1_HORDE_Aim = Inst6Quest1_Aim
-Inst6Quest1_HORDE_Location = Inst6Quest1_Location
-Inst6Quest1_HORDE_Note = Inst6Quest1_Note
-Inst6Quest1_HORDE_Prequest = Inst6Quest1_Prequest
-Inst6Quest1_HORDE_Folgequest = Inst6Quest1_Folgequest
---
-Inst6Quest1name1_HORDE = Inst6Quest1name1
-Inst6Quest1name2_HORDE = Inst6Quest1name2
-
---Quest 2 Horde
-Inst6Quest2_HORDE = "2. The Lord of Blackrock"
-Inst6Quest2_HORDE_Level = "60"
-Inst6Quest2_HORDE_Attain = "60"
-Inst6Quest2_HORDE_Aim = "Return the Head of Nefarian to Thrall in Orgrimmar."
-Inst6Quest2_HORDE_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
-Inst6Quest2_HORDE_Note = "The follow up sends you to High Overlord Saurfang (Orgrimmar - Valley of Strength; "..YELLOW.."51,76"..WHITE..") for the reward."
-Inst6Quest2_HORDE_Prequest = "None"
-Inst6Quest2_HORDE_Folgequest = "The Lord of Blackrock"
---
-Inst6Quest2name1_HORDE = "Master Dragonslayer's Medallion"
-Inst6Quest2name2_HORDE = "Master Dragonslayer's Orb"
-Inst6Quest2name3_HORDE = "Master Dragonslayer's Ring"
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst6Quest3_HORDE = Inst6Quest3
-Inst6Quest3_HORDE_Level = Inst6Quest3_Level
-Inst6Quest3_HORDE_Attain = Inst6Quest3_Attain
-Inst6Quest3_HORDE_Aim = Inst6Quest3_Aim
-Inst6Quest3_HORDE_Location = Inst6Quest3_Location
-Inst6Quest3_HORDE_Note = Inst6Quest3_Note
-Inst6Quest3_HORDE_Prequest = Inst6Quest3_Prequest
-Inst6Quest3_HORDE_Folgequest = Inst6Quest3_Folgequest
--- No Rewards for this quest
+Inst6Quest1name1_HORDE = "Master Dragonslayer's Medallion"
+Inst6Quest1name2_HORDE = "Master Dragonslayer's Orb"
+Inst6Quest1name3_HORDE = "Master Dragonslayer's Ring"
 
 
 
@@ -1257,144 +1209,148 @@ Inst7QAA = "6 Quests"
 Inst7QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst7Quest1 = "1. Knowledge in the Deeps"
-Inst7Quest1_Level = "23"
-Inst7Quest1_Attain = "19"
-Inst7Quest1_Aim = "Bring the Lorgalis Manuscript to Gerrig Bonegrip in the Forlorn Cavern in Ironforge."
-Inst7Quest1_Location = "Gerrig Bonegrip (Ironforge - The Forlorn Cavern; "..YELLOW.."50,5"..WHITE..")"
-Inst7Quest1_Note = "You find the Manuscript at "..YELLOW.."[2]"..WHITE.." in the water."
+Inst7Quest1 = "1. Blackfathom Deeps"
+Inst7Quest1_Level = "24"
+Inst7Quest1_Attain = "22"
+Inst7Quest1_Aim = "Speak with Sentinel Aluwyn."
+Inst7Quest1_Location = "Shindrell Swiftfire (Ashenvale - Blackfathom Camp; "..YELLOW.."18.3, 20.5"..WHITE..") or\nRaene Wolfrunner (Ashenvale - Astranaar; "..YELLOW.."36.6, 49.6"..WHITE..")"
+Inst7Quest1_Note = "There are two quests with this name and with the same objective from different NPCs. You can only accept one. Sentinel Aluwyn is just inside the Blackfathom Depths instance portal."
 Inst7Quest1_Prequest = "None"
 Inst7Quest1_Folgequest = "None"
---
-Inst7Quest1name1 = "Sustaining Ring"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst7Quest2 = "2. Researching the Corruption"
-Inst7Quest2_Level = "24"
-Inst7Quest2_Attain = "18"
-Inst7Quest2_Aim = "Gershala Nightwhisper in Auberdine wants 8 Corrupt Brain stems."
-Inst7Quest2_Location = "Gershala Nightwhisper (Darkshore - Auberdine; "..YELLOW.."38,43"..WHITE..")"
-Inst7Quest2_Note = "The prequest is optional. You get it from Argos Nightwhisper at (Stormwind - The Park; "..YELLOW.."35.9, 67.3"..WHITE.."). \n\nAll the Nagas before and in Blackfathom Deeps drop the brains."
-Inst7Quest2_Prequest = "The Corruption Abroad"
+Inst7Quest2 = "2. Knowledge in the Deeps"
+Inst7Quest2_Level = "25"
+Inst7Quest2_Attain = "22"
+Inst7Quest2_Aim = "Find the Lorgalis Manuscript."
+Inst7Quest2_Location = "Sentinel-trainee Issara (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
+Inst7Quest2_Note = "You find the Manuscript at "..GREEN.."[1']"..WHITE.." in the water."
+Inst7Quest2_Prequest = "None"
 Inst7Quest2_Folgequest = "None"
-Inst7Quest2PreQuest = "true"
 --
-Inst7Quest2name1 = "Beetle Clasps"
-Inst7Quest2name2 = "Prelacy Cape"
+Inst7Quest2name1 = "Eventide Bow"
+Inst7Quest2name2 = "Gloaming Band"
+Inst7Quest2name3 = "Dusk-Stained Cloak"
+Inst7Quest2name4 = "Sustaining Ring"
 
 --Quest 3 Alliance
 Inst7Quest3 = "3. In Search of Thaelrid"
-Inst7Quest3_Level = "24"
-Inst7Quest3_Attain = "18"
-Inst7Quest3_Aim = "Seek out Argent Guard Thaelrid in Blackfathom Deeps."
-Inst7Quest3_Location = "Dawnwatcher Shaedlass (Darnassus - Craftsmen's Terrace; "..YELLOW.."55,24"..WHITE..")"
-Inst7Quest3_Note = "You find Argent Guard Thaelrid at "..YELLOW.."[4]"..WHITE.."."
+Inst7Quest3_Level = "25"
+Inst7Quest3_Attain = "22"
+Inst7Quest3_Aim = "Seek out Scout Thaelrid."
+Inst7Quest3_Location = "Ashelan Northwood (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
+Inst7Quest3_Note = "You find Scout Thaelrid at "..GREEN.."[2']"..WHITE.."."
 Inst7Quest3_Prequest = "None"
 Inst7Quest3_Folgequest = "Blackfathom Villainy"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst7Quest4 = "4. Blackfathom Villainy"
-Inst7Quest4_Level = "27"
-Inst7Quest4_Attain = "18"
-Inst7Quest4_Aim = "Bring the head of Twilight Lord Kelris to Dawnwatcher Selgorm in Darnassus."
-Inst7Quest4_Location = "Argent Guard Thaelrid (Blackfathom Deeps; "..YELLOW.."[4]"..WHITE..")"
-Inst7Quest4_Note = "Twilight Lord Kelris is at "..YELLOW.."[8]"..WHITE..". You find Dawnwatcher Selgorm in Darnassus - Craftsmen's Terrace ("..YELLOW.."55,24"..WHITE.."). \n\nATTENTION! If you turn on the flames beside Lord Kelris, enemies appear and attack you."
+Inst7Quest4_Level = "28"
+Inst7Quest4_Attain = "22"
+Inst7Quest4_Aim = "Get the head of Twilight Lord Kelris."
+Inst7Quest4_Location = "Scout Thaelrid (Blackfathom Deeps; "..GREEN.."[2']"..WHITE..")"
+Inst7Quest4_Note = "Twilight Lord Kelris is at "..YELLOW.."[5]"..WHITE..". The quest turns in to Ashelan Northwood, back at the entrance of the instance."
 Inst7Quest4_Prequest = "In Search of Thaelrid"
 Inst7Quest4_Folgequest = "None"
 Inst7Quest4FQuest = "true"
 --
-Inst7Quest4name1 = "Gravestone Scepter"
-Inst7Quest4name2 = "Arctic Buckler"
+Inst7Quest4name1 = "Shield Against the Evil Presence"
+Inst7Quest4name2 = "Thaelrid's Greaves"
+Inst7Quest4name3 = "Blackfathom Leggings"
+Inst7Quest4name4 = "Robe of Kelris"
 
 --Quest 5 Alliance
-Inst7Quest5 = "5. Twilight Falls"
-Inst7Quest5_Level = "25"
-Inst7Quest5_Attain = "20"
-Inst7Quest5_Aim = "Bring 10 Twilight Pendants to Argent Guard Manados in Darnassus."
-Inst7Quest5_Location = "Argent Guard Manados (Darnassus - Craftsmen's Terrace; "..YELLOW.."55,23"..WHITE..")"
-Inst7Quest5_Note = "Every Twilight mob can drop the pendants."
+Inst7Quest5 = "5. Researching the Corruption"
+Inst7Quest5_Level = "26"
+Inst7Quest5_Attain = "22"
+Inst7Quest5_Aim = "Gather 8 Corrupt Brain Stems."
+Inst7Quest5_Location = "Relwyn Shadestar (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
+Inst7Quest5_Note = "The Corrupt Brain Stems can drop from Naga and Satyr. The quest turns in back at the entrance."
 Inst7Quest5_Prequest = "None"
 Inst7Quest5_Folgequest = "None"
 --
-Inst7Quest5name1 = "Nimbus Boots"
-Inst7Quest5name2 = "Heartwood Girdle"
+Inst7Quest5name1 = "Dissector"
+Inst7Quest5name2 = "Shadestar Mace"
+Inst7Quest5name3 = "Searching Wand"
+Inst7Quest5name4 = "Band of the Skull Crusher"
 
 --Quest 6 Alliance
-Inst7Quest6 = "6. The Orb of Soran'ruk (Warlock)"
-Inst7Quest6_Level = "25"
-Inst7Quest6_Attain = "20"
-Inst7Quest6_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
-Inst7Quest6_Location = "Doan Karhan (Barrens; "..YELLOW.."49,57"..WHITE..")"
-Inst7Quest6_Note = "Only Warlocks can get this Quest! You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Blackfathom Deeps]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
+Inst7Quest6 = "6. Twilight Falls"
+Inst7Quest6_Level = "28"
+Inst7Quest6_Attain = "22"
+Inst7Quest6_Aim = "Obtain 10 Twilight Pendants."
+Inst7Quest6_Location = "Sentinel Aluwyn (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
+Inst7Quest6_Note = "The Twilight Pendants drop from the Twilight humanoids. The quest turns in back at the entrance."
 Inst7Quest6_Prequest = "None"
 Inst7Quest6_Folgequest = "None"
 --
-Inst7Quest6name1 = "Orb of Soran'ruk"
-Inst7Quest6name2 = "Staff of Soran'ruk"
+Inst7Quest6name1 = "Blackfathom Mace"
+Inst7Quest6name2 = "Gift of the Enigmatic Tree"
+Inst7Quest6name3 = "Aluwyn's Legguards"
+Inst7Quest6name4 = "Nimbus Boots"
+Inst7Quest6name5 = "Heartwood Girdle"
 
 
 --Quest 1 Horde
-Inst7Quest1_HORDE = "1. The Essence of Aku'Mai"
-Inst7Quest1_HORDE_Level = "22"
-Inst7Quest1_HORDE_Attain = "17"
-Inst7Quest1_HORDE_Aim = "Bring 20 Sapphires of Aku'Mai to Je'neu Sancrea in Ashenvale."
-Inst7Quest1_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE..")"
-Inst7Quest1_HORDE_Note = "You get the prequest Trouble in the Deeps from Tsunaman (Stonetalon Mountains - Sun Rock Retreat; "..YELLOW.."47,64"..WHITE.."). The crystals can be found in the tunnels before the instance."
-Inst7Quest1_HORDE_Prequest = "Trouble in the Deeps"
+Inst7Quest1_HORDE = "1. Blackfathom Deeps"
+Inst7Quest1_HORDE_Level = "24"
+Inst7Quest1_HORDE_Attain = "22"
+Inst7Quest1_HORDE_Aim = "Speak with Je'neu Sancrea."
+Inst7Quest1_HORDE_Location = "Commander Grimfang (Ashenvale - Zoram'gar Outpost; "..YELLOW.."12.0, 33.8"..WHITE..")"
+Inst7Quest1_HORDE_Note = "Je'neu Sancrea is just inside the Blackfathom Depths instance portal."
+Inst7Quest1_HORDE_Prequest = "None"
 Inst7Quest1_HORDE_Folgequest = "None"
-Inst7Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst7Quest2_HORDE = "2. Allegiance to the Old Gods"
-Inst7Quest2_HORDE_Level = "22"
-Inst7Quest2_HORDE_Attain = "17"
-Inst7Quest2_HORDE_Aim = "Bring the Damp Note to Je'neu Sancrea in Ashenvale -> Kill Lorgus Jett in Blackfathom Deeps and then return to Je'neu Sancrea in Ashenvale."
-Inst7Quest2_HORDE_Location = "Damp Note (drop - see note)"
-Inst7Quest2_HORDE_Note = "You get the Damp Note from Blackfathom Tide Priestess (5% drop rate). Then take it to Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE.."). Lorgus Jett is at "..YELLOW.."[6]"..WHITE.."."
+Inst7Quest2_HORDE = "2. Deep in the Deeps"
+Inst7Quest2_HORDE_Level = "26"
+Inst7Quest2_HORDE_Attain = "21"
+Inst7Quest2_HORDE_Aim = "Slay Ghamoo-Ra, Lady Sarevess, and Gelihast."
+Inst7Quest2_HORDE_Location = "Zeya (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
+Inst7Quest2_HORDE_Note = "Ghamoo-Ra is at "..YELLOW.."[1]"..WHITE..", Lady Sarevess is at "..YELLOW.."[2]"..WHITE.." and Gelihast is at "..YELLOW.."[3]"..WHITE..".\nThe quest turns in back at the entrance."
 Inst7Quest2_HORDE_Prequest = "None"
 Inst7Quest2_HORDE_Folgequest = "None"
---
-Inst7Quest2name1_HORDE = "Band of the Fist"
-Inst7Quest2name2_HORDE = "Chestnut Mantle"
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst7Quest3_HORDE = "3. Amongst the Ruins"
-Inst7Quest3_HORDE_Level = "27"
-Inst7Quest3_HORDE_Attain = "21"
-Inst7Quest3_HORDE_Aim = "Bring the Fathom Core to Je'neu Sancrea at Zoram'gar Outpost, Ashenvale."
-Inst7Quest3_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE..")"
-Inst7Quest3_HORDE_Note = "You find the Fathom Core at "..YELLOW.."[7]"..WHITE.." in the water. When you get the core Baron Aquanis appears and attacks you. He drops a quest item which you have to take back to Je'neu Sancrea."
+Inst7Quest3_HORDE_Level = "26"
+Inst7Quest3_HORDE_Attain = "20"
+Inst7Quest3_HORDE_Aim = "Extract the Fathom Core."
+Inst7Quest3_HORDE_Location = "Je'neu Sancrea (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
+Inst7Quest3_HORDE_Note = "You find the Fathom Core at "..DARKYELLOW.."[2]"..WHITE.." in the water. When you get the core Baron Aquanis appears and attacks you. He drops a quest item which you have to take back to Je'neu Sancrea."
 Inst7Quest3_HORDE_Prequest = "None"
 Inst7Quest3_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst7Quest4_HORDE = "4. Blackfathom Villainy"
-Inst7Quest4_HORDE_Level = "27"
-Inst7Quest4_HORDE_Attain = "18"
-Inst7Quest4_HORDE_Aim = "Bring the head of Twilight Lord Kelris to Bashana Runetotem in Thunder Bluff."
-Inst7Quest4_HORDE_Location = "Argent guard Thaelrid (Blackfathom Deeps; "..YELLOW.."[4]"..WHITE..")"
-Inst7Quest4_HORDE_Note = "Twilight Lord Kelris is at "..YELLOW.."[8]"..WHITE..". You find Bashana Runetotem in Thunderbluff - The Elder Rise ("..YELLOW.."70,33"..WHITE.."). \n\nATTENTION! If you turn on the flames beside Lord Kelris, enemies appear and attack you."
+Inst7Quest4_HORDE = "4. The Enemy of My Enemy"
+Inst7Quest4_HORDE_Level = "28"
+Inst7Quest4_HORDE_Attain = "21"
+Inst7Quest4_HORDE_Aim = "Obtain the head of Twilight Lord Kelris."
+Inst7Quest4_HORDE_Location = "Flaming Eradicator (Blackfathom Deeps; "..GREEN.."[3']"..WHITE..")"
+Inst7Quest4_HORDE_Note = "Twilight Lord Kelris is at "..YELLOW.."[5]"..WHITE..". The quest turns in back at the entrance."
 Inst7Quest4_HORDE_Prequest = "None"
 Inst7Quest4_HORDE_Folgequest = "None"
---
-Inst7Quest4name1_HORDE = "Gravestone Scepter"
-Inst7Quest4name2_HORDE = "Arctic Buckler"
+-- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 6 Alliance)
-Inst7Quest5_HORDE = "5. The Orb of Soran'ruk (Warlock)"
-Inst7Quest5_HORDE_Level = Inst7Quest6_Level
-Inst7Quest5_HORDE_Attain = Inst7Quest6_Attain
-Inst7Quest5_HORDE_Aim = Inst7Quest6_Aim
-Inst7Quest5_HORDE_Location = Inst7Quest6_Location
-Inst7Quest5_HORDE_Note = Inst7Quest6_Note
-Inst7Quest5_HORDE_Prequest = Inst7Quest6_Prequest
-Inst7Quest5_HORDE_Folgequest = Inst7Quest6_Folgequest
+--Quest 5 Horde
+Inst7Quest5_HORDE = "5. Nightmare of the Deeps"
+Inst7Quest5_HORDE_Level = "27"
+Inst7Quest5_HORDE_Attain = "21"
+Inst7Quest5_HORDE_Aim = "Kill Aku'mai."
+Inst7Quest5_HORDE_Location = "Je'neu Sancrea (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
+Inst7Quest5_HORDE_Note = "Aku'mai is at "..YELLOW.."[6]"..WHITE..". The quest turns in back at the entrance."
+Inst7Quest5_HORDE_Prequest = "None"
+Inst7Quest5_HORDE_Folgequest = "None"
 --
-Inst7Quest5name1_HORDE = Inst7Quest6name1
-Inst7Quest5name2_HORDE = Inst7Quest6name2
+Inst7Quest5name1_HORDE = "Shield Against the Evil Presence"
+Inst7Quest5name2_HORDE = "Scales of Aku'mai"
+Inst7Quest5name3_HORDE = "Blackfathom Leggings"
+Inst7Quest5name4_HORDE = "Je'neu's Robes"
 
 
 
@@ -11802,7 +11758,7 @@ Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 --------------- INST98 - The Vortex Pinnacle ---------------
 
-Inst98Story = "Here the armies of Al'Akir reside, and will not take kindly to any intruders in his elemental plane. The air elementals have entered an unholy alliance with the Worldbreaker, Deathwing and now threaten the denizens of Uldum. It is up to the adventurers to stop the elemental incursion to the ancient land, and the task is uneasy as they have to face the most powerful lieutenants of the Air Lord."..GREEN.."\n\nQuoted from wowpedia.org"
+Inst98Story = "Here the armies of Al'Akir reside, and will not take kindly to any intruders in his elemental plane. The air elementals have entered an unholy alliance with the Worldbreaker, Deathwing and now threaten the denizens of Uldum. It is up to the adventurers to stop the elemental incursion to the ancient land, and the task is uneasy as they have to face the most powerful lieutenants of the Air Lord."..GREEN.."\n\nQuoted from wowpedia.org"..BLUE.."\n\n\nLocation: "..WHITE.."Uldum - The Vortex Portal ("..YELLOW.."76.8, 84.3"..WHITE..")\nFly Southeast from The Lost City of the Tol'vir up into the sky. You'll see a few floating spires in the clouds. The Portal and summoning stone are at the highest one."
 Inst98Caption = "The Vortex Pinnacle"
 Inst98QAA = "3 Quests"
 Inst98QAH = "3 Quests"
@@ -11813,8 +11769,8 @@ Inst98Quest1_Level = "84"
 Inst98Quest1_Attain = "82"
 Inst98Quest1_Aim = "Find Itesh inside the Vortex Pinnacle."
 Inst98Quest1_Location = "General Ammantep (Uldum; "..YELLOW.."45.2, 37.8"..WHITE..")"
-Inst98Quest1_Note = "This is an optional 'breadcrumb' quest to send you to the Vortex Pinnacle. It becomes available after completing certain quests in Uldum.\n\nItesh is just inside the entrance."
-Inst98Quest1_Prequest = "MISSING INFO"
+Inst98Quest1_Note = "This is an optional 'breadcrumb' quest to send you to the Vortex Pinnacle. \n\nItesh is just inside the instance."
+Inst98Quest1_Prequest = "The Scepter of Orsis and Under the Choking Sands"
 Inst98Quest1_Folgequest = "Vengeance for Orsis"
 Inst98Quest1PreQuest = "true"
 -- No Rewards for this quest
@@ -12078,7 +12034,7 @@ Inst100Quest3name3_HORDE = Inst100Quest3name3
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
-Inst101Story = "Lost City of the Tol'vir is one of the three dungeons in Uldum introduced in World of Warcraft: Cataclysm. It is designed for level 85 players and features the Tol'vir race. Having allied themselves with Al'Akir and Deathwing in exchange for retaining their stone bodies lost in effect of the Curse of Flesh, they now pose a serious threat to the races of Uldum as well as the whole world of Azeroth that must be eliminated at all costs. The forces of Neferset here are led by the mighty djinni - Siamat, Lord of the South Wind."..GREEN.."\n\nQuoted from wowpedia.org"
+Inst101Story = "Lost City of the Tol'vir is one of the three dungeons in Uldum introduced in World of Warcraft: Cataclysm. It is designed for level 85 players and features the Tol'vir race. Having allied themselves with Al'Akir and Deathwing in exchange for retaining their stone bodies lost in effect of the Curse of Flesh, they now pose a serious threat to the races of Uldum as well as the whole world of Azeroth that must be eliminated at all costs. The forces of Neferset here are led by the mighty djinni - Siamat, Lord of the South Wind."..GREEN.."\n\nQuoted from wowpedia.org"..BLUE.."\n\n\nLocation: "..WHITE.."Uldum - Lost City of the Tol'vir ("..YELLOW.."60.5, 64.0"..WHITE..")\nFollow the Vir'naal River south until you reach the Vir'naal River Delta and you'll find The Lost City of the Tol'vir. The portal and summoning stone are at the northern most area near a small waterfall."
 Inst101Caption = "Lost City of the Tol'vir"
 Inst101QAA = "3 Quests"
 Inst101QAH = "3 Quests"
