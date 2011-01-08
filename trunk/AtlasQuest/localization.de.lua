@@ -11674,7 +11674,7 @@ Inst98Quest2name2 = "Schienbeinschützer von Orsis"
 Inst98Quest2name3 = "Kalifenband"
 
 --Quest 3 Alliance
-Inst98Quest3 = "3. Weit von zuhause entfernt"
+Inst98Quest3 = "3. Weit von Zuhause entfernt"
 Inst98Quest3_Level = "84"
 Inst98Quest3_Attain = "82"
 Inst98Quest3_Aim = "Beschafft das Herz von Großwesir Ertan."
