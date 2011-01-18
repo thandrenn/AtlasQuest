@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2010-12-16
-	最後更新﹕二○一○年十二月十六日
+	Last Updated: 2011-01-18
+	最後更新﹕二○一一年一月十八日
 	新增　浩劫與重生　任務
 
 --]]
@@ -1178,234 +1178,190 @@ Inst6Caption = "黑翼之巢"
 Inst6Caption2 = "黑翼之巢（故事背景第二部分）"
 Inst6Caption3 = "黑翼之巢（故事背景第三部分）"
 
-Inst6QAA = "3 個任務"
-Inst6QAH = "3 個任務"
+Inst6QAA = "1 個任務"
+Inst6QAH = "1 個任務"
 
 --Quest 1 Alliance
-Inst6Quest1 = "1. 奈法利斯的腐敗"
+Inst6Quest1 = "1. 黑石之王"
 Inst6Quest1_Level = "60"
 Inst6Quest1_Attain = "60"
-Inst6Quest1_Aim = "殺死奈法利安，並拿到紅色權杖碎片。把碎片交給塔納利斯時光之穴入口處的安納克羅斯。你必須在5小時之內完成這個任務。"
-Inst6Quest1_Location = "墮落的瓦拉斯塔茲（黑翼之巢; "..YELLOW.."[2]"..WHITE.."）"
-Inst6Quest1_Note = "只有一人能拾取碎片。安納克羅斯（塔納利斯 - 時光之穴; "..YELLOW.."65,49"..WHITE.."）"
+Inst6Quest1_Aim = "將奈法利安的頭顱交給暴風城的瓦里安．烏瑞恩國王。 "
+Inst6Quest1_Location = "奈法利安的頭顱（奈法利安掉落 - 黑翼之巢; "..YELLOW.."[9]"..WHITE.."）"
+Inst6Quest1_Note = "瓦里安．烏瑞恩國王在（暴風城 - 暴風要塞; "..YELLOW.."85.7, 31.8"..WHITE.."）。之後會請你去找戰場元帥艾法希比（暴風城 - 英雄谷; "..YELLOW.."71.5, 80.5"..WHITE.."）領取獎勵。"
 Inst6Quest1_Prequest = "無"
-Inst6Quest1_Folgequest = "無"
+Inst6Quest1_Folgequest = "黑石之王"
 --
-Inst6Quest1name1 = "黑瑪瑙鑲飾護腿"
-Inst6Quest1name2 = "暗影遮罩護符"
+Inst6Quest1name1 = "屠龍大師勳章"
+Inst6Quest1name2 = "屠龍大師寶珠"
+Inst6Quest1name3 = "屠龍大師之戒"
 
---Quest 2 Alliance
-Inst6Quest2 = "2. 黑石之王"
-Inst6Quest2_Level = "60"
-Inst6Quest2_Attain = "60"
-Inst6Quest2_Aim = "將奈法利安的頭顱交給暴風城的瓦里安．烏瑞恩國王。 "
-Inst6Quest2_Location = "奈法利安的頭顱（奈法利安掉落 - 黑翼之巢; "..YELLOW.."[10]"..WHITE.."）"
-Inst6Quest2_Note = "瓦里安．烏瑞恩國王（暴風城 - 暴風要塞; "..YELLOW.."80,38"..WHITE.."）。之後會請你去找戰場元帥艾法希比（暴風城 - 英雄谷; "..YELLOW.."71,80"..WHITE.."）領取獎勵。"
-Inst6Quest2_Prequest = "無"
-Inst6Quest2_Folgequest = "黑石之王"
+
+--Quest 1 Horde
+Inst6Quest1_HORDE = "2. 黑石之王"
+Inst6Quest1_HORDE_Level = "60"
+Inst6Quest1_HORDE_Attain = "60"
+Inst6Quest1_HORDE_Aim = "將奈法利安的頭顱交給奧格瑪的卡爾洛斯。"
+Inst6Quest1_HORDE_Location = "奈法利安的頭顱（奈法利安掉落 - 黑翼之巢; "..YELLOW.."[9]"..WHITE.."）"
+Inst6Quest1_HORDE_Note = "卡爾洛斯．地獄吼在（奧格瑪 - 智慧谷; "..YELLOW.."48.2, 70.6"..WHITE.."），之後會請你去找霸主倫薩克（奧格瑞瑪 - 力量谷; "..YELLOW.."51.3, 83.2"..WHITE.."）領取獎勵。"
+Inst6Quest1_HORDE_Prequest = "無"
+Inst6Quest1_HORDE_Folgequest = "黑石之王"
 --
-Inst6Quest2name1 = "屠龍大師勳章"
-Inst6Quest2name2 = "屠龍大師寶珠"
-Inst6Quest2name3 = "屠龍大師之戒"
-
---Quest 3 Alliance
-Inst6Quest3 = "3. 唯一的領袖"
-Inst6Quest3_Level = "60"
-Inst6Quest3_Attain = "60"
-Inst6Quest3_Aim = "帶著龍領主勒西雷爾的頭顱回到希利蘇斯，到塞納里奧城堡的流沙之地找巴里斯托爾斯。 "
-Inst6Quest3_Location = "龍領主勒西雷爾的頭顱（勒西雷爾掉落 - 黑翼之巢; "..YELLOW.."[3]"..WHITE.."）"
-Inst6Quest3_Note = "只有一人能拾取頭顱。"
-Inst6Quest3_Prequest = "無"
-Inst6Quest3_Folgequest = "正義之路"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst6Quest1_HORDE = Inst6Quest1
-Inst6Quest1_HORDE_Level = Inst6Quest1_Level
-Inst6Quest1_HORDE_Attain = Inst6Quest1_Attain
-Inst6Quest1_HORDE_Aim = Inst6Quest1_Aim
-Inst6Quest1_HORDE_Location = Inst6Quest1_Location
-Inst6Quest1_HORDE_Note = Inst6Quest1_Note
-Inst6Quest1_HORDE_Prequest = Inst6Quest1_Prequest
-Inst6Quest1_HORDE_Folgequest = Inst6Quest1_Folgequest
---
-Inst6Quest1name1_HORDE = Inst6Quest1name1
-Inst6Quest1name2_HORDE = Inst6Quest1name2
-
---Quest 2 Horde
-Inst6Quest2_HORDE = "2. 黑石之王"
-Inst6Quest2_HORDE_Level = "60"
-Inst6Quest2_HORDE_Attain = "60"
-Inst6Quest2_HORDE_Aim = "將奈法利安的頭顱交給奧格瑪的索爾。"
-Inst6Quest2_HORDE_Location = "奈法利安的頭顱（奈法利安掉落 - 黑翼之巢; "..YELLOW.."[9]"..WHITE.."）"
-Inst6Quest2_HORDE_Note = "索爾（奧格瑪 - 智慧谷; "..YELLOW.."31,37"..WHITE.."），之後會請你去找薩魯法爾霸王（奧格瑞瑪 - 力量谷; "..YELLOW.."51,76"..WHITE.."）領取獎勵。"
-Inst6Quest2_HORDE_Prequest = "無"
-Inst6Quest2_HORDE_Folgequest = "黑石之王"
---
-Inst6Quest2name1_HORDE = "屠龍大師勳章"
-Inst6Quest2name2_HORDE = "屠龍大師寶珠"
-Inst6Quest2name3_HORDE = "屠龍大師之戒"
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst6Quest3_HORDE = Inst6Quest3
-Inst6Quest3_HORDE_Level = Inst6Quest3_Level
-Inst6Quest3_HORDE_Attain = Inst6Quest3_Attain
-Inst6Quest3_HORDE_Aim = Inst6Quest3_Aim
-Inst6Quest3_HORDE_Location = Inst6Quest3_Location
-Inst6Quest3_HORDE_Note = Inst6Quest3_Note
-Inst6Quest3_HORDE_Prequest = Inst6Quest3_Prequest
-Inst6Quest3_HORDE_Folgequest = Inst6Quest3_Folgequest
--- No Rewards for this quest
+Inst6Quest1name1_HORDE = "屠龍大師勳章"
+Inst6Quest1name2_HORDE = "屠龍大師寶珠"
+Inst6Quest1name3_HORDE = "屠龍大師之戒"
 
 
 
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
 Inst7Story = "位於梣谷佐拉姆海岸的黑暗深淵，曾經是為供奉夜精靈月神伊露恩所建造的。然而在遠古的大爆炸中，神廟受到極大的衝擊然後沉入海中。它一直保持著原狀——直到其蘊含的古老力量吸引了納迦和薩特。傳說，古代怪獸阿庫麥爾就居住在神廟遺跡中。作為古代之神最喜歡的寵物之一，阿庫麥爾一直生活在這個地區進行捕食；在阿庫麥爾的吸引下，一群被稱作暮光之錘的教徒也聚集在這裡從事邪惡的勾當。"
-Inst7Caption = "黑暗深淵"
+Inst7Caption = "黑澗深淵"
 Inst7QAA = "6 個任務"
 Inst7QAH = "5 個任務"
 
 --Quest 1 Alliance
-Inst7Quest1 = "1. 深淵中的知識"
-Inst7Quest1_Level = "23"
-Inst7Quest1_Attain = "19"
-Inst7Quest1_Aim = "把洛迦裡斯手稿帶給鐵爐堡的葛利．硬骨。"
-Inst7Quest1_Location = "葛利．硬骨（鐵爐堡 - 荒棄的洞穴; "..YELLOW.."50,5"..WHITE.."）"
-Inst7Quest1_Note = "你可以在靠近"..YELLOW.."[2]"..WHITE.."的水中找到手稿。"
+Inst7Quest1 = "1. 黑澗深淵"
+Inst7Quest1_Level = "24"
+Inst7Quest1_Attain = "22"
+Inst7Quest1_Aim = "和哨兵阿露溫談話。"
+Inst7Quest1_Location = "辛德瑞爾．速火（梣谷 - 黑澗營地; "..YELLOW.."18.3, 20.5"..WHITE.."）或\n萊恩．狼行者（梣谷 - 阿斯特蘭納; "..YELLOW.."36.6, 49.6"..WHITE.."）"
+Inst7Quest1_Note = "這是由兩個不同NPC所引導的同名任務，你只能選擇一個完成。哨兵阿露溫就在黑澗深淵地城的入口處。"
 Inst7Quest1_Prequest = "無"
 Inst7Quest1_Folgequest = "無"
---
-Inst7Quest1name1 = "鼓勵之戒"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst7Quest2 = "2. 研究墮落"
-Inst7Quest2_Level = "24"
-Inst7Quest2_Attain = "18"
-Inst7Quest2_Aim = "奧伯丁的戈沙拉．夜語需要8塊墮落者的腦幹。"
-Inst7Quest2_Location = "戈沙拉．夜語（黑海岸 - 奧伯丁; "..YELLOW.."38,43"..WHITE.."）"
-Inst7Quest2_Note = "非必要的前置任務可以從阿古斯．夜語（暴風城 - 花園; "..YELLOW.."35,67"..WHITE.."）處得到。 黑暗深淵副本裡面和門前的所有納迦都可能掉落腦幹。"
-Inst7Quest2_Prequest = "遙遠的旅途"
+Inst7Quest2 = "2. 深淵中的知識"
+Inst7Quest2_Level = "25"
+Inst7Quest2_Attain = "22"
+Inst7Quest2_Aim = "找到洛迦里斯手稿。"
+Inst7Quest2_Location = "哨兵受訓員伊薩拉（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest2_Note = "洛迦里斯手稿在"..GREEN.."[1']"..WHITE.."處的水中。"
+Inst7Quest2_Prequest = "無"
 Inst7Quest2_Folgequest = "無"
-Inst7Quest2PreQuest = "true"
 --
-Inst7Quest2name1 = "蟲殼護腕"
-Inst7Quest2name2 = "教士斗篷"
+Inst7Quest2name1 = "日暮之弓"
+Inst7Quest2name2 = "薄暮指環"
+Inst7Quest2name3 = "暮染披風"
+Inst7Quest2name4 = "鼓勵之戒"
 
 --Quest 3 Alliance
 Inst7Quest3 = "3. 尋找塞爾瑞德"
-Inst7Quest3_Level = "24"
-Inst7Quest3_Attain = "18"
-Inst7Quest3_Aim = "到黑色深淵去找到銀色黎明守衛塞爾瑞德。"
-Inst7Quest3_Location = "哨兵山德拉斯<銀色黎明>（達納蘇斯 - 工匠區; "..YELLOW.."55,24"..WHITE.."）"
-Inst7Quest3_Note = "你可以在"..YELLOW.."[4]"..WHITE.."找到銀月守衛塞爾瑞德。"
+Inst7Quest3_Level = "25"
+Inst7Quest3_Attain = "22"
+Inst7Quest3_Aim = "找出斥候塞爾瑞德。"
+Inst7Quest3_Location = "阿謝蘭·北木（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest3_Note = "你可以在"..GREEN.."[2']"..WHITE.."找到斥候塞爾瑞德。"
 Inst7Quest3_Prequest = "無"
-Inst7Quest3_Folgequest = "黑暗深淵中的惡魔"
+Inst7Quest3_Folgequest = "黑澗深淵中的惡魔"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst7Quest4 = "4. 黑暗深淵中的惡魔"
-Inst7Quest4_Level = "27"
-Inst7Quest4_Attain = "18"
-Inst7Quest4_Aim = "把夢遊者克爾里斯的頭顱交給達納蘇斯的哨兵塞爾高姆。"
-Inst7Quest4_Location = "銀色黎明守衛塞爾瑞德（黑暗深淵; "..YELLOW.."[4]"..WHITE.."）"
-Inst7Quest4_Note = "克爾里斯在"..YELLOW.."[8]"..WHITE.."。哨兵塞爾高姆（達納蘇斯 - 工匠區; "..YELLOW.."55,24"..WHITE.."）。注意！如果你點燃了克爾里斯旁邊的火焰，敵人會出現並攻擊你。"
+Inst7Quest4 = "4. 黑澗深淵中的惡魔"
+Inst7Quest4_Level = "28"
+Inst7Quest4_Attain = "22"
+Inst7Quest4_Aim = "取得暮光領主克爾里斯的頭顱。"
+Inst7Quest4_Location = "斥候塞爾瑞德（黑澗深淵; "..GREEN.."[2']"..WHITE.."）"
+Inst7Quest4_Note = "暮光領主克爾里斯在"..YELLOW.."[5]"..WHITE.."。任務完成後找地城入口處的阿謝蘭·北木回報。"
 Inst7Quest4_Prequest = "尋找塞爾瑞德"
 Inst7Quest4_Folgequest = "無"
 Inst7Quest4FQuest = "true"
 --
-Inst7Quest4name1 = "墓碑節杖"
-Inst7Quest4name2 = "極光圓盾"
+Inst7Quest4name1 = "抗邪之盾"
+Inst7Quest4name2 = "塞爾瑞德護脛"
+Inst7Quest4name3 = "黑澗護腿"
+Inst7Quest4name4 = "克爾里斯長袍"
 
 --Quest 5 Alliance
-Inst7Quest5 = "5. 暮光之錘的末日"
-Inst7Quest5_Level = "25"
-Inst7Quest5_Attain = "20"
-Inst7Quest5_Aim = "收集10個暮光墜飾，把它們交給達納蘇斯的銀月守衛瑪納杜斯。"
-Inst7Quest5_Location = "銀月守衛瑪納杜斯（達納蘇斯 - 工匠區; "..YELLOW.."55,23"..WHITE.."）"
-Inst7Quest5_Note = "每個暮光敵人都會掉落墜飾。"
+Inst7Quest5 = "5. 研究墮落"
+Inst7Quest5_Level = "26"
+Inst7Quest5_Attain = "22"
+Inst7Quest5_Aim = "收集8份墮落者的腦幹。"
+Inst7Quest5_Location = "芮爾溫·影星（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest5_Note = "墮落者的腦幹可以在地城中的納迦和薩特身上拾取。任務完成後找地城入口處的芮爾溫·影星回報。"
 Inst7Quest5_Prequest = "無"
 Inst7Quest5_Folgequest = "無"
 --
-Inst7Quest5name1 = "雲光長靴"
-Inst7Quest5name2 = "赤木束帶"
+Inst7Quest5name1 = "解剖刀"
+Inst7Quest5name2 = "影星之錘"
+Inst7Quest5name3 = "探究之魔杖"
+Inst7Quest5name4 = "碎骨者指環"
 
 --Quest 6 Alliance
-Inst7Quest6 = "6. 索蘭魯克寶珠 (術士職業任務)"
-Inst7Quest6_Level = "25"
-Inst7Quest6_Attain = "20"
-Inst7Quest6_Aim = "找到3塊索蘭魯克寶珠的碎片和1塊索蘭魯克寶珠的大碎片，把它們交給貧瘠之地的杜安．卡漢。"
-Inst7Quest6_Location = "杜安．卡漢（貧瘠之地; "..YELLOW.."49,57"..WHITE.."）"
-Inst7Quest6_Note = "只有術士才能接到這個任務！3塊索蘭魯克寶珠的碎片，你可以從"..YELLOW.."[黑暗深淵]"..WHITE.."的暮光侍僧那裡得到。那塊索蘭魯克寶珠的大碎片，你要去"..YELLOW.."[影牙城堡]"..WHITE.."找影牙狼人。"
+Inst7Quest6 = "6. 暮光之錘的末日"
+Inst7Quest6_Level = "28"
+Inst7Quest6_Attain = "22"
+Inst7Quest6_Aim = "取得10條暮光墜飾。"
+Inst7Quest6_Location = "哨兵阿露溫（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest6_Note = "暮光墜飾可以在地城後半段的暮光之錘成員身上拾取。任務完成後找地城入口處的哨兵阿露溫回報。"
 Inst7Quest6_Prequest = "無"
 Inst7Quest6_Folgequest = "無"
 --
-Inst7Quest6name1 = "索蘭魯克寶珠"
-Inst7Quest6name2 = "索拉魯克法杖"
+Inst7Quest6name1 = "黑暗深淵之錘"
+Inst7Quest6name2 = "神秘之樹的贈禮"
+Inst7Quest6name3 = "阿露溫的護腿"
+Inst7Quest6name4 = "雲光長靴"
+Inst7Quest6name5 = "赤木束腰"
 
 
 --Quest 1 Horde
-Inst7Quest1_HORDE = "1. 阿庫麥爾水晶"
-Inst7Quest1_HORDE_Level = "22"
-Inst7Quest1_HORDE_Attain = "17"
-Inst7Quest1_HORDE_Aim = "收集20顆阿庫麥爾藍寶石，把它們交給梣谷的耶努薩克雷。"
-Inst7Quest1_HORDE_Location = "耶努薩克雷（梣谷 - 佐拉姆前哨站; "..YELLOW.."11,33"..WHITE.."）"
-Inst7Quest1_HORDE_Note = "前置任務《幫助耶努薩克雷》可以在蘇納曼（石爪山脈 - 烈日石居; "..YELLOW.."47,64"..WHITE.."）接到。藍寶石多生長在通往黑暗深淵入口的那條通道的洞穴牆壁上。"
-Inst7Quest1_HORDE_Prequest = "幫助耶努薩克雷"
+Inst7Quest1_HORDE = "1. 黑澗深淵"
+Inst7Quest1_HORDE_Level = "24"
+Inst7Quest1_HORDE_Attain = "22"
+Inst7Quest1_HORDE_Aim = "和耶努薩克雷說話。"
+Inst7Quest1_HORDE_Location = "指揮官厲牙（梣谷 - 佐拉姆前哨站; "..YELLOW.."12.0, 33.8"..WHITE.."）"
+Inst7Quest1_HORDE_Note = "耶努薩克雷就在黑澗深淵地城的入口處。"
+Inst7Quest1_HORDE_Prequest = "無"
 Inst7Quest1_HORDE_Folgequest = "無"
-Inst7Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst7Quest2_HORDE = "2. 上古諸神的僕從"
-Inst7Quest2_HORDE_Level = "22"
-Inst7Quest2_HORDE_Attain = "17"
-Inst7Quest2_HORDE_Aim = "把潮濕的便箋交給梣谷的耶努薩克雷。殺掉黑暗深淵裡的洛古斯．傑特，然後向梣谷的耶努薩克雷覆命。"
-Inst7Quest2_HORDE_Location = "潮濕的便箋（小怪隨機掉落 - 黑暗深淵）"
-Inst7Quest2_HORDE_Note = "潮濕的便箋可從黑暗深淵的海潮祭司處得到（5%掉落機率）。然後去耶努薩克雷（梣谷 - 佐拉姆前哨站; "..YELLOW.."11,33"..WHITE.."）。洛古斯．傑特在"..YELLOW.."[6]"..WHITE.."。"
+Inst7Quest2_HORDE = "2. 深淵深處"
+Inst7Quest2_HORDE_Level = "26"
+Inst7Quest2_HORDE_Attain = "21"
+Inst7Quest2_HORDE_Aim = "殺死加摩拉、薩利維絲女士和格里哈斯特。"
+Inst7Quest2_HORDE_Location = "仄亞（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest2_HORDE_Note = "加摩拉在"..YELLOW.."[1]"..WHITE.."，薩利維絲女士在"..YELLOW.."[2]"..WHITE.."，格里哈斯特在"..YELLOW.."[3]"..WHITE.."。\n任務完成後找地城入口處的仄亞回報。"
 Inst7Quest2_HORDE_Prequest = "無"
 Inst7Quest2_HORDE_Folgequest = "無"
---
-Inst7Quest2name1_HORDE = "巨拳指環"
-Inst7Quest2name2_HORDE = "栗殼披肩"
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst7Quest3_HORDE = "3. 廢墟之間"
-Inst7Quest3_HORDE_Level = "27"
-Inst7Quest3_HORDE_Attain = "21"
-Inst7Quest3_HORDE_Aim = "把深淵之石交給梣谷佐拉姆前哨站裡的耶努薩克雷。"
-Inst7Quest3_HORDE_Location = "耶努薩克雷（梣谷 - 佐拉姆前哨站; "..YELLOW.."11,33"..WHITE.."）"
-Inst7Quest3_HORDE_Note = "深淵之石在"..YELLOW.."[7]"..WHITE.."區水域裡。當你得到深淵之核後，阿奎尼斯男爵會出現並攻擊你。他會掉落一件觸發性的任務物品，你要把它帶給耶努薩克雷。"
+Inst7Quest3_HORDE_Level = "26"
+Inst7Quest3_HORDE_Attain = "20"
+Inst7Quest3_HORDE_Aim = "取出深淵之核。"
+Inst7Quest3_HORDE_Location = "耶努薩克雷（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest3_HORDE_Note = "深淵之核在"..DARKYELLOW.."[2]"..WHITE.."處的水中。當你取得深淵之核後，阿奎尼斯男爵將會現身並且攻擊你，他將會掉落一個需要你向耶努薩克雷回報的任務物品。"
 Inst7Quest3_HORDE_Prequest = "無"
 Inst7Quest3_HORDE_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst7Quest4_HORDE = "4. 黑暗深淵中的惡魔"
-Inst7Quest4_HORDE_Level = "27"
-Inst7Quest4_HORDE_Attain = "18"
-Inst7Quest4_HORDE_Aim = "把夢遊者克爾里斯的頭顱帶回雷霆崖交給巴珊娜．符文圖騰 。"
-Inst7Quest4_HORDE_Location = "銀月守衛塞爾瑞德（黑暗深淵; "..YELLOW.."[4]"..WHITE.."）"
-Inst7Quest4_HORDE_Note = "克爾里斯在"..YELLOW.."[8]"..WHITE.."。巴珊娜．符文圖騰在（雷霆崖 - 長者高地 "..YELLOW.."70,33"..WHITE.."）。注意！如果你點燃了克爾里斯身旁的火焰，會出現敵人攻擊你。"
+Inst7Quest4_HORDE = "4. 敵人的敵人"
+Inst7Quest4_HORDE_Level = "28"
+Inst7Quest4_HORDE_Attain = "21"
+Inst7Quest4_HORDE_Aim = "摘下暮光領主克爾里斯的頭。"
+Inst7Quest4_HORDE_Location = "火焰根除者（黑澗深淵; "..GREEN.."[3']"..WHITE.."）"
+Inst7Quest4_HORDE_Note = "暮光領主克爾里斯在"..YELLOW.."[5]"..WHITE.."。任務完成後找地城入口處的火焰根除者回報。"
 Inst7Quest4_HORDE_Prequest = "無"
 Inst7Quest4_HORDE_Folgequest = "無"
---
-Inst7Quest4name1_HORDE = "墓碑節杖"
-Inst7Quest4name2_HORDE = "極光圓盾"
+-- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 6 Alliance)
-Inst7Quest5_HORDE = "5. 索蘭魯克寶珠 (術士職業任務)"
-Inst7Quest5_HORDE_Level = Inst7Quest6_Level
-Inst7Quest5_HORDE_Attain = Inst7Quest6_Attain
-Inst7Quest5_HORDE_Aim = Inst7Quest6_Aim
-Inst7Quest5_HORDE_Location = Inst7Quest6_Location
-Inst7Quest5_HORDE_Note = Inst7Quest6_Note
-Inst7Quest5_HORDE_Prequest = Inst7Quest6_Prequest
-Inst7Quest5_HORDE_Folgequest = Inst7Quest6_Folgequest
+--Quest 5 Horde
+Inst7Quest5_HORDE = "5. 深淵惡夢"
+Inst7Quest5_HORDE_Level = "27"
+Inst7Quest5_HORDE_Attain = "21"
+Inst7Quest5_HORDE_Aim = "殺死阿庫麥爾。"
+Inst7Quest5_HORDE_Location = "耶努薩克雷（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest5_HORDE_Note = "阿庫麥爾在"..YELLOW.."[6]"..WHITE.."。任務完成後找地城入口處的耶努薩克雷回報。"
+Inst7Quest5_HORDE_Prequest = "無"
+Inst7Quest5_HORDE_Folgequest = "無"
 --
-Inst7Quest5name1_HORDE = Inst7Quest6name1
-Inst7Quest5name2_HORDE = Inst7Quest6name2
+Inst7Quest5name1_HORDE = "抗邪之盾"
+Inst7Quest5name2_HORDE = "阿庫麥爾之鱗"
+Inst7Quest5name3_HORDE = "黑澗護腿"
+Inst7Quest5name4_HORDE = "耶努的長袍"
 
 
 
