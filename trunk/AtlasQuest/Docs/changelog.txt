@@ -2,17 +2,19 @@
 Changelog
 =========
 
-Version 4.6.1 BETA
+Version 4.6.1 BETA (not released)
 
-- 
+- Localizations updated: deDE, ruRU, zhTW.
 
 - Classic Dungeons updated:
 	- Blackwing Lair
 	- Blackfathom Deeps
+	- Lower Blackrock Spire
+	- Upper Blackrock Spire
 	
 
 
-Version 4.6.0a
+Version 4.6.0a (December 18, 2010)
 
 - Quick fix: Disabled "Quest Query complete" message.
 
@@ -21,7 +23,7 @@ NOTE: AtlasQuest will *only* query the server for completed quests when you hit 
 
 
 
-Version 4.6.0
+Version 4.6.0 (December 17, 2010)
 
 - No longer "officially" supporting AlphaMap. AtlasQuest will still work with AlphaMap (I'm leaving the support code in), but its been a long time since the Boss location numbers matched up. In the future, perhaps with a major rewrite of AtlasQuest I'll be able to work something out to support both Atlas and AlphaMap.
 - Merged in Natch's AtlasQuest Helper code. You can now query the server for completed quests to fill in the "Quest completed" check boxes. This is in Options.
@@ -57,7 +59,7 @@ Version 4.6.0
 
 
 	
-Version 4.5.0 BETA
+Version 4.5.0 BETA (October 12, 2010)
 
 - Basic (very basic) Patch 4.0 support.
 - Fixed attainment level for SM: Into The Scarlet Monastery (thanks auha)
@@ -66,7 +68,7 @@ Version 4.5.0 BETA
 
 
 
-Version 4.4.3
+Version 4.4.3 (August 3, 2010)
 
 - Localizations updated: ruRU, deDE, zhTW.
 - Added quest giver for Ruby Sanctum: Trouble at Wyrmrest Temple.
@@ -87,7 +89,7 @@ Version 4.4.3
 
 
 
-Version 4.4.2
+Version 4.4.2 (June 23, 2010)
 
 - Corrected ChatFrame error with patch 3.3.5. AtlasQuest should be fully functional.
 - Disabled the buggy, old, never-updated /aq command.
@@ -102,7 +104,7 @@ Version 4.4.2
 
 
 
-Version 4.4.1
+Version 4.4.1 (February 15, 2010)
 
 - Added new Love is in the Air quests, ICC weekly quests, Quel'Delar & Shadowmourne questlines.
 - Updated map names for the Atlas 1.16.0.
@@ -134,7 +136,7 @@ Version 4.4.1
 
 
 
-Version 4.4.0
+Version 4.4.0 (December 14, 2009)
 
 - TOC updated for Patch 3.3.
 - Support for Forge of Souls, Pit of Saron, Halls of Reflection and Icecrown Citadel.
