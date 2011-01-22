@@ -1255,7 +1255,7 @@ Inst7Quest3name4 = "Erhaltender Ring"
 
 --Quest 3 Alliance
 Inst7Quest3 = "3. Auf der Suche nach Thaelrid"
-Inst7Quest3_Level = "28"
+Inst7Quest3_Level = "25"
 Inst7Quest3_Attain = "22"
 Inst7Quest3_Aim = "Sucht Späher Thaelrid in der Tiefschwarzen Grotte auf."
 Inst7Quest3_Location = "Ashelan Nordwald (Tiefschwarze Grotte; "..YELLOW.."Eingang"..WHITE..")"
@@ -1357,7 +1357,7 @@ Inst7Quest4_HORDE_Folgequest = "Nein"
 
 --Quest 5 Horde
 Inst7Quest5_HORDE = "5. Alptraum in der Tiefe"
-Inst7Quest5_HORDE_Level = "28"
+Inst7Quest5_HORDE_Level = "27"
 Inst7Quest5_HORDE_Attain = "21"
 Inst7Quest5_HORDE_Aim = "Tötet Aku'mai."
 Inst7Quest5_HORDE_Location = "Je'neu Sancrea (Tiefschwarze Grotte; "..YELLOW.."Eingang"..WHITE..")"
@@ -1372,10 +1372,10 @@ Inst7Quest5name4_HORDE = "Band des Schädelquetschers"
 
 --Quest 6 Horde
 Inst7Quest6_HORDE = "6. Die Essenz von Aku'mai"
-Inst7Quest6_HORDE_Level = "28"
-Inst7Quest6_HORDE_Attain = "21"
+Inst7Quest6_HORDE_Level = "22"
+Inst7Quest6_HORDE_Attain = "17"
 Inst7Quest6_HORDE_Aim = "Sammelt 20 Saphire von Aku'mai."
-Inst7Quest6_HORDE_Location = "Je'neu Sancrea (Eschental - Außenposten von Zoram'gar; "..YELLOW.."11.6, 34.3"..WHITE..")"
+Inst7Quest6_HORDE_Location = "Dagrun Zornhammer (Eschental - Außenposten von Zoram'gar; "..YELLOW.."11.6, 35.5"..WHITE..")"
 Inst7Quest6_HORDE_Note = "Die Essenzen findet man überall in der Höhle vor der Instanz."
 Inst7Quest6_HORDE_Prequest = "Nein"
 Inst7Quest6_HORDE_Folgequest = "Nein"
