@@ -1206,7 +1206,7 @@ Inst6Quest1name3_HORDE = "Master Dragonslayer's Ring"
 Inst7Story = "Расположенная вдоль побережья Зорам Ясеневого леса, Непроглядная пучина когда-то была знаменитым храмом посвященным богине Луны ночных эльфов, Элуне. Однако, великий Разлом разбил храм - опустив под волны Сокрытого моря. Он оставался нетронутым - пока, привлеченные древней силой - наги и сатиры не приплыли, чтобы раскрыт его секреты. Легенды утверждают что древнее чудовище, Аку'маи, поселилось в руинах храма. Аку'маи, любимый питомец изначальных Старых Богов, теперь охотится на его территории. Привлеченный Аку'маи, культ, известный как Молот Сумерек также пришел чтобы поживиться злым присутствием Старых Богов."
 Inst7Caption = "Непроглядная пучина"
 Inst7QAA = "6 Заданий"
-Inst7QAH = "5 Заданий"
+Inst7QAH = "6 Заданий"
 
 --Quest 1 Alliance
 Inst7Quest1 = "1. Непроглядная Пучина"
@@ -1352,189 +1352,73 @@ Inst7Quest5name2_HORDE = "Scales of Aku'mai"
 Inst7Quest5name3_HORDE = "Blackfathom Leggings"
 Inst7Quest5name4_HORDE = "Je'neu's Robes"
 
+--Quest 6 Horde
+Inst7Quest6_HORDE = "6. Сущность Аку'май"
+Inst7Quest6_HORDE_Level = "22"
+Inst7Quest6_HORDE_Attain = "17"
+Inst7Quest6_HORDE_Aim = "Соберите 20 сапфиров Аку'май."
+Inst7Quest6_HORDE_Location = "Дагрун Бушующий Молот (Ясеневый лес - Застава Зорам'гар; "..YELLOW.."11.6, 35.5"..WHITE..")"
+Inst7Quest6_HORDE_Note = "Сапфиры можно найти в пещере перед подземельем."
+Inst7Quest6_HORDE_Prequest = "Нет"
+Inst7Quest6_HORDE_Folgequest = "Нет"
+-- No Rewards for this quest
+
 
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
 
 Inst8Story = "The mighty fortress carved within the fiery bowels of Черная гора was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths. Realizing that the dwarves were led by the mighty fire elemental, Ragnaros - Nefarian vowed to crush his enemies and claim the whole of Blackrock mountain for himself."
-Inst8Caption = "Нижний ярус вершины Черной горы"
-Inst8QAA = "14 Заданий"
-Inst8QAH = "14 Заданий"
+Inst8Caption = "Пик Черной горы (Нижний)"
+Inst8QAA = "4 Задания"
+Inst8QAH = "3 Задания"
 
 --Quest 1 Alliance
-Inst8Quest1 = "1. Последние таблички"
+Inst8Quest1 = "1. Потенциальный союзник"
 Inst8Quest1_Level = "58"
-Inst8Quest1_Attain = "40"
-Inst8Quest1_Aim = "Принесите пятую и шестую таблички Мошару геологу Железному Башмаку в Танарисе."
-Inst8Quest1_Location = "Геолог Железный Башмак (Танарис - Порт Картеля; "..YELLOW.."66,23"..WHITE..")"
-Inst8Quest1_Note = "Вы найдете таблички около "..YELLOW.."[7]"..WHITE.." и "..YELLOW.."[9]"..WHITE..".\nНаграда переводит на 'Сопротивление Йекинье'. вы найдете Йе'кинья около геолога Железного Башмака."
-Inst8Quest1_Prequest = "Утраченные таблички Мошару"
-Inst8Quest1_Folgequest = "Сопротивление Йекинье"
-Inst8Quest1PreQuest = "true"
---
-Inst8Quest1name1 = "Faded Hakkari Cloak"
-Inst8Quest1name2 = "Tattered Hakkari Cape"
+Inst8Quest1_Attain = "57"
+Inst8Quest1_Aim = "Разыщите Акрайда."
+Inst8Quest1_Location = "Надзиратель Скользорук (Тлеющее ущелье - Лагерь Братства Тория; "..YELLOW.."38.2, 27.0"..WHITE..")"
+Inst8Quest1_Note = "Акрайд находится внутри подземелья "..GREEN.."[1']"..WHITE..". Эта цепочка заданий поможет вам найти вход в подземелье."
+Inst8Quest1_Prequest = "Нет"
+Inst8Quest1_Folgequest = "Нет"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst8Quest2 = "2. Редкие звери Киблера"
-Inst8Quest2_Level = "59"
-Inst8Quest2_Attain = "55"
-Inst8Quest2_Aim = "Отправьтесь на пик Черной горы и отыщите там щенков воргов легиона Кровавого Топора. Посадите маленьких тварей в клетку и отнесите Киблеру."
-Inst8Quest2_Location = "Киблер (Пылающие степи - Пламенеющий стяг; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest2_Note = "Вы найдете щенков ворга около "..YELLOW.."[17]"..WHITE.."."
+Inst8Quest2 = "2. Странный орк Черной горы"
+Inst8Quest2_Level = "58"
+Inst8Quest2_Attain = "57"
+Inst8Quest2_Aim = "Разыщите Акрайда."
+Inst8Quest2_Location = "Хелендис Речной Мыс (Пылающие степи - Дозор Морганы; "..YELLOW.."73.4, 66.3"..WHITE..")"
+Inst8Quest2_Note = "Акрайд находится внутри подземелья "..GREEN.."[1']"..WHITE..". Эта цепочка заданий поможет вам найти вход в подземелье."
 Inst8Quest2_Prequest = "Нет"
 Inst8Quest2_Folgequest = "Нет"
---
-Inst8Quest2name1 = "Worg Carrier"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst8Quest3 = "3. Товар на любителя"
-Inst8Quest3_Level = "59"
-Inst8Quest3_Attain = "55"
-Inst8Quest3_Aim = "Отправьтесь на пик Черной горы и принесите Киблеру 15 яиц скального паука."
-Inst8Quest3_Location = "Киблер (Пылающие степи - Пламенеющий стяг; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest3_Note = "Вы найдете яйца пауков около "..YELLOW.."[13]"..WHITE.."."
+Inst8Quest3 = "3. Друзья на другой стороне"
+Inst8Quest3_Level = "58"
+Inst8Quest3_Attain = "57"
+Inst8Quest3_Aim = "Разыщите Акрайда."
+Inst8Quest3_Location = "Джон-Оборванец (Пылающие степи - Пламенеющий Стяг; "..YELLOW.."54.2, 23.9"..WHITE..")"
+Inst8Quest3_Note = "Акрайд находится внутри подземелья "..GREEN.."[1']"..WHITE..". Эта цепочка заданий поможет вам найти вход в подземелье."
 Inst8Quest3_Prequest = "Нет"
 Inst8Quest3_Folgequest = "Нет"
---
-Inst8Quest3name1 = "Smolderweb Carrier"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst8Quest4 = "4. Материнское молоко"
-Inst8Quest4_Level = "60"
-Inst8Quest4_Attain = "55"
-Inst8Quest4_Aim = "Найдите в самом сердце пика Черной горы мать Дымную Паутину. Сражайтесь с ней, пока она не введет вам свой яд. Скорее всего ее также придется убить. Когда яд будет в вас, вернитесь к Джону-Оборванцу, чтобы он смог добыть яд."
-Inst8Quest4_Location = "Джон-Оборванец (Пылающие степи - Пламенеющий стяг; "..YELLOW.."65,23"..WHITE..")"
-Inst8Quest4_Note = "Мать Дымная Паутина находится около "..YELLOW.."[13]"..WHITE..". Яд также поражает ближаиших игроков. Если яд вылечить, вы провалите задание."
+Inst8Quest4 = "4. Ничего себе – тролли, огры и орки!"
+Inst8Quest4_Level = "59"
+Inst8Quest4_Attain = "57"
+Inst8Quest4_Aim = "Убейте воеводу Вуна, вождя Омокка и властителя Змейталака."
+Inst8Quest4_Location = "Акрайд (Пик Черной горы; "..GREEN.."[1']"..WHITE..")"
+Inst8Quest4_Note = "Воевода Вун находится "..YELLOW.."[3]"..WHITE..", Вождь Омокк "..YELLOW.."[1]"..WHITE..", а Властитель Змейталак "..YELLOW.."[8]"..WHITE.." в Нижней части Пика Черной горы."
 Inst8Quest4_Prequest = "Нет"
 Inst8Quest4_Folgequest = "Нет"
 --
-Inst8Quest4name1 = "Ragged John's Neverending Cup"
-
---Quest 5 Alliance
-Inst8Quest5 = "5. Устранение опасности"
-Inst8Quest5_Level = "59"
-Inst8Quest5_Attain = "55"
-Inst8Quest5_Aim = "Отправьтесь на пик Черной горы и уничтожьте источник опасности. Хелендис кричит вам вслед одно имя: Халикон. Именно его упоминали орки в связи с воргами."
-Inst8Quest5_Location = "Хелендис Речной Мыс (Пылающие степи - Дозор Моргана; "..YELLOW.."5,47"..WHITE..")"
-Inst8Quest5_Note = "Вы найдете Халикон около "..YELLOW.."[17]"..WHITE.."."
-Inst8Quest5_Prequest = "Нет"
-Inst8Quest5_Folgequest = "Нет"
---
-Inst8Quest5name1 = "Astoria Robes"
-Inst8Quest5name2 = "Traphook Jerkin"
-Inst8Quest5name3 = "Jadescale Breastplate"
-
---Quest 6 Alliance
-Inst8Quest6 = "6. Аррок Смертный Вопль"
-Inst8Quest6_Level = "60"
-Inst8Quest6_Attain = "55"
-Inst8Quest6_Aim = "Прочитать записку Вароша. Принести Варошу его амулет."
-Inst8Quest6_Location = "Варош (Вершина Черной горы; "..YELLOW.."[2]"..WHITE..")"
-Inst8Quest6_Note = "Чтобы получить амулет Вароша нужно вызвать и убить Аррока Смертного Вопля "..YELLOW.."[15]"..WHITE..". Для Вызова понадобится Копье и голова вождя Омокка "..YELLOW.."[5]"..WHITE..". Копье находится около "..YELLOW.."[3]"..WHITE..". Во время Вызова появляется несколько волн огров, перед тем как вас атакует Аррок Смертный Вопль. Вы можете использовать Копье в бою, чтобы наносить урон ограм."
-Inst8Quest6_Prequest = "Нет"
-Inst8Quest6_Folgequest = "Нет"
---
-Inst8Quest6name1 = "Prismcharm"
-
---Quest 7 Alliance
-Inst8Quest7 = "7. Вещи Блестяшки"
-Inst8Quest7_Level = "59"
-Inst8Quest7_Attain = "55"
-Inst8Quest7_Aim = "Найдите вещи Блестяшки и верните их владелице. Блестяшка сказала, что она спрятала свое оборудование где-то на нижнем ярусе подземелья."
-Inst8Quest7_Location = "Блестяшка (Вершина Черной горы; "..YELLOW.."[3]"..WHITE..")"
-Inst8Quest7_Note = "Вы найдете вещи Блестяшки по пути к Матери Дымной Паутине около "..YELLOW.."[13]"..WHITE..".\nМаксвелл находится около (Пылающие степи - Дозор Моргана; "..YELLOW.."84,58"..WHITE..")."
-Inst8Quest7_Prequest = "Нет"
-Inst8Quest7_Folgequest = "Донесение Максвелла"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst8Quest8 = "8. Миссия Максвелла"
-Inst8Quest8_Level = "60"
-Inst8Quest8_Attain = "55"
-Inst8Quest8_Aim = "Отправляйтесь на пик Черной горы и устраните воеводу Вуна, вождя Омокка и повелителя Змейталака. По выполнении задания вернитесь к маршалу Максвеллу."
-Inst8Quest8_Location = "Маршал Максвелл (Пылающие степи - Дозор Моргана; "..YELLOW.."84,58"..WHITE..")"
-Inst8Quest8_Note = "Вы найдете воеводу Вуна около "..YELLOW.."[9]"..WHITE..", вождя Омокка около "..YELLOW.."[5]"..WHITE.." и повелителя Змейталака около "..YELLOW.."[19]"..WHITE.."."
-Inst8Quest8_Prequest = "Донесение Максвелла"
-Inst8Quest8_Folgequest = "Нет"
-Inst8Quest8FQuest = "true"
---
-Inst8Quest8name1 = "Wyrmthalak's Shackles"
-Inst8Quest8name2 = "Omokk's Girth Restrainer"
-Inst8Quest8name3 = "Halycon's Muzzle"
-Inst8Quest8name4 = "Vosh'gajin's Strand"
-Inst8Quest8name5 = "Voone's Vice Grips"
-
---Quest 9 Alliance
-Inst8Quest9 = "9. Печать Вознесения"
-Inst8Quest9_Level = "60"
-Inst8Quest9_Attain = "57"
-Inst8Quest9_Aim = "Найдите самоцвет Тлеющего Терновника, самоцвет Черной Вершины и самоцвет Кровавого Топора. Верните их Ваелану вместе с заготовкой для печати Вознесения."
-Inst8Quest9_Location = "Ваелан (Вершина Черной горы; "..YELLOW.."[1]"..WHITE..")"
-Inst8Quest9_Note = "Вы получите самоцвет Черной вершины с вождя Омокка "..YELLOW.."[5]"..WHITE..", самоцвет Тлеющего Терновника с воеводы Вуна около "..YELLOW.."[9]"..WHITE.." самоцвет Кровавого Топора с повелителя Змейталака около "..YELLOW.."[19]"..WHITE..". Простая печать Вознесения может упасть с любого врага в Нижнем ярусе Вершины Черной горы. Если вы закончите эту цепочку заданий, то получите ключ к Верхнему ярусу Вершины Черной горы."
-Inst8Quest9_Prequest = "Нет"
-Inst8Quest9_Folgequest = "Печать Вознесения"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst8Quest10 = "10. Приказ генерала Драккисата"
-Inst8Quest10_Level = "60"
-Inst8Quest10_Attain = "55"
-Inst8Quest10_Aim = "Отнести приказ генерала Драккисата маршалу Максвеллу в Пылающие степи."
-Inst8Quest10_Location = "Приказ генерала Драккисата (падает с повелителя Змейталака; "..YELLOW.."[19]"..WHITE..")"
-Inst8Quest10_Note = "Маршал Максвелл находится в Пылающие степи - Дозор Моргана; ("..YELLOW.."84,58"..WHITE..")."
-Inst8Quest10_Prequest = "Нет"
-Inst8Quest10_Folgequest = "Кончина генерала Драккисата ("..YELLOW.."Верхний ярус Вершины Черной горы"..WHITE..")"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst8Quest11 = "11. Левая часть амулета Лорда Вальтхалака"
-Inst8Quest11_Level = "60"
-Inst8Quest11_Attain = "58"
-Inst8Quest11_Aim = "Вызвать дух Мора Серого Копыта с помощью жаровни Призыва, прикончить его и забрать недостающую часть амулета Лорда Вальтхалака. Вернуться к Бодли в Черную гору, отдать ему левую часть амулета Вальтхалака и жаровню Призыва."
-Inst8Quest11_Location = "Бодли (Черная гора; "..YELLOW.."[D] на карте входа"..WHITE..")"
-Inst8Quest11_Note = "Чтобы увидеть Бодли нужен Спектральный сканер иных измерений. Вы получите его в задании 'В поисках Антиона'.\n\nМор Серое Копыто вызывается около "..YELLOW.."[9]"..WHITE.."."
-Inst8Quest11_Prequest = "Важная составляющая заклинания"
-Inst8Quest11_Folgequest = "Я вижу остров Алькац..."
-Inst8Quest11PreQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst8Quest12 = "12. Правая часть амулета Лорда Вальтхалака"
-Inst8Quest12_Level = "60"
-Inst8Quest12_Attain = "58"
-Inst8Quest12_Aim = "С помощью жаровни Призыва вызвать дух Кормока и убить его. Вернуться к Бодли в Черную гору, отдать ему восстановленный амулет и жаровню Призыва."
-Inst8Quest12_Location = "Бодли (Черная гора; "..YELLOW.."[D] на карте входа"..WHITE..")"
-Inst8Quest12_Note = "Чтобы увидеть Бодли нужен Спектральный сканер иных измерений. Вы получите его в задании 'В поисках Антиона'.\n\nКормока нужно вызывать около "..YELLOW.."[9]"..WHITE.."."
-Inst8Quest12_Prequest = "Еще одна важная составляющая заклинания"
-Inst8Quest12_Folgequest = "Последние приготовления ("..YELLOW.."Верхний ярус Вершины Черной горы"..WHITE..")"
-Inst8Quest12PreQuest = "true"
--- No Rewards for this quest
-
---Quest 13 Alliance
-Inst8Quest13 = "13. Змеекамень Пленяющей Духов"
-Inst8Quest13_Level = "60"
-Inst8Quest13_Attain = "50"
-Inst8Quest13_Aim = "Отправляйтесь на Пик Черной горы, убейте Темную охотницу Вос'гаджин. Заберите у нее змеекамень и принесите Килраму."
-Inst8Quest13_Location = "Килрам (Зимние ключи - Круговзор; "..YELLOW.."61,37"..WHITE..")"
-Inst8Quest13_Note = "Задание для кузнецов. Темная охотница Вос'гаджин находится около "..YELLOW.."[7]"..WHITE.."."
-Inst8Quest13_Prequest = "Нет"
-Inst8Quest13_Folgequest = "Нет"
---
-Inst8Quest13name1 = "Plans: Dawn's Edge"
-
---Quest 14 Alliance
-Inst8Quest14 = "14. Смерть в огне"
-Inst8Quest14_Level = "60"
-Inst8Quest14_Attain = "56"
-Inst8Quest14_Aim = "Наверняка в этом мире есть кто-то, кто знает, что делать с этими рукавицами."
-Inst8Quest14_Location = "Человеческие останки (Нижний ярус Вершины Черной горы; "..YELLOW.."[9]"..WHITE..")"
-Inst8Quest14_Note = "Задание для кузнецов. Удостоверьтесь, что подобрали Неопалимые латные перчатки с человеческих останков около "..YELLOW.."[11]"..WHITE..". Отнесите их Малифою Черномолоту (Зимние Ключи - Круговзор; "..YELLOW.."61,39"..WHITE.."). Награды перечислены ниже."
-Inst8Quest14_Prequest = "Нет"
-Inst8Quest14_Folgequest = "Огненные латные рукавицы"
---
-Inst8Quest14name1 = "Plans: Fiery Plate Gauntlets"
-Inst8Quest14name2 = "Fiery Plate Gauntlets"
+Inst8Quest4name1 = "War Master's Pauldrons"
+Inst8Quest4name2 = "Overlord's Legguards"
+Inst8Quest4name3 = "Highlord's Chestpiece"
+Inst8Quest4name4 = "Band of the Spire"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1546,319 +1430,78 @@ Inst8Quest1_HORDE_Location = Inst8Quest1_Location
 Inst8Quest1_HORDE_Note = Inst8Quest1_Note
 Inst8Quest1_HORDE_Prequest = Inst8Quest1_Prequest
 Inst8Quest1_HORDE_Folgequest = Inst8Quest1_Folgequest
-Inst8Quest1PreQuest_HORDE = Inst8Quest1PreQuest
---
-Inst8Quest1name1_HORDE = Inst8Quest1name1
-Inst8Quest1name2_HORDE = Inst8Quest1name2
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst8Quest2_HORDE = Inst8Quest2
-Inst8Quest2_HORDE_Level = Inst8Quest2_Level
-Inst8Quest2_HORDE_Attain = Inst8Quest2_Attain
-Inst8Quest2_HORDE_Aim = Inst8Quest2_Aim
-Inst8Quest2_HORDE_Location = Inst8Quest2_Location
-Inst8Quest2_HORDE_Note = Inst8Quest2_Note
-Inst8Quest2_HORDE_Prequest = Inst8Quest2_Prequest
-Inst8Quest2_HORDE_Folgequest = Inst8Quest2_Folgequest
---
-Inst8Quest2name1_HORDE = Inst8Quest2name1
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst8Quest3_HORDE = Inst8Quest3
-Inst8Quest3_HORDE_Level = Inst8Quest3_Level
-Inst8Quest3_HORDE_Attain = Inst8Quest3_Attain
-Inst8Quest3_HORDE_Aim = Inst8Quest3_Aim
-Inst8Quest3_HORDE_Location = Inst8Quest3_Location
-Inst8Quest3_HORDE_Note = Inst8Quest3_Note
-Inst8Quest3_HORDE_Prequest = Inst8Quest3_Prequest
-Inst8Quest3_HORDE_Folgequest = Inst8Quest3_Folgequest
---
-Inst8Quest3name1_HORDE = Inst8Quest3name1
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst8Quest4_HORDE = Inst8Quest4
-Inst8Quest4_HORDE_Level = Inst8Quest4_Level
-Inst8Quest4_HORDE_Attain = Inst8Quest4_Attain
-Inst8Quest4_HORDE_Aim = Inst8Quest4_Aim
-Inst8Quest4_HORDE_Location = Inst8Quest4_Location
-Inst8Quest4_HORDE_Note = Inst8Quest4_Note
-Inst8Quest4_HORDE_Prequest = Inst8Quest4_Prequest
-Inst8Quest4_HORDE_Folgequest = Inst8Quest4_Folgequest
---
-Inst8Quest4name1_HORDE = Inst8Quest4name1
-
---Quest 5 Horde
-Inst8Quest5_HORDE = "5. Праматерь стаи"
-Inst8Quest5_HORDE_Level = "59"
-Inst8Quest5_HORDE_Attain = "55"
-Inst8Quest5_HORDE_Aim = "Убейте Халикон, праматерь стаи воргов Кровавого Топора."
-Inst8Quest5_HORDE_Location = "Галамав Стрелок (Бесплодные земли - Каргат; "..YELLOW.."5,47"..WHITE..")"
-Inst8Quest5_HORDE_Note = "Вы найдете Халикон около "..YELLOW.."[17]"..WHITE.."."
-Inst8Quest5_HORDE_Prequest = "Нет"
-Inst8Quest5_HORDE_Folgequest = "Нет"
---
-Inst8Quest5name1_HORDE = "Astoria Robes"
-Inst8Quest5name2_HORDE = "Traphook Jerkin"
-Inst8Quest5name3_HORDE = "Jadescale Breastplate"
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst8Quest6_HORDE = Inst8Quest6
-Inst8Quest6_HORDE_Level = Inst8Quest6_Level
-Inst8Quest6_HORDE_Attain = Inst8Quest6_Attain
-Inst8Quest6_HORDE_Aim = Inst8Quest6_Aim
-Inst8Quest6_HORDE_Location = Inst8Quest6_Location
-Inst8Quest6_HORDE_Note = Inst8Quest6_Note
-Inst8Quest6_HORDE_Prequest = Inst8Quest6_Prequest
-Inst8Quest6_HORDE_Folgequest = Inst8Quest6_Folgequest
---
-Inst8Quest6name1_HORDE = Inst8Quest6name1
-
---Quest 7 Horde
-Inst8Quest7_HORDE = "7. Агент Блестяшка"
-Inst8Quest7_HORDE_Level = "59"
-Inst8Quest7_HORDE_Attain = "55"
-Inst8Quest7_HORDE_Aim = "Отправьтесь к пику Черной горы и выясните, что сталось с Блестяшкой."
-Inst8Quest7_HORDE_Location = "Лекслорт (Бесплодные земли - Каргат; "..YELLOW.."5,47"..WHITE..")"
-Inst8Quest7_HORDE_Note = "Вы найдете Блестяшку около "..YELLOW.."[8]"..WHITE.."."
-Inst8Quest7_HORDE_Prequest = "Нет"
-Inst8Quest7_HORDE_Folgequest = "Вещи Блестяшки"
 -- No Rewards for this quest
 
---Quest 8 Horde
-Inst8Quest8_HORDE = "8. Вещи Блестяшки"
-Inst8Quest8_HORDE_Level = "59"
-Inst8Quest8_HORDE_Attain = "55"
-Inst8Quest8_HORDE_Aim = "Найдите вещи Блестяшки и верните их владелице. Блестяшка сказала, что она спрятала свое оборудование где-то на нижнем ярусе подземелья."
-Inst8Quest8_HORDE_Location = "Блестяшка (Вершина Черной горы; "..YELLOW.."[3]"..WHITE..")"
-Inst8Quest8_HORDE_Note = "Вы найдете вещи Блестяшки по пути к Матери Дымной Паутине около "..YELLOW.."[13]"..WHITE..".\nНаграда отправляет к 'По данным разведки'."
-Inst8Quest8_HORDE_Prequest = "Агент Блестяшка"
-Inst8Quest8_HORDE_Folgequest = "По данным разведки"
-Inst8Quest8FQuest_HORDE = "true"
---
-Inst8Quest8name1_HORDE = "Freewind Gloves"
-Inst8Quest8name2_HORDE = "Seapost Girdle"
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst8Quest9_HORDE = Inst8Quest9
-Inst8Quest9_HORDE_Level = Inst8Quest9_Level
-Inst8Quest9_HORDE_Attain = Inst8Quest9_Attain
-Inst8Quest9_HORDE_Aim = Inst8Quest9_Aim
-Inst8Quest9_HORDE_Location = Inst8Quest9_Location
-Inst8Quest9_HORDE_Note = Inst8Quest9_Note
-Inst8Quest9_HORDE_Prequest = Inst8Quest9_Prequest
-Inst8Quest9_HORDE_Folgequest = Inst8Quest9_Folgequest
+--Quest 2 Horde  (same as Quest 3 Alliance)
+Inst8Quest2_HORDE = "2. Друзья на другой стороне"
+Inst8Quest2_HORDE_Level = Inst8Quest3_Level
+Inst8Quest2_HORDE_Attain = Inst8Quest3_Attain
+Inst8Quest2_HORDE_Aim = Inst8Quest3_Aim
+Inst8Quest2_HORDE_Location = Inst8Quest3_Location
+Inst8Quest2_HORDE_Note = Inst8Quest3_Note
+Inst8Quest2_HORDE_Prequest = Inst8Quest3_Prequest
+Inst8Quest2_HORDE_Folgequest = Inst8Quest3_Folgequest
 -- No Rewards for this quest
 
---Quest 10 Horde
-Inst8Quest10_HORDE = "10. Приказ полководца"
-Inst8Quest10_HORDE_Level = "60"
-Inst8Quest10_HORDE_Attain = "55"
-Inst8Quest10_HORDE_Aim = "Убейте вождя Омокка, воеводу Вуна и повелителя Змейталака. Найденные при них важные бумаги Черной горы доставьте полководцу Клинозубу в Каргат."
-Inst8Quest10_HORDE_Location = "Полководец Клинозуб (Бесплодные земли - Каргат; "..YELLOW.."65,22"..WHITE..")"
-Inst8Quest10_HORDE_Note = "Подготовка к Ониксии.\nВождь Омокк находится около "..YELLOW.."[5]"..WHITE..", воевода Вун находится около "..YELLOW.."[9]"..WHITE.." и повелитель Змейталака "..YELLOW.."[19]"..WHITE..". Важные бумаги Черной горы могут остаться после одного из этих 3 боссов."
-Inst8Quest10_HORDE_Prequest = "Нет"
-Inst8Quest10_HORDE_Folgequest = "Мудрость Эйтригга -> За Орду! ("..YELLOW.."Верхний ярус Глубин Черной горы"..WHITE..")"
+--Quest 3 Horde  (same as Quest 4 Alliance)
+Inst8Quest3_HORDE = "3. Ничего себе – тролли, огры и орки!"
+Inst8Quest3_HORDE_Level = Inst8Quest4_Level
+Inst8Quest3_HORDE_Attain = Inst8Quest4_Attain
+Inst8Quest3_HORDE_Aim = Inst8Quest4_Aim
+Inst8Quest3_HORDE_Location = Inst8Quest4_Location
+Inst8Quest3_HORDE_Note = Inst8Quest4_Note
+Inst8Quest3_HORDE_Prequest = Inst8Quest4_Prequest
+Inst8Quest3_HORDE_Folgequest = Inst8Quest4_Folgequest
 --
-Inst8Quest10name1_HORDE = "Wyrmthalak's Shackles"
-Inst8Quest10name2_HORDE = "Omokk's Girth Restrainer"
-Inst8Quest10name3_HORDE = "Halycon's Muzzle"
-Inst8Quest10name4_HORDE = "Vosh'gajin's Strand"
-Inst8Quest10name5_HORDE = "Voone's Vice Grips"
+Inst8Quest3name1_HORDE = Inst8Quest4name1
+Inst8Quest3name2_HORDE = Inst8Quest4name2
+Inst8Quest3name3_HORDE = Inst8Quest4name3
+Inst8Quest3name4_HORDE = Inst8Quest4name4
 
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst8Quest11_HORDE = Inst8Quest11
-Inst8Quest11_HORDE_Level = Inst8Quest11_Level
-Inst8Quest11_HORDE_Attain = Inst8Quest11_Attain
-Inst8Quest11_HORDE_Aim = Inst8Quest11_Aim
-Inst8Quest11_HORDE_Location = Inst8Quest11_Location
-Inst8Quest11_HORDE_Note = Inst8Quest11_Note
-Inst8Quest11_HORDE_Prequest = Inst8Quest11_Prequest
-Inst8Quest11_HORDE_Folgequest = Inst8Quest11_Folgequest
-Inst8Quest11PreQuest_HORDE = Inst8Quest11PreQuest
--- No Rewards for this quest
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst8Quest12_HORDE = Inst8Quest12
-Inst8Quest12_HORDE_Level = Inst8Quest12_Level
-Inst8Quest12_HORDE_Attain = Inst8Quest12_Attain
-Inst8Quest12_HORDE_Aim = Inst8Quest12_Aim
-Inst8Quest12_HORDE_Location = Inst8Quest12_Location
-Inst8Quest12_HORDE_Note = Inst8Quest12_Note
-Inst8Quest12_HORDE_Prequest = Inst8Quest12_Prequest
-Inst8Quest12_HORDE_Folgequest = Inst8Quest12_Folgequest
-Inst8Quest12PreQuest_HORDE = Inst8Quest12PreQuest
--- No Rewards for this quest
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst8Quest13_HORDE = Inst8Quest13
-Inst8Quest13_HORDE_Level = Inst8Quest13_Level
-Inst8Quest13_HORDE_Attain = Inst8Quest13_Attain
-Inst8Quest13_HORDE_Aim = Inst8Quest13_Aim
-Inst8Quest13_HORDE_Location = Inst8Quest13_Location
-Inst8Quest13_HORDE_Note = Inst8Quest13_Note
-Inst8Quest13_HORDE_Prequest = Inst8Quest13_Prequest
-Inst8Quest13_HORDE_Folgequest = Inst8Quest13_Folgequest
---
-Inst8Quest13name1_HORDE = Inst8Quest13name1
-
---Quest 14 Horde  (same as Quest 14 Alliance)
-Inst8Quest14_HORDE = Inst8Quest14
-Inst8Quest14_HORDE_Level = Inst8Quest14_Level
-Inst8Quest14_HORDE_Attain = Inst8Quest14_Attain
-Inst8Quest14_HORDE_Aim = Inst8Quest14_Aim
-Inst8Quest14_HORDE_Location = Inst8Quest14_Location
-Inst8Quest14_HORDE_Note = Inst8Quest14_Note
-Inst8Quest14_HORDE_Prequest = Inst8Quest14_Prequest
-Inst8Quest14_HORDE_Folgequest = Inst8Quest14_Folgequest
---
-Inst8Quest14name1_HORDE = Inst8Quest14name1
-Inst8Quest14name2_HORDE = Inst8Quest14name2
 
 
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
 
 Inst9Story = "The mighty fortress carved within the fiery bowels of Черная гора was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths. Realizing that the dwarves were led by the mighty fire elemental, Ragnaros - Nefarian vowed to crush his enemies and claim the whole of Blackrock mountain for himself."
-Inst9Caption = "Верхний ярус вершины Черной горы"
-Inst9QAA = "11 Заданий"
-Inst9QAH = "13 Заданий"
+Inst9Caption = "Пик Черной горы (Верхний)"
+Inst9QAA = "3 Заданий"
+Inst9QAH = "3 Заданий"
 
 --Quest 1 Alliance
-Inst9Quest1 = "1. Матрона-защитница"
-Inst9Quest1_Level = "60"
+Inst9Quest1 = "1. Лжевождь"
+Inst9Quest1_Level = "59"
 Inst9Quest1_Attain = "57"
-Inst9Quest1_Aim = "Добраться до Зимних Ключей и найти Халех. Отдать ей пластину чешуи Ауби."
-Inst9Quest1_Location = "Ауби (Вершина Черной горы; "..YELLOW.."[7]"..WHITE..")"
-Inst9Quest1_Note = "Вы найдете Ауби в комнате за Ареной около "..YELLOW.."[7]"..WHITE..".\nХалех находится в Зимних Ключах ("..YELLOW.."54,51"..WHITE.."). Используйте знак-портал в конце пещеры, чтобы добраться до нее."
+Inst9Quest1_Aim = "Ликвидируйте вождя Ренда Чернорука."
+Inst9Quest1_Location = "Акрайд (Пик Черной горы; "..GREEN.."[1']"..WHITE..")"
+Inst9Quest1_Note = "Вождь Ренд Чернорук находится "..YELLOW.."[4]"..WHITE.." в Верхней части Пика Черной горы."
 Inst9Quest1_Prequest = "Нет"
-Inst9Quest1_Folgequest = "Ярость Синих драконов"
+Inst9Quest1_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst9Quest2 = "2. Айс Вентурон, к вашим услугам!"
+Inst9Quest2 = "2. Генерал Драккисат, правая рука Нефариана"
 Inst9Quest2_Level = "60"
 Inst9Quest2_Attain = "57"
-Inst9Quest2_Aim = "Переговорить с Малифоем Черномолотом в Круговзоре."
-Inst9Quest2_Location = "Айс Вентурон (Вершина Черной горы; "..YELLOW.."[8]"..WHITE..")"
-Inst9Quest2_Note = "Айс Вентурон появляется после свежевания Зверя. Вы найдете Малифоя в (Зимние Ключи - Круговзор; "..YELLOW.."61,38"..WHITE..")."
+Inst9Quest2_Aim = "Убейте генерала Драккисата."
+Inst9Quest2_Location = "Акрайд (Пик Черной горы; "..GREEN.."[1']"..WHITE..")"
+Inst9Quest2_Note = "Генерал Драккисат находится "..YELLOW.."[6]"..WHITE.." в Верхней части Пика Черной горы."
 Inst9Quest2_Prequest = "Нет"
-Inst9Quest2_Folgequest = "Поножи Аркана, Шапка Алого Ученого, Кираса кровавой жажды"
--- No Rewards for this quest
+Inst9Quest2_Folgequest = "Нет"
+--
+Inst9Quest2name1 = "Sword of Nefarian's Hand"
+Inst9Quest2name2 = "Aeyla's Staff"
+Inst9Quest2name3 = "Staff of the Second Orb"
+Inst9Quest2name4 = "Vaelan's Claw"
 
 --Quest 3 Alliance
-Inst9Quest3 = "3. Заморозка яйца"
+Inst9Quest3 = "3. Blackhand's Command"
 Inst9Quest3_Level = "60"
-Inst9Quest3_Attain = "57"
-Inst9Quest3_Aim = "Испытайте прототип яйцехладоскопа на одном из яиц в Гнездовье."
-Inst9Quest3_Location = "Тинки Кипеллер (Пылающие степи - Пламенеющий стяг; "..YELLOW.."65,24"..WHITE..")"
-Inst9Quest3_Note = "Вы найдете яйца в комнате Отца Пламени около "..YELLOW.."[2]"..WHITE.."."
-Inst9Quest3_Prequest = "Сущность детеныша дракона -> Тинки Кипеллер"
-Inst9Quest3_Folgequest = "Леонид Барталомей -> Рассветный гамбит ("..YELLOW.."Некроситет"..WHITE..")"
-Inst9Quest3PreQuest = "true"
---
-Inst9Quest3name1 = "Eggscilloscope"
-
---Quest 4 Alliance
-Inst9Quest4 = "4. Око Углеглаза"
-Inst9Quest4_Level = "60"
-Inst9Quest4_Attain = "55"
-Inst9Quest4_Aim = "Принесите глаз Созерцателя Углей герцогу Гидраксису в Азшару."
-Inst9Quest4_Location = "Герцог Гидраксис (Азшара; "..YELLOW.."79,73"..WHITE..")"
-Inst9Quest4_Note = "Вы найдете Пиростраж Созерцатель Углей около "..YELLOW.."[1]"..WHITE..".\n\nПосле патча 3.0.8 нельзя взять эту цепочку заданий. Но если это задание у вас уже взято, вы сможете его закончить."
-Inst9Quest4_Prequest = "Отравленная вода"
-Inst9Quest4_Folgequest = "Огненные Недра"
-Inst9Quest4PreQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst9Quest5 = "5. Кончина генерала Драккисата"
-Inst9Quest5_Level = "60"
-Inst9Quest5_Attain = "55"
-Inst9Quest5_Aim = "Отправьтесь на пик Черной Скалы и устраните генерала Драккисата. По выполнении задания вернитесь к маршалу Максвеллу."
-Inst9Quest5_Location = "Маршал Максвелл (Пылающие степи - Дозор Моргана; "..YELLOW.."82,68"..WHITE..")"
-Inst9Quest5_Note = "Вы найдете генерала Драккисата около "..YELLOW.."[9]"..WHITE.."."
-Inst9Quest5_Prequest = "Приказ генерала Драккисата ("..YELLOW.."Нижний ярус Вершины Черной горы"..WHITE..")"
-Inst9Quest5_Folgequest = "Нет"
-Inst9Quest5PreQuest = "true"
---
-Inst9Quest5name1 = "Mark of Tyranny"
-Inst9Quest5name2 = "Eye of the Beast"
-Inst9Quest5name3 = "Blackhand's Breadth"
-
---Quest 6 Alliance
-Inst9Quest6 = "6. Пряжка Роковой оснастки"
-Inst9Quest6_Level = "60"
-Inst9Quest6_Attain = "57"
-Inst9Quest6_Aim = "Принесите пряжку Роковой оснастки Майре Светлое Крыло в Пылающие степи."
-Inst9Quest6_Location = "Майра Светлое Крыло (Пылающие степи - Дозор Моргана; "..YELLOW.."84,69"..WHITE..")"
-Inst9Quest6_Note = "Вы возьмете предшествующее задание у графа Ремингтона Риджвелла (Штормград - Крепость Штормграда; "..YELLOW.."76.9, 47.4"..WHITE..").\n\nПряжка Роковой оснастки is находится около "..YELLOW.."[3]"..WHITE.." с сундуке."
-Inst9Quest6_Prequest = "Майра Светлое Крыло"
-Inst9Quest6_Folgequest = "Доставить Риджвеллу"
-Inst9Quest6PreQuest = "true"
---
-Inst9Quest6name1 = "Swiftfoot Treads"
-Inst9Quest6name2 = "Blinkstrike Armguards"
-
---Quest 7 Alliance
-Inst9Quest7 = "7. Приказ Чернорука"
-Inst9Quest7_Level = "60"
-Inst9Quest7_Attain = "55"
-Inst9Quest7_Aim = "В письме ясно сказано, что генерал Драккисат охраняет клеймо. Наверное, стоит проверить."
-Inst9Quest7_Location = "Приказ Чернорука (падает с Интенданта из легиона Изрубленного Щита; "..YELLOW.."[7] на карте входа"..WHITE..")"
-Inst9Quest7_Note = "Задание для подготовки к Логову Крыла Тьмы. Интенданта из легиона Изрубленного Щита можно найти если повернуть направо перед порталом в НВЧГ/ВВЧГ.\n\nГенерал Драккисат находится около "..YELLOW.."[9]"..WHITE..". Печать за ним."
-Inst9Quest7_Prequest = "Нет"
-Inst9Quest7_Folgequest = "Нет"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst9Quest8 = "8. Последние приготовления"
-Inst9Quest8_Level = "60"
-Inst9Quest8_Attain = "58"
-Inst9Quest8_Aim = "Соберите 40 наручей Черной горы и разыскать склянку Великой силы. Отнесите их Бодли в Черную Скалу."
-Inst9Quest8_Location = "Бодли (Черная гора; "..YELLOW.."[D] на карте входа"..WHITE..")"
-Inst9Quest8_Note = "Чтобы увидеть Бодли нужен Спектральный сканер иных измерений. Вы получите его в задании 'В поисках Антиона'. Наручи Черной горы падают с существ с 'Черной Рукой' в имени. Склянку Великой силы делают алхимики."
-Inst9Quest8_Prequest = "Правая часть амулета Лорда Вальтхалака ("..YELLOW.."Верхний ярус Вершины Черной горы"..WHITE..")"
-Inst9Quest8_Folgequest = "Mea Culpa, Лорд Вальтхалак"
-Inst9Quest8PreQuest = "true"
--- No Rewards for this quest
-
---Quest 9 Alliance
-Inst9Quest9 = "9. Mea Culpa, Лорд Вальтхалак"
-Inst9Quest9_Level = "60"
-Inst9Quest9_Attain = "58"
-Inst9Quest9_Aim = "Вызвать Лорда Вальтхалака с помощью жаровни Призыва. Убить его и использовать амулет. Потом вернуть амулет духу Вальтхалака."
-Inst9Quest9_Location = "Бодли (Черная гора; "..YELLOW.."[D] на карте входа"..WHITE..")"
-Inst9Quest9_Note = "Чтобы увидеть Бодли нужен Спектральный сканер иных измерений. Вы получите его в задании 'В поисках Антиона'. Лорд Вальтхалак призывается около "..YELLOW.."[8]"..WHITE..". Список наград в задании Возвращение к Бодли."
-Inst9Quest9_Prequest = "Последние приготовления"
-Inst9Quest9_Folgequest = "Возвращение к Бодли"
-Inst9Quest9FQuest = "true"
---
-Inst9Quest9name1 = "Brazier of Invocation"
-Inst9Quest9name2 = "Brazier of Invocation: User's Manual"
-
---Quest 10 Alliance
-Inst9Quest10 = "10. Демонова Кузня (Кузнечное дело)"
-Inst9Quest10_Level = "60"
-Inst9Quest10_Attain = "55"
-Inst9Quest10_Aim = "Отправляйтесь на пик Черной горы и найдите Горалука Треснувшую Наковальню. Убейте его, а потом воткните в труп окровавленную пику. Когда вы извлечете его душу, пика станет запятнанной душами.\nКроме того, вам нужно найти некованую руническую кирасу.\nОтнесите пику и кирасу Лораксу в Зимних Ключах."
-Inst9Quest10_Location = "Лоракс (Зимние Ключи; "..YELLOW.."64,74"..WHITE..")"
-Inst9Quest10_Note = "Задание для кузнецов. Горалук Треснувшая наковальня находится около "..YELLOW.."[5]"..WHITE.."."
-Inst9Quest10_Prequest = "Нет"
-Inst9Quest10_Folgequest = "Нет"
---
-Inst9Quest10name1 = "Plans: Demon Forged Breastplate"
-Inst9Quest10name2 = "Elixir of Demonslaying"
-Inst9Quest10name3 = "Demon Kissed Sack"
-
---Quest 11 Alliance
-Inst9Quest11 = "11. Сбор яиц"
-Inst9Quest11_Level = "60"
-Inst9Quest11_Attain = "57"
-Inst9Quest11_Aim = "Принесите 8 драконьих яиц и устройство-коллекционер Тинки Кипеллер в Пламенеющий Стяг в Пылающих степях."
-Inst9Quest11_Location = "Тинки Кипеллер (Пылающие степи - Пламенеющий стяг; "..YELLOW.."65,24"..WHITE..")"
-Inst9Quest11_Note = "Вы найдете яйца в комнате с Огнем отцов "..YELLOW.."[2]"..WHITE.."."
-Inst9Quest11_Prequest = "Заморозка яйца"
-Inst9Quest11_Folgequest = "Леонид Барталомей -> Рассветный гамбит ("..YELLOW.."Некроситет"..WHITE..")"
-Inst9Quest11PreQuest = "true"
+Inst9Quest3_Attain = "55"
+Inst9Quest3_Aim = "Вот уж действительно идиот... Похоже, вам нужно найти это клеймо и выжечь на руке метку Драккисата, чтобы получить доступ к сфере Приказа."
+Inst9Quest3_Location = "Распоряжения Ренда Чернорука (падает с Интенданта из легиона Изрубленного Щита в Черной Горе; "..ORANGE.."[1']"..WHITE..")"
+Inst9Quest3_Note = "Интендант из легиона Изрубленного Щита, с которого падают Распоряжения Ренда Чернорука, начинающие задание, стоит внутри Черной горы. Он бродит по коридору, справа от входа в подземелье.\n\nКлеймо Драккисата находится сзади Генерала Драккисата "..YELLOW.."[6]"..WHITE.." в Верхней части Пика Черной горы."
+Inst9Quest3_Prequest = "Нет"
+Inst9Quest3_Folgequest = "Нет"
 -- No Rewards for this quest
 
 
@@ -1882,7 +1525,13 @@ Inst9Quest2_HORDE_Location = Inst9Quest2_Location
 Inst9Quest2_HORDE_Note = Inst9Quest2_Note
 Inst9Quest2_HORDE_Prequest = Inst9Quest2_Prequest
 Inst9Quest2_HORDE_Folgequest = Inst9Quest2_Folgequest
--- No Rewards for this quest
+Inst9Quest2PreQuest_HORDE = Inst9Quest2PreQuest
+Inst9Quest2FQuest_HORDE = Inst9Quest2FQuest
+--
+Inst9Quest2name1_HORDE = Inst9Quest2name1
+Inst9Quest2name2_HORDE = Inst9Quest2name2
+Inst9Quest2name3_HORDE = Inst9Quest2name3
+Inst9Quest2name4_HORDE = Inst9Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst9Quest3_HORDE = Inst9Quest3
@@ -1893,135 +1542,6 @@ Inst9Quest3_HORDE_Location = Inst9Quest3_Location
 Inst9Quest3_HORDE_Note = Inst9Quest3_Note
 Inst9Quest3_HORDE_Prequest = Inst9Quest3_Prequest
 Inst9Quest3_HORDE_Folgequest = Inst9Quest3_Folgequest
-Inst9Quest3PreQuest_HORDE = Inst9Quest3PreQuest
---
-Inst9Quest3name1_HORDE = Inst9Quest3name1
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst9Quest4_HORDE = Inst9Quest4
-Inst9Quest4_HORDE_Level = Inst9Quest4_Level
-Inst9Quest4_HORDE_Attain = Inst9Quest4_Attain
-Inst9Quest4_HORDE_Aim = Inst9Quest4_Aim
-Inst9Quest4_HORDE_Location = Inst9Quest4_Location
-Inst9Quest4_HORDE_Note = Inst9Quest4_Note
-Inst9Quest4_HORDE_Prequest = Inst9Quest4_Prequest
-Inst9Quest4_HORDE_Folgequest = Inst9Quest4_Folgequest
-Inst9Quest4PreQuest_HORDE = Inst9Quest4PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst9Quest5_HORDE = "5. Табличка Темнокамня"
-Inst9Quest5_HORDE_Level = "60"
-Inst9Quest5_HORDE_Attain = "57"
-Inst9Quest5_HORDE_Aim = "Принести табличку Темного Камня тенемагу Вивиан Лаграв в Каргат."
-Inst9Quest5_HORDE_Location = "Вивиан ЛяГроб (Бесплодные земли - Каргат; "..YELLOW.."2,47"..WHITE..")"
-Inst9Quest5_HORDE_Note = "Вы получите предшествующее задание у аптекаря Зинга в Подгороде - Квартал фармацевтов ("..YELLOW.."50,68"..WHITE..").\n\nThe Табличка Темнокамня находится около "..YELLOW.."[3]"..WHITE.." в сундуке."
-Inst9Quest5_HORDE_Prequest = "Вивиан Лягроб и табличка Темнокамня"
-Inst9Quest5_HORDE_Folgequest = "Нет"
-Inst9Quest5PreQuest_HORDE = "true"
---
-Inst9Quest5name1_HORDE = "Swiftfoot Treads"
-Inst9Quest5name2_HORDE = "Blinkstrike Armguards"
-
---Quest 6 Horde
-Inst9Quest6_HORDE = "6. За Орду!"
-Inst9Quest6_HORDE_Level = "60"
-Inst9Quest6_HORDE_Attain = "55"
-Inst9Quest6_HORDE_Aim = "Пойдите в Пик Черной горы и убейте вождя Ренда Чернорука. Принесите его голову в Оргриммар."
-Inst9Quest6_HORDE_Location = "Тралл (Оргриммар; "..YELLOW.."31,38"..WHITE..")"
-Inst9Quest6_HORDE_Note = "Задание для подготовки к Ониксии. Вы найдете вождя Ренда Черную руку около "..YELLOW.."[6]"..WHITE.."."
-Inst9Quest6_HORDE_Prequest = "Приказ полководца -> Мудрость Эйтригга"
-Inst9Quest6_HORDE_Folgequest = "Что принес ветер"
-Inst9Quest6PreQuest_HORDE = "true"
---
-Inst9Quest6name1_HORDE = "Mark of Tyranny"
-Inst9Quest6name2_HORDE = "Eye of the Beast"
-Inst9Quest6name3_HORDE = "Blackhand's Breadth"
-
---Quest 7 Horde
-Inst9Quest7_HORDE = "7. Иллюзиии Ока"
-Inst9Quest7_HORDE_Level = "60"
-Inst9Quest7_HORDE_Attain = "57"
-Inst9Quest7_HORDE_Aim = "Отправляйтесь на пик Черной горы и добудьте 20 глаз черных драконидов. По выполнении задания вернитесь к Миранде Колдунье."
-Inst9Quest7_HORDE_Location = "Миранда Колдунья (Западные Чумные земли; "..YELLOW.."50,77"..WHITE..")"
-Inst9Quest7_HORDE_Note = "Глаза падают с драконидов."
-Inst9Quest7_HORDE_Prequest = "Что принес ветер -> Госпожа обмана"
-Inst9Quest7_HORDE_Folgequest = "Огнебор"
-Inst9Quest7FQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 8 Horde
-Inst9Quest8_HORDE = "8. Кровь могучего черного дракона"
-Inst9Quest8_HORDE_Level = "60"
-Inst9Quest8_HORDE_Attain = "56"
-Inst9Quest8_HORDE_Aim = "Отправляйтесь к пику Черной горы и убейте генерала Драккисата. Соберите его кровь и вернитесь к Рокаро."
-Inst9Quest8_HORDE_Location = "Рокаро (Пустоши - Деревня Ночных охотников; "..YELLOW.."25,71"..WHITE..")"
-Inst9Quest8_HORDE_Note = "Последняя часть на пути к Ониксии. Вы найдете генерала Драккисата около "..YELLOW.."[9]"..WHITE.."."
-Inst9Quest8_HORDE_Prequest = "Огнебор -> Вознесение"
-Inst9Quest8_HORDE_Folgequest = "Нет"
-Inst9Quest8FQuest_HORDE = "true"
---
-Inst9Quest8name1_HORDE = "Drakefire Amulet"
-
---Quest 9 Horde  (same as Quest 7 Alliance)
-Inst9Quest9_HORDE = "7. Приказ Чернорука"
-Inst9Quest9_HORDE_Level = Inst9Quest7_Level
-Inst9Quest9_HORDE_Attain = Inst9Quest7_Attain
-Inst9Quest9_HORDE_Aim = Inst9Quest7_Aim
-Inst9Quest9_HORDE_Location = Inst9Quest7_Location
-Inst9Quest9_HORDE_Note = Inst9Quest7_Note
-Inst9Quest9_HORDE_Prequest = Inst9Quest7_Prequest
-Inst9Quest9_HORDE_Folgequest = Inst9Quest7_Folgequest
--- No Rewards for this quest
-
---Quest 10 Horde  (same as Quest 8 Alliance)
-Inst9Quest10_HORDE = "10. Последние приготовления"
-Inst9Quest10_HORDE_Level = Inst9Quest8_Level
-Inst9Quest10_HORDE_Attain = Inst9Quest8_Attain
-Inst9Quest10_HORDE_Aim = Inst9Quest8_Aim
-Inst9Quest10_HORDE_Location = Inst9Quest8_Location
-Inst9Quest10_HORDE_Note = Inst9Quest8_Note
-Inst9Quest10_HORDE_Prequest = Inst9Quest8_Prequest
-Inst9Quest10_HORDE_Folgequest = Inst9Quest8_Folgequest
--- No Rewards for this quest
-
---Quest 11 Horde  (same as Quest 9 Alliance)
-Inst9Quest11_HORDE = "11. Mea Culpa, Лорд Вальтхалак"
-Inst9Quest11_HORDE_Level = Inst9Quest9_Level
-Inst9Quest11_HORDE_Attain = Inst9Quest9_Attain
-Inst9Quest11_HORDE_Aim = Inst9Quest9_Aim
-Inst9Quest11_HORDE_Location = Inst9Quest9_Location
-Inst9Quest11_HORDE_Note = Inst9Quest9_Note
-Inst9Quest11_HORDE_Prequest = Inst9Quest9_Prequest
-Inst9Quest11_HORDE_Folgequest = Inst9Quest9_Folgequest
---
-Inst9Quest11name1_HORDE = Inst9Quest9name1
-Inst9Quest11name2_HORDE = Inst9Quest9name2
-
---Quest 12 Horde  (same as Quest 10 Alliance)
-Inst9Quest12_HORDE = "12. Демонова Кузня"
-Inst9Quest12_HORDE_Level = Inst9Quest10_Level
-Inst9Quest12_HORDE_Attain = Inst9Quest10_Attain
-Inst9Quest12_HORDE_Aim = Inst9Quest10_Aim
-Inst9Quest12_HORDE_Location = Inst9Quest10_Location
-Inst9Quest12_HORDE_Note = Inst9Quest10_Note
-Inst9Quest12_HORDE_Prequest = Inst9Quest10_Prequest
-Inst9Quest12_HORDE_Folgequest = Inst9Quest10_Folgequest
---
-Inst9Quest12name1_HORDE = Inst9Quest10name1
-Inst9Quest12name2_HORDE = Inst9Quest10name2
-Inst9Quest12name3_HORDE = Inst9Quest10name3
-
---Quest 13 Horde  (same as Quest 11 Alliance)
-Inst9Quest13_HORDE = "13. Сбор яиц"
-Inst9Quest13_HORDE_Level = Inst9Quest11_Level
-Inst9Quest13_HORDE_Attain = Inst9Quest11_Attain
-Inst9Quest13_HORDE_Aim = Inst9Quest11_Aim
-Inst9Quest13_HORDE_Location = Inst9Quest11_Location
-Inst9Quest13_HORDE_Note = Inst9Quest11_Note
-Inst9Quest13_HORDE_Prequest = Inst9Quest11_Prequest
-Inst9Quest13_HORDE_Folgequest = Inst9Quest11_Folgequest
-Inst9Quest13PreQuest_HORDE = Inst9Quest11PreQuest
 -- No Rewards for this quest
 
 
