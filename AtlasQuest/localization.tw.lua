@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2011-01-18
-	最後更新﹕二○一一年一月十八日
+	Last Updated: 2011-01-26
+	最後更新﹕二○一一年元月二十六日
 	新增　浩劫與重生　任務
 
 --]]
@@ -1217,7 +1217,7 @@ Inst6Quest1name3_HORDE = "屠龍大師之戒"
 Inst7Story = "位於梣谷佐拉姆海岸的黑暗深淵，曾經是為供奉夜精靈月神伊露恩所建造的。然而在遠古的大爆炸中，神廟受到極大的衝擊然後沉入海中。它一直保持著原狀——直到其蘊含的古老力量吸引了納迦和薩特。傳說，古代怪獸阿庫麥爾就居住在神廟遺跡中。作為古代之神最喜歡的寵物之一，阿庫麥爾一直生活在這個地區進行捕食；在阿庫麥爾的吸引下，一群被稱作暮光之錘的教徒也聚集在這裡從事邪惡的勾當。"
 Inst7Caption = "黑澗深淵"
 Inst7QAA = "6 個任務"
-Inst7QAH = "5 個任務"
+Inst7QAH = "6 個任務"
 
 --Quest 1 Alliance
 Inst7Quest1 = "1. 黑澗深淵"
@@ -1250,7 +1250,7 @@ Inst7Quest3 = "3. 尋找塞爾瑞德"
 Inst7Quest3_Level = "25"
 Inst7Quest3_Attain = "22"
 Inst7Quest3_Aim = "找出斥候塞爾瑞德。"
-Inst7Quest3_Location = "阿謝蘭·北木（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest3_Location = "阿謝蘭．北木（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
 Inst7Quest3_Note = "你可以在"..GREEN.."[2']"..WHITE.."找到斥候塞爾瑞德。"
 Inst7Quest3_Prequest = "無"
 Inst7Quest3_Folgequest = "黑澗深淵中的惡魔"
@@ -1262,7 +1262,7 @@ Inst7Quest4_Level = "28"
 Inst7Quest4_Attain = "22"
 Inst7Quest4_Aim = "取得暮光領主克爾里斯的頭顱。"
 Inst7Quest4_Location = "斥候塞爾瑞德（黑澗深淵; "..GREEN.."[2']"..WHITE.."）"
-Inst7Quest4_Note = "暮光領主克爾里斯在"..YELLOW.."[5]"..WHITE.."。任務完成後找地城入口處的阿謝蘭·北木回報。"
+Inst7Quest4_Note = "暮光領主克爾里斯在"..YELLOW.."[5]"..WHITE.."。任務完成後找地城入口處的阿謝蘭．北木回報。"
 Inst7Quest4_Prequest = "尋找塞爾瑞德"
 Inst7Quest4_Folgequest = "無"
 Inst7Quest4FQuest = "true"
@@ -1277,8 +1277,8 @@ Inst7Quest5 = "5. 研究墮落"
 Inst7Quest5_Level = "26"
 Inst7Quest5_Attain = "22"
 Inst7Quest5_Aim = "收集8份墮落者的腦幹。"
-Inst7Quest5_Location = "芮爾溫·影星（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
-Inst7Quest5_Note = "墮落者的腦幹可以在地城中的納迦和薩特身上拾取。任務完成後找地城入口處的芮爾溫·影星回報。"
+Inst7Quest5_Location = "芮爾溫．影星（黑澗深淵; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest5_Note = "墮落者的腦幹可以在地城中的納迦和薩特身上拾取。任務完成後找地城入口處的芮爾溫．影星回報。"
 Inst7Quest5_Prequest = "無"
 Inst7Quest5_Folgequest = "無"
 --
@@ -1363,189 +1363,73 @@ Inst7Quest5name2_HORDE = "阿庫麥爾之鱗"
 Inst7Quest5name3_HORDE = "黑澗護腿"
 Inst7Quest5name4_HORDE = "耶努的長袍"
 
+--Quest 6 Horde
+Inst7Quest6_HORDE = "6. 阿庫麥爾的精華"
+Inst7Quest6_HORDE_Level = "22"
+Inst7Quest6_HORDE_Attain = "17"
+Inst7Quest6_HORDE_Aim = "收集20顆阿庫麥爾藍寶石。"
+Inst7Quest6_HORDE_Location = "達格朗．怒錘（梣谷 - 佐拉姆加前哨站 ; "..YELLOW.."11.6, 35.5"..WHITE.."）"
+Inst7Quest6_HORDE_Note = "阿庫麥爾的精華可以在地城入口外的洞穴裡面找到。"
+Inst7Quest6_HORDE_Prequest = "無"
+Inst7Quest6_HORDE_Folgequest = "無"
+-- No Rewards for this quest
+
 
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
 
 Inst8Story = "黑石山深處的這個巨大堡壘是由矮人建築大師弗蘭克羅恩．鑄鐵所設計的。這個堡壘是矮人力量的像徵，並被邪惡的黑鐵矮人佔據了數個世紀。然而，奈法利安——死亡之翼狡猾的兒子——對這個巨大的堡壘別有意圖。他和他的邪惡軍團佔據了上層黑石塔，並向佔據著黑石深淵的黑鐵矮人宣戰。奈法利安知道矮人是由強大的火元素領主拉格納羅斯所領導，所以他立志要摧毀他的敵人，並將黑石山全部占為己有。"
 Inst8Caption = "黑石塔下層"
-Inst8QAA = "14 個任務"
-Inst8QAH = "14 個任務"
+Inst8QAA = "4 個任務"
+Inst8QAH = "3 個任務"
 
 --Quest 1 Alliance
-Inst8Quest1 = "1. 最後的石板"
+Inst8Quest1 = "1. 潛在的盟友"
 Inst8Quest1_Level = "58"
-Inst8Quest1_Attain = "40"
-Inst8Quest1_Aim = "將第五塊和第六塊摩沙魯石板交給塔納利斯的勘查員詹斯．鐵靴。"
-Inst8Quest1_Location = "勘查員詹斯．鐵靴（塔納利斯 - 熱砂港; "..YELLOW.."66,23"..WHITE.."）"
-Inst8Quest1_Note = "你可以在"..YELLOW.."[7]"..WHITE.."和"..YELLOW.."[9]"..WHITE.."附近找到石板。\n任務獎勵來自《面對葉基亞》。你可以在勘查員詹斯．鐵靴旁邊找到葉基亞。"
-Inst8Quest1_Prequest = "失落的摩沙魯石板"
-Inst8Quest1_Folgequest = "面對葉基亞"
-Inst8Quest1PreQuest = "true"
---
-Inst8Quest1name1 = "褪色的哈卡萊披風"
-Inst8Quest1name2 = "破碎的哈卡萊斗篷"
+Inst8Quest1_Attain = "57"
+Inst8Quest1_Aim = "找到阿克萊德。"
+Inst8Quest1_Location = "監督者奧菲斯特（灼熱峽谷 - 塞銀哨塔; "..YELLOW.."38.2, 27.0"..WHITE.."）"
+Inst8Quest1_Note = "阿克萊德在地城中的"..GREEN.."[1']"..WHITE.."處。這只是一個引導你前往地城的指向性任務。"
+Inst8Quest1_Prequest = "無"
+Inst8Quest1_Folgequest = "無"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst8Quest2 = "2. 基布雷爾的特殊寵物"
-Inst8Quest2_Level = "59"
-Inst8Quest2_Attain = "55"
-Inst8Quest2_Aim = "到黑石塔去找到小血斧座狼。使用籠子來捕捉這些兇猛的小野獸，然後把籠中的小座狼交給基佈雷爾。"
-Inst8Quest2_Location = "基佈雷爾（燃燒平原 - 烈焰峰; "..YELLOW.."65,22"..WHITE.."）"
-Inst8Quest2_Note = "你可以在哈雷肯的旁邊"..YELLOW.."[17]"..WHITE.."找到小血斧座狼。"
+Inst8Quest2 = "2. 異常的黑石獸人"
+Inst8Quest2_Level = "58"
+Inst8Quest2_Attain = "57"
+Inst8Quest2_Aim = "找到阿克萊德。"
+Inst8Quest2_Location = "赫林迪斯．河角（燃燒平原 - 摩根的崗哨; "..YELLOW.."73.4, 66.3"..WHITE.."）"
+Inst8Quest2_Note = "阿克萊德在地城中的"..GREEN.."[1']"..WHITE.."處。這只是一個引導你前往地城的指向性任務。"
 Inst8Quest2_Prequest = "無"
 Inst8Quest2_Folgequest = "無"
---
-Inst8Quest2name1 = "座狼籠"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst8Quest3 = "3. 蜘蛛卵"
-Inst8Quest3_Level = "59"
-Inst8Quest3_Attain = "55"
-Inst8Quest3_Aim = "到黑石塔去為基佈雷爾收集15枚尖塔蜘蛛卵。\n聽說那些蜘蛛周圍有許多這樣的卵。"
-Inst8Quest3_Location = "基佈雷爾（燃燒平原 - 烈焰峰; "..YELLOW.."65,22"..WHITE.."）"
-Inst8Quest3_Note = "你可以在"..YELLOW.."[13]"..WHITE.."附近找到蜘蛛卵。"
+Inst8Quest3 = "3. 敵對陣營的朋友"
+Inst8Quest3_Level = "58"
+Inst8Quest3_Attain = "57"
+Inst8Quest3_Aim = "找到阿克萊德。"
+Inst8Quest3_Location = "狼狽不堪的約翰（燃燒平原 - 索瑞森廢墟; "..YELLOW.."54.2, 23.9"..WHITE.."）"
+Inst8Quest3_Note = "阿克萊德在地城中的"..GREEN.."[1']"..WHITE.."處。這只是一個引導你前往地城的指向性任務。"
 Inst8Quest3_Prequest = "無"
 Inst8Quest3_Folgequest = "無"
---
-Inst8Quest3name1 = "煙網蜘蛛籠"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst8Quest4 = "4. 蛛后的乳汁"
-Inst8Quest4_Level = "60"
-Inst8Quest4_Attain = "55"
-Inst8Quest4_Aim = "你可以在黑石塔的中心地帶找到煙網蛛后。與她戰鬥，讓她在你體內注入毒汁。如果你有能力的話，就殺死她吧。當你中毒之後，回到狼狽不堪的約翰那兒，他會從你的身體裡抽取這些『蛛后的乳汁』。 "
-Inst8Quest4_Location = "狼狽不堪的約翰（燃燒平原 - 烈焰峰; "..YELLOW.."65,23"..WHITE.."）"
-Inst8Quest4_Note = "煙網蛛后就在"..YELLOW.."[13]"..WHITE.."。如果中毒後使用不成熟的毒囊解除，那麼任務就會無法完成。"
+Inst8Quest4 = "4. 食人妖、巨魔，還有獸人。救人喔!"
+Inst8Quest4_Level = "59"
+Inst8Quest4_Attain = "57"
+Inst8Quest4_Aim = "殺死戰爭指揮官沃恩、歐莫克大王和維姆薩拉克主宰。"
+Inst8Quest4_Location = "阿克萊德（黑石塔; "..GREEN.."[1']"..WHITE.."）"
+Inst8Quest4_Note = "戰爭指揮官沃恩在"..YELLOW.."[3]"..WHITE.."，歐莫克大王在"..YELLOW.."[1]"..WHITE.."，維姆薩拉克主宰在"..YELLOW.."[8]"..WHITE.."。三人都位在黑石塔下層。"
 Inst8Quest4_Prequest = "無"
 Inst8Quest4_Folgequest = "無"
 --
-Inst8Quest4name1 = "約翰的無盡之杯"
-
---Quest 5 Alliance
-Inst8Quest5 = "5. 座狼之源"
-Inst8Quest5_Level = "59"
-Inst8Quest5_Attain = "55"
-Inst8Quest5_Aim = "到黑石塔去摧毀那裡的座狼源頭。當你離開的時候，赫林迪斯喊出了一個名字：哈雷肯。這個詞就是獸人語中『座狼』的意思。"
-Inst8Quest5_Location = "赫林迪斯．河角（燃燒平原 - 摩根的崗哨; "..YELLOW.."5,47"..WHITE.."）"
-Inst8Quest5_Note = "哈雷肯在"..YELLOW.."[17]"..WHITE.."。"
-Inst8Quest5_Prequest = "無"
-Inst8Quest5_Folgequest = "無"
---
-Inst8Quest5name1 = "阿斯托里長袍"
-Inst8Quest5name2 = "吊鉤上衣"
-Inst8Quest5name3 = "碧鱗胸甲"
-
---Quest 6 Alliance
-Inst8Quest6 = "6. 烏洛克"
-Inst8Quest6_Level = "60"
-Inst8Quest6_Attain = "55"
-Inst8Quest6_Aim = "閱讀瓦羅什的卷軸。將瓦羅什的魔精交給他。"
-Inst8Quest6_Location = "瓦羅什（黑石塔下層; "..YELLOW.."[2]"..WHITE.."）"
-Inst8Quest6_Note = "要得到瓦羅什的魔精，你必須要召喚並殺死烏洛克"..YELLOW.."[15]"..WHITE.."。在召喚烏洛克的過程中，你需要一根尖銳長矛"..YELLOW.."[3]"..WHITE.."和歐莫克大王的頭顱"..YELLOW.."[5]"..WHITE.."。在召喚烏洛克的過程中會有幾波巨魔出來攻擊你。注意：你可以在戰鬥中使用尖銳長矛攻擊巨魔。"
-Inst8Quest6_Prequest = "無"
-Inst8Quest6_Folgequest = "無"
---
-Inst8Quest6name1 = "稜石符咒"
-
---Quest 7 Alliance
-Inst8Quest7 = "7. 比修的裝置"
-Inst8Quest7_Level = "59"
-Inst8Quest7_Attain = "55"
-Inst8Quest7_Aim = "找到比修的裝置並且交還給她。祝你好運！"
-Inst8Quest7_Location = "比修（黑石塔下層; "..YELLOW.."[8]"..WHITE.."）"
-Inst8Quest7_Note = "你可以在前往煙網蛛后的路上找到比修的裝置"..YELLOW.."[10]"..WHITE.."。\n麥克斯韋爾元帥（燃燒平原 - 摩根的崗哨; "..YELLOW.."84,58"..WHITE.."）。"
-Inst8Quest7_Prequest = "無"
-Inst8Quest7_Folgequest = "給麥克斯韋爾的消息"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst8Quest8 = "8. 麥克斯韋爾的任務"
-Inst8Quest8_Level = "60"
-Inst8Quest8_Attain = "55"
-Inst8Quest8_Aim = "到黑石塔去消滅指揮官沃恩、歐莫克大王和維姆薩拉克。完成任務之後回到麥克斯韋爾元帥處覆命。"
-Inst8Quest8_Location = "麥克斯韋爾（燃燒平原 - 摩根的崗哨; "..YELLOW.."84,58"..WHITE.."）"
-Inst8Quest8_Note = "指揮官沃恩在"..YELLOW.."[9]"..WHITE.."，歐莫克大王在"..YELLOW.."[5]"..WHITE.."，維姆薩拉克在"..YELLOW.."[19]"..WHITE.."。"
-Inst8Quest8_Prequest = "給麥克斯韋爾的消息"
-Inst8Quest8_Folgequest = "無"
-Inst8Quest8FQuest = "true"
---
-Inst8Quest8name1 = "維姆薩拉克的鐐銬"
-Inst8Quest8name2 = "歐莫克的瘦身腰帶"
-Inst8Quest8name3 = "哈雷肯的籠口"
-Inst8Quest8name4 = "沃許加斯的繩索"
-Inst8Quest8name5 = "沃恩的邪惡之握"
-
---Quest 9 Alliance
-Inst8Quest9 = "9. 晉升徽印"
-Inst8Quest9_Level = "60"
-Inst8Quest9_Attain = "57"
-Inst8Quest9_Aim = "找到三塊命令寶石：燃棘寶鑽、尖石寶鑽和血斧寶鑽。把它們和原始晉升印章一起交給維埃蘭。\n可能攜帶者三塊寶石的將軍是：燃棘氏族的指揮官沃恩、尖石氏族的歐莫克大王，以及血斧氏族的維姆薩拉克。"
-Inst8Quest9_Location = "維埃蘭（黑石塔下層; "..YELLOW.."[1]"..WHITE.."）"
-Inst8Quest9_Note = "歐莫克大王在"..YELLOW.."[5]"..WHITE.."，指揮官沃恩在"..YELLOW.."[9]"..WHITE.."，維姆薩拉克在"..YELLOW.."[19]"..WHITE.."。原始晉升印章由黑石塔地城內外的小怪隨機掉落。\n如果你完成這一系列任務就能得到用以打開黑石塔上層門的戒指。"
-Inst8Quest9_Prequest = "無"
-Inst8Quest9_Folgequest = "晉升印章"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst8Quest10 = "10. 達基薩斯將軍的命令"
-Inst8Quest10_Level = "60"
-Inst8Quest10_Attain = "55"
-Inst8Quest10_Aim = "把達基薩斯將軍的命令交給燃燒平原的麥克斯韋爾元帥。"
-Inst8Quest10_Location = "達基薩斯將軍的命令（維姆薩拉克掉落 - 黑石塔下層; "..YELLOW.."[19]"..WHITE.."）"
-Inst8Quest10_Note = "麥克斯韋爾元帥（燃燒平原 - 摩根的崗哨; "..YELLOW.."84,58"..WHITE.."）"
-Inst8Quest10_Prequest = "無"
-Inst8Quest10_Folgequest = "達基薩斯將軍之死（"..YELLOW.."黑石塔上層"..WHITE.."）"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst8Quest11 = "11. 瓦薩拉克領主護符的左半塊"
-Inst8Quest11_Level = "60"
-Inst8Quest11_Attain = "58"
-Inst8Quest11_Aim = "使用召喚火盆召喚出莫爾．灰蹄的靈魂，然後殺掉他。完成之後，將召喚火盆與瓦薩拉克領主護符的左半塊還給黑石山的布德利。"
-Inst8Quest11_Location = "布德利（黑石山; "..YELLOW.."副本入口地圖[D]"..WHITE.."）"
-Inst8Quest11_Note = "你需要超維度幽靈顯形器才能看到布德利，你可以從《尋找安泰恩》任務得到它。\n\n莫爾．灰蹄在"..YELLOW.."[9]"..WHITE.."召喚。"
-Inst8Quest11_Prequest = "重要的材料"
-Inst8Quest11_Folgequest = "奧卡茲島在你前方……"
-Inst8Quest11PreQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst8Quest12 = "12. 瓦薩拉克領主護符的右半塊"
-Inst8Quest12_Level = "60"
-Inst8Quest12_Attain = "58"
-Inst8Quest12_Aim = "使用召喚火盆召喚莫爾．灰蹄的靈魂並殺了他。帶著重新組合的瓦薩拉克領主的護符和召喚火盆回到黑石山的布德利那裡。"
-Inst8Quest12_Location = "布德利（黑石山; "..YELLOW.."副本入口地圖[D]"..WHITE.."）"
-Inst8Quest12_Note = "你需要超維度幽靈顯形器才能看到布德利。你可以從《尋找安泰恩》任務得到它。\n\n莫爾．灰蹄在"..YELLOW.."[9]"..WHITE.."召喚。"
-Inst8Quest12_Prequest = "更多重要的材料"
-Inst8Quest12_Folgequest = "最後的準備（"..YELLOW.."黑石塔上層"..WHITE.."）"
-Inst8Quest12PreQuest = "true"
--- No Rewards for this quest
-
---Quest 13 Alliance
-Inst8Quest13 = "13. 沃許加斯的菊石 (鍛造 - 鑄劍大師任務)"
-Inst8Quest13_Level = "60"
-Inst8Quest13_Attain = "50"
-Inst8Quest13_Aim = "到黑石塔去殺死暗影獵手沃許加斯，將沃許加斯的菊石交給基爾拉姆。"
-Inst8Quest13_Location = "基爾拉姆（冬泉谷 - 永望鎮; "..YELLOW.."61,37"..WHITE.."）"
-Inst8Quest13_Note = "暗影獵手沃許加斯在"..YELLOW.."[7]"..WHITE.."。"
-Inst8Quest13_Prequest = "無"
-Inst8Quest13_Folgequest = "無"
---
-Inst8Quest13name1 = "設計圖：黎明之刃"
-
---Quest 14 Alliance
-Inst8Quest14 = "14. 火熱的死亡"
-Inst8Quest14_Level = "60"
-Inst8Quest14_Attain = "56"
-Inst8Quest14_Aim = "世界上一定有人知道關於這副手套的事情，祝你好運！"
-Inst8Quest14_Location = "人類的殘骸（黑石塔下層; "..YELLOW.."[11]"..WHITE.."）"
-Inst8Quest14_Note = "鍛造任務。確保從人類殘骸"..YELLOW.."[11]"..WHITE.."附近拿到這個鎧甲手套，交給瑪雷弗斯．暗錘（冬泉谷 - 永望鎮; "..YELLOW.."61,39"..WHITE.."）。 "
-Inst8Quest14_Prequest = "無"
-Inst8Quest14_Folgequest = "熾熱鎧甲護手"
---
-Inst8Quest14name1 = "設計圖：熾熱鎧甲護手 "
-Inst8Quest14name2 = "熾熱鎧甲護手"
+Inst8Quest4name1 = "將領肩鎧"
+Inst8Quest4name2 = "霸主腿甲"
+Inst8Quest4name3 = "大領主護軀"
+Inst8Quest4name4 = "尖塔指環"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1557,173 +1441,33 @@ Inst8Quest1_HORDE_Location = Inst8Quest1_Location
 Inst8Quest1_HORDE_Note = Inst8Quest1_Note
 Inst8Quest1_HORDE_Prequest = Inst8Quest1_Prequest
 Inst8Quest1_HORDE_Folgequest = Inst8Quest1_Folgequest
-Inst8Quest1PreQuest_HORDE = Inst8Quest1PreQuest
---
-Inst8Quest1name1_HORDE = Inst8Quest1name1
-Inst8Quest1name2_HORDE = Inst8Quest1name2
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst8Quest2_HORDE = Inst8Quest2
-Inst8Quest2_HORDE_Level = Inst8Quest2_Level
-Inst8Quest2_HORDE_Attain = Inst8Quest2_Attain
-Inst8Quest2_HORDE_Aim = Inst8Quest2_Aim
-Inst8Quest2_HORDE_Location = Inst8Quest2_Location
-Inst8Quest2_HORDE_Note = Inst8Quest2_Note
-Inst8Quest2_HORDE_Prequest = Inst8Quest2_Prequest
-Inst8Quest2_HORDE_Folgequest = Inst8Quest2_Folgequest
---
-Inst8Quest2name1_HORDE = Inst8Quest2name1
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst8Quest3_HORDE = Inst8Quest3
-Inst8Quest3_HORDE_Level = Inst8Quest3_Level
-Inst8Quest3_HORDE_Attain = Inst8Quest3_Attain
-Inst8Quest3_HORDE_Aim = Inst8Quest3_Aim
-Inst8Quest3_HORDE_Location = Inst8Quest3_Location
-Inst8Quest3_HORDE_Note = Inst8Quest3_Note
-Inst8Quest3_HORDE_Prequest = Inst8Quest3_Prequest
-Inst8Quest3_HORDE_Folgequest = Inst8Quest3_Folgequest
---
-Inst8Quest3name1_HORDE = Inst8Quest3name1
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst8Quest4_HORDE = Inst8Quest4
-Inst8Quest4_HORDE_Level = Inst8Quest4_Level
-Inst8Quest4_HORDE_Attain = Inst8Quest4_Attain
-Inst8Quest4_HORDE_Aim = Inst8Quest4_Aim
-Inst8Quest4_HORDE_Location = Inst8Quest4_Location
-Inst8Quest4_HORDE_Note = Inst8Quest4_Note
-Inst8Quest4_HORDE_Prequest = Inst8Quest4_Prequest
-Inst8Quest4_HORDE_Folgequest = Inst8Quest4_Folgequest
---
-Inst8Quest4name1_HORDE = Inst8Quest4name1
-
---Quest 5 Horde
-Inst8Quest5_HORDE = "5. 座狼的首領"
-Inst8Quest5_HORDE_Level = "59"
-Inst8Quest5_HORDE_Attain = "55"
-Inst8Quest5_HORDE_Aim = "殺死血斧座狼的領袖，哈雷肯。"
-Inst8Quest5_HORDE_Location = "神射手賈拉瑪弗（荒蕪之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）"
-Inst8Quest5_HORDE_Note = "哈雷肯在"..YELLOW.."[17]"..WHITE.."。"
-Inst8Quest5_HORDE_Prequest = "無"
-Inst8Quest5_HORDE_Folgequest = "無"
---
-Inst8Quest5name1_HORDE = "阿斯托里長袍"
-Inst8Quest5name2_HORDE = "吊鉤上衣"
-Inst8Quest5name3_HORDE = "碧鱗胸甲"
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst8Quest6_HORDE = Inst8Quest6
-Inst8Quest6_HORDE_Level = Inst8Quest6_Level
-Inst8Quest6_HORDE_Attain = Inst8Quest6_Attain
-Inst8Quest6_HORDE_Aim = Inst8Quest6_Aim
-Inst8Quest6_HORDE_Location = Inst8Quest6_Location
-Inst8Quest6_HORDE_Note = Inst8Quest6_Note
-Inst8Quest6_HORDE_Prequest = Inst8Quest6_Prequest
-Inst8Quest6_HORDE_Folgequest = Inst8Quest6_Folgequest
---
-Inst8Quest6name1_HORDE = Inst8Quest6name1
-
---Quest 7 Horde
-Inst8Quest7_HORDE = "7. 狡猾的比修"
-Inst8Quest7_HORDE_Level = "59"
-Inst8Quest7_HORDE_Attain = "55"
-Inst8Quest7_HORDE_Aim = "到黑石塔去查明比修的下落。"
-Inst8Quest7_HORDE_Location = "雷克斯洛特（荒蕪之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）"
-Inst8Quest7_HORDE_Note = "比修在"..YELLOW.."[8]"..WHITE.."。"
-Inst8Quest7_HORDE_Prequest = "無"
-Inst8Quest7_HORDE_Folgequest = "比修的裝置"
 -- No Rewards for this quest
 
---Quest 8 Horde
-Inst8Quest8_HORDE = "8. 比修的裝置"
-Inst8Quest8_HORDE_Level = "59"
-Inst8Quest8_HORDE_Attain = "55"
-Inst8Quest8_HORDE_Aim = "找到比修的裝置並把它們還給她。你記得她說過她把裝置藏在城市的最底層。"
-Inst8Quest8_HORDE_Location = "比修（黑石塔下層; "..YELLOW.."[8]"..WHITE.."）"
-Inst8Quest8_HORDE_Note = "你可以在在通往煙網蛛后的路上找到比修的裝置"..YELLOW.."[10]"..WHITE.."。"
-Inst8Quest8_HORDE_Prequest = "狡猾的比修"
-Inst8Quest8_HORDE_Folgequest = "比修的偵查報告"
-Inst8Quest8FQuest_HORDE = "true"
---
-Inst8Quest8name1_HORDE = "亂風手套"
-Inst8Quest8name2_HORDE = "海港束帶"
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst8Quest9_HORDE = Inst8Quest9
-Inst8Quest9_HORDE_Level = Inst8Quest9_Level
-Inst8Quest9_HORDE_Attain = Inst8Quest9_Attain
-Inst8Quest9_HORDE_Aim = Inst8Quest9_Aim
-Inst8Quest9_HORDE_Location = Inst8Quest9_Location
-Inst8Quest9_HORDE_Note = Inst8Quest9_Note
-Inst8Quest9_HORDE_Prequest = Inst8Quest9_Prequest
-Inst8Quest9_HORDE_Folgequest = Inst8Quest9_Folgequest
+--Quest 2 Horde  (same as Quest 3 Alliance)
+Inst8Quest2_HORDE = "2. 敵對陣營的朋友"
+Inst8Quest2_HORDE_Level = Inst8Quest3_Level
+Inst8Quest2_HORDE_Attain = Inst8Quest3_Attain
+Inst8Quest2_HORDE_Aim = Inst8Quest3_Aim
+Inst8Quest2_HORDE_Location = Inst8Quest3_Location
+Inst8Quest2_HORDE_Note = Inst8Quest3_Note
+Inst8Quest2_HORDE_Prequest = Inst8Quest3_Prequest
+Inst8Quest2_HORDE_Folgequest = Inst8Quest3_Folgequest
 -- No Rewards for this quest
 
---Quest 10 Horde
-Inst8Quest10_HORDE = "10. 高圖斯的命令"
-Inst8Quest10_HORDE_Level = "60"
-Inst8Quest10_HORDE_Attain = "55"
-Inst8Quest10_HORDE_Aim = "殺死歐莫克大王、指揮官沃恩和維姆薩拉克。找到重要的黑石文件，然後向卡加斯的軍官高圖斯匯報。"
-Inst8Quest10_HORDE_Location = "軍官高圖斯（荒蕪之地 - 卡加斯; "..YELLOW.."65,22"..WHITE.."）"
-Inst8Quest10_HORDE_Note = "奧妮克希亞的巢穴鑰匙前置任務。指揮官沃恩在"..YELLOW.."[9]"..WHITE.."，歐莫克大王在 "..YELLOW.."[5]"..WHITE.."，維姆薩拉克在 "..YELLOW.."[19]"..WHITE.."。重要的黑石文件在3個王的其中一個附近。"
-Inst8Quest10_HORDE_Prequest = "無"
-Inst8Quest10_HORDE_Folgequest = "伊崔格的智慧→為部落而戰（"..YELLOW.."黑石塔上層"..WHITE.."）"
+--Quest 3 Horde  (same as Quest 4 Alliance)
+Inst8Quest3_HORDE = "3. 食人妖、巨魔，還有獸人。救人喔!"
+Inst8Quest3_HORDE_Level = Inst8Quest4_Level
+Inst8Quest3_HORDE_Attain = Inst8Quest4_Attain
+Inst8Quest3_HORDE_Aim = Inst8Quest4_Aim
+Inst8Quest3_HORDE_Location = Inst8Quest4_Location
+Inst8Quest3_HORDE_Note = Inst8Quest4_Note
+Inst8Quest3_HORDE_Prequest = Inst8Quest4_Prequest
+Inst8Quest3_HORDE_Folgequest = Inst8Quest4_Folgequest
 --
-Inst8Quest10name1_HORDE = "維姆薩拉克的鐐銬"
-Inst8Quest10name2_HORDE = "歐莫克的瘦身腰帶"
-Inst8Quest10name3_HORDE = "哈雷肯的籠口"
-Inst8Quest10name4_HORDE = "沃許加斯的繩索"
-Inst8Quest10name5_HORDE = "沃恩的邪惡之握"
-
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst8Quest11_HORDE = Inst8Quest11
-Inst8Quest11_HORDE_Level = Inst8Quest11_Level
-Inst8Quest11_HORDE_Attain = Inst8Quest11_Attain
-Inst8Quest11_HORDE_Aim = Inst8Quest11_Aim
-Inst8Quest11_HORDE_Location = Inst8Quest11_Location
-Inst8Quest11_HORDE_Note = Inst8Quest11_Note
-Inst8Quest11_HORDE_Prequest = Inst8Quest11_Prequest
-Inst8Quest11_HORDE_Folgequest = Inst8Quest11_Folgequest
-Inst8Quest11PreQuest_HORDE = Inst8Quest11PreQuest
--- No Rewards for this quest
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst8Quest12_HORDE = Inst8Quest12
-Inst8Quest12_HORDE_Level = Inst8Quest12_Level
-Inst8Quest12_HORDE_Attain = Inst8Quest12_Attain
-Inst8Quest12_HORDE_Aim = Inst8Quest12_Aim
-Inst8Quest12_HORDE_Location = Inst8Quest12_Location
-Inst8Quest12_HORDE_Note = Inst8Quest12_Note
-Inst8Quest12_HORDE_Prequest = Inst8Quest12_Prequest
-Inst8Quest12_HORDE_Folgequest = Inst8Quest12_Folgequest
-Inst8Quest12PreQuest_HORDE = Inst8Quest12PreQuest
--- No Rewards for this quest
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst8Quest13_HORDE = Inst8Quest13
-Inst8Quest13_HORDE_Level = Inst8Quest13_Level
-Inst8Quest13_HORDE_Attain = Inst8Quest13_Attain
-Inst8Quest13_HORDE_Aim = Inst8Quest13_Aim
-Inst8Quest13_HORDE_Location = Inst8Quest13_Location
-Inst8Quest13_HORDE_Note = Inst8Quest13_Note
-Inst8Quest13_HORDE_Prequest = Inst8Quest13_Prequest
-Inst8Quest13_HORDE_Folgequest = Inst8Quest13_Folgequest
---
-Inst8Quest13name1_HORDE = Inst8Quest13name1
-
---Quest 14 Horde  (same as Quest 14 Alliance)
-Inst8Quest14_HORDE = Inst8Quest14
-Inst8Quest14_HORDE_Level = Inst8Quest14_Level
-Inst8Quest14_HORDE_Attain = Inst8Quest14_Attain
-Inst8Quest14_HORDE_Aim = Inst8Quest14_Aim
-Inst8Quest14_HORDE_Location = Inst8Quest14_Location
-Inst8Quest14_HORDE_Note = Inst8Quest14_Note
-Inst8Quest14_HORDE_Prequest = Inst8Quest14_Prequest
-Inst8Quest14_HORDE_Folgequest = Inst8Quest14_Folgequest
---
-Inst8Quest14name1_HORDE = Inst8Quest14name1
-Inst8Quest14name2_HORDE = Inst8Quest14name2
+Inst8Quest3name1_HORDE = Inst8Quest4name1
+Inst8Quest3name2_HORDE = Inst8Quest4name2
+Inst8Quest3name3_HORDE = Inst8Quest4name3
+Inst8Quest3name4_HORDE = Inst8Quest4name4
 
 
 
@@ -1731,146 +1475,44 @@ Inst8Quest14name2_HORDE = Inst8Quest14name2
 
 Inst9Story = "黑石山深處的這個巨大堡壘是由矮人建築大師弗蘭克羅恩．鑄鐵所設計的。這個堡壘是矮人力量的像徵，並被邪惡的黑鐵矮人佔據了數個世紀。然而，奈法利安——死亡之翼狡猾的兒子——對這個巨大的堡壘別有意圖。他和他的邪惡軍團佔據了上層黑石塔，並向佔據著黑石深淵的黑鐵矮人宣戰。奈法利安知道矮人是由強大的火元素領主拉格納羅斯所領導，所以他立志要摧毀他的敵人，並將黑石山全部占為己有。"
 Inst9Caption = "黑石塔上層"
-Inst9QAA = "11 個任務"
-Inst9QAH = "13 個任務"
+Inst9QAA = "3 個任務"
+Inst9QAH = "3 個任務"
 
 --Quest 1 Alliance
-Inst9Quest1 = "1. 監護者"
-Inst9Quest1_Level = "60"
+Inst9Quest1 = "1. 假大酋長"
+Inst9Quest1_Level = "59"
 Inst9Quest1_Attain = "57"
-Inst9Quest1_Aim = "到冬泉谷去找到哈爾琳，把奧比的鱗片交給她。"
-Inst9Quest1_Location = "奧比（黑石塔上層; "..YELLOW.."[7]"..WHITE.."）"
-Inst9Quest1_Note = "你可以在競技場旁邊的房間找到奧比"..YELLOW.."[7]"..WHITE.."，牠躺在一個突出部份上。\n哈爾琳就在冬泉谷（"..YELLOW.."54,51"..WHITE.."）。站在洞穴深處的藍色傳送符文上就能傳送到她身邊。"
+Inst9Quest1_Aim = "殺死大酋長雷德．黑手。"
+Inst9Quest1_Location = "阿克萊德（黑石塔; "..GREEN.."[1']"..WHITE.."）"
+Inst9Quest1_Note = "大酋長雷德．黑手在黑石塔上層的"..YELLOW.."[4]"..WHITE.."。"
 Inst9Quest1_Prequest = "無"
-Inst9Quest1_Folgequest = "藍龍之怒"
+Inst9Quest1_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst9Quest2 = "2. 芬克·恩霍爾，為您效勞!"
+Inst9Quest2 = "2. 達基薩斯將軍，奈法利安的左右手"
 Inst9Quest2_Level = "60"
 Inst9Quest2_Attain = "57"
-Inst9Quest2_Aim = "與永望鎮的瑪雷弗斯．暗錘談話。"
-Inst9Quest2_Location = "芬克．恩霍爾（黑石塔上層; "..YELLOW.."[8]"..WHITE.."）"
-Inst9Quest2_Note = "殺死比斯巨獸後，芬克．恩霍爾會在撥完比斯巨獸的皮後出現。瑪雷弗斯．暗錘在（冬泉谷 - 永望鎮; "..YELLOW.."61,38"..WHITE.."）。"
+Inst9Quest2_Aim = "殺死達基薩斯將軍。"
+Inst9Quest2_Location = "阿克萊德（黑石塔; "..GREEN.."[1']"..WHITE.."）"
+Inst9Quest2_Note = "達基薩斯將軍在黑石塔上層的"..YELLOW.."[6]"..WHITE.."。"
 Inst9Quest2_Prequest = "無"
-Inst9Quest2_Folgequest = "阿卡納護腿、血色學者之帽、嗜血胸甲"
--- No Rewards for this quest
+Inst9Quest2_Folgequest = "無"
+--
+Inst9Quest2name1 = "奈法利安之手"
+Inst9Quest2name2 = "艾拉之杖"
+Inst9Quest2name3 = "第二寶珠法杖"
+Inst9Quest2name4 = "維埃蘭之爪"
 
 --Quest 3 Alliance
-Inst9Quest3 = "3. 冷凍龍蛋 (燃燒平原系列任務)"
+Inst9Quest3 = "3. 黑手的命令"
 Inst9Quest3_Level = "60"
-Inst9Quest3_Attain = "57"
-Inst9Quest3_Aim = "在孵化間對著某顆龍蛋使用龍蛋冷凍器初號機。"
-Inst9Quest3_Location = "丁奇．斯迪波爾（燃燒平原 - 烈焰峰; "..YELLOW.."65,24"..WHITE.."）"
-Inst9Quest3_Note = "你可以在烈焰之父"..YELLOW.."[2]"..WHITE.."的房間找到龍蛋。"
-Inst9Quest3_Prequest = "雛龍精華→丁奇．斯迪波爾"
-Inst9Quest3_Folgequest = "收集龍蛋"
-Inst9Quest3PreQuest = "true"
---
-Inst9Quest3name1 = "龍蛋冷凍器"
-
---Quest 4 Alliance
-Inst9Quest4 = "4. 艾博希爾之眼"
-Inst9Quest4_Level = "60"
-Inst9Quest4_Attain = "55"
-Inst9Quest4_Aim = "將艾博希爾之眼交給艾薩拉的海達克西斯公爵。"
-Inst9Quest4_Location = "海達克西斯公爵（艾薩拉; "..YELLOW.."79,73"..WHITE.."）"
-Inst9Quest4_Note = "你可以在"..YELLOW.."[1]"..WHITE.."找到烈焰衛士艾博希爾。在3.0.8版本之後你將不再需要進行這條任務線了，如果你已經擁有這個任務了，你仍然可以完成它。"
-Inst9Quest4_Prequest = "被囚禁的水元素→雷暴和磐石"
-Inst9Quest4_Folgequest = "熔火之心"
-Inst9Quest4PreQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst9Quest5 = "5. 達基薩斯將軍之死"
-Inst9Quest5_Level = "60"
-Inst9Quest5_Attain = "55"
-Inst9Quest5_Aim = "到黑石塔去殺掉達基薩斯將軍，完成任務之後就回到麥克斯韋爾元帥那裡覆命。"
-Inst9Quest5_Location = "麥克斯韋爾元帥（燃燒平原 - 摩根的崗哨; "..YELLOW.."82,68"..WHITE.."）"
-Inst9Quest5_Note = "達基薩斯將軍在"..YELLOW.."[9]"..WHITE.."。"
-Inst9Quest5_Prequest = "達基薩斯將軍的命令（"..YELLOW.."黑石塔下層"..WHITE.."）"
-Inst9Quest5_Folgequest = "無"
-Inst9Quest5PreQuest = "true"
---
-Inst9Quest5name1 = "暴君印記"
-Inst9Quest5name2 = "比斯巨獸之眼"
-Inst9Quest5name3 = "黑手飾物"
-
---Quest6 Alliance
-Inst9Quest6 = "6. 末日扣環"
-Inst9Quest6_Level = "60"
-Inst9Quest6_Attain = "57"
-Inst9Quest6_Aim = "將末日扣環交給燃燒平原的瑪亞拉．布萊特文。"
-Inst9Quest6_Location = "瑪亞拉．布萊特文（燃燒平原 - 摩根的崗哨; "..YELLOW.."84,69"..WHITE.."）"
-Inst9Quest6_Note = "前置任務是在雷明頓．瑞治維爾伯爵（暴風城 - 暴風要塞; "..YELLOW.."74,30"..WHITE.."）處取得。\n你可以在烈焰之父的房間"..YELLOW.."[2]"..WHITE.."找到裝有末日扣環的箱子。"
-Inst9Quest6_Prequest = "瑪亞拉．布萊特文"
-Inst9Quest6_Folgequest = "瑞治維爾的箱子"
-Inst9Quest6PreQuest = "true"
---
-Inst9Quest6name1 = "迅捷皮靴"
-Inst9Quest6name2 = "閃現打擊護臂"
-
---Quest7 Alliance
-Inst9Quest7 = "7. 黑手的命令"
-Inst9Quest7_Level = "60"
-Inst9Quest7_Attain = "55"
-Inst9Quest7_Aim = "真是個愚蠢的獸人。看來你需要找到那枚烙印並獲得達基薩斯徽記才可以使用命令寶珠。\n你從信中獲知，達基薩斯將軍守衛著烙印。也許你應該就此進行更深入的調查。"
-Inst9Quest7_Location = "黑手的命令（裂盾軍需官掉落 - 黑石塔; "..YELLOW.."副本入口地圖[7]"..WHITE.."）"
-Inst9Quest7_Note = "黑翼之巢的進門任務。你可以在黑石塔副本的門口右側通道附近找到裂盾軍需官。烙印就在黑石塔上層的達基薩斯將軍"..YELLOW.."[9]"..WHITE.."身後。 "
-Inst9Quest7_Prequest = "無"
-Inst9Quest7_Folgequest = "無"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst9Quest8 = "8. 最後的準備 (T0.5升級任務)"
-Inst9Quest8_Level = "60"
-Inst9Quest8_Attain = "58"
-Inst9Quest8_Aim = "從黑石塔的獸人那兒收集40副黑石護腕，把它們和一瓶超級能量精煉藥劑一起交給黑石山的布德利。"
-Inst9Quest8_Location = "布德利（黑石山; "..YELLOW.."副本入口地圖[D]"..WHITE.."）"
-Inst9Quest8_Note = "你需要超維度幽靈顯形器才能看到布德利。你可以從《尋找安泰恩》任務得到它。黑石護腕由黑石塔地城內外以及黑石塔上下的獸人隨機掉落，尤其名稱中帶有「黑手」的怪物有較高的機率掉落。超級能量精煉藥劑是煉金製造。"
-Inst9Quest8_Prequest = "瓦薩拉克護符的右半塊（"..YELLOW.."黑石塔下層"..WHITE.."）"
-Inst9Quest8_Folgequest = "認錯，瓦薩拉克領主"
-Inst9Quest8PreQuest = "true"
--- No Rewards for this quest
-
---Quest 9 Alliance
-Inst9Quest9 = "9. 認錯，瓦薩拉克領主"
-Inst9Quest9_Level = "60"
-Inst9Quest9_Attain = "58"
-Inst9Quest9_Aim = "在比斯巨獸的房間裡使用召喚火盆，召喚瓦薩拉克領主。殺死他，對屍體使用瓦薩拉克的飾品。然後將瓦薩拉克領主護符還給瓦薩拉克領主之靈。"
-Inst9Quest9_Location = "布德利（黑石山; "..YELLOW.."副本入口地圖[D]"..WHITE.."）"
-Inst9Quest9_Note = "你需要超維度幽靈顯形器才能看到布德利。你可以從《尋找安泰恩》任務得到它。在"..YELLOW.."[8]"..WHITE.."召喚瓦薩拉克領主。"
-Inst9Quest9_Prequest = "最後的準備"
-Inst9Quest9_Folgequest = "回到布德利那裡"
-Inst9Quest9FQuest = "true"
---
-Inst9Quest9name1 = "祈願火盆"
-Inst9Quest9name2 = "祈願火盆：使用手冊"
-
---Quest 10 Alliance
-Inst9Quest10 = "10. 惡魔熔爐 (鍛造 - 鑄甲大師任務)"
-Inst9Quest10_Level = "60"
-Inst9Quest10_Attain = "55"
-Inst9Quest10_Aim = "到黑石塔去找到古拉魯克。殺死他，然後用血污長矛刺入他的屍體。當他的靈魂被吸乾後，這支矛就會成為穿魂長矛。你還必須找到未鑄造的符文覆飾胸甲。將穿魂長矛和未鑄造的符文覆飾胸甲都交給冬泉谷的羅拉克斯。"
-Inst9Quest10_Location = "羅拉克斯（冬泉谷; "..YELLOW.."64,74"..WHITE.."）"
-Inst9Quest10_Note = "鍛造任務。古拉魯克在"..YELLOW.."[5]"..WHITE.."。"
-Inst9Quest10_Prequest = "無"
-Inst9Quest10_Folgequest = "無"
---
-Inst9Quest10name1 = "設計圖：魔鑄胸甲"
-Inst9Quest10name2 = "屠魔藥劑"
-Inst9Quest10name3 = "魔吻背包"
-
---Quest 11 Alliance
-Inst9Quest11 = "11. 收集龍蛋"
-Inst9Quest11_Level = "60"
-Inst9Quest11_Attain = "57"
-Inst9Quest11_Aim = "將電動採集模組和8顆收集到的龍蛋交給燃燒平原烈焰峰的丁奇．斯迪波爾。"
-Inst9Quest11_Location = "丁奇．斯迪波爾（燃燒平原 - 烈焰峰; "..YELLOW.."65,24"..WHITE.."）"
-Inst9Quest11_Note = "你可以在烈焰之父的房間"..YELLOW.."[2]"..WHITE.."處找到許多龍蛋。"
-Inst9Quest11_Prequest = "冷凍龍蛋"
-Inst9Quest11_Folgequest = "萊尼德．巴薩羅梅→貝蒂娜．比格辛克→黎明先鋒（"..YELLOW.."通靈學院"..WHITE.."）"
-Inst9Quest11PreQuest = "true"
+Inst9Quest3_Attain = "55"
+Inst9Quest3_Aim = "真是個愚蠢的獸人。看來你需要找到那枚烙印並獲得達基薩斯徽記才可以使用命令寶珠。你從信中獲知，達基薩斯將軍守衛著烙印。也許你應該就此進行更深入的調查。"
+Inst9Quest3_Location = "黑手的命令（掉落自黑石山的裂盾軍需官; "..ORANGE.."[1']"..WHITE.."）"
+Inst9Quest3_Note = "擊敗位於黑石山地城右方走道下坡內的裂盾軍需官就會掉落觸發此任務的任務物品[黑手的命令]。\n\n命令寶珠就在黑石塔上層達基薩斯將軍的後方"..YELLOW.."[6]"..WHITE.."。"
+Inst9Quest3_Prequest = "無"
+Inst9Quest3_Folgequest = "無"
 -- No Rewards for this quest
 
 
@@ -1894,7 +1536,13 @@ Inst9Quest2_HORDE_Location = Inst9Quest2_Location
 Inst9Quest2_HORDE_Note = Inst9Quest2_Note
 Inst9Quest2_HORDE_Prequest = Inst9Quest2_Prequest
 Inst9Quest2_HORDE_Folgequest = Inst9Quest2_Folgequest
--- No Rewards for this quest
+Inst9Quest2PreQuest_HORDE = Inst9Quest2PreQuest
+Inst9Quest2FQuest_HORDE = Inst9Quest2FQuest
+--
+Inst9Quest2name1_HORDE = Inst9Quest2name1
+Inst9Quest2name2_HORDE = Inst9Quest2name2
+Inst9Quest2name3_HORDE = Inst9Quest2name3
+Inst9Quest2name4_HORDE = Inst9Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst9Quest3_HORDE = Inst9Quest3
@@ -1905,135 +1553,6 @@ Inst9Quest3_HORDE_Location = Inst9Quest3_Location
 Inst9Quest3_HORDE_Note = Inst9Quest3_Note
 Inst9Quest3_HORDE_Prequest = Inst9Quest3_Prequest
 Inst9Quest3_HORDE_Folgequest = Inst9Quest3_Folgequest
-Inst9Quest3PreQuest_HORDE = Inst9Quest3PreQuest
---
-Inst9Quest3name1_HORDE = Inst9Quest3name1
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst9Quest4_HORDE = Inst9Quest4
-Inst9Quest4_HORDE_Level = Inst9Quest4_Level
-Inst9Quest4_HORDE_Attain = Inst9Quest4_Attain
-Inst9Quest4_HORDE_Aim = Inst9Quest4_Aim
-Inst9Quest4_HORDE_Location = Inst9Quest4_Location
-Inst9Quest4_HORDE_Note = Inst9Quest4_Note
-Inst9Quest4_HORDE_Prequest = Inst9Quest4_Prequest
-Inst9Quest4_HORDE_Folgequest = Inst9Quest4_Folgequest
-Inst9Quest4PreQuest_HORDE = Inst9Quest4PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst9Quest5_HORDE = "5. 黑暗石板"
-Inst9Quest5_HORDE_Level = "60"
-Inst9Quest5_HORDE_Attain = "57"
-Inst9Quest5_HORDE_Aim = "將黑暗石板交給卡加斯的暗法師薇薇安．拉格雷。"
-Inst9Quest5_HORDE_Location = "暗法師薇薇安．拉格雷（荒蕪之地 - 卡加斯; "..YELLOW.."2,47"..WHITE.."）"
-Inst9Quest5_HORDE_Note = "前置任務是在藥劑師金格（幽暗城 - 煉金房; "..YELLOW.."50,68"..WHITE.."）處接的。\n黑暗石板就在烈焰之父的房間（"..YELLOW.."[2]"..WHITE.."）。"
-Inst9Quest5_HORDE_Prequest = "薇薇安．拉格雷和黑暗石板"
-Inst9Quest5_HORDE_Folgequest = "無"
-Inst9Quest5PreQuest_HORDE = "true"
---
-Inst9Quest5name1_HORDE = "迅捷皮靴"
-Inst9Quest5name2_HORDE = "閃現打擊護臂"
-
---Quest6 Horde
-Inst9Quest6_HORDE = "6. 為部落而戰!"
-Inst9Quest6_HORDE_Level = "60"
-Inst9Quest6_HORDE_Attain = "55"
-Inst9Quest6_HORDE_Aim = "去黑石塔殺死大酋長雷德．黑手，帶著他的頭顱返回奧格瑪。"
-Inst9Quest6_HORDE_Location = "索爾（奧格瑪 - 智慧谷; "..YELLOW.."31,38"..WHITE.."）"
-Inst9Quest6_HORDE_Note = "奧妮克希亞的巢穴鑰匙系列任務。\n大酋長雷德．黑手在"..YELLOW.."[6]"..WHITE.."。"
-Inst9Quest6_HORDE_Prequest = "高圖斯的命令→伊崔格的智慧"
-Inst9Quest6_HORDE_Folgequest = "部落的勇士"
-Inst9Quest6PreQuest_HORDE = "true"
---
-Inst9Quest6name1_HORDE = "暴君印記"
-Inst9Quest6name2_HORDE = "比斯巨獸之眼"
-Inst9Quest6name3_HORDE = "黑手飾物"
-
---Quest7 Horde
-Inst9Quest7_HORDE = "7. 黑龍幻影"
-Inst9Quest7_HORDE_Level = "60"
-Inst9Quest7_HORDE_Attain = "55"
-Inst9Quest7_HORDE_Aim = "到黑石塔去收集20顆黑色龍人的眼球，完成任務之後回到巫女米蘭達那裡。"
-Inst9Quest7_HORDE_Location = "巫女米蘭達（西瘟疫之地; "..YELLOW.."50,77"..WHITE.."）"
-Inst9Quest7_HORDE_Note = "黑龍都會掉落黑色龍人眼球。"
-Inst9Quest7_HORDE_Prequest = "部落的勇士→雷克薩的證明"
-Inst9Quest7_HORDE_Folgequest = "艾博斯塔夫"
-Inst9Quest7FQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest8 Horde
-Inst9Quest8_HORDE = "8. 黑龍勇士之血"
-Inst9Quest8_HORDE_Level = "60"
-Inst9Quest8_HORDE_Attain = "55"
-Inst9Quest8_HORDE_Aim = "到黑石塔去殺掉達基薩斯將軍，把它的血交給羅卡洛。"
-Inst9Quest8_HORDE_Location = "羅卡洛（淒涼之地 - 葬影村; "..YELLOW.."25,71"..WHITE.."）"
-Inst9Quest8_HORDE_Note = "部落奧妮克希亞的巢穴鑰匙系列任務的最後一步。達基薩斯將軍在"..YELLOW.."[9]"..WHITE.."。"
-Inst9Quest8_HORDE_Prequest = "龍骨試煉，埃克托茲→晉升……"
-Inst9Quest8_HORDE_Folgequest = "無"
-Inst9Quest8FQuest_HORDE = "true"
---
-Inst9Quest8name1_HORDE = "龍火護符"
-
---Quest 9 Horde  (same as Quest 7 Alliance)
-Inst9Quest9_HORDE = "9. 黑手的命令"
-Inst9Quest9_HORDE_Level = Inst9Quest7_Level
-Inst9Quest9_HORDE_Attain = Inst9Quest7_Attain
-Inst9Quest9_HORDE_Aim = Inst9Quest7_Aim
-Inst9Quest9_HORDE_Location = Inst9Quest7_Location
-Inst9Quest9_HORDE_Note = Inst9Quest7_Note
-Inst9Quest9_HORDE_Prequest = Inst9Quest7_Prequest
-Inst9Quest9_HORDE_Folgequest = Inst9Quest7_Folgequest
--- No Rewards for this quest
-
---Quest 10 Horde  (same as Quest 8 Alliance)
-Inst9Quest10_HORDE = "10. 最後的準備"
-Inst9Quest10_HORDE_Level = Inst9Quest8_Level
-Inst9Quest10_HORDE_Attain = Inst9Quest8_Attain
-Inst9Quest10_HORDE_Aim = Inst9Quest8_Aim
-Inst9Quest10_HORDE_Location = Inst9Quest8_Location
-Inst9Quest10_HORDE_Note = Inst9Quest8_Note
-Inst9Quest10_HORDE_Prequest = Inst9Quest8_Prequest
-Inst9Quest10_HORDE_Folgequest = Inst9Quest8_Folgequest
--- No Rewards for this quest
-
---Quest 11 Horde  (same as Quest 9 Alliance)
-Inst9Quest11_HORDE = "11. 認錯，瓦薩拉克領主"
-Inst9Quest11_HORDE_Level = Inst9Quest9_Level
-Inst9Quest11_HORDE_Attain = Inst9Quest9_Attain
-Inst9Quest11_HORDE_Aim = Inst9Quest9_Aim
-Inst9Quest11_HORDE_Location = Inst9Quest9_Location
-Inst9Quest11_HORDE_Note = Inst9Quest9_Note
-Inst9Quest11_HORDE_Prequest = Inst9Quest9_Prequest
-Inst9Quest11_HORDE_Folgequest = Inst9Quest9_Folgequest
---
-Inst9Quest11name1_HORDE = Inst9Quest9name1
-Inst9Quest11name2_HORDE = Inst9Quest9name2
-
---Quest 12 Horde  (same as Quest 10 Alliance)
-Inst9Quest12_HORDE = "12. 惡魔熔爐 (鍛造 - 鑄甲大師任務)"
-Inst9Quest12_HORDE_Level = Inst9Quest10_Level
-Inst9Quest12_HORDE_Attain = Inst9Quest10_Attain
-Inst9Quest12_HORDE_Aim = Inst9Quest10_Aim
-Inst9Quest12_HORDE_Location = Inst9Quest10_Location
-Inst9Quest12_HORDE_Note = Inst9Quest10_Note
-Inst9Quest12_HORDE_Prequest = Inst9Quest10_Prequest
-Inst9Quest12_HORDE_Folgequest = Inst9Quest10_Folgequest
---
-Inst9Quest12name1_HORDE = Inst9Quest10name1
-Inst9Quest12name2_HORDE = Inst9Quest10name2
-Inst9Quest12name3_HORDE = Inst9Quest10name3
-
---Quest 13 Horde  (same as Quest 10 Alliance)
-Inst9Quest13_HORDE = "13. 收集龍蛋"
-Inst9Quest13_HORDE_Level = Inst9Quest11_Level
-Inst9Quest13_HORDE_Attain = Inst9Quest11_Attain
-Inst9Quest13_HORDE_Aim = Inst9Quest11_Aim
-Inst9Quest13_HORDE_Location = Inst9Quest11_Location
-Inst9Quest13_HORDE_Note = Inst9Quest11_Note
-Inst9Quest13_HORDE_Prequest = Inst9Quest11_Prequest
-Inst9Quest13_HORDE_Folgequest = Inst9Quest11_Folgequest
-Inst9Quest13PreQuest_HORDE = Inst9Quest11PreQuest
 -- No Rewards for this quest
 
 
@@ -3773,7 +3292,7 @@ Inst20Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst20Quest3 = "3. 『屠夫』瑟爾林·卡斯迪諾夫教授"
+Inst20Quest3 = "3. 『屠夫』瑟爾林．卡斯迪諾夫教授"
 Inst20Quest3_Level = "60"
 Inst20Quest3_Attain = "55"
 Inst20Quest3_Aim = "在通靈學院中找到瑟爾林．卡斯迪諾夫教授。殺死他，並燒毀艾瓦．薩克霍夫和盧森．薩克霍夫的遺體。任務完成後就回到艾瓦．薩克霍夫那兒。"
@@ -3811,7 +3330,7 @@ Inst20Quest5name2 = "波尼的玫瑰"
 Inst20Quest5name3 = "米拉之歌"
 
 --Quest 6 Alliance
-Inst20Quest6 = "6. 巫妖萊斯·霜語"
+Inst20Quest6 = "6. 巫妖萊斯．霜語"
 Inst20Quest6_Level = "60"
 Inst20Quest6_Attain = "57"
 Inst20Quest6_Aim = "在通靈學院裡找到萊斯．霜語。當你找到他之後，使用禁錮靈魂的遺物破除其亡靈的外殼。如果你成功地破除了他的不死之身，就殺掉他並拿到萊斯．霜語的頭顱。把那個頭顱交給馬杜克鎮長。"
@@ -4200,7 +3719,7 @@ Inst22Quest3name3 = "懺悔之冠"
 Inst22Quest3name4 = "懺悔者指環"
 
 --Quest 4 Alliance
-Inst22Quest4 = "4. 弗拉斯·希亞比"
+Inst22Quest4 = "4. 弗拉斯．希亞比"
 Inst22Quest4_Level = "60"
 Inst22Quest4_Attain = "55"
 Inst22Quest4_Aim = "找到弗拉斯．希亞比在斯坦索姆的煙草店，並從中找回一盒希亞比的煙草，把它交給煙鬼拉魯恩。"
@@ -7051,7 +6570,7 @@ Inst47General = {
 };
 
 --Quest 1 Alliance
-Inst47Quest1 = "1. 找尋間諜·吐剛"
+Inst47Quest1 = "1. 找尋間諜．吐剛"
 Inst47Quest1_Level = "70"
 Inst47Quest1_Attain = "68"
 Inst47Quest1_Aim = "在奧齊頓的暗影迷宮裡找到間諜．吐剛。"
