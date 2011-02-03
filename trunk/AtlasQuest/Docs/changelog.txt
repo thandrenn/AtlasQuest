@@ -11,6 +11,9 @@ Version 4.6.1 BETA (not released)
 	- Blackfathom Deeps
 	- Lower Blackrock Spire
 	- Upper Blackrock Spire
+	- Dire Maul (East)
+	- Dire Maul (North)
+	- Dire Maul (West)
 	
 
 

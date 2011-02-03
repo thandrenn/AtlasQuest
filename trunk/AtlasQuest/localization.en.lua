@@ -626,7 +626,7 @@ Inst5Quest2 = "2. Twilight?! No!"
 Inst5Quest2_Level = "55"
 Inst5Quest2_Attain = "47"
 Inst5Quest2_Aim = "'Interrogate' High Interrogator Gerstahn."
-Inst5Quest2_Location = "Kevin Dawson (Blackrock Depths; "..GREEN.."['2']"..WHITE..")"
+Inst5Quest2_Location = "Kevin Dawson (Blackrock Depths; "..GREEN.."[2']"..WHITE..")"
 Inst5Quest2_Note = "High Interrogator Gerstahn can be found at "..YELLOW.."[1]"..WHITE.."."
 Inst5Quest2_Prequest = "Into the Prison"
 Inst5Quest2_Folgequest = "None"
@@ -890,7 +890,7 @@ Inst5Quest2_HORDE = Inst5Quest2
 Inst5Quest2_HORDE_Level = Inst5Quest2_Level
 Inst5Quest2_HORDE_Attain = Inst5Quest2_Attain
 Inst5Quest2_HORDE_Aim = "Kill High Interrogator Gerstahn."
-Inst5Quest2_HORDE_Location = "Lexlort (Blackrock Depths; "..GREEN.."['2']"..WHITE..")"
+Inst5Quest2_HORDE_Location = "Lexlort (Blackrock Depths; "..GREEN.."[2']"..WHITE..")"
 Inst5Quest2_HORDE_Note = Inst5Quest2_Note
 Inst5Quest2_HORDE_Prequest = Inst5Quest2_Prequest
 Inst5Quest2_HORDE_Folgequest = Inst5Quest2_Folgequest
@@ -1553,106 +1553,97 @@ Inst10QAA = "6 Quests"
 Inst10QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst10Quest1 = "1. Pusillin and the Elder Azj'Tordin"
-Inst10Quest1_Level = "58"
-Inst10Quest1_Attain = "54"
-Inst10Quest1_Aim = "Travel to Dire Maul and locate the Imp, Pusillin. Convince Pusillin to give you Azj'Tordin's Book of Incantations through any means necessary.\nReturn to Azj'Tordin at the Lariss Pavilion in Feralas should you recover the Book of Incantations."
-Inst10Quest1_Location = "Azj'Tordin (Feralas - Lariss Pavillion; "..YELLOW.."76,37"..WHITE..")"
-Inst10Quest1_Note = "Pusillin is in Dire Maul "..YELLOW.."East"..WHITE.." at "..YELLOW.."[1]"..WHITE..". He runs when you talk to him, but stops and fights at "..YELLOW.."[2]"..WHITE..". He'll drop the Crescent Key which is used for Dire Maul North and West."
+Inst10Quest1 = "1. Saving Warpwood"
+Inst10Quest1_Level = "40"
+Inst10Quest1_Attain = "38"
+Inst10Quest1_Aim = "Speak to Furgus Warpwood."
+Inst10Quest1_Location = "Telaron Windflight (Feralas - Dreamer's Rest; "..YELLOW.."50.6, 17.0"..WHITE..")"
+Inst10Quest1_Note = "Furgus Warpwood is just inside the entrance of Dire Maul - East."
 Inst10Quest1_Prequest = "None"
 Inst10Quest1_Folgequest = "None"
---
-Inst10Quest1name1 = "Spry Boots"
-Inst10Quest1name2 = "Sprinter's Sword"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst10Quest2 = "2. Lethtendris's Web"
-Inst10Quest2_Level = "57"
-Inst10Quest2_Attain = "54"
-Inst10Quest2_Aim = "Bring Lethtendris' Web to Latronicus Moonspear at the Feathermoon Stronghold in Feralas."
-Inst10Quest2_Location = "Latronicus Moonspear (Feralas - Feathermoon Stronghold; "..YELLOW.."30,46"..WHITE..")"
-Inst10Quest2_Note = "Lethtendris is in Dire Maul "..YELLOW.."East"..WHITE.." at "..YELLOW.."[3]"..WHITE..". The prequest comes from Courier Hammerfall in Ironforge. He roams the entire city."
-Inst10Quest2_Prequest = "Feathermoon Stronghold"
+Inst10Quest2 = "2. Pusillin The Thief"
+Inst10Quest2_Level = "40"
+Inst10Quest2_Attain = "38"
+Inst10Quest2_Aim = "Convince Pusillin to give up the Book of Incantations."
+Inst10Quest2_Location = "Ambassador Dagg'thol (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest2_Note = "Pusillin is to the left of the entrance at "..GREEN.."[1']"..WHITE..".  After you talk to him, you'll have to chase him down and fight his friends at "..GREEN.."[2']"..WHITE.."."
+Inst10Quest2_Prequest = "None"
 Inst10Quest2_Folgequest = "None"
-Inst10Quest2PreQuest = "true"
---
-Inst10Quest2name1 = "Lorespinner"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst10Quest3 = "3. Shards of the Felvine"
-Inst10Quest3_Level = "60"
-Inst10Quest3_Attain = "56"
-Inst10Quest3_Aim = "Find the Felvine in Dire Maul and acquire a shard from it. Chances are you'll only be able to procure one with the demise of Alzzin the Wildshaper. Use the Reliquary of Purity to securely seal the shard inside, and return it to Rabine Saturna in Nighthaven, Moonglade."
-Inst10Quest3_Location = "Rabine Saturna (Moonglade - Nighthaven; "..YELLOW.."51,44"..WHITE..")"
-Inst10Quest3_Note = "You find Alliz the Wildshaper in the "..YELLOW.."East"..WHITE.." part of Dire Maul at "..YELLOW.."[5]"..WHITE..". The relict is in Silithius at "..YELLOW.."62,54"..WHITE..". The prequest comes from Rabine Saturna as well."
-Inst10Quest3_Prequest = "A Reliquary of Purity"
+Inst10Quest3 = "3. Lethtendris's Web"
+Inst10Quest3_Level = "40"
+Inst10Quest3_Attain = "38"
+Inst10Quest3_Aim = "Obtain Lethtendris's Web."
+Inst10Quest3_Location = "Ambassador Dagg'thol (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest3_Note = "Lethtendris is at "..YELLOW.."[1]"..WHITE.." on a raised platform at the end of a ramp."
+Inst10Quest3_Prequest = "None"
 Inst10Quest3_Folgequest = "None"
-Inst10Quest3PreQuest = "true"
---
-Inst10Quest3name1 = "Milli's Shield"
-Inst10Quest3name2 = "Milli's Lexicon"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst10Quest4 = "4. The Left Piece of Lord Valthalak's Amulet"
-Inst10Quest4_Level = "60"
-Inst10Quest4_Attain = "58"
-Inst10Quest4_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst10Quest4_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst10Quest4_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
-Inst10Quest4_Prequest = "Components of Importance"
-Inst10Quest4_Folgequest = "I See Alcaz Island In Your Future..."
-Inst10Quest4PreQuest = "true"
+Inst10Quest4 = "4. An Unwelcome Guest"
+Inst10Quest4_Level = "40"
+Inst10Quest4_Attain = "38"
+Inst10Quest4_Aim = "Collect the Hydrospawn Essence."
+Inst10Quest4_Location = "Furgus Warpwood (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest4_Note = "Hydrospawn is at "..YELLOW.."[2]"..WHITE.." in a pool of water."
+Inst10Quest4_Prequest = "None"
+Inst10Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst10Quest5 = "5. The Right Piece of Lord Valthalak's Amulet"
-Inst10Quest5_Level = "60"
-Inst10Quest5_Attain = "58"
-Inst10Quest5_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst10Quest5_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst10Quest5_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
-Inst10Quest5_Prequest = "More Components of Importance"
-Inst10Quest5_Folgequest = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
-Inst10Quest5PreQuest = "true"
--- No Rewards for this quest
+Inst10Quest5 = "5. Alzzin the Wildshaper"
+Inst10Quest5_Level = "41"
+Inst10Quest5_Attain = "38"
+Inst10Quest5_Aim = "Kill Zevrim Thornhoof and Alzzin the Wildshaper."
+Inst10Quest5_Location = "Furgus Warpwood (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest5_Note = "Zevrim Thornhoof is at "..YELLOW.."[3]"..WHITE.." and Alzzin the Wildshaper is at "..YELLOW.."[4]"..WHITE.."."
+Inst10Quest5_Prequest = "None"
+Inst10Quest5_Folgequest = "None"
+--
+Inst10Quest5name1 = "Warpwood Bow"
+Inst10Quest5name2 = "Warpwood Bark Vest"
+Inst10Quest5name3 = "Warpwood Shield"
+Inst10Quest5name4 = "Warpwood Leaf Mantle"
 
 --Quest 6 Alliance
-Inst10Quest6 = "6. The Prison's Bindings (Warlock)"
-Inst10Quest6_Level = "60"
-Inst10Quest6_Attain = "60"
-Inst10Quest6_Aim = "Travel to Dire Maul in Feralas and recover 15 Satyr Blood from the Wildspawn Satyr that inhabit the Warpwood Quarter. Return to Daio in the Tainted Scar when this is done."
-Inst10Quest6_Location = "Daio the Decrepit (Blasted Lands - The Tainted Scar; "..YELLOW.."34,50"..WHITE..")"
-Inst10Quest6_Note = "This along with another quest given by Daio the Decrepit are Warlock only quests for the Ritual of Doom spell. The easiest way to get to the Wildspawn Satyr is to enter Dire Maul East through the 'back door' at the Lariss Pavilion (Feralas; "..YELLOW.."77,37"..WHITE.."). You'll need the Crescent Key, however."
+Inst10Quest6 = "6. Shards of the Felvine"
+Inst10Quest6_Level = "41"
+Inst10Quest6_Attain = "38"
+Inst10Quest6_Aim = "Use the Reliquary of Purity to capture a Felvine Shard."
+Inst10Quest6_Location = "Furgus Warpwood (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest6_Note = "Use the Reliquary of Purity after you slay Alzzin the Wildshaper at "..YELLOW.."[4]"..WHITE..".  Only 5 shards spawn and you can pick up more than 1, so grab yours fast."
 Inst10Quest6_Prequest = "None"
 Inst10Quest6_Folgequest = "None"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst10Quest1_HORDE = Inst10Quest1
-Inst10Quest1_HORDE_Level = Inst10Quest1_Level
-Inst10Quest1_HORDE_Attain = Inst10Quest1_Attain
-Inst10Quest1_HORDE_Aim = Inst10Quest1_Aim
-Inst10Quest1_HORDE_Location = Inst10Quest1_Location
-Inst10Quest1_HORDE_Note = Inst10Quest1_Note
-Inst10Quest1_HORDE_Prequest = Inst10Quest1_Prequest
-Inst10Quest1_HORDE_Folgequest = Inst10Quest1_Folgequest
---
-Inst10Quest1name1_HORDE = Inst10Quest1name1
-Inst10Quest1name2_HORDE = Inst10Quest1name2
+--Quest 1 Horde
+Inst10Quest1_HORDE = "1. Saving Warpwood"
+Inst10Quest1_HORDE_Level = "40"
+Inst10Quest1_HORDE_Attain = "38"
+Inst10Quest1_HORDE_Aim = "Speak to Furgus Warpwood."
+Inst10Quest1_HORDE_Location = "Hadoken Swiftstrider (Feralas - Camp Mojache; "..YELLOW.."74.8, 42.6"..WHITE..")"
+Inst10Quest1_HORDE_Note = "Furgus Warpwood is just inside the entrance of Dire Maul - East."
+Inst10Quest1_HORDE_Prequest = "None"
+Inst10Quest1_HORDE_Folgequest = "None"
+-- No Rewards for this quest
 
---Quest 2 Horde
-Inst10Quest2_HORDE = "2. Lethtendris's Web"
-Inst10Quest2_HORDE_Level = "57"
-Inst10Quest2_HORDE_Attain = "54"
-Inst10Quest2_HORDE_Aim = "Bring Lethtendris's Web to Talo Thornhoof at Camp Mojache in Feralas."
-Inst10Quest2_HORDE_Location = "Talo Thornhoof (Feralas - Camp Mojache; "..YELLOW.."76,43"..WHITE..")"
-Inst10Quest2_HORDE_Note = "Lethtendris is in Dire Maul "..YELLOW.."East"..WHITE.." at "..YELLOW.."[3]"..WHITE..". The prequest comes from Warcaller Gorlach in Orgrimmar. He roams the entire city."
-Inst10Quest2_HORDE_Prequest = "Camp Mojache"
-Inst10Quest2_HORDE_Folgequest = "None"
-Inst10Quest2PreQuest_HORDE = "true"
---
-Inst10Quest2name1_HORDE = "Lorespinner"
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst10Quest2_HORDE = Inst10Quest2
+Inst10Quest2_HORDE_Level = Inst10Quest2_Level
+Inst10Quest2_HORDE_Attain = Inst10Quest2_Attain
+Inst10Quest2_HORDE_Aim = Inst10Quest2_Aim
+Inst10Quest2_HORDE_Location = Inst10Quest2_Location
+Inst10Quest2_HORDE_Note = Inst10Quest2_Note
+Inst10Quest2_HORDE_Prequest = Inst10Quest2_Prequest
+Inst10Quest2_HORDE_Folgequest = Inst10Quest2_Folgequest
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst10Quest3_HORDE = Inst10Quest3
@@ -1663,9 +1654,7 @@ Inst10Quest3_HORDE_Location = Inst10Quest3_Location
 Inst10Quest3_HORDE_Note = Inst10Quest3_Note
 Inst10Quest3_HORDE_Prequest = Inst10Quest3_Prequest
 Inst10Quest3_HORDE_Folgequest = Inst10Quest3_Folgequest
---
-Inst10Quest3name1_HORDE = Inst10Quest3name1
-Inst10Quest3name2_HORDE = Inst10Quest3name2
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst10Quest4_HORDE = Inst10Quest4
@@ -1676,7 +1665,6 @@ Inst10Quest4_HORDE_Location = Inst10Quest4_Location
 Inst10Quest4_HORDE_Note = Inst10Quest4_Note
 Inst10Quest4_HORDE_Prequest = Inst10Quest4_Prequest
 Inst10Quest4_HORDE_Folgequest = Inst10Quest4_Folgequest
-Inst10Quest4PreQuest_HORDE = Inst10Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -1688,8 +1676,11 @@ Inst10Quest5_HORDE_Location = Inst10Quest5_Location
 Inst10Quest5_HORDE_Note = Inst10Quest5_Note
 Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
 Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
-Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
--- No Rewards for this quest
+--
+Inst10Quest5name1_HORDE = Inst10Quest5name1
+Inst10Quest5name2_HORDE = Inst10Quest5name2
+Inst10Quest5name3_HORDE = Inst10Quest5name3
+Inst10Quest5name4_HORDE = Inst10Quest5name4
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst10Quest6_HORDE = Inst10Quest6
@@ -1708,94 +1699,112 @@ Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 
 Inst11Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst11Caption = "Dire Maul (North)"
-Inst11QAA = "5 Quests"
-Inst11QAH = "5 Quests"
+Inst11QAA = "6 Quests"
+Inst11QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst11Quest1 = "1. A Broken Trap"
-Inst11Quest1_Level = "60"
-Inst11Quest1_Attain = "56"
-Inst11Quest1_Aim = "Repair the trap."
-Inst11Quest1_Location = "A Broken Trap (Dire Maul; "..YELLOW.."North"..WHITE..")"
-Inst11Quest1_Note = "Repeatable quest. To repair the trap you have to use a [Thorium Widget] and a [Frost Oil]."
+Inst11Quest1 = "1. Eyes in the Sky"
+Inst11Quest1_Level = "46"
+Inst11Quest1_Attain = "44"
+Inst11Quest1_Aim = "Speak to the Druid of the Talon."
+Inst11Quest1_Location = "Shandris Feathermoon (Feralas - Feathermoon Stronghold; "..YELLOW.."46.0, 49.0"..WHITE..")"
+Inst11Quest1_Note = "The Druid of the Talon is just inside the entrance of Dire Maul - North."
 Inst11Quest1_Prequest = "None"
 Inst11Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst11Quest2 = "2. The Gordok Ogre Suit"
-Inst11Quest2_Level = "60"
-Inst11Quest2_Attain = "56"
-Inst11Quest2_Aim = "Bring 4 Bolts of Runecloth, 8 Rugged Leather, 2 Rune Threads, and Ogre Tannin to Knot Thimblejack. He is currently chained inside the Gordok wing of Dire Maul."
-Inst11Quest2_Location = "Knot Thimblejack (Dire Maul; "..YELLOW.."North, [4]"..WHITE..")"
-Inst11Quest2_Note = "Repeatable quest. You get the Ogre Tannin near "..YELLOW.."[4] (above)"..WHITE.."."
+Inst11Quest2 = "2. King of the Gordok"
+Inst11Quest2_Level = "47"
+Inst11Quest2_Attain = "44"
+Inst11Quest2_Aim = "Kill King Gordok."
+Inst11Quest2_Location = "Druid of the Talon (Dire Maul - North; "..YELLOW.."Entrance"..WHITE..")"
+Inst11Quest2_Note = "King Gordok is at "..YELLOW.."[6]"..WHITE..".\n\nIf you leave the named NPCs (Guard Mol'dar, Stomper Kreeg, Guard Fengus, Guard Slip'kik and Captain Kromcrush) alive, more loot and quests will be available after you defeat King Gordok.  Be sure to speak to Cho'Rush the Observer at the end to access the tribute chest."
 Inst11Quest2_Prequest = "None"
 Inst11Quest2_Folgequest = "None"
 --
-Inst11Quest2name1 = "Gordok Ogre Suit"
+Inst11Quest2name1 = "Pauldrons of Tribute"
+Inst11Quest2name2 = "Wristbands of Tribute"
+Inst11Quest2name3 = "Slippers of Tribute"
+Inst11Quest2name4 = "Tribute Gun"
 
 --Quest 3 Alliance
-Inst11Quest3 = "3. Free Knot!"
-Inst11Quest3_Level = "60"
-Inst11Quest3_Attain = "60"
-Inst11Quest3_Aim = "Collect a Gordok Shackle Key for Knot Thimblejack."
-Inst11Quest3_Location = "Knot Thimblejack (Dire Maul; "..YELLOW.."North, [4]"..WHITE..")"
-Inst11Quest3_Note = "Repeatable quest. Every warden can drop the key."
+Inst11Quest3 = "3. A Broken Trap"
+Inst11Quest3_Level = "46"
+Inst11Quest3_Attain = "42"
+Inst11Quest3_Aim = "Repair the trap."
+Inst11Quest3_Location = "A Broken Trap (Dire Maul - North; "..YELLOW.."[4]"..WHITE..")"
+Inst11Quest3_Note = "This is a repeatable quest.  Click the trap to complete.  The trap will freeze Guard Slip'kik so you don't have to kill him."
 Inst11Quest3_Prequest = "None"
 Inst11Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst11Quest4 = "4. Unfinished Gordok Business"
-Inst11Quest4_Level = "60"
-Inst11Quest4_Attain = "56"
-Inst11Quest4_Aim = "Find the Gauntlet of Gordok Might and return it to Captain Kromcrush in Dire Maul.\nAccording to Kromcrush, the 'old timey story' says that Tortheldrin - a 'creepy' elf who called himself a prince - stole it from one of the Gordok kings."
-Inst11Quest4_Location = "Captain Kromcrush (Dire Maul; "..YELLOW.."North, [5]"..WHITE..")"
-Inst11Quest4_Note = "Prince is in Dire Maul "..YELLOW.."West"..WHITE.." at "..YELLOW.."[7]"..WHITE..". The Gauntlet is near him in a chest. You can only get this quest after a Tribute run and have the It's Good to be King! buff."
+Inst11Quest4 = "4. The Gordok Ogre Suit"
+Inst11Quest4_Level = "46"
+Inst11Quest4_Attain = "42"
+Inst11Quest4_Aim = "Bring an Ogre Tannin to Knot Thimblejack."
+Inst11Quest4_Location = "Knot Thimblejack (Dire Maul - North; "..YELLOW.."[4]"..WHITE..")"
+Inst11Quest4_Note = "Repeatable quest.  You get the Ogre Tannin in a basket on the next level up after the double ramps.  Use this suit to send Captain Kromcrush away so you don't have to kill him."
 Inst11Quest4_Prequest = "None"
 Inst11Quest4_Folgequest = "None"
 --
-Inst11Quest4name1 = "Gordok's Handwraps"
-Inst11Quest4name2 = "Gordok's Gloves"
-Inst11Quest4name3 = "Gordok's Gauntlets"
-Inst11Quest4name4 = "Gordok's Handguards"
+Inst11Quest4name1 = "Gordok Ogre Suit"
 
 --Quest 5 Alliance
-Inst11Quest5 = "5. The Gordok Taste Test"
-Inst11Quest5_Level = "60"
-Inst11Quest5_Attain = "60"
-Inst11Quest5_Aim = "Free Booze."
-Inst11Quest5_Location = "Stomper Kreeg (Dire Maul; "..YELLOW.."North, [2]"..WHITE..")"
-Inst11Quest5_Note = "Just talk to the NPC to accept and complete the quest at the same time."
-Inst11Quest5_Prequest = "No"
-Inst11Quest5_Folgequest = "No"
+Inst11Quest5 = "5. Unfinished Gordok Business"
+Inst11Quest5_Level = "47"
+Inst11Quest5_Attain = "44"
+Inst11Quest5_Aim = "Speak to Guard Mol'dar in Dire Maul."
+Inst11Quest5_Location = "Captain Kromcrush (Dire Maul - North; "..YELLOW.."[3]"..WHITE..")"
+Inst11Quest5_Note = "You can only obtain this quest after killing King Gordok while leaving Captain Kromcrush and Guard Mol'dar alive.\n\nGuard Mol'dar is at "..YELLOW.."[1]"..WHITE.."."
+Inst11Quest5_Prequest = "None"
+Inst11Quest5_Folgequest = "None"
 --
-Inst11Quest5name1 = "Gordok Green Grog"
-Inst11Quest5name2 = "Kreeg's Stout Beatdown"
+Inst11Quest5name1 = "Gordok's Handguards"
+Inst11Quest5name2 = "Gordok's Gauntlets"
+Inst11Quest5name3 = "Gordok's Gloves"
+Inst11Quest5name4 = "Gordok's Handwraps"
+
+--Quest 6 Alliance
+Inst11Quest6 = "6. The Gordok Taste Test"
+Inst11Quest6_Level = "46"
+Inst11Quest6_Attain = "44"
+Inst11Quest6_Aim = "Free Booze."
+Inst11Quest6_Location = "Stomper Kreeg (Dire Maul - North; "..YELLOW.."[2]"..WHITE..")"
+Inst11Quest6_Note = "Just talk to the NPC to accept and complete the quest at the same time."
+Inst11Quest6_Prequest = "No"
+Inst11Quest6_Folgequest = "No"
+--
+Inst11Quest6name1 = "Gordok Green Grog"
+Inst11Quest6name2 = "Kreeg's Stout Beatdown"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst11Quest1_HORDE = Inst11Quest1
-Inst11Quest1_HORDE_Level = Inst11Quest1_Level
-Inst11Quest1_HORDE_Attain = Inst11Quest1_Attain
-Inst11Quest1_HORDE_Aim = Inst11Quest1_Aim
-Inst11Quest1_HORDE_Location = Inst11Quest1_Location
-Inst11Quest1_HORDE_Note = Inst11Quest1_Note
-Inst11Quest1_HORDE_Prequest = Inst11Quest1_Prequest
-Inst11Quest1_HORDE_Folgequest = Inst11Quest1_Folgequest
+--Quest 1 Horde
+Inst11Quest1_HORDE = "1. Ogre in the Field"
+Inst11Quest1_HORDE_Level = "46"
+Inst11Quest1_HORDE_Attain = "44"
+Inst11Quest1_HORDE_Aim = "Speak to the Stonemaul Ogre."
+Inst11Quest1_HORDE_Location = "Orhan Ogreblade (Feralas - Stonemaul Hold;"..YELLOW.."51.8, 48.0"..WHITE..")"
+Inst11Quest1_HORDE_Note = "The Stonemaul Ogre is just inside the entrance of Dire Maul - North."
+Inst11Quest1_HORDE_Prequest = "None"
+Inst11Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst11Quest2_HORDE = Inst11Quest2
-Inst11Quest2_HORDE_Level = Inst11Quest2_Level
-Inst11Quest2_HORDE_Attain = Inst11Quest2_Attain
-Inst11Quest2_HORDE_Aim = Inst11Quest2_Aim
-Inst11Quest2_HORDE_Location = Inst11Quest2_Location
-Inst11Quest2_HORDE_Note = Inst11Quest2_Note
-Inst11Quest2_HORDE_Prequest = Inst11Quest2_Prequest
-Inst11Quest2_HORDE_Folgequest = Inst11Quest2_Folgequest
+--Quest 2 Horde
+Inst11Quest2_HORDE = "2. King of the Gordok"
+Inst11Quest2_HORDE_Level = "47"
+Inst11Quest2_HORDE_Attain = "44"
+Inst11Quest2_HORDE_Aim = "Kill King Gordok."
+Inst11Quest2_HORDE_Location = "Stonemaul Ogre (Dire Maul - North; "..YELLOW.."Entrance"..WHITE..")"
+Inst11Quest2_HORDE_Note = "King Gordok is at "..YELLOW.."[6]"..WHITE..".\n\nIf you leave the named NPCs (Guard Mol'dar, Stomper Kreeg, Guard Fengus, Guard Slip'kik and Captain Kromcrush) alive, more loot and quests will be available after you defeat King Gordok.  Be sure to speak to Cho'Rush the Observer at the end to access the tribute chest."
+Inst11Quest2_HORDE_Prequest = "None"
+Inst11Quest2_HORDE_Folgequest = "None"
 --
-Inst11Quest2name1_HORDE = Inst11Quest2name1
+Inst11Quest2name1_HORDE = "Pauldrons of Tribute"
+Inst11Quest2name2_HORDE = "Wristbands of Tribute"
+Inst11Quest2name3_HORDE = "Slippers of Tribute"
+Inst11Quest2name4_HORDE = "Tribute Gun"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst11Quest3_HORDE = Inst11Quest3
@@ -1819,9 +1828,6 @@ Inst11Quest4_HORDE_Prequest = Inst11Quest4_Prequest
 Inst11Quest4_HORDE_Folgequest = Inst11Quest4_Folgequest
 --
 Inst11Quest4name1_HORDE = Inst11Quest4name1
-Inst11Quest4name2_HORDE = Inst11Quest4name2
-Inst11Quest4name3_HORDE = Inst11Quest4name3
-Inst11Quest4name4_HORDE = Inst11Quest4name4
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst11Quest5_HORDE = Inst11Quest5
@@ -1835,6 +1841,21 @@ Inst11Quest5_HORDE_Folgequest = Inst11Quest5_Folgequest
 --
 Inst11Quest5name1_HORDE = Inst11Quest5name1
 Inst11Quest5name2_HORDE = Inst11Quest5name2
+Inst11Quest5name3_HORDE = Inst11Quest5name3
+Inst11Quest5name4_HORDE = Inst11Quest5name4
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst11Quest6_HORDE = Inst11Quest6
+Inst11Quest6_HORDE_Level = Inst11Quest6_Level
+Inst11Quest6_HORDE_Attain = Inst11Quest6_Attain
+Inst11Quest6_HORDE_Aim = Inst11Quest6_Aim
+Inst11Quest6_HORDE_Location = Inst11Quest6_Location
+Inst11Quest6_HORDE_Note = Inst11Quest6_Note
+Inst11Quest6_HORDE_Prequest = Inst11Quest6_Prequest
+Inst11Quest6_HORDE_Folgequest = Inst11Quest6_Folgequest
+--
+Inst11Quest6name1_HORDE = Inst11Quest6name1
+Inst11Quest6name2_HORDE = Inst11Quest6name2
 
 
 
@@ -1842,221 +1863,196 @@ Inst11Quest5name2_HORDE = Inst11Quest5name2
 
 Inst12Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst12Caption = "Dire Maul (West)"
-Inst12QAA = "17 Quests"
-Inst12QAH = "17 Quests"
+Inst12QAA = "15 Quests"
+Inst12QAH = "15 Quests"
 
 --Quest 1 Alliance
-Inst12Quest1 = "1. Elven Legends"
-Inst12Quest1_Level = "60"
-Inst12Quest1_Attain = "54"
-Inst12Quest1_Aim = "Search Dire Maul for Kariel Winthalus. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find."
-Inst12Quest1_Location = "Scholar Runethorn (Feralas - Feathermoon Stronghold; "..YELLOW.."31,43"..WHITE..")"
-Inst12Quest1_Note = "You find Kariel Winthalus in the "..YELLOW.."Library (West)"..WHITE.."."
+Inst12Quest1 = "1. The Highborne"
+Inst12Quest1_Level = "42"
+Inst12Quest1_Attain = "41"
+Inst12Quest1_Aim = "Speak to Estulan."
+Inst12Quest1_Location = "Telaron Windflight (Feralas - Dreamer's Rest; "..YELLOW.."50.6, 17.0"..WHITE..")"
+Inst12Quest1_Note = "Estulan is just inside the entrance of Dire Maul - West."
 Inst12Quest1_Prequest = "None"
 Inst12Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst12Quest2 = "2. The Madness Within"
-Inst12Quest2_Level = "60"
-Inst12Quest2_Attain = "56"
-Inst12Quest2_Aim = "You must destroy the guardians surrounding the 5 Pylons that power the Prison of Immol'thar. Once the Pylons have powered down, the force field surrounding Immol'thar will have dissipated.\nEnter the Prison of Immol'thar and eradicate the foul demon that stands at its heart. Finally, confront Prince Tortheldrin in Athenaeum."
-Inst12Quest2_Location = "Shen'dralar Ancient (Dire Maul; "..YELLOW.."West, [1] (above)"..WHITE..")"
-Inst12Quest2_Note = "The Pylons are marked as "..BLUE.."[B]"..WHITE..". Immol'thar is at "..YELLOW.."[6]"..WHITE..", Prince Tortheldrin at "..YELLOW.."[7]"..WHITE.."."
+Inst12Quest2 = "2. The Cursed Remains"
+Inst12Quest2_Level = "43"
+Inst12Quest2_Attain = "41"
+Inst12Quest2_Aim = "Kill Magister Kalendris and Illyana Ravenoak."
+Inst12Quest2_Location = "Estulan (Dire Maul - West; "..YELLOW.."Entrance"..WHITE..")"
+Inst12Quest2_Note = "Magister Kalendris is at "..YELLOW.."[2]"..WHITE.." and Illyana Ravenoak is at "..YELLOW.."[3]"..WHITE.."."
 Inst12Quest2_Prequest = "None"
-Inst12Quest2_Folgequest = "The Treasure of the Shen'dralar"
+Inst12Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst12Quest3 = "3. The Treasure of the Shen'dralar"
-Inst12Quest3_Level = "60"
-Inst12Quest3_Attain = "56"
-Inst12Quest3_Aim = "Return to the Athenaeum and find the Treasure of the Shen'dralar. Claim your reward!"
-Inst12Quest3_Location = "Shen'dralar Ancient (Dire Maul; "..YELLOW.."West, [1]"..WHITE..")"
-Inst12Quest3_Note = "You can find the Treasure under the stairs "..YELLOW.."[7]"..WHITE.."."
-Inst12Quest3_Prequest = "The Madness Within"
+Inst12Quest3 = "3. The Shen'dralar Ancient"
+Inst12Quest3_Level = "43"
+Inst12Quest3_Attain = "41"
+Inst12Quest3_Aim = "Speak to the Shen'dralar Ancient."
+Inst12Quest3_Location = "Estulan (Dire Maul - West; "..YELLOW.."Entrance"..WHITE..")"
+Inst12Quest3_Note = "The Shen'dralar Ancient is at "..GREEN.."[4']"..WHITE.." on the upper level."
+Inst12Quest3_Prequest = "None"
 Inst12Quest3_Folgequest = "None"
-Inst12Quest3FQuest = "true"
---
-Inst12Quest3name1 = "Sedge Boots"
-Inst12Quest3name2 = "Backwood Helm"
-Inst12Quest3name3 = "Bonecrusher"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst12Quest4 = "4. Dreadsteed of Xoroth (Warlock)"
-Inst12Quest4_Level = "60"
-Inst12Quest4_Attain = "60"
-Inst12Quest4_Aim = "Read Mor'zul's Instructions. Summon a Xorothian Dreadsteed, defeat it, then bind its spirit to you."
-Inst12Quest4_Location = "Mor'zul Bloodbringer (Burning Steppes; "..YELLOW.."12,31"..WHITE..")"
-Inst12Quest4_Note = "Final Quest in the Warlock Epic mount questline. First you must shut down all Pylons marked with "..BLUE.."[B]"..WHITE.." and then kill Immol'thar at "..YELLOW.."[6]"..WHITE..". After that, you can begin the Summoning Ritual. Be sure to have upwards of 20 Soul Shards ready and have one Warlock specifically assigned to keeping the Bell, Candle and Wheel up. The Doomguards that come can be enslaved. After completion, talk to the Dreadsteed ghost to complete the quest."
-Inst12Quest4_Prequest = "Imp Delivery ("..YELLOW.."Scholomance"..WHITE..")"
+Inst12Quest4 = "4. The Warped Defender"
+Inst12Quest4_Level = "43"
+Inst12Quest4_Attain = "41"
+Inst12Quest4_Aim = "Kill Tendris Warpwood."
+Inst12Quest4_Location = "Shen'dralar Watcher (Dire Maul - West; "..YELLOW.."Entrance"..WHITE..")"
+Inst12Quest4_Note = "Tendris Warpwood is at "..YELLOW.."[1]"..WHITE.."."
+Inst12Quest4_Prequest = "None"
 Inst12Quest4_Folgequest = "None"
-Inst12Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst12Quest5 = "5. The Emerald Dream... (Druid)"
-Inst12Quest5_Level = "60"
-Inst12Quest5_Attain = "54"
-Inst12Quest5_Aim = "Return the book to its rightful owners."
-Inst12Quest5_Location = "The Emerald Dream (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest5_Note = "The reward is for Druids. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest5 = "5. The Madness Within"
+Inst12Quest5_Level = "44"
+Inst12Quest5_Attain = "41"
+Inst12Quest5_Aim = "Enter the Prison of Immol'thar and eradicate the foul demon that stands at its heart. Finally, confront Prince Tortheldrin in Athenaeum."
+Inst12Quest5_Location = "Shen'dralar Ancient (Dire Maul - West; "..GREEN.."[4']"..WHITE..")"
+Inst12Quest5_Note = "The Pylons are marked as "..GREEN.."[2']"..WHITE..". Immol'thar is at "..YELLOW.."[4]"..WHITE..", Prince Tortheldrin at "..YELLOW.."[5]"..WHITE.."."
 Inst12Quest5_Prequest = "None"
-Inst12Quest5_Folgequest = "None"
---
-Inst12Quest5name1 = "Royal Seal of Eldre'Thalas"
+Inst12Quest5_Folgequest = "The Treasure of the Shen'dralar"
+-- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst12Quest6 = "6. The Greatest Race of Hunters (Hunter)"
-Inst12Quest6_Level = "60"
-Inst12Quest6_Attain = "54"
-Inst12Quest6_Aim = "Return the book to its rightful owners."
-Inst12Quest6_Location = "The Greatest Race of Hunters (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest6_Note = "The reward is for Hunters. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
-Inst12Quest6_Prequest = "None"
+Inst12Quest6 = "6. The Treasure of the Shen'dralar"
+Inst12Quest6_Level = "44"
+Inst12Quest6_Attain = "41"
+Inst12Quest6_Aim = "Return to the Athenaeum and find the Treasure of the Shen'dralar. Claim your reward!"
+Inst12Quest6_Location = "Shen'dralar Ancient (Dire Maul - West; "..GREEN.."[4']"..WHITE..")"
+Inst12Quest6_Note = "The Treasure of the Shen'dralar is near the ramp in the Athenaeum."
+Inst12Quest6_Prequest = "The Madness Within"
 Inst12Quest6_Folgequest = "None"
+Inst12Quest6FQuest = "true"
 --
-Inst12Quest6name1 = "Royal Seal of Eldre'Thalas"
+Inst12Quest6name1 = "Fras Siabi's Cigar Cutter"
+Inst12Quest6name2 = "Staff of Athen'a"
+Inst12Quest6name3 = "Shen'dralar Trident"
+Inst12Quest6name4 = "Dire Maul"
 
 --Quest 7 Alliance
-Inst12Quest7 = "7. The Arcanist's Cookbook (Mage)"
+Inst12Quest7 = "7. The Emerald Dream... (Druid)"
 Inst12Quest7_Level = "60"
 Inst12Quest7_Attain = "54"
 Inst12Quest7_Aim = "Return the book to its rightful owners."
-Inst12Quest7_Location = "The Arcanist's Cookbook (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest7_Note = "The reward is for Mages. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest7_Location = "The Emerald Dream (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest7_Note = "The reward is for Druids. You turn the book in to Lorekeeper Javon at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest7_Prequest = "None"
 Inst12Quest7_Folgequest = "None"
 --
 Inst12Quest7name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 8 Alliance
-Inst12Quest8 = "8. The Light and How To Swing It (Paladin)"
+Inst12Quest8 = "8. The Greatest Race of Hunters (Hunter)"
 Inst12Quest8_Level = "60"
 Inst12Quest8_Attain = "54"
 Inst12Quest8_Aim = "Return the book to its rightful owners."
-Inst12Quest8_Location = "The Light and How To Swing It (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest8_Note = "The reward is for Paladins. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest8_Location = "The Greatest Race of Hunters (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest8_Note = "The reward is for Hunters. You turn the book in to Lorekeeper Mykos at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest8_Prequest = "None"
 Inst12Quest8_Folgequest = "None"
 --
 Inst12Quest8name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 9 Alliance
-Inst12Quest9 = "9. Holy Bologna: What the Light Won't Tell You (Priest)"
+Inst12Quest9 = "9. The Arcanist's Cookbook (Mage)"
 Inst12Quest9_Level = "60"
 Inst12Quest9_Attain = "54"
 Inst12Quest9_Aim = "Return the book to its rightful owners."
-Inst12Quest9_Location = "Holy Bologna: What the Light Won't Tell You (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest9_Note = "The reward is for Priests. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest9_Location = "The Arcanist's Cookbook (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest9_Note = "The reward is for Mages. You turn the book in to Lorekeeper Kildrath at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest9_Prequest = "None"
 Inst12Quest9_Folgequest = "None"
 --
 Inst12Quest9name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 10 Alliance
-Inst12Quest10 = "10. Garona: A Study on Stealth and Treachery (Rogue)"
+Inst12Quest10 = "10. The Light and How To Swing It (Paladin)"
 Inst12Quest10_Level = "60"
 Inst12Quest10_Attain = "54"
 Inst12Quest10_Aim = "Return the book to its rightful owners."
-Inst12Quest10_Location = "Garona: A Study on Stealth and Treachery (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest10_Note = "The reward is for Rogues. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest10_Location = "The Light and How To Swing It (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest10_Note = "The reward is for Paladins. You turn the book in to Lorekeeper Mykos at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest10_Prequest = "None"
 Inst12Quest10_Folgequest = "None"
 --
 Inst12Quest10name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 11 Alliance
-Inst12Quest11 = "11. Frost Shock and You (Shaman)"
+Inst12Quest11 = "11. Holy Bologna: What the Light Won't Tell You (Priest)"
 Inst12Quest11_Level = "60"
 Inst12Quest11_Attain = "54"
 Inst12Quest11_Aim = "Return the book to its rightful owners."
-Inst12Quest11_Location = "Frost Shock and You (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest11_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest11_Location = "Holy Bologna: What the Light Won't Tell You (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest11_Note = "The reward is for Priests. You turn the book in to Lorekeeper Javon at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest11_Prequest = "None"
 Inst12Quest11_Folgequest = "None"
 --
 Inst12Quest11name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 12 Alliance
-Inst12Quest12 = "12. Harnessing Shadows (Warlock)"
+Inst12Quest12 = "12. Garona: A Study on Stealth and Treachery (Rogue)"
 Inst12Quest12_Level = "60"
 Inst12Quest12_Attain = "54"
 Inst12Quest12_Aim = "Return the book to its rightful owners."
-Inst12Quest12_Location = "Harnessing Shadows (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest12_Note = "Warlock quest. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest12_Location = "Garona: A Study on Stealth and Treachery (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest12_Note = "The reward is for Rogues. You turn the book in to Lorekeeper Kildrath at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest12_Prequest = "None"
 Inst12Quest12_Folgequest = "None"
 --
 Inst12Quest12name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 13 Alliance
-Inst12Quest13 = "13. Codex of Defense (Warrior)"
+Inst12Quest13 = "13. Frost Shock and You (Shaman)"
 Inst12Quest13_Level = "60"
 Inst12Quest13_Attain = "54"
 Inst12Quest13_Aim = "Return the book to its rightful owners."
-Inst12Quest13_Location = "Codex of Defense (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest13_Note = "Warrior quest. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst12Quest13_Location = "Frost Shock and You (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest13_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest13_Prequest = "None"
 Inst12Quest13_Folgequest = "None"
 --
 Inst12Quest13name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 14 Alliance
-Inst12Quest14 = "14. Libram of Focus"
+Inst12Quest14 = "14. Harnessing Shadows (Warlock)"
 Inst12Quest14_Level = "60"
 Inst12Quest14_Attain = "54"
-Inst12Quest14_Aim = "Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Focus."
-Inst12Quest14_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst12Quest14_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Skin of Shadow is Soulbound and can drop off some bosses, Risen Constructs and Risen Bonewarder in "..YELLOW.."Scholomance"..WHITE.."."
+Inst12Quest14_Aim = "Return the book to its rightful owners."
+Inst12Quest14_Location = "Harnessing Shadows (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest14_Note = "Warlock quest. You turn the book in to Lorekeeper Mykos at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest14_Prequest = "None"
 Inst12Quest14_Folgequest = "None"
 --
-Inst12Quest14name1 = "Arcanum of Focus"
+Inst12Quest14name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 15 Alliance
-Inst12Quest15 = "15. Libram of Protection"
+Inst12Quest15 = "15. Codex of Defense (Warrior)"
 Inst12Quest15_Level = "60"
 Inst12Quest15_Attain = "54"
-Inst12Quest15_Aim = "Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Protection."
-Inst12Quest15_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst12Quest15_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Frayed Abomination Stitching is Soulbound and can drop off Ramstein the Gorger, Venom Belchers, Bile Spewer and Patchwork Horror in "..YELLOW.."Stratholme"..WHITE.."."
+Inst12Quest15_Aim = "Return the book to its rightful owners."
+Inst12Quest15_Location = "Codex of Defense (randomly drops off bosses in all Dire Maul wings)"
+Inst12Quest15_Note = "Warrior quest. You turn the book in to Lorekeeper Kildrath at the Athenaeum "..GREEN.."[5']"..WHITE.."."
 Inst12Quest15_Prequest = "None"
 Inst12Quest15_Folgequest = "None"
 --
-Inst12Quest15name1 = "Arcanum of Protection"
-
---Quest 16 Alliance
-Inst12Quest16 = "16. Libram of Rapidity"
-Inst12Quest16_Level = "60"
-Inst12Quest16_Attain = "54"
-Inst12Quest16_Aim = "Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Rapidity."
-Inst12Quest16_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst12Quest16_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Blood of Heroes is Soulbound and can be found on the ground in random places in the Western and Eastern Plaguelands."
-Inst12Quest16_Prequest = "None"
-Inst12Quest16_Folgequest = "None"
---
-Inst12Quest16name1 = "Arcanum of Rapidity"
-
---Quest 17 Alliance
-Inst12Quest17 = "17. Foror's Compendium (Warrior, Paladin)"
-Inst12Quest17_Level = "60"
-Inst12Quest17_Attain = "60"
-Inst12Quest17_Aim = "Return Foror's Compendium of Dragon Slaying to the Athenaeum."
-Inst12Quest17_Location = "Foror's Compendium of Dragon Slaying (random boss drop in "..YELLOW.."Dire Maul"..WHITE..")"
-Inst12Quest17_Note = "Warrior or Paladin quest. It turns in to Lorekeeper Lydros at (Dire Maul West; "..YELLOW.."[1'] Library"..WHITE.."). Turning this in allows you to start the quest for Quel'Serrar.\n\nAs of patch 3.2.2, you can no longer complete this questline unless you've already started it."
-Inst12Quest17_Prequest = "None"
-Inst12Quest17_Folgequest = "The Forging of Quel'Serrar"
--- No Rewards for this quest
+Inst12Quest15name1 = "Royal Seal of Eldre'Thalas"
 
 
 --Quest 1 Horde
-Inst12Quest1_HORDE = "1. Elven Legends"
-Inst12Quest1_HORDE_Level = "60"
-Inst12Quest1_HORDE_Attain = "54"
-Inst12Quest1_HORDE_Aim = "Search Dire Maul for Kariel Winthalus. Report back to Sage Korolusk at Camp Mojache with whatever information that you may find."
-Inst12Quest1_HORDE_Location = "Sage Korolusk (Feralas - Camp Mojache; "..YELLOW.."74,43"..WHITE..")"
-Inst12Quest1_HORDE_Note = "You find Kariel Winthalus in the "..YELLOW.."Library (West)"..WHITE.."."
+Inst12Quest1_HORDE = "1. The Highborne"
+Inst12Quest1_HORDE_Level = "42"
+Inst12Quest1_HORDE_Attain = "41"
+Inst12Quest1_HORDE_Aim = "Speak to Estulan."
+Inst12Quest1_HORDE_Location = "Hadoken Swiftstrider (Feralas - Camp Mojache; "..YELLOW.."74.8, 42.6"..WHITE..")"
+Inst12Quest1_HORDE_Note = "Estulan is just inside the entrance of Dire Maul - West."
 Inst12Quest1_HORDE_Prequest = "None"
 Inst12Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
@@ -2081,11 +2077,7 @@ Inst12Quest3_HORDE_Location = Inst12Quest3_Location
 Inst12Quest3_HORDE_Note = Inst12Quest3_Note
 Inst12Quest3_HORDE_Prequest = Inst12Quest3_Prequest
 Inst12Quest3_HORDE_Folgequest = Inst12Quest3_Folgequest
-Inst12Quest3FQuest_HORDE = "true"
---
-Inst12Quest3name1_HORDE = Inst12Quest3name1
-Inst12Quest3name2_HORDE = Inst12Quest3name2
-Inst12Quest3name3_HORDE = Inst12Quest3name3
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst12Quest4_HORDE = Inst12Quest4
@@ -2096,7 +2088,6 @@ Inst12Quest4_HORDE_Location = Inst12Quest4_Location
 Inst12Quest4_HORDE_Note = Inst12Quest4_Note
 Inst12Quest4_HORDE_Prequest = Inst12Quest4_Prequest
 Inst12Quest4_HORDE_Folgequest = Inst12Quest4_Folgequest
-Inst12Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -2108,8 +2099,7 @@ Inst12Quest5_HORDE_Location = Inst12Quest5_Location
 Inst12Quest5_HORDE_Note = Inst12Quest5_Note
 Inst12Quest5_HORDE_Prequest = Inst12Quest5_Prequest
 Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
---
-Inst12Quest5name1_HORDE = Inst12Quest5name1
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst12Quest6_HORDE = Inst12Quest6
@@ -2120,8 +2110,12 @@ Inst12Quest6_HORDE_Location = Inst12Quest6_Location
 Inst12Quest6_HORDE_Note = Inst12Quest6_Note
 Inst12Quest6_HORDE_Prequest = Inst12Quest6_Prequest
 Inst12Quest6_HORDE_Folgequest = Inst12Quest6_Folgequest
+Inst12Quest6FQuest_HORDE = Inst12Quest6FQuest
 --
 Inst12Quest6name1_HORDE = Inst12Quest6name1
+Inst12Quest6name2_HORDE = Inst12Quest6name2
+Inst12Quest6name3_HORDE = Inst12Quest6name3
+Inst12Quest6name4_HORDE = Inst12Quest6name4
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst12Quest7_HORDE = Inst12Quest7
@@ -2230,29 +2224,6 @@ Inst12Quest15_HORDE_Prequest = Inst12Quest15_Prequest
 Inst12Quest15_HORDE_Folgequest = Inst12Quest15_Folgequest
 --
 Inst12Quest15name1_HORDE = Inst12Quest15name1
-
---Quest 16 Horde  (same as Quest 16 Alliance)
-Inst12Quest16_HORDE = Inst12Quest16
-Inst12Quest16_HORDE_Level = Inst12Quest16_Level
-Inst12Quest16_HORDE_Attain = Inst12Quest16_Attain
-Inst12Quest16_HORDE_Aim = Inst12Quest16_Aim
-Inst12Quest16_HORDE_Location = Inst12Quest16_Location
-Inst12Quest16_HORDE_Note = Inst12Quest16_Note
-Inst12Quest16_HORDE_Prequest = Inst12Quest16_Prequest
-Inst12Quest16_HORDE_Folgequest = Inst12Quest16_Folgequest
---
-Inst12Quest16name1_HORDE = Inst12Quest16name1
-
---Quest 17 Horde  (same as Quest 17 Alliance)
-Inst12Quest17_HORDE = Inst12Quest17
-Inst12Quest17_HORDE_Level = Inst12Quest17_Level
-Inst12Quest17_HORDE_Attain = Inst12Quest17_Attain
-Inst12Quest17_HORDE_Aim = Inst12Quest17_Aim
-Inst12Quest17_HORDE_Location = Inst12Quest17_Location
-Inst12Quest17_HORDE_Note = Inst12Quest17_Note
-Inst12Quest17_HORDE_Prequest = Inst12Quest17_Prequest
-Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
--- No Rewards for this quest
 
 
 
