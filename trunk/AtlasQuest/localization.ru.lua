@@ -626,7 +626,7 @@ Inst5Quest2 = "2. Культ Сумеречного Молота?! О, нет!"
 Inst5Quest2_Level = "55"
 Inst5Quest2_Attain = "47"
 Inst5Quest2_Aim = "'Дознайте' правду у верховного дознавателя Герштан."
-Inst5Quest2_Location = "Кевин Доусон (Глубины Черной горы; "..GREEN.."['2']"..WHITE..")"
+Inst5Quest2_Location = "Кевин Доусон (Глубины Черной горы; "..GREEN.."[2']"..WHITE..")"
 Inst5Quest2_Note = "Верховного дознавателя Герштана можно найти в "..YELLOW.."[1]"..WHITE.."."
 Inst5Quest2_Prequest = "В тюрьму"
 Inst5Quest2_Folgequest = "Нет"
@@ -890,7 +890,7 @@ Inst5Quest2_HORDE = Inst5Quest2
 Inst5Quest2_HORDE_Level = Inst5Quest2_Level
 Inst5Quest2_HORDE_Attain = Inst5Quest2_Attain
 Inst5Quest2_HORDE_Aim = "Убейте верховного дознавателя Герштан."
-Inst5Quest2_HORDE_Location = "Лекслорт (Глубины Черной горы; "..GREEN.."['2']"..WHITE..")"
+Inst5Quest2_HORDE_Location = "Лекслорт (Глубины Черной горы; "..GREEN.."[2']"..WHITE..")"
 Inst5Quest2_HORDE_Note = Inst5Quest2_Note
 Inst5Quest2_HORDE_Prequest = Inst5Quest2_Prequest
 Inst5Quest2_HORDE_Folgequest = Inst5Quest2_Folgequest
@@ -1494,7 +1494,7 @@ Inst9Quest2name3 = "Staff of the Second Orb"
 Inst9Quest2name4 = "Vaelan's Claw"
 
 --Quest 3 Alliance
-Inst9Quest3 = "3. Blackhand's Command"
+Inst9Quest3 = "3. Распоряжения Ренда Чернорука"
 Inst9Quest3_Level = "60"
 Inst9Quest3_Attain = "55"
 Inst9Quest3_Aim = "Вот уж действительно идиот... Похоже, вам нужно найти это клеймо и выжечь на руке метку Драккисата, чтобы получить доступ к сфере Приказа."
@@ -1554,106 +1554,97 @@ Inst10QAA = "6 Заданий"
 Inst10QAH = "6 Заданий"
 
 --Quest 1 Alliance
-Inst10Quest1 = "1. Пузиллин и старейший Аж'Тордин"
-Inst10Quest1_Level = "58"
-Inst10Quest1_Attain = "54"
-Inst10Quest1_Aim = "Отправляйтесь в Забытый Город и отыщите беса Пузиллина. Любыми доступными средствами убедите Пузиллина отдать вам книгу заклинаний Аж'Тордина.\nВозвращение к Аж'Тордину в Фераласе позволит вам восстановить книгу заклинаний."
-Inst10Quest1_Location = "Аж'Тордин (Фералас - Lariss Pavillion; "..YELLOW.."76,37"..WHITE..")"
-Inst10Quest1_Note = "Пузиллин находится в Забытом городе "..YELLOW.."Восток"..WHITE.." около "..YELLOW.."[1]"..WHITE..". Он убегает когда вы поговорите с ним, но останавливается и сражается около "..YELLOW.."[2]"..WHITE..". С него падает Ключ Полумесяца, используемый в Забытом городе Север и Запад."
+Inst10Quest1 = "1. Спасение Криводрева"
+Inst10Quest1_Level = "40"
+Inst10Quest1_Attain = "38"
+Inst10Quest1_Aim = "Поговорите с Фургусом Криводревом."
+Inst10Quest1_Location = "Теларон Полет Ветра (Фералас - Покои Дремлющего; "..YELLOW.."50.6, 17.0"..WHITE..")"
+Inst10Quest1_Note = "Фургус Криводрев стоит на входе, внутри поздемелья Забытый город - Восток."
 Inst10Quest1_Prequest = "Нет"
 Inst10Quest1_Folgequest = "Нет"
---
-Inst10Quest1name1 = "Spry Boots"
-Inst10Quest1name2 = "Sprinter's Sword"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst10Quest2 = "2. Сеть Лефтендрис"
-Inst10Quest2_Level = "57"
-Inst10Quest2_Attain = "54"
-Inst10Quest2_Aim = "Принесите сеть Лефтендрис Латроникусу Лунному Копью в Крепость Оперенной Луны в Фераласе."
-Inst10Quest2_Location = "Латроникус Лунное Копье (Фералас - Крепость Оперенной Луны; "..YELLOW.."30,46"..WHITE..")"
-Inst10Quest2_Note = "Лефтендрис находится в Забытом городе "..YELLOW.."Восток"..WHITE.." около "..YELLOW.."[3]"..WHITE..". Предшествующее задание идет от Курьера Удар Молота в Стальгорне. Он бродит по всему городу."
-Inst10Quest2_Prequest = "Крепость Оперенной Луны"
+Inst10Quest2 = "2. Воришка Пузиллин"
+Inst10Quest2_Level = "40"
+Inst10Quest2_Attain = "38"
+Inst10Quest2_Aim = "Убедите Пузиллина отдать книгу магических формул."
+Inst10Quest2_Location = "Посланник Дагг'тол (Забытый город - Восток; "..YELLOW.."Вход"..WHITE..")"
+Inst10Quest2_Note = "Пузиллин стоит слева от входа "..GREEN.."[1']"..WHITE..". Как только вы поговорите с ним, он начнет убегать. Вы должны преследовать его и драться с его друзьями "..GREEN.."[2']"..WHITE.."."
+Inst10Quest2_Prequest = "Нет"
 Inst10Quest2_Folgequest = "Нет"
-Inst10Quest2PreQuest = "true"
---
-Inst10Quest2name1 = "Lorespinner"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst10Quest3 = "3. Осколки сквернита"
-Inst10Quest3_Level = "60"
-Inst10Quest3_Attain = "56"
-Inst10Quest3_Aim = "Отыщите Сквернит в Забытом Городе и подберите его осколок. Есть шанс, что вам удастся его добыть, только убив Алззина Вертоградаря. Крепко заприте осколок в реликварии Чистоты, затем верните его Рабину Сатурне в Ночную Гавань в Лунной поляне."
-Inst10Quest3_Location = "Рабин Сатурна (Лунная поляна - Ночная гавань; "..YELLOW.."51,44"..WHITE..")"
-Inst10Quest3_Note = "Вы найдете Алззина Вертоградаря в "..YELLOW.."Восточной"..WHITE.." части Забытого города около "..YELLOW.."[5]"..WHITE..". Реликварий находится в Силитусе около "..YELLOW.."62,54"..WHITE..". Предществующее задание также идет от Рабина Сатурна."
-Inst10Quest3_Prequest = "Реликварий Чистоты"
+Inst10Quest3 = "3. Сеть Лефтендрис"
+Inst10Quest3_Level = "40"
+Inst10Quest3_Attain = "38"
+Inst10Quest3_Aim = "Добудьте сеть Лефтендрис."
+Inst10Quest3_Location = "Посланник Дагг'тол (Забытый город - Восток; "..YELLOW.."Вход"..WHITE..")"
+Inst10Quest3_Note = "Лефтендрис находится "..YELLOW.."[1]"..WHITE.." на возвышении, в конце платформы."
+Inst10Quest3_Prequest = "Нет"
 Inst10Quest3_Folgequest = "Нет"
-Inst10Quest3PreQuest = "true"
---
-Inst10Quest3name1 = "Milli's Shield"
-Inst10Quest3name2 = "Milli's Lexicon"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst10Quest4 = "4. Левая часть амулета Лорда Вальтхалака"
-Inst10Quest4_Level = "60"
-Inst10Quest4_Attain = "58"
-Inst10Quest4_Aim = "С помощью жаровни Призыва вызвать дух Изалиен и убить ее. Вернуться к Бодли в Черную гору, отдать ему левую часть амулета Лорда Вальтхалака и жаровню Призыва."
-Inst10Quest4_Location = "Бодли (Черная гора; "..YELLOW.."[D] на карте входа"..WHITE..")"
-Inst10Quest4_Note = "Чтобы увидеть Бодли нужен Спектральный сканер иных измерений. Вы получите его в задании 'В поисках Антиона'.\n\nИзалиен призывается около "..YELLOW.."[5]"..WHITE.."."
-Inst10Quest4_Prequest = "Важная составляющая заклинания"
-Inst10Quest4_Folgequest = "Я вижу остров Алькац..."
-Inst10Quest4PreQuest = "true"
+Inst10Quest4 = "4. Незваный гость"
+Inst10Quest4_Level = "40"
+Inst10Quest4_Attain = "38"
+Inst10Quest4_Aim = "Добудьте сущность Гидротвари."
+Inst10Quest4_Location = "Фургус Криводрев (Забытый город - Восток; "..YELLOW.."Вход"..WHITE..")"
+Inst10Quest4_Note = "Гидротварь находится "..YELLOW.."[2]"..WHITE.." в воде."
+Inst10Quest4_Prequest = "Нет"
+Inst10Quest4_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst10Quest5 = "5. Правая часть амулета Лорда Вальтхалака"
-Inst10Quest5_Level = "60"
-Inst10Quest5_Attain = "58"
-Inst10Quest5_Aim = "С помощью жаровни Призыва вызвать дух Изалиен и убить ее. Вернуться к Бодли в Черную гору, отдать ему восстановленный амулет и жаровню Призыва."
-Inst10Quest5_Location = "Бодли (Черная гора; "..YELLOW.."[D] на карте входа"..WHITE..")"
-Inst10Quest5_Note = "Чтобы увидеть Бодли нужен Спектральный сканер иных измерений. Вы получите его в задании 'В поисках Антиона'.\n\nИзалиен призывается около "..YELLOW.."[5]"..WHITE.."."
-Inst10Quest5_Prequest = "Еще одна важная составляющая заклинания"
-Inst10Quest5_Folgequest = "Последние приготовления ("..YELLOW.."Верхний ярус Вершины Черной горы"..WHITE..")"
-Inst10Quest5PreQuest = "true"
--- No Rewards for this quest
+Inst10Quest5 = "5. Алззин Перевертень"
+Inst10Quest5_Level = "41"
+Inst10Quest5_Attain = "38"
+Inst10Quest5_Aim = "Убейте Зеврима Терновое Копыто и Алззина Перевертеня."
+Inst10Quest5_Location = "Фургус Криводрев (Забытый город - Восток; "..YELLOW.."Вход"..WHITE..")"
+Inst10Quest5_Note = "Зеврим Терновое Копыто находится "..YELLOW.."[3]"..WHITE..", а Алззин Перевертень "..YELLOW.."[4]"..WHITE.."."
+Inst10Quest5_Prequest = "Нет"
+Inst10Quest5_Folgequest = "Нет"
+--
+Inst10Quest5name1 = "Warpwood Bow"
+Inst10Quest5name2 = "Warpwood Bark Vest"
+Inst10Quest5name3 = "Warpwood Shield"
+Inst10Quest5name4 = "Warpwood Leaf Mantle"
 
 --Quest 6 Alliance
-Inst10Quest6 = "6. Тюремные кандалы (Чернокнижник)"
-Inst10Quest6_Level = "60"
-Inst10Quest6_Attain = "60"
-Inst10Quest6_Aim = "Отправляйтесь в Забытый Город, что в Фераласе и добудьте 15 порций крови сатиров из племени Исчадий Природы, что живут в Квартале Криводревов. Вернитесь к Дайо из Гниющего шрама по выполнении поручения."
-Inst10Quest6_Location = "Дайо Дряхлый (Выжженные земли - Гниющий шрам; "..YELLOW.."34,50"..WHITE..")"
-Inst10Quest6_Note = "Это задание, как и другое у Дайо Дряхлого, предназначено только для чернокнижников для заклинания Ритуал Рока. Простейший путь добраться до Сатиров из племени Исчадий Природы это войти в Забытый город - Восток через 'черный ход' в Lariss Pavilion (Фералас; "..YELLOW.."77,37"..WHITE.."). You'll need the Crescent Key, however."
+Inst10Quest6 = "6. Осколки сквернита"
+Inst10Quest6_Level = "41"
+Inst10Quest6_Attain = "38"
+Inst10Quest6_Aim = "Воспользуйтесь реликварием Чистоты, чтобы захватить осколок сквернита."
+Inst10Quest6_Location = "Фургус Криводрев (Забытый город - Восток; "..YELLOW.."Вход"..WHITE..")"
+Inst10Quest6_Note = "Используйте Реликварий Чистоты после того, как вы победите Алззина Перевертеня "..YELLOW.."[4]"..WHITE..". Появятся 5 осколков и вы можете подобрать более одного,поэтому хватайте свой осколок быстрее."
 Inst10Quest6_Prequest = "Нет"
 Inst10Quest6_Folgequest = "Нет"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst10Quest1_HORDE = Inst10Quest1
-Inst10Quest1_HORDE_Level = Inst10Quest1_Level
-Inst10Quest1_HORDE_Attain = Inst10Quest1_Attain
-Inst10Quest1_HORDE_Aim = Inst10Quest1_Aim
-Inst10Quest1_HORDE_Location = Inst10Quest1_Location
-Inst10Quest1_HORDE_Note = Inst10Quest1_Note
-Inst10Quest1_HORDE_Prequest = Inst10Quest1_Prequest
-Inst10Quest1_HORDE_Folgequest = Inst10Quest1_Folgequest
---
-Inst10Quest1name1_HORDE = Inst10Quest1name1
-Inst10Quest1name2_HORDE = Inst10Quest1name2
+--Quest 1 Horde
+Inst10Quest1_HORDE = "1. Спасение Криводрева"
+Inst10Quest1_HORDE_Level = "40"
+Inst10Quest1_HORDE_Attain = "38"
+Inst10Quest1_HORDE_Aim = "Поговорите с Фургусом Криводревом."
+Inst10Quest1_HORDE_Location = "Хадокен Быстрый Странник (Фералас - Лагерь Мохаче; "..YELLOW.."74.8, 42.6"..WHITE..")"
+Inst10Quest1_HORDE_Note = "Фургус Криводрев стоит на входе, внутри поздемелья Забытый город - Восток."
+Inst10Quest1_HORDE_Prequest = "Нет"
+Inst10Quest1_HORDE_Folgequest = "Нет"
+-- No Rewards for this quest
 
---Quest 2 Horde
-Inst10Quest2_HORDE = "2. Сеть Лефтендрис"
-Inst10Quest2_HORDE_Level = "57"
-Inst10Quest2_HORDE_Attain = "54"
-Inst10Quest2_HORDE_Aim = "Принесите сеть Лефтендрис Тало Терновому Копыту в Лагере Мохаче в Фераласе."
-Inst10Quest2_HORDE_Location = "Тало Терновое Копыто (Фералас - Лагерь Мохаче; "..YELLOW.."76,43"..WHITE..")"
-Inst10Quest2_HORDE_Note = "Лефтендрис находится в Забытом городе "..YELLOW.."Восток"..WHITE.." около "..YELLOW.."[3]"..WHITE..". Предшествеющее задание идет от Военного глашатая Горлача в Оргриммаре. Он бродит по всему городу."
-Inst10Quest2_HORDE_Prequest = "Лагерь Мохаче"
-Inst10Quest2_HORDE_Folgequest = "Нет"
-Inst10Quest2PreQuest_HORDE = "true"
---
-Inst10Quest2name1_HORDE = "Lorespinner"
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst10Quest2_HORDE = Inst10Quest2
+Inst10Quest2_HORDE_Level = Inst10Quest2_Level
+Inst10Quest2_HORDE_Attain = Inst10Quest2_Attain
+Inst10Quest2_HORDE_Aim = Inst10Quest2_Aim
+Inst10Quest2_HORDE_Location = Inst10Quest2_Location
+Inst10Quest2_HORDE_Note = Inst10Quest2_Note
+Inst10Quest2_HORDE_Prequest = Inst10Quest2_Prequest
+Inst10Quest2_HORDE_Folgequest = Inst10Quest2_Folgequest
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst10Quest3_HORDE = Inst10Quest3
@@ -1664,9 +1655,7 @@ Inst10Quest3_HORDE_Location = Inst10Quest3_Location
 Inst10Quest3_HORDE_Note = Inst10Quest3_Note
 Inst10Quest3_HORDE_Prequest = Inst10Quest3_Prequest
 Inst10Quest3_HORDE_Folgequest = Inst10Quest3_Folgequest
---
-Inst10Quest3name1_HORDE = Inst10Quest3name1
-Inst10Quest3name2_HORDE = Inst10Quest3name2
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst10Quest4_HORDE = Inst10Quest4
@@ -1677,7 +1666,6 @@ Inst10Quest4_HORDE_Location = Inst10Quest4_Location
 Inst10Quest4_HORDE_Note = Inst10Quest4_Note
 Inst10Quest4_HORDE_Prequest = Inst10Quest4_Prequest
 Inst10Quest4_HORDE_Folgequest = Inst10Quest4_Folgequest
-Inst10Quest4PreQuest_HORDE = Inst10Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -1689,8 +1677,11 @@ Inst10Quest5_HORDE_Location = Inst10Quest5_Location
 Inst10Quest5_HORDE_Note = Inst10Quest5_Note
 Inst10Quest5_HORDE_Prequest = Inst10Quest5_Prequest
 Inst10Quest5_HORDE_Folgequest = Inst10Quest5_Folgequest
-Inst10Quest5PreQuest_HORDE = Inst10Quest5PreQuest
--- No Rewards for this quest
+--
+Inst10Quest5name1_HORDE = Inst10Quest5name1
+Inst10Quest5name2_HORDE = Inst10Quest5name2
+Inst10Quest5name3_HORDE = Inst10Quest5name3
+Inst10Quest5name4_HORDE = Inst10Quest5name4
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst10Quest6_HORDE = Inst10Quest6
@@ -1709,94 +1700,112 @@ Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 
 Inst11Story = "Построенный двенадцать тысяч лет назад тайной сектой волшебников ночных эльфов, древний город Эльдре'Талас использовали, чтобы защитить самые ценные секреты королевы Азшары. Несмотря на то, что он был уничтожен Великим Расколом мира, большая часть изумительного города еще существует как грандиозный Ужасный Кулак. Три самобытных района руин населили всевозможные твари - в основном призрачными высокорожденными, грязными сатирами и безмозглыми ограми. Только группа самых отважных искателей приключений может войти в разрушенный город и встретиться лицом к лицу с древним злом, заключенным в его древних подвалах."
 Inst11Caption = "Забытый город (Север)"
-Inst11QAA = "4 Задания"
-Inst11QAH = "4 Задания"
+Inst11QAA = "6 Заданий"
+Inst11QAH = "6 Заданий"
 
 --Quest 1 Alliance
-Inst11Quest1 = "1. Сломанная западня"
-Inst11Quest1_Level = "60"
-Inst11Quest1_Attain = "56"
-Inst11Quest1_Aim = "Отремонтировать западню."
-Inst11Quest1_Location = "Сломанная западня (Забытый город; "..YELLOW.."Север"..WHITE..")"
-Inst11Quest1_Note = "Повторяемое задание. Для ремонта западни нужно использовать [Ториевое устройство] и [Масло льда]."
+Inst11Quest1 = "1. Небесные очи"
+Inst11Quest1_Level = "46"
+Inst11Quest1_Attain = "44"
+Inst11Quest1_Aim = "Поговорите с друидом-вороном."
+Inst11Quest1_Location = "Шандриса Оперенная Луна (Фералас - Крепость Оперенной Луны; "..YELLOW.."46.0, 49.0"..WHITE..")"
+Inst11Quest1_Note = "Друид-ворон стоит на входе, внутри поздемелья Забытый город - Север."
 Inst11Quest1_Prequest = "Нет"
 Inst11Quest1_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst11Quest2 = "2. Броня огров Гордока"
-Inst11Quest2_Level = "60"
-Inst11Quest2_Attain = "56"
-Inst11Quest2_Aim = "Принесите 4 рулона рунной ткани, 8 кусков прочной кожи, 2 мотка рунной нити и огрскую дубильную кислоту Уззлу Наперстяку. Он прикован в секторе Гордока в Забытом Городе."
-Inst11Quest2_Location = "Уззл Наперстяк (Забытый город; "..YELLOW.."Север, [4]"..WHITE..")"
-Inst11Quest2_Note = "Повторяемое задание. Вы найдете огрскую дубильную кислоту около "..YELLOW.."[4] (сверху)"..WHITE.."."
+Inst11Quest2 = "2. Король Гордока"
+Inst11Quest2_Level = "47"
+Inst11Quest2_Attain = "44"
+Inst11Quest2_Aim = "Убейте короля Гордока."
+Inst11Quest2_Location = "Друид-ворон (Забытый город - Север; "..YELLOW.."Вход"..WHITE..")"
+Inst11Quest2_Note = "Король Гордок находится "..YELLOW.."[6]"..WHITE..".\n\nЕсли вы оставите Огров с именами (Стражник Мол'дар, Топотун Криг, Стражник Фенгус, Стражник Слип'кик и Капитан Давигром) в живых, то получите больше добычи и заданий, после того, как победите Короля Гордока. Поговорите с Чо'Рашем Наблюдателем в конце, чтобы получить содержимое Приношения Гордока."
 Inst11Quest2_Prequest = "Нет"
 Inst11Quest2_Folgequest = "Нет"
 --
-Inst11Quest2name1 = "Gordok Ogre Suit"
+Inst11Quest2name1 = "Pauldrons of Tribute"
+Inst11Quest2name2 = "Wristbands of Tribute"
+Inst11Quest2name3 = "Slippers of Tribute"
+Inst11Quest2name4 = "Tribute Gun"
 
 --Quest 3 Alliance
-Inst11Quest3 = "3. Освободите Нотта!"
-Inst11Quest3_Level = "60"
-Inst11Quest3_Attain = "60"
-Inst11Quest3_Aim = "Найдите Ключ от оков Гордока для Уззла Наперстяка."
-Inst11Quest3_Location = "Уззл Наперстяк (Забытый город; "..YELLOW.."Север, [4]"..WHITE..")"
-Inst11Quest3_Note = "Повторяемое задание. Ключ может выпасть из любого охранника."
+Inst11Quest3 = "3. Сломанная западня"
+Inst11Quest3_Level = "46"
+Inst11Quest3_Attain = "42"
+Inst11Quest3_Aim = "Почините ловушку."
+Inst11Quest3_Location = "Сломанная ловушка (Забытый город - Север; "..YELLOW.."[4]"..WHITE..")"
+Inst11Quest3_Note = "Это повторяемое задание. Нажмите на ловушку, для его выполнения. Ловушка заморозит Стражника Слип'кика, и вы сможете пройти мимо, не убивая его."
 Inst11Quest3_Prequest = "Нет"
 Inst11Quest3_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst11Quest4 = "4. Неоконченное дело Гордоков"
-Inst11Quest4_Level = "60"
-Inst11Quest4_Attain = "56"
-Inst11Quest4_Aim = "Добудьте латную рукавицу Мощи Гордока и вернитесь с ней к капитану Кром-Крушителю в Грозном Молоте.\nПо словам Кром-Крушителя, в 'старых байках' говорится, что Тортелдрин - 'паскудный эльф', называющий себя принцем, - похитил эту рукавицу у одного из королей Гордоков."
-Inst11Quest4_Location = "Кром-Крушитель (Забытый город; "..YELLOW.."Север, [5]"..WHITE..")"
-Inst11Quest4_Note = "Принц находится в Забытом городе "..YELLOW.."Запад"..WHITE.." около "..YELLOW.."[7]"..WHITE..". Рукавица в сундуке прямо рядом с ним. Вы можете взять это задание только после Tribute run и с баффом It's Good to be King!."
+Inst11Quest4 = "4. Броня огров Гордока"
+Inst11Quest4_Level = "46"
+Inst11Quest4_Attain = "42"
+Inst11Quest4_Aim = "Принесите огрскую дубильную кислоту Уззлу Наперстяку."
+Inst11Quest4_Location = "Уззл Наперстяк (Забытый город - Север; "..YELLOW.."[4]"..WHITE..")"
+Inst11Quest4_Note = "Это повторяемое задание. Вы найдете Огрскую дубильную кислоту на следующем этаже. Используйте этот костюм, чтобы отправить Капитана Давигрома гулять, и вам не придется его убивать."
 Inst11Quest4_Prequest = "Нет"
 Inst11Quest4_Folgequest = "Нет"
 --
-Inst11Quest4name1 = "Gordok's Handwraps"
-Inst11Quest4name2 = "Gordok's Gloves"
-Inst11Quest4name3 = "Gordok's Gauntlets"
-Inst11Quest4name4 = "Gordok's Handguards"
+Inst11Quest4name1 = "Gordok Ogre Suit"
 
 --Quest 5 Alliance
-Inst11Quest5 = "5. Лучшее пойло Гордока"
-Inst11Quest5_Level = "60"
-Inst11Quest5_Attain = "60"
-Inst11Quest5_Aim = "Халявная выпивка."
-Inst11Quest5_Location = "Топотун Криг (Забытый город; "..YELLOW.."Север, [2]"..WHITE..")"
-Inst11Quest5_Note = "Для выполнения задания нужно несколько раз поговорить с NPC."
+Inst11Quest5 = "5. Неоконченное дело Гордоков"
+Inst11Quest5_Level = "47"
+Inst11Quest5_Attain = "44"
+Inst11Quest5_Aim = "Поговорите со стражником Мол'даром в Забытом Городе."
+Inst11Quest5_Location = "Капитан Давигром (Забытый город - Север; "..YELLOW.."[3]"..WHITE..")"
+Inst11Quest5_Note = "Вы получите это задание, после того как убьете Короля Гордока, если оставили Капитана Давигрома и Стражника Мол'дара в живых.\n\nСтражник Мол'дар находится "..YELLOW.."[1]"..WHITE.."."
 Inst11Quest5_Prequest = "Нет"
 Inst11Quest5_Folgequest = "Нет"
 --
-Inst11Quest5name1 = "Gordok Green Grog"
-Inst11Quest5name2 = "Kreeg's Stout Beatdown"
+Inst11Quest5name1 = "Gordok's Handguards"
+Inst11Quest5name2 = "Gordok's Gauntlets"
+Inst11Quest5name3 = "Gordok's Gloves"
+Inst11Quest5name4 = "Gordok's Handwraps"
+
+--Quest 6 Alliance
+Inst11Quest6 = "6. Лучшее пойло Гордока"
+Inst11Quest6_Level = "46"
+Inst11Quest6_Attain = "44"
+Inst11Quest6_Aim = "Халявная выпивка."
+Inst11Quest6_Location = "Топотун Криг (Забытый город - Север; "..YELLOW.."[2]"..WHITE..")"
+Inst11Quest6_Note = "Поговорите с этим НИП для получения и выполнения задания."
+Inst11Quest6_Prequest = "Нет"
+Inst11Quest6_Folgequest = "Нет"
+--
+Inst11Quest6name1 = "Gordok Green Grog"
+Inst11Quest6name2 = "Kreeg's Stout Beatdown"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst11Quest1_HORDE = Inst11Quest1
-Inst11Quest1_HORDE_Level = Inst11Quest1_Level
-Inst11Quest1_HORDE_Attain = Inst11Quest1_Attain
-Inst11Quest1_HORDE_Aim = Inst11Quest1_Aim
-Inst11Quest1_HORDE_Location = Inst11Quest1_Location
-Inst11Quest1_HORDE_Note = Inst11Quest1_Note
-Inst11Quest1_HORDE_Prequest = Inst11Quest1_Prequest
-Inst11Quest1_HORDE_Folgequest = Inst11Quest1_Folgequest
+--Quest 1 Horde
+Inst11Quest1_HORDE = "1. Огр на поле боя"
+Inst11Quest1_HORDE_Level = "46"
+Inst11Quest1_HORDE_Attain = "44"
+Inst11Quest1_HORDE_Aim = "Поговорите с огром Каменного Молота."
+Inst11Quest1_HORDE_Location = "Орхан Огрский Клинок (Фералас - Крепость Каменного Молота;"..YELLOW.."51.8, 48.0"..WHITE..")"
+Inst11Quest1_HORDE_Note = "Огр из клана Каменного Молота стоит на входе, внутри поздемелья Забытый город - Север."
+Inst11Quest1_HORDE_Prequest = "Нет"
+Inst11Quest1_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst11Quest2_HORDE = Inst11Quest2
-Inst11Quest2_HORDE_Level = Inst11Quest2_Level
-Inst11Quest2_HORDE_Attain = Inst11Quest2_Attain
-Inst11Quest2_HORDE_Aim = Inst11Quest2_Aim
-Inst11Quest2_HORDE_Location = Inst11Quest2_Location
-Inst11Quest2_HORDE_Note = Inst11Quest2_Note
-Inst11Quest2_HORDE_Prequest = Inst11Quest2_Prequest
-Inst11Quest2_HORDE_Folgequest = Inst11Quest2_Folgequest
+--Quest 2 Horde
+Inst11Quest2_HORDE = "2. Король Гордока"
+Inst11Quest2_HORDE_Level = "47"
+Inst11Quest2_HORDE_Attain = "44"
+Inst11Quest2_HORDE_Aim = "Убейте короля Гордока."
+Inst11Quest2_HORDE_Location = "Огр из клана Каменного Молота (Забытый город - Север; "..YELLOW.."Вход"..WHITE..")"
+Inst11Quest2_HORDE_Note = "Король Гордок находится "..YELLOW.."[6]"..WHITE..".\n\nЕсли вы оставите Огров с именами (Стражник Мол'дар, Топотун Криг, Стражник Фенгус, Стражник Слип'кик и Капитан Давигром) в живых, то получите больше добычи и заданий, после того, как победите Короля Гордока. Поговорите с Чо'Рашем Наблюдателем в конце, чтобы получить содержимое Приношения Гордока."
+Inst11Quest2_HORDE_Prequest = "Нет"
+Inst11Quest2_HORDE_Folgequest = "Нет"
 --
-Inst11Quest2name1_HORDE = Inst11Quest2name1
+Inst11Quest2name1_HORDE = "Pauldrons of Tribute"
+Inst11Quest2name2_HORDE = "Wristbands of Tribute"
+Inst11Quest2name3_HORDE = "Slippers of Tribute"
+Inst11Quest2name4_HORDE = "Tribute Gun"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst11Quest3_HORDE = Inst11Quest3
@@ -1820,9 +1829,6 @@ Inst11Quest4_HORDE_Prequest = Inst11Quest4_Prequest
 Inst11Quest4_HORDE_Folgequest = Inst11Quest4_Folgequest
 --
 Inst11Quest4name1_HORDE = Inst11Quest4name1
-Inst11Quest4name2_HORDE = Inst11Quest4name2
-Inst11Quest4name3_HORDE = Inst11Quest4name3
-Inst11Quest4name4_HORDE = Inst11Quest4name4
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst11Quest5_HORDE = Inst11Quest5
@@ -1836,6 +1842,21 @@ Inst11Quest5_HORDE_Folgequest = Inst11Quest5_Folgequest
 --
 Inst11Quest5name1_HORDE = Inst11Quest5name1
 Inst11Quest5name2_HORDE = Inst11Quest5name2
+Inst11Quest5name3_HORDE = Inst11Quest5name3
+Inst11Quest5name4_HORDE = Inst11Quest5name4
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst11Quest6_HORDE = Inst11Quest6
+Inst11Quest6_HORDE_Level = Inst11Quest6_Level
+Inst11Quest6_HORDE_Attain = Inst11Quest6_Attain
+Inst11Quest6_HORDE_Aim = Inst11Quest6_Aim
+Inst11Quest6_HORDE_Location = Inst11Quest6_Location
+Inst11Quest6_HORDE_Note = Inst11Quest6_Note
+Inst11Quest6_HORDE_Prequest = Inst11Quest6_Prequest
+Inst11Quest6_HORDE_Folgequest = Inst11Quest6_Folgequest
+--
+Inst11Quest6name1_HORDE = Inst11Quest6name1
+Inst11Quest6name2_HORDE = Inst11Quest6name2
 
 
 
@@ -1843,221 +1864,196 @@ Inst11Quest5name2_HORDE = Inst11Quest5name2
 
 Inst12Story = "Построенный двенадцать тысяч лет назад тайной сектой волшебников ночных эльфов, древний город Эльдре'Талас использовали, чтобы защитить самые ценные секреты королевы Азшары. Несмотря на то, что он был уничтожен Великим Расколом мира, большая часть изумительного города еще существует как грандиозный Ужасный Кулак. Три самобытных района руин населили всевозможные твари - в основном призрачными высокорожденными, грязными сатирами и безмозглыми ограми. Только группа самых отважных искателей приключений может войти в разрушенный город и встретиться лицом к лицу с древним злом, заключенным в его древних подвалах."
 Inst12Caption = "Забытый город (Запад)"
-Inst12QAA = "17 Заданий"
-Inst12QAH = "17 Заданий"
+Inst12QAA = "15 Заданий"
+Inst12QAH = "15 Заданий"
 
 --Quest 1 Alliance
-Inst12Quest1 = "1. Эльфийские легенды"
-Inst12Quest1_Level = "60"
-Inst12Quest1_Attain = "54"
-Inst12Quest1_Aim = "Попытайтесь найти в Забытом Городе Кариэля Винтхалуса. Вернитесь в Крепость Оперенной Луны к школяру Рунному Шипу и сообщите ему все, что вам удалось узнать."
-Inst12Quest1_Location = "Школяр Рунный Шип (Фералас - Крепость Оперенной Луны; "..YELLOW.."31,43"..WHITE..")"
-Inst12Quest1_Note = "Вы найдете Кариэля Винтхалуса в "..YELLOW.."Библиотека (Запад)"..WHITE.."."
+Inst12Quest1 = "1. Высокорожденный"
+Inst12Quest1_Level = "42"
+Inst12Quest1_Attain = "41"
+Inst12Quest1_Aim = "Поговорите с Эстуланом."
+Inst12Quest1_Location = "Теларон Полет Ветра (Фералас - Покои Дремлющего; "..YELLOW.."50.6, 17.0"..WHITE..")"
+Inst12Quest1_Note = "Эстулан стоит на входе, внутри поздемелья Забытый город - Запад."
 Inst12Quest1_Prequest = "Нет"
 Inst12Quest1_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst12Quest2 = "2. Древнее безумие"
-Inst12Quest2_Level = "60"
-Inst12Quest2_Attain = "56"
-Inst12Quest2_Aim = "Перебейте стражей, которые охраняют 5 столпов, снабжающих энергией Тюрьму Бессмер'тера. После того, как столпы угаснут, силовое поле, удерживающее Бессмер'тера, рассеется.\nВойдите в Тюрьму Бессмер'тера и уничтожьте злого демона, который находится внутри. И, наконец, сразитесь с принцем Тортелдрином в Читальне."
-Inst12Quest2_Location = "Прародительница Шен'дралар (Забытый город; "..YELLOW.."Запад, [1] (сверху)"..WHITE..")"
-Inst12Quest2_Note = "Столпы помечены как "..BLUE.."[B]"..WHITE..". Бессмер'тер находится около "..YELLOW.."[6]"..WHITE..", Принц Тортелдрин находится около "..YELLOW.."[7]"..WHITE.."."
+Inst12Quest2 = "2. Проклятые призраки"
+Inst12Quest2_Level = "43"
+Inst12Quest2_Attain = "41"
+Inst12Quest2_Aim = "Убейте магистра Календриса и Иллиану Вороний Дуб."
+Inst12Quest2_Location = "Эстулан (Забытый город - Запад; "..YELLOW.."Вход"..WHITE..")"
+Inst12Quest2_Note = "Магистр Календрис находится "..YELLOW.."[2]"..WHITE..", а Иллиана Воронья Ольха "..YELLOW.."[3]"..WHITE.."."
 Inst12Quest2_Prequest = "Нет"
-Inst12Quest2_Folgequest = "Сокровище Шен'дралар"
+Inst12Quest2_Folgequest = "Нет"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst12Quest3 = "3. Сокровище Шен'дралар"
-Inst12Quest3_Level = "60"
-Inst12Quest3_Attain = "56"
-Inst12Quest3_Aim = "Вернитесь в Читальню и найдите сокровище Шен'дралар. Получите свою награду!"
-Inst12Quest3_Location = "Прародительница Шен'дралар (Забытый город; "..YELLOW.."Запад, [1]"..WHITE..")"
-Inst12Quest3_Note = "Вы найдете Сокровище под ступеньками "..YELLOW.."[7]"..WHITE.."."
-Inst12Quest3_Prequest = "Древнее безумие"
+Inst12Quest3 = "3. Прародительница Шен'дралар"
+Inst12Quest3_Level = "43"
+Inst12Quest3_Attain = "41"
+Inst12Quest3_Aim = "Поговорите с прародительницей Шен'дралар."
+Inst12Quest3_Location = "Эстулан (Забытый город - Запад; "..YELLOW.."Вход"..WHITE..")"
+Inst12Quest3_Note = "Прародительница Шен'дралар находится "..GREEN.."[4']"..WHITE.." на следующем этаже."
+Inst12Quest3_Prequest = "Нет"
 Inst12Quest3_Folgequest = "Нет"
-Inst12Quest3FQuest = "true"
---
-Inst12Quest3name1 = "Sedge Boots"
-Inst12Quest3name2 = "Backwood Helm"
-Inst12Quest3name3 = "Bonecrusher"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst12Quest4 = "4. Ксоротианский конь погибели (Чернокнижник)"
-Inst12Quest4_Level = "60"
-Inst12Quest4_Attain = "60"
-Inst12Quest4_Aim = "Прочтите инструкции Мор'зула. Призовите ксоротианского коня погибели, одолейте его и подчините его дух."
-Inst12Quest4_Location = "Мор'зул Кровопуск (Пылающие степи; "..YELLOW.."12,31"..WHITE..")"
-Inst12Quest4_Note = "Последнее задание в серии для получения эпического коня чернокнижника. Сначала нужно погасить все столпы, помеченные  "..BLUE.."[B]"..WHITE.." а затем убить Бессмер'тера около "..YELLOW.."[6]"..WHITE..". После этого вы сможете начать Ритуал Призыва. Удостоверьтесь что увас есть 20 Осколков Души а также Чернокнижник конкретно следящий за поддержанием Колокола, Свечи и Колеса.Стражников ужаса можно поработить. После выполнения, поговорите с Духом коня погибели."
-Inst12Quest4_Prequest = "Доставка беса ("..YELLOW.."Некроситет"..WHITE..")"
+Inst12Quest4 = "4. Криводрев-защитник"
+Inst12Quest4_Level = "43"
+Inst12Quest4_Attain = "41"
+Inst12Quest4_Aim = "Убейте Тендриса Криводрева."
+Inst12Quest4_Location = "Шен'драларский дозорный (Забытый город - Запад; "..YELLOW.."Вход"..WHITE..")"
+Inst12Quest4_Note = "Тендрис Криводрев находится "..YELLOW.."[1]"..WHITE.."."
+Inst12Quest4_Prequest = "Нет"
 Inst12Quest4_Folgequest = "Нет"
-Inst12Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst12Quest5 = "5. Изумрудный сон (Друид)"
-Inst12Quest5_Level = "60"
-Inst12Quest5_Attain = "54"
-Inst12Quest5_Aim = "Верните книгу законным владельцам."
-Inst12Quest5_Location = "Изумрудный Сон (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest5_Note = "Награда для друидов. Отдайте книгу сказителю Явону около "..YELLOW.."1' Библиотека"..WHITE.."."
+Inst12Quest5 = "5. Древнее безумие"
+Inst12Quest5_Level = "44"
+Inst12Quest5_Attain = "41"
+Inst12Quest5_Aim = "Войдите в тюрьму Бессмер'тера и уничтожьте заключенного в ней демона. После этого убейте принца Тортелдрина в Читальне."
+Inst12Quest5_Location = "Прародительница Шен'дралар (Забытый город - Запад; "..GREEN.."[4']"..WHITE..")"
+Inst12Quest5_Note = "Пилоны отмечены как "..GREEN.."[2']"..WHITE..". Бессмер'тер находится "..YELLOW.."[4]"..WHITE..", а Принц Тортелдрин "..YELLOW.."[5]"..WHITE.."."
 Inst12Quest5_Prequest = "Нет"
-Inst12Quest5_Folgequest = "Нет"
---
-Inst12Quest5name1 = "Royal Seal of Eldre'Thalas"
+Inst12Quest5_Folgequest = "Сокровище Шен'дралар"
+-- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst12Quest6 = "6. Величайшая гонка охотников (Охотник)"
-Inst12Quest6_Level = "60"
-Inst12Quest6_Attain = "54"
-Inst12Quest6_Aim = "Верните книгу законным владельцам."
-Inst12Quest6_Location = "Величайшая гонка охотников (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest6_Note = "Награда для Охотников. Отдайте книгу  Сказительнице Микос около "..YELLOW.."1' Библиотека"..WHITE.."."
-Inst12Quest6_Prequest = "Нет"
+Inst12Quest6 = "6. Сокровище Шен'дралар"
+Inst12Quest6_Level = "44"
+Inst12Quest6_Attain = "41"
+Inst12Quest6_Aim = "Вернитесь в Читальню и найдите сокровище Шен'дралар, а затем потребуйте свою награду."
+Inst12Quest6_Location = "Прародительница Шен'дралар (Забытый город - Запад; "..GREEN.."[4']"..WHITE..")"
+Inst12Quest6_Note = "Сокровище Шен'дралар находится рядом с подьемом в Читальню."
+Inst12Quest6_Prequest = "Древнее безумие"
 Inst12Quest6_Folgequest = "Нет"
+Inst12Quest6FQuest = "true"
 --
-Inst12Quest6name1 = "Royal Seal of Eldre'Thalas"
+Inst12Quest6name1 = "Fras Siabi's Cigar Cutter"
+Inst12Quest6name2 = "Staff of Athen'a"
+Inst12Quest6name3 = "Shen'dralar Trident"
+Inst12Quest6name4 = "Dire Maul"
 
 --Quest 7 Alliance
-Inst12Quest7 = "7. Поваренная книга чародея (Маг)"
+Inst12Quest7 = "7. Изумрудный Сон (Друид)"
 Inst12Quest7_Level = "60"
 Inst12Quest7_Attain = "54"
 Inst12Quest7_Aim = "Верните книгу законным владельцам."
-Inst12Quest7_Location = "Поваренная книга чародея (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest7_Note = "Награда для Магов. Отдайте книгу сказителю Килдрату около "..YELLOW.."1' Библиотека"..WHITE.."."
+Inst12Quest7_Location = "Изумрудный Сон (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest7_Note = "Награда для друидов. Вы должны вернуть книгу Сказителю Явону в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest7_Prequest = "Нет"
 Inst12Quest7_Folgequest = "Нет"
 --
 Inst12Quest7name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 8 Alliance
-Inst12Quest8 = "8. Свет и как его раскачать (Паладин)"
+Inst12Quest8 = "8. Величайшая гонка охотников (Охотник)"
 Inst12Quest8_Level = "60"
 Inst12Quest8_Attain = "54"
 Inst12Quest8_Aim = "Верните книгу законным владельцам."
-Inst12Quest8_Location = "Свет и как его раскачать (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest8_Note = "Награда для Паладинов. Отдайте книгу Сказительнице Микос около "..YELLOW.."1' Библиотека"..WHITE.."."
+Inst12Quest8_Location = "Величайшая гонка охотников (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest8_Note = "Награда для охотников. Вы должны вернуть книгу Сказительнице Микос в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest8_Prequest = "Нет"
 Inst12Quest8_Folgequest = "Нет"
 --
 Inst12Quest8name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 9 Alliance
-Inst12Quest9 = "9. Святая Болонья: О чем не говорит Свет (Жрец)"
+Inst12Quest9 = "9. Поваренная книга чародея (Маг)"
 Inst12Quest9_Level = "60"
 Inst12Quest9_Attain = "54"
 Inst12Quest9_Aim = "Верните книгу законным владельцам."
-Inst12Quest9_Location = "Святая Болонья: О чем не говорит Свет (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest9_Note = "Награда для Жрецов. Отдайте книгу сказителю Явону около "..YELLOW.."1' Библиотека"..WHITE.."."
+Inst12Quest9_Location = "Поваренная книга чародея (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest9_Note = "Награда для магов. Вы должны вернуть книгу Сказителю Килдрату в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest9_Prequest = "Нет"
 Inst12Quest9_Folgequest = "Нет"
 --
 Inst12Quest9name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 10 Alliance
-Inst12Quest10 = "10. Гарона: Исследование уловок и предательства (Разбойник)"
+Inst12Quest10 = "10. Свет и как его раскачать (Паладин)"
 Inst12Quest10_Level = "60"
 Inst12Quest10_Attain = "54"
 Inst12Quest10_Aim = "Верните книгу законным владельцам."
-Inst12Quest10_Location = "Гарона: Исследование уловок и предательства (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest10_Note = "Награда для Разбойников. Отдайте книгу сказителю Килдрату около "..YELLOW.."1' Библиотека"..WHITE.."."
+Inst12Quest10_Location = "Свет и как его раскачать (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest10_Note = "Награда для паладинов. Вы должны вернуть книгу Сказительнице Микос в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest10_Prequest = "Нет"
 Inst12Quest10_Folgequest = "Нет"
 --
 Inst12Quest10name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 11 Alliance
-Inst12Quest11 = "11. Ледяной шок и вы (Шаман)"
+Inst12Quest11 = "11. Святая Болонья: О чем не говорит Свет (Жрец)"
 Inst12Quest11_Level = "60"
 Inst12Quest11_Attain = "54"
 Inst12Quest11_Aim = "Верните книгу законным владельцам."
-Inst12Quest11_Location = "Ледяной шок и вы (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest11_Note = "Задание Шамана. Отдайте книгу сказителю Явону около "..YELLOW.."1' Библиотека"..WHITE.."."
+Inst12Quest11_Location = "Святая Болонья: О чем не говорит Свет (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest11_Note = "Награда для Жрецов. Вы должны вернуть книгу Сказителю Явону в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest11_Prequest = "Нет"
 Inst12Quest11_Folgequest = "Нет"
 --
 Inst12Quest11name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 12 Alliance
-Inst12Quest12 = "12. Укрощая тени (Чернокнижник)"
+Inst12Quest12 = "12. Гарона: Исследование скрытности и предательства (Разбойник)"
 Inst12Quest12_Level = "60"
 Inst12Quest12_Attain = "54"
 Inst12Quest12_Aim = "Верните книгу законным владельцам."
-Inst12Quest12_Location = "Укрощая тени (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest12_Note = "Задание для чернокнижников. Отдайте книгу  Сказительнице Микос около "..YELLOW.."1' Библиотека"..WHITE.."."
+Inst12Quest12_Location = "Гарона: Исследование скрытности и предательства (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest12_Note = "Награда для разбойников. Вы должны вернуть книгу Сказителю Килдрату в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest12_Prequest = "Нет"
 Inst12Quest12_Folgequest = "Нет"
 --
 Inst12Quest12name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 13 Alliance
-Inst12Quest13 = "13. Кодекс Обороны (Воитель)"
+Inst12Quest13 = "13. Ледяной шок и вы (Шаман)"
 Inst12Quest13_Level = "60"
 Inst12Quest13_Attain = "54"
 Inst12Quest13_Aim = "Верните книгу законным владельцам."
-Inst12Quest13_Location = "Кодекс Обороны (случайно падает со всех боссов в Забытом городе)"
-Inst12Quest13_Note = "Задание для Воителей. Отдайте книгу сказителю Килдрату около "..YELLOW.."1' Библиотека"..WHITE.."."
+Inst12Quest13_Location = "Ледяной шок и вы (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest13_Note = "Награда для шаманов. Вы должны вернуть книгу Сказителю Явону в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest13_Prequest = "Нет"
 Inst12Quest13_Folgequest = "Нет"
 --
 Inst12Quest13name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 14 Alliance
-Inst12Quest14 = "14. Манускрипт Средоточия"
+Inst12Quest14 = "14. Укрощая тени (Чернокнижник)"
 Inst12Quest14_Level = "60"
 Inst12Quest14_Attain = "54"
-Inst12Quest14_Aim = "Принесите сказителю Лидросу в Забытом Городе 'Манускрипт Средоточия', 1 безупречный черный алмаз, 4 больших сияющих осколка и 2 образца шкуры Тени, чтобы получить магический камень Сосредоточения."
-Inst12Quest14_Location = "Сказитель Лидрос (Забытый город Запад; "..YELLOW.."[1'] Библиотека"..WHITE..")"
-Inst12Quest14_Note = "Здесь нет предшествующего задания, но нужно выполнить задание Эльфийские легенды перед тем как начать это.\n\nМанускрипт падает случайно в Забытом городе и им можно торговать, поэтому его можно найти на Аукционе. Шкуры Тени персональны и выбиваются с некоторых боссов, Восставших созданий и Восставших костостражей в "..YELLOW.."Некроситет"..WHITE.."."
+Inst12Quest14_Aim = "Верните книгу законным владельцам."
+Inst12Quest14_Location = "Укрощая тени (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest14_Note = "Награда для чернокнижников. Вы должны вернуть книгу Сказительнице Микос в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest14_Prequest = "Нет"
 Inst12Quest14_Folgequest = "Нет"
 --
-Inst12Quest14name1 = "Arcanum of Focus"
+Inst12Quest14name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 15 Alliance
-Inst12Quest15 = "15. Манускрипт Защиты"
+Inst12Quest15 = "15. Кодекс Защиты (Воин)"
 Inst12Quest15_Level = "60"
 Inst12Quest15_Attain = "54"
-Inst12Quest15_Aim = "Принесите сказителю Лидросу в Забытом Городе 'Манускрипт Защиты', 1 безупречный черный алмаз, 2 больших сияющих осколка и 1 потертый шовный материал поганища, чтобы получить магический камень Защиты."
-Inst12Quest15_Location = "Сказитель Лидрос (Забытый город Запад; "..YELLOW.."[1'] Библиотека"..WHITE..")"
-Inst12Quest15_Note = "Здесь нет предшествующего задания, но нужно выполнить задание Эльфийские легенды перед тем как начать это.\n\nМанускрипт падает случайно в Забытом городе и им можно торговать, поэтому его можно найти на Аукционе. Потертый шовный материал поганища персонален и выбивается с Рамштайна Ненасытного, Изрыгателей яда, Желчеплюев и Лоскутных ужасов в "..YELLOW.."Стратхоольм"..WHITE.."."
+Inst12Quest15_Aim = "Верните книгу законным владельцам."
+Inst12Quest15_Location = "Кодекс Защиты (падает случайно с боссов во всем Забытом городе)"
+Inst12Quest15_Note = "Награда для воинов. Вы должны вернуть книгу Сказителю Килдрату в Читальне "..GREEN.."[5']"..WHITE.."."
 Inst12Quest15_Prequest = "Нет"
 Inst12Quest15_Folgequest = "Нет"
 --
-Inst12Quest15name1 = "Arcanum of Protection"
-
---Quest 16 Alliance
-Inst12Quest16 = "16. Манускрипт Скорости"
-Inst12Quest16_Level = "60"
-Inst12Quest16_Attain = "54"
-Inst12Quest16_Aim = "Принесите сказителю Лидросу в Забытом Городе 'Манускрипт Скорости', 1 безупречный черный алмаз, 2 больших сияющих осколка и 2 образца крови героев, чтобы получить магический камень Стремительности."
-Inst12Quest16_Location = "Сказитель Лидрос (Забытый город Запад; "..YELLOW.."[1'] Библиотека"..WHITE..")"
-Inst12Quest16_Note = "Здесь нет предшествующего задания, но нужно выполнить задание Эльфийские легенды перед тем как начать это.\n\nМанускрипт падает случайно в Забытом городе и им можно торговать, поэтому его можно найти на Аукционе. Кровь героев персональна и выбивается на земле в различных местах Западного и Восточного Лихоземья."
-Inst12Quest16_Prequest = "Нет"
-Inst12Quest16_Folgequest = "Нет"
---
-Inst12Quest16name1 = "Arcanum of Rapidity"
-
---Quest 17 Alliance
-Inst12Quest17 = "17. Справочник Форора (Воитель, Паладин)"
-Inst12Quest17_Level = "60"
-Inst12Quest17_Attain = "60"
-Inst12Quest17_Aim = "Верните 'Справочник Форора по убийству драконов' в Читальню."
-Inst12Quest17_Location = "Справочник Форора по убийству драконов (случайно падает с боссов в "..YELLOW.."Забытый город"..WHITE..")"
-Inst12Quest17_Note = "Задание для Воителей или Паладинов. Сдается сказителю Лидросу около (Забытый город Запад; "..YELLOW.."[1'] Библиотека"..WHITE.."). Выполнение позволяет Вам начать заданние на КельСеррар. После патча 3.2.2 нельзя взять эту цепочку заданий. Но если это задание у вас уже взято, вы сможете его закончить."
-Inst12Quest17_Prequest = "Нет"
-Inst12Quest17_Folgequest = "Ковка Кель-Серрара"
--- No Rewards for this quest
+Inst12Quest15name1 = "Royal Seal of Eldre'Thalas"
 
 
 --Quest 1 Horde
-Inst12Quest1_HORDE = "1. Эльфийские легенды"
-Inst12Quest1_HORDE_Level = "60"
-Inst12Quest1_HORDE_Attain = "54"
-Inst12Quest1_HORDE_Aim = "Попытайтесь найти в Забытом Городе Кариэля Винтхалуса. Вернитесь в Лагерь Мохаче к ведуну Королуску и сообщите ему все, что вам удалось узнать."
-Inst12Quest1_HORDE_Location = "Ведун Королуск (Фералас - Лагерь Мохаче; "..YELLOW.."74,43"..WHITE..")"
-Inst12Quest1_HORDE_Note = "Вы найдете Кариэля Винтхалуса в "..YELLOW.."Библиотека (Запад)"..WHITE.."."
+Inst12Quest1_HORDE = "1. Высокорожденный"
+Inst12Quest1_HORDE_Level = "42"
+Inst12Quest1_HORDE_Attain = "41"
+Inst12Quest1_HORDE_Aim = "Поговорите с Эстуланом."
+Inst12Quest1_HORDE_Location = "Хадокен Быстрый Странник (Фералас - Лагерь Мохаче; "..YELLOW.."74.8, 42.6"..WHITE..")"
+Inst12Quest1_HORDE_Note = "Эстулан стоит на входе, внутри поздемелья Забытый город - Запад."
 Inst12Quest1_HORDE_Prequest = "Нет"
 Inst12Quest1_HORDE_Folgequest = "Нет"
 -- No Rewards for this quest
@@ -2082,11 +2078,7 @@ Inst12Quest3_HORDE_Location = Inst12Quest3_Location
 Inst12Quest3_HORDE_Note = Inst12Quest3_Note
 Inst12Quest3_HORDE_Prequest = Inst12Quest3_Prequest
 Inst12Quest3_HORDE_Folgequest = Inst12Quest3_Folgequest
-Inst12Quest3FQuest_HORDE = "true"
---
-Inst12Quest3name1_HORDE = Inst12Quest3name1
-Inst12Quest3name2_HORDE = Inst12Quest3name2
-Inst12Quest3name3_HORDE = Inst12Quest3name3
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst12Quest4_HORDE = Inst12Quest4
@@ -2097,7 +2089,6 @@ Inst12Quest4_HORDE_Location = Inst12Quest4_Location
 Inst12Quest4_HORDE_Note = Inst12Quest4_Note
 Inst12Quest4_HORDE_Prequest = Inst12Quest4_Prequest
 Inst12Quest4_HORDE_Folgequest = Inst12Quest4_Folgequest
-Inst12Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -2109,8 +2100,7 @@ Inst12Quest5_HORDE_Location = Inst12Quest5_Location
 Inst12Quest5_HORDE_Note = Inst12Quest5_Note
 Inst12Quest5_HORDE_Prequest = Inst12Quest5_Prequest
 Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
---
-Inst12Quest5name1_HORDE = Inst12Quest5name1
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst12Quest6_HORDE = Inst12Quest6
@@ -2121,8 +2111,12 @@ Inst12Quest6_HORDE_Location = Inst12Quest6_Location
 Inst12Quest6_HORDE_Note = Inst12Quest6_Note
 Inst12Quest6_HORDE_Prequest = Inst12Quest6_Prequest
 Inst12Quest6_HORDE_Folgequest = Inst12Quest6_Folgequest
+Inst12Quest6FQuest_HORDE = Inst12Quest6FQuest
 --
 Inst12Quest6name1_HORDE = Inst12Quest6name1
+Inst12Quest6name2_HORDE = Inst12Quest6name2
+Inst12Quest6name3_HORDE = Inst12Quest6name3
+Inst12Quest6name4_HORDE = Inst12Quest6name4
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst12Quest7_HORDE = Inst12Quest7
@@ -2231,29 +2225,6 @@ Inst12Quest15_HORDE_Prequest = Inst12Quest15_Prequest
 Inst12Quest15_HORDE_Folgequest = Inst12Quest15_Folgequest
 --
 Inst12Quest15name1_HORDE = Inst12Quest15name1
-
---Quest 16 Horde  (same as Quest 16 Alliance)
-Inst12Quest16_HORDE = Inst12Quest16
-Inst12Quest16_HORDE_Level = Inst12Quest16_Level
-Inst12Quest16_HORDE_Attain = Inst12Quest16_Attain
-Inst12Quest16_HORDE_Aim = Inst12Quest16_Aim
-Inst12Quest16_HORDE_Location = Inst12Quest16_Location
-Inst12Quest16_HORDE_Note = Inst12Quest16_Note
-Inst12Quest16_HORDE_Prequest = Inst12Quest16_Prequest
-Inst12Quest16_HORDE_Folgequest = Inst12Quest16_Folgequest
---
-Inst12Quest16name1_HORDE = Inst12Quest16name1
-
---Quest 17 Horde  (same as Quest 17 Alliance)
-Inst12Quest17_HORDE = Inst12Quest17
-Inst12Quest17_HORDE_Level = Inst12Quest17_Level
-Inst12Quest17_HORDE_Attain = Inst12Quest17_Attain
-Inst12Quest17_HORDE_Aim = Inst12Quest17_Aim
-Inst12Quest17_HORDE_Location = Inst12Quest17_Location
-Inst12Quest17_HORDE_Note = Inst12Quest17_Note
-Inst12Quest17_HORDE_Prequest = Inst12Quest17_Prequest
-Inst12Quest17_HORDE_Folgequest = Inst12Quest17_Folgequest
--- No Rewards for this quest
 
 
 
@@ -11382,7 +11353,7 @@ Inst99Quest1_Level = "85"
 Inst99Quest1_Attain = "84"
 Inst99Quest1_Aim = "Освободите красного дракона, плененного в Грим Батоле, и воспользуйтесь им, чтобы расправиться с 30 троггами и 15 адептами культа Сумеречного Молота."
 Inst99Quest1_Location = "Веластраза (Грим Батол; "..YELLOW.."Вход"..WHITE..")"
-Inst99Quest1_Note = "Информация отсутствует. Задание сдается в начале подземелья."
+Inst99Quest1_Note = "В самом начале подземелья вы освободите 5 драконов. Оседлав их, уничтожьте нужное количество НИП. Засчитываются НИП убитые только с помощью драконов. Задание сдается в начале подземелья."
 Inst99Quest1_Prequest = "Нет"
 Inst99Quest1_Folgequest = "Нет"
 --
