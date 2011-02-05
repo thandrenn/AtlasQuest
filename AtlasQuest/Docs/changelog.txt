@@ -4,6 +4,7 @@ Changelog
 
 Version 4.6.1 BETA (not released)
 
+- Boss location updates & other fixes.
 - Localizations updated: deDE, ruRU, zhTW.
 
 - Classic Dungeons updated:
