@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.6.1 BETA (not released)
+Version 4.6.1 (February 8, 2011)
 
 - Boss location updates & other fixes.
 - Localizations updated: deDE, ruRU, zhTW.
@@ -175,7 +175,7 @@ Version 4.4.0 (December 14, 2009)
 
 
 
-Version 4.3.6
+Version 4.3.6 (September 28, 2009)
 
 - Small updates for Atlas 1.15 (boss numbers and map names). 
 - Updated Rewards for Timear Foresees dailies (now includes Sons of Hodir Commendation Badge)
@@ -190,7 +190,7 @@ Version 4.3.6
 
 
 
-Version 4.3.5
+Version 4.3.5 (August 7, 2009)
 
 - TOC updated for Patch 3.2
 - Basic support added for Trial of the Crusader, Trial of the Champion and Isle of Conquest.
@@ -208,7 +208,7 @@ Version 4.3.5
 
 
 	
-Version 4.3.4
+Version 4.3.4 (June 19, 2009)
 
 - Updated boss numbers for Atlas 1.14.1.
 - Small updates and tweaks to a number of quests thanks to info provided by nonameform.
@@ -238,7 +238,7 @@ Version 4.3.4
 
 
 
-Version 4.3.3
+Version 4.3.3 (April 16, 2009)
 
 - TOC updated for Patch 3.1
 - Russian, Simplified Chinese and Traditional Chinese localizations updated.
@@ -249,7 +249,7 @@ Version 4.3.3
 
 
 
-Version 4.3.2
+Version 4.3.2 (February 10, 2009)
 
 - Russian, Simplified Chinese and Traditional Chinese localizations updated.
 - Fixed error in Karazhan: Chamber of Secrets that showed up on Horde side. (thanks nonameform)
@@ -265,7 +265,7 @@ Version 4.3.2
 
 
 
-Version 4.3.1
+Version 4.3.1 (December 20, 2008)
 
 - New Russian localization added.
 - Simplified Chinese localization updated.
@@ -289,7 +289,7 @@ Version 4.3.1
 
 
 
-Version 4.3.0
+Version 4.3.0 (November 25, 2008)
 
 - Support for all new Wrath of the Lich King maps in both Atlas and AlphaMap.
 - Coordinates in Stormwind and Eastern Plaguelands updated since the changes with Patch 3.0 changed them all.
@@ -350,7 +350,7 @@ Version 4.3.0
 
 
 
-Version 4.2.1
+Version 4.2.1 (November 6, 2008)
 
 - Added new Traditional Chinese localization by Jill! Thanks!
 - Simplified Chinese localization updates and ReadMe by yeachan.
@@ -368,7 +368,7 @@ Version 4.2.1
 
 
 
-Version 4.2.0
+Version 4.2.0 (October 16, 2008)
 
 - Minor changes to work with Patch 3.0.2.
 - Quest Links! You can now link to quests in a chat window by Shift + Clicking a quest's name in the AtlasQuest list. As with Item Links, some quests don't seem to link if the server hasn't seen them for a while.
@@ -392,7 +392,7 @@ Version 4.2.0
 
 
 
-Version 4.1.2
+Version 4.1.2 (July 25, 2008)
 
 - Compatibility with Atlas 1.12.
 - Simplified Chinese localization updates by yeachan.
@@ -409,7 +409,7 @@ Version 4.1.2
 
 
 
-Version 4.1.1
+Version 4.1.1 (April 25, 2008)
 
 - Fixed Quest complete checkboxes not working for Skettis and Magisters' Terrace.
 - Updated AlphaMap Outdoor Raid support.
@@ -453,7 +453,7 @@ Version 4.1.1
 
 
 
-Version 4.1.0
+Version 4.1.0 (March 26, 2008)
 
 - Updated TOC for 2.4 patch.
 - EquipCompare support removed.
@@ -536,7 +536,7 @@ Version 4.1.0
 
 
 
-Version 4.0.11 (by Thandrenn)
+Version 4.0.11 (November 29, 2007)
 
 - Updated some map file names and location numbers for Atlas 1.10.3.
 - When opened, AtlasQuest will now automatically display the appropriate quests for the player's faction.  (Suggested by Iffonox)
@@ -605,7 +605,7 @@ Version 4.0.11 (by Thandrenn)
 
 
 
-Version 4.0.10 (by Thandrenn)
+Version 4.0.10 (November 16, 2007)
 
 - TOC updated for Patch 2.3.
 - Now including GNU General Public License v2 (GPLv2) files.
@@ -631,7 +631,7 @@ Version 4.0.10 (by Thandrenn)
 
 
 
-Version 4.0.9 (by Thandrenn)
+Version 4.0.9 (October 31, 2007)
 
 - Note: Stratholme Horde quest 'Ramstein" is now #18 instead of #12. The other 17 quests are shared Alliance & Horde quests. This made it a little easier to add the new quests.
 - Rewards added:
@@ -692,7 +692,7 @@ Version 4.0.9 (by Thandrenn)
 	
 
 
-Version 4.0.8 (by Thandrenn)
+Version 4.0.8 (September 26, 2007)
 
 - TOC updated for Patch 2.2.
 - Updated Simplified Chinese localization file from yeachan.
@@ -720,7 +720,7 @@ Version 4.0.8 (by Thandrenn)
 
 
 
-Version 4.0.7 (by Thandrenn)
+Version 4.0.7 (September 9, 2007)
 
 - FIX: Compatibility issue with Bayi's Extended Questlog. Quests in AtlasQuest that are in your questlog will be colored blue if you have that option set. Thanks gattzu for the report and Bayi for help.
 - FIX: Arcatraz: Harbinger of Doom rewards were missing item types. Whoops.
@@ -750,7 +750,7 @@ Version 4.0.7 (by Thandrenn)
 	- Moved AtlasQuest version string into AtlasQuest.lua. Constants.lua is now obsolete. Will probably keep it around for now though.
 
 
-Version 4.0.6 (by Thandrenn)
+Version 4.0.6 (August 28, 2007)
 
 - Fixed quest 2 for LBRS & UBRS in DE localization file. Quest 2 was conflicting with Quest 4.
 - Added a missing '-' in DE localization file. Problem occurred when playing on Public Test Realm 2.2 patch.
@@ -773,7 +773,7 @@ Version 4.0.6 (by Thandrenn)
 - Using two decimals in version number now, like Atlas and AtlasLoot use. 
 
 
-Version 4.05 (by Thandrenn)
+Version 4.05 (August 11, 2007)
 
 - NOTE: No problems I can see with Atlas 1.10 Pre4
 - Fixed quest completed checkbox not showing up for most BC quests.
@@ -800,7 +800,7 @@ Version 4.05 (by Thandrenn)
 	- Botanica: Capturing the Keystone   (from SwifLeaf)
 
 
-Version 4.04 (by Thandrenn)
+Version 4.04 (August 7, 2007)
 
 - Cleanup and re-organized some of the data in the following files to make them more readable and easier to update.
 	-AtlasQuest_Instanzen.lua
