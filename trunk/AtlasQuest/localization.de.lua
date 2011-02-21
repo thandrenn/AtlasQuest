@@ -1762,7 +1762,7 @@ Inst11Quest4_Level = "46"
 Inst11Quest4_Attain = "42"
 Inst11Quest4_Aim = "Bringt etwas Ogergerbemittel zu Knot Zwingschraub."
 Inst11Quest4_Location = "Knot Zwingenschraub (Düsterbruch - Nord; "..YELLOW.."[4]"..WHITE..")"
-Inst11Quest4_Note = "Wiederholbare Quest. You get the Ogre Tannin in a basket on the next level up after the double ramps. Use this suit to send Captain Kromcrush away so you don't have to kill him."
+Inst11Quest4_Note = "Wiederholbare Quest. Du bekommst den Ogeranzug in einer Tasche auf der nächsten Ebene nach den zwei Rampen. Benutze den Anzug und schicke Hauptmann Krombruch weg, so dass Du ihn nicht töten mußt."
 Inst11Quest4_Prequest = "Nein"
 Inst11Quest4_Folgequest = "Nein"
 --
@@ -2248,141 +2248,69 @@ Inst12Quest15name1_HORDE = Inst12Quest15name1
 
 Inst13Story = "Maraudon, eine der heiligsten Stätten in Desolace, wird von den wilden Maraudinezentauren beschützt. Der große Tempel ist die letzte Ruhestätte von Zaetar, einem der zwei unsterblichen Söhne des Halbgottes Cenarius. Die Legende besagt, dass Zaetar zusammen mit Theradras, der Prinzessin der Erdelementare, das missgestaltete Volk der Zentauren in die Welt setzte. Man sagt, dass die barbarischen Zentauren, als sie sich ihrer abscheulichen Gestalt gewahr wurden, sich von wildem Zorn beseelt auf ihren Vater stürzten und ihn ermordeten. Einige glauben, dass Theradras in ihrer Trauer den Geist von Zaetar in den gewundenen Höhlen von Maraudon einfing und seine Energien für einen bösartigen Zweck missbrauchte. Die Tunnel des Heligtums sind nun das Zuhause der finsteren Geister längst verstorbener Zentauren und Theradras eigener elementarer Diener."
 Inst13Caption = "Maraudon"
-Inst13QAA = "8 Quests"
-Inst13QAH = "8 Quests"
+Inst13QAA = "3 Quests"
+Inst13QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst13Quest1 = "1. Schattensplitter"
-Inst13Quest1_Level = "42"
-Inst13Quest1_Attain = "39"
-Inst13Quest1_Aim = "Sammelt 10 Schattensplitter in Maraudon und bringt sie zu Erzmagier Tervosh in den Düstermarschen."
-Inst13Quest1_Location = "Erzmagier Tervosh (Düstermarschen - Insel Theramore; "..YELLOW.."66,49"..WHITE..")"
-Inst13Quest1_Note = "Die Schattensplitter bekommt man von 'Schattensteinrumplern' oder 'Schattensteinzerkracher' außerhalb der Instanz auf der lila Seite."
+Inst13Quest1 = "1. Diener von Theradras"
+Inst13Quest1_Level = "36"
+Inst13Quest1_Attain = "34"
+Inst13Quest1_Aim = "Tötet Noxxion und Schlingwurzler."
+Inst13Quest1_Location = "Du bekommst diese Quest automatisch , wenn Du die Instanz am Anfang betretest."
+Inst13Quest1_Note = "Noxxion befindet sich bei "..YELLOW.."[1]"..WHITE.." und Schlingenwurzler befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst13Quest1_Prequest = "Nein"
 Inst13Quest1_Folgequest = "Nein"
---
-Inst13Quest1name1 = "Schattensplitteranhänger des Eifers"
-Inst13Quest1name2 = "Vorwarnender Schattensplitteranhänger"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst13Quest2 = "2. Schlangenzunges Verderbnis"
-Inst13Quest2_Level = "47"
-Inst13Quest2_Attain = "41"
-Inst13Quest2_Aim = "Füllt die beschichtete himmelblaue Phiole am orangefarbenen Kristallteich in Maraudon.\nBenutzt die gefüllte himmelblaue Phiole mit den Schlangenstrunkranken, damit der verderbte Noxxiousspross herausgezwungen wird.\nHeilt 8 Pflanzen, indem Ihr diesen Noxxiousspross tötet und kehrt dann zu Talendria an der Nijelspitze zurück."
-Inst13Quest2_Location = "Talendria (Desolace - Nijelspitze; "..YELLOW.."68,8"..WHITE..")"
-Inst13Quest2_Note = "Die Phiole kann bei allen Teichen im orangen Bereich außerhalb der Instanz aufgefüllt werden. Die Pflanzen findet man im orangen und lila Bereich in der Instanz."
+Inst13Quest2 = "2. Verderbnis in Maraudon"
+Inst13Quest2_Level = "34"
+Inst13Quest2_Attain = "32"
+Inst13Quest2_Aim = "Tötet Lord Schlangenzunge."
+Inst13Quest2_Location = "Du bekommst diese Quest automatisch, nachdem Du Quest 1 erledigt hast und Du Dich weiter in der Instanz vorangearbeitet hast."
+Inst13Quest2_Note = "Lord Schnlangenzunge befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst13Quest2_Prequest = "Nein"
 Inst13Quest2_Folgequest = "Nein"
---
-Inst13Quest2name1 = "Ring der Waldsaat"
-Inst13Quest2name2 = "Weisenblattgurt"
-Inst13Quest2name3 = "Astkrallenstulpen"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst13Quest3 = "3. Dunkles Böses"
-Inst13Quest3_Level = "47"
-Inst13Quest3_Attain = "41"
-Inst13Quest3_Aim = "Sammelt 15 theradrische Kristallschnitzereien für Trista in Desolace."
-Inst13Quest3_Location = "Trista (Desolace; "..YELLOW.."62,39"..WHITE..")"
-Inst13Quest3_Note = "Die meisten Gegner in Maraudon können die Schnitzereien droppen."
+Inst13Quest3 = "3. Prinzessin Theradras"
+Inst13Quest3_Level = "39"
+Inst13Quest3_Attain = "36"
+Inst13Quest3_Aim = "Tötet Prinzessin Theradras."
+Inst13Quest3_Location = "Du bekommst diese Quest automatisch nachdem Du Quest 2 beendet hast und Du Dich weiter in der Instanz vorangearbeitet hast."
+Inst13Quest3_Note = "Prinzessin Theradras befindet sich bei "..YELLOW.."[8]"..WHITE.."."
 Inst13Quest3_Prequest = "Nein"
 Inst13Quest3_Folgequest = "Nein"
 --
-Inst13Quest3name1 = "Scharfsinn-Roben"
-Inst13Quest3name2 = "Rüstringhelm"
-Inst13Quest3name3 = "Unerbittliche Kette"
-Inst13Quest3name4 = "Schulterstücke des Steinkolosses"
+Inst13Quest3name1 = "Schild von Maraudon"
+Inst13Quest3name2 = "Schulterstücke des Versprechens"
+Inst13Quest3name3 = "Gamaschen der tiefgrünen Oase"
+Inst13Quest3name4 = "Sandalen des prachtvollen Lebens"
+Inst13Quest3name5 = "Zaetars Handschuhe"
 
---Quest 4 Alliance
-Inst13Quest4 = "4. Die Anweisungen des Pariahs"
-Inst13Quest4_Level = "48"
-Inst13Quest4_Attain = "39"
-Inst13Quest4_Aim = "Lest die Anweisungen des Pariahs. Beschafft Euch danach das Amulett der Vereinigung von Maraudon und bringt es dem Zentaurenpariah im südlichen Desolace."
-Inst13Quest4_Location = "Zentaurenpariah (Desolace; "..YELLOW.."45,86"..WHITE..")"
-Inst13Quest4_Note = "Die 5 Khans (Beschreibung zu Die Anweisungen des Pariahs)"
-Inst13Quest4_Page = {2, "Der Zentaurenpariah wandert im Süden von Desolace zwischen "..YELLOW.."44,85"..WHITE.." und "..YELLOW.."50,87"..WHITE.." umher.\nZuerst muss man den 'Namenlosen Propheten' töten ("..YELLOW.."[A] auf der Eingangskarte"..WHITE.."). Er befindet sich vor der Instanz vor der Abzweigung zwischen lilanem und orangem Eingang. Danach muss man die 5 Khans töten. Den ersten findet man, wenn man dem mittleren Gang bei der Abzweigung folgt ("..YELLOW.."[1] auf der Eingangskarte"..WHITE.."). Der zweite Khan ist im lilanen Abschnitt vor der Instanz ("..YELLOW.."[2] auf der Eingangskarte"..WHITE.."). Der dritte Khan ist im orangenen Abschnitt vor der Instanz ("..YELLOW.."[3] auf der Eingangskarte"..WHITE.."). Der vierte Khan ist nahe bei "..YELLOW.."[4]"..WHITE.." und der fünfte ist nahe bei "..YELLOW.."[1]"..WHITE..".", };
-Inst13Quest4_Prequest = "Nein"
-Inst13Quest4_Folgequest = "Nein"
---
-Inst13Quest4name1 = "Mal der Auserwählten"
 
---Quest 5 Alliance
-Inst13Quest5 = "5. Legenden von Maraudon"
-Inst13Quest5_Level = "49"
-Inst13Quest5_Attain = "41"
-Inst13Quest5_Aim = "Beschafft die beiden Teile des Szepters von Celebras: den Celebriangriff und den Celebriandiamanten.\nFindet einen Weg, um mit Celebras zu sprechen."
-Inst13Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] auf der Eingangskarte"..WHITE..")"
-Inst13Quest5_Note = "Cavindra findet man am Anfang des orangenen Abschnitts vor der Instanz.\nDen Celebriangriff bekommt man von Noxxion bei "..YELLOW.."[2]"..WHITE..", den Celebriandiamanten von Lord Schlangenzunge bei "..YELLOW.."[5]"..WHITE..". Celebras ist bei "..YELLOW.."[7]"..WHITE..". Man muss ihn besiegen um mit ihm sprechen zu können."
-Inst13Quest5_Prequest = "Nein"
-Inst13Quest5_Folgequest = "Ja, Das Szepter von Celebras"
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst13Quest1_HORDE = Inst13Quest1
+Inst13Quest1_HORDE_Level = Inst13Quest1_Level
+Inst13Quest1_HORDE_Attain = Inst13Quest1_Attain
+Inst13Quest1_HORDE_Aim = Inst13Quest1_Aim
+Inst13Quest1_HORDE_Location = Inst13Quest1_Location
+Inst13Quest1_HORDE_Note = Inst13Quest1_Note
+Inst13Quest1_HORDE_Prequest = Inst13Quest1_Prequest
+Inst13Quest1_HORDE_Folgequest = Inst13Quest1_Folgequest
 -- No Rewards for this quest
 
---Quest 6 Alliance
-Inst13Quest6 = "6. Das Szepter von Celebras"
-Inst13Quest6_Level = "49"
-Inst13Quest6_Attain = "41"
-Inst13Quest6_Aim = "Helft Celebras dem Erlösten, während er das Szepter von Celebras herstellt.\nSprecht mit ihm, nachdem das Ritual vollendet ist."
-Inst13Quest6_Location = "Celebras der Erlöste (Maraudon; "..YELLOW.."[7]"..WHITE..")"
-Inst13Quest6_Note = "Celebras stellt das Szepter her. Sprecht mit ihm wenn er fertig ist."
-Inst13Quest6_Prequest = "Ja, Legenden von Maraudon"
-Inst13Quest6_Folgequest = "Nein"
-Inst13Quest6FQuest = "true"
---
-Inst13Quest6name1 = "Szepter von Celebras"
-
---Quest 7 Alliance
-Inst13Quest7 = "7. Verderbnis von Erde und Samenkorn"
-Inst13Quest7_Level = "51"
-Inst13Quest7_Attain = "45"
-Inst13Quest7_Aim = "Erschlagt Prinzessin Theradras und kehrt zum Bewahrer Marandis an der Nijelspitze in Desolace zurück."
-Inst13Quest7_Location = "Bewahrer Marandis (Desolace - Nijelspitze; "..YELLOW.."63,10"..WHITE..")"
-Inst13Quest7_Note = "Prinzessin Theradras findet man bei "..YELLOW.."[11]"..WHITE.."."
-Inst13Quest7_Prequest = "Nein"
-Inst13Quest7_Folgequest = "Ja, Samenkorn des Lebens"
---
-Inst13Quest7name1 = "Hauklinge"
-Inst13Quest7name2 = "Rute der Wiederauferstehung"
-Inst13Quest7name3 = "Ziel des tiefgrünen Bewahrers"
-
---Quest 8 Alliance
-Inst13Quest8 = "8. Samenkorn des Lebens"
-Inst13Quest8_Level = "51"
-Inst13Quest8_Attain = "39"
-Inst13Quest8_Aim = "Sucht Remulos bei der Mondlichtung auf und gebt ihm das Samenkorn des Lebens."
-Inst13Quest8_Location = "Zaetars Geist (Maraudon; "..YELLOW.."[11]"..WHITE..")"
-Inst13Quest8_Note = "Zaetars Geist erscheint sobald Prinzessin Theradras ("..YELLOW.."[11]"..WHITE..") tot ist.\nBewahrer Remulos findet man in (Mondlichtung - Der Schrein von Remulos; "..YELLOW.."36,41"..WHITE..")."
-Inst13Quest8_Prequest = "Ja, Verderbnis von Erde und Samenkorn"
-Inst13Quest8_Folgequest = "Nein"
-Inst13Quest8FQuest = "true"
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst13Quest2_HORDE = Inst13Quest2
+Inst13Quest2_HORDE_Level = Inst13Quest2_Level
+Inst13Quest2_HORDE_Attain = Inst13Quest2_Attain
+Inst13Quest2_HORDE_Aim = Inst13Quest2_Aim
+Inst13Quest2_HORDE_Location = Inst13Quest2_Location
+Inst13Quest2_HORDE_Note = Inst13Quest2_Note
+Inst13Quest2_HORDE_Prequest = Inst13Quest2_Prequest
+Inst13Quest2_HORDE_Folgequest = Inst13Quest2_Folgequest
 -- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst13Quest1_HORDE = "1. Schattensplitter"
-Inst13Quest1_HORDE_Level = "42"
-Inst13Quest1_HORDE_Attain = "39"
-Inst13Quest1_HORDE_Aim = "Sammelt 10 Schattensplitter aus Maraudon und bringt sie zu Uthel'nay nach Orgrimmar."
-Inst13Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Das Tal der Geister; "..YELLOW.."39,86"..WHITE..")"
-Inst13Quest1_HORDE_Note = "Die Schattensplitter bekommt man von 'Schattensteinrumplern' oder 'Schattensteinzerkracher' außerhalb der Instanz auf der lila Seite."
-Inst13Quest1_HORDE_Prequest = "Nein"
-Inst13Quest1_HORDE_Folgequest = "Nein"
---
-Inst13Quest1name1_HORDE = "Schattensplitteranhänger des Eifers"
-Inst13Quest1name2_HORDE = "Vorwarnender Schattensplitteranhänger"
-
---Quest 2 Horde
-Inst13Quest2_HORDE = "2. Schlangenzunges Verderbnis"
-Inst13Quest2_HORDE_Level = "47"
-Inst13Quest2_HORDE_Attain = "41"
-Inst13Quest2_HORDE_Aim = "Füllt die beschichtete himmelblaue Phiole am orangefarbenen Kristallteich in Maraudon.\nBenutzt die gefüllte himmelblaue Phiole mit den Schlangenstrunkranken, damit der verderbte Noxxiousspross herausgezwungen wird.\nHeilt 8 Pflanzen, indem Ihr diesen Noxxiousspross tötet und kehrt dann zu Vark Schlachtnarbe in Schattenflucht zurück."
-Inst13Quest2_HORDE_Location = "Vark Schlachtnarbe (Desolace - Schattenflucht; "..YELLOW.."23,70"..WHITE..")"
-Inst13Quest2_HORDE_Note = "Die Phiole kann bei allen Teichen im orangen Bereich außerhalb der Instanz aufgefüllt werden. Die Pflanzen findet man im orangen und lila Bereich in der Instanz."
-Inst13Quest2_HORDE_Prequest = "Nein"
-Inst13Quest2_HORDE_Folgequest = "Nein"
---
-Inst13Quest2name1_HORDE = "Ring der Waldsaat"
-Inst13Quest2name2_HORDE = "Weisenblattgurt"
-Inst13Quest2name3_HORDE = "Astkrallenstulpen"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst13Quest3_HORDE = Inst13Quest3
@@ -2398,69 +2326,10 @@ Inst13Quest3name1_HORDE = Inst13Quest3name1
 Inst13Quest3name2_HORDE = Inst13Quest3name2
 Inst13Quest3name3_HORDE = Inst13Quest3name3
 Inst13Quest3name4_HORDE = Inst13Quest3name4
+Inst13Quest3name5_HORDE = Inst13Quest3name5
 
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst13Quest4_HORDE = Inst13Quest4
-Inst13Quest4_HORDE_Level = Inst13Quest4_Level
-Inst13Quest4_HORDE_Attain = Inst13Quest4_Attain
-Inst13Quest4_HORDE_Aim = Inst13Quest4_Aim
-Inst13Quest4_HORDE_Location = Inst13Quest4_Location
-Inst13Quest4_HORDE_Note = Inst13Quest4_Note
-Inst13Quest4_HORDE_Page = Inst13Quest4_Page
-Inst13Quest4_HORDE_Prequest = Inst13Quest4_Prequest
-Inst13Quest4_HORDE_Folgequest = Inst13Quest4_Folgequest
---
-Inst13Quest4name1_HORDE = Inst13Quest4name1
 
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst13Quest5_HORDE = Inst13Quest5
-Inst13Quest5_HORDE_Level = Inst13Quest5_Level
-Inst13Quest5_HORDE_Attain = Inst13Quest5_Attain
-Inst13Quest5_HORDE_Aim = Inst13Quest5_Aim
-Inst13Quest5_HORDE_Location = Inst13Quest5_Location
-Inst13Quest5_HORDE_Note = Inst13Quest5_Note
-Inst13Quest5_HORDE_Prequest = Inst13Quest5_Prequest
-Inst13Quest5_HORDE_Folgequest = Inst13Quest5_Folgequest
--- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst13Quest6_HORDE = Inst13Quest6
-Inst13Quest6_HORDE_Level = Inst13Quest6_Level
-Inst13Quest6_HORDE_Attain = Inst13Quest6_Attain
-Inst13Quest6_HORDE_Aim = Inst13Quest6_Aim
-Inst13Quest6_HORDE_Location = Inst13Quest6_Location
-Inst13Quest6_HORDE_Note = Inst13Quest6_Note
-Inst13Quest6_HORDE_Prequest = Inst13Quest6_Prequest
-Inst13Quest6_HORDE_Folgequest = Inst13Quest6_Folgequest
-Inst13Quest6FQuest_HORDE = Inst13Quest6FQuest
---
-Inst13Quest6name1_HORDE = Inst13Quest6name1
-
---Quest 7 Horde
-Inst13Quest7_HORDE = "7. Verderbnis von Erde und Samenkorn"
-Inst13Quest7_HORDE_Level = "51"
-Inst13Quest7_HORDE_Attain = "45"
-Inst13Quest7_HORDE_Aim = "Tötet Prinzessin Theradras und kehrt zu Selendra in der Nähe von Schattenflucht in Desolace zurück."
-Inst13Quest7_HORDE_Location = "Selendra (Desolace; "..YELLOW.."27,77"..WHITE..")"
-Inst13Quest7_HORDE_Note = "Prinzessin Theradras findet man bei "..YELLOW.."[11]"..WHITE..""
-Inst13Quest7_HORDE_Prequest = "Nein"
-Inst13Quest7_HORDE_Folgequest = "Ja, Samenkorn des Lebens"
---
-Inst13Quest7name1_HORDE = "Hauklinge"
-Inst13Quest7name2_HORDE = "Rute der Wiederauferstehung"
-Inst13Quest7name3_HORDE = "Ziel des tiefgrünen Bewahrers"
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst13Quest8_HORDE = Inst13Quest8
-Inst13Quest8_HORDE_Level = Inst13Quest8_Level
-Inst13Quest8_HORDE_Attain = Inst13Quest8_Attain
-Inst13Quest8_HORDE_Aim = Inst13Quest8_Aim
-Inst13Quest8_HORDE_Location = Inst13Quest8_Location
-Inst13Quest8_HORDE_Note = Inst13Quest8_Note
-Inst13Quest8_HORDE_Prequest = Inst13Quest8_Prequest
-Inst13Quest8_HORDE_Folgequest = Inst13Quest8_Folgequest
-Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
--- No Rewards for this quest
 --------------- INST14 - Molten Core (MC) ---------------
 
 Inst14Story = "Der geschmolzene Kern befindet sich am tiefsten Punkt des Schwarzfels. Genau hier, im Herzen des Berges, beschwor Imperator Thaurissan vor langer Zeit in einem Akt der Verzweiflung den elementaren Feuerfürsten Ragnaros, um seinen gescheiterten Putsch gegen die Zwerge von Eisenschmiede doch noch in einen Sieg zu verwandeln. Obwohl der Feuerfürst immer in der Nähe des feurigen Kerns bleiben muss, treiben seine Offiziere die Dunkeleisenzwerge gnadenlos dazu an, ihm eine Armee aus lebendem Gestein zu erschaffen. Der See aus Magma, in dem Ragnaros schläft, ist in Wirklichkeit ein interplanarer Riss, durch den bösartige Feuerelementare von der Ebene des Feuers nach Azeroth gelangen. Der höchstrangige von Ragnaros' Untergebenen ist Majordomus Exekutus, der als einziger in der Lage ist, den schlafenden Feuerfürsten zu wecken."
@@ -2528,7 +2397,7 @@ Inst14Quest5_Folgequest = "Ja, Uraltes in Sehnen eingewickeltes Laminablatt ("..
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst14Quest6 = "6. ^Wahrsagerbrille? Kein Problem!"
+Inst14Quest6 = "6. Wahrsagerbrille? Kein Problem!"
 Inst14Quest6_Level = "60"
 Inst14Quest6_Attain = "60"
 Inst14Quest6_Aim = "Findet Narains Wahrsagerbrille und bringt sie Narain Pfauentraum in Tanaris."
@@ -2710,98 +2579,158 @@ Inst16Quest3name3_HORDE = "Purified Onyxia Blood Talisman"
 
 Inst17Story = "Die Hügel der Klingenhauer, die von den selben dornigen Ranken wie der Kral der Klingenhauer dominiert werden, beherbergen seit jeher die Hauptstadt des Volks der Stacheleber. In dem weitläufigen, dornenverseuchten Labyrinth hält sich eine riesige Armee wilder Stacheleberkrieger auf, die ihr Leben darauf geschworen haben, ihre Hohepriester - die Mitglieder des Totenkopfstammes - um jeden Preis zu beschützen. Vor Kurzem hat sich jedoch ein unheilbringender Schatten über den kruden Bau gelegt. Abgesandte der untoten Geißel unter der Führung des Lichs Amnennar der Kältebringer haben die Kontrolle über das Volk der Stacheleber übernommen und das Labyrinth der Dornen in eine vorgeschobene Bastion untoter Macht verwandelt. Nun kämpfen die Stacheleber einen verzweifelten Kampf gegen die Zeit, denn Amnennars Einfluss dehnt sich jeden Tag weiter aus. Wenn er nicht aufgehalten wird, ist es nur eine Frage der Zeit, bis das Banner der Geißel über dem Brachland wehen wird."
 Inst17Caption = "Hügel der Klingenhauer"
-Inst17QAA = "3 Quests"
-Inst17QAH = "4 Quests"
+Inst17QAA = "6 Quests"
+Inst17QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst17Quest1 = "1. Ein Hort des Bösen"
-Inst17Quest1_Level = "35"
-Inst17Quest1_Attain = "28"
-Inst17Quest1_Aim = "Tötet 8 Schlachtwachen der Klingenhauer, 8 Dornenwirker der Klingenhauer und 8 Kultistinnen der Totenköpfe und kehrt dann zu Myriam Mondsang nahe dem Eingang zu den Hügeln der Klingenhauer zurück."
-Inst17Quest1_Location = "Myriam Mondsang (Das Brachland; "..YELLOW.."49,94 "..WHITE..")"
-Inst17Quest1_Note = "Die Gegner und der Questgeber befinden sich außerhalb der Instanz."
+Inst17Quest1 = "1. Lauernde Gefahr"
+Inst17Quest1_Level = "43"
+Inst17Quest1_Attain = "42"
+Inst17Quest1_Aim = "Sucht im Hügel der Klingenhauer nach Hilfe."
+Inst17Quest1_Location = "Telaron Windsegler (Feralas - Täumers Ruh; "..YELLOW.."50.6,17.0 "..WHITE..")"
+Inst17Quest1_Note = "Koristrasza befindet sich innerhalb der Instanz Hügel der Klingenhauer bei; "..GREEN.."Eingang"..WHITE..")"
 Inst17Quest1_Prequest = "Nein"
-Inst17Quest1_Folgequest = "Nein"
+Inst17Quest1_Folgequest = "Ja, Der Kältebringer"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst17Quest2 = "2. Ausschalten des Götzen"
-Inst17Quest2_Level = "37"
-Inst17Quest2_Attain = "32"
-Inst17Quest2_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln der Klingenhauer. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
-Inst17Quest2_Location = "Belnistrasz (Hügel der Klingenhauer; "..YELLOW.."[2]"..WHITE..")"
-Inst17Quest2_Note = "Bei der Vorquest muss man sich nur dazu bereit erklären ihm zu helfen. Einige Gegner erscheinen und greifen Belnistrasz an, während er versucht den Götzen auszuschalten. Wenn man diese Quest beendet hat, kann man es direkt vor dem Götzen abgeben."
-Inst17Quest2_Prequest = "Ja, Geißel der Niederungen"
+Inst17Quest2 = "2. Der Kältebringer"
+Inst17Quest2_Level = "46"
+Inst17Quest2_Attain = "40"
+Inst17Quest2_Aim = "Tötet Amnennar den Kältebringer."
+Inst17Quest2_Location = "Koristrasza (Hügel der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
+Inst17Quest2_Note = "Amnennar der Kältebringer befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst17Quest2_Prequest = "Ja, Lauernde Gefahr"
 Inst17Quest2_Folgequest = "Nein"
 Inst17Quest2PreQuest = "true"
 --
-Inst17Quest2name1 = "Drachenklauenring"
+Inst17Quest2name1 = "Gürtel der tyrannischen Herrschaft"
+Inst17Quest2name2 = "Brustschutz der Erlösung"
+Inst17Quest2name3 = "Klingenhauerschiftung"
+Inst17Quest2name4 = "Gamaschen des Kältebringers"
+Inst17Quest2name5 = "Koristraszas Amulett"
 
 --Quest 3 Alliance
-Inst17Quest3 = "3. Das Licht bringen"
-Inst17Quest3_Level = "37"
-Inst17Quest3_Attain = "32"
-Inst17Quest3_Aim = "Erzbischof Benedictus will, dass Ihr Amnennar den Kältebringer in den Hügeln der Klingenhauer tötet."
-Inst17Quest3_Location = "Erzbischof Benedictus (Sturmwind - Kathedrale des Lichts; "..YELLOW.."50.0, 45.4"..WHITE..")"
-Inst17Quest3_Note = "Amnennar der Kältebringer ist der Endgegner der Hügel der Klingenhauer und befindet sich bei "..YELLOW.."[6]"..WHITE.."."
+Inst17Quest3 = "3. Die Geißel heilen"
+Inst17Quest3_Level = "44"
+Inst17Quest3_Attain = "40"
+Inst17Quest3_Aim = "Besorgt 20 verwitterte Hauer."
+Inst17Quest3_Location = "Koristrasza (Hügel der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
+Inst17Quest3_Note = "Die verwittertern Hauer droppen von jeden untoten  Stacheleber innerhalb der Instanz.Diese Quest bringt Dich zurück zu Koristrasza am Eingang der Instanz."
 Inst17Quest3_Prequest = "Nein"
 Inst17Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst17Quest4 = "4. Komplizen"
+Inst17Quest4_Level = "44"
+Inst17Quest4_Attain = "40"
+Inst17Quest4_Aim = "Tötet, Nimmersatt, Mordresh Feuerauge und Tuten'kash."
+Inst17Quest4_Location = "Koristrasza (Hügel der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
+Inst17Quest4_Note = "Tuten'kash befindet sich bei "..YELLOW.."[1]"..WHITE..", Mordresh Feuerauge befindet sich bei "..YELLOW.."[2]"..WHITE.." und  Nimmersatt befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst17Quest4_Prequest = "Nein"
+Inst17Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst17Quest5 = "5. Geißel der Hügel"
+Inst17Quest5_Level = "44"
+Inst17Quest5_Attain = "40"
+Inst17Quest5_Aim = "Wenn Ihr Belnistrasz helfen wollt, sprecht noch einmal mit ihm und übergebt ihm den Schwurstein, den er Euch gab."
+Inst17Quest5_Location = "Belnistrasz (Hügel der Klingenhauer; "..GREEN.."[1']"..WHITE..")"
+Inst17Quest5_Note = ""
+Inst17Quest5_Prequest = "Nein"
+Inst17Quest5_Folgequest = "Ja, Ausschalten des Götzen"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst17Quest6 = "6. Ausschalten des Götzen"
+Inst17Quest6_Level = "45"
+Inst17Quest6_Attain = "40"
+Inst17Quest6_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln der Klingenhauer. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
+Inst17Quest6_Location = "Belnistrasz (Hügel der Klingenhauer; "..GREEN.."[1']"..WHITE..")"
+Inst17Quest6_Note = ""
+Inst17Quest6_Prequest = "Ja, Geißel der Hügel"
+Inst17Quest6_Folgequest = "Nein"
+Inst17Quest6PreQuest = "true"
 --
-Inst17Quest3name1 = "Bezwingerschwert"
-Inst17Quest3name2 = "Bernsteingluttalisman"
+Inst17Quest5name1 = "Drachenklauenring"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst17Quest1_HORDE = Inst17Quest1
 Inst17Quest1_HORDE_Level = Inst17Quest1_Level
 Inst17Quest1_HORDE_Attain = Inst17Quest1_Attain
-Inst17Quest1_HORDE_Aim = Inst17Quest1_Aim
-Inst17Quest1_HORDE_Location = Inst17Quest1_Location
+Inst17Quest1_HORDE_Aim = "Findet Hilfe bei den Hügeln der Klingenhauer."
+Inst17Quest1_HORDE_Location = "Kanati Grauwolke (Tausend Nadeln - Der Westliche Gipfel; "..YELLOW.."11.0,11.2 "..WHITE..")"
 Inst17Quest1_HORDE_Note = Inst17Quest1_Note
 Inst17Quest1_HORDE_Prequest = Inst17Quest1_Prequest
 Inst17Quest1_HORDE_Folgequest = Inst17Quest1_Folgequest
 -- No Rewards for this quest
 
---Quest 2 Horde
-Inst17Quest2_HORDE = "2. Eine unheilige Allianz"
-Inst17Quest2_HORDE_Level = "36"
-Inst17Quest2_HORDE_Attain = "28"
-Inst17Quest2_HORDE_Aim = "Bringt den Kopf von Botschafter Malcin zu Varimathras nach Unterstadt."
-Inst17Quest2_HORDE_Location = "Varimathras (Unterstadt - Königliches Viertel; "..YELLOW.."56,92 "..WHITE..")"
-Inst17Quest2_HORDE_Note = "Die Vorquest erhält man vom Endgegner des Krals der Klingenhauer. Malcin findet man außerhalb der Instanz (Das Brachland; "..YELLOW.."48,92"..WHITE..")."
-Inst17Quest2_HORDE_Prequest = "Ja, Eine unheilige Allianz"
-Inst17Quest2_HORDE_Folgequest = "Nein"
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst17Quest2_HORDE = Inst17Quest2
+Inst17Quest2_HORDE_Level = Inst17Quest2_Level
+Inst17Quest2_HORDE_Attain = Inst17Quest2_Attain
+Inst17Quest2_HORDE_Aim = Inst17Quest2_Aim
+Inst17Quest2_HORDE_Location = Inst17Quest2_Location
+Inst17Quest2_HORDE_Note = Inst17Quest2_Note
+Inst17Quest2_HORDE_Prequest = Inst17Quest2_Prequest
+Inst17Quest2_HORDE_Folgequest = Inst17Quest2_Folgequest
 Inst17Quest2PreQuest_HORDE = "true"
 --
-Inst17Quest2name1_HORDE = "Schädelbrecher"
-Inst17Quest2name2_HORDE = "Nagelspeier"
-Inst17Quest2name3_HORDE = "Zelotenrobe"
+Inst17Quest2name1_HORDE = Inst17Quest2name1
+Inst17Quest2name2_HORDE = Inst17Quest2name2
+Inst17Quest2name3_HORDE = Inst17Quest2name3
+Inst17Quest2name4_HORDE = Inst17Quest2name4
+Inst17Quest2name5_HORDE = Inst17Quest2name5
 
---Quest 3 Horde  (same as Quest 2 Alliance)
-Inst17Quest3_HORDE = "3. Ausschalten des Götzen"
-Inst17Quest3_HORDE_Level = Inst17Quest2_Level
-Inst17Quest3_HORDE_Attain = Inst17Quest2_Attain
-Inst17Quest3_HORDE_Aim = Inst17Quest2_Aim
-Inst17Quest3_HORDE_Location = Inst17Quest2_Location
-Inst17Quest3_HORDE_Note = Inst17Quest2_Note
-Inst17Quest3_HORDE_Prequest = Inst17Quest2_Prequest
-Inst17Quest3_HORDE_Folgequest = Inst17Quest2_Folgequest
-Inst17Quest3PreQuest_HORDE = Inst17Quest2PreQuest
---
-Inst17Quest3name1_HORDE = Inst17Quest2name1
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst17Quest3_HORDE = Inst17Quest3
+Inst17Quest3_HORDE_Level = Inst17Quest3_Level
+Inst17Quest3_HORDE_Attain = Inst17Quest3_Attain
+Inst17Quest3_HORDE_Aim = Inst17Quest3_Aim
+Inst17Quest3_HORDE_Location = Inst17Quest3_Location
+Inst17Quest3_HORDE_Note = Inst17Quest3_Note
+Inst17Quest3_HORDE_Prequest = Inst17Quest3_Prequest
+Inst17Quest3_HORDE_Folgequest = Inst17Quest3_Folgequest
+Inst17Quest3PreQuest_HORDE = Inst17Quest3PreQuest
+-- No Rewards for this quest
 
---Quest 4 Horde
-Inst17Quest4_HORDE = "4. Das Ende bringen"
-Inst17Quest4_HORDE_Level = "42"
-Inst17Quest4_HORDE_Attain = "37"
-Inst17Quest4_HORDE_Aim = "Andrew Braunell will, dass Ihr Amnennar den Kältebringer tötet und ihm dessen Schädel bringt."
-Inst17Quest4_HORDE_Location = "Andrew Braunell (Unterstadt - Das Magieviertle; "..YELLOW.."72,32 "..WHITE..")"
-Inst17Quest4_HORDE_Note = "Amnennar der Kältebringer ist der Endgegner der Hügel der Klingenhauer und befindet sich bei "..YELLOW.."[6]"..WHITE.."."
-Inst17Quest4_HORDE_Prequest = "Nein"
-Inst17Quest4_HORDE_Folgequest = "Nein"
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst17Quest4_HORDE = Inst17Quest4
+Inst17Quest4_HORDE_Level = Inst17Quest4_Level
+Inst17Quest4_HORDE_Attain = Inst17Quest4_Attain
+Inst17Quest4_HORDE_Aim = Inst17Quest4_Aim
+Inst17Quest4_HORDE_Location = Inst17Quest4_Location
+Inst17Quest4_HORDE_Note = Inst17Quest4_Note
+Inst17Quest4_HORDE_Prequest = Inst17Quest4_Prequest
+Inst17Quest4_HORDE_Folgequest = Inst17Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst17Quest5_HORDE = Inst17Quest5
+Inst17Quest5_HORDE_Level = Inst17Quest5_Level
+Inst17Quest5_HORDE_Attain = Inst17Quest5_Attain
+Inst17Quest5_HORDE_Aim = Inst17Quest5_Aim
+Inst17Quest5_HORDE_Location = Inst17Quest5_Location
+Inst17Quest5_HORDE_Note = Inst17Quest5_Note
+Inst17Quest5_HORDE_Prequest = Inst17Quest5_Prequest
+Inst17Quest5_HORDE_Folgequest = Inst17Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst17Quest6_HORDE = Inst17Quest6
+Inst17Quest6_HORDE_Level = Inst17Quest6_Level
+Inst17Quest6_HORDE_Attain = Inst17Quest6_Attain
+Inst17Quest6_HORDE_Aim = Inst17Quest6_Aim
+Inst17Quest6_HORDE_Location = Inst17Quest6_Location
+Inst17Quest6_HORDE_Note = Inst17Quest6_Note
+Inst17Quest6_HORDE_Prequest = Inst17Quest6_Prequest
+Inst17Quest6_HORDE_Folgequest = Inst17Quest6PreQuest
+Inst17Quest6PreQuest_HORDE = "true"
 --
-Inst17Quest4name1_HORDE = "Bezwingerschwert"
-Inst17Quest4name2_HORDE = "Bernsteingluttalisman"
+Inst17Quest6name1_HORDE = Inst17Quest6name1
 
 
 
@@ -2809,64 +2738,83 @@ Inst17Quest4name2_HORDE = "Bernsteingluttalisman"
 
 Inst18Story = "Vor zehntausend Jahren, zum Höhepunkt des Kriegs der Uralten, betrat der mächtige Halbgott Agamaggan das Schlachtfeld, um sich der Brennenden Legion entgegenzustellen. Seinen Beitrag zur Rettung Azeroths vor dem sicheren Untergang musste der stolze Eber jedoch mit seinem Leben bezahlen. Im Lauf der Zeit sprossen dort, wo die Tropfen seines Blutes auf die Erde gefallen waren, gewaltige Dornenranken. Die Stacheleber, die sterblichen Nachkommen des mächtigen Gottes, siedelten sich dort an und betrachten den Kral bis zum heutigen Tag als ihr höchstes Heiligtum, dessen Herz der Klingenhauer genannt wird. Heute wird der größte Teil des Krals der Klingenhauer von der alten Stammesfürstin Charlga Klingenflanke und ihrem Stamm kontrolliert. Unter ihrer Führung greifen die schamanistischen Stacheleber regelmäßig sowohl die feindlichen Stämme als auch nahegelegene Siedlungen der Orcs und Tauren an. In jüngster Zeit gab es Hinweise, die auf einen möglichen Pakt zwischen Charlga und den Agenten der untoten Geißel hindeuten. Kann es tatsächlich sein, dass die Uralte ihren nichtsahnenden Stamm zu irgendeinem finsteren Zweck direkt in die Arme der Untoten treibt?"
 Inst18Caption = "Kral der Klingenhauer"
-Inst18QAA = "4 Quests"
-Inst18QAH = "4 Quests"
+Inst18QAA = "6 Quests"
+Inst18QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst18Quest1 = "1. Blaulaubknollen"
-Inst18Quest1_Level = "26"
-Inst18Quest1_Attain = "20"
-Inst18Quest1_Aim = "Benutzt im Kral der Klingenhauer die Kiste mit Löchern, um ein Schnüffelnasenziesel zu beschwören, und benutzt den Leitstecken bei dem Ziesel, damit es nach Knollen sucht. Bringt 6 Blaulaubknollen, den Schnüffelnasenleitstecken und die Kiste mit Löchern zu Mebok Mizzyrix in Ratschet."
-Inst18Quest1_Location = "Mebok Mizzyrix (Das Brachland - Ratschet; "..YELLOW.."62,37"..WHITE..")"
-Inst18Quest1_Note = "Die Kiste, der Leitstecken und das Handbuch befinden sich in der Nähe des Questgebers."
+Inst18Quest1 = "1. Dorn im Auge"
+Inst18Quest1_Level = "33"
+Inst18Quest1_Attain = "30"
+Inst18Quest1_Aim = "Sprecht mit Auld Steinkeil."
+Inst18Quest1_Location = "Mahka (Südliches Brachland - ; "..YELLOW.."45.0,85.4"..WHITE..")"
+Inst18Quest1_Note = "Auld Steinkeil befindet sich innerhalb der Instanz (Kral der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
 Inst18Quest1_Prequest = "Nein"
 Inst18Quest1_Folgequest = "Nein"
---
-Inst18Quest1name1 = "Ein kleiner Behälter mit Edelsteinen"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst18Quest2 = "2. Die Sterblichkeit schwindet"
-Inst18Quest2_Level = "30"
-Inst18Quest2_Attain = "25"
-Inst18Quest2_Aim = "Sucht und bringt Treshalas Anhänger zu Treshala Bachquell in Darnassus."
-Inst18Quest2_Location = "Heralath Bachquell (Kral der Klingenhauer; "..YELLOW.."[8]"..WHITE..")"
-Inst18Quest2_Note = "Die Kette ist ein zufälliger Dropp. Sobald du sie bekommen hast, musst du sie zu Treshala Bachquell in Darnassus - Terrasse der Händler ("..YELLOW.."69,67"..WHITE..") bringen."
+Inst18Quest2 = "2. Agamaggan"
+Inst18Quest2_Level = "35"
+Inst18Quest2_Attain = "30"
+Inst18Quest2_Aim = "Sprecht mit dem Geist von Agamaggan."
+Inst18Quest2_Location = "Auld Steinkeil (Kral der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
+Inst18Quest2_Note = "Geist von Agamaggan befindet sich bei (Kral der Klingenhauer; "..GREEN.."[1']"..WHITE.."."
 Inst18Quest2_Prequest = "Nein"
-Inst18Quest2_Folgequest = "Nein"
---
-Inst18Quest2name1 = "Trauerschal"
-Inst18Quest2name2 = "Lancierstiefel"
+Inst18Quest2_Folgequest = "Ja, Agamaggans Auftrag"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst18Quest3 = "3. Willix der Importeur"
-Inst18Quest3_Level = "30"
-Inst18Quest3_Attain = "22"
-Inst18Quest3_Aim = "Führt Willix den Importeur aus dem Kral der Klingenhauer hinaus."
-Inst18Quest3_Location = "Willix der Importeur (Kral der Klingenhauer; "..YELLOW.."[8]"..WHITE..")"
-Inst18Quest3_Note = "Willix der Importeur muss zum Eingang der Instanz begleitet werden. Danach gibt man das Quest bei ihm ab."
-Inst18Quest3_Prequest = "Nein"
+Inst18Quest3 = "3. Agamaggans Auftrag"
+Inst18Quest3_Level = "35"
+Inst18Quest3_Attain = "30"
+Inst18Quest3_Aim = "Nehmt Charlga Klingenflanke das Herz."
+Inst18Quest3_Location = "Geist von Agamaggan (Kral der Klingenhauer; "..GREEN.."[1']"..WHITE.."."
+Inst18Quest3_Note = "Charlga Klingenflanke befindet sich bei (Kral der Klingenhauer; "..YELLOW.."[5]"..WHITE..")"
+Inst18Quest3_Prequest = "Ja, Agamaggan"
 Inst18Quest3_Folgequest = "Nein"
+Inst17Quest3PreQuest = "true"
 --
-Inst18Quest3name1 = "Affenring"
-Inst18Quest3name2 = "Natternreifen"
-Inst18Quest3name3 = "Tigerband"
+Inst18Quest3name1 = "Von Agamaggan gesegnete Schienbeinschützer "
+Inst18Quest3name2 = "Stiefel des edlen Weges"
+Inst18Quest3name3 = "Charlgas Brustplatte"
+Inst18Quest3name4 = "Agamaggans Gabe"
+Inst18Quest3name5 = "Agamaggans stille Träne"
 
 --Quest 4 Alliance
-Inst18Quest4 = "4. Die Greisin des Krals"
-Inst18Quest4_Level = "27"
-Inst18Quest4_Attain = "23"
-Inst18Quest4_Aim = "Bringt Falfindel Wegeshut in Thalanaar Klingenflankes Medaillon."
-Inst18Quest4_Location = "Falfindel Wegeshut (Feralas - Thalanaar; "..YELLOW.."89,46"..WHITE..")"
-Inst18Quest4_Note = "Das Medaillon wird von Charlga Klingenflanke bei "..YELLOW.."[7]"..WHITE.." gedroppt."
-Inst18Quest4_Prequest = "Ja, Einbraues Tagebuch"
+Inst18Quest4 = "4. Go, Go, Guano!"
+Inst18Quest4_Level = "35"
+Inst18Quest4_Attain = "30"
+Inst18Quest4_Aim = "Sammelt 1 Häufchen Kralguano."
+Inst18Quest4_Location = "Auld Steinkeil (Kral der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
+Inst18Quest4_Note = "Das Häufchen Kralguano kann von jedem Kralguano und Große Kralguano droppen."
+Inst18Quest4_Prequest = "Nein"
 Inst18Quest4_Folgequest = "Nein"
-Inst18Quest4PreQuest = "true"
---
-Inst18Quest4name1 = "Falfindels Blaster"
-Inst18Quest4name2 = "Beryllpolster"
-Inst18Quest4name3 = "Steinfaustgurt"
-Inst18Quest4name4 = "Marmorierter Rundschild"
+-- No Rewards for this quest
 
+--Quest 5 Alliance
+Inst18Quest5 = "5. Macht sie nieder!"
+Inst18Quest5_Level = "35"
+Inst18Quest5_Attain = "30"
+Inst18Quest5_Aim = "Tötet Aggem Dornfluch, Todessprecher Jargba, Oberanführer Rammhauer und Agathelos den Tobenden."
+Inst18Quest5_Location = "Auld Steinkeil (Kral der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
+Inst18Quest5_Note = "Aggem Dornfluch befindet sich bei"..YELLOW.."[1]"..WHITE..", Todessprecher Jargba befindet sich bei "..YELLOW.."[2]"..WHITE..", Oberanführer Rammhauer befindet sich bei "..YELLOW.."[3]"..WHITE.." und Agathelos der Tobende befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst18Quest5_Prequest = "Nein"
+Inst18Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst18Quest6 = "3. Willix der Importeur"
+Inst18Quest6_Level = "30"
+Inst18Quest6_Attain = "22"
+Inst18Quest6_Aim = "Führt Willix den Importeur aus dem Kral der Klingenhauer hinaus."
+Inst18Quest6_Location = "Willix der Importeur (Kral der Klingenhauer; "..GREEN.."[2']"..WHITE..")"
+Inst18Quest6_Note = "Willix der Importeur muss zum Eingang der Instanz begleitet werden. Danach gibt man das Quest bei ihm ab."
+Inst18Quest6_Prequest = "Nein"
+Inst18Quest6_Folgequest = "Nein"
+--
+Inst18Quest6name1 = "Affenring"
+Inst18Quest6name2 = "Natternreifen"
+Inst18Quest6name3 = "Tigerband"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst18Quest1_HORDE = Inst18Quest1
@@ -2877,47 +2825,71 @@ Inst18Quest1_HORDE_Location = Inst18Quest1_Location
 Inst18Quest1_HORDE_Note = Inst18Quest1_Note
 Inst18Quest1_HORDE_Prequest = Inst18Quest1_Prequest
 Inst18Quest1_HORDE_Folgequest = Inst18Quest1_Folgequest
---
-Inst18Quest1name1_HORDE = Inst18Quest1name1
-
---Quest 2 Horde  (same as Quest 3 Alliance)
-Inst18Quest2_HORDE = "2. Willix der Importeur"
-Inst18Quest2_HORDE_Level = Inst18Quest3_Level
-Inst18Quest2_HORDE_Attain = Inst18Quest3_Attain
-Inst18Quest2_HORDE_Aim = Inst18Quest3_Aim
-Inst18Quest2_HORDE_Location = Inst18Quest3_Location
-Inst18Quest2_HORDE_Note = Inst18Quest3_Note
-Inst18Quest2_HORDE_Prequest = Inst18Quest3_Prequest
-Inst18Quest2_HORDE_Folgequest = Inst18Quest3_Folgequest
---
-Inst18Quest2name1_HORDE = Inst18Quest3name1
-Inst18Quest2name2_HORDE = Inst18Quest3name2
-Inst18Quest2name3_HORDE = Inst18Quest3name3
-
--- Quest 3 Horde
-Inst18Quest3_HORDE = "3. Go, Go, Guano!"
-Inst18Quest3_HORDE_Level = "26"
-Inst18Quest3_HORDE_Attain = "22"
-Inst18Quest3_HORDE_Aim = "Bringt dem Apothekermeister Faranell in Unterstadt 1 Häufchen Kralguano."
-Inst18Quest3_HORDE_Location = "Apothekermeister Faranell (Unterstadt - Das Apothekarium; "..YELLOW.."48,69 "..WHITE..")"
-Inst18Quest3_HORDE_Note = "Das Kralguano droppen alle Fledermäuse im Kral."
-Inst18Quest3_HORDE_Prequest = "Nein"
-Inst18Quest3_HORDE_Folgequest = "Ja, Herzen des Eifers ("..YELLOW.."[Das Scharlachrote Kloster]"..WHITE..")"
 -- No Rewards for this quest
 
---Quest 4 Horde
-Inst18Quest4_HORDE = "4. Ein schreckliches Schicksal"
-Inst18Quest4_HORDE_Level = "27"
-Inst18Quest4_HORDE_Attain = "23"
-Inst18Quest4_HORDE_Aim = "Bringt Auld Steinkeil in Donnerfels Klingenflankes Herz."
-Inst18Quest4_HORDE_Location = "Auld Steinkeil (Donnerfels; "..YELLOW.."36,59"..WHITE..")"
-Inst18Quest4_HORDE_Note = "Charlga Klingenflanke findet man bei "..YELLOW.."[7]"..WHITE.."."
-Inst18Quest4_HORDE_Prequest = "Nein"
-Inst18Quest4_HORDE_Folgequest = "Nein"
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst18Quest2_HORDE = Inst18Quest2
+Inst18Quest2_HORDE_Level = Inst18Quest2_Level
+Inst18Quest2_HORDE_Attain = Inst18Quest2_Attain
+Inst18Quest2_HORDE_Aim = Inst18Quest2_Aim
+Inst18Quest2_HORDE_Location = Inst18Quest2_Location
+Inst18Quest2_HORDE_Note = Inst18Quest2_Note
+Inst18Quest2_HORDE_Prequest = Inst18Quest2_Prequest
+Inst18Quest2_HORDE_Folgequest = Inst18Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst18Quest3_HORDE = Inst18Quest3
+Inst18Quest3_HORDE_Level = Inst18Quest3_Level
+Inst18Quest3_HORDE_Attain = Inst18Quest3_Attain
+Inst18Quest3_HORDE_Aim = Inst18Quest3_Aim
+Inst18Quest3_HORDE_Location = Inst18Quest3_Location
+Inst18Quest3_HORDE_Note = Inst18Quest3_Note
+Inst18Quest3_HORDE_Prequest = Inst18Quest3_Prequest
+Inst18Quest3_HORDE_Folgequest = Inst18Quest3_Folgequest
+Inst18Quest3PreQuest_HORDE = "true"
 --
-Inst18Quest4name1_HORDE = "Beryllpolster"
-Inst18Quest4name2_HORDE = "Steinfaustgurt"
-Inst18Quest4name3_HORDE = "Marmorierter Rundschild"
+Inst18Quest3name1_HORDE = Inst18Quest3name1
+Inst18Quest3name2_HORDE = Inst18Quest3name2
+Inst18Quest3name3_HORDE = Inst18Quest3name3
+Inst18Quest3name4_HORDE = Inst18Quest3name4
+Inst18Quest3name5_HORDE = Inst18Quest3name5
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst18Quest4_HORDE = Inst18Quest4
+Inst18Quest4_HORDE_Level = Inst18Quest4_Level
+Inst18Quest4_HORDE_Attain = Inst18Quest4_Attain
+Inst18Quest4_HORDE_Aim = Inst18Quest4_Aim
+Inst18Quest4_HORDE_Location = Inst18Quest4_Location
+Inst18Quest4_HORDE_Note = Inst18Quest4_Note
+Inst18Quest4_HORDE_Prequest = Inst18Quest4_Prequest
+Inst18Quest4_HORDE_Folgequest = Inst18Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst18Quest5_HORDE = Inst18Quest5
+Inst18Quest5_HORDE_Level = Inst18Quest5_Level
+Inst18Quest5_HORDE_Attain = Inst18Quest5_Attain
+Inst18Quest5_HORDE_Aim = Inst18Quest5_Aim
+Inst18Quest5_HORDE_Location = Inst18Quest5_Location
+Inst18Quest5_HORDE_Note = Inst18Quest5_Note
+Inst18Quest5_HORDE_Prequest = Inst18Quest5_Prequest
+Inst18Quest5_HORDE_Folgequest = Inst18Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst18Quest6_HORDE = Inst18Quest6
+Inst18Quest6_HORDE_Level = Inst18Quest6_Level
+Inst18Quest6_HORDE_Attain = Inst18Quest6_Attain
+Inst18Quest6_HORDE_Aim = Inst18Quest6_Aim
+Inst18Quest6_HORDE_Location = Inst18Quest6_Location
+Inst18Quest6_HORDE_Note = Inst18Quest6_Note
+Inst18Quest6_HORDE_Prequest = Inst18Quest6_Prequest
+Inst18Quest6_HORDE_Folgequest = Inst18Quest6_Folgequest
+--
+Inst18Quest6name1_HORDE = Inst18Quest6name1
+Inst18Quest6name2_HORDE = Inst18Quest6name2
+Inst18Quest6name3_HORDE = Inst18Quest6name3
 
 
 
