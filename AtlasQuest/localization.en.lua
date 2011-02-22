@@ -2413,98 +2413,158 @@ Inst16Quest1name3_HORDE = "Purified Onyxia Blood Talisman"
 
 Inst17Story = "Crafted  from the same mighty vines as Razorfen Kraul, Razorfen Downs is the traditional capital city of the quillboar race. The sprawling, thorn-ridden labyrinth houses a veritable army of loyal quillboar as well as their high priests - the Death's Head tribe. Recently, however, a looming shadow has fallen over the crude den. Agents of the undead Scourge - led by the lich, Amnennar the Coldbringer - have taken control over the quillboar race and turned the maze of thorns into a bastion of undead might. Now the quillboar fight a desperate battle to reclaim their beloved city before Amnennar spreads his control across the Barrens."
 Inst17Caption = "Razorfen Downs"
-Inst17QAA = "3 Quests"
-Inst17QAH = "4 Quests"
+Inst17QAA = "6 Quests"
+Inst17QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst17Quest1 = "1. A Host of Evil"
-Inst17Quest1_Level = "35"
-Inst17Quest1_Attain = "28"
-Inst17Quest1_Aim = "Kill 8 Razorfen Battleguard, 8 Razorfen Thornweavers, and 8 Death's Head Cultists and return to Myriam Moonsinger near the entrance to Razorfen Downs."
-Inst17Quest1_Location = "Myriam Moonsinger (The Barrens; "..YELLOW.."49,94"..WHITE..")"
-Inst17Quest1_Note = "You can find the mobs and the quest giver in the area just before the instance entrance."
+Inst17Quest1 = "1. Looming Threat"
+Inst17Quest1_Level = "43"
+Inst17Quest1_Attain = "42"
+Inst17Quest1_Aim = "Find help in Razorfen Downs."
+Inst17Quest1_Location = "Telaron Windflight (Feralas - Dreamer's Rest; "..YELLOW.."50.6, 17.0"..WHITE..")"
+Inst17Quest1_Note = "Turn the quest in to Koristrasza inside the entrance of Razorfen Down."
 Inst17Quest1_Prequest = "None"
-Inst17Quest1_Folgequest = "None"
+Inst17Quest1_Folgequest = "The Coldbringer"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst17Quest2 = "2. Extinguishing the Idol"
-Inst17Quest2_Level = "37"
-Inst17Quest2_Attain = "32"
-Inst17Quest2_Aim = "Escort Belnistrasz to the Quilboar's idol in Razorfen Downs. Protect Belnistrasz while he performs the ritual to shut down the idol."
-Inst17Quest2_Location = "Belnistrasz (Razorfen Downs; "..YELLOW.."[2]"..WHITE..")"
-Inst17Quest2_Note = "The prequest is just you agreeing to help him. Several mobs spawn and attack Belnistrasz as he attempts to shut down the idol. After completing the quest, you can turn the quest in at the brazier in front of the idol."
-Inst17Quest2_Prequest = "Scourge of the Downs"
+Inst17Quest2 = "2. The Coldbringer"
+Inst17Quest2_Level = "46"
+Inst17Quest2_Attain = "40"
+Inst17Quest2_Aim = "Kill Amnennar the Coldbringer."
+Inst17Quest2_Location = "Koristrasza (Razorfen Downs; "..YELLOW.."Entrance"..WHITE..")"
+Inst17Quest2_Note = "Amnennar the Coldbringer is the final boss, at "..YELLOW.."[4]"..WHITE.."."
+Inst17Quest2_Prequest = "Looming Threat"
 Inst17Quest2_Folgequest = "None"
-Inst17Quest2PreQuest = "true"
+Inst17Quest2FQuest = "true"
 --
-Inst17Quest2name1 = "Dragonclaw Ring"
+Inst17Quest2name1 = "Belt of Tyrannic Rule"
+Inst17Quest2name2 = "Chestguard of Redemption"
+Inst17Quest2name3 = "Razorfen Spaulders"
+Inst17Quest2name4 = "Coldbringer's Leggings"
+Inst17Quest2name5 = "Koristrasza's Amulet"
 
 --Quest 3 Alliance
-Inst17Quest3 = "3. Bring the Light"
-Inst17Quest3_Level = "37"
-Inst17Quest3_Attain = "32"
-Inst17Quest3_Aim = "Archbishop Benedictus wants you to slay Amnennar the Coldbringer in Razorfen Downs."
-Inst17Quest3_Location = "Archbishop Benedictus (Stormwind - Cathedral of Light; "..YELLOW.."50.0, 45.4"..WHITE..")"
-Inst17Quest3_Note = "Amnennar the Coldbringer is the last boss in Razorfen Downs. You can find him at "..YELLOW.."[6]"..WHITE.."."
+Inst17Quest3 = "3. Cure the Scourge"
+Inst17Quest3_Level = "44"
+Inst17Quest3_Attain = "40"
+Inst17Quest3_Aim = "Collect 20 Withered Tusks."
+Inst17Quest3_Location = "Koristrasza (Razorfen Downs; "..YELLOW.."Entrance"..WHITE..")"
+Inst17Quest3_Note = "The Withered Tusks drop for all party members on the quest throughout the instance."
 Inst17Quest3_Prequest = "None"
 Inst17Quest3_Folgequest = "None"
---
-Inst17Quest3name1 = "Vanquisher's Sword"
-Inst17Quest3name2 = "Amberglow Talisman"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst17Quest1_HORDE = Inst17Quest1
-Inst17Quest1_HORDE_Level = Inst17Quest1_Level
-Inst17Quest1_HORDE_Attain = Inst17Quest1_Attain
-Inst17Quest1_HORDE_Aim = Inst17Quest1_Aim
-Inst17Quest1_HORDE_Location = Inst17Quest1_Location
-Inst17Quest1_HORDE_Note = Inst17Quest1_Note
-Inst17Quest1_HORDE_Prequest = Inst17Quest1_Prequest
-Inst17Quest1_HORDE_Folgequest = Inst17Quest1_Folgequest
 -- No Rewards for this quest
 
---Quest 2 Horde
-Inst17Quest2_HORDE = "2. An Unholy Alliance"
-Inst17Quest2_HORDE_Level = "36"
-Inst17Quest2_HORDE_Attain = "28"
-Inst17Quest2_HORDE_Aim = "Bring Ambassador Malcin's Head to Varimathras in the Undercity."
-Inst17Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst17Quest2_HORDE_Note = "The preceding quest can be obtained from the last Boss in Razorfen Kraul. You find Malcin outside (The Barrens; "..YELLOW.."48,92"..WHITE..")."
-Inst17Quest2_HORDE_Prequest = "An Unholy Alliance"
-Inst17Quest2_HORDE_Folgequest = "None"
-Inst17Quest2PreQuest_HORDE = "true"
---
-Inst17Quest2name1_HORDE = "Skullbreaker"
-Inst17Quest2name2_HORDE = "Nail Spitter"
-Inst17Quest2name3_HORDE = "Zealot's Robe"
+--Quest 4 Alliance
+Inst17Quest4 = "4. Partners in Crime"
+Inst17Quest4_Level = "44"
+Inst17Quest4_Attain = "40"
+Inst17Quest4_Aim = "Kill Glutton, Mordresh Fire Eye, and Tuten'kash."
+Inst17Quest4_Location = "Koristrasza (Razorfen Downs; "..YELLOW.."Entrance"..WHITE..")"
+Inst17Quest4_Note = "Tuten'kash is at "..YELLOW.."[1]"..WHITE..", Mordresh Fire Eye is at "..YELLOW.."[2]"..WHITE.." and Glutton is at "..YELLOW.."[3]"..WHITE.."."
+Inst17Quest4_Prequest = "None"
+Inst17Quest4_Folgequest = "None"
+-- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 2 Alliance)
-Inst17Quest3_HORDE = "3. Extinguishing the Idol"
-Inst17Quest3_HORDE_Level = Inst17Quest2_Level
-Inst17Quest3_HORDE_Attain = Inst17Quest2_Attain
-Inst17Quest3_HORDE_Aim = Inst17Quest2_Aim
-Inst17Quest3_HORDE_Location = Inst17Quest2_Location
-Inst17Quest3_HORDE_Note = Inst17Quest2_Note
-Inst17Quest3_HORDE_Prequest = Inst17Quest2_Prequest
-Inst17Quest3_HORDE_Folgequest = Inst17Quest2_Folgequest
-Inst17Quest3PreQuest_HORDE = Inst17Quest2PreQuest
---
-Inst17Quest3name1_HORDE = Inst17Quest2name1
+--Quest 5 Alliance
+Inst17Quest5 = "5. Scourge of the Downs"
+Inst17Quest5_Level = "44"
+Inst17Quest5_Attain = "40"
+Inst17Quest5_Aim = "If you agree to aid Belnistrasz, speak with him again and hand the Oathstone he gave you back to him."
+Inst17Quest5_Location = "Belnistrasz (Razorfen Downs; "..GREEN.."[1']"..WHITE..")"
+Inst17Quest5_Note = "Make sure all party members have turned this quest in before starting the next quest or they won't be able to get the quest."
+Inst17Quest5_Prequest = "None"
+Inst17Quest5_Folgequest = "Extinguishing the Idol"
+-- No Rewards for this quest
 
---Quest 4 Horde
-Inst17Quest4_HORDE = "4. Bring the End"
-Inst17Quest4_HORDE_Level = "42"
-Inst17Quest4_HORDE_Attain = "37"
-Inst17Quest4_HORDE_Aim = "Andrew Brownell wants you to kill Amnennar the Coldbringer and return his skull."
-Inst17Quest4_HORDE_Location = "Andrew Brownell (Undercity - The Magic Quarter; "..YELLOW.."72,32"..WHITE..")"
-Inst17Quest4_HORDE_Note = "Amnennar the Coldbringer is the last Boss at Razorfen Downs. You can find him at "..YELLOW.."[6]"..WHITE.."."
-Inst17Quest4_HORDE_Prequest = "None"
-Inst17Quest4_HORDE_Folgequest = "None"
+--Quest 6 Alliance
+Inst17Quest6 = "6. Extinguishing the Idol"
+Inst17Quest6_Level = "45"
+Inst17Quest6_Attain = "40"
+Inst17Quest6_Aim = "Protect Belnistrasz."
+Inst17Quest6_Location = "Belnistrasz (Razorfen Downs; "..GREEN.."[1']"..WHITE..")"
+Inst17Quest6_Note = "Belnistrasz moves very fast.  Be sure to stay close to him to avoid failing the quest."
+Inst17Quest6_Prequest = "Scourge of the Downs"
+Inst17Quest6_Folgequest = "None"
+Inst17Quest6FQuest = "true"
 --
-Inst17Quest4name1_HORDE = "Vanquisher's Sword"
-Inst17Quest4name2_HORDE = "Amberglow Talisman"
+Inst17Quest6name1 = "Dragonclaw Ring"
+
+
+--Quest 1 Horde
+Inst17Quest1_HORDE = "1. Looming Threat"
+Inst17Quest1_HORDE_Level = "43"
+Inst17Quest1_HORDE_Attain = "42"
+Inst17Quest1_HORDE_Aim = "Find help in Razorfen Downs."
+Inst17Quest1_HORDE_Location = "Kanati Greycloud (Thousand Needles - Westreach Summit; "..YELLOW.."11.0, 11.2"..WHITE..")"
+Inst17Quest1_HORDE_Note = "Turn the quest in to Koristrasza inside the entrance of Razorfen Down."
+Inst17Quest1_HORDE_Prequest = "None"
+Inst17Quest1_HORDE_Folgequest = "The Coldbringer"
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst17Quest2_HORDE = Inst17Quest2
+Inst17Quest2_HORDE_Level = Inst17Quest2_Level
+Inst17Quest2_HORDE_Attain = Inst17Quest2_Attain
+Inst17Quest2_HORDE_Aim = Inst17Quest2_Aim
+Inst17Quest2_HORDE_Location = Inst17Quest2_Location
+Inst17Quest2_HORDE_Note = Inst17Quest2_Note
+Inst17Quest2_HORDE_Prequest = Inst17Quest2_Prequest
+Inst17Quest2_HORDE_Folgequest = Inst17Quest2_Folgequest
+Inst17Quest2FQuest_HORDE = Inst17Quest2FQuest
+--
+Inst17Quest2name1_HORDE = Inst17Quest2name1
+Inst17Quest2name2_HORDE = Inst17Quest2name2
+Inst17Quest2name3_HORDE = Inst17Quest2name3
+Inst17Quest2name4_HORDE = Inst17Quest2name4
+Inst17Quest2name5_HORDE = Inst17Quest2name5
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst17Quest3_HORDE = Inst17Quest3
+Inst17Quest3_HORDE_Level = Inst17Quest3_Level
+Inst17Quest3_HORDE_Attain = Inst17Quest3_Attain
+Inst17Quest3_HORDE_Aim = Inst17Quest3_Aim
+Inst17Quest3_HORDE_Location = Inst17Quest3_Location
+Inst17Quest3_HORDE_Note = Inst17Quest3_Note
+Inst17Quest3_HORDE_Prequest = Inst17Quest3_Prequest
+Inst17Quest3_HORDE_Folgequest = Inst17Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst17Quest4_HORDE = Inst17Quest4
+Inst17Quest4_HORDE_Level = Inst17Quest4_Level
+Inst17Quest4_HORDE_Attain = Inst17Quest4_Attain
+Inst17Quest4_HORDE_Aim = Inst17Quest4_Aim
+Inst17Quest4_HORDE_Location = Inst17Quest4_Location
+Inst17Quest4_HORDE_Note = Inst17Quest4_Note
+Inst17Quest4_HORDE_Prequest = Inst17Quest4_Prequest
+Inst17Quest4_HORDE_Folgequest = Inst17Quest4_Folgequest
+Inst17Quest4name1_HORDE = Inst17Quest4name1
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst17Quest5_HORDE = Inst17Quest5
+Inst17Quest5_HORDE_Level = Inst17Quest5_Level
+Inst17Quest5_HORDE_Attain = Inst17Quest5_Attain
+Inst17Quest5_HORDE_Aim = Inst17Quest5_Aim
+Inst17Quest5_HORDE_Location = Inst17Quest5_Location
+Inst17Quest5_HORDE_Note = Inst17Quest5_Note
+Inst17Quest5_HORDE_Prequest = Inst17Quest5_Prequest
+Inst17Quest5_HORDE_Folgequest = Inst17Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst17Quest6_HORDE = Inst17Quest6
+Inst17Quest6_HORDE_Level = Inst17Quest6_Level
+Inst17Quest6_HORDE_Attain = Inst17Quest6_Attain
+Inst17Quest6_HORDE_Aim = Inst17Quest6_Aim
+Inst17Quest6_HORDE_Location = Inst17Quest6_Location
+Inst17Quest6_HORDE_Note = Inst17Quest6_Note
+Inst17Quest6_HORDE_Prequest = Inst17Quest6_Prequest
+Inst17Quest6_HORDE_Folgequest = Inst17Quest6_Folgequest
+Inst17Quest6FQuest_HORDE = Inst17Quest6FQuest
+--
+Inst17Quest6name1_HORDE = Inst17Quest6name1
 
 
 
@@ -2512,75 +2572,83 @@ Inst17Quest4name2_HORDE = "Amberglow Talisman"
 
 Inst18Story = "Ten thousand years ago - during the War of the Ancients, the mighty demigod, Agamaggan, came forth to battle the Burning Legion. Though the colossal boar fell in combat, his actions helped save Azeroth from ruin. Yet over time, in the areas where his blood fell, massive thorn-ridden vines sprouted from the earth. The quillboar - believed to be the mortal offspring of the mighty god, came to occupy these regions and hold them sacred. The heart of these thorn-colonies was known as the Razorfen. The great mass of Razorfen Kraul was conquered by the old crone, Charlga Razorflank. Under her rule, the shamanistic quillboar stage attacks on rival tribes as well as Horde villages. Some speculate that Charlga has even been negotiating with agents of the Scourge - aligning her unsuspecting tribe with the ranks of the Undead for some insidious purpose."
 Inst18Caption = "Razorfen Kraul"
-Inst18QAA = "5 Quests"
-Inst18QAH = "5 Quests"
+Inst18QAA = "6 Quests"
+Inst18QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst18Quest1 = "1. Blueleaf Tubers"
-Inst18Quest1_Level = "26"
-Inst18Quest1_Attain = "20"
-Inst18Quest1_Aim = "In Razorfen Kraul, use the Crate with Holes to summon a Snufflenose Gopher, and use the Command Stick on the gopher to make it search for Tubers. Bring 6 Blueleaf Tubers, the Snufflenose Command Stick and the Crate with Holes to Mebok Mizzyrix in Ratchet."
-Inst18Quest1_Location = "Mebok Mizzyrix (The Barrens - Ratchet; "..YELLOW.."62,37"..WHITE..")"
-Inst18Quest1_Note = "The Crate, the Stick and the Manual can all be found near Mebok Mizzyrix."
+Inst18Quest1 = "1. Feeling Thorny"
+Inst18Quest1_Level = "33"
+Inst18Quest1_Attain = "30"
+Inst18Quest1_Aim = "Speak to Auld Stonespire."
+Inst18Quest1_Location = "Mahka (Southern Barrens; "..YELLOW.."45.0, 85.4"..WHITE..")"
+Inst18Quest1_Note = "Auld Stonespire is just inside the entrance of Razorfen Kraul."
 Inst18Quest1_Prequest = "None"
 Inst18Quest1_Folgequest = "None"
---
-Inst18Quest1name1 = "A Small Container of Gems"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst18Quest2 = "2. Mortality Wanes"
-Inst18Quest2_Level = "30"
-Inst18Quest2_Attain = "25"
-Inst18Quest2_Aim = "Find and return Treshala's Pendant to Treshala Fallowbrook in Darnassus."
-Inst18Quest2_Location = "Heraltha Fallowbrook (Razorfen Kraul; "..YELLOW.."[8]"..WHITE..")"
-Inst18Quest2_Note = "The pendant is a random drop. You must bring back the pendant to Treshala Fallowbrook in Darnassus - Tradesmen Terrace ("..YELLOW.."69,67"..WHITE..")."
+Inst18Quest2 = "2. Agamaggan"
+Inst18Quest2_Level = "35"
+Inst18Quest2_Attain = "30"
+Inst18Quest2_Aim = "Talk to the Spirit of Agamaggan."
+Inst18Quest2_Location = "Auld Stonespire (Razorfen Kraul; "..YELLOW.."Entrance"..WHITE..")"
+Inst18Quest2_Note = "The Spirit of Agamaggan is at "..GREEN.."[1']"..WHITE.."."
 Inst18Quest2_Prequest = "None"
-Inst18Quest2_Folgequest = "None"
---
-Inst18Quest2name1 = "Mourning Shawl"
-Inst18Quest2name2 = "Lancer Boots"
+Inst18Quest2_Folgequest = "Agamaggan's Charge"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst18Quest3 = "3. Willix the Importer"
-Inst18Quest3_Level = "30"
-Inst18Quest3_Attain = "22"
-Inst18Quest3_Aim = "Escort Willix the Importer out of Razorfen Kraul."
-Inst18Quest3_Location = "Willix the Importer (Razorfen Kraul; "..YELLOW.."[8]"..WHITE..")"
-Inst18Quest3_Note = "Willix the Importer must be escorted to the entrance of the instance. The quest is turned in to him when completed."
-Inst18Quest3_Prequest = "None"
+Inst18Quest3 = "3. Agamaggan's Charge"
+Inst18Quest3_Level = "35"
+Inst18Quest3_Attain = "30"
+Inst18Quest3_Aim = "Take Charlga Razorflank's heart."
+Inst18Quest3_Location = "Spirit of Agamaggan (Razorfen Kraul; "..GREEN.."[1']"..WHITE..")"
+Inst18Quest3_Note = "Charlga Razorflank is at "..YELLOW.."[5]"..WHITE.."."
+Inst18Quest3_Prequest = "Agamaggan"
 Inst18Quest3_Folgequest = "None"
+Inst18Quest3FQuest = "true"
 --
-Inst18Quest3name1 = "Monkey Ring"
-Inst18Quest3name2 = "Snake Hoop"
-Inst18Quest3name3 = "Tiger Band"
+Inst18Quest3name1 = "Agamaggan-Blessed Greaves"
+Inst18Quest3name2 = "Boots of the Noble Path"
+Inst18Quest3name3 = "Charlga's Breastplate"
+Inst18Quest3name4 = "Agamaggan's Gift"
+Inst18Quest3name5 = "Agamaggan's Silent Tear"
 
 --Quest 4 Alliance
-Inst18Quest4 = "4. The Crone of the Kraul"
-Inst18Quest4_Level = "27"
-Inst18Quest4_Attain = "23"
-Inst18Quest4_Aim = "Bring Razorflank's Medallion to Falfindel Waywarder in Thalanaar."
-Inst18Quest4_Location = "Falfindel Waywarder (Feralas - Thalanaar; "..YELLOW.."89,46"..WHITE..")"
-Inst18Quest4_Note = "Charlga Razorflank "..YELLOW.."[7]"..WHITE.." drops the Medallion required for this quest."
-Inst18Quest4_Prequest = "Lonebrow's Journal"
+Inst18Quest4 = "4. Going, Going, Guano!"
+Inst18Quest4_Level = "35"
+Inst18Quest4_Attain = "30"
+Inst18Quest4_Aim = "Extract 1 pile of Kraul Guano."
+Inst18Quest4_Location = "Auld Stonespire (Razorfen Kraul; "..YELLOW.."Entrance"..WHITE..")"
+Inst18Quest4_Note = "The Kraul Guano can be found in the bat cave on the Western Side of Razorfen Kraul."
+Inst18Quest4_Prequest = "None"
 Inst18Quest4_Folgequest = "None"
-Inst18Quest4PreQuest = "true"
---
-Inst18Quest4name1 = "Falfindel's Blaster"
-Inst18Quest4name2 = "Berylline Pads"
-Inst18Quest4name3 = "Stonefist Girdle"
-Inst18Quest4name4 = "Marbled Buckler"
+-- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst18Quest5 = "5. Fire Hardened Mail (Warrior)"
-Inst18Quest5_Level = "28"
-Inst18Quest5_Attain = "20"
-Inst18Quest5_Aim = "Gather the materials Furen Longbeard requires, and bring them to him in Stormwind."
-Inst18Quest5_Location = "Furen Longbeard (Stormwind - Dwarven District; "..YELLOW.."64.4, 37.3"..WHITE..")"
-Inst18Quest5_Note = "This quest can only be obtained by warriors. You get the Vial of Phlogiston from Roogug at "..YELLOW.."[1]"..WHITE..".\n\nThe followup quest is different for each race. Burning Blood for Humans, Iron Coral for Dwarves and Gnomes and Sunscorched Shells for Night Elves."
-Inst18Quest5_Prequest = "The Shieldsmith"
-Inst18Quest5_Folgequest = "(See Note)"
-Inst18Quest5PreQuest = "true"
+Inst18Quest5 = "5. Take Them Down!"
+Inst18Quest5_Level = "35"
+Inst18Quest5_Attain = "30"
+Inst18Quest5_Aim = "Kill Aggem Thorncurse, Death Speaker Jargba, Overlord Ramtusk, and Agathelos the Raging."
+Inst18Quest5_Location = "Auld Stonespire (Razorfen Kraul; "..YELLOW.."Entrance"..WHITE..")"
+Inst18Quest5_Note = "Aggem Thorncurse is at "..YELLOW.."[1]"..WHITE..", Death Speaker Jargba is at "..YELLOW.."[2]"..WHITE..", Overlord Ramtusk is at "..YELLOW.."[3]"..WHITE.." and Agathelos the Raging is at "..YELLOW.."[4]"..WHITE.."."
+Inst18Quest5_Prequest = "None"
+Inst18Quest5_Folgequest = "None"
 -- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst18Quest6 = "6. Willix the Importer"
+Inst18Quest6_Level = "35"
+Inst18Quest6_Attain = "30"
+Inst18Quest6_Aim = "Escort Willix the Importer to the exit of Razorfen Kraul."
+Inst18Quest6_Location = "Willix the Importer (Razorfen Kraul; "..GREEN.."[2']"..WHITE..")"
+Inst18Quest6_Note = "Willix the Importer must be escorted to the entrance of the instance. The quest is turned in to him when completed."
+Inst18Quest6_Prequest = "None"
+Inst18Quest6_Folgequest = "None"
+--
+Inst18Quest6name1 = "Monkey Ring"
+Inst18Quest6name2 = "Snake Hoop"
+Inst18Quest6name3 = "Tiger Band"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2592,59 +2660,71 @@ Inst18Quest1_HORDE_Location = Inst18Quest1_Location
 Inst18Quest1_HORDE_Note = Inst18Quest1_Note
 Inst18Quest1_HORDE_Prequest = Inst18Quest1_Prequest
 Inst18Quest1_HORDE_Folgequest = Inst18Quest1_Folgequest
---
-Inst18Quest1name1_HORDE = Inst18Quest1name1
-
---Quest 2 Horde  (same as Quest 3 Alliance)
-Inst18Quest2_HORDE = "2. Willix the Importer"
-Inst18Quest2_HORDE_Level = Inst18Quest3_Level
-Inst18Quest2_HORDE_Attain = Inst18Quest3_Attain
-Inst18Quest2_HORDE_Aim = Inst18Quest3_Aim
-Inst18Quest2_HORDE_Location = Inst18Quest3_Location
-Inst18Quest2_HORDE_Note = Inst18Quest3_Note
-Inst18Quest2_HORDE_Prequest = Inst18Quest3_Prequest
-Inst18Quest2_HORDE_Folgequest = Inst18Quest3_Folgequest
---
-Inst18Quest2name1_HORDE = Inst18Quest3name1
-Inst18Quest2name2_HORDE = Inst18Quest3name2
-Inst18Quest2name3_HORDE = Inst18Quest3name3
-
--- Quest 3 Horde
-Inst18Quest3_HORDE = "3. Going, Going, Guano!"
-Inst18Quest3_HORDE_Level = "26"
-Inst18Quest3_HORDE_Attain = "22"
-Inst18Quest3_HORDE_Aim = "Bring 1 pile of Kraul Guano to Master Apothecary Faranell in the Undercity."
-Inst18Quest3_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69 "..WHITE..")"
-Inst18Quest3_HORDE_Note = "Kraul Guano is dropped by any of the bats found within the instance."
-Inst18Quest3_HORDE_Prequest = "None"
-Inst18Quest3_HORDE_Folgequest = "Hearts of Zeal ("..YELLOW.."[Scarlet Monastery]"..WHITE..")"
 -- No Rewards for this quest
 
---Quest 4 Horde
-Inst18Quest4_HORDE = "4. A Vengeful Fate"
-Inst18Quest4_HORDE_Level = "27"
-Inst18Quest4_HORDE_Attain = "23"
-Inst18Quest4_HORDE_Aim = "Bring Razorflank's Heart to Auld Stonespire in Thunder Bluff."
-Inst18Quest4_HORDE_Location = "Auld Stonespire (Thunderbluff; "..YELLOW.."36,59"..WHITE..")"
-Inst18Quest4_HORDE_Note = "You can find Charlga Razorflank at "..YELLOW.."[7]"..WHITE.."."
-Inst18Quest4_HORDE_Prequest = "None"
-Inst18Quest4_HORDE_Folgequest = "None"
---
-Inst18Quest4name1_HORDE = "Berylline Pads"
-Inst18Quest4name2_HORDE = "Stonefist Girdle"
-Inst18Quest4name3_HORDE = "Marbled Buckler"
-
---Quest 5 Horde
-Inst18Quest5_HORDE = "5. Brutal Armor (Warrior)"
-Inst18Quest5_HORDE_Level = "30"
-Inst18Quest5_HORDE_Attain = "20"
-Inst18Quest5_HORDE_Aim = "Bring to Thun'grim Firegaze 15 Smoky Iron Ingots, 10 Powdered Azurite, 10 Iron Bars and a Vial of Phlogiston."
-Inst18Quest5_HORDE_Location = "Thun'grim Firegaze (The Barrens; "..YELLOW.."57,30"..WHITE..")"
-Inst18Quest5_HORDE_Note = "This quest can only be obtained by warriors. You get the Vial of Phlogiston from Roogug at "..YELLOW.."[1]"..WHITE..".\n\nCompleting this quest allows you to start four new quests from the same NPC."
-Inst18Quest5_HORDE_Prequest = "Speak with Thun'grim"
-Inst18Quest5_HORDE_Folgequest = "(See Note)"
-Inst18Quest5PreQuest_HORDE = "true"
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst18Quest2_HORDE = Inst18Quest2
+Inst18Quest2_HORDE_Level = Inst18Quest2_Level
+Inst18Quest2_HORDE_Attain = Inst18Quest2_Attain
+Inst18Quest2_HORDE_Aim = Inst18Quest2_Aim
+Inst18Quest2_HORDE_Location = Inst18Quest2_Location
+Inst18Quest2_HORDE_Note = Inst18Quest2_Note
+Inst18Quest2_HORDE_Prequest = Inst18Quest2_Prequest
+Inst18Quest2_HORDE_Folgequest = Inst18Quest2_Folgequest
 -- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst18Quest3_HORDE = Inst18Quest3
+Inst18Quest3_HORDE_Level = Inst18Quest3_Level
+Inst18Quest3_HORDE_Attain = Inst18Quest3_Attain
+Inst18Quest3_HORDE_Aim = Inst18Quest3_Aim
+Inst18Quest3_HORDE_Location = Inst18Quest3_Location
+Inst18Quest3_HORDE_Note = Inst18Quest3_Note
+Inst18Quest3_HORDE_Prequest = Inst18Quest3_Prequest
+Inst18Quest3_HORDE_Folgequest = Inst18Quest3_Folgequest
+Inst18Quest3FQuest_HORDE = Inst18Quest3FQuest
+--
+Inst18Quest3name1_HORDE = Inst18Quest3name1
+Inst18Quest3name2_HORDE = Inst18Quest3name2
+Inst18Quest3name3_HORDE = Inst18Quest3name3
+Inst18Quest3name4_HORDE = Inst18Quest3name4
+Inst18Quest3name5_HORDE = Inst18Quest3name5
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst18Quest4_HORDE = Inst18Quest4
+Inst18Quest4_HORDE_Level = Inst18Quest4_Level
+Inst18Quest4_HORDE_Attain = Inst18Quest4_Attain
+Inst18Quest4_HORDE_Aim = Inst18Quest4_Aim
+Inst18Quest4_HORDE_Location = Inst18Quest4_Location
+Inst18Quest4_HORDE_Note = Inst18Quest4_Note
+Inst18Quest4_HORDE_Prequest = Inst18Quest4_Prequest
+Inst18Quest4_HORDE_Folgequest = Inst18Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst18Quest5_HORDE = Inst18Quest5
+Inst18Quest5_HORDE_Level = Inst18Quest5_Level
+Inst18Quest5_HORDE_Attain = Inst18Quest5_Attain
+Inst18Quest5_HORDE_Aim = Inst18Quest5_Aim
+Inst18Quest5_HORDE_Location = Inst18Quest5_Location
+Inst18Quest5_HORDE_Note = Inst18Quest5_Note
+Inst18Quest5_HORDE_Prequest = Inst18Quest5_Prequest
+Inst18Quest5_HORDE_Folgequest = Inst18Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst18Quest6_HORDE = Inst18Quest6
+Inst18Quest6_HORDE_Level = Inst18Quest6_Level
+Inst18Quest6_HORDE_Attain = Inst18Quest6_Attain
+Inst18Quest6_HORDE_Aim = Inst18Quest6_Aim
+Inst18Quest6_HORDE_Location = Inst18Quest6_Location
+Inst18Quest6_HORDE_Note = Inst18Quest6_Note
+Inst18Quest6_HORDE_Prequest = Inst18Quest6_Prequest
+Inst18Quest6_HORDE_Folgequest = Inst18Quest6_Folgequest
+--
+Inst18Quest6name1_HORDE = Inst18Quest6name1
+Inst18Quest6name2_HORDE = Inst18Quest6name2
+Inst18Quest6name3_HORDE = Inst18Quest6name3
 
 
 

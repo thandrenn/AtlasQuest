@@ -466,47 +466,54 @@ AQ_24429_Level = "80"
 
 --------------- INST17 - Razorfen Downs (RFD) ---------------
 
-Inst17Quest1_QuestID = "6626"
-Inst17Quest2_QuestID = "3525"
-Inst17Quest3_QuestID = "3636"
+Inst17Quest1_QuestID = "27063"
+Inst17Quest2_QuestID = "27009"
+Inst17Quest3_QuestID = "27029"
+Inst17Quest4_QuestID = "27024"
+Inst17Quest5_QuestID = "27019"
+Inst17Quest6_QuestID = "27022"
 
-Inst17Quest1_HORDE_QuestID = "6626"
-Inst17Quest2_HORDE_QuestID = "6521"
-Inst17Quest3_HORDE_QuestID = "3525"
-Inst17Quest4_HORDE_QuestID = "3341"
+Inst17Quest1_HORDE_QuestID = "27062"
+Inst17Quest2_HORDE_QuestID = "27009"
+Inst17Quest3_HORDE_QuestID = "27029"
+Inst17Quest4_HORDE_QuestID = "27024"
+Inst17Quest5_HORDE_QuestID = "27019"
+Inst17Quest6_HORDE_QuestID = "27022"
 
 
-AQ_6626_Level = "35"
-AQ_3525_Level = "37"
-AQ_3636_Level = "37"
-AQ_6521_Level = "36"
-AQ_3341_Level = "42"
+AQ_27063_Level = "43"
+AQ_27009_Level = "46"
+AQ_27029_Level = "44"
+AQ_27024_Level = "44"
+AQ_27019_Level = "44"
+AQ_27022_Level = "45"
+AQ_27062_Level = "43"
 
 
 
 --------------- INST18 - Razorfen Kraul (RFK) ---------------
 
-Inst18Quest1_QuestID = "1221"
-Inst18Quest2_QuestID = "1142"
-Inst18Quest3_QuestID = "1144"
-Inst18Quest4_QuestID = "1101"
-Inst18Quest5_QuestID = "1701"
+Inst18Quest1_QuestID = "26908"
+Inst18Quest2_QuestID = "26906"
+Inst18Quest3_QuestID = "26905"
+Inst18Quest4_QuestID = "26901"
+Inst18Quest5_QuestID = "26907"
+Inst18Quest6_QuestID = "26903"
 
-Inst18Quest1_HORDE_QuestID = "1221"
-Inst18Quest2_HORDE_QuestID = "1144"
-Inst18Quest3_HORDE_QuestID = "1109"
-Inst18Quest4_HORDE_QuestID = "1102"
-Inst18Quest5_HORDE_QuestID = "1838"
+Inst18Quest1_HORDE_QuestID = "26908"
+Inst18Quest2_HORDE_QuestID = "26906"
+Inst18Quest3_HORDE_QuestID = "26905"
+Inst18Quest4_HORDE_QuestID = "26901"
+Inst18Quest5_HORDE_QuestID = "26907"
+Inst18Quest6_HORDE_QuestID = "26903"
 
 
-AQ_1221_Level = "26"
-AQ_1142_Level = "30"
-AQ_1144_Level = "30"
-AQ_1101_Level = "27"
-AQ_1701_Level = "28"
-AQ_1109_Level = "26"
-AQ_1102_Level = "27"
-AQ_1838_Level = "30"
+AQ_26908_Level = "33"
+AQ_26906_Level = "35"
+AQ_26905_Level = "35"
+AQ_26901_Level = "35"
+AQ_26907_Level = "35"
+AQ_26903_Level = "35"
 
 
 
