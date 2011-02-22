@@ -13,7 +13,7 @@
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Author: Thandrenn
 ## Original Author: Asurn
-## Version: 4.6.1
+## Version: 4.6.2 BETA
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Echo Isles US
 ## X-eMail: mystery8@gmail.com
