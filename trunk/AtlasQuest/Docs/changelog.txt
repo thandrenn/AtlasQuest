@@ -4,11 +4,14 @@ Changelog
 
 Version 4.6.2 BETA (not released)
 
+- Localizations updated: deDE.
 
 - Classic Dungeons updated:
 	- Maraudon
 	- Molten Core
 	- Onyxia's Lair
+	- Razorfen Downs
+	- Razorfen Kraul
 
 
 Version 4.6.1 (February 8, 2011)
