@@ -2231,141 +2231,69 @@ Inst12Quest15name1_HORDE = Inst12Quest15name1
 
 Inst13Story = "Protected by the fierce Maraudine centaur, Maraudon is one of the most sacred sites within Desolace. The great temple/cavern is the burial place of Zaetar, one of two immortal sons born to the demigod, Cenarius. Legend holds that Zaetar and the earth elemental princess, Theradras, sired the misbegotten centaur race. It is said that upon their emergence, the barbaric centaur turned on their father and killed him. Some believe that Theradras, in her grief, trapped Zaetar's spirit within the winding cavern - used its energies for some malign purpose. The subterranean tunnels are populated by the vicious, long-dead ghosts of the Centaur Khans, as well as Theradras' own raging, elemental minions."
 Inst13Caption = "Maraudon"
-Inst13QAA = "8 Quests"
-Inst13QAH = "8 Quests"
+Inst13QAA = "3 Quests"
+Inst13QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst13Quest1 = "1. Shadowshard Fragments"
-Inst13Quest1_Level = "42"
-Inst13Quest1_Attain = "39"
-Inst13Quest1_Aim = "Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh."
-Inst13Quest1_Location = "Archmage Tervosh (Dustwallow Marsh - Theramore Isle; "..YELLOW.."66,49"..WHITE..")"
-Inst13Quest1_Note = "You get the Shadowshard Fragments from 'Shadowshard Rumbler' or 'Shadowshard Smasher' outside the instance on the Purple side."
+Inst13Quest1 = "1. Corruption in Maraudon"
+Inst13Quest1_Level = "34"
+Inst13Quest1_Attain = "32"
+Inst13Quest1_Aim = "Kill Lord Vyletongue."
+Inst13Quest1_Location = "Automatically accepted after entering Purple side."
+Inst13Quest1_Note = "Lord Vyletongue is at "..YELLOW.."[3]"..WHITE.."."
 Inst13Quest1_Prequest = "None"
 Inst13Quest1_Folgequest = "None"
---
-Inst13Quest1name1 = "Zealous Shadowshard Pendant"
-Inst13Quest1name2 = "Prodigious Shadowshard Pendant"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst13Quest2 = "2. Vyletongue Corruption"
-Inst13Quest2_Level = "47"
-Inst13Quest2_Attain = "41"
-Inst13Quest2_Aim = "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\nHeal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point."
-Inst13Quest2_Location = "Talendria (Desolace - Nijel's Point; "..YELLOW.."68,8"..WHITE..")"
-Inst13Quest2_Note = "You can fill the Vial at any pool outside the instance on the Orange side. The plants are in the orange and purple areas inside the instance."
+Inst13Quest2 = "2. Servants of Theradras"
+Inst13Quest2_Level = "36"
+Inst13Quest2_Attain = "34"
+Inst13Quest2_Aim = "Kill Noxxion and Razorlash."
+Inst13Quest2_Location = "Automatically accepted after entering Orange side."
+Inst13Quest2_Note = "Noxxion is at "..YELLOW.."[1]"..WHITE.." and Razorlash is at "..YELLOW.."[2]"..WHITE.."."
 Inst13Quest2_Prequest = "None"
 Inst13Quest2_Folgequest = "None"
---
-Inst13Quest2name1 = "Woodseed Hoop"
-Inst13Quest2name2 = "Sagebrush Girdle"
-Inst13Quest2name3 = "Branchclaw Gauntlets"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst13Quest3 = "3. Twisted Evils"
-Inst13Quest3_Level = "47"
-Inst13Quest3_Attain = "41"
-Inst13Quest3_Aim = "Collect 25 Theradric Crystal Carvings for Willow in Desolace."
-Inst13Quest3_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
-Inst13Quest3_Note = "Most mobs in Maraudon drop the Carvings."
+Inst13Quest3 = "3. Princess Theradras"
+Inst13Quest3_Level = "39"
+Inst13Quest3_Attain = "36"
+Inst13Quest3_Aim = "Kill Princess Theradras."
+Inst13Quest3_Location = "Automatically accepted at Waterfall "..BLUE.."[C]"..WHITE.."."
+Inst13Quest3_Note = "Princess Theradras is at "..YELLOW.."[8]"..WHITE.."."
 Inst13Quest3_Prequest = "None"
 Inst13Quest3_Folgequest = "None"
 --
-Inst13Quest3name1 = "Acumen Robes"
-Inst13Quest3name2 = "Sprightring Helm"
-Inst13Quest3name3 = "Relentless Chain"
-Inst13Quest3name4 = "Hulkstone Pauldrons"
+Inst13Quest3name1 = "Shield of Maraudon"
+Inst13Quest3name2 = "Pauldrons of the Promise"
+Inst13Quest3name3 = "Leggings of the Verdant Oasis"
+Inst13Quest3name4 = "Sandals of Glorious Life"
+Inst13Quest3name5 = "Zaetar's Gloves"
 
---Quest 4 Alliance
-Inst13Quest4 = "4. The Pariah's Instructions"
-Inst13Quest4_Level = "48"
-Inst13Quest4_Attain = "39"
-Inst13Quest4_Aim = "Read the Pariah's Instructions. Afterwards, obtain the Amulet of Union from Maraudon and return it to the Centaur Pariah in southern Desolace."
-Inst13Quest4_Location = "Centaur Pariah (Desolace; "..YELLOW.."45,86"..WHITE..")"
-Inst13Quest4_Note = "The 5 Kahns (Description for The Pariah's Instructions)"
-Inst13Quest4_Page = {2, "You find the Centaur Pariah in the south of desolace. He walks between "..YELLOW.."44,85"..WHITE.." and "..YELLOW.."50,87"..WHITE..".\nFirst, you have to kill the The Nameless Prophet ("..YELLOW.."[A] on Entrance Map"..WHITE.."). You find him before you enter the instance, before the point where you can choose whether you take the purple or the orange entrance. After killing him you must kill the 5 Kahns. You find the first if you choose the way in the middle ("..YELLOW.."[1] on Entrance Map"..WHITE.."). The second is in the purple part of Maraudon but before you enter the instance ("..YELLOW.."[2] on Entrance Map"..WHITE.."). The third is in the orange part before you enter the instance ("..YELLOW.."[3] on Entrance Map"..WHITE.."). The fourth is near "..YELLOW.."[4]"..WHITE.." and the fifth is near  "..YELLOW.."[1]"..WHITE..".", };
-Inst13Quest4_Prequest = "None"
-Inst13Quest4_Folgequest = "None"
---
-Inst13Quest4name1 = "Mark of the Chosen"
 
---Quest 5 Alliance
-Inst13Quest5 = "5. Legends of Maraudon"
-Inst13Quest5_Level = "49"
-Inst13Quest5_Attain = "41"
-Inst13Quest5_Aim = "Recover the two parts of the Scepter of Celebras: the Celebrian Rod and the Celebrian Diamond.\nFind a way to speak with Celebras."
-Inst13Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] on Entrance Map"..WHITE..")"
-Inst13Quest5_Note = "You find Cavindra at the beginning  of the orange part before you enter the instance.\nYou get the Celebrian Rod from Noxxion at "..YELLOW.."[2]"..WHITE..", the Celebrian Diamond from Lord Vyletongue at  "..YELLOW.."[5]"..WHITE..". Celebras is at "..YELLOW.."[7]"..WHITE..". You have to defeat him to be able to talk to him."
-Inst13Quest5_Prequest = "None"
-Inst13Quest5_Folgequest = "The Scepter of Celebras"
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst13Quest1_HORDE = Inst13Quest1
+Inst13Quest1_HORDE_Level = Inst13Quest1_Level
+Inst13Quest1_HORDE_Attain = Inst13Quest1_Attain
+Inst13Quest1_HORDE_Aim = Inst13Quest1_Aim
+Inst13Quest1_HORDE_Location = Inst13Quest1_Location
+Inst13Quest1_HORDE_Note = Inst13Quest1_Note
+Inst13Quest1_HORDE_Prequest = Inst13Quest1_Prequest
+Inst13Quest1_HORDE_Folgequest = Inst13Quest1_Folgequest
 -- No Rewards for this quest
 
---Quest 6 Alliance
-Inst13Quest6 = "6. The Scepter of Celebras"
-Inst13Quest6_Level = "49"
-Inst13Quest6_Attain = "41"
-Inst13Quest6_Aim = "Assist Celebras the Redeemed while he creates the Scepter of Celebras.\nSpeak with him when the ritual is complete."
-Inst13Quest6_Location = "Celebras the Redeemed (Maraudon; "..YELLOW.."[7]"..WHITE..")"
-Inst13Quest6_Note = "Celebras creates the Scepter. Speak with him after he is finished."
-Inst13Quest6_Prequest = "Legends of Maraudon"
-Inst13Quest6_Folgequest = "None"
-Inst13Quest6FQuest = "true"
---
-Inst13Quest6name1 = "Scepter of Celebras"
-
---Quest 7 Alliance
-Inst13Quest7 = "7. Corruption of Earth and Seed"
-Inst13Quest7_Level = "51"
-Inst13Quest7_Attain = "45"
-Inst13Quest7_Aim = "Slay Princess Theradras and return to Keeper Marandis at Nijel's Point in Desolace."
-Inst13Quest7_Location = "Keeper Marandis (Desolace - Nijel's Point; "..YELLOW.."63,10"..WHITE..")"
-Inst13Quest7_Note = "You find Princess Theradras at "..YELLOW.."[11]"..WHITE.."."
-Inst13Quest7_Prequest = "None"
-Inst13Quest7_Folgequest = "Seed of Life"
---
-Inst13Quest7name1 = "Thrash Blade"
-Inst13Quest7name2 = "Resurgence Rod"
-Inst13Quest7name3 = "Verdant Keeper's Aim"
-
---Quest 8 Alliance
-Inst13Quest8 = "8. Seed of Life"
-Inst13Quest8_Level = "51"
-Inst13Quest8_Attain = "39"
-Inst13Quest8_Aim = "Seek out Remulos in Moonglade and give him the Seed of Life."
-Inst13Quest8_Location = "Zaetar's Spirit (Maraudon; "..YELLOW.."[11]"..WHITE..")"
-Inst13Quest8_Note = "Zaetars Ghost appears after killing Princess Theradras "..YELLOW.."[11]"..WHITE..". You find Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36,41"..WHITE..")."
-Inst13Quest8_Prequest = "Corruption of Earth and Seed"
-Inst13Quest8_Folgequest = "None"
-Inst13Quest8FQuest = "true"
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst13Quest2_HORDE = Inst13Quest2
+Inst13Quest2_HORDE_Level = Inst13Quest2_Level
+Inst13Quest2_HORDE_Attain = Inst13Quest2_Attain
+Inst13Quest2_HORDE_Aim = Inst13Quest2_Aim
+Inst13Quest2_HORDE_Location = Inst13Quest2_Location
+Inst13Quest2_HORDE_Note = Inst13Quest2_Note
+Inst13Quest2_HORDE_Prequest = Inst13Quest2_Prequest
+Inst13Quest2_HORDE_Folgequest = Inst13Quest2_Folgequest
 -- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst13Quest1_HORDE = "1. Shadowshard Fragments"
-Inst13Quest1_HORDE_Level = "42"
-Inst13Quest1_HORDE_Attain = "39"
-Inst13Quest1_HORDE_Aim = "Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar"
-Inst13Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Valley of Spirits; "..YELLOW.."39,86"..WHITE..")"
-Inst13Quest1_HORDE_Note = "You get the Shadowshard Fragments from 'Shadowshard Rumbler' or 'Shadowshard Smasher' outside the instance on the Purple side."
-Inst13Quest1_HORDE_Prequest = "None"
-Inst13Quest1_HORDE_Folgequest = "None"
---
-Inst13Quest1name1_HORDE = "Zealous Shadowshard Pendant"
-Inst13Quest1name2_HORDE = "Prodigious Shadowshard Pendant"
-
---Quest 2 Horde
-Inst13Quest2_HORDE = "2. Vyletongue Corruption"
-Inst13Quest2_HORDE_Level = "47"
-Inst13Quest2_HORDE_Attain = "41"
-Inst13Quest2_HORDE_Aim = "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\nHeal 8 plants by killing these Noxxious Scion, then return to Vark Battlescar in Shadowprey Village."
-Inst13Quest2_HORDE_Location = "Vark Battlescar (Desolace - Shadowprey Village; "..YELLOW.."23,70"..WHITE..")"
-Inst13Quest2_HORDE_Note = "You can fill the Vial at any pool outside the instance on the Orange side. The plants are in the orange and purple areas inside the instance."
-Inst13Quest2_HORDE_Prequest = "None"
-Inst13Quest2_HORDE_Folgequest = "None"
---
-Inst13Quest2name1_HORDE = "Woodseed Hoop"
-Inst13Quest2name2_HORDE = "Sagebrush Girdle"
-Inst13Quest2name3_HORDE = "Branchclaw Gauntlets"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst13Quest3_HORDE = Inst13Quest3
@@ -2381,69 +2309,7 @@ Inst13Quest3name1_HORDE = Inst13Quest3name1
 Inst13Quest3name2_HORDE = Inst13Quest3name2
 Inst13Quest3name3_HORDE = Inst13Quest3name3
 Inst13Quest3name4_HORDE = Inst13Quest3name4
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst13Quest4_HORDE = Inst13Quest4
-Inst13Quest4_HORDE_Level = Inst13Quest4_Level
-Inst13Quest4_HORDE_Attain = Inst13Quest4_Attain
-Inst13Quest4_HORDE_Aim = Inst13Quest4_Aim
-Inst13Quest4_HORDE_Location = Inst13Quest4_Location
-Inst13Quest4_HORDE_Note = Inst13Quest4_Note
-Inst13Quest4_HORDE_Page = Inst13Quest4_Page
-Inst13Quest4_HORDE_Prequest = Inst13Quest4_Prequest
-Inst13Quest4_HORDE_Folgequest = Inst13Quest4_Folgequest
---
-Inst13Quest4name1_HORDE = Inst13Quest4name1
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst13Quest5_HORDE = Inst13Quest5
-Inst13Quest5_HORDE_Level = Inst13Quest5_Level
-Inst13Quest5_HORDE_Attain = Inst13Quest5_Attain
-Inst13Quest5_HORDE_Aim = Inst13Quest5_Aim
-Inst13Quest5_HORDE_Location = Inst13Quest5_Location
-Inst13Quest5_HORDE_Note = Inst13Quest5_Note
-Inst13Quest5_HORDE_Prequest = Inst13Quest5_Prequest
-Inst13Quest5_HORDE_Folgequest = Inst13Quest5_Folgequest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst13Quest6_HORDE = Inst13Quest6
-Inst13Quest6_HORDE_Level = Inst13Quest6_Level
-Inst13Quest6_HORDE_Attain = Inst13Quest6_Attain
-Inst13Quest6_HORDE_Aim = Inst13Quest6_Aim
-Inst13Quest6_HORDE_Location = Inst13Quest6_Location
-Inst13Quest6_HORDE_Note = Inst13Quest6_Note
-Inst13Quest6_HORDE_Prequest = Inst13Quest6_Prequest
-Inst13Quest6_HORDE_Folgequest = Inst13Quest6_Folgequest
-Inst13Quest6FQuest_HORDE = Inst13Quest6FQuest
---
-Inst13Quest6name1_HORDE = Inst13Quest6name1
-
---Quest 7 Horde
-Inst13Quest7_HORDE = "7. Corruption of Earth and Seed"
-Inst13Quest7_HORDE_Level = "51"
-Inst13Quest7_HORDE_Attain = "45"
-Inst13Quest7_HORDE_Aim = "Slay Princess Theradras and return to Selendra near Shadowprey Village in Desolace."
-Inst13Quest7_HORDE_Location = "Selendra (Desolace; "..YELLOW.."27,77"..WHITE..")"
-Inst13Quest7_HORDE_Note = "You find Princess Theradras at "..YELLOW.."[11]"..WHITE.."."
-Inst13Quest7_HORDE_Prequest = "None"
-Inst13Quest7_HORDE_Folgequest = "Seed of Life"
---
-Inst13Quest7name1_HORDE = "Thrash Blade"
-Inst13Quest7name2_HORDE = "Resurgence Rod"
-Inst13Quest7name3_HORDE = "Verdant Keeper's Aim"
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst13Quest8_HORDE = Inst13Quest8
-Inst13Quest8_HORDE_Level = Inst13Quest8_Level
-Inst13Quest8_HORDE_Attain = Inst13Quest8_Attain
-Inst13Quest8_HORDE_Aim = Inst13Quest8_Aim
-Inst13Quest8_HORDE_Location = Inst13Quest8_Location
-Inst13Quest8_HORDE_Note = Inst13Quest8_Note
-Inst13Quest8_HORDE_Prequest = Inst13Quest8_Prequest
-Inst13Quest8_HORDE_Folgequest = Inst13Quest8_Folgequest
-Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
--- No Rewards for this quest
+Inst13Quest3name5_HORDE = Inst13Quest3name5
 
 
 
@@ -2451,82 +2317,32 @@ Inst13Quest8FQuest_HORDE = Inst13Quest8FQuest
 
 Inst14Story = "The Molten Core lies at the very bottom of Blackrock Depths. It is the heart of Blackrock Mountain and the exact spot where, long ago in a desperate bid to turn the tide of the dwarven civil war, Emperor Thaurissan summoned the elemental Firelord, Ragnaros, into the world. Though the fire lord is incapable of straying far from the blazing Core, it is believed that his elemental minions command the Dark Iron dwarves, who are in the midst of creating armies out of living stone. The burning lake where Ragnaros lies sleeping acts as a rift connecting to the plane of fire, allowing the malicious elementals to pass through. Chief among Ragnaros' agents is Majordomo Executus - for this cunning elemental is the only one capable of calling the Firelord from his slumber."
 Inst14Caption = "Molten Core"
-Inst14QAA = "6 Quests"
-Inst14QAH = "6 Quests"
+Inst14QAA = "2 Quests"
+Inst14QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst14Quest1 = "1. The Molten Core"
+Inst14Quest1 = "1. Thunderaan the Windseeker"
 Inst14Quest1_Level = "60"
-Inst14Quest1_Attain = "58"
-Inst14Quest1_Aim = "Kill 1 Fire Lord, 1 Molten Giant, 1 Ancient Core Hound and 1 Lava Surger, then return to Duke Hydraxis in Azshara."
-Inst14Quest1_Location = "Duke Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
-Inst14Quest1_Note = "These are non-bosses inside Molten Core.\n\nAfter patch 3.0.8, you can no longer start this questline. If you already have the quest though, you can complete it."
-Inst14Quest1_Prequest = "Eye of the Emberseer ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
-Inst14Quest1_Folgequest = "Agent of Hydraxis"
+Inst14Quest1_Attain = "60"
+Inst14Quest1_Aim = "To free Thunderaan the Windseeker from his prison, you must present the right and left halves of the Bindings of the Windseeker, 10 bars of Elementium, and the Essence of the Firelord to Highlord Demitrian in Silithus."
+Inst14Quest1_Location = "Highlord Demitrian (Silithus; "..YELLOW.."29.6, 10.6"..WHITE..")"
+Inst14Quest1_Note = "Part of the Thunderfury, Blessed Blade of the Windseeker questline. It starts after obtaining either the left or right Bindings of the Windseeker from Garr at "..YELLOW.."[4]"..WHITE.." or Baron Geddon at "..YELLOW.."[6]"..WHITE..". Then talk to Highlord Demitrian to start the questline. Essence of the Firelord drops from Ragnaros at "..YELLOW.."[10]"..WHITE..". After turning this part in, Prince Thunderaan is summoned and you must kill him. He's a 40-man raid boss."
+Inst14Quest1_Prequest = "Examine the Vessel"
+Inst14Quest1_Folgequest = "Rise, Thunderfury!"
 Inst14Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst14Quest2 = "2. Hands of the Enemy"
+Inst14Quest2 = "2. A Binding Contract"
 Inst14Quest2_Level = "60"
-Inst14Quest2_Attain = "55"
-Inst14Quest2_Aim = "Bring the Hands of Lucifron, Sulfuron, Gehennas and Shazzrah to Duke Hydraxis in Azshara."
-Inst14Quest2_Location = "Duke Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
-Inst14Quest2_Note = "Lucifron is at "..YELLOW.."[1]"..WHITE..", Sulfuron is at "..YELLOW.."[8]"..WHITE..", Gehennas is at "..YELLOW.."[3]"..WHITE.." and Shazzrah is at "..YELLOW.."[5]"..WHITE..".\nRewards listed are for the followup, 'A Hero's Reward'. After patch 3.0.8, you can no longer start this questline. If you already have the quest though, you can complete it."
-Inst14Quest2_Prequest = "Eye of the Emberseer -> Agent of Hydraxis"
-Inst14Quest2_Folgequest = "A Hero's Reward"
-Inst14Quest2FQuest = "true"
+Inst14Quest2_Attain = "60"
+Inst14Quest2_Aim = "Turn the Thorium Brotherhood Contract in to Lokhtos Darkbargainer if you would like to receive the plans for Sulfuron."
+Inst14Quest2_Location = "Lokhtos Darkbargainer (Blackrock Depths; "..GREEN.."[8']"..WHITE..")"
+Inst14Quest2_Note = "You need a Sulfuron Ingot to get the contract from Lokhtos. They drop from Golemagg the Incinerator in Molten Core at "..YELLOW.."[7]"..WHITE.."."
+Inst14Quest2_Prequest = "None"
+Inst14Quest2_Folgequest = "None"
 --
-Inst14Quest2name1 = "Ocean's Breeze"
-Inst14Quest2name2 = "Tidal Loop"
-
---Quest 3 Alliance
-Inst14Quest3 = "3. Thunderaan the Windseeker"
-Inst14Quest3_Level = "60"
-Inst14Quest3_Attain = "60"
-Inst14Quest3_Aim = "To free Thunderaan the Windseeker from his prison, you must present the right and left halves of the Bindings of the Windseeker, 10 bars of Elementium, and the Essence of the Firelord to Highlord Demitrian in Silithus."
-Inst14Quest3_Location = "Highlord Demitrian (Silithus; "..YELLOW.."22,9"..WHITE..")"
-Inst14Quest3_Note = "Part of the Thunderfury, Blessed Blade of the Windseeker questline. It starts after obtaining either the left or right Bindings of the Windseeker from Garr at "..YELLOW.."[4]"..WHITE.." or Baron Geddon at "..YELLOW.."[6]"..WHITE..". Then talk to Highlord Demitrian to start the questline. Essence of the Firelord drops from Ragnaros at "..YELLOW.."[10]"..WHITE..". After turning this part in, Prince Thunderaan is summoned and you must kill him. He's a 40-man raid boss."
-Inst14Quest3_Prequest = "Examine the Vessel"
-Inst14Quest3_Folgequest = "Rise, Thunderfury!"
-Inst14Quest3PreQuest = "true"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst14Quest4 = "4. A Binding Contract"
-Inst14Quest4_Level = "60"
-Inst14Quest4_Attain = "60"
-Inst14Quest4_Aim = "Turn the Thorium Brotherhood Contract in to Lokhtos Darkbargainer if you would like to receive the plans for Sulfuron."
-Inst14Quest4_Location = "Lokhtos Darkbargainer (Blackrock Depths; "..YELLOW.."[15]"..WHITE..")"
-Inst14Quest4_Note = "You need a Sulfuron Ingot to get the contract from Lokhtos. They drop from Golemagg the Incinerator in Molten Core at "..YELLOW.."[7]"..WHITE.."."
-Inst14Quest4_Prequest = "None"
-Inst14Quest4_Folgequest = "None"
---
-Inst14Quest4name1 = "Plans: Sulfuron Hammer"
-
---Quest 5 Alliance
-Inst14Quest5 = "5. The Ancient Leaf"
-Inst14Quest5_Level = "60"
-Inst14Quest5_Attain = "60"
-Inst14Quest5_Aim = "Find the owner of the Ancient Petrified Leaf."
-Inst14Quest5_Location = "Ancient Petrified Leaf (drops from Cache of the Firelord; "..YELLOW.."[9]"..WHITE..")"
-Inst14Quest5_Note = "Turns in to Vartrus the Ancient at (Felwood - Irontree Woods; "..YELLOW.."49,24"..WHITE..")."
-Inst14Quest5_Prequest = "None"
-Inst14Quest5_Folgequest = "Ancient Sinew Wrapped Lamina ("..YELLOW.."Azuregos"..WHITE..")"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst14Quest6 = "6. Scrying Goggles? No Problem!"
-Inst14Quest6_Level = "60"
-Inst14Quest6_Attain = "60"
-Inst14Quest6_Aim = "Find Narain's Scrying Goggles and return them to Narain Soothfancy in Tanaris."
-Inst14Quest6_Location = "Inconspicuous Crate (Silverpine Forest - Greymane Wall; "..YELLOW.."46.2, 86.6"..WHITE..")"
-Inst14Quest6_Note = "As of Patch 3.0.2, the Goggles will drop off any mob in Molten Core. The quest turns in to Narain Soothfancy (Tanaris; "..YELLOW.."65.3, 18.6"..WHITE.."), which is also where the pre-quest is obtained."
-Inst14Quest6_Prequest = "Stewvul, Ex-B.F.F."
-Inst14Quest6_Folgequest = "None"
-Inst14Quest6PreQuest = "true"
---
-Inst14Quest6name1 = "Major Rejuvenation Potion"
+Inst14Quest2name1 = "Plans: Sulfuron Hammer"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2550,58 +2366,8 @@ Inst14Quest2_HORDE_Location = Inst14Quest2_Location
 Inst14Quest2_HORDE_Note = Inst14Quest2_Note
 Inst14Quest2_HORDE_Prequest = Inst14Quest2_Prequest
 Inst14Quest2_HORDE_Folgequest = Inst14Quest2_Folgequest
-Inst14Quest2FQuest_HORDE = Inst14Quest2FQuest
 --
 Inst14Quest2name1_HORDE = Inst14Quest2name1
-Inst14Quest2name2_HORDE = Inst14Quest2name2
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst14Quest3_HORDE = Inst14Quest3
-Inst14Quest3_HORDE_Level = Inst14Quest3_Level
-Inst14Quest3_HORDE_Attain = Inst14Quest3_Attain
-Inst14Quest3_HORDE_Aim = Inst14Quest3_Aim
-Inst14Quest3_HORDE_Location = Inst14Quest3_Location
-Inst14Quest3_HORDE_Note = Inst14Quest3_Note
-Inst14Quest3_HORDE_Prequest = Inst14Quest3_Prequest
-Inst14Quest3_HORDE_Folgequest = Inst14Quest3_Folgequest
-Inst14Quest3PreQuest_HORDE = Inst14Quest3PreQuest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst14Quest4_HORDE = Inst14Quest4
-Inst14Quest4_HORDE_Level = Inst14Quest4_Level
-Inst14Quest4_HORDE_Attain = Inst14Quest4_Attain
-Inst14Quest4_HORDE_Aim = Inst14Quest4_Aim
-Inst14Quest4_HORDE_Location = Inst14Quest4_Location
-Inst14Quest4_HORDE_Note = Inst14Quest4_Note
-Inst14Quest4_HORDE_Prequest = Inst14Quest4_Prequest
-Inst14Quest4_HORDE_Folgequest = Inst14Quest4_Folgequest
---
-Inst14Quest4name1_HORDE = Inst14Quest4name1
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst14Quest5_HORDE = Inst14Quest5
-Inst14Quest5_HORDE_Level = Inst14Quest5_Level
-Inst14Quest5_HORDE_Attain = Inst14Quest5_Attain
-Inst14Quest5_HORDE_Aim = Inst14Quest5_Aim
-Inst14Quest5_HORDE_Location = Inst14Quest5_Location
-Inst14Quest5_HORDE_Note = Inst14Quest5_Note
-Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
-Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst14Quest6_HORDE = Inst14Quest6
-Inst14Quest6_HORDE_Level = Inst14Quest6_Level
-Inst14Quest6_HORDE_Attain = Inst14Quest6_Attain
-Inst14Quest6_HORDE_Aim = Inst14Quest6_Aim
-Inst14Quest6_HORDE_Location = Inst14Quest6_Location
-Inst14Quest6_HORDE_Note = Inst14Quest6_Note
-Inst14Quest6_HORDE_Prequest = Inst14Quest6_Prequest
-Inst14Quest6_HORDE_Folgequest = Inst14Quest6_Folgequest
-Inst14Quest6PreQuest_HORDE = Inst14Quest6PreQuest
---
-Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 
 
@@ -2609,91 +2375,37 @@ Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 Inst16Story = "Onyxia is the daughter of the mighty dragon Deathwing, and sister of the scheming Nefarion Lord of Blackrock Spire. It is said that Onyxia delights in corrupting the mortal races by meddling in their political affairs. To this end it is believed that she takes on various humanoid forms and uses her charm and power to influence delicate matters between the different races. Some believe that Onyxia has even assumed an alias once used by her father - the title of the royal House Prestor. When not meddling in mortal concerns, Onyxia resides in a fiery cave below the Dragonmurk, a dismal swamp located within Dustwallow Marsh. There she is guarded by her kin, the remaining members of the insidious Black Dragon Flight."
 Inst16Caption = "Onyxias Lair"
-Inst16QAA = "3 Quests"
-Inst16QAH = "3 Quests"
+Inst16QAA = "1 Quest"
+Inst16QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst16Quest1 = "1. The Forging of Quel'Serrar"
-Inst16Quest1_Level = "60"
-Inst16Quest1_Attain = "60"
-Inst16Quest1_Aim = "You must get Onyxia to breathe fire on the Unfired Ancient Blade. Once this is done, pick up the now Heated Ancient Blade. Be warned, a Heated Ancient Blade will not remain heated forever - time is of the essence."
-Inst16Quest1_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")"
-Inst16Quest1_Note = "Drop the Sword in front of Onyxia when she's at 10% to 15% health. She'll have to breathe on and heat it. When Onyxia dies, pick the sword back up, click her corpse and use the sword. Then you're ready to turn in the quest.\n\nAs of patch 3.2.2, you can no longer complete this questline unless you've already started it."
-Inst16Quest1_Prequest = "Foror's Compendium ("..YELLOW.."Dire Maul West"..WHITE..") -> The Forging of Quel'Serrar"
+Inst16Quest1 = "1. A Most Puzzling Circumstance"
+Inst16Quest1_Level = "80"
+Inst16Quest1_Attain = "80"
+Inst16Quest1_Aim = "Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb."
+Inst16Quest1_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest1_Note = "Zardeth of the Black Claw is at (Stormwind City - The Slaughtered Lamb; "..YELLOW.."40.2, 84.4"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character."
+Inst16Quest1_Prequest = "None"
 Inst16Quest1_Folgequest = "None"
-Inst16Quest1PreQuest = "true"
 --
-Inst16Quest1name1 = "Quel'Serrar"
-
---Quest 2 Alliance
-Inst16Quest2 = "2. Victory for the Alliance"
-Inst16Quest2_Level = "60"
-Inst16Quest2_Attain = "60"
-Inst16Quest2_Aim = "Take the Head of Onyxia to King Varian Wrynn in Stormwind."
-Inst16Quest2_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest2_Note = "King Varian Wrynn is at (Stormwind City - Stormwind Keep; "..YELLOW.."80.0, 38.5"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character.\n\nRewards listed are for the followup. As of patch 3.2.2, Onyxia is a level 80 raid and the head for this quest no longer drops."
-Inst16Quest2_Prequest = "None"
-Inst16Quest2_Folgequest = "Celebrating Good Times"
---
-Inst16Quest2name1 = "Onyxia Blood Talisman"
-Inst16Quest2name2 = "Dragonslayer's Signet"
-Inst16Quest2name3 = "Onyxia Tooth Pendant"
-
---Quest 3 Alliance
-Inst16Quest3 = "3. A Most Puzzling Circumstance"
-Inst16Quest3_Level = "80"
-Inst16Quest3_Attain = "80"
-Inst16Quest3_Aim = "Take the Head of Onyxia to Zardeth of the Black Claw in the basement of the Slaughtered Lamb."
-Inst16Quest3_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest3_Note = "Zardeth of the Black Claw is at (Stormwind City - The Slaughtered Lamb; "..YELLOW.."40.1, 85.1"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character."
-Inst16Quest3_Prequest = "None"
-Inst16Quest3_Folgequest = "None"
---
-Inst16Quest3name1 = "Polished Dragonslayer's Signet"
-Inst16Quest3name2 = "Sparkling Onyxia Tooth Pendant"
-Inst16Quest3name3 = "Purified Onyxia Blood Talisman"
+Inst16Quest1name1 = "Polished Dragonslayer's Signet"
+Inst16Quest1name2 = "Sparkling Onyxia Tooth Pendant"
+Inst16Quest1name3 = "Purified Onyxia Blood Talisman"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst16Quest1_HORDE = Inst16Quest1
-Inst16Quest1_HORDE_Attain = Inst16Quest1_Attain
-Inst16Quest1_HORDE_Level = Inst16Quest1_Level
-Inst16Quest1_HORDE_Aim = Inst16Quest1_Aim
-Inst16Quest1_HORDE_Location = Inst16Quest1_Location
-Inst16Quest1_HORDE_Note = Inst16Quest1_Note
-Inst16Quest1_HORDE_Prequest = Inst16Quest1_Prequest
-Inst16Quest1_HORDE_Folgequest = Inst16Quest1_Folgequest
-Inst16Quest1PreQuest_HORDE = Inst16Quest1PreQuest
+--Quest 1 Horde
+Inst16Quest1_HORDE = "1. A Most Puzzling Circumstance"
+Inst16Quest1_HORDE_Level = "80"
+Inst16Quest1_HORDE_Attain = "80"
+Inst16Quest1_HORDE_Aim = "Take the Head of Onyxia to Neeru Fireblade in the Cleft of Shadow."
+Inst16Quest1_HORDE_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest1_HORDE_Note = "Neeru Fireblade is at (Orgrimmar - Cleft of Shadow; "..YELLOW.."50.0, 60.0"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character."
+Inst16Quest1_HORDE_Prequest = "None"
+Inst16Quest1_HORDE_Folgequest = "None"
 --
-Inst16Quest1name1_HORDE = Inst16Quest1name1
-
---Quest 2 Horde
-Inst16Quest2_HORDE = "2. Victory for the Horde"
-Inst16Quest2_HORDE_Level = "60"
-Inst16Quest2_HORDE_Attain = "60"
-Inst16Quest2_HORDE_Aim = "Take the Head of Onyxia to Thrall in Orgrimmar."
-Inst16Quest2_HORDE_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest2_HORDE_Note = "Thrall is at (Orgrimmar - Valley of Wisdom; "..YELLOW.."31,37"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character.\n\nRewards listed are for the followup. As of patch 3.2.2, Onyxia is a level 80 raid and the head for this quest no longer drops."
-Inst16Quest2_HORDE_Prequest = "None"
-Inst16Quest2_HORDE_Folgequest = "For All To See"
---
-Inst16Quest2name1_HORDE = "Onyxia Blood Talisman"
-Inst16Quest2name2_HORDE = "Dragonslayer's Signet"
-Inst16Quest2name3_HORDE = "Onyxia Tooth Pendant"
-
---Quest 3 Horde
-Inst16Quest3_HORDE = "3. A Most Puzzling Circumstance"
-Inst16Quest3_HORDE_Level = "80"
-Inst16Quest3_HORDE_Attain = "80"
-Inst16Quest3_HORDE_Aim = "Take the Head of Onyxia to Neeru Fireblade in the Cleft of Shadow."
-Inst16Quest3_HORDE_Location = "Head of Onyxia (drops from Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest3_HORDE_Note = "Neeru Fireblade is at (Orgrimmar - Cleft of Shadow; "..YELLOW.."49.7, 50.5"..WHITE.."). Only one person in the raid can loot this item and the quest can be done once per character."
-Inst16Quest3_HORDE_Prequest = "None"
-Inst16Quest3_HORDE_Folgequest = "None"
---
-Inst16Quest3name1_HORDE = "Polished Dragonslayer's Signet"
-Inst16Quest3name2_HORDE = "Sparkling Onyxia Tooth Pendant"
-Inst16Quest3name3_HORDE = "Purified Onyxia Blood Talisman"
+Inst16Quest1name1_HORDE = "Polished Dragonslayer's Signet"
+Inst16Quest1name2_HORDE = "Sparkling Onyxia Tooth Pendant"
+Inst16Quest1name3_HORDE = "Purified Onyxia Blood Talisman"
 
 
 

@@ -423,81 +423,43 @@ AQ_7499_Level = "60"
 
 --------------- INST13 - Maraudon (Mara) ---------------
 
-Inst13Quest1_QuestID = "7070"
-Inst13Quest2_QuestID = "7041"
-Inst13Quest3_QuestID = "7028"
-Inst13Quest4_QuestID = "7067"
-Inst13Quest5_QuestID = "7044"
-Inst13Quest6_QuestID = "7046"
-Inst13Quest7_QuestID = "7065"
-Inst13Quest8_QuestID = "7066"
+Inst13Quest1_QuestID = "27697"
+Inst13Quest2_QuestID = "27698"
+Inst13Quest3_QuestID = "27692"
 
-Inst13Quest1_HORDE_QuestID = "7068"
-Inst13Quest2_HORDE_QuestID = "7029"
-Inst13Quest3_HORDE_QuestID = "7028"
-Inst13Quest4_HORDE_QuestID = "7067"
-Inst13Quest5_HORDE_QuestID = "7044"
-Inst13Quest6_HORDE_QuestID = "7046"
-Inst13Quest7_HORDE_QuestID = "7064"
-Inst13Quest8_HORDE_QuestID = "7066"
+Inst13Quest1_HORDE_QuestID = "27697"
+Inst13Quest2_HORDE_QuestID = "27698"
+Inst13Quest3_HORDE_QuestID = "27692"
 
 
-AQ_7070_Level = "42"
-AQ_7041_Level = "47"
-AQ_7028_Level = "47"
-AQ_7067_Level = "48"
-AQ_7044_Level = "49"
-AQ_7046_Level = "49"
-AQ_7065_Level = "51"
-AQ_7066_Level = "51"
-AQ_7068_Level = "42"
-AQ_7029_Level = "47"
-AQ_7064_Level = "51"
+AQ_27697_Level = "34"
+AQ_27698_Level = "36"
+AQ_27692_Level = "39"
 
 
 
 --------------- INST14 - Molten Core (MC) ---------------
 
+Inst14Quest1_QuestID = "7786"
+Inst14Quest2_QuestID = "7604"
 
-Inst14Quest1_QuestID = "6822"
-Inst14Quest2_QuestID = "6824"
-Inst14Quest3_QuestID = "7786"
-Inst14Quest4_QuestID = "7604"
-Inst14Quest5_QuestID = "7632"
-Inst14Quest6_QuestID = "8578"
-
-Inst14Quest1_HORDE_QuestID = "6822"
-Inst14Quest2_HORDE_QuestID = "6824"
-Inst14Quest3_HORDE_QuestID = "7786"
-Inst14Quest4_HORDE_QuestID = "7604"
-Inst14Quest5_HORDE_QuestID = "7632"
-Inst14Quest6_HORDE_QuestID = "8578"
+Inst14Quest1_HORDE_QuestID = "7786"
+Inst14Quest2_HORDE_QuestID = "7604"
 
 
-AQ_6822_Level = "60"
-AQ_6824_Level = "60"
 AQ_7786_Level = "60"
 AQ_7604_Level = "60"
-AQ_7632_Level = "60"
-AQ_8578_Level = "60"
 
 
 
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
-Inst16Quest1_QuestID = "7509"
-Inst16Quest2_QuestID = "7495"
-Inst16Quest3_QuestID = "24428"
+Inst16Quest1_QuestID = "24428"
 
-Inst16Quest1_HORDE_QuestID = "7509"
-Inst16Quest2_HORDE_QuestID = "7490"
-Inst16Quest3_HORDE_QuestID = "24429"
+Inst16Quest1_HORDE_QuestID = "24429"
 
 
-AQ_7509_Level = "60"
-AQ_7495_Level = "60"
 AQ_24428_Level = "80"
-AQ_7490_Level = "60"
 AQ_24429_Level = "80"
 
 
