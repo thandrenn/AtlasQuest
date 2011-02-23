@@ -2252,23 +2252,23 @@ Inst13QAA = "3 Quests"
 Inst13QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst13Quest1 = "1. Diener von Theradras"
-Inst13Quest1_Level = "36"
-Inst13Quest1_Attain = "34"
-Inst13Quest1_Aim = "Tötet Noxxion und Schlingwurzler."
-Inst13Quest1_Location = "Du bekommst diese Quest automatisch , wenn Du die Instanz am Anfang betretest."
-Inst13Quest1_Note = "Noxxion befindet sich bei "..YELLOW.."[1]"..WHITE.." und Schlingenwurzler befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst13Quest1 = "1. Verderbnis in Maraudon"
+Inst13Quest1_Level = "34"
+Inst13Quest1_Attain = "32"
+Inst13Quest1_Aim = "Tötet Lord Schlangenzunge."
+Inst13Quest1_Location = "Du bekommst diese Quest automatisch, nachdem Du den violetten Teil der Instanz betreten hast."
+Inst13Quest1_Note = "Lord Schnlangenzunge befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst13Quest1_Prequest = "Nein"
 Inst13Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst13Quest2 = "2. Verderbnis in Maraudon"
-Inst13Quest2_Level = "34"
-Inst13Quest2_Attain = "32"
-Inst13Quest2_Aim = "Tötet Lord Schlangenzunge."
-Inst13Quest2_Location = "Du bekommst diese Quest automatisch, nachdem Du Quest 1 erledigt hast und Du Dich weiter in der Instanz vorangearbeitet hast."
-Inst13Quest2_Note = "Lord Schnlangenzunge befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst13Quest2 = "2. Diener von Theradras"
+Inst13Quest2_Level = "36"
+Inst13Quest2_Attain = "34"
+Inst13Quest2_Aim = "Tötet Noxxion und Schlingwurzler."
+Inst13Quest2_Location = "Du bekommst diese Quest automatisch, nachdem Du den orangen Teil der Instanz betreten hast."
+Inst13Quest2_Note = "Noxxion befindet sich bei "..YELLOW.."[1]"..WHITE.." und Schlingenwurzler befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst13Quest2_Prequest = "Nein"
 Inst13Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -2278,7 +2278,7 @@ Inst13Quest3 = "3. Prinzessin Theradras"
 Inst13Quest3_Level = "39"
 Inst13Quest3_Attain = "36"
 Inst13Quest3_Aim = "Tötet Prinzessin Theradras."
-Inst13Quest3_Location = "Du bekommst diese Quest automatisch nachdem Du Quest 2 beendet hast und Du Dich weiter in der Instanz vorangearbeitet hast."
+Inst13Quest3_Location = "Du bekommst diese Quest automatisch, nachdem Du am Wasserfall im Bereich "..BLUE.."[C]"..WHITE.." betreten hast."
 Inst13Quest3_Note = "Prinzessin Theradras befindet sich bei "..YELLOW.."[8]"..WHITE.."."
 Inst13Quest3_Prequest = "Nein"
 Inst13Quest3_Folgequest = "Nein"
@@ -2334,80 +2334,33 @@ Inst13Quest3name5_HORDE = Inst13Quest3name5
 
 Inst14Story = "Der geschmolzene Kern befindet sich am tiefsten Punkt des Schwarzfels. Genau hier, im Herzen des Berges, beschwor Imperator Thaurissan vor langer Zeit in einem Akt der Verzweiflung den elementaren Feuerfürsten Ragnaros, um seinen gescheiterten Putsch gegen die Zwerge von Eisenschmiede doch noch in einen Sieg zu verwandeln. Obwohl der Feuerfürst immer in der Nähe des feurigen Kerns bleiben muss, treiben seine Offiziere die Dunkeleisenzwerge gnadenlos dazu an, ihm eine Armee aus lebendem Gestein zu erschaffen. Der See aus Magma, in dem Ragnaros schläft, ist in Wirklichkeit ein interplanarer Riss, durch den bösartige Feuerelementare von der Ebene des Feuers nach Azeroth gelangen. Der höchstrangige von Ragnaros' Untergebenen ist Majordomus Exekutus, der als einziger in der Lage ist, den schlafenden Feuerfürsten zu wecken."
 Inst14Caption = "Geschmolzener Kern"
-Inst14QAA = "5 Quests"
-Inst14QAH = "5 Quests"
+Inst14QAA = "2 Quests"
+Inst14QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst14Quest1 = "1. Der geschmolzene Kern"
 Inst14Quest1_Level = "60"
-Inst14Quest1_Attain = "58"
-Inst14Quest1_Aim = "Tötet 1 Feuerlord, 1 geschmolzenen Riesen, 1 uralten Kernhund sowie 1 Lavawoger und kehrt dann zu Fürst Hydraxis in Azshara zurück."
-Inst14Quest1_Location = "Fürst Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
-Inst14Quest1_Note = "Es handelt sich um Nicht-Boss Gegner."
-Inst14Quest1_Prequest = "Ja, Auge des Glutsehers ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
-Inst14Quest1_Folgequest = "Ja, Agent von Hydraxis"
+Inst14Quest1_Attain = "60"
+Inst14Quest1_Aim = "Um Donneraan den Windsucher aus seiner Gefangenschaft zu befreien, müsst Ihr Hochlord Demitrian die rechten und linken Hälften der Fesseln des Windsuchers, 10 Elementiumbarren und die Essenz des Feuerfürsten bringen."
+Inst14Quest1_Location = "Hochlord Demitrian (Silithus; "..YELLOW.."29.6, 10.6"..WHITE..")"
+Inst14Quest1_Note = "Teil der Donnerzorn, Gesegnete Klinge des Windsuchers Questreihe. Diese startet nachdem Du die linke oder rechte Hälfte der Fesseln des Windsuchers von Garr bei "..YELLOW.."[4]"..WHITE.." oder Baron Geddon bei "..YELLOW.."[6]"..WHITE.." erhälst. Dann spreche mit dem Hochlord Demitrian um diese Questreihe zu starten. Essenz des Feuerfürsten droppt von Ragnaros bei "..YELLOW.."[10]"..WHITE..". Nach dem Einreichen dieses Teils, wird Prinz Donneraan erscheinen und Du mußt ihn töten. Dieser ist ein 40'er Schlachtzugsboss."
+Inst14Quest1_Prequest = "Ja, Untersuchung des Gefäßes ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
+Inst14Quest1_Folgequest = "Ja, Donnerzorn erwache!"
 Inst14Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst14Quest2 = "2. Hände des Feindes"
+Inst14Quest2 = "2. Ein verbindlicher Vertrag"
 Inst14Quest2_Level = "60"
-Inst14Quest2_Attain = "55"
-Inst14Quest2_Aim = "Bringt die Hände von Lucifron, Sulfuron, Gehennas und Shazzrah zu Fürst Hydraxis in Azshara."
-Inst14Quest2_Location = "Fürst Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
-Inst14Quest2_Note = "Lucifron befindet sich bei "..YELLOW.."[1]"..WHITE..", Sulfuron bei "..YELLOW.."[8]"..WHITE..", Gehennas bei "..YELLOW.."[3]"..WHITE.." und Shazzrah bei "..YELLOW.."[5]"..WHITE.."."
-Inst14Quest2_Prequest = "Ja, Agent von Hydraxis"
-Inst14Quest2_Folgequest = "Ja, Die Belohnung eines Helden"
+Inst14Quest2_Attain = "60"
+Inst14Quest2_Aim = "Bringt den Vertrag der Thoriumbruderschaft zu Lokhtos Düsterfeilsch, wenn Ihr die Pläne für das Sulfuron erhalten möchtet."
+Inst14Quest2_Location = "Lokhtos Düsterfeilsch (Schwarzfelstiefen; "..GREEN.."[8']"..WHITE..")"
+Inst14Quest2_Note = "Du benötigst einen Sulfuronblock um den Vertrag von Lokhtos zu erhalten. Dieser droppt von Golemagg der Verbrenner im Geschmolzener Kern bei "..YELLOW.."[7]"..WHITE.."."
+Inst14Quest2_Prequest = "Nein"
+Inst14Quest2_Folgequest = "Nein"
 Inst14Quest2FQuest = "true"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst14Quest3 = "3. Donneraan der Windsucher"
-Inst14Quest3_Level = "60"
-Inst14Quest3_Attain = "60"
-Inst14Quest3_Aim = "Um Donneraan den Windsucher aus seiner Gefangenschaft zu befreien, müsst Ihr Hochlord Demitrian die rechten und linken Hälften der Fesseln des Windsuchers, 10 Elementiumbarren und die Essenz des Feuerfürsten bringen."
-Inst14Quest3_Location = "Hochlord Demitrian (Silithus; "..YELLOW.."22,9"..WHITE..")"
-Inst14Quest3_Note = "Teil der Donnerzorn, Gesegnete Klinge des Windsuchers Questreihe. Sie beginnt nachdem man entweder die linken oder die rechten Fesseln des Windsuchers von Garr bei "..YELLOW.."[4]"..WHITE.." oder von Baron Geddon bei "..YELLOW.."[6]"..WHITE.." erbeutet. Danach spricht man mit Hochlord Demitrian um die Questreihe zu starten. Essenz des Feuerfürsten droppt von Ragnaros bei "..YELLOW.."[10]"..WHITE..". Nachdem dieser Teil abgeschlossen wurde, muss man Prinz Donneraan beschwören und ihn töten. Es handelt sich um einen 40-Mann Schlachtzug Boss."
-Inst14Quest3_Prequest = "Ja, Untersuchung des Gefäßes"
-Inst14Quest3_Folgequest = "Ja, Donnerzorn erwache!"
-Inst14Quest3PreQuest = "true"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst14Quest4 = "4. Ein verbindlicher Vertrag"
-Inst14Quest4_Level = "60"
-Inst14Quest4_Attain = "60"
-Inst14Quest4_Aim = "Bringt den Vertrag der Thoriumbruderschaft zu Lokhtos Düsterfeilsch, wenn Ihr die Pläne für das Sulfuron erhalten möchtet."
-Inst14Quest4_Location = "Lokhtos Düsterfeilsch (Schwarzfelstiefen; "..YELLOW.."[15]"..WHITE..")"
-Inst14Quest4_Note = "Man benötigt einen Sulfuronblock, um den Vertrag von Lokhtos zu bekommen. Diese droppen von Golemagg dem Verbrenner im Geschmolzenen Kern bei "..YELLOW.."[7]"..WHITE.."."
-Inst14Quest4_Prequest = "Nein"
-Inst14Quest4_Folgequest = "Nein"
 --
-Inst14Quest4name1 = "Pläne: Sulfuronhammer"
-
---Quest 5 Alliance
-Inst14Quest5 = "5. Das uralte Blatt"
-Inst14Quest5_Level = "60"
-Inst14Quest5_Attain = "60"
-Inst14Quest5_Aim = "Findet den Besitzer des uralten, versteinerten Blatts."
-Inst14Quest5_Location = "Uraltes versteinertes Blatt (droppt vom Behälter des Feuerfürsten; "..YELLOW.."[9]"..WHITE..")"
-Inst14Quest5_Note = "Abzugeben bei Vartrus dem Uralten in (Teufelswald - Der Eisenwald; "..YELLOW.."49,24"..WHITE..")."
-Inst14Quest5_Prequest = "Nein"
-Inst14Quest5_Folgequest = "Ja, Uraltes in Sehnen eingewickeltes Laminablatt ("..YELLOW.."Azuregos"..WHITE..")"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst14Quest6 = "6. Wahrsagerbrille? Kein Problem!"
-Inst14Quest6_Level = "60"
-Inst14Quest6_Attain = "60"
-Inst14Quest6_Aim = "Findet Narains Wahrsagerbrille und bringt sie Narain Pfauentraum in Tanaris."
-Inst14Quest6_Location = "Unscheinbare Kiste (Silberwald - Der Graumähnenwall; "..YELLOW.."46.2, 86.6"..WHITE..")"
-Inst14Quest6_Note = "Seid Patch 3.0.2 die Wahrsagerbrille droppt bei irgend einem Mob im Geschmolzenen Kern. Die Quest bringt dich zu Narain Pfauentraum (Tanaris; "..YELLOW.."65.3, 18.6"..WHITE.."), wo du auch die Vorquest erhälst."
-Inst14Quest6_Prequest = "Stewvul, Ex-B.F.F.I."
-Inst14Quest6_Folgequest = "Nein"
-Inst14Quest6PreQuest = "true"
---
-Inst14Quest6name1 = "Major Rejuvenation Potion"
+Inst14Quest2name1 = "Pläne: Sulfuronhammer"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2432,55 +2385,8 @@ Inst14Quest2_HORDE_Note = Inst14Quest2_Note
 Inst14Quest2_HORDE_Prequest = Inst14Quest2_Prequest
 Inst14Quest2_HORDE_Folgequest = Inst14Quest2_Folgequest
 Inst14Quest2FQuest_HORDE = Inst14Quest2FQuest
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst14Quest3_HORDE = Inst14Quest3
-Inst14Quest3_HORDE_Level = Inst14Quest3_Level
-Inst14Quest3_HORDE_Attain = Inst14Quest3_Attain
-Inst14Quest3_HORDE_Aim = Inst14Quest3_Aim
-Inst14Quest3_HORDE_Location = Inst14Quest3_Location
-Inst14Quest3_HORDE_Note = Inst14Quest3_Note
-Inst14Quest3_HORDE_Prequest = Inst14Quest3_Prequest
-Inst14Quest3_HORDE_Folgequest = Inst14Quest3_Folgequest
-Inst14Quest3PreQuest_HORDE = Inst14Quest3PreQuest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst14Quest4_HORDE = Inst14Quest4
-Inst14Quest4_HORDE_Level = Inst14Quest4_Level
-Inst14Quest4_HORDE_Attain = Inst14Quest4_Attain
-Inst14Quest4_HORDE_Aim = Inst14Quest4_Aim
-Inst14Quest4_HORDE_Location = Inst14Quest4_Location
-Inst14Quest4_HORDE_Note = Inst14Quest4_Note
-Inst14Quest4_HORDE_Prequest = Inst14Quest4_Prequest
-Inst14Quest4_HORDE_Folgequest = Inst14Quest4_Folgequest
 --
-Inst14Quest4name1_HORDE = Inst14Quest4name1
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst14Quest5_HORDE = Inst14Quest5
-Inst14Quest5_HORDE_Level = Inst14Quest5_Level
-Inst14Quest5_HORDE_Attain = Inst14Quest5_Attain
-Inst14Quest5_HORDE_Aim = Inst14Quest5_Aim
-Inst14Quest5_HORDE_Location = Inst14Quest5_Location
-Inst14Quest5_HORDE_Note = Inst14Quest5_Note
-Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
-Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst14Quest6_HORDE = Inst14Quest6
-Inst14Quest6_HORDE_Level = Inst14Quest6_Level
-Inst14Quest6_HORDE_Attain = Inst14Quest6_Attain
-Inst14Quest6_HORDE_Aim = Inst14Quest6_Aim
-Inst14Quest6_HORDE_Location = Inst14Quest6_Location
-Inst14Quest6_HORDE_Note = Inst14Quest6_Note
-Inst14Quest6_HORDE_Prequest = Inst14Quest6_Prequest
-Inst14Quest6_HORDE_Folgequest = Inst14Quest6_Folgequest
-Inst14Quest6PreQuest_HORDE = Inst14Quest6PreQuest
---
-Inst14Quest6name1_HORDE = Inst14Quest6name1
+Inst14Quest2name1_HORDE = Inst14Quest2name1
 
 
 
@@ -2488,90 +2394,37 @@ Inst14Quest6name1_HORDE = Inst14Quest6name1
 
 Inst16Story = "Onyxia ist die Tochter des mächtigen Drachen Todesschwinge und die Schwester des gerissenen Nefarian, dem Fürsten des Schwarzfels. Selbst für einen Drachen ist Onyxia äußerst intelligent, und sie nimmt gerne die Form einer Sterblichen an, um sich heimlich in die politischen Angelegenheiten der sterblichen Völker einzumischen. Obwohl sie für einen schwarzen Drachen ihres Alters recht klein ist, verfügt sie dennoch über die gleichen Kräfte und Fähigkeiten wie der Rest ihres fürchterlichen Schwarms. Manche sagen, Onyxia habe sogar eine Tarnidentität ihres Vaters übernommen - den Titel des königlichen Hauses Prestor. Wenn sie sich nicht in den Angelegenheiten der Sterblichen einmischt, ruht Onyxia in einer feurigen Höhle unterhalb des Drachensumpfes, einer unwirtlichen Gegend der Düstermarschen. Dort wird sie von ihren Gefolgsleuten bewacht, den verbleibenden Mitgliedern des grausamen schwarzen Drachenschwarms"
 Inst16Caption = "Onyxias Hort"
-Inst16QAA = "3 Quests"
-Inst16QAH = "3 Quests"
+Inst16QAA = "1 Quests"
+Inst16QAH = "1 Quests"
 
 --Quest 1 Alliance
-Inst16Quest1 = "1. Das Schmieden von Quel'Serrar"
-Inst16Quest1_Level = "60"
-Inst16Quest1_Attain = "60"
-Inst16Quest1_Aim = "Bringt Onyxia dazu, ihren Feueratem auf die noch unerhitzte Klinge zu benutzen. Sobald dies geschehen ist, hebt die erhitzte Klinge wieder auf. Doch seid gewarnt, die erhitzte Klinge wird nicht auf ewig erhitzt bleiben - behaltet also die Zeit im Auge."
-Inst16Quest1_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bücherrei"..WHITE..")"
-Inst16Quest1_Note = "Lasst das Schwert vor Onyxia fallen, wenn sie bei 10% bis 15% ihrer Lebenspunkte ist. Sie wird Feuer darauf spucken und es damit erhitzen. Wenn Onyxia stirbt, nimmt man das Schwert wieder auf und benutzt es mit ihrem toten Körper. Danach kann man das Quest abgeben."
-Inst16Quest1_Prequest = "Ja, Forors Kompendium ("..YELLOW.."Düsterbruch West"..WHITE..") -> Das Schmieden von Quel'Serrar"
+Inst16Quest1 = "1. Ein höchst merkwürdiger Umstand"
+Inst16Quest1_Level = "80"
+Inst16Quest1_Attain = "80"
+Inst16Quest1_Aim = "Bringt den Kopf von Onyxia zu Zardeth der schwarzen Klaue im Keller Zum geschlachteten Lamm."
+Inst16Quest1_Location = "Kopf von Onyxia (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest1_Note = "Zardeth der schwarzen Klaue ist bei (Sturmwind - Zum geschlachteten Lamm; "..YELLOW.."40.2, 84.4"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden."
+Inst16Quest1_Prequest = "Nein"
 Inst16Quest1_Folgequest = "Nein"
-Inst16Quest1PreQuest = "true"
 --
-Inst16Quest1name1 = "Quel'Serrar"
+Inst16Quest1name1 = "Poliertes Drachentötersignet"
+Inst16Quest1name2 = "Funkelnder Zahn Onyxias"
+Inst16Quest1name3 = "Geläuterter Talisman mit Onyxiablut"
 
---Quest 2 Alliance
-Inst16Quest2 = "2. Sieg für die Allianz"
-Inst16Quest2_Level = "60"
-Inst16Quest2_Attain = "60"
-Inst16Quest2_Aim = "Bringt Onyxias Kopf zu König Varian Wrynn in Sturmwind."
-Inst16Quest2_Location = "Onyxias Kopf (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest2_Note = "König Varian Wrynn befindet sich in (Sturmwind - Burg Sturmwind; "..YELLOW.."80.0, 38.5"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden.\n\nDie Belohnungen sind für die Folgequest.Seid Patch 3.2.2, Onyxias ist ausgelgt für Level 80 Raids und der Kopf droppt nicht mehr"
-Inst16Quest2_Prequest = "Nein"
-Inst16Quest2_Folgequest = "Ja, Gute Zeiten feiern"
---
-Inst16Quest2name1 = "Talisman mit Onyxiablut"
-Inst16Quest2name2 = "Drachentötersignet"
-Inst16Quest2name3 = "Zahn Onyxias"
 
---Quest 3 Alliance
-Inst16Quest3 = "3. Ein höchst merkwürdiger Umstand"
-Inst16Quest3_Level = "80"
-Inst16Quest3_Attain = "80"
-Inst16Quest3_Aim = "Bringt den Kopf von Onyxia zu Zardeth der schwarzen Klaue im Keller Zum geschlachteten Lamm."
-Inst16Quest3_Location = "Kopf von Onyxia (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest3_Note = "Zardeth der schwarzen Klaue ist bei (Sturmwind - Zum geschlachteten Lamm; "..YELLOW.."40.1, 85.1"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden."
-Inst16Quest3_Prequest = "Nein"
-Inst16Quest3_Folgequest = "Nein"
+--Quest 1 Horde
+Inst16Quest1_HORDE = "1. Ein höchst merkwürdiger Umstand"
+Inst16Quest1_HORDE_Level = "80"
+Inst16Quest1_HORDE_Attain = "80"
+Inst16Quest1_HORDE_Aim = "Bringt den Kopf von Onyxia zu Neeru Feuerklinge in die Kluft des Schattens."
+Inst16Quest1_HORDE_Location = "Kopf von Onyxia (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest1_HORDE_Note = "Neeru Feuerklinge ist bei (Orgrimmar - Die Kluft des Schattens; "..YELLOW.."50.0, 60.0"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden."
+Inst16Quest1_HORDE_Prequest = "Nein"
+Inst16Quest1_HORDE_Folgequest = "Nein"
 --
-Inst16Quest3name1 = "Polished Dragonslayer's Signet"
-Inst16Quest3name2 = "Sparkling Onyxia Tooth Pendant"
-Inst16Quest3name3 = "Purified Onyxia Blood Talisman" 
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst16Quest1_HORDE = Inst16Quest1
-Inst16Quest1_HORDE_Attain = Inst16Quest1_Attain
-Inst16Quest1_HORDE_Level = Inst16Quest1_Level
-Inst16Quest1_HORDE_Aim = Inst16Quest1_Aim
-Inst16Quest1_HORDE_Location = Inst16Quest1_Location
-Inst16Quest1_HORDE_Note = Inst16Quest1_Note
-Inst16Quest1_HORDE_Prequest = Inst16Quest1_Prequest
-Inst16Quest1_HORDE_Folgequest = Inst16Quest1_Folgequest
-Inst16Quest1PreQuest_HORDE = Inst16Quest1PreQuest
---
-Inst16Quest1name1_HORDE = Inst16Quest1name1
-
---Quest 2 Horde
-Inst16Quest2_HORDE = "2. Sieg für die Horde"
-Inst16Quest2_HORDE_Level = "60"
-Inst16Quest2_HORDE_Attain = "60"
-Inst16Quest2_HORDE_Aim = "Bringt Onyxias Kopf zu Thrall in Orgrimmar."
-Inst16Quest2_HORDE_Location = "Onyxias Kopf (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest2_HORDE_Note = "Thrall befindet sich in (Orgrimmar - Das Tal der Weisheit; "..YELLOW.."31,37"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden.\n\nDie Belohnungen sind für die Folgequest.Seid Patch 3.2.2, Onyxias ist ausgelgt für Level 80´er Raids und der Kopf droppt nicht mehr"
-Inst16Quest2_HORDE_Prequest = "Nein"
-Inst16Quest2_HORDE_Folgequest = "Ja, Für alle sichtbar"
---
-Inst16Quest2name1_HORDE = "Talisman mit Onyxiablut"
-Inst16Quest2name2_HORDE = "Drachentötersignet"
-Inst16Quest2name3_HORDE = "Zahn Onyxias"
-
---Quest 3 Horde
-Inst16Quest3_HORDE = "3. Ein höchst merkwürdiger Umstand"
-Inst16Quest3_HORDE_Level = "80"
-Inst16Quest3_HORDE_Attain = "80"
-Inst16Quest3_HORDE_Aim = "Bringt den Kopf von Onyxia zu Neeru Feuerklinge in die Kluft des Schattens."
-Inst16Quest3_HORDE_Location = "Kopf von Onyxia (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
-Inst16Quest3_HORDE_Note = "Neeru Feuerklinge ist bei (Orgrimmar - Die Kluft des Schattens; "..YELLOW.."49.7, 50.5"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden."
-Inst16Quest3_HORDE_Prequest = "Nein"
-Inst16Quest3_HORDE_Folgequest = "Nein"
---
-Inst16Quest3name1_HORDE = "Polished Dragonslayer's Signet"
-Inst16Quest3name2_HORDE = "Sparkling Onyxia Tooth Pendant"
-Inst16Quest3name3_HORDE = "Purified Onyxia Blood Talisman"
+Inst16Quest1name1_HORDE = "Poliertes Drachentötersignet"
+Inst16Quest1name2_HORDE = "Funkelnder Zahn Onyxias"
+Inst16Quest1name3_HORDE = "Geläuterter Talisman mit Onyxiablut"
 
 
 
@@ -2638,7 +2491,7 @@ Inst17Quest5_Level = "44"
 Inst17Quest5_Attain = "40"
 Inst17Quest5_Aim = "Wenn Ihr Belnistrasz helfen wollt, sprecht noch einmal mit ihm und übergebt ihm den Schwurstein, den er Euch gab."
 Inst17Quest5_Location = "Belnistrasz (Hügel der Klingenhauer; "..GREEN.."[1']"..WHITE..")"
-Inst17Quest5_Note = ""
+Inst17Quest5_Note = "Sei Dir sicher, dass alle Gruppenmitglieder diese Quest beendet haben bevor Du die Folgequest annimmst, sonst sind die anderen nicht in der Lage die Folgequest anzunehmen."
 Inst17Quest5_Prequest = "Nein"
 Inst17Quest5_Folgequest = "Ja, Ausschalten des Götzen"
 -- No Rewards for this quest
@@ -2649,7 +2502,7 @@ Inst17Quest6_Level = "45"
 Inst17Quest6_Attain = "40"
 Inst17Quest6_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln der Klingenhauer. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
 Inst17Quest6_Location = "Belnistrasz (Hügel der Klingenhauer; "..GREEN.."[1']"..WHITE..")"
-Inst17Quest6_Note = ""
+Inst17Quest6_Note = "Belnistrasz bewegt sich sehr schnell. Sei daher immer dicht bei ihm sonst kann die Quest abgebrochen werden."
 Inst17Quest6_Prequest = "Ja, Geißel der Hügel"
 Inst17Quest6_Folgequest = "Nein"
 Inst17Quest6PreQuest = "true"
@@ -2746,7 +2599,7 @@ Inst18Quest1 = "1. Dorn im Auge"
 Inst18Quest1_Level = "33"
 Inst18Quest1_Attain = "30"
 Inst18Quest1_Aim = "Sprecht mit Auld Steinkeil."
-Inst18Quest1_Location = "Mahka (Südliches Brachland - ; "..YELLOW.."45.0,85.4"..WHITE..")"
+Inst18Quest1_Location = "Mahka (Südliches Brachland; "..YELLOW.."45.0,85.4"..WHITE..")"
 Inst18Quest1_Note = "Auld Steinkeil befindet sich innerhalb der Instanz (Kral der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
 Inst18Quest1_Prequest = "Nein"
 Inst18Quest1_Folgequest = "Nein"
@@ -2758,7 +2611,7 @@ Inst18Quest2_Level = "35"
 Inst18Quest2_Attain = "30"
 Inst18Quest2_Aim = "Sprecht mit dem Geist von Agamaggan."
 Inst18Quest2_Location = "Auld Steinkeil (Kral der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
-Inst18Quest2_Note = "Geist von Agamaggan befindet sich bei (Kral der Klingenhauer; "..GREEN.."[1']"..WHITE.."."
+Inst18Quest2_Note = "Geist von Agamaggan befindet sich bei "..GREEN.."[1']"..WHITE.."."
 Inst18Quest2_Prequest = "Nein"
 Inst18Quest2_Folgequest = "Ja, Agamaggans Auftrag"
 -- No Rewards for this quest
@@ -2769,7 +2622,7 @@ Inst18Quest3_Level = "35"
 Inst18Quest3_Attain = "30"
 Inst18Quest3_Aim = "Nehmt Charlga Klingenflanke das Herz."
 Inst18Quest3_Location = "Geist von Agamaggan (Kral der Klingenhauer; "..GREEN.."[1']"..WHITE.."."
-Inst18Quest3_Note = "Charlga Klingenflanke befindet sich bei (Kral der Klingenhauer; "..YELLOW.."[5]"..WHITE..")"
+Inst18Quest3_Note = "Charlga Klingenflanke befindet sich bei "..YELLOW.."[5]"..WHITE..")"
 Inst18Quest3_Prequest = "Ja, Agamaggan"
 Inst18Quest3_Folgequest = "Nein"
 Inst17Quest3PreQuest = "true"
@@ -2786,7 +2639,7 @@ Inst18Quest4_Level = "35"
 Inst18Quest4_Attain = "30"
 Inst18Quest4_Aim = "Sammelt 1 Häufchen Kralguano."
 Inst18Quest4_Location = "Auld Steinkeil (Kral der Klingenhauer; "..GREEN.."Eingang"..WHITE..")"
-Inst18Quest4_Note = "Das Häufchen Kralguano kann von jedem Kralguano und Große Kralguano droppen."
+Inst18Quest4_Note = "Die Kralguano befinden sich in der Fledermaushöhle im westlichen Teil der Kral der Klingenhauer."
 Inst18Quest4_Prequest = "Nein"
 Inst18Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3149,134 +3002,101 @@ Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
 
 Inst20Story = "Scholomance ist ein weitläufiges Netzwerk unterirdischer Krypten, das sich unter der verfallenen Burg Darrowehr erstreckt. Darrowehr war früher im Besitz der Barovs, einer alten Adelsfamilie, doch während des Zweiten Krieges verfiel die Burg und wurde zu einer Ruine. Eine gängige Methode, mit der Kel'thuzad neue Anhänger für seinen Kult der Verdammten warb, war es, potentiellen Neuzugängen im Austausch gegen ihre Dienste für den Lichkönig die Unsterblichkeit zu versprechen. Die Barovs fielen auf Kel'thuzads charismatischen Schwindel herein und überließen die Burg und die dazugehörigen Krypten der Geißel. Im Gegenzug töteten die Kultisten die Barovs und machten aus den uralten Gewölben eine Schule der Nekromantie, die sie Scholomance tauften. Auch wenn Kel'thuzad schon lange nicht mehr in den Krypten weilt, verbleiben dennoch viele Kultisten und Lehrmeister in Scholomance. Der mächtige Lich Ras Frostraunen verteidigt Scholomance im Namen der Geißel gegen alle, die unbefugterweise einen Fuß über ihre Schwelle setzen, während Dunkelmeister Gandling als der hinterhältige Direktor der Schule für Ordnung unter den Lernenden sorgt."
 Inst20Caption = "Scholomance"
-Inst20QAA = "10 Quests"
-Inst20QAH = "11 Quests"
+Inst20QAA = "8 Quests"
+Inst20QAH = "8 Quests"
 
 --Quest 1 Alliance
-Inst20Quest1 = "1. Verseuchte Jungtiere"
-Inst20Quest1_Level = "58"
-Inst20Quest1_Attain = "55"
-Inst20Quest1_Aim = "Tötet 20 verseuchte Jungtiere und kehrt dann zu Betina Moppelzink bei der Kapelle des hoffnungsvollen Lichts zurück."
-Inst20Quest1_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst20Quest1_Note = "Die verseuchten Jungtiere befinden sich auf dem Weg zu Blutrippe in einem großen Raum."
+Inst20Quest1 = "1. Alexis Gambit"
+Inst20Quest1_Level = "43"
+Inst20Quest1_Attain = "38"
+Inst20Quest1_Aim = "Platziert das Gambit im Vorführraum und tötet Vectus und Marduk."
+Inst20Quest1_Location = "Alexi Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest1_Note = "Marduk Schwarzborn und Vectus befinden sich bei "..DARKYELLOW.."[1]"..WHITE.."."
 Inst20Quest1_Prequest = "Nein"
-Inst20Quest1_Folgequest = "Ja, Gesunde Großdrachenschuppe"
+Inst20Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst20Quest2 = "2. Gesunde Großdrachenschuppe"
-Inst20Quest2_Level = "58"
-Inst20Quest2_Attain = "55"
-Inst20Quest2_Aim = "Bringt die gesunde Großdrachenschuppe zu Betina Moppelzink bei der Kapelle des hoffnungsvollen Lichts in den östlichen Pestländern."
-Inst20Quest2_Location = "Gesunde Großdrachenschuppe (Zufälliger Dropp in Scholomance)"
-Inst20Quest2_Note = "Die Gesunde Großdrachenschuppe droppt von den Verseuchten Jungtiere (8% Droppchance). Betina Moppelzink befindet sich in den Östlichen Pestländer - Kapelle des hoffnungsvollen Lichts ("..YELLOW.."81,59"..WHITE..")."
-Inst20Quest2_Prequest = "Ja, Verseuchte Jungtiere"
+Inst20Quest2 = "2. Das Familienvermögen der Barovs"
+Inst20Quest2_Level = "43"
+Inst20Quest2_Attain = "38"
+Inst20Quest2_Aim = "Findet die Besitzurkunde für Darrowehr, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Süderstade."
+Inst20Quest2_Location = "Weldon Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest2_Note = "Besitzurkunde für Darrowehr befindet sich bei "..YELLOW.."[9]"..WHITE..", Besitzurkunde für Brill befindet sich bei "..GREEN.."[5']"..WHITE..", Besitzurkunde für Tarrensmühle befindet sich bei "..GREEN.."[4']"..WHITE.."und die Besitzurkunde für Süderstade befindet sich bei "..GREEN.."[2']"..WHITE.."."
+Inst20Quest2_Prequest = "Nein"
 Inst20Quest2_Folgequest = "Nein"
-Inst20Quest2FQuest = "true"
--- No Rewards for this quest
+--
+Inst20Quest5name1 = "Bedienstetenglöckchen der Barovs"
 
 --Quest 3 Alliance
-Inst20Quest3 = "3. Doktor Theolen Krastinov, der Schlächter"
-Inst20Quest3_Level = "60"
-Inst20Quest3_Attain = "55"
-Inst20Quest3_Aim = "Sucht Doktor Theolen Krastinov in der Scholomance. Vernichtet ihn, verbrennt dann die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff. Kehrt zu Eva Sarkhoff zurück, sobald Ihr die Aufgabe erfüllt habt."
-Inst20Quest3_Location = "Eva Sarkhoff (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest3_Note = "Doktor Theolen Krastinov, die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff befinden sich bei "..YELLOW.."[9]"..WHITE.."."
+Inst20Quest3 = "3. Der Lich Ras Frostraunen"
+Inst20Quest3_Level = "43"
+Inst20Quest3_Attain = "38"
+Inst20Quest3_Aim = "Vernichtet Ras Frostraunen."
+Inst20Quest3_Location = "Alexi Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest3_Note = "Ras Frostraunen befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst20Quest3_Prequest = "Nein"
-Inst20Quest3_Folgequest = "Ja, Krastinovs Tasche der Schrecken"
+Inst20Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst20Quest4 = "4. Krastinovs Tasche der Schrecken"
-Inst20Quest4_Level = "60"
-Inst20Quest4_Attain = "55"
-Inst20Quest4_Aim = "Sucht nach Jandice Barov in der Scholomance und vernichtet sie. Entnehmt ihrer Leiche Krastinovs Tasche der Schrecken. Bringt die Tasche zu Eva Sarkhoff."
-Inst20Quest4_Location = "Eva Sarkhoff (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest4_Note = "Man findet Jandice Barov bei "..YELLOW.."[3]"..WHITE.."."
-Inst20Quest4_Prequest = "Ja, Doktor Theolen Krastinov, der Schlächter"
-Inst20Quest4_Folgequest = "Ja, Kirtonos der Herold"
-Inst20Quest4FQuest = "true"
+Inst20Quest4 = "4. Doktor Theolen Krastinov, der Schlächter"
+Inst20Quest4_Level = "43"
+Inst20Quest4_Attain = "38"
+Inst20Quest4_Aim = "Vernichtet Doktor Theolen Krastinov, und verbrennt die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff."
+Inst20Quest4_Location = "Eva Sarkhoff (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest4_Note = "Doktor Theolen Krastinov befindet sich bei "..YELLOW.."[6]"..WHITE..", die Überreste von Eva Sarkhoff verbrennst Du bei und die Überreste von Lucien Sarkhoff verbrennst Du bei."
+Inst20Quest4_Prequest = "Nein"
+Inst20Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst20Quest5 = "5. Kirtonos der Herold"
-Inst20Quest5_Level = "60"
-Inst20Quest5_Attain = "55"
-Inst20Quest5_Aim = "Kehrt mit dem Blut Unschuldiger zur Scholomance zurück. Sucht die Veranda und legt das Blut der Unschuldigen in die Kohlenpfanne. Kirtonos wird kommen, um sich von Eurer Seele zu nähren. Kämpft tapfer, gebt keinen Fußbreit nach! Vernichtet Kirtonos und kehrt zu Eva Sarkhoff zurück."
-Inst20Quest5_Location = "Eva Sarkhoff (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest5_Note = "Die Veranda findet man bei "..YELLOW.."[2]"..WHITE.."."
-Inst20Quest5_Prequest = "Ja, Krastinovs Tasche der Schrecken"
-Inst20Quest5_Folgequest = "Ja, Der Mensch Ras Frostraunen"
-Inst20Quest5FQuest = "true"
---
-Inst20Quest5name1 = "Spektrale Essenz"
-Inst20Quest5name2 = "Penelopes Rose"
-Inst20Quest5name3 = "Mirahs Lied"
+Inst20Quest5 = "5. Entartung des Knochens"
+Inst20Quest5_Level = "42"
+Inst20Quest5_Attain = "40"
+Inst20Quest5_Aim = "Tötet Blutrippe im Ossuarium von Scholomance."
+Inst20Quest5_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76,51"..WHITE..")"
+Inst20Quest5_Note = "Blutrippe befindet sich bei"..YELLOW.."[3]"..WHITE.."."
+Inst20Quest5_Prequest = "Nein"
+Inst20Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst20Quest6 = "6. Der Lich Ras Frostraunen"
-Inst20Quest6_Level = "60"
-Inst20Quest6_Attain = "57"
-Inst20Quest6_Aim = "Sucht Ras Frostraunen in der Scholomance. Wenn Ihr ihn gefunden habt, wendet das seelengebundene Andenken auf sein untotes Antlitz an. Solltet Ihr ihn erfolgreich in einen Sterblichen zurückverwandeln können, dann schlagt ihn nieder und nehmt den menschlichen Kopf von Ras Frostraunen an Euch. Bringt den Kopf zu Magistrat Marduk."
-Inst20Quest6_Location = "Magistrat Marduk (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE..")"
-Inst20Quest6_Note = "Ras Frostraunen findet man bei "..YELLOW.."[7]"..WHITE.."."
-Inst20Quest6_Prequest = "Ja, Der Mensch Ras Frostraunen -> Seelengebundenes Andenken"
+Inst20Quest6 = "6. Kirtonos der Herold"
+Inst20Quest6_Level = "43"
+Inst20Quest6_Attain = "38"
+Inst20Quest6_Aim = "Zerstört Kirtonos."
+Inst20Quest6_Location = "Eva Sarkhoff (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest6_Note = "Kirtonos befindet sich bei"..YELLOW.."[1]"..WHITE.."."
+Inst20Quest6_Prequest = "Nein"
 Inst20Quest6_Folgequest = "Nein"
-Inst20Quest6PreQuest = "true"
---
-Inst20Quest6name1 = "Starkwache von Darroheim"
-Inst20Quest6name2 = "Kriegsklinge von Darrowehr"
-Inst20Quest6name3 = "Krone von Darrowehr"
-Inst20Quest6name4 = "Froststachel"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst20Quest7 = "7. Das Familienvermögen der Barovs"
-Inst20Quest7_Level = "60"
-Inst20Quest7_Attain = "52"
-Inst20Quest7_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Darrowehr, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Süderstade. Kehrt zu Weldon Barov zurück, sobald die Aufgabe erledigt ist."
-Inst20Quest7_Location = "Weldon Barov (Westliche Pestländer - Zugwindlager; "..YELLOW.."43,83"..WHITE..")"
-Inst20Quest7_Note = "Die Besitzurkunde für Darrowehr findet man bei "..YELLOW.."[12]"..WHITE..", die Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", die Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und die Besitzurkunde für Süderstade bei "..YELLOW.."[1]"..WHITE.."."
+Inst20Quest7 = "7. Verseuchte Jungtiere ... im Moment"
+Inst20Quest7_Level = "42"
+Inst20Quest7_Attain = "38"
+Inst20Quest7_Aim = "Tötet 10 verseuchte Jungtiere und Blutrippe."
+Inst20Quest7_Location = "Weldon Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest7_Note = "Die Jungtiere befinden sich in der Nähe von Blutrippe und dieser befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst20Quest7_Prequest = "Nein"
-Inst20Quest7_Folgequest = "Ja, Der letzte Barov"
+Inst20Quest7_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst20Quest8 = "8. Dämmerungstrickfalle"
-Inst20Quest8_Level = "60"
-Inst20Quest8_Attain = "57"
-Inst20Quest8_Aim = "Legt die Dämmerungstrickfalle in den Vorführraum von Scholomance. Besiegt Vectus und kehrt dann zu Betina Moppelzink zurück."
-Inst20Quest8_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst20Quest8_Note = "Die Questreihe beginnt mit Brutlingessenz bei Tinkee Kesseldampf (Brennende Steppe - Flammenkamm; "..YELLOW.."65,23"..WHITE.."). Der Vorführraum ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst20Quest8_Prequest = "Ja, Brutlingessenz -> Betina Moppelzink"
+Inst20Quest8 = "8. Ewige Sommerferien"
+Inst20Quest8_Level = "44"
+Inst20Quest8_Attain = "38"
+Inst20Quest8_Aim = "Tötet Dunkelmeister Gandling."
+Inst20Quest8_Location = "Weldon Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest8_Note = "Dunkelmeister Gandling befindet sich bei "..YELLOW.."[11]"..WHITE.."."
+Inst20Quest8_Prequest = "Nein"
 Inst20Quest8_Folgequest = "Nein"
-Inst20Quest8PreQuest = "true"
 --
-Inst20Quest8name1 = "Windschnitter"
-Inst20Quest8name2 = "Tanzender Span"
-
---Quest 9 Alliance
-Inst20Quest9 = "9. Das linke Stück von Lord Valthalaks Amulett"
-Inst20Quest9_Level = "60"
-Inst20Quest9_Attain = "58"
-Inst20Quest9_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Kormok zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
-Inst20Quest9_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst20Quest9_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nKormok wird bei "..YELLOW.."[7]"..WHITE.." beschworen."
-Inst20Quest9_Prequest = "Ja, Komponenten von großer Wichtigkeit"
-Inst20Quest9_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
-Inst20Quest9PreQuest = "true"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst20Quest10 = "10. Das rechte Stück von Lord Valthalaks Amulett"
-Inst20Quest10_Level = "60"
-Inst20Quest10_Attain = "58"
-Inst20Quest10_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Mor Grauhuf zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
-Inst20Quest10_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst20Quest10_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion.\n\nKormok wird bei "..YELLOW.."[7]"..WHITE..".beschworen"
-Inst20Quest10_Prequest = "Mehr Komponenten von großer Wichtigkeit"
-Inst20Quest10_Folgequest = "Letzte Vorbereitungen ("..YELLOW.."Untere Schwarzfelsspitze"..WHITE..")"
-Inst20Quest10PreQuest = "true"
--- No Rewards for this quest
+Inst20Quest8name1 = "Disziplinarrute"
+Inst20Quest8name2 = "Fesseln der Strafe"
+Inst20Quest8name3 = "Luciens Stiefel"
+Inst20Quest8name4 = "Signet des Dunkelmeisters"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3299,8 +3119,8 @@ Inst20Quest2_HORDE_Location = Inst20Quest2_Location
 Inst20Quest2_HORDE_Note = Inst20Quest2_Note
 Inst20Quest2_HORDE_Prequest = Inst20Quest2_Prequest
 Inst20Quest2_HORDE_Folgequest = Inst20Quest2_Folgequest
-Inst20Quest2FQuest_HORDE = Inst20Quest2FQuest
--- No Rewards for this quest
+--
+Inst20Quest2name1_HORDE = Inst20Quest2name1
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst20Quest3_HORDE = Inst20Quest3
@@ -3322,7 +3142,6 @@ Inst20Quest4_HORDE_Location = Inst20Quest4_Location
 Inst20Quest4_HORDE_Note = Inst20Quest4_Note
 Inst20Quest4_HORDE_Prequest = Inst20Quest4_Prequest
 Inst20Quest4_HORDE_Folgequest = Inst20Quest4_Folgequest
-Inst20Quest4FQuest_HORDE = Inst20Quest4FQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -3334,11 +3153,7 @@ Inst20Quest5_HORDE_Location = Inst20Quest5_Location
 Inst20Quest5_HORDE_Note = Inst20Quest5_Note
 Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
 Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
-Inst20Quest5FQuest_HORDE = Inst20Quest5FQuest
---
-Inst20Quest5name1_HORDE = Inst20Quest5name1
-Inst20Quest5name2_HORDE = Inst20Quest5name2
-Inst20Quest5name3_HORDE = Inst20Quest5name3
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst20Quest6_HORDE = Inst20Quest6
@@ -3349,22 +3164,17 @@ Inst20Quest6_HORDE_Location = Inst20Quest6_Location
 Inst20Quest6_HORDE_Note = Inst20Quest6_Note
 Inst20Quest6_HORDE_Prequest = Inst20Quest6_Prequest
 Inst20Quest6_HORDE_Folgequest = Inst20Quest6_Folgequest
-Inst20Quest6PreQuest_HORDE = Inst20Quest6PreQuest
---
-Inst20Quest6name1_HORDE = Inst20Quest6name1
-Inst20Quest6name2_HORDE = Inst20Quest6name2
-Inst20Quest6name3_HORDE = Inst20Quest6name3
-Inst20Quest6name4_HORDE = Inst20Quest6name4
+-- No Rewards for this quest
 
---Quest 7 Horde
-Inst20Quest7_HORDE = "7. Das Familienvermögen der Barovs"
-Inst20Quest7_HORDE_Level = "60"
-Inst20Quest7_HORDE_Attain = "52"
-Inst20Quest7_HORDE_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Alexi Barov zurück, sobald die Aufgabe erledigt ist."
-Inst20Quest7_HORDE_Location = "Alexi Barov (Tirisfal - Bollwerk; "..YELLOW.."80,73"..WHITE..")"
-Inst20Quest7_HORDE_Note = "Die Besitzurkunde für Darrowehr findet man bei "..YELLOW.."[12]"..WHITE..", die Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", die Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und die Besitzurkunde für Süderstade bei "..YELLOW.."[1]"..WHITE.."."
-Inst20Quest7_HORDE_Prequest = "Nein"
-Inst20Quest7_HORDE_Folgequest = "Ja, Der letzte Barov"
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst20Quest7_HORDE = Inst20Quest7
+Inst20Quest7_HORDE_Level = Inst20Quest7_Level
+Inst20Quest7_HORDE_Attain = Inst20Quest7_Attain
+Inst20Quest7_HORDE_Aim = Inst20Quest7_Aim
+Inst20Quest7_HORDE_Location = Inst20Quest7_Location
+Inst20Quest7_HORDE_Note = Inst20Quest7_Note
+Inst20Quest7_HORDE_Prequest = Inst20Quest7_Prequest
+Inst20Quest7_HORDE_Folgequest = Inst20Quest7_Folgequest
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
@@ -3376,47 +3186,11 @@ Inst20Quest8_HORDE_Location = Inst20Quest8_Location
 Inst20Quest8_HORDE_Note = Inst20Quest8_Note
 Inst20Quest8_HORDE_Prequest = Inst20Quest8_Prequest
 Inst20Quest8_HORDE_Folgequest = Inst20Quest8_Folgequest
-Inst20Quest8PreQuest_HORDE = Inst20Quest8PreQuest
 --
 Inst20Quest8name1_HORDE = Inst20Quest8name1
 Inst20Quest8name2_HORDE = Inst20Quest8name2
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst20Quest9_HORDE = Inst20Quest9
-Inst20Quest9_HORDE_Level = Inst20Quest9_Level
-Inst20Quest9_HORDE_Attain = Inst20Quest9_Attain
-Inst20Quest9_HORDE_Aim = Inst20Quest9_Aim
-Inst20Quest9_HORDE_Location = Inst20Quest9_Location
-Inst20Quest9_HORDE_Note = Inst20Quest9_Note
-Inst20Quest9_HORDE_Prequest = Inst20Quest9_Prequest
-Inst20Quest9_HORDE_Folgequest = Inst20Quest9_Folgequest
-Inst20Quest9PreQuest_HORDE = Inst20Quest9PreQuest
--- No Rewards for this quest
-
---Quest 10 Horde
-Inst20Quest10_HORDE = "10. Die Bedrohung durch Schattensichel (Schamane)"
-Inst20Quest10_HORDE_Level = "60"
-Inst20Quest10_HORDE_Attain = "58"
-Inst20Quest10_HORDE_Aim = "Wendet das Orakel der Anrufung inmitten des Kellergewölbes des großen Ossuariums in Scholomance an. Ihr werdet damit Geister herbeirufen, die es zu bekämpfen gilt. Nach Vernichtung dieser Geister wird der Todesritter Schattensichel auftauchen; besiegt ihn."
-Inst20Quest10_HORDE_Location = "Sagorne Gratläufer (Orgrimmar - Das Tal der Weisheit; "..YELLOW.."38.6, 36.2"..WHITE..")"
-Inst20Quest10_HORDE_Note = "Diese Quest ist nur für den Schamanen. Die Vorquest ist optional vom selben NPC.\n\nTodesritter Schattensichel erscheint bei "..YELLOW.."[5]"..WHITE.."."
-Inst20Quest10_HORDE_Prequest = "Materielle Unterstützung"
-Inst20Quest10_HORDE_Folgequest = "Nein"
-Inst20Quest10PreQuest_HORDE = "true"
---
-Inst20Quest11name1_HORDE = "Helm des Himmelszorns"
-
---Quest 11 Horde  (same as Quest 10 Alliance)
-Inst20Quest11_HORDE = "11. Das rechte Stück von Lord Valthalaks Amulett"
-Inst20Quest11_HORDE_Level = Inst20Quest11_Level
-Inst20Quest11_HORDE_Attain = Inst20Quest11_Attain
-Inst20Quest11_HORDE_Aim = Inst20Quest11_Aim
-Inst20Quest11_HORDE_Location = Inst20Quest11_Location
-Inst20Quest11_HORDE_Note = Inst20Quest11_Note
-Inst20Quest11_HORDE_Prequest = Inst20Quest11_Prequest
-Inst20Quest11_HORDE_Folgequest = Inst20Quest11_Folgequest
-Inst20Quest11PreQuest_HORDE = Inst20Quest11PreQuest
--- No Rewards for this quest
+Inst20Quest8name3_HORDE = Inst20Quest8name3
+Inst20Quest8name4_HORDE = Inst20Quest8name4
 
 
 
@@ -3424,68 +3198,135 @@ Inst20Quest11PreQuest_HORDE = Inst20Quest11PreQuest
 
 Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgs nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgs die Burg des adligen Barons Silberlein jenseits des unscheinbaren Dörfchens Lohenscheit angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgs als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silberlein."
 Inst21Caption = "Burg Schattenfang"
-Inst21QAA = "1 Quests"
-Inst21QAH = "4 Quests"
+Inst21QAA = "5 Quests"
+Inst21QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst21Quest1 = "1. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest1_Level = "80"
-Inst21Quest1_Attain = "75"
-Inst21Quest1_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
-Inst21Quest1_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
-Inst21Quest1_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest1 = "1. Erschnüffelt sie"
+Inst21Quest1_Level = "18"
+Inst21Quest1_Attain = "16"
+Inst21Quest1_Aim = "Tötet Baron Ashbury."
+Inst21Quest1_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest1_Note = "Baron Ashbury befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst21Quest1_Prequest = "Nein"
-Inst21Quest1_Folgequest = "Nein"
--- No Rewards for this quest 
+Inst21Quest1_Folgequest = "Ja, Bis an die Zähne bewaffnet"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst21Quest2 = "2. Bis an die Zähne bewaffnet"
+Inst21Quest2_Level = "19"
+Inst21Quest2_Attain = "16"
+Inst21Quest2_Aim = "Tötet Baron Silberlein und Kommandant Grüntal."
+Inst21Quest2_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest2_Note = "Baron Silberlein befindet sich bei "..YELLOW.."[2]"..WHITE.." und Kommandant Grüntal bei "..YELLOW.."[3]"..WHITE.."."
+Inst21Quest2_Prequest = "Ja, Erschnüffelt sie"
+Inst21Quest2_Folgequest = "Ja, Mit Klauen und Zähnen "
+Inst21Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst21Quest3 = "3. Mit Klauen und Zähnen"
+Inst21Quest3_Level = "20"
+Inst21Quest3_Attain = "16"
+Inst21Quest3_Aim = "Tötet Lord Walden."
+Inst21Quest3_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest3_Note = "Lord Walden befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst21Quest3_Prequest = "Ja, Bis an die Zähne bewaffnet"
+Inst21Quest3_Folgequest = "Ja, Die Wut des Rudels"
+Inst21Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst21Quest4 = "4. Die Wut des Rudels"
+Inst21Quest4_Level = "21"
+Inst21Quest4_Attain = "16"
+Inst21Quest4_Aim = "Tötet Lord Godfrey."
+Inst21Quest4_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest4_Note = "Lord Godfrey befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst21Quest4_Prequest = "Ja, Mit Klauen und Zähnen"
+Inst21Quest4_Folgequest = "Nein"
+Inst21Quest4PreQuest = "true"
+--
+Inst21Quest4name1 = "Brustplatte des schrecklichen Preises"
+Inst21Quest4name2 = "Schulterstücke des Rudelführers"
+Inst21Quest4name3 = "Schattenfangschiftung"
+Inst21Quest4name4 = "Sandalen der Aufopferung"
+Inst21Quest4name4 = "Godfreys Kniehosen"
+
+--Quest 5 Alliance
+Inst21Quest5 = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest5_Level = "85"
+Inst21Quest5_Attain = "85"
+Inst21Quest5_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
+Inst21Quest5_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest5_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest5_Prequest = "Nein"
+Inst21Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst21Quest1_HORDE = "1. Todespirscher in Burg Schattenfang"
-Inst21Quest1_HORDE_Level = "25"
-Inst21Quest1_HORDE_Attain = "18"
-Inst21Quest1_HORDE_Aim = "Sucht die Todespirscher Adamant und Vincent."
-Inst21Quest1_HORDE_Location = "Hochexekutor Hadrec (Silberwald - Das Grabmal; "..YELLOW.."43,40"..WHITE..")"
-Inst21Quest1_HORDE_Note = "Man findet Todespirscher Adamant bei "..YELLOW.."[3]"..WHITE..". Todespirscher Vincet befindet sich auf der rechten Seite, wenn man den Innenhof betritt, bei "..YELLOW.."[2]"..WHITE.."."
+Inst21Quest1_HORDE = "1. Dies ist unser Land"
+Inst21Quest1_HORDE_Level = "18"
+Inst21Quest1_HORDE_Attain = "16"
+Inst21Quest1_HORDE_Aim = Inst21Quest1_Aim
+Inst21Quest1_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest1_HORDE_Note = Inst21Quest1_Note
 Inst21Quest1_HORDE_Prequest = "Nein"
-Inst21Quest1_HORDE_Folgequest = "Nein"
---
-Inst21Quest1name1_HORDE = "Geisterhafter Mantel"
+Inst21Quest1_HORDE_Folgequest = "Ja, Seuche... Überall Seuche!"
+-- No Rewards for this quest
 
 --Quest 2 Horde
-Inst21Quest2_HORDE = "2. Das Buch von Ur"
-Inst21Quest2_HORDE_Level = "26"
+Inst21Quest2_HORDE = "2. Seuche... Überall Seuche!"
+Inst21Quest2_HORDE_Level = "19"
 Inst21Quest2_HORDE_Attain = "16"
-Inst21Quest2_HORDE_Aim = "Bringt dem Bewahrer Bel'dugur im Apothekarium in Unterstadt das Buch von Ur."
-Inst21Quest2_HORDE_Location = "Bewahrer Bel'dugur (Unterstadt - Das Apothekarium; "..YELLOW.."53,54"..WHITE..")"
-Inst21Quest2_HORDE_Note = "Man findet das Buch bei "..YELLOW.."[11]"..WHITE.." auf der linken Seite, wenn man den Raum betritt."
-Inst21Quest2_HORDE_Prequest = "Nein"
-Inst21Quest2_HORDE_Folgequest = "Nein"
---
-Inst21Quest2name1_HORDE = "Ergraute Stiefel"
-Inst21Quest2name2_HORDE = "Stahlschnallenarmschienen"
+Inst21Quest2_HORDE_Aim = Inst21Quest2_Aim
+Inst21Quest2_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest2_HORDE_Note = Inst21Quest2_Note
+Inst21Quest2_HORDE_Prequest = "Ja, Dies ist unser Land"
+Inst21Quest2_HORDE_Folgequest = "Ja, Befehle sind was für die Lebenden"
+Inst21Quest2PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 3 Horde
-Inst21Quest3_HORDE = "3. Arugal muss sterben"
-Inst21Quest3_HORDE_Level = "27"
-Inst21Quest3_HORDE_Attain = "18"
-Inst21Quest3_HORDE_Aim = "Tötet Arugal und bringt Dalar Morgenweber in dem Grabmal seinen Kopf."
-Inst21Quest3_HORDE_Location = "Dalar Morgenweber (Silberwald - Das Grabmal; "..YELLOW.."44,39"..WHITE..")"
-Inst21Quest3_HORDE_Note = "Man findet Argual bei "..YELLOW.."[13]"..WHITE.."."
-Inst21Quest3_HORDE_Prequest = "Nein"
-Inst21Quest3_HORDE_Folgequest = "Nein"
---
-Inst21Quest3name1_HORDE = "Siegel von Sylvanas"
+Inst21Quest3_HORDE = "3. Befehle sind was für die Lebenden"
+Inst21Quest3_HORDE_Level = "20"
+Inst21Quest3_HORDE_Attain = "16"
+Inst21Quest3_HORDE_Aim = Inst21Quest3_Aim
+Inst21Quest3_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest3_HORDE_Note = Inst21Quest3_Note
+Inst21Quest3_HORDE_Prequest = "Ja, Seuche... Überall Seuche!"
+Inst21Quest3_HORDE_Folgequest = "Ja, Süße, gnadenlose Rache"
+Inst21Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 4 Horde
-Inst21Quest4_HORDE = "4. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest4_HORDE_Level = "80"
-Inst21Quest4_HORDE_Attain = "75"
-Inst21Quest4_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
-Inst21Quest4_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
-Inst21Quest4_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
-Inst21Quest4_HORDE_Prequest = "Nein"
+Inst21Quest4_HORDE = "4. Süße, gnadenlose Rache"
+Inst21Quest4_HORDE_Level = "21"
+Inst21Quest4_HORDE_Attain = "16"
+Inst21Quest4_HORDE_Aim = Inst21Quest4_Aim
+Inst21Quest4_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest4_HORDE_Note = Inst21Quest4_Note
+Inst21Quest4_HORDE_Prequest = "Ja, Befehle sind was für die Lebenden"
 Inst21Quest4_HORDE_Folgequest = "Nein"
--- No Rewards for this quest 
+Inst21Quest4PreQuest_HORDE = "true"
+--
+Inst21Quest2name1_HORDE = Inst21Quest4name1
+Inst21Quest2name2_HORDE = "Todespirscherschulterstücke"
+Inst21Quest2name1_HORDE = Inst21Quest4name3
+Inst21Quest2name2_HORDE = Inst21Quest4name4
+Inst21Quest2name2_HORDE = Inst21Quest4name5
+
+--Quest 5 Horde
+Inst21Quest5_HORDE = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest5_HORDE_Level = "85"
+Inst21Quest5_HORDE_Attain = "85"
+Inst21Quest5_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
+Inst21Quest5_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest5_HORDE_Prequest = "Nein"
+Inst21Quest5_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
