@@ -519,66 +519,74 @@ AQ_26903_Level = "35"
 
 --------------- INST19 - SM: Library (SM Lib) ---------------
 
-Inst19Quest1_QuestID = "1050"
-Inst19Quest2_QuestID = "1951"
-Inst19Quest3_QuestID = "1053"
+Inst19Quest1_QuestID = "26983"
+Inst19Quest2_QuestID = "26973"
+Inst19Quest3_QuestID = "26993"
 
-Inst19Quest1_HORDE_QuestID = "1113"
-Inst19Quest2_HORDE_QuestID = "1160"
-Inst19Quest3_HORDE_QuestID = "1049"
-Inst19Quest4_HORDE_QuestID = "1951"
-Inst19Quest5_HORDE_QuestID = "1048"
+Inst19Quest1_HORDE_QuestID = "26987"
+Inst19Quest2_HORDE_QuestID = "26959"
+Inst19Quest3_HORDE_QuestID = "26993"
 
 
-AQ_1050_Level = "38"
-AQ_1951_Level = "40"
-AQ_1053_Level = "40"
-AQ_1113_Level = "33"
-AQ_1160_Level = "36"
-AQ_1049_Level = "38"
-AQ_1048_Level = "42"
+AQ_26983_Level = "33"
+AQ_26973_Level = "33"
+AQ_26993_Level = "33"
+AQ_26987_Level = "33"
+AQ_26959_Level = "33"
 
 
 
 --------------- INST57 - SM: Armory (SM Arm) ---------------
 
-Inst57Quest1_QuestID = "1053"
+Inst57Quest1_QuestID = "26984"
+Inst57Quest2_QuestID = "26974"
+Inst57Quest3_QuestID = "26994"
 
-Inst57Quest1_HORDE_QuestID = "1113"
-Inst57Quest2_HORDE_QuestID = "1048"
+Inst57Quest1_HORDE_QuestID = "26988"
+Inst57Quest2_HORDE_QuestID = "26962"
+Inst57Quest3_HORDE_QuestID = "26994"
 
 
---AQ_1053_Level = "40"  -- Already used for SM Library. Left here just for the note.
---AQ_1113_Level = "33"  -- Already used for SM Library. Left here just for the note.
---AQ_1048_Level = "42"  -- Already used for SM Library. Left here just for the note.
+AQ_26984_Level = "35"
+AQ_26974_Level = "36"
+AQ_26994_Level = "36"
+AQ_26988_Level = "35"
+AQ_26962_Level = "36"
 
 
 
 --------------- INST58 - SM: Cathedral (SM Cath) ---------------
 
-Inst58Quest1_QuestID = "1053"
+Inst58Quest1_QuestID = "26985"
+Inst58Quest2_QuestID = "26976"
+Inst58Quest3_QuestID = "26996"
 
-Inst58Quest1_HORDE_QuestID = "1113"
-Inst58Quest2_HORDE_QuestID = "1048"
+Inst58Quest1_HORDE_QuestID = "26991"
+Inst58Quest2_HORDE_QuestID = "26967"
+Inst58Quest3_HORDE_QuestID = "26996"
 
---AQ_1053_Level = "40"  -- Already used for SM Library. Left here just for the note.
---AQ_1113_Level = "33"  -- Already used for SM Library. Left here just for the note.
---AQ_1048_Level = "42"  -- Already used for SM Library. Left here just for the note.
+
+AQ_26985_Level = "38"
+AQ_26976_Level = "39"
+AQ_26996_Level = "39"
+AQ_26991_Level = "38"
+AQ_26967_Level = "39"
 
 
 
 --------------- INST59 - SM: Graveyard (SM GY) ---------------
 
-Inst59Quest1_QuestID = "11392"
+Inst59Quest1_QuestID = "26982"
+Inst59Quest2_QuestID = "26972"
 
-Inst59Quest1_HORDE_QuestID = "1051"
-Inst59Quest2_HORDE_QuestID = "1113"
-Inst59Quest3_HORDE_QuestID = "11392"
+Inst59Quest1_HORDE_QuestID = "26986"
+Inst59Quest2_HORDE_QuestID = "26950"
 
 
-AQ_11392_Level = "65"
-AQ_1051_Level = "33"
---AQ_1113_Level = "33"  -- Already used for SM Library. Left here just for the note.
+AQ_26982_Level = "30"
+AQ_26972_Level = "30"
+AQ_26986_Level = "30"
+AQ_26950_Level = "30"
 
 
 

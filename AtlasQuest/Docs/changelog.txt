@@ -12,6 +12,11 @@ Version 4.6.2 BETA (not released)
 	- Onyxia's Lair
 	- Razorfen Downs
 	- Razorfen Kraul
+	- Scarlet Monastery: Library
+	- Scarlet Monastery: Armory
+	- Scarlet Monastery: Cathedral
+	- Scarlet Monastery: Graveyard
+	
 
 
 Version 4.6.1 (February 8, 2011)
@@ -44,7 +49,7 @@ Version 4.6.0 (December 17, 2010)
 - No longer "officially" supporting AlphaMap. AtlasQuest will still work with AlphaMap (I'm leaving the support code in), but its been a long time since the Boss location numbers matched up. In the future, perhaps with a major rewrite of AtlasQuest I'll be able to work something out to support both Atlas and AlphaMap.
 - Merged in Natch's AtlasQuest Helper code. You can now query the server for completed quests to fill in the "Quest completed" check boxes. This is in Options.
 - Updated Location numbers for all Burning Crusade & Lich King dungeons to match Atlas 1.18.0.
-- All quests the used to reward Badges or Emblems now correctly list Justice Points as their rewards.
+- All quests that used to reward Badges or Emblems now correctly list Justice Points as their rewards.
 - Removed Zul'gurub, Azuergos & Dragons of Nightmare quests.
 - Code Bug fixes (Thanks Speedwaystar, Kharthus)
 - Increased Dungeon quest limit to 22. AtlasQuest frame now overlaps Atlas frame a tiny bit on Left side, but isn't too noticeable.

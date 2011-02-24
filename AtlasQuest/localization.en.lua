@@ -2733,120 +2733,80 @@ Inst18Quest6name3_HORDE = Inst18Quest6name3
 Inst19Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
 Inst19Caption = "SM: Library"
 Inst19QAA = "3 Quests"
-Inst19QAH = "5 Quests"
+Inst19QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst19Quest1 = "1. Mythology of the Titans"
-Inst19Quest1_Level = "38"
-Inst19Quest1_Attain = "28"
-Inst19Quest1_Aim = "Retrieve Mythology of the Titans from the Monastery and bring it to Librarian Mae Paledust in Ironforge."
-Inst19Quest1_Location = "Librarian Mae Paledust (Ironforge - Hall of Explorers; "..YELLOW.."74,12"..WHITE..")"
-Inst19Quest1_Note = "The book is on the floor on the left side of one of the corridors leading to Arcanist Doan ("..YELLOW.."[2]"..WHITE..")."
+Inst19Quest1 = "1. Just Close Enough"
+Inst19Quest1_Level = "33"
+Inst19Quest1_Attain = "31"
+Inst19Quest1_Aim = "Visit Joseph the Awakened."
+Inst19Quest1_Location = "Mizzy Pistonhammer (Southern Barrens - Fort Triumph; "..YELLOW.."49.4, 67.4"..WHITE..")"
+Inst19Quest1_Note = "Joseph the Awakened is just inside the entrance of the Scarlet Monastery Library."
 Inst19Quest1_Prequest = "None"
 Inst19Quest1_Folgequest = "None"
---
-Inst19Quest1name1 = "Explorers' League Commendation"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst19Quest2 = "2. Rituals of Power (Mage)"
-Inst19Quest2_Level = "40"
-Inst19Quest2_Attain = "30"
-Inst19Quest2_Aim = "Bring the book Rituals of Power to Tabetha in Dustwallow Marsh."
-Inst19Quest2_Location = "Tabetha (Dustwallow Marsh; "..YELLOW.."43,57"..WHITE..")"
-Inst19Quest2_Note = "This quest can only be obtained by mages. You can find the book in the last corridor leading to Arcanist Doan ("..YELLOW.."[2]"..WHITE..").\n\nThe rewards listed are for the followup."
-Inst19Quest2_Prequest = "Journey to the Marsh -> Get the Scoop"
-Inst19Quest2_Folgequest = "Mage's Wand"
-Inst19Quest2PreQuest = "true"
+Inst19Quest2 = "2. The Only True Path"
+Inst19Quest2_Level = "33"
+Inst19Quest2_Attain = "29"
+Inst19Quest2_Aim = "Eliminate Houndmaster Loksey and Arcanist Doan."
+Inst19Quest2_Location = "Joseph the Awakened (Scarlet Monastery Library; "..YELLOW.."Entrance"..WHITE..")"
+Inst19Quest2_Note = "Houndmaster Loksey is at "..YELLOW.."[1]"..WHITE.." and Arcanist Doan is at "..YELLOW.."[2]"..WHITE.."."
+Inst19Quest2_Prequest = "None"
+Inst19Quest2_Folgequest = "None"
 --
-Inst19Quest2name1 = "Icefury Wand"
-Inst19Quest2name2 = "Nether Force Wand"
-Inst19Quest2name3 = "Ragefire Wand"
+Inst19Quest2name1 = "Shield of the Righteous Cause"
+Inst19Quest2name2 = "Houndmaster's Belt"
+Inst19Quest2name3 = "Band of the Arcanist"
 
 --Quest 3 Alliance
-Inst19Quest3 = "3. In the Name of the Light"
-Inst19Quest3_Level = "40"
-Inst19Quest3_Attain = "34"
-Inst19Quest3_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
-Inst19Quest3_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
-Inst19Quest3_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.3, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst19Quest3_Prequest = "Brother Anton -> Down the Scarlet Path"
+Inst19Quest3 = "3. Compendium of the Fallen"
+Inst19Quest3_Level = "33"
+Inst19Quest3_Attain = "29"
+Inst19Quest3_Aim = "Retrieve the Compendium of the Fallen."
+Inst19Quest3_Location = "Dominic (Scarlet Monastery Library; "..GREEN.."[2']"..WHITE..")"
+Inst19Quest3_Note = "The Compendium of the Fallen can be found on a bookshelf at "..GREEN.."[3']"..WHITE.."."
+Inst19Quest3_Prequest = "None"
 Inst19Quest3_Folgequest = "None"
-Inst19Quest3PreQuest = "true"
---
-Inst19Quest3name1 = "Sword of Serenity"
-Inst19Quest3name2 = "Bonebiter"
-Inst19Quest3name3 = "Black Menace"
-Inst19Quest3name4 = "Orb of Lorica"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst19Quest1_HORDE = "1. Hearts of Zeal"
+Inst19Quest1_HORDE = "1. The Right Way"
 Inst19Quest1_HORDE_Level = "33"
-Inst19Quest1_HORDE_Attain = "30"
-Inst19Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst19Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst19Quest1_HORDE_Note = "All mobs inside the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
-Inst19Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."[Razorfen Kraul]"..WHITE..")"
+Inst19Quest1_HORDE_Attain = "31"
+Inst19Quest1_HORDE_Aim = "Speak to Dark Ranger Velonara."
+Inst19Quest1_HORDE_Location = "Huntsman Markhor (The Hinterlands - Revantusk Village; "..YELLOW.."79.0, 79.6"..WHITE..")"
+Inst19Quest1_HORDE_Note = "Dark Ranger Velonara is just inside the entrance of the Scarlet Monastery Library."
+Inst19Quest1_HORDE_Prequest = "None"
 Inst19Quest1_HORDE_Folgequest = "None"
-Inst19Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst19Quest2_HORDE = "2. Test of Lore"
-Inst19Quest2_HORDE_Level = "36"
-Inst19Quest2_HORDE_Attain = "25"
-Inst19Quest2_HORDE_Aim = "Find The Beginnings of the Undead Threat, and return it to Parqual Fintallas in Undercity."
-Inst19Quest2_HORDE_Location = "Parqual Fintallas (Undercity - The Apothecarium; "..YELLOW.."57,65"..WHITE..")"
-Inst19Quest2_HORDE_Note = "Questline starts at Dorn Plainstalker (Thousand Needles; "..YELLOW.."53,41"..WHITE.."). You can find the book in the Library of Scarlet Monastary.\n\nThe rewards listed are for the followup, which just involves talking to the NPC."
-Inst19Quest2_HORDE_Prequest = "Test of Faith -> Test of Lore"
-Inst19Quest2_HORDE_Folgequest = "Test of Lore"
-Inst19Quest2PreQuest_HORDE = "true"
+Inst19Quest2_HORDE = "2. Stripping Their Defenses"
+Inst19Quest2_HORDE_Level = "33"
+Inst19Quest2_HORDE_Attain = "29"
+Inst19Quest2_HORDE_Aim = "Eliminate Houndmaster Loksey and Arcanist Doan."
+Inst19Quest2_HORDE_Location = "Dark Ranger Velonara (Scarlet Monastery Library; "..YELLOW.."Entrance"..WHITE..")"
+Inst19Quest2_HORDE_Note = "Houndmaster Loksey is at "..YELLOW.."[1]"..WHITE.." and Arcanist Doan is at "..YELLOW.."[2]"..WHITE.."."
+Inst19Quest2_HORDE_Prequest = "None"
+Inst19Quest2_HORDE_Folgequest = "None"
 --
-Inst19Quest2name1_HORDE = "Windstorm Hammer"
-Inst19Quest2name2_HORDE = "Dancing Flame"
+Inst19Quest2name1_HORDE = "Shield of Comrades"
+Inst19Quest2name2_HORDE = "Houndmaster's Belt"
+Inst19Quest2name3_HORDE = "Band of the Arcanist"
 
---Quest 3 Horde
-Inst19Quest3_HORDE = "3. Compendium of the Fallen"
-Inst19Quest3_HORDE_Level = "38"
-Inst19Quest3_HORDE_Attain = "28"
-Inst19Quest3_HORDE_Aim = "Retrieve the Compendium of the Fallen from the Monastery in Tirisfal Glades and return to Sage Truthseeker in Thunder Bluff."
-Inst19Quest3_HORDE_Location = "Sage Truthseeker (Thunderbluff; "..YELLOW.."34,47"..WHITE..")"
-Inst19Quest3_HORDE_Note = "You can find the book in the Library section of the Scarlet Monastery. For lore reasons, Undead cannot do this quest."
-Inst19Quest3_HORDE_Prequest = "None"
-Inst19Quest3_HORDE_Folgequest = "None"
---
-Inst19Quest3name1_HORDE = "Vile Protector"
-Inst19Quest3name2_HORDE = "Forcestone Buckler"
-Inst19Quest3name3_HORDE = "Omega Orb"
-
---Quest 4 Horde  (same as Quest 2 Alliance)
-Inst19Quest4_HORDE = "4. Rituals of Power (Mage)"
-Inst19Quest4_HORDE_Level = Inst19Quest2_Level
-Inst19Quest4_HORDE_Attain = Inst19Quest2_Attain
-Inst19Quest4_HORDE_Aim = Inst19Quest2_Aim
-Inst19Quest4_HORDE_Location = Inst19Quest2_Location
-Inst19Quest4_HORDE_Note = Inst19Quest2_Note
-Inst19Quest4_HORDE_Prequest = Inst19Quest2_Prequest
-Inst19Quest4_HORDE_Folgequest = Inst19Quest2_Folgequest
-Inst19Quest4PreQuest_HORDE = Inst19Quest2_PreQuest
---
-Inst19Quest4name1_HORDE = Inst19Quest2name1
-Inst19Quest4name2_HORDE = Inst19Quest2name2
-Inst19Quest4name3_HORDE = Inst19Quest2name3
-
---Quest 5 Horde
-Inst19Quest5_HORDE = "5. Into The Scarlet Monastery"
-Inst19Quest5_HORDE_Level = "42"
-Inst19Quest5_HORDE_Attain = "30"
-Inst19Quest5_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
-Inst19Quest5_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst19Quest5_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst19Quest5_HORDE_Prequest = "None"
-Inst19Quest5_HORDE_Folgequest = "None"
---
-Inst19Quest5name1_HORDE = "Sword of Omen"
-Inst19Quest5name2_HORDE = "Prophetic Cane"
-Inst19Quest5name3_HORDE = "Dragon's Blood Necklace"
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst19Quest3_HORDE = Inst19Quest3
+Inst19Quest3_HORDE_Level = Inst19Quest3_Level
+Inst19Quest3_HORDE_Attain = Inst19Quest3_Attain
+Inst19Quest3_HORDE_Aim = Inst19Quest3_Aim
+Inst19Quest3_HORDE_Location = Inst19Quest3_Location
+Inst19Quest3_HORDE_Note = Inst19Quest3_Note
+Inst19Quest3_HORDE_Prequest = Inst19Quest3_Prequest
+Inst19Quest3_HORDE_Folgequest = Inst19Quest3_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -2854,51 +2814,85 @@ Inst19Quest5name3_HORDE = "Dragon's Blood Necklace"
 
 Inst57Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
 Inst57Caption = "SM: Armory"
-Inst57QAA = "1 Quest"
-Inst57QAH = "2 Quests"
+Inst57QAA = "3 Quests"
+Inst57QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst57Quest1 = "1. In the Name of the Light"
-Inst57Quest1_Level = "40"
+Inst57Quest1 = "1. An Old, Crazed Friend"
+Inst57Quest1_Level = "35"
 Inst57Quest1_Attain = "34"
-Inst57Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
-Inst57Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
-Inst57Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.1, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst57Quest1_Prequest = "Brother Anton -> Down the Scarlet Path"
+Inst57Quest1_Aim = "Visit Joseph the Crazed."
+Inst57Quest1_Location = "Livingston Marshal (Northern Stranglethorn - Fort Livingston; "..YELLOW.."53.2, 66.8"..WHITE..")"
+Inst57Quest1_Note = "Joseph the Crazed is just inside the entrance of the Scarlet Monastery Armory."
+Inst57Quest1_Prequest = "None"
 Inst57Quest1_Folgequest = "None"
-Inst57Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst57Quest2 = "2. The False Champion"
+Inst57Quest2_Level = "36"
+Inst57Quest2_Attain = "32"
+Inst57Quest2_Aim = "Kill Herod."
+Inst57Quest2_Location = "Joseph the Crazed (Scarlet Monastery Armory; "..YELLOW.."Entrance"..WHITE..")"
+Inst57Quest2_Note = "Herod is at "..YELLOW.."[1]"..WHITE.."."
+Inst57Quest2_Prequest = "None"
+Inst57Quest2_Folgequest = "None"
 --
-Inst57Quest1name1 = "Sword of Serenity"
-Inst57Quest1name2 = "Bonebiter"
-Inst57Quest1name3 = "Black Menace"
-Inst57Quest1name4 = "Orb of Lorica"
+Inst57Quest2name1 = "Herod's Medallion"
+Inst57Quest2name2 = "Breastplate of the Scarlet Monastery"
+Inst57Quest2name3 = "Shrug of the Crazed"
+Inst57Quest2name4 = "Monk's Leggings"
+Inst57Quest2name5 = "Cloak of the False Champion"
+
+--Quest 3 Alliance
+Inst57Quest3 = "3. Without Rhyme or Reason"
+Inst57Quest3_Level = "36"
+Inst57Quest3_Attain = "32"
+Inst57Quest3_Aim = "Kill 3 Scarlet Myrmidons, 3 Scarlet Protectors, 3 Scarlet Guardsmen, and 3 Scarlet Evokers."
+Inst57Quest3_Location = "Dominic (Scarlet Monastery Armory; "..GREEN.."[1']"..WHITE..")"
+Inst57Quest3_Note = "They can be found throughout the instance."
+Inst57Quest3_Prequest = "None"
+Inst57Quest3_Folgequest = "None"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst57Quest1_HORDE = "1. Hearts of Zeal"
-Inst57Quest1_HORDE_Level = "33"
-Inst57Quest1_HORDE_Attain = "30"
-Inst57Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst57Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst57Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
-Inst57Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
+Inst57Quest1_HORDE = "1. Moving Things Along"
+Inst57Quest1_HORDE_Level = "35"
+Inst57Quest1_HORDE_Attain = "34"
+Inst57Quest1_HORDE_Aim = "Visit Dark Ranger Velonara."
+Inst57Quest1_HORDE_Location = "Mystic Yayo'jin (The Hinterlands - Revantusk Village; "..YELLOW.."78.8, 78.4"..WHITE..")"
+Inst57Quest1_HORDE_Note = "Dark Ranger Velonara is just inside the entrance of the Scarlet Monastery Armory."
+Inst57Quest1_HORDE_Prequest = "None"
 Inst57Quest1_HORDE_Folgequest = "None"
-Inst57Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst57Quest2_HORDE = "2. Into The Scarlet Monastery"
-Inst57Quest2_HORDE_Level = "42"
-Inst57Quest2_HORDE_Attain = "33"
-Inst57Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
-Inst57Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst57Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst57Quest2_HORDE = "2. Stripping Their Offense"
+Inst57Quest2_HORDE_Level = "36"
+Inst57Quest2_HORDE_Attain = "32"
+Inst57Quest2_HORDE_Aim = "Kill Herod."
+Inst57Quest2_HORDE_Location = "Dark Ranger Velonara (Scarlet Monastery Armory; "..YELLOW.."Entrance"..WHITE..")"
+Inst57Quest2_HORDE_Note = "Herod is at "..YELLOW.."[1]"..WHITE.."."
 Inst57Quest2_HORDE_Prequest = "None"
 Inst57Quest2_HORDE_Folgequest = "None"
 --
-Inst57Quest2name1_HORDE = "Sword of Omen"
-Inst57Quest2name2_HORDE = "Prophetic Cane"
-Inst57Quest2name3_HORDE = "Dragon's Blood Necklace"
+Inst57Quest2name1_HORDE = "Herod's Medallion"
+Inst57Quest2name2_HORDE = "Breastplate of the Scarlet Monastery"
+Inst57Quest2name3_HORDE = "Spaulder of the Untrained"
+Inst57Quest2name4_HORDE = "Monk's Leggings"
+Inst57Quest2name5_HORDE = "Velonara's Cloak"
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst57Quest3_HORDE = Inst57Quest3
+Inst57Quest3_HORDE_Level = Inst57Quest3_Level
+Inst57Quest3_HORDE_Attain = Inst57Quest3_Attain
+Inst57Quest3_HORDE_Aim = Inst57Quest3_Aim
+Inst57Quest3_HORDE_Location = Inst57Quest3_Location
+Inst57Quest3_HORDE_Note = Inst57Quest3_Note
+Inst57Quest3_HORDE_Prequest = Inst57Quest3_Prequest
+Inst57Quest3_HORDE_Folgequest = Inst57Quest3_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -2906,51 +2900,81 @@ Inst57Quest2name3_HORDE = "Dragon's Blood Necklace"
 
 Inst58Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
 Inst58Caption = "SM: Cathedral"
-Inst58QAA = "1 Quest"
-Inst58QAH = "2 Quests"
+Inst58QAA = "3 Quests"
+Inst58QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst58Quest1 = "1. In the Name of the Light"
-Inst58Quest1_Level = "40"
-Inst58Quest1_Attain = "34"
-Inst58Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
-Inst58Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
-Inst58Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.1, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst58Quest1_Prequest = "Brother Anton -> Down the Scarlet Path"
+Inst58Quest1 = "1. Pitting Madness Against Madness"
+Inst58Quest1_Level = "38"
+Inst58Quest1_Attain = "37"
+Inst58Quest1_Aim = "Visit Joseph the Insane."
+Inst58Quest1_Location = "Shandris Feathermoon (Feralas - Feathermoon Stronghold; "..YELLOW.."46.0, 49.0"..WHITE..")"
+Inst58Quest1_Note = "Joseph the Insane is just inside the entrance of the Scarlet Monastery Cathedral."
+Inst58Quest1_Prequest = "None"
 Inst58Quest1_Folgequest = "None"
-Inst58Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst58Quest2 = "2. Battle for the Scarlet Monastery"
+Inst58Quest2_Level = "39"
+Inst58Quest2_Attain = "35"
+Inst58Quest2_Aim = "Kill Scarlet Commander Mograine and High Inquisitor Whitemane."
+Inst58Quest2_Location = "Joseph the Insane (Scarlet Monastery Cathedral; "..YELLOW.."Entrance"..WHITE..")"
+Inst58Quest2_Note = "Scarlet Commander Mograine and High Inquisitor Whitemane are at "..YELLOW.."[2]"..WHITE.."."
+Inst58Quest2_Prequest = "None"
+Inst58Quest2_Folgequest = "None"
 --
-Inst58Quest1name1 = "Sword of Serenity"
-Inst58Quest1name2 = "Bonebiter"
-Inst58Quest1name3 = "Black Menace"
-Inst58Quest1name4 = "Orb of Lorica"
+Inst58Quest2name1 = "Grasps of the Insane"
+Inst58Quest2name2 = "Scarlet Necklace of Paradise"
+Inst58Quest2name3 = "Band of Grandiose Delusions"
+
+--Quest 3 Alliance
+Inst58Quest3 = "3. Right Under Their Noses"
+Inst58Quest3_Level = "39"
+Inst58Quest3_Attain = "35"
+Inst58Quest3_Aim = "Kill High Inquisitor Fairbanks."
+Inst58Quest3_Location = "Dominic (Scarlet Monastery Cathedral; "..GREEN.."[3']"..WHITE..")"
+Inst58Quest3_Note = "High Inquisitor Fairbanks is at "..YELLOW.."[1]"..WHITE.."."
+Inst58Quest3_Prequest = "None"
+Inst58Quest3_Folgequest = "None"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst58Quest1_HORDE = "1. Hearts of Zeal"
-Inst58Quest1_HORDE_Level = "33"
-Inst58Quest1_HORDE_Attain = "30"
-Inst58Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst58Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst58Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
-Inst58Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
+Inst58Quest1_HORDE = "1. Enemies Abroad"
+Inst58Quest1_HORDE_Level = "38"
+Inst58Quest1_HORDE_Attain = "37"
+Inst58Quest1_HORDE_Aim = "Find Dark Ranger Velonara."
+Inst58Quest1_HORDE_Location = "Nazeer Bloodpike (Dustwallow Marsh - Brackenwall Village; "..YELLOW.."35.2, 30.6"..WHITE..")"
+Inst58Quest1_HORDE_Note = "Dark Ranger Velonara is just inside the entrance of the Scarlet Monastery Cathedral."
+Inst58Quest1_HORDE_Prequest = "None"
 Inst58Quest1_HORDE_Folgequest = "None"
-Inst58Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst58Quest2_HORDE = "2. Into The Scarlet Monastery"
-Inst58Quest2_HORDE_Level = "42"
-Inst58Quest2_HORDE_Attain = "33"
-Inst58Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
-Inst58Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst58Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst58Quest2_HORDE = "2. Battle for the Scarlet Monastery"
+Inst58Quest2_HORDE_Level = "39"
+Inst58Quest2_HORDE_Attain = "35"
+Inst58Quest2_HORDE_Aim = "Kill Scarlet Commander Mograine and High Inquisitor Whitemane."
+Inst58Quest2_HORDE_Location = "Dark Ranger Velonara (Scarlet Monastery Cathedral; "..YELLOW.."Entrance"..WHITE..")"
+Inst58Quest2_HORDE_Note = "Scarlet Commander Mograine and High Inquisitor Whitemane are at "..YELLOW.."[2]"..WHITE.."."
 Inst58Quest2_HORDE_Prequest = "None"
 Inst58Quest2_HORDE_Folgequest = "None"
 --
-Inst58Quest2name1_HORDE = "Sword of Omen"
-Inst58Quest2name2_HORDE = "Prophetic Cane"
-Inst58Quest2name3_HORDE = "Dragon's Blood Necklace"
+Inst58Quest2name1_HORDE = "Grasps of the Forsaken"
+Inst58Quest2name2_HORDE = "Gift of the Banshee Queen"
+Inst58Quest2name3_HORDE = "Band of Wrath"
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst58Quest3_HORDE = Inst58Quest3
+Inst58Quest3_HORDE_Level = Inst58Quest3_Level
+Inst58Quest3_HORDE_Attain = Inst58Quest3_Attain
+Inst58Quest3_HORDE_Aim = Inst58Quest3_Aim
+Inst58Quest3_HORDE_Location = Inst58Quest3_Location
+Inst58Quest3_HORDE_Note = Inst58Quest3_Note
+Inst58Quest3_HORDE_Prequest = Inst58Quest3_Prequest
+Inst58Quest3_HORDE_Folgequest = Inst58Quest3_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -2958,57 +2982,63 @@ Inst58Quest2name3_HORDE = "Dragon's Blood Necklace"
 
 Inst59Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
 Inst59Caption = "SM: Graveyard"
-Inst59QAA = "1 Quest"
-Inst59QAH = "3 Quests"
+Inst59QAA = "2 Quests"
+Inst59QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst59Quest1 = "1. Call the Headless Horseman (Daily - Seasonal)"
-Inst59Quest1_Level = "80"
-Inst59Quest1_Attain = "75"
-Inst59Quest1_Aim = "Take a Dreary Candle to the Loosely Turned Soil."
-Inst59Quest1_Location = "Pumpkin Shrine (Scarlet Monastery - Graveyard; "..YELLOW.."[2]"..WHITE..")"
-Inst59Quest1_Note = "The Soil is just a few steps from the Pumpkin Shrine. This quest is only available during the Hallow's End event and can be done once a day per character during that event.\n\nCompleting it summons the Headless Horseman, a level 80 boss."
+Inst59Quest1 = "1. The Scarlet Monastery"
+Inst59Quest1_Level = "30"
+Inst59Quest1_Attain = "28"
+Inst59Quest1_Aim = "Visit Joseph the Awakened."
+Inst59Quest1_Location = "Captain Nials (Arathi Highlands - Refuge Point; "..YELLOW.."40.0, 48.8"..WHITE..")"
+Inst59Quest1_Note = "Joseph the Awakened is just inside the entrance of the Scarlet Monastery Graveyard."
 Inst59Quest1_Prequest = "None"
 Inst59Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst59Quest2 = "2. The Dark Side of the Light"
+Inst59Quest2_Level = "30"
+Inst59Quest2_Attain = "26"
+Inst59Quest2_Aim = "Kill Interrogator Vishas and Bloodmage Thalnos."
+Inst59Quest2_Location = "Joseph the Awakened (Scarlet Monastery Graveyard; "..YELLOW.."Entrance"..WHITE..")"
+Inst59Quest2_Note = "Interrogator Vishas is at "..YELLOW.."[1]"..WHITE.." and Bloodmage Thalnos is at "..YELLOW.."[2]"..WHITE.."."
+Inst59Quest2_Prequest = "None"
+Inst59Quest2_Folgequest = "None"
+--
+Inst59Quest2name1 = "Helm of the Awakened"
+Inst59Quest2name2 = "Interrogator's Shackles"
+Inst59Quest2name3 = "Gloves of the Pure"
+Inst59Quest2name4 = "Strapping Belt"
+Inst59Quest2name5 = "Vishas' Hood"
+
 
 --Quest 1 Horde
-Inst59Quest1_HORDE = "1. Vorrel's Revenge"
-Inst59Quest1_HORDE_Level = "33"
-Inst59Quest1_HORDE_Attain = "25"
-Inst59Quest1_HORDE_Aim = "Return Vorrel Sengutz's wedding ring to Monika Sengutz in Tarren Mill."
-Inst59Quest1_HORDE_Location = "Vorrel Sengutz (Scarlet Monastery - Graveyard; "..YELLOW.."[1]"..WHITE..")"
-Inst59Quest1_HORDE_Note = "You can find Vorrel Sengutz at the beginning of the Graveyard section of the Scarlet Monastery. Nancy Vishas, who drops the ring needed for this quest, can be found in a house in the Alterac Mountains ("..YELLOW.."31,32"..WHITE..")."
+Inst59Quest1_HORDE = "1. Into the Scarlet Monastery"
+Inst59Quest1_HORDE_Level = "30"
+Inst59Quest1_HORDE_Attain = "28"
+Inst59Quest1_HORDE_Aim = "Report to Dark Ranger Velonara."
+Inst59Quest1_HORDE_Location = "Doctor Gregory Victor (Arathi Highlands - Hammerfall; "..YELLOW.."68.4, 37.8"..WHITE..")"
+Inst59Quest1_HORDE_Note = "Dark Ranger Velonara is just inside the entrance of the Scarlet Monastery Graveyard"
 Inst59Quest1_HORDE_Prequest = "None"
 Inst59Quest1_HORDE_Folgequest = "None"
---
-Inst59Quest1name1_HORDE = "Vorrel's Boots"
-Inst59Quest1name2_HORDE = "Mantle of Woe"
-Inst59Quest1name3_HORDE = "Grimsteel Cape"
+-- No Rewards for this quest
 
 --Quest 2 Horde
-Inst59Quest2_HORDE = "2. Hearts of Zeal"
-Inst59Quest2_HORDE_Level = "33"
-Inst59Quest2_HORDE_Attain = "30"
-Inst59Quest2_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst59Quest2_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst59Quest2_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
-Inst59Quest2_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
+Inst59Quest2_HORDE = "2. The Dark Side of the Light"
+Inst59Quest2_HORDE_Level = "30"
+Inst59Quest2_HORDE_Attain = "28"
+Inst59Quest2_HORDE_Aim = "Kill Interrogator Vishas and Bloodmage Thalnos."
+Inst59Quest2_HORDE_Location = "Dark Ranger Velonara (Scarlet Monastery Graveyard; "..YELLOW.."Entrance"..WHITE..")"
+Inst59Quest2_HORDE_Note = "Interrogator Vishas is at "..YELLOW.."[1]"..WHITE.." and Bloodmage Thalnos is at "..YELLOW.."[2]"..WHITE.."."
+Inst59Quest2_HORDE_Prequest = "None"
 Inst59Quest2_HORDE_Folgequest = "None"
-Inst59Quest2PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 1 Alliance)
-Inst59Quest3_HORDE = "3. Call the Headless Horseman (Daily - Seasonal)"
-Inst59Quest3_HORDE_Level = Inst59Quest1_Level
-Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
-Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
-Inst59Quest3_HORDE_Location = Inst59Quest1_Location
-Inst59Quest3_HORDE_Note = Inst59Quest1_Note
-Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
-Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
--- No Rewards for this quest
+--
+Inst59Quest2name1_HORDE = "Scarlet Zealot's Helm"
+Inst59Quest2name2_HORDE = "Interrogator's Shackles"
+Inst59Quest2name3_HORDE = "Gloves of the Pure"
+Inst59Quest2name4_HORDE = "Strapping Belt"
+Inst59Quest2name5_HORDE = "Vishas' Hood"
 
 
 
