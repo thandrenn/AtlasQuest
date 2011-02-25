@@ -2076,8 +2076,8 @@ Inst12Quest1_HORDE_Folgequest = "Nein"
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst12Quest2_HORDE = Inst12Quest2
-Inst12Quest2_HORDE_Level = Inst12Quest2_Level
-Inst12Quest2_HORDE_Attain = Inst12Quest2_Attain
+Inst12Quest2_HORDE_Level = "43"
+Inst12Quest2_HORDE_Attain = "41"
 Inst12Quest2_HORDE_Aim = Inst12Quest2_Aim
 Inst12Quest2_HORDE_Location = Inst12Quest2_Location
 Inst12Quest2_HORDE_Note = Inst12Quest2_Note
@@ -2087,8 +2087,8 @@ Inst12Quest2_HORDE_Folgequest = "Nein"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst12Quest3_HORDE = Inst12Quest3
-Inst12Quest3_HORDE_Level = Inst12Quest3_Level
-Inst12Quest3_HORDE_Attain = Inst12Quest3_Attain
+Inst12Quest3_HORDE_Level = "43"
+Inst12Quest3_HORDE_Attain = "41"
 Inst12Quest3_HORDE_Aim = Inst12Quest3_Aim
 Inst12Quest3_HORDE_Location = Inst12Quest3_Location
 Inst12Quest3_HORDE_Note = Inst12Quest3_Note
@@ -2098,8 +2098,8 @@ Inst12Quest3_HORDE_Folgequest = "Nein"
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst12Quest4_HORDE = Inst12Quest4
-Inst12Quest4_HORDE_Level = Inst12Quest4_Level
-Inst12Quest4_HORDE_Attain = Inst12Quest4_Attain
+Inst12Quest4_HORDE_Level = "43"
+Inst12Quest4_HORDE_Attain = "41"
 Inst12Quest4_HORDE_Aim = Inst12Quest4_Aim
 Inst12Quest4_HORDE_Location = Inst12Quest4_Location
 Inst12Quest4_HORDE_Note = Inst12Quest4_Note
@@ -2109,8 +2109,8 @@ Inst12Quest4_HORDE_Folgequest = "Nein"
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst12Quest5_HORDE = Inst12Quest5
-Inst12Quest5_HORDE_Level = Inst12Quest5_Level
-Inst12Quest5_HORDE_Attain = Inst12Quest5_Attain
+Inst12Quest5_HORDE_Level = "44"
+Inst12Quest5_HORDE_Attain = "41"
 Inst12Quest5_HORDE_Aim = Inst12Quest5_Aim
 Inst12Quest5_HORDE_Location = Inst12Quest5_Location
 Inst12Quest5_HORDE_Note = Inst12Quest5_Note
@@ -2120,8 +2120,8 @@ Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst12Quest6_HORDE = Inst12Quest6
-Inst12Quest6_HORDE_Level = Inst12Quest6_Level
-Inst12Quest6_HORDE_Attain = Inst12Quest6_Attain
+Inst12Quest6_HORDE_Level = "44"
+Inst12Quest6_HORDE_Attain = "41"
 Inst12Quest6_HORDE_Aim = Inst12Quest6_Aim
 Inst12Quest6_HORDE_Location = Inst12Quest6_Location
 Inst12Quest6_HORDE_Note = Inst12Quest6_Note
@@ -2136,8 +2136,8 @@ Inst12Quest6name4_HORDE = Inst12Quest6name4
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst12Quest7_HORDE = Inst12Quest7
-Inst12Quest7_HORDE_Level = Inst12Quest7_Level
-Inst12Quest7_HORDE_Attain = Inst12Quest7_Attain
+Inst12Quest7_HORDE_Level = "60"
+Inst12Quest7_HORDE_Attain = "54"
 Inst12Quest7_HORDE_Aim = Inst12Quest7_Aim
 Inst12Quest7_HORDE_Location = Inst12Quest7_Location
 Inst12Quest7_HORDE_Note = Inst12Quest7_Note
@@ -2148,8 +2148,8 @@ Inst12Quest7name1_HORDE = Inst12Quest7name1
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst12Quest8_HORDE = Inst12Quest8
-Inst12Quest8_HORDE_Level = Inst12Quest8_Level
-Inst12Quest8_HORDE_Attain = Inst12Quest8_Attain
+Inst12Quest8_HORDE_Level = "60"
+Inst12Quest8_HORDE_Attain = "54"
 Inst12Quest8_HORDE_Aim = Inst12Quest8_Aim
 Inst12Quest8_HORDE_Location = Inst12Quest8_Location
 Inst12Quest8_HORDE_Note = Inst12Quest8_Note
@@ -2160,8 +2160,8 @@ Inst12Quest8name1_HORDE = Inst12Quest8name1
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst12Quest9_HORDE = Inst12Quest9
-Inst12Quest9_HORDE_Level = Inst12Quest9_Level
-Inst12Quest9_HORDE_Attain = Inst12Quest9_Attain
+Inst12Quest9_HORDE_Level = "60"
+Inst12Quest9_HORDE_Attain = "54"
 Inst12Quest9_HORDE_Aim = Inst12Quest9_Aim
 Inst12Quest9_HORDE_Location = Inst12Quest9_Location
 Inst12Quest9_HORDE_Note = Inst12Quest9_Note
@@ -2172,8 +2172,8 @@ Inst12Quest9name1_HORDE = Inst12Quest9name1
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
 Inst12Quest10_HORDE = Inst12Quest10
-Inst12Quest10_HORDE_Level = Inst12Quest10_Level
-Inst12Quest10_HORDE_Attain = Inst12Quest10_Attain
+Inst12Quest10_HORDE_Level = "60"
+Inst12Quest10_HORDE_Attain = "54"
 Inst12Quest10_HORDE_Aim = Inst12Quest10_Aim
 Inst12Quest10_HORDE_Location = Inst12Quest10_Location
 Inst12Quest10_HORDE_Note = Inst12Quest10_Note
@@ -2184,8 +2184,8 @@ Inst12Quest10name1_HORDE = Inst12Quest10name1
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
 Inst12Quest11_HORDE = Inst12Quest11
-Inst12Quest11_HORDE_Level = Inst12Quest11_Level
-Inst12Quest11_HORDE_Attain = Inst12Quest11_Attain
+Inst12Quest11_HORDE_Level = "60"
+Inst12Quest11_HORDE_Attain = "54"
 Inst12Quest11_HORDE_Aim = Inst12Quest11_Aim
 Inst12Quest11_HORDE_Location = Inst12Quest11_Location
 Inst12Quest11_HORDE_Note = Inst12Quest11_Note
@@ -2196,8 +2196,8 @@ Inst12Quest11name1_HORDE = Inst12Quest11name1
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
 Inst12Quest12_HORDE = Inst12Quest12
-Inst12Quest12_HORDE_Level = Inst12Quest12_Level
-Inst12Quest12_HORDE_Attain = Inst12Quest12_Attain
+Inst12Quest12_HORDE_Level = "60"
+Inst12Quest12_HORDE_Attain = "54"
 Inst12Quest12_HORDE_Aim = Inst12Quest12_Aim
 Inst12Quest12_HORDE_Location = Inst12Quest12_Location
 Inst12Quest12_HORDE_Note = Inst12Quest12_Note
@@ -2208,8 +2208,8 @@ Inst12Quest12name1_HORDE = Inst12Quest12name1
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
 Inst12Quest13_HORDE = Inst12Quest13
-Inst12Quest13_HORDE_Level = Inst12Quest13_Level
-Inst12Quest13_HORDE_Attain = Inst12Quest13_Attain
+Inst12Quest13_HORDE_Level = "60"
+Inst12Quest13_HORDE_Attain = "54"
 Inst12Quest13_HORDE_Aim = Inst12Quest13_Aim
 Inst12Quest13_HORDE_Location = Inst12Quest13_Location
 Inst12Quest13_HORDE_Note = Inst12Quest13_Note
@@ -2220,8 +2220,8 @@ Inst12Quest13name1_HORDE = Inst12Quest13name1
 
 --Quest 14 Horde  (same as Quest 14 Alliance)
 Inst12Quest14_HORDE = Inst12Quest14
-Inst12Quest14_HORDE_Level = Inst12Quest14_Level
-Inst12Quest14_HORDE_Attain = Inst12Quest14_Attain
+Inst12Quest14_HORDE_Level = "60"
+Inst12Quest14_HORDE_Attain = "54"
 Inst12Quest14_HORDE_Aim = Inst12Quest14_Aim
 Inst12Quest14_HORDE_Location = Inst12Quest14_Location
 Inst12Quest14_HORDE_Note = Inst12Quest14_Note
@@ -2232,8 +2232,8 @@ Inst12Quest14name1_HORDE = Inst12Quest14name1
 
 --Quest 15 Horde  (same as Quest 15 Alliance)
 Inst12Quest15_HORDE = Inst12Quest15
-Inst12Quest15_HORDE_Level = Inst12Quest15_Level
-Inst12Quest15_HORDE_Attain = Inst12Quest15_Attain
+Inst12Quest15_HORDE_Level = "60"
+Inst12Quest15_HORDE_Attain = "54"
 Inst12Quest15_HORDE_Aim = Inst12Quest15_Aim
 Inst12Quest15_HORDE_Location = Inst12Quest15_Location
 Inst12Quest15_HORDE_Note = Inst12Quest15_Note
@@ -2292,8 +2292,8 @@ Inst13Quest3name5 = "Zaetars Handschuhe"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst13Quest1_HORDE = Inst13Quest1
-Inst13Quest1_HORDE_Level = Inst13Quest1_Level
-Inst13Quest1_HORDE_Attain = Inst13Quest1_Attain
+Inst13Quest1_HORDE_Level = "34"
+Inst13Quest1_HORDE_Attain = "32"
 Inst13Quest1_HORDE_Aim = Inst13Quest1_Aim
 Inst13Quest1_HORDE_Location = Inst13Quest1_Location
 Inst13Quest1_HORDE_Note = Inst13Quest1_Note
@@ -2303,8 +2303,8 @@ Inst13Quest1_HORDE_Folgequest = "Nein"
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst13Quest2_HORDE = Inst13Quest2
-Inst13Quest2_HORDE_Level = Inst13Quest2_Level
-Inst13Quest2_HORDE_Attain = Inst13Quest2_Attain
+Inst13Quest2_HORDE_Level = "36"
+Inst13Quest2_HORDE_Attain = "34"
 Inst13Quest2_HORDE_Aim = Inst13Quest2_Aim
 Inst13Quest2_HORDE_Location = Inst13Quest2_Location
 Inst13Quest2_HORDE_Note = Inst13Quest2_Note
@@ -2314,8 +2314,8 @@ Inst13Quest2_HORDE_Folgequest = "Nein"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst13Quest3_HORDE = Inst13Quest3
-Inst13Quest3_HORDE_Level = Inst13Quest3_Level
-Inst13Quest3_HORDE_Attain = Inst13Quest3_Attain
+Inst13Quest3_HORDE_Level = "39"
+Inst13Quest3_HORDE_Attain = "36"
 Inst13Quest3_HORDE_Aim = Inst13Quest3_Aim
 Inst13Quest3_HORDE_Location = Inst13Quest3_Location
 Inst13Quest3_HORDE_Note = Inst13Quest3_Note
@@ -2364,20 +2364,20 @@ Inst14Quest2name1 = "Pläne: Sulfuronhammer"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst14Quest1_HORDE = Inst14Quest1
-Inst14Quest1_HORDE_Level = Inst14Quest1_Level
-Inst14Quest1_HORDE_Attain = Inst14Quest1_Attain
+Inst14Quest1_HORDE_Level = "60"
+Inst14Quest1_HORDE_Attain = "60"
 Inst14Quest1_HORDE_Aim = Inst14Quest1_Aim
 Inst14Quest1_HORDE_Location = Inst14Quest1_Location
 Inst14Quest1_HORDE_Note = Inst14Quest1_Note
-Inst14Quest1_HORDE_Prequest = Inst14Quest1_Prequest
-Inst14Quest1_HORDE_Folgequest = Inst14Quest1_Folgequest
-Inst14Quest1PreQuest_HORDE = Inst14Quest1PreQuest
+Inst14Quest1_HORDE_Prequest = "Nein"
+Inst14Quest1_HORDE_Folgequest = "Nein"
+Inst14Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst14Quest2_HORDE = Inst14Quest2
-Inst14Quest2_HORDE_Level = Inst14Quest2_Level
-Inst14Quest2_HORDE_Attain = Inst14Quest2_Attain
+Inst14Quest2_HORDE_Level = "60"
+Inst14Quest2_HORDE_Attain = "60"
 Inst14Quest2_HORDE_Aim = Inst14Quest2_Aim
 Inst14Quest2_HORDE_Location = Inst14Quest2_Location
 Inst14Quest2_HORDE_Note = Inst14Quest2_Note
@@ -2510,8 +2510,8 @@ Inst17Quest5name1 = "Drachenklauenring"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst17Quest1_HORDE = Inst17Quest1
-Inst17Quest1_HORDE_Level = Inst17Quest1_Level
-Inst17Quest1_HORDE_Attain = Inst17Quest1_Attain
+Inst17Quest1_HORDE_Level = "43"
+Inst17Quest1_HORDE_Attain = "42"
 Inst17Quest1_HORDE_Aim = "Findet Hilfe bei den Hügeln der Klingenhauer."
 Inst17Quest1_HORDE_Location = "Kanati Grauwolke (Tausend Nadeln - Der Westliche Gipfel; "..YELLOW.."11.0,11.2 "..WHITE..")"
 Inst17Quest1_HORDE_Note = Inst17Quest1_Note
@@ -2521,8 +2521,8 @@ Inst17Quest1_HORDE_Folgequest = Inst17Quest1_Folgequest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst17Quest2_HORDE = Inst17Quest2
-Inst17Quest2_HORDE_Level = Inst17Quest2_Level
-Inst17Quest2_HORDE_Attain = Inst17Quest2_Attain
+Inst17Quest2_HORDE_Level = "46"
+Inst17Quest2_HORDE_Attain = "40"
 Inst17Quest2_HORDE_Aim = Inst17Quest2_Aim
 Inst17Quest2_HORDE_Location = Inst17Quest2_Location
 Inst17Quest2_HORDE_Note = Inst17Quest2_Note
@@ -2538,8 +2538,8 @@ Inst17Quest2name5_HORDE = Inst17Quest2name5
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst17Quest3_HORDE = Inst17Quest3
-Inst17Quest3_HORDE_Level = Inst17Quest3_Level
-Inst17Quest3_HORDE_Attain = Inst17Quest3_Attain
+Inst17Quest3_HORDE_Level = "44"
+Inst17Quest3_HORDE_Attain = "40"
 Inst17Quest3_HORDE_Aim = Inst17Quest3_Aim
 Inst17Quest3_HORDE_Location = Inst17Quest3_Location
 Inst17Quest3_HORDE_Note = Inst17Quest3_Note
@@ -2549,8 +2549,8 @@ Inst17Quest3_HORDE_Folgequest = "Nein"
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst17Quest4_HORDE = Inst17Quest4
-Inst17Quest4_HORDE_Level = Inst17Quest4_Level
-Inst17Quest4_HORDE_Attain = Inst17Quest4_Attain
+Inst17Quest4_HORDE_Level = "44"
+Inst17Quest4_HORDE_Attain = "40"
 Inst17Quest4_HORDE_Aim = Inst17Quest4_Aim
 Inst17Quest4_HORDE_Location = Inst17Quest4_Location
 Inst17Quest4_HORDE_Note = Inst17Quest4_Note
@@ -2560,8 +2560,8 @@ Inst17Quest4_HORDE_Folgequest = "Nein"
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst17Quest5_HORDE = Inst17Quest5
-Inst17Quest5_HORDE_Level = Inst17Quest5_Level
-Inst17Quest5_HORDE_Attain = Inst17Quest5_Attain
+Inst17Quest5_HORDE_Level = "44"
+Inst17Quest5_HORDE_Attain = "40"
 Inst17Quest5_HORDE_Aim = Inst17Quest5_Aim
 Inst17Quest5_HORDE_Location = Inst17Quest5_Location
 Inst17Quest5_HORDE_Note = Inst17Quest5_Note
@@ -2571,8 +2571,8 @@ Inst17Quest5_HORDE_Folgequest = Inst17Quest5PreQuest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst17Quest6_HORDE = Inst17Quest6
-Inst17Quest6_HORDE_Level = Inst17Quest6_Level
-Inst17Quest6_HORDE_Attain = Inst17Quest6_Attain
+Inst17Quest6_HORDE_Level = "45"
+Inst17Quest6_HORDE_Attain = "40"
 Inst17Quest6_HORDE_Aim = Inst17Quest6_Aim
 Inst17Quest6_HORDE_Location = Inst17Quest6_Location
 Inst17Quest6_HORDE_Note = Inst17Quest6_Note
@@ -2654,8 +2654,8 @@ Inst18Quest5_Folgequest = "Nein"
 
 --Quest 6 Alliance
 Inst18Quest6 = "3. Willix der Importeur"
-Inst18Quest6_Level = "30"
-Inst18Quest6_Attain = "22"
+Inst18Quest6_Level = "35"
+Inst18Quest6_Attain = "30"
 Inst18Quest6_Aim = "Führt Willix den Importeur aus dem Kral der Klingenhauer hinaus."
 Inst18Quest6_Location = "Willix der Importeur (Kral der Klingenhauer; "..GREEN.."[2']"..WHITE..")"
 Inst18Quest6_Note = "Willix der Importeur muss zum Eingang der Instanz begleitet werden. Danach gibt man das Quest bei ihm ab."
@@ -2668,8 +2668,8 @@ Inst18Quest6name3 = "Tigerband"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst18Quest1_HORDE = Inst18Quest1
-Inst18Quest1_HORDE_Level = Inst18Quest1_Level
-Inst18Quest1_HORDE_Attain = Inst18Quest1_Attain
+Inst18Quest1_HORDE_Level = "33"
+Inst18Quest1_HORDE_Attain = "30"
 Inst18Quest1_HORDE_Aim = Inst18Quest1_Aim
 Inst18Quest1_HORDE_Location = Inst18Quest1_Location
 Inst18Quest1_HORDE_Note = Inst18Quest1_Note
@@ -2679,8 +2679,8 @@ Inst18Quest1_HORDE_Folgequest = "Nein"
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst18Quest2_HORDE = Inst18Quest2
-Inst18Quest2_HORDE_Level = Inst18Quest2_Level
-Inst18Quest2_HORDE_Attain = Inst18Quest2_Attain
+Inst18Quest2_HORDE_Level = "35"
+Inst18Quest2_HORDE_Attain = "30"
 Inst18Quest2_HORDE_Aim = Inst18Quest2_Aim
 Inst18Quest2_HORDE_Location = Inst18Quest2_Location
 Inst18Quest2_HORDE_Note = Inst18Quest2_Note
@@ -2690,8 +2690,8 @@ Inst18Quest2_HORDE_Folgequest = "Nein"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst18Quest3_HORDE = Inst18Quest3
-Inst18Quest3_HORDE_Level = Inst18Quest3_Level
-Inst18Quest3_HORDE_Attain = Inst18Quest3_Attain
+Inst18Quest3_HORDE_Level = "35"
+Inst18Quest3_HORDE_Attain = "30"
 Inst18Quest3_HORDE_Aim = Inst18Quest3_Aim
 Inst18Quest3_HORDE_Location = Inst18Quest3_Location
 Inst18Quest3_HORDE_Note = Inst18Quest3_Note
@@ -2707,8 +2707,8 @@ Inst18Quest3name5_HORDE = Inst18Quest3name5
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst18Quest4_HORDE = Inst18Quest4
-Inst18Quest4_HORDE_Level = Inst18Quest4_Level
-Inst18Quest4_HORDE_Attain = Inst18Quest4_Attain
+Inst18Quest4_HORDE_Level = "35"
+Inst18Quest4_HORDE_Attain = "30"
 Inst18Quest4_HORDE_Aim = Inst18Quest4_Aim
 Inst18Quest4_HORDE_Location = Inst18Quest4_Location
 Inst18Quest4_HORDE_Note = Inst18Quest4_Note
@@ -2729,8 +2729,8 @@ Inst18Quest5_HORDE_Folgequest = "Nein"
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst18Quest6_HORDE = Inst18Quest6
-Inst18Quest6_HORDE_Level = "30"
-Inst18Quest6_HORDE_Attain = "22"
+Inst18Quest6_HORDE_Level = "35"
+Inst18Quest6_HORDE_Attain = "30"
 Inst18Quest6_HORDE_Aim = Inst18Quest6_Aim
 Inst18Quest6_HORDE_Location = Inst18Quest6_Location
 Inst18Quest6_HORDE_Note = Inst18Quest6_Note
@@ -2814,8 +2814,8 @@ Inst19Quest2name3_HORDE = "Band des Arkanisten"
 
 --Quest 3 Horde (same as Quest 3 Alliance)
 Inst19Quest3_HORDE = Inst19Quest3
-Inst19Quest3_HORDE_Level = Inst19Quest3_Level
-Inst19Quest3_HORDE_Attain = Inst19Quest3_Attain
+Inst19Quest3_HORDE_Level = "33"
+Inst19Quest3_HORDE_Attain = "29"
 Inst19Quest3_HORDE_Aim = Inst19Quest3_Aim
 Inst19Quest3_HORDE_Location = Inst19Quest3_Location
 Inst19Quest3_HORDE_Note = Inst19Quest3_Note
@@ -3183,91 +3183,91 @@ Inst20Quest8name4 = "Signet des Dunkelmeisters"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst20Quest1_HORDE = Inst20Quest1
-Inst20Quest1_HORDE_Level = Inst20Quest1_Level
-Inst20Quest1_HORDE_Attain = Inst20Quest1_Attain
+Inst20Quest1_HORDE_Level = "43"
+Inst20Quest1_HORDE_Attain = "38"
 Inst20Quest1_HORDE_Aim = Inst20Quest1_Aim
 Inst20Quest1_HORDE_Location = Inst20Quest1_Location
 Inst20Quest1_HORDE_Note = Inst20Quest1_Note
-Inst20Quest1_HORDE_Prequest = Inst20Quest1_Prequest
-Inst20Quest1_HORDE_Folgequest = Inst20Quest1_Folgequest
+Inst20Quest1_HORDE_Prequest = "Nein"
+Inst20Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst20Quest2_HORDE = Inst20Quest2
-Inst20Quest2_HORDE_Level = Inst20Quest2_Level
-Inst20Quest2_HORDE_Attain = Inst20Quest2_Attain
+Inst20Quest2_HORDE_Level = "43"
+Inst20Quest2_HORDE_Attain = "38"
 Inst20Quest2_HORDE_Aim = Inst20Quest2_Aim
 Inst20Quest2_HORDE_Location = Inst20Quest2_Location
 Inst20Quest2_HORDE_Note = Inst20Quest2_Note
-Inst20Quest2_HORDE_Prequest = Inst20Quest2_Prequest
-Inst20Quest2_HORDE_Folgequest = Inst20Quest2_Folgequest
+Inst20Quest2_HORDE_Prequest = "Nein"
+Inst20Quest2_HORDE_Folgequest = "Nein"
 --
 Inst20Quest2name1_HORDE = Inst20Quest2name1
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst20Quest3_HORDE = Inst20Quest3
-Inst20Quest3_HORDE_Level = Inst20Quest3_Level
-Inst20Quest3_HORDE_Attain = Inst20Quest3_Attain
+Inst20Quest3_HORDE_Level = "43"
+Inst20Quest3_HORDE_Attain = "38"
 Inst20Quest3_HORDE_Aim = Inst20Quest3_Aim
 Inst20Quest3_HORDE_Location = Inst20Quest3_Location
 Inst20Quest3_HORDE_Note = Inst20Quest3_Note
-Inst20Quest3_HORDE_Prequest = Inst20Quest3_Prequest
-Inst20Quest3_HORDE_Folgequest = Inst20Quest3_Folgequest
+Inst20Quest3_HORDE_Prequest = "Nein"
+Inst20Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst20Quest4_HORDE = Inst20Quest4
-Inst20Quest4_HORDE_Level = Inst20Quest4_Level
-Inst20Quest4_HORDE_Attain = Inst20Quest4_Attain
+Inst20Quest4_HORDE_Level = "43"
+Inst20Quest4_HORDE_Attain = "38"
 Inst20Quest4_HORDE_Aim = Inst20Quest4_Aim
 Inst20Quest4_HORDE_Location = Inst20Quest4_Location
 Inst20Quest4_HORDE_Note = Inst20Quest4_Note
-Inst20Quest4_HORDE_Prequest = Inst20Quest4_Prequest
-Inst20Quest4_HORDE_Folgequest = Inst20Quest4_Folgequest
+Inst20Quest4_HORDE_Prequest = "Nein"
+Inst20Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst20Quest5_HORDE = Inst20Quest5
-Inst20Quest5_HORDE_Level = Inst20Quest5_Level
-Inst20Quest5_HORDE_Attain = Inst20Quest5_Attain
+Inst20Quest5_HORDE_Level = "42"
+Inst20Quest5_HORDE_Attain = "40"
 Inst20Quest5_HORDE_Aim = Inst20Quest5_Aim
 Inst20Quest5_HORDE_Location = Inst20Quest5_Location
 Inst20Quest5_HORDE_Note = Inst20Quest5_Note
-Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
-Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
+Inst20Quest5_HORDE_Prequest = "Nein"
+Inst20Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst20Quest6_HORDE = Inst20Quest6
-Inst20Quest6_HORDE_Level = Inst20Quest6_Level
-Inst20Quest6_HORDE_Attain = Inst20Quest6_Attain
+Inst20Quest6_HORDE_Level = "43"
+Inst20Quest6_HORDE_Attain = "38"
 Inst20Quest6_HORDE_Aim = Inst20Quest6_Aim
 Inst20Quest6_HORDE_Location = Inst20Quest6_Location
 Inst20Quest6_HORDE_Note = Inst20Quest6_Note
-Inst20Quest6_HORDE_Prequest = Inst20Quest6_Prequest
-Inst20Quest6_HORDE_Folgequest = Inst20Quest6_Folgequest
+Inst20Quest6_HORDE_Prequest = "Nein"
+Inst20Quest6_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst20Quest7_HORDE = Inst20Quest7
-Inst20Quest7_HORDE_Level = Inst20Quest7_Level
-Inst20Quest7_HORDE_Attain = Inst20Quest7_Attain
+Inst20Quest7_HORDE_Level = "42"
+Inst20Quest7_HORDE_Attain = "38"
 Inst20Quest7_HORDE_Aim = Inst20Quest7_Aim
 Inst20Quest7_HORDE_Location = Inst20Quest7_Location
 Inst20Quest7_HORDE_Note = Inst20Quest7_Note
-Inst20Quest7_HORDE_Prequest = Inst20Quest7_Prequest
-Inst20Quest7_HORDE_Folgequest = Inst20Quest7_Folgequest
+Inst20Quest7_HORDE_Prequest = "Nein"
+Inst20Quest7_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst20Quest8_HORDE = Inst20Quest8
-Inst20Quest8_HORDE_Level = Inst20Quest8_Level
-Inst20Quest8_HORDE_Attain = Inst20Quest8_Attain
+Inst20Quest8_HORDE_Level = "43"
+Inst20Quest8_HORDE_Attain = "38"
 Inst20Quest8_HORDE_Aim = Inst20Quest8_Aim
 Inst20Quest8_HORDE_Location = Inst20Quest8_Location
 Inst20Quest8_HORDE_Note = Inst20Quest8_Note
-Inst20Quest8_HORDE_Prequest = Inst20Quest8_Prequest
-Inst20Quest8_HORDE_Folgequest = Inst20Quest8_Folgequest
+Inst20Quest8_HORDE_Prequest = "Nein"
+Inst20Quest8_HORDE_Folgequest = "Nein"
 --
 Inst20Quest8name1_HORDE = Inst20Quest8name1
 Inst20Quest8name2_HORDE = Inst20Quest8name2
