@@ -259,9 +259,9 @@ Inst1Quest5name3 = "Krümels Tischdecke"
 Inst1Quest1_HORDE = "1. Erst der Anfang"
 Inst1Quest1_HORDE_Level = "16"
 Inst1Quest1_HORDE_Attain = "15"
-Inst1Quest1_HORDE_Aim = "Tötet Glubtok."
+Inst1Quest1_HORDE_Aim = Inst1Quest1_Aim
 Inst1Quest1_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest1_HORDE_Note = "Glubtok ist der erste Boss, befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst1Quest1_HORDE_Note = Inst1Quest1_Note
 Inst1Quest1_HORDE_Prequest = "Nein"
 Inst1Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -270,9 +270,9 @@ Inst1Quest1_HORDE_Folgequest = "Nein"
 Inst1Quest2_HORDE = "2. Verräter!!!"
 Inst1Quest2_HORDE_Level = "16"
 Inst1Quest2_HORDE_Attain = "15"
-Inst1Quest2_HORDE_Aim = "Besiegt Helix Ritzelbrecher."
+Inst1Quest2_HORDE_Aim = Inst1Quest2_Aim
 Inst1Quest2_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest2_HORDE_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr den Mastraum in den Todesminen betreten habt.\n\nHelix Ritzelbrecher ist der zweite Boss, befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst1Quest2_HORDE_Note = Inst1Quest2_Note
 Inst1Quest2_HORDE_Prequest = "Nein"
 Inst1Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -281,9 +281,9 @@ Inst1Quest2_HORDE_Folgequest = "Nein"
 Inst1Quest3_HORDE = "3. Noch nicht ganz fertig"
 Inst1Quest3_HORDE_Level = "16"
 Inst1Quest3_HORDE_Attain = "15"
-Inst1Quest3_HORDE_Aim = "Zerstört den Feindschnitter 5000."
+Inst1Quest3_HORDE_Aim = Inst1Quest3_Aim
 Inst1Quest3_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest3_HORDE_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die Goblin-Gießerei in den Todesminen betreten habt.\n\nFeindschnitter 5000 ist der dritte Boss, befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst1Quest3_HORDE_Note = Inst1Quest3_Note
 Inst1Quest3_HORDE_Prequest = "Nein"
 Inst1Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -292,27 +292,27 @@ Inst1Quest3_HORDE_Folgequest = "Nein"
 Inst1Quest4_HORDE = "4.Gute Absichten...Schlechte Durchführung"
 Inst1Quest4_HORDE_Level = "16"
 Inst1Quest4_HORDE_Attain = "15"
-Inst1Quest4_HORDE_Aim = "Tötet Admiral Knurrreißer."
+Inst1Quest4_HORDE_Aim = Inst1Quest4_Aim
 Inst1Quest4_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest4_HORDE_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die gepanzerte Bucht in den Todesminen betreten habt.\n\nAdmiral Knurrreißer ist der vierte Boss, befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest4_HORDE_Note = Inst1Quest4_Note
 Inst1Quest4_HORDE_Prequest = "Nein"
-Inst1Quest4_HORDE_Folgequest = "Ja, Die Nummer Eins der Defias"
+Inst1Quest4_HORDE_Folgequest = Inst4Quest2_Folgequest
 -- No Rewards for this quest
 
 --Quest 5 Horde
-Inst1Quest5_HORDE = "5. Die Nummer Eins der Defias"
+Inst1Quest5_HORDE = Inst1Quest5
 Inst1Quest5_HORDE_Level = "17"
 Inst1Quest5_HORDE_Attain = "15"
-Inst1Quest5_HORDE_Aim = "Töter die Nummer Eins der Defias."
+Inst1Quest5_HORDE_Aim = Inst1Quest5_Aim
 Inst1Quest5_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest5_HORDE_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die Quest Die Nummer Eins erledigt habt.\n\n'Kapitän' Krümel ist der finale Endboss (auf normal), befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest5_HORDE_Note = Inst1Quest5_Note
 Inst1Quest5_HORDE_Prequest = "Ja, Gute Absichten...Schlechte Durchführung"
 Inst1Quest5_HORDE_Folgequest = "Nein"
 Inst1Quest5FQuest_HORDE = "true"
 --
-Inst1Quest5name1_HORDE = "Krümels Fleischklopfer"
-Inst1Quest5name2_HORDE = "Krümels Rührstab"
-Inst1Quest5name3_HORDE = "Krümels Tischdecke" 
+Inst1Quest5name1_HORDE = Inst1Quest5name1
+Inst1Quest5name2_HORDE = Inst1Quest5name2
+Inst1Quest5name3_HORDE = Inst1Quest5name3 
 
 
 
@@ -464,8 +464,6 @@ Inst3Quest4_HORDE_Prequest = "Nein"
 Inst3Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
--- No Rewards for this quest
-
 
 
 --------------- INST4 - Uldaman (Ulda) ---------------
@@ -485,7 +483,7 @@ Inst4Quest1_Level = "39"
 Inst4Quest1_Attain = "37"
 Inst4Quest1_Aim = "Besiegt Ironaya."
 Inst4Quest1_Location = "Oberausgrabungsleiter Durdin (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
-Inst4Quest1_Note = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nYou can turn the quest in and accept the followup with the Quest Log."
+Inst4Quest1_Note = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nDu kannst diese Quest annehmen und die nächste die vom Questlog kommt akzeptieren."
 Inst4Quest1_Prequest = "Nein"
 Inst4Quest1_Folgequest = "Ja, Archaedas, der alte Steinbehüter"
 -- No Rewards for this quest
@@ -555,21 +553,21 @@ Inst4Quest6name3 = "Durdins Hammer"
 Inst4Quest1_HORDE = "1. Die Kammer von Khaz'mul"
 Inst4Quest1_HORDE_Level = "39"
 Inst4Quest1_HORDE_Attain = "37"
-Inst4Quest1_HORDE_Aim = "Besiegt Ironaya."
+Inst4Quest1_HORDE_Aim = Inst4Quest1_Aim
 Inst4Quest1_HORDE_Location = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
-Inst4Quest1_HORDE_Note = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nYou can turn the quest in and accept the followup with the Quest Log."
+Inst4Quest1_HORDE_Note = Inst4Quest1_Note
 Inst4Quest1_HORDE_Prequest = "Nein"
-Inst4Quest1_HORDE_Folgequest = "Ja, Archaedas, der alte Steinbehüter"
+Inst4Quest1_HORDE_Folgequest = Inst4Quest1_Folgequest
 -- No Rewards for this quest
 
 --Quest 2 Horde
 Inst4Quest2_HORDE = "2. Archaedas, der alte Steinbehüter"
 Inst4Quest2_HORDE_Level = "40"
 Inst4Quest2_HORDE_Attain = "37"
-Inst4Quest2_HORDE_Aim = "Besiegt Archaedas."
+Inst4Quest2_HORDE_Aim = Inst4Quest2_Aim
 Inst4Quest2_HORDE_Location = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
-Inst4Quest2_HORDE_Note = "Archaedas ist bei "..YELLOW.."[8]"..WHITE.."."
-Inst4Quest2_HORDE_Prequest = "Ja, Die Kammer von Khaz'mul"
+Inst4Quest2_HORDE_Note = Inst4Quest2_Note
+Inst4Quest2_HORDE_Prequest = Inst4Quest2_Prequest
 Inst4Quest2_HORDE_Folgequest = "Nein"
 Inst4Quest2FQuest_Horde = "true"
 -- No Rewards for this quest
@@ -578,9 +576,9 @@ Inst4Quest2FQuest_Horde = "true"
 Inst4Quest3_HORDE = "3. Es kommt auf die inneren Werte an"
 Inst4Quest3_HORDE_Level = "39"
 Inst4Quest3_HORDE_Attain = "37"
-Inst4Quest3_HORDE_Aim = "Beschafft Euch den Obsidiankraftkern und den Titankraftkern."
+Inst4Quest3_HORDE_Aim = Inst4Quest3_Aim
 Inst4Quest3_HORDE_Location = "Aoren Sonnenglanz (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
-Inst4Quest3_HORDE_Note = "Der Obsidiankraftkern droppt von den Obsidianschildwache bei "..YELLOW.."[4]"..WHITE.." und der Titankraftkern von dem Uralter Steinbewahrer bei "..YELLOW.."[5]"..WHITE.."."
+Inst4Quest3_HORDE_Note = Inst4Quest3_Note
 Inst4Quest3_HORDE_Prequest = "Nein"
 Inst4Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -589,14 +587,14 @@ Inst4Quest3_HORDE_Folgequest = "Nein"
 Inst4Quest4_HORDE = "4. Hinter verschlossenen Türen"
 Inst4Quest4_HORDE_Level = "39"
 Inst4Quest4_HORDE_Attain = "37"
-Inst4Quest4_HORDE_Aim = "Tötet Galgann Feuerhammer."
+Inst4Quest4_HORDE_Aim = Inst4Quest4_Aim
 Inst4Quest4_HORDE_Location = "Lidia Sonnenglanz (Uldaman; "..YELLOW.."Eingang"..WHITE..")"
-Inst4Quest4_HORDE_Note = "Galgann Feuerhammer ist bei "..YELLOW.."[6]"..WHITE.."."
+Inst4Quest4_HORDE_Note = Inst4Quest4_Note
 Inst4Quest4_HORDE_Prequest = "Nein"
 Inst4Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde (same as Quest 5 Alliance)
+--Quest 5 Horde  (same as Quest 5 Alliance)
 Inst4Quest5_HORDE = Inst4Quest5
 Inst4Quest5_HORDE_Level = "40"
 Inst4Quest5_HORDE_Attain = "37"
@@ -607,7 +605,7 @@ Inst4Quest5_HORDE_Prequest = "Nein"
 Inst4Quest5_HORDE_Folgequest = Inst4Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest 6 Horde (same as Quest 6 Alliance)
+--Quest 6 Horde  (same as Quest 6 Alliance)
 Inst4Quest6_HORDE = Inst4Quest6
 Inst4Quest6_HORDE_Level = "40"
 Inst4Quest6_HORDE_Attain = "37"
@@ -896,7 +894,7 @@ Inst5Quest21name1 = "Braufestmarken"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst5Quest1_HORDE = "1. Ins Gefängis"
+Inst5Quest1_HORDE = Inst5Quest1
 Inst5Quest1_HORDE_Level = "52"
 Inst5Quest1_HORDE_Attain = "47"
 Inst5Quest1_HORDE_Aim = "Findet Lexlort."
@@ -907,10 +905,10 @@ Inst5Quest1_HORDE_Folgequest = Inst5Quest1_Folgequest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
-Inst5Quest2_HORDE = "2. Schattenhammer?! Nein!"
+Inst5Quest2_HORDE = Inst5Quest2
 Inst5Quest2_HORDE_Level = "55"
 Inst5Quest2_HORDE_Attain = "47"
-Inst5Quest2_HORDE_Aim = "Tötet Verhörmeisterin Gerstahn."
+Inst5Quest2_HORDE_Aim = Inst5Quest2_Aim
 Inst5Quest2_HORDE_Location = "Lexlort (Blackrock Depths; "..GREEN.."[2']"..WHITE..")"
 Inst5Quest2_HORDE_Note = Inst5Quest2_Note
 Inst5Quest2_HORDE_Prequest = Inst5Quest2_Prequest
@@ -929,8 +927,8 @@ Inst5Quest3_HORDE_Prequest = "Nein"
 Inst5Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde
-Inst5Quest4_HORDE = "4. Schattenschmiede unterwandern"
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst5Quest4_HORDE = Inst5Quest4
 Inst5Quest4_HORDE_Level = "54"
 Inst5Quest4_HORDE_Attain = "51"
 Inst5Quest4_HORDE_Aim = "Sprecht mit Razal'hieb."
@@ -952,8 +950,8 @@ Inst5Quest5_HORDE_Folgequest = Inst5Quest5_Folgequest
 Inst5Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde (same as Quest 6 Alliance)
-Inst5Quest6_HORDE = "6. Der Grimmige Säufer"
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst5Quest6_HORDE = Inst5Quest6
 Inst5Quest6_HORDE_Level = "56"
 Inst5Quest6_HORDE_Attain = "51"
 Inst5Quest6_HORDE_Aim = Inst5Quest6_Aim
@@ -964,8 +962,8 @@ Inst5Quest6_HORDE_Folgequest = Inst5Quest6_Folgequest
 Inst5Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 7 Horde (same as Quest 7 Alliance)
-Inst5Quest7_HORDE = "7. Pakt mit den Dunkeleisenzwergen"
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst5Quest7_HORDE = Inst5Quest7
 Inst5Quest7_HORDE_Level = "57"
 Inst5Quest7_HORDE_Attain = "51"
 Inst5Quest7_HORDE_Aim = Inst5Quest7_Aim
@@ -1140,8 +1138,8 @@ Inst5Quest19name1_HORDE = "Helm des Sonnenläufers"
 Inst5Quest19name2_HORDE = "Gesichtsschutz des Sonnenläufers"
 Inst5Quest19name3_HORDE = "Kopfschutz des Sonnenläufers"
 
---Quest 20 Horde (same as Quest 19 Alliance)
-Inst5Quest20_HORDE = "20. Abstimmung mit dem Kern"
+--Quest 20 Horde  (same as Quest 19 Alliance)
+Inst5Quest20_HORDE = Inst5Quest19
 Inst5Quest20_HORDE_Level = "60"
 Inst5Quest20_HORDE_Attain = "55"
 Inst5Quest20_HORDE_Aim = Inst5Quest19_Aim
@@ -1151,8 +1149,8 @@ Inst5Quest20_HORDE_Prequest = "Nein"
 Inst5Quest20_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest 
 
---Quest 21 Horde (same as Quest 20 Alliance)
-Inst5Quest21_HORDE = "21. Der spektrale Kelch"
+--Quest 21 Horde  (same as Quest 20 Alliance)
+Inst5Quest21_HORDE = Inst5Quest20
 Inst5Quest21_HORDE_Level = "55"
 Inst5Quest21_HORDE_Attain = "55"
 Inst5Quest21_HORDE_Aim = Inst5Quest20_Aim
@@ -1162,8 +1160,8 @@ Inst5Quest21_HORDE_Prequest = "Nein"
 Inst5Quest21_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest 
 
---Quest 22 Horde
-Inst5Quest22_HORDE = "22. Düsterbräus Düsterbräu"
+--Quest 22 Horde  (same as Quest 21 Alliance)
+Inst5Quest22_HORDE = Inst5Quest21
 Inst5Quest22_HORDE_Level = "85"
 Inst5Quest22_HORDE_Attain = "85"
 Inst5Quest22_HORDE_Aim = "Bringt Düsterbräus Düsterbräu zu Zapfus Schwindelfass im Braufestlager in der Nähe von Orgrimmar"
@@ -2411,11 +2409,11 @@ Inst16Quest1name3 = "Geläuterter Talisman mit Onyxiablut"
 
 
 --Quest 1 Horde
-Inst16Quest1_HORDE = "1. Ein höchst merkwürdiger Umstand"
+Inst16Quest1_HORDE = Inst16Quest1
 Inst16Quest1_HORDE_Level = "80"
 Inst16Quest1_HORDE_Attain = "80"
 Inst16Quest1_HORDE_Aim = "Bringt den Kopf von Onyxia zu Neeru Feuerklinge in die Kluft des Schattens."
-Inst16Quest1_HORDE_Location = "Kopf von Onyxia (droppt von Onyxia; "..YELLOW.."[3]"..WHITE..")"
+Inst16Quest1_HORDE_Location = Inst16Quest1_Note
 Inst16Quest1_HORDE_Note = "Neeru Feuerklinge ist bei (Orgrimmar - Die Kluft des Schattens; "..YELLOW.."50.0, 60.0"..WHITE.."). Nur eine Person im Schlachtzug kann den Kopf an sich nehmen und das Quest kann nur einmal abgeschlossen werden."
 Inst16Quest1_HORDE_Prequest = "Nein"
 Inst16Quest1_HORDE_Folgequest = "Nein"
@@ -3404,7 +3402,7 @@ Inst21Quest5_HORDE = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
 Inst21Quest5_HORDE_Level = "85"
 Inst21Quest5_HORDE_Attain = "85"
 Inst21Quest5_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
-Inst21Quest5_HORDE_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest5_HORDE_Location = Inst21Quest5_Location
 Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
 Inst21Quest5_HORDE_Prequest = "Nein"
 Inst21Quest5_HORDE_Folgequest = "Nein"
