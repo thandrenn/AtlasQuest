@@ -2341,7 +2341,7 @@ Inst14Quest1_Level = "60"
 Inst14Quest1_Attain = "60"
 Inst14Quest1_Aim = "Um Donneraan den Windsucher aus seiner Gefangenschaft zu befreien, müsst Ihr Hochlord Demitrian die rechten und linken Hälften der Fesseln des Windsuchers, 10 Elementiumbarren und die Essenz des Feuerfürsten bringen."
 Inst14Quest1_Location = "Hochlord Demitrian (Silithus; "..YELLOW.."29.6, 10.6"..WHITE..")"
-Inst14Quest1_Note = "Teil der Donnerzorn, Gesegnete Klinge des Windsuchers Questreihe. Diese startet nachdem Du die linke oder rechte Hälfte der Fesseln des Windsuchers von Garr bei "..YELLOW.."[4]"..WHITE.." oder Baron Geddon bei "..YELLOW.."[6]"..WHITE.." erhälst. Dann spreche mit dem Hochlord Demitrian um diese Questreihe zu starten. Essenz des Feuerfürsten droppt von Ragnaros bei "..YELLOW.."[10]"..WHITE..". Nach dem Einreichen dieses Teils, wird Prinz Donneraan erscheinen und Du mußt ihn töten. Dieser ist ein 40'er Schlachtzugsboss."
+Inst14Quest1_Note = "Teil des Gesegnete Klinge des Windsuchers Questreihe. Die startet nachdem Du die linke oder rechte Hälfte der Fesseln des Windsuchers von Garr bei "..YELLOW.."[4]"..WHITE.." oder Baron Geddon bei "..YELLOW.."[6]"..WHITE.." erhälst. Dann spreche mit Hochlord Demitrian um die Questreihe zu starten. Essenz des Feuerfürsten droppt von Ragnaros bei "..YELLOW.."[10]"..WHITE..". Nach dem abgeben dieses Teils, wird Prinz Donneraan erscheinen und Du mußt ihn töten. Dieser ist ein 40'er Schlachtzugsboss."
 Inst14Quest1_Prequest = "Ja, Untersuchung des Gefäßes ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
 Inst14Quest1_Folgequest = "Ja, Donnerzorn erwache!"
 Inst14Quest1PreQuest = "true"
@@ -2791,7 +2791,7 @@ Inst19Quest1_HORDE_Level = "33"
 Inst19Quest1_HORDE_Attain = "31"
 Inst19Quest1_HORDE_Aim = "Sprecht mit der dunklen Waldläuferin Velonara."
 Inst19Quest1_HORDE_Location = "Jäger Markhor (Hinterland - Dorf der Bruchhauer; "..YELLOW.."79.0, 79.6"..WHITE..")"
-Inst19Quest2_HORDE_Note = "Dunkle Waldläuferin Velonara befindet sich am Eingang innerhalb der Instanz Scharlachrote Kloster - Bibliothek."
+Inst19Quest1_HORDE_Note = "Dunkle Waldläuferin Velonara befindet sich am Eingang innerhalb der Instanz Scharlachrote Kloster - Bibliothek."
 Inst19Quest1_HORDE_Prequest = "Nein"
 Inst19Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -2836,7 +2836,7 @@ Inst57Quest1_Level = "35"
 Inst57Quest1_Attain = "34"
 Inst57Quest1_Aim = "Besucht Josef den Wahnsinnigen."
 Inst57Quest1_Location = "Livingston Marshal (Nördliches Schlingendorntal - Fort Livingston; "..YELLOW.."53.2, 66.8"..WHITE..")"
-Inst57Quest1_Note = "Josef der Wahnsinnigen ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster Waffenkammer."
+Inst57Quest1_Note = "Josef der Wahnsinnigen ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster - Waffenkammer."
 Inst57Quest1_Prequest = "Nein"
 Inst57Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -2875,7 +2875,7 @@ Inst57Quest1_HORDE_Level = "35"
 Inst57Quest1_HORDE_Attain = "34"
 Inst57Quest1_HORDE_Aim = "Besucht die dunkle Waldläuferin Velonara."
 Inst57Quest1_HORDE_Location = "Mystikerin Yayo'jin (Hinterland - Dorf der Bruchhauer; "..YELLOW.."78.8, 78.4"..WHITE..")"
-Inst57Quest1_HORDE_Note = "Dunkle Waldläuferin Velonara ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster Waffenkammer."
+Inst57Quest1_HORDE_Note = "Dunkle Waldläuferin Velonara ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster - Waffenkammer."
 Inst57Quest1_HORDE_Prequest = "Nein"
 Inst57Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -2922,7 +2922,7 @@ Inst58Quest1_Level = "38"
 Inst58Quest1_Attain = "37"
 Inst58Quest1_Aim = "Besucht Josef den Rasenden."
 Inst58Quest1_Location = "Shandris Mondfeder (Feralas - Mondfeder Feste; "..YELLOW.."46.0, 49.0"..WHITE..")"
-Inst58Quest1_Note = "Josef der Rasende ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster Kathedrale."
+Inst58Quest1_Note = "Josef der Rasende ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster - Kathedrale."
 Inst58Quest1_Prequest = "Nein"
 Inst58Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -2959,7 +2959,7 @@ Inst58Quest1_HORDE_Level = "38"
 Inst58Quest1_HORDE_Attain = "37"
 Inst58Quest1_HORDE_Aim = "Findet die dunkle Waldläuferin Velonara."
 Inst58Quest1_HORDE_Location = "Nazeer Blutlanze (Düstermarschen - Brackenwall; "..YELLOW.."35.2, 30.6"..WHITE..")"
-Inst58Quest1_HORDE_Note = "Dunkle Waldläuferin Velonara ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster Kathedrale."
+Inst58Quest1_HORDE_Note = "Dunkle Waldläuferin Velonara ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster - Kathedrale."
 Inst58Quest1_HORDE_Prequest = "Nein"
 Inst58Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3004,7 +3004,7 @@ Inst59Quest1_Level = "30"
 Inst59Quest1_Attain = "28"
 Inst59Quest1_Aim = "Besucht Josef den Erweckten."
 Inst59Quest1_Location = "Hauptmann Nials (Arathihochland - Die Zuflucht; "..YELLOW.."40.0, 48.8"..WHITE..")"
-Inst59Quest1_Note = "Josef der Erweckte ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster Friedhof."
+Inst59Quest1_Note = "Josef der Erweckte ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster - Friedhof."
 Inst59Quest1_Prequest = "Nein"
 Inst59Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3043,7 +3043,7 @@ Inst59Quest1_HORDE_Level = "30"
 Inst59Quest1_HORDE_Attain = "28"
 Inst59Quest1_HORDE_Aim = "Meldet Euch bei der dunklen Waldläuferin Velonara."
 Inst59Quest1_HORDE_Location = "Doktor Gregory Victor (Arathihochland - Hammerfall; "..YELLOW.."68.4, 37.8"..WHITE..")"
-Inst59Quest1_HORDE_Note = "Dunkle Waldläuferin Velonara ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster Friedhof."
+Inst59Quest1_HORDE_Note = "Dunkle Waldläuferin Velonara ist innerhalb der Instanz am Eingang vom Scharlachroten Kloster - Friedhof."
 Inst59Quest1_HORDE_Prequest = "Nein"
 Inst59Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4844,8 +4844,8 @@ Inst37Quest3_Folgequest = "Nein"
 
 --Quest 1 Horde  (same as Quest 1 Alliance - different NPCs and pre-quest)
 Inst37Quest1_HORDE = Inst37Quest1
-Inst37Quest1_HORDE_Level = Inst37Quest1_Level
-Inst37Quest1_HORDE_Attain = Inst37Quest1_Attain
+Inst37Quest1_HORDE_Level = "62"
+Inst37Quest1_HORDE_Attain = "59"
 Inst37Quest1_HORDE_Aim = "Tötet den Wachhabenden Gargolmar, Omor den Narbenlosen und Nazan, den Drachen. Bringt Gargolmars Hand, Omors Huf und Nazans Kopf zu Caza'rez in Thrallmar auf der Höllenfeuerhalbinsel."
 Inst37Quest1_HORDE_Location = "Steinwache Stok'ton (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
 Inst37Quest1_HORDE_Note = "Gargolmar befindet sich bei "..YELLOW.."[1]"..WHITE..", Omor befindet sich bei "..YELLOW.."[2]"..WHITE..", und Nazan befindet sich bei "..YELLOW.."[3]"..WHITE..". Caza'rez befindet sich bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE.."). \n\nUm diese Quest zu erhalten, muss Vorposten: Häschersturz absolviert sein, welche mit Durch das Dunkle Portal startet in den verwüsteten Landen startet."
@@ -4860,25 +4860,25 @@ Inst37Quest1name4_HORDE = Inst37Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
 Inst37Quest2_HORDE = Inst37Quest2
-Inst37Quest2_HORDE_Level = Inst37Quest2_Level
-Inst37Quest2_HORDE_Attain = Inst37Quest2_Attain
+Inst37Quest2_HORDE_Level = "62"
+Inst37Quest2_HORDE_Attain = "59"
 Inst37Quest2_HORDE_Aim = "Bringt den unheilvollen Brief zu Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
 Inst37Quest2_HORDE_Location = Inst37Quest2_Location
 Inst37Quest2_HORDE_Note = "Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.." in Thrallmar."
-Inst37Quest2_HORDE_Prequest = Inst37Quest2_Prequest
+Inst37Quest2_HORDE_Prequest = "Nein"
 Inst37Quest2_HORDE_Folgequest = Inst37Quest2_Folgequest
 Inst37Quest2FQuest_HORDE = Inst37Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst37Quest3_HORDE = Inst37Quest3
-Inst37Quest3_HORDE_Level = Inst37Quest3_Level
-Inst37Quest3_HORDE_Attain = Inst37Quest3_Attain
+Inst37Quest3_HORDE_Level = "70"
+Inst37Quest3_HORDE_Attain = "70"
 Inst37Quest3_HORDE_Aim = Inst37Quest3_Aim
 Inst37Quest3_HORDE_Location = Inst37Quest3_Location
 Inst37Quest3_HORDE_Note = Inst37Quest3_Note
-Inst37Quest3_HORDE_Prequest = Inst37Quest3_Prequest
-Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
+Inst37Quest3_HORDE_Prequest = "Nein"
+Inst37Quest3_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -4960,13 +4960,13 @@ Inst38Quest3_Folgequest = "Nein"
 
 --Quest 1 Horde  (same as Quest 1 Alliance - different NPC to turn in)
 Inst38Quest1_HORDE = Inst38Quest1
-Inst38Quest1_HORDE_Level = Inst38Quest1_Level
-Inst38Quest1_HORDE_Attain = Inst38Quest1_Attain
+Inst38Quest1_HORDE_Level = "63"
+Inst38Quest1_HORDE_Attain = "59"
 Inst38Quest1_HORDE_Aim = "Sammelt 10 Phiolen mit Höllenorcblut und bringt sie zu Zenturio Caza'rez in Thrallmar auf der Höllenfeuerhalbinsel."
 Inst38Quest1_HORDE_Location = "Caza'rez (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
 Inst38Quest1_HORDE_Note = Inst38Quest1_Note
 Inst38Quest1_HORDE_Prequest = Inst38Quest1_Prequest
-Inst38Quest1_HORDE_Folgequest = Inst38Quest1_Folgequest
+Inst38Quest1_HORDE_Folgequest = "Nein"
 Inst38Quest1PreQuest_HORDE = Inst38Quest1PreQuest
 --
 Inst38Quest1name1_HORDE = Inst38Quest1name1
@@ -4976,13 +4976,13 @@ Inst38Quest1name4_HORDE = Inst38Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
 Inst38Quest2_HORDE = Inst38Quest2
-Inst38Quest2_HORDE_Level = Inst38Quest2_Level
-Inst38Quest2_HORDE_Attain = Inst38Quest2_Attain
+Inst38Quest2_HORDE_Level = "63"
+Inst38Quest2_HORDE_Attain = "59"
 Inst38Quest2_HORDE_Aim = "Untersucht das gesamte Areal des Blutkessels und meldet Euch anschließend bei Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
 Inst38Quest2_HORDE_Location = "Caza'rez (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
 Inst38Quest2_HORDE_Note = "Die Quest schließt ab, wenn man den Raum mit dem Endboss betrifft. Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.." in Thrallmar."
 Inst38Quest2_HORDE_Prequest = Inst38Quest2_Prequest
-Inst38Quest2_HORDE_Folgequest = Inst38Quest2_Folgequest
+Inst38Quest2_HORDE_Folgequest = "Nein"
 Inst38Quest2PreQuest_HORDE = Inst38Quest2PreQuest
 --
 Inst38Quest2name1_HORDE = Inst38Quest2name1
@@ -4991,13 +4991,13 @@ Inst38Quest2name3_HORDE = Inst38Quest2name3
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst38Quest3_HORDE = Inst38Quest3
-Inst38Quest3_HORDE_Level = Inst38Quest3_Level
-Inst38Quest3_HORDE_Attain = Inst38Quest3_Attain
+Inst38Quest3_HORDE_Level = "70"
+Inst38Quest3_HORDE_Attain = "70"
 Inst38Quest3_HORDE_Aim = Inst38Quest3_Aim
 Inst38Quest3_HORDE_Location = Inst38Quest3_Location
 Inst38Quest3_HORDE_Note = Inst38Quest3_Note
-Inst38Quest3_HORDE_Prequest = Inst38Quest3_Prequest
-Inst38Quest3_HORDE_Folgequest = Inst38Quest3_Folgequest
+Inst38Quest3_HORDE_Prequest = "Nein"
+Inst38Quest3_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -5293,26 +5293,26 @@ Inst40Quest2name4 = "Ring des Aufsässigen"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst40Quest1_HORDE = Inst40Quest1
-Inst40Quest1_HORDE_Level = Inst40Quest1_Level
-Inst40Quest1_HORDE_Attain = Inst40Quest1_Attain
+Inst40Quest1_HORDE_Level = "70"
+Inst40Quest1_HORDE_Attain = "70"
 Inst40Quest1_HORDE_Aim = Inst40Quest1_Aim
 Inst40Quest1_HORDE_Location = Inst40Quest1_Location
 Inst40Quest1_HORDE_Note = Inst40Quest1_Note
 Inst40Quest1_HORDE_Prequest = Inst40Quest1_Prequest
-Inst40Quest1_HORDE_Folgequest = Inst40Quest1_Folgequest
+Inst40Quest1_HORDE_Folgequest = "Nein"
 Inst40Quest1PreQuest_HORDE = Inst40Quest1PreQuest
 --
 Inst40Quest1name1_HORDE = Inst40Quest1name1
 
 --Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
 Inst40Quest2_HORDE = Inst40Quest2
-Inst40Quest2_HORDE_Level = Inst40Quest2_Level
-Inst40Quest2_HORDE_Attain = Inst40Quest2_Attain
+Inst40Quest2_HORDE_Level = "70"
+Inst40Quest2_HORDE_Attain = "70"
 Inst40Quest2_HORDE_Aim = "Bringt Magtheridons Kopf zu Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
 Inst40Quest2_HORDE_Location = Inst40Quest2_Location
 Inst40Quest2_HORDE_Note = "Nur eine Person im Schlachtzug kann den Kopf erhalten, um die Quest zu starten. Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.."."
-Inst40Quest2_HORDE_Prequest = Inst40Quest2_Prequest
-Inst40Quest2_HORDE_Folgequest = Inst40Quest2_Folgequest
+Inst40Quest2_HORDE_Prequest = "Nein"
+Inst40Quest2_HORDE_Folgequest = "Nein"
 --
 Inst40Quest2name1_HORDE = Inst40Quest2name1
 Inst40Quest2name2_HORDE = Inst40Quest2name2
@@ -5882,8 +5882,8 @@ Inst45Quest3_Attain = "64"
 Inst45Quest3_Aim = "Nexusprinz Haramad außerhalb der Managruft möchte, dass Ihr Nexusprinz Shaffar tötet und ihm Shaffars Bandagen bringt."
 Inst45Quest3_Location = "Nexusprinz Haramad (Wälder von Terokkar - Auchindoun; "..YELLOW.."39,58"..WHITE..")."
 Inst45Quest3_Note = "Nexusprinz Shaffar befindet sich bei "..YELLOW.."[3]"..WHITE.."."
-Inst45Quest3_Prequest = "No"
-Inst45Quest3_Folgequest = "No"
+Inst45Quest3_Prequest = "Nein"
+Inst45Quest3_Folgequest = "Nein"
 --
 Inst45Quest3name1 = "Haramads Gamaschen der dritten Münze"
 Inst45Quest3name2 = "Plattenbeinschützer des Konsortiums"
@@ -5918,24 +5918,24 @@ Inst45Quest5_Folgequest = "Nein"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst45Quest1_HORDE = Inst45Quest1
-Inst45Quest1_HORDE_Level = Inst45Quest1_Level
-Inst45Quest1_HORDE_Attain = Inst45Quest1_Attain
+Inst45Quest1_HORDE_Level = "66"
+Inst45Quest1_HORDE_Attain = "64"
 Inst45Quest1_HORDE_Aim = Inst45Quest1_Aim
 Inst45Quest1_HORDE_Location = Inst45Quest1_Location
 Inst45Quest1_HORDE_Note = Inst45Quest1_Note
-Inst45Quest1_HORDE_Prequest = Inst45Quest1_Prequest
+Inst45Quest1_HORDE_Prequest = "Nein"
 Inst45Quest1_HORDE_Folgequest = Inst45Quest1_Folgequest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst45Quest2_HORDE = Inst45Quest2
-Inst45Quest2_HORDE_Level = Inst45Quest2_Level
-Inst45Quest2_HORDE_Attain = Inst45Quest2_Attain
+Inst45Quest2_HORDE_Level = "66"
+Inst45Quest2_HORDE_Attain = "64"
 Inst45Quest2_HORDE_Aim = Inst45Quest2_Aim
 Inst45Quest2_HORDE_Location = Inst45Quest2_Location
 Inst45Quest2_HORDE_Note = Inst45Quest2_Note
 Inst45Quest2_HORDE_Prequest = Inst45Quest2_Prequest
-Inst45Quest2_HORDE_Folgequest = Inst45Quest2_Folgequest
+Inst45Quest2_HORDE_Folgequest = "Nein"
 Inst45Quest2FQuest_HORDE = Inst45Quest2FQuest
 --
 Inst45Quest2name1_HORDE = Inst45Quest2name1
@@ -5945,13 +5945,13 @@ Inst45Quest2name4_HORDE = Inst45Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst45Quest3_HORDE = Inst45Quest3
-Inst45Quest3_HORDE_Level = Inst45Quest3_Level
-Inst45Quest3_HORDE_Attain = Inst45Quest3_Attain
+Inst45Quest3_HORDE_Level = "66"
+Inst45Quest3_HORDE_Attain = "64"
 Inst45Quest3_HORDE_Aim = Inst45Quest3_Aim
 Inst45Quest3_HORDE_Location = Inst45Quest3_Location
 Inst45Quest3_HORDE_Note = Inst45Quest3_Note
-Inst45Quest3_HORDE_Prequest = Inst45Quest3_Prequest
-Inst45Quest3_HORDE_Folgequest = Inst45Quest3_Folgequest
+Inst45Quest3_HORDE_Prequest = "Nein"
+Inst45Quest3_HORDE_Folgequest = "Nein"
 --
 Inst45Quest3name1_HORDE = Inst45Quest3name1
 Inst45Quest3name2_HORDE = Inst45Quest3name2
@@ -5960,26 +5960,26 @@ Inst45Quest3name4_HORDE = Inst45Quest3name4
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst45Quest4_HORDE = Inst45Quest4
-Inst45Quest4_HORDE_Level = Inst45Quest4_Level
-Inst45Quest4_HORDE_Attain = Inst45Quest4_Attain
+Inst45Quest4_HORDE_Level = "70"
+Inst45Quest4_HORDE_Attain = "70"
 Inst45Quest4_HORDE_Aim = Inst45Quest4_Aim
 Inst45Quest4_HORDE_Location = Inst45Quest4_Location
 Inst45Quest4_HORDE_Note = Inst45Quest4_Note
 Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
-Inst45Quest4_HORDE_Folgequest = Inst45Quest4_Folgequest
+Inst45Quest4_HORDE_Folgequest = "Nein"
 Inst45Quest4PreQuest_HORDE = Inst45Quest4PreQuest
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst45Quest5_HORDE = Inst45Quest5
-Inst45Quest5_HORDE_Level = Inst45Quest5_Level
-Inst45Quest5_HORDE_Attain = Inst45Quest5_Attain
+Inst45Quest5_HORDE_Level = "70"
+Inst45Quest5_HORDE_Attain = "70"
 Inst45Quest5_HORDE_Aim = Inst45Quest5_Aim
 Inst45Quest5_HORDE_Location = Inst45Quest5_Location
 Inst45Quest5_HORDE_Note = Inst45Quest5_Note
-Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
-Inst45Quest5_HORDE_Folgequest = Inst45Quest5_Folgequest
+Inst45Quest5_HORDE_Prequest = "Nein"
+Inst45Quest5_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -6061,13 +6061,13 @@ Inst46Quest5_Folgequest = "Nein"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst46Quest1_HORDE = Inst46Quest1
-Inst46Quest1_HORDE_Level = Inst46Quest1_Level
-Inst46Quest1_HORDE_Attain = Inst46Quest1_Attain
+Inst46Quest1_HORDE_Level = "69"
+Inst46Quest1_HORDE_Attain = "65"
 Inst46Quest1_HORDE_Aim = Inst46Quest1_Aim
 Inst46Quest1_HORDE_Location = Inst46Quest1_Location
 Inst46Quest1_HORDE_Note = Inst46Quest1_Note
-Inst46Quest1_HORDE_Prequest = Inst46Quest1_Prequest
-Inst46Quest1_HORDE_Folgequest = Inst46Quest1_Folgequest
+Inst46Quest1_HORDE_Prequest = "Nein"
+Inst46Quest1_HORDE_Folgequest = "Nein"
 --
 Inst46Quest1name1_HORDE = Inst46Quest1name1
 Inst46Quest1name2_HORDE = Inst46Quest1name2
@@ -6076,13 +6076,13 @@ Inst46Quest1name4_HORDE = Inst46Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst46Quest2_HORDE = Inst46Quest2
-Inst46Quest2_HORDE_Level = Inst46Quest2_Level
-Inst46Quest2_HORDE_Attain = Inst46Quest2_Attain
+Inst46Quest2_HORDE_Level = "69"
+Inst46Quest2_HORDE_Attain = "65"
 Inst46Quest2_HORDE_Aim = Inst46Quest2_Aim
 Inst46Quest2_HORDE_Location = Inst46Quest2_Location
 Inst46Quest2_HORDE_Note = Inst46Quest2_Note
-Inst46Quest2_HORDE_Prequest = Inst46Quest2_Prequest
-Inst46Quest2_HORDE_Folgequest = Inst46Quest2_Folgequest
+Inst46Quest2_HORDE_Prequest = "Nein"
+Inst46Quest2_HORDE_Folgequest = "Nein"
 --
 Inst46Quest2name1_HORDE = Inst46Quest2name1
 Inst46Quest2name2_HORDE = Inst46Quest2name2
@@ -6090,21 +6090,21 @@ Inst46Quest2name3_HORDE = Inst46Quest2name3
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst46Quest3_HORDE = Inst46Quest3
-Inst46Quest3_HORDE_Level = Inst46Quest3_Level
-Inst46Quest3_HORDE_Attain = Inst46Quest3_Attain
+Inst46Quest3_HORDE_Level = "70"
+Inst46Quest3_HORDE_Attain = "70"
 Inst46Quest3_HORDE_Aim = Inst46Quest3_Aim
 Inst46Quest3_HORDE_Location = Inst46Quest3_Location
 Inst46Quest3_HORDE_Note = Inst46Quest3_Note
 Inst46Quest3_HORDE_Prequest = Inst46Quest3_Prequest
-Inst46Quest3_HORDE_Folgequest = Inst46Quest3_Folgequest
+Inst46Quest3_HORDE_Folgequest = "Nein"
 Inst46Quest3PreQuest_HORDE = Inst46Quest3PreQuest
 --
 Inst46Quest3name1_HORDE = Inst46Quest3name1
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst46Quest4_HORDE = Inst46Quest4
-Inst46Quest4_HORDE_Level = Inst46Quest4_Level
-Inst46Quest4_HORDE_Attain = Inst46Quest4_Attain
+Inst46Quest4_HORDE_Level = "70"
+Inst46Quest4_HORDE_Attain = "70"
 Inst46Quest4_HORDE_Aim = Inst46Quest4_Aim
 Inst46Quest4_HORDE_Location = Inst46Quest4_Location
 Inst46Quest4_HORDE_Note = Inst46Quest4_Note
@@ -6115,13 +6115,13 @@ Inst46Quest4PreQuest_HORDE = Inst46Quest4PreQuest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst46Quest5_HORDE = Inst46Quest5
-Inst46Quest5_HORDE_Level = Inst46Quest5_Level
-Inst46Quest5_HORDE_Attain = Inst46Quest5_Attain
+Inst46Quest5_HORDE_Level = "70"
+Inst46Quest5_HORDE_Attain = "70"
 Inst46Quest5_HORDE_Aim = Inst46Quest5_Aim
 Inst46Quest5_HORDE_Location = Inst46Quest5_Location
 Inst46Quest5_HORDE_Note = Inst46Quest5_Note
-Inst46Quest5_HORDE_Prequest = Inst46Quest5_Prequest
-Inst46Quest5_HORDE_Folgequest = Inst46Quest5_Folgequest
+Inst46Quest5_HORDE_Prequest = "Nein"
+Inst46Quest5_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -6442,19 +6442,19 @@ Inst48Quest2PreQuest = "true"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst48Quest1_HORDE = Inst48Quest1
-Inst48Quest1_HORDE_Level = Inst48Quest1_Level
-Inst48Quest1_HORDE_Attain = Inst48Quest1_Attain
+Inst48Quest1_HORDE_Level = "70"
+Inst48Quest1_HORDE_Attain = "70"
 Inst48Quest1_HORDE_Aim = Inst48Quest1_Aim
 Inst48Quest1_HORDE_Location = Inst48Quest1_Location
 Inst48Quest1_HORDE_Note = Inst48Quest1_Note
-Inst48Quest1_HORDE_Prequest = Inst48Quest1_Prequest
-Inst48Quest1_HORDE_Folgequest = Inst48Quest1_Folgequest
+Inst48Quest1_HORDE_Prequest = "Nein"
+Inst48Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst48Quest2_HORDE = Inst48Quest2
-Inst48Quest2_HORDE_Level = Inst48Quest2_Level
-Inst48Quest2_HORDE_Attain = Inst48Quest2_Attain
+Inst48Quest2_HORDE_Level = "70"
+Inst48Quest2_HORDE_Attain = "70"
 Inst48Quest2_HORDE_Aim = Inst48Quest2_Aim
 Inst48Quest2_HORDE_Location = Inst48Quest2_Location
 Inst48Quest2_HORDE_Note = Inst48Quest2_Note
@@ -6671,8 +6671,8 @@ Inst50Quest1PreQuest = "true"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst50Quest1_HORDE = Inst50Quest1
-Inst50Quest1_HORDE_Level = Inst50Quest1_Level
-Inst50Quest1_HORDE_Attain = Inst50Quest1_Attain
+Inst50Quest1_HORDE_Level = "70"
+Inst50Quest1_HORDE_Attain = "70"
 Inst50Quest1_HORDE_Aim = Inst50Quest1_Aim
 Inst50Quest1_HORDE_Location = Inst50Quest1_Location
 Inst50Quest1_HORDE_Note = Inst50Quest1_Note
@@ -6866,13 +6866,13 @@ Inst52Quest1_Folgequest = "Nein"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst52Quest1_HORDE = Inst52Quest1
-Inst52Quest1_HORDE_Level = Inst52Quest1_Level
-Inst52Quest1_HORDE_Attain = Inst52Quest1_Attain
+Inst52Quest1_HORDE_Level = "70"
+Inst52Quest1_HORDE_Attain = "70"
 Inst52Quest1_HORDE_Aim = Inst52Quest1_Aim
 Inst52Quest1_HORDE_Location = Inst52Quest1_Location
 Inst52Quest1_HORDE_Note = Inst52Quest1_Note
-Inst52Quest1_HORDE_Prequest = Inst52Quest1_Prequest
-Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
+Inst52Quest1_HORDE_Prequest = "Nein"
+Inst52Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -7692,8 +7692,8 @@ Inst61Quest3_Folgequest = "Nein"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst61Quest1_HORDE = Inst61Quest1
-Inst61Quest1_HORDE_Level = Inst61Quest1_Level
-Inst61Quest1_HORDE_Attain = Inst61Quest1_Attain
+Inst61Quest1_HORDE_Level = "70"
+Inst61Quest1_HORDE_Attain = "70"
 Inst61Quest1_HORDE_Aim = Inst61Quest1_Aim
 Inst61Quest1_HORDE_Location = Inst61Quest1_Location
 Inst61Quest1_HORDE_Note = Inst61Quest1_Note
@@ -7704,13 +7704,13 @@ Inst61Quest1PreQuest_HORDE = Inst61Quest1PreQuest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst61Quest2_HORDE = Inst61Quest2
-Inst61Quest2_HORDE_Level = Inst61Quest2_Level
-Inst61Quest2_HORDE_Attain = Inst61Quest2_Attain
+Inst61Quest2_HORDE_Level = "70"
+Inst61Quest2_HORDE_Attain = "70"
 Inst61Quest2_HORDE_Aim = Inst61Quest2_Aim
 Inst61Quest2_HORDE_Location = Inst61Quest2_Location
 Inst61Quest2_HORDE_Note = Inst61Quest2_Note
-Inst61Quest2_HORDE_Prequest = Inst61Quest2_Prequest
-Inst61Quest2_HORDE_Folgequest = Inst61Quest2_Folgequest
+Inst61Quest2_HORDE_Prequest = "Nein"
+Inst61Quest2_HORDE_Folgequest = "Nein"
 --
 Inst61Quest2name1_HORDE = Inst61Quest2name1
 Inst61Quest2name2_HORDE = Inst61Quest2name2
@@ -7719,13 +7719,13 @@ Inst61Quest2name4_HORDE = Inst61Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst61Quest3_HORDE = Inst61Quest3
-Inst61Quest3_HORDE_Level = Inst61Quest3_Level
-Inst61Quest3_HORDE_Attain = Inst61Quest3_Attain
+Inst61Quest3_HORDE_Level = "70"
+Inst61Quest3_HORDE_Attain = "70"
 Inst61Quest3_HORDE_Aim = Inst61Quest3_Aim
 Inst61Quest3_HORDE_Location = Inst61Quest3_Location
 Inst61Quest3_HORDE_Note = Inst61Quest3_Note
-Inst61Quest3_HORDE_Prequest = Inst61Quest3_Prequest
-Inst61Quest3_HORDE_Folgequest = Inst61Quest3_Folgequest
+Inst61Quest3_HORDE_Prequest = "Nein"
+Inst61Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -7781,8 +7781,8 @@ Inst62Quest3name1 = "Gesegnetes Medaillon von Karabor"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst62Quest1_HORDE = Inst62Quest1
-Inst62Quest1_HORDE_Level = Inst62Quest1_Level
-Inst62Quest1_HORDE_Attain = Inst62Quest1_Attain
+Inst62Quest1_HORDE_Level = "70"
+Inst62Quest1_HORDE_Attain = "70"
 Inst62Quest1_HORDE_Aim = Inst62Quest1_Aim
 Inst62Quest1_HORDE_Location = Inst62Quest1_Location
 Inst62Quest1_HORDE_Note = Inst62Quest1_Note
@@ -7793,8 +7793,8 @@ Inst62Quest1PreQuest_HORDE = Inst62Quest1PreQuest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst62Quest2_HORDE = Inst62Quest2
-Inst62Quest2_HORDE_Level = Inst62Quest2_Level
-Inst62Quest2_HORDE_Attain = Inst62Quest2_Attain
+Inst62Quest2_HORDE_Level = "70"
+Inst62Quest2_HORDE_Attain = "70"
 Inst62Quest2_HORDE_Aim = Inst62Quest2_Aim
 Inst62Quest2_HORDE_Location = Inst62Quest2_Location
 Inst62Quest2_HORDE_Note = Inst62Quest2_Note
@@ -7805,14 +7805,14 @@ Inst62Quest2FQuest_HORDE = Inst62Quest2FQuest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst62Quest3_HORDE = Inst62Quest3
-Inst62Quest3_HORDE_Level = Inst62Quest3_Level
-Inst62Quest3_HORDE_Attain = Inst62Quest3_Attain
+Inst62Quest3_HORDE_Level = "70"
+Inst62Quest3_HORDE_Attain = "70"
 Inst62Quest3_HORDE_Aim = Inst62Quest3_Aim
 Inst62Quest3_HORDE_Location = Inst62Quest3_Location
 Inst62Quest3_HORDE_Note = Inst62Quest3_Note
 Inst62Quest3_HORDE_Prequest = Inst62Quest3_Prequest
 Inst62Quest3_HORDE_Folgequest = Inst62Quest3_Folgequest
-Inst62Quest3FQuest_HORDE = Inst62Quest3FQuest
+Inst62Quest3FQuest_HORDE = "Nein"
 --
 Inst62Quest3name1_HORDE = Inst62Quest3name1
 
@@ -8184,11 +8184,11 @@ Inst68Quest1PreQuest = "true"
 Inst68Quest1_HORDE = "1. Die Reinigung Quel'Delars"
 Inst68Quest1_HORDE_Level = "80"
 Inst68Quest1_HORDE_Attain = "80"
-Inst68Quest1_HORDE_Aim = "Taucht Euer getempertes Quel'Delar in den Sonnenbrunnen. Sprecht mit einem der Wärter des Sonnenbrunnens, wenn Ihr bereit seid, das Sonnenbrunnenplateau zu betreten."
-Inst68Quest1_HORDE_Location = "Halduron Wolkenglanz (Insel von Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")"
-Inst68Quest1_HORDE_Note = "Wenn Du den Sonnenbrunnenplateau betritts, bist du in einer Phasenverschiebung und mußt nicht gegen irgendwelche Mobs und Bosse kämpfen.  Der Sonnenbrunnen ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst68Quest1_HORDE_Prequest = "Thalorien Dämmersucher"
-Inst68Quest1_HORDE_Folgequest = "Ein Sieg für den Silberbund"
+Inst68Quest1_HORDE_Aim = Inst68Quest1_Aim
+Inst68Quest1_HORDE_Location = Inst68Quest1_Location
+Inst68Quest1_HORDE_Note = Inst68Quest1_Note
+Inst68Quest1_HORDE_Prequest = Inst68Quest1_Prequest
+Inst68Quest1_HORDE_Folgequest = Inst68Quest1_Folgequest
 Inst68Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
