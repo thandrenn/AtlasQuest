@@ -592,295 +592,53 @@ AQ_26950_Level = "30"
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
-Inst20Quest1_QuestID = "5529"
-Inst20Quest2_QuestID = "5582"
-Inst20Quest3_QuestID = "5382"
-Inst20Quest4_QuestID = "5515"
-Inst20Quest5_QuestID = "5384"
-Inst20Quest6_QuestID = "5466"
-Inst20Quest7_QuestID = "5343"
-Inst20Quest8_QuestID = "4771"
-Inst20Quest9_QuestID = "7629"
-Inst20Quest10_QuestID = "8969"
-Inst20Quest10_QuestID = "8992"
+Inst20Quest1_QuestID = "27140"
+Inst20Quest2_QuestID = "27143"
+Inst20Quest3_QuestID = "27142"
+Inst20Quest4_QuestID = "27146"
+Inst20Quest5_QuestID = "28756"
+Inst20Quest6_QuestID = "27147"
+Inst20Quest7_QuestID = "27145"
+Inst20Quest8_QuestID = "27148"
 
-Inst20Quest1_HORDE_QuestID = "5529"
-Inst20Quest2_HORDE_QuestID = "5582"
-Inst20Quest3_HORDE_QuestID = "5382"
-Inst20Quest4_HORDE_QuestID = "5515"
-Inst20Quest5_HORDE_QuestID = "5384"
-Inst20Quest6_HORDE_QuestID = "5466"
-Inst20Quest7_HORDE_QuestID = "5341"
-Inst20Quest8_HORDE_QuestID = "4771"
-Inst20Quest9_HORDE_QuestID = "7629"
-Inst20Quest10_HORDE_QuestID = "8969"
-Inst20Quest11_HORDE_QuestID = "8258"
-Inst20Quest12_HORDE_QuestID = "8992"
+Inst20Quest1_HORDE_QuestID = "27140"
+Inst20Quest2_HORDE_QuestID = "27143"
+Inst20Quest3_HORDE_QuestID = "27142"
+Inst20Quest4_HORDE_QuestID = "27146"
+Inst20Quest5_HORDE_QuestID = "28756"
+Inst20Quest6_HORDE_QuestID = "27147"
+Inst20Quest7_HORDE_QuestID = "27145"
+Inst20Quest8_HORDE_QuestID = "27148"
 
 
-AQ_5529_Level = "58"
-AQ_5582_Level = "58"
-AQ_5382_Level = "60"
-AQ_5515_Level = "60"
-AQ_5384_Level = "60"
-AQ_5466_Level = "60"
-AQ_5343_Level = "60"
-AQ_4771_Level = "60"
-AQ_7629_Level = "60"
-AQ_8969_Level = "60"
-AQ_8992_Level = "60"
-AQ_5341_Level = "60"
-AQ_8258_Level = "60"
+AQ_27140_Level = "43"
+AQ_27143_Level = "43"
+AQ_27142_Level = "43"
+AQ_27146_Level = "43"
+AQ_28756_Level = "42"
+AQ_27147_Level = "43"
+AQ_27145_Level = "42"
+AQ_27148_Level = "44"
 
 
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
-Inst21Quest1_QuestID = "1654"
-Inst21Quest2_QuestID = "1740"
-Inst21Quest3_QuestID = "24745"
-
-Inst21Quest1_HORDE_QuestID = "1098"
-Inst21Quest2_HORDE_QuestID = "1013"
-Inst21Quest3_HORDE_QuestID = "1014"
-Inst21Quest4_HORDE_QuestID = "1740"
-Inst21Quest5_HORDE_QuestID = "14483"
-
-
---AQ_1654_Level = "22"  -- Already used for Deadmines. Left here just for the note.
---AQ_1740_Level = "25"  -- Already used for Blackfathom Deeps. Left here just for the note.
-AQ_24745_Level = "80"
-AQ_1098_Level = "25"
-AQ_1013_Level = "26"
-AQ_1014_Level = "27"
-AQ_14483_Level = "80"
-
-
-
 --------------- INST22 - Stratholme (Strat) ---------------
-
-Inst22Quest1_QuestID = "5212"
-Inst22Quest2_QuestID = "5213"
-Inst22Quest3_QuestID = "5243"
-Inst22Quest4_QuestID = "5214"
-Inst22Quest5_QuestID = "5282"
-Inst22Quest6_QuestID = "5848"
-Inst22Quest7_QuestID = "5463"
-Inst22Quest8_QuestID = "5125"
-Inst22Quest9_QuestID = "5251"
-Inst22Quest10_QuestID = "5262"
-Inst22Quest11_QuestID = "5263"
-Inst22Quest12_QuestID = "8945"
-Inst22Quest13_QuestID = "8968"
-Inst22Quest14_QuestID = "8991"
-Inst22Quest15_QuestID = "9257"
-Inst22Quest16_QuestID = "5307"
-Inst22Quest17_QuestID = "5305"
-Inst22Quest18_QuestID = "7622"
-
-Inst22Quest1_HORDE_QuestID = "5212"
-Inst22Quest2_HORDE_QuestID = "5213"
-Inst22Quest3_HORDE_QuestID = "5243"
-Inst22Quest4_HORDE_QuestID = "5214"
-Inst22Quest5_HORDE_QuestID = "5282"
-Inst22Quest6_HORDE_QuestID = "5848"
-Inst22Quest7_HORDE_QuestID = "5463"
-Inst22Quest8_HORDE_QuestID = "5125"
-Inst22Quest9_HORDE_QuestID = "5251"
-Inst22Quest10_HORDE_QuestID = "5262"
-Inst22Quest11_HORDE_QuestID = "5263"
-Inst22Quest12_HORDE_QuestID = "8945"
-Inst22Quest13_HORDE_QuestID = "8968"
-Inst22Quest14_HORDE_QuestID = "8991"
-Inst22Quest15_HORDE_QuestID = "9257"
-Inst22Quest16_HORDE_QuestID = "5307"
-Inst22Quest17_HORDE_QuestID = "5305"
-Inst22Quest18_HORDE_QuestID = "6163"
-Inst22Quest19_HORDE_QuestID = "7622"
-Inst22Quest20_HORDE_QuestID = "9737"
-
-
-AQ_5212_Level = "60"
-AQ_5213_Level = "60"
-AQ_5243_Level = "60"
-AQ_5214_Level = "60"
-AQ_5282_Level = "60"
-AQ_5848_Level = "60"
-AQ_5463_Level = "60"
-AQ_5125_Level = "60"
-AQ_5251_Level = "60"
-AQ_5262_Level = "60"
-AQ_5263_Level = "60"
-AQ_8945_Level = "60"
-AQ_8968_Level = "60"
-AQ_8991_Level = "60"
-AQ_9257_Level = "60" -- NOTE: Atiesh Priest version
-AQ_9269_Level = "60" -- NOTE: Atiesh Druid version
-AQ_9270_Level = "60" -- NOTE: Atiesh Mage version
-AQ_9271_Level = "60" -- NOTE: Atiesh Warlock version
-AQ_5307_Level = "60"
-AQ_5305_Level = "60"
-AQ_7622_Level = "60"
-AQ_6163_Level = "60"
-AQ_9737_Level = "60"
-
-
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
 
-Inst23Quest1_QuestID = "8791"
-Inst23Quest2_QuestID = "9023"
-
-Inst23Quest1_HORDE_QuestID = "8791"
-Inst23Quest2_HORDE_QuestID = "9023"
-
-
-AQ_8791_Level = "60"
-AQ_9023_Level = "60"
-
-
-
 --------------- INST24 - The Stockade (Stocks) ---------------
-
-Inst24Quest1_QuestID = "386"
-Inst24Quest2_QuestID = "377"
-Inst24Quest3_QuestID = "387"
-Inst24Quest4_QuestID = "388"
-Inst24Quest5_QuestID = "378"
-Inst24Quest6_QuestID = "391"
-
-
-AQ_386_Level = "25"
-AQ_377_Level = "26"
-AQ_387_Level = "26"
-AQ_388_Level = "26"
-AQ_378_Level = "27"
-AQ_391_Level = "29"
-
-
 
 --------------- INST25 - Sunken Temple (ST) ---------------
 
-Inst25Quest1_QuestID = "1475"
-Inst25Quest2_QuestID = "3445"
-Inst25Quest3_QuestID = "3446"
-Inst25Quest4_QuestID = "3447"
-Inst25Quest5_QuestID = "4143"
-Inst25Quest6_QuestID = "3528"
-Inst25Quest7_QuestID = "1446"
-Inst25Quest8_QuestID = "3373"
-
-Inst25Quest1_HORDE_QuestID = "1445"
-Inst25Quest2_HORDE_QuestID = "3380"
-Inst25Quest3_HORDE_QuestID = "3446"
-Inst25Quest4_HORDE_QuestID = "3447"
-Inst25Quest5_HORDE_QuestID = "4146"
-Inst25Quest6_HORDE_QuestID = "3528"
-Inst25Quest7_HORDE_QuestID = "1446"
-Inst25Quest8_HORDE_QuestID = "3373"
-
-
-
-AQ_1475_Level = "50"
-AQ_3445_Level = "51"
-AQ_3446_Level = "51"
-AQ_3447_Level = "51"
-AQ_4143_Level = "52"
-AQ_3528_Level = "53"
-AQ_1446_Level = "53"
-AQ_3373_Level = "55"
-AQ_1445_Level = "50"
-AQ_3380_Level = "51"
-AQ_4146_Level = "52"
-
-
-
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
-
-Inst26Quest1_QuestID = "8801"
-Inst26Quest2_QuestID = "8802"
-Inst26Quest3_QuestID = "8784"
-Inst26Quest4_QuestID = "8579"
-
-Inst26Quest1_HORDE_QuestID = "8801"
-Inst26Quest2_HORDE_QuestID = "8802"
-Inst26Quest3_HORDE_QuestID = "8784"
-Inst26Quest4_HORDE_QuestID = "8579"
-
-
-AQ_8801_Level = "60"
-AQ_8802_Level = "60"
-AQ_8784_Level = "60"
-AQ_8579_Level = "60"
-
-
 
 --------------- INST27 - Zul'Farrak (ZF) ---------------
 
-Inst27Quest1_QuestID = "3042"
-Inst27Quest2_QuestID = "2865"
-Inst27Quest3_QuestID = "2846"
-Inst27Quest4_QuestID = "2991"
-Inst27Quest5_QuestID = "3527"
-Inst27Quest6_QuestID = "2768"
-Inst27Quest7_QuestID = "2770"
-
-Inst27Quest1_HORDE_QuestID = "2936"
-Inst27Quest2_HORDE_QuestID = "3042"
-Inst27Quest3_HORDE_QuestID = "2865"
-Inst27Quest4_HORDE_QuestID = "2846"
-Inst27Quest5_HORDE_QuestID = "3527"
-Inst27Quest6_HORDE_QuestID = "2768"
-Inst27Quest7_HORDE_QuestID = "2770"
-
-
-AQ_3042_Level = "45"
-AQ_2865_Level = "45"
-AQ_2846_Level = "46"
-AQ_2991_Level = "47"
-AQ_3527_Level = "47"
-AQ_2768_Level = "47"
-AQ_2770_Level = "50"
-AQ_2936_Level = "45"
-
-
-
 --------------- INST29 - Gnomeregan (Gnomer) ---------------
 
-Inst29Quest1_QuestID = "2922"
-Inst29Quest2_QuestID = "2926"
-Inst29Quest3_QuestID = "2962"
-Inst29Quest4_QuestID = "2928"
-Inst29Quest5_QuestID = "2924"
-Inst29Quest6_QuestID = "2930"
-Inst29Quest7_QuestID = "2904"
-Inst29Quest8_QuestID = "2929"
-Inst29Quest9_QuestID = "2945"
-Inst29Quest10_QuestID = "2947"
-Inst29Quest11_QuestID = "2951"
 
-Inst29Quest1_HORDE_QuestID = "2843"
-Inst29Quest2_HORDE_QuestID = "2904"
-Inst29Quest3_HORDE_QuestID = "2841"
-Inst29Quest4_HORDE_QuestID = "2945"
-Inst29Quest5_HORDE_QuestID = "2949"
-Inst29Quest6_HORDE_QuestID = "2951"
-
-
-AQ_2922_Level = "26"
-AQ_2926_Level = "27"
-AQ_2962_Level = "30"
-AQ_2928_Level = "30"
-AQ_2924_Level = "30"
-AQ_2930_Level = "30"
-AQ_2904_Level = "30"
-AQ_2929_Level = "35"
-AQ_2945_Level = "34"
-AQ_2947_Level = "34"
-AQ_2951_Level = "30"
-AQ_2843_Level = "35"
-AQ_2841_Level = "35"
-AQ_2949_Level = "34"
 
 
 
