@@ -3090,8 +3090,8 @@ Inst20Quest1 = "1. Alexis Gambit"
 Inst20Quest1_Level = "43"
 Inst20Quest1_Attain = "38"
 Inst20Quest1_Aim = "Platziert das Gambit im Vorführraum und tötet Vectus und Marduk."
-Inst20Quest1_Location = "Alexi Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
-Inst20Quest1_Note = "Marduk Schwarzborn und Vectus befinden sich bei "..DARKYELLOW.."[1]"..WHITE.."."
+Inst20Quest1_Location = "Alexi Barov (Scholomance; "..YELLOW.."Eingang"..WHITE..")"
+Inst20Quest1_Note = "Marduk Schwarzborn und Vectus befinden sich bei "..ORANGE.."[1]"..WHITE.."."
 Inst20Quest1_Prequest = "Nein"
 Inst20Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3101,7 +3101,7 @@ Inst20Quest2 = "2. Das Familienvermögen der Barovs"
 Inst20Quest2_Level = "43"
 Inst20Quest2_Attain = "38"
 Inst20Quest2_Aim = "Findet die Besitzurkunde für Darrowehr, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Süderstade."
-Inst20Quest2_Location = "Weldon Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest2_Location = "Weldon Barov (Scholomance; "..YELLOW.."Eingang"..WHITE..")"
 Inst20Quest2_Note = "Besitzurkunde für Darrowehr befindet sich bei "..YELLOW.."[9]"..WHITE..", Besitzurkunde für Brill befindet sich bei "..GREEN.."[5']"..WHITE..", Besitzurkunde für Tarrensmühle befindet sich bei "..GREEN.."[4']"..WHITE.."und die Besitzurkunde für Süderstade befindet sich bei "..GREEN.."[2']"..WHITE.."."
 Inst20Quest2_Prequest = "Nein"
 Inst20Quest2_Folgequest = "Nein"
@@ -3113,7 +3113,7 @@ Inst20Quest3 = "3. Der Lich Ras Frostraunen"
 Inst20Quest3_Level = "43"
 Inst20Quest3_Attain = "38"
 Inst20Quest3_Aim = "Vernichtet Ras Frostraunen."
-Inst20Quest3_Location = "Alexi Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest3_Location = "Alexi Barov (Scholomance; "..YELLOW.."Eingang"..WHITE..")"
 Inst20Quest3_Note = "Ras Frostraunen befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst20Quest3_Prequest = "Nein"
 Inst20Quest3_Folgequest = "Nein"
@@ -3124,8 +3124,8 @@ Inst20Quest4 = "4. Doktor Theolen Krastinov, der Schlächter"
 Inst20Quest4_Level = "43"
 Inst20Quest4_Attain = "38"
 Inst20Quest4_Aim = "Vernichtet Doktor Theolen Krastinov, und verbrennt die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff."
-Inst20Quest4_Location = "Eva Sarkhoff (Scholomance; "..GREEN.."Eingang"..WHITE..")"
-Inst20Quest4_Note = "Doktor Theolen Krastinov befindet sich bei "..YELLOW.."[6]"..WHITE..", die Überreste von Eva Sarkhoff verbrennst Du bei und die Überreste von Lucien Sarkhoff verbrennst Du bei."
+Inst20Quest4_Location = "Eva Sarkhoff (Scholomance; "..YELLOW.."Eingang"..WHITE..")"
+Inst20Quest4_Note = "Doktor Theolen Krastinov befindet sich bei "..YELLOW.."[6]"..WHITE.." und die beiden Überreste sind in der Nähe im selben Raum."
 Inst20Quest4_Prequest = "Nein"
 Inst20Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3135,7 +3135,7 @@ Inst20Quest5 = "5. Entartung des Knochens"
 Inst20Quest5_Level = "42"
 Inst20Quest5_Attain = "40"
 Inst20Quest5_Aim = "Tötet Blutrippe im Ossuarium von Scholomance."
-Inst20Quest5_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76,51"..WHITE..")"
+Inst20Quest5_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76.0,51.0"..WHITE..")"
 Inst20Quest5_Note = "Blutrippe befindet sich bei"..YELLOW.."[3]"..WHITE.."."
 Inst20Quest5_Prequest = "Nein"
 Inst20Quest5_Folgequest = "Nein"
@@ -3146,7 +3146,7 @@ Inst20Quest6 = "6. Kirtonos der Herold"
 Inst20Quest6_Level = "43"
 Inst20Quest6_Attain = "38"
 Inst20Quest6_Aim = "Zerstört Kirtonos."
-Inst20Quest6_Location = "Eva Sarkhoff (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest6_Location = "Eva Sarkhoff (Scholomance; "..YELLOW.."Eingang"..WHITE..")"
 Inst20Quest6_Note = "Kirtonos befindet sich bei"..YELLOW.."[1]"..WHITE.."."
 Inst20Quest6_Prequest = "Nein"
 Inst20Quest6_Folgequest = "Nein"
@@ -3157,7 +3157,7 @@ Inst20Quest7 = "7. Verseuchte Jungtiere ... im Moment"
 Inst20Quest7_Level = "42"
 Inst20Quest7_Attain = "38"
 Inst20Quest7_Aim = "Tötet 10 verseuchte Jungtiere und Blutrippe."
-Inst20Quest7_Location = "Weldon Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest7_Location = "Weldon Barov (Scholomance; "..YELLOW.."Eingang"..WHITE..")"
 Inst20Quest7_Note = "Die Jungtiere befinden sich in der Nähe von Blutrippe und dieser befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst20Quest7_Prequest = "Nein"
 Inst20Quest7_Folgequest = "Nein"
@@ -3168,7 +3168,7 @@ Inst20Quest8 = "8. Ewige Sommerferien"
 Inst20Quest8_Level = "44"
 Inst20Quest8_Attain = "38"
 Inst20Quest8_Aim = "Tötet Dunkelmeister Gandling."
-Inst20Quest8_Location = "Weldon Barov (Scholomance; "..GREEN.."Eingang"..WHITE..")"
+Inst20Quest8_Location = "Weldon Barov (Scholomance; "..YELLOW.."Eingang"..WHITE..")"
 Inst20Quest8_Note = "Dunkelmeister Gandling befindet sich bei "..YELLOW.."[11]"..WHITE.."."
 Inst20Quest8_Prequest = "Nein"
 Inst20Quest8_Folgequest = "Nein"
@@ -9009,7 +9009,7 @@ Inst78Quest1_Attain = "80"
 Inst78Quest1_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Loken besiegt. Danach sollt Ihr mit Lokens Zunge zu König Jokkum zurückkehren."
 Inst78Quest1_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
 Inst78Quest1_Note = "Loken ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
-Inst78Quest1_Prequest = "Sie haben unsere Männer! -> Die Abrechnung"
+Inst78Quest1_Prequest = "Ja, Sie haben unsere Männer! -> Die Abrechnung"
 Inst78Quest1_Folgequest = "Nein"
 Inst78Quest1PreQuest = "true"
 --
@@ -9025,7 +9025,7 @@ Inst78Quest2_Attain = "80"
 Inst78Quest2_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Volkhan besiegt."
 Inst78Quest2_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
 Inst78Quest2_Note = "Volkhan ist bei "..YELLOW.."[2]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
-Inst78Quest2_Prequest = "Sie haben unsere Männer! -> Die Abrechnung"
+Inst78Quest2_Prequest = "Ja, Sie haben unsere Männer! -> Die Abrechnung"
 Inst78Quest2_Folgequest = "Nein"
 Inst78Quest2PreQuest = "true"
 --
@@ -9038,14 +9038,14 @@ Inst78Quest2name5 = "Mantelung von Volkhan"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst78Quest1_HORDE = Inst78Quest1
-Inst78Quest1_HORDE_Level = Inst78Quest1_Level
-Inst78Quest1_HORDE_Attain = Inst78Quest1_Attain
+Inst78Quest1_HORDE_Level = "80"
+Inst78Quest1_HORDE_Attain = "80"
 Inst78Quest1_HORDE_Aim = Inst78Quest1_Aim
 Inst78Quest1_HORDE_Location = Inst78Quest1_Location
 Inst78Quest1_HORDE_Note = Inst78Quest1_Note
 Inst78Quest1_HORDE_Prequest = Inst78Quest1_Prequest
-Inst78Quest1_HORDE_Folgequest = Inst78Quest1_Folgequest
-Inst78Quest1PreQuest_HORDE = Inst78Quest1PreQuest
+Inst78Quest1_HORDE_Folgequest = "Nein"
+Inst78Quest1PreQuest_HORDE = "true"
 --
 Inst78Quest1name1_HORDE = Inst78Quest1name1
 Inst78Quest1name2_HORDE = Inst78Quest1name2
@@ -9054,14 +9054,14 @@ Inst78Quest1name4_HORDE = Inst78Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
-Inst78Quest2_HORDE_Level = Inst78Quest2_Level
-Inst78Quest2_HORDE_Attain = Inst78Quest2_Attain
+Inst78Quest2_HORDE_Level = "80"
+Inst78Quest2_HORDE_Attain = "80"
 Inst78Quest2_HORDE_Aim = Inst78Quest2_Aim
 Inst78Quest2_HORDE_Location = Inst78Quest2_Location
 Inst78Quest2_HORDE_Note = Inst78Quest2_Note
 Inst78Quest2_HORDE_Prequest = Inst78Quest2_Prequest
-Inst78Quest2_HORDE_Folgequest = Inst78Quest2_Folgequest
-Inst78Quest2PreQuest_HORDE = Inst78Quest2PreQuest
+Inst78Quest2_HORDE_Folgequest = "Nein"
+Inst78Quest2PreQuest_HORDE = "true"
 --
 Inst78Quest2name1_HORDE = Inst78Quest2name1
 Inst78Quest2name2_HORDE = Inst78Quest2name2
@@ -9099,13 +9099,13 @@ Inst79Quest1_Folgequest = "Nein"
 
 --Quest 1 Horde (same as Quest 1 Alliance)
 Inst79Quest1_HORDE = Inst79Quest1
-Inst79Quest1_HORDE_Level = Inst79Quest1_Level
-Inst79Quest1_HORDE_Attain = Inst79Quest1_Attain
+Inst79Quest1_HORDE_Level = "80"
+Inst79Quest1_HORDE_Attain = "80"
 Inst79Quest1_HORDE_Aim = Inst79Quest1_Aim
 Inst79Quest1_HORDE_Location = Inst79Quest1_Location
 Inst79Quest1_HORDE_Note = Inst79Quest1_Note
-Inst79Quest1_HORDE_Prequest = Inst79Quest1_Prequest
-Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
+Inst79Quest1_HORDE_Prequest = "Nein"
+Inst79Quest1_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -9339,7 +9339,7 @@ Inst82Quest1_Aim = "Rhonin möchte, dass Ihr zur Violetten Festung in Dalaran ge
 Inst82Quest1_Location = "Rhonin (Dalaran - Die Violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")"
 Inst82Quest1_Note = "Aufseher Alturas ist bei (Dalaran - Die Violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
 Inst82Quest1_Prequest = "Nein"
-Inst82Quest1_Folgequest = "Eindämmung"
+Inst82Quest1_Folgequest = "Ja, Eindämmung"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -9349,7 +9349,7 @@ Inst82Quest2_Attain = "75"
 Inst82Quest2_Aim = "Aufseher Alturas möchte, dass Ihr die Violette Festung betretet und den Invasionsstreitkräften des blauen Drachenschwarms ein Ende bereitet. Ihr sollt Euch wieder bei ihm melden, sobald Cyanigosa getötet wurde."
 Inst82Quest2_Location = "Aufseher Alturas (Dalaran - Die Violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
 Inst82Quest2_Note = "Cyanigosa ist der letzte Boss der Angriffswellen."
-Inst82Quest2_Prequest = "Diskretion ist der Schlüssel"
+Inst82Quest2_Prequest = "Ja, Diskretion ist der Schlüssel"
 Inst82Quest2_Folgequest = "Nein"
 Inst82Quest2FQuest = "true"
 --
@@ -9361,24 +9361,24 @@ Inst82Quest2name4 = "Beinplatten des Wächters von Dalaran"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst82Quest1_HORDE = Inst82Quest1
-Inst82Quest1_HORDE_Level = Inst82Quest1_Level
-Inst82Quest1_HORDE_Attain = Inst82Quest1_Attain
+Inst82Quest1_HORDE_Level = "77"
+Inst82Quest1_HORDE_Attain = "75"
 Inst82Quest1_HORDE_Aim = Inst82Quest1_Aim
 Inst82Quest1_HORDE_Location = Inst82Quest1_Location
 Inst82Quest1_HORDE_Note = Inst82Quest1_Note
-Inst82Quest1_HORDE_Prequest = Inst82Quest1_Prequest
-Inst82Quest1_HORDE_Folgequest = Inst82Quest1_Folgequest
+Inst82Quest1_HORDE_Prequest = "Nein"
+Inst82Quest1_HORDE_Folgequest = "Ja, Eindämmung"
 -- No Rewards for this ques
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst82Quest2_HORDE = Inst82Quest2
-Inst82Quest2_HORDE_Level = Inst82Quest2_Level
-Inst82Quest2_HORDE_Attain = Inst82Quest2_Attain
+Inst82Quest2_HORDE_Level = "77"
+Inst82Quest2_HORDE_Attain = "75"
 Inst82Quest2_HORDE_Aim = Inst82Quest2_Aim
 Inst82Quest2_HORDE_Location = Inst82Quest2_Location
 Inst82Quest2_HORDE_Note = Inst82Quest2_Note
 Inst82Quest2_HORDE_Prequest = Inst82Quest2_Prequest
-Inst82Quest2_HORDE_Folgequest = Inst82Quest2_Folgequest
+Inst82Quest2_HORDE_Folgequest = "Nein"
 --
 Inst82Quest2name1_HORDE = Inst82Quest2name1
 Inst82Quest2name2_HORDE = Inst82Quest2name2
@@ -10092,13 +10092,13 @@ Inst88Quest1_Folgequest = "Nein"
 
 --Quest 1 Horde (same as Quest 1 Alliance)
 Inst88Quest1_HORDE = Inst88Quest1
-Inst88Quest1_HORDE_Level = Inst88Quest1_Level
-Inst88Quest1_HORDE_Attain = Inst88Quest1_Attain
+Inst88Quest1_HORDE_Level = "80"
+Inst88Quest1_HORDE_Attain = "80"
 Inst88Quest1_HORDE_Aim = Inst88Quest1_Aim
 Inst88Quest1_HORDE_Location = Inst88Quest1_Location
 Inst88Quest1_HORDE_Note = Inst88Quest1_Note
-Inst88Quest1_HORDE_Prequest = Inst88Quest1_Prequest
-Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
+Inst88Quest1_HORDE_Prequest = "Nein"
+Inst88Quest1_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -10107,8 +10107,8 @@ Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
 --------------- INST90 - Forge of Souls (FoS) ---------------
 Inst90Story = "Im ersten Flügel dieses weitläufigen Dungeons, der Seelenschmiede, werden die Spieler schnell einem Test auf Herz und Nieren unterzogen: Die Herausforderung besteht darin, sich durch die Hochburg der Geißel in Richtung der tiefer gelegenen, tückischeren Bereiche zu schlagen. Dabei befehligt auf Seiten der Allianz Jaina die Streitkräfte, während Sylvanas den Truppen der Horde vorsteht. Das Ziel ist es, die verdorbenen, als Seelenschänder bekannten Maschinen zu zerstören, die in diesem Teil der Zitadelle zu finden sind. Erst dann können die Spieler vorrücken – allerdings natürlich nur, wenn es den Streitmächten der Horde und der Allianz gelingt, die Gegner zu überwinden, die sich ihnen in den Weg stellen."
 Inst90Caption = "FoS:Die Seelenschmiede"
-Inst90QAA = "2 Quests"
-Inst90QAH = "2 Quests"
+Inst90QAA = "3 Quests"
+Inst90QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst90Quest1 = "1. In der eisigen Zitadelle"
@@ -10118,7 +10118,7 @@ Inst90Quest1_Aim = "Betretet die Seelenschmiede von der Seite der Eiskronenzitad
 Inst90Quest1_Location = "Lehrling Nelphi (Dalaran Stadt - Wandert vor der südlichen Bank)"
 Inst90Quest1_Note = "Lady Jaina Prachtmeer ist innerhalb der Instanz."
 Inst90Quest1_Prequest = "Nein"
-Inst90Quest1_Folgequest = "Echos gequälter Seelen"
+Inst90Quest1_Folgequest = "Ja, Echos gequälter Seelen"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -10128,8 +10128,8 @@ Inst90Quest2_Attain = "80"
 Inst90Quest2_Aim = "Tötet Bronjahm und den Verschlinger der Seelen, um den Zugang zur Grube von Saron zu sichern."
 Inst90Quest2_Location = "Lady Jaina Prachtmeer (Die Seelenschmiede; "..YELLOW.."Eingang"..WHITE..")"
 Inst90Quest2_Note = "Gebe die Quest bei Lady Jaina Prachtmeer ab, bei "..YELLOW.."[2]"..WHITE.." bevor du die Instanz verläßt.\n\nSchließe die Quest erfolgreich ab um in die Grube von Saron zu gelangen."
-Inst90Quest2_Prequest = "In der eisigen Zitadelle"
-Inst90Quest2_Folgequest = "Die Grube von Saron"
+Inst90Quest2_Prequest = "Ja, In der eisigen Zitadelle"
+Inst90Quest2_Folgequest = "Ja, Die Grube von Saron"
 Inst90Quest2FQuest = "true"
 --
 -- Preis Gerechtigkeitspunkte.
@@ -10141,45 +10141,45 @@ Inst90Quest3_Attain = "80"
 Inst90Quest3_Aim = "Tempert das neugeschmiedete Quel'Delar im Schmelztiegel der Seelen."
 Inst90Quest3_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst90Quest3_Note = "Der Schmelztiegel der Seelen  ist bei "..YELLOW.."[2]"..WHITE..", am Ende der Instanz."
-Inst90Quest3_Prequest = "Das Schwert neu schmieden ("..YELLOW.."Grube von Saron"..WHITE..")"
-Inst90Quest3_Folgequest = "Die Hallen der Reflexion ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
+Inst90Quest3_Prequest = "Ja, Das Schwert neu schmieden ("..YELLOW.."Grube von Saron"..WHITE..")"
+Inst90Quest3_Folgequest = "Ja, Die Hallen der Reflexion ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
 Inst90Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst90Quest1_HORDE = "1. In der eisigen Zitadelle"
+Inst90Quest1_HORDE = Inst90Quest1
 Inst90Quest1_HORDE_Level = "80"
 Inst90Quest1_HORDE_Attain = "80"
 Inst90Quest1_HORDE_Aim = "Betretet die Seelenschmiede von der Seite der Eiskronenzitadelle und findet Fürstin Sylvanas Windläufer."
 Inst90Quest1_HORDE_Location = "Dunkelläuferin Vorel (Dalaran Stadt - Wandert vor der nördlichen Bank)"
 Inst90Quest1_HORDE_Note = "Fürstin Sylvanas Windläufer ist innerhalb der Instanz."
 Inst90Quest1_HORDE_Prequest = "Nein"
-Inst90Quest1_HORDE_Folgequest = "Echos gequälter Seelen"
+Inst90Quest1_HORDE_Folgequest = Inst90Quest1_Folgequest
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst90Quest2_HORDE = "2. Echos gequälter Seelen"
+Inst90Quest2_HORDE = Inst90Quest2
 Inst90Quest2_HORDE_Level = "80"
 Inst90Quest2_HORDE_Attain = "80"
-Inst90Quest2_HORDE_Aim = "Tötet Bronjahm und den Verschlinger der Seelen, um den Zugang zur Grube von Saron zu sichern."
+Inst90Quest2_HORDE_Aim = Inst90Quest2_Aim
 Inst90Quest2_HORDE_Location = "Fürstin Sylvanas Windläufer (Die Seelenschmiede; "..YELLOW.."Eingang"..WHITE..")"
 Inst90Quest2_HORDE_Note = "Gebe die Quest bei Fürstin Sylvanas Windläufer ab, bei "..YELLOW.."[2]"..WHITE.." bevor du die Instanz verläßt.\n\nSchließe die Quest erfolgreich ab um in die Grube von Saron zu gelangen."
-Inst90Quest2_HORDE_Prequest = "In der eisigen Zitadelle"
-Inst90Quest2_HORDE_Folgequest = "Die Grube von Saron"
+Inst90Quest2_HORDE_Prequest = Inst90Quest2_Prequest
+Inst90Quest2_HORDE_Folgequest = Inst90Quest2_Folgequest
 Inst90Quest2FQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 3 Horde
-Inst90Quest3_HORDE = "3. Die Klinge tempern"
+Inst90Quest3_HORDE = Inst90Quest3
 Inst90Quest3_HORDE_Level = "80"
 Inst90Quest3_HORDE_Attain = "80"
-Inst90Quest3_HORDE_Aim = "Tempert das neugeschmiedete Quel'Delar im Schmelztiegel der Seelen."
+Inst90Quest3_HORDE_Aim = Inst90Quest3_Aim
 Inst90Quest3_HORDE_Location = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")"
-Inst90Quest3_HORDE_Note = "Der Schmelztiegel der Seelen  ist bei "..YELLOW.."[2]"..WHITE..", am Ende der Instanz."
-Inst90Quest3_HORDE_Prequest = "Das Schwert neu schmieden ("..YELLOW.."Grube von Saron"..WHITE..")"
-Inst90Quest3_HORDE_Folgequest = "Die Hallen der Reflexion ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
+Inst90Quest3_HORDE_Note = Inst90Quest3_Note
+Inst90Quest3_HORDE_Prequest = Inst90Quest3_Prequest
+Inst90Quest3_HORDE_Folgequest = Inst90Quest3_Folgequest
 Inst90Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -10188,8 +10188,8 @@ Inst90Quest3PreQuest_HORDE = "true"
 --------------- INST91 - Pit of Saron (PoS) ---------------
 Inst91Story = "Die Grube von Saron, nur von denjenigen betretbar, die den unheiligen Vorgängen in der Schmiede der Seelen ein Ende bereitet haben, lässt die Streitkräfte der Horde und der Allianz tiefer in das Reich des Lichkönigs vordringen. Spieler, die sich hier hineinwagen, sehen sich augenblicklich mit dem Herrn dieses Ortes konfrontiert, dem Geißelfürsten Tyrannus. Ihn zu besiegen wird allerdings nicht ganz so einfach werden, wie es zunächst den Anschein hat. Bevor sie sich Tyrannus zuwenden können, müssen die Abenteurer auf Geheiß ihrer Anführer zunächst versklavte Verbündete befreien, die von der Geißel gefangen genommen wurden. Bis das gelungen ist, wird Tyrannus es seinen Günstlingen, den Arbeitern in den Minen der Zitadelle, überlassen, sich um die Eindringlinge zu kümmern. Möglicherweise lassen sich aus den Herausforderungen hier bereits Hinweise herleiten darüber, wo die privaten Gemächer des Lichkönigs jenseits des Frostthrons zu finden sind – tief innerhalb der Hallen der Reflexion."
 Inst91Caption = "PoS:Grube von Saron"
-Inst91QAA = "3 Quests"
-Inst91QAH = "3 Quests"
+Inst91QAA = "4 Quests"
+Inst91QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst91Quest1 = "1. Die Grube von Saron"
@@ -10198,8 +10198,8 @@ Inst91Quest1_Attain = "80"
 Inst91Quest1_Aim = "Trefft Lady Jaina Prachtmeer am Eingang zur Grube von Saron."
 Inst91Quest1_Location = "Lady Jaina Prachtmeer (Die Seelenschmiede; "..YELLOW.."[2]"..WHITE..")"
 Inst91Quest1_Note = "Lady Jaina Prachtmeer ist innerhalb der Instanz."
-Inst91Quest1_Prequest = "Echos gequälter Seelen ("..YELLOW.."Die Seelenschmiede"..WHITE..")"
-Inst91Quest1_Folgequest = "Der Pfad zur Zitadelle"
+Inst91Quest1_Prequest = "Ja, Echos gequälter Seelen ("..YELLOW.."Die Seelenschmiede"..WHITE..")"
+Inst91Quest1_Folgequest = "Ja, Der Pfad zur Zitadelle"
 Inst91Quest1PreQuest = "true"
 -- No Rewards for this quest
 
@@ -10210,8 +10210,8 @@ Inst91Quest2_Attain = "80"
 Inst91Quest2_Aim = "Befreit 15 Allianzsklaven und tötet Schmiedemeister Garfrost."
 Inst91Quest2_Location = "Lady Jaina Prachtmeer (Grube von Saron; "..GREEN.."[1']"..WHITE..")"
 Inst91Quest2_Note = "Die Sklaven findest Du überall in der Grube. Die Quest führt dich zu Gorkun Eisenschädel bei "..YELLOW.."[1]"..WHITE.." nachdem Schmiedemeister Garfrost erledgt worden ist."
-Inst91Quest2_Prequest = "Die Grube von Saron"
-Inst91Quest2_Folgequest = "Befreiung aus der Grube"
+Inst91Quest2_Prequest = "Ja, Die Grube von Saron"
+Inst91Quest2_Folgequest = "Ja, Befreiung aus der Grube"
 Inst91Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -10222,8 +10222,8 @@ Inst91Quest3_Attain = "80"
 Inst91Quest3_Aim = "Tötet Geiselfürst Tyrannus."
 Inst91Quest3_Location = "Lady Jaina Prchtmeer (Grube von Saron; "..YELLOW.."[1]"..WHITE..")"
 Inst91Quest3_Note = "Geiselfürst Tyrannus ist am Ende der Instanz. Beende die Quests erfolgreich um in die Hallen der Reflexion zu gelangen."
-Inst91Quest3_Prequest = "Der Pfad zur Zitadelle"
-Inst91Quest3_Folgequest = "Frostgram ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
+Inst91Quest3_Prequest = "Ja, Der Pfad zur Zitadelle"
+Inst91Quest3_Folgequest = "Ja, Frostgram ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
 Inst91Quest3FQuest = "true"
 --
 -- Preis Gerechtigkeitspunkte.
@@ -10235,58 +10235,58 @@ Inst91Quest4_Attain = "80"
 Inst91Quest4_Aim = "Besorgt 5 energieerfüllte Saronitbarren sowie den Hammer des Schmiedemeisters und schmiedet damit Quel'Delar neu."
 Inst91Quest4_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst91Quest4_Note = "Die energieerfüllten Saronitbarren sind innerhalb der Grube verteilt.  Benutzt den Hammer, der vom Boss Schmiedemeister Garfrost droppt, bem Amboss in der Nähe von ihm."
-Inst91Quest4_Prequest = "Kehrt zu Caladis Prunkspeer zurück"
-Inst91Quest4_Folgequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst91Quest4_Prequest = "Ja, Kehrt zu Caladis Prunkspeer zurück"
+Inst91Quest4_Folgequest = "Ja, Die Klinge tempern ("..YELLOW.."Die Seelenschmiede"..WHITE..")"
 Inst91Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst91Quest1_HORDE = "1. Die Grube von Saron"
+Inst91Quest1_HORDE = Inst91Quest1
 Inst91Quest1_HORDE_Level = "80"
 Inst91Quest1_HORDE_Attain = "80"
 Inst91Quest1_HORDE_Aim = "Trefft Fürstin Sylvanas Windläufer am Eingang zur Grube von Saron."
 Inst91Quest1_HORDE_Location = "Fürstin Sylvanas Windläufer (Die Seelenschmiede; "..YELLOW.."[2]"..WHITE..")"
 Inst91Quest1_HORDE_Note = "Fürstin Sylvanas Windläufer ist innerhalb der Instanz."
-Inst91Quest1_HORDE_Prequest = "Echos gequälter Seelen ("..YELLOW.."Die Seelenschmiede"..WHITE..")"
-Inst91Quest1_HORDE_Folgequest = "Der Pfad zur Zitadelle"
+Inst91Quest1_HORDE_Prequest = Inst91Quest1_Prequest
+Inst91Quest1_HORDE_Folgequest = Inst91Quest1_Folgequest
 Inst91Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst91Quest2_HORDE = "2. Der Pfad zur Zitadelle"
+Inst91Quest2_HORDE = Inst91Quest2
 Inst91Quest2_HORDE_Level = "80"
 Inst91Quest2_HORDE_Attain = "80"
 Inst91Quest2_HORDE_Aim = "Befreit 15 Hordensklaven und tötet Schmiedemeister Garfrost."
 Inst91Quest2_HORDE_Location = "Fürstin Sylvanas Windläufer (Grube von Saron; "..GREEN.."[1']"..WHITE..")"
 Inst91Quest2_HORDE_Note = "Die Sklaven findest Du überall in der Grube. Die Quest führt dich zu Martin Victus bei "..YELLOW.."[1]"..WHITE.." nachdem Schmiedemeister Garfrost erledgt worden ist."
-Inst91Quest2_HORDE_Prequest = "Die Grube von Saron"
-Inst91Quest2_HORDE_Folgequest = "Befreiung aus der Grube"
+Inst91Quest2_HORDE_Prequest = Inst91Quest2_Prequest
+Inst91Quest2_HORDE_Folgequest = Inst91Quest2_Folgequest
 Inst91Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst91Quest3_HORDE = "3. Befreiung aus der Grube"
+Inst91Quest3_HORDE = Inst91Quest3
 Inst91Quest3_HORDE_Level = "80"
 Inst91Quest3_HORDE_Attain = "80"
 Inst91Quest3_HORDE_Aim = "Tötet Geiselfürst Tyrannus."
 Inst91Quest3_HORDE_Location = "Fürstin Sylvanas Windrunner (Grube von Saron; "..YELLOW.."[1]"..WHITE..")"
 Inst91Quest3_HORDE_Note = "Geiselfürst Tyrannus ist am Ende der Instanz. Beende die Quests erfolgreich um in die Hallen der Reflexion zu gelangen."
-Inst91Quest3_HORDE_Prequest = "Der Pfad zur Zitadelle"
-Inst91Quest3_HORDE_Folgequest = "Frostgram ("..YELLOW.."Hallen der Reflexion of Reflection"..WHITE..")"
+Inst91Quest3_HORDE_Prequest = Inst91Quest3_Prequest
+Inst91Quest3_HORDE_Folgequest = Inst91Quest3_Folgequest
 Inst91Quest3FQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 4 Horde
-Inst91Quest4_HORDE = "4. Das Schwert neu schmieden"
+Inst91Quest4_HORDE = Inst91Quest4
 Inst91Quest4_HORDE_Level = "80"
 Inst91Quest4_HORDE_Attain = "80"
 Inst91Quest4_HORDE_Aim = "Besorgt 5 energieerfüllte Saronitbarren sowie den Hammer des Schmiedemeisters und schmiedet damit Quel'Delar neu."
 Inst91Quest4_HORDE_Location = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")"
 Inst91Quest4_HORDE_Note = "Die energieerfüllten Saronitbarren sind innerhalb der Grube verteilt.  Benutzt den Hammer, der vom Boss Schmiedemeister Garfrost droppt, bem Amboss in der Nähe von ihm."
-Inst91Quest4_HORDE_Prequest = "Rückkehr zu Myralion Sonnenfeuer"
-Inst91Quest4_HORDE_Folgequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst91Quest4_HORDE_Prequest = "Ja, Rückkehr zu Myralion Sonnenfeuer"
+Inst91Quest4_HORDE_Folgequest = Inst91Quest4_Folgequest
 Inst91Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -10295,8 +10295,8 @@ Inst91Quest4PreQuest_HORDE = "true"
 --------------- INST92 - Halls of Reflection (HoR) ---------------
 Inst92Story = "Mit Jaina und Sylvanas als ihren Anführern werden die Abenteurer, die es bis in diese eisigen Hallen geschafft haben, die Waffe, die vor ihnen liegt, schnell erkennen: Frostgram, die verführerische, verderbliche und legendäre Waffe des Lichkönigs persönlich. Die Privatgemächer des Lichkönigs liegen in greifbarer Nähe– aber sie könnten der Tod eines jeden sein, der sich dorthin wagt."
 Inst92Caption = "HoR:Hallen der Reflexion"
-Inst92QAA = "2 Quests"
-Inst92QAH = "2 Quests"
+Inst92QAA = "3 Quests"
+Inst92QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst92Quest1 = "1. Frostgram"
@@ -10304,9 +10304,9 @@ Inst92Quest1_Level = "80"
 Inst92Quest1_Attain = "80"
 Inst92Quest1_Aim = "Trefft Lady Jaina Prachtmeer am Eingang zu den Hallen der Reflexion."
 Inst92Quest1_Location = "Lady Jaina Prachtmeer (Grube von Saron; "..YELLOW.."[3]"..WHITE..")"
-Inst92Quest1_Note = "Die Quest bekommst Du am Ende der Instant Grube von Saron und gibst sie gleich am Eingang der Instanz bei Lady Jaina Prachtmeer ab.Die Folgequest bekommst Du nachdem das Event beendet ist bei Lady Jaina Prachtmeer."
-Inst92Quest1_Prequest = "Befreiung aus der Grube ("..YELLOW.."Grube von Saron"..WHITE..")"
-Inst92Quest1_Folgequest = "Der Zorn des Lichkönigs"
+Inst92Quest1_Note = "Diese Quest bekommst Du am Ende der Instant von der Grube von Saron und gibst sie gleich am Eingang der Instanz bei Lady Jaina Prachtmeer ab.Die Folgequest bekommst Du nachdem das Event beendet ist bei Lady Jaina Prachtmeer."
+Inst92Quest1_Prequest = "Ja, Befreiung aus der Grube ("..YELLOW.."Grube von Saron"..WHITE..")"
+Inst92Quest1_Folgequest = "Ja, Der Zorn des Lichkönigs"
 Inst92Quest1PreQuest = "true"
 -- No Rewards for this quest
 
@@ -10317,7 +10317,7 @@ Inst92Quest2_Attain = "80"
 Inst92Quest2_Aim = "Findet Lady Jaina Prachtmeer und flieht aus den Hallen der Reflexion."
 Inst92Quest2_Location = "Hallen der Reflexion"
 Inst92Quest2_Note = "Lady Jaina Prachtmeer flieht vorne weg. Die Quest ist beendet nachdem das Event erfolgreich abgeschlossen ist."
-Inst92Quest2_Prequest = "Frostgram"
+Inst92Quest2_Prequest = "Ja, Frostgram"
 Inst92Quest2_Folgequest = "Nein"
 Inst92Quest2FQuest = "true"
 --
@@ -10330,8 +10330,8 @@ Inst92Quest3_Attain = "80"
 Inst92Quest3_Aim = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der Reflexion."
 Inst92Quest3_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst92Quest3_Note = "Du kannst diese Quest innerhalb der Instanz beenden."
-Inst92Quest3_Prequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
-Inst92Quest3_Folgequest = "Reise zum Sonnenbrunnen"
+Inst92Quest3_Prequest = "Ja, Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst92Quest3_Folgequest = "Ja, Reise zum Sonnenbrunnen"
 Inst92Quest3PreQuest = "true"
 -- No Rewards for this quest
 
@@ -10342,34 +10342,34 @@ Inst92Quest1_HORDE_Level = "80"
 Inst92Quest1_HORDE_Attain = "80"
 Inst92Quest1_HORDE_Aim = "Trefft Fürstin Sylvanas Windläufer am Eingang zu den Hallen der Reflexion."
 Inst92Quest1_HORDE_Location = "Fürstin Sylvanas Windläufer (Grube von Saron; "..YELLOW.."[3]"..WHITE..")"
-Inst92Quest1_HORDE_Note = "Die Quest bekommst Du am Ende der Instant Grube von Saron und gibst sie gleich am Eingang der Instanz bei Fürstin Sylvanas Windläufer ab.Die Folgequest bekommst Du nachdem das Event beendet ist bei Lady Sylvanas Windläufer.."
-Inst92Quest1_HORDE_Prequest = "Befreiung aus der Grube ("..YELLOW.."Grube von Saron"..WHITE..")"
-Inst92Quest1_HORDE_Folgequest = "Der Zorn des Lichkönigs"
+Inst92Quest1_HORDE_Note = "Diese Quest bekommst Du am Ende der Instant von der Grube von Saron und gibst sie gleich am Eingang der Instanz bei Fürstin Sylvanas Windläufer ab.Die Folgequest bekommst Du nachdem das Event beendet ist bei Lady Sylvanas Windläufer."
+Inst92Quest1_HORDE_Prequest = Inst92Quest1_Prequest
+Inst92Quest1_HORDE_Folgequest = Inst92Quest1_Folgequest
 Inst92Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst92Quest2_HORDE = "2. Der Zorn des Lichkönigs"
+Inst92Quest2_HORDE = Inst92Quest2
 Inst92Quest2_HORDE_Level = "80"
 Inst92Quest2_HORDE_Attain = "80"
 Inst92Quest2_HORDE_Aim = "Findet Fürstin Sylvanas Windläufer und flieht aus den Hallen der Reflexion."
-Inst92Quest2_HORDE_Location = "Hallen der Reflexion"
+Inst92Quest2_HORDE_Location = Inst92Quest2_Location
 Inst92Quest2_HORDE_Note = "Fürstin Sylvanas Windläufer flieht vorne weg. Die Quest ist beendet nachdem das Event erfolgreich abgeschlossen ist."
-Inst92Quest2_HORDE_Prequest = "Frostgram"
+Inst92Quest2_HORDE_Prequest = "Ja, Frostgram"
 Inst92Quest2_HORDE_Folgequest = "Nein"
 Inst92Quest2FQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 3 Horde
-Inst92Quest3_HORDE = "3. Die Hallen der Reflexion"
+Inst92Quest3_HORDE = Inst92Quest3
 Inst92Quest3_HORDE_Level = "80"
 Inst92Quest3_HORDE_Attain = "80"
-Inst92Quest3_HORDE_Aim = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der Reflexion."
+Inst92Quest3_HORDE_Aim = Inst92Quest3_Aim
 Inst92Quest3_HORDE_Location = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")"
-Inst92Quest3_HORDE_Note = "Du kannst diese Quest innerhalb der Instanz beenden."
-Inst92Quest3_HORDE_Prequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
-Inst92Quest3_HORDE_Folgequest = "Reise zum Sonnenbrunnen"
+Inst92Quest3_HORDE_Note = Inst92Quest3_Note
+Inst92Quest3_HORDE_Prequest = Inst92Quest3_Prequest
+Inst92Quest3_HORDE_Folgequest = Inst92Quest3_Folgequest
 Inst92Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -10401,7 +10401,7 @@ Inst93Quest2_Aim = "Platziert Lichträcher, 25 Einheiten urtümliches Saronit so
 Inst93Quest2_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest2_Note = "Diese Questreihe ist nur für Krieger, Paldine und Todesritter. Hochlord Mograine's Runenschmiede ist am Eingang der Eiskronenzitadelle.\n\nModermienes und Fauldarms ätzendes Blut droppt nur in der 25 Spieler Version und kann nur von einem einzigen Raidmitglied aufgenommen werden."
 Inst93Quest2_Prequest = "Nein"
-Inst93Quest2_Folgequest = "Schattenschneide"
+Inst93Quest2_Folgequest = "Ja, Schattenschneide"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -10411,8 +10411,8 @@ Inst93Quest3_Attain = "80"
 Inst93Quest3_Aim = "Vermutlich: Kehrt zu Hochlord Darion Mograin in der Eiskronenzitadelle zurück."
 Inst93Quest3_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest3_Note = "Vermutlich ist dies die Quest wo Du die Schattenschneide bekommst!"
-Inst93Quest3_Prequest = "Die Heiligen und die Verderbten"
-Inst93Quest3_Folgequest = "Ein Seelenschmaus"
+Inst93Quest3_Prequest = "Ja, Die Heiligen und die Verderbten"
+Inst93Quest3_Folgequest = "Ja, Ein Seelenschmaus"
 Inst93Quest3FQuest = "true"
 --
 Inst93Quest3name1 = "Schattenschneide"
@@ -10424,8 +10424,8 @@ Inst93Quest4_Attain = "80"
 Inst93Quest4_Aim = "Hochlord Darion Mograine möchte, dass Ihr mit Schattenschneide 50 Diener des Lichkönigs in der Eiskronenzitadelle tötet. Die Seelen sind nur in den Schwierigkeitsgraden für 10 oder 25 Mann erhältlich."
 Inst93Quest4_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest4_Note = "Nur Tötungen in der Eiskronenzitadelle zählen um die 50 zusammenzubekommen."
-Inst93Quest4_Prequest = "Schttenschneide"
-Inst93Quest4_Folgequest = "Erfüllt mit unheiliger Macht"
+Inst93Quest4_Prequest = "Ja, Schattenschneide"
+Inst93Quest4_Folgequest = "Ja, Erfüllt mit unheiliger Macht"
 Inst93Quest4FQuest = "true"
 -- No Rewards for this quest
 
@@ -10436,8 +10436,8 @@ Inst93Quest5_Attain = "80"
 Inst93Quest5_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit unheiliger Macht erfüllt und Professor Seuchenmord tötet."
 Inst93Quest5_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest5_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
-Inst93Quest5_Prequest = "Ein Seelenschmaus"
-Inst93Quest5_Folgequest = "Erfüllt mit der Macht des Blutes"
+Inst93Quest5_Prequest = "Ja, Ein Seelenschmaus"
+Inst93Quest5_Folgequest = "Ja, Erfüllt mit der Macht des Blutes"
 Inst93Quest5FQuest = "true"
 -- No Rewards for this quest
 
@@ -10448,8 +10448,8 @@ Inst93Quest6_Attain = "80"
 Inst93Quest6_Aim = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit der Macht des Blutes erfüllt und Blutkönigin Lana'thel besiegt."
 Inst93Quest6_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest6_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nUm diese Quest zu beenden, mußt Du den Blutspiegel Debuff bekommen. Dann, falls Du nicht als erstes gebissen werden solltest, muß derjenige der gebissen wurde dich beisen. Beise 3 weitere Radimitgliederr und überlebe die Begegnung um diese Quest zu beenden."
-Inst93Quest6_Prequest = "Erfüllt mit unheiliger Macht"
-Inst93Quest6_Folgequest = "Erfüllt mit der Macht des Frostes"
+Inst93Quest6_Prequest = "Ja, Erfüllt mit unheiliger Macht"
+Inst93Quest6_Folgequest = "Ja, Erfüllt mit der Macht des Frostes"
 Inst93Quest6FQuest = "true"
 -- No Rewards for this quest
 
@@ -10460,8 +10460,8 @@ Inst93Quest7_Attain = "80"
 Inst93Quest7_Aim = "Hochlord Darion Mograine hat Euch den Auftrag erteilt, Sindragosa zu töten, nachdem Ihr 4-mal ihren Atemattacken ausgesetzt wart, während Ihr Schattenschneide führt."
 Inst93Quest7_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest7_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nNachdem Du 4 mal den Frostatem abbekommen hast, mußt Sindragosa innerhalb von 6 Minuten getötet werden um diese Quest zu beenden."
-Inst93Quest7_Prequest = "Erfüllt mit der Macht des Blutes"
-Inst93Quest7_Folgequest = "The Splintered Throne"
+Inst93Quest7_Prequest = "Ja, Erfüllt mit der Macht des Blutes"
+Inst93Quest7_Folgequest = "Ja, Der Zersplitterte Thron"
 Inst93Quest7FQuest = "true"
 -- No Rewards for this quest
 
@@ -10472,8 +10472,8 @@ Inst93Quest8_Attain = "80"
 Inst93Quest8_Aim = "Hochlord Darion Mograine möchte, dass Du 50 Schattenfrostsplitter sammelst."
 Inst93Quest8_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest8_Note = "Diese Quest kann nur in der 25 Version beendet werden.\n\nDie Schattenfrostsplitter sind seltene Drops von den Bossen."
-Inst93Quest8_Prequest = "Erfüllt mit der Macht des Frostes"
-Inst93Quest8_Folgequest = "Schattengram..."
+Inst93Quest8_Prequest = "Ja, Erfüllt mit der Macht des Frostes"
+Inst93Quest8_Folgequest = "Ja, Schattengram..."
 Inst93Quest8FQuest = "true"
 -- No Rewards for this quest
 
@@ -10484,8 +10484,8 @@ Inst93Quest9_Attain = "80"
 Inst93Quest9_Aim = "Hochlord Darion Mograine möchte, dass Du ihm Schattenschneide bringst."
 Inst93Quest9_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest9_Note = "Diese Quest verbessert Deine Schattenschneide zu Schattengram."
-Inst93Quest9_Prequest = "Der Zersplitterte Thron"
-Inst93Quest9_Folgequest = "Der letzte Standplatz des Lichkönigs"
+Inst93Quest9_Prequest = "Ja, Der Zersplitterte Thron"
+Inst93Quest9_Folgequest = "Ja, Der letzte Standplatz des Lichkönigs"
 Inst93Quest9FQuest = "true"
 --
 Inst93Quest9name1 = "Schattengram"
@@ -10497,7 +10497,7 @@ Inst93Quest10_Attain = "80"
 Inst93Quest10_Aim = "Hochlord Darion Mograine in der Eiskronenzitadelle möchte, dass Du den Lichkönig tötest."
 Inst93Quest10_Location = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")"
 Inst93Quest10_Note = "Diese Quest um Schattengram zu bekommen kann man Vermutlich nur in der 25 Mann Version abschließen."
-Inst93Quest10_Prequest = "Schattengram..."
+Inst93Quest10_Prequest = "Ja, Schattengram..."
 Inst93Quest10_Folgequest = "Nein"
 Inst93Quest10FQuest = "true"
 -- No Rewards for this quest
@@ -10505,123 +10505,123 @@ Inst93Quest10FQuest = "true"
 
 --Quest 1 Horde (same as Quest 1 Alliance)
 Inst93Quest1_HORDE = Inst93Quest1
-Inst93Quest1_HORDE_Level = Inst93Quest1_Level
-Inst93Quest1_HORDE_Attain = Inst93Quest1_Attain
+Inst93Quest1_HORDE_Level = "80"
+Inst93Quest1_HORDE_Attain = "80"
 Inst93Quest1_HORDE_Aim = Inst93Quest1_Aim
 Inst93Quest1_HORDE_Location = Inst93Quest1_Location
 Inst93Quest1_HORDE_Note = Inst93Quest1_Note
-Inst93Quest1_HORDE_Prequest = Inst93Quest1_Prequest
-Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
+Inst93Quest1_HORDE_Prequest = "Nein"
+Inst93Quest1_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 2 Horde (same as Quest 2 Alliance)^
 Inst93Quest2_HORDE = Inst93Quest2
-Inst93Quest2_HORDE_Level = Inst93Quest2_Level
-Inst93Quest2_HORDE_Attain = Inst93Quest2_Attain
+Inst93Quest2_HORDE_Level = "80"
+Inst93Quest2_HORDE_Attain = "80"
 Inst93Quest2_HORDE_Aim = Inst93Quest2_Aim
 Inst93Quest2_HORDE_Location = Inst93Quest2_Location
 Inst93Quest2_HORDE_Note = Inst93Quest2_Note
-Inst93Quest2_HORDE_Prequest = Inst93Quest2_Prequest
+Inst93Quest2_HORDE_Prequest = "Nein"
 Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
 -- No Rewards for this quest
 
 --Quest 3 Horde (same as Quest 3 Alliance)
 Inst93Quest3_HORDE = Inst93Quest3
-Inst93Quest3_HORDE_Level = Inst93Quest3_Level
-Inst93Quest3_HORDE_Attain = Inst93Quest3_Attain
+Inst93Quest3_HORDE_Level = "80"
+Inst93Quest3_HORDE_Attain = "80"
 Inst93Quest3_HORDE_Aim = Inst93Quest3_Aim
 Inst93Quest3_HORDE_Location = Inst93Quest3_Location
 Inst93Quest3_HORDE_Note = Inst93Quest3_Note
 Inst93Quest3_HORDE_Prequest = Inst93Quest3_Prequest
 Inst93Quest3_HORDE_Folgequest = Inst93Quest3_Folgequest
-Inst93Quest3_HORDE = Inst93Quest3FQuest
+Inst93Quest3FQuest_HORDE = "true"
 --
 Inst93Quest3name1_HORDE = Inst93Quest3name1
 
 --Quest 4 Horde (same as Quest 4 Alliance)
 Inst93Quest4_HORDE = Inst93Quest4
-Inst93Quest4_HORDE_Level = Inst93Quest4_Level
-Inst93Quest4_HORDE_Attain = Inst93Quest4_Attain
+Inst93Quest4_HORDE_Level = "80"
+Inst93Quest4_HORDE_Attain = "80"
 Inst93Quest4_HORDE_Aim = Inst93Quest4_Aim
 Inst93Quest4_HORDE_Location = Inst93Quest4_Location
 Inst93Quest4_HORDE_Note = Inst93Quest4_Note
 Inst93Quest4_HORDE_Prequest = Inst93Quest4_Prequest
 Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
-Inst93Quest4FQuest_HORDE = Inst93Quest4FQuest
+Inst93Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde (same as Quest 5 Alliance)
 Inst93Quest5_HORDE = Inst93Quest5
-Inst93Quest5_HORDE_Level = Inst93Quest5_Level
-Inst93Quest5_HORDE_Attain = Inst93Quest5_Attain
+Inst93Quest5_HORDE_Level = "80"
+Inst93Quest5_HORDE_Attain = "80"
 Inst93Quest5_HORDE_Aim = Inst93Quest5_Aim
 Inst93Quest5_HORDE_Location = Inst93Quest5_Location
 Inst93Quest5_HORDE_Note = Inst93Quest5_Note
 Inst93Quest5_HORDE_Prequest = Inst93Quest5_Prequest
 Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
-Inst93Quest5FQuest_HORDE = Inst93Quest5FQuest
+Inst93Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde (same as Quest 6 Alliance)
 Inst93Quest6_HORDE = Inst93Quest6
-Inst93Quest6_HORDE_Level = Inst93Quest6_Level
-Inst93Quest6_HORDE_Attain = Inst93Quest6_Attain
+Inst93Quest6_HORDE_Level = "80"
+Inst93Quest6_HORDE_Attain = "80"
 Inst93Quest6_HORDE_Aim = Inst93Quest6_Aim
 Inst93Quest6_HORDE_Location = Inst93Quest6_Location
 Inst93Quest6_HORDE_Note = Inst93Quest6_Note
 Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
 Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
-Inst93Quest6FQuest_HORDE = Inst93Quest6FQuest
+Inst93Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde (same as Quest 7 Alliance)
 Inst93Quest7_HORDE = Inst93Quest7
-Inst93Quest7_HORDE_Level = Inst93Quest7_Level
-Inst93Quest7_HORDE_Attain = Inst93Quest7_Attain
+Inst93Quest7_HORDE_Level = "80"
+Inst93Quest7_HORDE_Attain = "80"
 Inst93Quest7_HORDE_Aim = Inst93Quest7_Aim
 Inst93Quest7_HORDE_Location = Inst93Quest7_Location
 Inst93Quest7_HORDE_Note = Inst93Quest7_Note
 Inst93Quest7_HORDE_Prequest = Inst93Quest7_Prequest
 Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
-Inst93Quest7FQuest_HORDE = Inst93Quest7FQuest
+Inst93Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 8 Horde (same as Quest 8 Alliance)
 Inst93Quest8_HORDE = Inst93Quest8
-Inst93Quest8_HORDE_Level = Inst93Quest8_Level
-Inst93Quest8_HORDE_Attain = Inst93Quest8_Attain
+Inst93Quest8_HORDE_Level = "80"
+Inst93Quest8_HORDE_Attain = "80"
 Inst93Quest8_HORDE_Aim = Inst93Quest8_Aim
 Inst93Quest8_HORDE_Location = Inst93Quest8_Location
 Inst93Quest8_HORDE_Note = Inst93Quest8_Note
 Inst93Quest8_HORDE_Prequest = Inst93Quest8_Prequest
 Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
-Inst93Quest8FQuest_HORDE = Inst93Quest8FQuest
+Inst93Quest8FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 9 Horde (same as Quest 9 Alliance)
 Inst93Quest9_HORDE = Inst93Quest9
-Inst93Quest9_HORDE_Level = Inst93Quest9_Level
-Inst93Quest9_HORDE_Attain = Inst93Quest9_Attain
+Inst93Quest9_HORDE_Level = "80"
+Inst93Quest9_HORDE_Attain = "80"
 Inst93Quest9_HORDE_Aim = Inst93Quest9_Aim
 Inst93Quest9_HORDE_Location = Inst93Quest9_Location
 Inst93Quest9_HORDE_Note = Inst93Quest9_Note
 Inst93Quest9_HORDE_Prequest = Inst93Quest9_Prequest
 Inst93Quest9_HORDE_Folgequest = Inst93Quest9_Folgequest
-Inst93Quest9FQuest_HORDE = Inst93Quest9FQuest
+Inst93Quest9FQuest_HORDE = "true"
 --
 Inst93Quest9name1_HORDE = Inst93Quest9name1
 
 --Quest 10 Horde (same as Quest 10 Alliance)
 Inst93Quest10_HORDE = Inst93Quest10
-Inst93Quest10_HORDE_Level = Inst93Quest10_Level
-Inst93Quest10_HORDE_Attain = Inst93Quest10_Attain
+Inst93Quest10_HORDE_Level = "80"
+Inst93Quest10_HORDE_Attain = "80"
 Inst93Quest10_HORDE_Aim = Inst93Quest10_Aim
 Inst93Quest10_HORDE_Location = Inst93Quest10_Location
 Inst93Quest10_HORDE_Note = Inst93Quest10_Note
 Inst93Quest10_HORDE_Prequest = Inst93Quest10_Prequest
-Inst93Quest10_HORDE_Folgequest = Inst93Quest10_Folgequest
-Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
+Inst93Quest10_HORDE_Folgequest = "Nein"
+Inst93Quest10FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -10641,7 +10641,7 @@ Inst94Quest1_Aim = "Sprecht mit Krasus im Wyrmruhtempel in der Drachenöde."
 Inst94Quest1_Location = "Rhonin (Dalaran - Die Violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")"
 Inst94Quest1_Note = "Krasus ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")."
 Inst94Quest1_Prequest = "Nein"
-Inst94Quest1_Folgequest = "Angriff auf das Sanktum"
+Inst94Quest1_Folgequest = "Ja, Angriff auf das Sanktum"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -10651,8 +10651,8 @@ Inst94Quest2_Attain = "80"
 Inst94Quest2_Aim = "Untersucht das Rubinsanktum unterhalb des Wyrmruhtempels."
 Inst94Quest2_Location = "Krasus (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")"
 Inst94Quest2_Note = "Wächterin des Sanktum Xerestrasza ist innerhalb des Rubin Sanktum bei dem 2. Nebenboss Baltharus der Kriegsjünger bei "..YELLOW.."[1]"..WHITE.."."
-Inst94Quest2_Prequest = "Ärger am Wyrmruhtempel"
-Inst94Quest2_Folgequest = "Der Zwielichtzerstörer"
+Inst94Quest2_Prequest = "Ja, Ärger am Wyrmruhtempel"
+Inst94Quest2_Folgequest = "Ja, Der Zwielichtzerstörer"
 Inst94Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -10663,7 +10663,7 @@ Inst94Quest3_Attain = "80"
 Inst94Quest3_Aim = "Besiegt Halion und vertreibt die Invasion aus dem Rubinsanktum."
 Inst94Quest3_Location = "Wächterin des Sanktum Xerestrasza (Rubinsanktum; "..YELLOW.."[A] Eingang"..WHITE..")"
 Inst94Quest3_Note = "Halion ist der Hauptboss, zu finden bei "..YELLOW.."[4]"..WHITE.."."
-Inst94Quest3_Prequest = "Ärger am Wyrmruhtempel"
+Inst94Quest3_Prequest = "Ja, Ärger am Wyrmruhtempel"
 Inst94Quest3_Folgequest = "Nein"
 Inst94Quest3FQuest = "true"
 --
@@ -10672,37 +10672,37 @@ Inst94Quest3FQuest = "true"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst94Quest1_HORDE = Inst94Quest1
-Inst94Quest1_HORDE_Level = Inst94Quest1_Level
-Inst94Quest1_HORDE_Attain = Inst94Quest1_Attain
+Inst94Quest1_HORDE_Level = "80"
+Inst94Quest1_HORDE_Attain = "80"
 Inst94Quest1_HORDE_Aim = Inst94Quest1_Aim
 Inst94Quest1_HORDE_Location = Inst94Quest1_Location
 Inst94Quest1_HORDE_Note = Inst94Quest1_Note
-Inst94Quest1_HORDE_Prequest = Inst94Quest1_Prequest
-Inst94Quest1_HORDE_Folgequest = Inst94Quest1_Folgequest
+Inst94Quest1_HORDE_Prequest = "Nein"
+Inst94Quest1_HORDE_Folgequest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst94Quest2_HORDE = Inst94Quest2
-Inst94Quest2_HORDE_Level = Inst94Quest2_Level
-Inst94Quest2_HORDE_Attain = Inst94Quest2_Attain
+Inst94Quest2_HORDE_Level = "80"
+Inst94Quest2_HORDE_Attain = "80"
 Inst94Quest2_HORDE_Aim = Inst94Quest2_Aim
 Inst94Quest2_HORDE_Location = Inst94Quest2_Location
 Inst94Quest2_HORDE_Note = Inst94Quest2_Note
 Inst94Quest2_HORDE_Prequest = Inst94Quest2_Prequest
 Inst94Quest2_HORDE_Folgequest = Inst94Quest2_Folgequest
-Inst94Quest2FQuest_HORDE = Inst94Quest2FQuest
+Inst94Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst94Quest3_HORDE = Inst94Quest3
-Inst94Quest3_HORDE_Level = Inst94Quest3_Level
-Inst94Quest3_HORDE_Attain = Inst94Quest3_Attain
+Inst94Quest3_HORDE_Level = "80"
+Inst94Quest3_HORDE_Attain = "80"
 Inst94Quest3_HORDE_Aim = Inst94Quest3_Aim
 Inst94Quest3_HORDE_Location = Inst94Quest3_Location
 Inst94Quest3_HORDE_Note = Inst94Quest3_Note
 Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
-Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
-Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
+Inst94Quest3_HORDE_Folgequest = "Nein"
+Inst94Quest3FQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -10734,7 +10734,7 @@ Inst95Quest2_Attain = "80"
 Inst95Quest2_Aim = "Tötet Rom'ogg Knochenbrecher."
 Inst95Quest2_Location = "Finkle Einhorn (Schwarzfelshöhlen; "..GREEN.."[1']"..WHITE..")"
 Inst95Quest2_Note = "Rom'ogg Knochenbrecher ist der erste Boss, bei "..YELLOW.."[1]"..WHITE.."."
-Inst95Quest2_Prequest = "Das kann nur eins bedeuten..."
+Inst95Quest2_Prequest = "Ja, Das kann nur eins bedeuten..."
 Inst95Quest2_Folgequest = "Nein"
 Inst95Quest2FQuest = "true"
 -- No Rewards for this quest
@@ -10792,59 +10792,59 @@ Inst95Quest6name3 = "Raz' Brustplatte"
 
 --Quest 1 Horde (same as Quest 1 Alliance)
 Inst95Quest1_HORDE = Inst95Quest1
-Inst95Quest1_HORDE_Level = Inst95Quest1_Level
-Inst95Quest1_HORDE_Attain = Inst95Quest1_Attain
+Inst95Quest1_HORDE_Level = "82"
+Inst95Quest1_HORDE_Attain = "80"
 Inst95Quest1_HORDE_Aim = Inst95Quest1_Aim
 Inst95Quest1_HORDE_Location = Inst95Quest1_Location
 Inst95Quest1_HORDE_Note = Inst95Quest1_Note
-Inst95Quest1_HORDE_Prequest = Inst95Quest1_Prequest
+Inst95Quest1_HORDE_Prequest = "Nein"
 Inst95Quest1_HORDE_Folgequest = Inst95Quest1_Folgequest
-Inst95Quest1PreQuest_HORDE = Inst95Quest1PreQuest
+Inst95Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde (same as Quest 2 Alliance)
 Inst95Quest2_HORDE = Inst95Quest2
-Inst95Quest2_HORDE_Level = Inst95Quest2_Level
-Inst95Quest2_HORDE_Attain = Inst95Quest2_Attain
+Inst95Quest2_HORDE_Level = "82"
+Inst95Quest2_HORDE_Attain = "80"
 Inst95Quest2_HORDE_Aim = Inst95Quest2_Aim
 Inst95Quest2_HORDE_Location = Inst95Quest2_Location
 Inst95Quest2_HORDE_Note = Inst95Quest2_Note
 Inst95Quest2_HORDE_Prequest = Inst95Quest2_Prequest
-Inst95Quest2_HORDE_Folgequest = Inst95Quest2_Folgequest
-Inst95Quest2FQuest_HORDE = Inst95Quest2FQuest
+Inst95Quest2_HORDE_Folgequest = "Nein"
+Inst95Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde (same as Quest 3 Alliance)
 Inst95Quest3_HORDE = Inst95Quest3
-Inst95Quest3_HORDE_Level = Inst95Quest3_Level
-Inst95Quest3_HORDE_Attain = Inst95Quest3_Attain
+Inst95Quest3_HORDE_Level = "82"
+Inst95Quest3_HORDE_Attain = "80"
 Inst95Quest3_HORDE_Aim = Inst95Quest3_Aim
 Inst95Quest3_HORDE_Location = Inst95Quest3_Location
 Inst95Quest3_HORDE_Note = Inst95Quest3_Note
-Inst95Quest3_HORDE_Prequest = Inst95Quest3_Prequest
-Inst95Quest3_HORDE_Folgequest = Inst95Quest3_Folgequest
+Inst95Quest3_HORDE_Prequest = "Nein"
+Inst95Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde (same as Quest 4 Alliance)
 Inst95Quest4_HORDE = Inst95Quest4
-Inst95Quest4_HORDE_Level = Inst95Quest4_Level
-Inst95Quest4_HORDE_Attain = Inst95Quest4_Attain
+Inst95Quest4_HORDE_Level = "82"
+Inst95Quest4_HORDE_Attain = "80"
 Inst95Quest4_HORDE_Aim = Inst95Quest4_Aim
 Inst95Quest4_HORDE_Location = Inst95Quest4_Location
 Inst95Quest4_HORDE_Note = Inst95Quest4_Note
-Inst95Quest4_HORDE_Prequest = Inst95Quest4_Prequest
-Inst95Quest4_HORDE_Folgequest = Inst95Quest4_Folgequest
+Inst95Quest4_HORDE_Prequest = "Nein"
+Inst95Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Horde (same as Quest 5 Alliance)
 Inst95Quest5_HORDE = Inst95Quest5
-Inst95Quest5_HORDE_Level = Inst95Quest5_Level
-Inst95Quest5_HORDE_Attain = Inst95Quest5_Attain
+Inst95Quest5_HORDE_Level = "82"
+Inst95Quest5_HORDE_Attain = "80"
 Inst95Quest5_HORDE_Aim = Inst95Quest5_Aim
 Inst95Quest5_HORDE_Location = Inst95Quest5_Location
 Inst95Quest5_HORDE_Note = Inst95Quest5_Note
-Inst95Quest5_HORDE_Prequest = Inst95Quest5_Prequest
-Inst95Quest5_HORDE_Folgequest = Inst95Quest5_Folgequest
+Inst95Quest5_HORDE_Prequest = "Nein"
+Inst95Quest5_HORDE_Folgequest = "Nein"
 --
 Inst95Quest5name1_HORDE = Inst95Quest5name1
 Inst95Quest5name2_HORDE = Inst95Quest5name2
@@ -10852,13 +10852,13 @@ Inst95Quest5name3_HORDE = Inst95Quest5name3
 
 --Quest 6 Horde (same as Quest 6 Alliance)
 Inst95Quest6_HORDE = Inst95Quest6
-Inst95Quest6_HORDE_Level = Inst95Quest6_Level
-Inst95Quest6_HORDE_Attain = Inst95Quest6_Attain
+Inst95Quest6_HORDE_Level = "82"
+Inst95Quest6_HORDE_Attain = "80"
 Inst95Quest6_HORDE_Aim = Inst95Quest6_Aim
 Inst95Quest6_HORDE_Location = Inst95Quest6_Location
 Inst95Quest6_HORDE_Note = Inst95Quest6_Note
-Inst95Quest6_HORDE_Prequest = Inst95Quest6_Prequest
-Inst95Quest6_HORDE_Folgequest = Inst95Quest6_Folgequest
+Inst95Quest6_HORDE_Prequest = "Nein"
+Inst95Quest6_HORDE_Folgequest = "Nein"
 --
 Inst95Quest6name1_HORDE = Inst95Quest6name1
 Inst95Quest6name2_HORDE = Inst95Quest6name2
@@ -10908,13 +10908,13 @@ Inst96Quest2name3 = "Steinsprechergürtel"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst96Quest1_HORDE = Inst96Quest1
-Inst96Quest1_HORDE_Level = Inst96Quest1_Level
-Inst96Quest1_HORDE_Attain = "Legionär Nazgrim will, dass Ihr Lady Naz'jar vernichtet."
+Inst96Quest1_HORDE_Level = "82"
+Inst96Quest1_HORDE_Attain = "80"
 Inst96Quest1_HORDE_Aim = Inst96Quest2_Aim
 Inst96Quest1_HORDE_Location = Inst96Quest1_Location
 Inst96Quest1_HORDE_Note = Inst96Quest1_Note
-Inst96Quest1_HORDE_Prequest = Inst96Quest1_Prequest
-Inst96Quest1_HORDE_Folgequest = Inst96Quest1_Folgequest
+Inst96Quest1_HORDE_Prequest = "Nein"
+Inst96Quest1_HORDE_Folgequest = "Nein"
 --
 Inst96Quest1name1_Horde = Inst96Quest1name1
 Inst96Quest1name2_Horde = Inst96Quest1name2
@@ -10922,13 +10922,13 @@ Inst96Quest1name3_Horde = Inst96Quest1name3
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst96Quest2_HORDE = Inst96Quest2
-Inst96Quest2_HORDE_Level = Inst96Quest2_Level
-Inst96Quest2_HORDE_Attain = Inst96Quest2_Attain
+Inst96Quest2_HORDE_Level = "82"
+Inst96Quest2_HORDE_Attain = "80"
 Inst96Quest2_HORDE_Aim = Inst96Quest2_Aim
 Inst96Quest2_HORDE_Location = Inst96Quest2_Location
 Inst96Quest2_HORDE_Note = Inst96Quest2_Note
-Inst96Quest2_HORDE_Prequest = Inst96Quest2_Prequest
-Inst96Quest2_HORDE_Folgequest = Inst96Quest2_Folgequest
+Inst96Quest2_HORDE_Prequest = "Nein"
+Inst96Quest2_HORDE_Folgequest = "Nein"
 --
 Inst96Quest2name1_Horde = Inst96Quest2name1	
 Inst96Quest2name2_Horde = Inst96Quest2name2
@@ -11002,36 +11002,36 @@ Inst97Quest4name3 = "Kristallschimmerumhang"
 
 --Quest 1 Horde (same as Quest 1 Alliance)
 Inst97Quest1_HORDE = Inst97Quest1
-Inst97Quest1_HORDE_Level = Inst97Quest1_Level
-Inst97Quest1_HORDE_Attain = Inst97Quest1_Attain
+Inst97Quest1_HORDE_Level = "83"
+Inst97Quest1_HORDE_Attain = "82"
 Inst97Quest1_HORDE_Aim = Inst97Quest1_Aim
 Inst97Quest1_HORDE_Location = Inst97Quest1_Location
 Inst97Quest1_HORDE_Note = Inst97Quest1_Note
 Inst97Quest1_HORDE_Prequest = Inst97Quest1_Prequest
-Inst97Quest1_HORDE_Folgequest = Inst97Quest1_Folgequest
+Inst97Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde (same as Quest 2 Alliance)
 Inst97Quest2_HORDE = Inst97Quest2
-Inst97Quest2_HORDE_Level = Inst97Quest2_Level
-Inst97Quest2_HORDE_Attain = Inst97Quest2_Attain
+Inst97Quest2_HORDE_Level = "84"
+Inst97Quest2_HORDE_Attain = "82"
 Inst97Quest2_HORDE_Aim = Inst97Quest2_Aim
 Inst97Quest2_HORDE_Location = Inst97Quest2_Location
 Inst97Quest2_HORDE_Note = Inst97Quest2_Note
-Inst97Quest2_HORDE_Prequest = Inst97Quest2_Prequest
+Inst97Quest2_HORDE_Prequest = "Nein"
 Inst97Quest2_HORDE_Folgequest = Inst97Quest2_Folgequest
 -- No Rewards for this quest
 
 --Quest 3 Horde (same as Quest 3 Alliance)
 Inst97Quest3_HORDE = Inst97Quest3
-Inst97Quest3_HORDE_Level = Inst97Quest3_Level
-Inst97Quest3_HORDE_Attain = Inst97Quest3_Attain
+Inst97Quest3_HORDE_Level = "84"
+Inst97Quest3_HORDE_Attain = "82"
 Inst97Quest3_HORDE_Aim = Inst97Quest3_Aim
 Inst97Quest3_HORDE_Location = Inst97Quest3_Location
 Inst97Quest3_HORDE_Note = Inst97Quest3_Note
 Inst97Quest3_HORDE_Prequest = Inst97Quest3_Prequest
-Inst97Quest3_HORDE_Folgequest = Inst97Quest3_Folgequest
-Inst97Quest3FQuest_HORDE = Inst97Quest3FQuest
+Inst97Quest3_HORDE_Folgequest = "Nein"
+Inst97Quest3FQuest_HORDE = "true"
 --
 Inst97Quest3name1_HORDE = Inst97Quest3name1
 Inst97Quest3name2_HORDE = Inst97Quest3name2
@@ -11039,13 +11039,13 @@ Inst97Quest3name3_HORDE = Inst97Quest3name3
 
 --Quest 4 Horde (same as Quest 4 Alliance)
 Inst97Quest4_HORDE = Inst97Quest4
-Inst97Quest4_HORDE_Level = Inst97Quest4_Level
-Inst97Quest4_HORDE_Attain = Inst97Quest4_Attain
+Inst97Quest4_HORDE_Level = "84"
+Inst97Quest4_HORDE_Attain = "82"
 Inst97Quest4_HORDE_Aim = Inst97Quest4_Aim
 Inst97Quest4_HORDE_Location = Inst97Quest4_Location
 Inst97Quest4_HORDE_Note = Inst97Quest4_Note
-Inst97Quest4_HORDE_Prequest = Inst97Quest4_Prequest
-Inst97Quest4_HORDE_Folgequest = Inst97Quest4_Folgequest
+Inst97Quest4_HORDE_Prequest = "Nein"
+Inst97Quest4_HORDE_Folgequest = "Nein"
 --
 Inst97Quest4name1_HORDE = Inst97Quest4name1
 Inst97Quest4name2_HORDE = Inst97Quest4name2
@@ -11067,8 +11067,8 @@ Inst98Quest1_Attain = "82"
 Inst98Quest1_Aim = "Findet Itesh im Vortexgipfel."
 Inst98Quest1_Location = "General Ammantep (Uldum; "..YELLOW.."45.2, 37.8"..WHITE..")"
 Inst98Quest1_Note = "Dies ist eine optionale 'Brotkrumen' Quest die dich zum Vortexgipfel schickt. Du bekommst diese Quest nachdem du einige Questen in Uldum erledigt hast.\n\nItesh ist in der Nähe vom Eingang."
-Inst98Quest1_Prequest = "Das Zepter von Orsis"
-Inst98Quest1_Folgequest = "Rache für Orsis"
+Inst98Quest1_Prequest = "Ja, Das Zepter von Orsis"
+Inst98Quest1_Folgequest = "Ja, Rache für Orsis"
 Inst98Quest1PreQuest = "true"
 -- No Rewards for this quest
 
@@ -11079,7 +11079,7 @@ Inst98Quest2_Attain = "82"
 Inst98Quest2_Aim = "Tötet Asaad."
 Inst98Quest2_Location = "Itesh (Vortexgipfel; "..YELLOW.."Eingang"..WHITE..")"
 Inst98Quest2_Note = "Asaad ist der finale Boss, bei "..YELLOW.."[3]"..WHITE..". Die Vorquest ist optional. Diese Quest bringt dich zurück zum Eingang."
-Inst98Quest2_Prequest = "Der Vortexgipfel"
+Inst98Quest2_Prequest = "Ja, Der Vortexgipfel"
 Inst98Quest2_Folgequest = "Nein"
 Inst98Quest2FQuest = "true"
 --
@@ -11099,31 +11099,31 @@ Inst98Quest3_Folgequest = "Nein"
 --
 Inst98Quest3name1 = "Umhang von Itesh"
 Inst98Quest3name2 = "Gamaschen des Vortexgipfels"
-Inst98Quest3name3 = " Band der Sackgasse "
+Inst98Quest3name3 = "Band der Sackgasse"
 
 
 --Quest 1 Horde (same as Quest 1 Alliance)
 Inst98Quest1_HORDE = Inst98Quest1
-Inst98Quest1_HORDE_Level = Inst98Quest1_Level
-Inst98Quest1_HORDE_Attain = Inst98Quest1_Attain
+Inst98Quest1_HORDE_Level = "84"
+Inst98Quest1_HORDE_Attain = "82"
 Inst98Quest1_HORDE_Aim = Inst98Quest1_Aim
 Inst98Quest1_HORDE_Location = Inst98Quest1_Location
 Inst98Quest1_HORDE_Note = Inst98Quest1_Note
 Inst98Quest1_HORDE_Prequest = Inst98Quest1_Prequest
 Inst98Quest1_HORDE_Folgequest = Inst98Quest1_Folgequest
-Inst98Quest1PreQuest_HORDE = Inst98Quest1PreQuest
+Inst98Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde (same as Quest 2 Alliance)
 Inst98Quest2_HORDE = Inst98Quest2
-Inst98Quest2_HORDE_Level = Inst98Quest2_Level
-Inst98Quest2_HORDE_Attain = Inst98Quest2_Attain
+Inst98Quest2_HORDE_Level = "84"
+Inst98Quest2_HORDE_Attain = "82"
 Inst98Quest2_HORDE_Aim = Inst98Quest2_Aim
 Inst98Quest2_HORDE_Location = Inst98Quest2_Location
 Inst98Quest2_HORDE_Note = Inst98Quest2_Note
 Inst98Quest2_HORDE_Prequest = Inst98Quest2_Prequest
-Inst98Quest2_HORDE_Folgequest = Inst98Quest2_Folgequest
-Inst98Quest2FQuest_HORDE = Inst98Quest2FQuest
+Inst98Quest2_HORDE_Folgequest = "Nein"
+Inst98Quest2FQuest_HORDE = "true"
 --
 Inst98Quest2name1_HORDE = Inst98Quest2name1
 Inst98Quest2name2_HORDE = Inst98Quest2name2
@@ -11131,13 +11131,13 @@ Inst98Quest2name3_HORDE = Inst98Quest2name3
 
 --Quest 3 Horde (same as Quest 3 Alliance)
 Inst98Quest3_HORDE = Inst98Quest3
-Inst98Quest3_HORDE_Level = Inst98Quest3_Level
-Inst98Quest3_HORDE_Attain = Inst98Quest3_Attain
+Inst98Quest3_HORDE_Level = "84"
+Inst98Quest3_HORDE_Attain = "82"
 Inst98Quest3_HORDE_Aim = Inst98Quest3_Aim
 Inst98Quest3_HORDE_Location = Inst98Quest3_Location
 Inst98Quest3_HORDE_Note = Inst98Quest3_Note
-Inst98Quest3_HORDE_Prequest = Inst98Quest3_Prequest
-Inst98Quest3_HORDE_Folgequest = Inst98Quest3_Folgequest
+Inst98Quest3_HORDE_Prequest = "Nein"
+Inst98Quest3_HORDE_Folgequest = "Nein"
 --
 Inst98Quest3name1_HORDE = Inst98Quest3name1
 Inst98Quest3name2_HORDE = Inst98Quest3name2
@@ -11199,41 +11199,41 @@ Inst99Quest3name2 = "Armschienen des Auslöschers"
 Inst99Quest3name3 = "Brustplatte des Zeugen"
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst99Quest1_HORDE = Inst99Quest1
-Inst99Quest1_HORDE_Level = Inst99Quest1_Level
-Inst99Quest1_HORDE_Attain = Inst99Quest1_Attain
+Inst99Quest1_HORDE_Level = "85"
+Inst99Quest1_HORDE_Attain = "84"
 Inst99Quest1_HORDE_Aim = Inst99Quest1_Aim
 Inst99Quest1_HORDE_Location = Inst99Quest1_Location
 Inst99Quest1_HORDE_Note = Inst99Quest1_Note
-Inst99Quest1_HORDE_Prequest = Inst99Quest1_Prequest
-Inst99Quest1_HORDE_Folgequest = Inst99Quest1_Folgequest
+Inst99Quest1_HORDE_Prequest = "Nein"
+Inst99Quest1_HORDE_Folgequest = "Nein"
 --
 Inst99Quest1name1_HORDE = Inst99Quest1name1
 
---Quest 2 Horde (same as Quest 2 Alliance)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst99Quest2_HORDE = Inst99Quest2
-Inst99Quest2_HORDE_Level = Inst99Quest2_Level
-Inst99Quest2_HORDE_Attain = Inst99Quest2_Attain
+Inst99Quest2_HORDE_Level = "85"
+Inst99Quest2_HORDE_Attain = "84"
 Inst99Quest2_HORDE_Aim = Inst99Quest2_Aim
 Inst99Quest2_HORDE_Location = Inst99Quest2_Location
 Inst99Quest2_HORDE_Note = Inst99Quest2_Note
-Inst99Quest2_HORDE_Prequest = Inst99Quest2_Prequest
-Inst99Quest2_HORDE_Folgequest = Inst99Quest2_Folgequest
+Inst99Quest2_HORDE_Prequest = "Nein"
+Inst99Quest2_HORDE_Folgequest = "Nein"
 --
 Inst99Quest2name1_HORDE = Inst99Quest2name1
 Inst99Quest2name2_HORDE = Inst99Quest2name2
 Inst99Quest2name3_HORDE = Inst99Quest2name3
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst99Quest3_HORDE = Inst99Quest3
-Inst99Quest3_HORDE_Level = Inst99Quest3_Level
-Inst99Quest3_HORDE_Attain = Inst99Quest3_Attain
+Inst99Quest3_HORDE_Level = "85"
+Inst99Quest3_HORDE_Attain = "84"
 Inst99Quest3_HORDE_Aim = Inst99Quest3_Aim
 Inst99Quest3_HORDE_Location = Inst99Quest3_Location
 Inst99Quest3_HORDE_Note = Inst99Quest3_Note
-Inst99Quest3_HORDE_Prequest = Inst99Quest3_Prequest
-Inst99Quest3_HORDE_Folgequest = Inst99Quest3_Folgequest
+Inst99Quest3_HORDE_Prequest = "Nein"
+Inst99Quest3_HORDE_Folgequest = "Nein"
 --
 Inst99Quest3name1_HORDE = Inst99Quest3name1
 Inst99Quest3name2_HORDE = Inst99Quest3name2
@@ -11291,43 +11291,43 @@ Inst100Quest3name2 = "Helm der Neuerschaffung"
 Inst100Quest3name3 = "Handschuhe des Schatzjägers"
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst100Quest1_HORDE = Inst100Quest1
-Inst100Quest1_HORDE_Level = Inst100Quest1_Level
-Inst100Quest1_HORDE_Attain = Inst100Quest1_Attain
+Inst100Quest1_HORDE_Level = "83"
+Inst100Quest1_HORDE_Attain = "83"
 Inst100Quest1_HORDE_Aim = Inst100Quest1_Aim
 Inst100Quest1_HORDE_Location = Inst100Quest1_Location
 Inst100Quest1_HORDE_Note = Inst100Quest1_Note
 Inst100Quest1_HORDE_Prequest = Inst100Quest1_Prequest
 Inst100Quest1_HORDE_Folgequest = Inst100Quest1_Folgequest
-Inst100Quest1PreQuest_HORDE = Inst100Quest1PreQuest
+Inst100Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde (same as Quest 2 Alliance)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst100Quest2_HORDE = Inst100Quest2
-Inst100Quest2_HORDE_Level = Inst100Quest2_Level
-Inst100Quest2_HORDE_Attain = Inst100Quest2_Attain
+Inst100Quest2_HORDE_Level = "83"
+Inst100Quest2_HORDE_Attain = "83"
 Inst100Quest2_HORDE_Aim = Inst100Quest2_Aim
 Inst100Quest2_HORDE_Location = Inst100Quest2_Location
 Inst100Quest2_HORDE_Note = Inst100Quest2_Note
 Inst100Quest2_HORDE_Prequest = Inst100Quest2_Prequest
 Inst100Quest2_HORDE_Folgequest = Inst100Quest2_Folgequest
-Inst100Quest2FQuest_HORDE = Inst100Quest2FQuest
+Inst100Quest2FQuest_HORDE = "true"
 --
 Inst100Quest2name1_HORDE = Inst100Quest2name1
 Inst100Quest2name2_HORDE = Inst100Quest2name2
 Inst100Quest2name3_HORDE = Inst100Quest2name3
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst100Quest3_HORDE = Inst100Quest3
-Inst100Quest3_HORDE_Level = Inst100Quest3_Level
-Inst100Quest3_HORDE_Attain = Inst100Quest3_Attain
+Inst100Quest3_HORDE_Level = "83"
+Inst100Quest3_HORDE_Attain = "83"
 Inst100Quest3_HORDE_Aim = Inst100Quest3_Aim
 Inst100Quest3_HORDE_Location = Inst100Quest3_Location
 Inst100Quest3_HORDE_Note = Inst100Quest3_Note
 Inst100Quest3_HORDE_Prequest = Inst100Quest3_Prequest
-Inst100Quest3_HORDE_Folgequest = Inst100Quest3_Folgequest
-Inst100Quest3FQuest_HORDE = Inst100Quest3FQuest
+Inst100Quest3_HORDE_Folgequest = "Nein"
+Inst100Quest3FQuest_HORDE = "true"
 --
 Inst100Quest3name1_HORDE = Inst100Quest3name1
 Inst100Quest3name2_HORDE = Inst100Quest3name2
@@ -11349,7 +11349,7 @@ Inst101Quest1_Attain = "81"
 Inst101Quest1_Aim = "Sprecht mit Hauptmann Hadan in der Verlorenen Stadt der Tol'vir."
 Inst101Quest1_Location = "König Phaoris (Uldum - Ramakahen; "..YELLOW.."54.9, 32.8"..WHITE..")"
 Inst101Quest1_Note = "Hauptmann Hadan ist innerhalb der Instanz. Diese Quest bekommst du nachdem du einige Questen von Ramakahen in Uldum abgeschlossen hast. Diese Quest ist nicht erforderlich um die anderen beiden Questen annehmen zu können."
-Inst101Quest1_Prequest = "Ja,Information kommt noch"
+Inst101Quest1_Prequest = "Ja, Information kommt noch"
 Inst101Quest1_Folgequest = "Nein"
 Inst101Quest1PreQuest = "true"
 -- No Rewards for this quest
@@ -11372,7 +11372,7 @@ Inst101Quest2name3 = "Armschienen der verlorenen Stadt"
 Inst101Quest3 = "3. Die Quelle ihrer Macht"
 Inst101Quest3_Level = "85"
 Inst101Quest3_Attain = "83"
-Inst101Quest3_Aim = "Slay Siamat."
+Inst101Quest3_Aim = "Besiegt Siamat."
 Inst101Quest3_Location = "Hauptmann Hadan (Verlorene Stadt der Tol'vir; "..YELLOW.."Eingang"..WHITE..")"
 Inst101Quest3_Note = "Siamat ist bei "..YELLOW.."[4]"..WHITE..". Diese Quest bringt dich zurück zum Eingang."
 Inst101Quest3_Prequest = "Nein"
@@ -11383,46 +11383,41 @@ Inst101Quest3name2 = "Treter der Neferset"
 Inst101Quest3name3 = "Frontstiefel von Ramkahen"
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde  (same as Quest 1 Alliance)
 Inst101Quest1_HORDE = Inst101Quest1
-Inst101Quest1_HORDE_Level = Inst101Quest1_Level
-Inst101Quest1_HORDE_Attain = Inst101Quest1_Attain
+Inst101Quest1_HORDE_Level = "83"
+Inst101Quest1_HORDE_Attain = "81"
 Inst101Quest1_HORDE_Aim = Inst101Quest1_Aim
 Inst101Quest1_HORDE_Location = Inst101Quest1_Location
 Inst101Quest1_HORDE_Note = Inst101Quest1_Note
 Inst101Quest1_HORDE_Prequest = Inst101Quest1_Prequest
-Inst101Quest1_HORDE_Folgequest = Inst101Quest1_Folgequest
-Inst101Quest1PreQuest_HORDE = Inst101Quest1PreQuest
-Inst101Quest1FQuest_HORDE = Inst101Quest1FQuest
+Inst101Quest1_HORDE_Folgequest = "Nein"
+Inst101Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde (same as Quest 2 Alliance)
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst101Quest2_HORDE = Inst101Quest2
-Inst101Quest2_HORDE_Level = Inst101Quest2_Level
-Inst101Quest2_HORDE_Attain = Inst101Quest2_Attain
+Inst101Quest2_HORDE_Level = "85"
+Inst101Quest2_HORDE_Attain = "83"
 Inst101Quest2_HORDE_Aim = Inst101Quest2_Aim
 Inst101Quest2_HORDE_Location = Inst101Quest2_Location
 Inst101Quest2_HORDE_Note = Inst101Quest2_Note
-Inst101Quest2_HORDE_Prequest = Inst101Quest2_Prequest
-Inst101Quest2_HORDE_Folgequest = Inst101Quest2_Folgequest
-Inst101Quest2PreQuest_HORDE = Inst101Quest2PreQuest
-Inst101Quest2FQuest_HORDE = Inst101Quest2FQuest
+Inst101Quest2_HORDE_Prequest = "Nein"
+Inst101Quest2_HORDE_Folgequest = "Nein"
 --
 Inst101Quest2name1_HORDE = Inst101Quest2name1
 Inst101Quest2name2_HORDE = Inst101Quest2name2
 Inst101Quest2name3_HORDE = Inst101Quest2name3
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst101Quest3_HORDE = Inst101Quest3
-Inst101Quest3_HORDE_Level = Inst101Quest3_Level
-Inst101Quest3_HORDE_Attain = Inst101Quest3_Attain
+Inst101Quest3_HORDE_Level = "85"
+Inst101Quest3_HORDE_Attain = "83"
 Inst101Quest3_HORDE_Aim = Inst101Quest3_Aim
 Inst101Quest3_HORDE_Location = Inst101Quest3_Location
 Inst101Quest3_HORDE_Note = Inst101Quest3_Note
-Inst101Quest3_HORDE_Prequest = Inst101Quest3_Prequest
-Inst101Quest3_HORDE_Folgequest = Inst101Quest3_Folgequest
-Inst101Quest3PreQuest_HORDE = Inst101Quest3PreQuest
-Inst101Quest3FQuest_HORDE = Inst101Quest3FQuest
+Inst101Quest3_HORDE_Prequest = "Nein"
+Inst101Quest3_HORDE_Folgequest = "Nein"
 --
 Inst101Quest3name1_HORDE = Inst101Quest3name1
 Inst101Quest3name2_HORDE = Inst101Quest3name2
@@ -11497,7 +11492,7 @@ Inst33Quest1_HORDE_Level = "51"
 Inst33Quest1_HORDE_Attain = "51"
 Inst33Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Alteractal und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
 Inst33Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
-Inst33Quest1_HORDE_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 51 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst33Quest1_HORDE_Note = Inst33Quest1_Note
 Inst33Quest1_HORDE_Prequest = "Nein"
 Inst33Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -11539,7 +11534,7 @@ Inst34Quest3_Level = "60"
 Inst34Quest3_Attain = "60"
 Inst34Quest3_Aim = "Betretet das Arathibecken, erobert und kontrolliert gleichzeitig vier Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
 Inst34Quest3_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest3_Note = "Man muss freundlichen Ruf mit dem Bund von Arathor haben, um diese Quest annehmen zu können."
+Inst34Quest3_Note = "Man muss einen freundlichen Ruf beim Bund von Arathor haben, um diese Quest annehmen zu können."
 Inst34Quest3_Prequest = "Nein"
 Inst34Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -11550,7 +11545,7 @@ Inst34Quest4_Level = "60"
 Inst34Quest4_Attain = "60"
 Inst34Quest4_Aim = "Kontrolliert gleichzeitig fünf Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
 Inst34Quest4_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest4_Note = "Man muss ehrfürchtigen Ruf mit dem Bund von Arathor haben, um diese Quest annehmen zu können."
+Inst34Quest4_Note = "Man muss einen ehrfürchtigen Ruf beim Bund von Arathor haben, um diese Quest annehmen zu können."
 Inst34Quest4_Prequest = "Nein"
 Inst34Quest4_Folgequest = "Nein"
 --
@@ -11563,7 +11558,7 @@ Inst34Quest1_HORDE_Level = "20"
 Inst34Quest1_HORDE_Attain = "20"
 Inst34Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Arathibecken und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
 Inst34Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
-Inst34Quest1_HORDE_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 20 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst34Quest1_HORDE_Note = Inst34Quest1_Note
 Inst34Quest1_HORDE_Prequest = "Nein"
 Inst34Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -11574,7 +11569,7 @@ Inst34Quest2_HORDE_Level = "25"
 Inst34Quest2_HORDE_Attain = "25"
 Inst34Quest2_HORDE_Aim = "Erobert die Mine, das Sägewerk, die Schmiede, die Farm und die Ställe und kehrt dann zu Todesmeister Dunkels in Hammerfall zurück."
 Inst34Quest2_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest2_HORDE_Note = "Die Orte die man erobern muss, sind auf der Karte mit 1 bis 4 markiert."
+Inst34Quest2_HORDE_Note = Inst34Quest2_Note
 Inst34Quest2_HORDE_Prequest = "Nein"
 Inst34Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -11585,7 +11580,7 @@ Inst34Quest3_HORDE_Level = "60"
 Inst34Quest3_HORDE_Attain = "60"
 Inst34Quest3_HORDE_Aim = "Haltet vier Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
 Inst34Quest3_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest3_HORDE_Note = "Man muss freundlichen Ruf mit den Entweihten haben, um diese Quest annehmen zu können."
+Inst34Quest3_HORDE_Note = Inst34Quest3_Note
 Inst34Quest3_HORDE_Prequest = "Nein"
 Inst34Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -11596,7 +11591,7 @@ Inst34Quest4_HORDE_Level = "60"
 Inst34Quest4_HORDE_Attain = "60"
 Inst34Quest4_HORDE_Aim = "Haltet fünf Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
 Inst34Quest4_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest4_HORDE_Note = "Man muss ehrfürchtigen Ruf mit den Entweihten haben, um diese Quest annehmen zu können."
+Inst34Quest4_HORDE_Note = Inst34Quest4_Note
 Inst34Quest4_HORDE_Prequest = "Nein"
 Inst34Quest4_HORDE_Folgequest = "Nein"
 --
@@ -11628,7 +11623,7 @@ Inst35Quest1_HORDE_Level = "10"
 Inst35Quest1_HORDE_Attain = "10"
 Inst35Quest1_HORDE_Aim = "Gewinnt eine Schlacht in der Kriegshymnenschlucht und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
 Inst35Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0,38.3"
-Inst35Quest1_HORDE_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 10 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst35Quest1_HORDE_Note = Inst35Quest1_Note
 Inst35Quest1_HORDE_Prequest = "Nein"
 Inst35Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -11659,7 +11654,7 @@ Inst60Quest1_HORDE_Level = "61"
 Inst60Quest1_HORDE_Attain = "61"
 Inst60Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Auge des Sturms und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
 Inst60Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
-Inst60Quest1_HORDE_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 61 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst60Quest1_HORDE_Note = Inst60Quest1_Note
 Inst60Quest1_HORDE_Prequest = "Nein"
 Inst60Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -11690,7 +11685,7 @@ Inst83Quest1_HORDE_Level = "71"
 Inst83Quest1_HORDE_Attain = "71"
 Inst83Quest1_HORDE_Aim = "Gewinnt eine Schlacht auf dem Strand der Uralten und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte, in Tausendwinter, Dalaran oder Shattrath."
 Inst83Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Tausendwinter: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0, 38.3"
-Inst83Quest1_HORDE_Note = "Diese Quest kann man nur einmal am Tag machen und nur wenn man Level 71 erreicht hat. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level."
+Inst83Quest1_HORDE_Note = Inst83Quest1_Note
 Inst83Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
@@ -11719,7 +11714,7 @@ Inst89Quest1_HORDE_Level = "80"
 Inst89Quest1_HORDE_Attain = "80" 
 Inst89Quest1_HORDE_Aim = "Erringt den Sieg bei einer Partie auf dem Schlachtfeld Insel der Eroberung und kehrt zu einem Kriegshetzer der Horde in irgendeiner Hauptstadt, Dalaran oder Shattrath zurück."
 Inst89Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Tausendwintersee: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0, 38.3" 
-Inst89Quest1_HORDE_Note = "Diese Quest kann man nur einmal am Tag machen wenn sie verfügbar ist. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level." 
+Inst89Quest1_HORDE_Note = Inst89Quest1_Note
 Inst89Quest1_HORDE_Prequest = "Nein" 
 Inst89Quest1_HORDE_Folgequest = "Nein" 
 -- No Rewards for this quest 
@@ -11953,8 +11948,8 @@ Inst66Quest13name4 = "Windstürmerlanze"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst66Quest1_HORDE = Inst66Quest1
-Inst66Quest1_HORDE_Level = Inst66Quest1_Level
-Inst66Quest1_HORDE_Attain = Inst66Quest1_Attain
+Inst66Quest1_HORDE_Level = "70"
+Inst66Quest1_HORDE_Attain = "70"
 Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
 Inst66Quest1_HORDE_Location = Inst66Quest1_Location
 Inst66Quest1_HORDE_Note = Inst66Quest1_Note
@@ -11965,80 +11960,80 @@ Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst66Quest2_HORDE = Inst66Quest2
-Inst66Quest2_HORDE_Level = Inst66Quest2_Level
-Inst66Quest2_HORDE_Attain = Inst66Quest2_Attain
+Inst66Quest2_HORDE_Level = "70"
+Inst66Quest2_HORDE_Attain = "70"
 Inst66Quest2_HORDE_Aim = Inst66Quest2_Aim
 Inst66Quest2_HORDE_Location = Inst66Quest2_Location
 Inst66Quest2_HORDE_Note = Inst66Quest2_Note
 Inst66Quest2_HORDE_Prequest = Inst66Quest2_Prequest
-Inst66Quest2_HORDE_Folgequest = Inst66Quest2_Folgequest
+Inst66Quest2_HORDE_Folgequest = "Nein"
 Inst66Quest2PreQuest_HORDE = Inst66Quest2PreQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst66Quest3_HORDE = Inst66Quest3
-Inst66Quest3_HORDE_Level = Inst66Quest3_Level
-Inst66Quest3_HORDE_Attain = Inst66Quest3_Attain
+Inst66Quest3_HORDE_Level = "70"
+Inst66Quest3_HORDE_Attain = "70"
 Inst66Quest3_HORDE_Aim = Inst66Quest3_Aim
 Inst66Quest3_HORDE_Location = Inst66Quest3_Location
 Inst66Quest3_HORDE_Note = Inst66Quest3_Note
-Inst66Quest3_HORDE_Prequest = Inst66Quest3_Prequest
-Inst66Quest3_HORDE_Folgequest = Inst66Quest3_Folgequest
+Inst66Quest3_HORDE_Prequest = "Nein"
+Inst66Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst66Quest4_HORDE = Inst66Quest4
-Inst66Quest4_HORDE_Level = Inst66Quest4_Level
-Inst66Quest4_HORDE_Attain = Inst66Quest4_Attain
+Inst66Quest4_HORDE_Level = "70"
+Inst66Quest4_HORDE_Attain = "70"
 Inst66Quest4_HORDE_Aim = Inst66Quest4_Aim
 Inst66Quest4_HORDE_Location = Inst66Quest4_Location
 Inst66Quest4_HORDE_Note = Inst66Quest4_Note
-Inst66Quest4_HORDE_Prequest = Inst66Quest4_Prequest
-Inst66Quest4_HORDE_Folgequest = Inst66Quest4_Folgequest
+Inst66Quest4_HORDE_Prequest = "Nein"
+Inst66Quest4_HORDE_Folgequest = "Nein"
 --
 Inst66Quest4name1_HORDE = Inst66Quest4name1
 Inst66Quest4name2_HORDE = Inst66Quest4name2
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst66Quest5_HORDE = Inst66Quest5
-Inst66Quest5_HORDE_Level = Inst66Quest5_Level
-Inst66Quest5_HORDE_Attain = Inst66Quest5_Attain
+Inst66Quest5_HORDE_Level = "70"
+Inst66Quest5_HORDE_Attain = "70"
 Inst66Quest5_HORDE_Aim = Inst66Quest5_Aim
 Inst66Quest5_HORDE_Location = Inst66Quest5_Location
 Inst66Quest5_HORDE_Note = Inst66Quest5_Note
-Inst66Quest5_HORDE_Prequest = Inst66Quest5_Prequest
-Inst66Quest5_HORDE_Folgequest = Inst66Quest5_Folgequest
+Inst66Quest5_HORDE_Prequest = "Nein"
+Inst66Quest5_HORDE_Folgequest = "Nein"
 --
 Inst66Quest5name1_HORDE = Inst66Quest5name1
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst66Quest6_HORDE = Inst66Quest6
-Inst66Quest6_HORDE_Level = Inst66Quest6_Level
-Inst66Quest6_HORDE_Attain = Inst66Quest6_Attain
+Inst66Quest6_HORDE_Level = "70"
+Inst66Quest6_HORDE_Attain = "70"
 Inst66Quest6_HORDE_Aim = Inst66Quest6_Aim
 Inst66Quest6_HORDE_Location = Inst66Quest6_Location
 Inst66Quest6_HORDE_Note = Inst66Quest6_Note
 Inst66Quest6_HORDE_Prequest = Inst66Quest6_Prequest
-Inst66Quest6_HORDE_Folgequest = Inst66Quest6_Folgequest
+Inst66Quest6_HORDE_Folgequest = "Nein"
 Inst66Quest6PreQuest_HORDE = Inst66Quest6PreQuest
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst66Quest7_HORDE = Inst66Quest7
-Inst66Quest7_HORDE_Level = Inst66Quest7_Level
-Inst66Quest7_HORDE_Attain = Inst66Quest7_Attain
+Inst66Quest7_HORDE_Level = "70"
+Inst66Quest7_HORDE_Attain = "70"
 Inst66Quest7_HORDE_Aim = Inst66Quest7_Aim
 Inst66Quest7_HORDE_Location = Inst66Quest7_Location
 Inst66Quest7_HORDE_Note = Inst66Quest7_Note
-Inst66Quest7_HORDE_Prequest = Inst66Quest7_Prequest
+Inst66Quest7_HORDE_Prequest = "Nein"
 Inst66Quest7_HORDE_Folgequest = Inst66Quest7_Folgequest
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst66Quest8_HORDE = Inst66Quest8
-Inst66Quest8_HORDE_Level = Inst66Quest8_Level
-Inst66Quest8_HORDE_Attain = Inst66Quest8_Attain
+Inst66Quest8_HORDE_Level = "70"
+Inst66Quest8_HORDE_Attain = "70"
 Inst66Quest8_HORDE_Aim = Inst66Quest8_Aim
 Inst66Quest8_HORDE_Location = Inst66Quest8_Location
 Inst66Quest8_HORDE_Note = Inst66Quest8_Note
@@ -12049,8 +12044,8 @@ Inst66Quest8FQuest_HORDE = Inst66Quest8FQuest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst66Quest9_HORDE = Inst66Quest9
-Inst66Quest9_HORDE_Level = Inst66Quest9_Level
-Inst66Quest9_HORDE_Attain = Inst66Quest9_Attain
+Inst66Quest9_HORDE_Level = "70"
+Inst66Quest9_HORDE_Attain = "70"
 Inst66Quest9_HORDE_Aim = Inst66Quest9_Aim
 Inst66Quest9_HORDE_Location = Inst66Quest9_Location
 Inst66Quest9_HORDE_Note = Inst66Quest9_Note
@@ -12061,8 +12056,8 @@ Inst66Quest9FQuest_HORDE = Inst66Quest9FQuest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
 Inst66Quest10_HORDE = Inst66Quest10
-Inst66Quest10_HORDE_Level = Inst66Quest10_Level
-Inst66Quest10_HORDE_Attain = Inst66Quest10_Attain
+Inst66Quest10_HORDE_Level = "70"
+Inst66Quest10_HORDE_Attain = "70"
 Inst66Quest10_HORDE_Aim = Inst66Quest10_Aim
 Inst66Quest10_HORDE_Location = Inst66Quest10_Location
 Inst66Quest10_HORDE_Note = Inst66Quest10_Note
@@ -12073,8 +12068,8 @@ Inst66Quest10FQuest_HORDE = Inst66Quest10FQuest
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
 Inst66Quest11_HORDE = Inst66Quest11
-Inst66Quest11_HORDE_Level = Inst66Quest11_Level
-Inst66Quest11_HORDE_Attain = Inst66Quest11_Attain
+Inst66Quest11_HORDE_Level = "70"
+Inst66Quest11_HORDE_Attain = "70"
 Inst66Quest11_HORDE_Aim = Inst66Quest11_Aim
 Inst66Quest11_HORDE_Location = Inst66Quest11_Location
 Inst66Quest11_HORDE_Note = Inst66Quest11_Note
@@ -12085,26 +12080,26 @@ Inst66Quest11FQuest_HORDE = Inst66Quest11FQuest
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
 Inst66Quest12_HORDE = Inst66Quest12
-Inst66Quest12_HORDE_Level = Inst66Quest12_Level
-Inst66Quest12_HORDE_Attain = Inst66Quest12_Attain
+Inst66Quest12_HORDE_Level = "70"
+Inst66Quest12_HORDE_Attain = "70"
 Inst66Quest12_HORDE_Aim = Inst66Quest12_Aim
 Inst66Quest12_HORDE_Location = Inst66Quest12_Location
 Inst66Quest12_HORDE_Note = Inst66Quest12_Note
 Inst66Quest12_HORDE_Prequest = Inst66Quest12_Prequest
-Inst66Quest12_HORDE_Folgequest = Inst66Quest12_Folgequest
+Inst66Quest12_HORDE_Folgequest = "Nein"
 Inst66Quest12FQuest_HORDE = Inst66Quest12FQuest
 --
 Inst66Quest12name1_HORDE = Inst66Quest12name1
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
 Inst66Quest13_HORDE = Inst66Quest13
-Inst66Quest13_HORDE_Level = Inst66Quest13_Level
-Inst66Quest13_HORDE_Attain = Inst66Quest13_Attain
+Inst66Quest13_HORDE_Level = "70"
+Inst66Quest13_HORDE_Attain = "70"
 Inst66Quest13_HORDE_Aim = Inst66Quest13_Aim
 Inst66Quest13_HORDE_Location = Inst66Quest13_Location
 Inst66Quest13_HORDE_Note = Inst66Quest13_Note
 Inst66Quest13_HORDE_Prequest = Inst66Quest13_Prequest
-Inst66Quest13_HORDE_Folgequest = Inst66Quest13_Folgequest
+Inst66Quest13_HORDE_Folgequest = "Nein"
 Inst66Quest13PreQuest_HORDE = Inst66Quest13PreQuest
 Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
 --
