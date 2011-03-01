@@ -17,6 +17,9 @@ Version 4.6.2 BETA (not released)
 	- Scarlet Monastery: Cathedral
 	- Scarlet Monastery: Graveyard
 	- Scholomance
+	- Shadowfang Keep
+	- 
+	- The Ruins of Ahn'Qiraj (AQ20)
 	
 
 

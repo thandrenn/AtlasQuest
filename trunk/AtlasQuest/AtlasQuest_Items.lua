@@ -1902,9 +1902,123 @@ Inst20Quest8ID4_HORDE = "65995"
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
+--Quest 1 Alliance
+Inst21Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst21Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst21Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst21Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
+--ITEM1
+Inst21Quest4ITC1 = Itemc4;
+Inst21Quest4description1 = AQITEM_CHEST..AQITEM_MAIL
+Inst21Quest4ID1 = "65984"
+--ITEM2
+Inst21Quest4ITC2 = Itemc4;
+Inst21Quest4description2 = AQITEM_SHOULDER..AQITEM_MAIL
+Inst21Quest4ID2 = "66002"
+--ITEM3
+Inst21Quest4ITC3 = Itemc4;
+Inst21Quest4description3 = AQITEM_SHOULDER..AQITEM_MAIL
+Inst21Quest4ID3 = "65960"
+--ITEM4
+Inst21Quest4ITC4 = Itemc4;
+Inst21Quest4description4 = AQITEM_FEET..AQITEM_LEATHER
+Inst21Quest4ID4 = "65936"
+--ITEM5
+Inst21Quest4ITC5 = Itemc4;
+Inst21Quest4description5 = AQITEM_LEGS..AQITEM_CLOTH
+Inst21Quest4ID5 = "65910"
+
+--Quest 5 Alliance
+Inst21Quest5Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst21Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst21Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst21Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst21Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
+--ITEM1
+Inst21Quest4ITC1_HORDE = Itemc4;
+Inst21Quest4description1_HORDE = AQITEM_CHEST..AQITEM_MAIL
+Inst21Quest4ID1_HORDE = "66038"
+--ITEM2
+Inst21Quest4ITC2_HORDE = Itemc4;
+Inst21Quest4description2_HORDE = AQITEM_SHOULDER..AQITEM_MAIL
+Inst21Quest4ID2_HORDE = "66044"
+--ITEM3
+Inst21Quest4ITC3_HORDE = Itemc4;
+Inst21Quest4description3_HORDE = AQITEM_SHOULDER..AQITEM_MAIL
+Inst21Quest4ID3_HORDE = "66029"
+--ITEM4
+Inst21Quest4ITC4_HORDE = Itemc4;
+Inst21Quest4description4_HORDE = AQITEM_FEET..AQITEM_LEATHER
+Inst21Quest4ID4_HORDE = "66020"
+--ITEM5
+Inst21Quest4ITC5_HORDE = Itemc4;
+Inst21Quest4description5_HORDE = AQITEM_LEGS..AQITEM_CLOTH
+Inst21Quest4ID5_HORDE = "66011"
+
+--Quest 5 Horde
+Inst21Quest5Rewardtext_HORDE = AQNoReward
+
+
+
 --------------- INST22 - Stratholme (Strat) ---------------
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
+
+--Quest 1 Alliance
+Inst23Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst23Quest1ITC1 = Itemc5;
+Inst23Quest1description1 = AQITEM_NECK
+Inst23Quest1ID1 = "21504"
+--ITEM2
+Inst23Quest1ITC2 = Itemc5;
+Inst23Quest1description2 = AQITEM_NECK
+Inst23Quest1ID2 = "21507"
+--ITEM3
+Inst23Quest1ITC3 = Itemc5;
+Inst23Quest1description3 = AQITEM_NECK
+Inst23Quest1ID3 = "21505"
+--ITEM1
+Inst23Quest1ITC4 = Itemc5;
+Inst23Quest1description4 = AQITEM_NECK
+Inst23Quest1ID4 = "21506"
+
+
+--Quest 1 Horde
+Inst23Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst23Quest1ITC1_HORDE = Itemc5;
+Inst23Quest1description1_HORDE = AQITEM_NECK
+Inst23Quest1ID1_HORDE = "21504"
+--ITEM2
+Inst23Quest1ITC2_HORDE = Itemc5;
+Inst23Quest1description2_HORDE = AQITEM_NECK
+Inst23Quest1ID2_HORDE = "21507"
+--ITEM3
+Inst23Quest1ITC3_HORDE = Itemc5;
+Inst23Quest1description3_HORDE = AQITEM_NECK
+Inst23Quest1ID3_HORDE = "21505"
+--ITEM1
+Inst23Quest1ITC4_HORDE = Itemc5;
+Inst23Quest1description4_HORDE = AQITEM_NECK
+Inst23Quest1ID4_HORDE = "21506"
+
+
 
 --------------- INST24 - The Stockade (Stocks) ---------------
 
