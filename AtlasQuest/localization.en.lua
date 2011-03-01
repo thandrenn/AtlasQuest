@@ -3242,8 +3242,136 @@ Inst20Quest8name4_HORDE = Inst20Quest8name4
 
 Inst21Story = "During the Third War, the wizards of the Kirin Tor battled against the undead armies of the Scourge. When the wizards of Dalaran died in battle, they would rise soon after - adding their former might to the growing Scourge. Frustrated by their lack of progress (and against the advice of his peers) the Archmage, Arugal elected to summon extra-dimensional entities to bolster Dalaran's diminishing ranks. Arugal's summoning brought the ravenous worgen into the world of Azeroth. The feral wolf-men slaughtered not only the Scourge, but quickly turned on the wizards themselves. The worgen laid siege to the keep of the noble, Baron Silverlaine. Situated above the tiny hamlet of Pyrewood, the keep quickly fell into shadow and ruin. Driven mad with guilt, Arugal adopted the worgen as his children and retreated to the newly dubbed 'Shadowfang Keep'. It's said he still resides there, protected by his massive pet, Fenrus - and haunted by the vengeful ghost of Baron Silverlaine."
 Inst21Caption = "Shadowfang Keep"
-Inst21QAA = "3 Quests"
+Inst21QAA = "5 Quests"
 Inst21QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst21Quest1 = "1. Sniffing Them Out"
+Inst21Quest1_Level = "18"
+Inst21Quest1_Attain = "16"
+Inst21Quest1_Aim = "Kill Baron Ashbury."
+Inst21Quest1_Location = "Packleader Ivar Bloodfang (Shadowfang Keep; "..GREEN.."[1']"..WHITE..")"
+Inst21Quest1_Note = "Baron Ashbury is at "..YELLOW.."[1]"..WHITE..".\n\nPackleader Ivar Bloodfang also appears in the hallway after you kill Baron Ashbury."
+Inst21Quest1_Prequest = "None"
+Inst21Quest1_Folgequest = "Armored to the Teeth"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst21Quest2 = "2. Armored to the Teeth"
+Inst21Quest2_Level = "19"
+Inst21Quest2_Attain = "16"
+Inst21Quest2_Aim = "Kill Baron Silverlaine and Commander Springvale."
+Inst21Quest2_Location = "Packleader Ivar Bloodfang (Shadowfang Keep; "..GREEN.."[1']"..WHITE..")"
+Inst21Quest2_Note = "Baron Silverlaine is at "..YELLOW.."[2]"..WHITE.." and Commander Springvale is at "..YELLOW.."[3]"..WHITE..".\n\nPackleader Ivar Bloodfang also appears on the walkway after you kill Commander Springvale."
+Inst21Quest2_Prequest = "Sniffing Them Out"
+Inst21Quest2_Folgequest = "Fighting Tooth and Claw"
+Inst21Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst21Quest3 = "3. Fighting Tooth and Claw"
+Inst21Quest3_Level = "20"
+Inst21Quest3_Attain = "16"
+Inst21Quest3_Aim = "Kill Lord Walden."
+Inst21Quest3_Location = "Packleader Ivar Bloodfang (Shadowfang Keep; "..GREEN.."[1']"..WHITE..")"
+Inst21Quest3_Note = "Lord Walden is at "..YELLOW.."[4]"..WHITE..".\n\nPackleader Ivar Bloodfang also appears at the doorway after you kill Lord Walden."
+Inst21Quest3_Prequest = "Armored to the Teeth"
+Inst21Quest3_Folgequest = "Fury of the Pack"
+Inst21Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst21Quest4 = "4. Fury of the Pack"
+Inst21Quest4_Level = "21"
+Inst21Quest4_Attain = "16"
+Inst21Quest4_Aim = "Kill Lord Godfrey."
+Inst21Quest4_Location = "Packleader Ivar Bloodfang (Shadowfang Keep; "..GREEN.."[1']"..WHITE..")"
+Inst21Quest4_Note = "Lord Godfrey is at "..YELLOW.."[5]"..WHITE..".\n\nPackleader Ivar Bloodfang is in the doorway leading to Lord Godfrey's room."
+Inst21Quest4_Prequest = "Fighting Tooth and Claw"
+Inst21Quest4_Folgequest = "None"
+Inst21Quest4FQuest = "true"
+--
+Inst21Quest4name1 = "Breastplate of the Terrible Price"
+Inst21Quest4name2 = "Packleader's Pauldrons"
+Inst21Quest4name3 = "Shadowfang Spaulders"
+Inst21Quest4name4 = "Sandals of Sacrifice"
+Inst21Quest4name5 = "Godfrey's Britches"
+
+--Quest 5 Alliance
+Inst21Quest5 = "5. Something is in the Air (and it Ain't Love)"
+Inst21Quest5_Level = "85"
+Inst21Quest5_Attain = "85"
+Inst21Quest5_Aim = "Bring the Faded Lovely Greeting Card to Inspector Snip Snagglebolt in Stormwind."
+Inst21Quest5_Location = "Drops from Apothecary Hummel (Shadowfang Keep; "..ORANGE.."[1]"..WHITE..")"
+Inst21Quest5_Note = "This quest is for the Love is in the Air seasonal event. It can be done once per character.\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.6, 75.2"..WHITE..")."
+Inst21Quest5_Prequest = "None"
+Inst21Quest5_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst21Quest1_HORDE = "1. This Land is Our Land"
+Inst21Quest1_HORDE_Level = "18"
+Inst21Quest1_HORDE_Attain = "16"
+Inst21Quest1_HORDE_Aim = "Kill Baron Ashbury."
+Inst21Quest1_HORDE_Location = "Deathstalker Commander Belmont (Shadowfang Keep; "..GREEN.."[1']"..WHITE..")"
+Inst21Quest1_HORDE_Note = "Baron Ashbury is at "..YELLOW.."[1]"..WHITE..".\n\nDeathstalker Commander Belmont also appears in the hallway after you kill Baron Ashbury."
+Inst21Quest1_HORDE_Prequest = "None"
+Inst21Quest1_HORDE_Folgequest = "Plague...Plague Everywhere!"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst21Quest2_HORDE = "2. Plague...Plague Everywhere!"
+Inst21Quest2_HORDE_Level = "19"
+Inst21Quest2_HORDE_Attain = "16"
+Inst21Quest2_HORDE_Aim = "Kill Baron Silverlaine and Commander Springvale."
+Inst21Quest2_HORDE_Location = "Deathstalker Commander Belmont (Shadowfang Keep; "..GREEN.."[1']"..WHITE..")"
+Inst21Quest2_HORDE_Note = "Baron Silverlaine is at "..YELLOW.."[2]"..WHITE.." and Commander Springvale is at "..YELLOW.."[3]"..WHITE..".\n\nDeathstalker Commander Belmont also appears on the walkway after you kill Commander Springvale."
+Inst21Quest2_HORDE_Prequest = "This Land is Our Land"
+Inst21Quest2_HORDE_Folgequest = "Orders Are For the Living"
+Inst21Quest2FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst21Quest3_HORDE = "3. Orders Are For the Living"
+Inst21Quest3_HORDE_Level = "20"
+Inst21Quest3_HORDE_Attain = "16"
+Inst21Quest3_HORDE_Aim = "Kill Lord Walden."
+Inst21Quest3_HORDE_Location = "Deathstalker Commander Belmont (Shadowfang Keep; "..GREEN.."[1']"..WHITE..")"
+Inst21Quest3_HORDE_Note = "Lord Walden is at "..YELLOW.."[4]"..WHITE..".\n\nDeathstalker Commander Belmont also appears at the doorway after you kill Lord Walden."
+Inst21Quest3_HORDE_Prequest = "Plague...Plague Everywhere!"
+Inst21Quest3_HORDE_Folgequest = "Sweet, Merciless Reveng"
+Inst21Quest3FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst21Quest4_HORDE = "4. Sweet, Merciless Revenge"
+Inst21Quest4_HORDE_Level = "21"
+Inst21Quest4_HORDE_Attain = "16"
+Inst21Quest4_HORDE_Aim = "Kill Lord Godfrey."
+Inst21Quest4_HORDE_Location = "Deathstalker Commander Belmont (Shadowfang Keep; "..GREEN.."[1']"..WHITE..")"
+Inst21Quest4_HORDE_Note = "Lord Godfrey is at "..YELLOW.."[5]"..WHITE..".\n\nDeathstalker Commander Belmont is in the doorway leading to Lord Godfrey's room."
+Inst21Quest4_HORDE_Prequest = "Orders Are For the Living"
+Inst21Quest4_HORDE_Folgequest = "None"
+Inst21Quest4FQuest_HORDE = "true"
+--
+Inst21Quest4name1_HORDE = "Breastplate of the Terrible Price"
+Inst21Quest4name2_HORDE = "Deathstalker Pauldrons"
+Inst21Quest4name3_HORDE = "Shadowfang Spaulders"
+Inst21Quest4name4_HORDE = "Sandals of Sacrifice"
+Inst21Quest4name5_HORDE = "Godfrey's Britches"
+
+--Quest 5 Horde
+Inst21Quest5_HORDE = "5. Something is in the Air (and it Ain't Love)"
+Inst21Quest5_HORDE_Level = "85"
+Inst21Quest5_HORDE_Attain = "85"
+Inst21Quest5_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
+Inst21Quest5_HORDE_Location = "Drops from Apothecary Hummel (Shadowfang Keep; "..ORANGE.."[1]"..WHITE..")"
+Inst21Quest5_HORDE_Note = "This quest is for the Love is in the Air seasonal event. It can be done once per character.\n\nDetective Snap Snagglebolt is at (Orgrimmar - Valley of Strength "..YELLOW.."51.0, 75.3"..WHITE..")."
+Inst21Quest5_HORDE_Prequest = "None"
+Inst21Quest5_HORDE_Folgequest = "None"
+-- No Rewards for this quest
+
 
 
 --------------- INST22 - Stratholme (Strat) ---------------
@@ -3258,8 +3386,40 @@ Inst22QAH = "20 Quests"
 
 Inst23Story = "During the final hours of the War of the Shifting Sands, the combined forces of the night elves and the four dragonflights drove the battle to the very heart of the qiraji empire, to the fortress city of Ahn'Qiraj. Yet at the city gates, the armies of Kalimdor encountered a concentration of silithid war drones more massive than any they had encountered before. Ultimately the silithid and their qiraji masters were not defeated, but merely imprisoned inside a magical barrier, and the war left the cursed city in ruins. A thousand years have passed since that day, but the qiraji forces have not been idle. A new and terrible army has been spawned from the hives, and the ruins of Ahn'Qiraj are teeming once again with swarming masses of silithid and qiraji. This threat must be eliminated, or else all of Azeroth may fall before the terrifying might of the new qiraji army."
 Inst23Caption = "Ruins of Ahn'Qiraj"
-Inst23QAA = "2 Quests"
-Inst23QAH = "2 Quests"
+Inst23QAA = "1 Quest"
+Inst23QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst23Quest1 = "1. The Fall of Ossirian"
+Inst23Quest1_Level = "60"
+Inst23Quest1_Attain = "60"
+Inst23Quest1_Aim = "Deliver the Head of Ossirian the Unscarred to Commander Mar'alith at Cenarion Hold in Silithus."
+Inst23Quest1_Location = "Head of Ossirian the Unscarred (drops from Ossirian the Unscarred; "..YELLOW.."[6]"..WHITE..")"
+Inst23Quest1_Note = "Commander Mar'alith (Silithus - Cenarion Hold; "..YELLOW.."49,34"..WHITE..")"
+Inst23Quest1_Prequest = "None"
+Inst23Quest1_Folgequest = "None"
+--
+Inst23Quest1name1 = "Charm of the Shifting Sands"
+Inst23Quest1name2 = "Amulet of the Shifting Sands"
+Inst23Quest1name3 = "Choker of the Shifting Sands"
+Inst23Quest1name4 = "Pendant of the Shifting Sands"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst23Quest1_HORDE = Inst23Quest1
+Inst23Quest1_HORDE_Level = Inst23Quest1_Level
+Inst23Quest1_HORDE_Attain = Inst23Quest1_Attain
+Inst23Quest1_HORDE_Aim = Inst23Quest1_Aim
+Inst23Quest1_HORDE_Location = Inst23Quest1_Location
+Inst23Quest1_HORDE_Note = Inst23Quest1_Note
+Inst23Quest1_HORDE_Prequest = Inst23Quest1_Prequest
+Inst23Quest1_HORDE_Folgequest = Inst23Quest1_Folgequest
+--
+Inst23Quest1name1_HORDE = Inst23Quest1name1
+Inst23Quest1name2_HORDE = Inst23Quest1name2
+Inst23Quest1name3_HORDE = Inst23Quest1name3
+Inst23Quest1name4_HORDE = Inst23Quest1name4
+
 
 
 --------------- INST24 - The Stockade (Stocks) ---------------

@@ -624,9 +624,44 @@ AQ_27148_Level = "44"
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
+Inst21Quest1_QuestID = "27917"
+Inst21Quest2_QuestID = "27920"
+Inst21Quest3_QuestID = "27921"
+Inst21Quest4_QuestID = "27968"
+Inst21Quest5_QuestID = "24745"
+
+Inst21Quest1_HORDE_QuestID = "27974"
+Inst21Quest2_HORDE_QuestID = "27988"
+Inst21Quest3_HORDE_QuestID = "27996"
+Inst21Quest4_HORDE_QuestID = "27998"
+Inst21Quest5_HORDE_QuestID = "14483"
+
+
+AQ_27917_Level = "18"
+AQ_27920_Level = "19"
+AQ_27921_Level = "20"
+AQ_27968_Level = "21"
+AQ_24745_Level = "85"
+AQ_27974_Level = "18"
+AQ_27988_Level = "19"
+AQ_27996_Level = "20"
+AQ_27998_Level = "21"
+AQ_14483_Level = "85"
+
+
+
 --------------- INST22 - Stratholme (Strat) ---------------
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
+
+Inst23Quest1_QuestID = "8791"
+
+Inst23Quest1_HORDE_QuestID = "8791"
+
+
+AQ_8791_Level = "60"
+
+
 
 --------------- INST24 - The Stockade (Stocks) ---------------
 
