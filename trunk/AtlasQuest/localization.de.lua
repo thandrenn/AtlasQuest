@@ -237,6 +237,7 @@ Inst1Quest4_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."[1']".
 Inst1Quest4_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die gepanzerte Bucht in den Todesminen betreten habt.\n\nAdmiral Knurrreißer ist der dritte Boss, befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst1Quest4_Prequest = "Nein"
 Inst1Quest4_Folgequest = "Ja, Die Nummer Eins der Defias"
+Inst1Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -297,6 +298,7 @@ Inst1Quest4_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."[1']"..WHITE.."
 Inst1Quest4_HORDE_Note = Inst1Quest4_Note
 Inst1Quest4_HORDE_Prequest = "Nein"
 Inst1Quest4_HORDE_Folgequest = Inst4Quest2_Folgequest
+Inst1Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde
@@ -308,7 +310,7 @@ Inst1Quest5_HORDE_Location = "Kagtha (Die Todesminen; "..GREEN.."[1']"..WHITE.."
 Inst1Quest5_HORDE_Note = Inst1Quest5_Note
 Inst1Quest5_HORDE_Prequest = "Ja, Gute Absichten...Schlechte Durchführung"
 Inst1Quest5_HORDE_Folgequest = "Nein"
-Inst1Quest5FQuest_HORDE = "true"
+Inst1Quest5PreQuest_HORDE = "true"
 --
 Inst1Quest5name1_HORDE = Inst1Quest5name1
 Inst1Quest5name2_HORDE = Inst1Quest5name2
@@ -423,6 +425,7 @@ Inst3Quest1_HORDE_Location = "Garrosh Höllschrei (Orgrimmar - Das Tal der Stär
 Inst3Quest1_HORDE_Note = "Dies ist eine optionale Quest.Du kannst sie in drei verschiedenen Hauptstädten annehmen."
 Inst3Quest1_HORDE_Prequest = "Nein"
 Inst3Quest1_HORDE_Folgequest = "Ja, Taragaman der Hungerleider"
+Inst3Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -434,7 +437,7 @@ Inst3Quest2_HORDE_Location = "Steinwächter Kurjack (Der Flammenschlund; "..YELL
 Inst3Quest2_HORDE_Note = "Die Mobs von der Sengenden Klinge sind auf den Weg zu Taragaman dem Hungerleider der bei "..YELLOW.."[2]"..WHITE.."ist."
 Inst3Quest2_HORDE_Prequest = "Ja, Der Feind tief unten"
 Inst3Quest2_HORDE_Folgequest = "Nein"
-Inst3Quest2FQuest_HORDE = "true"
+Inst3Quest2PreQuest_HORDE = "true"
 --
 Inst3Quest2name1_HORDE = "Sengender Gürtel"
 Inst3Quest2name2_HORDE = "Steingardistenschienbeinschützer"
@@ -486,6 +489,7 @@ Inst4Quest1_Location = "Oberausgrabungsleiter Durdin (Uldaman; "..YELLOW.."Einga
 Inst4Quest1_Note = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nDu kannst diese Quest annehmen und die nächste die vom Questlog kommt akzeptieren."
 Inst4Quest1_Prequest = "Nein"
 Inst4Quest1_Folgequest = "Ja, Archaedas, der alte Steinbehüter"
+Inst4Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -497,7 +501,7 @@ Inst4Quest2_Location = "Oberausgrabungsleiter Durdin (Uldaman; "..YELLOW.."Einga
 Inst4Quest2_Note = "Archaedas ist bei "..YELLOW.."[8]"..WHITE.."."
 Inst4Quest2_Prequest = "Ja, Die Kammer von Khaz'mul"
 Inst4Quest2_Folgequest = "Nein"
-Inst4Quest2FQuest = "true"
+Inst4Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -531,6 +535,7 @@ Inst4Quest5_Location = "Die Platinscheiben (Uldaman; "..GREEN.."[2']"..WHITE..")
 Inst4Quest5_Note = "Der Steinbehüter ist neben den Scheiben. Gebe die Quest bei den Platinscheiben ab um die nächste Quest anzunehmen."
 Inst4Quest5_Prequest = "Nein"
 Inst4Quest5_Folgequest = "Ja, Die Platinscheiben"
+Inst4Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -542,7 +547,7 @@ Inst4Quest6_Location = "Die Platinscheiben (Uldaman; "..GREEN.."[2']"..WHITE..")
 Inst4Quest6_Note = "Diese Quest bringt dich wieder zum Oberausgrabungsleiter Durdin der am Eingang der Instanz steht."
 Inst4Quest6_Prequest = "Ja, Die Platinscheiben"
 Inst4Quest6_Folgequest = "Nein"
-Inst4Quest6FQuest = "true"
+Inst4Quest6PreQuest = "true"
 --
 Inst4Quest6name1 = "Platinschwert"
 Inst4Quest6name2 = "Band von Uldaman"
@@ -558,6 +563,7 @@ Inst4Quest1_HORDE_Location = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman;
 Inst4Quest1_HORDE_Note = Inst4Quest1_Note
 Inst4Quest1_HORDE_Prequest = "Nein"
 Inst4Quest1_HORDE_Folgequest = Inst4Quest1_Folgequest
+Inst4Quest1FQuest_Horde = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -569,7 +575,7 @@ Inst4Quest2_HORDE_Location = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman;
 Inst4Quest2_HORDE_Note = Inst4Quest2_Note
 Inst4Quest2_HORDE_Prequest = Inst4Quest2_Prequest
 Inst4Quest2_HORDE_Folgequest = "Nein"
-Inst4Quest2FQuest_Horde = "true"
+Inst4Quest2PreQuest_Horde = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -603,6 +609,7 @@ Inst4Quest5_HORDE_Location = Inst4Quest5_Location
 Inst4Quest5_HORDE_Note = Inst4Quest5_Note
 Inst4Quest5_HORDE_Prequest = "Nein"
 Inst4Quest5_HORDE_Folgequest = Inst4Quest5_Folgequest
+Inst4Quest5FQuest_Horde = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -614,7 +621,7 @@ Inst4Quest6_HORDE_Location = Inst4Quest6_Location
 Inst4Quest6_HORDE_Note = "Diese Quest bringt dich wieder zum Oberster Prüfer Tae'thelan Blutwächter der am Eingang der Instanz steht."
 Inst4Quest6_HORDE_Prequest = Inst4Quest6_Prequest
 Inst4Quest6_HORDE_Folgequest = "Nein"
-Inst4Quest6FQuest_HORDE = "true"
+Inst4Quest6PreQuest_HORDE = "true"
 --
 Inst4Quest6name1_HORDE = Inst4Quest6name1
 Inst4Quest6name2_HORDE = Inst4Quest6name2
@@ -638,6 +645,7 @@ Inst5Quest1_Location = "Jalinda Sprig (Schwarzfelstiefen; "..YELLOW.."Eingang"..
 Inst5Quest1_Note = "Kevin Dawson ist auf dem Weg zum Gefängnis bei "..GREEN.."[2']"..WHITE.."."
 Inst5Quest1_Prequest = "Nein"
 Inst5Quest1_Folgequest = "Ja, Schattenhammer?! Nein!"
+Inst5Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -649,7 +657,7 @@ Inst5Quest2_Location = "Kevin Dawson (Schwarzfelstiefen; "..GREEN.."[2']"..WHITE
 Inst5Quest2_Note = "Verhörmeisterin Gerstahn kann gefunden werden bei "..YELLOW.."[1]"..WHITE.."."
 Inst5Quest2_Prequest = "Ja, Ins Gefängnis"
 Inst5Quest2_Folgequest = "Nein"
-Inst5Quest2FQuest = "true"
+Inst5Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -672,6 +680,7 @@ Inst5Quest4_Location = "Oralius (Schwarzfelstiefen; "..YELLOW.."Eingang"..WHITE.
 Inst5Quest4_Note = "Ausgrabungsleiter Seymour ist bei "..GREEN.."[3']"..WHITE.."."
 Inst5Quest4_Prequest = "Nein"
 Inst5Quest4_Folgequest = "Ja, Strategen der Dunkeleisenzwerge"
+Inst5Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance  
@@ -683,6 +692,7 @@ Inst5Quest5_Location = "Mayara Wolkenglanz (Schwarzfelstiefen; "..GREEN.."[7']".
 Inst5Quest5_Note = "General Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und Golemlord Argelmach ist bei "..YELLOW.."[11]"..WHITE..". Diese Quest führt dich zu Mayara Wolkenglanz bei "..GREEN.."[7']"..WHITE.."."
 Inst5Quest5_Prequest = "Ja, Schattenschmiede unterwandern"
 Inst5Quest5_Folgequest = "Ja, Der Grimige Säufer"
+Inst5Quest5PreQuest = "true"
 Inst5Quest5FQuest = "true"
 -- No Rewards for this quest
 
@@ -695,6 +705,7 @@ Inst5Quest6_Location = "Mayara Wolkenglanz (Schwarzfelstiefen; "..GREEN.."[7']".
 Inst5Quest6_Note = "Alle drei sind im Grimmigen Säufer zu finden bei "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." und "..YELLOW.."[14]"..WHITE..". Diese Quest bringt dich in die Nähe von Gebirgsjäger Orfus "..YELLOW.."[10']"..WHITE.."."
 Inst5Quest6_Prequest = "Ja, Strategen der Dunkeleisenzwerge"
 Inst5Quest6_Folgequest = "Ja, Pakt mit den Dunkeleisenzwergen"
+Inst5Quest6PreQuest = "true"
 Inst5Quest6FQuest = "true"
 -- No Rewards for this quest
 
@@ -707,6 +718,7 @@ Inst5Quest7_Location = "Gebirgsjäger Orfus (Schwarzfelstiefen; "..GREEN.."Nähe
 Inst5Quest7_Note = "Botschafter Flammenschlag ist bei "..YELLOW.."[15]"..WHITE.." und Un'rel ist bei "..YELLOW.."[16]"..WHITE..". Diese Quest führt dich zu Marschall Maxwell gerade hinaus "..GREEN.."[11']"..WHITE.."."
 Inst5Quest7_Prequest = "Ja, Der Grimmige Säufer"
 Inst5Quest7_Folgequest = "Ja, Morgans Verwirklichung"
+Inst5Quest7PreQuest = "true"
 Inst5Quest7FQuest = "true"
 -- No Rewards for this quest
 
@@ -719,7 +731,7 @@ Inst5Quest8_Location = "Marschall Maxwell (Schwarzfelstiefen; "..GREEN.."[11']".
 Inst5Quest8_Note = "Imperator Dagran Thaurissan ist bei "..YELLOW.."[18]"..WHITE..". Diese Quest bringt dich zurüch zu Marschall Maxwell."
 Inst5Quest8_Prequest = "Ja, Pakt mit den Dunkeleisenzwergen"
 Inst5Quest8_Folgequest = "Nein"
-Inst5Quest8FQuest = "true"
+Inst5Quest8PreQuest = "true"
 --
 Inst5Quest8name1 = "Thaurissans Brustplatte"
 Inst5Quest8name1 = "Maxwells Umhang"
@@ -745,7 +757,7 @@ Inst5Quest10_Location = "Ander Germaine (Sturmwind - Altstadt; "..YELLOW.."79.8,
 Inst5Quest10_Note = "Dies ist eine Kriegerklassenquest. Die optionale Vorquest startet bei jedem Kriegerlehrer in den Haupstädten.\n\nGeneral Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und die Brandwachenzerstörer sind auf dem Weg zum Boss."
 Inst5Quest10_Prequest = "Ja, Trefft Ander Germaine"
 Inst5Quest10_Folgequest = "Nein"
-Inst5Quest10FQuest = "true"
+Inst5Quest10PreQuest = "true"
 --
 Inst5Quest10name1 = "Gesichtsschutz der Krone"
 Inst5Quest10name2 = "Kopfschutz der Krone" 
@@ -759,7 +771,7 @@ Inst5Quest11_Location = "Scharfseherin Umbrua (Sturmwind - Zwergendistrikt; "..Y
 Inst5Quest11_Note = "Dies ist eine Schamanenklassenquest. Die optionale Vorquest startet bei jedem Schmanenlehrer in den Hauptstädten.\n\nDie Brandwachen können in den verschiedenen Bereichen der Schwarzfelstiefen gefunden werden. Benutze erst das Totem bevor du diese tötest."
 Inst5Quest11_Prequest = "Ja, Trefft Scharfseherin Umbrua"
 Inst5Quest11_Folgequest = "Nein"
-Inst5Quest11FQuest = "true"
+Inst5Quest11PreQuest = "true"
 --
 Inst5Quest11name1 = "Maske des Scharfsehers"
 Inst5Quest11name2 = "Kopfbedeckung des Scharfsehers"
@@ -773,7 +785,7 @@ Inst5Quest12_Location = "Demisette Cloyce (Sturmwind - Das Magierviertel; "..YEL
 Inst5Quest12_Note = "Dies ist eine Hexenmeisterklassenquest. Die optionale Vorquest startet bei jedem Hexenmeisterlehrer in den Hauptstädten."
 Inst5Quest12_Prequest = "Ja, Trefft Demisette Cloyce"
 Inst5Quest12_Folgequest = "Nein"
-Inst5Quest12FQuest = "true"
+Inst5Quest12PreQuest = "true"
 --
 Inst5Quest12name1 = "Hörner der gerechtfertigten Sünden"
 
@@ -786,7 +798,7 @@ Inst5Quest13_Location = "Loganaar (Mondlichtung - Nachthafen; "..YELLOW.."52.5, 
 Inst5Quest13_Note = "Dies ist eine Druidenklassenquest. Die optionale Vorquest startet bei jedem Druidenlehrer in den Hauptstädten.\n\nPyromant Weisenkorn ist bei "..YELLOW.."[8]"..WHITE.."."
 Inst5Quest13_Prequest = "Ja, Mondlichtung ruft"
 Inst5Quest13_Folgequest = "Nein"
-Inst5Quest13FQuest = "true"
+Inst5Quest13PreQuest = "true"
 --
 Inst5Quest13name1 = "Kopfputz des tiefgrünen Zirkels"
 Inst5Quest13name1 = "Kopfputz des grünen Zirkels"
@@ -800,7 +812,7 @@ Inst5Quest14_Location = "Lord Tony Romano (Sturmwind - Altstadt; "..YELLOW.."79.
 Inst5Quest14_Note = "Dies ist eine Schurkenklassenquest. Die optionale Vorquest startet bei jedem Schurkenlehrer in den Hauptstädten."
 Inst5Quest14_Prequest = "Ja,  Trefft Lord Tony Romano"
 Inst5Quest14_Folgequest = "Nein"
-Inst5Quest14FQuest = "true"
+Inst5Quest14PreQuest = "true"
 --
 Inst5Quest14name1 = "Spezialgesichtsmaske von SI:7"
 
@@ -813,7 +825,7 @@ Inst5Quest15_Location = "Wulf Hansreim (Sturmwind - Altstadt; "..YELLOW.."79.5, 
 Inst5Quest15_Note = "Dies ist eine Jägerklassenquest. Die optionale Vorquest startet bei jedem Jägerlehrer in den Hauptstädten.\n\nDie Blaupausen eines Elementargolems droppt vom Golem Lord Argelmach bei "..YELLOW.."[11]"..WHITE.." und die Elementarmodule von den in der Nähe befindlichen Golems."
 Inst5Quest15_Prequest = "Ja, Trefft Wulf Hansreim"
 Inst5Quest15_Folgequest = "Nein"
-Inst5Quest15FQuest = "true"
+Inst5Quest15PreQuest = "true"
 --
 Inst5Quest15name1 = "Helm der Krone"
 
@@ -826,7 +838,7 @@ Inst5Quest16_Location = "Maginor Dumas (Sturmwind - Magierviertel; "..YELLOW.."4
 Inst5Quest16_Note = "Dies ist eine Magierklassenquest. Die optionale Vorquest startet bei jedem Magierlehrer in den Hauptstädten.\n\nPyromant Weisenkorn ist bei "..YELLOW.."[8]"..WHITE.."."
 Inst5Quest16_Prequest = "Ja, Trefft Maginor Dumas"
 Inst5Quest16_Folgequest = "Nein"
-Inst5Quest16FQuest = "true"
+Inst5Quest16PreQuest = "true"
 --
 Inst5Quest16name1 = "Kapuze des königlichen Zauberers"
 
@@ -839,7 +851,7 @@ Inst5Quest17_Location = "Hohepriesterin Laurena (Sturmwind - Kathedralenplatz; "
 Inst5Quest17_Note = "Dies ist eine Priesterklassenquest. Die optionale Vorquest startet bei jedem Priesterlehrer in den Hauptstädten."
 Inst5Quest17_Prequest = "Ja, Trefft Hohepriesterin Laurena"
 Inst5Quest17_Folgequest = "Nein"
-Inst5Quest17FQuest = "true"
+Inst5Quest17PreQuest = "true"
 --
 Inst5Quest17name1 = "Krone der Geheiligten"
 
@@ -852,7 +864,7 @@ Inst5Quest18_Location = "Lord Grayson Schattenbruch (Sturmwind - Kathedralenplat
 Inst5Quest18_Note = "Dies ist eine Paladinklassenquest. Die optionale Vorquest startet bei jedem Paladinlehrer in den Hauptstädten.\n\nDer schwarze Amboss ist bei "..YELLOW.."[5]"..WHITE.."."
 Inst5Quest18_Prequest = "Ja, Trefft Lord Grayson Schattenbruch"
 Inst5Quest18_Folgequest = "Nein"
-Inst5Quest18FQuest = "true"
+Inst5Quest18PreQuest = "true"
 --
 Inst5Quest18name1 = "Helm des Ordens"
 Inst5Quest18name1 = "Gesichtsschutz des Ordens"
@@ -902,6 +914,7 @@ Inst5Quest1_HORDE_Location = "Thal'trak Ehrenhauer (Schwarzfelstiefen; "..YELLOW
 Inst5Quest1_HORDE_Note = "Lexlort ist auf den Weg zum Gefängnis bei "..GREEN.."[2']"..WHITE.."."
 Inst5Quest1_HORDE_Prequest = "Nein"
 Inst5Quest1_HORDE_Folgequest = Inst5Quest1_Folgequest
+Inst5Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -936,6 +949,7 @@ Inst5Quest4_HORDE_Location = "Galamav der Schütze (Schwarzfelstiefen; "..YELLOW
 Inst5Quest4_HORDE_Note = "Razal'hiebist bei "..GREEN.."[3']"..WHITE.."."
 Inst5Quest4_HORDE_Prequest = "Nein"
 Inst5Quest4_HORDE_Folgequest = "Ja, Die 109te Division"
+Inst5Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde
@@ -947,6 +961,7 @@ Inst5Quest5_HORDE_Location = "Razal'hieb (Schwarzfelstiefen; "..GREEN.."[3']"..W
 Inst5Quest5_HORDE_Note = "General Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und Golemlord Argelmach ist bei "..YELLOW.."[11]"..WHITE..". Diese Quest führt dich zu Hierophantin Theodora Mulvadania bei "..GREEN.."[7']"..WHITE.."."
 Inst5Quest5_HORDE_Prequest = Inst5Quest5_Prequest
 Inst5Quest5_HORDE_Folgequest = Inst5Quest5_Folgequest
+Inst5Quest5PreQuest_HORDE = "true"
 Inst5Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -959,7 +974,8 @@ Inst5Quest6_HORDE_Location = "Hierophantin Theodora Mulvadania (Schwarzfelstiefe
 Inst5Quest6_HORDE_Note = "Alle drei sind im Grimmigen Säufer zu finden bei "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." und "..YELLOW.."[14]"..WHITE..". Diese Quest bringt dich in die Nähe von Donnerherz "..GREEN.."[10']"..WHITE.."."
 Inst5Quest6_HORDE_Prequest = "Ja, Die 109te Division"
 Inst5Quest6_HORDE_Folgequest = Inst5Quest6_Folgequest
-Inst5Quest5FQuest_HORDE = "true"
+Inst5Quest6PreQuest_HORDE = "true"
+Inst5Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -971,6 +987,7 @@ Inst5Quest7_HORDE_Location = "Donnerherz (Schwarzfelstiefen; "..GREEN.."[10']"..
 Inst5Quest7_HORDE_Note = "Botschafter Flammenschlag ist bei "..YELLOW.."[15]"..WHITE.." und Un'rel ist bei "..YELLOW.."[16]"..WHITE..". Diese Quest führt dich zu Kriegsherr Bluthauer bei "..GREEN.."[11']"..WHITE.."."
 Inst5Quest7_HORDE_Prequest = Inst5Quest7_Prequest
 Inst5Quest7_HORDE_Folgequest = "Ja, Die Wiedergeburt des KEK"
+Inst5Quest7PreQuest_HORDE = "true"
 Inst5Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -983,7 +1000,7 @@ Inst5Quest8_HORDE_Location = "Kriegsherr Bluthauer (Schwarzfelstiefen; "..GREEN.
 Inst5Quest8_HORDE_Note = "Imperator Dagran Thaurissan ist bei "..YELLOW.."[18]"..WHITE..". Diese Quest bringt dich zurüch zu Kriegsherr Bluthauer."
 Inst5Quest8_HORDE_Prequest = Inst5Quest8_Prequest
 Inst5Quest8_HORDE_Folgequest = "Nein"
-Inst5Quest8FQuest_HORDE = "true"
+Inst5Quest8PreQuest_HORDE = "true"
 --
 Inst5Quest8name1_HORDE = "Dunkeleisenband"
 Inst5Quest8name2_HORDE = "Thaurissans Brustplatte"
@@ -1009,7 +1026,7 @@ Inst5Quest10_HORDE_Location = "Grezz Zornfaust (Orgrimmar - Tal der Ehre; "..YEL
 Inst5Quest10_HORDE_Note = "Dies ist eine Kriegerklassenquest. Die optionale Vorquest startet bei jedem Kriegerlehrer in den Haupstädten.\n\nGeneral Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und die Brandwachenzerstörer sind auf dem Weg zum Boss."
 Inst5Quest10_HORDE_Prequest = "Ja, Trefft Grezz Zornfaust"
 Inst5Quest10_HORDE_Folgequest = "Nein"
-Inst5Quest10FQuest_HORDE = "true"
+Inst5Quest10PreQuest_HORDE = "true"
 --
 Inst5Quest10name1_HORDE = "Gesichtsschutz der Horde"
 Inst5Quest10name2_HORDE = "Kopfschutz der Horde" 
@@ -1023,7 +1040,7 @@ Inst5Quest11_HORDE_Location = "Kardris Traumsucher (Orgrimmar - Tal der Weisheit
 Inst5Quest11_HORDE_Note = "Dies ist eine Schamanenklassenquest. Die optionale Vorquest startet bei jedem Schmanenlehrer in den Hauptstädten.\n\nDie Brandwachen können in den verschiedenen Bereichen der Schwarzfelstiefen gefunden werden. Benutze erst das Totem bevor du diese tötest."
 Inst5Quest11_HORDE_Prequest = "Ja, Trefft Kardris Traumsucher"
 Inst5Quest11_HORDE_Folgequest = "Nein"
-Inst5Quest11FQuest_HORDE = "true"
+Inst5Quest11PreQuest_HORDE = "true"
 --
 Inst5Quest11name1_HORDE = "Maske des Redners"
 Inst5Quest11name2_HORDE = "Kopfbedeckung des Redners"
@@ -1037,7 +1054,7 @@ Inst5Quest12_HORDE_Location = "Zevrost (Orgrimmar - Kluft der Schatten; "..YELLO
 Inst5Quest12_HORDE_Note = "Dies ist eine Hexenmeisterklassenquest. Die optionale Vorquest startet bei jedem Hexenmeisterlehrer in den Hauptstädten."
 Inst5Quest12_HORDE_Prequest = "Ja, Trefft Zevrost"
 Inst5Quest12_HORDE_Folgequest = "Nein"
-Inst5Quest12FQuest_HORDE = "true"
+Inst5Quest12PreQuest_HORDE = "true"
 --
 Inst5Quest12name1_HORDE = "Hörner des linken Pfades"
 
@@ -1064,7 +1081,7 @@ Inst5Quest14_HORDE_Location = "Gordul (Orgrimmar - Kluft der Schatten; "..YELLOW
 Inst5Quest14_HORDE_Note = "Dies ist eine Schurkenklassenquest. Die optionale Vorquest startet bei jedem Schurkenlehrer in den Hauptstädten."
 Inst5Quest14_HORDE_Prequest = "Ja,  Trefft Gordul"
 Inst5Quest14_HORDE_Folgequest = "Nein"
-Inst5Quest14FQuest_HORDE = "true"
+Inst5Quest14PreQuest_HORDE = "true"
 --
 Inst5Quest14name1_HORDE = "Gesichtsmaske der Zerschmetterten Hand"
 
@@ -1077,7 +1094,7 @@ Inst5Quest15_HORDE_Location = "Ormak Grimmschlag (Orgrimmar - Tal der Ehre; "..Y
 Inst5Quest15_HORDE_Note = "Dies ist eine Jägerklassenquest. Die optionale Vorquest startet bei jedem Jägerlehrer in den Hauptstädten.\n\nDie Blaupausen eines Elementargolems droppt vom Golem Lord Argelmach bei "..YELLOW.."[11]"..WHITE.." und die Elementarmodule von den in der Nähe befindlichen Golems."
 Inst5Quest15_HORDE_Prequest = "Ja, Trefft Ormak Grimmschlag"
 Inst5Quest15_HORDE_Folgequest = "Nein"
-Inst5Quest15FQuest_HORDE = "true"
+Inst5Quest15PreQuest_HORDE = "true"
 --
 Inst5Quest15name1_HORDE = "Helm des großen Jägers"
 
@@ -1090,7 +1107,7 @@ Inst5Quest16_HORDE_Location = "Ureda (Orgrimmar - Kluft der Schatten; "..YELLOW.
 Inst5Quest16_HORDE_Note = "Dies ist eine Magierklassenquest. Die optionale Vorquest startet bei jedem Magierlehrer in den Hauptstädten.\n\nPyromant Weisenkorn ist bei "..YELLOW.."[8]"..WHITE.."."
 Inst5Quest16_HORDE_Prequest = "Ja, Trefft Ureda"
 Inst5Quest16_HORDE_Folgequest = "Nein"
-Inst5Quest16FQuest_HORDE = "true"
+Inst5Quest16PreQuest_HORDE = "true"
 --
 Inst5Quest16name1_HORDE = "Kapuze des arkanen Pfades"
 
@@ -1103,7 +1120,7 @@ Inst5Quest17_HORDE_Location = "Dunkle Klerikerin Cecille (Orgrimmar - Tal der St
 Inst5Quest17_HORDE_Note = "Dies ist eine Priesterklassenquest. Die optionale Vorquest startet bei jedem Priesterlehrer in den Hauptstädten."
 Inst5Quest17_HORDE_Prequest = "Ja, Trefft Dunkle Klerikerin Cecille"
 Inst5Quest17_HORDE_Folgequest = "Nein"
-Inst5Quest17FQuest_HORDE = "true"
+Inst5Quest17PreQuest_HORDE = "true"
 --
 Inst5Quest17name1_HORDE = "Krone des aufgegebenen Glaubens"
 
@@ -1116,7 +1133,7 @@ Inst5Quest18_HORDE_Location = "Meister Pyreanor (Orgrimmar - Tal der Stärke; ".
 Inst5Quest18_HORDE_Note = "Dies ist eine Paladinklassenquest. Die optionale Vorquest startet bei jedem Paladinlehrer in den Hauptstädten.\n\nDer schwarze Amboss ist bei "..YELLOW.."[5]"..WHITE.."."
 Inst5Quest18_HORDE_Prequest = "Ja, Trefft Meister Pyreanor"
 Inst5Quest18_HORDE_Folgequest = "Nein"
-Inst5Quest18FQuest_HORDE = "true"
+Inst5Quest18PreQuest_HORDE = "true"
 --
 Inst5Quest18name1_HORDE = "Helm des Ordens"
 Inst5Quest18name2_HORDE = "Gesichtsschutz des Ordens"
@@ -1132,7 +1149,7 @@ Inst5Quest19_HORDE_Location = "Sonnenläufer Atohmo (Orgrimmar - Tal der Weishei
 Inst5Quest19_HORDE_Note = "Dies ist eine Paladinklassenquest. Die optionale Vorquest startet bei jedem Paladinlehrer in den Hauptstädten.\n\nDer schwarze Amboss ist bei "..YELLOW.."[5]"..WHITE.."."
 Inst5Quest19_HORDE_Prequest = "Ja, Trefft Sonnenläufer Atohmo"
 Inst5Quest19_HORDE_Folgequest = "Nein"
-Inst5Quest19FQuest_HORDE = "true"
+Inst5Quest19PreQuest_HORDE = "true"
 --
 Inst5Quest19name1_HORDE = "Helm des Sonnenläufers"
 Inst5Quest19name2_HORDE = "Gesichtsschutz des Sonnenläufers"
@@ -1198,6 +1215,7 @@ Inst6Quest1_Location = "Kopf von Nefarian (droppt von Nefarian; "..YELLOW.."[9]"
 Inst6Quest1_Note = "König Varian Wrynn befindet sich in (Sturmwind - Burg Sturmwind; "..YELLOW.."85.7, 31.8"..WHITE.."). Die Folgequest schickt euch zu Feldmarschall Afrasiabi (Sturmwind - Tal der Helden; "..YELLOW.."67,72"..WHITE..") für die Belohnung."
 Inst6Quest1_Prequest = "Nein"
 Inst6Quest1_Folgequest = "Ja, Der Herrscher des Schwarzfels"
+Inst6Quest1FQuest = "true"
 --
 Inst6Quest1name1 = "Medaillon des Meisterdrachentöters"
 Inst6Quest1name2 = "Kugel des Meisterdrachentöters"
@@ -1213,6 +1231,7 @@ Inst6Quest1_HORDE_Location = "Kopf von Nefarian (droppt von Nefarian; "..YELLOW.
 Inst6Quest1_HORDE_Note = "Garrosh Höllschrei ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."48.2, 70.6"..WHITE..").\n\nDie Folgequest schickt euch zu Oberanführer Runthak (Orgrimmar - Tal der Stärke; "..YELLOW.."51.3, 83.2"..WHITE..") für die Belohnung."
 Inst6Quest1_HORDE_Prequest = "Nein"
 Inst6Quest1_HORDE_Folgequest = "Ja, Der Herrscher des Schwarzfels"
+Inst6Quest1FQuest_HORDE = "true"
 --
 Inst6Quest1name1_HORDE = "Medaillon des Meisterdrachentöters"
 Inst6Quest1name2_HORDE = "Kugel des Meisterdrachentöters"
@@ -1262,6 +1281,7 @@ Inst7Quest3_Location = "Ashelan Nordwald (Tiefschwarze Grotte; "..YELLOW.."Einga
 Inst7Quest3_Note = "Späher Thaelrid findet man bei "..GREEN.."[3']"..WHITE.."."
 Inst7Quest3_Prequest = "Nein"
 Inst7Quest3_Folgequest = "Ja, Schurkerei in der Tiefschwarzen Grotte"
+Inst7Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -1934,6 +1954,7 @@ Inst12Quest5_Location = "Uralte Shen'dralar (Düsterbruch - West; "..GREEN.."[4'
 Inst12Quest5_Note = "Die Pylonen sind gekennzeichnet als "..GREEN.."[2']"..WHITE..". Immol'thar ist bei "..YELLOW.."[4]"..WHITE..", Prinze Tortheldrin ist bei "..YELLOW.."[5]"..WHITE.."."
 Inst12Quest5_Prequest = "Nein"
 Inst12Quest5_Folgequest = "Ja, Der Schatz der Shen'dralar"
+Inst12Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -1945,7 +1966,7 @@ Inst12Quest6_Location = "Uralte Shen'dralar (Düsterbruch - West; "..GREEN.."[4'
 Inst12Quest6_Note = "Der Schatz der Shen'dralar ist in der Nähe von der Rampe im Athenaeum."
 Inst12Quest6_Prequest = "Ja, Der Schatz der Shen'dralar"
 Inst12Quest6_Folgequest = "Nein"
-Inst12Quest6FQuest = "true"
+Inst12Quest6PreQuest = "true"
 --
 Inst12Quest6name1 = "Fras Siabis Zigarrenschneider"
 Inst12Quest6name2 = "Stab von Athen'a"
@@ -2114,6 +2135,7 @@ Inst12Quest5_HORDE_Location = Inst12Quest5_Location
 Inst12Quest5_HORDE_Note = Inst12Quest5_Note
 Inst12Quest5_HORDE_Prequest = "Nein"
 Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
+Inst12Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -2125,7 +2147,7 @@ Inst12Quest6_HORDE_Location = Inst12Quest6_Location
 Inst12Quest6_HORDE_Note = Inst12Quest6_Note
 Inst12Quest6_HORDE_Prequest = Inst12Quest6_Prequest
 Inst12Quest6_HORDE_Folgequest = "Nein"
-Inst12Quest6FQuest_HORDE = Inst12Quest6FQuest
+Inst12Quest6PreQuest_HORDE = "true"
 --
 Inst12Quest6name1_HORDE = Inst12Quest6name1
 Inst12Quest6name2_HORDE = Inst12Quest6name2
@@ -2345,6 +2367,7 @@ Inst14Quest1_Note = "Teil des Gesegnete Klinge des Windsuchers Questreihe. Die s
 Inst14Quest1_Prequest = "Ja, Untersuchung des Gefäßes ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
 Inst14Quest1_Folgequest = "Ja, Donnerzorn erwache!"
 Inst14Quest1PreQuest = "true"
+Inst14Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -2367,8 +2390,8 @@ Inst14Quest1_HORDE_Attain = "60"
 Inst14Quest1_HORDE_Aim = Inst14Quest1_Aim
 Inst14Quest1_HORDE_Location = Inst14Quest1_Location
 Inst14Quest1_HORDE_Note = Inst14Quest1_Note
-Inst14Quest1_HORDE_Prequest = "Nein"
-Inst14Quest1_HORDE_Folgequest = "Nein"
+Inst14Quest1_HORDE_Prequest = Inst26Quest1_Prequest
+Inst14Quest1_HORDE_Folgequest = Inst26Quest1_Folgequest
 Inst14Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -2390,8 +2413,8 @@ Inst14Quest2name1_HORDE = Inst14Quest2name1
 
 Inst16Story = "Onyxia ist die Tochter des mächtigen Drachen Todesschwinge und die Schwester des gerissenen Nefarian, dem Fürsten des Schwarzfels. Selbst für einen Drachen ist Onyxia äußerst intelligent, und sie nimmt gerne die Form einer Sterblichen an, um sich heimlich in die politischen Angelegenheiten der sterblichen Völker einzumischen. Obwohl sie für einen schwarzen Drachen ihres Alters recht klein ist, verfügt sie dennoch über die gleichen Kräfte und Fähigkeiten wie der Rest ihres fürchterlichen Schwarms. Manche sagen, Onyxia habe sogar eine Tarnidentität ihres Vaters übernommen - den Titel des königlichen Hauses Prestor. Wenn sie sich nicht in den Angelegenheiten der Sterblichen einmischt, ruht Onyxia in einer feurigen Höhle unterhalb des Drachensumpfes, einer unwirtlichen Gegend der Düstermarschen. Dort wird sie von ihren Gefolgsleuten bewacht, den verbleibenden Mitgliedern des grausamen schwarzen Drachenschwarms"
 Inst16Caption = "Onyxias Hort"
-Inst16QAA = "1 Quests"
-Inst16QAH = "1 Quests"
+Inst16QAA = "1 Quest"
+Inst16QAH = "1 Quest"
 
 --Quest 1 Alliance
 Inst16Quest1 = "1. Ein höchst merkwürdiger Umstand"
@@ -2440,6 +2463,7 @@ Inst17Quest1_Location = "Telaron Windsegler (Feralas - Täumers Ruh; "..YELLOW..
 Inst17Quest1_Note = "Koristrasza befindet sich innerhalb der Instanz Hügel der Klingenhauer bei; "..GREEN.."Eingang"..WHITE..")"
 Inst17Quest1_Prequest = "Nein"
 Inst17Quest1_Folgequest = "Ja, Der Kältebringer"
+Inst17Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -2490,6 +2514,7 @@ Inst17Quest5_Location = "Belnistrasz (Hügel der Klingenhauer; "..GREEN.."[1']".
 Inst17Quest5_Note = "Sei Dir sicher, dass alle Gruppenmitglieder diese Quest beendet haben bevor Du die Folgequest annimmst, sonst sind die anderen nicht in der Lage die Folgequest anzunehmen."
 Inst17Quest5_Prequest = "Nein"
 Inst17Quest5_Folgequest = "Ja, Ausschalten des Götzen"
+Inst17Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -2515,6 +2540,7 @@ Inst17Quest1_HORDE_Location = "Kanati Grauwolke (Tausend Nadeln - Der Westliche 
 Inst17Quest1_HORDE_Note = Inst17Quest1_Note
 Inst17Quest1_HORDE_Prequest = "Nein"
 Inst17Quest1_HORDE_Folgequest = Inst17Quest1_Folgequest
+Inst17Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -2565,6 +2591,7 @@ Inst17Quest5_HORDE_Location = Inst17Quest5_Location
 Inst17Quest5_HORDE_Note = Inst17Quest5_Note
 Inst17Quest5_HORDE_Prequest = "Nein"
 Inst17Quest5_HORDE_Folgequest = Inst17Quest5PreQuest
+Inst17Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -2609,6 +2636,7 @@ Inst18Quest2_Location = "Auld Steinkeil (Kral der Klingenhauer; "..GREEN.."Einga
 Inst18Quest2_Note = "Geist von Agamaggan befindet sich bei "..GREEN.."[1']"..WHITE.."."
 Inst18Quest2_Prequest = "Nein"
 Inst18Quest2_Folgequest = "Ja, Agamaggans Auftrag"
+Inst18Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2683,7 +2711,8 @@ Inst18Quest2_HORDE_Aim = Inst18Quest2_Aim
 Inst18Quest2_HORDE_Location = Inst18Quest2_Location
 Inst18Quest2_HORDE_Note = Inst18Quest2_Note
 Inst18Quest2_HORDE_Prequest = "Nein"
-Inst18Quest2_HORDE_Folgequest = "Nein"
+Inst18Quest2_HORDE_Folgequest = Inst18Quest2Folgequest
+Inst18Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -2693,7 +2722,7 @@ Inst18Quest3_HORDE_Attain = "30"
 Inst18Quest3_HORDE_Aim = Inst18Quest3_Aim
 Inst18Quest3_HORDE_Location = Inst18Quest3_Location
 Inst18Quest3_HORDE_Note = Inst18Quest3_Note
-Inst18Quest3_HORDE_Prequest = "Nein"
+Inst18Quest3_HORDE_Prequest = "Ja, Agamaggan"
 Inst18Quest3_HORDE_Folgequest = "Nein"
 Inst18Quest3PreQuest_HORDE = "true"
 --
@@ -3286,10 +3315,11 @@ Inst21Quest1 = "1. Erschnüffelt sie"
 Inst21Quest1_Level = "18"
 Inst21Quest1_Attain = "16"
 Inst21Quest1_Aim = "Tötet Baron Ashbury."
-Inst21Quest1_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
-Inst21Quest1_Note = "Baron Ashbury befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst21Quest1_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."[1']"..WHITE..")."
+Inst21Quest1_Note = "Baron Ashbury befindet sich bei "..YELLOW.."[1]"..WHITE..".\n\nRudelführer Ivar Blutfang erscheint in der Halle wenn Baron Ashbury getötet wurde."
 Inst21Quest1_Prequest = "Nein"
 Inst21Quest1_Folgequest = "Ja, Bis an die Zähne bewaffnet"
+Inst21Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -3297,11 +3327,12 @@ Inst21Quest2 = "2. Bis an die Zähne bewaffnet"
 Inst21Quest2_Level = "19"
 Inst21Quest2_Attain = "16"
 Inst21Quest2_Aim = "Tötet Baron Silberlein und Kommandant Grüntal."
-Inst21Quest2_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
-Inst21Quest2_Note = "Baron Silberlein befindet sich bei "..YELLOW.."[2]"..WHITE.." und Kommandant Grüntal bei "..YELLOW.."[3]"..WHITE.."."
+Inst21Quest2_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."[1']"..WHITE..")."
+Inst21Quest2_Note = "Baron Silberlein befindet sich bei "..YELLOW.."[2]"..WHITE.." und Kommandant Grüntal bei "..YELLOW.."[3]"..WHITE..".\n\nRudelführer Ivar Blutfang erscheint auf dem Gehweg wenn Kommandant Grüntal getötet wurde."
 Inst21Quest2_Prequest = "Ja, Erschnüffelt sie"
 Inst21Quest2_Folgequest = "Ja, Mit Klauen und Zähnen "
 Inst21Quest2PreQuest = "true"
+Inst21Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -3309,11 +3340,12 @@ Inst21Quest3 = "3. Mit Klauen und Zähnen"
 Inst21Quest3_Level = "20"
 Inst21Quest3_Attain = "16"
 Inst21Quest3_Aim = "Tötet Lord Walden."
-Inst21Quest3_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
-Inst21Quest3_Note = "Lord Walden befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst21Quest3_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."[1']"..WHITE..")."
+Inst21Quest3_Note = "Lord Walden befindet sich bei "..YELLOW.."[4]"..WHITE..".\n\nRudelführer Ivar Blutfang erscheint auf dem Torweg wenn Lord Walden getötet wurde."
 Inst21Quest3_Prequest = "Ja, Bis an die Zähne bewaffnet"
 Inst21Quest3_Folgequest = "Ja, Die Wut des Rudels"
 Inst21Quest3PreQuest = "true"
+Inst21Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -3321,8 +3353,8 @@ Inst21Quest4 = "4. Die Wut des Rudels"
 Inst21Quest4_Level = "21"
 Inst21Quest4_Attain = "16"
 Inst21Quest4_Aim = "Tötet Lord Godfrey."
-Inst21Quest4_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
-Inst21Quest4_Note = "Lord Godfrey befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst21Quest4_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."[1']"..WHITE..")."
+Inst21Quest4_Note = "Lord Godfrey befindet sich bei "..YELLOW.."[5]"..WHITE..".\n\nRudelführer Ivar Blutfang befindet sich unter der Torwegführung zum Raum von Lord Godfrey."
 Inst21Quest4_Prequest = "Ja, Mit Klauen und Zähnen"
 Inst21Quest4_Folgequest = "Nein"
 Inst21Quest4PreQuest = "true"
@@ -3339,7 +3371,7 @@ Inst21Quest5_Level = "85"
 Inst21Quest5_Attain = "85"
 Inst21Quest5_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
 Inst21Quest5_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
-Inst21Quest5_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest5_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.6, 75.2"..WHITE..")."
 Inst21Quest5_Prequest = "Nein"
 Inst21Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3350,10 +3382,11 @@ Inst21Quest1_HORDE = "1. Dies ist unser Land"
 Inst21Quest1_HORDE_Level = "18"
 Inst21Quest1_HORDE_Attain = "16"
 Inst21Quest1_HORDE_Aim = Inst21Quest1_Aim
-Inst21Quest1_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest1_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."[1']"..WHITE..")."
 Inst21Quest1_HORDE_Note = Inst21Quest1_Note
 Inst21Quest1_HORDE_Prequest = "Nein"
 Inst21Quest1_HORDE_Folgequest = "Ja, Seuche... Überall Seuche!"
+Inst21Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -3361,11 +3394,12 @@ Inst21Quest2_HORDE = "2. Seuche... Überall Seuche!"
 Inst21Quest2_HORDE_Level = "19"
 Inst21Quest2_HORDE_Attain = "16"
 Inst21Quest2_HORDE_Aim = Inst21Quest2_Aim
-Inst21Quest2_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest2_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."[1']"..WHITE..")."
 Inst21Quest2_HORDE_Note = Inst21Quest2_Note
 Inst21Quest2_HORDE_Prequest = "Ja, Dies ist unser Land"
 Inst21Quest2_HORDE_Folgequest = "Ja, Befehle sind was für die Lebenden"
 Inst21Quest2PreQuest_HORDE = "true"
+Inst21Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -3373,11 +3407,12 @@ Inst21Quest3_HORDE = "3. Befehle sind was für die Lebenden"
 Inst21Quest3_HORDE_Level = "20"
 Inst21Quest3_HORDE_Attain = "16"
 Inst21Quest3_HORDE_Aim = Inst21Quest3_Aim
-Inst21Quest3_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest3_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."[1']"..WHITE..")."
 Inst21Quest3_HORDE_Note = Inst21Quest3_Note
 Inst21Quest3_HORDE_Prequest = "Ja, Seuche... Überall Seuche!"
 Inst21Quest3_HORDE_Folgequest = "Ja, Süße, gnadenlose Rache"
 Inst21Quest3PreQuest_HORDE = "true"
+Inst21Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -3385,7 +3420,7 @@ Inst21Quest4_HORDE = "4. Süße, gnadenlose Rache"
 Inst21Quest4_HORDE_Level = "21"
 Inst21Quest4_HORDE_Attain = "16"
 Inst21Quest4_HORDE_Aim = Inst21Quest4_Aim
-Inst21Quest4_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."Eingang"..WHITE..")."
+Inst21Quest4_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."[1']"..WHITE..")."
 Inst21Quest4_HORDE_Note = Inst21Quest4_Note
 Inst21Quest4_HORDE_Prequest = "Ja, Befehle sind was für die Lebenden"
 Inst21Quest4_HORDE_Folgequest = "Nein"
@@ -3403,7 +3438,7 @@ Inst21Quest5_HORDE_Level = "85"
 Inst21Quest5_HORDE_Attain = "85"
 Inst21Quest5_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
 Inst21Quest5_HORDE_Location = Inst21Quest5_Location
-Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."51.0, 75.3"..WHITE..")."
 Inst21Quest5_HORDE_Prequest = "Nein"
 Inst21Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3418,491 +3453,281 @@ Inst22Story = {
   ["MaxPages"] = "2",
 };
 Inst22Caption = "Stratholme"
-Inst22QAA = "18 Quests"
-Inst22QAH = "19 Quests"
+Inst22QAA = "12 Quests"
+Inst22QAH = "12 Quests"
 
 --Quest 1 Alliance
-Inst22Quest1 = "1. Das Fleisch lügt nicht"
-Inst22Quest1_Level = "60"
-Inst22Quest1_Attain = "55"
-Inst22Quest1_Aim = "Sammelt 10 verseuchte Fleischproben in Stratholme und bringt sie zu Betina Moppelzink zurück. Ihr vermutet, dass Ihr besagte Fleischproben bei jeder Kreatur in Stratholme finden könnt."
-Inst22Quest1_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst22Quest1_Note = "Das Fleisch kann bei fast allen Gegnern in Stratholme droppen, aber die Rate ist recht niedrig."
+Inst22Quest1 = "1. Eine Stadt unter Belagerung"
+Inst22Quest1_Level = "45"
+Inst22Quest1_Attain = "44"
+Inst22Quest1_Aim = "Sprecht mit Rottenkommandant Steinberster."
+Inst22Quest1_Location = "Argentumoffizier Irizarry (Östliche Pestländer - Nordpassturm; "..YELLOW.."51.6,21.2"..WHITE..")"
+Inst22Quest1_Note = "Rottenkommandant Steinberster befindet sich am Eingang innerhlab der Instanz von Stratholmas."
 Inst22Quest1_Prequest = "Nein"
-Inst22Quest1_Folgequest = "Ja, Der aktive Wirkstoff"
+Inst22Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst22Quest2 = "2. Der aktive Wirkstoff"
-Inst22Quest2_Level = "60"
-Inst22Quest2_Attain = "55"
-Inst22Quest2_Aim = "Reist nach Stratholme und durchsucht die Ziggurats. Sucht neue Geißeldaten und bringt sie zu Betina Moppelzink zurück."
-Inst22Quest2_Location = "Betina Moppelzink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst22Quest2_Note = "Die Daten sind in einem der drei Türme, die man nahe "..YELLOW.."[15]"..WHITE..", "..YELLOW.."[16]"..WHITE.." und "..YELLOW.."[17]"..WHITE.." findet."
-Inst22Quest2_Prequest = "Ja, Das Fleisch lügt nicht"
+Inst22Quest2 = "2. Der große Fras Siabi"
+Inst22Quest2_Level = "46"
+Inst22Quest2_Attain = "42"
+Inst22Quest2_Aim = "Bergt einen Kasten von Fras Siabis Tollem Tabak."
+Inst22Quest2_Location = "Rottenkommandant Steinberster (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest2_Note = "Den Raucherladen findet man bei "..YELLOW.."[1]"..WHITE..". Fras Siabi erscheint, wenn man den Kasten öffnet."
+Inst22Quest2_Prequest = "Nein"
 Inst22Quest2_Folgequest = "Nein"
-Inst22Quest2FQuest = "true"
---
-Inst22Quest2name1 = "Siegel der Dämmerung"
-Inst22Quest2name2 = "Rune der Dämmerung"
-
---Quest 3 Alliance
-Inst22Quest3 = "3. Häuser der Heiligen"
-Inst22Quest3_Level = "60"
-Inst22Quest3_Attain = "55"
-Inst22Quest3_Aim = "Begebt Euch nach Stratholme im Norden. Durchsucht die Vorratskisten, die über die Stadt verstreut sind, und holt 5 Einheiten Weihwasser von Stratholme. Kehrt zu Leonidas Bartholomäus dem Geachteten zurück, wenn Ihr genug der gesegneten Flüssigkeit gesammelt habt."
-Inst22Quest3_Location = "Leonidas Bartholomäus der Geachtete (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest3_Note = "Das Weihwasser findet man in Vorratskisten, die überall in der Stadt verteilt sind. Wenn man die Kisten öffnet kann es passieren, dass Käfer erscheinen und angreifen."
-Inst22Quest3_Prequest = "Nein"
-Inst22Quest3_Folgequest = "Nein"
---
-Inst22Quest3name1 = "Überragender Heiltrank"
-Inst22Quest3name2 = "Großer Manatrank"
-Inst22Quest3name3 = "Krone des reuigen Sünders"
-Inst22Quest3name4 = "Band des reuigen Sünders"
-
---Quest 4 Alliance
-Inst22Quest4 = "4. Der große Fras Siabi"
-Inst22Quest4_Level = "60"
-Inst22Quest4_Attain = "55"
-Inst22Quest4_Aim = "Sucht Fras Siabis Raucherladen in Stratholme und bergt einen Kasten von Siabis Tollem Tabak. Kehrt zu Smokey LaRue zurück, wenn Eure Aufgabe erledigt ist."
-Inst22Quest4_Location = "Smokey LaRue (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest4_Note = "Den Raucherladen findet man bei "..YELLOW.."[1]"..WHITE..". Fras Siabi erscheint, wenn man den Kasten öffnet."
-Inst22Quest4_Prequest = "Nein"
-Inst22Quest4_Folgequest = "Nein"
---
-Inst22Quest4name1 = "Smokeys Feuerzeug"
-
---Quest 5 Alliance
-Inst22Quest5 = "5. Die ruhelosen Seelen"
-Inst22Quest5_Attain = "55"
-Inst22Quest5_Level = "60"
-Inst22Quest5_Aim = "Wendet Egans Blaster auf die geisterhaften und spektralen Bürger von Stratholme an. Wenn die ruhelosen Geister ihre geisterhaften Hüllen sprengen, wendet den Blaster erneut an - dann sind sie endlich frei!\nBefreit 15 ruhelose Seelen und kehrt zu Egan zurück."
-Inst22Quest5_Location = "Egan (Östliche Pestländer; "..YELLOW.."14,33"..WHITE..")"
-Inst22Quest5_Note = "Die Vorquest bekommt man von Verwalter Alen (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."79,63"..WHITE.."). Die Spektralen Bürger laufen überall in Stratholme herum."
-Inst22Quest5_Prequest = "Ja, Die ruhelosen Seelen"
-Inst22Quest5_Folgequest = "Nein"
-Inst22Quest5PreQuest = "true"
---
-Inst22Quest5name1 = "Testament der Hoffnung"
-
---Quest 6 Alliance
-Inst22Quest6 = "6. Von Liebe und Familie"
-Inst22Quest6_Level = "60"
-Inst22Quest6_Attain = "52"
-Inst22Quest6_Aim = "Begebt Euch nach Stratholme im nördlichen Teil der Pestländer. In der scharlachroten Bastion findet Ihr das Gemälde 'Von Liebe und Familie', das zwischen anderen Gemälden versteckt ist und auf dem die Zwillingsmonde unserer Welt abgebildet sind.\nBringt das Gemälde zu Tirion Fordring."
-Inst22Quest6_Location = "Künstlerin Renfray (Westliche Pestländer - Darrowehr; "..YELLOW.."65,75"..WHITE..")"
-Inst22Quest6_Note = "Die Vorquest bekommt man von Tirion Fordring (Westliche Pestländer; "..YELLOW.."7,43"..WHITE.."). Das Bild findet man bei "..YELLOW.."[10]"..WHITE.."."
-Inst22Quest6_Prequest = "Ja, Erlösung - > Von Liebe und Familie"
-Inst22Quest6_Folgequest = "Ja, Myranda suchen"
-Inst22Quest6PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 3 Alliance
+Inst22Quest3 = "3. Von Liebe und Familie"
+Inst22Quest3_Level = "46"
+Inst22Quest3_Attain = "42"
+Inst22Quest3_Aim = "Findet 'Von Liebe und Familie'."
+Inst22Quest3_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest3_Note = "Die Vorquest bekommt man von Tirion Fordring (Westliche Pestländer; "..YELLOW.."7,43"..WHITE.."). Das Bild findet man bei "..YELLOW.."[10]"..WHITE.."."
+Inst22Quest3_Prequest = "Nein"
+Inst22Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst22Quest4 = "4. Vergeltung"
+Inst22Quest4_Level = "47"
+Inst22Quest4_Attain = "42"
+Inst22Quest4_Aim = "Tötet den Unverziehenen und Timmy den Grausamen."
+Inst22Quest4_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest4_Note = "Der Unverziehene befindet sich bei und Timmy der Grausame befindet sich bei."
+Inst22Quest4_Prequest = "Nein"
+Inst22Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst22Quest5 = "5. Annalen der Silbernen Hand"
+Inst22Quest5_Level = "46"
+Inst22Quest5_Attain = "42"
+Inst22Quest5_Aim = "Treibt einen verschollenen Band der Annalen der Silbernen Hand in Stratholme auf."
+Inst22Quest5_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76.0,51.0"..WHITE..")"
+Inst22Quest5_Note = "Annalen der Silbernen Hand findet man bei."
+Inst22Quest5_Prequest = "Nein"
+Inst22Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst22Quest6 = "6. Baron Aurius Totenschwur"
+Inst22Quest6_Attain = "51"
+Inst22Quest6_Level = "46"
+Inst22Quest6_Aim = "Tötet Baron Aurius Totenschwur."
+Inst22Quest6_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest6_Note = "Baron Aurius Totenschwur befindet sich bei."
+Inst22Quest6_Prequest = "Nein"
+Inst22Quest6_Folgequest = "Nein"
+--
+Inst22Quest6name1 = "Statue des Vorbilds"
+Inst22Quest6name2 = "Buch des Vorbilds"
+Inst22Quest6name3 = "Götze des Vorbilds"
+Inst22Quest6name4 = "Relikt des Vorbilds"
+
 --Quest 7 Alliance
-Inst22Quest7 = "7. Menethils Geschenk"
-Inst22Quest7_Level = "60"
-Inst22Quest7_Attain = "57"
-Inst22Quest7_Aim = "Begebt Euch nach Stratholme und sucht Menethils Geschenk. Platziert das Andenken der Erinnerung auf dem unheiligen Boden."
-Inst22Quest7_Location = "Leonidas Bartholomäus der Geachtete (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."80,58"..WHITE..")"
-Inst22Quest7_Note = "Die Vorquest bekommt man von Magistrat Marduk (Westliche Pestländer - Darrowehr; "..YELLOW.."70,73"..WHITE.."). Das Pentagramm befindet sich bei "..YELLOW.."[19]"..WHITE..". Siehe auch: "..YELLOW.."[Der Lich Ras Frostraunen]"..WHITE.." in Scholomance."
-Inst22Quest7_Prequest = "Ja, Der Mensch Ras Frostraunen - > Der Sterbende Ras Frostraunen"
-Inst22Quest7_Folgequest = "Ja, Menethils Geschenk"
-Inst22Quest7PreQuest = "true"
+Inst22Quest7 = "7. Der Schreckenslord Balnazzar"
+Inst22Quest7_Level = "47"
+Inst22Quest7_Attain = "42"
+Inst22Quest7_Aim = "Tötet Balnazzar."
+Inst22Quest7_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest7_Note = "Schreckenslord Balnazzar befindet sich bei."
+Inst22Quest7_Prequest = "Nein"
+Inst22Quest7_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst22Quest8 = "8. Aurius' Abrechnung"
-Inst22Quest8_Level = "60"
-Inst22Quest8_Attain = "56"
-Inst22Quest8_Aim = "Tötet den Baron."
-Inst22Quest8_Location = "Aurius (Stratholme; "..YELLOW.."[13]"..WHITE..")"
-Inst22Quest8_Note = "Um das Quest zu starten muss man [Das Medaillon des Glaubens] bei Aurius abgeben. Das Medaillon findet man in einer Kiste (Malors Geldkassette "..YELLOW.."[7]"..WHITE..") in der ersten Kammer der Bastion (bevor sich der Weg teilt). Wenn man das Medaillon abgegeben hat hilft Aurius beim Kampf gegen den Baron "..YELLOW.."[19]"..WHITE..". Sobald dieser besiegt ist muss man Aurius nochmal ansprechen, um die Questbelohnung zu erhalten."
+Inst22Quest8 = "8. Die Wettstreiter ausmerzen"
+Inst22Quest8_Level = "46"
+Inst22Quest8_Attain = "42"
+Inst22Quest8_Aim = "Tötet den purpurroten Hammerschmied."
+Inst22Quest8_Location = "Meisterhandwerker Wilhelm (Stratholme; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest8_Note = "Auferstandener Hammerschmied befindet sich bei."
 Inst22Quest8_Prequest = "Nein"
 Inst22Quest8_Folgequest = "Nein"
---
-Inst22Quest8name1 = "Wille des Märtyrers"
-Inst22Quest8name2 = "Blut des Märtyrers"
+-- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst22Quest9 = "9. Der Archivar"
-Inst22Quest9_Level = "60"
-Inst22Quest9_Attain = "55"
-Inst22Quest9_Aim = "Reist nach Stratholme und sucht Archivar Galford vom Scharlachroten Kreuzzug. Vernichtet ihn und verbrennt das Scharlachrote Archiv."
-Inst22Quest9_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst22Quest9_Note = "Das Archiv und den Archivar findet man bei "..YELLOW.."[10]"..WHITE.."."
+Inst22Quest9 = "9. Flüssiges Gold"
+Inst22Quest9_Level = "50"
+Inst22Quest9_Attain = "46"
+Inst22Quest9_Aim = "Findet eine Phiole mit Weihwasser von Stratholme."
+Inst22Quest9_Location = "Rottenkommandant Steinberster (Stratholme; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest9_Note = "Phiole mit Weihwasser findet man überall in Stratholm in den Kisten."
 Inst22Quest9_Prequest = "Nein"
-Inst22Quest9_Folgequest = "Ja, Die Wahrheit zeigt sich mit Macht"
+Inst22Quest9_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst22Quest10 = "10. Die Wahrheit zeigt sich mit Macht"
-Inst22Quest10_Level = "60"
-Inst22Quest10_Attain = "55"
-Inst22Quest10_Aim = "Bringt den Kopf von Balnazzar zu Fürst Nicholas Zverenhoff in den östlichen Pestländern."
-Inst22Quest10_Location = "Balnazzar (Stratholme; "..YELLOW.."[11]"..WHITE..")"
-Inst22Quest10_Note = "Fürst Nicholas Zverenhoff findet man in den Östlichen Pestländern - Kapelle des hoffnungsvollen Lichts ("..YELLOW.."81,59"..WHITE..")."
-Inst22Quest10_Prequest = "Ja, Der Archivar"
-Inst22Quest10_Folgequest = "Ja, Übertroffen"
-Inst22Quest10FQuest = "true"
+Inst22Quest10 = "10. Mann gegen Monstrosität"
+Inst22Quest10_Level = "50"
+Inst22Quest10_Attain = "46"
+Inst22Quest10_Aim = "Tötet Ramstein den Verschlinger."
+Inst22Quest10_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest10_Note = "Ramstein der Verschlinger befindet sich bei."
+Inst22Quest10_Prequest = "Nein"
+Inst22Quest10_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst22Quest11 = "11. Übertroffen"
-Inst22Quest11_Level = "60"
-Inst22Quest11_Attain = "55"
-Inst22Quest11_Aim = "Zieht nach Stratholme und vernichtet Baron Totenschwur. Nehmt seinen Kopf und kehrt zu Fürst Nicholas Zverenhoff zurück."
-Inst22Quest11_Location = "Fürst Nicholas Zverenhoff (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."81,59"..WHITE..")"
-Inst22Quest11_Note = "Den Baron findet man bei "..YELLOW.."[19]"..WHITE.."."
-Inst22Quest11_Prequest = "Ja, Die Wahrheit zeigt sich mit Macht"
+Inst22Quest11 = "11. Verstärkung der Argentumdämmerung"
+Inst22Quest11_Level = "50"
+Inst22Quest11_Attain = "46"
+Inst22Quest11_Aim = "Erhaltet 4 Essenzen einer Banshee."
+Inst22Quest11_Location = "Erzmagierin Angela Dosantos (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest11_Note = "Die Banshees befinden sich bei."
+Inst22Quest11_Prequest = "Nein"
 Inst22Quest11_Folgequest = "Nein"
-Inst22Quest11FQuest = "true"
---
-Inst22Quest11name1 = "Argentumverteidiger"
-Inst22Quest11name2 = "Argentumkreuzfahrer"
-Inst22Quest11name3 = "Argentumrächer"
+-- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst22Quest12 = "12. Die letzte Bitte eines toten Mannes"
-Inst22Quest12_Level = "60"
-Inst22Quest12_Attain = "58"
-Inst22Quest12_Aim = "Geht nach Stratholme und befreit Ysida Harmon aus den Fängen von Baron Totenschwur."
-Inst22Quest12_Location = "Anthion Harmon (Östliche Pestländer - Stratholme)"
-Inst22Quest12_Note = "Anthion steht vor dem Stratholme Eingangsportal. Man benötigt den Extradimensionalen Geisterdetektor, um ihn sehen zu können. Diesen erhält man beim Vorquest. Die Questreihe beginnt mit Die angemessene Entlohnung. Deliana in Eisenschmiede ("..YELLOW.."43,52"..WHITE..") für Allianz, Mokvar in Orgrimmar ("..YELLOW.."38,37"..WHITE..") für Horde.\nDas ist der berüchtigte '45 Minuten' Baron-Run."
-Inst22Quest12_Prequest = "Ja, Suche nach Anthion"
-Inst22Quest12_Folgequest = "Ja, Lebensbeweis"
-Inst22Quest12PreQuest = "true"
+Inst22Quest12 = "12. Waffen für den Krieg"
+Inst22Quest12_Level = "50"
+Inst22Quest12_Attain = "46"
+Inst22Quest12_Aim = "Tötet den Schwertschmied der schwarzen Wache."
+Inst22Quest12_Location = "Meisterhandwerker Wilhelm (Stratholme; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest12_Note = "Schwertschmied der schwarzen Wache befindet sich bei."
+Inst22Quest12_Prequest = "Nein"
+Inst22Quest12_Folgequest = "Nein"
 -- No Rewards for this quest
-
---Quest 13 Alliance
-Inst22Quest13 = "13. Das linke Stück von Lord Valthalaks Amulett"
-Inst22Quest13_Level = "60"
-Inst22Quest13_Attain = "58"
-Inst22Quest13_Aim = "Benutzt das Räuchergefäß der Beschwörung, um die Geister von Jarien und Sothos zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
-Inst22Quest13_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst22Quest13_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nJarien und Sothos werden bei "..YELLOW.."[11]"..WHITE.." beschworen."
-Inst22Quest13_Prequest = "Ja, Komponenten von großer Wichtigkeit"
-Inst22Quest13_Folgequest = "Ja, Ich sehe die Insel Alcaz in Eurer Zukunft"
-Inst22Quest13PreQuest = "true"
--- No Rewards for this quest
-
---Quest 14 Alliance
-Inst22Quest14 = "14. Das rechte Stück von Lord Valthalaks Amulett"
-Inst22Quest14_Level = "60"
-Inst22Quest14_Attain = "58"
-Inst22Quest14_Aim = "UBenutzt das Räuchergefäß der Beschwörung, um die Geister von Jarien und Sothos zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
-Inst22Quest14_Location = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst22Quest14_Note = "Der Extradimensionale Geisterdetektor wird benötigt um Bodley zu sehen. Man erhält ihn beim Quest 'Suche nach Anthion'.\n\nJarien und Sothos werden bei "..YELLOW.."[11]"..WHITE.." beschworen."
-Inst22Quest14_Prequest = "Ja, Mehr Komponenten von großer Wichtigkeit"
-Inst22Quest14_Folgequest = "Ja, Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
-Inst22Quest14PreQuest = "true"
--- No Rewards for this quest
-
---Quest 15 Alliance
-Inst22Quest15 = "15. Atiesh, Hohestab des Wächters"
-Inst22Quest15_Level = "60"
-Inst22Quest15_Attain = "60"
-Inst22Quest15_Aim = "Anachronos in den Höhlen der Zeit in Tanaris möchte, dass Ihr Atiesh, den Hohestab des Wächters, nach Stratholme bringt und dort auf dem geheiligten Boden platziert. Bezwingt das Wesen, das aus dem Stab getrieben wurde, und kehrt danach wieder zu ihm zurück."
-Inst22Quest15_Location = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
-Inst22Quest15_Note = "Atiesh wird bei "..YELLOW.."[2]"..WHITE.." beschworen."
-Inst22Quest15_Prequest = "Ja"
-Inst22Quest15_Folgequest = "Nein"
---
-Inst22Quest15name1 = "Atiesh, Hohestab des Wächters"
-Inst22Quest15name2 = "Atiesh, Hohestab des Wächters"
-Inst22Quest15name3 = "Atiesh, Hohestab des Wächters"
-Inst22Quest15name4 = "Atiesh, Hohestab des Wächters"
-
---Quest 16 Alliance
-Inst22Quest16 = "16. Verderbnis (Schmiedekunst)"
-Inst22Quest16_Level = "60"
-Inst22Quest16_Attain = "50"
-Inst22Quest16_Aim = "Findet den Schwertschmied der schwarzen Wache in Stratholme und vernichtet ihn. Holt die Insignien der schwarzen Wache und kehrt zu Seril Geißelbann zurück."
-Inst22Quest16_Location = "Seril Geißelbann (Winterquell - Ewige Warte; "..YELLOW.."61,37"..WHITE..")"
-Inst22Quest16_Note = "Der Schwertschmied der schwarzen Wache wird nahe bei "..YELLOW.."[15]"..WHITE.." beschworen."
-Inst22Quest16_Prequest = "Nein"
-Inst22Quest16_Folgequest = "Nein"
---
-Inst22Quest16name1 = "Pläne: Loderflammenrapier"
-
---Quest 17 Alliance
-Inst22Quest17 = "17. Süße Beschaulichkeit (Schmiedekunst)"
-Inst22Quest17_Level = "60"
-Inst22Quest17_Attain = "50"
-Inst22Quest17_Aim = "Begebt Euch nach Stratholme und tötet den purpurroten Hammerschmied. Nehmt die Schürze des purpurroten Hammerschmiedes und kehrt zu Lilith zurück."
-Inst22Quest17_Location = "Lilith die Liebliche (Winterquell - Ewige Warte; "..YELLOW.."61,37"..WHITE..")"
-Inst22Quest17_Note = "Der purpurrote Hammerschmied wird bei "..YELLOW.."[8]"..WHITE.." beschworen."
-Inst22Quest17_Prequest = "Nein"
-Inst22Quest17_Folgequest = "Nein"
---
-Inst22Quest17name1 = "Pläne: Verzauberter Kampfhammer"
-
---Quest 18 Alliance
-Inst22Quest18 = "18. Die Waage von Licht und Schatten (Priester)"
-Inst22Quest18_Level = "60"
-Inst22Quest18_Attain = "60"
-Inst22Quest18_Aim = "Rettet 50 Arbeiter bevor 15 getötet wurden. Sprecht mit Eris Himmelsfeuer, falls Ihr diesen Auftrag erfolgreich zu Ende bringen solltet."
-Inst22Quest18_Location = "Eris Himmelsfeuer (Östliche Pestländer; "..YELLOW.."21,18"..WHITE..")"
-Inst22Quest18_Note = "Um Eris Himmelsfeuer sehen zu können und diese Quest zu erhalten benötigt man entweder das Auge der Offenbarung (erhält man aus dem Behälter des Feuerfürsten im "..YELLOW.."[Geschmolzenen Kern]"..WHITE..") oder Spektrale Essenz (Belohnung für "..YELLOW.."[Scholomance]"..WHITE.." Quest 'Kirtonos der Herold').\n\nDie Belohnung für diese Quest bildet zusammen mit dem Auge der Offenbarung und dem Auge der Schatten (droppt von "..YELLOW.."[Hochlord Kruul]"..WHITE..") Segnung, einen epischen Priesterstab."
-Inst22Quest18_Prequest = "Nein"
-Inst22Quest18_Folgequest = "Nein"
---
-Inst22Quest18name1 = "Splitter von Nordrassil"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst22Quest1_HORDE = Inst22Quest1
-Inst22Quest1_HORDE_Level = Inst22Quest1_Level
-Inst22Quest1_HORDE_Attain = Inst22Quest1_Attain
+Inst22Quest1_HORDE_Level = "45"
+Inst22Quest1_HORDE_Attain = "44"
 Inst22Quest1_HORDE_Aim = Inst22Quest1_Aim
 Inst22Quest1_HORDE_Location = Inst22Quest1_Location
 Inst22Quest1_HORDE_Note = Inst22Quest1_Note
-Inst22Quest1_HORDE_Prequest = Inst22Quest1_Prequest
-Inst22Quest1_HORDE_Folgequest = Inst22Quest1_Folgequest
+Inst22Quest1_HORDE_Prequest = "Nein"
+Inst22Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst22Quest2_HORDE = Inst22Quest2
-Inst22Quest2_HORDE_Level = Inst22Quest2_Level
-Inst22Quest2_HORDE_Attain = Inst22Quest2_Attain
+Inst22Quest2_HORDE_Level = "46"
+Inst22Quest2_HORDE_Attain = "42"
 Inst22Quest2_HORDE_Aim = Inst22Quest2_Aim
 Inst22Quest2_HORDE_Location = Inst22Quest2_Location
 Inst22Quest2_HORDE_Note = Inst22Quest2_Note
-Inst22Quest2_HORDE_Prequest = Inst22Quest2_Prequest
-Inst22Quest2_HORDE_Folgequest = Inst22Quest2_Folgequest
-Inst22Quest2FQuest_HORDE = Inst22Quest2FQuest
---
-Inst22Quest2name1_HORDE = Inst22Quest2name1
-Inst22Quest2name2_HORDE = Inst22Quest2name2
+Inst22Quest2_HORDE_Prequest = "Nein"
+Inst22Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst22Quest3_HORDE = Inst22Quest3
-Inst22Quest3_HORDE_Level = Inst22Quest3_Level
-Inst22Quest3_HORDE_Attain = Inst22Quest3_Attain
+Inst22Quest3_HORDE_Level = "46"
+Inst22Quest3_HORDE_Attain = "42"
 Inst22Quest3_HORDE_Aim = Inst22Quest3_Aim
 Inst22Quest3_HORDE_Location = Inst22Quest3_Location
 Inst22Quest3_HORDE_Note = Inst22Quest3_Note
-Inst22Quest3_HORDE_Prequest = Inst22Quest3_Prequest
-Inst22Quest3_HORDE_Folgequest = Inst22Quest3_Folgequest
---
-Inst22Quest3name1_HORDE = Inst22Quest3name1
-Inst22Quest3name2_HORDE = Inst22Quest3name2
-Inst22Quest3name3_HORDE = Inst22Quest3name3
-Inst22Quest3name4_HORDE = Inst22Quest3name4
+Inst22Quest3_HORDE_Prequest = "Nein"
+Inst22Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst22Quest4_HORDE = Inst22Quest4
-Inst22Quest4_HORDE_Level = Inst22Quest4_Level
-Inst22Quest4_HORDE_Attain = Inst22Quest4_Attain
+Inst22Quest4_HORDE_Level = "47"
+Inst22Quest4_HORDE_Attain = "42"
 Inst22Quest4_HORDE_Aim = Inst22Quest4_Aim
 Inst22Quest4_HORDE_Location = Inst22Quest4_Location
 Inst22Quest4_HORDE_Note = Inst22Quest4_Note
-Inst22Quest4_HORDE_Prequest = Inst22Quest4_Prequest
-Inst22Quest4_HORDE_Folgequest = Inst22Quest4_Folgequest
---
-Inst22Quest4name1_HORDE = Inst22Quest4name1
+Inst22Quest4_HORDE_Prequest = "Nein"
+Inst22Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst22Quest5_HORDE = Inst22Quest5
-Inst22Quest5_HORDE_Level = Inst22Quest5_Level
-Inst22Quest5_HORDE_Attain = Inst22Quest5_Attain
+Inst22Quest5_HORDE_Level = "46"
+Inst22Quest5_HORDE_Attain = "42"
 Inst22Quest5_HORDE_Aim = Inst22Quest5_Aim
 Inst22Quest5_HORDE_Location = Inst22Quest5_Location
 Inst22Quest5_HORDE_Note = Inst22Quest5_Note
-Inst22Quest5_HORDE_Prequest = Inst22Quest5_Prequest
-Inst22Quest5_HORDE_Folgequest = Inst22Quest5_Folgequest
-Inst22Quest5PreQuest_HORDE = Inst22Quest5PreQuest
---
-Inst22Quest5name1_HORDE = Inst22Quest5name1
+Inst22Quest5_HORDE_Prequest = "Nein"
+Inst22Quest5_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst22Quest6_HORDE = Inst22Quest6
-Inst22Quest6_HORDE_Level = Inst22Quest6_Level
-Inst22Quest6_HORDE_Attain = Inst22Quest6_Attain
+Inst22Quest6_HORDE_Level = "51"
+Inst22Quest6_HORDE_Attain = "46"
 Inst22Quest6_HORDE_Aim = Inst22Quest6_Aim
 Inst22Quest6_HORDE_Location = Inst22Quest6_Location
 Inst22Quest6_HORDE_Note = Inst22Quest6_Note
-Inst22Quest6_HORDE_Prequest = Inst22Quest6_Prequest
-Inst22Quest6_HORDE_Folgequest = Inst22Quest6_Folgequest
-Inst22Quest6PreQuest_HORDE = Inst22Quest6PreQuest
--- No Rewards for this quest
+Inst22Quest6_HORDE_Prequest = "Nein"
+Inst22Quest6_HORDE_Folgequest = "Nein"
+--
+Inst22Quest6name1_HORDE = Inst22Quest6name1
+Inst22Quest6name2_HORDE = Inst22Quest6name2
+Inst22Quest6name3_HORDE = Inst22Quest6name3
+Inst22Quest6name4_HORDE = Inst22Quest6name4
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst22Quest7_HORDE = Inst22Quest7
-Inst22Quest7_HORDE_Level = Inst22Quest7_Level
-Inst22Quest7_HORDE_Attain = Inst22Quest7_Attain
+Inst22Quest7_HORDE_Level = "47"
+Inst22Quest7_HORDE_Attain = "42"
 Inst22Quest7_HORDE_Aim = Inst22Quest7_Aim
 Inst22Quest7_HORDE_Location = Inst22Quest7_Location
 Inst22Quest7_HORDE_Note = Inst22Quest7_Note
-Inst22Quest7_HORDE_Prequest = Inst22Quest7_Prequest
-Inst22Quest7_HORDE_Folgequest = Inst22Quest7_Folgequest
-Inst22Quest7PreQuest_HORDE = Inst22Quest7PreQuest
+Inst22Quest7_HORDE_Prequest = "Nein"
+Inst22Quest7_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst22Quest8_HORDE = Inst22Quest8
-Inst22Quest8_HORDE_Level = Inst22Quest8_Level
-Inst22Quest8_HORDE_Attain = Inst22Quest8_Attain
+Inst22Quest8_HORDE_Level = "46"
+Inst22Quest8_HORDE_Attain = "42"
 Inst22Quest8_HORDE_Aim = Inst22Quest8_Aim
 Inst22Quest8_HORDE_Location = Inst22Quest8_Location
 Inst22Quest8_HORDE_Note = Inst22Quest8_Note
-Inst22Quest8_HORDE_Prequest = Inst22Quest8_Prequest
-Inst22Quest8_HORDE_Folgequest = Inst22Quest8_Folgequest
---
-Inst22Quest8name1_HORDE = Inst22Quest8name1
-Inst22Quest8name2_HORDE = Inst22Quest8name2
+Inst22Quest8_HORDE_Prequest = "Nein"
+Inst22Quest8_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst22Quest9_HORDE = Inst22Quest9
-Inst22Quest9_HORDE_Level = Inst22Quest9_Level
-Inst22Quest9_HORDE_Attain = Inst22Quest9_Attain
+Inst22Quest9_HORDE_Level = "50"
+Inst22Quest9_HORDE_Attain = "46"
 Inst22Quest9_HORDE_Aim = Inst22Quest9_Aim
 Inst22Quest9_HORDE_Location = Inst22Quest9_Location
 Inst22Quest9_HORDE_Note = Inst22Quest9_Note
-Inst22Quest9_HORDE_Prequest = Inst22Quest9_Prequest
-Inst22Quest9_HORDE_Folgequest = Inst22Quest9_Folgequest
+Inst22Quest9_HORDE_Prequest = "Nein"
+Inst22Quest9_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
 Inst22Quest10_HORDE = Inst22Quest10
-Inst22Quest10_HORDE_Level = Inst22Quest10_Level
-Inst22Quest10_HORDE_Attain = Inst22Quest10_Attain
+Inst22Quest10_HORDE_Level = "50"
+Inst22Quest10_HORDE_Attain = "46"
 Inst22Quest10_HORDE_Aim = Inst22Quest10_Aim
 Inst22Quest10_HORDE_Location = Inst22Quest10_Location
 Inst22Quest10_HORDE_Note = Inst22Quest10_Note
-Inst22Quest10_HORDE_Prequest = Inst22Quest10_Prequest
-Inst22Quest10_HORDE_Folgequest = Inst22Quest10_Folgequest
-Inst22Quest10FQuest_HORDE = Inst22Quest10FQuest
+Inst22Quest10_HORDE_Prequest = "Nein"
+Inst22Quest10_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
 Inst22Quest11_HORDE = Inst22Quest11
-Inst22Quest11_HORDE_Level = Inst22Quest11_Level
-Inst22Quest11_HORDE_Attain = Inst22Quest11_Attain
+Inst22Quest11_HORDE_Level = "50"
+Inst22Quest11_HORDE_Attain = "46"
 Inst22Quest11_HORDE_Aim = Inst22Quest11_Aim
 Inst22Quest11_HORDE_Location = Inst22Quest11_Location
 Inst22Quest11_HORDE_Note = Inst22Quest11_Note
-Inst22Quest11_HORDE_Prequest = Inst22Quest11_Prequest
-Inst22Quest11_HORDE_Folgequest = Inst22Quest11_Folgequest
-Inst22Quest11FQuest_HORDE = Inst22Quest11FQuest
---
-Inst22Quest11name1_HORDE = Inst22Quest11name1
-Inst22Quest11name2_HORDE = Inst22Quest11name2
-Inst22Quest11name3_HORDE = Inst22Quest11name3
+Inst22Quest11_HORDE_Prequest = "Nein"
+Inst22Quest11_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
 Inst22Quest12_HORDE = Inst22Quest12
-Inst22Quest12_HORDE_Level = Inst22Quest12_Level
-Inst22Quest12_HORDE_Attain = Inst22Quest12_Attain
+Inst22Quest12_HORDE_Level = "50"
+Inst22Quest12_HORDE_Attain = "46"
 Inst22Quest12_HORDE_Aim = Inst22Quest12_Aim
 Inst22Quest12_HORDE_Location = Inst22Quest12_Location
 Inst22Quest12_HORDE_Note = Inst22Quest12_Note
-Inst22Quest12_HORDE_Prequest = Inst22Quest12_Prequest
-Inst22Quest12_HORDE_Folgequest = Inst22Quest12_Folgequest
-Inst22Quest12PreQuest_HORDE = Inst22Quest12PreQuest
+Inst22Quest12_HORDE_Prequest = "Nein"
+Inst22Quest12_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst22Quest13_HORDE = Inst22Quest13
-Inst22Quest13_HORDE_Level = Inst22Quest13_Level
-Inst22Quest13_HORDE_Attain = Inst22Quest13_Attain
-Inst22Quest13_HORDE_Aim = Inst22Quest13_Aim
-Inst22Quest13_HORDE_Location = Inst22Quest13_Location
-Inst22Quest13_HORDE_Note = Inst22Quest13_Note
-Inst22Quest13_HORDE_Prequest = Inst22Quest13_Prequest
-Inst22Quest13_HORDE_Folgequest = Inst22Quest13_Folgequest
-Inst22Quest13PreQuest_HORDE = Inst22Quest13PreQuest
--- No Rewards for this quest
-
---Quest 14 Horde  (same as Quest 14 Alliance)
-Inst22Quest14_HORDE = Inst22Quest14
-Inst22Quest14_HORDE_Level = Inst22Quest14_Level
-Inst22Quest14_HORDE_Attain = Inst22Quest14_Attain
-Inst22Quest14_HORDE_Aim = Inst22Quest14_Aim
-Inst22Quest14_HORDE_Location = Inst22Quest14_Location
-Inst22Quest14_HORDE_Note = Inst22Quest14_Note
-Inst22Quest14_HORDE_Prequest = Inst22Quest14_Prequest
-Inst22Quest14_HORDE_Folgequest = Inst22Quest14_Folgequest
-Inst22Quest14PreQuest_HORDE = Inst22Quest14PreQuest
--- No Rewards for this quest
-
---Quest 15 Horde  (same as Quest 15 Alliance)
-Inst22Quest15_HORDE = Inst22Quest15
-Inst22Quest15_HORDE_Level = Inst22Quest15_Level
-Inst22Quest15_HORDE_Attain = Inst22Quest15_Attain
-Inst22Quest15_HORDE_Aim = Inst22Quest15_Aim
-Inst22Quest15_HORDE_Location = Inst22Quest15_Location
-Inst22Quest15_HORDE_Note = Inst22Quest15_Note
-Inst22Quest15_HORDE_Prequest = Inst22Quest15_Prequest
-Inst22Quest15_HORDE_Folgequest = Inst22Quest15_Folgequest
-Inst22Quest15PreQuest_HORDE = Inst22Quest15PreQuest
---
-Inst22Quest15name1_HORDE = Inst22Quest15name1
-Inst22Quest15name2_HORDE = Inst22Quest15name2
-Inst22Quest15name3_HORDE = Inst22Quest15name3
-Inst22Quest15name4_HORDE = Inst22Quest15name4
-
---Quest 16 Horde  (same as Quest 16 Alliance)
-Inst22Quest16_HORDE = Inst22Quest16
-Inst22Quest16_HORDE_Level = Inst22Quest16_Level
-Inst22Quest16_HORDE_Attain = Inst22Quest16_Attain
-Inst22Quest16_HORDE_Aim = Inst22Quest16_Aim
-Inst22Quest16_HORDE_Location = Inst22Quest16_Location
-Inst22Quest16_HORDE_Note = Inst22Quest16_Note
-Inst22Quest16_HORDE_Prequest = Inst22Quest16_Prequest
-Inst22Quest16_HORDE_Folgequest = Inst22Quest16_Folgequest
---
-Inst22Quest16name1_HORDE = Inst22Quest16name1
-
---Quest 17 Horde  (same as Quest 17 Alliance)
-Inst22Quest17_HORDE = Inst22Quest17
-Inst22Quest17_HORDE_Level = Inst22Quest17_Level
-Inst22Quest17_HORDE_Attain = Inst22Quest17_Attain
-Inst22Quest17_HORDE_Aim = Inst22Quest17_Aim
-Inst22Quest17_HORDE_Location = Inst22Quest17_Location
-Inst22Quest17_HORDE_Note = Inst22Quest17_Note
-Inst22Quest17_HORDE_Prequest = Inst22Quest17_Prequest
-Inst22Quest17_HORDE_Folgequest = Inst22Quest17_Folgequest
---
-Inst22Quest17name1_HORDE = Inst22Quest17name1
-
---Quest 18 Horde
-Inst22Quest18_HORDE = "18. Ramstein"
-Inst22Quest18_HORDE_Level = "60"
-Inst22Quest18_HORDE_Attain = "56"
-Inst22Quest18_HORDE_Aim = "Reist nach Stratholme und tötet Ramstein den Würger. Bringt seinen Kopf als Souvenir zu Nathanos."
-Inst22Quest18_HORDE_Location = "Nathanos Pestrufer (Östliche Pestländer; "..YELLOW.."26,74"..WHITE..")"
-Inst22Quest18_HORDE_Note = "Die Vorquest erhält man auch von Nathanos Pestrufer. Ramstein findet man bei "..YELLOW.."[18]"..WHITE.."."
-Inst22Quest18_HORDE_Prequest = "Ja, Das Ersuchen des Waldläuferlords -> Dämmerschwinge, oh, wie ich Euch hasse..."
-Inst22Quest18_HORDE_Folgequest = "Nein"
-Inst22Quest18PreQuest_HORDE = "true"
---
-Inst22Quest18name1_HORDE = "Königliches Siegel von Alexis"
-Inst22Quest18name2_HORDE = "Elementarkreis"
-
---Quest 19 Horde  (same as Quest 18 Alliance)
-Inst22Quest19_HORDE = "19. Die Waage von Licht und Schatten (Priester)"
-Inst22Quest19_HORDE_Level = Inst22Quest18_Level
-Inst22Quest19_HORDE_Attain = Inst22Quest18_Attain
-Inst22Quest19_HORDE_Aim = Inst22Quest18_Aim
-Inst22Quest19_HORDE_Location = Inst22Quest18_Location
-Inst22Quest19_HORDE_Note = Inst22Quest18_Note
-Inst22Quest19_HORDE_Prequest = Inst22Quest18_Prequest
-Inst22Quest19_HORDE_Folgequest = Inst22Quest18_Folgequest
---
-Inst22Quest19name1_HORDE = Inst22Quest18name1
-
---Quest 20 Horde
-Inst22Quest20_HORDE = "20. Wahre Meister des Lichts (Paladin)"
-Inst22Quest20_HORDE_Level = "60"
-Inst22Quest20_HORDE_Attain = "60"
-Inst22Quest20_HORDE_Aim = "Verwendet die Löschmischung in der Nähe der ewigen Flamme in der Alonsuskapelle, um den Schutz des Lichts zu brechen. Seid bereit, jeden zu töten, der versucht, die Kapelle zu verteidigen."
-Inst22Quest20_HORDE_Location = "Lord Solanar Blutzorn (Silbermond - Platz der Weltenwandler; "..YELLOW.."92.2, 38.7"..WHITE..")"
-Inst22Quest20_HORDE_Note = "Die Alonsuskapelle ist bei "..YELLOW.."[13]"..WHITE..". Beende diese Quest und du erhälst das epische Reittier des Paladins. Du kannst diese Quest nicht starten wenn du das epische Reittier von deinem Lehrer erhalten hast."
-Inst22Quest20_HORDE_Prequest = "Aufforderung von Lord Solanar -> Wahre Meister des Lichts"
-Inst22Quest20_HORDE_Folgequest = "Nein"
-Inst22Quest20PreQuest_HORDE = "true"
---
-Inst22Quest20name1_HORDE = "Wappenrock der Blutritter"
 
 
 
@@ -3910,8 +3735,8 @@ Inst22Quest20name1_HORDE = "Wappenrock der Blutritter"
 
 Inst23Story = "In den letzten Stunden des Krieges gegen die Silithiden trugen die Nachtelfen und die vier Drachenschwärme die Schlacht in das Herz des Qiraji Reichs zurück: in die Festung von Ahn'Qiraj. An den Toren der Stadt stießen sie auf ein Aufgebot von Kriegsdrohnen, gewaltiger als es je zuvor gesehen wurde. Die Silithiden und ihre Qiraji Herren konnten nicht besiegt werden und wurden stattdessen innerhalb einer magischen Barriere eingeschlossen; der Krieg hinterließ die verfluchte Stadt in Ruinen. Tausend Jahre sind seitdem vergangen - Jahre, in denen die Qiraji nicht untätig waren. Eine neue und schreckliche Streitmacht ist in den Stöcken ausgebrütet worden und die Ruinen von Ahn'Qiraj wurden erneut von Silithidenschwärmen und Qiraji bevölkert. Diese Bedrohung gilt es zu meistern, ansonsten wird Azeroth der schrecklichen Macht dieser neuen Qiraji Streitkraft zum Opfer fallen."
 Inst23Caption = "Ruinen von Ahn'Qiraj"
-Inst23QAA = "2 Quests"
-Inst23QAH = "2 Quests"
+Inst23QAA = "1 Quest"
+Inst23QAH = "1 Quest"
 
 --Quest 1 Alliance
 Inst23Quest1 = "1. Der Untergang von Ossirian"
@@ -3928,55 +3753,21 @@ Inst23Quest1name2 = "Amulett der Sandstürme"
 Inst23Quest1name3 = "Halsschmuck der Sandstürme"
 Inst23Quest1name4 = "Anhänger der Sandstürme"
 
---Quest 2 Alliance
-Inst23Quest2 = "2. Das perfekte Gift"
-Inst23Quest2_Level = "60"
-Inst23Quest2_Attain = "60"
-Inst23Quest2_Aim = "Dirk Donnerholz in der Burg Cenarius will, dass Ihr ihm Venoxis' Giftbeutel und Kurinnaxx' Giftbeutel bringt."
-Inst23Quest2_Location = "Dirk Donnerholz (Silithus - Burg Cenarius; "..YELLOW.."52,39"..WHITE..")"
-Inst23Quest2_Note = "Venoxis' Giftbeutel droppt von Hohepriester Venoxis in "..YELLOW.."Zul'Gurub"..WHITE..". Kurinnaxx' Giftbeutel droppt in den "..YELLOW.."Ruinen von Ahn'Qiraj"..WHITE.." bei "..YELLOW.."[1]"..WHITE.."."
-Inst23Quest2_Prequest = "Nein"
-Inst23Quest2_Folgequest = "Nein"
---
-Inst23Quest2name1 = "Rabenholdtschnitzler"
-Inst23Quest2name2 = "Messerritzels Messer"
-Inst23Quest2name3 = "Donnerholzschüreisen"
-Inst23Quest2name4 = "Schicksalsbringer"
-Inst23Quest2name5 = "Fahrads selbstladende Repetierarmbrust"
-Inst23Quest2name6 = "Simones Hammer der Kultivierung"
-
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst23Quest1_HORDE = Inst23Quest1
-Inst23Quest1_HORDE_Level = Inst23Quest1_Level
-Inst23Quest1_HORDE_Attain = Inst23Quest1_Attain
+Inst23Quest1_HORDE_Level = "60"
+Inst23Quest1_HORDE_Attain = "60"
 Inst23Quest1_HORDE_Aim = Inst23Quest1_Aim
 Inst23Quest1_HORDE_Location = Inst23Quest1_Location
 Inst23Quest1_HORDE_Note = Inst23Quest1_Note
-Inst23Quest1_HORDE_Prequest = Inst23Quest1_Prequest
-Inst23Quest1_HORDE_Folgequest = Inst23Quest1_Folgequest
+Inst23Quest1_HORDE_Prequest = "Nein"
+Inst23Quest1_HORDE_Folgequest = "Nein"
 --
 Inst23Quest1name1_HORDE = Inst23Quest1name1
 Inst23Quest1name2_HORDE = Inst23Quest1name2
 Inst23Quest1name3_HORDE = Inst23Quest1name3
 Inst23Quest1name4_HORDE = Inst23Quest1name4
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst23Quest2_HORDE = Inst23Quest2
-Inst23Quest2_HORDE_Level = Inst23Quest2_Level
-Inst23Quest2_HORDE_Attain = Inst23Quest2_Attain
-Inst23Quest2_HORDE_Aim = Inst23Quest2_Aim
-Inst23Quest2_HORDE_Location = Inst23Quest2_Location
-Inst23Quest2_HORDE_Note = Inst23Quest2_Note
-Inst23Quest2_HORDE_Prequest = Inst23Quest2_Prequest
-Inst23Quest2_HORDE_Folgequest = Inst23Quest2_Folgequest
---
-Inst23Quest2name1_HORDE = Inst23Quest2name1
-Inst23Quest2name2_HORDE = Inst23Quest2name2
-Inst23Quest2name3_HORDE = Inst23Quest2name3
-Inst23Quest2name4_HORDE = Inst23Quest2name4
-Inst23Quest2name5_HORDE = Inst23Quest2name5
-Inst23Quest2name6_HORDE = Inst23Quest2name6
 
 
 
@@ -3984,82 +3775,45 @@ Inst23Quest2name6_HORDE = Inst23Quest2name6
 
 Inst24Story = "Das Verlies ist ein Hochsicherheitsgefängnis, das unter dem Kanalbezirk von Sturmwind verborgen liegt. Unter der Führung von Aufseher Thelwasser sammelten sich im Verlies mit der Zeit ein bunter Haufen simpler Gauner, politischer Aufrührer, Mörder, Diebe, Halsabschneider und einiger der gefährlichsten Kriminellen des Landes an. Vor kurzem gab es einen Aufstand der Gefangenen, der im Verlies für Chaos sorgte - die Wachen sind geflohen und die Gefangenen haben das Gefängnis übernommen. Thelwasser konnte knapp entkommen und sucht momentan nach tapferen Abenteurern, um den Anführer der Revolte auszuschalten, den gerissenen Meisterverbrecher Bazil Thredd."
 Inst24Caption = "Das Verlies"
-Inst24QAA = "6 Quests"
-Inst24QAH = "Keine Quests"
+Inst24QAA = "3 Quests"
+Inst24QAH = "Keine Quest"
 
 --Quest 1 Alliance
-Inst24Quest1 = "1. Verbrechen lohnt sich nicht"
-Inst24Quest1_Level = "25"
-Inst24Quest1_Attain = "22"
-Inst24Quest1_Aim = "Bringt Wache Berton in Seenhain den Kopf von Targorr dem Schrecklichen."
-Inst24Quest1_Location = "Wache Berton (Rotkammgebirge - Seehain; "..YELLOW.."26,46"..WHITE..")"
-Inst24Quest1_Note = "Targorr findet man bei "..YELLOW.."[1]"..WHITE.."."
+Inst24Quest1 = "1. Das gute alte Hütchenspiel"
+Inst24Quest1_Level = "23"
+Inst24Quest1_Attain = "20"
+Inst24Quest1_Aim = "Tötet Randolph Moloch."
+Inst24Quest1_Location = "Schützenkommandant Coe (Das Verlies; "..YELLOW.."Eingang"..WHITE..")"
+Inst24Quest1_Note = "Randolph Moloch befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst24Quest1_Prequest = "Nein"
 Inst24Quest1_Folgequest = "Nein"
---
-Inst24Quest1name1 = "Lucinenlangschwert"
-Inst24Quest1name2 = "Gehärteter Wurzelstab"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst24Quest2 = "2. Verbrechen und Strafe"
-Inst24Quest2_Level = "26"
-Inst24Quest2_Attain = "22"
-Inst24Quest2_Aim = "Ratsherr Mühlenstein von Dunkelhain will, dass Ihr ihm die Hand von Dextren Ward bringt."
-Inst24Quest2_Location = "Ratsherr Mühlenstein (Dämmerwald - Dunkelhain; "..YELLOW.."72,47"..WHITE..")"
-Inst24Quest2_Note = "Dextren findet man bei "..YELLOW.."[5]"..WHITE.."."
+Inst24Quest2 = "2. Lasst das Feuer Euch erretten!"
+Inst24Quest2_Level = "24"
+Inst24Quest2_Attain = "20"
+Inst24Quest2_Aim = "Beschafft Fürst Gluthitzes Feuerkern."
+Inst24Quest2_Location = "Schwester Lillian (Das Verlies; "..YELLOW.."Eingang"..WHITE..")"
+Inst24Quest2_Note = "Fürst Gluthitze befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst24Quest2_Prequest = "Nein"
 Inst24Quest2_Folgequest = "Nein"
---
-Inst24Quest2name1 = "Botschafterstiefel"
-Inst24Quest2name2 = "Panzergamaschen von Dunkelhain"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst24Quest3 = "3. Niederschlagung des Aufstandes"
-Inst24Quest3_Level = "26"
-Inst24Quest3_Attain = "22"
-Inst24Quest3_Aim = "Aufseher Thelwasser aus Sturmwind will, dass Ihr im Verlies 10 gefangene Defias, 8 eingekerkerte Defias und 8 Aufrührer der Defias tötet."
-Inst24Quest3_Location = "Aufseher Thelwasser (Sturmwind - Das Verlies; "..YELLOW.."51.4, 68.8"..WHITE..")"
-Inst24Quest3_Note = ""
+Inst24Quest3 = "3. Der König der Gnolle"
+Inst24Quest3_Level = "25"
+Inst24Quest3_Attain = "20"
+Inst24Quest3_Aim = "Besiegt Hogger."
+Inst24Quest3_Location = "Aufseher Thelwasser (Das Verlies; "..YELLOW.."Eingang"..WHITE..")"
+Inst24Quest3_Note = "Hogger befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst24Quest3_Prequest = "Nein"
 Inst24Quest3_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst24Quest4 = "4. Die Farbe von Blut"
-Inst24Quest4_Level = "26"
-Inst24Quest4_Attain = "22"
-Inst24Quest4_Aim = "Nikova Raskol von Sturmwind will, dass Ihr 10 rote Wollkopftücher für sie sammelt."
-Inst24Quest4_Location = "Nikova Raskol (Sturmwind - Die Altstadt; "..YELLOW.."75.6, 62.9"..WHITE..")"
-Inst24Quest4_Note = "Alle Gegner innerhalb der Instanz droppen die Wollkopftücher."
-Inst24Quest4_Prequest = "Nein"
-Inst24Quest4_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst24Quest5 = "5. Tief empfundener Zorn"
-Inst24Quest5_Level = "27"
-Inst24Quest5_Attain = "22"
-Inst24Quest5_Aim = "Motley Garmason in Dun Modr verlangt Kam Tiefenzorns Kopf."
-Inst24Quest5_Location = "Motley Garmason (Sumpfland - Dun Modr; "..YELLOW.."49,18"..WHITE..")"
-Inst24Quest5_Note = "Die Vorquest bekommt man auch von Motley. Man findet Kam Tiefenzorn bei "..YELLOW.."[2]"..WHITE.."."
-Inst24Quest5_Prequest = "Ja, Der Dunkeleisenkrieg"
-Inst24Quest5_Folgequest = "Nein"
-Inst24Quest5PreQuest = "true"
 --
-Inst24Quest5name1 = "Gürtel der Rechtfertigung"
-Inst24Quest5name2 = "Kopfberster"
-
---Quest 6 Alliance
-Inst24Quest6 = "6. Aufstand im Verlies"
-Inst24Quest6_Level = "29"
-Inst24Quest6_Attain = "16"
-Inst24Quest6_Aim = "Tötet Bazil Thredd und bringt seinen Kopf mit zurück zu Aufseher Thelwasser im Verlies."
-Inst24Quest6_Location = "Aufseher Thelwasser (Sturmwind - Das Verlies; "..YELLOW.."51.4, 68.8"..WHITE..")"
-Inst24Quest6_Note = "Bei "..YELLOW.."[Todesminen, Die Bruderschaft der Defias]"..WHITE.." findet man genauere Informationen über die Vorquest.\nMan findet Bazil Thredd bei "..YELLOW.."[4]"..WHITE.."."
-Inst24Quest6_Prequest = "Ja, Die Bruderschaft der Defias -> Bazil Thredd"
-Inst24Quest6_Folgequest = "Ja, Der seltsame Besucher"
-Inst24Quest6PreQuest = "true"
--- No Rewards for this quest
+Inst24Quest2name1 = "Hoggers Glitzerkram"
+Inst24Quest2name2 = "Augenklappe des Schützenkommandanten"
+Inst24Quest2name2 = "Schild des Verlieses"
+Inst24Quest2name2 = "Krawallbeender"
 
 
 
@@ -4067,209 +3821,99 @@ Inst24Quest6PreQuest = "true"
 
 Inst25Story = "Vor mehr als tausend Jahren wurde das mächtige Reich der Gurubashi von einem gewaltigen Bürgerkrieg auseinandergerissen. Eine einflussreiche Gruppe trollischer Priester, die als die Atal'ai bekannt waren, wagten den Versuch, einen uralten Blutgott namens Hakkar der Seelenschinder zu beschwören. Obwohl ihr Plan vereitelt und die Priester letztenendes verbannt wurden zerbrach das Reich und kollabierte, da der Krieg sämtlichen inneren Zusammenhalt zwischen den Klans zerstört hatte. Die verbannten Priester flohen weit in den Norden zu den Sümpfen des Elends. Dort bauten sie Hakkar einen großen Tempel, wo sie erneut seine Rückkehr in die Welt vorbereiten wollten. Als der große Drachenaspekt Ysera von den Plänen der Atal'ai erfuhr gab es nichts, was den Zorn des Drachen zurückhalten konnte, und so zerschmetterte sie den Tempel und ließ ihn in den Marschen versinken. Bis zum heutigen Tag werden die Ruinen des Tempels von grünen Drachen bewacht, so dass niemand hinein oder hinaus kann. Allerdings sollen einige der verfluchten Atal'ai überlebt haben und immer noch an der Vollendung ihrer finsteren Pläne arbeiten."
 Inst25Caption = "Der versunkene Tempel"
-Inst25QAA = "8 Quests"
-Inst25QAH = "8 Quests"
+Inst25QAA = "4 Quests"
+Inst25QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst25Quest1 = "1. Im Tempel von Atal'Hakkar"
-Inst25Quest1_Level = "50"
-Inst25Quest1_Attain = "38"
-Inst25Quest1_Aim = "Sammelt 10 Schrifttafeln der Atal'ai für Brohann Fassbauch in Sturmwind."
-Inst25Quest1_Location = "Brohann Fassbauch (Sturmwind - Zwergendistrikt; "..YELLOW.."69.5, 40.4"..WHITE..")"
-Inst25Quest1_Note = "Die Questreihe davor erhält man vom selben NPC.\n\nMan findet die Tafeln überall im Tempel, außerhalb und innerhalb der Instanz."
-Inst25Quest1_Prequest = "Ja, Auf der Suche nach dem Tempel -> Rhapsodies Geschichte"
+Inst25Quest1 = "1. Das Herz des Tempels"
+Inst25Quest1_Level = "54"
+Inst25Quest1_Attain = "52"
+Inst25Quest1_Aim = "Sprecht im Inneren des Tempels von Atal'Hakkar erneut mit Lord Itharius."
+Inst25Quest1_Location = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
+Inst25Quest1_Note = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
+Inst25Quest1_Prequest = "Nein"
 Inst25Quest1_Folgequest = "Nein"
-Inst25Quest1PreQuest = "true"
---
-Inst25Quest1name1 = "Wächtertalisman"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst25Quest2 = "2. Der Versunkene Tempel"
-Inst25Quest2_Level = "51"
-Inst25Quest2_Attain = "46"
-Inst25Quest2_Aim = "Sucht Marvon Nietensucher in Tanaris."
-Inst25Quest2_Location = "Angelas Mondhauch (Feralas - Mondfederfeste; "..YELLOW.."31,45"..WHITE..")"
-Inst25Quest2_Note = "Marvon Nietensucher findet man bei "..YELLOW.."52,45"..WHITE.."."
+Inst25Quest2 = "2. Der Blutgott Hakkar"
+Inst25Quest2_Level = "54"
+Inst25Quest2_Attain = "50"
+Inst25Quest2_Aim = "Tötet den Avatar von Hakkar."
+Inst25Quest2_Location = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
+Inst25Quest2_Note = "Avatar von Hakkar befindet sich bei."
 Inst25Quest2_Prequest = "Nein"
-Inst25Quest2_Folgequest = "Ja, Der runde Stein"
+Inst25Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst25Quest3 = "3. In die Tiefen"
-Inst25Quest3_Level = "51"
-Inst25Quest3_Attain = "46"
-Inst25Quest3_Aim = "Sucht den Altar von Hakkar im Versunkenen Tempel in den Sümpfen des Elends."
-Inst25Quest3_Location = "Marvon Nietensucher (Tanaris; "..YELLOW.."52,45"..WHITE..")"
-Inst25Quest3_Note = "Der Altar befindet sich bei "..YELLOW.."[1]"..WHITE.."."
-Inst25Quest3_Prequest = "Ja, Der runde Stein"
+Inst25Quest3 = "3. Jammal'an der Prophet"
+Inst25Quest3_Level = "54"
+Inst25Quest3_Attain = "50"
+Inst25Quest3_Aim = "Erbeutet den Kopf von Jammal'an dem Propheten."
+Inst25Quest3_Location = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
+Inst25Quest3_Note = "Jammal'an dem Propheten befindet sich bei."
+Inst25Quest3_Prequest = "Nein"
 Inst25Quest3_Folgequest = "Nein"
-Inst25Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst25Quest4 = "4. Das Geheimnis des Kreises"
-Inst25Quest4_Level = "51"
-Inst25Quest4_Attain = "46"
-Inst25Quest4_Aim = "Reist zum Versunkenen Tempel und enthüllt das Geheimnis, das sich in dem Kreis der Statuen verbirgt."
-Inst25Quest4_Location = "Marvon Nietensucher (Tanaris; "..YELLOW.."52,45"..WHITE..")"
-Inst25Quest4_Note = "Man findet die Statuen bei "..YELLOW.."[1]"..WHITE..". Schaut auf die Karte für die Aktivierungsreihenfolge."
-Inst25Quest4_Prequest = "Ja, Der runde Stein"
+Inst25Quest4 = "4. Eranikus"
+Inst25Quest4_Level = "54"
+Inst25Quest4_Attain = "50"
+Inst25Quest4_Aim = "Tötet Eranikus."
+Inst25Quest4_Location = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
+Inst25Quest4_Note = "Eranikus' Schemen befindet sich bei."
+Inst25Quest4_Prequest = "Nein"
 Inst25Quest4_Folgequest = "Nein"
-Inst25Quest4FQuest = "true"
 --
-Inst25Quest4name1 = "Urne der Hakkari"
+Inst25Quest4name1 = "Essenz des Schemens von Eranikus"
 
---Quest 5 Alliance
-Inst25Quest5 = "5. Der Dunst des Bösen"
-Inst25Quest5_Level = "52"
-Inst25Quest5_Attain = "47"
-Inst25Quest5_Aim = "Sammelt 5 Proben Dunst der Atal'ai und bringt sie Muigin im Krater von Un'Goro."
-Inst25Quest5_Location = "Gregan Hopfenspei (Feralas; "..YELLOW.."45,25"..WHITE..")"
-Inst25Quest5_Note = "Die Vorquest 'Muigin und Larion' bekommt man von Muigin (Krater von Un'Goro - Marschalls Zuflucht; "..YELLOW.."42,9"..WHITE.."). Den Dunst bekommt man von Tiefenlauerern, Düsterwürmern oder Brühschlammern im Tempel."
-Inst25Quest5_Prequest = "Ja, Muigin und Larion -> Ein Besuch bei Gregan"
-Inst25Quest5_Folgequest = "Nein"
-Inst25Quest5PreQuest = "true"
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst25Quest1_HORDE = "1. Der Tempel von Atal'Hakkar"
+Inst25Quest1_HORDE_Level = "54"
+Inst25Quest1_HORDE_Attain = "52"
+Inst25Quest1_HORDE_Aim = Inst25Quest1_Aim
+Inst25Quest1_HORDE_Location = Inst25Quest1_Location
+Inst25Quest1_HORDE_Note = Inst25Quest1_Note
+Inst25Quest1_HORDE_Prequest = "Nein"
+Inst25Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 6 Alliance
-Inst25Quest6 = "6. Der Gott Hakkar"
-Inst25Quest6_Level = "53"
-Inst25Quest6_Attain = "40"
-Inst25Quest6_Aim = "Bringt das gefüllte Ei von Hakkar zu Yeh'kinya nach Tanaris."
-Inst25Quest6_Location = "Yeh'kinya (Tanaris - Dampfdruckpier; "..YELLOW.."66,22"..WHITE..")"
-Inst25Quest6_Note = "Die Questreihe beginnt mit 'Kreischergeister' beim selbem NPC (Siehe "..YELLOW.."[Zul'Farrak]"..WHITE..").\nDas Ei muss man bei "..YELLOW.."[3]"..WHITE.." benutzen. Sobald man es aktiviert, erscheinen Wellen von Gegnern und greifen an. Einige der Mobs droppen das Blut von Hakkar, mit dem man eine der vier brennenden Schalen in den Ecken löschen kann. Sobald alle Schalen gelöscht sind erscheint der Avatar von Hakkar. Dieser droppt die 'Essenz von Hakkar', mit der man das Ei füllt."
-Inst25Quest6_Prequest = "Ja, Kreischergeister -> Das uralte Ei"
-Inst25Quest6_Folgequest = "Nein"
-Inst25Quest6PreQuest = "true"
---
-Inst25Quest6name1 = "Avenwachthelm"
-Inst25Quest6name2 = "Langdolch der Lebenskraft"
-Inst25Quest6name3 = "Edelsteinbesetzter Reif"
-
---Quest 7 Alliance
-Inst25Quest7 = "7. Jammal'an der Prophet"
-Inst25Quest7_Level = "53"
-Inst25Quest7_Attain = "38"
-Inst25Quest7_Aim = "Der Verbannte der Atal'ai im Hinterland möchte den Kopf von Jammal'an."
-Inst25Quest7_Location = "Der Verbannte der Atal'ai (Das Hinterland; "..YELLOW.."33,75"..WHITE..")"
-Inst25Quest7_Note = "Jammal'an findet man bei "..YELLOW.."[4]"..WHITE.."."
-Inst25Quest7_Prequest = "Nein"
-Inst25Quest7_Folgequest = "Nein"
---
-Inst25Quest7name1 = "Regenschreitergamaschen"
-Inst25Quest7name2 = "Helm des Banns"
-
---Quest 8 Alliance
-Inst25Quest8 = "8. Die Essenz des Eranikus"
-Inst25Quest8_Level = "55"
-Inst25Quest8_Attain = "48"
-Inst25Quest8_Aim = "Legt die Essenz von Eranikus in den Essenzborn, der sich in dem Versunkenen Tempel in seinem Unterschlupf befindet."
-Inst25Quest8_Location = "Die Essenz des Eranikus (droppt von Eranikus' Schemen; "..YELLOW.."[6]"..WHITE..")"
-Inst25Quest8_Note = "Der Essenzborn befindet sich gleich neben Eranikus' Schemen bei "..YELLOW.."[6]"..WHITE.."."
-Inst25Quest8_Prequest = "Nein"
-Inst25Quest8_Folgequest = "Nein"
---
-Inst25Quest8name1 = "Gebundene Essenz des Eranikus"
-
-
---Quest 1 Horde
-Inst25Quest1_HORDE = "1. Der Tempel von Atal'Hakkar"
-Inst25Quest1_HORDE_Level = "50"
-Inst25Quest1_HORDE_Attain = "38"
-Inst25Quest1_HORDE_Aim = "Sammelt 20 Fetische von Hakkar und bringt sie zu Fel'Zerul in Steinard."
-Inst25Quest1_HORDE_Location = "Fel'Zerul (Sümpfe des Elends - Steinard; "..YELLOW.."47,54"..WHITE..")"
-Inst25Quest1_HORDE_Note = "Alle Gegner im Tempel droppen die Fetische."
-Inst25Quest1_HORDE_Prequest = "Ja, Tränenteich -> Rückkehr zu Fel'Zerul"
-Inst25Quest1_HORDE_Folgequest = "Nein"
-Inst25Quest1PreQuest_HORDE = "true"
---
-Inst25Quest1name1_HORDE = "Wächtertalisman"
-
---Quest 2 Horde
+--Quest 2 Horde  (same as Quest 2 Alliance)
 Inst25Quest2_HORDE = "2. Der versunkene Tempel"
-Inst25Quest2_HORDE_Level = "51"
-Inst25Quest2_HORDE_Attain = "46"
-Inst25Quest2_HORDE_Aim = "Sucht Marvon Nietensucher in Tanaris."
-Inst25Quest2_HORDE_Location = "Hexendoktor Uzer'i (Feralas; "..YELLOW.."74,43"..WHITE..")"
-Inst25Quest2_HORDE_Note = "Marvon Nietensucher findet man bei "..YELLOW.."52,45"..WHITE.."."
+Inst25Quest2_HORDE_Level = "54"
+Inst25Quest2_HORDE_Attain = "50"
+Inst25Quest2_HORDE_Aim = Inst25Quest2_Aim
+Inst25Quest2_HORDE_Location = Inst25Quest2_Location
+Inst25Quest2_HORDE_Note = Inst25Quest2_Note
 Inst25Quest2_HORDE_Prequest = "Nein"
-Inst25Quest2_HORDE_Folgequest = "Ja, Der runde Stein"
+Inst25Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst25Quest3_HORDE = Inst25Quest3
-Inst25Quest3_HORDE_Level = Inst25Quest3_Level
-Inst25Quest3_HORDE_Attain = Inst25Quest3_Attain
+Inst25Quest3_HORDE_Level = "54"
+Inst25Quest3_HORDE_Attain = "50"
 Inst25Quest3_HORDE_Aim = Inst25Quest3_Aim
 Inst25Quest3_HORDE_Location = Inst25Quest3_Location
 Inst25Quest3_HORDE_Note = Inst25Quest3_Note
-Inst25Quest3_HORDE_Prequest = Inst25Quest3_Prequest
-Inst25Quest3_HORDE_Folgequest = Inst25Quest3_Folgequest
-Inst25Quest3FQuest_HORDE = Inst25Quest3FQuest
+Inst25Quest3_HORDE_Prequest = "Nein"
+Inst25Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst25Quest4_HORDE = Inst25Quest4
-Inst25Quest4_HORDE_Level = Inst25Quest4_Level
-Inst25Quest4_HORDE_Attain = Inst25Quest4_Attain
+Inst25Quest4_HORDE_Level = "54"
+Inst25Quest4_HORDE_Attain = "50"
 Inst25Quest4_HORDE_Aim = Inst25Quest4_Aim
 Inst25Quest4_HORDE_Location = Inst25Quest4_Location
 Inst25Quest4_HORDE_Note = Inst25Quest4_Note
-Inst25Quest4_HORDE_Prequest = Inst25Quest4_Prequest
-Inst25Quest4_HORDE_Folgequest = Inst25Quest4_Folgequest
-Inst25Quest4FQuest_HORDE = Inst25Quest4FQuest
+Inst25Quest4_HORDE_Prequest = "Nein"
+Inst25Quest4_HORDE_Folgequest = "Nein"
 --
 Inst25Quest4name1_HORDE = Inst25Quest4name1
-
---Quest 5 Horde
-Inst25Quest5_HORDE = "5. Schrumpftreibstoff"
-Inst25Quest5_HORDE_Level = "52"
-Inst25Quest5_HORDE_Attain = "47"
-Inst25Quest5_HORDE_Aim = "Bringt Larion in Marschalls Zuflucht den ungeladenen Schrumpfer und 5 Proben Dunst der Atal'ai."
-Inst25Quest5_HORDE_Location = "Liv Ritzelflick (Bachland; "..YELLOW.."62,38"..WHITE..")"
-Inst25Quest5_HORDE_Note = "Die Vorquest 'Larion und Muigin' startet bei Larion (Krater von Un'Goro; "..YELLOW.."45,8"..WHITE.."). Man bekommt den Dunst von Tiefenlauerern, Düsterwürmern oder Brühschlammern im Tempel."
-Inst25Quest5_HORDE_Prequest = "Ja, Larion und Muigin -> Marvons Werkstatt"
-Inst25Quest5_HORDE_Folgequest = "Nein"
-Inst25Quest5PreQuest_HORDE = "true"
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst25Quest6_HORDE = Inst25Quest6
-Inst25Quest6_HORDE_Level = Inst25Quest6_Level
-Inst25Quest6_HORDE_Attain = Inst25Quest6_Attain
-Inst25Quest6_HORDE_Aim = Inst25Quest6_Aim
-Inst25Quest6_HORDE_Location = Inst25Quest6_Location
-Inst25Quest6_HORDE_Note = Inst25Quest6_Note
-Inst25Quest6_HORDE_Prequest = Inst25Quest6_Prequest
-Inst25Quest6_HORDE_Folgequest = Inst25Quest6_Folgequest
-Inst25Quest6PreQuest_HORDE = Inst25Quest6PreQuest
---
-Inst25Quest6name1_HORDE = Inst25Quest6name1
-Inst25Quest6name2_HORDE = Inst25Quest6name2
-Inst25Quest6name3_HORDE = Inst25Quest6name3
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst25Quest7_HORDE = Inst25Quest7
-Inst25Quest7_HORDE_Level = Inst25Quest7_Level
-Inst25Quest7_HORDE_Attain = Inst25Quest7_Attain
-Inst25Quest7_HORDE_Aim = Inst25Quest7_Aim
-Inst25Quest7_HORDE_Location = Inst25Quest7_Location
-Inst25Quest7_HORDE_Note = Inst25Quest7_Note
-Inst25Quest7_HORDE_Prequest = Inst25Quest7_Prequest
-Inst25Quest7_HORDE_Folgequest = Inst25Quest7_Folgequest
---
-Inst25Quest7name1_HORDE = Inst25Quest7name1
-Inst25Quest7name2_HORDE = Inst25Quest7name2
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst25Quest8_HORDE = Inst25Quest8
-Inst25Quest8_HORDE_Level = Inst25Quest8_Level
-Inst25Quest8_HORDE_Attain = Inst25Quest8_Attain
-Inst25Quest8_HORDE_Aim = Inst25Quest8_Aim
-Inst25Quest8_HORDE_Location = Inst25Quest8_Location
-Inst25Quest8_HORDE_Note = Inst25Quest8_Note
-Inst25Quest8_HORDE_Prequest = Inst25Quest8_Prequest
-Inst25Quest8_HORDE_Folgequest = Inst25Quest8_Folgequest
---
-Inst25Quest8name1_HORDE = Inst25Quest8name1
 
 
 
@@ -4289,6 +3933,7 @@ Inst26Quest1_Location = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..W
 Inst26Quest1_Note = "Caelestrasz (Tempel von Ahn'Qiraj; "..YELLOW.."2'"..WHITE..")"
 Inst26Quest1_Prequest = "Nein"
 Inst26Quest1_Folgequest = "Ja, Der Retter von Kalimdor"
+Inst26Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -4300,7 +3945,7 @@ Inst26Quest2_Location = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..W
 Inst26Quest2_Note = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
 Inst26Quest2_Prequest = "Ja, C'Thuns Vermächnis"
 Inst26Quest2_Folgequest = "Nein"
-Inst26Quest2FQuest = "true"
+Inst26Quest2PreQuest = "true"
 --
 Inst26Quest2name1 = "Amulett des gefallenen Gottes"
 Inst26Quest2name2 = "Umhang des gefallenen Gottes"
@@ -4331,25 +3976,26 @@ Inst26Quest4_Folgequest = "Nein"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst26Quest1_HORDE = Inst26Quest1
-Inst26Quest1_HORDE_Level = Inst26Quest1_Level
-Inst26Quest1_HORDE_Attain = Inst26Quest1_Attain
+Inst26Quest1_HORDE_Level = "60"
+Inst26Quest1_HORDE_Attain = "60"
 Inst26Quest1_HORDE_Aim = Inst26Quest1_Aim
 Inst26Quest1_HORDE_Location = Inst26Quest1_Location
 Inst26Quest1_HORDE_Note = Inst26Quest1_Note
-Inst26Quest1_HORDE_Prequest = Inst26Quest1_Prequest
+Inst26Quest1_HORDE_Prequest = "Nein"
 Inst26Quest1_HORDE_Folgequest = Inst26Quest1_Folgequest
+Inst26Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst26Quest2_HORDE = Inst26Quest2
-Inst26Quest2_HORDE_Level = Inst26Quest2_Level
-Inst26Quest2_HORDE_Attain = Inst26Quest2_Attain
+Inst26Quest2_HORDE_Level = "60"
+Inst26Quest2_HORDE_Attain = "60"
 Inst26Quest2_HORDE_Aim = Inst26Quest2_Aim
 Inst26Quest2_HORDE_Location = Inst26Quest2_Location
 Inst26Quest2_HORDE_Note = Inst26Quest2_Note
 Inst26Quest2_HORDE_Prequest = Inst26Quest2_Prequest
-Inst26Quest2_HORDE_Folgequest = Inst26Quest2_Folgequest
-Inst26Quest2FQuest_HORDE = Inst26Quest2FQuest
+Inst26Quest2_HORDE_Folgequest = "Nein"
+Inst26Quest2PreQuest_HORDE = "true"
 --
 Inst26Quest2name1_HORDE = Inst26Quest2name1
 Inst26Quest2name2_HORDE = Inst26Quest2name2
@@ -4357,24 +4003,24 @@ Inst26Quest2name3_HORDE = Inst26Quest2name3
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst26Quest3_HORDE = Inst26Quest3
-Inst26Quest3_HORDE_Level = Inst26Quest3_Level
-Inst26Quest3_HORDE_Attain = Inst26Quest3_Attain
+Inst26Quest3_HORDE_Level = "60"
+Inst26Quest3_HORDE_Attain = "60"
 Inst26Quest3_HORDE_Aim = Inst26Quest3_Aim
 Inst26Quest3_HORDE_Location = Inst26Quest3_Location
 Inst26Quest3_HORDE_Note = Inst26Quest3_Note
-Inst26Quest3_HORDE_Prequest = Inst26Quest3_Prequest
-Inst26Quest3_HORDE_Folgequest = Inst26Quest3_Folgequest
+Inst26Quest3_HORDE_Prequest = "Nein"
+Inst26Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst26Quest4_HORDE = "4. Sterbliche Helden"
-Inst26Quest4_HORDE_Level = Inst26Quest4_Level
-Inst26Quest4_HORDE_Attain = Inst26Quest4_Attain
+Inst26Quest4_HORDE_Level = "60"
+Inst26Quest4_HORDE_Attain = "60"
 Inst26Quest4_HORDE_Aim = Inst26Quest4_Aim
 Inst26Quest4_HORDE_Location = Inst26Quest4_Location
 Inst26Quest4_HORDE_Note = Inst26Quest4_Note
-Inst26Quest4_HORDE_Prequest = Inst26Quest4_Prequest
-Inst26Quest4_HORDE_Folgequest = Inst26Quest4_Folgequest
+Inst26Quest4_HORDE_Prequest = "Nein"
+Inst26Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -4383,181 +4029,142 @@ Inst26Quest4_HORDE_Folgequest = Inst26Quest4_Folgequest
 
 Inst27Story = "Unter der brennenden Sonne von Tanaris liegt die Hauptstadt der Trolle des Sandwüterklans, die wegen ihrer Ruchlosigkeit und Grausamkeit gefürchtet sind. Die Legenden der Trolle erzählen von einem mächtigen Schwert namens Sul'thraze dem Peitscher, einer Waffe, die selbst den gefährlichsten Gegner mit Angst und Schrecken erfüllen kann. Vor langer Zeit wurde die Waffe in zwei Teile gespalten, doch es halten sich hartnäckige Gerüchte, dass sich beide Hälften irgendwo in Zul'Farrak befinden. Es gibt Berichte, dass eine Gruppe von Söldnern, die aus Gadgetzan fliehen mussten, die Stadt betraten und plötzlich dort gefangen waren. Über ihr Schicksal ist nichts weiter bekannt. Doch noch viel bedenkniserregender erscheinen die nur unter vorgehaltener Hand überlieferten Erzählungen von einer uralten Kreatur, die in den heiligen Wassern im Herzen der Stadt schlummern soll - ein mächtiger Halbgott, der jeden vernichten wird, der töricht genug ist, ihn aus seinem Schlaf zu wecken."
 Inst27Caption = "Zul'Farrak"
-Inst27QAA = "7 Quests"
-Inst27QAH = "7 Quests"
+Inst27QAA = "5 Quests"
+Inst27QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst27Quest1 = "1. Trollaushärter"
-Inst27Quest1_Level = "45"
-Inst27Quest1_Attain = "40"
-Inst27Quest1_Aim = "Bringt 20 Phiolen Trollaushärter zu Trenton Lichthammer in Gadgetzan."
-Inst27Quest1_Location = "Trenton Lichthammer (Tanaris - Gadgetzan; "..YELLOW.."51,28"..WHITE..")"
-Inst27Quest1_Note = "Alle Trolle droppen die Trollaushärter."
-Inst27Quest1_Prequest = "Nein"
-Inst27Quest1_Folgequest = "Nein"
+Inst27Quest1 = "1. Nach Zul'Farrak"
+Inst27Quest1_Level = "47"
+Inst27Quest1_Attain = "46"
+Inst27Quest1_Aim = "Findet Mazoga in Zul'Farrak."
+Inst27Quest1_Location = "Trenton Lichthammer (Tanaris - Sandmarter Wache; "..YELLOW.."42.4,24.0"..WHITE..")"
+Inst27Quest1_Note = "Mazoga befindet sich in der Instanz Zul'Farrak am Eingang."
+Inst27Quest1_Prequest = "Ja, Blut zum Blühen-->Geheimnisse in der Oase"
+Inst27Quest1_Folgequest = "Ja, Häuptling Ukurz Sandskalp"
+Inst27Quest1PreQuest = "true"
+Inst27Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst27Quest2 = "2. Skarabäuspanzerschalen"
-Inst27Quest2_Level = "45"
-Inst27Quest2_Attain = "40"
-Inst27Quest2_Aim = "Bringt Tran'rek in Gadgetzan 5 unbeschädigte Skarabäuspanzerschalen."
-Inst27Quest2_Location = "Tran'rek (Tanaris - Gadgetzan; "..YELLOW.."51,26"..WHITE..")"
-Inst27Quest2_Note = "Die Vorquest startet bei Krazek (Schlingendorntal - Beutebucht; "..YELLOW.."25,77"..WHITE..").\nAlle Skarabäuskäfer droppen die Schalen. Besonders viele Käfer befinden sich bei "..YELLOW.."[2]"..WHITE.."."
-Inst27Quest2_Prequest = "Ja, Tran'rek"
+Inst27Quest2 = "2. Häuptling Ukurz Sandskalp"
+Inst27Quest2_Level = "49"
+Inst27Quest2_Attain = "44"
+Inst27Quest2_Aim = "Tötet Häuptling Ukorz Sandskalp."
+Inst27Quest2_Location = "Mazogas Geist (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")."
+Inst27Quest2_Note = "Häuptling Ukorz Sandskalp befindet sich bei."
+Inst27Quest2_Prequest = "Ja, Nach Zul'Farrak"
 Inst27Quest2_Folgequest = "Nein"
 Inst27Quest2PreQuest = "true"
--- No Rewards for this quest
+--
+Inst27Quest2name1 = "Mazogas Stiefel"
+Inst27Quest2name2 = "Hände der Konsequenzen"
+Inst27Quest2name3 = "Stab des unbekannten Wegs"
 
 --Quest 3 Alliance
-Inst27Quest3 = "3. Tiara der Tiefen"
-Inst27Quest3_Level = "46"
-Inst27Quest3_Attain = "40"
-Inst27Quest3_Aim = "Bringt die Tiara der Tiefen zu Tabetha in den Düstermarschen."
-Inst27Quest3_Location = "Tabetha (Düstermarschen; "..YELLOW.."46,57"..WHITE..")"
-Inst27Quest3_Note = "Die Vorquest bekommt man von Bink (Eisenschmiede; "..YELLOW.."25,8"..WHITE..").\nWasserbeschwörerin Velratha droppt die Tiara der Tiefen bei "..YELLOW.."[6]"..WHITE.."."
-Inst27Quest3_Prequest = "Ja, Tabethas Aufgabe"
+Inst27Quest3 = "3. Einbruch mit schwerem Werkzeug"
+Inst27Quest3_Level = "48"
+Inst27Quest3_Attain = "44"
+Inst27Quest3_Aim = "Befreit Weegli Lunte und tötet Nekrum den Ausweider und Schattenpriester Sezz'ziz."
+Inst27Quest3_Location = "Tran'rek (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")"
+Inst27Quest3_Note = "Nekrum der Ausweider befindet sich bei und Schattenpriester Sezz'ziz befindet sich bei."
+Inst27Quest3_Prequest = "Nein"
 Inst27Quest3_Folgequest = "Nein"
-Inst27Quest3PreQuest = "true"
---
-Inst27Quest3name1 = "Zauberformerrute"
-Inst27Quest3name2 = "Schulterstücke aus Edelsteinschiefer"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst27Quest4 = "4. Nekrums Medaillon"
-Inst27Quest4_Level = "47"
-Inst27Quest4_Attain = "40"
-Inst27Quest4_Aim = "Bringt Thadius Grimmschatten in den verwüsteten Landen Nekrums Medaillon."
-Inst27Quest4_Location = "Thadius Grimmschatten (Die Verwüsteten Lande; "..YELLOW.."66,19"..WHITE..")"
-Inst27Quest4_Note = "Die Questreihe startet bei Greifenmeister Krallenaxt (Hinterland - Nistgipfel; "..YELLOW.."9,44"..WHITE..").\nNekrum erscheint bei "..YELLOW.."[4]"..WHITE.." am Ende des Tempelevents."
-Inst27Quest4_Prequest = "Ja, Käfige der Bleichborken -> Thadius Grimmschatten"
-Inst27Quest4_Folgequest = "Ja, Der Rutengang"
-Inst27Quest4PreQuest = "true"
+Inst27Quest4 = "4. Vergebliche Mühe"
+Inst27Quest4_Level = "48"
+Inst27Quest4_Attain = "44"
+Inst27Quest4_Aim = "Beschafft Euch die Tiara der Tiefen und Gahzrilla's elektrisierte Schuppe."
+Inst27Quest4_Location = "Chefingenieur Bilgenritzel (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")"
+Inst27Quest4_Note = "Wasserbeschwörerin Velratha befindet sich bei und Gahz'rilla befindet sich bei."
+Inst27Quest4_Prequest = "Nein"
+Inst27Quest4_Folgequest = "Nein"
+--
+Inst27Quest4name1 = "Schulterstücke von Zul'Farrak"
+Inst27Quest4name2 = "Elektrifizierte Gamaschen"
+Inst27Quest4name3 = "Gürtel der Tiefe"
+Inst27Quest4name4 = "Bilgenritzels Armbänder"
+Inst27Quest4name5 = "Stern des Narren"
+
+--Quest 5 Allianz
+Inst27Quest5 = "5. Zorn der Sandwüter"
+Inst27Quest5_Level = "48"
+Inst27Quest5_Attain = "44"
+Inst27Quest5_Aim = "Tötet Theka den Märtyrer, Hexendoktor Zum'rah, Antu'sul und Ruuzlu."
+Inst27Quest5_Location = "Mazogas Geist (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")."
+Inst27Quest5_Note = "Theka den Märtyrer befindet sich bei ,Hexendoktor Zum'rah befindet sich bei ,Antu'sul befindet sich bei und Ruuzlu befindet sich bei."
+Inst27Quest5_Prequest = "Nein"
+Inst27Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
---QUEST 5 Allianz
-Inst27Quest5 = "5. Die Prophezeiung von Mosh'aru"
-Inst27Quest5_Level = "47"
-Inst27Quest5_Attain = "40"
-Inst27Quest5_Aim = "Bringt die erste und die zweite Schrifttafel von Mosh'aru zu Yeh'kinya nach Tanaris."
-Inst27Quest5_Location = "Yeh'kinya (Tanaris - Dampfdruckpier; "..YELLOW.."66,22"..WHITE..")"
-Inst27Quest5_Note = "Die Vorquest erhält man beim selben NPC.\nDie Schrifttafeln droppen von Theka dem Märtyrer bei "..YELLOW.."[2]"..WHITE.." und von Wasserbeschwörerin Velratha bei "..YELLOW.."[6]"..WHITE.."."
-Inst27Quest5_Prequest = "Ja, Kreischergeister"
-Inst27Quest5_Folgequest = "Ja, Das uralte Ei"
-Inst27Quest5PreQuest = "true"
--- No Rewards for this quest
 
---Quest 6 Alliance
-Inst27Quest6 = "6. Wünschel-mato-Rute"
-Inst27Quest6_Level = "47"
-Inst27Quest6_Attain = "40"
-Inst27Quest6_Aim = "Bringt die Wünschel-mato-Rute nach Gadgetzan zu Chefingenieur Bilgenritzel."
-Inst27Quest6_Location = "Chefingenieur Bilgenritzel (Tanaris - Gadgetzan; "..YELLOW.."52,28"..WHITE..")"
-Inst27Quest6_Note = "Man erhält die Rute von Unteroffizier Bly, der sich nach dem Tempelevent bei "..YELLOW.."[4]"..WHITE.." aufhält."
-Inst27Quest6_Prequest = "Nein"
-Inst27Quest6_Folgequest = "Nein"
---
-Inst27Quest6name1 = "Ring der Maurerbruderschaft"
-Inst27Quest6name2 = "Ingenieursgildenkopfstück"
-
---Quest 7 Alliance
-Inst27Quest7 = "7. Gahz'rilla"
-Inst27Quest7_Level = "50"
-Inst27Quest7_Attain = "40"
-Inst27Quest7_Aim = "Bringt Wizzel Kupferbolz in der schimmernden Ebene Gahz'rillas energiegeladene Schuppe."
-Inst27Quest7_Location = "Wizzel Kupferbolz (Tausend Nadeln - Schimmernde Ebene; "..YELLOW.."78,77"..WHITE..")"
-Inst27Quest7_Note = "Die Vorquest erhält man von Klockmort Spannersplint (Eisenschmiede - Tüftlerstadt; "..YELLOW.."68,46"..WHITE.."). Es ist allerdings nicht nötig die Vorquest abzuschließen, um diese Quest zu erhalten.\nGahz'rilla kann man bei "..YELLOW.."[6]"..WHITE.." mit dem Schlag auf die Glocke in Zul'Farrak beschwören werden.\nDen Schlaghammer von Zul'Farrak wird nicht mehr benötigt!Änderung  mit Patch 3.0"
-Inst27Quest7_Prequest = "Ja, Die Brüder Kupferbolz"
-Inst27Quest7_Folgequest = "Nein"
-Inst27Quest7PreQuest = "true"
---
-Inst27Quest7name1 = "Karotte am Stiel"
-
-
---Quest 1 Horde
-Inst27Quest1_HORDE = "1. Der Spinnengott"
-Inst27Quest1_HORDE_Level = "45"
-Inst27Quest1_HORDE_Attain = "40"
-Inst27Quest1_HORDE_Aim = "Lest von der Schrifttafel des Theka, um den Namen des Spinnengottes der Bleichborken zu erfahren, und kehrt dann zu Meister Gadrin zurück."
-Inst27Quest1_HORDE_Location = "Meister Gadrin (Durotar - Sen'Jin; "..YELLOW.."55,74"..WHITE..")"
-Inst27Quest1_HORDE_Note = "Die Questreihe beginnt bei einer Giftflaschen, die man in den Trolldörfern im Hinterland finden kann.\nDie Schrifttaffel findet man bei "..YELLOW.."[2]"..WHITE.."."
-Inst27Quest1_HORDE_Prequest = "Ja, Giftflaschen -> Konsultiert Meister Gadrin"
-Inst27Quest1_HORDE_Folgequest = "Ja, Die Beschwörung von Shadra"
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst27Quest1_HORDE = Inst27Quest1
+Inst27Quest1_HORDE_Level = "47"
+Inst27Quest1_HORDE_Attain = "46"
+Inst27Quest1_HORDE_Aim = Inst27Quest1_Aim
+Inst27Quest1_HORDE_Location = Inst27Quest1_Location
+Inst27Quest1_HORDE_Note = Inst27Quest1_Note
+Inst27Quest1_HORDE_Prequest = Inst27Quest1_Prequest
+Inst27Quest1_HORDE_Folgequest = Inst27Quest1_Folgequest
 Inst27Quest1PreQuest_HORDE = "true"
+Inst27Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 1 Alliance)
-Inst27Quest2_HORDE = "2. Trollaushärter"
-Inst27Quest2_HORDE_Level = Inst27Quest1_Level
-Inst27Quest2_HORDE_Attain = Inst27Quest1_Attain
-Inst27Quest2_HORDE_Aim = Inst27Quest1_Aim
-Inst27Quest2_HORDE_Location = Inst27Quest1_Location
-Inst27Quest2_HORDE_Note = Inst27Quest1_Note
-Inst27Quest2_HORDE_Prequest = Inst27Quest1_Prequest
-Inst27Quest2_HORDE_Folgequest = Inst27Quest1_Folgequest
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 2 Alliance)
-Inst27Quest3_HORDE = "3. Skarabäuspanzerschalen"
-Inst27Quest3_HORDE_Level = Inst27Quest2_Level
-Inst27Quest3_HORDE_Attain = Inst27Quest2_Attain
-Inst27Quest3_HORDE_Aim = Inst27Quest2_Aim
-Inst27Quest3_HORDE_Location = Inst27Quest2_Location
-Inst27Quest3_HORDE_Note = Inst27Quest2_Note
-Inst27Quest3_HORDE_Prequest = Inst27Quest2_Prequest
-Inst27Quest3_HORDE_Folgequest = Inst27Quest2_Folgequest
-Inst27Quest3PreQuest_HORDE = Inst27Quest2PreQuest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 3 Alliance - no prequest)
-Inst27Quest4_HORDE = "4. Tiara der Tiefen"
-Inst27Quest4_HORDE_Level = Inst27Quest3_Level
-Inst27Quest4_HORDE_Attain = Inst27Quest3_Attain
-Inst27Quest4_HORDE_Aim = Inst27Quest3_Aim
-Inst27Quest4_HORDE_Location = Inst27Quest3_Location
-Inst27Quest4_HORDE_Note = "Wasserbeschwörerin Velratha droppt die Tiara der Tiefen bei "..YELLOW.."[6]"..WHITE.."."
-Inst27Quest4_HORDE_Prequest = "Nein"
-Inst27Quest4_HORDE_Folgequest = Inst27Quest3_Folgequest
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst27Quest2_HORDE = Inst27Quest2
+Inst27Quest2_HORDE_Level = "49"
+Inst27Quest2_HORDE_Attain = "44"
+Inst27Quest2_HORDE_Aim = Inst27Quest2_Aim
+Inst27Quest2_HORDE_Location = Inst27Quest2_Location
+Inst27Quest2_HORDE_Note = Inst27Quest2_Note
+Inst27Quest2_HORDE_Prequest = Inst27Quest2_Prequest
+Inst27Quest2_HORDE_Folgequest = "Nein"
+Inst27Quest2PreQuest_HORDE = "true"
 --
-Inst27Quest4name1_HORDE = Inst27Quest3name1
-Inst27Quest4name2_HORDE = Inst27Quest3name2
+Inst27Quest2name1_HORDE = Inst27Quest2name1
+Inst27Quest2name2_HORDE = Inst27Quest2name2
+Inst27Quest2name3_HORDE = Inst27Quest2name3
+
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst27Quest3_HORDE = Inst27Quest3
+Inst27Quest3_HORDE_Level = "48"
+Inst27Quest3_HORDE_Attain = "44"
+Inst27Quest3_HORDE_Aim = Inst27Quest3_Aim
+Inst27Quest3_HORDE_Location = Inst27Quest3_Location
+Inst27Quest3_HORDE_Note = Inst27Quest3_Note
+Inst27Quest3_HORDE_Prequest = "Nein"
+Inst27Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst27Quest4_HORDE = Inst27Quest4
+Inst27Quest4_HORDE_Level = "48"
+Inst27Quest4_HORDE_Attain = "44"
+Inst27Quest4_HORDE_Aim = Inst27Quest4_Aim
+Inst27Quest4_HORDE_Location = Inst27Quest4_Location
+Inst27Quest4_HORDE_Note = Inst27Quest4_Note
+Inst27Quest4_HORDE_Prequest = "Nein"
+Inst27Quest4_HORDE_Folgequest = "Nein"
+--
+Inst27Quest4name1_HORDE = Inst27Quest4name1
+Inst27Quest4name2_HORDE = Inst27Quest4name2
+Inst27Quest4name3_HORDE = Inst27Quest4name3
+Inst27Quest4name4_HORDE = Inst27Quest4name4
+Inst27Quest4name5_HORDE = Inst27Quest4name5
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst27Quest5_HORDE = Inst27Quest5
-Inst27Quest5_HORDE_Level = Inst27Quest5_Level
-Inst27Quest5_HORDE_Attain = Inst27Quest5_Attain
+Inst27Quest5_HORDE_Level = "48"
+Inst27Quest5_HORDE_Attain = "44"
 Inst27Quest5_HORDE_Aim = Inst27Quest5_Aim
 Inst27Quest5_HORDE_Location = Inst27Quest5_Location
 Inst27Quest5_HORDE_Note = Inst27Quest5_Note
-Inst27Quest5_HORDE_Prequest = Inst27Quest5_Prequest
-Inst27Quest5_HORDE_Folgequest = Inst27Quest5_Folgequest
-Inst27Quest5PreQuest_HORDE = Inst27Quest5Prequest
+Inst27Quest5_HORDE_Prequest = "Nein"
+Inst27Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst27Quest6_HORDE = Inst27Quest6
-Inst27Quest6_HORDE_Level = Inst27Quest6_Level
-Inst27Quest6_HORDE_Attain = Inst27Quest6_Attain
-Inst27Quest6_HORDE_Aim = Inst27Quest6_Aim
-Inst27Quest6_HORDE_Location = Inst27Quest6_Location
-Inst27Quest6_HORDE_Note = Inst27Quest6_Note
-Inst27Quest6_HORDE_Prequest = Inst27Quest6_Prequest
-Inst27Quest6_HORDE_Folgequest = Inst27Quest6_Folgequest
---
-Inst27Quest6name1_HORDE = Inst27Quest6name1
-Inst27Quest6name2_HORDE = Inst27Quest6name2
-
---Quest 7 Horde  (same as Quest 7 Alliance - no prequest)
-Inst27Quest7_HORDE = Inst27Quest7
-Inst27Quest7_HORDE_Level = Inst27Quest7_Level
-Inst27Quest7_HORDE_Attain = Inst27Quest7_Attain
-Inst27Quest7_HORDE_Aim = Inst27Quest7_Aim
-Inst27Quest7_HORDE_Location = Inst27Quest7_Location
-Inst27Quest7_HORDE_Note = "Gahz'rilla kann man bei "..YELLOW.."[6]"..WHITE.." mit dem Schlaghammer von Zul'Farrak beschwören.\nDen Hochheiligen Schlaghammer erhält man von Qiaga der Bewahrerin (Hinterland - Der Altar von Zul; "..YELLOW.."49,70"..WHITE.."). Diesen muss man zum Altar in Jinta'Alor bei "..YELLOW.."59,77"..WHITE.." bringen, bevor man ihn in Zul'Farrak benutzen kann."
-Inst27Quest7_HORDE_Prequest = "Nein"
-Inst27Quest7_HORDE_Folgequest = Inst27Quest7_Folgequest
---
-Inst27Quest7name1_HORDE = Inst27Quest7name1
 
 
 
@@ -4565,209 +4172,152 @@ Inst27Quest7name1_HORDE = Inst27Quest7name1
 
 Inst29Story = "Gnomeregan war seit ungezählten Generationen die Hauptstadt der Gnome, eine Stadt, wie es sie davor noch nie in Azeroth gegeben hatte, wo selbst die kühnsten Träume der gnomischen Tüftler wahr wurden. Die Wellen der jüngsten Invasion der mutierten Troggs in Dun Morogh erreichten schließlich auch die Wunderwelt der Gnome. In einem Akt der Verzweiflung befahl Hochtüftler Mekkadrill, die Tanks für den radioaktiven Abfall der Stadt nach Gnomeregan zu entleeren und so die Troggs zu vernichten. Viele Gnome brachten sich vor den radioaktiven Dämpfen und dem Giftmüll in Sicherheit und warteten darauf, dass die Troggs entweder starben oder flohen. Doch statt zu sterben oder zu fliehen, verwandelten sich die mutierten, brutalen Troggs in mutierte, brutale und radioaktive Troggs, die nun obendrein noch wütender waren als zuvor (sofern das überhaupt möglich war). Die Gnome, die nicht von der Radioaktivität oder den Toxinen getötet wurden, mussten fliehen und in der nahegelegenen Stadt Eisenschmiede Schutz suchen. Dort ist Hochtüftler Mekkadrill momentan dabei, tapfere Helden für die Zurückeroberung der gnomischen Hauptstadt zu suchen. Gerüchten zufolge soll Mekkadrills ehemaliger Berater, der Robogenieur Thermadraht, sein Volk verraten haben, indem er die Invasion geschehen lies. Der wahnsinnige Gnom ist in Gnomeregan zurückgeblieben, wo der Technofürst nun neue sinistre Pläne austüftelt."
 Inst29Caption = "Gnomeregan"
-Inst29QAA = "10 Quests"
-Inst29QAH = "5 Quests"
+Inst29QAA = "8 Quests"
+Inst29QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst29Quest1 = "1. Rettet Techbots Hirn!"
+Inst29Quest1 = "1. Trautes Heim, Gnom allein"
 Inst29Quest1_Level = "26"
-Inst29Quest1_Attain = "20"
-Inst29Quest1_Aim = "Bringt Techbots Speicherkern zu Tüftlermeister Oberfunks nach Eisenschmiede."
-Inst29Quest1_Location = "Tüftlermeister Oberfunks (Eisenschmiede - Tüftlerstadt; "..YELLOW.."69,50"..WHITE..")"
-Inst29Quest1_Note = "Die Vorquest erhält man bei Bruder Sarno (Sturmwind - Kathedralenplatz; "..YELLOW.."40,30"..WHITE..").\nTechbot findet man außerhalb der Instanz nahe dem Hintereingang bei "..YELLOW.."[4] auf der Eingangskarte"..WHITE.."."
-Inst29Quest1_Prequest = "Ja, Tüftlermeister Oberfunks"
-Inst29Quest1_Folgequest = "Nein"
-Inst29Quest1PreQuest = "true"
+Inst29Quest1_Attain = "26"
+Inst29Quest1_Aim = "Sprecht mit Mör'dok."
+Inst29Quest1_Location = "Skuerto (Arathihochland - Die Zuflucht; "..YELLOW.."40.2,49.0"..WHITE..")"
+Inst29Quest1_Note = "Mör'dok befindet sich innerhalb der Instanz Gnomeregan am Eingang."
+Inst29Quest1_Prequest = "Nein"
+Inst29Quest1_Folgequest = "Ja, Das G-Team"
+Inst29Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst29Quest2 = "2. Gnogaine"
-Inst29Quest2_Level = "27"
-Inst29Quest2_Attain = "20"
-Inst29Quest2_Aim = "Sammelt mit der leeren bleiernen Sammelphiole radioaktive Ablagerungen bestrahlter Eindringlinge oder Plünderer. Sobald sie voll ist, bringt Ihr sie zu Ozzie Wechselvolt nach Kharanos zurück."
-Inst29Quest2_Location = "Ozzie Wechselvolt (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")"
-Inst29Quest2_Note = "Die Vorquest bekommt man von Gnoarn (Eisenschmiede - Tüftlerstadt; "..YELLOW.."69,50"..WHITE..").\nUm die Ablagerungen zu bekommen muss man die Phiole auf "..RED.."lebende"..WHITE.." bestrahlte Eindringlinge oder bestrahlte Plünderer anwenden."
-Inst29Quest2_Prequest = "Ja, Der Tag danach"
-Inst29Quest2_Folgequest = "Ja, Das einzige Heilmittel ist mehr grünes Leuchten"
-Inst29Quest2PreQuest = "true"
+Inst29Quest2 = "2. Gnomeregan erforschen"
+Inst29Quest2_Level = "26"
+Inst29Quest2_Attain = "26"
+Inst29Quest2_Aim = "Sprecht mit Mör'dok."
+Inst29Quest2_Location = "Wulfred Harrys (Nördliches Schlingendorntal - Fort Livingston; "..YELLOW.."53.2,66.2"..WHITE..")"
+Inst29Quest2_Note = "Mör'dok befindet sich innerhalb der Instanz Gnomeregan am Eingang."
+Inst29Quest2_Prequest = "Nein"
+Inst29Quest2_Folgequest = "Ja, Das G-Team"
+Inst29Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst29Quest3 = "3. Das einzige Heilmittel ist mehr grünes Leuchten"
-Inst29Quest3_Level = "30"
-Inst29Quest3_Attain = "20"
-Inst29Quest3_Aim = "Reist nach Gnomeregan und bringt etwas von der hoch konzentrierten radioaktiven Ablagerung zurück. Seid gewarnt, die Ablagerung ist instabil und wird ziemlich schnell zerfallen.\nOzzie wird außerdem Eure schwere bleierne Phiole benötigen, nachdem die Aufgabe erledigt ist."
-Inst29Quest3_Location = "Ozzie Wechselvolt (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")"
-Inst29Quest3_Note = "Um die Ablagerungen zu bekommen muss man die Phiole auf "..RED.."lebende"..WHITE.." bestrahlte Brühschleimer oder Schrecken anwenden."
-Inst29Quest3_Prequest = "Ja, Gnogaine"
-Inst29Quest3_Folgequest = "Nein"
+Inst29Quest3 = "3. Das G-Team"
+Inst29Quest3_Level = "27"
+Inst29Quest3_Attain = "24"
+Inst29Quest3_Aim = "Tötet die Verflüssigte Ablagerung."
+Inst29Quest3_Location = "Mör'dok (Gnomeregan; "..YELLOW.."Eingang"..WHITE..")"
+Inst29Quest3_Note = "Verflüssigte Ablagerung befinden sich bei."
+Inst29Quest3_Prequest = "Ja, Trautes Heim, Gnom allein oder Gnomeregan erforschen"
+Inst29Quest3_Folgequest = "Ja, Das G-Team"
+Inst29Quest3PreQuest = "true"
 Inst29Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst29Quest4 = "4. Gyrobohrmatische Exkavation"
-Inst29Quest4_Level = "30"
-Inst29Quest4_Attain = "20"
-Inst29Quest4_Aim = "Bringt 24 robomechanische Innereien zu Shoni nach Sturmwind."
-Inst29Quest4_Location = "Shoni die Schtille (Sturmwind - Zwergendistrikt; "..YELLOW.."62.6, 34.1"..WHITE..")"
-Inst29Quest4_Note = "Alle Roboter können die robomechanischen Innereien droppen."
-Inst29Quest4_Prequest = "Nein"
-Inst29Quest4_Folgequest = "Nein"
---
-Inst29Quest4name1 = "Shonis Entwaffnungswerkzeug"
-Inst29Quest4name2 = "Fäustlinge der Entschlossenheit"
-
---Quest 5 Alliance
-Inst29Quest5 = "5. Grundlegende Artifixe"
-Inst29Quest5_Level = "30"
-Inst29Quest5_Attain = "24"
-Inst29Quest5_Aim = "Bringt Klockmort Spannsplint in Eisenschmiede 12 grundlegende Artifixe."
-Inst29Quest5_Location = "Klockmort Spannsplint (Eisenschmiede - Tüftlerstadt; "..YELLOW.."68,46"..WHITE..")"
-Inst29Quest5_Note = "Die Vorquest bekommt man von Mathiel (Darnassus - Terrasse der Krieger; "..YELLOW.."59,45"..WHITE.."). Es ist jedoch nicht nötig die Vorquest abzuschließen, um diese Quest zu erhalten.\nDie Grundlegenden Artifixe droppen von Maschinen, die in der ganzen Instanz verteilt sind."
-Inst29Quest5_Prequest = "Ja, Klockmorts Grundlagen"
-Inst29Quest5_Folgequest = "Nein"
-Inst29Quest5PreQuest = "true"
+Inst29Quest4 = "4. Das G-Team"
+Inst29Quest4_Level = "28"
+Inst29Quest4_Attain = "24"
+Inst29Quest4_Aim = "Tötet den Elektrokutor 6000."
+Inst29Quest4_Location = "Bi'ay Bäräkuss (Gnomeregan; "..YELLOW.."Eingang"..WHITE..")"
+Inst29Quest4_Note = "Elektrokutor 6000 befindet sich bei."
+Inst29Quest4_Prequest = "Ja, Das G-Team"
+Inst29Quest4_Folgequest = "Ja, Das G-Team"
+Inst29Quest3PreQuest = "true"
+Inst29Quest4FQuest = "true"
 -- No Rewards for this quest
 
---Quest 6 Alliance
-Inst29Quest6 = "6. Datenrettung"
-Inst29Quest6_Level = "30"
-Inst29Quest6_Attain = "25"
-Inst29Quest6_Aim = "Bringt Mechanikermeister Gussmuff in Eisenschmiede eine Prismalochkarte."
-Inst29Quest6_Location = "Mechanikermeister Gussmuff (Eisenschmiede - Tüftlerstadt; "..YELLOW.."69,48"..WHITE..")"
-Inst29Quest6_Note = "Die Vorquest bekommt man von Gaxim Rostknirsch (Steinkrallengebirge; "..YELLOW.."59,67"..WHITE.."). Es ist jedoch nicht nötig die Vorquest abzuschließen, um diese Quest zu erhalten.\nDie weiße Lochkarte ist ein zufälliger Dropp. Der erste Terminal befindet sich außerhalb der Instanz nahe des Hintereingangs bei "..YELLOW.."[3] auf der Eingangskarte"..WHITE..". Der 3005-B befindet sich bei "..YELLOW.."[3]"..WHITE..", der 3005-C bei "..YELLOW.."[5]"..WHITE.." und der 3005-D bei "..YELLOW.."[6]"..WHITE.."."
-Inst29Quest6_Prequest = "Ja, Gussmuffs Auftrag"
-Inst29Quest6_Folgequest = "Nein"
-Inst29Quest6PreQuest = "true"
+--Quest 5 Alliance
+Inst29Quest5 = "5. Das G-Team"
+Inst29Quest5_Level = "29"
+Inst29Quest5_Attain = "24"
+Inst29Quest5_Aim = "Tötet Robogenieur Thermadraht."
+Inst29Quest5_Location = "Fähs (Gnomeregan; "..YELLOW.."Eingang"..WHITE..")"
+Inst29Quest5_Note = "Robogenieur Thermadraht befindet sich bei."
+Inst29Quest5_Prequest = "Ja, Das G-Team"
+Inst29Quest5_Folgequest = "Nein"
+Inst29Quest5PreQuest = "true"
 --
-Inst29Quest6name1 = "Schlossercape"
-Inst29Quest6name2 = "Mechanikerrohrhammer"
+Inst29Quest5name1 = "Gürtel des G-Teams"
+Inst29Quest5name2 = "Bäräkuss' Schienbeinschützer"
+Inst29Quest5name3 = "Tempels Weste"
+Inst29Quest5name4 = "Mör'doks Gamaschen"
+Inst29Quest5name5 = "Hann Ibals Schulterklappen"
+
+--Quest 6 Alliance
+Inst29Quest6 = "6. Schmutzverkrusteter Ring"
+Inst29Quest6_Level = "34"
+Inst29Quest6_Attain = "24"
+Inst29Quest6_Aim = "Findet einen Weg, den schmutzverkrusteten Ring zu säubern."
+Inst29Quest6_Location = "Schmutzverkrusteter Ring (Zufälliger Dropp in Gnomeregan)"
+Inst29Quest6_Note = "Der Ring kann mit dem Funkelmat 5200 bei "..YELLOW.."[2]"..WHITE.." gereinigt werden."
+Inst29Quest6_Prequest = "Nein"
+Inst29Quest6_Folgequest = "Ja, Die Rückkehr des Rings"
+Inst29Quest6FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst29Quest7 = "7. Eine schöne Bescherung"
-Inst29Quest7_Level = "30"
-Inst29Quest7_Attain = "20"
-Inst29Quest7_Aim = "Begleitet Kernobee zur Uhrwerkgasse und meldet Euch dann wieder bei Scooty in Beutebucht."
-Inst29Quest7_Location = "Kernobee (Gnomeregan; "..YELLOW.."[3]"..WHITE..")"
-Inst29Quest7_Note = "Eskort-Quest! Scooty findet man im Schlingendorntal - Beutebucht ("..YELLOW.."27,77"..WHITE..")."
-Inst29Quest7_Prequest = "Nein"
-Inst29Quest7_Folgequest = "Nein"
+Inst29Quest7 = "7. Die Rückkehr des Rings"
+Inst29Quest7_Level = "34"
+Inst29Quest7_Attain = "24"
+Inst29Quest7_Aim = "Ihr könnt den Ring entweder behalten oder die Person finden, die für die Prägung und Gravuren auf der Innenseite des Rings verantwortlich ist."
+Inst29Quest7_Location = "Blitzender Goldring (erhällt man beim Quest Schmutzverkrusteter Ring)"
+Inst29Quest7_Note = "Kann bei Talvash del Kissel (Eisenschmiede - Mystikerviertel; "..YELLOW.."36.0,4.2"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
+Inst29Quest7_Prequest = "Ja, Schmutzverkrusteter Ring"
+Inst29Quest7_Folgequest = "Ja, Gnomenverbesserungen"
+Inst29Quest7PreQuest = "true"
+Inst29Quest7FQuest = "true"
 --
-Inst29Quest7name1 = "Feuergeschmiedete Armschienen"
-Inst29Quest7name2 = "Feenflügelmantel"
+Inst29Quest7name1 = "Blitzender Goldring"
 
 --Quest 8 Alliance
-Inst29Quest8 = "8. Der große Verrat"
-Inst29Quest8_Level = "35"
+Inst29Quest8 = "8. Der Funkelmat 5200!"
+Inst29Quest8_Level = "30"
 Inst29Quest8_Attain = "25"
-Inst29Quest8_Aim = "Reist nach Gnomeregan und tötet Robogenieur Thermadraht. Kehrt zu Hochtüftler Mekkadrill zurück, wenn der Auftrag ausgeführt ist."
-Inst29Quest8_Location = "Hochtüftler Mekkadrill (Eisenschmiede - Tüftlerstadt; "..YELLOW.."68,48"..WHITE..")"
-Inst29Quest8_Note = "Thermadraht findet man bei "..YELLOW.."[8]"..WHITE..". Er ist der Endgegner von Gnomeregan.\nWährend des Kampfes müssen die Säulen an der Seite deaktiviert werden, indem man die Knöpfe an der Seite betätigt."
+Inst29Quest8_Aim = "Füge ein verschmutzen Gegendstand in den Funkelmat 5200, und sei Dir sicher das Du drei Silbermünzen hast um die Machine zu starten."
+Inst29Quest8_Location = "Funkelmat 5200 (Gnomeregan - Die saubere Zone; "..YELLOW.."[2]"..WHITE..")"
+Inst29Quest8_Note = "Du kannst diese Quest immer wiederholen solange Du verschmutzte Gegenstände hast."
 Inst29Quest8_Prequest = "Nein"
 Inst29Quest8_Folgequest = "Nein"
 --
-Inst29Quest8name1 = "Civinadroben"
-Inst29Quest8name2 = "Latzhose des Stolperläufers"
-Inst29Quest8name3 = "Zweifach verstärkte Gamaschen"
+Inst29Quest8name1 = "Funkelmatverpackter Kasten"
 
---Quest 9 Alliance
-Inst29Quest9 = "9. Schmutzverkrusteter Ring"
-Inst29Quest9_Level = "34"
-Inst29Quest9_Attain = "28"
-Inst29Quest9_Aim = "Findet einen Weg, den schmutzverkrusteten Ring zu säubern."
-Inst29Quest9_Location = "Schmutzverkrusteter Ring (Zufälliger Dropp in Gnomeregan)"
-Inst29Quest9_Note = "Der Ring kann mit dem Funkelmat 5200 bei "..YELLOW.."[2]"..WHITE.." gereinigt werden."
-Inst29Quest9_Prequest = "Nein"
-Inst29Quest9_Folgequest = "Ja, Die Rückkehr des Rings"
--- No Rewards for this quest
 
---Quest 10 Alliance
-Inst29Quest10 = "10. Die Rückkehr des Rings"
-Inst29Quest10_Level = "34"
-Inst29Quest10_Attain = "28"
-Inst29Quest10_Aim = "Ihr könnt den Ring entweder behalten oder die Person finden, die für die Prägung und Gravuren auf der Innenseite des Rings verantwortlich ist."
-Inst29Quest10_Location = "Blitzender Goldring (erhällt man beim Quest Schmutzverkrusteter Ring)"
-Inst29Quest10_Note = "Kann bei Talvash del Kissel (Eisenschmiede - Mystikerviertel; "..YELLOW.."36,3"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
-Inst29Quest10_Prequest = "Ja, Schmutzverkrusteter Ring"
-Inst29Quest10_Folgequest = "Ja, Gnomenverbesserungen"
-Inst29Quest10FQuest = "true"
---
-Inst29Quest10name1 = "Blitzender Goldring"
-
---Quest 11 Alliance
-Inst29Quest11 = "11. Der Funkelmat 5200!"
-Inst29Quest11_Level = "30"
-Inst29Quest11_Attain = "25"
-Inst29Quest11_Aim = "Füge ein verschmutzen Gegendstand in den Funkelmat 5200, und sei Dir sicher das Du drei Silbermünzen hast um die Machine zu starten."
-Inst29Quest11_Location = "Funkelmat 5200 (Gnomeregan - Die saubere Zone; "..YELLOW.."[2]"..WHITE..")"
-Inst29Quest11_Note = "Du kannst diese Quest immer wiederholen solange Du verschmutzte Gegenstände hast."
-Inst29Quest11_Prequest = "Nein"
-Inst29Quest11_Folgequest = "Nein"
---
-Inst29Quest11name1 = "Funkelmatverpackter Kasten"
-
---Quest 1 Horde
-Inst29Quest1_HORDE = "1. Gnomer-weeeeg!"
-Inst29Quest1_HORDE_Level = "35"
-Inst29Quest1_HORDE_Attain = "20"
-Inst29Quest1_HORDE_Aim = "Wartet, bis Scooty den Goblintransponder kalibriert hat."
-Inst29Quest1_HORDE_Location = "Scooty (Schlingendorntal - Beutebucht; "..YELLOW.."27,77"..WHITE..")"
-Inst29Quest1_HORDE_Note = "Die Vorquest erhält man von Sovik (Orgrimmar - Tal der Ehre; "..YELLOW.."75,25"..WHITE..").\nWenn man diesen Quest abgeschloßen hat kann man den Teleporter in Beutebucht benutzen."
-Inst29Quest1_HORDE_Prequest = "Ja, Chefingenieur Scooty"
-Inst29Quest1_HORDE_Folgequest = "Nein"
-Inst29Quest1PreQuest_HORDE = "true"
+--Quest 1 Horde  (same as Quest 6 Alliance)
+Inst29Quest1_HORDE = Inst29Quest6
+Inst29Quest1_HORDE_Level = "34"
+Inst29Quest1_HORDE_Attain = "24"
+Inst29Quest1_HORDE_Aim = Inst29Quest6_Aim
+Inst29Quest1_HORDE_Location = Inst29Quest6_Location
+Inst29Quest1_HORDE_Note = Inst29Quest6_Note
+Inst29Quest1_HORDE_Prequest = "Nein"
+Inst29Quest1_HORDE_Folgequest = Inst29Quest7_Folgequest
+Inst29Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 7 Alliance)
-Inst29Quest2_HORDE = "2. Eine schöne Bescherung"
-Inst29Quest2_HORDE_Level = Inst29Quest7_Level
-Inst29Quest2_HORDE_Attain = Inst29Quest7_Attain
+Inst29Quest2_HORDE = Inst29Quest7
+Inst29Quest2_HORDE_Level = "34"
+Inst29Quest2_HORDE_Attain = "24"
 Inst29Quest2_HORDE_Aim = Inst29Quest7_Aim
 Inst29Quest2_HORDE_Location = Inst29Quest7_Location
-Inst29Quest2_HORDE_Note = Inst29Quest7_Note
+Inst29Quest2_HORDE_Note = "Kann bei Nogg (Orgrimmar - Tal der Ehre; "..YELLOW.."56.6,56.8"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
 Inst29Quest2_HORDE_Prequest = Inst29Quest7_Prequest
 Inst29Quest2_HORDE_Folgequest = Inst29Quest7_Folgequest
+Inst29Quest2PreQuest_HORDE = "true"
+Inst29Quest2FQuest_HORDE = "true"
 --
 Inst29Quest2name1_HORDE = Inst29Quest7name1
-Inst29Quest2name2_HORDE = Inst29Quest7name2
 
---Quest 3 Horde
-Inst29Quest3_HORDE = "3. Maschinenkriege"
-Inst29Quest3_HORDE_Level = "35"
+--Quest 3 Horde  (same as Quest 8 Alliance)
+Inst29Quest3_HORDE = Inst29Quest8
+Inst29Quest3_HORDE_Level = "30"
 Inst29Quest3_HORDE_Attain = "25"
-Inst29Quest3_HORDE_Aim = "Besorgt die Maschinenblaupausen und Thermadrahts Safekombination aus Gnomeregan und bringt sie zu Nogg nach Orgrimmar."
-Inst29Quest3_HORDE_Location = "Nogg (Orgrimmar - Tal der Ehre; "..YELLOW.."75,25"..WHITE..")"
-Inst29Quest3_HORDE_Note = "Thermadraht findet man bei "..YELLOW.."[8]"..WHITE..". Er ist der Endgegner von Gnomeregan.\nWährend des Kampfes müssen die Säulen an der Seite deaktiviert werden, indem man die Knöpfe an der Seite betätigt."
+Inst29Quest3_HORDE_Aim = Inst29Quest8_Aim
+Inst29Quest3_HORDE_Location = Inst29Quest8_Location
+Inst29Quest3_HORDE_Note = Inst29Quest8_Note
 Inst29Quest3_HORDE_Prequest = "Nein"
 Inst29Quest3_HORDE_Folgequest = "Nein"
 --
-Inst29Quest3name1_HORDE = "Civinadroben"
-Inst29Quest3name2_HORDE = "Latzhose des Stolperläufers"
-Inst29Quest3name3_HORDE = "Zweifach verstärkte Gamaschen"
-
---Quest 4 Horde  (same as Quest 9 Alliance)
-Inst29Quest4_HORDE = "4. Schmutzverkrusteter Ring"
-Inst29Quest4_HORDE_Level = Inst29Quest9_Level
-Inst29Quest4_HORDE_Attain = Inst29Quest9_Attain
-Inst29Quest4_HORDE_Aim = Inst29Quest9_Aim
-Inst29Quest4_HORDE_Location = Inst29Quest9_Location
-Inst29Quest4_HORDE_Note = Inst29Quest9_Note
-Inst29Quest4_HORDE_Prequest = Inst29Quest9_Prequest
-Inst29Quest4_HORDE_Folgequest = Inst29Quest9_Folgequest
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst29Quest5_HORDE = "5. Die Rückkehr des Rings"
-Inst29Quest5_HORDE_Level = "34"
-Inst29Quest5_HORDE_Attain = "28"
-Inst29Quest5_HORDE_Aim = "Ihr könnt den Ring entweder behalten oder die Person finden, die für die Prägung und Gravuren auf der Innenseite des Rings verantwortlich ist."
-Inst29Quest5_HORDE_Location = "Blitzender Goldring (erhällt man beim Quest Schmutzverkrusteter Ring)"
-Inst29Quest5_HORDE_Note = "Kann bei Nogg (Orgrimmar - The Valley of Honor; "..YELLOW.."75,25"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
-Inst29Quest5_HORDE_Prequest = "Ja, Schmutzverkrusteter Ring"
-Inst29Quest5_HORDE_Folgequest = "Nein"
-Inst29Quest5FQuest = "true"
---
-Inst29Quest5name1_HORDE = "Blitzender Goldring"
+Inst29Quest3name1_HORDE = Inst29Quest8name1
 
 
 
@@ -5147,8 +4697,8 @@ Inst39Quest1_HORDE_Attain = Inst39Quest2_Attain
 Inst39Quest1_HORDE_Aim = "Schattenjäger Ty'jin in Thrallmar möchte, dass Ihr 8 Legionäre der Zerschmetterten Hand, 4 Zenturios der Zerschmetterten Hand und 4 Champions der Zerschmetterten Hand tötet."
 Inst39Quest1_HORDE_Location = "Schattenjäger Ty'jin (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
 Inst39Quest1_HORDE_Note = Inst39Quest2_Note
-Inst39Quest1_HORDE_Prequest = Inst39Quest2_Prequest
-Inst39Quest1_HORDE_Folgequest = Inst39Quest2_Folgequest
+Inst39Quest1_HORDE_Prequest = "Nein"
+Inst39Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -5179,60 +4729,60 @@ Inst39Quest3_HORDE_Folgequest = "Nein"
 
 --Quest 4 Horde  (same as Quest 5 Alliance)
 Inst39Quest4_HORDE = "4. Die Prüfung der Naaru: Erbarmen (Heroisch)"
-Inst39Quest4_HORDE_Level = Inst39Quest5_Level
-Inst39Quest4_HORDE_Attain = Inst39Quest5_Attain
+Inst39Quest4_HORDE_Level = "70"
+Inst39Quest4_HORDE_Attain = "70"
 Inst39Quest4_HORDE_Aim = Inst39Quest5_Aim
 Inst39Quest4_HORDE_Location = Inst39Quest5_Location
 Inst39Quest4_HORDE_Note = Inst39Quest5_Note
-Inst39Quest4_HORDE_Prequest = Inst39Quest5_Prequest
-Inst39Quest4_HORDE_Folgequest = Inst39Quest5_Folgequest
+Inst39Quest4_HORDE_Prequest = "Nein"
+Inst39Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 6 Alliance)
 Inst39Quest5_HORDE = "5. Träne der Erdenmutter"
-Inst39Quest5_HORDE_Level = Inst39Quest6_Level
-Inst39Quest5_HORDE_Attain = Inst39Quest6_Attain
+Inst39Quest5_HORDE_Level = "70"
+Inst39Quest5_HORDE_Attain = "67"
 Inst39Quest5_HORDE_Aim = Inst39Quest6_Aim
 Inst39Quest5_HORDE_Location = Inst39Quest6_Location
 Inst39Quest5_HORDE_Note = Inst39Quest6_Note
-Inst39Quest5_HORDE_Prequest = Inst39Quest6_Prequest
-Inst39Quest5_HORDE_Folgequest = Inst39Quest6_Folgequest
-Inst39Quest5PreQuest_HORDE = Inst39Quest6Prequest
+Inst39Quest5_HORDE_Prequest = "Nein"
+Inst39Quest5_HORDE_Folgequest = "Nein"
+Inst39Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance  (same as Quest 7 Alliance)
 Inst39Quest6_HORDE = "6. Kalynnas Bitte (Heroisch)"
-Inst39Quest6_HORDE_Level = Inst39Quest7_Level
-Inst39Quest6_HORDE_Attain = Inst39Quest7_Attain
+Inst39Quest6_HORDE_Level = "70"
+Inst39Quest6_HORDE_Attain = "70"
 Inst39Quest6_HORDE_Aim = Inst39Quest7_Aim
 Inst39Quest6_HORDE_Location = Inst39Quest7_Location
 Inst39Quest6_HORDE_Note = Inst39Quest7_Note
 Inst39Quest6_HORDE_Prequest = Inst39Quest7_Prequest
 Inst39Quest6_HORDE_Folgequest = Inst39Quest7_Folgequest
-Inst39Quest6PreQuest_HORDE = Inst39Quest7PreQuest
+Inst39Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 8 Alliance)
 Inst39Quest7_HORDE = "7. Gesucht: Messerfausts Siegel (Heroisches Tagesquest)"
-Inst39Quest7_HORDE_Level = Inst39Quest8_Level
-Inst39Quest7_HORDE_Attain = Inst39Quest8_Attain
+Inst39Quest7_HORDE_Level = "70"
+Inst39Quest7_HORDE_Attain = "70"
 Inst39Quest7_HORDE_Aim = Inst39Quest8_Aim
 Inst39Quest7_HORDE_Location = Inst39Quest8_Location
 Inst39Quest7_HORDE_Note = Inst39Quest8_Note
-Inst39Quest7_HORDE_Prequest = Inst39Quest8_Prequest
-Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
+Inst39Quest7_HORDE_Prequest = "Nein"
+Inst39Quest7_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 8 Horde  (same as Quest 9 Alliance)
 Inst39Quest8_HORDE = "8. Gesucht: Zenturionen der Zerschmetterten Hand (Tagesquest)"
-Inst39Quest8_HORDE_Level = Inst39Quest9_Level
-Inst39Quest8_HORDE_Attain = Inst39Quest9_Attain
+Inst39Quest8_HORDE_Level = "70"
+Inst39Quest8_HORDE_Attain = "70"
 Inst39Quest8_HORDE_Aim = Inst39Quest9_Aim
 Inst39Quest8_HORDE_Location = Inst39Quest9_Location
 Inst39Quest8_HORDE_Note = Inst39Quest9_Note
-Inst39Quest8_HORDE_Prequest = Inst39Quest9_Prequest
-Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
+Inst39Quest8_HORDE_Prequest = "Nein"
+Inst39Quest8_HORDE_Folgequest = "Nein"
 --
 Inst39Quest8name1_HORDE = Inst39Quest9name1
 
@@ -5368,8 +4918,8 @@ Inst41Quest3_Folgequest = "Nein"
 
 --Quest 4 Alliance
 Inst41Quest4 = "4. Splitter von Ahune (Saisonbedingt)"
-Inst41Quest4_Level = "80"
-Inst41Quest4_Attain = "70"
+Inst41Quest4_Level = "85"
+Inst41Quest4_Attain = "85"
 Inst41Quest4_Aim = "Bringt die Eissplitter zu Luma Himmelsmutter."
 Inst41Quest4_Location = "Splitter von Ahune (befinden sich in der Eiskiste nachdem Ahune getötet wurde)"
 Inst41Quest4_Note = "Luma Himmelsmutter ist in der Nähe wo Du hingeportet wirst wenn du den Dungeonbrowser nutzt. Dieser Gegenstand droppt nur einmal pro Charakter."
@@ -5383,14 +4933,14 @@ Inst41Quest7name3 = "Brandblüte"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst41Quest1_HORDE = Inst41Quest1
-Inst41Quest1_HORDE_Level = Inst41Quest1_Level
-Inst41Quest1_HORDE_Attain = Inst41Quest1_Attain
+Inst41Quest1_HORDE_Level = "65"
+Inst41Quest1_HORDE_Attain = "62"
 Inst41Quest1_HORDE_Aim = Inst41Quest1_Aim
 Inst41Quest1_HORDE_Location = Inst41Quest1_Location
 Inst41Quest1_HORDE_Note = Inst41Quest1_Note
 Inst41Quest1_HORDE_Prequest = Inst41Quest1_Prequest
-Inst41Quest1_HORDE_Folgequest = Inst41Quest1_Folgequest
-Inst41Quest1PreQuest_HORDE = Inst41Quest1PreQuest
+Inst41Quest1_HORDE_Folgequest = "Nein"
+Inst41Quest1PreQuest_HORDE = "true"
 --
 Inst41Quest1name1_HORDE = Inst41Quest1name1
 Inst41Quest1name2_HORDE = Inst41Quest1name2
@@ -5398,36 +4948,36 @@ Inst41Quest1name3_HORDE = Inst41Quest1name3
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst41Quest2_HORDE = Inst41Quest2
-Inst41Quest2_HORDE_Level = Inst41Quest2_Level
-Inst41Quest2_HORDE_Attain = Inst41Quest2_Attain
+Inst41Quest2_HORDE_Level = "70"
+Inst41Quest2_HORDE_Attain = "70"
 Inst41Quest2_HORDE_Aim = Inst41Quest2_Aim
 Inst41Quest2_HORDE_Location = Inst41Quest2_Location
 Inst41Quest2_HORDE_Note = Inst41Quest2_Note
-Inst41Quest2_HORDE_Prequest = Inst41Quest2_Prequest
-Inst41Quest2_HORDE_Folgequest = Inst41Quest2_Folgequest
+Inst41Quest2_HORDE_Prequest = "Nein"
+Inst41Quest2_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst41Quest3_HORDE = Inst41Quest3
-Inst41Quest3_HORDE_Level = Inst41Quest3_Level
-Inst41Quest3_HORDE_Attain = Inst41Quest3_Attain
+Inst41Quest3_HORDE_Level = "70"
+Inst41Quest3_HORDE_Attain = "70"
 Inst41Quest3_HORDE_Aim = Inst41Quest3_Aim
 Inst41Quest3_HORDE_Location = Inst41Quest3_Location
 Inst41Quest3_HORDE_Note = Inst41Quest3_Note
-Inst41Quest3_HORDE_Prequest = Inst41Quest3_Prequest
-Inst41Quest3_HORDE_Folgequest = Inst41Quest3_Folgequest
+Inst41Quest3_HORDE_Prequest = "Nein"
+Inst41Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst41Quest4_HORDE = Inst41Quest4
-Inst41Quest4_HORDE_Level = Inst41Quest4_Level
-Inst41Quest4_HORDE_Attain = Inst41Quest4_Attain
+Inst41Quest4_HORDE_Level = "85"
+Inst41Quest4_HORDE_Attain = "85"
 Inst41Quest4_HORDE_Aim = Inst41Quest4_Aim
 Inst41Quest4_HORDE_Location = Inst41Quest4_Location
 Inst41Quest4_HORDE_Note = Inst41Quest4_Note
 Inst41Quest4_HORDE_Prequest = Inst41Quest4_Prequest
-Inst41Quest4_HORDE_Folgequest = Inst41Quest4_Folgequest
+Inst41Quest4_HORDE_Folgequest = "Nein"
 --
 Inst41Quest7name1_HORDE = Inst41Quest7name1
 Inst41Quest7name2_HORDE = Inst41Quest7name2
@@ -5530,13 +5080,13 @@ Inst42Quest7_Folgequest = "Nein"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst42Quest1_HORDE = Inst42Quest1
-Inst42Quest1_HORDE_Level = Inst42Quest1_Level
-Inst42Quest1_HORDE_Attain = Inst42Quest1_Attain
+Inst42Quest1_HORDE_Level = "70"
+Inst42Quest1_HORDE_Attain = "67"
 Inst42Quest1_HORDE_Aim = Inst42Quest1_Aim
 Inst42Quest1_HORDE_Location = Inst42Quest1_Location
 Inst42Quest1_HORDE_Note = Inst42Quest1_Note
-Inst42Quest1_HORDE_Prequest = Inst42Quest1_Prequest
-Inst42Quest1_HORDE_Folgequest = Inst42Quest1_Folgequest
+Inst42Quest1_HORDE_Prequest = "Nein"
+Inst42Quest1_HORDE_Folgequest = "Nein"
 --
 Inst42Quest1name1_HORDE = Inst42Quest1name1
 Inst42Quest1name2_HORDE = Inst42Quest1name2
@@ -5545,19 +5095,19 @@ Inst42Quest1name4_HORDE = Inst42Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst42Quest2_HORDE = Inst42Quest2
-Inst42Quest2_HORDE_Level = Inst42Quest2_Level
-Inst42Quest2_HORDE_Attain = Inst42Quest2_Attain
+Inst42Quest2_HORDE_Level = "70"
+Inst42Quest2_HORDE_Attain = "67"
 Inst42Quest2_HORDE_Aim = Inst42Quest2_Aim
 Inst42Quest2_HORDE_Location = Inst42Quest2_Location
 Inst42Quest2_HORDE_Note = Inst42Quest2_Note
-Inst42Quest2_HORDE_Prequest = Inst42Quest2_Prequest
+Inst42Quest2_HORDE_Prequest = "Nein"
 Inst42Quest2_HORDE_Folgequest = Inst42Quest2_Folgequest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst42Quest3_HORDE = Inst42Quest3
-Inst42Quest3_HORDE_Level = Inst42Quest3_Level
-Inst42Quest3_HORDE_Attain = Inst42Quest3_Attain
+Inst42Quest3_HORDE_Level = "70"
+Inst42Quest3_HORDE_Attain = "70"
 Inst42Quest3_HORDE_Aim = Inst42Quest3_Aim
 Inst42Quest3_HORDE_Location = Inst42Quest3_Location
 Inst42Quest3_HORDE_Note = Inst42Quest3_Note
@@ -5567,8 +5117,8 @@ Inst42Quest3_HORDE_Folgequest = Inst42Quest3_Folgequest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst42Quest4_HORDE = Inst42Quest4
-Inst42Quest4_HORDE_Level = Inst42Quest4_Level
-Inst42Quest4_HORDE_Attain = Inst42Quest4_Attain
+Inst42Quest4_HORDE_Level = "70"
+Inst42Quest4_HORDE_Attain = "67"
 Inst42Quest4_HORDE_Aim = Inst42Quest4_Aim
 Inst42Quest4_HORDE_Location = Inst42Quest4_Location
 Inst42Quest4_HORDE_Note = Inst42Quest4_Note
@@ -5579,8 +5129,8 @@ Inst42Quest4PreQuest_HORDE = Inst42Quest4PreQuest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst42Quest5_HORDE = Inst42Quest5
-Inst42Quest5_HORDE_Level = Inst42Quest5_Level
-Inst42Quest5_HORDE_Attain = Inst42Quest5_Attain
+Inst42Quest5_HORDE_Level = "70"
+Inst42Quest5_HORDE_Attain = "68"
 Inst42Quest5_HORDE_Aim = Inst42Quest5_Aim
 Inst42Quest5_HORDE_Location = Inst42Quest5_Location
 Inst42Quest5_HORDE_Note = Inst42Quest5_Note
@@ -5591,25 +5141,25 @@ Inst42Quest5PreQuest_HORDE = Inst42Quest5PreQuest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst42Quest6_HORDE = Inst42Quest6
-Inst42Quest6_HORDE_Level = Inst42Quest6_Level
-Inst42Quest6_HORDE_Attain = Inst42Quest6_Attain
+Inst42Quest6_HORDE_Level = "70"
+Inst42Quest6_HORDE_Attain = "70"
 Inst42Quest6_HORDE_Aim = Inst42Quest6_Aim
 Inst42Quest6_HORDE_Location = Inst42Quest6_Location
 Inst42Quest6_HORDE_Note = Inst42Quest6_Note
-Inst42Quest6_HORDE_Prequest = Inst42Quest6_Prequest
-Inst42Quest6_HORDE_Folgequest = Inst42Quest6_Folgequest
+Inst42Quest6_HORDE_Prequest = "Nein"
+Inst42Quest6_HORDE_Folgequest = "Nein"
 --
 Inst42Quest6name1_HORDE = Inst42Quest6name1
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst42Quest7_HORDE = Inst42Quest7
-Inst42Quest7_HORDE_Level = Inst42Quest7_Level
-Inst42Quest7_HORDE_Attain = Inst42Quest7_Attain
+Inst42Quest7_HORDE_Level = "70"
+Inst42Quest7_HORDE_Attain = "70"
 Inst42Quest7_HORDE_Aim = Inst42Quest7_Aim
 Inst42Quest7_HORDE_Location = Inst42Quest7_Location
 Inst42Quest7_HORDE_Note = Inst42Quest7_Note
-Inst42Quest7_HORDE_Prequest = Inst42Quest7_Prequest
-Inst42Quest7_HORDE_Folgequest = Inst42Quest7_Folgequest
+Inst42Quest7_HORDE_Prequest = "Nein"
+Inst42Quest7_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -5688,13 +5238,13 @@ Inst43Quest5_Folgequest = "Ja, Bringt mir ein weiteres Gebüsch!"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst43Quest1_HORDE = Inst43Quest1
-Inst43Quest1_HORDE_Level = Inst43Quest1_Level
-Inst43Quest1_HORDE_Attain = Inst43Quest1_Attain
+Inst43Quest1_HORDE_Level = "65"
+Inst43Quest1_HORDE_Attain = "62"
 Inst43Quest1_HORDE_Aim = Inst43Quest1_Aim
 Inst43Quest1_HORDE_Location = Inst43Quest1_Location
 Inst43Quest1_HORDE_Note = Inst43Quest1_Note
 Inst43Quest1_HORDE_Prequest = Inst43Quest1_Prequest
-Inst43Quest1_HORDE_Folgequest = Inst43Quest1_Folgequest
+Inst43Quest1_HORDE_Folgequest = "Nein"
 Inst43Quest1PreQuest_HORDE = Inst43Quest1PreQuest
 --
 Inst43Quest1name1_HORDE = Inst43Quest1name1
@@ -5703,49 +5253,49 @@ Inst43Quest1name3_HORDE = Inst43Quest1name3
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst43Quest2_HORDE = Inst43Quest2
-Inst43Quest2_HORDE_Level = Inst43Quest2_Level
-Inst43Quest2_HORDE_Attain = Inst43Quest2_Attain
+Inst43Quest2_HORDE_Level = "65"
+Inst43Quest2_HORDE_Attain = "63"
 Inst43Quest2_HORDE_Aim = Inst43Quest2_Aim
 Inst43Quest2_HORDE_Location = Inst43Quest2_Location
 Inst43Quest2_HORDE_Note = Inst43Quest2_Note
-Inst43Quest2_HORDE_Prequest = Inst43Quest2_Prequest
-Inst43Quest2_HORDE_Folgequest = Inst43Quest2_Folgequest
+Inst43Quest2_HORDE_Prequest = "Nein"
+Inst43Quest2_HORDE_Folgequest = "Nein"
 --
 Inst43Quest2name1_HORDE = Inst43Quest2name1
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst43Quest3_HORDE = Inst43Quest3
-Inst43Quest3_HORDE_Level = Inst43Quest3_Level
-Inst43Quest3_HORDE_Attain = Inst43Quest3_Attain
+Inst43Quest3_HORDE_Level = "65"
+Inst43Quest3_HORDE_Attain = "63"
 Inst43Quest3_HORDE_Aim = Inst43Quest3_Aim
 Inst43Quest3_HORDE_Location = Inst43Quest3_Location
 Inst43Quest3_HORDE_Note = Inst43Quest3_Note
-Inst43Quest3_HORDE_Prequest = Inst43Quest3_Prequest
-Inst43Quest3_HORDE_Folgequest = Inst43Quest3_Folgequest
+Inst43Quest3_HORDE_Prequest = "Nein"
+Inst43Quest3_HORDE_Folgequest = "Nein"
 --
 Inst43Quest3name1_HORDE = Inst43Quest3name1
 Inst43Quest3name2_HORDE = Inst43Quest3name2
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst43Quest4_HORDE = Inst43Quest4
-Inst43Quest4_HORDE_Level = Inst43Quest4_Level
-Inst43Quest4_HORDE_Attain = Inst43Quest4_Attain
+Inst43Quest4_HORDE_Level = "70"
+Inst43Quest4_HORDE_Attain = "70"
 Inst43Quest4_HORDE_Aim = Inst43Quest4_Aim
 Inst43Quest4_HORDE_Location = Inst43Quest4_Location
 Inst43Quest4_HORDE_Note = Inst43Quest4_Note
-Inst43Quest4_HORDE_Prequest = Inst43Quest4_Prequest
-Inst43Quest4_HORDE_Folgequest = Inst43Quest4_Folgequest
+Inst43Quest4_HORDE_Prequest = "Nein"
+Inst43Quest4_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst43Quest5_HORDE = Inst43Quest5
-Inst43Quest5_HORDE_Level = Inst43Quest5_Level
-Inst43Quest5_HORDE_Attain = Inst43Quest5_Attain
+Inst43Quest5_HORDE_Level = "65"
+Inst43Quest5_HORDE_Attain = "63"
 Inst43Quest5_HORDE_Aim = Inst43Quest5_Aim
 Inst43Quest5_HORDE_Location = Inst43Quest5_Location
 Inst43Quest5_HORDE_Note = Inst43Quest5_Note
-Inst43Quest5_HORDE_Prequest = Inst43Quest5_Prequest
+Inst43Quest5_HORDE_Prequest = "Nein"
 Inst43Quest5_HORDE_Folgequest = Inst43Quest5_Folgequest
 -- No Rewards for this quest
 
@@ -5812,15 +5362,15 @@ Inst44Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 1 Alliance)
-Inst44Quest3_HORDE = "3. Alles wird gut"
-Inst44Quest3_HORDE_Level = Inst44Quest1_Level
-Inst44Quest3_HORDE_Attain = Inst44Quest1_Attain
+Inst44Quest3_HORDE = Inst44Quest1
+Inst44Quest3_HORDE_Level = "67"
+Inst44Quest3_HORDE_Attain = "64"
 Inst44Quest3_HORDE_Aim = Inst44Quest1_Aim
 Inst44Quest3_HORDE_Location = Inst44Quest1_Location
 Inst44Quest3_HORDE_Note = Inst44Quest1_Note
 Inst44Quest3_HORDE_Prequest = Inst44Quest1_Prequest
-Inst44Quest3_HORDE_Folgequest = Inst44Quest1_Folgequest
-Inst44Quest3PreQuest_HORDE = Inst44Quest1PreQuest
+Inst44Quest3_HORDE_Folgequest = "Nein"
+Inst44Quest3PreQuest_HORDE = "true"
 --
 Inst44Quest3name1_HORDE = Inst44Quest1name1
 Inst44Quest3name2_HORDE = Inst44Quest1name2
@@ -5828,14 +5378,14 @@ Inst44Quest3name3_HORDE = Inst44Quest1name3
 Inst44Quest3name4_HORDE = Inst44Quest1name4
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
-Inst44Quest4_HORDE = "4. Gesucht: Der Seelenedelstein des Exarchen (Heroisches Tagesquest)"
-Inst44Quest4_HORDE_Level = Inst44Quest2_Level
-Inst44Quest4_HORDE_Attain = Inst44Quest2_Attain
+Inst44Quest4_HORDE = Inst44Quest2
+Inst44Quest4_HORDE_Level = "70"
+Inst44Quest4_HORDE_Attain = "70"
 Inst44Quest4_HORDE_Aim = Inst44Quest2_Aim
 Inst44Quest4_HORDE_Location = Inst44Quest2_Location
 Inst44Quest4_HORDE_Note = Inst44Quest2_Note
-Inst44Quest4_HORDE_Prequest = Inst44Quest2_Prequest
-Inst44Quest4_HORDE_Folgequest = Inst44Quest2_Folgequest
+Inst44Quest4_HORDE_Prequest = "Nein"
+Inst44Quest4_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -5936,7 +5486,7 @@ Inst45Quest2_HORDE_Location = Inst45Quest2_Location
 Inst45Quest2_HORDE_Note = Inst45Quest2_Note
 Inst45Quest2_HORDE_Prequest = Inst45Quest2_Prequest
 Inst45Quest2_HORDE_Folgequest = "Nein"
-Inst45Quest2FQuest_HORDE = Inst45Quest2FQuest
+Inst45Quest2PreQuest_HORDE = "true"
 --
 Inst45Quest2name1_HORDE = Inst45Quest2name1
 Inst45Quest2name2_HORDE = Inst45Quest2name2
@@ -5967,7 +5517,7 @@ Inst45Quest4_HORDE_Location = Inst45Quest4_Location
 Inst45Quest4_HORDE_Note = Inst45Quest4_Note
 Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
 Inst45Quest4_HORDE_Folgequest = "Nein"
-Inst45Quest4PreQuest_HORDE = Inst45Quest4PreQuest
+Inst45Quest4PreQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -6097,7 +5647,7 @@ Inst46Quest3_HORDE_Location = Inst46Quest3_Location
 Inst46Quest3_HORDE_Note = Inst46Quest3_Note
 Inst46Quest3_HORDE_Prequest = Inst46Quest3_Prequest
 Inst46Quest3_HORDE_Folgequest = "Nein"
-Inst46Quest3PreQuest_HORDE = Inst46Quest3PreQuest
+Inst46Quest3PreQuest_HORDE = "true"
 --
 Inst46Quest3name1_HORDE = Inst46Quest3name1
 
@@ -6110,7 +5660,7 @@ Inst46Quest4_HORDE_Location = Inst46Quest4_Location
 Inst46Quest4_HORDE_Note = Inst46Quest4_Note
 Inst46Quest4_HORDE_Prequest = Inst46Quest4_Prequest
 Inst46Quest4_HORDE_Folgequest = Inst46Quest4_Folgequest
-Inst46Quest4PreQuest_HORDE = Inst46Quest4PreQuest
+Inst46Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -6291,7 +5841,7 @@ Inst47Quest2_HORDE_Location = Inst47Quest2_Location
 Inst47Quest2_HORDE_Note = Inst47Quest2_Note
 Inst47Quest2_HORDE_Prequest = Inst47Quest2_Prequest
 Inst47Quest2_HORDE_Folgequest = Inst47Quest2_Folgequest
-Inst47Quest2FQuest_HORDE = Inst47Quest2FQuest
+Inst47Quest2FQuest_HORDE = "true"
 --
 Inst47Quest2name1_HORDE = Inst47Quest2name1
 Inst47Quest2name2_HORDE = Inst47Quest2name2
@@ -6329,7 +5879,7 @@ Inst47Quest5_HORDE_Location = Inst47Quest5_Location
 Inst47Quest5_HORDE_Note = Inst47Quest5_Note
 Inst47Quest5_HORDE_Prequest = Inst47Quest5_Prequest
 Inst47Quest5_HORDE_Folgequest = Inst47Quest5_Folgequest
-Inst47Quest5FQuest_HORDE = Inst47Quest5FQuest
+Inst47Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -6341,7 +5891,7 @@ Inst47Quest6_HORDE_Location = Inst47Quest6_Location
 Inst47Quest6_HORDE_Note = Inst47Quest6_Note
 Inst47Quest6_HORDE_Prequest = Inst47Quest6_Prequest
 Inst47Quest6_HORDE_Folgequest = Inst47Quest6_Folgequest
-Inst47Quest6FQuest_HORDE = Inst47Quest6FQuest
+Inst47Quest6FQuest_HORDE = "true"
 --
 Inst47Quest6name1_HORDE = Inst47Quest6name1
 Inst47Quest6name2_HORDE = Inst47Quest6name2
@@ -6368,7 +5918,7 @@ Inst47Quest8_HORDE_Location = Inst47Quest8_Location
 Inst47Quest8_HORDE_Note = Inst47Quest8_Note
 Inst47Quest8_HORDE_Prequest = Inst47Quest8_Prequest
 Inst47Quest8_HORDE_Folgequest = Inst47Quest8_Folgequest
-Inst47Quest8PreQuest_HORDE = Inst47Quest8PreQuest
+Inst47Quest8PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
@@ -6380,7 +5930,7 @@ Inst47Quest9_HORDE_Location = Inst47Quest9_Location
 Inst47Quest9_HORDE_Note = Inst47Quest9_Note
 Inst47Quest9_HORDE_Prequest = Inst47Quest9_Prequest
 Inst47Quest9_HORDE_Folgequest = Inst47Quest9_Folgequest
-Inst47Quest9PreQuest_HORDE = Inst47Quest8PreQuest
+Inst47Quest9PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
@@ -6460,7 +6010,7 @@ Inst48Quest2_HORDE_Location = Inst48Quest2_Location
 Inst48Quest2_HORDE_Note = Inst48Quest2_Note
 Inst48Quest2_HORDE_Prequest = Inst48Quest2_Prequest
 Inst48Quest2_HORDE_Folgequest = Inst48Quest2_Folgequest
-Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
+Inst48Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -6580,7 +6130,7 @@ Inst49Quest2_HORDE_Location = Inst49Quest2_Location
 Inst49Quest2_HORDE_Note = Inst49Quest2_Note
 Inst49Quest2_HORDE_Prequest = Inst49Quest2_Prequest
 Inst49Quest2_HORDE_Folgequest = Inst49Quest2_Folgequest
-Inst49Quest2FQuest_HORDE = Inst49Quest2FQuest
+Inst49Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -6592,7 +6142,7 @@ Inst49Quest3_HORDE_Location = Inst49Quest3_Location
 Inst49Quest3_HORDE_Note = Inst49Quest3_Note
 Inst49Quest3_HORDE_Prequest = Inst49Quest3_Prequest
 Inst49Quest3_HORDE_Folgequest = Inst49Quest3_Folgequest
-Inst49Quest3FQuest_HORDE = Inst49Quest3FQuest
+Inst49Quest3FQuest_HORDE = "true"
 --
 Inst49Quest3name1_HORDE = Inst49Quest3name1
 Inst49Quest3name2_HORDE = Inst49Quest3name2
@@ -6608,7 +6158,7 @@ Inst49Quest4_HORDE_Location = Inst49Quest4_Location
 Inst49Quest4_HORDE_Note = Inst49Quest4_Note
 Inst49Quest4_HORDE_Prequest = Inst49Quest4_Prequest
 Inst49Quest4_HORDE_Folgequest = Inst49Quest4_Folgequest
-Inst49Quest4PreQuest_HORDE = Inst49Quest4PreQuest
+Inst49Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -6620,7 +6170,7 @@ Inst49Quest5_HORDE_Location = Inst49Quest5_Location
 Inst49Quest5_HORDE_Note = Inst49Quest5_Note
 Inst49Quest5_HORDE_Prequest = Inst49Quest5_Prequest
 Inst49Quest5_HORDE_Folgequest = Inst49Quest5_Folgequest
-Inst49Quest5PreQuest_HORDE = Inst49Quest5PreQuest
+Inst49Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -6678,7 +6228,7 @@ Inst50Quest1_HORDE_Location = Inst50Quest1_Location
 Inst50Quest1_HORDE_Note = Inst50Quest1_Note
 Inst50Quest1_HORDE_Prequest = Inst50Quest1_Prequest
 Inst50Quest1_HORDE_Folgequest = Inst50Quest1_Folgequest
-Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
+Inst50Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -6776,7 +6326,7 @@ Inst51Quest1_HORDE_Location = Inst51Quest1_Location
 Inst51Quest1_HORDE_Note = Inst51Quest1_Note
 Inst51Quest1_HORDE_Prequest = Inst51Quest1_Prequest
 Inst51Quest1_HORDE_Folgequest = Inst51Quest1_Folgequest
-Inst51Quest1PreQuest_HORDE = Inst51Quest1PreQuest
+Inst51Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -6788,7 +6338,7 @@ Inst51Quest2_HORDE_Location = Inst51Quest2_Location
 Inst51Quest2_HORDE_Note = Inst51Quest2_Note
 Inst51Quest2_HORDE_Prequest = Inst51Quest2_Prequest
 Inst51Quest2_HORDE_Folgequest = Inst51Quest2_Folgequest
-Inst51Quest2FQuest_HORDE = Inst51Quest2FQuest
+Inst51Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -6800,7 +6350,7 @@ Inst51Quest3_HORDE_Location = Inst51Quest3_Location
 Inst51Quest3_HORDE_Note = Inst51Quest3_Note
 Inst51Quest3_HORDE_Prequest = Inst51Quest3_Prequest
 Inst51Quest3_HORDE_Folgequest = Inst51Quest3_Folgequest
-Inst51Quest3FQuest_HORDE = Inst51Quest3FQuest
+Inst51Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -6812,7 +6362,7 @@ Inst51Quest4_HORDE_Location = Inst51Quest4_Location
 Inst51Quest4_HORDE_Note = Inst51Quest4_Note
 Inst51Quest4_HORDE_Prequest = Inst51Quest4_Prequest
 Inst51Quest4_HORDE_Folgequest = Inst51Quest4_Folgequest
-Inst51Quest4FQuest_HORDE = Inst51Quest4FQuest
+Inst51Quest4FQuest_HORDE = "true"
 --
 Inst51Quest4name1_HORDE = Inst51Quest4name1
 Inst51Quest4name2_HORDE = Inst51Quest4name2
@@ -7063,7 +6613,7 @@ Inst53Quest1_HORDE_Location = Inst53Quest1_Location
 Inst53Quest1_HORDE_Note = Inst53Quest1_Note
 Inst53Quest1_HORDE_Prequest = Inst53Quest1_Prequest
 Inst53Quest1_HORDE_Folgequest = Inst53Quest1_Folgequest
-Inst53Quest1PreQuest_HORDE = Inst53Quest1PreQuest
+Inst53Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -7075,7 +6625,7 @@ Inst53Quest2_HORDE_Location = Inst53Quest2_Location
 Inst53Quest2_HORDE_Note = Inst53Quest2_Note
 Inst53Quest2_HORDE_Prequest = Inst53Quest2_Prequest
 Inst53Quest2_HORDE_Folgequest = Inst53Quest2_Folgequest
-Inst53Quest2FQuest_HORDE = Inst53Quest2FQuest
+Inst53Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7087,7 +6637,7 @@ Inst53Quest3_HORDE_Location = Inst53Quest3_Location
 Inst53Quest3_HORDE_Note = Inst53Quest3_Note
 Inst53Quest3_HORDE_Prequest = Inst53Quest3_Prequest
 Inst53Quest3_HORDE_Folgequest = Inst53Quest3_Folgequest
-Inst53Quest3FQuest_HORDE = Inst53Quest3FQuest
+Inst53Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -7099,7 +6649,7 @@ Inst53Quest4_HORDE_Location = Inst53Quest4_Location
 Inst53Quest4_HORDE_Note = Inst53Quest4_Note
 Inst53Quest4_HORDE_Prequest = Inst53Quest4_Prequest
 Inst53Quest4_HORDE_Folgequest = Inst53Quest4_Folgequest
-Inst53Quest4FQuest_HORDE = Inst53Quest4FQuest
+Inst53Quest4FQuest_HORDE = "true"
 --
 Inst53Quest4name1_HORDE = Inst53Quest4name1
 
@@ -7123,7 +6673,7 @@ Inst53Quest6_HORDE_Location = Inst53Quest6_Location
 Inst53Quest6_HORDE_Note = Inst53Quest6_Note
 Inst53Quest6_HORDE_Prequest = Inst53Quest6_Prequest
 Inst53Quest6_HORDE_Folgequest = Inst53Quest6_Folgequest
-Inst53Quest6FQuest_HORDE = Inst53Quest6FQuest
+Inst53Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -7135,7 +6685,7 @@ Inst53Quest7_HORDE_Location = Inst53Quest7_Location
 Inst53Quest7_HORDE_Note = Inst53Quest7_Note
 Inst53Quest7_HORDE_Prequest = Inst53Quest7_Prequest
 Inst53Quest7_HORDE_Folgequest = Inst53Quest7_Folgequest
-Inst53Quest7FQuest_HORDE = Inst53Quest7FQuest
+Inst53Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
@@ -7147,7 +6697,7 @@ Inst53Quest8_HORDE_Location = Inst53Quest8_Location
 Inst53Quest8_HORDE_Note = Inst53Quest8_Note
 Inst53Quest8_HORDE_Prequest = Inst53Quest8_Prequest
 Inst53Quest8_HORDE_Folgequest = Inst53Quest8_Folgequest
-Inst53Quest8FQuest_HORDE = Inst53Quest8FQuest
+Inst53Quest8FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
@@ -7159,7 +6709,7 @@ Inst53Quest9_HORDE_Location = Inst53Quest9_Location
 Inst53Quest9_HORDE_Note = Inst53Quest9_Note
 Inst53Quest9_HORDE_Prequest = Inst53Quest9_Prequest
 Inst53Quest9_HORDE_Folgequest = Inst53Quest9_Folgequest
-Inst53Quest9FQuest_HORDE = Inst53Quest9FQuest
+Inst53Quest9FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
@@ -7171,7 +6721,7 @@ Inst53Quest10_HORDE_Location = Inst53Quest10_Location
 Inst53Quest10_HORDE_Note = Inst53Quest10_Note
 Inst53Quest10_HORDE_Prequest = Inst53Quest10_Prequest
 Inst53Quest10_HORDE_Folgequest = Inst53Quest10_Folgequest
-Inst53Quest10FQuest_HORDE = Inst53Quest10FQuest
+Inst53Quest10FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
@@ -7183,7 +6733,7 @@ Inst53Quest11_HORDE_Location = Inst53Quest11_Location
 Inst53Quest11_HORDE_Note = Inst53Quest11_Note
 Inst53Quest11_HORDE_Prequest = Inst53Quest11_Prequest
 Inst53Quest11_HORDE_Folgequest = Inst53Quest11_Folgequest
-Inst53Quest11FQuest_HORDE = Inst53Quest11FQuest
+Inst53Quest11FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
@@ -7195,7 +6745,7 @@ Inst53Quest12_HORDE_Location = Inst53Quest12_Location
 Inst53Quest12_HORDE_Note = Inst53Quest12_Note
 Inst53Quest12_HORDE_Prequest = Inst53Quest12_Prequest
 Inst53Quest12_HORDE_Folgequest = Inst53Quest12_Folgequest
-Inst53Quest12FQuest_HORDE = Inst53Quest12FQuest
+Inst53Quest12FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
@@ -7207,7 +6757,7 @@ Inst53Quest13_HORDE_Location = Inst53Quest13_Location
 Inst53Quest13_HORDE_Note = Inst53Quest13_Note
 Inst53Quest13_HORDE_Prequest = Inst53Quest13_Prequest
 Inst53Quest13_HORDE_Folgequest = Inst53Quest13_Folgequest
-Inst53Quest13FQuest_HORDE = Inst53Quest13FQuest
+Inst53Quest13FQuest_HORDE = "true"
 --
 Inst53Quest13name1_HORDE = Inst53Quest13name1
 Inst53Quest13name2_HORDE = Inst53Quest13name2
@@ -7317,7 +6867,7 @@ Inst54Quest1_HORDE_Location = Inst54Quest1_Location
 Inst54Quest1_HORDE_Note = Inst54Quest1_Note
 Inst54Quest1_HORDE_Prequest = Inst54Quest1_Prequest
 Inst54Quest1_HORDE_Folgequest = Inst54Quest1_Folgequest
-Inst54Quest1PreQuest_HORDE = Inst54Quest1PreQuest
+Inst54Quest1PreQuest_HORDE = "true"
 --
 Inst54Quest1name1_HORDE = Inst54Quest1name1
 Inst54Quest1name2_HORDE = Inst54Quest1name2
@@ -7332,7 +6882,7 @@ Inst54Quest2_HORDE_Location = Inst54Quest2_Location
 Inst54Quest2_HORDE_Note = Inst54Quest2_Note
 Inst54Quest2_HORDE_Prequest = Inst54Quest2_Prequest
 Inst54Quest2_HORDE_Folgequest = Inst54Quest2_Folgequest
-Inst54Quest2PreQuest_HORDE = Inst54Quest2PreQuest
+Inst54Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7355,7 +6905,7 @@ Inst54Quest4_HORDE_Location = Inst54Quest4_Location
 Inst54Quest4_HORDE_Note = Inst54Quest4_Note
 Inst54Quest4_HORDE_Prequest = Inst54Quest4_Prequest
 Inst54Quest4_HORDE_Folgequest = Inst54Quest4_Folgequest
-Inst54Quest4PreQuest_HORDE = Inst54Quest4PreQuest
+Inst54Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -7467,7 +7017,7 @@ Inst55Quest1_HORDE_Location = Inst55Quest1_Location
 Inst55Quest1_HORDE_Note = Inst55Quest1_Note
 Inst55Quest1_HORDE_Prequest = Inst55Quest1_Prequest
 Inst55Quest1_HORDE_Folgequest = Inst55Quest1_Folgequest
-Inst55Quest1PreQuest_HORDE = Inst55Quest1PreQuest
+Inst55Quest1PreQuest_HORDE = "true"
 --
 Inst55Quest1name1_HORDE = Inst55Quest1name1
 Inst55Quest1name2_HORDE = Inst55Quest1name2
@@ -7485,7 +7035,7 @@ Inst55Quest2_HORDE_Location = Inst55Quest2_Location
 Inst55Quest2_HORDE_Note = Inst55Quest2_Note
 Inst55Quest2_HORDE_Prequest = Inst55Quest2_Prequest
 Inst55Quest2_HORDE_Folgequest = Inst55Quest2_Folgequest
-Inst55Quest2PreQuest_HORDE = Inst55Quest2PreQuest
+Inst55Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7497,7 +7047,7 @@ Inst55Quest3_HORDE_Location = Inst55Quest3_Location
 Inst55Quest3_HORDE_Note = Inst55Quest3_Note
 Inst55Quest3_HORDE_Prequest = Inst55Quest3_Prequest
 Inst55Quest3_HORDE_Folgequest = Inst55Quest3_Folgequest
-Inst55Quest3PreQuest_HORDE = Inst55Quest3PreQuest
+Inst55Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -7597,7 +7147,7 @@ Inst56Quest1_HORDE_Location = Inst56Quest1_Location
 Inst56Quest1_HORDE_Note = Inst56Quest1_Note
 Inst56Quest1_HORDE_Prequest = Inst56Quest1_Prequest
 Inst56Quest1_HORDE_Folgequest = Inst56Quest1_Folgequest
-Inst56Quest1PreQuest_HORDE = Inst56Quest1PreQuest
+Inst56Quest1PreQuest_HORDE = "true"
 --
 Inst56Quest1name1_HORDE = Inst56Quest1name1
 Inst56Quest1name2_HORDE = Inst56Quest1name2
@@ -7615,7 +7165,7 @@ Inst56Quest2_HORDE_Location = Inst56Quest2_Location
 Inst56Quest2_HORDE_Note = Inst56Quest2_Note
 Inst56Quest2_HORDE_Prequest = Inst56Quest2_Prequest
 Inst56Quest2_HORDE_Folgequest = Inst56Quest2_Folgequest
-Inst56Quest2PreQuest_HORDE = Inst56Quest2PreQuest
+Inst56Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7699,7 +7249,7 @@ Inst61Quest1_HORDE_Location = Inst61Quest1_Location
 Inst61Quest1_HORDE_Note = Inst61Quest1_Note
 Inst61Quest1_HORDE_Prequest = Inst61Quest1_Prequest
 Inst61Quest1_HORDE_Folgequest = Inst61Quest1_Folgequest
-Inst61Quest1PreQuest_HORDE = Inst61Quest1PreQuest
+Inst61Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -7788,7 +7338,7 @@ Inst62Quest1_HORDE_Location = Inst62Quest1_Location
 Inst62Quest1_HORDE_Note = Inst62Quest1_Note
 Inst62Quest1_HORDE_Prequest = Inst62Quest1_Prequest
 Inst62Quest1_HORDE_Folgequest = Inst62Quest1_Folgequest
-Inst62Quest1PreQuest_HORDE = Inst62Quest1PreQuest
+Inst62Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -7800,7 +7350,7 @@ Inst62Quest2_HORDE_Location = Inst62Quest2_Location
 Inst62Quest2_HORDE_Note = Inst62Quest2_Note
 Inst62Quest2_HORDE_Prequest = Inst62Quest2_Prequest
 Inst62Quest2_HORDE_Folgequest = Inst62Quest2_Folgequest
-Inst62Quest2FQuest_HORDE = Inst62Quest2FQuest
+Inst62Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7812,7 +7362,7 @@ Inst62Quest3_HORDE_Location = Inst62Quest3_Location
 Inst62Quest3_HORDE_Note = Inst62Quest3_Note
 Inst62Quest3_HORDE_Prequest = Inst62Quest3_Prequest
 Inst62Quest3_HORDE_Folgequest = Inst62Quest3_Folgequest
-Inst62Quest3FQuest_HORDE = "Nein"
+Inst62Quest3FQuest_HORDE = "true"
 --
 Inst62Quest3name1_HORDE = Inst62Quest3name1
 
@@ -7933,7 +7483,7 @@ Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
 Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
 Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
-Inst63Quest1PreQuest_HORDE = Inst63Quest1PreQuest
+Inst63Quest1PreQuest_HORDE = "true"
 --
 Inst63Quest1name1_HORDE = Inst63Quest1name1
 
@@ -7946,7 +7496,7 @@ Inst63Quest2_HORDE_Location = Inst63Quest2_Location
 Inst63Quest2_HORDE_Note = Inst63Quest2_Note
 Inst63Quest2_HORDE_Prequest = Inst63Quest2_Prequest
 Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
-Inst63Quest2FQuest_HORDE = Inst63Quest2FQuest
+Inst63Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7958,7 +7508,7 @@ Inst63Quest3_HORDE_Location = Inst63Quest3_Location
 Inst63Quest3_HORDE_Note = Inst63Quest3_Note
 Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
 Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
-Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
+Inst63Quest3FQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -7982,7 +7532,7 @@ Inst63Quest5_HORDE_Location = Inst63Quest5_Location
 Inst63Quest5_HORDE_Note = Inst63Quest5_Note
 Inst63Quest5_HORDE_Prequest = Inst63Quest5_Prequest
 Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
-Inst63Quest5FQuest_HORDE = Inst63Quest5FQuest
+Inst63Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -7994,7 +7544,7 @@ Inst63Quest6_HORDE_Location = Inst63Quest6_Location
 Inst63Quest6_HORDE_Note = Inst63Quest6_Note
 Inst63Quest6_HORDE_Prequest = Inst63Quest6_Prequest
 Inst63Quest6_HORDE_Folgequest = Inst63Quest6_Folgequest
-Inst63Quest6FQuest_HORDE = Inst63Quest6FQuest
+Inst63Quest6FQuest_HORDE = "true"
 --
 Inst63Quest6name1_HORDE = Inst63Quest6name1
 
@@ -8018,7 +7568,7 @@ Inst63Quest8_HORDE_Location = Inst63Quest8_Location
 Inst63Quest8_HORDE_Note = Inst63Quest8_Note
 Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
 Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
-Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
+Inst63Quest8FQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -8128,7 +7678,7 @@ Inst67Quest3_HORDE_Location = Inst67Quest3_Location
 Inst67Quest3_HORDE_Note = Inst67Quest3_Note
 Inst67Quest3_HORDE_Prequest = Inst67Quest3_Prequest
 Inst67Quest3_HORDE_Folgequest = Inst67Quest3_Folgequest
-Inst67Quest3PreQuest_HORDE = Inst67Quest3PreQuest
+Inst67Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -8140,7 +7690,7 @@ Inst67Quest4_HORDE_Location = Inst67Quest4_Location
 Inst67Quest4_HORDE_Note = Inst67Quest4_Note
 Inst67Quest4_HORDE_Prequest = Inst67Quest4_Prequest
 Inst67Quest4_HORDE_Folgequest = Inst67Quest4_Folgequest
-Inst67Quest4FQuest_HORDE = Inst67Quest4FQuest
+Inst67Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -8152,7 +7702,7 @@ Inst67Quest5_HORDE_Location = Inst67Quest5_Location
 Inst67Quest5_HORDE_Note = Inst67Quest5_Note
 Inst67Quest5_HORDE_Prequest = Inst67Quest5_Prequest
 Inst67Quest5_HORDE_Folgequest = Inst67Quest5_Folgequest
-Inst67Quest5FQuest_HORDE = Inst67Quest5FQuest
+Inst67Quest5FQuest_HORDE = "true"
 --
 Inst67Quest5name1_HORDE = Inst67Quest5name1
 Inst67Quest5name2_HORDE = Inst67Quest5name2
@@ -8539,7 +8089,7 @@ Inst72Quest3_HORDE_Location = Inst72Quest3_Location
 Inst72Quest3_HORDE_Note = Inst72Quest3_Note
 Inst72Quest3_HORDE_Prequest = Inst72Quest3_Prequest
 Inst72Quest3_HORDE_Folgequest = Inst72Quest3_Folgequest
-Inst72Quest3PreQuest_HORDE = Inst72Quest3PreQuest
+Inst72Quest3PreQuest_HORDE = "true"
 --
 Inst72Quest3name1_HORDE = Inst72Quest3name1
 Inst72Quest3name2_HORDE = Inst72Quest3name2
@@ -8554,7 +8104,7 @@ Inst72Quest4_HORDE_Location = Inst72Quest4_Location
 Inst72Quest4_HORDE_Note = Inst72Quest4_Note
 Inst72Quest4_HORDE_Prequest = Inst72Quest4_Prequest
 Inst72Quest4_HORDE_Folgequest = Inst72Quest4_Folgequest
-Inst72Quest4PreQuest_HORDE = Inst72Quest4PreQuest
+Inst72Quest4PreQuest_HORDE = "true"
 --
 Inst72Quest4name1_HORDE = Inst72Quest4name1
 Inst72Quest4name2_HORDE = Inst72Quest4name2
@@ -8678,7 +8228,7 @@ Inst73Quest4_HORDE_Location = Inst73Quest4_Location
 Inst73Quest4_HORDE_Note = Inst73Quest4_Note
 Inst73Quest4_HORDE_Prequest = Inst73Quest4_Prequest
 Inst73Quest4_HORDE_Folgequest = Inst73Quest4_Folgequest
-Inst73Quest4FQuest_HORDE = Inst73Quest4FQuest
+Inst73Quest4FQuest_HORDE = "true"
 --
 Inst73Quest4name1_HORDE = Inst73Quest4name1
 Inst73Quest4name2_HORDE = Inst73Quest4name2
@@ -8752,7 +8302,7 @@ Inst74Quest1_HORDE_Location = Inst74Quest1_Location
 Inst74Quest1_HORDE_Note = Inst74Quest1_Note
 Inst74Quest1_HORDE_Prequest = Inst74Quest1_Prequest
 Inst74Quest1_HORDE_Folgequest = Inst74Quest1_Folgequest
-Inst74Quest1PreQuest_HORDE = Inst74Quest1PreQuest
+Inst74Quest1PreQuest_HORDE = "true"
 --
 Inst74Quest1name1_HORDE = Inst74Quest1name1
 Inst74Quest1name2_HORDE = Inst74Quest1name2
@@ -8768,7 +8318,7 @@ Inst74Quest2_HORDE_Location = Inst74Quest2_Location
 Inst74Quest2_HORDE_Note = Inst74Quest2_Note
 Inst74Quest2_HORDE_Prequest = Inst74Quest2_Prequest
 Inst74Quest2_HORDE_Folgequest = Inst74Quest2_Folgequest
-Inst74Quest2PreQuest_HORDE = Inst74Quest2PreQuest
+Inst74Quest2PreQuest_HORDE = "true"
 --
 Inst74Quest2name1_HORDE = Inst74Quest2name1
 Inst74Quest2name2_HORDE = Inst74Quest2name2
@@ -9190,7 +8740,7 @@ Inst80Quest2_HORDE_Location = Inst80Quest2_Location
 Inst80Quest2_HORDE_Note = Inst80Quest2_Note
 Inst80Quest2_HORDE_Prequest = Inst80Quest2_Prequest
 Inst80Quest2_HORDE_Folgequest = Inst80Quest2_Folgequest
-Inst80Quest2PreQuest_HORDE = Inst80Quest2PreQuest
+Inst80Quest2PreQuest_HORDE = "true"
 --
 Inst80Quest2name1_HORDE = Inst80Quest2name1
 Inst80Quest2name2_HORDE = Inst80Quest2name2
@@ -9205,7 +8755,7 @@ Inst80Quest3_HORDE_Location = Inst80Quest3_Location
 Inst80Quest3_HORDE_Note = Inst80Quest3_Note
 Inst80Quest3_HORDE_Prequest = Inst80Quest3_Prequest
 Inst80Quest3_HORDE_Folgequest = Inst80Quest3_Folgequest
-Inst80Quest3PreQuest_HORDE = Inst80Quest3PreQuest
+Inst80Quest3PreQuest_HORDE = "true"
 --
 Inst80Quest3name1_HORDE = Inst80Quest3name1
 Inst80Quest3name2_HORDE = Inst80Quest3name2
@@ -9294,7 +8844,7 @@ Inst81Quest2_HORDE_Location = Inst81Quest2_Location
 Inst81Quest2_HORDE_Note = Inst81Quest2_Note
 Inst81Quest2_HORDE_Prequest = Inst81Quest2_Prequest
 Inst81Quest2_HORDE_Folgequest = Inst81Quest2_Folgequest
-Inst81Quest2PreQuest_HORDE = Inst81Quest2PreQuest
+Inst81Quest2PreQuest_HORDE = "true"
 --
 Inst81Quest2name1_HORDE = Inst81Quest2name1
 Inst81Quest2name2_HORDE = Inst81Quest2name2
@@ -9310,7 +8860,7 @@ Inst81Quest3_HORDE_Location = Inst81Quest3_Location
 Inst81Quest3_HORDE_Note = Inst81Quest3_Note
 Inst81Quest3_HORDE_Prequest = Inst81Quest3_Prequest
 Inst81Quest3_HORDE_Folgequest = Inst81Quest3_Folgequest
-Inst81Quest3PreQuest_HORDE = Inst81Quest3PreQuest
+Inst81Quest3PreQuest_HORDE = "true"
 --
 Inst81Quest3name1_HORDE = Inst81Quest3name1
 Inst81Quest3name2_HORDE = Inst81Quest3name2
@@ -9832,7 +9382,7 @@ Inst86Quest2_HORDE_Location = Inst86Quest2_Location
 Inst86Quest2_HORDE_Note = Inst86Quest2_Note
 Inst86Quest2_HORDE_Prequest = Inst86Quest2_Prequest
 Inst86Quest2_HORDE_Folgequest = Inst86Quest2_Folgequest
-Inst86Quest2FQuest_HORDE = Inst86Quest2FQuest
+Inst86Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -9844,7 +9394,7 @@ Inst86Quest3_HORDE_Location = Inst86Quest3_Location
 Inst86Quest3_HORDE_Note = Inst86Quest3_Note
 Inst86Quest3_HORDE_Prequest = Inst86Quest3_Prequest
 Inst86Quest3_HORDE_Folgequest = Inst86Quest3_Folgequest
-Inst86Quest3PreQuest_HORDE = Inst86Quest3PreQuest
+Inst86Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -9856,7 +9406,7 @@ Inst86Quest4_HORDE_Location = Inst86Quest4_Location
 Inst86Quest4_HORDE_Note = Inst86Quest4_Note
 Inst86Quest4_HORDE_Prequest = Inst86Quest4_Prequest
 Inst86Quest4_HORDE_Folgequest = Inst86Quest4_Folgequest
-Inst86Quest4PreQuest_HORDE = Inst86Quest4PreQuest
+Inst86Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -9868,7 +9418,7 @@ Inst86Quest5_HORDE_Location = Inst86Quest5_Location
 Inst86Quest5_HORDE_Note = Inst86Quest5_Note
 Inst86Quest5_HORDE_Prequest = Inst86Quest5_Prequest
 Inst86Quest5_HORDE_Folgequest = Inst86Quest5_Folgequest
-Inst86Quest5PreQuest_HORDE = Inst86Quest5PreQuest
+Inst86Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -9880,7 +9430,7 @@ Inst86Quest6_HORDE_Location = Inst86Quest6_Location
 Inst86Quest6_HORDE_Note = Inst86Quest6_Note
 Inst86Quest6_HORDE_Prequest = Inst86Quest6_Prequest
 Inst86Quest6_HORDE_Folgequest = Inst86Quest6_Folgequest
-Inst86Quest6PreQuest_HORDE = Inst86Quest6PreQuest
+Inst86Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -9892,7 +9442,7 @@ Inst86Quest7_HORDE_Location = Inst86Quest7_Location
 Inst86Quest7_HORDE_Note = Inst86Quest7_Note
 Inst86Quest7_HORDE_Prequest = Inst86Quest7_Prequest
 Inst86Quest7_HORDE_Folgequest = Inst86Quest7_Folgequest
-Inst86Quest7PreQuest_HORDE = Inst86Quest7PreQuest
+Inst86Quest7PreQuest_HORDE = "true"
 --
 Inst86Quest7name1_HORDE = Inst86Quest7name1
 Inst86Quest7name2_HORDE = Inst86Quest7name2
@@ -9932,7 +9482,7 @@ Inst86Quest10_HORDE_Location = Inst86Quest10_Location
 Inst86Quest10_HORDE_Note = Inst86Quest10_Note
 Inst86Quest10_HORDE_Prequest = Inst86Quest10_Prequest
 Inst86Quest10_HORDE_Folgequest = Inst86Quest10_Folgequest
-Inst86Quest10FQuest_HORDE = Inst86Quest10FQuest
+Inst86Quest10FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
@@ -9944,7 +9494,7 @@ Inst86Quest11_HORDE_Location = Inst86Quest11_Location
 Inst86Quest11_HORDE_Note = Inst86Quest11_Note
 Inst86Quest11_HORDE_Prequest = Inst86Quest11_Prequest
 Inst86Quest11_HORDE_Folgequest = Inst86Quest11_Folgequest
-Inst86Quest11PreQuest_HORDE = Inst86Quest11PreQuest
+Inst86Quest11PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
@@ -9956,7 +9506,7 @@ Inst86Quest12_HORDE_Location = Inst86Quest12_Location
 Inst86Quest12_HORDE_Note = Inst86Quest12_Note
 Inst86Quest12_HORDE_Prequest = Inst86Quest12_Prequest
 Inst86Quest12_HORDE_Folgequest = Inst86Quest12_Folgequest
-Inst86Quest12PreQuest_HORDE = Inst86Quest12PreQuest
+Inst86Quest12PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
@@ -9968,7 +9518,7 @@ Inst86Quest13_HORDE_Location = Inst86Quest13_Location
 Inst86Quest13_HORDE_Note = Inst86Quest13_Note
 Inst86Quest13_HORDE_Prequest = Inst86Quest13_Prequest
 Inst86Quest13_HORDE_Folgequest = Inst86Quest13_Folgequest
-Inst86Quest13PreQuest_HORDE = Inst86Quest13PreQuest
+Inst86Quest13PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 14 Horde  (same as Quest 14 Alliance)
@@ -9980,7 +9530,7 @@ Inst86Quest14_HORDE_Location = Inst86Quest14_Location
 Inst86Quest14_HORDE_Note = Inst86Quest14_Note
 Inst86Quest14_HORDE_Prequest = Inst86Quest14_Prequest
 Inst86Quest14_HORDE_Folgequest = Inst86Quest14_Folgequest
-Inst86Quest14PreQuest_HORDE = Inst86Quest14PreQuest
+Inst86Quest14PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 15 Horde  (same as Quest 15 Alliance)
@@ -9992,7 +9542,7 @@ Inst86Quest15_HORDE_Location = Inst86Quest15_Location
 Inst86Quest15_HORDE_Note = Inst86Quest15_Note
 Inst86Quest15_HORDE_Prequest = Inst86Quest15_Prequest
 Inst86Quest15_HORDE_Folgequest = Inst86Quest15_Folgequest
-Inst86Quest15PreQuest_HORDE = Inst86Quest15PreQuest
+Inst86Quest15PreQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -11955,7 +11505,7 @@ Inst66Quest1_HORDE_Location = Inst66Quest1_Location
 Inst66Quest1_HORDE_Note = Inst66Quest1_Note
 Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
 Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
-Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
+Inst66Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -11967,7 +11517,7 @@ Inst66Quest2_HORDE_Location = Inst66Quest2_Location
 Inst66Quest2_HORDE_Note = Inst66Quest2_Note
 Inst66Quest2_HORDE_Prequest = Inst66Quest2_Prequest
 Inst66Quest2_HORDE_Folgequest = "Nein"
-Inst66Quest2PreQuest_HORDE = Inst66Quest2PreQuest
+Inst66Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -12005,7 +11555,6 @@ Inst66Quest5_HORDE_Prequest = "Nein"
 Inst66Quest5_HORDE_Folgequest = "Nein"
 --
 Inst66Quest5name1_HORDE = Inst66Quest5name1
--- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst66Quest6_HORDE = Inst66Quest6
@@ -12016,7 +11565,7 @@ Inst66Quest6_HORDE_Location = Inst66Quest6_Location
 Inst66Quest6_HORDE_Note = Inst66Quest6_Note
 Inst66Quest6_HORDE_Prequest = Inst66Quest6_Prequest
 Inst66Quest6_HORDE_Folgequest = "Nein"
-Inst66Quest6PreQuest_HORDE = Inst66Quest6PreQuest
+Inst66Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -12039,7 +11588,7 @@ Inst66Quest8_HORDE_Location = Inst66Quest8_Location
 Inst66Quest8_HORDE_Note = Inst66Quest8_Note
 Inst66Quest8_HORDE_Prequest = Inst66Quest8_Prequest
 Inst66Quest8_HORDE_Folgequest = Inst66Quest8_Folgequest
-Inst66Quest8FQuest_HORDE = Inst66Quest8FQuest
+Inst66Quest8FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
@@ -12051,7 +11600,7 @@ Inst66Quest9_HORDE_Location = Inst66Quest9_Location
 Inst66Quest9_HORDE_Note = Inst66Quest9_Note
 Inst66Quest9_HORDE_Prequest = Inst66Quest9_Prequest
 Inst66Quest9_HORDE_Folgequest = Inst66Quest9_Folgequest
-Inst66Quest9FQuest_HORDE = Inst66Quest9FQuest
+Inst66Quest9FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
@@ -12063,7 +11612,7 @@ Inst66Quest10_HORDE_Location = Inst66Quest10_Location
 Inst66Quest10_HORDE_Note = Inst66Quest10_Note
 Inst66Quest10_HORDE_Prequest = Inst66Quest10_Prequest
 Inst66Quest10_HORDE_Folgequest = Inst66Quest10_Folgequest
-Inst66Quest10FQuest_HORDE = Inst66Quest10FQuest
+Inst66Quest10FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
@@ -12075,7 +11624,7 @@ Inst66Quest11_HORDE_Location = Inst66Quest11_Location
 Inst66Quest11_HORDE_Note = Inst66Quest11_Note
 Inst66Quest11_HORDE_Prequest = Inst66Quest11_Prequest
 Inst66Quest11_HORDE_Folgequest = Inst66Quest11_Folgequest
-Inst66Quest11FQuest_HORDE = Inst66Quest11FQuest
+Inst66Quest11FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
@@ -12087,7 +11636,7 @@ Inst66Quest12_HORDE_Location = Inst66Quest12_Location
 Inst66Quest12_HORDE_Note = Inst66Quest12_Note
 Inst66Quest12_HORDE_Prequest = Inst66Quest12_Prequest
 Inst66Quest12_HORDE_Folgequest = "Nein"
-Inst66Quest12FQuest_HORDE = Inst66Quest12FQuest
+Inst66Quest12FQuest_HORDE = "true"
 --
 Inst66Quest12name1_HORDE = Inst66Quest12name1
 
@@ -12100,8 +11649,7 @@ Inst66Quest13_HORDE_Location = Inst66Quest13_Location
 Inst66Quest13_HORDE_Note = Inst66Quest13_Note
 Inst66Quest13_HORDE_Prequest = Inst66Quest13_Prequest
 Inst66Quest13_HORDE_Folgequest = "Nein"
-Inst66Quest13PreQuest_HORDE = Inst66Quest13PreQuest
-Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
+Inst66Quest13PreQuest_HORDE = "true"
 --
 Inst66Quest13name1_HORDE = Inst66Quest13name1
 Inst66Quest13name2_HORDE = Inst66Quest13name2

@@ -26,7 +26,7 @@ Translations:
 =============
 
 EN: Thandrenn  (previously Asurn and Lothaer)
-DE: Telchar and Nalumis  (previously Asurn and Nihlo)
+DE: Guldukat  (previously Asurn, Nihlo, Telchar and Nalumis)
 CN: yeachan (previously DIY)
 TW: Jill
 RU: EvgeshaH (Non-WOTLK by lorientalas)
