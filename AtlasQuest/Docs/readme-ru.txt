@@ -25,7 +25,7 @@ AtlasQuest был создан Asurn. В настоящий момент раз�
 =============
 
 EN: Thandrenn  (ранее Asurn и Lothaer)
-DE: Telchar и Nalumis  (ранее Asurn и Nihlo)
+DE: Guldukat  (ранее Asurn, Nihlo, Nalumis и Telchar )
 CN: yeachan (ранее DIY)
 TW: Jill
 RU: EvgeshaH (перевод до WotLK от lorientalas)
