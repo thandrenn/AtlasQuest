@@ -693,7 +693,6 @@ Inst5Quest5_Note = "General Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." un
 Inst5Quest5_Prequest = "Ja, Schattenschmiede unterwandern"
 Inst5Quest5_Folgequest = "Ja, Der Grimige Säufer"
 Inst5Quest5PreQuest = "true"
-Inst5Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -706,7 +705,6 @@ Inst5Quest6_Note = "Alle drei sind im Grimmigen Säufer zu finden bei "..YELLOW.
 Inst5Quest6_Prequest = "Ja, Strategen der Dunkeleisenzwerge"
 Inst5Quest6_Folgequest = "Ja, Pakt mit den Dunkeleisenzwergen"
 Inst5Quest6PreQuest = "true"
-Inst5Quest6FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
@@ -719,7 +717,6 @@ Inst5Quest7_Note = "Botschafter Flammenschlag ist bei "..YELLOW.."[15]"..WHITE..
 Inst5Quest7_Prequest = "Ja, Der Grimmige Säufer"
 Inst5Quest7_Folgequest = "Ja, Morgans Verwirklichung"
 Inst5Quest7PreQuest = "true"
-Inst5Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
@@ -962,7 +959,6 @@ Inst5Quest5_HORDE_Note = "General Zornesschmied ist bei "..YELLOW.."[10]"..WHITE
 Inst5Quest5_HORDE_Prequest = Inst5Quest5_Prequest
 Inst5Quest5_HORDE_Folgequest = Inst5Quest5_Folgequest
 Inst5Quest5PreQuest_HORDE = "true"
-Inst5Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -975,7 +971,6 @@ Inst5Quest6_HORDE_Note = "Alle drei sind im Grimmigen Säufer zu finden bei "..Y
 Inst5Quest6_HORDE_Prequest = "Ja, Die 109te Division"
 Inst5Quest6_HORDE_Folgequest = Inst5Quest6_Folgequest
 Inst5Quest6PreQuest_HORDE = "true"
-Inst5Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -988,7 +983,6 @@ Inst5Quest7_HORDE_Note = "Botschafter Flammenschlag ist bei "..YELLOW.."[15]"..W
 Inst5Quest7_HORDE_Prequest = Inst5Quest7_Prequest
 Inst5Quest7_HORDE_Folgequest = "Ja, Die Wiedergeburt des KEK"
 Inst5Quest7PreQuest_HORDE = "true"
-Inst5Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 8 Horde
@@ -2367,7 +2361,6 @@ Inst14Quest1_Note = "Teil des Gesegnete Klinge des Windsuchers Questreihe. Die s
 Inst14Quest1_Prequest = "Ja, Untersuchung des Gefäßes ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")"
 Inst14Quest1_Folgequest = "Ja, Donnerzorn erwache!"
 Inst14Quest1PreQuest = "true"
-Inst14Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -2925,15 +2918,15 @@ Inst57Quest2name3_HORDE = "Schiftung des Unausgebildeten"
 Inst57Quest2name4_HORDE = "Mönchsgamaschen"
 Inst57Quest2name5_HORDE = "Velonaras Umhang"
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde  (same as Quest 3 Alliance)
 Inst57Quest3_HORDE = Inst57Quest3
 Inst57Quest3_HORDE_Level = "36"
 Inst57Quest3_HORDE_Attain = "32"
 Inst57Quest3_HORDE_Aim = Inst57Quest3_Aim
 Inst57Quest3_HORDE_Location = Inst57Quest3_Location
 Inst57Quest3_HORDE_Note = Inst57Quest3_Note
-Inst57Quest1_HORDE_Prequest = "Nein"
-Inst57Quest1_HORDE_Folgequest = "Nein"
+Inst57Quest3_HORDE_Prequest = "Nein"
+Inst57Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -3054,17 +3047,6 @@ Inst59Quest2name3 = "Handschuhe des 'Reinen'"
 Inst59Quest2name4 = "Festschnürender Gürtel"
 Inst59Quest2name5 = "Vishas Kapuze"
 
---Quest 3 Alliance
-Inst59Quest3 = "3. Ruft den kopflosen Reiter (Tagesquest - Schlotternächte)"
-Inst59Quest3_Level = "85"
-Inst59Quest3_Attain = "85"
-Inst59Quest3_Aim = "Man muß den Erdhaufen nur noch einmal anklicken und der Kopflose Reiter erscheint."
-Inst59Quest3_Location = "Kürbisschrein (Scharlachrotes Kloster - Friedhof; "..YELLOW.."[2]"..WHITE..")"
-Inst59Quest3_Note = "Die Erde befindet sich nur ein paar Schritte vom Kürbisschrein entfernt. Diese Quest ist nur während der Schlotternächte erhältlich und kann nur einmal täglich pro Spieler angenommen werden.\n\nWenn man diese Quest abschließt, erscheint der kopflose Reiter, ein Stufe 85 Boss."
-Inst59Quest3_Prequest = "Nein"
-Inst59Quest3_Folgequest = "Nein"
--- No Rewards for this quest
-
 
 --Quest 1 Horde
 Inst59Quest1_HORDE = "1. In das Scharlachrote Kloster"
@@ -3092,18 +3074,6 @@ Inst59Quest2name2_HORDE = Inst59Quest2name2
 Inst59Quest2name3_HORDE = Inst59Quest2name3
 Inst59Quest2name4_HORDE = Inst59Quest2name4
 Inst59Quest2name5_HORDE = "Vishas Kapuze"
-
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst59Quest3_HORDE = Inst59Quest3
-Inst59Quest3_HORDE_Level = "85"
-Inst59Quest3_HORDE_Attain = "85"
-Inst59Quest3_HORDE_Aim = Inst59Quest3_Aim
-Inst59Quest3_HORDE_Location = Inst59Quest3_Location
-Inst59Quest3_HORDE_Note = Inst59Quest3_Note
-Inst59Quest3_HORDE_Prequest = "Nein"
-Inst59Quest3_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
 
 
 
@@ -3331,7 +3301,6 @@ Inst21Quest2_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN
 Inst21Quest2_Note = "Baron Silberlein befindet sich bei "..YELLOW.."[2]"..WHITE.." und Kommandant Grüntal bei "..YELLOW.."[3]"..WHITE..".\n\nRudelführer Ivar Blutfang erscheint auf dem Gehweg wenn Kommandant Grüntal getötet wurde."
 Inst21Quest2_Prequest = "Ja, Erschnüffelt sie"
 Inst21Quest2_Folgequest = "Ja, Mit Klauen und Zähnen "
-Inst21Quest2PreQuest = "true"
 Inst21Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -3344,7 +3313,6 @@ Inst21Quest3_Location = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN
 Inst21Quest3_Note = "Lord Walden befindet sich bei "..YELLOW.."[4]"..WHITE..".\n\nRudelführer Ivar Blutfang erscheint auf dem Torweg wenn Lord Walden getötet wurde."
 Inst21Quest3_Prequest = "Ja, Bis an die Zähne bewaffnet"
 Inst21Quest3_Folgequest = "Ja, Die Wut des Rudels"
-Inst21Quest3PreQuest = "true"
 Inst21Quest3FQuest = "true"
 -- No Rewards for this quest
 
@@ -3398,7 +3366,6 @@ Inst21Quest2_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfan
 Inst21Quest2_HORDE_Note = Inst21Quest2_Note
 Inst21Quest2_HORDE_Prequest = "Ja, Dies ist unser Land"
 Inst21Quest2_HORDE_Folgequest = "Ja, Befehle sind was für die Lebenden"
-Inst21Quest2PreQuest_HORDE = "true"
 Inst21Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -3411,7 +3378,6 @@ Inst21Quest3_HORDE_Location = "Todespirscherkommandant Belmont (Burg Schattenfan
 Inst21Quest3_HORDE_Note = Inst21Quest3_Note
 Inst21Quest3_HORDE_Prequest = "Ja, Seuche... Überall Seuche!"
 Inst21Quest3_HORDE_Folgequest = "Ja, Süße, gnadenlose Rache"
-Inst21Quest3PreQuest_HORDE = "true"
 Inst21Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -4042,7 +4008,6 @@ Inst27Quest1_Note = "Mazoga befindet sich in der Instanz Zul'Farrak am Eingang."
 Inst27Quest1_Prequest = "Ja, Blut zum Blühen-->Geheimnisse in der Oase"
 Inst27Quest1_Folgequest = "Ja, Häuptling Ukurz Sandskalp"
 Inst27Quest1PreQuest = "true"
-Inst27Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -4109,7 +4074,6 @@ Inst27Quest1_HORDE_Note = Inst27Quest1_Note
 Inst27Quest1_HORDE_Prequest = Inst27Quest1_Prequest
 Inst27Quest1_HORDE_Folgequest = Inst27Quest1_Folgequest
 Inst27Quest1PreQuest_HORDE = "true"
-Inst27Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -4208,7 +4172,6 @@ Inst29Quest3_Location = "Mör'dok (Gnomeregan; "..YELLOW.."Eingang"..WHITE..")"
 Inst29Quest3_Note = "Verflüssigte Ablagerung befinden sich bei."
 Inst29Quest3_Prequest = "Ja, Trautes Heim, Gnom allein oder Gnomeregan erforschen"
 Inst29Quest3_Folgequest = "Ja, Das G-Team"
-Inst29Quest3PreQuest = "true"
 Inst29Quest3FQuest = "true"
 -- No Rewards for this quest
 
@@ -4221,7 +4184,6 @@ Inst29Quest4_Location = "Bi'ay Bäräkuss (Gnomeregan; "..YELLOW.."Eingang"..WHI
 Inst29Quest4_Note = "Elektrokutor 6000 befindet sich bei."
 Inst29Quest4_Prequest = "Ja, Das G-Team"
 Inst29Quest4_Folgequest = "Ja, Das G-Team"
-Inst29Quest3PreQuest = "true"
 Inst29Quest4FQuest = "true"
 -- No Rewards for this quest
 
@@ -4263,7 +4225,6 @@ Inst29Quest7_Location = "Blitzender Goldring (erhällt man beim Quest Schmutzver
 Inst29Quest7_Note = "Kann bei Talvash del Kissel (Eisenschmiede - Mystikerviertel; "..YELLOW.."36.0,4.2"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
 Inst29Quest7_Prequest = "Ja, Schmutzverkrusteter Ring"
 Inst29Quest7_Folgequest = "Ja, Gnomenverbesserungen"
-Inst29Quest7PreQuest = "true"
 Inst29Quest7FQuest = "true"
 --
 Inst29Quest7name1 = "Blitzender Goldring"
@@ -4302,7 +4263,6 @@ Inst29Quest2_HORDE_Location = Inst29Quest7_Location
 Inst29Quest2_HORDE_Note = "Kann bei Nogg (Orgrimmar - Tal der Ehre; "..YELLOW.."56.6,56.8"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
 Inst29Quest2_HORDE_Prequest = Inst29Quest7_Prequest
 Inst29Quest2_HORDE_Folgequest = Inst29Quest7_Folgequest
-Inst29Quest2PreQuest_HORDE = "true"
 Inst29Quest2FQuest_HORDE = "true"
 --
 Inst29Quest2name1_HORDE = Inst29Quest7name1
@@ -6443,7 +6403,7 @@ Inst53Quest1_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazha
 Inst53Quest1_Note = "Koren befindet sich in Karazhan hinter Attumen dem Jäger bei "..GREEN.."[4']"..WHITE.."."
 Inst53Quest1_Prequest = "Ja, Arkane Störungen -> Das Violette Auge"
 Inst53Quest1_Folgequest = "Ja, Keannas Aufzeichnungen"
-Inst53Quest1PreQuest = "true"
+Inst53Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -6492,6 +6452,7 @@ Inst53Quest5_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazha
 Inst53Quest5_Note = "Benötigt Wohlwollend beim Violetten Auge. Wravien befindet sich in der Bibliothek der Wächter hinter dem Kurator bei "..GREEN.."[10']"..WHITE.."."
 Inst53Quest5_Prequest = "Nein"
 Inst53Quest5_Folgequest = "Ja, In guten Händen"
+Inst53Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -7409,7 +7370,7 @@ Inst63Quest3_Location = "Budd Winterhäldler (Geisterlande - Axthügel; "..YELLO
 Inst63Quest3_Note = "Hexlord Malacrass befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst63Quest3_Prequest = "Ja, Das X markiert Euren Untergang!"
 Inst63Quest3_Folgequest = "Nein"
-Inst63Quest3FQuest = "true"
+Inst63Quest3PreQuest = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -7422,6 +7383,7 @@ Inst63Quest4_Location = "Prigmon (Geisterlande - Axthügel; "..YELLOW.."71,68"..
 Inst63Quest4_Note = "Der Waldtrollhauer droppen von den Gegnern der Amani in Zul'Aman.Diese Quest bekommst du erst wenn du die Quest Versprechen, Versprechen... abgeschlossen hast."
 Inst63Quest4_Prequest = "Nein"
 Inst63Quest4_Folgequest = "Ja, Ein Troll unter Trollen"
+Inst63Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -7445,7 +7407,7 @@ Inst63Quest6_Location = "Zungam (Zul'Aman; "..GREEN.."[1']"..WHITE..")"
 Inst63Quest6_Note = "Gaunah befindet sich in (Shattrath - Unteres Viertel; "..YELLOW.."65,69"..WHITE..")."
 Inst63Quest6_Prequest = "Ja, Ein Troll unter Trollen"
 Inst63Quest6_Folgequest = "Nein"
-Inst63Quest6FQuest = "true"
+Inst63Quest6PreQuest = "true"
 --
 Inst63Quest6name1 = "Bezaubertes Juwel der Amani"
 
@@ -7458,6 +7420,7 @@ Inst63Quest7_Location = "Zul'jins Blut (droppt von Zul'jin; "..YELLOW.."[6]"..WH
 Inst63Quest7_Note = "Nur eine Person im Schlachtzug kann das Blut erhalten, um die Quest zu starten, und die Quest kann nur einmal ausgeführt werden."
 Inst63Quest7_Prequest = "Nein"
 Inst63Quest7_Folgequest = "Ja, Agentin mit Herz"
+Inst63Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
@@ -7469,15 +7432,15 @@ Inst63Quest8_Location = "Donna Brascoe (Geisterlande - Axthügel; "..YELLOW.."70
 Inst63Quest8_Note = ""
 Inst63Quest8_Prequest = "Ja, Blut des Kriegsherren"
 Inst63Quest8_Folgequest = "Nein"
-Inst63Quest8FQuest = "true"
+Inst63Quest8PreQuest = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst63Quest1_HORDE = Inst63Quest1
-Inst63Quest1_HORDE_Level = Inst63Quest1_Level
-Inst63Quest1_HORDE_Attain = Inst63Quest1_Attain
+Inst63Quest1_HORDE_Level = "70"
+Inst63Quest1_HORDE_Attain = "70"
 Inst63Quest1_HORDE_Aim = Inst63Quest1_Aim
 Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
@@ -7489,8 +7452,8 @@ Inst63Quest1name1_HORDE = Inst63Quest1name1
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst63Quest2_HORDE = Inst63Quest2
-Inst63Quest2_HORDE_Level = Inst63Quest2_Level
-Inst63Quest2_HORDE_Attain = Inst63Quest2_Attain
+Inst63Quest2_HORDE_Level = "70"
+Inst63Quest2_HORDE_Attain = "70"
 Inst63Quest2_HORDE_Aim = Inst63Quest2_Aim
 Inst63Quest2_HORDE_Location = Inst63Quest2_Location
 Inst63Quest2_HORDE_Note = Inst63Quest2_Note
@@ -7501,32 +7464,33 @@ Inst63Quest2FQuest_HORDE = "true"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst63Quest3_HORDE = Inst63Quest3
-Inst63Quest3_HORDE_Level = Inst63Quest3_Level
-Inst63Quest3_HORDE_Attain = Inst63Quest3_Attain
+Inst63Quest3_HORDE_Level = "70"
+Inst63Quest3_HORDE_Attain = "70"
 Inst63Quest3_HORDE_Aim = Inst63Quest3_Aim
 Inst63Quest3_HORDE_Location = Inst63Quest3_Location
 Inst63Quest3_HORDE_Note = Inst63Quest3_Note
 Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
-Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
-Inst63Quest3FQuest_HORDE = "true"
+Inst63Quest3_HORDE_Folgequest = "Nein"
+Inst63Quest3PreQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst63Quest4_HORDE = Inst63Quest4
-Inst63Quest4_HORDE_Level = Inst63Quest4_Level
-Inst63Quest4_HORDE_Attain = Inst63Quest4_Attain
+Inst63Quest4_HORDE_Level = "70"
+Inst63Quest4_HORDE_Attain = "70"
 Inst63Quest4_HORDE_Aim = Inst63Quest4_Aim
 Inst63Quest4_HORDE_Location = Inst63Quest4_Location
 Inst63Quest4_HORDE_Note = Inst63Quest4_Note
-Inst63Quest4_HORDE_Prequest = Inst63Quest4_Prequest
+Inst63Quest4_HORDE_Prequest = "Nein"
 Inst63Quest4_HORDE_Folgequest = Inst63Quest4_Folgequest
+Inst63Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst63Quest5_HORDE = Inst63Quest5
-Inst63Quest5_HORDE_Level = Inst63Quest5_Level
-Inst63Quest5_HORDE_Attain = Inst63Quest5_Attain
+Inst63Quest5_HORDE_Level = "70"
+Inst63Quest5_HORDE_Attain = "70"
 Inst63Quest5_HORDE_Aim = Inst63Quest5_Aim
 Inst63Quest5_HORDE_Location = Inst63Quest5_Location
 Inst63Quest5_HORDE_Note = Inst63Quest5_Note
@@ -7537,38 +7501,39 @@ Inst63Quest5FQuest_HORDE = "true"
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst63Quest6_HORDE = Inst63Quest6
-Inst63Quest6_HORDE_Level = Inst63Quest6_Level
-Inst63Quest6_HORDE_Attain = Inst63Quest6_Attain
+Inst63Quest6_HORDE_Level = "70"
+Inst63Quest6_HORDE_Attain = "70"
 Inst63Quest6_HORDE_Aim = Inst63Quest6_Aim
 Inst63Quest6_HORDE_Location = Inst63Quest6_Location
 Inst63Quest6_HORDE_Note = Inst63Quest6_Note
 Inst63Quest6_HORDE_Prequest = Inst63Quest6_Prequest
-Inst63Quest6_HORDE_Folgequest = Inst63Quest6_Folgequest
-Inst63Quest6FQuest_HORDE = "true"
+Inst63Quest6_HORDE_Folgequest = "Nein"
+Inst63Quest6PreQuest_HORDE = "true"
 --
 Inst63Quest6name1_HORDE = Inst63Quest6name1
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst63Quest7_HORDE = Inst63Quest7
-Inst63Quest7_HORDE_Level = Inst63Quest7_Level
-Inst63Quest7_HORDE_Attain = Inst63Quest7_Attain
+Inst63Quest7_HORDE_Level = "70"
+Inst63Quest7_HORDE_Attain = "70"
 Inst63Quest7_HORDE_Aim = Inst63Quest7_Aim
 Inst63Quest7_HORDE_Location = Inst63Quest7_Location
 Inst63Quest7_HORDE_Note = Inst63Quest7_Note
-Inst63Quest7_HORDE_Prequest = Inst63Quest7_Prequest
+Inst63Quest7_HORDE_Prequest = "Nein"
 Inst63Quest7_HORDE_Folgequest = Inst63Quest7_Folgequest
+Inst63Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst63Quest8_HORDE = Inst63Quest8
-Inst63Quest8_HORDE_Level = Inst63Quest8_Level
-Inst63Quest8_HORDE_Attain = Inst63Quest8_Attain
+Inst63Quest8_HORDE_Level = "70"
+Inst63Quest8_HORDE_Attain = "70"
 Inst63Quest8_HORDE_Aim = Inst63Quest8_Aim
 Inst63Quest8_HORDE_Location = Inst63Quest8_Location
 Inst63Quest8_HORDE_Note = Inst63Quest8_Note
 Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
-Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
-Inst63Quest8FQuest_HORDE = "true"
+Inst63Quest8_HORDE_Folgequest = "Nein"
+Inst63Quest8PreQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -7614,7 +7579,7 @@ Inst67Quest3_Location = "Exarch Larethor (Insel von Quel'Danas - Sammelpunkt der
 Inst67Quest3_Note = "Tyrith befindet sich innerhalb der Instanz bei "..GREEN.."[1']"..WHITE..". Diese Questreihe schaltet den Heroischen Modus frei.\n\nDie Vorquest gibt es entweder von Adyen dem Lichtwächter (Shattrath - Aldorhöhe; "..YELLOW.."35,36"..WHITE..") oder Dathris Sonnensturm (Shattrath - Sehertreppe; "..YELLOW.."55,80"..WHITE..")."
 Inst67Quest3_Prequest = "Ja, Krise am Sonnenbrunnen oder Pflicht ruft"
 Inst67Quest3_Folgequest = "Ja, Der Seher der Seher"
-Inst67Quest3PreQuest = "true"
+Inst67Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -7647,44 +7612,44 @@ Inst67Quest5name3 = "Tränenförmiger Purpurspinell"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst67Quest1_HORDE = Inst67Quest1
-Inst67Quest1_HORDE_Level = Inst67Quest1_Level
-Inst67Quest1_HORDE_Attain = Inst67Quest1_Attain
+Inst67Quest1_HORDE_Level = "70"
+Inst67Quest1_HORDE_Attain = "70"
 Inst67Quest1_HORDE_Aim = Inst67Quest1_Aim
 Inst67Quest1_HORDE_Location = Inst67Quest1_Location
 Inst67Quest1_HORDE_Note = Inst67Quest1_Note
-Inst67Quest1_HORDE_Prequest = Inst67Quest1_Prequest
-Inst67Quest1_HORDE_Folgequest = Inst67Quest1_Folgequest
+Inst67Quest1_HORDE_Prequest = "Nein"
+Inst67Quest1_HORDE_Folgequest = "Nein"
 --
 Inst67Quest1name1_HORDE = Inst67Quest1name1
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst67Quest2_HORDE = Inst67Quest2
-Inst67Quest2_HORDE_Level = Inst67Quest2_Level
-Inst67Quest2_HORDE_Attain = Inst67Quest2_Attain
+Inst67Quest2_HORDE_Level = "70"
+Inst67Quest2_HORDE_Attain = "70"
 Inst67Quest2_HORDE_Aim = Inst67Quest2_Aim
 Inst67Quest2_HORDE_Location = Inst67Quest2_Location
 Inst67Quest2_HORDE_Note = Inst67Quest2_Note
-Inst67Quest2_HORDE_Prequest = Inst67Quest2_Prequest
-Inst67Quest2_HORDE_Folgequest = Inst67Quest2_Folgequest
+Inst67Quest2_HORDE_Prequest = "Nein"
+Inst67Quest2_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst67Quest3_HORDE = Inst67Quest3
-Inst67Quest3_HORDE_Level = Inst67Quest3_Level
-Inst67Quest3_HORDE_Attain = Inst67Quest3_Attain
+Inst67Quest3_HORDE_Level = "70"
+Inst67Quest3_HORDE_Attain = "70"
 Inst67Quest3_HORDE_Aim = Inst67Quest3_Aim
 Inst67Quest3_HORDE_Location = Inst67Quest3_Location
 Inst67Quest3_HORDE_Note = Inst67Quest3_Note
 Inst67Quest3_HORDE_Prequest = Inst67Quest3_Prequest
 Inst67Quest3_HORDE_Folgequest = Inst67Quest3_Folgequest
-Inst67Quest3PreQuest_HORDE = "true"
+Inst67Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst67Quest4_HORDE = Inst67Quest4
-Inst67Quest4_HORDE_Level = Inst67Quest4_Level
-Inst67Quest4_HORDE_Attain = Inst67Quest4_Attain
+Inst67Quest4_HORDE_Level = "70"
+Inst67Quest4_HORDE_Attain = "70"
 Inst67Quest4_HORDE_Aim = Inst67Quest4_Aim
 Inst67Quest4_HORDE_Location = Inst67Quest4_Location
 Inst67Quest4_HORDE_Note = Inst67Quest4_Note
@@ -7695,14 +7660,14 @@ Inst67Quest4FQuest_HORDE = "true"
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst67Quest5_HORDE = Inst67Quest5
-Inst67Quest5_HORDE_Level = Inst67Quest5_Level
-Inst67Quest5_HORDE_Attain = Inst67Quest5_Attain
+Inst67Quest5_HORDE_Level = "70"
+Inst67Quest5_HORDE_Attain = "70"
 Inst67Quest5_HORDE_Aim = Inst67Quest5_Aim
 Inst67Quest5_HORDE_Location = Inst67Quest5_Location
 Inst67Quest5_HORDE_Note = Inst67Quest5_Note
 Inst67Quest5_HORDE_Prequest = Inst67Quest5_Prequest
-Inst67Quest5_HORDE_Folgequest = Inst67Quest5_Folgequest
-Inst67Quest5FQuest_HORDE = "true"
+Inst67Quest5_HORDE_Folgequest = "Nein"
+Inst67Quest5PreQuest_HORDE = "true"
 --
 Inst67Quest5name1_HORDE = Inst67Quest5name1
 Inst67Quest5name2_HORDE = Inst67Quest5name2
@@ -7785,8 +7750,8 @@ Inst69Quest2name4 = "Stulpen der Säuberung"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst69Quest1_HORDE = Inst69Quest1
-Inst69Quest1_HORDE_Level = Inst69Quest1_Level
-Inst69Quest1_HORDE_Attain = Inst69Quest1_Attain
+Inst69Quest1_HORDE_Level = "80"
+Inst69Quest1_HORDE_Attain = "78"
 Inst69Quest1_HORDE_Aim = Inst69Quest1_Aim
 Inst69Quest1_HORDE_Location = Inst69Quest1_Location
 Inst69Quest1_HORDE_Note = Inst69Quest1_Note
@@ -7796,8 +7761,8 @@ Inst69Quest1_HORDE_Folgequest = Inst69Quest1_Folgequest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst69Quest2_HORDE = Inst69Quest2
-Inst69Quest2_HORDE_Level = Inst69Quest2_Level
-Inst69Quest2_HORDE_Attain = Inst69Quest2_Attain
+Inst69Quest2_HORDE_Level = "80"
+Inst69Quest2_HORDE_Attain = "78"
 Inst69Quest2_HORDE_Aim = Inst69Quest2_Aim
 Inst69Quest2_HORDE_Location = Inst69Quest2_Location
 Inst69Quest2_HORDE_Note = Inst69Quest2_Note
@@ -7943,13 +7908,13 @@ Inst71Quest2name5 = "Plattenhelm der zornigen Rache"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst71Quest1_HORDE = Inst71Quest1
-Inst71Quest1_HORDE_Level = Inst71Quest1_Level
-Inst71Quest1_HORDE_Attain = Inst71Quest1_Attain
+Inst71Quest1_HORDE_Level = "80"
+Inst71Quest1_HORDE_Attain = "78"
 Inst71Quest1_HORDE_Aim = Inst71Quest1_Aim
 Inst71Quest1_HORDE_Location = Inst71Quest1_Location
 Inst71Quest1_HORDE_Note = Inst71Quest1_Note
-Inst71Quest1_HORDE_Prequest = Inst71Quest1_Prequest
-Inst71Quest1_HORDE_Folgequest = Inst71Quest1_Folgequest
+Inst71Quest1_HORDE_Prequest = "Nein"
+Inst71Quest1_HORDE_Folgequest = "Nein"
 --
 Inst71Quest1name1_HORDE = Inst71Quest1name1
 Inst71Quest1name2_HORDE = Inst71Quest1name2
@@ -7958,13 +7923,13 @@ Inst71Quest1name4_HORDE = Inst71Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst71Quest2_HORDE = Inst71Quest2
-Inst71Quest2_HORDE_Level = Inst71Quest2_Level
-Inst71Quest2_HORDE_Attain = Inst71Quest2_Attain
+Inst71Quest2_HORDE_Level = "80"
+Inst71Quest2_HORDE_Attain = "78"
 Inst71Quest2_HORDE_Aim = Inst71Quest2_Aim
 Inst71Quest2_HORDE_Location = Inst71Quest2_Location
 Inst71Quest2_HORDE_Note = Inst71Quest2_Note
-Inst71Quest2_HORDE_Prequest = Inst71Quest2_Prequest
-Inst71Quest2_HORDE_Folgequest = Inst71Quest2_Folgequest
+Inst71Quest2_HORDE_Prequest = "Nein"
+Inst71Quest2_HORDE_Folgequest = "Nein"
 --
 Inst71Quest2name1_HORDE = Inst71Quest2name1
 Inst71Quest2name2_HORDE = Inst71Quest2name2
@@ -8134,7 +8099,7 @@ Inst73Quest1_Aim = "Raelorasz möchte, dass Ihr Euch in das Oculus begebt und Be
 Inst73Quest1_Location = "Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
 Inst73Quest1_Note = "Belgaristrasz wird nach der Niedelgae von Drakos der Befrager erscheinen bei "..YELLOW.."[1]"..WHITE.."."
 Inst73Quest1_Prequest = "Nein"
-Inst73Quest1_Folgequest = "Vereinte Front"
+Inst73Quest1_Folgequest = "Ja, Vereinte Front"
 --
 Inst73Quest1name1 = "Ring der Kühnheit"
 Inst73Quest1name2 = "Blühendes Band"
@@ -8148,8 +8113,8 @@ Inst73Quest2_Attain = "77"
 Inst73Quest2_Aim = "Belgaristrasz möchte, dass Ihr 10 Zentrifugenkonstrukte zerstört, um Varos' Schild zu beseitigen. Danach müsst Ihr Varos Wolkenwanderer besiegen."
 Inst73Quest2_Location = "Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[1]"..WHITE..")"
 Inst73Quest2_Note = "Belgaristrasz erscheint nach dem Tode von Varos Wolkenwanderer bei "..YELLOW.."[2]"..WHITE.."."
-Inst73Quest2_Prequest = "Der Kampf geht weiter"
-Inst73Quest2_Folgequest = "Magierlord Urom"
+Inst73Quest2_Prequest = "Ja, Der Kampf geht weiter"
+Inst73Quest2_Folgequest = "Ja, Magierlord Urom"
 Inst73Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -8160,8 +8125,8 @@ Inst73Quest3_Attain = "77"
 Inst73Quest3_Aim = "Belgaristrasz möchte, dass Ihr Magierlord Urom im Oculus besiegt."
 Inst73Quest3_Location = "Abbild von Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[2]"..WHITE..")"
 Inst73Quest3_Note = "Belgaristrasz erscheint nach dem Tode von Magierlord Urom bei "..YELLOW.."[3]"..WHITE.."."
-Inst73Quest3_Prequest = "Vereinte Front"
-Inst73Quest3_Folgequest = "Schlacht in den Wolken"
+Inst73Quest3_Prequest = "Ja, Vereinte Front"
+Inst73Quest3_Folgequest = "Ja, Schlacht in den Wolken"
 Inst73Quest3FQuest = "true"
 -- No Rewards for this quest
 
@@ -8172,7 +8137,7 @@ Inst73Quest4_Attain = "77"
 Inst73Quest4_Aim = "Belgaristrasz möchte, dass Ihr Eregos im Oculus tötet und anschließend bei Raelorasz im Transitusschild in Kaltarra Bericht erstattet."
 Inst73Quest4_Location = "Abbild von Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[3]"..WHITE..")"
 Inst73Quest4_Note = "Leywächter Eregos ist bei "..YELLOW.."[4]"..WHITE..". Raelorasz ist bei (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")."
-Inst73Quest4_Prequest = "Magierlord Urom"
+Inst73Quest4_Prequest = "Ja, Magierlord Urom"
 Inst73Quest4_Folgequest = "Nein"
 Inst73Quest4FQuest = "true"
 --
@@ -8255,7 +8220,7 @@ Inst74Quest1_Attain = "80"
 Inst74Quest1_Aim = "Krasus auf der Spitze des Wyrmruhtempels in der Drachenöde möchte, dass Ihr mit dem Herzen der Magie zurückkehrt."
 Inst74Quest1_Location = "Krasus (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")"
 Inst74Quest1_Note = "Nach dem Tod von Malygos,kann sein Herz der Magie in der Nähe von Alexstrasza´s Geschenk, in einem rotierenden roten Herzen gefunden werden."
-Inst74Quest1_Prequest = "Der Schlüssel der fokussierenden Iris ("..YELLOW.."Naxxramas"..WHITE..")"
+Inst74Quest1_Prequest = "Ja, Der Schlüssel der fokussierenden Iris ("..YELLOW.."Naxxramas"..WHITE..")"
 Inst74Quest1_Folgequest = "Nein"
 Inst74Quest1PreQuest = "true"
 --
@@ -8271,7 +8236,7 @@ Inst74Quest2_Attain = "80"
 Inst74Quest2_Aim = "Krasus auf der Spitze des Wyrmruhtempels in der Drachenöde möchte, dass Ihr mit dem Herzen der Magie zurückkehrt."
 Inst74Quest2_Location = "Krasus (Drachenöde - Wyrmruhtemple; "..YELLOW.."59.8, 54.6"..WHITE..")"
 Inst74Quest2_Note = "Nach dem Tod von Malygos,kann sein Herz der Magie in der Nähe von Alexstrasza´s Geschenk, in einem rotierenden roten Herzen gefunden werden."
-Inst74Quest2_Prequest = "Der heroische Schlüssel der fokussierenden Iris ("..YELLOW.."Naxxramas"..WHITE..")"
+Inst74Quest2_Prequest = "Ja, Der heroische Schlüssel der fokussierenden Iris ("..YELLOW.."Naxxramas"..WHITE..")"
 Inst74Quest2_Folgequest = "Nein"
 Inst74Quest2PreQuest = "true"
 --
@@ -8525,13 +8490,13 @@ Inst77Quest1name4 = "Schulterstücke der Aufklärung"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst77Quest1_HORDE = Inst77Quest1
-Inst77Quest1_HORDE_Level = Inst77Quest1_Level
-Inst77Quest1_HORDE_Attain = Inst77Quest1_Attain
+Inst77Quest1_HORDE_Level = "78"
+Inst77Quest1_HORDE_Attain = "76"
 Inst77Quest1_HORDE_Aim = Inst77Quest1_Aim
 Inst77Quest1_HORDE_Location = Inst77Quest1_Location
 Inst77Quest1_HORDE_Note = Inst77Quest1_Note
-Inst77Quest1_HORDE_Prequest = Inst77Quest1_Prequest
-Inst77Quest1_HORDE_Folgequest = Inst77Quest1_Folgequest
+Inst77Quest1_HORDE_Prequest = "Nein"
+Inst77Quest1_HORDE_Folgequest = "Nein"
 --
 Inst77Quest1name1_HORDE = Inst77Quest1name1
 Inst77Quest1name2_HORDE = Inst77Quest1name2
@@ -8691,8 +8656,8 @@ Inst80Quest2_Attain = "73"
 Inst80Quest2_Aim = "Mack beim Granitquell möchte, dass Ihr nach Drak'Tharon geht und herausfindet, was mit Kurzel passiert ist."
 Inst80Quest2_Location = "Mack Fearsen (Grizzly Hügel - Granitquell; "..YELLOW.."16.6, 48.1"..WHITE..")"
 Inst80Quest2_Note = "Kurzel ist in einem der eingesponnenen Kokons bei "..GREEN.."[1']"..WHITE..". Bekämpfe die eingesponnenen Kokons und Du wirst sie finden."
-Inst80Quest2_Prequest = "Die angesengten Geisel"
-Inst80Quest2_Folgequest = "Psychospielchen"
+Inst80Quest2_Prequest = "Ja, Die angesengten Geisel"
+Inst80Quest2_Folgequest = "Ja, Psychospielchen"
 Inst80Quest2PreQuest = "true"
 --
 Inst80Quest2name1 = "Kurzels Angst"
@@ -8706,7 +8671,7 @@ Inst80Quest3_Attain = "73"
 Inst80Quest3_Aim = "Kurzel möchte, dass Ihr den Fetzen von Kurzels Bluse auf die Reste von Novos dem Beschwörer in der Feste Drak'Tharon anwendet und anschließend den sekretbefleckten Stoff zu Mack bringt."
 Inst80Quest3_Location = "Kurzel (Feste Drak'Tharon; "..GREEN.."[1']"..WHITE..")"
 Inst80Quest3_Note = "Novos der Beschwörer ist bei "..YELLOW.."[2]"..WHITE..". Mack Fearsen ist bei (Grizzly Hügel - Granitquell; "..YELLOW.."16.6, 48.1"..WHITE..")"
-Inst80Quest3_Prequest = "Rettungsaktion"
+Inst80Quest3_Prequest = "Ja, Rettungsaktion"
 Inst80Quest3_Folgequest = "Nein"
 Inst80Quest3FQuest = "true"
 --
@@ -8778,7 +8743,7 @@ Inst81Quest1_Attain = "76"
 Inst81Quest1_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und 6 Geschichtstafeln der Drakkari sammelt."
 Inst81Quest1_Location = "Chronistin Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
 Inst81Quest1_Note = "Die Geschichtstafeln sind überall in der Instant verteilt. Es sind genug vorhanden um damit eine komplette Gruppe diese Quest beenden kann. Die Vorquest ist optional."
-Inst81Quest1_Prequest = "Nur ma' nachsehen"
+Inst81Quest1_Prequest = "Ja, Nur ma' nachsehen"
 Inst81Quest1_Folgequest = "Nein"
 Inst81Quest1PreQuest = "true"
 --
@@ -8794,7 +8759,7 @@ Inst81Quest2_Attain = "76"
 Inst81Quest2_Aim = "Tol'mar in Dubra'Jin möchte, dass Ihr Gal'darah in Gundrak erschlagt."
 Inst81Quest2_Location = "Tol'mar (Zul'Drak - Dubra'Jin; "..YELLOW.."69.9, 22.8"..WHITE..")"
 Inst81Quest2_Note = "Gal'darah ist bei "..YELLOW.."[5]"..WHITE.."."
-Inst81Quest2_Prequest = "Noch ein Hühnchen rupfen"
+Inst81Quest2_Prequest = "Ja, Noch ein Hühnchen rupfen"
 Inst81Quest2_Folgequest = "Nein"
 Inst81Quest2PreQuest = "true"
 --
@@ -8958,7 +8923,7 @@ Inst84Quest1_Aim = "Liefert den Schlüssel zur fokussierenden Iris bei Alexstras
 Inst84Quest1_Location = "Schlüssel der fokussierenden Iris (droppts von Sapphiron; "..YELLOW.."Frostwyrmhöhle [1]"..WHITE..")"
 Inst84Quest1_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). Die Folge der Quest öffnet die Instant Der Nexus: Auge der Ewigkeit für den normalen 10 Mann Raid."
 Inst84Quest1_Prequest = "Nein"
-Inst84Quest1_Folgequest = "Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
+Inst84Quest1_Folgequest = "Ja, Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
 --
 Inst84Quest1name1 = "Schlüssel der fokussierenden Iris"
 
@@ -8970,7 +8935,7 @@ Inst84Quest2_Aim = "Liefert den heroischen Schlüssel zur fokussierenden Iris be
 Inst84Quest2_Location = "Der heroische Schlüssel der fokussierenden Iris (droppt von Sapphiron; "..YELLOW.."Frostwyrmhöhle [1]"..WHITE..")"
 Inst84Quest2_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). Die Folge der Quest öffnet die Instant Der Nexus: Auge der Ewigkeit für den Heroischen 25 Mann Raid."
 Inst84Quest2_Prequest = "Nein"
-Inst84Quest2_Folgequest = "Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
+Inst84Quest2_Folgequest = "Ja, Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
 --
 Inst84Quest2name1 = "Heroischer Schlüssel der fokussierenden Iris"
 
@@ -9121,7 +9086,7 @@ Inst86Quest1_Aim = "Bringt die Datenscheibe des Archivums zur Archivumkonsole in
 Inst86Quest1_Location = "Datenscheibe des Archivums (droppt von der Versammlung des Eisens; "..YELLOW.."Die Vorkammer [5]"..WHITE..")"
 Inst86Quest1_Note = "Die Datenscheibe droppt nur wenn man die Versammlung des Eisens im harten Modus besiegt.  Nur einer aus dem Raid kann die Datenscheibe an sich nehmen.\n\nNach dem Tot der Versammlung des Eisens, öffnet sich eine Tür.  Gebe die Quest beim Archivumsystem im hinteren Bereich des Raum ab.  Ausgrabungsleiter Doren gibt Dir dann die Folgequest."
 Inst86Quest1_Prequest = "Nein"
-Inst86Quest1_Folgequest = "Das himmlische Planetarium"
+Inst86Quest1_Folgequest = "Ja, Das himmlische Planetarium"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -9131,8 +9096,8 @@ Inst86Quest2_Attain = "80"
 Inst86Quest2_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr den Eingang zum Himmlischen Planetarium findet."
 Inst86Quest2_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest2_Note = "Das himmlische Planetarium ist bei (Ulduar - Die Vorkammer; "..YELLOW.."[7]"..WHITE..").\n\nNach Beendigung dieser Quest gibt Dir Ausgrabungsleiter Doren die vier Siegel Questen."
-Inst86Quest2_Prequest = "Datenscheibe des Archivums"
-Inst86Quest2_Folgequest = "Die vier Siegel Questen"
+Inst86Quest2_Prequest = "Ja, Datenscheibe des Archivums"
+Inst86Quest2_Folgequest = "Ja, Die vier Siegel Questen"
 Inst86Quest2FQuest = "true"
 -- No Rewards for this quest
 
@@ -9143,7 +9108,7 @@ Inst86Quest3_Attain = "80"
 Inst86Quest3_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt."
 Inst86Quest3_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest3_Note = "Hodir ist bei "..YELLOW.."Die Behüter [9]"..WHITE..".  Hordir muss im harten Modus gelegt werden um das Siegel zu bekommen."
-Inst86Quest3_Prequest = "Das himmlische Planetarium"
+Inst86Quest3_Prequest = "Ja, Das himmlische Planetarium"
 Inst86Quest3_Folgequest = "Nein"
 Inst86Quest3PreQuest = "true"
 -- No Rewards for this quest
@@ -9155,7 +9120,7 @@ Inst86Quest4_Attain = "80"
 Inst86Quest4_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt."
 Inst86Quest4_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest4_Note = "Thorim ist bei "..YELLOW.."Die Behüter [10]"..WHITE..".  Thorim muss im harten Modus gelegt werden um das Siegel zu bekommen."
-Inst86Quest4_Prequest = "Das himmlische Planetarium"
+Inst86Quest4_Prequest = "Ja, Das himmlische Planetarium"
 Inst86Quest4_Folgequest = "Nein"
 Inst86Quest4PreQuest = "true"
 -- No Rewards for this quest
@@ -9167,7 +9132,7 @@ Inst86Quest5_Attain = "80"
 Inst86Quest5_Aim = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Freyas Siegel gelangt."
 Inst86Quest5_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest5_Note = "Freya ist bei "..YELLOW.."Die Behüter [11]"..WHITE..".  Freya muss im harten Modus gelegt werden um das Siegel zu bekommen."
-Inst86Quest5_Prequest = "Das himmlische Planetarium"
+Inst86Quest5_Prequest = "Ja, Das himmlische Planetarium"
 Inst86Quest5_Folgequest = "Nein"
 Inst86Quest5PreQuest = "true"
 -- No Rewards for this quest
@@ -9179,7 +9144,7 @@ Inst86Quest6_Attain = "80"
 Inst86Quest6_Aim = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Mimirons Siegel gelangt."
 Inst86Quest6_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest6_Note = "Mimiron ist bei "..YELLOW.."Der Funke der Imagination [15]"..WHITE..".  Mimiron muss im harten Modus gelegt werden um das Siegel zu bekommen."
-Inst86Quest6_Prequest = "Das himmlische Planetarium"
+Inst86Quest6_Prequest = "Ja, Das himmlische Planetarium"
 Inst86Quest6_Folgequest = "Nein"
 Inst86Quest6PreQuest = "true"
 -- No Rewards for this quest
@@ -9191,7 +9156,7 @@ Inst86Quest7_Attain = "80"
 Inst86Quest7_Aim = "Bringt die Siegel der Wächter zur Archivumkonsole in Ulduar."
 Inst86Quest7_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest7_Note = "Nach Beendigung der vier Siegel Questen darfst du dann gegen Algalon der Beobachter im himmlischen Planetarium kämpfen."
-Inst86Quest7_Prequest = "Die vier Siegel Questen"
+Inst86Quest7_Prequest = "Ja, Die vier Siegel Questen"
 Inst86Quest7_Folgequest = "Nein"
 Inst86Quest7PreQuest = "true"
 --
@@ -9221,7 +9186,7 @@ Inst86Quest9_Aim = "Bringt die Datenscheibe des Archivums zur Archivumkonsole in
 Inst86Quest9_Location = "Datenscheibe des Archivums (droppt von der Versammlung des Eisens; "..YELLOW.."Die Vorkammer [5]"..WHITE..")"
 Inst86Quest9_Note = "Die Datenscheibe droppt nur wenn man die Versammlung des Eisens im harten Modus besiegt.  Nur einer aus dem Raid kann die Datenscheibe an sich nehmen.\n\nNach dem Tot der Versammlung des Eisens, öffnet sich eine Tür.  Gebe die Quest beim Archivumsystem im hinteren Bereich des Raum ab.  Ausgrabungsleiter Doren gibt Dir dann die Folgequest."
 Inst86Quest9_Prequest = "Nein"
-Inst86Quest9_Folgequest = "Das himmlische Planetarium"
+Inst86Quest9_Folgequest = "Ja, Das himmlische Planetarium"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
@@ -9231,8 +9196,8 @@ Inst86Quest10_Attain = "80"
 Inst86Quest10_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr den Eingang zum Himmlischen Planetarium findet."
 Inst86Quest10_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest10_Note = "Das himmlische Planetarium ist bei (Ulduar - Die Vorkammer; "..YELLOW.."[7]"..WHITE..").\n\nNach Beendigung dieser Quest gibt Dir Ausgrabungsleiter Doren die vier Siegel Questen."
-Inst86Quest10_Prequest = "Datenscheibe des Archivums"
-Inst86Quest10_Folgequest = "Die vier Siegel Questen"
+Inst86Quest10_Prequest = "Ja, Datenscheibe des Archivums"
+Inst86Quest10_Folgequest = "Ja, Die vier Siegel Questen"
 Inst86Quest10FQuest = "true"
 -- No Rewards for this quest
 
@@ -9243,7 +9208,7 @@ Inst86Quest11_Attain = "80"
 Inst86Quest11_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt."
 Inst86Quest11_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest11_Note = "Hodir ist bei "..YELLOW.."Die Behüter [9]"..WHITE..".  Hordir muss im harten Modus gelegt werden um das Siegel zu bekommen."
-Inst86Quest11_Prequest = "Das himmlische Planetarium"
+Inst86Quest11_Prequest = "Ja, Das himmlische Planetarium"
 Inst86Quest11_Folgequest = "Nein"
 Inst86Quest11PreQuest = "true"
 -- No Rewards for this quest
@@ -9255,7 +9220,7 @@ Inst86Quest12_Attain = "80"
 Inst86Quest12_Aim = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt."
 Inst86Quest12_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest12_Note = "Thorim ist bei "..YELLOW.."Die Behüter [10]"..WHITE..".  Thorim muss im harten Modus gelegt werden um das Siegel zu bekommen."
-Inst86Quest12_Prequest = "Das himmlische Planetarium"
+Inst86Quest12_Prequest = "Ja, Das himmlische Planetarium"
 Inst86Quest12_Folgequest = "Nein"
 Inst86Quest12PreQuest = "true"
 -- No Rewards for this quest
@@ -9267,7 +9232,7 @@ Inst86Quest13_Attain = "80"
 Inst86Quest13_Aim = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Freyas Siegel gelangt."
 Inst86Quest13_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest13_Note = "Freya ist bei "..YELLOW.."Die Behüter [11]"..WHITE..".  Freya muss im harten Modus gelegt werden um das Siegel zu bekommen."
-Inst86Quest13_Prequest = "Das himmlische Planetarium"
+Inst86Quest13_Prequest = "Ja, Das himmlische Planetarium"
 Inst86Quest13_Folgequest = "Nein"
 Inst86Quest13PreQuest = "true"
 -- No Rewards for this quest
@@ -9279,7 +9244,7 @@ Inst86Quest14_Attain = "80"
 Inst86Quest14_Aim = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Mimirons Siegel gelangt."
 Inst86Quest14_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest14_Note = "Mimiron ist bei "..YELLOW.."Der Funke der Imagination [15]"..WHITE..".  Mimiron muss im harten Modus gelegt werden um das Siegel zu bekommen."
-Inst86Quest14_Prequest = "Das himmlische Planetarium"
+Inst86Quest14_Prequest = "Ja, Das himmlische Planetarium"
 Inst86Quest14_Folgequest = "Nein"
 Inst86Quest14PreQuest = "true"
 -- No Rewards for this quest
@@ -9291,7 +9256,7 @@ Inst86Quest15_Attain = "80"
 Inst86Quest15_Aim = "Bringt die Siegel der Wächter zur Archivumkonsole in Ulduar."
 Inst86Quest15_Location = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")"
 Inst86Quest15_Note = "Nach Beendigung der vier Siegel Questen darfst du dann gegen Algalon der Beobachter im himmlischen Planetarium kämpfen."
-Inst86Quest15_Prequest = "Die vier Siegel Questen"
+Inst86Quest15_Prequest = "Ja, Die vier Siegel Questen"
 Inst86Quest15_Folgequest = "Nein"
 Inst86Quest15PreQuest = "true"
 --
