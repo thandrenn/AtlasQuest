@@ -368,7 +368,7 @@ Inst2Quest3name4 = "Pythas' Weste*"
 Inst2Quest3name5 = "Anacondras Robe"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst2Quest1_HORDE = Inst2Quest1
 Inst2Quest1_HORDE_Level = "18"
 Inst2Quest1_HORDE_Attain = "16"
@@ -380,7 +380,7 @@ Inst2Quest1_HORDE_Folgequest = "Nein"
 --No Rewards for this quest
 
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst2Quest2_HORDE = Inst2Quest2
 Inst2Quest2_HORDE_Level = "18"
 Inst2Quest2_HORDE_Attain = "16"
@@ -391,7 +391,7 @@ Inst2Quest2_HORDE_Prequest = "Nein"
 Inst2Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst2Quest3_HORDE = Inst2Quest3
 Inst2Quest3_HORDE_Level = "21"
 Inst2Quest3_HORDE_Attain = "16"
@@ -600,7 +600,7 @@ Inst4Quest4_HORDE_Prequest = "Nein"
 Inst4Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst4Quest5_HORDE = Inst4Quest5
 Inst4Quest5_HORDE_Level = "40"
 Inst4Quest5_HORDE_Attain = "37"
@@ -612,7 +612,7 @@ Inst4Quest5_HORDE_Folgequest = Inst4Quest5_Folgequest
 Inst4Quest5FQuest_Horde = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst4Quest6_HORDE = Inst4Quest6
 Inst4Quest6_HORDE_Level = "40"
 Inst4Quest6_HORDE_Attain = "37"
@@ -902,7 +902,7 @@ Inst5Quest21_Folgequest = "Nein"
 Inst5Quest21name1 = "Braufestmarken"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst5Quest1_HORDE = Inst5Quest1
 Inst5Quest1_HORDE_Level = "52"
 Inst5Quest1_HORDE_Attain = "47"
@@ -914,7 +914,7 @@ Inst5Quest1_HORDE_Folgequest = Inst5Quest1_Folgequest
 Inst5Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst5Quest2_HORDE = Inst5Quest2
 Inst5Quest2_HORDE_Level = "55"
 Inst5Quest2_HORDE_Attain = "47"
@@ -926,7 +926,7 @@ Inst5Quest2_HORDE_Folgequest = "Nein"
 Inst5Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst5Quest3_HORDE = Inst5Quest3
 Inst5Quest3_HORDE_Level = "52"
 Inst5Quest3_HORDE_Attain = "47"
@@ -937,7 +937,7 @@ Inst5Quest3_HORDE_Prequest = "Nein"
 Inst5Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst5Quest4_HORDE = Inst5Quest4
 Inst5Quest4_HORDE_Level = "54"
 Inst5Quest4_HORDE_Attain = "51"
@@ -961,7 +961,7 @@ Inst5Quest5_HORDE_Folgequest = Inst5Quest5_Folgequest
 Inst5Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst5Quest6_HORDE = Inst5Quest6
 Inst5Quest6_HORDE_Level = "56"
 Inst5Quest6_HORDE_Attain = "51"
@@ -973,7 +973,7 @@ Inst5Quest6_HORDE_Folgequest = Inst5Quest6_Folgequest
 Inst5Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst5Quest7_HORDE = Inst5Quest7
 Inst5Quest7_HORDE_Level = "57"
 Inst5Quest7_HORDE_Attain = "51"
@@ -1000,7 +1000,7 @@ Inst5Quest8name1_HORDE = "Dunkeleisenband"
 Inst5Quest8name2_HORDE = "Thaurissans Brustplatte"
 Inst5Quest8name3_HORDE = "Umhang von Kargath"
 
---Quest 9 Horde (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst5Quest9_HORDE = Inst5Quest9
 Inst5Quest9_HORDE_Level = "55"
 Inst5Quest9_HORDE_Attain = "51"
@@ -1052,7 +1052,7 @@ Inst5Quest12PreQuest_HORDE = "true"
 --
 Inst5Quest12name1_HORDE = "Hörner des linken Pfades"
 
---Quest 13 Horde (same as Quest 13 Alliance)
+--Quest 13 Horde
 Inst5Quest13_HORDE = Inst5Quest13
 Inst5Quest13_HORDE_Level = "50"
 Inst5Quest13_HORDE_Attain = "50"
@@ -1149,7 +1149,7 @@ Inst5Quest19name1_HORDE = "Helm des Sonnenläufers"
 Inst5Quest19name2_HORDE = "Gesichtsschutz des Sonnenläufers"
 Inst5Quest19name3_HORDE = "Kopfschutz des Sonnenläufers"
 
---Quest 20 Horde  (same as Quest 19 Alliance)
+--Quest 20 Horde
 Inst5Quest20_HORDE = Inst5Quest19
 Inst5Quest20_HORDE_Level = "60"
 Inst5Quest20_HORDE_Attain = "55"
@@ -1160,7 +1160,7 @@ Inst5Quest20_HORDE_Prequest = "Nein"
 Inst5Quest20_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest 
 
---Quest 21 Horde  (same as Quest 20 Alliance)
+--Quest 21 Horde
 Inst5Quest21_HORDE = Inst5Quest20
 Inst5Quest21_HORDE_Level = "55"
 Inst5Quest21_HORDE_Attain = "55"
@@ -1171,7 +1171,7 @@ Inst5Quest21_HORDE_Prequest = "Nein"
 Inst5Quest21_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest 
 
---Quest 22 Horde  (same as Quest 21 Alliance)
+--Quest 22 Horde
 Inst5Quest22_HORDE = Inst5Quest21
 Inst5Quest22_HORDE_Level = "85"
 Inst5Quest22_HORDE_Attain = "85"
@@ -1453,7 +1453,7 @@ Inst8Quest4name3 = "Brustharnisch des Hochlords"
 Inst8Quest4name4 = "Band der Spitze"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst8Quest1_HORDE = Inst8Quest1
 Inst8Quest1_HORDE_Level = "58"
 Inst8Quest1_HORDE_Attain = "57"
@@ -1464,7 +1464,7 @@ Inst8Quest1_HORDE_Prequest = "Nein"
 Inst8Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 3 Alliance)
+--Quest 2 Horde
 Inst8Quest2_HORDE = "2. Freunde auf der anderen Seite"
 Inst8Quest2_HORDE_Level = "58"
 Inst8Quest2_HORDE_Attain = "57"
@@ -1475,7 +1475,7 @@ Inst8Quest2_HORDE_Prequest = "Nein"
 Inst8Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 4 Alliance)
+--Quest 3 Horde
 Inst8Quest3_HORDE = "3. Trolls, Oger und Orcs, meine Güte!"
 Inst8Quest3_HORDE_Level = "59"
 Inst8Quest3_HORDE_Attain = "57"
@@ -1537,7 +1537,7 @@ Inst9Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst9Quest1_HORDE = Inst9Quest1
 Inst9Quest1_HORDE_Level = Inst9Quest1_Level
 Inst9Quest1_HORDE_Attain = Inst9Quest1_Attain
@@ -1548,7 +1548,7 @@ Inst9Quest1_HORDE_Prequest = "Nein"
 Inst9Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst9Quest2_HORDE = Inst9Quest2
 Inst9Quest2_HORDE_Level = Inst9Quest2_Level
 Inst9Quest2_HORDE_Attain = Inst9Quest2_Attain
@@ -1563,7 +1563,7 @@ Inst9Quest2name2_HORDE = Inst9Quest2name2
 Inst9Quest2name3_HORDE = Inst9Quest2name3
 Inst9Quest2name4_HORDE = Inst9Quest2name4
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst9Quest3_HORDE = Inst9Quest3
 Inst9Quest3_HORDE_Level = Inst9Quest3_Level
 Inst9Quest3_HORDE_Attain = Inst9Quest3_Attain
@@ -1653,7 +1653,7 @@ Inst10Quest6_Prequest = "Nein"
 Inst10Quest6_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst10Quest1_HORDE = Inst10Quest1
 Inst10Quest1_HORDE_Level = Inst10Quest1_Level
 Inst10Quest1_HORDE_Attain = Inst10Quest1_Attain
@@ -1664,7 +1664,7 @@ Inst10Quest1_HORDE_Prequest = "Nein"
 Inst10Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst10Quest2_HORDE = Inst10Quest2
 Inst10Quest2_HORDE_Level = Inst10Quest2_Level
 Inst10Quest2_HORDE_Attain = Inst10Quest2_Attain
@@ -1675,7 +1675,7 @@ Inst10Quest2_HORDE_Prequest = "Nein"
 Inst10Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst10Quest3_HORDE = Inst10Quest3
 Inst10Quest3_HORDE_Level = Inst10Quest3_Level
 Inst10Quest3_HORDE_Attain = Inst10Quest3_Attain
@@ -1686,7 +1686,7 @@ Inst10Quest3_HORDE_Prequest = "Nein"
 Inst10Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst10Quest4_HORDE = Inst10Quest4
 Inst10Quest4_HORDE_Level = Inst10Quest4_Level
 Inst10Quest4_HORDE_Attain = Inst10Quest4_Attain
@@ -1697,7 +1697,7 @@ Inst10Quest4_HORDE_Prequest = "Nein"
 Inst10Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst10Quest5_HORDE = Inst10Quest5
 Inst10Quest5_HORDE_Level = Inst10Quest5_Level
 Inst10Quest5_HORDE_Attain = Inst10Quest5_Attain
@@ -1712,7 +1712,7 @@ Inst10Quest5name2_HORDE = Inst10Quest5name2
 Inst10Quest5name3_HORDE = Inst10Quest5name3
 Inst10Quest5name4_HORDE = Inst10Quest5name4
 
---Quest 6 Horde (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst10Quest6_HORDE = Inst10Quest6
 Inst10Quest6_HORDE_Level = Inst10Quest6_Level
 Inst10Quest6_HORDE_Attain = Inst10Quest6_Attain
@@ -1820,7 +1820,7 @@ Inst11Quest1_HORDE_Prequest = "Nein"
 Inst11Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst11Quest2_HORDE = Inst11Quest2
 Inst11Quest2_HORDE_Level = "47"
 Inst11Quest2_HORDE_Attain = "44"
@@ -1835,7 +1835,7 @@ Inst11Quest2name2_HORDE = Inst11Quest2name2
 Inst11Quest2name3_HORDE = Inst11Quest2name3
 Inst11Quest2name4_HORDE = Inst11Quest2name4
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst11Quest3_HORDE = Inst11Quest3
 Inst11Quest3_HORDE_Level = "46"
 Inst11Quest3_HORDE_Attain = "42"
@@ -1846,7 +1846,7 @@ Inst11Quest3_HORDE_Prequest = "Nein"
 Inst11Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst11Quest4_HORDE = Inst11Quest4
 Inst11Quest4_HORDE_Level = "46"
 Inst11Quest4_HORDE_Attain = "42"
@@ -1858,7 +1858,7 @@ Inst11Quest4_HORDE_Folgequest = "Nein"
 --
 Inst11Quest4name1_HORDE = Inst11Quest4name1
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst11Quest5_HORDE = Inst11Quest5
 Inst11Quest5_HORDE_Level = "47"
 Inst11Quest5_HORDE_Attain = "44"
@@ -1873,7 +1873,7 @@ Inst11Quest5name2_HORDE = Inst11Quest5name2
 Inst11Quest5name3_HORDE = Inst11Quest5name3
 Inst11Quest5name4_HORDE = Inst11Quest5name4
 
---Quest 6 Horde (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst11Quest6_HORDE = Inst11Quest6
 Inst11Quest6_HORDE_Level = "46"
 Inst11Quest6_HORDE_Attain = "44"
@@ -2087,7 +2087,7 @@ Inst12Quest1_HORDE_Prequest = "Nein"
 Inst12Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst12Quest2_HORDE = Inst12Quest2
 Inst12Quest2_HORDE_Level = "43"
 Inst12Quest2_HORDE_Attain = "41"
@@ -2098,7 +2098,7 @@ Inst12Quest2_HORDE_Prequest = "Nein"
 Inst12Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst12Quest3_HORDE = Inst12Quest3
 Inst12Quest3_HORDE_Level = "43"
 Inst12Quest3_HORDE_Attain = "41"
@@ -2109,7 +2109,7 @@ Inst12Quest3_HORDE_Prequest = "Nein"
 Inst12Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst12Quest4_HORDE = Inst12Quest4
 Inst12Quest4_HORDE_Level = "43"
 Inst12Quest4_HORDE_Attain = "41"
@@ -2120,7 +2120,7 @@ Inst12Quest4_HORDE_Prequest = "Nein"
 Inst12Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst12Quest5_HORDE = Inst12Quest5
 Inst12Quest5_HORDE_Level = "44"
 Inst12Quest5_HORDE_Attain = "41"
@@ -2132,7 +2132,7 @@ Inst12Quest5_HORDE_Folgequest = Inst12Quest5_Folgequest
 Inst12Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst12Quest6_HORDE = Inst12Quest6
 Inst12Quest6_HORDE_Level = "44"
 Inst12Quest6_HORDE_Attain = "41"
@@ -2148,7 +2148,7 @@ Inst12Quest6name2_HORDE = Inst12Quest6name2
 Inst12Quest6name3_HORDE = Inst12Quest6name3
 Inst12Quest6name4_HORDE = Inst12Quest6name4
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst12Quest7_HORDE = Inst12Quest7
 Inst12Quest7_HORDE_Level = "60"
 Inst12Quest7_HORDE_Attain = "54"
@@ -2160,7 +2160,7 @@ Inst12Quest7_HORDE_Folgequest = "Nein"
 --
 Inst12Quest7name1_HORDE = Inst12Quest7name1
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst12Quest8_HORDE = Inst12Quest8
 Inst12Quest8_HORDE_Level = "60"
 Inst12Quest8_HORDE_Attain = "54"
@@ -2172,7 +2172,7 @@ Inst12Quest8_HORDE_Folgequest = "Nein"
 --
 Inst12Quest8name1_HORDE = Inst12Quest8name1
 
---Quest 9 Horde  (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst12Quest9_HORDE = Inst12Quest9
 Inst12Quest9_HORDE_Level = "60"
 Inst12Quest9_HORDE_Attain = "54"
@@ -2184,7 +2184,7 @@ Inst12Quest9_HORDE_Folgequest = "Nein"
 --
 Inst12Quest9name1_HORDE = Inst12Quest9name1
 
---Quest 10 Horde  (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst12Quest10_HORDE = Inst12Quest10
 Inst12Quest10_HORDE_Level = "60"
 Inst12Quest10_HORDE_Attain = "54"
@@ -2196,7 +2196,7 @@ Inst12Quest10_HORDE_Folgequest = "Nein"
 --
 Inst12Quest10name1_HORDE = Inst12Quest10name1
 
---Quest 11 Horde  (same as Quest 11 Alliance)
+--Quest 11 Horde
 Inst12Quest11_HORDE = Inst12Quest11
 Inst12Quest11_HORDE_Level = "60"
 Inst12Quest11_HORDE_Attain = "54"
@@ -2208,7 +2208,7 @@ Inst12Quest11_HORDE_Folgequest = "Nein"
 --
 Inst12Quest11name1_HORDE = Inst12Quest11name1
 
---Quest 12 Horde  (same as Quest 12 Alliance)
+--Quest 12 Horde
 Inst12Quest12_HORDE = Inst12Quest12
 Inst12Quest12_HORDE_Level = "60"
 Inst12Quest12_HORDE_Attain = "54"
@@ -2220,7 +2220,7 @@ Inst12Quest12_HORDE_Folgequest = "Nein"
 --
 Inst12Quest12name1_HORDE = Inst12Quest12name1
 
---Quest 13 Horde  (same as Quest 13 Alliance)
+--Quest 13 Horde
 Inst12Quest13_HORDE = Inst12Quest13
 Inst12Quest13_HORDE_Level = "60"
 Inst12Quest13_HORDE_Attain = "54"
@@ -2232,7 +2232,7 @@ Inst12Quest13_HORDE_Folgequest = "Nein"
 --
 Inst12Quest13name1_HORDE = Inst12Quest13name1
 
---Quest 14 Horde  (same as Quest 14 Alliance)
+--Quest 14 Horde
 Inst12Quest14_HORDE = Inst12Quest14
 Inst12Quest14_HORDE_Level = "60"
 Inst12Quest14_HORDE_Attain = "54"
@@ -2244,7 +2244,7 @@ Inst12Quest14_HORDE_Folgequest = "Nein"
 --
 Inst12Quest14name1_HORDE = Inst12Quest14name1
 
---Quest 15 Horde  (same as Quest 15 Alliance)
+--Quest 15 Horde
 Inst12Quest15_HORDE = Inst12Quest15
 Inst12Quest15_HORDE_Level = "60"
 Inst12Quest15_HORDE_Attain = "54"
@@ -2304,7 +2304,7 @@ Inst13Quest3name4 = "Sandalen des prachtvollen Lebens"
 Inst13Quest3name5 = "Zaetars Handschuhe"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst13Quest1_HORDE = Inst13Quest1
 Inst13Quest1_HORDE_Level = "34"
 Inst13Quest1_HORDE_Attain = "32"
@@ -2315,7 +2315,7 @@ Inst13Quest1_HORDE_Prequest = "Nein"
 Inst13Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst13Quest2_HORDE = Inst13Quest2
 Inst13Quest2_HORDE_Level = "36"
 Inst13Quest2_HORDE_Attain = "34"
@@ -2326,7 +2326,7 @@ Inst13Quest2_HORDE_Prequest = "Nein"
 Inst13Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst13Quest3_HORDE = Inst13Quest3
 Inst13Quest3_HORDE_Level = "39"
 Inst13Quest3_HORDE_Attain = "36"
@@ -2376,7 +2376,7 @@ Inst14Quest2_Folgequest = "Nein"
 Inst14Quest2name1 = "Pläne: Sulfuronhammer"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst14Quest1_HORDE = Inst14Quest1
 Inst14Quest1_HORDE_Level = "60"
 Inst14Quest1_HORDE_Attain = "60"
@@ -2388,7 +2388,7 @@ Inst14Quest1_HORDE_Folgequest = Inst26Quest1_Folgequest
 Inst14Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst14Quest2_HORDE = Inst14Quest2
 Inst14Quest2_HORDE_Level = "60"
 Inst14Quest2_HORDE_Attain = "60"
@@ -2524,7 +2524,7 @@ Inst17Quest6PreQuest = "true"
 Inst17Quest5name1 = "Drachenklauenring"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst17Quest1_HORDE = Inst17Quest1
 Inst17Quest1_HORDE_Level = "43"
 Inst17Quest1_HORDE_Attain = "42"
@@ -2536,7 +2536,7 @@ Inst17Quest1_HORDE_Folgequest = Inst17Quest1_Folgequest
 Inst17Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst17Quest2_HORDE = Inst17Quest2
 Inst17Quest2_HORDE_Level = "46"
 Inst17Quest2_HORDE_Attain = "40"
@@ -2553,7 +2553,7 @@ Inst17Quest2name3_HORDE = Inst17Quest2name3
 Inst17Quest2name4_HORDE = Inst17Quest2name4
 Inst17Quest2name5_HORDE = Inst17Quest2name5
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst17Quest3_HORDE = Inst17Quest3
 Inst17Quest3_HORDE_Level = "44"
 Inst17Quest3_HORDE_Attain = "40"
@@ -2564,7 +2564,7 @@ Inst17Quest3_HORDE_Prequest = "Nein"
 Inst17Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst17Quest4_HORDE = Inst17Quest4
 Inst17Quest4_HORDE_Level = "44"
 Inst17Quest4_HORDE_Attain = "40"
@@ -2575,7 +2575,7 @@ Inst17Quest4_HORDE_Prequest = "Nein"
 Inst17Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst17Quest5_HORDE = Inst17Quest5
 Inst17Quest5_HORDE_Level = "44"
 Inst17Quest5_HORDE_Attain = "40"
@@ -2587,7 +2587,7 @@ Inst17Quest5_HORDE_Folgequest = Inst17Quest5PreQuest
 Inst17Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst17Quest6_HORDE = Inst17Quest6
 Inst17Quest6_HORDE_Level = "45"
 Inst17Quest6_HORDE_Attain = "40"
@@ -2685,7 +2685,7 @@ Inst18Quest6name1 = "Affenring"
 Inst18Quest6name2 = "Natternreifen"
 Inst18Quest6name3 = "Tigerband"
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst18Quest1_HORDE = Inst18Quest1
 Inst18Quest1_HORDE_Level = "33"
 Inst18Quest1_HORDE_Attain = "30"
@@ -2696,7 +2696,7 @@ Inst18Quest1_HORDE_Prequest = "Nein"
 Inst18Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst18Quest2_HORDE = Inst18Quest2
 Inst18Quest2_HORDE_Level = "35"
 Inst18Quest2_HORDE_Attain = "30"
@@ -2708,7 +2708,7 @@ Inst18Quest2_HORDE_Folgequest = Inst18Quest2Folgequest
 Inst18Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst18Quest3_HORDE = Inst18Quest3
 Inst18Quest3_HORDE_Level = "35"
 Inst18Quest3_HORDE_Attain = "30"
@@ -2725,7 +2725,7 @@ Inst18Quest3name3_HORDE = Inst18Quest3name3
 Inst18Quest3name4_HORDE = Inst18Quest3name4
 Inst18Quest3name5_HORDE = Inst18Quest3name5
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst18Quest4_HORDE = Inst18Quest4
 Inst18Quest4_HORDE_Level = "35"
 Inst18Quest4_HORDE_Attain = "30"
@@ -2736,7 +2736,7 @@ Inst18Quest4_HORDE_Prequest = "Nein"
 Inst18Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst18Quest5_HORDE = Inst18Quest5
 Inst18Quest5_HORDE_Level = "35"
 Inst18Quest5_HORDE_Attain = "30"
@@ -2747,7 +2747,7 @@ Inst18Quest5_HORDE_Prequest = "Nein"
 Inst18Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst18Quest6_HORDE = Inst18Quest6
 Inst18Quest6_HORDE_Level = "35"
 Inst18Quest6_HORDE_Attain = "30"
@@ -2832,7 +2832,7 @@ Inst19Quest2name1_HORDE = "Schild der Kameraden"
 Inst19Quest2name2_HORDE = "Hundeführergürtel"
 Inst19Quest2name3_HORDE = "Band des Arkanisten"
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst19Quest3_HORDE = Inst19Quest3
 Inst19Quest3_HORDE_Level = "33"
 Inst19Quest3_HORDE_Attain = "29"
@@ -2918,7 +2918,7 @@ Inst57Quest2name3_HORDE = "Schiftung des Unausgebildeten"
 Inst57Quest2name4_HORDE = "Mönchsgamaschen"
 Inst57Quest2name5_HORDE = "Velonaras Umhang"
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst57Quest3_HORDE = Inst57Quest3
 Inst57Quest3_HORDE_Level = "36"
 Inst57Quest3_HORDE_Attain = "32"
@@ -2986,7 +2986,7 @@ Inst58Quest1_HORDE_Prequest = "Nein"
 Inst58Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst58Quest2_HORDE = Inst58Quest2
 Inst58Quest2_HORDE_Level = "39"
 Inst58Quest2_HORDE_Attain = "35"
@@ -3000,7 +3000,7 @@ Inst58Quest2name1_HORDE = "Griffe der Verlassenen"
 Inst58Quest2name2_HORDE = "Geschenk der Bansheekönigin"
 Inst58Quest2name3_HORDE = "Band des Zorns"
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst58Quest3_HORDE = Inst58Quest3
 Inst58Quest3_HORDE_Level = "39"
 Inst58Quest3_HORDE_Attain = "35"
@@ -3178,7 +3178,7 @@ Inst20Quest8name3 = "Luciens Stiefel"
 Inst20Quest8name4 = "Signet des Dunkelmeisters"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst20Quest1_HORDE = Inst20Quest1
 Inst20Quest1_HORDE_Level = "43"
 Inst20Quest1_HORDE_Attain = "38"
@@ -3189,7 +3189,7 @@ Inst20Quest1_HORDE_Prequest = "Nein"
 Inst20Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst20Quest2_HORDE = Inst20Quest2
 Inst20Quest2_HORDE_Level = "43"
 Inst20Quest2_HORDE_Attain = "38"
@@ -3201,7 +3201,7 @@ Inst20Quest2_HORDE_Folgequest = "Nein"
 --
 Inst20Quest2name1_HORDE = Inst20Quest2name1
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst20Quest3_HORDE = Inst20Quest3
 Inst20Quest3_HORDE_Level = "43"
 Inst20Quest3_HORDE_Attain = "38"
@@ -3212,7 +3212,7 @@ Inst20Quest3_HORDE_Prequest = "Nein"
 Inst20Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst20Quest4_HORDE = Inst20Quest4
 Inst20Quest4_HORDE_Level = "43"
 Inst20Quest4_HORDE_Attain = "38"
@@ -3223,7 +3223,7 @@ Inst20Quest4_HORDE_Prequest = "Nein"
 Inst20Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst20Quest5_HORDE = Inst20Quest5
 Inst20Quest5_HORDE_Level = "42"
 Inst20Quest5_HORDE_Attain = "40"
@@ -3234,7 +3234,7 @@ Inst20Quest5_HORDE_Prequest = "Nein"
 Inst20Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst20Quest6_HORDE = Inst20Quest6
 Inst20Quest6_HORDE_Level = "43"
 Inst20Quest6_HORDE_Attain = "38"
@@ -3245,7 +3245,7 @@ Inst20Quest6_HORDE_Prequest = "Nein"
 Inst20Quest6_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst20Quest7_HORDE = Inst20Quest7
 Inst20Quest7_HORDE_Level = "42"
 Inst20Quest7_HORDE_Attain = "38"
@@ -3256,7 +3256,7 @@ Inst20Quest7_HORDE_Prequest = "Nein"
 Inst20Quest7_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst20Quest8_HORDE = Inst20Quest8
 Inst20Quest8_HORDE_Level = "43"
 Inst20Quest8_HORDE_Attain = "38"
@@ -3559,7 +3559,7 @@ Inst22Quest12_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst22Quest1_HORDE = Inst22Quest1
 Inst22Quest1_HORDE_Level = "45"
 Inst22Quest1_HORDE_Attain = "44"
@@ -3570,7 +3570,7 @@ Inst22Quest1_HORDE_Prequest = "Nein"
 Inst22Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst22Quest2_HORDE = Inst22Quest2
 Inst22Quest2_HORDE_Level = "46"
 Inst22Quest2_HORDE_Attain = "42"
@@ -3581,7 +3581,7 @@ Inst22Quest2_HORDE_Prequest = "Nein"
 Inst22Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst22Quest3_HORDE = Inst22Quest3
 Inst22Quest3_HORDE_Level = "46"
 Inst22Quest3_HORDE_Attain = "42"
@@ -3592,7 +3592,7 @@ Inst22Quest3_HORDE_Prequest = "Nein"
 Inst22Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst22Quest4_HORDE = Inst22Quest4
 Inst22Quest4_HORDE_Level = "47"
 Inst22Quest4_HORDE_Attain = "42"
@@ -3603,7 +3603,7 @@ Inst22Quest4_HORDE_Prequest = "Nein"
 Inst22Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst22Quest5_HORDE = Inst22Quest5
 Inst22Quest5_HORDE_Level = "46"
 Inst22Quest5_HORDE_Attain = "42"
@@ -3614,7 +3614,7 @@ Inst22Quest5_HORDE_Prequest = "Nein"
 Inst22Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst22Quest6_HORDE = Inst22Quest6
 Inst22Quest6_HORDE_Level = "51"
 Inst22Quest6_HORDE_Attain = "46"
@@ -3629,7 +3629,7 @@ Inst22Quest6name2_HORDE = Inst22Quest6name2
 Inst22Quest6name3_HORDE = Inst22Quest6name3
 Inst22Quest6name4_HORDE = Inst22Quest6name4
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst22Quest7_HORDE = Inst22Quest7
 Inst22Quest7_HORDE_Level = "47"
 Inst22Quest7_HORDE_Attain = "42"
@@ -3640,7 +3640,7 @@ Inst22Quest7_HORDE_Prequest = "Nein"
 Inst22Quest7_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst22Quest8_HORDE = Inst22Quest8
 Inst22Quest8_HORDE_Level = "46"
 Inst22Quest8_HORDE_Attain = "42"
@@ -3651,7 +3651,7 @@ Inst22Quest8_HORDE_Prequest = "Nein"
 Inst22Quest8_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 9 Horde  (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst22Quest9_HORDE = Inst22Quest9
 Inst22Quest9_HORDE_Level = "50"
 Inst22Quest9_HORDE_Attain = "46"
@@ -3662,7 +3662,7 @@ Inst22Quest9_HORDE_Prequest = "Nein"
 Inst22Quest9_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst22Quest10_HORDE = Inst22Quest10
 Inst22Quest10_HORDE_Level = "50"
 Inst22Quest10_HORDE_Attain = "46"
@@ -3673,7 +3673,7 @@ Inst22Quest10_HORDE_Prequest = "Nein"
 Inst22Quest10_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 11 Horde  (same as Quest 11 Alliance)
+--Quest 11 Horde
 Inst22Quest11_HORDE = Inst22Quest11
 Inst22Quest11_HORDE_Level = "50"
 Inst22Quest11_HORDE_Attain = "46"
@@ -3684,7 +3684,7 @@ Inst22Quest11_HORDE_Prequest = "Nein"
 Inst22Quest11_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 12 Horde  (same as Quest 12 Alliance)
+--Quest 12 Horde
 Inst22Quest12_HORDE = Inst22Quest12
 Inst22Quest12_HORDE_Level = "50"
 Inst22Quest12_HORDE_Attain = "46"
@@ -3720,7 +3720,7 @@ Inst23Quest1name3 = "Halsschmuck der Sandstürme"
 Inst23Quest1name4 = "Anhänger der Sandstürme"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst23Quest1_HORDE = Inst23Quest1
 Inst23Quest1_HORDE_Level = "60"
 Inst23Quest1_HORDE_Attain = "60"
@@ -3749,7 +3749,7 @@ Inst24Quest1 = "1. Das gute alte Hütchenspiel"
 Inst24Quest1_Level = "23"
 Inst24Quest1_Attain = "20"
 Inst24Quest1_Aim = "Tötet Randolph Moloch."
-Inst24Quest1_Location = "Schützenkommandant Coe (Das Verlies; "..YELLOW.."Eingang"..WHITE..")"
+Inst24Quest1_Location = "Schützenkommandant Coe (Das Verlies; "..GREEN.."[1']"..WHITE..")"
 Inst24Quest1_Note = "Randolph Moloch befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst24Quest1_Prequest = "Nein"
 Inst24Quest1_Folgequest = "Nein"
@@ -3760,8 +3760,8 @@ Inst24Quest2 = "2. Lasst das Feuer Euch erretten!"
 Inst24Quest2_Level = "24"
 Inst24Quest2_Attain = "20"
 Inst24Quest2_Aim = "Beschafft Fürst Gluthitzes Feuerkern."
-Inst24Quest2_Location = "Schwester Lillian (Das Verlies; "..YELLOW.."Eingang"..WHITE..")"
-Inst24Quest2_Note = "Fürst Gluthitze befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst24Quest2_Location = "Schwester Lillian (Das Verlies; "..GREEN.."[3']"..WHITE..")"
+Inst24Quest2_Note = "Fürst Gluthitze befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst24Quest2_Prequest = "Nein"
 Inst24Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3771,8 +3771,8 @@ Inst24Quest3 = "3. Der König der Gnolle"
 Inst24Quest3_Level = "25"
 Inst24Quest3_Attain = "20"
 Inst24Quest3_Aim = "Besiegt Hogger."
-Inst24Quest3_Location = "Aufseher Thelwasser (Das Verlies; "..YELLOW.."Eingang"..WHITE..")"
-Inst24Quest3_Note = "Hogger befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst24Quest3_Location = "Aufseher Thelwasser (Das Verlies; "..GREEN.."[2']"..WHITE..")"
+Inst24Quest3_Note = "Hogger befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst24Quest3_Prequest = "Nein"
 Inst24Quest3_Folgequest = "Nein"
 --
@@ -3795,8 +3795,8 @@ Inst25Quest1 = "1. Das Herz des Tempels"
 Inst25Quest1_Level = "54"
 Inst25Quest1_Attain = "52"
 Inst25Quest1_Aim = "Sprecht im Inneren des Tempels von Atal'Hakkar erneut mit Lord Itharius."
-Inst25Quest1_Location = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
-Inst25Quest1_Note = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
+Inst25Quest1_Location = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
+Inst25Quest1_Note = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
 Inst25Quest1_Prequest = "Nein"
 Inst25Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3806,8 +3806,8 @@ Inst25Quest2 = "2. Der Blutgott Hakkar"
 Inst25Quest2_Level = "54"
 Inst25Quest2_Attain = "50"
 Inst25Quest2_Aim = "Tötet den Avatar von Hakkar."
-Inst25Quest2_Location = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
-Inst25Quest2_Note = "Avatar von Hakkar befindet sich bei."
+Inst25Quest2_Location = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
+Inst25Quest2_Note = "Avatar von Hakkar befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst25Quest2_Prequest = "Nein"
 Inst25Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3817,8 +3817,8 @@ Inst25Quest3 = "3. Jammal'an der Prophet"
 Inst25Quest3_Level = "54"
 Inst25Quest3_Attain = "50"
 Inst25Quest3_Aim = "Erbeutet den Kopf von Jammal'an dem Propheten."
-Inst25Quest3_Location = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
-Inst25Quest3_Note = "Jammal'an dem Propheten befindet sich bei."
+Inst25Quest3_Location = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
+Inst25Quest3_Note = "Jammal'an dem Propheten befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst25Quest3_Prequest = "Nein"
 Inst25Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3828,15 +3828,15 @@ Inst25Quest4 = "4. Eranikus"
 Inst25Quest4_Level = "54"
 Inst25Quest4_Attain = "50"
 Inst25Quest4_Aim = "Tötet Eranikus."
-Inst25Quest4_Location = "Lord Itharius (Versunkener Tempel; "..YELLOW.."Eingang"..WHITE..")"
-Inst25Quest4_Note = "Eranikus' Schemen befindet sich bei."
+Inst25Quest4_Location = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
+Inst25Quest4_Note = "Eranikus' Schemen befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst25Quest4_Prequest = "Nein"
 Inst25Quest4_Folgequest = "Nein"
 --
 Inst25Quest4name1 = "Essenz des Schemens von Eranikus"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst25Quest1_HORDE = "1. Der Tempel von Atal'Hakkar"
 Inst25Quest1_HORDE_Level = "54"
 Inst25Quest1_HORDE_Attain = "52"
@@ -3847,7 +3847,7 @@ Inst25Quest1_HORDE_Prequest = "Nein"
 Inst25Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst25Quest2_HORDE = "2. Der versunkene Tempel"
 Inst25Quest2_HORDE_Level = "54"
 Inst25Quest2_HORDE_Attain = "50"
@@ -3858,7 +3858,7 @@ Inst25Quest2_HORDE_Prequest = "Nein"
 Inst25Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst25Quest3_HORDE = Inst25Quest3
 Inst25Quest3_HORDE_Level = "54"
 Inst25Quest3_HORDE_Attain = "50"
@@ -3869,7 +3869,7 @@ Inst25Quest3_HORDE_Prequest = "Nein"
 Inst25Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst25Quest4_HORDE = Inst25Quest4
 Inst25Quest4_HORDE_Level = "54"
 Inst25Quest4_HORDE_Attain = "50"
@@ -3940,7 +3940,7 @@ Inst26Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst26Quest1_HORDE = Inst26Quest1
 Inst26Quest1_HORDE_Level = "60"
 Inst26Quest1_HORDE_Attain = "60"
@@ -3952,7 +3952,7 @@ Inst26Quest1_HORDE_Folgequest = Inst26Quest1_Folgequest
 Inst26Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst26Quest2_HORDE = Inst26Quest2
 Inst26Quest2_HORDE_Level = "60"
 Inst26Quest2_HORDE_Attain = "60"
@@ -3967,7 +3967,7 @@ Inst26Quest2name1_HORDE = Inst26Quest2name1
 Inst26Quest2name2_HORDE = Inst26Quest2name2
 Inst26Quest2name3_HORDE = Inst26Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst26Quest3_HORDE = Inst26Quest3
 Inst26Quest3_HORDE_Level = "60"
 Inst26Quest3_HORDE_Attain = "60"
@@ -3978,7 +3978,7 @@ Inst26Quest3_HORDE_Prequest = "Nein"
 Inst26Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst26Quest4_HORDE = "4. Sterbliche Helden"
 Inst26Quest4_HORDE_Level = "60"
 Inst26Quest4_HORDE_Attain = "60"
@@ -4064,7 +4064,7 @@ Inst27Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst27Quest1_HORDE = Inst27Quest1
 Inst27Quest1_HORDE_Level = "47"
 Inst27Quest1_HORDE_Attain = "46"
@@ -4076,7 +4076,7 @@ Inst27Quest1_HORDE_Folgequest = Inst27Quest1_Folgequest
 Inst27Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst27Quest2_HORDE = Inst27Quest2
 Inst27Quest2_HORDE_Level = "49"
 Inst27Quest2_HORDE_Attain = "44"
@@ -4092,7 +4092,7 @@ Inst27Quest2name2_HORDE = Inst27Quest2name2
 Inst27Quest2name3_HORDE = Inst27Quest2name3
 
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst27Quest3_HORDE = Inst27Quest3
 Inst27Quest3_HORDE_Level = "48"
 Inst27Quest3_HORDE_Attain = "44"
@@ -4103,7 +4103,7 @@ Inst27Quest3_HORDE_Prequest = "Nein"
 Inst27Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst27Quest4_HORDE = Inst27Quest4
 Inst27Quest4_HORDE_Level = "48"
 Inst27Quest4_HORDE_Attain = "44"
@@ -4119,7 +4119,7 @@ Inst27Quest4name3_HORDE = Inst27Quest4name3
 Inst27Quest4name4_HORDE = Inst27Quest4name4
 Inst27Quest4name5_HORDE = Inst27Quest4name5
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst27Quest5_HORDE = Inst27Quest5
 Inst27Quest5_HORDE_Level = "48"
 Inst27Quest5_HORDE_Attain = "44"
@@ -4242,7 +4242,7 @@ Inst29Quest8_Folgequest = "Nein"
 Inst29Quest8name1 = "Funkelmatverpackter Kasten"
 
 
---Quest 1 Horde  (same as Quest 6 Alliance)
+--Quest 1 Horde
 Inst29Quest1_HORDE = Inst29Quest6
 Inst29Quest1_HORDE_Level = "34"
 Inst29Quest1_HORDE_Attain = "24"
@@ -4254,7 +4254,7 @@ Inst29Quest1_HORDE_Folgequest = Inst29Quest7_Folgequest
 Inst29Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 7 Alliance)
+--Quest 2 Horde
 Inst29Quest2_HORDE = Inst29Quest7
 Inst29Quest2_HORDE_Level = "34"
 Inst29Quest2_HORDE_Attain = "24"
@@ -4267,7 +4267,7 @@ Inst29Quest2FQuest_HORDE = "true"
 --
 Inst29Quest2name1_HORDE = Inst29Quest7name1
 
---Quest 3 Horde  (same as Quest 8 Alliance)
+--Quest 3 Horde
 Inst29Quest3_HORDE = Inst29Quest8
 Inst29Quest3_HORDE_Level = "30"
 Inst29Quest3_HORDE_Attain = "25"
@@ -4352,7 +4352,7 @@ Inst37Quest3_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance - different NPCs and pre-quest)
+--Quest 1 Horde
 Inst37Quest1_HORDE = Inst37Quest1
 Inst37Quest1_HORDE_Level = "62"
 Inst37Quest1_HORDE_Attain = "59"
@@ -4368,7 +4368,7 @@ Inst37Quest1name2_HORDE = Inst37Quest1name2
 Inst37Quest1name3_HORDE = Inst37Quest1name3
 Inst37Quest1name4_HORDE = Inst37Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+--Quest 2 Horde
 Inst37Quest2_HORDE = Inst37Quest2
 Inst37Quest2_HORDE_Level = "62"
 Inst37Quest2_HORDE_Attain = "59"
@@ -4380,7 +4380,7 @@ Inst37Quest2_HORDE_Folgequest = Inst37Quest2_Folgequest
 Inst37Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst37Quest3_HORDE = Inst37Quest3
 Inst37Quest3_HORDE_Level = "70"
 Inst37Quest3_HORDE_Attain = "70"
@@ -4468,7 +4468,7 @@ Inst38Quest3_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance - different NPC to turn in)
+--Quest 1 Horde
 Inst38Quest1_HORDE = Inst38Quest1
 Inst38Quest1_HORDE_Level = "63"
 Inst38Quest1_HORDE_Attain = "59"
@@ -4484,7 +4484,7 @@ Inst38Quest1name2_HORDE = Inst38Quest1name2
 Inst38Quest1name3_HORDE = Inst38Quest1name3
 Inst38Quest1name4_HORDE = Inst38Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+--Quest 2 Horde
 Inst38Quest2_HORDE = Inst38Quest2
 Inst38Quest2_HORDE_Level = "63"
 Inst38Quest2_HORDE_Attain = "59"
@@ -4499,7 +4499,7 @@ Inst38Quest2name1_HORDE = Inst38Quest2name1
 Inst38Quest2name2_HORDE = Inst38Quest2name2
 Inst38Quest2name3_HORDE = Inst38Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst38Quest3_HORDE = Inst38Quest3
 Inst38Quest3_HORDE_Level = "70"
 Inst38Quest3_HORDE_Attain = "70"
@@ -4651,7 +4651,7 @@ Inst39Quest10FQuest = "true"
 Inst39Quest10name1 = "Schlüssel der zerschmetterten Hallen"
 
 
---Quest 1 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+--Quest 1 Horde
 Inst39Quest1_HORDE = "1. Der Stolz der Höllenhorde"
 Inst39Quest1_HORDE_Level = Inst39Quest2_Level
 Inst39Quest1_HORDE_Attain = Inst39Quest2_Attain
@@ -4688,7 +4688,7 @@ Inst39Quest3_HORDE_Prequest = "Nein"
 Inst39Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 5 Alliance)
+--Quest 4 Horde
 Inst39Quest4_HORDE = "4. Die Prüfung der Naaru: Erbarmen (Heroisch)"
 Inst39Quest4_HORDE_Level = "70"
 Inst39Quest4_HORDE_Attain = "70"
@@ -4699,7 +4699,7 @@ Inst39Quest4_HORDE_Prequest = "Nein"
 Inst39Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 6 Alliance)
+--Quest 5 Horde
 Inst39Quest5_HORDE = "5. Träne der Erdenmutter"
 Inst39Quest5_HORDE_Level = "70"
 Inst39Quest5_HORDE_Attain = "67"
@@ -4710,7 +4710,7 @@ Inst39Quest5_HORDE_Prequest = "Nein"
 Inst39Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 6 Alliance  (same as Quest 7 Alliance)
+--Quest 6 Alliance
 Inst39Quest6_HORDE = "6. Kalynnas Bitte (Heroisch)"
 Inst39Quest6_HORDE_Level = "70"
 Inst39Quest6_HORDE_Attain = "70"
@@ -4722,7 +4722,7 @@ Inst39Quest6_HORDE_Folgequest = Inst39Quest7_Folgequest
 Inst39Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 7 Horde  (same as Quest 8 Alliance)
+--Quest 7 Horde
 Inst39Quest7_HORDE = "7. Gesucht: Messerfausts Siegel (Heroisches Tagesquest)"
 Inst39Quest7_HORDE_Level = "70"
 Inst39Quest7_HORDE_Attain = "70"
@@ -4734,7 +4734,7 @@ Inst39Quest7_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 8 Horde  (same as Quest 9 Alliance)
+--Quest 8 Horde
 Inst39Quest8_HORDE = "8. Gesucht: Zenturionen der Zerschmetterten Hand (Tagesquest)"
 Inst39Quest8_HORDE_Level = "70"
 Inst39Quest8_HORDE_Attain = "70"
@@ -4802,7 +4802,7 @@ Inst40Quest2name3 = "Lichtwächterband der Naaru"
 Inst40Quest2name4 = "Ring des Aufsässigen"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst40Quest1_HORDE = Inst40Quest1
 Inst40Quest1_HORDE_Level = "70"
 Inst40Quest1_HORDE_Attain = "70"
@@ -4815,7 +4815,7 @@ Inst40Quest1PreQuest_HORDE = "true"
 --
 Inst40Quest1name1_HORDE = Inst40Quest1name1
 
---Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+--Quest 2 Horde
 Inst40Quest2_HORDE = Inst40Quest2
 Inst40Quest2_HORDE_Level = "70"
 Inst40Quest2_HORDE_Attain = "70"
@@ -4893,7 +4893,7 @@ Inst41Quest7name2 = "Wappenrock der Sommerflammen"
 Inst41Quest7name3 = "Brandblüte"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst41Quest1_HORDE = Inst41Quest1
 Inst41Quest1_HORDE_Level = "65"
 Inst41Quest1_HORDE_Attain = "62"
@@ -4908,7 +4908,7 @@ Inst41Quest1name1_HORDE = Inst41Quest1name1
 Inst41Quest1name2_HORDE = Inst41Quest1name2
 Inst41Quest1name3_HORDE = Inst41Quest1name3
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst41Quest2_HORDE = Inst41Quest2
 Inst41Quest2_HORDE_Level = "70"
 Inst41Quest2_HORDE_Attain = "70"
@@ -4920,7 +4920,7 @@ Inst41Quest2_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst41Quest3_HORDE = Inst41Quest3
 Inst41Quest3_HORDE_Level = "70"
 Inst41Quest3_HORDE_Attain = "70"
@@ -4931,7 +4931,7 @@ Inst41Quest3_HORDE_Prequest = "Nein"
 Inst41Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst41Quest4_HORDE = Inst41Quest4
 Inst41Quest4_HORDE_Level = "85"
 Inst41Quest4_HORDE_Attain = "85"
@@ -5042,7 +5042,7 @@ Inst42Quest7_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst42Quest1_HORDE = Inst42Quest1
 Inst42Quest1_HORDE_Level = "70"
 Inst42Quest1_HORDE_Attain = "67"
@@ -5057,7 +5057,7 @@ Inst42Quest1name2_HORDE = Inst42Quest1name2
 Inst42Quest1name3_HORDE = Inst42Quest1name3
 Inst42Quest1name4_HORDE = Inst42Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst42Quest2_HORDE = Inst42Quest2
 Inst42Quest2_HORDE_Level = "70"
 Inst42Quest2_HORDE_Attain = "67"
@@ -5069,7 +5069,7 @@ Inst42Quest2_HORDE_Folgequest = Inst42Quest2_Folgequest
 Inst42Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst42Quest3_HORDE = Inst42Quest3
 Inst42Quest3_HORDE_Level = "70"
 Inst42Quest3_HORDE_Attain = "70"
@@ -5080,7 +5080,7 @@ Inst42Quest3_HORDE_Prequest = "Nein"
 Inst42Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst42Quest4_HORDE = Inst42Quest4
 Inst42Quest4_HORDE_Level = "70"
 Inst42Quest4_HORDE_Attain = "67"
@@ -5092,7 +5092,7 @@ Inst42Quest4_HORDE_Folgequest = Inst42Quest4_Folgequest
 Inst42Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst42Quest5_HORDE = Inst42Quest5
 Inst42Quest5_HORDE_Level = "70"
 Inst42Quest5_HORDE_Attain = "68"
@@ -5104,7 +5104,7 @@ Inst42Quest5_HORDE_Folgequest = Inst42Quest5_Folgequest
 Inst42Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst42Quest6_HORDE = Inst42Quest6
 Inst42Quest6_HORDE_Level = "70"
 Inst42Quest6_HORDE_Attain = "70"
@@ -5116,7 +5116,7 @@ Inst42Quest6_HORDE_Folgequest = "Nein"
 --
 Inst42Quest6name1_HORDE = Inst42Quest6name1
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst42Quest7_HORDE = Inst42Quest7
 Inst42Quest7_HORDE_Level = "70"
 Inst42Quest7_HORDE_Attain = "70"
@@ -5202,7 +5202,7 @@ Inst43Quest5FQuest = "true"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst43Quest1_HORDE = Inst43Quest1
 Inst43Quest1_HORDE_Level = "65"
 Inst43Quest1_HORDE_Attain = "62"
@@ -5217,7 +5217,7 @@ Inst43Quest1name1_HORDE = Inst43Quest1name1
 Inst43Quest1name2_HORDE = Inst43Quest1name2
 Inst43Quest1name3_HORDE = Inst43Quest1name3
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst43Quest2_HORDE = Inst43Quest2
 Inst43Quest2_HORDE_Level = "65"
 Inst43Quest2_HORDE_Attain = "63"
@@ -5229,7 +5229,7 @@ Inst43Quest2_HORDE_Folgequest = "Nein"
 --
 Inst43Quest2name1_HORDE = Inst43Quest2name1
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst43Quest3_HORDE = Inst43Quest3
 Inst43Quest3_HORDE_Level = "65"
 Inst43Quest3_HORDE_Attain = "63"
@@ -5242,7 +5242,7 @@ Inst43Quest3_HORDE_Folgequest = "Nein"
 Inst43Quest3name1_HORDE = Inst43Quest3name1
 Inst43Quest3name2_HORDE = Inst43Quest3name2
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst43Quest4_HORDE = Inst43Quest4
 Inst43Quest4_HORDE_Level = "70"
 Inst43Quest4_HORDE_Attain = "70"
@@ -5254,7 +5254,7 @@ Inst43Quest4_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst43Quest5_HORDE = Inst43Quest5
 Inst43Quest5_HORDE_Level = "65"
 Inst43Quest5_HORDE_Attain = "63"
@@ -5328,7 +5328,7 @@ Inst44Quest2_HORDE_Folgequest = "Ja, Rückkehr zur Großmutter"
 Inst44Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 1 Alliance)
+--Quest 3 Horde
 Inst44Quest3_HORDE = Inst44Quest1
 Inst44Quest3_HORDE_Level = "67"
 Inst44Quest3_HORDE_Attain = "64"
@@ -5344,7 +5344,7 @@ Inst44Quest3name2_HORDE = Inst44Quest1name2
 Inst44Quest3name3_HORDE = Inst44Quest1name3
 Inst44Quest3name4_HORDE = Inst44Quest1name4
 
---Quest 4 Horde  (same as Quest 2 Alliance)
+--Quest 4 Horde
 Inst44Quest4_HORDE = Inst44Quest2
 Inst44Quest4_HORDE_Level = "70"
 Inst44Quest4_HORDE_Attain = "70"
@@ -5434,7 +5434,7 @@ Inst45Quest5_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst45Quest1_HORDE = Inst45Quest1
 Inst45Quest1_HORDE_Level = "66"
 Inst45Quest1_HORDE_Attain = "64"
@@ -5446,7 +5446,7 @@ Inst45Quest1_HORDE_Folgequest = Inst45Quest1_Folgequest
 Inst45Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst45Quest2_HORDE = Inst45Quest2
 Inst45Quest2_HORDE_Level = "66"
 Inst45Quest2_HORDE_Attain = "64"
@@ -5462,7 +5462,7 @@ Inst45Quest2name2_HORDE = Inst45Quest2name2
 Inst45Quest2name3_HORDE = Inst45Quest2name3
 Inst45Quest2name4_HORDE = Inst45Quest2name4
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst45Quest3_HORDE = Inst45Quest3
 Inst45Quest3_HORDE_Level = "66"
 Inst45Quest3_HORDE_Attain = "64"
@@ -5477,7 +5477,7 @@ Inst45Quest3name2_HORDE = Inst45Quest3name2
 Inst45Quest3name3_HORDE = Inst45Quest3name3
 Inst45Quest3name4_HORDE = Inst45Quest3name4
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst45Quest4_HORDE = Inst45Quest4
 Inst45Quest4_HORDE_Level = "70"
 Inst45Quest4_HORDE_Attain = "70"
@@ -5490,7 +5490,7 @@ Inst45Quest4PreQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst45Quest5_HORDE = Inst45Quest5
 Inst45Quest5_HORDE_Level = "70"
 Inst45Quest5_HORDE_Attain = "70"
@@ -5578,7 +5578,7 @@ Inst46Quest5_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst46Quest1_HORDE = Inst46Quest1
 Inst46Quest1_HORDE_Level = "69"
 Inst46Quest1_HORDE_Attain = "65"
@@ -5593,7 +5593,7 @@ Inst46Quest1name2_HORDE = Inst46Quest1name2
 Inst46Quest1name3_HORDE = Inst46Quest1name3
 Inst46Quest1name4_HORDE = Inst46Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst46Quest2_HORDE = Inst46Quest2
 Inst46Quest2_HORDE_Level = "69"
 Inst46Quest2_HORDE_Attain = "65"
@@ -5607,7 +5607,7 @@ Inst46Quest2name1_HORDE = Inst46Quest2name1
 Inst46Quest2name2_HORDE = Inst46Quest2name2
 Inst46Quest2name3_HORDE = Inst46Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst46Quest3_HORDE = Inst46Quest3
 Inst46Quest3_HORDE_Level = "70"
 Inst46Quest3_HORDE_Attain = "70"
@@ -5620,7 +5620,7 @@ Inst46Quest3PreQuest_HORDE = "true"
 --
 Inst46Quest3name1_HORDE = Inst46Quest3name1
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst46Quest4_HORDE = Inst46Quest4
 Inst46Quest4_HORDE_Level = "70"
 Inst46Quest4_HORDE_Attain = "70"
@@ -5632,7 +5632,7 @@ Inst46Quest4_HORDE_Folgequest = Inst46Quest4_Folgequest
 Inst46Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst46Quest5_HORDE = Inst46Quest5
 Inst46Quest5_HORDE_Level = "70"
 Inst46Quest5_HORDE_Attain = "70"
@@ -5793,7 +5793,7 @@ Inst47Quest11_Folgequest = "Nein"
 Inst47Quest11name1 = "Gefängnisschlüssel des Astraleums"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst47Quest1_HORDE = Inst47Quest1
 Inst47Quest1_HORDE_Level = "70"
 Inst47Quest1_HORDE_Attain = "68"
@@ -5805,7 +5805,7 @@ Inst47Quest1_HORDE_Folgequest = Inst47Quest1_Folgequest
 Inst47Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst47Quest2_HORDE = Inst47Quest2
 Inst47Quest2_HORDE_Level = "70"
 Inst47Quest2_HORDE_Attain = "68"
@@ -5821,7 +5821,7 @@ Inst47Quest2name2_HORDE = Inst47Quest2name2
 Inst47Quest2name3_HORDE = Inst47Quest2name3
 Inst47Quest2name4_HORDE = Inst47Quest2name4
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst47Quest3_HORDE = Inst47Quest3
 Inst47Quest3_HORDE_Level = "70"
 Inst47Quest3_HORDE_Attain = "68"
@@ -5833,7 +5833,7 @@ Inst47Quest3_HORDE_Folgequest = Inst47Quest3_Folgequest
 Inst47Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst47Quest4_HORDE = Inst47Quest4
 Inst47Quest4_HORDE_Level = "70"
 Inst47Quest4_HORDE_Attain = "68"
@@ -5845,7 +5845,7 @@ Inst47Quest4_HORDE_Folgequest = Inst47Quest4_Folgequest
 Inst47Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst47Quest5_HORDE = Inst47Quest5
 Inst47Quest5_HORDE_Level = "70"
 Inst47Quest5_HORDE_Attain = "68"
@@ -5857,7 +5857,7 @@ Inst47Quest5_HORDE_Folgequest = Inst47Quest5_Folgequest
 Inst47Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst47Quest6_HORDE = Inst47Quest6
 Inst47Quest6_HORDE_Level = "70"
 Inst47Quest6_HORDE_Attain = "68"
@@ -5873,7 +5873,7 @@ Inst47Quest6name2_HORDE = Inst47Quest6name2
 Inst47Quest6name3_HORDE = Inst47Quest6name3
 Inst47Quest6name4_HORDE = Inst47Quest6name4
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst47Quest7_HORDE = Inst47Quest7
 Inst47Quest7_HORDE_Level = "70"
 Inst47Quest7_HORDE_Attain = "70"
@@ -5884,7 +5884,7 @@ Inst47Quest7_HORDE_Prequest = "Nein"
 Inst47Quest7_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst47Quest8_HORDE = Inst47Quest8
 Inst47Quest8_HORDE_Level = "70"
 Inst47Quest8_HORDE_Attain = "68"
@@ -5896,7 +5896,7 @@ Inst47Quest8_HORDE_Folgequest = Inst47Quest8_Folgequest
 Inst47Quest8FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 9 Horde  (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst47Quest9_HORDE = Inst47Quest9
 Inst47Quest9_HORDE_Level = "70"
 Inst47Quest9_HORDE_Attain = "67"
@@ -5908,7 +5908,7 @@ Inst47Quest9_HORDE_Folgequest = "Nein"
 Inst47Quest9PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst47Quest10_HORDE = Inst47Quest10
 Inst47Quest10_HORDE_Level = "70"
 Inst47Quest10_HORDE_Attain = "70"
@@ -5920,7 +5920,7 @@ Inst47Quest10_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 11 Horde  (same as Quest 11 Alliance)
+--Quest 11 Horde
 Inst47Quest11_HORDE = Inst47Quest11
 Inst47Quest11_HORDE_Level = "70"
 Inst47Quest11_HORDE_Attain = "70"
@@ -5965,7 +5965,7 @@ Inst48Quest2FQuest = "true"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst48Quest1_HORDE = Inst48Quest1
 Inst48Quest1_HORDE_Level = "70"
 Inst48Quest1_HORDE_Attain = "70"
@@ -5976,7 +5976,7 @@ Inst48Quest1_HORDE_Prequest = "Nein"
 Inst48Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst48Quest2_HORDE = Inst48Quest2
 Inst48Quest2_HORDE_Level = "70"
 Inst48Quest2_HORDE_Attain = "70"
@@ -6086,7 +6086,7 @@ Inst49Quest7_Folgequest = "Nein"
 Inst49Quest7name1 = "Gefängnisschlüssel des Astraleums"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst49Quest1_HORDE = Inst49Quest1
 Inst49Quest1_HORDE_Level = "70"
 Inst49Quest1_HORDE_Attain = "66"
@@ -6098,7 +6098,7 @@ Inst49Quest1_HORDE_Folgequest = Inst49Quest1_Folgequest
 Inst49Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst49Quest2_HORDE = Inst49Quest2
 Inst49Quest2_HORDE_Level = "70"
 Inst49Quest2_HORDE_Attain = "66"
@@ -6110,7 +6110,7 @@ Inst49Quest2_HORDE_Folgequest = Inst49Quest2_Folgequest
 Inst49Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst49Quest3_HORDE = Inst49Quest3
 Inst49Quest3_HORDE_Level = "70"
 Inst49Quest3_HORDE_Attain = "66"
@@ -6126,7 +6126,7 @@ Inst49Quest3name2_HORDE = Inst49Quest3name2
 Inst49Quest3name3_HORDE = Inst49Quest3name3
 Inst49Quest3name4_HORDE = Inst49Quest3name4
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst49Quest4_HORDE = Inst49Quest4
 Inst49Quest4_HORDE_Level = "70"
 Inst49Quest4_HORDE_Attain = "68"
@@ -6138,7 +6138,7 @@ Inst49Quest4_HORDE_Folgequest = Inst49Quest4_Folgequest
 Inst49Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst49Quest5_HORDE = Inst49Quest5
 Inst49Quest5_HORDE_Level = "70"
 Inst49Quest5_HORDE_Attain = "68"
@@ -6150,7 +6150,7 @@ Inst49Quest5_HORDE_Folgequest = "Nein"
 Inst49Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst49Quest6_HORDE = Inst49Quest6
 Inst49Quest6_HORDE_Level = "70"
 Inst49Quest6_HORDE_Attain = "70"
@@ -6162,7 +6162,7 @@ Inst49Quest6_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst49Quest7_HORDE = Inst49Quest7
 Inst49Quest7_HORDE_Level = "70"
 Inst49Quest7_HORDE_Attain = "70"
@@ -6196,7 +6196,7 @@ Inst50Quest1FQuest = "true"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst50Quest1_HORDE = Inst50Quest1
 Inst50Quest1_HORDE_Level = "70"
 Inst50Quest1_HORDE_Attain = "70"
@@ -6294,7 +6294,7 @@ Inst51Quest6_Folgequest = "Nein"
 Inst51Quest6name1 = "Breitkrempiger Haliskanhut"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst51Quest1_HORDE = Inst51Quest1
 Inst51Quest1_HORDE_Level = "68"
 Inst51Quest1_HORDE_Attain = "66"
@@ -6306,7 +6306,7 @@ Inst51Quest1_HORDE_Folgequest = Inst51Quest1_Folgequest
 Inst51Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst51Quest2_HORDE = Inst51Quest2
 Inst51Quest2_HORDE_Level = "68"
 Inst51Quest2_HORDE_Attain = "66"
@@ -6318,7 +6318,7 @@ Inst51Quest2_HORDE_Folgequest = Inst51Quest2_Folgequest
 Inst51Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst51Quest3_HORDE = Inst51Quest3
 Inst51Quest3_HORDE_Level = "68"
 Inst51Quest3_HORDE_Attain = "66"
@@ -6330,7 +6330,7 @@ Inst51Quest3_HORDE_Folgequest = Inst51Quest3_Folgequest
 Inst51Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst51Quest4_HORDE = Inst51Quest4
 Inst51Quest4_HORDE_Level = "68"
 Inst51Quest4_HORDE_Attain = "66"
@@ -6346,7 +6346,7 @@ Inst51Quest4name2_HORDE = Inst51Quest4name2
 Inst51Quest4name3_HORDE = Inst51Quest4name3
 Inst51Quest4name4_HORDE = Inst51Quest4name4
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst51Quest5_HORDE = Inst51Quest5
 Inst51Quest5_HORDE_Level = "70"
 Inst51Quest5_HORDE_Attain = "70"
@@ -6358,7 +6358,7 @@ Inst51Quest5_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst51Quest6_HORDE = Inst51Quest6
 Inst51Quest6_HORDE_Level = "68"
 Inst51Quest6_HORDE_Attain = "66"
@@ -6391,7 +6391,7 @@ Inst52Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst52Quest1_HORDE = Inst52Quest1
 Inst52Quest1_HORDE_Level = "70"
 Inst52Quest1_HORDE_Attain = "70"
@@ -6582,7 +6582,7 @@ Inst53Quest14_Prequest = "Nein"
 Inst53Quest14_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst53Quest1_HORDE = Inst53Quest1
 Inst53Quest1_HORDE_Level = "70"
 Inst53Quest1_HORDE_Attain = "68"
@@ -6594,7 +6594,7 @@ Inst53Quest1_HORDE_Folgequest = Inst53Quest1_Folgequest
 Inst53Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst53Quest2_HORDE = Inst53Quest2
 Inst53Quest2_HORDE_Level = "70"
 Inst53Quest2_HORDE_Attain = "68"
@@ -6606,7 +6606,7 @@ Inst53Quest2_HORDE_Folgequest = Inst53Quest2_Folgequest
 Inst53Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst53Quest3_HORDE = Inst53Quest3
 Inst53Quest3_HORDE_Level = "70"
 Inst53Quest3_HORDE_Attain = "68"
@@ -6618,7 +6618,7 @@ Inst53Quest3_HORDE_Folgequest = Inst53Quest3_Folgequest
 Inst53Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst53Quest4_HORDE = Inst53Quest4
 Inst53Quest4_HORDE_Level = "70"
 Inst53Quest4_HORDE_Attain = "68"
@@ -6631,7 +6631,7 @@ Inst53Quest4PreQuest_HORDE = "true"
 --
 Inst53Quest4name1_HORDE = Inst53Quest4name1
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst53Quest5_HORDE = Inst53Quest5
 Inst53Quest5_HORDE_Level = "70"
 Inst53Quest5_HORDE_Attain = "70"
@@ -6643,7 +6643,7 @@ Inst53Quest5_HORDE_Folgequest = Inst53Quest5_Folgequest
 Inst53Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst53Quest6_HORDE = Inst53Quest6
 Inst53Quest6_HORDE_Level = "70"
 Inst53Quest6_HORDE_Attain = "70"
@@ -6655,7 +6655,7 @@ Inst53Quest6_HORDE_Folgequest = Inst53Quest6_Folgequest
 Inst53Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst53Quest7_HORDE = Inst53Quest7
 Inst53Quest7_HORDE_Level = "70"
 Inst53Quest7_HORDE_Attain = "70"
@@ -6667,7 +6667,7 @@ Inst53Quest7_HORDE_Folgequest = Inst53Quest7_Folgequest
 Inst53Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst53Quest8_HORDE = Inst53Quest8
 Inst53Quest8_HORDE_Level = "70"
 Inst53Quest8_HORDE_Attain = "70"
@@ -6679,7 +6679,7 @@ Inst53Quest8_HORDE_Folgequest = Inst53Quest8_Folgequest
 Inst53Quest8FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 9 Horde  (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst53Quest9_HORDE = Inst53Quest9
 Inst53Quest9_HORDE_Level = "70"
 Inst53Quest9_HORDE_Attain = "70"
@@ -6691,7 +6691,7 @@ Inst53Quest9_HORDE_Folgequest = Inst53Quest9_Folgequest
 Inst53Quest9FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst53Quest10_HORDE = Inst53Quest10
 Inst53Quest10_HORDE_Level = "70"
 Inst53Quest10_HORDE_Attain = "70"
@@ -6703,7 +6703,7 @@ Inst53Quest10_HORDE_Folgequest = Inst53Quest10_Folgequest
 Inst53Quest10FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 11 Horde  (same as Quest 11 Alliance)
+--Quest 11 Horde
 Inst53Quest11_HORDE = Inst53Quest11
 Inst53Quest11_HORDE_Level = "70"
 Inst53Quest11_HORDE_Attain = "70"
@@ -6715,7 +6715,7 @@ Inst53Quest11_HORDE_Folgequest = Inst53Quest11_Folgequest
 Inst53Quest11FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 12 Horde  (same as Quest 12 Alliance)
+--Quest 12 Horde
 Inst53Quest12_HORDE = Inst53Quest12
 Inst53Quest12_HORDE_Level = "70"
 Inst53Quest12_HORDE_Attain = "70"
@@ -6727,7 +6727,7 @@ Inst53Quest12_HORDE_Folgequest = Inst53Quest12_Folgequest
 Inst53Quest12FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 13 Horde  (same as Quest 13 Alliance)
+--Quest 13 Horde
 Inst53Quest13_HORDE = Inst53Quest13
 Inst53Quest13_HORDE_Level = "70"
 Inst53Quest13_HORDE_Attain = "70"
@@ -6742,7 +6742,7 @@ Inst53Quest13name1_HORDE = Inst53Quest13name1
 Inst53Quest13name2_HORDE = Inst53Quest13name2
 Inst53Quest13name3_HORDE = Inst53Quest13name3
 
---Quest 14 Horde  (same as Quest 14 Alliance)
+--Quest 14 Horde
 Inst53Quest14_HORDE = Inst53Quest14
 Inst53Quest14_HORDE_Level = "70"
 Inst53Quest14_HORDE_Attain = "70"
@@ -6837,7 +6837,7 @@ Inst54Quest6_Folgequest = "Nein"
 Inst54Quest6name1 = "Gefängnisschlüssel des Astraleums"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst54Quest1_HORDE = Inst54Quest1
 Inst54Quest1_HORDE_Level = "70"
 Inst54Quest1_HORDE_Attain = "67"
@@ -6852,7 +6852,7 @@ Inst54Quest1name1_HORDE = Inst54Quest1name1
 Inst54Quest1name2_HORDE = Inst54Quest1name2
 Inst54Quest1name3_HORDE = Inst54Quest1name3
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst54Quest2_HORDE = Inst54Quest2
 Inst54Quest2_HORDE_Level = "70"
 Inst54Quest2_HORDE_Attain = "68"
@@ -6864,7 +6864,7 @@ Inst54Quest2_HORDE_Folgequest = Inst54Quest2_Folgequest
 Inst54Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst54Quest3_HORDE = Inst54Quest3
 Inst54Quest3_HORDE_Level = "70"
 Inst54Quest3_HORDE_Attain = "70"
@@ -6875,7 +6875,7 @@ Inst54Quest3_HORDE_Prequest = "Nein"
 Inst54Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst54Quest4_HORDE = Inst54Quest4
 Inst54Quest4_HORDE_Level = "70"
 Inst54Quest4_HORDE_Attain = "68"
@@ -6887,7 +6887,7 @@ Inst54Quest4_HORDE_Folgequest = Inst54Quest4_Folgequest
 Inst54Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst54Quest5_HORDE = Inst54Quest5
 Inst54Quest5_HORDE_Level = "70"
 Inst54Quest5_HORDE_Attain = "70"
@@ -6899,7 +6899,7 @@ Inst54Quest5_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst54Quest6_HORDE = Inst54Quest6
 Inst54Quest6_HORDE_Level = "70"
 Inst54Quest6_HORDE_Attain = "70"
@@ -6987,7 +6987,7 @@ Inst55Quest5_Folgequest = "Nein"
 Inst55Quest5name1 = "Gefängnisschlüssel des Astraleums"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst55Quest1_HORDE = Inst55Quest1
 Inst55Quest1_HORDE_Level = "70"
 Inst55Quest1_HORDE_Attain = "67"
@@ -7005,7 +7005,7 @@ Inst55Quest1name4_HORDE = Inst55Quest1name4
 Inst55Quest1name5_HORDE = Inst55Quest1name5
 Inst55Quest1name6_HORDE = Inst55Quest1name6
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst55Quest2_HORDE = Inst55Quest2
 Inst55Quest2_HORDE_Level = "70"
 Inst55Quest2_HORDE_Attain = "67"
@@ -7017,7 +7017,7 @@ Inst55Quest2_HORDE_Folgequest = "Nein"
 Inst55Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst55Quest3_HORDE = Inst55Quest3
 Inst55Quest3_HORDE_Level = "70"
 Inst55Quest3_HORDE_Attain = "68"
@@ -7029,7 +7029,7 @@ Inst55Quest3_HORDE_Folgequest = "Nein"
 Inst55Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst55Quest4_HORDE = Inst55Quest4
 Inst55Quest4_HORDE_Level = "70"
 Inst55Quest4_HORDE_Attain = "70"
@@ -7041,7 +7041,7 @@ Inst55Quest4_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst55Quest5_HORDE = Inst55Quest5
 Inst55Quest5_HORDE_Level = "70"
 Inst55Quest5_HORDE_Attain = "70"
@@ -7117,7 +7117,7 @@ Inst56Quest4_Folgequest = "Nein"
 Inst56Quest4name1 = "Gefängnisschlüssel des Astraleums"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst56Quest1_HORDE = Inst56Quest1
 Inst56Quest1_HORDE_Level = "70"
 Inst56Quest1_HORDE_Attain = "67"
@@ -7135,7 +7135,7 @@ Inst56Quest1name4_HORDE = Inst56Quest1name4
 Inst56Quest1name5_HORDE = Inst56Quest1name5
 Inst56Quest1name6_HORDE = Inst56Quest1name6
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst56Quest2_HORDE = Inst56Quest2
 Inst56Quest2_HORDE_Level = "69"
 Inst56Quest2_HORDE_Attain = "67"
@@ -7147,7 +7147,7 @@ Inst56Quest2_HORDE_Folgequest = "Nein"
 Inst56Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst56Quest3_HORDE = Inst56Quest3
 Inst56Quest3_HORDE_Level = "70"
 Inst56Quest3_HORDE_Attain = "70"
@@ -7159,7 +7159,7 @@ Inst56Quest3_HORDE_Folgequest = "Nein"
 --
 Inst56Quest3name1_HORDE = Inst56Quest3name1
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst56Quest4_HORDE = Inst56Quest4
 Inst56Quest4_HORDE_Level = "70"
 Inst56Quest4_HORDE_Attain = "70"
@@ -7219,7 +7219,7 @@ Inst61Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst61Quest1_HORDE = Inst61Quest1
 Inst61Quest1_HORDE_Level = "70"
 Inst61Quest1_HORDE_Attain = "70"
@@ -7231,7 +7231,7 @@ Inst61Quest1_HORDE_Folgequest = Inst61Quest1_Folgequest
 Inst61Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst61Quest2_HORDE = Inst61Quest2
 Inst61Quest2_HORDE_Level = "70"
 Inst61Quest2_HORDE_Attain = "70"
@@ -7246,7 +7246,7 @@ Inst61Quest2name2_HORDE = Inst61Quest2name2
 Inst61Quest2name3_HORDE = Inst61Quest2name3
 Inst61Quest2name4_HORDE = Inst61Quest2name4
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst61Quest3_HORDE = Inst61Quest3
 Inst61Quest3_HORDE_Level = "70"
 Inst61Quest3_HORDE_Attain = "70"
@@ -7308,7 +7308,7 @@ Inst62Quest3FQuest = "true"
 Inst62Quest3name1 = "Gesegnetes Medaillon von Karabor"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst62Quest1_HORDE = Inst62Quest1
 Inst62Quest1_HORDE_Level = "70"
 Inst62Quest1_HORDE_Attain = "70"
@@ -7320,7 +7320,7 @@ Inst62Quest1_HORDE_Folgequest = Inst62Quest1_Folgequest
 Inst62Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst62Quest2_HORDE = Inst62Quest2
 Inst62Quest2_HORDE_Level = "70"
 Inst62Quest2_HORDE_Attain = "70"
@@ -7332,7 +7332,7 @@ Inst62Quest2_HORDE_Folgequest = Inst62Quest2_Folgequest
 Inst62Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst62Quest3_HORDE = Inst62Quest3
 Inst62Quest3_HORDE_Level = "70"
 Inst62Quest3_HORDE_Attain = "70"
@@ -7455,7 +7455,7 @@ Inst63Quest8PreQuest = "true"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst63Quest1_HORDE = Inst63Quest1
 Inst63Quest1_HORDE_Level = "70"
 Inst63Quest1_HORDE_Attain = "70"
@@ -7468,7 +7468,7 @@ Inst63Quest1PreQuest_HORDE = "true"
 --
 Inst63Quest1name1_HORDE = Inst63Quest1name1
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst63Quest2_HORDE = Inst63Quest2
 Inst63Quest2_HORDE_Level = "70"
 Inst63Quest2_HORDE_Attain = "70"
@@ -7480,7 +7480,7 @@ Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
 Inst63Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst63Quest3_HORDE = Inst63Quest3
 Inst63Quest3_HORDE_Level = "70"
 Inst63Quest3_HORDE_Attain = "70"
@@ -7493,7 +7493,7 @@ Inst63Quest3PreQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst63Quest4_HORDE = Inst63Quest4
 Inst63Quest4_HORDE_Level = "70"
 Inst63Quest4_HORDE_Attain = "70"
@@ -7505,7 +7505,7 @@ Inst63Quest4_HORDE_Folgequest = Inst63Quest4_Folgequest
 Inst63Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst63Quest5_HORDE = Inst63Quest5
 Inst63Quest5_HORDE_Level = "70"
 Inst63Quest5_HORDE_Attain = "70"
@@ -7517,7 +7517,7 @@ Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
 Inst63Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst63Quest6_HORDE = Inst63Quest6
 Inst63Quest6_HORDE_Level = "70"
 Inst63Quest6_HORDE_Attain = "70"
@@ -7530,7 +7530,7 @@ Inst63Quest6PreQuest_HORDE = "true"
 --
 Inst63Quest6name1_HORDE = Inst63Quest6name1
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst63Quest7_HORDE = Inst63Quest7
 Inst63Quest7_HORDE_Level = "70"
 Inst63Quest7_HORDE_Attain = "70"
@@ -7542,7 +7542,7 @@ Inst63Quest7_HORDE_Folgequest = Inst63Quest7_Folgequest
 Inst63Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst63Quest8_HORDE = Inst63Quest8
 Inst63Quest8_HORDE_Level = "70"
 Inst63Quest8_HORDE_Attain = "70"
@@ -7628,7 +7628,7 @@ Inst67Quest5name2 = "Runenverzierter Purpurspinell"
 Inst67Quest5name3 = "Tränenförmiger Purpurspinell"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst67Quest1_HORDE = Inst67Quest1
 Inst67Quest1_HORDE_Level = "70"
 Inst67Quest1_HORDE_Attain = "70"
@@ -7640,7 +7640,7 @@ Inst67Quest1_HORDE_Folgequest = "Nein"
 --
 Inst67Quest1name1_HORDE = Inst67Quest1name1
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst67Quest2_HORDE = Inst67Quest2
 Inst67Quest2_HORDE_Level = "70"
 Inst67Quest2_HORDE_Attain = "70"
@@ -7652,7 +7652,7 @@ Inst67Quest2_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst67Quest3_HORDE = Inst67Quest3
 Inst67Quest3_HORDE_Level = "70"
 Inst67Quest3_HORDE_Attain = "70"
@@ -7664,7 +7664,7 @@ Inst67Quest3_HORDE_Folgequest = Inst67Quest3_Folgequest
 Inst67Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst67Quest4_HORDE = Inst67Quest4
 Inst67Quest4_HORDE_Level = "70"
 Inst67Quest4_HORDE_Attain = "70"
@@ -7676,7 +7676,7 @@ Inst67Quest4_HORDE_Folgequest = Inst67Quest4_Folgequest
 Inst67Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst67Quest5_HORDE = Inst67Quest5
 Inst67Quest5_HORDE_Level = "70"
 Inst67Quest5_HORDE_Attain = "70"
@@ -7767,7 +7767,7 @@ Inst69Quest2name3 = "Handschutz der chronologischen Ereignisse"
 Inst69Quest2name4 = "Stulpen der Säuberung"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst69Quest1_HORDE = Inst69Quest1
 Inst69Quest1_HORDE_Level = "80"
 Inst69Quest1_HORDE_Attain = "78"
@@ -7779,7 +7779,7 @@ Inst69Quest1_HORDE_Folgequest = Inst69Quest1_Folgequest
 Inst69Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst69Quest2_HORDE = Inst69Quest2
 Inst69Quest2_HORDE_Level = "80"
 Inst69Quest2_HORDE_Attain = "78"
@@ -7928,7 +7928,7 @@ Inst71Quest2name4 = "Gesichtsschutz der Strafe"
 Inst71Quest2name5 = "Plattenhelm der zornigen Rache"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst71Quest1_HORDE = Inst71Quest1
 Inst71Quest1_HORDE_Level = "80"
 Inst71Quest1_HORDE_Attain = "78"
@@ -7943,7 +7943,7 @@ Inst71Quest1name2_HORDE = Inst71Quest1name2
 Inst71Quest1name3_HORDE = Inst71Quest1name3
 Inst71Quest1name4_HORDE = Inst71Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst71Quest2_HORDE = Inst71Quest2
 Inst71Quest2_HORDE_Level = "80"
 Inst71Quest2_HORDE_Attain = "78"
@@ -8037,7 +8037,7 @@ Inst72Quest4name4 = "Belebende Sabatons"
 Inst72Quest4name5 = "Stiefel des unbeugsamen Beschützers"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst72Quest1_HORDE = Inst72Quest1
 Inst72Quest1_HORDE_Level = "71"
 Inst72Quest1_HORDE_Attain = "70"
@@ -8052,7 +8052,7 @@ Inst72Quest1name2_HORDE = Inst72Quest1name2
 Inst72Quest1name3_HORDE = Inst72Quest1ame3
 Inst72Quest1name4_HORDE = Inst72Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst72Quest2_HORDE = Inst72Quest2
 Inst72Quest2_HORDE_Level = "71"
 Inst72Quest2_HORDE_Attain = "70"
@@ -8068,7 +8068,7 @@ Inst72Quest2name2_HORDE = Inst72Quest2name2
 Inst72Quest2name3_HORDE = Inst72Quest2name3
 Inst72Quest2name4_HORDE = Inst72Quest2name4
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst72Quest3_HORDE = Inst72Quest3
 Inst72Quest3_HORDE_Level = "71"
 Inst72Quest3_HORDE_Attain = "70"
@@ -8083,7 +8083,7 @@ Inst72Quest3name1_HORDE = Inst72Quest3name1
 Inst72Quest3name2_HORDE = Inst72Quest3name2
 Inst72Quest3name3_HORDE = Inst72Quest3name3
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst72Quest4_HORDE = Inst72Quest4
 Inst72Quest4_HORDE_Level = "71"
 Inst72Quest4_HORDE_Attain = "70"
@@ -8171,7 +8171,7 @@ Inst73Quest4name3 = "Bindungen des Raelorasz"
 Inst73Quest4name4 = "Armschienen der Ehrerbietung"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst73Quest1_HORDE = Inst73Quest1
 Inst73Quest1_HORDE_Level = "80"
 Inst73Quest1_HORDE_Attain = "77"
@@ -8187,7 +8187,7 @@ Inst73Quest1name2_HORDE = Inst73Quest1name2
 Inst73Quest1name3_HORDE = Inst73Quest1name3
 Inst73Quest1name4_HORDE = Inst73Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst73Quest2_HORDE = Inst73Quest2
 Inst73Quest2_HORDE_Level = "80"
 Inst73Quest2_HORDE_Attain = "77"
@@ -8199,7 +8199,7 @@ Inst73Quest2_HORDE_Folgequest = Inst73Quest2_Folgequest
 Inst73Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst73Quest3_HORDE = Inst73Quest3
 Inst73Quest3_HORDE_Level = "80"
 Inst73Quest3_HORDE_Attain = "77"
@@ -8211,7 +8211,7 @@ Inst73Quest3_HORDE_Folgequest = Inst73Quest3_Folgequest
 Inst73Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst73Quest4_HORDE = Inst73Quest4
 Inst73Quest4_HORDE_Level = "80"
 Inst73Quest4_HORDE_Attain = "77"
@@ -8285,7 +8285,7 @@ Inst74Quest3_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst74Quest1_HORDE = Inst74Quest1
 Inst74Quest1_HORDE_Level = "80"
 Inst74Quest1_HORDE_Attain = "80"
@@ -8301,7 +8301,7 @@ Inst74Quest1name2_HORDE = Inst74Quest1name2
 Inst74Quest1name3_HORDE = Inst74Quest1name3
 Inst74Quest1name4_HORDE = Inst74Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst74Quest2_HORDE = Inst74Quest2
 Inst74Quest2_HORDE_Level = "80"
 Inst74Quest2_HORDE_Attain = "80"
@@ -8317,7 +8317,7 @@ Inst74Quest2name2_HORDE = Inst74Quest2name2
 Inst74Quest2name3_HORDE = Inst74Quest2name3
 Inst74Quest2name4_HORDE = Inst74Quest2name4
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst74Quest3_HORDE = Inst74Quest3
 Inst74Quest3_HORDE_Level = "80"
 Inst74Quest3_HORDE_Attain = "80"
@@ -8370,7 +8370,7 @@ Inst75Quest2name3 = "Hüllenfragmentsabatons"
 Inst75Quest2name4 = "Schienbeinschützer des Verräters"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst75Quest1_HORDE = Inst75Quest1
 Inst75Quest1_HORDE_Level = "74"
 Inst75Quest1_HORDE_Attain = "72"
@@ -8385,7 +8385,7 @@ Inst75Quest1name2_HORDE = Inst75Quest1name2
 Inst75Quest1name3_HORDE = Inst75Quest1name3
 Inst75Quest1name4_HORDE = Inst75Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst75Quest2_HORDE = Inst75Quest2
 Inst75Quest2_HORDE_Level = "74"
 Inst75Quest2_HORDE_Attain = "72"
@@ -8447,7 +8447,7 @@ Inst76Quest3name3 = "Schulterplatten des Abgeschafften"
 Inst76Quest3name4 = "Schulterklappen der Gesichtslosen"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst76Quest1_HORDE = Inst76Quest1
 Inst76Quest1_HORDE_Level = "80"
 Inst76Quest1_HORDE_Attain = "80"
@@ -8458,7 +8458,7 @@ Inst76Quest1_HORDE_Prequest = "Nein"
 Inst76Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst76Quest2_HORDE = Inst76Quest2
 Inst76Quest2_HORDE_Level = "76"
 Inst76Quest2_HORDE_Attain = "73"
@@ -8469,7 +8469,7 @@ Inst76Quest2_HORDE_Prequest = "Nein"
 Inst76Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst76Quest3_HORDE = Inst76Quest3
 Inst76Quest3_HORDE_Level = "76"
 Inst76Quest3_HORDE_Attain = "73"
@@ -8514,7 +8514,7 @@ Inst77Quest1name3 = "Schiftung der verlorenen Geheimnisse"
 Inst77Quest1name4 = "Schulterstücke der Aufklärung"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst77Quest1_HORDE = Inst77Quest1
 Inst77Quest1_HORDE_Level = "78"
 Inst77Quest1_HORDE_Attain = "76"
@@ -8577,7 +8577,7 @@ Inst78Quest2name4 = "Schulterstücke des erloschenen Hasses"
 Inst78Quest2name5 = "Mantelung von Volkhan"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst78Quest1_HORDE = Inst78Quest1
 Inst78Quest1_HORDE_Level = "80"
 Inst78Quest1_HORDE_Attain = "80"
@@ -8593,7 +8593,7 @@ Inst78Quest1name2_HORDE = Inst78Quest1name2
 Inst78Quest1name3_HORDE = Inst78Quest1name3
 Inst78Quest1name4_HORDE = Inst78Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst78Quest2_HORDE = Inst78Quest2
 Inst78Quest2_HORDE_Level = "80"
 Inst78Quest2_HORDE_Attain = "80"
@@ -8638,7 +8638,7 @@ Inst79Quest1_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst79Quest1_HORDE = Inst79Quest1
 Inst79Quest1_HORDE_Level = "80"
 Inst79Quest1_HORDE_Attain = "80"
@@ -8707,7 +8707,7 @@ Inst80Quest3name3 = "Beschuldigte Handgelenksschützer"
 Inst80Quest3name4 = "Abgeleugnete Armschienen"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst80Quest1_HORDE = Inst80Quest1
 Inst80Quest1_HORDE_Level = "75"
 Inst80Quest1_HORDE_Attain = "73"
@@ -8723,7 +8723,7 @@ Inst80Quest1name2_HORDE = Inst80Quest1name2
 Inst80Quest1name3_HORDE = Inst80Quest1name3
 Inst80Quest1name4_HORDE = Inst80Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst80Quest2_HORDE = Inst80Quest2
 Inst80Quest2_HORDE_Level = "74"
 Inst80Quest2_HORDE_Attain = "73"
@@ -8738,7 +8738,7 @@ Inst80Quest2name1_HORDE = Inst80Quest2name1
 Inst80Quest2name2_HORDE = Inst80Quest2name2
 Inst80Quest2name3_HORDE = Inst80Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst80Quest3_HORDE = Inst80Quest3
 Inst80Quest3_HORDE_Level = "74"
 Inst80Quest3_HORDE_Attain = "73"
@@ -8812,10 +8812,10 @@ Inst81Quest3name4 = "Slipper des Mojodojos"
 Inst81Quest3name5 = "Trollkicker"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst81Quest1_HORDE = Inst81Quest1
-Inst81Quest1_HORDE_Level = Inst81Quest1_Level
-Inst81Quest1_HORDE_Attain = Inst81Quest1_Attain
+Inst81Quest1_HORDE_Level = "78"
+Inst81Quest1_HORDE_Attain = "76"
 Inst81Quest1_HORDE_Aim = Inst81Quest1_Aim
 Inst81Quest1_HORDE_Location = Inst81Quest1_Location
 Inst81Quest1_HORDE_Note = Inst81Quest1_Note
@@ -8828,10 +8828,10 @@ Inst81Quest1name2_HORDE = Inst81Quest1name2
 Inst81Quest1name3_HORDE = Inst81Quest1name3
 Inst81Quest1name4_HORDE = Inst81Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst81Quest2_HORDE = Inst81Quest2
-Inst81Quest2_HORDE_Level = Inst81Quest2_Level
-Inst81Quest2_HORDE_Attain = Inst81Quest2_Attain
+Inst81Quest2_HORDE_Level = "78"
+Inst81Quest2_HORDE_Attain = "76"
 Inst81Quest2_HORDE_Aim = Inst81Quest2_Aim
 Inst81Quest2_HORDE_Location = Inst81Quest2_Location
 Inst81Quest2_HORDE_Note = Inst81Quest2_Note
@@ -8844,10 +8844,10 @@ Inst81Quest2name2_HORDE = Inst81Quest2name2
 Inst81Quest2name3_HORDE = Inst81Quest2name3
 Inst81Quest2name4_HORDE = Inst81Quest2name4
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst81Quest3_HORDE = Inst81Quest3
-Inst81Quest3_HORDE_Level = Inst81Quest3_Level
-Inst81Quest3_HORDE_Attain = Inst81Quest3_Attain
+Inst81Quest3_HORDE_Level = "78"
+Inst81Quest3_HORDE_Attain = "76"
 Inst81Quest3_HORDE_Aim = Inst81Quest3_Aim
 Inst81Quest3_HORDE_Location = Inst81Quest3_Location
 Inst81Quest3_HORDE_Note = Inst81Quest3_Note
@@ -8902,7 +8902,7 @@ Inst82Quest2name3 = "Labyrinthische Beinschützer"
 Inst82Quest2name4 = "Beinplatten des Wächters von Dalaran"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst82Quest1_HORDE = Inst82Quest1
 Inst82Quest1_HORDE_Level = "77"
 Inst82Quest1_HORDE_Attain = "75"
@@ -8914,7 +8914,7 @@ Inst82Quest1_HORDE_Folgequest = "Ja, Eindämmung"
 Inst82Quest1FQuest_HORDE = "true"
 -- No Rewards for this ques
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst82Quest2_HORDE = Inst82Quest2
 Inst82Quest2_HORDE_Level = "77"
 Inst82Quest2_HORDE_Attain = "75"
@@ -9020,7 +9020,7 @@ Inst84Quest6_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst84Quest1_HORDE = Inst84Quest1
 Inst84Quest1_HORDE_Level = "80"
 Inst84Quest1_HORDE_Attain = "80"
@@ -9033,7 +9033,7 @@ Inst84Quest1FQuest_HORDE = "true"
 --
 Inst84Quest1name1_HORDE = Inst84Quest1name1
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst84Quest2_HORDE = Inst84Quest2
 Inst84Quest2_HORDE_Level = "80"
 Inst84Quest2_HORDE_Attain = "80"
@@ -9046,7 +9046,7 @@ Inst84Quest2FQuest_HORDE = "true"
 --
 Inst84Quest2name1_HORDE = Inst84Quest2name1
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst84Quest3_HORDE = Inst84Quest3
 Inst84Quest3_HORDE_Level = "80"
 Inst84Quest3_HORDE_Attain = "80"
@@ -9058,7 +9058,7 @@ Inst84Quest3_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst84Quest4_HORDE = Inst84Quest4
 Inst84Quest4_HORDE_Level = "80"
 Inst84Quest4_HORDE_Attain = "80"
@@ -9070,7 +9070,7 @@ Inst84Quest4_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst84Quest5_HORDE = Inst84Quest5
 Inst84Quest5_HORDE_Level = "80"
 Inst84Quest5_HORDE_Attain = "80"
@@ -9082,7 +9082,7 @@ Inst84Quest5_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst84Quest6_HORDE = Inst84Quest6
 Inst84Quest6_HORDE_Level = "80"
 Inst84Quest6_HORDE_Attain = "80"
@@ -9363,7 +9363,7 @@ Inst86Quest20_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst86Quest1_HORDE = Inst86Quest1
 Inst86Quest1_HORDE_Level = "80"
 Inst86Quest1_HORDE_Attain = "80"
@@ -9375,7 +9375,7 @@ Inst86Quest1_HORDE_Folgequest = Inst86Quest1_Folgequest
 Inst86Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst86Quest2_HORDE = Inst86Quest2
 Inst86Quest2_HORDE_Level = "80"
 Inst86Quest2_HORDE_Attain = "80"
@@ -9387,7 +9387,7 @@ Inst86Quest2_HORDE_Folgequest = Inst86Quest2_Folgequest
 Inst86Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst86Quest3_HORDE = Inst86Quest3
 Inst86Quest3_HORDE_Level = "80"
 Inst86Quest3_HORDE_Attain = "80"
@@ -9399,7 +9399,7 @@ Inst86Quest3_HORDE_Folgequest = "Nein"
 Inst86Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst86Quest4_HORDE = Inst86Quest4
 Inst86Quest4_HORDE_Level = "80"
 Inst86Quest4_HORDE_Attain = "80"
@@ -9411,7 +9411,7 @@ Inst86Quest4_HORDE_Folgequest = "Nein"
 Inst86Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst86Quest5_HORDE = Inst86Quest5
 Inst86Quest5_HORDE_Level = "80"
 Inst86Quest5_HORDE_Attain = "80"
@@ -9423,7 +9423,7 @@ Inst86Quest5_HORDE_Folgequest = "Nein"
 Inst86Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst86Quest6_HORDE = Inst86Quest6
 Inst86Quest6_HORDE_Level = "80"
 Inst86Quest6_HORDE_Attain = "80"
@@ -9435,7 +9435,7 @@ Inst86Quest6_HORDE_Folgequest = "Nein"
 Inst86Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst86Quest7_HORDE = Inst86Quest7
 Inst86Quest7_HORDE_Level = "80"
 Inst86Quest7_HORDE_Attain = "80"
@@ -9449,7 +9449,7 @@ Inst86Quest7PreQuest_HORDE = "true"
 Inst86Quest7name1_HORDE = Inst86Quest7name1
 Inst86Quest7name2_HORDE = Inst86Quest7name2
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst86Quest8_HORDE = Inst86Quest8
 Inst86Quest8_HORDE_Level = "80"
 Inst86Quest8_HORDE_Attain = "80"
@@ -9464,7 +9464,7 @@ Inst86Quest8name2_HORDE = Inst86Quest8name2
 Inst86Quest8name3_HORDE = Inst86Quest8name3
 Inst86Quest8name4_HORDE = Inst86Quest8name4
 
---Quest 9 Horde  (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst86Quest9_HORDE = Inst86Quest9
 Inst86Quest9_HORDE_Level = "80"
 Inst86Quest9_HORDE_Attain = "80"
@@ -9476,7 +9476,7 @@ Inst86Quest9_HORDE_Folgequest = Inst86Quest9_Folgequest
 Inst86Quest9FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst86Quest10_HORDE = Inst86Quest10
 Inst86Quest10_HORDE_Level = "80"
 Inst86Quest10_HORDE_Attain = "80"
@@ -9488,7 +9488,7 @@ Inst86Quest10_HORDE_Folgequest = Inst86Quest10_Folgequest
 Inst86Quest10FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 11 Horde  (same as Quest 11 Alliance)
+--Quest 11 Horde
 Inst86Quest11_HORDE = Inst86Quest11
 Inst86Quest11_HORDE_Level = "80"
 Inst86Quest11_HORDE_Attain = "80"
@@ -9500,7 +9500,7 @@ Inst86Quest11_HORDE_Folgequest = "Nein"
 Inst86Quest11PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 12 Horde  (same as Quest 12 Alliance)
+--Quest 12 Horde
 Inst86Quest12_HORDE = Inst86Quest12
 Inst86Quest12_HORDE_Level = "80"
 Inst86Quest12_HORDE_Attain = "80"
@@ -9512,7 +9512,7 @@ Inst86Quest12_HORDE_Folgequest = "Nein"
 Inst86Quest12PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 13 Horde  (same as Quest 13 Alliance)
+--Quest 13 Horde
 Inst86Quest13_HORDE = Inst86Quest13
 Inst86Quest13_HORDE_Level = "80"
 Inst86Quest13_HORDE_Attain = "80"
@@ -9524,7 +9524,7 @@ Inst86Quest13_HORDE_Folgequest = "Nein"
 Inst86Quest13PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 14 Horde  (same as Quest 14 Alliance)
+--Quest 14 Horde
 Inst86Quest14_HORDE = Inst86Quest14
 Inst86Quest14_HORDE_Level = "80"
 Inst86Quest14_HORDE_Attain = "80"
@@ -9536,7 +9536,7 @@ Inst86Quest14_HORDE_Folgequest = "Nein"
 Inst86Quest14PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 15 Horde  (same as Quest 15 Alliance)
+--Quest 15 Horde
 Inst86Quest15_HORDE = Inst86Quest15
 Inst86Quest15_HORDE_Level = "80"
 Inst86Quest15_HORDE_Attain = "80"
@@ -9549,7 +9549,7 @@ Inst86Quest15PreQuest_HORDE = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 16 Horde  (same as Quest 16 Alliance)
+--Quest 16 Horde
 Inst86Quest16_HORDE = Inst86Quest16
 Inst86Quest16_HORDE_Level = "80"
 Inst86Quest16_HORDE_Attain = "80"
@@ -9564,7 +9564,7 @@ Inst86Quest16name2_HORDE = Inst86Quest16name2
 Inst86Quest16name3_HORDE = Inst86Quest16name3
 Inst86Quest16name4_HORDE = Inst86Quest16name4
 
---Quest 17 Horde (same as Quest 17 Alliance)
+--Quest 17 Horde
 Inst86Quest17_HORDE = Inst86Quest17
 Inst86Quest17_HORDE_Level = "80"
 Inst86Quest17_HORDE_Attain = "80"
@@ -9576,7 +9576,7 @@ Inst86Quest17_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 18 Horde (same as Quest 18 Alliance)
+--Quest 18 Horde
 Inst86Quest18_HORDE = Inst86Quest18
 Inst86Quest18_HORDE_Level = "80"
 Inst86Quest18_HORDE_Attain = "80"
@@ -9588,7 +9588,7 @@ Inst86Quest18_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 19 Horde (same as Quest 19 Alliance)
+--Quest 19 Horde
 Inst86Quest19_HORDE = Inst86Quest19
 Inst86Quest19_HORDE_Level = "80"
 Inst86Quest19_HORDE_Attain = "80"
@@ -9600,7 +9600,7 @@ Inst86Quest19_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 20 Horde (same as Quest 20 Alliance)
+--Quest 20 Horde
 Inst86Quest20_HORDE = Inst86Quest20
 Inst86Quest20_HORDE_Level = "80"
 Inst86Quest20_HORDE_Attain = "80"
@@ -9643,7 +9643,7 @@ Inst88Quest1_Folgequest = "Nein"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst88Quest1_HORDE = Inst88Quest1
 Inst88Quest1_HORDE_Level = "80"
 Inst88Quest1_HORDE_Attain = "80"
@@ -10059,7 +10059,7 @@ Inst93Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst93Quest1_HORDE = Inst93Quest1
 Inst93Quest1_HORDE_Level = "80"
 Inst93Quest1_HORDE_Attain = "80"
@@ -10071,7 +10071,7 @@ Inst93Quest1_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 2 Horde (same as Quest 2 Alliance)^
+--Quest 2 Horde
 Inst93Quest2_HORDE = Inst93Quest2
 Inst93Quest2_HORDE_Level = "80"
 Inst93Quest2_HORDE_Attain = "80"
@@ -10083,7 +10083,7 @@ Inst93Quest2_HORDE_Folgequest = Inst93Quest2_Folgequest
 Inst93Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst93Quest3_HORDE = Inst93Quest3
 Inst93Quest3_HORDE_Level = "80"
 Inst93Quest3_HORDE_Attain = "80"
@@ -10096,7 +10096,7 @@ Inst93Quest3FQuest_HORDE = "true"
 --
 Inst93Quest3name1_HORDE = Inst93Quest3name1
 
---Quest 4 Horde (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst93Quest4_HORDE = Inst93Quest4
 Inst93Quest4_HORDE_Level = "80"
 Inst93Quest4_HORDE_Attain = "80"
@@ -10108,7 +10108,7 @@ Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
 Inst93Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst93Quest5_HORDE = Inst93Quest5
 Inst93Quest5_HORDE_Level = "80"
 Inst93Quest5_HORDE_Attain = "80"
@@ -10120,7 +10120,7 @@ Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
 Inst93Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 6 Horde (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst93Quest6_HORDE = Inst93Quest6
 Inst93Quest6_HORDE_Level = "80"
 Inst93Quest6_HORDE_Attain = "80"
@@ -10132,7 +10132,7 @@ Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
 Inst93Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 7 Horde (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst93Quest7_HORDE = Inst93Quest7
 Inst93Quest7_HORDE_Level = "80"
 Inst93Quest7_HORDE_Attain = "80"
@@ -10144,7 +10144,7 @@ Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
 Inst93Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 8 Horde (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst93Quest8_HORDE = Inst93Quest8
 Inst93Quest8_HORDE_Level = "80"
 Inst93Quest8_HORDE_Attain = "80"
@@ -10156,7 +10156,7 @@ Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
 Inst93Quest8FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 9 Horde (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst93Quest9_HORDE = Inst93Quest9
 Inst93Quest9_HORDE_Level = "80"
 Inst93Quest9_HORDE_Attain = "80"
@@ -10169,7 +10169,7 @@ Inst93Quest9FQuest_HORDE = "true"
 --
 Inst93Quest9name1_HORDE = Inst93Quest9name1
 
---Quest 10 Horde (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst93Quest10_HORDE = Inst93Quest10
 Inst93Quest10_HORDE_Level = "80"
 Inst93Quest10_HORDE_Attain = "80"
@@ -10228,7 +10228,7 @@ Inst94Quest3PreQuest = "true"
 -- Preis Gerechtigkeitspunkte.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst94Quest1_HORDE = Inst94Quest1
 Inst94Quest1_HORDE_Level = "80"
 Inst94Quest1_HORDE_Attain = "80"
@@ -10240,7 +10240,7 @@ Inst94Quest1_HORDE_Folgequest = "true"
 Inst94Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst94Quest2_HORDE = Inst94Quest2
 Inst94Quest2_HORDE_Level = "80"
 Inst94Quest2_HORDE_Attain = "80"
@@ -10252,7 +10252,7 @@ Inst94Quest2_HORDE_Folgequest = Inst94Quest2_Folgequest
 Inst94Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst94Quest3_HORDE = Inst94Quest3
 Inst94Quest3_HORDE_Level = "80"
 Inst94Quest3_HORDE_Attain = "80"
@@ -10349,7 +10349,7 @@ Inst95Quest6name2 = "Diamantbesetzter Helm"
 Inst95Quest6name3 = "Raz' Brustplatte"
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst95Quest1_HORDE = Inst95Quest1
 Inst95Quest1_HORDE_Level = "82"
 Inst95Quest1_HORDE_Attain = "80"
@@ -10361,7 +10361,7 @@ Inst95Quest1_HORDE_Folgequest = Inst95Quest1_Folgequest
 Inst95Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst95Quest2_HORDE = Inst95Quest2
 Inst95Quest2_HORDE_Level = "82"
 Inst95Quest2_HORDE_Attain = "80"
@@ -10373,7 +10373,7 @@ Inst95Quest2_HORDE_Folgequest = "Nein"
 Inst95Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst95Quest3_HORDE = Inst95Quest3
 Inst95Quest3_HORDE_Level = "82"
 Inst95Quest3_HORDE_Attain = "80"
@@ -10384,7 +10384,7 @@ Inst95Quest3_HORDE_Prequest = "Nein"
 Inst95Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst95Quest4_HORDE = Inst95Quest4
 Inst95Quest4_HORDE_Level = "82"
 Inst95Quest4_HORDE_Attain = "80"
@@ -10395,7 +10395,7 @@ Inst95Quest4_HORDE_Prequest = "Nein"
 Inst95Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst95Quest5_HORDE = Inst95Quest5
 Inst95Quest5_HORDE_Level = "82"
 Inst95Quest5_HORDE_Attain = "80"
@@ -10409,7 +10409,7 @@ Inst95Quest5name1_HORDE = Inst95Quest5name1
 Inst95Quest5name2_HORDE = Inst95Quest5name2
 Inst95Quest5name3_HORDE = Inst95Quest5name3
 
---Quest 6 Horde (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst95Quest6_HORDE = Inst95Quest6
 Inst95Quest6_HORDE_Level = "82"
 Inst95Quest6_HORDE_Attain = "80"
@@ -10465,7 +10465,7 @@ Inst96Quest2name2 = "Kelpwaldweste"
 Inst96Quest2name3 = "Steinsprechergürtel"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst96Quest1_HORDE = Inst96Quest1
 Inst96Quest1_HORDE_Level = "82"
 Inst96Quest1_HORDE_Attain = "80"
@@ -10479,7 +10479,7 @@ Inst96Quest1name1_Horde = Inst96Quest1name1
 Inst96Quest1name2_Horde = Inst96Quest1name2
 Inst96Quest1name3_Horde = Inst96Quest1name3
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst96Quest2_HORDE = Inst96Quest2
 Inst96Quest2_HORDE_Level = "82"
 Inst96Quest2_HORDE_Attain = "80"
@@ -10561,7 +10561,7 @@ Inst97Quest4name2 = "Gürtel des Steinernen Kerns"
 Inst97Quest4name3 = "Kristallschimmerumhang"
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst97Quest1_HORDE = Inst97Quest1
 Inst97Quest1_HORDE_Level = "83"
 Inst97Quest1_HORDE_Attain = "82"
@@ -10573,7 +10573,7 @@ Inst97Quest1_HORDE_Folgequest = "Nein"
 Inst97Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst97Quest2_HORDE = Inst97Quest2
 Inst97Quest2_HORDE_Level = "84"
 Inst97Quest2_HORDE_Attain = "82"
@@ -10585,7 +10585,7 @@ Inst97Quest2_HORDE_Folgequest = Inst97Quest2_Folgequest
 Inst97Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst97Quest3_HORDE = Inst97Quest3
 Inst97Quest3_HORDE_Level = "84"
 Inst97Quest3_HORDE_Attain = "82"
@@ -10600,7 +10600,7 @@ Inst97Quest3name1_HORDE = Inst97Quest3name1
 Inst97Quest3name2_HORDE = Inst97Quest3name2
 Inst97Quest3name3_HORDE = Inst97Quest3name3
 
---Quest 4 Horde (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst97Quest4_HORDE = Inst97Quest4
 Inst97Quest4_HORDE_Level = "84"
 Inst97Quest4_HORDE_Attain = "82"
@@ -10665,7 +10665,7 @@ Inst98Quest3name2 = "Gamaschen des Vortexgipfels"
 Inst98Quest3name3 = "Band der Sackgasse"
 
 
---Quest 1 Horde (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst98Quest1_HORDE = Inst98Quest1
 Inst98Quest1_HORDE_Level = "84"
 Inst98Quest1_HORDE_Attain = "82"
@@ -10677,7 +10677,7 @@ Inst98Quest1_HORDE_Folgequest = Inst98Quest1_Folgequest
 Inst98Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst98Quest2_HORDE = Inst98Quest2
 Inst98Quest2_HORDE_Level = "84"
 Inst98Quest2_HORDE_Attain = "82"
@@ -10692,7 +10692,7 @@ Inst98Quest2name1_HORDE = Inst98Quest2name1
 Inst98Quest2name2_HORDE = Inst98Quest2name2
 Inst98Quest2name3_HORDE = Inst98Quest2name3
 
---Quest 3 Horde (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst98Quest3_HORDE = Inst98Quest3
 Inst98Quest3_HORDE_Level = "84"
 Inst98Quest3_HORDE_Attain = "82"
@@ -10762,7 +10762,7 @@ Inst99Quest3name2 = "Armschienen des Auslöschers"
 Inst99Quest3name3 = "Brustplatte des Zeugen"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst99Quest1_HORDE = Inst99Quest1
 Inst99Quest1_HORDE_Level = "85"
 Inst99Quest1_HORDE_Attain = "84"
@@ -10774,7 +10774,7 @@ Inst99Quest1_HORDE_Folgequest = "Nein"
 --
 Inst99Quest1name1_HORDE = Inst99Quest1name1
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst99Quest2_HORDE = Inst99Quest2
 Inst99Quest2_HORDE_Level = "85"
 Inst99Quest2_HORDE_Attain = "84"
@@ -10788,7 +10788,7 @@ Inst99Quest2name1_HORDE = Inst99Quest2name1
 Inst99Quest2name2_HORDE = Inst99Quest2name2
 Inst99Quest2name3_HORDE = Inst99Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst99Quest3_HORDE = Inst99Quest3
 Inst99Quest3_HORDE_Level = "85"
 Inst99Quest3_HORDE_Attain = "84"
@@ -10854,7 +10854,7 @@ Inst100Quest3name2 = "Helm der Neuerschaffung"
 Inst100Quest3name3 = "Handschuhe des Schatzjägers"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst100Quest1_HORDE = Inst100Quest1
 Inst100Quest1_HORDE_Level = "83"
 Inst100Quest1_HORDE_Attain = "83"
@@ -10866,7 +10866,7 @@ Inst100Quest1_HORDE_Folgequest = Inst100Quest1_Folgequest
 Inst100Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst100Quest2_HORDE = Inst100Quest2
 Inst100Quest2_HORDE_Level = "83"
 Inst100Quest2_HORDE_Attain = "83"
@@ -10881,7 +10881,7 @@ Inst100Quest2name1_HORDE = Inst100Quest2name1
 Inst100Quest2name2_HORDE = Inst100Quest2name2
 Inst100Quest2name3_HORDE = Inst100Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst100Quest3_HORDE = Inst100Quest3
 Inst100Quest3_HORDE_Level = "83"
 Inst100Quest3_HORDE_Attain = "83"
@@ -10946,7 +10946,7 @@ Inst101Quest3name2 = "Treter der Neferset"
 Inst101Quest3name3 = "Frontstiefel von Ramkahen"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst101Quest1_HORDE = Inst101Quest1
 Inst101Quest1_HORDE_Level = "83"
 Inst101Quest1_HORDE_Attain = "81"
@@ -10958,7 +10958,7 @@ Inst101Quest1_HORDE_Folgequest = "Nein"
 Inst101Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst101Quest2_HORDE = Inst101Quest2
 Inst101Quest2_HORDE_Level = "85"
 Inst101Quest2_HORDE_Attain = "83"
@@ -10972,7 +10972,7 @@ Inst101Quest2name1_HORDE = Inst101Quest2name1
 Inst101Quest2name2_HORDE = Inst101Quest2name2
 Inst101Quest2name3_HORDE = Inst101Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst101Quest3_HORDE = Inst101Quest3
 Inst101Quest3_HORDE_Level = "85"
 Inst101Quest3_HORDE_Attain = "83"
@@ -11273,7 +11273,8 @@ Inst89Quest1_Prequest = "Nein"
 Inst89Quest1_Folgequest = "Nein" 
 -- No Rewards for this quest   
 
---Quest 1 Horde Inst89Quest1_HORDE = "1. Zu den Waffen: Insel der Eroberung (Tagesquest)" 
+--Quest 1 Horde
+Inst89Quest1_HORDE = "1. Zu den Waffen: Insel der Eroberung (Tagesquest)" 
 Inst89Quest1_HORDE_Level = "80" 
 Inst89Quest1_HORDE_Attain = "80" 
 Inst89Quest1_HORDE_Aim = "Erringt den Sieg bei einer Partie auf dem Schlachtfeld Insel der Eroberung und kehrt zu einem Kriegshetzer der Horde in irgendeiner Hauptstadt, Dalaran oder Shattrath zurück."
@@ -11511,7 +11512,7 @@ Inst66Quest13name3 = "Severins Stock"
 Inst66Quest13name4 = "Windstürmerlanze"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst66Quest1_HORDE = Inst66Quest1
 Inst66Quest1_HORDE_Level = "70"
 Inst66Quest1_HORDE_Attain = "70"
@@ -11523,7 +11524,7 @@ Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
 Inst66Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst66Quest2_HORDE = Inst66Quest2
 Inst66Quest2_HORDE_Level = "70"
 Inst66Quest2_HORDE_Attain = "70"
@@ -11535,7 +11536,7 @@ Inst66Quest2_HORDE_Folgequest = "Nein"
 Inst66Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst66Quest3_HORDE = Inst66Quest3
 Inst66Quest3_HORDE_Level = "70"
 Inst66Quest3_HORDE_Attain = "70"
@@ -11546,7 +11547,7 @@ Inst66Quest3_HORDE_Prequest = "Nein"
 Inst66Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst66Quest4_HORDE = Inst66Quest4
 Inst66Quest4_HORDE_Level = "70"
 Inst66Quest4_HORDE_Attain = "70"
@@ -11559,7 +11560,7 @@ Inst66Quest4_HORDE_Folgequest = "Nein"
 Inst66Quest4name1_HORDE = Inst66Quest4name1
 Inst66Quest4name2_HORDE = Inst66Quest4name2
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst66Quest5_HORDE = Inst66Quest5
 Inst66Quest5_HORDE_Level = "70"
 Inst66Quest5_HORDE_Attain = "70"
@@ -11571,7 +11572,7 @@ Inst66Quest5_HORDE_Folgequest = "Nein"
 --
 Inst66Quest5name1_HORDE = Inst66Quest5name1
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst66Quest6_HORDE = Inst66Quest6
 Inst66Quest6_HORDE_Level = "70"
 Inst66Quest6_HORDE_Attain = "70"
@@ -11583,7 +11584,7 @@ Inst66Quest6_HORDE_Folgequest = "Nein"
 Inst66Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst66Quest7_HORDE = Inst66Quest7
 Inst66Quest7_HORDE_Level = "70"
 Inst66Quest7_HORDE_Attain = "70"
@@ -11595,7 +11596,7 @@ Inst66Quest7_HORDE_Folgequest = Inst66Quest7_Folgequest
 Inst66Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst66Quest8_HORDE = Inst66Quest8
 Inst66Quest8_HORDE_Level = "70"
 Inst66Quest8_HORDE_Attain = "70"
@@ -11607,7 +11608,7 @@ Inst66Quest8_HORDE_Folgequest = Inst66Quest8_Folgequest
 Inst66Quest8FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 9 Horde  (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst66Quest9_HORDE = Inst66Quest9
 Inst66Quest9_HORDE_Level = "70"
 Inst66Quest9_HORDE_Attain = "70"
@@ -11619,7 +11620,7 @@ Inst66Quest9_HORDE_Folgequest = Inst66Quest9_Folgequest
 Inst66Quest9FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst66Quest10_HORDE = Inst66Quest10
 Inst66Quest10_HORDE_Level = "70"
 Inst66Quest10_HORDE_Attain = "70"
@@ -11631,7 +11632,7 @@ Inst66Quest10_HORDE_Folgequest = Inst66Quest10_Folgequest
 Inst66Quest10FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 11 Horde  (same as Quest 11 Alliance)
+--Quest 11 Horde
 Inst66Quest11_HORDE = Inst66Quest11
 Inst66Quest11_HORDE_Level = "70"
 Inst66Quest11_HORDE_Attain = "70"
@@ -11643,7 +11644,7 @@ Inst66Quest11_HORDE_Folgequest = Inst66Quest11_Folgequest
 Inst66Quest11FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 12 Horde  (same as Quest 12 Alliance)
+--Quest 12 Horde
 Inst66Quest12_HORDE = Inst66Quest12
 Inst66Quest12_HORDE_Level = "70"
 Inst66Quest12_HORDE_Attain = "70"
@@ -11656,7 +11657,7 @@ Inst66Quest12PreQuest_HORDE = "true"
 --
 Inst66Quest12name1_HORDE = Inst66Quest12name1
 
---Quest 13 Horde  (same as Quest 13 Alliance)
+--Quest 13 Horde
 Inst66Quest13_HORDE = Inst66Quest13
 Inst66Quest13_HORDE_Level = "70"
 Inst66Quest13_HORDE_Attain = "70"
