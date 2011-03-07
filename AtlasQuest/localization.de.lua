@@ -3411,16 +3411,16 @@ Inst21Quest5_HORDE_Folgequest = "Nein"
 
 
 
---------------- INST22 - Stratholme (Strat) ---------------
+--------------- INST22 - Stratholme - Crusaders' Square (Strat) ---------------
 
 Inst22Story = {
   ["Page1"] = "Einst war Stratholme das Juwel von Lordaeron, aber es ist schon lange her, dass jemand die Stadt bei diesem Namen genannt hat. Hier, an genau diesem Ort, vollzog sich der Anfang des Untergangs von Lordaeron, als sich Arthas gegen seinen Mentor Uther Lichtbringer wandte und hunderte treu ergebener Untertanen, die angeblich mit der Seuche des Untodes in Berührung gekommen waren, ohne jegliches Erbarmen zur Schlachtbank führte. Dies war der erste Schritt auf Arthas langer Reise abwärts in die finstersten Abgründe der menschlichen Seele, die ihn schließlich in die offenen Arme des Lichkönigs trieb. Stratholme ist nun unter der Verwaltung des mächtigen Lichs Kel'thuzad eine Festung der untoten Geißel.",
   ["Page2"] = "Ein Teil der Ruinen wird mit dem Mut der Verzweiflung von einem Kontingent Scharlachroter Kreuzritter gehalten, die von dem Obersten Kreuzzügler Dathrohan angeführt werden. Beide Seiten sind in einem erbitterten Straßenkampf gefangen. Abenteurer, die mutig (oder töricht) genug sind, Stratholme zu betreten, werden sich früher oder später mit beiden Seiten auseinandersetzen müssen. Man sagt, die Stadt werde von drei gewaltigen Wachtürmen, mächtigen Totenbeschwörern, Banshees und Monstrositäten bewacht. Es gibt auch Berichte von einem unheimlichen Todesritter, der auf seinem untoten Ross durch die Straßen reitet, und jeden heimsucht, der es wagt, in das Reich der Geißel vorzudringen.",
   ["MaxPages"] = "2",
 };
-Inst22Caption = "Stratholme"
-Inst22QAA = "12 Quests"
-Inst22QAH = "12 Quests"
+Inst22Caption = "Stratholme - Der Kreuzzüglerpass"
+Inst22QAA = "8 Quests"
+Inst22QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. Eine Stadt unter Belagerung"
@@ -3428,134 +3428,87 @@ Inst22Quest1_Level = "45"
 Inst22Quest1_Attain = "44"
 Inst22Quest1_Aim = "Sprecht mit Rottenkommandant Steinberster."
 Inst22Quest1_Location = "Argentumoffizier Irizarry (Östliche Pestländer - Nordpassturm; "..YELLOW.."51.6,21.2"..WHITE..")"
-Inst22Quest1_Note = "Rottenkommandant Steinberster befindet sich am Eingang innerhlab der Instanz von Stratholmas."
+Inst22Quest1_Note = "Rottenkommandant Steinberster befindet sich am Eingang innerhalb der Instanz von Stratholmas."
 Inst22Quest1_Prequest = "Nein"
 Inst22Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst22Quest2 = "2. Der große Fras Siabi"
-Inst22Quest2_Level = "46"
-Inst22Quest2_Attain = "42"
-Inst22Quest2_Aim = "Bergt einen Kasten von Fras Siabis Tollem Tabak."
-Inst22Quest2_Location = "Rottenkommandant Steinberster (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest2_Note = "Den Raucherladen findet man bei "..YELLOW.."[1]"..WHITE..". Fras Siabi erscheint, wenn man den Kasten öffnet."
+Inst22Quest2 = "2. Flüssiges Gold"
+Inst22Quest2_Level = "50"
+Inst22Quest2_Attain = "46"
+Inst22Quest2_Aim = "Findet eine Phiole mit Weihwasser von Stratholme."
+Inst22Quest2_Location = "Rottenkommandant Steinberster (Stratholme - Der Kreuzzüglerpass; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest2_Note = "Phiole mit Weihwasser findet man überall im Kreuzzüglerpass rundherum der Straßem."
 Inst22Quest2_Prequest = "Nein"
 Inst22Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst22Quest3 = "3. Von Liebe und Familie"
+Inst22Quest3 = "3. Der große Fras Siabi"
 Inst22Quest3_Level = "46"
 Inst22Quest3_Attain = "42"
-Inst22Quest3_Aim = "Findet 'Von Liebe und Familie'."
-Inst22Quest3_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest3_Note = "Die Vorquest bekommt man von Tirion Fordring (Westliche Pestländer; "..YELLOW.."7,43"..WHITE.."). Das Bild findet man bei "..YELLOW.."[10]"..WHITE.."."
+Inst22Quest3_Aim = "Bergt einen Kasten von Fras Siabis Tollem Tabak."
+Inst22Quest3_Location = "Rottenkommandant Steinberster (Stratholm - Der Kreuzzüglerpass; "..DARKYELLOW.."Eingang"..WHITE..")."
+Inst22Quest3_Note = "Fras Siabi erscheint bei der Benutzung seines Briefkastens bei "..DARKYELLOW.."[1]"..WHITE.."."
 Inst22Quest3_Prequest = "Nein"
 Inst22Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst22Quest4 = "4. Vergeltung"
-Inst22Quest4_Level = "47"
+Inst22Quest4 = "4. Annalen der Silbernen Hand"
+Inst22Quest4_Level = "46"
 Inst22Quest4_Attain = "42"
-Inst22Quest4_Aim = "Tötet den Unverziehenen und Timmy den Grausamen."
-Inst22Quest4_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest4_Note = "Der Unverziehene befindet sich bei und Timmy der Grausame befindet sich bei."
-Inst22Quest4_Prequest = "Nein"
+Inst22Quest4_Aim = "Treibt einen verschollenen Band der Annalen der Silbernen Hand in Stratholme auf."
+Inst22Quest4_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76.0,51.0"..WHITE..")"
+Inst22Quest4_Note = "Das Buch befindet sich bei "..YELLOW.."[5]"..WHITE..".\n\nDies ist eine wiederholbare Ruffarm Quest für die Argentumdämmerung. Die Vorquest startet bei Fiona (Östliche Pestländer - Fionas Karawane; "..YELLOW.."9.0, 66.4"..WHITE..".""
+Inst22Quest4_Prequest = "Ja, Gidwin Goldzopf -> Argentumruf: Das giftige Tal"
 Inst22Quest4_Folgequest = "Nein"
+Inst22Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst22Quest5 = "5. Annalen der Silbernen Hand"
+Inst22Quest5 = "5. Von Liebe und Familie"
 Inst22Quest5_Level = "46"
 Inst22Quest5_Attain = "42"
-Inst22Quest5_Aim = "Treibt einen verschollenen Band der Annalen der Silbernen Hand in Stratholme auf."
-Inst22Quest5_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76.0,51.0"..WHITE..")"
-Inst22Quest5_Note = "Annalen der Silbernen Hand findet man bei."
+Inst22Quest5_Aim = "Findet 'Von Liebe und Familie'."
+Inst22Quest5_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Kreuzzüglerpass; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest5_Note = "Das Bild kann gefunden werden bei "..YELLOW.."[5]"..WHITE.."."
 Inst22Quest5_Prequest = "Nein"
 Inst22Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst22Quest6 = "6. Baron Aurius Totenschwur"
-Inst22Quest6_Attain = "51"
-Inst22Quest6_Level = "46"
-Inst22Quest6_Aim = "Tötet Baron Aurius Totenschwur."
-Inst22Quest6_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest6_Note = "Baron Aurius Totenschwur befindet sich bei."
+Inst22Quest6 = "6. Vergeltung"
+Inst22Quest6_Level = "47"
+Inst22Quest6_Attain = "42"
+Inst22Quest6_Aim = "Tötet den Unverziehenen und Timmy den Grausamen."
+Inst22Quest6_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Kreuzzüglerpass; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest6_Note = "Der Unverziehene befindet sich bei "..YELLOW.."[1]"..WHITE.." und Timmy der Grausame befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst22Quest6_Prequest = "Nein"
 Inst22Quest6_Folgequest = "Nein"
---
-Inst22Quest6name1 = "Statue des Vorbilds"
-Inst22Quest6name2 = "Buch des Vorbilds"
-Inst22Quest6name3 = "Götze des Vorbilds"
-Inst22Quest6name4 = "Relikt des Vorbilds"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst22Quest7 = "7. Der Schreckenslord Balnazzar"
-Inst22Quest7_Level = "47"
+Inst22Quest7 = "7. Die Wettstreiter ausmerzen"
+Inst22Quest7_Level = "46"
 Inst22Quest7_Attain = "42"
-Inst22Quest7_Aim = "Tötet Balnazzar."
-Inst22Quest7_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest7_Note = "Schreckenslord Balnazzar befindet sich bei."
+Inst22Quest7_Aim = "Tötet den purpurroten Hammerschmied."
+Inst22Quest7_Location = "Meisterhandwerker Wilhelm (Stratholme - Der Kreuzzüglerpass; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest7_Note = "Auferstandener Hammerschmied erscheint bei"..DARKYELLOW.."[3]"..WHITE.." beim benutzen der funkelnden Papieren auf den Boden"
 Inst22Quest7_Prequest = "Nein"
 Inst22Quest7_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst22Quest8 = "8. Die Wettstreiter ausmerzen"
-Inst22Quest8_Level = "46"
+Inst22Quest8 = "8. Der Schreckenslord Balnazzar"
+Inst22Quest8_Level = "47"
 Inst22Quest8_Attain = "42"
-Inst22Quest8_Aim = "Tötet den purpurroten Hammerschmied."
-Inst22Quest8_Location = "Meisterhandwerker Wilhelm (Stratholme; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest8_Note = "Auferstandener Hammerschmied befindet sich bei."
+Inst22Quest8_Aim = "Tötet Balnazzar."
+Inst22Quest8_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Kreuzzüglerpass; "..YELLOW.."Eingang"..WHITE..")."
+Inst22Quest8_Note = "Schreckenslord Balnazzar befindet sich bei "..YELLOW.."[6]"..WHITE.."."
 Inst22Quest8_Prequest = "Nein"
 Inst22Quest8_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 9 Alliance
-Inst22Quest9 = "9. Flüssiges Gold"
-Inst22Quest9_Level = "50"
-Inst22Quest9_Attain = "46"
-Inst22Quest9_Aim = "Findet eine Phiole mit Weihwasser von Stratholme."
-Inst22Quest9_Location = "Rottenkommandant Steinberster (Stratholme; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest9_Note = "Phiole mit Weihwasser findet man überall in Stratholm in den Kisten."
-Inst22Quest9_Prequest = "Nein"
-Inst22Quest9_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst22Quest10 = "10. Mann gegen Monstrosität"
-Inst22Quest10_Level = "50"
-Inst22Quest10_Attain = "46"
-Inst22Quest10_Aim = "Tötet Ramstein den Verschlinger."
-Inst22Quest10_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest10_Note = "Ramstein der Verschlinger befindet sich bei."
-Inst22Quest10_Prequest = "Nein"
-Inst22Quest10_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst22Quest11 = "11. Verstärkung der Argentumdämmerung"
-Inst22Quest11_Level = "50"
-Inst22Quest11_Attain = "46"
-Inst22Quest11_Aim = "Erhaltet 4 Essenzen einer Banshee."
-Inst22Quest11_Location = "Erzmagierin Angela Dosantos (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest11_Note = "Die Banshees befinden sich bei."
-Inst22Quest11_Prequest = "Nein"
-Inst22Quest11_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst22Quest12 = "12. Waffen für den Krieg"
-Inst22Quest12_Level = "50"
-Inst22Quest12_Attain = "46"
-Inst22Quest12_Aim = "Tötet den Schwertschmied der schwarzen Wache."
-Inst22Quest12_Location = "Meisterhandwerker Wilhelm (Stratholme; "..YELLOW.."Eingang"..WHITE..")."
-Inst22Quest12_Note = "Schwertschmied der schwarzen Wache befindet sich bei."
-Inst22Quest12_Prequest = "Nein"
-Inst22Quest12_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -3601,6 +3554,7 @@ Inst22Quest4_HORDE_Location = Inst22Quest4_Location
 Inst22Quest4_HORDE_Note = Inst22Quest4_Note
 Inst22Quest4_HORDE_Prequest = "Nein"
 Inst22Quest4_HORDE_Folgequest = "Nein"
+Inst22Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde
@@ -3623,11 +3577,7 @@ Inst22Quest6_HORDE_Location = Inst22Quest6_Location
 Inst22Quest6_HORDE_Note = Inst22Quest6_Note
 Inst22Quest6_HORDE_Prequest = "Nein"
 Inst22Quest6_HORDE_Folgequest = "Nein"
---
-Inst22Quest6name1_HORDE = Inst22Quest6name1
-Inst22Quest6name2_HORDE = Inst22Quest6name2
-Inst22Quest6name3_HORDE = Inst22Quest6name3
-Inst22Quest6name4_HORDE = Inst22Quest6name4
+-- No Rewards for this quest
 
 --Quest 7 Horde
 Inst22Quest7_HORDE = Inst22Quest7
@@ -3651,49 +3601,115 @@ Inst22Quest8_HORDE_Prequest = "Nein"
 Inst22Quest8_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 9 Horde
-Inst22Quest9_HORDE = Inst22Quest9
-Inst22Quest9_HORDE_Level = "50"
-Inst22Quest9_HORDE_Attain = "46"
-Inst22Quest9_HORDE_Aim = Inst22Quest9_Aim
-Inst22Quest9_HORDE_Location = Inst22Quest9_Location
-Inst22Quest9_HORDE_Note = Inst22Quest9_Note
-Inst22Quest9_HORDE_Prequest = "Nein"
-Inst22Quest9_HORDE_Folgequest = "Nein"
+
+
+--------------- INST28 - Stratholme - The Gauntlet (Strat) ---------------
+
+Inst28Story = {
+  ["Page1"] = "Einst war Stratholme das Juwel von Lordaeron, aber es ist schon lange her, dass jemand die Stadt bei diesem Namen genannt hat. Hier, an genau diesem Ort, vollzog sich der Anfang des Untergangs von Lordaeron, als sich Arthas gegen seinen Mentor Uther Lichtbringer wandte und hunderte treu ergebener Untertanen, die angeblich mit der Seuche des Untodes in Berührung gekommen waren, ohne jegliches Erbarmen zur Schlachtbank führte. Dies war der erste Schritt auf Arthas langer Reise abwärts in die finstersten Abgründe der menschlichen Seele, die ihn schließlich in die offenen Arme des Lichkönigs trieb. Stratholme ist nun unter der Verwaltung des mächtigen Lichs Kel'thuzad eine Festung der untoten Geißel.",
+  ["Page2"] = "Ein Teil der Ruinen wird mit dem Mut der Verzweiflung von einem Kontingent Scharlachroter Kreuzritter gehalten, die von dem Obersten Kreuzzügler Dathrohan angeführt werden. Beide Seiten sind in einem erbitterten Straßenkampf gefangen. Abenteurer, die mutig (oder töricht) genug sind, Stratholme zu betreten, werden sich früher oder später mit beiden Seiten auseinandersetzen müssen. Man sagt, die Stadt werde von drei gewaltigen Wachtürmen, mächtigen Totenbeschwörern, Banshees und Monstrositäten bewacht. Es gibt auch Berichte von einem unheimlichen Todesritter, der auf seinem untoten Ross durch die Straßen reitet, und jeden heimsucht, der es wagt, in das Reich der Geißel vorzudringen.",
+  ["MaxPages"] = "2",
+};
+Inst28Caption = "Stratholme - Der Spießrutenlauf"
+Inst28QAA = "4 Quests"
+Inst28QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst28Quest1 = "1. Waffen für den Krieg"
+Inst28Quest1_Level = "50"
+Inst28Quest1_Attain = "46"
+Inst28Quest1_Aim = "Tötet den Schwertschmied der schwarzen Wache."
+Inst28Quest1_Location = "Meisterhandwerker Wilhelm (Stratholme - Der Spießrutenlauf; "..GREEN.."[1']"..WHITE..")"
+Inst28Quest1_Note = "Schwertschmied der schwarzen Wache erscheint bei "..DARKYELLOW.."[1]"..WHITE.." beim anklicken der funkelnden Papieren auf den Boden."
+Inst28Quest1_Prequest = "Nein"
+Inst28Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 10 Horde
-Inst22Quest10_HORDE = Inst22Quest10
-Inst22Quest10_HORDE_Level = "50"
-Inst22Quest10_HORDE_Attain = "46"
-Inst22Quest10_HORDE_Aim = Inst22Quest10_Aim
-Inst22Quest10_HORDE_Location = Inst22Quest10_Location
-Inst22Quest10_HORDE_Note = Inst22Quest10_Note
-Inst22Quest10_HORDE_Prequest = "Nein"
-Inst22Quest10_HORDE_Folgequest = "Nein"
+--Quest 2 Alliance
+Inst28Quest2 = "2. Verstärkung der Argentumdämmerung"
+Inst28Quest2_Level = "50"
+Inst28Quest2_Attain = "46"
+Inst28Quest2_Aim = "Erhaltet 4 Essenzen einer Banshee."
+Inst28Quest2_Location = "Erzmagierin Angela Dosantos (Stratholm - Der Spießrutenlauf; "..GREEN.."[1']"..WHITE..")"
+Inst28Quest2_Note = "Die Bansheesessenzen droppen von den Banshees überall in der Stadt."
+Inst28Quest2_Prequest = "Nein"
+Inst28Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 11 Horde
-Inst22Quest11_HORDE = Inst22Quest11
-Inst22Quest11_HORDE_Level = "50"
-Inst22Quest11_HORDE_Attain = "46"
-Inst22Quest11_HORDE_Aim = Inst22Quest11_Aim
-Inst22Quest11_HORDE_Location = Inst22Quest11_Location
-Inst22Quest11_HORDE_Note = Inst22Quest11_Note
-Inst22Quest11_HORDE_Prequest = "Nein"
-Inst22Quest11_HORDE_Folgequest = "Nein"
+--Quest 3 Alliance
+Inst28Quest3 = "3. Mann gegen Monstrosität"
+Inst28Quest3_Level = "50"
+Inst28Quest3_Attain = "46"
+Inst28Quest3_Aim = "Tötet Ramstein den Verschlinger."
+Inst28Quest3_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Spießrutenlauf; "..GREEN.."[1']"..WHITE..")"
+Inst28Quest3_Note = "Ramstein der Verschlinger befindet sich bei "..YELLOW.."[6]"..WHITE.."."
+Inst28Quest3_Prequest = "Nein"
+Inst28Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 12 Horde
-Inst22Quest12_HORDE = Inst22Quest12
-Inst22Quest12_HORDE_Level = "50"
-Inst22Quest12_HORDE_Attain = "46"
-Inst22Quest12_HORDE_Aim = Inst22Quest12_Aim
-Inst22Quest12_HORDE_Location = Inst22Quest12_Location
-Inst22Quest12_HORDE_Note = Inst22Quest12_Note
-Inst22Quest12_HORDE_Prequest = "Nein"
-Inst22Quest12_HORDE_Folgequest = "Nein"
+--Quest 4 Alliance
+Inst28Quest4 = "4. Baron Aurius Totenschwur"
+Inst28Quest4_Attain = "51"
+Inst28Quest4_Level = "46"
+Inst28Quest4_Aim = "Tötet Baron Aurius Totenschwur."
+Inst28Quest4_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm; "..YELLOW.."Eingang"..WHITE..")."
+Inst28Quest4_Note = "Baron Aurius Totenschwur befindet sich bei."
+Inst28Quest4_Prequest = "Nein"
+Inst28Quest4_Folgequest = "Nein"
+--
+Inst28Quest4name1 = "Statue des Vorbilds"
+Inst28Quest4name2 = "Buch des Vorbilds"
+Inst28Quest4name3 = "Götze des Vorbilds"
+Inst28Quest4name4 = "Relikt des Vorbilds"
+
+
+--Quest 1 Horde
+Inst28Quest1_HORDE = Inst28Quest1
+Inst28Quest1_HORDE_Level = "50"
+Inst28Quest1_HORDE_Attain = "46"
+Inst28Quest1_HORDE_Aim = Inst28Quest1_Aim
+Inst28Quest1_HORDE_Location = Inst28Quest1_Location
+Inst28Quest1_HORDE_Note = Inst28Quest91Note
+Inst28Quest1_HORDE_Prequest = "Nein"
+Inst28Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 2 Horde
+Inst28Quest2_HORDE = Inst28Quest2
+Inst28Quest2_HORDE_Level = "50"
+Inst28Quest2_HORDE_Attain = "46"
+Inst28Quest2_HORDE_Aim = Inst28Quest2_Aim
+Inst28Quest2_HORDE_Location = Inst28Quest2_Location
+Inst28Quest2_HORDE_Note = Inst28Quest2_Note
+Inst28Quest2_HORDE_Prequest = "Nein"
+Inst28Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst28Quest3_HORDE = Inst28Quest3
+Inst28Quest3_HORDE_Level = "50"
+Inst28Quest3_HORDE_Attain = "46"
+Inst28Quest3_HORDE_Aim = Inst28Quest3_Aim
+Inst28Quest3_HORDE_Location = Inst28Quest3_Location
+Inst28Quest3_HORDE_Note = Inst28uest3_Note
+Inst28Quest3_HORDE_Prequest = "Nein"
+Inst28Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst28Quest4_HORDE = Inst28Quest4
+Inst28Quest4_HORDE_Level = "50"
+Inst28Quest4_HORDE_Attain = "46"
+Inst28Quest4_HORDE_Aim = Inst28Quest4_Aim
+Inst28Quest4_HORDE_Location = Inst28Quest4_Location
+Inst28Quest4_HORDE_Note = Inst28Quest4_Note
+Inst28Quest4_HORDE_Prequest = "Nein"
+Inst28Quest4_HORDE_Folgequest = "Nein"
+--
+Inst28Quest4name1_HORDE = Inst28Quest4name1
+Inst28Quest4name2_HORDE = Inst28Quest4name2
+Inst28Quest4name3_HORDE = Inst28Quest4name3
+Inst28Quest4name4_HORDE = Inst28Quest4name4
 
 
 
@@ -3795,10 +3811,11 @@ Inst25Quest1 = "1. Das Herz des Tempels"
 Inst25Quest1_Level = "54"
 Inst25Quest1_Attain = "52"
 Inst25Quest1_Aim = "Sprecht im Inneren des Tempels von Atal'Hakkar erneut mit Lord Itharius."
-Inst25Quest1_Location = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
+Inst25Quest1_Location = "Lord Itharius (Sümpfe des Elends - Der Tempel von Atal'Hakkar; "..YELLOW.."54.0, 79.6"..WHITE..")"
 Inst25Quest1_Note = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
-Inst25Quest1_Prequest = "Nein"
+Inst25Quest1_Prequest = "Ja, Tränenteich -> Der Segen des Grünen Drachenschwarms"
 Inst25Quest1_Folgequest = "Nein"
+Inst25Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -3806,7 +3823,7 @@ Inst25Quest2 = "2. Der Blutgott Hakkar"
 Inst25Quest2_Level = "54"
 Inst25Quest2_Attain = "50"
 Inst25Quest2_Aim = "Tötet den Avatar von Hakkar."
-Inst25Quest2_Location = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
+Inst25Quest2_Location = "Lord Itharius (Der Tempel von Atal'Hakkar; "..YELLOW.."Eingang"..WHITE..")"
 Inst25Quest2_Note = "Avatar von Hakkar befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst25Quest2_Prequest = "Nein"
 Inst25Quest2_Folgequest = "Nein"
@@ -3817,7 +3834,7 @@ Inst25Quest3 = "3. Jammal'an der Prophet"
 Inst25Quest3_Level = "54"
 Inst25Quest3_Attain = "50"
 Inst25Quest3_Aim = "Erbeutet den Kopf von Jammal'an dem Propheten."
-Inst25Quest3_Location = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
+Inst25Quest3_Location = "Lord Itharius (Der Tempel von Atal'Hakkar; "..YELLOW.."Eingang"..WHITE..")"
 Inst25Quest3_Note = "Jammal'an dem Propheten befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst25Quest3_Prequest = "Nein"
 Inst25Quest3_Folgequest = "Nein"
@@ -3828,7 +3845,7 @@ Inst25Quest4 = "4. Eranikus"
 Inst25Quest4_Level = "54"
 Inst25Quest4_Attain = "50"
 Inst25Quest4_Aim = "Tötet Eranikus."
-Inst25Quest4_Location = "Lord Itharius (Versunkener Tempel; "..GREEN.."[1']"..WHITE..")"
+Inst25Quest4_Location = "Lord Itharius (Der Tempel von Atal'Hakkar; "..YELLOW.."Eingang"..WHITE..")"
 Inst25Quest4_Note = "Eranikus' Schemen befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst25Quest4_Prequest = "Nein"
 Inst25Quest4_Folgequest = "Nein"
@@ -3843,8 +3860,9 @@ Inst25Quest1_HORDE_Attain = "52"
 Inst25Quest1_HORDE_Aim = Inst25Quest1_Aim
 Inst25Quest1_HORDE_Location = Inst25Quest1_Location
 Inst25Quest1_HORDE_Note = Inst25Quest1_Note
-Inst25Quest1_HORDE_Prequest = "Nein"
+Inst25Quest1_HORDE_Prequest = Inst25Quest1_Prequest
 Inst25Quest1_HORDE_Folgequest = "Nein"
+Inst25Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -3887,8 +3905,8 @@ Inst25Quest4name1_HORDE = Inst25Quest4name1
 
 Inst26Story = "Im Herzen Ahn'Qiraj liegt ein uralter Tempelkomplex. Vor Beginn der Zeitrechnung erbaut, ist es ein Monument scheußlicher Gottheiten und die gewaltige Brutstätte der Qiraji Streitmacht. Seit der Krieg der wehenden Sande vor tausend Jahren endete, waren die Zwilingsimperatoren von Ahn'Qiraj, Vek'nilash und Vek'lor, in ihrem Tempel gefangen. Die magische Barriere des bronzenen Drachen Anachronos und der Nachtelfen hielt sie in ihrem Bann. Doch nun, da das Szepter der Sandstürme wieder vereint und das Siegel gebrochen ist, steht der Weg in das Heiligtum Ahn'Qirajs erneut offen. Hinter dem krabbelnden Wahnsinn des Schwarmbaus, unter dem Tempel von Ahn'Qiraj, bereiten sich Heerscharen der Qiraji auf den Einmarsch vor. Nun gilt es, sie um jeden Preis aufzuhalten bevor sie ihre unersättlichen, insektenartigen Armeen erneut auf auf Kalimdor loslassen und ein zweiter Krieg der Silithiden beginnt!"
 Inst26Caption = "Tempel von Ahn'Qiraj"
-Inst26QAA = "3 Quests"
-Inst26QAH = "3 Quests"
+Inst26QAA = "4 Quests"
+Inst26QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst26Quest1 = "1. C'Thuns Vermächnis"
@@ -3896,7 +3914,7 @@ Inst26Quest1_Level = "60"
 Inst26Quest1_Attain = "60"
 Inst26Quest1_Aim = "Bringt Caelastrasz im Tempel von Ahn'Qiraj das Auge von C'Thun."
 Inst26Quest1_Location = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..WHITE..")"
-Inst26Quest1_Note = "Caelestrasz (Tempel von Ahn'Qiraj; "..YELLOW.."2'"..WHITE..")"
+Inst26Quest1_Note = "Caelestrasz (Tempel von Ahn'Qiraj; "..YELLOW.."[2']"..WHITE..")"
 Inst26Quest1_Prequest = "Nein"
 Inst26Quest1_Folgequest = "Ja, Der Retter von Kalimdor"
 Inst26Quest1FQuest = "true"
@@ -3908,7 +3926,7 @@ Inst26Quest2_Level = "60"
 Inst26Quest2_Attain = "60"
 Inst26Quest2_Aim = "Bringt Anachronos in den Höhlen der Zeit das Auge von C'Thun."
 Inst26Quest2_Location = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..WHITE..")"
-Inst26Quest2_Note = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
+Inst26Quest2_Note = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."64.2,51.2"..WHITE..")"
 Inst26Quest2_Prequest = "Ja, C'Thuns Vermächnis"
 Inst26Quest2_Folgequest = "Nein"
 Inst26Quest2PreQuest = "true"
@@ -3923,7 +3941,7 @@ Inst26Quest3_Level = "60"
 Inst26Quest3_Attain = "60"
 Inst26Quest3_Aim = "Bringt das uralte Qirajiartefakt zu den Drachen, die sich nahe des Tempeleingangs versteckt halten."
 Inst26Quest3_Location = "Uraltes Qirajiartefakt (Zufälliger Dropp im Tempel von Ahn'Qiraj)"
-Inst26Quest3_Note = "Wird bei Andorgos (Tempel von Ahn'Qiraj; "..YELLOW.."1'"..WHITE..") abgegeben."
+Inst26Quest3_Note = "Wird bei Andorgos (Tempel von Ahn'Qiraj; "..GREEN.."[1']"..WHITE.." abgegeben."
 Inst26Quest3_Prequest = "Nein"
 Inst26Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3933,8 +3951,8 @@ Inst26Quest4 = "4. Sterbliche Helden"
 Inst26Quest4_Level = "60"
 Inst26Quest4_Attain = "60"
 Inst26Quest4_Aim = "Bring eine Insigne des Qirajilords zu Kandrostrasz im Tempel von Ahn'Qiraj."
-Inst26Quest4_Location = "Kandrostrasz (Tempel von Ahn'Qiraj; "..YELLOW.."[1']"..WHITE..")"
-Inst26Quest4_Note = "Das ist eine wiederholbare Quest um Ruf bei den Zirkel des Cenarius zu machen. Die Insigne des Qirajilords droppen von allen Bossen innerhalb der Instanz. Kandrostrasz kann man im Raum hinter dem ersten Boss finden."
+Inst26Quest4_Location = "Kandrostrasz (Tempel von Ahn'Qiraj; "..GREEN.."[1']"..WHITE.."."
+Inst26Quest4_Note = "Dies ist eine wiederholbare Quest um Ruf bei den Zirkel des Cenarius zu machen. Die Insigne des Qirajilords droppen von allen Bossen innerhalb der Instanz. Kandrostrasz kann man im Raum hinter dem ersten Boss finden."
 Inst26Quest4_Prequest = "Nein"
 Inst26Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4004,7 +4022,7 @@ Inst27Quest1_Level = "47"
 Inst27Quest1_Attain = "46"
 Inst27Quest1_Aim = "Findet Mazoga in Zul'Farrak."
 Inst27Quest1_Location = "Trenton Lichthammer (Tanaris - Sandmarter Wache; "..YELLOW.."42.4,24.0"..WHITE..")"
-Inst27Quest1_Note = "Mazoga befindet sich in der Instanz Zul'Farrak am Eingang."
+Inst27Quest1_Note = "Mazoga befindet sich in der Instanz Zul'Farrak am Eingang.\n\nDie Vorquest startet bei Mazoga (Tanaris - Zul'Furrak; "..YELLOW.."42.2, 23.8"..WHITE.."), außerhalb der Instanz."
 Inst27Quest1_Prequest = "Ja, Blut zum Blühen-->Geheimnisse in der Oase"
 Inst27Quest1_Folgequest = "Ja, Häuptling Ukurz Sandskalp"
 Inst27Quest1PreQuest = "true"
@@ -4016,7 +4034,7 @@ Inst27Quest2_Level = "49"
 Inst27Quest2_Attain = "44"
 Inst27Quest2_Aim = "Tötet Häuptling Ukorz Sandskalp."
 Inst27Quest2_Location = "Mazogas Geist (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")."
-Inst27Quest2_Note = "Häuptling Ukorz Sandskalp befindet sich bei."
+Inst27Quest2_Note = "Häuptling Ukorz Sandskalp befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst27Quest2_Prequest = "Ja, Nach Zul'Farrak"
 Inst27Quest2_Folgequest = "Nein"
 Inst27Quest2PreQuest = "true"
@@ -4031,37 +4049,37 @@ Inst27Quest3_Level = "48"
 Inst27Quest3_Attain = "44"
 Inst27Quest3_Aim = "Befreit Weegli Lunte und tötet Nekrum den Ausweider und Schattenpriester Sezz'ziz."
 Inst27Quest3_Location = "Tran'rek (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")"
-Inst27Quest3_Note = "Nekrum der Ausweider befindet sich bei und Schattenpriester Sezz'ziz befindet sich bei."
+Inst27Quest3_Note = "Weegli Lunte befindet sich bei "..YELLOW.."[2]"..WHITE..", Nekrum den Ausweider und Schattenpriester Sezz'ziz befinden sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst27Quest3_Prequest = "Nein"
 Inst27Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Alliance
-Inst27Quest4 = "4. Vergebliche Mühe"
+--Quest 4 Allianz
+Inst27Quest4 = "4. Zorn der Sandwüter"
 Inst27Quest4_Level = "48"
 Inst27Quest4_Attain = "44"
-Inst27Quest4_Aim = "Beschafft Euch die Tiara der Tiefen und Gahzrilla's elektrisierte Schuppe."
-Inst27Quest4_Location = "Chefingenieur Bilgenritzel (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")"
-Inst27Quest4_Note = "Wasserbeschwörerin Velratha befindet sich bei und Gahz'rilla befindet sich bei."
+Inst27Quest4_Aim = "Tötet Theka den Märtyrer, Hexendoktor Zum'rah, Antu'sul und Ruuzlu."
+Inst27Quest4_Location = "Mazogas Geist (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")."
+Inst27Quest4_Note = "Theka den Märtyrer befindet sich bei "..DARKYELLOW.."[3]"..WHITE..",Hexendoktor Zum'rah befindet sich bei "..YELLOW.."[5]"..WHITE..",Antu'sul befindet sich bei "..YELLOW.."[6]"..WHITE.." und Ruuzlu befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst27Quest4_Prequest = "Nein"
 Inst27Quest4_Folgequest = "Nein"
---
-Inst27Quest4name1 = "Schulterstücke von Zul'Farrak"
-Inst27Quest4name2 = "Elektrifizierte Gamaschen"
-Inst27Quest4name3 = "Gürtel der Tiefe"
-Inst27Quest4name4 = "Bilgenritzels Armbänder"
-Inst27Quest4name5 = "Stern des Narren"
+-- No Rewards for this quest
 
---Quest 5 Allianz
-Inst27Quest5 = "5. Zorn der Sandwüter"
+--Quest 5 Alliance
+Inst27Quest5 = "5. Vergebliche Mühe"
 Inst27Quest5_Level = "48"
 Inst27Quest5_Attain = "44"
-Inst27Quest5_Aim = "Tötet Theka den Märtyrer, Hexendoktor Zum'rah, Antu'sul und Ruuzlu."
-Inst27Quest5_Location = "Mazogas Geist (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")."
-Inst27Quest5_Note = "Theka den Märtyrer befindet sich bei ,Hexendoktor Zum'rah befindet sich bei ,Antu'sul befindet sich bei und Ruuzlu befindet sich bei."
+Inst27Quest5_Aim = "Beschafft Euch die Tiara der Tiefen und Gahzrilla's elektrisierte Schuppe."
+Inst27Quest5_Location = "Chefingenieur Bilgenritzel (Zul'Farrak; "..YELLOW.."Eingang"..WHITE..")"
+Inst27Quest5_Note = "Die Tiara der Tiefen droppt von Wasserbeschwörerin Velratha bei "..DARKYELLOW.."[2]"..WHITE.." und Gahzrilla's elektrisierte Schuppe von Gahz'rilla bei "..YELLOW.."[1]"..WHITE.."."
 Inst27Quest5_Prequest = "Nein"
 Inst27Quest5_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst27Quest5name1 = "Schulterstücke von Zul'Farrak"
+Inst27Quest5name2 = "Elektrifizierte Gamaschen"
+Inst27Quest5name3 = "Gürtel der Tiefe"
+Inst27Quest5name4 = "Bilgenritzels Armbänder"
+Inst27Quest5name5 = "Stern des Narren"
 
 
 --Quest 1 Horde
@@ -4145,7 +4163,7 @@ Inst29Quest1_Level = "26"
 Inst29Quest1_Attain = "26"
 Inst29Quest1_Aim = "Sprecht mit Mör'dok."
 Inst29Quest1_Location = "Skuerto (Arathihochland - Die Zuflucht; "..YELLOW.."40.2,49.0"..WHITE..")"
-Inst29Quest1_Note = "Mör'dok befindet sich innerhalb der Instanz Gnomeregan am Eingang."
+Inst29Quest1_Note = "Mör'dok befindet sich innerhalb der Instanz Gnomeregan am Eingang.\n\nWenn Du diese Quest annimmst mußt Du nicht die Quest 'Gnomeregan erforschen' annehmen.Es ist die selbe Quest aber verschiedene Questgeber."
 Inst29Quest1_Prequest = "Nein"
 Inst29Quest1_Folgequest = "Ja, Das G-Team"
 Inst29Quest1FQuest = "true"
@@ -4157,7 +4175,7 @@ Inst29Quest2_Level = "26"
 Inst29Quest2_Attain = "26"
 Inst29Quest2_Aim = "Sprecht mit Mör'dok."
 Inst29Quest2_Location = "Wulfred Harrys (Nördliches Schlingendorntal - Fort Livingston; "..YELLOW.."53.2,66.2"..WHITE..")"
-Inst29Quest2_Note = "Mör'dok befindet sich innerhalb der Instanz Gnomeregan am Eingang."
+Inst29Quest2_Note = "Mör'dok befindet sich innerhalb der Instanz Gnomeregan am Eingang.\n\nWenn Du diese Quest annimmst mußt Du nicht die Quest 'Trautes Heim, Gnom allein' annehmen.Es ist die selbe Quest aber verschiedene Questgeber."
 Inst29Quest2_Prequest = "Nein"
 Inst29Quest2_Folgequest = "Ja, Das G-Team"
 Inst29Quest2FQuest = "true"
@@ -4169,7 +4187,7 @@ Inst29Quest3_Level = "27"
 Inst29Quest3_Attain = "24"
 Inst29Quest3_Aim = "Tötet die Verflüssigte Ablagerung."
 Inst29Quest3_Location = "Mör'dok (Gnomeregan; "..YELLOW.."Eingang"..WHITE..")"
-Inst29Quest3_Note = "Verflüssigte Ablagerung befinden sich bei."
+Inst29Quest3_Note = "Verflüssigte Ablagerung befinden sich bei "..YELLOW.."[2]"..WHITE..".Gebe die Quest bei Bi'ay Bäräkuss "..GREEN.."[3']"..WHITE.." ab."
 Inst29Quest3_Prequest = "Ja, Trautes Heim, Gnom allein oder Gnomeregan erforschen"
 Inst29Quest3_Folgequest = "Ja, Das G-Team"
 Inst29Quest3FQuest = "true"
@@ -4180,8 +4198,8 @@ Inst29Quest4 = "4. Das G-Team"
 Inst29Quest4_Level = "28"
 Inst29Quest4_Attain = "24"
 Inst29Quest4_Aim = "Tötet den Elektrokutor 6000."
-Inst29Quest4_Location = "Bi'ay Bäräkuss (Gnomeregan; "..YELLOW.."Eingang"..WHITE..")"
-Inst29Quest4_Note = "Elektrokutor 6000 befindet sich bei."
+Inst29Quest4_Location = "Bi'ay Bäräkuss (Gnomeregan; "..GREEN.."[3']"..WHITE..")"
+Inst29Quest4_Note = "Elektrokutor 6000 befindet sich bei "..YELLOW.."[3]"..WHITE..".Gebe die Quest bei Fähs "..GREEN.."[4']"..WHITE.." ab."
 Inst29Quest4_Prequest = "Ja, Das G-Team"
 Inst29Quest4_Folgequest = "Ja, Das G-Team"
 Inst29Quest4FQuest = "true"
@@ -4192,8 +4210,8 @@ Inst29Quest5 = "5. Das G-Team"
 Inst29Quest5_Level = "29"
 Inst29Quest5_Attain = "24"
 Inst29Quest5_Aim = "Tötet Robogenieur Thermadraht."
-Inst29Quest5_Location = "Fähs (Gnomeregan; "..YELLOW.."Eingang"..WHITE..")"
-Inst29Quest5_Note = "Robogenieur Thermadraht befindet sich bei."
+Inst29Quest5_Location = "Fähs (Gnomeregan; "..GREEN.."[4']"..WHITE..")"
+Inst29Quest5_Note = "Robogenieur Thermadraht befindet sich bei "..YELLOW.."[5]"..WHITE..".Gebe die Quest bei Hann Ibal "..GREEN.."[5']"..WHITE.." ab."
 Inst29Quest5_Prequest = "Ja, Das G-Team"
 Inst29Quest5_Folgequest = "Nein"
 Inst29Quest5PreQuest = "true"
@@ -4209,8 +4227,8 @@ Inst29Quest6 = "6. Schmutzverkrusteter Ring"
 Inst29Quest6_Level = "34"
 Inst29Quest6_Attain = "24"
 Inst29Quest6_Aim = "Findet einen Weg, den schmutzverkrusteten Ring zu säubern."
-Inst29Quest6_Location = "Schmutzverkrusteter Ring (Zufälliger Dropp in Gnomeregan)"
-Inst29Quest6_Note = "Der Ring kann mit dem Funkelmat 5200 bei "..YELLOW.."[2]"..WHITE.." gereinigt werden."
+Inst29Quest6_Location = "Schmutzverkrusteter Ring (Zufälliger Dropp von den Dunklen Eisenzwergenagenten in Gnomeregan)"
+Inst29Quest6_Note = "Der Ring kann mit dem Funkelmat 5200 in der sauberen Zone bei "..GREEN.."[2']"..WHITE.." gereinigt werden."
 Inst29Quest6_Prequest = "Nein"
 Inst29Quest6_Folgequest = "Ja, Die Rückkehr des Rings"
 Inst29Quest6FQuest = "true"
@@ -4260,7 +4278,7 @@ Inst29Quest2_HORDE_Level = "34"
 Inst29Quest2_HORDE_Attain = "24"
 Inst29Quest2_HORDE_Aim = Inst29Quest7_Aim
 Inst29Quest2_HORDE_Location = Inst29Quest7_Location
-Inst29Quest2_HORDE_Note = "Kann bei Nogg (Orgrimmar - Tal der Ehre; "..YELLOW.."56.6,56.8"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
+Inst29Quest2_HORDE_Note = "Kann bei Nogg (Orgrimmar - Die Gasse; "..YELLOW.."56.6,56.8"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
 Inst29Quest2_HORDE_Prequest = Inst29Quest7_Prequest
 Inst29Quest2_HORDE_Folgequest = Inst29Quest7_Folgequest
 Inst29Quest2FQuest_HORDE = "true"
@@ -11706,13 +11724,13 @@ end
 -- 19 = SM: Library (SM Lib)
 -- 20 = Scholomance (Scholo)
 -- 21 = Shadowfang Keep (SFK)
--- 22 = Stratholme (Strat)
+-- 22 = Stratholme - Crusaders' Square (Strat)
 -- 23 = The Ruins of Ahn'Qiraj (AQ20)
 -- 24 = The Stockade (Stocks)
 -- 25 = Sunken Temple (ST)
 -- 26 = The Temple of Ahn'Qiraj (AQ40)
 -- 27 = Zul'Farrak (ZF)
--- 28 = Zul'Gurub (ZG) (removed)
+-- 28 = Stratholme - The Gauntlet (Strat)
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons (removed)
 -- 31 = Azuregos (removed)
