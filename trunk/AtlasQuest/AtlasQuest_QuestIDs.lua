@@ -650,7 +650,57 @@ AQ_14483_Level = "85"
 
 
 
---------------- INST22 - Stratholme (Strat) ---------------
+--------------- INST22 - Stratholme - Crusaders' Square (Strat) ---------------
+
+Inst22Quest1_QuestID = "27422"
+Inst22Quest2_QuestID = "27352"
+Inst22Quest3_QuestID = "27192"
+Inst22Quest4_QuestID = "28755"
+Inst22Quest5_QuestID = "27305"
+Inst22Quest6_QuestID = "27223"
+Inst22Quest7_QuestID = "27185"
+Inst22Quest8_QuestID = "27208"
+
+Inst22Quest1_HORDE_QuestID = "27422"
+Inst22Quest2_HORDE_QuestID = "27352"
+Inst22Quest3_HORDE_QuestID = "27192"
+Inst22Quest4_HORDE_QuestID = "28755"
+Inst22Quest5_HORDE_QuestID = "27305"
+Inst22Quest6_HORDE_QuestID = "27223"
+Inst22Quest7_HORDE_QuestID = "27185"
+Inst22Quest8_HORDE_QuestID = "27208"
+
+
+AQ_27422_Level = "45"
+AQ_27352_Level = "50"
+AQ_27192_Level = "46"
+AQ_28755_Level = "46"
+AQ_27305_Level = "46"
+AQ_27223_Level = "47"
+AQ_27185_Level = "46"
+AQ_27208_Level = "47"
+
+
+
+--------------- INST28 - Stratholme - The Gauntlet (Strat) ---------------
+
+Inst28Quest1_QuestID = "27230"
+Inst28Quest2_QuestID = "27359"
+Inst28Quest3_QuestID = "27228"
+Inst28Quest4_QuestID = "27227"
+
+Inst28Quest1_HORDE_QuestID = "27230"
+Inst28Quest2_HORDE_QuestID = "27359"
+Inst28Quest3_HORDE_QuestID = "27228"
+Inst28Quest4_HORDE_QuestID = "27227"
+
+
+AQ_27230_Level = "50"
+AQ_27359_Level = "50"
+AQ_27228_Level = "50"
+AQ_27227_Level = "51"
+
+
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
 
@@ -665,15 +715,107 @@ AQ_8791_Level = "60"
 
 --------------- INST24 - The Stockade (Stocks) ---------------
 
+Inst24Quest1_QuestID = "27733"
+Inst24Quest2_QuestID = "27737"
+Inst24Quest3_QuestID = "27739"
+
+
+AQ_27733_Level = "23"
+AQ_27737_Level = "24"
+AQ_27739_Level = "25"
+
+
+
 --------------- INST25 - Sunken Temple (ST) ---------------
+
+Inst25Quest1_QuestID = "27915"
+Inst25Quest2_QuestID = "27633"
+Inst25Quest3_QuestID = "27604"
+Inst25Quest4_QuestID = "27605"
+
+Inst25Quest1_HORDE_QuestID = "27915"
+Inst25Quest2_HORDE_QuestID = "27633"
+Inst25Quest3_HORDE_QuestID = "27604"
+Inst25Quest4_HORDE_QuestID = "27605"
+
+
+AQ_27915_Level = "54"
+AQ_27633_Level = "54"
+AQ_27604_Level = "54"
+AQ_27605_Level = "54"
+
+
 
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
+Inst26Quest1_QuestID = "8801"
+Inst26Quest2_QuestID = "8802"
+Inst26Quest3_QuestID = "8784"
+Inst26Quest4_QuestID = "8579"
+
+Inst26Quest1_HORDE_QuestID = "8801"
+Inst26Quest2_HORDE_QuestID = "8802"
+Inst26Quest3_HORDE_QuestID = "8784"
+Inst26Quest4_HORDE_QuestID = "8579"
+
+
+AQ_8801_Level = "60"
+AQ_8802_Level = "60"
+AQ_8784_Level = "60"
+AQ_8579_Level = "60"
+
+
+
 --------------- INST27 - Zul'Farrak (ZF) ---------------
+
+Inst27Quest1_QuestID = "25556"
+Inst27Quest2_QuestID = "27068"
+Inst27Quest3_QuestID = "27076"
+Inst27Quest4_QuestID = "27071"
+Inst27Quest5_QuestID = "27070"
+
+Inst27Quest1_HORDE_QuestID = "25556"
+Inst27Quest2_HORDE_QuestID = "27068"
+Inst27Quest3_HORDE_QuestID = "27076"
+Inst27Quest4_HORDE_QuestID = "27071"
+Inst27Quest5_HORDE_QuestID = "27070"
+
+
+AQ_25556_Level = "47"
+AQ_27068_Level = "49"
+AQ_27076_Level = "48"
+AQ_27071_Level = "48"
+AQ_27070_Level = "48"
+
+
 
 --------------- INST29 - Gnomeregan (Gnomer) ---------------
 
+Inst29Quest1_QuestID = "26943"
+Inst29Quest2_QuestID = "26944"
+Inst29Quest3_QuestID = "26939"
+Inst29Quest4_QuestID = "26941"
+Inst29Quest5_QuestID = "26942"
+Inst29Quest6_QuestID = "2945"
+Inst29Quest7_QuestID = "2947"
+Inst29Quest8_QuestID = "2951"
 
+Inst29Quest1_HORDE_QuestID = ""
+Inst29Quest2_HORDE_QuestID = ""
+Inst29Quest3_HORDE_QuestID = ""
+
+
+AQ_26943_Level = "26"
+AQ_26944_Level = "26"
+AQ_26939_Level = "27"
+AQ_26941_Level = "28"
+AQ_26942_Level = "29"
+AQ_2945_Level = "34"
+AQ_2947_Level = "34"
+AQ_2951_Level = "30"
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
 
 
 
