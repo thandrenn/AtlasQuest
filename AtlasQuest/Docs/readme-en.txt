@@ -18,7 +18,7 @@ AtlasQuest was originally created by Asurn. It is currently maintained
 by Thandrenn (aka Mystery8).
 
 Data for AtlasQuest is gathered either first-hand in the game or from
-WoWhead.com, Thottbot.com or WoWwiki.com.
+WoWhead.com or WoWpedia.org.
 
 
 

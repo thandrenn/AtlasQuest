@@ -4,6 +4,7 @@ Changelog
 
 Version 4.6.2 BETA (not released)
 
+- All classic dungeon quests should now be up to date for Cataclysm.
 - Localizations updated: deDE.
 
 - Classic Dungeons updated:
@@ -18,8 +19,14 @@ Version 4.6.2 BETA (not released)
 	- Scarlet Monastery: Graveyard
 	- Scholomance
 	- Shadowfang Keep
-	- 
+	- Stratholme - Crusaders' Square
+	- Stratholme - The Gauntlet
 	- The Ruins of Ahn'Qiraj (AQ20)
+	- The Stockade
+	- Sunken Temple (The Temple of Atal'Hakkar)
+	- The Temple of Ahn'Qiraj
+	- Zul'Farrak
+	- Gnomeregan
 	
 
 

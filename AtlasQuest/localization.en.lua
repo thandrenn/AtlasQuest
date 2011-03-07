@@ -115,7 +115,7 @@ AQITEM_POLEARM = " Polearm"
 AQITEM_SWORD = " Sword"
 AQITEM_AXE = " Axe"
 AQITEM_WAND = "Wand"
-AQITEM_STAFF = "Staff"
+AQITEM_STAFF = " Staff"
 AQITEM_MACE = " Mace"
 AQITEM_SHIELD = "Shield"
 AQITEM_GUN = "Gun"
@@ -3374,12 +3374,314 @@ Inst21Quest5_HORDE_Folgequest = "None"
 
 
 
---------------- INST22 - Stratholme (Strat) ---------------
+--------------- INST22 - Stratholme - Crusaders' Square (Strat) ---------------
 
 Inst22Story = "Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge - led by the powerful lich, Kel'thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed - dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
-Inst22Caption = "Stratholme"
-Inst22QAA = "18 Quests"
-Inst22QAH = "20 Quests"
+Inst22Caption = "Stratholme - Crusaders' Square"
+Inst22QAA = "8 Quests"
+Inst22QAH = "8 Quests"
+
+--Quest 1 Alliance
+Inst22Quest1 = "1. A City Under Siege"
+Inst22Quest1_Level = "45"
+Inst22Quest1_Attain = "44"
+Inst22Quest1_Aim = "Speak to Packmaster Stonebruiser."
+Inst22Quest1_Location = "Argent Officer Irizarry (Eastern Plaguelands - Northpass Tower; "..YELLOW.."51.6, 21.2"..WHITE..")"
+Inst22Quest1_Note = "Packmaster Stonebruiser is just inside the entrance of Stratholme - Crusaders' Square.  If you complete the other Stratholme quests first, you may not be able to turn this one in."
+Inst22Quest1_Prequest = "None"
+Inst22Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst22Quest2 = "2. Liquid Gold"
+Inst22Quest2_Level = "50"
+Inst22Quest2_Attain = "46"
+Inst22Quest2_Aim = "Find a vial of Stratholme Holy Water."
+Inst22Quest2_Location = "Packmaster Stonebruiser (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest2_Note = "The vial can be found in sparkling crates located around the streets of the city."
+Inst22Quest2_Prequest = "None"
+Inst22Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst22Quest3 = "3. The Great Fras Siabi"
+Inst22Quest3_Level = "46"
+Inst22Quest3_Attain = "42"
+Inst22Quest3_Aim = "Recover a box of Fras Siabi's Premium Tobacco."
+Inst22Quest3_Location = "Packmaster Stonebruiser (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest3_Note = "Fras Siabi can be summoned by using his Postbox at "..DARKYELLOW.."[1]"..WHITE.."."
+Inst22Quest3_Prequest = "None"
+Inst22Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst22Quest4 = "4. Annals of the Silver Hand"
+Inst22Quest4_Level = "46"
+Inst22Quest4_Attain = "42"
+Inst22Quest4_Aim = "Recover a lost volume of the Annals of the Silver Hand from Stratholme."
+Inst22Quest4_Location = "Lord Raymond George (Eastern Plaguelands - Lights Hope Chapel; "..YELLOW.."76.0, 51.0"..WHITE..")"
+Inst22Quest4_Note = "The book can be found at "..YELLOW.."[5]"..WHITE..".\n\nThis is a repeatable reputation quest for the Argent Dawn. The prequest line starts at Fiona (Eastern Plaguelands - Fiona's Caravan; "..YELLOW.."9.0, 66.4"..WHITE.."."
+Inst22Quest4_Prequest = "Gidwin Goldbraids -> Argent Call: The Noxious Glade"
+Inst22Quest4_Folgequest = "None"
+Inst22Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst22Quest5 = "5. Of Love and Family"
+Inst22Quest5_Level = "46"
+Inst22Quest5_Attain = "42"
+Inst22Quest5_Aim = "Find 'Of Love and Family.'"
+Inst22Quest5_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest5_Note = "The painting can be found at "..YELLOW.."[5]"..WHITE.."."
+Inst22Quest5_Prequest = "None"
+Inst22Quest5_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst22Quest6 = "6. Retribution"
+Inst22Quest6_Level = "47"
+Inst22Quest6_Attain = "42"
+Inst22Quest6_Aim = "Kill The Unforgiven and Timmy the Cruel."
+Inst22Quest6_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest6_Note = "The Unforgiven is at "..YELLOW.."[1]"..WHITE.." and Timmy the Cruel is at "..YELLOW.."[2]"..WHITE.."."
+Inst22Quest6_Prequest = "None"
+Inst22Quest6_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst22Quest7 = "7. Cutting the Competition"
+Inst22Quest7_Level = "46"
+Inst22Quest7_Attain = "42"
+Inst22Quest7_Aim = "Kill the Risen Hammersmith."
+Inst22Quest7_Location = "Master Craftsman Wilhelm (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest7_Note = "Risen Hammersmith is summoned at "..DARKYELLOW.."[3]"..WHITE.." by using the sparkling papers on the floor."
+Inst22Quest7_Prequest = "None"
+Inst22Quest7_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst22Quest8 = "8. The Dreadlord Balnazzar"
+Inst22Quest8_Level = "47"
+Inst22Quest8_Attain = "42"
+Inst22Quest8_Aim = "Kill Balnazzar."
+Inst22Quest8_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest8_Note = "Balnazzar is at "..YELLOW.."[6]"..WHITE.."."
+Inst22Quest8_Prequest = "None"
+Inst22Quest8_Folgequest = "None"
+--
+Inst22Quest8name1 = "Legguards of Stratholme"
+Inst22Quest8name2 = "Balnazzar's Horn"
+Inst22Quest8name3 = "Dathrohan's Mace"
+Inst22Quest8name4 = "Balnazzar's Hide"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst22Quest1_HORDE = Inst22Quest1
+Inst22Quest1_HORDE_Level = Inst22Quest1_Level
+Inst22Quest1_HORDE_Attain = Inst22Quest1_Attain
+Inst22Quest1_HORDE_Aim = Inst22Quest1_Aim
+Inst22Quest1_HORDE_Location = Inst22Quest1_Location
+Inst22Quest1_HORDE_Note = Inst22Quest1_Note
+Inst22Quest1_HORDE_Prequest = Inst22Quest1_Prequest
+Inst22Quest1_HORDE_Folgequest = Inst22Quest1_Folgequest
+Inst22Quest1PreQuest_HORDE = Inst22Quest1PreQuest
+Inst22Quest1FQuest_HORDE = Inst22Quest1FQuest
+--
+Inst22Quest1name1_HORDE = Inst22Quest1name1
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst22Quest2_HORDE = Inst22Quest2
+Inst22Quest2_HORDE_Level = Inst22Quest2_Level
+Inst22Quest2_HORDE_Attain = Inst22Quest2_Attain
+Inst22Quest2_HORDE_Aim = Inst22Quest2_Aim
+Inst22Quest2_HORDE_Location = Inst22Quest2_Location
+Inst22Quest2_HORDE_Note = Inst22Quest2_Note
+Inst22Quest2_HORDE_Prequest = Inst22Quest2_Prequest
+Inst22Quest2_HORDE_Folgequest = Inst22Quest2_Folgequest
+Inst22Quest2PreQuest_HORDE = Inst22Quest2PreQuest
+Inst22Quest2FQuest_HORDE = Inst22Quest2FQuest
+--
+Inst22Quest2name1_HORDE = Inst22Quest2name1
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst22Quest3_HORDE = Inst22Quest3
+Inst22Quest3_HORDE_Level = Inst22Quest3_Level
+Inst22Quest3_HORDE_Attain = Inst22Quest3_Attain
+Inst22Quest3_HORDE_Aim = Inst22Quest3_Aim
+Inst22Quest3_HORDE_Location = Inst22Quest3_Location
+Inst22Quest3_HORDE_Note = Inst22Quest3_Note
+Inst22Quest3_HORDE_Prequest = Inst22Quest3_Prequest
+Inst22Quest3_HORDE_Folgequest = Inst22Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst22Quest4_HORDE = Inst22Quest4
+Inst22Quest4_HORDE_Level = Inst22Quest4_Level
+Inst22Quest4_HORDE_Attain = Inst22Quest4_Attain
+Inst22Quest4_HORDE_Aim = Inst22Quest4_Aim
+Inst22Quest4_HORDE_Location = Inst22Quest4_Location
+Inst22Quest4_HORDE_Note = Inst22Quest4_Note
+Inst22Quest4_HORDE_Prequest = Inst22Quest4_Prequest
+Inst22Quest4_HORDE_Folgequest = Inst22Quest4_Folgequest
+Inst22Quest4PreQuest_HORDE = Inst22Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst22Quest5_HORDE = Inst22Quest5
+Inst22Quest5_HORDE_Level = Inst22Quest5_Level
+Inst22Quest5_HORDE_Attain = Inst22Quest5_Attain
+Inst22Quest5_HORDE_Aim = Inst22Quest5_Aim
+Inst22Quest5_HORDE_Location = Inst22Quest5_Location
+Inst22Quest5_HORDE_Note = Inst22Quest5_Note
+Inst22Quest5_HORDE_Prequest = Inst22Quest5_Prequest
+Inst22Quest5_HORDE_Folgequest = Inst22Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst22Quest6_HORDE = Inst22Quest6
+Inst22Quest6_HORDE_Level = Inst22Quest6_Level
+Inst22Quest6_HORDE_Attain = Inst22Quest6_Attain
+Inst22Quest6_HORDE_Aim = Inst22Quest6_Aim
+Inst22Quest6_HORDE_Location = Inst22Quest6_Location
+Inst22Quest6_HORDE_Note = Inst22Quest6_Note
+Inst22Quest6_HORDE_Prequest = Inst22Quest6_Prequest
+Inst22Quest6_HORDE_Folgequest = Inst22Quest6_Folgequest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst22Quest7_HORDE = Inst22Quest7
+Inst22Quest7_HORDE_Level = Inst22Quest7_Level
+Inst22Quest7_HORDE_Attain = Inst22Quest7_Attain
+Inst22Quest7_HORDE_Aim = Inst22Quest7_Aim
+Inst22Quest7_HORDE_Location = Inst22Quest7_Location
+Inst22Quest7_HORDE_Note = Inst22Quest7_Note
+Inst22Quest7_HORDE_Prequest = Inst22Quest7_Prequest
+Inst22Quest7_HORDE_Folgequest = Inst22Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst22Quest8_HORDE = Inst22Quest8
+Inst22Quest8_HORDE_Level = Inst22Quest8_Level
+Inst22Quest8_HORDE_Attain = Inst22Quest8_Attain
+Inst22Quest8_HORDE_Aim = Inst22Quest8_Aim
+Inst22Quest8_HORDE_Location = Inst22Quest8_Location
+Inst22Quest8_HORDE_Note = Inst22Quest8_Note
+Inst22Quest8_HORDE_Prequest = Inst22Quest8_Prequest
+Inst22Quest8_HORDE_Folgequest = Inst22Quest8_Folgequest
+--
+Inst22Quest8name1_HORDE = Inst22Quest8name1
+Inst22Quest8name2_HORDE = Inst22Quest8name2
+Inst22Quest8name3_HORDE = Inst22Quest8name3
+Inst22Quest8name4_HORDE = Inst22Quest8name4
+
+
+
+--------------- INST28 - Stratholme - The Gauntlet (Strat) ---------------
+
+Inst28Story = "Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge - led by the powerful lich, Kel'thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed - dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
+Inst28Caption = "Stratholme - The Gauntlet"
+Inst28QAA = "4 Quests"
+Inst28QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst28Quest1 = "1. Weapons for War"
+Inst28Quest1_Level = "50"
+Inst28Quest1_Attain = "46"
+Inst28Quest1_Aim = "Kill the Black Guard Swordsmith."
+Inst28Quest1_Location = "Master Craftsman Wilhelm (Stratholme - The Gauntlet; "..GREEN.."[1']"..WHITE..")"
+Inst28Quest1_Note = "The Black Guard Swordsmith is summoned at "..DARKYELLOW.."[1]"..WHITE.." by clicking the sparkling papers on the ground."
+Inst28Quest1_Prequest = "None"
+Inst28Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst28Quest2 = "2. Argent Reinforcements"
+Inst28Quest2_Level = "50"
+Inst28Quest2_Attain = "46"
+Inst28Quest2_Aim = "Obtain 4 Banshee Essences."
+Inst28Quest2_Location = "Archmage Angela Dosantos (Stratholme - The Gauntlet; "..GREEN.."[1']"..WHITE..")"
+Inst28Quest2_Note = "The Banshee Essences drop from Banshees around the city."
+Inst28Quest2_Prequest = "None"
+Inst28Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst28Quest3 = "3. Man Against Abomination"
+Inst28Quest3_Level = "50"
+Inst28Quest3_Attain = "46"
+Inst28Quest3_Aim = "Slaughter Ramstein the Gorger."
+Inst28Quest3_Location = "Crusade Commander Korfax (Stratholme - The Gauntlet; "..GREEN.."[1']"..WHITE..")"
+Inst28Quest3_Note = "Ramstein the Gorger is at "..YELLOW.."[5]"..WHITE.."."
+Inst28Quest3_Prequest = "None"
+Inst28Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst28Quest4 = "4. Lord Aurius Rivendare"
+Inst28Quest4_Level = "51"
+Inst28Quest4_Attain = "46"
+Inst28Quest4_Aim = "Kill Lord Aurius Rivendare."
+Inst28Quest4_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - The Gauntlet; "..GREEN.."[1']"..WHITE..")"
+Inst28Quest4_Note = "Lord Aurius Rivendare is at "..YELLOW.."[6]"..WHITE.."."
+Inst28Quest4_Prequest = "None"
+Inst28Quest4_Folgequest = "None"
+--
+Inst28Quest4name1 = "Statue of the Paragon"
+Inst28Quest4name2 = "Book of the Paragon"
+Inst28Quest4name3 = "Idol of the Paragon"
+Inst28Quest4name4 = "Relic of the Paragon"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst28Quest1_HORDE = Inst28Quest1
+Inst28Quest1_HORDE_Level = Inst28Quest1_Level
+Inst28Quest1_HORDE_Attain = Inst28Quest1_Attain
+Inst28Quest1_HORDE_Aim = Inst28Quest1_Aim
+Inst28Quest1_HORDE_Location = Inst28Quest1_Location
+Inst28Quest1_HORDE_Note = Inst28Quest1_Note
+Inst28Quest1_HORDE_Prequest = Inst28Quest1_Prequest
+Inst28Quest1_HORDE_Folgequest = Inst28Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst28Quest2_HORDE = Inst28Quest2
+Inst28Quest2_HORDE_Level = Inst28Quest2_Level
+Inst28Quest2_HORDE_Attain = Inst28Quest2_Attain
+Inst28Quest2_HORDE_Aim = Inst28Quest2_Aim
+Inst28Quest2_HORDE_Location = Inst28Quest2_Location
+Inst28Quest2_HORDE_Note = Inst28Quest2_Note
+Inst28Quest2_HORDE_Prequest = Inst28Quest2_Prequest
+Inst28Quest2_HORDE_Folgequest = Inst28Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst28Quest3_HORDE = Inst28Quest3
+Inst28Quest3_HORDE_Level = Inst28Quest3_Level
+Inst28Quest3_HORDE_Attain = Inst28Quest3_Attain
+Inst28Quest3_HORDE_Aim = Inst28Quest3_Aim
+Inst28Quest3_HORDE_Location = Inst28Quest3_Location
+Inst28Quest3_HORDE_Note = Inst28Quest3_Note
+Inst28Quest3_HORDE_Prequest = Inst28Quest3_Prequest
+Inst28Quest3_HORDE_Folgequest = Inst28Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst28Quest4_HORDE = Inst28Quest4
+Inst28Quest4_HORDE_Level = Inst28Quest4_Level
+Inst28Quest4_HORDE_Attain = Inst28Quest4_Attain
+Inst28Quest4_HORDE_Aim = Inst28Quest4_Aim
+Inst28Quest4_HORDE_Location = Inst28Quest4_Location
+Inst28Quest4_HORDE_Note = Inst28Quest4_Note
+Inst28Quest4_HORDE_Prequest = Inst28Quest4_Prequest
+Inst28Quest4_HORDE_Folgequest = Inst28Quest4_Folgequest
+--
+Inst28Quest4name1_HORDE = Inst28Quest4name1
+Inst28Quest4name2_HORDE = Inst28Quest4name2
+Inst28Quest4name3_HORDE = Inst28Quest4name3
+Inst28Quest4name4_HORDE = Inst28Quest4name4
+
 
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
@@ -3426,16 +3728,148 @@ Inst23Quest1name4_HORDE = Inst23Quest1name4
 
 Inst24Story = "The Stockades are a high-security prison complex, hidden beneath the canal district of Stormwind City. Presided over by Warden Thelwater, the Stockades are home to petty crooks, political insurgents, murderers and a score of the most dangerous criminals in the land. Recently, a prisoner-led revolt has resulted in a state of pandemonium within the Stockades - where the guards have been driven out and the convicts roam free. Warden Thelwater has managed to escape the holding area and is currently enlisting brave thrill-seekers to venture into the prison and kill the uprising's mastermind - the cunning felon, Bazil Thredd."
 Inst24Caption = "The Stockade"
-Inst24QAA = "6 Quests"
+Inst24QAA = "3 Quests"
 Inst24QAH = "No Quests"
+
+--Quest 1 Alliance
+Inst24Quest1 = "1. The Good Ol' Switcheroo"
+Inst24Quest1_Level = "23"
+Inst24Quest1_Attain = "20"
+Inst24Quest1_Aim = "Kill Randolph Moloch."
+Inst24Quest1_Location = "Rifle Commander Coe (The Stockade; "..GREEN.."[1']"..WHITE..")"
+Inst24Quest1_Note = "Randolph Moloch is at "..YELLOW.."[1]"..WHITE.."."
+Inst24Quest1_Prequest = "None"
+Inst24Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst24Quest2 = "2. By Fire Be Saved!"
+Inst24Quest2_Level = "24"
+Inst24Quest2_Attain = "20"
+Inst24Quest2_Aim = "Obtain Lord Overheat's Fiery Core."
+Inst24Quest2_Location = "Nurse Lillian (The Stockade; "..GREEN.."[3']"..WHITE..")"
+Inst24Quest2_Note = "Lord Overheat is at "..YELLOW.."[3]"..WHITE.."."
+Inst24Quest2_Prequest = "None"
+Inst24Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst24Quest3 = "3. The Gnoll King"
+Inst24Quest3_Level = "25"
+Inst24Quest3_Attain = "20"
+Inst24Quest3_Aim = "Defeat Hogger."
+Inst24Quest3_Location = "Warden Thelwater (The Stockade; "..GREEN.."[2']"..WHITE..")"
+Inst24Quest3_Note = "Hogger is at "..YELLOW.."[2]"..WHITE.."."
+Inst24Quest3_Prequest = "None"
+Inst24Quest3_Folgequest = "None"
+--
+Inst24Quest3name1 = "Hogger's Shiny"
+Inst24Quest3name2 = "Rifle Commander's Eyepatch"
+Inst24Quest3name3 = "Shield of the Stockades"
+Inst24Quest3name4 = "Riot Stick"
+
 
 
 --------------- INST25 - Sunken Temple (ST) ---------------
 
 Inst25Story = "Over a thousand years ago, the powerful Gurubashi Empire was torn apart by a massive civil war. An influential group of troll priests, known as the Atal'ai, attempted to bring back an ancient blood god named Hakkar the Soulflayer. Though the priests were defeated and ultimately exiled, the great troll empire buckled in upon itself. The exiled priests fled far to the north, into the Swamp of Sorrows. There they erected a great temple to Hakkar - where they could prepare for his arrival into the physical world. The great dragon Aspect, Ysera, learned of the Atal'ai's plans and smashed the temple beneath the marshes. To this day, the temple's drowned ruins are guarded by the green dragons who prevent anyone from getting in or out. However, it is believed that some of the fanatical Atal'ai may have survived Ysera's wrath - and recommitted themselves to the dark service of Hakkar."
 Inst25Caption = "The Sunken Temple"
-Inst25QAA = "8 Quests"
-Inst25QAH = "8 Quests"
+Inst25QAA = "4 Quests"
+Inst25QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst25Quest1 = "1. The Heart of the Temple"
+Inst25Quest1_Level = "54"
+Inst25Quest1_Attain = "52"
+Inst25Quest1_Aim = "Speak with Lord Itharius again inside the Temple of Atal'Hakkar."
+Inst25Quest1_Location = "Lord Itharius (Swamp of Sorrows - The Temple of Atal'Hakkar; "..YELLOW.."54.0, 79.6"..WHITE..")"
+Inst25Quest1_Note = "Lord Itharius is just inside the entrance of the instance.\n\nThe prequest line also starts from Lord Itharius, but is outside of the instance.  You do not have to complete this quest to pick up the other dungeon quests for Sunken Temple."
+Inst25Quest1_Prequest = "Pool of Tears -> Blessing of the Green Dragonflight"
+Inst25Quest1_Folgequest = "None"
+Inst25Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst25Quest2 = "2. The Blood God Hakkar"
+Inst25Quest2_Level = "54"
+Inst25Quest2_Attain = "50"
+Inst25Quest2_Aim = "Kill the Avatar of Hakkar."
+Inst25Quest2_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..YELLOW.."Entrance"..WHITE..")"
+Inst25Quest2_Note = "Use the provided egg at "..YELLOW.."[1]"..WHITE.." to summon the Avatar of Hakkar."
+Inst25Quest2_Prequest = "None"
+Inst25Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst25Quest3 = "3. Jammal'an the Prophet"
+Inst25Quest3_Level = "54"
+Inst25Quest3_Attain = "50"
+Inst25Quest3_Aim = "Obtain Jammal'an the Prophet's Head."
+Inst25Quest3_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..YELLOW.."Entrance"..WHITE..")"
+Inst25Quest3_Note = "Jammal'an the Prophet is at "..YELLOW.."[2]"..WHITE.."."
+Inst25Quest3_Prequest = "None"
+Inst25Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst25Quest4 = "4. Eranikus"
+Inst25Quest4_Level = "54"
+Inst25Quest4_Attain = "50"
+Inst25Quest4_Aim = "Kill Eranikus."
+Inst25Quest4_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..YELLOW.."Entrance"..WHITE..")"
+Inst25Quest4_Note = "Eranikus is at "..YELLOW.."[4]"..WHITE.."."
+Inst25Quest4_Prequest = "None"
+Inst25Quest4_Folgequest = "None"
+--
+Inst25Quest4name1 = "Essence of Eranikus' Shade"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst25Quest1_HORDE = Inst25Quest1
+Inst25Quest1_HORDE_Level = Inst25Quest1_Level
+Inst25Quest1_HORDE_Attain = Inst25Quest1_Attain
+Inst25Quest1_HORDE_Aim = Inst25Quest1_Aim
+Inst25Quest1_HORDE_Location = Inst25Quest1_Location
+Inst25Quest1_HORDE_Note = Inst25Quest1_Note
+Inst25Quest1_HORDE_Prequest = Inst25Quest1_Prequest
+Inst25Quest1_HORDE_Folgequest = Inst25Quest1_Folgequest
+Inst25Quest1PreQuest_HORDE = Inst25Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2Horde  (same as Quest 2 Alliance)
+Inst25Quest2_HORDE = Inst25Quest2
+Inst25Quest2_HORDE_Level = Inst25Quest2_Level
+Inst25Quest2_HORDE_Attain = Inst25Quest2_Attain
+Inst25Quest2_HORDE_Aim = Inst25Quest2_Aim
+Inst25Quest2_HORDE_Location = Inst25Quest2_Location
+Inst25Quest2_HORDE_Note = Inst25Quest2_Note
+Inst25Quest2_HORDE_Prequest = Inst25Quest2_Prequest
+Inst25Quest2_HORDE_Folgequest = Inst25Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst25Quest3_HORDE = Inst25Quest3
+Inst25Quest3_HORDE_Level = Inst25Quest3_Level
+Inst25Quest3_HORDE_Attain = Inst25Quest3_Attain
+Inst25Quest3_HORDE_Aim = Inst25Quest3_Aim
+Inst25Quest3_HORDE_Location = Inst25Quest3_Location
+Inst25Quest3_HORDE_Note = Inst25Quest3_Note
+Inst25Quest3_HORDE_Prequest = Inst25Quest3_Prequest
+Inst25Quest3_HORDE_Folgequest = Inst25Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst25Quest4_HORDE = Inst25Quest4
+Inst25Quest4_HORDE_Level = Inst25Quest4_Level
+Inst25Quest4_HORDE_Attain = Inst25Quest4_Attain
+Inst25Quest4_HORDE_Aim = Inst25Quest4_Aim
+Inst25Quest4_HORDE_Location = Inst25Quest4_Location
+Inst25Quest4_HORDE_Note = Inst25Quest4_Note
+Inst25Quest4_HORDE_Prequest = Inst25Quest4_Prequest
+Inst25Quest4_HORDE_Folgequest = Inst25Quest4_Folgequest
+--
+Inst25Quest4name1_HORDE = Inst25Quest4name1
+
 
 
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
@@ -3445,22 +3879,388 @@ Inst26Caption = "Temple of Ahn'Qiraj"
 Inst26QAA = "4 Quests"
 Inst26QAH = "4 Quests"
 
+--Quest 1 Alliance
+Inst26Quest1 = "1. C'Thun's Legacy"
+Inst26Quest1_Level = "60"
+Inst26Quest1_Attain = "60"
+Inst26Quest1_Aim = "Take the Eye of C'Thun to Caelastrasz in the Temple of Ahn'Qiraj."
+Inst26Quest1_Location = "Eye of C'Thun (drops from C'Thun; "..YELLOW.."[9]"..WHITE..")"
+Inst26Quest1_Note = "Caelestrasz is at "..GREEN.."[2']"..WHITE.."."
+Inst26Quest1_Prequest = "None"
+Inst26Quest1_Folgequest = "The Savior of Kalimdor"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst26Quest2 = "2. The Savior of Kalimdor"
+Inst26Quest2_Level = "60"
+Inst26Quest2_Attain = "60"
+Inst26Quest2_Aim = "Take the Eye of C'Thun to Anachronos at the Caverns of Time."
+Inst26Quest2_Location = "Eye of C'Thun (drops from C'Thun; "..YELLOW.."[9]"..WHITE..")"
+Inst26Quest2_Note = "Anachronos can be found at (Tanaris - Caverns of Time; "..YELLOW.."64.2, 51.2"..WHITE..")."
+Inst26Quest2_Prequest = "C'Thun's Legacy"
+Inst26Quest2_Folgequest = "None"
+Inst26Quest2FQuest = "true"
+--
+Inst26Quest2name1 = "Amulet of the Fallen God"
+Inst26Quest2name2 = "Cloak of the Fallen God"
+Inst26Quest2name3 = "Ring of the Fallen God"
+
+--Quest 3 Alliance
+Inst26Quest3 = "3. Secrets of the Qiraji"
+Inst26Quest3_Level = "60"
+Inst26Quest3_Attain = "60"
+Inst26Quest3_Aim = "Take the Ancient Qiraji Artifact to the dragons hiding near the entrance of the temple."
+Inst26Quest3_Location = "Ancient Qiraji Artifact (random drop in Temple of Ahn'Qiraj)"
+Inst26Quest3_Note = "Turns in to Andorgos at "..GREEN.."[1']"..WHITE.."."
+Inst26Quest3_Prequest = "None"
+Inst26Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst26Quest4 = "4. Mortal Champions"
+Inst26Quest4_Level = "60"
+Inst26Quest4_Attain = "60"
+Inst26Quest4_Aim = "Turn in a Qiraji Lord's Insignia to Kandrostrasz in the Temple of Ahn'Qiraj."
+Inst26Quest4_Location = "Kandrostrasz (Temple of Ahn'Qiraj; "..GREEN.."[1']"..WHITE..")"
+Inst26Quest4_Note = "This is a repeatable quest which yields Cenarion Circle reputation. The Qiraji Lord's Insignia drop from all bosses inside the instance. Kandrostrasz is found in the rooms behind the first boss."
+Inst26Quest4_Prequest = "None"
+Inst26Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst26Quest1_HORDE = Inst26Quest1
+Inst26Quest1_HORDE_Level = Inst26Quest1_Level
+Inst26Quest1_HORDE_Attain = Inst26Quest1_Attain
+Inst26Quest1_HORDE_Aim = Inst26Quest1_Aim
+Inst26Quest1_HORDE_Location = Inst26Quest1_Location
+Inst26Quest1_HORDE_Note = Inst26Quest1_Note
+Inst26Quest1_HORDE_Prequest = Inst26Quest1_Prequest
+Inst26Quest1_HORDE_Folgequest = Inst26Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst26Quest2_HORDE = Inst26Quest2
+Inst26Quest2_HORDE_Level = Inst26Quest2_Level
+Inst26Quest2_HORDE_Attain = Inst26Quest2_Attain
+Inst26Quest2_HORDE_Aim = Inst26Quest2_Aim
+Inst26Quest2_HORDE_Location = Inst26Quest2_Location
+Inst26Quest2_HORDE_Note = Inst26Quest2_Note
+Inst26Quest2_HORDE_Prequest = Inst26Quest2_Prequest
+Inst26Quest2_HORDE_Folgequest = Inst26Quest2_Folgequest
+Inst26Quest2FQuest_HORDE = Inst26Quest2FQuest
+--
+Inst26Quest2name1_HORDE = Inst26Quest2name1
+Inst26Quest2name2_HORDE = Inst26Quest2name2
+Inst26Quest2name3_HORDE = Inst26Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst26Quest3_HORDE = Inst26Quest3
+Inst26Quest3_HORDE_Level = Inst26Quest3_Level
+Inst26Quest3_HORDE_Attain = Inst26Quest3_Attain
+Inst26Quest3_HORDE_Aim = Inst26Quest3_Aim
+Inst26Quest3_HORDE_Location = Inst26Quest3_Location
+Inst26Quest3_HORDE_Note = Inst26Quest3_Note
+Inst26Quest3_HORDE_Prequest = Inst26Quest3_Prequest
+Inst26Quest3_HORDE_Folgequest = Inst26Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst26Quest4_HORDE = Inst26Quest4
+Inst26Quest4_HORDE_Level = Inst26Quest4_Level
+Inst26Quest4_HORDE_Attain = Inst26Quest4_Attain
+Inst26Quest4_HORDE_Aim = Inst26Quest4_Aim
+Inst26Quest4_HORDE_Location = Inst26Quest4_Location
+Inst26Quest4_HORDE_Note = Inst26Quest4_Note
+Inst26Quest4_HORDE_Prequest = Inst26Quest4_Prequest
+Inst26Quest4_HORDE_Folgequest = Inst26Quest4_Folgequest
+-- No Rewards for this quest
+
 
 
 --------------- INST27 - Zul'Farrak (ZF) ---------------
 
 Inst27Story = "This sun-blasted city is home to the Sandfury trolls, known for their particular ruthlessness and dark mysticism. Troll legends tell of a powerful sword called Sul'thraze the Lasher, a weapon capable of instilling fear and weakness in even the most formidable of foes. Long ago, the weapon was split in half. However, rumors have circulated that the two halves may be found somewhere within Zul'Farrak's walls. Reports have also suggested that a band of mercenaries fleeing Gadgetzan wandered into the city and became trapped. Their fate remains unknown. But perhaps most disturbing of all are the hushed whispers of an ancient creature sleeping within a sacred pool at the city's heart - a mighty demigod who will wreak untold destruction upon any adventurer foolish enough to awaken him."
 Inst27Caption = "Zul'Farrak"
-Inst27QAA = "7 Quests"
-Inst27QAH = "7 Quests"
+Inst27QAA = "5 Quests"
+Inst27QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst27Quest1 = "1. Into Zul'Farrak"
+Inst27Quest1_Level = "47"
+Inst27Quest1_Attain = "46"
+Inst27Quest1_Aim = "Find Mazoga within Zul'Farrak."
+Inst27Quest1_Location = "Trenton Lighthammer (Tanaris - Zul'Farrak; "..YELLOW.."42.4, 24.0"..WHITE..")"
+Inst27Quest1_Note = "Mazoga is just inside the entrance of the instance.\n\nThe prequest line starts at Mazoga (Tanaris - Zul'Furrak; "..YELLOW.."42.2, 23.8"..WHITE.."), outside the instance."
+Inst27Quest1_Prequest = "Blood to Thrive -> Secrets in the Oasis"
+Inst27Quest1_Folgequest = "Chief Ukorz Sandscalp"
+Inst27Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst27Quest2 = "2. Chief Ukorz Sandscalp"
+Inst27Quest2_Level = "49"
+Inst27Quest2_Attain = "44"
+Inst27Quest2_Aim = "Kill Chief Ukorz Sandscalp."
+Inst27Quest2_Location = "Mazoga's Spirit (Zul'Farrak; "..YELLOW.."Entrance"..WHITE..")"
+Inst27Quest2_Note = "Chief Ukorz Sandscalp is at "..YELLOW.."[4]"..WHITE.."."
+Inst27Quest2_Prequest = "Into Zul'Farrak"
+Inst27Quest2_Folgequest = "None"
+Inst27Quest2FQuest = "true"
+--
+Inst27Quest2name1 = "Mazoga's Boots"
+Inst27Quest2name2 = "Hands of Consequences"
+Inst27Quest2name3 = "Staff of the Unknown Road"
+
+--Quest 3 Alliance
+Inst27Quest3 = "3. Breaking and Entering"
+Inst27Quest3_Level = "48"
+Inst27Quest3_Attain = "44"
+Inst27Quest3_Aim = "Free Weegli Blastfuse and kill Nekrum Gutchewer and Shadowpriest Sezz'ziz."
+Inst27Quest3_Location = "Tran'rek (Zul'Farrak; "..YELLOW.."Entrance"..WHITE..")"
+Inst27Quest3_Note = "Weegli Blastfuse is at "..YELLOW.."[2]"..WHITE..",  Nekrum Gutchewer and Shadowpriest Sezz'ziz are at "..YELLOW.."[3]"..WHITE.."."
+Inst27Quest3_Prequest = "None"
+Inst27Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst27Quest4 = "4. Wrath of the Sandfury"
+Inst27Quest4_Level = "48"
+Inst27Quest4_Attain = "44"
+Inst27Quest4_Aim = "Kill Theka the Martyr, Witch Doctor Zum'rah, Antu'sul, and Ruuzlu."
+Inst27Quest4_Location = "Mazoga's Spirit (Zul'Farrak; "..YELLOW.."Entrance"..WHITE..")"
+Inst27Quest4_Note = "Theka the Martyr is at "..DARKYELLOW.."[3]"..WHITE..", Witch Doctor Zum'rah is at "..YELLOW.."[5]"..WHITE..", Antu'sul is at "..YELLOW.."[6]"..WHITE..", and Ruuzlu is at "..YELLOW.."[4]"..WHITE.."."
+Inst27Quest4_Prequest = "None"
+Inst27Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst27Quest5 = "5. A Fool's Errand"
+Inst27Quest5_Level = "48"
+Inst27Quest5_Attain = "44"
+Inst27Quest5_Aim = "Obtain the Tiara of the Deep and Gahzrilla's Electrified Scale."
+Inst27Quest5_Location = "Chief Engineer Bilgewhizzle (Zul'Farrak; "..YELLOW.."Entrance"..WHITE..")"
+Inst27Quest5_Note = "The Tiara of the Deep drops from Hydromancer Velratha at "..DARKYELLOW.."[2]"..WHITE.." and the Gahzrilla's Electrified Scale drops from Gahz'rilla at "..YELLOW.."[1]"..WHITE.."."
+Inst27Quest5_Prequest = "None"
+Inst27Quest5_Folgequest = "None"
+--
+Inst27Quest5name1 = "Pauldrons of Zul'Farrak"
+Inst27Quest5name2 = "Electrified Leggings"
+Inst27Quest5name3 = "Belt of the Deep"
+Inst27Quest5name4 = "Bilgewhizzle's Armbands"
+Inst27Quest5name5 = "Star of the Fool"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst27Quest1_HORDE = Inst27Quest1
+Inst27Quest1_HORDE_Level = Inst27Quest1_Level
+Inst27Quest1_HORDE_Attain = Inst27Quest1_Attain
+Inst27Quest1_HORDE_Aim = Inst27Quest1_Aim
+Inst27Quest1_HORDE_Location = Inst27Quest1_Location
+Inst27Quest1_HORDE_Note = Inst27Quest1_Note
+Inst27Quest1_HORDE_Prequest = Inst27Quest1_Prequest
+Inst27Quest1_HORDE_Folgequest = Inst27Quest1_Folgequest
+Inst27Quest1PreQuest_HORDE = Inst27Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst27Quest2_HORDE = Inst27Quest2
+Inst27Quest2_HORDE_Level = Inst27Quest2_Level
+Inst27Quest2_HORDE_Attain = Inst27Quest2_Attain
+Inst27Quest2_HORDE_Aim = Inst27Quest2_Aim
+Inst27Quest2_HORDE_Location = Inst27Quest2_Location
+Inst27Quest2_HORDE_Note = Inst27Quest2_Note
+Inst27Quest2_HORDE_Prequest = Inst27Quest2_Prequest
+Inst27Quest2_HORDE_Folgequest = Inst27Quest2_Folgequest
+Inst27Quest2FQuest_HORDE = Inst27Quest2FQuest
+--
+Inst27Quest2name1_HORDE = Inst27Quest2name1
+Inst27Quest2name2_HORDE = Inst27Quest2name2
+Inst27Quest2name3_HORDE = Inst27Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst27Quest3_HORDE = Inst27Quest3
+Inst27Quest3_HORDE_Level = Inst27Quest3_Level
+Inst27Quest3_HORDE_Attain = Inst27Quest3_Attain
+Inst27Quest3_HORDE_Aim = Inst27Quest3_Aim
+Inst27Quest3_HORDE_Location = Inst27Quest3_Location
+Inst27Quest3_HORDE_Note = Inst27Quest3_Note
+Inst27Quest3_HORDE_Prequest = Inst27Quest3_Prequest
+Inst27Quest3_HORDE_Folgequest = Inst27Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst27Quest4_HORDE = Inst27Quest4
+Inst27Quest4_HORDE_Level = Inst27Quest4_Level
+Inst27Quest4_HORDE_Attain = Inst27Quest4_Attain
+Inst27Quest4_HORDE_Aim = Inst27Quest4_Aim
+Inst27Quest4_HORDE_Location = Inst27Quest4_Location
+Inst27Quest4_HORDE_Note = Inst27Quest4_Note
+Inst27Quest4_HORDE_Prequest = Inst27Quest4_Prequest
+Inst27Quest4_HORDE_Folgequest = Inst27Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst27Quest5_HORDE = Inst27Quest5
+Inst27Quest5_HORDE_Level = Inst27Quest5_Level
+Inst27Quest5_HORDE_Attain = Inst27Quest5_Attain
+Inst27Quest5_HORDE_Aim = Inst27Quest5_Aim
+Inst27Quest5_HORDE_Location = Inst27Quest5_Location
+Inst27Quest5_HORDE_Note = Inst27Quest5_Note
+Inst27Quest5_HORDE_Prequest = Inst27Quest5_Prequest
+Inst27Quest5_HORDE_Folgequest = Inst27Quest5_Folgequest
+--
+Inst27Quest5name1_HORDE = Inst27Quest5name1
+Inst27Quest5name2_HORDE = Inst27Quest5name2
+Inst27Quest5name3_HORDE = Inst27Quest5name3
+Inst27Quest5name4_HORDE = Inst27Quest5name4
+Inst27Quest5name5_HORDE = Inst27Quest5name5
+
 
 
 --------------- INST29 - Gnomeregan (Gnomer) ---------------
 
 Inst29Story = "Located in Dun Morogh, the technological wonder known as Gnomeregan has been the gnomes' capital city for generations. Recently, a hostile race of mutant troggs infested several regions of Dun Morogh - including the great gnome city. In a desperate attempt to destroy the invading troggs, High Tinker Mekkatorque ordered the emergency venting of the city's radioactive waste tanks. Several gnomes sought shelter from the airborne pollutants as they waited for the troggs to die or flee. Unfortunately, though the troggs became irradiated from the toxic assault - their siege continued, unabated. Those gnomes who were not killed by noxious seepage were forced to flee, seeking refuge in the nearby dwarven city of Ironforge. There, High Tinker Mekkatorque set out to enlist brave souls to help his people reclaim their beloved city. It is rumored that Mekkatorque's once-trusted advisor, Mekgineer Thermaplugg, betrayed his people by allowing the invasion to happen. Now, his sanity shattered, Thermaplug remains in Gnomeregan - furthering his dark schemes and acting as the city's new techno-overlord."
 Inst29Caption = "Gnomeregan"
-Inst29QAA = "11 Quests"
-Inst29QAH = "6 Quests"
+Inst29QAA = "8 Quests"
+Inst29QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst29Quest1 = "1. Home Sweet Gnome"
+Inst29Quest1_Level = "26"
+Inst29Quest1_Attain = "26"
+Inst29Quest1_Aim = "Speak to Murd Doc."
+Inst29Quest1_Location = "Skuerto (Arathi Highlands - Refuge Point; "..YELLOW.."40.2, 49.0"..WHITE..")"
+Inst29Quest1_Note = "Murd Doc is just inside the entrance of the instance.\n\nIf you accept this quest you might not be able to accept the quest 'Exploring Gnomeregan'.  It is the same quest, but with a different quest giver."
+Inst29Quest1_Prequest = "None"
+Inst29Quest1_Folgequest = "The G-Team"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst29Quest2 = "2. Exploring Gnomeregan"
+Inst29Quest2_Level = "26"
+Inst29Quest2_Attain = "26"
+Inst29Quest2_Aim = "Speak to Murd Doc."
+Inst29Quest2_Location = "Wulfred Harrys (Northern Stranglethorn - Fort Livingston; "..YELLOW.."53.2, 66.2"..WHITE..")"
+Inst29Quest2_Note = "Murd Doc is just inside the entrance of the instance.\n\nIf you accept this quest you might not be able to accept the quest 'Home Sweet Gnome'.  It is the same quest, but with a different quest giver."
+Inst29Quest2_Prequest = "None"
+Inst29Quest2_Folgequest = "The G-Team"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst29Quest3 = "3. The G-Team"
+Inst29Quest3_Level = "27"
+Inst29Quest3_Attain = "24"
+Inst29Quest3_Aim = "Kill the Viscous Fallout."
+Inst29Quest3_Location = "Murd Doc (Gnomeregan; "..YELLOW.."Entrance"..WHITE..")"
+Inst29Quest3_Note = "Viscous Fallout is at "..YELLOW.."[2]"..WHITE..".  Turn the quest in to B.E Barechus at "..GREEN.."[3']"..WHITE.."."
+Inst29Quest3_Prequest = "Exploring Gnomeregan or Home Sweet Gnome"
+Inst29Quest3_Folgequest = "The G-Team"
+Inst29Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst29Quest4 = "4. The G-Team"
+Inst29Quest4_Level = "28"
+Inst29Quest4_Attain = "24"
+Inst29Quest4_Aim = "Kill the Electrocutioner 6000."
+Inst29Quest4_Location = "B.E Barechus (Gnomeregan; "..GREEN.."[3']"..WHITE..")"
+Inst29Quest4_Note = "Electrocutioner 6000 is at "..YELLOW.."[3]"..WHITE..".  Turn the quest in to Face at "..GREEN.."[4']"..WHITE.."."
+Inst29Quest4_Prequest = "The G-Team"
+Inst29Quest4_Folgequest = "The G-Team"
+Inst29Quest4FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst29Quest5 = "5. The G-Team"
+Inst29Quest5_Level = "29"
+Inst29Quest5_Attain = "24"
+Inst29Quest5_Aim = "Kill Mekgineer Thermaplugg."
+Inst29Quest5_Location = "Face (Gnomeregan; "..GREEN.."[4']"..WHITE..")"
+Inst29Quest5_Note = "Mekgineer Thermaplugg is at "..YELLOW.."[5]"..WHITE..".  Turn the quest in to Hann Ibal at "..GREEN.."[5']"..WHITE.."."
+Inst29Quest5_Prequest = "The G-Team"
+Inst29Quest5_Folgequest = "None"
+Inst29Quest5FQuest = "true"
+--
+Inst29Quest5name1 = "G-Team Belt"
+Inst29Quest5name2 = "Barechus' Greaves"
+Inst29Quest5name3 = "Temple's Vest"
+Inst29Quest5name4 = "Murd Doc's Leggings"
+Inst29Quest5name5 = "Hann Ibal's Epaulettes"
+
+--Quest 6 Alliance
+Inst29Quest6 = "6. Grime-Encrusted Ring"
+Inst29Quest6_Level = "34"
+Inst29Quest6_Attain = "24"
+Inst29Quest6_Aim = "Figure out a way to remove the grime from the Grime-Encrusted Ring."
+Inst29Quest6_Location = "Grime-Encrusted Ring (random drop from Dark Iron Agents in Gnomeregan)"
+Inst29Quest6_Note = "The Ring can be cleaned off at the Sparklematic 5200 in the Clean Zone at "..GREEN.."[2']"..WHITE.."."
+Inst29Quest6_Prequest = "None"
+Inst29Quest6_Folgequest = "Return of the Ring"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst29Quest7 = "7. Return of the Ring"
+Inst29Quest7_Level = "34"
+Inst29Quest7_Attain = "24"
+Inst29Quest7_Aim = "You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
+Inst29Quest7_Location = "Brilliant Gold Ring (obtained from Grime-Encrusted Ring quest)"
+Inst29Quest7_Note = "Turns in to Talvash del Kissel (Ironforge - Mystic Ward; "..YELLOW.."36.0, 4.6"..WHITE.."). The followup to enhance the ring is optional."
+Inst29Quest7_Prequest = "Grime-Encrusted Ring"
+Inst29Quest7_Folgequest = "Gnome Improvement"
+Inst29Quest7FQuest = "true"
+--
+Inst29Quest7name1 = "Brilliant Gold Ring"
+
+--Quest 8 Alliance
+Inst29Quest8 = "8. The Sparklematic 5200!"
+Inst29Quest8_Level = "30"
+Inst29Quest8_Attain = "25"
+Inst29Quest8_Aim = "Insert a Grime-Encrusted Item into the Sparklematic 5200, and be sure to have three silver coins to start the machine."
+Inst29Quest8_Location = "Sparklematic 5200 (Gnomeregan - The Clean Zone; "..GREEN.."[2']"..WHITE..")"
+Inst29Quest8_Note = "You can repeat this quest for all the Grime-Encrusted Items you have."
+Inst29Quest8_Prequest = "None"
+Inst29Quest8_Folgequest = "None"
+--
+Inst29Quest8name1 = "Sparklematic-Wrapped Box"
+
+
+--Quest 1 Horde  (same as Quest 6 Alliance)
+Inst29Quest1_HORDE = "1. Grime-Encrusted Ring"
+Inst29Quest1_HORDE_Level = Inst29Quest6_Level
+Inst29Quest1_HORDE_Attain = Inst29Quest6_Attain
+Inst29Quest1_HORDE_Aim = Inst29Quest6_Aim
+Inst29Quest1_HORDE_Location = Inst29Quest6_Location
+Inst29Quest1_HORDE_Note = Inst29Quest6_Note
+Inst29Quest1_HORDE_Prequest = Inst29Quest6_Prequest
+Inst29Quest1_HORDE_Folgequest = Inst29Quest6_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 7 Alliance - different turnin)
+Inst29Quest2_HORDE = "2. Return of the Ring"
+Inst29Quest2_HORDE_Level = Inst29Quest7_Level
+Inst29Quest2_HORDE_Attain = Inst29Quest7_Attain
+Inst29Quest2_HORDE_Aim = Inst29Quest7_Aim
+Inst29Quest2_HORDE_Location = Inst29Quest7_Location
+Inst29Quest2_HORDE_Note = "Turns in to Nogg (Orgrimmar - The Drag; "..YELLOW.."56.6, 56.8"..WHITE.."). The followup to enhance the ring is optional."
+Inst29Quest2_HORDE_Prequest = Inst29Quest7_Prequest
+Inst29Quest2_HORDE_Folgequest = "Nogg's Ring Redo"
+Inst29Quest2FQuest_HORDE = Inst29Quest7FQuest
+--
+Inst29Quest2name1_HORDE = Inst29Quest7name1
+
+--Quest 3 Horde  (same as Quest 8 Alliance)
+Inst29Quest3_HORDE = "3. The Sparklematic 5200!"
+Inst29Quest3_HORDE_Level = Inst29Quest8_Level
+Inst29Quest3_HORDE_Attain = Inst29Quest8_Attain
+Inst29Quest3_HORDE_Aim = Inst29Quest8_Aim
+Inst29Quest3_HORDE_Location = Inst29Quest8_Location
+Inst29Quest3_HORDE_Note = Inst29Quest8_Note
+Inst29Quest3_HORDE_Prequest = Inst29Quest8_Prequest
+Inst29Quest3_HORDE_Folgequest = Inst29Quest8_Folgequest
+--
+Inst29Quest3name1_HORDE = Inst29Quest8name1
+
 
 
 --------------- INST37 - HFC: Ramparts (Ramp) ---------------
@@ -11171,13 +11971,13 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 19 = SM: Library (SM Lib)
 -- 20 = Scholomance (Scholo)
 -- 21 = Shadowfang Keep (SFK)
--- 22 = Stratholme (Strat)
+-- 22 = Stratholme - Crusaders' Square (Strat)
 -- 23 = The Ruins of Ahn'Qiraj (AQ20)
 -- 24 = The Stockade (Stocks)
 -- 25 = Sunken Temple (ST)
 -- 26 = The Temple of Ahn'Qiraj (AQ40)
 -- 27 = Zul'Farrak (ZF)
--- 28 = Zul'Gurub (ZG) (removed)
+-- 28 = Stratholme - The Gauntlet (Strat)
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons (removed)
 -- 31 = Azuregos (removed)

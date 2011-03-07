@@ -92,7 +92,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadowfangKeep") then
 		AQINSTANZ = 21;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StratholmeCrusader") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StratholmeGauntlet") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StratholmeCrusader") then
 		AQINSTANZ = 22;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheRuinsofAhnQiraj") then
@@ -109,6 +109,9 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulFarrak") then
 		AQINSTANZ = 27;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StratholmeGauntlet") then
+		AQINSTANZ = 28;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Gnomeregan") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GnomereganEnt") then
 		AQINSTANZ = 29;
@@ -695,13 +698,13 @@ end
 -- 19 = SM: Library (SM Lib)
 -- 20 = Scholomance (Scholo)
 -- 21 = Shadowfang Keep (SFK)
--- 22 = Stratholme (Strat)
+-- 22 = Stratholme - Crusaders' Square (Strat)
 -- 23 = The Ruins of Ahn'Qiraj (AQ20)
 -- 24 = The Stockade (Stocks)
 -- 25 = Sunken Temple (ST)
 -- 26 = The Temple of Ahn'Qiraj (AQ40)
 -- 27 = Zul'Farrak (ZF)
--- 28 = Zul'Gurub (ZG) (removed)
+-- 28 = Stratholme - The Gauntlet (Strat)
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons (removed)
 -- 31 = Azuregos (removed)
