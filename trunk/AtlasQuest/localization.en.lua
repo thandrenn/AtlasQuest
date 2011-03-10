@@ -1225,7 +1225,7 @@ Inst7Quest2_Level = "25"
 Inst7Quest2_Attain = "22"
 Inst7Quest2_Aim = "Find the Lorgalis Manuscript."
 Inst7Quest2_Location = "Sentinel-trainee Issara (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest2_Note = "You find the Manuscript at "..GREEN.."[1']"..WHITE.." in the water."
+Inst7Quest2_Note = "You find the Manuscript at "..GREEN.."[2']"..WHITE.." in the water."
 Inst7Quest2_Prequest = "None"
 Inst7Quest2_Folgequest = "None"
 --
@@ -1240,7 +1240,7 @@ Inst7Quest3_Level = "25"
 Inst7Quest3_Attain = "22"
 Inst7Quest3_Aim = "Seek out Scout Thaelrid."
 Inst7Quest3_Location = "Ashelan Northwood (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest3_Note = "You find Scout Thaelrid at "..GREEN.."[2']"..WHITE.."."
+Inst7Quest3_Note = "You find Scout Thaelrid at "..GREEN.."[3']"..WHITE.."."
 Inst7Quest3_Prequest = "None"
 Inst7Quest3_Folgequest = "Blackfathom Villainy"
 -- No Rewards for this quest
@@ -1250,7 +1250,7 @@ Inst7Quest4 = "4. Blackfathom Villainy"
 Inst7Quest4_Level = "28"
 Inst7Quest4_Attain = "22"
 Inst7Quest4_Aim = "Get the head of Twilight Lord Kelris."
-Inst7Quest4_Location = "Scout Thaelrid (Blackfathom Deeps; "..GREEN.."[2']"..WHITE..")"
+Inst7Quest4_Location = "Scout Thaelrid (Blackfathom Deeps; "..GREEN.."[3']"..WHITE..")"
 Inst7Quest4_Note = "Twilight Lord Kelris is at "..YELLOW.."[5]"..WHITE..". The quest turns in to Ashelan Northwood, back at the entrance of the instance."
 Inst7Quest4_Prequest = "In Search of Thaelrid"
 Inst7Quest4_Folgequest = "None"
@@ -3242,8 +3242,8 @@ Inst20Quest8name4_HORDE = Inst20Quest8name4
 
 Inst21Story = "During the Third War, the wizards of the Kirin Tor battled against the undead armies of the Scourge. When the wizards of Dalaran died in battle, they would rise soon after - adding their former might to the growing Scourge. Frustrated by their lack of progress (and against the advice of his peers) the Archmage, Arugal elected to summon extra-dimensional entities to bolster Dalaran's diminishing ranks. Arugal's summoning brought the ravenous worgen into the world of Azeroth. The feral wolf-men slaughtered not only the Scourge, but quickly turned on the wizards themselves. The worgen laid siege to the keep of the noble, Baron Silverlaine. Situated above the tiny hamlet of Pyrewood, the keep quickly fell into shadow and ruin. Driven mad with guilt, Arugal adopted the worgen as his children and retreated to the newly dubbed 'Shadowfang Keep'. It's said he still resides there, protected by his massive pet, Fenrus - and haunted by the vengeful ghost of Baron Silverlaine."
 Inst21Caption = "Shadowfang Keep"
-Inst21QAA = "5 Quests"
-Inst21QAH = "5 Quests"
+Inst21QAA = "16 Quests"
+Inst21QAH = "19 Quests"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. Sniffing Them Out"
@@ -3298,14 +3298,162 @@ Inst21Quest4name4 = "Sandals of Sacrifice"
 Inst21Quest4name5 = "Godfrey's Britches"
 
 --Quest 5 Alliance
-Inst21Quest5 = "5. Something is in the Air (and it Ain't Love)"
-Inst21Quest5_Level = "85"
-Inst21Quest5_Attain = "85"
-Inst21Quest5_Aim = "Bring the Faded Lovely Greeting Card to Inspector Snip Snagglebolt in Stormwind."
-Inst21Quest5_Location = "Drops from Apothecary Hummel (Shadowfang Keep; "..ORANGE.."[1]"..WHITE..")"
-Inst21Quest5_Note = "This quest is for the Love is in the Air seasonal event. It can be done once per character.\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.6, 75.2"..WHITE..")."
-Inst21Quest5_Prequest = "None"
+Inst21Quest5 = "5. The Circle's Future (Druid)"
+Inst21Quest5_Level = "20"
+Inst21Quest5_Attain = "20"
+Inst21Quest5_Aim = "Go to Shadowfang Keep and obtain Walden's Elixirs from Lord Walden, 5 bundles of Moontouched Wood, and 5 Deathless Sinew."
+Inst21Quest5_Location = "Loganaar (Moonglade - Nighthaven; "..YELLOW.."52.4, 40.6"..WHITE..")"
+Inst21Quest5_Note = "Walden's Elixirs drops at "..YELLOW.."[4]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Narianna (Moonglade - Nighthaven; "..YELLOW.."53.2, 42.6"..WHITE..").  The prequest starts from Celestine of the Harvest (Stormwind City; "..YELLOW.."57.6, 24.8"..WHITE..")."
+Inst21Quest5_Prequest = "An Invitation from Moonglade"
 Inst21Quest5_Folgequest = "None"
+Inst21Quest5PreQuest = "true"
+--
+Inst21Quest5name1 = "Staff of the Green Circle"
+Inst21Quest5name2 = "Staff of the Verdant Circle"
+
+--Quest 6 Alliance
+Inst21Quest6 = "6. A Well-Earned Reward (Hunter)"
+Inst21Quest6_Level = "20"
+Inst21Quest6_Attain = "20"
+Inst21Quest6_Aim = "Go to Shadowfang Keep and obtain the Godfrey's Crystal Scope from Lord Godfrey, 5 bundles of Moontouched Wood, and 5 Deathless Sinew."
+Inst21Quest6_Location = "Wulf Hansreim (Stormwind City - Old Town; "..YELLOW.."79.0, 71.0"..WHITE..")"
+Inst21Quest6_Note = "Godfrey's Crystal Scope drops at "..YELLOW.."[5]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Frederick Stover (Stormwind City - Trade District; "..YELLOW.."58.6, 69.0"..WHITE..").  The prequest starts from Vord (The Exodar - Traders' Tier; "..YELLOW.."47.2, 88.4"..WHITE..")."
+Inst21Quest6_Prequest = "Wulf Calls"
+Inst21Quest6_Folgequest = "None"
+Inst21Quest6PreQuest = "true"
+--
+Inst21Quest6name1 = "Crossbow of the Crown"
+
+--Quest 7 Alliance
+Inst21Quest7 = "7. Mastering the Arcane (Mage)"
+Inst21Quest7_Level = "20"
+Inst21Quest7_Attain = "20"
+Inst21Quest7_Aim = "Go to Shadowfang Keep and obtain Silverlaine's Enchanted Crystal from Baron Silverlaine, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest7_Location = "Maginor Dumas (Stormwind City - The Mage Quarter; "..YELLOW.."49.2, 87.6"..WHITE..")"
+Inst21Quest7_Note = "Silverlaine's Enchanted Crystal drops at "..YELLOW.."[2]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from Tarelvir (Darnassus - The Temple of the Moon; "..YELLOW.."37.6, 80.0"..WHITE..")."
+Inst21Quest7_Prequest = "Journey to the Wizard's Sanctum"
+Inst21Quest7_Folgequest = "None"
+Inst21Quest7PreQuest = "true"
+--
+Inst21Quest7name1 = "Staff of the Royal Wizard"
+
+--Quest 8 Alliance
+Inst21Quest8 = "8. The Hand of the Light (Paladin)"
+Inst21Quest8_Level = "20"
+Inst21Quest8_Attain = "20"
+Inst21Quest8_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 crates of Moonsteel Ingots, and 5 Deathless Sinew."
+Inst21Quest8_Location = "Lord Grayson Shadowbreaker (Stormwind City - Cathedral of Light; "..YELLOW.."52.6, 45.0"..WHITE..")"
+Inst21Quest8_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Therum Deepforge (Stormwind City - Dwarven District; "..YELLOW.."63.4, 37.2"..WHITE..").  The prequest starts from Rukua (Darnassus - The Temple of the Moon; "..YELLOW.."42.8, 77.6"..WHITE..")."
+Inst21Quest8_Prequest = "Lord Grayson Shadowbreaker"
+Inst21Quest8_Folgequest = "None"
+Inst21Quest8PreQuest = "true"
+--
+Inst21Quest8name1 = "Mace of the Order"
+Inst21Quest8name2 = "Gavel of the Order"
+Inst21Quest8name3 = "Warhammer of the Order"
+
+--Quest 9 Alliance
+Inst21Quest9 = "9. Favored of the Light (Priest)"
+Inst21Quest9_Level = "20"
+Inst21Quest9_Attain = "20"
+Inst21Quest9_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest9_Location = "High Priestess Laurena (Stormwind City - Cathedral of Light; "..YELLOW.."49.6, 44.8"..WHITE..")"
+Inst21Quest9_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from Caedmos (The Exodar - The Vault of Lights; "..YELLOW.."38.8, 51.0"..WHITE..")."
+Inst21Quest9_Prequest = "Make Haste to the Cathedral"
+Inst21Quest9_Folgequest = "None"
+Inst21Quest9PreQuest = "true"
+--
+Inst21Quest9name1 = "Staff of the Hallowed"
+
+--Quest 10 Alliance
+Inst21Quest10 = "10. Favored of Elune (Priest)"
+Inst21Quest10_Level = "20"
+Inst21Quest10_Attain = "20"
+Inst21Quest10_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest10_Location = "Tyrande Whisperwind (Darnassus - The Temple of the Moon; "..YELLOW.."43.0, 77.8"..WHITE..")"
+Inst21Quest10_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from High Priest Rohan (Ironforge - The Mystic Ward; "..YELLOW.."24.8, 8.4"..WHITE..")."
+Inst21Quest10_Prequest = "The Temple of the Moon"
+Inst21Quest10_Folgequest = "None"
+Inst21Quest10PreQuest = "true"
+--
+Inst21Quest10name1 = "Moon Staff of Elune"
+
+--Quest 11 Alliance
+Inst21Quest11 = "11. A Budding Young Surgeon (Priest)"
+Inst21Quest11_Level = "20"
+Inst21Quest11_Attain = "20"
+Inst21Quest11_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest11_Location = "Chief Surgeon Gashweld (Stormwind City - Dwarven District; "..YELLOW.."63.0, 34.2"..WHITE..")"
+Inst21Quest11_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from High Priest Rohan (Ironforge - The Mystic Ward; "..YELLOW.."24.8, 8.4"..WHITE..")."
+Inst21Quest11_Prequest = "The Chief Surgeon"
+Inst21Quest11_Folgequest = "None"
+Inst21Quest11PreQuest = "true"
+--
+Inst21Quest11name1 = "Staff of the Technocrat"
+
+--Quest 12 Alliance
+Inst21Quest12 = "12. A Royal Reward (Rogue)"
+Inst21Quest12_Level = "20"
+Inst21Quest12_Attain = "20"
+Inst21Quest12_Aim = "Go to Shadowfang Keep and obtain the Springvale's Sharpening Stone from Commander Springvale, 5 crates of Moonsteel Ingots, and 5 Deathless Sinew."
+Inst21Quest12_Location = "Lord Tony Romano (Stormwind City - Old Town; "..YELLOW.."79.6, 61.2"..WHITE..")"
+Inst21Quest12_Note = "Springvale's Sharpening Stone drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Therum Deepforge (Stormwind City - Dwarven District; "..YELLOW.."63.4, 37.2"..WHITE..").  The prequest starts from Hulfdan Blackbeard (Ironforge - The Forlorn Cavern; "..YELLOW.."50.8, 15.2"..WHITE..")."
+Inst21Quest12_Prequest = "Make Contact with SI:7"
+Inst21Quest12_Folgequest = "None"
+Inst21Quest12PreQuest = "true"
+--
+Inst21Quest12name1 = "SI:7 Special Issue Dagger"
+
+--Quest 13 Alliance
+Inst21Quest13 = "13. Blessings of the Elements (Shaman)"
+Inst21Quest13_Level = "20"
+Inst21Quest13_Attain = "20"
+Inst21Quest13_Aim = "Go to Shadowfang Keep and obtain Walden's Talisman, the Book of Lost Souls, and 5 Ghostly Essence."
+Inst21Quest13_Location = "Farseer Umbrua (Stormwind City - The Valley of Heroes; "..YELLOW.."67.4, 89.2"..WHITE..")"
+Inst21Quest13_Note = "Walden's Talisman drops at "..YELLOW.."[4]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Therum Deepforge (Stormwind City - Dwarven District; "..YELLOW.."63.4, 37.2"..WHITE..").  The prequest starts from Farseer Javad (Ironforge - The Great Forge; "..YELLOW.."55.2, 29.0"..WHITE..")."
+Inst21Quest13_Prequest = "An Audience with the Farseer"
+Inst21Quest13_Folgequest = "None"
+Inst21Quest13PreQuest = "true"
+--
+Inst21Quest13name1 = "Battleaxe of the Farseer"
+Inst21Quest13name2 = "Spell Axe of the Farseer"
+
+--Quest 14 Alliance
+Inst21Quest14 = "14. A Boon for the Powerful (Warlock)"
+Inst21Quest14_Level = "20"
+Inst21Quest14_Attain = "20"
+Inst21Quest14_Aim = "Go to Shadowfang Keep and obtain the Tenebrous Orb from Lord Godfrey, the Book of Lost Souls, and 5 Ghostly Essence."
+Inst21Quest14_Location = "Demisette Cloyce (Stormwind City - The Mage Quarter; "..YELLOW.."39.4, 84.8"..WHITE..")"
+Inst21Quest14_Note = "Tenebrous Orb drops at "..YELLOW.."[5]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from Alexander Calder (Ironforge - The Forlorn Cavern; "..YELLOW.."50.2, 7.4"..WHITE..")."
+Inst21Quest14_Prequest = "Demisette Sends Word"
+Inst21Quest14_Folgequest = "None"
+Inst21Quest14PreQuest = "true"
+--
+Inst21Quest14name1 = "Staff of Justified Sins"
+
+--Quest 15 Alliance
+Inst21Quest15 = "15. A Fitting Weapon (Warrior)"
+Inst21Quest15_Level = "20"
+Inst21Quest15_Attain = "20"
+Inst21Quest15_Aim = "Go to Shadowfang Keep and obtain the Silverlaine Family Sword from Baron Silverlaine, 5 crates of Moonsteel Ingots, and 5 Deathless Sinew."
+Inst21Quest15_Location = "Ander Germaine (Stormwind City - Old Town; "..YELLOW.."79.4, 69.0"..WHITE..")"
+Inst21Quest15_Note = "Silverlaine Family Sword drops at "..YELLOW.."[2]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Therum Deepforge (Stormwind City - Dwarven District; "..YELLOW.."63.4, 37.2"..WHITE..").  The prequest starts from Behomat (The Exodar - The Traders' Tier; "..YELLOW.."55.4, 81.8"..WHITE..")."
+Inst21Quest15_Prequest = "A Summons from Ander Germaine"
+Inst21Quest15_Folgequest = "None"
+Inst21Quest15PreQuest = "true"
+--
+Inst21Quest15name1 = "Broadsword of the Crown"
+Inst21Quest15name2 = "Greatsword of the Crown"
+
+--Quest 16 Alliance
+Inst21Quest16 = "16. Something is in the Air (and it Ain't Love)"
+Inst21Quest16_Level = "85"
+Inst21Quest16_Attain = "85"
+Inst21Quest16_Aim = "Bring the Faded Lovely Greeting Card to Inspector Snip Snagglebolt in Stormwind."
+Inst21Quest16_Location = "Drops from Apothecary Hummel (Shadowfang Keep; "..ORANGE.."[1]"..WHITE..")"
+Inst21Quest16_Note = "This quest is for the Love is in the Air seasonal event. It can be done once per character.\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.6, 75.2"..WHITE..")."
+Inst21Quest16_Prequest = "None"
+Inst21Quest16_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -3361,15 +3509,204 @@ Inst21Quest4name3_HORDE = "Shadowfang Spaulders"
 Inst21Quest4name4_HORDE = "Sandals of Sacrifice"
 Inst21Quest4name5_HORDE = "Godfrey's Britches"
 
---Quest 5 Horde
-Inst21Quest5_HORDE = "5. Something is in the Air (and it Ain't Love)"
-Inst21Quest5_HORDE_Level = "85"
-Inst21Quest5_HORDE_Attain = "85"
-Inst21Quest5_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
-Inst21Quest5_HORDE_Location = "Drops from Apothecary Hummel (Shadowfang Keep; "..ORANGE.."[1]"..WHITE..")"
-Inst21Quest5_HORDE_Note = "This quest is for the Love is in the Air seasonal event. It can be done once per character.\n\nDetective Snap Snagglebolt is at (Orgrimmar - Valley of Strength "..YELLOW.."51.0, 75.3"..WHITE..")."
-Inst21Quest5_HORDE_Prequest = "None"
-Inst21Quest5_HORDE_Folgequest = "None"
+--Quest 5 Horde  (same as Quest 5 Alliance - different prequest)
+Inst21Quest5_HORDE = Inst21Quest5
+Inst21Quest5_HORDE_Level = Inst21Quest5_Level
+Inst21Quest5_HORDE_Attain = Inst21Quest5_Attain
+Inst21Quest5_HORDE_Aim = Inst21Quest5_Aim
+Inst21Quest5_HORDE_Location = Inst21Quest5_Location
+Inst21Quest5_HORDE_Note = "Walden's Elixirs drops at "..YELLOW.."[4]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Narianna (Moonglade - Nighthaven; "..YELLOW.."53.2, 42.6"..WHITE..").  The prequest starts from Sesebi (Orgrimmar - Valley of Spirits; "..YELLOW.."35.0, 67.6"..WHITE..")."
+Inst21Quest5_HORDE_Prequest = "A Journey to Moonglade"
+Inst21Quest5_HORDE_Folgequest = Inst21Quest5_Folgequest
+Inst21Quest5PreQuest_HORDE = Inst21Quest5PreQuest
+--
+Inst21Quest5name1_HORDE = Inst21Quest5name1
+Inst21Quest5name2_HORDE = Inst21Quest5name2
+
+--Quest 6 Horde
+Inst21Quest6_HORDE = "6. A Marksman's Weapon (Hunter)"
+Inst21Quest6_HORDE_Level = "20"
+Inst21Quest6_HORDE_Attain = "20"
+Inst21Quest6_HORDE_Aim = "Go to Shadowfang Keep and obtain Godfrey's Crystal Scope from Lord Godfrey, 5 bundles of Moontouched Wood, and 5 Deathless Sinew."
+Inst21Quest6_HORDE_Location = "Ormak Grimshot (Orgrimmar - The Valley of Honor; "..YELLOW.."63.8, 32.8"..WHITE..")"
+Inst21Quest6_HORDE_Note = "Godfrey's Crystal Scope drops at "..YELLOW.."[5]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Apolos (Undercity - The War Quarter; "..YELLOW.."49.6, 29"..WHITE..")."
+Inst21Quest6_HORDE_Prequest = "Grimshot's Call"
+Inst21Quest6_HORDE_Folgequest = "None"
+Inst21Quest6PreQuest_HORDE = "true"
+--
+Inst21Quest6name1_HORDE = "Bow of the Great Hunter"
+
+--Quest 7 Horde
+Inst21Quest7_HORDE = "7. Mastering the Arcane (Mage)"
+Inst21Quest7_HORDE_Level = "20"
+Inst21Quest7_HORDE_Attain = "20"
+Inst21Quest7_HORDE_Aim = "Go to Shadowfang Keep and obtain Silverlaine's Enchanted Crystal from Baron Silverlaine, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest7_HORDE_Location = "Ureda (Orgrimmar - Cleft of Shadow; "..YELLOW.."61.3, 72.5"..WHITE..")"
+Inst21Quest7_HORDE_Note = "Silverlaine's Enchanted Crystal drops at "..YELLOW.."[2]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Inethven (Silvermoon City - Sunfury Spire; "..YELLOW.."59.0, 19.6"..WHITE..")."
+Inst21Quest7_HORDE_Prequest = "An Audience with Ureda"
+Inst21Quest7_HORDE_Folgequest = "None"
+Inst21Quest7PreQuest_HORDE = "true"
+--
+Inst21Quest7name1_HORDE = "Staff of the Arcane Path"
+
+--Quest 8 Horde
+Inst21Quest8_HORDE = "8. A True Sunwalker (Paladin)"
+Inst21Quest8_HORDE_Level = "20"
+Inst21Quest8_HORDE_Attain = "20"
+Inst21Quest8_HORDE_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 crates of Moonsteel Ingots, and 5 Deathless Sinew."
+Inst21Quest8_HORDE_Location = "Sunwalker Atohmo (Orgrimmar - The Valley of Wisdom; "..YELLOW.."45.2, 53.4"..WHITE..")"
+Inst21Quest8_HORDE_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Aponi Brightmane (Thunder Bluff - The Hunter Rise; "..YELLOW.."63.2, 79.8"..WHITE..")."
+Inst21Quest8_HORDE_Prequest = "Follow the Sun"
+Inst21Quest8_HORDE_Folgequest = "None"
+Inst21Quest8PreQuest_HORDE = "true"
+--
+Inst21Quest8name1_HORDE = "Mace of the Sunwalker"
+Inst21Quest8name2_HORDE = "Battlehammer of the Sunwalker"
+Inst21Quest8name3_HORDE = "Greatsword of the Sunwalker"
+
+--Quest 9 Horde
+Inst21Quest9_HORDE = "9. The Adept's Path (Paladin)"
+Inst21Quest9_HORDE_Level = "20"
+Inst21Quest9_HORDE_Attain = "20"
+Inst21Quest9_HORDE_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 crates of Moonsteel Ingots, and 5 Deathless Sinew."
+Inst21Quest9_HORDE_Location = "Master Pyreanor (Orgrimmar - The Valley of Strength; "..YELLOW.."49.2, 71.2"..WHITE..")"
+Inst21Quest9_HORDE_Note = "This quest is only for Blood Elf Paladins.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Aponi Brightmane (Thunder Bluff - The Hunter Rise; "..YELLOW.."63.2, 79.8"..WHITE..")."
+Inst21Quest9_HORDE_Prequest = "Seek Out Master Pyreanor"
+Inst21Quest9_HORDE_Folgequest = "None"
+Inst21Quest9PreQuest_HORDE = "true"
+--
+Inst21Quest9name1_HORDE = "Morningstar of the Order"
+Inst21Quest9name2_HORDE = "Battlemace of the Order"
+Inst21Quest9name3_HORDE = "Greatmace of the Order"
+
+--Quest 10 Horde
+Inst21Quest10_HORDE = "10. A Seer's Staff (Priest)"
+Inst21Quest10_HORDE_Level = "20"
+Inst21Quest10_HORDE_Attain = "20"
+Inst21Quest10_HORDE_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest10_HORDE_Location = "Brother Silverhallow (Orgrimmar - The Valley of Spirits; "..YELLOW.."37.8, 87.4"..WHITE..")"
+Inst21Quest10_HORDE_Note = "This quest is only for Goblin Priests.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from ?? (Orgrimmar - ??; "..YELLOW.."??, ??"..WHITE..")."
+Inst21Quest10_HORDE_Prequest = "Seek Brother Silverhallow"
+Inst21Quest10_HORDE_Folgequest = "None"
+Inst21Quest10PreQuest_HORDE = "true"
+--
+Inst21Quest10name1_HORDE = "Staff of Golden Worship"
+
+--Quest 11 Horde
+Inst21Quest11_HORDE = "11. The Shadow-Walker's Task (Priest)"
+Inst21Quest11_HORDE_Level = "20"
+Inst21Quest11_HORDE_Attain = "20"
+Inst21Quest11_HORDE_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest11_HORDE_Location = "Shadow-Walker Zuru (Orgrimmar - The Valley of Spirits; "..YELLOW.."35.4, 69.2"..WHITE..")"
+Inst21Quest11_HORDE_Note = "This quest is only for Troll Priests.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Aldrae (Silvermoon City - Sunfury Spire; "..YELLOW.."53.2, 26.6"..WHITE..")."
+Inst21Quest11_HORDE_Prequest = "Seek the Shadow-Walker"
+Inst21Quest11_HORDE_Folgequest = "None"
+Inst21Quest11PreQuest_HORDE = "true"
+--
+Inst21Quest11name1_HORDE = "Shadow-Walker Staff"
+
+--Quest 12 Horde
+Inst21Quest12_HORDE = "12. A Seer's Staff (Priest)"
+Inst21Quest12_HORDE_Level = "20"
+Inst21Quest12_HORDE_Attain = "20"
+Inst21Quest12_HORDE_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest12_HORDE_Location = "Seer Liwatha (Orgrimmar - The Valley of Wisdom; "..YELLOW.."45.4, 53.4"..WHITE..")"
+Inst21Quest12_HORDE_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Seer Beryl (Thunder Bluff - The Elder Rise; "..YELLOW.."75.4, 28.0"..WHITE..")."
+Inst21Quest12_HORDE_Prequest = "The Seer's Call"
+Inst21Quest12_HORDE_Folgequest = "None"
+Inst21Quest12PreQuest_HORDE = "true"
+--
+Inst21Quest12name1_HORDE = "Staff of the Earthmother"
+
+--Quest 13 Horde
+Inst21Quest13_HORDE = "13. Staff of the Light (Priest)"
+Inst21Quest13_HORDE_Level = "20"
+Inst21Quest13_HORDE_Attain = "20"
+Inst21Quest13_HORDE_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest13_HORDE_Location = "Tyelis (Orgrimmar - The Valley of Strength; "..YELLOW.."49.0, 71.0"..WHITE..")"
+Inst21Quest13_HORDE_Note = "This quest is only for Blood Elf Priest.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Seer Beryl (Thunder Bluff - The Elder Rise; "..YELLOW.."75.4, 28.0"..WHITE..")."
+Inst21Quest13_HORDE_Prequest = "Journey to Orgrimmar"
+Inst21Quest13_HORDE_Folgequest = "None"
+Inst21Quest13PreQuest_HORDE = "true"
+--
+Inst21Quest13name1_HORDE = "Staff of the Sunchaser"
+
+--Quest 14 Horde
+Inst21Quest14_HORDE = "14. The Dark Cleric's Bidding (Priest)"
+Inst21Quest14_HORDE_Level = "20"
+Inst21Quest14_HORDE_Attain = "20"
+Inst21Quest14_HORDE_Aim = "Go to Shadowfang Keep and obtain the Commander's Holy Symbol from Commander Springvale, 5 bundles of Moontouched Wood, and 5 Ghostly Essence."
+Inst21Quest14_HORDE_Location = "Dark Cleric Cecille (Orgrimmar - The Valley of Strength; "..YELLOW.."48.2, 72.8"..WHITE..")"
+Inst21Quest14_HORDE_Note = "This quest is only for Undead Priest.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Aldrae (Silvermoon City - Sunfury Spire; "..YELLOW.."53.2, 26.6"..WHITE..")."
+Inst21Quest14_HORDE_Prequest = "Dark Cleric Cecille"
+Inst21Quest14_HORDE_Folgequest = "None"
+Inst21Quest14PreQuest_HORDE = "true"
+--
+Inst21Quest14name1_HORDE = "Staff of Forsaken Faith"
+
+--Quest 15 Horde
+Inst21Quest15_HORDE = "15. Blade of the Shattered Hand (Rogue)"
+Inst21Quest15_HORDE_Level = "20"
+Inst21Quest15_HORDE_Attain = "20"
+Inst21Quest15_HORDE_Aim = "Go to Shadowfang Keep and obtain Springvale's Sharpening Stone from Commander Springvale, 5 crates of Moonsteel Ingots, and 5 Deathless Sinew."
+Inst21Quest15_HORDE_Location = "Gordul (Orgrimmar - Cleft of Shadow; "..YELLOW.."44.8, 61.3"..WHITE..")"
+Inst21Quest15_HORDE_Note = "Springvale's Sharpening Stone drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Zelanis (Silvermoon City - Murder Row; "..YELLOW.."79.6, 52.0"..WHITE..")."
+Inst21Quest15_HORDE_Prequest = "The Shattered Hand"
+Inst21Quest15_HORDE_Folgequest = "None"
+Inst21Quest15PreQuest_HORDE = "true"
+--
+Inst21Quest15name1_HORDE = "Blade of the Shattered Hand"
+
+--Quest 16 Horde
+Inst21Quest16_HORDE = "16. Dreamseeker's Task (Shaman)"
+Inst21Quest16_HORDE_Level = "20"
+Inst21Quest16_HORDE_Attain = "20"
+Inst21Quest16_HORDE_Aim = "Go to Shadowfang Keep and obtain Walden's Talisman from Lord Walden, the Book of Lost Souls, and 5 Ghostly Essence."
+Inst21Quest16_HORDE_Location = ""
+Inst21Quest16_HORDE_Note = "Walden's Talisman drops at "..YELLOW.."[4]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Beram Skychaser (Thunder Bluff - The Spirit Rise; "..YELLOW.."22.2, 19.0"..WHITE..")."
+Inst21Quest16_HORDE_Prequest = "The Dreamseeker Calls"
+Inst21Quest16_HORDE_Folgequest = "None"
+Inst21Quest16PreQuest_HORDE = "true"
+--
+Inst21Quest16name1_HORDE = "Battleaxe of the Speaker"
+Inst21Quest16name2_HORDE = "Spell Axe of the Speaker"
+
+--Quest 17 Horde
+Inst21Quest17_HORDE = "17. Token of Power (Warlock)"
+Inst21Quest17_HORDE_Level = "20"
+Inst21Quest17_HORDE_Attain = "20"
+Inst21Quest17_HORDE_Aim = "Go to Shadowfang Keep and obtain the Tenebrous Orb from Lord Godfrey, the Book of Lost Souls, and 5 Ghostly Essence."
+Inst21Quest17_HORDE_Location = "Zevrost (Orgrimmar - Cleft of Shadow; "..YELLOW.."49.0, 55.3"..WHITE..")"
+Inst21Quest17_HORDE_Note = "Tenebrous Orb drops at "..YELLOW.."[5]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Zanien (Silvermoon City - Murder Row; "..YELLOW.."73.2, 45.2"..WHITE..")."
+Inst21Quest17_HORDE_Prequest = "Zevrost's Behest"
+Inst21Quest17_HORDE_Folgequest = "None"
+Inst21Quest17PreQuest_HORDE = "true"
+--
+Inst21Quest17name1_HORDE = "Staff of the Left Hand Path"
+
+--Quest 18 Horde
+Inst21Quest18_HORDE = "18. A Fitting Weapon (Warrior)"
+Inst21Quest18_HORDE_Level = "20"
+Inst21Quest18_HORDE_Attain = "20"
+Inst21Quest18_HORDE_Aim = "Go to Shadowfang Keep and obtain the Silverlaine Family Sword from Baron Silverlaine, 5 crates of Moonsteel Ingots, and 5 Deathless Sinew."
+Inst21Quest18_HORDE_Location = "Grezz Ragefist (Orgrimmar - The Valley of Honor; "..YELLOW.."73.6, 45.6"..WHITE..")"
+Inst21Quest18_HORDE_Note = "Silverlaine Family Sword drops at "..YELLOW.."[2]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Alsudar the Bastion (Silvermoon City - Farstrider's Square; "..YELLOW.."81.6, 38.2"..WHITE..")."
+Inst21Quest18_HORDE_Prequest = "Grezz Ragefist"
+Inst21Quest18_HORDE_Folgequest = "None"
+Inst21Quest18PreQuest_HORDE = "true"
+--
+Inst21Quest18name1_HORDE = "Broadaxe of the Horde"
+Inst21Quest18name2_HORDE = "Greataxe of the Horde"
+
+--Quest 19 Horde
+Inst21Quest19_HORDE = "19. Something is in the Air (and it Ain't Love)"
+Inst21Quest19_HORDE_Level = "85"
+Inst21Quest19_HORDE_Attain = "85"
+Inst21Quest19_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
+Inst21Quest19_HORDE_Location = "Drops from Apothecary Hummel (Shadowfang Keep; "..ORANGE.."[1]"..WHITE..")"
+Inst21Quest19_HORDE_Note = "This quest is for the Love is in the Air seasonal event. It can be done once per character.\n\nDetective Snap Snagglebolt is at (Orgrimmar - Valley of Strength "..YELLOW.."51.0, 75.3"..WHITE..")."
+Inst21Quest19_HORDE_Prequest = "None"
+Inst21Quest19_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -7777,7 +8114,7 @@ Inst70Quest1name3 = "Signet of Swift Judgment"
 --Quest 2 Alliance
 Inst70Quest2 = "2. Disarmament"
 Inst70Quest2_Level = "71"
-Inst70Quest2_Attain = "70"
+Inst70Quest2_Attain = "68"
 Inst70Quest2_Aim = "Defender Mordun wants you to enter Utgarde Keep and steal 5 Vrykul Weapons"
 Inst70Quest2_Location = "Defender Mordun (Howling Fjord - Wyrmskull Village; "..YELLOW.."59.3, 48.8"..WHITE..")"
 Inst70Quest2_Note = "The Vrykul Weapons can be found along walls scattered around the instance. The prequest comes from Scout Valory (Howling Fjord - Wyrmskull Village; "..YELLOW.."56.0, 55.8"..WHITE..") and is optional."
@@ -7808,7 +8145,7 @@ Inst70Quest1name4_HORDE = "Vambraces of the Vengeance Bringer"
 --Quest 2 Horde
 Inst70Quest2_HORDE = "2. Ingvar Must Die!"
 Inst70Quest2_HORDE_Level = "71"
-Inst70Quest2_HORDE_Attain = "70"
+Inst70Quest2_HORDE_Attain = "68"
 Inst70Quest2_HORDE_Aim = "Dark Ranger Marrah has asked you to kill Ingvar the Plunderer in Utgarde Keep, then bring his head to High Executor Anselm at Vengeance Landing."
 Inst70Quest2_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..YELLOW.."[A] Entrance"..WHITE..")"
 Inst70Quest2_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance.\n\nIngvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nHigh Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
@@ -7822,7 +8159,7 @@ Inst70Quest2name3_HORDE = "Signet of Swift Judgment"
 --Quest 3 Horde
 Inst70Quest3_HORDE = "3. Disarmament"
 Inst70Quest3_HORDE_Level = "71"
-Inst70Quest3_HORDE_Attain = "70"
+Inst70Quest3_HORDE_Attain = "68"
 Inst70Quest3_HORDE_Aim = "Dark Ranger Marrah wants you to steal 5 Vrykul Weapons from Utgarde Keep and bring them to High Executor Anselm in Vengeance Landing."
 Inst70Quest3_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..YELLOW.."[A] Entrance"..WHITE..")"
 Inst70Quest3_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance. The Vrykul Weapons can be found along walls scattered around the instance.\n\nHigh Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
@@ -7918,7 +8255,7 @@ Inst72QAH = "4 Quests"
 --Quest 1 Alliance
 Inst72Quest1 = "1. Have They No Shame?"
 Inst72Quest1_Level = "71"
-Inst72Quest1_Attain = "70"
+Inst72Quest1_Attain = "68"
 Inst72Quest1_Aim = "Librarian Serrah wants you to enter the Nexus and recover Berinand's Research."
 Inst72Quest1_Location = "Librarian Serrah (Borean Tundra - Transitus Shield; "..YELLOW.."33.4, 34.3"..WHITE..")"
 Inst72Quest1_Note = "The Research Book is on the ground in the hall with the frozen NPCs at "..YELLOW.."[1]"..WHITE.."."
@@ -7933,7 +8270,7 @@ Inst72Quest1name4 = "Tundra Pauldrons"
 --Quest 2 Alliance
 Inst72Quest2 = "2. Postponing the Inevitable"
 Inst72Quest2_Level = "71"
-Inst72Quest2_Attain = "70"
+Inst72Quest2_Attain = "69"
 Inst72Quest2_Aim = "Archmage Berinand in the Transitus Shield wants you to use the Interdimensional Refabricator near the rift in the Nexus."
 Inst72Quest2_Location = "Archmage Berinand (Borean Tundra - Transitus Shield; "..YELLOW.."32.9, 34.3"..WHITE..")"
 Inst72Quest2_Note = "Use the Interdimensional Refabricator on the edge of the platform where Anomalus is, at "..YELLOW.."[3]"..WHITE.."."
@@ -7949,7 +8286,7 @@ Inst72Quest2name4 = "Gauntlets of the Disturbed Giant"
 --Quest 3 Alliance
 Inst72Quest3 = "3. Prisoner of War"
 Inst72Quest3_Level = "71"
-Inst72Quest3_Attain = "70"
+Inst72Quest3_Attain = "69"
 Inst72Quest3_Aim = "Raelorasz at the Transitus Shield wants you to enter the Nexus and release Keristrasza."
 Inst72Quest3_Location = "Raelorasz (Borean Tundra - Transitus Shield; "..YELLOW.."33.2, 34.4"..WHITE..")"
 Inst72Quest3_Note = "Keristrasza is at "..YELLOW.."[5]"..WHITE.."."
@@ -7964,7 +8301,7 @@ Inst72Quest3name3 = "Shroud of Fluid Strikes"
 --Quest 4 Alliance
 Inst72Quest4 = "4. Quickening"
 Inst72Quest4_Level = "71"
-Inst72Quest4_Attain = "70"
+Inst72Quest4_Attain = "69"
 Inst72Quest4_Aim = "Archmage Berinand in the Transitus Shield wants you to enter the Nexus and collect 5 Arcane Splinters from Crystalline Protectors."
 Inst72Quest4_Location = "Archmage Berinand (Borean Tundra - Transitus Shield; "..YELLOW.."32.9, 34.3"..WHITE..")"
 Inst72Quest4_Note = "Crystalline Protectors drop the Arcane Splinters. They are found on the way to Ormorok the Tree-Shaper."
@@ -8466,7 +8803,7 @@ Inst78QAH = "2 Quests"
 --Quest 1 Alliance
 Inst78Quest1 = "1. Whatever it Takes!"
 Inst78Quest1_Level = "80"
-Inst78Quest1_Attain = "80"
+Inst78Quest1_Attain = "77"
 Inst78Quest1_Aim = "King Jokkum in Dun Niffelem wants you to enter the Halls of Lightning and defeat Loken. You are then to return to King Jokkum with Loken's Tongue."
 Inst78Quest1_Location = "King Jokkum (The Storm Peaks - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
 Inst78Quest1_Note = "Loken is at "..YELLOW.."[4]"..WHITE..".\n\nThis quest becomes available after an extremely long questline that starts from Gretchen Fizzlespark (Storm Peaks - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
@@ -8482,7 +8819,7 @@ Inst78Quest1name4 = "Breastplate of Jagged Stone"
 --Quest 2 Alliance
 Inst78Quest2 = "2. Diametrically Opposed"
 Inst78Quest2_Level = "80"
-Inst78Quest2_Attain = "80"
+Inst78Quest2_Attain = "77"
 Inst78Quest2_Aim = "King Jokkum at Dun Niffelem wants you to enter the Halls of Lightning and defeat Volkhan."
 Inst78Quest2_Location = "King Jokkum (The Storm Peaks - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
 Inst78Quest2_Note = "Volkhan is at "..YELLOW.."[2]"..WHITE..".\n\nThis quest becomes available after an extremely long questline that starts from Gretchen Fizzlespark (Storm Peaks - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
@@ -8592,7 +8929,7 @@ Inst80Quest1name4 = "Shoulders of the Seducer"
 --Quest 2 Alliance
 Inst80Quest2 = "2. Search and Rescue"
 Inst80Quest2_Level = "74"
-Inst80Quest2_Attain = "73"
+Inst80Quest2_Attain = "72"
 Inst80Quest2_Aim = "Mack at Granite Springs wants you to go into Drak'Tharon and find out what became of Kurzel."
 Inst80Quest2_Location = "Mack Fearsen (Grizzly Hills - Granite Springs; "..YELLOW.."16.6, 48.1"..WHITE..")"
 Inst80Quest2_Note = "Kurzel is one of the webbed victims at "..GREEN.."[1']"..WHITE..". Attack the webbed victims until you find her."
@@ -8607,7 +8944,7 @@ Inst80Quest2name3 = "Kurzel's Warband"
 --Quest 3 Alliance
 Inst80Quest3 = "3. Head Games"
 Inst80Quest3_Level = "74"
-Inst80Quest3_Attain = "73"
+Inst80Quest3_Attain = "72"
 Inst80Quest3_Aim = "Kurzel wants you to use Kurzel's Blouse Scrap at the corpse of Novos the Summoner, then take the Ichor-Stained Cloth to Mack."
 Inst80Quest3_Location = "Kurzel (Drak'Tharon Keep; "..GREEN.."[1']"..WHITE..")"
 Inst80Quest3_Note = "Novos the Summoner is at "..YELLOW.."[2]"..WHITE..". Mack Fearsen is at (Grizzly Hills - Granite Springs; "..YELLOW.."16.6, 48.1"..WHITE..")"
@@ -8680,7 +9017,7 @@ Inst81QAH = "3 Quests"
 --Quest 1 Alliance
 Inst81Quest1 = "1. For Posterity"
 Inst81Quest1_Level = "78"
-Inst81Quest1_Attain = "76"
+Inst81Quest1_Attain = "74"
 Inst81Quest1_Aim = "Chronicler Bah'Kini at Dubra'Jin wants you to enter Gundrak and collect 6 Drakkari History Tablets."
 Inst81Quest1_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
 Inst81Quest1_Note = "The tablets are scattered around the instance. There are enough for a full party to complete the quest. The prequest is optional."
@@ -8696,7 +9033,7 @@ Inst81Quest1name4 = "Voodoo Signet"
 --Quest 2 Alliance
 Inst81Quest2 = "2. Gal'darah Must Pay"
 Inst81Quest2_Level = "78"
-Inst81Quest2_Attain = "76"
+Inst81Quest2_Attain = "74"
 Inst81Quest2_Aim = "Tol'mar at Dubra'Jin wants you to slay Gal'darah in Gundrak."
 Inst81Quest2_Location = "Tol'mar (Zul'Drak - Dubra'Jin; "..YELLOW.."69.9, 22.8"..WHITE..")"
 Inst81Quest2_Note = "Gal'darah is at "..YELLOW.."[5]"..WHITE.."."
@@ -8712,7 +9049,7 @@ Inst81Quest2name4 = "Clasp of the Fallen Demi-God"
 --Quest 3 Alliance
 Inst81Quest3 = "3. One of a Kind"
 Inst81Quest3_Level = "78"
-Inst81Quest3_Attain = "76"
+Inst81Quest3_Attain = "74"
 Inst81Quest3_Aim = "Chronicler Bah'Kini at Dubra'Jin wants you to enter Gundrak and recover a piece of the Drakkari Colossus."
 Inst81Quest3_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
 Inst81Quest3_Note = "The Drakkari Colossus Fragment drops from Drakkari Colossus at "..YELLOW.."[2]"..WHITE.."."
@@ -9565,7 +9902,7 @@ Inst90QAH = "3 Quests"
 --Quest 1 Alliance
 Inst90Quest1 = "1. Inside the Frozen Citadel"
 Inst90Quest1_Level = "80"
-Inst90Quest1_Attain = "80"
+Inst90Quest1_Attain = "78"
 Inst90Quest1_Aim = "Enter The Forge of Souls from the side of Icecrown Citadel and find Lady Jaina Proudmoore."
 Inst90Quest1_Location = "Apprentice Nelphi (Dalaran City - Roams outside South Bank)"
 Inst90Quest1_Note = "Lady Jaina Proudmoore is just inside the instance."
@@ -9576,7 +9913,7 @@ Inst90Quest1_Folgequest = "Echoes of Tortured Souls"
 --Quest 2 Alliance
 Inst90Quest2 = "2. Echoes of Tortured Souls"
 Inst90Quest2_Level = "80"
-Inst90Quest2_Attain = "80"
+Inst90Quest2_Attain = "78"
 Inst90Quest2_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
 Inst90Quest2_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
 Inst90Quest2_Note = "Turn the quest in to Lady Jaina Proudmoore before at "..YELLOW.."[2]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
@@ -9602,7 +9939,7 @@ Inst90Quest3PreQuest = "true"
 --Quest 1 Horde
 Inst90Quest1_HORDE = "1. Inside the Frozen Citadel"
 Inst90Quest1_HORDE_Level = "80"
-Inst90Quest1_HORDE_Attain = "80"
+Inst90Quest1_HORDE_Attain = "78"
 Inst90Quest1_HORDE_Aim = "Enter The Forge of Souls from the side of Icecrown Citadel and locate Lady Sylvanas Windrunner."
 Inst90Quest1_HORDE_Location = "Dark Ranger Vorel (Dalaran City - Roams outside North Bank)"
 Inst90Quest1_HORDE_Note = "Lady Sylvanas Windrunner is just inside the instance."
@@ -9613,7 +9950,7 @@ Inst90Quest1_HORDE_Folgequest = "Echoes of Tortured Souls"
 --Quest 2 Horde
 Inst90Quest2_HORDE = "2. Echoes of Tortured Souls"
 Inst90Quest2_HORDE_Level = "80"
-Inst90Quest2_HORDE_Attain = "80"
+Inst90Quest2_HORDE_Attain = "78"
 Inst90Quest2_HORDE_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
 Inst90Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
 Inst90Quest2_HORDE_Note = "Turn the quest in to Lady Sylvanas Windrunner before at "..YELLOW.."[2]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
@@ -9647,7 +9984,7 @@ Inst91QAH = "4 Quests"
 --Quest 1 Alliance
 Inst91Quest1 = "1. The Pit of Saron"
 Inst91Quest1_Level = "80"
-Inst91Quest1_Attain = "80"
+Inst91Quest1_Attain = "78"
 Inst91Quest1_Aim = "Meet Lady Jaina Proudmoore just inside the Pit of Saron."
 Inst91Quest1_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."[2]"..WHITE..")"
 Inst91Quest1_Note = "Lady Jaina Proudmoore is just inside the instance."
@@ -9659,7 +9996,7 @@ Inst91Quest1PreQuest = "true"
 --Quest 2 Alliance
 Inst91Quest2 = "2. The Path to the Citadel"
 Inst91Quest2_Level = "80"
-Inst91Quest2_Attain = "80"
+Inst91Quest2_Attain = "78"
 Inst91Quest2_Aim = "Free 15 Alliance Slaves and kill Forgemaster Garfrost."
 Inst91Quest2_Location = "Lady Jaina Proudmoore (Pit of Saron; "..GREEN.."[1']"..WHITE..")"
 Inst91Quest2_Note = "The slaves are all over the pit. The quest turns in to Martin Victus at "..YELLOW.."[1]"..WHITE.." after Forgemaster Garfrost is slain."
@@ -9671,7 +10008,7 @@ Inst91Quest2FQuest = "true"
 --Quest 3 Alliance
 Inst91Quest3 = "3. Deliverance from the Pit"
 Inst91Quest3_Level = "80"
-Inst91Quest3_Attain = "80"
+Inst91Quest3_Attain = "78"
 Inst91Quest3_Aim = "Kill Scourgelord Tyrannus."
 Inst91Quest3_Location = "Martin Victus (Pit of Saron; "..YELLOW.."[1]"..WHITE..")"
 Inst91Quest3_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection.\n\nRemember to turn the quest in to Lady Jaina Proudmoore before leaving."
@@ -9697,7 +10034,7 @@ Inst91Quest4PreQuest = "true"
 --Quest 1 Horde
 Inst91Quest1_HORDE = "1. The Pit of Saron"
 Inst91Quest1_HORDE_Level = "80"
-Inst91Quest1_HORDE_Attain = "80"
+Inst91Quest1_HORDE_Attain = "78"
 Inst91Quest1_HORDE_Aim = "Meet Lady Sylvanas Windrunner inside the entrace to the Pit of Saron."
 Inst91Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."[2]"..WHITE..")"
 Inst91Quest1_HORDE_Note = "Lady Sylvanas Windrunner is just inside the instance."
@@ -9709,7 +10046,7 @@ Inst91Quest1PreQuest_HORDE = "true"
 --Quest 2 Horde
 Inst91Quest2_HORDE = "2. The Path to the Citadel"
 Inst91Quest2_HORDE_Level = "80"
-Inst91Quest2_HORDE_Attain = "80"
+Inst91Quest2_HORDE_Attain = "78"
 Inst91Quest2_HORDE_Aim = "Free 15 Horde Slaves and kill Forgemaster Garfrost."
 Inst91Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..GREEN.."[1']"..WHITE..")"
 Inst91Quest2_HORDE_Note = "The slaves are all over the pit. The quest turns in to Gorkun Ironskull at "..YELLOW.."[1]"..WHITE.." after Forgemaster Garfrost is slain."
@@ -9721,7 +10058,7 @@ Inst91Quest2FQuest_HORDE = "true"
 --Quest 3 Horde
 Inst91Quest3_HORDE = "3. Deliverance from the Pit"
 Inst91Quest3_HORDE_Level = "80"
-Inst91Quest3_HORDE_Attain = "80"
+Inst91Quest3_HORDE_Attain = "78"
 Inst91Quest3_HORDE_Aim = "Kill Scourgelord Tyrannus."
 Inst91Quest3_HORDE_Location = "Gorkun Ironskull (Pit of Saron; "..YELLOW.."[1]"..WHITE..")"
 Inst91Quest3_HORDE_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection.\n\nRemember to turn the quest in to Lady Sylvanas Windrunner before leaving."
@@ -9755,7 +10092,7 @@ Inst92QAH = "3 Quests"
 --Quest 1 Alliance
 Inst92Quest1 = "1. Frostmourne"
 Inst92Quest1_Level = "80"
-Inst92Quest1_Attain = "80"
+Inst92Quest1_Attain = "78"
 Inst92Quest1_Aim = "Meet Lady Jaina Proudmoore at the entrance to the Halls of Reflection."
 Inst92Quest1_Location = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."[3]"..WHITE..")"
 Inst92Quest1_Note = "You get the quest from Lady Jaina Proudmoore at the end of Pit of Saron and then complete it by entering Halls of Reflection.  Be sure all party members have turned the quest in before proceeding. The followup will be given after the event is completed."
@@ -9793,7 +10130,7 @@ Inst92Quest3PreQuest = "true"
 --Quest 1 Horde
 Inst92Quest1_HORDE = "1. Frostmourne"
 Inst92Quest1_HORDE_Level = "80"
-Inst92Quest1_HORDE_Attain = "80"
+Inst92Quest1_HORDE_Attain = "78"
 Inst92Quest1_HORDE_Aim = "Meet Lady Sylvanas Windrunner inside the entrance to the Halls of Reflection."
 Inst92Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW.."[3]"..WHITE..")"
 Inst92Quest1_HORDE_Note = "You get the quest from Lady Sylvanas Windrunner at the end of Pit of Saron and then complete it by entering Halls of Reflection.  Be sure all party members have turned the quest in before proceeding. The followup will be given after the event is completed."
@@ -10406,7 +10743,7 @@ Inst97Quest1_Attain = "82"
 Inst97Quest1_Aim = "Speak to Earthwarden Yrsa inside the Stonecore"
 Inst97Quest1_Location = "Stormcaller Mylra (Deepholm; "..YELLOW.."64.5, 82.2"..WHITE..")"
 Inst97Quest1_Note = "Earthwarden Yrsa is just inside the entrance of the Stonecore instance. There is a prequest required, but it is unclear where it begins. This quest is optional however."
-Inst97Quest1_Prequest = "Yes"
+Inst97Quest1_Prequest = "On Second Thought, Take One Prisoner -> The Twilight Overlook"
 Inst97Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
@@ -10907,6 +11244,20 @@ Inst105Story = "Baradin Hold is the main fortress of Tol Barad, located at the i
 Inst105Caption = "Baradin Hold"
 Inst105QAA = "No Quests"
 Inst105QAH = "No Quests"
+
+
+
+--------------- INST108 - Zul'Gurub (ZG) ---------------
+
+Inst108Story = {
+  ["Page1"] = "Over a thousand years ago the powerful Gurubashi Empire was torn apart by a massive civil war. An influential group of troll priests, known as the Atal'ai, called forth the avatar of an ancient and terrible blood god named Hakkar the Soulflayer. Though the priests were defeated and ultimately exiled, the great troll empire collapsed upon itself. The exiled priests fled far to the north, into the Swamp of Sorrows, where they erected a great temple to Hakkar in order to prepare for his arrival into the physical world.",
+  ["Page2"] = "In time, the Atal'ai priests discovered that Hakkar's physical form could only be summoned within the ancient capital of the Gurubashi Empire, Zul'Gurub. Unfortunately, the priests have met with recent success in their quest to call forth Hakkar - reports confirm the presence of the dreaded Soulflayer in the heart of the Gurubashi ruins.\n\nIn order to quell the blood god, the trolls of the land banded together and sent a contingent of High Priests into the ancient city. Each priest was a powerful champion of the Primal Gods - Bat, Panther, Tiger, Spider, and Snake - but despite their best efforts, they fell under the sway of Hakkar. Now the champions and their Primal God aspects feed the awesome power of the Soulflayer. Any adventurers brave enough to venture into the foreboding ruins must overcome the High Priests if they are to have any hope of confronting the mighty blood god.",
+  ["MaxPages"] = "2",
+};
+Inst108Caption = "Zul'Gurub"
+Inst108QAA = "No Quests"
+Inst108QAH = "No Quests"
+
 
 
 
@@ -12057,3 +12408,4 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 105 = Baradin Hold
 -- 106 = Battle for Gilneas
 -- 107 = Twin Peaks
+-- 108 = Zul'Gurub (ZG)
