@@ -8067,7 +8067,7 @@ Inst72Quest1_HORDE_Folgequest = "Nein"
 --
 Inst72Quest1name1_HORDE = Inst72Quest1name1
 Inst72Quest1name2_HORDE = Inst72Quest1name2
-Inst72Quest1name3_HORDE = Inst72Quest1ame3
+Inst72Quest1name3_HORDE = Inst72Quest1name3
 Inst72Quest1name4_HORDE = Inst72Quest1name4
 
 --Quest 2 Horde
