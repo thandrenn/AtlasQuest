@@ -314,6 +314,9 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BaradinHold") then
 		AQINSTANZ = 105;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulGurub") then
+		AQINSTANZ = 108;
+
 
 
 
@@ -784,6 +787,7 @@ end
 -- 105 = Baradin Hold
 -- 106 = Battle for Gilneas
 -- 107 = Twin Peaks
+-- 108 = Zul'Gurub (ZG)
 
 
 

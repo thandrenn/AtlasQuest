@@ -5,7 +5,8 @@ Changelog
 Version 4.6.2 BETA (not released)
 
 - All classic dungeon quests should now be up to date for Cataclysm.
-- Localizations updated: deDE.
+- Updated attainment level for some Northrend quests.
+- Localizations updated: deDE, zhTW.
 
 - Classic Dungeons updated:
 	- Maraudon
