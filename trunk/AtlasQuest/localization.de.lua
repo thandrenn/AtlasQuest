@@ -3277,8 +3277,8 @@ Inst20Quest8name4_HORDE = Inst20Quest8name4
 
 Inst21Story = "Während des Dritten Krieges kämpften die Hexer der Kirin Tor gegen die untoten Armeen der Geißel. Mit jedem Hexer, der im Kampf fiel, stand kurze Zeit später bereits ein weiterer Untoter auf Seiten der Geißel seinen einstmaligen Mitstreitern als Feind gegenüber. Frustriert über den aussichtslosen Kampf beschloss der Erzmagier Arugal gegen den Willen seiner Kollegen, Wesen aus einer fremden Dimension zu Hilfe zu rufen um die schwindenden Reihen der Hexer zu stärken. Arugals Beschwörung brachte die gefräßigen Worgs nach Azeroth. Zwar machten die unaufhaltsamen Werwölfe kurzen Prozess mit allem, was die Geißel ihnen entgegenstellte, doch nach kurzer Zeit wandten sie sich auch gegen die Magier, denen sie eigentlich dienen sollten. So kam es, dass die Worgs die Burg des adligen Barons Silberlein jenseits des unscheinbaren Dörfchens Lohenscheit angriffen. Von Schuldgefühlen halb wahnsinnig adoptierte Arugal die Worgs als seine Kinder und zog sich in die inzwischen verfallene Burgruine zurück. Dort soll er immer noch hausen, unter dem immer wachsamen Auge seines gewaltigen Schoßhundes Fenrus, heimgesucht von dem rastlosen Geist von Baron Silberlein."
 Inst21Caption = "Burg Schattenfang"
-Inst21QAA = "5 Quests"
-Inst21QAH = "5 Quests"
+Inst21QAA = "16 Quests"
+Inst21QAH = "19 Quests"
 
 --Quest 1 Alliance
 Inst21Quest1 = "1. Erschnüffelt sie"
@@ -3334,16 +3334,163 @@ Inst21Quest4name4 = "Sandalen der Aufopferung"
 Inst21Quest4name4 = "Godfreys Kniehosen"
 
 --Quest 5 Alliance
-Inst21Quest5 = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest5_Level = "85"
-Inst21Quest5_Attain = "85"
-Inst21Quest5_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
-Inst21Quest5_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
-Inst21Quest5_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.6, 75.2"..WHITE..")."
-Inst21Quest5_Prequest = "Nein"
+Inst21Quest5 = "5. Die Zukunft des Zirkels (Druidenquest)"
+Inst21Quest5_Level = "20"
+Inst21Quest5_Attain = "20"
+Inst21Quest5_Aim = "Reist nach Burg Schattenfang und erhaltet Waldens Elixiere von Lord Walden, 5 Bündel mondbestrahltes Holz und 5 ewige Sehnen."
+Inst21Quest5_Location = "Loganaar (Mondlichtung - Nachthafen; "..YELLOW.."52.4, 40.6"..WHITE..")"
+Inst21Quest5_Note = "Waldens Elixiere droppt bei "..YELLOW.."[4]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Narianna (Mondlichtung - Nachthafen; "..YELLOW.."53.2, 42.6"..WHITE.."). Die Vorquest startet bei Celestine Erntedank (Sturmwind; "..YELLOW.."57.6, 24.8"..WHITE..")."
+Inst21Quest5_Prequest = "Ja, Eine Einladung aus Mondlichtung"
 Inst21Quest5_Folgequest = "Nein"
--- No Rewards for this quest
+Inst21Quest5PreQuest = "true"
+--
+Inst21Quest5name1 = "Stab des grünen Zirkels"
+Inst21Quest5name2 = "Stab des tiefgrünen Zirkels"
 
+--Quest 6 Alliance
+Inst21Quest6 = "6. Eine wohlverdiente Belohnung (Jägerquest)"
+Inst21Quest6_Level = "20"
+Inst21Quest6_Attain = "20"
+Inst21Quest6_Aim = "Reist nach Burg Schattenfang und erhaltet Godfreys Kristallzielfernrohr von Lord Godfrey, 5 Bündel mondbestrahltes Holz und 5 ewige Sehnen."
+Inst21Quest6_Location = "Wulf Hansreim (Sturmwind - Altstadt; "..YELLOW.."79.0, 71.0"..WHITE..")"
+Inst21Quest6_Note = "Godfreys Kristallzielfernrohr droppt bei "..YELLOW.."[5]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Frederick Ofner (Sturmwind - Handelsdiskrikt; "..YELLOW.."58.6, 69.0"..WHITE.."). Die Vorquest startet bei Vord (Exodar - Händlertreppe; "..YELLOW.."47.2, 88.4"..WHITE..")."
+Inst21Quest6_Prequest = "Ja, Wulf ruft"
+Inst21Quest6_Folgequest = "Nein"
+Inst21Quest6PreQuest = "true"
+--
+Inst21Quest6name1 = "Armbrust der Krone"
+
+--Quest 7 Alliance
+Inst21Quest7 = "7. Beherrschung des Arkanen (Magierquest)"
+Inst21Quest7_Level = "20"
+Inst21Quest7_Attain = "20"
+Inst21Quest7_Aim = "Reist nach Burg Schattenfang und erlangt Silberleins verzauberten Kristall von Baron Silberlein, 5 Bündel mondbestrahltes Holz und 5 geisterhafte Essenzen."
+Inst21Quest7_Location = "Maginor Dumas (Sturmwind - Magierviertel; "..YELLOW.."49.2, 87.6"..WHITE..")"
+Inst21Quest7_Note = "Silberleins verzauberter Kristall droppt bei "..YELLOW.."[2]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Lucan Cordell (Sturmwind - Magierviertel; "..YELLOW.."53.0, 74.2"..WHITE.."). Die Vorquest startet bei Tarelvir (Darnassus - Tempel des Mondes; "..YELLOW.."37.6, 80.0"..WHITE..")."
+Inst21Quest7_Prequest = "Ja, Reise zum Sanktum des Magiers"
+Inst21Quest7_Folgequest = "Nein"
+Inst21Quest7PreQuest = "true"
+--
+Inst21Quest7name1 = "Stab des königlichen Zauberers"
+
+--Quest 8 Alliance
+Inst21Quest8 = "8. Die Hand des Lichts (Paladinquest)"
+Inst21Quest8_Level = "20"
+Inst21Quest8_Attain = "20"
+Inst21Quest8_Aim = "Reist nach Burg Schattenfang und findet das heilige Symbol des Kommandanten von Kommandant Grüntal, 5 Kisten Mondstahlbarren und 5 ewige Sehnen."
+Inst21Quest8_Location = "Lord Grayson Schattenbruch (Sturmwind - Kathedralenplatz; "..YELLOW.."52.6, 45.0"..WHITE..")"
+Inst21Quest8_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Therum Tiefenschmied (Sturmwind - Zwergendiskrikt; "..YELLOW.."63.4, 37.2"..WHITE.."). Die Vorquest startet bei Rukua (Darnassus - Tempel des Mondes; "..YELLOW.."42.8, 77.6"..WHITE..")."
+Inst21Quest8_Prequest = "Ja, Lord Grayson Schattenbruch"
+Inst21Quest8_Folgequest = "Nein"
+Inst21Quest8PreQuest = "true"
+--
+Inst21Quest8name1 = "Streitkolben des Ordens"
+Inst21Quest8name2 = "Hammer des Ordens"
+Inst21Quest8name3 = "Kriegshammer des Ordens"
+
+--Quest 9 Alliance
+Inst21Quest9 = "9. Vom Licht begünstigt (Priesterquest - Mensch)"
+Inst21Quest9_Level = "20"
+Inst21Quest9_Attain = "20"
+Inst21Quest9_Aim = "Reist nach Burg Schattenfang und erhaltet das heilige Symbol des Kommandanten von Kommandant Grüntal, 5 Bündel mondbestrahltes Holz und 5 geisterhafte Essenzen."
+Inst21Quest9_Location = "Hohepriesterin Laurena (Sturmwind - Kathedralenplatz; "..YELLOW.."49.6, 44.8"..WHITE..")"
+Inst21Quest9_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[2]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Lucan Cordell (Sturmwind - Magierviertel; "..YELLOW.."53.0, 74.2"..WHITE.."). Die Vorquest startet bei Caedmos (Exodar - Halle des Lichts; "..YELLOW.."38.8, 51.0"..WHITE..")."
+Inst21Quest9_Prequest = "Ja, Eilt zur Kathedrale"
+Inst21Quest9_Folgequest = "Nein"
+Inst21Quest9PreQuest = "true"
+--
+Inst21Quest9name1 = "Stab der Geheiligten"
+
+--Quest 10 Alliance
+Inst21Quest10 = "10. Elunes Liebling (Priesterquest - Druide)"
+Inst21Quest10_Level = "20"
+Inst21Quest10_Attain = "20"
+Inst21Quest10_Aim = "Reist nach Burg Schattenfang und erhaltet das heilige Symbol des Kommandanten von Kommandant Grüntal, 5 Bündel mondbestrahltes Holz und 5 geisterhafte Essenzen."
+Inst21Quest10_Location = "Tyrande Wisperwind (Darnassus - Tempel des Mondes; "..YELLOW.."43.0, 77.8"..WHITE..")"
+Inst21Quest10_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[2]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Lucan Cordell (Sturmwind - Magierviertel; "..YELLOW.."53.0, 74.2"..WHITE.."). Die Vorquest startet bei Hohepriester Rohan (Eisenschmiede - Mystikerviertel; "..YELLOW.."24.8, 8.4"..WHITE..")."
+Inst21Quest10_Prequest = "Ja, Der Tempel des Mondes"
+Inst21Quest10_Folgequest = "Nein"
+Inst21Quest10PreQuest = "true"
+--
+Inst21Quest10name1 = "Mondstab von Elune"
+
+--Quest 11 Alliance
+Inst21Quest11 = "11. Vielversprechend für den Chirurgenberuf (Priesterquest - Gnom)"
+Inst21Quest11_Level = "20"
+Inst21Quest11_Attain = "20"
+Inst21Quest11_Aim = "Reist nach Burg Schattenfang und erhaltet das heilige Symbol des Kommandanten von Kommandant Grüntal, 5 Bündel mondbestrahltes Holz und 5 geisterhafte Essenzen."
+Inst21Quest11_Location = "Chefchirurg Schnittflick (Sturmwind - Zwergendistrikt; "..YELLOW.."63.0, 34.2"..WHITE..")"
+Inst21Quest11_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[2]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Lucan Cordell (Sturmwind - Magierviertel; "..YELLOW.."53.0, 74.2"..WHITE.."). Die Vorquest startet bei Hohepriester Rohan (Eisenschmiede - Mystikerviertel; "..YELLOW.."24.8, 8.4"..WHITE..")."
+Inst21Quest11_Prequest = "Ja, Die Chefchirurgin "
+Inst21Quest11_Folgequest = "Nein"
+Inst21Quest11PreQuest = "true"
+--
+Inst21Quest11name1 = "Stab des Technokraten"
+
+--Quest 12 Alliance
+Inst21Quest12 = "12. Eine königliche Belohnung (Schurkenquest)"
+Inst21Quest12_Level = "20"
+Inst21Quest12_Attain = "20"
+Inst21Quest12_Aim = "Reist zu Burg Schattenfang und erhaltet Grüntals Wetzstein von Kommandant Grüntal, 5 Kisten Mondstahlbarren und 5 ewige Sehnen."
+Inst21Quest12_Location = "Lord Tony Romano (Sturmwind - Altstadt; "..YELLOW.."79.6, 61.2"..WHITE..")"
+Inst21Quest12_Note = "Grüntals Wetzstein droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Therum Tiefenschmied (Sturmwind - Zwergenviertel; "..YELLOW.."63.4, 37.2"..WHITE.."). Die Vorquest startet bei Hulfdan Schwarzbart (Eisenschmiede - Düstere Viertel; "..YELLOW.."50.8, 15.2"..WHITE..")."
+Inst21Quest12_Prequest = "Ja, Nehmt zum SI:7 Kontakt auf"
+Inst21Quest12_Folgequest = "Nein"
+Inst21Quest12PreQuest = "true"
+--
+Inst21Quest12name1 = "Spezialdolch von SI:7"
+
+--Quest 13 Alliance
+Inst21Quest13 = "13. Segen der Elemente (Schamanenquest)"
+Inst21Quest13_Level = "20"
+Inst21Quest13_Attain = "20"
+Inst21Quest13_Aim = "Reist nach Burg Schattenfang und erhaltet den Waldens Talisman, das Buch der verlorenen Seelen und 5 geisterhafte Essenzen."
+Inst21Quest13_Location = "Scharfseherin Umbrua (Sturmwind - Tal der Helden; "..YELLOW.."67.4, 89.2"..WHITE..")"
+Inst21Quest13_Note = "Waldens Talisman droppt bei "..YELLOW.."[4]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Therum Tiefenschmied (Sturmwind - Zwergenviertel; "..YELLOW.."63.4, 37.2"..WHITE.."). Die Vorquest startet bei Scharfseher Javad (Eisenschmiede - Große Schmiede; "..YELLOW.."55.2, 29.0"..WHITE..")."
+Inst21Quest13_Prequest = "Ja, Eine Audienz bei der Weissagerin"
+Inst21Quest13_Folgequest = "Nein"
+Inst21Quest13PreQuest = "true"
+--
+Inst21Quest13name1 = "Kriegsaxt des Scharfsehers"
+Inst21Quest13name2 = "Zauberaxt des Scharfsehers"
+
+--Quest 14 Alliance
+Inst21Quest14 = "14. Ein Segen für die Mächtigen (Hexenmeisterquest)"
+Inst21Quest14_Level = "20"
+Inst21Quest14_Attain = "20"
+Inst21Quest14_Aim = "Reist nach Burg Schattenfang und erhaltet die Finstere Kugel von Lord Godfrey, das Buch der verlorenen Seelen und 5 geisterhafte Essenzen."
+Inst21Quest14_Location = "Demisette Cloyce (Sturmwind - Magierviertel; "..YELLOW.."39.4, 84.8"..WHITE..")"
+Inst21Quest14_Note = "Die Finstere Kugel droppt bei "..YELLOW.."[5]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Lucan Cordell (Sturmwind - Magierviertel; "..YELLOW.."53.0, 74.2"..WHITE.."). Die Vorquest startet bei Alexander Calder (Eisenschmiede - Düstere Viertel; "..YELLOW.."50.2, 7.4"..WHITE..")."
+Inst21Quest14_Prequest = "Ja, Demisette schickt Kunde"
+Inst21Quest14_Folgequest = "Nein"
+Inst21Quest14PreQuest = "true"
+--
+Inst21Quest14name1 = "Stab der gerechtfertigten Sünden"
+
+--Quest 15 Alliance
+Inst21Quest15 = "15. Eine passende Waffe (Kriegerquest)"
+Inst21Quest15_Level = "20"
+Inst21Quest15_Attain = "20"
+Inst21Quest15_Aim = "Reist zu Burg Schattenfang und erhaltet das Schwert der Familie Silberlein vom Baron, 5 Kisten Mondstahlbarren und 5 ewige Sehnen."
+Inst21Quest15_Location = "Ander Germaine (Sturmwind - Altstadt; "..YELLOW.."79.4, 69.0"..WHITE..")"
+Inst21Quest15_Note = "Das Schwert der Familie Silberlein droppt bei "..YELLOW.."[2]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Therum Tiefenschmied (Sturmwind - Zwergenviertel; "..YELLOW.."63.4, 37.2"..WHITE.."). Die Vorquest startet bei Behomat (Exodar - Händlertreppe; "..YELLOW.."55.4, 81.8"..WHITE..")."
+Inst21Quest15_Prequest = "Ja, Aufforderung von Ander Germaine"
+Inst21Quest15_Folgequest = "Nein"
+Inst21Quest15PreQuest = "true"
+--
+Inst21Quest15name1 = "Breitschwert der Krone"
+Inst21Quest15name1 = "Großschwert der Krone"
+
+--Quest 16 Alliance
+Inst21Quest16 = "16. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest16_Level = "85"
+Inst21Quest16_Attain = "85"
+Inst21Quest16_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
+Inst21Quest16_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest16_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.6, 75.2"..WHITE..")."
+Inst21Quest16_Prequest = "Nein"
+Inst21Quest16_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 1 Horde
 Inst21Quest1_HORDE = "1. Dies ist unser Land"
@@ -3399,14 +3546,203 @@ Inst21Quest2name2_HORDE = Inst21Quest4name4
 Inst21Quest2name2_HORDE = Inst21Quest4name5
 
 --Quest 5 Horde
-Inst21Quest5_HORDE = "5. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest5_HORDE_Level = "85"
-Inst21Quest5_HORDE_Attain = "85"
-Inst21Quest5_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
+Inst21Quest5_HORDE = Inst21Quest5
+Inst21Quest5_HORDE_Level = "20"
+Inst21Quest5_HORDE_Attain = "20"
+Inst21Quest5_HORDE_Aim = Inst21Quest5_Aim
 Inst21Quest5_HORDE_Location = Inst21Quest5_Location
-Inst21Quest5_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."51.0, 75.3"..WHITE..")."
-Inst21Quest5_HORDE_Prequest = "Nein"
+Inst21Quest5_HORDE_Note = "Waldens Elixiere droppt bei "..YELLOW.."[4]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Narianna (Mondlichtung - Nachthafen; "..YELLOW.."53.2, 42.6"..WHITE.."). Die Vorquest startet bei Sesebi (Orgrimmar - Tal der Geister; "..YELLOW.."35.0, 67.6"..WHITE..")."
+Inst21Quest5_HORDE_Prequest = "Ja, Eine Reise nach Mondlichtung"
 Inst21Quest5_HORDE_Folgequest = "Nein"
+Inst21Quest5PreQuest_HORDE = "true"
+--
+Inst21Quest5name1_HORDE = Inst21Quest5name1
+Inst21Quest5name2_HORDE = Inst21Quest5name2
+
+--Quest 6 Horde
+Inst21Quest6_HORDE = "6. Die Waffe eines Schützen (Jägerquest)"
+Inst21Quest6_HORDE_Level = "20"
+Inst21Quest6_HORDE_Attain = "20"
+Inst21Quest6_HORDE_Aim = Inst21Quest6_Aim
+Inst21Quest6_HORDE_Location = "Ormak Grimmschlag (Orgrimmar - Tal der Ehre; "..YELLOW.."63.8, 32.8"..WHITE..")"
+Inst21Quest6_HORDE_Note = "Godfreys Kristallzielfernrohr droppt bei "..YELLOW.."[5]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Saru Stahlzorn (Orgrimmar - Tal der Ehre; "..YELLOW.."76.2, 34.6"..WHITE.."). Die Vorquest startet bei Apolos (Unterstadt - Kriegsviertel; "..YELLOW.."49.6, 29.0"..WHITE..")."
+Inst21Quest6_HORDE_Prequest = "Ja, Ruf der Grimmschlag"
+Inst21Quest6_HORDE_Folgequest = "Nein"
+Inst21Quest6PreQuest_HORDE = "true"
+--
+Inst21Quest6name1_HORDE = Inst21Quest5name1
+
+--Quest 7 Horde
+Inst21Quest7_HORDE = Inst21Quest7
+Inst21Quest7_HORDE_Level = "20"
+Inst21Quest7_HORDE_Attain = "20"
+Inst21Quest7_HORDE_Aim = Inst21Quest7_Aim
+Inst21Quest7_HORDE_Location = "Ureda (Orgrimmar - Kluft der Schatten; "..YELLOW.."61.3, 72.5"..WHITE..")"
+Inst21Quest7_HORDE_Note = "Silberleins verzauberter Kristall droppt bei "..YELLOW.."[2]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Godan (Orgrimmar - Kluft der Schatten; "..YELLOW.."53.4, 49.4"..WHITE.."). Die Vorquest startet bei Inethven (Silbermond - Sonnenzornturm; "..YELLOW.."59.0, 19.6"..WHITE..")."
+Inst21Quest7_HORDE_Prequest = "Ja, Eine Audienz bei Ureda"
+Inst21Quest7_HORDE_Folgequest = "Nein"
+Inst21Quest7PreQuest_HORDE = "true"
+--
+Inst21Quest7name1_HORDE = "Stab des arkanen Pfades"
+
+--Quest 8 Horde
+Inst21Quest8_HORDE = "8. Ein echter Sonnenwandler (Tauren Paladinquest)"
+Inst21Quest8_HORDE_Level = "20"
+Inst21Quest8_HORDE_Attain = "20"
+Inst21Quest8_HORDE_Aim = Inst21Quest8_Aim
+Inst21Quest8_HORDE_Location = "Sonnenläufer Atohmo (Orgrimmar - Tal der Weisheit; "..YELLOW.."45.2, 53.4"..WHITE..")"
+Inst21Quest8_HORDE_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Saru Stahlzorn (Orgrimmar - Tal der Ehre; "..YELLOW.."76.2, 34.6"..WHITE.."). Die Vorquest startet bei Aponi Lichtmähne (Donnerfels - Anhöhe der Jäger; "..YELLOW.."63.2, 79.8"..WHITE..")."
+Inst21Quest8_HORDE_Prequest = "Ja, Der Sonne hinterher"
+Inst21Quest8_HORDE_Folgequest = "Nein"
+Inst21Quest8PreQuest_HORDE = "true"
+--
+Inst21Quest8name1_HORDE = "Streitkolben des Sonnenläufers"
+Inst21Quest8name2_HORDE = "Kriegshammer des Sonnenläufers"
+Inst21Quest8name3_HORDE = "Großschwert der Sonnenläufer"
+
+--Quest 9 Horde
+Inst21Quest9_HORDE = "9. Der Pfad der Adepten ( Blutelf Paladinquest)"
+Inst21Quest9_HORDE_Level = "20"
+Inst21Quest9_HORDE_Attain = "20"
+Inst21Quest9_HORDE_Aim = Inst21Quest8_Aim
+Inst21Quest9_HORDE_Location = "Meister Pyreanor (Orgrimmar - Tal der Stärke; "..YELLOW.."49.2, 71.2"..WHITE..")"
+Inst21Quest9_HORDE_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Saru Stahlzorn (Orgrimmar - Tal der Ehre; "..YELLOW.."76.2, 34.6"..WHITE.."). Die Vorquest startet bei Aponi Lichtmähne (Donnerfels - Anhöhe des Jägers; "..YELLOW.."63.2, 79.8"..WHITE..")."
+Inst21Quest9_HORDE_Prequest = "Ja, Sucht Meister Pyreanor auf"
+Inst21Quest9_HORDE_Folgequest = "Nein"
+Inst21Quest9PreQuest_HORDE = "true"
+--
+Inst21Quest9name1_HORDE = "Morgenstern des Ordens"
+Inst21Quest9name2_HORDE = "Kampfstreitkolben des Ordens"
+Inst21Quest9name3_HORDE = "Großstreitkolben des Ordens"
+
+--Quest 10 Horde
+Inst21Quest10_HORDE = "10. Der Stab eines Sehers (Goblin Priesterquest)"
+Inst21Quest10_HORDE_Level = "20"
+Inst21Quest10_HORDE_Attain = "20"
+Inst21Quest10_HORDE_Aim = Inst21Quest10_Aim
+Inst21Quest10_HORDE_Location = "Bruder Silberheil (Orgrimmar - Tal der Geister; "..YELLOW.."37.8, 87.4"..WHITE..")"
+Inst21Quest10_HORDE_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Godan (Orgrimmar - Kluft der Schatten; "..YELLOW.."53.4, 49.4"..WHITE.."). Die Vorquest startet bei ?? (Orgrimmar - ??; "..YELLOW.."??, ??"..WHITE..")."
+Inst21Quest10_HORDE_Prequest = "Ja, Sucht Bruder Silberheil"
+Inst21Quest10_HORDE_Folgequest = "Nein"
+Inst21Quest10PreQuest_HORDE = "true"
+--
+Inst21Quest10name1_HORDE = "Stab der goldenen Verehrung"
+
+--Quest 11 Horde
+Inst21Quest11_HORDE = "11. Die Aufgabe des Schattenläufers (Troll Priesterquest)"
+Inst21Quest11_HORDE_Level = "20"
+Inst21Quest11_HORDE_Attain = "20"
+Inst21Quest11_HORDE_Aim = Inst21Quest10_Aim
+Inst21Quest11_HORDE_Location = "Schattenwandler Zuru (Orgrimmar - Tal der Weisheit; "..YELLOW.."35.4, 69.2"..WHITE..")"
+Inst21Quest11_HORDE_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Godan (Orgrimmar - Kluft der Schatten; "..YELLOW.."53.4, 49.4"..WHITE.."). Die Vorquest startet bei Aldrae (Silbermond - Sonnenzornturm; "..YELLOW.."53.2, 26.6"..WHITE..")."
+Inst21Quest11_HORDE_Prequest = "Ja, Sucht den Schattenläufer auf"
+Inst21Quest11_HORDE_Folgequest = "Nein"
+Inst21Quest11PreQuest_HORDE = "true"
+--
+Inst21Quest11name1_HORDE = "Stab des Schattenwandlers"
+
+--Quest 12 Horde
+Inst21Quest12_HORDE = "12. Der Stab eines Sehers (Priesterquest)"
+Inst21Quest12_HORDE_Level = "20"
+Inst21Quest12_HORDE_Attain = "20"
+Inst21Quest12_HORDE_Aim = "Seherin Liwatha (Orgrimmar - Tal der Weisheit; "..YELLOW.."45.4, 53.4"..WHITE..")"
+Inst21Quest12_HORDE_Location = Inst21Quest5_Location
+Inst21Quest12_HORDE_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Godan (Orgrimmar - Kluft der Schatten; "..YELLOW.."53.4, 49.4"..WHITE.."). Die Vorquest startet bei Seher Beryl (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."75.4, 28.0"..WHITE..")."
+Inst21Quest12_HORDE_Prequest = "Ja, Der Ruf der Seherin"
+Inst21Quest12_HORDE_Folgequest = "Nein"
+Inst21Quest12PreQuest_HORDE = "true"
+--
+Inst21Quest12name1_HORDE = "Stab der Erdenmutter"
+
+--Quest 13 Horde
+Inst21Quest13_HORDE = "13. Stab des Lichts (Blutelf Priesterquest)"
+Inst21Quest13_HORDE_Level = "20"
+Inst21Quest13_HORDE_Attain = "20"
+Inst21Quest13_HORDE_Aim = Inst21Quest10_Aim
+Inst21Quest13_HORDE_Location = "Tyelis (Orgrimmar - Tal der Stärke; "..YELLOW.."49.0, 71.0"..WHITE..")"
+Inst21Quest13_HORDE_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Godan (Orgrimmar - Kluft der Schatten; "..YELLOW.."53.4, 49.4"..WHITE.."). Die Vorquest startet bei Seher Beryl (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."75.4, 28.0"..WHITE..")."
+Inst21Quest13_HORDE_Prequest = "Ja, Reise nach Orgrimmar"
+Inst21Quest13_HORDE_Folgequest = "Nein"
+Inst21Quest13PreQuest_HORDE = "true"
+--
+Inst21Quest13name1_HORDE = "Stab des Sonnenjägers"
+
+--Quest 14 Horde
+Inst21Quest14_HORDE = "14. Die Aufforderung des dunklen Klerikers (Untoter Priesterquest)"
+Inst21Quest14_HORDE_Level = "20"
+Inst21Quest14_HORDE_Attain = "20"
+Inst21Quest14_HORDE_Aim = Inst21Quest10_Aim
+Inst21Quest14_HORDE_Location = "Dunkle Klerikerin Cecille (Orgrimmar - Tal der Stärke; "..YELLOW.."48.2, 72.8"..WHITE..")"
+Inst21Quest14_HORDE_Note = "Das heilige Symbol des Kommandanten droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Godan (Orgrimmar - Kluft der Schatten; "..YELLOW.."53.4, 49.4"..WHITE.."). Die Vorquest startet bei Aldrae (Silbermond - Sonnenzornturm; "..YELLOW.."53.2, 26.6"..WHITE..")."
+Inst21Quest14_HORDE_Prequest = "Ja, Dunkle Klerikerin Cecille"
+Inst21Quest14_HORDE_Folgequest = "Nein"
+Inst21Quest14PreQuest_HORDE = "true"
+--
+Inst21Quest14name1_HORDE = "Stab des abgelegten Glaubens"
+
+--Quest 15 Horde
+Inst21Quest15_HORDE = "15. Klinge der Zerschmetterten Hand Schurkenquest)"
+Inst21Quest15_HORDE_Level = "20"
+Inst21Quest15_HORDE_Attain = "20"
+Inst21Quest15_HORDE_Aim = Inst21Quest12_Aim
+Inst21Quest15_HORDE_Location = "Gordul (Orgrimmar - Kluft der Schatten; "..YELLOW.."44.8, 61.3"..WHITE..")"
+Inst21Quest15_HORDE_Note = "Grüntals Wetzstein droppt bei "..YELLOW.."[3]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Saru Stahlzorn (Orgrimmar - Tal der Ehre; "..YELLOW.."76.2, 34.6"..WHITE.."). Die Vorquest startet bei  Zelanis (Silbermond - Mördergasse; "..YELLOW.."79.6, 52.0"..WHITE..")."
+Inst21Quest15_HORDE_Prequest = "Ja, Die Zerschmetterte Hand"
+Inst21Quest15_HORDE_Folgequest = "Nein"
+Inst21Quest15PreQuest_HORDE = "true"
+--
+Inst21Quest15name1_HORDE = "Klinge der Zerschmetterten Hand"
+
+--Quest 16 Horde
+Inst21Quest16_HORDE = "16. Die Aufgabe eines Traumsuchers (Schamanenquest)"
+Inst21Quest16_HORDE_Level = "20"
+Inst21Quest16_HORDE_Attain = "20"
+Inst21Quest16_HORDE_Aim = Inst21Quest13_Aim
+Inst21Quest16_HORDE_Location = "Kardris Traumsucher (Orgrimmar - Tal der Weisheit; "..YELLOW.."39.0, 47.4"..WHITE..")"
+Inst21Quest16_HORDE_Note = "Waldens Talisman droppt bei "..YELLOW.."[4]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Saru Stahlzorn (Orgrimmar - Tal der Ehre; "..YELLOW.."76.2, 34.6"..WHITE.."). Die Vorquest startet bei Beram Himmelsjäger (Donnerfels - Anhöhe der Geister; "..YELLOW.."22.2, 19.0"..WHITE..")."
+Inst21Quest16_HORDE_Prequest = "Ja, Der Traumsucher ruft"
+Inst21Quest16_HORDE_Folgequest = "Nein"
+Inst21Quest16PreQuest_HORDE = "true"
+--
+Inst21Quest16name1_HORDE = "Kriegsaxt des Redners"
+Inst21Quest16name2_HORDE = "Zauberaxt des Redners"
+
+--Quest 17 Horde
+Inst21Quest17_HORDE = "17. Zeichen der Macht (Hexenmeisterquest)"
+Inst21Quest17_HORDE_Level = "20"
+Inst21Quest17_HORDE_Attain = "20"
+Inst21Quest17_HORDE_Aim = Inst21Quest14_Aim
+Inst21Quest17_HORDE_Location = "Zevrost (Orgrimmar - Kluft der Schatten; "..YELLOW.."49.0, 55.3"..WHITE..")"
+Inst21Quest17_HORDE_Note = "Die Finstere Kugel droppt bei "..YELLOW.."[5]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Godan (Orgrimmar - Kluft der Schatten; "..YELLOW.."53.4, 49.4"..WHITE.."). Die Vorquest startet bei Zanien (Silbermond - Mördergasse; "..YELLOW.."73.2, 45.2"..WHITE..")."
+Inst21Quest17_HORDE_Prequest = "Ja, Zevrosts Befehl"
+Inst21Quest17_HORDE_Folgequest = "Nein"
+Inst21Quest17PreQuest_HORDE = "true"
+--
+Inst21Quest17name1_HORDE = "Stab des linken Pfades"
+
+--Quest 18 Horde
+Inst21Quest18_HORDE = Inst21Quest15
+Inst21Quest18_HORDE_Level = "20"
+Inst21Quest18_HORDE_Attain = "20"
+Inst21Quest18_HORDE_Aim = Inst21Quest15_Aim
+Inst21Quest18_HORDE_Location = "Grezz Zornfaust (Orgrimmar - Tal der Ehre; "..YELLOW.."73.6, 45.6"..WHITE..")"
+Inst21Quest18_HORDE_Note = "Das Schwert der Familie Silberlein droppt bei "..YELLOW.."[2]"..WHITE..". Die anderen Materialien können überall in der Instanz dropppen.\n\nKehre danach zurück zu Saru Stahlzorn (Orgrimmar - Tal der Ehre; "..YELLOW.."76.2, 34.6"..WHITE.."). Die Vorquest startet bei Alsudar die Bastion (Silbermond - Platz de Weltenwanderer; "..YELLOW.."81.6, 38.2"..WHITE..")."
+Inst21Quest18_HORDE_Prequest = "Ja, Grezz Zornfaust"
+Inst21Quest18_HORDE_Folgequest = "Nein"
+Inst21Quest18PreQuest_HORDE = "true"
+--
+Inst21Quest18name1_HORDE = "Breitaxt der Horde"
+Inst21Quest18name2_HORDE = "Großaxt der Horde"
+
+--Quest 19 Horde
+Inst21Quest19_HORDE = "19. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest19_HORDE_Level = "85"
+Inst21Quest19_HORDE_Attain = "85"
+Inst21Quest19_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
+Inst21Quest19_HORDE_Location = Inst21Quest5_Location
+Inst21Quest19_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."51.0, 75.3"..WHITE..")."
+Inst21Quest19_HORDE_Prequest = "Nein"
+Inst21Quest19_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -7844,7 +8180,7 @@ Inst70Quest1name3 = "Signet des schnellen Richturteils"
 --Quest 2 Alliance
 Inst70Quest2 = "2. Abrüstung"
 Inst70Quest2_Level = "71"
-Inst70Quest2_Attain = "70"
+Inst70Quest2_Attain = "68"
 Inst70Quest2_Aim = "Verteidiger Mordun möchte, dass Ihr Burg Utgarde betretet und 5 Waffen der Vrykul stehlt"
 Inst70Quest2_Location = "Verteidiger Mordun (Heulender Fjord - Valgarde; "..YELLOW.."59.3, 48.8"..WHITE..")"
 Inst70Quest2_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden. Die Vorquest bekommt man von Kundschafterin Valory (Heulender Fjord - Valgarde; "..YELLOW.."56.0, 55.8"..WHITE..") and is optional."
@@ -7875,7 +8211,7 @@ Inst70Quest1name4_HORDE = "Unterarmschienen des Vergeltungsbringers"
 --Quest 2 Horde
 Inst70Quest2_HORDE = "2. Ingvar muss sterben!"
 Inst70Quest2_HORDE_Level = "71"
-Inst70Quest2_HORDE_Attain = "70"
+Inst70Quest2_HORDE_Attain = "68"
 Inst70Quest2_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr Ingvar den Brandschatzer in Burg Utgarde tötet und seinen Kopf bei Hochexekutor Anselm im Hafen der Vergeltung abliefert."
 Inst70Quest2_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..YELLOW.."[??]"..WHITE..")"
 Inst70Quest2_HORDE_Note = "Dunkelläuferin Marrah befindet sich in der Instant, nähe des Eingangs.\n\nIngvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n\nDie Quest bringt Dich zurück zu Hochexekutor Anselm in (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")."
@@ -7889,7 +8225,7 @@ Inst70Quest2name3_HORDE = Inst70Quest1name3
 --Quest 3 Horde
 Inst70Quest3_HORDE = "3. Abrüstung"
 Inst70Quest3_HORDE_Level = "71"
-Inst70Quest3_HORDE_Attain = "70"
+Inst70Quest3_HORDE_Attain = "68"
 Inst70Quest3_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr 5 Waffen der Vrykul aus Burg Utgarde stehlt und sie zu Hochexekutor Anselm im Hafen der Vergeltung bringt."
 Inst70Quest3_HORDE_Location = "Dunkelläuferin Marrah (Heulender Fjord - ??; "..YELLOW.."??,??"..WHITE..")"
 Inst70Quest3_HORDE_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden.\n\nDie Quest bringt Dich zu Hochexekutor Anselm in (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")."
@@ -7994,7 +8330,7 @@ Inst72QAH = "4 Quests"
 --Quest 1 Alliance
 Inst72Quest1 = "1. Schämen sie sich denn nicht?"
 Inst72Quest1_Level = "71"
-Inst72Quest1_Attain = "70"
+Inst72Quest1_Attain = "68"
 Inst72Quest1_Aim = "Bibliothekarin Serrah möchte, dass Ihr den Nexus betretet und Berinands Forschungsergebnisse beschafft."
 Inst72Quest1_Location = "Bibliothekarin Serrah (Boreanische Tundra - Transitusschild; "..YELLOW.."33.4, 34.3"..WHITE..")"
 Inst72Quest1_Note = "Das Forschungsergebnissbuch liegt auf dem Boden in der Halle auf den Weg zum Großmagistrix Telestra bei "..YELLOW.."[1]"..WHITE.."."
@@ -8009,7 +8345,7 @@ Inst72Quest1name4 = "Tundraschulterstücke"
 --Quest 2 Alliance
 Inst72Quest2 = "2. Das Unvermeidliche hinauszögern"
 Inst72Quest2_Level = "71"
-Inst72Quest2_Attain = "70"
+Inst72Quest2_Attain = "69"
 Inst72Quest2_Aim = "Erzmagier Berinand im Transitusschild möchte, dass Ihr den interdimensionalen Refabrikator in der Nähe des Risses im Nexus benutzt."
 Inst72Quest2_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
 Inst72Quest2_Note = "Benutze den interdimensionalen Refabrikator am Ende der Plattform wo Anomaluson ist, bei "..YELLOW.."[3]"..WHITE.."."
@@ -8025,7 +8361,7 @@ Inst72Quest2name4 = "Stuplen des verwirrten Riesen"
 --Quest 3 Alliance
 Inst72Quest3 = "3. Kriegsgefangene"
 Inst72Quest3_Level = "71"
-Inst72Quest3_Attain = "70"
+Inst72Quest3_Attain = "69"
 Inst72Quest3_Aim = "Raelorasz im Transitusschild möchte, dass Ihr den Nexus betretet und Keristrasza befreit."
 Inst72Quest3_Location = "Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
 Inst72Quest3_Note = "Keristrasza ist bei "..YELLOW.."[4]"..WHITE.."."
@@ -8040,7 +8376,7 @@ Inst72Quest3name3 = "Tuch der flüssigen Angriffe"
 --Quest 4 Alliance
 Inst72Quest4 = "4. Beschleunigen"
 Inst72Quest4_Level = "71"
-Inst72Quest4_Attain = "70"
+Inst72Quest4_Attain = "69"
 Inst72Quest4_Aim = "Erzmagier Berinand im Transitusschild möchte, dass Ihr den Nexus betretet und 5 arkane Späne von den kristallinen Beschützern beschafft."
 Inst72Quest4_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
 Inst72Quest4_Note = "Arkane Späne droppen von den kristallinen Beschützern."
@@ -8058,7 +8394,7 @@ Inst72Quest4name5 = "Stiefel des unbeugsamen Beschützers"
 --Quest 1 Horde
 Inst72Quest1_HORDE = Inst72Quest1
 Inst72Quest1_HORDE_Level = "71"
-Inst72Quest1_HORDE_Attain = "70"
+Inst72Quest1_HORDE_Attain = "68"
 Inst72Quest1_HORDE_Aim = Inst72Quest1_Aim
 Inst72Quest1_HORDE_Location = Inst72Quest1_Location
 Inst72Quest1_HORDE_Note = Inst72Quest1_Note
@@ -8073,7 +8409,7 @@ Inst72Quest1name4_HORDE = Inst72Quest1name4
 --Quest 2 Horde
 Inst72Quest2_HORDE = Inst72Quest2
 Inst72Quest2_HORDE_Level = "71"
-Inst72Quest2_HORDE_Attain = "70"
+Inst72Quest2_HORDE_Attain = "69"
 Inst72Quest2_HORDE_Aim = Inst72Quest2_Aim
 Inst72Quest2_HORDE_Location = Inst72Quest2_Location
 Inst72Quest2_HORDE_Note = Inst72Quest2_Note
@@ -8089,7 +8425,7 @@ Inst72Quest2name4_HORDE = Inst72Quest2name4
 --Quest 3 Horde
 Inst72Quest3_HORDE = Inst72Quest3
 Inst72Quest3_HORDE_Level = "71"
-Inst72Quest3_HORDE_Attain = "70"
+Inst72Quest3_HORDE_Attain = "69"
 Inst72Quest3_HORDE_Aim = Inst72Quest3_Aim
 Inst72Quest3_HORDE_Location = Inst72Quest3_Location
 Inst72Quest3_HORDE_Note = Inst72Quest3_Note
@@ -8104,7 +8440,7 @@ Inst72Quest3name3_HORDE = Inst72Quest3name3
 --Quest 4 Horde
 Inst72Quest4_HORDE = Inst72Quest4
 Inst72Quest4_HORDE_Level = "71"
-Inst72Quest4_HORDE_Attain = "70"
+Inst72Quest4_HORDE_Attain = "69"
 Inst72Quest4_HORDE_Aim = Inst72Quest4_Aim
 Inst72Quest4_HORDE_Location = Inst72Quest4_Location
 Inst72Quest4_HORDE_Note = Inst72Quest4_Note
@@ -8564,7 +8900,7 @@ Inst78QAH = "2 Quests"
 --Quest 1 Alliance
 Inst78Quest1 = "1. Koste es, was es wolle!"
 Inst78Quest1_Level = "80"
-Inst78Quest1_Attain = "80"
+Inst78Quest1_Attain = "77"
 Inst78Quest1_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Loken besiegt. Danach sollt Ihr mit Lokens Zunge zu König Jokkum zurückkehren."
 Inst78Quest1_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
 Inst78Quest1_Note = "Loken ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
@@ -8580,7 +8916,7 @@ Inst78Quest1name4 = "Brustplatte des Zackensteins"
 --Quest 2 Alliance
 Inst78Quest2 = "2. Diametral entgegengesetzt"
 Inst78Quest2_Level = "80"
-Inst78Quest2_Attain = "80"
+Inst78Quest2_Attain = "77"
 Inst78Quest2_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Volkhan besiegt."
 Inst78Quest2_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
 Inst78Quest2_Note = "Volkhan ist bei "..YELLOW.."[2]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
@@ -8598,7 +8934,7 @@ Inst78Quest2name5 = "Mantelung von Volkhan"
 --Quest 1 Horde
 Inst78Quest1_HORDE = Inst78Quest1
 Inst78Quest1_HORDE_Level = "80"
-Inst78Quest1_HORDE_Attain = "80"
+Inst78Quest1_HORDE_Attain = "77"
 Inst78Quest1_HORDE_Aim = Inst78Quest1_Aim
 Inst78Quest1_HORDE_Location = Inst78Quest1_Location
 Inst78Quest1_HORDE_Note = Inst78Quest1_Note
@@ -8614,7 +8950,7 @@ Inst78Quest1name4_HORDE = Inst78Quest1name4
 --Quest 2 Horde
 Inst78Quest2_HORDE = Inst78Quest2
 Inst78Quest2_HORDE_Level = "80"
-Inst78Quest2_HORDE_Attain = "80"
+Inst78Quest2_HORDE_Attain = "77"
 Inst78Quest2_HORDE_Aim = Inst78Quest2_Aim
 Inst78Quest2_HORDE_Location = Inst78Quest2_Location
 Inst78Quest2_HORDE_Note = Inst78Quest2_Note
@@ -8696,7 +9032,7 @@ Inst80Quest1name4 = "Schultern des Verführers"
 --Quest 2 Alliance
 Inst80Quest2 = "2. Rettungsaktion"
 Inst80Quest2_Level = "74"
-Inst80Quest2_Attain = "73"
+Inst80Quest2_Attain = "72"
 Inst80Quest2_Aim = "Mack beim Granitquell möchte, dass Ihr nach Drak'Tharon geht und herausfindet, was mit Kurzel passiert ist."
 Inst80Quest2_Location = "Mack Fearsen (Grizzly Hügel - Granitquell; "..YELLOW.."16.6, 48.1"..WHITE..")"
 Inst80Quest2_Note = "Kurzel ist in einem der eingesponnenen Kokons bei "..GREEN.."[1']"..WHITE..". Bekämpfe die eingesponnenen Kokons und Du wirst sie finden."
@@ -8711,7 +9047,7 @@ Inst80Quest2name3 = "Kurzels Kriegsband"
 --Quest 3 Alliance
 Inst80Quest3 = "3. Psychospielchen"
 Inst80Quest3_Level = "74"
-Inst80Quest3_Attain = "73"
+Inst80Quest3_Attain = "72"
 Inst80Quest3_Aim = "Kurzel möchte, dass Ihr den Fetzen von Kurzels Bluse auf die Reste von Novos dem Beschwörer in der Feste Drak'Tharon anwendet und anschließend den sekretbefleckten Stoff zu Mack bringt."
 Inst80Quest3_Location = "Kurzel (Feste Drak'Tharon; "..GREEN.."[1']"..WHITE..")"
 Inst80Quest3_Note = "Novos der Beschwörer ist bei "..YELLOW.."[2]"..WHITE..". Mack Fearsen ist bei (Grizzly Hügel - Granitquell; "..YELLOW.."16.6, 48.1"..WHITE..")"
@@ -8744,7 +9080,7 @@ Inst80Quest1name4_HORDE = Inst80Quest1name4
 --Quest 2 Horde
 Inst80Quest2_HORDE = Inst80Quest2
 Inst80Quest2_HORDE_Level = "74"
-Inst80Quest2_HORDE_Attain = "73"
+Inst80Quest2_HORDE_Attain = "72"
 Inst80Quest2_HORDE_Aim = Inst80Quest2_Aim
 Inst80Quest2_HORDE_Location = Inst80Quest2_Location
 Inst80Quest2_HORDE_Note = Inst80Quest2_Note
@@ -8759,7 +9095,7 @@ Inst80Quest2name3_HORDE = Inst80Quest2name3
 --Quest 3 Horde
 Inst80Quest3_HORDE = Inst80Quest3
 Inst80Quest3_HORDE_Level = "74"
-Inst80Quest3_HORDE_Attain = "73"
+Inst80Quest3_HORDE_Attain = "72"
 Inst80Quest3_HORDE_Aim = Inst80Quest3_Aim
 Inst80Quest3_HORDE_Location = Inst80Quest3_Location
 Inst80Quest3_HORDE_Note = Inst80Quest3_Note
@@ -8784,7 +9120,7 @@ Inst81QAH = "3 Quests"
 --Quest 1 Alliance
 Inst81Quest1 = "1. Für die Nachwelt"
 Inst81Quest1_Level = "78"
-Inst81Quest1_Attain = "76"
+Inst81Quest1_Attain = "74"
 Inst81Quest1_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und 6 Geschichtstafeln der Drakkari sammelt."
 Inst81Quest1_Location = "Chronistin Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
 Inst81Quest1_Note = "Die Geschichtstafeln sind überall in der Instant verteilt. Es sind genug vorhanden um damit eine komplette Gruppe diese Quest beenden kann. Die Vorquest ist optional."
@@ -8800,7 +9136,7 @@ Inst81Quest1name4 = "Voodoosiegel"
 --Quest 2 Alliance
 Inst81Quest2 = "2. Gal'darah muss bezahlen"
 Inst81Quest2_Level = "78"
-Inst81Quest2_Attain = "76"
+Inst81Quest2_Attain = "74"
 Inst81Quest2_Aim = "Tol'mar in Dubra'Jin möchte, dass Ihr Gal'darah in Gundrak erschlagt."
 Inst81Quest2_Location = "Tol'mar (Zul'Drak - Dubra'Jin; "..YELLOW.."69.9, 22.8"..WHITE..")"
 Inst81Quest2_Note = "Gal'darah ist bei "..YELLOW.."[5]"..WHITE.."."
@@ -8816,7 +9152,7 @@ Inst81Quest2name4 = "Schnalle des gefallenen Halbgotts"
 --Quest 3 Alliance
 Inst81Quest3 = "3. Einzelstück"
 Inst81Quest3_Level = "78"
-Inst81Quest3_Attain = "76"
+Inst81Quest3_Attain = "74"
 Inst81Quest3_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und ein Fragment des Kolosses der Drakkari beschafft."
 Inst81Quest3_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
 Inst81Quest3_Note = "Fragment des Kolosses der Drakkari droppt von den Drakkari Kolossen bei "..YELLOW.."[2]"..WHITE.."."
@@ -8833,7 +9169,7 @@ Inst81Quest3name5 = "Trollkicker"
 --Quest 1 Horde
 Inst81Quest1_HORDE = Inst81Quest1
 Inst81Quest1_HORDE_Level = "78"
-Inst81Quest1_HORDE_Attain = "76"
+Inst81Quest1_HORDE_Attain = "74"
 Inst81Quest1_HORDE_Aim = Inst81Quest1_Aim
 Inst81Quest1_HORDE_Location = Inst81Quest1_Location
 Inst81Quest1_HORDE_Note = Inst81Quest1_Note
@@ -8849,7 +9185,7 @@ Inst81Quest1name4_HORDE = "Voodoosiegel"
 --Quest 2 Horde
 Inst81Quest2_HORDE = Inst81Quest2
 Inst81Quest2_HORDE_Level = "78"
-Inst81Quest2_HORDE_Attain = "76"
+Inst81Quest2_HORDE_Attain = "74"
 Inst81Quest2_HORDE_Aim = Inst81Quest2_Aim
 Inst81Quest2_HORDE_Location = Inst81Quest2_Location
 Inst81Quest2_HORDE_Note = Inst81Quest2_Note
@@ -8865,7 +9201,7 @@ Inst81Quest2name4_HORDE = Inst81Quest2name4
 --Quest 3 Horde
 Inst81Quest3_HORDE = Inst81Quest3
 Inst81Quest3_HORDE_Level = "78"
-Inst81Quest3_HORDE_Attain = "76"
+Inst81Quest3_HORDE_Attain = "74"
 Inst81Quest3_HORDE_Aim = Inst81Quest3_Aim
 Inst81Quest3_HORDE_Location = Inst81Quest3_Location
 Inst81Quest3_HORDE_Note = Inst81Quest3_Note
@@ -9684,7 +10020,7 @@ Inst90QAH = "3 Quests"
 --Quest 1 Alliance
 Inst90Quest1 = "1. In der eisigen Zitadelle"
 Inst90Quest1_Level = "80"
-Inst90Quest1_Attain = "80"
+Inst90Quest1_Attain = "78"
 Inst90Quest1_Aim = "Betretet die Seelenschmiede von der Seite der Eiskronenzitadelle und findet Lady Jaina Prachtmeer."
 Inst90Quest1_Location = "Lehrling Nelphi (Dalaran Stadt - Wandert vor der südlichen Bank)"
 Inst90Quest1_Note = "Lady Jaina Prachtmeer ist innerhalb der Instanz."
@@ -9696,7 +10032,7 @@ Inst90Quest1FQuest = "true"
 --Quest 2 Alliance
 Inst90Quest2 = "2. Echos gequälter Seelen"
 Inst90Quest2_Level = "80"
-Inst90Quest2_Attain = "80"
+Inst90Quest2_Attain = "78"
 Inst90Quest2_Aim = "Tötet Bronjahm und den Verschlinger der Seelen, um den Zugang zur Grube von Saron zu sichern."
 Inst90Quest2_Location = "Lady Jaina Prachtmeer (Die Seelenschmiede; "..YELLOW.."Eingang"..WHITE..")"
 Inst90Quest2_Note = "Gebe die Quest bei Lady Jaina Prachtmeer ab, bei "..YELLOW.."[2]"..WHITE.." bevor du die Instanz verläßt.\n\nSchließe die Quest erfolgreich ab um in die Grube von Saron zu gelangen."
@@ -9722,7 +10058,7 @@ Inst90Quest3FQuest = "true"
 --Quest 1 Horde
 Inst90Quest1_HORDE = Inst90Quest1
 Inst90Quest1_HORDE_Level = "80"
-Inst90Quest1_HORDE_Attain = "80"
+Inst90Quest1_HORDE_Attain = "78"
 Inst90Quest1_HORDE_Aim = "Betretet die Seelenschmiede von der Seite der Eiskronenzitadelle und findet Fürstin Sylvanas Windläufer."
 Inst90Quest1_HORDE_Location = "Dunkelläuferin Vorel (Dalaran Stadt - Wandert vor der nördlichen Bank)"
 Inst90Quest1_HORDE_Note = "Fürstin Sylvanas Windläufer ist innerhalb der Instanz."
@@ -9734,7 +10070,7 @@ Inst90Quest1FQuest_HORDE = "true"
 --Quest 2 Horde
 Inst90Quest2_HORDE = Inst90Quest2
 Inst90Quest2_HORDE_Level = "80"
-Inst90Quest2_HORDE_Attain = "80"
+Inst90Quest2_HORDE_Attain = "78"
 Inst90Quest2_HORDE_Aim = Inst90Quest2_Aim
 Inst90Quest2_HORDE_Location = "Fürstin Sylvanas Windläufer (Die Seelenschmiede; "..YELLOW.."Eingang"..WHITE..")"
 Inst90Quest2_HORDE_Note = "Gebe die Quest bei Fürstin Sylvanas Windläufer ab, bei "..YELLOW.."[2]"..WHITE.." bevor du die Instanz verläßt.\n\nSchließe die Quest erfolgreich ab um in die Grube von Saron zu gelangen."
@@ -9767,7 +10103,7 @@ Inst91QAH = "4 Quests"
 --Quest 1 Alliance
 Inst91Quest1 = "1. Die Grube von Saron"
 Inst91Quest1_Level = "80"
-Inst91Quest1_Attain = "80"
+Inst91Quest1_Attain = "78"
 Inst91Quest1_Aim = "Trefft Lady Jaina Prachtmeer am Eingang zur Grube von Saron."
 Inst91Quest1_Location = "Lady Jaina Prachtmeer (Die Seelenschmiede; "..YELLOW.."[2]"..WHITE..")"
 Inst91Quest1_Note = "Lady Jaina Prachtmeer ist innerhalb der Instanz."
@@ -9779,7 +10115,7 @@ Inst91Quest1FQuest = "true"
 --Quest 2 Alliance
 Inst91Quest2 = "2. Der Pfad zur Zitadelle"
 Inst91Quest2_Level = "80"
-Inst91Quest2_Attain = "80"
+Inst91Quest2_Attain = "78"
 Inst91Quest2_Aim = "Befreit 15 Allianzsklaven und tötet Schmiedemeister Garfrost."
 Inst91Quest2_Location = "Lady Jaina Prachtmeer (Grube von Saron; "..GREEN.."[1']"..WHITE..")"
 Inst91Quest2_Note = "Die Sklaven findest Du überall in der Grube. Die Quest führt dich zu Gorkun Eisenschädel bei "..YELLOW.."[1]"..WHITE.." nachdem Schmiedemeister Garfrost erledgt worden ist."
@@ -9791,7 +10127,7 @@ Inst91Quest2FQuest = "true"
 --Quest 3 Alliance
 Inst91Quest3 = "3. Befreiung aus der Grube"
 Inst91Quest3_Level = "80"
-Inst91Quest3_Attain = "80"
+Inst91Quest3_Attain = "78"
 Inst91Quest3_Aim = "Tötet Geiselfürst Tyrannus."
 Inst91Quest3_Location = "Lady Jaina Prchtmeer (Grube von Saron; "..YELLOW.."[1]"..WHITE..")"
 Inst91Quest3_Note = "Geiselfürst Tyrannus ist am Ende der Instanz. Beende die Quests erfolgreich um in die Hallen der Reflexion zu gelangen."
@@ -9817,7 +10153,7 @@ Inst91Quest4FQuest = "true"
 --Quest 1 Horde
 Inst91Quest1_HORDE = Inst91Quest1
 Inst91Quest1_HORDE_Level = "80"
-Inst91Quest1_HORDE_Attain = "80"
+Inst91Quest1_HORDE_Attain = "78"
 Inst91Quest1_HORDE_Aim = "Trefft Fürstin Sylvanas Windläufer am Eingang zur Grube von Saron."
 Inst91Quest1_HORDE_Location = "Fürstin Sylvanas Windläufer (Die Seelenschmiede; "..YELLOW.."[2]"..WHITE..")"
 Inst91Quest1_HORDE_Note = "Fürstin Sylvanas Windläufer ist innerhalb der Instanz."
@@ -9829,7 +10165,7 @@ Inst91Quest1FQuest_HORDE = "true"
 --Quest 2 Horde
 Inst91Quest2_HORDE = Inst91Quest2
 Inst91Quest2_HORDE_Level = "80"
-Inst91Quest2_HORDE_Attain = "80"
+Inst91Quest2_HORDE_Attain = "78"
 Inst91Quest2_HORDE_Aim = "Befreit 15 Hordensklaven und tötet Schmiedemeister Garfrost."
 Inst91Quest2_HORDE_Location = "Fürstin Sylvanas Windläufer (Grube von Saron; "..GREEN.."[1']"..WHITE..")"
 Inst91Quest2_HORDE_Note = "Die Sklaven findest Du überall in der Grube. Die Quest führt dich zu Martin Victus bei "..YELLOW.."[1]"..WHITE.." nachdem Schmiedemeister Garfrost erledgt worden ist."
@@ -9841,7 +10177,7 @@ Inst91Quest2FQuest_HORDE = "true"
 --Quest 3 Horde
 Inst91Quest3_HORDE = Inst91Quest3
 Inst91Quest3_HORDE_Level = "80"
-Inst91Quest3_HORDE_Attain = "80"
+Inst91Quest3_HORDE_Attain = "78"
 Inst91Quest3_HORDE_Aim = "Tötet Geiselfürst Tyrannus."
 Inst91Quest3_HORDE_Location = "Fürstin Sylvanas Windrunner (Grube von Saron; "..YELLOW.."[1]"..WHITE..")"
 Inst91Quest3_HORDE_Note = "Geiselfürst Tyrannus ist am Ende der Instanz. Beende die Quests erfolgreich um in die Hallen der Reflexion zu gelangen."
@@ -9874,7 +10210,7 @@ Inst92QAH = "3 Quests"
 --Quest 1 Alliance
 Inst92Quest1 = "1. Frostgram"
 Inst92Quest1_Level = "80"
-Inst92Quest1_Attain = "80"
+Inst92Quest1_Attain = "78"
 Inst92Quest1_Aim = "Trefft Lady Jaina Prachtmeer am Eingang zu den Hallen der Reflexion."
 Inst92Quest1_Location = "Lady Jaina Prachtmeer (Grube von Saron; "..YELLOW.."[3]"..WHITE..")"
 Inst92Quest1_Note = "Diese Quest bekommst Du am Ende der Instant von der Grube von Saron und gibst sie gleich am Eingang der Instanz bei Lady Jaina Prachtmeer ab.Die Folgequest bekommst Du nachdem das Event beendet ist bei Lady Jaina Prachtmeer."
@@ -9912,7 +10248,7 @@ Inst92Quest3FQuest = "true"
 --Quest 1 Horde
 Inst92Quest1_HORDE = "1. Frostgram"
 Inst92Quest1_HORDE_Level = "80"
-Inst92Quest1_HORDE_Attain = "80"
+Inst92Quest1_HORDE_Attain = "78"
 Inst92Quest1_HORDE_Aim = "Trefft Fürstin Sylvanas Windläufer am Eingang zu den Hallen der Reflexion."
 Inst92Quest1_HORDE_Location = "Fürstin Sylvanas Windläufer (Grube von Saron; "..YELLOW.."[3]"..WHITE..")"
 Inst92Quest1_HORDE_Note = "Diese Quest bekommst Du am Ende der Instant von der Grube von Saron und gibst sie gleich am Eingang der Instanz bei Fürstin Sylvanas Windläufer ab.Die Folgequest bekommst Du nachdem das Event beendet ist bei Lady Sylvanas Windläufer."
@@ -11018,7 +11354,7 @@ Inst102QAH = "No Quests"
 --------------- INST103 - The Bastion of Twilight ---------------
 
 Inst103Story = ""
-Inst103Caption = "The Bastion of Twilight"
+Inst103Caption = "Die Bastion des Zwielichts"
 Inst103QAA = "No Quests"
 Inst103QAH = "No Quests"
 
@@ -11042,6 +11378,22 @@ Inst105QAH = "No Quests"
 
 
 
+--------------- INST108 - Zul'Gurub (ZG) ---------------
+
+Inst108Story = {
+["Page1"] = "Vor mehr als tausend Jahren wurde das mächtige Reich der Gurubashi von einem gewaltigen Bürgerkrieg in Stücke gerissen. Eine einflussreiche Gruppe trollischer Priester, die als die Atal'ai bekannt waren, beschworen damals den Avatar des uralten und fürchterlichen Blutgottes, Hakkar, der Seelenschinder. Obwohl die Priester besiegt und ins Exil geschickt wurden, brach das ehemals glorreiche Reich der Trolle zusammen. Die Reise ins Exil führte die verbannten Priester weit nach Norden, bis in die Sümpfe des Elends, wo sie ihrem Gott Hakkar einen Tempel errichteten, um seine Rückkehr in die Welt der Sterblichen vorzubereiten.",
+["Page2"] = "Im Lauf der Zeit erkannten die Atal'ai, dass Hakkars physische Gestalt nur in Zul'Gurub, der uralten Tempelstadt, der Hauptstadt des Reichs der Gurubashi, beschworen werden konnte. Erschreckenderweise hatten die Priester vor Kurzem einen Durchbruch bei ihren Bemühungen, Hakkar herbeizurufen - Berichten zufolge thront der Seelenschinder erneut über den lang verlorenen Ruinen der Gurubaschi.",
+["Page3"] = "Um den Blutgott zu stoppen, haben sich die Trolle des Landes zusammengeschlossen und eine Gruppe trollischer Hohepriester in die uralte Stadt entsandt, jeder Priester ein mächtiger Diener der ursprünglichen Götter - Fledermaus, Panther, Tiger, Spinne und Schlange. Doch trotz ihrer Mühen wurden auch die Hohepriester von Hakkar verführt. Nun nähren die Hohepriester und die Aspekte ihrer ursprünglichen Götter die ohnehin schon überwältigende Kraft des Seelenschinders. Abenteurer, die mutig genug sind, sich in die unheilsvollen Ruinen vorzuwagen, muss sich zuerst den Hohepriestern stellen, wenn sie auch nur die geringste Chance gegen den mächtigen Blutgott selbst haben wollen.",
+["MaxPages"] = "3",
+}
+Inst108Caption = "Zul'Gurub"
+Inst108QAA = "No Quests"
+Inst108QAH = "No Quests"
+
+
+
+
+
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
@@ -11051,7 +11403,7 @@ Inst105QAH = "No Quests"
 
 --------------- INST33 - Alterac Valley (AV) ---------------
 
-Inst33Story = "Vor langer Zeit schickte der Hexenmeister Guldan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Guldans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen Drek'Thar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Sturmlanzen-Expedition gestört.\nDie Sturmlanzen haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen. "
+Inst33Story = "Vor langer Zeit schickte der Hexenmeister Guldan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Guldans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen Drek'Thar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Sturmlanzen-Expedition gestört.\nDie Sturmlanzen haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen."
 Inst33Caption = "Alteractal"
 Inst33QAA = "1 Quest"
 Inst33QAH = "1 Quest"
@@ -11810,3 +12162,4 @@ end
 -- 105 = Baradin Hold
 -- 106 = Battle for Gilneas
 -- 107 = Twin Peaks
+-- 108 = Zul'Gurub (ZG)
