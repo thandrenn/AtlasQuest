@@ -3486,7 +3486,7 @@ Inst21Quest16 = "16. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
 Inst21Quest16_Level = "85"
 Inst21Quest16_Attain = "85"
 Inst21Quest16_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
-Inst21Quest16_Location = "Droppt vom Apotheker Hummel in Burg Schattenfang und nur einmal pro Charakter."
+Inst21Quest16_Location = "Droppt vom Apotheker Hummel (Burg Schattenfang; "..ORANGE.."[1]"..WHITE..")"
 Inst21Quest16_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.6, 75.2"..WHITE..")."
 Inst21Quest16_Prequest = "Nein"
 Inst21Quest16_Folgequest = "Nein"
@@ -3570,7 +3570,7 @@ Inst21Quest6_HORDE_Prequest = "Ja, Ruf der Grimmschlag"
 Inst21Quest6_HORDE_Folgequest = "Nein"
 Inst21Quest6PreQuest_HORDE = "true"
 --
-Inst21Quest6name1_HORDE = Inst21Quest5name1
+Inst21Quest6name1_HORDE = "Bogen des großen Jägers"
 
 --Quest 7 Horde
 Inst21Quest7_HORDE = Inst21Quest7
@@ -3735,11 +3735,11 @@ Inst21Quest18name1_HORDE = "Breitaxt der Horde"
 Inst21Quest18name2_HORDE = "Großaxt der Horde"
 
 --Quest 19 Horde
-Inst21Quest19_HORDE = "19. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
+Inst21Quest19_HORDE = Inst21Quest16
 Inst21Quest19_HORDE_Level = "85"
 Inst21Quest19_HORDE_Attain = "85"
 Inst21Quest19_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
-Inst21Quest19_HORDE_Location = Inst21Quest5_Location
+Inst21Quest19_HORDE_Location = Inst21Quest16_Location
 Inst21Quest19_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."51.0, 75.3"..WHITE..")."
 Inst21Quest19_HORDE_Prequest = "Nein"
 Inst21Quest19_HORDE_Folgequest = "Nein"
