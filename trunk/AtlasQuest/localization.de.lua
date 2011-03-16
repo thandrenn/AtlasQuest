@@ -86,7 +86,7 @@ AQOptionsCompareTooltipTEXT = ""..WHITE.."Die Belohnungen mit den derzeit angele
 
 -- Quest Query text
 AQQuestQueryButtonTEXT = ""..WHITE.."Quest Abfrage"
-AQQuestQueryTEXT = ""..WHITE.."Abfrage des Servers von abgeschlossenen Questen."
+AQQuestQueryTEXT = ""..WHITE.."Abfrage des Servers von abgeschlossenen Quests."
 AQQuestQueryStart = "AtlasQuest fragt den Server ab nach abgeschlossenen Questen. Dies wird einige Minuten dauern."
 AQQuestQueryDone = "AtlasQuest hat die Anfrage des Servers beendet. Abgeschlossene Questen sind nun markiert." 
 
@@ -94,9 +94,9 @@ AQQuestQueryDone = "AtlasQuest hat die Anfrage des Servers beendet. Abgeschlosse
 AQAbilities = BLUE .. "Fähigkeiten:" .. WHITE;
 AQSERVERASKInformation = " Bitte rechtsklicken bis der Gegenstand angezeigt wird."
 AQSERVERASKAuto = " Versuche den Mauszeiger in einer Sekunde über den Gegenstand zu bewegen."
-AQSERVERASK = "AtlasQuest frägt den Server nach folgendem Gegenstand ab: "
+AQSERVERASK = "AtlasQuest fragt den Server nach folgendem Gegenstand ab: "
 AQERRORNOTSHOWN = "Dieser Gegenstand ist nicht sicher!"
-AQERRORASKSERVER = "Klicke rechts um den Server nach \ndiesem Gegenstand abzufragen. Es kann passieren, dass die Verbindung unterbrochen wird."
+AQERRORASKSERVER = "Klicke rechts um den Server nach diesem Gegenstand abzufragen. Es kann passieren, dass die Verbindung unterbrochen wird."
 AQOptionB = "Optionen"
 AQStoryB = "Geschichte"
 AQNoReward = ""..BLUE.." Keine Belohnung"
@@ -364,7 +364,7 @@ Inst2Quest3_Folgequest = "Nein"
 Inst2Quest3name1 = "Gereinigte Schulterstücke"
 Inst2Quest3name2 = "Serpentis' Handschuhe"
 Inst2Quest3name3 = "Cobrahns Stiefel"
-Inst2Quest3name4 = "Pythas' Weste*"
+Inst2Quest3name4 = "Pythas Weste"
 Inst2Quest3name5 = "Anacondras Robe"
 
 
@@ -404,7 +404,7 @@ Inst2Quest3_HORDE_Folgequest = "Nein"
 Inst2Quest3name1_HORDE = Inst2Quest3name1
 Inst2Quest3name2_HORDE = Inst2Quest3name2
 Inst2Quest3name3_HORDE = Inst2Quest3name3
-Inst2Quest3name4_HORDE = Inst2Quest3name4
+Inst2Quest3name4_HORDE = "Pythas Weste"
 Inst2Quest3name5_HORDE = Inst2Quest3name5
 
 
@@ -1197,8 +1197,8 @@ Inst6Caption = "Der Pechschwingenhort"
 Inst6Caption2 = "Der Pechschwingenhort (Geschichte Teil 1)"
 Inst6Caption3 = "Der Pechschwingenhort (Geschichte Teil 2)"
 
-Inst6QAA = "1 Quests"
-Inst6QAH = "1 Quests"
+Inst6QAA = "1 Quest"
+Inst6QAH = "1 Quest"
 
 --Quest 1 Alliance
 Inst6Quest1 = "1. Der Herrscher des Schwarzfels"
