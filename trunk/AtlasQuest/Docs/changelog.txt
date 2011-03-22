@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.6.2 BETA (not released)
+Version 4.6.2 (March 22, 2011)
 
 - All classic dungeon quests should now be up to date for Cataclysm.
 - Updated attainment level for some Northrend quests.
