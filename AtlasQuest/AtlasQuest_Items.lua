@@ -4310,69 +4310,91 @@ Inst62Quest3ID1_HORDE = "32757"
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
 --Quest 1 Alliance
-Inst63Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst63Quest1ITC1 = Itemc4;
-Inst63Quest1description1 = AQITEM_BAG
-Inst63Quest1ID1 = "34067"
+Inst63Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
 Inst63Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst63Quest3Rewardtext = AQDiscription_REWARD..WHITE.."26"..AQJusticePoints
+Inst63Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_AND..WHITE.."4"
+--ITEM1
+Inst63Quest3ITC1 = Itemc5;
+Inst63Quest3description1 = AQITEM_BOW
+Inst63Quest3ID1 = "69596"
+--ITEM2
+Inst63Quest3ITC2 = Itemc5;
+Inst63Quest3description2 = AQITEM_LEGS..AQITEM_PLATE
+Inst63Quest3ID2 = "69595"
+--ITEM3
+Inst63Quest3ITC3 = Itemc5;
+Inst63Quest3description3 = AQITEM_HANDS..AQITEM_LEATHER
+Inst63Quest3ID3 = "69594"
+--ITEM4
+Inst63Quest3ITC4 = Itemc4;
+Inst63Quest3description4 = AQITEM_BAG
+Inst63Quest3ID4 = "69748"
 
 --Quest 4 Alliance
 Inst63Quest4Rewardtext = AQNoReward
 
 --Quest 5 Alliance
-Inst63Quest5Rewardtext = AQNoReward
-
---Quest 6 Alliance
-Inst63Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst63Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
-Inst63Quest6ITC1 = Itemc5;
-Inst63Quest6description1 = AQITEM_GEM
-Inst63Quest6ID1 = "34256"
-
---Quest 7 Alliance
-Inst63Quest7Rewardtext = AQNoReward
-
---Quest 8 Alliance
-Inst63Quest8Rewardtext = AQDiscription_REWARD..WHITE.."52"..AQJusticePoints
+Inst63Quest5ITC1 = Itemc5;
+Inst63Quest5description1 = AQITEM_SHOULDER..AQITEM_PLATE
+Inst63Quest5ID1 = "69599"
+--ITEM2
+Inst63Quest5ITC2 = Itemc5;
+Inst63Quest5description2 = AQITEM_CHEST..AQITEM_CLOTH
+Inst63Quest5ID2 = "69598"
+--ITEM3
+Inst63Quest5ITC3 = Itemc5;
+Inst63Quest5description3 = AQITEM_THROWN
+Inst63Quest5ID3 = "69597"
 
 
 --Quest 1 Horde
-Inst63Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst63Quest1ITC1_HORDE = Itemc4;
-Inst63Quest1description1_HORDE = AQITEM_BAG
-Inst63Quest1ID1_HORDE = "34067"
+Inst63Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
 Inst63Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
-Inst63Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."26"..AQJusticePoints
+Inst63Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_AND..WHITE.."4"
+--ITEM1
+Inst63Quest3ITC1_HORDE = Itemc5;
+Inst63Quest3description1_HORDE = AQITEM_BOW
+Inst63Quest3ID1_HORDE = "69596"
+--ITEM2
+Inst63Quest3ITC2_HORDE = Itemc5;
+Inst63Quest3description2_HORDE = AQITEM_LEGS..AQITEM_PLATE
+Inst63Quest3ID2_HORDE = "69595"
+--ITEM3
+Inst63Quest3ITC3_HORDE = Itemc5;
+Inst63Quest3description3_HORDE = AQITEM_HANDS..AQITEM_LEATHER
+Inst63Quest3ID3_HORDE = "69594"
+--ITEM4
+Inst63Quest3ITC4_HORDE = Itemc4;
+Inst63Quest3description4_HORDE = AQITEM_BAG
+Inst63Quest3ID4_HORDE = "69748"
 
 --Quest 4 Horde
 Inst63Quest4Rewardtext_HORDE = AQNoReward
 
 --Quest 5 Horde
-Inst63Quest5Rewardtext_HORDE = AQNoReward
-
---Quest 6 Horde
-Inst63Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst63Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
-Inst63Quest6ITC1_HORDE = Itemc5;
-Inst63Quest6description1_HORDE = AQITEM_GEM
-Inst63Quest6ID1_HORDE = "34256"
-
---Quest 7 Horde
-Inst63Quest7Rewardtext_HORDE = AQNoReward
-
---Quest 8 Horde
-Inst63Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."52"..AQJusticePoints
+Inst63Quest5ITC1_HORDE = Itemc5;
+Inst63Quest5description1_HORDE = AQITEM_SHOULDER..AQITEM_PLATE
+Inst63Quest5ID1_HORDE = "69599"
+--ITEM2
+Inst63Quest5ITC2_HORDE = Itemc5;
+Inst63Quest5description2_HORDE = AQITEM_CHEST..AQITEM_CLOTH
+Inst63Quest5ID2_HORDE = "69598"
+--ITEM3
+Inst63Quest5ITC3_HORDE = Itemc5;
+Inst63Quest5description3_HORDE = AQITEM_THROWN
+Inst63Quest5ID3_HORDE = "69597"
 
 
 
@@ -6602,6 +6624,40 @@ Inst101Quest3ID3_HORDE = "66909"
 
 
 --------------- INST108 - Zul'Gurub (ZG) ---------------
+
+--Quest 1 Alliance
+Inst108Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst108Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst108Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst108Quest4Rewardtext = AQNoReward
+
+
+--Quest 6 Alliance
+Inst108Quest6Rewardtext = AQNoReward
+
+
+
+--Quest 1 Horde
+Inst108Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst108Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst108Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst108Quest4Rewardtext_HORDE = AQNoReward
+
+
+--Quest 6 Horde
+Inst108Quest6Rewardtext_HORDE = AQNoReward
 
 
 
