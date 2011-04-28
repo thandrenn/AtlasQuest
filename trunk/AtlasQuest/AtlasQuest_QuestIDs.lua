@@ -1386,33 +1386,24 @@ AQ_10959_Level = "70"
 
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
-Inst63Quest1_QuestID = "11132"
-Inst63Quest2_QuestID = "11166"
-Inst63Quest3_QuestID = "11171"
-Inst63Quest4_QuestID = "11164"
-Inst63Quest5_QuestID = "11165"
-Inst63Quest6_QuestID = "11195"
-Inst63Quest7_QuestID = "11178"
-Inst63Quest8_QuestID = "11163"
+Inst63Quest1_QuestID = "29180"
+Inst63Quest2_QuestID = "29184"
+Inst63Quest3_QuestID = "29186"
+Inst63Quest4_QuestID = "29217"
+Inst63Quest5_QuestID = "29186"
 
-Inst63Quest1_HORDE_QuestID = "11132"
-Inst63Quest2_HORDE_QuestID = "11166"
-Inst63Quest3_HORDE_QuestID = "11171"
-Inst63Quest4_HORDE_QuestID = "11164"
-Inst63Quest5_HORDE_QuestID = "11165"
-Inst63Quest6_HORDE_QuestID = "11195"
-Inst63Quest7_HORDE_QuestID = "11178"
-Inst63Quest8_HORDE_QuestID = "11163"
+Inst63Quest1_HORDE_QuestID = "29180"
+Inst63Quest2_HORDE_QuestID = "29184"
+Inst63Quest3_HORDE_QuestID = "29186"
+Inst63Quest4_HORDE_QuestID = "29217"
+Inst63Quest5_HORDE_QuestID = "29186"
 
 
-AQ_11132_Level = "70"
-AQ_11166_Level = "70"
-AQ_11171_Level = "70"
-AQ_11164_Level = "70"
-AQ_11165_Level = "70"
-AQ_11195_Level = "70"
-AQ_11178_Level = "70"
-AQ_11163_Level = "70"
+AQ_29180_Level = "85"
+AQ_29184_Level = "85"
+AQ_29186_Level = "85"
+AQ_29217_Level = "85"
+AQ_29186_Level = "85"
 
 
 
@@ -2045,6 +2036,29 @@ AQ_28783_Level = "85"
 
 
 --------------- INST108 - Zul'Gurub (ZG) ---------------
+
+Inst108Quest1_QuestID = "29172"
+Inst108Quest2_QuestID = "29174"
+Inst108Quest3_QuestID = "29242"
+Inst108Quest4_QuestID = "29173"
+Inst108Quest5_QuestID = "29153"
+Inst108Quest6_QuestID = "29241"
+
+Inst108Quest1_HORDE_QuestID = "29172"
+Inst108Quest2_HORDE_QuestID = "29174"
+Inst108Quest3_HORDE_QuestID = "29242"
+Inst108Quest4_HORDE_QuestID = "29173"
+Inst108Quest5_HORDE_QuestID = "29251"
+Inst108Quest6_HORDE_QuestID = "29241"
+
+
+AQ_29172_Level = "85"
+AQ_29174_Level = "85"
+AQ_29242_Level = "85"
+AQ_29173_Level = "85"
+AQ_29153_Level = "85"
+AQ_29241_Level = "85"
+AQ_29251_Level = "85"
 
 
 

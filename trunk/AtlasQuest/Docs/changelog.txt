@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.6.3 BETA (not released)
+
+- Bumped TOC file to Patch 4.1.
+- Added new Zul'Aman and Zul'Gurub quests.
+
+
+
+
 Version 4.6.2 (March 22, 2011)
 
 - All classic dungeon quests should now be up to date for Cataclysm.
@@ -28,9 +36,10 @@ Version 4.6.2 (March 22, 2011)
 	- The Temple of Ahn'Qiraj
 	- Zul'Farrak
 	- Gnomeregan
+
+
+
 	
-
-
 Version 4.6.1 (February 8, 2011)
 
 - Boss location updates & other fixes.
@@ -45,6 +54,7 @@ Version 4.6.1 (February 8, 2011)
 	- Dire Maul (North)
 	- Dire Maul (West)
 	
+
 
 
 Version 4.6.0a (December 18, 2010)

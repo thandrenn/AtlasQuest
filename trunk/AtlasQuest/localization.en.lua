@@ -7654,106 +7654,72 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 Inst63Story = "The stronghold of Zul'Aman has stood for millennia as the Amani trolls' seat of power and bastion of the fearless, cunning warlord Zul'jin. \n\nZul'jin has spent several years plotting behind Zul'Aman's walls. Furious at the Horde for allowing his hated enemies, the blood elves, to join its ranks, he eagerly embraced a scheme that the witch doctor Malacrass recently proposed: to seal the power of the animal gods within the bodies of the Amani's strongest warriors. \n\nNow Zul'Aman's army grows more powerful by the day, hungry to exact vengeance in the name of its fearless leader, Zul'jin."
 Inst63Caption = "Zul'Aman"
-Inst63QAA = "8 Quests"
-Inst63QAH = "8 Quests"
+Inst63QAA = "5 Quests"
+Inst63QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst63Quest1 = "1. Promises, Promises..."
-Inst63Quest1_Level = "70"
-Inst63Quest1_Attain = "70"
-Inst63Quest1_Aim = "Budd Nedreck in Hatchet Hills wants you to retrieve his map from High Priest Nalorakk's terrace in Zul'Aman."
-Inst63Quest1_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..". The prequest is optional and starts from Griftah at (Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE..")."
-Inst63Quest1_Prequest = "Oooh, Shinies!"
-Inst63Quest1_Folgequest = "X Marks... Your Doom!"
-Inst63Quest1PreQuest = "true"
---
-Inst63Quest1name1 = "Tattered Hexcloth Sack"
+Inst63Quest1_Level = "85"
+Inst63Quest1_Attain = "85"
+Inst63Quest1_Aim = "Retrieve Budd's Map of Zul'Aman from High Priest Nalorakk's terrace in Zul'Aman."
+Inst63Quest1_Location = ""
+Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..".\n\nIf you already did the level 70 version of this quest, you will only be able to pick up The Hex Lord's Fetish."
+Inst63Quest1_Prequest = "None"
+Inst63Quest1_Folgequest = "None"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst63Quest2 = "2. X Marks... Your Doom!"
-Inst63Quest2_Level = "70"
-Inst63Quest2_Attain = "70"
-Inst63Quest2_Aim = "Enter Zul'Aman and visit Halazzi's Chamber, Jan'alai's Platform, and Akil'zon's Platform. Report the details of those areas to Budd, at his camp in the Ghostlands."
-Inst63Quest2_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest2_Note = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..". \n\nReportedly, the bosses do not need to be fought in order to get quest credit. Just get near them without aggroing." 
+Inst63Quest2_Level = "85"
+Inst63Quest2_Attain = "85"
+Inst63Quest2_Aim = "Visit Halazzi's Chamber, Jan'alai's Platform, and Akil'zon's Platform in Zul'Aman."
+Inst63Quest2_Location = ""
+Inst63Quest2_Note = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..".\n\nIf you already did the level 70 version of this quest, you will only be able to pick up The Hex Lord's Fetish."
 Inst63Quest2_Prequest = "Promises, Promises..."
-Inst63Quest2_Folgequest = "Hex Lord? Hah!"
+Inst63Quest2_Folgequest = "The Hex Lord's Fetish"
 Inst63Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst63Quest3 = "3. Hex Lord? Hah!"
-Inst63Quest3_Level = "70"
-Inst63Quest3_Attain = "70"
-Inst63Quest3_Aim = "Budd Nedreck in Hatchet Hills wants you to kill Hex Lord Malacrass in Zul'Aman."
-Inst63Quest3_Location = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest3_Note = "Hex Lord Malacrass is at "..YELLOW.."[5]"..WHITE.."."
+Inst63Quest3 = "3. The Hex Lord's Fetish"
+Inst63Quest3_Level = "85"
+Inst63Quest3_Attain = "85"
+Inst63Quest3_Aim = "Obtain the Hex Lord's Fetish from Hex Lord Malacrass in Zul'Aman."
+Inst63Quest3_Location = "Witch Doctor T'wansi (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
+Inst63Quest3_Note = "Hex Lord Malacrass is at "..YELLOW.."[5]"..WHITE..".\n\nIf you already did the level 70 version of this quest, you will be able to obtain this quest without doing the prequests."
 Inst63Quest3_Prequest = "X Marks... Your Doom!"
 Inst63Quest3_Folgequest = "None"
 Inst63Quest3FQuest = "true"
 --
--- Awards Justice Points.
+Inst63Quest3name1 = "Voodoo Hunting Bow"
+Inst63Quest3name2 = "Fetish Greaves"
+Inst63Quest3name3 = "T'wansi's Handwraps"
+Inst63Quest3name4 = "Tattered Hexcloth Bag"
 
 --Quest 4 Alliance
-Inst63Quest4 = "4. Tuskin' Raiders"
-Inst63Quest4_Level = "70"
-Inst63Quest4_Attain = "70"
-Inst63Quest4_Aim = "Prigmon needs you to collect 10 Forest Troll Tusks from the trolls in Zul'Aman. Bring them to him at Budd's camp in the Ghostlands."
-Inst63Quest4_Location = "Prigmon (Ghostlands - Hatchet Hills; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest4_Note = "The Forest Troll Tusks drop from Amani'shi mobs inside Zul'Aman. This quest becomes available after you complete Promises, Promises..."
+Inst63Quest4 = "4. The Captive Scouts"
+Inst63Quest4_Level = "85"
+Inst63Quest4_Attain = "85"
+Inst63Quest4_Aim = "Free the captive scouts: Hazlek, Bakkalzu, Norkani, and Kasha. They are being held captive by the Amani high priests."
+Inst63Quest4_Location = "Blood Guard Hakkuz (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
+Inst63Quest4_Note = "The Scouts are located at the platforms of the first four bosses and can be freed after defeating them."
 Inst63Quest4_Prequest = "None"
-Inst63Quest4_Folgequest = "A Troll Among Trolls"
+Inst63Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst63Quest5 = "5. A Troll Among Trolls"
-Inst63Quest5_Level = "70"
-Inst63Quest5_Attain = "70"
-Inst63Quest5_Aim = "Prigmon has tasked you with locating and assisting his cousin Zungam, somewhere within Zul'Aman."
-Inst63Quest5_Location = "Prigmon (Ghostlands - Hatchet Hills; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest5_Note = "Zungam is in a hut at "..GREEN.."[1']"..WHITE..". After you release him, he gives you the followup quest."
-Inst63Quest5_Prequest = "Tuskin' Raiders"
-Inst63Quest5_Folgequest = "Playin' With Dolls"
-Inst63Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst63Quest6 = "6. Playin' With Dolls"
-Inst63Quest6_Level = "70"
-Inst63Quest6_Attain = "70"
-Inst63Quest6_Aim = "Take the Tattered Voodoo Doll to Griftah in Shattrath City."
-Inst63Quest6_Location = "Zungam (Zul'Aman; "..GREEN.."[1']"..WHITE..")"
-Inst63Quest6_Note = "Griftah is at (Shattrath City - Lower City; "..YELLOW.."65,69"..WHITE..")."
-Inst63Quest6_Prequest = "A Troll Among Trolls"
-Inst63Quest6_Folgequest = "None"
-Inst63Quest6FQuest = "true"
+Inst63Quest5 = "5. Warlord of the Amani"
+Inst63Quest5_Level = "85"
+Inst63Quest5_Attain = "85"
+Inst63Quest5_Aim = "Defeat the new Amani Warlord, Daakara."
+Inst63Quest5_Location = "Vol'jin (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
+Inst63Quest5_Note = "Daakara is the final boss, at "..YELLOW.."[6]"..WHITE.."."
+Inst63Quest5_Prequest = "None"
+Inst63Quest5_Folgequest = "None"
 --
-Inst63Quest6name1 = "Charmed Amani Jewel"
-
---Quest 7 Alliance
-Inst63Quest7 = "7. Blood of the Warlord"
-Inst63Quest7_Level = "70"
-Inst63Quest7_Attain = "70"
-Inst63Quest7_Aim = "Bring the Blood of Zul'jin to Budd at his camp in the Ghostlands, outside Zul'Aman."
-Inst63Quest7_Location = "Blood of Zul'jin (drops from Zul'jin; "..YELLOW.."[6]"..WHITE..")"
-Inst63Quest7_Note = "Only one person in the raid can loot this item and the quest can only be done one time."
-Inst63Quest7_Prequest = "None"
-Inst63Quest7_Folgequest = "Undercover Sister"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst63Quest8 = "8. Undercover Sister"
-Inst63Quest8_Level = "70"
-Inst63Quest8_Attain = "70"
-Inst63Quest8_Aim = "Report to Donna Brascoe to collect a reward for your heroism in Zul'Aman. Donna is currently stationed in the Ghostlands, just outside Zul'aman."
-Inst63Quest8_Location = "Donna Brascoe (Ghostlands - Hatchet Hills; "..YELLOW.."70,68"..WHITE..")"
-Inst63Quest8_Note = ""
-Inst63Quest8_Prequest = "Blood of the Warlord"
-Inst63Quest8_Folgequest = "None"
-Inst63Quest8FQuest = "true"
---
--- Awards Justice Points.
+Inst63Quest5name1 = "Pauldrons of Ambition"
+Inst63Quest5name2 = "Robes of Dissention"
+Inst63Quest5name3 = "Zulian Throwing Axe"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7765,9 +7731,7 @@ Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
 Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
 Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
-Inst63Quest1PreQuest_HORDE = Inst63Quest1PreQuest
---
-Inst63Quest1name1_HORDE = Inst63Quest1name1
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst63Quest2_HORDE = Inst63Quest2
@@ -7792,7 +7756,10 @@ Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
 Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
 Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
 --
--- Awards Justice Points.
+Inst63Quest3name1_HORDE = Inst63Quest3name1
+Inst63Quest3name2_HORDE = Inst63Quest3name2
+Inst63Quest3name3_HORDE = Inst63Quest3name3
+Inst63Quest3name4_HORDE = Inst63Quest3name4
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst63Quest4_HORDE = Inst63Quest4
@@ -7814,45 +7781,11 @@ Inst63Quest5_HORDE_Location = Inst63Quest5_Location
 Inst63Quest5_HORDE_Note = Inst63Quest5_Note
 Inst63Quest5_HORDE_Prequest = Inst63Quest5_Prequest
 Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
-Inst63Quest5FQuest_HORDE = Inst63Quest5FQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst63Quest6_HORDE = Inst63Quest6
-Inst63Quest6_HORDE_Level = Inst63Quest6_Level
-Inst63Quest6_HORDE_Attain = Inst63Quest6_Attain
-Inst63Quest6_HORDE_Aim = Inst63Quest6_Aim
-Inst63Quest6_HORDE_Location = Inst63Quest6_Location
-Inst63Quest6_HORDE_Note = Inst63Quest6_Note
-Inst63Quest6_HORDE_Prequest = Inst63Quest6_Prequest
-Inst63Quest6_HORDE_Folgequest = Inst63Quest6_Folgequest
-Inst63Quest6FQuest_HORDE = Inst63Quest6FQuest
 --
-Inst63Quest6name1_HORDE = Inst63Quest6name1
+Inst63Quest5name1_HORDE = Inst63Quest5name1
+Inst63Quest5name2_HORDE = Inst63Quest5name2
+Inst63Quest5name3_HORDE = Inst63Quest5name3
 
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst63Quest7_HORDE = Inst63Quest7
-Inst63Quest7_HORDE_Level = Inst63Quest7_Level
-Inst63Quest7_HORDE_Attain = Inst63Quest7_Attain
-Inst63Quest7_HORDE_Aim = Inst63Quest7_Aim
-Inst63Quest7_HORDE_Location = Inst63Quest7_Location
-Inst63Quest7_HORDE_Note = Inst63Quest7_Note
-Inst63Quest7_HORDE_Prequest = Inst63Quest7_Prequest
-Inst63Quest7_HORDE_Folgequest = Inst63Quest7_Folgequest
--- No Rewards for this quest
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst63Quest8_HORDE = Inst63Quest8
-Inst63Quest8_HORDE_Level = Inst63Quest8_Level
-Inst63Quest8_HORDE_Attain = Inst63Quest8_Attain
-Inst63Quest8_HORDE_Aim = Inst63Quest8_Aim
-Inst63Quest8_HORDE_Location = Inst63Quest8_Location
-Inst63Quest8_HORDE_Note = Inst63Quest8_Note
-Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
-Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
-Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
---
--- Awards Justice Points.
 
 
 
@@ -11257,6 +11190,141 @@ Inst108Story = {
 Inst108Caption = "Zul'Gurub"
 Inst108QAA = "No Quests"
 Inst108QAH = "No Quests"
+
+--Quest 1 Alliance
+Inst108Quest1 = "1. The Beasts Within"
+Inst108Quest1_Level = "85"
+Inst108Quest1_Attain = "85"
+Inst108Quest1_Aim = "Kill the Florawing Hive Queen, Tor-Tun the Slumberer, and a Lost Offspring of Ghaz'Ranka inside of Zul'Gurub on Heroic difficulty."
+Inst108Quest1_Location = "Bloodslayer T'ara (Zul'Gurub; "..BLUE.."Entrance"..WHITE..")"
+Inst108Quest1_Note = "The Florawing Hive Queen can be found in the water just to the left of the entrance.  Tor-Tun the Slumberer is at "..YELLOW.."[6]"..WHITE.." and the Lost Offspring of Ghaz'Ranka can be found at multiple locations in the water."
+Inst108Quest1_Prequest = "None"
+Inst108Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst108Quest2 = "2. Break their Spirits"
+Inst108Quest2_Level = "85"
+Inst108Quest2_Attain = "85"
+Inst108Quest2_Aim = "Kill Gub and the Gurubashi Master Chef inside of Zul'Gurub on Heroic difficulty."
+Inst108Quest2_Location = "Bloodslayer T'ara (Zul'Gurub; "..BLUE.."Entrance"..WHITE..")"
+Inst108Quest2_Note = "Gub is at "..YELLOW.."[3]"..WHITE.." and the Gurubashi Master Chef is in the northeast corner of the dungeon."
+Inst108Quest2_Prequest = "None"
+Inst108Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst108Quest3 = "3. Putting a Price on the Priceless"
+Inst108Quest3_Level = "85"
+Inst108Quest3_Attain = "85"
+Inst108Quest3_Aim = "Investigate the Cache of Madness and find the Mysterious Gurubashi Bijou."
+Inst108Quest3_Location = "Briney Boltcutter (Zul'Gurub; "..BLUE.."Entrance"..WHITE..")"
+Inst108Quest3_Note = "Use the various items at "..YELLOW.."[12]"..WHITE.." to summon a boss and complete the quest."
+Inst108Quest3_Prequest = "None"
+Inst108Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst108Quest4 = "4. Secondary Targets"
+Inst108Quest4_Level = "85"
+Inst108Quest4_Attain = "85"
+Inst108Quest4_Aim = "Kill Kaulema the Mover, Mor'Lek the Dismantler, and Mortaxx, the Tolling Bell inside of Zul'Gurub on Heroic difficulty."
+Inst108Quest4_Location = "Bloodslayer T'ara (Zul'Gurub; "..BLUE.."Entrance"..WHITE..")"
+Inst108Quest4_Note = "Kaulema the Mover is at "..YELLOW.."[7]"..WHITE..", Mor'Lek the Dismantler is at "..YELLOW.."[10]"..WHITE.." and Mortaxx, the Tolling Bell is at "..YELLOW.."[13]"..WHITE.."."
+Inst108Quest4_Prequest = "None"
+Inst108Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst108Quest5 = "5. Booty Bay's Interests"
+Inst108Quest5_Level = "85"
+Inst108Quest5_Attain = "85"
+Inst108Quest5_Aim = "Recover an artifact that might keep the Zul'Gurub trolls out of Booty Bay."
+Inst108Quest5_Location = "Overseer Blingbang (Zul'Gurub; "..BLUE.."Entrance"..WHITE..")\nBaron Revilgaz (The Cape of Stranglethorn - Booty Bay; "..YELLOW.."41.0, 73.0"..WHITE..")"
+Inst108Quest5_Note = "This quest can either be picked up inside the instance or at the end of a questline that starts from the Hero's Call Boards in Stormwind City and Orgrimmar.  The artifact is at "..YELLOW.."[17]"..WHITE.."."
+Inst108Quest5_Prequest = "The Zandalar Representative -> Making Contact"
+Inst108Quest5_Folgequest = "A Shiny Reward"
+Inst108Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst108Quest6 = "6. Break the Godbreaker"
+Inst108Quest6_Level = "85"
+Inst108Quest6_Attain = "85"
+Inst108Quest6_Aim = "Kill Jin'do the Godbreaker inside of Zul'Gurub on Heroic difficulty."
+Inst108Quest6_Location = "Bloodslayer Zala (Zul'Gurub; "..BLUE.."Entrance"..WHITE..")"
+Inst108Quest6_Note = "Jin'do the Godbreaker is at "..YELLOW.."[17]"..WHITE.."."
+Inst108Quest6_Prequest = "None"
+Inst108Quest6_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst108Quest1_HORDE = Inst108Quest1
+Inst108Quest1_HORDE_Level = Inst108Quest1_Level
+Inst108Quest1_HORDE_Attain = Inst108Quest1_Attain
+Inst108Quest1_HORDE_Aim = Inst108Quest1_Aim
+Inst108Quest1_HORDE_Location = Inst108Quest1_Location
+Inst108Quest1_HORDE_Note = Inst108Quest1_Note
+Inst108Quest1_HORDE_Prequest = Inst108Quest1_Prequest
+Inst108Quest1_HORDE_Folgequest = Inst108Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst108Quest2_HORDE = Inst108Quest2
+Inst108Quest2_HORDE_Level = Inst108Quest2_Level
+Inst108Quest2_HORDE_Attain = Inst108Quest2_Attain
+Inst108Quest2_HORDE_Aim = Inst108Quest2_Aim
+Inst108Quest2_HORDE_Location = Inst108Quest2_Location
+Inst108Quest2_HORDE_Note = Inst108Quest2_Note
+Inst108Quest2_HORDE_Prequest = Inst108Quest2_Prequest
+Inst108Quest2_HORDE_Folgequest = Inst108Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst108Quest3_HORDE = Inst108Quest3
+Inst108Quest3_HORDE_Level = Inst108Quest3_Level
+Inst108Quest3_HORDE_Attain = Inst108Quest3_Attain
+Inst108Quest3_HORDE_Aim = Inst108Quest3_Aim
+Inst108Quest3_HORDE_Location = Inst108Quest3_Location
+Inst108Quest3_HORDE_Note = Inst108Quest3_Note
+Inst108Quest3_HORDE_Prequest = Inst108Quest3_Prequest
+Inst108Quest3_HORDE_Folgequest = Inst108Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst108Quest4_HORDE = Inst108Quest4
+Inst108Quest4_HORDE_Level = Inst108Quest4_Level
+Inst108Quest4_HORDE_Attain = Inst108Quest4_Attain
+Inst108Quest4_HORDE_Aim = Inst108Quest4_Aim
+Inst108Quest4_HORDE_Location = Inst108Quest4_Location
+Inst108Quest4_HORDE_Note = Inst108Quest4_Note
+Inst108Quest4_HORDE_Prequest = Inst108Quest4_Prequest
+Inst108Quest4_HORDE_Folgequest = Inst108Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance - different prequest name)
+Inst108Quest5_HORDE = Inst108Quest5
+Inst108Quest5_HORDE_Level = Inst108Quest5_Level
+Inst108Quest5_HORDE_Attain = Inst108Quest5_Attain
+Inst108Quest5_HORDE_Aim = Inst108Quest5_Aim
+Inst108Quest5_HORDE_Location = Inst108Quest5_Location
+Inst108Quest5_HORDE_Note = Inst108Quest5_Note
+Inst108Quest5_HORDE_Prequest = "The Zandalar Menace -> Making Contact"
+Inst108Quest5_HORDE_Folgequest = Inst108Quest5_Folgequest
+Inst108Quest5PreQuest_HORDE = Inst108Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst108Quest6_HORDE = Inst108Quest6
+Inst108Quest6_HORDE_Level = Inst108Quest6_Level
+Inst108Quest6_HORDE_Attain = Inst108Quest6_Attain
+Inst108Quest6_HORDE_Aim = Inst108Quest6_Aim
+Inst108Quest6_HORDE_Location = Inst108Quest6_Location
+Inst108Quest6_HORDE_Note = Inst108Quest6_Note
+Inst108Quest6_HORDE_Prequest = Inst108Quest6_Prequest
+Inst108Quest6_HORDE_Folgequest = Inst108Quest6_Folgequest
+-- No Rewards for this quest
 
 
 
