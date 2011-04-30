@@ -7705,139 +7705,101 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 Inst63Story = "Die Festung von Zul'Aman hat Jahrtausende als der Sitz der Macht der Amani-Trolle und der Bastion des furchtlosen, listigen Kriegsherren Zul'jin bestanden.\n\nZul'jin hat einige Jahre damit verbracht, hinter den Mauern von Zul'Aman zu planen. Erbost über die Horde, dass sie ihren verhassten Feinden, den Blutelfen, erlaubt haben, sich ihnen anzuschließen, begrüßte er eifrig einen Entwurf, den Hexendoktor Malacrass neulich vorgeschlagen hat: die Macht der Tiergötter in den Körpern der stärksten Krieger der Amani zu besiegeln.\n\nDie Armee von Zul'Aman wird nun von Tag zu Tag stärker, sie ist hungrig auf scharfe Rache im Namen ihres furchtlosen Anführers, Zul'jin."
 Inst63Caption = "Zul'Aman"
-Inst63QAA = "8 Quests"
-Inst63QAH = "8 Quests"
+Inst63QAA = "5 Quests"
+Inst63QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst63Quest1 = "1. Versprechen, Versprechen..."
-Inst63Quest1_Level = "70"
-Inst63Quest1_Attain = "70"
-Inst63Quest1_Aim = "Budd Winterhäldler in den Axthügeln möchte, dass Ihr bei Hohepriester Nalorakks Terrasse in Zul'Aman nach seiner Karte sucht."
-Inst63Quest1_Location = "Budd Winterhäldler (Geisterlande - Axthügel; "..YELLOW.."70,67"..WHITE..")"
-Inst63Quest1_Note = "Die Karte liegt auf der rechten Rampe neben Hohepriester Nalorakk bei "..YELLOW.."[1]"..WHITE..". Die Vorquest ist optional und startet bei Gaunah in (Shattrath - Unteres Viertel; "..YELLOW.."65,69"..WHITE..")."
-Inst63Quest1_Prequest = "Ja, Oh, es glitzert!"
-Inst63Quest1_Folgequest = "Ja, Das X markiert Euren Untergang!"
-Inst63Quest1PreQuest = "true"
---
-Inst63Quest1name1 = "Zerlumpter Beutel aus Hexerstoff"
+Inst63Quest1_Level = "85"
+Inst63Quest1_Attain = "85"
+Inst63Quest1_Aim = "Besorgt Budd Winterhäldlers Karte von Zul'Aman, dass bei Hohepriester Nalorakks Terrasse liegt."
+Inst63Quest1_Location = ""
+Inst63Quest1_Note = "Die Karte liegt auf der rechten Rampe neben Hohepriester Nalorakk bei "..YELLOW.."[1]"..WHITE.."."
+Inst63Quest1_Prequest = "Nein"
+Inst63Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst63Quest2 = "2. Das X markiert Euren Untergang!"
-Inst63Quest2_Level = "70"
-Inst63Quest2_Attain = "70"
-Inst63Quest2_Aim = "Betretet Zul'Aman und erkundet Halazzis Kammer, Jan'alais Plateau und Akil'zons Plateau. Berichtet Budd bei seinem Lager in den Geisterlanden von den Details dieser Bereiche."
-Inst63Quest2_Location = "Budd Winterhäldler (Geisterlande - Axthügel; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest2_Level = "85"
+Inst63Quest2_Attain = "85"
+Inst63Quest2_Aim = "Untersucht Halazzis Kammer, Jan'alais Plateau und Akil'zons Plateau in Zul'Aman."
+Inst63Quest2_Location = ""
 Inst63Quest2_Note = "Halazzis Kammer ist bei "..YELLOW.."[4]"..WHITE..", Jan'alais Plattform bei "..YELLOW.."[3]"..WHITE..", und Akil'zons Plattform ist bei "..YELLOW.."[2]"..WHITE..".\n\nDie Bosse müssen nicht bekämpft werden, um die Quest abzuschließen. Einfach in die Nähe gehen, ohne Aggro zu ziehen."
 Inst63Quest2_Prequest = "Ja, Versprechen, Versprechen..."
-Inst63Quest2_Folgequest = "Ja, Hexlord? Pah!"
+Inst63Quest2_Folgequest = "Ja, Der Fetisch des Hexlords"
 Inst63Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst63Quest3 = "3. Hexlord? Pah!"
-Inst63Quest3_Level = "70"
-Inst63Quest3_Attain = "70"
-Inst63Quest3_Aim = "Budd Winterhäldler in den Axthügeln möchte, dass Ihr Hexlord Malacrass in Zul'Aman tötet."
-Inst63Quest3_Location = "Budd Winterhäldler (Geisterlande - Axthügel; "..YELLOW.."70,67"..WHITE..")"
+Inst63Quest3 = "3. Der Fetisch des Hexlords"
+Inst63Quest3_Level = "85"
+Inst63Quest3_Attain = "85"
+Inst63Quest3_Aim = "Erbeutet den Fetisch des Hexlords von Hexlord Malacrass in Zul'Aman."
+Inst63Quest3_Location = "Hexendoktor T'wansi (Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
 Inst63Quest3_Note = "Hexlord Malacrass befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst63Quest3_Prequest = "Ja, Das X markiert Euren Untergang!"
 Inst63Quest3_Folgequest = "Nein"
 Inst63Quest3PreQuest = "true"
 --
--- Preis Gerechtigkeitspunkte.
+Inst63Quest3name1 = "Voodoojagdbogen"
+Inst63Quest3name2 = "Fetischschienbeinschützer"
+Inst63Quest3name3 = "T'wansis Handlappen"
+Inst63Quest3name4 = "Zerlumpter Beutel aus Hexerstoff"
 
 --Quest 4 Alliance
-Inst63Quest4 = "4. Jäger der verlorenen Hauer"
-Inst63Quest4_Level = "70"
-Inst63Quest4_Attain = "70"
-Inst63Quest4_Aim = "Prigmon möchte, dass Ihr 10 Hauer eines Waldtrolls von Trollen in Zul'Aman einsammelt. Bringt sie zu ihm bei Budds Lager in den Geisterlanden."
-Inst63Quest4_Location = "Prigmon (Geisterlande - Axthügel; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest4_Note = "Der Waldtrollhauer droppen von den Gegnern der Amani in Zul'Aman.Diese Quest bekommst du erst wenn du die Quest Versprechen, Versprechen... abgeschlossen hast."
+Inst63Quest4 = "4. Die gefangenen Späher"
+Inst63Quest4_Level = "85"
+Inst63Quest4_Attain = "85"
+Inst63Quest4_Aim = "Befreit die gefangenen Späher: Hazlek, Bakkalzu, Norkani und Kasha. Sie werden von den Hohepriestern der Amanitrolle gefangengehalten."
+Inst63Quest4_Location = "Blutwache Hakkuz ((Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
+Inst63Quest4_Note = "Die Späher sind auf den Plattformen der ersten 4 Bosse und können nach deren Vernichtung befreit werden."
 Inst63Quest4_Prequest = "Nein"
-Inst63Quest4_Folgequest = "Ja, Ein Troll unter Trollen"
-Inst63Quest4FQuest = "true"
+Inst63Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst63Quest5 = "5. Ein Troll unter Trollen"
-Inst63Quest5_Level = "70"
-Inst63Quest5_Attain = "70"
-Inst63Quest5_Aim = "Prigmon möchte, dass Ihr seinen Vetter Zungam in Zul'Aman ausfindig macht und ihm zur Seite steht."
-Inst63Quest5_Location = "Prigmon (Geisterlande - Axthügel; "..YELLOW.."71,68"..WHITE..")"
-Inst63Quest5_Note = "Zungam befindet sich in einer Hütte bei "..GREEN.."[1']"..WHITE.." befindet. Nachdem du ihn befreit hast, gibt er dir die Folgequest."
-Inst63Quest5_Prequest = "Ja, Jäger der verlorenen Hauer"
-Inst63Quest5_Folgequest = "Ja, Das Spiel mit der Puppe"
-Inst63Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst63Quest6 = "6. Das Spiel mit der Puppe"
-Inst63Quest6_Level = "70"
-Inst63Quest6_Attain = "70"
-Inst63Quest6_Aim = "Bringt die zerlumpte Voodoopuppe zu Gaunah in Shattrath."
-Inst63Quest6_Location = "Zungam (Zul'Aman; "..GREEN.."[1']"..WHITE..")"
-Inst63Quest6_Note = "Gaunah befindet sich in (Shattrath - Unteres Viertel; "..YELLOW.."65,69"..WHITE..")."
-Inst63Quest6_Prequest = "Ja, Ein Troll unter Trollen"
-Inst63Quest6_Folgequest = "Nein"
-Inst63Quest6PreQuest = "true"
+Inst63Quest5 = "5. Der Kriegsherr der Amani"
+Inst63Quest5_Level = "85"
+Inst63Quest5_Attain = "85"
+Inst63Quest5_Aim = "Besiegt den neuen Kriegsherrn der Amani, Daakara."
+Inst63Quest5_Location = "Vol'jin (Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
+Inst63Quest5_Note = "Daakara ist der Endboss, bei "..YELLOW.."[6]"..WHITE.."."
+Inst63Quest5_Prequest = "Nein"
+Inst63Quest5_Folgequest = "Nein"
 --
-Inst63Quest6name1 = "Bezaubertes Juwel der Amani"
-
---Quest 7 Alliance
-Inst63Quest7 = "7. Blut des Kriegsherren"
-Inst63Quest7_Level = "70"
-Inst63Quest7_Attain = "70"
-Inst63Quest7_Aim = "Bringt Zul'jins Blut zu Budd bei seinem Lager in den Geisterlanden, direkt außerhalb von Zul'Aman."
-Inst63Quest7_Location = "Zul'jins Blut (droppt von Zul'jin; "..YELLOW.."[6]"..WHITE..")"
-Inst63Quest7_Note = "Nur eine Person im Schlachtzug kann das Blut erhalten, um die Quest zu starten, und die Quest kann nur einmal ausgeführt werden."
-Inst63Quest7_Prequest = "Nein"
-Inst63Quest7_Folgequest = "Ja, Agentin mit Herz"
-Inst63Quest7FQuest = "true"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst63Quest8 = "8. Agentin mit Herz"
-Inst63Quest8_Level = "70"
-Inst63Quest8_Attain = "70"
-Inst63Quest8_Aim = "Meldet Euch bei Donna Brascoe, um eine Belohnung für Euer Heldentum in Zul'Aman zu erhalten. Donna hält sich momentan in den Geisterlanden, direkt außerhalb von Zul'Aman auf."
-Inst63Quest8_Location = "Donna Brascoe (Geisterlande - Axthügel; "..YELLOW.."70,68"..WHITE..")"
-Inst63Quest8_Note = ""
-Inst63Quest8_Prequest = "Ja, Blut des Kriegsherren"
-Inst63Quest8_Folgequest = "Nein"
-Inst63Quest8PreQuest = "true"
---
--- Preis Gerechtigkeitspunkte.
+Inst63Quest5name1 = "Schulterstücke des Ehrgeizes"
+Inst63Quest5name2 = "Roben der Uneinigkeit"
+Inst63Quest5name3 = "Zulianische Wurfaxt"
 
 
 --Quest 1 Horde
 Inst63Quest1_HORDE = Inst63Quest1
-Inst63Quest1_HORDE_Level = "70"
-Inst63Quest1_HORDE_Attain = "70"
+Inst63Quest1_HORDE_Level = "85"
+Inst63Quest1_HORDE_Attain = "85"
 Inst63Quest1_HORDE_Aim = Inst63Quest1_Aim
 Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
-Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
-Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
-Inst63Quest1PreQuest_HORDE = "true"
---
-Inst63Quest1name1_HORDE = Inst63Quest1name1
+Inst63Quest1_HORDE_Prequest = "Nein"
+Inst63Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst63Quest2_HORDE = Inst63Quest2
-Inst63Quest2_HORDE_Level = "70"
-Inst63Quest2_HORDE_Attain = "70"
+Inst63Quest2_HORDE_Level = "85"
+Inst63Quest2_HORDE_Attain = "85"
 Inst63Quest2_HORDE_Aim = Inst63Quest2_Aim
 Inst63Quest2_HORDE_Location = Inst63Quest2_Location
 Inst63Quest2_HORDE_Note = Inst63Quest2_Note
 Inst63Quest2_HORDE_Prequest = Inst63Quest2_Prequest
-Inst63Quest2_HORDE_Folgequest = "Ja, Hexlord? Pah!"
+Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
 Inst63Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
 Inst63Quest3_HORDE = Inst63Quest3
-Inst63Quest3_HORDE_Level = "70"
-Inst63Quest3_HORDE_Attain = "70"
+Inst63Quest3_HORDE_Level = "85"
+Inst63Quest3_HORDE_Attain = "85"
 Inst63Quest3_HORDE_Aim = Inst63Quest3_Aim
 Inst63Quest3_HORDE_Location = Inst63Quest3_Location
 Inst63Quest3_HORDE_Note = Inst63Quest3_Note
@@ -7845,12 +7807,15 @@ Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
 Inst63Quest3_HORDE_Folgequest = "Nein"
 Inst63Quest3PreQuest_HORDE = "true"
 --
--- Preis Gerechtigkeitspunkte.
+Inst63Quest3name1_HORDE = "Voodoojagdbogen"
+Inst63Quest3name2_HORDE = Inst63Quest3name2
+Inst63Quest3name3_HORDE = Inst63Quest3name3
+Inst63Quest3name4_HORDE = Inst63Quest3name4
 
 --Quest 4 Horde
 Inst63Quest4_HORDE = Inst63Quest4
-Inst63Quest4_HORDE_Level = "70"
-Inst63Quest4_HORDE_Attain = "70"
+Inst63Quest4_HORDE_Level = "85"
+Inst63Quest4_HORDE_Attain = "85"
 Inst63Quest4_HORDE_Aim = Inst63Quest4_Aim
 Inst63Quest4_HORDE_Location = Inst63Quest4_Location
 Inst63Quest4_HORDE_Note = Inst63Quest4_Note
@@ -7861,53 +7826,18 @@ Inst63Quest4PreQuest_HORDE = "true"
 
 --Quest 5 Horde
 Inst63Quest5_HORDE = Inst63Quest5
-Inst63Quest5_HORDE_Level = "70"
-Inst63Quest5_HORDE_Attain = "70"
+Inst63Quest5_HORDE_Level = "85"
+Inst63Quest5_HORDE_Attain = "85"
 Inst63Quest5_HORDE_Aim = Inst63Quest5_Aim
 Inst63Quest5_HORDE_Location = Inst63Quest5_Location
 Inst63Quest5_HORDE_Note = Inst63Quest5_Note
 Inst63Quest5_HORDE_Prequest = Inst63Quest5_Prequest
 Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
 Inst63Quest5FQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 6 Horde
-Inst63Quest6_HORDE = Inst63Quest6
-Inst63Quest6_HORDE_Level = "70"
-Inst63Quest6_HORDE_Attain = "70"
-Inst63Quest6_HORDE_Aim = Inst63Quest6_Aim
-Inst63Quest6_HORDE_Location = Inst63Quest6_Location
-Inst63Quest6_HORDE_Note = Inst63Quest6_Note
-Inst63Quest6_HORDE_Prequest = Inst63Quest6_Prequest
-Inst63Quest6_HORDE_Folgequest = "Nein"
-Inst63Quest6PreQuest_HORDE = "true"
 --
-Inst63Quest6name1_HORDE = Inst63Quest6name1
-
---Quest 7 Horde
-Inst63Quest7_HORDE = Inst63Quest7
-Inst63Quest7_HORDE_Level = "70"
-Inst63Quest7_HORDE_Attain = "70"
-Inst63Quest7_HORDE_Aim = Inst63Quest7_Aim
-Inst63Quest7_HORDE_Location = Inst63Quest7_Location
-Inst63Quest7_HORDE_Note = Inst63Quest7_Note
-Inst63Quest7_HORDE_Prequest = "Nein"
-Inst63Quest7_HORDE_Folgequest = "Ja, Agentin mit Herz"
-Inst63Quest7FQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 8 Horde
-Inst63Quest8_HORDE = Inst63Quest8
-Inst63Quest8_HORDE_Level = "70"
-Inst63Quest8_HORDE_Attain = "70"
-Inst63Quest8_HORDE_Aim = Inst63Quest8_Aim
-Inst63Quest8_HORDE_Location = Inst63Quest8_Location
-Inst63Quest8_HORDE_Note = Inst63Quest8_Note
-Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
-Inst63Quest8_HORDE_Folgequest = "Nein"
-Inst63Quest8PreQuest_HORDE = "true"
---
--- Preis Gerechtigkeitspunkte.
+Inst63Quest5name1_HORDE = Inst63Quest5name1
+Inst63Quest5name2_HORDE = Inst63Quest5name2
+Inst63Quest5name3_HORDE = Inst63Quest5name3
 
 
 
@@ -11387,10 +11317,143 @@ Inst108Story = {
 ["MaxPages"] = "3",
 }
 Inst108Caption = "Zul'Gurub"
-Inst108QAA = "No Quests"
-Inst108QAH = "No Quests"
+Inst108QAA = "6 Quests"
+Inst108QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst108Quest1 = "1. Die Tiere im Inneren"
+Inst108Quest1_Level = "85"
+Inst108Quest1_Attain = "85"
+Inst108Quest1_Aim = "Tötet die Blütenflügelschwarmkönigin, Tor-Tun den Schläfer sowie einen von Gahz'rankas verlorenem Nachwuchs in Zul'Gurub auf heroischem Schwierigkeitsgrad."
+Inst108Quest1_Location = "Blutschlächterin T'ara (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")"
+Inst108Quest1_Note = "Die Blütenflügelschwarmkönigin kann im Wasser links vom Eingang gefunden werden.  Tor-Tun der Schläfer ist bei "..YELLOW.."[6]"..WHITE.." und der Gahz'rankas verlorener Nachwuchs kann gefunden werden in den verschiedenen Gewässern."
+Inst108Quest1_Prequest = "Nein"
+Inst108Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst108Quest2 = "2. Brecht ihren Willen"
+Inst108Quest2_Level = "85"
+Inst108Quest2_Attain = "85"
+Inst108Quest2_Aim = "Tötet Gub und den Meisterkoch der Gurubashi in Zul'Gurub auf heroischem Schwierigkeitsgrad."
+Inst108Quest2_Location = "Blutschlächterin T'ara (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")"
+Inst108Quest2_Note = "Gub ist bei "..YELLOW.."[3]"..WHITE.." und der Meisterkoch der Gurubashi ist im nördlichen Teil der Instanz."
+Inst108Quest2_Prequest = "Nein"
+Inst108Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst108Quest3 = "3. Unbezahlbar mit Rabatt"
+Inst108Quest3_Level = "85"
+Inst108Quest3_Attain = "85"
+Inst108Quest3_Aim = "Untersucht den Hort des Wahnsinns und findet das mysteriöse Schmuckstück der Gurubashi."
+Inst108Quest3_Location = "Briney Schraubschneider (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")"
+Inst108Quest3_Note = "Benutze das  mysteriöse Schmuckstück bei "..YELLOW.."[12]"..WHITE.." um den Boss zu rufen und die Quest abzuschließen."
+Inst108Quest3_Prequest = "Nein"
+Inst108Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst108Quest4 = "4. Sekundärziele"
+Inst108Quest4_Level = "85"
+Inst108Quest4_Attain = "85"
+Inst108Quest4_Aim = "Tötet Kaulema den Beweger, Mor'Lek den Zerleger und Mortaxx, das Schlagen der Stunde in Zul'Gurub auf heroischem Schwierigkeitsgrad."
+Inst108Quest4_Location = "Blutschlächterin T'ara (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")"
+Inst108Quest4_Note = "Kaulema der Beweger ist bei "..YELLOW.."[7]"..WHITE..", Mor'Lek der Zerleger ist bei "..YELLOW.."[10]"..WHITE.." und Mortaxx der Totenglocke ist bei "..YELLOW.."[13]"..WHITE.."."
+Inst108Quest4_Prequest = "Nein"
+Inst108Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst108Quest5 = "5. Die Interessen Beutebuchts"
+Inst108Quest5_Level = "85"
+Inst108Quest5_Attain = "85"
+Inst108Quest5_Aim = "Spürt ein Artefakt auf, das die Trolle aus Zul'Gurub von Beutebucht fern halten könnte."
+Inst108Quest5_Location = "Aufseher Klunkerknall (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")\nBaron Revilgaz (Das Schlingendornkap - Beutebucht; "..YELLOW.."41.0, 73.0"..WHITE..")"
+Inst108Quest5_Note = "Diese Quest kann innerhalb der Instanz angenommen werden oder am Ende der Questreihe bei der Tafel des Heldenaufrufs in Sturmwind und Ogrimmar.  Das Artefakt ist bei "..YELLOW.."[17]"..WHITE.."."
+Inst108Quest5_Prequest = "Abgesandter der Zandalar -> Kontaktaufnahme"
+Inst108Quest5_Folgequest = "Eine glitzernde Beute"
+Inst108Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst108Quest6 = "6. Brecht den Götterbrecher "
+Inst108Quest6_Level = "85"
+Inst108Quest6_Attain = "85"
+Inst108Quest6_Aim = "Tötet Jin'do den Götterbrecher in Zul'Gurub auf heroischem Schwierigkeitsgrad."
+Inst108Quest6_Location = "Blutschlächterin Zala (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")"
+Inst108Quest6_Note = "Jin'do der Götterbrecher ist bei "..YELLOW.."[17]"..WHITE.."."
+Inst108Quest6_Prequest = "Nein"
+Inst108Quest6_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
+--Quest 1 Horde
+Inst108Quest1_HORDE = Inst108Quest1
+Inst108Quest1_HORDE_Level = "85"
+Inst108Quest1_HORDE_Attain = "85"
+Inst108Quest1_HORDE_Aim = Inst108Quest1_Aim
+Inst108Quest1_HORDE_Location = Inst108Quest1_Location
+Inst108Quest1_HORDE_Note = Inst108Quest1_Note
+Inst108Quest1_HORDE_Prequest = "Nein"
+Inst108Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst108Quest2_HORDE = Inst108Quest2
+Inst108Quest2_HORDE_Level = "85"
+Inst108Quest2_HORDE_Attain = "85"
+Inst108Quest2_HORDE_Aim = Inst108Quest2_Aim
+Inst108Quest2_HORDE_Location = Inst108Quest2_Location
+Inst108Quest2_HORDE_Note = Inst108Quest2_Note
+Inst108Quest2_HORDE_Prequest = "Nein"
+Inst108Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst108Quest3_HORDE = Inst108Quest3
+Inst108Quest3_HORDE_Level = "85"
+Inst108Quest3_HORDE_Attain = "85"
+Inst108Quest3_HORDE_Aim = Inst108Quest3_Aim
+Inst108Quest3_HORDE_Location = Inst108Quest3_Location
+Inst108Quest3_HORDE_Note = Inst108Quest3_Note
+Inst108Quest3_HORDE_Prequest = "Nein"
+Inst108Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst108Quest4_HORDE = Inst108Quest4
+Inst108Quest4_HORDE_Level = "85"
+Inst108Quest4_HORDE_Attain = "85"
+Inst108Quest4_HORDE_Aim = Inst108Quest4_Aim
+Inst108Quest4_HORDE_Location = Inst108Quest4_Location
+Inst108Quest4_HORDE_Note = Inst108Quest4_Note
+Inst108Quest4_HORDE_Prequest = "Nein"
+Inst108Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance - different prequest name)
+Inst108Quest5_HORDE = Inst108Quest5
+Inst108Quest5_HORDE_Level = "85"
+Inst108Quest5_HORDE_Attain = "85"
+Inst108Quest5_HORDE_Aim = Inst108Quest5_Aim
+Inst108Quest5_HORDE_Location = Inst108Quest5_Location
+Inst108Quest5_HORDE_Note = Inst108Quest5_Note
+Inst108Quest5_HORDE_Prequest = "The Zandalar Menace -> Making Contact"
+Inst108Quest5_HORDE_Folgequest = "Eine glitzernde Beute"
+Inst108Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst108Quest6_HORDE = Inst108Quest6
+Inst108Quest6_HORDE_Level = "85"
+Inst108Quest6_HORDE_Attain = "85"
+Inst108Quest6_HORDE_Aim = Inst108Quest6_Aim
+Inst108Quest6_HORDE_Location = Inst108Quest6_Location
+Inst108Quest6_HORDE_Note = Inst108Quest6_Note
+Inst108Quest6_HORDE_Prequest = "Nein"
+Inst108Quest6_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
