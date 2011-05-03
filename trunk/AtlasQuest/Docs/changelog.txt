@@ -2,10 +2,12 @@
 Changelog
 =========
 
-Version 4.6.3 BETA (not released)
+Version 4.6.3 (May 3, 2011)
 
 - Bumped TOC file to Patch 4.1.
 - Added new Zul'Aman and Zul'Gurub quests.
+- Localizations updated: deDE
+- EvgeshaH is no longer playing WoW and cannot update the Russian translation any longer.  If anyone would be interested in taking over that, contact me.  My email is mystery8@gmail.com.
 
 
 
