@@ -26,8 +26,8 @@
 
 	Traditional Chinese Translated by Jill
 	「世界之樹※Ammon Ra Thebes※Tefnut」繁體中文化
-	Last Updated: 2011-03-12
-	最後更新﹕二○一一年三月十二日
+	Last Updated: 2011-05-12
+	最後更新﹕二○一一年五月十二日
 	新增　浩劫與重生　任務
 
 --]]
@@ -7941,106 +7941,72 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 Inst63Story = "千百年來，祖阿曼的要塞都是阿曼尼食人妖的權力中心，以及狡猾而無畏的督軍祖爾金的老巢。祖爾金花費了數年的時間在祖阿曼的城牆後面籌備他的復仇計劃。由於對部落允許讓他的仇敵血精靈加入，他開始積極地按照妖術領主瑪拉卡斯提出的建議行動起來：將野獸之神的力量禁錮在阿曼尼部族最強大的戰士體內。"
 Inst63Caption = "祖阿曼"
-Inst63QAA = "8 個任務"
-Inst63QAH = "8 個任務"
+Inst63QAA = "5 個任務"
+Inst63QAH = "5 個任務"
 
 --Quest 1 Alliance
-Inst63Quest1 = "1. 承諾，承諾…"
-Inst63Quest1_Level = "70"
-Inst63Quest1_Attain = "70"
-Inst63Quest1_Aim = "戰斧嶺的霸德．奈德瑞克希望你能從高階祭司納羅拉克的露臺那邊找回他的地圖。"
-Inst63Quest1_Location = "霸德．奈德瑞克（鬼魂之地 - 阿曼尼小徑; "..YELLOW.."70,67"..WHITE.."）"
-Inst63Quest1_Note = "你可以在高階祭司納羅拉克"..YELLOW.."[1]"..WHITE.."附近找到地圖。前置任務接自前置任務接自格利夫塔（撒塔斯城 - 陰鬱城; "..YELLOW.."65,69"..WHITE.."）。"
-Inst63Quest1_Prequest = "噢，閃亮的東西！"
-Inst63Quest1_Folgequest = "Ｘ標記…你的末日！"
-Inst63Quest1PreQuest = "true"
---
-Inst63Quest1name1 = "破爛的邪化布袋"
+Inst63Quest1 = "1. 約定，約定..."
+Inst63Quest1_Level = "85"
+Inst63Quest1_Attain = "85"
+Inst63Quest1_Aim = "在祖阿曼的高階祭司納羅拉克殿堂找回霸德的祖阿曼地圖。"
+Inst63Quest1_Location = ""
+Inst63Quest1_Note = "你可以在靠近高階祭司納羅拉克"..YELLOW.."[1]"..WHITE.."右方的平台上找到地圖。\n\n如果你在燃燒的遠征版本中就完成此任務的話，你將只能拾取[妖術領主的神物]。"
+Inst63Quest1_Prequest = "無"
+Inst63Quest1_Folgequest = "X標記…你的末日!"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst63Quest2 = "2. X標記…你的末日!"
-Inst63Quest2_Level = "70"
-Inst63Quest2_Attain = "70"
-Inst63Quest2_Aim = "進入祖阿曼並造訪哈拉齊的房間，賈納雷的平台與阿奇爾森的平台。回報這些地區的細節給霸德，就在鬼魂之地他的營地中。"
-Inst63Quest2_Location = "霸德．奈德瑞克（鬼魂之地 - 阿曼尼小徑; "..YELLOW.."70,67"..WHITE.."）"
-Inst63Quest2_Note = "哈拉齊的房間在"..YELLOW.."[4]"..WHITE.."，賈納雷的平台在"..YELLOW.."[3]"..WHITE.."，阿奇爾森的平台在"..YELLOW.."[2]"..WHITE.."。\n\n不用打王就可以完成任務，只要在附近就可以。" 
-Inst63Quest2_Prequest = "承諾，承諾……"
-Inst63Quest2_Folgequest = "妖術領主？哈！"
+Inst63Quest2_Level = "85"
+Inst63Quest2_Attain = "85"
+Inst63Quest2_Aim = "進入祖阿曼並檢查哈拉齊的房間，賈納雷的平台與阿奇爾森的平台。"
+Inst63Quest2_Location = ""
+Inst63Quest2_Note = "哈拉齊的房間在"..YELLOW.."[4]"..WHITE.."，賈納雷的平台在"..YELLOW.."[3]"..WHITE.."，阿奇爾森的平台在"..YELLOW.."[2]"..WHITE.."。\n\n如果你在燃燒的遠征版本中就完成此任務的話，你將只能拾取[妖術領主的神物]。"
+Inst63Quest2_Prequest = "約定，約定..."
+Inst63Quest2_Folgequest = "妖術領主的神物"
 Inst63Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst63Quest3 = "3. 妖術領主?哈!"
-Inst63Quest3_Level = "70"
-Inst63Quest3_Attain = "70"
-Inst63Quest3_Aim = "戰斧嶺的霸德．奈德瑞克要你殺死祖阿曼中的妖術領主瑪拉克雷斯。"
-Inst63Quest3_Location = "霸德．奈德瑞克（鬼魂之地 - 阿曼尼小徑; "..YELLOW.."70,67"..WHITE.."）"
-Inst63Quest3_Note = "妖術領主瑪拉克雷斯在"..YELLOW.."[5]"..WHITE.."。"
-Inst63Quest3_Prequest = "Ｘ標記…你的末日！"
+Inst63Quest3 = "3. 妖術領主的神物"
+Inst63Quest3_Level = "85"
+Inst63Quest3_Attain = "85"
+Inst63Quest3_Aim = "取得祖阿曼的妖術領主瑪拉克雷斯的神像。"
+Inst63Quest3_Location = "巫醫塔灣西（祖阿曼; "..BLUE.."入口"..WHITE.."）"
+Inst63Quest3_Note = "妖術領主瑪拉克雷斯在"..YELLOW.."[5]"..WHITE.."。\n\n如果你在燃燒的遠征版本中就完成此任務的話，你將會直接獲得這個任務，而不用完成前置任務。"
+Inst63Quest3_Prequest = "X標記…你的末日!"
 Inst63Quest3_Folgequest = "無"
 Inst63Quest3FQuest = "true"
 --
--- 獎勵正義點數。
+Inst63Quest3name1 = "巫毒獵弓"
+Inst63Quest3name2 = "神像護脛"
+Inst63Quest3name3 = "塔灣西的裹手"
+Inst63Quest3name4 = "破爛的邪化布包"
 
 --Quest 4 Alliance
-Inst63Quest4 = "4. 長牙劫掠者"
-Inst63Quest4_Level = "70"
-Inst63Quest4_Attain = "70"
-Inst63Quest4_Aim = "皮格蒙需要你從祖阿曼的食人妖那邊收集10根森林食人妖長牙。把東西帶給他，他就在鬼魂之地的霸德營地。"
-Inst63Quest4_Location = "皮格蒙（鬼魂之地 - 阿曼尼小徑; "..YELLOW.."71,68"..WHITE.."）"
-Inst63Quest4_Note = "祖阿曼裡面的食人妖都可能會掉落。在你完成[承諾，承諾…]任務之後便可接到此任務。"
+Inst63Quest4 = "4. 被監禁的斥侯"
+Inst63Quest4_Level = "85"
+Inst63Quest4_Attain = "85"
+Inst63Quest4_Aim = "釋放被監禁的斥侯：哈茲雷克、巴卡祖、諾卡尼和卡沙。他們正被阿曼尼的高階祭司監禁著。"
+Inst63Quest4_Location = "血衛士哈庫茲（祖阿曼; "..BLUE.."入口"..WHITE.."）"
+Inst63Quest4_Note = "斥侯們被囚禁在四位高階祭司所在的平台上，打敗他們之後，就能釋放被監禁的斥侯。"
 Inst63Quest4_Prequest = "無"
-Inst63Quest4_Folgequest = "食人妖中的食人妖"
+Inst63Quest4_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst63Quest5 = "5. 食人妖中的食人妖"
-Inst63Quest5_Level = "70"
-Inst63Quest5_Attain = "70"
-Inst63Quest5_Aim = "皮格蒙希望你去尋找並且幫助他的表弟祖剛，人應該在祖阿曼中的某處。"
-Inst63Quest5_Location = "皮格蒙（鬼魂之地 - 阿曼尼小徑; "..YELLOW.."71,68"..WHITE.."）"
-Inst63Quest5_Note = "祖剛在"..GREEN.."[1']"..WHITE.."一個小帳篷裡，你找到他之後他會給你後續任務。"
-Inst63Quest5_Prequest = "長牙劫掠者"
-Inst63Quest5_Folgequest = "玩娃娃"
-Inst63Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst63Quest6 = "6. 玩娃娃"
-Inst63Quest6_Level = "70"
-Inst63Quest6_Attain = "70"
-Inst63Quest6_Aim = "把破爛的巫毒娃娃帶給撒塔斯城的格利夫塔。"
-Inst63Quest6_Location = "祖剛（祖阿曼; "..GREEN.." [1']"..WHITE.."）"
-Inst63Quest6_Note = "格利夫塔（撒塔斯 - 陰鬱城; "..YELLOW.."65,69"..WHITE.."）"
-Inst63Quest6_Prequest = "食人妖中的食人妖"
-Inst63Quest6_Folgequest = "無"
-Inst63Quest6FQuest = "true"
+Inst63Quest5 = "5. 阿曼尼督軍"
+Inst63Quest5_Level = "85"
+Inst63Quest5_Attain = "85"
+Inst63Quest5_Aim = "擊敗阿曼尼的新督軍，達卡拉。"
+Inst63Quest5_Location = "沃金（祖阿曼; "..BLUE.."入口"..WHITE.."）"
+Inst63Quest5_Note = "達卡拉在"..YELLOW.."[6]"..WHITE.."，是祖阿曼裡的最後一個首領。"
+Inst63Quest5_Prequest = "無"
+Inst63Quest5_Folgequest = "無"
 --
-Inst63Quest6name1 = "魅惑的阿曼尼珠寶"
-
---Quest 7 Alliance
-Inst63Quest7 = "7. 督軍之血"
-Inst63Quest7_Level = "70"
-Inst63Quest7_Attain = "70"
-Inst63Quest7_Aim = "將祖爾金之血交給霸德，他的營地位在鬼魂之地的祖阿曼外頭。"
-Inst63Quest7_Location = "祖爾金之血（祖爾金掉落 - 祖阿曼; "..YELLOW.."[6]"..WHITE.."）"
-Inst63Quest7_Note = "團隊中只有一個人能夠得到祖爾金之血。"
-Inst63Quest7_Prequest = "無"
-Inst63Quest7_Folgequest = "密探小姐"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst63Quest8 = "8. 密探小姐"
-Inst63Quest8_Level = "70"
-Inst63Quest8_Attain = "70"
-Inst63Quest8_Aim = "向朵娜．布拉斯科回報，好領取你英雄事蹟的獎勵。朵娜目前待在鬼魂之地，就在祖阿曼的外頭。"
-Inst63Quest8_Location = "朵娜．布拉斯科（鬼魂之地 - 阿曼尼小徑; "..YELLOW.."70,68"..WHITE.."）"
-Inst63Quest8_Note = "這個任務只能解一次，無法重複。"
-Inst63Quest8_Prequest = "督軍之血"
-Inst63Quest8_Folgequest = "無"
-Inst63Quest8FQuest = "true"
---
--- 獎勵正義點數。
+Inst63Quest5name1 = "雄心肩鎧"
+Inst63Quest5name2 = "異議長袍"
+Inst63Quest5name3 = "祖利安擲斧"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8052,9 +8018,7 @@ Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
 Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
 Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
-Inst63Quest1PreQuest_HORDE = Inst63Quest1PreQuest
---
-Inst63Quest1name1_HORDE = Inst63Quest1name1
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst63Quest2_HORDE = Inst63Quest2
@@ -8079,7 +8043,10 @@ Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
 Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
 Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
 --
--- 獎勵正義點數。
+Inst63Quest3name1_HORDE = Inst63Quest3name1
+Inst63Quest3name2_HORDE = Inst63Quest3name2
+Inst63Quest3name3_HORDE = Inst63Quest3name3
+Inst63Quest3name4_HORDE = Inst63Quest3name4
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst63Quest4_HORDE = Inst63Quest4
@@ -8101,45 +8068,10 @@ Inst63Quest5_HORDE_Location = Inst63Quest5_Location
 Inst63Quest5_HORDE_Note = Inst63Quest5_Note
 Inst63Quest5_HORDE_Prequest = Inst63Quest5_Prequest
 Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
-Inst63Quest5FQuest_HORDE = Inst63Quest5FQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst63Quest6_HORDE = Inst63Quest6
-Inst63Quest6_HORDE_Level = Inst63Quest6_Level
-Inst63Quest6_HORDE_Attain = Inst63Quest6_Attain
-Inst63Quest6_HORDE_Aim = Inst63Quest6_Aim
-Inst63Quest6_HORDE_Location = Inst63Quest6_Location
-Inst63Quest6_HORDE_Note = Inst63Quest6_Note
-Inst63Quest6_HORDE_Prequest = Inst63Quest6_Prequest
-Inst63Quest6_HORDE_Folgequest = Inst63Quest6_Folgequest
-Inst63Quest6FQuest_HORDE = Inst63Quest6FQuest
 --
-Inst63Quest6name1_HORDE = Inst63Quest6name1
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst63Quest7_HORDE = Inst63Quest7
-Inst63Quest7_HORDE_Level = Inst63Quest7_Level
-Inst63Quest7_HORDE_Attain = Inst63Quest7_Attain
-Inst63Quest7_HORDE_Aim = Inst63Quest7_Aim
-Inst63Quest7_HORDE_Location = Inst63Quest7_Location
-Inst63Quest7_HORDE_Note = Inst63Quest7_Note
-Inst63Quest7_HORDE_Prequest = Inst63Quest7_Prequest
-Inst63Quest7_HORDE_Folgequest = Inst63Quest7_Folgequest
--- No Rewards for this quest
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst63Quest8_HORDE = Inst63Quest8
-Inst63Quest8_HORDE_Level = Inst63Quest8_Level
-Inst63Quest8_HORDE_Attain = Inst63Quest8_Attain
-Inst63Quest8_HORDE_Aim = Inst63Quest8_Aim
-Inst63Quest8_HORDE_Location = Inst63Quest8_Location
-Inst63Quest8_HORDE_Note = Inst63Quest8_Note
-Inst63Quest8_HORDE_Prequest = Inst63Quest8_Prequest
-Inst63Quest8_HORDE_Folgequest = Inst63Quest8_Folgequest
-Inst63Quest8FQuest_HORDE = Inst63Quest8FQuest
---
--- 獎勵正義點數。
+Inst63Quest5name1_HORDE = Inst63Quest5name1
+Inst63Quest5name2_HORDE = Inst63Quest5name2
+Inst63Quest5name3_HORDE = Inst63Quest5name3
 
 
 
@@ -11904,8 +11836,143 @@ Inst108Story = {
   ["MaxPages"] = "2",
 };
 Inst108Caption = "祖爾格拉布"
-Inst108QAA = "無任務"
-Inst108QAH = "無任務"
+Inst108QAA = "6 個任務"
+Inst108QAH = "6 個任務"
+
+--Quest 1 Alliance
+Inst108Quest1 = "1. 來自深處的野獸"
+Inst108Quest1_Level = "85"
+Inst108Quest1_Attain = "85"
+Inst108Quest1_Aim = "在英雄模式下殺死祖爾格拉布內的叢翼蜂后、沉睡者托通和失落的加茲蘭卡後代。"
+Inst108Quest1_Location = "血腥殺戮者特亞拉（祖爾格拉布; "..BLUE.."入口"..WHITE.."）"
+Inst108Quest1_Note = "叢翼蜂后可以在入口左方的水中找到。沉睡者托通在"..YELLOW.."[6]"..WHITE.."，失落的加茲蘭卡後代則會出現在不同位置的水中。"
+Inst108Quest1_Prequest = "無"
+Inst108Quest1_Folgequest = "無"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst108Quest2 = "2. 打擊他們的士氣"
+Inst108Quest2_Level = "85"
+Inst108Quest2_Attain = "85"
+Inst108Quest2_Aim = "在英雄難度下殺死祖爾格拉布內的古布和古拉巴什大廚師。"
+Inst108Quest2_Location = "血腥殺戮者特亞拉（祖爾格拉布; "..BLUE.."入口"..WHITE.."）"
+Inst108Quest2_Note = "古布在"..YELLOW.."[3]"..WHITE.."，古拉巴什大廚師在地城的東北角。"
+Inst108Quest2_Prequest = "無"
+Inst108Quest2_Folgequest = "無"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst108Quest3 = "3. 幫無價的定個價"
+Inst108Quest3_Level = "85"
+Inst108Quest3_Attain = "85"
+Inst108Quest3_Aim = "調查狂性儲納所並找出神秘的古拉巴什寶石。"
+Inst108Quest3_Location = "布蘭尼．破壞剪（祖爾格拉布; "..BLUE.."入口"..WHITE.."）"
+Inst108Quest3_Note = "在"..YELLOW.."[12]"..WHITE.."使用物品以召喚一位頭目並且完成此任務。"
+Inst108Quest3_Prequest = "無"
+Inst108Quest3_Folgequest = "無"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst108Quest4 = "4. 次要目標"
+Inst108Quest4_Level = "85"
+Inst108Quest4_Attain = "85"
+Inst108Quest4_Aim = "殺死祖爾格拉布內的移石者考勒瑪、拆卸人摩勒克，和鐘鳴者莫爾塔克斯。"
+Inst108Quest4_Location = "血腥殺戮者特亞拉（祖爾格拉布; "..BLUE.."入口"..WHITE.."）"
+Inst108Quest4_Note = "移石者考勒瑪在"..YELLOW.."[7]"..WHITE.."，拆卸人摩勒克在"..YELLOW.."[10]"..WHITE.."，鐘鳴者莫爾塔克斯在"..YELLOW.."[13]"..WHITE.."。"
+Inst108Quest4_Prequest = "無"
+Inst108Quest4_Folgequest = "無"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst108Quest5 = "5. 藏寶海灣的利益"
+Inst108Quest5_Level = "85"
+Inst108Quest5_Attain = "85"
+Inst108Quest5_Aim = "收回或許能夠讓祖爾格拉布的食人妖遠離藏寶海灣的神器。"
+Inst108Quest5_Location = "監督者閃砰（祖爾格拉布; "..BLUE.."入口"..WHITE.."）\n大財主里維加茲（荊棘谷海角 - 藏寶海灣; "..YELLOW.."41.0, 73.0"..WHITE.."）"
+Inst108Quest5_Note = "這個任務可以在地城之中獲得，或是經由一連串的任務線完成之後獲得。任務線從暴風城或奧格瑪的[英雄的呼喚告示板]開始。神器在"..YELLOW.."[17]"..WHITE.."。"
+Inst108Quest5_Prequest = "贊達拉的代表→接觸"
+Inst108Quest5_Folgequest = "閃亮的獎勵"
+Inst108Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst108Quest6 = "6. 擊敗破神者"
+Inst108Quest6_Level = "85"
+Inst108Quest6_Attain = "85"
+Inst108Quest6_Aim = "在英雄難度下殺死祖爾格拉布內的金度。"
+Inst108Quest6_Location = "血腥殺戮者札拉（祖爾格拉布; "..BLUE.."入口"..WHITE.."）"
+Inst108Quest6_Note = "破神者金度在"..YELLOW.."[17]"..WHITE.."。"
+Inst108Quest6_Prequest = "無"
+Inst108Quest6_Folgequest = "無"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst108Quest1_HORDE = Inst108Quest1
+Inst108Quest1_HORDE_Level = Inst108Quest1_Level
+Inst108Quest1_HORDE_Attain = Inst108Quest1_Attain
+Inst108Quest1_HORDE_Aim = Inst108Quest1_Aim
+Inst108Quest1_HORDE_Location = Inst108Quest1_Location
+Inst108Quest1_HORDE_Note = Inst108Quest1_Note
+Inst108Quest1_HORDE_Prequest = Inst108Quest1_Prequest
+Inst108Quest1_HORDE_Folgequest = Inst108Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst108Quest2_HORDE = Inst108Quest2
+Inst108Quest2_HORDE_Level = Inst108Quest2_Level
+Inst108Quest2_HORDE_Attain = Inst108Quest2_Attain
+Inst108Quest2_HORDE_Aim = Inst108Quest2_Aim
+Inst108Quest2_HORDE_Location = Inst108Quest2_Location
+Inst108Quest2_HORDE_Note = Inst108Quest2_Note
+Inst108Quest2_HORDE_Prequest = Inst108Quest2_Prequest
+Inst108Quest2_HORDE_Folgequest = Inst108Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst108Quest3_HORDE = Inst108Quest3
+Inst108Quest3_HORDE_Level = Inst108Quest3_Level
+Inst108Quest3_HORDE_Attain = Inst108Quest3_Attain
+Inst108Quest3_HORDE_Aim = Inst108Quest3_Aim
+Inst108Quest3_HORDE_Location = Inst108Quest3_Location
+Inst108Quest3_HORDE_Note = Inst108Quest3_Note
+Inst108Quest3_HORDE_Prequest = Inst108Quest3_Prequest
+Inst108Quest3_HORDE_Folgequest = Inst108Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst108Quest4_HORDE = Inst108Quest4
+Inst108Quest4_HORDE_Level = Inst108Quest4_Level
+Inst108Quest4_HORDE_Attain = Inst108Quest4_Attain
+Inst108Quest4_HORDE_Aim = Inst108Quest4_Aim
+Inst108Quest4_HORDE_Location = Inst108Quest4_Location
+Inst108Quest4_HORDE_Note = Inst108Quest4_Note
+Inst108Quest4_HORDE_Prequest = Inst108Quest4_Prequest
+Inst108Quest4_HORDE_Folgequest = Inst108Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance - different prequest name)
+Inst108Quest5_HORDE = Inst108Quest5
+Inst108Quest5_HORDE_Level = Inst108Quest5_Level
+Inst108Quest5_HORDE_Attain = Inst108Quest5_Attain
+Inst108Quest5_HORDE_Aim = Inst108Quest5_Aim
+Inst108Quest5_HORDE_Location = Inst108Quest5_Location
+Inst108Quest5_HORDE_Note = Inst108Quest5_Note
+Inst108Quest5_HORDE_Prequest = "贊達拉的威脅→接觸"
+Inst108Quest5_HORDE_Folgequest = Inst108Quest5_Folgequest
+Inst108Quest5PreQuest_HORDE = Inst108Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst108Quest6_HORDE = Inst108Quest6
+Inst108Quest6_HORDE_Level = Inst108Quest6_Level
+Inst108Quest6_HORDE_Attain = Inst108Quest6_Attain
+Inst108Quest6_HORDE_Aim = Inst108Quest6_Aim
+Inst108Quest6_HORDE_Location = Inst108Quest6_Location
+Inst108Quest6_HORDE_Note = Inst108Quest6_Note
+Inst108Quest6_HORDE_Prequest = Inst108Quest6_Prequest
+Inst108Quest6_HORDE_Folgequest = Inst108Quest6_Folgequest
+-- No Rewards for this quest
 
 
 
