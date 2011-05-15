@@ -114,7 +114,7 @@ AQDiscription_AIM = "Ziel: \n"
 AQDiscription_NOTE = "Informationen: \n"
 AQDiscription_PREQUEST = "Vorquest: "
 AQDiscription_FOLGEQUEST = "Folgequest: "
-AQFinishedTEXT = "Quest abgeschlossen: ";
+AQFinishedTEXT = "Abgeschlossen: ";
 
 
 ------------------

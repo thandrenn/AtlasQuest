@@ -169,7 +169,7 @@ AQITEM_ENCHANT = "Enchant"
 
 --------------- INST36 - No Instance ---------------
 
--- Just to display "No Quests" when the map is set to something AtlasQuest does not support. I'll probably find a better way of doing this later.
+-- Just to display "No Quests" when the map is set to something AtlasQuest does not support.
 Inst36Story = ""
 Inst36Caption = "No Information Available"
 Inst36QAA = "No Quests"
@@ -11328,6 +11328,16 @@ Inst108Quest6_HORDE_Folgequest = Inst108Quest6_Folgequest
 
 
 
+--------------- INST109 - Firelands ---------------
+
+Inst109Story = "Deep beneath the earth and seas of the Elemental Plane lurks the Firelands, a place of heat and ash. Although it is a harsh land, visitors can survive, for in one of those cruel paradoxes that define the universe, fire needs air to live and fuel to feed upon. Within the Firelands, these things exist in a constant cyclical state, with the very ash itself gradually transforming into fuel for future burnings. \n\nIn the center of a vast lake of fire stands Sulfuron Keep, the home of Ragnaros the Firelord. Until comparatively recently, he ruled his underground land with an iron fist. Three hundred years ago, he was summoned to fight in the dwarven civil war known as the War of the Three Hammers. This reckless act sundered the Redridge Mountains and created Blackrock Spire. Now, in a greatly weakened state, he lies at the bottom of that volcano on Azeroth, striving to find a way home. Meanwhile, in Sulfuron Keep and elsewhere across the Firelands, his elemental princes battle constantly for dominance."..GREEN.."\n\nQuoted from wowpedia.org"
+Inst109Caption = "Firelands"
+Inst109QAA = "No Quests"
+Inst109QAH = "No Quests"
+
+
+
+
 
 
 ---------------------------------------------------
@@ -12477,3 +12487,4 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 106 = Battle for Gilneas
 -- 107 = Twin Peaks
 -- 108 = Zul'Gurub (ZG)
+-- 109 = Firelands

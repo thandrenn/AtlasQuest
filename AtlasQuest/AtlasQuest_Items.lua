@@ -578,63 +578,35 @@ Inst5Quest22ID1_HORDE = "37829"
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
 --Quest 1 Alliance
-Inst6Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
+Inst6Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
 Inst6Quest1ITC1 = Itemc5;
-Inst6Quest1description1 = AQITEM_LEGS..AQITEM_MAIL
-Inst6Quest1ID1 = "21530"
+Inst6Quest1description1 = AQITEM_NECK
+Inst6Quest1ID1 = "19383"
 --ITEM2
 Inst6Quest1ITC2 = Itemc5;
-Inst6Quest1description2 = AQITEM_NECK
-Inst6Quest1ID2 = "21529"
-
---Quest 2 Alliance
-Inst6Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst6Quest1description2 = AQITEM_OFFHAND
+Inst6Quest1ID2 = "19366"
 --ITEM1
-Inst6Quest2ITC1 = Itemc5;
-Inst6Quest2description1 = AQITEM_NECK
-Inst6Quest2ID1 = "19383"
---ITEM2
-Inst6Quest2ITC2 = Itemc5;
-Inst6Quest2description2 = AQITEM_OFFHAND
-Inst6Quest2ID2 = "19366"
---ITEM1
-Inst6Quest2ITC3 = Itemc5;
-Inst6Quest2description3 = AQITEM_RING
-Inst6Quest2ID3 = "19384"
-
---Quest 3 Alliance
-Inst6Quest3Rewardtext = AQNoReward
+Inst6Quest1ITC3 = Itemc5;
+Inst6Quest1description3 = AQITEM_RING
+Inst6Quest1ID3 = "19384"
 
 
 --Quest 1 Horde
-Inst6Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
+Inst6Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
 Inst6Quest1ITC1_HORDE = Itemc5;
-Inst6Quest1description1_HORDE = AQITEM_LEGS..AQITEM_MAIL
-Inst6Quest1ID1_HORDE = "21530"
+Inst6Quest1description1_HORDE = AQITEM_NECK
+Inst6Quest1ID1_HORDE = "19383"
 --ITEM2
 Inst6Quest1ITC2_HORDE = Itemc5;
-Inst6Quest1description2_HORDE = AQITEM_NECK
-Inst6Quest1ID2_HORDE = "21529"
-
---Quest 2 Horde
-Inst6Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst6Quest1description2_HORDE = AQITEM_OFFHAND
+Inst6Quest1ID2_HORDE = "19366"
 --ITEM1
-Inst6Quest2ITC1_HORDE = Itemc5;
-Inst6Quest2description1_HORDE = AQITEM_NECK
-Inst6Quest2ID1_HORDE = "19383"
---ITEM2
-Inst6Quest2ITC2_HORDE = Itemc5;
-Inst6Quest2description2_HORDE = AQITEM_OFFHAND
-Inst6Quest2ID2_HORDE = "19366"
---ITEM1
-Inst6Quest2ITC3_HORDE = Itemc5;
-Inst6Quest2description3_HORDE = AQITEM_RING
-Inst6Quest2ID3_HORDE = "19384"
-
---Quest 3 Horde
-Inst6Quest3Rewardtext_HORDE = AQNoReward
+Inst6Quest1ITC3_HORDE = Itemc5;
+Inst6Quest1description3_HORDE = AQITEM_RING
+Inst6Quest1ID3_HORDE = "19384"
 
 
 
@@ -1529,17 +1501,17 @@ Inst18Quest5Rewardtext = AQNoReward
 --Quest 6 Alliance
 Inst18Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
-Inst18Quest6ITC1_HORDE = Itemc4;
-Inst18Quest6description1_HORDE = AQITEM_RING
-Inst18Quest6ID1_HORDE = "6748"
+Inst18Quest6ITC1 = Itemc4;
+Inst18Quest6description1 = AQITEM_RING
+Inst18Quest6ID1 = "6748"
 --ITEM2
-Inst18Quest6ITC2_HORDE = Itemc4;
-Inst18Quest6description2_HORDE = AQITEM_RING
-Inst18Quest6ID2_HORDE = "6750"
+Inst18Quest6ITC2 = Itemc4;
+Inst18Quest6description2_ = AQITEM_RING
+Inst18Quest6ID2 = "6750"
 --ITEM3
-Inst18Quest6ITC3_HORDE = Itemc4;
-Inst18Quest6description3_HORDE = AQITEM_RING
-Inst18Quest6ID3_HORDE = "6749"
+Inst18Quest6ITC3 = Itemc4;
+Inst18Quest6description3 = AQITEM_RING
+Inst18Quest6ID3 = "6749"
 
 
 --Quest 1 Horde
@@ -6658,6 +6630,11 @@ Inst108Quest4Rewardtext_HORDE = AQNoReward
 
 --Quest 6 Horde
 Inst108Quest6Rewardtext_HORDE = AQNoReward
+
+
+
+--------------- INST109 - Firelands ---------------
+
 
 
 

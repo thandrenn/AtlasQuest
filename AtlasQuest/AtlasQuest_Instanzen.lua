@@ -317,6 +317,10 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulGurub") then
 		AQINSTANZ = 108;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransDeepholm") then
+--	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Firelands") then   -- Will replace this when Atlas adds real map. Using TransDeepholm for testing.
+		AQINSTANZ = 109;
+
 
 
 
@@ -788,6 +792,7 @@ end
 -- 106 = Battle for Gilneas
 -- 107 = Twin Peaks
 -- 108 = Zul'Gurub (ZG)
+-- 109 = Firelands
 
 
 
