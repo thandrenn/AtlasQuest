@@ -65,14 +65,14 @@ AQINSTANZ = 1; -- currently shown instance-pic (see AtlasQuest_Instanzen.lua)
 AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function AtlasQuestSetTextandButtons())
 
 -- Sets the max number of instances and quests to check for. 
-local AQMAXINSTANCES = "107"
+local AQMAXINSTANCES = "108"
 local AQMAXQUESTS = "22"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.3a";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.4 BETA";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.6.3a",
+  ["Version"] =  "4.6.4 BETA",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,

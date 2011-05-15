@@ -2,6 +2,17 @@
 Changelog
 =========
 
+Version 4.6.4 BETA (not released yet)
+
+- Localizations updated: deDE, zhTW
+- FIX: "Quest finished" checkbox text overlapping checkbox in German. (thanks Luke1410)
+- FIX: Quest: Willix the Importer in Razorfen Kraul rewards weren't showing up for Alliance. (thanks gothic251)
+- FIX: Quest: The Lord of Blackrock in Blackwing Lair rewards weren't showing up. (thanks gothic251)
+- FIX: Zul'Gurub quests weren't being checked as completed by Quest Query. (thanks gothic251)
+
+
+
+
 Version 4.6.3a (May 4, 2011)
 
 - TOC file fixed.

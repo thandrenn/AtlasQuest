@@ -230,18 +230,11 @@ AQ_12492_Level = "85"
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
 Inst6Quest1_QuestID = "8730"
-Inst6Quest2_QuestID = "7781"
-Inst6Quest3_QuestID = "8288"
 
 Inst6Quest1_HORDE_QuestID = "8730"
-Inst6Quest2_HORDE_QuestID = "7783"
-Inst6Quest3_HORDE_QuestID = "8288"
 
 
 AQ_8730_Level = "60"
-AQ_7781_Level = "60"
-AQ_8288_Level = "60"
-AQ_7783_Level = "60"
 
 
 
@@ -2059,6 +2052,10 @@ AQ_29173_Level = "85"
 AQ_29153_Level = "85"
 AQ_29241_Level = "85"
 AQ_29251_Level = "85"
+
+
+
+--------------- INST109 - Firelands ---------------
 
 
 
