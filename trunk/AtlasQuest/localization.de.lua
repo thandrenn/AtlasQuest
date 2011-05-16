@@ -180,7 +180,7 @@ AQITEM_ENCHANT = "Verzauberung"
 
 --------------- INST36 - No Instance ---------------
 
--- Just to display "No Quests" when the map is set to something AtlasQuest does not support. I'll probably find a better way of doing this later.
+-- Just to display "No Quests" when the map is set to something AtlasQuest does not support.
 Inst36Story = ""
 Inst36Caption = "Keine Informationen verfügbar"
 Inst36QAA = "Keine Quests"
@@ -11468,6 +11468,19 @@ Inst108Quest6_HORDE_Folgequest = "Nein"
 
 
 
+--------------- INST109 - Firelands ---------------
+
+Inst109Story = {
+["Page1"] = "Äonen lang hat die Elementarebene gute Dienste als sicheres Gefängnis für Azeroths Urgeister gedient ... bis der Kataklysmus die Grenzen zwischen den Welten zum Einsturz brachte. Ohne Vorwarnung strömten Ragnaros' Armeen auf den Hyjal zu mit der Absicht, den Weltenbaum Nordrassil niederzubrennen. In der folgenden Schlacht gaben viele mutige Helden ihr Leben, um den Hyjal vor der Vernichtung zu bewahren. Durch ihr edles Opfer wurde das Unmögliche vollbracht: die Wächter des Hyjal konnten die Diener von Ragnaros wieder in die Feuerlande zurückdrängen.",
+["Page2"] = "Nun wütet die Schlacht zum Schutz des Hyjal in Ragnaros' schwelendem Reich. Mit jedem bisschen Land, das errungen wird, kommen die inneren Heiligtümer der Feuerlande, und mit ihnen eine monumentale Aufgabe, immer näher. Rund um Ragnaros' Hochburg ? die Sulfuronfestung ? haben sich seine treusten Wächter verschanzt, zu denen auch die abtrünnigen Druiden der Flamme und deren geheimnisvoller Anführer zählen. Doch die Verteidiger des Hyjal können es sich nicht leisten, vor diesen Gefahren zurückzuschrecken. Sollte Ragnaros gegen diesen Vorstoß standhalten können und sollte es ihm gelingen, Nordrassil zu zerstören, wird Azeroth eine Wunde erleiden, von der sich die Welt möglicherweise nie wieder erholen könnte.",
+["MaxPages"] = "2",
+}
+Inst109Caption = "Feuerlande"
+Inst109QAA = "No Quests"
+Inst109QAH = "No Quests"
+
+
+
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
@@ -12237,3 +12250,4 @@ end
 -- 106 = Battle for Gilneas
 -- 107 = Twin Peaks
 -- 108 = Zul'Gurub (ZG)
+-- 109 = Firelands
