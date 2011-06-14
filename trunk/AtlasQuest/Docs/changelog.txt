@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.6.5 BETA (not released)
+
+- TOC file updated for Patch 4.2.
+- Firelands added. No quests.
+- Localizations updated: deDE
+
+
+
 Version 4.6.4 (May 23, 2011)
 
 - Localizations updated: deDE, zhTW
