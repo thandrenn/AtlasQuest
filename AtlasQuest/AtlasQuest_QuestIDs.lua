@@ -163,7 +163,7 @@ Inst5Quest20_QuestID = "4083"
 Inst5Quest21_QuestID = "12491"
 
 Inst5Quest1_HORDE_QuestID = "27579"
-Inst5Quest2_HORDE_QuestID = "27567"
+Inst5Quest2_HORDE_QuestID = "27581"
 Inst5Quest3_HORDE_QuestID = "27603"
 Inst5Quest4_HORDE_QuestID = "27582"
 Inst5Quest5_HORDE_QuestID = "27585"
@@ -843,9 +843,9 @@ Inst29Quest6_QuestID = "2945"
 Inst29Quest7_QuestID = "2947"
 Inst29Quest8_QuestID = "2951"
 
-Inst29Quest1_HORDE_QuestID = ""
-Inst29Quest2_HORDE_QuestID = ""
-Inst29Quest3_HORDE_QuestID = ""
+Inst29Quest1_HORDE_QuestID = "2945"
+Inst29Quest2_HORDE_QuestID = "2949"
+Inst29Quest3_HORDE_QuestID = "2951"
 
 
 AQ_26943_Level = "26"
@@ -854,11 +854,9 @@ AQ_26939_Level = "27"
 AQ_26941_Level = "28"
 AQ_26942_Level = "29"
 AQ_2945_Level = "34"
-AQ_2947_Level = "34"
+AQ_2949_Level = "34"
 AQ_2951_Level = "30"
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
+AQ_2947_Level = "34"
 
 
 
