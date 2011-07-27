@@ -69,10 +69,10 @@ local AQMAXINSTANCES = "109"
 local AQMAXQUESTS = "22"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.5";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.6 BETA";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.6.5",
+  ["Version"] =  "4.6.6 BETA",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -240,6 +240,8 @@ function AQSetButtontext()
       AQOptionCloseButton:SetText(AQ_OK);
 	  AQOptionQuestQueryButton:SetText(AQQuestQueryButtonTEXT);
 	  AQOptionQuestQuery:SetText(AQQuestQueryTEXT);
+ 	  AQOptionClaerQuestAndQueryButton:SetText(AQClearQuestAndQueryButtonTEXT);
+ 	  AQOptionClearQuestAndQuery:SetText(AQClearQuestAndQueryTEXT);
       AtlasQuestTitle:SetText(ATLASQUEST_VERSION);
       AQCaptionOptionTEXT:SetText(AQOptionsCaptionTEXT);
       AQAutoshowOptionTEXT:SetText(AQOptionsAutoshowTEXT);
@@ -804,17 +806,40 @@ local f = CreateFrame("Frame");
 f:SetScript("OnEvent", function(_, event, ...) f[event](f, ...) end);
 f:RegisterEvent("QUEST_QUERY_COMPLETE");
 
+local pendingQuestQuery = false
+
 function AQQuestQuery()
 	ChatFrame1:AddMessage(AQQuestQueryStart);
+	pendingQuestQuery = true
 	QueryQuestsCompleted();	
+end
+ 
+function AQClearQuestAndQuery()
+	-- remove all completed quests
+	local atlasquestlist = AtlasQuest_Options[UnitName("player")]
+	for key, value in pairs(atlasquestlist) do
+		if string.find(key, "AQFinishedQuest_Inst") == 1 then
+			-- entry found, clear it
+			atlasquestlist[key] = nil
+		end
+	end
+
+	AQQuestQuery();
 end
 
 function f:QUEST_QUERY_COMPLETE()
-	local qct, gurka, qcs, ral, rat = {}, false, ":", false, false;
---	self.stamp = time();
-     
-	GetQuestsCompleted(qct);
+	-- only handle the query complete event, if it was us who queried for
+	-- completed quests
+	if not pendingQuestQuery then
+		return
+	end
 
+	local qct, gurka, qcs, ral, rat = {}, false, ":", false, false;
+    --	self.stamp = time();
+	local ishorde = (UnitFactionGroup("player") == "Horde")
+       
+  	GetQuestsCompleted(qct);
+  
 	for qx in pairs(qct) do
 		qcs = qcs .. qx .. ":";
 	end
@@ -832,19 +857,19 @@ function f:QUEST_QUERY_COMPLETE()
 	-- Update AQ database
 	for i = 1, AQMAXINSTANCES do
 		for q = 1, AQMAXQUESTS do
-			local a = _G["Inst"..i.."Quest"..q.."_QuestID"];
-			local h = _G["Inst"..i.."Quest"..q.."_HORDE_QuestID"];
-			
-			if(a and string.find(qcs, ":"..a..":")) then
-				AQ["AQFinishedQuest_Inst"..i.."Quest"..q]                              = 1;
-				AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..i.."Quest"..q] = 1;
-				gurka = true;
-			end
-
-			if(h and string.find(qcs, ":"..h..":")) then
-				AQ["AQFinishedQuest_Inst"..i.."Quest"..q.."_HORDE"]                              = 1;
-				AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..i.."Quest"..q.."_HORDE"] = 1;
-				gurka = true;
+  			local a = _G["Inst"..i.."Quest"..q.."_QuestID"];
+  			local h = _G["Inst"..i.."Quest"..q.."_HORDE_QuestID"];
+  			
+ 			if(not ishorde and a and string.find(qcs, ":"..a..":")) then
+  				AQ["AQFinishedQuest_Inst"..i.."Quest"..q]                              = 1;
+  				AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..i.."Quest"..q] = 1;
+  				gurka = true;
+  			end
+  
+ 			if(ishorde and h and string.find(qcs, ":"..h..":")) then
+  				AQ["AQFinishedQuest_Inst"..i.."Quest"..q.."_HORDE"]                              = 1;
+  				AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..i.."Quest"..q.."_HORDE"] = 1;
+  				gurka = true;
 			end
 		end
 	end
@@ -857,10 +882,10 @@ function f:QUEST_QUERY_COMPLETE()
 		AlphaMapFrame:Show();
 	end
 
---	if(gurka == true and AQQueryDONE == nil) then
---		ChatFrame1:AddMessage(AQQuestQueryDone);
---		local AQQueryDONE = "done"
---	end
+if(gurka == true and AQQueryDONE == nil) then
+		ChatFrame1:AddMessage(AQQuestQueryDone);
+		local AQQueryDONE = "done"
+	end
 end
 
 

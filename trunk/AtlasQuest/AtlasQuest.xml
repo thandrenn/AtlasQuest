@@ -42,7 +42,7 @@
 <!-- Option panel -->
 <Frame name="AtlasQuestOptionFrame" enableMouse="true" movable="true" hidden="true" parent="UIParent" toplevel="true" frameStrata="DIALOG" enableKeyboard="true">
  <Size>
-   <AbsDimension x="325" y="375"/>
+   <AbsDimension x="325" y="425"/>
  </Size>
  <Anchors>
    <Anchor point="TOP">
@@ -89,7 +89,7 @@
 	<Anchors>
 		<Anchor point="BOTTOM">
 			<Offset>
-				<AbsDimension x="-100" y="50"/>
+				<AbsDimension x="-100" y="100"/>
 			</Offset>
 		</Anchor>
 	</Anchors>
@@ -102,6 +102,26 @@
 	    </OnShow>
 	</Scripts>
   </Button>
+   <Button name="AQOptionClaerQuestAndQueryButton" inherits="OptionsButtonTemplate">
+    <Size>
+      <AbsDimension x="95" y="30"/>
+    </Size>
+ 	<Anchors>
+ 		<Anchor point="BOTTOM">
+ 			<Offset>
+ 				<AbsDimension x="-100" y="50"/>
+ 			</Offset>
+ 		</Anchor>
+ 	</Anchors>
+ 	<Scripts>
+ 		<OnClick>
+ 		  AQClearQuestAndQuery();
+ 	    </OnClick>
+ 	    <OnShow>
+ 	    	AtlasQuestOptionFrame:SetFrameLevel( AtlasQuestOptionFrame:GetParent():GetFrameLevel() + 1 );
+ 	    </OnShow>
+ 	</Scripts>
+   </Button>
   <CheckButton name="AQAutoshowOption" inherits="OptionsCheckButtonTemplate" checked="true">
     <Size>
       <AbsDimension x="30" y="30"/>
@@ -303,17 +323,29 @@
          </Anchor>
        </Anchors>
      </FontString>
-   <FontString name="AQOptionQuestQuery" inherits="GameFontNormalSmall" justifyH = "LEFT">
+	 <FontString name="AQOptionQuestQuery" inherits="GameFontNormalSmall" justifyH = "LEFT">
        <Size>
-         <AbsDimension x="240" y="25"/>
+         <AbsDimension x="210" y="25"/>
        </Size>
        <Anchors>
          <Anchor point="BOTTOM">
            <Offset>
-              <AbsDimension x="70" y="50"/>
+              <AbsDimension x="60" y="100"/>
            </Offset>
          </Anchor>
        </Anchors>
+     </FontString>
+    <FontString name="AQOptionClearQuestAndQuery" inherits="GameFontNormalSmall" justifyH = "LEFT">
+        <Size>
+          <AbsDimension x="210" y="25"/>
+         </Size>
+         <Anchors>
+           <Anchor point="BOTTOM">
+             <Offset>
+               <AbsDimension x="60" y="50"/>
+             </Offset>
+           </Anchor>
+         </Anchors>
      </FontString>
      <FontString name="AQAutoshowOptionTEXT" inherits="GameFontNormalSmall" justifyH = "LEFT">
        <Size>

@@ -77,7 +77,9 @@ AQOptionsCompareTooltipTEXT = ""..WHITE.."Compare rewards to currently equipped 
 
 -- Quest Query text
 AQQuestQueryButtonTEXT = ""..WHITE.."Quest Query"
+AQClearQuestAndQueryButtonTEXT = ""..WHITE.."Reset Quests"
 AQQuestQueryTEXT = ""..WHITE.."Query Server for completed quests."
+AQClearQuestAndQueryTEXT = ""..WHITE.."Reset completed quests and query server for list of completed quests."
 AQQuestQueryStart = "AtlasQuest is now querying server for completed quests. This may take a minute"
 AQQuestQueryDone = "AtlasQuest has finished querying the server. Completed quests should now be marked."
 
