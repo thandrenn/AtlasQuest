@@ -18,7 +18,7 @@ AtlasQuest的原作者是Asurn，现在由Thandren(亦称Mystery8) 维护更新�
 =================
 英语：Thandrenn (原由 Asurn 和 lothaer 更新)
 德语：Guldukat (原由 Asurn 和 Nihlo 和 Telchar 和 Nalumis)
-中文(简)：Yeachan (原由DIY更新)
+中文(简)：Yeachan 和 Ananhaid (原由DIY更新)
 中文(繁)：Jill
 俄语：EvgeshaH
 

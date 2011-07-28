@@ -22,7 +22,7 @@ AtlasQuest 最初由 Asurn 研發。
 
 　　英文﹕Thandrenn（前為 Asurn 及 Lothaer）
 　　德文﹕Guldukat、Telchar 與 Nalumis（前為 Asurn 及 Nihlo）
-簡體中文﹕yeachan（前為 DIY）
+簡體中文﹕yeachan 與 Ananhaid（前為 DIY）
 繁體中文﹕Jill
 　　俄文﹕EvgeshaH
 
