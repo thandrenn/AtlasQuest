@@ -8,7 +8,7 @@
 ## Notes: Shows the Quests for dungeons and battlegrounds.
 ## Notes-deDE: Zeigt die Quests, die es für die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
-## Notes-zhCN: Atlas插件，在Atlas面板上显示副本相关任务及副本背景等.
+## Notes-zhCN: Atlas 插件，在 Atlas 面板上显示副本和战场相关任务及副本背景。
 ## Notes-zhTW: 顯示副本背景故事、相關任務及BOSS攻略提示
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Author: Thandrenn
