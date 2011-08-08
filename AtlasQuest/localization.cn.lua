@@ -30,7 +30,7 @@
 	Ananhaid（1区 斯坦索姆“毛茸茸”公会 Adavak）
 	Email：ananhaid@gmail.com
 	Original updater:DIY
-	更新日期：11年7月28日
+	更新日期：11年8月8日
 
 --]]
 
@@ -482,7 +482,7 @@ Inst4Quest1_Aim = "击败艾隆纳亚。"
 Inst4Quest1_Location = "首席勘探员杜尔林（奥达曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest1_Note = "艾隆纳亚在"..YELLOW.."[3]"..WHITE.."。你必须从巴尔洛戈的箱子"..YELLOW.."[1]"..WHITE.."中拿取尼基夫徽章，并且从鲁维罗什"..YELLOW.."[2]"..WHITE.."身上取得索尔之杖，将两者合并成为开启钥匙之石。\n\n完成任务之后，可以接到后续任务。"
 Inst4Quest1_Prequest = "无"
-Inst4Quest1_Folgequest = "阿札達斯，遠古石之看守者"
+Inst4Quest1_Folgequest = "阿扎达斯，远古石卫士"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -554,7 +554,7 @@ Inst4Quest1_HORDE_Aim = "击败艾隆纳亚。"
 Inst4Quest1_HORDE_Location = "高阶考察者泰瑟兰·血望者（奥达曼; "..YELLOW.."入口"..WHITE.."）"
 Inst4Quest1_HORDE_Note = "艾隆纳亚在"..YELLOW.."[3]"..WHITE.."。你必须从巴尔洛戈的箱子"..YELLOW.."[1]"..WHITE.."中拿取尼基夫徽章，并且从鲁维罗什"..YELLOW.."[2]"..WHITE.."身上取得索尔之杖，将两者合并成为开启钥匙之石。\n\n完成任务之后，可以接到后续任务。"
 Inst4Quest1_HORDE_Prequest = "无"
-Inst4Quest1_HORDE_Folgequest = "阿札達斯，遠古石之看守者"
+Inst4Quest1_HORDE_Folgequest = "阿扎达斯，远古石卫士"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -623,303 +623,295 @@ Inst4Quest6name3_HORDE = Inst4Quest6name3
 
 Inst5Story = "黑石深渊曾经是黑铁矮人的伟大都城，这个火山中的迷宫现在成为拉格纳罗斯火焰领主的王座所在地。拉格纳罗斯找到了使用石头和设计图来创造一支无敌石头人均对来帮助它征服黑石深渊。即使是需要打败奈法利安和他的龙子龙孙，拉格纳罗斯会不惜一切代价来达到最后的胜利。"
 Inst5Caption = "黑石深渊（BRD）"
-Inst5QAA = "16 个任务"
-Inst5QAH = "20 个任务"
+Inst5QAA = "21 个任务"
+Inst5QAH = "22 个任务"
 
 --Quest 1 Alliance
-Inst5Quest1 = "1. 黑铁的遗产"
+Inst5Quest1 = "1. 进入监狱"
 Inst5Quest1_Level = "52"
-Inst5Quest1_Attain = "48"
-Inst5Quest1_Aim = "杀掉弗诺斯·达克维尔并拿回战锤铁胆。把铁胆之锤拿到索瑞森神殿去，将其放在弗兰克罗恩·铸铁的雕像上。"
-Inst5Quest1_Location = "弗兰克罗恩·铸铁（黑石山; "..YELLOW.."副本入口地图[3]"..WHITE.."）"
-Inst5Quest1_Note = "弗兰克罗恩在黑石山那个由链条牵引的中心，在他的墓上方。你必须死亡后在灵魂状态才能见到他！和他交谈2次，激活任务。\n弗诺斯·达克维尔在"..YELLOW.."[9]"..WHITE.."。你会在"..YELLOW.."[7]"..WHITE.."找到神殿。"
-Inst5Quest1_Prequest = "黑铁的遗产"
-Inst5Quest1_Folgequest = "无"
---
-Inst5Quest1name1 = "暗炉钥匙"
+Inst5Quest1_Attain = "47"
+Inst5Quest1_Aim = "找到凯文·达森。"
+Inst5Quest1_Location = "加琳达（黑石深渊; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest1_Note = "凯文·达森在前往监狱"..GREEN.."[2']"..WHITE.."的路上。"
+Inst5Quest1_Prequest = "无"
+Inst5Quest1_Folgequest = "暮光？不行！"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst5Quest2 = "2. 雷布里·斯库比格特"
-Inst5Quest2_Level = "53"
-Inst5Quest2_Attain = "48"
-Inst5Quest2_Aim = "把雷布里的头颅交给燃烧平原的尤卡·斯库比格特。"
-Inst5Quest2_Location = "尤卡·斯库比格特（燃烧平原 - 烈焰峰; "..YELLOW.."65,22"..WHITE.."）"
-Inst5Quest2_Note = "可以直接接到任务，也可以接到前续任务从尤卡·斯库比格特（塔纳利斯 - 热砂港; "..YELLOW.."67,23"..WHITE.."）那儿得到。\n雷布里位于"..YELLOW.."[15]"..WHITE.."。"
-Inst5Quest2_Prequest = "尤卡·斯库比格特"
+Inst5Quest2 = "2. 暮光？不行！"
+Inst5Quest2_Level = "55"
+Inst5Quest2_Attain = "47"
+Inst5Quest2_Aim = "“审讯”审讯官格斯塔恩。"
+Inst5Quest2_Location = "凯文·达森（黑石深渊; "..GREEN.."[2']"..WHITE.."）"
+Inst5Quest2_Note = "审讯官格斯塔恩可以在"..YELLOW.."[1]"..WHITE.."的地方找到。"
+Inst5Quest2_Prequest = "进入监狱"
 Inst5Quest2_Folgequest = "无"
-Inst5Quest2PreQuest = "true"
---
-Inst5Quest2name1 = "怨恨之靴"
-Inst5Quest2name2 = "忏悔肩铠 "
-Inst5Quest2name3 = "钢条护甲"
+Inst5Quest2FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst5Quest3 = "3. 爱情药水"
-Inst5Quest3_Level = "54"
-Inst5Quest3_Attain = "50"
-Inst5Quest3_Aim = "将4份格罗姆之血、10块巨型银矿和装满水的娜玛拉之瓶交给黑石深渊的娜玛拉小姐。"
-Inst5Quest3_Location = "娜玛拉小姐（黑石深渊; "..YELLOW.."[15]"..WHITE.."）"
-Inst5Quest3_Note = "巨型银矿可从艾萨拉的巨人们那里得到。格罗姆之血可以请学习了草药学的玩家帮助寻找。 你可以在（安戈洛环形山 - 葛拉卡温泉; "..YELLOW.."31,50"..WHITE.."）为瓶子装满水。\n完成任务后，你可以使用后门而不必杀死法拉克斯。"
-Inst5Quest3_Prequest = "无"
-Inst5Quest3_Folgequest = "无"
---
-Inst5Quest3name1 = "镣铐护腕 "
-Inst5Quest3name2 = "娜玛拉的腰带"
+Inst5Quest3 = "3. 紧闭的大门"
+Inst5Quest3_Level = "52"
+Inst5Quest3_Attain = "47"
+Inst5Quest3_Aim = "杀死贝尔加。"
+Inst5Quest3_Location = "丁奇·斯迪波尔（黑石深渊; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest3_Note = "贝尔加在"..YELLOW.."[4]"..WHITE.."。"
+Inst5Quest3_Prequest = "無"
+Inst5Quest3_Folgequest = "無"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst5Quest4 = "4. 霍尔雷·黑须"
-Inst5Quest4_Level = "55"
-Inst5Quest4_Attain = "50"
-Inst5Quest4_Aim = "把遗失的雷酒秘方带给卡拉诺斯的拉格纳·雷酒。"
-Inst5Quest4_Location = "拉格纳·雷酒（丹莫罗 - 卡拉诺斯; "..YELLOW.."46,52"..WHITE.."）"
-Inst5Quest4_Note = "前续任务从 恩诺哈尔·雷酒（诅咒之地 - 守望堡; "..YELLOW.."61,18"..WHITE.."）处获得。\n如果你在"..YELLOW.."[15]"..WHITE.."区摧毁装有雷霆啤酒的桶，守卫就会出现。秘方就在这其中一个守卫身上。"
-Inst5Quest4_Prequest = "拉格纳·雷酒"
-Inst5Quest4_Folgequest = "无"
-Inst5Quest4PreQuest = "true"
---
-Inst5Quest4name1 = "矮人黑啤酒"
-Inst5Quest4name2 = "迅捷木槌"
-Inst5Quest4name3 = "叉刃巨斧"
+Inst5Quest4 = "4. 潜入暗炉城"
+Inst5Quest4_Level = "54"
+Inst5Quest4_Attain = "51"
+Inst5Quest4_Aim = "与勘测员塞莫尔交谈。"
+Inst5Quest4_Location = "奥拉留斯（黑石深渊; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest4_Note = "勘测员塞莫尔在"..GREEN.."[3']"..WHITE.."。"
+Inst5Quest4_Prequest = "无"
+Inst5Quest4_Folgequest = "黑铁战术家"
+-- No Rewards for this quest
 
---Quest 5 Alliance 
-Inst5Quest5 = "5. 征服者派隆"
-Inst5Quest5_Level = "52"
-Inst5Quest5_Attain = "48"
-Inst5Quest5_Aim = "杀掉征服者派隆，然后向加琳达复命。"
-Inst5Quest5_Location = "加琳达（燃烧平原 - 摩根的岗哨; "..YELLOW.."85,69"..WHITE.."）"
-Inst5Quest5_Note = "征服者派隆是副本门口外面的一个火元素精英。在黑石深渊地图的"..YELLOW.."[24]"..WHITE.."，黑石深渊副本入口地图的"..YELLOW.."[1]"..WHITE.."。"
-Inst5Quest5_Prequest = "无"
-Inst5Quest5_Folgequest = "伊森迪奥斯"
+--Quest 5 Alliance
+Inst5Quest5 = "5. 黑铁战术家"
+Inst5Quest5_Level = "55"
+Inst5Quest5_Attain = "51"
+Inst5Quest5_Aim = "杀死怒炉将军和傀儡统帅阿格曼奇。"
+Inst5Quest5_Location = "勘测员塞莫尔（黑石深渊; "..GREEN.."[3']"..WHITE.."）"
+Inst5Quest5_Note = "怒炉将军在"..YELLOW.."[10]"..WHITE.."，傀儡统帅阿格曼奇在"..YELLOW.."[11]"..WHITE.."。在"..GREEN.."[7']"..WHITE.."向玛亚拉·布莱特文交付任务。"
+Inst5Quest5_Prequest = "潜入暗炉城"
+Inst5Quest5_Folgequest = "黑铁酒吧"
+Inst5Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst5Quest6 = "6. 伊森迪奥斯！"
+Inst5Quest6 = "6. 黑铁酒吧"
 Inst5Quest6_Level = "56"
-Inst5Quest6_Attain = "48"
-Inst5Quest6_Aim = "在黑石深渊里找到伊森迪奥斯，然后把他干掉！"
-Inst5Quest6_Location = "加琳达（燃烧平原 - 摩根的岗哨; "..YELLOW.."85,69"..WHITE.."）"
-Inst5Quest6_Note = "伊森迪奥斯在"..YELLOW.."[10]"..WHITE.."。"
-Inst5Quest6_Prequest = "征服者派隆"
-Inst5Quest6_Folgequest = "无"
+Inst5Quest6_Attain = "51"
+Inst5Quest6_Aim = "与霍尔雷·黑须、普拉格和雷布里·斯库比格特交手。"
+Inst5Quest6_Location = "玛亚拉·布莱特文（黑石深渊; "..GREEN.."[7']"..WHITE.."）"
+Inst5Quest6_Note = "任务所需的三个人都在黑铁酒吧里的"..YELLOW.."[12]"..WHITE.."、"..YELLOW.."[13]"..WHITE.."和"..YELLOW.."[14]"..WHITE.."。在"..GREEN.."[10']"..WHITE.."向巡山人奥弗斯交付任务。"
+Inst5Quest6_Prequest = "黑铁战术家"
+Inst5Quest6_Folgequest = "黑铁的契约"
 Inst5Quest6FQuest = "true"
---
-Inst5Quest6name1 = "阳焰斗篷"
-Inst5Quest6name2 = "夜暮手套"
-Inst5Quest6name3 = "地穴恶魔护腕"
-Inst5Quest6name4 = "坚定手套"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst5Quest7 = "7. 山脉之心"
-Inst5Quest7_Level = "55"
-Inst5Quest7_Attain = "50"
-Inst5Quest7_Aim = "把山脉之心交给燃烧平原的麦克斯沃特·尤博格林。"
-Inst5Quest7_Location = "麦克斯沃特·尤博格林（燃烧平原 - 烈焰峰; "..YELLOW.."65,23"..WHITE.."）"
-Inst5Quest7_Note = "你可以从"..YELLOW.."[8]"..WHITE.."的宝箱里找到山脉之心。你必须打开黑色宝库所有的小宝箱出来 Boss 之后才能拿到钥匙。"
-Inst5Quest7_Prequest = "无"
-Inst5Quest7_Folgequest = "无"
+Inst5Quest7 = "7. 黑铁的契约"
+Inst5Quest7_Level = "57"
+Inst5Quest7_Attain = "51"
+Inst5Quest7_Aim = "杀死弗莱拉斯大使和杜姆雷尔。"
+Inst5Quest7_Location = "巡山人奥弗斯（黑石深渊; "..GREEN.."[10']"..WHITE.."）"
+Inst5Quest7_Note = "弗莱拉斯大使在"..YELLOW.."[15]"..WHITE.."，杜姆雷尔在"..YELLOW.."[16]"..WHITE.."。在"..GREEN.."[11']"..WHITE.."向麦克斯韦尔元帅交付任务。"
+Inst5Quest7_Prequest = "黑铁酒吧"
+Inst5Quest7_Folgequest = "摩根的成果"
+Inst5Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst5Quest8 = "8. 好东西"
-Inst5Quest8_Level = "56"
-Inst5Quest8_Attain = "50"
-Inst5Quest8_Aim = "到黑石深渊去找到20个黑铁挎包。当你完成任务之后，回到奥拉留斯那里复命。你认为黑石深渊里的黑铁矮人应该会有这些黑铁挎包。"
-Inst5Quest8_Location = "奥拉留斯（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,68"..WHITE.."）"
-Inst5Quest8_Note = "所有矮人都可能掉落挎包。"
-Inst5Quest8_Prequest = "无"
+Inst5Quest8 = "8. 摩根的成果"
+Inst5Quest8_Level = "58"
+Inst5Quest8_Attain = "51"
+Inst5Quest8_Aim = "杀死达格兰·索瑞森大帝。"
+Inst5Quest8_Location = "麦克斯韦尔元帅（黑石深渊; "..GREEN.."[11']"..WHITE.."）"
+Inst5Quest8_Note = "达格兰·索瑞森大帝在"..YELLOW.."[18]"..WHITE.."。向身后的麦克斯韦尔元帅交付任务。"
+Inst5Quest8_Prequest = "黑铁的契约"
 Inst5Quest8_Folgequest = "无"
+Inst5Quest8FQuest = "true"
 --
-Inst5Quest8name1 = "肮脏的背包"
-
-
---[[  
-     他拥有“瑟银的胆量”，他是一个“生动的传说” ————暴风城卫兵们如此赞颂他
-     当暴风城防卫的最高指挥官也向这位勇士跪下时，一股震撼的力量传遍了我们的心灵
-     
-     这就是-雷吉纳德·温德索尔元帅，一直毫不畏惧地与黑龙做着坚持斗争的伟大英雄，忠于自己的信念忠于自己的国家，
-     为了揭穿奥妮克西娅的阴谋而不断地努力，经历了与黑石兽人的袭击和被俘，在我们的协助下在黑石深渊的监牢中突破敌人的层层封锁，
-     最后揭穿了奥妮克西娅妄图统治人类的阴谋并让伯瓦尔公爵摆脱了奥妮克西娅的控制，自己却被奥妮克西娅残忍杀害的英雄。
-     我们永远不会忘记你，温德索尔元帅！这些任务永远为你留存。
-         
---Quest Alliance  Leave the quests here for memories to Windsor
-Inst5Quest9 = "9. 温德索尔元帅 (奥妮克希亚系列任务)"
-Inst5Quest9_Level = "54"
-Inst5Quest9_Attain = "48"
-Inst5Quest9_Aim = "到西北部的黑石山脉去，在黑石深渊中找到温德索尔元帅的下落。\n狼狈不堪的约翰曾告诉你说温德索尔被关进了一个监狱。"
-Inst5Quest9_Location = "麦克斯韦尔元帅（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,68"..WHITE.."）"
-Inst5Quest9_Note = "此系列任务始于赫林迪斯·河角（燃烧平原 - 摩根的岗哨"..YELLOW.."85,68"..WHITE.."）。\n温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。完成这个任务后，你要回到麦克斯韦尔元帅那里."
-Inst5Quest9_Prequest = "黑龙的威胁 -> 真正的主人"
-Inst5Quest9_Folgequest = "被遗弃的希望 -> 弄皱的便笺"
-Inst5Quest9PreQuest = "true"
-
-Inst5Quest9name1 = "监督官头盔"
-Inst5Quest9name2 = "盾甲铁靴"
-Inst5Quest9name3 = "风剪护腿"
-
---Quest 10 Alliance
-Inst5Quest10 = "10. 弄皱的便笺 (奥妮克希亚系列任务)"
-Inst5Quest10_Level = "58"
-Inst5Quest10_Attain = "50"
-Inst5Quest10_Aim = "温德索尔元帅也许会对你手中的东西感兴趣。毕竟，希望还没有被完全扼杀。"
-Inst5Quest10_Location = "弄皱的便笺（掉落）（黑石深渊）"
-Inst5Quest10_Note = "这个任务是弄皱的便笺触发的。温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。副本里和外的所有黑铁矮人都有很大几率掉落便笺。"
-Inst5Quest10_Prequest = "温德索尔元帅"
-Inst5Quest10_Folgequest = "一丝希望"
-Inst5Quest10FQuest = "true"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst5Quest11 = "11. 一丝希望 (奥妮克希亚系列任务)"
-Inst5Quest11_Level = "58"
-Inst5Quest11_Attain = "52"
-Inst5Quest11_Aim = "找回温德索尔元帅遗失的情报。\n温德索尔元帅确信那些情报在安格弗将军和傀儡统帅阿格曼奇的手里。"
-Inst5Quest11_Location = "温德索尔元帅（黑石深渊; "..YELLOW.."[4]"..WHITE.."）"
-Inst5Quest11_Note = "温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。\n傀儡统帅阿格曼奇在"..YELLOW.."[14]"..WHITE.."，安格弗将军在"..YELLOW.."[13]"..WHITE.."。"
-Inst5Quest11_Prequest = "弄皱的便笺"
-Inst5Quest11_Folgequest = "冲破牢笼！"
-Inst5Quest11FQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst5Quest12 = "12. 冲破牢笼！ (奥妮克希亚系列任务)"
-Inst5Quest12_Level = "58"
-Inst5Quest12_Attain = "52"
-Inst5Quest12_Aim = "帮助温德索尔元帅拿回他的装备并救出他的朋友。当你成功之后就回去向麦克斯韦尔元帅复命。"
-Inst5Quest12_Location = "温德索尔元帅（黑石深渊; "..YELLOW.."[4]"..WHITE.."）"
-Inst5Quest12_Note = "温德索尔元帅在"..YELLOW.."[4]"..WHITE.."。\n如果你清掉法律之环一圈的怪（"..YELLOW.."[6]"..WHITE.."）和通向副本门口的怪的话会轻松很多。护送完成后去找麦克斯韦尔元帅（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,68"..WHITE.."）。"
-Inst5Quest12_Prequest = "一丝希望"
-Inst5Quest12_Folgequest = "集合在暴风城"
-Inst5Quest12FQuest = "true"
-
-Inst5Quest12name1 = "元素屏障"
-Inst5Quest12name2 = "清算之刃"
-Inst5Quest12name3 = "作战之刃"
-
---]]
+Inst5Quest8name1 = "索瑞森胸铠"
+Inst5Quest8name2 = "玛克斯韦尔的披风"
+Inst5Quest8name3 = "黑铁之戒"
 
 --Quest 9 Alliance
-Inst5Quest9 = "9. 烈焰精华"
-Inst5Quest9_Level = "58"
-Inst5Quest9_Attain = "52"
-Inst5Quest9_Aim = "到黑石深渊去杀掉贝尔加。\n你只知道这个巨型怪物住在黑石深渊的最深处。记住你要使用特殊的黑龙皮从贝尔加的尸体上采集烈焰精华。\n将你采集到的烈焰精华交给塞勒斯·萨雷芬图斯。"
-Inst5Quest9_Location = "塞勒斯·萨雷芬图斯（燃烧平原; "..YELLOW.."94,31"..WHITE.."）"
-Inst5Quest9_Note = "此系列任务始于卡拉然·温布雷（灼热峡谷; "..YELLOW.."39,38"..WHITE.."）。\n 贝尔加在"..YELLOW.."[11]"..WHITE.."。"
-Inst5Quest9_Prequest = "无瑕之焰 -> 烈焰精华"
+Inst5Quest9 = "9. 山脉之心"
+Inst5Quest9_Level = "55"
+Inst5Quest9_Attain = "51"
+Inst5Quest9_Aim = "获得山脉之心。"
+Inst5Quest9_Location = "麦克斯沃特·尤博格林（黑石深渊; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest9_Note = "山脉之心在"..YELLOW.."[7]"..WHITE.."。"
+Inst5Quest9_Prequest = "无"
 Inst5Quest9_Folgequest = "无"
-Inst5Quest9PreQuest = "true"
---
-Inst5Quest9name1 = "页岩斗篷"
-Inst5Quest9name2 = "龙皮肩铠"
-Inst5Quest9name3 = "火山腰带"
+-- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst5Quest10 = "10. 卡兰·巨锤"
-Inst5Quest10_Level = "59"
+Inst5Quest10 = "10. 危险的联盟 （战士）"
+Inst5Quest10_Level = "50"
 Inst5Quest10_Attain = "50"
-Inst5Quest10_Aim = " 去黑石深渊找到卡兰·巨锤。\n国王提到卡兰在那里负责看守囚犯——也许你应该在监狱附近寻找他。"
-Inst5Quest10_Location = "国王麦格尼·铜须（铁炉堡; "..YELLOW.."39,55"..WHITE.."）"
-Inst5Quest10_Note = "前续任务始于皇家历史学家阿克瑟努斯（铁炉堡; "..YELLOW.."38,55"..WHITE.."）。卡兰·巨锤位于"..YELLOW.."[2]"..WHITE.."。"
-Inst5Quest10_Prequest =  "索瑞森废墟"
-Inst5Quest10_Folgequest = "卡兰的故事 - > 糟糕的消息 - > 王国的命运 - > 语出惊人的公主"
+Inst5Quest10_Aim = "在黑石深渊杀死6名火焰驱逐者，并从西区兵营的怒炉将军身上缴获将军的进攻计划书。"
+Inst5Quest10_Location = "安德尔·杰曼（暴风城 - 旧城区; "..YELLOW.."79.8, 69.5"..WHITE.."）"
+Inst5Quest10_Note = "这是战士职业任务。非必须的前置任务“与安德尔·杰曼会晤”来自各主城的战士训练师。\n\n怒炉将军在"..YELLOW.."[10]"..WHITE.."，火焰驱逐者则在通往怒炉将军所在位置的路上。"
+Inst5Quest10_Prequest = "与安德尔·杰曼会晤"
+Inst5Quest10_Folgequest = "无"
 Inst5Quest10PreQuest = "true"
--- No Rewards for this quest
+--
+Inst5Quest10name1 = "王权面甲"
+Inst5Quest10name2 = "王权战盔"
 
 --Quest 11 Alliance
-Inst5Quest11 = "11. 王国的命运"
-Inst5Quest11_Level = "59"
-Inst5Quest11_Attain = "51"
-Inst5Quest11_Aim = "回到黑石深渊，从达格兰·索瑞森大帝的魔掌中救出铁炉堡公主茉艾拉·铜须。"
-Inst5Quest11_Location = "国王麦格尼·铜须（铁炉堡; "..YELLOW.."39,55"..WHITE.."）"
-Inst5Quest11_Note = "公主茉艾拉·铜须 位于"..YELLOW.."[21]"..WHITE.."。战斗中她可能会治疗达格兰。试着尽可能打断她。但是一定不能让她死掉，否则你的任务将会失败！与她交谈过后，你还要回到麦格尼·铜须那儿去。"
-Inst5Quest11_Prequest = "糟糕的消息"
-Inst5Quest11_Folgequest = "语出惊人的公主"
-Inst5Quest11FQuest = "true"
+Inst5Quest11 = "11. 火焰之王的奴隶们 （萨满祭司）"
+Inst5Quest11_Level = "50"
+Inst5Quest11_Attain = "50"
+Inst5Quest11_Aim = "用自由图腾在黑石深渊解放6名火焰卫士、火焰驱逐者或炽热火焰卫士的精华。"
+Inst5Quest11_Location = "先知安布洛尔（暴风城 - 矮人区; "..YELLOW.."65.9, 31.4"..WHITE.."）"
+Inst5Quest11_Note = "这是萨满祭司职业任务。非必须的前置任务“与先知安布洛尔会晤”来自各主城的萨满祭司训练师。\n\n火焰卫士可以在黑石深渊的各处找到。在杀死他们之前先使用自由图腾。"
+Inst5Quest11_Prequest = "与先知安布洛尔会晤"
+Inst5Quest11_Folgequest = "无"
+Inst5Quest11PreQuest = "true"
 --
-Inst5Quest11name1 = "麦格尼的意志"
-Inst5Quest11name2 = "铁炉堡歌唱石"
+Inst5Quest11name1 = "先知的面甲"
+Inst5Quest11name2 = "先知的罩帽"
 
 --Quest 12 Alliance
-Inst5Quest12 = "12. 熔火之心的传送门"
-Inst5Quest12_Level = "60"
-Inst5Quest12_Attain = "55"
-Inst5Quest12_Aim = "进入黑石深渊，在通往熔火之心的传送门附近找到一块熔火碎片，然后回到黑石山脉的洛索斯·天痕那里。"
-Inst5Quest12_Location = "洛索斯·天痕（黑石山; "..YELLOW.."副本入口地图[2]"..WHITE.."）"
-Inst5Quest12_Note = "完成这个任务之后你就可以从洛索斯·天痕旁边的传送石进入熔火之心。\n熔火碎片在"..YELLOW.."[23]"..WHITE.."。"
-Inst5Quest12_Prequest = "无"
+Inst5Quest12 = "12. 绑缚之石 （术士）"
+Inst5Quest12_Level = "50"
+Inst5Quest12_Attain = "50"
+Inst5Quest12_Aim = "从黑石深渊找到6块元素束缚之石。你可以在暗炉城、住宅区、索瑞森神殿、东区兵营，以及西区兵营这些地方找到它们。"
+Inst5Quest12_Location = "德米赛特·克劳斯（暴风城 - 法师区; "..YELLOW.."39.7, 84.5"..WHITE.."）"
+Inst5Quest12_Note = "这是术士职业任务。非必须的前置任务“与德米赛特·克劳斯会晤”来自各主城的术士训练师。"
+Inst5Quest12_Prequest = "与德米赛特·克劳斯会晤"
 Inst5Quest12_Folgequest = "无"
--- No Rewards for this quest
+Inst5Quest12PreQuest = "true"
+--
+Inst5Quest12name1 = "可恕罪恶之冠"
 
 --Quest 13 Alliance
-Inst5Quest13 = "13. 挑战 (T0.5升级任务)"
-Inst5Quest13_Level = "60"
-Inst5Quest13_Attain = "60"
-Inst5Quest13_Aim = "前往黑石深渊竞技场并在你被裁决者格里斯通宣判时将挑衅旗帜放在它的中央。杀死瑟尔伦和他的战士们，再带着第一块瓦萨拉克护符回到东瘟疫之地的安希恩·哈莫那里。"
-Inst5Quest13_Location = "法尔林·树影（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）"
-Inst5Quest13_Note = "对于不同的职业后续任务是不同的。"
-Inst5Quest13_Prequest = "无"
-Inst5Quest13_Folgequest = "各个职业的职业任务（T0.5升级任务）"
--- No Rewards for this quest
+Inst5Quest13 = "13. 塞纳留斯之息 （德鲁伊）"
+Inst5Quest13_Level = "50"
+Inst5Quest13_Attain = "50"
+Inst5Quest13_Aim = "从黑石深渊的控火师罗格雷恩身上夺回塞纳留斯之息，并用此神器关闭3座元素之门。"
+Inst5Quest13_Location = "洛甘纳尔（月光林地 - 永夜港; "..YELLOW.."52.5, 40.5"..WHITE.."）"
+Inst5Quest13_Note = "这是德鲁伊职业任务。非必须的前置任务“月光林地的召唤”来自各主城的德鲁伊训练师。\n\n控火师罗格雷恩在"..YELLOW.."[8]"..WHITE.."。"
+Inst5Quest13_Prequest = "月光林地的召唤"
+Inst5Quest13_Folgequest = "无"
+Inst5Quest13PreQuest = "true"
+--
+Inst5Quest13name1 = "碧环头饰"
+Inst5Quest13name2 = "青环头饰"
 
 --Quest 14 Alliance
-Inst5Quest14 = "14. 鬼魂之杯 (采矿任务)"
-Inst5Quest14_Level = "55"
-Inst5Quest14_Attain = "55"
-Inst5Quest14_Aim = "鬼魂之杯的塞娜尼·雷心要你找到他想要的材料。"
-Inst5Quest14_Location = "塞娜尼·雷心（黑石深渊; "..YELLOW.."[18]"..WHITE.."）"
-Inst5Quest14_Note = "只有采矿技能大于230才能接到此任务，这个任务会是你学会如何熔炼黑铁矿石。材料如下：2个[红宝石]，20个[金锭]，10个[真银锭]。完成之后，如果你有[黑铁矿石]你可以在黑熔炉"..YELLOW.."[22]"..WHITE.."熔炼黑铁。"
-Inst5Quest14_Prequest = "无"
+Inst5Quest14 = "14. 黑铁大军 （潜行者）"
+Inst5Quest14_Level = "50"
+Inst5Quest14_Attain = "50"
+Inst5Quest14_Aim = "用速效毒药污染黑石深渊西区军营或东区军营的6份谷物军粮。"
+Inst5Quest14_Location = "托尼·罗曼诺（暴风城 - 旧城区; "..YELLOW.."79.6, 61.2"..WHITE.."）"
+Inst5Quest14_Note = "这是潜行者职业任务。非必须的前置任务“与托尼·罗曼诺会晤”来自各主城的潜行者训练师。"
+Inst5Quest14_Prequest = "与托尼·罗曼诺会晤"
 Inst5Quest14_Folgequest = "无"
--- No Rewards for this quest
+Inst5Quest14PreQuest = "true"
+--
+Inst5Quest14name1 = "军情七处特工面罩"
 
 --Quest 15 Alliance
-Inst5Quest15 = "15. 保护美酒节！ (季节性)"
-Inst5Quest15_Level = "80"
-Inst5Quest15_Attain = "75"
-Inst5Quest15_Aim = "和黑石深渊里黑石酒吧的美酒节间谍对话."
-Inst5Quest15_Location = "达尔娜·蜜酒 (丹莫罗 - 卡拉诺斯; "..YELLOW.."46.53"..WHITE..")"
-Inst5Quest15_Note = "这个任务只有美酒节的时候才会出现. 美酒节间谍在 "..YELLOW.."[15]"..WHITE.."."
-Inst5Quest15_Prequest = "无"
-Inst5Quest15_Folgequest = "干掉科林·烈酒"
--- No Rewards for this quest
+Inst5Quest15 = "15. 傀儡统帅的造物 （猎人）"
+Inst5Quest15_Level = "50"
+Inst5Quest15_Attain = "50"
+Inst5Quest15_Aim = "从黑石深渊制造厂获得5个元素模组，并且拿回元素傀儡蓝图。"
+Inst5Quest15_Location = "乌尔夫·哈斯雷姆（暴风城 - 旧城区; "..YELLOW.."79.5, 70.9"..WHITE.."）"
+Inst5Quest15_Note = "这是猎人职业任务。非必须的前置任务“与乌尔夫·哈斯雷姆会晤”来自各主城的猎人训练师。\n\n元素魔像蓝图掉落自傀儡统帅阿格曼奇"..YELLOW.."[11]"..WHITE.."，而元素模组则在傀儡附近。"
+Inst5Quest15_Prequest = "与乌尔夫·哈斯雷姆会晤"
+Inst5Quest15_Folgequest = "无"
+Inst5Quest15PreQuest = "true"
+--
+Inst5Quest15name1 = "王权之盔"
 
 --Quest 16 Alliance
-Inst5Quest16 = "16. 干掉科林·烈酒 (季节性 - 日常)"
-Inst5Quest16_Level = "80"
-Inst5Quest16_Attain = "75"
-Inst5Quest16_Aim = "和科林·烈酒对话."
-Inst5Quest16_Location = "美酒节间谍 (黑石深渊 - 黑铁酒吧; "..YELLOW.."[15]"..WHITE..")"
-Inst5Quest16_Note = "完成这个任务将使 科林·烈酒 攻击你. 这个季节性日常每天只能完成一次.\n 前续任务只能完成一次，之后你只要去酒吧就可以直接接到这个任务了."
-Inst5Quest16_Prequest = "保护美酒节！"
+Inst5Quest16 = "16. 控火师的魔典 （法师）"
+Inst5Quest16_Level = "50"
+Inst5Quest16_Attain = "50"
+Inst5Quest16_Aim = "杀掉6个暮光使者，并从石深渊索瑞森神殿控火师罗格雷恩的身上获得罗格雷恩的魔典。"
+Inst5Quest16_Location = "玛吉诺·仲马（暴风城 - 法师区; "..YELLOW.."49.5, 87.0"..WHITE.."）"
+Inst5Quest16_Note = "这是法师职业任务。非必须的前置任务“与玛吉诺·仲马会晤”来自各主城的法师训练师。\n\n控火师罗格雷恩在"..YELLOW.."[8]"..WHITE.."。"
+Inst5Quest16_Prequest = "与玛吉诺·仲马会晤"
 Inst5Quest16_Folgequest = "无"
-Inst5Quest16FQuest = "true"
+Inst5Quest16PreQuest = "true"
+--
+Inst5Quest16name1 = "皇家巫师的兜帽"
+
+--Quest 17 Alliance
+Inst5Quest17 = "17. 暮光的阴谋 （牧师）"
+Inst5Quest17_Level = "50"
+Inst5Quest17_Attain = "50"
+Inst5Quest17_Aim = "使用发光的火炬在黑石深渊的住宅区烧毁8本暮光信经。"
+Inst5Quest17_Location = "高阶牧师劳瑞娜（暴风城 - 教堂广场; "..YELLOW.."49.7, 44.9"..WHITE.."）"
+Inst5Quest17_Note = "这是牧师职业任务。非必须的前置任务“与高阶牧师劳瑞娜会晤”来自各主城的牧师训练师。"
+Inst5Quest17_Prequest = "与高阶牧师劳瑞娜会晤"
+Inst5Quest17_Folgequest = "无"
+Inst5Quest17PreQuest = "true"
+--
+Inst5Quest17name1 = "神圣之冠"
+
+--Quest 18 Alliance
+Inst5Quest18 = "18. 黑暗的武器 （圣骑士）"
+Inst5Quest18_Level = "50"
+Inst5Quest18_Attain = "50"
+Inst5Quest18_Aim = "从黑石深渊的铁怒矮人身上缴获5把元素灌能武器，然后在暗炉城的黑铁砧上将它们敲断。"
+Inst5Quest18_Location = "格雷森·沙东布瑞克公爵（暴风城 - 教堂广场; "..YELLOW.."52.7, 45.1"..WHITE.."）"
+Inst5Quest18_Note = "这是圣骑士职业任务。非必须的前置任务“与格雷森·沙东布瑞克公爵会晤”来自各主城的圣骑士训练师。\n\n黑铁砧在"..YELLOW.."[5]"..WHITE.."。"
+Inst5Quest18_Prequest = "与格雷森·沙东布瑞克公爵会晤"
+Inst5Quest18_Folgequest = "无"
+Inst5Quest18PreQuest = "true"
+--
+Inst5Quest18name1 = "骑士团之盔"
+Inst5Quest18name2 = "骑士团面甲"
+Inst5Quest18name3 = "骑士团战盔"
+
+--Quest 19 Alliance
+Inst5Quest19 = "19. 熔火之心的传送门"
+Inst5Quest19_Level = "60"
+Inst5Quest19_Attain = "55"
+Inst5Quest19_Aim = "进入黑石深渊，在通往熔火之心的传送门附近找到一块熔火碎片，然后回到黑石山脉的洛索斯·天痕那里。"
+Inst5Quest19_Location = "洛索斯·天痕（黑石山; "..YELLOW.."锁链桥底部"..WHITE.."）"
+Inst5Quest19_Note = "完成这个任务后，你可以直接使用洛索斯·天痕身后的石头进入熔火之心。\n你可以在"..BLUE.."[E]"..WHITE.."的附近找到熔火碎片，非常靠近熔火之心的地下城入口。"
+Inst5Quest19_Prequest = "无"
+Inst5Quest19_Folgequest = "无"
 -- No Rewards for this quest
 
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst5Quest1_HORDE = Inst5Quest1
-Inst5Quest1_HORDE_Level = Inst5Quest1_Level
-Inst5Quest1_HORDE_Attain = Inst5Quest1_Attain
-Inst5Quest1_HORDE_Aim = Inst5Quest1_Aim
-Inst5Quest1_HORDE_Location = Inst5Quest1_Location
-Inst5Quest1_HORDE_Note = Inst5Quest1_Note
-Inst5Quest1_HORDE_Prequest = Inst5Quest1_Prequest
-Inst5Quest1_HORDE_Folgequest = Inst5Quest1_Folgequest
---
-Inst5Quest1name1_HORDE = Inst5Quest1name1
+--Quest 20 Alliance
+Inst5Quest20 = "20. 鬼魂之杯 （采矿）"
+Inst5Quest20_Level = "55"
+Inst5Quest20_Attain = "55"
+Inst5Quest20_Aim = "将格鲁雷尔所要求的材料放入鬼魂之杯。"
+Inst5Quest20_Location = "格鲁雷尔（黑石深渊; "..YELLOW.."[16]"..WHITE.."）"
+Inst5Quest20_Note = "只有采矿技能达到或高于230的玩家才能学习熔炼黑铁。材料如下：2个[红宝石]，20个[金锭]，10个[真银锭]。完成之后，如果你有[黑铁矿石]，你可以在黑熔炉"..GREEN.."[12']"..WHITE.."熔炼黑铁。"
+Inst5Quest20_Prequest = "无"
+Inst5Quest20_Folgequest = "无"
+-- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 21 Alliance
+Inst5Quest21 = "21. 科林的烈酒"
+Inst5Quest21_Level = "85"
+Inst5Quest21_Attain = "85"
+Inst5Quest21_Aim = "将科林的烈酒交给铁炉堡附近美酒节营地的埃菲库格·铁桶。"
+Inst5Quest21_Location = "科林的烈酒（掉落自科林·烈酒"..YELLOW.."[12]"..WHITE.."）"
+Inst5Quest21_Note = "科林·烈酒只有美酒节期间才会出现在黑石深渊，任务物品每个角色只可获取一次。\n\n埃菲库格·铁桶在美酒节营地（丹莫罗; "..YELLOW.."47,39"..WHITE.."）。"
+Inst5Quest21_Prequest = "无"
+Inst5Quest21_Folgequest = "无"
+--
+Inst5Quest21name1 = "美酒节奖币"
+
+
+--Quest 1 Horde
+Inst5Quest1_HORDE = "1. 进入监狱"
+Inst5Quest1_HORDE_Level = "52"
+Inst5Quest1_HORDE_Attain = "47"
+Inst5Quest1_HORDE_Aim = "找到雷克斯洛特。"
+Inst5Quest1_HORDE_Location = "Thal'trak Proudtusk（黑石深渊; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest1_HORDE_Note = "雷克斯洛特在前往监狱"..GREEN.."[2']"..WHITE.."的路上。"
+Inst5Quest1_HORDE_Prequest = "无"
+Inst5Quest1_HORDE_Folgequest = "暮光？不行！"
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance - different quest giver)
 Inst5Quest2_HORDE = Inst5Quest2
 Inst5Quest2_HORDE_Level = Inst5Quest2_Level
 Inst5Quest2_HORDE_Attain = Inst5Quest2_Attain
-Inst5Quest2_HORDE_Aim = Inst5Quest2_Aim
-Inst5Quest2_HORDE_Location = Inst5Quest2_Location
+Inst5Quest2_HORDE_Aim = "杀死审讯官格斯塔恩。"
+Inst5Quest2_HORDE_Location = "雷克斯洛特（黑石深渊; "..GREEN.."[2']"..WHITE.."）"
 Inst5Quest2_HORDE_Note = Inst5Quest2_Note
 Inst5Quest2_HORDE_Prequest = Inst5Quest2_Prequest
 Inst5Quest2_HORDE_Folgequest = Inst5Quest2_Folgequest
-Inst5Quest2PreQuest_HORDE = Inst5Quest2PreQuest
---
-Inst5Quest2name1_HORDE = Inst5Quest2name1
-Inst5Quest2name2_HORDE = Inst5Quest2name2
-Inst5Quest2name3_HORDE = Inst5Quest2name3
+Inst5Quest2FQuest_HORDE = Inst5Quest2FQuest
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst5Quest3_HORDE = Inst5Quest3
@@ -930,224 +922,254 @@ Inst5Quest3_HORDE_Location = Inst5Quest3_Location
 Inst5Quest3_HORDE_Note = Inst5Quest3_Note
 Inst5Quest3_HORDE_Prequest = Inst5Quest3_Prequest
 Inst5Quest3_HORDE_Folgequest = Inst5Quest3_Folgequest
---
-Inst5Quest3name1_HORDE = Inst5Quest3name1
-Inst5Quest3name2_HORDE = Inst5Quest3name2
+-- No Rewards for this quest
 
 --Quest 4 Horde
-Inst5Quest4_HORDE = "4. 遗失的雷酒秘方"
-Inst5Quest4_HORDE_Level = "55"
-Inst5Quest4_HORDE_Attain = "50"
-Inst5Quest4_HORDE_Aim = "把遗失的雷酒秘方交给卡加斯的薇薇安·拉格雷。"
-Inst5Quest4_HORDE_Location = "暗法师薇薇安·拉格雷（荒芜之地 - 卡加斯; "..YELLOW.."2,47"..WHITE.."）"
-Inst5Quest4_HORDE_Note = "前续任务由药剂师金格（幽暗城 - 炼金房; "..YELLOW.."50,68"..WHITE.."）给予。\n秘方在某个守卫身上，只要你破坏"..YELLOW.."[15]"..WHITE.."的酒桶这些守卫就会出现。"
-Inst5Quest4_HORDE_Prequest = "薇薇安·拉格雷"
-Inst5Quest4_HORDE_Folgequest = "无"
-Inst5Quest4PreQuest_HORDE = "true"
---
-Inst5Quest4name1_HORDE = "超强治疗药水"
-Inst5Quest4name2_HORDE = "强效法力药水"
-Inst5Quest4name3_HORDE = "迅捷木槌"
-Inst5Quest4name4_HORDE = "叉刃巨斧"
+Inst5Quest4_HORDE = "4. 潜入暗炉城"
+Inst5Quest4_HORDE_Level = "54"
+Inst5Quest4_HORDE_Attain = "51"
+Inst5Quest4_HORDE_Aim = "与拉扎布雷德交谈。"
+Inst5Quest4_HORDE_Location = "Galamav the Marksman （黑石深渊; "..YELLOW.."入口"..WHITE.."）"
+Inst5Quest4_HORDE_Note = "拉扎布雷德在"..GREEN.."[3']"..WHITE.."。"
+Inst5Quest4_HORDE_Prequest = "无"
+Inst5Quest4_HORDE_Folgequest = "第109师"
+-- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 7 Alliance)
-Inst5Quest5_HORDE = "5. 山脉之心"
-Inst5Quest5_HORDE_Level = Inst5Quest7_Level
-Inst5Quest5_HORDE_Attain = Inst5Quest7_Attain
-Inst5Quest5_HORDE_Aim = Inst5Quest7_Aim
-Inst5Quest5_HORDE_Location = Inst5Quest7_Location
-Inst5Quest5_HORDE_Note = Inst5Quest7_Note
-Inst5Quest5_HORDE_Prequest = Inst5Quest7_Prequest
-Inst5Quest5_HORDE_Folgequest = Inst5Quest7_Folgequest
+--Quest 5 Horde
+Inst5Quest5_HORDE = "5. 第109师"
+Inst5Quest5_HORDE_Level = "55"
+Inst5Quest5_HORDE_Attain = "51"
+Inst5Quest5_HORDE_Aim = "杀死怒炉将军和傀儡统帅阿格曼奇。"
+Inst5Quest5_HORDE_Location = "拉扎布雷德（黑石深渊; "..GREEN.."[3']"..WHITE.."）"
+Inst5Quest5_HORDE_Note = "怒炉将军在"..YELLOW.."[10]"..WHITE.."，傀儡统帅阿格曼奇在"..YELLOW.."[11]"..WHITE.."。在"..GREEN.."[7']"..WHITE.."向塞朵拉·穆瓦丹尼交付任务。"
+Inst5Quest5_HORDE_Prequest = "潜入暗炉城"
+Inst5Quest5_HORDE_Folgequest = "黑铁酒吧"
+Inst5Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde
-Inst5Quest6_HORDE = "6. 格杀勿论：黑铁矮人"
-Inst5Quest6_HORDE_Level = "52"
-Inst5Quest6_HORDE_Attain = "48"
-Inst5Quest6_HORDE_Aim = "到黑石深渊去消灭那些邪恶的侵略者！军官高图斯要你去杀死15个铁怒卫士、10个铁怒狱卒和5个铁怒步兵。完成任务之后回去向他复命。"
-Inst5Quest6_HORDE_Location = "通缉（荒芜之地 - 卡加斯; "..YELLOW.."3,47"..WHITE.."）"
-Inst5Quest6_HORDE_Note = "矮人可在黑石深渊第一部分找到。\n卡加斯的高图斯在瞭望塔顶（荒芜之地; "..YELLOW.."5,47"..WHITE.."）。"
-Inst5Quest6_HORDE_Prequest = "无"
-Inst5Quest6_HORDE_Folgequest = "格杀勿论：高阶黑铁军官"
+Inst5Quest6_HORDE = "6. 黑铁酒吧"
+Inst5Quest6_HORDE_Level = "56"
+Inst5Quest6_HORDE_Attain = "51"
+Inst5Quest6_HORDE_Aim = "与霍尔雷·黑须、普拉格和雷布里·斯库比格特交手。"
+Inst5Quest6_HORDE_Location = "塞朵拉·穆瓦丹尼（黑石深渊; "..GREEN.."[7']"..WHITE.."）"
+Inst5Quest6_HORDE_Note = "任务所需的三个人都在黑铁酒吧里的"..YELLOW.."[12]"..WHITE.."、"..YELLOW.."[13]"..WHITE.."和"..YELLOW.."[14]"..WHITE.."。在"..GREEN.."[10']"..WHITE.."向桑德哈特交付任务。"
+Inst5Quest6_HORDE_Prequest = "第109师"
+Inst5Quest6_HORDE_Folgequest = "黑铁的契约"
+Inst5Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde
-Inst5Quest7_HORDE = "7. 格杀勿论：高阶黑铁军官"
-Inst5Quest7_HORDE_Level = "54"
-Inst5Quest7_HORDE_Attain = "49"
-Inst5Quest7_HORDE_Aim = "到黑石深渊去消灭那些邪恶的侵略者！高图斯军阀要你杀死10个铁怒医师、10个铁怒士兵和10个铁怒军官。完成任务之后回去向他复命。"
-Inst5Quest7_HORDE_Location = "通缉（荒芜之地 - 卡加斯; "..YELLOW.."3,47"..WHITE.."）"
-Inst5Quest7_HORDE_Note = "矮人可以在"..YELLOW.."[11]"..WHITE.."贝尔加附近被找到。卡加斯的高图斯在瞭望塔顶（荒芜之地; "..YELLOW.."5,47"..WHITE.."）。\n任务开始于雷克斯洛特（荒芜之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）。 格拉克·洛克鲁布位置在燃烧平原（"..YELLOW.."38,35"..WHITE.."）。 要绑定他并开始护送任务（精英），他的生命需要减少到低于50%。"
-Inst5Quest7_HORDE_Prequest = "格杀勿论：黑铁矮人"
-Inst5Quest7_HORDE_Folgequest = "格拉克·洛克鲁布 -> 押送囚徒（护送任务）"
+Inst5Quest7_HORDE = "7. 黑铁的契约"
+Inst5Quest7_HORDE_Level = "57"
+Inst5Quest7_HORDE_Attain = "51"
+Inst5Quest7_HORDE_Aim = "杀死弗莱拉斯大使和杜姆雷尔。。"
+Inst5Quest7_HORDE_Location = "桑德哈特（黑石深渊; "..GREEN.."[10']"..WHITE.."）"
+Inst5Quest7_HORDE_Note = "弗莱拉斯大使在"..YELLOW.."[15]"..WHITE.."，杜姆雷尔在"..YELLOW.."[16]"..WHITE.."。在"..GREEN.."[11']"..WHITE.."向军官高图斯交付任务。"
+Inst5Quest7_HORDE_Prequest = "黑铁酒吧"
+Inst5Quest7_HORDE_Folgequest = "卡加斯远征军的重生"
 Inst5Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 8 Horde
-Inst5Quest8_HORDE = "8. 行动：杀死安格弗将军"
+Inst5Quest8_HORDE = "8. 卡加斯远征军的重生"
 Inst5Quest8_HORDE_Level = "58"
-Inst5Quest8_HORDE_Attain = "54"
-Inst5Quest8_HORDE_Aim = "到黑石深渊去杀掉安格弗将军！当任务完成之后向军官高图斯复命。"
-Inst5Quest8_HORDE_Location = "军官高图斯（荒芜之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）"
-Inst5Quest8_HORDE_Note = "安格弗将军位置在"..YELLOW.."[13]"..WHITE.."。注意：当他生命低于30%时，他会召唤帮手！"
-Inst5Quest8_HORDE_Prequest = "押送囚徒"
+Inst5Quest8_HORDE_Attain = "51"
+Inst5Quest8_HORDE_Aim = "杀死达格兰·索瑞森大帝。"
+Inst5Quest8_HORDE_Location = "军官高图斯（黑石深渊; "..GREEN.."[11']"..WHITE.."）"
+Inst5Quest8_HORDE_Note = "达格兰·索瑞森大帝在"..YELLOW.."[18]"..WHITE.."。向身后的军官高图斯交付任务。"
+Inst5Quest8_HORDE_Prequest = "黑铁的契约"
 Inst5Quest8_HORDE_Folgequest = "无"
 Inst5Quest8FQuest_HORDE = "true"
 --
-Inst5Quest8name1_HORDE = "征服者勋章"
+Inst5Quest8name1_HORDE = "黑铁之戒"
+Inst5Quest8name2_HORDE = "索瑞森的胸铠"
+Inst5Quest8name3_HORDE = "卡加斯斗篷"
 
---Quest 9 Horde
-Inst5Quest9_HORDE = "9. 机器的崛起"
-Inst5Quest9_HORDE_Level = "58"
-Inst5Quest9_HORDE_Attain = "52"
-Inst5Quest9_HORDE_Aim = "找到并杀掉傀儡统帅阿格曼奇，将他的头交给鲁特维尔。你还需要从守卫着阿格曼奇的狂怒傀儡和战斗傀儡身上收集10块完整的元素核心。"
-Inst5Quest9_HORDE_Location = "鲁特维尔·沃拉图斯（荒芜之地; "..YELLOW.."25,44"..WHITE.."）"
-Inst5Quest9_HORDE_Note = "前续任务来自圣者塞朵拉·穆瓦丹尼（荒芜之地 - 卡加斯; "..YELLOW.."3,47"..WHITE.."）。\n你可以在"..YELLOW.."[14]"..WHITE.."发现阿格曼奇。"
-Inst5Quest9_HORDE_Prequest = "机器的崛起"
-Inst5Quest9_HORDE_Folgequest = "无"
-Inst5Quest9PreQuest_HORDE = "true"
---
-Inst5Quest9name1_HORDE = "蓝月披肩"
-Inst5Quest9name2_HORDE = "雨法师斗篷"
-Inst5Quest9name3_HORDE = "黑陶鳞片护甲"
-Inst5Quest9name4_HORDE = "熔岩护手"
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst5Quest9_HORDE = Inst5Quest9
+Inst5Quest9_HORDE_Level = Inst5Quest9_Level
+Inst5Quest9_HORDE_Attain = Inst5Quest9_Attain
+Inst5Quest9_HORDE_Aim = Inst5Quest9_Aim
+Inst5Quest9_HORDE_Location = Inst5Quest9_Location
+Inst5Quest9_HORDE_Note = Inst5Quest9_Note
+Inst5Quest9_HORDE_Prequest = Inst5Quest9_Prequest
+Inst5Quest9_HORDE_Folgequest = Inst5Quest9_Folgequest
+-- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 9 Alliance)
-Inst5Quest10_HORDE = "10. 烈焰精华"
-Inst5Quest10_HORDE_Level = Inst5Quest9_Level
-Inst5Quest10_HORDE_Attain = Inst5Quest9_Attain
-Inst5Quest10_HORDE_Aim = Inst5Quest9_Aim
-Inst5Quest10_HORDE_Location = Inst5Quest9_Location
-Inst5Quest10_HORDE_Note = Inst5Quest9_Note
-Inst5Quest10_HORDE_Prequest = Inst5Quest9_Prequest
-Inst5Quest10_HORDE_Folgequest = Inst5Quest9_Folgequest
-Inst5Quest10PreQuest_HORDE = Inst5Quest9PreQuest
+--Quest 10 Horde
+Inst5Quest10_HORDE = "10. 危险的联盟 （战士）"
+Inst5Quest10_HORDE_Level = "50"
+Inst5Quest10_HORDE_Attain = "50"
+Inst5Quest10_HORDE_Aim = "在黑石深渊杀死6名火焰驱逐者，并从西区兵营的怒炉将军身上缴获将军的进攻计划书。"
+Inst5Quest10_HORDE_Location = "格雷兹·怒拳（奥格瑞玛 - 荣誉谷; "..YELLOW.."73.7, 45.6"..WHITE.."）"
+Inst5Quest10_HORDE_Note = "这是战士职业任务。非必须的前置任务“与格雷兹·怒拳会晤”来自各主城的战士训练师。\n\n怒炉将军在"..YELLOW.."[10]"..WHITE.."，火焰驱逐者则在通往怒炉将军所在位置的路上。"
+Inst5Quest10_HORDE_Prequest = "与格雷兹·怒拳会晤"
+Inst5Quest10_HORDE_Folgequest = "无"
+Inst5Quest10PreQuest_HORDE = "true"
 --
-Inst5Quest10name1_HORDE = Inst5Quest9name1
-Inst5Quest10name2_HORDE = Inst5Quest9name2
-Inst5Quest10name3_HORDE = Inst5Quest9name3
+Inst5Quest10name1_HORDE = "部落面甲"
+Inst5Quest10name2_HORDE = "部落战盔"
 
 --Quest 11 Horde
-Inst5Quest11_HORDE = "11. 不和谐的烈焰"
-Inst5Quest11_HORDE_Level = "52"
-Inst5Quest11_HORDE_Attain = "48"
-Inst5Quest11_HORDE_Aim = "到黑石山脉的采石场去干掉征服者派隆，然后向桑德哈特回报。"
-Inst5Quest11_HORDE_Location = "桑德哈特（荒芜之地 - 卡加斯; "..YELLOW.."3,48"..WHITE.."）"
-Inst5Quest11_HORDE_Note = "征服者派隆是副本门口外面的一个火元素精英。在黑石深渊"..YELLOW.."副本入口地图[1]"..WHITE.."。"
-Inst5Quest11_HORDE_Prequest = "无"
-Inst5Quest11_HORDE_Folgequest = "不和谐的火焰"
--- No Rewards for this quest
+Inst5Quest11_HORDE = "11. 火焰之王的奴隶们 （萨满祭司）"
+Inst5Quest11_HORDE_Level = "50"
+Inst5Quest11_HORDE_Attain = "50"
+Inst5Quest11_HORDE_Aim = "用自由图腾在黑石深渊解放6名火焰卫士、火焰驱逐者或炽热火焰卫士的精华。"
+Inst5Quest11_HORDE_Location = "卡德里斯（奥格瑞玛 - 智慧谷; "..YELLOW.."39.5, 47.0"..WHITE.."）"
+Inst5Quest11_HORDE_Note = "这是萨满祭司职业任务。非必须的前置任务“与卡德里斯会晤”来自各主城的萨满祭司训练师。\n\n火焰卫士可以在黑石深渊的各处找到。在杀死他们之前先使用自由图腾。"
+Inst5Quest11_HORDE_Prequest = "与卡德里斯会晤"
+Inst5Quest11_HORDE_Folgequest = "无"
+Inst5Quest11PreQuest_HORDE = "true"
+--
+Inst5Quest11name1_HORDE = "演说者的面甲"
+Inst5Quest11name2_HORDE = "演说者的罩帽"
 
 --Quest 12 Horde
-Inst5Quest12_HORDE = "12. 不和谐的火焰"
-Inst5Quest12_HORDE_Level = "56"
-Inst5Quest12_HORDE_Attain = "48"
-Inst5Quest12_HORDE_Aim = "进入黑石深渊并找到伊森迪奥斯。杀掉它，然后把你找到的信息汇报给桑德哈特。"
-Inst5Quest12_HORDE_Location = "桑德哈特（荒芜之地 - 卡加斯; "..YELLOW.."3,48"..WHITE.."）"
-Inst5Quest12_HORDE_Note = "伊森迪奥斯在"..YELLOW.."[10]"..WHITE.."。"
-Inst5Quest12_HORDE_Prequest = "不和谐的烈焰"
+Inst5Quest12_HORDE = "12. 绑缚之石 （术士）"
+Inst5Quest12_HORDE_Level = "50"
+Inst5Quest12_HORDE_Attain = "50"
+Inst5Quest12_HORDE_Aim = "从黑石深渊找到6块元素束缚之石。你可以在暗炉城、住宅区、索瑞森神殿、东区兵营，以及西区兵营这些地方找到它们。"
+Inst5Quest12_HORDE_Location = "泽弗洛斯特（奥格瑞玛 - 暗巷区; "..YELLOW.."49.0, 55.3"..WHITE.."）"
+Inst5Quest12_HORDE_Note = "这是术士职业任务。非必须的前置任务“与泽弗洛斯特会晤”来自各主城的术士训练师。"
+Inst5Quest12_HORDE_Prequest = "与泽弗洛斯特会晤"
 Inst5Quest12_HORDE_Folgequest = "无"
-Inst5Quest12FQuest_HORDE = "true"
+Inst5Quest12PreQuest_HORDE = "true"
 --
-Inst5Quest12name1_HORDE = "阳焰斗篷"
-Inst5Quest12name2_HORDE = "夜暮手套"
-Inst5Quest12name3_HORDE = "地穴恶魔护腕"
-Inst5Quest12name4_HORDE = "坚定手套"
+Inst5Quest12name1_HORDE = "左行之冠"
 
---Quest 13 Horde
-Inst5Quest13_HORDE = "13. 最后的元素"
-Inst5Quest13_HORDE_Level = "54"
-Inst5Quest13_HORDE_Attain = "48"
-Inst5Quest13_HORDE_Aim = "到黑石深渊去取得10份元素精华。你应该在那些作战傀儡和傀儡制造者身上找找，另外，薇薇安·拉格雷也提到了一些有关元素生物的话题……"
-Inst5Quest13_HORDE_Location = "暗法师薇薇安·拉格雷（荒芜之地 - 卡加斯; "..YELLOW.."2,47"..WHITE.."）"
-Inst5Quest13_HORDE_Note = "前续任务来自桑德哈特（荒芜之地 - 卡加斯; "..YELLOW.."3,48"..WHITE.."）。派隆就在副本入口处前。\n 每个元素生物都可能会掉落精华。"
-Inst5Quest13_HORDE_Prequest = "不和谐的烈焰"
-Inst5Quest13_HORDE_Folgequest = "无"
-Inst5Quest13PreQuest_HORDE = "true"
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst5Quest13_HORDE = Inst5Quest13
+Inst5Quest13_HORDE_Level = Inst5Quest13_Level
+Inst5Quest13_HORDE_Attain = Inst5Quest13_Attain
+Inst5Quest13_HORDE_Aim = Inst5Quest13_Aim
+Inst5Quest13_HORDE_Location = Inst5Quest13_Location
+Inst5Quest13_HORDE_Note = Inst5Quest13_Note
+Inst5Quest13_HORDE_Prequest = Inst5Quest13_Prequest
+Inst5Quest13_HORDE_Folgequest = Inst5Quest13_Folgequest
+Inst5Quest13PreQuest_HORDE = Inst5Quest13PreQuest
 --
-Inst5Quest13name1_HORDE = "拉格雷的徽记之戒"
+Inst5Quest13name1_HORDE = Inst5Quest13name1
+Inst5Quest13name2_HORDE = Inst5Quest13name2
 
 --Quest 14 Horde
-Inst5Quest14_HORDE = "14. 指挥官哥沙克"
-Inst5Quest14_HORDE_Level = "52"
-Inst5Quest14_HORDE_Attain = "48"
-Inst5Quest14_HORDE_Aim = "在黑石深渊里找到指挥官哥沙克。\n在那幅草图上画着的是一个铁栏后面的兽人，也许你应该到某个类似监狱的地方去找找看。"
-Inst5Quest14_HORDE_Location = "神射手贾拉玛弗（荒芜之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）"
-Inst5Quest14_HORDE_Note = "前续任务来自桑德哈特（荒芜之地 - 卡加斯; "..YELLOW.."3,48"..WHITE.."）。派隆就在副本入口处前。\n你能在"..YELLOW.."[3]"..WHITE.."找到指挥官哥沙克。位于"..YELLOW.."[5]"..WHITE.."的审讯官格斯塔恩掉落打开监狱的钥匙。如果你跟他交谈并开始下一个任务，敌人便会出现。"
-Inst5Quest14_HORDE_Prequest = "不和谐的烈焰"
-Inst5Quest14_HORDE_Folgequest = "出了什么事？"
+Inst5Quest14_HORDE = "14. 黑铁大军 （潜行者）"
+Inst5Quest14_HORDE_Level = "50"
+Inst5Quest14_HORDE_Attain = "50"
+Inst5Quest14_HORDE_Aim = "用速效毒药污染黑石深渊西区军营或东区军营的6份谷物军粮。"
+Inst5Quest14_HORDE_Location = "戈达尔（奥格瑞玛 - 暗巷区; "..YELLOW.."44.8, 61.3"..WHITE.."）"
+Inst5Quest14_HORDE_Note = "这是潜行者职业任务。非必须的前置任务“与戈达尔会晤”来自各主城的潜行者训练师。"
+Inst5Quest14_HORDE_Prequest = "与戈达尔会晤"
+Inst5Quest14_HORDE_Folgequest = "无"
 Inst5Quest14PreQuest_HORDE = "true"
+--
+Inst5Quest14name1_HORDE = "碎手面甲"
 
 --Quest 15 Horde
-Inst5Quest15_HORDE = "15. 拯救公主"
-Inst5Quest15_HORDE_Level = "59"
+Inst5Quest15_HORDE = "15. 傀儡统帅的造物 （猎人）"
+Inst5Quest15_HORDE_Level = "50"
 Inst5Quest15_HORDE_Attain = "50"
-Inst5Quest15_HORDE_Aim = "杀掉达格兰·索瑞森大帝，然后将铁炉堡公主茉艾拉·铜须从他的邪恶诅咒中拯救出来。"
-Inst5Quest15_HORDE_Location = "萨尔（奥格瑞玛; "..YELLOW.."31,37"..WHITE.."）"
-Inst5Quest15_HORDE_Note = "与卡兰·巨锤和萨尔交谈后，你将得到这个任务。\n达格兰·索瑞森大帝在"..YELLOW.."[21]"..WHITE.."。虽然公主会治疗达格兰，但是如果想完成任务，就一定不要杀死公主。切记，切记！！！尝试打断公主的治疗施法。"
-Inst5Quest15_HORDE_Prequest = "指挥官哥沙克"
-Inst5Quest15_HORDE_Folgequest = "拯救公主？"
-Inst5Quest15FQuest_HORDE = "true"
+Inst5Quest15_HORDE_Aim = "从黑石深渊制造厂获得5个元素模组，并且拿回元素傀儡蓝图。"
+Inst5Quest15_HORDE_Location = "奥玛克（奥格瑞玛 - 荣誉谷; "..YELLOW.."64.0, 32.7"..WHITE.."）"
+Inst5Quest15_HORDE_Note = "这是猎人职业任务。非必须的前置任务“与奥玛克会晤”来自各主城的猎人训练师。\n\n元素魔像蓝图掉落自傀儡统帅阿格曼奇"..YELLOW.."[11]"..WHITE.."，而元素模组则在傀儡附近。"
+Inst5Quest15_HORDE_Prequest = "与奥玛克会晤"
+Inst5Quest15_HORDE_Folgequest = "无"
+Inst5Quest15PreQuest_HORDE = "true"
 --
-Inst5Quest15name1_HORDE = "萨尔的决心"
-Inst5Quest15name2_HORDE = "奥格瑞玛之眼"
+Inst5Quest15name1_HORDE = "伟大猎手的头盔"
 
---Quest 16 Horde  (same as Quest 12 Alliance)
-Inst5Quest16_HORDE = "16. 熔火之心的传送门"
-Inst5Quest16_HORDE_Level = Inst5Quest12_Level
-Inst5Quest16_HORDE_Attain = Inst5Quest12_Attain
-Inst5Quest16_HORDE_Aim = Inst5Quest12_Aim
-Inst5Quest16_HORDE_Location = Inst5Quest12_Location
-Inst5Quest16_HORDE_Note = Inst5Quest12_Note
-Inst5Quest16_HORDE_Prequest = Inst5Quest12_Prequest
-Inst5Quest16_HORDE_Folgequest = Inst5Quest12_Folgequest
+--Quest 16 Horde
+Inst5Quest16_HORDE = "16. 控火师的魔典 （法师）"
+Inst5Quest16_HORDE_Level = "50"
+Inst5Quest16_HORDE_Attain = "50"
+Inst5Quest16_HORDE_Aim = "杀掉6个暮光使者，并从石深渊索瑞森神殿控火师罗格雷恩的身上获得罗格雷恩的魔典。"
+Inst5Quest16_HORDE_Location = "尤蕾达（奥格瑞玛 - 暗巷区; "..YELLOW.."51.3, 72.3"..WHITE.."）"
+Inst5Quest16_HORDE_Note = "这是法师职业任务。非必须的前置任务“与尤蕾达会晤”来自各主城的法师训练师。\n\n控火师罗格雷恩在"..YELLOW.."[8]"..WHITE.."。"
+Inst5Quest16_HORDE_Prequest = "与尤蕾达会晤"
+Inst5Quest16_HORDE_Folgequest = "无"
+Inst5Quest16PreQuest_HORDE = "true"
+--
+Inst5Quest16name1_HORDE = "奥法通途兜帽"
+
+--Quest 17 Horde
+Inst5Quest17_HORDE = "17. 暮光的阴谋 （牧师）"
+Inst5Quest17_HORDE_Level = "50"
+Inst5Quest17_HORDE_Attain = "50"
+Inst5Quest17_HORDE_Aim = "使用发光的火炬在黑石深渊的住宅区烧毁8本暮光信经。"
+Inst5Quest17_HORDE_Location = "黑暗牧师塞希莉（奥格瑞玛 - 力量谷; "..YELLOW.."48.7, 72.8"..WHITE.."）"
+Inst5Quest17_HORDE_Note = "这是牧师职业任务。非必须的前置任务“与黑暗牧师塞希莉会晤”来自各主城的牧师训练师。"
+Inst5Quest17_HORDE_Prequest = "与黑暗牧师塞希莉会晤"
+Inst5Quest17_HORDE_Folgequest = "无"
+Inst5Quest17PreQuest_HORDE = "true"
+--
+Inst5Quest17name1_HORDE = "失落信仰之冠"
+
+--Quest 18 Horde
+Inst5Quest18_HORDE = "18. 黑暗的武器 （血精灵圣骑士）"
+Inst5Quest18_HORDE_Level = "50"
+Inst5Quest18_HORDE_Attain = "50"
+Inst5Quest18_HORDE_Aim = "从黑石深渊的铁怒矮人身上缴获5把元素灌能武器，然后在暗炉城的黑铁砧上将它们敲断。"
+Inst5Quest18_HORDE_Location = "派雷亚诺（奥格瑞玛 - 力量谷; "..YELLOW.."49.2, 71.3"..WHITE.."）"
+Inst5Quest18_HORDE_Note = "这是圣骑士职业任务。非必须的前置任务“与派雷亚诺会晤”来自各主城的圣骑士训练师。\n\n黑铁砧在"..YELLOW.."[5]"..WHITE.."。"
+Inst5Quest18_HORDE_Prequest = "与派雷亚诺会晤"
+Inst5Quest18_HORDE_Folgequest = "无"
+Inst5Quest18PreQuest_HORDE = "true"
+--
+Inst5Quest18name1_HORDE = "血骑士之盔"
+Inst5Quest18name2_HORDE = "血骑士面甲"
+Inst5Quest18name3_HORDE = "血骑士战盔"
+Inst5Quest18name4_HORDE = "血骑士战袍"
+
+--Quest 19 Horde
+Inst5Quest19_HORDE = "19. 黑暗的武器 （牛头人圣骑士）"
+Inst5Quest19_HORDE_Level = "50"
+Inst5Quest19_HORDE_Attain = "50"
+Inst5Quest19_HORDE_Aim = "从黑石深渊的铁怒矮人身上缴获5把元素灌能武器，然后在暗炉城的黑铁砧上将它们敲断。"
+Inst5Quest19_HORDE_Location = "烈日行者阿托莫（奥格瑞玛 - 智慧谷;"..YELLOW.."45.2, 53.7"..WHITE.."）"
+Inst5Quest19_HORDE_Note = "这是圣骑士职业任务。非必须的前置任务“与烈日行者阿托莫会晤”来自各主城的圣骑士训练师。\n\n黑铁砧在"..YELLOW.."[5]"..WHITE.."。"
+Inst5Quest19_HORDE_Prequest = "与烈日行者阿托莫会晤"
+Inst5Quest19_HORDE_Folgequest = "无"
+Inst5Quest19PreQuest_HORDE = "true"
+--
+Inst5Quest19name1_HORDE = "烈日行者之盔"
+Inst5Quest19name2_HORDE = "烈日行者团面甲"
+Inst5Quest19name3_HORDE = "烈日行者战盔"
+
+--Quest 20 Horde  (same as Quest 19 Alliance)
+Inst5Quest20_HORDE = "20. 熔火之心的传送门"
+Inst5Quest20_HORDE_Level = Inst5Quest19_Level
+Inst5Quest20_HORDE_Attain = Inst5Quest19_Attain
+Inst5Quest20_HORDE_Aim = Inst5Quest19_Aim
+Inst5Quest20_HORDE_Location = Inst5Quest19_Location
+Inst5Quest20_HORDE_Note = Inst5Quest19_Note
+Inst5Quest20_HORDE_Prequest = Inst5Quest19_Prequest
+Inst5Quest20_HORDE_Folgequest = Inst5Quest19_Folgequest
 -- No Rewards for this quest
 
---Quest 17 Horde  (same as Quest 13 Alliance)
-Inst5Quest17_HORDE = "17. 挑战 (T0.5升级任务)"
-Inst5Quest17_HORDE_Level = Inst5Quest13_Level
-Inst5Quest17_HORDE_Attain = Inst5Quest13_Attain
-Inst5Quest17_HORDE_Aim = Inst5Quest13_Aim
-Inst5Quest17_HORDE_Location = Inst5Quest13_Location
-Inst5Quest17_HORDE_Note = Inst5Quest13_Note
-Inst5Quest17_HORDE_Prequest = Inst5Quest13_Prequest
-Inst5Quest17_HORDE_Folgequest = Inst5Quest13_Folgequest
+--Quest 21 Horde  (same as Quest 20 Alliance)
+Inst5Quest21_HORDE = "21. 鬼魂之杯 （采矿）"
+Inst5Quest21_HORDE_Level = Inst5Quest20_Level
+Inst5Quest21_HORDE_Attain = Inst5Quest20_Attain
+Inst5Quest21_HORDE_Aim = Inst5Quest20_Aim
+Inst5Quest21_HORDE_Location = Inst5Quest20_Location
+Inst5Quest21_HORDE_Note = Inst5Quest20_Note
+Inst5Quest21_HORDE_Prequest = Inst5Quest20_Prequest
+Inst5Quest21_HORDE_Folgequest = Inst5Quest20_Folgequest
 -- No Rewards for this quest
 
---Quest 18 Horde  (same as Quest 14 Alliance)
-Inst5Quest18_HORDE = "18. 鬼魂之杯 (采矿任务)"
-Inst5Quest18_HORDE_Level = Inst5Quest14_Level
-Inst5Quest18_HORDE_Attain = Inst5Quest14_Attain
-Inst5Quest18_HORDE_Aim = Inst5Quest14_Aim
-Inst5Quest18_HORDE_Location = Inst5Quest14_Location
-Inst5Quest18_HORDE_Note = Inst5Quest14_Note
-Inst5Quest18_HORDE_Prequest = Inst5Quest14_Prequest
-Inst5Quest18_HORDE_Folgequest = Inst5Quest14_Folgequest
--- No Rewards for this quest
+--Quest 22 Horde
+Inst5Quest22_HORDE = "22. 科林的烈酒"
+Inst5Quest22_HORDE_Level = "85"
+Inst5Quest22_HORDE_Attain = "85"
+Inst5Quest22_HORDE_Aim = "将科林的烈酒交给奥格瑞玛附近美酒节营地的塔波尔·斯威雷格。"
+Inst5Quest22_HORDE_Location = "科林的烈酒（掉落自科林·烈酒"..YELLOW.."[12]"..WHITE.."）"
+Inst5Quest22_HORDE_Note = "科林·烈酒只有美酒节期间才会出现在黑石深渊，任务物品每个角色只可获取一次。\n\n塔波尔·斯威雷格在美酒节营地（杜隆塔尔; "..YELLOW.."45,17"..WHITE.."）。"
+Inst5Quest22_HORDE_Prequest = "无"
+Inst5Quest22_HORDE_Folgequest = "无"
+--
+Inst5Quest22name1_HORDE = "美酒节奖币"
 
---Quest 19 Horde  (same as Quest 15 Alliance)
-Inst5Quest19_HORDE = "19. 保护美酒节！ (季节性)"
-Inst5Quest19_HORDE_Level = Inst5Quest15_Level
-Inst5Quest19_HORDE_Attain = Inst5Quest15_Attain
-Inst5Quest19_HORDE_Aim = Inst5Quest15_Aim
-Inst5Quest19_HORDE_Location = Inst5Quest15_Location
-Inst5Quest19_HORDE_Note = Inst5Quest15_Note
-Inst5Quest19_HORDE_Prequest = Inst5Quest15_Prequest
-Inst5Quest19_HORDE_Folgequest = Inst5Quest15_Folgequest
--- No Rewards for this quest
 
---Quest 20 Horde  (same as Quest 16 Alliance)
-Inst5Quest20_HORDE = "20. 干掉科林·烈酒 (季节性 - 日常)"
-Inst5Quest20_HORDE_Level = Inst5Quest16_Level
-Inst5Quest20_HORDE_Attain = Inst5Quest16_Attain
-Inst5Quest20_HORDE_Aim = Inst5Quest16_Aim
-Inst5Quest20_HORDE_Location = Inst5Quest16_Location
-Inst5Quest20_HORDE_Note = Inst5Quest16_Note
-Inst5Quest20_HORDE_Prequest = Inst5Quest16_Prequest
-Inst5Quest20_HORDE_Folgequest = Inst5Quest16_Folgequest
-Inst5Quest20FQuest_HORDE = "true"
--- No Rewards for this quest
 
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
@@ -1161,85 +1183,37 @@ Inst6Caption = "黑翼之巢"
 Inst6Caption2 = "黑翼之巢（故事背景 第1部分）"
 Inst6Caption3 = "黑翼之巢（故事背景 第2部分）"
 
-Inst6QAA = "3 个任务"
-Inst6QAH = "3 个任务"
+Inst6QAA = "1 个任务"
+Inst6QAH = "1 个任务"
 
 --Quest 1 Alliance
-Inst6Quest1 = "1. 奈法里奥斯的腐蚀"
+Inst6Quest1 = "1. 黑石之王"
 Inst6Quest1_Level = "60"
 Inst6Quest1_Attain = "60"
-Inst6Quest1_Aim = "干掉奈法利安并拿到红色节杖碎片。把红色节杖碎片带给塔纳利斯时光之穴门口的阿纳克洛斯。你必须在5小时之内完成这个任务。"
-Inst6Quest1_Location = "堕落的瓦拉斯塔兹（黑翼之巢; "..YELLOW.."[2]"..WHITE.."）"
-Inst6Quest1_Note = "只有一人能拾取碎片。阿纳克洛斯（塔纳利斯 - 时光之穴; "..YELLOW.."65,49"..WHITE.."）"
+Inst6Quest1_Aim = "将奈法利安的徽记交给暴风城的瓦里安·乌瑞恩国王。"
+Inst6Quest1_Location = "奈法利安的徽记（奈法利安掉落; "..YELLOW.."[9]"..WHITE.."）"
+Inst6Quest1_Note = "瓦里安·乌瑞恩国王在（暴风城 - 暴风要塞; "..YELLOW.."85.7, 31.8"..WHITE.."）。\n\n接下来前往艾法希比元帅（暴风城 - 英雄谷; "..YELLOW.."71.5, 80.5"..WHITE.."）领取奖励。"
 Inst6Quest1_Prequest = "无"
-Inst6Quest1_Folgequest = "无"
+Inst6Quest1_Folgequest = "黑石之王"
 --
-Inst6Quest1name1 = "玛瑙镶饰护腿"
-Inst6Quest1name2 = "暗影屏蔽护符"
+Inst6Quest1name1 = "屠龙大师勋章"
+Inst6Quest1name2 = "屠龙大师宝珠"
+Inst6Quest1name3 = "屠龙大师之戒"
 
---Quest 2 Alliance
-Inst6Quest2 = "2. 黑石之王"
-Inst6Quest2_Level = "60"
-Inst6Quest2_Attain = "60"
-Inst6Quest2_Aim = "将奈法利安的头颅交给暴风城的瓦里安·乌瑞恩国王。 "
-Inst6Quest2_Location = "奈法利安的头颅（奈法利安掉落; "..YELLOW.."[10]"..WHITE.."）"
-Inst6Quest2_Note = "瓦里安·乌瑞恩国王（暴风城 - 暴风要塞; "..YELLOW.."80.0,38.5"..WHITE.."）。接下来前往艾法希比元帅（暴风城 - 英雄谷; "..YELLOW.."71,80"..WHITE.."）领取奖励。"
-Inst6Quest2_Prequest = "无"
-Inst6Quest2_Folgequest = "黑石之王"
+
+--Quest 1 Horde
+Inst6Quest1_HORDE = "1. 黑石之王"
+Inst6Quest1_HORDE_Level = "60"
+Inst6Quest1_HORDE_Attain = "60"
+Inst6Quest1_HORDE_Aim = "将奈法利安的徽记交给奥格瑞玛的加尔鲁什·地狱咆哮。"
+Inst6Quest1_HORDE_Location = "奈法利安的徽记（奈法利安掉落; "..YELLOW.."[9]"..WHITE.."）"
+Inst6Quest1_HORDE_Note = "加尔鲁什·地狱咆哮在（奥格瑞玛 - 智慧谷; "..YELLOW.."48.2, 70.6"..WHITE.."）。n\n接下来前往伦萨克大王（奥格瑞玛 - 力量谷; "..YELLOW.."51.3, 83.2"..WHITE.."）领取奖励。"
+Inst6Quest1_HORDE_Prequest = "无"
+Inst6Quest1_HORDE_Folgequest = "黑石之王"
 --
-Inst6Quest2name1 = "屠龙大师勋章"
-Inst6Quest2name2 = "屠龙大师宝珠"
-Inst6Quest2name3 = "屠龙大师之戒"
-
---Quest 3 Alliance
-Inst6Quest3 = "3. 唯一的领袖"
-Inst6Quest3_Level = "60"
-Inst6Quest3_Attain = "60"
-Inst6Quest3_Aim = "将勒什雷尔的头颅交给希利苏斯塞纳里奥要塞的流沙守望者巴里斯托尔斯。 "
-Inst6Quest3_Location = "勒什雷尔的头颅（勒什雷尔掉落; "..YELLOW.."[3]"..WHITE.."）"
-Inst6Quest3_Note = "只有一人能拾取头颅。（现版本不再限一人）"
-Inst6Quest3_Prequest = "无"
-Inst6Quest3_Folgequest = "正义之路"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst6Quest1_HORDE = Inst6Quest1
-Inst6Quest1_HORDE_Level = Inst6Quest1_Level
-Inst6Quest1_HORDE_Attain = Inst6Quest1_Attain
-Inst6Quest1_HORDE_Aim = Inst6Quest1_Aim
-Inst6Quest1_HORDE_Location = Inst6Quest1_Location
-Inst6Quest1_HORDE_Note = Inst6Quest1_Note
-Inst6Quest1_HORDE_Prequest = Inst6Quest1_Prequest
-Inst6Quest1_HORDE_Folgequest = Inst6Quest1_Folgequest
---
-Inst6Quest1name1_HORDE = Inst6Quest1name1
-Inst6Quest1name2_HORDE = Inst6Quest1name2
-
---Quest 2 Horde
-Inst6Quest2_HORDE = "2. 黑石之王"
-Inst6Quest2_HORDE_Level = "60"
-Inst6Quest2_HORDE_Attain = "60"
-Inst6Quest2_HORDE_Aim = "将奈法利安的头颅交给奥格瑞玛的萨尔。"
-Inst6Quest2_HORDE_Location = "奈法利安的头颅（奈法利安掉落; "..YELLOW.."[9]"..WHITE.."）"
-Inst6Quest2_HORDE_Note = "下一步前往萨鲁法尔大王（奥格瑞玛 - 力量谷; "..YELLOW.."51,76"..WHITE.."）领取奖励。"
-Inst6Quest2_HORDE_Prequest = "无"
-Inst6Quest2_HORDE_Folgequest = "黑石之王"
---
-Inst6Quest2name1_HORDE = "屠龙大师勋章"
-Inst6Quest2name2_HORDE = "屠龙大师宝珠"
-Inst6Quest2name3_HORDE = "屠龙大师之戒"
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst6Quest3_HORDE = Inst6Quest3
-Inst6Quest3_HORDE_Level = Inst6Quest3_Level
-Inst6Quest3_HORDE_Attain = Inst6Quest3_Attain
-Inst6Quest3_HORDE_Aim = Inst6Quest3_Aim
-Inst6Quest3_HORDE_Location = Inst6Quest3_Location
-Inst6Quest3_HORDE_Note = Inst6Quest3_Note
-Inst6Quest3_HORDE_Prequest = Inst6Quest3_Prequest
-Inst6Quest3_HORDE_Folgequest = Inst6Quest3_Folgequest
--- No Rewards for this quest
+Inst6Quest1name1_HORDE = "屠龙大师勋章"
+Inst6Quest1name2_HORDE = "屠龙大师宝珠"
+Inst6Quest1name3_HORDE = "屠龙大师之戒"
 
 
 
