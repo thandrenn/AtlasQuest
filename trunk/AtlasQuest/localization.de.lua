@@ -11384,13 +11384,13 @@ Inst108Quest5_Attain = "85"
 Inst108Quest5_Aim = "Spürt ein Artefakt auf, das die Trolle aus Zul'Gurub von Beutebucht fern halten könnte."
 Inst108Quest5_Location = "Aufseher Klunkerknall (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")\nBaron Revilgaz (Das Schlingendornkap - Beutebucht; "..YELLOW.."41.0, 73.0"..WHITE..")"
 Inst108Quest5_Note = "Diese Quest kann innerhalb der Instanz angenommen werden oder am Ende der Questreihe bei der Tafel des Heldenaufrufs in Sturmwind und Ogrimmar.  Das Artefakt ist bei "..YELLOW.."[17]"..WHITE.."."
-Inst108Quest5_Prequest = "Abgesandter der Dunkelspeertrolle (Bwemba) -> Kontaktaufnahme"
+Inst108Quest5_Prequest = "Abgesandter der Dunkelspeertrolle (Bwemba's Geist) -> Kontaktaufnahme"
 Inst108Quest5_Folgequest = "Eine glitzernde Beute"
 Inst108Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst108Quest6 = "6. Brecht den Götterbrecher "
+Inst108Quest6 = "6. Brecht den Götterbrecher"
 Inst108Quest6_Level = "85"
 Inst108Quest6_Attain = "85"
 Inst108Quest6_Aim = "Tötet Jin'do den Götterbrecher in Zul'Gurub auf heroischem Schwierigkeitsgrad."
@@ -11452,7 +11452,7 @@ Inst108Quest5_HORDE_Attain = "85"
 Inst108Quest5_HORDE_Aim = Inst108Quest5_Aim
 Inst108Quest5_HORDE_Location = Inst108Quest5_Location
 Inst108Quest5_HORDE_Note = Inst108Quest5_Note
-Inst108Quest5_HORDE_Prequest = "The Zandalar Menace -> Making Contact"
+Inst108Quest5_HORDE_Prequest = "Abgesandter der Dunkelspeertrolle (Bwemba's Geist) -> Kontaktaufnahme"
 Inst108Quest5_HORDE_Folgequest = "Eine glitzernde Beute"
 Inst108Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
