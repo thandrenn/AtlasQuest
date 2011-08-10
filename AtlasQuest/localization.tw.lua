@@ -3758,7 +3758,7 @@ Inst22Quest3_Level = "46"
 Inst22Quest3_Attain = "42"
 Inst22Quest3_Aim = "發現1盒弗拉斯．希亞比的特級煙草。"
 Inst22Quest3_Location = "軍需籌備官石漢（斯坦索姆 - 十字軍廣場; "..YELLOW.."入口"..WHITE.."）"
-Inst22Quest3_Note = "在"..DARKYELLOW.."[1]"..WHITE.."處使用弗拉斯．希亞比的箱子就可以將他召喚出來。"
+Inst22Quest3_Note = "在"..DARKYELLOW.."[1]"..WHITE.."處使用弗拉斯·希亞比的郵箱就可以將他召喚出來。"
 Inst22Quest3_Prequest = "無"
 Inst22Quest3_Folgequest = "無"
 -- No Rewards for this quest
@@ -4245,7 +4245,7 @@ Inst26Quest2_Level = "60"
 Inst26Quest2_Attain = "60"
 Inst26Quest2_Aim = "把克蘇恩之眼交給時光之穴的阿納克洛斯。"
 Inst26Quest2_Location = "克蘇恩之眼（克蘇恩掉落 - 安其拉神廟; "..YELLOW.."[9]"..WHITE.."）"
-Inst26Quest2_Note = "阿納克洛斯（塔納利斯 - 時光之穴; "..YELLOW.."65,49"..WHITE.."）"
+Inst26Quest2_Note = "阿納克洛斯（塔納利斯 - 時光之穴; "..YELLOW.."64.2, 51.2"..WHITE.."）"
 Inst26Quest2_Prequest = "克蘇恩的遺產"
 Inst26Quest2_Folgequest = "無"
 Inst26Quest2FQuest = "true"
@@ -4261,7 +4261,7 @@ Inst26Quest3_Attain = "60"
 Inst26Quest3_Aim = "將這個上古其拉神器帶給藏在神廟入口附近的巨龍。"
 Inst26Quest3_Location = "上古其拉神器（小怪隨機掉落 - 安其拉神廟）"
 Inst26Quest3_Note = "安多葛斯（安其拉神廟; "..YELLOW.."[1']"..WHITE.."）。"
-Inst26Quest3_Prequest = "你可以在一王身後的房間中找到安多葛斯"
+Inst26Quest3_Prequest = "無"
 Inst26Quest3_Folgequest = "無"
 -- No Rewards for this quest
 
@@ -4591,7 +4591,7 @@ Inst29Quest2_HORDE_Level = Inst29Quest7_Level
 Inst29Quest2_HORDE_Attain = Inst29Quest7_Attain
 Inst29Quest2_HORDE_Aim = Inst29Quest7_Aim
 Inst29Quest2_HORDE_Location = Inst29Quest7_Location
-Inst29Quest2_HORDE_Note = "你可以選擇留著這枚戒指，或者按照戒指內側刻著的名字找到它的主人。"
+Inst29Quest2_HORDE_Note = "把它交給諾格（奧格瑪 - 暗巷區; "..YELLOW.."56.6, 56.8"..WHITE.."）。非必要的後續任務只是用來提升戒指的屬性而已。"
 Inst29Quest2_HORDE_Prequest = Inst29Quest7_Prequest
 Inst29Quest2_HORDE_Folgequest = "諾格的手藝"
 Inst29Quest2FQuest_HORDE = Inst29Quest7FQuest
@@ -5731,7 +5731,7 @@ Inst44Quest1_HORDE = "1. 奧齊頓……"
 Inst44Quest1_HORDE_Level = "68"
 Inst44Quest1_HORDE_Attain = "66"
 Inst44Quest1_HORDE_Aim = "前往泰洛卡森林的白骨荒野的奧奇奈地穴，並殺掉主教瑪拉達爾以釋放迪歐瑞的靈魂。"
-Inst44Quest1_HORDE_Location = "阿達歐（撒塔斯城 - 聖光露臺; "..YELLOW.."54,45"..WHITE.."）"
+Inst44Quest1_HORDE_Location = "阿達歐（撒塔斯城 - 聖光露臺; "..YELLOW.."53,43"..WHITE.."）"
 Inst44Quest1_HORDE_Note = "主教瑪拉達爾在"..YELLOW.."[2]"..WHITE.."。"
 Inst44Quest1_HORDE_Prequest = "秘密的揭露"
 Inst44Quest1_HORDE_Folgequest = "靈魂看見的"
@@ -7089,7 +7089,7 @@ Inst53Quest14_Level = "70"
 Inst53Quest14_Attain = "70"
 Inst53Quest14_Aim = "盤牙蓄湖中奴隸監獄的『異端』司卡利斯要你帶給他土靈徽記和熾烈徽記。"
 Inst53Quest14_Location = "『異端』司卡利斯在（盤牙蓄湖 - 奴隸監獄; "..YELLOW.."英雄難度[4]"..WHITE.."）"
-Inst53Quest14_Note = "土靈徽記掉落自戈魯爾"..YELLOW.."戈魯爾之巢[2]"..WHITE.."，熾烈徽記掉落自夜禍"..YELLOW.."卡拉贊 [5]"..WHITE.."。\n\n這個任務曾經是毒蛇神殿的進門任務。"
+Inst53Quest14_Note = "土靈徽記掉落自戈魯爾"..YELLOW.."戈魯爾之巢[2]"..WHITE.."，熾烈徽記掉落自夜禍"..YELLOW.."卡拉贊 [11]"..WHITE.."。\n\n這個任務曾經是毒蛇神殿的進門任務。"
 Inst53Quest14_Prequest = "無"
 Inst53Quest14_Folgequest = "無"
 -- No Rewards for this quest
@@ -7834,7 +7834,11 @@ Inst61Quest2_HORDE_Location = Inst61Quest2_Location
 Inst61Quest2_HORDE_Note = Inst61Quest2_Note
 Inst61Quest2_HORDE_Prequest = Inst61Quest2_Prequest
 Inst61Quest2_HORDE_Folgequest = Inst61Quest2_Folgequest
--- No Rewards for this quest
+--
+Inst61Quest2name1_HORDE = Inst61Quest2name1
+Inst61Quest2name2_HORDE = Inst61Quest2name2
+Inst61Quest2name3_HORDE = Inst61Quest2name3
+Inst61Quest2name4_HORDE = Inst61Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst61Quest3_HORDE = Inst61Quest3
@@ -8135,7 +8139,7 @@ Inst67Quest5 = "5. 難以殺死"
 Inst67Quest5_Level = "70"
 Inst67Quest5_Attain = "70"
 Inst67Quest5_Aim = "卡雷苟斯要求你擊敗博學者殿堂的凱爾薩斯。你要帶著凱爾薩斯的頭回報破碎之日會所的雷索爾。"
-Inst67Quest5_Location = "卡雷苟斯（博學者殿堂; "..GREEN.."[2']"..WHITE.."）"
+Inst67Quest5_Location = "卡雷苟斯（博學者殿堂; "..GREEN.."[4]"..WHITE.."）"
 Inst67Quest5_Note = "凱爾薩斯．逐日者在（博學者殿堂; "..YELLOW.."[4]"..WHITE.."）。完成這個任務線之後你才能進入英雄模式的博學者殿堂。\n\n主教雷索爾在（奎爾達納斯 - 破碎之日會所; "..YELLOW.."47,31"..WHITE.."）。"
 Inst67Quest5_Prequest = "占卜者的占卜"
 Inst67Quest5_Folgequest = "無"
@@ -8305,10 +8309,10 @@ Inst69Quest2_Prequest = "驅散幻影"
 Inst69Quest2_Folgequest = "無"
 Inst69Quest2FQuest = "true"
 --
-Inst69Quest4name1 = "時光守護者手套"
-Inst69Quest4name2 = "受保護歷史裹手"
-Inst69Quest4name3 = "編年紀事之握"
-Inst69Quest4name4 = "抉擇護手"
+Inst69Quest2name1 = "時光守護者手套"
+Inst69Quest2name2 = "受保護歷史裹手"
+Inst69Quest2name3 = "編年紀事之握"
+Inst69Quest2name4 = "抉擇護手"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11340,32 +11344,33 @@ Inst97Quest2_Folgequest = "無"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst97Quest3 = "3. 任性的孩子"
+Inst97Quest3 = "3. 跟隨者與領導者"
 Inst97Quest3_Level = "84"
 Inst97Quest3_Attain = "82"
-Inst97Quest3_Aim = "殺死歐茲魯克。"
-Inst97Quest3_Location = "瑟拉贊恩（地深之源 - 瑟拉贊恩王座; "..YELLOW.."56.3, 12.8"..WHITE.."）"
-Inst97Quest3_Note = "歐茲魯克在"..YELLOW.."[3]"..WHITE.."。當你完成一連串觸發瑟拉贊恩每日任務的任務線之後，你就可以接到這個任務。這個任務線需要妳完成大部分的地深之源任務。"
-Inst97Quest3_Prequest = "大部分的地深之源任務"
+Inst97Quest3_Aim = "殺死高階祭司艾吉兒和101名虔誠的跟隨者。"
+Inst97Quest3_Location = "大地守望者伊爾薩（石岩之心; "..YELLOW.."入口"..WHITE.."）或自動給予任務。"
+Inst97Quest3_Note = "高階祭司艾吉兒在"..YELLOW.."[4]"..WHITE.."，而虔誠的跟隨者就在前往高階祭司艾吉兒的路上。完成後回到地城入口向大地守望者伊爾薩回報任務。"
+Inst97Quest3_Prequest = "無"
 Inst97Quest3_Folgequest = "無"
+Inst97Quest3FQuest = "true"
 --
-Inst97Quest3name1 = "迷路孩童護腿"
-Inst97Quest3name2 = "石岩之心腰帶"
-Inst97Quest3name3 = "水晶光芒披風"
+Inst97Quest3name1 = "一零一腰環"
+Inst97Quest3name2 = "高階祭司徽記"
+Inst97Quest3name3 = "邪惡儀式肩鎧"
 
 --Quest 4 Alliance
-Inst97Quest4 = "4. 跟隨者與領導者"
+Inst97Quest4 = "4. 任性的孩子"
 Inst97Quest4_Level = "84"
 Inst97Quest4_Attain = "82"
-Inst97Quest4_Aim = "殺死高階祭司艾吉兒和101名虔誠的跟隨者。"
-Inst97Quest4_Location = "大地守望者伊爾薩（石岩之心; "..YELLOW.."入口"..WHITE.."）或自動給予任務。"
-Inst97Quest4_Note = "高階祭司艾吉兒在"..YELLOW.."[4]"..WHITE.."，而虔誠的跟隨者就在前往高階祭司艾吉兒的路上。完成後回到地城入口向大地守望者伊爾薩回報任務。"
-Inst97Quest4_Prequest = "無"
+Inst97Quest4_Aim = "殺死歐茲魯克。"
+Inst97Quest4_Location = "瑟拉贊恩（地深之源 - 瑟拉贊恩王座; "..YELLOW.."56.3, 12.8"..WHITE.."）"
+Inst97Quest4_Note = "歐茲魯克在"..YELLOW.."[3]"..WHITE.."。當你完成一連串觸發瑟拉贊恩每日任務的任務線之後，你就可以接到這個任務。這個任務線需要妳完成大部分的地深之源任務。"
+Inst97Quest4_Prequest = "大部分的地深之源任務"
 Inst97Quest4_Folgequest = "無"
 --
-Inst97Quest4name1 = "一零一腰環"
-Inst97Quest4name2 = "高階祭司徽記"
-Inst97Quest4name3 = "邪惡儀式肩鎧"
+Inst97Quest4name1 = "迷路孩童護腿"
+Inst97Quest4name2 = "石岩之心腰帶"
+Inst97Quest4name3 = "水晶光芒披風"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11399,6 +11404,7 @@ Inst97Quest3_HORDE_Location = Inst97Quest3_Location
 Inst97Quest3_HORDE_Note = Inst97Quest3_Note
 Inst97Quest3_HORDE_Prequest = Inst97Quest3_Prequest
 Inst97Quest3_HORDE_Folgequest = Inst97Quest3_Folgequest
+Inst97Quest3FQuest_HORDE = Inst97Quest3FQuest
 --
 Inst97Quest3name1_HORDE = Inst97Quest3name1
 Inst97Quest3name2_HORDE = Inst97Quest3name2
@@ -11434,7 +11440,7 @@ Inst98Quest1_Attain = "82"
 Inst98Quest1_Aim = "在漩渦尖塔裡找到伊塔許。"
 Inst98Quest1_Location = "安姆曼泰普將軍（奧丹姆; "..YELLOW.."45.2, 37.8"..WHITE.."）"
 Inst98Quest1_Note = "這是一個非必需的任務，只用來將你引導至漩渦尖塔。當你完成某些奧丹姆的任務之後，這個任務才會出現。\n\n伊塔許就在地城入口處。"
-Inst98Quest1_Prequest = "無資訊"
+Inst98Quest1_Prequest = "奧爾希斯權杖和在窒人之沙"
 Inst98Quest1_Folgequest = "奧爾希斯的復仇"
 Inst98Quest1PreQuest = "true"
 -- No Rewards for this quest
@@ -11445,7 +11451,7 @@ Inst98Quest2_Level = "84"
 Inst98Quest2_Attain = "82"
 Inst98Quest2_Aim = "殺死亞沙德。"
 Inst98Quest2_Location = "伊塔許（漩渦尖塔; "..YELLOW.."入口"..WHITE.."）"
-Inst98Quest2_Note = "亞沙德是第一個首領，位於"..YELLOW.."[3]"..WHITE.."前置任務為非必要的。完成後回到地城入口處向伊塔許回報任務。"
+Inst98Quest2_Note = "亞沙德是最終首領，位於"..YELLOW.."[3]"..WHITE.."前置任務為非必要的。完成後回到地城入口處向伊塔許回報任務。"
 Inst98Quest2_Prequest = "漩渦尖塔"
 Inst98Quest2_Folgequest = "無"
 Inst98Quest2FQuest = "true"
@@ -11754,9 +11760,7 @@ Inst101Quest1_HORDE_Note = Inst101Quest1_Note
 Inst101Quest1_HORDE_Prequest = Inst101Quest1_Prequest
 Inst101Quest1_HORDE_Folgequest = Inst101Quest1_Folgequest
 Inst101Quest1PreQuest_HORDE = Inst101Quest1PreQuest
-Inst101Quest1FQuest_HORDE = Inst101Quest1FQuest
---
-Inst101Quest1name1_HORDE = Inst101Quest1name1
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst101Quest2_HORDE = Inst101Quest2
@@ -11890,7 +11894,7 @@ Inst108Quest5_Attain = "85"
 Inst108Quest5_Aim = "收回或許能夠讓祖爾格拉布的食人妖遠離藏寶海灣的神器。"
 Inst108Quest5_Location = "監督者閃砰（祖爾格拉布; "..BLUE.."入口"..WHITE.."）\n大財主里維加茲（荊棘谷海角 - 藏寶海灣; "..YELLOW.."41.0, 73.0"..WHITE.."）"
 Inst108Quest5_Note = "這個任務可以在地城之中獲得，或是經由一連串的任務線完成之後獲得。任務線從暴風城或奧格瑪的[英雄的呼喚告示板]開始。神器在"..YELLOW.."[17]"..WHITE.."。"
-Inst108Quest5_Prequest = "贊達拉的代表→接觸"
+Inst108Quest5_Prequest = "贊達拉的代表→嘗試聯絡"
 Inst108Quest5_Folgequest = "閃亮的獎勵"
 Inst108Quest5PreQuest = "true"
 -- No Rewards for this quest
@@ -11958,7 +11962,7 @@ Inst108Quest5_HORDE_Attain = Inst108Quest5_Attain
 Inst108Quest5_HORDE_Aim = Inst108Quest5_Aim
 Inst108Quest5_HORDE_Location = Inst108Quest5_Location
 Inst108Quest5_HORDE_Note = Inst108Quest5_Note
-Inst108Quest5_HORDE_Prequest = "贊達拉的威脅→接觸"
+Inst108Quest5_HORDE_Prequest = "贊達拉的威脅→嘗試聯絡"
 Inst108Quest5_HORDE_Folgequest = Inst108Quest5_Folgequest
 Inst108Quest5PreQuest_HORDE = Inst108Quest5PreQuest
 -- No Rewards for this quest
