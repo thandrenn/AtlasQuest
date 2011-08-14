@@ -30,7 +30,7 @@
 	Ananhaid（1区 斯坦索姆“毛茸茸”公会 Adavak）
 	Email：ananhaid@gmail.com
 	Original updater:DIY
-	更新日期：11年8月11日
+	更新日期：11年8月13日
 
 --]]
 
@@ -1255,7 +1255,7 @@ Inst7Quest3 = "3. 搜寻塞尔瑞德"
 Inst7Quest3_Level = "25"
 Inst7Quest3_Attain = "22"
 Inst7Quest3_Aim = "找到斥候塞尔瑞德。"
-Inst7Quest3_Location = "阿舍兰（黑暗深渊; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest3_Location = "阿舍兰·北林（黑暗深渊; "..YELLOW.."入口"..WHITE.."）"
 Inst7Quest3_Note = "你可以在"..GREEN.."[3']"..WHITE.."找到斥候塞尔瑞德。"
 Inst7Quest3_Prequest = "无"
 Inst7Quest3_Folgequest = "黑暗深渊的罪恶"
@@ -1267,7 +1267,7 @@ Inst7Quest4_Level = "28"
 Inst7Quest4_Attain = "22"
 Inst7Quest4_Aim = "获得暮光领主克尔里斯的徽记。"
 Inst7Quest4_Location = "斥候塞尔瑞德（黑暗深渊; "..GREEN.."[3']"..WHITE.."）"
-Inst7Quest4_Note = "梦游者克尔里斯在"..YELLOW.."[5]"..WHITE.."。完成后到地下城入口的阿舍兰交付任务。"
+Inst7Quest4_Note = "梦游者克尔里斯在"..YELLOW.."[5]"..WHITE.."。完成后到地下城入口的阿舍兰·北林交付任务。"
 Inst7Quest4_Prequest = "搜寻塞尔瑞德"
 Inst7Quest4_Folgequest = "无"
 Inst7Quest4FQuest = "true"
@@ -1282,8 +1282,8 @@ Inst7Quest5 = "5. 研究腐蚀"
 Inst7Quest5_Level = "26"
 Inst7Quest5_Attain = "22"
 Inst7Quest5_Aim = "收集8份堕落者的脑干。"
-Inst7Quest5_Location = "莱温（黑暗深渊; "..YELLOW.."入口"..WHITE.."）"
-Inst7Quest5_Note = "堕落者的脑干可以在地下城中的纳迦和萨特身上拾取。完成后找地下城入口处的莱温交付任务。"
+Inst7Quest5_Location = "莱温·影星（黑暗深渊; "..YELLOW.."入口"..WHITE.."）"
+Inst7Quest5_Note = "堕落者的脑干可以在地下城中的纳迦和萨特身上拾取。完成后找地下城入口处的莱温·影星交付任务。"
 Inst7Quest5_Prequest = "无"
 Inst7Quest5_Folgequest = "无"
 --
