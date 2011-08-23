@@ -30,7 +30,7 @@
 	Ananhaid（1区 斯坦索姆“毛茸茸”公会 Adavak）
 	Email：ananhaid@gmail.com
 	Original updater:DIY
--- $Id: Atlas-zhTW.lua 1434 2011-08-16 02:02:26Z ananhaid@gmail.com $
+	$Id$
 
 --]]
 
