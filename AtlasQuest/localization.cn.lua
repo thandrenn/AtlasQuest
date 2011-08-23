@@ -30,7 +30,7 @@
 	Ananhaid（1区 斯坦索姆“毛茸茸”公会 Adavak）
 	Email：ananhaid@gmail.com
 	Original updater:DIY
-	更新日期：11年8月13日
+-- $Id: Atlas-zhTW.lua 1434 2011-08-16 02:02:26Z ananhaid@gmail.com $
 
 --]]
 
@@ -7996,24 +7996,24 @@ Inst63QAA = "5 个任务"
 Inst63QAH = "5 个任务"
 
 --Quest 1 Alliance
-Inst63Quest1 = "1. 約定，約定..."
+Inst63Quest1 = "1. Promises, Promises...[废弃不可用]"
 Inst63Quest1_Level = "85"
 Inst63Quest1_Attain = "85"
-Inst63Quest1_Aim = "在祖阿曼的高階祭司納羅拉克殿堂找回霸德的祖阿曼地圖。"
+Inst63Quest1_Aim = "Retrieve Budd's Map of Zul'Aman from High Priest Nalorakk's terrace in Zul'Aman."
 Inst63Quest1_Location = ""
-Inst63Quest1_Note = "你可以在靠近高階祭司納羅拉克"..YELLOW.."[1]"..WHITE.."右方的平台上找到地圖。\n\n如果你在燃燒的遠征版本中就完成此任務的話，你將只能拾取[妖術領主的神物]。"
-Inst63Quest1_Prequest = "無"
-Inst63Quest1_Folgequest = "X標記…你的末日!"
+Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..".\n\nIf you already did the level 70 version of this quest, you will only be able to pick up The Hex Lord's Fetish."
+Inst63Quest1_Prequest = "None"
+Inst63Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst63Quest2 = "2. X标记……你的末日！"
-Inst63Quest2_Level = "70"
-Inst63Quest2_Attain = "70"
-Inst63Quest2_Aim = "进入祖阿曼并调查哈尔拉兹的大厅、加亚莱的平台和埃基尔松的平台。将这些地方的细节报告给巴德，他的营地就在幽魂之地。"
-Inst63Quest2_Location = "巴德·奈德雷（幽魂之地 - 战斧岭; "..YELLOW.."70,67"..WHITE.."）"
-Inst63Quest2_Note = "哈尔拉兹的大厅在 "..YELLOW.."[4]"..WHITE.."，加亚莱的平台在 "..YELLOW.."[3]"..WHITE.."，埃基尔松的平台在 "..YELLOW.."[2]"..WHITE.."。\n\n不用打首领就可以完成任务，只要在附近就可以。" 
-Inst63Quest2_Prequest = "約定，約定..."
+Inst63Quest2 = "2. X Marks... Your Doom![废弃不可用]"
+Inst63Quest2_Level = "85"
+Inst63Quest2_Attain = "85"
+Inst63Quest2_Aim = "Visit Halazzi's Chamber, Jan'alai's Platform, and Akil'zon's Platform in Zul'Aman."
+Inst63Quest2_Location = ""
+Inst63Quest2_Note = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..".\n\nIf you already did the level 70 version of this quest, you will only be able to pick up The Hex Lord's Fetish."
+Inst63Quest2_Prequest = "Promises, Promises..."
 Inst63Quest2_Folgequest = "妖术领主的神像"
 Inst63Quest2FQuest = "true"
 -- No Rewards for this quest
@@ -8025,14 +8025,14 @@ Inst63Quest3_Attain = "85"
 Inst63Quest3_Aim = "从祖阿曼的妖术领主玛拉卡斯那里取得妖术领主的雕像。"
 Inst63Quest3_Location = "巫医提旺司（祖阿曼; "..BLUE.."入口"..WHITE.."）"
 Inst63Quest3_Note = "妖术领主玛拉卡斯在"..YELLOW.."[5]"..WHITE.."。\n\n如果你在燃烧的远征版本中完成过此任务的话，你将会直接获得这个任务，而不用完成前置任务。"
-Inst63Quest3_Prequest = "X標記…你的末日!"
+Inst63Quest3_Prequest = "X Marks... Your Doom!"
 Inst63Quest3_Folgequest = "无"
 Inst63Quest3FQuest = "true"
 --
-Inst63Quest3name1 = "巫毒獵弓"
-Inst63Quest3name2 = "神像護脛"
-Inst63Quest3name3 = "塔灣西的裹手"
-Inst63Quest3name4 = "破爛的邪化布包"
+Inst63Quest3name1 = "巫毒猎弓"
+Inst63Quest3name2 = "神像胫甲"
+Inst63Quest3name3 = "提旺司的裹手"
+Inst63Quest3name4 = "破烂的巫术布包"
 
 --Quest 4 Alliance
 Inst63Quest4 = "4. 受困的斥候"
@@ -8049,7 +8049,7 @@ Inst63Quest4_Folgequest = "无"
 Inst63Quest5 = "5. 阿曼尼督军"
 Inst63Quest5_Level = "85"
 Inst63Quest5_Attain = "85"
-Inst63Quest5_Aim = "击败阿曼尼的新督军，达卡拉。"
+Inst63Quest5_Aim = "击败新阿曼尼督军，达卡拉。"
 Inst63Quest5_Location = "沃金（祖阿曼; "..BLUE.."入口"..WHITE.."）"
 Inst63Quest5_Note = "达卡拉在"..YELLOW.."[6]"..WHITE.."，是祖阿曼里的最后一个首领。"
 Inst63Quest5_Prequest = "无"
