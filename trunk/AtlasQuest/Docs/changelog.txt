@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.6.6 BETA  (not released)
+Version 4.6.6 (August 30, 2011)
 
 - Merged in patch from Luke1410 with the following changes:
 	- Added new Reset Quest button to options menu which clears the list of completed quests before querying the server for the list of completed quests.
@@ -14,7 +14,7 @@ Version 4.6.6 BETA  (not released)
 - Added missing Horde Gnomeregan Quest IDs.  (thanks Luke1410)
 - Corrected Quest ID for Horde Blackrock Depths quest "Twilight?! No!".  (thanks Luke1410)
 - Horde Gnomeregan Quests had wrong # in German localization.  (thanks Luke1410)
-- Localizations updated: dDE
+- Localizations updated: dDE, zhCN, zhTW.
 
 
 
