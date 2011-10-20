@@ -2,6 +2,15 @@
 Changelog
 =========
 
+Version 4.6.7 BETA (not yet released)
+
+- TOC file updated for Patch 4.3.
+- Updated map file locations for Atlas 1.20.2
+- Added End Time, Well of Eternity, Hour of Twilight and Dragon Soul.
+
+
+
+
 Version 4.6.6 (August 30, 2011)
 
 - Merged in patch from Luke1410 with the following changes:
