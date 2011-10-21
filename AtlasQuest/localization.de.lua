@@ -11483,6 +11483,42 @@ Inst109QAH = "No Quests"
 
 
 
+--------------- INST110 - End Time ---------------
+
+Inst110Story = ""
+Inst110Caption = "End Time"
+Inst110QAA = "No Quests"
+Inst110QAH = "No Quests"
+
+
+
+--------------- INST111 - Well of Eternity ---------------
+
+Inst111Story = ""
+Inst111Caption = "Well of Eternity"
+Inst111QAA = "No Quests"
+Inst111QAH = "No Quests"
+
+
+
+--------------- INST112 - Hour of Twilight ---------------
+
+Inst112Story = ""
+Inst112Caption = "Hour of Twilight"
+Inst112QAA = "No Quests"
+Inst112QAH = "No Quests"
+
+
+
+--------------- INST113 - Dragon Soul ---------------
+
+Inst113Story = ""
+Inst113Caption = "Drachenseele"
+Inst113QAA = "No Quests"
+Inst113QAH = "No Quests"
+
+
+
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
@@ -12253,3 +12289,7 @@ end
 -- 107 = Twin Peaks
 -- 108 = Zul'Gurub (ZG)
 -- 109 = Firelands
+-- 110 = End Time
+-- 111 = Well of Eternity
+-- 112 = Hour of Twilight
+-- 113 = Dragon Soul
