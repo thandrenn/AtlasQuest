@@ -11485,8 +11485,8 @@ Inst109QAH = "No Quests"
 
 --------------- INST110 - End Time ---------------
 
-Inst110Story = ""
-Inst110Caption = "End Time"
+Inst110Story = "Aus einer unendlichen Anzahl möglicher Wendungen zeigt diese Zeitlinie die trostlose Zukunft Azeroths im Falle der Niederlage seiner Verteidiger gegenüber Todesschwinge. In dieser öden Zukunft hat Nozdormu eine Anomalie aufgedeckt, die Zugang sowohl zur Vergangenheit als auch der Drachenseele verwehrt: Eine mächtige Kreatur von außerhalb der Zeit, die einsam inmitten verzerrter Echos der Vergangenheit haust."
+Inst110Caption = "Die Endzeit"
 Inst110QAA = "No Quests"
 Inst110QAH = "No Quests"
 
@@ -11494,8 +11494,8 @@ Inst110QAH = "No Quests"
 
 --------------- INST111 - Well of Eternity ---------------
 
-Inst111Story = ""
-Inst111Caption = "Well of Eternity"
+Inst111Story = "Vor zehntausend Jahren war Zin-Azshari, die Hauptstadt der Nachtelfen, eine blühende, atemberaubende Metropole. An den Gestaden des Brunnens der Ewigkeit gelegen, war sie der Ort, an dem die aristokratischen Hochgeborenen zum ersten Mal ein Portal in den Wirbelnden Nether öffneten und der Brennenden Legion ermöglichten, in Azeroth einzumarschieren. Unter dem Befehl Azsharas, der Königin der Nachtelfen, lassen die Hochgeborenen ihre Energien in das Portal fließen, um es auf das furchterregende und grandiose Erscheinen des Titanen Sargeras vorzubereiten."
+Inst111Caption = "Brunnen der Ewigkeit"
 Inst111QAA = "No Quests"
 Inst111QAH = "No Quests"
 
@@ -11503,8 +11503,8 @@ Inst111QAH = "No Quests"
 
 --------------- INST112 - Hour of Twilight ---------------
 
-Inst112Story = ""
-Inst112Caption = "Hour of Twilight"
+Inst112Story = "Nachdem sie den ewigen Drachenschwarm zerstreut und die sagenumwobene Drachenseele ergattert haben, müssen Thrall und seine Verbündeten nun in Richtung Wyrmruhtempel reisen und sich mit dem Grünen, dem Blauen, dem Roten und dem Bronzenen Drachenschwarm treffen. Ihren Bestimmungsort zu erreichen wird ein schwieriges Unterfangen werden: Der Schattenhammer hat seine Streitmächte in der Umgebung des Tempels versammelt und ist entschlossen, die Drachenseele um jeden Preis an sich zu bringen."
+Inst112Caption = "Stunde des Zwielichts"
 Inst112QAA = "No Quests"
 Inst112QAH = "No Quests"
 
