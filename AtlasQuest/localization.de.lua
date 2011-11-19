@@ -11288,9 +11288,9 @@ Inst101Quest3name3_HORDE = Inst101Quest3name3
 --------------- INST102 - Blackwing Descent ---------------
 
 Inst102Story = ""
-Inst102Caption = "Blackwing Descent"
-Inst102QAA = "No Quests"
-Inst102QAH = "No Quests"
+Inst102Caption = "Pechschwingenabstieg"
+Inst102QAA = "Keine Quests"
+Inst102QAH = "Keine Quests"
 
 
 
@@ -11298,8 +11298,8 @@ Inst102QAH = "No Quests"
 
 Inst103Story = ""
 Inst103Caption = "Die Bastion des Zwielichts"
-Inst103QAA = "No Quests"
-Inst103QAH = "No Quests"
+Inst103QAA = "Keine Quests"
+Inst103QAH = "Keine Quests"
 
 
 
@@ -11307,8 +11307,8 @@ Inst103QAH = "No Quests"
 
 Inst104Story = ""
 Inst104Caption = "Thron der vier Winde"
-Inst104QAA = "No Quests"
-Inst104QAH = "No Quests"
+Inst104QAA = "Keine Quests"
+Inst104QAH = "Keine Quests"
 
 
 
@@ -11316,8 +11316,8 @@ Inst104QAH = "No Quests"
 
 Inst105Story = ""
 Inst105Caption = "Baradin Hold"
-Inst105QAA = "No Quests"
-Inst105QAH = "No Quests"
+Inst105QAA = "Keine Quests"
+Inst105QAH = "Keine Quests"
 
 
 
@@ -11478,8 +11478,8 @@ Inst109Story = {
 ["MaxPages"] = "2",
 }
 Inst109Caption = "Feuerlande"
-Inst109QAA = "No Quests"
-Inst109QAH = "No Quests"
+Inst109QAA = "Keine Quests"
+Inst109QAH = "Keine Quests"
 
 
 
@@ -11487,8 +11487,8 @@ Inst109QAH = "No Quests"
 
 Inst110Story = "Aus einer unendlichen Anzahl möglicher Wendungen zeigt diese Zeitlinie die trostlose Zukunft Azeroths im Falle der Niederlage seiner Verteidiger gegenüber Todesschwinge. In dieser öden Zukunft hat Nozdormu eine Anomalie aufgedeckt, die Zugang sowohl zur Vergangenheit als auch der Drachenseele verwehrt: Eine mächtige Kreatur von außerhalb der Zeit, die einsam inmitten verzerrter Echos der Vergangenheit haust."
 Inst110Caption = "Die Endzeit"
-Inst110QAA = "No Quests"
-Inst110QAH = "No Quests"
+Inst110QAA = "Keine Quests"
+Inst110QAH = "Keine Quests"
 
 
 
@@ -11496,8 +11496,8 @@ Inst110QAH = "No Quests"
 
 Inst111Story = "Vor zehntausend Jahren war Zin-Azshari, die Hauptstadt der Nachtelfen, eine blühende, atemberaubende Metropole. An den Gestaden des Brunnens der Ewigkeit gelegen, war sie der Ort, an dem die aristokratischen Hochgeborenen zum ersten Mal ein Portal in den Wirbelnden Nether öffneten und der Brennenden Legion ermöglichten, in Azeroth einzumarschieren. Unter dem Befehl Azsharas, der Königin der Nachtelfen, lassen die Hochgeborenen ihre Energien in das Portal fließen, um es auf das furchterregende und grandiose Erscheinen des Titanen Sargeras vorzubereiten."
 Inst111Caption = "Brunnen der Ewigkeit"
-Inst111QAA = "No Quests"
-Inst111QAH = "No Quests"
+Inst111QAA = "Keine Quests"
+Inst111QAH = "Keine Quests"
 
 
 
@@ -11505,17 +11505,21 @@ Inst111QAH = "No Quests"
 
 Inst112Story = "Nachdem sie den ewigen Drachenschwarm zerstreut und die sagenumwobene Drachenseele ergattert haben, müssen Thrall und seine Verbündeten nun in Richtung Wyrmruhtempel reisen und sich mit dem Grünen, dem Blauen, dem Roten und dem Bronzenen Drachenschwarm treffen. Ihren Bestimmungsort zu erreichen wird ein schwieriges Unterfangen werden: Der Schattenhammer hat seine Streitmächte in der Umgebung des Tempels versammelt und ist entschlossen, die Drachenseele um jeden Preis an sich zu bringen."
 Inst112Caption = "Stunde des Zwielichts"
-Inst112QAA = "No Quests"
-Inst112QAH = "No Quests"
+Inst112QAA = "Keine Quests"
+Inst112QAH = "Keine Quests"
 
 
 
 --------------- INST113 - Dragon Soul ---------------
 
-Inst113Story = ""
+Inst113Story = {
+["Page1"] = "Die Drachenseele, geschmiedet von Todesschwinge während des Krieges der Uralten, barg in sich die Befehlsgewalt über alle anderen Drachenschwärme, bis sie schließlich zerstört wurde. Nachdem eine Version des Artefakts aus den Höhlen der Zeit geborgen wurde, versammeln sich Thrall und die verbündeten Drachenschwärme nun am Wyrmruhtempel, um in einem letzten verzweifelten Aufbegehren mit dessen Hilfe Todesschwinge zu bezwingen.",
+["Page2"] = "Der marode Wyrmruhtempel, einst von den Titanen als Zufluchtsstätte für alle Drachenwesen ersonnen, bildet nun die letzte Hoffnung der Kräfte, die sich gegen den schwarzen Drachen Neltharion verbündet haben, der einst der Erdenbeschützer und Hüter Azeroths war und sich nun Todesschwinge der Zerstörer nennt. Hier ist es, wo sich die verbleibenden Aspekte ? Alexstrasza, Ysera, Nozdormu, Kalecgos und Thrall ? versammelt haben, um der Drachenseele ihre Kräfte zu verleihen ? Azeroths letzte Chance, den riesigen Widersacher aufzuhalten. Gerade als sie mit der Aufladung der Drachenseele mit ihrer Energie beginnen, greifen Todesschwinge und seine gesamte Armee den Wyrmruhtempel an.",
+["MaxPages"] = "2",
+}
 Inst113Caption = "Drachenseele"
-Inst113QAA = "No Quests"
-Inst113QAH = "No Quests"
+Inst113QAA = "Keine Quests"
+Inst113QAH = "Keine Quests"
 
 
 
@@ -11784,18 +11788,18 @@ Inst89Quest1_HORDE_Folgequest = "Nein"
 --------------- INST106 - Battle for Gilneas ---------------
 
 Inst106Story = ""
-Inst106Caption = "Battle for Gilneas"
-Inst106QAA = "No Quests"
-Inst106QAH = "No Quests"
+Inst106Caption = "Die Schlacht um Gilneas"
+Inst106QAA = "Keine Quests"
+Inst106QAH = "Keine Quests"
 
 
 
---------------- INST107 - Twin Peaks ---------------
+--------------- INST107 -Twin Peaks ---------------
 
 Inst107Story = ""
-Inst107Caption = "Twin Peaks"
-Inst107QAA = "No Quests"
-Inst107QAH = "No Quests" 
+Inst107Caption = "Die Zwillingsgipfel"
+Inst107QAA = "Keine Quests"
+Inst107QAH = "Keine Quests" 
 
 
 
