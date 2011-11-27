@@ -5,8 +5,22 @@ Changelog
 Version 4.6.7 BETA (not yet released)
 
 - TOC file updated for Patch 4.3.
-- Updated map file locations for Atlas 1.20.2
+- Updated map file locations for Atlas 1.21.0
 - Added End Time, Well of Eternity, Hour of Twilight and Dragon Soul.
+- Removed Alchemy specialization quests from TK: Botanica & CoT: Black Morass.
+- To end some confusion I've re-added Atlas as a Required Dependency for running AtlasQuest and commented out some AlphaMap code.  (thanks Luke1410)
+
+- Quests added:
+	- End Time: End Time
+	- End Time: Murozond
+	- End Time: Archival Purposes
+	- Well of Eternity: The Well of Eternity
+	- Well of Eternity: In Unending Numbers
+	- Well of Eternity: The Vainglorious
+	- Well of Eternity: The Path to the Dragon Soul
+	- Well of Eternity: Documenting the Timeways
+	- Hour of Twilight: The Hour of Twilight
+	- Hour of Twilight: To Wyrmrest!
 
 
 

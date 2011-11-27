@@ -22,10 +22,10 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team Past & Present
 ## X-Localizations: enUS, deDE, ruRU, zhCN, zhTW
-## X-Date: November 1, 2011
+## X-Date: November 29, 2011
 ## X-Help: AtlasQuestHelp
-## RequiredDeps: 
-## OptionalDeps: Atlas
+## RequiredDeps: Atlas
+## OptionalDeps: 
 ## LoadOnDemand: 0
 ## SavedVariablesPerCharacter:
 ## SavedVariables: AtlasQuest_Options,
