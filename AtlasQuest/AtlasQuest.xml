@@ -460,7 +460,7 @@
  </Size>
  <Anchors>
    <Anchor point="TOP" relativeTo="AtlasFrame">
-      <Offset><AbsDimension x="-545" y="-35"/></Offset>>
+      <Offset><AbsDimension x="-545" y="-25"/></Offset>>
    </Anchor>
  </Anchors>
  <Backdrop name="$parentBackdrop" bgFile="Interface\Minimap\TooltipBackdrop-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
@@ -1469,7 +1469,10 @@
   </Scripts>
 </Frame>
 
-<!-- Added for AlphaMap Compatibility -->
+<!-- Added for AlphaMap Compatibility 
+
+Commented out November 10, 2011 as AlphaMap is no longer supported.  May be re-added at a later time if necessary.
+
 
 	<Button name="AQ_AMCloseButton" inherits="OptionsButtonTemplate" text="AQ" parent="AlphaMapAlphaMapFrame">
 		<Size>
@@ -1488,5 +1491,5 @@
 			</OnClick>
 		</Scripts>
 	</Button>
-
+-->
 </Ui>

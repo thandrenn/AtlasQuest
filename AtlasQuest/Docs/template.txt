@@ -3,97 +3,97 @@ If/when this slips into a release, just ignore it. :)
 
 
 --Quest 1 Alliance
-Inst21Quest1 = ""
-Inst21Quest1_Level = ""
-Inst21Quest1_Attain = ""
-Inst21Quest1_Aim = ""
-Inst21Quest1_Location = ""
-Inst21Quest1_Note = ""
-Inst21Quest1_Prequest = ""
-Inst21Quest1_Folgequest = ""
-Inst21Quest1PreQuest = "true"
-Inst21Quest1FQuest = "true"
+Inst112Quest1 = ""
+Inst112Quest1_Level = ""
+Inst112Quest1_Attain = ""
+Inst112Quest1_Aim = ""
+Inst112Quest1_Location = ""
+Inst112Quest1_Note = ""
+Inst112Quest1_Prequest = ""
+Inst112Quest1_Folgequest = ""
+Inst112Quest1PreQuest = "true"
+Inst112Quest1FQuest = "true"
 --
-Inst21Quest1name1 = ""
+Inst112Quest1name1 = ""
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst21Quest1_HORDE = ""
-Inst21Quest1_HORDE_Level = ""
-Inst21Quest1_HORDE_Attain = ""
-Inst21Quest1_HORDE_Aim = ""
-Inst21Quest1_HORDE_Location = ""
-Inst21Quest1_HORDE_Note = ""
-Inst21Quest1_HORDE_Prequest = ""
-Inst21Quest1_HORDE_Folgequest = ""
-Inst21Quest1PreQuest_HORDE = "true"
-Inst21Quest1FQuest_HORDE = "true"
+Inst112Quest1_HORDE = ""
+Inst112Quest1_HORDE_Level = ""
+Inst112Quest1_HORDE_Attain = ""
+Inst112Quest1_HORDE_Aim = ""
+Inst112Quest1_HORDE_Location = ""
+Inst112Quest1_HORDE_Note = ""
+Inst112Quest1_HORDE_Prequest = ""
+Inst112Quest1_HORDE_Folgequest = ""
+Inst112Quest1PreQuest_HORDE = "true"
+Inst112Quest1FQuest_HORDE = "true"
 --
-Inst21Quest1name1_HORDE = ""
+Inst112Quest1name1_HORDE = ""
 -- No Rewards for this quest
 
 
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst21Quest1_HORDE = Inst21Quest1
-Inst21Quest1_HORDE_Level = Inst21Quest1_Level
-Inst21Quest1_HORDE_Attain = Inst21Quest1_Attain
-Inst21Quest1_HORDE_Aim = Inst21Quest1_Aim
-Inst21Quest1_HORDE_Location = Inst21Quest1_Location
-Inst21Quest1_HORDE_Note = Inst21Quest1_Note
-Inst21Quest1_HORDE_Prequest = Inst21Quest1_Prequest
-Inst21Quest1_HORDE_Folgequest = Inst21Quest1_Folgequest
-Inst21Quest1PreQuest_HORDE = Inst21Quest1PreQuest
-Inst21Quest1FQuest_HORDE = Inst21Quest1FQuest
+Inst112Quest1_HORDE = Inst112Quest1
+Inst112Quest1_HORDE_Level = Inst112Quest1_Level
+Inst112Quest1_HORDE_Attain = Inst112Quest1_Attain
+Inst112Quest1_HORDE_Aim = Inst112Quest1_Aim
+Inst112Quest1_HORDE_Location = Inst112Quest1_Location
+Inst112Quest1_HORDE_Note = Inst112Quest1_Note
+Inst112Quest1_HORDE_Prequest = Inst112Quest1_Prequest
+Inst112Quest1_HORDE_Folgequest = Inst112Quest1_Folgequest
+Inst112Quest1PreQuest_HORDE = Inst112Quest1PreQuest
+Inst112Quest1FQuest_HORDE = Inst112Quest1FQuest
 --
-Inst21Quest1name1_HORDE = Inst21Quest1name1
+Inst112Quest1name1_HORDE = Inst112Quest1name1
 -- No Rewards for this quest
 
 
 
 
 --Quest 1 Alliance
-Inst21Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst112Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst21Quest1ITC1 = Itemc4;
-Inst21Quest1description1 = AQITEM_..AQITEM_
-Inst21Quest1ID1 = ""
+Inst112Quest1ITC1 = Itemc4;
+Inst112Quest1description1 = AQITEM_..AQITEM_
+Inst112Quest1ID1 = ""
 --ITEM2
-Inst21Quest1ITC2 = Itemc4;
-Inst21Quest1description2 = AQITEM_..AQITEM_
-Inst21Quest1ID2 = ""
+Inst112Quest1ITC2 = Itemc4;
+Inst112Quest1description2 = AQITEM_..AQITEM_
+Inst112Quest1ID2 = ""
 --ITEM3
-Inst21Quest1ITC3 = Itemc4;
-Inst21Quest1description3 = AQITEM_..AQITEM_
-Inst21Quest1ID3 = ""
+Inst112Quest1ITC3 = Itemc4;
+Inst112Quest1description3 = AQITEM_..AQITEM_
+Inst112Quest1ID3 = ""
 --ITEM4
-Inst21Quest1ITC4 = Itemc4;
-Inst21Quest1description4 = AQITEM_..AQITEM_
-Inst21Quest1ID4 = ""
+Inst112Quest1ITC4 = Itemc4;
+Inst112Quest1description4 = AQITEM_..AQITEM_
+Inst112Quest1ID4 = ""
 
 
 
 
 --Quest 1 Alliance
-Inst21Quest1Rewardtext = AQNoReward
+Inst112Quest1Rewardtext = AQNoReward
 
 
 
 
 
-Inst21Quest1_QuestID = ""
-Inst21Quest2_QuestID = ""
-Inst21Quest3_QuestID = ""
-Inst21Quest4_QuestID = ""
-Inst21Quest5_QuestID = ""
+Inst112Quest1_QuestID = ""
+Inst112Quest2_QuestID = ""
+Inst112Quest3_QuestID = ""
+Inst112Quest4_QuestID = ""
+Inst112Quest5_QuestID = ""
 
-Inst21Quest1_HORDE_QuestID = ""
-Inst21Quest2_HORDE_QuestID = ""
-Inst21Quest3_HORDE_QuestID = ""
-Inst21Quest4_HORDE_QuestID = ""
-Inst21Quest5_HORDE_QuestID = ""
+Inst112Quest1_HORDE_QuestID = ""
+Inst112Quest2_HORDE_QuestID = ""
+Inst112Quest3_HORDE_QuestID = ""
+Inst112Quest4_HORDE_QuestID = ""
+Inst112Quest5_HORDE_QuestID = ""
 
 
 AQ__Level = ""

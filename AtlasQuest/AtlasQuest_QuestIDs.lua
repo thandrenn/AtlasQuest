@@ -1151,24 +1151,21 @@ Inst49Quest1_QuestID = "10296"
 Inst49Quest2_QuestID = "10297"
 Inst49Quest3_QuestID = "10298"
 Inst49Quest4_QuestID = "9836"
-Inst49Quest5_QuestID = "10902"
-Inst49Quest6_QuestID = "11382"
-Inst49Quest7_QuestID = "11383"
+Inst49Quest5_QuestID = "11382"
+Inst49Quest6_QuestID = "11383"
 
 Inst49Quest1_HORDE_QuestID = "10296"
 Inst49Quest2_HORDE_QuestID = "10297"
 Inst49Quest3_HORDE_QuestID = "10298"
 Inst49Quest4_HORDE_QuestID = "9836"
-Inst49Quest5_HORDE_QuestID = "10902"
-Inst49Quest6_HORDE_QuestID = "11382"
-Inst49Quest7_HORDE_QuestID = "11383"
+Inst49Quest5_HORDE_QuestID = "11382"
+Inst49Quest6_HORDE_QuestID = "11383"
 
 
 AQ_10296_Level = "70"
 AQ_10297_Level = "70"
 AQ_10298_Level = "70"
 AQ_9836_Level = "70"
-AQ_10902_Level = "70"
 AQ_11382_Level = "70"
 AQ_11383_Level = "70"
 
@@ -1302,20 +1299,17 @@ AQ_11389_Level = "70"
 
 Inst55Quest1_QuestID = "10704"
 Inst55Quest2_QuestID = "10257"
-Inst55Quest3_QuestID = "10897"
-Inst55Quest4_QuestID = "11384"
-Inst55Quest5_QuestID = "11385"
+Inst55Quest3_QuestID = "11384"
+Inst55Quest4_QuestID = "11385"
 
 Inst55Quest1_HORDE_QuestID = "10704"
 Inst55Quest2_HORDE_QuestID = "10257"
-Inst55Quest3_HORDE_QuestID = "10897"
-Inst55Quest4_HORDE_QuestID = "11384"
-Inst55Quest5_HORDE_QuestID = "11385"
+Inst55Quest3_HORDE_QuestID = "11384"
+Inst55Quest4_HORDE_QuestID = "11385"
 
 
 AQ_10704_Level = "70"
 AQ_10257_Level = "70"
-AQ_10897_Level = "70"
 AQ_11384_Level = "70"
 AQ_11385_Level = "70"
 
@@ -2059,13 +2053,55 @@ AQ_29251_Level = "85"
 
 --------------- INST110 - End Time ---------------
 
+Inst110Quest1_QuestID = "30095"
+Inst110Quest2_QuestID = "30096"
+Inst110Quest3_QuestID = "30097"
+
+Inst110Quest1_HORDE_QuestID = "30094"
+Inst110Quest2_HORDE_QuestID = "30096"
+Inst110Quest3_HORDE_QuestID = "30097"
+
+
+AQ_30095_Level = "85"
+AQ_30096_Level = "85"
+AQ_30097_Level = "85"
+
 
 
 --------------- INST111 - Well of Eternity ---------------
 
+Inst111Quest1_QuestID = "30098"
+Inst111Quest2_QuestID = "30099"
+Inst111Quest3_QuestID = "30100"
+Inst111Quest4_QuestID = "30101"
+Inst111Quest5_QuestID = "30104"
+
+Inst111Quest1_HORDE_QuestID = "30098"
+Inst111Quest2_HORDE_QuestID = "30099"
+Inst111Quest3_HORDE_QuestID = "30100"
+Inst111Quest4_HORDE_QuestID = "30101"
+Inst111Quest5_HORDE_QuestID = "30104"
+
+
+AQ_30098_Level = "85"
+AQ_30099_Level = "85"
+AQ_30100_Level = "85"
+AQ_30101_Level = "85"
+AQ_30104_Level = "85"
+
 
 
 --------------- INST112 - Hour of Twilight ---------------
+
+Inst112Quest1_QuestID = "30102"
+Inst112Quest2_QuestID = "30103"
+
+Inst112Quest1_HORDE_QuestID = "30102"
+Inst112Quest2_HORDE_QuestID = "30103"
+
+
+AQ_30102_Level = "85"
+AQ_30103_Level = "85"
 
 
 

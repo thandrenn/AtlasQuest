@@ -32,7 +32,7 @@ function AtlasQuest_Instanzenchecken()
 
 	-- Original Instances
 
-	if (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheDeadminesEnt") then
+	if (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheDeadminesEnt") then
 		AQINSTANZ = 1;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\WailingCaverns") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\WailingCavernsEnt") then
@@ -74,7 +74,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\MoltenCore") then
 		AQINSTANZ = 14;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\OnyxiasLair") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\OnyxiasLair") then
 		AQINSTANZ = 16;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\RazorfenDowns") then
@@ -89,7 +89,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Scholomance") then
 		AQINSTANZ = 20;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\ShadowfangKeep") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadowfangKeep") then
 		AQINSTANZ = 21;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\StratholmeCrusader") then
@@ -194,7 +194,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleBasement") or (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleTop") then
 		AQINSTANZ = 62;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\ZulAman") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulAman") then
 		AQINSTANZ = 63;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\MagistersTerrace") then
@@ -320,16 +320,16 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Firelands") then
 		AQINSTANZ = 109;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\EndTime") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTEndTime") then
 		AQINSTANZ = 110;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\WellOfEternity") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTWellOfEternity") then
 		AQINSTANZ = 111;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HourOfTwilight") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTHourOfTwilight") then
 		AQINSTANZ = 112;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\DragonSoul") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTDragonSoulA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTDragonSoulB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTDragonSoulC") then
 		AQINSTANZ = 113;
 
 
