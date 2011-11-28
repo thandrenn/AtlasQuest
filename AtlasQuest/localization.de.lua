@@ -11443,11 +11443,11 @@ Inst110QAA = "3 Quests"
 Inst110QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst110Quest1 = "1. Endzeit"
+Inst110Quest1 = "1. Die Endzeit"
 Inst110Quest1_Level = "85"
 Inst110Quest1_Attain = "85"
-Inst110Quest1_Aim = "Sprecht mit Nozdormu bei der Endzeit."
-Inst110Quest1_Location = "Coridormi (Sturmwind - Wizard's Sanctum; "..YELLOW.."49.4, 87.4"..WHITE..")"
+Inst110Quest1_Aim = "Sprecht mit Nozdormu am Ende der Zeit."
+Inst110Quest1_Location = "Coridormi (Sturmwind - Magiersanktum; "..YELLOW.."49.4, 87.4"..WHITE..")"
 Inst110Quest1_Note = "Nozdormu ist innerhalb der Instanz."
 Inst110Quest1_Prequest = "Nein"
 Inst110Quest1_Folgequest = "Ja, Murozond"
@@ -11465,9 +11465,9 @@ Inst110Quest2_Folgequest = "Ja, Der Brunnen der Ewigkeit"
 Inst110Quest2FQuest = "true"
 --
 Inst110Quest2name1 = "Bronze Blaster"
-Inst110Quest2name2 = "Boots of the Forked Road"
+Inst110Quest2name2 = "Stiefel der Weggabelung"
 Inst110Quest2name3 = "Time Twister's Gauntlets"
-Inst110Quest2name4 = "Cowl of Destiny"
+Inst110Quest2name4 = "Gugel des Schicksals"
 
 --Quest 3 Alliance
 Inst110Quest3 = "3. Archival Purposes"
@@ -11542,49 +11542,49 @@ Inst111Quest1_Aim = "Sprecht mit Nozdormu im Brunnen der Ewigkeit."
 Inst111Quest1_Location = "Nozdormu (Endzeit; "..BLUE.."[F]"..WHITE..")"
 Inst111Quest1_Note = "Nozdormu ist innerhalb der Instanz Brunnen der Ewigkeit."
 Inst111Quest1_Prequest = "Ja, Murozond"
-Inst111Quest1_Folgequest = "Ja, In Unending Numbers"
+Inst111Quest1_Folgequest = "Ja, Die endlosen Zahlen"
 Inst111Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst111Quest2 = "2. In Unending Numbers"
+Inst111Quest2 = "2. Die endlosen Zahlen"
 Inst111Quest2_Level = "85"
 Inst111Quest2_Attain = "85"
-Inst111Quest2_Aim = "Disable the three demon portals, then slay Peroth'arn."
+Inst111Quest2_Aim = "Deaktiviere die drei Dämonen-Portale, dann töte Peroth'arn."
 Inst111Quest2_Location = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")"
-Inst111Quest2_Note = "The three portals can be found in the large area after the entrance with the masses of demons running through.  Each portal is on a different side of the room.  After disabling them, Peroth'arn will appear at "..YELLOW.."[1]"..WHITE.."."
+Inst111Quest2_Note = "Die drei Portale können im großen Gebiet nach dem Eingang gefunden werden mit Massen von Dämonen die da rumlaufen. Jedes Portal ist auf eine anderen Seite des Raumes. Nach dem deaktivieren der drei Portale, erscheint Peroth'arn bei "..YELLOW.."[1]"..WHITE.."."
 Inst111Quest2_Prequest = "Ja, Der Brunnen der Ewigkeit"
-Inst111Quest2_Folgequest = "The Vainglorious"
+Inst111Quest2_Folgequest = "Ja, Die Prahlerischen"
 Inst111Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst111Quest3 = "3. The Vainglorious"
+Inst111Quest3 = "3. Die Prahlerischen"
 Inst111Quest3_Level = "85"
 Inst111Quest3_Attain = "85"
-Inst111Quest3_Aim = "Dispatch of Queen Azshara."
+Inst111Quest3_Aim = "Versand von Königin Azshara."
 Inst111Quest3_Location = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")"
 Inst111Quest3_Note = "Königen Azshara ist bei "..YELLOW.."[2]"..WHITE.."."
-Inst111Quest3_Prequest = "In Unending Numbers"
-Inst111Quest3_Folgequest = "The Path to the Dragon Soul"
+Inst111Quest3_Prequest = "Ja, Die endlosen Zahlen"
+Inst111Quest3_Folgequest = "Ja, Der Weg zur Drachenseele"
 Inst111Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst111Quest4 = "4. The Path to the Dragon Soul"
+Inst111Quest4 = "4. Der Weg zur Drachenseele"
 Inst111Quest4_Level = "85"
 Inst111Quest4_Attain = "85"
 Inst111Quest4_Aim = "Töte Mannoroth."
 Inst111Quest4_Location = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")"
 Inst111Quest4_Note = "Mannoroth ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst111Quest4_Prequest = "The Vainglorious"
+Inst111Quest4_Prequest = "Ja, Die Prahlerischen"
 Inst111Quest4_Folgequest = "Nein"
 Inst111Quest4FQuest = "true"
 --
 Inst111Quest4name1 = "Ironfeather Longbow"
 Inst111Quest4name2 = "Chain of the Demon Hunter"
 Inst111Quest4name3 = "Demonic Skull"
-Inst111Quest4name4 = "Boots of the Treacherous Path"
+Inst111Quest4name4 = "Stiefel des trügerischen Pfad "
 
 --Quest 5 Alliance
 Inst111Quest5 = "5. Documenting the Timeways"
