@@ -11446,7 +11446,7 @@ Inst110QAH = "3 Quests"
 Inst110Quest1 = "1. Die Endzeit"
 Inst110Quest1_Level = "85"
 Inst110Quest1_Attain = "85"
-Inst110Quest1_Aim = "Sprecht mit Nozdormu am Ende der Zeit."
+Inst110Quest1_Aim = "Sprecht mit Nozdormu in der Endzeit."
 Inst110Quest1_Location = "Coridormi (Sturmwind - Magiersanktum; "..YELLOW.."49.4, 87.4"..WHITE..")"
 Inst110Quest1_Note = "Nozdormu ist innerhalb der Instanz."
 Inst110Quest1_Prequest = "Nein"
@@ -11459,29 +11459,29 @@ Inst110Quest2_Level = "85"
 Inst110Quest2_Attain = "85"
 Inst110Quest2_Aim = "Töte Murozond."
 Inst110Quest2_Location = "Nozdormu (Endzeit; "..BLUE.."Eingang"..WHITE..")"
-Inst110Quest2_Note = "Murozond ist der erste Boss den Du stoßen wirst, nachdem ein paar Trashtruppen gepullt wurden."
+Inst110Quest2_Note = "Murozond ist der erste Boss auf den Du stoßen wirst, nachdem ein paar Trashtruppen gepullt wurden."
 Inst110Quest2_Prequest = "Ja, Endzeit"
 Inst110Quest2_Folgequest = "Ja, Der Brunnen der Ewigkeit"
 Inst110Quest2FQuest = "true"
 --
-Inst110Quest2name1 = "Bronze Blaster"
-Inst110Quest2name2 = "Stiefel der Weggabelung"
-Inst110Quest2name3 = "Time Twister's Gauntlets"
+Inst110Quest2name1 = "Bronzeblaster"
+Inst110Quest2name2 = "Stiefel des verzweigten Weges"
+Inst110Quest2name3 = "Stulpen des Zeitverzerrers"
 Inst110Quest2name4 = "Gugel des Schicksals"
 
 --Quest 3 Alliance
-Inst110Quest3 = "3. Archival Purposes"
+Inst110Quest3 = "3. Hilfsarchivar"
 Inst110Quest3_Level = "85"
 Inst110Quest3_Attain = "85"
-Inst110Quest3_Aim = "Slay two of the Echoes within the End Time, then allow Alurmi's Vessel to archive their information."
+Inst110Quest3_Aim = "Tötet zwei der Echos in der Endzeit und gebt Alurmis Behältnis die Gelegenheit, ihre Informationen zu archivieren."
 Inst110Quest3_Location = "Alurmi (Endzeit; "..BLUE.."Eingang"..WHITE..")"
-Inst110Quest3_Note = "Any two of the Echoes count towards the quest.  You only need to kill them for quest credit."
+Inst110Quest3_Note = "Irgendzwei Echos zählen für diese Quest. Du mußt diese nur töten für die Quest."
 Inst110Quest3_Prequest = "Nein"
 Inst110Quest3_Folgequest = "Nein"
 --
-Inst110Quest3name1 = "Archivist's Gloves"
-Inst110Quest3name2 = "Crescent Wand"
-Inst110Quest3name3 = "Time Strand Gauntlets"
+Inst110Quest3name1 = "Handschuhe des Archivars"
+Inst110Quest3name2 = "Halbmondzauberstab"
+Inst110Quest3name3 = "Zeitstrangstulpen"
 
 
 --Quest 1 Horde
@@ -11496,7 +11496,7 @@ Inst110Quest1_HORDE_Folgequest = "Ja, Murozond"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst110Quest2_HORDE = Inst110Quest2
+Inst110Quest2_HORDE = "2. Murozond"
 Inst110Quest2_HORDE_Level = "85"
 Inst110Quest2_HORDE_Attain = "85"
 Inst110Quest2_HORDE_Aim = Inst110Quest2_Aim
@@ -11506,7 +11506,7 @@ Inst110Quest2_HORDE_Prequest = "Ja, Endzeit"
 Inst110Quest2_HORDE_Folgequest = Inst110Quest2_Folgequest
 Inst110Quest2FQuest_HORDE = "true"
 --
-Inst110Quest2name1_HORDE = Inst110Quest2name1
+Inst110Quest2name1_HORDE = "Bronzeblaster"
 Inst110Quest2name2_HORDE = Inst110Quest2name2
 Inst110Quest2name3_HORDE = Inst110Quest2name3
 Inst110Quest2name4_HORDE = Inst110Quest2name4
@@ -11523,7 +11523,7 @@ Inst110Quest3_HORDE_Folgequest = "Nein"
 --
 Inst110Quest3name1_HORDE = Inst110Quest3name1
 Inst110Quest3name2_HORDE = Inst110Quest3name2
-Inst110Quest3name3_HORDE = Inst110Quest3name3 
+Inst110Quest3name3_HORDE = Inst110Quest3name3
 
 
 
@@ -11538,34 +11538,34 @@ Inst111QAH = "5 Quests"
 Inst111Quest1 = "1. Der Brunnen der Ewigkeit"
 Inst111Quest1_Level = "85"
 Inst111Quest1_Attain = "85"
-Inst111Quest1_Aim = "Sprecht mit Nozdormu im Brunnen der Ewigkeit."
+Inst111Quest1_Aim = "Sprecht mit Nozdormu am Brunnen der Ewigkeit."
 Inst111Quest1_Location = "Nozdormu (Endzeit; "..BLUE.."[F]"..WHITE..")"
 Inst111Quest1_Note = "Nozdormu ist innerhalb der Instanz Brunnen der Ewigkeit."
 Inst111Quest1_Prequest = "Ja, Murozond"
-Inst111Quest1_Folgequest = "Ja, Die endlosen Zahlen"
+Inst111Quest1_Folgequest = "Ja, In Scharen"
 Inst111Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst111Quest2 = "2. Die endlosen Zahlen"
+Inst111Quest2 = "2. In Scharen"
 Inst111Quest2_Level = "85"
 Inst111Quest2_Attain = "85"
-Inst111Quest2_Aim = "Deaktiviere die drei Dämonen-Portale, dann töte Peroth'arn."
+Inst111Quest2_Aim = "Deaktiviert die drei Dämonenportale und erschlagt dann Peroth'arn."
 Inst111Quest2_Location = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")"
 Inst111Quest2_Note = "Die drei Portale können im großen Gebiet nach dem Eingang gefunden werden mit Massen von Dämonen die da rumlaufen. Jedes Portal ist auf eine anderen Seite des Raumes. Nach dem deaktivieren der drei Portale, erscheint Peroth'arn bei "..YELLOW.."[1]"..WHITE.."."
 Inst111Quest2_Prequest = "Ja, Der Brunnen der Ewigkeit"
-Inst111Quest2_Folgequest = "Ja, Die Prahlerischen"
+Inst111Quest2_Folgequest = "Ja, Die Selbstherrlichen"
 Inst111Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst111Quest3 = "3. Die Prahlerischen"
+Inst111Quest3 = "3. Die Selbstherrlichen"
 Inst111Quest3_Level = "85"
 Inst111Quest3_Attain = "85"
-Inst111Quest3_Aim = "Versand von Königin Azshara."
+Inst111Quest3_Aim = "Beseitigt Königin Azshara."
 Inst111Quest3_Location = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")"
 Inst111Quest3_Note = "Königen Azshara ist bei "..YELLOW.."[2]"..WHITE.."."
-Inst111Quest3_Prequest = "Ja, Die endlosen Zahlen"
+Inst111Quest3_Prequest = "Ja, In Scharen"
 Inst111Quest3_Folgequest = "Ja, Der Weg zur Drachenseele"
 Inst111Quest3FQuest = "true"
 -- No Rewards for this quest
@@ -11577,29 +11577,29 @@ Inst111Quest4_Attain = "85"
 Inst111Quest4_Aim = "Töte Mannoroth."
 Inst111Quest4_Location = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")"
 Inst111Quest4_Note = "Mannoroth ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst111Quest4_Prequest = "Ja, Die Prahlerischen"
+Inst111Quest4_Prequest = "Ja, Die Selbstherrlichen"
 Inst111Quest4_Folgequest = "Nein"
 Inst111Quest4FQuest = "true"
 --
-Inst111Quest4name1 = "Ironfeather Longbow"
-Inst111Quest4name2 = "Chain of the Demon Hunter"
-Inst111Quest4name3 = "Demonic Skull"
-Inst111Quest4name4 = "Stiefel des trügerischen Pfad "
+Inst111Quest4name1 = "Eisenfederlangbogen"
+Inst111Quest4name2 = "Kette des Dämonenjägers"
+Inst111Quest4name3 = "Dämonischer Schädel"
+Inst111Quest4name4 = "Stiefel des tückischen Pfads"
 
 --Quest 5 Alliance
-Inst111Quest5 = "5. Documenting the Timeways"
+Inst111Quest5 = "5. Dokumentation der Zeitwege"
 Inst111Quest5_Level = "85"
 Inst111Quest5_Attain = "85"
-Inst111Quest5_Aim = "Slay a Legion Demon, a Royal Handmaiden, and Captain Varo'then, then allow Alurmi's Vessel to archive their information."
+Inst111Quest5_Aim = "Tötet einen Dämon der brennenden Legion, eine königliche Hofdame und Hauptmann Varo'then und gebt Alurmis Behältnis die Gelegenheit, ihre Informationen zu archivieren."
 Inst111Quest5_Location = "Alurmi (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")"
-Inst111Quest5_Note = "The first two can be found during the course of the dungeon.  Captain Varo'then is at the end at "..YELLOW.."[3]"..WHITE.."."
+Inst111Quest5_Note = "Die ersten zwei findest du auf den Weg durch die Instanz. Hauptmann Varo'then ist am Ende der Instanz bei "..YELLOW.."[3]"..WHITE.."."
 Inst111Quest5_Prequest = "Nein"
 Inst111Quest5_Folgequest = "Nein"
 --
-Inst111Quest5name1 = "Alurmi's Ring"
-Inst111Quest5name2 = "Treads of the Past"
-Inst111Quest5name3 = "Chronicler's Chestguard"
-Inst111Quest5name4 = "Historian's Sash"
+Inst111Quest5name1 = "Alurmis Ring"
+Inst111Quest5name2 = "Treter der Vergangenheit"
+Inst111Quest5name3 = "Brustschutz des Chronisten"
+Inst111Quest5name4 = "Schärpe des Historikers"
 
 
 --Quest 1 Horde
@@ -11664,7 +11664,7 @@ Inst111Quest5_HORDE_Note = Inst111Quest5_Note
 Inst111Quest5_HORDE_Prequest = "Nein"
 Inst111Quest5_HORDE_Folgequest = "Nein"
 --
-Inst111Quest5name1_HORDE = Inst111Quest5name1
+Inst111Quest5name1_HORDE = "Alurmis Ring"
 Inst111Quest5name2_HORDE = Inst111Quest5name2
 Inst111Quest5name3_HORDE = Inst111Quest5name3
 Inst111Quest5name4_HORDE = Inst111Quest5name4
@@ -11682,27 +11682,27 @@ Inst112QAH = "2 Quests"
 Inst112Quest1 = "1. Die Stunde des Zwielichts"
 Inst112Quest1_Level = "85"
 Inst112Quest1_Attain = "85"
-Inst112Quest1_Aim = "Sprecht mit Thrall bei der Stunde des Zwielichts."
+Inst112Quest1_Aim = "Sprecht mit Thrall in der Stunde des Zwielichts."
 Inst112Quest1_Location = "Chromie (Brunnen der Ewigkeit; "..YELLOW.."[3]"..WHITE..")"
 Inst112Quest1_Note = "Thrall befindet sich innerhalb der Instanz am Eingang."
 Inst112Quest1_Prequest = "Nein"
-Inst112Quest1_Folgequest = "Ja, Nach Wyrmruh!"
+Inst112Quest1_Folgequest = "Ja, Auf zum Wyrmruhtempel!"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst112Quest2 = "2. Nach Wyrmruh!"
+Inst112Quest2 = "2. Auf zum Wyrmruhtempel!"
 Inst112Quest2_Level = "85"
 Inst112Quest2_Attain = "85"
-Inst112Quest2_Aim = "Begleite Thrall sicher zum Wyrmruhtempel."
+Inst112Quest2_Aim = "Eskortiert Thrall sicher zum Wyrmruhtempel."
 Inst112Quest2_Location = "Thrall (Stunde des Zwielichts; "..BLUE.."Eingang"..WHITE..")"
 Inst112Quest2_Note = ""
 Inst112Quest2_Prequest = "Ja, Die Stunde des Zwielichts"
 Inst112Quest2_Folgequest = "Nein"
 Inst112Quest2FQuest = "true"
 --
-Inst112Quest2name1 = "Safeguard Gloves"
-Inst112Quest2name2 = "Cinch of the World Shaman"
-Inst112Quest2name3 = "Ring of the Loyal Companion"
+Inst112Quest2name1 = "Sicherheitshandschuhe"
+Inst112Quest2name2 = "Sattelgurt des Weltenschamanen"
+Inst112Quest2name3 = "Sattelgurt des Weltenschamanen"
 
 
 --Quest 1 Horde
@@ -11713,7 +11713,7 @@ Inst112Quest1_HORDE_Aim = Inst112Quest1_Aim
 Inst112Quest1_HORDE_Location = Inst112Quest1_Location
 Inst112Quest1_HORDE_Note = Inst112Quest1_Note
 Inst112Quest1_HORDE_Prequest = "Nein"
-Inst112Quest1_HORDE_Folgequest = "Ja, Nach Wyrmruh!"
+Inst112Quest1_HORDE_Folgequest = Inst112Quest1_Folgequest
 -- No Rewards for this quest
 
 --Quest 2 Horde
