@@ -69,10 +69,10 @@ local AQMAXINSTANCES = "109"
 local AQMAXQUESTS = "22"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.7 BETA";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.6.7";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.6.7 BETA",
+  ["Version"] =  "4.6.7",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -316,10 +316,10 @@ function AQ_AtlasOrAlphamap()
            AtlasQuestFrame:SetParent(AtlasFrame);
            if (AQ_ShownSide == "Right" ) then
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 555, -80);
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 555, -35);
            else
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -545, -80);
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -545, -35);
            end
            AtlasQuestInsideFrame:SetParent(AtlasFrame);
            AtlasQuestInsideFrame:ClearAllPoints();

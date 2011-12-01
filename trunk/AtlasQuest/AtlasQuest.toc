@@ -13,7 +13,7 @@
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Author: Thandrenn
 ## Original Author: Asurn
-## Version: 4.6.7 BETA
+## Version: 4.6.7
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Echo Isles US
 ## X-eMail: mystery8@gmail.com
@@ -22,7 +22,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team Past & Present
 ## X-Localizations: enUS, deDE, ruRU, zhCN, zhTW
-## X-Date: November 29, 2011
+## X-Date: November 30, 2011
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 

@@ -460,7 +460,7 @@
  </Size>
  <Anchors>
    <Anchor point="TOP" relativeTo="AtlasFrame">
-      <Offset><AbsDimension x="-545" y="-25"/></Offset>>
+      <Offset><AbsDimension x="-545" y="-35"/></Offset>>
    </Anchor>
  </Anchors>
  <Backdrop name="$parentBackdrop" bgFile="Interface\Minimap\TooltipBackdrop-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
