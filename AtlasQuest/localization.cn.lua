@@ -30,7 +30,7 @@
 	Ananhaid（1区 斯坦索姆“毛茸茸”公会 Adavak）
 	Email：ananhaid@gmail.com
 	Original updater:DIY
---	$Id$
+	$Id$
 --]]
 
 
@@ -6472,8 +6472,8 @@ Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
 
 Inst49Story = "麦迪文，最后的魔法守护者，出生时就被邪恶的泰坦萨格拉斯附身。\n\n是麦迪文第一个联络上了邪恶术士古尔丹并为燃烧军团的入侵提供帮助。\n\n他们一起协力打开了黑暗之门，连通了德拉诺和艾泽拉斯，无数嗜血的兽人疯狂涌入妄图毁灭这个世界。\n\n这个副本设计是在黑色沼泽，也就是现在的诅咒之地。玩家们需要在麦迪文打开黑暗之门的过程中保护他。"
 Inst49Caption = "时光之穴（CoT）：黑色沼泽（BM）"
-Inst49QAA = "7 个任务"
-Inst49QAH = "7 个任务"
+Inst49QAA = "6 个任务"
+Inst49QAH = "6 个任务"
 Inst49General = {
     {
     "时空领主德亚",
@@ -6546,40 +6546,28 @@ Inst49Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst49Quest5 = "5. 药剂大师（炼金术）"
+Inst49Quest5 = "5. 悬赏：埃欧努斯的沙漏（英雄日常）"
 Inst49Quest5_Level = "70"
-Inst49Quest5_Attain = "68"
-Inst49Quest5_Aim = "进入时光之穴的黑色沼泽，从裂隙领主和裂隙守卫者身上获取10份永恒精华。将这些与5瓶特效防御药剂、5瓶掌控药剂和5瓶特效敏捷药剂一起交给沙塔斯城贫民窟中的罗罗基姆。"
-Inst49Quest5_Location = "罗罗基姆（沙塔斯城 - 贫民窟; "..YELLOW.."46,23"..WHITE.."）"
-Inst49Quest5_Note = "炼金术任务。"
-Inst49Quest5_Prequest = "药剂大师"
+Inst49Quest5_Attain = "70"
+Inst49Quest5_Aim = "商人扎雷姆要求你夺得埃欧努斯的沙漏。将沙漏带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄难度下完成。"
+Inst49Quest5_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst49Quest5_Note = "需要英雄难度副本。\n\n埃欧努斯就是最后一波的首领。"
+Inst49Quest5_Prequest = "无"
 Inst49Quest5_Folgequest = "无"
-Inst49Quest5PreQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst49Quest6 = "6. 悬赏：埃欧努斯的沙漏（英雄日常）"
-Inst49Quest6_Level = "70"
-Inst49Quest6_Attain = "70"
-Inst49Quest6_Aim = "商人扎雷姆要求你夺得埃欧努斯的沙漏。将沙漏带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄难度下完成。"
-Inst49Quest6_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
-Inst49Quest6_Note = "需要英雄难度副本。\n\n埃欧努斯就是最后一波的首领。"
-Inst49Quest6_Prequest = "无"
-Inst49Quest6_Folgequest = "无"
 --
 -- 奖励正义点数。
 
---Quest 7 Alliance
-Inst49Quest7 = "7. 悬赏：裂隙领主（日常）"
-Inst49Quest7_Level = "70"
-Inst49Quest7_Attain = "70"
-Inst49Quest7_Aim = "虚空猎手玛哈杜恩要求你杀死4名裂隙领主。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
-Inst49Quest7_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
-Inst49Quest7_Note = "普通日常任务。"
-Inst49Quest7_Prequest = "无"
-Inst49Quest7_Folgequest = "无"
+--Quest 6 Alliance
+Inst49Quest6 = "6. 悬赏：裂隙领主（日常）"
+Inst49Quest6_Level = "70"
+Inst49Quest6_Attain = "70"
+Inst49Quest6_Aim = "虚空猎手玛哈杜恩要求你杀死4名裂隙领主。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
+Inst49Quest6_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst49Quest6_Note = "普通日常任务。"
+Inst49Quest6_Prequest = "无"
+Inst49Quest6_Folgequest = "无"
 --
-Inst49Quest7name1 = "复仇军监牢钥匙"
+Inst49Quest6name1 = "复仇军监牢钥匙"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6642,8 +6630,8 @@ Inst49Quest5_HORDE_Location = Inst49Quest5_Location
 Inst49Quest5_HORDE_Note = Inst49Quest5_Note
 Inst49Quest5_HORDE_Prequest = Inst49Quest5_Prequest
 Inst49Quest5_HORDE_Folgequest = Inst49Quest5_Folgequest
-Inst49Quest5PreQuest_HORDE = Inst49Quest5PreQuest
--- No Rewards for this quest
+--
+-- Awards Justice Points.
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst49Quest6_HORDE = Inst49Quest6
@@ -6655,19 +6643,7 @@ Inst49Quest6_HORDE_Note = Inst49Quest6_Note
 Inst49Quest6_HORDE_Prequest = Inst49Quest6_Prequest
 Inst49Quest6_HORDE_Folgequest = Inst49Quest6_Folgequest
 --
--- 奖励正义点数。
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst49Quest7_HORDE = Inst49Quest7
-Inst49Quest7_HORDE_Level = Inst49Quest7_Level
-Inst49Quest7_HORDE_Attain = Inst49Quest7_Attain
-Inst49Quest7_HORDE_Aim = Inst49Quest7_Aim
-Inst49Quest7_HORDE_Location = Inst49Quest7_Location
-Inst49Quest7_HORDE_Note = Inst49Quest7_Note
-Inst49Quest7_HORDE_Prequest = Inst49Quest7_Prequest
-Inst49Quest7_HORDE_Folgequest = Inst49Quest7_Folgequest
---
-Inst49Quest7name1_HORDE = Inst49Quest7name1
+Inst49Quest6name1_HORDE = Inst49Quest6name1
 
 
 
@@ -7500,8 +7476,8 @@ Inst54Quest6name1_HORDE = Inst54Quest6name1
 
 Inst55Story = "风暴要塞原先是神秘的纳鲁用来在大宇宙中旅行的跨次元飞船。燃烧军团的统领，堕落泰坦萨格拉斯看见了来自阿古斯行星的艾瑞达人的智慧，决定使他们成为他的恶魔军队的一员。阿克蒙德和基尔加丹，艾瑞达人的2个领袖，接受了萨格拉斯的邀请。但是第三位领袖维伦看到萨格拉斯是邪恶的，乘坐着纳鲁的风暴要塞逃离了阿古斯行星。穿越了扭曲虚空之后，维伦和他的追随者最终到达了一个被他们称为德拉诺的新世界。基尔加丹为了消灭所有艾瑞达人的残余（现在被称为德莱尼人），将德拉诺大陆的兽人腐化为野蛮的战士，大肆屠杀德莱尼人。此外，血精灵的领袖凯尔萨斯王子发现了风暴要塞中潜藏的奥术能量，用武力将风暴要塞从纳鲁和德莱尼人手中抢了过来。"
 Inst55Caption = "风暴要塞（TK）：生态船（Bot）"
-Inst55QAA = "5 个任务"
-Inst55QAH = "5 个任务"
+Inst55QAA = "4 个任务"
+Inst55QAH = "4 个任务"
 Inst55General = {
     {
     "指挥官萨拉妮丝",
@@ -7565,41 +7541,30 @@ Inst55Quest2_Folgequest = "无"
 Inst55Quest2PreQuest = "true"
 -- No Rewards for this quest
 
---Quest 3 Alliance
-Inst55Quest3 = "3. 药水大师（炼金术）"
-Inst55Quest3_Level = "70"
-Inst55Quest3_Attain = "68"
-Inst55Quest3_Aim = "劳兰娜·萨维尔要你前往风暴要塞的生态船，从高级植物学家弗雷温手中夺得植物学家的指南。此外，将5瓶超级治疗药水、5瓶超级法力药水和5瓶特效无梦睡眠药水一并交给她。"
-Inst55Quest3_Location = "劳兰娜·萨维尔（赞加沼泽 - 塞纳里奥庇护所; "..YELLOW.."80,64"..WHITE.."）"
-Inst55Quest3_Note = "高级植物学家弗雷温在 "..YELLOW.."[2]"..WHITE.."。"
-Inst55Quest3_Prequest = "药水大师"
-Inst55Quest3_Folgequest = "无"
-Inst55Quest3PreQuest = "true"
--- No Rewards for this quest
 
---Quest 4 Alliance
-Inst55Quest4 = "4. 悬赏：扭木碎片（英雄日常）"
-Inst55Quest4_Level = "70"
-Inst55Quest4_Attain = "70"
-Inst55Quest4_Aim = "商人扎雷姆要求你夺得一份扭木碎片。将碎片带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄难度下完成。"
-Inst55Quest4_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
-Inst55Quest4_Note = "需要英雄难度副本。\n\n迁跃扭木在 "..YELLOW.."[5]"..WHITE.."。"
-Inst55Quest4_Prequest = "无"
-Inst55Quest4_Folgequest = "无"
+--Quest 3 Alliance
+Inst55Quest3 = "3. 悬赏：扭木碎片（英雄日常）"
+Inst55Quest3_Level = "70"
+Inst55Quest3_Attain = "70"
+Inst55Quest3_Aim = "商人扎雷姆要求你夺得一份扭木碎片。将碎片带回沙塔斯城的贫民窟交给他，就能领取奖赏。\n\n该任务只能在英雄难度下完成。"
+Inst55Quest3_Location = "商人扎雷姆（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst55Quest3_Note = "需要英雄难度副本。\n\n迁跃扭木在 "..YELLOW.."[5]"..WHITE.."。"
+Inst55Quest3_Prequest = "无"
+Inst55Quest3_Folgequest = "无"
 --
 -- 奖励正义点数。
 
---Quest 5 Alliance
-Inst55Quest5 = "5. 悬赏：寻日者导魔者（日常）"
-Inst55Quest5_Level = "70"
-Inst55Quest5_Attain = "70"
-Inst55Quest5_Aim = "虚空猎手玛哈杜恩要求你杀死6名寻日者导魔者。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
-Inst55Quest5_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
-Inst55Quest5_Note = "普通日常任务。"
-Inst55Quest5_Prequest = "无"
-Inst55Quest5_Folgequest = "无"
+--Quest 4 Alliance
+Inst55Quest4 = "4. 悬赏：寻日者导魔者（日常）"
+Inst55Quest4_Level = "70"
+Inst55Quest4_Attain = "70"
+Inst55Quest4_Aim = "虚空猎手玛哈杜恩要求你杀死6名寻日者导魔者。完成任务后返回沙塔斯城的贫民窟，找他领取奖赏。"
+Inst55Quest4_Location = "虚空猎手玛哈杜恩（沙塔斯城 - 贫民窟; "..YELLOW.."74,35"..WHITE.."）"
+Inst55Quest4_Note = "普通日常任务。"
+Inst55Quest4_Prequest = "无"
+Inst55Quest4_Folgequest = "无"
 --
-Inst55Quest5name1 = "复仇军监牢钥匙"
+Inst55Quest4name1 = "复仇军监牢钥匙"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7641,8 +7606,8 @@ Inst55Quest3_HORDE_Location = Inst55Quest3_Location
 Inst55Quest3_HORDE_Note = Inst55Quest3_Note
 Inst55Quest3_HORDE_Prequest = Inst55Quest3_Prequest
 Inst55Quest3_HORDE_Folgequest = Inst55Quest3_Folgequest
-Inst55Quest3PreQuest_HORDE = Inst55Quest3PreQuest
--- No Rewards for this quest
+--
+-- Awards Justice Points.
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst55Quest4_HORDE = Inst55Quest4
@@ -7654,19 +7619,7 @@ Inst55Quest4_HORDE_Note = Inst55Quest4_Note
 Inst55Quest4_HORDE_Prequest = Inst55Quest4_Prequest
 Inst55Quest4_HORDE_Folgequest = Inst55Quest4_Folgequest
 --
--- 奖励正义点数。
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst55Quest5_HORDE = Inst55Quest5
-Inst55Quest5_HORDE_Level = Inst55Quest5_Level
-Inst55Quest5_HORDE_Attain = Inst55Quest5_Attain
-Inst55Quest5_HORDE_Aim = Inst55Quest5_Aim
-Inst55Quest5_HORDE_Location = Inst55Quest5_Location
-Inst55Quest5_HORDE_Note = Inst55Quest5_Note
-Inst55Quest5_HORDE_Prequest = Inst55Quest5_Prequest
-Inst55Quest5_HORDE_Folgequest = Inst55Quest5_Folgequest
---
-Inst55Quest5name1_HORDE = Inst55Quest5name1
+Inst55Quest4name1_HORDE = Inst55Quest4name1
 
 
 
@@ -7995,7 +7948,7 @@ Inst63QAA = "5 个任务"
 Inst63QAH = "5 个任务"
 
 --Quest 1 Alliance
-Inst63Quest1 = "1. Promises, Promises...[废弃不可用]"
+Inst63Quest1 = "1. [废弃不可用]Promises, Promises..."
 Inst63Quest1_Level = "85"
 Inst63Quest1_Attain = "85"
 Inst63Quest1_Aim = "Retrieve Budd's Map of Zul'Aman from High Priest Nalorakk's terrace in Zul'Aman."
@@ -8006,7 +7959,7 @@ Inst63Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst63Quest2 = "2. X Marks... Your Doom![废弃不可用]"
+Inst63Quest2 = "2. [废弃不可用]X Marks... Your Doom!"
 Inst63Quest2_Level = "85"
 Inst63Quest2_Attain = "85"
 Inst63Quest2_Aim = "Visit Halazzi's Chamber, Jan'alai's Platform, and Akil'zon's Platform in Zul'Aman."
@@ -8054,9 +8007,9 @@ Inst63Quest5_Note = "达卡拉在"..YELLOW.."[6]"..WHITE.."，是祖阿曼里的
 Inst63Quest5_Prequest = "无"
 Inst63Quest5_Folgequest = "无"
 --
-Inst63Quest5name1 = "雄心肩鎧"
-Inst63Quest5name2 = "異議長袍"
-Inst63Quest5name3 = "祖利安擲斧"
+Inst63Quest5name1 = "野心肩甲"
+Inst63Quest5name2 = "分歧长袍"
+Inst63Quest5name3 = "祖利安飞斧"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12017,6 +11970,311 @@ Inst109QAH = "无任务"
 
 
 
+--------------- INST110 - End Time ---------------
+
+Inst110Story = "One of an infinite number of potential outcomes, this timeway depicts the desolate future of Azeroth should its defenders fail to stop Deathwing. In this bleak future, Nozdormu has identified an anomaly that bars access to both the past and the Dragon Soul: a powerful creature from out of time, living alone amid time-twisted echoes of the past.\n\nIn order for Nozdormu to provide you the ability to travel back in time to a point before the Dragon Soul was hidden by Malfurion Stormrage from anyone who抎 seek its power, you must first go to a distant and desolate future to discover the anomaly blocking the past. You'll find yourself in a very different Dragonblight, stripped of its snowy landscape, with little more than ruins of the once-great dragonshrines. Wyrmrest Temple itself stands only as a reminder of Deathwing's madness梬hat's left of his scorched remains is impaled atop the structure. "..GREEN.."\n\nQuoted from worldofwarcraft.com"
+Inst110Caption = "End Time"
+Inst110QAA = "3 Quests"
+Inst110QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst110Quest1 = "1. End Time"
+Inst110Quest1_Level = "85"
+Inst110Quest1_Attain = "85"
+Inst110Quest1_Aim = "Speak with Nozdormu at the End Time."
+Inst110Quest1_Location = "Coridormi (Stormwind City - Wizard's Sanctum; "..YELLOW.."49.4, 87.4"..WHITE..")"
+Inst110Quest1_Note = "Nozdormu is just inside the instance."
+Inst110Quest1_Prequest = "None"
+Inst110Quest1_Folgequest = "Murozond"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst110Quest2 = "2. Murozond"
+Inst110Quest2_Level = "85"
+Inst110Quest2_Attain = "85"
+Inst110Quest2_Aim = "Slay Murozond."
+Inst110Quest2_Location = "Nozdormu (End Time; "..BLUE.."Entrance"..WHITE..")"
+Inst110Quest2_Note = "Murozond is the first boss you encounter, after a few trash pulls."
+Inst110Quest2_Prequest = "End Time"
+Inst110Quest2_Folgequest = "The Well of Eternity"
+Inst110Quest2FQuest = "true"
+--
+Inst110Quest2name1 = "Bronze Blaster"
+Inst110Quest2name2 = "Boots of the Forked Road"
+Inst110Quest2name3 = "Time Twister's Gauntlets"
+Inst110Quest2name4 = "Cowl of Destiny"
+
+--Quest 3 Alliance
+Inst110Quest3 = "3. Archival Purposes"
+Inst110Quest3_Level = "85"
+Inst110Quest3_Attain = "85"
+Inst110Quest3_Aim = "Slay two of the Echoes within the End Time, then allow Alurmi's Vessel to archive their information."
+Inst110Quest3_Location = "Alurmi (End Time; "..BLUE.."Entrance"..WHITE..")"
+Inst110Quest3_Note = "Any two of the Echoes count towards the quest.  You only need to kill them for quest credit."
+Inst110Quest3_Prequest = "None"
+Inst110Quest3_Folgequest = "None"
+--
+Inst110Quest3name1 = "Archivist's Gloves"
+Inst110Quest3name2 = "Crescent Wand"
+Inst110Quest3name3 = "Time Strand Gauntlets"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst110Quest1_HORDE = Inst110Quest1
+Inst110Quest1_HORDE_Level = Inst110Quest1_Level
+Inst110Quest1_HORDE_Attain = Inst110Quest1_Attain
+Inst110Quest1_HORDE_Aim = Inst110Quest1_Aim
+Inst110Quest1_HORDE_Location = Inst110Quest1_Location
+Inst110Quest1_HORDE_Note = Inst110Quest1_Note
+Inst110Quest1_HORDE_Prequest = Inst110Quest1_Prequest
+Inst110Quest1_HORDE_Folgequest = Inst110Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst110Quest2_HORDE = Inst110Quest2
+Inst110Quest2_HORDE_Level = Inst110Quest2_Level
+Inst110Quest2_HORDE_Attain = Inst110Quest2_Attain
+Inst110Quest2_HORDE_Aim = Inst110Quest2_Aim
+Inst110Quest2_HORDE_Location = Inst110Quest2_Location
+Inst110Quest2_HORDE_Note = Inst110Quest2_Note
+Inst110Quest2_HORDE_Prequest = Inst110Quest2_Prequest
+Inst110Quest2_HORDE_Folgequest = Inst110Quest2_Folgequest
+Inst110Quest2FQuest_HORDE = Inst110Quest2FQuest
+--
+Inst110Quest2name1_HORDE = Inst110Quest2name1
+Inst110Quest2name2_HORDE = Inst110Quest2name2
+Inst110Quest2name3_HORDE = Inst110Quest2name3
+Inst110Quest2name4_HORDE = Inst110Quest2name4
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst110Quest3_HORDE = Inst110Quest3
+Inst110Quest3_HORDE_Level = Inst110Quest3_Level
+Inst110Quest3_HORDE_Attain = Inst110Quest3_Attain
+Inst110Quest3_HORDE_Aim = Inst110Quest3_Aim
+Inst110Quest3_HORDE_Location = Inst110Quest3_Location
+Inst110Quest3_HORDE_Note = Inst110Quest3_Note
+Inst110Quest3_HORDE_Prequest = Inst110Quest3_Prequest
+Inst110Quest3_HORDE_Folgequest = Inst110Quest3_Folgequest
+--
+Inst110Quest3name1_HORDE = Inst110Quest3name1
+Inst110Quest3name2_HORDE = Inst110Quest3name2
+Inst110Quest3name3_HORDE = Inst110Quest3name3
+
+
+
+--------------- INST111 - Well of Eternity ---------------
+
+Inst111Story = "Ten thousand years in the past, the night elven capital city of Zin-Azshari was a magnificent, sparkling metropolis. Situated on the shores of the Well of Eternity, Zin-Azshari was where the aristocratic Highborne first opened a portal into the Twisting Nether and invited the Burning Legion to invade Azeroth. Under the command of the night elven queen, Azshara, the Highborne now pour their energies into the portal, preparing it for the terrifying and glorious entrance of the titan Sargeras.\n\nWith a gateway to the past now open, Nozdormu will transport players to Azshara's palace, where you'll witness one of the most catastrophic events in the War of the Ancients, dating back 10,000 years. While assisting the much younger Tyrande and Illidan in a battle against the Highborne and Burning Legion, players will need to steal the Dragon Soul hovering above the Well. With so many of Azshara's most empowered wizards locked in ritual and pouring their magical energies into the turbulent depths of the Well, retrieving the Dragon Soul will require victory over some lethal foes."..GREEN.."\n\nQuoted from worldofwarcraft.com"
+Inst111Caption = "Well of Eternity"
+Inst111QAA = "5 Quests"
+Inst111QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst111Quest1 = "1. The Well of Eternity"
+Inst111Quest1_Level = "85"
+Inst111Quest1_Attain = "85"
+Inst111Quest1_Aim = "Speak with Nozdormu at the Well of Eternity."
+Inst111Quest1_Location = "Nozdormu (End Time; "..BLUE.."[F]"..WHITE..")"
+Inst111Quest1_Note = "Nozdormu is just inside the Well of Eternity."
+Inst111Quest1_Prequest = "Murozond"
+Inst111Quest1_Folgequest = "In Unending Numbers"
+Inst111Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst111Quest2 = "2. In Unending Numbers"
+Inst111Quest2_Level = "85"
+Inst111Quest2_Attain = "85"
+Inst111Quest2_Aim = "Disable the three demon portals, then slay Peroth'arn."
+Inst111Quest2_Location = "Nozdormu (Well of Eternity; "..BLUE.."Entrance"..WHITE..")"
+Inst111Quest2_Note = "The three portals can be found in the large area after the entrance with the masses of demons running through.  Each portal is on a different side of the room.  After disabling them, Peroth'arn will appear at "..YELLOW.."[1]"..WHITE.."."
+Inst111Quest2_Prequest = "The Well of Eternity"
+Inst111Quest2_Folgequest = "The Vainglorious"
+Inst111Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst111Quest3 = "3. The Vainglorious"
+Inst111Quest3_Level = "85"
+Inst111Quest3_Attain = "85"
+Inst111Quest3_Aim = "Dispatch of Queen Azshara."
+Inst111Quest3_Location = "Nozdormu (Well of Eternity; "..BLUE.."Entrance"..WHITE..")"
+Inst111Quest3_Note = "Queen Azshara is at "..YELLOW.."[2]"..WHITE.."."
+Inst111Quest3_Prequest = "In Unending Numbers"
+Inst111Quest3_Folgequest = "The Path to the Dragon Soul"
+Inst111Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst111Quest4 = "4. The Path to the Dragon Soul"
+Inst111Quest4_Level = "85"
+Inst111Quest4_Attain = "85"
+Inst111Quest4_Aim = "Slay Mannoroth."
+Inst111Quest4_Location = "Nozdormu (Well of Eternity; "..BLUE.."Entrance"..WHITE..")"
+Inst111Quest4_Note = "Mannoroth is at "..YELLOW.."[3]"..WHITE.."."
+Inst111Quest4_Prequest = "The Vainglorious"
+Inst111Quest4_Folgequest = "None"
+Inst111Quest4FQuest = "true"
+--
+Inst111Quest4name1 = "Ironfeather Longbow"
+Inst111Quest4name2 = "Chain of the Demon Hunter"
+Inst111Quest4name3 = "Demonic Skull"
+Inst111Quest4name4 = "Boots of the Treacherous Path"
+
+--Quest 5 Alliance
+Inst111Quest5 = "5. Documenting the Timeways"
+Inst111Quest5_Level = "85"
+Inst111Quest5_Attain = "85"
+Inst111Quest5_Aim = "Slay a Legion Demon, a Royal Handmaiden, and Captain Varo'then, then allow Alurmi's Vessel to archive their information."
+Inst111Quest5_Location = "Alurmi (Well of Eternity; "..BLUE.."Entrance"..WHITE..")"
+Inst111Quest5_Note = "The first two can be found during the course of the dungeon.  Captain Varo'then is at the end at "..YELLOW.."[3]"..WHITE.."."
+Inst111Quest5_Prequest = "None"
+Inst111Quest5_Folgequest = "None"
+--
+Inst111Quest5name1 = "Alurmi's Ring"
+Inst111Quest5name2 = "Treads of the Past"
+Inst111Quest5name3 = "Chronicler's Chestguard"
+Inst111Quest5name4 = "Historian's Sash"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst111Quest1_HORDE = Inst111Quest1
+Inst111Quest1_HORDE_Level = Inst111Quest1_Level
+Inst111Quest1_HORDE_Attain = Inst111Quest1_Attain
+Inst111Quest1_HORDE_Aim = Inst111Quest1_Aim
+Inst111Quest1_HORDE_Location = Inst111Quest1_Location
+Inst111Quest1_HORDE_Note = Inst111Quest1_Note
+Inst111Quest1_HORDE_Prequest = Inst111Quest1_Prequest
+Inst111Quest1_HORDE_Folgequest = Inst111Quest1_Folgequest
+Inst111Quest1PreQuest_HORDE = Inst111Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst111Quest2_HORDE = Inst111Quest2
+Inst111Quest2_HORDE_Level = Inst111Quest2_Level
+Inst111Quest2_HORDE_Attain = Inst111Quest2_Attain
+Inst111Quest2_HORDE_Aim = Inst111Quest2_Aim
+Inst111Quest2_HORDE_Location = Inst111Quest2_Location
+Inst111Quest2_HORDE_Note = Inst111Quest2_Note
+Inst111Quest2_HORDE_Prequest = Inst111Quest2_Prequest
+Inst111Quest2_HORDE_Folgequest = Inst111Quest2_Folgequest
+Inst111Quest2FQuest_HORDE = Inst111Quest2FQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst111Quest3_HORDE = Inst111Quest3
+Inst111Quest3_HORDE_Level = Inst111Quest3_Level
+Inst111Quest3_HORDE_Attain = Inst111Quest3_Attain
+Inst111Quest3_HORDE_Aim = Inst111Quest3_Aim
+Inst111Quest3_HORDE_Location = Inst111Quest3_Location
+Inst111Quest3_HORDE_Note = Inst111Quest3_Note
+Inst111Quest3_HORDE_Prequest = Inst111Quest3_Prequest
+Inst111Quest3_HORDE_Folgequest = Inst111Quest3_Folgequest
+Inst111Quest3FQuest_HORDE = Inst111Quest3FQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst111Quest4_HORDE = Inst111Quest4
+Inst111Quest4_HORDE_Level = Inst111Quest4_Level
+Inst111Quest4_HORDE_Attain = Inst111Quest4_Attain
+Inst111Quest4_HORDE_Aim = Inst111Quest4_Aim
+Inst111Quest4_HORDE_Location = Inst111Quest4_Location
+Inst111Quest4_HORDE_Note = Inst111Quest4_Note
+Inst111Quest4_HORDE_Prequest = Inst111Quest4_Prequest
+Inst111Quest4_HORDE_Folgequest = Inst111Quest4_Folgequest
+Inst111Quest4FQuest_HORDE = Inst111Quest4FQuest
+--
+Inst111Quest4name1_HORDE = Inst111Quest4name1
+Inst111Quest4name2_HORDE = Inst111Quest4name2
+Inst111Quest4name3_HORDE = Inst111Quest4name3
+Inst111Quest4name4_HORDE = Inst111Quest4name4
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst111Quest5_HORDE = Inst111Quest5
+Inst111Quest5_HORDE_Level = Inst111Quest5_Level
+Inst111Quest5_HORDE_Attain = Inst111Quest5_Attain
+Inst111Quest5_HORDE_Aim = Inst111Quest5_Aim
+Inst111Quest5_HORDE_Location = Inst111Quest5_Location
+Inst111Quest5_HORDE_Note = Inst111Quest5_Note
+Inst111Quest5_HORDE_Prequest = Inst111Quest5_Prequest
+Inst111Quest5_HORDE_Folgequest = Inst111Quest5_Folgequest
+--
+Inst111Quest5name1_HORDE = Inst111Quest5name1
+Inst111Quest5name2_HORDE = Inst111Quest5name2
+Inst111Quest5name3_HORDE = Inst111Quest5name3
+Inst111Quest5name4_HORDE = Inst111Quest5name4
+
+
+
+--------------- INST112 - Hour of Twilight ---------------
+
+Inst112Story = "Having shattered the infinite dragonflight and recovered the fabled Dragon Soul, Thrall and his allies must now journey to Wyrmrest Temple and rendezvous with the green, blue, red, and bronze dragonflights. Reaching their destination will be an arduous endeavor: the Twilight's Hammer has amassed its forces near the temple, determined to intercept the Dragon Soul at any cost. "..GREEN.."\n\nQuoted from wowpedia.org"
+Inst112Caption = "Hour of Twilight"
+Inst112QAA = "2 Quests"
+Inst112QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst112Quest1 = "1. The Hour of Twilight"
+Inst112Quest1_Level = "85"
+Inst112Quest1_Attain = "85"
+Inst112Quest1_Aim = "Speak with Thrall at the Hour of Twilight."
+Inst112Quest1_Location = "Chromie (Well of Eternity; "..YELLOW.."[3]"..WHITE..")"
+Inst112Quest1_Note = "Thrall is just inside the entrance of Hour of Twilight."
+Inst112Quest1_Prequest = "None"
+Inst112Quest1_Folgequest = "To Wyrmrest!"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst112Quest2 = "2. To Wyrmrest!"
+Inst112Quest2_Level = "85"
+Inst112Quest2_Attain = "85"
+Inst112Quest2_Aim = "Escort Thrall safely to Wyrmrest Temple."
+Inst112Quest2_Location = "Thrall (Hour of Twilight; "..BLUE.."Entrance"..WHITE..")"
+Inst112Quest2_Note = ""
+Inst112Quest2_Prequest = "The Hour of Twilight"
+Inst112Quest2_Folgequest = "None"
+Inst112Quest2FQuest = "true"
+--
+Inst112Quest2name1 = "Safeguard Gloves"
+Inst112Quest2name2 = "Cinch of the World Shaman"
+Inst112Quest2name3 = "Ring of the Loyal Companion"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst112Quest1_HORDE = Inst112Quest1
+Inst112Quest1_HORDE_Level = Inst112Quest1_Level
+Inst112Quest1_HORDE_Attain = Inst112Quest1_Attain
+Inst112Quest1_HORDE_Aim = Inst112Quest1_Aim
+Inst112Quest1_HORDE_Location = Inst112Quest1_Location
+Inst112Quest1_HORDE_Note = Inst112Quest1_Note
+Inst112Quest1_HORDE_Prequest = Inst112Quest1_Prequest
+Inst112Quest1_HORDE_Folgequest = Inst112Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst112Quest2_HORDE = Inst112Quest2
+Inst112Quest2_HORDE_Level = Inst112Quest2_Level
+Inst112Quest2_HORDE_Attain = Inst112Quest2_Attain
+Inst112Quest2_HORDE_Aim = Inst112Quest2_Aim
+Inst112Quest2_HORDE_Location = Inst112Quest2_Location
+Inst112Quest2_HORDE_Note = Inst112Quest2_Note
+Inst112Quest2_HORDE_Prequest = Inst112Quest2_Prequest
+Inst112Quest2_HORDE_Folgequest = Inst112Quest2_Folgequest
+Inst112Quest2FQuest_HORDE = Inst112Quest2FQuest
+--
+Inst112Quest2name1_HORDE = Inst112Quest2name1
+Inst112Quest2name2_HORDE = Inst112Quest2name2
+Inst112Quest2name3_HORDE = Inst112Quest2name3
+
+
+
+--------------- INST113 - Dragon Soul ---------------
+
+Inst113Story = "Forged by Deathwing during the War of the Ancients, the Dragon Soul harnessed the power of the other dragonflights, until it was ultimately destroyed. After recovering a version of the artifact from the Caverns of Time, Thrall and the allied dragonflights now rally at Wyrmrest Temple in a desperate bid to use its might to defeat Deathwing. "..GREEN.."\n\nQuoted from wowpedia.org"
+Inst113Caption = "Dragon Soul"
+Inst113QAA = "No Quests"
+Inst113QAH = "No Quests"
+
 
 
 
@@ -13164,4 +13422,8 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 107 = Twin Peaks
 -- 108 = Zul'Gurub (ZG)
 -- 109 = Firelands
+-- 110 = End Time
+-- 111 = Well of Eternity
+-- 112 = Hour of Twilight
+-- 113 = Dragon Soul
 end
