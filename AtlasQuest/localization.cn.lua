@@ -194,7 +194,7 @@ Inst36QAH = "无任务"
 
 --------------- INST1 - Deadmines (VC) ---------------
 
-Inst1Story = "这里曾经是人类最主要的产金地，希望矿井在部落第一次大战期间席卷暴风城的时候被废弃。现在迪菲亚兄弟会的人占据了那里并将这个黑暗的通道转变成他们的避难所。据说那些盗贼已经劝说了聪明的地精帮助他们在矿井的深处建造一些可怕的东西——但是没有人知道这是真的还是假的。有传言说，死亡矿井的入口在安宁的月溪镇中。"
+Inst1Story = "曾经有人称死亡矿井的黄金乃是暴风城国库储备的三分之一。在第一次大战的混乱中，矿井遭到了遗弃，闹鬼不断、无人问津，直到迪菲亚兄弟会的到来——他们曾经是一群工人，如今却成了强盗，他们将这迷宫变成了自己的行动基地，来实施对暴风城的破坏活动。"
 Inst1Caption = "死亡矿井（VC）"
 Inst1QAA = "5 个任务"
 Inst1QAH = "5 个任务"
@@ -3255,7 +3255,7 @@ Inst20Quest8name4_HORDE = Inst20Quest8name4
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
-Inst21Story = "在第三次大战中，肯瑞托的法师和亡灵天灾进行了殊死的战斗。当达拉然的法师最终在战斗中战死之后，他们的意志转移到了复苏的亡灵天灾身上，然后重生了。由于对于缓慢的进展感到失望（并且对他的手下的建议不予理会）大法师阿鲁高选择召唤异次沅空间的生物来壮大达拉然日渐消失的力量。阿鲁高的召唤将贪婪的狼人带到了艾泽拉斯大陆。这些狂暴的狼型生物不仅屠杀了亡灵天灾的人，而且迅速将目标转向那些法师。那些狼人开始围攻席瓦莱恩男爵的城堡。这座位于焚木村的城堡不久之后变成了黑暗势力的聚集地并从此荒废。因为对于自己罪过的愧疚，阿鲁高将那些狼人当作自己的孩子并隐居在“影牙城堡”中。据说他还住在那里，被他巨大的宠物芬鲁斯所保护着，另外，在城堡中还徘徊着瓦莱恩男爵的那些复仇的幽灵。"
+Inst21Story = "在银松森林南部悬崖的焚木村上，影牙城堡犹如一道黑影矗立。从前这里是疯狂大法师阿鲁高狼人们的居所，如今它的废墟被罪恶的力量所占据。席瓦莱恩男爵阴魂不散，高弗雷勋爵和他的幕僚，往昔的吉尔尼斯贵族阴谋对付他们的敌人，无论对方是生者还是亡灵。"
 Inst21Caption = "影牙城堡（SFK）"
 Inst21QAA = "16 个任务"
 Inst21QAH = "19 个任务"
@@ -7942,7 +7942,7 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
-Inst63Story = "千百年来，祖阿曼的要塞都是阿曼尼巨魔的权力中心，以及狡猾而无畏的督军祖尔金的老巢。祖尔金花费了数年的时间在祖阿曼的城墙后面筹备他的计划。由于对部落允许让他的仇敌血精灵加入，他开始积极地按照妖术领主玛拉卡斯提出的建议行动起来：将野兽之神的力量禁锢在阿曼尼部族最强大的战士体内。"
+Inst63Story = "在阿曼尼部落曾经的首都祖阿曼，回响着不息的复仇之声。阿曼尼巨魔虽然响应了其督军的号召，但祖尔金却没能达成恢复帝国往日辉煌的目标。继承其遗志的乃是赞达拉部落。如若放任不管，统一的诸部将会收复他们的土地，并展开无情的报复。"
 Inst63Caption = "祖阿曼（ZA）"
 Inst63QAA = "5 个任务"
 Inst63QAH = "5 个任务"
@@ -8075,6 +8075,7 @@ Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
 Inst63Quest5name1_HORDE = Inst63Quest5name1
 Inst63Quest5name2_HORDE = Inst63Quest5name2
 Inst63Quest5name3_HORDE = Inst63Quest5name3
+
 
 
 
@@ -9337,7 +9338,7 @@ Inst78Quest2name5_HORDE = Inst78Quest2name5
 
 --------------- INST79 - The Obsidian Sanctum ---------------
 
-Inst79Story = "暂无信息."
+Inst79Story = "暂无信息。"
 Inst79Caption = "黑曜石圣殿"
 Inst79QAA = "1 个任务"
 Inst79QAH = "1 个任务"
@@ -11073,7 +11074,7 @@ Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 
 --------------- INST95 - Blackrock Caverns ---------------
 
-Inst95Story = "黑石岩窟是黑石山内新开辟的副本。现在它是死亡之翼的一处巢穴，并被暮光之锤所驻扎。这里是暮光信徒的兵营也是死亡之翼的孵化室，他将偷来的龙蛋在这里“加工”成他的暮光龙军团……而更大的秘密同样隐藏在这里。"
+Inst95Story = "谣传这些地下迷宫乃是死亡之翼本人的手笔，为的就是让暮光之锤能够秘密地将元素从海加尔山转移到黑石山。在这阴暗的通道网中，有一处重要的要冲，那就是黑石岩窟。邪教将炽热的熔炉安置于此，并且在这里进行着一些极其邪恶的实验，将教徒转变成暮光龙人就是其中之一。"
 Inst95Caption = "黑石岩窟"
 Inst95QAA = "6 个任务"
 Inst95QAH = "6 个任务"
@@ -11231,7 +11232,7 @@ Inst95Quest6name3_HORDE = Inst95Quest6name3
 
 --------------- INST96 - Throne of the Tides ---------------
 
-Inst96Story = "潮汐王座位于瓦许伊尔的地狱深渊，是在大灾变新地图瓦许伊尔上仅有的一个副本。潮汐王座是水元素领主奈普图隆的所在地。我们深入潮汐王座，不仅仅要干掉同时追入这里的纳兹加尔女士，拯救被无情者控制的大地之环萨满，而最终的目的，是保护耐普图隆免遭厄祖玛特的吞噬。"
+Inst96Story = "在深渊之喉无底的广袤深处，座落着潮汐王座。在那里，伟大的元素领主，猎潮者耐普图隆坚守着他的水域。现在，蛇行的纳迦和凶残的无面者成了他的心腹大敌，威胁着他的统治，觊觎着他的王国，垂涎着其中的秘密。"
 Inst96Caption = "潮汐王座"
 Inst96QAA = "2 个任务"
 Inst96QAH = "2 个任务"
@@ -11297,7 +11298,7 @@ Inst96Quest2name3_HORDE = Inst96Quest2name3
 
 --------------- INST97 - The Stonecore ---------------
 
-Inst97Story = "巨石之核就坐落于大地神殿、也就是深岩之洲的中心。暮光之锤就是在这些洞穴里，将源质的铠甲钉在死亡之翼身上，试着将这条守护巨龙的身躯固定在一起。复原之后，死亡之翼飞入艾泽拉斯，击碎了世界之柱并让深岩之洲陷入了极不稳定的状态。"
+Inst97Story = "在深岩之洲中深锁着大地神殿，巨石之核就位于那里。暮光之锤的邪教徒在这些洞穴里辛苦劳作，将源质甲片敲打在死亡之翼的身上，以维系这只堕落守护巨龙被诅咒的破碎身躯。重生后的死亡之翼冲破穹顶重返艾泽拉斯之际，世界之柱也裂成了碎片，整个深岩之洲随之变得摇摇欲坠。"
 Inst97Caption = "巨石之核"
 Inst97QAA = "4 个任务"
 Inst97QAH = "4 个任务"
@@ -11409,7 +11410,7 @@ Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 --------------- INST98 - The Vortex Pinnacle ---------------
 
-Inst98Story = "悬浮在奥丹姆上空的空中堡垒。死亡之翼用花言巧语诱使天空之墙的空气元素加入邪恶的联盟（与他们在地面居住的托维尔邻居们一起），夺取这片领土作为堕落的巨龙获得最终胜利的重要筹码。"
+Inst98Story = "旋云之巅位于风元素位面的天空之墙中。其建筑群优雅无比、镶金注铜，矗立在座座平台之上，以空气为桥相互连接。然而在其光鲜的外表之中，驻扎着尼斐塞特的托维尔人，以及风元素领主奥拉基尔无情的元素军团。只要天空之墙和艾泽拉斯之间的障壁通畅无阻，恐惧将不断从天空中降临在奥丹姆之上。"
 Inst98Caption = "旋云之巅"
 Inst98QAA = "3 个任务"
 Inst98QAH = "3 个任务"
@@ -11501,7 +11502,7 @@ Inst98Quest3name3_HORDE = Inst98Quest3name3
 
 --------------- INST99 - Grim Batol ---------------
 
-Inst99Story = "格瑞姆巴托曾经是一个矮人建立的城市。是在三族矮人内战后战败的蛮锤部族矮人所建立的城市。在后来的黑铁矮人突袭中，虽然蛮锤矮人赢得了胜利，但索瑞森的妻子莫佳德皇后在格瑞姆巴托之战战死，临死前她给予了格瑞姆巴托永世的诅咒，蛮锤矮人因在格瑞姆巴托所目睹的恐怖而从此逃离了受诅咒的家园，永远不再归返。直到最近，被死亡之翼用艾泽拉斯的绝对控制权所利诱，“暮光之锤”的到来驱逐了守护着格瑞姆巴托的红龙使者，使其成为训练死亡之翼爪牙的堡垒。"
+Inst99Story = "别被格瑞姆巴托寒酸的外观所蒙蔽了，这座山中堡垒许多被亵渎的殿堂都深埋在暮光高地里。这里曾是蛮锤矮人的要塞，后来被兽人占领，当成了关押阿莱克丝塔萨的监狱。如今这座城池落在了暮光之锤邪教的手中。 敢于深入要塞的英雄们，不但要面对死亡之翼的爪牙，还要铲除其中的邪恶势力。"
 Inst99Caption = "格瑞姆巴托"
 Inst99QAA = "3 个任务"
 Inst99QAH = "3 个任务"
@@ -11591,7 +11592,7 @@ Inst99Quest3name3_HORDE = Inst99Quest3name3
 
 --------------- INST100 - Halls of Origination ---------------
 
-Inst100Story = "如同奥达曼与奥杜尔，奥丹姆同样有着罕见的泰坦建筑，早在艾泽拉斯的生物出现前就已存在。多年来历史学家在卡利姆多南方探索，寻找一个进入这片古老泰坦之地的方法，搜寻更多关于艾泽拉斯起源的证据。然而这场裂变改变了这一切，数千年来覆盖于奥丹姆之外的表层终于裂开，而它那神秘而强大的秘密正等待着最勇敢、最聪明或最冷酷的探险家来发掘。"
+Inst100Story = "起源大厅乃是伟大的泰坦所建，那里到处都是古代遗迹，由可怕的守护者所保护。谣传这座设施里还藏着一件毁天灭地的武器，能够重塑艾泽拉斯上所有的生命。死亡之翼试图通过其副手风元素领主奥拉基尔染指这可怕的装置。目前，设施里的讯通系统完全遭到了腐蚀，但里面的武器却尚未落入死亡之翼的手中。"
 Inst100Caption = "起源大厅"
 Inst100QAA = "3 个任务"
 Inst100QAH = "3 个任务"
@@ -11685,7 +11686,7 @@ Inst100Quest3name3_HORDE = Inst100Quest3name3
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
-Inst101Story = "托维尔人的家乡是一座有着通天塔，庭院，寺庙，布满棕榈树和沙漠植物群等埃及特征的古老城市。而这个城市的托维尔人已经与死亡之翼和奥拉基尔联手，不过他们和他们的盟友们不同；这里的托维尔人相信他们正遭受着一个来自于上古之神的肉身诅咒。他们每个人都深信石身好于肉体——他们向死亡之翼承诺如果能将他们从诅咒中解救出来，他们将加入死亡之翼的军团。"
+Inst101Story = "尼斐塞特是猫人托维尔的一支，血肉诅咒把他们岩石般的外皮变成了柔软的皮肤。于是他们效忠于死亡之翼，以期能够换得解药，把自己解脱出来。托维尔失落之城就是他们的要塞。当诅咒被解除之后，托维尔人立刻倒戈相向，叛变了他们的恩人，但由于他们所立下的黑暗誓言，他们仍然不可避免地遭到了扭曲，变得充满敌意。"
 Inst101Caption = "托维尔失落之城"
 Inst101QAA = "3 个任务"
 Inst101QAH = "3 个任务"
@@ -11779,7 +11780,7 @@ Inst101Quest3name3_HORDE = Inst101Quest3name3
 
 --------------- INST102 - Blackwing Descent ---------------
 
-Inst102Story = "奈法利安，毁灭者死亡之翼的长子，在过去已经被艾泽拉斯的英雄们击败了，而最近的一次就是在黑翼之巢。傲慢和狂妄曾经是这些伟大龙族的弱点，但是从死亡的边缘返回之后使他变得非常谨慎了。由于其他的龙族可能会残忍地捏碎那些打断他们计划的微小的昆虫，所以奈法利安暂时仍然隐藏着。吸取了在黑翼之巢被打败的教训，他已经挖向了黑石山的心脏深处，并重建了他的圣所。一个层叠式岩浆的深坑，是黑翼血环的心脏重地，同时也是进行又一次可怕的新实验和魔法增强的地方，也隐藏着奈法利安的冰冷与愤怒，以及他对胜利的渴望。只有死亡在等着那些愚蠢的认为黑石山的领主会轻易的被再次打败的人！"
+Inst102Story = "奈法利安曾经妄图创造一支全新的龙族军团。他最终死于黑翼之巢，人们认为他的阴谋也遭到了挫败。但是传说其父死亡之翼复活了奈法利安，派他前往黑翼血环。相比起在那里所进行的血腥实验来，恐怕奈法利安以前天怒人怨的罪行根本不值一提。"
 Inst102Caption = "黑翼血环"
 Inst102QAA = "无任务"
 Inst102QAH = "无任务"
@@ -11788,7 +11789,7 @@ Inst102QAH = "无任务"
 
 --------------- INST103 - The Bastion of Twilight ---------------
 
-Inst103Story = "艾泽拉斯末日降临。今天，或许明天——在劫难逃，世界终将被重铸，至少暮光之锤教派的信徒们是这么说的。当然，他们可不只是嘴里说说而已。他们还会付诸行动。过去，人们一直以为这只不过是那些邪教信徒的诳语罢了——直到有个人亲眼看到了暮光堡垒，巨锤已经拥有了超越凡人的全新躯体。堡垒的入口就在暮光要塞之巅，一个指向云霄的源质尖塔顶端。这里，有一个传送门可以实现暮光教徒的终极理想……至于它通向哪里？没有人知道。但有一点是明确的，暮光之锤的领导者——古加尔，正在这个恐怖之地集结他的部队。不管他将矛头指向何处，都是为了接近居住在艾泽拉斯地底的上古之神，给艾泽拉斯的生灵们带来最恐怖的噩梦。"
+Inst103Story = "暮光堡垒就像是一个黑暗的印记，它代表了上古之神在艾泽拉斯的新兴力量。暮光之锤视其为教派的圣地和大本营，他们的邪恶首领古加尔就隐藏在这座高耸入云的尖塔建筑的最深处。他和他那些暮光仆从们正图谋着实现上古之神的灭世预言，让艾泽拉斯断绝理智、希望与生命。"
 Inst103Caption = "暮光堡垒"
 Inst103QAA = "无任务"
 Inst103QAH = "无任务"
@@ -11797,7 +11798,7 @@ Inst103QAH = "无任务"
 
 --------------- INST104 - Throne of the Four Winds ---------------
 
-Inst104Story = "驭风者奥拉基尔是天空之墙的绝对统治者，可是当泰坦战胜了上古之神之后，奥拉基尔就被囚禁了起来，囚禁在那拥有美丽的天空和质朴的白色建筑的地方，尽管那是座美丽的监狱，可是，归根结底，那还是座监狱。随着死亡之翼的回归，奥拉基尔再次有机会回到艾泽拉斯大陆，他现在已经成为了毁灭者的最坚定的同盟者，并且和其他的那些几乎和奥拉基尔一样强大的古老的风元素一起被称之为四风。奥拉基尔的性格就像变幻莫测的天空一样，上一秒风平浪静，下一秒狂风暴雨。但是对于那些元素领主来说，还是有一些方面是共通的。他拥有神圣和强大的力量以足够去冲击艾泽拉斯世界的秩序，当然，他不会再允许自己再次被囚禁了。"
+Inst104Story = "风神王座高高地漂浮在无尽的天空之墙里，这里是风元素领主奥拉基尔的老巢。如今，元素位面的壁障已被打破，奥拉基尔得以安逸地在艾泽拉斯的风中游走。他已经聚积起最剧烈的风暴，意图清洗奥丹姆的一切生命，并占领神秘的泰坦造物：起源大厅。"
 Inst104Caption = "风神王座"
 Inst104QAA = "无任务"
 Inst104QAH = "无任务"
@@ -11806,7 +11807,7 @@ Inst104QAH = "无任务"
 
 --------------- INST105 - Baradin Hold ---------------
 
-Inst105Story = "在兽人与人类的二次大战期间，巴拉丁被当作激流堡的岛屿壁垒。巴拉丁曾经被联盟泛用为军事攻击准备的孤立港口，直到被部落侵略并且毁灭。几年之后，库尔提拉斯邦国收回了巴拉丁，在老旧的堡垒废墟上建造了一座魔法监狱来容纳敌对法师、恶魔，以及许多致命的罪犯。艾泽拉斯大部分的人民仍然不知道这种监狱的存在。"
+Inst105Story = "第二次大战后，位于托尔巴拉德离岛的巴拉丁堡垒被改建成了监狱，用来关押艾泽拉斯最为危险的囚犯。然而大灾变的毁灭冲击让这座曾经密不透风的监狱也出现了瑕疵。现在部落和联盟争夺着岛屿的霸权，而那些被人遗忘的恐惧囚犯也许不日就将逃出生天。"
 Inst105Caption = "巴拉丁监狱"
 Inst105QAA = "无任务"
 Inst105QAH = "无任务"
@@ -11816,11 +11817,11 @@ Inst105QAH = "无任务"
 --------------- INST108 - Zul'Gurub (ZG) ---------------
 
 Inst108Story = {
-  ["Page1"] = "早在几千年前，强大的古拉巴什帝国陷入了一场规模浩大的内战，一群极具影响力的被称作阿塔莱的巨魔祭司，信奉着一个名叫夺灵者·哈卡的嗜血的邪神。这些阿塔莱祭司虽然已被击败并被处以永久的流放，但伟大的巨魔帝国就这样崩塌了。被流放的祭司们来到了北方的悲伤沼泽。在这里，他们为哈卡神建造了一座大神庙——阿塔哈卡神庙，并继续在那里为他们的主人重返物质世界而作准备……",
-  ["Page2"] = "终于，阿塔莱祭司发现，哈卡的物质形态只有在古老的古拉巴什帝国的首都——祖尔格拉布，才能召唤出来。不幸的是，这些祭司们最近真的成功召唤出哈卡——传闻证实可怕的夺灵者真的出现在古拉巴什废墟的中心。\n \n为了镇压血神，所有的巨魔都联合起来，派出了一支由高阶牧师组成的小队深入这座古老的城市。队中的每个牧师都是一位远古之神的强大战士，他们分别代表着蝙蝠、豹、老虎、蜘蛛和蛇的力量，但是尽管如此，强大的哈卡仍然轻易地击败了他们。现在这些勇士和他们的远古之神全都臣服于夺灵者的力量。如果有任何冒险者想进入废墟禁地挑战强大的血神哈卡，他们就必须先击败这些高阶牧师。",
+  ["Page1"] = "丛林巨魔古拉巴什一度控制着南方的大片丛林，祖尔格拉布就是他们的首都。妖术师金度曾在这里将夺灵者哈卡召唤到了艾泽拉斯世界。",
+  ["Page2"] = "近来，古巴拉什和赞达拉巨魔结成了同盟，为建立一个统一的巨魔帝国而挑起了新的战火。",
   ["MaxPages"] = "2",
 };
-Inst108Caption = "祖尔格拉布"
+Inst108Caption = "祖尔格拉布（ZG）"
 Inst108QAA = "6 个任务"
 Inst108QAH = "6 个任务"
 
@@ -11963,7 +11964,7 @@ Inst108Quest6_HORDE_Folgequest = Inst108Quest6_Folgequest
 
 --------------- INST109 - Firelands ---------------
 
-Inst109Story = "長久以來，元素界域是一个用來禁錮艾澤拉斯原始之靈的安全領域…直到大災難破壞了結界。在毫无預警之下，拉格納羅斯的大軍衝向海加爾山，試圖将世界樹諾達希爾燒為平地。在这場不可避免的衝突中，許多勇敢的英雄們用生命保護海加爾，使其免於毀滅。在他們的壯烈犧牲下，不可能的任务終於達成：海加爾守護者把拉格納羅斯的爪牙趕回了火源之界。\n\n現在，保衛海加爾之戰已經在拉格納羅斯的灼熱之域爆發。隨著領土推進，艾澤拉斯的英雄不斷逼近火源之界的內部聖所，現在有一項指標性的工作必須完成。拉格納羅斯的巢穴，薩弗隆要塞周圍由他最信賴的守衛把關，甚至還包括了叛變的火焰德魯依以及他們的神秘領導者。然而海加爾的防衛者可不能在这些威脅前退縮。如果拉格納羅斯成功侵略海加爾山並摧毀諾達希爾，艾澤拉斯可能會受到无可挽回的重創。"
+Inst109Story = "火焰之地乃是泰坦所铸造的一个熔火领域，用来关押拉格纳罗斯和他那群无法无天的爪牙。随着死亡之翼在艾泽拉斯的重现，拉格纳罗斯率领着他的手下奴仆们在海加尔山蜂拥而出，最终却被圣山英勇的防御者们打退。如今，拉格纳罗斯正集结他的信徒们，准备抵御艾泽拉斯的英雄们进攻火焰之地。"
 Inst109Caption = "火焰之地"
 Inst109QAA = "无任务"
 Inst109QAH = "无任务"
@@ -11972,10 +11973,10 @@ Inst109QAH = "无任务"
 
 --------------- INST110 - End Time ---------------
 
-Inst110Story = "One of an infinite number of potential outcomes, this timeway depicts the desolate future of Azeroth should its defenders fail to stop Deathwing. In this bleak future, Nozdormu has identified an anomaly that bars access to both the past and the Dragon Soul: a powerful creature from out of time, living alone amid time-twisted echoes of the past.\n\nIn order for Nozdormu to provide you the ability to travel back in time to a point before the Dragon Soul was hidden by Malfurion Stormrage from anyone who抎 seek its power, you must first go to a distant and desolate future to discover the anomaly blocking the past. You'll find yourself in a very different Dragonblight, stripped of its snowy landscape, with little more than ruins of the once-great dragonshrines. Wyrmrest Temple itself stands only as a reminder of Deathwing's madness梬hat's left of his scorched remains is impaled atop the structure. "..GREEN.."\n\nQuoted from worldofwarcraft.com"
-Inst110Caption = "End Time"
-Inst110QAA = "3 Quests"
-Inst110QAH = "3 Quests"
+Inst110Story = "时间流错综交织，蕴藏着无限可能和玄机；其中一条时间流中的景象昭示，如果无法阻止死亡之翼，艾泽拉斯的命运注定是凄惨荒凉的。诺兹多姆在这条时间流中发现了一个强大的生物，它行为反常并且挡住了通往过去世界的时间入口——获取巨龙之魂的唯一希望。在这扭曲的时空之中，这个强大的生物只和过往世界的残影为伴。"
+Inst110Caption = "时光之末"
+Inst110QAA = "3 个任务"
+Inst110QAH = "3 个任务"
 
 --Quest 1 Alliance
 Inst110Quest1 = "1. End Time"
@@ -12064,10 +12065,10 @@ Inst110Quest3name3_HORDE = Inst110Quest3name3
 
 --------------- INST111 - Well of Eternity ---------------
 
-Inst111Story = "Ten thousand years in the past, the night elven capital city of Zin-Azshari was a magnificent, sparkling metropolis. Situated on the shores of the Well of Eternity, Zin-Azshari was where the aristocratic Highborne first opened a portal into the Twisting Nether and invited the Burning Legion to invade Azeroth. Under the command of the night elven queen, Azshara, the Highborne now pour their energies into the portal, preparing it for the terrifying and glorious entrance of the titan Sargeras.\n\nWith a gateway to the past now open, Nozdormu will transport players to Azshara's palace, where you'll witness one of the most catastrophic events in the War of the Ancients, dating back 10,000 years. While assisting the much younger Tyrande and Illidan in a battle against the Highborne and Burning Legion, players will need to steal the Dragon Soul hovering above the Well. With so many of Azshara's most empowered wizards locked in ritual and pouring their magical energies into the turbulent depths of the Well, retrieving the Dragon Soul will require victory over some lethal foes."..GREEN.."\n\nQuoted from worldofwarcraft.com"
-Inst111Caption = "Well of Eternity"
-Inst111QAA = "5 Quests"
-Inst111QAH = "5 Quests"
+Inst111Story = "远在一万年前，当时的暗夜精灵首都辛艾萨莉是一座欣欣向荣的富饶之城，宛如艾泽拉斯一颗闪烁着文明之光的夜明珠。然而，上层精灵贵族们却利用这座城市坐落于永恒之井边陲的地理优势，在这里打开了通往扭曲虚空的传送门，继而使得燃烧军团能够从这里入侵艾泽拉斯，生灵涂炭。在精灵女王艾萨拉的指挥下，上层精灵们正在将他们的能量注入传送门，准备迎接恶魔之神萨格拉斯的驾临，屈从于他恐怖的统治。"
+Inst111Caption = "永恒之井"
+Inst111QAA = "5 个任务"
+Inst111QAH = "5 个任务"
 
 --Quest 1 Alliance
 Inst111Quest1 = "1. The Well of Eternity"
@@ -12208,10 +12209,10 @@ Inst111Quest5name4_HORDE = Inst111Quest5name4
 
 --------------- INST112 - Hour of Twilight ---------------
 
-Inst112Story = "Having shattered the infinite dragonflight and recovered the fabled Dragon Soul, Thrall and his allies must now journey to Wyrmrest Temple and rendezvous with the green, blue, red, and bronze dragonflights. Reaching their destination will be an arduous endeavor: the Twilight's Hammer has amassed its forces near the temple, determined to intercept the Dragon Soul at any cost. "..GREEN.."\n\nQuoted from wowpedia.org"
-Inst112Caption = "Hour of Twilight"
-Inst112QAA = "2 Quests"
-Inst112QAH = "2 Quests"
+Inst112Story = "艾泽拉斯的英雄们从遥远的过去夺回了巨龙之魂，现在正斗志昂扬，准备迎接死亡之翼的最后挑战。远在诺森德的冰冻废土之上，他派遣的暮光大军正在对龙眠神殿的高塔展开进攻。虽然手持神器巨龙之魂，但是萨尔是否能够安然抵达龙眠神殿，最终挽救艾泽拉斯的命运呢？"
+Inst112Caption = "暮光审判"
+Inst112QAA = "2 个任务"
+Inst112QAH = "2 个任务"
 
 --Quest 1 Alliance
 Inst112Quest1 = "1. The Hour of Twilight"
@@ -12270,10 +12271,10 @@ Inst112Quest2name3_HORDE = Inst112Quest2name3
 
 --------------- INST113 - Dragon Soul ---------------
 
-Inst113Story = "Forged by Deathwing during the War of the Ancients, the Dragon Soul harnessed the power of the other dragonflights, until it was ultimately destroyed. After recovering a version of the artifact from the Caverns of Time, Thrall and the allied dragonflights now rally at Wyrmrest Temple in a desperate bid to use its might to defeat Deathwing. "..GREEN.."\n\nQuoted from wowpedia.org"
-Inst113Caption = "Dragon Soul"
-Inst113QAA = "No Quests"
-Inst113QAH = "No Quests"
+Inst113Story = "死亡之翼于上古之战凝聚所有龙族神力铸造神器巨龙之魂，终究被毁于一旦。通过时光之穴，萨尔和其他龙族历经千险，在神器被摧毁前得到了它。现在，他们齐聚龙眠神殿，准备借助巨龙之魂的强大力量和它的创造者死亡之翼作殊死一搏。"
+Inst113Caption = "巨龙之魂"
+Inst113QAA = "无任务"
+Inst113QAH = "无任务"
 
 
 
