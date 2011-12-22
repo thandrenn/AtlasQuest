@@ -6857,6 +6857,21 @@ Inst112Quest2ITC3_HORDE = Itemc5;
 Inst112Quest2description3_HORDE = AQITEM_RING
 Inst112Quest2ID3_HORDE = "72888"
 
+--Quest 3 Horde
+Inst112Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst112Quest3ITC1_HORDE = Itemc5;
+Inst112Quest3description1_HORDE = AQITEM_OFFHAND
+Inst112Quest3ID1_HORDE = "72884"
+--ITEM2
+Inst112Quest3ITC2_HORDE = Itemc5;
+Inst112Quest3description2_HORDE = AQITEM_RING
+Inst112Quest3ID2_HORDE = "72886"
+--ITEM3
+Inst112Quest3ITC3_HORDE = Itemc5;
+Inst112Quest3description3_HORDE = AQITEM_RING
+Inst112Quest3ID3_HORDE = "76153"
+
 
 
 --------------- INST113 - Dragon Soul ---------------

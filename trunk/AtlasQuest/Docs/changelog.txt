@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.6.8 BETA (not released)
+
+- Added missing "The Twilight Prophet" quest to Hour of Twilight (thanks Guldukat!)
+- Localizations updated: deDE, enUS, zhCN
+
+
 Version 4.6.7 (November 30, 2011)
 
 - TOC file updated for Patch 4.3.
