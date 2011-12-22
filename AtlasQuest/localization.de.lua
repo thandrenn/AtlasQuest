@@ -11675,8 +11675,8 @@ Inst111Quest5name4_HORDE = Inst111Quest5name4
 
 Inst112Story = "Nachdem sie den ewigen Drachenschwarm zerstreut und die sagenumwobene Drachenseele ergattert haben, müssen Thrall und seine Verbündeten nun in Richtung Wyrmruhtempel reisen und sich mit dem Grünen, dem Blauen, dem Roten und dem Bronzenen Drachenschwarm treffen. Ihren Bestimmungsort zu erreichen wird ein schwieriges Unterfangen werden: Der Schattenhammer hat seine Streitmächte in der Umgebung des Tempels versammelt und ist entschlossen, die Drachenseele um jeden Preis an sich zu bringen."
 Inst112Caption = "Stunde des Zwielichts"
-Inst112QAA = "2 Quests"
-Inst112QAH = "2 Quests"
+Inst112QAA = "3 Quests"
+Inst112QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst112Quest1 = "1. Die Stunde des Zwielichts"
@@ -11702,7 +11702,21 @@ Inst112Quest2FQuest = "true"
 --
 Inst112Quest2name1 = "Sicherheitshandschuhe"
 Inst112Quest2name2 = "Sattelgurt des Weltenschamanen"
-Inst112Quest2name3 = "Sattelgurt des Weltenschamanen"
+Inst112Quest2name3 = "Ring des treuen Gefährten"
+
+--Quest 3 Alliance
+Inst112Quest3 = "3. Eiliges Schreiben des Schattenhammers"
+Inst112Quest3_Level = "85"
+Inst112Quest3_Attain = "85"
+Inst112Quest3_Aim = "Findet und enttarnt den Zwielichtpropheten."
+Inst112Quest3_Location = "Erzbischof Benedictus (Stunde des Zwielichts; "..YELLOW.."[3]"..WHITE..")"
+Inst112Quest3_Note = "Dieser Gegenstand droppt nur in der Instanz und nur von Arcurion."
+Inst112Quest3_Prequest = "Nein"
+Inst112Quest3_Folgequest = "Nein"
+--
+Inst112Quest3name1 = "Zuckender Zauberstab"
+Inst112Quest3name2 = "Thralls Dankbarkeit"
+Inst112Quest3name3 = "Signet des Zwielichtpropheten"
 
 
 --Quest 1 Horde
@@ -11730,6 +11744,17 @@ Inst112Quest2FQuest_HORDE = Inst112Quest2FQuest
 Inst112Quest2name1_HORDE = Inst112Quest2name1
 Inst112Quest2name2_HORDE = Inst112Quest2name2
 Inst112Quest2name3_HORDE = Inst112Quest2name3
+
+--Quest 3 Horde
+Inst112Quest3_HORDE = Inst112Quest3
+Inst112Quest3_HORDE_Level = "85"
+Inst112Quest3_HORDE_Attain = "85"
+Inst112Quest3_HORDE_Aim = Inst112Quest3_Aim
+Inst112Quest3_HORDE_Location = Inst112Quest3_Location
+Inst112Quest3_HORDE_Note = Inst112Quest3_Note
+Inst112Quest3_HORDE_Prequest = "Nein"
+Inst112Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
