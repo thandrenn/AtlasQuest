@@ -6823,6 +6823,21 @@ Inst112Quest2ITC3 = Itemc5;
 Inst112Quest2description3 = AQITEM_RING
 Inst112Quest2ID3 = "72888"
 
+--Quest 3 Alliance
+Inst112Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst112Quest3ITC1 = Itemc5;
+Inst112Quest3description1 = AQITEM_OFFHAND
+Inst112Quest3ID1 = "72884"
+--ITEM2
+Inst112Quest3ITC2 = Itemc5;
+Inst112Quest3description2 = AQITEM_RING
+Inst112Quest3ID2 = "72886"
+--ITEM3
+Inst112Quest3ITC3 = Itemc5;
+Inst112Quest3description3 = AQITEM_RING
+Inst112Quest3ID3 = "76153"
+
 
 --Quest 1 Horde
 Inst112Quest1Rewardtext_HORDE = AQNoReward
