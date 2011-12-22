@@ -11531,8 +11531,8 @@ Inst111Quest5name4_HORDE = Inst111Quest5name4
 
 Inst112Story = "Having shattered the infinite dragonflight and recovered the fabled Dragon Soul, Thrall and his allies must now journey to Wyrmrest Temple and rendezvous with the green, blue, red, and bronze dragonflights. Reaching their destination will be an arduous endeavor: the Twilight's Hammer has amassed its forces near the temple, determined to intercept the Dragon Soul at any cost. "..GREEN.."\n\nQuoted from wowpedia.org"
 Inst112Caption = "Hour of Twilight"
-Inst112QAA = "2 Quests"
-Inst112QAH = "2 Quests"
+Inst112QAA = "3 Quests"
+Inst112QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst112Quest1 = "1. The Hour of Twilight"
@@ -11551,7 +11551,7 @@ Inst112Quest2_Level = "85"
 Inst112Quest2_Attain = "85"
 Inst112Quest2_Aim = "Escort Thrall safely to Wyrmrest Temple."
 Inst112Quest2_Location = "Thrall (Hour of Twilight; "..BLUE.."Entrance"..WHITE..")"
-Inst112Quest2_Note = ""
+Inst112Quest2_Note = "Thrall stops at several points in the journey.  If you lose him, backtrack or go further ahead and you might find him waiting."
 Inst112Quest2_Prequest = "The Hour of Twilight"
 Inst112Quest2_Folgequest = "None"
 Inst112Quest2FQuest = "true"
@@ -11559,6 +11559,20 @@ Inst112Quest2FQuest = "true"
 Inst112Quest2name1 = "Safeguard Gloves"
 Inst112Quest2name2 = "Cinch of the World Shaman"
 Inst112Quest2name3 = "Ring of the Loyal Companion"
+
+--Quest 3 Alliance
+Inst112Quest3 = "3. The Twilight Prophet"
+Inst112Quest3_Level = "85"
+Inst112Quest3_Attain = "85"
+Inst112Quest3_Aim = "Find and unmask the Twilight Prophet."
+Inst112Quest3_Location = "Drops from Arcurion (Hour of Twilight; "..YELLOW.."[1]"..WHITE..")"
+Inst112Quest3_Note = "Archbishop Benedictus is the Twilight Prophet and is at "..YELLOW.."[3]"..WHITE..")."
+Inst112Quest3_Prequest = "None"
+Inst112Quest3_Folgequest = "None"
+--
+Inst112Quest3name1 = "Writhing Wand"
+Inst112Quest3name2 = "Thrall's Gratitude"
+Inst112Quest3name3 = "Signet of the Twilight Prophet"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -11586,6 +11600,20 @@ Inst112Quest2FQuest_HORDE = Inst112Quest2FQuest
 Inst112Quest2name1_HORDE = Inst112Quest2name1
 Inst112Quest2name2_HORDE = Inst112Quest2name2
 Inst112Quest2name3_HORDE = Inst112Quest2name3
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst112Quest3_HORDE = Inst112Quest3
+Inst112Quest3_HORDE_Level = Inst112Quest3_Level
+Inst112Quest3_HORDE_Attain = Inst112Quest3_Attain
+Inst112Quest3_HORDE_Aim = Inst112Quest3_Aim
+Inst112Quest3_HORDE_Location = Inst112Quest3_Location
+Inst112Quest3_HORDE_Note = Inst112Quest3_Note
+Inst112Quest3_HORDE_Prequest = Inst112Quest3_Prequest
+Inst112Quest3_HORDE_Folgequest = Inst112Quest3_Folgequest
+--
+Inst112Quest3name1_HORDE = Inst112Quest3name1
+Inst112Quest3name2_HORDE = Inst112Quest3name2
+Inst112Quest3name3_HORDE = Inst112Quest3name3
 
 
 

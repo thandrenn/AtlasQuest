@@ -2095,13 +2095,16 @@ AQ_30104_Level = "85"
 
 Inst112Quest1_QuestID = "30102"
 Inst112Quest2_QuestID = "30103"
+Inst112Quest3_QuestID = "30105"
 
 Inst112Quest1_HORDE_QuestID = "30102"
 Inst112Quest2_HORDE_QuestID = "30103"
+Inst112Quest3_HORDE_QuestID = "30105"
 
 
 AQ_30102_Level = "85"
 AQ_30103_Level = "85"
+AQ_30105_Level = "85"
 
 
 
