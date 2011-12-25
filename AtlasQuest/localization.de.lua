@@ -11695,7 +11695,7 @@ Inst112Quest2_Level = "85"
 Inst112Quest2_Attain = "85"
 Inst112Quest2_Aim = "Eskortiert Thrall sicher zum Wyrmruhtempel."
 Inst112Quest2_Location = "Thrall (Stunde des Zwielichts; "..BLUE.."Eingang"..WHITE..")"
-Inst112Quest2_Note = ""
+Inst112Quest2_Note = "Thrall stoppt an einigen Stellen der Reise. Wenn Du ihn verlierst, gehe den Weg zurück oder gehe den Weg weiter und Du wirst ihn weiter vorne wartend finden."
 Inst112Quest2_Prequest = "Ja, Die Stunde des Zwielichts"
 Inst112Quest2_Folgequest = "Nein"
 Inst112Quest2FQuest = "true"
@@ -11709,8 +11709,8 @@ Inst112Quest3 = "3. Eiliges Schreiben des Schattenhammers"
 Inst112Quest3_Level = "85"
 Inst112Quest3_Attain = "85"
 Inst112Quest3_Aim = "Findet und enttarnt den Zwielichtpropheten."
-Inst112Quest3_Location = "Erzbischof Benedictus (Stunde des Zwielichts; "..YELLOW.."[3]"..WHITE..")"
-Inst112Quest3_Note = "Dieser Gegenstand droppt nur in der Instanz und nur von Arcurion."
+Inst112Quest3_Location = "Droppt von Arcurion (Stunde des Zwielichts; "..YELLOW.."[1]"..WHITE..")"
+Inst112Quest3_Note = "Erzbischof Benedictus ist der Zwielichtprophet und ist bei "..YELLOW.."[3]"..WHITE..")."
 Inst112Quest3_Prequest = "Nein"
 Inst112Quest3_Folgequest = "Nein"
 --
@@ -11754,7 +11754,10 @@ Inst112Quest3_HORDE_Location = Inst112Quest3_Location
 Inst112Quest3_HORDE_Note = Inst112Quest3_Note
 Inst112Quest3_HORDE_Prequest = "Nein"
 Inst112Quest3_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst112Quest3name1_HORDE = Inst112Quest3name1
+Inst112Quest3name2_HORDE = Inst112Quest3name2
+Inst112Quest3name3_HORDE = Inst112Quest3name3
 
 
 
