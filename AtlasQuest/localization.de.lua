@@ -9009,19 +9009,18 @@ Inst80Quest3name4_HORDE = Inst80Quest3name4
 
 Inst81Story = "In ihrer Verzweiflung, ihr Königreich vor dem Zusammenbruch zu bewahren, haben die Trolle von Zul'Drak mit der Opferung ihrer uralten Götter begonnen. Die wilden Gottheiten werden nun als bislang ungenutzte Energiequelle betrachtet und ihr kraftvolles Blut zur Verteidigung gegen die Diener des Lichkönigs verwendet, die Teile der Trollnation übernommen haben. Vor kurzem sind Helden in die belagerte Region gereist, um einen Schlag gegen die Drakkari und ihre verrückt gewordenen Propheten auszuführen.\n\nTrotzdem lauert die größte Bedrohung für die Region ungestört im Inneren von Gundrak, der Hauptstadt der Eistrolle. Man sagt, dass in den Tiefen der Stadt die geheiligsten Schreine vom Mojo getöteter Götter durchdrungen sein sollen. Von dieser dunklen Energie umgeben, wächst nun die Macht der ruchlosen Hochpropheten der Drakkari, die ihre Anhänger mit unglaublicher Stärke erfüllen. Sollten sie unbehelligt bleiben, werden die Trolle von Gundrak schon bald ihre wachsende Macht entfesseln und die gesamte Region ins Chaos stürzen."
 Inst81Caption = "Gundrak"
-Inst81QAA = "3 Quests"
-Inst81QAH = "3 Quests"
+Inst81QAA = "4 Quests"
+Inst81QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst81Quest1 = "1. Für die Nachwelt"
 Inst81Quest1_Level = "78"
 Inst81Quest1_Attain = "74"
-Inst81Quest1_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und 6 Geschichtstafeln der Drakkari sammelt."
-Inst81Quest1_Location = "Chronistin Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
+Inst81Quest1_Aim = "Tol'mar in Gundrak möchte, dass Ihr 6 Geschichtstafeln der Drakkari sammelt."
+Inst81Quest1_Location = "Tol'mar (Gundrak; "..BLUE.."Eingang"..WHITE..")"
 Inst81Quest1_Note = "Die Geschichtstafeln sind überall in der Instant verteilt. Es sind genug vorhanden um damit eine komplette Gruppe diese Quest beenden kann. Die Vorquest ist optional."
-Inst81Quest1_Prequest = "Ja, Nur ma' nachsehen"
+Inst81Quest1_Prequest = "Nein"
 Inst81Quest1_Folgequest = "Nein"
-Inst81Quest1PreQuest = "true"
 --
 Inst81Quest1name1 = "Ring des Löwenkopfes"
 Inst81Quest1name2 = "Ring des faulen Mojos"
@@ -9032,12 +9031,11 @@ Inst81Quest1name4 = "Voodoosiegel"
 Inst81Quest2 = "2. Gal'darah muss bezahlen"
 Inst81Quest2_Level = "78"
 Inst81Quest2_Attain = "74"
-Inst81Quest2_Aim = "Tol'mar in Dubra'Jin möchte, dass Ihr Gal'darah in Gundrak erschlagt."
-Inst81Quest2_Location = "Tol'mar (Zul'Drak - Dubra'Jin; "..YELLOW.."69.9, 22.8"..WHITE..")"
+Inst81Quest2_Aim = "Tol'mar in Gundrak möchte, dass Ihr Slad'ran, Moorabi und Gal'darah in Gundrak tötet."
+Inst81Quest2_Location = "Tol'mar (Gundrak; "..BLUE.."Eingang"..WHITE..")"
 Inst81Quest2_Note = "Gal'darah ist bei "..YELLOW.."[5]"..WHITE.."."
-Inst81Quest2_Prequest = "Ja, Noch ein Hühnchen rupfen"
+Inst81Quest2_Prequest = "Nein"
 Inst81Quest2_Folgequest = "Nein"
-Inst81Quest2PreQuest = "true"
 --
 Inst81Quest2name1 = "Listige Mojoscherpe"
 Inst81Quest2name2 = "Seltsamer Voodoogürtel"
@@ -9045,11 +9043,11 @@ Inst81Quest2name3 = "Waldläufergürtel des gefallenen Imperiums"
 Inst81Quest2name4 = "Schnalle des gefallenen Halbgotts"
 
 --Quest 3 Alliance
-Inst81Quest3 = "3. Einzelstück"
+Inst81Quest3 = "3. Einzigartig"
 Inst81Quest3_Level = "78"
 Inst81Quest3_Attain = "74"
-Inst81Quest3_Aim = "Chronistin Bah'Kini in Dubra'Jin möchte, dass Ihr nach Gundrak geht und ein Fragment des Kolosses der Drakkari beschafft."
-Inst81Quest3_Location = "Chronicler Bah'Kini (Zul'Drak - Dubra'Jin; "..YELLOW.."70.0, 20.9"..WHITE..")"
+Inst81Quest3_Aim = "Tol'mar in Gundrak möchte, dass Ihr ein Stück des Kolosses der Drakkari in Gundrak erbeutet."
+Inst81Quest3_Location = "Tol'mar (Gundrak; "..BLUE.."Eingang"..WHITE..")"
 Inst81Quest3_Note = "Fragment des Kolosses der Drakkari droppt von den Drakkari Kolossen bei "..YELLOW.."[2]"..WHITE.."."
 Inst81Quest3_Prequest = "Nein"
 Inst81Quest3_Folgequest = "Nein"
@@ -9059,6 +9057,17 @@ Inst81Quest3name2 = "Rhinozerosbalgkniestiefel"
 Inst81Quest3name3 = "Schuppenstiefel der gefallenen Hoffnung"
 Inst81Quest3name4 = "Slipper des Mojodojos"
 Inst81Quest3name5 = "Trollkicker"
+
+--Quest 4 Alliance
+Inst81Quest4 = "4. Nur ma' nachsehen"
+Inst81Quest4_Level = "78"
+Inst81Quest4_Attain = "74"
+Inst81Quest4_Aim = "To'kini möchte, dass Ihr mit Chronistin Bah'kini in Gundrak spricht."
+Inst81Quest4_Location = "Chronist To'kini (Zul Drak - Zim'Torga "..YELLOW.."16.6, 48.1"..WHITE..")"
+Inst81Quest4_Note = "Chronistin Bah'kini befindet sich bei (Gundrak; "..BLUE.."Ausgang"..WHITE..")"
+Inst81Quest4_Prequest = "Nein"
+Inst81Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -9070,7 +9079,6 @@ Inst81Quest1_HORDE_Location = Inst81Quest1_Location
 Inst81Quest1_HORDE_Note = Inst81Quest1_Note
 Inst81Quest1_HORDE_Prequest = Inst81Quest1_Prequest
 Inst81Quest1_HORDE_Folgequest = "Nein"
-Inst81Quest1PreQuest_HORDE = "true"
 --
 Inst81Quest1name1_HORDE = Inst81Quest1name1
 Inst81Quest1name2_HORDE = Inst81Quest1name2
@@ -9086,7 +9094,6 @@ Inst81Quest2_HORDE_Location = Inst81Quest2_Location
 Inst81Quest2_HORDE_Note = Inst81Quest2_Note
 Inst81Quest2_HORDE_Prequest = Inst81Quest2_Prequest
 Inst81Quest2_HORDE_Folgequest = "Nein"
-Inst81Quest2PreQuest_HORDE = "true"
 --
 Inst81Quest2name1_HORDE = Inst81Quest2name1
 Inst81Quest2name2_HORDE = Inst81Quest2name2
@@ -9108,6 +9115,17 @@ Inst81Quest3name2_HORDE = Inst81Quest3name2
 Inst81Quest3name3_HORDE = Inst81Quest3name3
 Inst81Quest3name4_HORDE = Inst81Quest3name4
 Inst81Quest3name5_HORDE = "Trollkicker"
+
+--Quest 4 Horde
+Inst81Quest4_HORDE = Inst81Quest4
+Inst81Quest4_HORDE_Level = "78"
+Inst81Quest4_HORDE_Attain = "74"
+Inst81Quest4_HORDE_Aim = Inst81Quest4_Aim
+Inst81Quest4_HORDE_Location = Inst81Quest4_Location
+Inst81Quest4_HORDE_Note = Inst81Quest4_Note
+Inst81Quest4_HORDE_Prequest = "Nein"
+Inst81Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
