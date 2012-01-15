@@ -8789,17 +8789,17 @@ Inst78Story = {
   ["MaxPages"] = "3",
 };
 Inst78Caption = "HdB: Hallen der Blitze"
-Inst78QAA = "2 Quests"
-Inst78QAH = "2 Quests"
+Inst78QAA = "3 Quests"
+Inst78QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst78Quest1 = "1. Koste es, was es wolle!"
+Inst78Quest1 = "1. Mit allen Mitteln!"
 Inst78Quest1_Level = "80"
 Inst78Quest1_Attain = "77"
-Inst78Quest1_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Loken besiegt. Danach sollt Ihr mit Lokens Zunge zu König Jokkum zurückkehren."
-Inst78Quest1_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
-Inst78Quest1_Note = "Loken ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
-Inst78Quest1_Prequest = "Ja, Sie haben unsere Männer! -> Die Abrechnung"
+Inst78Quest1_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr Loken besiegt. Dann sollt Ihr mit Lokens Zunge zu Sturmbote Eljrrin zurückkehren."
+Inst78Quest1_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
+Inst78Quest1_Note = "Loken ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst78Quest1_Prequest = "Ja, Sturmbote Eljrrin"
 Inst78Quest1_Folgequest = "Nein"
 Inst78Quest1PreQuest = "true"
 --
@@ -8809,21 +8809,32 @@ Inst78Quest1name3 = "Halsberge des Blitzschlägers"
 Inst78Quest1name4 = "Brustplatte des Zackensteins"
 
 --Quest 2 Alliance
-Inst78Quest2 = "2. Diametral entgegengesetzt"
+Inst78Quest2 = "2. Den Weg frei machen"
 Inst78Quest2_Level = "80"
 Inst78Quest2_Attain = "77"
-Inst78Quest2_Aim = "König Jokkum in Dun Niffelem wünscht, dass Ihr die Hallen der Blitze betretet und Volkhan besiegt."
-Inst78Quest2_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
-Inst78Quest2_Note = "Volkhan ist bei "..YELLOW.."[2]"..WHITE..".\n\nDiese Quest bekommt man erst nach einer sehr langen Questreihe die bei Gretchen Zischelfunken beginnt (Sturmgipfel - K3; "..YELLOW.."41.1, 86.1"..WHITE..")."
-Inst78Quest2_Prequest = "Ja, Sie haben unsere Männer! -> Die Abrechnung"
+Inst78Quest2_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr 3 sturmgeschmiedete Heiler, 3 sturmgeschmiedete Taktiker und General Bjarngrim tötet."
+Inst78Quest2_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
+Inst78Quest2_Note = "General Bjarngrim ist bei "..YELLOW.."[1]"..WHITE..", er wandert den Weg lang.Sturmgeschmiedeter Taktiker und Heile sind beim General Bjarngrim"
+Inst78Quest2_Prequest = "Nein"
 Inst78Quest2_Folgequest = "Nein"
-Inst78Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst78Quest3 = "3. Gegensätze"
+Inst78Quest3_Level = "80"
+Inst78Quest3_Attain = "77"
+Inst78Quest3_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr Volkhan besiegt."
+Inst78Quest3_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
+Inst78Quest3_Note = "Volkhan ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst78Quest3_Prequest = "Nein"
+Inst78Quest3_Folgequest = "Nein"
+Inst78Quest3PreQuest = "true"
 --
-Inst78Quest2name1 = "Blitzerfüllte Mantelung"
-Inst78Quest2name2 = "Verkohlter Lederschulterschutz"
-Inst78Quest2name3 = "Strrmgeschmiedete Schultern"
-Inst78Quest2name4 = "Schulterstücke des erloschenen Hasses"
-Inst78Quest2name5 = "Mantelung von Volkhan"
+Inst78Quest3name1 = "Blitzerfüllte Mantelung"
+Inst78Quest3name2 = "Verkohlter Lederschulterschutz"
+Inst78Quest3name3 = "Strrmgeschmiedete Schultern"
+Inst78Quest3name4 = "Schulterstücke des erloschenen Hasses"
+Inst78Quest3name5 = "Mantelung von Volkhan"
 
 
 --Quest 1 Horde
@@ -8849,15 +8860,25 @@ Inst78Quest2_HORDE_Attain = "77"
 Inst78Quest2_HORDE_Aim = Inst78Quest2_Aim
 Inst78Quest2_HORDE_Location = Inst78Quest2_Location
 Inst78Quest2_HORDE_Note = Inst78Quest2_Note
-Inst78Quest2_HORDE_Prequest = Inst78Quest2_Prequest
+Inst78Quest2_HORDE_Prequest = "Nein"
 Inst78Quest2_HORDE_Folgequest = "Nein"
-Inst78Quest2PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst78Quest3_HORDE = Inst78Quest3
+Inst78Quest3_HORDE_Level = "80"
+Inst78Quest3_HORDE_Attain = "77"
+Inst78Quest3_HORDE_Aim = Inst78Quest3_Aim
+Inst78Quest3_HORDE_Location = Inst78Quest3_Location
+Inst78Quest3_HORDE_Note = Inst78Quest3_Note
+Inst78Quest3_HORDE_Prequest = "Nein"
+Inst78Quest3_HORDE_Folgequest = "Nein"
 --
-Inst78Quest2name1_HORDE = Inst78Quest2name1
-Inst78Quest2name2_HORDE = Inst78Quest2name2
-Inst78Quest2name3_HORDE = Inst78Quest2name3
-Inst78Quest2name4_HORDE = Inst78Quest2name4
-Inst78Quest2name5_HORDE = Inst78Quest2name5
+Inst78Quest3name1_HORDE = Inst78Quest3name1
+Inst78Quest3name2_HORDE = Inst78Quest3name2
+Inst78Quest3name3_HORDE = Inst78Quest3name3
+Inst78Quest3name4_HORDE = Inst78Quest3name4
+Inst78Quest3name5_HORDE = Inst78Quest3name5
 
 
 
@@ -9077,7 +9098,7 @@ Inst81Quest1_HORDE_Attain = "74"
 Inst81Quest1_HORDE_Aim = Inst81Quest1_Aim
 Inst81Quest1_HORDE_Location = Inst81Quest1_Location
 Inst81Quest1_HORDE_Note = Inst81Quest1_Note
-Inst81Quest1_HORDE_Prequest = Inst81Quest1_Prequest
+Inst81Quest1_HORDE_Prequest = "Nein"
 Inst81Quest1_HORDE_Folgequest = "Nein"
 --
 Inst81Quest1name1_HORDE = Inst81Quest1name1
@@ -9092,7 +9113,7 @@ Inst81Quest2_HORDE_Attain = "74"
 Inst81Quest2_HORDE_Aim = Inst81Quest2_Aim
 Inst81Quest2_HORDE_Location = Inst81Quest2_Location
 Inst81Quest2_HORDE_Note = Inst81Quest2_Note
-Inst81Quest2_HORDE_Prequest = Inst81Quest2_Prequest
+Inst81Quest2_HORDE_Prequest = "Nein"
 Inst81Quest2_HORDE_Folgequest = "Nein"
 --
 Inst81Quest2name1_HORDE = Inst81Quest2name1
@@ -9144,9 +9165,9 @@ Inst82QAH = "2 Quests"
 Inst82Quest1 = "1. Diskretion ist der Schlüssel"
 Inst82Quest1_Level = "77"
 Inst82Quest1_Attain = "75"
-Inst82Quest1_Aim = "Rhonin möchte, dass Ihr zur Violetten Festung in Dalaran geht und mit Aufseher Alturas sprecht."
+Inst82Quest1_Aim = "Rhonin möchte, dass Ihr zur Violetten Festung in Dalaran geht und mit Leutnant Sinclari sprecht."
 Inst82Quest1_Location = "Rhonin (Dalaran - Die Violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")"
-Inst82Quest1_Note = "Aufseher Alturas ist bei (Dalaran - Die Violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
+Inst82Quest1_Note = "Leutnant Sinclari ist in (Die Violette Festung; "..BLUE.."Eingang"..WHITE..")"
 Inst82Quest1_Prequest = "Nein"
 Inst82Quest1_Folgequest = "Ja, Eindämmung"
 Inst82Quest1FQuest = "true"
@@ -9156,8 +9177,8 @@ Inst82Quest1FQuest = "true"
 Inst82Quest2 = "2. Eindämmung"
 Inst82Quest2_Level = "77"
 Inst82Quest2_Attain = "75"
-Inst82Quest2_Aim = "Aufseher Alturas möchte, dass Ihr die Violette Festung betretet und den Invasionsstreitkräften des blauen Drachenschwarms ein Ende bereitet. Ihr sollt Euch wieder bei ihm melden, sobald Cyanigosa getötet wurde."
-Inst82Quest2_Location = "Aufseher Alturas (Dalaran - Die Violette Festung; "..YELLOW.."60.8, 62.7"..WHITE..")"
+Inst82Quest2_Aim = "Leutnant Sinclari in der Violetten Festung möchte, dass Ihr die Invasion der blauen Drachen aufhaltet. Sprecht mit ihr, wenn Cyanigosa geschlagen ist"
+Inst82Quest2_Location = "Leutnant Sinclari (Die Violette Festung; "..BLUE.."Eingang"..WHITE..")"
 Inst82Quest2_Note = "Cyanigosa ist der letzte Boss der Angriffswellen."
 Inst82Quest2_Prequest = "Ja, Diskretion ist der Schlüssel"
 Inst82Quest2_Folgequest = "Nein"
