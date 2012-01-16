@@ -862,20 +862,29 @@ AQ_2947_Level = "34"
 
 --------------- INST37 - HFC: Ramparts (Ramp) ---------------
 
-Inst37Quest1_QuestID = "9575"
-Inst37Quest2_QuestID = "9587"
-Inst37Quest3_QuestID = "11354"
+Inst37Quest1_QuestID = "29543"
+Inst37Quest2_QuestID = "29594"
+Inst37Quest3_QuestID = "29529"
+Inst37Quest4_QuestID = "29528"
+Inst37Quest5_QuestID = "11354"
 
-Inst37Quest1_HORDE_QuestID = "9572"
-Inst37Quest2_HORDE_QuestID = "9588"
-Inst37Quest3_HORDE_QuestID = "11354"
+Inst37Quest1_HORDE_QuestID = "29542"
+Inst37Quest2_HORDE_QuestID = "29593"
+Inst37Quest3_HORDE_QuestID = "29530"
+Inst37Quest4_HORDE_QuestID = "29527"
+Inst37Quest5_HORDE_QuestID = "11354"
 
 
-AQ_9575_Level = "62"
-AQ_9587_Level = "62"
+AQ_29543_Level = "62"
+AQ_29594_Level = "62"
+AQ_29529_Level = "62"
+AQ_29528_Level = "62"
 AQ_11354_Level = "70"
-AQ_9572_Level = "62"
-AQ_9588_Level = "62"
+AQ_29542_Level = "62"
+AQ_29593_Level = "62"
+AQ_29530_Level = "62"
+AQ_29527_Level = "62"
+
 
 
 
@@ -1643,16 +1652,16 @@ AQ_29836_Level = "78"
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Quest1_QuestID = "29860"
-Inst82Quest2_QuestID = "29861"
+Inst82Quest1_QuestID = "29829"
+Inst82Quest2_QuestID = "29830"
 
 
 Inst82Quest1_HORDE_QuestID = "29829"
 Inst82Quest2_HORDE_QuestID = "29830"
 
 
-AQ_29860_Level = "77"
-AQ_29861_Level = "77"
+AQ_29829_Level = "77"
+AQ_29830_Level = "77"
 
 
 
