@@ -8789,52 +8789,63 @@ Inst78Story = {
   ["MaxPages"] = "3",
 };
 Inst78Caption = "HdB: Hallen der Blitze"
-Inst78QAA = "3 Quests"
-Inst78QAH = "3 Quests"
+Inst78QAA = "4 Quests"
+Inst78QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst78Quest1 = "1. Mit allen Mitteln!"
+Inst78Quest1 = "1. Sturmbote Eljrrin"
 Inst78Quest1_Level = "80"
 Inst78Quest1_Attain = "77"
-Inst78Quest1_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr Loken besiegt. Dann sollt Ihr mit Lokens Zunge zu Sturmbote Eljrrin zurückkehren."
-Inst78Quest1_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
-Inst78Quest1_Note = "Loken ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst78Quest1_Prequest = "Ja, Sturmbote Eljrrin"
-Inst78Quest1_Folgequest = "Nein"
-Inst78Quest1PreQuest = "true"
---
-Inst78Quest1name1 = "Robe des Blitzes"
-Inst78Quest1name2 = "Gehärtete Zungentunika"
-Inst78Quest1name3 = "Halsberge des Blitzschlägers"
-Inst78Quest1name4 = "Brustplatte des Zackensteins"
-
---Quest 2 Alliance
-Inst78Quest2 = "2. Den Weg frei machen"
-Inst78Quest2_Level = "80"
-Inst78Quest2_Attain = "77"
-Inst78Quest2_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr 3 sturmgeschmiedete Heiler, 3 sturmgeschmiedete Taktiker und General Bjarngrim tötet."
-Inst78Quest2_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
-Inst78Quest2_Note = "General Bjarngrim ist bei "..YELLOW.."[1]"..WHITE..", er wandert den Weg lang.Sturmgeschmiedeter Taktiker und Heile sind beim General Bjarngrim"
-Inst78Quest2_Prequest = "Nein"
-Inst78Quest2_Folgequest = "Nein"
+Inst78Quest1_Aim = "König Jokkum möchte, dass Ihr die Hallen der Blitze betretet und mit Sturmbote Eljrrin sprecht."
+Inst78Quest1_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
+Inst78Quest1_Note = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
+Inst78Quest1_Prequest = "Nein"
+Inst78Quest1_Folgequest = "Ja, Mit allen Mitteln!"
+Inst78Quest1FQuest = "true"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst78Quest2 = "2. Mit allen Mitteln!"
+Inst78Quest2_Level = "80"
+Inst78Quest2_Attain = "77"
+Inst78Quest2_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr Loken besiegt. Dann sollt Ihr mit Lokens Zunge zu Sturmbote Eljrrin zurückkehren."
+Inst78Quest2_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
+Inst78Quest2_Note = "Loken ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst78Quest2_Prequest = "Ja, Sturmbote Eljrrin"
+Inst78Quest2_Folgequest = "Nein"
+Inst78Quest2PreQuest = "true"
+--
+Inst78Quest2name1 = "Robe des Blitzes"
+Inst78Quest2name2 = "Gehärtete Zungentunika"
+Inst78Quest2name3 = "Halsberge des Blitzschlägers"
+Inst78Quest2name4 = "Brustplatte des Zackensteins"
+
 --Quest 3 Alliance
-Inst78Quest3 = "3. Gegensätze"
+Inst78Quest3 = "3. Den Weg frei machen"
 Inst78Quest3_Level = "80"
 Inst78Quest3_Attain = "77"
-Inst78Quest3_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr Volkhan besiegt."
+Inst78Quest3_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr 3 sturmgeschmiedete Heiler, 3 sturmgeschmiedete Taktiker und General Bjarngrim tötet."
 Inst78Quest3_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
-Inst78Quest3_Note = "Volkhan ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst78Quest3_Note = "General Bjarngrim ist bei "..YELLOW.."[1]"..WHITE..", er wandert den Weg lang.Sturmgeschmiedeter Taktiker und Heiler sind beim General Bjarngrim verteilt."
 Inst78Quest3_Prequest = "Nein"
 Inst78Quest3_Folgequest = "Nein"
-Inst78Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst78Quest4 = "4. Gegensätze"
+Inst78Quest4_Level = "80"
+Inst78Quest4_Attain = "77"
+Inst78Quest4_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr Volkhan besiegt."
+Inst78Quest4_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
+Inst78Quest4_Note = "Volkhan ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst78Quest4_Prequest = "Nein"
+Inst78Quest4_Folgequest = "Nein"
 --
-Inst78Quest3name1 = "Blitzerfüllte Mantelung"
-Inst78Quest3name2 = "Verkohlter Lederschulterschutz"
-Inst78Quest3name3 = "Strrmgeschmiedete Schultern"
-Inst78Quest3name4 = "Schulterstücke des erloschenen Hasses"
-Inst78Quest3name5 = "Mantelung von Volkhan"
+Inst78Quest4name1 = "Blitzerfüllte Mantelung"
+Inst78Quest4name2 = "Verkohlter Lederschulterschutz"
+Inst78Quest4name3 = "Sturmgeschmiedete Schultern"
+Inst78Quest4name4 = "Schulterstücke des erloschenen Hasses"
+Inst78Quest4name5 = "Mantelung von Volkhan"
 
 
 --Quest 1 Horde
@@ -8844,14 +8855,10 @@ Inst78Quest1_HORDE_Attain = "77"
 Inst78Quest1_HORDE_Aim = Inst78Quest1_Aim
 Inst78Quest1_HORDE_Location = Inst78Quest1_Location
 Inst78Quest1_HORDE_Note = Inst78Quest1_Note
-Inst78Quest1_HORDE_Prequest = Inst78Quest1_Prequest
-Inst78Quest1_HORDE_Folgequest = "Nein"
-Inst78Quest1PreQuest_HORDE = "true"
---
-Inst78Quest1name1_HORDE = Inst78Quest1name1
-Inst78Quest1name2_HORDE = Inst78Quest1name2
-Inst78Quest1name3_HORDE = Inst78Quest1name3
-Inst78Quest1name4_HORDE = Inst78Quest1name4
+Inst78Quest1_HORDE_Prequest = "Nein"
+Inst78Quest1_HORDE_Folgequest = Inst78Quest1_Folgequest
+Inst78Quest1FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst78Quest2_HORDE = Inst78Quest2
@@ -8860,9 +8867,14 @@ Inst78Quest2_HORDE_Attain = "77"
 Inst78Quest2_HORDE_Aim = Inst78Quest2_Aim
 Inst78Quest2_HORDE_Location = Inst78Quest2_Location
 Inst78Quest2_HORDE_Note = Inst78Quest2_Note
-Inst78Quest2_HORDE_Prequest = "Nein"
+Inst78Quest2_HORDE_Prequest = Inst78Quest2_Prequest
 Inst78Quest2_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+Inst78Quest2PreQuest_HORDE = "true"
+--
+Inst78Quest2name1_HORDE = Inst78Quest2name1
+Inst78Quest2name2_HORDE = Inst78Quest2name2
+Inst78Quest2name3_HORDE = Inst78Quest2name3
+Inst78Quest2name4_HORDE = Inst78Quest2name4
 
 --Quest 3 Horde
 Inst78Quest3_HORDE = Inst78Quest3
@@ -8873,13 +8885,24 @@ Inst78Quest3_HORDE_Location = Inst78Quest3_Location
 Inst78Quest3_HORDE_Note = Inst78Quest3_Note
 Inst78Quest3_HORDE_Prequest = "Nein"
 Inst78Quest3_HORDE_Folgequest = "Nein"
---
-Inst78Quest3name1_HORDE = Inst78Quest3name1
-Inst78Quest3name2_HORDE = Inst78Quest3name2
-Inst78Quest3name3_HORDE = Inst78Quest3name3
-Inst78Quest3name4_HORDE = Inst78Quest3name4
-Inst78Quest3name5_HORDE = Inst78Quest3name5
+Inst78Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
+--Quest 4 Horde
+Inst78Quest4_HORDE = Inst78Quest4
+Inst78Quest4_HORDE_Level = "80"
+Inst78Quest4_HORDE_Attain = "77"
+Inst78Quest4_HORDE_Aim = Inst78Quest4_Aim
+Inst78Quest4_HORDE_Location = Inst78Quest4_Location
+Inst78Quest4_HORDE_Note = Inst78Quest4_Note
+Inst78Quest4_HORDE_Prequest = "Nein"
+Inst78Quest4_HORDE_Folgequest = "Nein"
+--
+Inst78Quest4name1_HORDE = Inst78Quest4name1
+Inst78Quest4name2_HORDE = Inst78Quest4name2
+Inst78Quest4name3_HORDE = Inst78Quest4name3
+Inst78Quest4name4_HORDE = Inst78Quest4name4
+Inst78Quest4name5_HORDE = Inst78Quest4name5
 
 
 --------------- INST79 - The Obsidian Sanctum ---------------
