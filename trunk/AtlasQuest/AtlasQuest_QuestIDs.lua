@@ -1575,15 +1575,21 @@ AQ_13207_Level = "78"
 
 --------------- INST78 - Ulduar: Halls of Lightning ---------------
 
-Inst78Quest1_QuestID = "13108"
-Inst78Quest2_QuestID = "13109"
+Inst78Quest1_QuestID = "29863"
+Inst78Quest2_QuestID = "29861"
+Inst78Quest3_QuestID = "29862"
+Inst78Quest4_QuestID = "29860"
 
-Inst78Quest1_HORDE_QuestID = "13108"
-Inst78Quest2_HORDE_QuestID = "13109"
+Inst78Quest1_HORDE_QuestID = "29863"
+Inst78Quest2_HORDE_QuestID = "29861"
+Inst78Quest3_HORDE_QuestID = "29862"
+Inst78Quest4_HORDE_QuestID = "29860"
 
 
-AQ_13108_Level = "80"
-AQ_13109_Level = "80"
+AQ_29863_Level = "80"
+AQ_29861_Level = "80"
+AQ_29862_Level = "80"
+AQ_29860_Level = "80"
 
 
 
@@ -1617,32 +1623,36 @@ AQ_13129_Level = "74"
 
 --------------- INST81 - Gundrak ---------------
 
-Inst81Quest1_QuestID = "13098"
-Inst81Quest2_QuestID = "13096"
-Inst81Quest3_QuestID = "13111"
+Inst81Quest1_QuestID = "29844"
+Inst81Quest2_QuestID = "29834"
+Inst81Quest3_QuestID = "29839"
+Inst81Quest4_QuestID = "29836"
 
-Inst81Quest1_HORDE_QuestID = "13098"
-Inst81Quest2_HORDE_QuestID = "13096"
-Inst81Quest3_HORDE_QuestID = "13111"
+Inst81Quest1_HORDE_QuestID = "29844"
+Inst81Quest2_HORDE_QuestID = "29834"
+Inst81Quest3_HORDE_QuestID = "29839"
+Inst81Quest3_HORDE_QuestID = "29836"
 
 
-AQ_13098_Level = "78"
-AQ_13096_Level = "78"
-AQ_13111_Level = "78"
+AQ_29844_Level = "78"
+AQ_29834_Level = "78"
+AQ_29839_Level = "78"
+AQ_29836_Level = "78"
 
 
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Quest1_QuestID = "13158"
-Inst82Quest2_QuestID = "13159"
-
-Inst82Quest1_HORDE_QuestID = "13158"
-Inst82Quest2_HORDE_QuestID = "13159"
+Inst82Quest1_QuestID = "29860"
+Inst82Quest2_QuestID = "29861"
 
 
-AQ_13158_Level = "77"
-AQ_13159_Level = "77"
+Inst82Quest1_HORDE_QuestID = "29829"
+Inst82Quest2_HORDE_QuestID = "29830"
+
+
+AQ_29860_Level = "77"
+AQ_29861_Level = "77"
 
 
 
