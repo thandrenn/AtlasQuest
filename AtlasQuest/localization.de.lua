@@ -4649,8 +4649,8 @@ Inst37Story = {
   ["MaxPages"] = "2",
 };
 Inst37Caption = "HZ: Höllenfeuerbollwerk"
-Inst37QAA = "3 Quests"
-Inst37QAH = "3 Quests"
+Inst37QAA = "5 Quests"
+Inst37QAH = "5 Quests"
 Inst37General = {
     {
     "Wachhabender Gargolmar",
@@ -4672,42 +4672,62 @@ Inst37General = {
 };
 
 --Quest 1 Alliance
-Inst37Quest1 = "1. Die Bollwerke schwächen"
+Inst37Quest1 = "1. Die Eroberung der Zitadelle"
 Inst37Quest1_Level = "62"
 Inst37Quest1_Attain = "59"
-Inst37Quest1_Aim = "Tötet den Wachhabenden Gargolmar, Omor den Narbenlosen und Nazan, den Drachen. Bringt Gargolmars Hand, Omors Huf und Nazans Kopf zu Gunny in der Ehrenfeste auf der Höllenfeuerhalbinsel."
-Inst37Quest1_Location = "Leutnant Chadwick (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,66"..WHITE..")"
-Inst37Quest1_Note = "Gargolmar befindet sich bei "..YELLOW.."[1]"..WHITE..", Omor ist bei "..YELLOW.."[2]"..WHITE..", und Nazan ist bei "..YELLOW.."[3]"..WHITE..". Gunny befindet sich bei (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."56,67"..WHITE.."). \n\nUm diese Quest zu erhalten, muss Schwarze Magie absolviert sein, welche mit Den Feind kennen von Truppenkommandant Danath Trollbann (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,67"..WHITE..") startet."
-Inst37Quest1_Prequest = "Ja, Den Feind kennen -> Schwarze Magie"
-Inst37Quest1_Folgequest = "Ja, Im Herzen des Hasses"
-Inst37Quest1FQuest = "true"
---
-Inst37Quest1name1 = "Handschützer der Präzision"
-Inst37Quest1name2 = "Jadeschulterstücke des Kriegers"
-Inst37Quest1name3 = "Mantelung der Magiemacht"
-Inst37Quest1name4 = "Stiefel des sicheren Schritts"
+Inst37Quest1_Aim = "Sprecht mit Vorhutsspäher Chadwick im Höllenfeuerbollwerk."
+Inst37Quest1_Location = "Unteroffizier Altumus (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."61.6,60.8"..WHITE..")"
+Inst37Quest1_Note = "Vorhutsspäher Chadwick befindet bei (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")"
+Inst37Quest1_Prequest = "Nein"
+Inst37Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst37Quest2 = "2. Düstere Neuigkeiten"
+Inst37Quest2 = "2. Trefft sie, wo es schmerzt"
 Inst37Quest2_Level = "62"
 Inst37Quest2_Attain = "59"
-Inst37Quest2_Aim = "Bringt den unheilvollen Brief zu Truppenkommandant Danath Trollbann in der Ehrenfeste auf der Höllenfeuerhalbinsel."
-Inst37Quest2_Location = "Unheilvoller Brief (droppt von Vazruden dem Herold; "..YELLOW.."[3]"..WHITE..")"
-Inst37Quest2_Note = "Truppenkommandant Danath Trollbann findet man bei "..YELLOW.."57,67"..WHITE.." in der Ehrenfeste."
+Inst37Quest2_Aim = "Stehlt 3 Stapel Vorräte der Höllenfeuerhalbinsel und kehrt zu Vorhutsspäher Chadwick im Höllenfeuerbollwerk zurück."
+Inst37Quest2_Location = "Vorhutsspäher Chadwick (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")"
+Inst37Quest2_Note = "Die Vorräte befinden sich alle bei "..YELLOW.."[1]"..WHITE.." auf den Weg verteilt."
 Inst37Quest2_Prequest = "Nein"
-Inst37Quest2_Folgequest = "Ja, Blut bedeutet Leben ("..YELLOW.."HZ: Der Blutkessel"..WHITE..")"
-Inst37Quest2FQuest = "true"
+Inst37Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst37Quest3 = "3. Gesucht: Nazans Reitgerte (Heroisches Tagesquest)"
-Inst37Quest3_Level = "70"
-Inst37Quest3_Attain = "70"
-Inst37Quest3_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Nazans Reitgerte zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst37Quest3_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst37Quest3_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNazan findet man bei "..YELLOW.."[3]"..WHITE.."."
+Inst37Quest3 = "3. Dämonen in der Zitadelle"
+Inst37Quest3_Level = "62"
+Inst37Quest3_Attain = "59"
+Inst37Quest3_Aim = "Tötet Omor den Narbenlosen und bringt seinen Huf zu Vorhutsspäher Chadwick."
+Inst37Quest3_Location = "Vorhutsspäher Chadwick (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")"
+Inst37Quest3_Note = "Omor befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst37Quest3_Prequest = "Nein"
 Inst37Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst37Quest4 = "4. Krieg im Bollwerk"
+Inst37Quest4_Level = "62"
+Inst37Quest4_Attain = "59"
+Inst37Quest4_Aim = "Tötet Wachhabenden Gargolmar, Vazruden den Herold und Vazrudens Drachen Nazan. Bringt Gargolmars Hand und Nazans Kopf zu Vorhutsspäher Chadwick."
+Inst37Quest4_Location = "Vorhutsspäher Chadwick (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")"
+Inst37Quest4_Note = "Wachhabenden Gargolmar befindet sich bei "..YELLOW.."[1]"..WHITE.." und Vazruden den Herold und Vazrudens Drachen Nazan befinden sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst37Quest4_Prequest = "Nein"
+Inst37Quest4_Folgequest = "Nein"
+--
+Inst37Quest4name1 = "Handschützer der Präzision"
+Inst37Quest4name2 = "Mantelung der Magiemacht"
+Inst37Quest4name3 = "Jadeschulterstücke des Kriegers"
+Inst37Quest4name4 = "Stiefel des sicheren Schritts"
+
+--Quest 5 Alliance
+Inst37Quest5 = "5. Gesucht: Nazans Reitgerte (Heroisches Tagesquest)"
+Inst37Quest5_Level = "70"
+Inst37Quest5_Attain = "70"
+Inst37Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Nazans Reitgerte zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst37Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst37Quest5_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNazan findet man bei "..YELLOW.."[3]"..WHITE.."."
+Inst37Quest5_Prequest = "Nein"
+Inst37Quest5_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -4716,39 +4736,59 @@ Inst37Quest3_Folgequest = "Nein"
 Inst37Quest1_HORDE = Inst37Quest1
 Inst37Quest1_HORDE_Level = "62"
 Inst37Quest1_HORDE_Attain = "59"
-Inst37Quest1_HORDE_Aim = "Tötet den Wachhabenden Gargolmar, Omor den Narbenlosen und Nazan, den Drachen. Bringt Gargolmars Hand, Omors Huf und Nazans Kopf zu Caza'rez in Thrallmar auf der Höllenfeuerhalbinsel."
-Inst37Quest1_HORDE_Location = "Steinwache Stok'ton (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst37Quest1_HORDE_Note = "Gargolmar befindet sich bei "..YELLOW.."[1]"..WHITE..", Omor befindet sich bei "..YELLOW.."[2]"..WHITE..", und Nazan befindet sich bei "..YELLOW.."[3]"..WHITE..". Caza'rez befindet sich bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE.."). \n\nUm diese Quest zu erhalten, muss Vorposten: Häschersturz absolviert sein, welche mit Durch das Dunkle Portal startet in den verwüsteten Landen startet."
-Inst37Quest1_HORDE_Prequest = "Ja, Durch das Dunkle Portal -> Vorposten: Häschersturz"
-Inst37Quest1_HORDE_Folgequest = Inst37Quest1_Folgequest
-Inst37Quest1FQuest_HORDE = "true"
---
-Inst37Quest1name1_HORDE = Inst37Quest1name1
-Inst37Quest1name2_HORDE = Inst37Quest1name2
-Inst37Quest1name3_HORDE = Inst37Quest1name3
-Inst37Quest1name4_HORDE = Inst37Quest1name4
+Inst37Quest1_HORDE_Aim = "Sprecht mit Steingardist Stok'ton im Höllenfeuerbollwerk."
+Inst37Quest1_HORDE_Location = "Unteroffizier Schädelbrecher (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."58.0,41.2"..WHITE..")"
+Inst37Quest1_HORDE_Note = "Steingardist Stok'ton befindet bei (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")"
+Inst37Quest1_HORDE_Prequest = "Nein"
+Inst37Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst37Quest2_HORDE = Inst37Quest2
 Inst37Quest2_HORDE_Level = "62"
 Inst37Quest2_HORDE_Attain = "59"
-Inst37Quest2_HORDE_Aim = "Bringt den unheilvollen Brief zu Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
-Inst37Quest2_HORDE_Location = Inst37Quest2_Location
-Inst37Quest2_HORDE_Note = "Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.." in Thrallmar."
+Inst37Quest2_HORDE_Aim = "Stehlt 3 Stapel Vorräte der Höllenfeuerhalbinsel und kehrt zu Steingardist Stok'ton im Höllenfeuerbollwerk zurück."
+Inst37Quest2_HORDE_Location = "Steingardist Stok'ton (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")"
+Inst37Quest2_HORDE_Note = Inst37Quest2_Note
 Inst37Quest2_HORDE_Prequest = "Nein"
-Inst37Quest2_HORDE_Folgequest = Inst37Quest2_Folgequest
-Inst37Quest2FQuest_HORDE = "true"
+Inst37Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Horde
 Inst37Quest3_HORDE = Inst37Quest3
-Inst37Quest3_HORDE_Level = "70"
-Inst37Quest3_HORDE_Attain = "70"
-Inst37Quest3_HORDE_Aim = Inst37Quest3_Aim
-Inst37Quest3_HORDE_Location = Inst37Quest3_Location
+Inst37Quest3_HORDE_Level = "62"
+Inst37Quest3_HORDE_Attain = "59"
+Inst37Quest3_HORDE_Aim = "Tötet Omor den Narbenlosen und bringt seinen Huf zu Steingardist Stok'ton."
+Inst37Quest3_HORDE_Location = "Steingardist Stok'ton (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")"
 Inst37Quest3_HORDE_Note = Inst37Quest3_Note
 Inst37Quest3_HORDE_Prequest = "Nein"
 Inst37Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst37Quest4_HORDE = Inst37Quest4
+Inst37Quest4_HORDE_Level = "62"
+Inst37Quest4_HORDE_Attain = "59"
+Inst37Quest4_HORDE_Aim = "Tötet Wachhabenden Gargolmar, Vazruden den Herold und Vazrudens Drachen Nazan. Bringt Gargolmars Hand und Nazans Kopf zu Steingardist Stok'ton."
+Inst37Quest4_HORDE_Location = "Steingardist Stok'ton (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")"
+Inst37Quest4_HORDE_Note = Inst37Quest4_Note
+Inst37Quest4_HORDE_Prequest = "Nein"
+Inst37Quest4_HORDE_Folgequest = "Nein"
+--
+Inst37Quest4name1_HORDE = Inst37Quest4name1
+Inst37Quest4name2_HORDE = Inst37Quest4name2
+Inst37Quest4name3_HORDE = Inst37Quest4name3
+Inst37Quest4name4_HORDE = Inst37Quest4name4
+
+--Quest 5 Horde
+Inst37Quest5_HORDE = Inst37Quest5
+Inst37Quest5_HORDE_Level = "70"
+Inst37Quest5_HORDE_Attain = "70"
+Inst37Quest5_HORDE_Aim = Inst37Quest5_Aim
+Inst37Quest5_HORDE_Location = Inst37Quest5_Location
+Inst37Quest5_HORDE_Note = Inst37Quest5_Note
+Inst37Quest5_HORDE_Prequest = "Nein"
+Inst37Quest5_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -9062,7 +9102,7 @@ Inst81Quest1_Level = "78"
 Inst81Quest1_Attain = "74"
 Inst81Quest1_Aim = "Tol'mar in Gundrak möchte, dass Ihr 6 Geschichtstafeln der Drakkari sammelt."
 Inst81Quest1_Location = "Tol'mar (Gundrak; "..BLUE.."Eingang"..WHITE..")"
-Inst81Quest1_Note = "Die Geschichtstafeln sind überall in der Instant verteilt. Es sind genug vorhanden um damit eine komplette Gruppe diese Quest beenden kann. Die Vorquest ist optional."
+Inst81Quest1_Note = "Die Geschichtstafeln sind überall in der Instant verteilt. Es sind genug vorhanden um damit eine komplette Gruppe diese Quest beenden kann."
 Inst81Quest1_Prequest = "Nein"
 Inst81Quest1_Folgequest = "Nein"
 --
@@ -9108,7 +9148,7 @@ Inst81Quest4_Level = "78"
 Inst81Quest4_Attain = "74"
 Inst81Quest4_Aim = "To'kini möchte, dass Ihr mit Chronistin Bah'kini in Gundrak spricht."
 Inst81Quest4_Location = "Chronist To'kini (Zul Drak - Zim'Torga "..YELLOW.."16.6, 48.1"..WHITE..")"
-Inst81Quest4_Note = "Chronistin Bah'kini befindet sich bei (Gundrak; "..BLUE.."Ausgang"..WHITE..")"
+Inst81Quest4_Note = "Chronistin Bah'kini befindet sich bei "..BLUE.."Ausgang"..WHITE.."."
 Inst81Quest4_Prequest = "Nein"
 Inst81Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
