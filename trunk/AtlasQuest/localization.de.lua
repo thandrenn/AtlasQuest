@@ -4715,8 +4715,8 @@ Inst37Quest4_Prequest = "Nein"
 Inst37Quest4_Folgequest = "Nein"
 --
 Inst37Quest4name1 = "Handschützer der Präzision"
-Inst37Quest4name2 = "Mantelung der Magiemacht"
-Inst37Quest4name3 = "Jadeschulterstücke des Kriegers"
+Inst37Quest4name2 = "Jadeschulterstücke des Kriegers"
+Inst37Quest4name3 = "Mantelung der Magiemacht"
 Inst37Quest4name4 = "Stiefel des sicheren Schritts"
 
 --Quest 5 Alliance
@@ -4802,8 +4802,8 @@ Inst38Story = {
   ["MaxPages"] = "2",
 };
 Inst38Caption = "HZ: Der Blutkessel"
-Inst38QAA = "3 Quests"
-Inst38QAH = "3 Quests"
+Inst38QAA = "4 Quests"
+Inst38QAH = "4 Quests"
 Inst38General = {
     {
     "Der Schöpfer",
@@ -4825,45 +4825,54 @@ Inst38General = {
 };
 
 --Quest 1 Alliance
-Inst38Quest1 = "1. Blut bedeutet Leben"
+Inst38Quest1 = "1. Lasst sie bluten!"
 Inst38Quest1_Level = "63"
 Inst38Quest1_Attain = "59"
-Inst38Quest1_Aim = "Sammelt 10 Phiolen mit Höllenorcblut und bringt sie zu Gunny in der Ehrenfeste auf der Höllenfeuerhalbinsel."
-Inst38Quest1_Location = "Gunny (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."56,67"..WHITE..")"
-Inst38Quest1_Note = "Alle Orks im Blutkessel können die Phiolen droppen."
-Inst38Quest1_Prequest = "Ja, Düstere Neuigkeiten ("..YELLOW.."HZ: Höllenfeuerbollwerk"..WHITE..")"
+Inst38Quest1_Aim = "Beschafft 10 Phiolen mit Höllenorcblut und eine Teufelsinjektionsspritze für Gunny."
+Inst38Quest1_Location = "Gunny (Blutkessel; "..BLUE.."Eingang"..WHITE..")"
+Inst38Quest1_Note = "Alle Orks im Blutkessel können die Phiolen droppen die Spritze dropp von Schöpfer bei "..YELLOW.."[1]"..WHITE.."."
+Inst38Quest1_Prequest = "Nein"
 Inst38Quest1_Folgequest = "Nein"
-Inst38Quest1PreQuest = "true"
---
-Inst38Quest1name1 = "Brustplatte der Vergeltung"
-Inst38Quest1name2 = "Gamaschen des Todestunnlers"
-Inst38Quest1name3 = "Mondkinkopfputz"
-Inst38Quest1name4 = "Schuppenbeinlinge der Zerstörung"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst38Quest2 = "2. Im Herzen des Hasses"
+Inst38Quest2 = "2. Herz des Zorns"
 Inst38Quest2_Level = "63"
 Inst38Quest2_Attain = "59"
-Inst38Quest2_Aim = "Untersucht das gesamte Areal des Blutkessels und meldet Euch anschließend bei Truppenkommandant Danath Trollbann in der Ehrenfeste auf der Höllenfeuerhalbinsel."
-Inst38Quest2_Location = "Gunny (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."56,67"..WHITE..")."
-Inst38Quest2_Note = "Die Quest schließt ab, wenn man den Raum mit dem Endboss betrifft. Truppenkommandant Danath Trollbann befindet sich bei "..YELLOW.."57,67"..WHITE.." in der Ehrenfeste."
-Inst38Quest2_Prequest = "Ja, Die Bollwerke schwächen ("..YELLOW.."HZ: Höllenfeuerbollwerk"..WHITE..")"
+Inst38Quest2_Aim = "Untersucht den Blutkessel vollständig und meldet Euch wieder bei Gunny."
+Inst38Quest2_Location = "Gunny Gunny (Blutkessel; "..BLUE.."Eingang"..WHITE..")"
+Inst38Quest2_Note = "Diese Quest wird beendet wenn du den Raum vom Endboss betretest."
+Inst38Quest2_Prequest = "Nein"
 Inst38Quest2_Folgequest = "Nein"
-Inst38Quest2PreQuest = "true"
 --
 Inst38Quest2name1 = "Purpurroter Anhänger der Klarsicht"
 Inst38Quest2name2 = "Heiliges Band der Heilung"
 Inst38Quest2name3 = "Perfekt ausbalanciertes Cape"
 
 --Quest 3 Alliance
-Inst38Quest3 = "3. Gesucht: Keli'dans gefiederter Stab (Heroisches Tagesquest)"
-Inst38Quest3_Level = "70"
-Inst38Quest3_Attain = "70"
-Inst38Quest3_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Keli'dans gefiederten Stab zu beschaffen. Bringt ihn zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst38Quest3_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst38Quest3_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKeli'dan der Zerstörer befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst38Quest3 = "3. Der Zerstörer"
+Inst38Quest3_Level = "63"
+Inst38Quest3_Attain = "59"
+Inst38Quest3_Aim = "Tötet Keli'dan den Zerstörer und kehrt zu Gunny zurück."
+Inst38Quest3_Location = "Gunny (Blutkessel; "..BLUE.."Eingang"..WHITE..")"
+Inst38Quest3_Note = "Keli'dan der Zerstörer befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst38Quest3_Prequest = "Nein"
 Inst38Quest3_Folgequest = "Nein"
+--
+Inst38Quest3name1 = "Brustplatte der Vergeltung"
+Inst38Quest3name2 = "Gamaschen des Todestunnlers"
+Inst38Quest3name3 = "Mondkinkopfputz"
+Inst38Quest3name4 = "Schuppenbeinlinge der Zerstörung"
+
+--Quest 4 Alliance
+Inst38Quest4 = "4. Gesucht: Keli'dans gefiederter Stab (Heroisches Tagesquest)"
+Inst38Quest4_Level = "70"
+Inst38Quest4_Attain = "70"
+Inst38Quest4_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Keli'dans gefiederten Stab zu beschaffen. Bringt ihn zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst38Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst38Quest4_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKeli'dan der Zerstörer befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst38Quest4_Prequest = "Nein"
+Inst38Quest4_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -4872,42 +4881,51 @@ Inst38Quest3_Folgequest = "Nein"
 Inst38Quest1_HORDE = Inst38Quest1
 Inst38Quest1_HORDE_Level = "63"
 Inst38Quest1_HORDE_Attain = "59"
-Inst38Quest1_HORDE_Aim = "Sammelt 10 Phiolen mit Höllenorcblut und bringt sie zu Zenturio Caza'rez in Thrallmar auf der Höllenfeuerhalbinsel."
-Inst38Quest1_HORDE_Location = "Caza'rez (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
+Inst38Quest1_HORDE_Aim = "Beschafft 10 Phiolen mit Höllenorcblut und eine Teufelsinjektionsspritze für Caza'rez."
+Inst38Quest1_HORDE_Location = "Caza'rez (Blutkessel; "..BLUE.."Eingang"..WHITE..")"
 Inst38Quest1_HORDE_Note = Inst38Quest1_Note
-Inst38Quest1_HORDE_Prequest = Inst38Quest1_Prequest
+Inst38Quest1_HORDE_Prequest = "Nein"
 Inst38Quest1_HORDE_Folgequest = "Nein"
-Inst38Quest1PreQuest_HORDE = "true"
---
-Inst38Quest1name1_HORDE = Inst38Quest1name1
-Inst38Quest1name2_HORDE = Inst38Quest1name2
-Inst38Quest1name3_HORDE = Inst38Quest1name3
-Inst38Quest1name4_HORDE = Inst38Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst38Quest2_HORDE = Inst38Quest2
 Inst38Quest2_HORDE_Level = "63"
 Inst38Quest2_HORDE_Attain = "59"
-Inst38Quest2_HORDE_Aim = "Untersucht das gesamte Areal des Blutkessels und meldet Euch anschließend bei Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
-Inst38Quest2_HORDE_Location = "Caza'rez (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
+Inst38Quest2_HORDE_Aim = "Untersucht den Blutkessel vollständig und meldet Euch wieder bei Caza'rez."
+Inst38Quest2_HORDE_Location = "Caza'rez (Blutkessel; "..BLUE.."Eingang"..WHITE..")"
 Inst38Quest2_HORDE_Note = "Die Quest schließt ab, wenn man den Raum mit dem Endboss betrifft. Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.." in Thrallmar."
-Inst38Quest2_HORDE_Prequest = Inst38Quest2_Prequest
+Inst38Quest2_HORDE_Prequest = "Nein"
 Inst38Quest2_HORDE_Folgequest = "Nein"
-Inst38Quest2PreQuest_HORDE = "true"
 --
 Inst38Quest2name1_HORDE = Inst38Quest2name1
 Inst38Quest2name2_HORDE = Inst38Quest2name2
 Inst38Quest2name3_HORDE = Inst38Quest2name3
 
 --Quest 3 Horde
-Inst38Quest3_HORDE = Inst38Quest3
-Inst38Quest3_HORDE_Level = "70"
-Inst38Quest3_HORDE_Attain = "70"
-Inst38Quest3_HORDE_Aim = Inst38Quest3_Aim
-Inst38Quest3_HORDE_Location = Inst38Quest3_Location
+Inst38Quest3_HORDE = "3. Vorsicht, Lücke!"
+Inst38Quest3_HORDE_Level = "63"
+Inst38Quest3_HORDE_Attain = "59"
+Inst38Quest3_HORDE_Aim = "Tötet Keli'dan den Zerstörer und kehrt zu Caza'rez zurück."
+Inst38Quest3_HORDE_Location = "Caza'rez (Blutkessel; "..BLUE.."Eingang"..WHITE..")"
 Inst38Quest3_HORDE_Note = Inst38Quest3_Note
 Inst38Quest3_HORDE_Prequest = "Nein"
 Inst38Quest3_HORDE_Folgequest = "Nein"
+--
+Inst38Quest3name1_HORDE = Inst38Quest3name1
+Inst38Quest3name2_HORDE = Inst38Quest3name2
+Inst38Quest3name3_HORDE = Inst38Quest3name3
+Inst38Quest3name4_HORDE = Inst38Quest3name4
+
+--Quest 4 Horde
+Inst38Quest4_HORDE = Inst38Quest4
+Inst38Quest4_HORDE_Level = "70"
+Inst38Quest4_HORDE_Attain = "70"
+Inst38Quest4_HORDE_Aim = Inst38Quest4_Aim
+Inst38Quest4_HORDE_Location = Inst38Quest4_Location
+Inst38Quest4_HORDE_Note = Inst38Quest4_Note
+Inst38Quest4_HORDE_Prequest = "Nein"
+Inst38Quest4_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 

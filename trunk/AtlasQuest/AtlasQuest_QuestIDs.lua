@@ -887,24 +887,26 @@ AQ_29527_Level = "62"
 
 
 
-
 --------------- INST38 - HFC: Blood Furnace (BF) ---------------
 
-Inst38Quest1_QuestID = "9589"
-Inst38Quest2_QuestID = "9607"
-Inst38Quest3_QuestID = "11362"
+Inst38Quest1_QuestID = "29538"
+Inst38Quest2_QuestID = "29539"
+Inst38Quest3_QuestID = "29540"
+Inst38Quest4_QuestID = "11362"
 
-Inst38Quest1_HORDE_QuestID = "9590"
-Inst38Quest2_HORDE_QuestID = "9608"
-Inst38Quest3_HORDE_QuestID = "11362"
+Inst38Quest1_HORDE_QuestID = "29535"
+Inst38Quest2_HORDE_QuestID = "29536"
+Inst38Quest3_HORDE_QuestID = "29537"
+Inst38Quest4_HORDE_QuestID = "11362"
 
 
-AQ_9589_Level = "63"
-AQ_9607_Level = "63"
+AQ_29538_Level = "63"
+AQ_29539_Level = "63"
+AQ_29540_Level = "63"
 AQ_11362_Level = "70"
-AQ_9590_Level = "63"
-AQ_9608_Level = "63"
-
+AQ_29535_Level = "63"
+AQ_29536_Level = "63"
+AQ_29537_Level = "63"
 
 
 --------------- INST39 - HFC: Shattered Halls (SH) ---------------
