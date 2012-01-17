@@ -4939,42 +4939,42 @@ Inst39Story = {
   ["MaxPages"] = "2",
 };
 Inst39Caption = "HZ: Die zerschmetterten Hallen"
-Inst39QAA = "10 Quests"
+Inst39QAA = "9 Quests"
 Inst39QAH = "9 Quests"
 
 --Quest 1 Alliance
-Inst39Quest1 = "1. Teufelsglut"
+Inst39Quest1 = "1. Fortführung der Kampagne"
 Inst39Quest1_Level = "70"
-Inst39Quest1_Attain = "67"
-Inst39Quest1_Aim = "Magus Zabraxis in der Ehrenfeste möchte, dass Ihr ihr ein Stück Teufelsglut bringt."
-Inst39Quest1_Location = "Magus Zabraxis (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."54,66"..WHITE..")"
-Inst39Quest1_Note = "Nachdem Großhexenmeister Nethekurse bei "..YELLOW.."[1]"..WHITE.." getötet wurde, droppt er ein Amulett. Das Amulett muss bei einer der Kohlenpfannen in der Nähe seines Throns benutzt werden, um die Teufelsglut zu erhalten."
+Inst39Quest1_Attain = "66"
+Inst39Quest1_Aim = "Truppenkommandant Danath Trollbann hat Euch gebeten, mit Vorhutsspäher Chadwick in den Zerschmetterten Hallen der Höllenfeuerzitadelle zu sprechen."
+Inst39Quest1_Location = "Truppenkommandant Danath Trollbann (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."56.6,66.6"..WHITE..")"
+Inst39Quest1_Note = "Vorhutsspäher Chadwick (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
 Inst39Quest1_Prequest = "Nein"
 Inst39Quest1_Folgequest = "Nein"
---
-Inst39Quest1name1 = "Stiefel des Kurat"
-Inst39Quest1name2 = "Gravierter Runengürtel"
-Inst39Quest1name3 = "Handschuhe der Bewahrung"
-Inst39Quest1name4 = "Späherschulterklappen der Expedition"
-Inst39Quest1name5 = "Unerschrockene Handschützer"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst39Quest2 = "2. Der Stolz der Höllenhorde"
+Inst39Quest2 = "2. Wie man ein Leben rettet"
 Inst39Quest2_Level = "70"
 Inst39Quest2_Attain = "66"
-Inst39Quest2_Aim = "Feldkommandant Romus in der Ehrenfeste möchte, dass Ihr 8 Legionäre der Zerschmetterten Hand, 4 Zenturios der Zerschmetterten Hand und 4 Champions der Zerschmetterten Hand tötet."
-Inst39Quest2_Location = "Feldkommandant Romus (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,63"..WHITE..")"
-Inst39Quest2_Note = "Die Zenturios sind in der Trainingshalle zu finden."
+Inst39Quest2_Aim = "Vorhutsspäher Chadwick in den Zerschmetterten Hallen der Höllenfeuerzitadelle möchte, dass Ihr ihm Teufelsglut bringt."
+Inst39Quest2_Location = "Vorhutsspäher Chadwick (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
+Inst39Quest2_Note = "Nachdem Großhexenmeister Nethekurse bei "..YELLOW.."[1]"..WHITE.." getötet wurde, droppt er ein Amulett. Das Amulett muss bei einer der Kohlenpfannen in der Nähe seines Throns benutzt werden, um die Teufelsglut zu erhalten."
 Inst39Quest2_Prequest = "Nein"
 Inst39Quest2_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst39Quest2name1 = "Stiefel des Kurat"
+Inst39Quest2name2 = "Gravierter Runengürtel"
+Inst39Quest2name3 = "Handschuhe der Bewahrung"
+Inst39Quest2name4 = "Späherschulterklappen der Expedition"
+Inst39Quest2name5 = "Unerschrockene Handschützer"
 
 --Quest 3 Alliance
 Inst39Quest3 = "3. Das Schicksal wenden"
 Inst39Quest3_Level = "70"
-Inst39Quest3_Attain = "67"
-Inst39Quest3_Aim = "Bringt Kriegshäuptling Kargaths Faust zu Truppenkommandant Danath Trollbann in der Ehrenfeste."
-Inst39Quest3_Location = "Truppenkommandant Danath Trollbann (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,67"..WHITE..")"
+Inst39Quest3_Attain = "66"
+Inst39Quest3_Aim = "Bringt Kriegshäuptling Kargaths Faust zu Vorhutsspäher Chadwick in den Zerschmetterten Hallen der Höllenfeuerzitadelle."
+Inst39Quest3_Location = "Vorhutsspäher Chadwick (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
 Inst39Quest3_Note = "Kriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst39Quest3_Prequest = "Nein"
 Inst39Quest3_Folgequest = "Nein"
@@ -4985,12 +4985,12 @@ Inst39Quest3name3 = "Nalikos Rache"
 Inst39Quest3name4 = "Medaillon des tapferen Wächters"
 
 --Quest 4 Alliance
-Inst39Quest4 = "4. Gefangene der Zitadelle (Heroisch)"
+Inst39Quest4 = "4. O'mroggs Kriegstuch"
 Inst39Quest4_Level = "70"
-Inst39Quest4_Attain = "70"
-Inst39Quest4_Aim = "Rettet Hauptmann Alina aus der Höllenfeuerzitadelle, bevor sie hingerichtet wird."
-Inst39Quest4_Location = "Randy Sauseritzel (Die zerschmetterten Hallen; "..GREEN.."Heroisch [1']"..WHITE..")"
-Inst39Quest4_Note = "Um diese Aufgabe zu beenden, müsst Ihr den Dungeon auf dem Schwierigkeitsgrad 'Heroisch' betreten.\n\nHauptmann Alina befindet sich bei "..YELLOW.."[4]"..WHITE..". Der Timer von 55 Minuten startet am Anfang des Bogenschützen-Events."
+Inst39Quest4_Attain = "66"
+Inst39Quest4_Aim = "Tötet Kriegshetzer O'mrogg und bringt sein Kriegstuch zu Vorhutsspäher Chadwick in den Zerschmetterten Hallen der Höllenfeuerzitadelle."
+Inst39Quest4_Location = "Vorhutsspäher Chadwick (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
+Inst39Quest4_Note = "Kriegshetzer O'mrogg befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst39Quest4_Prequest = "Nein"
 Inst39Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5000,7 +5000,7 @@ Inst39Quest5 = "5. Die Prüfung der Naaru: Erbarmen (Heroisch)"
 Inst39Quest5_Level = "70"
 Inst39Quest5_Attain = "70"
 Inst39Quest5_Aim = "A'dal in Shattrath möchte, dass Ihr die unbenutzte Axt des Henkers aus den zerschmetterten Hallen der Höllenfeuerzitadelle besorgt."
-Inst39Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst39Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.2,44.4"..WHITE..")"
 Inst39Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
 Inst39Quest5_Prequest = "Nein"
 Inst39Quest5_Folgequest = "Nein"
@@ -5011,7 +5011,7 @@ Inst39Quest6 = "6. Träne der Erdenmutter"
 Inst39Quest6_Level = "70"
 Inst39Quest6_Attain = "67"
 Inst39Quest6_Aim = "Besorgt die Träne der Erdenmutter von Kriegshetzer O'mrogg und bringt sie zu David Wayne in Waynes Zuflucht."
-Inst39Quest6_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
+Inst39Quest6_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."77.4,38.6"..WHITE..")."
 Inst39Quest6_Note = "Kriegshetzer O'mrogg befindet sich bei "..YELLOW.."[4]"..WHITE..".\n\nDer Gegenstand droppt im normalen und heroischen Modus."
 Inst39Quest6_Prequest = "Ja, Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Ja, Bann der Illidari"
@@ -5023,7 +5023,7 @@ Inst39Quest7 = "7. Kalynnas Bitte (Heroisch)"
 Inst39Quest7_Level = "70"
 Inst39Quest7_Attain = "70"
 Inst39Quest7_Aim = "Kalynna Lathred möchte, dass Ihr den Dämmerfolianten vom Großhexenmeister Nethekurse in den zerschmetterten Hallen der Höllenfeuerzitadelle und das Buch der vergessenen Namen von Dunkelwirker Syth in den Sethekkhallen in Auchindoun besorgt."
-Inst39Quest7_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
+Inst39Quest7_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32.2,63.6"..WHITE..")"
 Inst39Quest7_Note = "Ihr müsst diese Quest auf dem Schwierigkeitsgrad 'Heroisch' abschließen.\n\nGroßhexenmeister Nethekurse befindet sich bei "..YELLOW.."[4]"..WHITE..". Das Buch der vergessenen Namen droppt in den Sethekkhallen."
 Inst39Quest7_Prequest = "Ja, Hilfe unter Kollegen ("..YELLOW.."Karazhan"..WHITE..")"
 Inst39Quest7_Folgequest = "Ja, Schrecken der Nacht ("..YELLOW.."Karazhan"..WHITE..")"
@@ -5035,14 +5035,14 @@ Inst39Quest8 = "8. Gesucht: Messerfausts Siegel (Heroische Tagesquest)"
 Inst39Quest8_Level = "70"
 Inst39Quest8_Attain = "70"
 Inst39Quest8_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Messerfausts Siegel zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst39Quest8_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst39Quest8_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75,37"..WHITE..")"
 Inst39Quest8_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst39Quest8_Prequest = "Nein"
 Inst39Quest8_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 9 Alliance
+--Quest9 Alliance
 Inst39Quest9 = "9. Gesucht: Zenturionen der Zerschmetterten Hand (Tagesquest)"
 Inst39Quest9_Level = "70"
 Inst39Quest9_Attain = "70"
@@ -5054,129 +5054,118 @@ Inst39Quest9_Folgequest = "Nein"
 --
 Inst39Quest9name1 = "Gefängnisschlüssel des Astraleums"
 
---Quest 10 Alliance
-Inst39Quest10 = "10. Zugang zur Zitadelle"
-Inst39Quest10_Level = "70"
-Inst39Quest10_Attain = "68"
-Inst39Quest10_Aim = "Bringt die präparierte Schlüsselform zu Truppenkommandant Danath in der Ehrenfeste auf der Höllenfeuerhalbinsel."
-Inst39Quest10_Location = "Präparierte Schlüsselform (droppt von Schmied Gorlunk im Schattenmondtal - Terrasse von Ata'mal; "..YELLOW.."68,36"..WHITE..")"
-Inst39Quest10_Note = "Der Schmied, der die Präparierte Schlüsselform droppt ist leicht mit einem Flugtier zu erreichen und es ist nicht schwierig ihn alleine zu töten.\n\nTruppenkommandant Danath befindet sich bei (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."57,67"..WHITE.."). Er schickt euch zu Großmeister Dumphry bei (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."51,60"..WHITE..") für den nächsten Teil des Quests..."
-Inst39Quest10_Page = {2, "Großmeister Dumphry will 4 x [Teufelseisenbarren], 2 x [Arkaner Staub] and 4 x [Feuerpartikel] von euch.\n\nNachdem ihr die Materialien abgegeben habt müsst ihr die Verkohlte Schlüsselform, die er euch gibt, mit dem Körper eines toten Teufelshäscher benutzen. Ihr müsst den Teufelshäscher nicht selbst getötet haben, damit es funktioniert.\n\nKehrt zu Großmeister Dumphry bei (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."51,60"..WHITE..") zurück, um eure Belohnung abzuholen.", };
-Inst39Quest10_Prequest = "Nein"
-Inst39Quest10_Folgequest = "Ja, Großmeister Dumphry -> Heißer als die Hölle"
-Inst39Quest10FQuest = "true"
---
-Inst39Quest10name1 = "Schlüssel der zerschmetterten Hallen"
-
 
 --Quest 1 Horde
-Inst39Quest1_HORDE = Inst39Quest2
-Inst39Quest1_HORDE_Level = Inst39Quest2_Level
-Inst39Quest1_HORDE_Attain = Inst39Quest2_Attain
-Inst39Quest1_HORDE_Aim = "Schattenjäger Ty'jin in Thrallmar möchte, dass Ihr 8 Legionäre der Zerschmetterten Hand, 4 Zenturios der Zerschmetterten Hand und 4 Champions der Zerschmetterten Hand tötet."
-Inst39Quest1_HORDE_Location = "Schattenjäger Ty'jin (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst39Quest1_HORDE_Note = Inst39Quest2_Note
+Inst39Quest1_HORDE = Inst39Quest1
+Inst39Quest1_HORDE_Level = "70"
+Inst39Quest1_HORDE_Attain = "66"
+Inst39Quest1_HORDE_Aim = "Schattenjäger Ty'jin hat Euch gebeten, mit Steingardist Stok'ton in den Zerschmetterten Hallen der Höllenfeuerzitadelle zu sprechen."
+Inst39Quest1_HORDE_Location = "Schattenjäger Ty'jin (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36.2"..WHITE..")"
+Inst39Quest1_HORDE_Note = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
 Inst39Quest1_HORDE_Prequest = "Nein"
 Inst39Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst39Quest2_HORDE = "2. Der Wille des Kriegshäuptlings"
+Inst39Quest2_HORDE = "2. Teufelsglut"
 Inst39Quest2_HORDE_Level = "70"
-Inst39Quest2_HORDE_Attain = "67"
-Inst39Quest2_HORDE_Aim = "Bringt Kriegshäuptling Kargaths Faust zu Nazgrel in Thrallmar."
-Inst39Quest2_HORDE_Location = "Nazgrel (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst39Quest2_HORDE_Note = "Kriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst39Quest2_HORDE_Attain = "66"
+Inst39Quest2_HORDE_Aim = "Steingardist Stok'ton in den Zerschmetterten Hallen der Höllenfeuerzitadelle möchte, dass Ihr ihm Teufelsglut bringt."
+Inst39Quest2_HORDE_Location = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
+Inst39Quest2_HORDE_Note = Inst39Quest2_Note
 Inst39Quest2_HORDE_Prequest = "Nein"
 Inst39Quest2_HORDE_Folgequest = "Nein"
 --
-Inst39Quest2name1_HORDE = "Rute der finsteren Schatten"
-Inst39Quest2name2_HORDE = "Vikarsumhang"
-Inst39Quest2name3_HORDE = "Band des Eroberers"
-Inst39Quest2name4_HORDE = "Stümmelfausts Halsschmuck"
+Inst39Quest2name1_HORDE = Inst39Quest2name1
+Inst39Quest2name2_HORDE = Inst39Quest2name2
+Inst39Quest2name3_HORDE = Inst39Quest2name3
+Inst39Quest2name4_HORDE = Inst39Quest2name4
+Inst39Quest2name5_HORDE = Inst39Quest2name5
 
 --Quest 3 Horde
-Inst39Quest3_HORDE = Inst39Quest4
+Inst39Quest3_HORDE = "3. Der Wille des Kriegshäuptlings"
 Inst39Quest3_HORDE_Level = "70"
-Inst39Quest3_HORDE_Attain = "70"
-Inst39Quest3_HORDE_Aim = "Rettet Hauptmann Knochenbrecher aus der Höllenfeuerzitadelle, bevor er hingerichtet wird."
-Inst39Quest3_HORDE_Location = "Drisella (Die zerschmetterten Hallen; "..GREEN.."Heroisch [1']"..WHITE..")"
-Inst39Quest3_HORDE_Note = "Um diese Aufgabe zu beenden, müsst Ihr den Dungeon auf dem Schwierigkeitsgrad 'Heroisch' betreten.\n\nHauptmann Knochenbrecher befindet sich bei "..YELLOW.."[4]"..WHITE..". Der Timer von 55 Minuten startet am Anfang des Bogenschützen-Events."
+Inst39Quest3_HORDE_Attain = "66"
+Inst39Quest3_HORDE_Aim = "Bringt Kriegshäuptling Kargaths Faust zu Steingardist Stok'ton in den Zerschmetterten Hallen der Höllenfeuerzitadelle."
+Inst39Quest3_HORDE_Location = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
+Inst39Quest3_HORDE_Note = Inst39Quest3_Note
 Inst39Quest3_HORDE_Prequest = "Nein"
 Inst39Quest3_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst39Quest3name1_HORDE = Inst39Quest3name1
+Inst39Quest3name2_HORDE = Inst39Quest3name2
+Inst39Quest3name3_HORDE = Inst39Quest3name3
+Inst39Quest3name4_HORDE = Inst39Quest3name4
 
 --Quest 4 Horde
-Inst39Quest4_HORDE = Inst39Quest5
+Inst39Quest4_HORDE = "4. Ein ganz besonderes Tuch"
 Inst39Quest4_HORDE_Level = "70"
-Inst39Quest4_HORDE_Attain = "70"
-Inst39Quest4_HORDE_Aim = Inst39Quest5_Aim
-Inst39Quest4_HORDE_Location = Inst39Quest5_Location
-Inst39Quest4_HORDE_Note = Inst39Quest5_Note
+Inst39Quest4_HORDE_Attain = "66"
+Inst39Quest4_HORDE_Aim = "Tötet Kriegshetzer O'mrogg und bringt sein Kriegstuch zu Steingardist Stok'ton in den Zerschmetterten Hallen der Höllenfeuerzitadelle."
+Inst39Quest4_HORDE_Location = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
+Inst39Quest4_HORDE_Note = Inst39Quest4_Note
 Inst39Quest4_HORDE_Prequest = "Nein"
 Inst39Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Horde
-Inst39Quest5_HORDE = Inst39Quest6
+Inst39Quest5_HORDE = Inst39Quest5
 Inst39Quest5_HORDE_Level = "70"
-Inst39Quest5_HORDE_Attain = "67"
-Inst39Quest5_HORDE_Aim = Inst39Quest6_Aim
-Inst39Quest5_HORDE_Location = Inst39Quest6_Location
-Inst39Quest5_HORDE_Note = Inst39Quest6_Note
+Inst39Quest5_HORDE_Attain = "70"
+Inst39Quest5_HORDE_Aim = Inst39Quest5_Aim
+Inst39Quest5_HORDE_Location = Inst39Quest5_Location
+Inst39Quest5_HORDE_Note = Inst39Quest5_Note
 Inst39Quest5_HORDE_Prequest = "Nein"
 Inst39Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Horde
-Inst39Quest6_HORDE = Inst39Quest7
+Inst39Quest6_HORDE = Inst39Quest6
 Inst39Quest6_HORDE_Level = "70"
 Inst39Quest6_HORDE_Attain = "70"
-Inst39Quest6_HORDE_Aim = Inst39Quest7_Aim
-Inst39Quest6_HORDE_Location = Inst39Quest7_Location
-Inst39Quest6_HORDE_Note = Inst39Quest7_Note
-Inst39Quest6_HORDE_Prequest = Inst39Quest7_Prequest
-Inst39Quest6_HORDE_Folgequest = Inst39Quest7_Folgequest
+Inst39Quest6_HORDE_Aim = Inst39Quest6_Aim
+Inst39Quest6_HORDE_Location = Inst39Quest6_Location
+Inst39Quest6_HORDE_Note = Inst39Quest6_Note
+Inst39Quest6_HORDE_Prequest = Inst39Quest6_Prequest
+Inst39Quest6_HORDE_Folgequest = Inst39Quest6_Folgequest
 Inst39Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde
-Inst39Quest7_HORDE = Inst39Quest8
+Inst39Quest7_HORDE = Inst39Quest7
 Inst39Quest7_HORDE_Level = "70"
 Inst39Quest7_HORDE_Attain = "70"
-Inst39Quest7_HORDE_Aim = Inst39Quest8_Aim
-Inst39Quest7_HORDE_Location = Inst39Quest8_Location
-Inst39Quest7_HORDE_Note = Inst39Quest8_Note
-Inst39Quest7_HORDE_Prequest = "Nein"
-Inst39Quest7_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+Inst39Quest7_HORDE_Aim = Inst39Quest7_Aim
+Inst39Quest7_HORDE_Location = Inst39Quest7_Location
+Inst39Quest7_HORDE_Note = Inst39Quest7_Note
+Inst39Quest7_HORDE_Prequest = Inst39Quest7_Prequest
+Inst39Quest7_HORDE_Folgequest = Inst39Quest7_Folgequest
+Inst39Quest7FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 8 Horde
-Inst39Quest8_HORDE = Inst39Quest9
+Inst39Quest8_HORDE = Inst39Quest8
 Inst39Quest8_HORDE_Level = "70"
 Inst39Quest8_HORDE_Attain = "70"
-Inst39Quest8_HORDE_Aim = Inst39Quest9_Aim
-Inst39Quest8_HORDE_Location = Inst39Quest9_Location
-Inst39Quest8_HORDE_Note = Inst39Quest9_Note
+Inst39Quest8_HORDE_Aim = Inst39Quest8_Aim
+Inst39Quest8_HORDE_Location = Inst39Quest8_Location
+Inst39Quest8_HORDE_Note = Inst39Quest8_Note
 Inst39Quest8_HORDE_Prequest = "Nein"
 Inst39Quest8_HORDE_Folgequest = "Nein"
 --
-Inst39Quest8name1_HORDE = Inst39Quest9name1
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 9 Horde
-Inst39Quest9_HORDE = Inst39Quest10
+Inst39Quest9_HORDE = Inst39Quest9
 Inst39Quest9_HORDE_Level = "70"
-Inst39Quest9_HORDE_Attain = "68"
-Inst39Quest9_HORDE_Aim = "Bringt die präparierte Schlüsselform zu Truppenkommandant Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
-Inst39Quest9_HORDE_Location = "Präparierte Schlüsselform (droppt von Schmied Gorlunk im Schattenmondtal - Terrasse von Ata'mal; "..YELLOW.."68,36"..WHITE..")"
-Inst39Quest9_HORDE_Note = "Der Schmied, der die Präparierte Schlüsselform droppt ist leicht mit einem Flugtier zu erreichen und es ist nicht schwierig ihn alleine zu töten.\n\nNazgrel befindet sich bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36"..WHITE.."). Er schickt euch zu Großmeister Rohok bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."53,38"..WHITE..") für den nächsten Teil des Quests..."
-Inst39Quest9_HORDE_Page = {2, "Großmeister Rohok will 4 x [Teufelseisenbarren], 2 x [Arkaner Staub] and 4 x [Feuerpartikel] von euch.\n\nNachdem ihr die Materialien abgegeben habt müsst ihr die Verkohlte Schlüsselform, die er euch gibt, mit dem Körper eines toten Teufelshäscher benutzen. Ihr müsst den Teufelshäscher nicht selbst getötet haben, damit es funktioniert.\n\nKehrt zu Großmeister Rohok bei (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."53,38"..WHITE..") zurück, um eure Belohnung abzuholen.", };
+Inst39Quest9_HORDE_Attain = "70"
+Inst39Quest9_HORDE_Aim = Inst39Quest9_Aim
+Inst39Quest9_HORDE_Location = Inst39Quest9_Location
+Inst39Quest9_HORDE_Note = Inst39Quest9_Note
 Inst39Quest9_HORDE_Prequest = "Nein"
-Inst39Quest9_HORDE_Folgequest = "Ja, Großmeister Rohok -> Heißer als die Hölle"
-Inst39Quest9FQuest_HORDE = "true"
+Inst39Quest9_HORDE_Folgequest = "Nein"
 --
-Inst39Quest9name1_HORDE = "Schlüssel der zerschmetterten Hallen"
+Inst39Quest9name1_HORDE = Inst39Quest9name1
 
 
 
