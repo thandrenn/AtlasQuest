@@ -4939,8 +4939,8 @@ Inst39Story = {
   ["MaxPages"] = "2",
 };
 Inst39Caption = "HZ: Die zerschmetterten Hallen"
-Inst39QAA = "9 Quests"
-Inst39QAH = "9 Quests"
+Inst39QAA = "10 Quests"
+Inst39QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst39Quest1 = "1. Fortführung der Kampagne"
@@ -5053,6 +5053,17 @@ Inst39Quest9_Prequest = "Nein"
 Inst39Quest9_Folgequest = "Nein"
 --
 Inst39Quest9name1 = "Gefängnisschlüssel des Astraleums"
+
+--Quest 10 Alliance
+Inst39Quest10 = "10. Ein letzter Gefallen"
+Inst39Quest10_Level = "70"
+Inst39Quest10_Attain = "66"
+Inst39Quest10_Aim = "Gunny in den Zerschmetterten Hallen der Höllenfeuerzitadelle möchte, dass Ihr 4 Legionäre, 2 Zenturionen und 2 Champions der Zerschmetterten Hand tötet."
+Inst39Quest10_Location = "Vorhutsspäher Chadwick (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
+Inst39Quest10_Note = "Du findest die erforderlichen Mobs überall in den zerschmetterten Hallen dieser Instanz."
+Inst39Quest10_Prequest = "Nein"
+Inst39Quest10_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -5167,6 +5178,17 @@ Inst39Quest9_HORDE_Folgequest = "Nein"
 --
 Inst39Quest9name1_HORDE = Inst39Quest9name1
 
+--Quest 10 Horde
+Inst39Quest10_HORDE = "10. Ehrt die Sterbenden"
+Inst39Quest10_HORDE_Level = "70"
+Inst39Quest10_HORDE_Attain = "66"
+Inst39Quest10_HORDE_Aim = "Caza'rez in den Zerschmetterten Hallen der Höllenfeuerzitadelle möchte, dass Ihr 4 Legionäre der Zerschmetterten Hand, 2 Zenturionen der Zerschmetterten Hand und 2 Champions der Zerschmetterten Hand tötet."
+Inst39Quest10_HORDE_Location = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
+Inst39Quest10_HORDE_Note = Inst39Quest10_Note
+Inst39Quest10_HORDE_Prequest = "Nein"
+Inst39Quest10_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
@@ -5247,53 +5269,84 @@ Inst41QAA = "7 Quests"
 Inst41QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst41Quest1 = "1. Bei der Arbeit verschollen"
+Inst41Quest1 = "1. Die verlorene Expedition"
 Inst41Quest1_Level = "65"
 Inst41Quest1_Attain = "62"
-Inst41Quest1_Aim = "Findet heraus, was mit Erdbinder Rayge, Naturalist Biss, Jäter Gründaum und Windrufer Klaue geschehen ist. Kehrt dann zu Behüterin Jhang im Echsenkessel in den Zangarmarschen zurück."
-Inst41Quest1_Location = "Behüterin Jhang (Echsenkessel; "..YELLOW.."52,36"..WHITE..")"
-Inst41Quest1_Note = "Behüterin Jhang befindet sich in der Unterwasserhöhle am Versammlungsstein. Jäter Gründaum befindet sich bei "..GREEN.."[1']"..WHITE.." und Naturalist Biss bei "..GREEN.."[2']"..WHITE..". Das Quest wird im Tiefensumpf vortgeführt. Die Vorquests sind optional."
-Inst41Quest1_Prequest = "Ja, Kanalisationspläne -> Fehlgeschlagene Operation"
+Inst41Quest1_Aim = "Sprecht mit Behüterin Jhang in den Sklavenunterkünften."
+Inst41Quest1_Location = "Ysiel Windsänger (Zangamarschen - Zuflucht des Cenarius; "..YELLOW.."78.4,62"..WHITE..")"
+Inst41Quest1_Note = "Behüterin Jhang befindet sich innerhalb Instanz (Sklavenunterkünfte; "..BLUE.."Eingang"..WHITE..")."
+Inst41Quest1_Prequest = "Nein"
 Inst41Quest1_Folgequest = "Nein"
-Inst41Quest1PreQuest = "true"
---
-Inst41Quest1name1 = "Cenarischer Ring des Zauberwirkens"
-Inst41Quest1name2 = "Goldrankenwickeltücher"
-Inst41Quest1name3 = "Dunkler Umhang der Marschen"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst41Quest2 = "2. Gesucht: Das Herz von Quagmirran (Heroisches Tagesquest)"
-Inst41Quest2_Level = "70"
-Inst41Quest2_Attain = "70"
-Inst41Quest2_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm das Herz von Quagmirran zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst41Quest2_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst41Quest2_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nQuagmirran befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst41Quest2 = "2. Verschollen im Kampf"
+Inst41Quest2_Level = "65"
+Inst41Quest2_Attain = "62"
+Inst41Quest2_Aim = "Findet heraus, was Naturalist Biss und Jäter Gründaum zugestoßen ist. Kehrt dann zu Behüterin Jhang zurück."
+Inst41Quest2_Location = "Behüterin Jhang (Sklavenunterkünften; "..BLUE.."Eingang"..WHITE..")."
+Inst41Quest2_Note = "Naturalist Biss befindet sich bei "..GREEN.."[3']"..WHITE.." und Jäter Gründaum befindet sich bei"..GREEN.."[1']"..WHITE.."."
 Inst41Quest2_Prequest = "Nein"
 Inst41Quest2_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst41Quest3 = "3. Der Knüppel von Kar'desh (Heroisch)"
-Inst41Quest3_Level = "70"
-Inst41Quest3_Attain = "70"
-Inst41Quest3_Aim = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt."
-Inst41Quest3_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..GREEN.."Heroisch [2']"..WHITE..")"
-Inst41Quest3_Note = "Das Erdensiegel droppt von Gruul in "..YELLOW.."Gruuls Unterschlupf"..WHITE.." und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."Karazhan"..WHITE..".\n\nDiese Quest wurde benötigt, um die Höhle des Schlangenschreins zu betreten, ist aber nicht mehr nötig."
+Inst41Quest3 = "3. Der betrogene Bruder"
+Inst41Quest3_Level = "65"
+Inst41Quest3_Attain = "62"
+Inst41Quest3_Aim = "Tötet Mennu den Verräter und kehrt zu Nahuud zurück."
+Inst41Quest3_Location = "Behüterin Jhang (Sklavenunterkünften; "..BLUE.."Eingang"..WHITE..")."
+Inst41Quest3_Note = "Mennu der Verräter befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst41Quest3_Prequest = "Nein"
 Inst41Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst41Quest4 = "4. Splitter von Ahune (Saisonbedingt)"
-Inst41Quest4_Level = "85"
-Inst41Quest4_Attain = "85"
-Inst41Quest4_Aim = "Bringt die Eissplitter zu Luma Himmelsmutter."
-Inst41Quest4_Location = "Splitter von Ahune (befinden sich in der Eiskiste nachdem Ahune getötet wurde)"
-Inst41Quest4_Note = "Luma Himmelsmutter ist in der Nähe wo Du hingeportet wirst wenn du den Dungeonbrowser nutzt. Dieser Gegenstand droppt nur einmal pro Charakter."
-Inst41Quest4_Prequest = "Ja, Ungewöhnliche Aktivitäten -> Den Urahnen benachrichtigen"
+Inst41Quest4 = "4. Des Pudels Kern"
+Inst41Quest4_Level = "65"
+Inst41Quest4_Attain = "62"
+Inst41Quest4_Aim = "Bringt die Klaue des Eindringlings und das Auge des Sklaventreibers zu Behüterin Jhang."
+Inst41Quest4_Location = "Behüterin Jhang (Sklavenunterkünften; "..BLUE.."Eingang"..WHITE..")."
+Inst41Quest4_Note = "Rokmar der Zerquetscher befindet sich bei "..YELLOW.."[2]"..WHITE.." und Quagmirran befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst41Quest4_Prequest = "Nein"
 Inst41Quest4_Folgequest = "Nein"
-Inst41Quest4PreQuest = "true"
+--
+Inst41Quest4name1 = "Cenarischer Ring des Zauberwirkens"
+Inst41Quest4name2 = "Goldrankenwickeltücher"
+Inst41Quest4name3 = "Dunkler Umhang der Marschen"
+
+--Quest 5 Alliance
+Inst41Quest5 = "5. Gesucht: Das Herz von Quagmirran (Heroisches Tagesquest)"
+Inst41Quest5_Level = "70"
+Inst41Quest5_Attain = "70"
+Inst41Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm das Herz von Quagmirran zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst41Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75,37"..WHITE..")"
+Inst41Quest5_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nQuagmirran befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst41Quest5_Prequest = "Nein"
+Inst41Quest5_Folgequest = "Nein"
+--
+-- Preis Gerechtigkeitspunkte.
+
+--Quest 6 Alliance
+Inst41Quest6 = "6. Der Knüppel von Kar'desh (Heroisch)"
+Inst41Quest6_Level = "70"
+Inst41Quest6_Attain = "70"
+Inst41Quest6_Aim = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt."
+Inst41Quest6_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..GREEN.."Heroisch [2']"..WHITE..")"
+Inst41Quest6_Note = "Das Erdensiegel droppt von Gruul in "..YELLOW.."Gruuls Unterschlupf"..WHITE.." und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."Karazhan"..WHITE..".\n\nDiese Quest wurde benötigt, um die Höhle des Schlangenschreins zu betreten, ist aber nicht mehr nötig."
+Inst41Quest6_Prequest = "Nein"
+Inst41Quest6_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst41Quest7 = "7. Splitter von Ahune (Saisonbedingt)"
+Inst41Quest7_Level = "85"
+Inst41Quest7_Attain = "85"
+Inst41Quest7_Aim = "Bringt die Eissplitter zu Luma Himmelsmutter."
+Inst41Quest7_Location = "Splitter von Ahune (befinden sich in der Eiskiste nachdem Ahune getötet wurde)"
+Inst41Quest7_Note = "Luma Himmelsmutter ist in der Nähe wo Du hingeportet wirst wenn du den Dungeonbrowser nutzt. Dieser Gegenstand droppt nur einmal pro Charakter."
+Inst41Quest7_Prequest = "Nein"
+Inst41Quest7_Folgequest = "Nein"
 --
 Inst41Quest7name1 = "Wappenrock der sommerlichen Himmel"
 Inst41Quest7name2 = "Wappenrock der Sommerflammen"
@@ -5307,30 +5360,25 @@ Inst41Quest1_HORDE_Attain = "62"
 Inst41Quest1_HORDE_Aim = Inst41Quest1_Aim
 Inst41Quest1_HORDE_Location = Inst41Quest1_Location
 Inst41Quest1_HORDE_Note = Inst41Quest1_Note
-Inst41Quest1_HORDE_Prequest = Inst41Quest1_Prequest
+Inst41Quest1_HORDE_Prequest = "Nein"
 Inst41Quest1_HORDE_Folgequest = "Nein"
-Inst41Quest1PreQuest_HORDE = "true"
---
-Inst41Quest1name1_HORDE = Inst41Quest1name1
-Inst41Quest1name2_HORDE = Inst41Quest1name2
-Inst41Quest1name3_HORDE = Inst41Quest1name3
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst41Quest2_HORDE = Inst41Quest2
-Inst41Quest2_HORDE_Level = "70"
-Inst41Quest2_HORDE_Attain = "70"
+Inst41Quest2_HORDE_Level = "65"
+Inst41Quest2_HORDE_Attain = "62"
 Inst41Quest2_HORDE_Aim = Inst41Quest2_Aim
 Inst41Quest2_HORDE_Location = Inst41Quest2_Location
 Inst41Quest2_HORDE_Note = Inst41Quest2_Note
 Inst41Quest2_HORDE_Prequest = "Nein"
 Inst41Quest2_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst41Quest3_HORDE = Inst41Quest3
-Inst41Quest3_HORDE_Level = "70"
-Inst41Quest3_HORDE_Attain = "70"
+Inst41Quest3_HORDE_Level = "65"
+Inst41Quest3_HORDE_Attain = "62"
 Inst41Quest3_HORDE_Aim = Inst41Quest3_Aim
 Inst41Quest3_HORDE_Location = Inst41Quest3_Location
 Inst41Quest3_HORDE_Note = Inst41Quest3_Note
@@ -5340,14 +5388,50 @@ Inst41Quest3_HORDE_Folgequest = "Nein"
 
 --Quest 4 Horde
 Inst41Quest4_HORDE = Inst41Quest4
-Inst41Quest4_HORDE_Level = "85"
-Inst41Quest4_HORDE_Attain = "85"
+Inst41Quest4_HORDE_Level = "65"
+Inst41Quest4_HORDE_Attain = "62"
 Inst41Quest4_HORDE_Aim = Inst41Quest4_Aim
 Inst41Quest4_HORDE_Location = Inst41Quest4_Location
 Inst41Quest4_HORDE_Note = Inst41Quest4_Note
-Inst41Quest4_HORDE_Prequest = Inst41Quest4_Prequest
+Inst41Quest4_HORDE_Prequest = "Nein"
 Inst41Quest4_HORDE_Folgequest = "Nein"
-Inst41Quest4PreQuest_HORDE = "true"
+--
+Inst41Quest4name1_HORDE = Inst41Quest4name1
+Inst41Quest4name2_HORDE = Inst41Quest4name2
+Inst41Quest4name3_HORDE = Inst41Quest4name3
+
+--Quest 5 Horde
+Inst41Quest5_HORDE = Inst41Quest5
+Inst41Quest5_HORDE_Level = "70"
+Inst41Quest5_HORDE_Attain = "70"
+Inst41Quest5_HORDE_Aim = Inst41Quest5_Aim
+Inst41Quest5_HORDE_Location = Inst41Quest5_Location
+Inst41Quest5_HORDE_Note = Inst41Quest5_Note
+Inst41Quest5_HORDE_Prequest = "Nein"
+Inst41Quest5_HORDE_Folgequest = "Nein"
+--
+-- Preis Gerechtigkeitspunkte.
+
+--Quest 6 Horde
+Inst41Quest6_HORDE = Inst41Quest6
+Inst41Quest6_HORDE_Level = "70"
+Inst41Quest6_HORDE_Attain = "70"
+Inst41Quest6_HORDE_Aim = Inst41Quest6_Aim
+Inst41Quest6_HORDE_Location = Inst41Quest6_Location
+Inst41Quest6_HORDE_Note = Inst41Quest6_Note
+Inst41Quest6_HORDE_Prequest = "Nein"
+Inst41Quest6_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst41Quest7_HORDE = Inst41Quest7
+Inst41Quest7_HORDE_Level = "85"
+Inst41Quest7_HORDE_Attain = "85"
+Inst41Quest7_HORDE_Aim = Inst41Quest7_Aim
+Inst41Quest7_HORDE_Location = Inst41Quest7_Location
+Inst41Quest7_HORDE_Note = Inst41Quest7_Note
+Inst41Quest7_HORDE_Prequest = "Nein"
+Inst41Quest7_HORDE_Folgequest = "Nein"
 --
 Inst41Quest7name1_HORDE = Inst41Quest7name1
 Inst41Quest7name2_HORDE = Inst41Quest7name2

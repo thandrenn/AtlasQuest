@@ -969,21 +969,30 @@ AQ_11003_Level = "70"
 
 --------------- INST41 - CR: The Slave Pens (SP) ---------------
 
-Inst41Quest1_QuestID = "9738"
-Inst41Quest2_QuestID = "11368"
-Inst41Quest3_QuestID = "13431"
-Inst41Quest4_QuestID = "11972"
+Inst41Quest1_QuestID = "29566"
+Inst41Quest2_QuestID = "29563"
+Inst41Quest3_QuestID = "29564"
+Inst41Quest4_QuestID = "29565"
+Inst41Quest5_QuestID = "11368"
+Inst41Quest6_QuestID = "13431"
+Inst41Quest7_QuestID = "11972"
 
-Inst41Quest1_HORDE_QuestID = "9738"
+Inst41Quest1_HORDE_QuestID = "29566"
+Inst41Quest1_HORDE_QuestID = "29563"
+Inst41Quest1_HORDE_QuestID = "29564"
+Inst41Quest1_HORDE_QuestID = "29565"
 Inst41Quest2_HORDE_QuestID = "11368"
 Inst41Quest3_HORDE_QuestID = "13431"
 Inst41Quest4_HORDE_QuestID = "11972"
 
 
-AQ_9738_Level = "65"
+AQ_29566_Level = "65"
+AQ_29563_Level = "65"
+AQ_29564_Level = "65"
+AQ_29565_Level = "65"
 AQ_11368_Level = "70"
 AQ_13431_Level = "70"
-AQ_11972_Level = "70"
+AQ_11972_Level = "85"
 
 
 

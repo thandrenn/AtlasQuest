@@ -5143,7 +5143,7 @@ Inst39Quest9_HORDE_Folgequest = Inst39Quest9_Folgequest
 --
 Inst39Quest9name1_HORDE = Inst39Quest9name1
 
---Quest 1 Horde
+--Quest 10 Horde
 Inst39Quest10_HORDE = "10. Honor the Dying"
 Inst39Quest10_HORDE_Level = Inst39Quest10_Level
 Inst39Quest10_HORDE_Attain = Inst39Quest10_Attain
