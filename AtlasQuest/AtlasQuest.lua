@@ -99,7 +99,7 @@ local AtlasQuest_Defaults = {
 -- Called when the player starts the game loads the variables
 -----------------------------------------------------------------------------
 function AtlasQuest_OnEvent(self,event,...)
-   if (event == "VARIABLES_LOADED") then
+   if (event == "ADDON_LOADED") then
       VariablesLoaded = 1; -- data is loaded completely
    else
       AtlasQuest_Initialize(); -- player enters world / initialize the data
@@ -205,7 +205,7 @@ end
 -----------------------------------------------------------------------------
 function AQ_OnLoad()
     AtlasQuestFrame:RegisterEvent("PLAYER_ENTERING_WORLD");
-    AtlasQuestFrame:RegisterEvent("VARIABLES_LOADED");
+    AtlasQuestFrame:RegisterEvent("ADDON_LOADED");
     AQSetButtontext(); -- translation for all buttons
     if ( AtlasFrame ) then
     	AQATLASMAP = AtlasMap:GetTexture()
