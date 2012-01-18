@@ -2869,9 +2869,12 @@ Inst39Quest8Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
 --Quest 9 Alliance
 Inst39Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
-Inst39Quest9ITC1 = Itemc2;
-Inst39Quest9description1 = AQITEM_KEY
-Inst39Quest9ID1 = "28395"
+Inst39Quest9ITC1 = Itemc3;
+Inst39Quest9description1 = AQITEM_ITEM
+Inst39Quest9ID1 = "29460"
+
+--Quest 10 Alliance
+Inst39Quest10Rewardtext = AQNoReward
 
 
 --Quest 1 Horde
@@ -2936,9 +2939,12 @@ Inst39Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoint
 --Quest 9 Horde
 Inst39Quest9Rewardtext_HORDE  = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
-Inst39Quest9ITC1_HORDE  = Itemc2;
-Inst39Quest9description1_HORDE  = AQITEM_KEY
-Inst39Quest9ID1_HORDE  = "28395"
+Inst39Quest9ITC1_HORDE  = Itemc3;
+Inst39Quest9description1_HORDE  = AQITEM_ITEM
+Inst39Quest9ID1_HORDE  = "29460"
+
+--Quest 10 Horde
+Inst39Quest10Rewardtext_HORDE = AQNoReward
 
 
 

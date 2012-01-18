@@ -414,7 +414,8 @@ end
   if (GetItemInfo(itemId)) then
     itemName, _, itemQuality = GetItemInfo(itemId);
     local r, g, b, hex = GetItemQualityColor(itemQuality);
-    itemtext = hex..itemName;
+    itemtext = itemTEXTSAVED;
+--  itemtext = hex..itemName;  -- Don't understand why this stopped working. Commented out January 17, 2012 by Thandrenn.
     if (what == "name") then
       return itemtext;
     elseif (what == "extra") then
@@ -425,7 +426,7 @@ end
     if (what == "name") then
       return itemtext;
     elseif (what == "extra") then
-      itemdiscription = itemdiscription.." "..RED..AQERRORNOTSHOWN;
+--    itemdiscription = itemdiscription.." "..RED..AQERRORNOTSHOWN;  -- No longer necessary.
       return itemdiscription;
     end
   end

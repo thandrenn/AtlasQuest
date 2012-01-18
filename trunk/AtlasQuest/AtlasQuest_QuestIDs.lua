@@ -919,7 +919,8 @@ Inst39Quest5_QuestID = "10884"
 Inst39Quest6_QuestID = "10670"
 Inst39Quest7_QuestID = "9637"
 Inst39Quest8_QuestID = "11363"
-Inst39Quest9_QuestID = "10364"
+Inst39Quest9_QuestID = "11364"
+Inst39Quest10_QuestID = "29652"
 
 Inst39Quest1_HORDE_QuestID = "29688"
 Inst39Quest2_HORDE_QuestID = "29650"
@@ -929,8 +930,8 @@ Inst39Quest5_HORDE_QuestID = "10884"
 Inst39Quest6_HORDE_QuestID = "10670"
 Inst39Quest7_HORDE_QuestID = "9637"
 Inst39Quest8_HORDE_QuestID = "11363"
-Inst39Quest9_HORDE_QuestID = "10364"
-
+Inst39Quest9_HORDE_QuestID = "11364"
+Inst39Quest10_HORDE_QuestID = "29651"
 
 
 AQ_29689_Level = "70"
@@ -942,10 +943,12 @@ AQ_10670_Level = "70"
 AQ_9637_Level = "70"
 AQ_11363_Level = "70"
 AQ_11364_Level = "70"
+AQ_29652_Level = "70"
 AQ_29688_Level = "70"
 AQ_29650_Level = "70"
 AQ_29653_Level = "70"
 AQ_29655_Level = "70"
+AQ_29651_Level = "70"
 
 
 

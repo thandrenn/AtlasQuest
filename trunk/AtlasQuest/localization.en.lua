@@ -4610,8 +4610,8 @@ Inst37Story = {
   ["MaxPages"] = "2",
 };
 Inst37Caption = "HFC: Ramparts"
-Inst37QAA = "3 Quests"
-Inst37QAH = "3 Quests"
+Inst37QAA = "5 Quests"
+Inst37QAH = "5 Quests"
 Inst37General = {
     {
     "Watchkeeper Gargolmar",
@@ -4633,83 +4633,124 @@ Inst37General = {
 };
 
 --Quest 1 Alliance
-Inst37Quest1 = "1. Weaken the Ramparts"
+Inst37Quest1 = "1. Invading the Citadel"
 Inst37Quest1_Level = "62"
 Inst37Quest1_Attain = "59"
-Inst37Quest1_Aim = "Slay Watchkeeper Gargolmar, Omor the Unscarred and the drake, Nazan. Return Gargolmar's Hand, Omor's Hoof and Nazan's Head to Gunny at Honor Hold in Hellfire Peninsula."
-Inst37Quest1_Location = "Lieutenant Chadwick (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,66"..WHITE..")"
-Inst37Quest1_Note = "Gargolmar is at "..YELLOW.."[1]"..WHITE..", Omor is at "..YELLOW.."[2]"..WHITE.." and Nazan is at "..YELLOW.."[3]"..WHITE..". Gunny is at (Hellfire Peninsula - Honor Hold; "..YELLOW.."56,67"..WHITE.."). \n\nTo get this quest, you must complete the Ill Omens, which starts with Know your Enemy from Force Commander Dannath Trollbane (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,67"..WHITE..")."
-Inst37Quest1_Prequest = "Know your Enemy -> Ill Omens"
-Inst37Quest1_Folgequest = "Heart of Rage ("..YELLOW.."HFC: Blood Furnace"..WHITE..")"
-Inst37Quest1PreQuest = "true"
---
-Inst37Quest1name1 = "Handguards of Precision"
-Inst37Quest1name2 = "Jade Warrior Pauldrons"
-Inst37Quest1name3 = "Mantle of Magical Might"
-Inst37Quest1name4 = "Sure-Step Boots"
+Inst37Quest1_Aim = "Speak with Advance Scout Chadwick in Hellfire Ramparts. "
+Inst37Quest1_Location = "Sergeant Altumus (Hellfire Peninsula - Honor Hold; "..YELLOW.."61.6, 60.8"..WHITE..")"
+Inst37Quest1_Note = "Advance Scout Chadwick is just inside the entrance."
+Inst37Quest1_Prequest = "None"
+Inst37Quest1_Folgequest = "None"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst37Quest2 = "2. Dark Tidings"
+Inst37Quest2 = "2. Hitting Them Where It Hurts"
 Inst37Quest2_Level = "62"
 Inst37Quest2_Attain = "59"
-Inst37Quest2_Aim = "Take the Ominous Letter to Force Commander Danath Trollbane at Honor Hold in Hellfire Peninsula."
-Inst37Quest2_Location = "Ominous Letter (drops from Vazruden the Herald; "..YELLOW.."[3]"..WHITE..")"
-Inst37Quest2_Note = "Force Commander Danath Trollbane is at "..YELLOW.."57,67"..WHITE.." in Honor Hold."
+Inst37Quest2_Aim = "Steal 3 piles of Hellfire Supplies, then return to Advance Scout Chadwick in Hellfire Ramparts. "
+Inst37Quest2_Location = "Advance Scout Chadwick (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
+Inst37Quest2_Note = "The supplies are boxes scattered around the dungeon."
 Inst37Quest2_Prequest = "None"
-Inst37Quest2_Folgequest = "The Blood is Life ("..YELLOW.."HFC: Blood Furnace"..WHITE..")"
-Inst37Quest2FQuest = "true"
+Inst37Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst37Quest3 = "3. Wanted: Nazan's Riding Crop (Heroic Daily)"
-Inst37Quest3_Level = "70"
-Inst37Quest3_Attain = "70"
-Inst37Quest3_Aim = "Wind Trader Zhareem has asked you to obtain Nazan's Riding Crop. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst37Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst37Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNazan is at "..YELLOW.."[3]"..WHITE.."."
+Inst37Quest3 = "3. Demons in the Citadel"
+Inst37Quest3_Level = "62"
+Inst37Quest3_Attain = "59"
+Inst37Quest3_Aim = "Slay Omor the Unscarred and bring his hoof to Advance Scout Chadwick. "
+Inst37Quest3_Location = "Advance Scout Chadwick (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
+Inst37Quest3_Note = "Omor the Unscarred is at "..YELLOW.."[2]"..WHITE.."."
 Inst37Quest3_Prequest = "None"
 Inst37Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst37Quest4 = "4. War on the Ramparts"
+Inst37Quest4_Level = "62"
+Inst37Quest4_Attain = "59"
+Inst37Quest4_Aim = "Slay Watchkeeper Gargolmar, Vazruden the Herald and Vazruden's drake, Nazan. Return Gargolmar's Hand and Nazan's Head to Advance Scout Chadwick. "
+Inst37Quest4_Location = "Advance Scout Chadwick (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
+Inst37Quest4_Note = "Watchkeeper Gargolmar is at "..YELLOW.."[1]"..WHITE.." and Vazruden the Herald and his drake are at "..YELLOW.."[3]"..WHITE.."."
+Inst37Quest4_Prequest = "None"
+Inst37Quest4_Folgequest = "None"
+--
+Inst37Quest4name1 = "Handguards of Precision"
+Inst37Quest4name2 = "Jade Warrior Pauldrons"
+Inst37Quest4name3 = "Mantle of Magical Might"
+Inst37Quest4name4 = "Sure-Step Boots"
+
+--Quest 5 Alliance
+Inst37Quest5 = "5. Wanted: Nazan's Riding Crop (Heroic Daily)"
+Inst37Quest5_Level = "70"
+Inst37Quest5_Attain = "70"
+Inst37Quest5_Aim = "Wind Trader Zhareem has asked you to obtain Nazan's Riding Crop. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst37Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst37Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNazan is at "..YELLOW.."[3]"..WHITE.."."
+Inst37Quest5_Prequest = "None"
+Inst37Quest5_Folgequest = "None"
 --
 -- Awards Justice Points.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance - different NPCs and pre-quest)
+--Quest 1 Horde (same as Quest 1 Alliance, but different Quest giver)
 Inst37Quest1_HORDE = Inst37Quest1
 Inst37Quest1_HORDE_Level = Inst37Quest1_Level
 Inst37Quest1_HORDE_Attain = Inst37Quest1_Attain
-Inst37Quest1_HORDE_Aim = "Slay Watchkeeper Gargolmar, Omor the Unscarred and the drake, Nazan. Return Gargolmar's Hand, Omor's Hoof and Nazan's Head to Caza'rez at Thrallmar in Hellfire Peninsula."
-Inst37Quest1_HORDE_Location = "Stone Guard Stok'ton (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst37Quest1_HORDE_Note = "Gargolmar is at "..YELLOW.."[1]"..WHITE..", Omor is at "..YELLOW.."[2]"..WHITE.." and Nazan is at "..YELLOW.."[3]"..WHITE..". Caza'rez is at (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE.."). \n\nTo get this quest, you must complete Forward Base: Reaver's Fall, which starts with the Through the Dark Portal quest you receive at the Dark Portal in Blasted Lands."
-Inst37Quest1_HORDE_Prequest = "Through the Dark Portal -> Forward Base: Reaver's Fall"
+Inst37Quest1_HORDE_Aim = "Speak with Stone Guard Stok'ton in Hellfire Ramparts."
+Inst37Quest1_HORDE_Location = "Sergeant Shatterskull (Hellfire Peninsula - Thrallmar; "..YELLOW.."58.0, 41.2"..WHITE..")"
+Inst37Quest1_HORDE_Note = "Stone Guard Stok'ton  is just inside the entrance."
+Inst37Quest1_HORDE_Prequest = Inst37Quest1_Prequest
 Inst37Quest1_HORDE_Folgequest = Inst37Quest1_Folgequest
-Inst37Quest1PreQuest_HORDE = Inst37Quest1PreQuest
---
-Inst37Quest1name1_HORDE = Inst37Quest1name1
-Inst37Quest1name2_HORDE = Inst37Quest1name2
-Inst37Quest1name3_HORDE = Inst37Quest1name3
-Inst37Quest1name4_HORDE = Inst37Quest1name4
+-- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+--Quest 2 Horde (same as Quest 2 Alliance, but different Quest giver)
 Inst37Quest2_HORDE = Inst37Quest2
 Inst37Quest2_HORDE_Level = Inst37Quest2_Level
 Inst37Quest2_HORDE_Attain = Inst37Quest2_Attain
-Inst37Quest2_HORDE_Aim = "Take the Ominous Letter to Nazgrel at Thrallmar in Hellfire Peninsula."
-Inst37Quest2_HORDE_Location = Inst37Quest2_Location
-Inst37Quest2_HORDE_Note = "Nazgrel is at "..YELLOW.."55,36"..WHITE.." in Thrallmar."
+Inst37Quest2_HORDE_Aim = "Steal 3 piles of Hellfire Supplies, then return to Stone Guard Stok'ton in Hellfire Ramparts."
+Inst37Quest2_HORDE_Location = "Stone Guard Stok'ton (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
+Inst37Quest2_HORDE_Note = Inst37Quest2_Note
 Inst37Quest2_HORDE_Prequest = Inst37Quest2_Prequest
 Inst37Quest2_HORDE_Folgequest = Inst37Quest2_Folgequest
-Inst37Quest2FQuest_HORDE = Inst37Quest2FQuest
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde (same as Quest 3 Alliance, but different Quest giver)
 Inst37Quest3_HORDE = Inst37Quest3
 Inst37Quest3_HORDE_Level = Inst37Quest3_Level
 Inst37Quest3_HORDE_Attain = Inst37Quest3_Attain
-Inst37Quest3_HORDE_Aim = Inst37Quest3_Aim
-Inst37Quest3_HORDE_Location = Inst37Quest3_Location
+Inst37Quest3_HORDE_Aim = "Kill Omor the Unscarred and bring his hoof to Stone Guard Stok'ton."
+Inst37Quest3_HORDE_Location = "Stone Guard Stok'ton (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
 Inst37Quest3_HORDE_Note = Inst37Quest3_Note
 Inst37Quest3_HORDE_Prequest = Inst37Quest3_Prequest
 Inst37Quest3_HORDE_Folgequest = Inst37Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance, but different Quest giver)
+Inst37Quest4_HORDE = Inst37Quest4
+Inst37Quest4_HORDE_Level = Inst37Quest4_Level
+Inst37Quest4_HORDE_Attain = Inst37Quest4_Attain
+Inst37Quest4_HORDE_Aim = "Slay Watchkeeper Gargolmar, Vazruden the Herald and Vazruden's drake, Nazan. Return Gargolmar's Hand and Nazan's Head to Stone Guard Stok'ton."
+Inst37Quest4_HORDE_Location = "Stone Guard Stok'ton (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
+Inst37Quest4_HORDE_Note = Inst37Quest4_Note
+Inst37Quest4_HORDE_Prequest = Inst37Quest4_Prequest
+Inst37Quest4_HORDE_Folgequest = Inst37Quest4_Folgequest
+Inst37Quest4PreQuest_HORDE = Inst37Quest4PreQuest
+--
+Inst37Quest4name1_HORDE = Inst37Quest4name1
+Inst37Quest4name2_HORDE = Inst37Quest4name2
+Inst37Quest4name3_HORDE = Inst37Quest4name3
+Inst37Quest4name4_HORDE = Inst37Quest4name4
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst37Quest5_HORDE = Inst37Quest5
+Inst37Quest5_HORDE_Level = Inst37Quest5_Level
+Inst37Quest5_HORDE_Attain = Inst37Quest5_Attain
+Inst37Quest5_HORDE_Aim = Inst37Quest5_Aim
+Inst37Quest5_HORDE_Location = Inst37Quest5_Location
+Inst37Quest5_HORDE_Note = Inst37Quest5_Note
+Inst37Quest5_HORDE_Prequest = Inst37Quest5_Prequest
+Inst37Quest5_HORDE_Folgequest = Inst37Quest5_Folgequest
 --
 -- Awards Justice Points.
 
@@ -4723,8 +4764,8 @@ Inst38Story = {
   ["MaxPages"] = "2",
 };
 Inst38Caption = "HFC: The Blood Furnace"
-Inst38QAA = "3 Quests"
-Inst38QAH = "3 Quests"
+Inst38QAA = "4 Quests"
+Inst38QAH = "4 Quests"
 Inst38General = {
     {
     "The Maker",
@@ -4746,72 +4787,77 @@ Inst38General = {
 };
 
 --Quest 1 Alliance
-Inst38Quest1 = "1. The Blood is Life"
+Inst38Quest1 = "1. Make Them Bleed"
 Inst38Quest1_Level = "63"
 Inst38Quest1_Attain = "59"
-Inst38Quest1_Aim = "Collect 10 Fel Orc Blood Vials and return them to Gunny at Honor Hold in Hellfire Peninsula."
-Inst38Quest1_Location = "Gunny (Hellfire Peninsula - Honor Hold; "..YELLOW.."56,67"..WHITE..")"
-Inst38Quest1_Note = "All Orcs in Blood Furnace can drop the Blood Vials."
-Inst38Quest1_Prequest = "Dark Tidings ("..YELLOW.."HFC: Ramparts"..WHITE..")"
+Inst38Quest1_Aim = "Collect 10 Fel Orc Blood Vials and a Fel Infusion Rod for Gunny. "
+Inst38Quest1_Location = "Gunny (Blood Furnace; "..BLUE.."Entrance"..WHITE..")"
+Inst38Quest1_Note = "All Orcs in Blood Furnace can drop the Blood Vials and the Fel Infusion Rod drops from The Maker at "..YELLOW.."[1]"..WHITE.."."
+Inst38Quest1_Prequest = "None"
 Inst38Quest1_Folgequest = "None"
-Inst38Quest1PreQuest = "true"
---
-Inst38Quest1name1 = "Breastplate of Retribution"
-Inst38Quest1name2 = "Deadly Borer Leggings"
-Inst38Quest1name3 = "Moonkin Headdress"
-Inst38Quest1name4 = "Scaled Legs of Ruination"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst38Quest2 = "2. Heart of Rage"
 Inst38Quest2_Level = "63"
 Inst38Quest2_Attain = "59"
-Inst38Quest2_Aim = "Fully investigate the Blood Furnace and then report to Force Commander Danath Trollbane at Honor Hold in Hellfire Peninsula."
-Inst38Quest2_Location = "Gunny (Hellfire Peninsula - Honor Hold; "..YELLOW.."56,67"..WHITE..")."
-Inst38Quest2_Note = "Quest completes in room with final boss.  Force Commander Danath Trollbane is at "..YELLOW.."57,67"..WHITE.." in Honor Hold."
-Inst38Quest2_Prequest = "Weaken the Ramparts ("..YELLOW.."HFC: Ramparts"..WHITE..")"
+Inst38Quest2_Aim = "Fully investigate the Blood Furnace and then report back to Gunny. "
+Inst38Quest2_Location = "Gunny (Blood Furnace; "..BLUE.."Entrance"..WHITE..")"
+Inst38Quest2_Note = "Quest completes in room with final boss."
+Inst38Quest2_Prequest = "None"
 Inst38Quest2_Folgequest = "None"
-Inst38Quest2PreQuest = "true"
 --
 Inst38Quest2name1 = "Crimson Pendant of Clarity"
 Inst38Quest2name2 = "Holy Healing Band"
 Inst38Quest2name3 = "Perfectly Balanced Cape"
 
 --Quest 3 Alliance
-Inst38Quest3 = "3. Wanted: Keli'dan's Feathered Stave (Heroic Daily)"
-Inst38Quest3_Level = "70"
-Inst38Quest3_Attain = "70"
-Inst38Quest3_Aim = "Wind Trader Zhareem has asked you to obtain Keli'dan's Feathered Stave. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst38Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst38Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nKeli'dan the Breaker is at "..YELLOW.."[3]"..WHITE.."."
+Inst38Quest3 = "3. The Breaker"
+Inst38Quest3_Level = "63"
+Inst38Quest3_Attain = "59"
+Inst38Quest3_Aim = "Kill Keli'dan the Breaker and return to Gunny."
+Inst38Quest3_Location = "Gunny (Blood Furnace; "..BLUE.."Entrance"..WHITE..")"
+Inst38Quest3_Note = "Keli'dan the Breaker is at "..YELLOW.."[3]"..WHITE.."."
 Inst38Quest3_Prequest = "None"
 Inst38Quest3_Folgequest = "None"
+--
+Inst38Quest3name1 = "Breastplate of Retribution"
+Inst38Quest3name2 = "Deadly Borer Leggings"
+Inst38Quest3name3 = "Moonkin Headdress"
+Inst38Quest3name4 = "Scaled Legs of Ruination"
+
+--Quest 4 Alliance
+Inst38Quest4 = "4. Wanted: Keli'dan's Feathered Stave (Heroic Daily)"
+Inst38Quest4_Level = "70"
+Inst38Quest4_Attain = "70"
+Inst38Quest4_Aim = "Wind Trader Zhareem has asked you to obtain Keli'dan's Feathered Stave. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst38Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst38Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nKeli'dan the Breaker is at "..YELLOW.."[3]"..WHITE.."."
+Inst38Quest4_Prequest = "None"
+Inst38Quest4_Folgequest = "None"
 --
 -- Awards Justice Points.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance - different NPC to turn in)
+--Quest 1 Horde  (same as Quest 1 Alliance, but different Quest giver)
 Inst38Quest1_HORDE = Inst38Quest1
 Inst38Quest1_HORDE_Level = Inst38Quest1_Level
 Inst38Quest1_HORDE_Attain = Inst38Quest1_Attain
-Inst38Quest1_HORDE_Aim = "Collect 10 Fel Orc Blood Vials and return them to Centurion Caza'rez at Thrallmar in Hellfire Peninsula."
-Inst38Quest1_HORDE_Location = "Caza'rez (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
+Inst38Quest1_HORDE_Aim = "Collect 10 Fel Orc Blood Vials and a Fel Infusion Rod for Caza'rez."
+Inst38Quest1_HORDE_Location = "Caza'rez (Blood Furnace; "..BLUE.."Entrance"..WHITE..")"
 Inst38Quest1_HORDE_Note = Inst38Quest1_Note
 Inst38Quest1_HORDE_Prequest = Inst38Quest1_Prequest
 Inst38Quest1_HORDE_Folgequest = Inst38Quest1_Folgequest
 Inst38Quest1PreQuest_HORDE = Inst38Quest1PreQuest
---
-Inst38Quest1name1_HORDE = Inst38Quest1name1
-Inst38Quest1name2_HORDE = Inst38Quest1name2
-Inst38Quest1name3_HORDE = Inst38Quest1name3
-Inst38Quest1name4_HORDE = Inst38Quest1name4
+-- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance - different NPC to turn in)
+--Quest 2 Horde  (same as Quest 2 Alliance, but different Quest giver)
 Inst38Quest2_HORDE = Inst38Quest2
 Inst38Quest2_HORDE_Level = Inst38Quest2_Level
 Inst38Quest2_HORDE_Attain = Inst38Quest2_Attain
-Inst38Quest2_HORDE_Aim = "Fully investigate the Blood Furnace and then report to Nazgrel at Thrallmar in Hellfire Peninsula."
-Inst38Quest2_HORDE_Location = "Caza'rez (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst38Quest2_HORDE_Note = "Quest completes in room with final boss. Nazgrel is at Hellfire Peninsula - Thrallmar ("..YELLOW.."55,36"..WHITE..")."
+Inst38Quest2_HORDE_Aim = "Fully investigate the Blood Furnace and then report back to Caza'rez."
+Inst38Quest2_HORDE_Location = "Caza'rez (Blood Furnace; "..BLUE.."Entrance"..WHITE..")"
+Inst38Quest2_HORDE_Note = Inst38Quest2_Note
 Inst38Quest2_HORDE_Prequest = Inst38Quest2_Prequest
 Inst38Quest2_HORDE_Folgequest = Inst38Quest2_Folgequest
 Inst38Quest2PreQuest_HORDE = Inst38Quest2PreQuest
@@ -4820,15 +4866,30 @@ Inst38Quest2name1_HORDE = Inst38Quest2name1
 Inst38Quest2name2_HORDE = Inst38Quest2name2
 Inst38Quest2name3_HORDE = Inst38Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde  (same as Quest 3 Alliance, but different Quest giver)
 Inst38Quest3_HORDE = Inst38Quest3
 Inst38Quest3_HORDE_Level = Inst38Quest3_Level
 Inst38Quest3_HORDE_Attain = Inst38Quest3_Attain
-Inst38Quest3_HORDE_Aim = Inst38Quest3_Aim
-Inst38Quest3_HORDE_Location = Inst38Quest3_Location
+Inst38Quest3_HORDE_Aim = "Kill Keli'dan the Breaker and return to Caza'rez."
+Inst38Quest3_HORDE_Location = "Caza'rez (Blood Furnace; "..BLUE.."Entrance"..WHITE..")"
 Inst38Quest3_HORDE_Note = Inst38Quest3_Note
 Inst38Quest3_HORDE_Prequest = Inst38Quest3_Prequest
 Inst38Quest3_HORDE_Folgequest = Inst38Quest3_Folgequest
+--
+Inst38Quest3name1_HORDE = Inst38Quest3name1
+Inst38Quest3name2_HORDE = Inst38Quest3name2
+Inst38Quest3name3_HORDE = Inst38Quest3name3
+Inst38Quest3name4_HORDE = Inst38Quest3name4
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst38Quest4_HORDE = Inst38Quest4
+Inst38Quest4_HORDE_Level = Inst38Quest4_Level
+Inst38Quest4_HORDE_Attain = Inst38Quest4_Attain
+Inst38Quest4_HORDE_Aim = Inst38Quest4_Aim
+Inst38Quest4_HORDE_Location = Inst38Quest4_Location
+Inst38Quest4_HORDE_Note = Inst38Quest4_Note
+Inst38Quest4_HORDE_Prequest = Inst38Quest4_Prequest
+Inst38Quest4_HORDE_Folgequest = Inst38Quest4_Folgequest
 --
 -- Awards Justice Points.
 
@@ -4843,41 +4904,41 @@ Inst39Story = {
 };
 Inst39Caption = "HFC: Shattered Halls"
 Inst39QAA = "10 Quests"
-Inst39QAH = "9 Quests"
+Inst39QAH = "10 Quests"
 
 --Quest 1 Alliance
-Inst39Quest1 = "1. Fel Embers"
+Inst39Quest1 = "1. Advancing the Campaign"
 Inst39Quest1_Level = "70"
-Inst39Quest1_Attain = "67"
-Inst39Quest1_Aim = "Magus Zabraxis at Honor Hold wants you to bring her a Fel Ember"
-Inst39Quest1_Location = "Magus Zabraxis (Hellfire Peninsula - Honor Hold; "..YELLOW.."54,66"..WHITE..")"
-Inst39Quest1_Note = "After killing Grand Warlock Netherkurse at "..YELLOW.."[1]"..WHITE..", he'll drop an Amulet. Use the amulet at one of the braziers near his throne to get the Fel Ember."
+Inst39Quest1_Attain = "66"
+Inst39Quest1_Aim = "Force Commander Danath Trollbane has asked you to speak with Advance Scout Chadwick inside the Shattered Halls of Hellfire Citadel. "
+Inst39Quest1_Location = "Force Commander Danath Trollbane (Hellfire Peninsula - Honor Hold; "..YELLOW.."56.6, 66.6"..WHITE..")"
+Inst39Quest1_Note = "Advance Scout Chadwick is just inside the entrance."
 Inst39Quest1_Prequest = "None"
 Inst39Quest1_Folgequest = "None"
---
-Inst39Quest1name1 = "Curate's Boots"
-Inst39Quest1name2 = "Rune-Engraved Belt"
-Inst39Quest1name3 = "Gloves of Preservation"
-Inst39Quest1name4 = "Expedition Scout's Epaulets"
-Inst39Quest1name5 = "Dauntless Handguards"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst39Quest2 = "2. Pride of the Fel Horde"
+Inst39Quest2 = "2. How to Save a Life"
 Inst39Quest2_Level = "70"
 Inst39Quest2_Attain = "66"
-Inst39Quest2_Aim = "Field Commander Romus at Honor Hold wants you to kill 8 Shattered Hand Legionnaires, 4 Shattered Hand Centurions and 4 Shattered Hand Champions."
-Inst39Quest2_Location = "Field Commander Romus (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,63"..WHITE..")"
-Inst39Quest2_Note = "You'll find the Centurion's in Sparring Hall."
+Inst39Quest2_Aim = "Advance Scout Chadwick inside the Shattered Halls of Hellfire Citadel wants you to bring him a Fel Ember. "
+Inst39Quest2_Location = "Advance Scout Chadwick (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest2_Note = "After killing Grand Warlock Netherkurse at "..YELLOW.."[1]"..WHITE..", he'll drop an Amulet. Use the amulet at one of the braziers near his throne to get the Fel Ember."
 Inst39Quest2_Prequest = "None"
 Inst39Quest2_Folgequest = "None"
--- No Rewards for this quest
+--
+Inst39Quest2name1 = "Curate's Boots"
+Inst39Quest2name2 = "Rune-Engraved Belt"
+Inst39Quest2name3 = "Gloves of Preservation"
+Inst39Quest2name4 = "Expedition Scout's Epaulets"
+Inst39Quest2name5 = "Dauntless Handguards"
 
 --Quest 3 Alliance
 Inst39Quest3 = "3. Turning the Tide"
 Inst39Quest3_Level = "70"
-Inst39Quest3_Attain = "67"
-Inst39Quest3_Aim = "Bring Warchief Kargath's Fist to Force Commander Danath Trollbane in Honor Hold."
-Inst39Quest3_Location = "Force Commander Danath Trollbane (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,67"..WHITE..")"
+Inst39Quest3_Attain = "66"
+Inst39Quest3_Aim = "Bring Warchief Kargath's Fist to Advance Scout Chadwick inside the Shattered Halls of Hellfire Citadel. "
+Inst39Quest3_Location = "Advance Scout Chadwick (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
 Inst39Quest3_Note = "Warchief Kargath Bladefist is at "..YELLOW.."[4]"..WHITE.."."
 Inst39Quest3_Prequest = "None"
 Inst39Quest3_Folgequest = "None"
@@ -4888,12 +4949,12 @@ Inst39Quest3name3 = "Naliko's Revenge"
 Inst39Quest3name4 = "Medallion of the Valiant Guardian"
 
 --Quest 4 Alliance
-Inst39Quest4 = "4. Imprisoned in the Citadel (Heroic)"
+Inst39Quest4 = "4. O'mrogg's Warcloth"
 Inst39Quest4_Level = "70"
-Inst39Quest4_Attain = "70"
-Inst39Quest4_Aim = "Rescue Captain Alina inside Hellfire Citadel before she is executed."
-Inst39Quest4_Location = "Randy Whizzlesprocket (Shattered Halls; "..GREEN.."Heroic [1']"..WHITE..")"
-Inst39Quest4_Note = "Requires Heroic Dungeon Difficulty.\n\nCaptain Alina is at "..YELLOW.."[4]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event."
+Inst39Quest4_Attain = "66"
+Inst39Quest4_Aim = "Kill Warbringer O'mrogg and bring his warcloth to Advance Scout Chadwick inside the Shattered Halls of Hellfire Citadel. "
+Inst39Quest4_Location = "Advance Scout Chadwick (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest4_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE.."."
 Inst39Quest4_Prequest = "None"
 Inst39Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -4958,127 +5019,140 @@ Inst39Quest9_Folgequest = "None"
 Inst39Quest9name1 = "Ethereum Prison Key"
 
 --Quest 10 Alliance
-Inst39Quest10 = "10. Entry Into the Citadel"
+Inst39Quest10 = "10. One Last Favor"
 Inst39Quest10_Level = "70"
-Inst39Quest10_Attain = "68"
-Inst39Quest10_Aim = "Bring the Primed Key Mold to Force Commander Danath at Honor Hold in Hellfire Peninsula."
-Inst39Quest10_Location = "Primed Key Mold  (drops from Smith Gorlunk in Shadowmoon Valley - Ata'mal Terrace; "..YELLOW.."68,36"..WHITE..")"
-Inst39Quest10_Note = "The Smith that drops the Primed Key Mold is easily soloable and very easily reachable with a flying mount.\n\nForce Commander Danath is at (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,67"..WHITE.."). He sends you to Grand Master Dumphry for the next part of the quest at (Hellfire Peninsula - Honor Hold; "..YELLOW.."51,60"..WHITE..")..."
-Inst39Quest10_Page = {2, "Grand Master Dumphry will ask for 4 x [Fel Iron Bar], 2 x [Arcane Dust] and 4 x [Mote of Fire].\n\nAfter turning the materials in you need to use the Charred Key Mold he gives you at the corpse of a Fel Reaver. You do not need to kill the Fel Reaver yourself, just use the mold at it.\n\nReturn to Grand Master Dumphry at (Hellfire Peninsula - Honor Hold; "..YELLOW.."51,60"..WHITE..") for your reward.", };
+Inst39Quest10_Attain = "66"
+Inst39Quest10_Aim = "Gunny inside the Shattered Halls of Hellfire Citadel wants you to kill 4 Shattered Hand Legionnaires, 2 Shattered Hand Centurions, and 2 Shattered Hand Champions. "
+Inst39Quest10_Location = "Gunny (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest10_Note = "You'll find the required Shattered Hand mobs throughout the dungeon."
 Inst39Quest10_Prequest = "None"
-Inst39Quest10_Folgequest = "Grand Master Dumphry -> Hotter than Hell"
+Inst39Quest10_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance, but different Quest giver)
+Inst39Quest1_HORDE = Inst39Quest1
+Inst39Quest1_HORDE_Level = Inst39Quest1_Level
+Inst39Quest1_HORDE_Attain = Inst39Quest1_Attain
+Inst39Quest1_HORDE_Aim = "Shadow Hunter Ty'jin has asked you to speak with Stone Guard Stok'ton inside the Shattered Halls of Hellfire Citadel."
+Inst39Quest1_HORDE_Location = "Stone Guard Stok'ton (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest1_HORDE_Note = Inst39Quest1_Note
+Inst39Quest1_HORDE_Prequest = Inst39Quest1_Prequest
+Inst39Quest1_HORDE_Folgequest = Inst39Quest1_Folgequest
+Inst39Quest1PreQuest_HORDE = Inst39Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance, but different Quest giver)
+Inst39Quest2_HORDE = Inst39Quest2
+Inst39Quest2_HORDE_Level = Inst39Quest2_Level
+Inst39Quest2_HORDE_Attain = Inst39Quest2_Attain
+Inst39Quest2_HORDE_Aim = "Stone Guard Stok'ton inside the Shattered Halls of Hellfire Citadel wants you to bring him a Fel Ember. "
+Inst39Quest2_HORDE_Location = "Stone Guard Stok'ton (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest2_HORDE_Note = Inst39Quest2_Note
+Inst39Quest2_HORDE_Prequest = Inst39Quest2_Prequest
+Inst39Quest2_HORDE_Folgequest = Inst39Quest2_Folgequest
 --
-Inst39Quest10name1 = "Shattered Halls Key"
+Inst39Quest2name1_HORDE = Inst39Quest2name1
+Inst39Quest2name2_HORDE = Inst39Quest2name2
+Inst39Quest2name3_HORDE = Inst39Quest2name3
+Inst39Quest2name4_HORDE = Inst39Quest2name4
+Inst39Quest2name5_HORDE = Inst39Quest2name5
 
-
---Quest 1 Horde  (same as Quest 2 Alliance - different NPC to turn in)
-Inst39Quest1_HORDE = "1. Pride of the Fel Horde"
-Inst39Quest1_HORDE_Level = Inst39Quest2_Level
-Inst39Quest1_HORDE_Attain = Inst39Quest2_Attain
-Inst39Quest1_HORDE_Aim = "Shadow Hunter Ty'jin at Thrallmar wants you to kill 8 Shattered Hand Legionnaires, 4 Shattered Hand Centurions and 4 Shattered Hand Champions."
-Inst39Quest1_HORDE_Location = "Shadow Hunter Ty'jin (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst39Quest1_HORDE_Note = Inst39Quest2_Note
-Inst39Quest1_HORDE_Prequest = Inst39Quest2_Prequest
-Inst39Quest1_HORDE_Folgequest = Inst39Quest2_Folgequest
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst39Quest2_HORDE = "2. The Will of the Warchief"
-Inst39Quest2_HORDE_Level = "70"
-Inst39Quest2_HORDE_Attain = "67"
-Inst39Quest2_HORDE_Aim = "Bring Warchief Kargath's Fist to Nazgrel in Thrallmar."
-Inst39Quest2_HORDE_Location = "Nazgrel (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE..")"
-Inst39Quest2_HORDE_Note = "Warchief Kargath Bladefist is Located at "..YELLOW.."[4]"..WHITE.."."
-Inst39Quest2_HORDE_Prequest = "None"
-Inst39Quest2_HORDE_Folgequest = "None"
+--Quest 3 Horde  (same as Quest 3 Alliance, but different Quest giver and names)
+Inst39Quest3_HORDE = "3. The Will of the Warchief"
+Inst39Quest3_HORDE_Level = Inst39Quest3_Level
+Inst39Quest3_HORDE_Attain = Inst39Quest3_Attain
+Inst39Quest3_HORDE_Aim = "Bring Warchief Kargath's Fist to Nazgrel in Thrallmar."
+Inst39Quest3_HORDE_Location = "Stone Guard Stok'ton (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest3_HORDE_Note = Inst39Quest3_Note
+Inst39Quest3_HORDE_Prequest = Inst39Quest3_Prequest
+Inst39Quest3_HORDE_Folgequest = Inst39Quest3_Folgequest
 --
-Inst39Quest2name1_HORDE = "Rod of Dire Shadows"
-Inst39Quest2name2_HORDE = "Vicar's Cloak"
-Inst39Quest2name3_HORDE = "Conquerer's Band"
-Inst39Quest2name4_HORDE = "Maimfist's Choker"
+Inst39Quest3name1_HORDE = "Rod of Dire Shadows"
+Inst39Quest3name2_HORDE = "Vicar's Cloak"
+Inst39Quest3name3_HORDE = "Conquerer's Band"
+Inst39Quest3name4_HORDE = "Maimfist's Choker"
 
---Quest 3 Horde
-Inst39Quest3_HORDE = "3. Imprisoned in the Citadel (Heroic)"
-Inst39Quest3_HORDE_Level = "70"
-Inst39Quest3_HORDE_Attain = "70"
-Inst39Quest3_HORDE_Aim = "Rescue Captain Boneshatter inside Hellfire Citadel before he is executed."
-Inst39Quest3_HORDE_Location = "Drisella (Shattered Halls; "..GREEN.."Heroic [1']"..WHITE..")"
-Inst39Quest3_HORDE_Note = "Requires Heroic Dungeon Difficulty.\n\nCaptain Boneshatter is at "..YELLOW.."[4]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event."
-Inst39Quest3_HORDE_Prequest = "None"
-Inst39Quest3_HORDE_Folgequest = "None"
+--Quest 4 Horde  (same as Quest 4 Alliance, but different Quest giver and names)
+Inst39Quest4_HORDE = "4. A Very Special Cloth"
+Inst39Quest4_HORDE_Level = Inst39Quest4_Level
+Inst39Quest4_HORDE_Attain = Inst39Quest4_Attain
+Inst39Quest4_HORDE_Aim = "Kill Warbringer O'mrogg and bring his warcloth to Stone Guard Stok'ton inside the Shattered Halls of Hellfire Citadel."
+Inst39Quest4_HORDE_Location = "Stone Guard Stok'ton (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest4_HORDE_Note = Inst39Quest4_Note
+Inst39Quest4_HORDE_Prequest = Inst39Quest4_Prequest
+Inst39Quest4_HORDE_Folgequest = Inst39Quest4_Folgequest
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 5 Alliance)
-Inst39Quest4_HORDE = "4. Trial of the Naaru: Mercy (Heroic)"
-Inst39Quest4_HORDE_Level = Inst39Quest5_Level
-Inst39Quest4_HORDE_Attain = Inst39Quest5_Attain
-Inst39Quest4_HORDE_Aim = Inst39Quest5_Aim
-Inst39Quest4_HORDE_Location = Inst39Quest5_Location
-Inst39Quest4_HORDE_Note = Inst39Quest5_Note
-Inst39Quest4_HORDE_Prequest = Inst39Quest5_Prequest
-Inst39Quest4_HORDE_Folgequest = Inst39Quest5_Folgequest
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst39Quest5_HORDE = Inst39Quest5
+Inst39Quest5_HORDE_Level = Inst39Quest5_Level
+Inst39Quest5_HORDE_Attain = Inst39Quest5_Attain
+Inst39Quest5_HORDE_Aim = Inst39Quest5_Aim
+Inst39Quest5_HORDE_Location = Inst39Quest5_Location
+Inst39Quest5_HORDE_Note = Inst39Quest5_Note
+Inst39Quest5_HORDE_Prequest = Inst39Quest5_Prequest
+Inst39Quest5_HORDE_Folgequest = Inst39Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 6 Alliance)
-Inst39Quest5_HORDE = "5. Tear of the Earthmother"
-Inst39Quest5_HORDE_Level = Inst39Quest6_Level
-Inst39Quest5_HORDE_Attain = Inst39Quest6_Attain
-Inst39Quest5_HORDE_Aim = Inst39Quest6_Aim
-Inst39Quest5_HORDE_Location = Inst39Quest6_Location
-Inst39Quest5_HORDE_Note = Inst39Quest6_Note
-Inst39Quest5_HORDE_Prequest = Inst39Quest6_Prequest
-Inst39Quest5_HORDE_Folgequest = Inst39Quest6_Folgequest
-Inst39Quest5PreQuest_HORDE = Inst39Quest6Prequest
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst39Quest6_HORDE = Inst39Quest6
+Inst39Quest6_HORDE_Level = Inst39Quest6_Level
+Inst39Quest6_HORDE_Attain = Inst39Quest6_Attain
+Inst39Quest6_HORDE_Aim = Inst39Quest6_Aim
+Inst39Quest6_HORDE_Location = Inst39Quest6_Location
+Inst39Quest6_HORDE_Note = Inst39Quest6_Note
+Inst39Quest6_HORDE_Prequest = Inst39Quest6_Prequest
+Inst39Quest6_HORDE_Folgequest = Inst39Quest6_Folgequest
+Inst39Quest6PreQuest_HORDE = Inst39Quest6Prequest
 -- No Rewards for this quest
 
---Quest 6 Alliance  (same as Quest 7 Alliance)
-Inst39Quest6_HORDE = "6. Kalynna's Request (Heroic)"
-Inst39Quest6_HORDE_Level = Inst39Quest7_Level
-Inst39Quest6_HORDE_Attain = Inst39Quest7_Attain
-Inst39Quest6_HORDE_Aim = Inst39Quest7_Aim
-Inst39Quest6_HORDE_Location = Inst39Quest7_Location
-Inst39Quest6_HORDE_Note = Inst39Quest7_Note
-Inst39Quest6_HORDE_Prequest = Inst39Quest7_Prequest
-Inst39Quest6_HORDE_Folgequest = Inst39Quest7_Folgequest
-Inst39Quest6PreQuest_HORDE = Inst39Quest7PreQuest
+--Quest 7 Alliance  (same as Quest 7 Alliance)
+Inst39Quest7_HORDE = Inst39Quest7
+Inst39Quest7_HORDE_Level = Inst39Quest7_Level
+Inst39Quest7_HORDE_Attain = Inst39Quest7_Attain
+Inst39Quest7_HORDE_Aim = Inst39Quest7_Aim
+Inst39Quest7_HORDE_Location = Inst39Quest7_Location
+Inst39Quest7_HORDE_Note = Inst39Quest7_Note
+Inst39Quest7_HORDE_Prequest = Inst39Quest7_Prequest
+Inst39Quest7_HORDE_Folgequest = Inst39Quest7_Folgequest
+Inst39Quest7PreQuest_HORDE = Inst39Quest7PreQuest
 -- No Rewards for this quest
 
---Quest 7 Horde  (same as Quest 8 Alliance)
-Inst39Quest7_HORDE = "7. Wanted: Bladefist's Seal (Heroic Daily)"
-Inst39Quest7_HORDE_Level = Inst39Quest8_Level
-Inst39Quest7_HORDE_Attain = Inst39Quest8_Attain
-Inst39Quest7_HORDE_Aim = Inst39Quest8_Aim
-Inst39Quest7_HORDE_Location = Inst39Quest8_Location
-Inst39Quest7_HORDE_Note = Inst39Quest8_Note
-Inst39Quest7_HORDE_Prequest = Inst39Quest8_Prequest
-Inst39Quest7_HORDE_Folgequest = Inst39Quest8_Folgequest
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst39Quest8_HORDE = Inst39Quest8
+Inst39Quest8_HORDE_Level = Inst39Quest8_Level
+Inst39Quest8_HORDE_Attain = Inst39Quest8_Attain
+Inst39Quest8_HORDE_Aim = Inst39Quest8_Aim
+Inst39Quest8_HORDE_Location = Inst39Quest8_Location
+Inst39Quest8_HORDE_Note = Inst39Quest8_Note
+Inst39Quest8_HORDE_Prequest = Inst39Quest8_Prequest
+Inst39Quest8_HORDE_Folgequest = Inst39Quest8_Folgequest
 --
 -- Awards Justice Points.
 
---Quest 8 Horde  (same as Quest 9 Alliance)
-Inst39Quest8_HORDE = "8. Wanted: Shattered Hand Centurions (Daily)"
-Inst39Quest8_HORDE_Level = Inst39Quest9_Level
-Inst39Quest8_HORDE_Attain = Inst39Quest9_Attain
-Inst39Quest8_HORDE_Aim = Inst39Quest9_Aim
-Inst39Quest8_HORDE_Location = Inst39Quest9_Location
-Inst39Quest8_HORDE_Note = Inst39Quest9_Note
-Inst39Quest8_HORDE_Prequest = Inst39Quest9_Prequest
-Inst39Quest8_HORDE_Folgequest = Inst39Quest9_Folgequest
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst39Quest9_HORDE = Inst39Quest9
+Inst39Quest9_HORDE_Level = Inst39Quest9_Level
+Inst39Quest9_HORDE_Attain = Inst39Quest9_Attain
+Inst39Quest9_HORDE_Aim = Inst39Quest9_Aim
+Inst39Quest9_HORDE_Location = Inst39Quest9_Location
+Inst39Quest9_HORDE_Note = Inst39Quest9_Note
+Inst39Quest9_HORDE_Prequest = Inst39Quest9_Prequest
+Inst39Quest9_HORDE_Folgequest = Inst39Quest9_Folgequest
 --
-Inst39Quest8name1_HORDE = Inst39Quest9name1
+Inst39Quest9name1_HORDE = Inst39Quest9name1
 
---Quest 9 Horde
-Inst39Quest9_HORDE = "9. Entry Into the Citadel"
-Inst39Quest9_HORDE_Level = "70"
-Inst39Quest9_HORDE_Attain = "68"
-Inst39Quest9_HORDE_Aim = "Bring the Primed Key Mold to Nazgrel at Thrallmar in Hellfire Peninsula."
-Inst39Quest9_HORDE_Location = "Primed Key Mold  (drops from Smith Gorlunk in Shadowmoon Valley - Ata'mal Terrace; "..YELLOW.."68,36"..WHITE..")"
-Inst39Quest9_HORDE_Note = "The Smith that drops the Primed Key Mold is easily soloable and very easily reachable with a flying mount.\n\nNazgrel is at (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE.."). He sends you to Grand Master Rohok for the next part of the quest at (Hellfire Peninsula - Thrallmar; "..YELLOW.."53,38"..WHITE..")..."
-Inst39Quest9_HORDE_Page = {2, "Grand Master Rohok will ask for 4 x [Fel Iron Bar], 2 x [Arcane Dust] and 4 x [Mote of Fire].\n\nAfter turning the materials in you need to use the Charred Key Mold he gives you at the corpse of a Fel Reaver. You do not need to kill the Fel Reaver yourself, just use the mold at it.\n\nReturn to Grand Master Rohok at (Hellfire Peninsula - Thrallmar; "..YELLOW.."53,38"..WHITE..") for your reward.", };
-Inst39Quest9_HORDE_Prequest = "None"
-Inst39Quest9_HORDE_Folgequest = "Grand Master Rohok -> Hotter than Hell"
---
-Inst39Quest9name1_HORDE = "Shattered Halls Key"
+--Quest 1 Horde
+Inst39Quest10_HORDE = "10. Honor the Dying"
+Inst39Quest10_HORDE_Level = Inst39Quest10_Level
+Inst39Quest10_HORDE_Attain = Inst39Quest10_Attain
+Inst39Quest10_HORDE_Aim = "Caza'rez inside the Shattered Halls of Hellfire Citadel wants you to kill 4 Shattered Hand Legionnaires, 2 Shattered Hand Centurions, and 2 Shattered Hand Champions. "
+Inst39Quest10_HORDE_Location = "Caza'rez (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest10_HORDE_Note = Inst39Quest10_Note
+Inst39Quest10_HORDE_Prequest = Inst39Quest10_Prequest
+Inst39Quest10_HORDE_Folgequest = Inst39Quest10_Folgequest
+-- No Rewards for this quest
 
 
 
