@@ -5,7 +5,7 @@ Changelog
 Version 4.6.8 BETA (not released)
 
 - Added missing "The Twilight Prophet" quest to Hour of Twilight (thanks Guldukat!)
-- Fixed minor bug relating to variable loading (thanks Kharthus)\
+- Fixed minor bug relating to variable loading (thanks Kharthus)
 - Fixed bug on showing color of item names for quest rewards.
 - Localizations updated: deDE, enUS, zhCN
 
@@ -13,6 +13,9 @@ Version 4.6.8 BETA (not released)
 	- Hellfire Citadel: Hellfire Ramparts
 	- Hellfire Citadel: Blood Furnace
 	- Hellfire Citadel: Shattered Halls
+	- Coilfang Reservoir: The Slave Pens
+	- Coilfang Reservoir: The Steamvault
+	- Coilfang Reservoir: The Underbog
 	
 
 

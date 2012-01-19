@@ -3170,83 +3170,63 @@ Inst42Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoint
 --------------- INST43 - CR: The Underbog (UB) ---------------
 
 --Quest 1 Alliance
-Inst43Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
---ITEM1
-Inst43Quest1ITC1 = Itemc4;
-Inst43Quest1description1 = AQITEM_RING
-Inst43Quest1ID1 = "25541"
---ITEM2
-Inst43Quest1ITC2 = Itemc4;
-Inst43Quest1description2 = AQITEM_WRIST..AQITEM_CLOTH
-Inst43Quest1ID2 = "28029"
---ITEM3
-Inst43Quest1ITC3 = Itemc4;
-Inst43Quest1description3 = AQITEM_BACK
-Inst43Quest1ID3 = "25540"
+Inst43Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst43Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst43Quest2ITC1 = Itemc4;
-Inst43Quest2description1 = AQITEM_ITEM
-Inst43Quest2ID1 = "28111"
+Inst43Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst43Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
---ITEM1
-Inst43Quest3ITC1 = Itemc4;
-Inst43Quest3description1 = AQITEM_TRINKET
-Inst43Quest3ID1 = "28109"
---ITEM2
-Inst43Quest3ITC2 = Itemc4;
-Inst43Quest3description2 = AQITEM_TRINKET
-Inst43Quest3ID2 = "28108"
+Inst43Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst43Quest4Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+Inst43Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
+--ITEM1
+Inst43Quest4ITC1 = Itemc4;
+Inst43Quest4description1 = AQITEM_TRINKET
+Inst43Quest4ID1 = "28109"
+--ITEM2
+Inst43Quest4ITC2 = Itemc4;
+Inst43Quest4description2 = AQITEM_TRINKET
+Inst43Quest4ID2 = "28108"
 
 --Quest 5 Alliance
 Inst43Quest5Rewardtext = AQNoReward
 
+--Quest 6 Alliance
+Inst43Quest6Rewardtext = AQNoReward
+
+--Quest 7 Alliance
+Inst43Quest7Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+
 
 --Quest 1 Horde
-Inst43Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
---ITEM1
-Inst43Quest1ITC1_HORDE = Itemc4;
-Inst43Quest1description1_HORDE = AQITEM_RING
-Inst43Quest1ID1_HORDE = "25541"
---ITEM2
-Inst43Quest1ITC2_HORDE = Itemc4;
-Inst43Quest1description2_HORDE = AQITEM_WRIST..AQITEM_CLOTH
-Inst43Quest1ID2_HORDE = "28029"
---ITEM3
-Inst43Quest1ITC3_HORDE = Itemc4;
-Inst43Quest1description3_HORDE = AQITEM_BACK
-Inst43Quest1ID3_HORDE = "25540"
+Inst43Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
-Inst43Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst43Quest2ITC1_HORDE = Itemc4;
-Inst43Quest2description1_HORDE = AQITEM_ITEM
-Inst43Quest2ID1_HORDE = "28111"
+Inst43Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
-Inst43Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
---ITEM1
-Inst43Quest3ITC1_HORDE = Itemc4;
-Inst43Quest3description1_HORDE = AQITEM_TRINKET
-Inst43Quest3ID1_HORDE = "28109"
---ITEM2
-Inst43Quest3ITC2_HORDE = Itemc4;
-Inst43Quest3description2_HORDE = AQITEM_TRINKET
-Inst43Quest3ID2_HORDE = "28108"
+Inst43Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst43Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+Inst43Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
+--ITEM1
+Inst43Quest4ITC1_HORDE = Itemc4;
+Inst43Quest4description1_HORDE = AQITEM_TRINKET
+Inst43Quest4ID1_HORDE = "28109"
+--ITEM2
+Inst43Quest4ITC2_HORDE = Itemc4;
+Inst43Quest4description2_HORDE = AQITEM_TRINKET
+Inst43Quest4ID2_HORDE = "28108"
 
 --Quest 5 Horde
 Inst43Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst43Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst43Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
 
 
 
