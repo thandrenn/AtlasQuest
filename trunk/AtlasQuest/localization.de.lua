@@ -5285,7 +5285,7 @@ Inst41Quest2_Level = "65"
 Inst41Quest2_Attain = "62"
 Inst41Quest2_Aim = "Findet heraus, was Naturalist Biss und Jäter Gründaum zugestoßen ist. Kehrt dann zu Behüterin Jhang zurück."
 Inst41Quest2_Location = "Behüterin Jhang (Sklavenunterkünften; "..BLUE.."Eingang"..WHITE..")."
-Inst41Quest2_Note = "Naturalist Biss befindet sich bei "..GREEN.."[3']"..WHITE.." und Jäter Gründaum befindet sich bei"..GREEN.."[1']"..WHITE.."."
+Inst41Quest2_Note = "Naturalist Biss befindet sich bei "..GREEN.."[3']"..WHITE.." und Jäter Gründaum befindet sich bei "..GREEN.."[1']"..WHITE.."."
 Inst41Quest2_Prequest = "Nein"
 Inst41Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5343,7 +5343,7 @@ Inst41Quest7 = "7. Splitter von Ahune (Saisonbedingt)"
 Inst41Quest7_Level = "85"
 Inst41Quest7_Attain = "85"
 Inst41Quest7_Aim = "Bringt die Eissplitter zu Luma Himmelsmutter."
-Inst41Quest7_Location = "Splitter von Ahune (befinden sich in der Eiskiste nachdem Ahune getötet wurde)"
+Inst41Quest7_Location = "Splitter von Ahune (befindet sich in der Eiskiste nachdem Ahune getötet wurde)"
 Inst41Quest7_Note = "Luma Himmelsmutter ist in der Nähe wo Du hingeportet wirst wenn du den Dungeonbrowser nutzt. Dieser Gegenstand droppt nur einmal pro Charakter."
 Inst41Quest7_Prequest = "Nein"
 Inst41Quest7_Folgequest = "Nein"
@@ -5443,110 +5443,123 @@ Inst41Quest7name3_HORDE = "Brandblüte"
 
 Inst42Story = "Die empfindliche Ökologie der Zangarmarschen wurde aus dem Gleichgewicht geworfen.\n\nUnnatürliche Phänomene beschädigen und zerstören die natürliche Pflanzen- und Tierwelt der Marschen.\n\nEiniges deutet darauf hin, dass diese Störungen ihren Ursprung im Echsenkessel haben.\n\nMan munkelt, dass der Anführer dieses mysteriösen Gebäudes niemand anders ist als die berüchtigte Lady Vashj.\n\nNur du kannst ihre ruchlosen Pläne entdecken und sie aufhalten, bevor es zu spät ist.\n\nDer Echsenkessel ist in vier Bereiche aufgeteilt, von denen drei Fünf-Spieler-Instanzen sind (die Sklavenunterkünfte, der Tiefensumpf, die Dampfkammer), dazu kommt die 25-Spieler-Instanz Höhle des Schlangenschreins. "
 Inst42Caption = "EK: Die Dampfkammer"
-Inst42QAA = "7 Quests"
-Inst42QAH = "7 Quests"
+Inst42QAA = "9 Quests"
+Inst42QAH = "9 Quests"
 
 --Quest 1 Alliance
-Inst42Quest1 = "1. Das Versteck des Kriegsherren"
-Inst42Quest1_Level = "70"
+Inst42Quest1 = "1. Sturm auf die Dampfkammer"
+Inst42Quest1_Level = "69"
 Inst42Quest1_Attain = "67"
-Inst42Quest1_Aim = "Behüterin Jhang möchte, dass Ihr Kriegsherr Kalithresh im Echsenkessel findet und tötet."
-Inst42Quest1_Location = "Behüterin Jhang (Echsenkessel; "..YELLOW.."52,36"..WHITE..")"
-Inst42Quest1_Note = "Behüterin Jhang ist in der Unterwasserhöhle am Versammlungsstein. Kriegsherr Kalithresh befindet sich bei "..YELLOW.."[3]"..WHITE..". Denkt dran, die Tanks zu zerstören, wenn Kalithresh sie benutzt."
+Inst42Quest1_Aim = "Sprecht mit Behüterin Jhang in der Dampfkammer."
+Inst42Quest1_Location = "Ysiel Windsänger (Zangamarschen - Zuflucht desCenarius; "..YELLOW.."78.4,62"..WHITE..")"
+Inst42Quest1_Note = "Behüterin Jhang befindet sich innerhalb Instanz (Dampfkammer; "..BLUE.."Eingang"..WHITE..")."
 Inst42Quest1_Prequest = "Nein"
 Inst42Quest1_Folgequest = "Nein"
---
-Inst42Quest1name1 = "Kopfband des Wasserbeschwörers"
-Inst42Quest1name2 = "Helm der Klaue"
-Inst42Quest1name3 = "Kappe des Erdenwächters"
-Inst42Quest1name4 = "Myrmidonenkopfputz"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst42Quest2 = "2. Befehle von Lady Vashj"
+Inst42Quest2 = "2. Ein gerechtes Schicksal"
 Inst42Quest2_Level = "70"
 Inst42Quest2_Attain = "67"
-Inst42Quest2_Aim = "Bringt die Befehle von Lady Vashj zu Ysiel Windsänger in der Zuflucht des Cenarius in den Zangarmarschen."
-Inst42Quest2_Location = "Befehle von Lady Vashj (zufälliger Drop in der Dampfkammer)"
-Inst42Quest2_Note = "Ysiel Windsänger befindet sich in den Zangarmarschen - Cenarion Refuge; ("..YELLOW.."78,62"..WHITE.."). Die Folgequest ermöglicht es, Waffen des Echsenkessels für Ruf bei der Expedition des Cenarius abzugeben. Waffen des Echsenkessels sind zufällige Dropps in der Dampfkammer und in der Höhle des Schlangenschreins und können gesammelt werden (ohne sie abgeben zu können), bevor man diese Quest hat. Sie sind nicht gebunden, also kann man mit ihnen handeln und sie von anderen Spielern erwerben."
+Inst42Quest2_Aim = "Tötet Kriegsherr Kalithresh und kehrt zu Behüterin Jhang in der Dampfkammer zurück."
+Inst42Quest2_Location = "Behüterin Jhang (Dampfkammer; "..BLUE.."Eingang"..WHITE..")."
+Inst42Quest2_Note = "Kriegsherr Kalithresh befindet sich bei "..YELLOW.."[3]"..WHITE..". Denkt dran, die Tanks zu zerstören, wenn Kalithresh sie benutzt."
 Inst42Quest2_Prequest = "Nein"
-Inst42Quest2_Folgequest = "Ja, Kriegsvorbereitungen"
-Inst42Quest2FQuest = "true"
+Inst42Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst42Quest3 = "3. Die Prüfung der Naaru: Stärke (Heroisch)"
+Inst42Quest3 = "3. Eindämmung ist der Schlüssel"
 Inst42Quest3_Level = "70"
-Inst42Quest3_Attain = "70"
-Inst42Quest3_Aim = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt."
-Inst42Quest3_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
-Inst42Quest3_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Kriegsherr Kalithresh befindet sich bei "..YELLOW.."[4]"..WHITE..". Murmurs Essenz droppt im Schattenlabyrinth.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
+Inst42Quest3_Attain = "67"
+Inst42Quest3_Aim = "Tötet 3 Sumpfoberanführer und 6 Aussätzige des Echsenkessels und erbeutet ein verstrahltes Zahnrad von Robogenieur Dampfhammer. Kehrt dann zu Naturalist Biss zurück."
+Inst42Quest3_Location = "Naturalist Biss (Dampfkammer; "..BLUE.."Eingang"..WHITE..")."
+Inst42Quest3_Note = "Sumpfoberanführer befinden sich im ersten Bereich der Instanz nahe dem Eingang. Die Aussätziger des Echsenkessels befinden sich beim Boss Robogenieur Dampfhammer bei "..YELLOW.."[2]"..WHITE..", dieser droppt das Verstrahltes Zahnrad."
 Inst42Quest3_Prequest = "Nein"
 Inst42Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst42Quest4 = "4. Unterweltlehm"
+Inst42Quest4 = "4. Windrufer Klaue und die Wasserdiebin"
 Inst42Quest4_Level = "70"
 Inst42Quest4_Attain = "67"
-Inst42Quest4_Aim = "Beschafft Euch ein Gefäß mit Unterweltlehm von Hydromant Thespia und bringt es zu David Wayne in Waynes Zuflucht."
-Inst42Quest4_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")"
-Inst42Quest4_Note = "Hydromant Thespia befindet sich bei "..YELLOW.."[1]"..WHITE..".\n\nDer Gegenstand droppt im normalen und heroischen Modus."
-Inst42Quest4_Prequest = "Ja, Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
-Inst42Quest4_Folgequest = "Ja, Bann der Illidari"
-Inst42Quest4FQuest = "true"
+Inst42Quest4_Aim = "Tötet Hydromantin Thespia und kehrt zu Windrufer Klaue in der Dampfkammer zurück."
+Inst42Quest4_Location = "Windrufer Klaue (Dampfkammer; "..BLUE.."Eingang"..WHITE..")."
+Inst42Quest4_Note = "Hydromantin Thespia befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst42Quest4_Prequest = "Nein"
+Inst42Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst42Quest5 = "5. Das zweite und das dritte Fragment"
+Inst42Quest5 = "5. Die Prüfung der Naaru: Stärke (Heroisch)"
 Inst42Quest5_Level = "70"
-Inst42Quest5_Attain = "68"
-Inst42Quest5_Aim = "Besorgt das zweite Schlüsselfragment aus einem arkanen Behälter im Echsenkessel und das dritte Schlüsselfragment aus einem arkanen Behälter in der Festung der Stürme. Kehrt dann zu Khadgar in Shattrath zurück."
-Inst42Quest5_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
-Inst42Quest5_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich bei "..DARKYELLOW.."[1]"..WHITE.." auf dem Grund des Wassers. Wenn man ihn öffnet, erscheint ein Elementar, der getötet werden muss, um das Fragment zu erhalten. Das dritte Schlüsselfragment befindet sich in der Arkatraz."
-Inst42Quest5_Prequest = "Ja, Nach Karazhan ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
-Inst42Quest5_Folgequest = "Ja, Die Berührung des Meisters ("..YELLOW.."HdZ: Der schwarze Morast"..WHITE..")"
-Inst42Quest5FQuest = "true"
+Inst42Quest5_Attain = "70"
+Inst42Quest5_Aim = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt."
+Inst42Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst42Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Kriegsherr Kalithresh befindet sich bei "..YELLOW.."[3]"..WHITE..". Murmurs Essenz droppt im Schattenlabyrinth.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
+Inst42Quest5_Prequest = "Nein"
+Inst42Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst42Quest6 = "6. Gesucht: Myrmidonen des Echsenkessels (Tagesquest)"
+Inst42Quest6 = "6. Unterweltlehm"
 Inst42Quest6_Level = "70"
-Inst42Quest6_Attain = "70"
-Inst42Quest6_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 14 Myrmidonen des Echsenkessels zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst42Quest6_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst42Quest6_Note = "Dies ist ein Tagesquest."
-Inst42Quest6_Prequest = "Nein"
-Inst42Quest6_Folgequest = "Nein"
---
-Inst42Quest6name1 = "Gefängnisschlüssel des Astraleums"
+Inst42Quest6_Attain = "67"
+Inst42Quest6_Aim = "Beschafft Euch ein Gefäß mit Unterweltlehm von Wasserbeschwörerin Thespia und bringt es zu David Wayne in Waynes Zuflucht."
+Inst42Quest6_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")"
+Inst42Quest6_Note = "Hydromantin Thespia befindet sich bei "..YELLOW.."[1]"..WHITE..".\n\nDer Gegenstand droppt im normalen und heroischen Modus."
+Inst42Quest6_Prequest = "Ja, Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
+Inst42Quest6_Folgequest = "Ja, Bann der Illidari"
+Inst42Quest6FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst42Quest7 = "7. Gesucht: Die Aufzeichnungen des Kriegsherren (Heroic Daily)"
+Inst42Quest7 = "7. Das zweite und das dritte Fragment"
 Inst42Quest7_Level = "70"
-Inst42Quest7_Attain = "70"
-Inst42Quest7_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm die Aufzeichnungen des Kriegsherren zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst42Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst42Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegsherr Kalithresh befindet sich bei "..YELLOW.."[3]"..WHITE.."."
-Inst42Quest7_Prequest = "Nein"
-Inst42Quest7_Folgequest = "Nein"
+Inst42Quest7_Attain = "68"
+Inst42Quest7_Aim = "Besorgt das zweite Schlüsselfragment aus einem arkanen Behälter im Echsenkessel und das dritte Schlüsselfragment aus einem arkanen Behälter in der Festung der Stürme. Kehrt dann zu Khadgar in Shattrath zurück."
+Inst42Quest7_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
+Inst42Quest7_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich bei "..DARKYELLOW.."[1]"..WHITE.." auf dem Grund des Wassers. Wenn man ihn öffnet, erscheint ein Elementar, der getötet werden muss, um das Fragment zu erhalten. Das dritte Schlüsselfragment befindet sich in der Arkatraz."
+Inst42Quest7_Prequest = "Ja, Nach Karazhan ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
+Inst42Quest7_Folgequest = "Ja, Die Berührung des Meisters ("..YELLOW.."HdZ: Der schwarze Morast"..WHITE..")"
+Inst42Quest7FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst42Quest8 = "8. Gesucht: Myrmidonen des Echsenkessels (Tagesquest)"
+Inst42Quest8_Level = "70"
+Inst42Quest8_Attain = "70"
+Inst42Quest8_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 14 Myrmidonen des Echsenkessels zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
+Inst42Quest8_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest8_Note = "Die Myrmidonen des Echsenkessels befinden sich überall in der Instanz."
+Inst42Quest8_Prequest = "Nein"
+Inst42Quest8_Folgequest = "Nein"
+--
+Inst42Quest8name1 = "Gefängnisschlüssel des Astraleums"
+
+--Quest 9 Alliance
+Inst42Quest9 = "9. Gesucht: Die Aufzeichnungen des Kriegsherren (Heroische Tagesquest)"
+Inst42Quest9_Level = "70"
+Inst42Quest9_Attain = "70"
+Inst42Quest9_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm die Aufzeichnungen des Kriegsherren zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst42Quest9_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest9_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegsherr Kalithresh befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst42Quest9_Prequest = "Nein"
+Inst42Quest9_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde
 Inst42Quest1_HORDE = Inst42Quest1
-Inst42Quest1_HORDE_Level = "70"
+Inst42Quest1_HORDE_Level = "69"
 Inst42Quest1_HORDE_Attain = "67"
 Inst42Quest1_HORDE_Aim = Inst42Quest1_Aim
 Inst42Quest1_HORDE_Location = Inst42Quest1_Location
 Inst42Quest1_HORDE_Note = Inst42Quest1_Note
 Inst42Quest1_HORDE_Prequest = "Nein"
 Inst42Quest1_HORDE_Folgequest = "Nein"
---
-Inst42Quest1name1_HORDE = Inst42Quest1name1
-Inst42Quest1name2_HORDE = "Helm der Klaue"
-Inst42Quest1name3_HORDE = Inst42Quest1name3
-Inst42Quest1name4_HORDE = Inst42Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst42Quest2_HORDE = Inst42Quest2
@@ -5557,7 +5570,6 @@ Inst42Quest2_HORDE_Location = Inst42Quest2_Location
 Inst42Quest2_HORDE_Note = Inst42Quest2_Note
 Inst42Quest2_HORDE_Prequest = "Nein"
 Inst42Quest2_HORDE_Folgequest = Inst42Quest2_Folgequest
-Inst42Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -5578,44 +5590,66 @@ Inst42Quest4_HORDE_Attain = "67"
 Inst42Quest4_HORDE_Aim = Inst42Quest4_Aim
 Inst42Quest4_HORDE_Location = Inst42Quest4_Location
 Inst42Quest4_HORDE_Note = Inst42Quest4_Note
-Inst42Quest4_HORDE_Prequest = Inst42Quest4_Prequest
-Inst42Quest4_HORDE_Folgequest = Inst42Quest4_Folgequest
-Inst42Quest4FQuest_HORDE = "true"
+Inst42Quest4_HORDE_Prequest = "Nein"
+Inst42Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Horde
 Inst42Quest5_HORDE = Inst42Quest5
 Inst42Quest5_HORDE_Level = "70"
-Inst42Quest5_HORDE_Attain = "68"
+Inst42Quest5_HORDE_Attain = "67"
 Inst42Quest5_HORDE_Aim = Inst42Quest5_Aim
 Inst42Quest5_HORDE_Location = Inst42Quest5_Location
 Inst42Quest5_HORDE_Note = Inst42Quest5_Note
-Inst42Quest5_HORDE_Prequest = Inst42Quest5_Prequest
-Inst42Quest5_HORDE_Folgequest = Inst42Quest5_Folgequest
-Inst42Quest5FQuest_HORDE = "true"
+Inst42Quest5_HORDE_Prequest = "Nein"
+Inst42Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Horde
 Inst42Quest6_HORDE = Inst42Quest6
 Inst42Quest6_HORDE_Level = "70"
-Inst42Quest6_HORDE_Attain = "70"
+Inst42Quest6_HORDE_Attain = "68"
 Inst42Quest6_HORDE_Aim = Inst42Quest6_Aim
 Inst42Quest6_HORDE_Location = Inst42Quest6_Location
 Inst42Quest6_HORDE_Note = Inst42Quest6_Note
-Inst42Quest6_HORDE_Prequest = "Nein"
-Inst42Quest6_HORDE_Folgequest = "Nein"
---
-Inst42Quest6name1_HORDE = Inst42Quest6name1
+Inst42Quest6_HORDE_Prequest = Inst42Quest6_Prequest
+Inst42Quest6_HORDE_Folgequest = Inst42Quest6_Folgequest
+Inst42Quest6FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 7 Horde
 Inst42Quest7_HORDE = Inst42Quest7
 Inst42Quest7_HORDE_Level = "70"
-Inst42Quest7_HORDE_Attain = "70"
+Inst42Quest7_HORDE_Attain = "68"
 Inst42Quest7_HORDE_Aim = Inst42Quest7_Aim
 Inst42Quest7_HORDE_Location = Inst42Quest7_Location
 Inst42Quest7_HORDE_Note = Inst42Quest7_Note
-Inst42Quest7_HORDE_Prequest = "Nein"
-Inst42Quest7_HORDE_Folgequest = "Nein"
+Inst42Quest7_HORDE_Prequest = Inst42Quest7_Prequest
+Inst42Quest7_HORDE_Folgequest = Inst42Quest7_Folgequest
+Inst42Quest7FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 8 Horde
+Inst42Quest8_HORDE = Inst42Quest8
+Inst42Quest8_HORDE_Level = "70"
+Inst42Quest8_HORDE_Attain = "70"
+Inst42Quest8_HORDE_Aim = Inst42Quest8_Aim
+Inst42Quest8_HORDE_Location = Inst42Quest8_Location
+Inst42Quest8_HORDE_Note = Inst42Quest8_Note
+Inst42Quest8_HORDE_Prequest = "Nein"
+Inst42Quest8_HORDE_Folgequest = "Nein"
+--
+Inst42Quest8name1_HORDE = Inst42Quest8name1
+
+--Quest 9 Horde
+Inst42Quest9_HORDE = Inst42Quest9
+Inst42Quest9_HORDE_Level = "70"
+Inst42Quest9_HORDE_Attain = "70"
+Inst42Quest9_HORDE_Aim = Inst42Quest9_Aim
+Inst42Quest9_HORDE_Location = Inst42Quest9_Location
+Inst42Quest9_HORDE_Note = Inst42Quest9_Note
+Inst42Quest9_HORDE_Prequest = "Nein"
+Inst42Quest9_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -5629,68 +5663,86 @@ Inst43QAA = "5 Quests"
 Inst43QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst43Quest1 = "1. Bei der Arbeit verschollen"
+Inst43Quest1 = "1. Verteidigung der Wildnis"
 Inst43Quest1_Level = "65"
-Inst43Quest1_Attain = "62"
-Inst43Quest1_Aim = "Findet heraus, was mit Erdbinder Rayge, Naturalist Biss, Jäter Gründaum und Windrufer Klaue geschehen ist. Kehrt dann zu Behüterin Jhang im Echsenkessel in den Zangarmarschen zurück."
-Inst43Quest1_Location = "Behüterin Jhang (Echsenkessel; "..YELLOW.."52,36"..WHITE..")"
-Inst43Quest1_Note = "Behüterin Jhang ist in der Unterwasserhöhle am Versammlungsstein. Erdbinder Rayge befindet sich bei "..GREEN.."[1']"..WHITE..", Windrufer Klaue befindet sich bei "..YELLOW.."[3]"..WHITE..".\n\nDie anderen beiden in den "..YELLOW.."[Sklavenunterkünften]"..WHITE.."."
-Inst43Quest1_Prequest = "Ja, Kanalisationspläne -> Fehlgeschlagene Operation"
+Inst43Quest1_Attain = "63"
+Inst43Quest1_Aim = "Sprecht mit Behüterin Jhang im Tiefensumpf."
+Inst43Quest1_Location = "Elementarist Morgh (Nagrand; "..YELLOW.."60.4,22.4"..WHITE..")"
+Inst43Quest1_Note = "Behüterin Jhang (Tiefensumpf; "..BLUE.."Eingang"..WHITE..")."
+Inst43Quest1_Prequest = "Nein"
 Inst43Quest1_Folgequest = "Nein"
-Inst43Quest1PreQuest = "true"
---
-Inst43Quest1name1 = "Cenarischer Ring des Zauberwirkens"
-Inst43Quest1name2 = "Goldrankenwickeltücher"
-Inst43Quest1name3 = "Dunkler Umhang der Marschen"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst43Quest2 = "2. Los geht's!"
+Inst43Quest2 = "2. Die Rettung der Expedition"
 Inst43Quest2_Level = "65"
 Inst43Quest2_Attain = "63"
-Inst43Quest2_Aim = "Besorgt einen Tiefensporendorn und bringt ihn zu T'shu in Sporeggar in den Zangarmarschen."
-Inst43Quest2_Location = "T'shu (Zangarmarschen - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
-Inst43Quest2_Note = "Du musst neutral bei den Sporeggar sein, um diese Quest zu erhalten. Der Tiefensporndorn befindet sich direkt hinter Hungarfenn bei "..YELLOW.."[1]"..WHITE.."."
+Inst43Quest2_Aim = "Findet heraus, was mit Erdbinder Rayge und Windrufer Klaue geschehen ist. Kehrt dann zu Behüterin Jhang zurück."
+Inst43Quest2_Location = "Behüterin Jhang (Tiefensumpf; "..BLUE.."Eingang"..WHITE..")."
+Inst43Quest2_Note = "Erdbinder Rayge befindet sich bei "..GREEN.."[1']"..WHITE..", Windrufer Klaue befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst43Quest2_Prequest = "Nein"
 Inst43Quest2_Folgequest = "Nein"
---
-Inst43Quest2name1 = "Unvergänglicher Tiefensporenfarn"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst43Quest3 = "3. Tötet die Mutter"
+Inst43Quest3 = "3. Ein notwendiges Übel"
 Inst43Quest3_Level = "65"
 Inst43Quest3_Attain = "63"
-Inst43Quest3_Aim = "Bringt das Gehirn der Schattenmutter zu Khn'nix in Sporeggar in den Zangarmarschen."
-Inst43Quest3_Location = "Khn'nix (Zangarmarschen - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
-Inst43Quest3_Note = "Du musst neutral bei den Sporeggar sein, um diese Quest zu erhalten. Die Schattenmutter befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst43Quest3_Aim = "Tötet Hungarfenn und kehrt zu Naturalist Biss zurück."
+Inst43Quest3_Location = "Naturalist Biss (Tiefensumpf; "..BLUE.."Eingang"..WHITE..")."
+Inst43Quest3_Note = "Hungarfenn befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst43Quest3_Prequest = "Nein"
 Inst43Quest3_Folgequest = "Nein"
---
-Inst43Quest3name1 = "Mit Essenz erfüllter Pilz"
-Inst43Quest3name2 = "Mit Macht erfüllter Pilz"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst43Quest4 = "4. Gesucht: Ei der Schattenmutter (Heroisches Tagesquest)"
-Inst43Quest4_Level = "70"
-Inst43Quest4_Attain = "70"
-Inst43Quest4_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm ein Ei der Schattenmutter zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst43Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst43Quest4_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDie Schattenmutter befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst43Quest4 = "4. Tötet die Mutter"
+Inst43Quest4_Level = "65"
+Inst43Quest4_Attain = "63"
+Inst43Quest4_Aim = "Tötet Hungarfenn und kehrt zu Naturalist Biss zurück."
+Inst43Quest4_Location = "T'shu (Tiefensumpf; "..BLUE.."Eingang"..WHITE..")."
+Inst43Quest4_Note = "Schattenmutter befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst43Quest4_Prequest = "Nein"
 Inst43Quest4_Folgequest = "Nein"
 --
--- Preis Gerechtigkeitspunkte.
+Inst43Quest4name1 = "Mit Essenz erfüllter Pilz"
+Inst43Quest4name2 = "Mit Macht erfüllter Pilz"
 
 --Quest 5 Alliance
 Inst43Quest5 = "5. Bringt mir ein Gebüsch!"
 Inst43Quest5_Level = "65"
 Inst43Quest5_Attain = "63"
-Inst43Quest5_Aim = "Sammelt 5 Stück Bluthibiskus und bringt sie zu Gzhun'tt in Sporeggar in den Zangarmarschen."
-Inst43Quest5_Location = "Gzhun'tt (Zangarmarschen - Sporeggar; "..YELLOW.."19,50"..WHITE..")"
+Inst43Quest5_Aim = "Sammelt 5 Bluthibisken und kehrt zu T'shu im Tiefensumpf zurück."
+Inst43Quest5_Location = "T'shu (Tiefensumpf; "..BLUE.."Eingang"..WHITE..")."
 Inst43Quest5_Note = "Man muss neutral zu Sporeggar sein, um diese Quest annehmen zu können. Die Folgequest ist wiederholbar und gibt jedes mal 750 Sporeggar Rufpunkte. Die Bluthibiskusse sind in der Instanz in der Nähe von Pflanzen verteilt und droppen auch von Sumpf Gegnern, auch von denen in der Dampfkammer. Sie können aber eventuell auch im Auktionshaus gefunden werden."
 Inst43Quest5_Prequest = "Nein"
 Inst43Quest5_Folgequest = "Ja, Bringt mir ein weiteres Gebüsch!"
 Inst43Quest5FQuest = "true"
 -- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst43Quest6 = "6. Bringt mir ein weiteres Gebüsch!"
+Inst43Quest6_Level = "65"
+Inst43Quest6_Attain = "63"
+Inst43Quest6_Aim = "Sammelt 5 Bluthibisken und kehrt zu T'shu im Tiefensumpf zurück."
+Inst43Quest6_Location = "T'shu (Tiefensumpf; "..BLUE.."Eingang"..WHITE..")."
+Inst43Quest6_Note = "Man muss neutral zu Sporeggar sein, um diese Quest annehmen zu können. Die Folgequest ist wiederholbar und gibt jedes mal 750 Sporeggar Rufpunkte. Die Bluthibiskusse sind in der Instanz in der Nähe von Pflanzen verteilt und droppen auch von Sumpf Gegnern, auch von denen in der Dampfkammer. Sie können aber eventuell auch im Auktionshaus gefunden werden."
+Inst43Quest6_Prequest = "Ja, Bringt mir ein Gebüsch!"
+Inst43Quest6_Folgequest = "Nein"
+Inst43Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst43Quest7 = "7. Gesucht: Ei der Schattenmutter (Heroische Tagesquest)"
+Inst43Quest7_Level = "70"
+Inst43Quest7_Attain = "70"
+Inst43Quest7_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm ein Ei der Schattenmutter zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst43Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst43Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDie Schattenmutter befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst43Quest7_Prequest = "Nein"
+Inst43Quest7_Folgequest = "Nein"
+--
+-- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde
@@ -5700,13 +5752,9 @@ Inst43Quest1_HORDE_Attain = "62"
 Inst43Quest1_HORDE_Aim = Inst43Quest1_Aim
 Inst43Quest1_HORDE_Location = Inst43Quest1_Location
 Inst43Quest1_HORDE_Note = Inst43Quest1_Note
-Inst43Quest1_HORDE_Prequest = Inst43Quest1_Prequest
+Inst43Quest1_HORDE_Prequest = "Nein"
 Inst43Quest1_HORDE_Folgequest = "Nein"
-Inst43Quest1PreQuest_HORDE = "true"
---
-Inst43Quest1name1_HORDE = Inst43Quest1name1
-Inst43Quest1name2_HORDE = Inst43Quest1name2
-Inst43Quest1name3_HORDE = Inst43Quest1name3
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst43Quest2_HORDE = Inst43Quest2
@@ -5717,8 +5765,7 @@ Inst43Quest2_HORDE_Location = Inst43Quest2_Location
 Inst43Quest2_HORDE_Note = Inst43Quest2_Note
 Inst43Quest2_HORDE_Prequest = "Nein"
 Inst43Quest2_HORDE_Folgequest = "Nein"
---
-Inst43Quest2name1_HORDE = Inst43Quest2name1
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst43Quest3_HORDE = Inst43Quest3
@@ -5729,21 +5776,20 @@ Inst43Quest3_HORDE_Location = Inst43Quest3_Location
 Inst43Quest3_HORDE_Note = Inst43Quest3_Note
 Inst43Quest3_HORDE_Prequest = "Nein"
 Inst43Quest3_HORDE_Folgequest = "Nein"
---
-Inst43Quest3name1_HORDE = Inst43Quest3name1
-Inst43Quest3name2_HORDE = Inst43Quest3name2
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst43Quest4_HORDE = Inst43Quest4
-Inst43Quest4_HORDE_Level = "70"
-Inst43Quest4_HORDE_Attain = "70"
+Inst43Quest4_HORDE_Level = "65"
+Inst43Quest4_HORDE_Attain = "63"
 Inst43Quest4_HORDE_Aim = Inst43Quest4_Aim
 Inst43Quest4_HORDE_Location = Inst43Quest4_Location
 Inst43Quest4_HORDE_Note = Inst43Quest4_Note
 Inst43Quest4_HORDE_Prequest = "Nein"
 Inst43Quest4_HORDE_Folgequest = "Nein"
 --
--- Preis Gerechtigkeitspunkte.
+Inst43Quest4name1_HORDE = Inst43Quest4name1
+Inst43Quest4name2_HORDE = Inst43Quest4name2
 
 --Quest 5 Horde
 Inst43Quest5_HORDE = Inst43Quest5
@@ -5756,6 +5802,30 @@ Inst43Quest5_HORDE_Prequest = "Nein"
 Inst43Quest5_HORDE_Folgequest = Inst43Quest5_Folgequest
 Inst43Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
+
+--Quest 6 Horde
+Inst43Quest6_HORDE = Inst43Quest6
+Inst43Quest6_HORDE_Level = "65"
+Inst43Quest6_HORDE_Attain = "63"
+Inst43Quest6_HORDE_Aim = Inst43Quest6_Aim
+Inst43Quest6_HORDE_Location = Inst43Quest6_Location
+Inst43Quest6_HORDE_Note = Inst43Quest4_Note
+Inst43Quest6_HORDE_Prequest = Inst43Quest6_Prequest
+Inst43Quest6_HORDE_Folgequest = "Nein"
+Inst43Quest6PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst43Quest7_HORDE = Inst43Quest7
+Inst43Quest7_HORDE_Level = "70"
+Inst43Quest7_HORDE_Attain = "70"
+Inst43Quest7_HORDE_Aim = Inst43Quest7_Aim
+Inst43Quest7_HORDE_Location = Inst43Quest7_Location
+Inst43Quest7_HORDE_Note = Inst43Quest7_Note
+Inst43Quest7_HORDE_Prequest = "Nein"
+Inst43Quest7_HORDE_Folgequest = "Nein"
+--
+-- Preis Gerechtigkeitspunkte.
 
 
 
