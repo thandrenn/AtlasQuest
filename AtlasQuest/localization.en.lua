@@ -5230,60 +5230,92 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 Inst41Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst41Caption = "CR: The Slave Pens"
-Inst41QAA = "4 Quests"
-Inst41QAH = "4 Quests"
+Inst41QAA = "7 Quests"
+Inst41QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst41Quest1 = "1. Lost in Action"
+Inst41Quest1 = "1. Checking Up"
 Inst41Quest1_Level = "65"
 Inst41Quest1_Attain = "62"
-Inst41Quest1_Aim = "Discover what happened to Earthbinder Rayge, Naturalist Bite, Weeder Greenthumb, and Windcaller Claw. Then, return to Watcher Jhang at Coilfang Reservoir in Zangarmarsh."
-Inst41Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..WHITE..")"
-Inst41Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Weeder Greenthumb is at "..GREEN.."[1']"..WHITE.." and Naturalist Bite is at "..GREEN.."[2']"..WHITE..". This quest continues in Underbog. The prequests are optional."
-Inst41Quest1_Prequest = "Drain Schematics -> Failed Incursion"
+Inst41Quest1_Aim = "Speak with Watcher Jhang in the Slave Pens. "
+Inst41Quest1_Location = "Ysiel Windsinger (Zangarmarsh - Cenarian Refuge; "..YELLOW.."78.4, 62.0"..WHITE..")"
+Inst41Quest1_Note = "Watcher Jhang is just inside the entrance of the dungeon."
+Inst41Quest1_Prequest = "None"
 Inst41Quest1_Folgequest = "None"
-Inst41Quest1PreQuest = "true"
---
-Inst41Quest1name1 = "Cenarion Ring of Casting"
-Inst41Quest1name2 = "Goldenvine Wraps"
-Inst41Quest1name3 = "Dark Cloak of the Marsh"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst41Quest2 = "2. Wanted: The Heart of Quagmirran (Heroic Daily)"
-Inst41Quest2_Level = "70"
-Inst41Quest2_Attain = "70"
-Inst41Quest2_Aim = "Wind Trader Zhareem has asked you to obtain The Heart of Quagmirran. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst41Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst41Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nQuagmirran is at "..YELLOW.."[3]"..WHITE.."."
+Inst41Quest2 = "2. Lost in Action"
+Inst41Quest2_Level = "65"
+Inst41Quest2_Attain = "62"
+Inst41Quest2_Aim = "Discover what happened to Naturalist Bite and Weeder Greenthumb. Then, return to Watcher Jhang."
+Inst41Quest2_Location = "Watcher Jhang (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst41Quest2_Note = "Weeder Greenthumb is at "..GREEN.."[1']"..WHITE.." and Naturalist Bite is at "..GREEN.."[3']"..WHITE.."."
 Inst41Quest2_Prequest = "None"
 Inst41Quest2_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst41Quest3 = "3. The Cudgel of Kar'desh (Heroic)"
-Inst41Quest3_Level = "70"
-Inst41Quest3_Attain = "70"
-Inst41Quest3_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
-Inst41Quest3_Location = "Skar'this the Heretic (Slave Pens; "..GREEN.."Heroic [2']"..WHITE..")"
-Inst41Quest3_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane in "..YELLOW.."Karazhan"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
+Inst41Quest3 = "3. A Brother Betrayed"
+Inst41Quest3_Level = "65"
+Inst41Quest3_Attain = "62"
+Inst41Quest3_Aim = "Kill Mennu the Betrayer, then return to Nahuud. "
+Inst41Quest3_Location = "Nahuud (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst41Quest3_Note = "Mennu the Betrayer is at "..YELLOW.."[1]"..WHITE.."."
 Inst41Quest3_Prequest = "None"
 Inst41Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst41Quest4 = "4. Shards of Ahune (Seasonal)"
-Inst41Quest4_Level = "80"
-Inst41Quest4_Attain = "75"
-Inst41Quest4_Aim = "Bring the Ice Shards to Luma Skymother."
-Inst41Quest4_Location = "Shards of Ahune (drops from Ice Chest after Ahune, The Frost Lord is killed)"
-Inst41Quest4_Note = "Luma Skymother is near where you teleport in using the Dungeon Finder. This item will only drop once per character."
+Inst41Quest4 = "4. The Heart of the Matter"
+Inst41Quest4_Level = "65"
+Inst41Quest4_Attain = "62"
+Inst41Quest4_Aim = "Bring The Invader's Claw and The Slave Master's Eye to Watcher Jhang. "
+Inst41Quest4_Location = "Watcher Jhang (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst41Quest4_Note = "The Claw drops from Rokmar the Crackler at "..YELLOW.."[2]"..WHITE.." and the Slave Master's Eye drops from Quagmirran at "..YELLOW.."[3]"..WHITE.."."
 Inst41Quest4_Prequest = "None"
 Inst41Quest4_Folgequest = "None"
 --
-Inst41Quest4name1 = "Tabard of Summer Skies"
-Inst41Quest4name2 = "Tabard of Summer Flames"
-Inst41Quest4name3 = "Burning Blossom"
+Inst41Quest4name1 = "Cenarion Ring of Casting"
+Inst41Quest4name2 = "Goldenvine Wraps"
+Inst41Quest4name3 = "Dark Cloak of the Marsh"
+
+--Quest 5 Alliance
+Inst41Quest5 = "5. Wanted: The Heart of Quagmirran (Heroic Daily)"
+Inst41Quest5_Level = "70"
+Inst41Quest5_Attain = "70"
+Inst41Quest5_Aim = "Wind Trader Zhareem has asked you to obtain The Heart of Quagmirran. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst41Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst41Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nQuagmirran is at "..YELLOW.."[3]"..WHITE.."."
+Inst41Quest5_Prequest = "None"
+Inst41Quest5_Folgequest = "None"
+--
+-- Awards Justice Points.
+
+--Quest 6 Alliance
+Inst41Quest6 = "6. The Cudgel of Kar'desh (Heroic)"
+Inst41Quest6_Level = "70"
+Inst41Quest6_Attain = "70"
+Inst41Quest6_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
+Inst41Quest6_Location = "Skar'this the Heretic (Slave Pens; "..GREEN.."Heroic [2']"..WHITE..")"
+Inst41Quest6_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane in "..YELLOW.."Karazhan"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary."
+Inst41Quest6_Prequest = "None"
+Inst41Quest6_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst41Quest7 = "7. Shards of Ahune (Seasonal)"
+Inst41Quest7_Level = "85"
+Inst41Quest7_Attain = "85"
+Inst41Quest7_Aim = "Bring the Ice Shards to Luma Skymother."
+Inst41Quest7_Location = "Shards of Ahune (drops from Ice Chest after Ahune, The Frost Lord is killed)"
+Inst41Quest7_Note = "Luma Skymother is near where you teleport in using the Dungeon Finder. This item will only drop once per character."
+Inst41Quest7_Prequest = "None"
+Inst41Quest7_Folgequest = "None"
+--
+Inst41Quest7name1 = "Tabard of Summer Skies"
+Inst41Quest7name2 = "Tabard of Summer Flames"
+Inst41Quest7name3 = "Burning Blossom"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -5295,11 +5327,7 @@ Inst41Quest1_HORDE_Location = Inst41Quest1_Location
 Inst41Quest1_HORDE_Note = Inst41Quest1_Note
 Inst41Quest1_HORDE_Prequest = Inst41Quest1_Prequest
 Inst41Quest1_HORDE_Folgequest = Inst41Quest1_Folgequest
-Inst41Quest1PreQuest_HORDE = Inst41Quest1PreQuest
---
-Inst41Quest1name1_HORDE = Inst41Quest1name1
-Inst41Quest1name2_HORDE = Inst41Quest1name2
-Inst41Quest1name3_HORDE = Inst41Quest1name3
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst41Quest2_HORDE = Inst41Quest2
@@ -5310,8 +5338,6 @@ Inst41Quest2_HORDE_Location = Inst41Quest2_Location
 Inst41Quest2_HORDE_Note = Inst41Quest2_Note
 Inst41Quest2_HORDE_Prequest = Inst41Quest2_Prequest
 Inst41Quest2_HORDE_Folgequest = Inst41Quest2_Folgequest
---
--- Awards Justice Points.
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst41Quest3_HORDE = Inst41Quest3
@@ -5338,97 +5364,152 @@ Inst41Quest4name1_HORDE = Inst41Quest4name1
 Inst41Quest4name2_HORDE = Inst41Quest4name2
 Inst41Quest4name3_HORDE = Inst41Quest4name3
 
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst41Quest5_HORDE = Inst41Quest5
+Inst41Quest5_HORDE_Level = Inst41Quest5_Level
+Inst41Quest5_HORDE_Attain = Inst41Quest5_Attain
+Inst41Quest5_HORDE_Aim = Inst41Quest5_Aim
+Inst41Quest5_HORDE_Location = Inst41Quest5_Location
+Inst41Quest5_HORDE_Note = Inst41Quest5_Note
+Inst41Quest5_HORDE_Prequest = Inst41Quest5_Prequest
+Inst41Quest5_HORDE_Folgequest = Inst41Quest5_Folgequest
+--
+-- Awards Justice Points.
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst41Quest6_HORDE = Inst41Quest6
+Inst41Quest6_HORDE_Level = Inst41Quest6_Level
+Inst41Quest6_HORDE_Attain = Inst41Quest6_Attain
+Inst41Quest6_HORDE_Aim = Inst41Quest6_Aim
+Inst41Quest6_HORDE_Location = Inst41Quest6_Location
+Inst41Quest6_HORDE_Note = Inst41Quest6_Note
+Inst41Quest6_HORDE_Prequest = Inst41Quest6_Prequest
+Inst41Quest6_HORDE_Folgequest = Inst41Quest6_Folgequest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst41Quest7_HORDE = Inst41Quest7
+Inst41Quest7_HORDE_Level = Inst41Quest7_Level
+Inst41Quest7_HORDE_Attain = Inst41Quest7_Attain
+Inst41Quest7_HORDE_Aim = Inst41Quest7_Aim
+Inst41Quest7_HORDE_Location = Inst41Quest7_Location
+Inst41Quest7_HORDE_Note = Inst41Quest7_Note
+Inst41Quest7_HORDE_Prequest = Inst41Quest7_Prequest
+Inst41Quest7_HORDE_Folgequest = Inst41Quest7_Folgequest
+--
+Inst41Quest7name1_HORDE = Inst41Quest7name1
+Inst41Quest7name2_HORDE = Inst41Quest7name2
+Inst41Quest7name3_HORDE = Inst41Quest7name3
+
 
 
 --------------- INST42 - CR: The Steamvault (SV) ---------------
 
 Inst42Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst42Caption = "CR: The Steamvault"
-Inst42QAA = "7 Quests"
-Inst42QAH = "7 Quests"
+Inst42QAA = "9 Quests"
+Inst42QAH = "9 Quests"
 
 --Quest 1 Alliance
-Inst42Quest1 = "1. The Warlord's Hideout"
-Inst42Quest1_Level = "70"
+Inst42Quest1 = "1. Storming the Steamvault"
+Inst42Quest1_Level = "69"
 Inst42Quest1_Attain = "67"
-Inst42Quest1_Aim = "Watcher Jhang wants you to find and slay Warlord Kalithresh inside Coilfang Reservoir."
-Inst42Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..WHITE..")"
-Inst42Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Warlord Kalithresh is at "..YELLOW.."[3]"..WHITE..". Make sure to destroy the Tanks when Kalithresh uses them."
+Inst42Quest1_Aim = "Speak with Watcher Jhang in the Steamvault."
+Inst42Quest1_Location = "Ysiel Windsinger (Zangarmarsh - Cenarian Refuge; "..YELLOW.."78.4, 62.0"..WHITE..")"
+Inst42Quest1_Note = "Watcher Jhang is just inside the entrance of the dungeon."
 Inst42Quest1_Prequest = "None"
 Inst42Quest1_Folgequest = "None"
---
-Inst42Quest1name1 = "Hydromancer's Headwrap"
-Inst42Quest1name2 = "Helm of the Claw"
-Inst42Quest1name3 = "Earthwarden's Coif"
-Inst42Quest1name4 = "Myrmidon's Headdress"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst42Quest2 = "2. Orders from Lady Vashj"
+Inst42Quest2 = "2. A Proper Fate"
 Inst42Quest2_Level = "70"
 Inst42Quest2_Attain = "67"
-Inst42Quest2_Aim = "Deliver the Orders from Lady Vashj to Ysiel Windsinger at the Cenarion Refuge in Zangarmarsh."
-Inst42Quest2_Location = "Orders from Lady Vashj (random drop from Steamvaults)"
-Inst42Quest2_Note = "Ysiel Windsinger is at Terrokar Forest - Cenarion Refuge; ("..YELLOW.."78,62"..WHITE.."). The followup quest enables you to turn in Coilfang Armaments for Cenarion Expedition reputation. Coilfang Armaments are randomly dropped from Steamvaults and Serpentshrine Cavern and can be collected (but not turned in) before you do this quest. They do not bind, so they can be traded or bought from other players."
+Inst42Quest2_Aim = "Kill Warlord Kalithresh and return to Watcher Jhang inside the Steamvault."
+Inst42Quest2_Location = "Watcher Jhang (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst42Quest2_Note = "Warlord Kalithresh is at "..YELLOW.."[3]"..WHITE..". Be sure to destroy the tanks when Kalithresh uses them."
 Inst42Quest2_Prequest = "None"
-Inst42Quest2_Folgequest = "Preparing for War"
+Inst42Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst42Quest3 = "3. Trial of the Naaru: Strength (Heroic)"
+Inst42Quest3 = "3. Containment is Key"
 Inst42Quest3_Level = "70"
-Inst42Quest3_Attain = "70"
-Inst42Quest3_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
-Inst42Quest3_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst42Quest3_Note = "Requires Heroic Dungeon Difficulty. Warlord Kalithresh is at "..YELLOW.."[3]"..WHITE..". Murmur's Essence comes from Shadow Labyrinth.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
+Inst42Quest3_Attain = "67"
+Inst42Quest3_Aim = "Kill 3 Bog Overlords, 6 Coilfang Lepers, and obtain an Irradiated Gear from Mekgineer Steamrigger, then return to Naturalist Bite inside the Steamvault. "
+Inst42Quest3_Location = "Naturalist Bite (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst42Quest3_Note = "The Bog Overlords are just beyond the entrance.  Coilfang Lepers are near Mekgineer Steamrigger, at "..YELLOW.."[2]"..WHITE.."."
 Inst42Quest3_Prequest = "None"
 Inst42Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst42Quest4 = "4. Underworld Loam"
+Inst42Quest4 = "4. Windcaller Claw and the Water Thief"
 Inst42Quest4_Level = "70"
 Inst42Quest4_Attain = "67"
-Inst42Quest4_Aim = "Get a Vial of Underworld Loam from Hydromancer Thespia and bring it to David Wayne at Wayne's Refuge."
-Inst42Quest4_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")"
-Inst42Quest4_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE..".\n\nThe item will drop in both Normal and Heroic modes."
-Inst42Quest4_Prequest = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
-Inst42Quest4_Folgequest = "Bane of the Illidari"
-Inst42Quest4PreQuest = "true"
+Inst42Quest4_Aim = "Kill Hydromancer Thespia and return to Windcaller Claw inside the Steamvault."
+Inst42Quest4_Location = "Windcaller Claw (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst42Quest4_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE.."."
+Inst42Quest4_Prequest = "None"
+Inst42Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst42Quest5 = "5. The Second and Third Fragments"
+Inst42Quest5 = "5. Trial of the Naaru: Strength (Heroic)"
 Inst42Quest5_Level = "70"
-Inst42Quest5_Attain = "68"
-Inst42Quest5_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
+Inst42Quest5_Attain = "70"
+Inst42Quest5_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
 Inst42Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst42Quest5_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..", at the bottom of a pool of water on the way to Hydromancer Thespia. Opening it will spawn an elemental that must be killed to get the fragment.\n\nThe Third Key Fragment is in the Arcatraz."
-Inst42Quest5_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
-Inst42Quest5_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
-Inst42Quest5PreQuest = "true"
+Inst42Quest5_Note = "Requires Heroic Dungeon Difficulty. Warlord Kalithresh is at "..YELLOW.."[3]"..WHITE..". Murmur's Essence comes from Shadow Labyrinth.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
+Inst42Quest5_Prequest = "None"
+Inst42Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst42Quest6 = "6. Wanted: Coilfang Myrmidons (Daily)"
+Inst42Quest6 = "6. Underworld Loam"
 Inst42Quest6_Level = "70"
-Inst42Quest6_Attain = "70"
-Inst42Quest6_Aim = "Nether-Stalker Mah'duun has asked you to slay 14 Coilfang Myrmidons. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst42Quest6_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst42Quest6_Note = "This is a daily quest."
-Inst42Quest6_Prequest = "None"
-Inst42Quest6_Folgequest = "None"
---
-Inst42Quest6name1 = "Ethereum Prison Key"
+Inst42Quest6_Attain = "67"
+Inst42Quest6_Aim = "Get a Vial of Underworld Loam from Hydromancer Thespia and bring it to David Wayne at Wayne's Refuge."
+Inst42Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")"
+Inst42Quest6_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE..".\n\nThe item will drop in both Normal and Heroic modes."
+Inst42Quest6_Prequest = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
+Inst42Quest6_Folgequest = "Bane of the Illidari"
+Inst42Quest6PreQuest = "true"
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst42Quest7 = "7. Wanted: The Warlord's Treatise (Heroic Daily)"
+Inst42Quest7 = "7. The Second and Third Fragments"
 Inst42Quest7_Level = "70"
-Inst42Quest7_Attain = "70"
-Inst42Quest7_Aim = "Wind Trader Zhareem has asked you to acquire The Warlord's Treatise. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst42Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst42Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[3]"..WHITE.."."
-Inst42Quest7_Prequest = "None"
-Inst42Quest7_Folgequest = "None"
+Inst42Quest7_Attain = "68"
+Inst42Quest7_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
+Inst42Quest7_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst42Quest7_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..", at the bottom of a pool of water on the way to Hydromancer Thespia. Opening it will spawn an elemental that must be killed to get the fragment.\n\nThe Third Key Fragment is in the Arcatraz."
+Inst42Quest7_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
+Inst42Quest7_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
+Inst42Quest7PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst42Quest8 = "8. Wanted: Coilfang Myrmidons (Daily)"
+Inst42Quest8_Level = "70"
+Inst42Quest8_Attain = "70"
+Inst42Quest8_Aim = "Nether-Stalker Mah'duun has asked you to slay 14 Coilfang Myrmidons. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst42Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest8_Note = "This is a daily quest."
+Inst42Quest8_Prequest = "None"
+Inst42Quest8_Folgequest = "None"
+--
+Inst42Quest8name1 = "Ethereum Prison Key"
+
+--Quest 9 Alliance
+Inst42Quest9 = "9. Wanted: The Warlord's Treatise (Heroic Daily)"
+Inst42Quest9_Level = "70"
+Inst42Quest9_Attain = "70"
+Inst42Quest9_Aim = "Wind Trader Zhareem has asked you to acquire The Warlord's Treatise. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst42Quest9_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest9_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[3]"..WHITE.."."
+Inst42Quest9_Prequest = "None"
+Inst42Quest9_Folgequest = "None"
 --
 -- Awards Justice Points.
 
@@ -5442,11 +5523,7 @@ Inst42Quest1_HORDE_Location = Inst42Quest1_Location
 Inst42Quest1_HORDE_Note = Inst42Quest1_Note
 Inst42Quest1_HORDE_Prequest = Inst42Quest1_Prequest
 Inst42Quest1_HORDE_Folgequest = Inst42Quest1_Folgequest
---
-Inst42Quest1name1_HORDE = Inst42Quest1name1
-Inst42Quest1name2_HORDE = Inst42Quest1name2
-Inst42Quest1name3_HORDE = Inst42Quest1name3
-Inst42Quest1name4_HORDE = Inst42Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst42Quest2_HORDE = Inst42Quest2
@@ -5479,7 +5556,6 @@ Inst42Quest4_HORDE_Location = Inst42Quest4_Location
 Inst42Quest4_HORDE_Note = Inst42Quest4_Note
 Inst42Quest4_HORDE_Prequest = Inst42Quest4_Prequest
 Inst42Quest4_HORDE_Folgequest = Inst42Quest4_Folgequest
-Inst42Quest4PreQuest_HORDE = Inst42Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -5491,7 +5567,6 @@ Inst42Quest5_HORDE_Location = Inst42Quest5_Location
 Inst42Quest5_HORDE_Note = Inst42Quest5_Note
 Inst42Quest5_HORDE_Prequest = Inst42Quest5_Prequest
 Inst42Quest5_HORDE_Folgequest = Inst42Quest5_Folgequest
-Inst42Quest5PreQuest_HORDE = Inst42Quest5PreQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -5503,8 +5578,8 @@ Inst42Quest6_HORDE_Location = Inst42Quest6_Location
 Inst42Quest6_HORDE_Note = Inst42Quest6_Note
 Inst42Quest6_HORDE_Prequest = Inst42Quest6_Prequest
 Inst42Quest6_HORDE_Folgequest = Inst42Quest6_Folgequest
---
-Inst42Quest6name1_HORDE = Inst42Quest6name1
+Inst42Quest6PreQuest_HORDE = Inst42Quest6PreQuest
+-- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst42Quest7_HORDE = Inst42Quest7
@@ -5515,6 +5590,30 @@ Inst42Quest7_HORDE_Location = Inst42Quest7_Location
 Inst42Quest7_HORDE_Note = Inst42Quest7_Note
 Inst42Quest7_HORDE_Prequest = Inst42Quest7_Prequest
 Inst42Quest7_HORDE_Folgequest = Inst42Quest7_Folgequest
+Inst42Quest7PreQuest_HORDE = Inst42Quest7PreQuest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst42Quest8_HORDE = Inst42Quest8
+Inst42Quest8_HORDE_Level = Inst42Quest8_Level
+Inst42Quest8_HORDE_Attain = Inst42Quest8_Attain
+Inst42Quest8_HORDE_Aim = Inst42Quest8_Aim
+Inst42Quest8_HORDE_Location = Inst42Quest8_Location
+Inst42Quest8_HORDE_Note = Inst42Quest8_Note
+Inst42Quest8_HORDE_Prequest = Inst42Quest8_Prequest
+Inst42Quest8_HORDE_Folgequest = Inst42Quest8_Folgequest
+--
+Inst42Quest8name1_HORDE = Inst42Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst42Quest9_HORDE = Inst42Quest9
+Inst42Quest9_HORDE_Level = Inst42Quest9_Level
+Inst42Quest9_HORDE_Attain = Inst42Quest9_Attain
+Inst42Quest9_HORDE_Aim = Inst42Quest9_Aim
+Inst42Quest9_HORDE_Location = Inst42Quest9_Location
+Inst42Quest9_HORDE_Note = Inst42Quest9_Note
+Inst42Quest9_HORDE_Prequest = Inst42Quest9_Prequest
+Inst42Quest9_HORDE_Folgequest = Inst42Quest9_Folgequest
 --
 -- Awards Justice Points.
 
@@ -5524,71 +5623,89 @@ Inst42Quest7_HORDE_Folgequest = Inst42Quest7_Folgequest
 
 Inst43Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst43Caption = "CR: The Underbog"
-Inst43QAA = "5 Quests"
-Inst43QAH = "5 Quests"
+Inst43QAA = "7 Quests"
+Inst43QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst43Quest1 = "1. Lost in Action"
+Inst43Quest1 = "1. Defending the Wilds"
 Inst43Quest1_Level = "65"
-Inst43Quest1_Attain = "62"
-Inst43Quest1_Aim = "Discover what happened to Earthbinder Rayge, Naturalist Bite, Weeder Greenthumb, and Windcaller Claw. Then, return to Watcer Jhang at Coilfang Reservoir in Zangarmarsh."
-Inst43Quest1_Location = "Watcher Jhang (Coilfang Reservoir; "..YELLOW.."52,36"..WHITE..")"
-Inst43Quest1_Note = "Watcher Jhang is in the underwater cavern at the summoning stone. Earthbinder Rayge is at "..GREEN.."[1']"..WHITE..", Windcaller Claw is at "..YELLOW.."[3]"..WHITE..".\n\nThe other two NPCs are in the "..YELLOW.."[Slave Pens]"..WHITE..". The prequests are not required."
-Inst43Quest1_Prequest = "Drain Schematics -> Failed Incursion"
+Inst43Quest1_Attain = "63"
+Inst43Quest1_Aim = "Speak with Watcher Jhang in the Underbog."
+Inst43Quest1_Location = "Elementalist Morgh (Nagrand - Throne of the Elements; "..YELLOW.."60.6, 22.4"..WHITE..")"
+Inst43Quest1_Note = "Watcher Jhang is just inside the entrance of the instance."
+Inst43Quest1_Prequest = "None"
 Inst43Quest1_Folgequest = "None"
-Inst43Quest1PreQuest = "true"
---
-Inst43Quest1name1 = "Cenarion Ring of Casting"
-Inst43Quest1name2 = "Goldenvine Wraps"
-Inst43Quest1name3 = "Dark Cloak of the Marsh"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst43Quest2 = "2. Oh, It's On!"
+Inst43Quest2 = "2. Rescuing the Expedition"
 Inst43Quest2_Level = "65"
 Inst43Quest2_Attain = "63"
-Inst43Quest2_Aim = "Gather an Underspore Frond and return it to T'shu at Sporeggar in Zangarmarsh."
-Inst43Quest2_Location = "T'shu (Zangarmarsh - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
-Inst43Quest2_Note = "You must be Neutral with Sporeggar to pick up this quest. The Underspore Frond is just behind Hungarfen at "..YELLOW.."[1]"..WHITE.."."
+Inst43Quest2_Aim = "Discover what happened to Earthbinder Rayge and Windcaller Claw. Then, return to Watcher Jhang."
+Inst43Quest2_Location = "Watcher Jhang (The Underbog; "..BLUE.."Entrance"..WHITE..")"
+Inst43Quest2_Note = "Earthbinder Rayge is at "..GREEN.."[1']"..WHITE..", Windcaller Claw is at "..YELLOW.."[3]"..WHITE.."."
 Inst43Quest2_Prequest = "None"
 Inst43Quest2_Folgequest = "None"
---
-Inst43Quest2name1 = "Everlasting Underspore Frond"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst43Quest3 = "3. Stalk the Stalker"
+Inst43Quest3 = "3. A Necessary Evil"
 Inst43Quest3_Level = "65"
 Inst43Quest3_Attain = "63"
-Inst43Quest3_Aim = "Bring the Brain of the Black Stalker to Khn'nix at Sporeggar in Zangarmarsh."
-Inst43Quest3_Location = "Khn'nix (Zangarmarsh - Sporeggar; "..YELLOW.."19,49"..WHITE..")"
-Inst43Quest3_Note = "You must be Neutral with Sporeggar to pick up this quest. The Black Stalker is located at "..YELLOW.."[4]"..WHITE.."."
+Inst43Quest3_Aim = "Kill Hungarfen, then report back to Naturalist Bite."
+Inst43Quest3_Location = "Naturalist Bite (The Underbog; "..BLUE.."Entrance"..WHITE..")"
+Inst43Quest3_Note = "Hungarfen is at "..YELLOW.."[1]"..WHITE.."."
 Inst43Quest3_Prequest = "None"
 Inst43Quest3_Folgequest = "None"
---
-Inst43Quest3name1 = "Essence Infused Mushroom"
-Inst43Quest3name2 = "Power Infused Mushroom"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst43Quest4 = "4. Wanted: A Black Stalker Egg (Heroic Daily)"
-Inst43Quest4_Level = "70"
-Inst43Quest4_Attain = "70"
-Inst43Quest4_Aim = "Wind Trader Zhareem wants you to obtain a Black Stalker Egg. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst43Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst43Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Stalker is at "..YELLOW.."[4]"..WHITE.."."
+Inst43Quest4 = "4. Stalk the Stalker"
+Inst43Quest4_Level = "65"
+Inst43Quest4_Attain = "63"
+Inst43Quest4_Aim = "Bring the Brain of the Black Stalker to T'shu."
+Inst43Quest4_Location = "T'shu (The Underbog; "..BLUE.."Entrance"..WHITE..")"
+Inst43Quest4_Note = "The Black Stalker is located at "..YELLOW.."[4]"..WHITE.."."
 Inst43Quest4_Prequest = "None"
 Inst43Quest4_Folgequest = "None"
 --
--- Awards Justice Points.
+Inst43Quest4name1 = "Essence Infused Mushroom"
+Inst43Quest4name2 = "Power Infused Mushroom"
 
 --Quest 5 Alliance
 Inst43Quest5 = "5. Bring Me A Shrubbery!"
 Inst43Quest5_Level = "65"
 Inst43Quest5_Attain = "63"
-Inst43Quest5_Aim = "Collect 5 Sanguine Hibiscus and return them to Gzhun'tt at Sporeggar in Zangarmarsh."
-Inst43Quest5_Location = "Gzhun'tt (Zangarmarsh - Sporeggar; "..YELLOW.."19,50"..WHITE..")"
-Inst43Quest5_Note = "You must be Neutral with Sporeggar to pick up this quest. The followup is just a repeatable quest that gives 750 Sporeggar Reputation with each turn-in. The Sanguine Hibiscus are scattered throughout Underbog near plants and also drop off of Bog mobs, including those in Steamvault. They are also tradeable and can be found on the Auction House."
+Inst43Quest5_Aim = "Collect 5 Sanguine Hibiscus and return them to T'shu in the Underbog."
+Inst43Quest5_Location = "T'shu (The Underbog; "..BLUE.."Entrance"..WHITE..")"
+Inst43Quest5_Note = "The Sanguine Hibiscus are scattered throughout Underbog near plants and also drop off of Bog mobs, including those in Steamvault. They are also tradeable and can be found on the Auction House."
 Inst43Quest5_Prequest = "None"
 Inst43Quest5_Folgequest = "Bring Me Another Shrubbery!"
 -- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst43Quest6 = "6. Bring Me Another Shrubbery!"
+Inst43Quest6_Level = "65"
+Inst43Quest6_Attain = "63"
+Inst43Quest6_Aim = "We can still use more sanguine hibiscus. We're always struggling to find more."
+Inst43Quest6_Location = "T'shu (The Underbog; "..BLUE.."Entrance"..WHITE..")"
+Inst43Quest6_Note = "This is a repeatable version of the previous quest.\n\nThe Sanguine Hibiscus are scattered throughout Underbog near plants and also drop off of Bog mobs, including those in Steamvault. They are also tradeable and can be found on the Auction House."
+Inst43Quest6_Prequest = "Bring Me A Shrubbery!"
+Inst43Quest6_Folgequest = "None"
+Inst43Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst43Quest7 = "7. Wanted: A Black Stalker Egg (Heroic Daily)"
+Inst43Quest7_Level = "70"
+Inst43Quest7_Attain = "70"
+Inst43Quest7_Aim = "Wind Trader Zhareem wants you to obtain a Black Stalker Egg. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst43Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst43Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Stalker is at "..YELLOW.."[4]"..WHITE.."."
+Inst43Quest7_Prequest = "None"
+Inst43Quest7_Folgequest = "None"
+--
+-- Awards Justice Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -5601,10 +5718,7 @@ Inst43Quest1_HORDE_Note = Inst43Quest1_Note
 Inst43Quest1_HORDE_Prequest = Inst43Quest1_Prequest
 Inst43Quest1_HORDE_Folgequest = Inst43Quest1_Folgequest
 Inst43Quest1PreQuest_HORDE = Inst43Quest1PreQuest
---
-Inst43Quest1name1_HORDE = Inst43Quest1name1
-Inst43Quest1name2_HORDE = Inst43Quest1name2
-Inst43Quest1name3_HORDE = Inst43Quest1name3
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst43Quest2_HORDE = Inst43Quest2
@@ -5615,8 +5729,7 @@ Inst43Quest2_HORDE_Location = Inst43Quest2_Location
 Inst43Quest2_HORDE_Note = Inst43Quest2_Note
 Inst43Quest2_HORDE_Prequest = Inst43Quest2_Prequest
 Inst43Quest2_HORDE_Folgequest = Inst43Quest2_Folgequest
---
-Inst43Quest2name1_HORDE = Inst43Quest2name1
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst43Quest3_HORDE = Inst43Quest3
@@ -5627,9 +5740,7 @@ Inst43Quest3_HORDE_Location = Inst43Quest3_Location
 Inst43Quest3_HORDE_Note = Inst43Quest3_Note
 Inst43Quest3_HORDE_Prequest = Inst43Quest3_Prequest
 Inst43Quest3_HORDE_Folgequest = Inst43Quest3_Folgequest
---
-Inst43Quest3name1_HORDE = Inst43Quest3name1
-Inst43Quest3name2_HORDE = Inst43Quest3name2
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst43Quest4_HORDE = Inst43Quest4
@@ -5641,7 +5752,8 @@ Inst43Quest4_HORDE_Note = Inst43Quest4_Note
 Inst43Quest4_HORDE_Prequest = Inst43Quest4_Prequest
 Inst43Quest4_HORDE_Folgequest = Inst43Quest4_Folgequest
 --
--- Awards Justice Points.
+Inst43Quest4name1_HORDE = Inst43Quest4name1
+Inst43Quest4name2_HORDE = Inst43Quest4name2
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst43Quest5_HORDE = Inst43Quest5
@@ -5653,6 +5765,30 @@ Inst43Quest5_HORDE_Note = Inst43Quest5_Note
 Inst43Quest5_HORDE_Prequest = Inst43Quest5_Prequest
 Inst43Quest5_HORDE_Folgequest = Inst43Quest5_Folgequest
 -- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst43Quest6_HORDE = Inst43Quest6
+Inst43Quest6_HORDE_Level = Inst43Quest6_Level
+Inst43Quest6_HORDE_Attain = Inst43Quest6_Attain
+Inst43Quest6_HORDE_Aim = Inst43Quest6_Aim
+Inst43Quest6_HORDE_Location = Inst43Quest6_Location
+Inst43Quest6_HORDE_Note = Inst43Quest6_Note
+Inst43Quest6_HORDE_Prequest = Inst43Quest6_Prequest
+Inst43Quest6_HORDE_Folgequest = Inst43Quest6_Folgequest
+Inst43Quest6PreQuest_HORDE = Inst43Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst43Quest7_HORDE = Inst43Quest7
+Inst43Quest7_HORDE_Level = Inst43Quest7_Level
+Inst43Quest7_HORDE_Attain = Inst43Quest7_Attain
+Inst43Quest7_HORDE_Aim = Inst43Quest7_Aim
+Inst43Quest7_HORDE_Location = Inst43Quest7_Location
+Inst43Quest7_HORDE_Note = Inst43Quest7_Note
+Inst43Quest7_HORDE_Prequest = Inst43Quest7_Prequest
+Inst43Quest7_HORDE_Folgequest = Inst43Quest7_Folgequest
+--
+-- Awards Justice Points.
 
 
 

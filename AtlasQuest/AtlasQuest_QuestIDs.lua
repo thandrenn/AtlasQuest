@@ -1045,8 +1045,8 @@ Inst43Quest1_HORDE_QuestID = "29571"
 Inst43Quest2_HORDE_QuestID = "29570"
 Inst43Quest3_HORDE_QuestID = "29568"
 Inst43Quest4_HORDE_QuestID = "29567"
-Inst43Quest5_HORDE_QuestID = "29591"
-Inst43Quest6_HORDE_QuestID = "29592"
+Inst43Quest5_HORDE_QuestID = "29691"
+Inst43Quest6_HORDE_QuestID = "29692"
 Inst43Quest7_HORDE_QuestID = "11369"
 
 
@@ -1054,8 +1054,8 @@ AQ_29571_Level = "65"
 AQ_29570_Level = "65"
 AQ_29568_Level = "65"
 AQ_29567_Level = "65"
-AQ_29591_Level = "65"
-AQ_29592_Level = "65"
+AQ_29691_Level = "65"
+AQ_29692_Level = "65"
 AQ_11369_Level = "70"
 
 
