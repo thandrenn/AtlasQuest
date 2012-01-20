@@ -5846,11 +5846,47 @@ Inst44Quest1_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..
 Inst44Quest1_Prequest = "Ja, Ich sehe tote Draenei -> Levixus der Seelenrufer"
 Inst44Quest1_Folgequest = "Nein"
 Inst44Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst44Quest2 = "1. Das Ende des Exarchen"
+Inst44Quest2_Level = "67"
+Inst44Quest2_Attain = "64"
+Inst44Quest2_Aim = "Tötet Exarch Maladaar und kehrt zu dem Draeneigeist in der Auchenaikrypta zurück."
+Inst44Quest2_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35,65"..WHITE..")"
+Inst44Quest2_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst44Quest2_Prequest = "Ja, Alles wird gut"
+Inst44Quest2_Folgequest = "Nein"
+Inst44Quest2PreQuest = "true"
 --
-Inst44Quest1name1 = "Anachoretenrobe der Auchenai"
-Inst44Quest1name2 = "Mönchstunika der Auchenai"
-Inst44Quest1name3 = "Fährtenleserhalsberge der Auchenai"
-Inst44Quest1name4 = "Schutz des Exarchen"
+Inst44Quest2name1 = "Anachoretenrobe der Auchenai"
+Inst44Quest2name2 = "Mönchstunika der Auchenai"
+Inst44Quest2name3 = "Fährtenleserhalsberge der Auchenai"
+Inst44Quest2name4 = "Schutz des Exarchen"
+
+--Quest 1 Alliance
+Inst44Quest1 = "1. Alles wird gut"
+Inst44Quest1_Level = "67"
+Inst44Quest1_Attain = "64"
+Inst44Quest1_Aim = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und Exarch Maladaar vernichtet."
+Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35,65"..WHITE..")"
+Inst44Quest1_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". Die Vorquestreihe startet bei Ha'lei (Wälder von Terokkar - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
+Inst44Quest1_Prequest = "Ja, Ich sehe tote Draenei -> Levixus der Seelenrufer"
+Inst44Quest1_Folgequest = "Nein"
+Inst44Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 1 Alliance
+Inst44Quest1 = "1. Alles wird gut"
+Inst44Quest1_Level = "67"
+Inst44Quest1_Attain = "64"
+Inst44Quest1_Aim = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und Exarch Maladaar vernichtet."
+Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35,65"..WHITE..")"
+Inst44Quest1_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". Die Vorquestreihe startet bei Ha'lei (Wälder von Terokkar - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
+Inst44Quest1_Prequest = "Ja, Ich sehe tote Draenei -> Levixus der Seelenrufer"
+Inst44Quest1_Folgequest = "Nein"
+Inst44Quest1PreQuest = "true"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst44Quest2 = "2. Gesucht: Der Seelenedelstein des Exarchen (Heroisches Tagesquest)"
@@ -6555,8 +6591,8 @@ Inst48Quest2FQuest_HORDE = "true"
 
 Inst49Story = "Medivh, der letzte der magischen Beschützer von Tirisfal, war von Geburt an vom bösen Titanen Sargeras besessen.\n\nMedivh war es, der als erstes Kontakt zu dem korrupten Orkhexenmeister Gul'dan aufnahm, der ebenfalls im Dienst der Brennenden Legion stand.\n\nZusammen wollten sie die Dimensionslücke zwischen Azeroth und Draenor, der Heimatwelt der Orks, überbrücken, um die Zerstörung Azeroths zu ermöglichen.\n\nAm verabredeten Tag konzentrierten sowohl Medivh als auch Gul'dan ihre ansehnlichen magischen Energien, um die Dimensionssperre zusammenbrechen zu lassen.\n\nDer Schauplatz dieses Ereignisses ist der schwarze Morast, heute bekannt als die verwüsteten Lande.\n\nDie Spieler verteidigen Medivh, während er das Portal öffnet."
 Inst49Caption = "HdZ: Der schwarze Morast"
-Inst49QAA = "6 Quests"
-Inst49QAH = "6 Quests"
+Inst49QAA = "5 Quests"
+Inst49QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst49Quest1 = "1. Der schwarze Morast"
@@ -6575,64 +6611,52 @@ Inst49Quest2 = "2. Die Öffnung des Dunklen Portals"
 Inst49Quest2_Level = "70"
 Inst49Quest2_Attain = "66"
 Inst49Quest2_Aim = "Sa'at im schwarzen Morast der Höhlen der Zeit möchte, dass Ihr Medivh verteidigt, bis er das Dunkle Portal geöffnet hat."
-Inst49Quest2_Location = "Sa'at (Der schwarze Morast; "..YELLOW.."Eingang"..WHITE..")"
+Inst49Quest2_Location = "Sa'at (Der schwarze Morast; "..BLUE.."Eingang"..WHITE..")"
 Inst49Quest2_Note = "Wenn die Quest missglückt, muss das Ereignis von vorne gestartet werden."
 Inst49Quest2_Prequest = "Ja, Der schwarze Morast"
-Inst49Quest2_Folgequest = "Ja, Held des Schwarms"
-Inst49Quest2FQuest = "true"
--- No Rewards for this quest
+Inst49Quest2_Folgequest = "Nein"
+Inst49Quest2PreQuest = "true"
+--
+Inst49Quest2name1 = "Band des Wächters"
+Inst49Quest2name2 = "Bewahrerring der Frömmigkeit"
+Inst49Quest2name3 = "Edelstein der Zeitkrümmung"
+Inst49Quest2name4 = "Andormus Träne"
 
 --Quest 3 Alliance
-Inst49Quest3 = "3. Held des Schwarms"
+Inst49Quest3 = "3. Die Berührung des Meisters"
 Inst49Quest3_Level = "70"
-Inst49Quest3_Attain = "66"
-Inst49Quest3_Aim = "Kehrt zum Kind, Andormu, in den Höhlen der Zeit in Tanaris zurück."
-Inst49Quest3_Location = "Andormu (Tanaris - Höhlen der Zeit; "..YELLOW.."58,54"..WHITE..")"
-Inst49Quest3_Note = ""
-Inst49Quest3_Prequest = "Ja, Die Öffnung des Dunklen Portals"
-Inst49Quest3_Folgequest = "Nein"
-Inst49Quest3PreQuest = "true"
---
-Inst49Quest3name1 = "Band des Wächters"
-Inst49Quest3name2 = "Bewahrerring der Frömmigkeit"
-Inst49Quest3name3 = "Edelstein der Zeitkrümmung"
-Inst49Quest3name4 = "Andormus Träne"
-
---Quest 4 Alliance
-Inst49Quest4 = "4. Die Berührung des Meisters"
-Inst49Quest4_Level = "70"
-Inst49Quest4_Attain = "68"
-Inst49Quest4_Aim = "Geht in die Höhlen der Zeit und überzeugt Medivh davon, den wiederhergestellten Schlüssel des Lehrlings zu aktivieren."
-Inst49Quest4_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
-Inst49Quest4_Note = "Teil der Karazhan-Vorquestreihe. Du musst dich in der Instanz befinden, wenn Aeonus stirbt, um mit Medivh reden zu können."
-Inst49Quest4_Prequest = "Ja, Das zweite und das dritte Fragment"
-Inst49Quest4_Folgequest = "Ja, Rückkehr zu Khadgar"
-Inst49Quest4FQuest = "true"
+Inst49Quest3_Attain = "68"
+Inst49Quest3_Aim = "Geht in die Höhlen der Zeit und überzeugt Medivh davon, den wiederhergestellten Schlüssel des Lehrlings zu aktivieren."
+Inst49Quest3_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
+Inst49Quest3_Note = "Teil der Karazhan-Vorquestreihe. Du musst dich in der Instanz befinden, wenn Aeonus stirbt, um mit Medivh reden zu können."
+Inst49Quest3_Prequest = "Ja, Das zweite und das dritte Fragment"
+Inst49Quest3_Folgequest = "Ja, Rückkehr zu Khadgar"
+Inst49Quest3FQuest = "true"
 -- No Rewards for this quest
 
---Quest 5 Alliance
-Inst49Quest5 = "5. Gesucht: Aeonus' Stundenglas (Heroisches Tagesquest)"
-Inst49Quest5_Level = "70"
-Inst49Quest5_Attain = "70"
-Inst49Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Aeonus' Stundenglas zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst49Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst49Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nAeonus erscheint mit der letzten Welle."
-Inst49Quest5_Prequest = "Nein"
-Inst49Quest5_Folgequest = "Nein"
+--Quest 4 Alliance
+Inst49Quest4 = "4. Gesucht: Aeonus' Stundenglas (Heroisches Tagesquest)"
+Inst49Quest4_Level = "70"
+Inst49Quest4_Attain = "70"
+Inst49Quest4_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Aeonus' Stundenglas zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst49Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst49Quest4_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nAeonus erscheint mit der letzten Welle."
+Inst49Quest4_Prequest = "Nein"
+Inst49Quest4_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 6 Alliance
-Inst49Quest6 = "6. Gesucht: Fürsten der Zeitenrisse (Tagesquest)"
-Inst49Quest6_Level = "70"
-Inst49Quest6_Attain = "70"
-Inst49Quest6_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Fürsten der Zeitenrisse zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst49Quest6_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst49Quest6_Note = "Dies ist ein Tagesquest."
-Inst49Quest6_Prequest = "Nein"
-Inst49Quest6_Folgequest = "Nein"
+--Quest 5 Alliance
+Inst49Quest5 = "5. Gesucht: Fürsten der Zeitenrisse (Tagesquest)"
+Inst49Quest5_Level = "70"
+Inst49Quest5_Attain = "70"
+Inst49Quest5_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Fürsten der Zeitenrisse zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
+Inst49Quest5_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst49Quest5_Note = "Dies ist ein Tagesquest."
+Inst49Quest5_Prequest = "Nein"
+Inst49Quest5_Folgequest = "Nein"
 --
-Inst49Quest6name1 = "Gefängnisschlüssel des Astraleums"
+Inst49Quest5name1 = "Gefängnisschlüssel des Astraleums"
 
 
 --Quest 1 Horde
@@ -6644,7 +6668,7 @@ Inst49Quest1_HORDE_Location = Inst49Quest1_Location
 Inst49Quest1_HORDE_Note = Inst49Quest1_Note
 Inst49Quest1_HORDE_Prequest = "Nein"
 Inst49Quest1_HORDE_Folgequest = Inst49Quest1_Folgequest
-Inst49Quest3FQuest_HORDE = "true"
+Inst49Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -6655,37 +6679,38 @@ Inst49Quest2_HORDE_Aim = Inst49Quest2_Aim
 Inst49Quest2_HORDE_Location = Inst49Quest2_Location
 Inst49Quest2_HORDE_Note = Inst49Quest2_Note
 Inst49Quest2_HORDE_Prequest = Inst49Quest2_Prequest
-Inst49Quest2_HORDE_Folgequest = Inst49Quest2_Folgequest
-Inst49Quest2FQuest_HORDE = "true"
--- No Rewards for this quest
+Inst49Quest2_HORDE_Folgequest = "Nein"
+Inst49Quest2PreQuest_HORDE = "true"
+--
+Inst49Quest2name1_HORDE = Inst49Quest2name1
+Inst49Quest2name2_HORDE = Inst49Quest2name2
+Inst49Quest2name3_HORDE = Inst49Quest2name3
+Inst49Quest2name4_HORDE = "Andormus Träne"
+
 
 --Quest 3 Horde
 Inst49Quest3_HORDE = Inst49Quest3
 Inst49Quest3_HORDE_Level = "70"
-Inst49Quest3_HORDE_Attain = "66"
+Inst49Quest3_HORDE_Attain = "68"
 Inst49Quest3_HORDE_Aim = Inst49Quest3_Aim
 Inst49Quest3_HORDE_Location = Inst49Quest3_Location
 Inst49Quest3_HORDE_Note = Inst49Quest3_Note
 Inst49Quest3_HORDE_Prequest = Inst49Quest3_Prequest
-Inst49Quest3_HORDE_Folgequest = "Nein"
-Inst49Quest3PreQuest_HORDE = "true"
---
-Inst49Quest3name1_HORDE = Inst49Quest3name1
-Inst49Quest3name2_HORDE = Inst49Quest3name2
-Inst49Quest3name3_HORDE = Inst49Quest3name3
-Inst49Quest3name4_HORDE = "Andormus Träne"
+Inst49Quest3_HORDE_Folgequest = Inst49Quest3_Folgequest
+Inst49Quest3FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst49Quest4_HORDE = Inst49Quest4
 Inst49Quest4_HORDE_Level = "70"
-Inst49Quest4_HORDE_Attain = "68"
+Inst49Quest4_HORDE_Attain = "70"
 Inst49Quest4_HORDE_Aim = Inst49Quest4_Aim
 Inst49Quest4_HORDE_Location = Inst49Quest4_Location
 Inst49Quest4_HORDE_Note = Inst49Quest4_Note
-Inst49Quest4_HORDE_Prequest = Inst49Quest4_Prequest
-Inst49Quest4_HORDE_Folgequest = Inst49Quest4_Folgequest
-Inst49Quest4FQuest_HORDE = "true"
--- No Rewards for this quest
+Inst49Quest4_HORDE_Prequest = "Nein"
+Inst49Quest4_HORDE_Folgequest = "Nein"
+--
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 5 Horde
 Inst49Quest5_HORDE = Inst49Quest5
@@ -6697,19 +6722,7 @@ Inst49Quest5_HORDE_Note = Inst49Quest5_Note
 Inst49Quest5_HORDE_Prequest = "Nein"
 Inst49Quest5_HORDE_Folgequest = "Nein"
 --
--- Preis Gerechtigkeitspunkte.
-
---Quest 6 Horde
-Inst49Quest6_HORDE = Inst49Quest6
-Inst49Quest6_HORDE_Level = "70"
-Inst49Quest6_HORDE_Attain = "70"
-Inst49Quest6_HORDE_Aim = Inst49Quest6_Aim
-Inst49Quest6_HORDE_Location = Inst49Quest6_Location
-Inst49Quest6_HORDE_Note = Inst49Quest6_Note
-Inst49Quest6_HORDE_Prequest = "Nein"
-Inst49Quest6_HORDE_Folgequest = "Nein"
---
-Inst49Quest6name1_HORDE = Inst49Quest6name1
+Inst49Quest5name1_HORDE = Inst49Quest6name1
 
 
 
@@ -6771,7 +6784,7 @@ Inst51Quest2 = "2. Tarethas Ablenkungsmanöver"
 Inst51Quest2_Level = "68"
 Inst51Quest2_Attain = "66"
 Inst51Quest2_Aim = "Reist zur Burg Durnholde und platziert mit Hilfe des Bündels mit Brandbomben, das Ihr von Erozion erhalten habt, 5 Brandsätze auf den Fässern in jeder Internierungsbaracke. Sprecht mit Thrall im Kellergefängnis der Burg Durnholde, wenn Ihr die Internierungsbaracken angezündet habt."
-Inst51Quest2_Location = "Erozion (Vorgebirge des alten Hügellands; "..YELLOW.."Eingang"..WHITE..")"
+Inst51Quest2_Location = "Erozion (Vorgebirge des alten Hügellands; "..BLUE.."Eingang"..WHITE..")"
 Inst51Quest2_Note = "Thrall befindet sich bei "..GREEN.."[1']"..WHITE..".\n\nReist nach Süderstade, um dir die Geschichte des Aschenbringers anzuhören und einige Leute mit bekannten Namen wie Kel'Thuzad und Herod der Tyrann zu treffen."
 Inst51Quest2_Prequest = "Ja, Das alte Hügelland"
 Inst51Quest2_Folgequest = "Ja, Flucht aus Durnholde"
@@ -6786,49 +6799,37 @@ Inst51Quest3_Aim = "Gebt Thrall Bescheid, wenn Ihr bereit seid. Folgt Thrall aus
 Inst51Quest3_Location = "Thrall (Vorgebirge des alten Hügellands; "..YELLOW.."[2]"..WHITE..")"
 Inst51Quest3_Note = "Stell sicher, dass jeder die Quest angenommen hat, bevor jemand Thrall ansprecht, um die Flucht zu starten. Angeblich kann die Quest trotzdem geteilt und erfolgreich abgeschlossen werden. Du hast 20 Versuche, Thrall zu retten, danach musst du die Instanz zurücksetzen, und du kannst den letzten Boss nicht ohne Thrall töten, da Thrall den letzten Schritt tun muss."
 Inst51Quest3_Prequest = "Ja, Tarethas Ablenkungsmanöver"
-Inst51Quest3_Folgequest = "Ja, Rückkehr zu Andormu"
+Inst51Quest3_Folgequest = "Nein"
 Inst51Quest3FQuest = "true"
--- No Rewards for this quest
+--
+Inst51Quest3name1 = "Berührung des Sturms"
+Inst51Quest3name2 = "Süderstader Schuhe"
+Inst51Quest3name3 = "Verteidigergurt von Tarrens Mühle"
+Inst51Quest3name4 = "Mantelung des Kriegshäuptlings"
 
 --Quest 4 Alliance
-Inst51Quest4 = "4. Rückkehr zu Andormu"
-Inst51Quest4_Level = "68"
-Inst51Quest4_Attain = "66"
-Inst51Quest4_Aim = "Kehrt zu dem jungen Andormu in den Höhlen der Zeit in Tanaris zurück."
-Inst51Quest4_Location = "Erozion (Vorgebirge des alten Hügellands; "..YELLOW.."Eingang"..WHITE..")"
-Inst51Quest4_Note = "Andormu befindet sich bei (Tanaris - Höhlen der Zeit; "..YELLOW.."58,54"..WHITE.."). Mit dem Abschluss dieser Quest kann man den schwarzen Morast betreten."
-Inst51Quest4_Prequest = "Ja, Flucht aus Durnholde"
+Inst51Quest4 = "4. Gesucht: Der Kopf des Epochenjägers (Heroisches Tagesquest)"
+Inst51Quest4_Level = "70"
+Inst51Quest4_Attain = "70"
+Inst51Quest4_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm den Kopf des Epochenjägers zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst51Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst51Quest4_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nEpochenjäger befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst51Quest4_Prequest = "Nein"
 Inst51Quest4_Folgequest = "Nein"
-Inst51Quest4PreQuest = "true"
---
-Inst51Quest4name1 = "Berührung des Sturms"
-Inst51Quest4name2 = "Süderstader Schuhe"
-Inst51Quest4name3 = "Verteidigergurt von Tarrens Mühle"
-Inst51Quest4name4 = "Mantelung des Kriegshäuptlings"
-
---Quest 5 Alliance
-Inst51Quest5 = "5. Gesucht: Der Kopf des Epochenjägers (Heroisches Tagesquest)"
-Inst51Quest5_Level = "70"
-Inst51Quest5_Attain = "70"
-Inst51Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm den Kopf des Epochenjägers zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst51Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst51Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nEpochenjäger befindet sich bei "..YELLOW.."[3]"..WHITE.."."
-Inst51Quest5_Prequest = "Nein"
-Inst51Quest5_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 6 Alliance
-Inst51Quest6 = "6. Netter Hut..."
-Inst51Quest6_Level = "68"
-Inst51Quest6_Attain = "66"
-Inst51Quest6_Aim = "Don Carlos hat Euch versehentlich dazu herausgefordert, sein jüngeres Ich im Alten Hügelland zu besiegen. Bringt ihm anschließend seinen Hut als Beweis. Er befindet sich in Tanaris. "
-Inst51Quest6_Location = "Don Carlos (Tanaris; "..YELLOW.."54,29"..WHITE..")"
-Inst51Quest6_Note = "Don Carlos wandert auf der Straße nahe "..YELLOW.."[4]"..WHITE.."."
-Inst51Quest6_Prequest = "Nein"
-Inst51Quest6_Folgequest = "Nein"
+--Quest 5 Alliance
+Inst51Quest5 = "5. Netter Hut..."
+Inst51Quest5_Level = "68"
+Inst51Quest5_Attain = "66"
+Inst51Quest5_Aim = "Don Carlos hat Euch versehentlich dazu herausgefordert, sein jüngeres Ich im Alten Hügelland zu besiegen. Bringt ihm anschließend seinen Hut als Beweis. Er befindet sich in Tanaris. "
+Inst51Quest5_Location = "Don Carlos (Tanaris; "..YELLOW.."54,29"..WHITE..")"
+Inst51Quest5_Note = "Don Carlos wandert auf der Straße nahe "..YELLOW.."[4]"..WHITE.." entlang."
+Inst51Quest5_Prequest = "Nein"
+Inst51Quest5_Folgequest = "Nein"
 --
-Inst51Quest6name1 = "Breitkrempiger Haliskanhut"
+Inst51Quest5name1 = "Breitkrempiger Haliskanhut"
 
 
 --Quest 1 Horde
@@ -6865,47 +6866,35 @@ Inst51Quest3_HORDE_Note = Inst51Quest3_Note
 Inst51Quest3_HORDE_Prequest = Inst51Quest3_Prequest
 Inst51Quest3_HORDE_Folgequest = Inst51Quest3_Folgequest
 Inst51Quest3FQuest_HORDE = "true"
--- No Rewards for this quest
+--
+Inst51Quest3name1_HORDE = Inst51Quest3name1
+Inst51Quest3name2_HORDE = Inst51Quest3name2
+Inst51Quest3name3_HORDE = Inst51Quest3name3
+Inst51Quest3name4_HORDE = Inst51Quest3name4
 
 --Quest 4 Horde
 Inst51Quest4_HORDE = Inst51Quest4
-Inst51Quest4_HORDE_Level = "68"
-Inst51Quest4_HORDE_Attain = "66"
+Inst51Quest4_HORDE_Level = "70"
+Inst51Quest4_HORDE_Attain = "70"
 Inst51Quest4_HORDE_Aim = Inst51Quest4_Aim
 Inst51Quest4_HORDE_Location = Inst51Quest4_Location
 Inst51Quest4_HORDE_Note = Inst51Quest4_Note
-Inst51Quest4_HORDE_Prequest = Inst51Quest4_Prequest
+Inst51Quest4_HORDE_Prequest = "Nein"
 Inst51Quest4_HORDE_Folgequest = "Nein"
-Inst51Quest4PreQuest_HORDE = "true"
 --
-Inst51Quest4name1_HORDE = Inst51Quest4name1
-Inst51Quest4name2_HORDE = Inst51Quest4name2
-Inst51Quest4name3_HORDE = Inst51Quest4name3
-Inst51Quest4name4_HORDE = Inst51Quest4name4
+-- Preis Gerechtigkeitspunkte.
 
 --Quest 5 Horde
 Inst51Quest5_HORDE = Inst51Quest5
-Inst51Quest5_HORDE_Level = "70"
-Inst51Quest5_HORDE_Attain = "70"
+Inst51Quest5_HORDE_Level = "68"
+Inst51Quest5_HORDE_Attain = "66"
 Inst51Quest5_HORDE_Aim = Inst51Quest5_Aim
 Inst51Quest5_HORDE_Location = Inst51Quest5_Location
 Inst51Quest5_HORDE_Note = Inst51Quest5_Note
 Inst51Quest5_HORDE_Prequest = "Nein"
 Inst51Quest5_HORDE_Folgequest = "Nein"
 --
--- Preis Gerechtigkeitspunkte.
-
---Quest 6 Horde
-Inst51Quest6_HORDE = Inst51Quest6
-Inst51Quest6_HORDE_Level = "68"
-Inst51Quest6_HORDE_Attain = "66"
-Inst51Quest6_HORDE_Aim = Inst51Quest6_Aim
-Inst51Quest6_HORDE_Location = Inst51Quest6_Location
-Inst51Quest6_HORDE_Note = Inst51Quest6_Note
-Inst51Quest6_HORDE_Prequest = "Nein"
-Inst51Quest6_HORDE_Folgequest = "Nein"
---
-Inst51Quest6name1_HORDE = Inst51Quest6name1
+Inst51Quest5name1_HORDE = Inst51Quest5name1
 
 
 
