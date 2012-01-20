@@ -4976,7 +4976,7 @@ Inst39Quest6_Level = "70"
 Inst39Quest6_Attain = "67"
 Inst39Quest6_Aim = "Recover the Tear of the Earthmother from Warbringer O'mrogg and return it to David Wayne at Wayne's Refuge."
 Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
-Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE..".\n\nThe item will drop in both Normal and Heroic modes."
+Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE.."."
 Inst39Quest6_Prequest = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Bane of the Illidari"
 Inst39Quest6PreQuest = "true"
@@ -5471,7 +5471,7 @@ Inst42Quest6_Level = "70"
 Inst42Quest6_Attain = "67"
 Inst42Quest6_Aim = "Get a Vial of Underworld Loam from Hydromancer Thespia and bring it to David Wayne at Wayne's Refuge."
 Inst42Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")"
-Inst42Quest6_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE..".\n\nThe item will drop in both Normal and Heroic modes."
+Inst42Quest6_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE.."."
 Inst42Quest6_Prequest = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest6_Folgequest = "Bane of the Illidari"
 Inst42Quest6PreQuest = "true"
@@ -7250,82 +7250,105 @@ Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
 
 Inst54Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Arcatraz is the third wing of the Tempest Keep instance.\n\nThe Arcatraz is accessible either through a quest chain for the key that requires you to complete both Mechanar and Botanica, that begins with a long quest chain called (A Heap of Ethereals) from Nether-Stalker Khay'ji in Area 52, or be picked by a lvl 70 Rogue (with 350 LP).\n\nOnly one member of your group must have the key. The entrance portal is high above the other Tempest Keep instances.\n\nOne full run yields about 1750 reputation with the Sha'tar."
 Inst54Caption = "TK: The Arcatraz"
-Inst54QAA = "6 Quests"
-Inst54QAH = "6 Quests"
+Inst54QAA = "8 Quests"
+Inst54QAH = "8 Quests"
 
 --Quest 1 Alliance
-Inst54Quest1 = "1. Harbinger of Doom"
+Inst54Quest1 = "1. Unbound Darkness"
 Inst54Quest1_Level = "70"
 Inst54Quest1_Attain = "67"
-Inst54Quest1_Aim = "You have been tasked to go to Tempest Keep's Arcatraz satellite and slay Harbinger Skyriss. Return to A'dal at the Terace of Light in Shattrath City after you have done so."
-Inst54Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest1_Note = "There is a chain quest that starts in Netherstorm from Nether-Stalker Khay'ji located at (Netherstorm - Area 52; "..YELLOW.."32,64"..WHITE..")."
-Inst54Quest1_Prequest = "Warp-Raider Nesaad -> How to Break Into the Arcatraz"
-Inst54Quest1_Folgequest = "None"
-Inst54Quest1PreQuest = "true"
---
-Inst54Quest1name1 = "Potent Sha'tari Pendant"
-Inst54Quest1name2 = "A'dal's Recovery Necklace"
-Inst54Quest1name3 = "Shattrath Choker of Power"
+Inst54Quest1_Aim = "A'dal has asked you to slay Zereketh the Unbound in the Arcatraz of Tempest Keep."
+Inst54Quest1_Location = "Auto-accepted in The Arcatraz"
+Inst54Quest1_Note = "Zereketh the Unbound is at "..YELLOW.."[1]"..WHITE..".  The quest can be turned in with the Quest log."
+Inst54Quest1_Prequest = "None"
+Inst54Quest1_Folgequest = "Hey There Dalliah"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst54Quest2 = "2. Seer Udalo"
+Inst54Quest2 = "2. Hey There Dalliah"
 Inst54Quest2_Level = "70"
-Inst54Quest2_Attain = "68"
-Inst54Quest2_Aim = "Find Seer Udalo inside the Arcatraz in Tempest Keep."
-Inst54Quest2_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")"
-Inst54Quest2_Note = "Seer Udalo is at "..GREEN.."[1']"..WHITE..", just before the room with the final boss.\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62,38"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56,59"..WHITE..") for Scryers."
-Inst54Quest2_Prequest = "Tablets of Baa'ri -> Akama"
-Inst54Quest2_Folgequest = "A Mysterious Portent"
-Inst54Quest2PreQuest = "true"
+Inst54Quest2_Attain = "67"
+Inst54Quest2_Aim = "A'dal has asked you to kill Wrath-Scryer Soccothrates and Dalliah the Doomsayer in the Arcatraz of Tempest Keep. "
+Inst54Quest2_Location = "Auto-accepted in The Arcatraz"
+Inst54Quest2_Note = "Wrath-Scryer Soccothrates is at "..YELLOW.."[3]"..WHITE.." and Dalliah the Doomsayer is at "..YELLOW.."[2]"..WHITE..".  The quest can be turned in with the Quest log."
+Inst54Quest2_Prequest = "Unbound Darkness"
+Inst54Quest2_Folgequest = "Maximum Security Breakout"
+Inst54Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst54Quest3 = "3. Trial of the Naaru: Tenacity (Heroic)"
+Inst54Quest3 = "3. Maximum Security Breakout"
 Inst54Quest3_Level = "70"
-Inst54Quest3_Attain = "70"
-Inst54Quest3_Aim = "A'dal in Shattrath City wants you to rescue Millhouse Manastorm from the Arcatraz of Tempest Keep."
-Inst54Quest3_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest3_Note = "This quest must be completed in Heroic dungeon difficulty. Millhouse Manastorm is in the room with Warden Mellichar at "..YELLOW.."[4]"..WHITE..".\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
-Inst54Quest3_Prequest = "None"
+Inst54Quest3_Attain = "60"
+Inst54Quest3_Aim = "A'dal has asked you to slay Harbinger Skyriss in the Arcatraz of Tempest Keep. "
+Inst54Quest3_Location = "Auto-accepted in The Arcatraz"
+Inst54Quest3_Note = "Harbinger Skyriss is at "..YELLOW.."[4]"..WHITE..".  The quest can be turned in with the Quest log."
+Inst54Quest3_Prequest = "Hey There Dalliah"
 Inst54Quest3_Folgequest = "None"
--- No Rewards for this quest
+Inst54Quest3FQuest = "true"
+--
+Inst54Quest3name1 = "Potent Sha'tari Pendant"
+Inst54Quest3name2 = "A'dal's Recovery Necklace"
+Inst54Quest3name3 = "Shattrath Choker of Power"
 
 --Quest 4 Alliance
-Inst54Quest4 = "4. The Second and Third Fragments"
+Inst54Quest4 = "4. Seer Udalo"
 Inst54Quest4_Level = "70"
 Inst54Quest4_Attain = "68"
-Inst54Quest4_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst54Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest4_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
-Inst54Quest4_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
-Inst54Quest4_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
+Inst54Quest4_Aim = "Find Seer Udalo inside the Arcatraz in Tempest Keep."
+Inst54Quest4_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")"
+Inst54Quest4_Note = "Seer Udalo is at "..GREEN.."[1']"..WHITE..", just before the room with the final boss.\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62,38"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56,59"..WHITE..") for Scryers."
+Inst54Quest4_Prequest = "Tablets of Baa'ri -> Akama"
+Inst54Quest4_Folgequest = "A Mysterious Portent"
 Inst54Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst54Quest5 = "5. Wanted: The Scroll of Skyriss (Heroic Daily)"
+Inst54Quest5 = "5. Trial of the Naaru: Tenacity (Heroic)"
 Inst54Quest5_Level = "70"
 Inst54Quest5_Attain = "70"
-Inst54Quest5_Aim = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst54Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst54Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[4]"..WHITE.."."
+Inst54Quest5_Aim = "A'dal in Shattrath City wants you to rescue Millhouse Manastorm from the Arcatraz of Tempest Keep."
+Inst54Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest5_Note = "This quest must be completed in Heroic dungeon difficulty. Millhouse Manastorm is in the room with Warden Mellichar at "..YELLOW.."[4]"..WHITE..".\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst54Quest5_Prequest = "None"
 Inst54Quest5_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst54Quest6 = "6. The Second and Third Fragments"
+Inst54Quest6_Level = "70"
+Inst54Quest6_Attain = "68"
+Inst54Quest6_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
+Inst54Quest6_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest6_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
+Inst54Quest6_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
+Inst54Quest6_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
+Inst54Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst54Quest7 = "7. Wanted: The Scroll of Skyriss (Heroic Daily)"
+Inst54Quest7_Level = "70"
+Inst54Quest7_Attain = "70"
+Inst54Quest7_Aim = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst54Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[4]"..WHITE.."."
+Inst54Quest7_Prequest = "None"
+Inst54Quest7_Folgequest = "None"
 --
 -- Awards Justice Points.
 
---Quest 6 Alliance
-Inst54Quest6 = "6. Wanted: Arcatraz Sentinels (Daily)"
-Inst54Quest6_Level = "70"
-Inst54Quest6_Attain = "70"
-Inst54Quest6_Aim = "Nether-Stalker Mah'duun wants you to dismantle 5 Arcatraz Sentinels. Return to him in Shattrath's Lower City once that has been accomplished in order to collect the bounty."
-Inst54Quest6_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst54Quest6_Note = "This is a daily quest."
-Inst54Quest6_Prequest = "None"
-Inst54Quest6_Folgequest = "None"
+--Quest 8 Alliance
+Inst54Quest8 = "8. Wanted: Arcatraz Sentinels (Daily)"
+Inst54Quest8_Level = "70"
+Inst54Quest8_Attain = "70"
+Inst54Quest8_Aim = "Nether-Stalker Mah'duun wants you to dismantle 5 Arcatraz Sentinels. Return to him in Shattrath's Lower City once that has been accomplished in order to collect the bounty."
+Inst54Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest8_Note = "This is a daily quest."
+Inst54Quest8_Prequest = "None"
+Inst54Quest8_Folgequest = "None"
 --
-Inst54Quest6name1 = "Ethereum Prison Key"
+Inst54Quest8name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7337,11 +7360,7 @@ Inst54Quest1_HORDE_Location = Inst54Quest1_Location
 Inst54Quest1_HORDE_Note = Inst54Quest1_Note
 Inst54Quest1_HORDE_Prequest = Inst54Quest1_Prequest
 Inst54Quest1_HORDE_Folgequest = Inst54Quest1_Folgequest
-Inst54Quest1PreQuest_HORDE = Inst54Quest1PreQuest
---
-Inst54Quest1name1_HORDE = Inst54Quest1name1
-Inst54Quest1name2_HORDE = Inst54Quest1name2
-Inst54Quest1name3_HORDE = Inst54Quest1name3
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst54Quest2_HORDE = Inst54Quest2
@@ -7352,7 +7371,7 @@ Inst54Quest2_HORDE_Location = Inst54Quest2_Location
 Inst54Quest2_HORDE_Note = Inst54Quest2_Note
 Inst54Quest2_HORDE_Prequest = Inst54Quest2_Prequest
 Inst54Quest2_HORDE_Folgequest = Inst54Quest2_Folgequest
-Inst54Quest2PreQuest_HORDE = Inst54Quest2PreQuest
+Inst54Quest2FQuest_HORDE = Inst54Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7364,7 +7383,11 @@ Inst54Quest3_HORDE_Location = Inst54Quest3_Location
 Inst54Quest3_HORDE_Note = Inst54Quest3_Note
 Inst54Quest3_HORDE_Prequest = Inst54Quest3_Prequest
 Inst54Quest3_HORDE_Folgequest = Inst54Quest3_Folgequest
--- No Rewards for this quest
+Inst54Quest3FQuest_HORDE = Inst54Quest3FQuest
+--
+Inst54Quest3name1_HORDE = Inst54Quest3name1
+Inst54Quest3name2_HORDE = Inst54Quest3name2
+Inst54Quest3name3_HORDE = Inst54Quest3name3
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst54Quest4_HORDE = Inst54Quest4
@@ -7387,8 +7410,7 @@ Inst54Quest5_HORDE_Location = Inst54Quest5_Location
 Inst54Quest5_HORDE_Note = Inst54Quest5_Note
 Inst54Quest5_HORDE_Prequest = Inst54Quest5_Prequest
 Inst54Quest5_HORDE_Folgequest = Inst54Quest5_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst54Quest6_HORDE = Inst54Quest6
@@ -7399,8 +7421,32 @@ Inst54Quest6_HORDE_Location = Inst54Quest6_Location
 Inst54Quest6_HORDE_Note = Inst54Quest6_Note
 Inst54Quest6_HORDE_Prequest = Inst54Quest6_Prequest
 Inst54Quest6_HORDE_Folgequest = Inst54Quest6_Folgequest
+Inst54Quest6PreQuest_HORDE = Inst54Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst54Quest7_HORDE = Inst54Quest7
+Inst54Quest7_HORDE_Level = Inst54Quest7_Level
+Inst54Quest7_HORDE_Attain = Inst54Quest7_Attain
+Inst54Quest7_HORDE_Aim = Inst54Quest7_Aim
+Inst54Quest7_HORDE_Location = Inst54Quest7_Location
+Inst54Quest7_HORDE_Note = Inst54Quest7_Note
+Inst54Quest7_HORDE_Prequest = Inst54Quest7_Prequest
+Inst54Quest7_HORDE_Folgequest = Inst54Quest7_Folgequest
 --
-Inst54Quest6name1_HORDE = Inst54Quest6name1
+-- Awards Justice Points.
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst54Quest8_HORDE = Inst54Quest8
+Inst54Quest8_HORDE_Level = Inst54Quest8_Level
+Inst54Quest8_HORDE_Attain = Inst54Quest8_Attain
+Inst54Quest8_HORDE_Aim = Inst54Quest8_Aim
+Inst54Quest8_HORDE_Location = Inst54Quest8_Location
+Inst54Quest8_HORDE_Note = Inst54Quest8_Note
+Inst54Quest8_HORDE_Prequest = Inst54Quest8_Prequest
+Inst54Quest8_HORDE_Folgequest = Inst54Quest8_Folgequest
+--
+Inst54Quest8name1_HORDE = Inst54Quest8name1
 
 
 
@@ -7408,62 +7454,96 @@ Inst54Quest6name1_HORDE = Inst54Quest6name1
 
 Inst55Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Botanica is the second wing of the Tempest Keep instance located directly north of the main palace (The blue crystal building).\n\nThis is also the place of Kael'thas commander: Commander Sarannis."
 Inst55Caption = "TK: The Botanica"
-Inst55QAA = "4 Quests"
-Inst55QAH = "4 Quests"
+Inst55QAA = "7 Quests"
+Inst55QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst55Quest1 = "1. How to Break Into the Arcatraz"
+Inst55Quest1 = "1. Saving the Botanica"
 Inst55Quest1_Level = "70"
 Inst55Quest1_Attain = "67"
-Inst55Quest1_Aim = "A'dal has tasked you with the recovery of the Top and Bottom Shards of the Arcatraz Key. Return them to him, and he will fashion them into the Key to the Arcatraz for you."
-Inst55Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst55Quest1_Note = "The Bottom Piece drops off Warp Splinter located at "..YELLOW.."[5]"..WHITE..". The Top piece drops in Mechanar."
-Inst55Quest1_Prequest = "Warp-Raider Nesaad -> Special Delivery to Shattrath City"
-Inst55Quest1_Folgequest = "Harbinger of Doom ("..YELLOW.."TK: Arcatraz"..WHITE..")"
-Inst55Quest1PreQuest = "true"
---
-Inst55Quest1name1 = "Sha'tari Anchorite's Cloak"
-Inst55Quest1name2 = "A'dal's Gift"
-Inst55Quest1name3 = "Naaru Belt of Precision"
-Inst55Quest1name4 = "Shattrath's Champion Belt"
-Inst55Quest1name5 = "Sha'tari Vindicator's Waistguard"
-Inst55Quest1name6 = "Key to the Arcatraz"
+Inst55Quest1_Aim = "A'dal wants you to kill Commander Sarannis, High Botanist Freywinn, and Thorngrin the Tender inside the Botanica of Tempest Keep."
+Inst55Quest1_Location = "Auto-accepted in The Botanica"
+Inst55Quest1_Note = "Commander Sarannis is at "..YELLOW.."[1]"..WHITE..", High Botanist Freywinn is at  "..YELLOW.."[2]"..WHITE..", and Thorngrin the Tender is at  "..YELLOW.."[3]"..WHITE.."."
+Inst55Quest1_Prequest = "None"
+Inst55Quest1_Folgequest = "Culling the Herd"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst55Quest2 = "2. Capturing the Keystone"
+Inst55Quest2 = "2. Culling the Herd"
 Inst55Quest2_Level = "70"
 Inst55Quest2_Attain = "67"
-Inst55Quest2_Aim = "Venture into Tempest Keep's Botanica and retrieve the Keystone from Commander Sarannis. Bring it to Archmage Vargoth at the Violet Tower."
-Inst55Quest2_Location = "Archmage Vargoth (Netherstorm - Kirin'Var Village; "..YELLOW.."58,86"..WHITE..")"
-Inst55Quest2_Note = "Commander Sarannis is at "..YELLOW.."[1]"..WHITE..". The keystone will drop on Normal and Heroic."
-Inst55Quest2_Prequest = "Finding the Keymaster"
-Inst55Quest2_Folgequest = "None"
-Inst55Quest2PreQuest = "true"
+Inst55Quest2_Aim = "A'dal has asked you to kill 6 Mutate Fleshlashers, 6 Mutate Fear-shriekers, 6 Mutate Horrors, and to obtain a Rapidly Evolving Frond from Laj in the Botanica of Tempest Keep."
+Inst55Quest2_Location = "Auto-accepted in The Botanica"
+Inst55Quest2_Note = "Laj is at "..YELLOW.."[4]"..WHITE.."."
+Inst55Quest2_Prequest = "Saving the Botanica"
+Inst55Quest2_Folgequest = "A Most Somber Task"
+Inst55Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst55Quest3 = "3. Wanted: A Warp Splinter Clipping (Heroic Daily)"
+Inst55Quest3 = "3. A Most Somber Task"
 Inst55Quest3_Level = "70"
-Inst55Quest3_Attain = "70"
-Inst55Quest3_Aim = "Wind Trader Zhareem has asked you to obtain a Warp Splinter Clipping. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst55Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst55Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarp Splinter is at "..YELLOW.."[5]"..WHITE.."."
-Inst55Quest3_Prequest = "None"
+Inst55Quest3_Attain = "67"
+Inst55Quest3_Aim = "A'dal has asked you to slay Warp Splinter in the Botanica of Tempest Keep."
+Inst55Quest3_Location = "Auto-accepted in The Botanica"
+Inst55Quest3_Note = "Warp Splinter is at "..YELLOW.."[5]"..WHITE.."."
+Inst55Quest3_Prequest = "Culling the Herd"
 Inst55Quest3_Folgequest = "None"
+Inst55Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst55Quest4 = "4. How to Break Into the Arcatraz"
+Inst55Quest4_Level = "70"
+Inst55Quest4_Attain = "67"
+Inst55Quest4_Aim = "A'dal has tasked you with the recovery of the Top and Bottom Shards of the Arcatraz Key. Return them to him, and he will fashion them into the Key to the Arcatraz for you."
+Inst55Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst55Quest4_Note = "The Bottom Piece drops off Warp Splinter located at "..YELLOW.."[5]"..WHITE..". The Top piece drops in Mechanar."
+Inst55Quest4_Prequest = "Warp-Raider Nesaad -> Special Delivery to Shattrath City"
+Inst55Quest4_Folgequest = "Harbinger of Doom ("..YELLOW.."TK: Arcatraz"..WHITE..")"
+Inst55Quest4PreQuest = "true"
+--
+Inst55Quest4name1 = "Sha'tari Anchorite's Cloak"
+Inst55Quest4name2 = "A'dal's Gift"
+Inst55Quest4name3 = "Naaru Belt of Precision"
+Inst55Quest4name4 = "Shattrath's Champion Belt"
+Inst55Quest4name5 = "Sha'tari Vindicator's Waistguard"
+
+--Quest 5 Alliance
+Inst55Quest5 = "5. Capturing the Keystone"
+Inst55Quest5_Level = "70"
+Inst55Quest5_Attain = "67"
+Inst55Quest5_Aim = "Venture into Tempest Keep's Botanica and retrieve the Keystone from Commander Sarannis. Bring it to Archmage Vargoth at the Violet Tower."
+Inst55Quest5_Location = "Archmage Vargoth (Netherstorm - Kirin'Var Village; "..YELLOW.."58,86"..WHITE..")"
+Inst55Quest5_Note = "Commander Sarannis is at "..YELLOW.."[1]"..WHITE.."."
+Inst55Quest5_Prequest = "Finding the Keymaster"
+Inst55Quest5_Folgequest = "None"
+Inst55Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst55Quest6 = "6. Wanted: A Warp Splinter Clipping (Heroic Daily)"
+Inst55Quest6_Level = "70"
+Inst55Quest6_Attain = "70"
+Inst55Quest6_Aim = "Wind Trader Zhareem has asked you to obtain a Warp Splinter Clipping. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst55Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarp Splinter is at "..YELLOW.."[5]"..WHITE.."."
+Inst55Quest6_Prequest = "None"
+Inst55Quest6_Folgequest = "None"
 --
 -- Awards Justice Points.
 
---Quest 4 Alliance
-Inst55Quest4 = "4. Wanted: Sunseeker Channelers (Daily)"
-Inst55Quest4_Level = "70"
-Inst55Quest4_Attain = "70"
-Inst55Quest4_Aim = "Nether-Stalker Mah'duun wants you to kill 6 Sunseeker Channelers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst55Quest4_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst55Quest4_Note = "This is a daily quest."
-Inst55Quest4_Prequest = "None"
-Inst55Quest4_Folgequest = "None"
+--Quest 7 Alliance
+Inst55Quest7 = "7. Wanted: Sunseeker Channelers (Daily)"
+Inst55Quest7_Level = "70"
+Inst55Quest7_Attain = "70"
+Inst55Quest7_Aim = "Nether-Stalker Mah'duun wants you to kill 6 Sunseeker Channelers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst55Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest7_Note = "This is a daily quest."
+Inst55Quest7_Prequest = "None"
+Inst55Quest7_Folgequest = "None"
 --
-Inst55Quest4name1 = "Ethereum Prison Key"
+Inst55Quest7name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7475,14 +7555,7 @@ Inst55Quest1_HORDE_Location = Inst55Quest1_Location
 Inst55Quest1_HORDE_Note = Inst55Quest1_Note
 Inst55Quest1_HORDE_Prequest = Inst55Quest1_Prequest
 Inst55Quest1_HORDE_Folgequest = Inst55Quest1_Folgequest
-Inst55Quest1PreQuest_HORDE = Inst55Quest1PreQuest
---
-Inst55Quest1name1_HORDE = Inst55Quest1name1
-Inst55Quest1name2_HORDE = Inst55Quest1name2
-Inst55Quest1name3_HORDE = Inst55Quest1name3
-Inst55Quest1name4_HORDE = Inst55Quest1name4
-Inst55Quest1name5_HORDE = Inst55Quest1name5
-Inst55Quest1name6_HORDE = Inst55Quest1name6
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst55Quest2_HORDE = Inst55Quest2
@@ -7493,7 +7566,7 @@ Inst55Quest2_HORDE_Location = Inst55Quest2_Location
 Inst55Quest2_HORDE_Note = Inst55Quest2_Note
 Inst55Quest2_HORDE_Prequest = Inst55Quest2_Prequest
 Inst55Quest2_HORDE_Folgequest = Inst55Quest2_Folgequest
-Inst55Quest2PreQuest_HORDE = Inst55Quest2PreQuest
+Inst55Quest2FQuest_HORDE = Inst55Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7505,8 +7578,8 @@ Inst55Quest3_HORDE_Location = Inst55Quest3_Location
 Inst55Quest3_HORDE_Note = Inst55Quest3_Note
 Inst55Quest3_HORDE_Prequest = Inst55Quest3_Prequest
 Inst55Quest3_HORDE_Folgequest = Inst55Quest3_Folgequest
---
--- Awards Justice Points.
+Inst55Quest3FQuest_HORDE = Inst55Quest3FQuest
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst55Quest4_HORDE = Inst55Quest4
@@ -7517,8 +7590,49 @@ Inst55Quest4_HORDE_Location = Inst55Quest4_Location
 Inst55Quest4_HORDE_Note = Inst55Quest4_Note
 Inst55Quest4_HORDE_Prequest = Inst55Quest4_Prequest
 Inst55Quest4_HORDE_Folgequest = Inst55Quest4_Folgequest
+Inst55Quest4PreQuest_HORDE = Inst55Quest4PreQuest
 --
 Inst55Quest4name1_HORDE = Inst55Quest4name1
+Inst55Quest4name2_HORDE = Inst55Quest4name2
+Inst55Quest4name3_HORDE = Inst55Quest4name3
+Inst55Quest4name4_HORDE = Inst55Quest4name4
+Inst55Quest4name5_HORDE = Inst55Quest4name5
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst55Quest5_HORDE = Inst55Quest5
+Inst55Quest5_HORDE_Level = Inst55Quest5_Level
+Inst55Quest5_HORDE_Attain = Inst55Quest5_Attain
+Inst55Quest5_HORDE_Aim = Inst55Quest5_Aim
+Inst55Quest5_HORDE_Location = Inst55Quest5_Location
+Inst55Quest5_HORDE_Note = Inst55Quest5_Note
+Inst55Quest5_HORDE_Prequest = Inst55Quest5_Prequest
+Inst55Quest5_HORDE_Folgequest = Inst55Quest5_Folgequest
+Inst55Quest5PreQuest_HORDE = Inst55Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst55Quest6_HORDE = Inst55Quest6
+Inst55Quest6_HORDE_Level = Inst55Quest6_Level
+Inst55Quest6_HORDE_Attain = Inst55Quest6_Attain
+Inst55Quest6_HORDE_Aim = Inst55Quest6_Aim
+Inst55Quest6_HORDE_Location = Inst55Quest6_Location
+Inst55Quest6_HORDE_Note = Inst55Quest6_Note
+Inst55Quest6_HORDE_Prequest = Inst55Quest6_Prequest
+Inst55Quest6_HORDE_Folgequest = Inst55Quest6_Folgequest
+--
+-- Awards Justice Points.
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst55Quest7_HORDE = Inst55Quest7
+Inst55Quest7_HORDE_Level = Inst55Quest7_Level
+Inst55Quest7_HORDE_Attain = Inst55Quest7_Attain
+Inst55Quest7_HORDE_Aim = Inst55Quest7_Aim
+Inst55Quest7_HORDE_Location = Inst55Quest7_Location
+Inst55Quest7_HORDE_Note = Inst55Quest7_Note
+Inst55Quest7_HORDE_Prequest = Inst55Quest7_Prequest
+Inst55Quest7_HORDE_Folgequest = Inst55Quest7_Folgequest
+--
+Inst55Quest7name1_HORDE = Inst55Quest7name1
 
 
 
@@ -7526,62 +7640,95 @@ Inst55Quest4name1_HORDE = Inst55Quest4name1
 
 Inst56Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Mechanar is the first wing of the Tempest Keep instance.\n\nThis is the purple crystal building south of the main palace.\n\nRecommended level is 70. One full run yields about 1500 reputation with the Sha'tar."
 Inst56Caption = "TK: The Mechanar"
-Inst56QAA = "4 Quests"
-Inst56QAH = "4 Quests"
+Inst56QAA = "7 Quests"
+Inst56QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst56Quest1 = "1. How to Break Into the Arcatraz"
+Inst56Quest1 = "1. Lost Treasure"
 Inst56Quest1_Level = "70"
 Inst56Quest1_Attain = "67"
-Inst56Quest1_Aim = "A'dal has tasked you with the recovery of the Top and Bottom Shards of the Arcatraz Key. Return them to him, and he will fashion them into the Key to the Arcatraz for you."
-Inst56Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst56Quest1_Note = "The Top Piece drops off Pathaleon the Calculator located at "..YELLOW.."[5]"..WHITE..". The Bottom piece drops in Botanica."
-Inst56Quest1_Prequest = "Warp-Raider Nesaad -> Special Delivery to Shattrath City"
-Inst56Quest1_Folgequest = "Harbinger of Doom ("..YELLOW.."TK: Arcatraz"..WHITE..")"
-Inst56Quest1PreQuest = "true"
---
-Inst56Quest1name1 = "Sha'tari Anchorite's Cloak"
-Inst56Quest1name2 = "A'dal's Gift"
-Inst56Quest1name3 = "Naaru Belt of Precision"
-Inst56Quest1name4 = "Shattrath's Champion Belt"
-Inst56Quest1name5 = "Sha'tari Vindicator's Waistguard"
-Inst56Quest1name6 = "Key to the Arcatraz"
+Inst56Quest1_Aim = "Retrieve the Blinding Fury for A'dal from the Cache of the Legion in the Mechanar of Tempest Keep."
+Inst56Quest1_Location = "Auto-accepted in The Mechanar"
+Inst56Quest1_Note = "The Cache of the Legion is at "..GREEN.."[1']"..WHITE.." and is opened by killing the Gatekeepers at "..YELLOW.."[1]"..WHITE.." and "..YELLOW.."[2]"..WHITE.."."
+Inst56Quest1_Prequest = "None"
+Inst56Quest1_Folgequest = "None"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst56Quest2 = "2. Fresh from the Mechanar"
-Inst56Quest2_Level = "69"
+Inst56Quest2 = "2. With Great Power, Comes Great Responsibility"
+Inst56Quest2_Level = "70"
 Inst56Quest2_Attain = "67"
-Inst56Quest2_Aim = "David Wayne at Wayne's Retreat wants you to bring him an Overcharged Manacell."
-Inst56Quest2_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
-Inst56Quest2_Note = "The cell is before Mechano-Lord Capacitus at "..YELLOW.."[3]"..WHITE.." in a box near the wall.\n\nCompleting this quest along with The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..") will open up two new quests from David Wayne.\n\nThis quest works in both Normal and Heroic mode."
-Inst56Quest2_Prequest = "Additional Materials"
-Inst56Quest2_Folgequest = "None"
-Inst56Quest2PreQuest = "true"
+Inst56Quest2_Aim = "A'dal has asked you to slay Mechano-Lord Capacitus in the Mechanar of Tempest Keep."
+Inst56Quest2_Location = "Auto-accepted in The Mechanar"
+Inst56Quest2_Note = "Mechano-Lord Capacitus is at "..YELLOW.."[3]"..WHITE.."."
+Inst56Quest2_Prequest = "None"
+Inst56Quest2_Folgequest = "The Calculator"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst56Quest3 = "3. Wanted: Pathaleon's Projector (Heroic Daily)"
+Inst56Quest3 = "3. The Calculator"
 Inst56Quest3_Level = "70"
-Inst56Quest3_Attain = "70"
-Inst56Quest3_Aim = "Wind Trader Zhareem has asked you to acquire Pathaleon's Projector. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst56Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst56Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPathaleon the Calculator is at "..YELLOW.."[5]"..WHITE.."."
-Inst56Quest3_Prequest = "None"
+Inst56Quest3_Attain = "67"
+Inst56Quest3_Aim = "A'dal has asked you to slay Pathaleon the Calculator in the Mechanar of Tempest Keep."
+Inst56Quest3_Location = "Auto-accepted in The Mechanar"
+Inst56Quest3_Note = "Pathaleon the Calculator is at "..YELLOW.."[5]"..WHITE.."."
+Inst56Quest3_Prequest = "With Great Power, Comes Great Responsibility"
 Inst56Quest3_Folgequest = "None"
+Inst56Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst56Quest4 = "4. How to Break Into the Arcatraz"
+Inst56Quest4_Level = "70"
+Inst56Quest4_Attain = "67"
+Inst56Quest4_Aim = "A'dal has tasked you with the recovery of the Top and Bottom Shards of the Arcatraz Key. Return them to him, and he will fashion them into the Key to the Arcatraz for you."
+Inst56Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst56Quest4_Note = "The Top Piece drops off Pathaleon the Calculator located at "..YELLOW.."[5]"..WHITE..". The Bottom piece drops in Botanica."
+Inst56Quest4_Prequest = "Warp-Raider Nesaad -> Special Delivery to Shattrath City"
+Inst56Quest4_Folgequest = "Harbinger of Doom ("..YELLOW.."TK: Arcatraz"..WHITE..")"
+Inst56Quest4PreQuest = "true"
+--
+Inst56Quest4name1 = "Sha'tari Anchorite's Cloak"
+Inst56Quest4name2 = "A'dal's Gift"
+Inst56Quest4name3 = "Naaru Belt of Precision"
+Inst56Quest4name4 = "Shattrath's Champion Belt"
+Inst56Quest4name5 = "Sha'tari Vindicator's Waistguard"
+
+--Quest 5 Alliance
+Inst56Quest5 = "5. Fresh from the Mechanar"
+Inst56Quest5_Level = "69"
+Inst56Quest5_Attain = "67"
+Inst56Quest5_Aim = "David Wayne at Wayne's Retreat wants you to bring him an Overcharged Manacell."
+Inst56Quest5_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
+Inst56Quest5_Note = "The cell is before Mechano-Lord Capacitus at "..YELLOW.."[3]"..WHITE.." in a box near the wall.\n\nCompleting this quest along with The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..") will open up two new quests from David Wayne."
+Inst56Quest5_Prequest = "Additional Materials"
+Inst56Quest5_Folgequest = "None"
+Inst56Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst56Quest6 = "6. Wanted: Pathaleon's Projector (Heroic Daily)"
+Inst56Quest6_Level = "70"
+Inst56Quest6_Attain = "70"
+Inst56Quest6_Aim = "Wind Trader Zhareem has asked you to acquire Pathaleon's Projector. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst56Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPathaleon the Calculator is at "..YELLOW.."[5]"..WHITE.."."
+Inst56Quest6_Prequest = "None"
+Inst56Quest6_Folgequest = "None"
 --
 -- Awards Justice Points.
 
---Quest 4 Alliance
-Inst56Quest4 = "4. Wanted: Tempest-Forge Destroyers (Daily)"
-Inst56Quest4_Level = "70"
-Inst56Quest4_Attain = "70"
-Inst56Quest4_Aim = "Nether-Stalker Mah'duun wants you to destroy 5 Tempest-Forge Destroyers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst56Quest4_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst56Quest4_Note = "This is a daily quest."
-Inst56Quest4_Prequest = "None"
-Inst56Quest4_Folgequest = "None"
+--Quest 7 Alliance
+Inst56Quest7 = "7. Wanted: Tempest-Forge Destroyers (Daily)"
+Inst56Quest7_Level = "70"
+Inst56Quest7_Attain = "70"
+Inst56Quest7_Aim = "Nether-Stalker Mah'duun wants you to destroy 5 Tempest-Forge Destroyers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst56Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest7_Note = "This is a daily quest."
+Inst56Quest7_Prequest = "None"
+Inst56Quest7_Folgequest = "None"
 --
-Inst56Quest4name1 = "Ethereum Prison Key"
+Inst56Quest7name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7593,14 +7740,7 @@ Inst56Quest1_HORDE_Location = Inst56Quest1_Location
 Inst56Quest1_HORDE_Note = Inst56Quest1_Note
 Inst56Quest1_HORDE_Prequest = Inst56Quest1_Prequest
 Inst56Quest1_HORDE_Folgequest = Inst56Quest1_Folgequest
-Inst56Quest1PreQuest_HORDE = Inst56Quest1PreQuest
---
-Inst56Quest1name1_HORDE = Inst56Quest1name1
-Inst56Quest1name2_HORDE = Inst56Quest1name2
-Inst56Quest1name3_HORDE = Inst56Quest1name3
-Inst56Quest1name4_HORDE = Inst56Quest1name4
-Inst56Quest1name5_HORDE = Inst56Quest1name5
-Inst56Quest1name6_HORDE = Inst56Quest1name6
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst56Quest2_HORDE = Inst56Quest2
@@ -7611,7 +7751,6 @@ Inst56Quest2_HORDE_Location = Inst56Quest2_Location
 Inst56Quest2_HORDE_Note = Inst56Quest2_Note
 Inst56Quest2_HORDE_Prequest = Inst56Quest2_Prequest
 Inst56Quest2_HORDE_Folgequest = Inst56Quest2_Folgequest
-Inst56Quest2PreQuest_HORDE = Inst56Quest2PreQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -7623,8 +7762,8 @@ Inst56Quest3_HORDE_Location = Inst56Quest3_Location
 Inst56Quest3_HORDE_Note = Inst56Quest3_Note
 Inst56Quest3_HORDE_Prequest = Inst56Quest3_Prequest
 Inst56Quest3_HORDE_Folgequest = Inst56Quest3_Folgequest
---
--- Awards Justice Points.
+Inst56Quest3FQuest_HORDE = Inst56Quest3FQuest
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst56Quest4_HORDE = Inst56Quest4
@@ -7635,8 +7774,49 @@ Inst56Quest4_HORDE_Location = Inst56Quest4_Location
 Inst56Quest4_HORDE_Note = Inst56Quest4_Note
 Inst56Quest4_HORDE_Prequest = Inst56Quest4_Prequest
 Inst56Quest4_HORDE_Folgequest = Inst56Quest4_Folgequest
+Inst56Quest4PreQuest_HORDE = Inst56Quest4PreQuest
 --
 Inst56Quest4name1_HORDE = Inst56Quest4name1
+Inst56Quest4name2_HORDE = Inst56Quest4name2
+Inst56Quest4name3_HORDE = Inst56Quest4name3
+Inst56Quest4name4_HORDE = Inst56Quest4name4
+Inst56Quest4name5_HORDE = Inst56Quest4name5
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst56Quest5_HORDE = Inst56Quest5
+Inst56Quest5_HORDE_Level = Inst56Quest5_Level
+Inst56Quest5_HORDE_Attain = Inst56Quest5_Attain
+Inst56Quest5_HORDE_Aim = Inst56Quest5_Aim
+Inst56Quest5_HORDE_Location = Inst56Quest5_Location
+Inst56Quest5_HORDE_Note = Inst56Quest5_Note
+Inst56Quest5_HORDE_Prequest = Inst56Quest5_Prequest
+Inst56Quest5_HORDE_Folgequest = Inst56Quest5_Folgequest
+Inst56Quest5PreQuest_HORDE = Inst56Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst56Quest6_HORDE = Inst56Quest6
+Inst56Quest6_HORDE_Level = Inst56Quest6_Level
+Inst56Quest6_HORDE_Attain = Inst56Quest6_Attain
+Inst56Quest6_HORDE_Aim = Inst56Quest6_Aim
+Inst56Quest6_HORDE_Location = Inst56Quest6_Location
+Inst56Quest6_HORDE_Note = Inst56Quest6_Note
+Inst56Quest6_HORDE_Prequest = Inst56Quest6_Prequest
+Inst56Quest6_HORDE_Folgequest = Inst56Quest6_Folgequest
+--
+-- Awards Justice Points.
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst56Quest7_HORDE = Inst56Quest7
+Inst56Quest7_HORDE_Level = Inst56Quest7_Level
+Inst56Quest7_HORDE_Attain = Inst56Quest7_Attain
+Inst56Quest7_HORDE_Aim = Inst56Quest7_Aim
+Inst56Quest7_HORDE_Location = Inst56Quest7_Location
+Inst56Quest7_HORDE_Note = Inst56Quest7_Note
+Inst56Quest7_HORDE_Prequest = Inst56Quest7_Prequest
+Inst56Quest7_HORDE_Folgequest = Inst56Quest7_Folgequest
+--
+Inst56Quest7name1_HORDE = Inst56Quest7name1
 
 
 
