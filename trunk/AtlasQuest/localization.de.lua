@@ -6383,7 +6383,7 @@ Inst47Quest11_Level = "70"
 Inst47Quest11_Attain = "70"
 Inst47Quest11_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 3 bösartige Ausbilderinnen zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
 Inst47Quest11_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst47Quest11_Note = "Dies ist ein Tagesquest."
+Inst47Quest11_Note = "Dies ist eine Tagesquest."
 Inst47Quest11_Prequest = "Nein"
 Inst47Quest11_Folgequest = "Nein"
 --
@@ -6652,7 +6652,7 @@ Inst49Quest5_Level = "70"
 Inst49Quest5_Attain = "70"
 Inst49Quest5_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Fürsten der Zeitenrisse zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
 Inst49Quest5_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst49Quest5_Note = "Dies ist ein Tagesquest."
+Inst49Quest5_Note = "Dies ist eine Tagesquest."
 Inst49Quest5_Prequest = "Nein"
 Inst49Quest5_Folgequest = "Nein"
 --
@@ -7285,82 +7285,106 @@ Inst53Quest14_HORDE_Folgequest = "Nein"
 
 Inst54Story = "Die Festung der Stürme ist eine ehemalige Festung der Naaru im Nethersturm in der Scherbenwelt.\n\nDiese kristallene Festung wird nun von Kael'thas Sonnenwanderer regiert, dem Herren der Blutelfen, und wird dominiert von den Kerben seiner Brüder.\n\nDie Struktur ist in drei Flügel eingeteilt - Satelliten gigantischen Ausmaßes - mit dem viertel Flügel, der Exodar, nun in the Welt von Azeroth als Hauptstadt der Draenei.\n\nDie Arkatraz ist der dritte Flügel der Festung der Stürme.\n\nDie Arkatraz ist entweder zugänglich über eine lange Questreihe für den Schlüssel, bei der man die Mechanar und die Botanika durchspielen muss und die mit einer Quest (Ein Hügel voll Astraler) von Netherpirscher Khay'ji in Area 52 beginnt, oder kann von einem Stufe-70-Schurken mit 350 Punkten in Schlossknacken geöffnet werden.\n\nNur ein Mitglied der Gruppe muss den Schlüssel haben. Das Eingangsportal ist hoch über den anderen Instanzen der Festung der Stürme.\n\nEin voller Durchlauf gewährt ungefähr 1750 Rufpunkte bei den Sha'tar."
 Inst54Caption = "FdS: Die Arkatraz"
-Inst54QAA = "6 Quests"
-Inst54QAH = "6 Quests"
+Inst54QAA = "8 Quests"
+Inst54QAH = "8 Quests"
 
 --Quest 1 Alliance
-Inst54Quest1 = "1. Herold der Verdammnis"
+Inst54Quest1 = "1. Unbändige Dunkelheit"
 Inst54Quest1_Level = "70"
 Inst54Quest1_Attain = "67"
-Inst54Quest1_Aim = "Ihr wurdet beauftragt, zur Arkatraz in der Festung der Stürme zu reisen und Herold Horizontiss zu töten. Kehrt danach zu A'dal auf der Terrasse des Lichts in Shattrath zurück."
-Inst54Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest1_Note = "Dies ist Teil der Schlüsselquestreihe, die im Nethersturm bei Netherpirscher Khay'ji bei (Nethersturm - Area 52; "..YELLOW.."32,64"..WHITE..") startet."
-Inst54Quest1_Prequest = "Ja, Sphärenräuber Nesaad -> Wie man in Arkatraz einbricht"
-Inst54Quest1_Folgequest = "Nein"
-Inst54Quest1PreQuest = "true"
---
-Inst54Quest1name1 = "Mächtiger Anhänger der Sha'tari"
-Inst54Quest1name2 = "A'dals Halskette der Erholung"
-Inst54Quest1name3 = "Machtvoller Halsschmuck von Shattrath"
+Inst54Quest1_Aim = "A'dal hat Euch gebeten, Zereketh den Unabhängigen in der Arcatraz der Festung der Stürme zu töten."
+Inst54Quest1_Location = "Diese Quest bekommst du wenn du die Arkatraz betrittst."
+Inst54Quest1_Note = "Zereketh der Unabhängige befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst54Quest1_Prequest = "Nein"
+Inst54Quest1_Folgequest = "Ja, Zorn und Verdammnis"
+Inst54Quest1FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst54Quest2 = "2. Seher Udalo"
+Inst54Quest2 = "2. Zorn und Verdammnis"
 Inst54Quest2_Level = "70"
-Inst54Quest2_Attain = "68"
-Inst54Quest2_Aim = "Sucht Seher Udalo in der Arkatraz in der Festung der Stürme."
-Inst54Quest2_Location = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58,48"..WHITE..")"
-Inst54Quest2_Note = "Seher Udalo befindet sich bei "..GREEN.."[1']"..WHITE..", kurz vor dem Raum mit dem Endgegner.\n\nDiese Quest ist Teil der Zugangsquestreihe des Schwarzen Tempels, die bei Anachoret Ceyla (Schattenmondtal - Altar der Sha'tar; "..YELLOW.."62,38"..WHITE..") für die Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56,59"..WHITE..") für die Seher startet."
-Inst54Quest2_Prequest = "Ja, Schrifttafeln von Baa'ri -> Akama"
-Inst54Quest2_Folgequest = "Ja, Ein mysteriöses Omen"
+Inst54Quest2_Attain = "67"
+Inst54Quest2_Aim = "A'dal bittet Euch, Zornseher Soccothrates und Dalliah die Verdammnisverkünderin in der Arcatraz der Festung der Stürme zu töten."
+Inst54Quest2_Location = "Diese Quest bekommst du nachdem du die Quest Unbändige Dunkelheit abgeschlossen hast."
+Inst54Quest2_Note = "Zornseher Soccothrates ist bei "..YELLOW.."[3]"..WHITE.." und Dalliah die Verdammnisverkünderin ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst54Quest2_Prequest = "Ja, Unbändige Dunkelheit"
+Inst54Quest2_Folgequest = "Ja, Ausbruch aus dem Hochsicherheitstrakt"
 Inst54Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst54Quest3 = "3. Die Prüfung der Naaru: Zuverlässigkeit (Heroisch)"
+Inst54Quest3 = "3. Ausbruch aus dem Hochsicherheitstrakt"
 Inst54Quest3_Level = "70"
-Inst54Quest3_Attain = "70"
-Inst54Quest3_Aim = "A'dal in Shattrath möchte, dass Ihr Millhaus Manasturm aus der Arkatraz in der Festung der Stürme rettet."
-Inst54Quest3_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
-Inst54Quest3_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Millhaus Manasturm ist in dem Raum mit Aufseher Mellichar bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
-Inst54Quest3_Prequest = "Nein"
+Inst54Quest3_Attain = "67"
+Inst54Quest3_Aim = "A'dal hat Euch gebeten, Herold Horizontiss in der Arcatraz der Festung der Stürme zu töten."
+Inst54Quest3_Location = "Diese Quest bekommst du wenn du die Quest Zorn und Verdammnis abgeschlossen hast."
+Inst54Quest3_Note = "Herold Horizontiss ist bei "..YELLOW.."[4]"..WHITE..". Die Quest kannst du nach seinen Tod abgeben im Questfenster "
+Inst54Quest3_Prequest = "Ja, Zorn und Verdammnis"
 Inst54Quest3_Folgequest = "Nein"
--- No Rewards for this quest
+Inst54Quest3PreQuest = "true"
+--
+Inst54Quest3name1 = "Mächtiger Anhänger der Sha'tari"
+Inst54Quest3name2 = "A'dals Halskette der Erholung"
+Inst54Quest3name3 = "Machtvoller Halsschmuck von Shattrath"
 
 --Quest 4 Alliance
-Inst54Quest4 = "4. Das zweite und das dritte Fragment"
+Inst54Quest4 = "4. Seher Udalo"
 Inst54Quest4_Level = "70"
 Inst54Quest4_Attain = "68"
-Inst54Quest4_Aim = "Besorgt das zweite Schlüsselfragment aus einem arkanen Behälter im Echsenkessel und das dritte Schlüsselfragment aus einem arkanen Behälter in der Festung der Stürme. Kehrt dann zu Khadgar in Shattrath zurück."
-Inst54Quest4_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
-Inst54Quest4_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich bei "..DARKYELLOW.."[1]"..WHITE..". Wenn man ihn öffnet, erscheint ein Elementar, der getötet werden muss, um das Fragment zu erhalten. Das zweite Schlüsselfragment befindet sich in der Dampfkammer."
-Inst54Quest4_Prequest = "Ja, Nach Karazhan ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
-Inst54Quest4_Folgequest = "Ja, Die Berührung des Meisters ("..YELLOW.."HdZ: Der schwarze Morast"..WHITE..")"
+Inst54Quest4_Aim = "Sucht Seher Udalo in der Arkatraz in der Festung der Stürme."
+Inst54Quest4_Location = "Akama (Schattenmondtal - Verborgenen Kammer; "..YELLOW.."58,48.2"..WHITE..")"
+Inst54Quest4_Note = "Seher Udalo ist bei "..GREEN.."[1']"..WHITE..", kurz vor dem Raum vom Endboss.\n\nDies ist ein Teil vom Schwarzen Tempel Questreihe die von Anachoret Ceyla (Schattenmondtal - Altar der Stürme; "..YELLOW.."62.4,28.4"..WHITE..") für Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56.2,59.4"..WHITE..") für Seher startet."
+Inst54Quest4_Prequest = "Ja, Schrifttafeln von Baa'ri -> Akama"
+Inst54Quest4_Folgequest = "Ja, Ein mysteriöses Omen"
 Inst54Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst54Quest5 = "5. Gesucht: Horizontiss' Schriftrolle (Heroisches Tagesquest)"
+Inst54Quest5 = "5. Die Prüfung der Naaru: Zuverlässigkeit (Heroisch)"
 Inst54Quest5_Level = "70"
 Inst54Quest5_Attain = "70"
-Inst54Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Horizontiss' Schriftrolle zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst54Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst54Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nHerold Horizontiss befindet sich bei "..DARKYELLOW.."[1]"..WHITE.."."
+Inst54Quest5_Aim = "A'dal in Shattrath möchte, dass Ihr Millhaus Manasturm aus der Arkatraz in der Festung der Stürme rettet."
+Inst54Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Millhaus Manasturm ist in dem Raum mit Aufseher Mellichar bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
 Inst54Quest5_Prequest = "Nein"
 Inst54Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst54Quest6 = "6. Das zweite und das dritte Fragment"
+Inst54Quest6_Level = "70"
+Inst54Quest6_Attain = "68"
+Inst54Quest6_Aim = "Besorgt das zweite Schlüsselfragment aus einem arkanen Behälter im Echsenkessel und das dritte Schlüsselfragment aus einem arkanen Behälter in der Festung der Stürme. Kehrt dann zu Khadgar in Shattrath zurück."
+Inst54Quest6_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
+Inst54Quest6_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich bei "..DARKYELLOW.."[1]"..WHITE..". Wenn man ihn öffnet, erscheint ein Elementar, der getötet werden muss, um das Fragment zu erhalten. Das zweite Schlüsselfragment befindet sich in der Dampfkammer."
+Inst54Quest6_Prequest = "Ja, Nach Karazhan ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")"
+Inst54Quest6_Folgequest = "Ja, Die Berührung des Meisters ("..YELLOW.."HdZ: Der schwarze Morast"..WHITE..")"
+Inst54Quest6FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst54Quest7 = "7. Gesucht: Horizontiss' Schriftrolle (Heroisches Tagesquest)"
+Inst54Quest7_Level = "70"
+Inst54Quest7_Attain = "70"
+Inst54Quest7_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Horizontiss' Schriftrolle zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst54Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nHerold Horizontiss befindet sich bei "..DARKYELLOW.."[1]"..WHITE.."."
+Inst54Quest7_Prequest = "Nein"
+Inst54Quest7_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 6 Alliance
-Inst54Quest6 = "6. Gesucht: Schildwachen der Arkatraz (Tagesquest)"
-Inst54Quest6_Level = "70"
-Inst54Quest6_Attain = "70"
-Inst54Quest6_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Schildwachen der Arkatraz zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst54Quest6_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst54Quest6_Note = "Dies ist ein Tagesquest."
-Inst54Quest6_Prequest = "Nein"
-Inst54Quest6_Folgequest = "Nein"
+--Quest 8 Alliance
+Inst54Quest8 = "8. Gesucht: Schildwachen der Arkatraz (Tagesquest)"
+Inst54Quest8_Level = "70"
+Inst54Quest8_Attain = "70"
+Inst54Quest8_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Schildwachen der Arkatraz zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
+Inst54Quest8_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest8_Note = "Dies ist eine Tagesquest."
+Inst54Quest8_Prequest = "Nein"
+Inst54Quest8_Folgequest = "Nein"
 --
-Inst54Quest6name1 = "Gefängnisschlüssel des Astraleums"
+Inst54Quest8name1 = "Gefängnisschlüssel des Astraleums"
 
 
 --Quest 1 Horde
@@ -7370,18 +7394,15 @@ Inst54Quest1_HORDE_Attain = "67"
 Inst54Quest1_HORDE_Aim = Inst54Quest1_Aim
 Inst54Quest1_HORDE_Location = Inst54Quest1_Location
 Inst54Quest1_HORDE_Note = Inst54Quest1_Note
-Inst54Quest1_HORDE_Prequest = Inst54Quest1_Prequest
-Inst54Quest1_HORDE_Folgequest = "Nein"
-Inst54Quest1PreQuest_HORDE = "true"
---
-Inst54Quest1name1_HORDE = Inst54Quest1name1
-Inst54Quest1name2_HORDE = Inst54Quest1name2
-Inst54Quest1name3_HORDE = Inst54Quest1name3
+Inst54Quest1_HORDE_Prequest = "Nein"
+Inst54Quest1_HORDE_Folgequest = Inst54Quest1_Folgequest
+Inst54Quest1FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst54Quest2_HORDE = Inst54Quest2
 Inst54Quest2_HORDE_Level = "70"
-Inst54Quest2_HORDE_Attain = "68"
+Inst54Quest2_HORDE_Attain = "67"
 Inst54Quest2_HORDE_Aim = Inst54Quest2_Aim
 Inst54Quest2_HORDE_Location = Inst54Quest2_Location
 Inst54Quest2_HORDE_Note = Inst54Quest2_Note
@@ -7393,13 +7414,17 @@ Inst54Quest2FQuest_HORDE = "true"
 --Quest 3 Horde
 Inst54Quest3_HORDE = Inst54Quest3
 Inst54Quest3_HORDE_Level = "70"
-Inst54Quest3_HORDE_Attain = "70"
+Inst54Quest3_HORDE_Attain = "67"
 Inst54Quest3_HORDE_Aim = Inst54Quest3_Aim
 Inst54Quest3_HORDE_Location = Inst54Quest3_Location
 Inst54Quest3_HORDE_Note = Inst54Quest3_Note
 Inst54Quest3_HORDE_Prequest = "Nein"
 Inst54Quest3_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+Inst54Quest3PreQuest_HORDE = "true"
+--
+Inst54Quest3name1_HORDE = Inst54Quest3name1
+Inst54Quest3name2_HORDE = Inst54Quest3name2
+Inst54Quest3name3_HORDE = Inst54Quest3name3
 
 --Quest 4 Horde
 Inst54Quest4_HORDE = Inst54Quest4
@@ -7410,7 +7435,7 @@ Inst54Quest4_HORDE_Location = Inst54Quest4_Location
 Inst54Quest4_HORDE_Note = Inst54Quest4_Note
 Inst54Quest4_HORDE_Prequest = Inst54Quest4_Prequest
 Inst54Quest4_HORDE_Folgequest = Inst54Quest4_Folgequest
-Inst54Quest4FQuest_HORDE = "true"
+Inst54Quest4FQuest_HORDE = Inst54Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde
@@ -7420,22 +7445,46 @@ Inst54Quest5_HORDE_Attain = "70"
 Inst54Quest5_HORDE_Aim = Inst54Quest5_Aim
 Inst54Quest5_HORDE_Location = Inst54Quest5_Location
 Inst54Quest5_HORDE_Note = Inst54Quest5_Note
-Inst54Quest5_HORDE_Prequest = "Nein"
-Inst54Quest5_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+Inst54Quest5_HORDE_Prequest = Inst54Quest5_Prequest
+Inst54Quest5_HORDE_Folgequest = Inst54Quest5_Folgequest
+Inst54Quest5FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 6 Horde
 Inst54Quest6_HORDE = Inst54Quest6
 Inst54Quest6_HORDE_Level = "70"
-Inst54Quest6_HORDE_Attain = "70"
+Inst54Quest6_HORDE_Attain = "68"
 Inst54Quest6_HORDE_Aim = Inst54Quest6_Aim
 Inst54Quest6_HORDE_Location = Inst54Quest6_Location
 Inst54Quest6_HORDE_Note = Inst54Quest6_Note
-Inst54Quest6_HORDE_Prequest = "Nein"
-Inst54Quest6_HORDE_Folgequest = "Nein"
+Inst54Quest6_HORDE_Prequest = Inst54Quest6_Prequest
+Inst54Quest6_HORDE_Folgequest = Inst54Quest6_Folgequest
+Inst54Quest6FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst54Quest7_HORDE = Inst54Quest7
+Inst54Quest7_HORDE_Level = "70"
+Inst54Quest7_HORDE_Attain = "70"
+Inst54Quest7_HORDE_Aim = Inst54Quest7_Aim
+Inst54Quest7_HORDE_Location = Inst54Quest7_Location
+Inst54Quest7_HORDE_Note = Inst54Quest7_Note
+Inst54Quest7_HORDE_Prequest = "Nein"
+Inst54Quest7_HORDE_Folgequest = "Nein"
 --
-Inst54Quest6name1_HORDE = Inst54Quest6name1
+-- Preis Gerechtigkeitspunkte.
+
+--Quest 8 Horde
+Inst54Quest8_HORDE = Inst54Quest8
+Inst54Quest8_HORDE_Level = "70"
+Inst54Quest8_HORDE_Attain = "70"
+Inst54Quest8_HORDE_Aim = Inst54Quest8_Aim
+Inst54Quest8_HORDE_Location = Inst54Quest8_Location
+Inst54Quest8_HORDE_Note = Inst54Quest8_Note
+Inst54Quest8_HORDE_Prequest = "Nein"
+Inst54Quest8_HORDE_Folgequest = "Nein"
+--
+Inst54Quest8name1_HORDE = Inst54Quest8name1
 
 
 
@@ -7443,62 +7492,97 @@ Inst54Quest6name1_HORDE = Inst54Quest6name1
 
 Inst55Story = "Die Festung der Stürme ist eine ehemalige Festung der Naaru im Nethersturm in der Scherbenwelt.\n\nDiese kristallene Festung wird nun von Kael'thas Sonnenwanderer regiert, dem Herren der Blutelfen, und wird dominiert von den Kerben seiner Brüder.\n\nDie Struktur ist in drei Flügel eingeteilt - Satelliten gigantischen Ausmaßes - mit dem viertel Flügel, der Exodar, nun in the Welt von Azeroth als Hauptstadt der Draenei.\n\nDie Botanika ist der zweite Flügel der Festung der Stürme und liegt direkt nördlich vom Hauptpalast (dem blauen kristallenen Gebäude).\n\nDies ist auch der Sitz des Kael'thas-Kommandanten: Kommandant Sarannis."
 Inst55Caption = "FdS: Die Botanika"
-Inst55QAA = "4 Quests"
-Inst55QAH = "4 Quests"
+Inst55QAA = "7 Quests"
+Inst55QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst55Quest1 = "1. Wie man in Arkatraz einbricht"
+Inst55Quest1 = "1. Rettung der Botanika"
 Inst55Quest1_Level = "70"
 Inst55Quest1_Attain = "67"
-Inst55Quest1_Aim = "A'dal bittet Euch, das obere und das untere Fragment des Schlüssels zur Arkatraz zu besorgen. Bringt beide Fragmente zu ihm zurück, damit er sie für Euch zum Schlüssel zur Arkatraz zusammenfügen kann."
-Inst55Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
-Inst55Quest1_Note = "Das untere Schlüsselfragment droppt von Warpzweig bei "..YELLOW.."[5]"..WHITE..". Das obere Fragment droppt in der Mechanar."
-Inst55Quest1_Prequest = "Ja, Sphärenräuber Nesaad -> Sonderlieferung nach Shattrath"
-Inst55Quest1_Folgequest = "Ja, Herold der Verdammnis ("..YELLOW.."FdS: Die Arkatraz"..WHITE..")"
+Inst55Quest1_Aim = "A'dal möchte, dass Ihr Kommandantin Sarannis, Hochbotaniker Freywinn und Dorngrin den Hüter in der Botanika der Festung der Stürme tötet."
+Inst55Quest1_Location = "Diese Quest bekommst du wenn du die Botanika betrittst."
+Inst55Quest1_Note = "Kommandantin Sarannis ist bei "..YELLOW.."[1]"..WHITE..", Hochbotaniker Freywinn ist bei "..YELLOW.."[2]"..WHITE..", und Dorngrin der Hüter ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst55Quest1_Prequest = "Nein"
+Inst55Quest1_Folgequest = "Ja, Ausdünnung der Herde"
 Inst55Quest1FQuest = "true"
---
-Inst55Quest1name1 = "Anachoretenumhang der Sha'tari"
-Inst55Quest1name2 = "A'dals Gabe"
-Inst55Quest1name3 = "Präzisionsgürtel der Naaru"
-Inst55Quest1name4 = "Championgürtel von Shattrath"
-Inst55Quest1name5 = "Verteidigertaillenschutz der Sha'tari*"
-Inst55Quest1name6 = "Schlüssel zur Arkatraz"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst55Quest2 = "2. Den Schlüsselstein erobern"
+Inst55Quest2 = "2. Ausdünnung der Herde"
 Inst55Quest2_Level = "70"
 Inst55Quest2_Attain = "67"
-Inst55Quest2_Aim = "Reist zur Botanika der Festung der Stürme und besorgt Euch den Schlüsselstein von Kommandant Sarannis. Bringt ihn danach zu Erzmagier Vargoth im violetten Turm."
-Inst55Quest2_Location = "Erzmagier Vargoth (Nethersturm - Dorf Kirin'Var; "..YELLOW.."58,86"..WHITE..")"
-Inst55Quest2_Note = "Kommandant Sarannis befindet sich bei "..YELLOW.."[1]"..WHITE..". Der Schlüsselstein droppt im normalen und heroischen Modus."
-Inst55Quest2_Prequest = "Ja, Den Schlüsselmeister finden"
-Inst55Quest2_Folgequest = "Nein"
-Inst55Quest2PreQuest = "true"
+Inst55Quest2_Aim = "A'dal bittet Euch, 6 mutierte Fleischpeitscher und 6 mutierte Furchtkreischer zu töten und einen schnellentwickelnden Wedel von Laj in der Botanika der Festung der Stürme zu erbeuten."
+Inst55Quest2_Location = "Diese Quest bekommst du wenn du die Quest Rettung der Botanika abgeschlossen hast."
+Inst55Quest2_Note = "Laj ist bei "..YELLOW.."[4]"..WHITE.." die ganzen Mobs die du legen mußt befinden sich auf den Weg zu Ihr."
+Inst55Quest2_Prequest = "Ja, Rettung der Botanika"
+Inst55Quest2_Folgequest = "Ja, Eine äußerst traurige Aufgabe"
+Inst55Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst55Quest3 = "3. Gesucht: Warpzweigsplitter (Heroisches Tagesquest)"
+Inst55Quest3 = "3. Eine äußerst traurige Aufgabe"
 Inst55Quest3_Level = "70"
-Inst55Quest3_Attain = "70"
-Inst55Quest3_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm einen Warpzweigsplitter zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst55Quest3_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst55Quest3_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nWarpzweig befindet sich bei "..YELLOW.."[5]"..WHITE.."."
-Inst55Quest3_Prequest = "Nein"
+Inst55Quest3_Attain = "67"
+Inst55Quest3_Aim = "A'dal bittet Euch, Warpzweig in der Botanika in der Festung der Stürme zu töten."
+Inst55Quest3_Location = "Diese Quest bekommst du wenn du die Quest Ausdünnung der Herde abgeschlossen hast."
+Inst55Quest3_Note = "Warpzweig ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst55Quest3_Prequest = "Ja, Ausdünnung der Herde"
 Inst55Quest3_Folgequest = "Nein"
+Inst55Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst55Quest4 = "4. Wie man in Arkatraz einbricht"
+Inst55Quest4_Level = "70"
+Inst55Quest4_Attain = "67"
+Inst55Quest4_Aim = "Reist zur Botanika der Festung der Stürme und besorgt Euch den Schlüsselstein von Kommandant Sarannis. Bringt ihn danach zu Erzmagier Vargoth im violetten Turm."
+Inst55Quest4_Location = "Erzmagier Vargoth (Nethersturm - Dorf Kirin'Var; "..YELLOW.."58,86"..WHITE..")"
+Inst55Quest4_Note = "Kommandant Sarannis befindet sich bei "..YELLOW.."[1]"..WHITE..". Der Schlüsselstein droppt im normalen und heroischen Modus."
+Inst55Quest4_Prequest = "Ja, Sphärenräuber Nesaad -> Sonderlieferung nach Shattrath"
+Inst55Quest4_Folgequest = "Ja, Herold der Verdammnis ("..YELLOW.."FdS: Die Arkatraz"..WHITE..")"
+Inst55Quest4PreQuest = "true"
+--
+Inst55Quest4name1 = "Anachoretenumhang der Sha'tari"
+Inst55Quest4name2 = "A'dals Gabe"
+Inst55Quest4name3 = "Präzisionsgürtel der Naaru"
+Inst55Quest4name4 = "Championgürtel von Shattrath"
+Inst55Quest4name5 = "Verteidigertaillenschutz der Sha'tari*"
+
+--Quest 5 Alliance
+Inst55Quest5 = "5. Den Schlüsselstein erobern"
+Inst55Quest5_Level = "70"
+Inst55Quest5_Attain = "67"
+Inst55Quest5_Aim = "Reist zur Botanika der Festung der Stürme und besorgt Euch den Schlüsselstein von Kommandant Sarannis. Bringt ihn danach zu Erzmagier Vargoth im violetten Turm."
+Inst55Quest5_Location = "Erzmagier Vargoth (Nethersturm - Dorf Kirin'Var; "..YELLOW.."58,86"..WHITE..")"
+Inst55Quest5_Note = "Kommandant Sarannis befindet sich bei "..YELLOW.."[1]"..WHITE..". Der Schlüsselstein droppt im normalen und heroischen Modus."
+Inst55Quest5_Prequest = "Ja, Den Schlüsselmeister finden"
+Inst55Quest5_Folgequest = "Nein"
+Inst55Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst55Quest6 = "6. Gesucht: Warpzweigsplitter (Heroisches Tagesquest)"
+Inst55Quest6_Level = "70"
+Inst55Quest6_Attain = "70"
+Inst55Quest6_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm einen Warpzweigsplitter zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst55Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nWarpzweig befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst55Quest6_Prequest = "Nein"
+Inst55Quest6_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 4 Alliance
-Inst55Quest4 = "4. Gesucht: Kanalisierer der Sonnensucher (Tagesquest)"
-Inst55Quest4_Level = "70"
-Inst55Quest4_Attain = "70"
-Inst55Quest4_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 6 Kanalisierer der Sonnensucher zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst55Quest4_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst55Quest4_Note = "Dies ist ein Tagesquest."
-Inst55Quest4_Prequest = "Nein"
-Inst55Quest4_Folgequest = "Nein"
+--Quest 7 Alliance
+Inst55Quest7 = "7. Gesucht: Kanalisierer der Sonnensucher (Tagesquest)"
+Inst55Quest7_Level = "70"
+Inst55Quest7_Attain = "70"
+Inst55Quest7_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 6 Kanalisierer der Sonnensucher zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
+Inst55Quest7_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest7_Note = "Dies ist eine Tagesquest."
+Inst55Quest7_Prequest = "Nein"
+Inst55Quest7_Folgequest = "Nein"
 --
-Inst55Quest4name1 = "Gefängnisschlüssel des Astraleums"
+Inst55Quest7name1 = "Gefängnisschlüssel des Astraleums"
 
 
 --Quest 1 Horde
@@ -7508,16 +7592,10 @@ Inst55Quest1_HORDE_Attain = "67"
 Inst55Quest1_HORDE_Aim = Inst55Quest1_Aim
 Inst55Quest1_HORDE_Location = Inst55Quest1_Location
 Inst55Quest1_HORDE_Note = Inst55Quest1_Note
-Inst55Quest1_HORDE_Prequest = Inst55Quest1_Prequest
+Inst55Quest1_HORDE_Prequest = "Nein"
 Inst55Quest1_HORDE_Folgequest = Inst55Quest1_Folgequest
 Inst55Quest1FQuest_HORDE = "true"
---
-Inst55Quest1name1_HORDE = Inst55Quest1name1
-Inst55Quest1name2_HORDE = "A'dals Gabe"
-Inst55Quest1name3_HORDE = Inst55Quest1name3
-Inst55Quest1name4_HORDE = Inst55Quest1name4
-Inst55Quest1name5_HORDE = Inst55Quest1name5
-Inst55Quest1name6_HORDE = Inst55Quest1name6
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst55Quest2_HORDE = Inst55Quest2
@@ -7527,33 +7605,74 @@ Inst55Quest2_HORDE_Aim = Inst55Quest2_Aim
 Inst55Quest2_HORDE_Location = Inst55Quest2_Location
 Inst55Quest2_HORDE_Note = Inst55Quest2_Note
 Inst55Quest2_HORDE_Prequest = Inst55Quest2_Prequest
-Inst55Quest2_HORDE_Folgequest = "Nein"
+Inst55Quest2_HORDE_Folgequest = Inst55Quest2_Folgequest
 Inst55Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
 Inst55Quest3_HORDE = Inst55Quest3
 Inst55Quest3_HORDE_Level = "70"
-Inst55Quest3_HORDE_Attain = "70"
+Inst55Quest3_HORDE_Attain = "67"
 Inst55Quest3_HORDE_Aim = Inst55Quest3_Aim
 Inst55Quest3_HORDE_Location = Inst55Quest3_Location
 Inst55Quest3_HORDE_Note = Inst55Quest3_Note
-Inst55Quest3_HORDE_Prequest = "Nein"
+Inst55Quest3_HORDE_Prequest = Inst55Quest3_Prequest
 Inst55Quest3_HORDE_Folgequest = "Nein"
+Inst55Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst55Quest4_HORDE = Inst55Quest2
+Inst55Quest4_HORDE_Level = "70"
+Inst55Quest4_HORDE_Attain = "67"
+Inst55Quest4_HORDE_Aim = Inst55Quest2_Aim
+Inst55Quest4_HORDE_Location = Inst55Quest2_Location
+Inst55Quest4_HORDE_Note = Inst55Quest2_Note
+Inst55Quest4_HORDE_Prequest = Inst55Quest2_Prequest
+Inst55Quest4_HORDE_Folgequest = "Nein"
+Inst55Quest4PreQuest_HORDE = "true"
+--
+Inst55Quest4name1_HORDE = Inst55Quest4name1
+Inst55Quest4name2_HORDE = "A'dals Gabe"
+Inst55Quest4name3_HORDE = Inst55Quest4name3
+Inst55Quest4name4_HORDE = Inst55Quest4name4
+Inst55Quest4name5_HORDE = Inst55Quest4name5
+
+--Quest 5 Horde
+Inst55Quest5_HORDE = Inst55Quest5
+Inst55Quest5_HORDE_Level = "70"
+Inst55Quest5_HORDE_Attain = "67"
+Inst55Quest5_HORDE_Aim = Inst55Quest5_Aim
+Inst55Quest5_HORDE_Location = Inst55Quest5_Location
+Inst55Quest5_HORDE_Note = Inst55Quest5_Note
+Inst55Quest5_HORDE_Prequest = Inst55Quest5_Prequest
+Inst55Quest5_HORDE_Folgequest = "Nein"
+Inst55Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst55Quest6_HORDE = Inst55Quest6
+Inst55Quest6_HORDE_Level = "70"
+Inst55Quest6_HORDE_Attain = "70"
+Inst55Quest6_HORDE_Aim = Inst55Quest6_Aim
+Inst55Quest6_HORDE_Location = Inst55Quest6_Location
+Inst55Quest6_HORDE_Note = Inst55Quest6_Note
+Inst55Quest6_HORDE_Prequest = "Nein"
+Inst55Quest6_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 4 Horde
-Inst55Quest4_HORDE = Inst55Quest4
-Inst55Quest4_HORDE_Level = "70"
-Inst55Quest4_HORDE_Attain = "70"
-Inst55Quest4_HORDE_Aim = Inst55Quest4_Aim
-Inst55Quest4_HORDE_Location = Inst55Quest4_Location
-Inst55Quest4_HORDE_Note = Inst55Quest4_Note
-Inst55Quest4_HORDE_Prequest = "Nein"
-Inst55Quest4_HORDE_Folgequest = "Nein"
+--Quest 7 Horde
+Inst55Quest7_HORDE = Inst55Quest7
+Inst55Quest7_HORDE_Level = "70"
+Inst55Quest7_HORDE_Attain = "70"
+Inst55Quest7_HORDE_Aim = Inst55Quest7_Aim
+Inst55Quest7_HORDE_Location = Inst55Quest7_Location
+Inst55Quest7_HORDE_Note = Inst55Quest7_Note
+Inst55Quest7_HORDE_Prequest = "Nein"
+Inst55Quest7_HORDE_Folgequest = "Nein"
 --
-Inst55Quest4name1_HORDE = Inst55Quest4name1
+Inst55Quest7name1_HORDE = Inst55Quest4name1
 
 
 
@@ -7561,62 +7680,96 @@ Inst55Quest4name1_HORDE = Inst55Quest4name1
 
 Inst56Story = "Die Festung der Stürme ist eine ehemalige Festung der Naaru im Nethersturm in der Scherbenwelt.\n\nDiese kristallene Festung wird nun von Kael'thas Sonnenwanderer regiert, dem Herren der Blutelfen, und wird dominiert von den Kerben seiner Brüder.\n\nDie Struktur ist in drei Flügel eingeteilt - Satelliten gigantischen Ausmaßes - mit dem viertel Flügel, der Exodar, nun in the Welt von Azeroth als Hauptstadt der Draenei.\n\nDie Mechanar ist der erste Flügel der Festung der Stürme.\n\nEs ist das violette Kristallgebäude südlich des Hauptpalastes.\n\nDie empfohlene Stufe ist 70. Ein voller Durchlauf gewährt ungefähr 1500 Rufpunkte bei den Sha'tar."
 Inst56Caption = "FdS: Die Mechanar"
-Inst56QAA = "4 Quests"
-Inst56QAH = "4 Quests"
+Inst56QAA = "7 Quests"
+Inst56QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst56Quest1 = "1. Wie man in Arkatraz einbricht"
+Inst56Quest1 = "1. Der verlorene Schatz"
 Inst56Quest1_Level = "70"
 Inst56Quest1_Attain = "67"
-Inst56Quest1_Aim = "A'dal bittet Euch, das obere und das untere Fragment des Schlüssels zur Arkatraz zu besorgen. Bringt beide Fragmente zu ihm zurück, damit er sie für Euch zum Schlüssel zur Arkatraz zusammenfügen kann."
-Inst56Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
-Inst56Quest1_Note = "Das obere Schlüsselfragment droppt von Pathaleon dem Kalkulator bei "..YELLOW.."[5]"..WHITE..". Das untere Fragment droppt in der Botanika."
-Inst56Quest1_Prequest = "Ja, Sphärenräuber Nesaad -> Sonderlieferung nach Shattrath"
-Inst56Quest1_Folgequest = "Ja, Herold der Verdammnis ("..YELLOW.."FdS: Die Arkatraz"..WHITE..")"
-Inst56Quest1FQuest = "true"
---
-Inst56Quest1name1 = "Anachoretenumhang der Sha'tari"
-Inst56Quest1name2 = "A'dals Gabe"
-Inst56Quest1name3 = "Präzisionsgürtel der Naaru"
-Inst56Quest1name4 = "Championgürtel von Shattrath"
-Inst56Quest1name5 = "Verteidigertaillenschutz der Sha'tari*"
-Inst56Quest1name6 = "Schlüssel zur Arkatraz"
+Inst56Quest1_Aim = "Beschafft für A'dal den Blendenden Zorn aus dem Behälter der Legion in der Mechanar der Festung der Stürme."
+Inst56Quest1_Location = "Diese Quest bekommst du wenn du die Mechnanar betrittst."
+Inst56Quest1_Note = "Der Behälter der Legion befindet sich bei "..GREEN.."[1']"..WHITE.." und öffnet sich nachdem die Torwächter bei "..YELLOW.."[1]"..WHITE.." und "..YELLOW.."[2]"..WHITE.." getötet wurden."
+Inst56Quest1_Prequest = "Nein"
+Inst56Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst56Quest2 = "2. Frisch von der Mechanar"
-Inst56Quest2_Level = "69"
+Inst56Quest2 = "2. Aus großer Kraft folgt große Verantwortung"
+Inst56Quest2_Level = "70"
 Inst56Quest2_Attain = "67"
-Inst56Quest2_Aim = "David Wayne bei Waynes Zuflucht möchte, dass Ihr ihm eine überladene Manazelle bringt."
-Inst56Quest2_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
-Inst56Quest2_Note = "Die Zelle befindet sich vor Mechanolord Kapazitus bei "..YELLOW.."[3]"..WHITE.." in einer Kiste in der Nähe der Mauer.\n\nWenn man diese Quest und Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne.\n\nDas Quest funktioniert im normalen und heroischen Modus."
-Inst56Quest2_Prequest = "Ja, Zusätzliche Materialien"
-Inst56Quest2_Folgequest = "Nein"
-Inst56Quest2PreQuest = "true"
+Inst56Quest2_Aim = "A'dal bittet Euch, Mechanolord Kapazitus in der Mechanar der Festung der Stürme zu töten."
+Inst56Quest2_Location = "Diese Quest bekommst du wenn du die Quest Der verlorene Schatz abgeschlossen hast."
+Inst56Quest2_Note = "Mechanolord Kapazitus ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst56Quest2_Prequest = "Nein"
+Inst56Quest2_Folgequest = "Ja, Der Kalkulator"
+Inst56Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst56Quest3 = "3. Gesucht: Pathaleons Projektionsgerät (Heroisches Tagesquest)"
+Inst56Quest3 = "3. Der Kalkulator"
 Inst56Quest3_Level = "70"
-Inst56Quest3_Attain = "70"
-Inst56Quest3_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Pathaleons Projektionsgerät zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst56Quest3_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst56Quest3_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nPathaleon der Kalkulator befindet sich bei "..YELLOW.."[5]"..WHITE.."."
-Inst56Quest3_Prequest = "Nein"
+Inst56Quest3_Attain = "67"
+Inst56Quest3_Aim = "A'dal hat Euch gebeten, Pathaleon den Kalkulator in der Mechanar der Festung der Stürme zu töten."
+Inst56Quest3_Location = "Diese Quest bekommst du wenn du die Quest Aus großer Kraft folgt große Verantwortung abgeschlossen hast."
+Inst56Quest3_Note = "Pathaleon der Kalkulator ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst56Quest3_Prequest = "Ja, Aus großer Kraft folgt große Verantwortung"
 Inst56Quest3_Folgequest = "Nein"
+Inst56Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst56Quest4 = "4. Wie man in Arkatraz einbricht"
+Inst56Quest4_Level = "70"
+Inst56Quest4_Attain = "67"
+Inst56Quest4_Aim = "A'dal bittet Euch, das obere und das untere Fragment des Schlüssels zur Arkatraz zu besorgen. Bringt beide Fragmente zu ihm zurück, damit er sie für Euch zum Schlüssel zur Arkatraz zusammenfügen kann."
+Inst56Quest4_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst56Quest4_Note = "Das obere Schlüsselfragment droppt von Pathaleon dem Kalkulator bei "..YELLOW.."[5]"..WHITE..". Das untere Fragment droppt in der Botanika."
+Inst56Quest4_Prequest = "Ja, Sphärenräuber Nesaad -> Sonderlieferung nach Shattrath"
+Inst56Quest4_Folgequest = "Ja, Herold der Verdammnis ("..YELLOW.."FdS: Die Arkatraz"..WHITE..")"
+Inst56Quest4FQuest = "true"
+--
+Inst56Quest4name1 = "Anachoretenumhang der Sha'tari"
+Inst56Quest4name2 = "A'dals Gabe"
+Inst56Quest4name3 = "Präzisionsgürtel der Naaru"
+Inst56Quest4name4 = "Championgürtel von Shattrath"
+Inst56Quest4name5 = "Verteidigertaillenschutz der Sha'tari*"
+
+--Quest 5 Alliance
+Inst56Quest5 = "5. Frisch von der Mechanar"
+Inst56Quest5_Level = "69"
+Inst56Quest5_Attain = "67"
+Inst56Quest5_Aim = "David Wayne bei Waynes Zuflucht möchte, dass Ihr ihm eine überladene Manazelle bringt."
+Inst56Quest5_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
+Inst56Quest5_Note = "Die Zelle befindet sich vor Mechanolord Kapazitus bei "..YELLOW.."[3]"..WHITE.." in einer Kiste in der Nähe der Mauer.\n\nWenn man diese Quest und Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne.\n\nDas Quest funktioniert im normalen und heroischen Modus."
+Inst56Quest5_Prequest = "Ja, Zusätzliche Materialien"
+Inst56Quest5_Folgequest = "Nein"
+Inst56Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst56Quest6 = "6. Gesucht: Pathaleons Projektionsgerät (Heroisches Tagesquest)"
+Inst56Quest6_Level = "70"
+Inst56Quest6_Attain = "70"
+Inst56Quest6_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Pathaleons Projektionsgerät zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst56Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nPathaleon der Kalkulator befindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst56Quest6_Prequest = "Nein"
+Inst56Quest6_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 4 Alliance
-Inst56Quest4 = "4. Gesucht: Zerstörer der Sturmschmiede (Tagesquest)"
-Inst56Quest4_Level = "70"
-Inst56Quest4_Attain = "70"
-Inst56Quest4_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Zerstörer der Sturmschmiede zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle vernichtet wurden."
-Inst56Quest4_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst56Quest4_Note = "Dies ist ein Tagesquest."
-Inst56Quest4_Prequest = "Nein"
-Inst56Quest4_Folgequest = "Nein"
+--Quest 7 Alliance
+Inst56Quest7 = "7. Gesucht: Zerstörer der Sturmschmiede (Tagesquest)"
+Inst56Quest7_Level = "70"
+Inst56Quest7_Attain = "70"
+Inst56Quest7_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Zerstörer der Sturmschmiede zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle vernichtet wurden."
+Inst56Quest7_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest7_Note = "Dies ist eine Tagesquest."
+Inst56Quest7_Prequest = "Nein"
+Inst56Quest7_Folgequest = "Nein"
 --
-Inst56Quest4name1 = "Gefängnisschlüssel des Astraleums"
+Inst56Quest7name1 = "Gefängnisschlüssel des Astraleums"
 
 
 --Quest 1 Horde
@@ -7626,50 +7779,84 @@ Inst56Quest1_HORDE_Attain = "67"
 Inst56Quest1_HORDE_Aim = Inst56Quest1_Aim
 Inst56Quest1_HORDE_Location = Inst56Quest1_Location
 Inst56Quest1_HORDE_Note = Inst56Quest1_Note
-Inst56Quest1_HORDE_Prequest = Inst56Quest1_Prequest
-Inst56Quest1_HORDE_Folgequest = Inst56Quest1_Folgequest
-Inst56Quest1FQuest_HORDE = "true"
---
-Inst56Quest1name1_HORDE = Inst56Quest1name1
-Inst56Quest1name2_HORDE = "A'dals Gabe"
-Inst56Quest1name3_HORDE = Inst56Quest1name3
-Inst56Quest1name4_HORDE = Inst56Quest1name4
-Inst56Quest1name5_HORDE = Inst56Quest1name5
-Inst56Quest1name6_HORDE = Inst56Quest1name6
+Inst56Quest1_HORDE_Prequest = "Nein"
+Inst56Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst56Quest2_HORDE = Inst56Quest2
-Inst56Quest2_HORDE_Level = "69"
+Inst56Quest2_HORDE_Level = "70"
 Inst56Quest2_HORDE_Attain = "67"
 Inst56Quest2_HORDE_Aim = Inst56Quest2_Aim
 Inst56Quest2_HORDE_Location = Inst56Quest2_Location
 Inst56Quest2_HORDE_Note = Inst56Quest2_Note
-Inst56Quest2_HORDE_Prequest = Inst56Quest2_Prequest
-Inst56Quest2_HORDE_Folgequest = "Nein"
-Inst56Quest2PreQuest_HORDE = "true"
+Inst56Quest2_HORDE_Prequest = "Nein"
+Inst56Quest2_HORDE_Folgequest = Inst56Quest2_Folgequest
+Inst56Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
 Inst56Quest3_HORDE = Inst56Quest3
 Inst56Quest3_HORDE_Level = "70"
-Inst56Quest3_HORDE_Attain = "70"
+Inst56Quest3_HORDE_Attain = "67"
 Inst56Quest3_HORDE_Aim = Inst56Quest3_Aim
 Inst56Quest3_HORDE_Location = Inst56Quest3_Location
 Inst56Quest3_HORDE_Note = Inst56Quest3_Note
-Inst56Quest3_HORDE_Prequest = "Nein"
+Inst56Quest3_HORDE_Prequest = Inst56Quest3_Prequest
 Inst56Quest3_HORDE_Folgequest = "Nein"
---
-Inst56Quest3name1_HORDE = Inst56Quest3name1
+Inst56Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst56Quest4_HORDE = Inst56Quest4
 Inst56Quest4_HORDE_Level = "70"
-Inst56Quest4_HORDE_Attain = "70"
+Inst56Quest4_HORDE_Attain = "67"
 Inst56Quest4_HORDE_Aim = Inst56Quest4_Aim
 Inst56Quest4_HORDE_Location = Inst56Quest4_Location
 Inst56Quest4_HORDE_Note = Inst56Quest4_Note
-Inst56Quest4_HORDE_Prequest = "Nein"
-Inst56Quest4_HORDE_Folgequest = "Nein"
+Inst56Quest4_HORDE_Prequest = Inst56Quest4_Prequest
+Inst56Quest4_HORDE_Folgequest = Inst56Quest4_Folgequest
+Inst56Quest4FQuest_HORDE = "true"
+--
+Inst56Quest4name1_HORDE = Inst56Quest4name1
+Inst56Quest4name2_HORDE = "A'dals Gabe"
+Inst56Quest4name3_HORDE = Inst56Quest4name3
+Inst56Quest4name4_HORDE = Inst56Quest4name4
+Inst56Quest4name5_HORDE = Inst56Quest4name5
+
+--Quest 5 Horde
+Inst56Quest5_HORDE = Inst56Quest5
+Inst56Quest5_HORDE_Level = "69"
+Inst56Quest5_HORDE_Attain = "67"
+Inst56Quest5_HORDE_Aim = Inst56Quest5_Aim
+Inst56Quest5_HORDE_Location = Inst56Quest5_Location
+Inst56Quest5_HORDE_Note = Inst56Quest5_Note
+Inst56Quest5_HORDE_Prequest = Inst56Quest5_Prequest
+Inst56Quest5_HORDE_Folgequest = "Nein"
+Inst56Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst56Quest6_HORDE = Inst56Quest6
+Inst56Quest6_HORDE_Level = "70"
+Inst56Quest6_HORDE_Attain = "70"
+Inst56Quest6_HORDE_Aim = Inst56Quest6_Aim
+Inst56Quest6_HORDE_Location = Inst56Quest6_Location
+Inst56Quest6_HORDE_Note = Inst56Quest6_Note
+Inst56Quest6_HORDE_Prequest = "Nein"
+Inst56Quest6_HORDE_Folgequest = "Nein"
+--
+Inst56Quest6name1_HORDE = Inst56Quest6name1
+
+--Quest 7 Horde
+Inst56Quest7_HORDE = Inst56Quest7
+Inst56Quest7_HORDE_Level = "70"
+Inst56Quest7_HORDE_Attain = "70"
+Inst56Quest7_HORDE_Aim = Inst56Quest7_Aim
+Inst56Quest7_HORDE_Location = Inst56Quest7_Location
+Inst56Quest7_HORDE_Note = Inst56Quest7_Note
+Inst56Quest7_HORDE_Prequest = "Nein"
+Inst56Quest7_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
