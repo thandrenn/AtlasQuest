@@ -8431,19 +8431,18 @@ Inst70Story = {
   ["MaxPages"] = "2",
 };
 Inst70Caption = "Burg Utgarde"
-Inst70QAA = "2 Quests"
+Inst70QAA = "3 Quests"
 Inst70QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst70Quest1 = "1. Nach Utgarde!"
+Inst70Quest1 = "1. Raubt ihnen den Donner"
 Inst70Quest1_Level = "71"
 Inst70Quest1_Attain = "68"
-Inst70Quest1_Aim = "Verteidiger Mordun hat Euch mit der Exekution von Ingvar dem Brandschatzer, der tief in Utgarde wohnt, beauftragt.Anschließend sollt Ihr dessen Kopf zu Vizeadmiral Keller bringen."
-Inst70Quest1_Location = "Verteidiger Mordun (Heulender Fjord - Valgarde; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest1_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n\nDie Vorquest ist optional. Die Quest bringt Dich zu Vizeadmiral Keller bei (Heulender Fjord - Valgarde; "..YELLOW.."60.4, 61.0"..WHITE..")."
-Inst70Quest1_Prequest = "Ja, Ein neuer Abschnitt"
+Inst70Quest1_Aim = "Verteidiger Mordun hat Euch gebeten, ihm den Kopf von Ingvar dem Brandschatzer zu bringen."
+Inst70Quest1_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
+Inst70Quest1_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst70Quest1_Prequest = "Nein"
 Inst70Quest1_Folgequest = "Nein"
-Inst70Quest1PreQuest = "true"
 --
 Inst70Quest1name1 = "Band des Henkers"
 Inst70Quest1name2 = "Ring der Dezimierung"
@@ -8453,9 +8452,9 @@ Inst70Quest1name3 = "Signet des schnellen Richturteils"
 Inst70Quest2 = "2. Abrüstung"
 Inst70Quest2_Level = "71"
 Inst70Quest2_Attain = "68"
-Inst70Quest2_Aim = "Verteidiger Mordun möchte, dass Ihr Burg Utgarde betretet und 5 Waffen der Vrykul stehlt"
-Inst70Quest2_Location = "Verteidiger Mordun (Heulender Fjord - Valgarde; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest2_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden. Die Vorquest bekommt man von Kundschafterin Valory (Heulender Fjord - Valgarde; "..YELLOW.."56.0, 55.8"..WHITE..") and is optional."
+Inst70Quest2_Aim = "Verteidiger Mordun möchte, dass Ihr 5 Waffen der Vrykul stehlt."
+Inst70Quest2_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
+Inst70Quest2_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden."
 Inst70Quest2_Prequest = "Nein"
 Inst70Quest2_Folgequest = "Nein"
 --
@@ -8464,50 +8463,65 @@ Inst70Quest2name2 = "Rasierklingenanhänger"
 Inst70Quest2name3 = "Halskette des gestreuten Lichts"
 Inst70Quest2name4 = "Gewebte Stahlhalskette"
 
+--Quest 3 Alliance
+Inst70Quest3 = "3. Die Ohren des Lichkönigs"
+Inst70Quest3_Level = "71"
+Inst70Quest3_Attain = "68"
+Inst70Quest3_Aim = "Verteidiger Mordun in Burg Utgarde möchte, dass Ihr Prinz Keleseth tötet."
+Inst70Quest3_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
+Inst70Quest3_Note = "Prinz Keleseth ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest3_Prequest = "Nein"
+Inst70Quest3_Folgequest = "Nein"
+--
+Inst70Quest3name1 = "Wickel der San'layn"
+Inst70Quest3name2 = "Vendettabindungen"
+Inst70Quest3name3 = "Armschienen des Runenmagiers"
+Inst70Quest3name4 = "Unterarmschienen des Vergeltungsbringers"
+
 
 --Quest 1 Horde
-Inst70Quest1_HORDE = "1. Eine Rechnung begleichen"
+Inst70Quest1_HORDE = "1. Ingvar muss sterben!"
 Inst70Quest1_HORDE_Level = "71"
 Inst70Quest1_HORDE_Attain = "68"
-Inst70Quest1_HORDE_Aim = "Hochexekutor Anselm möchte, dass Ihr nach Utgarde geht und Prinz Keleseth tötet."
-Inst70Quest1_HORDE_Location = "Hochexekutor Anselm (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")"
+Inst70Quest1_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr Ingvar den Brandschatzer in Burg Utgarde tötet."
+Inst70Quest1_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..BLUE.."Eingang"..WHITE..")"
 Inst70Quest1_HORDE_Note = "Prinz Keleseth ist bei "..YELLOW.."[1]"..WHITE.."."
 Inst70Quest1_HORDE_Prequest = "Nein"
 Inst70Quest1_HORDE_Folgequest = "Nein"
 --
-Inst70Quest1name1_HORDE = "Wickel der San'layn"
-Inst70Quest1name2_HORDE = "Vendettabindungen"
-Inst70Quest1name3_HORDE = "Armschienen des Runenmagiers"
-Inst70Quest1name4_HORDE = "Unterarmschienen des Vergeltungsbringers"
+Inst70Quest1name1_HORDE = Inst70Quest1name1
+Inst70Quest1name2_HORDE = Inst70Quest1name1
+Inst70Quest1name3_HORDE = Inst70Quest1name1
 
 --Quest 2 Horde
-Inst70Quest2_HORDE = "2. Ingvar muss sterben!"
+Inst70Quest2_HORDE = "2. Abrüstung"
 Inst70Quest2_HORDE_Level = "71"
 Inst70Quest2_HORDE_Attain = "68"
-Inst70Quest2_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr Ingvar den Brandschatzer in Burg Utgarde tötet und seinen Kopf bei Hochexekutor Anselm im Hafen der Vergeltung abliefert."
-Inst70Quest2_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..YELLOW.."[??]"..WHITE..")"
-Inst70Quest2_HORDE_Note = "Dunkelläuferin Marrah befindet sich in der Instant, nähe des Eingangs.\n\nIngvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n\nDie Quest bringt Dich zurück zu Hochexekutor Anselm in (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest2_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr 5 Waffen der Vrykul aus Burg Utgarde stehlt und sie ihr in Burg Utgarde bringt."
+Inst70Quest2_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..BLUE.."Eingang"..WHITE..")"
+Inst70Quest2_HORDE_Note = "Inst70Quest2_Note
 Inst70Quest2_HORDE_Prequest = "Nein"
 Inst70Quest2_HORDE_Folgequest = "Nein"
 --
-Inst70Quest2name1_HORDE = Inst70Quest1name1
-Inst70Quest2name2_HORDE = Inst70Quest1name2
-Inst70Quest2name3_HORDE = Inst70Quest1name3
+Inst70Quest2name1_HORDE = "Halskette der ruhigen Himmel"
+Inst70Quest2name2_HORDE = "Hundertzahnhalskette"
+Inst70Quest2name3_HORDE = "Amulett der eingeschränkten Kraft"
+Inst70Quest2name3_HORDE = "Kachelsteinanhänger"
 
 --Quest 3 Horde
-Inst70Quest3_HORDE = "3. Abrüstung"
+Inst70Quest3_HORDE = "3. Eine Rechnung begleichen"
 Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "68"
-Inst70Quest3_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr 5 Waffen der Vrykul aus Burg Utgarde stehlt und sie zu Hochexekutor Anselm im Hafen der Vergeltung bringt."
-Inst70Quest3_HORDE_Location = "Dunkelläuferin Marrah (Heulender Fjord - ??; "..YELLOW.."??,??"..WHITE..")"
-Inst70Quest3_HORDE_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden.\n\nDie Quest bringt Dich zu Hochexekutor Anselm in (Heulender Fjord - Hafen der Vergeltung; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest3_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr Prinz Keleseth in Burg Utgarde tötet."
+Inst70Quest3_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..BLUE.."Eingang"..WHITE..")"
+Inst70Quest3_HORDE_Note = Inst70Quest3_Note
 Inst70Quest3_HORDE_Prequest = "Nein"
 Inst70Quest3_HORDE_Folgequest = "Nein"
 --
-Inst70Quest3name1_HORDE = "Halskette der ruhigen Himmel"
-Inst70Quest3name2_HORDE = "Hundertzahnhalskette"
-Inst70Quest3name3_HORDE = "Amulett der eingeschränkten Kraft"
-Inst70Quest3name4_HORDE = "Kachelsteinanhänger"
+Inst70Quest3name1_HORDE = Inst70Quest3name1
+Inst70Quest3name2_HORDE = Inst70Quest3name1
+Inst70Quest3name3_HORDE = Inst70Quest3name1
+Inst70Quest3name4_HORDE = Inst70Quest3name1
 
 
 

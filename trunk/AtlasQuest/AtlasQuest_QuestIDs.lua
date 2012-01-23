@@ -1494,19 +1494,21 @@ AQ_13151_Level = "80"
 
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
-Inst70Quest1_QuestID = "11252"
-Inst70Quest2_QuestID = "13205"
+Inst70Quest1_QuestID = "29763"
+Inst70Quest2_QuestID = "29764"
+Inst70Quest3_QuestID = "29803"
 
-Inst70Quest1_HORDE_QuestID = "11272"
-Inst70Quest2_HORDE_QuestID = "11262"
-Inst70Quest3_HORDE_QuestID = "13206"
+Inst70Quest1_HORDE_QuestID = "11262"
+Inst70Quest2_HORDE_QuestID = "13206"
+Inst70Quest3_HORDE_QuestID = "30112"
 
 
-AQ_11252_Level = "71"
-AQ_13205_Level = "71"
-AQ_11272_Level = "71"
+AQ_29763_Level = "71"
+AQ_29764_Level = "71"
+AQ_29803_Level = "71"
 AQ_11262_Level = "71"
 AQ_13206_Level = "71"
+AQ_30112_Level = "71"
 
 
 
