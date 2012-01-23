@@ -8485,7 +8485,7 @@ Inst70Quest1_HORDE_Level = "71"
 Inst70Quest1_HORDE_Attain = "68"
 Inst70Quest1_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr Ingvar den Brandschatzer in Burg Utgarde tötet."
 Inst70Quest1_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..BLUE.."Eingang"..WHITE..")"
-Inst70Quest1_HORDE_Note = "Prinz Keleseth ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest1_HORDE_Note = Inst70Quest1_Note
 Inst70Quest1_HORDE_Prequest = "Nein"
 Inst70Quest1_HORDE_Folgequest = "Nein"
 --
@@ -8499,7 +8499,7 @@ Inst70Quest2_HORDE_Level = "71"
 Inst70Quest2_HORDE_Attain = "68"
 Inst70Quest2_HORDE_Aim = "Dunkelläuferin Marrah möchte, dass Ihr 5 Waffen der Vrykul aus Burg Utgarde stehlt und sie ihr in Burg Utgarde bringt."
 Inst70Quest2_HORDE_Location = "Dunkelläuferin Marrah (Burg Utgarde; "..BLUE.."Eingang"..WHITE..")"
-Inst70Quest2_HORDE_Note = "Inst70Quest2_Note
+Inst70Quest2_HORDE_Note = Inst70Quest2_Note
 Inst70Quest2_HORDE_Prequest = "Nein"
 Inst70Quest2_HORDE_Folgequest = "Nein"
 --
