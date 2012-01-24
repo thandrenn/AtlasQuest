@@ -16,6 +16,8 @@ Version 4.6.8 BETA (not released)
 	- Coilfang Reservoir: The Slave Pens
 	- Coilfang Reservoir: The Steamvault
 	- Coilfang Reservoir: The Underbog
+	- Caverns of Time: Black Morass
+	- Caverns of Time: Old Hillsbrad
 	- Tempest Keep: The Arcatraz
 	- Tempest Keep: The Botanica
 	- Tempest Keep: The Mechanar

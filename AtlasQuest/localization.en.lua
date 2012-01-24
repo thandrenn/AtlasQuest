@@ -6510,15 +6510,15 @@ Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
 
 Inst49Story = "Medivh, the last of the magical Guardians of Tirisfal, was possessed at birth by the evil Titan, Sargeras.\n\nIt was Medivh who first contacted the corrupt orc sorcerer Gul'dan, also in the service of the Burning Legion.\n\nTogether they sought to bridge the dimensional gap between Azeroth and Draenor, homeworld of the orcs, to facilitate the destruction of Azeroth.\n\nOn the appointed day both Medivh and Gul'dan concentrated their considerable magic energies, forcing the collapse of the dimensional barrier.\n\nThe setting of this event is the Black Morass, now known as the Blasted Lands.\n\nPlayers will reportedly defend Medivh as he opens the portal."
 Inst49Caption = "CoT: Black Morass"
-Inst49QAA = "6 Quests"
-Inst49QAH = "6 Quests"
+Inst49QAA = "5 Quests"
+Inst49QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst49Quest1 = "1. The Black Morass"
 Inst49Quest1_Level = "70"
 Inst49Quest1_Attain = "66"
 Inst49Quest1_Aim = "Travel through the Caverns of Time to the Black Morass during the opening of the Dark Portal and speak with Sa'at."
-Inst49Quest1_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE..")"
+Inst49Quest1_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58.0, 54.0"..WHITE..")"
 Inst49Quest1_Note = "Must have completed Escape from Durnholde Keep to be attuned for Black Morass. Sa'at is just a little bit inside the instance."
 Inst49Quest1_Prequest = "None"
 Inst49Quest1_Folgequest = "The Opening of the Dark Portal"
@@ -6529,64 +6529,52 @@ Inst49Quest2 = "2. The Opening of the Dark Portal"
 Inst49Quest2_Level = "70"
 Inst49Quest2_Attain = "66"
 Inst49Quest2_Aim = "Sa'at inside the Black Morass of the Caverns of Time has tasked you with defending Medivh until he succeeds in opening the Dark Portal. Return to Sa'at should you succeed in your task."
-Inst49Quest2_Location = "Sa'at (Black Morass; "..YELLOW.."Entrance"..WHITE..")"
+Inst49Quest2_Location = "Sa'at (Black Morass; "..BLUE.."Entrance"..WHITE..")"
 Inst49Quest2_Note = "If you fail, you'll have to start the event over from the beginning."
 Inst49Quest2_Prequest = "The Black Morass"
-Inst49Quest2_Folgequest = "Hero of the Brood"
+Inst49Quest2_Folgequest = "None"
 Inst49Quest2FQuest = "true"
--- No Rewards for this quest
+--
+Inst49Quest2name1 = "Band of the Guardian"
+Inst49Quest2name2 = "Keeper's Ring of Piety"
+Inst49Quest2name3 = "Time-bending Gem"
+Inst49Quest2name4 = "Andormu's Tear"
 
 --Quest 3 Alliance
-Inst49Quest3 = "3. Hero of the Brood"
+Inst49Quest3 = "3. The Master's Touch"
 Inst49Quest3_Level = "70"
-Inst49Quest3_Attain = "66"
-Inst49Quest3_Aim = "Return to the child, Andormu, at the Caverns of Time in the Tanaris desert."
-Inst49Quest3_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE..")"
-Inst49Quest3_Note = ""
-Inst49Quest3_Prequest = "The Opening of the Dark Portal"
-Inst49Quest3_Folgequest = "None"
-Inst49Quest3FQuest = "true"
---
-Inst49Quest3name1 = "Band of the Guardian"
-Inst49Quest3name2 = "Keeper's Ring of Piety"
-Inst49Quest3name3 = "Time-bending Gem"
-Inst49Quest3name4 = "Andormu's Tear"
-
---Quest 4 Alliance
-Inst49Quest4 = "4. The Master's Touch"
-Inst49Quest4_Level = "70"
-Inst49Quest4_Attain = "68"
-Inst49Quest4_Aim = "Go into the Caverns of Time and convince Medivh to enable your Restored Apprentice's Key"
-Inst49Quest4_Location = "Khadgar (Shatrath City - Terrace of Light; "..YELLOW.."54,44"..WHITE..")"
-Inst49Quest4_Note = "Part of the Karazhan attunement line. You must be inside the instance when Aeonus dies in order to talk to Medivh."
-Inst49Quest4_Prequest = "The Second and Third Fragments"
-Inst49Quest4_Folgequest = "Return to Khadgar"
-Inst49Quest4PreQuest = "true"
+Inst49Quest3_Attain = "68"
+Inst49Quest3_Aim = "Go into the Caverns of Time and convince Medivh to enable your Restored Apprentice's Key"
+Inst49Quest3_Location = "Khadgar (Shatrath City - Terrace of Light; "..YELLOW.."54.8, 44.6"..WHITE..")"
+Inst49Quest3_Note = "Part of the Karazhan attunement line. You must be inside the instance when Aeonus dies in order to talk to Medivh."
+Inst49Quest3_Prequest = "The Second and Third Fragments"
+Inst49Quest3_Folgequest = "Return to Khadgar"
+Inst49Quest3PreQuest = "true"
 -- No Rewards for this quest
 
---Quest 5 Alliance
-Inst49Quest5 = "5. Wanted: Aeonus's Hourglass (Heroic Daily)"
-Inst49Quest5_Level = "70"
-Inst49Quest5_Attain = "70"
-Inst49Quest5_Aim = "Wind Trader Zhareem has asked you to acquire Aeonus's Hourglass. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst49Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst49Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nAeonus spawns in the last wave."
-Inst49Quest5_Prequest = "None"
-Inst49Quest5_Folgequest = "None"
+--Quest 4 Alliance
+Inst49Quest4 = "4. Wanted: Aeonus's Hourglass (Heroic Daily)"
+Inst49Quest4_Level = "70"
+Inst49Quest4_Attain = "70"
+Inst49Quest4_Aim = "Wind Trader Zhareem has asked you to acquire Aeonus's Hourglass. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst49Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst49Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nAeonus spawns in the last wave."
+Inst49Quest4_Prequest = "None"
+Inst49Quest4_Folgequest = "None"
 --
 -- Awards Justice Points.
 
---Quest 6 Alliance
-Inst49Quest6 = "6. Wanted: Rift Lords (Daily)"
-Inst49Quest6_Level = "70"
-Inst49Quest6_Attain = "70"
-Inst49Quest6_Aim = "Nether-Stalker Mah'duun wants you to kill 4 Rift Lords. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst49Quest6_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst49Quest6_Note = "This is a daily quest."
-Inst49Quest6_Prequest = "None"
-Inst49Quest6_Folgequest = "None"
+--Quest 5 Alliance
+Inst49Quest5 = "5. Wanted: Rift Lords (Daily)"
+Inst49Quest5_Level = "70"
+Inst49Quest5_Attain = "70"
+Inst49Quest5_Aim = "Nether-Stalker Mah'duun wants you to kill 4 Rift Lords. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst49Quest5_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.2"..WHITE..")"
+Inst49Quest5_Note = "This is a daily quest."
+Inst49Quest5_Prequest = "None"
+Inst49Quest5_Folgequest = "None"
 --
-Inst49Quest6name1 = "Ethereum Prison Key"
+Inst49Quest5name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6610,7 +6598,11 @@ Inst49Quest2_HORDE_Note = Inst49Quest2_Note
 Inst49Quest2_HORDE_Prequest = Inst49Quest2_Prequest
 Inst49Quest2_HORDE_Folgequest = Inst49Quest2_Folgequest
 Inst49Quest2FQuest_HORDE = Inst49Quest2FQuest
--- No Rewards for this quest
+--
+Inst49Quest2name1_HORDE = Inst49Quest2name1
+Inst49Quest2name2_HORDE = Inst49Quest2name2
+Inst49Quest2name3_HORDE = Inst49Quest2name3
+Inst49Quest2name4_HORDE = Inst49Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst49Quest3_HORDE = Inst49Quest3
@@ -6621,12 +6613,8 @@ Inst49Quest3_HORDE_Location = Inst49Quest3_Location
 Inst49Quest3_HORDE_Note = Inst49Quest3_Note
 Inst49Quest3_HORDE_Prequest = Inst49Quest3_Prequest
 Inst49Quest3_HORDE_Folgequest = Inst49Quest3_Folgequest
-Inst49Quest3FQuest_HORDE = Inst49Quest3FQuest
---
-Inst49Quest3name1_HORDE = Inst49Quest3name1
-Inst49Quest3name2_HORDE = Inst49Quest3name2
-Inst49Quest3name3_HORDE = Inst49Quest3name3
-Inst49Quest3name4_HORDE = Inst49Quest3name4
+Inst49Quest3PreQuest_HORDE = Inst49Quest3PreQuest
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst49Quest4_HORDE = Inst49Quest4
@@ -6637,8 +6625,8 @@ Inst49Quest4_HORDE_Location = Inst49Quest4_Location
 Inst49Quest4_HORDE_Note = Inst49Quest4_Note
 Inst49Quest4_HORDE_Prequest = Inst49Quest4_Prequest
 Inst49Quest4_HORDE_Folgequest = Inst49Quest4_Folgequest
-Inst49Quest4PreQuest_HORDE = Inst49Quest4PreQuest
--- No Rewards for this quest
+--
+-- Awards Justice Points.
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst49Quest5_HORDE = Inst49Quest5
@@ -6650,19 +6638,7 @@ Inst49Quest5_HORDE_Note = Inst49Quest5_Note
 Inst49Quest5_HORDE_Prequest = Inst49Quest5_Prequest
 Inst49Quest5_HORDE_Folgequest = Inst49Quest5_Folgequest
 --
--- Awards Justice Points.
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst49Quest6_HORDE = Inst49Quest6
-Inst49Quest6_HORDE_Level = Inst49Quest6_Level
-Inst49Quest6_HORDE_Attain = Inst49Quest6_Attain
-Inst49Quest6_HORDE_Aim = Inst49Quest6_Aim
-Inst49Quest6_HORDE_Location = Inst49Quest6_Location
-Inst49Quest6_HORDE_Note = Inst49Quest6_Note
-Inst49Quest6_HORDE_Prequest = Inst49Quest6_Prequest
-Inst49Quest6_HORDE_Folgequest = Inst49Quest6_Folgequest
---
-Inst49Quest6name1_HORDE = Inst49Quest6name1
+Inst49Quest5name1_HORDE = Inst49Quest5name1
 
 
 
@@ -6678,7 +6654,7 @@ Inst50Quest1 = "1. An Artifact From the Past"
 Inst50Quest1_Level = "70"
 Inst50Quest1_Attain = "70"
 Inst50Quest1_Aim = "Go to the Caverns of Time in Tanaris and gain access to the Battle of Mount Hyjal. Once inside, defeat Rage Winterchill and bring the Time-Phased Phylactery to Akama in Shadowmoon Valley."
-Inst50Quest1_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")"
+Inst50Quest1_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58.0, 48.2"..WHITE..")"
 Inst50Quest1_Note = "Part of the Black Temple attunement line. Rage Winterchill is at "..YELLOW.."[1]"..WHITE.."."
 Inst50Quest1_Prequest = "Ruse of the Ashtongue ("..YELLOW.."TK: The Eye"..WHITE..")"
 Inst50Quest1_Folgequest = "The Hostage Soul"
@@ -6704,15 +6680,15 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 
 Inst51Story = "Durnholde Keep was the headquarters of the orcish internment camps in southern Lordaeron following the Horde's defeat in the Second War.\n\nAt this time, Thrall was a 19-year-old slave to human officer Aedelas Blackmoore, who intended to use Thrall as a puppet Warchief to control the orcish Horde and thus gain power over his fellow humans.\n\nHowever, Thrall knew that he was destined for more, and so he made his escape from Durnholde to find others of his kind, eventually discovering the Frostwolf Clan and his place as Warchief.\n\nThis instance will contain the entire Hillsbrad area as it appeared 10 years ago, before the Horde destroyed Durnholde and Tarren Mill fell to the undead"
 Inst51Caption = "CoT: Old Hillsbrad"
-Inst51QAA = "6 Quests"
-Inst51QAH = "6 Quests"
+Inst51QAA = "5 Quests"
+Inst51QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst51Quest1 = "1. Old Hillsbrad"
 Inst51Quest1_Level = "68"
 Inst51Quest1_Attain = "66"
 Inst51Quest1_Aim = "Andormu at the Caverns of Time has asked that you venture to Old Hillsbrad and speak with Erozion."
-Inst51Quest1_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE..")"
+Inst51Quest1_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58.0, 54.0"..WHITE..")"
 Inst51Quest1_Note = "Must have done the attunement quest that starts from the dragon at the entrance to Caverns of Time."
 Inst51Quest1_Prequest = "The Caverns of Time"
 Inst51Quest1_Folgequest = "Tareth's Diversion"
@@ -6724,7 +6700,7 @@ Inst51Quest2 = "2. Taretha's Diversion"
 Inst51Quest2_Level = "68"
 Inst51Quest2_Attain = "66"
 Inst51Quest2_Aim = "Travel to Durnholde Keep and set 5 incendiary charges at the barrels located inside each of the internment lodges using the Pack of Incendiary Bombs given to you by Erozion. Then speak to Thrall in the basement prison of Durnholde Keep."
-Inst51Quest2_Location = "Erozion (Old Hillsbrad; "..YELLOW.."Entrance"..WHITE..")"
+Inst51Quest2_Location = "Erozion (Old Hillsbrad; "..BLUE.."Entrance"..WHITE..")"
 Inst51Quest2_Note = "Thrall is at "..GREEN.."[1']"..WHITE..".\n\nGo to Southshore to hear the story of Ashbringer and see some people with familiar names like Kel'Thuzad and Herod the Bully."
 Inst51Quest2_Prequest = "Old Hillsbrad"
 Inst51Quest2_Folgequest = "Escape from Durnholde"
@@ -6739,49 +6715,37 @@ Inst51Quest3_Aim = "When you are ready to proceed, let Thrall know. Follow Thral
 Inst51Quest3_Location = "Thrall (Old Hillsbrad; "..GREEN.."[1']"..WHITE..")"
 Inst51Quest3_Note = "Make sure everyone accepts the quest before anyone tells Thrall to start. Reportedly, the quest can be shared and successfully completed, though. You get 20 tries at rescuing Thrall after that you'll have to reset the instance and you can't kill the last boss without him."
 Inst51Quest3_Prequest = "Taretha's Diversion"
-Inst51Quest3_Folgequest = "Return to Andormu"
+Inst51Quest3_Folgequest = "None"
 Inst51Quest3FQuest = "true"
--- No Rewards for this quest
+--
+Inst51Quest3name1 = "Tempest's Touch"
+Inst51Quest3name2 = "Southshore Sneakers"
+Inst51Quest3name3 = "Tarren Mill Defender's Cinch"
+Inst51Quest3name4 = "Warchief's Mantle"
 
 --Quest 4 Alliance
-Inst51Quest4 = "4. Return to Andormu"
-Inst51Quest4_Level = "68"
-Inst51Quest4_Attain = "66"
-Inst51Quest4_Aim = "Return to the child Andormu at the Caverns of Time in the Tanaris desert."
-Inst51Quest4_Location = "Erozion (Old Hillsbrad; "..YELLOW.."Entrance"..WHITE..")"
-Inst51Quest4_Note = "Andormu is at (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE.."). Completing this quest allows you to enter Black Morass."
-Inst51Quest4_Prequest = "Escape from Durnholde"
+Inst51Quest4 = "4. Wanted: The Epoch Hunter's Head (Heroic Daily)"
+Inst51Quest4_Level = "70"
+Inst51Quest4_Attain = "70"
+Inst51Quest4_Aim = "Wind Trader Zhareem has asked you to obtain the Epoch Hunter's Head. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst51Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst51Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nEpoch Hunter is at "..YELLOW.."[3]"..WHITE.."."
+Inst51Quest4_Prequest = "None"
 Inst51Quest4_Folgequest = "None"
-Inst51Quest4FQuest = "true"
---
-Inst51Quest4name1 = "Tempest's Touch"
-Inst51Quest4name2 = "Southshore Sneakers"
-Inst51Quest4name3 = "Tarren Mill Defender's Cinch"
-Inst51Quest4name4 = "Warchief's Mantle"
-
---Quest 5 Alliance
-Inst51Quest5 = "5. Wanted: The Epoch Hunter's Head (Heroic Daily)"
-Inst51Quest5_Level = "70"
-Inst51Quest5_Attain = "70"
-Inst51Quest5_Aim = "Wind Trader Zhareem has asked you to obtain the Epoch Hunter's Head. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst51Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst51Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nEpoch Hunter is at "..YELLOW.."[3]"..WHITE.."."
-Inst51Quest5_Prequest = "None"
-Inst51Quest5_Folgequest = "None"
 --
 -- Awards Justice Points.
 
---Quest 6 Alliance
-Inst51Quest6 = "6. Nice Hat..."
-Inst51Quest6_Level = "68"
-Inst51Quest6_Attain = "66"
-Inst51Quest6_Aim = "Don Carlos has inadvertently challenged you to defeat his younger self in Old Hillsbrad. Afterwards, bring Don Carlos' Hat to him in Tanaris as proof."
-Inst51Quest6_Location = "Don Carlos (Tanaris; "..YELLOW.."54,29"..WHITE..")"
-Inst51Quest6_Note = "Don Carlos patrols the road near "..YELLOW.."[4]"..WHITE.."."
-Inst51Quest6_Prequest = "None"
-Inst51Quest6_Folgequest = "None"
+--Quest 5 Alliance
+Inst51Quest5 = "5. Nice Hat..."
+Inst51Quest5_Level = "68"
+Inst51Quest5_Attain = "66"
+Inst51Quest5_Aim = "Don Carlos has inadvertently challenged you to defeat his younger self in Old Hillsbrad. Afterwards, bring Don Carlos' Hat to him in Tanaris as proof."
+Inst51Quest5_Location = "Don Carlos (Tanaris - Gadgetzan; "..YELLOW.."50.8, 27.4"..WHITE..")"
+Inst51Quest5_Note = "Don Carlos patrols the road near "..YELLOW.."[4]"..WHITE.."."
+Inst51Quest5_Prequest = "None"
+Inst51Quest5_Folgequest = "None"
 --
-Inst51Quest6name1 = "Haliscan Brimmed Hat"
+Inst51Quest5name1 = "Haliscan Brimmed Hat"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6818,7 +6782,11 @@ Inst51Quest3_HORDE_Note = Inst51Quest3_Note
 Inst51Quest3_HORDE_Prequest = Inst51Quest3_Prequest
 Inst51Quest3_HORDE_Folgequest = Inst51Quest3_Folgequest
 Inst51Quest3FQuest_HORDE = Inst51Quest3FQuest
--- No Rewards for this quest
+--
+Inst51Quest3name1_HORDE = Inst51Quest3name1
+Inst51Quest3name2_HORDE = Inst51Quest3name2
+Inst51Quest3name3_HORDE = Inst51Quest3name3
+Inst51Quest3name4_HORDE = Inst51Quest3name4
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst51Quest4_HORDE = Inst51Quest4
@@ -6829,12 +6797,8 @@ Inst51Quest4_HORDE_Location = Inst51Quest4_Location
 Inst51Quest4_HORDE_Note = Inst51Quest4_Note
 Inst51Quest4_HORDE_Prequest = Inst51Quest4_Prequest
 Inst51Quest4_HORDE_Folgequest = Inst51Quest4_Folgequest
-Inst51Quest4FQuest_HORDE = Inst51Quest4FQuest
 --
-Inst51Quest4name1_HORDE = Inst51Quest4name1
-Inst51Quest4name2_HORDE = Inst51Quest4name2
-Inst51Quest4name3_HORDE = Inst51Quest4name3
-Inst51Quest4name4_HORDE = Inst51Quest4name4
+-- Awards Justice Points.
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst51Quest5_HORDE = Inst51Quest5
@@ -6846,19 +6810,7 @@ Inst51Quest5_HORDE_Note = Inst51Quest5_Note
 Inst51Quest5_HORDE_Prequest = Inst51Quest5_Prequest
 Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
 --
--- Awards Justice Points.
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst51Quest6_HORDE = Inst51Quest6
-Inst51Quest6_HORDE_Level = Inst51Quest6_Level
-Inst51Quest6_HORDE_Attain = Inst51Quest6_Attain
-Inst51Quest6_HORDE_Aim = Inst51Quest6_Aim
-Inst51Quest6_HORDE_Location = Inst51Quest6_Location
-Inst51Quest6_HORDE_Note = Inst51Quest6_Note
-Inst51Quest6_HORDE_Prequest = Inst51Quest6_Prequest
-Inst51Quest6_HORDE_Folgequest = Inst51Quest6_Folgequest
---
-Inst51Quest6name1_HORDE = Inst51Quest6name1
+Inst51Quest5name1_HORDE = Inst51Quest5name1
 
 
 
