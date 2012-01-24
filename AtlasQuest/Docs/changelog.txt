@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.6.8 BETA (not released)
+Version 4.7.0 BETA (not released)
 
 - Added missing "The Twilight Prophet" quest to Hour of Twilight (thanks Guldukat!)
 - Fixed minor bug relating to variable loading (thanks Kharthus)
@@ -16,6 +16,7 @@ Version 4.6.8 BETA (not released)
 	- Coilfang Reservoir: The Slave Pens
 	- Coilfang Reservoir: The Steamvault
 	- Coilfang Reservoir: The Underbog
+	- Auchindoun: Auchenai Crypts
 	- Caverns of Time: Black Morass
 	- Caverns of Time: Old Hillsbrad
 	- Tempest Keep: The Arcatraz
