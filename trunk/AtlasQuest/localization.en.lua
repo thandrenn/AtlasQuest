@@ -4685,7 +4685,7 @@ Inst37Quest5 = "5. Wanted: Nazan's Riding Crop (Heroic Daily)"
 Inst37Quest5_Level = "70"
 Inst37Quest5_Attain = "70"
 Inst37Quest5_Aim = "Wind Trader Zhareem has asked you to obtain Nazan's Riding Crop. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst37Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst37Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst37Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNazan is at "..YELLOW.."[3]"..WHITE.."."
 Inst37Quest5_Prequest = "None"
 Inst37Quest5_Folgequest = "None"
@@ -4831,7 +4831,7 @@ Inst38Quest4 = "4. Wanted: Keli'dan's Feathered Stave (Heroic Daily)"
 Inst38Quest4_Level = "70"
 Inst38Quest4_Attain = "70"
 Inst38Quest4_Aim = "Wind Trader Zhareem has asked you to obtain Keli'dan's Feathered Stave. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst38Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst38Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst38Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nKeli'dan the Breaker is at "..YELLOW.."[3]"..WHITE.."."
 Inst38Quest4_Prequest = "None"
 Inst38Quest4_Folgequest = "None"
@@ -4964,7 +4964,7 @@ Inst39Quest5 = "5. Trial of the Naaru: Mercy (Heroic)"
 Inst39Quest5_Level = "70"
 Inst39Quest5_Attain = "70"
 Inst39Quest5_Aim = "A'dal in Shattrath City wants you to recover the Unused Axe of the Executioner from the Shattered Halls of Hellfire Citadel."
-Inst39Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst39Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst39Quest5_Note = "Requires Heroic Dungeon Difficulty.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst39Quest5_Prequest = "None"
 Inst39Quest5_Folgequest = "None"
@@ -4975,7 +4975,7 @@ Inst39Quest6 = "6. Tear of the Earthmother"
 Inst39Quest6_Level = "70"
 Inst39Quest6_Attain = "67"
 Inst39Quest6_Aim = "Recover the Tear of the Earthmother from Warbringer O'mrogg and return it to David Wayne at Wayne's Refuge."
-Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")."
+Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."77.6, 38.6"..WHITE..")."
 Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE.."."
 Inst39Quest6_Prequest = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Bane of the Illidari"
@@ -4987,7 +4987,7 @@ Inst39Quest7 = "7. Kalynna's Request (Heroic)"
 Inst39Quest7_Level = "70"
 Inst39Quest7_Attain = "70"
 Inst39Quest7_Aim = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun."
-Inst39Quest7_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32,63"..WHITE..")"
+Inst39Quest7_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")"
 Inst39Quest7_Note = "Requires Heroic Dungeon Difficulty.\n\nGrand Warlock Nethekurse is at "..YELLOW.."[1]"..WHITE..". The Book of Forgotten Names drops in Sethekk Halls."
 Inst39Quest7_Prequest = "A Colleague's Aid ("..YELLOW.."Karazhan"..WHITE..")"
 Inst39Quest7_Folgequest = "Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
@@ -4999,7 +4999,7 @@ Inst39Quest8 = "8. Wanted: Bladefist's Seal (Heroic Daily)"
 Inst39Quest8_Level = "70"
 Inst39Quest8_Attain = "70"
 Inst39Quest8_Aim = "Wind Trader Zhareem has asked you to obtain Bladefist's Seal. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst39Quest8_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst39Quest8_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst39Quest8_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarchief Kargath Bladefist is at "..YELLOW.."[4]"..WHITE.."."
 Inst39Quest8_Prequest = "None"
 Inst39Quest8_Folgequest = "None"
@@ -5011,7 +5011,7 @@ Inst39Quest9 = "9. Wanted: Shattered Hand Centurions (Daily)"
 Inst39Quest9_Level = "70"
 Inst39Quest9_Attain = "70"
 Inst39Quest9_Aim = "Nether-Stalker Mah'duun has tasked you with the deaths of 4 Shattered Hand Centurions. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst39Quest9_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst39Quest9_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst39Quest9_Note = "This is a daily quest."
 Inst39Quest9_Prequest = "None"
 Inst39Quest9_Folgequest = "None"
@@ -5172,7 +5172,7 @@ Inst40Quest1 = "1. Trial of the Naaru: Magtheridon"
 Inst40Quest1_Level = "70"
 Inst40Quest1_Attain = "70"
 Inst40Quest1_Aim = "A'dal in Shattrath City wants you to slay Magtheridon."
-Inst40Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst40Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst40Quest1_Note = "Must have completed Trial of the Naaru Mercy, Trial of the Naaru Strength and Trial of the Naaru Tenacity all available from A'dal.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst40Quest1_Prequest = "Trial of the Naaru: Tenacity, Mercy & Strength quests."
 Inst40Quest1_Folgequest = "None"
@@ -5285,7 +5285,7 @@ Inst41Quest5 = "5. Wanted: The Heart of Quagmirran (Heroic Daily)"
 Inst41Quest5_Level = "70"
 Inst41Quest5_Attain = "70"
 Inst41Quest5_Aim = "Wind Trader Zhareem has asked you to obtain The Heart of Quagmirran. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst41Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst41Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst41Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nQuagmirran is at "..YELLOW.."[3]"..WHITE.."."
 Inst41Quest5_Prequest = "None"
 Inst41Quest5_Folgequest = "None"
@@ -5459,7 +5459,7 @@ Inst42Quest5 = "5. Trial of the Naaru: Strength (Heroic)"
 Inst42Quest5_Level = "70"
 Inst42Quest5_Attain = "70"
 Inst42Quest5_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
-Inst42Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst42Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst42Quest5_Note = "Requires Heroic Dungeon Difficulty. Warlord Kalithresh is at "..YELLOW.."[3]"..WHITE..". Murmur's Essence comes from Shadow Labyrinth.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst42Quest5_Prequest = "None"
 Inst42Quest5_Folgequest = "None"
@@ -5482,7 +5482,7 @@ Inst42Quest7 = "7. The Second and Third Fragments"
 Inst42Quest7_Level = "70"
 Inst42Quest7_Attain = "68"
 Inst42Quest7_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst42Quest7_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst42Quest7_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst42Quest7_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..", at the bottom of a pool of water on the way to Hydromancer Thespia. Opening it will spawn an elemental that must be killed to get the fragment.\n\nThe Third Key Fragment is in the Arcatraz."
 Inst42Quest7_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest7_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
@@ -5494,7 +5494,7 @@ Inst42Quest8 = "8. Wanted: Coilfang Myrmidons (Daily)"
 Inst42Quest8_Level = "70"
 Inst42Quest8_Attain = "70"
 Inst42Quest8_Aim = "Nether-Stalker Mah'duun has asked you to slay 14 Coilfang Myrmidons. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst42Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst42Quest8_Note = "This is a daily quest."
 Inst42Quest8_Prequest = "None"
 Inst42Quest8_Folgequest = "None"
@@ -5506,7 +5506,7 @@ Inst42Quest9 = "9. Wanted: The Warlord's Treatise (Heroic Daily)"
 Inst42Quest9_Level = "70"
 Inst42Quest9_Attain = "70"
 Inst42Quest9_Aim = "Wind Trader Zhareem has asked you to acquire The Warlord's Treatise. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst42Quest9_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest9_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst42Quest9_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[3]"..WHITE.."."
 Inst42Quest9_Prequest = "None"
 Inst42Quest9_Folgequest = "None"
@@ -5700,7 +5700,7 @@ Inst43Quest7 = "7. Wanted: A Black Stalker Egg (Heroic Daily)"
 Inst43Quest7_Level = "70"
 Inst43Quest7_Attain = "70"
 Inst43Quest7_Aim = "Wind Trader Zhareem wants you to obtain a Black Stalker Egg. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst43Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst43Quest7_Location ="Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst43Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Stalker is at "..YELLOW.."[4]"..WHITE.."."
 Inst43Quest7_Prequest = "None"
 Inst43Quest7_Folgequest = "None"
@@ -5796,89 +5796,155 @@ Inst43Quest7_HORDE_Folgequest = Inst43Quest7_Folgequest
 
 Inst44Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst44Caption = "Auch: Auchenai Crypts"
-Inst44QAA = "2 Quests"
-Inst44QAH = "4 Quests"
+Inst44QAA = "5 Quests"
+Inst44QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst44Quest1 = "1. Everything Will Be Alright"
 Inst44Quest1_Level = "67"
 Inst44Quest1_Attain = "64"
-Inst44Quest1_Aim = "Enter the Auchenai Crypts and destroy Exarch Maladaar so that the spirits trapped inside can finally rest in peace."
-Inst44Quest1_Location = "Greatfather Aldrimus (Terokkar Forest; "..YELLOW.."35,65"..WHITE..")"
-Inst44Quest1_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". The prequest line starts from Ha'lei (Terokkar Forest - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
-Inst44Quest1_Prequest = "I See Dead Draenei -> Levixus the Soul Caller"
-Inst44Quest1_Folgequest = "None"
-Inst44Quest1PreQuest = "true"
---
-Inst44Quest1name1 = "Auchenai Anchorite's Robe"
-Inst44Quest1name2 = "Auchenai Monk's Tunic"
-Inst44Quest1name3 = "Auchenai Tracker's Hauberk"
-Inst44Quest1name4 = "The Exarch's Protector"
+Inst44Quest1_Aim = "Greatfather Aldrimus standing outside the Auchenai Crypts of Auchindoun has asked that you enter the Auchenai Crypts and speak with the Draenei Spirit"
+Inst44Quest1_Location = "Greatfather Aldrimus (Terokkar Forest; "..YELLOW.."35.0, 65.2"..WHITE..")"
+Inst44Quest1_Note = "The Draenei Spirit is just inside the entrance of the dungeon."
+Inst44Quest1_Prequest = "None"
+Inst44Quest1_Folgequest = "The End of the Exarch"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst44Quest2 = "2. Wanted: The Exarch's Soul Gem (Heroic Daily)"
-Inst44Quest2_Level = "70"
-Inst44Quest2_Attain = "70"
-Inst44Quest2_Aim = "Wind Trader Zhareem has asked you to recover The Exarch's Soul Gem. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst44Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
-Inst44Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nExarch Maladaar is at "..YELLOW.."[2]"..WHITE.."."
-Inst44Quest2_Prequest = "None"
+Inst44Quest2 = "2. The End of the Exarch"
+Inst44Quest2_Level = "67"
+Inst44Quest2_Attain = "64"
+Inst44Quest2_Aim = "Kill Exarch Maladaar and return to the Draenei Spirit inside the Auchenai Crypts."
+Inst44Quest2_Location = "Draenei Spirit (Auchenai Crypts; "..BLUE.."Entrance"..WHITE..")"
+Inst44Quest2_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE.."."
+Inst44Quest2_Prequest = "Everything Will Be Alright"
 Inst44Quest2_Folgequest = "None"
+Inst44Quest2FQuest = "true"
+--
+Inst44Quest2name1 = "Auchenai Anchorite's Robe"
+Inst44Quest2name2 = "Auchenai Monk's Tunic"
+Inst44Quest2name3 = "Auchenai Tracker's Hauberk"
+Inst44Quest2name4 = "The Exarch's Protector"
+
+--Quest 3 Alliance
+Inst44Quest3 = "3. The Dead Watcher"
+Inst44Quest3_Level = "67"
+Inst44Quest3_Attain = "64"
+Inst44Quest3_Aim = "Kill Shirrak the Dead Watcher, then return to the Draenei Spirit."
+Inst44Quest3_Location = "Draenei Spirit (Auchenai Crypts; "..BLUE.."Entrance"..WHITE..")"
+Inst44Quest3_Note = "Shirrak the Dead Watcher is at "..YELLOW.."[1]"..WHITE.."."
+Inst44Quest3_Prequest = "None"
+Inst44Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst44Quest4 = "4. Raging Spirits"
+Inst44Quest4_Level = "67"
+Inst44Quest4_Attain = "64"
+Inst44Quest4_Aim = "Slay 5 Angered Skeletons, 5 Raging Skeletons, and 3 Auchenai Necromancers, then return to the Tormented Soulpriest in Auchenai Crypts."
+Inst44Quest4_Location = "Tormented Soulpriest (Auchenai Crypts; "..BLUE.."Entrance"..WHITE..")"
+Inst44Quest4_Note = "The required mobs are after Shirrak the Dead Watcher, past "..YELLOW.."[1]"..WHITE.."."
+Inst44Quest4_Prequest = "None"
+Inst44Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst44Quest5 = "5. Wanted: The Exarch's Soul Gem (Heroic Daily)"
+Inst44Quest5_Level = "70"
+Inst44Quest5_Attain = "70"
+Inst44Quest5_Aim = "Wind Trader Zhareem has asked you to recover The Exarch's Soul Gem. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst44Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst44Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nExarch Maladaar is at "..YELLOW.."[2]"..WHITE.."."
+Inst44Quest5_Prequest = "None"
+Inst44Quest5_Folgequest = "None"
 --
 -- Awards Justice Points.
 
 
---Quest 1 Horde
-Inst44Quest1_HORDE = "1. Auchindoun..."
-Inst44Quest1_HORDE_Level = "68"
-Inst44Quest1_HORDE_Attain = "66"
-Inst44Quest1_HORDE_Aim = "Travel to the Auchenai Crypts in the Bone Wastes of Terokkar Forest and slay Exarch Maladaar to free the spirit of D'ore."
-Inst44Quest1_HORDE_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
-Inst44Quest1_HORDE_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". D'ore appears after Exarch Maladarr has been killed."
-Inst44Quest1_HORDE_Prequest = "A Visit With the Greatmother -> A Secret Revealed"
-Inst44Quest1_HORDE_Folgequest = "What The Soul Sees"
-Inst44Quest1PreQuest_HORDE = "true"
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst44Quest1_HORDE = Inst44Quest1
+Inst44Quest1_HORDE_Level = Inst44Quest1_Level
+Inst44Quest1_HORDE_Attain = Inst44Quest1_Attain
+Inst44Quest1_HORDE_Aim = Inst44Quest1_Aim
+Inst44Quest1_HORDE_Location = Inst44Quest1_Location
+Inst44Quest1_HORDE_Note = Inst44Quest1_Note
+Inst44Quest1_HORDE_Prequest = Inst44Quest1_Prequest
+Inst44Quest1_HORDE_Folgequest = Inst44Quest1_Folgequest
 -- No Rewards for this quest
 
---Quest 2 Horde
-Inst44Quest2_HORDE = "2. What the Soul Sees"
-Inst44Quest2_HORDE_Level = "68"
-Inst44Quest2_HORDE_Attain = "66"
-Inst44Quest2_HORDE_Aim = "Locate a Soul Mirror somewhere in the Auchenai Crypts and use it to call forth a Darkened Spirit from Ancient Orc Ancestors in Nagrand. Destroy 15 Darkened Spirits so that the ancestors may rest in peace."
-Inst44Quest2_HORDE_Location = "D'ore (Auchenai Crypts; "..YELLOW.."[2]"..WHITE..")."
-Inst44Quest2_HORDE_Note = "D'ore appears after Exarch Maladarr has been killed. Mother Kashur is at (Nagrand; "..YELLOW.."26,61"..WHITE.."). Get a group of 3 or more people before taking on the Ancient Orc Spirits."
-Inst44Quest2_HORDE_Prequest = "Auchindoun"
-Inst44Quest2_HORDE_Folgequest = "Return to the Greatmother"
-Inst44Quest2FQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 1 Alliance)
-Inst44Quest3_HORDE = "3. Everything Will Be Alright"
-Inst44Quest3_HORDE_Level = Inst44Quest1_Level
-Inst44Quest3_HORDE_Attain = Inst44Quest1_Attain
-Inst44Quest3_HORDE_Aim = Inst44Quest1_Aim
-Inst44Quest3_HORDE_Location = Inst44Quest1_Location
-Inst44Quest3_HORDE_Note = Inst44Quest1_Note
-Inst44Quest3_HORDE_Prequest = Inst44Quest1_Prequest
-Inst44Quest3_HORDE_Folgequest = Inst44Quest1_Folgequest
-Inst44Quest3PreQuest_HORDE = Inst44Quest1PreQuest
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst44Quest2_HORDE = Inst44Quest2
+Inst44Quest2_HORDE_Level = Inst44Quest2_Level
+Inst44Quest2_HORDE_Attain = Inst44Quest2_Attain
+Inst44Quest2_HORDE_Aim = Inst44Quest2_Aim
+Inst44Quest2_HORDE_Location = Inst44Quest2_Location
+Inst44Quest2_HORDE_Note = Inst44Quest2_Note
+Inst44Quest2_HORDE_Prequest = Inst44Quest2_Prequest
+Inst44Quest2_HORDE_Folgequest = Inst44Quest2_Folgequest
+Inst44Quest2FQuest_HORDE = Inst44Quest2FQuest
 --
-Inst44Quest3name1_HORDE = Inst44Quest1name1
-Inst44Quest3name2_HORDE = Inst44Quest1name2
-Inst44Quest3name3_HORDE = Inst44Quest1name3
-Inst44Quest3name4_HORDE = Inst44Quest1name4
+Inst44Quest2name1_HORDE = Inst44Quest2name1
+Inst44Quest2name2_HORDE = Inst44Quest2name2
+Inst44Quest2name3_HORDE = Inst44Quest2name3
+Inst44Quest2name4_HORDE = Inst44Quest2name4
 
---Quest 4 Horde  (same as Quest 2 Alliance)
-Inst44Quest4_HORDE = "4. Wanted: The Exarch's Soul Gem (Heroic Daily)"
-Inst44Quest4_HORDE_Level = Inst44Quest2_Level
-Inst44Quest4_HORDE_Attain = Inst44Quest2_Attain
-Inst44Quest4_HORDE_Aim = Inst44Quest2_Aim
-Inst44Quest4_HORDE_Location = Inst44Quest2_Location
-Inst44Quest4_HORDE_Note = Inst44Quest2_Note
-Inst44Quest4_HORDE_Prequest = Inst44Quest2_Prequest
-Inst44Quest4_HORDE_Folgequest = Inst44Quest2_Folgequest
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst44Quest3_HORDE = Inst44Quest3
+Inst44Quest3_HORDE_Level = Inst44Quest3_Level
+Inst44Quest3_HORDE_Attain = Inst44Quest3_Attain
+Inst44Quest3_HORDE_Aim = Inst44Quest3_Aim
+Inst44Quest3_HORDE_Location = Inst44Quest3_Location
+Inst44Quest3_HORDE_Note = Inst44Quest3_Note
+Inst44Quest3_HORDE_Prequest = Inst44Quest3_Prequest
+Inst44Quest3_HORDE_Folgequest = Inst44Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst44Quest4_HORDE = Inst44Quest4
+Inst44Quest4_HORDE_Level = Inst44Quest4_Level
+Inst44Quest4_HORDE_Attain = Inst44Quest4_Attain
+Inst44Quest4_HORDE_Aim = Inst44Quest4_Aim
+Inst44Quest4_HORDE_Location = Inst44Quest4_Location
+Inst44Quest4_HORDE_Note = Inst44Quest4_Note
+Inst44Quest4_HORDE_Prequest = Inst44Quest4_Prequest
+Inst44Quest4_HORDE_Folgequest = Inst44Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst44Quest5_HORDE = Inst44Quest5
+Inst44Quest5_HORDE_Level = Inst44Quest5_Level
+Inst44Quest5_HORDE_Attain = Inst44Quest5_Attain
+Inst44Quest5_HORDE_Aim = Inst44Quest5_Aim
+Inst44Quest5_HORDE_Location = Inst44Quest5_Location
+Inst44Quest5_HORDE_Note = Inst44Quest5_Note
+Inst44Quest5_HORDE_Prequest = Inst44Quest5_Prequest
+Inst44Quest5_HORDE_Folgequest = Inst44Quest5_Folgequest
 --
 -- Awards Justice Points.
+
+--Quest 6 Horde
+Inst44Quest6_HORDE = "6. Auchindoun..."
+Inst44Quest6_HORDE_Level = "68"
+Inst44Quest6_HORDE_Attain = "66"
+Inst44Quest6_HORDE_Aim = "Travel to the Auchenai Crypts in the Bone Wastes of Terokkar Forest and slay Exarch Maladaar to free the spirit of D'ore."
+Inst44Quest6_HORDE_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
+Inst44Quest6_HORDE_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". D'ore appears after Exarch Maladarr has been killed."
+Inst44Quest6_HORDE_Prequest = "A Visit With the Greatmother -> A Secret Revealed"
+Inst44Quest6_HORDE_Folgequest = "What The Soul Sees"
+Inst44Quest6PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst44Quest7_HORDE = "7. What the Soul Sees"
+Inst44Quest7_HORDE_Level = "68"
+Inst44Quest7_HORDE_Attain = "66"
+Inst44Quest7_HORDE_Aim = "Locate a Soul Mirror somewhere in the Auchenai Crypts and use it to call forth a Darkened Spirit from Ancient Orc Ancestors in Nagrand. Destroy 15 Darkened Spirits so that the ancestors may rest in peace."
+Inst44Quest7_HORDE_Location = "D'ore (Auchenai Crypts; "..YELLOW.."[2]"..WHITE..")."
+Inst44Quest7_HORDE_Note = "D'ore appears after Exarch Maladarr has been killed. Mother Kashur is at (Nagrand; "..YELLOW.."26.0, 60.6"..WHITE..")."
+Inst44Quest7_HORDE_Prequest = "Auchindoun"
+Inst44Quest7_HORDE_Folgequest = "Return to the Greatmother"
+Inst44Quest7FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -5949,7 +6015,7 @@ Inst45Quest5 = "5. Wanted: Shaffar's Wondrous Pendant (Heroic Daily)"
 Inst45Quest5_Level = "70"
 Inst45Quest5_Attain = "70"
 Inst45Quest5_Aim = "Wind Trader Zhareem wants you to obtain Shaffar's Wondrous Amulet. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst45Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst45Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst45Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNexus-Prince Shaffar is at "..YELLOW.."[3]"..WHITE.."."
 Inst45Quest5_Prequest = "None"
 Inst45Quest5_Folgequest = "None"
@@ -6092,7 +6158,7 @@ Inst46Quest5 = "5. Wanted: The Headfeathers of Ikiss (Heroic Daily)"
 Inst46Quest5_Level = "70"
 Inst46Quest5_Attain = "70"
 Inst46Quest5_Aim = "Wind Trader Zhareem has asked you to acquire The Headfeathers of Ikiss. Deliver them to him in Shattrath's Lower City to collect the reward."
-Inst46Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst46Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst46Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nTalon King Ikiss is at "..YELLOW.."[3]"..WHITE.."."
 Inst46Quest5_Prequest = "None"
 Inst46Quest5_Folgequest = "None"
@@ -6257,7 +6323,7 @@ Inst47Quest7 = "7. Trial of the Naaru: Strength (Heroic)"
 Inst47Quest7_Level = "70"
 Inst47Quest7_Attain = "70"
 Inst47Quest7_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
-Inst47Quest7_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst47Quest7_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst47Quest7_Note = "Requires Heroic Dungeon Difficulty. Murmur is at "..YELLOW.."[4]"..WHITE..". Kalithresh's Trident comes from The Steamvault.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst47Quest7_Prequest = "None"
 Inst47Quest7_Folgequest = "None"
@@ -6292,7 +6358,7 @@ Inst47Quest10 = "10. Wanted: Murmur's Whisper (Heroic Daily)"
 Inst47Quest10_Level = "70"
 Inst47Quest10_Attain = "70"
 Inst47Quest10_Aim = "Wind Trader Zhareem has asked you to obtain Murmur's Whisper. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst47Quest10_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst47Quest10_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst47Quest10_Note = "This daily quest can only be completed on Heroic difficulty.\n\nMurmur is at "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest10_Prequest = "None"
 Inst47Quest10_Folgequest = "None"
@@ -6304,7 +6370,7 @@ Inst47Quest11 = "11. Wanted: Malicious Instructors (Daily)"
 Inst47Quest11_Level = "70"
 Inst47Quest11_Attain = "70"
 Inst47Quest11_Aim = "Nether-Stalker Mah'duun wants you to kill 3 Malicious Instructors. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst47Quest11_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst47Quest11_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst47Quest11_Note = "This is a daily quest."
 Inst47Quest11_Prequest = "None"
 Inst47Quest11_Folgequest = "None"
@@ -6569,7 +6635,7 @@ Inst49Quest5 = "5. Wanted: Rift Lords (Daily)"
 Inst49Quest5_Level = "70"
 Inst49Quest5_Attain = "70"
 Inst49Quest5_Aim = "Nether-Stalker Mah'duun wants you to kill 4 Rift Lords. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst49Quest5_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.2"..WHITE..")"
+Inst49Quest5_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst49Quest5_Note = "This is a daily quest."
 Inst49Quest5_Prequest = "None"
 Inst49Quest5_Folgequest = "None"
@@ -7260,7 +7326,7 @@ Inst54Quest5 = "5. Trial of the Naaru: Tenacity (Heroic)"
 Inst54Quest5_Level = "70"
 Inst54Quest5_Attain = "70"
 Inst54Quest5_Aim = "A'dal in Shattrath City wants you to rescue Millhouse Manastorm from the Arcatraz of Tempest Keep."
-Inst54Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest5_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst54Quest5_Note = "This quest must be completed in Heroic dungeon difficulty. Millhouse Manastorm is in the room with Warden Mellichar at "..YELLOW.."[4]"..WHITE..".\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary."
 Inst54Quest5_Prequest = "None"
 Inst54Quest5_Folgequest = "None"
@@ -7271,7 +7337,7 @@ Inst54Quest6 = "6. The Second and Third Fragments"
 Inst54Quest6_Level = "70"
 Inst54Quest6_Attain = "68"
 Inst54Quest6_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst54Quest6_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest6_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst54Quest6_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
 Inst54Quest6_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst54Quest6_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
@@ -7283,7 +7349,7 @@ Inst54Quest7 = "7. Wanted: The Scroll of Skyriss (Heroic Daily)"
 Inst54Quest7_Level = "70"
 Inst54Quest7_Attain = "70"
 Inst54Quest7_Aim = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst54Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst54Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[4]"..WHITE.."."
 Inst54Quest7_Prequest = "None"
 Inst54Quest7_Folgequest = "None"
@@ -7295,7 +7361,7 @@ Inst54Quest8 = "8. Wanted: Arcatraz Sentinels (Daily)"
 Inst54Quest8_Level = "70"
 Inst54Quest8_Attain = "70"
 Inst54Quest8_Aim = "Nether-Stalker Mah'duun wants you to dismantle 5 Arcatraz Sentinels. Return to him in Shattrath's Lower City once that has been accomplished in order to collect the bounty."
-Inst54Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst54Quest8_Note = "This is a daily quest."
 Inst54Quest8_Prequest = "None"
 Inst54Quest8_Folgequest = "None"
@@ -7449,7 +7515,7 @@ Inst55Quest4 = "4. How to Break Into the Arcatraz"
 Inst55Quest4_Level = "70"
 Inst55Quest4_Attain = "67"
 Inst55Quest4_Aim = "A'dal has tasked you with the recovery of the Top and Bottom Shards of the Arcatraz Key. Return them to him, and he will fashion them into the Key to the Arcatraz for you."
-Inst55Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst55Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst55Quest4_Note = "The Bottom Piece drops off Warp Splinter located at "..YELLOW.."[5]"..WHITE..". The Top piece drops in Mechanar."
 Inst55Quest4_Prequest = "Warp-Raider Nesaad -> Special Delivery to Shattrath City"
 Inst55Quest4_Folgequest = "Harbinger of Doom ("..YELLOW.."TK: Arcatraz"..WHITE..")"
@@ -7478,7 +7544,7 @@ Inst55Quest6 = "6. Wanted: A Warp Splinter Clipping (Heroic Daily)"
 Inst55Quest6_Level = "70"
 Inst55Quest6_Attain = "70"
 Inst55Quest6_Aim = "Wind Trader Zhareem has asked you to obtain a Warp Splinter Clipping. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst55Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst55Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarp Splinter is at "..YELLOW.."[5]"..WHITE.."."
 Inst55Quest6_Prequest = "None"
 Inst55Quest6_Folgequest = "None"
@@ -7490,7 +7556,7 @@ Inst55Quest7 = "7. Wanted: Sunseeker Channelers (Daily)"
 Inst55Quest7_Level = "70"
 Inst55Quest7_Attain = "70"
 Inst55Quest7_Aim = "Nether-Stalker Mah'duun wants you to kill 6 Sunseeker Channelers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst55Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst55Quest7_Note = "This is a daily quest."
 Inst55Quest7_Prequest = "None"
 Inst55Quest7_Folgequest = "None"
@@ -7634,7 +7700,7 @@ Inst56Quest4 = "4. How to Break Into the Arcatraz"
 Inst56Quest4_Level = "70"
 Inst56Quest4_Attain = "67"
 Inst56Quest4_Aim = "A'dal has tasked you with the recovery of the Top and Bottom Shards of the Arcatraz Key. Return them to him, and he will fashion them into the Key to the Arcatraz for you."
-Inst56Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")"
+Inst56Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst56Quest4_Note = "The Top Piece drops off Pathaleon the Calculator located at "..YELLOW.."[5]"..WHITE..". The Bottom piece drops in Botanica."
 Inst56Quest4_Prequest = "Warp-Raider Nesaad -> Special Delivery to Shattrath City"
 Inst56Quest4_Folgequest = "Harbinger of Doom ("..YELLOW.."TK: Arcatraz"..WHITE..")"
@@ -7663,7 +7729,7 @@ Inst56Quest6 = "6. Wanted: Pathaleon's Projector (Heroic Daily)"
 Inst56Quest6_Level = "70"
 Inst56Quest6_Attain = "70"
 Inst56Quest6_Aim = "Wind Trader Zhareem has asked you to acquire Pathaleon's Projector. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst56Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst56Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPathaleon the Calculator is at "..YELLOW.."[5]"..WHITE.."."
 Inst56Quest6_Prequest = "None"
 Inst56Quest6_Folgequest = "None"
@@ -7675,7 +7741,7 @@ Inst56Quest7 = "7. Wanted: Tempest-Forge Destroyers (Daily)"
 Inst56Quest7_Level = "70"
 Inst56Quest7_Attain = "70"
 Inst56Quest7_Aim = "Nether-Stalker Mah'duun wants you to destroy 5 Tempest-Forge Destroyers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst56Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst56Quest7_Note = "This is a daily quest."
 Inst56Quest7_Prequest = "None"
 Inst56Quest7_Folgequest = "None"
@@ -7797,7 +7863,7 @@ Inst61Quest2_Level = "70"
 Inst61Quest2_Attain = "70"
 Inst61Quest2_Aim = "Take the Verdant Sphere to A'dal in Shattrath City."
 Inst61Quest2_Location = "Verdant Sphere (drops from Kael'thas Sunstrider at "..YELLOW.."[4]"..WHITE..")"
-Inst61Quest2_Note = "A'dal is at (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")."
+Inst61Quest2_Note = "A'dal is at (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")."
 Inst61Quest2_Prequest = "None"
 Inst61Quest2_Folgequest = "None"
 --
@@ -8097,7 +8163,7 @@ Inst67Quest1 = "1. Wanted: Sisters of Torment (Daily)"
 Inst67Quest1_Level = "70"
 Inst67Quest1_Attain = "70"
 Inst67Quest1_Aim = "Nether-Stalker Mah'duun wants you to slay 4 Sisters of Torment. Return to him in Shattrath's Lower City once you have done so in order to collect the bounty."
-Inst67Quest1_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest1_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst67Quest1_Note = "This is a daily quest."
 Inst67Quest1_Prequest = "None"
 Inst67Quest1_Folgequest = "None"
@@ -8109,7 +8175,7 @@ Inst67Quest2 = "2. Wanted: The Signet Ring of Prince Kael'thas (Heroic Daily)"
 Inst67Quest2_Level = "70"
 Inst67Quest2_Attain = "70"
 Inst67Quest2_Aim = "Wind Trader Zhareem has asked you to obtain The Signet Ring of Prince Kael'thas. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst67Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest2_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
 Inst67Quest2_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPrince Kael'thas Sunstrider is at "..YELLOW.."[4]"..WHITE.."."
 Inst67Quest2_Prequest = "None"
 Inst67Quest2_Folgequest = "None"

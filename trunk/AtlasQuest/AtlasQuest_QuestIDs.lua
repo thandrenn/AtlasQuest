@@ -1062,16 +1062,24 @@ AQ_11369_Level = "70"
 
 --------------- INST44 - Auchindoun: Auchenai Crypts (AC) ---------------
 
-Inst44Quest1_QuestID = "10164"
-Inst44Quest2_QuestID = "11374"
+Inst44Quest1_QuestID = "29595"
+Inst44Quest2_QuestID = "29596"
+Inst44Quest3_QuestID = "29590"
+Inst44Quest4_QuestID = "29591"
+Inst44Quest5_QuestID = "11374"
 
-Inst44Quest1_HORDE_QuestID = "10167"
-Inst44Quest2_HORDE_QuestID = "10168"
-Inst44Quest3_HORDE_QuestID = "10164"
-Inst44Quest4_HORDE_QuestID = "11374"
+Inst44Quest1_HORDE_QuestID = "29595"
+Inst44Quest2_HORDE_QuestID = "29596"
+Inst44Quest3_HORDE_QuestID = "29590"
+Inst44Quest4_HORDE_QuestID = "29591"
+Inst44Quest5_HORDE_QuestID = "11374"
+Inst44Quest6_HORDE_QuestID = "10167"
+Inst44Quest7_HORDE_QuestID = "10168"
 
-
-AQ_10164_Level = "67"
+AQ_29595_Level = "67"
+AQ_29596_Level = "67"
+AQ_29590_Level = "67"
+AQ_29591_Level = "67"
 AQ_11374_Level = "70"
 AQ_10167_Level = "68"
 AQ_10168_Level = "68"

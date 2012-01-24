@@ -3233,55 +3233,73 @@ Inst43Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoint
 --------------- INST44 - Auchindoun: Auchenai Crypts (AC) ---------------
 
 --Quest 1 Alliance
-Inst44Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst44Quest1ITC1 = Itemc4;
-Inst44Quest1description1 = AQITEM_CHEST..AQITEM_CLOTH
-Inst44Quest1ID1 = "29341"
---ITEM2
-Inst44Quest1ITC2 = Itemc4;
-Inst44Quest1description2 = AQITEM_CHEST..AQITEM_LEATHER
-Inst44Quest1ID2 = "29340"
---ITEM3
-Inst44Quest1ITC3 = Itemc4;
-Inst44Quest1description3 = AQITEM_CHEST..AQITEM_MAIL
-Inst44Quest1ID3 = "29339"
---ITEM4
-Inst44Quest1ITC4 = Itemc4;
-Inst44Quest1description4 = AQITEM_CHEST..AQITEM_PLATE
-Inst44Quest1ID4 = "29337"
+Inst44Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst44Quest2Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+Inst44Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst44Quest2ITC1 = Itemc4;
+Inst44Quest2description1 = AQITEM_CHEST..AQITEM_CLOTH
+Inst44Quest2ID1 = "29341"
+--ITEM2
+Inst44Quest2ITC2 = Itemc4;
+Inst44Quest2description2 = AQITEM_CHEST..AQITEM_LEATHER
+Inst44Quest2ID2 = "29340"
+--ITEM3
+Inst44Quest2ITC3 = Itemc4;
+Inst44Quest2description3 = AQITEM_CHEST..AQITEM_MAIL
+Inst44Quest2ID3 = "29339"
+--ITEM4
+Inst44Quest2ITC4 = Itemc4;
+Inst44Quest2description4 = AQITEM_CHEST..AQITEM_PLATE
+Inst44Quest2ID4 = "29337"
+
+--Quest 3 Alliance
+Inst44Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst44Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst44Quest5Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
 
 
 --Quest 1 Horde
 Inst44Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
-Inst44Quest2Rewardtext_HORDE = AQNoReward
+Inst44Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst44Quest2ITC1_HORDE = Itemc4;
+Inst44Quest2description1_HORDE = AQITEM_CHEST..AQITEM_CLOTH
+Inst44Quest2ID1_HORDE = "29341"
+--ITEM2
+Inst44Quest2ITC2_HORDE = Itemc4;
+Inst44Quest2description2_HORDE = AQITEM_CHEST..AQITEM_LEATHER
+Inst44Quest2ID2_HORDE = "29340"
+--ITEM3
+Inst44Quest2ITC3_HORDE = Itemc4;
+Inst44Quest2description3_HORDE = AQITEM_CHEST..AQITEM_MAIL
+Inst44Quest2ID3_HORDE = "29339"
+--ITEM4
+Inst44Quest2ITC4_HORDE = Itemc4;
+Inst44Quest2description4_HORDE = AQITEM_CHEST..AQITEM_PLATE
+Inst44Quest2ID4_HORDE = "29337"
 
 --Quest 3 Horde
-Inst44Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst44Quest3ITC1_HORDE = Itemc4;
-Inst44Quest3description1_HORDE = AQITEM_CHEST..AQITEM_CLOTH
-Inst44Quest3ID1_HORDE = "29341"
---ITEM2
-Inst44Quest3ITC2_HORDE = Itemc4;
-Inst44Quest3description2_HORDE = AQITEM_CHEST..AQITEM_LEATHER
-Inst44Quest3ID2_HORDE = "29340"
---ITEM3
-Inst44Quest3ITC3_HORDE = Itemc4;
-Inst44Quest3description3_HORDE = AQITEM_CHEST..AQITEM_MAIL
-Inst44Quest3ID3_HORDE = "29339"
---ITEM4
-Inst44Quest3ITC4_HORDE = Itemc4;
-Inst44Quest3description4_HORDE = AQITEM_CHEST..AQITEM_PLATE
-Inst44Quest3ID4_HORDE = "29337"
+Inst44Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst44Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+Inst44Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst44Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+
+--Quest 6 Horde
+Inst44Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst44Quest7Rewardtext_HORDE = AQNoReward
 
 
 
