@@ -3309,195 +3309,135 @@ Inst44Quest7Rewardtext_HORDE = AQNoReward
 Inst45Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst45Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst45Quest2ITC1 = Itemc4;
-Inst45Quest2description1 = AQITEM_WAIST..AQITEM_CLOTH
-Inst45Quest2ID1 = "29328"
---ITEM2
-Inst45Quest2ITC2 = Itemc4;
-Inst45Quest2description2 = AQITEM_HANDS..AQITEM_LEATHER
-Inst45Quest2ID2 = "29327"
---ITEM3
-Inst45Quest2ITC3 = Itemc4;
-Inst45Quest2description3 = AQITEM_SHOULDER..AQITEM_MAIL
-Inst45Quest2ID3 = "29326"
---ITEM4
-Inst45Quest2ITC4 = Itemc4;
-Inst45Quest2description4 = AQITEM_FEET..AQITEM_PLATE
-Inst45Quest2ID4 = "29325"
+Inst45Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst45Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst45Quest3ITC1 = Itemc4;
-Inst45Quest3description1 = AQITEM_LEGS..AQITEM_LEATHER
-Inst45Quest3ID1 = "29343"
---ITEM2
-Inst45Quest3ITC2 = Itemc4;
-Inst45Quest3description2 = AQITEM_LEGS..AQITEM_PLATE
-Inst45Quest3ID2 = "29342"
---ITEM3
-Inst45Quest3ITC3 = Itemc4;
-Inst45Quest3description3 = AQITEM_LEGS..AQITEM_CLOTH
-Inst45Quest3ID3 = "29345"
---ITEM4
-Inst45Quest3ITC4 = Itemc4;
-Inst45Quest3description4 = AQITEM_LEGS..AQITEM_MAIL
-Inst45Quest3ID4 = "29344"
+Inst45Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst45Quest4Rewardtext = AQDiscription_REWARD..WHITE.."26"..AQJusticePoints
+Inst45Quest4Rewardtext = AQNoReward
 
 --Quest 5 Alliance
-Inst45Quest5Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+Inst45Quest5Rewardtext = AQDiscription_REWARD..WHITE.."26"..AQJusticePoints
+
+--Quest 6 Alliance
+Inst45Quest6Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
 
 
 --Quest 1 Horde
 Inst45Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
-Inst45Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst45Quest2ITC1_HORDE = Itemc4;
-Inst45Quest2description1_HORDE = AQITEM_WAIST..AQITEM_CLOTH
-Inst45Quest2ID1_HORDE = "29328"
---ITEM2
-Inst45Quest2ITC2_HORDE = Itemc4;
-Inst45Quest2description2_HORDE = AQITEM_HANDS..AQITEM_LEATHER
-Inst45Quest2ID2_HORDE = "29327"
---ITEM3
-Inst45Quest2ITC3_HORDE = Itemc4;
-Inst45Quest2description3_HORDE = AQITEM_SHOULDER..AQITEM_MAIL
-Inst45Quest2ID3_HORDE = "29326"
---ITEM4
-Inst45Quest2ITC4_HORDE = Itemc4;
-Inst45Quest2description4_HORDE = AQITEM_FEET..AQITEM_PLATE
-Inst45Quest2ID4_HORDE = "29325"
+Inst45Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
-Inst45Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst45Quest3ITC1_HORDE = Itemc4;
-Inst45Quest3description1_HORDE = AQITEM_LEGS..AQITEM_LEATHER
-Inst45Quest3ID1_HORDE = "29343"
---ITEM2
-Inst45Quest3ITC2_HORDE = Itemc4;
-Inst45Quest3description2_HORDE = AQITEM_LEGS..AQITEM_PLATE
-Inst45Quest3ID2_HORDE = "29342"
---ITEM3
-Inst45Quest3ITC3_HORDE = Itemc4;
-Inst45Quest3description3_HORDE = AQITEM_LEGS..AQITEM_CLOTH
-Inst45Quest3ID3_HORDE = "29345"
---ITEM4
-Inst45Quest3ITC4_HORDE = Itemc4;
-Inst45Quest3description4_HORDE = AQITEM_LEGS..AQITEM_MAIL
-Inst45Quest3ID4_HORDE = "29344"
+Inst45Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst45Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."26"..AQJusticePoints
+Inst45Quest4Rewardtext_HORDE = AQNoReward
 
 --Quest 5 Horde
-Inst45Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+Inst45Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."26"..AQJusticePoints
+
+--Quest 6 Horde
+Inst45Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
 
 
 
 --------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
 
 --Quest 1 Alliance
-Inst46Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst46Quest1ITC1 = Itemc4;
-Inst46Quest1description1 = AQITEM_NECK
-Inst46Quest1ID1 = "29333"
---ITEM1
-Inst46Quest1ITC2 = Itemc4;
-Inst46Quest1description2 = AQITEM_NECK
-Inst46Quest1ID2 = "29334"
---ITEM3
-Inst46Quest1ITC3 = Itemc4;
-Inst46Quest1description3 = AQITEM_NECK
-Inst46Quest1ID3 = "29335"
---ITEM4
-Inst46Quest1ITC4 = Itemc4;
-Inst46Quest1description4 = AQITEM_NECK
-Inst46Quest1ID4 = "29336"
+Inst46Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst46Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst46Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
 Inst46Quest2ITC1 = Itemc4;
-Inst46Quest2description1 = AQITEM_OFFHAND
-Inst46Quest2ID1 = "29330"
---ITEM2
+Inst46Quest2description1 = AQITEM_NECK
+Inst46Quest2ID1 = "29333"
+--ITEM1
 Inst46Quest2ITC2 = Itemc4;
-Inst46Quest2description2 = AQITEM_HEAD..AQITEM_LEATHER
-Inst46Quest2ID2 = "29332"
+Inst46Quest2description2 = AQITEM_NECK
+Inst46Quest2ID2 = "29334"
 --ITEM3
 Inst46Quest2ITC3 = Itemc4;
-Inst46Quest2description3 = AQITEM_POLEARM
-Inst46Quest2ID3 = "29329"
+Inst46Quest2description3 = AQITEM_NECK
+Inst46Quest2ID3 = "29335"
+--ITEM4
+Inst46Quest2ITC4 = Itemc4;
+Inst46Quest2description4 = AQITEM_NECK
+Inst46Quest2ID4 = "29336"
 
 --Quest 3 Alliance
-Inst46Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst46Quest3ITC1 = Itemc4;
-Inst46Quest3description1 = AQITEM_RELIC
-Inst46Quest3ID1 = "32387"
+Inst46Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst46Quest4Rewardtext = AQNoReward
+Inst46Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst46Quest4ITC1 = Itemc4;
+Inst46Quest4description1 = AQITEM_OFFHAND
+Inst46Quest4ID1 = "29330"
+--ITEM2
+Inst46Quest4ITC2 = Itemc4;
+Inst46Quest4description2 = AQITEM_HEAD..AQITEM_LEATHER
+Inst46Quest4ID2 = "29332"
+--ITEM3
+Inst46Quest4ITC3 = Itemc4;
+Inst46Quest4description3 = AQITEM_POLEARM
+Inst46Quest4ID3 = "29329"
 
 --Quest 5 Alliance
-Inst46Quest5Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+Inst46Quest5Rewardtext = AQNoReward
+
+--Quest 6 Alliance
+Inst46Quest6Rewardtext = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
 
 
 --Quest 1 Horde
-Inst46Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst46Quest1ITC1_HORDE = Itemc4;
-Inst46Quest1description1_HORDE = AQITEM_NECK
-Inst46Quest1ID1_HORDE = "29333"
---ITEM1
-Inst46Quest1ITC2_HORDE = Itemc4;
-Inst46Quest1description2_HORDE = AQITEM_NECK
-Inst46Quest1ID2_HORDE = "29334"
---ITEM3
-Inst46Quest1ITC3_HORDE = Itemc4;
-Inst46Quest1description3_HORDE = AQITEM_NECK
-Inst46Quest1ID3_HORDE = "29335"
---ITEM4
-Inst46Quest1ITC4_HORDE = Itemc4;
-Inst46Quest1description4_HORDE = AQITEM_NECK
-Inst46Quest1ID4_HORDE = "29336"
+Inst46Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
-Inst46Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst46Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
 Inst46Quest2ITC1_HORDE = Itemc4;
-Inst46Quest2description1_HORDE = AQITEM_OFFHAND
-Inst46Quest2ID1_HORDE = "29330"
---ITEM2
+Inst46Quest2description1_HORDE = AQITEM_NECK
+Inst46Quest2ID1_HORDE = "29333"
+--ITEM1
 Inst46Quest2ITC2_HORDE = Itemc4;
-Inst46Quest2description2_HORDE = AQITEM_HEAD..AQITEM_LEATHER
-Inst46Quest2ID2_HORDE = "29332"
+Inst46Quest2description2_HORDE = AQITEM_NECK
+Inst46Quest2ID2_HORDE = "29334"
 --ITEM3
 Inst46Quest2ITC3_HORDE = Itemc4;
-Inst46Quest2description3_HORDE = AQITEM_POLEARM
-Inst46Quest2ID3_HORDE = "29329"
+Inst46Quest2description3_HORDE = AQITEM_NECK
+Inst46Quest2ID3_HORDE = "29335"
+--ITEM4
+Inst46Quest2ITC4_HORDE = Itemc4;
+Inst46Quest2description4_HORDE = AQITEM_NECK
+Inst46Quest2ID4_HORDE = "29336"
 
 --Quest 3 Horde
-Inst46Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst46Quest3ITC1_HORDE = Itemc4;
-Inst46Quest3description1_HORDE = AQITEM_RELIC
-Inst46Quest3ID1_HORDE = "32387"
+Inst46Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst46Quest4Rewardtext_HORDE = AQNoReward
+Inst46Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+--ITEM1
+Inst46Quest4ITC1_HORDE = Itemc4;
+Inst46Quest4description1_HORDE = AQITEM_OFFHAND
+Inst46Quest4ID1_HORDE = "29330"
+--ITEM2
+Inst46Quest4ITC2_HORDE = Itemc4;
+Inst46Quest4description2_HORDE = AQITEM_HEAD..AQITEM_LEATHER
+Inst46Quest4ID2_HORDE = "29332"
+--ITEM3
+Inst46Quest4ITC3_HORDE = Itemc4;
+Inst46Quest4description3_HORDE = AQITEM_POLEARM
+Inst46Quest4ID3_HORDE = "29329"
 
 --Quest 5 Horde
-Inst46Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
+Inst46Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst46Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."10"..AQJusticePoints
 
 
 

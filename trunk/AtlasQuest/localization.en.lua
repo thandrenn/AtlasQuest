@@ -5952,86 +5952,88 @@ Inst44Quest7FQuest_HORDE = "true"
 
 Inst45Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst45Caption = "Auch: Mana Tombs"
-Inst45QAA = "5 Quests"
-Inst45QAH = "5 Quests"
+Inst45QAA = "6 Quests"
+Inst45QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst45Quest1 = "1. Safety Is Job One"
+Inst45Quest1 = "1. Eckert the Mad"
 Inst45Quest1_Level = "66"
 Inst45Quest1_Attain = "64"
-Inst45Quest1_Aim = "Artificer Morphalius wants you to kill 10 Ethereal Crypt Raiders, 5 Ethereal Sorcerers, 5 Nexus Stalkers and 5 Ethereal Spellbinders."
-Inst45Quest1_Location = "Artificer Morphalius (Terokkar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")"
-Inst45Quest1_Note = "Ethereal Transporter Control Panel is at "..GREEN.."[2']"..WHITE.."."
+Inst45Quest1_Aim = "Speak with Artificer Morphalius in the Mana Tombs in Auchindoun. "
+Inst45Quest1_Location = "Eckert (Terokkar Forest - Allerian Stronghold; "..YELLOW.."57.6, 53.4"..WHITE..")"
+Inst45Quest1_Note = "Artificer Morphalius is just inside the entrance of the dungeon."
 Inst45Quest1_Prequest = "None"
-Inst45Quest1_Folgequest = "Someone Else's Hard Work Pays Off"
+Inst45Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst45Quest2 = "2. Someone Else's Hard Work Pays Off"
+Inst45Quest2 = "2. Intriguing Specimens"
 Inst45Quest2_Level = "66"
 Inst45Quest2_Attain = "64"
-Inst45Quest2_Aim = "Escort Cryo-Engineer Sha'heen safely through the Mana-Tombs so that he can gather the ether held inside Shaffar's ether collectors."
-Inst45Quest2_Location = "Cryo-Engineer Sha'heen (Mana Tombs; "..GREEN.."[2']"..WHITE..")"
-Inst45Quest2_Note = "To summon Cryo-Engineer Sha'heen, click on the Ethereal Transporter Control Panel at "..GREEN.."[2']"..WHITE..". He'll spawn along with several other friendly Consortium NPCs.  The entire instance should be cleared before hand. Leave nothing alive. The escort can only be attempted once per instance."
-Inst45Quest2_Prequest = "Safety Is Job One"
+Inst45Quest2_Aim = "Bring Pandemonius' Essence and Tavarok's Heart to Mamdy the 'Ologist'."
+Inst45Quest2_Location = "Mamdy the 'Ologist' (Mana Tombs; "..BLUE.."Entrance"..WHITE..")"
+Inst45Quest2_Note = "Pandemonius is at "..YELLOW.."[1]"..WHITE.." and Tavarok is at "..YELLOW.."[2]"..WHITE.."."
+Inst45Quest2_Prequest = "None"
 Inst45Quest2_Folgequest = "None"
-Inst45Quest2FQuest = "true"
---
-Inst45Quest2name1 = "Consortium Prince's Wrap"
-Inst45Quest2name2 = "Cryo-mitts"
-Inst45Quest2name3 = "Consortium Mantle of Phasing"
-Inst45Quest2name4 = "Flesh Beast's Metal Greaves"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst45Quest3 = "3. Undercutting the Competition"
+Inst45Quest3 = "3. Safety Is Job One"
 Inst45Quest3_Level = "66"
 Inst45Quest3_Attain = "64"
-Inst45Quest3_Aim = "Nexus-Prince Haramad located outside of the Mana-Tombs wants you to kill Nexus-Prince Shaffar and bring Shaffar's Wrappings back to him."
-Inst45Quest3_Location = "Nexus-Prince Haramand (Terrokar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")."
-Inst45Quest3_Note = "Nexus-Prince Shaffar is at "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest3_Aim = "Kill 10 Ethereal Crypt Raiders, 5 Ethereal Sorcerers, 5 Nexus Stalkers, and 5 Ethereal Spellbinders, then return to Artificer Morphalius."
+Inst45Quest3_Location = "Artificer Morphalius (Mana Tombs; "..BLUE.."Entrance"..WHITE..")"
+Inst45Quest3_Note = "The required mobs are scattered throughout the dungeon."
 Inst45Quest3_Prequest = "None"
 Inst45Quest3_Folgequest = "None"
---
-Inst45Quest3name1 = "Haramad's Leggings of the Third Coin"
-Inst45Quest3name2 = "Consortium Plated Legguards"
-Inst45Quest3name3 = "Haramad's Leg Wraps"
-Inst45Quest3name4 = "Haramad's Linked Chain Pantaloons"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst45Quest4 = "4. Stasis Chambers of the Mana-Tombs (Heroic)"
-Inst45Quest4_Level = "70"
-Inst45Quest4_Attain = "70"
-Inst45Quest4_Aim = "The Image of Commander Ameer at Bash'ir's Landing in the Blade's Edge Mountains wants you to use the Mana-Tombs Stasis Chamber Key on the Stasis Chamber inside the Mana-Tombs of Auchindoun."
-Inst45Quest4_Location = "Image of Commander Ameer (Blade's Edge Mountains - Bash'ir's Landing; "..YELLOW.."52,15"..WHITE..")."
-Inst45Quest4_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[3]"..WHITE..". You'll need a Mark of the Nexus-King for each."
-Inst45Quest4_Prequest = "The Mark of the Nexus-King"
+Inst45Quest4 = "4. Undercutting the Competition"
+Inst45Quest4_Level = "66"
+Inst45Quest4_Attain = "64"
+Inst45Quest4_Aim = "Bring Shaffar's Wrappings to Artificer Morphalius."
+Inst45Quest4_Location = "Artificer Morphalius (Mana Tombs; "..BLUE.."Entrance"..WHITE..")"
+Inst45Quest4_Note = "Nexus-Prince Shaffar is at "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest4_Prequest = "None"
 Inst45Quest4_Folgequest = "None"
-Inst45Quest4PreQuest = "true"
---
--- Awards Justice Points.
 
 --Quest 5 Alliance
-Inst45Quest5 = "5. Wanted: Shaffar's Wondrous Pendant (Heroic Daily)"
+Inst45Quest5 = "5. Stasis Chambers of the Mana-Tombs (Heroic)"
 Inst45Quest5_Level = "70"
 Inst45Quest5_Attain = "70"
-Inst45Quest5_Aim = "Wind Trader Zhareem wants you to obtain Shaffar's Wondrous Amulet. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst45Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
-Inst45Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNexus-Prince Shaffar is at "..YELLOW.."[3]"..WHITE.."."
-Inst45Quest5_Prequest = "None"
+Inst45Quest5_Aim = "The Image of Commander Ameer at Bash'ir's Landing in the Blade's Edge Mountains wants you to use the Mana-Tombs Stasis Chamber Key on the Stasis Chamber inside the Mana-Tombs of Auchindoun."
+Inst45Quest5_Location = "Image of Commander Ameer (Blade's Edge Mountains - Bash'ir's Landing; "..YELLOW.."52,15"..WHITE..")."
+Inst45Quest5_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[3]"..WHITE..". You'll need a Mark of the Nexus-King for each."
+Inst45Quest5_Prequest = "The Mark of the Nexus-King"
 Inst45Quest5_Folgequest = "None"
+Inst45Quest5PreQuest = "true"
+--
+-- Awards Justice Points.
+
+--Quest 6 Alliance
+Inst45Quest6 = "6. Wanted: Shaffar's Wondrous Pendant (Heroic Daily)"
+Inst45Quest6_Level = "70"
+Inst45Quest6_Attain = "70"
+Inst45Quest6_Aim = "Wind Trader Zhareem wants you to obtain Shaffar's Wondrous Amulet. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst45Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst45Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNexus-Prince Shaffar is at "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest6_Prequest = "None"
+Inst45Quest6_Folgequest = "None"
 --
 -- Awards Justice Points.
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst45Quest1_HORDE = Inst45Quest1
-Inst45Quest1_HORDE_Level = Inst45Quest1_Level
-Inst45Quest1_HORDE_Attain = Inst45Quest1_Attain
-Inst45Quest1_HORDE_Aim = Inst45Quest1_Aim
-Inst45Quest1_HORDE_Location = Inst45Quest1_Location
-Inst45Quest1_HORDE_Note = Inst45Quest1_Note
-Inst45Quest1_HORDE_Prequest = Inst45Quest1_Prequest
-Inst45Quest1_HORDE_Folgequest = Inst45Quest1_Folgequest
+
+--Quest 1 Horde
+Inst45Quest1_HORDE = "1. Grek's Crazy Night"
+Inst45Quest1_HORDE_Level = "66"
+Inst45Quest1_HORDE_Attain = "64"
+Inst45Quest1_HORDE_Aim = "Speak with Artificer Morphalius in the Mana Tombs in Auchindoun. "
+Inst45Quest1_HORDE_Location = "Grek (Terokkar Forest - Stonebreaker Hold; "..YELLOW.."49.8, 45.2"..WHITE..")"
+Inst45Quest1_HORDE_Note = "Artificer Morphalius is just inside the entrance of the dungeon."
+Inst45Quest1_HORDE_Prequest = "None"
+Inst45Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -6043,12 +6045,7 @@ Inst45Quest2_HORDE_Location = Inst45Quest2_Location
 Inst45Quest2_HORDE_Note = Inst45Quest2_Note
 Inst45Quest2_HORDE_Prequest = Inst45Quest2_Prequest
 Inst45Quest2_HORDE_Folgequest = Inst45Quest2_Folgequest
-Inst45Quest2FQuest_HORDE = Inst45Quest2FQuest
---
-Inst45Quest2name1_HORDE = Inst45Quest2name1
-Inst45Quest2name2_HORDE = Inst45Quest2name2
-Inst45Quest2name3_HORDE = Inst45Quest2name3
-Inst45Quest2name4_HORDE = Inst45Quest2name4
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst45Quest3_HORDE = Inst45Quest3
@@ -6059,11 +6056,7 @@ Inst45Quest3_HORDE_Location = Inst45Quest3_Location
 Inst45Quest3_HORDE_Note = Inst45Quest3_Note
 Inst45Quest3_HORDE_Prequest = Inst45Quest3_Prequest
 Inst45Quest3_HORDE_Folgequest = Inst45Quest3_Folgequest
---
-Inst45Quest3name1_HORDE = Inst45Quest3name1
-Inst45Quest3name2_HORDE = Inst45Quest3name2
-Inst45Quest3name3_HORDE = Inst45Quest3name3
-Inst45Quest3name4_HORDE = Inst45Quest3name4
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst45Quest4_HORDE = Inst45Quest4
@@ -6074,9 +6067,7 @@ Inst45Quest4_HORDE_Location = Inst45Quest4_Location
 Inst45Quest4_HORDE_Note = Inst45Quest4_Note
 Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
 Inst45Quest4_HORDE_Folgequest = Inst45Quest4_Folgequest
-Inst45Quest4PreQuest_HORDE = Inst45Quest4PreQuest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst45Quest5_HORDE = Inst45Quest5
@@ -6087,6 +6078,19 @@ Inst45Quest5_HORDE_Location = Inst45Quest5_Location
 Inst45Quest5_HORDE_Note = Inst45Quest5_Note
 Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
 Inst45Quest5_HORDE_Folgequest = Inst45Quest5_Folgequest
+Inst45Quest5PreQuest_HORDE = Inst45Quest5PreQuest
+--
+-- Awards Justice Points.
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst45Quest6_HORDE = Inst45Quest6
+Inst45Quest6_HORDE_Level = Inst45Quest6_Level
+Inst45Quest6_HORDE_Attain = Inst45Quest6_Attain
+Inst45Quest6_HORDE_Aim = Inst45Quest6_Aim
+Inst45Quest6_HORDE_Location = Inst45Quest6_Location
+Inst45Quest6_HORDE_Note = Inst45Quest6_Note
+Inst45Quest6_HORDE_Prequest = Inst45Quest6_Prequest
+Inst45Quest6_HORDE_Folgequest = Inst45Quest6_Folgequest
 --
 -- Awards Justice Points.
 
@@ -6096,72 +6100,81 @@ Inst45Quest5_HORDE_Folgequest = Inst45Quest5_Folgequest
 
 Inst46Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst46Caption = "Auch: Sethekk Halls"
-Inst46QAA = "5 Quests"
-Inst46QAH = "5 Quests"
+Inst46QAA = "6 Quests"
+Inst46QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst46Quest1 = "1. Brother Against Brother"
+Inst46Quest1 = "1. Can't Stay Away"
 Inst46Quest1_Level = "69"
 Inst46Quest1_Attain = "65"
-Inst46Quest1_Aim = "Kill Darkweaver Syth in the Sethekk halls, then free Lakka from captivity. Return to Isfar outside the Sethekk Halls when you've completed the rescue."
-Inst46Quest1_Location = "Isfar (Terokkar Forest - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest1_Note = "Darkweaver Syth is at "..YELLOW.."[1]"..WHITE..". Lakka is in a cage in the same room."
+Inst46Quest1_Aim = "Speak with Isfar, who can be found just inside the Sethekk Halls in Auchindoun."
+Inst46Quest1_Location = "Oloraak (Shattrath City - Lower City; "..YELLOW.."58.0, 15.4"..WHITE..")"
+Inst46Quest1_Note = "Isfar is just inside the entrance of the dungeon."
 Inst46Quest1_Prequest = "None"
 Inst46Quest1_Folgequest = "None"
---
-Inst46Quest1name1 = "Torc of the Sethekk Prophet"
-Inst46Quest1name2 = "Sethekk Oracle's Focus"
-Inst46Quest1name3 = "Talon Lord's Collar"
-Inst46Quest1name4 = "Mark of the Ravenguard"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst46Quest2 = "2. Terokk's Legacy"
+Inst46Quest2 = "2. Brother Against Brother"
 Inst46Quest2_Level = "69"
 Inst46Quest2_Attain = "65"
-Inst46Quest2_Aim = "Bring Terokk's Mask, Terokk's Quill, and the Saga of Terokk to Isfar outside the Sethekk Halls."
-Inst46Quest2_Location = "Isfar (Terokkar Forest - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest2_Note = "Terokk's Mask drops off Darkweaver Syth at "..YELLOW.."[1]"..WHITE..", the Saga of Terokk is found at "..YELLOW.."[2]"..WHITE.." and Terokk's Quill drops from Talon King Ikiss at "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest2_Aim = "Free Lakka from captivity. Return to Isfar inside the Sethekk Halls when you've completed the rescue."
+Inst46Quest2_Location = "Isfar (Sethekk Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst46Quest2_Note = "Darkweaver Syth is at "..YELLOW.."[1]"..WHITE..". Lakka is in a cage in the same room."
 Inst46Quest2_Prequest = "None"
 Inst46Quest2_Folgequest = "None"
 --
-Inst46Quest2name1 = "The Saga of Terokk"
-Inst46Quest2name2 = "Terokk's Mask"
-Inst46Quest2name3 = "Terokk's Quill"
+Inst46Quest2name1 = "Torc of the Sethekk Prophet"
+Inst46Quest2name2 = "Sethekk Oracle's Focus"
+Inst46Quest2name3 = "Talon Lord's Collar"
+Inst46Quest2name4 = "Mark of the Ravenguard"
 
 --Quest 3 Alliance
-Inst46Quest3 = "3. Vanquish the Raven God (Druid - Heroic)"
-Inst46Quest3_Level = "70"
-Inst46Quest3_Attain = "70"
-Inst46Quest3_Aim = "Slay the Raven God and return to Morthis Whisperwing at Cenarion Refuge."
-Inst46Quest3_Location = "Morthis Whisperwing (Zangarmarsh - Cenarion Refuge; "..YELLOW.."80,65"..WHITE..")"
-Inst46Quest3_Note = "Requires Heroic Dungeon Difficulty. This is the last quest in the Druid Swift Flight Form questline. The Raven God Anzu is summoned at "..YELLOW.."[2]"..WHITE.." with materials provided by the quest giver."
-Inst46Quest3_Prequest = "The Eagle's Essence -> Chasing the Moonstone"
+Inst46Quest3 = "3. Eyes of Desire"
+Inst46Quest3_Level = "69"
+Inst46Quest3_Attain = "65"
+Inst46Quest3_Aim = "Dealer Vijad inside the Sethekk Halls wants you to bring him 3 Cobalt Eyes. "
+Inst46Quest3_Location = "Dealer Vijaad (Sethekk Halls; "..YELLOW.."[1]"..WHITE..")"
+Inst46Quest3_Note = "Dealer Vijaad appears after killing Darkweaver Syth.  The Cobalt Eyes can be found on the way to the next boss."
+Inst46Quest3_Prequest = "None"
 Inst46Quest3_Folgequest = "None"
-Inst46Quest3PreQuest = "true"
---
-Inst46Quest3name1 = "Idol of the Raven Goddess"
-
---Quest 4 Alliance
-Inst46Quest4 = "4. Kalynna's Request (Heroic)"
-Inst46Quest4_Level = "70"
-Inst46Quest4_Attain = "70"
-Inst46Quest4_Aim = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun."
-Inst46Quest4_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32,63"..WHITE..")"
-Inst46Quest4_Note = "Requires Heroic Dungeon Difficulty.\n\nDarkweaver Syth is at "..YELLOW.."[1]"..WHITE..". The Tome of Dusk drops in Shattered Halls."
-Inst46Quest4_Prequest = "A Colleague's Aid ("..YELLOW.."Karazhan"..WHITE..")"
-Inst46Quest4_Folgequest = "Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
-Inst46Quest4PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 4 Alliance
+Inst46Quest4 = "4. Terokk's Legacy"
+Inst46Quest4_Level = "69"
+Inst46Quest4_Attain = "65"
+Inst46Quest4_Aim = "Bring Terokk's Mask and Terokk's Quill to Isfar inside the Sethekk Halls. "
+Inst46Quest4_Location = "Isfar (Sethekk Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst46Quest4_Note = "Terokk's Mask drops off Darkweaver Syth at "..YELLOW.."[1]"..WHITE.." and Terokk's Quill drops from Talon King Ikiss at "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest4_Prequest = "None"
+Inst46Quest4_Folgequest = "None"
+--
+Inst46Quest4name1 = "The Saga of Terokk"
+Inst46Quest4name2 = "Terokk's Mask"
+Inst46Quest4name3 = "Terokk's Quill"
+
 --Quest 5 Alliance
-Inst46Quest5 = "5. Wanted: The Headfeathers of Ikiss (Heroic Daily)"
+Inst46Quest5 = "5. Kalynna's Request (Heroic)"
 Inst46Quest5_Level = "70"
 Inst46Quest5_Attain = "70"
-Inst46Quest5_Aim = "Wind Trader Zhareem has asked you to acquire The Headfeathers of Ikiss. Deliver them to him in Shattrath's Lower City to collect the reward."
-Inst46Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
-Inst46Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nTalon King Ikiss is at "..YELLOW.."[3]"..WHITE.."."
-Inst46Quest5_Prequest = "None"
-Inst46Quest5_Folgequest = "None"
+Inst46Quest5_Aim = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun."
+Inst46Quest5_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")"
+Inst46Quest5_Note = "Requires Heroic Dungeon Difficulty.\n\nDarkweaver Syth is at "..YELLOW.."[1]"..WHITE..". The Tome of Dusk drops in Shattered Halls."
+Inst46Quest5_Prequest = "A Colleague's Aid ("..YELLOW.."Karazhan"..WHITE..")"
+Inst46Quest5_Folgequest = "Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
+Inst46Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst46Quest6 = "6. Wanted: The Headfeathers of Ikiss (Heroic Daily)"
+Inst46Quest6_Level = "70"
+Inst46Quest6_Attain = "70"
+Inst46Quest6_Aim = "Wind Trader Zhareem has asked you to acquire The Headfeathers of Ikiss. Deliver them to him in Shattrath's Lower City to collect the reward."
+Inst46Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst46Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nTalon King Ikiss is at "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest6_Prequest = "None"
+Inst46Quest6_Folgequest = "None"
 --
 -- Awards Justice Points.
 
@@ -6175,11 +6188,7 @@ Inst46Quest1_HORDE_Location = Inst46Quest1_Location
 Inst46Quest1_HORDE_Note = Inst46Quest1_Note
 Inst46Quest1_HORDE_Prequest = Inst46Quest1_Prequest
 Inst46Quest1_HORDE_Folgequest = Inst46Quest1_Folgequest
---
-Inst46Quest1name1_HORDE = Inst46Quest1name1
-Inst46Quest1name2_HORDE = Inst46Quest1name2
-Inst46Quest1name3_HORDE = Inst46Quest1name3
-Inst46Quest1name4_HORDE = Inst46Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst46Quest2_HORDE = Inst46Quest2
@@ -6194,6 +6203,7 @@ Inst46Quest2_HORDE_Folgequest = Inst46Quest2_Folgequest
 Inst46Quest2name1_HORDE = Inst46Quest2name1
 Inst46Quest2name2_HORDE = Inst46Quest2name2
 Inst46Quest2name3_HORDE = Inst46Quest2name3
+Inst46Quest2name4_HORDE = Inst46Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst46Quest3_HORDE = Inst46Quest3
@@ -6204,9 +6214,7 @@ Inst46Quest3_HORDE_Location = Inst46Quest3_Location
 Inst46Quest3_HORDE_Note = Inst46Quest3_Note
 Inst46Quest3_HORDE_Prequest = Inst46Quest3_Prequest
 Inst46Quest3_HORDE_Folgequest = Inst46Quest3_Folgequest
-Inst46Quest3PreQuest_HORDE = Inst46Quest3PreQuest
---
-Inst46Quest3name1_HORDE = Inst46Quest3name1
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst46Quest4_HORDE = Inst46Quest4
@@ -6217,8 +6225,10 @@ Inst46Quest4_HORDE_Location = Inst46Quest4_Location
 Inst46Quest4_HORDE_Note = Inst46Quest4_Note
 Inst46Quest4_HORDE_Prequest = Inst46Quest4_Prequest
 Inst46Quest4_HORDE_Folgequest = Inst46Quest4_Folgequest
-Inst46Quest4PreQuest_HORDE = Inst46Quest4PreQuest
--- No Rewards for this quest
+--
+Inst46Quest4name1_HORDE = Inst46Quest4name1
+Inst46Quest4name2_HORDE = Inst46Quest4name2
+Inst46Quest4name3_HORDE = Inst46Quest4name3
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst46Quest5_HORDE = Inst46Quest5
@@ -6229,6 +6239,18 @@ Inst46Quest5_HORDE_Location = Inst46Quest5_Location
 Inst46Quest5_HORDE_Note = Inst46Quest5_Note
 Inst46Quest5_HORDE_Prequest = Inst46Quest5_Prequest
 Inst46Quest5_HORDE_Folgequest = Inst46Quest5_Folgequest
+Inst46Quest5PreQuest_HORDE = Inst46Quest5PreQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst46Quest6_HORDE = Inst46Quest6
+Inst46Quest6_HORDE_Level = Inst46Quest6_Level
+Inst46Quest6_HORDE_Attain = Inst46Quest6_Attain
+Inst46Quest6_HORDE_Aim = Inst46Quest6_Aim
+Inst46Quest6_HORDE_Location = Inst46Quest6_Location
+Inst46Quest6_HORDE_Note = Inst46Quest6_Note
+Inst46Quest6_HORDE_Prequest = Inst46Quest6_Prequest
+Inst46Quest6_HORDE_Folgequest = Inst46Quest6_Folgequest
 --
 -- Awards Justice Points.
 

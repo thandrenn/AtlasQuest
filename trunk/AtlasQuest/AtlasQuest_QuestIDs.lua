@@ -1088,45 +1088,52 @@ AQ_10168_Level = "68"
 
 --------------- INST45 - Auchindoun: Mana Tombs (MT) ---------------
 
-Inst45Quest1_QuestID = "10216"
-Inst45Quest2_QuestID = "10218"
-Inst45Quest3_QuestID = "10165"
-Inst45Quest4_QuestID = "10977"
-Inst45Quest5_QuestID = "11373"
+Inst45Quest1_QuestID = "29583"
+Inst45Quest2_QuestID = "29574"
+Inst45Quest3_QuestID = "29573"
+Inst45Quest4_QuestID = "29575"
+Inst45Quest5_QuestID = "10977"
+Inst45Quest6_QuestID = "11373"
 
-Inst45Quest1_HORDE_QuestID = "10216"
-Inst45Quest2_HORDE_QuestID = "10218"
-Inst45Quest3_HORDE_QuestID = "10165"
-Inst45Quest4_HORDE_QuestID = "10977"
-Inst45Quest5_HORDE_QuestID = "11373"
+Inst45Quest1_HORDE_QuestID = "29582"
+Inst45Quest2_HORDE_QuestID = "29574"
+Inst45Quest3_HORDE_QuestID = "29573"
+Inst45Quest4_HORDE_QuestID = "29575"
+Inst45Quest5_HORDE_QuestID = "10977"
+Inst45Quest6_HORDE_QuestID = "11373"
 
 
-AQ_10216_Level = "66"
-AQ_10218_Level = "66"
-AQ_10165_Level = "66"
+AQ_29583_Level = "66"
+AQ_29574_Level = "66"
+AQ_29573_Level = "66"
+AQ_29575_Level = "66"
 AQ_10977_Level = "70"
 AQ_11373_Level = "70"
+AQ_29582_Level = "66"
 
 
 
 --------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
 
-Inst46Quest1_QuestID = "10097"
-Inst46Quest2_QuestID = "10098"
-Inst46Quest3_QuestID = "11001"
-Inst46Quest4_QuestID = "9637"
-Inst46Quest5_QuestID = "11372"
+Inst46Quest1_QuestID = "10180"
+Inst46Quest2_QuestID = "29605"
+Inst46Quest3_QuestID = "29607"
+Inst46Quest4_QuestID = "29606"
+Inst46Quest5_QuestID = "9637"
+Inst46Quest6_QuestID = "11372"
 
-Inst46Quest1_HORDE_QuestID = "10097"
-Inst46Quest2_HORDE_QuestID = "10098"
-Inst46Quest3_HORDE_QuestID = "11001"
-Inst46Quest4_HORDE_QuestID = "9637"
-Inst46Quest5_HORDE_QuestID = "11372"
+Inst46Quest1_HORDE_QuestID = "10180"
+Inst46Quest2_HORDE_QuestID = "29605"
+Inst46Quest3_HORDE_QuestID = "29607"
+Inst46Quest4_HORDE_QuestID = "29606"
+Inst46Quest5_HORDE_QuestID = "9637"
+Inst46Quest6_HORDE_QuestID = "11372"
 
 
-AQ_10097_Level = "69"
-AQ_10098_Level = "69"
-AQ_11001_Level = "70"
+AQ_10180_Level = "69"
+AQ_29605_Level = "69"
+AQ_29607_Level = "69"
+AQ_29606_Level = "69"
 --AQ_9637_Level = "70"  -- Already used for HFC: Shattered Halls. Left here just for the note.
 AQ_11372_Level = "70"
 
