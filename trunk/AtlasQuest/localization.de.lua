@@ -23,8 +23,6 @@
 
 
 -- German localisation by Asurn
--- updated by Telchar (ICQ:  391632535)
--- updated by Nalumis
 -- updated by Guldukat Realm Antonidas(German)
 
 
@@ -102,13 +100,11 @@ AQERRORASKSERVER = "Klicke rechts um den Server nach diesem Gegenstand abzufrage
 AQOptionB = "Optionen"
 AQStoryB = "Geschichte"
 AQNoReward = ""..BLUE.." Keine Belohnung"
-AQLKRaidWeekly = ""..BLUE.." Belohnung: "..WHITE.."138 Gerechtigkeitspunkte"
-AQDiscription_OR = ""..GREY.." oder "..WHITE..""
-AQDiscription_AND = ""..GREY.." und "..WHITE..""
-AQDiscription_REWARD = ""..BLUE.." Belohnung: "
 AQJusticePoints = ""..WHITE.." Gerechtigkeitspunkte"
 AQValorPoints = ""..WHITE.." Tapferkeitspunkte"
-AQDiscription_REWARD = ""..BLUE.." Belohnung: " 
+AQDiscription_REWARD = ""..BLUE.." Belohnung: "
+AQDiscription_OR = ""..GREY.." oder "..WHITE..""
+AQDiscription_AND = ""..GREY.." und "..WHITE..""
 AQDiscription_ATTAIN = "Benötigte Stufe: "
 AQDiscription_LEVEL = "Stufe: "
 AQDiscription_START = "Beginnt bei/in: \n"
@@ -4724,7 +4720,7 @@ Inst37Quest5 = "5. Gesucht: Nazans Reitgerte (Heroisches Tagesquest)"
 Inst37Quest5_Level = "70"
 Inst37Quest5_Attain = "70"
 Inst37Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Nazans Reitgerte zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst37Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst37Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst37Quest5_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNazan findet man bei "..YELLOW.."[3]"..WHITE.."."
 Inst37Quest5_Prequest = "Nein"
 Inst37Quest5_Folgequest = "Nein"
@@ -4869,7 +4865,7 @@ Inst38Quest4 = "4. Gesucht: Keli'dans gefiederter Stab (Heroisches Tagesquest)"
 Inst38Quest4_Level = "70"
 Inst38Quest4_Attain = "70"
 Inst38Quest4_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Keli'dans gefiederten Stab zu beschaffen. Bringt ihn zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst38Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst38Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst38Quest4_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKeli'dan der Zerstörer befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst38Quest4_Prequest = "Nein"
 Inst38Quest4_Folgequest = "Nein"
@@ -5000,7 +4996,7 @@ Inst39Quest5 = "5. Die Prüfung der Naaru: Erbarmen (Heroisch)"
 Inst39Quest5_Level = "70"
 Inst39Quest5_Attain = "70"
 Inst39Quest5_Aim = "A'dal in Shattrath möchte, dass Ihr die unbenutzte Axt des Henkers aus den zerschmetterten Hallen der Höllenfeuerzitadelle besorgt."
-Inst39Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.2,44.4"..WHITE..")"
+Inst39Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst39Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
 Inst39Quest5_Prequest = "Nein"
 Inst39Quest5_Folgequest = "Nein"
@@ -5035,7 +5031,7 @@ Inst39Quest8 = "8. Gesucht: Messerfausts Siegel (Heroische Tagesquest)"
 Inst39Quest8_Level = "70"
 Inst39Quest8_Attain = "70"
 Inst39Quest8_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Messerfausts Siegel zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst39Quest8_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75,37"..WHITE..")"
+Inst39Quest8_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst39Quest8_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst39Quest8_Prequest = "Nein"
 Inst39Quest8_Folgequest = "Nein"
@@ -5047,7 +5043,7 @@ Inst39Quest9 = "9. Gesucht: Zenturionen der Zerschmetterten Hand (Tagesquest)"
 Inst39Quest9_Level = "70"
 Inst39Quest9_Attain = "70"
 Inst39Quest9_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Zenturionen der Zerschmetterten Hand zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst39Quest9_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst39Quest9_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst39Quest9_Note = "Die Zenturios sind in der Trainingshalle zu finden."
 Inst39Quest9_Prequest = "Nein"
 Inst39Quest9_Folgequest = "Nein"
@@ -5207,7 +5203,7 @@ Inst40Quest1 = "1. Die Prüfung der Naaru: Magtheridon"
 Inst40Quest1_Level = "70"
 Inst40Quest1_Attain = "70"
 Inst40Quest1_Aim = "A'dal in Shattrath möchte, dass Ihr Magtheridon vernichtet."
-Inst40Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst40Quest1_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst40Quest1_Note = "Die drei anderen Prüfungen der Naaru, die es von A'dal gibt, müssen absolviert sein.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
 Inst40Quest1_Prequest = "Ja, Die Prüfung der Naaru: Zuverlässigkeit, Erbarmen und Stärke"
 Inst40Quest1_Folgequest = "Nein"
@@ -5495,7 +5491,7 @@ Inst42Quest5 = "5. Die Prüfung der Naaru: Stärke (Heroisch)"
 Inst42Quest5_Level = "70"
 Inst42Quest5_Attain = "70"
 Inst42Quest5_Aim = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt."
-Inst42Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst42Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst42Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Kriegsherr Kalithresh befindet sich bei "..YELLOW.."[3]"..WHITE..". Murmurs Essenz droppt im Schattenlabyrinth.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
 Inst42Quest5_Prequest = "Nein"
 Inst42Quest5_Folgequest = "Nein"
@@ -5530,7 +5526,7 @@ Inst42Quest8 = "8. Gesucht: Myrmidonen des Echsenkessels (Tagesquest)"
 Inst42Quest8_Level = "70"
 Inst42Quest8_Attain = "70"
 Inst42Quest8_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 14 Myrmidonen des Echsenkessels zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst42Quest8_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest8_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst42Quest8_Note = "Die Myrmidonen des Echsenkessels befinden sich überall in der Instanz."
 Inst42Quest8_Prequest = "Nein"
 Inst42Quest8_Folgequest = "Nein"
@@ -5542,7 +5538,7 @@ Inst42Quest9 = "9. Gesucht: Die Aufzeichnungen des Kriegsherren (Heroische Tages
 Inst42Quest9_Level = "70"
 Inst42Quest9_Attain = "70"
 Inst42Quest9_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm die Aufzeichnungen des Kriegsherren zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst42Quest9_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst42Quest9_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst42Quest9_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegsherr Kalithresh befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst42Quest9_Prequest = "Nein"
 Inst42Quest9_Folgequest = "Nein"
@@ -5737,7 +5733,7 @@ Inst43Quest7 = "7. Gesucht: Ei der Schattenmutter (Heroische Tagesquest)"
 Inst43Quest7_Level = "70"
 Inst43Quest7_Attain = "70"
 Inst43Quest7_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm ein Ei der Schattenmutter zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst43Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst43Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst43Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDie Schattenmutter befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst43Quest7_Prequest = "Nein"
 Inst43Quest7_Folgequest = "Nein"
@@ -5833,19 +5829,19 @@ Inst43Quest7_HORDE_Folgequest = "Nein"
 
 Inst44Story = "Seit Tausenden von Jahren haben die Draenei ihre Toten in Auchindoun, ihrem heiligsten Tempel, begraben.\n\nDoch Agenten des Schattenrats sind in ihn eingedrungen, dazu entschlossen, eine entsetzliche Kreatur von gewaltigem Übel zu beschwören.\n\nIhre abscheulichen magischen Taten führten zu einer gewaltigen Explosion, die den Tempel auseinandergerissen und die Umgebung in ein verkohltes Ödland verwandelt hat.\n\nDie Druckwelle verursachte zusätzlich einen Riss im Nether selbst, so dass jenseitige Astrale in die Scherbenwelt gelockt wurden.\n\nDie begrabenen Draenei durchwandern nun die Ruinen als ruhelose Geister.\n\nUnterdessen droht das vom Schattenrat beschworene entsetzliche Gebilde, ihre Bemühungen, es im Zaum zu halten, zu übermannen.\n\nDu musst dieses Böse davon abhalten, auf dieser ahnungslosen Welt freigesetzt zu werden.\n\nAuchindoun ist in vier Flügel aufgeteilt und für Gruppen von fünf Spielern der Stufen 64-70 vorgesehen."
 Inst44Caption = "Auch: Auchenaikrypta"
-Inst44QAA = "2 Quest"
-Inst44QAH = "4 Quests"
+Inst44QAA = "5 Quest"
+Inst44QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst44Quest1 = "1. Alles wird gut"
 Inst44Quest1_Level = "67"
 Inst44Quest1_Attain = "64"
-Inst44Quest1_Aim = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und Exarch Maladaar vernichtet."
-Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35,65"..WHITE..")"
-Inst44Quest1_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". Die Vorquestreihe startet bei Ha'lei (Wälder von Terokkar - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
-Inst44Quest1_Prequest = "Ja, Ich sehe tote Draenei -> Levixus der Seelenrufer"
-Inst44Quest1_Folgequest = "Nein"
-Inst44Quest1PreQuest = "true"
+Inst44Quest1_Aim = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und mit dem Draeneigeist spricht."
+Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35.0,65.2"..WHITE..")"
+Inst44Quest1_Note = "Der Draeneigeist befindet sich innerhalb der Instanz am Eingang."
+Inst44Quest1_Prequest = "Nein"
+Inst44Quest1_Folgequest = "Ja, Das Ende des Exarchen"
+Inst44Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -5853,7 +5849,7 @@ Inst44Quest2 = "1. Das Ende des Exarchen"
 Inst44Quest2_Level = "67"
 Inst44Quest2_Attain = "64"
 Inst44Quest2_Aim = "Tötet Exarch Maladaar und kehrt zu dem Draeneigeist in der Auchenaikrypta zurück."
-Inst44Quest2_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35,65"..WHITE..")"
+Inst44Quest2_Location = "Draeneigeist (Auchenaikrypta; "..BLUE.."Eingang"..WHITE..")."
 Inst44Quest2_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst44Quest2_Prequest = "Ja, Alles wird gut"
 Inst44Quest2_Folgequest = "Nein"
@@ -5864,94 +5860,126 @@ Inst44Quest2name2 = "Mönchstunika der Auchenai"
 Inst44Quest2name3 = "Fährtenleserhalsberge der Auchenai"
 Inst44Quest2name4 = "Schutz des Exarchen"
 
---Quest 1 Alliance
-Inst44Quest1 = "1. Alles wird gut"
-Inst44Quest1_Level = "67"
-Inst44Quest1_Attain = "64"
-Inst44Quest1_Aim = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und Exarch Maladaar vernichtet."
-Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35,65"..WHITE..")"
-Inst44Quest1_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". Die Vorquestreihe startet bei Ha'lei (Wälder von Terokkar - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
-Inst44Quest1_Prequest = "Ja, Ich sehe tote Draenei -> Levixus der Seelenrufer"
-Inst44Quest1_Folgequest = "Nein"
-Inst44Quest1PreQuest = "true"
+--Quest 3 Alliance
+Inst44Quest3 = "1. Der Totenwächter"
+Inst44Quest3_Level = "67"
+Inst44Quest3_Attain = "64"
+Inst44Quest3_Aim = "Tötet Shirrak den Totenwächter und kehrt zu dem Draeneigeist zurück."
+Inst44Quest3_Location = "Draeneigeist (Auchenaikrypta; "..BLUE.."Eingang"..WHITE..")."
+Inst44Quest3_Note = "Shirrak den Totenwächter ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst44Quest3_Prequest = "Nein"
+Inst44Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 1 Alliance
-Inst44Quest1 = "1. Alles wird gut"
-Inst44Quest1_Level = "67"
-Inst44Quest1_Attain = "64"
-Inst44Quest1_Aim = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und Exarch Maladaar vernichtet."
-Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35,65"..WHITE..")"
-Inst44Quest1_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". Die Vorquestreihe startet bei Ha'lei (Wälder von Terokkar - Auchindoun; "..YELLOW.."35,65"..WHITE..")."
-Inst44Quest1_Prequest = "Ja, Ich sehe tote Draenei -> Levixus der Seelenrufer"
-Inst44Quest1_Folgequest = "Nein"
-Inst44Quest1PreQuest = "true"
+--Quest 4 Alliance
+Inst44Quest4 = "1. Wütende Geister"
+Inst44Quest4_Level = "67"
+Inst44Quest4_Attain = "64"
+Inst44Quest4_Aim = "Tötet 5 erboste Skelette, 5 tobende Skelette und 3 Totenbeschwörer der Auchenai. Kehrt dann zur gequälten Seelenpriesterin in der Auchenaikrypta zurück."
+Inst44Quest4_Location = "Gequälte Seelenpriesterin (Auchenaikrypta; "..BLUE.."Eingang"..WHITE..")"
+Inst44Quest4_Note = "Die erbosten Skelette sind hinter dem Boss Shirrak den Totenwächter bei "..YELLOW.."[1]"..WHITE.."."
+Inst44Quest4_Prequest = "Nein"
+Inst44Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Alliance
-Inst44Quest2 = "2. Gesucht: Der Seelenedelstein des Exarchen (Heroisches Tagesquest)"
-Inst44Quest2_Level = "70"
-Inst44Quest2_Attain = "70"
-Inst44Quest2_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm den Seelenedelstein des Exarchen zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst44Quest2_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst44Quest2_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nExarch Maladaar befindet sich bei "..YELLOW.."[2]"..WHITE.."."
-Inst44Quest2_Prequest = "Nein"
-Inst44Quest2_Folgequest = "Nein"
+--Quest 5 Alliance
+Inst44Quest5 = "5. Gesucht: Der Seelenedelstein des Exarchen (Heroisches Tagesquest)"
+Inst44Quest5_Level = "70"
+Inst44Quest5_Attain = "70"
+Inst44Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm den Seelenedelstein des Exarchen zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst44Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
+Inst44Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nExarch Maladaar befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst44Quest5_Prequest = "Nein"
+Inst44Quest5_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde
-Inst44Quest1_HORDE = "1. Auchindoun..."
-Inst44Quest1_HORDE_Level = "68"
-Inst44Quest1_HORDE_Attain = "66"
-Inst44Quest1_HORDE_Aim = "Reist zur Auchenaikrypta in der Knochenwüste der Wälder von Terokkar und tötet Exarch Maladaar um den Geist von D'ore zu befreien."
-Inst44Quest1_HORDE_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
-Inst44Quest1_HORDE_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". D'ore erscheint, wenn Exarch Maladarr getötet wurde."
-Inst44Quest1_HORDE_Prequest = "Ja, Ein Besuch bei der Großmutter -> Ein gelüftetes Geheimnis"
-Inst44Quest1_HORDE_Folgequest = "Ja, Was die Seele sieht"
+Inst44Quest1_HORDE = Inst44Quest1
+Inst44Quest1_HORDE_Level = "67"
+Inst44Quest1_HORDE_Attain = "64"
+Inst44Quest1_HORDE_Aim = Inst44Quest1_Aim
+Inst44Quest1_HORDE_Location = Inst44Quest1_Location
+Inst44Quest1_HORDE_Note = Inst44Quest1_Note
+Inst44Quest1_HORDE_Prequest = "Nein"
+Inst44Quest1_HORDE_Folgequest = Inst44Quest1_Folgequest
 Inst44Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst44Quest2_HORDE = "2. Was die Seele sieht"
-Inst44Quest2_HORDE_Level = "68"
-Inst44Quest2_HORDE_Attain = "66"
-Inst44Quest2_HORDE_Aim = "Sucht einen Seelenspiegel in der Auchenaikrypta und benutzt ihn, um einen getrübten Geist eines uralten Orcahnen zu rufen. Zerstört 15 getrübte Geister, damit die Ahnen in Frieden ruhen können."
-Inst44Quest2_HORDE_Location = "D'ore (Auchenaikrypta; "..YELLOW.."[2]"..WHITE..")."
-Inst44Quest2_HORDE_Note = "D'ore erscheint, wenn Exarch Maladarr getötet wurde. Mutter Kashur befindet sich bei (Nagrand; "..YELLOW.."26,61"..WHITE.."). Man sollte in einer Gruppe aus 3 oder mehr Spielern sein, bevor man die getrübten Geister anspricht."
-Inst44Quest2_HORDE_Prequest = "Ja, Auchindoun..."
-Inst44Quest2_HORDE_Folgequest = "Ja, Rückkehr zur Großmutter"
-Inst44Quest2FQuest_HORDE = "true"
--- No Rewards for this quest
+Inst44Quest2_HORDE = Inst44Quest2
+Inst44Quest2_HORDE_Level = "67"
+Inst44Quest2_HORDE_Attain = "64"
+Inst44Quest2_HORDE_Aim = Inst44Quest2_Aim
+Inst44Quest2_HORDE_Location = Inst44Quest2_Location
+Inst44Quest2_HORDE_Note = Inst44Quest2_Note
+Inst44Quest2_HORDE_Prequest = "Ja, Alles wird gut"
+Inst44Quest2_HORDE_Folgequest = "Nein"
+Inst44Quest2PreQuest_HORDE = "true"
+--
+Inst44Quest2name1_HORDE = Inst44Quest2name1
+Inst44Quest2name2_HORDE = Inst44Quest2name2
+Inst44Quest2name3_HORDE = Inst44Quest2name3
+Inst44Quest2name4_HORDE = Inst44Quest2name4
 
 --Quest 3 Horde
-Inst44Quest3_HORDE = Inst44Quest1
+Inst44Quest3_HORDE = Inst44Quest3
 Inst44Quest3_HORDE_Level = "67"
 Inst44Quest3_HORDE_Attain = "64"
-Inst44Quest3_HORDE_Aim = Inst44Quest1_Aim
-Inst44Quest3_HORDE_Location = Inst44Quest1_Location
-Inst44Quest3_HORDE_Note = Inst44Quest1_Note
-Inst44Quest3_HORDE_Prequest = Inst44Quest1_Prequest
+Inst44Quest3_HORDE_Aim = Inst44Quest3_Aim
+Inst44Quest3_HORDE_Location = Inst44Quest3_Location
+Inst44Quest3_HORDE_Note = Inst44Quest3_Note
+Inst44Quest3_HORDE_Prequest = "Nein"
 Inst44Quest3_HORDE_Folgequest = "Nein"
-Inst44Quest3PreQuest_HORDE = "true"
---
-Inst44Quest3name1_HORDE = Inst44Quest1name1
-Inst44Quest3name2_HORDE = Inst44Quest1name2
-Inst44Quest3name3_HORDE = Inst44Quest1name3
-Inst44Quest3name4_HORDE = Inst44Quest1name4
+-- No Rewards for this quest
 
 --Quest 4 Horde
-Inst44Quest4_HORDE = Inst44Quest2
-Inst44Quest4_HORDE_Level = "70"
-Inst44Quest4_HORDE_Attain = "70"
-Inst44Quest4_HORDE_Aim = Inst44Quest2_Aim
-Inst44Quest4_HORDE_Location = Inst44Quest2_Location
-Inst44Quest4_HORDE_Note = Inst44Quest2_Note
+Inst44Quest4_HORDE = Inst44Quest4
+Inst44Quest4_HORDE_Level = "67"
+Inst44Quest4_HORDE_Attain = "64"
+Inst44Quest4_HORDE_Aim = Inst44Quest4_Aim
+Inst44Quest4_HORDE_Location = Inst44Quest4_Location
+Inst44Quest4_HORDE_Note = Inst44Quest4_Note
 Inst44Quest4_HORDE_Prequest = "Nein"
 Inst44Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst44Quest5_HORDE = Inst44Quest5
+Inst44Quest5_HORDE_Level = "70"
+Inst44Quest5_HORDE_Attain = "70"
+Inst44Quest5_HORDE_Aim = Inst44Quest5_Aim
+Inst44Quest5_HORDE_Location = Inst44Quest5_Location
+Inst44Quest5_HORDE_Note = Inst44Quest5_Note
+Inst44Quest5_HORDE_Prequest = "Nein"
+Inst44Quest5_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
+
+--Quest 6 Horde
+Inst44Quest6_HORDE = "6. Auchindoun..."
+Inst44Quest6_HORDE_Level = "68"
+Inst44Quest6_HORDE_Attain = "66"
+Inst44Quest6_HORDE_Aim = "Reist zur Auchenaikrypta in der Knochenwüste der Wälder von Terokkar und tötet Exarch Maladaar um den Geist von D'ore zu befreien."
+Inst44Quest6_HORDE_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
+Inst44Quest6_HORDE_Note = "Exarch Maladarr befindet sich bei "..YELLOW.."[2]"..WHITE..". D'ore erscheint, wenn Exarch Maladarr getötet wurde."
+Inst44Quest6_HORDE_Prequest = "Ja, Ein Besuch bei der Großmutter -> Ein gelüftetes Geheimnis"
+Inst44Quest6_HORDE_Folgequest = "Ja, Was die Seele sieht"
+Inst44Quest6FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst44Quest7_HORDE = "7. Was die Seele sieht"
+Inst44Quest7_HORDE_Level = "68"
+Inst44Quest7_HORDE_Attain = "66"
+Inst44Quest7_HORDE_Aim = "Sucht einen Seelenspiegel in der Auchenaikrypta und benutzt ihn, um einen getrübten Geist eines uralten Orcahnen zu rufen. Zerstört 15 getrübte Geister, damit die Ahnen in Frieden ruhen können."
+Inst44Quest7_HORDE_Location = "D'ore (Auchenaikrypta; "..YELLOW.."[2]"..WHITE..")."
+Inst44Quest7_HORDE_Note = "D'ore erscheint, wenn Exarch Maladarr getötet wurde. Mutter Kashur befindet sich bei (Nagrand; "..YELLOW.."26,61"..WHITE.."). Man sollte in einer Gruppe aus 3 oder mehr Spielern sein, bevor man die getrübten Geister anspricht."
+Inst44Quest7_HORDE_Prequest = "Ja, Auchindoun..."
+Inst44Quest7_HORDE_Folgequest = "Ja, Rückkehr zur Großmutter"
+Inst44Quest7FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -5959,88 +5987,88 @@ Inst44Quest4_HORDE_Folgequest = "Nein"
 
 Inst45Story = "Seit Tausenden von Jahren haben die Draenei ihre Toten in Auchindoun, ihrem heiligsten Tempel, begraben.\n\nDoch Agenten des Schattenrats sind in ihn eingedrungen, dazu entschlossen, eine entsetzliche Kreatur von gewaltigem Übel zu beschwören.\n\nIhre abscheulichen magischen Taten führten zu einer gewaltigen Explosion, die den Tempel auseinandergerissen und die Umgebung in ein verkohltes Ödland verwandelt hat.\n\nDie Druckwelle verursachte zusätzlich einen Riss im Nether selbst, so dass jenseitige Astrale in die Scherbenwelt gelockt wurden.\n\nDie begrabenen Draenei durchwandern nun die Ruinen als ruhelose Geister.\n\nUnterdessen droht das vom Schattenrat beschworene entsetzliche Gebilde, ihre Bemühungen, es im Zaum zu halten, zu übermannen.\n\nDu musst dieses Böse davon abhalten, auf dieser ahnungslosen Welt freigesetzt zu werden.\n\nAuchindoun ist in vier Flügel aufgeteilt und für Gruppen von fünf Spielern der Stufen 64-70 vorgesehen."
 Inst45Caption = "Auch: Managruft"
-Inst45QAA = "5 Quests"
-Inst45QAH = "5 Quests"
+Inst45QAA = "6 Quests"
+Inst45QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst45Quest1 = "1. Sicherheit geht vor"
+Inst45Quest1 = "1. Eckert der Verrückte"
 Inst45Quest1_Level = "66"
 Inst45Quest1_Attain = "64"
-Inst45Quest1_Aim = "Konstrukteur Morphalius möchte, dass Ihr 10 astrale Grufträuber, 5 astrale Zauberer, 5 Nexuswandler und 5 astrale Zauberbinder tötet."
-Inst45Quest1_Location = "Konstrukteur Morphalius (Wälder von Terokkar - Auchindoun; "..YELLOW.."39,58"..WHITE..")"
-Inst45Quest1_Note = "Das Bedienfeld des astralen Transporters befindet sich bei "..GREEN.."[2']"..WHITE.."."
+Inst45Quest1_Aim = "Sprecht mit Konstrukteur Morphalius in der Managruft in Auchindoun."
+Inst45Quest1_Location = "Eckert (Wälder von Terokkar - Allerias Feste; "..YELLOW.."57.6, 53.4"..WHITE..")"
+Inst45Quest1_Note = "Konstrukteur Morphalius befindet sich innerhalb der Instanz Managruft."
 Inst45Quest1_Prequest = "Nein"
-Inst45Quest1_Folgequest = "Ja, Jemandes Arbeit zahlt sich aus"
-Inst45Quest1FQuest = "true"
+Inst45Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst45Quest2 = "2. Jemandes Arbeit zahlt sich aus"
+Inst45Quest2 = "2. Rätselhafte Wesen"
 Inst45Quest2_Level = "66"
 Inst45Quest2_Attain = "64"
-Inst45Quest2_Aim = "Begleitet Kryoingenieur Sha'heen sicher durch die Managruft, damit er die Astralmaterie aus Shaffars Astralsammlern entnehmen kann."
-Inst45Quest2_Location = "Kryoingenieur Sha'heen (Managruft; "..GREEN.."[2']"..WHITE..")"
-Inst45Quest2_Note = "Um Kryoingenieur Sha'heen zu beschwören, muss das Bedienfeld des astralen Transporters bei "..GREEN.."[2']"..WHITE.." aktiviert werden. Er wird zusammen mit einigen anderen freundlichen Konsortium-NPCs erscheinen. Die komplette Instanz sollte vorher gesäubert worden sein. Lass nichts am Leben. Die Begleitquest kann nur einmal pro Instanz gestartet werden."
-Inst45Quest2_Prequest = "Ja, Sicherheit geht vor"
+Inst45Quest2_Aim = "Bringt Pandemonius' Essenz und Tavaroks Herz zu Mamdy dem Ologen."
+Inst45Quest2_Location = "Mamdy der 'Ologe' (Managruft; "..BLUE.."Eingang"..WHITE..")"
+Inst45Quest2_Note = "Pandemonius ist bei "..YELLOW.."[1]"..WHITE.." und Tavarok ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst45Quest2_Prequest = "Nein"
 Inst45Quest2_Folgequest = "Nein"
-Inst45Quest2PreQuest = "true"
---
-Inst45Quest2name1 = "Wickeltuch des Konsortiumprinzen"
-Inst45Quest2name2 = "Kryohandschuhe"
-Inst45Quest2name3 = "Konsortiummantelung der Phasen"
-Inst45Quest2name4 = "Metallschienbeinschützer der Fleischbestie"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst45Quest3 = "3. Die Konkurrenz untergraben"
+Inst45Quest3 = "3. Sicherheit geht vor"
 Inst45Quest3_Level = "66"
 Inst45Quest3_Attain = "64"
-Inst45Quest3_Aim = "Nexusprinz Haramad außerhalb der Managruft möchte, dass Ihr Nexusprinz Shaffar tötet und ihm Shaffars Bandagen bringt."
-Inst45Quest3_Location = "Nexusprinz Haramad (Wälder von Terokkar - Auchindoun; "..YELLOW.."39,58"..WHITE..")."
-Inst45Quest3_Note = "Nexusprinz Shaffar befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest3_Aim = "Tötet 10 astrale Grufträuber, 5 astrale Zauberer, 5 Nexuswandler und 5 astrale Zauberbinder. Kehrt danach zu Konstrukteur Morphalius zurück."
+Inst45Quest3_Location = "Konstrukteur Morphalius (Managruft; "..BLUE.."Eingang"..WHITE..")"
+Inst45Quest3_Note = "Die ganzen Mobs sind innerhalb der Instanz verteilt."
 Inst45Quest3_Prequest = "Nein"
 Inst45Quest3_Folgequest = "Nein"
---
-Inst45Quest3name1 = "Haramads Gamaschen der dritten Münze"
-Inst45Quest3name2 = "Plattenbeinschützer des Konsortiums"
-Inst45Quest3name3 = "Haramads Beinwickel"
-Inst45Quest3name4 = "Haramads gekettelte Pantalons"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst45Quest4 = "4. Stasiskammern der Managruft (Heroisch)"
-Inst45Quest4_Level = "70"
-Inst45Quest4_Attain = "70"
-Inst45Quest4_Aim = "Das Bild von Kommandant Ameer beim Landeplatz von Bash'ir im Schergrat möchte, dass Ihr den Stasiskammerschlüssel der Managruft verwendet, um die Stasiskammer in der Managruft Auchindouns zu öffnen."
-Inst45Quest4_Location = "Bild von Kommandant Ameer (Schergrat - Landeplatz von Bash'ir; "..YELLOW.."52,15"..WHITE..")."
-Inst45Quest4_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Es gibt zwei Stasiskammern. Die erste befindet sich direkt hinter Pandemonius "..YELLOW.."[3]"..WHITE..", die zweite im Raum von Nexusprinz Shaffar "..YELLOW.."[5]"..WHITE..". Für beide wird ein Abzeichen des Nexuskönigs benötigt."
-Inst45Quest4_Prequest = "Ja, Das Abzeichen des Nexuskönigs"
+Inst45Quest4 = "4. Die Konkurrenz untergraben"
+Inst45Quest4_Level = "66"
+Inst45Quest4_Attain = "64"
+Inst45Quest4_Aim = "Bringt Shaffars Bandagen zu Konstrukteur Morphalius."
+Inst45Quest4_Location = "Konstrukteur Morphalius (Managruft; "..BLUE.."Eingang"..WHITE..")"
+Inst45Quest4_Note = "Nexusprince Shaffar ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest4_Prequest = "Nein"
 Inst45Quest4_Folgequest = "Nein"
-Inst45Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst45Quest5 = "5. Stasiskammern der Managruft (Heroisch)"
+Inst45Quest5_Level = "70"
+Inst45Quest5_Attain = "70"
+Inst45Quest5_Aim = "Das Bild von Kommandant Ameer beim Landeplatz von Bash'ir im Schergrat möchte, dass Ihr den Stasiskammerschlüssel der Managruft verwendet, um die Stasiskammer in der Managruft Auchindouns zu öffnen."
+Inst45Quest5_Location = "Bild von Kommandant Ameer (Schergrat - Landeplatz von Bash'ir; "..YELLOW.."52,15"..WHITE..")."
+Inst45Quest5_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Es gibt zwei Stasiskammern. Die erste befindet sich direkt hinter Pandemonius "..YELLOW.."[3]"..WHITE..", die zweite im Raum von Nexusprinz Shaffar "..YELLOW.."[5]"..WHITE..". Für beide wird ein Abzeichen des Nexuskönigs benötigt."
+Inst45Quest5_Prequest = "Ja, Das Abzeichen des Nexuskönigs"
+Inst45Quest5_Folgequest = "Nein"
+Inst45Quest5PreQuest = "true"
 --
 -- Preis Gerechtigkeitspunkte.
 
---Quest 5 Alliance
-Inst45Quest5 = "5. Gesucht: Shaffars wundersames Amulett (Heroisches Tagesquest)"
-Inst45Quest5_Level = "70"
-Inst45Quest5_Attain = "70"
-Inst45Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Shaffars wundersames Amulett zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst45Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst45Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNexusprinz Shaffar befindet sich bei "..YELLOW.."[3]"..WHITE.."."
-Inst45Quest5_Prequest = "Nein"
-Inst45Quest5_Folgequest = "Nein"
+--Quest 6 Alliance
+Inst45Quest6 = "6. Gesucht: Shaffars wundersames Amulett (Heroisches Tagesquest)"
+Inst45Quest6_Level = "70"
+Inst45Quest6_Attain = "70"
+Inst45Quest6_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Shaffars wundersames Amulett zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst45Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
+Inst45Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNexusprinz Shaffar befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst45Quest6_Prequest = "Nein"
+Inst45Quest6_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde
-Inst45Quest1_HORDE = Inst45Quest1
+Inst45Quest1_HORDE = "1. Greks verrückte Nacht"
 Inst45Quest1_HORDE_Level = "66"
 Inst45Quest1_HORDE_Attain = "64"
 Inst45Quest1_HORDE_Aim = Inst45Quest1_Aim
-Inst45Quest1_HORDE_Location = Inst45Quest1_Location
+Inst45Quest1_HORDE_Location = "Grek (Wälder von Terokkar - Steinbrecherfeste; "..YELLOW.."49.8, 45.2"..WHITE..")"
 Inst45Quest1_HORDE_Note = Inst45Quest1_Note
 Inst45Quest1_HORDE_Prequest = "Nein"
-Inst45Quest1_HORDE_Folgequest = Inst45Quest1_Folgequest
-Inst45Quest1FQuest_HORDE = "true"
+Inst45Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -6050,14 +6078,9 @@ Inst45Quest2_HORDE_Attain = "64"
 Inst45Quest2_HORDE_Aim = Inst45Quest2_Aim
 Inst45Quest2_HORDE_Location = Inst45Quest2_Location
 Inst45Quest2_HORDE_Note = Inst45Quest2_Note
-Inst45Quest2_HORDE_Prequest = Inst45Quest2_Prequest
+Inst45Quest2_HORDE_Prequest = "Nein"
 Inst45Quest2_HORDE_Folgequest = "Nein"
-Inst45Quest2PreQuest_HORDE = "true"
---
-Inst45Quest2name1_HORDE = Inst45Quest2name1
-Inst45Quest2name2_HORDE = Inst45Quest2name2
-Inst45Quest2name3_HORDE = Inst45Quest2name3
-Inst45Quest2name4_HORDE = Inst45Quest2name4
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst45Quest3_HORDE = Inst45Quest3
@@ -6068,24 +6091,18 @@ Inst45Quest3_HORDE_Location = Inst45Quest3_Location
 Inst45Quest3_HORDE_Note = Inst45Quest3_Note
 Inst45Quest3_HORDE_Prequest = "Nein"
 Inst45Quest3_HORDE_Folgequest = "Nein"
---
-Inst45Quest3name1_HORDE = Inst45Quest3name1
-Inst45Quest3name2_HORDE = Inst45Quest3name2
-Inst45Quest3name3_HORDE = Inst45Quest3name3
-Inst45Quest3name4_HORDE = Inst45Quest3name4
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst45Quest4_HORDE = Inst45Quest4
-Inst45Quest4_HORDE_Level = "70"
-Inst45Quest4_HORDE_Attain = "70"
+Inst45Quest4_HORDE_Level = "66"
+Inst45Quest4_HORDE_Attain = "64"
 Inst45Quest4_HORDE_Aim = Inst45Quest4_Aim
 Inst45Quest4_HORDE_Location = Inst45Quest4_Location
 Inst45Quest4_HORDE_Note = Inst45Quest4_Note
-Inst45Quest4_HORDE_Prequest = Inst45Quest4_Prequest
+Inst45Quest4_HORDE_Prequest = "Nein"
 Inst45Quest4_HORDE_Folgequest = "Nein"
-Inst45Quest4PreQuest_HORDE = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 5 Horde
 Inst45Quest5_HORDE = Inst45Quest5
@@ -6094,8 +6111,21 @@ Inst45Quest5_HORDE_Attain = "70"
 Inst45Quest5_HORDE_Aim = Inst45Quest5_Aim
 Inst45Quest5_HORDE_Location = Inst45Quest5_Location
 Inst45Quest5_HORDE_Note = Inst45Quest5_Note
-Inst45Quest5_HORDE_Prequest = "Nein"
+Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
 Inst45Quest5_HORDE_Folgequest = "Nein"
+Inst45Quest5PreQuest_HORDE = "true"
+--
+-- Preis Gerechtigkeitspunkte.
+
+--Quest 6 Horde
+Inst45Quest6_HORDE = Inst45Quest6
+Inst45Quest6_HORDE_Level = "70"
+Inst45Quest6_HORDE_Attain = "70"
+Inst45Quest6_HORDE_Aim = Inst45Quest6_Aim
+Inst45Quest6_HORDE_Location = Inst45Quest6_Location
+Inst45Quest6_HORDE_Note = Inst45Quest6_Note
+Inst45Quest6_HORDE_Prequest = "Nein"
+Inst45Quest6_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -6105,72 +6135,81 @@ Inst45Quest5_HORDE_Folgequest = "Nein"
 
 Inst46Story = "Seit Tausenden von Jahren haben die Draenei ihre Toten in Auchindoun, ihrem heiligsten Tempel, begraben.\n\nDoch Agenten des Schattenrats sind in ihn eingedrungen, dazu entschlossen, eine entsetzliche Kreatur von gewaltigem Übel zu beschwören.\n\nIhre abscheulichen magischen Taten führten zu einer gewaltigen Explosion, die den Tempel auseinandergerissen und die Umgebung in ein verkohltes Ödland verwandelt hat.\n\nDie Druckwelle verursachte zusätzlich einen Riss im Nether selbst, so dass jenseitige Astrale in die Scherbenwelt gelockt wurden.\n\nDie begrabenen Draenei durchwandern nun die Ruinen als ruhelose Geister.\n\nUnterdessen droht das vom Schattenrat beschworene entsetzliche Gebilde, ihre Bemühungen, es im Zaum zu halten, zu übermannen.\n\nDu musst dieses Böse davon abhalten, auf dieser ahnungslosen Welt freigesetzt zu werden.\n\nAuchindoun ist in vier Flügel aufgeteilt und für Gruppen von fünf Spielern der Stufen 64-70 vorgesehen."
 Inst46Caption = "Auch: Sethekkhallen"
-Inst46QAA = "5 Quests"
-Inst46QAH = "5 Quests"
+Inst46QAA = "6 Quests"
+Inst46QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst46Quest1 = "1. Bruder gegen Bruder"
+Inst46Quest1 = "1. Kann es einfach nicht lassen"
 Inst46Quest1_Level = "69"
 Inst46Quest1_Attain = "65"
-Inst46Quest1_Aim = "Tötet Dunkelwirker Syth in den Sethekkhallen und befreit Lakka. Kehrt zu Isfar außerhalb der Sethekkhallen zurück, wenn Ihr die Aufgabe abgeschlossen habt."
-Inst46Quest1_Location = "Isfar (Wälder von Terokkar - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest1_Note = "Dunkelwirker Syth befindet sich bei "..YELLOW.."[1]"..WHITE..". Lakka ist in einem Käfig in demselben Raum."
+Inst46Quest1_Aim = "Sprecht mit Isfar in den Sethekkhallen in Auchindoun."
+Inst46Quest1_Location = "Oloraak (Shattrath - Unteres Viertel; "..YELLOW.."58.0, 15.4"..WHITE..")"
+Inst46Quest1_Note = "Terokks Maske droppt von Dunkelwirker Syth bei "..YELLOW.."[1]"..WHITE..", die Sage von Terokk findet man bei "..YELLOW.."[2]"..WHITE..", und Terokks Federkiel droppt von Klauenkönig Ikiss bei "..YELLOW.."[3]"..WHITE.."."
 Inst46Quest1_Prequest = "Nein"
 Inst46Quest1_Folgequest = "Nein"
---
-Inst46Quest1name1 = "Prophetenhalsring der Sethekk"
-Inst46Quest1name2 = "Orakelfokus der Sethekk"
-Inst46Quest1name3 = "Halsband des Klauenlords"
-Inst46Quest1name4 = "Mal des Rabenwächters"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst46Quest2 = "2. Terokks Erbe"
+Inst46Quest2 = "1. Bruder gegen Bruder"
 Inst46Quest2_Level = "69"
 Inst46Quest2_Attain = "65"
-Inst46Quest2_Aim = "Bringt Terokks Maske, Terokks Federkiel und die Sage von Terokk zu Isfar außerhalb der Sethekkhallen."
-Inst46Quest2_Location = "Isfar (Wälder von Terokkar - Auchindoun; "..YELLOW.."44,65"..WHITE..")"
-Inst46Quest2_Note = "Terokks Maske droppt von Dunkelwirker Syth bei "..YELLOW.."[1]"..WHITE..", die Sage von Terokk findet man bei "..YELLOW.."[2]"..WHITE..", und Terokks Federkiel droppt von Klauenkönig Ikiss bei "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest2_Aim = "Befreit Lakka aus ihrer Gefangenschaft. Kehrt zu Isfar in den Sethekkhallen zurück, wenn Ihr die Rettung abgeschlossen habt."
+Inst46Quest2_Location = "Isfar (Sethekkhallen; "..BLUE.."Eingang"..WHITE..")"
+Inst46Quest2_Note = "Dunkelwirker Syth befindet sich bei "..YELLOW.."[1]"..WHITE..". Lakka ist in einem Käfig in demselben Raum."
 Inst46Quest2_Prequest = "Nein"
 Inst46Quest2_Folgequest = "Nein"
 --
-Inst46Quest2name1 = "Die Sage von Terokk"
-Inst46Quest2name2 = "Terokks Maske"
-Inst46Quest2name3 = "Terokks Federkiel"
+Inst46Quest2name1 = "Prophetenhalsring der Sethekk"
+Inst46Quest2name2 = "Orakelfokus der Sethekk"
+Inst46Quest2name3 = "Halsband des Klauenlords"
+Inst46Quest2name4 = "Mal des Rabenwächters"
 
 --Quest 3 Alliance
-Inst46Quest3 = "3. Vernichtet den Rabengott (Druide - Heroisch)"
-Inst46Quest3_Level = "70"
-Inst46Quest3_Attain = "70"
-Inst46Quest3_Aim = "Tötet den Rabengott und kehrt dann zu Morthis Flügelraunen bei der Zuflucht des Cenarius zurück."
-Inst46Quest3_Location = "Morthis Flügelraunen (Zangarmarschen - Zuflucht des Cenarius; "..YELLOW.."80,65"..WHITE..")"
-Inst46Quest3_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Dies ist die letzte Quest der Questreihe für die schnelle Flugform. Rabengott Anzu wird bei "..YELLOW.."[2]"..WHITE.." mit den Materialen beschworen, die man vom Questgeber erhalten hat."
-Inst46Quest3_Prequest = "Ja, Die Essenz des Adlers -> Auf der Jagd nach dem Mondstein"
+Inst46Quest3 = "3. Augen der Begierde"
+Inst46Quest3_Level = "69"
+Inst46Quest3_Attain = "65"
+Inst46Quest3_Aim = "Händler Vijaad in den Sethekkhallen möchte, dass Ihr ihm 3 Kobaltaugen bringt."
+Inst46Quest3_Location = "Händler Vijaad (Sethekkhallen; "..YELLOW.."[1]"..WHITE..")"
+Inst46Quest3_Note = "Händler Vijaad erscheint nachdem Dunkelwirker Syth getötet wurde. Die Kobaltaugen können auf den Weg zum nächsten Boss gefunden werden."
+Inst46Quest3_Prequest = "Nein"
 Inst46Quest3_Folgequest = "Nein"
-Inst46Quest3PreQuest = "true"
---
-Inst46Quest3name1 = "Götze der Rabengöttin"
-
---Quest 4 Alliance
-Inst46Quest4 = "4. Kalynnas Bitte (Heroisch)"
-Inst46Quest4_Level = "70"
-Inst46Quest4_Attain = "70"
-Inst46Quest4_Aim = "Kalynna Lathred möchte, dass Ihr den Dämmerfolianten vom Großhexenmeister Nethekurse in den zerschmetterten Hallen der Höllenfeuerzitadelle und das Buch der vergessenen Namen von Dunkelwirker Syth in den Sethekkhallen in Auchindoun besorgt."
-Inst46Quest4_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
-Inst46Quest4_Note = "Ihr müsst diese Quest auf dem Schwierigkeitsgrad 'Heroisch' abschließen.\n\nDunkelwirker Syth befindet sich bei "..YELLOW.."[1]"..WHITE..". Der Dämmerfoliant droppt in den zerschmetterten Hallen."
-Inst46Quest4_Prequest = "Ja, Hilfe unter Kollegen ("..YELLOW.."Karazhan"..WHITE..")"
-Inst46Quest4_Folgequest = "Ja, Schrecken der Nacht ("..YELLOW.."Karazhan"..WHITE..")"
-Inst46Quest4FQuest = "true"
 -- No Rewards for this quest
 
+--Quest 4 Alliance
+Inst46Quest4 = "4. Terokks Erbe"
+Inst46Quest4_Level = "69"
+Inst46Quest4_Attain = "65"
+Inst46Quest4_Aim = "Bringt Terokks Maske und Terokks Federkiel zu Isfar in den Sethekkhallen."
+Inst46Quest4_Location = "Isfar (Sethekkhallen; "..BLUE.."Eingang"..WHITE..")"
+Inst46Quest4_Note = "Terokks Maske droppt vom Dunkelwirker Syth bei "..YELLOW.."[1]"..WHITE.." und Terokks Federkiel droppt vom Klauenkönig Ikiss bei "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest4_Prequest = "Nein"
+Inst46Quest4_Folgequest = "Nein"
+--
+Inst46Quest4name1 = "Die Sage von Terokk"
+Inst46Quest4name2 = "Terokks Maske"
+Inst46Quest4name3 = "Terokks Federkiel"
+
 --Quest 5 Alliance
-Inst46Quest5 = "5. Gesucht: Die Kopfschmuckfedern von Ikiss (Heroisches Tagesquest)"
+Inst46Quest5 = "5. Kalynnas Bitte (Heroisch)"
 Inst46Quest5_Level = "70"
 Inst46Quest5_Attain = "70"
-Inst46Quest5_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm die Kopfschmuckfedern von Ikiss zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst46Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst46Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKlauenkönig Ikiss befindet sich bei "..YELLOW.."[3]"..WHITE.."."
-Inst46Quest5_Prequest = "Nein"
-Inst46Quest5_Folgequest = "Nein"
+Inst46Quest5_Aim = "Kalynna Lathred möchte, dass Ihr den Dämmerfolianten vom Großhexenmeister Nethekurse in den zerschmetterten Hallen der Höllenfeuerzitadelle und das Buch der vergessenen Namen von Dunkelwirker Syth in den Sethekkhallen in Auchindoun besorgt."
+Inst46Quest5_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
+Inst46Quest5_Note = "Ihr müsst diese Quest auf dem Schwierigkeitsgrad 'Heroisch' abschließen.\n\nDunkelwirker Syth befindet sich bei "..YELLOW.."[1]"..WHITE..". Der Dämmerfoliant droppt in den zerschmetterten Hallen."
+Inst46Quest5_Prequest = "Ja, Hilfe unter Kollegen ("..YELLOW.."Karazhan"..WHITE..")"
+Inst46Quest5_Folgequest = "Ja, Schrecken der Nacht ("..YELLOW.."Karazhan"..WHITE..")"
+Inst46Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst46Quest6 = "6. Gesucht: Die Kopfschmuckfedern von Ikiss (Heroisches Tagesquest)"
+Inst46Quest6_Level = "70"
+Inst46Quest6_Attain = "70"
+Inst46Quest6_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm die Kopfschmuckfedern von Ikiss zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst46Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
+Inst46Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKlauenkönig Ikiss befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest6_Prequest = "Nein"
+Inst46Quest6_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -6184,11 +6223,7 @@ Inst46Quest1_HORDE_Location = Inst46Quest1_Location
 Inst46Quest1_HORDE_Note = Inst46Quest1_Note
 Inst46Quest1_HORDE_Prequest = "Nein"
 Inst46Quest1_HORDE_Folgequest = "Nein"
---
-Inst46Quest1name1_HORDE = Inst46Quest1name1
-Inst46Quest1name2_HORDE = Inst46Quest1name2
-Inst46Quest1name3_HORDE = Inst46Quest1name3
-Inst46Quest1name4_HORDE = Inst46Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst46Quest2_HORDE = Inst46Quest2
@@ -6196,38 +6231,39 @@ Inst46Quest2_HORDE_Level = "69"
 Inst46Quest2_HORDE_Attain = "65"
 Inst46Quest2_HORDE_Aim = Inst46Quest2_Aim
 Inst46Quest2_HORDE_Location = Inst46Quest2_Location
-Inst46Quest2_HORDE_Note = Inst46Quest2_Note
+Inst46Quest2_HORDE_Note = Inst46Quest1_Note
 Inst46Quest2_HORDE_Prequest = "Nein"
 Inst46Quest2_HORDE_Folgequest = "Nein"
 --
 Inst46Quest2name1_HORDE = Inst46Quest2name1
 Inst46Quest2name2_HORDE = Inst46Quest2name2
 Inst46Quest2name3_HORDE = Inst46Quest2name3
+Inst46Quest2name4_HORDE = Inst46Quest2name4
 
 --Quest 3 Horde
 Inst46Quest3_HORDE = Inst46Quest3
-Inst46Quest3_HORDE_Level = "70"
-Inst46Quest3_HORDE_Attain = "70"
+Inst46Quest3_HORDE_Level = "69"
+Inst46Quest3_HORDE_Attain = "65"
 Inst46Quest3_HORDE_Aim = Inst46Quest3_Aim
 Inst46Quest3_HORDE_Location = Inst46Quest3_Location
 Inst46Quest3_HORDE_Note = Inst46Quest3_Note
-Inst46Quest3_HORDE_Prequest = Inst46Quest3_Prequest
+Inst46Quest3_HORDE_Prequest = "Nein"
 Inst46Quest3_HORDE_Folgequest = "Nein"
-Inst46Quest3PreQuest_HORDE = "true"
 --
-Inst46Quest3name1_HORDE = Inst46Quest3name1
 
 --Quest 4 Horde
 Inst46Quest4_HORDE = Inst46Quest4
-Inst46Quest4_HORDE_Level = "70"
-Inst46Quest4_HORDE_Attain = "70"
+Inst46Quest4_HORDE_Level = "69"
+Inst46Quest4_HORDE_Attain = "65"
 Inst46Quest4_HORDE_Aim = Inst46Quest4_Aim
 Inst46Quest4_HORDE_Location = Inst46Quest4_Location
 Inst46Quest4_HORDE_Note = Inst46Quest4_Note
-Inst46Quest4_HORDE_Prequest = Inst46Quest4_Prequest
-Inst46Quest4_HORDE_Folgequest = Inst46Quest4_Folgequest
-Inst46Quest4FQuest_HORDE = "true"
--- No Rewards for this quest
+Inst46Quest4_HORDE_Prequest = "Nein"
+Inst46Quest4_HORDE_Folgequest = "Nein"
+--
+Inst46Quest2name1_HORDE = Inst46Quest4name1
+Inst46Quest2name2_HORDE = Inst46Quest4name2
+Inst46Quest2name3_HORDE = Inst46Quest4name3
 
 --Quest 5 Horde
 Inst46Quest5_HORDE = Inst46Quest5
@@ -6236,8 +6272,20 @@ Inst46Quest5_HORDE_Attain = "70"
 Inst46Quest5_HORDE_Aim = Inst46Quest5_Aim
 Inst46Quest5_HORDE_Location = Inst46Quest5_Location
 Inst46Quest5_HORDE_Note = Inst46Quest5_Note
-Inst46Quest5_HORDE_Prequest = "Nein"
-Inst46Quest5_HORDE_Folgequest = "Nein"
+Inst46Quest5_HORDE_Prequest = Inst46Quest5_Prequest
+Inst46Quest5_HORDE_Folgequest = Inst46Quest5_Folgequest
+Inst46Quest5FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst46Quest6_HORDE = Inst46Quest6
+Inst46Quest6_HORDE_Level = "70"
+Inst46Quest6_HORDE_Attain = "70"
+Inst46Quest6_HORDE_Aim = Inst46Quest6_Aim
+Inst46Quest6_HORDE_Location = Inst46Quest6_Location
+Inst46Quest6_HORDE_Note = Inst46Quest6_Note
+Inst46Quest6_HORDE_Prequest = "Nein"
+Inst46Quest6_HORDE_Folgequest = "Nein"
 --
 -- Preis Gerechtigkeitspunkte.
 
@@ -6335,7 +6383,7 @@ Inst47Quest7 = "7. Die Prüfung der Naaru: Stärke (Heroisch)"
 Inst47Quest7_Level = "70"
 Inst47Quest7_Attain = "70"
 Inst47Quest7_Aim = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt."
-Inst47Quest7_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst47Quest7_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst47Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Murmur befindet sich bei "..YELLOW.."[4]"..WHITE..". Kalithreshs Dreizack droppt in der Dampfkammer.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
 Inst47Quest7_Prequest = "Nein"
 Inst47Quest7_Folgequest = "Nein"
@@ -6370,7 +6418,7 @@ Inst47Quest10 = "10. Gesucht: Murmurs Flüstern (Heroisches Tagesquest)"
 Inst47Quest10_Level = "70"
 Inst47Quest10_Attain = "70"
 Inst47Quest10_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Murmurs Flüstern zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst47Quest10_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst47Quest10_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst47Quest10_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nMurmur befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest10_Prequest = "Nein"
 Inst47Quest10_Folgequest = "Nein"
@@ -6382,7 +6430,7 @@ Inst47Quest11 = "11. Gesucht: Bösartige Ausbilderinnen (Tagesquest)"
 Inst47Quest11_Level = "70"
 Inst47Quest11_Attain = "70"
 Inst47Quest11_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 3 bösartige Ausbilderinnen zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst47Quest11_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst47Quest11_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst47Quest11_Note = "Dies ist eine Tagesquest."
 Inst47Quest11_Prequest = "Nein"
 Inst47Quest11_Folgequest = "Nein"
@@ -6639,7 +6687,7 @@ Inst49Quest4 = "4. Gesucht: Aeonus' Stundenglas (Heroisches Tagesquest)"
 Inst49Quest4_Level = "70"
 Inst49Quest4_Attain = "70"
 Inst49Quest4_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Aeonus' Stundenglas zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst49Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst49Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst49Quest4_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nAeonus erscheint mit der letzten Welle."
 Inst49Quest4_Prequest = "Nein"
 Inst49Quest4_Folgequest = "Nein"
@@ -6651,7 +6699,7 @@ Inst49Quest5 = "5. Gesucht: Fürsten der Zeitenrisse (Tagesquest)"
 Inst49Quest5_Level = "70"
 Inst49Quest5_Attain = "70"
 Inst49Quest5_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Fürsten der Zeitenrisse zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst49Quest5_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst49Quest5_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst49Quest5_Note = "Dies ist eine Tagesquest."
 Inst49Quest5_Prequest = "Nein"
 Inst49Quest5_Folgequest = "Nein"
@@ -6812,7 +6860,7 @@ Inst51Quest4 = "4. Gesucht: Der Kopf des Epochenjägers (Heroisches Tagesquest)"
 Inst51Quest4_Level = "70"
 Inst51Quest4_Attain = "70"
 Inst51Quest4_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm den Kopf des Epochenjägers zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst51Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst51Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst51Quest4_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nEpochenjäger befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst51Quest4_Prequest = "Nein"
 Inst51Quest4_Folgequest = "Nein"
@@ -7344,7 +7392,7 @@ Inst54Quest5 = "5. Die Prüfung der Naaru: Zuverlässigkeit (Heroisch)"
 Inst54Quest5_Level = "70"
 Inst54Quest5_Attain = "70"
 Inst54Quest5_Aim = "A'dal in Shattrath möchte, dass Ihr Millhaus Manasturm aus der Arkatraz in der Festung der Stürme rettet."
-Inst54Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst54Quest5_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst54Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Millhaus Manasturm ist in dem Raum mit Aufseher Mellichar bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
 Inst54Quest5_Prequest = "Nein"
 Inst54Quest5_Folgequest = "Nein"
@@ -7367,7 +7415,7 @@ Inst54Quest7 = "7. Gesucht: Horizontiss' Schriftrolle (Heroisches Tagesquest)"
 Inst54Quest7_Level = "70"
 Inst54Quest7_Attain = "70"
 Inst54Quest7_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Horizontiss' Schriftrolle zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst54Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst54Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nHerold Horizontiss befindet sich bei "..DARKYELLOW.."[1]"..WHITE.."."
 Inst54Quest7_Prequest = "Nein"
 Inst54Quest7_Folgequest = "Nein"
@@ -7379,7 +7427,7 @@ Inst54Quest8 = "8. Gesucht: Schildwachen der Arkatraz (Tagesquest)"
 Inst54Quest8_Level = "70"
 Inst54Quest8_Attain = "70"
 Inst54Quest8_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Schildwachen der Arkatraz zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst54Quest8_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst54Quest8_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst54Quest8_Note = "Dies ist eine Tagesquest."
 Inst54Quest8_Prequest = "Nein"
 Inst54Quest8_Folgequest = "Nein"
@@ -7565,7 +7613,7 @@ Inst55Quest6 = "6. Gesucht: Warpzweigsplitter (Heroisches Tagesquest)"
 Inst55Quest6_Level = "70"
 Inst55Quest6_Attain = "70"
 Inst55Quest6_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm einen Warpzweigsplitter zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst55Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst55Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nWarpzweig befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst55Quest6_Prequest = "Nein"
 Inst55Quest6_Folgequest = "Nein"
@@ -7577,7 +7625,7 @@ Inst55Quest7 = "7. Gesucht: Kanalisierer der Sonnensucher (Tagesquest)"
 Inst55Quest7_Level = "70"
 Inst55Quest7_Attain = "70"
 Inst55Quest7_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 6 Kanalisierer der Sonnensucher zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst55Quest7_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst55Quest7_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst55Quest7_Note = "Dies ist eine Tagesquest."
 Inst55Quest7_Prequest = "Nein"
 Inst55Quest7_Folgequest = "Nein"
@@ -7723,7 +7771,7 @@ Inst56Quest4 = "4. Wie man in Arkatraz einbricht"
 Inst56Quest4_Level = "70"
 Inst56Quest4_Attain = "67"
 Inst56Quest4_Aim = "A'dal bittet Euch, das obere und das untere Fragment des Schlüssels zur Arkatraz zu besorgen. Bringt beide Fragmente zu ihm zurück, damit er sie für Euch zum Schlüssel zur Arkatraz zusammenfügen kann."
-Inst56Quest4_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")"
+Inst56Quest4_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
 Inst56Quest4_Note = "Das obere Schlüsselfragment droppt von Pathaleon dem Kalkulator bei "..YELLOW.."[5]"..WHITE..". Das untere Fragment droppt in der Botanika."
 Inst56Quest4_Prequest = "Ja, Sphärenräuber Nesaad -> Sonderlieferung nach Shattrath"
 Inst56Quest4_Folgequest = "Ja, Herold der Verdammnis ("..YELLOW.."FdS: Die Arkatraz"..WHITE..")"
@@ -7752,7 +7800,7 @@ Inst56Quest6 = "6. Gesucht: Pathaleons Projektionsgerät (Heroisches Tagesquest)
 Inst56Quest6_Level = "70"
 Inst56Quest6_Attain = "70"
 Inst56Quest6_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Pathaleons Projektionsgerät zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst56Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
 Inst56Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nPathaleon der Kalkulator befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst56Quest6_Prequest = "Nein"
 Inst56Quest6_Folgequest = "Nein"
@@ -7764,7 +7812,7 @@ Inst56Quest7 = "7. Gesucht: Zerstörer der Sturmschmiede (Tagesquest)"
 Inst56Quest7_Level = "70"
 Inst56Quest7_Attain = "70"
 Inst56Quest7_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Zerstörer der Sturmschmiede zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle vernichtet wurden."
-Inst56Quest7_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst56Quest7_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst56Quest7_Note = "Dies ist eine Tagesquest."
 Inst56Quest7_Prequest = "Nein"
 Inst56Quest7_Folgequest = "Nein"
@@ -7887,7 +7935,7 @@ Inst61Quest2_Level = "70"
 Inst61Quest2_Attain = "70"
 Inst61Quest2_Aim = "Bringt die tiefgrüne Sphäre zu A'dal in Shattrath."
 Inst61Quest2_Location = "Tiefgrüne Sphäre (droppt von Kael'thas Sonnenwanderer bei "..YELLOW.."[4]"..WHITE..")"
-Inst61Quest2_Note = "A'dal befindet sich in (Shattrath - Terrasse des Lichts; "..YELLOW.."53,43"..WHITE..")."
+Inst61Quest2_Note = "A'dal befindet sich in (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")."
 Inst61Quest2_Prequest = "Nein"
 Inst61Quest2_Folgequest = "Nein"
 --
@@ -8195,7 +8243,7 @@ Inst67Quest1 = "1. Gesucht: Schwestern der Qual (Tagesquest)"
 Inst67Quest1_Level = "70"
 Inst67Quest1_Attain = "70"
 Inst67Quest1_Aim = "Netherpirscher Mah'duun möchte, dass Ihr 4 Schwestern der Qual erschlagt. Kehrt zu ihm in das untere Viertel in Shattrath zurück, sobald Ihr sie getötet habt, um das Kopfgeld einzufordern."
-Inst67Quest1_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest1_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
 Inst67Quest1_Note = "Es handelt sich um ein Tagesquest."
 Inst67Quest1_Prequest = "Nein"
 Inst67Quest1_Folgequest = "Nein"
