@@ -17,6 +17,8 @@ Version 4.7.0 BETA (not released)
 	- Coilfang Reservoir: The Steamvault
 	- Coilfang Reservoir: The Underbog
 	- Auchindoun: Auchenai Crypts
+	- Auchindoun: Mana Tombs
+	- Auchindoun: Sethekk Halls
 	- Caverns of Time: Black Morass
 	- Caverns of Time: Old Hillsbrad
 	- Tempest Keep: The Arcatraz
