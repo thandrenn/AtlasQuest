@@ -1141,42 +1141,45 @@ AQ_11372_Level = "70"
 
 --------------- INST47 - Auchindoun: Shadow Labyrinth (SLabs) ---------------
 
-Inst47Quest1_QuestID = "10178"
-Inst47Quest2_QuestID = "10091"
-Inst47Quest3_QuestID = "10649"
-Inst47Quest4_QuestID = "10177"
-Inst47Quest5_QuestID = "10094"
-Inst47Quest6_QuestID = "10095"
-Inst47Quest7_QuestID = "10885"
-Inst47Quest8_QuestID = "9831"
-Inst47Quest9_QuestID = "10666"
-Inst47Quest10_QuestID = "11375"
-Inst47Quest11_QuestID = "11376"
+Inst46Quest1_QuestID = "29642"
+Inst46Quest2_QuestID = "29640"
+Inst46Quest3_QuestID = "29641"
+Inst46Quest4_QuestID = "29645"
+Inst46Quest5_QuestID = "10649"
+Inst46Quest6_QuestID = "29643"
+Inst46Quest7_QuestID = "29644"
+Inst46Quest8_QuestID = "10666"
+Inst46Quest9_QuestID = "9831"
+Inst46Quest10_QuestID = "10885"
+Inst46Quest11_QuestID = "11376"
+Inst46Quest12_QuestID = "11375"
 
-Inst47Quest1_HORDE_QuestID = "10178"
-Inst47Quest2_HORDE_QuestID = "10091"
-Inst47Quest3_HORDE_QuestID = "10649"
-Inst47Quest4_HORDE_QuestID = "10177"
-Inst47Quest5_HORDE_QuestID = "10094"
-Inst47Quest6_HORDE_QuestID = "10095"
-Inst47Quest7_HORDE_QuestID = "10885"
-Inst47Quest8_HORDE_QuestID = "9831"
-Inst47Quest9_HORDE_QuestID = "10666"
-Inst47Quest10_HORDE_QuestID = "11375"
-Inst47Quest11_HORDE_QuestID = "11376"
+Inst46Quest1_HORDE_QuestID = "29642"
+Inst46Quest2_HORDE_QuestID = "29640"
+Inst46Quest3_HORDE_QuestID = "29641"
+Inst46Quest4_HORDE_QuestID = "29645"
+Inst46Quest5_HORDE_QuestID = "10649"
+Inst46Quest6_HORDE_QuestID = "29643"
+Inst46Quest7_HORDE_QuestID = "29644"
+Inst46Quest8_HORDE_QuestID = "10666"
+Inst46Quest9_HORDE_QuestID = "9831"
+Inst46Quest10_HORDE_QuestID = "10885"
+Inst46Quest11_HORDE_QuestID = "11376"
+Inst46Quest12_HORDE_QuestID = "11375"
 
 
-AQ_10178_Level = "70"
-AQ_10091_Level = "70"
+AQ_29642_Level = "70"
+AQ_29640_Level = "70"
+AQ_29641_Level = "70"
+AQ_29645_Level = "70"
 AQ_10649_Level = "70"
-AQ_10177_Level = "70"
-AQ_10094_Level = "70"
-AQ_10095_Level = "70"
-AQ_10885_Level = "70"
+AQ_29643_Level = "70"
+AQ_29644_Level = "70"
+AQ_10666_Level = "69"
 AQ_9831_Level = "70"
-AQ_10666_Level = "70"
-AQ_11375_Level = "70"
+AQ_10885_Level = "70"
 AQ_11376_Level = "70"
+AQ_11375_Level = "70"
 
 
 
@@ -1460,24 +1463,33 @@ AQ_29186_Level = "85"
 
 --------------- INST67 - Magisters' Terrace (MgT) ---------------
 
-Inst67Quest1_QuestID = "11500"
-Inst67Quest2_QuestID = "11499"
-Inst67Quest3_QuestID = "11488"
-Inst67Quest4_QuestID = "11490"
-Inst67Quest5_QuestID = "11492"
+Inst67Quest1_QuestID = "29682"
+Inst67Quest2_QuestID = "29684"
+Inst67Quest3_QuestID = "11490"
+Inst67Quest4_QuestID = "29685"
+Inst67Quest5_QuestID = "29686"
+Inst67Quest6_QuestID = "29687"
+Inst67Quest7_QuestID = "11500"
+Inst67Quest8_QuestID = "11499"
 
-Inst67Quest1_HORDE_QuestID = "11500"
-Inst67Quest2_HORDE_QuestID = "11499"
-Inst67Quest3_HORDE_QuestID = "11488"
-Inst67Quest4_HORDE_QuestID = "11490"
-Inst67Quest5_HORDE_QuestID = "11492"
+Inst67Quest1_HORDE_QuestID = "29682"
+Inst67Quest2_HORDE_QuestID = "29684"
+Inst67Quest3_HORDE_QuestID = "11490"
+Inst67Quest4_HORDE_QuestID = "29685"
+Inst67Quest5_HORDE_QuestID = "29686"
+Inst67Quest6_HORDE_QuestID = "29687"
+Inst67Quest7_HORDE_QuestID = "11500"
+Inst67Quest8_HORDE_QuestID = "11499"
 
 
+AQ_29682_Level = "70"
+AQ_29684_Level = "70"
+AQ_11490_Level = "70"
+AQ_29685_Level = "70"
+AQ_29686_Level = "70"
+AQ_29687_Level = "70"
 AQ_11500_Level = "70"
 AQ_11499_Level = "70"
-AQ_11488_Level = "70"
-AQ_11490_Level = "70"
-AQ_11492_Level = "70"
 
 
 
@@ -2199,47 +2211,41 @@ AQ_30105_Level = "85"
 
 --------------- INST33 - Alterac Valley (AV) ---------------
 
-Inst33Quest1_QuestID = "11336"
-Inst33Quest2_QuestID = "7261"
-Inst33Quest3_QuestID = "7162"
-Inst33Quest4_QuestID = "7141"
-Inst33Quest5_QuestID = "7121"
-Inst33Quest6_QuestID = "6982"
-Inst33Quest7_QuestID = "5892"
-Inst33Quest8_QuestID = "7223"
-Inst33Quest9_QuestID = "7122"
-Inst33Quest10_QuestID = "7102"
-Inst33Quest11_QuestID = "7081"
-Inst33Quest12_QuestID = "7027"
-Inst33Quest13_QuestID = "7026"
-Inst33Quest14_QuestID = "7386"
-Inst33Quest15_QuestID = "6881"
-Inst33Quest16_QuestID = "6942"
-Inst33Quest17_QuestID = "6941"
-Inst33Quest18_QuestID = "6943"
+Inst33Quest1_QuestID = "7162"
+Inst33Quest2_QuestID = "7141"
+Inst33Quest3_QuestID = "7121"
+Inst33Quest4_QuestID = "6982"
+Inst33Quest5_QuestID = "5892"
+Inst33Quest6_QuestID = "7223"
+Inst33Quest7_QuestID = "7122"
+Inst33Quest8_QuestID = "7102"
+Inst33Quest9_QuestID = "7081"
+Inst33Quest10_QuestID = "7027"
+Inst33Quest11_QuestID = "7026"
+Inst33Quest12_QuestID = "7386"
+Inst33Quest13_QuestID = "6881"
+Inst33Quest14_QuestID = "6942"
+Inst33Quest15_QuestID = "6941"
+Inst33Quest16_QuestID = "6943"
 
-Inst33Quest1_HORDE_QuestID = "11340"
-Inst33Quest2_HORDE_QuestID = "7241"
-Inst33Quest3_HORDE_QuestID = "7161"
-Inst33Quest4_HORDE_QuestID = "7142"
-Inst33Quest5_HORDE_QuestID = "7123"
-Inst33Quest6_HORDE_QuestID = "5893"
-Inst33Quest7_HORDE_QuestID = "6985"
-Inst33Quest8_HORDE_QuestID = "7224"
-Inst33Quest9_HORDE_QuestID = "7124"
-Inst33Quest10_HORDE_QuestID = "7101"
-Inst33Quest11_HORDE_QuestID = "7082"
-Inst33Quest12_HORDE_QuestID = "7001"
-Inst33Quest13_HORDE_QuestID = "7002"
-Inst33Quest14_HORDE_QuestID = "7385"
-Inst33Quest15_HORDE_QuestID = "6801"
-Inst33Quest16_HORDE_QuestID = "6825"
-Inst33Quest17_HORDE_QuestID = "6826"
-Inst33Quest18_HORDE_QuestID = "6827"
+Inst33Quest1_HORDE_QuestID = "7161"
+Inst33Quest2_HORDE_QuestID = "7142"
+Inst33Quest3_HORDE_QuestID = "7123"
+Inst33Quest4_HORDE_QuestID = "5893"
+Inst33Quest5_HORDE_QuestID = "6985"
+Inst33Quest6_HORDE_QuestID = "7224"
+Inst33Quest7_HORDE_QuestID = "7124"
+Inst33Quest8_HORDE_QuestID = "7101"
+Inst33Quest9_HORDE_QuestID = "7082"
+Inst33Quest10_HORDE_QuestID = "7001"
+Inst33Quest11_HORDE_QuestID = "7002"
+Inst33Quest12_HORDE_QuestID = "7385"
+Inst33Quest13_HORDE_QuestID = "6801"
+Inst33Quest14_HORDE_QuestID = "6825"
+Inst33Quest15_HORDE_QuestID = "6826"
+Inst33Quest16_HORDE_QuestID = "6827"
 
 
-AQ_11336_Level = "-1"
-AQ_7261_Level = "-1"
 AQ_7162_Level = "-1"
 AQ_7141_Level = "-1"
 AQ_7121_Level = "-1"
@@ -2256,8 +2262,6 @@ AQ_6881_Level = "-1"
 AQ_6942_Level = "-1"
 AQ_6941_Level = "-1"
 AQ_6943_Level = "-1"
-AQ_11340_Level = "-1"
-AQ_7241_Level = "-1"
 AQ_7161_Level = "-1"
 AQ_7142_Level = "-1"
 AQ_7123_Level = "-1"
@@ -2279,22 +2283,18 @@ AQ_6827_Level = "-1"
 
 --------------- INST34 - Arathi Basin (AB) ---------------
 
-Inst34Quest1_QuestID = "11335"
-Inst34Quest2_QuestID = "8105"
-Inst34Quest3_QuestID = "8114"
-Inst34Quest4_QuestID = "8115"
+Inst34Quest1_QuestID = "8105"
+Inst34Quest2_QuestID = "8114"
+Inst34Quest3_QuestID = "8115"
 
-Inst34Quest1_HORDE_QuestID = "11339"
-Inst34Quest2_HORDE_QuestID = "8120"
-Inst34Quest3_HORDE_QuestID = "8121"
-Inst34Quest4_HORDE_QuestID = "8122"
+Inst34Quest1_HORDE_QuestID = "8120"
+Inst34Quest2_HORDE_QuestID = "8121"
+Inst34Quest3_HORDE_QuestID = "8122"
 
 
-AQ_11335_Level = "-1"
 AQ_8105_Level = "55"
 AQ_8114_Level = "60"
 AQ_8115_Level = "60"
-AQ_11339_Level = "-1"
 AQ_8120_Level = "55"
 AQ_8121_Level = "60"
 AQ_8122_Level = "60"
@@ -2303,50 +2303,17 @@ AQ_8122_Level = "60"
 
 --------------- INST35 - Warsong Gulch (WSG) ---------------
 
-Inst35Quest1_QuestID = "11338"
-
-Inst35Quest1_HORDE_QuestID = "11342"
-
-
-AQ_11338_Level = "-1"
-AQ_11342_Level = "-1"
-
 
 
 --------------- INST60 - Eye of the Storm ---------------
-
-Inst60Quest1_QuestID = "11337"
-
-Inst60Quest1_HORDE_QuestID = "11341"
-
-
-AQ_11337_Level = "-1"
-AQ_11341_Level = "-1"
 
 
 
 --------------- INST83 - Strand of the Ancients (SotA)  ---------------
 
-Inst83Quest1_QuestID = "13405"
-
-Inst83Quest1_HORDE_QuestID = "13407"
-
-
-AQ_13405_Level = "-1"
-AQ_13407_Level = "-1"
-
 
 
 --------------- INST89 - Isle of Conquest (IoC)  ---------------
-
-
-Inst89Quest1_QuestID = "14163"
-
-Inst89Quest1_HORDE_QuestID = "14164"
-
-
-AQ_14163_Level = "-1"
-AQ_14164_Level = "-1"
 
 
 

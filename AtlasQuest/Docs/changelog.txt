@@ -7,6 +7,8 @@ Version 4.7.0 BETA (not released)
 - Added missing "The Twilight Prophet" quest to Hour of Twilight (thanks Guldukat!)
 - Fixed minor bug relating to variable loading (thanks Kharthus)
 - Fixed bug on showing color of item names for quest rewards.
+- Removed old "Call to Arms" battleground daily quests along with 2 other obsolete Alterac Valley quests.
+- Coordinates for a number of quests are now more accurate.
 - Localizations updated: deDE, enUS, zhCN
 
 - Patch 4.3 introduced a number of changes to Burning Crusade and Wrath of the Lich King quests.  We are now updating them.
@@ -19,6 +21,7 @@ Version 4.7.0 BETA (not released)
 	- Auchindoun: Auchenai Crypts
 	- Auchindoun: Mana Tombs
 	- Auchindoun: Sethekk Halls
+	- Auchindoun: Shadow Labyrinth
 	- Caverns of Time: Black Morass
 	- Caverns of Time: Old Hillsbrad
 	- Tempest Keep: The Arcatraz
