@@ -4605,7 +4605,7 @@ Inst29Quest3name1_HORDE = Inst29Quest8name1
 --------------- INST37 - HFC: Ramparts (Ramp) ---------------
 
 Inst37Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact– inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
+  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact?inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
   ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
   ["MaxPages"] = "2",
 };
@@ -4740,7 +4740,7 @@ Inst37Quest5_HORDE_Folgequest = Inst37Quest5_Folgequest
 --------------- INST38 - HFC: Blood Furnace (BF) ---------------
 
 Inst38Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact– inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
+  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact?inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
   ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
   ["MaxPages"] = "2",
 };
@@ -4829,7 +4829,7 @@ Inst38Quest2name2_HORDE = Inst38Quest2name2
 Inst38Quest2name3_HORDE = Inst38Quest2name3
 
 --Quest 3 Horde  (same as Quest 3 Alliance, but different Quest giver)
-Inst38Quest3_HORDE = Inst38Quest3
+Inst38Quest3_HORDE = "3. Mind the Gap"
 Inst38Quest3_HORDE_Level = Inst38Quest3_Level
 Inst38Quest3_HORDE_Attain = Inst38Quest3_Attain
 Inst38Quest3_HORDE_Aim = "Kill Keli'dan the Breaker and return to Caza'rez."
@@ -4860,7 +4860,7 @@ Inst38Quest4_HORDE_Folgequest = Inst38Quest4_Folgequest
 --------------- INST39 - HFC: Shattered Halls (SH) ---------------
 
 Inst39Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact– inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
+  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact?inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
   ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
   ["MaxPages"] = "2",
 };
@@ -5005,7 +5005,7 @@ Inst39Quest1PreQuest_HORDE = Inst39Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance, but different Quest giver)
-Inst39Quest2_HORDE = Inst39Quest2
+Inst39Quest2_HORDE = "2. Fel Ember"
 Inst39Quest2_HORDE_Level = Inst39Quest2_Level
 Inst39Quest2_HORDE_Attain = Inst39Quest2_Attain
 Inst39Quest2_HORDE_Aim = "Stone Guard Stok'ton inside the Shattered Halls of Hellfire Citadel wants you to bring him a Fel Ember. "
@@ -5024,7 +5024,7 @@ Inst39Quest2name5_HORDE = Inst39Quest2name5
 Inst39Quest3_HORDE = "3. The Will of the Warchief"
 Inst39Quest3_HORDE_Level = Inst39Quest3_Level
 Inst39Quest3_HORDE_Attain = Inst39Quest3_Attain
-Inst39Quest3_HORDE_Aim = "Bring Warchief Kargath's Fist to Nazgrel in Thrallmar."
+Inst39Quest3_HORDE_Aim = "Bring Warchief Kargath's Fist to Stone Guard Stok'ton inside the Shattered Halls of Hellfire Citadel."
 Inst39Quest3_HORDE_Location = "Stone Guard Stok'ton (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
 Inst39Quest3_HORDE_Note = Inst39Quest3_Note
 Inst39Quest3_HORDE_Prequest = Inst39Quest3_Prequest
@@ -5121,7 +5121,7 @@ Inst39Quest10_HORDE_Folgequest = Inst39Quest10_Folgequest
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
 
 Inst40Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact– inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
+  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact?inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
   ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
   ["MaxPages"] = "2",
 };
@@ -5388,7 +5388,7 @@ Inst42Quest2 = "2. A Proper Fate"
 Inst42Quest2_Level = "70"
 Inst42Quest2_Attain = "67"
 Inst42Quest2_Aim = "Kill Warlord Kalithresh and return to Watcher Jhang inside the Steamvault."
-Inst42Quest2_Location = "Watcher Jhang (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst42Quest2_Location = "Watcher Jhang (Steamvault; "..BLUE.."Entrance"..WHITE..")"
 Inst42Quest2_Note = "Warlord Kalithresh is at "..YELLOW.."[3]"..WHITE..". Be sure to destroy the tanks when Kalithresh uses them."
 Inst42Quest2_Prequest = "None"
 Inst42Quest2_Folgequest = "None"
@@ -5399,7 +5399,7 @@ Inst42Quest3 = "3. Containment is Key"
 Inst42Quest3_Level = "70"
 Inst42Quest3_Attain = "67"
 Inst42Quest3_Aim = "Kill 3 Bog Overlords, 6 Coilfang Lepers, and obtain an Irradiated Gear from Mekgineer Steamrigger, then return to Naturalist Bite inside the Steamvault. "
-Inst42Quest3_Location = "Naturalist Bite (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst42Quest3_Location = "Naturalist Bite (Steamvault; "..BLUE.."Entrance"..WHITE..")"
 Inst42Quest3_Note = "The Bog Overlords are just beyond the entrance.  Coilfang Lepers are near Mekgineer Steamrigger, at "..YELLOW.."[2]"..WHITE.."."
 Inst42Quest3_Prequest = "None"
 Inst42Quest3_Folgequest = "None"
@@ -5410,7 +5410,7 @@ Inst42Quest4 = "4. Windcaller Claw and the Water Thief"
 Inst42Quest4_Level = "70"
 Inst42Quest4_Attain = "67"
 Inst42Quest4_Aim = "Kill Hydromancer Thespia and return to Windcaller Claw inside the Steamvault."
-Inst42Quest4_Location = "Windcaller Claw (Slave Pens; "..BLUE.."Entrance"..WHITE..")"
+Inst42Quest4_Location = "Windcaller Claw (Steamvault; "..BLUE.."Entrance"..WHITE..")"
 Inst42Quest4_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE.."."
 Inst42Quest4_Prequest = "None"
 Inst42Quest4_Folgequest = "None"
@@ -5903,7 +5903,7 @@ Inst44Quest7_HORDE_Attain = "66"
 Inst44Quest7_HORDE_Aim = "Locate a Soul Mirror somewhere in the Auchenai Crypts and use it to call forth a Darkened Spirit from Ancient Orc Ancestors in Nagrand. Destroy 15 Darkened Spirits so that the ancestors may rest in peace."
 Inst44Quest7_HORDE_Location = "D'ore (Auchenai Crypts; "..YELLOW.."[2]"..WHITE..")."
 Inst44Quest7_HORDE_Note = "D'ore appears after Exarch Maladarr has been killed. Mother Kashur is at (Nagrand; "..YELLOW.."26.0, 60.6"..WHITE..")."
-Inst44Quest7_HORDE_Prequest = "Auchindoun"
+Inst44Quest7_HORDE_Prequest = "Auchindoun..."
 Inst44Quest7_HORDE_Folgequest = "Return to the Greatmother"
 Inst44Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
@@ -10792,7 +10792,7 @@ Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
 
 --------------- INST94 - Ruby Sanctum (RS)  ---------------
 
-Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their master’s reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord – the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
+Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their master’s reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord ?the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
 Inst94Caption = "Ruby Sanctum"
 Inst94QAA = "3 Quests"
 Inst94QAH = "3 Quests"
