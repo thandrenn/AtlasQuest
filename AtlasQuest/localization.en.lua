@@ -6233,7 +6233,7 @@ Inst47Quest1_Aim = "Report to Field Commander Mahfuun inside the Shadow Labyrint
 Inst47Quest1_Location = "Spymistress Mehlisah Highcrown (Shattrath City - Terrace of Light; "..YELLOW.."50.4, 45.2"..WHITE..")"
 Inst47Quest1_Note = "Field Commander Mahfuun just inside the entrance of the dungeon."
 Inst47Quest1_Prequest = "None"
-Inst47Quest1_Folgequest = "The Codex of Blood"
+Inst47Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
