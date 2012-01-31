@@ -4653,6 +4653,9 @@ Inst71Quest2ITC5 = Itemc4;
 Inst71Quest2description5 = AQITEM_HEAD..AQITEM_PLATE
 Inst71Quest2ID5 = "44411"
 
+--Quest 3 Alliance
+Inst71Quest3Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst71Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
@@ -4695,6 +4698,9 @@ Inst71Quest2ID4_HORDE = "44412"
 Inst71Quest2ITC5_HORDE = Itemc4;
 Inst71Quest2description5_HORDE = AQITEM_HEAD..AQITEM_PLATE
 Inst71Quest2ID5_HORDE = "44411"
+
+--Quest 3 Horde
+Inst71Quest3Rewardtext_HORDE = AQNoReward
 
 
 

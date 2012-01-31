@@ -27,6 +27,8 @@ Version 4.7.0 BETA (not released)
 	- Tempest Keep: The Arcatraz
 	- Tempest Keep: The Botanica
 	- Tempest Keep: The Mechanar
+	- Utgarde Keep
+	- Utgarde Pinnacle
 	
 
 

@@ -1543,13 +1543,16 @@ AQ_30112_Level = "71"
 
 Inst71Quest1_QuestID = "13131"
 Inst71Quest2_QuestID = "13132"
+Inst71Quest3_QuestID = "29864"
 
 Inst71Quest1_HORDE_QuestID = "13131"
 Inst71Quest2_HORDE_QuestID = "13132"
+Inst71Quest3_HORDE_QuestID = "29864"
 
 
 AQ_13131_Level = "80"
 AQ_13132_Level = "80"
+AQ_29864_Level = "80"
 
 
 
