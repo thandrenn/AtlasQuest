@@ -1,4 +1,4 @@
---[[
+ï»¿--[[
 
 	AtlasQuest, a World of Warcraft addon.
 	Email me at mystery8@gmail.com
@@ -5444,7 +5444,7 @@ Inst42Quest7 = "7. The Second and Third Fragments"
 Inst42Quest7_Level = "70"
 Inst42Quest7_Attain = "68"
 Inst42Quest7_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst42Quest7_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
+Inst42Quest7_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.0"..WHITE..")"
 Inst42Quest7_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..", at the bottom of a pool of water on the way to Hydromancer Thespia. Opening it will spawn an elemental that must be killed to get the fragment.\n\nThe Third Key Fragment is in the Arcatraz."
 Inst42Quest7_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest7_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
@@ -6302,7 +6302,7 @@ Inst47Quest7 = "7. Into the Heart of the Labyrinth"
 Inst47Quest7_Level = "70"
 Inst47Quest7_Attain = "68"
 Inst47Quest7_Aim = "Destroy Murmur and inform Field Commander Mahfuun inside the Shadow Labyrinth of Auchindoun."
-Inst47Quest7_Location = "The Codex of Blood (Shadow Labyrinth; "..YELLOW.."[3]"..WHITE..")"
+Inst47Quest7_Location = "Field Commander Mahfuun (Shadow Labyrinth; "..BLUE.."Entrance"..WHITE..")"
 Inst47Quest7_Note = "Murmur is at "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest7_Prequest = "The Codex of Blood"
 Inst47Quest7_Folgequest = "None"
@@ -6620,7 +6620,7 @@ Inst49Quest3 = "3. The Master's Touch"
 Inst49Quest3_Level = "70"
 Inst49Quest3_Attain = "68"
 Inst49Quest3_Aim = "Go into the Caverns of Time and convince Medivh to enable your Restored Apprentice's Key"
-Inst49Quest3_Location = "Khadgar (Shatrath City - Terrace of Light; "..YELLOW.."54.8, 44.6"..WHITE..")"
+Inst49Quest3_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.0"..WHITE..")"
 Inst49Quest3_Note = "Part of the Karazhan attunement line. You must be inside the instance when Aeonus dies in order to talk to Medivh."
 Inst49Quest3_Prequest = "The Second and Third Fragments"
 Inst49Quest3_Folgequest = "Return to Khadgar"
@@ -7346,7 +7346,7 @@ Inst54Quest6 = "6. The Second and Third Fragments"
 Inst54Quest6_Level = "70"
 Inst54Quest6_Attain = "68"
 Inst54Quest6_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst54Quest6_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
+Inst54Quest6_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.0"..WHITE..")"
 Inst54Quest6_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
 Inst54Quest6_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst54Quest6_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
@@ -10792,7 +10792,7 @@ Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
 
 --------------- INST94 - Ruby Sanctum (RS)  ---------------
 
-Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their master’s reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord ?the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
+Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their masteræŠ¯ reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord ?the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
 Inst94Caption = "Ruby Sanctum"
 Inst94QAA = "3 Quests"
 Inst94QAH = "3 Quests"
@@ -11778,13 +11778,13 @@ Inst109QAH = "No Quests"
 
 --------------- INST110 - End Time ---------------
 
-Inst110Story = "One of an infinite number of potential outcomes, this timeway depicts the desolate future of Azeroth should its defenders fail to stop Deathwing. In this bleak future, Nozdormu has identified an anomaly that bars access to both the past and the Dragon Soul: a powerful creature from out of time, living alone amid time-twisted echoes of the past.\n\nIn order for Nozdormu to provide you the ability to travel back in time to a point before the Dragon Soul was hidden by Malfurion Stormrage from anyone who’d seek its power, you must first go to a distant and desolate future to discover the anomaly blocking the past. You'll find yourself in a very different Dragonblight, stripped of its snowy landscape, with little more than ruins of the once-great dragonshrines. Wyrmrest Temple itself stands only as a reminder of Deathwing's madness—what's left of his scorched remains is impaled atop the structure. "..GREEN.."\n\nQuoted from worldofwarcraft.com"
+Inst110Story = "One of an infinite number of potential outcomes, this timeway depicts the desolate future of Azeroth should its defenders fail to stop Deathwing. In this bleak future, Nozdormu has identified an anomaly that bars access to both the past and the Dragon Soul: a powerful creature from out of time, living alone amid time-twisted echoes of the past.\n\nIn order for Nozdormu to provide you the ability to travel back in time to a point before the Dragon Soul was hidden by Malfurion Stormrage from anyone whoæŠŽ seek its power, you must first go to a distant and desolate future to discover the anomaly blocking the past. You'll find yourself in a very different Dragonblight, stripped of its snowy landscape, with little more than ruins of the once-great dragonshrines. Wyrmrest Temple itself stands only as a reminder of Deathwing's madnessæ¢¬hat's left of his scorched remains is impaled atop the structure. "..GREEN.."\n\nQuoted from worldofwarcraft.com"
 Inst110Caption = "End Time"
 Inst110QAA = "3 Quests"
 Inst110QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst110Quest1 = "1. End Time"
+Inst110Quest1 = "1. The End Time"
 Inst110Quest1_Level = "85"
 Inst110Quest1_Attain = "85"
 Inst110Quest1_Aim = "Speak with Nozdormu at the End Time."
@@ -11800,8 +11800,8 @@ Inst110Quest2_Level = "85"
 Inst110Quest2_Attain = "85"
 Inst110Quest2_Aim = "Slay Murozond."
 Inst110Quest2_Location = "Nozdormu (End Time; "..BLUE.."Entrance"..WHITE..")"
-Inst110Quest2_Note = "Murozond is the first boss you encounter, after a few trash pulls."
-Inst110Quest2_Prequest = "End Time"
+Inst110Quest2_Note = "Murozond is the final boss you encounter, after a few trash pulls."
+Inst110Quest2_Prequest = "The End Time"
 Inst110Quest2_Folgequest = "The Well of Eternity"
 Inst110Quest2FQuest = "true"
 --
@@ -12051,7 +12051,7 @@ Inst112Quest3_Level = "85"
 Inst112Quest3_Attain = "85"
 Inst112Quest3_Aim = "Find and unmask the Twilight Prophet."
 Inst112Quest3_Location = "Drops from Arcurion (Hour of Twilight; "..YELLOW.."[1]"..WHITE..")"
-Inst112Quest3_Note = "Archbishop Benedictus is the Twilight Prophet and is at "..YELLOW.."[3]"..WHITE..")."
+Inst112Quest3_Note = "Archbishop Benedictus is the Twilight Prophet and is at "..YELLOW.."[3]"..WHITE.."."
 Inst112Quest3_Prequest = "None"
 Inst112Quest3_Folgequest = "None"
 --
