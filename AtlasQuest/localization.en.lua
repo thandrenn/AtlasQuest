@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	AtlasQuest, a World of Warcraft addon.
 	Email me at mystery8@gmail.com
@@ -4605,7 +4605,7 @@ Inst29Quest3name1_HORDE = Inst29Quest8name1
 --------------- INST37 - HFC: Ramparts (Ramp) ---------------
 
 Inst37Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact?inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
+  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact - inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
   ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
   ["MaxPages"] = "2",
 };
@@ -4860,7 +4860,7 @@ Inst38Quest4_HORDE_Folgequest = Inst38Quest4_Folgequest
 --------------- INST39 - HFC: Shattered Halls (SH) ---------------
 
 Inst39Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact?inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
+  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact - inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
   ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
   ["MaxPages"] = "2",
 };
@@ -5121,7 +5121,7 @@ Inst39Quest10_HORDE_Folgequest = Inst39Quest10_Folgequest
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
 
 Inst40Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact?inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
+  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact - inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
   ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
   ["MaxPages"] = "2",
 };
@@ -6302,7 +6302,7 @@ Inst47Quest7 = "7. Into the Heart of the Labyrinth"
 Inst47Quest7_Level = "70"
 Inst47Quest7_Attain = "68"
 Inst47Quest7_Aim = "Destroy Murmur and inform Field Commander Mahfuun inside the Shadow Labyrinth of Auchindoun."
-Inst47Quest7_Location = "Field Commander Mahfuun (Shadow Labyrinth; "..BLUE.."Entrance"..WHITE..")"
+Inst47Quest7_Location = "The Codex of Blood (Shadow Labyrinth; "..YELLOW.."[3]"..WHITE..")"
 Inst47Quest7_Note = "Murmur is at "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest7_Prequest = "The Codex of Blood"
 Inst47Quest7_Folgequest = "None"
@@ -6620,7 +6620,7 @@ Inst49Quest3 = "3. The Master's Touch"
 Inst49Quest3_Level = "70"
 Inst49Quest3_Attain = "68"
 Inst49Quest3_Aim = "Go into the Caverns of Time and convince Medivh to enable your Restored Apprentice's Key"
-Inst49Quest3_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.0"..WHITE..")"
+Inst49Quest3_Location = "Khadgar (Shatrath City - Terrace of Light; "..YELLOW.."54.8, 44.6"..WHITE..")"
 Inst49Quest3_Note = "Part of the Karazhan attunement line. You must be inside the instance when Aeonus dies in order to talk to Medivh."
 Inst49Quest3_Prequest = "The Second and Third Fragments"
 Inst49Quest3_Folgequest = "Return to Khadgar"
@@ -8466,17 +8466,17 @@ Inst69Quest2name4_HORDE = Inst69Quest2name4
 
 Inst70Story = "Among the cliffs of the Daggercap Bay in the Howling Fjord stands Utgarde Keep, an impervious fortress occupied by the savage and enigmatic vrykul. With mysterious, foul magic and proto-dragons at their command, the vrykul of Utgarde Keep pose an imminent threat to both the Alliance and the Horde. Only the bravest would dare to strike against Ymiron's faithful and delve into the heart of the vrykul's primeval home."
 Inst70Caption = "Utgarde Keep"
-Inst70QAA = "2 Quests"
+Inst70QAA = "3 Quests"
 Inst70QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst70Quest1 = "1. Into Utgarde!"
+Inst70Quest1 = "1. Stealing Their Thunder"
 Inst70Quest1_Level = "71"
 Inst70Quest1_Attain = "68"
-Inst70Quest1_Aim = "Defender Mordun has tasked you with the execution of Ingvar the Plunderer who resides deep in Utgarde. You are then to bring his head to Vice Admiral Keller."
-Inst70Quest1_Location = "Defender Mordun (Howling Fjord - Wyrmskull Village; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest1_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nThe prequest is optional. The quest turns in to Vice Admiral Keller at (Howling Fjord - Valgarde; "..YELLOW.."60.4, 61.0"..WHITE..")."
-Inst70Quest1_Prequest = "Fresh Legs"
+Inst70Quest1_Aim = "Defender Mordun has asked you to acquire the head of Ingvar the Plunderer."
+Inst70Quest1_Location = "Defender Mordun (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
+Inst70Quest1_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE.."."
+Inst70Quest1_Prequest = "None"
 Inst70Quest1_Folgequest = "None"
 --
 Inst70Quest1name1 = "Executioner's Band"
@@ -8488,8 +8488,8 @@ Inst70Quest2 = "2. Disarmament"
 Inst70Quest2_Level = "71"
 Inst70Quest2_Attain = "68"
 Inst70Quest2_Aim = "Defender Mordun wants you to enter Utgarde Keep and steal 5 Vrykul Weapons"
-Inst70Quest2_Location = "Defender Mordun (Howling Fjord - Wyrmskull Village; "..YELLOW.."59.3, 48.8"..WHITE..")"
-Inst70Quest2_Note = "The Vrykul Weapons can be found along walls scattered around the instance. The prequest comes from Scout Valory (Howling Fjord - Wyrmskull Village; "..YELLOW.."56.0, 55.8"..WHITE..") and is optional."
+Inst70Quest2_Location = "Defender Mordun (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
+Inst70Quest2_Note = "The Vrykul Weapons can be found along walls scattered around the instance."
 Inst70Quest2_Prequest = "None"
 Inst70Quest2_Folgequest = "None"
 --
@@ -8498,50 +8498,65 @@ Inst70Quest2name2 = "Razor-Blade Pendant"
 Inst70Quest2name3 = "Necklace of Fragmented Light"
 Inst70Quest2name4 = "Woven Steel Necklace"
 
+--Quest 3 Alliance
+Inst70Quest3 = "3. Ears of the Lich King"
+Inst70Quest3_Level = "71"
+Inst70Quest3_Attain = "68"
+Inst70Quest3_Aim = "Defender Mordun inside Utgarde Keep wants you to slay Prince Keleseth."
+Inst70Quest3_Location = "Defender Mordun (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
+Inst70Quest3_Note = "Prince Keleseth is at "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest3_Prequest = "None"
+Inst70Quest3_Folgequest = "None"
+--
+Inst70Quest3name1 = "Wraps of the San'layn"
+Inst70Quest3name2 = "Vendetta Bindings"
+Inst70Quest3name3 = "Runecaster's Bracers"
+Inst70Quest3name4 = "Vambraces of the Vengeance Bringer"
+
 
 --Quest 1 Horde
-Inst70Quest1_HORDE = "1. A Score to Settle"
+Inst70Quest1_HORDE = "1. Ingvar Must Die!"
 Inst70Quest1_HORDE_Level = "71"
 Inst70Quest1_HORDE_Attain = "68"
-Inst70Quest1_HORDE_Aim = "High Executor Anselm wants you to to go into Utgarde and slay Prince Keleseth."
-Inst70Quest1_HORDE_Location = "High Executor Anselm (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")"
-Inst70Quest1_HORDE_Note = "Prince Keleseth is at "..YELLOW.."[1]"..WHITE..".\n\nThe prequest line starts at the same NPC."
-Inst70Quest1_HORDE_Prequest = "War is Hell -> Report to Anselm"
+Inst70Quest1_HORDE_Aim = "Dark Ranger Marrah has asked you to kill Ingvar the Plunderer in Utgarde Keep, then bring his head to High Executor Anselm at Vengeance Landing."
+Inst70Quest1_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
+Inst70Quest1_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance.\n\nIngvar the Plunderer is at "..YELLOW.."[3]"..WHITE.."."
+Inst70Quest1_HORDE_Prequest = "None"
 Inst70Quest1_HORDE_Folgequest = "None"
 --
-Inst70Quest1name1_HORDE = "Wraps of the San'layn"
-Inst70Quest1name2_HORDE = "Vendetta Bindings"
-Inst70Quest1name3_HORDE = "Runecaster's Bracers"
-Inst70Quest1name4_HORDE = "Vambraces of the Vengeance Bringer"
+Inst70Quest1name1_HORDE = "Executioner's Band"
+Inst70Quest1name2_HORDE = "Ring of Decimation"
+Inst70Quest1name3_HORDE = "Signet of Swift Judgment"
 
 --Quest 2 Horde
-Inst70Quest2_HORDE = "2. Ingvar Must Die!"
+Inst70Quest2_HORDE = "2. Disarmament"
 Inst70Quest2_HORDE_Level = "71"
 Inst70Quest2_HORDE_Attain = "68"
-Inst70Quest2_HORDE_Aim = "Dark Ranger Marrah has asked you to kill Ingvar the Plunderer in Utgarde Keep, then bring his head to High Executor Anselm at Vengeance Landing."
-Inst70Quest2_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..YELLOW.."[A] Entrance"..WHITE..")"
-Inst70Quest2_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance.\n\nIngvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\n\nHigh Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest2_HORDE_Aim = "Dark Ranger Marrah wants you to steal 5 Vrykul Weapons from Utgarde Keep and bring them to High Executor Anselm in Vengeance Landing."
+Inst70Quest2_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
+Inst70Quest2_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance. The Vrykul Weapons can be found along walls scattered around the instance."
 Inst70Quest2_HORDE_Prequest = "None"
 Inst70Quest2_HORDE_Folgequest = "None"
 --
-Inst70Quest2name1_HORDE = "Executioner's Band"
-Inst70Quest2name2_HORDE = "Ring of Decimation"
-Inst70Quest2name3_HORDE = "Signet of Swift Judgment"
+Inst70Quest2name1_HORDE = "Necklace of Calm Skies"
+Inst70Quest2name2_HORDE = "Hundred Tooth Necklace"
+Inst70Quest2name3_HORDE = "Amulet of Constrained Power"
+Inst70Quest2name4_HORDE = "Tiled-Stone Pendant"
 
 --Quest 3 Horde
-Inst70Quest3_HORDE = "3. Disarmament"
+Inst70Quest3_HORDE = "3. A Score to Settle"
 Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "68"
-Inst70Quest3_HORDE_Aim = "Dark Ranger Marrah wants you to steal 5 Vrykul Weapons from Utgarde Keep and bring them to High Executor Anselm in Vengeance Landing."
-Inst70Quest3_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..YELLOW.."[A] Entrance"..WHITE..")"
-Inst70Quest3_HORDE_Note = "Dark Ranger Marrah will appear just inside the portal a few seconds after you enter the instance. The Vrykul Weapons can be found along walls scattered around the instance.\n\nHigh Executor Anselm at (Howling Fjord - Vengeance Landing; "..YELLOW.."78.5, 31.1"..WHITE..")."
+Inst70Quest3_HORDE_Aim = "Dark Ranger Marrah wants you to slay Prince Keleseth inside Utgarde Keep. "
+Inst70Quest3_HORDE_Location = "Dark Ranger Marrah (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
+Inst70Quest3_HORDE_Note = "Prince Keleseth is at "..YELLOW.."[1]"..WHITE.."."
 Inst70Quest3_HORDE_Prequest = "None"
 Inst70Quest3_HORDE_Folgequest = "None"
 --
-Inst70Quest3name1_HORDE = "Necklace of Calm Skies"
-Inst70Quest3name2_HORDE = "Hundred Tooth Necklace"
-Inst70Quest3name3_HORDE = "Amulet of Constrained Power"
-Inst70Quest3name4_HORDE = "Tiled-Stone Pendant"
+Inst70Quest3name1_HORDE = "Wraps of the San'layn"
+Inst70Quest3name2_HORDE = "Vendetta Bindings"
+Inst70Quest3name3_HORDE = "Runecaster's Bracers"
+Inst70Quest3name4_HORDE = "Vambraces of the Vengeance Bringer"
 
 
 
@@ -8549,15 +8564,15 @@ Inst70Quest3name4_HORDE = "Tiled-Stone Pendant"
 
 Inst71Story = "Among the cliffs of the Daggercap Bay in the Howling Fjord stands Utgarde Keep, an impervious fortress occupied by the savage and enigmatic vrykul. With mysterious, foul magic and proto-dragons at their command, the vrykul of Utgarde Keep pose an imminent threat to both the Alliance and the Horde. Only the bravest would dare to strike against Ymiron's faithful and delve into the heart of the vrykul's primeval home."
 Inst71Caption = "Utgarde Pinnacle"
-Inst71QAA = "2 Quests"
-Inst71QAH = "2 Quests"
+Inst71QAA = "3 Quests"
+Inst71QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst71Quest1 = "1. Junk in My Trunk"
 Inst71Quest1_Level = "80"
 Inst71Quest1_Attain = "78"
 Inst71Quest1_Aim = "Brigg in Utgarde Pinnacle wants you to find 5 Untarnished Silver Bars, 3 Shiny Baubles, 2 Golden Goblets, and a Jade Statue."
-Inst71Quest1_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[A]"..WHITE..")"
+Inst71Quest1_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..BLUE.."Entrance"..WHITE..")"
 Inst71Quest1_Note = "The items can be found scattered around the instance, usually laying on the ground. The Shiny Baubles are not the same that are used as fishing lures."
 Inst71Quest1_Prequest = "None"
 Inst71Quest1_Folgequest = "None"
@@ -8572,7 +8587,7 @@ Inst71Quest2 = "2. Vengeance Be Mine!"
 Inst71Quest2_Level = "80"
 Inst71Quest2_Attain = "78"
 Inst71Quest2_Aim = "Brigg in Utgarde Pinnacle wants you to kill King Ymiron."
-Inst71Quest2_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..YELLOW.."[A]"..WHITE..")"
+Inst71Quest2_Location = "Brigg Smallshanks (Utgarde Pinnacle; "..BLUE.."Entrance"..WHITE..")"
 Inst71Quest2_Note = "King Ymiron is at "..YELLOW.."[4]"..WHITE.."."
 Inst71Quest2_Prequest = "None"
 Inst71Quest2_Folgequest = "None"
@@ -8582,6 +8597,17 @@ Inst71Quest2name2 = "Headguard of Retaliation"
 Inst71Quest2name3 = "Helmet of Just Retribution"
 Inst71Quest2name4 = "Faceguard of Punishment"
 Inst71Quest2name5 = "Platehelm of Irate Revenge"
+
+--Quest 3 Alliance
+Inst71Quest3 = "3. Working at the Source"
+Inst71Quest3_Level = "80"
+Inst71Quest3_Attain = "78"
+Inst71Quest3_Aim = "Argent Confessor Paletress wants you to slay Svala Sorrowgrave."
+Inst71Quest3_Location = "Argent Confessor Paletress (Utgarde Pinnacle; "..BLUE.."Entrance"..WHITE..")"
+Inst71Quest3_Note = "Svala Sorrowgrave is at "..YELLOW.."[1]"..WHITE.."."
+Inst71Quest3_Prequest = "None"
+Inst71Quest3_Folgequest = "None"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8614,6 +8640,17 @@ Inst71Quest2name2_HORDE = Inst71Quest2name2
 Inst71Quest2name3_HORDE = Inst71Quest2name3
 Inst71Quest2name4_HORDE = Inst71Quest2name4
 Inst71Quest2name5_HORDE = Inst71Quest2name5
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst71Quest3_HORDE = Inst71Quest3
+Inst71Quest3_HORDE_Level = Inst71Quest3_Level
+Inst71Quest3_HORDE_Attain = Inst71Quest3_Attain
+Inst71Quest3_HORDE_Aim = Inst71Quest3_Aim
+Inst71Quest3_HORDE_Location = Inst71Quest3_Location
+Inst71Quest3_HORDE_Note = Inst71Quest3_Note
+Inst71Quest3_HORDE_Prequest = Inst71Quest3_Prequest
+Inst71Quest3_HORDE_Folgequest = Inst71Quest3_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -10792,7 +10829,7 @@ Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
 
 --------------- INST94 - Ruby Sanctum (RS)  ---------------
 
-Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their master抯 reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord ?the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
+Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their master's reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord - the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
 Inst94Caption = "Ruby Sanctum"
 Inst94QAA = "3 Quests"
 Inst94QAH = "3 Quests"
@@ -11778,7 +11815,7 @@ Inst109QAH = "No Quests"
 
 --------------- INST110 - End Time ---------------
 
-Inst110Story = "One of an infinite number of potential outcomes, this timeway depicts the desolate future of Azeroth should its defenders fail to stop Deathwing. In this bleak future, Nozdormu has identified an anomaly that bars access to both the past and the Dragon Soul: a powerful creature from out of time, living alone amid time-twisted echoes of the past.\n\nIn order for Nozdormu to provide you the ability to travel back in time to a point before the Dragon Soul was hidden by Malfurion Stormrage from anyone who抎 seek its power, you must first go to a distant and desolate future to discover the anomaly blocking the past. You'll find yourself in a very different Dragonblight, stripped of its snowy landscape, with little more than ruins of the once-great dragonshrines. Wyrmrest Temple itself stands only as a reminder of Deathwing's madness梬hat's left of his scorched remains is impaled atop the structure. "..GREEN.."\n\nQuoted from worldofwarcraft.com"
+Inst110Story = "One of an infinite number of potential outcomes, this timeway depicts the desolate future of Azeroth should its defenders fail to stop Deathwing. In this bleak future, Nozdormu has identified an anomaly that bars access to both the past and the Dragon Soul: a powerful creature from out of time, living alone amid time-twisted echoes of the past.\n\nIn order for Nozdormu to provide you the ability to travel back in time to a point before the Dragon Soul was hidden by Malfurion Stormrage from anyone who'd seek its power, you must first go to a distant and desolate future to discover the anomaly blocking the past. You'll find yourself in a very different Dragonblight, stripped of its snowy landscape, with little more than ruins of the once-great dragonshrines. Wyrmrest Temple itself stands only as a reminder of Deathwing's madness - what's left of his scorched remains is impaled atop the structure. "..GREEN.."\n\nQuoted from worldofwarcraft.com"
 Inst110Caption = "End Time"
 Inst110QAA = "3 Quests"
 Inst110QAH = "3 Quests"
@@ -11800,7 +11837,7 @@ Inst110Quest2_Level = "85"
 Inst110Quest2_Attain = "85"
 Inst110Quest2_Aim = "Slay Murozond."
 Inst110Quest2_Location = "Nozdormu (End Time; "..BLUE.."Entrance"..WHITE..")"
-Inst110Quest2_Note = "Murozond is the final boss you encounter, after a few trash pulls."
+Inst110Quest2_Note = "Murozond is the final boss you encounter."
 Inst110Quest2_Prequest = "The End Time"
 Inst110Quest2_Folgequest = "The Well of Eternity"
 Inst110Quest2FQuest = "true"
@@ -12670,7 +12707,7 @@ Inst66Quest1 = "1. To Skettis!"
 Inst66Quest1_Level = "70"
 Inst66Quest1_Attain = "70"
 Inst66Quest1_Aim = "Take the Explosives Package to Sky Sergeant Doryn at Blackwind Landing outside Skettis."
-Inst66Quest1_Location = "Yuula (Shattrath City; "..YELLOW.."65,42"..WHITE..")"
+Inst66Quest1_Location = "Yuula (Shattrath City; "..YELLOW.."64.0, 42.0"..WHITE..")"
 Inst66Quest1_Note = "The prequest is also obtained from the same NPC. Blackwind Landing is at "..YELLOW.."[1]"..WHITE.."."
 Inst66Quest1_Prequest = "Threat from Above"
 Inst66Quest1_Folgequest = "Fires Over Skettis"
@@ -12682,7 +12719,7 @@ Inst66Quest2 = "2. Fires Over Skettis (Daily)"
 Inst66Quest2_Level = "70"
 Inst66Quest2_Attain = "70"
 Inst66Quest2_Aim = "Seek out Monstrous Kaliri Eggs on the tops of Skettis dwellings and use the Skyguard Blasting Charges on them. Return to Sky Sergeant Doryn."
-Inst66Quest2_Location = "Sky Sergeant Doryn (Terrokar Forest - Blackwing Landing; "..YELLOW.."65,66"..WHITE..")"
+Inst66Quest2_Location = "Sky Sergeant Doryn (Terrokar Forest - Blackwing Landing; "..YELLOW.."64.4, 66.6"..WHITE..")"
 Inst66Quest2_Note = "This quest can be completed once a day. The eggs can be bombed while on your flying mount from the air. Watch out for the Monstrous Kaliri birds flying around as they can dismount you if you aggro. The quest can be done as a group."
 Inst66Quest2_Prequest = "To Skettis!"
 Inst66Quest2_Folgequest = "None"
@@ -12705,7 +12742,7 @@ Inst66Quest4 = "4. Hungry Nether Rays"
 Inst66Quest4_Level = "70"
 Inst66Quest4_Attain = "70"
 Inst66Quest4_Aim = "Use the Nether Ray Cage in the woods south of Blackwind Landing and slay Blackwind Warp Chasers near the Hungry Nether Ray. Return to Skyguard Handler Deesak when you've completed your task."
-Inst66Quest4_Location = "Skyguard Handler Deesak (Terrokar Forest - Blackwing Landing; "..YELLOW.."63,66"..WHITE..")"
+Inst66Quest4_Location = "Skyguard Handler Deesak (Terrokar Forest - Blackwing Landing; "..YELLOW.."63.4, 65.8"..WHITE..")"
 Inst66Quest4_Note = "The Blackwing Warp Chasers (make sure you kill Chasers, not Stalkers) can be found along the southern edge of Skettis. The Hungry Nether Ray must be close to the Chaser when it is killed. Don't move away from the corpse until you get quest credit, it usually takes a few seconds."
 Inst66Quest4_Prequest = "None"
 Inst66Quest4_Folgequest = "None"
@@ -12718,7 +12755,7 @@ Inst66Quest5 = "5. World of Shadows"
 Inst66Quest5_Level = "70"
 Inst66Quest5_Attain = "70"
 Inst66Quest5_Aim = "Severin wants you to venture into Skettis and retrieve 6 Shadow Dusts from the arakkoa that dwell there."
-Inst66Quest5_Location = "Severin (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest5_Location = "Severin (Terrokar Forest - Blackwing Landing; "..YELLOW.."64.0, 66.8"..WHITE..")"
 Inst66Quest5_Note = "This quest is repeatable. Any of the Arakkoa can drop the Shadow Dust."
 Inst66Quest5_Prequest = "None"
 Inst66Quest5_Folgequest = "None"
@@ -12730,7 +12767,7 @@ Inst66Quest6 = "6. Secrets of the Talonpriests"
 Inst66Quest6_Level = "70"
 Inst66Quest6_Attain = "70"
 Inst66Quest6_Aim = "Obtain an Elixir of Shadows from Severin and use it to find and slay Talonpriest Ishaal, Talonpriest Skizzik and Talonpriest Zellek in Skettis. Return to Commander Adaris after completing this task."
-Inst66Quest6_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest6_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64.0, 66.8"..WHITE..")"
 Inst66Quest6_Note = "You must complete World of Shadows to obtain the Elixir of Shadows before you can do this quest.\n\nTalonpriest Ishaal is at "..YELLOW.."[5]"..WHITE..", Talonpriest Skizzik is at "..YELLOW.."[6]"..WHITE.." and Talonpriest Zellek is at "..YELLOW.."[7]"..WHITE.."."
 Inst66Quest6_Prequest = "World of Shadows"
 Inst66Quest6_Folgequest = "None"
@@ -12743,7 +12780,7 @@ Inst66Quest7_Level = "70"
 Inst66Quest7_Attain = "70"
 Inst66Quest7_Aim = "Bring Ishaal's Almanac to Sky Commander Adaris north of Skettis."
 Inst66Quest7_Location = "Ishaal's Almanac (drops from Talonpriest Ishaal; "..YELLOW.."[5]"..WHITE..")"
-Inst66Quest7_Note = "Sky Commander Adaris is at Terrokar Forest - Blackwing Landing ("..YELLOW.."64,66"..WHITE..")."
+Inst66Quest7_Note = "Sky Commander Adaris is at Terrokar Forest - Blackwing Landing ("..YELLOW.."64.0, 66.8"..WHITE..")."
 Inst66Quest7_Prequest = "None"
 Inst66Quest7_Folgequest = "An Ally in Lower City"
 -- No Rewards for this quest
@@ -12753,8 +12790,8 @@ Inst66Quest8 = "8. An Ally in Lower City"
 Inst66Quest8_Level = "70"
 Inst66Quest8_Attain = "70"
 Inst66Quest8_Aim = "Bring Ishaal's Almanac to Rilak the Redeemed in Lower City inside Shattrath."
-Inst66Quest8_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest8_Note = "Rilak the Redeemed is at Shattrath City - Lower City ("..YELLOW.."52,20"..WHITE..")."
+Inst66Quest8_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64.0, 66.8"..WHITE..")"
+Inst66Quest8_Note = "Rilak the Redeemed is at Shattrath City - Lower City ("..YELLOW.."52.6, 20.8"..WHITE..")."
 Inst66Quest8_Prequest = "Ishaal's Almanac"
 Inst66Quest8_Folgequest = "Countdown to Doom"
 Inst66Quest8FQuest = "true"
@@ -12765,8 +12802,8 @@ Inst66Quest9 = "9. Countdown to Doom"
 Inst66Quest9_Level = "70"
 Inst66Quest9_Attain = "70"
 Inst66Quest9_Aim = "Return to Sky Commander Adaris with the news about Terokk's return."
-Inst66Quest9_Location = "Rilak the Redeemed (Shattrath City - Lower City; "..YELLOW.."52,20"..WHITE..")"
-Inst66Quest9_Note = "Sky Commander Adaris is at Terrokar Forest - Blackwing Landing ("..YELLOW.."64,66"..WHITE.."). Hazzik, who is nearby, will give you the followup quest."
+Inst66Quest9_Location = "Rilak the Redeemed (Shattrath City - Lower City; "..YELLOW.."52.6, 20.8"..WHITE..")"
+Inst66Quest9_Note = "Sky Commander Adaris is at Terrokar Forest - Blackwing Landing ("..YELLOW.."64.0, 66.8"..WHITE.."). Hazzik, who is nearby, will give you the followup quest."
 Inst66Quest9_Prequest = "An Ally in Lower City"
 Inst66Quest9_Folgequest = "Hazzik's Bargain"
 Inst66Quest9FQuest = "true"
@@ -12777,7 +12814,7 @@ Inst66Quest10 = "10. Hazzik's Bargain"
 Inst66Quest10_Level = "70"
 Inst66Quest10_Attain = "70"
 Inst66Quest10_Aim = "Obtain Hazzik's Package at his dwelling in eastern Skettis and return to him with it."
-Inst66Quest10_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest10_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64.0, 66.8"..WHITE..")"
 Inst66Quest10_Note = "Hazzik's Package is in a hut at "..YELLOW.."[8]"..WHITE.."."
 Inst66Quest10_Prequest = "Countdown to Doom"
 Inst66Quest10_Folgequest = "A Shabby Disguise"
@@ -12789,7 +12826,7 @@ Inst66Quest11 = "11. A Shabby Disguise"
 Inst66Quest11_Level = "70"
 Inst66Quest11_Attain = "70"
 Inst66Quest11_Aim = "Use the Shabby Arakkoa Disguise to obtain the Adversarial Bloodlines from Sahaak and return to Hazzik."
-Inst66Quest11_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest11_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64.0, 66.8"..WHITE..")"
 Inst66Quest11_Note = "Sahaak is at "..YELLOW.."[3]"..WHITE..". If any Arakkoa other than Sahaak see you with the disguise, they will attack you."
 Inst66Quest11_Prequest = "Hazzik's Bargain"
 Inst66Quest11_Folgequest = "Adversarial Blood"
@@ -12801,7 +12838,7 @@ Inst66Quest12 = "12. Adversarial Blood"
 Inst66Quest12_Level = "70"
 Inst66Quest12_Attain = "70"
 Inst66Quest12_Aim = "Find the Skull Piles in the middle of the summoning circles of Skettis. Summon and defeat each of the descendants by using 10 Time-Lost Scrolls at the Skull Pile. Return to Hazzik at Blackwind Landing with a token from each."
-Inst66Quest12_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest12_Location = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64.0, 66.8"..WHITE..")"
 Inst66Quest12_Note = "The skull piles are at "..GREEN.."[1']"..WHITE..". Only one quest item per group drops for each kill. So each group member who needs the quest will need 10 Scrolls to summon the descendants for their item. The quest item is green quality, so it will have to be rolled for if group loot is on. This quest is repeatable."
 Inst66Quest12_Prequest = "A Shabby Disguise"
 Inst66Quest12_Folgequest = "None"
@@ -12814,7 +12851,7 @@ Inst66Quest13 = "13. Terokk's Downfall"
 Inst66Quest13_Level = "70"
 Inst66Quest13_Attain = "70"
 Inst66Quest13_Aim = "Take the Time-Lost Offering prepared by Hazzik to the Skull Pile at the center of Skettis and summon and defeat Terokk. Return to Sky Commander Adaris when you've completed this task."
-Inst66Quest13_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")"
+Inst66Quest13_Location = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64.0, 66.8"..WHITE..")"
 Inst66Quest13_Note = "Terokk is summoned at "..YELLOW.."[2]"..WHITE..". Tip from fissi0nx on Wowhead:\nAt 20% Terokk becomes immune to all attacks, and you'll see a blue flare shortly afterward, where a bomb will drop down. Drag Terokk into the flame to break his shield. He'll become enraged but you'll be able to kill him."
 Inst66Quest13_Prequest = "Adversarial Blood"
 Inst66Quest13_Folgequest = "None"
