@@ -6100,7 +6100,7 @@ Inst45Quest2_Level = "66"
 Inst45Quest2_Attain = "64"
 Inst45Quest2_Aim = "将潘德莫努斯的精华和塔瓦洛克之心交给“杂学家”玛姆迪。"
 Inst45Quest2_Location = "“杂学家”玛姆迪（法力陵墓; "..BLUE.."入口"..WHITE.."）"
-Inst45Quest2_Note = "潘德莫努斯在"..YELLOW.."[1]"..WHITE.."，塔瓦洛克在"..YELLOW.."[2]".WHITE.."。"
+Inst45Quest2_Note = "潘德莫努斯在"..YELLOW.."[1]"..WHITE.."，塔瓦洛克在"..YELLOW.."[2]"..WHITE.."。"
 Inst45Quest2_Prequest = "无"
 Inst45Quest2_Folgequest = "无"
 -- No Rewards for this quest
@@ -6443,7 +6443,7 @@ Inst47Quest1_Aim = "返回泰罗卡森林向奥金顿暗影迷宫里的战地指
 Inst47Quest1_Location = "间谍女王梅丽萨·海克隆（沙塔斯城 - 圣光广场; "..YELLOW.."50.4, 45.2"..WHITE.."）"
 Inst47Quest1_Note = "战地指挥官玛弗恩就在地下城入口内。"
 Inst47Quest1_Prequest = "无"
-Inst47Quest1_Folgequest = "The Codex of Blood"
+Inst47Quest1_Folgequest = "无"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -6512,7 +6512,7 @@ Inst47Quest7 = "7. 深入暗影迷宫"
 Inst47Quest7_Level = "70"
 Inst47Quest7_Attain = "68"
 Inst47Quest7_Aim = "消灭摩摩尔并通知奥金顿暗影迷宫内的战地指挥官玛弗恩。"
-Inst47Quest7_Location = "战地指挥官玛弗恩（暗影迷宫; "..BLUE.."入口"..WHITE.."）"
+Inst47Quest7_Location = "献血法典（暗影迷宫; "..YELLOW.."[3]"..WHITE.."）"
 Inst47Quest7_Note = "摩摩尔在"..YELLOW.."[4]"..WHITE.."。"
 Inst47Quest7_Prequest = "鲜血法典"
 Inst47Quest7_Folgequest = "无"
