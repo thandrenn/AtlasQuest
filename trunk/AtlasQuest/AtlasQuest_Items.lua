@@ -4365,7 +4365,7 @@ Inst67Quest2Rewardtext = AQNoReward
 Inst67Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst67Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst67Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
 --ITEM1
 Inst67Quest4ITC1 = Itemc5;
 Inst67Quest4description1 = AQITEM_GEM
@@ -4374,10 +4374,6 @@ Inst67Quest4ID1 = "35487"
 Inst67Quest4ITC2 = Itemc5;
 Inst67Quest4description2 = AQITEM_GEM
 Inst67Quest4ID2 = "35488"
---ITEM3
-Inst67Quest4ITC3 = Itemc5;
-Inst67Quest4description3 = AQITEM_GEM
-Inst67Quest4ID3 = "35489"
 
 --Quest 5 Alliance
 Inst67Quest5Rewardtext = AQNoReward

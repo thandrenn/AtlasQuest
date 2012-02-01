@@ -4647,25 +4647,6 @@ Inst37Story = {
 Inst37Caption = "HZ: Höllenfeuerbollwerk"
 Inst37QAA = "5 Quests"
 Inst37QAH = "5 Quests"
-Inst37General = {
-    {
-    "Wachhabender Gargolmar",
-    "Er hat 2 Adds. Beide sind kontrollierbar und sollten kontrolliert oder getötet werden, bevor Gargolmar selbst getötet wird. Gargolmar selbst richtet wenig Nahkampfschaden an.",
-    RED .. "Tödliche Wunde:" .. WHITE .. " Gargolmar gibt dem Maintank manchmal einen stapelbaren Debuff, der erhaltene Heilung 10 % pro Stack reduziert. Offtanking ist nicht nötig, weil der Debuff normalerweise nicht über 40 % stackt (er stirbt zu schnell).",
-    },
-
-    {
-    "Omor der Narbenlose",
-    "Omor hat ein starke magischen Fernkampfangriff, aber schwache Nahkampfangriffe. Er benutzt seine Magie nur, wenn der Aggrohalter nicht in Nahkampfreichweite ist.",
-    RED .. "Hund beschwören" .. WHITE .. ": Alle paar Sekunden beschwört Omor einen 'Dämonischen Hund'. Diese Hunde schlagen hart zu und saugen Mana (gerne vom Heiler), haben aber wenig HP. Sie sollten sofort getötet werden.",
-    },
-
-    {
-    "Vazruden der Herold und Nazan",
-    "Vazruden landet, wenn die 2 Wachen vor der Plattform getötet werden. Wenn Varzurden bei 20 % Leben ist, landet Nazan und greift an. Nazan ist sehr stark und der schwierigste Kampf im Höllenfeuerbollwerk.",
-    "Vazruden(): Nichts\n" .. RED .. "Nazan(Drachenatem)" .. WHITE .. ": Nazan verursacht starken Feuerschaden in dem Bereich vor ihm. Der Tank muss den Drachen von der Gruppe wegdrehen.\n" .. RED .. "Nazan(Flammenwerfen)" .. WHITE .. ": Nazan wirft Feuerbälle auf die Spieler, die einigen Schaden (~2k) anrichten und den Boden verbrennen (~600 Feuerschaden/sec). Jeder muss aus dem Feuer laufen!",
-    },
-};
 
 --Quest 1 Alliance
 Inst37Quest1 = "1. Die Eroberung der Zitadelle"
@@ -4800,25 +4781,6 @@ Inst38Story = {
 Inst38Caption = "HZ: Der Blutkessel"
 Inst38QAA = "4 Quests"
 Inst38QAH = "4 Quests"
-Inst38General = {
-    {
-    "Der Schöpfer",
-    "Einfacher Kampf. Er teilt sehr wenig Nahkampfschaden aus. Einfach tanken und töten.",
-    RED .. "Rückstoß" .. WHITE .. " Er wirft jeden in die Luft (Aggroreset oder Aggroreduzierung).\n" .. RED .. "Gedankenkontrolle" .. WHITE .. ": Er kontrolliert einen zufälligen Spieler und erhöht seinen Schaden.",
-    },
-
-    {
-    "Broggok",
-    "Schwieriger Kampf. Das Ereignis startet, wenn man Hebel in seinem Raum betätigt. Bevor der Boss selbst kommt, muss man 4 Gegnerwellen bekämpfen. Zwischen den Wellen kann man nicht trinken, daher sollte man einen Gegner der letzten Welle kontrollieren, um genug Mana für den Bosskampf zu regenerieren.",
-   RED .. "4 Wellen:" .. WHITE .. " Die erste Gruppe besteht aus 4 normalen Gegnern, die zweite aus 3 normalen und einem Elitegegner, die dritte aus 2 normalen und 2 Elite-Gegnern und die letzte aus einem normalen und 3 Elitegegnern.\n" .. RED .. "Giftatem:" .. WHITE .. " Schaden auf alle Spieler vor ihm.\n" .. RED .. "Giftbombe:" .. WHITE .. " Er wirft zufällig eine Bombe auf einen Spieler. Die Bombe verursacht wenig Schaden, aber an der Einschlagstelle entsteht ein Giftkreis, der jedem Schaden (~650/sec) zufügt, der drinsteht.",
-    },
-
-    {
-    "Keli'dan der Zerstörer",
-    "Endboss und nicht wirklich schwierig. Der Kampf startet, wenn man einen der Kanalisierer neben ihm angreift. Wenn alle Kanalisierer tot sind, kreift Keli'dan an.",
-   RED .. "Die Adds:" .. WHITE .. " Sie zaubern Schattenblitz und verteilen einen Magie-Debuff, der erhaltenen Schattenschaten um 1000 erhöht. Sollte so schnell wie möglich entfernt werden.\n" .. RED .. "Schattenblitzsalve:" .. WHITE .. " 3 Schattenblitze, nicht viel Schaden ohne den Debuff.\n" .. RED .. "Feuernova:" .. WHITE .. " Alle paar Sekunden ruft Keli'dan 'Näher, kommt näher, und verbrennt!' und hört auf, anzugreifen. Nach etwa 5 Sekunden wirkt er eine starke Feuernova mit großem Radius. Daher sollte jeder wegrennen, sobald Keli'dan diesen Satz schreit.",
-    },
-};
 
 --Quest 1 Alliance
 Inst38Quest1 = "1. Lasst sie bluten!"
@@ -5217,7 +5179,7 @@ Inst40Quest2_Level = "70"
 Inst40Quest2_Attain = "70"
 Inst40Quest2_Aim = "Bringt Magtheridons Kopf zu Truppenkommandant Danath Trollbann in der Ehrenfeste auf der Höllenfeuerhalbinsel zurück."
 Inst40Quest2_Location = "Magtheridons Kopf (droppt von Magtheridon; "..YELLOW.."[1]"..WHITE..")"
-Inst40Quest2_Note = "Nur eine Person im Schlachtzug kann den Kopf erhalten, um die Quest zu starten. Truppenkommandant Danath Trollbann befindet sich bei "..YELLOW.."57,67"..WHITE.."."
+Inst40Quest2_Note = "Nur eine Person im Schlachtzug kann den Kopf erhalten, um die Quest zu starten. Truppenkommandant Danath Trollbann befindet sich bei "..YELLOW.."56.6, 66.6"..WHITE.."."
 Inst40Quest2_Prequest = "Nein"
 Inst40Quest2_Folgequest = "Nein"
 --
@@ -5246,7 +5208,7 @@ Inst40Quest2_HORDE_Level = "70"
 Inst40Quest2_HORDE_Attain = "70"
 Inst40Quest2_HORDE_Aim = "Bringt Magtheridons Kopf zu Nazgrel in Thrallmar auf der Höllenfeuerhalbinsel."
 Inst40Quest2_HORDE_Location = Inst40Quest2_Location
-Inst40Quest2_HORDE_Note = "Nur eine Person im Schlachtzug kann den Kopf erhalten, um die Quest zu starten. Nazgrel befindet sich bei "..YELLOW.."55,36"..WHITE.."."
+Inst40Quest2_HORDE_Note = "Nur eine Person im Schlachtzug kann den Kopf erhalten, um die Quest zu starten. Nazgrel befindet sich bei "..YELLOW.."55.0, 36.0"..WHITE.."."
 Inst40Quest2_HORDE_Prequest = "Nein"
 Inst40Quest2_HORDE_Folgequest = "Nein"
 --
@@ -6295,147 +6257,157 @@ Inst46Quest6_HORDE_Folgequest = "Nein"
 
 Inst47Story = "Seit Tausenden von Jahren haben die Draenei ihre Toten in Auchindoun, ihrem heiligsten Tempel, begraben.\n\nDoch Agenten des Schattenrats sind in ihn eingedrungen, dazu entschlossen, eine entsetzliche Kreatur von gewaltigem Übel zu beschwören.\n\nIhre abscheulichen magischen Taten führten zu einer gewaltigen Explosion, die den Tempel auseinandergerissen und die Umgebung in ein verkohltes Ödland verwandelt hat.\n\nDie Druckwelle verursachte zusätzlich einen Riss im Nether selbst, so dass jenseitige Astrale in die Scherbenwelt gelockt wurden.\n\nDie begrabenen Draenei durchwandern nun die Ruinen als ruhelose Geister.\n\nUnterdessen droht das vom Schattenrat beschworene entsetzliche Gebilde, ihre Bemühungen, es im Zaum zu halten, zu übermannen.\n\nDu musst dieses Böse davon abhalten, auf dieser ahnungslosen Welt freigesetzt zu werden.\n\nAuchindoun ist in vier Flügel aufgeteilt und für Gruppen von fünf Spielern der Stufen 64-70 vorgesehen."
 Inst47Caption = "Auch: Schattenlabyrinth"
-Inst47QAA = "11 Quests"
-Inst47QAH = "11 Quests"
+Inst47QAA = "12 Quests"
+Inst47QAH = "12 Quests"
 
 --Quest 1 Alliance
-Inst47Quest1 = "1. Findet Spion To'gun"
+Inst47Quest1 = "1. Ärger in Auchindoun"
 Inst47Quest1_Level = "70"
 Inst47Quest1_Attain = "68"
-Inst47Quest1_Aim = "Findet Spion To'gun im Schattenlabyrinth von Auchindoun."
-Inst47Quest1_Location = "Spionin Grik'tha (Wälder von Terokkar - Auchindoun; "..YELLOW.."40,72"..WHITE..")"
-Inst47Quest1_Note = "To'gun kann gefunden werden bei "..YELLOW.."[1]"..WHITE..", im Gang hinter Botschafter Höllenschlund."
+Inst47Quest1_Aim = "Meldet Euch bei Feldkommandeur Mahfuun im Schattenlabyrinth in Auchindoun in den Wäldern von Terokkar."
+Inst47Quest1_Location = "Spionagemeisterin Mehlisah Hochkrone (Shattrath - Terrasse des Lichts; "..YELLOW.."50.4,45.2"..WHITE..")"
+Inst47Quest1_Note = "Feldkommandeur Mahfuun befindet sich innerhalb der Instanz am Eingang."
 Inst47Quest1_Prequest = "Nein"
-Inst47Quest1_Folgequest = "Ja, Seeleninstrumente"
-Inst47Quest1FQuest = "true"
+Inst47Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst47Quest2 = "2. Seeleninstrumente"
+Inst47Quest2 = "2. Findet Spion To'gun"
 Inst47Quest2_Level = "70"
 Inst47Quest2_Attain = "68"
-Inst47Quest2_Aim = "Stehlt 5 Seeleninstrumente und bringt sie zu Spionagemeisterin Mehlisah Hochkrone auf der Terrasse des Lichts in Shattrath."
-Inst47Quest2_Location = "Spion To'gun (Schattenlabyrinth; "..GREEN.."[1']"..WHITE..")"
-Inst47Quest2_Note = "Seeleninstrumente sind die dunkelvioletten Kugeln, die in der Instanz verteilt zu finden sind. Spionagemeisterin Mehlisah Hochkrone befindet sich in (Shattrath - Terrasse des Lichts; "..YELLOW.."51,45"..WHITE..")"
-Inst47Quest2_Prequest = "Ja, Findet Spion To'gun"
-Inst47Quest2_Folgequest = "Nein"
-Inst47Quest2PreQuest = "true"
---
-Inst47Quest2name1 = "Wickeltücher von Shattrath"
-Inst47Quest2name2 = "Handgelenksschutz der Spionagemeisterin"
-Inst47Quest2name3 = "Armschienen der Auchenai"
-Inst47Quest2name4 = "Eiserne Armschützer der Sha'tari"
-
---Quest 3 Alliance
-Inst47Quest3 = "3. Das Buch der teuflischen Namen"
-Inst47Quest3_Level = "70"
-Inst47Quest3_Attain = "68"
-Inst47Quest3_Aim = "Reist in das Schattenlabyrinth von Auchindoun und besorgt das Buch der teuflischen Namen von Schwarzherz dem Hetzer. Kehrt danach zu Altruis in Nagrand zurück."
-Inst47Quest3_Location = "Altruis der Leider (Nagrand; "..YELLOW.."27,43"..WHITE..")"
-Inst47Quest3_Note = "Schwarzherz der Hetzer befindet sich bei "..YELLOW.."[2]"..WHITE..". Dies ist der letzte Teil einer Questreihe, die im Schattenmondtal bei "..YELLOW.."61,28"..WHITE.." für Aldor und bei "..YELLOW.."55,58"..WHITE.." für Seher startet."
-Inst47Quest3_Prequest = "Ja, Illidans Schüler"
-Inst47Quest3_Folgequest = "Ja, Rückkehr zu den Aldor oder Rückkehr zu den Sehern"
-Inst47Quest3FQuest = "true"
+Inst47Quest2_Aim = "Findet Spion To'gun im Schattenlabyrinth von Auchindoun."
+Inst47Quest2_Location = "Spionin Grik'tha (Schattenlabyrinth; "..BLUE.."Eingang"..WHITE..")"
+Inst47Quest2_Note = "To'gun kann gefunden werden bei "..GREEN.."[1']"..WHITE..", im Gang hinter Botschafter Höllenschlund."
+Inst47Quest2_Prequest = "Nein"
+Inst47Quest2_Folgequest = "Ja, Seeleninstrumente"
+Inst47Quest2FQuest = "true"
 -- No Rewards for this quest
 
+--Quest 3 Alliance
+Inst47Quest3 = "3. Seeleninstrumente"
+Inst47Quest3_Level = "70"
+Inst47Quest3_Attain = "68"
+Inst47Quest3_Aim = "Stehlt 5 Seeleninstrumente und bringt sie zu Spionin Grik'tha im Schattenlabyrinth von Auchindoun."
+Inst47Quest3_Location = "Spion To'gun (Schattenlabyrinth; "..GREEN.."[1']"..WHITE..")"
+Inst47Quest3_Note = "Seeleninstrumente sind die dunkelvioletten Kugeln, die in der Instanz verteilt zu finden sind. Spionagemeisterin Mehlisah Hochkrone befindet sich in (Shattrath - Terrasse des Lichts; "..YELLOW.."51,45"..WHITE..")"
+Inst47Quest3_Prequest = "Ja, Findet Spion To'gun"
+Inst47Quest3_Folgequest = "Nein"
+Inst47Quest3PreQuest = "true"
+--
+Inst47Quest3name1 = "Wickeltücher von Shattrath"
+Inst47Quest3name2 = "Handgelenksschutz der Spionagemeisterin"
+Inst47Quest3name3 = "Armschienen der Auchenai"
+Inst47Quest3name4 = "Eiserne Armschützer der Sha'tari"
+
 --Quest 4 Alliance
-Inst47Quest4 = "4. Ärger in Auchindoun"
+Inst47Quest4 = "4. Botschafter Höllenschlund"
 Inst47Quest4_Level = "70"
 Inst47Quest4_Attain = "68"
-Inst47Quest4_Aim = "Meldet Euch bei Feldkommandeur Mahfuun beim Eingang zum Schattenlabyrinth in Auchindoun in den Wäldern von Terokkar."
-Inst47Quest4_Location = "Spionagemeisterin Mehlisah Hochkrone (Shattrath - Terrasse des Lichts; "..YELLOW.."51,45"..WHITE..")"
-Inst47Quest4_Note = "Feldkommandeur Mahfuun befindet sich bei (Wälder von Terokkar - Auchindoun; "..YELLOW.."40,72"..WHITE.."), direkt vor dem Eingang zum Schattenlabyrinth."
+Inst47Quest4_Aim = "Tötet 18 Ritualisten der Kabale und Botschafter Höllenschlund. Kehrt dann zu Feldkommandeur Mahfuun im Schattenlabyrinth von Auchindoun zurück."
+Inst47Quest4_Location = "Feldkommandeur Mahfuun (Schattenlabyrinth; "..BLUE.."Eingang"..WHITE..")"
+Inst47Quest4_Note = "Die Ritulisten der Kabale befinden sich auf den Weg zum Botschafter Höllenschlund bei "..YELLOW.."[1]"..WHITE.."."
 Inst47Quest4_Prequest = "Nein"
-Inst47Quest4_Folgequest = "Ja, Der Kodex des Blutes"
-Inst47Quest4FQuest = "true"
+Inst47Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst47Quest5 = "5. Der Kodex des Blutes"
+Inst47Quest5 = "5. Das Buch der teuflischen Namen"
 Inst47Quest5_Level = "70"
 Inst47Quest5_Attain = "68"
-Inst47Quest5_Aim = "Lest den Kodex des Blutes im Schattenlabyrinth von Auchindoun."
-Inst47Quest5_Location = "Feldkommandeur Mahfuun (Wälder von Terokkar - Auchindoun; "..YELLOW.."40,72"..WHITE..")"
-Inst47Quest5_Note = "Der Kodex des Blutes befindet sich direkt vor Großmeister Vorpil bei "..YELLOW.."[4]"..WHITE.."."
-Inst47Quest5_Prequest = "Ja, Ärger in Auchindoun"
-Inst47Quest5_Folgequest = "Ja, In das Herz des Labyrinths"
+Inst47Quest5_Aim = "Reist in das Schattenlabyrinth von Auchindoun und besorgt das Buch der teuflischen Namen von Schwarzherz dem Hetzer. Kehrt danach zu Altruis in Nagrand zurück."
+Inst47Quest5_Location = "Altruis der Leider (Nagrand; "..YELLOW.."27.2,43.0"..WHITE..")"
+Inst47Quest5_Note = "Schwarzherz der Hetzer befindet sich bei "..YELLOW.."[2]"..WHITE..". Dies ist der letzte Teil einer Questreihe, die im Schattenmondtal bei "..YELLOW.."61.2,29.2"..WHITE.." für Aldor und bei "..YELLOW.."55.8,58.2"..WHITE.." für Seher startet."
+Inst47Quest5_Prequest = "Ja, Illidans Schüler"
+Inst47Quest5_Folgequest = "Ja, Rückkehr zu den Aldor oder Rückkehr zu den Sehern"
 Inst47Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst47Quest6 = "6. In das Herz des Labyrinths"
+Inst47Quest6 = "6. Der Kodex des Blutes"
 Inst47Quest6_Level = "70"
 Inst47Quest6_Attain = "68"
-Inst47Quest6_Aim = "Vernichtet Murmur und informiert danach Spionagemeisterin Mehlisah Sonnenkrone auf der Terrasse des Lichts in Shattrath über die Geschehnisse im Schattenlabyrinth."
-Inst47Quest6_Location = "Kodex des Blutes (Schattenlabyrinth; "..YELLOW.."[3]"..WHITE..")"
-Inst47Quest6_Note = "Murmur befindet sich bei "..YELLOW.."[4]"..WHITE..". Spionagemeisterin Mehlisah Sonnenkrone befindet sich in (Shattrath - Terrasse des Lichts; "..YELLOW.."51,45"..WHITE..")"
-Inst47Quest6_Prequest = "Ja, Der Kodex des Blutes"
-Inst47Quest6_Folgequest = "Nein"
+Inst47Quest6_Aim = "Lest den Kodex des Blutes im Schattenlabyrinth von Auchindoun."
+Inst47Quest6_Location = "Feldkommandeur Mahfuun (Schattenlabyrinth; "..BLUE.."Eingang"..WHITE..")"
+Inst47Quest6_Note = "Der Kodex des Blutes befindet sich direkt vor Großmeister Vorpil bei "..YELLOW.."[3]"..WHITE.."."
+Inst47Quest6_Prequest = "Nein"
+Inst47Quest6_Folgequest = "Ja, In das Herz des Labyrinths"
 Inst47Quest6FQuest = "true"
---
-Inst47Quest6name1 = "Stofftreter von Shattrath"
-Inst47Quest6name2 = "Stiefel der Spionagemeisterin"
-Inst47Quest6name3 = "Stiefel der Auchenai"
-Inst47Quest6name4 = "Eiserne Schienbeinschützer der Sha'tari"
-
---Quest 7 Alliance
-Inst47Quest7 = "7. Die Prüfung der Naaru: Stärke (Heroisch)"
-Inst47Quest7_Level = "70"
-Inst47Quest7_Attain = "70"
-Inst47Quest7_Aim = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt."
-Inst47Quest7_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
-Inst47Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Murmur befindet sich bei "..YELLOW.."[4]"..WHITE..". Kalithreshs Dreizack droppt in der Dampfkammer.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
-Inst47Quest7_Prequest = "Nein"
-Inst47Quest7_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 7 Alliance
+Inst47Quest7 = "7. In das Herz des Labyrinths"
+Inst47Quest7_Level = "70"
+Inst47Quest7_Attain = "68"
+Inst47Quest7_Aim = "Vernichtet Murmur und meldet Euch danach bei Feldkommandeur Mahfuun im Schattenlabyrinth von Auchindoun."
+Inst47Quest7_Location = "Kodex des Blutes (Schattenlabyrinth; "..YELLOW.."[3]"..WHITE..")"
+Inst47Quest7_Note = "Murmur befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst47Quest7_Prequest = "Ja, Der Kodex des Blutes"
+Inst47Quest7_Folgequest = "Nein"
+Inst47Quest7PreQuest = "true"
+--
+Inst47Quest7name1 = "Stofftreter von Shattrath"
+Inst47Quest7name2 = "Stiefel der Spionagemeisterin"
+Inst47Quest7name3 = "Stiefel der Auchenai"
+Inst47Quest7name4 = "Eiserne Schienbeinschützer der Sha'tari"
+
 --Quest 8 Alliance
-Inst47Quest8 = "8. Nach Karazhan"
-Inst47Quest8_Level = "70"
-Inst47Quest8_Attain = "68"
-Inst47Quest8_Aim = "Khadgar möchte, dass Ihr das Schattenlabyrinth von Auchindoun betretet und das erste Schlüsselfragment aus einem versteckten arkanen Behälter besorgt."
-Inst47Quest8_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54,44"..WHITE..")"
-Inst47Quest8_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich neben Murmur bei "..YELLOW.."[4]"..WHITE..". Wenn man ihn öffnet, erscheint ein Elementar, den man töten muss, um das Fragment zu erhalten."
-Inst47Quest8_Prequest = "Ja, Khadgar"
-Inst47Quest8_Folgequest = "Ja, Das zweite und das dritte Fragment"
-Inst47Quest8FQuest = "true"
+Inst47Quest8 = "8. Encyclopaedia Daemonica"
+Inst47Quest8_Level = "69"
+Inst47Quest8_Attain = "67"
+Inst47Quest8_Aim = "Beschafft die Encyclopaedia Daemonica von Großmeister Vorpil und bringt sie zu David Wayne in Waynes Zuflucht."
+Inst47Quest8_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."77.4,38.6"..WHITE..")."
+Inst47Quest8_Note = "Großmeister Vorpil befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst47Quest8_Prequest = "Ja, Zusätzliche Materialien"
+Inst47Quest8_Folgequest = "Nein"
+Inst47Quest8PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst47Quest9 = "9. Encyclopaedia Daemonica"
-Inst47Quest9_Level = "69"
-Inst47Quest9_Attain = "67"
-Inst47Quest9_Aim = "Beschafft die Encyclopaedia Daemonica von Großmeister Vorpil und bringt sie zu David Wayne in Waynes Zuflucht."
-Inst47Quest9_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
-Inst47Quest9_Note = "Großmeister Vorpil befindet sich bei "..YELLOW.."[3]"..WHITE..". Wenn man diese Quest und Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne.\n\nDer Gegenstand wird im heroischen Modus nicht droppen."
-Inst47Quest9_Prequest = "Ja, Zusätzliche Materialien"
-Inst47Quest9_Folgequest = "Nein"
-Inst47Quest9PreQuest = "true"
+Inst47Quest9 = "9. Nach Karazhan"
+Inst47Quest9_Level = "70"
+Inst47Quest9_Attain = "68"
+Inst47Quest9_Aim = "Khadgar möchte, dass Ihr das Schattenlabyrinth von Auchindoun betretet und das erste Schlüsselfragment aus einem versteckten arkanen Behälter besorgt."
+Inst47Quest9_Location = "Khadgar (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6,44.0"..WHITE..")"
+Inst47Quest9_Note = "Teil der Karazhan-Vorquestreihe. Der arkane Behälter befindet sich neben Murmur bei "..YELLOW.."[4]"..WHITE..". Wenn man ihn öffnet, erscheint ein Elementar, den man töten muss, um das Fragment zu erhalten."
+Inst47Quest9_Prequest = "Ja, Khadgar"
+Inst47Quest9_Folgequest = "Ja, Das zweite und das dritte Fragment"
+Inst47Quest9FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst47Quest10 = "10. Gesucht: Murmurs Flüstern (Heroisches Tagesquest)"
+Inst47Quest10 = "10. Die Prüfung der Naaru: Stärke (Heroisch)"
 Inst47Quest10_Level = "70"
 Inst47Quest10_Attain = "70"
-Inst47Quest10_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Murmurs Flüstern zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst47Quest10_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
-Inst47Quest10_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nMurmur befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst47Quest10_Aim = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt."
+Inst47Quest10_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
+Inst47Quest10_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Murmur befindet sich bei "..YELLOW.."[4]"..WHITE..". Kalithreshs Dreizack droppt in der Dampfkammer.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig."
 Inst47Quest10_Prequest = "Nein"
 Inst47Quest10_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst47Quest11 = "11. Gesucht: Bösartige Ausbilderinnen (Tagesquest)"
+Inst47Quest11 = "11. Gesucht: Murmurs Flüstern (Heroisches Tagesquest)"
 Inst47Quest11_Level = "70"
 Inst47Quest11_Attain = "70"
-Inst47Quest11_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 3 bösartige Ausbilderinnen zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
-Inst47Quest11_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
-Inst47Quest11_Note = "Dies ist eine Tagesquest."
+Inst47Quest11_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm Murmurs Flüstern zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst47Quest11_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")"
+Inst47Quest11_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nMurmur befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest11_Prequest = "Nein"
 Inst47Quest11_Folgequest = "Nein"
 --
-Inst47Quest11name1 = "Gefängnisschlüssel des Astraleums"
+-- Preis Gerechtigkeitspunkte.
+
+--Quest 12 Alliance
+Inst47Quest12 = "12. Gesucht: Bösartige Ausbilderinnen (Tagesquest)"
+Inst47Quest12_Level = "70"
+Inst47Quest12_Attain = "70"
+Inst47Quest12_Aim = "Netherpirscher Mah'duun hat Euch damit beauftragt, 3 bösartige Ausbilderinnen zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden."
+Inst47Quest12_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
+Inst47Quest12_Note = "Dies ist eine Tagesquest."
+Inst47Quest12_Prequest = "Nein"
+Inst47Quest12_Folgequest = "Nein"
+--
+Inst47Quest12name1 = "Gefängnisschlüssel des Astraleums"
 
 
 --Quest 1 Horde
@@ -6457,14 +6429,10 @@ Inst47Quest2_HORDE_Attain = "68"
 Inst47Quest2_HORDE_Aim = Inst47Quest2_Aim
 Inst47Quest2_HORDE_Location = Inst47Quest2_Location
 Inst47Quest2_HORDE_Note = Inst47Quest2_Note
-Inst47Quest2_HORDE_Prequest = Inst47Quest2_Prequest
-Inst47Quest2_HORDE_Folgequest = "Nein"
-Inst47Quest2PreQuest_HORDE = "true"
---
-Inst47Quest2name1_HORDE = Inst47Quest2name1
-Inst47Quest2name2_HORDE = Inst47Quest2name2
-Inst47Quest2name3_HORDE = Inst47Quest2name3
-Inst47Quest2name4_HORDE = Inst47Quest2name4
+Inst47Quest2_HORDE_Prequest = "Nein"
+Inst47Quest2_HORDE_Folgequest = Inst47Quest2_Folgequest
+Inst47Quest2FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst47Quest3_HORDE = Inst47Quest3
@@ -6474,9 +6442,13 @@ Inst47Quest3_HORDE_Aim = Inst47Quest3_Aim
 Inst47Quest3_HORDE_Location = Inst47Quest3_Location
 Inst47Quest3_HORDE_Note = Inst47Quest3_Note
 Inst47Quest3_HORDE_Prequest = Inst47Quest3_Prequest
-Inst47Quest3_HORDE_Folgequest = Inst47Quest3_Folgequest
-Inst47Quest3FQuest_HORDE = "true"
--- No Rewards for this quest
+Inst47Quest3_HORDE_Folgequest = "Nein"
+Inst47Quest3PreQuest_HORDE = "true"
+--
+Inst47Quest3name1_HORDE = Inst47Quest3name1
+Inst47Quest3name2_HORDE = Inst47Quest3name2
+Inst47Quest3name3_HORDE = Inst47Quest3name3
+Inst47Quest3name4_HORDE = Inst47Quest3name4
 
 --Quest 4 Horde
 Inst47Quest4_HORDE = Inst47Quest4
@@ -6486,8 +6458,7 @@ Inst47Quest4_HORDE_Aim = Inst47Quest4_Aim
 Inst47Quest4_HORDE_Location = Inst47Quest4_Location
 Inst47Quest4_HORDE_Note = Inst47Quest4_Note
 Inst47Quest4_HORDE_Prequest = "Nein"
-Inst47Quest4_HORDE_Folgequest = Inst47Quest4_Folgequest
-Inst47Quest4FQuest_HORDE = "true"
+Inst47Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Horde
@@ -6510,60 +6481,60 @@ Inst47Quest6_HORDE_Aim = Inst47Quest6_Aim
 Inst47Quest6_HORDE_Location = Inst47Quest6_Location
 Inst47Quest6_HORDE_Note = Inst47Quest6_Note
 Inst47Quest6_HORDE_Prequest = Inst47Quest6_Prequest
-Inst47Quest6_HORDE_Folgequest = "Nein"
-Inst47Quest6PreQuest_HORDE = "true"
---
-Inst47Quest6name1_HORDE = Inst47Quest6name1
-Inst47Quest6name2_HORDE = Inst47Quest6name2
-Inst47Quest6name3_HORDE = Inst47Quest6name3
-Inst47Quest6name4_HORDE = Inst47Quest6name4
+Inst47Quest6_HORDE_Folgequest = Inst47Quest6_Folgequest
+Inst47Quest6FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 7 Horde
 Inst47Quest7_HORDE = Inst47Quest7
 Inst47Quest7_HORDE_Level = "70"
-Inst47Quest7_HORDE_Attain = "70"
+Inst47Quest7_HORDE_Attain = "68"
 Inst47Quest7_HORDE_Aim = Inst47Quest7_Aim
 Inst47Quest7_HORDE_Location = Inst47Quest7_Location
 Inst47Quest7_HORDE_Note = Inst47Quest7_Note
-Inst47Quest7_HORDE_Prequest = "Nein"
+Inst47Quest7_HORDE_Prequest = Inst47Quest7_Prequest
 Inst47Quest7_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+Inst47Quest7PreQuest_HORDE = "true"
+--
+Inst47Quest7name1_HORDE = Inst47Quest7name1
+Inst47Quest7name2_HORDE = Inst47Quest7name2
+Inst47Quest7name3_HORDE = Inst47Quest7name3
+Inst47Quest7name4_HORDE = Inst47Quest7name4
 
 --Quest 8 Horde
 Inst47Quest8_HORDE = Inst47Quest8
-Inst47Quest8_HORDE_Level = "70"
-Inst47Quest8_HORDE_Attain = "68"
+Inst47Quest8_HORDE_Level = "69"
+Inst47Quest8_HORDE_Attain = "67"
 Inst47Quest8_HORDE_Aim = Inst47Quest8_Aim
 Inst47Quest8_HORDE_Location = Inst47Quest8_Location
 Inst47Quest8_HORDE_Note = Inst47Quest8_Note
-Inst47Quest8_HORDE_Prequest = "Ja, Khadgar"
-Inst47Quest8_HORDE_Folgequest = Inst47Quest8_Folgequest
-Inst47Quest8FQuest_HORDE = "true"
+Inst47Quest8_HORDE_Prequest = Inst47Quest8_Prequest
+Inst47Quest8_HORDE_Folgequest = "Nein"
+Inst47Quest8PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 9 Horde
 Inst47Quest9_HORDE = Inst47Quest9
 Inst47Quest9_HORDE_Level = "70"
-Inst47Quest9_HORDE_Attain = "67"
+Inst47Quest9_HORDE_Attain = "68"
 Inst47Quest9_HORDE_Aim = Inst47Quest9_Aim
 Inst47Quest9_HORDE_Location = Inst47Quest9_Location
 Inst47Quest9_HORDE_Note = Inst47Quest9_Note
-Inst47Quest9_HORDE_Prequest = Inst47Quest9_Prequest
-Inst47Quest9_HORDE_Folgequest = "Nein"
-Inst47Quest9PreQuest_HORDE = "true"
+Inst47Quest9_HORDE_Prequest = "Ja, Khadgar"
+Inst47Quest9_HORDE_Folgequest = Inst47Quest9_Folgequest
+Inst47Quest9FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 10 Horde
 Inst47Quest10_HORDE = Inst47Quest10
 Inst47Quest10_HORDE_Level = "70"
-Inst47Quest10_HORDE_Attain = "70"
+Inst47Quest10_HORDE_Attain = "67"
 Inst47Quest10_HORDE_Aim = Inst47Quest10_Aim
 Inst47Quest10_HORDE_Location = Inst47Quest10_Location
 Inst47Quest10_HORDE_Note = Inst47Quest10_Note
 Inst47Quest10_HORDE_Prequest = "Nein"
 Inst47Quest10_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 11 Horde
 Inst47Quest11_HORDE = Inst47Quest11
@@ -6575,7 +6546,19 @@ Inst47Quest11_HORDE_Note = Inst47Quest11_Note
 Inst47Quest11_HORDE_Prequest = "Nein"
 Inst47Quest11_HORDE_Folgequest = "Nein"
 --
-Inst47Quest11name1_HORDE = Inst47Quest11name1
+-- Preis Gerechtigkeitspunkte.
+
+--Quest 12 Horde
+Inst47Quest12_HORDE = Inst47Quest12
+Inst47Quest12_HORDE_Level = "70"
+Inst47Quest12_HORDE_Attain = "70"
+Inst47Quest12_HORDE_Aim = Inst47Quest12_Aim
+Inst47Quest12_HORDE_Location = Inst47Quest12_Location
+Inst47Quest12_HORDE_Note = Inst47Quest12_Note
+Inst47Quest12_HORDE_Prequest = "Nein"
+Inst47Quest12_HORDE_Folgequest = "Nein"
+--
+Inst47Quest12name1_HORDE = Inst47Quest12name1
 
 
 
@@ -6591,8 +6574,8 @@ Inst48Quest1 = "1. Die Phiolen der Ewigkeit"
 Inst48Quest1_Level = "70"
 Inst48Quest1_Attain = "70"
 Inst48Quest1_Aim = "Soridormi in den Höhlen der Zeit möchte, dass Ihr die Überreste von Vashjs Phiole im Echsenkessel und die Überreste von Kaels Phiole von Kael'thas Sonnenwanderer in der Festung der Stürme besorgt."
-Inst48Quest1_Location = "Soridormi (Tanaris - Höhlen der Zeit; "..YELLOW.."58,57"..WHITE.."). Der NPC läuft in dem Bereich umher."
-Inst48Quest1_Note = "Dies ist die Vorquest für die Schlacht um den Berg Hyjal. Lady Vashj befindet sich bei "..YELLOW.."[6]"..WHITE.."."
+Inst48Quest1_Location = "Soridormi (Tanaris - Höhlen der Zeit; "..YELLOW.."59.0, 53.8"..WHITE.."). Der NPC läuft in dem Bereich umher."
+Inst48Quest1_Note = "Lady Vashj befindet sich bei "..YELLOW.."[6]"..WHITE.."."
 Inst48Quest1_Prequest = "Nein"
 Inst48Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -6603,7 +6586,7 @@ Inst48Quest2_Level = "70"
 Inst48Quest2_Attain = "70"
 Inst48Quest2_Aim = "Reist zum Kerker des Wächters im Schattenmondtal und sprecht mit Akama."
 Inst48Quest2_Location = "Seher Olum (Höhle des Schlangenschreins; "..YELLOW.."[4]"..WHITE..")"
-Inst48Quest2_Note = "Akama befindet sich bei (Schattenmondtal - Kerker des Wächters; "..YELLOW.."58,48"..WHITE..").\n\nDiese Quest ist Teil der Zugangsquestreihe des Schwarzen Tempels, die bei Anachoret Ceyla (Schattenmondtal - Altar der Sha'tar; "..YELLOW.."62,38"..WHITE..") für die Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56,59"..WHITE..") für die Seher startet."
+Inst48Quest2_Note = "Akama befindet sich bei (Schattenmondtal - Kerker des Wächters; "..YELLOW.."58.0, 48.2"..WHITE..").\n\nDiese Quest ist Teil der Zugangsquestreihe des Schwarzen Tempels, die bei Anachoret Ceyla (Schattenmondtal - Altar der Sha'tar; "..YELLOW.."62.6, 28.4"..WHITE..") für die Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56.2, 59.6"..WHITE..") für die Seher startet."
 Inst48Quest2_Prequest = "Ja, Schrifttafeln von Baa'ri -> Akamas Versprechen"
 Inst48Quest2_Folgequest = "Ja, Die List der Aschenzungen ("..YELLOW.."FdS: Festung der Stürme"..WHITE..")"
 Inst48Quest2FQuest = "true"
@@ -6959,7 +6942,7 @@ Inst52Quest1_Level = "70"
 Inst52Quest1_Attain = "70"
 Inst52Quest1_Aim = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt."
 Inst52Quest1_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [3]"..WHITE..")"
-Inst52Quest1_Note = "Das Erdensiegel droppt von Gruul bei "..YELLOW.."[2]"..WHITE..", und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."Karazhan"..WHITE..".\n\nDiese Quest wurde benötigt, um die Höhle des Schlangenschreins zu betreten, ist aber nicht mehr nötig."
+Inst52Quest1_Note = "Das Erdensiegel droppt von Gruul bei "..YELLOW.."[2]"..WHITE..", und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."Karazhan"..WHITE.."."
 Inst52Quest1_Prequest = "Nein"
 Inst52Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -6990,7 +6973,7 @@ Inst53Quest1 = "1. Einschätzung der Situation"
 Inst53Quest1_Level = "70"
 Inst53Quest1_Attain = "68"
 Inst53Quest1_Aim = "Findet Koren in Karazhan."
-Inst53Quest1_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest1_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
 Inst53Quest1_Note = "Koren befindet sich in Karazhan hinter Attumen dem Jäger bei "..GREEN.."[4']"..WHITE.."."
 Inst53Quest1_Prequest = "Ja, Arkane Störungen -> Das Violette Auge"
 Inst53Quest1_Folgequest = "Ja, Keannas Aufzeichnungen"
@@ -7003,7 +6986,7 @@ Inst53Quest2_Level = "70"
 Inst53Quest2_Attain = "68"
 Inst53Quest2_Aim = "Durchsucht die Gästezimmer in Karazhan nach Keannas Aufzeichnungen und bringt sie zu Erzmagier Alturus außerhalb von Karazhan."
 Inst53Quest2_Location = "Koren (Karazhan; "..GREEN.."[4']"..WHITE..")"
-Inst53Quest2_Note = "Die Aufzeichnungen befindet sich in dem zweiten Raum des Gangs, der zur Tugendhaften Maid bei "..GREEN.."[6']"..WHITE.." führt, auf einem Tisch. Erzmagier Alturus befindet sich bei (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")."
+Inst53Quest2_Note = "Die Aufzeichnungen befindet sich in dem zweiten Raum des Gangs, der zur Tugendhaften Maid bei "..GREEN.."[6']"..WHITE.." führt, auf einem Tisch. Erzmagier Alturus befindet sich bei (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")."
 Inst53Quest2_Prequest = "Ja, Einschätzung der Situation"
 Inst53Quest2_Folgequest = "Ja, Eine dämonische Präsenz"
 Inst53Quest2FQuest = "true"
@@ -7014,7 +6997,7 @@ Inst53Quest3 = "3. Eine dämonische Präsenz"
 Inst53Quest3_Level = "70"
 Inst53Quest3_Attain = "68"
 Inst53Quest3_Aim = "Erzmagier Alturus möchte, dass Ihr die dämonische Präsenz an der Turmspitze von Karazhan zerstört."
-Inst53Quest3_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest3_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
 Inst53Quest3_Note = "Prinz Malchezaar befindet sich bei "..YELLOW.."[12]"..WHITE.."."
 Inst53Quest3_Prequest = "Ja, Keannas Aufzeichnungen"
 Inst53Quest3_Folgequest = "Ja, Neue Anweisungen"
@@ -7026,8 +7009,8 @@ Inst53Quest4 = "4. Neue Anweisungen"
 Inst53Quest4_Level = "70"
 Inst53Quest4_Attain = "68"
 Inst53Quest4_Aim = "Sprecht mit Erzmagier Cedric am Rande von Dalaran."
-Inst53Quest4_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest4_Note = "Erzmagier Cedric befindet sich bei (Alteracgebirge - Dalaran; "..YELLOW.."15,54"..WHITE..")"
+Inst53Quest4_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
+Inst53Quest4_Note = "Erzmagier Cedric befindet sich bei (Vorgebirge des Hügellands - Dalarankrater; "..YELLOW.."30.8, 30.8"..WHITE..")"
 Inst53Quest4_Prequest = "Ja, Eine dämonische Präsenz"
 Inst53Quest4_Folgequest = "Nein"
 Inst53Quest4PreQuest = "true"
@@ -7039,7 +7022,7 @@ Inst53Quest5 = "5. Medivhs Tagebuch"
 Inst53Quest5_Level = "70"
 Inst53Quest5_Attain = "70"
 Inst53Quest5_Aim = "Erzmagier Alturus am Gebirgspass der Totenwinde möchte, dass Ihr nach Karazhan geht und mit Wravien sprecht."
-Inst53Quest5_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest5_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
 Inst53Quest5_Note = "Benötigt Wohlwollend beim Violetten Auge. Wravien befindet sich in der Bibliothek der Wächter hinter dem Kurator bei "..GREEN.."[10']"..WHITE.."."
 Inst53Quest5_Prequest = "Nein"
 Inst53Quest5_Folgequest = "Ja, In guten Händen"
@@ -7088,7 +7071,7 @@ Inst53Quest9_Level = "70"
 Inst53Quest9_Attain = "70"
 Inst53Quest9_Aim = "Geht zur Terrasse des Meisters in Karazhan und lest Medivhs Tagebuch. Kehrt danach mit Medivhs Tagebuch zu Erzmagier Alturus zurück."
 Inst53Quest9_Location = "Kamsis (Karazhan; "..GREEN.."[12']"..WHITE..")"
-Inst53Quest9_Note = "Die Terasse des Meisters ist bei "..YELLOW.."[5]"..WHITE..". Führt zu keinem Kampf. Genieß die Darbietung.\n\nErzmagier Alturus befindet sich bei (Gebirgspass der Totenwinde; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest9_Note = "Die Terasse des Meisters ist bei "..YELLOW.."[5]"..WHITE..". Führt zu keinem Kampf. Genieß die Darbietung.\n\nErzmagier Alturus befindet sich bei (Gebirgspass der Totenwinde; "..YELLOW.."47.0, 75.6"..WHITE..")"
 Inst53Quest9_Prequest = "Ja, Arans Schemen"
 Inst53Quest9_Folgequest = "Ja, Die Vergangenheit aufwühlen"
 Inst53Quest9FQuest = "true"
@@ -7099,7 +7082,7 @@ Inst53Quest10 = "10. Die Vergangenheit aufwühlen"
 Inst53Quest10_Level = "70"
 Inst53Quest10_Attain = "70"
 Inst53Quest10_Aim = "Erzmagier Alturus möchte, dass Ihr zu den Bergen südlich von Karazhan im Gebirgspass der Totenwinde geht und ein verkohltes Knochenfragment besorgt."
-Inst53Quest10_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
+Inst53Quest10_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
 Inst53Quest10_Note = "Das verkohlte Knochenfragment befindet sich bei "..YELLOW.."44,78"..WHITE.." im Gebirgspass der Totenwinde."
 Inst53Quest10_Prequest = "Ja, Die Terrasse des Meisters"
 Inst53Quest10_Folgequest = "Ja, Hilfe unter Kollegen"
@@ -7111,8 +7094,8 @@ Inst53Quest11 = "11. Hilfe unter Kollegen"
 Inst53Quest11_Level = "70"
 Inst53Quest11_Attain = "70"
 Inst53Quest11_Aim = "Bringt das verkohlte Knochenfragment zu Kalynna Lathred in Area 52 im Nethersturm."
-Inst53Quest11_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..")"
-Inst53Quest11_Note = "Kalynna Lathred befindet sich bei (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")."
+Inst53Quest11_Location = "Erzmagier Alturus (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
+Inst53Quest11_Note = "Kalynna Lathred befindet sich bei (Nethersturm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")."
 Inst53Quest11_Prequest = "Ja, Die Vergangenheit aufwühlen"
 Inst53Quest11_Folgequest = "Ja, Kalynnas Bitte"
 Inst53Quest11FQuest = "true"
@@ -7123,7 +7106,7 @@ Inst53Quest12 = "12. Kalynnas Bitte"
 Inst53Quest12_Level = "70"
 Inst53Quest12_Attain = "70"
 Inst53Quest12_Aim = "Kalynna Lathred möchte, dass Ihr den Dämmerfolianten vom Großhexenmeister Nethekurse in den zerschmetterten Hallen der Höllenfeuerzitadelle und das Buch der vergessenen Namen von Dunkelwirker Syth in den Sethekkhallen in Auchindoun besorgt."
-Inst53Quest12_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
+Inst53Quest12_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")"
 Inst53Quest12_Note = "Ihr müsst in die Zerschmetterten Hallen und die Sethekkhallen auf dem Schwierigkeitsgrad 'Heroisch' reisen."
 Inst53Quest12_Prequest = "Ja, Hilfe unter Kollegen"
 Inst53Quest12_Folgequest = "Ja, Schrecken der Nacht"
@@ -7135,8 +7118,8 @@ Inst53Quest13 = "13. Schrecken der Nacht"
 Inst53Quest13_Level = "70"
 Inst53Quest13_Attain = "70"
 Inst53Quest13_Aim = "Geht zur Terrasse des Meisters in Karazhan und benutzt Kalynnas Urne, um den Schrecken der Nacht zu rufen. Entzieht dem Körper des Schreckens die schwache arkane Essenz und bringt sie zu Erzmagier Alturus."
-Inst53Quest13_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32,63"..WHITE..")"
-Inst53Quest13_Note = "Schrecken der Nacht wird bei "..YELLOW.."[5]"..WHITE.." beschworen. Kehre zu Erzmagier Alturus bei (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47,75"..WHITE..") zurück, um die Quest abzugeben."
+Inst53Quest13_Location = "Kalynna Lathred (Nethersturm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")"
+Inst53Quest13_Note = "Schrecken der Nacht wird bei "..YELLOW.."[5]"..WHITE.." beschworen. Kehre zu Erzmagier Alturus bei (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..") zurück, um die Quest abzugeben."
 Inst53Quest13_Prequest = "Ja, Kalynnas Bitte"
 Inst53Quest13_Folgequest = "Nein"
 Inst53Quest13PreQuest = "true"
@@ -7151,7 +7134,7 @@ Inst53Quest14_Level = "70"
 Inst53Quest14_Attain = "70"
 Inst53Quest14_Aim = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt."
 Inst53Quest14_Location = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [3]"..WHITE..")"
-Inst53Quest14_Note = "Das Erdensiegel droppt von Gruul bei "..YELLOW.."[2]"..WHITE..", und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."[5]"..WHITE..".\n\nDiese Quest wurde benötigt, um die Höhle des Schlangenschreins zu betreten, ist aber nicht mehr nötig."
+Inst53Quest14_Note = "Das Erdensiegel droppt von Gruul bei "..YELLOW.."[2]"..WHITE..", und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."[5]"..WHITE.."."
 Inst53Quest14_Prequest = "Nein"
 Inst53Quest14_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -7380,7 +7363,7 @@ Inst54Quest4 = "4. Seher Udalo"
 Inst54Quest4_Level = "70"
 Inst54Quest4_Attain = "68"
 Inst54Quest4_Aim = "Sucht Seher Udalo in der Arkatraz in der Festung der Stürme."
-Inst54Quest4_Location = "Akama (Schattenmondtal - Verborgenen Kammer; "..YELLOW.."58,48.2"..WHITE..")"
+Inst54Quest4_Location = "Akama (Schattenmondtal - Verborgenen Kammer; "..YELLOW.."58.0, 48.2"..WHITE..")"
 Inst54Quest4_Note = "Seher Udalo ist bei "..GREEN.."[1']"..WHITE..", kurz vor dem Raum vom Endboss.\n\nDies ist ein Teil vom Schwarzen Tempel Questreihe die von Anachoret Ceyla (Schattenmondtal - Altar der Stürme; "..YELLOW.."62.4,28.4"..WHITE..") für Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56.2,59.4"..WHITE..") für Seher startet."
 Inst54Quest4_Prequest = "Ja, Schrifttafeln von Baa'ri -> Akama"
 Inst54Quest4_Folgequest = "Ja, Ein mysteriöses Omen"
@@ -7601,7 +7584,7 @@ Inst55Quest5 = "5. Den Schlüsselstein erobern"
 Inst55Quest5_Level = "70"
 Inst55Quest5_Attain = "67"
 Inst55Quest5_Aim = "Reist zur Botanika der Festung der Stürme und besorgt Euch den Schlüsselstein von Kommandant Sarannis. Bringt ihn danach zu Erzmagier Vargoth im violetten Turm."
-Inst55Quest5_Location = "Erzmagier Vargoth (Nethersturm - Dorf Kirin'Var; "..YELLOW.."58,86"..WHITE..")"
+Inst55Quest5_Location = "Erzmagier Vargoth (Nethersturm - Dorf Kirin'Var; "..YELLOW.."58.4, 86.6"..WHITE..")"
 Inst55Quest5_Note = "Kommandant Sarannis befindet sich bei "..YELLOW.."[1]"..WHITE..". Der Schlüsselstein droppt im normalen und heroischen Modus."
 Inst55Quest5_Prequest = "Ja, Den Schlüsselmeister finden"
 Inst55Quest5_Folgequest = "Nein"
@@ -7788,7 +7771,7 @@ Inst56Quest5 = "5. Frisch von der Mechanar"
 Inst56Quest5_Level = "69"
 Inst56Quest5_Attain = "67"
 Inst56Quest5_Aim = "David Wayne bei Waynes Zuflucht möchte, dass Ihr ihm eine überladene Manazelle bringt."
-Inst56Quest5_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")."
+Inst56Quest5_Location = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."77.6, 38.6"..WHITE..")."
 Inst56Quest5_Note = "Die Zelle befindet sich vor Mechanolord Kapazitus bei "..YELLOW.."[3]"..WHITE.." in einer Kiste in der Nähe der Mauer.\n\nWenn man diese Quest und Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne.\n\nDas Quest funktioniert im normalen und heroischen Modus."
 Inst56Quest5_Prequest = "Ja, Zusätzliche Materialien"
 Inst56Quest5_Folgequest = "Nein"
@@ -7922,7 +7905,7 @@ Inst61Quest1 = "1. Die List der Aschenzungen"
 Inst61Quest1_Level = "70"
 Inst61Quest1_Attain = "70"
 Inst61Quest1_Aim = "Reist in die Festung der Stürme und tötet Al'ar, während Ihr die Gugel der Aschenzungen tragt. Kehrt nach Abschluß der Aufgabe zu Akama ins Schattenmondtal zurück."
-Inst61Quest1_Location = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58,48"..WHITE..")"
+Inst61Quest1_Location = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58.0, 48.2"..WHITE..")"
 Inst61Quest1_Note = "Teil der Vorquestreihe zum Schwarzen Tempel."
 Inst61Quest1_Prequest = "Ja, Das gefährdete Geheimnis ("..YELLOW.."Höhle des Schlangenschreins"..WHITE..")"
 Inst61Quest1_Folgequest = "Ja, Ein Artefakt aus der Vergangenheit ("..YELLOW.."Hyjalgipfel"..WHITE..")"
@@ -7949,8 +7932,8 @@ Inst61Quest3 = "3. Die Phiolen der Ewigkeit"
 Inst61Quest3_Level = "70"
 Inst61Quest3_Attain = "70"
 Inst61Quest3_Aim = "Soridormi in den Höhlen der Zeit möchte, dass Ihr die Überreste von Vashjs Phiole im Echsenkessel und die Überreste von Kaels Phiole von Kael'thas Sonnenwanderer in der Festung der Stürme besorgt."
-Inst61Quest3_Location = "Soridormi (Tanaris - Höhlen der Zeit; "..YELLOW.."58,57"..WHITE.."). Der NPC läuft in dem Bereich umher."
-Inst61Quest3_Note = "Dies ist die Vorquest für die Schlacht um den Berg Hyjal. Kael'thas Sunstrider befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst61Quest3_Location = "Soridormi (Tanaris - Höhlen der Zeit; "..YELLOW.."59.0, 53.8"..WHITE.."). Sie läuft in dem Bereich umher."
+Inst61Quest3_Note = "Kael'thas Sonnenwanderer befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst61Quest3_Prequest = "Nein"
 Inst61Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -8012,7 +7995,7 @@ Inst62Quest1 = "1. Sucht die Aschenzungen auf"
 Inst62Quest1_Level = "70"
 Inst62Quest1_Attain = "70"
 Inst62Quest1_Aim = "Sucht Akamas Todeshörige im Schwarzen Tempel."
-Inst62Quest1_Location = "Xi'ri (Schattenmondtal; "..YELLOW.."65,44"..WHITE..")."
+Inst62Quest1_Location = "Xi'ri (Schattenmondtal; "..YELLOW.."65.2, 44.0"..WHITE..")."
 Inst62Quest1_Note = "Der Geist von Olum befindet sich hinter dem Eingang des Schwarzen Tempels rauf und dann links bei "..GREEN.."[1']"..WHITE..". Er teleportiert dich zu Seher Kanai, sobald du den Obersten Kriegsfürst Naj'entus bei "..YELLOW.."[2]"..WHITE.." und Supremus bei "..YELLOW.."[3]"..WHITE.." getötet hast."
 Inst62Quest1_Prequest = "Ja, Das gefährdete Geheimnis -> Ein Ablenkungsmanöver für Akama"
 Inst62Quest1_Folgequest = "Ja, Die Erlösung der Aschenzungen"
@@ -8235,71 +8218,103 @@ Inst63Quest5name3_HORDE = Inst63Quest5name3
 
 Inst67Story = "Die Terrasse der Magister ist eine 5-Mann Instanz, die sich in der nord-östlichen Ecke der Insel von Quel'Danas befindet, die mit Patch 2.4.0 veröffentlicht wird. Die Instanz beinhalted hauptsächlich Außenareale, ist in der selben Architektur wie Silbermond gehalten und hat ein Observatorium, mit dem Spieler Sterne und den Sonnenbrunnen betrachten können, um zu überprüfen, ob alles nach Plan gelaufen ist.\n\nDer Endgegner ist niemand Geringerer als Kael'thas Sonnenwanderer,  der seine Prüfung in der Festung der Stürme überlebt hat. Auch wenn manche glauben er wäre wirklich gestorben, aber von einer größeren Macht wieder zum Leben erweckt worden, was auch den grünen Kristall in seiner Brust erklären würde.\n\nBei der Hälfte der Instanz erhält der Spieler die Möglichkeit mit der Seherkugel einen Blick in das Sonnenbrunnenplateau zu werfen. Danach trift der Spieler auf Kalec, den halb-elfischen Avatar des blauen Drachen Kalecgos."
 Inst67Caption = "Terrasse der Magister"
-Inst67QAA = "5 Quests"
-Inst67QAH = "5 Quests"
+Inst67QAA = "8 Quests"
+Inst67QAH = "8 Quests"
 
 --Quest 1 Alliance
-Inst67Quest1 = "1. Gesucht: Schwestern der Qual (Tagesquest)"
+Inst67Quest1 = "1. Terrasse der Magister"
 Inst67Quest1_Level = "70"
 Inst67Quest1_Attain = "70"
-Inst67Quest1_Aim = "Netherpirscher Mah'duun möchte, dass Ihr 4 Schwestern der Qual erschlagt. Kehrt zu ihm in das untere Viertel in Shattrath zurück, sobald Ihr sie getötet habt, um das Kopfgeld einzufordern."
-Inst67Quest1_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
-Inst67Quest1_Note = "Es handelt sich um ein Tagesquest."
-Inst67Quest1_Prequest = "Nein"
+Inst67Quest1_Aim = "Hauptmann Theris Morgenheim möchte, dass Ihr Exarch Larethor in der Terrasse der Magister findet."
+Inst67Quest1_Location = "Exarch Larethor (Terrasse der Magister; "..BLUE.."Eingang"..WHITE..")"
+Inst67Quest1_Note = "Exarch Larethor befindet sich innerhalb der Instanz bei "..BLUE.."Eingang"..WHITE..".\n\nDie Vorquest gibt es entweder von Adyen dem Lichtwächter (Shattrath - Aldorhöhe; "..YELLOW.."30.6,34.4"..WHITE..") oder Dathris Sonnensturm (Shattrath - Sehertreppe; "..YELLOW.."54.4,80.6"..WHITE..")."
+Inst67Quest1_Prequest = "Ja, Krise am Sonnenbrunnen oder Pflicht ruft"
 Inst67Quest1_Folgequest = "Nein"
---
-Inst67Quest1name1 = "Gefängnisschlüssel des Astraleums"
+Inst67Quest1PreQuest = "true"
+-- No Rewards for this quest
 
---Quest 2 Alliance
-Inst67Quest2 = "2. Gesucht: Der Siegelring von Prinz Kael'thas (Heroisches Tagesquest)"
+Inst67Quest2 = "2. Abgerissene Kommunikation"
 Inst67Quest2_Level = "70"
 Inst67Quest2_Attain = "70"
-Inst67Quest2_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm den Siegelring von Prinz Kael'thas zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
-Inst67Quest2_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
-Inst67Quest2_Note = "Dieses Tagesquest kann nur im heroischen Modus abgeschlossen werden.\n\nPrinz Kael'thas Sonnenwanderer befindet sich bei "..YELLOW.."[4]"..WHITE.."."
-Inst67Quest2_Prequest = "Nein"
-Inst67Quest2_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+Inst67Quest2_Aim = "Exarch Larethor in der Terrasse der Magister möchte, dass Ihr den Bluelfenspion Tyrith findet."
+Inst67Quest2_Location = "Exarch Larethor (Terrasse der Magister; "..BLUE.."Eingang"..WHITE..")"
+Inst67Quest2_Note = "Tyrith befindet sich innerhalb der Instanz bei "..GREEN.."[1']"..WHITE.."."
+Inst67Quest2_Prequest = "Ja, Krise am Sonnenbrunnen oder Pflicht ruft"
+Inst67Quest2_Folgequest = "Ja, Der Seher der Seher"
+Inst67Quest2FQuest = "true"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst67Quest3 = "3. Terrasse der Magister"
+Inst67Quest3 = "3. Der Seher der Seher"
 Inst67Quest3_Level = "70"
 Inst67Quest3_Attain = "70"
-Inst67Quest3_Aim = "Exarch Larethor beim Sammelpunkt der Zerschmetterten Sonne möchte, dass Ihr die Terrasse der Magister absucht und einen Blutelfenspion namens Tyrith findet."
-Inst67Quest3_Location = "Exarch Larethor (Insel von Quel'Danas - Sammelpunkt der Zerschmetterten Sonne; "..YELLOW.."47,31"..WHITE..")"
-Inst67Quest3_Note = "Tyrith befindet sich innerhalb der Instanz bei "..GREEN.."[1']"..WHITE..". Diese Questreihe schaltet den Heroischen Modus frei.\n\nDie Vorquest gibt es entweder von Adyen dem Lichtwächter (Shattrath - Aldorhöhe; "..YELLOW.."35,36"..WHITE..") oder Dathris Sonnensturm (Shattrath - Sehertreppe; "..YELLOW.."55,80"..WHITE..")."
-Inst67Quest3_Prequest = "Ja, Krise am Sonnenbrunnen oder Pflicht ruft"
-Inst67Quest3_Folgequest = "Ja, Der Seher der Seher"
+Inst67Quest3_Aim = "Tyrith möchte, dass Ihr die Kugel auf dem Balkon auf der Terrasse der Magister benutzt."
+Inst67Quest3_Location = "Tyrith (Terrasse der Magister; "..GREEN.."[1']"..WHITE..")"
+Inst67Quest3_Note = "Die Seherkugel befindet sich bei "..GREEN.."[2']"..WHITE..". Nach der Sequenz erscheint Kalecgos, um die nächste Quest zu starten."
+Inst67Quest3_Prequest = "Ja, Terrasse der Magister"
+Inst67Quest3_Folgequest = "Ja, Nicht totzukriegen"
 Inst67Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst67Quest4 = "4. Der Seher der Seher"
+Inst67Quest4 = "5. Nicht totzukriegen"
 Inst67Quest4_Level = "70"
 Inst67Quest4_Attain = "70"
-Inst67Quest4_Aim = "Tyrith möchte, dass Ihr die Kugel auf dem Balkon auf der Terrasse der Magister benutzt."
-Inst67Quest4_Location = "Tyrith (Terrasse der Magister; "..GREEN.."[1']"..WHITE..")"
-Inst67Quest4_Note = "Die Seherkugel befindet sich bei "..GREEN.."[2']"..WHITE..". Nach der Sequenz erscheint Kalecgos, um das nächste Quest zu starten."
-Inst67Quest4_Prequest = "Ja, Terrasse der Magister"
-Inst67Quest4_Folgequest = "Ja, Nicht totzukriegen"
-Inst67Quest4FQuest = "true"
--- No Rewards for this quest
+Inst67Quest4_Aim = "Kalecgos hat Euch damit beauftragt, Kael'thas auf der Terrasse der Magister zu bezwingen. Ihr sollt Euch mit Kaels Kopf bei Larethor am Sammelpunkt der Zerschmetterten Sonne treffen."
+Inst67Quest4_Location = "Kalecgos (Terrasse der Magister; "..GREEN.."[2']"..WHITE..")"
+Inst67Quest4_Note = "Prinz Kael'thas Sonnenwanderer befindet sich bei "..YELLOW.."[4]"..WHITE..". Nach Abschluss des Quests ist es möglich die Instanz im heroischen Modus zu absolvieren.\n\nLarethor befindet sich bei (Insel von Quel'Danas - Sammelpunkt der Zerschmetterten Sonne; "..YELLOW.."47,31"..WHITE..")."
+Inst67Quest4_Prequest = "Ja, Der Seher der Seher"
+Inst67Quest4_Folgequest = "Nein"
+Inst67Quest4PreQuest = "true"
+--
+Inst67Quest4name1 = "Feingeschliffener Purpurspinell"
+Inst67Quest4name2 = "Glänzender Purpurspinell"
 
 --Quest 5 Alliance
-Inst67Quest5 = "5. Nicht totzukriegen"
+Inst67Quest5 = "5. Eine radikale Idee"
 Inst67Quest5_Level = "70"
 Inst67Quest5_Attain = "70"
-Inst67Quest5_Aim = "Kalecgos hat Euch damit beauftragt, Kael'thas auf der Terrasse der Magister zu bezwingen. Ihr sollt Euch mit Kaels Kopf bei Larethor am Sammelpunkt der Zerschmetterten Sonne treffen."
-Inst67Quest5_Location = "Kalecgos (Terrasse der Magister; "..GREEN.."[2']"..WHITE..")"
-Inst67Quest5_Note = "Prinz Kael'thas Sonnenwanderer befindet sich bei "..YELLOW.."[4]"..WHITE..". Nach Abschluss des Quests ist es möglich die Instanz im heroischen Modus zu absolvieren.\n\nLarethor befindet sich bei (Insel von Quel'Danas - Sammelpunkt der Zerschmetterten Sonne; "..YELLOW.."47,31"..WHITE..")."
-Inst67Quest5_Prequest = "Ja, Der Seher der Seher"
+Inst67Quest5_Aim = "Exarch Larethor auf der Terrasse der Magister bittet Euch, Vexallus zu töten und seine Essenz an Euch zu bringen."
+Inst67Quest5_Location = "Exarch Larethor (Terrasse der Magister; "..BLUE.."Eingang"..WHITE..")"
+Inst67Quest5_Note = "Vexallus ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst67Quest5_Prequest = "Nein"
 Inst67Quest5_Folgequest = "Nein"
-Inst67Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst67Quest6 = "6. Dunkle Allianzen"
+Inst67Quest6_Level = "70"
+Inst67Quest6_Attain = "70"
+Inst67Quest6_Aim = "Exarch Larethor in der Terrasse der Magister möchte, dass Ihr Selin Feuerherz und Priesterin Delrissa tötet."
+Inst67Quest6_Location = "Exarch Larethor (Terrasse der Magister; "..BLUE.."Eingang"..WHITE..")"
+Inst67Quest6_Note = "Selin Feuerherz ist bei "..YELLOW.."[1]"..WHITE.." and Priesterin Delrissa ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst67Quest6_Prequest = "Nein"
+Inst67Quest6_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst67Quest7 = "7. Gesucht: Schwestern der Qual (Tagesquest)"
+Inst67Quest7_Level = "70"
+Inst67Quest7_Attain = "70"
+Inst67Quest7_Aim = "Netherpirscher Mah'duun möchte, dass Ihr 4 Schwestern der Qual erschlagt. Kehrt zu ihm in das untere Viertel in Shattrath zurück, sobald Ihr sie getötet habt, um das Kopfgeld einzufordern."
+Inst67Quest7_Location = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..WHITE..")"
+Inst67Quest7_Note = "Es handelt sich um ein Tagesquest."
+Inst67Quest7_Prequest = "Nein"
+Inst67Quest7_Folgequest = "Nein"
 --
-Inst67Quest5name1 = "Heller Purpurspinell"
-Inst67Quest5name2 = "Runenverzierter Purpurspinell"
-Inst67Quest5name3 = "Tränenförmiger Purpurspinell"
+Inst67Quest7name1 = "Gefängnisschlüssel des Astraleums"
+
+--Quest 8 Alliance
+Inst67Quest8 = "8. Gesucht: Der Siegelring von Prinz Kael'thas (Heroisches Tagesquest)"
+Inst67Quest8_Level = "70"
+Inst67Quest8_Attain = "70"
+Inst67Quest8_Aim = "Windhändler Zhareem hat Euch darum gebeten, ihm den Siegelring von Prinz Kael'thas zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten."
+Inst67Quest8_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")"
+Inst67Quest8_Note = "Dieses Tagesquest kann nur im heroischen Modus abgeschlossen werden.\n\nPrinz Kael'thas Sonnenwanderer befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst67Quest8_Prequest = "Nein"
+Inst67Quest8_Folgequest = "Nein"
+--
+-- Preis Gerechtigkeitspunkte.
 
 
 --Quest 1 Horde
@@ -8311,8 +8326,8 @@ Inst67Quest1_HORDE_Location = Inst67Quest1_Location
 Inst67Quest1_HORDE_Note = Inst67Quest1_Note
 Inst67Quest1_HORDE_Prequest = "Nein"
 Inst67Quest1_HORDE_Folgequest = "Nein"
---
-Inst67Quest1name1_HORDE = Inst67Quest1name1
+Inst67Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst67Quest2_HORDE = Inst67Quest2
@@ -8323,8 +8338,8 @@ Inst67Quest2_HORDE_Location = Inst67Quest2_Location
 Inst67Quest2_HORDE_Note = Inst67Quest2_Note
 Inst67Quest2_HORDE_Prequest = "Nein"
 Inst67Quest2_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+Inst67Quest2FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst67Quest3_HORDE = Inst67Quest3
@@ -8346,9 +8361,11 @@ Inst67Quest4_HORDE_Aim = Inst67Quest4_Aim
 Inst67Quest4_HORDE_Location = Inst67Quest4_Location
 Inst67Quest4_HORDE_Note = Inst67Quest4_Note
 Inst67Quest4_HORDE_Prequest = Inst67Quest4_Prequest
-Inst67Quest4_HORDE_Folgequest = Inst67Quest4_Folgequest
-Inst67Quest4FQuest_HORDE = "true"
--- No Rewards for this quest
+Inst67Quest4_HORDE_Folgequest = "Nein"
+Inst67Quest4PreQuest_HORDE = "true"
+--
+Inst67Quest4name1_HORDE = Inst67Quest4name1
+Inst67Quest4name2_HORDE = Inst67Quest4name2
 
 --Quest 5 Horde
 Inst67Quest5_HORDE = Inst67Quest5
@@ -8357,13 +8374,44 @@ Inst67Quest5_HORDE_Attain = "70"
 Inst67Quest5_HORDE_Aim = Inst67Quest5_Aim
 Inst67Quest5_HORDE_Location = Inst67Quest5_Location
 Inst67Quest5_HORDE_Note = Inst67Quest5_Note
-Inst67Quest5_HORDE_Prequest = Inst67Quest5_Prequest
+Inst67Quest5_HORDE_Prequest = "Nein"
 Inst67Quest5_HORDE_Folgequest = "Nein"
-Inst67Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst67Quest6_HORDE = Inst67Quest6
+Inst67Quest6_HORDE_Level = "70"
+Inst67Quest6_HORDE_Attain = "70"
+Inst67Quest6_HORDE_Aim = Inst67Quest6_Aim
+Inst67Quest6_HORDE_Location = Inst67Quest6_Location
+Inst67Quest6_HORDE_Note = Inst67Quest6_Note
+Inst67Quest6_HORDE_Prequest = "Nein"
+Inst67Quest6_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst67Quest7_HORDE = Inst67Quest7
+Inst67Quest7_HORDE_Level = "70"
+Inst67Quest7_HORDE_Attain = "70"
+Inst67Quest7_HORDE_Aim = Inst67Quest7_Aim
+Inst67Quest7_HORDE_Location = Inst67Quest7_Location
+Inst67Quest7_HORDE_Note = Inst67Quest7_Note
+Inst67Quest7_HORDE_Prequest = "Nein"
+Inst67Quest7_HORDE_Folgequest = "Nein"
 --
-Inst67Quest5name1_HORDE = Inst67Quest5name1
-Inst67Quest5name2_HORDE = Inst67Quest5name2
-Inst67Quest5name3_HORDE = Inst67Quest5name3
+Inst67Quest7name1_HORDE = Inst67Quest7name1
+
+--Quest 8 Horde
+Inst67Quest8_HORDE = Inst67Quest8
+Inst67Quest8_HORDE_Level = "70"
+Inst67Quest8_HORDE_Attain = "70"
+Inst67Quest8_HORDE_Aim = Inst67Quest8_Aim
+Inst67Quest8_HORDE_Location = Inst67Quest8_Location
+Inst67Quest8_HORDE_Note = Inst67Quest8_Note
+Inst67Quest8_HORDE_Prequest = "Nein"
+Inst67Quest8_HORDE_Folgequest = "Nein"
+--
+-- Preis Gerechtigkeitspunkte.
 
 
 
@@ -8502,7 +8550,7 @@ Inst70Quest2_Level = "71"
 Inst70Quest2_Attain = "68"
 Inst70Quest2_Aim = "Verteidiger Mordun möchte, dass Ihr 5 Waffen der Vrykul stehlt."
 Inst70Quest2_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
-Inst70Quest2_Note = "Die Waffen der Vykul können überall in der Instant in den Waffenständern gefunden werden."
+Inst70Quest2_Note = "Die Waffen der Vykul können überall in der Instanz in den Waffenständern gefunden werden."
 Inst70Quest2_Prequest = "Nein"
 Inst70Quest2_Folgequest = "Nein"
 --
@@ -8581,16 +8629,16 @@ Inst71Story = {
   ["MaxPages"] = "2",
 };
 Inst71Caption = "Turm Utgarde"
-Inst71QAA = "2 Quests"
-Inst71QAH = "2 Quests"
+Inst71QAA = "3 Quests"
+Inst71QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst71Quest1 = "1. Schrott in der Truhe"
 Inst71Quest1_Level = "80"
 Inst71Quest1_Attain = "78"
 Inst71Quest1_Aim = "Brigg im Turm Utgarde möchte, dass Ihr 5 blitzblanke Silberbarren, 3 glänzende Schmuckstücke, 2 goldene Kelche und eine Jadestatue beschafft."
-Inst71Quest1_Location = "Brigg Kleinkeul (Turm Utgarde; "..YELLOW.."[A]"..WHITE..")"
-Inst71Quest1_Note = "Die Gegenstände können überall in der Instanz gefunden werden.Die glänzende Schmuckstücke sind nicht die Selben die man fürs Angeln benutzt."
+Inst71Quest1_Location = "Brigg Kleinkeul (Turm Utgarde; "..BLUE.."Eingang"..WHITE..")"
+Inst71Quest1_Note = "Die Gegenstände können überall in der Instanz gefunden werden. Die glänzende Schmuckstücke sind nicht die Selben die man fürs Angeln benutzt."
 Inst71Quest1_Prequest = "Nein"
 Inst71Quest1_Folgequest = "Nein"
 --
@@ -8604,7 +8652,7 @@ Inst71Quest2 = "2. Die Rache ist mein!"
 Inst71Quest2_Level = "80"
 Inst71Quest2_Attain = "78"
 Inst71Quest2_Aim = "Brigg im Turm Utgarde möchte, dass Ihr König Ymiron tötet."
-Inst71Quest2_Location = "Brigg Kleinkeul (Turm Utgarde; "..YELLOW.."[A]"..WHITE..")"
+Inst71Quest2_Location = "Brigg Kleinkeul (Turm Utgarde; "..BLUE.."Eingang"..WHITE..")"
 Inst71Quest2_Note = "König Ymiron ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst71Quest2_Prequest = "Nein"
 Inst71Quest2_Folgequest = "Nein"
@@ -8614,6 +8662,17 @@ Inst71Quest2name2 = "Kopfschutz des Gegenschlags"
 Inst71Quest2name3 = "Helm der gerechten Vergeltung"
 Inst71Quest2name4 = "Gesichtsschutz der Strafe"
 Inst71Quest2name5 = "Plattenhelm der zornigen Rache"
+
+--Quest 3 Alliance
+Inst71Quest3 = "3. Die Wurzel des Übels"
+Inst71Quest3_Level = "80"
+Inst71Quest3_Attain = "78"
+Inst71Quest3_Aim = "Argentumbeichtpatin Blondlocke möchte, dass Ihr Svala Grabesleid tötet."
+Inst71Quest3_Location = "Argentumbeichtpatin Blondlocke (Turm Utgarde; "..BLUE.."Eingang"..WHITE..")"
+Inst71Quest3_Note = "Svala Grabesleid ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst71Quest3_Prequest = "Nein"
+Inst71Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -8647,6 +8706,16 @@ Inst71Quest2name3_HORDE = Inst71Quest2name3
 Inst71Quest2name4_HORDE = Inst71Quest2name4
 Inst71Quest2name5_HORDE = Inst71Quest2name5
 
+--Quest 3 Horde
+Inst71Quest3_HORDE = Inst71Quest3
+Inst71Quest3_HORDE_Level = "80"
+Inst71Quest3_HORDE_Attain = "78"
+Inst71Quest3_HORDE_Aim = Inst71Quest3_Aim
+Inst71Quest3_HORDE_Location = Inst71Quest3_Location
+Inst71Quest3_HORDE_Note = Inst71Quest3_Note
+Inst71Quest3_HORDE_Prequest = "Nein"
+Inst71Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 --------------- INST72 - The Nexus: The Nexus ---------------
@@ -12286,29 +12355,368 @@ Inst113QAH = "Keine Quests"
 
 Inst33Story = "Vor langer Zeit schickte der Hexenmeister Guldan einen Klan der Orcs ins Exil, weil es dieser Klan gewagt hatte, sich der schleichenden Korruption der Orcs durch die Brennende Legion entgegenzustellen. Der Frostwolfklan zog sich in ein abgelegenes Tal des Alteracgebirges zurück, wo sie sich vor Guldans Rache versteckten. Im unwirtlichen Alteractal fristeten die Orcs ein von der Welt abgeschiedenes, karges Dasein... bis Thrall kam.\nNach Thralls triumphaler Vereinigung der Klans entschlossen sich die Frostwölfe unter der Führung des Schamanen Drek'Thar, in dem Tal zu bleiben, das so lange ihre Heimat gewesen war. In jüngster Zeit wurde der Frieden des Frostwolfklans jedoch durch die Ankunft der zwergischen Sturmlanzen-Expedition gestört.\nDie Sturmlanzen haben sich auf der Suche nach Rohstoffen und Relikten aus der zwergischen Vorgeschichte im Tal angesiedelt. Trotz ihrer friedlichen Absichten hat die Ankunft der Zwerge einen erbitterten Streit mit dem Frostwolfklan entfacht, in dem inzwischen beide Seiten um die alleinige Kontrolle über das Tal kämpfen."
 Inst33Caption = "Alteractal"
-Inst33QAA = "1 Quest"
-Inst33QAH = "1 Quest"
+Inst33QAA = "16 Quest"
+Inst33QAH = "16 Quest"
 
 --Quest 1 Alliance
-Inst33Quest1 = "1. Ruf zu den Waffen: Alteractal (Tagesquest)"
-Inst33Quest1_Level = "51"
+Inst33Quest1 = "1. Flaggenjagd"
+Inst33Quest1_Level = "60"
 Inst33Quest1_Attain = "51"
-Inst33Quest1_Aim = "Gewinnt eine Schlacht im Alteractal und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte oder in Shattrath."
-Inst33Quest1_Location = "Brigadegeneral der Allianz:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4"
-Inst33Quest1_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 51 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst33Quest1_Aim = "Begebt Euch in die Eisschwingenhöhle südwestlich von Dun Baldar und findet das Banner der Sturmlanzen. Bringt anschließend Leutnant Haggerdin im Alteracgebirge das Banner."
+Inst33Quest1_Location = "Leutnant Haggerdin (Vorgebirge des Hügellands; "..YELLOW.."44.6, 46.2"..WHITE..")"
+Inst33Quest1_Note = "Das Banner der Sturmlanzen ist in der Eisschwingenhöhle bei (Alteractal - Nord; "..RED.."[3]"..WHITE.."). Spreche später mit dem selben NPC wenn du eine Stufe des Rufs erhalten hast um ein höheres Abzeichen der Sturmlanzen zu bekommen."
 Inst33Quest1_Prequest = "Nein"
 Inst33Quest1_Folgequest = "Nein"
+--
+Inst33Quest1name1 = "Abzeichen der Sturmlanzen Rang 1"
+Inst33Quest1name2 = "Frostwölfe abserviert"
+
+--Quest 2 Alliance
+Inst33Quest2 = "2. Die Schlacht um Alterac"
+Inst33Quest2_Level = "60"
+Inst33Quest2_Attain = "51"
+Inst33Quest2_Aim = "Betretet das Alteractal, bezwingt den Hordegeneral Drek'thar und kehrt dann zu Ausgrabungsleiter Steinhauer im Alteracgebirge zurück."
+Inst33Quest2_Location = "Ausgrabungsleiter Steinhauer (Vorgebirge des Hügellands; "..YELLOW.."45.2, 45.2"..WHITE..") und\n(Alteractal - Nord; "..YELLOW.."[B]"..WHITE..")"
+Inst33Quest2_Note = "Drek'thar ist bei (Alteractal - Süd; "..BLUE.."[B]"..WHITE.."). Er muß nicht unbedingt sterben um die Quest zu beenden. Das Schlachtfeld muß von Deiner Seite her erfolgreich gewonnen werden.\nNach Abgabe der Quest spreche den NPC wieder an um die Belohnung zu erhalten."
+Inst33Quest2_Prequest = "Nein"
+Inst33Quest2_Folgequest = "Ja, Held der Sturmlanzen"
+--
+Inst33Quest2name1 = "Blutsucher"
+Inst33Quest2name2 = "Eisstachelspeer"
+Inst33Quest2name3 = "Zauberstab der beißenden Kälte"
+Inst33Quest2name4 = "Kaltgeschmiedeter Hammer"
+
+--Quest 3 Alliance
+Inst33Quest3 = "3. Der Rüstmeister"
+Inst33Quest3_Level = "60"
+Inst33Quest3_Attain = "51"
+Inst33Quest3_Aim = "Sprecht mit dem Rüstmeister der Sturmlanzen."
+Inst33Quest3_Location = "Gebirgsjäger Donnerbrüll (Alteractal - Nord; "..YELLOW.."Nähe [3] vor der Brücke"..WHITE..")"
+Inst33Quest3_Note = "Der Rüstmeister der Sturmlanzen ist bei "..GREEN.."[4']"..WHITE.." und versorgt Dich mit weiteren Quests."
+Inst33Quest3_Prequest = "Nein"
+Inst33Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 4 Alliance
+Inst33Quest4 = "4. Vorräte der Eisbeißermine"
+Inst33Quest4_Level = "60"
+Inst33Quest4_Attain = "51"
+Inst33Quest4_Aim = "Bringt 10 Vorräte der Eisbeißermine zum Rüstmeister der Allianz in Dun Baldar."
+Inst33Quest4_Location = "Rüstmeister der Sturmlanzen (Alteractal - Nord; "..GREEN.."[4']"..WHITE..")."
+Inst33Quest4_Note = "Die Vorräte können in der Eisbeißermine gefunden werden bei (Alteractal - Süd; "..GREEN.."[1]"..WHITE..")."
+Inst33Quest4_Prequest = "Nein"
+Inst33Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst33Quest5 = "5. Vorräte der Eisentiefenmine"
+Inst33Quest5_Level = "60"
+Inst33Quest5_Attain = "51"
+Inst33Quest5_Aim = "Bringt 10 Vorräte der Eisentiefenmine zum Rüstmeister der Allianz in Dun Baldar."
+Inst33Quest5_Location = "Rüstmeister der Sturmlanzen (Alteractal - Nord; "..GREEN.."[4']"..WHITE..")."
+Inst33Quest5_Note = "Die Vorräte können in der Eisentiefenmine gefunden werden bei (Alteractal - Nord; "..GREEN.."[1]"..WHITE..")."
+Inst33Quest5_Prequest = "Nein"
+Inst33Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst33Quest6 = "6. Rüstungsfetzen"
+Inst33Quest6_Level = "60"
+Inst33Quest6_Attain = "51"
+Inst33Quest6_Aim = "Bringt Murgot Tiefenschmied in Dun Baldar 20 Rüstungsfetzen."
+Inst33Quest6_Location = "Murgot Tiefenschmied (Alteractal - Nord; "..GREEN.."[2']"..WHITE..")"
+Inst33Quest6_Note = "Plünder die Rüstungsfetzen von den toten Feinden. Die Folgequest ist die selbe und wiederholbar."
+Inst33Quest6_Prequest = "Nein"
+Inst33Quest6_Folgequest = "Ja, Mehr Rüstungsfetzen"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst33Quest7 = "7. Eine Mine erobern"
+Inst33Quest7_Level = "60"
+Inst33Quest7_Attain = "51"
+Inst33Quest7_Aim = "Erobert eine Mine, die die Sturmlanzen noch nicht kontrollieren, und kehrt dann zu Unteroffizier Durgen Sturmlanze im Alteracgebirge zurück."
+Inst33Quest7_Location = "Unteroffizier Durgen Sturmlanze (Vorgebirge des Hügellands; "..YELLOW.."43.0, 43.8"..WHITE..")"
+Inst33Quest7_Note = "Um diese Quest abzuschließen mußt Du entweder Morloch in der Eisentiefenmine bei (Alteractal - Nord; "..GREEN.."[1]"..WHITE..") töten oder Taskmaster Snivvle in der Eisbeißermine bei (Alteractal - Süd; "..GREEN.."[1]"..WHITE..") töten wenn diese unter der Kontrolle der Horde ist."
+Inst33Quest7_Prequest = "Nein"
+Inst33Quest7_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst33Quest8 = "8. Türme und Bunker"
+Inst33Quest8_Level = "60"
+Inst33Quest8_Attain = "51"
+Inst33Quest8_Aim = "Zerstört das Banner im Inneren eines gegnerischen Bunkers oder Turms. Kehrt anschließend zu Unteroffizier Durgen Sturmlanze im Alteracgebirge zurück."
+Inst33Quest8_Location = "Unteroffizier Durgen Sturmlanze (Vorgebirge des Hügellands; "..YELLOW.."43.0, 43.8"..WHITE..")"
+Inst33Quest8_Note = "Beachte: Die Türme oder Bunker müssen nicht komplett zerstört werden, es reicht wenn man sie angreift um die Quest zu beenden."
+Inst33Quest8_Prequest = "Nein"
+Inst33Quest8_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst33Quest9 = "9. Die Friedhöfe im Alteractal"
+Inst33Quest9_Level = "60"
+Inst33Quest9_Attain = "51"
+Inst33Quest9_Aim = "Erobert einen Friedhof und kehrt zu Unteroffizier Durgen Sturmlanze im Alteracgebirge zurück."
+Inst33Quest9_Location = "Unteroffizier Durgen Sturmlanze (Vorgebirge des Hügellands; "..YELLOW.."43.0, 43.8"..WHITE..")"
+Inst33Quest9_Note = "Beachte: Du mußt nichts machen außer in der Nähe eines Firedhofes sein was die Allianz angreift wenn diese unter der Kontrolle der Horde ist, um diese Quest abzuschließen."
+Inst33Quest9_Prequest = "Nein"
+Inst33Quest9_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst33Quest10 = "10. Verwaiste Ställe"
+Inst33Quest10_Level = "60"
+Inst33Quest10_Attain = "51"
+Inst33Quest10_Aim = "Findet einen Alteracwidder im Alteractal. Wenn Ihr Euch in der Nähe eines Alteracwidders befindet, benutzt das Zähmungshalsband der Sturmlanzen um das Tier einzufangen. Nach erfolgreicher Zähmung, folgt Euch der Alteracwidder bis zum Stallmeister zurück. Sprecht mit dem Stallmeister um für Euren Fang belohnt zu werden."
+Inst33Quest10_Location = "Stallmeister der Sturmlanzen (Alteractal - Nord; "..GREEN.."[3']"..WHITE..")"
+Inst33Quest10_Note = "Du findest die Widder außerhalb der Basis. Der Zähmungsprozess ist der selbe wie beim Jäger der sein neues Pet zähmen will. Diese Quest ist 25 mal wiederholbar in einer einzigsten Schlacht und kann nur von einem oder allen gemacht werden. Nachdem 25 Widder gezähmt wurden bekommt die Sturmlanzenkaverlarie Unterstüzung für die Schlacht."
+Inst33Quest10_Prequest = "Nein"
+Inst33Quest10_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst33Quest11 = "11. Widderzaumzeug"
+Inst33Quest11_Level = "60"
+Inst33Quest11_Attain = "51"
+Inst33Quest11_Aim = "Du mußt den Feind an Ihrer Basis angreifen die Frostwölfe die auf Ihren Reittieren sitzen besiegen und Ihnen dann anschließend die Frostwolfbälge abnehmen. Kehre mit den Frostwolfbälge zurück, sodass aus denen neues Geschirr gemacht werden kann für die Kaverlerie. Los geh!"
+Inst33Quest11_Location = "Kommandant der Sturmlanzenwidderreiter (Alteractal - Nord; "..GREEN.."[6']"..WHITE..")"
+Inst33Quest11_Note = "Die Frostwölfe können im südlichen Teil des Alteractals gefunden werden."
+Inst33Quest11_Prequest = "Nein"
+Inst33Quest11_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst33Quest12 = "12. Haufenweise Kristalle"
+Inst33Quest12_Level = "60"
+Inst33Quest12_Attain = "51"
+Inst33Quest12_Aim = "Es gibt Zeiten, in der Du für Tage oder Wochen verschnazt bist und kein Kampf stattfindet. Während dieser längeren Periode der Inaktivität, kannst Du großen Sturmkristalle der Frostwölfe sammeln gehn.\n\nDer Zirkel akzeptiert solche Opferungen."
+Inst33Quest12_Location = "Erzdruide Renferal (Alteractal - Nord; "..GREEN.."[1']"..WHITE..")"
+Inst33Quest12_Note = "Nachdem 200 Sturmkristalle abgeliefert wurden beginnt Erzdruide Renferal nach (Alteractal - Nord; "..GREEN.."[7']"..WHITE..") zu laufen. Dort angekommen, beginnt er ein Ritual, wobei 10 Spieler assistieren müssen. Wenn erfolgreich, wird Ivus der Waldfürst dazu aufgefordert, in der Schlacht zu helfen."
+Inst33Quest12_Prequest = "Nein"
+Inst33Quest12_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst33Quest13 = "13. Ivus der Waldfürst"
+Inst33Quest13_Level = "60"
+Inst33Quest13_Attain = "51"
+Inst33Quest13_Aim = "Der Frostwolfclan wird durch eine elementare Energie geschützt. Deren Schamanen manipulieren diese Energie und werden uns durch Ihre Einmischung alle zerstören.\n\nDie Frostwolfsoldaten tragen bezaubernde Amulette genannt Sturmkristall. Wir können die Amulette benutzen um Ivus zu beschwören. Behaupte Dich und fordere die Kristalle."
+Inst33Quest13_Location = "Erzdruide Renferal (Alteractal - Nord; "..GREEN.."[1']"..WHITE..")"
+Inst33Quest13_Note = "Nachdem 200 Sturmkristalle abgeliefert wurden beginnt Erzdruide Renferal nach (Alteractal - Nord; "..GREEN.."[7']"..WHITE..") zu laufen. Dort angekommen, beginnt er ein Ritual, wobei 10 Spieler assistieren müssen. Wenn erfolgreich, wird Ivus der Waldfürst dazu aufgefordert, in der Schlacht zu helfen."
+Inst33Quest13_Prequest = "Nein"
+Inst33Quest13_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst33Quest14 = "14. Ruf der Lüfte - Erzrutschs Luftflotte"
+Inst33Quest14_Level = "60"
+Inst33Quest14_Attain = "51"
+Inst33Quest14_Aim = "Meine Greifen sind bereit an die Front anzugreifen. Sie können aber erst zuschlagen wenn die Feinde dezimiert wurden.\n\nDie Frostwolfkrieger halten die Frontlinien die mit Stolz Ihrer Medaillien tragen. Reiße Ihnen die Medaillien von Ihren faulenden Kadaver ab und bringe sie zu mir.\n\nSobald die Frontlienie ausgedünnt ist, werde ich den Ruf der Lüfte starten! Tod von Oben!"
+Inst33Quest14_Location = "Schwadronskommandant Erzrutsch (Alteractal - Nord; "..GREEN.."[5']"..WHITE..")"
+Inst33Quest14_Note = "Töte die Horden NPC's für die Medaille des Soldaten der Frostwölfe."
+Inst33Quest14_Prequest = "Nein"
+Inst33Quest14_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 15 Alliance
+Inst33Quest15 = "15. Ruf der Lüfte - Vipores Luftflotte"
+Inst33Quest15_Level = "60"
+Inst33Quest15_Attain = "51"
+Inst33Quest15_Aim = "Die Elite Frostwolfeinheiten die die Linie schützen, müssen beschäftigt werden, Soldat! Ich beauftrage Dich hiermit die Linie zu verdünnen. Kehre zurück zu mir mit den Medailien von den Leutnants und Legionäre. Wenn ich finde das genug von denen gesammelt hast, werde ich den Luftangriff starten."
+Inst33Quest15_Location = "Schwadronskommandant Vipore (Alteractal - Nord; "..GREEN.."[5']"..WHITE..")"
+Inst33Quest15_Note = "Töte Horde NPCs für die Medaillen des Leutnants der Frostwölfe."
+Inst33Quest15_Prequest = "Nein"
+Inst33Quest15_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 16 Alliance
+Inst33Quest16 = "16. Ruf der Lüfte - Ichmans Luftflotte"
+Inst33Quest16_Level = "60"
+Inst33Quest16_Attain = "51"
+Inst33Quest16_Aim = "Kehrt zum Schlachtfeld zurückund greife die Komanndozentrale der Forstwölfe an. Vernichte deren Komannder und Wächter. Kehre zurück zu mir mit Ihren Medailien soviele wie Du in deine Taschen hast! Ich verspreche Dir, wenn meine Greifen die Gaben und das Blut riechen unserer Feinde, wollen sie erneut fliegen! Geh jetzt!"
+Inst33Quest16_Location = "Schwadronskommandant Ichman (Alteractal - Nord; "..GREEN.."[5']"..WHITE..")"
+Inst33Quest16_Note = "Töte Horde NPCs für die Medaillen des Kommandanten der Frostwölfe. Nachdem 50 Medailien abgegeben wurden, wird Schwadronskommandant Ichman einen Greifen losschicken und die Hauptbasis der Horde angreifen oder gibt dir eine Leuchtpistole für den Schneewehenfriedhof. Wenn das leuchtfeuer lang genug beschützt wird, wird ein Greifen kommen um mit zu verteidigen."
+Inst33Quest16_Prequest = "Nein"
+Inst33Quest16_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
 --Quest 1 Horde
-Inst33Quest1_HORDE = "1. Ruf zu den Waffen: Alteractal (Tagesquest)"
-Inst33Quest1_HORDE_Level = "51"
+Inst33Quest1_HORDE = Inst33Quest1
+Inst33Quest1_HORDE_Level = "60"
 Inst33Quest1_HORDE_Attain = "51"
-Inst33Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Alteractal und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst33Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
-Inst33Quest1_HORDE_Note = Inst33Quest1_Note
+Inst33Quest1_HORDE_Aim = "Begebt Euch in die Höhle der Wildpfoten südöstlich vom Hauptstützpunkt und findet das Banner der Frostwölfe. Bringt anschließend Kriegsmeister Laggrond das Banner."
+Inst33Quest1_HORDE_Location = "Kriegsmeister Laggrond (Vorgebirge des Hügellands; "..YELLOW.."57.8, 33.4"..WHITE..")"
+Inst33Quest1_HORDE_Note = "Das Banner der Frostwölfe befindet sich in der Höhle der Wildpfoten bei (Alteractal - Süd; "..RED.."[6]"..WHITE.."). Spreche später mit dem selben NPC wenn du eine Stufe des Rufs erhalten hast um ein höheres Abzeichen der Frostwölfe zu bekommen."
 Inst33Quest1_HORDE_Prequest = "Nein"
 Inst33Quest1_HORDE_Folgequest = "Nein"
+--
+Inst33Quest1name1 = "Abzeichen der Frostwölfe Rang 1"
+Inst33Quest1name2 = "Schrittweise zum Sieg"
+
+--Quest 2 Horde
+Inst33Quest2_HORDE = "2. Die Schlacht ums Alteractal"
+Inst33Quest2_HORDE_Level = "60"
+Inst33Quest2_HORDE_Attain = "51"
+Inst33Quest2_HORDE_Aim = "Betretet das Alteractal und bezwingt den Zwergengeneral, Vanndar Sturmlanze. Kehrt anschließend zu Voggah Todesgriff im Alteracgebirge zurück."
+Inst33Quest2_HORDE_Location = "Voggah Todesgriff (Vorgebirge des Hügellands; "..YELLOW.."58.6, 34.2"..WHITE..")"
+Inst33Quest2_HORDE_Note = "Vanndar Sturmlanze ist bei (Alteractal - Nord; "..BLUE.."[B]"..WHITE.."). Er muß nicht unbedingt sterben um die Quest zu beenden. Das Schlachtfeld muß von Deiner Seite her erfolgreich gewonnen werden.\nNach Abgabe der Quest spreche den NPC wieder an um die Belohnung zu erhalten."
+Inst33Quest2_HORDE_Prequest = "Nein"
+Inst33Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst33Quest3_HORDE = "3. Sprecht mit unserem Rüstmeister"
+Inst33Quest3_HORDE_Level = "60"
+Inst33Quest3_HORDE_Attain = "51"
+Inst33Quest3_HORDE_Aim = "Sprecht mit dem Rüstmeister der Frostwölfe."
+Inst33Quest3_HORDE_Location = "Jotek (Alteractal - Süd; "..GREEN.."[2']"..WHITE..")"
+Inst33Quest3_HORDE_Note = "Der Rüstmeister der Frostwölfe ist bei "..GREEN.."[4']"..WHITE.."  und versorgt Dich mit weiteren Quests."
+Inst33Quest3_HORDE_Prequest = "Nein"
+Inst33Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst33Quest4_HORDE = Inst33Quest4
+Inst33Quest4_HORDE_Level = "60"
+Inst33Quest4_HORDE_Attain = "51"
+Inst33Quest4_HORDE_Aim = "Bringt 10 Vorräte der Eisbeißermine zum Rüstmeister der Horde in die Burg Frostwolf."
+Inst33Quest4_HORDE_Location = "Rüstmeister der Frostwölfe (Alteractal - Süd; "..GREEN.."[4']"..WHITE..")"
+Inst33Quest4_HORDE_Note = Inst33Quest4_Note
+Inst33Quest4_HORDE_Prequest = "Nein"
+Inst33Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst33Quest5_HORDE = Inst33Quest5
+Inst33Quest5_HORDE_Level = "60"
+Inst33Quest5_HORDE_Attain = "51"
+Inst33Quest5_HORDE_Aim = "Bringt 10 Vorräte der Eisenschachtmine zum Rüstmeister der Horde in die Burg Frostwolf."
+Inst33Quest5_HORDE_Location = "Rüstmeister der Frostwölfe (Alteractal - Süd; "..GREEN.."[4']"..WHITE..")"
+Inst33Quest5_HORDE_Note = Inst33Quest5_Note
+Inst33Quest5_HORDE_Prequest = "Nein"
+Inst33Quest5_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst33Quest6_HORDE = "6. Beute!"
+Inst33Quest6_HORDE_Level = "60"
+Inst33Quest6_HORDE_Attain = "51"
+Inst33Quest6_HORDE_Aim = "Wenn Ihr gegen den Feind kämpft, sammelt die Stücke seiner Rüstung und bringt sie mir. Ich werde diese Stücke nutzen, um Rüstungen für unsere eigenen Truppen herzustellen!"
+Inst33Quest6_HORDE_Location = "Schmied Regzar (Alteractal - Süd; "..GREEN.."[2']"..WHITE..")"
+Inst33Quest6_HORDE_Note = Inst33Quest6_Note
+Inst33Quest6_HORDE_Prequest = "Nein"
+Inst33Quest6_HORDE_Folgequest = "Ja, Mehr Beute!"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst33Quest7_HORDE = Inst33Quest7
+Inst33Quest7_HORDE_Level = "60"
+Inst33Quest7_HORDE_Attain = "51"
+Inst33Quest7_HORDE_Aim = "Erobert eine Mine und kehrt zu Korporal Teeka Murrblut im Alteracgebirge zurück."
+Inst33Quest7_HORDE_Location = "Korporal Teeka Murrblut (Vorgebirge des Hügellands; "..YELLOW.."58.6, 34.2"..WHITE..")"
+Inst33Quest7_HORDE_Note = "Um diese Quest abzuschließen mußt Du entweder Morloch in der Eisentiefenmine bei (Alteractal - Nord; "..GREEN.."[1]"..WHITE..") töten oder Taskmaster Snivvle in der Eisbeißermine bei (Alteractal - Süd; "..GREEN.."[1]"..WHITE..") töten wenn diese unter der Kontrolle der Allianz ist."
+Inst33Quest7_HORDE_Prequest = "Nein"
+Inst33Quest7_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 8 Horde
+Inst33Quest8_HORDE = Inst33Quest8
+Inst33Quest8_HORDE_Level = "60"
+Inst33Quest8_HORDE_Attain = "51"
+Inst33Quest8_HORDE_Aim = "Erobert einen gegnerischen Turm und kehrt anschließend zu Korporal Teeka Murrblut im Alteracgebirge zurück."
+Inst33Quest8_HORDE_Location = "Korporal Teeka Murrblut (Vorgebirge des Hügellands; "..YELLOW.."58.6, 34.2"..WHITE..")"
+Inst33Quest8_HORDE_Note = Inst33Quest8_Note
+Inst33Quest8_HORDE_Prequest = "Nein"
+Inst33Quest8_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 9 Horde
+Inst33Quest9_HORDE = "9. Die Friedhöfe von Alterac"
+Inst33Quest9_HORDE_Level = "60"
+Inst33Quest9_HORDE_Attain = "51"
+Inst33Quest9_HORDE_Aim = "Erobert einen Friedhof und kehrt zu Korporal Teeka Murrblut im Alteracgebirge zurück."
+Inst33Quest9_HORDE_Location = "Korporal Teeka Murrblut (Vorgebirge des Hügellands; "..YELLOW.."58.6, 34.2"..WHITE..")"
+Inst33Quest9_HORDE_Note = "Beachte: Du mußt nichts machen außer in der Nähe eines Friedhofes sein was die Horde angreift wenn diese unter der Kontrolle der Allianz ist, um diese Quest abzuschließen."
+Inst33Quest9_HORDE_Prequest = "Nein"
+Inst33Quest9_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 10 Horde
+Inst33Quest10_HORDE = Inst33Quest10
+Inst33Quest10_HORDE_Level = "60"
+Inst33Quest10_HORDE_Attain = "51"
+Inst33Quest10_HORDE_Aim = "Findet einen Frostwolf im Alteractal. Wenn Ihr Euch in der Nähe eines Frostwolfs befindet, benutzt den Frostwolfmaulkorb um das Tier einzufangen. Nach erfolgreicher Zähmung, folgt Euch der Frostwolf bis zum Stallmeister zurück. Sprecht mit dem Stallmeister um für Euren Fang belohnt zu werden."
+Inst33Quest10_HORDE_Location = "Stallmeisterin der Frostwölfe (Alteractal - Süd; "..GREEN.."[3']"..WHITE..")"
+Inst33Quest10_HORDE_Note = "Du findest die Frostwölfe außerhalb der Basis. Der Zähmungsprozess ist der selbe wie beim Jäger der sein neues Pet zähmen will. Diese Quest ist 25 mal wiederholbar in einer einzigsten Schlacht und kann nur von einem oder allen gemacht werden. Nachdem 25 Frostwölfe gezähmt wurden bekommt die Frostwolfkaverlarie Unterstüzung für die Schlacht."
+Inst33Quest10_HORDE_Prequest = "Nein"
+Inst33Quest10_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 11 Horde
+Inst33Quest11_HORDE = "11. Widderledernes Zaumzeug"
+Inst33Quest11_HORDE_Level = "60"
+Inst33Quest11_HORDE_Attain = "51"
+Inst33Quest11_HORDE_Aim = "Du mußt die hier eingeborenen Widder erlegen. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
+Inst33Quest11_HORDE_Location = "Wolfsreiterkommandant der Frostwölfe (Alteractal - Süd; "..GREEN.."[3']"..WHITE..")"
+Inst33Quest11_HORDE_Note = "Die Widder können im nördlichen Teil des Alteractals gefunden werden."
+Inst33Quest11_HORDE_Prequest = "Nein"
+Inst33Quest11_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 12 Horde
+Inst33Quest12_HORDE = "12. Eine Gallone Blut"
+Inst33Quest12_HORDE_Level = "60"
+Inst33Quest12_HORDE_Attain = "51"
+Inst33Quest12_HORDE_Aim = "Wenn Ihr Euch nützlich machen wollt, spendet mir große Mengen Feindesblut. Ich wäre hocherfreut, Gallonen von Blut entgegen zu nehmen."
+Inst33Quest12_HORDE_Location = "Primalist Thurloga (Alteractal - Süd; "..GREEN.."[2']"..WHITE..")"
+Inst33Quest12_HORDE_Note = "Nachdem 150 abgeliefert wurden beginnt Primalist Thurloga nach (Alteractal - Süd; "..GREEN.."[1']"..WHITE..") zu laufen. Dort angekommen, beginnt sie ein Ritual, wobei 10 Spieler assistieren müssen. Wenn erfolgreich, wird Lokholar der Eislord dazu aufgefordert, in der Schlacht zu helfen."
+Inst33Quest12_HORDE_Prequest = "Nein"
+Inst33Quest12_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 13 Horde
+Inst33Quest13_HORDE = "13. Lokholar der Eislord"
+Inst33Quest13_HORDE_Level = "60"
+Inst33Quest13_HORDE_Attain = "51"
+Inst33Quest13_HORDE_Aim = "Ihr müsst unsere Feinde niederstrecken und mir ihr Blut bringen. Wenn Ihr ausreichend Blut gesammelt habt, dann kann das Ritual der Beschwörung beginnen.\n\nDer Sieg ist uns sicher, wenn der Lord der Elementare auf die Armee der Sturmlanzen losgelassen wird."
+Inst33Quest13_HORDE_Location = "Primalist Thurloga (Alteractal - Süd; "..GREEN.."[2']"..WHITE..")"
+Inst33Quest13_HORDE_Note = "Nachdem 150 abgeliefert wurden beginnt Primalist Thurloga nach (Alteractal - Süd; "..GREEN.."[1']"..WHITE..") zu laufen. Dort angekommen, beginnt sie ein Ritual, wobei 10 Spieler assistieren müssen. Wenn erfolgreich, wird Lokholar der Eislord dazu aufgefordert, in der Schlacht zu helfen."
+Inst33Quest13_HORDE_Prequest = "Nein"
+Inst33Quest13_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 14 Horde
+Inst33Quest14_HORDE = "14. Ruf der Lüfte - Guses Luftflotte"
+Inst33Quest14_HORDE_Level = "60"
+Inst33Quest14_HORDE_Attain = "51"
+Inst33Quest14_HORDE_Aim = "Meine Reiter sind bereit, einen Schlag auf dem zentralen Schlachtfeld zu landen, aber zuerst muss ich ihnen den Mund wässrig machen - sie auf den Angriff vorbereiten.\n\nIch benötige ausreichend Soldatenfleisch der Allianz, um eine Flotte zu ernähren! Hunderte Pfund! Ihr könnt das doch sicherlich übernehmen, nicht wahr? Geht schon!"
+Inst33Quest14_HORDE_Location = "Schwadronskommandant Guse (Alteractal - Süd; "..GREEN.."[5']"..WHITE..")"
+Inst33Quest14_HORDE_Note = "Töte die Allianz NPC's für das Fleisch eines Sturmlanzensoldaten. Beachte: Es werden 90 Fleischstücke benötigt damit Schwadronskommandant tut was immer sie auch tun will."
+Inst33Quest14_HORDE_Prequest = "Nein"
+Inst33Quest14_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 15 Horde
+Inst33Quest15_HORDE = "15. Ruf der Lüfte - Jeztors Luftflotte"
+Inst33Quest15_HORDE_Level = "60"
+Inst33Quest15_HORDE_Attain = "51"
+Inst33Quest15_HORDE_Aim = "Meine Kriegsreiter müssen das Fleisch ihrer Ziele schmecken. Damit wird ein chirurgischer Schlag gegen unsere Feinde sichergestellt!\n\nMeine Flotte ist die zweitmächtigste in unserem Luftkommando. Daher wird sie beim mächtigsten unserer Gegner zuschlagen. Und dafür benötigt sie das Fleisch der Leutnants der Allianz."
+Inst33Quest15_HORDE_Location = "Schwadronskommandant Jeztor (Alteractal - Süd; "..GREEN.."[5']"..WHITE..")"
+Inst33Quest15_HORDE_Note = "Töte Allianz NPCs für das Fleisch eines Sturmlanzenleutnants."
+Inst33Quest15_HORDE_Prequest = "Nein"
+Inst33Quest15_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 16 Horde
+Inst33Quest16_HORDE = "16. Ruf der Lüfte - Mulvericks Luftflotte"
+Inst33Quest16_HORDE_Level = "60"
+Inst33Quest16_HORDE_Attain = "51"
+Inst33Quest16_HORDE_Aim = "Zuerst benötigen meine Kriegsreiter Ziele, auf die sie sich konzentrieren können - Ziele von hoher Priorität. Ich muss das Fleisch der Kommandanten der Allianz an sie verfüttern. Leider haben sich diese kleinen Mistkerle tief hinter den feindlichen Linien verschanzt! Diese Arbeit ist wahrlich wie geschaffen für Euch."
+Inst33Quest16_HORDE_Location = "Schwadronskommandant Mulverick (Alteractal - Süd; "..GREEN.."[5']"..WHITE..")"
+Inst33Quest16_HORDE_Note = "Töte Allianz NPCs für das Fleisch eines Sturmlanzenkommandanten."
+Inst33Quest16_HORDE_Prequest = "Nein"
+Inst33Quest16_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -12317,99 +12725,77 @@ Inst33Quest1_HORDE_Folgequest = "Nein"
 
 Inst34Story = "Das Arathibecken im Arathihochland ist ein dynamisches und spannendes Schlachtfeld. Das Talbecken selbst verfügt über wertvolle Rohstoffe, um die die Allianz und die Horde erbitterte Schlachten austragen. Die Verlassenen Entweihten und der Bund von Arathor sind im Talbecken, um die Rohstoffe des Talbeckens für ihre Seite zu sichern und ihrem Gegner eine empfindliche Niederlage beizubringen."
 Inst34Caption = "Arathibecken"
-Inst34QAA = "4 Quests"
-Inst34QAH = "4 Quests"
+Inst34QAA = "3 Quests"
+Inst34QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst34Quest1 = "1. Ruf zu den Waffen: Arathibecken (Tagesquest)"
-Inst34Quest1_Level = "20"
-Inst34Quest1_Attain = "20"
-Inst34Quest1_Aim = "Gewinnt eine Schlacht im Arathibecken und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte oder in Shattrath."
-Inst34Quest1_Location = "Brigadegeneral der Allianz:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4"
-Inst34Quest1_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 20 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
+Inst34Quest1 = "1. Die Schlacht um das Arathibecken!"
+Inst34Quest1_Level = "25"
+Inst34Quest1_Attain = "25"
+Inst34Quest1_Aim = "Erobert die Mine, das Sägewerk, die Schmiede und die Farm und meldet Euch anschließend bei Feldmarschall Lichtmark in der Zuflucht."
+Inst34Quest1_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."40.0, 46.8"..WHITE..")"
+Inst34Quest1_Note = "Die Orte die man erobern muss, sind auf der Karte mit 2 bis 5 markiert."
 Inst34Quest1_Prequest = "Nein"
 Inst34Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst34Quest2 = "2. Die Schlacht um das Arathibecken!"
-Inst34Quest2_Level = "25"
-Inst34Quest2_Attain = "25"
-Inst34Quest2_Aim = "Erobert die Mine, das Sägewerk, die Schmiede und die Farm und meldet Euch anschließend bei Feldmarschall Lichtmark in der Zuflucht."
-Inst34Quest2_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest2_Note = "Die Orte die man erobern muss, sind auf der Karte mit 2 bis 5 markiert."
+Inst34Quest2 = "2. Kontrolliert vier Stützpunkte"
+Inst34Quest2_Level = "60"
+Inst34Quest2_Attain = "60"
+Inst34Quest2_Aim = "Betretet das Arathibecken, erobert und kontrolliert gleichzeitig vier Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
+Inst34Quest2_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."40.0, 46.8"..WHITE..")"
+Inst34Quest2_Note = "Man muss einen freundlichen Ruf beim Bund von Arathor haben, um diese Quest annehmen zu können."
 Inst34Quest2_Prequest = "Nein"
 Inst34Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst34Quest3 = "3. Kontrolliert vier Stützpunkte"
+Inst34Quest3 = "3. Kontrolliert fünf Stützpunkte"
 Inst34Quest3_Level = "60"
 Inst34Quest3_Attain = "60"
-Inst34Quest3_Aim = "Betretet das Arathibecken, erobert und kontrolliert gleichzeitig vier Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
-Inst34Quest3_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest3_Note = "Man muss einen freundlichen Ruf beim Bund von Arathor haben, um diese Quest annehmen zu können."
+Inst34Quest3_Aim = "Kontrolliert gleichzeitig fünf Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
+Inst34Quest3_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."40.0, 46.8"..WHITE..")"
+Inst34Quest3_Note = "Man muss einen ehrfürchtigen Ruf beim Bund von Arathor haben, um diese Quest annehmen zu können."
 Inst34Quest3_Prequest = "Nein"
 Inst34Quest3_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst34Quest4 = "4. Kontrolliert fünf Stützpunkte"
-Inst34Quest4_Level = "60"
-Inst34Quest4_Attain = "60"
-Inst34Quest4_Aim = "Kontrolliert gleichzeitig fünf Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
-Inst34Quest4_Location = "Feldmarschall Lichtmark (Arathihochland - Zuflucht; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest4_Note = "Man muss einen ehrfürchtigen Ruf beim Bund von Arathor haben, um diese Quest annehmen zu können."
-Inst34Quest4_Prequest = "Nein"
-Inst34Quest4_Folgequest = "Nein"
 --
-Inst34Quest4name1 = "Wappenrock der Arathor"
+Inst34Quest3name1 = "Wappenrock der Arathor"
 
 
 --Quest 1 Horde
-Inst34Quest1_HORDE = "1. Ruf zu den Waffen: Arathibecken (Tagesquest)"
-Inst34Quest1_HORDE_Level = "20"
-Inst34Quest1_HORDE_Attain = "20"
-Inst34Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Arathibecken und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst34Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
-Inst34Quest1_HORDE_Note = Inst34Quest1_Note
+Inst34Quest1_HORDE = "1. Die Schlacht um das Arathibecken!"
+Inst34Quest1_HORDE_Level = "55"
+Inst34Quest1_HORDE_Attain = "50"
+Inst34Quest1_HORDE_Aim = "Erobert die Mine, das Sägewerk, die Schmiede, die Farm und die Ställe und kehrt dann zu Todesmeister Dunkels in Hammerfall zurück."
+Inst34Quest1_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."68.4, 30.4"..WHITE..")"
+Inst34Quest1_HORDE_Note = Inst34Quest2_Note
 Inst34Quest1_HORDE_Prequest = "Nein"
 Inst34Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst34Quest2_HORDE = "2. Die Schlacht um das Arathibecken!"
-Inst34Quest2_HORDE_Level = "25"
-Inst34Quest2_HORDE_Attain = "25"
-Inst34Quest2_HORDE_Aim = "Erobert die Mine, das Sägewerk, die Schmiede, die Farm und die Ställe und kehrt dann zu Todesmeister Dunkels in Hammerfall zurück."
-Inst34Quest2_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest2_HORDE_Note = Inst34Quest2_Note
+Inst34Quest2_HORDE = "2. Erobert vier Stützpunkte"
+Inst34Quest2_HORDE_Level = "60"
+Inst34Quest2_HORDE_Attain = "60"
+Inst34Quest2_HORDE_Aim = "Haltet vier Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
+Inst34Quest2_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."68.4, 30.4"..WHITE..")"
+Inst34Quest2_HORDE_Note = Inst34Quest3_Note
 Inst34Quest2_HORDE_Prequest = "Nein"
 Inst34Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst34Quest3_HORDE = "3. Erobert vier Stützpunkte"
+Inst34Quest3_HORDE = "3. Erobert fünf Stützpunkte"
 Inst34Quest3_HORDE_Level = "60"
 Inst34Quest3_HORDE_Attain = "60"
-Inst34Quest3_HORDE_Aim = "Haltet vier Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
-Inst34Quest3_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest3_HORDE_Note = Inst34Quest3_Note
+Inst34Quest3_HORDE_Aim = "Haltet fünf Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
+Inst34Quest3_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."68.4, 30.4"..WHITE..")"
+Inst34Quest3_HORDE_Note = Inst34Quest4_Note
 Inst34Quest3_HORDE_Prequest = "Nein"
 Inst34Quest3_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Horde
-Inst34Quest4_HORDE = "4. Erobert fünf Stützpunkte"
-Inst34Quest4_HORDE_Level = "60"
-Inst34Quest4_HORDE_Attain = "60"
-Inst34Quest4_HORDE_Aim = "Haltet fünf Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
-Inst34Quest4_HORDE_Location = "Todesmeister Dunkels (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest4_HORDE_Note = Inst34Quest4_Note
-Inst34Quest4_HORDE_Prequest = "Nein"
-Inst34Quest4_HORDE_Folgequest = "Nein"
 --
-Inst34Quest4name1_HORDE = "Wappenrock der Entweihten"
+Inst34Quest3name1_HORDE = "Wappenrock der Entweihten"
 
 
 
@@ -12417,30 +12803,8 @@ Inst34Quest4name1_HORDE = "Wappenrock der Entweihten"
 
 Inst35Story = "Eingebetted in das südliche Eschental ist die Warsongschlucht nahe dem Gebiet, in dem Grom Höllschrei und seine Orks während des 3. Krieges große Teile des Waldes rodeten. Einige Orks blieben in der Nähe und setzten die Arbeit fort um bei der Erweiterung der Gebiete der Horde zu helfen. Sie nennen sich selber Kriegshymnenvorhut.\nDie Nachtelfen, die eine starke Offensive begonnen haben um den Eschentalwald zurück zuerobern, konzentrieren sich jetzt darauf die Kriegshymnenvorhut für immer zu vertreiben. Die Silberschwingen-Schildwachen haben geschworen, dass sie nicht aufhören werden bis der letzte Ork besiegt ist und aus der Kriegshymnenschlucht entfernt wurde."
 Inst35Caption = "Kriegshymnenschlucht"
-Inst35QAA = "1 Quest"
-Inst35QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst35Quest1 = "1. Ruf zu den Waffen: Kriegshymnenschlucht (Tagesquest)"
-Inst35Quest1_Level = "10"
-Inst35Quest1_Attain = "10"
-Inst35Quest1_Aim = "Gewinnt eine Schlacht in der Kriegshymnenschlucht und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte oder in Shattrath."
-Inst35Quest1_Location = "Brigadegeneral der Allianz:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4"
-Inst35Quest1_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 10 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
-Inst35Quest1_Prequest = "Nein"
-Inst35Quest1_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 1 Horde
-Inst35Quest1_HORDE = "1. Ruf zu den Waffen: Kriegshymnenschlucht (Tagesquest)"
-Inst35Quest1_HORDE_Level = "10"
-Inst35Quest1_HORDE_Attain = "10"
-Inst35Quest1_HORDE_Aim = "Gewinnt eine Schlacht in der Kriegshymnenschlucht und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst35Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0,38.3"
-Inst35Quest1_HORDE_Note = Inst35Quest1_Note
-Inst35Quest1_HORDE_Prequest = "Nein"
-Inst35Quest1_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+Inst35QAA = "Keine Quest"
+Inst35QAH = "Keine Quest"
 
 
 
@@ -12448,30 +12812,8 @@ Inst35Quest1_HORDE_Folgequest = "Nein"
 
 Inst60Story = "Weit über der verwüsteten Landschaft des Nethersturms schwebt die Insel, die als Auge des Sturms bekannt ist. Dieses Schlachtfeld ist von den Blutelfen wegen seiner reichen Energieablagerungen begehrt - und die Draenei versuchen es wegen ihres mysteriösen Schiffs einzufordern - Festung der Stürme."
 Inst60Caption = "Auge des Sturms"
-Inst60QAA = "1 Quest"
-Inst60QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst60Quest1 = "1. Ruf zu den Waffen: Auge des Sturms (Tagesquest)"
-Inst60Quest1_Level = "61"
-Inst60Quest1_Attain = "61"
-Inst60Quest1_Aim = "Gewinnt eine Schlacht im Auge des Sturms und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte oder in Shattrath."
-Inst60Quest1_Location = "Brigadegeneral der Allianz:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4"
-Inst60Quest1_Note = "Diese Quest kann einmal täglich absolviert werden, sobald man Stufe 61 erreicht hat. Man erhält unterschiedliche Mengen an Erfahrung und Gold, abhängig von der jeweiligen Stufe."
-Inst60Quest1_Prequest = "Nein"
-Inst60Quest1_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 1 Horde
-Inst60Quest1_HORDE = "1. Ruf zu den Waffen: Auge des Sturms (Tagesquest)"
-Inst60Quest1_HORDE_Level = "61"
-Inst60Quest1_HORDE_Attain = "61"
-Inst60Quest1_HORDE_Aim = "Gewinnt eine Schlacht im Auge des Sturms und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte oder in Shattrath."
-Inst60Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Shattrath: Unteres Viertel - "..YELLOW.."67,57"..WHITE.."\n   Orgrimmar: Tal der Ehre - "..YELLOW.."80,30"..WHITE.."\n   Donnerfels: Die Anhöhe der Jäger - "..YELLOW.."56,77"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."61,88"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97,38"
-Inst60Quest1_HORDE_Note = Inst60Quest1_Note
-Inst60Quest1_HORDE_Prequest = "Nein"
-Inst60Quest1_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+Inst60QAA = "Keine Quest"
+Inst60QAH = "Keine Quest"
 
 
 
@@ -12479,30 +12821,8 @@ Inst60Quest1_HORDE_Folgequest = "Nein"
 
 Inst83Story = "Strand der Uralten ist ein Schlachtfeld auf einer Insel südlich der Drachenöde. Hier wurde ein uraltes Titanenrelikt gefunden. Sowohl die Horde als auch die Allianz ist hinter diesem Relikt her und kämpft somit um die Herrschaft über den Strand der Uralten. Wer die Kontrolle über den Strand der Uralten übernimmt, wird auch das Relikt aus den Titanenruinen erhalten und das als Waffe gegen seine Feinde verwenden"
 Inst83Caption = "Strand der Uralten"
-Inst83QAA = "1 Quest"
-Inst83QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst83Quest1 = "1. Ruf zu den Waffen: Strand der Uralten (Tagesquest)"
-Inst83Quest1_Level = "71"
-Inst83Quest1_Attain = "71"
-Inst83Quest1_Aim = "Gewinnt eine Schlacht auf dem Strand der Uralten und meldet Euch anschließend bei einem Brigadegeneral der Allianz in einer der Hauptstädte, in Tausendwinter, Dalaran oder Shattrath."
-Inst83Quest1_Location = "Brigadegeneral der Allianz:\n   Tausendwinter: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4"
-Inst83Quest1_Note = "Diese Quest kann man nur einmal am Tag machen und nur wenn man Level 71 erreicht hat. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level."
-Inst83Quest1_Prequest = "Nein"
-Inst83Quest1_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 1 Horde
-Inst83Quest1_HORDE = "1. Ruf zu den Waffen: Strand der Uralten (Tagesquest)"
-Inst83Quest1_HORDE_Level = "71"
-Inst83Quest1_HORDE_Attain = "71"
-Inst83Quest1_HORDE_Aim = "Gewinnt eine Schlacht auf dem Strand der Uralten und meldet Euch anschließend bei einem Kriegshetzer der Horde in einer der Hauptstädte, in Tausendwinter, Dalaran oder Shattrath."
-Inst83Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Tausendwinter: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0, 38.3"
-Inst83Quest1_HORDE_Note = Inst83Quest1_Note
-Inst83Quest1_HORDE_Prequest = "Nein"
-Inst83Quest1_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+Inst83QAA = "Keine Quest"
+Inst83QAH = "Keine Quest"
 
 
 
@@ -12510,30 +12830,8 @@ Inst83Quest1_HORDE_Folgequest = "Nein"
 
 Inst89Story = "Eine Insel irgendwo vor den Stränden von Nordend. Ein Fels, kaum eines zweiten Blickes würdig. Aber so unscheinbar sie auch aussehen mag, sie ist kein gewöhnlicher Ort. Es donnert, wenn die Wellen unnachgiebig gegen die schroffen Klippen schlagen. Kampfeslärm erfüllt die Luft, wo Schwerter aufeinandertreffen, hier in den blutbefleckten Landstrichen der Insel am Ende vom Nirgendwo.\n\nWillkommen auf der Insel der Eroberung."
 Inst89Caption = "Insel der Eroberung"
-Inst89QAA = "1 Quest"
-Inst89QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst89Quest1 = "1. Zu den Waffen: Insel der Eroberung (Tagesquest)" 
-Inst89Quest1_Level = "80" 
-Inst89Quest1_Attain = "80"
-Inst89Quest1_Aim = "Erringt den Sieg bei einer Partie auf dem Schlachtfeld Insel der Eroberung und kehrt zu einem Brigadegeneral der Allianz in irgendeiner Hauptstadt, Dalaran oder Shattrath zurück." 
-Inst89Quest1_Location = "Brigadegeneral der Allianz:\n   Tausendwintersee: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Dalaran: Die Silberne Enklave - "..YELLOW.."30.0, 76.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Sturmwind: Burg Sturmwind - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Eisenschmiede: Militär Viertel - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Terrasse der Krieger - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: Die Halle des Lichts - "..YELLOW.."24.6, 55.4" 
-Inst89Quest1_Note = "Diese Quest kann man nur einmal am Tag machen wenn sie verfügbar ist. Bei der Abgabe der Quest gibt es unterschiedliches Gold und Erfahrung basierend auf das jeweilige Level." 
-Inst89Quest1_Prequest = "Nein" 
-Inst89Quest1_Folgequest = "Nein" 
--- No Rewards for this quest   
-
---Quest 1 Horde
-Inst89Quest1_HORDE = "1. Zu den Waffen: Insel der Eroberung (Tagesquest)" 
-Inst89Quest1_HORDE_Level = "80" 
-Inst89Quest1_HORDE_Attain = "80" 
-Inst89Quest1_HORDE_Aim = "Erringt den Sieg bei einer Partie auf dem Schlachtfeld Insel der Eroberung und kehrt zu einem Kriegshetzer der Horde in irgendeiner Hauptstadt, Dalaran oder Shattrath zurück."
-Inst89Quest1_HORDE_Location = "Kriegshetzer der Horde:\n   Tausendwintersee: Tausendwinters Festung - "..YELLOW.."50.0, 14.0"..WHITE.." (patroliert)\n   Dalaran: Sonnenhäschers Zuflucht - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Unteres Viertel - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Das Tal der Ehre - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Donnerfels: Anhöhe der Jäger - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Unterstadt: Das königliche Viertel - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silbermond: Platz der Weltenwanderer - "..YELLOW.."97.0, 38.3" 
-Inst89Quest1_HORDE_Note = Inst89Quest1_Note
-Inst89Quest1_HORDE_Prequest = "Nein" 
-Inst89Quest1_HORDE_Folgequest = "Nein" 
--- No Rewards for this quest 
+Inst89QAA = "Keine Quest"
+Inst89QAH = "Keine Quest"
 
 
 
