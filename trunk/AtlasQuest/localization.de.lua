@@ -199,7 +199,7 @@ Inst1Quest1_Level = "16"
 Inst1Quest1_Attain = "15"
 Inst1Quest1_Aim = "Tötet Glubtok."
 Inst1Quest1_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest1_Note = "Glubtok ist der erste Boss, befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst1Quest1_Note = "Glubtok befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst1Quest1_Prequest = "Nein"
 Inst1Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -210,7 +210,7 @@ Inst1Quest2_Level = "16"
 Inst1Quest2_Attain = "15"
 Inst1Quest2_Aim = "Besiegt Helix Ritzelbrecher."
 Inst1Quest2_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest2_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr den Mastraum in den Todesminen betreten habt.\n\nHelix Ritzelbrecher ist der zweite Boss, befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst1Quest2_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr den Mastraum in den Todesminen betreten habt.\n\nHelix Ritzelbrecher befindet sich bei "..YELLOW.."[2]"..WHITE.."."
 Inst1Quest2_Prequest = "Nein"
 Inst1Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -221,7 +221,7 @@ Inst1Quest3_Level = "16"
 Inst1Quest3_Attain = "15"
 Inst1Quest3_Aim = "Zerstört den Feindschnitter 5000."
 Inst1Quest3_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest3_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die Goblin-Gießerei in den Todesminen betreten habt.\n\nFeindschnitter 5000 ist der dritte Boss, befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst1Quest3_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die Goblin-Gießerei in den Todesminen betreten habt.\n\nFeindschnitter 5000 befindet sich bei "..YELLOW.."[3]"..WHITE.."."
 Inst1Quest3_Prequest = "Nein"
 Inst1Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -232,7 +232,7 @@ Inst1Quest4_Level = "16"
 Inst1Quest4_Attain = "15"
 Inst1Quest4_Aim = "Tötet Admiral Knurrreißer."
 Inst1Quest4_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest4_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die gepanzerte Bucht in den Todesminen betreten habt.\n\nAdmiral Knurrreißer ist der dritte Boss, befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst1Quest4_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die gepanzerte Bucht in den Todesminen betreten habt.\n\nAdmiral Knurrreißer befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst1Quest4_Prequest = "Nein"
 Inst1Quest4_Folgequest = "Ja, Die Nummer Eins der Defias"
 Inst1Quest4FQuest = "true"
@@ -244,7 +244,7 @@ Inst1Quest5_Level = "17"
 Inst1Quest5_Attain = "15"
 Inst1Quest5_Aim = "Töter die Nummer Eins der Defias."
 Inst1Quest5_Location = "Leutnant Horatio Laine (Die Todesmine; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest5_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die Quest Die Nummer Eins erledigt habt.\n\n'Kapitän' Krümel ist der finale Endboss (auf normal), befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest5_Note = "Diese Quest wird euch automatisch gegeben nachdem ihr die Quest Die Nummer Eins erledigt habt.\n\n'Kapitän' Krümel ist der finale Endboss (auf normal) und befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst1Quest5_Prequest = "Ja, Der Admiral"
 Inst1Quest5_Folgequest = "Nein"
 Inst1Quest5PreQuest = "true"
@@ -1537,8 +1537,8 @@ Inst9Quest3_Folgequest = "Nein"
 
 --Quest 1 Horde
 Inst9Quest1_HORDE = Inst9Quest1
-Inst9Quest1_HORDE_Level = Inst9Quest1_Level
-Inst9Quest1_HORDE_Attain = Inst9Quest1_Attain
+Inst9Quest1_HORDE_Level = "59"
+Inst9Quest1_HORDE_Attain = "57"
 Inst9Quest1_HORDE_Aim = Inst9Quest1_Aim
 Inst9Quest1_HORDE_Location = Inst9Quest1_Location
 Inst9Quest1_HORDE_Note = Inst9Quest1_Note
@@ -1548,8 +1548,8 @@ Inst9Quest1_HORDE_Folgequest = "Nein"
 
 --Quest 2 Horde
 Inst9Quest2_HORDE = Inst9Quest2
-Inst9Quest2_HORDE_Level = Inst9Quest2_Level
-Inst9Quest2_HORDE_Attain = Inst9Quest2_Attain
+Inst9Quest2_HORDE_Level = "60"
+Inst9Quest2_HORDE_Attain = "57"
 Inst9Quest2_HORDE_Aim = Inst9Quest2_Aim
 Inst9Quest2_HORDE_Location = Inst9Quest2_Location
 Inst9Quest2_HORDE_Note = Inst9Quest2_Note
@@ -1563,8 +1563,8 @@ Inst9Quest2name4_HORDE = "Vaelans Klaue"
 
 --Quest 3 Horde
 Inst9Quest3_HORDE = Inst9Quest3
-Inst9Quest3_HORDE_Level = Inst9Quest3_Level
-Inst9Quest3_HORDE_Attain = Inst9Quest3_Attain
+Inst9Quest3_HORDE_Level = "60"
+Inst9Quest3_HORDE_Attain = "55"
 Inst9Quest3_HORDE_Aim = Inst9Quest3_Aim
 Inst9Quest3_HORDE_Location = Inst9Quest3_Location
 Inst9Quest3_HORDE_Note = Inst9Quest3_Note
@@ -1653,8 +1653,8 @@ Inst10Quest6_Folgequest = "Nein"
 
 --Quest 1 Horde
 Inst10Quest1_HORDE = Inst10Quest1
-Inst10Quest1_HORDE_Level = Inst10Quest1_Level
-Inst10Quest1_HORDE_Attain = Inst10Quest1_Attain
+Inst10Quest1_HORDE_Level = "40"
+Inst10Quest1_HORDE_Attain = "38"
 Inst10Quest1_HORDE_Aim = Inst10Quest1_Aim
 Inst10Quest1_HORDE_Location = "Hadoken Flinkschreiter (Feralas - Camp Mojache; "..YELLOW.."74.8, 42.6"..WHITE..")"
 Inst10Quest1_HORDE_Note = Inst10Quest1_Note
@@ -1664,8 +1664,8 @@ Inst10Quest1_HORDE_Folgequest = "Nein"
 
 --Quest 2 Horde
 Inst10Quest2_HORDE = Inst10Quest2
-Inst10Quest2_HORDE_Level = Inst10Quest2_Level
-Inst10Quest2_HORDE_Attain = Inst10Quest2_Attain
+Inst10Quest2_HORDE_Level = "40"
+Inst10Quest2_HORDE_Attain = "38"
 Inst10Quest2_HORDE_Aim = Inst10Quest2_Aim
 Inst10Quest2_HORDE_Location = Inst10Quest2_Location
 Inst10Quest2_HORDE_Note = Inst10Quest2_Note
@@ -1675,8 +1675,8 @@ Inst10Quest2_HORDE_Folgequest = "Nein"
 
 --Quest 3 Horde
 Inst10Quest3_HORDE = Inst10Quest3
-Inst10Quest3_HORDE_Level = Inst10Quest3_Level
-Inst10Quest3_HORDE_Attain = Inst10Quest3_Attain
+Inst10Quest3_HORDE_Level = "40"
+Inst10Quest3_HORDE_Attain = "38"
 Inst10Quest3_HORDE_Aim = Inst10Quest3_Aim
 Inst10Quest3_HORDE_Location = Inst10Quest3_Location
 Inst10Quest3_HORDE_Note = Inst10Quest3_Note
@@ -1686,8 +1686,8 @@ Inst10Quest3_HORDE_Folgequest = "Nein"
 
 --Quest 4 Horde
 Inst10Quest4_HORDE = Inst10Quest4
-Inst10Quest4_HORDE_Level = Inst10Quest4_Level
-Inst10Quest4_HORDE_Attain = Inst10Quest4_Attain
+Inst10Quest4_HORDE_Level = "40"
+Inst10Quest4_HORDE_Attain = "38"
 Inst10Quest4_HORDE_Aim = Inst10Quest4_Aim
 Inst10Quest4_HORDE_Location = Inst10Quest4_Location
 Inst10Quest4_HORDE_Note = Inst10Quest4_Note
@@ -1697,8 +1697,8 @@ Inst10Quest4_HORDE_Folgequest = "Nein"
 
 --Quest 5 Horde
 Inst10Quest5_HORDE = Inst10Quest5
-Inst10Quest5_HORDE_Level = Inst10Quest5_Level
-Inst10Quest5_HORDE_Attain = Inst10Quest5_Attain
+Inst10Quest5_HORDE_Level = "41"
+Inst10Quest5_HORDE_Attain = "38"
 Inst10Quest5_HORDE_Aim = Inst10Quest5_Aim
 Inst10Quest5_HORDE_Location = Inst10Quest5_Location
 Inst10Quest5_HORDE_Note = Inst10Quest5_Note
@@ -1712,8 +1712,8 @@ Inst10Quest5name4_HORDE = Inst10Quest5name4
 
 --Quest 6 Horde
 Inst10Quest6_HORDE = Inst10Quest6
-Inst10Quest6_HORDE_Level = Inst10Quest6_Level
-Inst10Quest6_HORDE_Attain = Inst10Quest6_Attain
+Inst10Quest6_HORDE_Level = "41"
+Inst10Quest6_HORDE_Attain = "38"
 Inst10Quest6_HORDE_Aim = Inst10Quest6_Aim
 Inst10Quest6_HORDE_Location = Inst10Quest6_Location
 Inst10Quest6_HORDE_Note = Inst10Quest6_Note
@@ -1963,7 +1963,7 @@ Inst12Quest6PreQuest = "true"
 Inst12Quest6name1 = "Fras Siabis Zigarrenschneider"
 Inst12Quest6name2 = "Stab von Athen'a"
 Inst12Quest6name3 = "Dreizack von Shen'dralar"
-Inst12Quest6name4 = "üsterbrecher"
+Inst12Quest6name4 = "Düsterbrecher"
 
 --Quest 7 Alliance
 Inst12Quest7 = "7. Der Smaragdgrüne Traum (Druide)"
