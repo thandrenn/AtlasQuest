@@ -1616,42 +1616,51 @@ AQ_24584_Level = "80"
 
 --------------- INST75 - Azjol-Nerub ---------------
 
-Inst75Quest1_QuestID = "13182"
-Inst75Quest2_QuestID = "13167"
+Inst75Quest1_QuestID = "29811"
+Inst75Quest2_QuestID = "29808"
+Inst75Quest3_QuestID = "29807"
 
-Inst75Quest1_HORDE_QuestID = "13182"
-Inst75Quest2_HORDE_QuestID = "13167"
+Inst75Quest1_HORDE_QuestID = "29811"
+Inst75Quest2_HORDE_QuestID = "29808"
+Inst75Quest3_HORDE_QuestID = "29807"
 
 
-AQ_13182_Level = "74"
-AQ_13167_Level = "74"
+AQ_29811_Level = "74"
+AQ_29808_Level = "74"
+AQ_29807_Level = "74"
 
 
 
 --------------- INST76 - Ahn'kahet: The Old Kingdom ---------------
 
-Inst76Quest1_QuestID = "13190"
-Inst76Quest2_QuestID = "13204"
+Inst76Quest1_QuestID = "29825"
+Inst76Quest2_QuestID = "29826"
 Inst76Quest3_QuestID = "13187"
 
-Inst76Quest1_HORDE_QuestID = "13190"
-Inst76Quest2_HORDE_QuestID = "13204"
+Inst76Quest1_HORDE_QuestID = "29825"
+Inst76Quest2_HORDE_QuestID = "29826"
 Inst76Quest3_HORDE_QuestID = "13187"
 
 
-AQ_13190_Level = "80"
-AQ_13204_Level = "76"
+AQ_29825_Level = "76"
+AQ_29826_Level = "76"
 AQ_13187_Level = "76"
 
 
 
 --------------- INST77 - Ulduar: Halls of Stone ---------------
 
+Inst77Quest1_QuestID = "29850"
+Inst77Quest1_QuestID = "29848"
 Inst77Quest1_QuestID = "13207"
 
+Inst77Quest1_HORDE_QuestID = "29850"
+Inst77Quest1_HORDE_QuestID = "29848"
 Inst77Quest1_HORDE_QuestID = "13207"
 
 
+AQ_29850_Level = "78"
+AQ_29848_Level = "78"
 AQ_13207_Level = "78"
 
 

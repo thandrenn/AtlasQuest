@@ -8750,7 +8750,7 @@ Inst72Quest2 = "2. Das Unvermeidliche hinauszögern"
 Inst72Quest2_Level = "71"
 Inst72Quest2_Attain = "69"
 Inst72Quest2_Aim = "Erzmagier Berinand im Transitusschild möchte, dass Ihr den interdimensionalen Refabrikator in der Nähe des Risses im Nexus benutzt."
-Inst72Quest2_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
+Inst72Quest2_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."33.0, 34.2"..WHITE..")"
 Inst72Quest2_Note = "Benutze den interdimensionalen Refabrikator am Ende der Plattform wo Anomaluson ist, bei "..YELLOW.."[3]"..WHITE.."."
 Inst72Quest2_Prequest = "Ja, Die Zähler ablesen"
 Inst72Quest2_Folgequest = "Nein"
@@ -9093,38 +9093,49 @@ Inst74Quest3name2_HORDE = Inst74Quest3name2
 
 Inst75Story = "Als der Lichkönig Nordend erreichte, war Azjol-Nerub ein mächtiges Reich. Eisernem Widerstand zum Trotz gelang es den Streitkräften der Geißel jedoch, das unterirdische Königreich zu erobern und seine Bewohner, die Neruber, zu vernichten. Das riesige, nach Jahren des Kriegs und der Zerstörung vernarbte Reich ist nun an zwei Fronten besetzt: Im Oberen Königreich patrouillieren untote Neruber die Ruinen ihrer Heimat und bewachen Gelege von Eiern, denen eines Tages eine neue Generation von Geißel-Kriegern entschlüpfen werden. Währenddessen rührt sich in den Tiefen des Alten Königreiches Ahn'kahet ein anderer Feind: die Gesichtslosen. Nur wenig ist von diesen schrecklichen Wesen bekannt, aber man munkelt, dass sie einer bösen Macht, die tief unter Nordend haust, zu Diensten sind. Würden die untoten Neruber und ihre verderbten Eier vernichtet werden, so wäre dies ein gewaltiger Schlag gegen den Lichkönig; jedoch ist auch die Eliminierung der mysteriösen Gesichtslosen unerlässlich, soll das gefallene Reich jemals wieder auferstehen."
 Inst75Caption = "Azjol-Nerub"
-Inst75QAA = "2 Quests"
-Inst75QAH = "2 Quests"
+Inst75QAA = "3 Quests"
+Inst75QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst75Quest1 = "1. Vergesst nicht die Eier!"
+Inst75Quest1 = "1. Der Talisman des Torwächters"
 Inst75Quest1_Level = "74"
 Inst75Quest1_Attain = "72"
-Inst75Quest1_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr Azjol-Nerub betretet und 6 Eier der Geißelneruber zerstört."
-Inst75Quest1_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst75Quest1_Note = "Die Eier der Geiselneruber sind im ersten Raum überall verteilt, beim ersten Boss, Krik'thir der Torwächter bei "..YELLOW.."[1]"..WHITE.."."
+Inst75Quest1_Aim = "Pionier A'zak in Azjol-Nerub möchte, dass Ihr den Talisman des Torwächters von Krik'thir dem Torwächter erbeutet."
+Inst75Quest1_Location = "Pionier A'zak (Azjol-Nerub; "..BLUE.."Eingang"..WHITE..")"
+Inst75Quest1_Note = "Krik'thir der Torwächter befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst75Quest1_Prequest = "Nein"
 Inst75Quest1_Folgequest = "Nein"
---
-Inst75Quest1name1 = "Ausstoßende Stulpen"
-Inst75Quest1name2 = "Reinigende Handschützer"
-Inst75Quest1name3 = "Wickeltücher des bezwungenen Banns"
-Inst75Quest1name4 = "Handschuhe der verbannten Auferlegung"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst75Quest2 = "2. Tot dem verräter König"
+Inst75Quest2 = "2. Vergesst nicht die Eier!"
 Inst75Quest2_Level = "74"
 Inst75Quest2_Attain = "72"
-Inst75Quest2_Aim = "Kilix der Entwirrer in der Grube von Narjun hat Euch damit beauftragt, Anub'arak in Azjol-Nerub zu besiegen. Danach sollt Ihr Kilix Anub'araks zerbrochenen Panzer zurückbringen."
-Inst75Quest2_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst75Quest2_Note = "Anub'arak ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst75Quest2_Aim = "Pionier A'zak in Azjol-Nerub möchte, dass Ihr 6 Eier der Geißelneruber zerstört."
+Inst75Quest2_Location = "Pionier A'zak (Azjol-Nerub; "..BLUE.."Eingang"..WHITE..")"
+Inst75Quest2_Note = "Die Eier der Geiselneruber sind im ersten Raum überall verteilt, beim ersten Boss, Krik'thir der Torwächter bei "..YELLOW.."[1]"..WHITE.."."
 Inst75Quest2_Prequest = "Nein"
 Inst75Quest2_Folgequest = "Nein"
 --
-Inst75Quest2name1 = "Kilix' Seidenslipper"
-Inst75Quest2name2 = "Don Sotos Stiefel"
-Inst75Quest2name3 = "Hüllenfragmentsabatons"
-Inst75Quest2name4 = "Schienbeinschützer des Verräters"
+Inst75Quest2name1 = "Ausstoßende Stulpen"
+Inst75Quest2name2 = "Reinigende Handschützer"
+Inst75Quest2name3 = "Wickeltücher des bezwungenen Banns"
+Inst75Quest2name4 = "Handschuhe der verbannten Auferlegung"
+
+--Quest 3 Alliance
+Inst75Quest3 = "3. Tot dem verräter König"
+Inst75Quest3_Level = "74"
+Inst75Quest3_Attain = "72"
+Inst75Quest3_Aim = "Pionier A'zak in Azjol-Nerub hat Euch aufgetragen, Anub'arak zu besiegen. Kehrt danach mit Anub'araks zerbrochenem Panzer zu A'zak zurück."
+Inst75Quest3_Location = "Pionier A'zak (Azjol-Nerub; "..BLUE.."Eingang"..WHITE..")"
+Inst75Quest3_Note = "Anub'arak befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst75Quest3_Prequest = "Nein"
+Inst75Quest3_Folgequest = "Nein"
+--
+Inst75Quest3name1 = "Kilix' Seidenslipper"
+Inst75Quest3name2 = "Don Sotos Stiefel"
+Inst75Quest3name3 = "Hüllenfragmentsabatons"
+Inst75Quest3name4 = "Schienbeinschützer des Verräters"
 
 
 --Quest 1 Horde
@@ -9136,11 +9147,7 @@ Inst75Quest1_HORDE_Location = Inst75Quest1_Location
 Inst75Quest1_HORDE_Note = Inst75Quest1_Note
 Inst75Quest1_HORDE_Prequest = "Nein"
 Inst75Quest1_HORDE_Folgequest = "Nein"
---
-Inst75Quest1name1_HORDE = Inst75Quest1name1
-Inst75Quest1name2_HORDE = Inst75Quest1name2
-Inst75Quest1name3_HORDE = Inst75Quest1name3
-Inst75Quest1name4_HORDE = Inst75Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst75Quest2_HORDE = Inst75Quest2
@@ -9157,6 +9164,21 @@ Inst75Quest2name2_HORDE = Inst75Quest2name2
 Inst75Quest2name3_HORDE = Inst75Quest2name3
 Inst75Quest2name4_HORDE = Inst75Quest2name4
 
+--Quest 3 Horde
+Inst75Quest3_HORDE = Inst75Quest3
+Inst75Quest3_HORDE_Level = "74"
+Inst75Quest3_HORDE_Attain = "72"
+Inst75Quest3_HORDE_Aim = Inst75Quest3_Aim
+Inst75Quest3_HORDE_Location = Inst75Quest3_Location
+Inst75Quest3_HORDE_Note = Inst75Quest3_Note
+Inst75Quest3_HORDE_Prequest = "Nein"
+Inst75Quest3_HORDE_Folgequest = "Nein"
+--
+Inst75Quest3name1_HORDE = Inst75Quest3name1
+Inst75Quest3name2_HORDE = Inst75Quest3name2
+Inst75Quest3name3_HORDE = Inst75Quest3name3
+Inst75Quest3name4_HORDE = Inst75Quest3name4
+
 
 
 --------------- INST76 - Ahn'kahet: The Old Kingdom ---------------
@@ -9167,36 +9189,39 @@ Inst76QAA = "3 Quests"
 Inst76QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst76Quest1 = "1. Alles zu seiner Zeit (Heroisches Tagesquest)"
-Inst76Quest1_Level = "80"
-Inst76Quest1_Attain = "80"
-Inst76Quest1_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr die Leiche eines Wächters der Ahn'kahar beschafft und sie auf das Kohlebecken von Ahn'kahet in Ahn'kahet legt."
-Inst76Quest1_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst76Quest1_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad Heroisch abgeschlossen werden.\n\nThe Ahn'kahet Brazier ist hinter Herald Volazj bei "..GREEN.."[1']"..WHITE..". Der Leichnam wird genau 1 Stunde lang in eurem Inventar sein und verschwinden wenn ihr die Instanz verläßt egal ob lebenig oder tot."
+Inst76Quest1 = "1. Nicht länger ein Schüler"
+Inst76Quest1_Level = "76"
+Inst76Quest1_Attain = "73"
+Inst76Quest1_Aim = "Seher Ixit in Ahn'kahet hat Euch gebeten, Urahne Nadox zu töten."
+Inst76Quest1_Location = "Seher Ixit (Ahn'kahet; "..BLUE.."Eingang"..WHITE..")"
+Inst76Quest1_Note = "Urahne Nadox befindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst76Quest1_Prequest = "Nein"
-Inst76Quest1_Folgequest = "Nein"
+Inst76Quest1_Folgequest = "Ja, Die Rückeroberung von Ahn'kahet"
+Inst76Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst76Quest2 = "2. Abgefahrene Pilze"
+Inst76Quest2 = "2. Die Rückeroberung von Ahn'kahet"
 Inst76Quest2_Level = "76"
 Inst76Quest2_Attain = "73"
-Inst76Quest2_Aim = "Ihr sollt 6 groteske Pilze von den wilden Höhlenbestien sammeln und sie bei Kilix der Entwirrer in der Grube von Narjun abliefern."
-Inst76Quest2_Location = "Groteske Pilze (droppen von den wilden Höhlenbestien in Ahn'kahet)"
-Inst76Quest2_Note = "Die wilden Höhlenbestien droppen das Item für die Quest im Gebiet vom Boss Amanitar, bei "..YELLOW.."[5]"..WHITE..".\n\nKilix der Entwirrer ist bei (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")."
-Inst76Quest2_Prequest = "Nein"
-Inst76Quest2_Folgequest = "Nein"
+Inst76Quest2_Aim = "Seher Ixit in Ahn'kahet möchte, dass Ihr 3 Augen von Taldaram, einen Knochenschinder und Prinz Taldaram tötet."
+Inst76Quest2_Location = "Seher Ixit (Ahn'kahet; "..BLUE.."Eingang"..WHITE..")"
+Inst76Quest2_Note = "Die Augen von Taldram und die Knochenschinder befinden sich alle auf den Weg zum Boss Prinz Taldaram bei "..YELLOW.."[2]"..WHITE.."."
+Inst76Quest2_Prequest = "Ja, Nicht länger ein Schüler"
+Inst76Quest2_Folgequest = "Ja, Die Gesichtslosen"
+Inst76Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst76Quest3 = "3. Die Gesichtslosen"
 Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
-Inst76Quest3_Aim = "Kilix der Entwirrer in der Grube von Narjun möchte, dass Ihr nach Ahn'Kahet geht und Herold Volazj und die drei Vergessenen an seiner Seite tötet."
-Inst76Quest3_Location = "Kilix der Entwirrer (Drachenöde - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")"
-Inst76Quest3_Note = "Die Vergessenen und Herald Volazj können gefunden werden bei "..YELLOW.."[4]"..WHITE.."."
-Inst76Quest3_Prequest = "Nein"
+Inst76Quest3_Aim = "Seher Ixit möchte, dass Ihr Herold Volazj und die drei Vergessenen an seiner Seite tötet."
+Inst76Quest3_Location = "Seher Ixit (Ahn'kahet; "..BLUE.."Eingang"..WHITE..")"
+Inst76Quest3_Note = "Die Vergessenen und Herald Volazj befinden sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst76Quest3_Prequest = "Ja, Die Rückeroberung von Ahn'kahet"
 Inst76Quest3_Folgequest = "Nein"
+Inst76Quest1PreQuest = "true"
 --
 Inst76Quest3name1 = "Mantel des vereitelten Übels"
 Inst76Quest3name2 = "Schulterpolster der Verachtung"
@@ -9206,13 +9231,14 @@ Inst76Quest3name4 = "Schulterklappen der Gesichtslosen"
 
 --Quest 1 Horde
 Inst76Quest1_HORDE = Inst76Quest1
-Inst76Quest1_HORDE_Level = "80"
-Inst76Quest1_HORDE_Attain = "80"
+Inst76Quest1_HORDE_Level = "76"
+Inst76Quest1_HORDE_Attain = "73"
 Inst76Quest1_HORDE_Aim = Inst76Quest1_Aim
 Inst76Quest1_HORDE_Location = Inst76Quest1_Location
 Inst76Quest1_HORDE_Note = Inst76Quest1_Note
 Inst76Quest1_HORDE_Prequest = "Nein"
-Inst76Quest1_HORDE_Folgequest = "Nein"
+Inst76Quest1_HORDE_Folgequest = Inst76Quest1_Folgequest
+Inst76Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -9222,8 +9248,9 @@ Inst76Quest2_HORDE_Attain = "73"
 Inst76Quest2_HORDE_Aim = Inst76Quest2_Aim
 Inst76Quest2_HORDE_Location = Inst76Quest2_Location
 Inst76Quest2_HORDE_Note = Inst76Quest2_Note
-Inst76Quest2_HORDE_Prequest = "Nein"
-Inst76Quest2_HORDE_Folgequest = "Nein"
+Inst76Quest2_HORDE_Prequest = Inst76Quest2_Prequest
+Inst76Quest2_HORDE_Folgequest = Inst76Quest2_Folgequest
+Inst76Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -9233,8 +9260,9 @@ Inst76Quest3_HORDE_Attain = "73"
 Inst76Quest3_HORDE_Aim = Inst76Quest3_Aim
 Inst76Quest3_HORDE_Location = Inst76Quest3_Location
 Inst76Quest3_HORDE_Note = Inst76Quest3_Note
-Inst76Quest3_HORDE_Prequest = "Nein"
+Inst76Quest3_HORDE_Prequest = Inst76Quest3_Prequest
 Inst76Quest3_HORDE_Folgequest = "Nein"
+Inst736Quest3PreQuest_HORDE = "true"
 --
 Inst76Quest3name1_HORDE = Inst76Quest3name1
 Inst76Quest3name2_HORDE = Inst76Quest3name2
@@ -9252,23 +9280,45 @@ Inst77Story = {
   ["MaxPages"] = "3",
 };
 Inst77Caption = "HdS: Hallen des Steins"
-Inst77QAA = "1 Quests"
-Inst77QAH = "1 Quests"
+Inst77QAA = "3 Quests"
+Inst77QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst77Quest1 = "1. Die Hallen des Steins"
+Inst77Quest1 = "1. Korrupte Konstrukte"
 Inst77Quest1_Level = "78"
 Inst77Quest1_Attain = "76"
-Inst77Quest1_Aim = "Brann Bronzebart möchte, dass Ihr ihn bei der Suche nach den Geheimnissen, die in den Hallen des Steins verborgen liegen, begleitet."
-Inst77Quest1_Location = "Brann Bronzebart (Ulduar: Die Hallen des Steins; "..GREEN.."[2']"..WHITE..")"
-Inst77Quest1_Note = "Folgt Brann Bronzebart in den naheliegenden Raum bei "..YELLOW.."[3]"..WHITE.." und beschützt ihn vor die Mobwellen während er an der Steintafel arbeitet. Nach seinem Erfolg , kann der Tribunalkasten rechts neben der Steintafel geöffnet werden.\n\nSprecht ihn erneut an und er rennt aus dem Raum raus zu"..YELLOW.."[4]"..WHITE..". Du mußt ihm nicht folgen, er wartet dort auf dich. Ist Sjonnir der Eisenformer besiegt kann Du die Quest bei Brann Bronzebart abgegeben."
+Inst77Quest1_Aim = "Kaldir Eisenbann in den Hallen des Steins möchte, dass Ihr Krystallus und 3 dunkle Runenriesen tötet."
+Inst77Quest1_Location = "Kaldir Eisenbann (Die Hallen des Steins; "..BLUE.."Eingang"..WHITE..")"
+Inst77Quest1_Note = "Die dunklen Runenriesen befinden sich alle in der Nähe des Eingangs, Krystallus berfindet sich bei "..YELLOW.."[1]"..WHITE.."."
 Inst77Quest1_Prequest = "Nein"
 Inst77Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst77Quest2 = "2. Die verlorene Behüterin"
+Inst77Quest2_Level = "78"
+Inst77Quest2_Attain = "76"
+Inst77Quest2_Aim = "Kaldir Eisenbann in den Hallen des Steins möchte, dass Ihr der Maid der Trauer Frieden schenkt und eine Kristallträne der Trauer beschafft."
+Inst77Quest2_Location = "Kaldir Eisenbann (Die Hallen des Steins; "..BLUE.."Eingang"..WHITE..")"
+Inst77Quest2_Note = "Maid der Trauer befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst77Quest2_Prequest = "Nein"
+Inst77Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst77Quest3 = "3. Die Hallen des Steins"
+Inst77Quest3_Level = "78"
+Inst77Quest3_Attain = "76"
+Inst77Quest3_Aim = "Brann Bronzebart möchte, dass Ihr ihn bei der Suche nach den Geheimnissen, die in den Hallen des Steins verborgen liegen, begleitet."
+Inst77Quest3_Location = "Brann Bronzebart (Die Hallen des Steins; "..GREEN.."[2']"..WHITE..")"
+Inst77Quest3_Note = "Folgt Brann Bronzebart in den naheliegenden Raum bei "..YELLOW.."[3]"..WHITE.." und beschützt ihn vor die Mobwellen während er an der Steintafel arbeitet. Nach seinem Erfolg , kann der Tribunalkasten rechts neben der Steintafel geöffnet werden.\n\nSprecht ihn erneut an und er rennt aus dem Raum raus zu"..YELLOW.."[4]"..WHITE..". Du mußt ihm nicht folgen, er wartet dort auf dich. Ist Sjonnir der Eisenformer besiegt kann Du die Quest bei Brann Bronzebart abgegeben."
+Inst77Quest3_Prequest = "Nein"
+Inst77Quest3_Folgequest = "Nein"
 --
-Inst77Quest1name1 = "Mantel des unerschrockenen Entdeckers"
-Inst77Quest1name2 = "Schulterpolster des Abenteurers"
-Inst77Quest1name3 = "Schiftung der verlorenen Geheimnisse"
-Inst77Quest1name4 = "Schulterstücke der Aufklärung"
+Inst77Quest3name1 = "Mantel des unerschrockenen Entdeckers"
+Inst77Quest3name2 = "Schulterpolster des Abenteurers"
+Inst77Quest3name3 = "Schiftung der verlorenen Geheimnisse"
+Inst77Quest3name4 = "Schulterstücke der Aufklärung"
 
 
 --Quest 1 Horde
@@ -9280,11 +9330,33 @@ Inst77Quest1_HORDE_Location = Inst77Quest1_Location
 Inst77Quest1_HORDE_Note = Inst77Quest1_Note
 Inst77Quest1_HORDE_Prequest = "Nein"
 Inst77Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst77Quest2_HORDE = Inst77Quest2
+Inst77Quest2_HORDE_Level = "78"
+Inst77Quest2_HORDE_Attain = "76"
+Inst77Quest2_HORDE_Aim = Inst77Quest2_Aim
+Inst77Quest2_HORDE_Location = Inst77Quest2_Location
+Inst77Quest2_HORDE_Note = Inst77Quest2_Note
+Inst77Quest2_HORDE_Prequest = "Nein"
+Inst77Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst77Quest3_HORDE = Inst77Quest3
+Inst77Quest3_HORDE_Level = "78"
+Inst77Quest3_HORDE_Attain = "76"
+Inst77Quest3_HORDE_Aim = Inst77Quest3_Aim
+Inst77Quest3_HORDE_Location = Inst77Quest3_Location
+Inst77Quest3_HORDE_Note = Inst77Quest3_Note
+Inst77Quest3_HORDE_Prequest = "Nein"
+Inst77Quest3_HORDE_Folgequest = "Nein"
 --
-Inst77Quest1name1_HORDE = Inst77Quest1name1
-Inst77Quest1name2_HORDE = Inst77Quest1name2
-Inst77Quest1name3_HORDE = Inst77Quest1name3
-Inst77Quest1name4_HORDE = Inst77Quest1name4
+Inst77Quest3name1_HORDE = Inst77Quest3name1
+Inst77Quest3name2_HORDE = Inst77Quest3name2
+Inst77Quest3name3_HORDE = Inst77Quest3name3
+Inst77Quest3name4_HORDE = Inst77Quest3name4
 
 
 
@@ -9305,7 +9377,7 @@ Inst78Quest1 = "1. Sturmbote Eljrrin"
 Inst78Quest1_Level = "80"
 Inst78Quest1_Attain = "77"
 Inst78Quest1_Aim = "König Jokkum möchte, dass Ihr die Hallen der Blitze betretet und mit Sturmbote Eljrrin sprecht."
-Inst78Quest1_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.3, 60.1"..WHITE..")"
+Inst78Quest1_Location = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.4, 60.2"..WHITE..")"
 Inst78Quest1_Note = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
 Inst78Quest1_Prequest = "Nein"
 Inst78Quest1_Folgequest = "Ja, Mit allen Mitteln!"
@@ -9334,7 +9406,7 @@ Inst78Quest3_Level = "80"
 Inst78Quest3_Attain = "77"
 Inst78Quest3_Aim = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr 3 sturmgeschmiedete Heiler, 3 sturmgeschmiedete Taktiker und General Bjarngrim tötet."
 Inst78Quest3_Location = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")"
-Inst78Quest3_Note = "General Bjarngrim ist bei "..YELLOW.."[1]"..WHITE..", er wandert den Weg lang.Sturmgeschmiedeter Taktiker und Heiler sind beim General Bjarngrim verteilt."
+Inst78Quest3_Note = "General Bjarngrim ist bei "..YELLOW.."[1]"..WHITE..", er wandert den Weg lang. Sturmgeschmiedeter Taktiker und Heiler sind beim General Bjarngrim verteilt."
 Inst78Quest3_Prequest = "Nein"
 Inst78Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
