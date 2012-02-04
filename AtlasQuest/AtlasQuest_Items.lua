@@ -6718,6 +6718,37 @@ Inst108Quest6Rewardtext_HORDE = AQNoReward
 
 --------------- INST109 - Firelands ---------------
 
+--Quest 1 Alliance
+Inst109Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst109Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst109Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst109Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst109Quest5Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst109Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst109Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst109Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst109Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst109Quest5Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST110 - End Time ---------------
@@ -6970,6 +7001,47 @@ Inst112Quest3ID3_HORDE = "76153"
 
 
 --------------- INST113 - Dragon Soul ---------------
+
+--Quest 1 Alliance
+Inst113Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst113Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst113Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst113Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"
+--ITEM1
+Inst113Quest4ITC1 = Itemc6;
+Inst113Quest4description1 = AQITEM_MAINHAND..AQITEM_DAGGER
+Inst113Quest4ID1 = "77949"
+--ITEM2
+Inst113Quest4ITC2 = Itemc6;
+Inst113Quest4description2 = AQITEM_OFFHAND..AQITEM_DAGGER
+Inst113Quest4ID2 = "77950"
+
+
+--Quest 1 Horde
+Inst113Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst113Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst113Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst113Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"
+--ITEM1
+Inst113Quest4ITC1_HORDE = Itemc6;
+Inst113Quest4description1_HORDE = AQITEM_MAINHAND..AQITEM_DAGGER
+Inst113Quest4ID1_HORDE = "77949"
+--ITEM2
+Inst113Quest4ITC2_HORDE = Itemc6;
+Inst113Quest4description2_HORDE = AQITEM_OFFHAND..AQITEM_DAGGER
+Inst113Quest4ID2_HORDE = "77950"
 
 
 

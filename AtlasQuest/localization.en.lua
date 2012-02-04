@@ -150,7 +150,6 @@ AQITEM_ITEM = "Item" -- Use this for those oddball rewards which aren't really a
 AQITEM_TRINKET = "Trinket"
 AQITEM_RELIC = "Relic"
 AQITEM_POTION = "Potion"
-AQITEM_OFFHAND = "Held In Hand"
 AQITEM_NECK = "Neck"
 AQITEM_PATTERN = "Pattern"
 AQITEM_BAG = "Bag"
@@ -12022,8 +12021,130 @@ Inst108Quest6_HORDE_Folgequest = Inst108Quest6_Folgequest
 
 Inst109Story = "Deep beneath the earth and seas of the Elemental Plane lurks the Firelands, a place of heat and ash. Although it is a harsh land, visitors can survive, for in one of those cruel paradoxes that define the universe, fire needs air to live and fuel to feed upon. Within the Firelands, these things exist in a constant cyclical state, with the very ash itself gradually transforming into fuel for future burnings. \n\nIn the center of a vast lake of fire stands Sulfuron Keep, the home of Ragnaros the Firelord. Until comparatively recently, he ruled his underground land with an iron fist. Three hundred years ago, he was summoned to fight in the dwarven civil war known as the War of the Three Hammers. This reckless act sundered the Redridge Mountains and created Blackrock Spire. Now, in a greatly weakened state, he lies at the bottom of that volcano on Azeroth, striving to find a way home. Meanwhile, in Sulfuron Keep and elsewhere across the Firelands, his elemental princes battle constantly for dominance."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst109Caption = "Firelands"
-Inst109QAA = "No Quests"
-Inst109QAH = "No Quests"
+Inst109QAA = "5 Quests"
+Inst109QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst109Quest1 = "1. Your Time Has Come"
+Inst109Quest1_Level = "85"
+Inst109Quest1_Attain = "85"
+Inst109Quest1_Aim = "Speak to Coridormi in Stormwind."
+Inst109Quest1_Location = "Auto-accepted upon killing trash in Firelands"
+Inst109Quest1_Note = "This quest is only given to classes that can use a Staff - Druids, Priests, Warlocks, Mages and Shaman.\n\nCoridormi is at Stormwind City - Mage District; "..YELLOW.."49.4, 87.4"..WHITE.."."
+Inst109Quest1_Prequest = "None"
+Inst109Quest1_Folgequest = "A Legendary Engagement -> All-Seeing Eye"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst109Quest2 = "2. All-Seeing Eye"
+Inst109Quest2_Level = "85"
+Inst109Quest2_Attain = "85"
+Inst109Quest2_Aim = "Collect 25 Eternal Embers from The Firelands and 3 Sands of Time."
+Inst109Quest2_Location = "Anachronos (Tanaris - Caverns of Time; "..YELLOW.."58.0, 56.0"..WHITE..")"
+Inst109Quest2_Note = "The Eternal Embers drop from raid bosses in Firelands.  Unlike some other boss drops, they cannot be traded to other raid members.\n\nThe Sands of Time can be purchased from Yasmin (Uldum - Oasis of Vir'sar; "..YELLOW.."26.6, 7.2"..WHITE..")"
+Inst109Quest2_Prequest = "Your Time Has Come -> A Wrinkle in Time"
+Inst109Quest2_Folgequest = "On a Wing and a Prayer -> Delegation"
+Inst109Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst109Quest3 = "3. Delegation"
+Inst109Quest3_Level = "85"
+Inst109Quest3_Attain = "85"
+Inst109Quest3_Aim = "Recover the Branch of Nordrassil from the Firelands."
+Inst109Quest3_Location = "Kalecgos (Mount Hyjal - Nordrassil; "..YELLOW.."62.2, 23.2"..WHITE..")"
+Inst109Quest3_Note = "To obtain the Branch of Nordrassil you obtain a number of items during several boss fights and then summon the mini-boss Volcanus.  The full details are too lengthy to include here, so I suggest reading a full guide at either: \n\n http://www.wowhead.com \n http://http://www.wowpedia.org"
+Inst109Quest3_Prequest = "All-Seeing Eye -> Actionable Intelligence"
+Inst109Quest3_Folgequest = "Nordrassil's Bough -> Time Grows Short"
+Inst109Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst109Quest4 = "4. Time Grows Short"
+Inst109Quest4_Level = "85"
+Inst109Quest4_Attain = "85"
+Inst109Quest4_Aim = "Collect 1000 Seething Cinders from the Firelands. "
+Inst109Quest4_Location = "Kalecgos (Borean Tundra - The Coldarra; "..YELLOW.."31.0, 24.0"..WHITE..")"
+Inst109Quest4_Note = "The Seething Cinders drop from raid bosses in the Firelands."
+Inst109Quest4_Prequest = "Nordrassil's Bough -> At One"
+Inst109Quest4_Folgequest = "Alignment -> Heart of Flame"
+Inst109Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst109Quest5 = "5. Heart of Flame"
+Inst109Quest5_Level = "85"
+Inst109Quest5_Attain = "85"
+Inst109Quest5_Aim = "Empower the Runestaff of Nordrassil with 250 Smouldering Essences and obtain the Heart of Flame."
+Inst109Quest5_Location = "Kalecgos (Borean Tundra - The Coldarra; "..YELLOW.."23.2, 22.8"..WHITE..")"
+Inst109Quest5_Note = "Use your Runestaff of Nordrassil to extract the Smouldering Essences from the corpses of Firelands raid bosses.  Ragnaros cannot be siphoned.\nTo obtain the Heart of Flame, defeat Ragnaros after collecting the 250 Smouldering Essences without dying.  Leap into the pool of lava and collect it from the center.  If you die, you'll have to defeat Ragnaros again to try once more."
+Inst109Quest5_Prequest = "Time Grows Short -> Alignment"
+Inst109Quest5_Folgequest = "The Stuff of Legends"
+Inst109Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance, but different turn-in)
+Inst109Quest1_HORDE = Inst109Quest1
+Inst109Quest1_HORDE_Level = Inst109Quest1_Level
+Inst109Quest1_HORDE_Attain = Inst109Quest1_Attain
+Inst109Quest1_HORDE_Aim = "Speak to Ziradormi in Orgrimmar."
+Inst109Quest1_HORDE_Location = Inst109Quest1_Location
+Inst109Quest1_HORDE_Note = "This quest is only given to classes that can use a Staff - Druids, Priests, Warlocks, Mages and Shaman.\n\nZiradormi is at Orgrimmar - The Valley of Strength; "..YELLOW.."48.8, 70.4"..WHITE.."."
+Inst109Quest1_HORDE_Prequest = Inst109Quest1_Prequest
+Inst109Quest1_HORDE_Folgequest = Inst109Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst109Quest2_HORDE = Inst109Quest2
+Inst109Quest2_HORDE_Level = Inst109Quest2_Level
+Inst109Quest2_HORDE_Attain = Inst109Quest2_Attain
+Inst109Quest2_HORDE_Aim = Inst109Quest2_Aim
+Inst109Quest2_HORDE_Location = Inst109Quest2_Location
+Inst109Quest2_HORDE_Note = Inst109Quest2_Note
+Inst109Quest2_HORDE_Prequest = Inst109Quest2_Prequest
+Inst109Quest2_HORDE_Folgequest = Inst109Quest2_Folgequest
+Inst109Quest2PreQuest_HORDE = Inst109Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst109Quest3_HORDE = Inst109Quest3
+Inst109Quest3_HORDE_Level = Inst109Quest3_Level
+Inst109Quest3_HORDE_Attain = Inst109Quest3_Attain
+Inst109Quest3_HORDE_Aim = Inst109Quest3_Aim
+Inst109Quest3_HORDE_Location = Inst109Quest3_Location
+Inst109Quest3_HORDE_Note = Inst109Quest3_Note
+Inst109Quest3_HORDE_Prequest = Inst109Quest3_Prequest
+Inst109Quest3_HORDE_Folgequest = Inst109Quest3_Folgequest
+Inst109Quest3PreQuest_HORDE = Inst109Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst109Quest4_HORDE = Inst109Quest4
+Inst109Quest4_HORDE_Level = Inst109Quest4_Level
+Inst109Quest4_HORDE_Attain = Inst109Quest4_Attain
+Inst109Quest4_HORDE_Aim = Inst109Quest4_Aim
+Inst109Quest4_HORDE_Location = Inst109Quest4_Location
+Inst109Quest4_HORDE_Note = Inst109Quest4_Note
+Inst109Quest4_HORDE_Prequest = Inst109Quest4_Prequest
+Inst109Quest4_HORDE_Folgequest = Inst109Quest4_Folgequest
+Inst109Quest4PreQuest_HORDE = Inst109Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst109Quest5_HORDE = Inst109Quest5
+Inst109Quest5_HORDE_Level = Inst109Quest5_Level
+Inst109Quest5_HORDE_Attain = Inst109Quest5_Attain
+Inst109Quest5_HORDE_Aim = Inst109Quest5_Aim
+Inst109Quest5_HORDE_Location = Inst109Quest5_Location
+Inst109Quest5_HORDE_Note = Inst109Quest5_Note
+Inst109Quest5_HORDE_Prequest = Inst109Quest5_Prequest
+Inst109Quest5_HORDE_Folgequest = Inst109Quest5_Folgequest
+Inst109Quest5PreQuest_HORDE = Inst109Quest5PreQuest
+Inst109Quest5FQuest_HORDE = Inst109Quest5FQuest
+--
+Inst109Quest5name1_HORDE = Inst109Quest5name1
+-- No Rewards for this quest
 
 
 
@@ -12357,8 +12478,108 @@ Inst112Quest3name3_HORDE = Inst112Quest3name3
 
 Inst113Story = "Forged by Deathwing during the War of the Ancients, the Dragon Soul harnessed the power of the other dragonflights, until it was ultimately destroyed. After recovering a version of the artifact from the Caverns of Time, Thrall and the allied dragonflights now rally at Wyrmrest Temple in a desperate bid to use its might to defeat Deathwing. "..GREEN.."\n\nQuoted from wowpedia.org"
 Inst113Caption = "Dragon Soul"
-Inst113QAA = "No Quests"
-Inst113QAH = "No Quests"
+Inst113QAA = "4 Quests"
+Inst113QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst113Quest1 = "1. Proving Your Worth (Rogue)"
+Inst113Quest1_Level = "85"
+Inst113Quest1_Attain = "85"
+Inst113Quest1_Aim = "Pickpocket a cryptomancer's decoder ring from Hagara the Stormbinder at the Eye of Eternity within the Dragon Soul raid encounter."
+Inst113Quest1_Location = "Lord Afrasastrasz (Dragon Soul; "..BLUE.."Entrance"..WHITE..")"
+Inst113Quest1_Note = "This is a Rogue-only class quest.  It and its followup quests cannot be completed on Raid Finder difficulty.  Hagara the Stormbinder is at "..YELLOW.."[4]"..WHITE..".\n\nThe previous bosses don't need to be killed for quest completion.  Multiple rogues can pickpocket Hagara, but she needs to be pulled and reset in between pickpockets."
+Inst113Quest1_Prequest = "None"
+Inst113Quest1_Folgequest = "A Hidden Message -> Cluster Clutch"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst113Quest2 = "2. Cluster Clutch (Rogue)"
+Inst113Quest2_Level = "85"
+Inst113Quest2_Attain = "85"
+Inst113Quest2_Aim = "Collect 333 Shadowy Gems by looting Elementium Gem Clusters from creatures in the Dragon Soul Raid encounter."
+Inst113Quest2_Location = "Wrathion (Hillsbrad Foothills - Ravenholdt Manor; "..YELLOW.."71.4, 45.6"..WHITE..")"
+Inst113Quest2_Note = "Elementium Gem Clusters do not drop on Raid Finder difficulty.  You get 1 on 10-man and 2 or 3 on 25-man.  The Elementium Gem Clusters contain 3 to 9 Shadowy Gems each.\n\nIf you collect more than 333, keep them. The extra will count towards a later part of the quest."
+Inst113Quest2_Prequest = "Proving Your Worth -> The Deed is Done"
+Inst113Quest2_Folgequest = "Our Man in Karazhan -> Sharpening Your Fangs"
+Inst113Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst113Quest3 = "3. Sharpening Your Fangs (Rogue)"
+Inst113Quest3_Level = "85"
+Inst113Quest3_Attain = "85"
+Inst113Quest3_Aim = "Collect 60 Elementium Gem Clusters from creatures in the Dragon Soul Raid encounter."
+Inst113Quest3_Location = "Wrathion (Hillsbrad Foothills - Ravenholdt Manor; "..YELLOW.."71.4, 45.6"..WHITE..")"
+Inst113Quest3_Note = "Elementium Gem Clusters do not drop on Raid Finder difficulty.  You get 1 on 10-man and 2 or 3 on 25-man.\n\nThese are the same Shadowy Gems as the prior quest, so rogues on the previous part of the quest may need to wait."
+Inst113Quest3_Prequest = "Cluster Clutch -> Victory in the Depths"
+Inst113Quest3_Folgequest = "Patricide"
+Inst113Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst113Quest4 = "4. Patricide (Rogue)"
+Inst113Quest4_Level = "85"
+Inst113Quest4_Attain = "85"
+Inst113Quest4_Aim = "Destroy Deathwing and retrieve a Fragment of Deathwing's Jaw."
+Inst113Quest4_Location = "Wrathion (Hillsbrad Foothills - Ravenholdt Manor; "..YELLOW.."71.4, 45.6"..WHITE..")"
+Inst113Quest4_Note = "This quest cannot be completed on Raid Finder difficulty."
+Inst113Quest4_Prequest = "Victory in the Depths"
+Inst113Quest4_Folgequest = "None"
+Inst113Quest4FQuest = "true"
+--
+Inst113Quest4name1 = "Golad, Twilight of Aspects"
+Inst113Quest4name2 = "Tiriosh, Nightmare of Ages"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst113Quest1_HORDE = Inst113Quest1
+Inst113Quest1_HORDE_Level = Inst113Quest1_Level
+Inst113Quest1_HORDE_Attain = Inst113Quest1_Attain
+Inst113Quest1_HORDE_Aim = Inst113Quest1_Aim
+Inst113Quest1_HORDE_Location = Inst113Quest1_Location
+Inst113Quest1_HORDE_Note = Inst113Quest1_Note
+Inst113Quest1_HORDE_Prequest = Inst113Quest1_Prequest
+Inst113Quest1_HORDE_Folgequest = Inst113Quest1_Folgequest
+Inst113Quest1PreQuest_HORDE = Inst113Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst113Quest2_HORDE = Inst113Quest2
+Inst113Quest2_HORDE_Level = Inst113Quest2_Level
+Inst113Quest2_HORDE_Attain = Inst113Quest2_Attain
+Inst113Quest2_HORDE_Aim = Inst113Quest2_Aim
+Inst113Quest2_HORDE_Location = Inst113Quest2_Location
+Inst113Quest2_HORDE_Note = Inst113Quest2_Note
+Inst113Quest2_HORDE_Prequest = Inst113Quest2_Prequest
+Inst113Quest2_HORDE_Folgequest = Inst113Quest2_Folgequest
+Inst113Quest2PreQuest_HORDE = Inst113Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst113Quest3_HORDE = Inst113Quest3
+Inst113Quest3_HORDE_Level = Inst113Quest3_Level
+Inst113Quest3_HORDE_Attain = Inst113Quest3_Attain
+Inst113Quest3_HORDE_Aim = Inst113Quest3_Aim
+Inst113Quest3_HORDE_Location = Inst113Quest3_Location
+Inst113Quest3_HORDE_Note = Inst113Quest3_Note
+Inst113Quest3_HORDE_Prequest = Inst113Quest3_Prequest
+Inst113Quest3_HORDE_Folgequest = Inst113Quest3_Folgequest
+Inst113Quest3PreQuest_HORDE = Inst113Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst113Quest4_HORDE = Inst113Quest4
+Inst113Quest4_HORDE_Level = Inst113Quest4_Level
+Inst113Quest4_HORDE_Attain = Inst113Quest4_Attain
+Inst113Quest4_HORDE_Aim = Inst113Quest4_Aim
+Inst113Quest4_HORDE_Location = Inst113Quest4_Location
+Inst113Quest4_HORDE_Note = Inst113Quest4_Note
+Inst113Quest4_HORDE_Prequest = Inst113Quest4_Prequest
+Inst113Quest4_HORDE_Folgequest = Inst113Quest4_Folgequest
+Inst113Quest4FQuest_HORDE = Inst113Quest4FQuest
+--
+Inst113Quest4name1_HORDE = Inst113Quest4name1
+Inst113Quest4name2_HORDE = Inst113Quest4name2
 
 
 
