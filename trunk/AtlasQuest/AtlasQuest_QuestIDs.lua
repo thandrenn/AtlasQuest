@@ -2167,6 +2167,26 @@ AQ_29251_Level = "85"
 
 --------------- INST109 - Firelands ---------------
 
+Inst109Quest1_QuestID = "29453"
+Inst109Quest2_QuestID = "29135"
+Inst109Quest3_QuestID = "29234"
+Inst109Quest4_QuestID = "29270"
+Inst109Quest5_QuestID = "29307"
+
+Inst109Quest1_HORDE_QuestID = "29452"
+Inst109Quest2_HORDE_QuestID = "29135"
+Inst109Quest3_HORDE_QuestID = "29234"
+Inst109Quest4_HORDE_QuestID = "29270"
+Inst109Quest5_HORDE_QuestID = "29307"
+
+
+AQ_29453_Level = "85"
+AQ_29135_Level = "85"
+AQ_29234_Level = "85"
+AQ_29270_Level = "85"
+AQ_29307_Level = "85"
+AQ_29452_Level = "85"
+
 
 
 --------------- INST110 - End Time ---------------
@@ -2227,6 +2247,22 @@ AQ_30105_Level = "85"
 
 
 --------------- INST113 - Dragon Soul ---------------
+
+Inst113Quest1_QuestID = "29801"
+Inst113Quest2_QuestID = "30107"
+Inst113Quest3_QuestID = "30116"
+Inst113Quest4_QuestID = "30118"
+
+Inst113Quest1_HORDE_QuestID = "29801"
+Inst113Quest2_HORDE_QuestID = "30107"
+Inst113Quest3_HORDE_QuestID = "30116"
+Inst113Quest4_HORDE_QuestID = "30118"
+
+
+AQ_29801_Level = "85"
+AQ_30107_Level = "85"
+AQ_30116_Level = "85"
+AQ_30118_Level = "85"
 
 
 

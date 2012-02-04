@@ -10,6 +10,8 @@ Version 4.7.0 BETA (not released)
 - Removed old "Call to Arms" battleground daily quests along with 2 other obsolete Alterac Valley quests.
 - Alterac Valley map locations updated.
 - Coordinates for a number of quests are now more accurate.
+- Added Dragon Soul Rogue quests.  Not all quests are added.  Just those that require action inside the raid.
+- Added Firelands Legendary Staff quests.  Not all quests are added.  Just those that require action inside the raid.
 - Localizations updated: deDE, enUS, zhCN
 
 - Patch 4.3 introduced a number of changes to Burning Crusade and Wrath of the Lich King quests.  These were updated.
