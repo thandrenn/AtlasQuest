@@ -12,7 +12,7 @@ Version 4.7.0 BETA (not released)
 - Coordinates for a number of quests are now more accurate.
 - Localizations updated: deDE, enUS, zhCN
 
-- Patch 4.3 introduced a number of changes to Burning Crusade and Wrath of the Lich King quests.  We are now updating them.
+- Patch 4.3 introduced a number of changes to Burning Crusade and Wrath of the Lich King quests.  These were updated.
 	- Hellfire Citadel: Hellfire Ramparts
 	- Hellfire Citadel: Blood Furnace
 	- Hellfire Citadel: Shattered Halls
@@ -28,8 +28,19 @@ Version 4.7.0 BETA (not released)
 	- Tempest Keep: The Arcatraz
 	- Tempest Keep: The Botanica
 	- Tempest Keep: The Mechanar
+	- Caverns of Time: The Culling of Stratholme
 	- Utgarde Keep
 	- Utgarde Pinnacle
+	- The Nexus
+	- The Oculus
+	- Azjol-Nerub
+	- Ahn'kahet: The Old Kingdom
+	- Ulduar: Halls of Stone
+	- Ulduar: Halls of Lightning
+	- Drak'Tharon Keep
+	- Gundrak
+	- The Violet Hold
+	- Trial of the Champion
 	
 
 
