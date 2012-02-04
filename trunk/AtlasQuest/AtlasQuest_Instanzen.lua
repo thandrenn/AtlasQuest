@@ -763,7 +763,7 @@ end
 -- 66 = Skettis
 -- 67 = Magisters' Terrace
 -- 68 = Sunwell Plateau
--- 69 = Caverns of Time: Stratholme Past
+-- 69 = Caverns of Time: The Culling of Stratholme
 -- 70 = Utgarde Keep: Utgarde Keep
 -- 71 = Utgarde Keep: Utgarde Pinnacle
 -- 72 = The Nexus: The Nexus

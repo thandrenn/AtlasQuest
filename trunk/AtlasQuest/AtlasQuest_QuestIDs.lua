@@ -1505,7 +1505,7 @@ AQ_24564_Level = "80"
 
 
 
---------------- INST69 - Caverns of Time: Stratholme Past ---------------
+--------------- INST69 - Caverns of Time: The Culling of Stratholme ---------------
 
 Inst69Quest1_QuestID = "13149"
 Inst69Quest2_QuestID = "13151"
@@ -1558,21 +1558,24 @@ AQ_29864_Level = "80"
 
 --------------- INST72 - The Nexus: The Nexus ---------------
 
-Inst72Quest1_QuestID = "13094"
-Inst72Quest2_QuestID = "11905"
-Inst72Quest3_QuestID = "11973"
+Inst72Quest1_QuestID = "29820"
+Inst72Quest2_QuestID = "13094"
+Inst72Quest3_QuestID = "11905"
 Inst72Quest4_QuestID = "11911"
+Inst72Quest5_QuestID = "11973"
 
-Inst72Quest1_HORDE_QuestID = "13095"
-Inst72Quest2_HORDE_QuestID = "11905"
-Inst72Quest3_HORDE_QuestID = "11973"
+Inst72Quest1_HORDE_QuestID = "29820"
+Inst72Quest2_HORDE_QuestID = "13095"
+Inst72Quest3_HORDE_QuestID = "11905"
 Inst72Quest4_HORDE_QuestID = "11911"
+Inst72Quest5_HORDE_QuestID = "11973"
 
 
+AQ_29820_Level = "71"
 AQ_13094_Level = "71"
 AQ_11905_Level = "71"
-AQ_11973_Level = "71"
 AQ_11911_Level = "71"
+AQ_11973_Level = "71"
 AQ_13095_Level = "71"
 
 
@@ -1698,38 +1701,44 @@ AQ_24579_Level = "80"
 
 --------------- INST80 - Drak'Tharon Keep ---------------
 
-Inst80Quest1_QuestID = "12238"
-Inst80Quest2_QuestID = "12037"
-Inst80Quest3_QuestID = "13129"
+Inst80Quest1_QuestID = "12037"
+Inst80Quest2_QuestID = "13129"
+Inst80Quest3_QuestID = "29828"
+Inst80Quest4_QuestID = "30120"
 
-Inst80Quest1_HORDE_QuestID = "12238"
-Inst80Quest2_HORDE_QuestID = "12037"
-Inst80Quest3_HORDE_QuestID = "13129"
+Inst80Quest1_HORDE_QuestID = "12037"
+Inst80Quest2_HORDE_QuestID = "13129"
+Inst80Quest3_HORDE_QuestID = "29828"
+Inst80Quest4_HORDE_QuestID = "30120"
 
 
-AQ_12238_Level = "75"
 AQ_12037_Level = "74"
 AQ_13129_Level = "74"
+AQ_29828_Level = "74"
+AQ_30120_Level = "75"
 
 
 
 --------------- INST81 - Gundrak ---------------
 
-Inst81Quest1_QuestID = "29844"
-Inst81Quest2_QuestID = "29834"
-Inst81Quest3_QuestID = "29839"
-Inst81Quest4_QuestID = "29836"
+Inst81Quest1_QuestID = "29836"
+Inst81Quest2_QuestID = "29833"
+Inst81Quest3_QuestID = "29844"
+Inst81Quest4_QuestID = "29834"
+Inst81Quest5_QuestID = "29839"
 
-Inst81Quest1_HORDE_QuestID = "29844"
-Inst81Quest2_HORDE_QuestID = "29834"
-Inst81Quest3_HORDE_QuestID = "29839"
-Inst81Quest3_HORDE_QuestID = "29836"
+Inst81Quest1_HORDE_QuestID = "29836"
+Inst81Quest2_HORDE_QuestID = "29833"
+Inst81Quest3_HORDE_QuestID = "29844"
+Inst81Quest4_HORDE_QuestID = "29834"
+Inst81Quest5_HORDE_QuestID = "29839"
 
 
+AQ_29836_Level = "78"
+AQ_29833_Level = "78"
 AQ_29844_Level = "78"
 AQ_29834_Level = "78"
 AQ_29839_Level = "78"
-AQ_29836_Level = "78"
 
 
 
@@ -1847,6 +1856,13 @@ AQ_24588_Level = "80"
 
 
 --------------- INST87 - Trial of the Champion ---------------
+
+Inst87Quest1_QuestID = "29851"
+
+Inst87Quest1_HORDE_QuestID = "29851"
+
+
+AQ_29851_Level = "78"
 
 
 
