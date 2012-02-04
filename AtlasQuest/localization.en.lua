@@ -9446,8 +9446,8 @@ Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
 
 Inst80Story = "Drak'Tharon Keep is located in the icy northlands of Northrend, in the northwestern part of the Grizzly Hills, and is an ancient ice troll stronghold. The Scourge drove the trolls out and took possession, and now the Scourge has a solid garrison there holding the mountain passes. The strange dungeon is filled with dinosaurs and lizards, while teeming with undead. You are sent in to discover the reasoning behind why the trolls are leaving their home of Zul'Drak."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst80Caption = "Drak'Tharon Keep"
-Inst80QAA = "3 Quests"
-Inst80QAH = "3 Quests"
+Inst80QAA = "4 Quests"
+Inst80QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst80Quest1 = "1. Search and Rescue"
@@ -12142,8 +12142,6 @@ Inst109Quest5_HORDE_Prequest = Inst109Quest5_Prequest
 Inst109Quest5_HORDE_Folgequest = Inst109Quest5_Folgequest
 Inst109Quest5PreQuest_HORDE = Inst109Quest5PreQuest
 Inst109Quest5FQuest_HORDE = Inst109Quest5FQuest
---
-Inst109Quest5name1_HORDE = Inst109Quest5name1
 -- No Rewards for this quest
 
 
