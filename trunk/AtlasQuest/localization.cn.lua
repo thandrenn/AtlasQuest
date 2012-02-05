@@ -4615,7 +4615,7 @@ Inst29Quest3name1_HORDE = Inst29Quest8name1
 
 
 
---------------- INST37 - HFC: Ramparts (Ramp) ---------------
+--------------- INST37 - HFC: Hellfire Ramparts (Ramp) ---------------
 
 Inst37Story = {
   ["Page1"] = "在满目疮痍的外域，地狱火半岛的中心矗立着地狱火堡垒。在第一次和第二次兽人战争中，它作为兽人的基地，是不可攻克的象征。多年来，人们以为这座巨大的堡垒已经被遗弃了……\n \n直到最近。\n \n虽然德拉诺大陆被耐奥祖不计后果的破坏了，但是在地狱火堡垒中仍然居住着劫掠成性的红色狂暴堕落兽人。虽然这个新出现的野蛮种族还带着不少谜团，更令人吃惊的是他们的数量还在不断增长。\n \n虽然萨尔和格罗姆地狱咆哮已经杀死了玛诺洛斯，终止了部落的堕落。但是有报告显示地狱火堡垒中的野蛮兽人找到了一种新的堕落之源来满足他们原始的嗜血欲望。",
@@ -6791,7 +6791,7 @@ Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
 
 
 
---------------- INST49 - CoT: Black Morass (BM) ---------------
+--------------- INST49 - CoT: The Black Morass (BM) ---------------
 
 Inst49Story = "麦迪文，最后的魔法守护者，出生时就被邪恶的泰坦萨格拉斯附身。\n\n是麦迪文第一个联络上了邪恶术士古尔丹并为燃烧军团的入侵提供帮助。\n\n他们一起协力打开了黑暗之门，连通了德拉诺和艾泽拉斯，无数嗜血的兽人疯狂涌入妄图毁灭这个世界。\n\n这个地下城设计是在黑色沼泽，也就是现在的诅咒之地。玩家们需要在麦迪文打开黑暗之门的过程中保护他。"
 Inst49Caption = "时光之穴（CoT）：黑色沼泽（BM）"
@@ -6949,7 +6949,7 @@ Inst49Quest5name1_HORDE = Inst49Quest5name1
 --------------- INST50 - CoT: Battle of Mount Hyjal ---------------
 
 Inst50Story = "在第二次抵抗燃烧军团的战争进行到白热阶段时，艾泽拉斯世界的各大种族意识到只有团结起来奋力抗衡才有可能取得胜利。这次战斗发生在海加尔山山顶的世界之树，诺达希尔脚下。由玛法里奥·怒风和泰兰德·语风领导的暗夜精灵、由萨尔和凯恩·血蹄领导的新部落以及由吉安娜·普罗德摩尔领导的来自洛丹伦的联盟残部团结起来一起对抗阿克蒙德和燃烧军团的恶魔，打响了一场波澜壮阔的艾泽拉斯世界保卫战。就在阿克蒙德接触到世界之树并试图吸取它的能量时，联军打败他，取得了险胜。"
-Inst50Caption = "时光之穴（CoT）：海加尔峰"
+Inst50Caption = "海加尔山之战（HS）"
 Inst50QAA = "1 个任务"
 Inst50QAH = "1 个任务"
 
@@ -6980,10 +6980,10 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 
 
 
---------------- INST51 - CoT: Old Hillsbrad ---------------
+--------------- INST51 - CoT: Old Hillsbrad Foothills ---------------
 
 Inst51Story = "敦霍尔德城堡是人类兽族第二次大战时洛丹伦王国的南方的前沿要塞。\n\n这时候萨尔在人族指挥官布莱克眼里，萨尔只不过是一个傀儡酋长。他想利用萨尔的力量来控制其他人。\n\n但是萨尔知道，他生来注定要带领兽人摆脱枷锁，所以他开始了的逃离敦霍尔德的旅程。\n\n这个地下城表现的是10年前的希尔斯布莱德，那是部落还没有摧毁敦霍尔德而且塔伦米尔没有沦陷在亡灵天灾手里。"
-Inst51Caption = "时光之穴（CoT）：旧希尔斯布莱德丘陵"
+Inst51Caption = "旧希尔斯布莱德丘陵"
 Inst51QAA = "5 个任务"
 Inst51QAH = "5 个任务"
 Inst51General = {
@@ -8223,7 +8223,7 @@ Inst56Quest7name1_HORDE = Inst56Quest7name1
 --------------- INST61 - TK: The Eye ---------------
 
 Inst61Story = "原是纳鲁的旗舰。一个叫做沙塔尔的纳鲁组织在听到了卡德加的请求后，驾驶着它来到外域对付燃烧军团。当他们集体离开要塞，分散到外域四处勘查的时候。血精灵王子凯尔萨斯乘虚而入，率军突袭了这座太空堡垒。精灵们迅速摧毁了风暴要塞的自动防御体系，并攻占了要塞的周边建筑。整个过程中遇到的唯一威胁是一个躲在要塞内部以维持防线的纳鲁，凯尔萨斯费了好大功夫才制住了这个纯能量生物，并将其送回奎尔萨拉斯，为那些魔法成瘾的血精灵提供能量源。"
-Inst61Caption = "风暴要塞（TK）：风暴之眼"
+Inst61Caption = "风暴要塞（TK）"
 Inst61QAA = "3 个任务"
 Inst61QAH = "3 个任务"
 
@@ -8770,7 +8770,7 @@ Inst68Quest1PreQuest_HORDE = "true"
 
 
 
---------------- INST69 - Caverns of Time: Stratholme Past ---------------
+--------------- INST69 - Caverns of Time: The Culling of Stratholme ---------------
 
 Inst69Story = "旧斯坦索姆是时光之穴又一个新的地下城。在这个故事里，你将帮助阿尔萨斯王子从瘟疫中净化这座城市，也正是这一次战役，让年轻的阿尔萨斯开始堕落入黑暗的深渊，当然，这一切都是巫妖王邪恶计划的一部分。"
 Inst69Caption = "时光之穴（CoT）：净化斯坦索姆"
@@ -8813,7 +8813,7 @@ Inst69Quest1 = "1. 驱除幻象"
 Inst69Quest1_Level = "80"
 Inst69Quest1_Attain = "78"
 Inst69Quest1_Aim = "克罗米要你对往日的斯坦索姆内的可疑箱子使用奥术干扰器，然后到斯坦索姆的入口附近去见她。"
-Inst69Quest1_Location = "克罗米（旧斯坦索姆; "..YELLOW.."[1]"..WHITE.."）"
+Inst69Quest1_Location = "克罗米（净化斯坦索姆; "..GREEN.."[1']"..WHITE.."）"
 Inst69Quest1_Note = "你可以在通往斯塔索姆的路旁的房子附近找到这些箱子，完成后，任务交给另一个克罗米"..GREEN.."[1']"..WHITE.."。"
 Inst69Quest1_Prequest = "无"
 Inst69Quest1_Folgequest = "皇家护卫"
@@ -8824,7 +8824,7 @@ Inst69Quest2 = "2. 皇家护卫"
 Inst69Quest2_Level = "80"
 Inst69Quest2_Attain = "78"
 Inst69Quest2_Aim = "克罗米要你在阿尔萨斯净化斯坦索姆时陪在他身边。击败玛尔加尼斯后再去见她。"
-Inst69Quest2_Location = "克罗米（旧斯坦索姆; "..GREEN.."[1']"..WHITE.."）"
+Inst69Quest2_Location = "克罗米（净化斯坦索姆; "..GREEN.."[1']"..WHITE.."）"
 Inst69Quest2_Note = "玛尔加尼斯在"..YELLOW.."[5]"..WHITE.."在你完成这个事件后克罗米会出现。"
 Inst69Quest2_Prequest = "驱除幻象"
 Inst69Quest2_Folgequest = "无"
@@ -9110,8 +9110,8 @@ Inst72Story = {
 };
 
 Inst72Caption = "魔枢：魔枢"
-Inst72QAA = "4 个任务"
-Inst72QAH = "4 个任务"
+Inst72QAA = "5 个任务"
+Inst72QAH = "5 个任务"
 Inst72General = {
     {
     "大魔导师泰蕾丝塔",
@@ -9139,57 +9139,53 @@ Inst72General = {
 };
 
 --Quest 1 Alliance
-Inst72Quest1 = "1. 他们丝毫不感到羞愧吗？"
+Inst72Quest1 = "1. 前往魔枢"
 Inst72Quest1_Level = "71"
-Inst72Quest1_Attain = "68"
-Inst72Quest1_Aim = "图书馆员塞尔拉希望你进入魔枢，找回伯林纳德的研究笔记。"
-Inst72Quest1_Location = "图书馆员赛尔拉（北风苔原 - 永生之盾; "..YELLOW.."33.4, 34.3"..WHITE.."）"
-Inst72Quest1_Note = "伯林纳德的研究笔记在通向大魔导师泰蕾丝塔"..YELLOW.."[1]"..WHITE.."的大厅的地上。"
+Inst72Quest1_Attain = "69"
+Inst72Quest1_Aim = "大法师伯林纳德希望你能与魔枢内的战斗法师凯特琳交谈。"
+Inst72Quest1_Location = "大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
+Inst72Quest1_Note = "战斗法师凯特琳就在地下城入口内。"
 Inst72Quest1_Prequest = "无"
 Inst72Quest1_Folgequest = "无"
---
-Inst72Quest1name1 = "北地光芒护肩"
-Inst72Quest1name2 = "熟化猛犸皮衬肩"
-Inst72Quest1name3 = "苔原追踪者护肩"
-Inst72Quest1name4 = "苔原肩铠"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst72Quest2 = "2. 延缓灾难"
+Inst72Quest2 = "2. 他们丝毫不感到羞愧吗？"
 Inst72Quest2_Level = "71"
-Inst72Quest2_Attain = "69"
-Inst72Quest2_Aim = "永生之盾的大法师伯林纳德要你在魔枢的裂隙附近使用交叉空间重塑器。"
-Inst72Quest2_Location = "大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
-Inst72Quest2_Note = "在阿诺玛鲁斯"..YELLOW.."[3]"..WHITE.."的位置附近的平台边缘使用使用交叉空间重塑器。"
-Inst72Quest2_Prequest = "监测数据"
+Inst72Quest2_Attain = "68"
+Inst72Quest2_Aim = "战斗法师凯特琳的影像要你找回伯林纳德的研究笔记。"
+Inst72Quest2_Location = "战斗法师凯特琳的影像（魔枢; "..BLUE.."入口"..WHITE.."）\n或者图书馆员塞尔拉（北风苔原 - 永生之盾; "..YELLOW.."33.4, 34.3"..WHITE.."）"
+Inst72Quest2_Note = "伯林纳德的研究笔记在通向大魔导师泰蕾丝塔"..YELLOW.."[1]"..WHITE.."的大厅的地上。"
+Inst72Quest2_Prequest = "无"
 Inst72Quest2_Folgequest = "无"
-Inst72Quest2PreQuest = "true"
 --
-Inst72Quest2name1 = "时间扭曲裹手"
-Inst72Quest2name2 = "时间停止手套"
-Inst72Quest2name3 = "阴谋护腕"
-Inst72Quest2name4 = "困惑巨人护手"
+Inst72Quest2name1 = "北地光芒护肩"
+Inst72Quest2name2 = "熟化猛犸皮衬肩"
+Inst72Quest2name3 = "苔原追踪者护肩"
+Inst72Quest2name4 = "苔原肩铠"
 
 --Quest 3 Alliance
-Inst72Quest3 = "3. 战争的囚徒"
+Inst72Quest3 = "3. 延缓灾难"
 Inst72Quest3_Level = "71"
 Inst72Quest3_Attain = "69"
-Inst72Quest3_Aim = "永生之盾的莱洛拉斯要你进入魔枢并释放克莉斯塔萨。"
-Inst72Quest3_Location = "莱洛拉斯（北风苔原 - 永生之盾; "..YELLOW.."33.2, 34.4"..WHITE.."）"
-Inst72Quest3_Note = "克莉斯塔萨在"..YELLOW.."[5]"..WHITE.."。"
-Inst72Quest3_Prequest = "克莉斯塔萨 -> 触动陷阱"
+Inst72Quest3_Aim = "战斗法师凯特琳的影像要你在魔枢的裂隙附近使用交叉空间重塑器。"
+Inst72Quest3_Location = "战斗法师凯特琳的影像（魔枢; "..BLUE.."入口"..WHITE.."）\n或者大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
+Inst72Quest3_Note = "在阿诺玛鲁斯"..YELLOW.."[3]"..WHITE.."的位置附近的平台边缘使用使用交叉空间重塑器。"
+Inst72Quest3_Prequest = "监测数据"
 Inst72Quest3_Folgequest = "无"
 Inst72Quest3PreQuest = "true"
 --
-Inst72Quest3name1 = "碧蓝光芒披风"
-Inst72Quest3name2 = "克莉斯塔萨衬肩"
-Inst72Quest3name3 = "流畅攻击披风"
+Inst72Quest3name1 = "时间扭曲裹手"
+Inst72Quest3name2 = "时间停止手套"
+Inst72Quest3name3 = "阴谋护腕"
+Inst72Quest3name4 = "困惑巨人护手"
 
 --Quest 4 Alliance
 Inst72Quest4 = "4. 苏醒"
 Inst72Quest4_Level = "71"
-Inst72Quest4_Attain = "70"
-Inst72Quest4_Aim = "永生之盾的大法师伯林纳德要你进入魔枢，并从晶化保卫者身上收集5块奥术古树碎片。"
-Inst72Quest4_Location = "大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
+Inst72Quest4_Attain = "69"
+Inst72Quest4_Aim = "魔枢的战斗法师凯特琳的影像要你从晶化保卫者身上收集5块奥术碎片。"
+Inst72Quest4_Location = "战斗法师凯特琳的影像（魔枢; "..BLUE.."入口"..WHITE.."）\n或者大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
 Inst72Quest4_Note = "晶化保卫者掉落奥术古树碎片，分布在去塑树者奥莫洛克的路上。"
 Inst72Quest4_Prequest = "古树的秘密"
 Inst72Quest4_Folgequest = "无"
@@ -9201,6 +9197,21 @@ Inst72Quest4name3 = "变异刺靴"
 Inst72Quest4name4 = "充沛之靴"
 Inst72Quest4name5 = "不屈保卫者之靴"
 
+--Quest 5 Alliance
+Inst72Quest5 = "5. 战争的囚徒"
+Inst72Quest5_Level = "71"
+Inst72Quest5_Attain = "69"
+Inst72Quest5_Aim = "战斗法师凯特琳要你去释放克莉斯塔萨。"
+Inst72Quest5_Location = "战斗法师凯特琳（魔枢; "..BLUE.."入口"..WHITE.."）\n或者莱洛拉斯（北风苔原 - 永生之盾; "..YELLOW.."33.2, 34.4"..WHITE.."）"
+Inst72Quest5_Note = "克莉斯塔萨在"..YELLOW.."[5]"..WHITE.."。"
+Inst72Quest5_Prequest = "克莉斯塔萨 -> 触动陷阱"
+Inst72Quest5_Folgequest = "无"
+Inst72Quest5PreQuest = "true"
+--
+Inst72Quest5name1 = "碧蓝光芒披风"
+Inst72Quest5name2 = "克莉斯塔萨衬肩"
+Inst72Quest5name3 = "流畅攻击披风"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst72Quest1_HORDE = Inst72Quest1
@@ -9211,11 +9222,7 @@ Inst72Quest1_HORDE_Location = Inst72Quest1_Location
 Inst72Quest1_HORDE_Note = Inst72Quest1_Note
 Inst72Quest1_HORDE_Prequest = Inst72Quest1_Prequest
 Inst72Quest1_HORDE_Folgequest = Inst72Quest1_Folgequest
---
-Inst72Quest1name1_HORDE = Inst72Quest1name1
-Inst72Quest1name2_HORDE = Inst72Quest1name2
-Inst72Quest1name3_HORDE = Inst72Quest1name3
-Inst72Quest1name4_HORDE = Inst72Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst72Quest2_HORDE = Inst72Quest2
@@ -9226,7 +9233,6 @@ Inst72Quest2_HORDE_Location = Inst72Quest2_Location
 Inst72Quest2_HORDE_Note = Inst72Quest2_Note
 Inst72Quest2_HORDE_Prequest = Inst72Quest2_Prequest
 Inst72Quest2_HORDE_Folgequest = Inst72Quest2_Folgequest
-Inst72Quest2PreQuest_HORDE = Inst72Quest2PreQuest
 --
 Inst72Quest2name1_HORDE = Inst72Quest2name1
 Inst72Quest2name2_HORDE = Inst72Quest2name2
@@ -9247,6 +9253,7 @@ Inst72Quest3PreQuest_HORDE = Inst72Quest3PreQuest
 Inst72Quest3name1_HORDE = Inst72Quest3name1
 Inst72Quest3name2_HORDE = Inst72Quest3name2
 Inst72Quest3name3_HORDE = Inst72Quest3name3
+Inst72Quest3name4_HORDE = Inst72Quest3name4
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst72Quest4_HORDE = Inst72Quest4
@@ -9264,6 +9271,21 @@ Inst72Quest4name2_HORDE = Inst72Quest4name2
 Inst72Quest4name3_HORDE = Inst72Quest4name3
 Inst72Quest4name4_HORDE = Inst72Quest4name4
 Inst72Quest4name5_HORDE = Inst72Quest4name5
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst72Quest5_HORDE = Inst72Quest5
+Inst72Quest5_HORDE_Level = Inst72Quest5_Level
+Inst72Quest5_HORDE_Attain = Inst72Quest5_Attain
+Inst72Quest5_HORDE_Aim = Inst72Quest5_Aim
+Inst72Quest5_HORDE_Location = Inst72Quest5_Location
+Inst72Quest5_HORDE_Note = Inst72Quest5_Note
+Inst72Quest5_HORDE_Prequest = Inst72Quest5_Prequest
+Inst72Quest5_HORDE_Folgequest = Inst72Quest5_Folgequest
+Inst72Quest5PreQuest_HORDE = Inst72Quest5PreQuest
+--
+Inst72Quest5name1_HORDE = Inst72Quest5name1
+Inst72Quest5name2_HORDE = Inst72Quest5name2
+Inst72Quest5name3_HORDE = Inst72Quest5name3
 
 
 
@@ -9314,7 +9336,7 @@ Inst73Quest1 = "1. 战斗仍在继续"
 Inst73Quest1_Level = "80"
 Inst73Quest1_Attain = "77"
 Inst73Quest1_Aim = "莱洛拉斯希望你进入魔环，营救贝加里斯塔兹与他的同伴。"
-Inst73Quest1_Location = "莱洛拉斯（北风苔原 - 永生之盾; "..YELLOW.."33.2, 34.4"..WHITE.."）"
+Inst73Quest1_Location = "莱洛拉斯（北风苔原 - 永生之盾; "..YELLOW.."33.2, 34.4"..WHITE.."）\n或者进入魔环自动接受。"
 Inst73Quest1_Note = "在你击败 审讯者达库斯 "..YELLOW.."[1]"..WHITE.."后，你会发现贝加里斯塔兹被关着的笼子."
 Inst73Quest1_Prequest = "无"
 Inst73Quest1_Folgequest = "协同作战"
@@ -9354,7 +9376,7 @@ Inst73Quest4_Level = "80"
 Inst73Quest4_Attain = "77"
 Inst73Quest4_Aim = "贝加里斯塔兹要求你击败魔环的埃雷苟斯，然后回到考达拉的永生之盾，向莱洛拉斯复命。"
 Inst73Quest4_Location = "贝加里斯塔兹的影像（魔枢：魔环; "..YELLOW.."[3]"..WHITE.."）"
-Inst73Quest4_Note = "埃雷苟斯在"..YELLOW.."[4]"..WHITE.."。莱洛拉斯（北风苔原 - 永生之盾; "..YELLOW.."33.2, 34.4"..WHITE.."）。"
+Inst73Quest4_Note = "魔网守护者埃雷苟斯在"..YELLOW.."[4]"..WHITE.."。"
 Inst73Quest4_Prequest = "法师领主伊洛姆"
 Inst73Quest4_Folgequest = "无"
 Inst73Quest4FQuest = "true"
@@ -9528,8 +9550,8 @@ Inst74Quest3_HORDE_Folgequest = Inst74Quest3_Folgequest
 
 Inst75Story = "艾卓-尼鲁布是一个广阔的地下世界-蜘蛛魔的王国。它座落在龙骨荒原，可以分为2部分：古代王国和上层王国，其最深处的某些区域现在被无面者控制。\n\n上层王国对所有人来说，仍然是个未解之谜。曾经它是一个具有强大力量的部落，直到现在，很多具有神秘力量的宝物仍然留在那里。那里不仅有许多宝石和魔法物品，还有数目庞大的文学和艺术作品。亡灵无情的摧毁了这一切，它们所期望的是把这个地下王国毁灭，像地面上世界一样。"
 Inst75Caption = "艾卓-尼鲁布"
-Inst75QAA = "2 个任务"
-Inst75QAH = "2 个任务"
+Inst75QAA = "3 个任务"
+Inst75QAH = "3 个任务"
 Inst75General = {
     {
     "看门者克里克希尔",
@@ -9551,34 +9573,45 @@ Inst75General = {
 };
 
 --Quest 1 Alliance
-Inst75Quest1 = "1. 别忘了蛛卵！"
+Inst75Quest1 = "1. 守门人的护符"
 Inst75Quest1_Level = "74"
 Inst75Quest1_Attain = "72"
-Inst75Quest1_Aim = "纳尔苏深渊的拆解者基里克斯希望你前往艾卓-尼鲁布，摧毁6枚天灾蛛魔之卵。"
-Inst75Quest1_Location = "拆解者基里克斯（龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE.."）"
-Inst75Quest1_Note = "天灾蛛魔之卵就在第一个首领看门者克里克希尔 "..YELLOW.."[1]"..WHITE.."的房间里。"
+Inst75Quest1_Aim = "艾卓-尼鲁布里的复国者阿扎克要求你从看门者克里克希尔那里夺回守门人的护符。"
+Inst75Quest1_Location = "复国者阿扎克（艾卓-尼鲁布; "..BLUE.."入口"..WHITE.."）"
+Inst75Quest1_Note = "看门者克里克希尔在"..YELLOW.."[1]"..WHITE.."。"
 Inst75Quest1_Prequest = "无"
 Inst75Quest1_Folgequest = "无"
---
-Inst75Quest1name1 = "驱逐护手"
-Inst75Quest1name2 = "净化手甲"
-Inst75Quest1name3 = "镇压灾祸护手"
-Inst75Quest1name4 = "痛苦消除手套"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst75Quest2 = "2. 叛徒国王之死"
+Inst75Quest2 = "2. 别忘了蛛卵！"
 Inst75Quest2_Level = "74"
 Inst75Quest2_Attain = "72"
-Inst75Quest2_Aim = "纳尔苏深渊的拆解者基里克斯要你去击败艾卓-尼鲁布的阿努巴拉克，并将阿努巴拉克的破损甲壳交给基里克斯。"
-Inst75Quest2_Location = "拆解者基里克斯（龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE.."）"
-Inst75Quest2_Note = "阿努巴拉克在"..YELLOW.."[3]"..WHITE.."。"
+Inst75Quest2_Aim = "艾卓-尼鲁布内的复国者阿扎克要求你摧毁6个天灾蛛魔之卵。"
+Inst75Quest2_Location = "复国者阿扎克（艾卓-尼鲁布; "..BLUE.."入口"..WHITE.."）"
+Inst75Quest2_Note = "天灾蛛魔之卵就在第一个首领看门者克里克希尔"..YELLOW.."[1]"..WHITE.."的房间里。"
 Inst75Quest2_Prequest = "无"
 Inst75Quest2_Folgequest = "无"
 --
-Inst75Quest2name1 = "基里克斯的丝绸便鞋"
-Inst75Quest2name2 = "索托的靴子"
-Inst75Quest2name3 = "甲壳碎片战靴"
-Inst75Quest2name4 = "叛徒胫甲"
+Inst75Quest2name1 = "驱逐护手"
+Inst75Quest2name2 = "净化手甲"
+Inst75Quest2name3 = "镇压灾祸护手"
+Inst75Quest2name4 = "痛苦消除手套"
+
+--Quest 3 Alliance
+Inst75Quest3 = "3. 叛君之死"
+Inst75Quest3_Level = "74"
+Inst75Quest3_Attain = "72"
+Inst75Quest3_Aim = "艾卓-尼鲁布内的复国者阿扎克委派你击败阿努巴拉克。带着阿努巴拉克的破损甲壳向阿扎克复命。"
+Inst75Quest3_Location = "复国者阿扎克（艾卓-尼鲁布; "..BLUE.."入口"..WHITE.."）"
+Inst75Quest3_Note = "阿努巴拉克在"..YELLOW.."[3]"..WHITE.."。"
+Inst75Quest3_Prequest = "无"
+Inst75Quest3_Folgequest = "无"
+--
+Inst75Quest3name1 = "基里克斯的丝绸便鞋"
+Inst75Quest3name2 = "索托的靴子"
+Inst75Quest3name3 = "甲壳碎片战靴"
+Inst75Quest3name4 = "叛徒胫甲"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9590,11 +9623,7 @@ Inst75Quest1_HORDE_Location = Inst75Quest1_Location
 Inst75Quest1_HORDE_Note = Inst75Quest1_Note
 Inst75Quest1_HORDE_Prequest = Inst75Quest1_Prequest
 Inst75Quest1_HORDE_Folgequest = Inst75Quest1_Folgequest
---
-Inst75Quest1name1_HORDE = Inst75Quest1name1
-Inst75Quest1name2_HORDE = Inst75Quest1name2
-Inst75Quest1name3_HORDE = Inst75Quest1name3
-Inst75Quest1name4_HORDE = Inst75Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst75Quest2_HORDE = Inst75Quest2
@@ -9610,6 +9639,21 @@ Inst75Quest2name1_HORDE = Inst75Quest2name1
 Inst75Quest2name2_HORDE = Inst75Quest2name2
 Inst75Quest2name3_HORDE = Inst75Quest2name3
 Inst75Quest2name4_HORDE = Inst75Quest2name4
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst75Quest3_HORDE = Inst75Quest3
+Inst75Quest3_HORDE_Level = Inst75Quest3_Level
+Inst75Quest3_HORDE_Attain = Inst75Quest3_Attain
+Inst75Quest3_HORDE_Aim = Inst75Quest3_Aim
+Inst75Quest3_HORDE_Location = Inst75Quest3_Location
+Inst75Quest3_HORDE_Note = Inst75Quest3_Note
+Inst75Quest3_HORDE_Prequest = Inst75Quest3_Prequest
+Inst75Quest3_HORDE_Folgequest = Inst75Quest3_Folgequest
+--
+Inst75Quest3name1_HORDE = Inst75Quest3name1
+Inst75Quest3name2_HORDE = Inst75Quest3name2
+Inst75Quest3name3_HORDE = Inst75Quest3name3
+Inst75Quest3name4_HORDE = Inst75Quest3name4
 
 
 
@@ -9652,36 +9696,38 @@ Inst76General = {
 };
 
 --Quest 1 Alliance
-Inst76Quest1 = "1. 黄金时代（英雄日常）"
-Inst76Quest1_Level = "80"
-Inst76Quest1_Attain = "80"
-Inst76Quest1_Aim = "纳尔苏深渊的拆解者基里克斯希望你弄到一具安卡哈看守者的尸体，将其放在安卡赫特的安卡赫特火盆上焚烧。"
-Inst76Quest1_Location = "拆解者基里克斯（龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE.."）"
-Inst76Quest1_Note = "英雄日常任务。\n\n安卡赫特火盆在传令官沃拉兹的身后"..GREEN.."[1']"..WHITE.."。尸体持续1小时时间，如果你离开地下城的话尸体会消失。"
+Inst76Quest1 = "1. 师生义绝"
+Inst76Quest1_Level = "76"
+Inst76Quest1_Attain = "73"
+Inst76Quest1_Aim = "安卡赫特的先知伊克塞特要求你去刺杀先知纳多克斯。"
+Inst76Quest1_Location = "先知伊克塞特（安卡赫特：古代王国; "..BLUE.."入口"..WHITE.."）"
+Inst76Quest1_Note = "先知纳多克斯在"..YELLOW.."[1]"..WHITE.."。"
 Inst76Quest1_Prequest = "无"
-Inst76Quest1_Folgequest = "无"
+Inst76Quest1_Folgequest = "夺回安卡赫特"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst76Quest2 = "2. 奇怪的蘑菇"
+Inst76Quest2 = "2. 夺回安卡赫特"
 Inst76Quest2_Level = "76"
 Inst76Quest2_Attain = "73"
-Inst76Quest2_Aim = "从安卡赫特的野蛮洞穴兽那里收集6只奇异的蘑菇，然后把它们交给纳尔苏深渊的拆解者基里克斯。"
-Inst76Quest2_Location = "覆满淤泥的蘑菇（安卡赫特里的野蛮洞穴兽掉落）"
-Inst76Quest2_Note = "掉落任务物品的野蛮洞穴兽在英雄难度特有首领埃曼尼塔 "..YELLOW.."[3]"..WHITE.." 周围的区域。\n\n拆解者基里克斯（龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE.."）"
-Inst76Quest2_Prequest = "无"
-Inst76Quest2_Folgequest = "无"
+Inst76Quest2_Aim = "安卡赫特的先知伊克塞特要求你杀死3个塔达拉姆之眼，1个碾骨者以及塔达拉姆王子。"
+Inst76Quest2_Location = "先知伊克塞特（安卡赫特：古代王国; "..BLUE.."入口"..WHITE.."）"
+Inst76Quest2_Note = "塔达拉姆之眼和碾骨者在去往塔达拉姆王子"..YELLOW.."[2]"..WHITE.."的路上。"
+Inst76Quest2_Prequest = "师生义绝"
+Inst76Quest2_Folgequest = "无面者"
+Inst76Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst76Quest3 = "3. 无面者"
 Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
-Inst76Quest3_Aim = "纳尔苏深渊的拆解者基里克斯要你去杀死安卡赫特的传令官沃拉兹和他身边的3个被遗忘的无面者。"
-Inst76Quest3_Location = "拆解者基里克斯（龙骨荒原 - 艾卓-尼鲁布; "..YELLOW.."26.1, 50.0"..WHITE.."）"
-Inst76Quest3_Note = "无面者和传令官沃拉兹在"..YELLOW.."[5]"..WHITE.."。"
-Inst76Quest3_Prequest = "无"
+Inst76Quest3_Aim = "安卡赫特的先知伊克塞特要你去杀死传令官沃拉兹和他身边的3个被遗忘的无面者。"
+Inst76Quest3_Location = "先知伊克塞特（安卡赫特：古代王国; "..BLUE.."入口"..WHITE.."）"
+Inst76Quest3_Note = "被遗忘的无面者和无面者和传令官沃拉兹在"..YELLOW.."[5]"..WHITE.."。"
+Inst76Quest3_Prequest = "夺回安卡赫特"
 Inst76Quest3_Folgequest = "无"
+Inst76Quest3FQuest = "true"
 --
 Inst76Quest3name1 = "邪恶挫败衬肩"
 Inst76Quest3name2 = "憎恨肩垫"
@@ -9709,6 +9755,7 @@ Inst76Quest2_HORDE_Location = Inst76Quest2_Location
 Inst76Quest2_HORDE_Note = Inst76Quest2_Note
 Inst76Quest2_HORDE_Prequest = Inst76Quest2_Prequest
 Inst76Quest2_HORDE_Folgequest = Inst76Quest2_Folgequest
+Inst76Quest2FQuest_HORDE = Inst76Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -9720,6 +9767,7 @@ Inst76Quest3_HORDE_Location = Inst76Quest3_Location
 Inst76Quest3_HORDE_Note = Inst76Quest3_Note
 Inst76Quest3_HORDE_Prequest = Inst76Quest3_Prequest
 Inst76Quest3_HORDE_Folgequest = Inst76Quest3_Folgequest
+Inst76Quest3FQuest_HORDE = Inst76Quest3FQuest
 --
 Inst76Quest3name1_HORDE = Inst76Quest3name1
 Inst76Quest3name2_HORDE = Inst76Quest3name2
@@ -9732,8 +9780,8 @@ Inst76Quest3name4_HORDE = Inst76Quest3name4
 
 Inst77Story = "奥杜尔座落在诺森德大陆的风暴峭壁，它保存了很多泰坦和他们活动的痕迹。奥杜尔是一个冰和岩石构成的神秘王国，被风暴巨人和他们的爪牙控制。奥杜尔入口被巧妙的隐蔽并且重兵把守，只有充满智慧的人才能允许入内。这些巨人濒临灭绝，死亡的恐惧让他们选择隐藏而不是与亡灵天灾战斗，虽然这并不是明智的选择。\n\n岩石大厅是奥杜尔王国的一个分支，是一个庞大的5人地下城。"
 Inst77Caption = "奥杜尔：岩石大厅"
-Inst77QAA = "1 个任务"
-Inst77QAH = "1 个任务"
+Inst77QAA = "3 个任务"
+Inst77QAH = "3 个任务"
 Inst77General = {
     {
     "克莱斯塔卢斯",
@@ -9761,19 +9809,41 @@ Inst77General = {
 };
 
 --Quest 1 Alliance
-Inst77Quest1 = "1. 岩石大厅"
+Inst77Quest1 = "1. 堕落的构造体"
 Inst77Quest1_Level = "78"
 Inst77Quest1_Attain = "76"
-Inst77Quest1_Aim = "布莱恩·铜须希望你能与他结伴而行，揭开岩石大厅的秘密。"
-Inst77Quest1_Location = "布莱恩·铜须（奥杜尔：岩石大厅; "..GREEN.."[2']"..WHITE.."）"
-Inst77Quest1_Note = "跟随布莱恩·铜须进入靠近"..YELLOW.."[3]"..WHITE.."的房间并在一波又一波的怪物袭击中保护他工作. 他完成之后，房间的门才会打开。\n\n再和他对话然后他会跑到"..YELLOW.."[4]"..WHITE.."附近的门外。你不必跟随他跑，他会等待你。击败塑铁者斯约尼尔后，你就可以向他交任务了。"
+Inst77Quest1_Aim = "岩石大厅的卡迪尔·斩铁要求你杀死3个黑暗符文巨人和克莱斯塔卢斯。"
+Inst77Quest1_Location = "卡迪尔·斩铁（岩石大厅; "..BLUE.."入口"..WHITE.."）"
+Inst77Quest1_Note = "黑暗符文巨人在通道内，克莱斯塔卢斯在"..YELLOW.."[1]"..WHITE.."。"
 Inst77Quest1_Prequest = "无"
 Inst77Quest1_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst77Quest2 = "2. 绝望的守望者"
+Inst77Quest2_Level = "78"
+Inst77Quest2_Attain = "76"
+Inst77Quest2_Aim = "岩石大厅的卡迪尔·斩铁要求你让悲伤圣女安息，并获得一滴悲伤水晶之泪。"
+Inst77Quest2_Location = "卡迪尔·斩铁（岩石大厅; "..BLUE.."入口"..WHITE.."）"
+Inst77Quest2_Note = "悲伤圣女在"..YELLOW.."[2]"..WHITE.."。"
+Inst77Quest2_Prequest = "无"
+Inst77Quest2_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst77Quest3 = "1. 岩石大厅"
+Inst77Quest3_Level = "78"
+Inst77Quest3_Attain = "76"
+Inst77Quest3_Aim = "布莱恩·铜须希望你能与他结伴而行，揭开岩石大厅的秘密。"
+Inst77Quest3_Location = "布莱恩·铜须（岩石大厅; "..GREEN.."[2']"..WHITE.."）"
+Inst77Quest3_Note = "跟随布莱恩·铜须进入靠近"..YELLOW.."[3]"..WHITE.."的房间并在一波又一波的怪物袭击中保护他工作. 他完成之后，房间的门才会打开。\n\n再和他对话然后他会跑到"..YELLOW.."[4]"..WHITE.."附近的门外。你不必跟随他跑，他会等待你。击败塑铁者斯约尼尔后，你就可以向他交任务了。"
+Inst77Quest3_Prequest = "无"
+Inst77Quest3_Folgequest = "无"
 --
-Inst77Quest1name1 = "无畏探索者衬肩"
-Inst77Quest1name2 = "冒险者的肩垫"
-Inst77Quest1name3 = "失落秘密肩甲"
-Inst77Quest1name4 = "侦查肩铠"
+Inst77Quest3name1 = "无畏探索者衬肩"
+Inst77Quest3name2 = "冒险者的肩垫"
+Inst77Quest3name3 = "失落秘密肩甲"
+Inst77Quest3name4 = "侦查肩铠"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9785,11 +9855,33 @@ Inst77Quest1_HORDE_Location = Inst77Quest1_Location
 Inst77Quest1_HORDE_Note = Inst77Quest1_Note
 Inst77Quest1_HORDE_Prequest = Inst77Quest1_Prequest
 Inst77Quest1_HORDE_Folgequest = Inst77Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst77Quest2_HORDE = Inst77Quest2
+Inst77Quest2_HORDE_Level = Inst77Quest2_Level
+Inst77Quest2_HORDE_Attain = Inst77Quest2_Attain
+Inst77Quest2_HORDE_Aim = Inst77Quest2_Aim
+Inst77Quest2_HORDE_Location = Inst77Quest2_Location
+Inst77Quest2_HORDE_Note = Inst77Quest2_Note
+Inst77Quest2_HORDE_Prequest = Inst77Quest2_Prequest
+Inst77Quest2_HORDE_Folgequest = Inst77Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst77Quest3_HORDE = Inst77Quest3
+Inst77Quest3_HORDE_Level = Inst77Quest3_Level
+Inst77Quest3_HORDE_Attain = Inst77Quest3_Attain
+Inst77Quest3_HORDE_Aim = Inst77Quest3_Aim
+Inst77Quest3_HORDE_Location = Inst77Quest3_Location
+Inst77Quest3_HORDE_Note = Inst77Quest3_Note
+Inst77Quest3_HORDE_Prequest = Inst77Quest3_Prequest
+Inst77Quest3_HORDE_Folgequest = Inst77Quest3_Folgequest
 --
-Inst77Quest1name1_HORDE = Inst77Quest1name1
-Inst77Quest1name2_HORDE = Inst77Quest1name2
-Inst77Quest1name3_HORDE = Inst77Quest1name3
-Inst77Quest1name4_HORDE = Inst77Quest1name4
+Inst77Quest3name1_HORDE = Inst77Quest3name1
+Inst77Quest3name2_HORDE = Inst77Quest3name2
+Inst77Quest3name3_HORDE = Inst77Quest3name3
+Inst77Quest3name4_HORDE = Inst77Quest3name4
 
 
 
@@ -9797,8 +9889,8 @@ Inst77Quest1name4_HORDE = Inst77Quest1name4
 
 Inst78Story = "奥杜尔座落在诺森德大陆的风暴峭壁，它保存了很多泰坦和他们活动的痕迹。奥杜尔是一个冰和岩石构成的神秘王国，被风暴巨人和他们的爪牙控制。奥杜尔入口被巧妙的隐蔽并且重兵把守，只有充满智慧的人才能允许入内。这些巨人濒临灭绝，死亡的恐惧让他们选择隐藏而不是与亡灵天灾战斗，虽然这并不是明智的选择。\n\n闪电大厅是奥杜尔的另一个分支，同样是一个高大的5人地下城"
 Inst78Caption = "奥杜尔：闪电大厅"
-Inst78QAA = "2 个任务"
-Inst78QAH = "2 个任务"
+Inst78QAA = "4 个任务"
+Inst78QAH = "4 个任务"
 Inst78General = {
     {
     "比亚格里将军",
@@ -9826,37 +9918,58 @@ Inst78General = {
 };
 
 --Quest 1 Alliance
-Inst78Quest1 = "1. 不惜代价！"
+Inst78Quest1 = "1. 风暴先驱埃尔林"
 Inst78Quest1_Level = "80"
 Inst78Quest1_Attain = "77"
-Inst78Quest1_Aim = "丹尼芬雷的约库姆国王要你进入岩石大厅并击败洛肯，然后将洛肯之舌带回去给他。"
-Inst78Quest1_Location = "约库姆国王（风暴峭壁 - 丹尼芬雷; "..YELLOW.."65.3, 60.1"..WHITE.."）"
-Inst78Quest1_Note = "洛肯在"..YELLOW.."[4]"..WHITE.."。\n\n要接到这个任务，你需要完成一个很长的任务链。任务链起始于格莱奇·菲兹巴克（风暴峭壁 - K3; "..YELLOW.."41.1, 86.1"..WHITE.."）。"
-Inst78Quest1_Prequest = "她们把男人都抓走了 -> 清算之战"
-Inst78Quest1_Folgequest = "无"
-Inst78Quest1PreQuest = "true"
---
-Inst78Quest1name1 = "闪电之袍"
-Inst78Quest1name2 = "硬舌外套"
-Inst78Quest1name3 = "闪电使者锁甲"
-Inst78Quest1name4 = "碎石胸铠"
+Inst78Quest1_Aim = "约库姆国王要你进入闪电大厅，与风暴先驱埃尔林谈一谈。"
+Inst78Quest1_Location = "约库姆国王（风暴峭壁 - 丹尼芬雷; "..YELLOW.."65.4, 60.2"..WHITE.."）"
+Inst78Quest1_Note = "风暴先驱埃尔林就在地下城入口内。"
+Inst78Quest1_Prequest = "无"
+Inst78Quest1_Folgequest = "Whatever it Takes!"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst78Quest2 = "2. 势不两立"
+Inst78Quest2 = "2. 不惜代价！"
 Inst78Quest2_Level = "80"
 Inst78Quest2_Attain = "77"
-Inst78Quest2_Aim = "丹尼芬雷的约库姆国王要你进入闪电大厅，击败沃尔坎。"
-Inst78Quest2_Location = "约库姆国王（风暴峭壁 - 丹尼芬雷; "..YELLOW.."65.3, 60.1"..WHITE.."）"
-Inst78Quest2_Note = "沃尔坎在"..YELLOW.."[2]"..WHITE.."。\n\n要接到这个任务，你需要完成一个很长的任务链。任务链起始于格莱奇·菲兹巴克（风暴峭壁 - K3; "..YELLOW.."41.1, 86.1"..WHITE.."）。"
-Inst78Quest2_Prequest = "她们把男人都抓走了 -> 清算之战"
+Inst78Quest2_Aim = "闪电大厅的风暴先驱埃尔林要求你击败洛肯，然后将洛肯的信物带回来交给他。"
+Inst78Quest2_Location = "风暴先驱埃尔林（闪电大厅; "..BLUE.."入口"..WHITE.."）"
+Inst78Quest2_Note = "洛肯在"..YELLOW.."[4]"..WHITE.."。前置任务为可选的。"
+Inst78Quest2_Prequest = "风暴先驱埃尔林"
 Inst78Quest2_Folgequest = "无"
-Inst78Quest2PreQuest = "true"
+Inst78Quest2FQuest = "true"
 --
-Inst78Quest2name1 = "闪电灌注衬肩"
-Inst78Quest2name2 = "焦皮护肩"
-Inst78Quest2name3 = "雷铸护肩"
-Inst78Quest2name4 = "熄灭仇恨肩甲"
-Inst78Quest2name5 = "沃尔坎的衬肩"
+Inst78Quest2name1 = "闪电之袍"
+Inst78Quest2name2 = "硬舌外套"
+Inst78Quest2name3 = "闪电使者锁甲"
+Inst78Quest2name4 = "碎石胸铠"
+
+--Quest 3 Alliance
+Inst78Quest3 = "3. 扫清道路"
+Inst78Quest3_Level = "80"
+Inst78Quest3_Attain = "77"
+Inst78Quest3_Aim = "闪电大厅的风暴先驱埃尔林要求你杀死3个雷铸医师，3个雷铸战术师以及比亚格里将军。"
+Inst78Quest3_Location = "风暴先驱埃尔林（闪电大厅; "..BLUE.."入口"..WHITE.."）"
+Inst78Quest3_Note = "雷铸医师和个雷铸战术师在去往比亚格里将军"..YELLOW.."[1]"..WHITE.."的路上。"
+Inst78Quest3_Prequest = "无"
+Inst78Quest3_Folgequest = "无"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst78Quest4 = "4. 决一死战"
+Inst78Quest4_Level = "80"
+Inst78Quest4_Attain = "77"
+Inst78Quest4_Aim = "闪电大厅的风暴先驱埃尔林要求你击败沃尔坎。"
+Inst78Quest4_Location = "风暴先驱埃尔林（闪电大厅; "..BLUE.."入口"..WHITE.."）"
+Inst78Quest4_Note = "沃尔坎在"..YELLOW.."[2]"..WHITE.."。"
+Inst78Quest4_Prequest = "无"
+Inst78Quest4_Folgequest = "无"
+--
+Inst78Quest4name1 = "闪电灌注衬肩"
+Inst78Quest4name2 = "焦皮护肩"
+Inst78Quest4name3 = "雷铸护肩"
+Inst78Quest4name4 = "熄灭仇恨肩甲"
+Inst78Quest4name5 = "沃尔坎的衬肩"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9868,12 +9981,6 @@ Inst78Quest1_HORDE_Location = Inst78Quest1_Location
 Inst78Quest1_HORDE_Note = Inst78Quest1_Note
 Inst78Quest1_HORDE_Prequest = Inst78Quest1_Prequest
 Inst78Quest1_HORDE_Folgequest = Inst78Quest1_Folgequest
-Inst78Quest1PreQuest_HORDE = Inst78Quest1PreQuest
---
-Inst78Quest1name1_HORDE = Inst78Quest1name1
-Inst78Quest1name2_HORDE = Inst78Quest1name2
-Inst78Quest1name3_HORDE = Inst78Quest1name3
-Inst78Quest1name4_HORDE = Inst78Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst78Quest2_HORDE = Inst78Quest2
@@ -9884,13 +9991,38 @@ Inst78Quest2_HORDE_Location = Inst78Quest2_Location
 Inst78Quest2_HORDE_Note = Inst78Quest2_Note
 Inst78Quest2_HORDE_Prequest = Inst78Quest2_Prequest
 Inst78Quest2_HORDE_Folgequest = Inst78Quest2_Folgequest
-Inst78Quest2PreQuest_HORDE = Inst78Quest2PreQuest
+Inst78Quest2FQuest_HORDE = Inst78Quest2FQuest
 --
 Inst78Quest2name1_HORDE = Inst78Quest2name1
 Inst78Quest2name2_HORDE = Inst78Quest2name2
 Inst78Quest2name3_HORDE = Inst78Quest2name3
 Inst78Quest2name4_HORDE = Inst78Quest2name4
-Inst78Quest2name5_HORDE = Inst78Quest2name5
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst78Quest3_HORDE = Inst78Quest3
+Inst78Quest3_HORDE_Level = Inst78Quest3_Level
+Inst78Quest3_HORDE_Attain = Inst78Quest3_Attain
+Inst78Quest3_HORDE_Aim = Inst78Quest3_Aim
+Inst78Quest3_HORDE_Location = Inst78Quest3_Location
+Inst78Quest3_HORDE_Note = Inst78Quest3_Note
+Inst78Quest3_HORDE_Prequest = Inst78Quest3_Prequest
+Inst78Quest3_HORDE_Folgequest = Inst78Quest3_Folgequest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst78Quest4_HORDE = Inst78Quest4
+Inst78Quest4_HORDE_Level = Inst78Quest4_Level
+Inst78Quest4_HORDE_Attain = Inst78Quest4_Attain
+Inst78Quest4_HORDE_Aim = Inst78Quest4_Aim
+Inst78Quest4_HORDE_Location = Inst78Quest4_Location
+Inst78Quest4_HORDE_Note = Inst78Quest4_Note
+Inst78Quest4_HORDE_Prequest = Inst78Quest4_Prequest
+Inst78Quest4_HORDE_Folgequest = Inst78Quest4_Folgequest
+--
+Inst78Quest4name1_HORDE = Inst78Quest4name1
+Inst78Quest4name2_HORDE = Inst78Quest4name2
+Inst78Quest4name3_HORDE = Inst78Quest4name3
+Inst78Quest4name4_HORDE = Inst78Quest4name4
+Inst78Quest4name5_HORDE = Inst78Quest4name5
 
 
 
@@ -9932,8 +10064,8 @@ Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
 
 Inst80Story = "达克萨隆要塞座落在灰熊丘陵的西北部，是古代冰霜巨魔王国的要塞。亡灵天灾赶走了曾经在这里生活的巨魔并占领了这个要塞，控制了通往祖达克的道路。这个地下城到处充满了被亡灵控制的各种怪物和机关。你要去探索这个庞大的地下城，查找是什么原因使冰霜巨魔放弃了他们的家园逃往他处。"
 Inst80Caption = "达克萨隆要塞"
-Inst80QAA = "3 个任务"
-Inst80QAH = "3 个任务"
+Inst80QAA = "4 个任务"
+Inst80QAH = "4 个任务"
 Inst80General = {
     {
     "托尔戈",
@@ -9960,52 +10092,61 @@ Inst80General = {
     },
 };
 
---Quest 1 Alliance
-Inst80Quest1 = "1. 净化达克萨隆"
-Inst80Quest1_Level = "75"
-Inst80Quest1_Attain = "73"
-Inst80Quest1_Aim = "达库鲁希望你前往达克萨隆，在那里找到他的火盆。使用达库鲁的药剂需要消耗5份耐久魔精。"
-Inst80Quest1_Location = "达库鲁的镜像"
-Inst80Quest1_Note = "达库鲁的火盆在先知萨隆亚的身后"..GREEN.."[3']"..WHITE.."。地下城里所有怪都掉落耐久魔精。"
-Inst80Quest1_Prequest = "停战？ -> 灰尘之声"
-Inst80Quest1_Folgequest = "无"
+Inst80Quest1 = "1. 搜寻和营救"
+Inst80Quest1_Level = "74"
+Inst80Quest1_Attain = "72"
+Inst80Quest1_Aim = "岩石之泉的马克希望你前往达克萨隆，看看库塞尔到底出了什么事。"
+Inst80Quest1_Location = "马克·菲尔森（灰熊丘陵 - 岩石之泉; "..YELLOW.."16.6, 48.1"..WHITE.."）"
+Inst80Quest1_Note = "库赛尔就在地下城入口内。"
+Inst80Quest1_Prequest = "净化天灾巨魔"
+Inst80Quest1_Folgequest = "智力游戏"
 Inst80Quest1PreQuest = "true"
 --
-Inst80Quest1name1 = "诱导兜帽"
-Inst80Quest1name2 = "引诱战靴"
-Inst80Quest1name3 = "黑暗低语者镣铐"
-Inst80Quest1name4 = "诱惑者护肩"
+Inst80Quest1name1 = "库塞尔的焦虑"
+Inst80Quest1name2 = "库塞尔的怒火"
+Inst80Quest1name3 = "库塞尔的作战指环"
 
 --Quest 2 Alliance
-Inst80Quest2 = "2. 搜寻和营救"
+Inst80Quest2 = "2 智力游戏"
 Inst80Quest2_Level = "74"
 Inst80Quest2_Attain = "72"
-Inst80Quest2_Aim = "岩石之泉的马克希望你前往达克萨隆，看看库塞尔到底出了什么事。"
-Inst80Quest2_Location = "马克（灰熊丘陵 - 岩石之泉; "..YELLOW.."16.6, 48.1"..WHITE.."）"
-Inst80Quest2_Note = "库塞尔是被网住的倒霉蛋之一，在托尔戈"..GREEN.."[1']"..WHITE.."的右边楼梯上，把网子打破救出她。"
-Inst80Quest2_Prequest = "烧焦的天灾"
-Inst80Quest2_Folgequest = "欺骗游戏"
-Inst80Quest2PreQuest = "true"
+Inst80Quest2_Aim = "达克萨隆要塞的库塞尔希望你对召唤者诺沃斯的尸体使用库塞尔的布片。然后把沾满腐液的布片交给她。"
+Inst80Quest2_Location = "库塞尔（达克萨隆要塞; "..BLUE.."入口"..WHITE.."）"
+Inst80Quest2_Note = "召唤者诺沃斯在"..YELLOW.."[2]"..WHITE.."。"
+Inst80Quest2_Prequest = "搜寻和营救"
+Inst80Quest2_Folgequest = "无"
+Inst80Quest2FQuest = "true"
 --
-Inst80Quest2name1 = "库塞尔的焦虑"
-Inst80Quest2name2 = "库塞尔的怒火"
-Inst80Quest2name3 = "库塞尔的作战指环"
+Inst80Quest2name1 = "耻辱护腕"
+Inst80Quest2name2 = "蔑视护腕"
+Inst80Quest2name3 = "控告腕甲"
+Inst80Quest2name4 = "否定护腕"
 
 --Quest 3 Alliance
-Inst80Quest3 = "3. 欺骗游戏"
+Inst80Quest3 = "3. 爵德不怕天灾"
 Inst80Quest3_Level = "74"
 Inst80Quest3_Attain = "72"
-Inst80Quest3_Aim = "库塞尔希望你对达克萨隆要塞的召唤者诺沃斯的尸体使用库尔基的布片。然后把沾满腐液的布片交给灰熊丘陵岩石之泉的马克。"
-Inst80Quest3_Location = "库塞尔（达克萨隆要塞; "..GREEN.."[1']"..WHITE.."）"
-Inst80Quest3_Note = "召唤者诺沃斯在"..YELLOW.."[2]"..WHITE.."。马克（灰熊丘陵 - 岩石之泉; "..YELLOW.."16.6, 48.1"..WHITE.."）"
-Inst80Quest3_Prequest = "搜寻和营救"
+Inst80Quest3_Aim = "达克萨隆要塞里的库塞尔要求你杀死暴龙之王爵德，并且带回它的牙齿。"
+Inst80Quest3_Location = "库塞尔（达克萨隆要塞; "..BLUE.."入口"..WHITE.."）"
+Inst80Quest3_Note = "暴龙之王爵德在"..YELLOW.."[3]"..WHITE.."。"
+Inst80Quest3_Prequest = "无"
 Inst80Quest3_Folgequest = "无"
-Inst80Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst80Quest4 = "4 净化达克萨隆"
+Inst80Quest4_Level = "75"
+Inst80Quest4_Attain = "73"
+Inst80Quest4_Aim = "达库鲁要求你前往达克萨隆，并对他的火盆使用达库鲁的药剂。使用达库鲁的药剂需要消耗5份耐久魔精。"
+Inst80Quest4_Location = "达库鲁的影像（达克萨隆要塞; "..BLUE.."入口"..WHITE.."）"
+Inst80Quest4_Note = "达库鲁的火盆在先知萨隆亚的身后"..GREEN.."[3']"..WHITE.."。地下城里所有怪都掉落耐久魔精。"
+Inst80Quest4_Prequest = "无"
+Inst80Quest4_Folgequest = "无"
 --
-Inst80Quest3name1 = "耻辱护腕"
-Inst80Quest3name2 = "蔑视护腕"
-Inst80Quest3name3 = "控告腕甲"
-Inst80Quest3name4 = "否定护腕"
+Inst80Quest4name1 = "诱导兜帽"
+Inst80Quest4name2 = "引诱战靴"
+Inst80Quest4name3 = "黑暗低语者镣铐"
+Inst80Quest4name4 = "诱惑者护肩"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10022,7 +10163,6 @@ Inst80Quest1PreQuest_HORDE = Inst80Quest1PreQuest
 Inst80Quest1name1_HORDE = Inst80Quest1name1
 Inst80Quest1name2_HORDE = Inst80Quest1name2
 Inst80Quest1name3_HORDE = Inst80Quest1name3
-Inst80Quest1name4_HORDE = Inst80Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst80Quest2_HORDE = Inst80Quest2
@@ -10033,11 +10173,12 @@ Inst80Quest2_HORDE_Location = Inst80Quest2_Location
 Inst80Quest2_HORDE_Note = Inst80Quest2_Note
 Inst80Quest2_HORDE_Prequest = Inst80Quest2_Prequest
 Inst80Quest2_HORDE_Folgequest = Inst80Quest2_Folgequest
-Inst80Quest2PreQuest_HORDE = Inst80Quest2PreQuest
+Inst80Quest2FQuest_HORDE = Inst80Quest2FQuest
 --
 Inst80Quest2name1_HORDE = Inst80Quest2name1
 Inst80Quest2name2_HORDE = Inst80Quest2name2
 Inst80Quest2name3_HORDE = Inst80Quest2name3
+Inst80Quest2name4_HORDE = Inst80Quest2name4
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst80Quest3_HORDE = Inst80Quest3
@@ -10048,12 +10189,22 @@ Inst80Quest3_HORDE_Location = Inst80Quest3_Location
 Inst80Quest3_HORDE_Note = Inst80Quest3_Note
 Inst80Quest3_HORDE_Prequest = Inst80Quest3_Prequest
 Inst80Quest3_HORDE_Folgequest = Inst80Quest3_Folgequest
-Inst80Quest3FQuest_HORDE = Inst80Quest3FQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst80Quest4_HORDE = Inst80Quest4
+Inst80Quest4_HORDE_Level = Inst80Quest4_Level
+Inst80Quest4_HORDE_Attain = Inst80Quest4_Attain
+Inst80Quest4_HORDE_Aim = Inst80Quest4_Aim
+Inst80Quest4_HORDE_Location = Inst80Quest4_Location
+Inst80Quest4_HORDE_Note = Inst80Quest4_Note
+Inst80Quest4_HORDE_Prequest = Inst80Quest4_Prequest
+Inst80Quest4_HORDE_Folgequest = Inst80Quest4_Folgequest
 --
-Inst80Quest3name1_HORDE = Inst80Quest3name1
-Inst80Quest3name2_HORDE = Inst80Quest3name2
-Inst80Quest3name3_HORDE = Inst80Quest3name3
-Inst80Quest3name4_HORDE = Inst80Quest3name4
+Inst80Quest4name1_HORDE = Inst80Quest4name1
+Inst80Quest4name2_HORDE = Inst80Quest4name2
+Inst80Quest4name3_HORDE = Inst80Quest4name3
+Inst80Quest4name4_HORDE = Inst80Quest4name4
 
 
 
@@ -10061,8 +10212,8 @@ Inst80Quest3name4_HORDE = Inst80Quest3name4
 
 Inst81Story = "古达克是冰霜巨魔的首都，座落在祖达克的这个地下城，有3个入口，通往城市的中心。阿卡里从这里，控制着他的王国祖达克。他指挥着巨魔，与亡灵天灾战斗。这个王国各处都体现出冰霜巨魔的智慧成就，包括与亡灵天灾的战斗方式，这能够给我们一些启迪。"
 Inst81Caption = "古达克"
-Inst81QAA = "3 个任务"
-Inst81QAH = "3 个任务"
+Inst81QAA = "5 个任务"
+Inst81QAH = "5 个任务"
 Inst81General = {
     {
     "斯拉德兰",
@@ -10096,52 +10247,72 @@ Inst81General = {
 };
 
 --Quest 1 Alliance
-Inst81Quest1 = "1. 前车之鉴"
+Inst81Quest1 = "1. 只是去看看"
 Inst81Quest1_Level = "78"
 Inst81Quest1_Attain = "74"
-Inst81Quest1_Aim = "杜布拉金的记载者拜基妮要你进入古达克，收集6份达卡莱历史石板。"
-Inst81Quest1_Location = "记载者拜基妮 （祖达克 - 杜布拉金; "..YELLOW.."70.0, 20.9"..WHITE.."）"
-Inst81Quest1_Note = "地下城里有足够的石板，5人小队绰绰有余。前置任务”核实情况“并非必要的。"
-Inst81Quest1_Prequest = "核实情况"
+Inst81Quest1_Aim = "图基尼希望你能去找古达克的拜基妮说话。"
+Inst81Quest1_Location = "记载者图基尼（祖达克 - 希姆托加; "..YELLOW.."59.8, 57.8"..WHITE.."）"
+Inst81Quest1_Note = "拜基妮就在地下城入口内。"
+Inst81Quest1_Prequest = "无"
 Inst81Quest1_Folgequest = "无"
-Inst81Quest1PreQuest = "true"
---
-Inst81Quest1name1 = "狮头戒指"
-Inst81Quest1name2 = "邪恶魔精指环"
-Inst81Quest1name3 = "坚硬白金指环"
-Inst81Quest1name4 = "巫毒徽记"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst81Quest2 = "2. 迦尔达拉之死"
+Inst81Quest2 = "2. 战斗未竟"
 Inst81Quest2_Level = "78"
 Inst81Quest2_Attain = "74"
-Inst81Quest2_Aim = "杜布拉金的托玛尔要你杀死古达克的迦尔达拉。"
-Inst81Quest2_Location = "托玛尔（祖达克 - 杜布拉金; "..YELLOW.."69.9, 22.8"..WHITE.."）"
-Inst81Quest2_Note = "迦尔达拉在"..YELLOW.."[5]"..WHITE.."。"
-Inst81Quest2_Prequest = "未完的事情"
+Inst81Quest2_Aim = "哈克娅想要你和古达克内的托玛尔谈一谈。"
+Inst81Quest2_Location = "哈克娅（祖达克 - 哈克娅祭坛; "..YELLOW.."63.6, 70.2"..WHITE.."）"
+Inst81Quest2_Note = "托玛尔就在地下城入口内。"
+Inst81Quest2_Prequest = "无"
 Inst81Quest2_Folgequest = "无"
-Inst81Quest2PreQuest = "true"
---
-Inst81Quest2name1 = "狡诈魔精腰带"
-Inst81Quest2name2 = "奇怪的巫毒腰带"
-Inst81Quest2name3 = "覆灭帝国的游侠腰带"
-Inst81Quest2name4 = "陨落半神束腰"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst81Quest3 = "3. 独一无二"
+Inst81Quest3 = "1. 前车之鉴"
 Inst81Quest3_Level = "78"
 Inst81Quest3_Attain = "74"
-Inst81Quest3_Aim = "杜布拉金的记载者拜基妮要你进入古达克，获取一块达卡莱巨像的碎片。"
-Inst81Quest3_Location = "记载者拜基妮（祖达克 - 杜布拉金; "..YELLOW.."70.0, 20.9"..WHITE.."）"
-Inst81Quest3_Note = "达卡莱巨像的碎片掉落自达卡莱巨像 "..YELLOW.."[2]"..WHITE.."。"
+Inst81Quest3_Aim = "古达克的托玛尔要你收集6块达卡莱历史石板。"
+Inst81Quest3_Location = "托玛尔（古达克; "..BLUE.."入口"..WHITE.."）"
+Inst81Quest3_Note = "地下城里有足够的石板，5人小队绰绰有余。"
 Inst81Quest3_Prequest = "无"
 Inst81Quest3_Folgequest = "无"
 --
-Inst81Quest3name1 = "鹿皮缝合软靴"
-Inst81Quest3name2 = "犀牛皮革长靴"
-Inst81Quest3name3 = "陨落希望之鳞甲靴"
-Inst81Quest3name4 = "魔精能量之靴"
-Inst81Quest3name5 = "巨魔蹂躏者"
+Inst81Quest3name1 = "狮头戒指"
+Inst81Quest3name2 = "邪恶魔精指环"
+Inst81Quest3name3 = "坚硬白金指环"
+Inst81Quest3name4 = "巫毒徽记"
+
+--Quest 4 Alliance
+Inst81Quest4 = "4. 迦尔达拉必须付出代价"
+Inst81Quest4_Level = "78"
+Inst81Quest4_Attain = "74"
+Inst81Quest4_Aim = "托玛尔要求你杀死古达克内的斯拉德兰，莫拉比和迦尔达拉。"
+Inst81Quest4_Location = "托玛尔（古达克; "..BLUE.."入口"..WHITE.."）"
+Inst81Quest4_Note = "斯拉德兰在"..YELLOW.."[1]"..WHITE.."，莫拉比在"..YELLOW.."[3]"..WHITE.."，迦尔达拉在"..YELLOW.."[5]"..WHITE.."。"
+Inst81Quest4_Prequest = "无"
+Inst81Quest4_Folgequest = "无"
+--
+Inst81Quest4name1 = "狡诈魔精腰带"
+Inst81Quest4name2 = "奇怪的巫毒腰带"
+Inst81Quest4name3 = "覆灭帝国的游侠腰带"
+Inst81Quest4name4 = "陨落半神束腰"
+
+--Quest 5 Alliance
+Inst81Quest5 = "5. 独一无二"
+Inst81Quest5_Level = "78"
+Inst81Quest5_Attain = "74"
+Inst81Quest5_Aim = "托玛尔要你从古达克弄一块达卡莱巨像的碎片回来。"
+Inst81Quest5_Location = "托玛尔（古达克; "..BLUE.."入口"..WHITE.."）"
+Inst81Quest5_Note = "达卡莱巨像的碎片掉落自达卡莱巨像 "..YELLOW.."[2]"..WHITE.."。"
+Inst81Quest5_Prequest = "无"
+Inst81Quest5_Folgequest = "无"
+--
+Inst81Quest5name1 = "鹿皮缝合软靴"
+Inst81Quest5name2 = "犀牛皮革长靴"
+Inst81Quest5name3 = "陨落希望之鳞甲靴"
+Inst81Quest5name4 = "魔精能量之靴"
+Inst81Quest5name5 = "巨魔蹂躏者"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10153,12 +10324,7 @@ Inst81Quest1_HORDE_Location = Inst81Quest1_Location
 Inst81Quest1_HORDE_Note = Inst81Quest1_Note
 Inst81Quest1_HORDE_Prequest = Inst81Quest1_Prequest
 Inst81Quest1_HORDE_Folgequest = Inst81Quest1_Folgequest
-Inst81Quest1PreQuest_HORDE = Inst81Quest1PreQuest
---
-Inst81Quest1name1_HORDE = Inst81Quest1name1
-Inst81Quest1name2_HORDE = Inst81Quest1name2
-Inst81Quest1name3_HORDE = Inst81Quest1name3
-Inst81Quest1name4_HORDE = Inst81Quest1name4
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst81Quest2_HORDE = Inst81Quest2
@@ -10169,12 +10335,7 @@ Inst81Quest2_HORDE_Location = Inst81Quest2_Location
 Inst81Quest2_HORDE_Note = Inst81Quest2_Note
 Inst81Quest2_HORDE_Prequest = Inst81Quest2_Prequest
 Inst81Quest2_HORDE_Folgequest = Inst81Quest2_Folgequest
-Inst81Quest2PreQuest_HORDE = Inst81Quest2PreQuest
---
-Inst81Quest2name1_HORDE = Inst81Quest2name1
-Inst81Quest2name2_HORDE = Inst81Quest2name2
-Inst81Quest2name3_HORDE = Inst81Quest2name3
-Inst81Quest2name4_HORDE = Inst81Quest2name4
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst81Quest3_HORDE = Inst81Quest3
@@ -10190,7 +10351,37 @@ Inst81Quest3name1_HORDE = Inst81Quest3name1
 Inst81Quest3name2_HORDE = Inst81Quest3name2
 Inst81Quest3name3_HORDE = Inst81Quest3name3
 Inst81Quest3name4_HORDE = Inst81Quest3name4
-Inst81Quest3name5_HORDE = Inst81Quest3name5
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst81Quest4_HORDE = Inst81Quest4
+Inst81Quest4_HORDE_Level = Inst81Quest4_Level
+Inst81Quest4_HORDE_Attain = Inst81Quest4_Attain
+Inst81Quest4_HORDE_Aim = Inst81Quest4_Aim
+Inst81Quest4_HORDE_Location = Inst81Quest4_Location
+Inst81Quest4_HORDE_Note = Inst81Quest4_Note
+Inst81Quest4_HORDE_Prequest = Inst81Quest4_Prequest
+Inst81Quest4_HORDE_Folgequest = Inst81Quest4_Folgequest
+--
+Inst81Quest4name1_HORDE = Inst81Quest4name1
+Inst81Quest4name2_HORDE = Inst81Quest4name2
+Inst81Quest4name3_HORDE = Inst81Quest4name3
+Inst81Quest4name4_HORDE = Inst81Quest4name4
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst81Quest5_HORDE = Inst81Quest5
+Inst81Quest5_HORDE_Level = Inst81Quest5_Level
+Inst81Quest5_HORDE_Attain = Inst81Quest5_Attain
+Inst81Quest5_HORDE_Aim = Inst81Quest5_Aim
+Inst81Quest5_HORDE_Location = Inst81Quest5_Location
+Inst81Quest5_HORDE_Note = Inst81Quest5_Note
+Inst81Quest5_HORDE_Prequest = Inst81Quest5_Prequest
+Inst81Quest5_HORDE_Folgequest = Inst81Quest5_Folgequest
+--
+Inst81Quest5name1_HORDE = Inst81Quest5name1
+Inst81Quest5name2_HORDE = Inst81Quest5name2
+Inst81Quest5name3_HORDE = Inst81Quest5name3
+Inst81Quest5name4_HORDE = Inst81Quest5name4
+Inst81Quest5name5_HORDE = Inst81Quest5name5
 
 
 
@@ -10248,19 +10439,19 @@ Inst82General = {
 Inst82Quest1 = "1. 谨慎行事"
 Inst82Quest1_Level = "77"
 Inst82Quest1_Attain = "75"
-Inst82Quest1_Aim = "罗宁希望你前往达拉然的紫罗兰监狱，与典狱官奥图拉斯谈一谈。"
-Inst82Quest1_Location = "罗宁（达拉然 - 达拉然城堡; "..YELLOW.."30.5, 48.4"..WHITE.."）"
-Inst82Quest1_Note = "典狱官奥图拉斯（达拉然 - 紫罗兰监狱; "..YELLOW.."60.8, 62.7"..WHITE.."）"
+Inst82Quest1_Aim = "罗宁要求你前往达拉然的紫罗兰监狱然后和辛克莱尔中尉谈一谈。"
+Inst82Quest1_Location = "罗宁（达拉然 - 达拉然城堡; "..YELLOW.."31.0, 48.6"..WHITE.."）"
+Inst82Quest1_Note = "辛克莱尔中尉就在地下城入口内。"
 Inst82Quest1_Prequest = "无"
 Inst82Quest1_Folgequest = "堵截"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst82Quest2 = "2. 堵截"
+Inst82Quest2 = "2. 全面遏制"
 Inst82Quest2_Level = "77"
 Inst82Quest2_Attain = "75"
-Inst82Quest2_Aim = "典狱官奥图拉斯要你进入紫罗兰监狱，消灭入侵的蓝龙军团，杀死塞安妮苟萨之后向他复命。"
-Inst82Quest2_Location = "典狱官奥图拉斯（达拉然 - 紫罗兰监狱; "..YELLOW.."60.8, 62.7"..WHITE.."）"
+Inst82Quest2_Aim = "紫罗兰监狱内的辛克莱尔中尉要求你阻止蓝龙军团的入侵。当你杀死塞安妮苟萨之后再和她谈谈。"
+Inst82Quest2_Location = "辛克莱尔中尉（紫罗兰监狱; "..BLUE.."入口"..WHITE.."）"
 Inst82Quest2_Note = "塞安妮苟萨是最后一波。"
 Inst82Quest2_Prequest = "谨慎行事"
 Inst82Quest2_Folgequest = "无"
@@ -10977,8 +11168,31 @@ Inst86Quest20_HORDE_Folgequest = Inst86Quest20_Folgequest
 
 Inst87Story = "直面天灾军团核心的时刻即将到来。艾泽拉斯世界的天空风云突变，各路英雄高举斑驳的战旗从四面八方集聚而来为风雷之战准备着。俗语说最黑暗的乌云也会有阳光洒下的银边。希望驱使着银色十字军的男男女女：希冀圣光能看到他们的努力；希冀正义终将征服邪恶；希冀一位圣光庇佑的英雄挺身而出击溃巫妖王的黑暗统治。\n\n银色十字军向四面八方的英雄发出了召唤，邀请他们聚集到巫妖王的领地，在一场艾泽拉斯世界前所未见的大试炼中证明自己。当然，试炼需要热身，需要一个能让所有的勇士挑战自身极限的地方，一个英雄…成为勇士的地方… 那就是十字军试炼场。"
 Inst87Caption = "冠军的试炼"
-Inst87QAA = "无任务"
-Inst87QAH = "无任务"
+Inst87QAA = "1 个任务"
+Inst87QAH = "1 个任务"
+
+--Quest 1 Alliance
+Inst87Quest1 = "1. 大赛冠军"
+Inst87Quest1_Level = "78"
+Inst87Quest1_Attain = "75"
+Inst87Quest1_Aim = "大领主提里奥·弗丁要求你完成冠军的试炼。"
+Inst87Quest1_Location = "冠军的试炼内自动接受。"
+Inst87Quest1_Note = "杀死黑骑士后在任务日志完成任务。"
+Inst87Quest1_Prequest = "无"
+Inst87Quest1_Folgequest = "无"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst87Quest1_HORDE = Inst87Quest1
+Inst87Quest1_HORDE_Level = Inst87Quest1_Level
+Inst87Quest1_HORDE_Attain = Inst87Quest1_Attain
+Inst87Quest1_HORDE_Aim = Inst87Quest1_Aim
+Inst87Quest1_HORDE_Location = Inst87Quest1_Location
+Inst87Quest1_HORDE_Note = Inst87Quest1_Note
+Inst87Quest1_HORDE_Prequest = Inst87Quest1_Prequest
+Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -11040,7 +11254,7 @@ Inst90Quest2_Level = "80"
 Inst90Quest2_Attain = "78"
 Inst90Quest2_Aim = "消灭布隆亚姆和噬魂者，夺取萨隆矿坑的入口。"
 Inst90Quest2_Location = "吉安娜·普罗德摩尔 （灵魂洪炉; "..YELLOW.."入口"..WHITE.."）"
-Inst90Quest2_Note = "进入下一个地下城或离开地下城之前，完成任务于吉安娜·普罗德摩尔 "..YELLOW.."[3]"..WHITE.."。\n\n完成此任务需要进入萨隆矿坑。"
+Inst90Quest2_Note = "进入下一个地下城或离开地下城之前，完成任务于吉安娜·普罗德摩尔 "..YELLOW.."[2]"..WHITE.."。\n\n完成此任务需要进入萨隆矿坑。"
 Inst90Quest2_Prequest = "进入寒冰堡垒"
 Inst90Quest2_Folgequest = "萨隆矿坑 （"..YELLOW.."萨隆矿坑"..WHITE.."）"
 Inst90Quest2FQuest = "true"
@@ -12524,8 +12738,128 @@ Inst108Quest6_HORDE_Folgequest = Inst108Quest6_Folgequest
 
 Inst109Story = "火焰之地乃是泰坦所铸造的一个熔火领域，用来关押拉格纳罗斯和他那群无法无天的爪牙。随着死亡之翼在艾泽拉斯的重现，拉格纳罗斯率领着他的手下奴仆们在海加尔山蜂拥而出，最终却被圣山英勇的防御者们打退。如今，拉格纳罗斯正集结他的信徒们，准备抵御艾泽拉斯的英雄们进攻火焰之地。"
 Inst109Caption = "火焰之地"
-Inst109QAA = "无任务"
-Inst109QAH = "无任务"
+Inst109QAA = "5 个任务"
+Inst109QAH = "5 个任务"
+
+--Quest 1 Alliance
+Inst109Quest1 = "1. 应运而生"
+Inst109Quest1_Level = "85"
+Inst109Quest1_Attain = "85"
+Inst109Quest1_Aim = "去暴风城与克里多尔米谈谈。"
+Inst109Quest1_Location = "火焰之地内杀死小怪后自动接受。"
+Inst109Quest1_Note = "此任务只给予使用法杖的职业 - 德鲁伊，牧师，术士和法师以及萨满祭司。\n\n克里多尔米在暴风城 - 法师区; "..YELLOW.."49.4, 87.4"..WHITE.."。"
+Inst109Quest1_Prequest = "无"
+Inst109Quest1_Folgequest = "传奇的邀请 -> 全视之眼"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst109Quest2 = "2. 全视之眼"
+Inst109Quest2_Level = "85"
+Inst109Quest2_Attain = "85"
+Inst109Quest2_Aim = "在火焰之地收集25个永恒余烬，另外还要收集3份时之砂。"
+Inst109Quest2_Location = "阿纳克洛斯（塔纳利斯 - 时光之穴; "..YELLOW.."58.0, 56.0"..WHITE.."）"
+Inst109Quest2_Note = "永恒余烬有火焰之地的首领掉落。此物品不能被交易。\n\n时之砂可以向雅斯敏（奥多姆 - 威尔萨尔绿洲; "..YELLOW.."26.6, 7.2"..WHITE.."）那里购买。"
+Inst109Quest2_Prequest = "应运而生 -> 时间的波澜"
+Inst109Quest2_Folgequest = "飞翔之地的祈祷 -> 委派"
+Inst109Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst109Quest3 = "3. 委派"
+Inst109Quest3_Level = "85"
+Inst109Quest3_Attain = "85"
+Inst109Quest3_Aim = "去火焰之地夺回诺达希尔的分枝。"
+Inst109Quest3_Location = "卡雷苟斯（海加尔山 - 诺达希尔; "..YELLOW.."62.2, 23.2"..WHITE.."）"
+Inst109Quest3_Note = "为了获得诺达希尔的分枝你将与一些首领进行战斗并召唤小首领沃卡纳斯。更多消息由于过长，建议使用数据库查看：\n\n http://www.wowhead.com \n http://http://www.wowpedia.org"
+Inst109Quest3_Prequest = "全视之眼 -> 可靠情报"
+Inst109Quest3_Folgequest = "诺达希尔的分枝 -> 光阴苦短"
+Inst109Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst109Quest4 = "4. 光阴苦短"
+Inst109Quest4_Level = "85"
+Inst109Quest4_Attain = "85"
+Inst109Quest4_Aim = "从火焰之地收集1000份沸燃之烬。"
+Inst109Quest4_Location = "卡雷苟斯（北风苔原 - 考达拉; "..YELLOW.."31.0, 24.0"..WHITE.."）"
+Inst109Quest4_Note = "火焰之地首领掉落沸燃之烬。"
+Inst109Quest4_Prequest = "诺达希尔的分枝 -> 化为一体"
+Inst109Quest4_Folgequest = "结盟 -> 烈焰之心"
+Inst109Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst109Quest5 = "5. 烈焰之心"
+Inst109Quest5_Level = "85"
+Inst109Quest5_Attain = "85"
+Inst109Quest5_Aim = "用250份阴燃精华为诺达希尔符文法杖充能，并获得烈焰之心。"
+Inst109Quest5_Location = "卡雷苟斯（北风苔原 - 考达拉; "..YELLOW.."23.2, 22.8"..WHITE.."）"
+Inst109Quest5_Note = "对着火焰之地首领尸体使用诺达希尔符文法杖进行充能。拉格纳罗斯不能进行吸取。\n收集250份阴燃精华后击败拉格纳罗斯并不死亡。跳入岩浆池中心获得获取烈焰之心，如果你死亡过，那么请下周继续击杀拉格纳罗斯。"
+Inst109Quest5_Prequest = "光阴苦短 -> 结盟"
+Inst109Quest5_Folgequest = "出神入化"
+Inst109Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance, but different turn-in)
+Inst109Quest1_HORDE = Inst109Quest1
+Inst109Quest1_HORDE_Level = Inst109Quest1_Level
+Inst109Quest1_HORDE_Attain = Inst109Quest1_Attain
+Inst109Quest1_HORDE_Aim = "去奥格瑞玛与齐拉多尔米谈谈。"
+Inst109Quest1_HORDE_Location = Inst109Quest1_Location
+Inst109Quest1_HORDE_Note = "此任务只给予使用法杖的职业 - 德鲁伊，牧师，术士和法师以及萨满祭司。\n\n齐拉多尔米在奥格瑞玛 - 力量谷; "..YELLOW.."48.8, 70.4"..WHITE.."。"
+Inst109Quest1_HORDE_Prequest = Inst109Quest1_Prequest
+Inst109Quest1_HORDE_Folgequest = Inst109Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst109Quest2_HORDE = Inst109Quest2
+Inst109Quest2_HORDE_Level = Inst109Quest2_Level
+Inst109Quest2_HORDE_Attain = Inst109Quest2_Attain
+Inst109Quest2_HORDE_Aim = Inst109Quest2_Aim
+Inst109Quest2_HORDE_Location = Inst109Quest2_Location
+Inst109Quest2_HORDE_Note = Inst109Quest2_Note
+Inst109Quest2_HORDE_Prequest = Inst109Quest2_Prequest
+Inst109Quest2_HORDE_Folgequest = Inst109Quest2_Folgequest
+Inst109Quest2PreQuest_HORDE = Inst109Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst109Quest3_HORDE = Inst109Quest3
+Inst109Quest3_HORDE_Level = Inst109Quest3_Level
+Inst109Quest3_HORDE_Attain = Inst109Quest3_Attain
+Inst109Quest3_HORDE_Aim = Inst109Quest3_Aim
+Inst109Quest3_HORDE_Location = Inst109Quest3_Location
+Inst109Quest3_HORDE_Note = Inst109Quest3_Note
+Inst109Quest3_HORDE_Prequest = Inst109Quest3_Prequest
+Inst109Quest3_HORDE_Folgequest = Inst109Quest3_Folgequest
+Inst109Quest3PreQuest_HORDE = Inst109Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst109Quest4_HORDE = Inst109Quest4
+Inst109Quest4_HORDE_Level = Inst109Quest4_Level
+Inst109Quest4_HORDE_Attain = Inst109Quest4_Attain
+Inst109Quest4_HORDE_Aim = Inst109Quest4_Aim
+Inst109Quest4_HORDE_Location = Inst109Quest4_Location
+Inst109Quest4_HORDE_Note = Inst109Quest4_Note
+Inst109Quest4_HORDE_Prequest = Inst109Quest4_Prequest
+Inst109Quest4_HORDE_Folgequest = Inst109Quest4_Folgequest
+Inst109Quest4PreQuest_HORDE = Inst109Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst109Quest5_HORDE = Inst109Quest5
+Inst109Quest5_HORDE_Level = Inst109Quest5_Level
+Inst109Quest5_HORDE_Attain = Inst109Quest5_Attain
+Inst109Quest5_HORDE_Aim = Inst109Quest5_Aim
+Inst109Quest5_HORDE_Location = Inst109Quest5_Location
+Inst109Quest5_HORDE_Note = Inst109Quest5_Note
+Inst109Quest5_HORDE_Prequest = Inst109Quest5_Prequest
+Inst109Quest5_HORDE_Folgequest = Inst109Quest5_Folgequest
+Inst109Quest5PreQuest_HORDE = Inst109Quest5PreQuest
+Inst109Quest5FQuest_HORDE = Inst109Quest5FQuest
+-- No Rewards for this quest
 
 
 
@@ -12859,8 +13193,108 @@ Inst112Quest3name3_HORDE = Inst112Quest3name3
 
 Inst113Story = "死亡之翼于上古之战凝聚所有龙族神力铸造神器巨龙之魂，终究被毁于一旦。通过时光之穴，萨尔和其他龙族历经千险，在神器被摧毁前得到了它。现在，他们齐聚龙眠神殿，准备借助巨龙之魂的强大力量和它的创造者死亡之翼作殊死一搏。"
 Inst113Caption = "巨龙之魂"
-Inst113QAA = "无任务"
-Inst113QAH = "无任务"
+Inst113QAA = "4 个任务"
+Inst113QAH = "4 个任务"
+
+--Quest 1 Alliance
+Inst113Quest1 = "1. 证明你的价值（潜行者）"
+Inst113Quest1_Level = "85"
+Inst113Quest1_Attain = "85"
+Inst113Quest1_Aim = "在巨龙之魂的团队副本内，前往永恒之眼，从缚风者哈格拉身上偷一枚地火操纵者的解码环。"
+Inst113Quest1_Location = "阿弗拉沙斯塔兹（巨龙之魂; "..BLUE.."入口"..WHITE.."）"
+Inst113Quest1_Note = "潜行者专有任务。不能使用团队查找器难度完成。缚风者哈格拉在"..YELLOW.."[4]"..WHITE.."。\n\n不需要击杀首领即可完成，许多盗贼可以同时偷取，但是必须进入战斗并重置才可继续偷取。"
+Inst113Quest1_Prequest = "无"
+Inst113Quest1_Folgequest = "隐藏的信息 -> 收集宝石簇"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst113Quest2 = "2. 收集宝石簇（潜行者）"
+Inst113Quest2_Level = "85"
+Inst113Quest2_Attain = "85"
+Inst113Quest2_Aim = "在巨龙之魂团队副本内，从怪物身上收集源质宝石簇，并取得333颗暗影宝石。"
+Inst113Quest2_Location = "拉希奥（希尔斯布莱德丘陵 - 拉文霍德庄园; "..YELLOW.."71.4, 45.6"..WHITE.."）"
+Inst113Quest2_Note = "源质宝石簇不能在团队查找器难度掉落。10人团队掉落1个，25人团队掉落2-3个。每个可以获得3到9个暗影宝石。\n\n如果你获得超过333个，下一个任务你将会用到。"
+Inst113Quest2_Prequest = "证明你的价值 -> 大功告成"
+Inst113Quest2_Folgequest = "卡拉赞的密探 -> 磨利你的牙"
+Inst113Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst113Quest3 = "3. 磨利你的牙（潜行者）"
+Inst113Quest3_Level = "85"
+Inst113Quest3_Attain = "85"
+Inst113Quest3_Aim = "在巨龙之魂团队副本内，从怪物身上收集60个源质宝石簇。"
+Inst113Quest3_Location = "拉希奥（希尔斯布莱德丘陵 - 拉文霍德庄园; "..YELLOW.."71.4, 45.6"..WHITE.."）"
+Inst113Quest3_Note = "源质宝石簇不能在团队查找器难度掉落。10人团队掉落1个，25人团队掉落2-3个。\n\n这个和之前获得暗影宝石的任务的道具一样，可以保留之前的物品给此任务使用。"
+Inst113Quest3_Prequest = "收集宝石簇 -> 深渊中的胜利"
+Inst113Quest3_Folgequest = "大义灭亲"
+Inst113Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst113Quest4 = "4. 大义灭亲（潜行者）"
+Inst113Quest4_Level = "85"
+Inst113Quest4_Attain = "85"
+Inst113Quest4_Aim = "消灭死亡之翼，获得一块死亡之翼的下颚碎片。"
+Inst113Quest4_Location = "拉希奥（希尔斯布莱德丘陵 - 拉文霍德庄园; "..YELLOW.."71.4, 45.6"..WHITE.."）"
+Inst113Quest4_Note = "此任务不能在团队查找器难度完成。"
+Inst113Quest4_Prequest = "深渊中的胜利"
+Inst113Quest4_Folgequest = "无"
+Inst113Quest4FQuest = "true"
+--
+Inst113Quest4name1 = "戈拉德，巨龙之暮"
+Inst113Quest4name2 = "提洛许，世纪梦魇"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst113Quest1_HORDE = Inst113Quest1
+Inst113Quest1_HORDE_Level = Inst113Quest1_Level
+Inst113Quest1_HORDE_Attain = Inst113Quest1_Attain
+Inst113Quest1_HORDE_Aim = Inst113Quest1_Aim
+Inst113Quest1_HORDE_Location = Inst113Quest1_Location
+Inst113Quest1_HORDE_Note = Inst113Quest1_Note
+Inst113Quest1_HORDE_Prequest = Inst113Quest1_Prequest
+Inst113Quest1_HORDE_Folgequest = Inst113Quest1_Folgequest
+Inst113Quest1PreQuest_HORDE = Inst113Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst113Quest2_HORDE = Inst113Quest2
+Inst113Quest2_HORDE_Level = Inst113Quest2_Level
+Inst113Quest2_HORDE_Attain = Inst113Quest2_Attain
+Inst113Quest2_HORDE_Aim = Inst113Quest2_Aim
+Inst113Quest2_HORDE_Location = Inst113Quest2_Location
+Inst113Quest2_HORDE_Note = Inst113Quest2_Note
+Inst113Quest2_HORDE_Prequest = Inst113Quest2_Prequest
+Inst113Quest2_HORDE_Folgequest = Inst113Quest2_Folgequest
+Inst113Quest2PreQuest_HORDE = Inst113Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst113Quest3_HORDE = Inst113Quest3
+Inst113Quest3_HORDE_Level = Inst113Quest3_Level
+Inst113Quest3_HORDE_Attain = Inst113Quest3_Attain
+Inst113Quest3_HORDE_Aim = Inst113Quest3_Aim
+Inst113Quest3_HORDE_Location = Inst113Quest3_Location
+Inst113Quest3_HORDE_Note = Inst113Quest3_Note
+Inst113Quest3_HORDE_Prequest = Inst113Quest3_Prequest
+Inst113Quest3_HORDE_Folgequest = Inst113Quest3_Folgequest
+Inst113Quest3PreQuest_HORDE = Inst113Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst113Quest4_HORDE = Inst113Quest4
+Inst113Quest4_HORDE_Level = Inst113Quest4_Level
+Inst113Quest4_HORDE_Attain = Inst113Quest4_Attain
+Inst113Quest4_HORDE_Aim = Inst113Quest4_Aim
+Inst113Quest4_HORDE_Location = Inst113Quest4_Location
+Inst113Quest4_HORDE_Note = Inst113Quest4_Note
+Inst113Quest4_HORDE_Prequest = Inst113Quest4_Prequest
+Inst113Quest4_HORDE_Folgequest = Inst113Quest4_Folgequest
+Inst113Quest4FQuest_HORDE = Inst113Quest4FQuest
+--
+Inst113Quest4name1_HORDE = Inst113Quest4name1
+Inst113Quest4name2_HORDE = Inst113Quest4name2
 
 
 
@@ -13811,7 +14245,7 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 66 = Skettis
 -- 67 = Magisters' Terrace
 -- 68 = Sunwell Plateau
--- 69 = Caverns of Time: Stratholme Past
+-- 69 = Caverns of Time: The Culling of Stratholme
 -- 70 = Utgarde Keep: Utgarde Keep
 -- 71 = Utgarde Keep: Utgarde Pinnacle
 -- 72 = The Nexus: The Nexus
