@@ -11599,7 +11599,7 @@ Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 --------------- INST98 - The Vortex Pinnacle ---------------
 
-Inst98Story = "Kommt noch"
+Inst98Story = "Der Vortexgipfel existiert innerhalb der Elementarebene der Luft des Himmelswalls. Seine eleganten Strukturen, gekrönt durch Bronze und Gold, stehen auf Plattformen, die durch luftige Brücken verbunden sind. Und doch finden sich hinter der äußeren Schönheit Tol'vir der Neferset sowie die gnadenlosen Elementarlegionen von Al'Akir dem Windlord. So lange die Barriere zwischen dem Himmelswall und Azeroth geöffnet bleibt, werden Schrecken aus dem Himmel auf Uldum niederregnen."
 Inst98Caption = "Der Vortexgipfel"
 Inst98QAA = "3 Quests"
 Inst98QAH = "3 Quests"
@@ -11881,7 +11881,7 @@ Inst100Quest3name3_HORDE = Inst100Quest3name3
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
-Inst101Story = "Kommt noch"
+Inst101Story = "Die Verlorene Stadt der Tol'vir ist die Festung der Neferset, einer Fraktion der katzenartigen Tol'vir, die Todesschwinge Lehenstreue geschworen haben im Austausch gegen die Heilung vom Fluch des Fleisches, der ihr steiniges Fell in weiche Haut verwandelte. Nachdem ihr Leiden aufgehoben war, haben die Tol'vir sich gegen ihren Wohltäter aufgelehnt und doch bleiben sie weiterhin unwiderruflich verderbt und feindselig, dank des dunklen Pakts, den sie geschlossen haben."
 Inst101Caption = "Die Verlorene Stadt der Tol'vir"
 Inst101QAA = "3 Quests"
 Inst101QAH = "3 Quests"
@@ -11971,7 +11971,7 @@ Inst101Quest3name3_HORDE = Inst101Quest3name3
 
 --------------- INST102 - Blackwing Descent ---------------
 
-Inst102Story = ""
+Inst102Story = "Nefarian und seine verzerrten Versuche, eine neue Drachenart zu erschaffen, waren nach seinem Tod im Pechschwingenhort als erledigt betrachtet worden. Und doch sind Gerüchte zu hören, dass sein Vater, Todesschwinge, Nefarian wiederbelebt und ihm im Pechschwingenabstieg eine neue Aufgabe gegeben hätte. Es wird befürchtet, dass die grauenhaften Experimente, die dort durchgeführt werden, ein Niveau an Bosheit erreicht haben, die Nefarians frühere Verbrechen gegen die Natur noch übertreffen."
 Inst102Caption = "Pechschwingenabstieg"
 Inst102QAA = "Keine Quests"
 Inst102QAH = "Keine Quests"
@@ -11980,7 +11980,7 @@ Inst102QAH = "Keine Quests"
 
 --------------- INST103 - The Bastion of Twilight ---------------
 
-Inst103Story = ""
+Inst103Story = "Die Bastion des Zwielichts ist das dunkle Symbol der wachsenden Macht der alten Götter in Azeroth. Verschiedene Gruppierungen des Schattenhammers hausen unterhalb des aufragenden Gebildes - das als das Kommandozentrum des Kults betrachtet wird - zusammen mit ihrem wahnsinnigen Anführer Cho'gall. Dort schmieden er und seine Diener Pläne, um die apokalyptischen Visionen der alten Götter Wirklichkeit werden zu lassen, indem Azeroth seines Verstands, seiner Hoffnung und seines Lebens beraubt werden soll."
 Inst103Caption = "Die Bastion des Zwielichts"
 Inst103QAA = "Keine Quests"
 Inst103QAH = "Keine Quests"
@@ -11989,7 +11989,7 @@ Inst103QAH = "Keine Quests"
 
 --------------- INST104 - Throne of the Four Winds ---------------
 
-Inst104Story = ""
+Inst104Story = "Als das persönliche Versteck Al'Akirs, des Windlords, gleitet der Thron der Vier Winde hoch durch die grenzenlosen Weiten des Himmelswalls. Nun, da die Barrieren der Elementarebene zerrissen wurden, steht es Al'Akir frei, nach Belieben mit Azeroths Winden zu ziehen. Er hat die heftigsten Stürme zusammengerufen, um Uldum von allem Leben zu reinigen und die Kontrolle über die mysteriösen, von Titanen erschaffenen Hallen des Ursprungs zu übernehmen."
 Inst104Caption = "Thron der vier Winde"
 Inst104QAA = "Keine Quests"
 Inst104QAH = "Keine Quests"
@@ -11998,7 +11998,7 @@ Inst104QAH = "Keine Quests"
 
 --------------- INST105 - Baradin Hold ---------------
 
-Inst105Story = ""
+Inst105Story = "Nach dem Zweiten Krieg wurde die in Ruinen liegende Baradinfestung auf der entfernten Insel Tol Barad in ein Gefängnis für einige der gefährlichsten Mächte Azeroths umgewandelt. Doch durch die Zerstörung, die der Kataklysmus mit sich brachte, ist die Integrität des Gefängnisses in Gefahr gebracht. Während die Horde und die Allianz sich um die Vorherrschaft über die Insel streiten, steht die Freisetzung der vergessenen Schrecken möglicherweise kurz bevor."
 Inst105Caption = "Baradin Hold"
 Inst105QAA = "Keine Quests"
 Inst105QAH = "Keine Quests"
@@ -13221,7 +13221,11 @@ Inst89QAH = "Keine Quest"
 
 --------------- INST106 - Battle for Gilneas ---------------
 
-Inst106Story = ""
+Inst106Story = {
+  ["Page1"] = "Als König Graumähne nach dem zweiten Krieg alle Bande mit der Allianz durchtrennte, wurde das Königreich Gilneas zu einer unabhängigen Nation, ohne Verbindungen zu anderen Fraktionen und gegnerischen Streitkräften. Obwohl der massive Graumähnenwall Gilneas vor Bedrohungen von außerhalb schützte, verkrüppelten ein höchst ansteckender Worgen-Fluch und Bürgerkrieg das Königreich von innen heraus. Als der Kataklysmus die Tore des Graumähnenwalls zerstörte, mussten die Bewohner Gilneas lernen ihren dunklen Fluch zu akzeptieren, um katastrophale Erdbeben und die unnachgiebige Invasion der Verlassenen zu überstehen. Die Horde hat dieses Land als strategische Schlüsselposition mit Ressourcenvorkommen erkannt, die den Kampf gegen die Allianz unterstützen können.",
+  ["Page2"] = "Die Streitmächte der Horde werden ihre Belagerung nicht einstellen, bis die Stadt und die umliegenden Gebiete unter ihrer Kontrolle sind. Um das eigene Land gegen die Horde zu verteidigen, muss die einst isolierte Nation Gilneas nun mit der Allianz zusammen arbeiten",
+  ["MaxPages"] = "2",
+};
 Inst106Caption = "Die Schlacht um Gilneas"
 Inst106QAA = "Keine Quests"
 Inst106QAH = "Keine Quests"
@@ -13230,7 +13234,11 @@ Inst106QAH = "Keine Quests"
 
 --------------- INST107 -Twin Peaks ---------------
 
-Inst107Story = ""
+Inst107Story = {
+  ["Page1"] = "Im Schattenhochland ragen die Zwillingsgipfel empor. Sie dienen als Ausgangspunkt für verheerende Angriffe auf den schwarzen Drachenschwarm und den Schattenhammerkult im umliegenden Gebiet und sind daher von enormer strategischer Bedeutung. Zwei frühere Bewohner der nahegelegenen Stadt Grim Batol messen sich nun erneut im Kampf um die Kontrolle dieser Gipfel: Der Wildhammerklan, Gründer und erste Bewohner der einst großen Festungsstadt, betreibt nach wie vor Außenposten in den bewaldeten Regionen des Hochlands.",
+  ["Page2"] = "Die Zwerge rufen die Helden der Allianz zu den Waffen, um die Zwillingsgipfel für sich zu beanspruchen und die Orcs des Drachenmals zu vertreiben. Der Drachenmalklan, der in der Vergangenheit Jahre damit verbrachte, rote Drachen zu versklaven, hat einmal wieder an strategischer Bedeutung für die Horde gewonnen. Während die Klans des Drachenmals und der Wildhämmer um das Gebiet kämpfen, das sie einst Heimat nannten, treffen Horde und Allianz im Kampf um die Kontrolle der Zwillingsgipfel aufeinander.",
+  ["MaxPages"] = "2",
+};
 Inst107Caption = "Die Zwillingsgipfel"
 Inst107QAA = "Keine Quests"
 Inst107QAH = "Keine Quests" 
@@ -13289,9 +13297,9 @@ Inst66Quest1_Level = "70"
 Inst66Quest1_Attain = "70"
 Inst66Quest1_Aim = "Bringt das Paket mit Sprengladungen zu Himmelsoffizier Doryn beim Schattenwindlager außerhalb von Skettis."
 Inst66Quest1_Location = "Yuula (Shattrath; "..YELLOW.."65,42"..WHITE..")"
-Inst66Quest1_Note = "Die Vorquest erhält man vom selben NPC. Das Schattenwindlager befindet sich bei "..YELLOW.."[1]"..WHITE.."."
-Inst66Quest1_Prequest = "Ja, Bedrohung von oben"
-Inst66Quest1_Folgequest = "Ja, Feuer über Skettis"
+Inst66Quest1_Note = "Die Vorquest erhält man vom selben NPC. Das Schattenwindlager befindet sich bei (Wälder von Terrokar - Schattenwindlager; "..YELLOW.."64.6,66.6"..WHITE..")."
+Inst66Quest1_Prequest = "Bedrohung von oben"
+Inst66Quest1_Folgequest = "Feuer über Skettis"
 Inst66Quest1FQuest = "true"
 -- No Rewards for this quest
 
@@ -13302,7 +13310,7 @@ Inst66Quest2_Attain = "70"
 Inst66Quest2_Aim = "Haltet nach monströsen Kalirieiern oben in den Siedlungen von Skettis Ausschau und benutzt die Sprengladungen der Himmelswache, um sie in die Luft zu sprengen. Kehrt danach zu Himmelsoffizier Doryn zurück."
 Inst66Quest2_Location = "Himmelsoffizier Doryn (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."65,66"..WHITE..")"
 Inst66Quest2_Note = "Diese Quest kann einmal täglich absolviert werden. Die Eier kann man während dem Fliegen mit dem Flugtier aus der Luft bombadieren. Achtet auf die Monströsen Kaliri Vögel, die herumfliegen, da sie euch vom Flugtier schmeißen, wenn ihr zu nahe kommt. Das Quest kann als Gruppe erledigt werden."
-Inst66Quest2_Prequest = "Ja, Nach Skettis!"
+Inst66Quest2_Prequest = "Nach Skettis!"
 Inst66Quest2_Folgequest = "Nein"
 Inst66Quest2PreQuest = "true"
 -- No Rewards for this quest
@@ -13337,7 +13345,7 @@ Inst66Quest5_Level = "70"
 Inst66Quest5_Attain = "70"
 Inst66Quest5_Aim = "Severin möchte, dass Ihr nach Skettis reist und 6 Einheiten Schattenstaub von den dort lebenden Arakkoa sammelt."
 Inst66Quest5_Location = "Severin (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
-Inst66Quest5_Note = "Diese Quest kann wiederholt werden. Der Schattenstaub kann von allen Arakkoa gedroppt werden."
+Inst66Quest5_Note = "Diese Quest kann wiederholt werden. Der Schattenstaub kann von allen Arakkoa droppen."
 Inst66Quest5_Prequest = "Nein"
 Inst66Quest5_Folgequest = "Nein"
 --
@@ -13350,7 +13358,7 @@ Inst66Quest6_Attain = "70"
 Inst66Quest6_Aim = "Beschafft Euch von Severin ein Elixier der Schatten und verwendet es, um Krallenpriester Ishaal, Krallenpriester Skizzik und Krallenpriester Zellek in Skettis ausfindig zu machen und sie zu töten. Kehrt nach Abschluss Eurer Aufgabe zu Kommandant Adaris zurück."
 Inst66Quest6_Location = "Himmelskommandant Adaris (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest6_Note = "Man muss Schattenwelt abgeschlossen haben, um das Elixier der Schatten zu erhalten, bevor man diese Quest absolvieren kann.\n\nKrallenpriester Ishaal befindet sich bei "..YELLOW.."[5]"..WHITE..", Krallenpriester Skizzik befindet sich bei "..YELLOW.."[6]"..WHITE.." und Krallenpriester Zellek befindet sich bei "..YELLOW.."[7]"..WHITE.."."
-Inst66Quest6_Prequest = "Ja, Schattenwelt"
+Inst66Quest6_Prequest = "Schattenwelt"
 Inst66Quest6_Folgequest = "Nein"
 Inst66Quest6PreQuest = "true"
 -- No Rewards for this quest
@@ -13363,7 +13371,7 @@ Inst66Quest7_Aim = "Bringt Ishaals Almanach zu Himmelskommandant Adaris im Norde
 Inst66Quest7_Location = "Ishaals Almanach (droppt von Krallenpriester Ishaal; "..YELLOW.."[5]"..WHITE..")"
 Inst66Quest7_Note = "Himmelskommandant Adaris befindet sich in den Wäldern von Terokkar - Schattenwindlager ("..YELLOW.."64,66"..WHITE..")."
 Inst66Quest7_Prequest = "Nein"
-Inst66Quest7_Folgequest = "Ja, Ein Verbündeter im unteren Viertel"
+Inst66Quest7_Folgequest = "Ein Verbündeter im unteren Viertel"
 Inst66Quest7FQuest = "true"
 -- No Rewards for this quest
 
@@ -13374,8 +13382,8 @@ Inst66Quest8_Attain = "70"
 Inst66Quest8_Aim = "Bringt Ishaals Almanach zu Rilak dem Erlösten im unteren Viertel in Shattrath."
 Inst66Quest8_Location = "Himmelskommandant Adaris (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest8_Note = "Rilak der Erlöste befindet sich in Shattrath - Unteres Viertel ("..YELLOW.."52,20"..WHITE..")."
-Inst66Quest8_Prequest = "Ja, Ishaals Almanach"
-Inst66Quest8_Folgequest = "Ja, Countdown des Schicksals"
+Inst66Quest8_Prequest = "Ishaals Almanach"
+Inst66Quest8_Folgequest = "Countdown des Schicksals"
 Inst66Quest8FQuest = "true"
 -- No Rewards for this quest
 
@@ -13386,8 +13394,8 @@ Inst66Quest9_Attain = "70"
 Inst66Quest9_Aim = "Kehrt zu Himmelskommandant Adaris zurück und berichtet ihm von den Neuigkeiten über Terokks Rückkehr."
 Inst66Quest9_Location = "Rilak der Erlöste (Shattrath - Unteres Viertel; "..YELLOW.."52,20"..WHITE..")"
 Inst66Quest9_Note = "Himmelskommandant Adaris befindet sich in den Wäldern von Terokkar - Schattenwindlager ("..YELLOW.."64,66"..WHITE.."). Hazzik, der sich in der Nähe befindet, gibt euch die Folgequest."
-Inst66Quest9_Prequest = "Ja, Ein Verbündeter im unteren Viertel"
-Inst66Quest9_Folgequest = "Ja, Hazziks Handel"
+Inst66Quest9_Prequest = "Ein Verbündeter im unteren Viertel"
+Inst66Quest9_Folgequest = "Hazziks Handel"
 Inst66Quest9FQuest = "true"
 -- No Rewards for this quest
 
@@ -13398,8 +13406,8 @@ Inst66Quest10_Attain = "70"
 Inst66Quest10_Aim = "Sucht nach Hazziks Päckchen bei seiner Behausung im östlichen Skettis und kehrt damit zu ihm zurück."
 Inst66Quest10_Location = "Hazzik (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest10_Note = "Hazziks Päckchen befindet sich in einer Hütte bei "..YELLOW.."[8]"..WHITE.."."
-Inst66Quest10_Prequest = "Ja, Countdown des Schicksals"
-Inst66Quest10_Folgequest = "Ja, Eine schäbige Verkleidung"
+Inst66Quest10_Prequest = "Countdown des Schicksals"
+Inst66Quest10_Folgequest = "Eine schäbige Verkleidung"
 Inst66Quest10FQuest = "true"
 -- No Rewards for this quest
 
@@ -13410,8 +13418,8 @@ Inst66Quest11_Attain = "70"
 Inst66Quest11_Aim = "Verwendet die schäbige Arakkoaverkleidung, um den Stammbaum der Feinde von Sahakk zu beschaffen. Kehrt anschließend zu Hazzik zurück."
 Inst66Quest11_Location = "Hazzik (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest11_Note = "Sahaak befindet sich bei "..YELLOW.."[3]"..WHITE..". Falls irgendein Arakkoa außer Sahaak euch in der Verkleidung sieht, wird er angreifen."
-Inst66Quest11_Prequest = "Ja, Hazziks Handel"
-Inst66Quest11_Folgequest = "Ja, Feindesblut"
+Inst66Quest11_Prequest = "Hazziks Handel"
+Inst66Quest11_Folgequest = "Feindesblut"
 Inst66Quest11FQuest = "true"
 -- No Rewards for this quest
 
@@ -13422,7 +13430,7 @@ Inst66Quest12_Attain = "70"
 Inst66Quest12_Aim = "Findet die Schädelhaufen innerhalb der Beschwörungskreise in Skettis. Beschwört und bezwingt die Nachfahren, indem Ihr 10 zeitverlorene Schriftrollen beim Schädelhaufen benutzt. Kehrt anschließend mit einem Gegenstand von jedem der Nachfahren zu Hazzik beim Schattenwindlager zurück."
 Inst66Quest12_Location = "Hazzik (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest12_Note = "Die Schädelhaufen befinden sich bei "..GREEN.."[1']"..WHITE..". Es droppt nur ein Questgegenstand pro Gruppe für jeden getöteten Nachfahren. Also benötigt jedes Gruppenmitglied, das diese Quest abschließen will, 10 Schriftrollen, um die Nachfahren für den Gegenstad zu beschwören. Die Qualität des Questgegenstands ist grün, also muss darum gewürftelt werden, wenn Plündern als Gruppe aktiviert ist. Diese Quest kann wiederholt werden."
-Inst66Quest12_Prequest = "Ja, Eine schäbige Verkleidung"
+Inst66Quest12_Prequest = "Eine schäbige Verkleidung"
 Inst66Quest12_Folgequest = "Nein"
 Inst66Quest12PreQuest = "true"
 --
@@ -13435,7 +13443,7 @@ Inst66Quest13_Attain = "70"
 Inst66Quest13_Aim = "Bringt die Zeitverlorene Opfergabe, die Hazzik angefertigt hat, zu dem Schädelhaufen im Zentrum von Skettis. Beschwört Terokk und bezwingt ihn. Habt Ihr Eure Aufgabe erfüllt, kehrt zu Himmelskommandant Adaris zurück."
 Inst66Quest13_Location = "Himmelskommandant Adaris (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")"
 Inst66Quest13_Note = "Terokk wird bei "..YELLOW.."[2]"..WHITE.." beschworen. Ein Tipp von fissi0nx auf Wowhead:\nBei 20% wird Terokk immun gegen alle Angriffe, und kurz danach sieht man eine blaue Flamme shortly, wo eine Bombe herabfällt. Zieht Terokk ins Feuer, um seien Schild zu brechen. Er verfällt zwar in Raserei, aber es ist wieder möglich ihn zu töten."
-Inst66Quest13_Prequest = "Ja, Feindesblut"
+Inst66Quest13_Prequest = "Feindesblut"
 Inst66Quest13_Folgequest = "Nein"
 Inst66Quest13PreQuest = "true"
 --
@@ -13452,8 +13460,8 @@ Inst66Quest1_HORDE_Attain = "70"
 Inst66Quest1_HORDE_Aim = Inst66Quest1_Aim
 Inst66Quest1_HORDE_Location = Inst66Quest1_Location
 Inst66Quest1_HORDE_Note = Inst66Quest1_Note
-Inst66Quest1_HORDE_Prequest = Inst66Quest1_Prequest
-Inst66Quest1_HORDE_Folgequest = Inst66Quest1_Folgequest
+Inst66Quest1_HORDE_Prequest = "Bedrohung von oben"
+Inst66Quest1_HORDE_Folgequest = "Feuer über Skettis"
 Inst66Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -13464,7 +13472,7 @@ Inst66Quest2_HORDE_Attain = "70"
 Inst66Quest2_HORDE_Aim = Inst66Quest2_Aim
 Inst66Quest2_HORDE_Location = Inst66Quest2_Location
 Inst66Quest2_HORDE_Note = Inst66Quest2_Note
-Inst66Quest2_HORDE_Prequest = "Ja, Nach Skettis!"
+Inst66Quest2_HORDE_Prequest = "Nach Skettis!"
 Inst66Quest2_HORDE_Folgequest = "Nein"
 Inst66Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
@@ -13512,7 +13520,7 @@ Inst66Quest6_HORDE_Attain = "70"
 Inst66Quest6_HORDE_Aim = Inst66Quest6_Aim
 Inst66Quest6_HORDE_Location = Inst66Quest6_Location
 Inst66Quest6_HORDE_Note = Inst66Quest6_Note
-Inst66Quest6_HORDE_Prequest = "Ja, Schattenwelt"
+Inst66Quest6_HORDE_Prequest = "Schattenwelt"
 Inst66Quest6_HORDE_Folgequest = "Nein"
 Inst66Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
@@ -13549,7 +13557,7 @@ Inst66Quest9_HORDE_Aim = Inst66Quest9_Aim
 Inst66Quest9_HORDE_Location = Inst66Quest9_Location
 Inst66Quest9_HORDE_Note = Inst66Quest9_Note
 Inst66Quest9_HORDE_Prequest = Inst66Quest9_Prequest
-Inst66Quest9_HORDE_Folgequest = "Ja, Hazziks Handel"
+Inst66Quest9_HORDE_Folgequest = "Hazziks Handel"
 Inst66Quest9FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -13572,8 +13580,8 @@ Inst66Quest11_HORDE_Attain = "70"
 Inst66Quest11_HORDE_Aim = Inst66Quest11_Aim
 Inst66Quest11_HORDE_Location = Inst66Quest11_Location
 Inst66Quest11_HORDE_Note = Inst66Quest11_Note
-Inst66Quest11_HORDE_Prequest = "Ja, Hazziks Handel"
-Inst66Quest11_HORDE_Folgequest = "Ja, Feindesblut"
+Inst66Quest11_HORDE_Prequest = "Hazziks Handel"
+Inst66Quest11_HORDE_Folgequest = "Feindesblut"
 Inst66Quest11FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -13597,13 +13605,13 @@ Inst66Quest13_HORDE_Attain = "70"
 Inst66Quest13_HORDE_Aim = Inst66Quest13_Aim
 Inst66Quest13_HORDE_Location = Inst66Quest13_Location
 Inst66Quest13_HORDE_Note = Inst66Quest13_Note
-Inst66Quest13_HORDE_Prequest = "Ja, Feindesblut"
+Inst66Quest13_HORDE_Prequest = "Feindesblut"
 Inst66Quest13_HORDE_Folgequest = "Nein"
 Inst66Quest13PreQuest_HORDE = "true"
 --
 Inst66Quest13name1_HORDE = Inst66Quest13name1
 Inst66Quest13name2_HORDE = Inst66Quest13name2
-Inst66Quest13name3_HORDE = Inst66Quest13name3
+Inst66Quest13name3_HORDE = "Severins Stock"
 Inst66Quest13name4_HORDE = Inst66Quest13name4
 
 
@@ -13618,69 +13626,69 @@ end
 --- AQ Instance Numbers ---
 ---------------------------
 
--- 1  = Deadmines (VC)
--- 2  = Wailing Caverns (WC)
--- 3  = Ragefire Chasm (RFC)
--- 4  = Uldaman (ULD)
--- 5  = Blackrock Depths (BRD)
--- 6  = Blackwing Lair (BWL)
--- 7  = Blackfathom Deeps (BFD)
--- 8  = Lower Blackrock Spire (LBRS)
--- 9  = Upper Blackrock Spire (UBRS)
--- 10 = Dire Maul East (DM)
--- 11 = Dire Maul North (DM)
--- 12 = Dire Maul West (DM)
--- 13 = Maraudon (Mara)
--- 14 = Molten Core (MC)
--- 15 = Naxxramas (Naxx)
--- 16 = Onyxia's Lair (Ony)
--- 17 = Razorfen Downs (RFD)
--- 18 = Razorfen Kraul (RFK)
--- 19 = SM: Library (SM Lib)
--- 20 = Scholomance (Scholo)
--- 21 = Shadowfang Keep (SFK)
--- 22 = Stratholme - Crusaders' Square (Strat)
--- 23 = The Ruins of Ahn'Qiraj (AQ20)
--- 24 = The Stockade (Stocks)
--- 25 = Sunken Temple (ST)
--- 26 = The Temple of Ahn'Qiraj (AQ40)
--- 27 = Zul'Farrak (ZF)
--- 28 = Stratholme - The Gauntlet (Strat)
--- 29 = Gnomeregan (Gnomer)
--- 30 = Four Dragons (removed)
--- 31 = Azuregos (removed)
+-- 1  = Deadmines
+-- 2  = Wailing Caverns
+-- 3  = Ragefire Chasm
+-- 4  = Uldaman
+-- 5  = Blackrock Depths
+-- 6  = Blackwing Lair
+-- 7  = Blackfathom Deeps
+-- 8  = Lower Blackrock Spire
+-- 9  = Upper Blackrock Spire
+-- 10 = Dire Maul East
+-- 11 = Dire Maul North
+-- 12 = Dire Maul West
+-- 13 = Maraudon
+-- 14 = Molten Core
+-- 15 = Naxxramas
+-- 16 = Onyxia's Lair
+-- 17 = Razorfen Downs
+-- 18 = Razorfen Kraul
+-- 19 = SM: Library
+-- 20 = Scholomance
+-- 21 = Shadowfang Keep
+-- 22 = Stratholme - Crusaders' Square
+-- 23 = The Ruins of Ahn'Qiraj
+-- 24 = The Stockade
+-- 25 = Sunken Temple
+-- 26 = The Temple of Ahn'Qiraj
+-- 27 = Zul'Farrak
+-- 28 = Stratholme - The Gauntlet
+-- 29 = Gnomeregan
+-- 30 = Four Dragons
+-- 31 = Azuregos
 -- 32 = Highlord Kruul
--- 33 = Alterac Valley (AV)
--- 34 = Arathi Basin (AB)
--- 35 = Warsong Gulch (WSG)
+-- 33 = Alterac Valley
+-- 34 = Arathi Basin
+-- 35 = Warsong Gulch
 -- 36 =  default "rest"
--- 37 = HFC: Ramparts (Ramp)
--- 38 = HFC: Blood Furnace (BF)
--- 39 = HFC: Shattered Halls (SH)
+-- 37 = HFC: Ramparts
+-- 38 = HFC: Blood Furnace
+-- 39 = HFC: Shattered Halls
 -- 40 = HFC: Magtheridon's Lair
--- 41 = CR: The Slave Pens (SP)
--- 42 = CR: The Steamvault (SV)
--- 43 = CR: The Underbog (UB)
--- 44 = Auchindoun: Auchenai Crypts (AC)
--- 45 = Auchindoun: Mana Tombs (MT)
--- 46 = Auchindoun: Sethekk Halls (Seth)
--- 47 = Auchindoun: Shadow Labyrinth (SLabs)
--- 48 = CR: Serpentshrine Cavern (SSC)
--- 49 = CoT: Black Morass (BM)
+-- 41 = CR: The Slave Pens
+-- 42 = CR: The Steamvault
+-- 43 = CR: The Underbog
+-- 44 = Auchindoun: Auchenai Crypts
+-- 45 = Auchindoun: Mana Tombs
+-- 46 = Auchindoun: Sethekk Halls
+-- 47 = Auchindoun: Shadow Labyrinth
+-- 48 = CR: Serpentshrine Cavern
+-- 49 = CoT: Black Morass
 -- 50 = CoT: Battle of Mount Hyjal
 -- 51 = CoT: Old Hillsbrad
--- 52 = Gruul's Lair (GL)
--- 53 = Karazhan (Kara)
--- 54 = TK: Arcatraz (Arc)
--- 55 = TK: Botanica (Bot)
--- 56 = TK: Mechanar (Mech)
--- 57 = SM: Armory (SM Arm)
--- 58 = SM: Cathedral (SM Cath)
--- 59 = SM: Graveyard (SM GY)
+-- 52 = Gruul's Lair
+-- 53 = Karazhan
+-- 54 = TK: Arcatraz
+-- 55 = TK: Botanica
+-- 56 = TK: Mechanar
+-- 57 = SM: Armory
+-- 58 = SM: Cathedral
+-- 59 = SM: Graveyard
 -- 60 = Eye of the Storm
 -- 61 = TK: The Eye
--- 62 = Black Temple (BT)
--- 63 = Zul'Aman (ZA)
+-- 62 = Black Temple
+-- 63 = Zul'Aman
 -- 64 = Doom Lord Kazzak
 -- 65 = Doomwalker
 -- 66 = Skettis
@@ -13700,18 +13708,18 @@ end
 -- 80 = Drak'Tharon Keep
 -- 81 = Zul'Drak: Gundrak
 -- 82 = The Violet Hold
--- 83 = Strand of the Ancients (SotA)
--- 84 = Naxxramas (Naxx)
+-- 83 = Strand of the Ancients
+-- 84 = Naxxramas
 -- 85 = Vault of Archavon
 -- 86 = Ulduar
 -- 87 = Trial of the Champion
 -- 88 = Trial of the Crusader
 -- 89 = Isle of Conquest
--- 90 = Forge of Souls (FoS)
--- 91 = Pit of Saron (PoS)
--- 92 = Halls of Reflection (HoR)
--- 93 = Icecrown Citadel (ICC)
--- 94 = Ruby Sanctum (RS)
+-- 90 = Forge of Souls
+-- 91 = Pit of Saron
+-- 92 = Halls of Reflection
+-- 93 = Icecrown Citadel
+-- 94 = Ruby Sanctum
 -- 95 = Blackrock Caverns
 -- 96 = Throne of the Tides
 -- 97 = The Stonecore
@@ -13725,7 +13733,7 @@ end
 -- 105 = Baradin Hold
 -- 106 = Battle for Gilneas
 -- 107 = Twin Peaks
--- 108 = Zul'Gurub (ZG)
+-- 108 = Zul'Gurub
 -- 109 = Firelands
 -- 110 = End Time
 -- 111 = Well of Eternity
