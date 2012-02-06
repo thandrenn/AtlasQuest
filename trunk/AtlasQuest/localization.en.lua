@@ -397,7 +397,7 @@ Inst2Quest3name5_HORDE = Inst2Quest3name5
 
 Inst3Story = "Ragefire Chasm consists of a network of volcanic caverns that lie below the orcs' new capital city of Orgrimmar. Recently, rumors have spread that a cult loyal to the demonic Shadow Council has taken up residence within the Chasm's fiery depths. This cult, known as the Burning Blade, threatens the very sovereignty of Durotar. Many believe that the orc Warchief, Thrall, is aware of the Blade's existence and has chosen not to destroy it in the hopes that its members might lead him straight to the Shadow Council. Either way, the dark powers emanating from Ragefire Chasm could undo all that the orcs have fought to attain."
 Inst3Caption = "Ragefire Chasm"
-Inst3QAA = "No Quests"
+Inst3QAA = "Keine Quests"
 Inst3QAH = "4 Quests"
 
 --Quest 1 Horde
