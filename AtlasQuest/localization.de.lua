@@ -12192,7 +12192,7 @@ Inst109Quest3_Level = "85"
 Inst109Quest3_Attain = "85"
 Inst109Quest3_Aim = "Holt den Zweig von Nordrassil aus den Feuerlanden zurück."
 Inst109Quest3_Location = "Kalecgos (Hyjal - Nordrassil; "..YELLOW.."62.2, 23.2"..WHITE..")"
-Inst109Quest3_Note = "Um den Zweig von Nordrassil zu bekommen mußt Du noch einige Sachen aus den Feuerlanden besorgen. Dies ist leider zuviel um dies hier niederzuschreiben und bitte Euch daher Seiten wie: http://www.wowhead.com \n http://http://www.wowpedia.org durchzulesen."
+Inst109Quest3_Note = "Um den Zweig von Nordrassil zu bekommen mußt Du noch einige Sachen aus den Feuerlanden besorgen. Dies ist leider zuviel um dies hier niederzuschreiben und bitte Euch daher Seiten wie: http://www.wowhead.com \n http://www.wowpedia.org durchzulesen."
 Inst109Quest3_Prequest = "Ein allsehendes Auge -> Informationen mit Konsequenzen"
 Inst109Quest3_Folgequest= "Der Zweig von Nordrassil -> Die Zeit drängt"
 Inst109Quest3FQuest = "true"
@@ -12719,7 +12719,7 @@ Inst113Quest4_HORDE_Location = Inst113Quest4_Location
 Inst113Quest4_HORDE_Note = Inst113Quest4_Note
 Inst113Quest4_HORDE_Prequest = "Sieg in den Tiefen"
 Inst113Quest4_HORDE_Folgequest = "Nein"
-Inst113Quest4PreQuest_HORDE = "true"
+Inst113Quest4FQuest_HORDE = "true"
 --
 Inst113Quest4name1_HORDE = Inst113Quest4name1
 Inst113Quest4name2_HORDE = Inst113Quest4name2

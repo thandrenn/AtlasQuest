@@ -12761,7 +12761,7 @@ Inst109Quest2_Location = "阿纳克洛斯（塔纳利斯 - 时光之穴; "..YELL
 Inst109Quest2_Note = "永恒余烬有火焰之地的首领掉落。此物品不能被交易。\n\n时之砂可以向雅斯敏（奥多姆 - 威尔萨尔绿洲; "..YELLOW.."26.6, 7.2"..WHITE.."）那里购买。"
 Inst109Quest2_Prequest = "应运而生 -> 时间的波澜"
 Inst109Quest2_Folgequest = "飞翔之地的祈祷 -> 委派"
-Inst109Quest2PreQuest = "true"
+Inst109Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -12770,10 +12770,10 @@ Inst109Quest3_Level = "85"
 Inst109Quest3_Attain = "85"
 Inst109Quest3_Aim = "去火焰之地夺回诺达希尔的分枝。"
 Inst109Quest3_Location = "卡雷苟斯（海加尔山 - 诺达希尔; "..YELLOW.."62.2, 23.2"..WHITE.."）"
-Inst109Quest3_Note = "为了获得诺达希尔的分枝你将与一些首领进行战斗并召唤小首领沃卡纳斯。更多消息由于过长，建议使用数据库查看：\n\n http://www.wowhead.com \n http://http://www.wowpedia.org"
+Inst109Quest3_Note = "为了获得诺达希尔的分枝你将与一些首领进行战斗并召唤小首领沃卡纳斯。更多消息由于过长，建议使用数据库查看：\n\n http://www.wowhead.com \n http://www.wowpedia.org"
 Inst109Quest3_Prequest = "全视之眼 -> 可靠情报"
 Inst109Quest3_Folgequest = "诺达希尔的分枝 -> 光阴苦短"
-Inst109Quest3PreQuest = "true"
+Inst109Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -12785,7 +12785,7 @@ Inst109Quest4_Location = "卡雷苟斯（北风苔原 - 考达拉; "..YELLOW.."3
 Inst109Quest4_Note = "火焰之地首领掉落沸燃之烬。"
 Inst109Quest4_Prequest = "诺达希尔的分枝 -> 化为一体"
 Inst109Quest4_Folgequest = "结盟 -> 烈焰之心"
-Inst109Quest4PreQuest = "true"
+Inst109Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -12797,7 +12797,7 @@ Inst109Quest5_Location = "卡雷苟斯（北风苔原 - 考达拉; "..YELLOW.."2
 Inst109Quest5_Note = "对着火焰之地首领尸体使用诺达希尔符文法杖进行充能。拉格纳罗斯不能进行吸取。\n收集250份阴燃精华后击败拉格纳罗斯并不死亡。跳入岩浆池中心获得获取烈焰之心，如果你死亡过，那么请下周继续击杀拉格纳罗斯。"
 Inst109Quest5_Prequest = "光阴苦短 -> 结盟"
 Inst109Quest5_Folgequest = "出神入化"
-Inst109Quest5PreQuest = "true"
+Inst109Quest5FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -12821,7 +12821,7 @@ Inst109Quest2_HORDE_Location = Inst109Quest2_Location
 Inst109Quest2_HORDE_Note = Inst109Quest2_Note
 Inst109Quest2_HORDE_Prequest = Inst109Quest2_Prequest
 Inst109Quest2_HORDE_Folgequest = Inst109Quest2_Folgequest
-Inst109Quest2PreQuest_HORDE = Inst109Quest2PreQuest
+Inst109Quest2FQuest_HORDE = Inst109Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -12833,7 +12833,7 @@ Inst109Quest3_HORDE_Location = Inst109Quest3_Location
 Inst109Quest3_HORDE_Note = Inst109Quest3_Note
 Inst109Quest3_HORDE_Prequest = Inst109Quest3_Prequest
 Inst109Quest3_HORDE_Folgequest = Inst109Quest3_Folgequest
-Inst109Quest3PreQuest_HORDE = Inst109Quest3PreQuest
+Inst109Quest3FQuest_HORDE = Inst109Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -12845,7 +12845,7 @@ Inst109Quest4_HORDE_Location = Inst109Quest4_Location
 Inst109Quest4_HORDE_Note = Inst109Quest4_Note
 Inst109Quest4_HORDE_Prequest = Inst109Quest4_Prequest
 Inst109Quest4_HORDE_Folgequest = Inst109Quest4_Folgequest
-Inst109Quest4PreQuest_HORDE = Inst109Quest4PreQuest
+Inst109Quest4FQuest_HORDE = Inst109Quest4FQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -12857,7 +12857,6 @@ Inst109Quest5_HORDE_Location = Inst109Quest5_Location
 Inst109Quest5_HORDE_Note = Inst109Quest5_Note
 Inst109Quest5_HORDE_Prequest = Inst109Quest5_Prequest
 Inst109Quest5_HORDE_Folgequest = Inst109Quest5_Folgequest
-Inst109Quest5PreQuest_HORDE = Inst109Quest5PreQuest
 Inst109Quest5FQuest_HORDE = Inst109Quest5FQuest
 -- No Rewards for this quest
 
@@ -13216,7 +13215,7 @@ Inst113Quest2_Location = "拉希奥（希尔斯布莱德丘陵 - 拉文霍德庄
 Inst113Quest2_Note = "源质宝石簇不能在团队查找器难度掉落。10人团队掉落1个，25人团队掉落2-3个。每个可以获得3到9个暗影宝石。\n\n如果你获得超过333个，下一个任务你将会用到。"
 Inst113Quest2_Prequest = "证明你的价值 -> 大功告成"
 Inst113Quest2_Folgequest = "卡拉赞的密探 -> 磨利你的牙"
-Inst113Quest2PreQuest = "true"
+Inst113Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -13228,7 +13227,7 @@ Inst113Quest3_Location = "拉希奥（希尔斯布莱德丘陵 - 拉文霍德庄
 Inst113Quest3_Note = "源质宝石簇不能在团队查找器难度掉落。10人团队掉落1个，25人团队掉落2-3个。\n\n这个和之前获得暗影宝石的任务的道具一样，可以保留之前的物品给此任务使用。"
 Inst113Quest3_Prequest = "收集宝石簇 -> 深渊中的胜利"
 Inst113Quest3_Folgequest = "大义灭亲"
-Inst113Quest3PreQuest = "true"
+Inst113Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -13255,7 +13254,6 @@ Inst113Quest1_HORDE_Location = Inst113Quest1_Location
 Inst113Quest1_HORDE_Note = Inst113Quest1_Note
 Inst113Quest1_HORDE_Prequest = Inst113Quest1_Prequest
 Inst113Quest1_HORDE_Folgequest = Inst113Quest1_Folgequest
-Inst113Quest1PreQuest_HORDE = Inst113Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -13267,7 +13265,7 @@ Inst113Quest2_HORDE_Location = Inst113Quest2_Location
 Inst113Quest2_HORDE_Note = Inst113Quest2_Note
 Inst113Quest2_HORDE_Prequest = Inst113Quest2_Prequest
 Inst113Quest2_HORDE_Folgequest = Inst113Quest2_Folgequest
-Inst113Quest2PreQuest_HORDE = Inst113Quest2PreQuest
+Inst113Quest2FQuest_HORDE = Inst113Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -13279,7 +13277,7 @@ Inst113Quest3_HORDE_Location = Inst113Quest3_Location
 Inst113Quest3_HORDE_Note = Inst113Quest3_Note
 Inst113Quest3_HORDE_Prequest = Inst113Quest3_Prequest
 Inst113Quest3_HORDE_Folgequest = Inst113Quest3_Folgequest
-Inst113Quest3PreQuest_HORDE = Inst113Quest3PreQuest
+Inst113Quest3FQuest_HORDE = Inst113Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
