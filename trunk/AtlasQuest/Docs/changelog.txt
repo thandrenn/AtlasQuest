@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.7.0 BETA (not released)
+Version 4.7.0 (February 9, 2012)
 
 - Added missing "The Twilight Prophet" quest to Hour of Twilight (thanks Guldukat!)
 - Fixed minor bug relating to variable loading (thanks Kharthus)
