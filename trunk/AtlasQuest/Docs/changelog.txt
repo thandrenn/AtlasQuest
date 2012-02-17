@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.7.1 (not released yet)
+
+- Fix / clarification in Dragon Soul quests: Cluster Clutch and Sharpening Your Fangs.
+- Really fixed minor bug relating to variable loading (thanks Kharthus)
+
+
+
+
 Version 4.7.0 (February 9, 2012)
 
 - Added missing "The Twilight Prophet" quest to Hour of Twilight (thanks Guldukat!)
