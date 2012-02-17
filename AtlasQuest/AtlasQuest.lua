@@ -69,10 +69,10 @@ local AQMAXINSTANCES = "113"
 local AQMAXQUESTS = "22"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.7.0";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.7.1";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.7.0",
+  ["Version"] =  "4.7.1",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -98,14 +98,15 @@ local AtlasQuest_Defaults = {
 -----------------------------------------------------------------------------
 -- Called when the player starts the game loads the variables
 -----------------------------------------------------------------------------
+
 function AtlasQuest_OnEvent(self,event,...)
-   if (event == "ADDON_LOADED") then
+   local arg1 = ...;
+   if (event == "ADDON_LOADED" and arg1 == "AtlasQuest") then
       VariablesLoaded = 1; -- data is loaded completely
    else
       AtlasQuest_Initialize(); -- player enters world / initialize the data
    end
 end
-
 
 -----------------------------------------------------------------------------
 -- Detects whether the variables have to be loaded
