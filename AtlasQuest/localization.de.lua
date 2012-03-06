@@ -164,8 +164,6 @@ AQITEM_BAG = "Behälter"
 AQITEM_RING = "Ring"
 AQITEM_KEY = "Schlüssel"
 AQITEM_GEM = "Edelstein"
-AQITEM_QUIVER = "Köcher"
-AQITEM_AMMOPOUCH = "Munitionsbeutel"
 AQITEM_ENCHANT = "Verzauberung"
 
 
@@ -210,7 +208,7 @@ Inst1Quest2_Level = "16"
 Inst1Quest2_Attain = "15"
 Inst1Quest2_Aim = "Besiegt Helix Ritzelbrecher."
 Inst1Quest2_Location = "Leutnant Horatio Laine (Todesmine; "..GREEN.."[1']"..WHITE..")"
-Inst1Quest2_Note = "Diese Quest bekommst Du automatisch nachdem Du den Mastraum betreten hast.\n\nHelix Ritzelbrecher ist sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst1Quest2_Note = "Diese Quest bekommst Du automatisch nachdem Du den Mastraum betreten hast.\n\nHelix Ritzelbrecher ist bei "..YELLOW.."[2]"..WHITE.."."
 Inst1Quest2_Prequest = "Nein"
 Inst1Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
