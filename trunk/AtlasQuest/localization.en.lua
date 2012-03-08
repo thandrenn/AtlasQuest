@@ -156,8 +156,6 @@ AQITEM_BAG = "Bag"
 AQITEM_RING = "Ring"
 AQITEM_KEY = "Key"
 AQITEM_GEM = "Gem"
-AQITEM_QUIVER = "Quiver"
-AQITEM_AMMOPOUCH = "Ammo Pouch"
 AQITEM_ENCHANT = "Enchant"
 
 
