@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.7.1 (not released yet)
+Version 4.7.1 (March 27, 2012)
 
 - Fix / clarification in Dragon Soul quests: Cluster Clutch and Sharpening Your Fangs.
 - Really fixed minor bug relating to variable loading (thanks Kharthus)
