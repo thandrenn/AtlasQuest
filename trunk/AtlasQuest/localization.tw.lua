@@ -40,7 +40,7 @@ if ( GetLocale() == "zhTW" ) then
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
-local REDA = "|cffcc6666";
+local ATLAS_RED = "|cffcc3333";
 local WHITE = "|cffFFFFFF";
 local GREEN = "|cff66cc33";
 local PURPLE = "|cff9F3FFF";
@@ -160,15 +160,12 @@ AQITEM_ITEM = "物品"
 AQITEM_TRINKET = "飾品"
 AQITEM_RELIC = "聖物"
 AQITEM_POTION = "藥水"
-AQITEM_OFFHAND = "副手物品"
 AQITEM_NECK = "項鍊"
 AQITEM_PATTERN = "圖樣"
 AQITEM_BAG = "背包"
 AQITEM_RING = "戒指"
 AQITEM_KEY = "鑰匙"
 AQITEM_GEM = "寶石"
-AQITEM_QUIVER = "箭袋"
-AQITEM_AMMOPOUCH = "彈藥包"
 AQITEM_ENCHANT = "附魔物品"
 
 

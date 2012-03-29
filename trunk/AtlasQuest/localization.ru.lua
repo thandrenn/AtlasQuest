@@ -107,6 +107,7 @@ AQDiscription_PREQUEST= "Предыдущее задание: "
 AQDiscription_FOLGEQUEST = "Следующее задание: "
 AQFinishedTEXT = "Задание сделано: ";
 
+
 ------------------
 --- ITEM TYPES ---
 ------------------
@@ -149,16 +150,14 @@ AQITEM_ITEM = "Предмет" -- Use this for those oddball rewards which aren'
 AQITEM_TRINKET = "Аксессуар"
 AQITEM_RELIC = "Реликвия"
 AQITEM_POTION = "Зелье"
-AQITEM_OFFHAND = "Левая рука"
 AQITEM_NECK = "Шея"
 AQITEM_PATTERN = "Выкройка"
 AQITEM_BAG = "Сумка"
 AQITEM_RING = "Палец"
 AQITEM_KEY = "Ключ"
 AQITEM_GEM = "Самоцвет"
-AQITEM_QUIVER = "Колчан"
-AQITEM_AMMOPOUCH = "Подсумок"
 AQITEM_ENCHANT = "Чары"
+
 
 
 ----------------------------------------------
