@@ -2,6 +2,15 @@
 Changelog
 =========
 
+Version 4.8.0 ALPHA  (not released yet)
+
+- Clarified location of quest giver for Auchenai Crypts: Raging Spirits.  (thanks yunohu)
+- Updated TOC File and added basic support for Mists of Pandaria dungeons, raids and battlegrounds.
+
+
+
+
+
 Version 4.7.1 (March 27, 2012)
 
 - Fix / clarification in Dragon Soul quests: Cluster Clutch and Sharpening Your Fangs.

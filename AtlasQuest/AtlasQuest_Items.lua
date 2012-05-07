@@ -7045,6 +7045,46 @@ Inst113Quest4ID2_HORDE = "77950"
 
 
 
+--------------- INST114 - Mogu'Shan Palace ---------------
+
+
+
+--------------- INST115 - Shado-pan Monastery ---------------
+
+
+
+--------------- INST116 - Stormstout Brewery ---------------
+
+
+
+--------------- INST117 - Temple of the Jade Serpent ---------------
+
+
+
+--------------- INST118 - The Gate of the Setting Sun ---------------
+
+
+
+--------------- INST119 - Palace of the Heavens ---------------
+
+
+
+--------------- INST120 - Siege of Niuzao Temple ---------------
+
+
+
+--------------- INST121 - Mogu'shan Vaults ---------------
+
+
+
+--------------- INST122 - Terrace of Endless Spring ---------------
+
+
+
+--------------- INST123 - Heart of Fear ---------------
+
+
+
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
@@ -7254,6 +7294,14 @@ Inst34Quest3ID1_HORDE = "20131"
 
 
 --------------- INST107 - Twin Peaks ---------------
+
+
+
+--------------- INST124 - Silvershard Mines ---------------
+
+
+
+--------------- INST125 - Temple of Kotmogu ---------------
 
 
 

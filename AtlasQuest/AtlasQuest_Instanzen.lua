@@ -32,7 +32,7 @@ function AtlasQuest_Instanzenchecken()
 
 	-- Original Instances
 
-	if (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheDeadminesEnt") then
+	if (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheDeadminesEnt") then
 		AQINSTANZ = 1;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\WailingCaverns") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\WailingCavernsEnt") then
@@ -83,13 +83,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\RazorfenKraul") then
 		AQINSTANZ = 18;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\SMLibrary") then
-		AQINSTANZ = 19;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Scholomance") then
-		AQINSTANZ = 20;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadowfangKeep") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\ShadowfangKeep") then
 		AQINSTANZ = 21;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\StratholmeCrusader") then
@@ -116,16 +110,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Gnomeregan") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\GnomereganEnt") then
 		AQINSTANZ = 29;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\SMArmory") then
-		AQINSTANZ = 57;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\SMCathedral") then
-		AQINSTANZ = 58;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\SMGraveyard") then
-		AQINSTANZ = 59;
-
-
+		
 	-- Burning Crusade Instances
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\HCHellfireRamparts") then
@@ -193,9 +178,6 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleBasement") or (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleTop") then
 		AQINSTANZ = 62;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulAman") then
-		AQINSTANZ = 63;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\MagistersTerrace") then
 		AQINSTANZ = 67;
@@ -281,58 +263,101 @@ function AtlasQuest_Instanzenchecken()
 		
 	-- Cataclysm Instances
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockCaverns") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\BlackrockCaverns") then
 		AQINSTANZ = 95;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneOfTheTides") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\ThroneOfTheTides") then
 		AQINSTANZ = 96;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheStonecore") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheStonecore") then
 		AQINSTANZ = 97;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheVortexPinnacle") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheVortexPinnacle") then
 		AQINSTANZ = 98;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GrimBatol") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\GrimBatol") then
 		AQINSTANZ = 99;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HallsOfOrigination") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\HallsOfOrigination") then
 		AQINSTANZ = 100;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\LostCityOfTolvir") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\LostCityOfTolvir") then
 		AQINSTANZ = 101;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackwingDescent") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\BlackwingDescent") then
 		AQINSTANZ = 102;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheBastionOfTwilight") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheBastionOfTwilight") then
 		AQINSTANZ = 103;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneOfTheFourWinds") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\ThroneOfTheFourWinds") then
 		AQINSTANZ = 104;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BaradinHold") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\BaradinHold") then
 		AQINSTANZ = 105;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulGurub") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\ZulGurub") then
 		AQINSTANZ = 108;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Firelands") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\ZulAman") then
+		AQINSTANZ = 63;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\Firelands") then
 		AQINSTANZ = 109;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTEndTime") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTEndTime") then
 		AQINSTANZ = 110;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTWellOfEternity") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTWellOfEternity") then
 		AQINSTANZ = 111;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTHourOfTwilight") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTHourOfTwilight") then
 		AQINSTANZ = 112;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTDragonSoulA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTDragonSoulB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTDragonSoulC") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTDragonSoulA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTDragonSoulB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTDragonSoulC") then
 		AQINSTANZ = 113;
 
+		
+	-- Mists of Pandaria Instances
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanPalace") then
+		AQINSTANZ = 114;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadopanMonastery") then
+		AQINSTANZ = 115;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StormstoutBrewery") then
+		AQINSTANZ = 116;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempleoftheJadeSerpent") then
+		AQINSTANZ = 117;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GateoftheSettingSun") then
+		AQINSTANZ = 118;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\PalaceoftheHeavens") then
+		AQINSTANZ = 119;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTemple") then
+		AQINSTANZ = 120;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanVaults") then
+		AQINSTANZ = 121;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TerraceofEndlessSpring") then
+		AQINSTANZ = 122;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HeartofFear") then
+		AQINSTANZ = 123;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SMMonastery") then
+		AQINSTANZ = 58;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SMHalls") then
+		AQINSTANZ = 59;
+
+	elseif (AQATLASMAP == "Interface\AddOns\\Atlas\\Images\\Maps\\Scholomance") then
+		AQINSTANZ = 20;
 
 
 
@@ -365,6 +390,11 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TwinPeaks") then
 		AQINSTANZ = 107;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\SilverShardMines") then
+		AQINSTANZ = 124;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TempleofKotmogu") then
+		AQINSTANZ = 125;
 
 	-- Outdoor Raids
 
@@ -713,7 +743,7 @@ end
 -- 16 = Onyxia's Lair (Ony)
 -- 17 = Razorfen Downs (RFD)
 -- 18 = Razorfen Kraul (RFK)
--- 19 = SM: Library (SM Lib)
+-- 19 = *** DELETED ***   SM: Library (SM Lib)
 -- 20 = Scholomance (Scholo)
 -- 21 = Shadowfang Keep (SFK)
 -- 22 = Stratholme - Crusaders' Square (Strat)
@@ -751,9 +781,9 @@ end
 -- 54 = TK: Arcatraz (Arc)
 -- 55 = TK: Botanica (Bot)
 -- 56 = TK: Mechanar (Mech)
--- 57 = SM: Armory (SM Arm)
--- 58 = SM: Cathedral (SM Cath)
--- 59 = SM: Graveyard (SM GY)
+-- 57 = *** DELETED ***   SM: Armory (SM Arm)
+-- 58 = Scarlet Monastery: Cathedral
+-- 59 = Scarlet Monastery: Halls
 -- 60 = Eye of the Storm
 -- 61 = TK: The Eye
 -- 62 = Black Temple (BT)
@@ -808,6 +838,19 @@ end
 -- 111 = Well of Eternity
 -- 112 = Hour of Twilight
 -- 113 = Dragon Soul
+
+-- 114 = Mogu'Shan Palace
+-- 115 = Shado-pan Monastery
+-- 116 = Stormstout Brewery
+-- 117 = Temple of the Jade Serpent
+-- 118 = The Gate of the Setting Sun
+-- 119 = Palace of the Heavens
+-- 120 = Siege of Niuzao Temple
+-- 121 = Mogu'shan Vaults
+-- 122 = Terrace of Endless Spring
+-- 123 = Heart of Fear
+-- 124 = Silvershard Mines
+-- 125 = Temple of Kotmogu
 
 
 

@@ -5801,7 +5801,7 @@ Inst44Quest4 = "4. Raging Spirits"
 Inst44Quest4_Level = "67"
 Inst44Quest4_Attain = "64"
 Inst44Quest4_Aim = "Slay 5 Angered Skeletons, 5 Raging Skeletons, and 3 Auchenai Necromancers, then return to the Tormented Soulpriest in Auchenai Crypts."
-Inst44Quest4_Location = "Tormented Soulpriest (Auchenai Crypts; "..BLUE.."Entrance"..WHITE..")"
+Inst44Quest4_Location = "Tormented Soulpriest (Auchenai Crypts; "..YELLOW.."Before the Bridge leading to the first boss"..WHITE..")"
 Inst44Quest4_Note = "The required mobs are after Shirrak the Dead Watcher, past "..YELLOW.."[1]"..WHITE.."."
 Inst44Quest4_Prequest = "None"
 Inst44Quest4_Folgequest = "None"
@@ -12577,6 +12577,96 @@ Inst113Quest4name2_HORDE = Inst113Quest4name2
 
 
 
+--------------- INST114 - Mogu'Shan Palace ---------------
+
+Inst114Story = ""
+Inst114Caption = "Mogu'Shan Palace"
+Inst114QAA = "No Quests"
+Inst114QAH = "No Quests"
+
+
+
+--------------- INST115 - Shado-pan Monastery ---------------
+
+Inst115Story = ""
+Inst115Caption = "Shado-pan Monastery"
+Inst115QAA = "No Quests"
+Inst115QAH = "No Quests"
+
+
+
+--------------- INST116 - Stormstout Brewery ---------------
+
+Inst116Story = ""
+Inst116Caption = "Stormstout Brewery"
+Inst116QAA = "No Quests"
+Inst116QAH = "No Quests"
+
+
+
+--------------- INST117 - Temple of the Jade Serpent ---------------
+
+Inst117Story = ""
+Inst117Caption = "Temple of the Jade Serpent"
+Inst117QAA = "No Quests"
+Inst117QAH = "No Quests"
+
+
+
+--------------- INST118 - The Gate of the Setting Sun ---------------
+
+Inst118Story = ""
+Inst118Caption = "The Gate of the Setting Sun"
+Inst118QAA = "No Quests"
+Inst118QAH = "No Quests"
+
+
+
+--------------- INST119 - Palace of the Heavens ---------------
+
+Inst119Story = ""
+Inst119Caption = "Palace of the Heavens"
+Inst119QAA = "No Quests"
+Inst119QAH = "No Quests"
+
+
+
+--------------- INST120 - Siege of Niuzao Temple ---------------
+
+Inst120Story = ""
+Inst120Caption = "Siege of Niuzao Temple"
+Inst120QAA = "No Quests"
+Inst120QAH = "No Quests"
+
+
+
+--------------- INST121 - Mogu'shan Vaults ---------------
+
+Inst121Story = ""
+Inst121Caption = "Mogu'shan Vaults"
+Inst121QAA = "No Quests"
+Inst121QAH = "No Quests"
+
+
+
+--------------- INST122 - Terrace of Endless Spring ---------------
+
+Inst122Story = ""
+Inst122Caption = "Terrace of Endless Spring"
+Inst122QAA = "No Quests"
+Inst122QAH = "No Quests"
+
+
+
+--------------- INST123 - Heart of Fear ---------------
+
+Inst123Story = ""
+Inst123Caption = "Heart of Fear"
+Inst123QAA = "No Quests"
+Inst123QAH = "No Quests"
+
+
+
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
@@ -13087,6 +13177,24 @@ Inst107Story = "Located within the Twilight Highlands, the Twin Peaks remains a 
 Inst107Caption = "Twin Peaks"
 Inst107QAA = "No Quests"
 Inst107QAH = "No Quests"
+
+
+
+--------------- INST124 - Silvershard Mines ---------------
+
+Inst124Story = ""
+Inst124Caption = "Silvershard Mines"
+Inst124QAA = "No Quests"
+Inst124QAH = "No Quests"
+
+
+
+--------------- INST125 - Temple of Kotmogu ---------------
+
+Inst125Story = ""
+Inst125Caption = "Temple of Kotmogu"
+Inst125QAA = "No Quests"
+Inst125QAH = "No Quests"
 
 
 
