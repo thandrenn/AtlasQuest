@@ -1,4 +1,4 @@
-﻿## Interface: 40300
+﻿## Interface: 50000
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -13,7 +13,7 @@
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Author: Thandrenn
 ## Original Author: Asurn
-## Version: 4.7.1
+## Version: 4.8.0 ALPHA
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Echo Isles US
 ## X-eMail: mystery8@gmail.com
@@ -21,8 +21,8 @@
 ## X-Category: Map
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team Past & Present
-## X-Localizations: enUS, deDE, ruRU, zhCN, zhTW
-## X-Date: March 27, 2012
+## X-Localizations: enUS, deDE, zhCN
+## X-Date: July 31, 2012
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 
