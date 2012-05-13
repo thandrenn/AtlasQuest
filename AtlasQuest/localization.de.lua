@@ -13239,6 +13239,23 @@ Inst107QAH = "Keine Quests"
 
 
 
+--------------- INST124 - Silvershard Mines --------------- 
+
+Inst124Story = ""
+Inst124Caption = "Silvershard Mines"
+Inst124QAA = "Keine Quests"
+Inst124QAH = "Keine Quests"
+
+
+
+--------------- INST125 - Temple of Kotmogu ---------------
+
+Inst125Story = ""
+Inst125Caption = "Temple of Kotmogu"
+Inst125QAA = "Keine Quests"
+Inst125QAH = "Keine Quests"
+
+
 
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
@@ -13248,7 +13265,7 @@ Inst107QAH = "Keine Quests"
 
 --------------- INST32 - Highlord Kruul ---------------
 
-Inst32Story = "Hochlord Kruul ist ein Verdammniswachenboss, der während des Öffnungsevents des Dunklen Portals in verschiedenen Teilen Azeroths erschien (Patch 2.0.3). Nachdem das Dunkle Portal geöffnet wurde, hat er offiziell Fürst Kazzak ersetzt (jetzt Verdammnislord Kazzak in der Höllenfeuerhalbinsel der Scherbenwelt als Feldkommandant der Brennen Legion in Azeroth)."
+Inst32Story = "Hochlord Kruul ist ein Verdammniswachenboss, der während des Öffnungsevents des Dunklen Portals in verschiedenen Teilen Azeroths erschien. Nachdem das Dunkle Portal geöffnet wurde, hat er offiziell Fürst Kazzak ersetzt."
 Inst32Caption = "Hochlord Kruul"
 Inst32QAA = "Keine Quests"
 Inst32QAH = "Keine Quests"
@@ -13732,4 +13749,16 @@ end
 -- 110 = End Time
 -- 111 = Well of Eternity
 -- 112 = Hour of Twilight
--- 113 = Dragon Soul
+-- 113 = Mogushan Palace
+-- 114 = Shadopan Monastery
+-- 115 = Stormstout Brewery
+-- 116 = Temple of the Jade Serpent
+-- 117 = Gate of the Setting Sun
+-- 118 = Palace of the Heavens
+-- 119 = Siege of Niuzao Temple
+-- 120 = Mogushan Vaults
+-- 121 = Terrace of Endless Spring
+-- 122 = Heart of Fear
+-- 123 = SM: Monastery
+-- 124 = Silvershard Mines
+-- 125 = Temple of Kotmogu
