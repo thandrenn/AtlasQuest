@@ -60,7 +60,7 @@ function AQClearALL()
        Prequesttext:SetText("");
        QuestAttainLeveltext:SetText("");
        REWARDstext:SetText();
-       StoryTEXT:SetText();
+--       StoryTEXT:SetText();
        AQFQ_TEXT:SetText();
        HideUIPanel(AQFinishedQuest);
        for b=1, 6 do
@@ -143,6 +143,7 @@ end
 -----------------------------------------------------------------------------
 -- Story Button
 -----------------------------------------------------------------------------
+--[[
 function AQSTORY1_OnClick()
        AQHideAL();
        if (AtlasQuestInsideFrame:IsVisible() == nil) then
@@ -156,7 +157,7 @@ function AQSTORY1_OnClick()
         AQButtonSTORY_SetText();
        end
 end
-
+--]]
 -----------------------------------------------------------------------------
 -- Button
 -----------------------------------------------------------------------------
@@ -166,7 +167,7 @@ local AQactiveWindow = ChatEdit_GetActiveWindow();
      AQInsertQuestInformation();
    else
      AQHideAL();
-     StoryTEXT:SetText("");
+--     StoryTEXT:SetText("");
      if (AtlasQuestInsideFrame:IsVisible() == nil) then
          ShowUIPanel(AtlasQuestInsideFrame);
          WHICHBUTTON = AQSHOWNQUEST;
@@ -527,6 +528,7 @@ end
 -----------------------------------------------------------------------------
 -- Set Story Text
 -----------------------------------------------------------------------------
+--[[
 function AQButtonSTORY_SetText()
        -- first clear display
        AQClearALL();
@@ -554,7 +556,7 @@ function AQButtonSTORY_SetText()
          StoryTEXT:SetText("not available");
        end
 end
-
+--]]
 
 -----------------------------------------------------------------------------
 -- shows the next side

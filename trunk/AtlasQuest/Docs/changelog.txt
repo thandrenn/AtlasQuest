@@ -6,7 +6,17 @@ Version 4.8.0 ALPHA  (not released yet)
 
 - Clarified location of quest giver for Auchenai Crypts: Raging Spirits.  (thanks yunohu)
 - Updated TOC File and added basic support for Mists of Pandaria dungeons, raids and battlegrounds.
+- Removed "Story" button.  Blizzard's ingame Dungeon Journal replaces this much better.
 
+- Quests added: 
+	- Scholomance: The Four Tomes
+	- Scholomance: An End to the Suffering
+	- Scarlet Monastery: Blades of the Anointed
+	- Scarlet Monastery: Unto Dust Thou Shalt Return
+	- Scarlet Halls: Rank and File
+	- Scarlet Halls: Just for Safekeeping, Of Course
+	- Mogu'Shan Palace: Relics of the Four Kings
+	- Mogu'Shan Palace: A New Lesson for the Master
 
 
 
