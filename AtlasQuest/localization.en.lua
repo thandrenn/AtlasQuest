@@ -91,8 +91,8 @@ AQSERVERASK = "AtlasQuest is querying the server for: "
 AQERRORNOTSHOWN = "This item is not safe!"
 AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be disconnected."
 AQOptionB = "Options"
-AQStoryB = "Story"
 AQNoReward = ""..BLUE.." No Rewards"
+AQClassRewards = ""..BLUE.." Reward varies for each class."
 AQJusticePoints = ""..WHITE.." Justice Points"
 AQValorPoints = ""..WHITE.." Valor Points"
 AQDiscription_REWARD = ""..BLUE.." Reward: "
@@ -169,7 +169,6 @@ AQITEM_ENCHANT = "Enchant"
 --------------- INST36 - No Instance ---------------
 
 -- Just to display "No Quests" when the map is set to something AtlasQuest does not support.
-Inst36Story = ""
 Inst36Caption = "No Information Available"
 Inst36QAA = "No Quests"
 Inst36QAH = "No Quests"
@@ -178,7 +177,6 @@ Inst36QAH = "No Quests"
 
 --------------- INST1 - Deadmines (VC) ---------------
 
-Inst1Story = "Once the greatest gold production center in the human lands, the Dead Mines were abandoned when the Horde razed Stormwind city during the First War. Now the Defias Brotherhood has taken up residence and turned the dark tunnels into their private sanctum. It is rumored that the thieves have conscripted the clever goblins to help them build something terrible at the bottom of the mines - but what that may be is still uncertain. Rumor has it that the way into the Deadmines lies through the quiet, unassuming village of Moonbrook."
 Inst1Caption = "Deadmines"
 Inst1QAA = "5 Quests"
 Inst1QAH = "5 Quests"
@@ -306,7 +304,6 @@ Inst1Quest5name3_HORDE = "Cookie's Table Cloth"
 
 --------------- INST2 - Wailing Caverns (WC) ---------------
 
-Inst2Story = "Recently, a night elf druid named Naralex discovered a network of underground caverns within the heart of the Barrens. Dubbed the 'Wailing Caverns', these natural caves were filled with steam fissures which produced long, mournful wails as they vented. Naralex believed he could use the caverns' underground springs to restore lushness and fertility to the Barrens - but to do so would require siphoning the energies of the fabled Emerald Dream. Once connected to the Dream however, the druid's vision somehow became a nightmare. Soon the Wailing Caverns began to change - the waters turned foul and the once-docile creatures inside metamorphosed into vicious, deadly predators. It is said that Naralex himself still resides somewhere inside the heart of the labyrinth, trapped beyond the edges of the Emerald Dream. Even his former acolytes have been corrupted by their master's waking nightmare - transformed into the wicked Druids of the Fang."
 Inst2Caption = "Wailing Caverns"
 Inst2QAA = "3 Quests"
 Inst2QAH = "3 Quests"
@@ -393,7 +390,6 @@ Inst2Quest3name5_HORDE = Inst2Quest3name5
 
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
-Inst3Story = "Ragefire Chasm consists of a network of volcanic caverns that lie below the orcs' new capital city of Orgrimmar. Recently, rumors have spread that a cult loyal to the demonic Shadow Council has taken up residence within the Chasm's fiery depths. This cult, known as the Burning Blade, threatens the very sovereignty of Durotar. Many believe that the orc Warchief, Thrall, is aware of the Blade's existence and has chosen not to destroy it in the hopes that its members might lead him straight to the Shadow Council. Either way, the dark powers emanating from Ragefire Chasm could undo all that the orcs have fought to attain."
 Inst3Caption = "Ragefire Chasm"
 Inst3QAA = "No Quests"
 Inst3QAH = "4 Quests"
@@ -452,7 +448,6 @@ Inst3Quest4_HORDE_Folgequest = "None"
 
 --------------- INST4 - Uldaman (Ulda) ---------------
 
-Inst4Story = "Uldaman is an ancient Titan vault that has laid buried deep within the earth since the world's creation. Dwarven excavations have recently penetrated this forgotten city, releasing the Titans' first failed creations: the troggs. Legends say that the Titans created troggs from stone. When they deemed the experiment a failure, the Titans locked the troggs away and tried again - resulting in the creation of the dwarven race. The secrets of the dwarves' creation are recorded on the fabled Discs of Norgannon - massive Titan artifacts that lie at the very bottom of the ancient city. Recently, the Dark Iron dwarves have launched a series of incursions into Uldaman, hoping to claim the discs for their fiery master, Ragnaros. However, protecting the buried city are several guardians - giant constructs of living stone that crush any hapless intruders they find. The Discs themselves are guarded by a massive, sentient Stonekeeper called Archaedas. Some rumors even suggest that the dwarves' stone-skinned ancestors, the earthen, still dwell deep within the city's hidden recesses."
 Inst4Caption = "Uldaman"
 Inst4QAA = "6 Quests"
 Inst4QAH = "6 Quests"
@@ -604,7 +599,6 @@ Inst4Quest6name3_HORDE = Inst4Quest6name3
 
 --------------- INST5 - Blackrock Depths (BRD) ---------------
 
-Inst5Story = "Once the capital city of the Dark Iron dwarves, this volcanic labyrinth now serves as the seat of power for Ragnaros the Firelord. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain. Obsessed with defeating Nefarian and his draconic minions, Ragnaros will go to any extreme to achieve final victory."
 Inst5Caption = "Blackrock Depths"
 Inst5QAA = "21 Quests"
 Inst5QAH = "22 Quests"
@@ -1156,16 +1150,7 @@ Inst5Quest22name1_HORDE = "Brewfest Prize Token"
 
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
-Inst6Story = {
-  ["Page1"] = "Blackwing Lair can be found at the very height of Blackrock Spire. It is there in the dark recesses of the mountain's peak that Nefarian has begun to unfold the final stages of his plan to destroy Ragnaros once and for all and lead his army to undisputed supremacy over all the races of Azeroth.",
-  ["Page2"] = "The mighty fortress carved within the fiery bowels of Blackrock Mountain was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths, which serve as the seat of power for Ragnaros the Firelord. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain.",
-  ["Page3"] = "Nefarian has vowed to crush Ragnaros. To this end, he has recently begun efforts to bolster his forces, much as his father Deathwing had attempted to do in ages past. However, where Deathwing failed, it now seems the scheming Nefarian may be succeeding. Nefarian's mad bid for dominance has even attracted the ire of the Red Dragon Flight, which has always been the Black Flight's greatest foe. Though Nefarian's intentions are known, the methods he is using to achieve them remain a mystery. It is believed, however that Nefarian has been experimenting with the blood of all of the various Dragon Flights to produce unstoppable warriors.\n \nNefarian's sanctum, Blackwing Lair, can be found at the very height of Blackrock Spire. It is there in the dark recesses of the mountain's peak that Nefarian has begun to unfold the final stages of his plan to destroy Ragnaros once and for all and lead his army to undisputed supremacy over all the races of Azeroth.";
-  ["MaxPages"] = "3",
-};
 Inst6Caption = "Blackwing Lair"
-Inst6Caption2 = "Blackwing Lair (Story Part 1)"
-Inst6Caption3 = "Blackwing Lair (Story Part 2)"
-
 Inst6QAA = "1 Quest"
 Inst6QAH = "1 Quest"
 
@@ -1202,7 +1187,6 @@ Inst6Quest1name3_HORDE = "Master Dragonslayer's Ring"
 
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
-Inst7Story = "Situated along the Zoram Strand of Ashenvale, Blackfathom Deeps was once a glorious temple dedicated to the night elves' moon-goddess, Elune. However, the great Sundering shattered the temple - sinking it beneath the waves of the Veiled Sea. There it remained untouched - until, drawn by its ancient power - the naga and satyr emerged to plumb its secrets. Legends hold that the ancient beast, Aku'mai, has taken up residence within the temple's ruins. Aku'mai, a favored pet of the primordial Old Gods, has preyed upon the area ever since. Drawn to Aku'mai's presence, the cult known as the Twilight's Hammer has also come to bask in the Old Gods' evil presence."
 Inst7Caption = "Blackfathom Deeps"
 Inst7QAA = "6 Quests"
 Inst7QAH = "6 Quests"
@@ -1365,7 +1349,6 @@ Inst7Quest6_HORDE_Folgequest = "None"
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
 
-Inst8Story = "The mighty fortress carved within the fiery bowels of Blackrock Mountain was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths. Realizing that the dwarves were led by the mighty fire elemental, Ragnaros - Nefarian vowed to crush his enemies and claim the whole of Blackrock mountain for himself."
 Inst8Caption = "Blackrock Spire (Lower)"
 Inst8QAA = "4 Quests"
 Inst8QAH = "3 Quests"
@@ -1460,7 +1443,6 @@ Inst8Quest3name4_HORDE = Inst8Quest4name4
 
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
 
-Inst9Story = "The mighty fortress carved within the fiery bowels of Blackrock Mountain was designed by the master dwarf-mason, Franclorn Forgewright. Intended to be the symbol of Dark Iron power, the fortress was held by the sinister dwarves for centuries. However, Nefarian - the cunning son of the dragon, Deathwing - had other plans for the great keep. He and his draconic minions took control of the upper Spire and made war on the dwarves' holdings in the mountain's volcanic depths. Realizing that the dwarves were led by the mighty fire elemental, Ragnaros - Nefarian vowed to crush his enemies and claim the whole of Blackrock mountain for himself."
 Inst9Caption = "Blackrock Spire (Upper)"
 Inst9QAA = "3 Quests"
 Inst9QAH = "3 Quests"
@@ -1546,7 +1528,6 @@ Inst9Quest3_HORDE_Folgequest = Inst9Quest3_Folgequest
 
 --------------- INST10 - Dire Maul East (DM) ---------------
 
-Inst10Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst10Caption = "Dire Maul (East)"
 Inst10QAA = "6 Quests"
 Inst10QAH = "6 Quests"
@@ -1696,7 +1677,6 @@ Inst10Quest6_HORDE_Folgequest = Inst10Quest6_Folgequest
 
 --------------- INST11 - Dire Maul North (DM) ---------------
 
-Inst11Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst11Caption = "Dire Maul (North)"
 Inst11QAA = "6 Quests"
 Inst11QAH = "6 Quests"
@@ -1860,7 +1840,6 @@ Inst11Quest6name2_HORDE = Inst11Quest6name2
 
 --------------- INST12 - Dire Maul West (DM) ---------------
 
-Inst12Story = "Built twelve thousand years ago by a covert sect of night elf sorcerers, the ancient city of Eldre'Thalas was used to protect Queen Azshara's most prized arcane secrets. Though it was ravaged by the Great Sundering of the world, much of the wondrous city still stands as the imposing Dire Maul. The ruins' three distinct districts have been overrun by all manner of creatures - especially the spectral highborne, foul satyr and brutish ogres. Only the most daring party of adventurers can enter this broken city and face the ancient evils locked within its ancient vaults."
 Inst12Caption = "Dire Maul (West)"
 Inst12QAA = "15 Quests"
 Inst12QAH = "15 Quests"
@@ -2228,7 +2207,6 @@ Inst12Quest15name1_HORDE = Inst12Quest15name1
 
 --------------- INST13 - Maraudon (Mara) ---------------
 
-Inst13Story = "Protected by the fierce Maraudine centaur, Maraudon is one of the most sacred sites within Desolace. The great temple/cavern is the burial place of Zaetar, one of two immortal sons born to the demigod, Cenarius. Legend holds that Zaetar and the earth elemental princess, Theradras, sired the misbegotten centaur race. It is said that upon their emergence, the barbaric centaur turned on their father and killed him. Some believe that Theradras, in her grief, trapped Zaetar's spirit within the winding cavern - used its energies for some malign purpose. The subterranean tunnels are populated by the vicious, long-dead ghosts of the Centaur Khans, as well as Theradras' own raging, elemental minions."
 Inst13Caption = "Maraudon"
 Inst13QAA = "3 Quests"
 Inst13QAH = "3 Quests"
@@ -2314,7 +2292,6 @@ Inst13Quest3name5_HORDE = Inst13Quest3name5
 
 --------------- INST14 - Molten Core (MC) ---------------
 
-Inst14Story = "The Molten Core lies at the very bottom of Blackrock Depths. It is the heart of Blackrock Mountain and the exact spot where, long ago in a desperate bid to turn the tide of the dwarven civil war, Emperor Thaurissan summoned the elemental Firelord, Ragnaros, into the world. Though the fire lord is incapable of straying far from the blazing Core, it is believed that his elemental minions command the Dark Iron dwarves, who are in the midst of creating armies out of living stone. The burning lake where Ragnaros lies sleeping acts as a rift connecting to the plane of fire, allowing the malicious elementals to pass through. Chief among Ragnaros' agents is Majordomo Executus - for this cunning elemental is the only one capable of calling the Firelord from his slumber."
 Inst14Caption = "Molten Core"
 Inst14QAA = "2 Quests"
 Inst14QAH = "2 Quests"
@@ -2372,7 +2349,6 @@ Inst14Quest2name1_HORDE = Inst14Quest2name1
 
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
-Inst16Story = "Onyxia is the daughter of the mighty dragon Deathwing, and sister of the scheming Nefarion Lord of Blackrock Spire. It is said that Onyxia delights in corrupting the mortal races by meddling in their political affairs. To this end it is believed that she takes on various humanoid forms and uses her charm and power to influence delicate matters between the different races. Some believe that Onyxia has even assumed an alias once used by her father - the title of the royal House Prestor. When not meddling in mortal concerns, Onyxia resides in a fiery cave below the Dragonmurk, a dismal swamp located within Dustwallow Marsh. There she is guarded by her kin, the remaining members of the insidious Black Dragon Flight."
 Inst16Caption = "Onyxia's Lair"
 Inst16QAA = "1 Quest"
 Inst16QAH = "1 Quest"
@@ -2410,7 +2386,6 @@ Inst16Quest1name3_HORDE = "Purified Onyxia Blood Talisman"
 
 --------------- INST17 - Razorfen Downs (RFD) ---------------
 
-Inst17Story = "Crafted  from the same mighty vines as Razorfen Kraul, Razorfen Downs is the traditional capital city of the quillboar race. The sprawling, thorn-ridden labyrinth houses a veritable army of loyal quillboar as well as their high priests - the Death's Head tribe. Recently, however, a looming shadow has fallen over the crude den. Agents of the undead Scourge - led by the lich, Amnennar the Coldbringer - have taken control over the quillboar race and turned the maze of thorns into a bastion of undead might. Now the quillboar fight a desperate battle to reclaim their beloved city before Amnennar spreads his control across the Barrens."
 Inst17Caption = "Razorfen Downs"
 Inst17QAA = "6 Quests"
 Inst17QAH = "6 Quests"
@@ -2569,7 +2544,6 @@ Inst17Quest6name1_HORDE = Inst17Quest6name1
 
 --------------- INST18 - Razorfen Kraul (RFK) ---------------
 
-Inst18Story = "Ten thousand years ago - during the War of the Ancients, the mighty demigod, Agamaggan, came forth to battle the Burning Legion. Though the colossal boar fell in combat, his actions helped save Azeroth from ruin. Yet over time, in the areas where his blood fell, massive thorn-ridden vines sprouted from the earth. The quillboar - believed to be the mortal offspring of the mighty god, came to occupy these regions and hold them sacred. The heart of these thorn-colonies was known as the Razorfen. The great mass of Razorfen Kraul was conquered by the old crone, Charlga Razorflank. Under her rule, the shamanistic quillboar stage attacks on rival tribes as well as Horde villages. Some speculate that Charlga has even been negotiating with agents of the Scourge - aligning her unsuspecting tribe with the ranks of the Undead for some insidious purpose."
 Inst18Caption = "Razorfen Kraul"
 Inst18QAA = "6 Quests"
 Inst18QAH = "6 Quests"
@@ -2727,242 +2701,81 @@ Inst18Quest6name3_HORDE = Inst18Quest6name3
 
 
 
---------------- INST19 - SM: Library (SM Lib) ---------------
+--------------- INST58 - Scarlet Monastery ---------------
 
-Inst19Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
-Inst19Caption = "SM: Library"
-Inst19QAA = "3 Quests"
-Inst19QAH = "3 Quests"
-
---Quest 1 Alliance
-Inst19Quest1 = "1. Just Close Enough"
-Inst19Quest1_Level = "33"
-Inst19Quest1_Attain = "31"
-Inst19Quest1_Aim = "Visit Joseph the Awakened."
-Inst19Quest1_Location = "Mizzy Pistonhammer (Southern Barrens - Fort Triumph; "..YELLOW.."49.4, 67.4"..WHITE..")"
-Inst19Quest1_Note = "Joseph the Awakened is just inside the entrance of the Scarlet Monastery Library."
-Inst19Quest1_Prequest = "None"
-Inst19Quest1_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst19Quest2 = "2. The Only True Path"
-Inst19Quest2_Level = "33"
-Inst19Quest2_Attain = "29"
-Inst19Quest2_Aim = "Eliminate Houndmaster Loksey and Arcanist Doan."
-Inst19Quest2_Location = "Joseph the Awakened (Scarlet Monastery Library; "..YELLOW.."Entrance"..WHITE..")"
-Inst19Quest2_Note = "Houndmaster Loksey is at "..YELLOW.."[1]"..WHITE.." and Arcanist Doan is at "..YELLOW.."[2]"..WHITE.."."
-Inst19Quest2_Prequest = "None"
-Inst19Quest2_Folgequest = "None"
---
-Inst19Quest2name1 = "Shield of the Righteous Cause"
-Inst19Quest2name2 = "Houndmaster's Belt"
-Inst19Quest2name3 = "Band of the Arcanist"
-
---Quest 3 Alliance
-Inst19Quest3 = "3. Compendium of the Fallen"
-Inst19Quest3_Level = "33"
-Inst19Quest3_Attain = "29"
-Inst19Quest3_Aim = "Retrieve the Compendium of the Fallen."
-Inst19Quest3_Location = "Dominic (Scarlet Monastery Library; "..GREEN.."[2']"..WHITE..")"
-Inst19Quest3_Note = "The Compendium of the Fallen can be found on a bookshelf at "..GREEN.."[3']"..WHITE.."."
-Inst19Quest3_Prequest = "None"
-Inst19Quest3_Folgequest = "None"
--- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst19Quest1_HORDE = "1. The Right Way"
-Inst19Quest1_HORDE_Level = "33"
-Inst19Quest1_HORDE_Attain = "31"
-Inst19Quest1_HORDE_Aim = "Speak to Dark Ranger Velonara."
-Inst19Quest1_HORDE_Location = "Huntsman Markhor (The Hinterlands - Revantusk Village; "..YELLOW.."79.0, 79.6"..WHITE..")"
-Inst19Quest1_HORDE_Note = "Dark Ranger Velonara is just inside the entrance of the Scarlet Monastery Library."
-Inst19Quest1_HORDE_Prequest = "None"
-Inst19Quest1_HORDE_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst19Quest2_HORDE = "2. Stripping Their Defenses"
-Inst19Quest2_HORDE_Level = "33"
-Inst19Quest2_HORDE_Attain = "29"
-Inst19Quest2_HORDE_Aim = "Eliminate Houndmaster Loksey and Arcanist Doan."
-Inst19Quest2_HORDE_Location = "Dark Ranger Velonara (Scarlet Monastery Library; "..YELLOW.."Entrance"..WHITE..")"
-Inst19Quest2_HORDE_Note = "Houndmaster Loksey is at "..YELLOW.."[1]"..WHITE.." and Arcanist Doan is at "..YELLOW.."[2]"..WHITE.."."
-Inst19Quest2_HORDE_Prequest = "None"
-Inst19Quest2_HORDE_Folgequest = "None"
---
-Inst19Quest2name1_HORDE = "Shield of Comrades"
-Inst19Quest2name2_HORDE = "Houndmaster's Belt"
-Inst19Quest2name3_HORDE = "Band of the Arcanist"
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst19Quest3_HORDE = Inst19Quest3
-Inst19Quest3_HORDE_Level = Inst19Quest3_Level
-Inst19Quest3_HORDE_Attain = Inst19Quest3_Attain
-Inst19Quest3_HORDE_Aim = Inst19Quest3_Aim
-Inst19Quest3_HORDE_Location = Inst19Quest3_Location
-Inst19Quest3_HORDE_Note = Inst19Quest3_Note
-Inst19Quest3_HORDE_Prequest = Inst19Quest3_Prequest
-Inst19Quest3_HORDE_Folgequest = Inst19Quest3_Folgequest
--- No Rewards for this quest
-
-
-
---------------- INST57 - SM: Armory (SM Arm) ---------------
-
-Inst57Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
-Inst57Caption = "SM: Armory"
-Inst57QAA = "3 Quests"
-Inst57QAH = "3 Quests"
+Inst58Caption = "Scarlet Monastery"
+Inst58QAA = "4 Quests"
+Inst58QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst57Quest1 = "1. An Old, Crazed Friend"
-Inst57Quest1_Level = "35"
-Inst57Quest1_Attain = "34"
-Inst57Quest1_Aim = "Visit Joseph the Crazed."
-Inst57Quest1_Location = "Livingston Marshal (Northern Stranglethorn - Fort Livingston; "..YELLOW.."53.2, 66.8"..WHITE..")"
-Inst57Quest1_Note = "Joseph the Crazed is just inside the entrance of the Scarlet Monastery Armory."
-Inst57Quest1_Prequest = "None"
-Inst57Quest1_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst57Quest2 = "2. The False Champion"
-Inst57Quest2_Level = "36"
-Inst57Quest2_Attain = "32"
-Inst57Quest2_Aim = "Kill Herod."
-Inst57Quest2_Location = "Joseph the Crazed (Scarlet Monastery Armory; "..YELLOW.."Entrance"..WHITE..")"
-Inst57Quest2_Note = "Herod is at "..YELLOW.."[1]"..WHITE.."."
-Inst57Quest2_Prequest = "None"
-Inst57Quest2_Folgequest = "None"
---
-Inst57Quest2name1 = "Herod's Medallion"
-Inst57Quest2name2 = "Breastplate of the Scarlet Monastery"
-Inst57Quest2name3 = "Shrug of the Crazed"
-Inst57Quest2name4 = "Monk's Leggings"
-Inst57Quest2name5 = "Cloak of the False Champion"
-
---Quest 3 Alliance
-Inst57Quest3 = "3. Without Rhyme or Reason"
-Inst57Quest3_Level = "36"
-Inst57Quest3_Attain = "32"
-Inst57Quest3_Aim = "Kill 3 Scarlet Myrmidons, 3 Scarlet Protectors, 3 Scarlet Guardsmen, and 3 Scarlet Evokers."
-Inst57Quest3_Location = "Dominic (Scarlet Monastery Armory; "..GREEN.."[1']"..WHITE..")"
-Inst57Quest3_Note = "They can be found throughout the instance."
-Inst57Quest3_Prequest = "None"
-Inst57Quest3_Folgequest = "None"
--- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst57Quest1_HORDE = "1. Moving Things Along"
-Inst57Quest1_HORDE_Level = "35"
-Inst57Quest1_HORDE_Attain = "34"
-Inst57Quest1_HORDE_Aim = "Visit Dark Ranger Velonara."
-Inst57Quest1_HORDE_Location = "Mystic Yayo'jin (The Hinterlands - Revantusk Village; "..YELLOW.."78.8, 78.4"..WHITE..")"
-Inst57Quest1_HORDE_Note = "Dark Ranger Velonara is just inside the entrance of the Scarlet Monastery Armory."
-Inst57Quest1_HORDE_Prequest = "None"
-Inst57Quest1_HORDE_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst57Quest2_HORDE = "2. Stripping Their Offense"
-Inst57Quest2_HORDE_Level = "36"
-Inst57Quest2_HORDE_Attain = "32"
-Inst57Quest2_HORDE_Aim = "Kill Herod."
-Inst57Quest2_HORDE_Location = "Dark Ranger Velonara (Scarlet Monastery Armory; "..YELLOW.."Entrance"..WHITE..")"
-Inst57Quest2_HORDE_Note = "Herod is at "..YELLOW.."[1]"..WHITE.."."
-Inst57Quest2_HORDE_Prequest = "None"
-Inst57Quest2_HORDE_Folgequest = "None"
---
-Inst57Quest2name1_HORDE = "Herod's Medallion"
-Inst57Quest2name2_HORDE = "Breastplate of the Scarlet Monastery"
-Inst57Quest2name3_HORDE = "Spaulder of the Untrained"
-Inst57Quest2name4_HORDE = "Monk's Leggings"
-Inst57Quest2name5_HORDE = "Velonara's Cloak"
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst57Quest3_HORDE = Inst57Quest3
-Inst57Quest3_HORDE_Level = Inst57Quest3_Level
-Inst57Quest3_HORDE_Attain = Inst57Quest3_Attain
-Inst57Quest3_HORDE_Aim = Inst57Quest3_Aim
-Inst57Quest3_HORDE_Location = Inst57Quest3_Location
-Inst57Quest3_HORDE_Note = Inst57Quest3_Note
-Inst57Quest3_HORDE_Prequest = Inst57Quest3_Prequest
-Inst57Quest3_HORDE_Folgequest = Inst57Quest3_Folgequest
--- No Rewards for this quest
-
-
-
---------------- INST58 - SM: Cathedral (SM Cath) ---------------
-
-Inst58Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
-Inst58Caption = "SM: Cathedral"
-Inst58QAA = "3 Quests"
-Inst58QAH = "3 Quests"
-
---Quest 1 Alliance
-Inst58Quest1 = "1. Pitting Madness Against Madness"
-Inst58Quest1_Level = "38"
-Inst58Quest1_Attain = "37"
-Inst58Quest1_Aim = "Visit Joseph the Insane."
-Inst58Quest1_Location = "Shandris Feathermoon (Feralas - Feathermoon Stronghold; "..YELLOW.."46.0, 49.0"..WHITE..")"
-Inst58Quest1_Note = "Joseph the Insane is just inside the entrance of the Scarlet Monastery Cathedral."
+Inst58Quest1 = "1. Blades of the Anointed"
+Inst58Quest1_Level = "34"
+Inst58Quest1_Attain = "28"
+Inst58Quest1_Aim = "Collect the two Blades of the Anointed. "
+Inst58Quest1_Location = "Hooded Crusader (Scarlet Monastery; "..BLUE.."Entrance"..WHITE..")"
+Inst58Quest1_Note = "The first blade is at "..YELLOW.."[1]"..WHITE..".  The second and the quest turn-in is by the fountain in the Chapel Gardens on the way to the next boss."
 Inst58Quest1_Prequest = "None"
-Inst58Quest1_Folgequest = "None"
+Inst58Quest1_Folgequest = "Unto Dust Thou Shalt Return"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst58Quest2 = "2. Battle for the Scarlet Monastery"
-Inst58Quest2_Level = "39"
-Inst58Quest2_Attain = "35"
-Inst58Quest2_Aim = "Kill Scarlet Commander Mograine and High Inquisitor Whitemane."
-Inst58Quest2_Location = "Joseph the Insane (Scarlet Monastery Cathedral; "..YELLOW.."Entrance"..WHITE..")"
-Inst58Quest2_Note = "Scarlet Commander Mograine and High Inquisitor Whitemane are at "..YELLOW.."[2]"..WHITE.."."
+Inst58Quest2 = "2. Blades of the Anointed (Heroic)"
+Inst58Quest2_Level = "90"
+Inst58Quest2_Attain = "90"
+Inst58Quest2_Aim = "Collect the two Blades of the Anointed. "
+Inst58Quest2_Location = "Hooded Crusader (Scarlet Monastery; "..BLUE.."Entrance"..WHITE..")"
+Inst58Quest2_Note = "The first blade is at "..YELLOW.."[1]"..WHITE..".  The second and the quest turn-in is by the fountain in the Chapel Gardens on the way to the next boss."
 Inst58Quest2_Prequest = "None"
-Inst58Quest2_Folgequest = "None"
---
-Inst58Quest2name1 = "Grasps of the Insane"
-Inst58Quest2name2 = "Scarlet Necklace of Paradise"
-Inst58Quest2name3 = "Band of Grandiose Delusions"
+Inst58Quest2_Folgequest = "Unto Dust Thou Shalt Return"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst58Quest3 = "3. Right Under Their Noses"
-Inst58Quest3_Level = "39"
-Inst58Quest3_Attain = "35"
-Inst58Quest3_Aim = "Kill High Inquisitor Fairbanks."
-Inst58Quest3_Location = "Dominic (Scarlet Monastery Cathedral; "..GREEN.."[3']"..WHITE..")"
-Inst58Quest3_Note = "High Inquisitor Fairbanks is at "..YELLOW.."[1]"..WHITE.."."
-Inst58Quest3_Prequest = "None"
+Inst58Quest3 = "3. Unto Dust Thou Shalt Return"
+Inst58Quest3_Level = "34"
+Inst58Quest3_Attain = "28"
+Inst58Quest3_Aim = "Use the Blades of the Anointed on the corpse of High Inquisitor Whitemane to send her permanently to her final rest."
+Inst58Quest3_Location = "Fountain in Chapel Gardens"
+Inst58Quest3_Note = "High Inquisitor Whitemane is at "..YELLOW.."[3]"..WHITE..".  After you complete the quest, Lilian Voss will spawn to turn the quest in."
+Inst58Quest3_Prequest = "Blades of the Anointed"
 Inst58Quest3_Folgequest = "None"
+Inst58Quest3PreQuest = "true"
 -- No Rewards for this quest
 
-
---Quest 1 Horde
-Inst58Quest1_HORDE = "1. Enemies Abroad"
-Inst58Quest1_HORDE_Level = "38"
-Inst58Quest1_HORDE_Attain = "37"
-Inst58Quest1_HORDE_Aim = "Find Dark Ranger Velonara."
-Inst58Quest1_HORDE_Location = "Nazeer Bloodpike (Dustwallow Marsh - Brackenwall Village; "..YELLOW.."35.2, 30.6"..WHITE..")"
-Inst58Quest1_HORDE_Note = "Dark Ranger Velonara is just inside the entrance of the Scarlet Monastery Cathedral."
-Inst58Quest1_HORDE_Prequest = "None"
-Inst58Quest1_HORDE_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst58Quest2_HORDE = "2. Battle for the Scarlet Monastery"
-Inst58Quest2_HORDE_Level = "39"
-Inst58Quest2_HORDE_Attain = "35"
-Inst58Quest2_HORDE_Aim = "Kill Scarlet Commander Mograine and High Inquisitor Whitemane."
-Inst58Quest2_HORDE_Location = "Dark Ranger Velonara (Scarlet Monastery Cathedral; "..YELLOW.."Entrance"..WHITE..")"
-Inst58Quest2_HORDE_Note = "Scarlet Commander Mograine and High Inquisitor Whitemane are at "..YELLOW.."[2]"..WHITE.."."
-Inst58Quest2_HORDE_Prequest = "None"
-Inst58Quest2_HORDE_Folgequest = "None"
+--Quest 4 Alliance
+Inst58Quest4 = "4. Unto Dust Thou Shalt Return (Heroic)"
+Inst58Quest4_Level = "90"
+Inst58Quest4_Attain = "90"
+Inst58Quest4_Aim = "Use the Blades of the Anointed on the corpse of High Inquisitor Whitemane to send her permanently to her final rest."
+Inst58Quest4_Location = "Fountain in Chapel Gardens"
+Inst58Quest4_Note = "High Inquisitor Whitemane is at "..YELLOW.."[3]"..WHITE..".  After you complete the quest, Lilian Voss will spawn to turn the quest in."
+Inst58Quest4_Prequest = "Blades of the Anointed"
+Inst58Quest4_Folgequest = "None"
+Inst58Quest4PreQuest = "true"
 --
-Inst58Quest2name1_HORDE = "Grasps of the Forsaken"
-Inst58Quest2name2_HORDE = "Gift of the Banshee Queen"
-Inst58Quest2name3_HORDE = "Band of Wrath"
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst58Quest1_HORDE = Inst58Quest1
+Inst58Quest1_HORDE_Level = Inst58Quest1_Level
+Inst58Quest1_HORDE_Attain = Inst58Quest1_Attain
+Inst58Quest1_HORDE_Aim = Inst58Quest1_Aim
+Inst58Quest1_HORDE_Location = Inst58Quest1_Location
+Inst58Quest1_HORDE_Note = Inst58Quest1_Note
+Inst58Quest1_HORDE_Prequest = Inst58Quest1_Prequest
+Inst58Quest1_HORDE_Folgequest = Inst58Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst58Quest2_HORDE = Inst58Quest2
+Inst58Quest2_HORDE_Level = Inst58Quest2_Level
+Inst58Quest2_HORDE_Attain = Inst58Quest2_Attain
+Inst58Quest2_HORDE_Aim = Inst58Quest2_Aim
+Inst58Quest2_HORDE_Location = Inst58Quest2_Location
+Inst58Quest2_HORDE_Note = Inst58Quest2_Note
+Inst58Quest2_HORDE_Prequest = Inst58Quest2_Prequest
+Inst58Quest2_HORDE_Folgequest = Inst58Quest2_Folgequest
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst58Quest3_HORDE = Inst58Quest3
@@ -2973,173 +2786,174 @@ Inst58Quest3_HORDE_Location = Inst58Quest3_Location
 Inst58Quest3_HORDE_Note = Inst58Quest3_Note
 Inst58Quest3_HORDE_Prequest = Inst58Quest3_Prequest
 Inst58Quest3_HORDE_Folgequest = Inst58Quest3_Folgequest
+Inst58Quest3PreQuest_HORDE = Inst58Quest3PreQuest
 -- No Rewards for this quest
 
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst58Quest4_HORDE = Inst58Quest4
+Inst58Quest4_HORDE_Level = Inst58Quest4_Level
+Inst58Quest4_HORDE_Attain = Inst58Quest4_Attain
+Inst58Quest4_HORDE_Aim = Inst58Quest4_Aim
+Inst58Quest4_HORDE_Location = Inst58Quest4_Location
+Inst58Quest4_HORDE_Note = Inst58Quest4_Note
+Inst58Quest4_HORDE_Prequest = Inst58Quest4_Prequest
+Inst58Quest4_HORDE_Folgequest = Inst58Quest4_Folgequest
+Inst58Quest4PreQuest_HORDE = Inst58Quest4PreQuest
+--
+-- Reward varies for each class
 
 
---------------- INST59 - SM: Graveyard (SM GY) ---------------
 
-Inst59Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
-Inst59Caption = "SM: Graveyard"
-Inst59QAA = "2 Quests"
-Inst59QAH = "2 Quests"
+--------------- INST59 - Scarlet Halls ---------------
+
+Inst59Caption = "Scarlet Halls"
+Inst59QAA = "4 Quests"
+Inst59QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst59Quest1 = "1. The Scarlet Monastery"
-Inst59Quest1_Level = "30"
-Inst59Quest1_Attain = "28"
-Inst59Quest1_Aim = "Visit Joseph the Awakened."
-Inst59Quest1_Location = "Captain Nials (Arathi Highlands - Refuge Point; "..YELLOW.."40.0, 48.8"..WHITE..")"
-Inst59Quest1_Note = "Joseph the Awakened is just inside the entrance of the Scarlet Monastery Graveyard."
+Inst59Quest1 = "1. Rank and File"
+Inst59Quest1_Level = "31"
+Inst59Quest1_Attain = "26"
+Inst59Quest1_Aim = "Kill 50 members of the Scarlet Crusade within the Scarlet Halls."
+Inst59Quest1_Location = "Hooded Crusader (Scarlet Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst59Quest1_Note = ""
 Inst59Quest1_Prequest = "None"
 Inst59Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst59Quest2 = "2. The Dark Side of the Light"
-Inst59Quest2_Level = "30"
-Inst59Quest2_Attain = "26"
-Inst59Quest2_Aim = "Kill Interrogator Vishas and Bloodmage Thalnos."
-Inst59Quest2_Location = "Joseph the Awakened (Scarlet Monastery Graveyard; "..YELLOW.."Entrance"..WHITE..")"
-Inst59Quest2_Note = "Interrogator Vishas is at "..YELLOW.."[1]"..WHITE.." and Bloodmage Thalnos is at "..YELLOW.."[2]"..WHITE.."."
+Inst59Quest2 = "2. Rank and File (Heroic)"
+Inst59Quest2_Level = "90"
+Inst59Quest2_Attain = "90"
+Inst59Quest2_Aim = "Kill 50 members of the Scarlet Crusade within the Scarlet Halls."
+Inst59Quest2_Location = "Hooded Crusader (Scarlet Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst59Quest2_Note = ""
 Inst59Quest2_Prequest = "None"
 Inst59Quest2_Folgequest = "None"
---
-Inst59Quest2name1 = "Helm of the Awakened"
-Inst59Quest2name2 = "Interrogator's Shackles"
-Inst59Quest2name3 = "Gloves of the Pure"
-Inst59Quest2name4 = "Strapping Belt"
-Inst59Quest2name5 = "Vishas' Hood"
-
-
---Quest 1 Horde
-Inst59Quest1_HORDE = "1. Into the Scarlet Monastery"
-Inst59Quest1_HORDE_Level = "30"
-Inst59Quest1_HORDE_Attain = "28"
-Inst59Quest1_HORDE_Aim = "Report to Dark Ranger Velonara."
-Inst59Quest1_HORDE_Location = "Doctor Gregory Victor (Arathi Highlands - Hammerfall; "..YELLOW.."68.4, 37.8"..WHITE..")"
-Inst59Quest1_HORDE_Note = "Dark Ranger Velonara is just inside the entrance of the Scarlet Monastery Graveyard"
-Inst59Quest1_HORDE_Prequest = "None"
-Inst59Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
---Quest 2 Horde
-Inst59Quest2_HORDE = "2. The Dark Side of the Light"
-Inst59Quest2_HORDE_Level = "30"
-Inst59Quest2_HORDE_Attain = "28"
-Inst59Quest2_HORDE_Aim = "Kill Interrogator Vishas and Bloodmage Thalnos."
-Inst59Quest2_HORDE_Location = "Dark Ranger Velonara (Scarlet Monastery Graveyard; "..YELLOW.."Entrance"..WHITE..")"
-Inst59Quest2_HORDE_Note = "Interrogator Vishas is at "..YELLOW.."[1]"..WHITE.." and Bloodmage Thalnos is at "..YELLOW.."[2]"..WHITE.."."
-Inst59Quest2_HORDE_Prequest = "None"
-Inst59Quest2_HORDE_Folgequest = "None"
+--Quest 3 Alliance
+Inst59Quest3 = "3. Just for Safekeeping, Of Course"
+Inst59Quest3_Level = "31"
+Inst59Quest3_Attain = "26"
+Inst59Quest3_Aim = "Collect the Codex of the Crusade."
+Inst59Quest3_Location = "Hooded Crusader (Scarlet Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst59Quest3_Note = "The Codex of the Crusade drops from Flameweaver Koegler at "..YELLOW.."[4]"..WHITE.."."
+Inst59Quest3_Prequest = "None"
+Inst59Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst59Quest4 = "4. Just for Safekeeping, Of Course (Heroic)"
+Inst59Quest4_Level = "90"
+Inst59Quest4_Attain = "90"
+Inst59Quest4_Aim = "Collect the Codex of the Crusade."
+Inst59Quest4_Location = "Hooded Crusader (Scarlet Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst59Quest4_Note = "The Codex of the Crusade drops from Flameweaver Koegler at "..YELLOW.."[4]"..WHITE.."."
+Inst59Quest4_Prequest = "None"
+Inst59Quest4_Folgequest = "None"
 --
-Inst59Quest2name1_HORDE = "Scarlet Zealot's Helm"
-Inst59Quest2name2_HORDE = "Interrogator's Shackles"
-Inst59Quest2name3_HORDE = "Gloves of the Pure"
-Inst59Quest2name4_HORDE = "Strapping Belt"
-Inst59Quest2name5_HORDE = "Vishas' Hood"
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst59Quest1_HORDE = Inst59Quest1
+Inst59Quest1_HORDE_Level = Inst59Quest1_Level
+Inst59Quest1_HORDE_Attain = Inst59Quest1_Attain
+Inst59Quest1_HORDE_Aim = Inst59Quest1_Aim
+Inst59Quest1_HORDE_Location = Inst59Quest1_Location
+Inst59Quest1_HORDE_Note = Inst59Quest1_Note
+Inst59Quest1_HORDE_Prequest = Inst59Quest1_Prequest
+Inst59Quest1_HORDE_Folgequest = Inst59Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst59Quest2_HORDE = Inst59Quest2
+Inst59Quest2_HORDE_Level = Inst59Quest2_Level
+Inst59Quest2_HORDE_Attain = Inst59Quest2_Attain
+Inst59Quest2_HORDE_Aim = Inst59Quest2_Aim
+Inst59Quest2_HORDE_Location = Inst59Quest2_Location
+Inst59Quest2_HORDE_Note = Inst59Quest2_Note
+Inst59Quest2_HORDE_Prequest = Inst59Quest2_Prequest
+Inst59Quest2_HORDE_Folgequest = Inst59Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst59Quest3_HORDE = Inst59Quest3
+Inst59Quest3_HORDE_Level = Inst59Quest3_Level
+Inst59Quest3_HORDE_Attain = Inst59Quest3_Attain
+Inst59Quest3_HORDE_Aim = Inst59Quest3_Aim
+Inst59Quest3_HORDE_Location = Inst59Quest3_Location
+Inst59Quest3_HORDE_Note = Inst59Quest3_Note
+Inst59Quest3_HORDE_Prequest = Inst59Quest3_Prequest
+Inst59Quest3_HORDE_Folgequest = Inst59Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst59Quest4_HORDE = Inst59Quest4
+Inst59Quest4_HORDE_Level = Inst59Quest4_Level
+Inst59Quest4_HORDE_Attain = Inst59Quest4_Attain
+Inst59Quest4_HORDE_Aim = Inst59Quest4_Aim
+Inst59Quest4_HORDE_Location = Inst59Quest4_Location
+Inst59Quest4_HORDE_Note = Inst59Quest4_Note
+Inst59Quest4_HORDE_Prequest = Inst59Quest4_Prequest
+Inst59Quest4_HORDE_Folgequest = Inst59Quest4_Folgequest
+--
+-- Reward varies for each class
 
 
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
-Inst20Story = "The Scholomance is housed within a series of crypts that lie beneath the ruined keep of Caer Darrow. Once owned by the noble Barov family, Caer Darrow fell to ruin following the Second War. As the wizard Kel'thuzad enlisted followers for his Cult of the Damned he would often promise immortality in exchange for serving his Lich King. The Barov family fell to Kel'thuzad's charismatic influence and donated the keep and its crypts to the Scourge. The cultists then killed the Barovs and turned the ancient crypts into a school for necromancy known as the Scholomance. Though Kel'thuzad no longer resides in the crypts, devoted cultists and instructors still remain. The powerful lich, Ras Frostwhisper, rules over the site and guards it in the Scourge's name - while the mortal necromancer, Darkmaster Gandling, serves as the school's insidious headmaster."
 Inst20Caption = "Scholomance"
-Inst20QAA = "8 Quests"
-Inst20QAH = "8 Quests"
+Inst20QAA = "4 Quests"
+Inst20QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst20Quest1 = "1. Alexi's Gambit"
+Inst20Quest1 = "1. The Four Tomes"
 Inst20Quest1_Level = "43"
 Inst20Quest1_Attain = "38"
-Inst20Quest1_Aim = "Place the Gambit in the Viewing Room and slay Vectus and Marduk."
-Inst20Quest1_Location = "Alexi Barov (Scholomance; "..YELLOW.."Entrance"..WHITE..")"
-Inst20Quest1_Note = "Vectus and Marduk are at "..ORANGE.."[1]"..WHITE.."."
+Inst20Quest1_Aim = "Destroy the four tomes: 'In the Shadow of the Light', 'Kel'Thuzad's Deep Knowledge', 'Forbidden Rites and other Rituals Necromantic' and 'The Dark Grimoire'."
+Inst20Quest1_Location = "Talking Skull (Scholomance; "..BLUE.."Entrance"..WHITE..")"
+Inst20Quest1_Note = "- 'In the Shadow of the Light' is at "..YELLOW.."[1]"..WHITE..".\n- 'Kel'Thuzad's Deep Knowledge' is at "..YELLOW.."[2]"..WHITE..".\n- 'Forbidden Rites and other Rituals Necromantic' is at the end of the room beyond "..YELLOW.."[3]"..WHITE..".\n- 'The Dark Grimoire' is at "..YELLOW.."[5]"..WHITE.."."
 Inst20Quest1_Prequest = "None"
 Inst20Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst20Quest2 = "2. Barov Family Fortune"
+Inst20Quest2 = "2. The Four Tomes (Heroic)"
 Inst20Quest2_Level = "43"
 Inst20Quest2_Attain = "38"
-Inst20Quest2_Aim = "Recover The Deed to Caer Darrow, The Deed to Brill, The Deed to Tarren Mill, and The Deed to Southshore."
-Inst20Quest2_Location = "Weldon Barov (Scholomance; "..YELLOW.."Entrance"..WHITE..")"
-Inst20Quest2_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[9]"..WHITE..", The Deed to Brill at "..GREEN.."[5']"..WHITE..", The Deed to Tarren Mill at "..GREEN.."[4']"..WHITE.." and The Deed to Southshore at "..GREEN.."[2']"..WHITE.."."
+Inst20Quest2_Aim = "Destroy the four tomes: 'In the Shadow of the Light', 'Kel'Thuzad's Deep Knowledge', 'Forbidden Rites and other Rituals Necromantic' and 'The Dark Grimoire'."
+Inst20Quest2_Location = "Talking Skull (Scholomance; "..BLUE.."Entrance"..WHITE..")"
+Inst20Quest2_Note = "- 'In the Shadow of the Light' is at "..YELLOW.."[1]"..WHITE..".\n- 'Kel'Thuzad's Deep Knowledge' is at "..YELLOW.."[2]"..WHITE..".\n- 'Forbidden Rites and other Rituals Necromantic' is at the end of the room beyond "..YELLOW.."[3]"..WHITE..".\n- 'The Dark Grimoire' is at "..YELLOW.."[5]"..WHITE.."."
 Inst20Quest2_Prequest = "None"
 Inst20Quest2_Folgequest = "None"
---
-Inst20Quest2name1 = "Barov Servant Caller"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst20Quest3 = "3. The Lich, Ras Frostwhisper"
+Inst20Quest3 = "3. An End to the Suffering"
 Inst20Quest3_Level = "43"
 Inst20Quest3_Attain = "38"
-Inst20Quest3_Aim = "Destroy Ras Frostwhisper."
-Inst20Quest3_Location = "Alexi Barov (Scholomance; "..YELLOW.."Entrance"..WHITE..")"
-Inst20Quest3_Note = "Ras Frostwhisper is at "..YELLOW.."[4]"..WHITE.."."
+Inst20Quest3_Aim = "Kill Darkmaster Gandling."
+Inst20Quest3_Location = "Talking Skull (Scholomance; "..BLUE.."Entrance"..WHITE..")"
+Inst20Quest3_Note = "Darkmaster Gandling is at "..YELLOW.."[6]"..WHITE.."."
 Inst20Quest3_Prequest = "None"
 Inst20Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst20Quest4 = "4. Doctor Theolen Krastinov, the Butcher"
-Inst20Quest4_Level = "43"
-Inst20Quest4_Attain = "38"
-Inst20Quest4_Aim = "Destroy Doctor Theolen Krastinov, then burn the Remains of Eva Sarkhoff and the Remains of Lucien Sarkhoff."
-Inst20Quest4_Location = "Eva Sarkhoff (Scholomance; "..YELLOW.."Entrance"..WHITE..")"
-Inst20Quest4_Note = "Doctor Theolen Krastinov is at "..YELLOW.."[6]"..WHITE.." and the Remains are nearby in the same room."
+Inst20Quest4 = "4. An End to the Suffering (Heroic)"
+Inst20Quest4_Level = "90"
+Inst20Quest4_Attain = "90"
+Inst20Quest4_Aim = "Kill Darkmaster Gandling."
+Inst20Quest4_Location = "Talking Skull (Scholomance; "..BLUE.."Entrance"..WHITE..")"
+Inst20Quest4_Note = "Darkmaster Gandling is at "..YELLOW.."[6]"..WHITE.."."
 Inst20Quest4_Prequest = "None"
 Inst20Quest4_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst20Quest5 = "5. Aberrations of Bone"
-Inst20Quest5_Level = "42"
-Inst20Quest5_Attain = "40"
-Inst20Quest5_Aim = "Kill Rattlegore in the Ossuary of Scholomance."
-Inst20Quest5_Location = "Lord Raymond George (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."76.0, 51.0"..WHITE..")"
-Inst20Quest5_Note = "Rattlegore is at "..YELLOW.."[3]"..WHITE..".\n\nThis is a repeatable quest to gain reputation with the Argent Dawn."
-Inst20Quest5_Prequest = "None"
-Inst20Quest5_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst20Quest6 = "6. Kirtonos the Herald"
-Inst20Quest6_Level = "43"
-Inst20Quest6_Attain = "38"
-Inst20Quest6_Aim = "Destroy Kirtonos."
-Inst20Quest6_Location = "Eva Sarkhoff (Scholomance; "..YELLOW.."Entrance"..WHITE..")"
-Inst20Quest6_Note = "Kirtonos is at "..YELLOW.."[1]"..WHITE.."."
-Inst20Quest6_Prequest = "None"
-Inst20Quest6_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst20Quest7 = "7. Plagued Hatchlings...For Now"
-Inst20Quest7_Level = "42"
-Inst20Quest7_Attain = "38"
-Inst20Quest7_Aim = "Kill 10 Plagued Hatchlings and Rattlegore."
-Inst20Quest7_Location = "Weldon Barov (Scholomance; "..YELLOW.."Entrance"..WHITE..")"
-Inst20Quest7_Note = "Rattlegore is at "..YELLOW.."[3]"..WHITE.." and the Plagued Hatchlings are in the room above."
-Inst20Quest7_Prequest = "None"
-Inst20Quest7_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst20Quest8 = "8. School's Out Forever"
-Inst20Quest8_Level = "44"
-Inst20Quest8_Attain = "38"
-Inst20Quest8_Aim = "Kill Darkmaster Gandling."
-Inst20Quest8_Location = "Lucien Sarkhoff (Scholomance; "..YELLOW.."Entrance"..WHITE..")"
-Inst20Quest8_Note = "Darkmaster Gandling is at "..YELLOW.."[11]"..WHITE..".  He will appear after you kill the minibosses and trash in the adjoining rooms."
-Inst20Quest8_Prequest = "None"
-Inst20Quest8_Folgequest = "None"
 --
-Inst20Quest8name1 = "Discipline Rod"
-Inst20Quest8name2 = "Shackles of Punishment"
-Inst20Quest8name3 = "Lucien's Boots"
-Inst20Quest8name4 = "Signet of the Darkmaster"
+-- Reward varies for each class
+
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3162,8 +2976,7 @@ Inst20Quest2_HORDE_Location = Inst20Quest2_Location
 Inst20Quest2_HORDE_Note = Inst20Quest2_Note
 Inst20Quest2_HORDE_Prequest = Inst20Quest2_Prequest
 Inst20Quest2_HORDE_Folgequest = Inst20Quest2_Folgequest
---
-Inst20Quest2name1_HORDE = Inst20Quest2name1
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst20Quest3_HORDE = Inst20Quest3
@@ -3185,61 +2998,13 @@ Inst20Quest4_HORDE_Location = Inst20Quest4_Location
 Inst20Quest4_HORDE_Note = Inst20Quest4_Note
 Inst20Quest4_HORDE_Prequest = Inst20Quest4_Prequest
 Inst20Quest4_HORDE_Folgequest = Inst20Quest4_Folgequest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst20Quest5_HORDE = Inst20Quest5
-Inst20Quest5_HORDE_Level = Inst20Quest5_Level
-Inst20Quest5_HORDE_Attain = Inst20Quest5_Attain
-Inst20Quest5_HORDE_Aim = Inst20Quest5_Aim
-Inst20Quest5_HORDE_Location = Inst20Quest5_Location
-Inst20Quest5_HORDE_Note = Inst20Quest5_Note
-Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
-Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst20Quest6_HORDE = Inst20Quest6
-Inst20Quest6_HORDE_Level = Inst20Quest6_Level
-Inst20Quest6_HORDE_Attain = Inst20Quest6_Attain
-Inst20Quest6_HORDE_Aim = Inst20Quest6_Aim
-Inst20Quest6_HORDE_Location = Inst20Quest6_Location
-Inst20Quest6_HORDE_Note = Inst20Quest6_Note
-Inst20Quest6_HORDE_Prequest = Inst20Quest6_Prequest
-Inst20Quest6_HORDE_Folgequest = Inst20Quest6_Folgequest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst20Quest7_HORDE = Inst20Quest7
-Inst20Quest7_HORDE_Level = Inst20Quest7_Level
-Inst20Quest7_HORDE_Attain = Inst20Quest7_Attain
-Inst20Quest7_HORDE_Aim = Inst20Quest7_Aim
-Inst20Quest7_HORDE_Location = Inst20Quest7_Location
-Inst20Quest7_HORDE_Note = Inst20Quest7_Note
-Inst20Quest7_HORDE_Prequest = Inst20Quest7_Prequest
-Inst20Quest7_HORDE_Folgequest = Inst20Quest7_Folgequest
--- No Rewards for this quest
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst20Quest8_HORDE = Inst20Quest8
-Inst20Quest8_HORDE_Level = Inst20Quest8_Level
-Inst20Quest8_HORDE_Attain = Inst20Quest8_Attain
-Inst20Quest8_HORDE_Aim = Inst20Quest8_Aim
-Inst20Quest8_HORDE_Location = Inst20Quest8_Location
-Inst20Quest8_HORDE_Note = Inst20Quest8_Note
-Inst20Quest8_HORDE_Prequest = Inst20Quest8_Prequest
-Inst20Quest8_HORDE_Folgequest = Inst20Quest8_Folgequest
 --
-Inst20Quest8name1_HORDE = Inst20Quest8name1
-Inst20Quest8name2_HORDE = Inst20Quest8name2
-Inst20Quest8name3_HORDE = Inst20Quest8name3
-Inst20Quest8name4_HORDE = Inst20Quest8name4
+-- Reward varies for each class
 
 
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
 
-Inst21Story = "During the Third War, the wizards of the Kirin Tor battled against the undead armies of the Scourge. When the wizards of Dalaran died in battle, they would rise soon after - adding their former might to the growing Scourge. Frustrated by their lack of progress (and against the advice of his peers) the Archmage, Arugal elected to summon extra-dimensional entities to bolster Dalaran's diminishing ranks. Arugal's summoning brought the ravenous worgen into the world of Azeroth. The feral wolf-men slaughtered not only the Scourge, but quickly turned on the wizards themselves. The worgen laid siege to the keep of the noble, Baron Silverlaine. Situated above the tiny hamlet of Pyrewood, the keep quickly fell into shadow and ruin. Driven mad with guilt, Arugal adopted the worgen as his children and retreated to the newly dubbed 'Shadowfang Keep'. It's said he still resides there, protected by his massive pet, Fenrus - and haunted by the vengeful ghost of Baron Silverlaine."
 Inst21Caption = "Shadowfang Keep"
 Inst21QAA = "16 Quests"
 Inst21QAH = "19 Quests"
@@ -3712,7 +3477,6 @@ Inst21Quest19_HORDE_Folgequest = "None"
 
 --------------- INST22 - Stratholme - Crusaders' Square (Strat) ---------------
 
-Inst22Story = "Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge - led by the powerful lich, Kel'thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed - dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
 Inst22Caption = "Stratholme - Crusaders' Square"
 Inst22QAA = "8 Quests"
 Inst22QAH = "8 Quests"
@@ -3916,7 +3680,6 @@ Inst22Quest8name4_HORDE = Inst22Quest8name4
 
 --------------- INST28 - Stratholme - The Gauntlet (Strat) ---------------
 
-Inst28Story = "Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge - led by the powerful lich, Kel'thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed - dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
 Inst28Caption = "Stratholme - The Gauntlet"
 Inst28QAA = "4 Quests"
 Inst28QAH = "4 Quests"
@@ -4022,7 +3785,6 @@ Inst28Quest4name4_HORDE = Inst28Quest4name4
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
 
-Inst23Story = "During the final hours of the War of the Shifting Sands, the combined forces of the night elves and the four dragonflights drove the battle to the very heart of the qiraji empire, to the fortress city of Ahn'Qiraj. Yet at the city gates, the armies of Kalimdor encountered a concentration of silithid war drones more massive than any they had encountered before. Ultimately the silithid and their qiraji masters were not defeated, but merely imprisoned inside a magical barrier, and the war left the cursed city in ruins. A thousand years have passed since that day, but the qiraji forces have not been idle. A new and terrible army has been spawned from the hives, and the ruins of Ahn'Qiraj are teeming once again with swarming masses of silithid and qiraji. This threat must be eliminated, or else all of Azeroth may fall before the terrifying might of the new qiraji army."
 Inst23Caption = "Ruins of Ahn'Qiraj"
 Inst23QAA = "1 Quest"
 Inst23QAH = "1 Quest"
@@ -4062,7 +3824,6 @@ Inst23Quest1name4_HORDE = Inst23Quest1name4
 
 --------------- INST24 - The Stockade (Stocks) ---------------
 
-Inst24Story = "The Stockades are a high-security prison complex, hidden beneath the canal district of Stormwind City. Presided over by Warden Thelwater, the Stockades are home to petty crooks, political insurgents, murderers and a score of the most dangerous criminals in the land. Recently, a prisoner-led revolt has resulted in a state of pandemonium within the Stockades - where the guards have been driven out and the convicts roam free. Warden Thelwater has managed to escape the holding area and is currently enlisting brave thrill-seekers to venture into the prison and kill the uprising's mastermind - the cunning felon, Bazil Thredd."
 Inst24Caption = "The Stockade"
 Inst24QAA = "3 Quests"
 Inst24QAH = "No Quests"
@@ -4108,7 +3869,6 @@ Inst24Quest3name4 = "Riot Stick"
 
 --------------- INST25 - Sunken Temple (ST) ---------------
 
-Inst25Story = "Over a thousand years ago, the powerful Gurubashi Empire was torn apart by a massive civil war. An influential group of troll priests, known as the Atal'ai, attempted to bring back an ancient blood god named Hakkar the Soulflayer. Though the priests were defeated and ultimately exiled, the great troll empire buckled in upon itself. The exiled priests fled far to the north, into the Swamp of Sorrows. There they erected a great temple to Hakkar - where they could prepare for his arrival into the physical world. The great dragon Aspect, Ysera, learned of the Atal'ai's plans and smashed the temple beneath the marshes. To this day, the temple's drowned ruins are guarded by the green dragons who prevent anyone from getting in or out. However, it is believed that some of the fanatical Atal'ai may have survived Ysera's wrath - and recommitted themselves to the dark service of Hakkar."
 Inst25Caption = "The Sunken Temple"
 Inst25QAA = "4 Quests"
 Inst25QAH = "4 Quests"
@@ -4210,7 +3970,6 @@ Inst25Quest4name1_HORDE = Inst25Quest4name1
 
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
-Inst26Story = "At the heart of Ahn'Qiraj lies an ancient temple complex. Built in the time before recorded history, it is both a monument to unspeakable gods and a massive breeding ground for the qiraji army. Since the War of the Shifting Sands ended a thousand years ago, the Twin Emperors of the qiraji empire have been trapped inside their temple, barely contained behind the magical barrier erected by the bronze dragon Anachronos and the night elves. Now that the Scepter of the Shifting Sands has been reassembled and the seal has been broken, the way into the inner sanctum of Ahn'Qiraj is open. Beyond the crawling madness of the hives, beneath the Temple of Ahn'Qiraj, legions of qiraji prepare for invasion. They must be stopped at all costs before they can unleash their voracious insectoid armies on Kalimdor once again, and a second War of the Shifting Sands breaks loose!"
 Inst26Caption = "Temple of Ahn'Qiraj"
 Inst26QAA = "4 Quests"
 Inst26QAH = "4 Quests"
@@ -4316,7 +4075,6 @@ Inst26Quest4_HORDE_Folgequest = Inst26Quest4_Folgequest
 
 --------------- INST27 - Zul'Farrak (ZF) ---------------
 
-Inst27Story = "This sun-blasted city is home to the Sandfury trolls, known for their particular ruthlessness and dark mysticism. Troll legends tell of a powerful sword called Sul'thraze the Lasher, a weapon capable of instilling fear and weakness in even the most formidable of foes. Long ago, the weapon was split in half. However, rumors have circulated that the two halves may be found somewhere within Zul'Farrak's walls. Reports have also suggested that a band of mercenaries fleeing Gadgetzan wandered into the city and became trapped. Their fate remains unknown. But perhaps most disturbing of all are the hushed whispers of an ancient creature sleeping within a sacred pool at the city's heart - a mighty demigod who will wreak untold destruction upon any adventurer foolish enough to awaken him."
 Inst27Caption = "Zul'Farrak"
 Inst27QAA = "5 Quests"
 Inst27QAH = "5 Quests"
@@ -4456,7 +4214,6 @@ Inst27Quest5name5_HORDE = Inst27Quest5name5
 
 --------------- INST29 - Gnomeregan (Gnomer) ---------------
 
-Inst29Story = "Located in Dun Morogh, the technological wonder known as Gnomeregan has been the gnomes' capital city for generations. Recently, a hostile race of mutant troggs infested several regions of Dun Morogh - including the great gnome city. In a desperate attempt to destroy the invading troggs, High Tinker Mekkatorque ordered the emergency venting of the city's radioactive waste tanks. Several gnomes sought shelter from the airborne pollutants as they waited for the troggs to die or flee. Unfortunately, though the troggs became irradiated from the toxic assault - their siege continued, unabated. Those gnomes who were not killed by noxious seepage were forced to flee, seeking refuge in the nearby dwarven city of Ironforge. There, High Tinker Mekkatorque set out to enlist brave souls to help his people reclaim their beloved city. It is rumored that Mekkatorque's once-trusted advisor, Mekgineer Thermaplugg, betrayed his people by allowing the invasion to happen. Now, his sanity shattered, Thermaplug remains in Gnomeregan - furthering his dark schemes and acting as the city's new techno-overlord."
 Inst29Caption = "Gnomeregan"
 Inst29QAA = "8 Quests"
 Inst29QAH = "3 Quests"
@@ -4601,11 +4358,6 @@ Inst29Quest3name1_HORDE = Inst29Quest8name1
 
 --------------- INST37 - HFC: Hellfire Ramparts (Ramp) ---------------
 
-Inst37Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact - inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
-  ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
-  ["MaxPages"] = "2",
-};
 Inst37Caption = "Hellfire Ramparts"
 Inst37QAA = "5 Quests"
 Inst37QAH = "5 Quests"
@@ -4736,11 +4488,6 @@ Inst37Quest5_HORDE_Folgequest = Inst37Quest5_Folgequest
 
 --------------- INST38 - HFC: Blood Furnace (BF) ---------------
 
-Inst38Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact?inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
-  ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
-  ["MaxPages"] = "2",
-};
 Inst38Caption = "The Blood Furnace"
 Inst38QAA = "4 Quests"
 Inst38QAH = "4 Quests"
@@ -4856,11 +4603,6 @@ Inst38Quest4_HORDE_Folgequest = Inst38Quest4_Folgequest
 
 --------------- INST39 - HFC: Shattered Halls (SH) ---------------
 
-Inst39Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact - inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
-  ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
-  ["MaxPages"] = "2",
-};
 Inst39Caption = "The Shattered Halls"
 Inst39QAA = "10 Quests"
 Inst39QAH = "10 Quests"
@@ -5117,11 +4859,6 @@ Inst39Quest10_HORDE_Folgequest = Inst39Quest10_Folgequest
 
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
 
-Inst40Story = {
-  ["Page1"] = "On the blasted world of Outland, within the heart of Hellfire Peninsula stands Hellfire Citadel, a nearly impenetrable bastion that served as the Horde's base of operations throughout the First and Second Wars. For years this gargantuan fortress was thought to be abandoned...\n \nUntil recently.\n \nThough much of Draenor was shattered by the reckless Ner'zhul, the Hellfire Citadel remains intact - inhabited now by marauding bands of red, furious fel orcs. Though the presence of this new, savage breed presents something of a mystery, what's far more disconcerting is that the numbers of these fel orcs seem to be growing.\n \nDespite Thrall and Grom Hellscream's successful bid to end the Horde's corruption by slaying Mannoroth, reports indicate that the barbaric orcs of Hellfire Citadel have somehow managed to find a new source of corruption to fuel their primitive bloodlust.",
-  ["Page2"] = "Whatever authority these orcs answer to is unknown, although it is a strongly held belief that they are not working for the Burning Legion.\n \nPerhaps the most unsettling news to come from Outland are the accounts of thunderous, savage cries issuing from somewhere deep beneath the citadel. Many have begun to wonder if these unearthly outbursts are somehow connected to the corrupted fel orcs and their growing numbers. Unfortunately those questions will have to remain unanswered.\n \nAt least for now.",
-  ["MaxPages"] = "2",
-};
 Inst40Caption = "Magtheridon's Lair"
 Inst40QAA = "2 Quests"
 Inst40QAH = "2 Quests"
@@ -5187,7 +4924,6 @@ Inst40Quest2name4_HORDE = Inst40Quest2name4
 
 --------------- INST41 - CR: The Slave Pens (SP) ---------------
 
-Inst41Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst41Caption = "The Slave Pens"
 Inst41QAA = "7 Quests"
 Inst41QAH = "7 Quests"
@@ -5364,7 +5100,6 @@ Inst41Quest7name3_HORDE = Inst41Quest7name3
 
 --------------- INST42 - CR: The Steamvault (SV) ---------------
 
-Inst42Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst42Caption = "The Steamvault"
 Inst42QAA = "9 Quests"
 Inst42QAH = "9 Quests"
@@ -5580,7 +5315,6 @@ Inst42Quest9_HORDE_Folgequest = Inst42Quest9_Folgequest
 
 --------------- INST43 - CR: The Underbog (UB) ---------------
 
-Inst43Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst43Caption = "The Underbog"
 Inst43QAA = "7 Quests"
 Inst43QAH = "7 Quests"
@@ -5753,7 +5487,6 @@ Inst43Quest7_HORDE_Folgequest = Inst43Quest7_Folgequest
 
 --------------- INST44 - Auchindoun: Auchenai Crypts (AC) ---------------
 
-Inst44Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst44Caption = "Auchenai Crypts"
 Inst44QAA = "5 Quests"
 Inst44QAH = "7 Quests"
@@ -5909,7 +5642,6 @@ Inst44Quest7FQuest_HORDE = "true"
 
 --------------- INST45 - Auchindoun: Mana Tombs (MT) ---------------
 
-Inst45Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst45Caption = "Mana Tombs"
 Inst45QAA = "6 Quests"
 Inst45QAH = "6 Quests"
@@ -6057,7 +5789,6 @@ Inst45Quest6_HORDE_Folgequest = Inst45Quest6_Folgequest
 
 --------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
 
-Inst46Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst46Caption = "Sethekk Halls"
 Inst46QAA = "6 Quests"
 Inst46QAH = "6 Quests"
@@ -6217,7 +5948,6 @@ Inst46Quest6_HORDE_Folgequest = Inst46Quest6_Folgequest
 
 --------------- INST47 - Auchindoun: Shadow Labyrinth (SLabs) ---------------
 
-Inst47Story = "For thousands of years, the draenei have been interring their dead in Auchindoun, their most sacred temple.\n\nHowever, it was infiltrated by agents of the Shadow Council bent on summoning a horrifying creature of immense evil.\n\nTheir vile act of magic resulted in a massive explosion that blew the temple apart and reduced the surrounding area into a charred wasteland.\n\nThe blast also caused a rift in the Nether itself, drawing the otherworldly Ethereals into Outland.\n\nThe interred draenei now walk the ruins as restless spirits.\n\nMeanwhile, the horrific entity summoned by the Shadow Council threatens to overwhelm their efforts to contain it.\n\nYou must prevent this evil from being unleashed upon an unsuspecting world.\n\nAuchindoun is divided into four wings, and is designed for a party of five characters levels 64-70."
 Inst47Caption = "Shadow Labyrinth"
 Inst47QAA = "12 Quests"
 Inst47QAH = "12 Quests"
@@ -6524,7 +6254,6 @@ Inst47Quest12name1_HORDE = Inst47Quest12name1
 
 --------------- INST48 - CR: Serpentshrine Cavern (SSC) ---------------
 
-Inst48Story = "The delicate ecology of Zangarmarsh has been thrown out of balance.\n\nUnnatural phenomena are corrupting and destroying the marsh's native flora and fauna.\n\nThis disturbance has been traced to the foreboding Coilfang Reservoir.\n\nIt is rumored that the leader of this mysterious edifice is none other than the infamous Lady Vashj.\n\nOnly you can discover her nefarious plans and stop them before it's too late.\n\nCoilfang Reservoir is divided into four areas, three of which are five-man dungeons (the Slave Pens, the Underbog, and the Steamvault), in addition to the 25-man raid dungeon, Serpentshrine Cavern. "
 Inst48Caption = "Serpentshrine Cavern"
 Inst48QAA = "2 Quests"
 Inst48QAH = "2 Quests"
@@ -6580,7 +6309,6 @@ Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
 
 --------------- INST49 - CoT: The Black Morass (BM) ---------------
 
-Inst49Story = "Medivh, the last of the magical Guardians of Tirisfal, was possessed at birth by the evil Titan, Sargeras.\n\nIt was Medivh who first contacted the corrupt orc sorcerer Gul'dan, also in the service of the Burning Legion.\n\nTogether they sought to bridge the dimensional gap between Azeroth and Draenor, homeworld of the orcs, to facilitate the destruction of Azeroth.\n\nOn the appointed day both Medivh and Gul'dan concentrated their considerable magic energies, forcing the collapse of the dimensional barrier.\n\nThe setting of this event is the Black Morass, now known as the Blasted Lands.\n\nPlayers will reportedly defend Medivh as he opens the portal."
 Inst49Caption = "The Black Morass"
 Inst49QAA = "5 Quests"
 Inst49QAH = "5 Quests"
@@ -6716,7 +6444,6 @@ Inst49Quest5name1_HORDE = Inst49Quest5name1
 
 --------------- INST50 - CoT: Battle of Mount Hyjal ---------------
 
-Inst50Story = "At the pinnacle of the second battle against the Burning Legion it was clear to the races of Azeroth that the only way to achieve victory would be to unite their forces in a final, desperate push for victory.\n\nThis battle took place at the peak of Mount Hyjal, at the foot of Nordrassil, the World Tree.\n\nThe night elves, led by Malfurion Stormrage and Tyrande Whisperwind, the new Horde, led by Thrall and Cairne Bloodhoof, and the remnants of the Alliance of Lordaeron, led by Jaina Proudmoore, united their forces against Archimonde and the demonic forces of the Burning Legion in a massive, epic battle to defend Azeroth.\n\nVictory was narrowly achieved, even as Archimonde reached the World Tree and attempted to drain it of its energy."
 Inst50Caption = "Battle of Mount Hyjal"
 Inst50QAA = "1 Quest"
 Inst50QAH = "1 Quest"
@@ -6750,7 +6477,6 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 
 --------------- INST51 - CoT: Old Hillsbrad Foothills ---------------
 
-Inst51Story = "Durnholde Keep was the headquarters of the orcish internment camps in southern Lordaeron following the Horde's defeat in the Second War.\n\nAt this time, Thrall was a 19-year-old slave to human officer Aedelas Blackmoore, who intended to use Thrall as a puppet Warchief to control the orcish Horde and thus gain power over his fellow humans.\n\nHowever, Thrall knew that he was destined for more, and so he made his escape from Durnholde to find others of his kind, eventually discovering the Frostwolf Clan and his place as Warchief.\n\nThis instance will contain the entire Hillsbrad area as it appeared 10 years ago, before the Horde destroyed Durnholde and Tarren Mill fell to the undead"
 Inst51Caption = "Old Hillsbrad Foothills"
 Inst51QAA = "5 Quests"
 Inst51QAH = "5 Quests"
@@ -6888,7 +6614,6 @@ Inst51Quest5name1_HORDE = Inst51Quest5name1
 
 --------------- INST52 - Gruul's Lair (GL) ---------------
 
-Inst52Story = "Gruul the Dragonkiller is, as his name implies, a famous dragon-slaying Gronn as well as the final boss of the raid dungeon Gruul's Lair in the Blade's Edge Mountains.\n\nHe drops the Tier 4 Leggings tokens.\n\nHe is the father of 7 Gronn, including Goc, Gorgrom the Dragon-Eater, Grulloc, Maggoc, and Durn the Hungerer.\n\nSummary of the fight: Rocks fall down. People die. "
 Inst52Caption = "Gruul's Lair"
 Inst52QAA = "1 Quest"
 Inst52QAH = "1 Quest"
@@ -6920,7 +6645,6 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 
 --------------- INST53 - Karazhan (Kara) ---------------
 
-Inst53Story = "The decrepit tower of Karazhan once housed one of the greatest powers Azeroth has ever known: the sorcerer Medivh.\n\nSince his death, a terrible curse has pervaded the tower and the surrounding lands.\n\nThe spirits of nobles from nearby Darkshire reportedly walk its halls, suffering a fate worse than death for their curiosity.\n\nMore dangerous spirits wait within Medivh's study, for it was there that he summoned demonic entities to do his bidding.\n\nHowever, the brave and foolish are still relentlessly drawn to Karazhan, tempted by rumors of unspeakable secrets and powerful treasures.\n\nForge a group of ten stalwart heroes, and journey to the tower in Deadwind Pass - but be warned that only those who have achieved level 70 should dare enter."
 Inst53Caption = "Karazhan"
 Inst53QAA = "14 Quests"
 Inst53QAH = "14 Quests"
@@ -7272,7 +6996,6 @@ Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
 
 --------------- INST54 - TK: Arcatraz (Arc) ---------------
 
-Inst54Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Arcatraz is the third wing of the Tempest Keep instance.\n\nThe Arcatraz is accessible either through a quest chain for the key that requires you to complete both Mechanar and Botanica, that begins with a long quest chain called (A Heap of Ethereals) from Nether-Stalker Khay'ji in Area 52, or be picked by a lvl 70 Rogue (with 350 LP).\n\nOnly one member of your group must have the key. The entrance portal is high above the other Tempest Keep instances.\n\nOne full run yields about 1750 reputation with the Sha'tar."
 Inst54Caption = "The Arcatraz"
 Inst54QAA = "8 Quests"
 Inst54QAH = "8 Quests"
@@ -7476,7 +7199,6 @@ Inst54Quest8name1_HORDE = Inst54Quest8name1
 
 --------------- INST55 - TK: Botanica (Bot) ---------------
 
-Inst55Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Botanica is the second wing of the Tempest Keep instance located directly north of the main palace (The blue crystal building).\n\nThis is also the place of Kael'thas commander: Commander Sarannis."
 Inst55Caption = "The Botanica"
 Inst55QAA = "7 Quests"
 Inst55QAH = "7 Quests"
@@ -7662,7 +7384,6 @@ Inst55Quest7name1_HORDE = Inst55Quest7name1
 
 --------------- INST56 - TK: Mechanar (Mech) ---------------
 
-Inst56Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Mechanar is the first wing of the Tempest Keep instance.\n\nThis is the purple crystal building south of the main palace.\n\nRecommended level is 70. One full run yields about 1500 reputation with the Sha'tar."
 Inst56Caption = "The Mechanar"
 Inst56QAA = "7 Quests"
 Inst56QAH = "7 Quests"
@@ -7846,7 +7567,6 @@ Inst56Quest7name1_HORDE = Inst56Quest7name1
 
 --------------- INST61 - TK: The Eye ---------------
 
-Inst61Story = "Tempest Keep is a former naaru fortress in the Netherstorm in Outland.\n\nThis crystaline fortress is now ruled by Kael'thas Sunstrider, the lord of the blood elves, and dominated by scores of his brethren.\n\nThe structure is divided into three wings - satellites of the gigantic structure - with the fourth wing, the Exodar, now in the world of Azeroth as the Draenei capital.\n\nThe Mechanar is the first wing of the Tempest Keep instance.\n\nThis is the purple crystal building south of the main palace.\n\nRecommended level is 70. One full run yields about 1500 reputation with the Sha'tar."
 Inst61Caption = "Tempest Keep"
 Inst61QAA = "3 Quests"
 Inst61QAH = "3 Quests"
@@ -7932,11 +7652,6 @@ Inst61Quest3_HORDE_Folgequest = Inst61Quest3_Folgequest
 
 --------------- INST62 - Black Temple (BT) ---------------
 
-Inst62Story = {
-  ["Page1"] = "Long ago on Draenor, the Temple of Karabor was the center of draenei worship. But the devout priests who prayed there are long dead, slaughtered by marauding, demonically corrupted orcs. In the massacre's aftermath the warlocks of the Shadow Council seized the structure and bestowed upon it a new name: the Black Temple.\n\nFor years the Shadow Council bloodied the Black Temple with foul demonic rituals, but after the Second War the dark spellcasters fell to the Alliance's devastating invasion of Draenor. The shaman Ner'zhul hastily opened several dimensional portals in order to stage a retreat, and the resulting magical backlash ripped the world apart. In what had become the fractured realm of Outland, Ner'zhul's portals were a strategic advantage that appealed to the demon general Magtheridon, who quickly seized the Black Temple as his seat of power.",
-  ["Page2"] = "Magtheridon commanded many of the orcs remaining in Outland and bolstered his army with Legion forces streaming in through the portals. The pit lord's might remained unchallenged until Illidan the Betrayer decided to claim the Black Temple for himself. Illidan and Magtheridon fought a desperate battle on the temple walls, but in the end the pit lord proved no match for the wielder of the Twin Blades of Azzinoth. Illidan battered Magtheridon to the point of death, but the thrill of victory was short-lived....",
-  ["MaxPages"] = "2",
-};
 Inst62Caption = "Black Temple"
 Inst62QAA = "3 Quests"
 Inst62QAH = "3 Quests"
@@ -8020,7 +7735,6 @@ Inst62Quest3name1_HORDE = Inst62Quest3name1
 
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
-Inst63Story = "The stronghold of Zul'Aman has stood for millennia as the Amani trolls' seat of power and bastion of the fearless, cunning warlord Zul'jin. \n\nZul'jin has spent several years plotting behind Zul'Aman's walls. Furious at the Horde for allowing his hated enemies, the blood elves, to join its ranks, he eagerly embraced a scheme that the witch doctor Malacrass recently proposed: to seal the power of the animal gods within the bodies of the Amani's strongest warriors. \n\nNow Zul'Aman's army grows more powerful by the day, hungry to exact vengeance in the name of its fearless leader, Zul'jin."
 Inst63Caption = "Zul'Aman"
 Inst63QAA = "5 Quests"
 Inst63QAH = "5 Quests"
@@ -8159,7 +7873,6 @@ Inst63Quest5name3_HORDE = Inst63Quest5name3
 
 --------------- INST67 - Magisters' Terrace (MgT) ---------------
 
-Inst67Story = "Magisters' Terrace is a 5-man instance located on the northeastern corner of the Isle of Quel'Danas, which will be released in Patch 2.4.0. The instance is mostly outdoors, uses the same architecture as Silvermoon and has a observatory where players can gaze at stars and look at the Sunwell to make sure everything went according to plan.\n\nThe final boss is none other than Kael'thas Sunstrider, who has survived his ordeal in Tempest Keep. However, some people believe he was indeed killed, but was resurrected by a greater power, which may explain the green crystal embedded in his chest.\n\nHalfway through the instance, a usable item known as the Scrying Orb begins a short cutscene unveiling the Sunwell Plateau raid. Following this, players meet with Kalec, the half-elf avatar of the Blue Dragon Kalecgos."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst67Caption = "Magisters' Terrace"
 Inst67QAA = "8 Quests"
 Inst67QAH = "8 Quests"
@@ -8362,7 +8075,6 @@ Inst67Quest8_HORDE_Folgequest = Inst67Quest8_Folgequest
 
 --------------- INST68 - Sunwell Plateau ---------------
 
-Inst68Story = "The Sunwell Plateau is a raid instance located on the Isle of Quel'Danas north of Silvermoon City. Blizzard has planned for it to become the hardest raid instance in the game until the release of Wrath of the Lich King. The Sunwell Plateau is tuned for Tier 6-geared players and the gear that drops there will be additional Tier 6 items (boots, belt and bracers), and non-set epics as well. \n\nThe instance will contain both outdoor areas and building interiors, where players will find captured naaru which are the primary power source of the town, and inside the final building the Sunwell itself.\n\nThe architecture of the Sunwell Plateau will be comparable to that of Silvermoon City."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst68Caption = "Sunwell Plateau"
 Inst68QAA = "1 Quest"
 Inst68QAH = "1 Quest"
@@ -8396,7 +8108,6 @@ Inst68Quest1PreQuest_HORDE = "true"
 
 --------------- INST69 - Caverns of Time: The Culling of Stratholme ---------------
 
-Inst69Story = "Prior to his unthinkable merger with the Lich King, Arthas waged war against the Scourge, bent on eradicating the plague of undeath that had spread throughout Lordaeron. After Arthas watched villages succumb to darkness and saw his fallen subjects transformed into hideous undead creatures, fear and hate engulfed his mind. Upon discovering signs of the plague within Stratholme, he knew it was only a matter of time before the residents of the city were reborn as Scourge agents. For Arthas, there was only one course of action: purge the city. Yet within the Caverns of Time, deceptive magic permeates Stratholme. The infinite dragons and their agents have targeted Arthas and his quest to cull the city, seeking to alter history. Fearing the temporal disruption might jeopardize Azeroth's very existence, the bronze dragonflight has called upon mortals to assist Arthas and ensure that the purge is carried out successfully. Regardless of how vile the event might seem, the keepers of time maintain that what was, must always be."
 Inst69Caption = "The Culling of Stratholme"
 Inst69QAA = "2 Quests"
 Inst69QAH = "2 Quests"
@@ -8460,7 +8171,6 @@ Inst69Quest2name4_HORDE = Inst69Quest2name4
 
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
-Inst70Story = "Among the cliffs of the Daggercap Bay in the Howling Fjord stands Utgarde Keep, an impervious fortress occupied by the savage and enigmatic vrykul. With mysterious, foul magic and proto-dragons at their command, the vrykul of Utgarde Keep pose an imminent threat to both the Alliance and the Horde. Only the bravest would dare to strike against Ymiron's faithful and delve into the heart of the vrykul's primeval home."
 Inst70Caption = "Utgarde Keep"
 Inst70QAA = "3 Quests"
 Inst70QAH = "3 Quests"
@@ -8558,7 +8268,6 @@ Inst70Quest3name4_HORDE = "Vambraces of the Vengeance Bringer"
 
 --------------- INST71 - Utgarde Keep: Utgarde Pinnacle ---------------
 
-Inst71Story = "Among the cliffs of the Daggercap Bay in the Howling Fjord stands Utgarde Keep, an impervious fortress occupied by the savage and enigmatic vrykul. With mysterious, foul magic and proto-dragons at their command, the vrykul of Utgarde Keep pose an imminent threat to both the Alliance and the Horde. Only the bravest would dare to strike against Ymiron's faithful and delve into the heart of the vrykul's primeval home."
 Inst71Caption = "Utgarde Pinnacle"
 Inst71QAA = "3 Quests"
 Inst71QAH = "3 Quests"
@@ -8652,7 +8361,6 @@ Inst71Quest3_HORDE_Folgequest = Inst71Quest3_Folgequest
 
 --------------- INST72 - The Nexus: The Nexus ---------------
 
-Inst72Story = "The blue Dragon Aspect, Malygos, has created rifts with his manipulation of raw magical power: tears in the very fabric of the magical dimension. The Kirin Tor, the elite magi of Dalaran, have formed a council with the red dragonflight, who are charged with the preservation of life. To this end, the two groups have begun actively subverting Malygos's devastating campaign. The sides have been chosen; the battle lines have been drawn. The only question that remains now is...Who will win."
 Inst72Caption = "The Nexus"
 Inst72QAA = "5 Quests"
 Inst72QAH = "5 Quests"
@@ -8810,7 +8518,6 @@ Inst72Quest5name3_HORDE = Inst72Quest5name3
 
 --------------- INST73 - The Nexus: The Oculus ---------------
 
-Inst73Story = "The blue Dragon Aspect, Malygos, has created rifts with his manipulation of raw magical power: tears in the very fabric of the magical dimension. The Kirin Tor, the elite magi of Dalaran, have formed a council with the red dragonflight, who are charged with the preservation of life. To this end, the two groups have begun actively subverting Malygos's devastating campaign. The sides have been chosen; the battle lines have been drawn. The only question that remains now is...Who will win."
 Inst73Caption = "The Oculus"
 Inst73QAA = "4 Quests"
 Inst73QAH = "4 Quests"
@@ -8930,7 +8637,6 @@ Inst73Quest4name4_HORDE = Inst73Quest4name4
 
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
-Inst74Story = "From within the safety of his personal domain, the Eye of Eternity, Malygos coordinates a crusade to reestablish his dominance over the arcane energies coursing through Azeroth. In his eyes, the foolish actions of the Kirin Tor and other mortal magi have plunged the world into chaos, and the abuse of their powers will no longer be tolerated. Threatened by the Spell-Weaver's brutal tactics, the Kirin Tor has allied itself with the red dragonflight. Together, the two groups closely observe Malygos, searching for a way to thwart his campaign and strike out at the Aspect of Magic, but thus far the elusive Spell-Weaver has proven difficult to engage.\n\nAt Wyrmrest Temple, the ancient meeting ground of the dragonflights, Alexstrasza and the ambassadors of other flights have discussed Malygos' recklessness and reluctantly concluded that he is beyond the point of salvation. With the red dragons' assistance, Azeroth's heroes may be able to accomplish what has formerly been unthinkable: challenging the Spell-Weaver from inside the Eye of Eternity. Sustaining the safety of Azeroth depends on Malygos' defeat, but his end will also herald a new age: a world of unguarded magic, absent of the Dragon Aspect powerful enough to watch over it."
 Inst74Caption = "The Eye of Eternity"
 Inst74QAA = "3 Quests"
 Inst74QAH = "3 Quests"
@@ -9028,7 +8734,6 @@ Inst74Quest3_HORDE_Folgequest = Inst74Quest3_Folgequest
 
 --------------- INST75 - Azjol-Nerub ---------------
 
-Inst75Story = "Azjol-Nerub is a vast underground dungeon hub home to the arachnid-like nerubian. Located in icy Dragonblight, Azjol-Nerub can be divided into two sections: the Old Kingdom and the Upper Kingdom. Many of deepest areas in Azjol-Nerub are held by faceless ones.\n\nAzjol-Nerub: The Upper Kingdom is a mystery waiting to be explored. It once held a powerful and advanced civilization, and many of its treasures still rest here undamaged. Great riches litter the lower halls, not only gems and magic items but art and literature and scholarly tomes. The Scourge infest this place. Forgotten ones seethe below, eager to return to the world above."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst75Caption = "Azjol-Nerub"
 Inst75QAA = "3 Quests"
 Inst75QAH = "3 Quests"
@@ -9120,7 +8825,6 @@ Inst75Quest3name4_HORDE = Inst75Quest3name4
 
 --------------- INST76 - Ahn'kahet: The Old Kingdom ---------------
 
-Inst76Story = "Azjol-Nerub is a vast underground dungeon hub home to the arachnid-like nerubian. Located in icy Dragonblight, Azjol-Nerub can be divided into two sections: the Old Kingdom and the Upper Kingdom. Many of deepest areas in Azjol-Nerub are held by faceless ones.\n\nAhn'kahet: The Old Kingdom is the second dungeon located within Azjol-Nerub and is controlled by nerubians."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst76Caption = "Ahn'kahet: The Old Kingdom"
 Inst76QAA = "3 Quests"
 Inst76QAH = "3 Quests"
@@ -9208,7 +8912,6 @@ Inst76Quest3name4_HORDE = Inst76Quest3name4
 
 --------------- INST77 - Ulduar: Halls of Stone ---------------
 
-Inst77Story = "In the frigid cliffs of the Storm Peaks, legendary explorer Brann Bronzebeard spent countless hours piecing together clues about a recently discovered titan city known as Ulduar. But far from unearthing the mysteries of the titans, the explorer found the city overrun with iron dwarves. Eager to save the priceless information within the titan city before it was destroyed and lost forever, Brann feared that an even greater evil could be at work behind the fall of Ulduar...."
 Inst77Caption = "Halls of Stone"
 Inst77QAA = "3 Quests"
 Inst77QAH = "3 Quests"
@@ -9292,7 +8995,6 @@ Inst77Quest3name4_HORDE = Inst77Quest3name4
 
 --------------- INST78 - Ulduar: Halls of Lightning ---------------
 
-Inst78Story = "In the frigid cliffs of the Storm Peaks, legendary explorer Brann Bronzebeard spent countless hours piecing together clues about a recently discovered titan city known as Ulduar. But far from unearthing the mysteries of the titans, the explorer found the city overrun with iron dwarves. Eager to save the priceless information within the titan city before it was destroyed and lost forever, Brann feared that an even greater evil could be at work behind the fall of Ulduar...."
 Inst78Caption = "Halls of Lightning"
 Inst78QAA = "4 Quests"
 Inst78QAH = "4 Quests"
@@ -9408,7 +9110,6 @@ Inst78Quest4name5_HORDE = Inst78Quest4name5
 
 --------------- INST79 - The Obsidian Sanctum ---------------
 
-Inst79Story = "No information."
 Inst79Caption = "The Obsidian Sanctum"
 Inst79QAA = "1 Quest"
 Inst79QAH = "1 Quest"
@@ -9442,7 +9143,6 @@ Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
 
 --------------- INST80 - Drak'Tharon Keep ---------------
 
-Inst80Story = "Drak'Tharon Keep is located in the icy northlands of Northrend, in the northwestern part of the Grizzly Hills, and is an ancient ice troll stronghold. The Scourge drove the trolls out and took possession, and now the Scourge has a solid garrison there holding the mountain passes. The strange dungeon is filled with dinosaurs and lizards, while teeming with undead. You are sent in to discover the reasoning behind why the trolls are leaving their home of Zul'Drak."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst80Caption = "Drak'Tharon Keep"
 Inst80QAA = "4 Quests"
 Inst80QAH = "4 Quests"
@@ -9566,7 +9266,6 @@ Inst80Quest4name4_HORDE = Inst80Quest4name4
 
 --------------- INST81 - Gundrak ---------------
 
-Inst81Story = "Gundrak is the capital of the Ice Trolls. Located in Zul'Drak, the instance contains three entrances which all lead into a main circle. The Drakkari tribe rule Zul'Drak from here, constantly battling the mighty forces of the Scourge. This dungeon shows the Ice Trolls in all their glory, including the opportunity to fight the Ice Troll leader, and teach us why they have been so successful against the Scourge."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst81Caption = "Gundrak"
 Inst81QAA = "5 Quests"
 Inst81QAH = "5 Quests"
@@ -9712,7 +9411,6 @@ Inst81Quest5name5_HORDE = Inst81Quest5name5
 
 --------------- INST82 - The Violet Hold ---------------
 
-Inst82Story = "Among the ornate spires and enchanted streets of Dalaran, a dark presence stirs within the mighty walls of the Violet Hold. Long used to restrain threats to the city, the tower holds row upon row of deadly inmates, and it has been diligently watched over by the Kirin Tor. However, a sudden assault has tested the integrity of the hold, putting at risk the safety of everyone outside the prison's walls. Using the dungeon as a means to breach the city, Malygos and his blue dragonflight have begun to chip away at the Violet Hold's defenses, hungry to reclaim arcane dominance over Azeroth. Only the brave souls of those protecting the prison stand between the continued existence of Dalaran and the city's utter annihilation."
 Inst82Caption = "The Violet Hold"
 Inst82QAA = "2 Quests"
 Inst82QAH = "2 Quests"
@@ -9776,11 +9474,6 @@ Inst82Quest2name4_HORDE = Inst82Quest2name4
 
 --------------- INST84 - Naxxramas (Naxx) ---------------
 
-Inst84Story = {
-  ["Page1"] = "Years ago, the crypt lord Anub'arak led an army of undead warriors into the ancient nerubian ziggurat now known as Naxxramas. The Scourge forces overran the citadel, and under the will of the Lich King its corridors were transformed into a potent war machine. Dark magic tore the fortress from its subterranean home and lifted it into the sky. Hidden behind a thick layer of clouds, Naxxramas grew in strength. At the Lich King's bidding, the burgeoning wrath within the necropolis was unleashed upon the world. Brave heroes breached the citadel and eventually overcame Naxxramas' vile commander, the lich Kel'Thuzad, but the victory was short-lived.",
-  ["Page2"] = "Above the war-ravaged wastes of the Dragonblight, Naxxramas has returned with renewed fury. Kel'Thuzad, once again seated in the frigid heart of the necropolis, has laid siege to the Alliance fortress of Wintergarde Keep. As factions from around the world converge at the gate to Icecrown, the war against the Scourge enters its most pivotal hour. It is within Naxxramas that the tide of battle could turn against the Lich King... or irrevocably in his favor.",
-  ["MaxPages"] = "2",
-};
 Inst84Caption = "Naxxramas"
 Inst84QAA = "6 Quests"
 Inst84QAH = "6 Quests"
@@ -9934,7 +9627,6 @@ Inst84Quest6_HORDE_Folgequest = Inst84Quest6_Folgequest
 
 --------------- INST85 - Vault of Archavon ---------------
 
-Inst85Story = "Overlooking the frozen plains of the Great Dragonblight and the inhospitable wastes of Borean Tundra lies a region known to the denizens of Northrend as Wintergrasp. Seated atop a high plateau, Wintergrasp has remained undisturbed for ages, its icy winds howling unheard amongst the ancient titan fortifications that dot the landscape. However, an abundance of elemental materials and its strategically important titan fortifications are making Wintergrasp the focus of a vicious tug-of-war between the Horde and the Alliance. And then there are the persistent rumors of an ancient titan vault beneath Wintergrasp's keep. One can only marvel at the thought of what treasures may be waiting there...."
 Inst85Caption = "Vault of Archavon"
 Inst85QAA = "No Quests"
 Inst85QAH = "No Quests"
@@ -9943,7 +9635,6 @@ Inst85QAH = "No Quests"
 
 --------------- INST86 - Ulduar ---------------
 
-Inst86Story = "For millennia, Ulduar has remained undisturbed by mortals, far away from their concerns and their struggles. Yet since its recent discovery, many have wondered what the structure's original purpose may have been. Some thought it a city, built to herald the glory of its makers; some thought it a vault containing innumerable treasures, perhaps even relics of the mighty Titans themselves. Such speculations were wrong. Beyond Ulduar's gates lies no city, no treasure vault, no final answer to the Titan's mysteries. All that awaits those who dare set foot in Ulduar is a horror even the Titans could not, would not destroy, an evil they merely... contained. Beneath ancient Ulduar, the Old God of death lies, whispering.... Tread carefully, or its prison will become your tomb."
 Inst86Caption = "Ulduar"
 Inst86QAA = "20 Quests"
 Inst86QAH = "20 Quests"
@@ -10448,7 +10139,6 @@ Inst86Quest20_HORDE_Folgequest = Inst86Quest20_Folgequest
 
 --------------- INST87 - Trial of the Champion ---------------
 
-Inst87Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum."
 Inst87Caption = "Trial of the Champion"
 Inst87QAA = "1 Quest"
 Inst87QAH = "1 Quest"
@@ -10480,7 +10170,6 @@ Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest
 
 --------------- INST88 - Trial of the Crusader ---------------
 
-Inst88Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum."
 Inst88Caption = "Trial of the Crusader"
 Inst88QAA = "1 Quest"
 Inst88QAH = "1 Quest"
@@ -10514,7 +10203,6 @@ Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
 
 --------------- INST90 - Forge of Souls (FoS)  ---------------
 
-Inst90Story = "Serving as the first wing in this expansive dungeon, the Forge of Souls will quickly put players to the test of carving through the Scourge stronghold into deeper, more treacherous locations. Jaina will command Alliance forces, and Sylvanas will direct Horde forces. The goal is to ruin the twisted engines known as soul grinders found in this portion of the citadel, and then players can advance -- that is, if the Horde and Alliance forces can overcome the foes who confront them."
 Inst90Caption = "Forge of Souls"
 Inst90QAA = "3 Quests"
 Inst90QAH = "3 Quests"
@@ -10596,7 +10284,6 @@ Inst90Quest3PreQuest_HORDE = "true"
 
 --------------- INST91 - Pit of Saron (PoS)  ---------------
 
-Inst91Story = "Accessible only to those who have laid waste to the Forge of Souls' unholy operations, the Pit of Saron will bring Horde and Alliance forces deeper into the Lich King's domain. Players who venture here will immediately be confronted by the lord of this lair, Scourgelord Tyrannus. But defeating him will not be as easy as it seems. Before they can present a threat to Tyrannus, the adventurers, instructed by their leaders, will need to free enslaved allies who have been trapped by the Scourge. Until that happens, Tyrannus will leave all adversaries to his minions, workers of the citadel's mines. Perhaps the challenges here will lend clues as to the whereabouts of the Lich King's private chambers outside of the Frozen Throne, deep within the Halls of Reflection."
 Inst91Caption = "Pit of Saron"
 Inst91QAA = "4 Quests"
 Inst91QAH = "4 Quests"
@@ -10704,7 +10391,6 @@ Inst91Quest4PreQuest_HORDE = "true"
 
 --------------- INST92 - Halls of Reflection (HoR)  ---------------
 
-Inst92Story = "With Jaina and Sylvanas leading the way, adventurers who make it as far as these frigid halls will quickly recognize the weapon that lies ahead: Frostmourne, the corruptive, legendary device of the Lich King himself. The Lich King's private chambers are within reach, although they may be the death of anyone who ventures there."
 Inst92Caption = "Halls of Reflection"
 Inst92QAA = "3 Quests"
 Inst92QAH = "3 Quests"
@@ -10788,7 +10474,6 @@ Inst92Quest3PreQuest_HORDE = "true"
 
 --------------- INST93 - Icecrown Citadel (ICC)  ---------------
 
-Inst93Story = "After breaching the fortress, players will face a legion of undead guards directed to repel any invaders. Commanding the defenders is Lord Marrowgar, a monstrosity fused together from the bones of the undead. Supreme Overseer of the Cult of the Damned, Lady Deathwhisper is the next opponent. She bolsters the faith of her followers by promising them the opportunity to give eternal service in undeath.\n\nAs they continue their ascent, the Alliance and Horde heroes ultimately end up outside of the citadel where their hatred for one another erupts into a battle for dominance over the Rampart of Skulls. Players will join in battle alongside High Overlord Saurfang on the Orgrim's Hammer gunship or Muradin Bronzebeard on The Skybreaker in a unique encounter. Each faction will protect its gunship and try to destroy the other one in a back-and-forth battle to see who is truly worthy of facing the Lich King."
 Inst93Caption = "Icecrown Citadel"
 Inst93QAA = "10 Quests"
 Inst93QAH = "10 Quests"
@@ -11040,7 +10725,6 @@ Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
 
 --------------- INST94 - Ruby Sanctum (RS)  ---------------
 
-Inst94Story = "A powerful war party of the Black Dragonflight, led by the fearsome Twilight dragon, Halion, have launched an assault upon the Ruby Sanctum beneath Wyrmrest Temple. By destroying the sanctum, the Black Dragonflight look to crush those that would stand in the way of their master's reemergence into Azeroth and to ultimately shatter the Wyrmrest Accord - the sacred bond that unites the dragonflights.\n\nThe battle that is to come will surely deal a crippling blow to the Red Dragonflight, however, it is up to you to stop this unprecedented offensive and defend the Ruby Sanctum. First you must face the assault of Halion's servants, Saviana Ragefire, Baltharus the Warborn, and General Zarithrian, before squaring off against Halion the Twilight Destroyer, a new and deadly force in this realm."
 Inst94Caption = "Ruby Sanctum"
 Inst94QAA = "3 Quests"
 Inst94QAH = "3 Quests"
@@ -11122,7 +10806,6 @@ Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 
 --------------- INST95 - Blackrock Caverns ---------------
 
-Inst95Story = "Blackrock Caverns is the first of two new wings in Blackrock Spire introduced in World of Warcraft: Cataclysm. It is designed as a 5-man instance for players level 80 to 81. It is a series of tunnels created by Twilight's Hammer clan in order to gather the remaining Ragnaros' minions and transport them back and forth to Mount Hyjal, as well as to perform horrific experiments conducted by the nihilistic cult in order to use the essence of the dragon in order to transform the worthy into dragonspawn. Finkle Einhorn and Raz the Crazed were enlisted by the Guardians of Hyjal to investigate the activity within the caverns. The forces here are led by the Ascendant Lord Obsidius."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst95Caption = "Blackrock Caverns"
 Inst95QAA = "6 Quests"
 Inst95QAH = "6 Quests"
@@ -11280,7 +10963,6 @@ Inst95Quest6name3_HORDE = Inst95Quest6name3
 
 --------------- INST96 - Throne of the Tides ---------------
 
-Inst96Story = "Throne of the Tides is a five-player dungeon in the Abyssal Maw complex located in Vashj'ir, introduced in World of Warcraft: Cataclysm."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst96Caption = "Throne of the Tides"
 Inst96QAA = "2 Quests"
 Inst96QAH = "2 Quests"
@@ -11346,12 +11028,6 @@ Inst96Quest2name3_HORDE = Inst96Quest2name3
 
 --------------- INST97 - The Stonecore ---------------
 
-
-Inst97Story = {
-  ["Page1"] = "Within the Temple of Earth, locked in the heart of Deepholm, lies the Stonecore. It was inside this mysterious domain that the Twilight's Hammer toiled over Deathwing, hammering elementium plates to the Dragon Aspect's skin to hold his tormented body together. It was also here that Deathwing began his ascent into Azeroth, shattering the fabled World Pillar and destabilizing the entire region of Deepholm. \n\nAlthough the corrupted Dragon Aspect is now gone, his fanatical Twilight's Hammer followers are still entrenched within the deepest recesses of the Stonecore. For these zealous worshippers, the point of Deathwing's ascent is sacred ground, and they would gladly give their lives to preserve its sanctity.",
-  ["Page2"] = "Shaman of the Earthen Ring have recently arrived in Deepholm to mend the broken World Pillar, but their efforts have come under attack by a host of malevolent forces, not the least of which is the Twilight's Hammer. As Horde and Alliance heroes struggle to aid the shaman, the Stonecore has become a demoralizing symbol of the grim hold that Deathwing's followers still have on Deepholm."..GREEN.."\n\nQuoted from worldofwarcraft.com",
-  ["MaxPages"] = "2",
-};
 Inst97Caption = "The Stonecore"
 Inst97QAA = "4 Quests"
 Inst97QAH = "4 Quests"
@@ -11463,7 +11139,6 @@ Inst97Quest4name3_HORDE = Inst97Quest4name3
 
 --------------- INST98 - The Vortex Pinnacle ---------------
 
-Inst98Story = "Here the armies of Al'Akir reside, and will not take kindly to any intruders in his elemental plane. The air elementals have entered an unholy alliance with the Worldbreaker, Deathwing and now threaten the denizens of Uldum. It is up to the adventurers to stop the elemental incursion to the ancient land, and the task is uneasy as they have to face the most powerful lieutenants of the Air Lord."..GREEN.."\n\nQuoted from wowpedia.org"..BLUE.."\n\n\nLocation: "..WHITE.."Uldum - The Vortex Portal ("..YELLOW.."76.8, 84.3"..WHITE..")\nFly Southeast from The Lost City of the Tol'vir up into the sky. You'll see a few floating spires in the clouds. The Portal and summoning stone are at the highest one."
 Inst98Caption = "The Vortex Pinnacle"
 Inst98QAA = "3 Quests"
 Inst98QAH = "3 Quests"
@@ -11555,7 +11230,6 @@ Inst98Quest3name3_HORDE = Inst98Quest3name3
 
 --------------- INST99 - Grim Batol ---------------
 
-Inst99Story = "During a bloody civil war among the three dwarven factions of Ironforge, the Bronzebeards ousted the Wildhammer and the Dark Iron clans from the ancient corridors of the mountain city. In the wake of the defeat, the Wildhammers ventured north and forged a new home, Grim Batol, in the mountains of what is now the Twilight Highlands. However, although they worked tirelessly to create a better future for themselves, the Dark Irons, who established the city of Thaurissan in the Redridge Mountains, could not move beyond the memory of their defeat. Consumed by the desire for revenge and desperate to control the entire dwarven region of Khaz Modan, the Dark Irons led a two-pronged assault on the Bronzebeards in Ironforge and the Wildhammers in Grim Batol. Despite their past differences, these two embattled rivals joined forces and drove the Dark Irons out of Khaz Modan, decimating the armies of the treacherous clan's sorcerer-thane, Thaurissan. Yet victory carried grave consequences. Although Thaurissan's wife and queen, Modgud, was slain during the attack on Grim Batol, her death tainted the mountain fortress. While the Bronzebeards rebuilt their glorious city of Ironforge, the Wildhammers felt forever changed by the horrors they witnessed at Grim Batol. They fled their cursed home and never returned."..GREEN.."\n\nQuoted from worldofwarcraft.com"
 Inst99Caption = "Grim Batol"
 Inst99QAA = "3 Quests"
 Inst99QAH = "3 Quests"
@@ -11645,7 +11319,6 @@ Inst99Quest3name3_HORDE = Inst99Quest3name3
 
 --------------- INST100 - Halls of Origination ---------------
 
-Inst100Story = "The Halls of Origination in Uldum is a level-85 five-player dungeon available in World of Warcraft: Cataclysm, featuring an unparalleled journey through the timeless titan construction and seven unique boss fights. Hidden deep within its halls lies an ancient treasure that, if placed in the wrong hands, could endanger all life on Azeroth. Should players survive the perils of Uldum, they will be called to help Brann Bronzebeard unlock the mysteries within these treacherous titan halls and protect the titans' ancient secrets."..GREEN.."\n\nQuoted from wowpedia.org"..BLUE.."\n\n\nLocation: "..WHITE.."Uldum - The Vortex Portal ("..YELLOW.."76.8, 84.3"..WHITE..")\nFly Southeast from The Lost City of the Tol'vir up into the sky. You'll see a few floating spires in the clouds. The Portal and summoning stone are at the highest one."
 Inst100Caption = "Halls of Origination"
 Inst100QAA = "3 Quests"
 Inst100QAH = "3 Quests"
@@ -11739,7 +11412,6 @@ Inst100Quest3name3_HORDE = Inst100Quest3name3
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
-Inst101Story = "Lost City of the Tol'vir is one of the three dungeons in Uldum introduced in World of Warcraft: Cataclysm. It is designed for level 85 players and features the Tol'vir race. Having allied themselves with Al'Akir and Deathwing in exchange for retaining their stone bodies lost in effect of the Curse of Flesh, they now pose a serious threat to the races of Uldum as well as the whole world of Azeroth that must be eliminated at all costs. The forces of Neferset here are led by the mighty djinni - Siamat, Lord of the South Wind."..GREEN.."\n\nQuoted from wowpedia.org"..BLUE.."\n\n\nLocation: "..WHITE.."Uldum - Lost City of the Tol'vir ("..YELLOW.."60.5, 64.0"..WHITE..")\nFollow the Vir'naal River south until you reach the Vir'naal River Delta and you'll find The Lost City of the Tol'vir. The portal and summoning stone are at the northern most area near a small waterfall."
 Inst101Caption = "Lost City of the Tol'vir"
 Inst101QAA = "3 Quests"
 Inst101QAH = "3 Quests"
@@ -11833,7 +11505,6 @@ Inst101Quest3name3_HORDE = Inst101Quest3name3
 
 --------------- INST102 - Blackwing Descent ---------------
 
-Inst102Story = "Blackwing Descent is an entry-level level 85 raid instance. Having retreated further into Blackrock Mountain following his defeat in Blackwing Lair, Nefarian has been bolstering his forces here and must be stopped once more. The entrance to the instance is near Nefarian's throne in the uninstanced portion of Blackwing Lair and is accessible by flying mount only."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst102Caption = "Blackwing Descent"
 Inst102QAA = "No Quests"
 Inst102QAH = "No Quests"
@@ -11842,7 +11513,6 @@ Inst102QAH = "No Quests"
 
 --------------- INST103 - The Bastion of Twilight ---------------
 
-Inst103Story = "Bastion of Twilight is a new entry-level raid instance that came with World of Warcraft: Cataclysm. It features five bosses plus one optional heroic boss."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst103Caption = "The Bastion of Twilight"
 Inst103QAA = "No Quests"
 Inst103QAH = "No Quests"
@@ -11851,7 +11521,6 @@ Inst103QAH = "No Quests"
 
 --------------- INST104 - Throne of the Four Winds ---------------
 
-Inst104Story = "Throne of the Four Winds is a raid in the Skywall complex, introduced in World of Warcraft: Cataclysm. It can be found off the southwest coast of Uldum at high in the air. Along with Bastion of Twilight and Blackwing Descent, Throne of the Four Winds serves as an entry-level raiding instance, much as the level 80 version of Naxxramas was for Wrath of the Lich King and Karazhan was for the Burning Crusade."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst104Caption = "Throne of the Four Winds"
 Inst104QAA = "No Quests"
 Inst104QAH = "No Quests"
@@ -11860,7 +11529,6 @@ Inst104QAH = "No Quests"
 
 --------------- INST105 - Baradin Hold ---------------
 
-Inst105Story = "Baradin Hold is the main fortress of Tol Barad, located at the island's center. Whoever controls the Hold - by taking and holding the three major fortifications around it - controls Tol Barad."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst105Caption = "Baradin Hold"
 Inst105QAA = "No Quests"
 Inst105QAH = "No Quests"
@@ -11869,11 +11537,6 @@ Inst105QAH = "No Quests"
 
 --------------- INST108 - Zul'Gurub (ZG) ---------------
 
-Inst108Story = {
-  ["Page1"] = "Over a thousand years ago the powerful Gurubashi Empire was torn apart by a massive civil war. An influential group of troll priests, known as the Atal'ai, called forth the avatar of an ancient and terrible blood god named Hakkar the Soulflayer. Though the priests were defeated and ultimately exiled, the great troll empire collapsed upon itself. The exiled priests fled far to the north, into the Swamp of Sorrows, where they erected a great temple to Hakkar in order to prepare for his arrival into the physical world.",
-  ["Page2"] = "In time, the Atal'ai priests discovered that Hakkar's physical form could only be summoned within the ancient capital of the Gurubashi Empire, Zul'Gurub. Unfortunately, the priests have met with recent success in their quest to call forth Hakkar - reports confirm the presence of the dreaded Soulflayer in the heart of the Gurubashi ruins.\n\nIn order to quell the blood god, the trolls of the land banded together and sent a contingent of High Priests into the ancient city. Each priest was a powerful champion of the Primal Gods - Bat, Panther, Tiger, Spider, and Snake - but despite their best efforts, they fell under the sway of Hakkar. Now the champions and their Primal God aspects feed the awesome power of the Soulflayer. Any adventurers brave enough to venture into the foreboding ruins must overcome the High Priests if they are to have any hope of confronting the mighty blood god.",
-  ["MaxPages"] = "2",
-};
 Inst108Caption = "Zul'Gurub"
 Inst108QAA = "No Quests"
 Inst108QAH = "No Quests"
@@ -12017,7 +11680,6 @@ Inst108Quest6_HORDE_Folgequest = Inst108Quest6_Folgequest
 
 --------------- INST109 - Firelands ---------------
 
-Inst109Story = "Deep beneath the earth and seas of the Elemental Plane lurks the Firelands, a place of heat and ash. Although it is a harsh land, visitors can survive, for in one of those cruel paradoxes that define the universe, fire needs air to live and fuel to feed upon. Within the Firelands, these things exist in a constant cyclical state, with the very ash itself gradually transforming into fuel for future burnings. \n\nIn the center of a vast lake of fire stands Sulfuron Keep, the home of Ragnaros the Firelord. Until comparatively recently, he ruled his underground land with an iron fist. Three hundred years ago, he was summoned to fight in the dwarven civil war known as the War of the Three Hammers. This reckless act sundered the Redridge Mountains and created Blackrock Spire. Now, in a greatly weakened state, he lies at the bottom of that volcano on Azeroth, striving to find a way home. Meanwhile, in Sulfuron Keep and elsewhere across the Firelands, his elemental princes battle constantly for dominance."..GREEN.."\n\nQuoted from wowpedia.org"
 Inst109Caption = "Firelands"
 Inst109QAA = "5 Quests"
 Inst109QAH = "5 Quests"
@@ -12145,7 +11807,6 @@ Inst109Quest5FQuest_HORDE = Inst109Quest5FQuest
 
 --------------- INST110 - End Time ---------------
 
-Inst110Story = "One of an infinite number of potential outcomes, this timeway depicts the desolate future of Azeroth should its defenders fail to stop Deathwing. In this bleak future, Nozdormu has identified an anomaly that bars access to both the past and the Dragon Soul: a powerful creature from out of time, living alone amid time-twisted echoes of the past.\n\nIn order for Nozdormu to provide you the ability to travel back in time to a point before the Dragon Soul was hidden by Malfurion Stormrage from anyone who'd seek its power, you must first go to a distant and desolate future to discover the anomaly blocking the past. You'll find yourself in a very different Dragonblight, stripped of its snowy landscape, with little more than ruins of the once-great dragonshrines. Wyrmrest Temple itself stands only as a reminder of Deathwing's madness - what's left of his scorched remains is impaled atop the structure. "..GREEN.."\n\nQuoted from worldofwarcraft.com"
 Inst110Caption = "End Time"
 Inst110QAA = "3 Quests"
 Inst110QAH = "3 Quests"
@@ -12237,7 +11898,6 @@ Inst110Quest3name3_HORDE = Inst110Quest3name3
 
 --------------- INST111 - Well of Eternity ---------------
 
-Inst111Story = "Ten thousand years in the past, the night elven capital city of Zin-Azshari was a magnificent, sparkling metropolis. Situated on the shores of the Well of Eternity, Zin-Azshari was where the aristocratic Highborne first opened a portal into the Twisting Nether and invited the Burning Legion to invade Azeroth. Under the command of the night elven queen, Azshara, the Highborne now pour their energies into the portal, preparing it for the terrifying and glorious entrance of the titan Sargeras.\n\nWith a gateway to the past now open, Nozdormu will transport players to Azshara's palace, where you'll witness one of the most catastrophic events in the War of the Ancients, dating back 10,000 years. While assisting the much younger Tyrande and Illidan in a battle against the Highborne and Burning Legion, players will need to steal the Dragon Soul hovering above the Well. With so many of Azshara's most empowered wizards locked in ritual and pouring their magical energies into the turbulent depths of the Well, retrieving the Dragon Soul will require victory over some lethal foes."..GREEN.."\n\nQuoted from worldofwarcraft.com"
 Inst111Caption = "Well of Eternity"
 Inst111QAA = "5 Quests"
 Inst111QAH = "5 Quests"
@@ -12381,7 +12041,6 @@ Inst111Quest5name4_HORDE = Inst111Quest5name4
 
 --------------- INST112 - Hour of Twilight ---------------
 
-Inst112Story = "Having shattered the infinite dragonflight and recovered the fabled Dragon Soul, Thrall and his allies must now journey to Wyrmrest Temple and rendezvous with the green, blue, red, and bronze dragonflights. Reaching their destination will be an arduous endeavor: the Twilight's Hammer has amassed its forces near the temple, determined to intercept the Dragon Soul at any cost. "..GREEN.."\n\nQuoted from wowpedia.org"
 Inst112Caption = "Hour of Twilight"
 Inst112QAA = "3 Quests"
 Inst112QAH = "3 Quests"
@@ -12471,7 +12130,6 @@ Inst112Quest3name3_HORDE = Inst112Quest3name3
 
 --------------- INST113 - Dragon Soul ---------------
 
-Inst113Story = "Forged by Deathwing during the War of the Ancients, the Dragon Soul harnessed the power of the other dragonflights, until it was ultimately destroyed. After recovering a version of the artifact from the Caverns of Time, Thrall and the allied dragonflights now rally at Wyrmrest Temple in a desperate bid to use its might to defeat Deathwing. "..GREEN.."\n\nQuoted from wowpedia.org"
 Inst113Caption = "Dragon Soul"
 Inst113QAA = "4 Quests"
 Inst113QAH = "4 Quests"
@@ -12579,16 +12237,60 @@ Inst113Quest4name2_HORDE = Inst113Quest4name2
 
 --------------- INST114 - Mogu'Shan Palace ---------------
 
-Inst114Story = ""
 Inst114Caption = "Mogu'Shan Palace"
-Inst114QAA = "No Quests"
-Inst114QAH = "No Quests"
+Inst114QAA = "2 Quests"
+Inst114QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst114Quest1 = "1. Relics of the Four Kings"
+Inst114Quest1_Level = "89"
+Inst114Quest1_Attain = "87"
+Inst114Quest1_Aim = "Collect the Lantern of the Sorcerer King, Mad King Meng's Balance, Qiang's 'The Science of War', and Subetai's Bow of the Swift."
+Inst114Quest1_Location = "?? (Mogu'Shan Palace; "..BLUE.."Entrance ??"..WHITE..")"
+Inst114Quest1_Note = "- Lantern of the Sorcerer King is at "..YELLOW.."[??]"..WHITE..".\n- Mad King Meng's Balance is at "..YELLOW.."[??]"..WHITE..".\n- Qiang's 'The Science of War' is at "..YELLOW.."[??]"..WHITE..".\n- Subetai's Bow of the Swift is at is at "..YELLOW.."[??]"..WHITE.."."
+Inst114Quest1_Prequest = "None"
+Inst114Quest1_Folgequest = "None"
+-- Reward varies for each class
+
+--Quest 2 Alliance
+Inst114Quest2 = "2. A New Lesson for the Master"
+Inst114Quest2_Level = "89"
+Inst114Quest2_Attain = "87"
+Inst114Quest2_Aim = "Kill Xin the Weaponmaster."
+Inst114Quest2_Location = "?? (Mogu'Shan Palace; "..BLUE.."Entrance ??"..WHITE..")"
+Inst114Quest2_Note = "Xin the Weaponmaster is at "..YELLOW.."[3]"..WHITE.."."
+Inst114Quest2_Prequest = "None"
+Inst114Quest2_Folgequest = "None"
+-- Reward varies for each class
+
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst114Quest1_HORDE = Inst114Quest1
+Inst114Quest1_HORDE_Level = Inst114Quest1_Level
+Inst114Quest1_HORDE_Attain = Inst114Quest1_Attain
+Inst114Quest1_HORDE_Aim = Inst114Quest1_Aim
+Inst114Quest1_HORDE_Location = Inst114Quest1_Location
+Inst114Quest1_HORDE_Note = Inst114Quest1_Note
+Inst114Quest1_HORDE_Prequest = Inst114Quest1_Prequest
+Inst114Quest1_HORDE_Folgequest = Inst114Quest1_Folgequest
+-- Reward varies for each class
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst114Quest2_HORDE = Inst114Quest2
+Inst114Quest2_HORDE_Level = Inst114Quest2_Level
+Inst114Quest2_HORDE_Attain = Inst114Quest2_Attain
+Inst114Quest2_HORDE_Aim = Inst114Quest2_Aim
+Inst114Quest2_HORDE_Location = Inst114Quest2_Location
+Inst114Quest2_HORDE_Note = Inst114Quest2_Note
+Inst114Quest2_HORDE_Prequest = Inst114Quest2_Prequest
+Inst114Quest2_HORDE_Folgequest = Inst114Quest2_Folgequest
+-- Reward varies for each class
 
 
 
 --------------- INST115 - Shado-pan Monastery ---------------
 
-Inst115Story = ""
 Inst115Caption = "Shado-pan Monastery"
 Inst115QAA = "No Quests"
 Inst115QAH = "No Quests"
@@ -12597,7 +12299,6 @@ Inst115QAH = "No Quests"
 
 --------------- INST116 - Stormstout Brewery ---------------
 
-Inst116Story = ""
 Inst116Caption = "Stormstout Brewery"
 Inst116QAA = "No Quests"
 Inst116QAH = "No Quests"
@@ -12606,7 +12307,6 @@ Inst116QAH = "No Quests"
 
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
-Inst117Story = ""
 Inst117Caption = "Temple of the Jade Serpent"
 Inst117QAA = "No Quests"
 Inst117QAH = "No Quests"
@@ -12615,55 +12315,41 @@ Inst117QAH = "No Quests"
 
 --------------- INST118 - The Gate of the Setting Sun ---------------
 
-Inst118Story = ""
 Inst118Caption = "The Gate of the Setting Sun"
 Inst118QAA = "No Quests"
 Inst118QAH = "No Quests"
 
 
 
---------------- INST119 - Palace of the Heavens ---------------
+--------------- INST119 - Siege of Niuzao Temple ---------------
 
-Inst119Story = ""
-Inst119Caption = "Palace of the Heavens"
+Inst119Caption = "Siege of Niuzao Temple"
 Inst119QAA = "No Quests"
 Inst119QAH = "No Quests"
 
 
 
---------------- INST120 - Siege of Niuzao Temple ---------------
+--------------- INST120 - Mogu'shan Vaults ---------------
 
-Inst120Story = ""
-Inst120Caption = "Siege of Niuzao Temple"
+Inst120Caption = "Mogu'shan Vaults"
 Inst120QAA = "No Quests"
 Inst120QAH = "No Quests"
 
 
 
---------------- INST121 - Mogu'shan Vaults ---------------
+--------------- INST121 - Terrace of Endless Spring ---------------
 
-Inst121Story = ""
-Inst121Caption = "Mogu'shan Vaults"
+Inst121Caption = "Terrace of Endless Spring"
 Inst121QAA = "No Quests"
 Inst121QAH = "No Quests"
 
 
 
---------------- INST122 - Terrace of Endless Spring ---------------
+--------------- INST122 - Heart of Fear ---------------
 
-Inst122Story = ""
-Inst122Caption = "Terrace of Endless Spring"
+Inst122Caption = "Heart of Fear"
 Inst122QAA = "No Quests"
 Inst122QAH = "No Quests"
-
-
-
---------------- INST123 - Heart of Fear ---------------
-
-Inst123Story = ""
-Inst123Caption = "Heart of Fear"
-Inst123QAA = "No Quests"
-Inst123QAH = "No Quests"
 
 
 
@@ -12676,7 +12362,6 @@ Inst123QAH = "No Quests"
 
 --------------- INST33 - Alterac Valley (AV) ---------------
 
-Inst33Story = "Long ago, before the First War, the warlock Gul'dan exiled a clan of orcs called the Frostwolves to a hidden valley deep in the heart of the Alterac Mountains. It is here in the valley's southern reaches that the Frostwolves eked out a living until the coming of Thrall.\nAfter Thrall's triumphant uniting of the clans, the Frostwolves, now led by the Orc Shaman Drek'Thar, chose to remain in the valley they had for so long called their home. In recent times, however, the relative peace of the Frostwolves has been challenged by the arrival of the Dwarven Stormpike Expedition.\nThe Stormpikes have set up residence in the valley to search for natural resources and ancient relics. Despite their intentions, the Dwarven presence has sparked heated conflict with the Frostwolf Orcs to the south, who have vowed to drive the interlopers from their lands. "
 Inst33Caption = "Alterac Valley"
 Inst33QAA = "16 Quests"
 Inst33QAH = "16 Quests"
@@ -13050,7 +12735,6 @@ Inst33Quest16_HORDE_Folgequest = "None"
 
 --------------- INST34 - Arathi Basin (AB) ---------------
 
-Inst34Story = "Arathi Basin, located in Arathi Highlands, is a fast and exciting Battleground. The Basin itself is rich with resources and coveted by both the Horde and the Alliance. The Forsaken Defilers and the League of Arathor have arrived at Arathi Basin to wage war over these natural resources and claim them on behalf of their respective sides."
 Inst34Caption = "Arathi Basin"
 Inst34QAA = "3 Quests"
 Inst34QAH = "3 Quests"
@@ -13128,7 +12812,6 @@ Inst34Quest3name1_HORDE = "Battle Tabard of the Defilers"
 
 --------------- INST35 - Warsong Gulch (WSG) ---------------
 
-Inst35Story = "Nestled in the southern region of Ashenvale forest, Warsong Gulch is near the area where Grom Hellscream and his Orcs chopped away huge swaths of forest during the events of the Third War. Some orcs have remained in the vicinity, continuing their deforestation to fuel the Horde's expansion. They call themselves the Warsong Outriders.\nThe Night Elves, who have begun a massive push to retake the forests of Ashenvale, are now focusing their attention on ridding their land of the Outriders once and for all. And so, the Silverwing Sentinels have answered the call and sworn that they will not rest until every last Orc is defeated and cast out of Warsong Gulch. "
 Inst35Caption = "Warsong Gulch"
 Inst35QAA = "No Quests"
 Inst35QAH = "No Quests"
@@ -13137,7 +12820,6 @@ Inst35QAH = "No Quests"
 
 --------------- INST60 - Eye of the Storm ---------------
 
-Inst60Story = "Hovering high above the ravaged landscape of Netherstorm is the island known as Eye of the Storm. This battlefield is covted by the blood elves for its rich energy deposits - and the draenei seek to claim it due to its mysterious vessel - Tempest Keep."
 Inst60Caption = "Eye of the Storm"
 Inst60QAA = "No Quests"
 Inst60QAH = "No Quests"
@@ -13146,7 +12828,6 @@ Inst60QAH = "No Quests"
 
 --------------- INST83 - Strand of the Ancients (SotA)  ---------------
 
-Inst83Story = "The Strand of the Ancients is a battleground located off the southern coast of the Dragonblight being introduced in Wrath of the Lich King. This battleground consists of 3 walls which have to be destroyed to continue, capture points and a graveyard after each wall. The overall goal is to be the first team to get through the last wall."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst83Caption = "Strand of the Ancients"
 Inst83QAA = "No Quests"
 Inst83QAH = "No Quests"
@@ -13155,7 +12836,6 @@ Inst83QAH = "No Quests"
 
 --------------- INST89 - Isle of Conquest (IoC)  ---------------
 
-Inst89Story = "An island somewhere off the shores of Northrend. A rock, hardly worth a second look. But as insignificant as it may seem, this is no ordinary place. A sound of thunder as waves crash endlessly against rocky cliffs; a sound of fury as swords clash on the blood-stained fields of this island on the edge of forever.\n\nWelcome to the Isle of Conquest."
 Inst89Caption = "Isle of Conquest"
 Inst89QAA = "No Quests"
 Inst89QAH = "No Quests"
@@ -13164,7 +12844,6 @@ Inst89QAH = "No Quests"
 
 --------------- INST106 - Battle for Gilneas ---------------
 
-Inst106Story = "When King Greymane severed ties with the Alliance after the Second War, the kingdom of Gilneas became independent from all other nations and opposing forces. Although the massive Greymane Wall protected Gilneas from outside threats, a virulent worgen curse and civil war crippled the kingdom from within. As the Cataclysm strikes and the Greymane Wall's gates are destroyed, the people of Gilneas must come to terms with their dark curse and learn to persevere through catastrophic earthquakes and an unrelenting Forsaken invasion.\n\nThe Horde recognizes this land as a strategic location with key resources to fuel the faction's war effort against the Alliance, and Horde forces will not stop their siege until the city and its surrounding territories are under their control. To protect its lands from the Horde, the once-isolated nation of Gilneas must now work with the Alliance."
 Inst106Caption = "Battle for Gilneas"
 Inst106QAA = "No Quests"
 Inst106QAH = "No Quests"
@@ -13173,28 +12852,25 @@ Inst106QAH = "No Quests"
 
 --------------- INST107 - Twin Peaks ---------------
 
-Inst107Story = "Located within the Twilight Highlands, the Twin Peaks remains a crucial point of high ground for staging effective and debilitating attacks against the black dragonflight and the Twilight's Hammer, who dominate this foreboding environment. And now, two previous occupants of the nearby city of Grim Batol vie once again for control of the peaks' defenses.\n\nThe Wildhammer clan, architects and original owners of the once-great fortress city, maintains some operations in forested outposts of the highlands. The Wildhammers now call upon heroes of the Alliance to help claim the peaks and fend off the Dragonmaw orcs. The Dragonmaw clan, having spent years working to enslave red dragons, once again provides strategic importance to the Horde. As the Dragonmaw and Wildhammers fight for territory they once called home, the Alliance and Horde carry out the struggle to control the Twin Peaks."
 Inst107Caption = "Twin Peaks"
 Inst107QAA = "No Quests"
 Inst107QAH = "No Quests"
 
 
 
---------------- INST124 - Silvershard Mines ---------------
+--------------- INST123 - Silvershard Mines ---------------
 
-Inst124Story = ""
-Inst124Caption = "Silvershard Mines"
+Inst123Caption = "Silvershard Mines"
+Inst123QAA = "No Quests"
+Inst123QAH = "No Quests"
+
+
+
+--------------- INST124 - Temple of Kotmogu ---------------
+
+Inst124Caption = "Temple of Kotmogu"
 Inst124QAA = "No Quests"
 Inst124QAH = "No Quests"
-
-
-
---------------- INST125 - Temple of Kotmogu ---------------
-
-Inst125Story = ""
-Inst125Caption = "Temple of Kotmogu"
-Inst125QAA = "No Quests"
-Inst125QAH = "No Quests"
 
 
 
@@ -13207,11 +12883,6 @@ Inst125QAH = "No Quests"
 
 --------------- INST64 - Doom Lord Kazzak ---------------
 
-Inst64Story = {
-  ["Page1"] = "When the Burning Legion began its second invasion of Azeroth, Lord Kazzak served as one of the unholy army's greatest generals. At that time the Legion possessed a powerful weapon called the Glaive of the Aspects. Forged by demons during the War of the Ancients, the glaive was imbued with the forces of earth, time, dream, magic, and life: powers taken from the mighty dragons. Even so, Archimonde and his champions were defeated during the Battle of Mount Hyjal, and the glaive was shattered. Knowing the Third War had been decided, Kazzak was forced to withdraw. In the war's aftermath, the shards of the glaive were hidden away for safekeeping.",
-  ["Page2"] = "Recently Kazzak and his minions reactivated the Dark Portal, and Kazzak went through the portal to take command of the Legion's forces in Outland. In his absence, he entrusted his most powerful lieutenant, Highlord Kruul, with retrieving the Aspect Shards. In time Kruul succeeded, and the mighty glaive was reforged.\n\nWith the Glaive of the Aspects and the raging desire to scour all life from the universe, the Legion may prove unstoppable.",
-  ["MaxPages"] = "2",
-};
 Inst64Caption = "Doom Lord Kazzak"
 Inst64QAA = "No Quests"
 Inst64QAH = "No Quests"
@@ -13220,11 +12891,6 @@ Inst64QAH = "No Quests"
 
 --------------- INST65 - Doomwalker ---------------
 
-Inst65Story = {
-  ["Page1"] = "The cunning mo'arg engineers of the Burning Legion pushed their gan'arg workers for weeks in the construction of the first fel reaver, a massive construct that could easily raze fortified towers or tear the wings off an airborne gryphon. Though pleased by the success of their construct, the engineers quickly realized that they could improve upon the design. While the forge camps began to mass-produce these fel reavers to smash the mortal forces of Outland, all the manpower of the mighty Legion Hold in Shadowmoon Valley was dedicated to the creation of a superior machine.",
-  ["Page2"] = "Now unleashed, Doomwalker rages throughout Shadowmoon Valley, annihilating everything in its path. Infused with the captured souls of martyred draenei, the Doomwalker is empowered with unparalleled fury and might. With the fortified strength of its gargantuan body and the unbridled power of countless tortured souls, this newest fel reaver is among the most powerful weapons of the Burning Legion.",
-  ["MaxPages"] = "2",
-};
 Inst65Caption = "Doomwalker"
 Inst65QAA = "No Quests"
 Inst65QAH = "No Quests"
@@ -13233,7 +12899,6 @@ Inst65QAH = "No Quests"
 
 --------------- INST66 - Skettis ---------------
 
-Inst66Story = "Skettis is the hidden capital of the Arakkoa, and one of the major secrets of Terokkar Forest. It is situated in Blackwind Valley in southeastern Terokkar Forest, only accessible to players who have a flying mount or Druids who have learned Flight Form. It is made up of four veils: Veil Ala'rak, Veil Harr'ik, Lower Veil Shil'ak, and Upper Veil Shil'ak. At its center is Terokk's Rest, the site where the arakkoa lord Terokk can be summoned back into the world."..GREEN.."\n\nQuoted from Wowpedia.org"
 Inst66Caption = "Skettis"
 Inst66QAA = "13 Quests"
 Inst66QAH = "13 Quests"
@@ -13582,11 +13247,11 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 12 = Dire Maul West (DM)
 -- 13 = Maraudon (Mara)
 -- 14 = Molten Core (MC)
--- 15 = Old Naxxramas (removed)
+-- 15 = *** DELETED ***   Naxxramas (level 60)
 -- 16 = Onyxia's Lair (Ony)
 -- 17 = Razorfen Downs (RFD)
 -- 18 = Razorfen Kraul (RFK)
--- 19 = SM: Library (SM Lib)
+-- 19 = *** DELETED ***   SM: Library (SM Lib)
 -- 20 = Scholomance (Scholo)
 -- 21 = Shadowfang Keep (SFK)
 -- 22 = Stratholme - Crusaders' Square (Strat)
@@ -13597,13 +13262,14 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 27 = Zul'Farrak (ZF)
 -- 28 = Stratholme - The Gauntlet (Strat)
 -- 29 = Gnomeregan (Gnomer)
--- 30 = Four Dragons (removed)
--- 31 = Azuregos (removed)
--- 32 = Highlord Kruul (removed)
+-- 30 = *** DELETED ***   Four Dragons
+-- 31 = *** DELETED ***   Azuregos
+-- 32 = *** DELETED ***   Highlord Kruul
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
 -- 36 =  default "rest"
+
 -- 37 = HFC: Ramparts (Ramp)
 -- 38 = HFC: Blood Furnace (BF)
 -- 39 = HFC: Shattered Halls (SH)
@@ -13624,9 +13290,9 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 54 = TK: Arcatraz (Arc)
 -- 55 = TK: Botanica (Bot)
 -- 56 = TK: Mechanar (Mech)
--- 57 = SM: Armory (SM Arm)
--- 58 = SM: Cathedral (SM Cath)
--- 59 = SM: Graveyard (SM GY)
+-- 57 = *** DELETED ***   SM: Armory (SM Arm)
+-- 58 = Scarlet Monastery
+-- 59 = Scarlet Halls
 -- 60 = Eye of the Storm
 -- 61 = TK: The Eye
 -- 62 = Black Temple (BT)
@@ -13636,6 +13302,7 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 66 = Skettis
 -- 67 = Magisters' Terrace
 -- 68 = Sunwell Plateau
+
 -- 69 = Caverns of Time: The Culling of Stratholme
 -- 70 = Utgarde Keep: Utgarde Keep
 -- 71 = Utgarde Keep: Utgarde Pinnacle
@@ -13662,6 +13329,7 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC)
 -- 94 = Ruby Sanctum (RS)
+
 -- 95 = Blackrock Caverns
 -- 96 = Throne of the Tides
 -- 97 = The Stonecore
@@ -13681,3 +13349,15 @@ Inst66Quest13name4_HORDE = Inst66Quest13name4
 -- 111 = Well of Eternity
 -- 112 = Hour of Twilight
 -- 113 = Dragon Soul
+
+-- 114 = Mogu'Shan Palace
+-- 115 = Shado-pan Monastery
+-- 116 = Stormstout Brewery
+-- 117 = Temple of the Jade Serpent
+-- 118 = The Gate of the Setting Sun
+-- 119 = Siege of Niuzao Temple
+-- 120 = Mogu'shan Vaults
+-- 121 = Terrace of Endless Spring
+-- 122 = Heart of Fear
+-- 123 = Silvershard Mines
+-- 124 = Temple of Kotmogu

@@ -335,20 +335,17 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GateoftheSettingSun") then
 		AQINSTANZ = 118;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\PalaceoftheHeavens") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTemple") then
 		AQINSTANZ = 119;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTemple") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanVaults") then
 		AQINSTANZ = 120;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanVaults") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TerraceofEndlessSpring") then
 		AQINSTANZ = 121;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TerraceofEndlessSpring") then
-		AQINSTANZ = 122;
-
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HeartofFear") then
-		AQINSTANZ = 123;
+		AQINSTANZ = 122;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SMMonastery") then
 		AQINSTANZ = 58;
@@ -356,7 +353,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SMHalls") then
 		AQINSTANZ = 59;
 
-	elseif (AQATLASMAP == "Interface\AddOns\\Atlas\\Images\\Maps\\Scholomance") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Scholomance") then
 		AQINSTANZ = 20;
 
 
@@ -391,10 +388,10 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 107;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\SilverShardMines") then
-		AQINSTANZ = 124;
+		AQINSTANZ = 123;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TempleofKotmogu") then
-		AQINSTANZ = 125;
+		AQINSTANZ = 124;
 
 	-- Outdoor Raids
 
@@ -739,7 +736,7 @@ end
 -- 12 = Dire Maul West (DM)
 -- 13 = Maraudon (Mara)
 -- 14 = Molten Core (MC)
--- 15 = Old Naxxramas (removed)
+-- 15 = *** DELETED ***   Naxxramas (level 60)
 -- 16 = Onyxia's Lair (Ony)
 -- 17 = Razorfen Downs (RFD)
 -- 18 = Razorfen Kraul (RFK)
@@ -754,13 +751,14 @@ end
 -- 27 = Zul'Farrak (ZF)
 -- 28 = Stratholme - The Gauntlet (Strat)
 -- 29 = Gnomeregan (Gnomer)
--- 30 = Four Dragons (removed)
--- 31 = Azuregos (removed)
--- 32 = Highlord Kruul (removed)
+-- 30 = *** DELETED ***   Four Dragons
+-- 31 = *** DELETED ***   Azuregos
+-- 32 = *** DELETED ***   Highlord Kruul
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
 -- 36 =  default "rest"
+
 -- 37 = HFC: Ramparts (Ramp)
 -- 38 = HFC: Blood Furnace (BF)
 -- 39 = HFC: Shattered Halls (SH)
@@ -782,8 +780,8 @@ end
 -- 55 = TK: Botanica (Bot)
 -- 56 = TK: Mechanar (Mech)
 -- 57 = *** DELETED ***   SM: Armory (SM Arm)
--- 58 = Scarlet Monastery: Cathedral
--- 59 = Scarlet Monastery: Halls
+-- 58 = Scarlet Monastery
+-- 59 = Scarlet Halls
 -- 60 = Eye of the Storm
 -- 61 = TK: The Eye
 -- 62 = Black Temple (BT)
@@ -793,6 +791,7 @@ end
 -- 66 = Skettis
 -- 67 = Magisters' Terrace
 -- 68 = Sunwell Plateau
+
 -- 69 = Caverns of Time: The Culling of Stratholme
 -- 70 = Utgarde Keep: Utgarde Keep
 -- 71 = Utgarde Keep: Utgarde Pinnacle
@@ -819,6 +818,7 @@ end
 -- 92 = Halls of Reflection (HoR)
 -- 93 = Icecrown Citadel (ICC)
 -- 94 = Ruby Sanctum (RS)
+
 -- 95 = Blackrock Caverns
 -- 96 = Throne of the Tides
 -- 97 = The Stonecore
@@ -844,13 +844,11 @@ end
 -- 116 = Stormstout Brewery
 -- 117 = Temple of the Jade Serpent
 -- 118 = The Gate of the Setting Sun
--- 119 = Palace of the Heavens
--- 120 = Siege of Niuzao Temple
--- 121 = Mogu'shan Vaults
--- 122 = Terrace of Endless Spring
--- 123 = Heart of Fear
--- 124 = Silvershard Mines
--- 125 = Temple of Kotmogu
-
+-- 119 = Siege of Niuzao Temple
+-- 120 = Mogu'shan Vaults
+-- 121 = Terrace of Endless Spring
+-- 122 = Heart of Fear
+-- 123 = Silvershard Mines
+-- 124 = Temple of Kotmogu
 
 

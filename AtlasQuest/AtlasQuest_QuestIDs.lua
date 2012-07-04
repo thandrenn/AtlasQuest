@@ -510,108 +510,63 @@ AQ_26903_Level = "35"
 
 
 
---------------- INST19 - SM: Library (SM Lib) ---------------
+--------------- INST58 - Scarlet Monastery ---------------
 
-Inst19Quest1_QuestID = "26983"
-Inst19Quest2_QuestID = "26973"
-Inst19Quest3_QuestID = "26993"
+Inst58Quest1_QuestID = "31513"
+Inst58Quest2_QuestID = "31515"
+Inst58Quest3_QuestID = "31514"
+Inst58Quest4_QuestID = "31516"
 
-Inst19Quest1_HORDE_QuestID = "26987"
-Inst19Quest2_HORDE_QuestID = "26959"
-Inst19Quest3_HORDE_QuestID = "26993"
-
-
-AQ_26983_Level = "33"
-AQ_26973_Level = "33"
-AQ_26993_Level = "33"
-AQ_26987_Level = "33"
-AQ_26959_Level = "33"
+Inst58Quest1_HORDE_QuestID = "31513"
+Inst58Quest2_HORDE_QuestID = "31515"
+Inst58Quest3_HORDE_QuestID = "31514"
+Inst58Quest4_HORDE_QuestID = "31516"
 
 
-
---------------- INST57 - SM: Armory (SM Arm) ---------------
-
-Inst57Quest1_QuestID = "26984"
-Inst57Quest2_QuestID = "26974"
-Inst57Quest3_QuestID = "26994"
-
-Inst57Quest1_HORDE_QuestID = "26988"
-Inst57Quest2_HORDE_QuestID = "26962"
-Inst57Quest3_HORDE_QuestID = "26994"
-
-
-AQ_26984_Level = "35"
-AQ_26974_Level = "36"
-AQ_26994_Level = "36"
-AQ_26988_Level = "35"
-AQ_26962_Level = "36"
+AQ_31513_Level = "34"
+AQ_31515_Level = "90"
+AQ_31514_Level = "34"
+AQ_31516_Level = "90"
 
 
 
---------------- INST58 - SM: Cathedral (SM Cath) ---------------
+--------------- INST59 - Scarlet Halls ---------------
 
-Inst58Quest1_QuestID = "26985"
-Inst58Quest2_QuestID = "26976"
-Inst58Quest3_QuestID = "26996"
+Inst59Quest1_QuestID = "31513"
+Inst59Quest2_QuestID = "31515"
+Inst59Quest3_QuestID = "31514"
+Inst59Quest4_QuestID = "31516"
 
-Inst58Quest1_HORDE_QuestID = "26991"
-Inst58Quest2_HORDE_QuestID = "26967"
-Inst58Quest3_HORDE_QuestID = "26996"
-
-
-AQ_26985_Level = "38"
-AQ_26976_Level = "39"
-AQ_26996_Level = "39"
-AQ_26991_Level = "38"
-AQ_26967_Level = "39"
+Inst59Quest1_HORDE_QuestID = "31513"
+Inst59Quest2_HORDE_QuestID = "31515"
+Inst59Quest3_HORDE_QuestID = "31514"
+Inst59Quest4_HORDE_QuestID = "31516"
 
 
-
---------------- INST59 - SM: Graveyard (SM GY) ---------------
-
-Inst59Quest1_QuestID = "26982"
-Inst59Quest2_QuestID = "26972"
-
-Inst59Quest1_HORDE_QuestID = "26986"
-Inst59Quest2_HORDE_QuestID = "26950"
-
-
-AQ_26982_Level = "30"
-AQ_26972_Level = "30"
-AQ_26986_Level = "30"
-AQ_26950_Level = "30"
+AQ_31513_Level = "34"
+AQ_31515_Level = "90"
+AQ_31514_Level = "34"
+AQ_31516_Level = "90"
 
 
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
-Inst20Quest1_QuestID = "27140"
-Inst20Quest2_QuestID = "27143"
-Inst20Quest3_QuestID = "27142"
-Inst20Quest4_QuestID = "27146"
-Inst20Quest5_QuestID = "28756"
-Inst20Quest6_QuestID = "27147"
-Inst20Quest7_QuestID = "27145"
-Inst20Quest8_QuestID = "27148"
+Inst20Quest1_QuestID = "31440"
+Inst20Quest2_QuestID = "31442"
+Inst20Quest3_QuestID = "31447"
+Inst20Quest4_QuestID = "31448"
 
-Inst20Quest1_HORDE_QuestID = "27140"
-Inst20Quest2_HORDE_QuestID = "27143"
-Inst20Quest3_HORDE_QuestID = "27142"
-Inst20Quest4_HORDE_QuestID = "27146"
-Inst20Quest5_HORDE_QuestID = "28756"
-Inst20Quest6_HORDE_QuestID = "27147"
-Inst20Quest7_HORDE_QuestID = "27145"
-Inst20Quest8_HORDE_QuestID = "27148"
+Inst20Quest1_HORDE_QuestID = "31440"
+Inst20Quest2_HORDE_QuestID = "31442"
+Inst20Quest3_HORDE_QuestID = "31447"
+Inst20Quest4_HORDE_QuestID = "31448"
 
 
-AQ_27140_Level = "43"
-AQ_27143_Level = "43"
-AQ_27142_Level = "43"
-AQ_27146_Level = "43"
-AQ_28756_Level = "42"
-AQ_27147_Level = "43"
-AQ_27145_Level = "42"
-AQ_27148_Level = "44"
+AQ_31440_Level = "43"
+AQ_31442_Level = "90"
+AQ_31447_Level = "43"
+AQ_31448_Level = "90"
 
 
 
@@ -2268,6 +2223,16 @@ AQ_30118_Level = "85"
 
 --------------- INST114 - Mogu'Shan Palace ---------------
 
+Inst114Quest1_QuestID = "31357"
+Inst114Quest2_QuestID = "31360"
+
+Inst114Quest1_HORDE_QuestID = "31357"
+Inst114Quest2_HORDE_QuestID = "31360"
+
+
+AQ_31357_Level = "89"
+AQ_31360_Level = "89"
+
 
 
 --------------- INST115 - Shado-pan Monastery ---------------
@@ -2286,23 +2251,19 @@ AQ_30118_Level = "85"
 
 
 
---------------- INST119 - Palace of the Heavens ---------------
+--------------- INST119 - Siege of Niuzao Temple ---------------
 
 
 
---------------- INST120 - Siege of Niuzao Temple ---------------
+--------------- INST120 - Mogu'shan Vaults ---------------
 
 
 
---------------- INST121 - Mogu'shan Vaults ---------------
+--------------- INST121 - Terrace of Endless Spring ---------------
 
 
 
---------------- INST122 - Terrace of Endless Spring ---------------
-
-
-
---------------- INST123 - Heart of Fear ---------------
+--------------- INST122 - Heart of Fear ---------------
 
 
 
@@ -2429,11 +2390,11 @@ AQ_8122_Level = "60"
 
 
 
---------------- INST124 - Silvershard Mines ---------------
+--------------- INST123 - Silvershard Mines ---------------
 
 
 
---------------- INST125 - Temple of Kotmogu ---------------
+--------------- INST124 - Temple of Kotmogu ---------------
 
 
 
