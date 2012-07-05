@@ -17,6 +17,19 @@ Version 4.8.0 ALPHA  (not released yet)
 	- Scarlet Halls: Just for Safekeeping, Of Course
 	- Mogu'Shan Palace: Relics of the Four Kings
 	- Mogu'Shan Palace: A New Lesson for the Master
+	- Shado-pan Monastery: Into the Monastery
+	- Shado-pan Monastery: Into the Mouth of Hatred
+	- Shado-pan Monastery: Lord of the Shado-Pan
+	- Shado-pan Monastery: The Path to Respect Lies in Violence
+	- Stormstout Brewery: Into the Brewery
+	- Stormstout Brewery: Trouble Brewing
+	- Stormstout Brewery: Family Secrets
+	- Temple of the Jade Serpent: Restoring Jade's Purity
+	- Temple of the Jade Serpent: Deep Doubts, Deep Wisdom
+	- The Gate of the Setting Sun: Lighting the Way
+	- The Gate of the Setting Sun: That's a Big Bug!
+	- Siege of Niuzao Temple: Somewhere Inside
+	- Siege of Niuzao Temple: Take Down the Wing Leader
 
 
 

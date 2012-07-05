@@ -12292,40 +12292,351 @@ Inst114Quest2_HORDE_Folgequest = Inst114Quest2_Folgequest
 --------------- INST115 - Shado-pan Monastery ---------------
 
 Inst115Caption = "Shado-pan Monastery"
-Inst115QAA = "No Quests"
-Inst115QAH = "No Quests"
+Inst115QAA = "4 Quests"
+Inst115QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst115Quest1 = "1. Into the Monastery"
+Inst115Quest1_Level = "88"
+Inst115Quest1_Attain = "87"
+Inst115Quest1_Aim = "Meet Ban Bearheart inside the Shado-Pan Monastery."
+Inst115Quest1_Location = ""
+Inst115Quest1_Note = ""
+Inst115Quest1_Prequest = "None"
+Inst115Quest1_Folgequest = "Lord of the Shado-Pan"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst115Quest2 = "2. Into the Mouth of Hatred"
+Inst115Quest2_Level = "89"
+Inst115Quest2_Attain = "87"
+Inst115Quest2_Aim = "Speak with Initiate Kia at the Cloudstrike Dojo inside the Shado-Pan Monastery."
+Inst115Quest2_Location = ""
+Inst115Quest2_Note = ""
+Inst115Quest2_Prequest = "None"
+Inst115Quest2_Folgequest = "Lord of the Shado-Pan"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst115Quest3 = "3. Lord of the Shado-Pan"
+Inst115Quest3_Level = "89"
+Inst115Quest3_Attain = "87"
+Inst115Quest3_Aim = "Rid Taran Zhu of his possession by the Sha of Hatred."
+Inst115Quest3_Location = ""
+Inst115Quest3_Note = "Taran Zhu is at "..YELLOW.."[??]"..WHITE.."."
+Inst115Quest3_Prequest = "Into the Monastery or Into the Mouth of Hatred"
+Inst115Quest3_Folgequest = "None"
+Inst115Quest3PreQuest = "true"
+--
+-- Reward varies for each class
+
+--Quest 4 Alliance
+Inst115Quest4 = "4. The Path to Respect Lies in Violence"
+Inst115Quest4_Level = "89"
+Inst115Quest4_Attain = "87"
+Inst115Quest4_Aim = "Kill the Sha of Violence."
+Inst115Quest4_Location = ""
+Inst115Quest4_Note = "The Sha of Violence is at "..YELLOW.."[??]"..WHITE.."."
+Inst115Quest4_Prequest = "None"
+Inst115Quest4_Folgequest = "None"
+--
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst115Quest1_HORDE = Inst115Quest1
+Inst115Quest1_HORDE_Level = Inst115Quest1_Level
+Inst115Quest1_HORDE_Attain = Inst115Quest1_Attain
+Inst115Quest1_HORDE_Aim = Inst115Quest1_Aim
+Inst115Quest1_HORDE_Location = Inst115Quest1_Location
+Inst115Quest1_HORDE_Note = Inst115Quest1_Note
+Inst115Quest1_HORDE_Prequest = Inst115Quest1_Prequest
+Inst115Quest1_HORDE_Folgequest = Inst115Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst115Quest2_HORDE = Inst115Quest2
+Inst115Quest2_HORDE_Level = Inst115Quest2_Level
+Inst115Quest2_HORDE_Attain = Inst115Quest2_Attain
+Inst115Quest2_HORDE_Aim = Inst115Quest2_Aim
+Inst115Quest2_HORDE_Location = Inst115Quest2_Location
+Inst115Quest2_HORDE_Note = Inst115Quest2_Note
+Inst115Quest2_HORDE_Prequest = Inst115Quest2_Prequest
+Inst115Quest2_HORDE_Folgequest = Inst115Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst115Quest3_HORDE = Inst115Quest3
+Inst115Quest3_HORDE_Level = Inst115Quest3_Level
+Inst115Quest3_HORDE_Attain = Inst115Quest3_Attain
+Inst115Quest3_HORDE_Aim = Inst115Quest3_Aim
+Inst115Quest3_HORDE_Location = Inst115Quest3_Location
+Inst115Quest3_HORDE_Note = Inst115Quest3_Note
+Inst115Quest3_HORDE_Prequest = Inst115Quest3_Prequest
+Inst115Quest3_HORDE_Folgequest = Inst115Quest3_Folgequest
+Inst115Quest3PreQuest_HORDE = Inst115Quest3PreQuest
+--
+-- Reward varies for each class
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst115Quest4_HORDE = Inst115Quest4
+Inst115Quest4_HORDE_Level = Inst115Quest4_Level
+Inst115Quest4_HORDE_Attain = Inst115Quest4_Attain
+Inst115Quest4_HORDE_Aim = Inst115Quest4_Aim
+Inst115Quest4_HORDE_Location = Inst115Quest4_Location
+Inst115Quest4_HORDE_Note = Inst115Quest4_Note
+Inst115Quest4_HORDE_Prequest = Inst115Quest4_Prequest
+Inst115Quest4_HORDE_Folgequest = Inst115Quest4_Folgequest
+--
+-- Reward varies for each class
 
 
 
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Stormstout Brewery"
-Inst116QAA = "No Quests"
-Inst116QAH = "No Quests"
+Inst116QAA = "3 Quests"
+Inst116QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst116Quest1 = "1. Into the Brewery"
+Inst116Quest1_Level = "87"
+Inst116Quest1_Attain = "86"
+Inst116Quest1_Aim = "Speak to Chen Stormstout inside the Stormstout Brewery. "
+Inst116Quest1_Location = ""
+Inst116Quest1_Note = ""
+Inst116Quest1_Prequest = "Clear the Way -> Cleaning House"
+Inst116Quest1_Folgequest = "Trouble Brewing"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst116Quest2 = "2. Trouble Brewing"
+Inst116Quest2_Level = "87"
+Inst116Quest2_Attain = "85"
+Inst116Quest2_Aim = "Kill Yan-Zhu the Uncasked."
+Inst116Quest2_Location = ""
+Inst116Quest2_Note = "Yan-Zhu the Uncasked is at "..YELLOW.."[3]"..WHITE.."."
+Inst116Quest2_Prequest = "Into the Brewery"
+Inst116Quest2_Folgequest = "None"
+Inst116Quest2FQuest = "true"
+--
+-- Reward varies for each class
+
+--Quest 3 Alliance
+Inst116Quest3 = "3. Family Secrets"
+Inst116Quest3_Level = "87"
+Inst116Quest3_Attain = "85"
+Inst116Quest3_Aim = "Collect 5 Stormstout Secrets."
+Inst116Quest3_Location = ""
+Inst116Quest3_Note = ""
+Inst116Quest3_Prequest = "None"
+Inst116Quest3_Folgequest = "None"
+--
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst116Quest1_HORDE = Inst116Quest1
+Inst116Quest1_HORDE_Level = Inst116Quest1_Level
+Inst116Quest1_HORDE_Attain = Inst116Quest1_Attain
+Inst116Quest1_HORDE_Aim = Inst116Quest1_Aim
+Inst116Quest1_HORDE_Location = Inst116Quest1_Location
+Inst116Quest1_HORDE_Note = Inst116Quest1_Note
+Inst116Quest1_HORDE_Prequest = Inst116Quest1_Prequest
+Inst116Quest1_HORDE_Folgequest = Inst116Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst116Quest2_HORDE = Inst116Quest2
+Inst116Quest2_HORDE_Level = Inst116Quest2_Level
+Inst116Quest2_HORDE_Attain = Inst116Quest2_Attain
+Inst116Quest2_HORDE_Aim = Inst116Quest2_Aim
+Inst116Quest2_HORDE_Location = Inst116Quest2_Location
+Inst116Quest2_HORDE_Note = Inst116Quest2_Note
+Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
+Inst116Quest2_HORDE_Folgequest = Inst116Quest2_Folgequest
+Inst116Quest2FQuest_HORDE = Inst116Quest2FQuest
+--
+-- Reward varies for each class
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst116Quest3_HORDE = Inst116Quest3
+Inst116Quest3_HORDE_Level = Inst116Quest3_Level
+Inst116Quest3_HORDE_Attain = Inst116Quest3_Attain
+Inst116Quest3_HORDE_Aim = Inst116Quest3_Aim
+Inst116Quest3_HORDE_Location = Inst116Quest3_Location
+Inst116Quest3_HORDE_Note = Inst116Quest3_Note
+Inst116Quest3_HORDE_Prequest = Inst116Quest3_Prequest
+Inst116Quest3_HORDE_Folgequest = Inst116Quest3_Folgequest
+--
+-- Reward varies for each class
 
 
 
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Caption = "Temple of the Jade Serpent"
-Inst117QAA = "No Quests"
-Inst117QAH = "No Quests"
+Inst117QAA = "2 Quests"
+Inst117QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst117Quest1 = "1. Restoring Jade's Purity"
+Inst117Quest1_Level = "87"
+Inst117Quest1_Attain = "85"
+Inst117Quest1_Aim = "Assist Wise Mari, Liu Flameheart, and Lorewalker Stonestep with their sha problems."
+Inst117Quest1_Location = ""
+Inst117Quest1_Note = "- Wise Mari is at "..YELLOW.."[1]"..WHITE..".\n- Lorewalker Stonestep is at "..YELLOW.."[2]"..WHITE..".\n- Liu Flameheart is at "..YELLOW.."[3]"..WHITE.."."
+Inst117Quest1_Prequest = "None"
+Inst117Quest1_Folgequest = "None"
+--
+-- Reward varies for each class
+
+--Quest 2 Alliance
+Inst117Quest2 = "2. Deep Doubts, Deep Wisdom"
+Inst117Quest2_Level = "87"
+Inst117Quest2_Attain = "85"
+Inst117Quest2_Aim = "Kill the Sha of Doubt."
+Inst117Quest2_Location = ""
+Inst117Quest2_Note = "The Sha of Doubt is at "..YELLOW.."[4]"..WHITE.."."
+Inst117Quest2_Prequest = "None"
+Inst117Quest2_Folgequest = "None"
+--
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst117Quest1_HORDE = Inst117Quest1
+Inst117Quest1_HORDE_Level = Inst117Quest1_Level
+Inst117Quest1_HORDE_Attain = Inst117Quest1_Attain
+Inst117Quest1_HORDE_Aim = Inst117Quest1_Aim
+Inst117Quest1_HORDE_Location = Inst117Quest1_Location
+Inst117Quest1_HORDE_Note = Inst117Quest1_Note
+Inst117Quest1_HORDE_Prequest = Inst117Quest1_Prequest
+Inst117Quest1_HORDE_Folgequest = Inst117Quest1_Folgequest
+--
+-- Reward varies for each class
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst117Quest2_HORDE = Inst117Quest2
+Inst117Quest2_HORDE_Level = Inst117Quest2_Level
+Inst117Quest2_HORDE_Attain = Inst117Quest2_Attain
+Inst117Quest2_HORDE_Aim = Inst117Quest2_Aim
+Inst117Quest2_HORDE_Location = Inst117Quest2_Location
+Inst117Quest2_HORDE_Note = Inst117Quest2_Note
+Inst117Quest2_HORDE_Prequest = Inst117Quest2_Prequest
+Inst117Quest2_HORDE_Folgequest = Inst117Quest2_Folgequest
+--
+-- Reward varies for each class
 
 
 
 --------------- INST118 - The Gate of the Setting Sun ---------------
 
 Inst118Caption = "The Gate of the Setting Sun"
-Inst118QAA = "No Quests"
-Inst118QAH = "No Quests"
+Inst118QAA = "2 Quests"
+Inst118QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst118Quest1 = "1. Lighting the Way"
+Inst118Quest1_Level = "90"
+Inst118Quest1_Attain = "90"
+Inst118Quest1_Aim = "Light the Signal Flame."
+Inst118Quest1_Location = ""
+Inst118Quest1_Note = ""
+Inst118Quest1_Prequest = "None"
+Inst118Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst118Quest2 = "2. That's a Big Bug!"
+Inst118Quest2_Level = "90"
+Inst118Quest2_Attain = "90"
+Inst118Quest2_Aim = "Kill Raigonn."
+Inst118Quest2_Location = ""
+Inst118Quest2_Note = "Raigonn is at "..YELLOW.."[4]"..WHITE.."."
+Inst118Quest2_Prequest = "None"
+Inst118Quest2_Folgequest = "None"
+--
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst118Quest1_HORDE = Inst118Quest1
+Inst118Quest1_HORDE_Level = Inst118Quest1_Level
+Inst118Quest1_HORDE_Attain = Inst118Quest1_Attain
+Inst118Quest1_HORDE_Aim = Inst118Quest1_Aim
+Inst118Quest1_HORDE_Location = Inst118Quest1_Location
+Inst118Quest1_HORDE_Note = Inst118Quest1_Note
+Inst118Quest1_HORDE_Prequest = Inst118Quest1_Prequest
+Inst118Quest1_HORDE_Folgequest = Inst118Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst118Quest2_HORDE = Inst118Quest2
+Inst118Quest2_HORDE_Level = Inst118Quest2_Level
+Inst118Quest2_HORDE_Attain = Inst118Quest2_Attain
+Inst118Quest2_HORDE_Aim = Inst118Quest2_Aim
+Inst118Quest2_HORDE_Location = Inst118Quest2_Location
+Inst118Quest2_HORDE_Note = Inst118Quest2_Note
+Inst118Quest2_HORDE_Prequest = Inst118Quest2_Prequest
+Inst118Quest2_HORDE_Folgequest = Inst118Quest2_Folgequest
+--
+-- Reward varies for each class
 
 
 
 --------------- INST119 - Siege of Niuzao Temple ---------------
 
 Inst119Caption = "Siege of Niuzao Temple"
-Inst119QAA = "No Quests"
-Inst119QAH = "No Quests"
+Inst119QAA = "2 Quests"
+Inst119QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst119Quest1 = "1. Somewhere Inside"
+Inst119Quest1_Level = "90"
+Inst119Quest1_Attain = "90"
+Inst119Quest1_Aim = "Rescue 12 Shado-Pan Prisoners."
+Inst119Quest1_Location = ""
+Inst119Quest1_Note = ""
+Inst119Quest1_Prequest = "None"
+Inst119Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst119Quest2 = "2. Take Down the Wing Leader"
+Inst119Quest2_Level = "90"
+Inst119Quest2_Attain = "90"
+Inst119Quest2_Aim = "Kill Wing Leader Ner'onok."
+Inst119Quest2_Location = ""
+Inst119Quest2_Note = "Wing Leader Ner'onok is at "..YELLOW.."[4]"..WHITE.."."
+Inst119Quest2_Prequest = "None"
+Inst119Quest2_Folgequest = "None"
+--
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst119Quest1_HORDE = Inst119Quest1
+Inst119Quest1_HORDE_Level = Inst119Quest1_Level
+Inst119Quest1_HORDE_Attain = Inst119Quest1_Attain
+Inst119Quest1_HORDE_Aim = Inst119Quest1_Aim
+Inst119Quest1_HORDE_Location = Inst119Quest1_Location
+Inst119Quest1_HORDE_Note = Inst119Quest1_Note
+Inst119Quest1_HORDE_Prequest = Inst119Quest1_Prequest
+Inst119Quest1_HORDE_Folgequest = Inst119Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst119Quest2_HORDE = Inst119Quest2
+Inst119Quest2_HORDE_Level = Inst119Quest2_Level
+Inst119Quest2_HORDE_Attain = Inst119Quest2_Attain
+Inst119Quest2_HORDE_Aim = Inst119Quest2_Aim
+Inst119Quest2_HORDE_Location = Inst119Quest2_Location
+Inst119Quest2_HORDE_Note = Inst119Quest2_Note
+Inst119Quest2_HORDE_Prequest = Inst119Quest2_Prequest
+Inst119Quest2_HORDE_Folgequest = Inst119Quest2_Folgequest
+--
+-- Reward varies for each class
 
 
 
