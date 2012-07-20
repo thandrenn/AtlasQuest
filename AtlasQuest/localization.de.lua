@@ -2726,7 +2726,7 @@ Inst18Quest6name3_HORDE = "Tigerband"
 
 --------------- INST58 - Scarlet Monastery ---------------
 
-Inst58Caption = "Bibliothek"
+Inst58Caption = "Scharlachrote Kloster"
 Inst58QAA = "4 Quests"
 Inst58QAH = "4 Quests"
 
@@ -2830,7 +2830,7 @@ Inst58Quest4_HORDE_Folgequest = "Nein"
 
 --------------- INST59 - Scarlet Halls ---------------
 
-Inst59Caption = "Scarlet Halls"
+Inst59Caption = "Scharlachrote Hallen"
 Inst59QAA = "4 Quests"
 Inst59QAH = "4 Quests"
 
@@ -12295,7 +12295,7 @@ Inst113Quest4name2_HORDE = Inst113Quest4name2
 
 --------------- INST114 - Mogu'Shan Palace ---------------
 
-Inst114Caption = "Mogu'Shan Palace"
+Inst114Caption = "Mogu’Shan Palast"
 Inst114QAA = "2 Quests"
 Inst114QAH = "2 Quests"
 
@@ -12304,7 +12304,7 @@ Inst114Quest1 = "1. Relics of the Four Kings"
 Inst114Quest1_Level = "89"
 Inst114Quest1_Attain = "87"
 Inst114Quest1_Aim = "Collect the Lantern of the Sorcerer King, Mad King Meng's Balance, Qiang's 'The Science of War', and Subetai's Bow of the Swift."
-Inst114Quest1_Location = "?? (Mogu'Shan Palace; "..BLUE.."Eingang"..WHITE..")"
+Inst114Quest1_Location = "?? (Mogu’Shan Palast; "..BLUE.."Eingang"..WHITE..")"
 Inst114Quest1_Note = "- Lantern of the Sorcerer King is at "..YELLOW.."[??]"..WHITE..".\n- Mad King Meng's Balance is at "..YELLOW.."[??]"..WHITE..".\n- Qiang's 'The Science of War' is at "..YELLOW.."[??]"..WHITE..".\n- Subetai's Bow of the Swift is at is at "..YELLOW.."[??]"..WHITE.."."
 Inst114Quest1_Prequest = "Nein"
 Inst114Quest1_Folgequest = "Nein"
@@ -12314,9 +12314,9 @@ Inst114Quest1_Folgequest = "Nein"
 Inst114Quest2 = "2. A New Lesson for the Master"
 Inst114Quest2_Level = "89"
 Inst114Quest2_Attain = "87"
-Inst114Quest2_Aim = "Kill Xin the Weaponmaster."
-Inst114Quest2_Location = "?? (Mogu'Shan Palace; "..BLUE.."Eingang"..WHITE..")"
-Inst114Quest2_Note = "Xin the Weaponmaster is at "..YELLOW.."[3]"..WHITE.."."
+Inst114Quest2_Aim = "Tötet Xin den Waffenmeister."
+Inst114Quest2_Location = "?? (Mogu’Shan Palast; "..BLUE.."Eingang"..WHITE..")"
+Inst114Quest2_Note = "Xin der Waffenmeister ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst114Quest2_Prequest = "Nein"
 Inst114Quest2_Folgequest = "Nein"
 -- Reward varies for each class
@@ -12348,7 +12348,7 @@ Inst114Quest2_HORDE_Folgequest = "Nein"
 
 --------------- INST115 - Shado-pan Monastery ---------------
 
-Inst115Caption = "Schattenpan-Kloster"
+Inst115Caption = "Shado-Pan-Kloster"
 Inst115QAA = "4 Quests"
 Inst115QAH = "4 Quests"
 
@@ -12435,7 +12435,7 @@ Inst115Quest3_HORDE_Location = Inst115Quest3_Location
 Inst115Quest3_HORDE_Note = Inst115Quest3_Note
 Inst115Quest3_HORDE_Prequest = Inst115Quest3_Prequest
 Inst115Quest3_HORDE_Folgequest = "Nein"
-Inst115Quest3PreQuest_HORDE = Inst115Quest3PreQuest
+Inst115Quest3PreQuest_HORDE = "true"
 --
 -- Reward varies for each class
 
@@ -12463,7 +12463,7 @@ Inst116QAH = "3 Quests"
 Inst116Quest1 = "1. Into the Brewery"
 Inst116Quest1_Level = "87"
 Inst116Quest1_Attain = "86"
-Inst116Quest1_Aim = "Spreche mit Chen Sturmbräu innerhalb der Brauerei Sturmbräu."
+Inst116Quest1_Aim = "Sprecht mit Chen Sturmbräu innerhalb der Brauerei Sturmbräu."
 Inst116Quest1_Location = ""
 Inst116Quest1_Note = ""
 Inst116Quest1_Prequest = "Clear the Way -> Cleaning House"
@@ -12518,7 +12518,7 @@ Inst116Quest2_HORDE_Location = Inst116Quest2_Location
 Inst116Quest2_HORDE_Note = Inst116Quest2_Note
 Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
 Inst116Quest2_HORDE_Folgequest = "Nein"
-Inst116Quest2PreQuest_HORDE = Inst116Quest2FQuest
+Inst116Quest2PreQuest_HORDE = "true"
 --
 -- Reward varies for each class
 
@@ -12595,7 +12595,7 @@ Inst117Quest2_HORDE_Folgequest = "Nein"
 
 --------------- INST118 - The Gate of the Setting Sun ---------------
 
-Inst118Caption = "The Gate of the Setting Sun"
+Inst118Caption = "Tor der untergehenden Sonne"
 Inst118QAA = "2 Quests"
 Inst118QAH = "2 Quests"
 
@@ -12650,7 +12650,7 @@ Inst118Quest2_HORDE_Folgequest = "Nein"
 
 --------------- INST119 - Siege of Niuzao Temple ---------------
 
-Inst119Caption = "Siege of Niuzao Temple"
+Inst119Caption = "Belagerung des Niuzaotempels"
 Inst119QAA = "2 Quests"
 Inst119QAH = "2 Quests"
 
@@ -12705,7 +12705,7 @@ Inst119Quest2_HORDE_Folgequest = "Nein"
 
 --------------- INST120 - Mogu'shan Vaults ---------------
 
-Inst120Caption = "Mogu'shan Vaults"
+Inst120Caption = "Mogu'shangewölbe"
 Inst120QAA = "Keine Quests"
 Inst120QAH = "Keine Quests"
 
@@ -12713,7 +12713,7 @@ Inst120QAH = "Keine Quests"
 
 --------------- INST121 - Terrace of Endless Spring ---------------
 
-Inst121Caption = "Terrace of Endless Spring"
+Inst121Caption = "Terrasse des Endlosen Frühlings"
 Inst121QAA = "Keine Quests"
 Inst121QAH = "Keine Quests"
 
@@ -12721,7 +12721,7 @@ Inst121QAH = "Keine Quests"
 
 --------------- INST122 - Heart of Fear ---------------
 
-Inst122Caption = "Heart of Fear"
+Inst122Caption = "Herz der Angst"
 Inst122QAA = "Keine Quests"
 Inst122QAH = "Keine Quests"
 
