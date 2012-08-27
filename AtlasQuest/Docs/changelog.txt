@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.8.0 ALPHA  (not released yet)
+Version 4.8.0 BETA  (August 28, 2012)
 
 - Clarified location of quest giver for Auchenai Crypts: Raging Spirits.  (thanks yunohu)
 - Updated TOC File and added basic support for Mists of Pandaria dungeons, raids and battlegrounds.
