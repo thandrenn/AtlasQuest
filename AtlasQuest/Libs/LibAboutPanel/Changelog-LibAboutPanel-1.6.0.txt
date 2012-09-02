@@ -1,0 +1,12 @@
+tag 1.6.0
+4366cfa4beb1cb0a1f5d5c872fc2314aa6a2821b
+John Pasula <ackis@shaw.ca>
+2012-08-29 10:24:51 -0600
+
+Tagging as 1.6.0
+
+
+--------------------
+
+John Pasula:
+	- Update ToC.
