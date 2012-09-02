@@ -8362,82 +8362,71 @@ Inst71Quest3_HORDE_Folgequest = Inst71Quest3_Folgequest
 --------------- INST72 - The Nexus: The Nexus ---------------
 
 Inst72Caption = "The Nexus"
-Inst72QAA = "5 Quests"
-Inst72QAH = "5 Quests"
+Inst72QAA = "4 Quests"
+Inst72QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst72Quest1 = "1. Into the Nexus"
+Inst72Quest1 = "1. Have They No Shame?"
 Inst72Quest1_Level = "71"
-Inst72Quest1_Attain = "69"
-Inst72Quest1_Aim = "Archmage Berinand has asked you to speak with Warmage Kaitlyn in the Nexus."
-Inst72Quest1_Location = "Archmage Berinand (Borean Tundra - Transitus Shield; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest1_Note = "Warmage Kaitlyn is just inside the entrance of the dungeon."
+Inst72Quest1_Attain = "68"
+Inst72Quest1_Aim = "Image of Warmage Kaitlyn wants you to recover Berinand's Research."
+Inst72Quest1_Location = "Image of Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance"..WHITE..")\n or Librarian Serrah (Borean Tundra - Transitus Shield; "..YELLOW.."33.4, 34.3"..WHITE..")"
+Inst72Quest1_Note = "The Research Book is on the ground in the hall with the frozen NPCs at "..YELLOW.."[1]"..WHITE.."."
 Inst72Quest1_Prequest = "None"
 Inst72Quest1_Folgequest = "None"
--- No Rewards for this quest
+--
+Inst72Quest1name1 = "Shoulders of the Northern Lights"
+Inst72Quest1name2 = "Cured Mammoth Hide Mantle"
+Inst72Quest1name3 = "Tundra Tracker's Shoulderguards"
+Inst72Quest1name4 = "Tundra Pauldrons"
 
 --Quest 2 Alliance
-Inst72Quest2 = "2. Have They No Shame?"
+Inst72Quest2 = "2. Postponing the Inevitable"
 Inst72Quest2_Level = "71"
-Inst72Quest2_Attain = "68"
-Inst72Quest2_Aim = "Image of Warmage Kaitlyn wants you to recover Berinand's Research."
-Inst72Quest2_Location = "Image of Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance"..WHITE..")\n or Librarian Serrah (Borean Tundra - Transitus Shield; "..YELLOW.."33.4, 34.3"..WHITE..")"
-Inst72Quest2_Note = "The Research Book is on the ground in the hall with the frozen NPCs at "..YELLOW.."[1]"..WHITE.."."
-Inst72Quest2_Prequest = "None"
+Inst72Quest2_Attain = "69"
+Inst72Quest2_Aim = "Image of Warmage Kaitlyn in the Nexus wants you to use the Interdimensional Refabricator near the rift."
+Inst72Quest2_Location = "Image of Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance"..WHITE..")\n or Archmage Berinand (Borean Tundra - Transitus Shield; "..YELLOW.."32.9, 34.3"..WHITE..")"
+Inst72Quest2_Note = "Use the Interdimensional Refabricator on the edge of the platform where Anomalus is, at "..YELLOW.."[3]"..WHITE.."."
+Inst72Quest2_Prequest = "Reading the Meters"
 Inst72Quest2_Folgequest = "None"
+Inst72Quest2PreQuest = "true"
 --
-Inst72Quest2name1 = "Shoulders of the Northern Lights"
-Inst72Quest2name2 = "Cured Mammoth Hide Mantle"
-Inst72Quest2name3 = "Tundra Tracker's Shoulderguards"
-Inst72Quest2name4 = "Tundra Pauldrons"
+Inst72Quest2name1 = "Time-Twisted Wraps"
+Inst72Quest2name2 = "Time-Stop Gloves"
+Inst72Quest2name3 = "Bindings of Sabotage"
+Inst72Quest2name4 = "Gauntlets of the Disturbed Giant"
 
 --Quest 3 Alliance
-Inst72Quest3 = "3. Postponing the Inevitable"
+Inst72Quest3 = "3. Quickening"
 Inst72Quest3_Level = "71"
 Inst72Quest3_Attain = "69"
-Inst72Quest3_Aim = "Image of Warmage Kaitlyn in the Nexus wants you to use the Interdimensional Refabricator near the rift."
+Inst72Quest3_Aim = "Image of Warmage Kaitlyn in the Nexus wants you to collect 5 Arcane Splinters from Crystalline Protectors."
 Inst72Quest3_Location = "Image of Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance"..WHITE..")\n or Archmage Berinand (Borean Tundra - Transitus Shield; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest3_Note = "Use the Interdimensional Refabricator on the edge of the platform where Anomalus is, at "..YELLOW.."[3]"..WHITE.."."
-Inst72Quest3_Prequest = "Reading the Meters"
+Inst72Quest3_Note = "Crystalline Protectors drop the Arcane Splinters. They are found on the way to Ormorok the Tree-Shaper."
+Inst72Quest3_Prequest = "Secrets of the Ancients"
 Inst72Quest3_Folgequest = "None"
 Inst72Quest3PreQuest = "true"
 --
-Inst72Quest3name1 = "Time-Twisted Wraps"
-Inst72Quest3name2 = "Time-Stop Gloves"
-Inst72Quest3name3 = "Bindings of Sabotage"
-Inst72Quest3name4 = "Gauntlets of the Disturbed Giant"
+Inst72Quest3name1 = "Sandals of Mystical Evolution"
+Inst72Quest3name2 = "Treads of Torn Future"
+Inst72Quest3name3 = "Spiked Treads of Mutation"
+Inst72Quest3name4 = "Invigorating Sabatons"
+Inst72Quest3name5 = "Boots of the Unbowed Protector"
 
 --Quest 4 Alliance
-Inst72Quest4 = "4. Quickening"
+Inst72Quest4 = "4. Prisoner of War"
 Inst72Quest4_Level = "71"
 Inst72Quest4_Attain = "69"
-Inst72Quest4_Aim = "Image of Warmage Kaitlyn in the Nexus wants you to collect 5 Arcane Splinters from Crystalline Protectors."
-Inst72Quest4_Location = "Image of Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance"..WHITE..")\n or Archmage Berinand (Borean Tundra - Transitus Shield; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest4_Note = "Crystalline Protectors drop the Arcane Splinters. They are found on the way to Ormorok the Tree-Shaper."
-Inst72Quest4_Prequest = "Secrets of the Ancients"
+Inst72Quest4_Aim = "Warmage Kaitlyn wants you to free Keristrasza."
+Inst72Quest4_Location = "Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance"..WHITE..")\n or Raelorasz (Borean Tundra - Transitus Shield; "..YELLOW.."33.2, 34.4"..WHITE..")"
+Inst72Quest4_Note = "Keristrasza is at "..YELLOW.."[5]"..WHITE.."."
+Inst72Quest4_Prequest = "Keristrasza -> Springing the Trap"
 Inst72Quest4_Folgequest = "None"
 Inst72Quest4PreQuest = "true"
 --
-Inst72Quest4name1 = "Sandals of Mystical Evolution"
-Inst72Quest4name2 = "Treads of Torn Future"
-Inst72Quest4name3 = "Spiked Treads of Mutation"
-Inst72Quest4name4 = "Invigorating Sabatons"
-Inst72Quest4name5 = "Boots of the Unbowed Protector"
-
---Quest 5 Alliance
-Inst72Quest5 = "5. Prisoner of War"
-Inst72Quest5_Level = "71"
-Inst72Quest5_Attain = "69"
-Inst72Quest5_Aim = "Warmage Kaitlyn wants you to free Keristrasza."
-Inst72Quest5_Location = "Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance"..WHITE..")\n or Raelorasz (Borean Tundra - Transitus Shield; "..YELLOW.."33.2, 34.4"..WHITE..")"
-Inst72Quest5_Note = "Keristrasza is at "..YELLOW.."[5]"..WHITE.."."
-Inst72Quest5_Prequest = "Keristrasza -> Springing the Trap"
-Inst72Quest5_Folgequest = "None"
-Inst72Quest5PreQuest = "true"
---
-Inst72Quest5name1 = "Cloak of Azure Lights"
-Inst72Quest5name2 = "Mantle of Keristrasza"
-Inst72Quest5name3 = "Shroud of Fluid Strikes"
+Inst72Quest4name1 = "Cloak of Azure Lights"
+Inst72Quest4name2 = "Mantle of Keristrasza"
+Inst72Quest4name3 = "Shroud of Fluid Strikes"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8449,7 +8438,11 @@ Inst72Quest1_HORDE_Location = Inst72Quest1_Location
 Inst72Quest1_HORDE_Note = Inst72Quest1_Note
 Inst72Quest1_HORDE_Prequest = Inst72Quest1_Prequest
 Inst72Quest1_HORDE_Folgequest = Inst72Quest1_Folgequest
--- No Rewards for this quest
+--
+Inst72Quest1name1_HORDE = Inst72Quest1name1
+Inst72Quest1name2_HORDE = Inst72Quest1name2
+Inst72Quest1name3_HORDE = Inst72Quest1name3
+Inst72Quest1name4_HORDE = Inst72Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst72Quest2_HORDE = Inst72Quest2
@@ -8460,6 +8453,7 @@ Inst72Quest2_HORDE_Location = Inst72Quest2_Location
 Inst72Quest2_HORDE_Note = Inst72Quest2_Note
 Inst72Quest2_HORDE_Prequest = Inst72Quest2_Prequest
 Inst72Quest2_HORDE_Folgequest = Inst72Quest2_Folgequest
+Inst72Quest2PreQuest_HORDE = Inst72Quest2PreQuest
 --
 Inst72Quest2name1_HORDE = Inst72Quest2name1
 Inst72Quest2name2_HORDE = Inst72Quest2name2
@@ -8481,6 +8475,7 @@ Inst72Quest3name1_HORDE = Inst72Quest3name1
 Inst72Quest3name2_HORDE = Inst72Quest3name2
 Inst72Quest3name3_HORDE = Inst72Quest3name3
 Inst72Quest3name4_HORDE = Inst72Quest3name4
+Inst72Quest3name5_HORDE = Inst72Quest3name5
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst72Quest4_HORDE = Inst72Quest4
@@ -8496,23 +8491,6 @@ Inst72Quest4PreQuest_HORDE = Inst72Quest4PreQuest
 Inst72Quest4name1_HORDE = Inst72Quest4name1
 Inst72Quest4name2_HORDE = Inst72Quest4name2
 Inst72Quest4name3_HORDE = Inst72Quest4name3
-Inst72Quest4name4_HORDE = Inst72Quest4name4
-Inst72Quest4name5_HORDE = Inst72Quest4name5
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst72Quest5_HORDE = Inst72Quest5
-Inst72Quest5_HORDE_Level = Inst72Quest5_Level
-Inst72Quest5_HORDE_Attain = Inst72Quest5_Attain
-Inst72Quest5_HORDE_Aim = Inst72Quest5_Aim
-Inst72Quest5_HORDE_Location = Inst72Quest5_Location
-Inst72Quest5_HORDE_Note = Inst72Quest5_Note
-Inst72Quest5_HORDE_Prequest = Inst72Quest5_Prequest
-Inst72Quest5_HORDE_Folgequest = Inst72Quest5_Folgequest
-Inst72Quest5PreQuest_HORDE = Inst72Quest5PreQuest
---
-Inst72Quest5name1_HORDE = Inst72Quest5name1
-Inst72Quest5name2_HORDE = Inst72Quest5name2
-Inst72Quest5name3_HORDE = Inst72Quest5name3
 
 
 

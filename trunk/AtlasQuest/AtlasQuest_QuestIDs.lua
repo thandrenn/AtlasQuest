@@ -1513,20 +1513,17 @@ AQ_29864_Level = "80"
 
 --------------- INST72 - The Nexus: The Nexus ---------------
 
-Inst72Quest1_QuestID = "29820"
-Inst72Quest2_QuestID = "13094"
-Inst72Quest3_QuestID = "11905"
-Inst72Quest4_QuestID = "11911"
-Inst72Quest5_QuestID = "11973"
+Inst72Quest1_QuestID = "13094"
+Inst72Quest2_QuestID = "11905"
+Inst72Quest3_QuestID = "11911"
+Inst72Quest4_QuestID = "11973"
 
-Inst72Quest1_HORDE_QuestID = "29820"
-Inst72Quest2_HORDE_QuestID = "13095"
-Inst72Quest3_HORDE_QuestID = "11905"
-Inst72Quest4_HORDE_QuestID = "11911"
-Inst72Quest5_HORDE_QuestID = "11973"
+Inst72Quest1_HORDE_QuestID = "13095"
+Inst72Quest2_HORDE_QuestID = "11905"
+Inst72Quest3_HORDE_QuestID = "11911"
+Inst72Quest4_HORDE_QuestID = "11973"
 
 
-AQ_29820_Level = "71"
 AQ_13094_Level = "71"
 AQ_11905_Level = "71"
 AQ_11911_Level = "71"
