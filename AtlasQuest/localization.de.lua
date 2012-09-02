@@ -8384,85 +8384,75 @@ Inst71Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
+
 --------------- INST72 - The Nexus: The Nexus ---------------
 
 Inst72Caption = "Der Nexus"
-Inst72QAA = "5 Quests"
-Inst72QAH = "5 Quests"
+Inst72QAA = "4 Quests"
+Inst72QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst72Quest1 = "1. In den Nexus"
+Inst72Quest1 = "1. Schämen sie sich denn nicht?"
 Inst72Quest1_Level = "71"
-Inst72Quest1_Attain = "69"
-Inst72Quest1_Aim = "Erzmagier Berinand bittet Dich mit Kriegsmagierin Kaitlyn innerhalb des Nexus zu sprechen."
-Inst72Quest1_Location = "Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest1_Note = "Kriegsmagierin Kaitlyn ist innerhalb der Instanz am Eingang."
+Inst72Quest1_Attain = "68"
+Inst72Quest1_Aim = "Abbild von Kriegsmagierin Kaitlyn möchte, dass Ihr Berinands Forschungsergebnisse beschafft."
+Inst72Quest1_Location = "Abbild von Kriegsmagierin Kaitlyn (Nexus; "..BLUE.."Eingang"..WHITE..")\n oder Bibliothekarin Serrah (Boreanische Tundra - Transitusschild; "..YELLOW.."33.4, 34.3"..WHITE..")"
+Inst72Quest1_Note = "Das Forschungsergebnissbuch liegt auf dem Boden in der Halle auf den Weg zum Großmagistrix Telestra bei "..YELLOW.."[1]"..WHITE.."."
 Inst72Quest1_Prequest = "Nein"
 Inst72Quest1_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst72Quest1name1 = "Schultern des Nordlichts"
+Inst72Quest1name2 = "Geschmeidiger Mammutbalgmantel"
+Inst72Quest1name3 = "Schulterschutz des Tundrafährtenlesers"
+Inst72Quest1name4 = "Tundraschulterstücke"
 
 --Quest 2 Alliance
-Inst72Quest2 = "2. Schämen sie sich denn nicht?"
+Inst72Quest2 = "2. Das Unvermeidliche hinauszögern"
 Inst72Quest2_Level = "71"
-Inst72Quest2_Attain = "68"
-Inst72Quest2_Aim = "Abbild von Kriegsmagierin Kaitlyn möchte, dass Ihr Berinands Forschungsergebnisse beschafft."
-Inst72Quest2_Location = "Abbild von Kriegsmagierin Kaitlyn (Nexus; "..BLUE.."Eingang"..WHITE..")\n oder Bibliothekarin Serrah (Boreanische Tundra - Transitusschild; "..YELLOW.."33.4, 34.3"..WHITE..")"
-Inst72Quest2_Note = "Das Forschungsergebnissbuch liegt auf dem Boden in der Halle auf den Weg zum Großmagistrix Telestra bei "..YELLOW.."[1]"..WHITE.."."
-Inst72Quest2_Prequest = "Nein"
+Inst72Quest2_Attain = "69"
+Inst72Quest2_Aim = "Das Abbild der Kriegsmagierin Kaitlyn im Nexus möchte, dass Ihr den interdimensionalen Refabrikator in der Nähe des Risses benutzt."
+Inst72Quest2_Location = "Abbild von Kriegsmagierin Kaitlyn (Nexus; "..BLUE.."Eingang"..WHITE..")\n oder Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
+Inst72Quest2_Note = "Benutze den interdimensionalen Refabrikator am Ende der Plattform von Anomaluson, bei "..YELLOW.."[3]"..WHITE.."."
+Inst72Quest2_Prequest = "Die Zähler ablesen"
 Inst72Quest2_Folgequest = "Nein"
+Inst72Quest2PreQuest = "true"
 --
-Inst72Quest2name1 = "Schultern des Nordlichts"
-Inst72Quest2name2 = "Geschmeidiger Mammutbalgmantel"
-Inst72Quest2name3 = "Schulterschutz des Tundrafährtenlesers"
-Inst72Quest2name4 = "Tundraschulterstücke"
+Inst72Quest2name1 = "Zeitverzerrte Stulpen"
+Inst72Quest2name2 = "Zeitstoppende Handschuhe"
+Inst72Quest2name3 = "Bindungen der Sabotage"
+Inst72Quest2name4 = "Stuplen des verwirrten Riesen"
 
 --Quest 3 Alliance
-Inst72Quest3 = "3. Das Unvermeidliche hinauszögern"
+Inst72Quest3 = "3. Beschleunigen"
 Inst72Quest3_Level = "71"
 Inst72Quest3_Attain = "69"
-Inst72Quest3_Aim = "Das Abbild der Kriegsmagierin Kaitlyn im Nexus möchte, dass Ihr den interdimensionalen Refabrikator in der Nähe des Risses benutzt."
+Inst72Quest3_Aim = "Das Abbild der Kriegsmagierin Kaitlyn im Nexus möchte, dass Ihr 5 arkane Splitter von kristallinen Beschützern beschafft."
 Inst72Quest3_Location = "Abbild von Kriegsmagierin Kaitlyn (Nexus; "..BLUE.."Eingang"..WHITE..")\n oder Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest3_Note = "Benutze den interdimensionalen Refabrikator am Ende der Plattform von Anomaluson, bei "..YELLOW.."[3]"..WHITE.."."
-Inst72Quest3_Prequest = "Die Zähler ablesen"
+Inst72Quest3_Note = "Arkane Späne droppen von den kristallinen Beschützern."
+Inst72Quest3_Prequest = "Geheimnisse der Urtume"
 Inst72Quest3_Folgequest = "Nein"
 Inst72Quest3PreQuest = "true"
 --
-Inst72Quest3name1 = "Zeitverzerrte Stulpen"
-Inst72Quest3name2 = "Zeitstoppende Handschuhe"
-Inst72Quest3name3 = "Bindungen der Sabotage"
-Inst72Quest3name4 = "Stuplen des verwirrten Riesen"
+Inst72Quest3name1 = "Sandalen der mystischen Evolution"
+Inst72Quest3name2 = "Treter der zerrissenen Zukunft"
+Inst72Quest3name3 = "Stacheltreter der Mutation"
+Inst72Quest3name4 = "Belebende Sabatons"
+Inst72Quest3name5 = "Stiefel des unbeugsamen Beschützers"
 
 --Quest 4 Alliance
-Inst72Quest4 = "4. Beschleunigen"
+Inst72Quest4 = "4. Kriegsgefangene"
 Inst72Quest4_Level = "71"
 Inst72Quest4_Attain = "69"
-Inst72Quest4_Aim = "Das Abbild der Kriegsmagierin Kaitlyn im Nexus möchte, dass Ihr 5 arkane Splitter von kristallinen Beschützern beschafft."
-Inst72Quest4_Location = "Abbild von Kriegsmagierin Kaitlyn (Nexus; "..BLUE.."Eingang"..WHITE..")\n oder Erzmagier Berinand (Boreanische Tundra - Transitusschild; "..YELLOW.."32.9, 34.3"..WHITE..")"
-Inst72Quest4_Note = "Arkane Späne droppen von den kristallinen Beschützern."
-Inst72Quest4_Prequest = "Geheimnisse der Urtume"
+Inst72Quest4_Aim = "Kriegsmagierin Kaitlyn möchte, dass Ihr Keristrasza befreit."
+Inst72Quest4_Location = "Abbild von Kriegsmagierin Kaitlyn (Nexus; "..BLUE.."Eingang"..WHITE..")\n oder Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
+Inst72Quest4_Note = "Keristrasza ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst72Quest4_Prequest = "Keristrasza -> Die Falle zuschnappen lassen"
 Inst72Quest4_Folgequest = "Nein"
 Inst72Quest4PreQuest = "true"
 --
-Inst72Quest4name1 = "Sandalen der mystischen Evolution"
-Inst72Quest4name2 = "Treter der zerrissenen Zukunft"
-Inst72Quest4name3 = "Stacheltreter der Mutation"
-Inst72Quest4name4 = "Belebende Sabatons"
-Inst72Quest4name5 = "Stiefel des unbeugsamen Beschützers"
-
---Quest 5 Alliance
-Inst72Quest5 = "5. Kriegsgefangene"
-Inst72Quest5_Level = "71"
-Inst72Quest5_Attain = "69"
-Inst72Quest5_Aim = "Kriegsmagierin Kaitlyn möchte, dass Ihr Keristrasza befreit."
-Inst72Quest5_Location = "Abbild von Kriegsmagierin Kaitlyn (Nexus; "..BLUE.."Eingang"..WHITE..")\n oder Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")"
-Inst72Quest5_Note = "Keristrasza ist bei "..YELLOW.."[5]"..WHITE.."."
-Inst72Quest5_Prequest = "Keristrasza -> Die Falle zuschnappen lassen"
-Inst72Quest5_Folgequest = "Nein"
-Inst72Quest5PreQuest = "true"
---
-Inst72Quest5name1 = "Umhang des Azurlichts"
-Inst72Quest5name2 = "Mantelung von Keristrasza"
-Inst72Quest5name3 = "Tuch der flüssigen Angriffe"
+Inst72Quest4name1 = "Umhang des Azurlichts"
+Inst72Quest4name2 = "Mantelung von Keristrasza"
+Inst72Quest4name3 = "Tuch der flüssigen Angriffe"
 
 
 --Quest 1 Horde
@@ -8474,7 +8464,11 @@ Inst72Quest1_HORDE_Location = Inst72Quest1_Location
 Inst72Quest1_HORDE_Note = Inst72Quest1_Note
 Inst72Quest1_HORDE_Prequest = "Nein"
 Inst72Quest1_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst72Quest1name1_HORDE = Inst72Quest1name1
+Inst72Quest1name2_HORDE = Inst72Quest1name2
+Inst72Quest1name3_HORDE = Inst72Quest1name3
+Inst72Quest1name4_HORDE = Inst72Quest1name4
 
 --Quest 2 Horde
 Inst72Quest2_HORDE = Inst72Quest2
@@ -8506,6 +8500,7 @@ Inst72Quest3name1_HORDE = Inst72Quest3name1
 Inst72Quest3name2_HORDE = Inst72Quest3name2
 Inst72Quest3name3_HORDE = Inst72Quest3name3
 Inst72Quest3name4_HORDE = Inst72Quest3name4
+Inst72Quest3name5_HORDE = Inst72Quest3name5
 
 --Quest 4 Horde
 Inst72Quest4_HORDE = Inst72Quest4
@@ -8522,23 +8517,6 @@ Inst72Quest4name1_HORDE = Inst72Quest4name1
 Inst72Quest4name2_HORDE = Inst72Quest4name2
 Inst72Quest4name3_HORDE = Inst72Quest4name3
 Inst72Quest4name4_HORDE = Inst72Quest4name4
-Inst72Quest4name5_HORDE = Inst72Quest4name5
-
---Quest 5 Horde
-Inst72Quest5_HORDE = Inst72Quest5
-Inst72Quest5_HORDE_Level = "71"
-Inst72Quest5_HORDE_Attain = "69"
-Inst72Quest5_HORDE_Aim = Inst72Quest5_Aim
-Inst72Quest5_HORDE_Location = Inst72Quest5_Location
-Inst72Quest5_HORDE_Note = Inst72Quest5_Note
-Inst72Quest5_HORDE_Prequest = Inst72Quest5_Prequest
-Inst72Quest5_HORDE_Folgequest = "Nein"
-Inst72Quest5PreQuest_HORDE = "true"
---
-Inst72Quest5name1_HORDE = Inst72Quest5name1
-Inst72Quest5name2_HORDE = Inst72Quest5name2
-Inst72Quest5name3_HORDE = Inst72Quest5name3
-
 
 
 
