@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 4.8.1 BETA (September 25, 2012)
+
+- Removed obsolete "Into the Nexus" quest.  Thanks yunohu!
+- Localizations updated: deDE, enUS
+
+
+
 Version 4.8.0 BETA  (August 28, 2012)
 
 - Clarified location of quest giver for Auchenai Crypts: Raging Spirits.  (thanks yunohu)

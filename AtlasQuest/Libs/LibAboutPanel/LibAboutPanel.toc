@@ -1,5 +1,5 @@
 ﻿## Title: Lib: AboutPanel
-## X-Curse-Packaged-Version: v1.51
+## X-Curse-Packaged-Version: 1.6.0
 ## X-Curse-Project-Name: LibAboutPanel
 ## X-Curse-Project-ID: libaboutpanel
 ## X-Curse-Repository-ID: wow/libaboutpanel/mainline
@@ -12,10 +12,10 @@
 ##X-Author-Server = Thunderlord US
 ## X-Donate: http://www.curseforge.com/projects/libaboutpanel/#w_donations
 
-## Interface: 40000
-## Version: 1.5
+## Interface: 50001
+## Version: 1.6.0
 ## X-Revision: @project-revision@
-## X-Date: 2010-10-15T16:32:26Z
+## X-Date: 2012-08-29T16:24:19Z
 
 ## X-Category: Libraries
 ## X-Localizations: enUS
