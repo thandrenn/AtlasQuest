@@ -8375,82 +8375,71 @@ Inst71Quest3_HORDE_Folgequest = Inst71Quest3_Folgequest
 --------------- INST72 - The Nexus: The Nexus ---------------
 
 Inst72Caption = "魔枢：魔枢"
-Inst72QAA = "5 个任务"
-Inst72QAH = "5 个任务"
+Inst72QAA = "4 个任务"
+Inst72QAH = "4 个任务"
 
 --Quest 1 Alliance
-Inst72Quest1 = "1. 前往魔枢"
+Inst72Quest1 = "1. 他们丝毫不感到羞愧吗？"
 Inst72Quest1_Level = "71"
-Inst72Quest1_Attain = "69"
-Inst72Quest1_Aim = "大法师伯林纳德希望你能与魔枢内的战斗法师凯特琳交谈。"
-Inst72Quest1_Location = "大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
-Inst72Quest1_Note = "战斗法师凯特琳就在地下城入口内。"
+Inst72Quest1_Attain = "68"
+Inst72Quest1_Aim = "战斗法师凯特琳的影像要你找回伯林纳德的研究笔记。"
+Inst72Quest1_Location = "战斗法师凯特琳的影像（魔枢; "..BLUE.."入口"..WHITE.."）\n或者图书馆员塞尔拉（北风苔原 - 永生之盾; "..YELLOW.."33.4, 34.3"..WHITE.."）"
+Inst72Quest1_Note = "伯林纳德的研究笔记在通向大魔导师泰蕾丝塔"..YELLOW.."[1]"..WHITE.."的大厅的地上。"
 Inst72Quest1_Prequest = "无"
 Inst72Quest1_Folgequest = "无"
--- No Rewards for this quest
+--
+Inst72Quest1name1 = "北地光芒护肩"
+Inst72Quest1name2 = "熟化猛犸皮衬肩"
+Inst72Quest1name3 = "苔原追踪者护肩"
+Inst72Quest1name4 = "苔原肩铠"
 
 --Quest 2 Alliance
-Inst72Quest2 = "2. 他们丝毫不感到羞愧吗？"
+Inst72Quest2 = "2. 延缓灾难"
 Inst72Quest2_Level = "71"
-Inst72Quest2_Attain = "68"
-Inst72Quest2_Aim = "战斗法师凯特琳的影像要你找回伯林纳德的研究笔记。"
-Inst72Quest2_Location = "战斗法师凯特琳的影像（魔枢; "..BLUE.."入口"..WHITE.."）\n或者图书馆员塞尔拉（北风苔原 - 永生之盾; "..YELLOW.."33.4, 34.3"..WHITE.."）"
-Inst72Quest2_Note = "伯林纳德的研究笔记在通向大魔导师泰蕾丝塔"..YELLOW.."[1]"..WHITE.."的大厅的地上。"
-Inst72Quest2_Prequest = "无"
+Inst72Quest2_Attain = "69"
+Inst72Quest2_Aim = "战斗法师凯特琳的影像要你在魔枢的裂隙附近使用交叉空间重塑器。"
+Inst72Quest2_Location = "战斗法师凯特琳的影像（魔枢; "..BLUE.."入口"..WHITE.."）\n或者大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
+Inst72Quest2_Note = "在阿诺玛鲁斯"..YELLOW.."[3]"..WHITE.."的位置附近的平台边缘使用使用交叉空间重塑器。"
+Inst72Quest2_Prequest = "监测数据"
 Inst72Quest2_Folgequest = "无"
+Inst72Quest2PreQuest = "true"
 --
-Inst72Quest2name1 = "北地光芒护肩"
-Inst72Quest2name2 = "熟化猛犸皮衬肩"
-Inst72Quest2name3 = "苔原追踪者护肩"
-Inst72Quest2name4 = "苔原肩铠"
+Inst72Quest2name1 = "时间扭曲裹手"
+Inst72Quest2name2 = "时间停止手套"
+Inst72Quest2name3 = "阴谋护腕"
+Inst72Quest2name4 = "困惑巨人护手"
 
 --Quest 3 Alliance
-Inst72Quest3 = "3. 延缓灾难"
+Inst72Quest3 = "3. 苏醒"
 Inst72Quest3_Level = "71"
 Inst72Quest3_Attain = "69"
-Inst72Quest3_Aim = "战斗法师凯特琳的影像要你在魔枢的裂隙附近使用交叉空间重塑器。"
+Inst72Quest3_Aim = "魔枢的战斗法师凯特琳的影像要你从晶化保卫者身上收集5块奥术碎片。"
 Inst72Quest3_Location = "战斗法师凯特琳的影像（魔枢; "..BLUE.."入口"..WHITE.."）\n或者大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
-Inst72Quest3_Note = "在阿诺玛鲁斯"..YELLOW.."[3]"..WHITE.."的位置附近的平台边缘使用使用交叉空间重塑器。"
-Inst72Quest3_Prequest = "监测数据"
+Inst72Quest3_Note = "晶化保卫者掉落奥术古树碎片，分布在去塑树者奥莫洛克的路上。"
+Inst72Quest3_Prequest = "古树的秘密"
 Inst72Quest3_Folgequest = "无"
 Inst72Quest3PreQuest = "true"
 --
-Inst72Quest3name1 = "时间扭曲裹手"
-Inst72Quest3name2 = "时间停止手套"
-Inst72Quest3name3 = "阴谋护腕"
-Inst72Quest3name4 = "困惑巨人护手"
+Inst72Quest3name1 = "奥术进化便鞋"
+Inst72Quest3name2 = "破碎未来之靴"
+Inst72Quest3name3 = "变异刺靴"
+Inst72Quest3name4 = "充沛之靴"
+Inst72Quest3name5 = "不屈保卫者之靴"
 
 --Quest 4 Alliance
-Inst72Quest4 = "4. 苏醒"
+Inst72Quest4 = "4. 战争的囚徒"
 Inst72Quest4_Level = "71"
 Inst72Quest4_Attain = "69"
-Inst72Quest4_Aim = "魔枢的战斗法师凯特琳的影像要你从晶化保卫者身上收集5块奥术碎片。"
-Inst72Quest4_Location = "战斗法师凯特琳的影像（魔枢; "..BLUE.."入口"..WHITE.."）\n或者大法师伯林纳德（北风苔原 - 永生之盾; "..YELLOW.."32.9, 34.3"..WHITE.."）"
-Inst72Quest4_Note = "晶化保卫者掉落奥术古树碎片，分布在去塑树者奥莫洛克的路上。"
-Inst72Quest4_Prequest = "古树的秘密"
+Inst72Quest4_Aim = "战斗法师凯特琳要你去释放克莉斯塔萨。"
+Inst72Quest4_Location = "战斗法师凯特琳（魔枢; "..BLUE.."入口"..WHITE.."）\n或者莱洛拉斯（北风苔原 - 永生之盾; "..YELLOW.."33.2, 34.4"..WHITE.."）"
+Inst72Quest4_Note = "克莉斯塔萨在"..YELLOW.."[5]"..WHITE.."。"
+Inst72Quest4_Prequest = "克莉斯塔萨 -> 触动陷阱"
 Inst72Quest4_Folgequest = "无"
 Inst72Quest4PreQuest = "true"
 --
-Inst72Quest4name1 = "奥术进化便鞋"
-Inst72Quest4name2 = "破碎未来之靴"
-Inst72Quest4name3 = "变异刺靴"
-Inst72Quest4name4 = "充沛之靴"
-Inst72Quest4name5 = "不屈保卫者之靴"
-
---Quest 5 Alliance
-Inst72Quest5 = "5. 战争的囚徒"
-Inst72Quest5_Level = "71"
-Inst72Quest5_Attain = "69"
-Inst72Quest5_Aim = "战斗法师凯特琳要你去释放克莉斯塔萨。"
-Inst72Quest5_Location = "战斗法师凯特琳（魔枢; "..BLUE.."入口"..WHITE.."）\n或者莱洛拉斯（北风苔原 - 永生之盾; "..YELLOW.."33.2, 34.4"..WHITE.."）"
-Inst72Quest5_Note = "克莉斯塔萨在"..YELLOW.."[5]"..WHITE.."。"
-Inst72Quest5_Prequest = "克莉斯塔萨 -> 触动陷阱"
-Inst72Quest5_Folgequest = "无"
-Inst72Quest5PreQuest = "true"
---
-Inst72Quest5name1 = "碧蓝光芒披风"
-Inst72Quest5name2 = "克莉斯塔萨衬肩"
-Inst72Quest5name3 = "流畅攻击披风"
+Inst72Quest4name1 = "碧蓝光芒披风"
+Inst72Quest4name2 = "克莉斯塔萨衬肩"
+Inst72Quest4name3 = "流畅攻击披风"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8462,7 +8451,11 @@ Inst72Quest1_HORDE_Location = Inst72Quest1_Location
 Inst72Quest1_HORDE_Note = Inst72Quest1_Note
 Inst72Quest1_HORDE_Prequest = Inst72Quest1_Prequest
 Inst72Quest1_HORDE_Folgequest = Inst72Quest1_Folgequest
--- No Rewards for this quest
+--
+Inst72Quest1name1_HORDE = Inst72Quest1name1
+Inst72Quest1name2_HORDE = Inst72Quest1name2
+Inst72Quest1name3_HORDE = Inst72Quest1name3
+Inst72Quest1name4_HORDE = Inst72Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst72Quest2_HORDE = Inst72Quest2
@@ -8473,6 +8466,7 @@ Inst72Quest2_HORDE_Location = Inst72Quest2_Location
 Inst72Quest2_HORDE_Note = Inst72Quest2_Note
 Inst72Quest2_HORDE_Prequest = Inst72Quest2_Prequest
 Inst72Quest2_HORDE_Folgequest = Inst72Quest2_Folgequest
+Inst72Quest2PreQuest_HORDE = Inst72Quest2PreQuest
 --
 Inst72Quest2name1_HORDE = Inst72Quest2name1
 Inst72Quest2name2_HORDE = Inst72Quest2name2
@@ -8494,6 +8488,7 @@ Inst72Quest3name1_HORDE = Inst72Quest3name1
 Inst72Quest3name2_HORDE = Inst72Quest3name2
 Inst72Quest3name3_HORDE = Inst72Quest3name3
 Inst72Quest3name4_HORDE = Inst72Quest3name4
+Inst72Quest3name5_HORDE = Inst72Quest3name5
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst72Quest4_HORDE = Inst72Quest4
@@ -8509,23 +8504,6 @@ Inst72Quest4PreQuest_HORDE = Inst72Quest4PreQuest
 Inst72Quest4name1_HORDE = Inst72Quest4name1
 Inst72Quest4name2_HORDE = Inst72Quest4name2
 Inst72Quest4name3_HORDE = Inst72Quest4name3
-Inst72Quest4name4_HORDE = Inst72Quest4name4
-Inst72Quest4name5_HORDE = Inst72Quest4name5
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst72Quest5_HORDE = Inst72Quest5
-Inst72Quest5_HORDE_Level = Inst72Quest5_Level
-Inst72Quest5_HORDE_Attain = Inst72Quest5_Attain
-Inst72Quest5_HORDE_Aim = Inst72Quest5_Aim
-Inst72Quest5_HORDE_Location = Inst72Quest5_Location
-Inst72Quest5_HORDE_Note = Inst72Quest5_Note
-Inst72Quest5_HORDE_Prequest = Inst72Quest5_Prequest
-Inst72Quest5_HORDE_Folgequest = Inst72Quest5_Folgequest
-Inst72Quest5PreQuest_HORDE = Inst72Quest5PreQuest
---
-Inst72Quest5name1_HORDE = Inst72Quest5name1
-Inst72Quest5name2_HORDE = Inst72Quest5name2
-Inst72Quest5name3_HORDE = Inst72Quest5name3
 
 
 
@@ -12259,7 +12237,7 @@ Inst114Quest1 = "1. Relics of the Four Kings"
 Inst114Quest1_Level = "89"
 Inst114Quest1_Attain = "87"
 Inst114Quest1_Aim = "Collect the Lantern of the Sorcerer King, Mad King Meng's Balance, Qiang's 'The Science of War', and Subetai's Bow of the Swift."
-Inst114Quest1_Location = "?? (Mogu'Shan Palace; "..BLUE.."Entrance ??"..WHITE..")"
+Inst114Quest1_Location = "Sinan the Dreamer (Mogu'Shan Palace; "..BLUE.."Entrance"..WHITE..")"
 Inst114Quest1_Note = "- Lantern of the Sorcerer King is at "..YELLOW.."[??]"..WHITE..".\n- Mad King Meng's Balance is at "..YELLOW.."[??]"..WHITE..".\n- Qiang's 'The Science of War' is at "..YELLOW.."[??]"..WHITE..".\n- Subetai's Bow of the Swift is at is at "..YELLOW.."[??]"..WHITE.."."
 Inst114Quest1_Prequest = "None"
 Inst114Quest1_Folgequest = "None"
@@ -12270,7 +12248,7 @@ Inst114Quest2 = "2. A New Lesson for the Master"
 Inst114Quest2_Level = "89"
 Inst114Quest2_Attain = "87"
 Inst114Quest2_Aim = "Kill Xin the Weaponmaster."
-Inst114Quest2_Location = "?? (Mogu'Shan Palace; "..BLUE.."Entrance ??"..WHITE..")"
+Inst114Quest2_Location = "Sinan the Dreamer (Mogu'Shan Palace; "..BLUE.."Entrance"..WHITE..")"
 Inst114Quest2_Note = "Xin the Weaponmaster is at "..YELLOW.."[3]"..WHITE.."."
 Inst114Quest2_Prequest = "None"
 Inst114Quest2_Folgequest = "None"
@@ -12313,7 +12291,7 @@ Inst115Quest1 = "1. Into the Monastery"
 Inst115Quest1_Level = "88"
 Inst115Quest1_Attain = "87"
 Inst115Quest1_Aim = "Meet Ban Bearheart inside the Shado-Pan Monastery."
-Inst115Quest1_Location = ""
+Inst115Quest1_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
 Inst115Quest1_Note = ""
 Inst115Quest1_Prequest = "None"
 Inst115Quest1_Folgequest = "Lord of the Shado-Pan"
@@ -12335,8 +12313,8 @@ Inst115Quest3 = "3. Lord of the Shado-Pan"
 Inst115Quest3_Level = "89"
 Inst115Quest3_Attain = "87"
 Inst115Quest3_Aim = "Rid Taran Zhu of his possession by the Sha of Hatred."
-Inst115Quest3_Location = ""
-Inst115Quest3_Note = "Taran Zhu is at "..YELLOW.."[??]"..WHITE.."."
+Inst115Quest3_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
+Inst115Quest3_Note = "Taran Zhu is at "..YELLOW.."[4]"..WHITE.."."
 Inst115Quest3_Prequest = "Into the Monastery or Into the Mouth of Hatred"
 Inst115Quest3_Folgequest = "None"
 Inst115Quest3PreQuest = "true"
@@ -12348,7 +12326,7 @@ Inst115Quest4 = "4. The Path to Respect Lies in Violence"
 Inst115Quest4_Level = "89"
 Inst115Quest4_Attain = "87"
 Inst115Quest4_Aim = "Kill the Sha of Violence."
-Inst115Quest4_Location = ""
+Inst115Quest4_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
 Inst115Quest4_Note = "The Sha of Violence is at "..YELLOW.."[??]"..WHITE.."."
 Inst115Quest4_Prequest = "None"
 Inst115Quest4_Folgequest = "None"
@@ -12417,7 +12395,7 @@ Inst116Quest1_Level = "87"
 Inst116Quest1_Attain = "86"
 Inst116Quest1_Aim = "Speak to Chen Stormstout inside the Stormstout Brewery. "
 Inst116Quest1_Location = ""
-Inst116Quest1_Note = ""
+Inst116Quest1_Note = "Chen Stormstout is just inside the entrance."
 Inst116Quest1_Prequest = "Clear the Way -> Cleaning House"
 Inst116Quest1_Folgequest = "Trouble Brewing"
 -- No Rewards for this quest
@@ -12497,7 +12475,7 @@ Inst117Quest1 = "1. Restoring Jade's Purity"
 Inst117Quest1_Level = "87"
 Inst117Quest1_Attain = "85"
 Inst117Quest1_Aim = "Assist Wise Mari, Liu Flameheart, and Lorewalker Stonestep with their sha problems."
-Inst117Quest1_Location = ""
+Inst117Quest1_Location = "Priestess Summerpetal (Temple of the Jade Serpent; "..BLUE.."Entrance"..WHITE..")"
 Inst117Quest1_Note = "- Wise Mari is at "..YELLOW.."[1]"..WHITE..".\n- Lorewalker Stonestep is at "..YELLOW.."[2]"..WHITE..".\n- Liu Flameheart is at "..YELLOW.."[3]"..WHITE.."."
 Inst117Quest1_Prequest = "None"
 Inst117Quest1_Folgequest = "None"
@@ -12509,7 +12487,7 @@ Inst117Quest2 = "2. Deep Doubts, Deep Wisdom"
 Inst117Quest2_Level = "87"
 Inst117Quest2_Attain = "85"
 Inst117Quest2_Aim = "Kill the Sha of Doubt."
-Inst117Quest2_Location = ""
+Inst117Quest2_Location = "Master Windstrong (Temple of the Jade Serpent; "..BLUE.."Entrance"..WHITE..")"
 Inst117Quest2_Note = "The Sha of Doubt is at "..YELLOW.."[4]"..WHITE.."."
 Inst117Quest2_Prequest = "None"
 Inst117Quest2_Folgequest = "None"
@@ -12554,7 +12532,7 @@ Inst118Quest1 = "1. Lighting the Way"
 Inst118Quest1_Level = "90"
 Inst118Quest1_Attain = "90"
 Inst118Quest1_Aim = "Light the Signal Flame."
-Inst118Quest1_Location = ""
+Inst118Quest1_Location = "Bowmistress Li (The Gate of the Setting Sun; "..BLUE.."Entrance"..WHITE..")"
 Inst118Quest1_Note = ""
 Inst118Quest1_Prequest = "None"
 Inst118Quest1_Folgequest = "None"
@@ -12565,7 +12543,7 @@ Inst118Quest2 = "2. That's a Big Bug!"
 Inst118Quest2_Level = "90"
 Inst118Quest2_Attain = "90"
 Inst118Quest2_Aim = "Kill Raigonn."
-Inst118Quest2_Location = ""
+Inst118Quest2_Location = "Bowmistress Li (The Gate of the Setting Sun; "..BLUE.."Entrance"..WHITE..")"
 Inst118Quest2_Note = "Raigonn is at "..YELLOW.."[4]"..WHITE.."."
 Inst118Quest2_Prequest = "None"
 Inst118Quest2_Folgequest = "None"
