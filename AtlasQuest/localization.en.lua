@@ -11516,8 +11516,8 @@ Inst105QAH = "No Quests"
 --------------- INST108 - Zul'Gurub (ZG) ---------------
 
 Inst108Caption = "Zul'Gurub"
-Inst108QAA = "No Quests"
-Inst108QAH = "No Quests"
+Inst108QAA = "6 Quests"
+Inst108QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst108Quest1 = "1. The Beasts Within"
