@@ -634,7 +634,7 @@
  			</Anchor>
  		</Anchors>
 	  <Frames>
-	  <Button name="CLOSEbutton3" inherits="UIPanelButtonTemplate2" text="AtlasQuest">
+	  <Button name="CLOSEbutton3" inherits="UIPanelButtonTemplate" text="AtlasQuest">
           <Size>
             <AbsDimension x="90" y="20"/>
           </Size>
