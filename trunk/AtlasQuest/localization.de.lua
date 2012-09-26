@@ -12278,25 +12278,27 @@ Inst114QAA = "2 Quests"
 Inst114QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst114Quest1 = "1. Relics of the Four Kings"
+Inst114Quest1 = "1. Relikte der Vier Könige"
 Inst114Quest1_Level = "89"
 Inst114Quest1_Attain = "87"
-Inst114Quest1_Aim = "Collect the Lantern of the Sorcerer King, Mad King Meng's Balance, Qiang's 'The Science of War', and Subetai's Bow of the Swift."
-Inst114Quest1_Location = "Sinan the Dreamer (Mogu’Shan Palast; "..BLUE.."Eingang"..WHITE..")"
-Inst114Quest1_Note = "- Lantern of the Sorcerer King ist bei "..YELLOW.."[??]"..WHITE..".\n- Mad King Meng's Balance is at "..YELLOW.."[??]"..WHITE..".\n- Qiang's 'The Science of War' is at "..YELLOW.."[??]"..WHITE..".\n- Subetai's Bow of the Swift is at is at "..YELLOW.."[??]"..WHITE.."."
+Inst114Quest1_Aim = "Beschafft die Laterne des Zaubererkönigs, die Waage von König Meng dem Irren, Qiangs "Die Wissenschaft des Krieges" und Subetais Bogen des Schnellen."
+Inst114Quest1_Location = "Sinan the Dreamer (Mogu'shanpalast; "..BLUE.."Eingang"..WHITE..")"
+Inst114Quest1_Note = "All items are in the Vault of Kings between the first and second bosses."
 Inst114Quest1_Prequest = "Nein"
 Inst114Quest1_Folgequest = "Nein"
+--
 -- Reward varies for each class
 
 --Quest 2 Alliance
-Inst114Quest2 = "2. A New Lesson for the Master"
+Inst114Quest2 = "2. Eine neue Lektion für den Meister"
 Inst114Quest2_Level = "89"
 Inst114Quest2_Attain = "87"
 Inst114Quest2_Aim = "Tötet Xin den Waffenmeister."
-Inst114Quest2_Location = "Sinan the Dreamer (Mogu’Shan Palast; "..BLUE.."Eingang"..WHITE..")"
+Inst114Quest2_Location = "Sinan the Dreamer (Mogu'shanpalast; "..BLUE.."Eingang"..WHITE..")"
 Inst114Quest2_Note = "Xin der Waffenmeister ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst114Quest2_Prequest = "Nein"
 Inst114Quest2_Folgequest = "Nein"
+--
 -- Reward varies for each class
 
 
@@ -12309,6 +12311,7 @@ Inst114Quest1_HORDE_Location = Inst114Quest1_Location
 Inst114Quest1_HORDE_Note = Inst114Quest1_Note
 Inst114Quest1_HORDE_Prequest = "Nein"
 Inst114Quest1_HORDE_Folgequest = "Nein"
+--
 -- Reward varies for each class
 
 --Quest 2 Horde
@@ -12331,49 +12334,49 @@ Inst115QAA = "4 Quests"
 Inst115QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst115Quest1 = "1. Into the Monastery"
+Inst115Quest1 = "1. Ins Kloster"
 Inst115Quest1_Level = "88"
 Inst115Quest1_Attain = "87"
-Inst115Quest1_Aim = "Meet Ban Bearheart inside the Shado-Pan Monastery."
-Inst115Quest1_Location = "Ban Bearheart (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
-Inst115Quest1_Note = ""
-Inst115Quest1_Prequest = "Nein"
-Inst115Quest1_Folgequest = "Lord of the Shado-Pan"
-Inst115Quest1FQuest = "true"
+Inst115Quest1_Aim = "Trefft Ban Bärenherz im Shado-Pan-Kloster."
+Inst115Quest1_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
+Inst115Quest1_Note = "Ban Bärenherz ist innerhalb der Instanz am Eingang."
+Inst115Quest1_Prequest = "Zirkusreif!"
+Inst115Quest1_Folgequest = "In den Schlund des Hasses"
+Inst115Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst115Quest2 = "2. Into the Mouth of Hatred"
+Inst115Quest2 = "2. In den Schlund des Hasses"
 Inst115Quest2_Level = "89"
 Inst115Quest2_Attain = "87"
-Inst115Quest2_Aim = "Speak with Initiate Kia at the Cloudstrike Dojo inside the Shado-Pan Monastery."
+Inst115Quest2_Aim = "Sprecht mit Initiandin Kia in Meister Wolkenschlags Dojo im Shado-Pan-Kloster."
 Inst115Quest2_Location = ""
 Inst115Quest2_Note = ""
 Inst115Quest2_Prequest = "Nein"
-Inst115Quest2_Folgequest = "Lord of the Shado-Pan"
+Inst115Quest2_Folgequest = "Der Herr der Shado-Pan"
 Inst115Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst115Quest3 = "3. Lord of the Shado-Pan"
+Inst115Quest3 = "3. Der Herr der Shado-Pan"
 Inst115Quest3_Level = "89"
 Inst115Quest3_Attain = "87"
-Inst115Quest3_Aim = "Rid Taran Zhu of his possession by the Sha of Hatred."
-Inst115Quest3_Location = "Ban Bearheart (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
+Inst115Quest3_Aim = "Befreit Taran Zhu vom Sha des Hasses."
+Inst115Quest3_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
 Inst115Quest3_Note = "Taran Zhu ist bei "..YELLOW.."[??]"..WHITE.."."
-Inst115Quest3_Prequest = "Into the Monastery or Into the Mouth of Hatred"
+Inst115Quest3_Prequest = "In den Schlund des Hasses"
 Inst115Quest3_Folgequest = "Nein"
 Inst115Quest3PreQuest = "true"
 --
 -- Reward varies for each class
 
 --Quest 4 Alliance
-Inst115Quest4 = "4. The Path to Respect Lies in Violence"
+Inst115Quest4 = "4. Der Weg zum Respekt liegt in der Gewalt"
 Inst115Quest4_Level = "89"
 Inst115Quest4_Attain = "87"
-Inst115Quest4_Aim = "Kill the Sha of Violence."
-Inst115Quest4_Location = "Ban Bearheart (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
-Inst115Quest4_Note = "The Sha of Violence ist bei "..YELLOW.."[??]"..WHITE.."."
+Inst115Quest4_Aim = "Tötet das Sha der Gewalt."
+Inst115Quest4_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
+Inst115Quest4_Note = "Der Sha der Gewalt ist bei "..YELLOW.."[??]"..WHITE.."."
 Inst115Quest4_Prequest = "Nein"
 Inst115Quest4_Folgequest = "Nein"
 --
@@ -12438,13 +12441,13 @@ Inst116QAA = "3 Quests"
 Inst116QAH = "3 Quests"
 
 --Quest 1 Alliance 
-Inst116Quest1 = "1. Into the Brewery"
+Inst116Quest1 = "1. In der Brauerei"
 Inst116Quest1_Level = "87"
 Inst116Quest1_Attain = "86"
-Inst116Quest1_Aim = "Sprecht mit Chen Sturmbräu innerhalb der Brauerei Sturmbräu."
+Inst116Quest1_Aim = "Sprecht mit Chen Sturmbräu in der Brauerei Sturmbräu."
 Inst116Quest1_Location = ""
 Inst116Quest1_Note = "Chen Stormstout is just inside the entrance."
-Inst116Quest1_Prequest = "Clear the Way -> Cleaning House"
+Inst116Quest1_Prequest = "Weg frei -> Hausputz"
 Inst116Quest1_Folgequest = "Ärger aus dem Fass"
 Inst116Quest1FQuest = "true"
 -- No Rewards for this quest
@@ -12456,7 +12459,7 @@ Inst116Quest2_Attain = "85"
 Inst116Quest2_Aim = "Tötet Yan-Zhu den Dekantierten."
 Inst116Quest2_Location = "Chen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
 Inst116Quest2_Note = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst116Quest2_Prequest = "Into the Brewery"
+Inst116Quest2_Prequest = "In der Brauerei"
 Inst116Quest2_Folgequest = "Nein"
 Inst116Quest2PreQuest = "true"
 --
@@ -12466,7 +12469,7 @@ Inst116Quest2PreQuest = "true"
 Inst116Quest3 = "3. Familiengeheimnisse"
 Inst116Quest3_Level = "87"
 Inst116Quest3_Attain = "85"
-Inst116Quest3_Aim = "Sammelt 5 Sturmsbräu-Geheimnisse."
+Inst116Quest3_Aim = "Sammelt 5 Geheimnisse der Sturmbräus."
 Inst116Quest3_Location = "Auntie Sturmsbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
 Inst116Quest3_Note = ""
 Inst116Quest3_Prequest = "Nein"
@@ -12521,7 +12524,7 @@ Inst117QAA = "2 Quests"
 Inst117QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst117Quest1 = "1. Restoring Jade's Purity"
+Inst117Quest1 = "1. Wiederherstellung der Reinheit"
 Inst117Quest1_Level = "87"
 Inst117Quest1_Attain = "85"
 Inst117Quest1_Aim = "Helft dem Weisen Mari, Liu Flammenherz und Lehrensucher Steinschritt bei ihren Sha-Problemen."
@@ -12578,22 +12581,22 @@ Inst118QAA = "2 Quests"
 Inst118QAH = "2 Quests"
 
 --Quest 1 Alliance 
-Inst118Quest1 = "1. Lighting the Way"
+Inst118Quest1 = "1. Gebt das Signal"
 Inst118Quest1_Level = "90"
 Inst118Quest1_Attain = "90"
-Inst118Quest1_Aim = "Light the Signal Flame."
-Inst118Quest1_Location = "Bowmistress Li (The Gate of the Setting Sun; "..BLUE.."Eingang"..WHITE..")"
+Inst118Quest1_Aim = "Entfacht die Signalflamme."
+Inst118Quest1_Location = "Bowmistress Li (Das Tor der Untergehenden Sonne; "..BLUE.."Eingang"..WHITE..")"
 Inst118Quest1_Note = ""
 Inst118Quest1_Prequest = "Nein"
 Inst118Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst118Quest2 = "2. That's a Big Bug!"
+Inst118Quest2 = "2. Was für ein Brocken!"
 Inst118Quest2_Level = "90"
 Inst118Quest2_Attain = "90"
-Inst118Quest2_Aim = "Kill Raigonn."
-Inst118Quest2_Location = "Bowmistress Li (The Gate of the Setting Sun; "..BLUE.."Eingang"..WHITE..")"
+Inst118Quest2_Aim = "Tötet Raigonn."
+Inst118Quest2_Location = "Bowmistress Li (Das Tor der Untergehenden Sonne; "..BLUE.."Eingang"..WHITE..")"
 Inst118Quest2_Note = "Raigonn ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst118Quest2_Prequest = "Nein"
 Inst118Quest2_Folgequest = "Nein"
@@ -12633,10 +12636,10 @@ Inst119QAA = "2 Quests"
 Inst119QAH = "2 Quests"
 
 --Quest 1 Alliance 
-Inst119Quest1 = "1. Somewhere Inside"
+Inst119Quest1 = "1. Irgendwo da drinnen"
 Inst119Quest1_Level = "90"
 Inst119Quest1_Attain = "90"
-Inst119Quest1_Aim = "Rescue 12 Shado-Pan Prisoners."
+Inst119Quest1_Aim = "Rettet 12 gefangene Shado-Pan."
 Inst119Quest1_Location = ""
 Inst119Quest1_Note = ""
 Inst119Quest1_Prequest = "Nein"
@@ -12644,12 +12647,12 @@ Inst119Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst119Quest2 = "2. Take Down the Wing Leader"
+Inst119Quest2 = "2. Schaltet den Schwadronsführer aus"
 Inst119Quest2_Level = "90"
 Inst119Quest2_Attain = "90"
-Inst119Quest2_Aim = "Kill Wing Leader Ner'onok."
+Inst119Quest2_Aim = "Tötet Schwadronsführer Ner'onok."
 Inst119Quest2_Location = ""
-Inst119Quest2_Note = "Wing Leader Ner'onok ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst119Quest2_Note = "Schwadronsführer Ner'onok ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst119Quest2_Prequest = "Nein"
 Inst119Quest2_Folgequest = "Nein"
 --
