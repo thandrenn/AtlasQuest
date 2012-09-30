@@ -320,7 +320,8 @@ function AtlasQuest_Instanzenchecken()
 		
 	-- Mists of Pandaria Instances
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanPalace") then
+	--  temporarily retaining both naming forms for backwards compatibility
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MoguShanPalace") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanPalace") then
 		AQINSTANZ = 114;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadoPanMonasteryA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadoPanMonasteryB") then
@@ -329,7 +330,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StormstoutBrewery") then
 		AQINSTANZ = 116;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempleoftheJadeSerpent") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempleOfTheJadeSerpent") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempleoftheJadeSerpent") then
 		AQINSTANZ = 117;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GateoftheSettingSun") then
@@ -338,7 +339,8 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTempleA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTempleB") then
 		AQINSTANZ = 119;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanVaults") then
+	--  temporarily retaining both naming forms for backwards compatibility
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MoguShanVaults") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanVaults") then
 		AQINSTANZ = 120;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TerraceofEndlessSpring") then
