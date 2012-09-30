@@ -130,7 +130,6 @@ AQITEM_SHIELD = "Schild"
 AQITEM_GUN = "Schusswaffe"
 AQITEM_BOW = "Bogen"
 AQITEM_CROSSBOW = "Armbrust"
-AQITEM_THROWN = "Wurfwaffe"
 
 AQITEM_WAIST = "Taille,"
 AQITEM_SHOULDER = "Schultern,"
@@ -155,13 +154,11 @@ AQITEM_TWOHAND = "Zweihändig,"
 
 AQITEM_ITEM = "Gegenstand"
 AQITEM_TRINKET = "Schmuck"
-AQITEM_RELIC = "Relikt"
 AQITEM_POTION = "Trank"
 AQITEM_NECK = "Hals"
 AQITEM_PATTERN = "Muster"
 AQITEM_BAG = "Behälter"
 AQITEM_RING = "Ring"
-AQITEM_KEY = "Schlüssel"
 AQITEM_GEM = "Edelstein"
 AQITEM_ENCHANT = "Verzauberung"
 
@@ -2731,48 +2728,48 @@ Inst58QAA = "4 Quests"
 Inst58QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst58Quest1 = "1. Blades of the Anointed"
+Inst58Quest1 = "1. Die Klingen des Gesalbten"
 Inst58Quest1_Level = "34"
 Inst58Quest1_Attain = "28"
-Inst58Quest1_Aim = "Collect the two Blades of the Anointed."
+Inst58Quest1_Aim = "Findet die zwei Klingen des Gesalbten."
 Inst58Quest1_Location = "Hooded Crusader (Scharlachrote Kloster; "..BLUE.."Eingang"..WHITE..")"
 Inst58Quest1_Note = "Die erste Klinge ist bei "..YELLOW.."[1]"..WHITE..".  The second and the quest turn-in is by the fountain in the Chapel Gardens on the way to the next boss."
 Inst58Quest1_Prequest = "Nein"
-Inst58Quest1_Folgequest = "Unto Dust Thou Shalt Return"
+Inst58Quest1_Folgequest = "Und zum Staub werdet Ihr zurückkehren"
 Inst58Quest1FQuest = "true"
 -- No Rewards for this quest
 
-Inst58Quest2 = "2. Blades of the Anointed (Heroisch)"
+Inst58Quest2 = "2. Die Klingen des Gesalbten (Heroisch)"
 Inst58Quest2_Level = "90"
 Inst58Quest2_Attain = "90"
-Inst58Quest2_Aim = "Collect the two Blades of the Anointed."
+Inst58Quest2_Aim = "Findet die zwei Klingen des Gesalbten."
 Inst58Quest2_Location = "Hooded Crusader (Scharlachrote Kloster; "..BLUE.."Eingang"..WHITE..")"
 Inst58Quest2_Note = "Die erste Klinge ist bei "..YELLOW.."[1]"..WHITE..".  The second and the quest turn-in is by the fountain in the Chapel Gardens on the way to the next boss."
 Inst58Quest2_Prequest = "Nein"
-Inst58Quest2_Folgequest = "Unto Dust Thou Shalt Return"
+Inst58Quest2_Folgequest = "Und zum Staub werdet Ihr zurückkehren"
 Inst58Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst58Quest3 = "3. Unto Dust Thou Shalt Return"
+Inst58Quest3 = "3. Und zum Staub werdet Ihr zurückkehren"
 Inst58Quest3_Level = "34"
 Inst58Quest3_Attain = "28"
-Inst58Quest3_Aim = "Use the Blades of the Anointed on the corpse of High Inquisitor Whitemane to send her permanently to her final rest."
+Inst58Quest3_Aim = "Durchbohrt mit den Klingen des Gesalbten den Leichnam der Hochinquisitorin Weißsträhne, um sie endgültig zu töten."
 Inst58Quest3_Location = "Fountain in Chapel Gardens"
-Inst58Quest3_Note = "High Inquisitor Whitemane is at "..YELLOW.."[3]"..WHITE..".  After you complete the quest, Lilian Voss will spawn to turn the quest in."
-Inst58Quest3_Prequest = "Blades of the Anointed"
+Inst58Quest3_Note = "Hochinquisitorin Weißsträhne ist bei "..YELLOW.."[3]"..WHITE..". Nach Beendigung der Quest, wird Lilian Voss erscheinen um die Quest abgeben zu können."
+Inst58Quest3_Prequest = "Die Klingen des Gesalbten"
 Inst58Quest3_Folgequest = "Nein"
 Inst58Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst58Quest4 = "4. Unto Dust Thou Shalt Return"
+Inst58Quest4 = "4. Und zum Staub werdet Ihr zurückkehren"
 Inst58Quest4_Level = "90"
 Inst58Quest4_Attain = "90"
-Inst58Quest4_Aim = "Use the Blades of the Anointed on the corpse of High Inquisitor Whitemane to send her permanently to her final rest."
+Inst58Quest4_Aim = "Durchbohrt mit den Klingen des Gesalbten den Leichnam der Hochinquisitorin Weißsträhne, um sie endgültig zu töten."
 Inst58Quest4_Location = "Fountain in Chapel Gardens"
-Inst58Quest4_Note = "High Inquisitor Whitemane is at "..YELLOW.."[3]"..WHITE..".  After you complete the quest, Lilian Voss will spawn to turn the quest in."
-Inst58Quest4_Prequest = "Blades of the Anointed"
+Inst58Quest4_Note = "Hochinquisitorin Weißsträhne ist bei "..YELLOW.."[3]"..WHITE..". Nach Beendigung der Quest, wird Lilian Voss erscheinen um die Quest abgeben zu können."
+Inst58Quest4_Prequest = "Die Klingen des Gesalbten"
 Inst58Quest4_Folgequest = "Nein"
 Inst58Quest4PreQuest = "true"
 --
@@ -2835,45 +2832,45 @@ Inst59QAA = "4 Quests"
 Inst59QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst59Quest1 = "1. Rank and File"
+Inst59Quest1 = "1. Gegen das Fußvolk"
 Inst59Quest1_Level = "31"
 Inst59Quest1_Attain = "26"
-Inst59Quest1_Aim = "Kill 50 members of the Scarlet Crusade within the Scarlet Halls."
+Inst59Quest1_Aim = "Tötet 50 Mitglieder des Scharlachroten Kreuzzugs in den Scharlachroten Hallen."
 Inst59Quest1_Location = "Hooded Crusader (Scharlachrote Hallen; "..BLUE.."Eingang"..WHITE..")"
-Inst59Quest1_Note = ""
+Inst59Quest1_Note = "Die Mitglieder befinden sich überall in der Instanz"
 Inst59Quest1_Prequest = "Nein"
 Inst59Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst59Quest2 = "2. Rank and File (Heroisch)"
+Inst59Quest2 = "2. Gegen das Fußvolk (Heroisch)"
 Inst59Quest2_Level = "90"
 Inst59Quest2_Attain = "90"
-Inst59Quest2_Aim = "Kill 50 members of the Scarlet Crusade within the Scarlet Halls."
+Inst59Quest2_Aim = "Tötet 50 Mitglieder des Scharlachroten Kreuzzugs in den Scharlachroten Hallen."
 Inst59Quest2_Location = "Hooded Crusader (Scharlachrote Hallen; "..BLUE.."Eingang"..WHITE..")"
-Inst59Quest2_Note = ""
+Inst59Quest2_Note = "Die Mitglieder befinden sich überall in der Instanz"
 Inst59Quest2_Prequest = "Nein"
 Inst59Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst59Quest3 = "3. Just for Safekeeping, Of Course"
+Inst59Quest3 = "3. Im Namen von Sicherheit und Ordnung"
 Inst59Quest3_Level = "31"
 Inst59Quest3_Attain = "26"
 Inst59Quest3_Aim = "Sammel den Kodex des Kreuzzugs."
 Inst59Quest3_Location = "Hooded Crusader (Scharlachrote Hallen; "..BLUE.."Eingang"..WHITE..")"
-Inst59Quest3_Note = "Der Kodex des Kreuzzugs droppt von Flameweaver Koegler bei "..YELLOW.."[4]"..WHITE.."."
+Inst59Quest3_Note = "Der Kodex des Kreuzzugs droppt von Flammenwirker Koegler bei "..YELLOW.."[4]"..WHITE.."."
 Inst59Quest3_Prequest = "Nein"
 Inst59Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst59Quest4 = "4. Just for Safekeeping, Of Course (Heroisch)"
+Inst59Quest4 = "4. Im Namen von Sicherheit und Ordnung (Heroisch)"
 Inst59Quest4_Level = "90"
 Inst59Quest4_Attain = "90"
 Inst59Quest4_Aim = "Sammel den Kodex des Kreuzzugs."
 Inst59Quest4_Location = "Hooded Crusader (Scharlachrote Hallen; "..BLUE.."Eingang"..WHITE..")"
-Inst59Quest4_Note = "Der Kodex des Kreuzzugs droppt von Flameweaver Koegler bei "..YELLOW.."[4]"..WHITE.."."
+Inst59Quest4_Note = "Der Kodex des Kreuzzugs droppt von Flammenwirker Koegler bei "..YELLOW.."[4]"..WHITE.."."
 Inst59Quest4_Prequest = "Nein"
 Inst59Quest4_Folgequest = "Nein"
 --
@@ -3733,11 +3730,7 @@ Inst28Quest4_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - D
 Inst28Quest4_Note = "Baron Aurius Totenschwur ist bei "..YELLOW.."[6]"..WHITE.."."
 Inst28Quest4_Prequest = "Nein"
 Inst28Quest4_Folgequest = "Nein"
---
-Inst28Quest4name1 = "Statue des Vorbilds"
-Inst28Quest4name2 = "Buch des Vorbilds"
-Inst28Quest4name3 = "Götze des Vorbilds"
-Inst28Quest4name4 = "Relikt des Vorbilds"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -3773,7 +3766,7 @@ Inst28Quest3_HORDE_Prequest = "Nein"
 Inst28Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde
+--Quest 4 Horde
 Inst28Quest4_HORDE = Inst28Quest4
 Inst28Quest4_HORDE_Level = "50"
 Inst28Quest4_HORDE_Attain = "46"
@@ -3782,11 +3775,7 @@ Inst28Quest4_HORDE_Location = Inst28Quest4_Location
 Inst28Quest4_HORDE_Note = Inst28Quest4_Note
 Inst28Quest4_HORDE_Prequest = "Nein"
 Inst28Quest4_HORDE_Folgequest = "Nein"
---
-Inst28Quest4name1_HORDE = Inst28Quest4name1
-Inst28Quest4name2_HORDE = Inst28Quest4name2
-Inst28Quest4name3_HORDE = Inst28Quest4name3
-Inst28Quest4name4_HORDE = Inst28Quest4name4
+-- No Rewards for this quest
 
 
 
@@ -4151,7 +4140,6 @@ Inst27Quest5name1 = "Schulterstücke von Zul'Farrak"
 Inst27Quest5name2 = "Elektrifizierte Gamaschen"
 Inst27Quest5name3 = "Gürtel der Tiefe"
 Inst27Quest5name4 = "Bilgenritzels Armbänder"
-Inst27Quest5name5 = "Stern des Narren"
 
 
 --Quest 1 Horde
@@ -4218,7 +4206,6 @@ Inst27Quest5name1_HORDE = Inst27Quest5name1
 Inst27Quest5name2_HORDE = Inst27Quest5name2
 Inst27Quest5name3_HORDE = Inst27Quest5name3
 Inst27Quest5name4_HORDE = Inst27Quest5name4
-Inst27Quest5name5_HORDE = Inst27Quest5name5
 
 
 
@@ -7826,7 +7813,6 @@ Inst63Quest5_Folgequest = "Nein"
 --
 Inst63Quest5name1 = "Schulterstücke des Ehrgeizes"
 Inst63Quest5name2 = "Roben der Uneinigkeit"
-Inst63Quest5name3 = "Zulianische Wurfaxt"
 
 
 --Quest 1 Horde
@@ -7893,7 +7879,6 @@ Inst63Quest5FQuest_HORDE = "true"
 --
 Inst63Quest5name1_HORDE = Inst63Quest5name1
 Inst63Quest5name2_HORDE = Inst63Quest5name2
-Inst63Quest5name3_HORDE = Inst63Quest5name3
 
 
 
@@ -9744,8 +9729,7 @@ Inst86Quest7_Prequest = "Die vier Siegel Quests"
 Inst86Quest7_Folgequest = "Nein"
 Inst86Quest7PreQuest = "true"
 --
-Inst86Quest7name1 = "Schlüssel des Himmlischen Planetariums"
-Inst86Quest7name2 = "Sack mit Schätzen von Ulduar"
+Inst86Quest7name1 = "Sack mit Schätzen von Ulduar"
 
 --Quest 8 Alliance
 Inst86Quest8 = "8. Ende gut, alles gut"
@@ -9845,8 +9829,7 @@ Inst86Quest15_Prequest = "Die vier Siegel Quests"
 Inst86Quest15_Folgequest = "Nein"
 Inst86Quest15PreQuest = "true"
 --
-Inst86Quest15name1 = "Heroischer Schlüssel des Himmlischen Planetariums"
-Inst86Quest15name2 = "Großer Sack mit Schätzen von Ulduar"
+Inst86Quest15name1 = "Großer Sack mit Schätzen von Ulduar"
 
 --Quest 16 Alliance
 Inst86Quest16 = "16. Heroisch: Ende gut, alles gut"
@@ -9996,7 +9979,6 @@ Inst86Quest7_HORDE_Folgequest = "Nein"
 Inst86Quest7PreQuest_HORDE = "true"
 --
 Inst86Quest7name1_HORDE = Inst86Quest7name1
-Inst86Quest7name2_HORDE = Inst86Quest7name2
 
 --Quest 8 Horde
 Inst86Quest8_HORDE = Inst86Quest8
@@ -10096,7 +10078,7 @@ Inst86Quest15_HORDE_Prequest = Inst86Quest15_Prequest
 Inst86Quest15_HORDE_Folgequest = "Nein"
 Inst86Quest15PreQuest_HORDE = "true"
 --
--- Preis Gerechtigkeitspunkte.
+Inst86Quest15name1_HORDE = Inst86Quest15name1
 
 --Quest 16 Horde
 Inst86Quest16_HORDE = Inst86Quest16
@@ -12446,7 +12428,7 @@ Inst116Quest1_Level = "87"
 Inst116Quest1_Attain = "86"
 Inst116Quest1_Aim = "Sprecht mit Chen Sturmbräu in der Brauerei Sturmbräu."
 Inst116Quest1_Location = ""
-Inst116Quest1_Note = "Chen Stormstout is just inside the entrance."
+Inst116Quest1_Note = "Chen Sturmbräu ist innerhalb der Instanz am Eingang."
 Inst116Quest1_Prequest = "Weg frei -> Hausputz"
 Inst116Quest1_Folgequest = "Ärger aus dem Fass"
 Inst116Quest1FQuest = "true"
@@ -12470,8 +12452,8 @@ Inst116Quest3 = "3. Familiengeheimnisse"
 Inst116Quest3_Level = "87"
 Inst116Quest3_Attain = "85"
 Inst116Quest3_Aim = "Sammelt 5 Geheimnisse der Sturmbräus."
-Inst116Quest3_Location = "Auntie Sturmsbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
-Inst116Quest3_Note = ""
+Inst116Quest3_Location = "Tantchen Sturmsbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
+Inst116Quest3_Note = "Die Bücher der Geheimnisse sind überall in der Instanz verteilt."
 Inst116Quest3_Prequest = "Nein"
 Inst116Quest3_Folgequest = "Nein"
 --
@@ -12640,7 +12622,7 @@ Inst119Quest1 = "1. Irgendwo da drinnen"
 Inst119Quest1_Level = "90"
 Inst119Quest1_Attain = "90"
 Inst119Quest1_Aim = "Rettet 12 gefangene Shado-Pan."
-Inst119Quest1_Location = ""
+Inst119Quest1_Location = "Shado-Master Chum Kiu (Belagerung des Niuzaotempels; "..BLUE.."Eingang"..WHITE..")"
 Inst119Quest1_Note = ""
 Inst119Quest1_Prequest = "Nein"
 Inst119Quest1_Folgequest = "Nein"
@@ -12651,7 +12633,7 @@ Inst119Quest2 = "2. Schaltet den Schwadronsführer aus"
 Inst119Quest2_Level = "90"
 Inst119Quest2_Attain = "90"
 Inst119Quest2_Aim = "Tötet Schwadronsführer Ner'onok."
-Inst119Quest2_Location = ""
+Inst119Quest2_Location = "Shado-Master Chum Kiu (Belagerung des Niuzaotempels; "..BLUE.."Eingang"..WHITE..")"
 Inst119Quest2_Note = "Schwadronsführer Ner'onok ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst119Quest2_Prequest = "Nein"
 Inst119Quest2_Folgequest = "Nein"
@@ -13418,9 +13400,8 @@ Inst66Quest13_Folgequest = "Nein"
 Inst66Quest13PreQuest = "true"
 --
 Inst66Quest13name1 = "Juwelenbesetzte Rute"
-Inst66Quest13name2 = "Wurfmesser des Spähers"
-Inst66Quest13name3 = "Severins Stock"
-Inst66Quest13name4 = "Windstürmerlanze"
+Inst66Quest13name2 = "Severins Stock"
+Inst66Quest13name3 = "Windstürmerlanze"
 
 
 --Quest 1 Horde
@@ -13582,7 +13563,6 @@ Inst66Quest13PreQuest_HORDE = "true"
 Inst66Quest13name1_HORDE = Inst66Quest13name1
 Inst66Quest13name2_HORDE = Inst66Quest13name2
 Inst66Quest13name3_HORDE = "Severins Stock"
-Inst66Quest13name4_HORDE = Inst66Quest13name4
 
 
 
