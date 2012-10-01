@@ -167,7 +167,6 @@ AQITEM_NECK = "颈部"
 AQITEM_PATTERN = "图样"
 AQITEM_BAG = "背包"
 AQITEM_RING = "戒指"
-AQITEM_KEY = "钥匙"
 AQITEM_GEM = "宝石"
 AQITEM_ENCHANT = "附魔"
 
@@ -2829,7 +2828,7 @@ Inst59Quest1_Level = "31"
 Inst59Quest1_Attain = "26"
 Inst59Quest1_Aim = "Kill 50 members of the Scarlet Crusade within the Scarlet Halls."
 Inst59Quest1_Location = "Hooded Crusader (Scarlet Halls; "..BLUE.."Entrance"..WHITE..")"
-Inst59Quest1_Note = ""
+Inst59Quest1_Note = "Any Scarlet Crusaders count."
 Inst59Quest1_Prequest = "None"
 Inst59Quest1_Folgequest = "None"
 -- No Rewards for this quest
@@ -2840,7 +2839,7 @@ Inst59Quest2_Level = "90"
 Inst59Quest2_Attain = "90"
 Inst59Quest2_Aim = "Kill 50 members of the Scarlet Crusade within the Scarlet Halls."
 Inst59Quest2_Location = "Hooded Crusader (Scarlet Halls; "..BLUE.."Entrance"..WHITE..")"
-Inst59Quest2_Note = ""
+Inst59Quest2_Note = "Any Scarlet Crusaders count."
 Inst59Quest2_Prequest = "None"
 Inst59Quest2_Folgequest = "None"
 -- No Rewards for this quest
@@ -3739,11 +3738,7 @@ Inst28Quest4_Location = "指挥官埃里戈尔·黎明使者（斯坦索姆 - �
 Inst28Quest4_Note = "奥里克斯·瑞文戴尔领主在"..YELLOW.."[6]"..WHITE.."。"
 Inst28Quest4_Prequest = "无"
 Inst28Quest4_Folgequest = "无"
---
-Inst28Quest4name1 = "楷模塑像"
-Inst28Quest4name2 = "楷模之书"
-Inst28Quest4name3 = "楷模神像"
-Inst28Quest4name4 = "楷模圣物"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3788,11 +3783,7 @@ Inst28Quest4_HORDE_Location = Inst28Quest4_Location
 Inst28Quest4_HORDE_Note = Inst28Quest4_Note
 Inst28Quest4_HORDE_Prequest = Inst28Quest4_Prequest
 Inst28Quest4_HORDE_Folgequest = Inst28Quest4_Folgequest
---
-Inst28Quest4name1_HORDE = Inst28Quest4name1
-Inst28Quest4name2_HORDE = Inst28Quest4name2
-Inst28Quest4name3_HORDE = Inst28Quest4name3
-Inst28Quest4name4_HORDE = Inst28Quest4name4
+-- No Rewards for this quest
 
 
 
@@ -4155,7 +4146,6 @@ Inst27Quest5name1 = "祖尔法拉克肩铠"
 Inst27Quest5name2 = "电能腿甲"
 Inst27Quest5name3 = "深渊束带"
 Inst27Quest5name4 = "比格维兹的护臂"
-Inst27Quest5name5 = "愚人飞镖"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -4221,7 +4211,6 @@ Inst27Quest5name1_HORDE = Inst27Quest5name1
 Inst27Quest5name2_HORDE = Inst27Quest5name2
 Inst27Quest5name3_HORDE = Inst27Quest5name3
 Inst27Quest5name4_HORDE = Inst27Quest5name4
-Inst27Quest5name5_HORDE = Inst27Quest5name5
 
 
 
@@ -7814,7 +7803,6 @@ Inst63Quest5_Folgequest = "无"
 --
 Inst63Quest5name1 = "野心肩甲"
 Inst63Quest5name2 = "分歧长袍"
-Inst63Quest5name3 = "祖利安飞斧"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -7879,7 +7867,6 @@ Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
 --
 Inst63Quest5name1_HORDE = Inst63Quest5name1
 Inst63Quest5name2_HORDE = Inst63Quest5name2
-Inst63Quest5name3_HORDE = Inst63Quest5name3
 
 
 
@@ -9712,8 +9699,7 @@ Inst86Quest7_Prequest = "四个徽记任务"
 Inst86Quest7_Folgequest = "无"
 Inst86Quest7PreQuest = "true"
 --
-Inst86Quest7name1 = "天文台钥匙"
-Inst86Quest7name2 = "一包奥杜尔战利品"
+Inst86Quest7name1 = "一包奥杜尔战利品"
 
 --Quest 8 Alliance
 Inst86Quest8 = "8. 结果好，一切都好"
@@ -9812,8 +9798,7 @@ Inst86Quest15_Prequest = "四个徽记任务"
 Inst86Quest15_Folgequest = "无"
 Inst86Quest15PreQuest = "true"
 --
-Inst86Quest15name1 = "英雄天文台钥匙"
-Inst86Quest15name2 = "一大包奥杜尔战利品"
+Inst86Quest15name1 = "一大包奥杜尔战利品"
 
 --Quest 16 Alliance
 Inst86Quest16 = "16. 英雄：结果好，一切都好"
@@ -9962,7 +9947,6 @@ Inst86Quest7_HORDE_Folgequest = Inst86Quest7_Folgequest
 Inst86Quest7PreQuest_HORDE = Inst86Quest7PreQuest
 --
 Inst86Quest7name1_HORDE = Inst86Quest7name1
-Inst86Quest7name2_HORDE = Inst86Quest7name2
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst86Quest8_HORDE = Inst86Quest8
@@ -10062,7 +10046,6 @@ Inst86Quest15_HORDE_Folgequest = Inst86Quest15_Folgequest
 Inst86Quest15PreQuest_HORDE = Inst86Quest15PreQuest
 --
 Inst86Quest15name1_HORDE = Inst86Quest15name1
-Inst86Quest15name2_HORDE = Inst86Quest15name2
 
 --Quest 16 Horde  (same as Quest 16 Alliance)
 Inst86Quest16_HORDE = Inst86Quest16
@@ -12238,7 +12221,7 @@ Inst114Quest1_Level = "89"
 Inst114Quest1_Attain = "87"
 Inst114Quest1_Aim = "Collect the Lantern of the Sorcerer King, Mad King Meng's Balance, Qiang's 'The Science of War', and Subetai's Bow of the Swift."
 Inst114Quest1_Location = "Sinan the Dreamer (Mogu'Shan Palace; "..BLUE.."Entrance"..WHITE..")"
-Inst114Quest1_Note = "- Lantern of the Sorcerer King is at "..YELLOW.."[??]"..WHITE..".\n- Mad King Meng's Balance is at "..YELLOW.."[??]"..WHITE..".\n- Qiang's 'The Science of War' is at "..YELLOW.."[??]"..WHITE..".\n- Subetai's Bow of the Swift is at is at "..YELLOW.."[??]"..WHITE.."."
+Inst114Quest1_Note = "All items are in the Vault of Kings between the first and second bosses."
 Inst114Quest1_Prequest = "None"
 Inst114Quest1_Folgequest = "None"
 -- Reward varies for each class
@@ -12292,7 +12275,7 @@ Inst115Quest1_Level = "88"
 Inst115Quest1_Attain = "87"
 Inst115Quest1_Aim = "Meet Ban Bearheart inside the Shado-Pan Monastery."
 Inst115Quest1_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
-Inst115Quest1_Note = ""
+Inst115Quest1_Note = "Ban Bearheart is just inside the entrance."
 Inst115Quest1_Prequest = "None"
 Inst115Quest1_Folgequest = "Lord of the Shado-Pan"
 -- No Rewards for this quest
@@ -12419,7 +12402,7 @@ Inst116Quest3_Level = "87"
 Inst116Quest3_Attain = "85"
 Inst116Quest3_Aim = "Collect 5 Stormstout Secrets."
 Inst116Quest3_Location = "Auntie Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
-Inst116Quest3_Note = ""
+Inst116Quest3_Note = "The secrets are giant books on the floor found around the instance."
 Inst116Quest3_Prequest = "None"
 Inst116Quest3_Folgequest = "None"
 --
@@ -12587,7 +12570,7 @@ Inst119Quest1 = "1. Somewhere Inside"
 Inst119Quest1_Level = "90"
 Inst119Quest1_Attain = "90"
 Inst119Quest1_Aim = "Rescue 12 Shado-Pan Prisoners."
-Inst119Quest1_Location = ""
+Inst119Quest1_Location = "Shado-Master Chum Kiu (Siege of Niuzao Temple; "..BLUE.."Entrance"..WHITE..")"
 Inst119Quest1_Note = ""
 Inst119Quest1_Prequest = "None"
 Inst119Quest1_Folgequest = "None"
@@ -12598,7 +12581,7 @@ Inst119Quest2 = "2. Take Down the Wing Leader"
 Inst119Quest2_Level = "90"
 Inst119Quest2_Attain = "90"
 Inst119Quest2_Aim = "Kill Wing Leader Ner'onok."
-Inst119Quest2_Location = ""
+Inst119Quest2_Location = "Shado-Master Chum Kiu (Siege of Niuzao Temple; "..BLUE.."Entrance"..WHITE..")"
 Inst119Quest2_Note = "Wing Leader Ner'onok is at "..YELLOW.."[4]"..WHITE.."."
 Inst119Quest2_Prequest = "None"
 Inst119Quest2_Folgequest = "None"
@@ -13361,9 +13344,8 @@ Inst66Quest13_Folgequest = "无"
 Inst66Quest13PreQuest = "true"
 --
 Inst66Quest13name1 = "珠宝魔杖"
-Inst66Quest13name2 = "斥候的飞刀"
-Inst66Quest13name3 = "瑟维里的藤条"
-Inst66Quest13name4 = "突击者的长枪"
+Inst66Quest13name2 = "瑟维里的藤条"
+Inst66Quest13name3 = "突击者的长枪"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -13526,7 +13508,6 @@ Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
 Inst66Quest13name1_HORDE = Inst66Quest13name1
 Inst66Quest13name2_HORDE = Inst66Quest13name2
 Inst66Quest13name3_HORDE = Inst66Quest13name3
-Inst66Quest13name4_HORDE = Inst66Quest13name4
 
 
 
