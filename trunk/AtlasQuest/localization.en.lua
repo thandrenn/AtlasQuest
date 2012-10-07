@@ -855,11 +855,11 @@ Inst5Quest20_Folgequest = "None"
 
 --Quest 21 Alliance
 Inst5Quest21 = "21. Direbrew's Dire Brew"
-Inst5Quest21_Level = "85"
-Inst5Quest21_Attain = "85"
+Inst5Quest21_Level = "90"
+Inst5Quest21_Attain = "89"
 Inst5Quest21_Aim = "Give Direbrew's Dire Brew to Ipfelkofer Ironkeg at the Brewfest camp near Ironforge."
 Inst5Quest21_Location = "Direbrew's Dire Brew (drops from Coren Direbrew at "..YELLOW.."[12]"..WHITE..")"
-Inst5Quest21_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nIpfelkofer Ironkeg is at the Brewfest Camp at (Dun Morogh; "..YELLOW.."47,39"..WHITE..")."
+Inst5Quest21_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nIpfelkofer Ironkeg is at the Brewfest Camp at (Dun Morogh; "..YELLOW.."55.1, 38.1"..WHITE..")."
 Inst5Quest21_Prequest = "None"
 Inst5Quest21_Folgequest = "None"
 --
@@ -1135,11 +1135,11 @@ Inst5Quest21_HORDE_Folgequest = Inst5Quest20_Folgequest
 
 --Quest 22 Horde
 Inst5Quest22_HORDE = "22. Direbrew's Dire Brew"
-Inst5Quest22_HORDE_Level = "85"
-Inst5Quest22_HORDE_Attain = "85"
+Inst5Quest22_HORDE_Level = "90"
+Inst5Quest22_HORDE_Attain = "89"
 Inst5Quest22_HORDE_Aim = "Give Direbrew's Dire Brew to Tapper Swindlekeg at the Brewfest camp near Orgrimmar."
 Inst5Quest22_HORDE_Location = "Direbrew's Dire Brew (drops from Coren Direbrew at "..YELLOW.."[12]"..WHITE..")"
-Inst5Quest22_HORDE_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nTapper Swindlekeg is at the Brewfest Camp at (Durotar; "..YELLOW.."45,17"..WHITE..")."
+Inst5Quest22_HORDE_Note = "Coren Direbrew is only available during the Brewfest seasonal event. This quest item will drop only once per character.\n\nTapper Swindlekeg is at the Brewfest Camp at (Durotar; "..YELLOW.."41.6, 18.5"..WHITE..")."
 Inst5Quest22_HORDE_Prequest = "None"
 Inst5Quest22_HORDE_Folgequest = "None"
 --
@@ -3210,8 +3210,8 @@ Inst21Quest15name2 = "Greatsword of the Crown"
 
 --Quest 16 Alliance
 Inst21Quest16 = "16. Something is in the Air (and it Ain't Love)"
-Inst21Quest16_Level = "85"
-Inst21Quest16_Attain = "85"
+Inst21Quest16_Level = "90"
+Inst21Quest16_Attain = "89"
 Inst21Quest16_Aim = "Bring the Faded Lovely Greeting Card to Inspector Snip Snagglebolt in Stormwind."
 Inst21Quest16_Location = "Drops from Apothecary Hummel (Shadowfang Keep; "..ORANGE.."[1]"..WHITE..")"
 Inst21Quest16_Note = "This quest is for the Love is in the Air seasonal event. It can be done once per character.\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.6, 75.2"..WHITE..")."
@@ -3463,8 +3463,8 @@ Inst21Quest18name2_HORDE = "Greataxe of the Horde"
 
 --Quest 19 Horde
 Inst21Quest19_HORDE = "19. Something is in the Air (and it Ain't Love)"
-Inst21Quest19_HORDE_Level = "85"
-Inst21Quest19_HORDE_Attain = "85"
+Inst21Quest19_HORDE_Level = "90"
+Inst21Quest19_HORDE_Attain = "89"
 Inst21Quest19_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
 Inst21Quest19_HORDE_Location = "Drops from Apothecary Hummel (Shadowfang Keep; "..ORANGE.."[1]"..WHITE..")"
 Inst21Quest19_HORDE_Note = "This quest is for the Love is in the Air seasonal event. It can be done once per character.\n\nDetective Snap Snagglebolt is at (Orgrimmar - Valley of Strength "..YELLOW.."51.0, 75.3"..WHITE..")."
@@ -4989,8 +4989,8 @@ Inst41Quest6_Folgequest = "None"
 
 --Quest 7 Alliance
 Inst41Quest7 = "7. Shards of Ahune (Seasonal)"
-Inst41Quest7_Level = "85"
-Inst41Quest7_Attain = "85"
+Inst41Quest7_Level = "90"
+Inst41Quest7_Attain = "89"
 Inst41Quest7_Aim = "Bring the Ice Shards to Luma Skymother."
 Inst41Quest7_Location = "Shards of Ahune (drops from Ice Chest after Ahune, The Frost Lord is killed)"
 Inst41Quest7_Note = "Luma Skymother is near where you teleport in using the Dungeon Finder. This item will only drop once per character."
