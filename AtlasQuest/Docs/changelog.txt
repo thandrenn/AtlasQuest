@@ -5,6 +5,7 @@ Changelog
 Version 4.8.1 BETA (October ??, 2012)
 
 - Removed obsolete "Into the Nexus" quest.  Thanks yunohu!
+- Removed some obsolete Pandaria quests that never made it into release.
 - Removed Keys, Relics and Thrown weapons from quest rewards.
 - Updated Map names for Atlas 1.22.0
 - Fixed AtlasQuest button not showing up in Atlas.  Thanks Washakie!

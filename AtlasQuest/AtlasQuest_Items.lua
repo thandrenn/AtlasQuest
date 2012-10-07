@@ -6776,52 +6776,34 @@ Inst114Quest2Rewardtext_HORDE = AQClassRewards
 --------------- INST115 - Shado-pan Monastery ---------------
 
 --Quest 1 Alliance
-Inst115Quest1Rewardtext = AQNoReward
+Inst115Quest1Rewardtext = AQClassRewards
 
 --Quest 2 Alliance
-Inst115Quest2Rewardtext = AQNoReward
-
---Quest 3 Alliance
-Inst115Quest3Rewardtext = AQClassRewards
-
---Quest 4 Alliance
-Inst115Quest4Rewardtext = AQClassRewards
+Inst115Quest2Rewardtext = AQClassRewards
 
 
 --Quest 1 Horde
-Inst115Quest1Rewardtext_HORDE = AQNoReward
+Inst115Quest1Rewardtext_HORDE = AQClassRewards
 
 --Quest 2 Horde
-Inst115Quest2Rewardtext_HORDE = AQNoReward
-
---Quest 3 Horde
-Inst115Quest3Rewardtext_HORDE = AQClassRewards
-
---Quest 4 Horde
-Inst115Quest4Rewardtext_HORDE = AQClassRewards
+Inst115Quest2Rewardtext_HORDE = AQClassRewards
 
 
 
 --------------- INST116 - Stormstout Brewery ---------------
 
 --Quest 1 Alliance
-Inst116Quest1Rewardtext = AQNoReward
+Inst116Quest1Rewardtext = AQClassRewards
 
 --Quest 2 Alliance
 Inst116Quest2Rewardtext = AQClassRewards
 
---Quest 3 Alliance
-Inst116Quest3Rewardtext = AQClassRewards
-
 
 --Quest 1 Horde
-Inst116Quest1Rewardtext_HORDE = AQNoReward
+Inst116Quest1Rewardtext_HORDE = AQClassRewards
 
 --Quest 2 Horde
 Inst116Quest2Rewardtext_HORDE = AQClassRewards
-
---Quest 3 Horde
-Inst116Quest3Rewardtext_HORDE = AQClassRewards
 
 
 
@@ -6842,7 +6824,7 @@ Inst117Quest2Rewardtext_HORDE = AQClassRewards
 
 
 
---------------- INST118 - The Gate of the Setting Sun ---------------
+--------------- INST118 - Gate of the Setting Sun ---------------
 
 --Quest 1 Alliance
 Inst118Quest1Rewardtext = AQNoReward

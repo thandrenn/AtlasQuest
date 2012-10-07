@@ -12253,53 +12253,30 @@ Inst114Quest2_HORDE_Folgequest = Inst114Quest2_Folgequest
 --------------- INST115 - Shado-pan Monastery ---------------
 
 Inst115Caption = "Shado-pan Monastery"
-Inst115QAA = "4 Quests"
-Inst115QAH = "4 Quests"
+Inst115QAA = "2 Quests"
+Inst115QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst115Quest1 = "1. Into the Monastery"
-Inst115Quest1_Level = "88"
+Inst115Quest1 = "1. Lord of the Shado-Pan"
+Inst115Quest1_Level = "89"
 Inst115Quest1_Attain = "87"
-Inst115Quest1_Aim = "Meet Ban Bearheart inside the Shado-Pan Monastery."
+Inst115Quest1_Aim = "Rid Taran Zhu of his possession by the Sha of Hatred."
 Inst115Quest1_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
-Inst115Quest1_Note = "Ban Bearheart is just inside the entrance."
-Inst115Quest1_Prequest = "None"
-Inst115Quest1_Folgequest = "Lord of the Shado-Pan"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst115Quest2 = "2. Into the Mouth of Hatred"
-Inst115Quest2_Level = "89"
-Inst115Quest2_Attain = "87"
-Inst115Quest2_Aim = "Speak with Initiate Kia at the Cloudstrike Dojo inside the Shado-Pan Monastery."
-Inst115Quest2_Location = ""
-Inst115Quest2_Note = ""
-Inst115Quest2_Prequest = "None"
-Inst115Quest2_Folgequest = "Lord of the Shado-Pan"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst115Quest3 = "3. Lord of the Shado-Pan"
-Inst115Quest3_Level = "89"
-Inst115Quest3_Attain = "87"
-Inst115Quest3_Aim = "Rid Taran Zhu of his possession by the Sha of Hatred."
-Inst115Quest3_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
-Inst115Quest3_Note = "Taran Zhu is at "..YELLOW.."[4]"..WHITE.."."
-Inst115Quest3_Prequest = "Into the Monastery or Into the Mouth of Hatred"
-Inst115Quest3_Folgequest = "None"
-Inst115Quest3PreQuest = "true"
+Inst115Quest1_Note = "Taran Zhu is at "..YELLOW.."[4]"..WHITE.."."
+Inst115Quest1_Prequest = "Into the Monastery or Into the Mouth of Hatred"
+Inst115Quest1_Folgequest = "None"
 --
 -- Reward varies for each class
 
---Quest 4 Alliance
-Inst115Quest4 = "4. The Path to Respect Lies in Violence"
-Inst115Quest4_Level = "89"
-Inst115Quest4_Attain = "87"
-Inst115Quest4_Aim = "Kill the Sha of Violence."
-Inst115Quest4_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
-Inst115Quest4_Note = "The Sha of Violence is at "..YELLOW.."[??]"..WHITE.."."
-Inst115Quest4_Prequest = "None"
-Inst115Quest4_Folgequest = "None"
+--Quest 2 Alliance
+Inst115Quest2 = "2. The Path to Respect Lies in Violence"
+Inst115Quest2_Level = "89"
+Inst115Quest2_Attain = "87"
+Inst115Quest2_Aim = "Kill the Sha of Violence."
+Inst115Quest2_Location = "Master Snowdrift (Shado-pan Monastery; "..YELLOW.."[2]"..WHITE..")"
+Inst115Quest2_Note = "The Sha of Violence is at "..YELLOW.."[3]"..WHITE.."."
+Inst115Quest2_Prequest = "None"
+Inst115Quest2_Folgequest = "None"
 --
 -- Reward varies for each class
 
@@ -12313,7 +12290,8 @@ Inst115Quest1_HORDE_Location = Inst115Quest1_Location
 Inst115Quest1_HORDE_Note = Inst115Quest1_Note
 Inst115Quest1_HORDE_Prequest = Inst115Quest1_Prequest
 Inst115Quest1_HORDE_Folgequest = Inst115Quest1_Folgequest
--- No Rewards for this quest
+--
+-- Reward varies for each class
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst115Quest2_HORDE = Inst115Quest2
@@ -12324,30 +12302,6 @@ Inst115Quest2_HORDE_Location = Inst115Quest2_Location
 Inst115Quest2_HORDE_Note = Inst115Quest2_Note
 Inst115Quest2_HORDE_Prequest = Inst115Quest2_Prequest
 Inst115Quest2_HORDE_Folgequest = Inst115Quest2_Folgequest
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst115Quest3_HORDE = Inst115Quest3
-Inst115Quest3_HORDE_Level = Inst115Quest3_Level
-Inst115Quest3_HORDE_Attain = Inst115Quest3_Attain
-Inst115Quest3_HORDE_Aim = Inst115Quest3_Aim
-Inst115Quest3_HORDE_Location = Inst115Quest3_Location
-Inst115Quest3_HORDE_Note = Inst115Quest3_Note
-Inst115Quest3_HORDE_Prequest = Inst115Quest3_Prequest
-Inst115Quest3_HORDE_Folgequest = Inst115Quest3_Folgequest
-Inst115Quest3PreQuest_HORDE = Inst115Quest3PreQuest
---
--- Reward varies for each class
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst115Quest4_HORDE = Inst115Quest4
-Inst115Quest4_HORDE_Level = Inst115Quest4_Level
-Inst115Quest4_HORDE_Attain = Inst115Quest4_Attain
-Inst115Quest4_HORDE_Aim = Inst115Quest4_Aim
-Inst115Quest4_HORDE_Location = Inst115Quest4_Location
-Inst115Quest4_HORDE_Note = Inst115Quest4_Note
-Inst115Quest4_HORDE_Prequest = Inst115Quest4_Prequest
-Inst115Quest4_HORDE_Folgequest = Inst115Quest4_Folgequest
 --
 -- Reward varies for each class
 
@@ -12356,42 +12310,30 @@ Inst115Quest4_HORDE_Folgequest = Inst115Quest4_Folgequest
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Stormstout Brewery"
-Inst116QAA = "3 Quests"
-Inst116QAH = "3 Quests"
+Inst116QAA = "2 Quests"
+Inst116QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst116Quest1 = "1. Into the Brewery"
+Inst116Quest1 = "1. Trouble Brewing"
 Inst116Quest1_Level = "87"
-Inst116Quest1_Attain = "86"
-Inst116Quest1_Aim = "Speak to Chen Stormstout inside the Stormstout Brewery. "
-Inst116Quest1_Location = ""
-Inst116Quest1_Note = "Chen Stormstout is just inside the entrance."
-Inst116Quest1_Prequest = "Clear the Way -> Cleaning House"
-Inst116Quest1_Folgequest = "Trouble Brewing"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst116Quest2 = "2. Trouble Brewing"
-Inst116Quest2_Level = "87"
-Inst116Quest2_Attain = "85"
-Inst116Quest2_Aim = "Kill Yan-Zhu the Uncasked."
-Inst116Quest2_Location = "Chen Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
-Inst116Quest2_Note = "Yan-Zhu the Uncasked is the final boss, at "..YELLOW.."[3]"..WHITE.."."
-Inst116Quest2_Prequest = "Into the Brewery (optional)"
-Inst116Quest2_Folgequest = "None"
-Inst116Quest2FQuest = "true"
+Inst116Quest1_Attain = "85"
+Inst116Quest1_Aim = "Kill Yan-Zhu the Uncasked."
+Inst116Quest1_Location = "Chen Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
+Inst116Quest1_Note = "Yan-Zhu the Uncasked is the final boss, at "..YELLOW.."[3]"..WHITE.."."
+Inst116Quest1_Prequest = "Into the Brewery (optional)"
+Inst116Quest1_Folgequest = "None"
 --
 -- Reward varies for each class
 
---Quest 3 Alliance
-Inst116Quest3 = "3. Family Secrets"
-Inst116Quest3_Level = "87"
-Inst116Quest3_Attain = "85"
-Inst116Quest3_Aim = "Collect 5 Stormstout Secrets."
-Inst116Quest3_Location = "Auntie Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
-Inst116Quest3_Note = "The secrets are giant books on the floor found around the instance."
-Inst116Quest3_Prequest = "None"
-Inst116Quest3_Folgequest = "None"
+--Quest 2 Alliance
+Inst116Quest2 = "2. Family Secrets"
+Inst116Quest2_Level = "87"
+Inst116Quest2_Attain = "85"
+Inst116Quest2_Aim = "Collect 5 Stormstout Secrets."
+Inst116Quest2_Location = "Auntie Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
+Inst116Quest2_Note = "The secrets are giant books on the floor found around the instance."
+Inst116Quest2_Prequest = "None"
+Inst116Quest2_Folgequest = "None"
 --
 -- Reward varies for each class
 
@@ -12405,7 +12347,8 @@ Inst116Quest1_HORDE_Location = Inst116Quest1_Location
 Inst116Quest1_HORDE_Note = Inst116Quest1_Note
 Inst116Quest1_HORDE_Prequest = Inst116Quest1_Prequest
 Inst116Quest1_HORDE_Folgequest = Inst116Quest1_Folgequest
--- No Rewards for this quest
+--
+-- Reward varies for each class
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst116Quest2_HORDE = Inst116Quest2
@@ -12416,19 +12359,6 @@ Inst116Quest2_HORDE_Location = Inst116Quest2_Location
 Inst116Quest2_HORDE_Note = Inst116Quest2_Note
 Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
 Inst116Quest2_HORDE_Folgequest = Inst116Quest2_Folgequest
-Inst116Quest2FQuest_HORDE = Inst116Quest2FQuest
---
--- Reward varies for each class
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst116Quest3_HORDE = Inst116Quest3
-Inst116Quest3_HORDE_Level = Inst116Quest3_Level
-Inst116Quest3_HORDE_Attain = Inst116Quest3_Attain
-Inst116Quest3_HORDE_Aim = Inst116Quest3_Aim
-Inst116Quest3_HORDE_Location = Inst116Quest3_Location
-Inst116Quest3_HORDE_Note = Inst116Quest3_Note
-Inst116Quest3_HORDE_Prequest = Inst116Quest3_Prequest
-Inst116Quest3_HORDE_Folgequest = Inst116Quest3_Folgequest
 --
 -- Reward varies for each class
 
@@ -12491,9 +12421,9 @@ Inst117Quest2_HORDE_Folgequest = Inst117Quest2_Folgequest
 
 
 
---------------- INST118 - The Gate of the Setting Sun ---------------
+--------------- INST118 - Gate of the Setting Sun ---------------
 
-Inst118Caption = "The Gate of the Setting Sun"
+Inst118Caption = "Gate of the Setting Sun"
 Inst118QAA = "2 Quests"
 Inst118QAH = "2 Quests"
 
@@ -12558,7 +12488,7 @@ Inst119Quest1_Level = "90"
 Inst119Quest1_Attain = "90"
 Inst119Quest1_Aim = "Rescue 12 Shado-Pan Prisoners."
 Inst119Quest1_Location = "Shado-Master Chum Kiu (Siege of Niuzao Temple; "..BLUE.."Entrance"..WHITE..")"
-Inst119Quest1_Note = ""
+Inst119Quest1_Note = "The Shadow-Pan Prisoners are scattered around the instance."
 Inst119Quest1_Prequest = "None"
 Inst119Quest1_Folgequest = "None"
 -- No Rewards for this quest
