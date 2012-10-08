@@ -869,11 +869,11 @@ Inst5Quest20_Folgequest = "Nein"
 
 --Quest 21 Alliance
 Inst5Quest21 = "21. Düsterbräus Düsterbräu"
-Inst5Quest21_Level = "85"
-Inst5Quest21_Attain = "85"
+Inst5Quest21_Level = "90"
+Inst5Quest21_Attain = "90"
 Inst5Quest21_Aim = "Bringt Düsterbräus Düsterbräu zu Ipfelkofer Eisenfass im Braufestlager in der Nähe von Eisenschmiede."
 Inst5Quest21_Location = "Düsterbräus Düsterbräu ( droppt von Coren Düsterbräu bei "..YELLOW.."[12]"..WHITE..")"
-Inst5Quest21_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwarzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nIpfelkofer Eisenfass ist ist auf dem Braufestplatz bei (Dun Morogh; "..YELLOW.."47,39"..WHITE..")."
+Inst5Quest21_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwarzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nIpfelkofer Eisenfass ist ist auf dem Braufestplatz bei (Dun Morogh; "..YELLOW.."55.1, 38.1"..WHITE..")."
 Inst5Quest21_Prequest = "Nein"
 Inst5Quest21_Folgequest = "Nein"
 --
@@ -1151,11 +1151,11 @@ Inst5Quest21_HORDE_Folgequest = "Nein"
 
 --Quest 22 Horde
 Inst5Quest22_HORDE = Inst5Quest21
-Inst5Quest22_HORDE_Level = "85"
-Inst5Quest22_HORDE_Attain = "85"
+Inst5Quest22_HORDE_Level = "90"
+Inst5Quest22_HORDE_Attain = "90"
 Inst5Quest22_HORDE_Aim = "Bringt Düsterbräus Düsterbräu zu Zapfus Schwindelfass im Braufestlager in der Nähe von Orgrimmar"
 Inst5Quest22_HORDE_Location = "Düsterbräus Düsterbräu ( droppt von Coren Düsterbräu bei "..YELLOW.."[12]"..WHITE..")"
-Inst5Quest22_HORDE_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwarzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nZapfus Schwindelfass ist auf dem Braufestplatz bei (Durotar; "..YELLOW.."45,17"..WHITE..")."
+Inst5Quest22_HORDE_Note = "Coren Düsterbräu ist nur während des Braufestes in den Schwarzfelstiefen. Dieser Questgegenstand droppt nur einmal pro Charakter.\n\nZapfus Schwindelfass ist auf dem Braufestplatz bei (Durotar; "..YELLOW.."41.6, 18.5"..WHITE..")."
 Inst5Quest22_HORDE_Prequest = "Nein"
 Inst5Quest22_HORDE_Folgequest = "Nein"
 --
@@ -3231,8 +3231,8 @@ Inst21Quest15name1 = "Großschwert der Krone"
 
 --Quest 16 Alliance
 Inst21Quest16 = "16. Irgendwas liegt in der Luft (und Liebe ist es nicht)"
-Inst21Quest16_Level = "85"
-Inst21Quest16_Attain = "85"
+Inst21Quest16_Level = "90"
+Inst21Quest16_Attain = "90"
 Inst21Quest16_Aim = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind."
 Inst21Quest16_Location = "Droppt vom Apotheker Hummel (Burg Schattenfang; "..ORANGE.."[1]"..WHITE..")"
 Inst21Quest16_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.6, 75.2"..WHITE..")."
@@ -3484,8 +3484,8 @@ Inst21Quest18name2_HORDE = "Großaxt der Horde"
 
 --Quest 19 Horde
 Inst21Quest19_HORDE = Inst21Quest16
-Inst21Quest19_HORDE_Level = "85"
-Inst21Quest19_HORDE_Attain = "85"
+Inst21Quest19_HORDE_Level = "90"
+Inst21Quest19_HORDE_Attain = "90"
 Inst21Quest19_HORDE_Aim = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar."
 Inst21Quest19_HORDE_Location = Inst21Quest16_Location
 Inst21Quest19_HORDE_Note = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."51.0, 75.3"..WHITE..")."
@@ -4997,8 +4997,8 @@ Inst41Quest6_Folgequest = "Nein"
 
 --Quest 7 Alliance
 Inst41Quest7 = "7. Splitter von Ahune (Saisonbedingt)"
-Inst41Quest7_Level = "85"
-Inst41Quest7_Attain = "85"
+Inst41Quest7_Level = "90"
+Inst41Quest7_Attain = "90"
 Inst41Quest7_Aim = "Bringt die Eissplitter zu Luma Himmelsmutter."
 Inst41Quest7_Location = "Splitter von Ahune (befindet sich in der Eiskiste nachdem Ahune getötet wurde)"
 Inst41Quest7_Note = "Luma Himmelsmutter ist in der Nähe wo Du hingeportet wirst wenn du den Dungeonbrowser nutzt. Dieser Gegenstand droppt nur einmal pro Charakter."
@@ -5082,8 +5082,8 @@ Inst41Quest6_HORDE_Folgequest = "Nein"
 
 --Quest 7 Horde
 Inst41Quest7_HORDE = Inst41Quest7
-Inst41Quest7_HORDE_Level = "85"
-Inst41Quest7_HORDE_Attain = "85"
+Inst41Quest7_HORDE_Level = "90"
+Inst41Quest7_HORDE_Attain = "90"
 Inst41Quest7_HORDE_Aim = Inst41Quest7_Aim
 Inst41Quest7_HORDE_Location = Inst41Quest7_Location
 Inst41Quest7_HORDE_Note = Inst41Quest7_Note
@@ -12312,55 +12312,31 @@ Inst114Quest2_HORDE_Folgequest = "Nein"
 --------------- INST115 - Shado-pan Monastery ---------------
 
 Inst115Caption = "Shado-Pan-Kloster"
-Inst115QAA = "4 Quests"
-Inst115QAH = "4 Quests"
+Inst115QAA = "2 Quests"
+Inst115QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst115Quest1 = "1. Ins Kloster"
-Inst115Quest1_Level = "88"
+Inst115Quest1 = "1. Der Herr der Shado-Pan"
+Inst115Quest1_Level = "89"
 Inst115Quest1_Attain = "87"
-Inst115Quest1_Aim = "Trefft Ban Bärenherz im Shado-Pan-Kloster."
+Inst115Quest1_Aim = "Befreit Taran Zhu vom Sha des Hasses."
 Inst115Quest1_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
-Inst115Quest1_Note = "Ban Bärenherz ist innerhalb der Instanz am Eingang."
-Inst115Quest1_Prequest = "Zirkusreif!"
-Inst115Quest1_Folgequest = "In den Schlund des Hasses"
+Inst115Quest1_Note = "Taran Zhu ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst115Quest1_Prequest = "In den Schlund des Hasses"
+Inst115Quest1_Folgequest = "Nein"
 Inst115Quest1PreQuest = "true"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst115Quest2 = "2. In den Schlund des Hasses"
-Inst115Quest2_Level = "89"
-Inst115Quest2_Attain = "87"
-Inst115Quest2_Aim = "Sprecht mit Initiandin Kia in Meister Wolkenschlags Dojo im Shado-Pan-Kloster."
-Inst115Quest2_Location = ""
-Inst115Quest2_Note = ""
-Inst115Quest2_Prequest = "Nein"
-Inst115Quest2_Folgequest = "Der Herr der Shado-Pan"
-Inst115Quest2FQuest = "true"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst115Quest3 = "3. Der Herr der Shado-Pan"
-Inst115Quest3_Level = "89"
-Inst115Quest3_Attain = "87"
-Inst115Quest3_Aim = "Befreit Taran Zhu vom Sha des Hasses."
-Inst115Quest3_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
-Inst115Quest3_Note = "Taran Zhu ist bei "..YELLOW.."[??]"..WHITE.."."
-Inst115Quest3_Prequest = "In den Schlund des Hasses"
-Inst115Quest3_Folgequest = "Nein"
-Inst115Quest3PreQuest = "true"
 --
 -- Reward varies for each class
 
---Quest 4 Alliance
-Inst115Quest4 = "4. Der Weg zum Respekt liegt in der Gewalt"
-Inst115Quest4_Level = "89"
-Inst115Quest4_Attain = "87"
-Inst115Quest4_Aim = "Tötet das Sha der Gewalt."
-Inst115Quest4_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
-Inst115Quest4_Note = "Das Sha der Gewalt ist bei "..YELLOW.."[??]"..WHITE.."."
-Inst115Quest4_Prequest = "Nein"
-Inst115Quest4_Folgequest = "Nein"
+--Quest 2 Alliance
+Inst115Quest2 = "4. Der Weg zum Respekt liegt in der Gewalt"
+Inst115Quest2_Level = "89"
+Inst115Quest2_Attain = "87"
+Inst115Quest2_Aim = "Tötet das Sha der Gewalt."
+Inst115Quest2_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
+Inst115Quest2_Note = "Das Sha der Gewalt ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst115Quest2_Prequest = "Nein"
+Inst115Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
@@ -12375,7 +12351,8 @@ Inst115Quest1_HORDE_Note = Inst115Quest1_Note
 Inst115Quest1_HORDE_Prequest = "Nein"
 Inst115Quest1_HORDE_Folgequest = Inst115Quest1_Folgequest
 Inst115Quest1FQuest_HORDE = "true"
--- No Rewards for this quest
+--
+-- Reward varies for each class
 
 --Quest 2 Horde
 Inst115Quest2_HORDE = Inst115Quest2
@@ -12387,30 +12364,6 @@ Inst115Quest2_HORDE_Note = Inst115Quest2_Note
 Inst115Quest2_HORDE_Prequest = "Nein"
 Inst115Quest2_HORDE_Folgequest = Inst115Quest2_Folgequest
 Inst115Quest1FQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 3 Horde
-Inst115Quest3_HORDE = Inst115Quest3
-Inst115Quest3_HORDE_Level = "89"
-Inst115Quest3_HORDE_Attain = "87"
-Inst115Quest3_HORDE_Aim = Inst115Quest3_Aim
-Inst115Quest3_HORDE_Location = Inst115Quest3_Location
-Inst115Quest3_HORDE_Note = Inst115Quest3_Note
-Inst115Quest3_HORDE_Prequest = Inst115Quest3_Prequest
-Inst115Quest3_HORDE_Folgequest = "Nein"
-Inst115Quest3PreQuest_HORDE = "true"
---
--- Reward varies for each class
-
---Quest 4 Horde
-Inst115Quest4_HORDE = Inst115Quest4
-Inst115Quest4_HORDE_Level = "89"
-Inst115Quest4_HORDE_Attain = "87"
-Inst115Quest4_HORDE_Aim = Inst115Quest4_Aim
-Inst115Quest4_HORDE_Location = Inst115Quest4_Location
-Inst115Quest4_HORDE_Note = Inst115Quest4_Note
-Inst115Quest4_HORDE_Prequest = "Nein"
-Inst115Quest4_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
@@ -12419,43 +12372,31 @@ Inst115Quest4_HORDE_Folgequest = "Nein"
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Brauerei Sturmbräu"
-Inst116QAA = "3 Quests"
-Inst116QAH = "3 Quests"
+Inst116QAA = "2 Quests"
+Inst116QAH = "2 Quests"
 
---Quest 1 Alliance 
-Inst116Quest1 = "1. In der Brauerei"
+--Quest 1 Alliance
+Inst116Quest1 = "1. Ärger aus dem Fass"
 Inst116Quest1_Level = "87"
-Inst116Quest1_Attain = "86"
-Inst116Quest1_Aim = "Sprecht mit Chen Sturmbräu in der Brauerei Sturmbräu."
-Inst116Quest1_Location = ""
-Inst116Quest1_Note = "Chen Sturmbräu ist innerhalb der Instanz am Eingang."
-Inst116Quest1_Prequest = "Weg frei -> Hausputz"
-Inst116Quest1_Folgequest = "Ärger aus dem Fass"
-Inst116Quest1FQuest = "true"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst116Quest2 = "2. Ärger aus dem Fass"
-Inst116Quest2_Level = "87"
-Inst116Quest2_Attain = "85"
-Inst116Quest2_Aim = "Tötet Yan-Zhu den Dekantierten."
-Inst116Quest2_Location = "Chen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
-Inst116Quest2_Note = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst116Quest2_Prequest = "In der Brauerei"
-Inst116Quest2_Folgequest = "Nein"
-Inst116Quest2PreQuest = "true"
+Inst116Quest1_Attain = "85"
+Inst116Quest1_Aim = "Tötet Yan-Zhu den Dekantierten."
+Inst116Quest1_Location = "Chen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
+Inst116Quest1_Note = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst116Quest1_Prequest = "In der Brauerei"
+Inst116Quest1_Folgequest = "Nein"
+Inst116Quest1PreQuest = "true"
 --
 -- Reward varies for each class
 
---Quest 3 Alliance
-Inst116Quest3 = "3. Familiengeheimnisse"
-Inst116Quest3_Level = "87"
-Inst116Quest3_Attain = "85"
-Inst116Quest3_Aim = "Sammelt 5 Geheimnisse der Sturmbräus."
-Inst116Quest3_Location = "Tantchen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
-Inst116Quest3_Note = "Die Bücher der Geheimnisse sind überall in der Instanz verteilt."
-Inst116Quest3_Prequest = "Nein"
-Inst116Quest3_Folgequest = "Nein"
+--Quest 2 Alliance
+Inst116Quest2 = "2. Familiengeheimnisse"
+Inst116Quest2_Level = "87"
+Inst116Quest2_Attain = "85"
+Inst116Quest2_Aim = "Sammelt 5 Geheimnisse der Sturmbräus."
+Inst116Quest2_Location = "Tantchen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
+Inst116Quest2_Note = "Die Bücher der Geheimnisse sind überall in der Instanz verteilt."
+Inst116Quest2_Prequest = "Nein"
+Inst116Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
@@ -12470,7 +12411,8 @@ Inst116Quest1_HORDE_Note = Inst116Quest1_Note
 Inst116Quest1_HORDE_Prequest = Inst116Quest1_Prequest
 Inst116Quest1_HORDE_Folgequest = Inst116Quest1_Folgequest
 Inst116Quest1FQuest_HORDE = "true"
--- No Rewards for this quest
+--
+-- Reward varies for each class
 
 --Quest 2 Horde
 Inst116Quest2_HORDE = Inst116Quest2
@@ -12482,18 +12424,6 @@ Inst116Quest2_HORDE_Note = Inst116Quest2_Note
 Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
 Inst116Quest2_HORDE_Folgequest = "Nein"
 Inst116Quest2PreQuest_HORDE = "true"
---
--- Reward varies for each class
-
---Quest 3 Horde
-Inst116Quest3_HORDE = Inst116Quest3
-Inst116Quest3_HORDE_Level = "87"
-Inst116Quest3_HORDE_Attain = "85"
-Inst116Quest3_HORDE_Aim = Inst116Quest3_Aim
-Inst116Quest3_HORDE_Location = Inst116Quest3_Location
-Inst116Quest3_HORDE_Note = Inst116Quest3_Note
-Inst116Quest3_HORDE_Prequest = "Nein"
-Inst116Quest3_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
@@ -12556,7 +12486,7 @@ Inst117Quest2_HORDE_Folgequest = "Nein"
 
 
 
---------------- INST118 - The Gate of the Setting Sun ---------------
+--------------- INST118 - Gate of the Setting Sun ---------------
 
 Inst118Caption = "Tor der untergehenden Sonne"
 Inst118QAA = "2 Quests"
@@ -12623,7 +12553,7 @@ Inst119Quest1_Level = "90"
 Inst119Quest1_Attain = "90"
 Inst119Quest1_Aim = "Rettet 12 gefangene Shado-Pan."
 Inst119Quest1_Location = "Shado-Master Chum Kiu (Belagerung des Niuzaotempels; "..BLUE.."Eingang"..WHITE..")"
-Inst119Quest1_Note = ""
+Inst119Quest1_Note = "Die gefangenen Shado-Pan sind überall in der Instanz verteilt."
 Inst119Quest1_Prequest = "Nein"
 Inst119Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
