@@ -12433,7 +12433,7 @@ Inst118Quest1_Level = "90"
 Inst118Quest1_Attain = "90"
 Inst118Quest1_Aim = "Light the Signal Flame."
 Inst118Quest1_Location = "Bowmistress Li (The Gate of the Setting Sun; "..BLUE.."Entrance"..WHITE..")"
-Inst118Quest1_Note = ""
+Inst118Quest1_Note = "When on the platform with the second boss, click the cannons to kill the bombers.  Then go down and run across and click the fuse to light the signal."
 Inst118Quest1_Prequest = "None"
 Inst118Quest1_Folgequest = "None"
 -- No Rewards for this quest
