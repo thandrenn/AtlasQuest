@@ -1,4 +1,4 @@
-﻿--[[
+﻿-[[
 
 	AtlasQuest, a World of Warcraft addon.
 	Email me at mystery8@gmail.com
