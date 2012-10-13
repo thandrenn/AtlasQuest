@@ -12348,9 +12348,9 @@ Inst115Quest1_HORDE_Attain = "87"
 Inst115Quest1_HORDE_Aim = Inst115Quest1_Aim
 Inst115Quest1_HORDE_Location = Inst115Quest1_Location
 Inst115Quest1_HORDE_Note = Inst115Quest1_Note
-Inst115Quest1_HORDE_Prequest = "Nein"
-Inst115Quest1_HORDE_Folgequest = Inst115Quest1_Folgequest
-Inst115Quest1FQuest_HORDE = "true"
+Inst115Quest1_HORDE_Prequest = Inst115Quest1_Prequest
+Inst115Quest1_HORDE_Folgequest = "Nein"
+Inst115Quest1PreQuest_HORDE = "true"
 --
 -- Reward varies for each class
 
@@ -12362,8 +12362,7 @@ Inst115Quest2_HORDE_Aim = Inst115Quest2_Aim
 Inst115Quest2_HORDE_Location = Inst115Quest2_Location
 Inst115Quest2_HORDE_Note = Inst115Quest2_Note
 Inst115Quest2_HORDE_Prequest = "Nein"
-Inst115Quest2_HORDE_Folgequest = Inst115Quest2_Folgequest
-Inst115Quest1FQuest_HORDE = "true"
+Inst115Quest2_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
@@ -12409,8 +12408,8 @@ Inst116Quest1_HORDE_Aim = Inst116Quest1_Aim
 Inst116Quest1_HORDE_Location = Inst116Quest1_Location
 Inst116Quest1_HORDE_Note = Inst116Quest1_Note
 Inst116Quest1_HORDE_Prequest = Inst116Quest1_Prequest
-Inst116Quest1_HORDE_Folgequest = Inst116Quest1_Folgequest
-Inst116Quest1FQuest_HORDE = "true"
+Inst116Quest1_HORDE_Folgequest = "Nein"
+Inst116Quest1PreQuest_HORDE = "true"
 --
 -- Reward varies for each class
 
@@ -12421,9 +12420,8 @@ Inst116Quest2_HORDE_Attain = "85"
 Inst116Quest2_HORDE_Aim = Inst116Quest2_Aim
 Inst116Quest2_HORDE_Location = Inst116Quest2_Location
 Inst116Quest2_HORDE_Note = Inst116Quest2_Note
-Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
+Inst116Quest2_HORDE_Prequest = "Nein"
 Inst116Quest2_HORDE_Folgequest = "Nein"
-Inst116Quest2PreQuest_HORDE = "true"
 --
 -- Reward varies for each class
 
@@ -12497,8 +12495,8 @@ Inst118Quest1 = "1. Gebt das Signal"
 Inst118Quest1_Level = "90"
 Inst118Quest1_Attain = "90"
 Inst118Quest1_Aim = "Entfacht die Signalflamme."
-Inst118Quest1_Location = "Bowmistress Li (Das Tor der Untergehenden Sonne; "..BLUE.."Eingang"..WHITE..")"
-Inst118Quest1_Note = ""
+Inst118Quest1_Location = "Bogenmeisterin Li (Das Tor der Untergehenden Sonne; "..BLUE.."Eingang"..WHITE..")"
+Inst118Quest1_Note = "Wenn Du beim 2. Boss auf der Plattform bist, klicke die Kanone an und zerstöre die Bomber. Danach gehe runter, klick die Lunte an um das Signalfeuer zu entfachen."
 Inst118Quest1_Prequest = "Nein"
 Inst118Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -12508,7 +12506,7 @@ Inst118Quest2 = "2. Was für ein Brocken!"
 Inst118Quest2_Level = "90"
 Inst118Quest2_Attain = "90"
 Inst118Quest2_Aim = "Tötet Raigonn."
-Inst118Quest2_Location = "Bowmistress Li (Das Tor der Untergehenden Sonne; "..BLUE.."Eingang"..WHITE..")"
+Inst118Quest2_Location = "Bogenmeisterin Li (Das Tor der Untergehenden Sonne; "..BLUE.."Eingang"..WHITE..")"
 Inst118Quest2_Note = "Raigonn ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst118Quest2_Prequest = "Nein"
 Inst118Quest2_Folgequest = "Nein"
