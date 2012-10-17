@@ -22,7 +22,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team Past & Present
 ## X-Localizations: enUS, deDE, zhCN
-## X-Date: October 13, 2012
+## X-Date: October 16, 2012
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 

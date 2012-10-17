@@ -802,18 +802,6 @@ end
 -----------------------------------------------------------------------------
 -- Quest Query stuff (Code written by Natch)
 -----------------------------------------------------------------------------
-
-local f = CreateFrame("Frame");
-f:SetScript("OnEvent", function(_, event, ...) f[event](f, ...) end);
-f:RegisterEvent("QUEST_QUERY_COMPLETE");
-
-local pendingQuestQuery = false
-
-function AQQuestQuery()
-	ChatFrame1:AddMessage(AQQuestQueryStart);
-	pendingQuestQuery = true
-	QueryQuestsCompleted();	
-end
  
 function AQClearQuestAndQuery()
 	-- remove all completed quests
@@ -828,18 +816,14 @@ function AQClearQuestAndQuery()
 	AQQuestQuery();
 end
 
-function f:QUEST_QUERY_COMPLETE()
-	-- only handle the query complete event, if it was us who queried for
-	-- completed quests
-	if not pendingQuestQuery then
-		return
-	end
+function AQQuestQuery()
+	ChatFrame1:AddMessage(AQQuestQueryStart);
 
 	local qct, gurka, qcs, ral, rat = {}, false, ":", false, false;
     --	self.stamp = time();
 	local ishorde = (UnitFactionGroup("player") == "Horde")
        
-  	GetQuestsCompleted(qct);
+  	AQPleaseCheckQuests = GetQuestsCompleted(qct);
   
 	for qx in pairs(qct) do
 		qcs = qcs .. qx .. ":";
