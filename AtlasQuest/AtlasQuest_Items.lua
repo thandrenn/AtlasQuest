@@ -6872,6 +6872,57 @@ Inst119Quest2Rewardtext_HORDE = AQClassRewards
 
 
 ---------------------------------------------------
+------------------ SCENARIOS ----------------------
+---------------------------------------------------
+
+
+--------------- INST125 - A Brewing Storm ---------------
+
+
+--------------- INST126 - Arena of Annihilation ---------------
+
+--Quest 1 Alliance
+Inst126Quest1Rewardtext = AQClassRewards
+
+
+--Quest 1 Horde
+Inst126Quest1Rewardtext_HORDE = AQClassRewards
+
+
+
+--------------- INST127 - Brewmoon Festival ---------------
+
+--Quest 1 Alliance
+Inst127Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst127Quest1Rewardtext_HORDE = AQNoReward
+
+
+
+--------------- INST128 - Crypt of Forgotten Kings ---------------
+
+
+--------------- INST129 - Greenstone Village ---------------
+
+
+--------------- INST130 - Theramore's Fall ---------------
+
+
+--------------- INST131 - Unga Ingoo ---------------
+
+
+--------------- INST132 - Assault on Zanvess ---------------
+
+
+--------------- INST133 - Peak of Serenity ---------------
+
+
+
+
+
+---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
 ---------------------------------------------------
 

@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.8.2 BETA (November ??, 2012)
+
+- Added Scenario quests:
+	- Arena of Annihilation: The Arena of Annihilation
+	- Brewmoon Festival: The Kun-Lai Kicker
+
+
+
 Version 4.8.1 (October 16, 2012)
 
 - Removed obsolete "Into the Nexus" quest.  Thanks yunohu!

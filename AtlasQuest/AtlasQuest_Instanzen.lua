@@ -358,7 +358,37 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Scholomance") then
 		AQINSTANZ = 20;
 
+		
+	-- Scenarios
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ABrewingStorm") then
+		AQINSTANZ = 125;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ArenaofAnnihilation") then
+		AQINSTANZ = 126;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BrewmoonFestival") then
+		AQINSTANZ = 127;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_CryptofForgottenKings") then
+		AQINSTANZ = 128;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_GreenstoneVillage") then
+		AQINSTANZ = 129;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheramoresFallAlliance") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheramoresFallHorde") then
+		AQINSTANZ = 130;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_UngaIngoo") then
+		AQINSTANZ = 131;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_AssaultonZanvess") then
+		AQINSTANZ = 132;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_PeakofSerenity") then
+		AQINSTANZ = 133;
+
+	
 
 	-- Battlegrounds
 
@@ -395,6 +425,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TempleofKotmogu") then
 		AQINSTANZ = 124;
 
+		
 	-- Outdoor Raids
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\DoomLordKazzak")  then
@@ -852,5 +883,15 @@ end
 -- 122 = Heart of Fear
 -- 123 = Silvershard Mines
 -- 124 = Temple of Kotmogu
+-- 125 = SCENARIO: A Brewing Storm
+-- 126 = SCENARIO: Arena of Annihilation
+-- 127 = SCENARIO: Brewmoon Festival
+-- 128 = SCENARIO: Crypt of Forgotten Kings
+-- 129 = SCENARIO: Greenstone Village
+-- 130 = SCENARIO: Theramore's Fall
+-- 131 = SCENARIO: Unga Ingoo
+-- 122 = SCENARIO: Assault on Zanvess
+-- 133 = SCENARIO: Peak of Serenity
+
 
 

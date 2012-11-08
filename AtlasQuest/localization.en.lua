@@ -12557,6 +12557,132 @@ Inst122QAH = "No Quests"
 
 
 ---------------------------------------------------
+------------------ SCENARIOS ----------------------
+---------------------------------------------------
+
+
+--------------- INST125 - A Brewing Storm ---------------
+
+Inst125Caption = "A Brewing Storm"
+Inst125QAA = "No Quests"
+Inst125QAH = "No Quests"
+
+
+
+--------------- INST126 - Arena of Annihilation ---------------
+
+Inst126Caption = "Arena of Annihilation"
+Inst126QAA = "1 Quest"
+Inst126QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst126Quest1 = "1. The Arena of Annihilation"
+Inst126Quest1_Level = "90"
+Inst126Quest1_Attain = "90"
+Inst126Quest1_Aim = "Enter and complete the Arena of Annihilation scenario. Afterwards, collect your reward from Wodin the Troll-Servant."
+Inst126Quest1_Location = "Gurgthock (Kun-Lai Summit - Temple of the White Tiger; "..YELLOW.."68.6, 48.4"..WHITE..")"
+Inst126Quest1_Note = "Wodin the Troll-Servant appears after you complete the scenario."
+Inst126Quest1_Prequest = "None"
+Inst126Quest1_Folgequest = "None"
+--
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst126Quest1_HORDE = Inst126Quest1
+Inst126Quest1_HORDE_Level = Inst126Quest1_Level
+Inst126Quest1_HORDE_Attain = Inst126Quest1_Attain
+Inst126Quest1_HORDE_Aim = Inst126Quest1_Aim
+Inst126Quest1_HORDE_Location = Inst126Quest1_Location
+Inst126Quest1_HORDE_Note = Inst126Quest1_Note
+Inst126Quest1_HORDE_Prequest = Inst126Quest1_Prequest
+Inst126Quest1_HORDE_Folgequest = Inst126Quest1_Folgequest
+--
+-- Reward varies for each class
+
+
+--------------- INST127 - Brewmoon Festival ---------------
+
+Inst127Caption = "Brewmoon Festival"
+Inst127QAA = "1 Quest"
+Inst127QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst127Quest1 = "1. The Kun-Lai Kicker"
+Inst127Quest1_Level = "90"
+Inst127Quest1_Attain = "90"
+Inst127Quest1_Aim = "Protect the Brewmoon Festival."
+Inst127Quest1_Location = "Brewmaster Boof (Kun-Lai Summit - Binan Village; "..YELLOW.."72.6, 93.0"..WHITE..")"
+Inst127Quest1_Note = "Completing the scenario also completes the quest.  Brewmaster Boof will appear in the village to turn in the quest."
+Inst127Quest1_Prequest = "None"
+Inst127Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst127Quest1_HORDE = Inst127Quest1
+Inst127Quest1_HORDE_Level = Inst127Quest1_Level
+Inst127Quest1_HORDE_Attain = Inst127Quest1_Attain
+Inst127Quest1_HORDE_Aim = Inst127Quest1_Aim
+Inst127Quest1_HORDE_Location = Inst127Quest1_Location
+Inst127Quest1_HORDE_Note = Inst127Quest1_Note
+Inst127Quest1_HORDE_Prequest = Inst127Quest1_Prequest
+Inst127Quest1_HORDE_Folgequest = Inst127Quest1_Folgequest
+-- No Rewards for this quest
+
+
+
+
+--------------- INST128 - Crypt of Forgotten Kings ---------------
+
+Inst128Caption = "Crypt of Forgotten Kings"
+Inst128QAA = "No Quests"
+Inst128QAH = "No Quests"
+
+
+
+--------------- INST129 - Greenstone Village ---------------
+
+Inst129Caption = "Greenstone Village"
+Inst129QAA = "No Quests"
+Inst129QAH = "No Quests"
+
+
+
+--------------- INST130 - Theramore's Fall ---------------
+
+Inst130Caption = "Theramore's Fall"
+Inst130QAA = "No Quests"
+Inst130QAH = "No Quests"
+
+
+
+--------------- INST131 - Unga Ingoo ---------------
+
+Inst131Caption = "Unga Ingoo"
+Inst131QAA = "No Quests"
+Inst131QAH = "No Quests"
+
+
+
+--------------- INST132 - Assault on Zanvess ---------------
+
+Inst132Caption = "Assault on Zanvess"
+Inst132QAA = "No Quests"
+Inst132QAH = "No Quests"
+
+
+
+--------------- INST133 - Peak of Serenity ---------------
+
+Inst133Caption = "Peak of Serenity"
+Inst133QAA = "No Quests"
+Inst133QAH = "No Quests"
+
+
+
+
+---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
 ---------------------------------------------------
 
