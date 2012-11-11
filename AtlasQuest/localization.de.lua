@@ -12620,6 +12620,154 @@ Inst122QAH = "Keine Quests"
 
 
 ---------------------------------------------------
+------------------ SCENARIOS ----------------------
+---------------------------------------------------
+
+--------------- INST125 - A Brewing Storm ---------------
+
+Inst125Caption = "Ein Sturm braut sich zusammen"
+Inst125QAA = "1 Quest"
+Inst125QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst125Quest1 = "1. Blanches Hammerbräu"
+Inst125Quest1_Level = "90"
+Inst125Quest1_Attain = "90"
+Inst125Quest1_Aim = "Schließt das Szenario "Ein Sturm braut sich zusammen" ab."
+Inst125Quest1_Location = "Gurgthock (Kun-Lai Gipfel - Tempel des Weißen Tigers; "..YELLOW.."68.6, 48.4"..WHITE..")"
+Inst125Quest1_Note = "Blanches Hammerbräu begleitet Dich während des Szenarios. Nachdem der Endboss besiegt wurde kannst Du die Quest bei ihr abgeben."
+Inst125Quest1_Prequest = "Nein"
+Inst125Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst125Quest1_HORDE = Inst126Quest1
+Inst125Quest1_HORDE_Level = "90"
+Inst125Quest1_HORDE_Attain = "90"
+Inst125Quest1_HORDE_Aim = Inst125Quest1_Aim
+Inst125Quest1_HORDE_Location = Inst125Quest1_Location
+Inst125Quest1_HORDE_Note = Inst125Quest1_Note
+Inst125Quest1_HORDE_Prequest = "Nein"
+Inst125Quest1_HORDE_Folgequest = "Nein"
+---- No Rewards for this quest
+
+
+
+--------------- INST126 - Arena of Annihilation ---------------
+
+Inst126Caption = "Arena der Auslöschung"
+Inst126QAA = "1 Quest"
+Inst126QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst126Quest1 = "1. Die Arena der Auslöschung"
+Inst126Quest1_Level = "90"
+Inst126Quest1_Attain = "90"
+Inst126Quest1_Aim = "Betretet und beendet das Szenario der Arena der Auslöschung. Holt Euch anschließend Eure Belohnung von Wodin, dem Trolldiener."
+Inst126Quest1_Location = "Gurgthock (Kun-Lai Summit - Temple of the White Tiger; "..YELLOW.."68.6, 48.4"..WHITE..")"
+Inst126Quest1_Note = "Wodin der Trolldiener erscheint nachdem das Szenario beendet ist."
+Inst126Quest1_Prequest = "Nein"
+Inst126Quest1_Folgequest = "Nein"
+--
+-- Reward varies for each class
+
+
+--Quest 1 Horde
+Inst126Quest1_HORDE = Inst126Quest1
+Inst126Quest1_HORDE_Level = "90"
+Inst126Quest1_HORDE_Attain = "90"
+Inst126Quest1_HORDE_Aim = Inst126Quest1_Aim
+Inst126Quest1_HORDE_Location = Inst126Quest1_Location
+Inst126Quest1_HORDE_Note = Inst126Quest1_Note
+Inst126Quest1_HORDE_Prequest = "Nein"
+Inst126Quest1_HORDE_Folgequest = "Nein"
+--
+-- Reward varies for each class
+
+
+
+--------------- INST127 - Brewmoon Festival --------------- 
+
+Inst127Caption = "Braumondfest"
+Inst127QAA = "1 Quest"
+Inst127QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst127Quest1 = "1. Der Kun-Lai-Hammer"
+Inst127Quest1_Level = "90"
+Inst127Quest1_Attain = "90"
+Inst127Quest1_Aim = "Beschützt das Braumondfest."
+Inst127Quest1_Location = "Braumeister Boof (Kun-Lai Gipfel - Binan; "..YELLOW.."72.6, 93.0"..WHITE..")"
+Inst127Quest1_Note = "Beende das Szenario und die Quest ist fertig.  Braumeister Boof erscheint nach Beendigung in dem Dorf um die Quest abgeben zu können."
+Inst127Quest1_Prequest = "Nein"
+Inst127Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst127Quest1_HORDE = Inst127Quest1
+Inst127Quest1_HORDE_Level = "90"
+Inst127Quest1_HORDE_Attain = "90"
+Inst127Quest1_HORDE_Aim = Inst127Quest1_Aim
+Inst127Quest1_HORDE_Location = Inst127Quest1_Location
+Inst127Quest1_HORDE_Note = Inst127Quest1_Note
+Inst127Quest1_HORDE_Prequest = "Nein"
+Inst127Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+
+--------------- INST128 - Crypt of Forgotten Kings ---------------
+
+Inst128Caption = "Crypt of Forgotten Kings"
+Inst128QAA = "No Quests"
+Inst128QAH = "No Quests"
+
+
+
+--------------- INST129 - Greenstone Village ---------------
+
+Inst129Caption = "Greenstone Village"
+Inst129QAA = "No Quests"
+Inst129QAH = "No Quests"
+
+
+
+--------------- INST130 - Theramore's Fall ---------------
+
+Inst130Caption = "Theramore's Fall"
+Inst130QAA = "No Quests"
+Inst130QAH = "No Quests"
+
+
+
+--------------- INST131 - Unga Ingoo ---------------
+ 
+Inst131Caption = "Unga Ingoo"
+Inst131QAA = "No Quests"
+Inst131QAH = "No Quests"
+
+
+
+--------------- INST132 - Assault on Zanvess ---------------
+
+Inst132Caption = "Assault on Zanvess"
+Inst132QAA = "No Quests"
+Inst132QAH = "No Quests"
+
+
+
+--------------- INST133 - Peak of Serenity ---------------
+
+Inst133Caption = "Peak of Serenity"
+Inst133QAA = "No Quests"
+Inst133QAH = "No Quests"
+
+
+
+
+---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
 ---------------------------------------------------
 
