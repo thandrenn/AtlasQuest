@@ -12664,7 +12664,7 @@ Inst126QAH = "1 Quest"
 Inst126Quest1 = "1. Die Arena der Auslöschung"
 Inst126Quest1_Level = "90"
 Inst126Quest1_Attain = "90"
-Inst126Quest1_Aim = "Betretet und beendet das Szenario der Arena der Auslöschung. Holt Euch anschließend Eure Belohnung von Wodin, dem Trolldiener."
+Inst126Quest1_Aim = "Betretet und beendet das Szenario der Arena der Auslöschung. Holt Euch anschließend Eure Belohnung von Wodin, dem Trolldiener ab."
 Inst126Quest1_Location = "Gurgthock (Kun-Lai Summit - Temple of the White Tiger; "..YELLOW.."68.6, 48.4"..WHITE..")"
 Inst126Quest1_Note = "Wodin der Trolldiener erscheint nachdem das Szenario beendet ist."
 Inst126Quest1_Prequest = "Nein"
@@ -12720,7 +12720,7 @@ Inst127Quest1_HORDE_Folgequest = "Nein"
 
 --------------- INST128 - Crypt of Forgotten Kings ---------------
 
-Inst128Caption = "Crypt of Forgotten Kings"
+Inst128Caption = "Krypta der Vergessenen Könige"
 Inst128QAA = "No Quests"
 Inst128QAH = "No Quests"
 
@@ -12728,15 +12728,37 @@ Inst128QAH = "No Quests"
 
 --------------- INST129 - Greenstone Village ---------------
 
-Inst129Caption = "Greenstone Village"
+Inst129Caption = "Grünsteindorf"
 Inst129QAA = "No Quests"
 Inst129QAH = "No Quests"
+
+--Quest 1 Alliance
+Inst129Quest1 = "1. Brisantes Grünsteinbräu"
+Inst129Quest1_Level = "90"
+Inst129Quest1_Attain = "90"
+Inst129Quest1_Aim = "Helft bei der Verteidigung von Grünstein."
+Inst129Quest1_Location = "Braumeister Tzu  (Jadewald - Dawn's Blossom; "..YELLOW.."47.4, 37.0"..WHITE..")"
+Inst129Quest1_Note = "Beende das Szenario und die Quest ist fertig."
+Inst129Quest1_Prequest = "Nein"
+Inst129Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst129Quest1_HORDE = Inst129Quest1
+Inst129Quest1_HORDE_Level = "90"
+Inst129Quest1_HORDE_Attain = "90"
+Inst129Quest1_HORDE_Aim = Inst129Quest1_Aim
+Inst129Quest1_HORDE_Location = Inst129Quest1_Location
+Inst129Quest1_HORDE_Note = Inst129Quest1_Note
+Inst129Quest1_HORDE_Prequest = "Nein"
+Inst129Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
 --------------- INST130 - Theramore's Fall ---------------
 
-Inst130Caption = "Theramore's Fall"
+Inst130Caption = "Theramores Sturz"
 Inst130QAA = "No Quests"
 Inst130QAH = "No Quests"
 
@@ -12745,14 +12767,36 @@ Inst130QAH = "No Quests"
 --------------- INST131 - Unga Ingoo ---------------
  
 Inst131Caption = "Unga Ingoo"
-Inst131QAA = "No Quests"
-Inst131QAH = "No Quests"
+Inst131QAA = "1 Quest"
+Inst131QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst131Quest1 = "1. Affenbande"
+Inst131Quest1_Level = "90"
+Inst131Quest1_Attain = "90"
+Inst131Quest1_Aim = "Bezwingt Kapitän Ook."
+Inst131Quest1_Location = "Braumeister Bo (Krasarangwildnis - Nayeli Lagoon; "..YELLOW.."52, 76.8"..WHITE..")"
+Inst131Quest1_Note = "Beende das Szenario und die Quest ist fertig."
+Inst131Quest1_Prequest = "Nein"
+Inst131Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst131Quest1_HORDE = Inst131Quest1
+Inst131Quest1_HORDE_Level = "90"
+Inst131Quest1_HORDE_Attain = "90"
+Inst131Quest1_HORDE_Aim = Inst131Quest1_Aim
+Inst131Quest1_HORDE_Location = Inst131Quest1_Location
+Inst131Quest1_HORDE_Note = Inst131Quest1_Note
+Inst131Quest1_HORDE_Prequest = "Nein"
+Inst131Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
 --------------- INST132 - Assault on Zanvess ---------------
 
-Inst132Caption = "Assault on Zanvess"
+Inst132Caption = "Angriff auf Zanvess"
 Inst132QAA = "No Quests"
 Inst132QAH = "No Quests"
 
@@ -12760,7 +12804,7 @@ Inst132QAH = "No Quests"
 
 --------------- INST133 - Peak of Serenity ---------------
 
-Inst133Caption = "Peak of Serenity"
+Inst133Caption = "Der Gipfel der Ruhe"
 Inst133QAA = "No Quests"
 Inst133QAH = "No Quests"
 
