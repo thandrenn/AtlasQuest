@@ -2,11 +2,14 @@
 Changelog
 =========
 
-Version 4.8.2 BETA (November ??, 2012)
+Version 4.8.2 BETA (January ??, 2013)
 
+- Upddated TOC file for Patch 5.1
 - Added Scenario quests:
 	- Arena of Annihilation: The Arena of Annihilation
 	- Brewmoon Festival: The Kun-Lai Kicker
+	- Greenstone Village: Volatile Greenstone Brew
+	- Unga Ingoo: The Funky Monkey Brew
 
 
 

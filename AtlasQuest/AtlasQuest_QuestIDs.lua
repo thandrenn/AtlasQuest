@@ -2350,11 +2350,27 @@ AQ_31611_Level = "90"
 
 --------------- INST129 - Greenstone Village ---------------
 
+Inst129Quest1_QuestID = "31613"
+
+Inst129Quest1_HORDE_QuestID = "31613"
+
+
+AQ_31613_Level = "90"
+
+
 
 --------------- INST130 - Theramore's Fall ---------------
 
 
 --------------- INST131 - Unga Ingoo ---------------
+
+Inst131Quest1_QuestID = "31658"
+
+Inst131Quest1_HORDE_QuestID = "31658"
+
+
+AQ_31658_Level = "90"
+
 
 
 --------------- INST132 - Assault on Zanvess ---------------

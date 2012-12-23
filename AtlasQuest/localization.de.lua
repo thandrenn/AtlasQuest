@@ -12633,7 +12633,7 @@ Inst125QAH = "1 Quest"
 Inst125Quest1 = "1. Blanches Hammerbräu"
 Inst125Quest1_Level = "90"
 Inst125Quest1_Attain = "90"
-Inst125Quest1_Aim = "Schließt das Szenario "Ein Sturm braut sich zusammen" ab."
+Inst125Quest1_Aim = "Schließt das Szenario 'Ein Sturm braut sich zusammen' ab."
 Inst125Quest1_Location = "Gurgthock (Kun-Lai Gipfel - Tempel des Weißen Tigers; "..YELLOW.."68.6, 48.4"..WHITE..")"
 Inst125Quest1_Note = "Blanches Hammerbräu begleitet Dich während des Szenarios. Nachdem der Endboss besiegt wurde kannst Du die Quest bei ihr abgeben."
 Inst125Quest1_Prequest = "Nein"
@@ -12642,7 +12642,7 @@ Inst125Quest1_Folgequest = "Nein"
 
 
 --Quest 1 Horde
-Inst125Quest1_HORDE = Inst126Quest1
+Inst125Quest1_HORDE = Inst125Quest1
 Inst125Quest1_HORDE_Level = "90"
 Inst125Quest1_HORDE_Attain = "90"
 Inst125Quest1_HORDE_Aim = Inst125Quest1_Aim

@@ -12644,8 +12644,31 @@ Inst128QAH = "No Quests"
 --------------- INST129 - Greenstone Village ---------------
 
 Inst129Caption = "Greenstone Village"
-Inst129QAA = "No Quests"
-Inst129QAH = "No Quests"
+Inst129QAA = "1 Quest"
+Inst129QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst129Quest1 = "1. Volatile Greenstone Brew"
+Inst129Quest1_Level = "90"
+Inst129Quest1_Attain = "90"
+Inst129Quest1_Aim = "Aid in the defense of Greenstone Village."
+Inst129Quest1_Location = "Brewmaster Tzu  (Jade Forest - Dawn's Blossom; "..YELLOW.."47.4, 37.0"..WHITE..")"
+Inst129Quest1_Note = "Completing the scenario also completes the quest."
+Inst129Quest1_Prequest = "None"
+Inst129Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst129Quest1_HORDE = Inst129Quest1
+Inst129Quest1_HORDE_Level = Inst129Quest1_Level
+Inst129Quest1_HORDE_Attain = Inst129Quest1_Attain
+Inst129Quest1_HORDE_Aim = Inst129Quest1_Aim
+Inst129Quest1_HORDE_Location = Inst129Quest1_Location
+Inst129Quest1_HORDE_Note = Inst129Quest1_Note
+Inst129Quest1_HORDE_Prequest = Inst129Quest1_Prequest
+Inst129Quest1_HORDE_Folgequest = Inst129Quest1_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -12660,8 +12683,31 @@ Inst130QAH = "No Quests"
 --------------- INST131 - Unga Ingoo ---------------
 
 Inst131Caption = "Unga Ingoo"
-Inst131QAA = "No Quests"
-Inst131QAH = "No Quests"
+Inst131QAA = "1 Quest"
+Inst131QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst131Quest1 = "1. The Funky Monkey Brew"
+Inst131Quest1_Level = "90"
+Inst131Quest1_Attain = "90"
+Inst131Quest1_Aim = "Defeat Captain Ook."
+Inst131Quest1_Location = "Brewmaster Bo (Krasarang Wilds - Nayeli Lagoon; "..YELLOW.."52, 76.8"..WHITE..")"
+Inst131Quest1_Note = "Completing the scenario also completes the quest."
+Inst131Quest1_Prequest = "None"
+Inst131Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst131Quest1_HORDE = Inst131Quest1
+Inst131Quest1_HORDE_Level = Inst131Quest1_Level
+Inst131Quest1_HORDE_Attain = Inst131Quest1_Attain
+Inst131Quest1_HORDE_Aim = Inst131Quest1_Aim
+Inst131Quest1_HORDE_Location = Inst131Quest1_Location
+Inst131Quest1_HORDE_Note = Inst131Quest1_Note
+Inst131Quest1_HORDE_Prequest = Inst131Quest1_Prequest
+Inst131Quest1_HORDE_Folgequest = Inst131Quest1_Folgequest
+-- No Rewards for this quest
 
 
 
