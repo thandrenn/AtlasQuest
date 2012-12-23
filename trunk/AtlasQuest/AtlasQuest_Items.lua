@@ -6906,11 +6906,27 @@ Inst127Quest1Rewardtext_HORDE = AQNoReward
 
 --------------- INST129 - Greenstone Village ---------------
 
+--Quest 1 Alliance
+Inst129Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst129Quest1Rewardtext_HORDE = AQNoReward
+
+
 
 --------------- INST130 - Theramore's Fall ---------------
 
 
 --------------- INST131 - Unga Ingoo ---------------
+
+--Quest 1 Alliance
+Inst131Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst131Quest1Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST132 - Assault on Zanvess ---------------
