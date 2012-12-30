@@ -12312,31 +12312,43 @@ Inst114Quest2_HORDE_Folgequest = "Nein"
 --------------- INST115 - Shado-pan Monastery ---------------
 
 Inst115Caption = "Shado-Pan-Kloster"
-Inst115QAA = "2 Quests"
-Inst115QAH = "2 Quests"
+Inst115QAA = "3 Quests"
+Inst115QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst115Quest1 = "1. Der Herr der Shado-Pan"
-Inst115Quest1_Level = "89"
+Inst115Quest1 = "1. Ins Kloster"
+Inst115Quest1_Level = "88"
 Inst115Quest1_Attain = "87"
-Inst115Quest1_Aim = "Befreit Taran Zhu vom Sha des Hasses."
-Inst115Quest1_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
-Inst115Quest1_Note = "Taran Zhu ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst115Quest1_Prequest = "In den Schlund des Hasses"
-Inst115Quest1_Folgequest = "Nein"
+Inst115Quest1_Aim = "Trefft Ban Bärenherz im Shado-Pan-Kloster."
+Inst115Quest1_Location = "Ban Bärenherz (Kun-Lai-Gipfel - Shado-Pan-Kloster; "..YELLOW.."36.6, 47.9"..WHITE..")"
+Inst115Quest1_Note = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
+Inst115Quest1_Prequest = "Unglaublich! --> In den Schlund des Hasses"
+Inst115Quest1_Folgequest = "Der Herr der Shado-Pan"
 Inst115Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst115Quest2 = "2. Der Herr der Shado-Pan"
+Inst115Quest2_Level = "89"
+Inst115Quest2_Attain = "87"
+Inst115Quest2_Aim = "Befreit Taran Zhu vom Sha des Hasses."
+Inst115Quest2_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
+Inst115Quest2_Note = "Taran Zhu ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst115Quest2_Prequest = "In den Schlund des Hasses"
+Inst115Quest2_Folgequest = "Nein"
+Inst115Quest2PreQuest = "true"
 --
 -- Reward varies for each class
 
---Quest 2 Alliance
-Inst115Quest2 = "4. Der Weg zum Respekt liegt in der Gewalt"
-Inst115Quest2_Level = "89"
-Inst115Quest2_Attain = "87"
-Inst115Quest2_Aim = "Tötet das Sha der Gewalt."
-Inst115Quest2_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
-Inst115Quest2_Note = "Das Sha der Gewalt ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst115Quest2_Prequest = "Nein"
-Inst115Quest2_Folgequest = "Nein"
+--Quest 3 Alliance
+Inst115Quest3 = "3. Der Weg zum Respekt liegt in der Gewalt"
+Inst115Quest3_Level = "89"
+Inst115Quest3_Attain = "87"
+Inst115Quest3_Aim = "Tötet das Sha der Gewalt."
+Inst115Quest3_Location = "Meister Schneewehe (Shado-Pan-Kloster - Versiegelte Kammer; "..BLUE.."70.0, 49.4"..WHITE..")"
+Inst115Quest3_Note = "Das Sha der Gewalt ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst115Quest3_Prequest = "Nein"
+Inst115Quest3_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
