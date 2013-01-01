@@ -12069,6 +12069,7 @@ Inst112Quest1_Location = "Chromie (Brunnen der Ewigkeit; "..YELLOW.."[3]"..WHITE
 Inst112Quest1_Note = "Thrall befindet sich innerhalb der Instanz am Eingang."
 Inst112Quest1_Prequest = "Nein"
 Inst112Quest1_Folgequest = "Auf zum Wyrmruhtempel!"
+Inst112Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -12080,7 +12081,7 @@ Inst112Quest2_Location = "Thrall (Stunde des Zwielichts; "..BLUE.."Eingang"..WHI
 Inst112Quest2_Note = "Thrall stoppt an einigen Stellen der Reise. Wenn Du ihn verlierst, gehe den Weg zurück oder gehe den Weg weiter und Du wirst ihn weiter vorne wartend finden."
 Inst112Quest2_Prequest = "Die Stunde des Zwielichts"
 Inst112Quest2_Folgequest = "Nein"
-Inst112Quest2FQuest = "true"
+Inst112Quest2PreQuest = "true"
 --
 Inst112Quest2name1 = "Sicherheitshandschuhe"
 Inst112Quest2name2 = "Sattelgurt des Weltenschamanen"
@@ -12324,7 +12325,7 @@ Inst115Quest1_Location = "Ban Bärenherz (Kun-Lai-Gipfel - Shado-Pan-Kloster; ".
 Inst115Quest1_Note = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
 Inst115Quest1_Prequest = "Unglaublich! --> In den Schlund des Hasses"
 Inst115Quest1_Folgequest = "Der Herr der Shado-Pan"
-Inst115Quest1PreQuest = "true"
+Inst115Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -12334,7 +12335,7 @@ Inst115Quest2_Attain = "87"
 Inst115Quest2_Aim = "Befreit Taran Zhu vom Sha des Hasses."
 Inst115Quest2_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
 Inst115Quest2_Note = "Taran Zhu ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst115Quest2_Prequest = "In den Schlund des Hasses"
+Inst115Quest2_Prequest = "Unglaublich! --> In den Schlund des Hasses"
 Inst115Quest2_Folgequest = "Nein"
 Inst115Quest2PreQuest = "true"
 --
@@ -12355,16 +12356,15 @@ Inst115Quest3_Folgequest = "Nein"
 
 --Quest 1 Horde
 Inst115Quest1_HORDE = Inst115Quest1
-Inst115Quest1_HORDE_Level = "89"
+Inst115Quest1_HORDE_Level = "88"
 Inst115Quest1_HORDE_Attain = "87"
 Inst115Quest1_HORDE_Aim = Inst115Quest1_Aim
 Inst115Quest1_HORDE_Location = Inst115Quest1_Location
 Inst115Quest1_HORDE_Note = Inst115Quest1_Note
 Inst115Quest1_HORDE_Prequest = Inst115Quest1_Prequest
 Inst115Quest1_HORDE_Folgequest = "Nein"
-Inst115Quest1PreQuest_HORDE = "true"
---
--- Reward varies for each class
+Inst115Quest1FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst115Quest2_HORDE = Inst115Quest2
@@ -12373,8 +12373,21 @@ Inst115Quest2_HORDE_Attain = "87"
 Inst115Quest2_HORDE_Aim = Inst115Quest2_Aim
 Inst115Quest2_HORDE_Location = Inst115Quest2_Location
 Inst115Quest2_HORDE_Note = Inst115Quest2_Note
-Inst115Quest2_HORDE_Prequest = "Nein"
+Inst115Quest2_HORDE_Prequest = Inst115Quest2_Prequest
 Inst115Quest2_HORDE_Folgequest = "Nein"
+Inst115Quest2PreQuest_HORDE = "true"
+--
+-- Reward varies for each class
+
+--Quest 3 Horde
+Inst115Quest3_HORDE = Inst115Quest3
+Inst115Quest3_HORDE_Level = "89"
+Inst115Quest3_HORDE_Attain = "87"
+Inst115Quest3_HORDE_Aim = Inst115Quest3_Aim
+Inst115Quest3_HORDE_Location = Inst115Quest3_Location
+Inst115Quest3_HORDE_Note = Inst115Quest3_Note
+Inst115Quest3_HORDE_Prequest = "Nein"
+Inst115Quest3_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
@@ -12383,31 +12396,44 @@ Inst115Quest2_HORDE_Folgequest = "Nein"
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Brauerei Sturmbräu"
-Inst116QAA = "2 Quests"
-Inst116QAH = "2 Quests"
+Inst116QAA = "3 Quests"
+Inst116QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst116Quest1 = "1. Ärger aus dem Fass"
+Inst116Quest1 = "1. In die Brauerrei"
 Inst116Quest1_Level = "87"
-Inst116Quest1_Attain = "85"
-Inst116Quest1_Aim = "Tötet Yan-Zhu den Dekantierten."
-Inst116Quest1_Location = "Chen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
+Inst116Quest1_Attain = "86"
+Inst116Quest1_Aim = "Sprecht mit Chen Sturmbräu in der Brauerei Sturmbräu."
+Inst116Quest1_Location = "Chen Sturmbräu (Tal der vier Winde - Brauerei Sturmbräu; "..YELLOW.."36.0, 68.8"..WHITE..")"
 Inst116Quest1_Note = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst116Quest1_Prequest = "In der Brauerei"
-Inst116Quest1_Folgequest = "Nein"
-Inst116Quest1PreQuest = "true"
+Inst116Quest1_Prequest = "Weg frei -> Hausputz"
+Inst116Quest1_Folgequest = "Ärger aus dem Fass"
+Inst116Quest1FQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 2 Alliance
+Inst116Quest2 = "2. Ärger aus dem Fass"
+Inst116Quest2_Level = "87"
+Inst116Quest2_Attain = "85"
+Inst116Quest2_Aim = "Tötet Yan-Zhu den Dekantierten."
+Inst116Quest2_Location = "Chen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
+Inst116Quest2_Note = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst116Quest2_Prequest = "In der Brauerei"
+Inst116Quest2_Folgequest = "Nein"
+Inst116Quest2PreQuest = "true"
 --
 -- Reward varies for each class
 
---Quest 2 Alliance
-Inst116Quest2 = "2. Familiengeheimnisse"
-Inst116Quest2_Level = "87"
-Inst116Quest2_Attain = "85"
-Inst116Quest2_Aim = "Sammelt 5 Geheimnisse der Sturmbräus."
-Inst116Quest2_Location = "Tantchen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
-Inst116Quest2_Note = "Die Bücher der Geheimnisse sind überall in der Instanz verteilt."
-Inst116Quest2_Prequest = "Nein"
-Inst116Quest2_Folgequest = "Nein"
+--Quest 3 Alliance
+Inst116Quest3 = "3. Familiengeheimnisse"
+Inst116Quest3_Level = "87"
+Inst116Quest3_Attain = "85"
+Inst116Quest3_Aim = "Sammelt 5 Geheimnisse der Sturmbräus."
+Inst116Quest3_Location = "Tantchen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")"
+Inst116Quest3_Note = "Die Bücher der Geheimnisse sind überall in der Instanz verteilt."
+Inst116Quest3_Prequest = "Nein"
+Inst116Quest3_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
@@ -12415,15 +12441,14 @@ Inst116Quest2_Folgequest = "Nein"
 --Quest 1 Horde
 Inst116Quest1_HORDE = Inst116Quest1
 Inst116Quest1_HORDE_Level = "87"
-Inst116Quest1_HORDE_Attain = "85"
+Inst116Quest1_HORDE_Attain = "86"
 Inst116Quest1_HORDE_Aim = Inst116Quest1_Aim
 Inst116Quest1_HORDE_Location = Inst116Quest1_Location
 Inst116Quest1_HORDE_Note = Inst116Quest1_Note
-Inst116Quest1_HORDE_Prequest = Inst116Quest1_Prequest
-Inst116Quest1_HORDE_Folgequest = "Nein"
-Inst116Quest1PreQuest_HORDE = "true"
---
--- Reward varies for each class
+Inst116Quest1_HORDE_Prequest = "Weg frei -> Hausputz"
+Inst116Quest1_HORDE_Folgequest = "Ärger aus dem Fass"
+Inst116Quest1FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst116Quest2_HORDE = Inst116Quest2
@@ -12432,8 +12457,21 @@ Inst116Quest2_HORDE_Attain = "85"
 Inst116Quest2_HORDE_Aim = Inst116Quest2_Aim
 Inst116Quest2_HORDE_Location = Inst116Quest2_Location
 Inst116Quest2_HORDE_Note = Inst116Quest2_Note
-Inst116Quest2_HORDE_Prequest = "Nein"
+Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
 Inst116Quest2_HORDE_Folgequest = "Nein"
+Inst116Quest2PreQuest_HORDE = "true"
+--
+-- Reward varies for each class
+
+--Quest 3 Horde
+Inst116Quest3_HORDE = Inst116Quest3
+Inst116Quest3_HORDE_Level = "87"
+Inst116Quest3_HORDE_Attain = "85"
+Inst116Quest3_HORDE_Aim = Inst116Quest3_Aim
+Inst116Quest3_HORDE_Location = Inst116Quest3_Location
+Inst116Quest3_HORDE_Note = Inst116Quest3_Note
+Inst116Quest3_HORDE_Prequest = "Nein"
+Inst116Quest3_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
