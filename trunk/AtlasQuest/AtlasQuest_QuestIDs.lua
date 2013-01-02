@@ -2234,13 +2234,16 @@ AQ_31360_Level = "89"
 
 --------------- INST115 - Shado-pan Monastery ---------------
 
-Inst115Quest1_QuestID = "30757"
-Inst115Quest2_QuestID = "31342"
+Inst115Quest1_QuestID = "31031"
+Inst115Quest2_QuestID = "30757"
+Inst115Quest3_QuestID = "31342"
 
-Inst115Quest1_HORDE_QuestID = "30757"
-Inst115Quest2_HORDE_QuestID = "31342"
+Inst115Quest1_HORDE_QuestID = "31031"
+Inst115Quest2_HORDE_QuestID = "30757"
+Inst115Quest3_HORDE_QuestID = "31342"
 
 
+AQ_31031_Level = "88"
 AQ_30757_Level = "89"
 AQ_31342_Level = "89"
 
@@ -2248,13 +2251,16 @@ AQ_31342_Level = "89"
 
 --------------- INST116 - Stormstout Brewery ---------------
 
-Inst116Quest1_QuestID = "31327"
-Inst116Quest2_QuestID = "31324"
+Inst116Quest1_QuestID = "30085"
+Inst116Quest2_QuestID = "31327"
+Inst116Quest3_QuestID = "31324"
 
-Inst116Quest1_HORDE_QuestID = "31327"
-Inst116Quest2_HORDE_QuestID = "31324"
+Inst116Quest1_HORDE_QuestID = "30085"
+Inst116Quest2_HORDE_QuestID = "31327"
+Inst116Quest3_HORDE_QuestID = "31324"
 
 
+AQ_30085_Level = "87"
 AQ_31327_Level = "87"
 AQ_31324_Level = "87"
 
