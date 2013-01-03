@@ -12846,7 +12846,7 @@ Inst131Quest1_HORDE_Folgequest = "Nein"
 
 --------------- INST132 - Assault on Zanvess ---------------
 
-Inst132Caption = "Angriff auf Zanvess"
+Inst132Caption = "Angriff auf Zan'vess"
 Inst132QAA = "Keine Quests"
 Inst132QAH = "Keine Quests"
 
@@ -12857,6 +12857,62 @@ Inst132QAH = "Keine Quests"
 Inst133Caption = "Der Gipfel der Ruhe"
 Inst133QAA = "Keine Quests"
 Inst133QAH = "Keine Quests"
+
+
+
+--------------- INST134 - Lion's Landing ---------------
+
+Inst134Caption = "Die Löwenlandung"
+Inst134QAA = "Keine Quests"
+Inst134QAH = "Keine Quests"
+
+
+
+--------------- INST135 - Domination Point ---------------
+
+Inst135Caption = "Herschaftsfeste"
+Inst135QAA = "Keine Quests"
+Inst135QAH = "Keine Quests"
+
+
+
+--------------- INST136 - A Little Patience ---------------
+
+Inst136Caption = "Ein wenig Geduld"
+Inst136QAA = "1 Quests"
+Inst136QAH = "Keine Quests"
+
+--Quest 1 Alliance
+Inst136Quest1 = "1. Ein wenig Geduld"
+Inst136Quest1_Level = "90"
+Inst136Quest1_Attain = "90"
+Inst136Quest1_Aim = "Betretet das Szenario 'Ein wenig Geduld' und meldet Euch bei König Varian Wrynn."
+Inst136Quest1_Location = "Quest startet automatisch (Krasarangwildnis - Löwenlandung; "..YELLOW.."98.2, 33.1"..WHITE..")"
+Inst136Quest1_Note = "Nach dem Betreten des Szenarius gebe die Quest bei König Varian Wrynn ab."
+Inst136Quest1_Prequest = "Treffen mit der Späherin -> Löwenlandung"
+Inst136Quest1_Folgequest = "Nein"
+Inst136Quest1Prequest = "true"
+-- No Rewards for this quest
+
+
+
+--------------- INST137 - Dagger in the Dark ---------------
+
+Inst137Caption = "Ein Dolch im Dunkel"
+Inst137QAA = "Keine Quests"
+Inst137QAH = "1 Quests"
+
+--Quest 1 Horde
+Inst137Quest1_HORDE = "1. Ein Dolch im Dunkel"
+Inst137Quest1_HORDE_Level = "90"
+Inst137Quest1_HORDE_Attain = "90"
+Inst137Quest1_HORDE_Aim = "Betretet das Szenario 'Ein Dolch im Dunkel' und meldet Euch bei Vol'jin."
+Inst137Quest1_HORDE_Location = "Quest startet automatisch (Krasarangwildnis - Herschaftsfeste; "..YELLOW.."10.6, 53.3"..WHITE..")"
+Inst137Quest1_HORDE_Note = "Nach dem Betreten des Szenarius gebe die Quest bei Vol'jin ab."
+Inst137Quest1_HORDE_Prequest = "Treffen mit der Späherin -> Herschaftsfeste"
+Inst137Quest1_HORDE_Folgequest = "Nein"
+Inst137Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
