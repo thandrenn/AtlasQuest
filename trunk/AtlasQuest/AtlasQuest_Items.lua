@@ -6776,34 +6776,46 @@ Inst114Quest2Rewardtext_HORDE = AQClassRewards
 --------------- INST115 - Shado-pan Monastery ---------------
 
 --Quest 1 Alliance
-Inst115Quest1Rewardtext = AQClassRewards
+Inst115Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
 Inst115Quest2Rewardtext = AQClassRewards
 
+--Quest 3 Alliance
+Inst115Quest3Rewardtext = AQClassRewards
+
 
 --Quest 1 Horde
-Inst115Quest1Rewardtext_HORDE = AQClassRewards
+Inst115Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
 Inst115Quest2Rewardtext_HORDE = AQClassRewards
+
+--Quest 3 Horde
+Inst115Quest3Rewardtext_HORDE = AQClassRewards
 
 
 
 --------------- INST116 - Stormstout Brewery ---------------
 
 --Quest 1 Alliance
-Inst116Quest1Rewardtext = AQClassRewards
+Inst116Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
 Inst116Quest2Rewardtext = AQClassRewards
 
+--Quest 3 Alliance
+Inst116Quest3Rewardtext = AQClassRewards
+
 
 --Quest 1 Horde
-Inst116Quest1Rewardtext_HORDE = AQClassRewards
+Inst116Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
 Inst116Quest2Rewardtext_HORDE = AQClassRewards
+
+--Quest 3 Horde
+Inst116Quest3Rewardtext_HORDE = AQClassRewards
 
 
 
@@ -6934,6 +6946,24 @@ Inst131Quest1Rewardtext_HORDE = AQNoReward
 
 --------------- INST133 - Peak of Serenity ---------------
 
+
+--------------- INST134 - Lion's Landing ---------------
+
+
+--------------- INST135 - Domination Point ---------------
+
+
+--------------- INST136 - A Little Patience ---------------
+
+--Quest 1 Alliance
+Inst136Quest1Rewardtext = AQNoReward
+
+
+
+--------------- INST137 - Dagger in the Dark ---------------
+
+--Quest 1 Horde
+Inst137Quest1Rewardtext_HORDE = AQNoReward
 
 
 
