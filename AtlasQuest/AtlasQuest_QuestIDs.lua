@@ -2385,6 +2385,29 @@ AQ_31658_Level = "90"
 --------------- INST133 - Peak of Serenity ---------------
 
 
+--------------- INST134 - Lion's Landing ---------------
+
+
+--------------- INST135 - Domination Point ---------------
+
+
+--------------- INST136 - A Little Patience ---------------
+
+Inst136Quest1_QuestID = "32248"
+
+
+AQ_32248_Level = "90"
+
+
+
+--------------- INST137 - Dagger in the Dark ---------------
+
+Inst137Quest1_HORDE_QuestID = "32251"
+
+
+AQ_32251_Level = "90"
+
+
 
 
 ---------------------------------------------------

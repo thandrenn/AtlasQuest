@@ -12253,30 +12253,43 @@ Inst114Quest2_HORDE_Folgequest = Inst114Quest2_Folgequest
 --------------- INST115 - Shado-pan Monastery ---------------
 
 Inst115Caption = "Shado-pan Monastery"
-Inst115QAA = "2 Quests"
-Inst115QAH = "2 Quests"
+Inst115QAA = "3 Quests"
+Inst115QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst115Quest1 = "1. Lord of the Shado-Pan"
-Inst115Quest1_Level = "89"
+Inst115Quest1 = "1. Into the Monastery"
+Inst115Quest1_Level = "88"
 Inst115Quest1_Attain = "87"
-Inst115Quest1_Aim = "Rid Taran Zhu of his possession by the Sha of Hatred."
+Inst115Quest1_Aim = "Meet Ban Bearheart inside the Shado-Pan Monastery."
 Inst115Quest1_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
-Inst115Quest1_Note = "Taran Zhu is at "..YELLOW.."[4]"..WHITE.."."
-Inst115Quest1_Prequest = "Into the Monastery or Into the Mouth of Hatred"
-Inst115Quest1_Folgequest = "None"
+Inst115Quest1_Note = "Ban Bearheart is just inside the entrance of the instance."
+Inst115Quest1_Prequest = "Unbelievable!"
+Inst115Quest1_Folgequest = "Lord of the Shado-Pan"
+Inst115Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst115Quest2 = "2. Lord of the Shado-Pan"
+Inst115Quest2_Level = "89"
+Inst115Quest2_Attain = "87"
+Inst115Quest2_Aim = "Rid Taran Zhu of his possession by the Sha of Hatred."
+Inst115Quest2_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
+Inst115Quest2_Note = "Taran Zhu is at "..YELLOW.."[4]"..WHITE.."."
+Inst115Quest2_Prequest = "Into the Monastery (optional)"
+Inst115Quest2_Folgequest = "None"
+Inst115Quest2FQuest = "true"
 --
 -- Reward varies for each class
 
---Quest 2 Alliance
-Inst115Quest2 = "2. The Path to Respect Lies in Violence"
-Inst115Quest2_Level = "89"
-Inst115Quest2_Attain = "87"
-Inst115Quest2_Aim = "Kill the Sha of Violence."
-Inst115Quest2_Location = "Master Snowdrift (Shado-pan Monastery; "..YELLOW.."[2]"..WHITE..")"
-Inst115Quest2_Note = "The Sha of Violence is at "..YELLOW.."[3]"..WHITE.."."
-Inst115Quest2_Prequest = "None"
-Inst115Quest2_Folgequest = "None"
+--Quest 3 Alliance
+Inst115Quest3 = "3. The Path to Respect Lies in Violence"
+Inst115Quest3_Level = "89"
+Inst115Quest3_Attain = "87"
+Inst115Quest3_Aim = "Kill the Sha of Violence."
+Inst115Quest3_Location = "Master Snowdrift (Shado-pan Monastery; "..YELLOW.."[2]"..WHITE..")"
+Inst115Quest3_Note = "The Sha of Violence is at "..YELLOW.."[3]"..WHITE.."."
+Inst115Quest3_Prequest = "None"
+Inst115Quest3_Folgequest = "None"
 --
 -- Reward varies for each class
 
@@ -12290,8 +12303,8 @@ Inst115Quest1_HORDE_Location = Inst115Quest1_Location
 Inst115Quest1_HORDE_Note = Inst115Quest1_Note
 Inst115Quest1_HORDE_Prequest = Inst115Quest1_Prequest
 Inst115Quest1_HORDE_Folgequest = Inst115Quest1_Folgequest
---
--- Reward varies for each class
+Inst115Quest1PreQuest_HORDE = Inst115Quest1PreQuest
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst115Quest2_HORDE = Inst115Quest2
@@ -12302,6 +12315,19 @@ Inst115Quest2_HORDE_Location = Inst115Quest2_Location
 Inst115Quest2_HORDE_Note = Inst115Quest2_Note
 Inst115Quest2_HORDE_Prequest = Inst115Quest2_Prequest
 Inst115Quest2_HORDE_Folgequest = Inst115Quest2_Folgequest
+Inst115Quest2FQuest_HORDE = Inst115Quest2FQuest
+--
+-- Reward varies for each class
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst115Quest3_HORDE = Inst115Quest3
+Inst115Quest3_HORDE_Level = Inst115Quest3_Level
+Inst115Quest3_HORDE_Attain = Inst115Quest3_Attain
+Inst115Quest3_HORDE_Aim = Inst115Quest3_Aim
+Inst115Quest3_HORDE_Location = Inst115Quest3_Location
+Inst115Quest3_HORDE_Note = Inst115Quest3_Note
+Inst115Quest3_HORDE_Prequest = Inst115Quest3_Prequest
+Inst115Quest3_HORDE_Folgequest = Inst115Quest3_Folgequest
 --
 -- Reward varies for each class
 
@@ -12310,30 +12336,43 @@ Inst115Quest2_HORDE_Folgequest = Inst115Quest2_Folgequest
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Stormstout Brewery"
-Inst116QAA = "2 Quests"
-Inst116QAH = "2 Quests"
+Inst116QAA = "3 Quests"
+Inst116QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst116Quest1 = "1. Trouble Brewing"
+Inst116Quest1 = "1. Into the Brewery"
 Inst116Quest1_Level = "87"
-Inst116Quest1_Attain = "85"
-Inst116Quest1_Aim = "Kill Yan-Zhu the Uncasked."
-Inst116Quest1_Location = "Chen Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
-Inst116Quest1_Note = "Yan-Zhu the Uncasked is the final boss, at "..YELLOW.."[3]"..WHITE.."."
-Inst116Quest1_Prequest = "Into the Brewery (optional)"
-Inst116Quest1_Folgequest = "None"
+Inst116Quest1_Attain = "86"
+Inst116Quest1_Aim = "Speak to Chen Stormstout inside the Stormstout Brewery."
+Inst116Quest1_Location = "Chen Stormstout (Valley of the Four Winds - Stormstout Brewery; "..YELLOW.."36.0, 68.8"..WHITE..")"
+Inst116Quest1_Note = "Chen Stormstout is just inside the entrance of the instance."
+Inst116Quest1_Prequest = "Clear the Way -> Cleaning House"
+Inst116Quest1_Folgequest = "Trouble Brewing"
+Inst116Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst116Quest2 = "2. Trouble Brewing"
+Inst116Quest2_Level = "87"
+Inst116Quest2_Attain = "85"
+Inst116Quest2_Aim = "Kill Yan-Zhu the Uncasked."
+Inst116Quest2_Location = "Chen Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
+Inst116Quest2_Note = "Yan-Zhu the Uncasked is the final boss, at "..YELLOW.."[3]"..WHITE.."."
+Inst116Quest2_Prequest = "Into the Brewery (optional)"
+Inst116Quest2_Folgequest = "None"
+Inst116Quest2FQuest = "true"
 --
 -- Reward varies for each class
 
---Quest 2 Alliance
-Inst116Quest2 = "2. Family Secrets"
-Inst116Quest2_Level = "87"
-Inst116Quest2_Attain = "85"
-Inst116Quest2_Aim = "Collect 5 Stormstout Secrets."
-Inst116Quest2_Location = "Auntie Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
-Inst116Quest2_Note = "The secrets are giant books on the floor found around the instance."
-Inst116Quest2_Prequest = "None"
-Inst116Quest2_Folgequest = "None"
+--Quest 3 Alliance
+Inst116Quest3 = "3. Family Secrets"
+Inst116Quest3_Level = "87"
+Inst116Quest3_Attain = "85"
+Inst116Quest3_Aim = "Collect 5 Stormstout Secrets."
+Inst116Quest3_Location = "Auntie Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")"
+Inst116Quest3_Note = "The secrets are giant books on the floor found around the instance."
+Inst116Quest3_Prequest = "None"
+Inst116Quest3_Folgequest = "None"
 --
 -- Reward varies for each class
 
@@ -12347,8 +12386,8 @@ Inst116Quest1_HORDE_Location = Inst116Quest1_Location
 Inst116Quest1_HORDE_Note = Inst116Quest1_Note
 Inst116Quest1_HORDE_Prequest = Inst116Quest1_Prequest
 Inst116Quest1_HORDE_Folgequest = Inst116Quest1_Folgequest
---
--- Reward varies for each class
+Inst116Quest1PreQuest_HORDE = Inst116Quest1PreQuest
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst116Quest2_HORDE = Inst116Quest2
@@ -12359,6 +12398,19 @@ Inst116Quest2_HORDE_Location = Inst116Quest2_Location
 Inst116Quest2_HORDE_Note = Inst116Quest2_Note
 Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
 Inst116Quest2_HORDE_Folgequest = Inst116Quest2_Folgequest
+Inst116Quest2FQuest_HORDE = Inst116Quest2FQuest
+--
+-- Reward varies for each class
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst116Quest3_HORDE = Inst116Quest3
+Inst116Quest3_HORDE_Level = Inst116Quest3_Level
+Inst116Quest3_HORDE_Attain = Inst116Quest3_Attain
+Inst116Quest3_HORDE_Aim = Inst116Quest3_Aim
+Inst116Quest3_HORDE_Location = Inst116Quest3_Location
+Inst116Quest3_HORDE_Note = Inst116Quest3_Note
+Inst116Quest3_HORDE_Prequest = Inst116Quest3_Prequest
+Inst116Quest3_HORDE_Folgequest = Inst116Quest3_Folgequest
 --
 -- Reward varies for each class
 
@@ -12724,6 +12776,59 @@ Inst132QAH = "No Quests"
 Inst133Caption = "Peak of Serenity"
 Inst133QAA = "No Quests"
 Inst133QAH = "No Quests"
+
+
+--------------- INST134 - Lion's Landing ---------------
+
+Inst134Caption = "Lion's Landing"
+Inst134QAA = "No Quests"
+Inst134QAH = "No Quests"
+
+
+--------------- INST135 - Domination Point ---------------
+
+Inst135Caption = "Domination Point"
+Inst135QAA = "No Quests"
+Inst135QAH = "No Quests"
+
+
+--------------- INST136 - A Little Patience ---------------
+
+Inst136Caption = "A Little Patience"
+Inst136QAA = "1 Quest"
+Inst136QAH = "No Quests"
+
+--Quest 1 Alliance
+Inst136Quest1 = "1. A Little Patience"
+Inst136Quest1_Level = "90"
+Inst136Quest1_Attain = "90"
+Inst136Quest1_Aim = "Enter the 'A Little Patience' scenario and report to King Varian Wrynn."
+Inst136Quest1_Location = "Quest automatically starts (Krasarang Wilds - Lion's Landing; "..YELLOW.."98.2, 33.1"..WHITE..")"
+Inst136Quest1_Note = "King Varian Wrynn is found just inside the scenario."
+Inst136Quest1_Prequest = "A King Among Men -> Lion's Landing"
+Inst136Quest1_Folgequest = "Nein"
+Inst136Quest1Prequest = "true"
+-- No Rewards for this quest
+
+
+
+--------------- INST137 - Dagger in the Dark ---------------
+
+Inst137Caption = "Dagger in the Dark"
+Inst137QAA = "No Quests"
+Inst137QAH = "1 Quest"
+
+--Quest 1 Horde
+Inst137Quest1_HORDE = "1. Dagger in the Dark"
+Inst137Quest1_HORDE_Level = "90"
+Inst137Quest1_HORDE_Attain = "90"
+Inst137Quest1_HORDE_Aim = "Enter the 'Dagger in the Dark' scenario and report to Vol'jin."
+Inst137Quest1_HORDE_Location = "Quest automatically starts (Krasarang Wilds - Domination Point; "..YELLOW.."10.6, 53.3"..WHITE..")"
+Inst137Quest1_HORDE_Note = "Vol'jin is found just inside the scenario."
+Inst137Quest1_HORDE_Prequest = "Meet the Scout -> Domination Point"
+Inst137Quest1_HORDE_Folgequest = "Nein"
+Inst137Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -13599,137 +13704,3 @@ Inst66Quest13name2_HORDE = Inst66Quest13name2
 Inst66Quest13name3_HORDE = Inst66Quest13name3
 
 
-
-
----------------------------
---- AQ Instance Numbers ---
----------------------------
-
--- 1  = Deadmines (VC)
--- 2  = Wailing Caverns (WC)
--- 3  = Ragefire Chasm (RFC)
--- 4  = Uldaman (ULD)
--- 5  = Blackrock Depths (BRD)
--- 6  = Blackwing Lair (BWL)
--- 7  = Blackfathom Deeps (BFD)
--- 8  = Lower Blackrock Spire (LBRS)
--- 9  = Upper Blackrock Spire (UBRS)
--- 10 = Dire Maul East (DM)
--- 11 = Dire Maul North (DM)
--- 12 = Dire Maul West (DM)
--- 13 = Maraudon (Mara)
--- 14 = Molten Core (MC)
--- 15 = *** DELETED ***   Naxxramas (level 60)
--- 16 = Onyxia's Lair (Ony)
--- 17 = Razorfen Downs (RFD)
--- 18 = Razorfen Kraul (RFK)
--- 19 = *** DELETED ***   SM: Library (SM Lib)
--- 20 = Scholomance (Scholo)
--- 21 = Shadowfang Keep (SFK)
--- 22 = Stratholme - Crusaders' Square (Strat)
--- 23 = The Ruins of Ahn'Qiraj (AQ20)
--- 24 = The Stockade (Stocks)
--- 25 = Sunken Temple (ST)
--- 26 = The Temple of Ahn'Qiraj (AQ40)
--- 27 = Zul'Farrak (ZF)
--- 28 = Stratholme - The Gauntlet (Strat)
--- 29 = Gnomeregan (Gnomer)
--- 30 = *** DELETED ***   Four Dragons
--- 31 = *** DELETED ***   Azuregos
--- 32 = *** DELETED ***   Highlord Kruul
--- 33 = Alterac Valley (AV)
--- 34 = Arathi Basin (AB)
--- 35 = Warsong Gulch (WSG)
--- 36 =  default "rest"
-
--- 37 = HFC: Ramparts (Ramp)
--- 38 = HFC: Blood Furnace (BF)
--- 39 = HFC: Shattered Halls (SH)
--- 40 = HFC: Magtheridon's Lair
--- 41 = CR: The Slave Pens (SP)
--- 42 = CR: The Steamvault (SV)
--- 43 = CR: The Underbog (UB)
--- 44 = Auchindoun: Auchenai Crypts (AC)
--- 45 = Auchindoun: Mana Tombs (MT)
--- 46 = Auchindoun: Sethekk Halls (Seth)
--- 47 = Auchindoun: Shadow Labyrinth (SLabs)
--- 48 = CR: Serpentshrine Cavern (SSC)
--- 49 = CoT: Black Morass (BM)
--- 50 = CoT: Battle of Mount Hyjal
--- 51 = CoT: Old Hillsbrad
--- 52 = Gruul's Lair (GL)
--- 53 = Karazhan (Kara)
--- 54 = TK: Arcatraz (Arc)
--- 55 = TK: Botanica (Bot)
--- 56 = TK: Mechanar (Mech)
--- 57 = *** DELETED ***   SM: Armory (SM Arm)
--- 58 = Scarlet Monastery
--- 59 = Scarlet Halls
--- 60 = Eye of the Storm
--- 61 = TK: The Eye
--- 62 = Black Temple (BT)
--- 63 = Zul'Aman (ZA)
--- 64 = Doom Lord Kazzak
--- 65 = Doomwalker
--- 66 = Skettis
--- 67 = Magisters' Terrace
--- 68 = Sunwell Plateau
-
--- 69 = Caverns of Time: The Culling of Stratholme
--- 70 = Utgarde Keep: Utgarde Keep
--- 71 = Utgarde Keep: Utgarde Pinnacle
--- 72 = The Nexus: The Nexus
--- 73 = The Nexus: The Oculus
--- 74 = The Nexus: The Eye of Eternity
--- 75 = Azjol-Nerub: The Upper Kingdom
--- 76 = Azjol-Nerub: Ahn'kahet: The Old Kingdom
--- 77 = Ulduar: Halls of Stone
--- 78 = Ulduar: Halls of Lightning
--- 79 = The Obsidian Sanctum
--- 80 = Drak'Tharon Keep
--- 81 = Zul'Drak: Gundrak
--- 82 = The Violet Hold
--- 83 = Strand of the Ancients (SotA)
--- 84 = Naxxramas (Naxx)
--- 85 = Vault of Archavon (VoA)
--- 86 = Ulduar
--- 87 = Trial of the Champion (ToC)
--- 88 = Trial of the Crusader (ToC)
--- 89 = Isle of Conquest (IoC)
--- 90 = Forge of Souls (FoS)
--- 91 = Pit of Saron (PoS)
--- 92 = Halls of Reflection (HoR)
--- 93 = Icecrown Citadel (ICC)
--- 94 = Ruby Sanctum (RS)
-
--- 95 = Blackrock Caverns
--- 96 = Throne of the Tides
--- 97 = The Stonecore
--- 98 = The Vortex Pinnacle
--- 99 = Grim Batol
--- 100 = Halls of Origination
--- 101 = Lost City of the Tol'vir
--- 102 = Blackwing Descent
--- 103 = The Bastion of Twilight
--- 104 = Throne of the Four Winds
--- 105 = Baradin Hold
--- 106 = Battle for Gilneas
--- 107 = Twin Peaks
--- 108 = Zul'Gurub (ZG)
--- 109 = Firelands
--- 110 = End Time
--- 111 = Well of Eternity
--- 112 = Hour of Twilight
--- 113 = Dragon Soul
-
--- 114 = Mogu'Shan Palace
--- 115 = Shado-pan Monastery
--- 116 = Stormstout Brewery
--- 117 = Temple of the Jade Serpent
--- 118 = The Gate of the Setting Sun
--- 119 = Siege of Niuzao Temple
--- 120 = Mogu'shan Vaults
--- 121 = Terrace of Endless Spring
--- 122 = Heart of Fear
--- 123 = Silvershard Mines
--- 124 = Temple of Kotmogu

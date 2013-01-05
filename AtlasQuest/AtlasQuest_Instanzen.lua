@@ -388,8 +388,19 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_PeakofSerenity") then
 		AQINSTANZ = 133;
 
-	
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_LionsLanding") then
+		AQINSTANZ = 134;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_DominationPoint") then
+		AQINSTANZ = 135;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ALittlePatience") then
+		AQINSTANZ = 136;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_DaggerintheDark") then
+		AQINSTANZ = 137;
+	
+	
 	-- Battlegrounds
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\AlteracValleyNorth") then
@@ -892,6 +903,8 @@ end
 -- 131 = SCENARIO: Unga Ingoo
 -- 122 = SCENARIO: Assault on Zanvess
 -- 133 = SCENARIO: Peak of Serenity
-
-
+-- 134 = SCENARIO: Lion's Landing
+-- 135 = SCENARIO: Domination Point
+-- 136 = SCENARIO: A Little Patience
+-- 137 = SCENARIO: Dagger in the Dark
 
