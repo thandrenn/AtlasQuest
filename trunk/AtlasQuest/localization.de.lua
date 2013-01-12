@@ -11257,7 +11257,7 @@ Inst99Quest1_Level = "85"
 Inst99Quest1_Attain = "84"
 Inst99Quest1_Aim = "Befreit einen Roten Drachen in Grim Batol und vernichtet mit ihm 30 Troggs und 15 Anhänger des Schattenhammers."
 Inst99Quest1_Location = "Velastrasza (Grim Batol; "..YELLOW.."Eingang"..WHITE..")"
-Inst99Quest1_Note = "Wird nachgereicht da Infos fehlen. Diese Quest bringt dich zurück zum Eingang."
+Inst99Quest1_Note = "Nachdem die ersten wenigen Gegner beseitigt wurden bist Du in der Lage auf den Rücken der roten Drachen zu fliegen und die Zwielichtgegner auf den Boden zu bekämpfen. Diese Quest bringt dich zurück zum Eingang."
 Inst99Quest1_Prequest = "Nein"
 Inst99Quest1_Folgequest = "Nein"
 --
@@ -11666,7 +11666,7 @@ Inst108Quest4_HORDE_Prequest = "Nein"
 Inst108Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance - different prequest name)
+--Quest 5 Horde
 Inst108Quest5_HORDE = Inst108Quest5
 Inst108Quest5_HORDE_Level = "85"
 Inst108Quest5_HORDE_Attain = "85"
@@ -11715,7 +11715,7 @@ Inst109Quest2_Level = "85"
 Inst109Quest2_Attain = "85"
 Inst109Quest2_Aim = "Sammelt 25 Stück Immerglut aus den Feuerlanden sowie 3 Handvoll Sande der Zeit."
 Inst109Quest2_Location = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."58.0, 56.0"..WHITE..")"
-Inst109Quest2_Note = "Das Immerglut droppt von den Bossen in den Feuerlanden.\n\nDie Sande der Zeit kann gekauft werden von Yasmin (Uldum - Oasis von Vir'sar; "..YELLOW.."26.6, 7.2"..WHITE..")"
+Inst109Quest2_Note = "Das Immerglut droppt von den Bossen in den Feuerlanden.\n\nDie Sande der Zeit kann gekauft werden bei Yasmin (Uldum - Oasis von Vir'sar; "..YELLOW.."26.6, 7.2"..WHITE..")"
 Inst109Quest2_Prequest = "Eure Zeit ist gekommen -> Eine Furche in der Zeit"
 Inst109Quest2_Folgequest = "Auf gut Glück -> Delegierung"
 Inst109Quest2FQuest = "true"
@@ -11751,7 +11751,7 @@ Inst109Quest5_Level = "85"
 Inst109Quest5_Attain = "85"
 Inst109Quest5_Aim = "Verstärkt den Runenstab von Nordrassil mit 250 schwelenden Essenzen und besorgt Euch das Herz der Flamme."
 Inst109Quest5_Location = "Kalecgos (Boreanische Tundra - Kaltarra; "..YELLOW.."23.2, 22.8"..WHITE..")"
-Inst109Quest5_Note = "Benutze den Runenstab von Nordrassil um die schweleden Essenzen aus den Körpern der Bosse zu extrahieren. Bei Ragnaros wird es nicht gehen.\nUm ans Herz der Flamme zu gelangen, mußt du Ragnaros besiegen ohne zu sterben und vorher die 250 schwelenden Essenzen gesammelt haben. Gehe in die Lava und sammel das Herz ein. Wenn du dabei stirbst, mußt Du Ragnaros, beim nächsten Versuch, erneut besiegen."
+Inst109Quest5_Note = "Benutze den Runenstab von Nordrassil um die schwelenden Essenzen aus den Körpern der Bosse zu extrahieren. Bei Ragnaros wird es nicht gehen.\nUm ans Herz der Flamme zu gelangen, mußt du Ragnaros besiegen ohne zu sterben und vorher die 250 schwelenden Essenzen gesammelt haben. Gehe in die Lava und sammel das Herz ein. Wenn du dabei stirbst, mußt Du Ragnaros, beim nächsten Versuch, erneut besiegen."
 Inst109Quest5_Prequest = "Die Zeit drängt -> Ausrichtung"
 Inst109Quest5_Folgequest = "Der Stoff, aus dem Legenden sind"
 Inst109Quest5FQuest = "true"
@@ -11764,7 +11764,7 @@ Inst109Quest1_HORDE_Level = "85"
 Inst109Quest1_HORDE_Attain = "85"
 Inst109Quest1_HORDE_Aim = "Sprecht mit Ziradormi in Orgrimmar."
 Inst109Quest1_HORDE_Location = Inst109Quest1_Location
-Inst109Quest1_HORDE_Note = "Die Quest bekommen nur Klassen die diesen Stab benutzen können - Druiden, Priester, Hexenmeister, Magier und Schamanen.\n\nZiradormi ist bei Orgrimmar - Tal der Stärke; "..YELLOW.."48.8, 70.4"..WHITE.."."
+Inst109Quest1_HORDE_Note = "Diese Quest bekommen nur Klassen die diesen Stab benutzen können - Druiden, Priester, Hexenmeister, Magier und Schamanen.\n\nZiradormi ist bei Orgrimmar - Tal der Stärke; "..YELLOW.."48.8, 70.4"..WHITE.."."
 Inst109Quest1_Prequest = "Nein"
 Inst109Quest1_HORDE_Folgequest = Inst109Quest1_Folgequest
 Inst109Quest1FQuest_HORDE = "true"
@@ -13419,7 +13419,7 @@ Inst107QAH = "Keine Quests"
 
 --------------- INST123 - Silvershard Mines --------------- 
 
-Inst123Caption = "Silvershard Mines"
+Inst123Caption = "Silberbruchmine"
 Inst123QAA = "Keine Quests"
 Inst123QAH = "Keine Quests"
 
@@ -13427,7 +13427,7 @@ Inst123QAH = "Keine Quests"
 
 --------------- INST124 - Temple of Kotmogu ---------------
 
-Inst124Caption = "Temple of Kotmogu"
+Inst124Caption = "Tempel von Katmogu"
 Inst124QAA = "Keine Quests"
 Inst124QAH = "Keine Quests"
 
@@ -13789,140 +13789,3 @@ Inst66Quest13PreQuest_HORDE = "true"
 Inst66Quest13name1_HORDE = Inst66Quest13name1
 Inst66Quest13name2_HORDE = Inst66Quest13name2
 Inst66Quest13name3_HORDE = "Severins Stock"
-
-
-
-----
-end
-----
-
-
-
----------------------------
---- AQ Instance Numbers ---
----------------------------
-
--- 1  = Deadmines
--- 2  = Wailing Caverns
--- 3  = Ragefire Chasm
--- 4  = Uldaman
--- 5  = Blackrock Depths
--- 6  = Blackwing Lair
--- 7  = Blackfathom Deeps
--- 8  = Lower Blackrock Spire
--- 9  = Upper Blackrock Spire
--- 10 = Dire Maul East
--- 11 = Dire Maul North
--- 12 = Dire Maul West
--- 13 = Maraudon
--- 14 = Molten Core
--- 15 = *** DELETED ***   Naxxramas (level 60)
--- 16 = Onyxia's Lair
--- 17 = Razorfen Downs
--- 18 = Razorfen Kraul
--- 19 = *** DELETED ***   SM: Library (SM Lib)
--- 20 = Scholomance
--- 21 = Shadowfang Keep
--- 22 = Stratholme - Crusaders' Square
--- 23 = The Ruins of Ahn'Qiraj
--- 24 = The Stockade
--- 25 = Sunken Temple
--- 26 = The Temple of Ahn'Qiraj
--- 27 = Zul'Farrak
--- 28 = Stratholme - The Gauntlet
--- 29 = Gnomeregan
--- 30 = *** DELETED ***   Four Dragons
--- 31 = *** DELETED ***   Azuregos
--- 32 = *** DELETED ***   Highlord Kruul
--- 33 = Alterac Valley
--- 34 = Arathi Basin
--- 35 = Warsong Gulch
--- 36 =  default "rest"
--- 37 = HFC: Ramparts
--- 38 = HFC: Blood Furnace
--- 39 = HFC: Shattered Halls
--- 40 = HFC: Magtheridon's Lair
--- 41 = CR: The Slave Pens
--- 42 = CR: The Steamvault
--- 43 = CR: The Underbog
--- 44 = Auchindoun: Auchenai Crypts
--- 45 = Auchindoun: Mana Tombs
--- 46 = Auchindoun: Sethekk Halls
--- 47 = Auchindoun: Shadow Labyrinth
--- 48 = CR: Serpentshrine Cavern
--- 49 = CoT: Black Morass
--- 50 = CoT: Battle of Mount Hyjal
--- 51 = CoT: Old Hillsbrad
--- 52 = Gruul's Lair
--- 53 = Karazhan
--- 54 = TK: Arcatraz
--- 55 = TK: Botanica
--- 56 = TK: Mechanar
--- 57 = *** DELETED ***   SM: Armory (SM Arm)
--- 58 = Scarlet Monastery
--- 59 = Scarlet Halls
--- 60 = Eye of the Storm
--- 61 = TK: The Eye
--- 62 = Black Temple
--- 63 = Zul'Aman
--- 64 = Doom Lord Kazzak
--- 65 = Doomwalker
--- 66 = Skettis
--- 67 = Magisters' Terrace
--- 68 = Sunwell Plateau
--- 69 = Caverns of Time: Stratholme Past
--- 70 = Utgarde Keep: Utgarde Keep
--- 71 = Utgarde Keep: Utgarde Pinnacle
--- 72 = The Nexus: The Nexus
--- 73 = The Nexus: The Oculus
--- 74 = The Nexus: The Eye of Eternity
--- 75 = Azjol-Nerub: The Upper Kingdom
--- 76 = Azjol-Nerub: Ahn'kahet: The Old Kingdom
--- 77 = Ulduar: Halls of Stone
--- 78 = Ulduar: Halls of Lightning
--- 79 = The Obsidian Sanctum
--- 80 = Drak'Tharon Keep
--- 81 = Zul'Drak: Gundrak
--- 82 = The Violet Hold
--- 83 = Strand of the Ancients
--- 84 = Naxxramas
--- 85 = Vault of Archavon
--- 86 = Ulduar
--- 87 = Trial of the Champion
--- 88 = Trial of the Crusader
--- 89 = Isle of Conquest
--- 90 = Forge of Souls
--- 91 = Pit of Saron
--- 92 = Halls of Reflection
--- 93 = Icecrown Citadel
--- 94 = Ruby Sanctum
--- 95 = Blackrock Caverns
--- 96 = Throne of the Tides
--- 97 = The Stonecore
--- 98 = The Vortex Pinacle
--- 99 = Grim Batol
--- 100 = Halls of Origination
--- 101 = Lost City of the Tol'vir
--- 102 = Blackwing Descent
--- 103 = The Bastion of Twilight
--- 104 = Throne of the Four Winds
--- 105 = Baradin Hold
--- 106 = Battle for Gilneas
--- 107 = Twin Peaks
--- 108 = Zul'Gurub
--- 109 = Firelands
--- 110 = End Time
--- 111 = Well of Eternity
--- 112 = Hour of Twilight
--- 113 = Dragon Soul
--- 114 = Mogu'Shan Palace
--- 115 = Shado-pan Monastery
--- 116 = Stormstout Brewery
--- 117 = Temple of the Jade Serpent
--- 118 = The Gate of the Setting Sun
--- 119 = Siege of Niuzao Temple
--- 120 = Mogushan Vaults
--- 121 = Terrace of Endless Spring
--- 122 = Heart of Fear
--- 123 = Silvershard Mines
--- 124 = Temple of Kotmogu
