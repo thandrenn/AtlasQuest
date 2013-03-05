@@ -358,6 +358,9 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Scholomance") then
 		AQINSTANZ = 20;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderD") then
+		AQINSTANZ = 138;
+
 		
 	-- Scenarios
 
@@ -907,4 +910,6 @@ end
 -- 135 = SCENARIO: Domination Point
 -- 136 = SCENARIO: A Little Patience
 -- 137 = SCENARIO: Dagger in the Dark
+-- 138 = Throne of Thunder
+-- 
 
