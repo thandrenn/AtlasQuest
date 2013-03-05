@@ -12607,6 +12607,14 @@ Inst122QAH = "No Quests"
 
 
 
+--------------- INST138 - Throne of Thunder ---------------
+
+Inst138Caption = "Throne of Thunder"
+Inst138QAA = "No Quests"
+Inst138QAH = "No Quests"
+
+
+
 
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------
