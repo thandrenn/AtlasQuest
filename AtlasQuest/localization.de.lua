@@ -6894,8 +6894,8 @@ Inst53Quest6_HORDE_Attain = "70"
 Inst53Quest6_HORDE_Aim = Inst53Quest6_Aim
 Inst53Quest6_HORDE_Location = Inst53Quest6_Location
 Inst53Quest6_HORDE_Note = Inst53Quest6_Note
-Inst53Quest6_HORDE_Prequest = Inst53Quest6_Prequest
-Inst53Quest6_HORDE_Folgequest = "Ja, Kamsis"
+Inst53Quest6_HORDE_Prequest = "Medivhs Tagebuch"
+Inst53Quest6_HORDE_Folgequest = "Kamsis"
 Inst53Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -6906,7 +6906,7 @@ Inst53Quest7_HORDE_Attain = "70"
 Inst53Quest7_HORDE_Aim = Inst53Quest7_Aim
 Inst53Quest7_HORDE_Location = Inst53Quest7_Location
 Inst53Quest7_HORDE_Note = Inst53Quest7_Note
-Inst53Quest7_HORDE_Prequest = Inst53Quest7_Prequest
+Inst53Quest7_HORDE_Prequest = "In guten Händen"
 Inst53Quest7_HORDE_Folgequest = "Arans Schemen"
 Inst53Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
@@ -6955,7 +6955,7 @@ Inst53Quest11_HORDE_Aim = Inst53Quest11_Aim
 Inst53Quest11_HORDE_Location = Inst53Quest11_Location
 Inst53Quest11_HORDE_Note = Inst53Quest11_Note
 Inst53Quest11_HORDE_Prequest = Inst53Quest11_Prequest
-Inst53Quest11_HORDE_Folgequest = "Ja, Kalynnas Bitte"
+Inst53Quest11_HORDE_Folgequest = "Kalynnas Bitte"
 Inst53Quest11FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -6967,7 +6967,7 @@ Inst53Quest12_HORDE_Aim = Inst53Quest12_Aim
 Inst53Quest12_HORDE_Location = Inst53Quest12_Location
 Inst53Quest12_HORDE_Note = Inst53Quest12_Note
 Inst53Quest12_HORDE_Prequest = Inst53Quest12_Prequest
-Inst53Quest12_HORDE_Folgequest = Inst53Quest12_Folgequest
+Inst53Quest12_HORDE_Folgequest = "Schrecken der Nacht"
 Inst53Quest12FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -9486,8 +9486,8 @@ Inst84Quest1 = "1. Schlüssel der fokussierenden Iris"
 Inst84Quest1_Level = "80"
 Inst84Quest1_Attain = "80"
 Inst84Quest1_Aim = "Liefert den Schlüssel zur fokussierenden Iris bei Alexstrasza der Lebensbinderin auf der höchsten Ebene des Wyrmruhtempels in der Drachenöde ab."
-Inst84Quest1_Location = "Schlüssel der fokussierenden Iris (droppts von Sapphiron; "..YELLOW.."Frostwyrmhöhle [1]"..WHITE..")"
-Inst84Quest1_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). Die Folge der Quest öffnet die Instant Der Nexus: Auge der Ewigkeit für den normalen 10 Mann Raid."
+Inst84Quest1_Location = "Schlüssel der fokussierenden Iris (droppt von Sapphiron; "..YELLOW.."Frostwyrmhöhle [1]"..WHITE..")"
+Inst84Quest1_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). Die Folgequest öffnet die Instant Der Nexus: Auge der Ewigkeit für den normalen 10 Mann Raid."
 Inst84Quest1_Prequest = "Nein"
 Inst84Quest1_Folgequest = "Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
 Inst84Quest1FQuest = "true"
@@ -9500,7 +9500,7 @@ Inst84Quest2_Level = "80"
 Inst84Quest2_Attain = "80"
 Inst84Quest2_Aim = "Liefert den heroischen Schlüssel zur fokussierenden Iris bei Alexstrasza der Lebensbinderin auf der höchsten Ebene des Wyrmruhtempels in der Drachenöde ab."
 Inst84Quest2_Location = "Der heroische Schlüssel der fokussierenden Iris (droppt von Sapphiron; "..YELLOW.."Frostwyrmhöhle [1]"..WHITE..")"
-Inst84Quest2_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). Die Folge der Quest öffnet die Instant Der Nexus: Auge der Ewigkeit für den Heroischen 25 Mann Raid."
+Inst84Quest2_Note = "Alexstrasza ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE.."). Die Folgequest öffnet die Instant Der Nexus: Auge der Ewigkeit für den Heroischen 25 Mann Raid."
 Inst84Quest2_Prequest = "Nein"
 Inst84Quest2_Folgequest = "Entscheidung im Auge der Ewigkeit ("..YELLOW.."Auge der Ewigkeit"..WHITE..")"
 Inst84Quest2FQuest = "true"
