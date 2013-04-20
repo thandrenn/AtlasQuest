@@ -12671,8 +12671,36 @@ Inst122QAH = "Keine Quests"
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Thron des Donners"
-Inst138QAA = "Keine Quests"
-Inst138QAH = "Keine Quests"
+Inst138QAA = "1 Quests"
+Inst138QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst138Quest1 = "1. Zukunftssicherung"
+Inst138Quest1_Level = "90"
+Inst138Quest1_Attain = "90"
+Inst138Quest1_Aim = "Besiegt den Donnerkönig in der Spitze der Stürme und benutzt Antonidas' Stab, um seiner Estrade die restliche Macht zu entziehen."
+Inst138Quest1_Location = "Lady Jaina Prachtmeer (Insel des Donners - Violette Erhebung; "..YELLOW.."63.2, 72.2"..WHITE..")"
+Inst138Quest1_Note = "Lei Shen (Donnerkönig) befindet sich bei "..YELLOW.."[12]"..WHITE.."."
+Inst138Quest1_Prequest = "Nein"
+Inst138Quest1_Folgequest = "Nein"
+--
+Inst138Quest1name1 = "Glorreiche Standarte der Offensive der Kirin Tor"
+
+
+--Quest 1 Horde
+Inst138Quest1_HORDE = "Lebensblut"
+Inst138Quest1_HORDE_Level = "90"
+Inst138Quest1_HORDE_Attain = "90"
+Inst138Quest1_HORDE_Aim = "Benutzt den abgestimmten Kristall, um dem dunklen Animus auf dem Thron des Donners die Reste des Animus zu entziehen. "
+Inst138Quest1_HORDE_Location = "Lor'themar Theron (Insel des Donners - Morgensucher Kap; "..YELLOW.."32.6, 35.4"..WHITE..")"
+Inst138Quest1_HORDE_Note = "Dunkler Animus befindet sich bei "..YELLOW.."[9]"..WHITE.."."
+Inst138Quest1_HORDE_Prequest = "Nein"
+Inst138Quest1_HORDE_Folgequest = "Nein"
+--
+Inst138Quest1name1_HORDE = "Glorreiche Standarte des Sonnenhäscheransturms"
+
+
+
 
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------
