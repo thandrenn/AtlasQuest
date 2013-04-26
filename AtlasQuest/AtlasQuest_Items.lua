@@ -6884,6 +6884,21 @@ Inst119Quest2Rewardtext_HORDE = AQClassRewards
 
 --------------- INST138 - Throne of Thunder ---------------
 
+--Quest 1 Alliance
+Inst138Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest1ITC1 = Itemc4;
+Inst138Quest1description1 = AQITEM_ITEM
+Inst138Quest1ID1 = "95589"
+
+
+--Quest 1 Horde
+Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest1ITC1_HORDE = Itemc4;
+Inst138Quest1description1_HORDE = AQITEM_ITEM
+Inst138Quest1ID1_HORDE = "95590"
+
 
 
 
@@ -6968,6 +6983,19 @@ Inst136Quest1Rewardtext = AQNoReward
 
 --Quest 1 Horde
 Inst137Quest1Rewardtext_HORDE = AQNoReward
+
+
+
+--------------- INST139 - Blood in the Snow ---------------
+
+
+--------------- INST140 - Battle on the High Seas ---------------
+
+
+--------------- INST141 - Dark Heart of Pandaria ---------------
+
+
+--------------- INST142 - The Secrets of Ragefire ---------------
 
 
 
@@ -7188,6 +7216,10 @@ Inst34Quest3ID1_HORDE = "20131"
 
 
 --------------- INST124 - Temple of Kotmogu ---------------
+
+
+
+--------------- INST143 - Deepwind Gorge ---------------
 
 
 

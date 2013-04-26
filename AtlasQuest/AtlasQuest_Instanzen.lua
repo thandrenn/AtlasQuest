@@ -402,7 +402,19 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_DaggerintheDark") then
 		AQINSTANZ = 137;
-	
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BloodintheSnow") then
+		AQINSTANZ = 139;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BattleontheHighSeas") then
+		AQINSTANZ = 140;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_DarkHeartofPandaria") then
+		AQINSTANZ = 141;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheSecretsofRagefire") then
+		AQINSTANZ = 142;
+
 	
 	-- Battlegrounds
 
@@ -438,6 +450,9 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TempleofKotmogu") then
 		AQINSTANZ = 124;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\DeepwindGorge") then
+		AQINSTANZ = 143;
 
 		
 	-- Outdoor Raids
@@ -895,8 +910,8 @@ end
 -- 120 = Mogu'shan Vaults
 -- 121 = Terrace of Endless Spring
 -- 122 = Heart of Fear
--- 123 = Silvershard Mines
--- 124 = Temple of Kotmogu
+-- 123 = BATTLEGROUND: Silvershard Mines
+-- 124 = BATTLEGROUND: Temple of Kotmogu
 -- 125 = SCENARIO: A Brewing Storm
 -- 126 = SCENARIO: Arena of Annihilation
 -- 127 = SCENARIO: Brewmoon Festival
@@ -911,5 +926,10 @@ end
 -- 136 = SCENARIO: A Little Patience
 -- 137 = SCENARIO: Dagger in the Dark
 -- 138 = Throne of Thunder
--- 
+-- 139 = SCENARIO: Blood in the Snow
+-- 140 = SCENARIO: Battle on the High Seas
+-- 141 = SCENARIO: Dark Heart of Pandaria
+-- 142 = SCENARIO: The Secrets of Ragefire
+-- 143 = BATTLEGROUND: Deepwind Gorge
+
 

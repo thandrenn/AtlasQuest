@@ -12610,8 +12610,33 @@ Inst122QAH = "No Quests"
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Throne of Thunder"
-Inst138QAA = "No Quests"
-Inst138QAH = "No Quests"
+Inst138QAA = "1 Quest"
+Inst138QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst138Quest1 = "1. Securing A Future"
+Inst138Quest1_Level = "90"
+Inst138Quest1_Attain = "90"
+Inst138Quest1_Aim = "Defeat the Thunder King within the Pinnacle of Storms and use the Staff of Antonidas to drain the remaining power from his dais."
+Inst138Quest1_Location = "Lady Jaina Proudmoore (Isle of Thunder - The Violet Rise; "..YELLOW.."63.2, 72.2"..WHITE..")"
+Inst138Quest1_Note = "This quest becomes available once reaching Exalted with the Kirin Tor Offensive.  After defeating Lei Shen at "..YELLOW.."[12]"..WHITE..", wait a moment and active the object at the center of his platform to complete the quest."
+Inst138Quest1_Prequest = "None"
+Inst138Quest1_Folgequest = "None"
+--
+Inst138Quest1name1 = "Glorious Standard of the Kirin Tor Offensive"
+
+
+--Quest 1 Horde
+Inst138Quest1_HORDE = "1. Life Blood"
+Inst138Quest1_HORDE_Level = "90"
+Inst138Quest1_HORDE_Attain = "90"
+Inst138Quest1_HORDE_Aim = "Use the Attuned Crystal to retrieve the Remnants of the Animus from the Dark Animus within the Throne of Thunder."
+Inst138Quest1_HORDE_Location = "Lor'themar Theron (Isle of Thunder - Dawnseeker Promontory; "..YELLOW.."32.6, 35.4"..WHITE..")"
+Inst138Quest1_HORDE_Note = "This quest becomes available after reaching Exalted with the Sunreaver Onslaught.  After defeating the Dark Animus at "..YELLOW.."[9]"..WHITE..", using the Attuned Crystal and loot your quest item."
+Inst138Quest1_HORDE_Prequest = "None"
+Inst138Quest1_HORDE_Folgequest = "None"
+--
+Inst138Quest1name1_HORDE = "Glorious Standard of the Sunreaver Onslaught"
 
 
 
@@ -12837,6 +12862,38 @@ Inst137Quest1_HORDE_Prequest = "Meet the Scout -> Domination Point"
 Inst137Quest1_HORDE_Folgequest = "Nein"
 Inst137Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
+
+
+
+--------------- INST139 - Blood in the Snow ---------------
+
+Inst139Caption = "Blood in the Snow"
+Inst139QAA = "No Quests"
+Inst139QAH = "No Quests"
+
+
+
+--------------- INST140 - Battle on the High Seas ---------------
+
+Inst140Caption = "Battle on the High Seas"
+Inst140QAA = "No Quests"
+Inst140QAH = "No Quests"
+
+
+
+--------------- INST141 - Dark Heart of Pandaria ---------------
+
+Inst141Caption = "Dark Heart of Pandaria"
+Inst141QAA = "No Quests"
+Inst141QAH = "No Quests"
+
+
+
+--------------- INST142 - The Secrets of Ragefire ---------------
+
+Inst142Caption = "The Secrets of Ragefire"
+Inst142QAA = "No Quests"
+Inst142QAH = "No Quests"
 
 
 
@@ -13358,6 +13415,14 @@ Inst123QAH = "No Quests"
 Inst124Caption = "Temple of Kotmogu"
 Inst124QAA = "No Quests"
 Inst124QAH = "No Quests"
+
+
+
+--------------- INST143 - Deepwind Gorge ---------------
+
+Inst143Caption = "Deepwind Gorge"
+Inst143QAA = "No Quests"
+Inst143QAH = "No Quests"
 
 
 

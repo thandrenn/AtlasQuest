@@ -2322,6 +2322,14 @@ AQ_31366_Level = "90"
 
 --------------- INST138 - Throne of Thunder ---------------
 
+Inst138Quest1_QuestID = "32599"
+
+Inst138Quest1_HORDE_QuestID = "32589"
+
+
+AQ_32599_Level = "90"
+AQ_32589_Level = "90"
+
 
 
 
@@ -2410,6 +2418,21 @@ Inst137Quest1_HORDE_QuestID = "32251"
 
 
 AQ_32251_Level = "90"
+
+
+
+--------------- INST139 - Blood in the Snow ---------------
+
+
+--------------- INST140 - Battle on the High Seas ---------------
+
+
+--------------- INST141 - Dark Heart of Pandaria ---------------
+
+
+--------------- INST142 - The Secrets of Ragefire ---------------
+
+
 
 
 
@@ -2541,6 +2564,10 @@ AQ_8122_Level = "60"
 
 
 --------------- INST124 - Temple of Kotmogu ---------------
+
+
+
+--------------- INST143 - Deepwind Gorge ---------------
 
 
 
