@@ -2,11 +2,16 @@
 Changelog
 =========
 
-Version 4.8.3 BETA  (March ??, 2013)
+Version 4.8.4 BETA  (May ??, 2013)
 
-- Updated TOC file for Patch 5.2
-- Localizations updated: enUS
-- Added
+- Added Throne of Thunder quests "Securing A Future" (Alliance) and "Life Blood" (Horde).
+- Added support for new Patch 5.3 Scenarios and Battleground.  (no quests)
+
+
+
+Version 4.8.3 (March 10, 2013)
+
+- Just updated TOC file for Patch 5.2 and added basic support for Throne of Thunder raid.  No new quests needed to be added.
 
 
 
