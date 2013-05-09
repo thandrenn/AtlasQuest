@@ -12680,7 +12680,7 @@ Inst138Quest1_Level = "90"
 Inst138Quest1_Attain = "90"
 Inst138Quest1_Aim = "Besiegt den Donnerkönig in der Spitze der Stürme und benutzt Antonidas' Stab, um seiner Estrade die restliche Macht zu entziehen."
 Inst138Quest1_Location = "Lady Jaina Prachtmeer (Insel des Donners - Violette Erhebung; "..YELLOW.."63.2, 72.2"..WHITE..")"
-Inst138Quest1_Note = "Lei Shen (Donnerkönig) befindet sich bei "..YELLOW.."[12]"..WHITE.."."
+Inst138Quest1_Note = "Diese Quest bekommst du nachdem Du einen ehrfüchrtigen Ruf bei der Offensive der Kirin Tor erlangt hast. Nach dem Sieg von Lei Shen bei "..YELLOW.."[12]"..WHITE..", warte einen kleinen Moment und aktiviere dann den Stab auf der Plattform um diese Quest zu beenden."
 Inst138Quest1_Prequest = "Nein"
 Inst138Quest1_Folgequest = "Nein"
 --
@@ -12693,7 +12693,7 @@ Inst138Quest1_HORDE_Level = "90"
 Inst138Quest1_HORDE_Attain = "90"
 Inst138Quest1_HORDE_Aim = "Benutzt den abgestimmten Kristall, um dem dunklen Animus auf dem Thron des Donners die Reste des Animus zu entziehen. "
 Inst138Quest1_HORDE_Location = "Lor'themar Theron (Insel des Donners - Morgensucher Kap; "..YELLOW.."32.6, 35.4"..WHITE..")"
-Inst138Quest1_HORDE_Note = "Dunkler Animus befindet sich bei "..YELLOW.."[9]"..WHITE.."."
+Inst138Quest1_HORDE_Note = "Diese Quest bekommst du nachdem Du einen ehrfüchrtigen Ruf bei den Sonnenhäscheranstum erlangt hast. Nach dem Sieg von Dunkler Animus bei "..YELLOW.."[9]"..WHITE..", benutze den abgestimmten Kristall und erhalte dann Dein Questgegenstand."
 Inst138Quest1_HORDE_Prequest = "Nein"
 Inst138Quest1_HORDE_Folgequest = "Nein"
 --
@@ -12946,6 +12946,38 @@ Inst137Quest1_HORDE_Prequest = "Treffen mit der Späherin -> Herschaftsfeste"
 Inst137Quest1_HORDE_Folgequest = "Nein"
 Inst137Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
+
+
+
+--------------- INST139 - Blood in the Snow ---------------
+
+Inst139Caption = "Blutroter Schnee"
+Inst139QAA = "Keine Quests"
+Inst139QAH = "Keine Quests"
+
+
+
+--------------- INST140 - Battle on the High Seas ---------------
+
+Inst140Caption = "Schlacht auf hoher See"
+Inst140QAA = "Keine Quests"
+Inst140QAH = "Keine Quests"
+
+
+
+--------------- INST141 - Dark Heart of Pandaria ---------------
+
+Inst141Caption = "Das dunkle Herz Pandarias"
+Inst141QAA = "Keine Quests"
+Inst141QAH = "Keine Quests"
+
+
+
+--------------- INST142 - The Secrets of Ragefire ---------------
+
+Inst142Caption = "Geheimnisse des Flammenschlunds"
+Inst142QAA = "Keine Quests"
+Inst142QAH = "Keine Quests"
 
 
 
@@ -13463,6 +13495,15 @@ Inst123QAH = "Keine Quests"
 Inst124Caption = "Tempel von Katmogu"
 Inst124QAA = "Keine Quests"
 Inst124QAH = "Keine Quests"
+
+
+
+--------------- INST143 - Deepwind Gorge ---------------
+
+Inst143Caption = "Tiefenwindschlucht"
+Inst143QAA = "Keine Quests"
+Inst143QAH = "Keine Quests"
+
 
 
 
