@@ -397,58 +397,109 @@ Inst2Quest3name5_HORDE = Inst2Quest3name5
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
 Inst3Caption = "Der Flammenschlund"
-Inst3QAA = "Keine Quests"
-Inst3QAH = "4 Quests"
+Inst3QAA = "4 Quests"
+Inst3QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst2Quest1 = "1. Ungezieferbekämpfung"
+Inst2Quest1_Level = "16"
+Inst2Quest1_Attain = "15"
+Inst2Quest1_Aim = "Tötet Adarogg und Nagma."
+Inst2Quest1_Location = "SI:7-Feldkommandant Dirken (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst2Quest1_Note = "Adarogg befindet sich bei "..YELLOW.."[1]"..WHITE.." und Nagma befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst2Quest1_Prequest = "Nein"
+Inst2Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst2Quest2 = "2. Niemand bleibt zurück"
+Inst2Quest2_Level = "16"
+Inst2Quest2_Attain = "15"
+Inst2Quest2_Aim = "Rettet 5 Waldläufer des SI:7 im Flammenschlund."
+Inst2Quest2_Location = "SI:7-Feldkommandant Dirken (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst2Quest2_Note = "Die Waldläufer sind überall in der Instanz verteilt."
+Inst2Quest2_Prequest = "Nein"
+Inst2Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst2Quest3 = "3. Ein neuer Feind"
+Inst2Quest3_Level = "16"
+Inst2Quest3_Attain = "15"
+Inst2Quest3_Aim = "Sammelt 5 verderbte Insignien von den Dunkelschamanenkultisten."
+Inst2Quest3_Location = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst2Quest3_Note = "Die Dunkelschamenkultisten sind überall in der Instanz verteilt."
+Inst2Quest3_Prequest = "Nein"
+Inst2Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst2Quest4 = "4. Die Dunkelschamanen"
+Inst2Quest4_Level = "16"
+Inst2Quest4_Attain = "15"
+Inst2Quest4_Aim = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth."
+Inst2Quest4_Location = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst2Quest4_Note = "Dunkelschamane Koranthal befindet sich bei "..YELLOW.."[2]"..WHITE.." und Lavawache Gordoth befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst2Quest4_Prequest = "Nein"
+Inst2Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
-Inst3Quest1_HORDE = "1. Der Feind tief unten"
-Inst3Quest1_HORDE_Level = "13"
-Inst3Quest1_HORDE_Attain = "10"
-Inst3Quest1_HORDE_Aim = "Sprecht mit Steinwächter Kurjack."
+Inst3Quest1_HORDE = "1. Feinde im Untergrund"
+Inst3Quest1_HORDE_Level = "15"
+Inst3Quest1_HORDE_Attain = "15"
+Inst3Quest1_HORDE_Aim = "Sprecht mit Kommandant Bagran."
 Inst3Quest1_HORDE_Location = "Garrosh Höllschrei (Orgrimmar - Das Tal der Stärke; "..YELLOW.."48.2, 70.6"..WHITE..")\nBaine Bluthuf (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."60.6, 51.6"..WHITE..")\nFürstin Sylvanas Windläufer (Unterstadt - Das königliche Viertel; "..YELLOW.."58.6, 93.0"..WHITE..")"
 Inst3Quest1_HORDE_Note = "Dies ist eine optionale Quest.Du kannst sie in drei verschiedenen Hauptstädten annehmen."
 Inst3Quest1_HORDE_Prequest = "Nein"
-Inst3Quest1_HORDE_Folgequest = "Taragaman der Hungerleider"
+Inst3Quest1_HORDE_Folgequest = "Ungezieferbekämpfung"
 Inst3Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst3Quest2_HORDE = "2. Taragaman der Hungerleider"
+Inst3Quest2_HORDE = "2. Ungezieferbekämpfung"
 Inst3Quest2_HORDE_Level = "16"
-Inst3Quest2_HORDE_Attain = "10"
-Inst3Quest2_HORDE_Aim = "Holt das Herz von Taragaman dem Hungerleider."
-Inst3Quest2_HORDE_Location = "Steingardist Kurjack (Flammenschlund; "..GREEN.."[1']"..WHITE..")"
-Inst3Quest2_HORDE_Note = "Die Mobs von der Sengenden Klinge sind auf den Weg zu Taragaman dem Hungerleider bei "..YELLOW.."[2]"..WHITE.."."
-Inst3Quest2_HORDE_Prequest = "Der Feind tief unten"
+Inst3Quest2_HORDE_Attain = "15"
+Inst3Quest2_HORDE_Aim = "Tötet Adarogg und Nagma."
+Inst3Quest2_HORDE_Location = "Kommandant Bagran (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest2_HORDE_Note = Inst3Quest1_Note
+Inst3Quest2_HORDE_Prequest = "Feinde im Untergrund"
 Inst3Quest2_HORDE_Folgequest = "Nein"
 Inst3Quest2PreQuest_HORDE = "true"
---
-Inst3Quest2name1_HORDE = "Sengender Gürtel"
-Inst3Quest2name2_HORDE = "Steingardistenschienbeinschützer"
-Inst3Quest2name3_HORDE = "Balgweste des Hungerers"
-Inst3Quest2name4_HORDE = "Flammenschlundgamaschen"
-Inst3Quest2name5_HORDE = "Roben des glorreichen Gesangs"
+-- No Rewards for this quest
 
 --Quest 3 Horde
-Inst3Quest3_HORDE = "3. Werft die Invasion zurück"
-Inst3Quest3_HORDE_Level = "14"
-Inst3Quest3_HORDE_Attain = "10"
-Inst3Quest3_HORDE_Aim = "Tötet Flintauge, Bazzalan und Jergosh den Herbeirufer."
-Inst3Quest3_HORDE_Location = "Steingardist Kurjack (Flammenschlund; "..GREEN.."[1']"..WHITE..")"
-Inst3Quest3_HORDE_Note = "Flintauge ist bei "..YELLOW.."[1]"..WHITE..", Bazzalan ist bei "..YELLOW.."[4]"..WHITE.." und Jergosh den Herbeirufer ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst3Quest3_HORDE = "3. Kein Ork bleibt zurück"
+Inst3Quest3_HORDE_Level = "16"
+Inst3Quest3_HORDE_Attain = "15"
+Inst3Quest3_HORDE_Aim = "Rettet 5 Späher der Kor'kron im Flammenschlund."
+Inst3Quest3_HORDE_Location = "Kommandant Bagran (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest3_HORDE_Note = "Die Späher sind überall in der Instanz verteilt."
 Inst3Quest3_HORDE_Prequest = "Nein"
 Inst3Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst3Quest4_HORDE = "4. Verpfuschte Elementare"
-Inst3Quest4_HORDE_Level = "15"
-Inst3Quest4_HORDE_Attain = "10"
-Inst3Quest4_HORDE_Aim = "Beschafft 6 sengende Bindungen."
-Inst3Quest4_HORDE_Location = "Bovaal Weißhorn (Flammenschlund; "..GREEN.."[1']"..WHITE..")"
-Inst3Quest4_HORDE_Note = "Die Felselementare, auf dem Weg zum ersten Boss, droppen die sengenden Bindungen."
+Inst3Quest4_HORDE = "4. Ein neuer Feind"
+Inst3Quest4_HORDE_Level = "16"
+Inst3Quest4_HORDE_Attain = "15"
+Inst3Quest4_HORDE_Aim = "Sammelt 5 verderbte Insignien von Kultisten im Flammenschlund."
+Inst3Quest4_HORDE_Location = "Herbeirufer Xorenth (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest4_HORDE_Note = "Die Kultisten sind überall in der Instanz verteilt."
 Inst3Quest4_HORDE_Prequest = "Nein"
 Inst3Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst3Quest5_HORDE = "5. Die Dunkelschamanen"
+Inst3Quest5_HORDE_Level = "16"
+Inst3Quest5_HORDE_Attain = "15"
+Inst3Quest5_HORDE_Aim = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth."
+Inst3Quest5_HORDE_Location = "Herbeirufer Xorenth (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest5_HORDE_Note = Inst3Quest4_Note
+Inst3Quest5_HORDE_Prequest = "Nein"
+Inst3Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
