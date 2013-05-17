@@ -95,16 +95,27 @@ AQ_26870_Level = "21"
 
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
-Inst3Quest1_HORDE_QuestID = "26865"
-Inst3Quest2_HORDE_QuestID = "26858"
-Inst3Quest3_HORDE_QuestID = "26856"
-Inst3Quest4_HORDE_QuestID = "26862"
+Inst3Quest1_QuestID = "30997"
+Inst3Quest2_QuestID = "30995"
+Inst3Quest3_QuestID = "30998"
+Inst3Quest4_QuestID = "30996"
+
+Inst3Quest1_HORDE_QuestID = "31037"
+Inst3Quest2_HORDE_QuestID = "30982"
+Inst3Quest3_HORDE_QuestID = "30984"
+Inst3Quest4_HORDE_QuestID = "30969"
+Inst3Quest5_HORDE_QuestID = "30983"
 
 
-AQ_26865_Level = "13"
-AQ_26858_Level = "16"
-AQ_26856_Level = "14"
-AQ_26862_Level = "15"
+AQ_30997_Level = "15"
+AQ_30995_Level = "15"
+AQ_30998_Level = "15"
+AQ_30996_Level = "15"
+AQ_31037_Level = "15"
+AQ_30982_Level = "15"
+AQ_30984_Level = "15"
+AQ_30969_Level = "15"
+AQ_30983_Level = "15"
 
 
 

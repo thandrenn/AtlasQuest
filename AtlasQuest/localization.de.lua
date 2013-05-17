@@ -401,48 +401,54 @@ Inst3QAA = "4 Quests"
 Inst3QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst2Quest1 = "1. Ungezieferbekämpfung"
-Inst2Quest1_Level = "16"
-Inst2Quest1_Attain = "15"
-Inst2Quest1_Aim = "Tötet Adarogg und Nagma."
-Inst2Quest1_Location = "SI:7-Feldkommandant Dirken (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
-Inst2Quest1_Note = "Adarogg befindet sich bei "..YELLOW.."[1]"..WHITE.." und Nagma befindet sich bei "..YELLOW.."[3]"..WHITE.."."
-Inst2Quest1_Prequest = "Nein"
-Inst2Quest1_Folgequest = "Nein"
+Inst3Quest1 = "1. Ungezieferbekämpfung"
+Inst3Quest1_Level = "16"
+Inst3Quest1_Attain = "15"
+Inst3Quest1_Aim = "Tötet Adarogg und Nagma."
+Inst3Quest1_Location = "SI:7-Feldkommandant Dirken (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest1_Note = "Adarogg befindet sich bei "..YELLOW.."[1]"..WHITE.." und Nagma befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst3Quest1_Prequest = "Nein"
+Inst3Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst2Quest2 = "2. Niemand bleibt zurück"
-Inst2Quest2_Level = "16"
-Inst2Quest2_Attain = "15"
-Inst2Quest2_Aim = "Rettet 5 Waldläufer des SI:7 im Flammenschlund."
-Inst2Quest2_Location = "SI:7-Feldkommandant Dirken (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
-Inst2Quest2_Note = "Die Waldläufer sind überall in der Instanz verteilt."
-Inst2Quest2_Prequest = "Nein"
-Inst2Quest2_Folgequest = "Nein"
+Inst3Quest2 = "2. Niemand bleibt zurück"
+Inst3Quest2_Level = "16"
+Inst3Quest2_Attain = "15"
+Inst3Quest2_Aim = "Rettet 5 Waldläufer des SI:7 im Flammenschlund."
+Inst3Quest2_Location = "SI:7-Feldkommandant Dirken (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest2_Note = "Die Waldläufer sind überall in der Instanz verteilt."
+Inst3Quest2_Prequest = "Nein"
+Inst3Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst2Quest3 = "3. Ein neuer Feind"
-Inst2Quest3_Level = "16"
-Inst2Quest3_Attain = "15"
-Inst2Quest3_Aim = "Sammelt 5 verderbte Insignien von den Dunkelschamanenkultisten."
-Inst2Quest3_Location = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
-Inst2Quest3_Note = "Die Dunkelschamenkultisten sind überall in der Instanz verteilt."
-Inst2Quest3_Prequest = "Nein"
-Inst2Quest3_Folgequest = "Nein"
+Inst3Quest3 = "3. Ein neuer Feind"
+Inst3Quest3_Level = "16"
+Inst3Quest3_Attain = "15"
+Inst3Quest3_Aim = "Sammelt 5 verderbte Insignien von den Dunkelschamanenkultisten."
+Inst3Quest3_Location = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest3_Note = "Die Dunkelschamenkultisten sind überall in der Instanz verteilt."
+Inst3Quest3_Prequest = "Nein"
+Inst3Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst2Quest4 = "4. Die Dunkelschamanen"
-Inst2Quest4_Level = "16"
-Inst2Quest4_Attain = "15"
-Inst2Quest4_Aim = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth."
-Inst2Quest4_Location = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
-Inst2Quest4_Note = "Dunkelschamane Koranthal befindet sich bei "..YELLOW.."[2]"..WHITE.." und Lavawache Gordoth befindet sich bei "..YELLOW.."[4]"..WHITE.."."
-Inst2Quest4_Prequest = "Nein"
-Inst2Quest4_Folgequest = "Nein"
--- No Rewards for this quest
+Inst3Quest4 = "4. Die Dunkelschamanen"
+Inst3Quest4_Level = "16"
+Inst3Quest4_Attain = "15"
+Inst3Quest4_Aim = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth."
+Inst3Quest4_Location = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest4_Note = "Dunkelschamane Koranthal befindet sich bei "..YELLOW.."[2]"..WHITE.." und Lavawache Gordoth befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst3Quest4_Prequest = "Nein"
+Inst3Quest4_Folgequest = "Nein"
+--
+Inst3Quest4name1 = "Roben des gescheiterten Rituals"
+Inst3Quest4name2 = "Flammenschlundgamaschen"
+Inst3Quest4name3 = "Balgweste des Schamanen"
+Inst3Quest4name4 = "Steingardistenschienbeinschützer"
+Inst3Quest4name5 = "Sengender Gürtel"
+
 
 
 --Quest 1 Horde
@@ -12739,7 +12745,7 @@ Inst138Quest1name1 = "Glorreiche Standarte der Offensive der Kirin Tor"
 
 
 --Quest 1 Horde
-Inst138Quest1_HORDE = "Lebensblut"
+Inst138Quest1_HORDE = "1. Lebensblut"
 Inst138Quest1_HORDE_Level = "90"
 Inst138Quest1_HORDE_Attain = "90"
 Inst138Quest1_HORDE_Aim = "Benutzt den abgestimmten Kristall, um dem dunklen Animus auf dem Thron des Donners die Reste des Animus zu entziehen. "
