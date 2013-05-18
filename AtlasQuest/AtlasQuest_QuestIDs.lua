@@ -567,17 +567,20 @@ Inst20Quest1_QuestID = "31440"
 Inst20Quest2_QuestID = "31442"
 Inst20Quest3_QuestID = "31447"
 Inst20Quest4_QuestID = "31448"
+Inst20Quest5_QuestID = "28756"
 
 Inst20Quest1_HORDE_QuestID = "31440"
 Inst20Quest2_HORDE_QuestID = "31442"
 Inst20Quest3_HORDE_QuestID = "31447"
 Inst20Quest4_HORDE_QuestID = "31448"
+Inst20Quest4_HORDE_QuestID = "28756"
 
 
 AQ_31440_Level = "43"
 AQ_31442_Level = "90"
 AQ_31447_Level = "43"
 AQ_31448_Level = "90"
+AQ_28756_Level = "42"
 
 
 

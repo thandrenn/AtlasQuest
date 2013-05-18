@@ -1671,6 +1671,9 @@ Inst20Quest3Rewardtext = AQNoReward
 --Quest 4 Alliance
 Inst20Quest4Rewardtext = AQClassRewards
 
+--Quest 5 Alliance
+Inst20Quest5Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst20Quest1Rewardtext_HORDE = AQNoReward
@@ -1683,6 +1686,9 @@ Inst20Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
 Inst20Quest4Rewardtext_HORDE = AQClassRewards
+
+--Quest 5 Horde
+Inst20Quest5Rewardtext_HORDE = AQNoReward
 
 
 
