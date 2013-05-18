@@ -501,7 +501,7 @@ Inst3Quest4_HORDE_Folgequest = "Nein"
 Inst3Quest5_HORDE = "5. Die Dunkelschamanen"
 Inst3Quest5_HORDE_Level = "16"
 Inst3Quest5_HORDE_Attain = "15"
-Inst3Quest5_HORDE_Aim = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth."
+Inst3Quest5_HORDE_Aim = Inst3Quest4_Aim
 Inst3Quest5_HORDE_Location = "Herbeirufer Xorenth (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
 Inst3Quest5_HORDE_Note = Inst3Quest4_Note
 Inst3Quest5_HORDE_Prequest = "Nein"
@@ -2983,8 +2983,8 @@ Inst59Quest4_HORDE_Folgequest = "Nein"
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Caption = "Scholomance"
-Inst20QAA = "4 Quests"
-Inst20QAH = "4 Quests"
+Inst20QAA = "5 Quests"
+Inst20QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. Die vier Bände"
@@ -3020,7 +3020,7 @@ Inst20Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst20Quest4 = "4. Dem Leiden ein Ende"
+Inst20Quest4 = "4. Dem Leiden ein Ende (Heroisch)"
 Inst20Quest4_Level = "90"
 Inst20Quest4_Attain = "90"
 Inst20Quest4_Aim = "Tötet Dunkelmeister Gandling."
@@ -3030,6 +3030,17 @@ Inst20Quest4_Prequest = "Nein"
 Inst20Quest4_Folgequest = "Nein"
 --
 -- Reward varies for each class
+
+--Quest 5 Alliance
+Inst20Quest5 = "5. Entartung des Knochens"
+Inst20Quest5_Level = "42"
+Inst20Quest5_Attain = "40"
+Inst20Quest5_Aim = "Tötet Blutrippe im Ossuarium von Scholomance."
+Inst20Quest5_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des Hoffnungsvollen Lichts; "..YELLOW.."76.0, 51.0"..WHITE..")"
+Inst20Quest5_Note = "Blutrippe ist bei "..YELLOW.."[3]"..WHITE.."."
+Inst20Quest5_Prequest = "Nein"
+Inst20Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -3076,6 +3087,17 @@ Inst20Quest4_HORDE_Prequest = "Nein"
 Inst20Quest4_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
+
+--Quest 5 Horde
+Inst20Quest5_HORDE = Inst20Quest5
+Inst20Quest5_HORDE_Level = "42"
+Inst20Quest5_HORDE_Attain = "40"
+Inst20Quest5_HORDE_Aim = Inst20Quest5_Aim
+Inst20Quest5_HORDE_Location = Inst20Quest5_Location
+Inst20Quest5_HORDE_Note = Inst20Quest5_Note
+Inst20Quest5_HORDE_Prequest = "Nein"
+Inst20Quest5_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
