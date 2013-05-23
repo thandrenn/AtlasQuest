@@ -3,35 +3,35 @@ If/when this slips into a release, just ignore it. :)
 
 
 --Quest 1 Alliance
-Inst127Quest1 = ""
-Inst127Quest1_Level = ""
-Inst127Quest1_Attain = ""
-Inst127Quest1_Aim = ""
-Inst127Quest1_Location = ""
-Inst127Quest1_Note = ""
-Inst127Quest1_Prequest = "None"
-Inst127Quest1_Folgequest = "None"
-Inst127Quest1PreQuest = "true"
-Inst127Quest1FQuest = "true"
+Inst138Quest1 = ""
+Inst138Quest1_Level = ""
+Inst138Quest1_Attain = ""
+Inst138Quest1_Aim = ""
+Inst138Quest1_Location = ""
+Inst138Quest1_Note = ""
+Inst138Quest1_Prequest = "None"
+Inst138Quest1_Folgequest = "None"
+Inst138Quest1PreQuest = "true"
+Inst138Quest1FQuest = "true"
 --
-Inst127Quest1name1 = ""
+Inst138Quest1name1 = ""
 -- No Rewards for this quest
 -- Reward varies for each class
 
 
 --Quest 1 Horde
-Inst127Quest1_HORDE = ""
-Inst127Quest1_HORDE_Level = ""
-Inst127Quest1_HORDE_Attain = ""
-Inst127Quest1_HORDE_Aim = ""
-Inst127Quest1_HORDE_Location = ""
-Inst127Quest1_HORDE_Note = ""
-Inst127Quest1_HORDE_Prequest = "None"
-Inst127Quest1_HORDE_Folgequest = "None"
-Inst127Quest1PreQuest_HORDE = "true"
-Inst127Quest1FQuest_HORDE = "true"
+Inst138Quest1_HORDE = ""
+Inst138Quest1_HORDE_Level = ""
+Inst138Quest1_HORDE_Attain = ""
+Inst138Quest1_HORDE_Aim = ""
+Inst138Quest1_HORDE_Location = ""
+Inst138Quest1_HORDE_Note = ""
+Inst138Quest1_HORDE_Prequest = "None"
+Inst138Quest1_HORDE_Folgequest = "None"
+Inst138Quest1PreQuest_HORDE = "true"
+Inst138Quest1FQuest_HORDE = "true"
 --
-Inst127Quest1name1_HORDE = ""
+Inst138Quest1name1_HORDE = ""
 -- No Rewards for this quest
 -- Reward varies for each class
 
@@ -39,18 +39,18 @@ Inst127Quest1name1_HORDE = ""
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst127Quest1_HORDE = Inst127Quest1
-Inst127Quest1_HORDE_Level = Inst127Quest1_Level
-Inst127Quest1_HORDE_Attain = Inst127Quest1_Attain
-Inst127Quest1_HORDE_Aim = Inst127Quest1_Aim
-Inst127Quest1_HORDE_Location = Inst127Quest1_Location
-Inst127Quest1_HORDE_Note = Inst127Quest1_Note
-Inst127Quest1_HORDE_Prequest = Inst127Quest1_Prequest
-Inst127Quest1_HORDE_Folgequest = Inst127Quest1_Folgequest
-Inst127Quest1PreQuest_HORDE = Inst127Quest1PreQuest
-Inst127Quest1FQuest_HORDE = Inst127Quest1FQuest
+Inst138Quest1_HORDE = Inst138Quest1
+Inst138Quest1_HORDE_Level = Inst138Quest1_Level
+Inst138Quest1_HORDE_Attain = Inst138Quest1_Attain
+Inst138Quest1_HORDE_Aim = Inst138Quest1_Aim
+Inst138Quest1_HORDE_Location = Inst138Quest1_Location
+Inst138Quest1_HORDE_Note = Inst138Quest1_Note
+Inst138Quest1_HORDE_Prequest = Inst138Quest1_Prequest
+Inst138Quest1_HORDE_Folgequest = Inst138Quest1_Folgequest
+Inst138Quest1PreQuest_HORDE = Inst138Quest1PreQuest
+Inst138Quest1FQuest_HORDE = Inst138Quest1FQuest
 --
-Inst127Quest1name1_HORDE = Inst127Quest1name1
+Inst138Quest1name1_HORDE = Inst138Quest1name1
 -- No Rewards for this quest
 -- Reward varies for each class
 
@@ -58,42 +58,42 @@ Inst127Quest1name1_HORDE = Inst127Quest1name1
 
 
 --Quest 1 Alliance
-Inst127Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst138Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst127Quest1ITC1 = Itemc4;
-Inst127Quest1description1 = AQITEM_..AQITEM_
-Inst127Quest1ID1 = ""
+Inst138Quest1ITC1 = Itemc4;
+Inst138Quest1description1 = AQITEM_..AQITEM_
+Inst138Quest1ID1 = ""
 --ITEM2
-Inst127Quest1ITC2 = Itemc4;
-Inst127Quest1description2 = AQITEM_..AQITEM_
-Inst127Quest1ID2 = ""
+Inst138Quest1ITC2 = Itemc4;
+Inst138Quest1description2 = AQITEM_..AQITEM_
+Inst138Quest1ID2 = ""
 --ITEM3
-Inst127Quest1ITC3 = Itemc4;
-Inst127Quest1description3 = AQITEM_..AQITEM_
-Inst127Quest1ID3 = ""
+Inst138Quest1ITC3 = Itemc4;
+Inst138Quest1description3 = AQITEM_..AQITEM_
+Inst138Quest1ID3 = ""
 --ITEM4
-Inst127Quest1ITC4 = Itemc4;
-Inst127Quest1description4 = AQITEM_..AQITEM_
-Inst127Quest1ID4 = ""
+Inst138Quest1ITC4 = Itemc4;
+Inst138Quest1description4 = AQITEM_..AQITEM_
+Inst138Quest1ID4 = ""
 
 
 
 
 --Quest 1 Alliance
-Inst127Quest1Rewardtext = AQNoReward
+Inst138Quest1Rewardtext = AQNoReward
 
 --Quest 1 Alliance
-Inst127Quest1Rewardtext = AQClassRewards
+Inst138Quest1Rewardtext = AQClassRewards
 
 
 
-Inst127Quest1_QuestID = ""
+Inst138Quest1_QuestID = ""
 Inst127Quest2_QuestID = ""
 Inst127Quest3_QuestID = ""
 Inst127Quest4_QuestID = ""
 Inst127Quest5_QuestID = ""
 
-Inst127Quest1_HORDE_QuestID = ""
+Inst138Quest1_HORDE_QuestID = ""
 Inst127Quest2_HORDE_QuestID = ""
 Inst127Quest3_HORDE_QuestID = ""
 Inst127Quest4_HORDE_QuestID = ""

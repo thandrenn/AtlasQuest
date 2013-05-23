@@ -406,7 +406,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BloodintheSnow") then
 		AQINSTANZ = 139;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BattleontheHighSeas") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BattleontheHighSeasAlliance") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BattleontheHighSeasHorde") then
 		AQINSTANZ = 140;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_DarkHeartofPandaria") then
@@ -414,6 +414,9 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheSecretsofRagefire") then
 		AQINSTANZ = 142;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TrovesoftheThunderKing") then
+		AQINSTANZ = 144;
 
 	
 	-- Battlegrounds
@@ -931,5 +934,5 @@ end
 -- 141 = SCENARIO: Dark Heart of Pandaria
 -- 142 = SCENARIO: The Secrets of Ragefire
 -- 143 = BATTLEGROUND: Deepwind Gorge
-
+-- 144 = SCENARIO: Troves of the Thunder King
 

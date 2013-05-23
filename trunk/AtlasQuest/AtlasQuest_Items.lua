@@ -6911,13 +6911,40 @@ Inst119Quest2Rewardtext_HORDE = AQClassRewards
 
 --------------- INST120 - Mogu'shan Vaults ---------------
 
+--Quest 1 Alliance
+Inst120Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst120Quest1Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST121 - Terrace of Endless Spring ---------------
 
+--Quest 1 Alliance
+Inst121Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst121Quest2Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst121Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst121Quest2Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST122 - Heart of Fear ---------------
+
+--Quest 1 Alliance
+Inst122Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst122Quest1Rewardtext_HORDE = AQNoReward
 
 
 
@@ -6930,6 +6957,12 @@ Inst138Quest1ITC1 = Itemc4;
 Inst138Quest1description1 = AQITEM_ITEM
 Inst138Quest1ID1 = "95589"
 
+--Quest 2 Alliance
+Inst138Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst138Quest3Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -6937,6 +6970,12 @@ Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst138Quest1ITC1_HORDE = Itemc4;
 Inst138Quest1description1_HORDE = AQITEM_ITEM
 Inst138Quest1ID1_HORDE = "95590"
+
+--Quest 2 Horde
+Inst138Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst138Quest3Rewardtext_HORDE = AQNoReward
 
 
 
@@ -7035,6 +7074,9 @@ Inst137Quest1Rewardtext_HORDE = AQNoReward
 
 
 --------------- INST142 - The Secrets of Ragefire ---------------
+
+
+--------------- INST144 - Troves of the Thunder King ---------------
 
 
 

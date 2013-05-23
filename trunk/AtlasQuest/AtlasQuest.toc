@@ -1,4 +1,4 @@
-﻿## Interface: 50200
+﻿## Interface: 50300
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -13,7 +13,7 @@
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Author: Thandrenn
 ## Original Author: Asurn
-## Version: 4.8.4 BETA
+## Version: 4.8.4
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Echo Isles US
 ## X-eMail: mystery8@gmail.com

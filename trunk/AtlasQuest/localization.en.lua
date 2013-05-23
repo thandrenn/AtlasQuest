@@ -12586,32 +12586,131 @@ Inst119Quest2_HORDE_Folgequest = Inst119Quest2_Folgequest
 --------------- INST120 - Mogu'shan Vaults ---------------
 
 Inst120Caption = "Mogu'shan Vaults"
-Inst120QAA = "No Quests"
-Inst120QAH = "No Quests"
+Inst120QAA = "1 Quest"
+Inst120QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst120Quest1 = "1. The Strength of One's Foes"
+Inst120Quest1_Level = "90"
+Inst120Quest1_Attain = "90"
+Inst120Quest1_Aim = "Collect 10 Sigils of Power and 10 Sigils of Wisdom from raid bosses in the Mogu'shan Vaults, Heart of Fear, or Terrace of Endless Spring."
+Inst120Quest1_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
+Inst120Quest1_Note = "These drop from raid bosses on any difficulty.  Sigils of Power come from Mogu'shan Vaults and Sigils of Wisdom drop from Heart of Fear or Terrace of the Endless Spring.\nIt is possible to get more than 10 of each while still on the questline.  If you delete extra Sigils, the game will remove the quest and all Sigils.  Only after you've turned in the completed quest to Wrathion can you delete the extra Sigils."
+Inst120Quest1_Prequest = "Stranger in a Strange Land -> A Legend in the Making"
+Inst120Quest1_Folgequest = "Fear Itself"
+Inst120Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst120Quest1_HORDE = Inst120Quest1
+Inst120Quest1_HORDE_Level = Inst120Quest1_Level
+Inst120Quest1_HORDE_Attain = Inst120Quest1_Attain
+Inst120Quest1_HORDE_Aim = Inst120Quest1_Aim
+Inst120Quest1_HORDE_Location = Inst120Quest1_Location
+Inst120Quest1_HORDE_Note = Inst120Quest1_Note
+Inst120Quest1_HORDE_Prequest = Inst120Quest1_Prequest
+Inst120Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
+Inst120Quest1PreQuest_HORDE = Inst120Quest1PreQuest
+-- No Rewards for this quest
 
 
 
 --------------- INST121 - Terrace of Endless Spring ---------------
 
 Inst121Caption = "Terrace of Endless Spring"
-Inst121QAA = "No Quests"
-Inst121QAH = "No Quests"
+Inst121QAA = "2 Quests"
+Inst121QAH = "2 Quests"
+
+--Quest 1 Alliance   (Linking to Inst120Quest1 - same quest for all)
+Inst121Quest1 = Inst120Quest1
+Inst121Quest1_Level = Inst120Quest1_Level
+Inst121Quest1_Attain = Inst120Quest1_Attain
+Inst121Quest1_Aim = Inst120Quest1_Aim
+Inst121Quest1_Location = Inst120Quest1_Location
+Inst121Quest1_Note = Inst120Quest1_Note
+Inst121Quest1_Prequest = Inst120Quest1_Prequest
+Inst121Quest1_Folgequest = Inst120Quest1_Folgequest
+Inst121Quest1PreQuest = Inst120Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst121Quest2 = "2. Fear Itself"
+Inst121Quest2_Level = "90"
+Inst121Quest2_Attain = "90"
+Inst121Quest2_Aim = "Defeat the Sha of Fear in the Terrace of Endless Spring and acquire the Chimera of Fear."
+Inst121Quest2_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
+Inst121Quest2_Note = "This quest can be completed on any difficulty setting.  Sha of Fear is the final boss in Terrace of the Endless Spring."
+Inst121Quest2_Prequest = "The Strength of One's Foes"
+Inst121Quest2_Folgequest = "None"
+Inst121Quest2FQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde   (Linking to Inst120Quest1 - same quest for all)
+Inst121Quest1_HORDE = Inst120Quest1
+Inst121Quest1_HORDE_Level = Inst120Quest1_Level
+Inst121Quest1_HORDE_Attain = Inst120Quest1_Attain
+Inst121Quest1_HORDE_Aim = Inst120Quest1_Aim
+Inst121Quest1_HORDE_Location = Inst120Quest1_Location
+Inst121Quest1_HORDE_Note = Inst120Quest1_Note
+Inst121Quest1_HORDE_Prequest = Inst120Quest1_Prequest
+Inst121Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
+Inst121Quest1PreQuest_HORDE = Inst120Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst121Quest2_HORDE = Inst121Quest2
+Inst121Quest2_HORDE_Level = Inst121Quest2_Level
+Inst121Quest2_HORDE_Attain = Inst121Quest2_Attain
+Inst121Quest2_HORDE_Aim = Inst121Quest2_Aim
+Inst121Quest2_HORDE_Location = Inst121Quest2_Location
+Inst121Quest2_HORDE_Note = Inst121Quest2_Note
+Inst121Quest2_HORDE_Prequest = Inst121Quest2_Prequest
+Inst121Quest2_HORDE_Folgequest = Inst121Quest2_Folgequest
+Inst121Quest2FQuest_HORDE = Inst121Quest2FQuest
+-- No Rewards for this quest
 
 
 
 --------------- INST122 - Heart of Fear ---------------
 
 Inst122Caption = "Heart of Fear"
-Inst122QAA = "No Quests"
-Inst122QAH = "No Quests"
+Inst122QAA = "1 Quest"
+Inst122QAH = "1 Quest"
+
+--Quest 1 Alliance   (Linking to Inst120Quest1 - same quest for all)
+Inst122Quest1 = Inst120Quest1
+Inst122Quest1_Level = Inst120Quest1_Level
+Inst122Quest1_Attain = Inst120Quest1_Attain
+Inst122Quest1_Aim = Inst120Quest1_Aim
+Inst122Quest1_Location = Inst120Quest1_Location
+Inst122Quest1_Note = Inst120Quest1_Note
+Inst122Quest1_Prequest = Inst120Quest1_Prequest
+Inst122Quest1_Folgequest = Inst120Quest1_Folgequest
+Inst122Quest1PreQuest = Inst120Quest1PreQuest
+-- No Rewards for this quest
+
+
+--Quest 1 Horde   (Linking to Inst120Quest1 - same quest for all)
+Inst122Quest1_HORDE = Inst120Quest1
+Inst122Quest1_HORDE_Level = Inst120Quest1_Level
+Inst122Quest1_HORDE_Attain = Inst120Quest1_Attain
+Inst122Quest1_HORDE_Aim = Inst120Quest1_Aim
+Inst122Quest1_HORDE_Location = Inst120Quest1_Location
+Inst122Quest1_HORDE_Note = Inst120Quest1_Note
+Inst122Quest1_HORDE_Prequest = Inst120Quest1_Prequest
+Inst122Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
+Inst122Quest1PreQuest_HORDE = Inst120Quest1PreQuest
+-- No Rewards for this quest
 
 
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Throne of Thunder"
-Inst138QAA = "1 Quest"
-Inst138QAH = "1 Quest"
+Inst138QAA = "3 Quests"
+Inst138QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst138Quest1 = "1. Securing A Future"
@@ -12625,6 +12724,30 @@ Inst138Quest1_Folgequest = "None"
 --
 Inst138Quest1name1 = "Glorious Standard of the Kirin Tor Offensive"
 
+--Quest 2 Alliance
+Inst138Quest2 = "2. Echoes of the Titans"
+Inst138Quest2_Level = "90"
+Inst138Quest2_Attain = "90"
+Inst138Quest2_Aim = "Collect 12 Titan Runestones from raid bosses in the Chambers of Flesh-Shaping and the Halls of Thunder."
+Inst138Quest2_Location = "Wrathion (The Veiled Stair - Mason's Folly; "..YELLOW.."75.2, 76.4"..WHITE..")"
+Inst138Quest2_Note = "The Titan Runestones will drop any any difficulty from raid bosses in the last two sections of Throne of Thunder."
+Inst138Quest2_Prequest = "The Thunder Forge -> The Crown of Heaven"
+Inst138Quest2_Folgequest = "Heart of the Thunder King"
+Inst138Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst138Quest3 = "3. Heart of the Thunder King"
+Inst138Quest3_Level = "90"
+Inst138Quest3_Attain = "90"
+Inst138Quest3_Aim = "Slay the Thunder King in the Halls of Thunder and collect the Heart of the Thunder King."
+Inst138Quest3_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
+Inst138Quest3_Note = "This quest can be completed on any difficulty setting.  The Thunder King, Lei Shen, is the final boss in Throne of Thunder."
+Inst138Quest3_Prequest = "Echoes of the Titans"
+Inst138Quest3_Folgequest = "None"
+Inst138Quest3FQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst138Quest1_HORDE = "1. Life Blood"
@@ -12637,6 +12760,30 @@ Inst138Quest1_HORDE_Prequest = "None"
 Inst138Quest1_HORDE_Folgequest = "None"
 --
 Inst138Quest1name1_HORDE = "Glorious Standard of the Sunreaver Onslaught"
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst138Quest2_HORDE = Inst138Quest2
+Inst138Quest2_HORDE_Level = Inst138Quest2_Level
+Inst138Quest2_HORDE_Attain = Inst138Quest2_Attain
+Inst138Quest2_HORDE_Aim = Inst138Quest2_Aim
+Inst138Quest2_HORDE_Location = Inst138Quest2_Location
+Inst138Quest2_HORDE_Note = Inst138Quest2_Note
+Inst138Quest2_HORDE_Prequest = Inst138Quest2_Prequest
+Inst138Quest2_HORDE_Folgequest = Inst138Quest2_Folgequest
+Inst138Quest2PreQuest_HORDE = Inst138Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst138Quest3_HORDE = Inst138Quest3
+Inst138Quest3_HORDE_Level = Inst138Quest3_Level
+Inst138Quest3_HORDE_Attain = Inst138Quest3_Attain
+Inst138Quest3_HORDE_Aim = Inst138Quest3_Aim
+Inst138Quest3_HORDE_Location = Inst138Quest3_Location
+Inst138Quest3_HORDE_Note = Inst138Quest3_Note
+Inst138Quest3_HORDE_Prequest = Inst138Quest3_Prequest
+Inst138Quest3_HORDE_Folgequest = Inst138Quest3_Folgequest
+Inst138Quest3FQuest_HORDE = Inst138Quest3FQuest
+-- No Rewards for this quest
 
 
 
@@ -12894,6 +13041,14 @@ Inst141QAH = "No Quests"
 Inst142Caption = "The Secrets of Ragefire"
 Inst142QAA = "No Quests"
 Inst142QAH = "No Quests"
+
+
+
+--------------- INST144 - Troves of the Thunder King ---------------
+
+Inst144Caption = "Troves of the Thunder King"
+Inst144QAA = "No Quests"
+Inst144QAH = "No Quests"
 
 
 
