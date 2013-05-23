@@ -2324,26 +2324,55 @@ AQ_31366_Level = "90"
 
 --------------- INST120 - Mogu'shan Vaults ---------------
 
+Inst120Quest1_QuestID = "31473"
+
+Inst120Quest1_HORDE_QuestID = "31473"
+
+
+AQ_31473_Level = "90"
+
 
 
 --------------- INST121 - Terrace of Endless Spring ---------------
 
+Inst121Quest1_QuestID = "31473"
+Inst121Quest2_QuestID = "31481"
+
+Inst121Quest1_HORDE_QuestID = "31473"
+Inst121Quest2_HORDE_QuestID = "31481"
+
+
+--AQ_31473_Level = "90"   -- Already defined for INST120
+AQ_31481_Level = "90"
+
 
 
 --------------- INST122 - Heart of Fear ---------------
+
+Inst122Quest1_QuestID = "31473"
+
+Inst122Quest1_HORDE_QuestID = "31473"
+
+
+--AQ_31473_Level = "90"   -- Already defined for INST120
 
 
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Quest1_QuestID = "32599"
+Inst138Quest2_QuestID = "32596"
+Inst138Quest3_QuestID = "32597"
 
 Inst138Quest1_HORDE_QuestID = "32589"
+Inst138Quest2_HORDE_QuestID = "32596"
+Inst138Quest3_HORDE_QuestID = "32597"
 
 
 AQ_32599_Level = "90"
 AQ_32589_Level = "90"
-
+AQ_32596_Level = "90"
+AQ_32597_Level = "90"
 
 
 
@@ -2445,6 +2474,9 @@ AQ_32251_Level = "90"
 
 
 --------------- INST142 - The Secrets of Ragefire ---------------
+
+
+--------------- INST144 - Troves of the Thunder King ---------------
 
 
 
