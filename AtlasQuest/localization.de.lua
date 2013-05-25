@@ -12726,32 +12726,126 @@ Inst119Quest2_HORDE_Folgequest = "Nein"
 --------------- INST120 - Mogu'shan Vaults ---------------
 
 Inst120Caption = "Mogu'shangewölbe"
-Inst120QAA = "Keine Quests"
-Inst120QAH = "Keine Quests"
+Inst120QAA = "1 Quests"
+Inst120QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst120Quest1 = "1. Die Stärke Eures Gegners"
+Inst120Quest1_Level = "90"
+Inst120Quest1_Attain = "90"
+Inst120Quest1_Aim = "Sammelt 10 Siegel der Macht und 10 Siegel der Weisheit von Schlachtzugsbossen im Mogu'shangewölbe, im Herzen der Angst oder auf der Terrasse des Endlosen Frühlings."
+Inst120Quest1_Location = "Furion (Die Verhüllte Treppe - Taverne im Nebel; "..YELLOW.."54.6, 72.6"..WHITE..")"
+Inst120Quest1_Note = "Die Siegel können von jedem Raidboss droppen und auf jeder Schwierigkeitsstufe. Es ist möglich, dass Du mehr als 10 Siegel einer Sorte bekommen kannst. Wenn du ein Siegel löschen solltest, werden dabei alle Siegel zerstört und die Quest entfernt. Erst nach Questabgabe kannst du die überflüsigen Siegel vernichten."
+Inst120Quest1_Prequest = "Fremd in einem fremden Land -> Eine Legende im Werden"
+Inst120Quest1_Folgequest = "Die Furcht selbst"
+Inst120Quest1PreQuest = "true"
+-- No Rewards for this quest
 
 
-
+--Quest 1 Horde
+Inst120Quest1_HORDE = Inst120Quest1
+Inst120Quest1_HORDE_Level = "90"
+Inst120Quest1_HORDE_Attain = "90"
+Inst120Quest1_HORDE_Aim = Inst120Quest1_Aim
+Inst120Quest1_HORDE_Location = Inst120Quest1_Location
+Inst120Quest1_HORDE_Note = Inst120Quest1_Note
+Inst120Quest1_HORDE_Prequest = Inst120Quest1_Prequest
+Inst120Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
+Inst120Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 --------------- INST121 - Terrace of Endless Spring ---------------
 
 Inst121Caption = "Terrasse des Endlosen Frühlings"
-Inst121QAA = "Keine Quests"
-Inst121QAH = "Keine Quests"
+Inst121QAA = "2 Quests"
+Inst121QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst121Quest1 = Inst120Quest1
+Inst121Quest1_Level = "90"
+Inst121Quest1_Attain = "90"
+Inst121Quest1_Aim = Inst120Quest1_Aim
+Inst121Quest1_Location = Inst120Quest1_Location
+Inst121Quest1_Note = Inst120Quest1_Note
+Inst121Quest1_Prequest = Inst120Quest1_Prequest
+Inst121Quest1_Folgequest = Inst120Quest1_Folgequest
+Inst121Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst121Quest2 = "2. Die Furcht selbst"
+Inst121Quest2_Level = "90"
+Inst121Quest2_Attain = "90"
+Inst121Quest2_Aim = "Besiegt das Sha der Angst auf der Terrasse des Endlosen Frühlings und holt Euch die Schimäre der Angst."
+Inst121Quest2_Location = Inst120Quest1_Location
+Inst121Quest2_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Sha der Angst befindet sich bei "..YELLOW.."[4]"..WHITE.."."
+Inst121Quest2_Prequest = "Die Stärke Eures Gegners"
+Inst121Quest2_Folgequest = "Nein"
+Inst121Quest2FQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst121Quest1_HORDE = Inst120Quest1
+Inst121Quest1_HORDE_Level = "90"
+Inst121Quest1_HORDE_Attain = "90"
+Inst121Quest1_HORDE_Aim = Inst120Quest1_Aim
+Inst121Quest1_HORDE_Location = Inst120Quest1_Location
+Inst121Quest1_HORDE_Note = Inst120Quest1_Note
+Inst121Quest1_HORDE_Prequest = Inst120Quest1_Prequest
+Inst121Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
+Inst121Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst121Quest2_HORDE = Inst121Quest2
+Inst121Quest2_HORDE_Level = "90"
+Inst121Quest2_HORDE_Attain = "90"
+Inst121Quest2_HORDE_Aim = Inst121Quest2_Aim
+Inst121Quest2_HORDE_Location = Inst121Quest2_Location
+Inst121Quest2_HORDE_Note = Inst121Quest2_Note
+Inst121Quest2_HORDE_Prequest = Inst121Quest2_Prequest
+Inst121Quest2_HORDE_Folgequest = "Nein"
+Inst121Quest2FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
 --------------- INST122 - Heart of Fear ---------------
 
 Inst122Caption = "Herz der Angst"
-Inst122QAA = "Keine Quests"
-Inst122QAH = "Keine Quests"
+Inst122QAA = "1 Quests"
+Inst122QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst122Quest1 = Inst120Quest1
+Inst122Quest1_Level = "90"
+Inst122Quest1_Attain = "90"
+Inst122Quest1_Aim = Inst120Quest1_Aim
+Inst122Quest1_Location = Inst120Quest1_Location
+Inst122Quest1_Note = Inst120Quest1_Note
+Inst122Quest1_Prequest = Inst120Quest1_Prequest
+Inst122Quest1_Folgequest = Inst120Quest1_Folgequest
+Inst122Quest1PreQuest = "true"
+-- No Rewards for this quest
 
 
+--Quest 1 Horde
+Inst122Quest1_HORDE = Inst120Quest1
+Inst122Quest1_HORDE_Level = "90"
+Inst122Quest1_HORDE_Attain = "90"
+Inst122Quest1_HORDE_Aim = Inst120Quest1_Aim
+Inst122Quest1_HORDE_Location = Inst120Quest1_Location
+Inst122Quest1_HORDE_Note = Inst120Quest1_Note
+Inst122Quest1_HORDE_Prequest = Inst120Quest1_Prequest
+Inst122Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
+Inst122Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Thron des Donners"
-Inst138QAA = "1 Quests"
-Inst138QAH = "1 Quests"
+Inst138QAA = "4 Quests"
+Inst138QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst138Quest1 = "1. Zukunftssicherung"
@@ -12759,11 +12853,47 @@ Inst138Quest1_Level = "90"
 Inst138Quest1_Attain = "90"
 Inst138Quest1_Aim = "Besiegt den Donnerkönig in der Spitze der Stürme und benutzt Antonidas' Stab, um seiner Estrade die restliche Macht zu entziehen."
 Inst138Quest1_Location = "Lady Jaina Prachtmeer (Insel des Donners - Violette Erhebung; "..YELLOW.."63.2, 72.2"..WHITE..")"
-Inst138Quest1_Note = "Diese Quest bekommst du nachdem Du einen ehrfüchrtigen Ruf bei der Offensive der Kirin Tor erlangt hast. Nach dem Sieg von Lei Shen bei "..YELLOW.."[12]"..WHITE..", warte einen kleinen Moment und aktiviere dann den Stab auf der Plattform um diese Quest zu beenden."
+Inst138Quest1_Note = "Diese Quest bekommst du nachdem Du einen ehrfürchtigen Ruf bei der Offensive der Kirin Tor erlangt hast. Nach dem Sieg von Lei Shen bei "..YELLOW.."[12]"..WHITE..", warte einen kleinen Moment und aktiviere dann den Stab auf der Plattform um diese Quest zu beenden."
 Inst138Quest1_Prequest = "Nein"
 Inst138Quest1_Folgequest = "Nein"
 --
 Inst138Quest1name1 = "Glorreiche Standarte der Offensive der Kirin Tor"
+
+--Quest 2 Alliance
+Inst138Quest2 = "2. Geheimnisse des ersten Kaiserreiches"
+Inst138Quest2_Level = "90"
+Inst138Quest2_Attain = "90"
+Inst138Quest2_Aim = "Sammelt 20 Geheimnisse des Kaiserreichs und 40 Trilliumbarren."
+Inst138Quest2_Location = Inst120Quest1_Location
+Inst138Quest2_Note = "Die uralten Steintafeln droppen auf jeder Schwierigkeitsstufe und von jedem Raidboss im Thron des Donners. Die Trilliumbarren müßt ihr euch als Bergbauer farmen oder im Auktionshaus kaufen."
+Inst138Quest2_Prequest = "Der Donnerkönig -> Trefft mich oben"
+Inst138Quest2_Folgequest = "Nein"
+Inst138Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst138Quest3 = "3. Echos der Titanen"
+Inst138Quest3_Level = "90"
+Inst138Quest3_Attain = "90"
+Inst138Quest3_Aim = "Sammelt 12 Runensteine der Titanen von Schlachtzugsbossen in den Hallen der Fleischformer und den Hallen des Donners."
+Inst138Quest3_Location = Inst120Quest1_Location
+Inst138Quest3_Note = "Die Runensteine der Titanen droppen auf jeder Schwierigkeitsstufe von den Raidbossen der letzten zwei Sektionen vom Thron des Donners."
+Inst138Quest3_Prequest = "Die Donnerschmiede -> Die Krone des Himmels"
+Inst138Quest3_Folgequest = "Herz des Donnerkönigs"
+Inst138Quest3FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst138Quest4 = "4. Herz des Donnerkönigs"
+Inst138Quest4_Level = "90"
+Inst138Quest4_Attain = "90"
+Inst138Quest4_Aim = "Tötet den Donnerkönig in den Hallen des Donners und nehmt das Herz des Donnerkönigs an Euch."
+Inst138Quest4_Location = Inst120Quest1_Location
+Inst138Quest4_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Der Donnerkönig, Lei Shen ist bei "..YELLOW.."[12]"..WHITE.."."
+Inst138Quest4_Prequest = "Echos der Titanen"
+Inst138Quest4_Folgequest = "Nein"
+Inst138Quest4PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -12772,11 +12902,47 @@ Inst138Quest1_HORDE_Level = "90"
 Inst138Quest1_HORDE_Attain = "90"
 Inst138Quest1_HORDE_Aim = "Benutzt den abgestimmten Kristall, um dem dunklen Animus auf dem Thron des Donners die Reste des Animus zu entziehen. "
 Inst138Quest1_HORDE_Location = "Lor'themar Theron (Insel des Donners - Morgensucher Kap; "..YELLOW.."32.6, 35.4"..WHITE..")"
-Inst138Quest1_HORDE_Note = "Diese Quest bekommst du nachdem Du einen ehrfüchrtigen Ruf bei den Sonnenhäscheranstum erlangt hast. Nach dem Sieg von Dunkler Animus bei "..YELLOW.."[9]"..WHITE..", benutze den abgestimmten Kristall und erhalte dann Dein Questgegenstand."
+Inst138Quest1_HORDE_Note = "Diese Quest bekommst du nachdem Du einen ehrfürchtigen Ruf bei den Sonnenhäscheranstum erlangt hast. Nach dem Sieg von Dunkler Animus bei "..YELLOW.."[9]"..WHITE..", benutze den abgestimmten Kristall und erhalte dann Dein Questgegenstand."
 Inst138Quest1_HORDE_Prequest = "Nein"
 Inst138Quest1_HORDE_Folgequest = "Nein"
 --
 Inst138Quest1name1_HORDE = "Glorreiche Standarte des Sonnenhäscheransturms"
+
+--Quest 2 Horde
+Inst138Quest2_HORDE = Inst138Quest2
+Inst138Quest2_HORDE_Level = "90"
+Inst138Quest2_HORDE_Attain = "90"
+Inst138Quest2_HORDE_Aim = Inst138Quest2_Aim
+Inst138Quest2_HORDE_Location = Inst138Quest2_Location
+Inst138Quest2_HORDE_Note = Inst138Quest2_Note
+Inst138Quest2_HORDE_Prequest = Inst138Quest2_Prequest
+Inst138Quest2_HORDE_Folgequest = "Nein"
+Inst138Quest2PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst138Quest3_HORDE = Inst138Quest3
+Inst138Quest3_HORDE_Level = "90"
+Inst138Quest3_HORDE_Attain = "90"
+Inst138Quest3_HORDE_Aim = Inst138Quest3_Aim
+Inst138Quest3_HORDE_Location = Inst138Quest3_Location
+Inst138Quest3_HORDE_Note = Inst138Quest3_Note
+Inst138Quest3_HORDE_Prequest = Inst138Quest3_Prequest
+Inst138Quest3_HORDE_Folgequest = "Herz des Donnerkönigs"
+Inst138Quest3FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst138Quest4_HORDE = Inst138Quest4
+Inst138Quest4_HORDE_Level = "90"
+Inst138Quest4_HORDE_Attain = "90"
+Inst138Quest4_HORDE_Aim = Inst138Quest4_Aim
+Inst138Quest4_HORDE_Location = Inst138Quest4_Location
+Inst138Quest4_HORDE_Note = Inst138Quest4_Note
+Inst138Quest4_HORDE_Prequest = "Echos der Titanen"
+Inst138Quest4_HORDE_Folgequest = "Nein"
+Inst138Quest4PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -13057,6 +13223,14 @@ Inst141QAH = "Keine Quests"
 Inst142Caption = "Geheimnisse des Flammenschlunds"
 Inst142QAA = "Keine Quests"
 Inst142QAH = "Keine Quests"
+
+
+
+--------------- INST144 - Troves of the Thunder King ---------------
+
+Inst144Caption = "Schatzkammer des Donnerkönigs"
+Inst144QAA = "No Quests"
+Inst144QAH = "No Quests"
 
 
 
