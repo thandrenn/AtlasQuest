@@ -443,12 +443,7 @@ Inst3Quest4_Note = "Dunkelschamane Koranthal befindet sich bei "..YELLOW.."[2]".
 Inst3Quest4_Prequest = "Nein"
 Inst3Quest4_Folgequest = "Nein"
 --
-Inst3Quest4name1 = "Roben des gescheiterten Rituals"
-Inst3Quest4name2 = "Flammenschlundgamaschen"
-Inst3Quest4name3 = "Balgweste des Schamanen"
-Inst3Quest4name4 = "Steingardistenschienbeinschützer"
-Inst3Quest4name5 = "Sengender Gürtel"
-
+-- Reward varies for each class
 
 
 --Quest 1 Horde
