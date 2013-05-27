@@ -190,6 +190,11 @@ Inst3Quest2Rewardtext = AQNoReward
 Inst3Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
+Inst3Quest4Rewardtext = AQClassRewards
+
+
+--[[
+--Quest 4 Alliance
 Inst3Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
 --ITEM1
 Inst3Quest4ITC1 = Itemc4;
@@ -211,41 +216,21 @@ Inst3Quest4ID4 = "82894"
 Inst3Quest4ITC5 = Itemc4;
 Inst3Quest4description3 = AQITEM_WAIST
 Inst3Quest4ID5 = "82895"
+--]]
+
 
 
 --Quest 1 Horde
 Inst3Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
-Inst3Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
---ITEM1
-Inst3Quest2ITC1_HORDE = Itemc4;
-Inst3Quest2description1_HORDE = AQITEM_WAIST..AQITEM_MAIL
-Inst3Quest2ID1_HORDE = "66040"
---ITEM2
-Inst3Quest2ITC2_HORDE = Itemc4;
-Inst3Quest2description2_HORDE = AQITEM_LEGS..AQITEM_MAIL
-Inst3Quest2ID2_HORDE = "66045"
---ITEM3
-Inst3Quest2ITC3_HORDE = Itemc4;
-Inst3Quest2description3_HORDE = AQITEM_CHEST..AQITEM_LEATHER
-Inst3Quest2ID3_HORDE = "66031"
---ITEM4
-Inst3Quest2ITC4_HORDE = Itemc4;
-Inst3Quest2description4_HORDE = AQITEM_LEGS..AQITEM_LEATHER
-Inst3Quest2ID4_HORDE = "66022"
---ITEM5
-Inst3Quest2ITC5_HORDE = Itemc4;
-Inst3Quest2description5_HORDE = AQITEM_CHEST..AQITEM_CLOTH
-Inst3Quest2ID5_HORDE = "49541"
+Inst3Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
 Inst3Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
 Inst3Quest4Rewardtext_HORDE = AQNoReward
-
-
 
 
 
@@ -6963,6 +6948,9 @@ Inst138Quest2Rewardtext = AQNoReward
 --Quest 3 Alliance
 Inst138Quest3Rewardtext = AQNoReward
 
+--Quest 4 Alliance
+Inst138Quest4Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -6976,6 +6964,9 @@ Inst138Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
 Inst138Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst138Quest4Rewardtext_HORDE = AQNoReward
 
 
 

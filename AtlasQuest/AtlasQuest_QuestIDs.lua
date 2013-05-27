@@ -2361,16 +2361,19 @@ Inst122Quest1_HORDE_QuestID = "31473"
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Quest1_QuestID = "32599"
-Inst138Quest2_QuestID = "32596"
-Inst138Quest3_QuestID = "32597"
+Inst138Quest2_QuestID = "32591"
+Inst138Quest3_QuestID = "32596"
+Inst138Quest4_QuestID = "32597"
 
 Inst138Quest1_HORDE_QuestID = "32589"
-Inst138Quest2_HORDE_QuestID = "32596"
-Inst138Quest3_HORDE_QuestID = "32597"
+Inst138Quest2_HORDE_QuestID = "32591"
+Inst138Quest3_HORDE_QuestID = "32596"
+Inst138Quest4_HORDE_QuestID = "32597"
 
 
 AQ_32599_Level = "90"
 AQ_32589_Level = "90"
+AQ_32591_Level = "90"
 AQ_32596_Level = "90"
 AQ_32597_Level = "90"
 

@@ -390,57 +390,109 @@ Inst2Quest3name5_HORDE = Inst2Quest3name5
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
 Inst3Caption = "Ragefire Chasm"
-Inst3QAA = "No Quests"
-Inst3QAH = "4 Quests"
+Inst3QAA = "4 Quests"
+Inst3QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst3Quest1 = "1. Animal Control"
+Inst3Quest1_Level = "16"
+Inst3Quest1_Attain = "15"
+Inst3Quest1_Aim = "Kill Adarogg and Slagmaw."
+Inst3Quest1_Location = "SI:7 Field Commander Dirken (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")"
+Inst3Quest1_Note = "Adarogg is at "..YELLOW.."[1]"..WHITE.." and Slagmaw is at "..YELLOW.."[3]"..WHITE.."."
+Inst3Quest1_Prequest = "None"
+Inst3Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst3Quest2 = "2. No Man Left Behind"
+Inst3Quest2_Level = "16"
+Inst3Quest2_Attain = "15"
+Inst3Quest2_Aim = "Rescue 5 SI:7 Rangers in Ragefire Chasm."
+Inst3Quest2_Location = "SI:7 Field Commander Dirken (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")"
+Inst3Quest2_Note = "The Rangers can be found throughout the dungeon."
+Inst3Quest2_Prequest = "None"
+Inst3Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst3Quest3 = "3. A New Enemy"
+Inst3Quest3_Level = "16"
+Inst3Quest3_Attain = "15"
+Inst3Quest3_Aim = "Collect 5 Corrupted Insignia from the Dark Shaman cultists."
+Inst3Quest3_Location = "High Sorceress Aryna (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")"
+Inst3Quest3_Note = "The Cultists can be found thoughout the dungeon."
+Inst3Quest3_Prequest = "None"
+Inst3Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst3Quest4 = "4. The Dark Shaman"
+Inst3Quest4_Level = "16"
+Inst3Quest4_Attain = "15"
+Inst3Quest4_Aim = "Defeat Dark Shaman Koranthal and Lava Guard Gordoth."
+Inst3Quest4_Location = "High Sorceress Aryna (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")"
+Inst3Quest4_Note = "Dark Shaman Koranthal can be found at "..YELLOW.."[2]"..WHITE.." and Lava Guard Gordoth is at "..YELLOW.."[4]"..WHITE.."."
+Inst3Quest4_Prequest = "None"
+Inst3Quest4_Folgequest = "None"
+--
+-- Reward varies for each class
+
 
 --Quest 1 Horde
 Inst3Quest1_HORDE = "1. Enemies Below"
-Inst3Quest1_HORDE_Level = "13"
-Inst3Quest1_HORDE_Attain = "10"
-Inst3Quest1_HORDE_Aim = "Speak with Stone Guard Kurjack."
+Inst3Quest1_HORDE_Level = "15"
+Inst3Quest1_HORDE_Attain = "15"
+Inst3Quest1_HORDE_Aim = "Speak with Commander Bagran."
 Inst3Quest1_HORDE_Location = "Garrosh Hellscream (Orgrimmar - Valley of Strength; "..YELLOW.."48.2, 70.6"..WHITE..")\nBaine Bloodhoof (Thunder Bluff - The High Rise; "..YELLOW.."60.6, 51.6"..WHITE..")\nLady Sylvanas Windrunner (Undercity - The Royal Quarter; "..YELLOW.."58.6, 93.0"..WHITE..")"
 Inst3Quest1_HORDE_Note = "This is an optional quest that can be picked up in three different cities."
 Inst3Quest1_HORDE_Prequest = "None"
-Inst3Quest1_HORDE_Folgequest = "Taragaman the Hungerer"
+Inst3Quest1_HORDE_Folgequest = "Animal Control"
 -- No Rewards for this quest
 
---Quest 2 Horde
-Inst3Quest2_HORDE = "2. Taragaman the Hungerer"
-Inst3Quest2_HORDE_Level = "16"
-Inst3Quest2_HORDE_Attain = "10"
-Inst3Quest2_HORDE_Aim = "Take Taragaman the Hungerer's heart."
-Inst3Quest2_HORDE_Location = "Stone Guard Kurjack (Ragefire Chasm; "..YELLOW.."Entrance"..WHITE..")"
-Inst3Quest2_HORDE_Note = "The Searing Blade mobs are on the way to Taragaman the Hungerer who is at "..YELLOW.."[2]"..WHITE.."."
+--Quest 2 Horde  (same as Quest 1 Alliance, except different questgiver)
+Inst3Quest2_HORDE = "2. Animal Control"
+Inst3Quest2_HORDE_Level = Inst3Quest1_Level
+Inst3Quest2_HORDE_Attain = Inst3Quest1_Attain
+Inst3Quest2_HORDE_Aim = Inst3Quest1_Aim
+Inst3Quest2_HORDE_Location = "Commander Bagran (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")"
+Inst3Quest2_HORDE_Note = Inst3Quest1_Note
 Inst3Quest2_HORDE_Prequest = "Enemies Below (optional)"
-Inst3Quest2_HORDE_Folgequest = "None"
-Inst3Quest2FQuest_HORDE = "true"
---
-Inst3Quest2name1_HORDE = "Searing Belt"
-Inst3Quest2name2_HORDE = "Stone Guard Greaves"
-Inst3Quest2name3_HORDE = "Hide Vest of the Hungerer"
-Inst3Quest2name4_HORDE = "Ragefire Leggings"
-Inst3Quest2name5_HORDE = "Robes of the Glorious Song"
+Inst3Quest2_HORDE_Folgequest = Inst3Quest1_Folgequest
+Inst3Quest2FQuest_HORDE = Inst3Quest1FQuest
+-- No Rewards for this quest
 
 --Quest 3 Horde
-Inst3Quest3_HORDE = "3. Repel the Invasion"
-Inst3Quest3_HORDE_Level = "14"
-Inst3Quest3_HORDE_Attain = "10"
-Inst3Quest3_HORDE_Aim = "Kill Oggleflint, Bazzalan, and Jergosh the Invoker."
-Inst3Quest3_HORDE_Location = "Stone Guard Kurjack (Ragefire Chasm; "..YELLOW.."Entrance"..WHITE..")"
-Inst3Quest3_HORDE_Note = "Oggleflint is at "..YELLOW.."[1]"..WHITE..", Bazzalan is at "..YELLOW.."[4]"..WHITE.." and Jergosh the Invoker is at "..YELLOW.."[3]"..WHITE.."."
+Inst3Quest3_HORDE = "3. No Orc Left Behind"
+Inst3Quest3_HORDE_Level = "16"
+Inst3Quest3_HORDE_Attain = "15"
+Inst3Quest3_HORDE_Aim = "Rescue 5 Kor'kron Scouts in Ragefire Chasm."
+Inst3Quest3_HORDE_Location = "Commander Bagran (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")"
+Inst3Quest3_HORDE_Note = "The Kor'kron Scouts are found throughout the dungeon."
 Inst3Quest3_HORDE_Prequest = "None"
 Inst3Quest3_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst3Quest4_HORDE = "4. Elemental Tampering"
-Inst3Quest4_HORDE_Level = "15"
-Inst3Quest4_HORDE_Attain = "10"
-Inst3Quest4_HORDE_Aim = "Obtain 6 Searing Bindings."
-Inst3Quest4_HORDE_Location = "Bovaal Whitehorn (Ragefire Chasm; "..YELLOW.."Entrance"..WHITE..")"
-Inst3Quest4_HORDE_Note = "The rock elementals on the way to the first boss drop the bindings."
+Inst3Quest4_HORDE = "4. A New Enemy"
+Inst3Quest4_HORDE_Level = "16"
+Inst3Quest4_HORDE_Attain = "15"
+Inst3Quest4_HORDE_Aim = "Collect 5 Corrupted Insignia from any cultist in Ragefire Chasm."
+Inst3Quest4_HORDE_Location = "Invoker Xorenth (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")"
+Inst3Quest4_HORDE_Note = "The Cultists are found throughout the dungeon."
 Inst3Quest4_HORDE_Prequest = "None"
 Inst3Quest4_HORDE_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 4 Alliance, except different questgiver)
+Inst3Quest5_HORDE = "5. The Dark Shaman"
+Inst3Quest5_HORDE_Level = Inst3Quest4_Level
+Inst3Quest5_HORDE_Attain = Inst3Quest4_Attain
+Inst3Quest5_HORDE_Aim = Inst3Quest4_Aim
+Inst3Quest5_HORDE_Location = "Invoker Xorenth (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")"
+Inst3Quest5_HORDE_Note = Inst3Quest4_Note
+Inst3Quest5_HORDE_Prequest = Inst3Quest4_Prequest
+Inst3Quest5_HORDE_Folgequest = Inst3Quest4_Folgequest
 -- No Rewards for this quest
 
 
@@ -2905,8 +2957,8 @@ Inst59Quest4_HORDE_Folgequest = Inst59Quest4_Folgequest
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Caption = "Scholomance"
-Inst20QAA = "4 Quests"
-Inst20QAH = "4 Quests"
+Inst20QAA = "5 Quests"
+Inst20QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. The Four Tomes"
@@ -2953,6 +3005,16 @@ Inst20Quest4_Folgequest = "None"
 --
 -- Reward varies for each class
 
+--Quest 5 Alliance
+Inst20Quest5 = "5. Aberrations of Bone"
+Inst20Quest5_Level = "42"
+Inst20Quest5_Attain = "40"
+Inst20Quest5_Aim = "Kill Rattlegore in the Ossuary of Scholomance."
+Inst20Quest5_Location = "Lord Raymond George (Western Plaguelands - Light's Hope Chapel; "..YELLOW.."76.0, 51.0"..WHITE..")"
+Inst20Quest5_Note = "Rattlegore is at "..YELLOW.."[3]"..WHITE.."."
+Inst20Quest5_Prequest = "None"
+Inst20Quest5_Folgequest = "None"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2999,6 +3061,17 @@ Inst20Quest4_HORDE_Prequest = Inst20Quest4_Prequest
 Inst20Quest4_HORDE_Folgequest = Inst20Quest4_Folgequest
 --
 -- Reward varies for each class
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst20Quest5_HORDE = Inst20Quest5
+Inst20Quest5_HORDE_Level = Inst20Quest5_Level
+Inst20Quest5_HORDE_Attain = Inst20Quest5_Attain
+Inst20Quest5_HORDE_Aim = Inst20Quest5_Aim
+Inst20Quest5_HORDE_Location = Inst20Quest5_Location
+Inst20Quest5_HORDE_Note = Inst20Quest5_Note
+Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
+Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
+-- No Rewards for this quest
 
 
 
@@ -12725,27 +12798,39 @@ Inst138Quest1_Folgequest = "None"
 Inst138Quest1name1 = "Glorious Standard of the Kirin Tor Offensive"
 
 --Quest 2 Alliance
-Inst138Quest2 = "2. Echoes of the Titans"
+Inst138Quest2 = "2. Secrets of the First Empire"
 Inst138Quest2_Level = "90"
 Inst138Quest2_Attain = "90"
-Inst138Quest2_Aim = "Collect 12 Titan Runestones from raid bosses in the Chambers of Flesh-Shaping and the Halls of Thunder."
-Inst138Quest2_Location = "Wrathion (The Veiled Stair - Mason's Folly; "..YELLOW.."75.2, 76.4"..WHITE..")"
-Inst138Quest2_Note = "The Titan Runestones will drop any any difficulty from raid bosses in the last two sections of Throne of Thunder."
-Inst138Quest2_Prequest = "The Thunder Forge -> The Crown of Heaven"
-Inst138Quest2_Folgequest = "Heart of the Thunder King"
+Inst138Quest2_Aim = "Collect 20 Secrets of the Empire and 40 Trillium Bars."
+Inst138Quest2_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
+Inst138Quest2_Note = "Secrets of the Empire drop from raid bosses inside Throne of Thunder on any difficulty setting.  The Trillium Bars can be made by a miner or purchased."
+Inst138Quest2_Prequest = "Meet me Upstairs"
+Inst138Quest2_Folgequest = "The Thunderforge"
 Inst138Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst138Quest3 = "3. Heart of the Thunder King"
+Inst138Quest3 = "3. Echoes of the Titans"
 Inst138Quest3_Level = "90"
 Inst138Quest3_Attain = "90"
-Inst138Quest3_Aim = "Slay the Thunder King in the Halls of Thunder and collect the Heart of the Thunder King."
-Inst138Quest3_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
-Inst138Quest3_Note = "This quest can be completed on any difficulty setting.  The Thunder King, Lei Shen, is the final boss in Throne of Thunder."
-Inst138Quest3_Prequest = "Echoes of the Titans"
-Inst138Quest3_Folgequest = "None"
-Inst138Quest3FQuest = "true"
+Inst138Quest3_Aim = "Collect 12 Titan Runestones from raid bosses in the Chambers of Flesh-Shaping and the Halls of Thunder."
+Inst138Quest3_Location = "Wrathion (The Veiled Stair - Mason's Folly; "..YELLOW.."75.2, 76.4"..WHITE..")"
+Inst138Quest3_Note = "The Titan Runestones will drop any any difficulty from raid bosses in the last two sections of Throne of Thunder."
+Inst138Quest3_Prequest = "The Thunder Forge -> The Crown of Heaven"
+Inst138Quest3_Folgequest = "Heart of the Thunder King"
+Inst138Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst138Quest4 = "4. Heart of the Thunder King"
+Inst138Quest4_Level = "90"
+Inst138Quest4_Attain = "90"
+Inst138Quest4_Aim = "Slay the Thunder King in the Halls of Thunder and collect the Heart of the Thunder King."
+Inst138Quest4_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
+Inst138Quest4_Note = "This quest can be completed on any difficulty setting.  The Thunder King, Lei Shen, is the final boss in Throne of Thunder."
+Inst138Quest4_Prequest = "Echoes of the Titans"
+Inst138Quest4_Folgequest = "None"
+Inst138Quest4FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -12782,7 +12867,19 @@ Inst138Quest3_HORDE_Location = Inst138Quest3_Location
 Inst138Quest3_HORDE_Note = Inst138Quest3_Note
 Inst138Quest3_HORDE_Prequest = Inst138Quest3_Prequest
 Inst138Quest3_HORDE_Folgequest = Inst138Quest3_Folgequest
-Inst138Quest3FQuest_HORDE = Inst138Quest3FQuest
+Inst138Quest3PreQuest_HORDE = Inst138Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst138Quest4_HORDE = Inst138Quest4
+Inst138Quest4_HORDE_Level = Inst138Quest4_Level
+Inst138Quest4_HORDE_Attain = Inst138Quest4_Attain
+Inst138Quest4_HORDE_Aim = Inst138Quest4_Aim
+Inst138Quest4_HORDE_Location = Inst138Quest4_Location
+Inst138Quest4_HORDE_Note = Inst138Quest4_Note
+Inst138Quest4_HORDE_Prequest = Inst138Quest4_Prequest
+Inst138Quest4_HORDE_Folgequest = Inst138Quest4_Folgequest
+Inst138Quest4FQuest_HORDE = Inst138Quest4FQuest
 -- No Rewards for this quest
 
 

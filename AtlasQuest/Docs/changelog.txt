@@ -4,9 +4,25 @@ Changelog
 
 Version 4.8.4  (May ??, 2013)
 
-- Added Throne of Thunder quests "Securing A Future" (Alliance) and "Life Blood" (Horde).
-- Added support for new Patch 5.3 Scenarios and Battleground.  (no quests)
-- Added Legendary Questline quests to all Pandaria raids.
+- Updated TOC file for Patch 5.3
+- Support for new Scenarios and Battleground.  No quests for them though.
+
+- Added quests:
+	- Ragefire Chasm: Animal Control
+	- Ragefire Chasm: No Man Left Behind (Alliance)
+	- Ragefire Chasm: No Orc Left Behind (Horde)
+	- Ragefire Chasm: A New Enemy
+	- Ragefire Chasm: The Dark Shaman
+	- Scholomance: Aberrations of Bone
+	- Mogu'shan Vaults: The Strength of One's Foes
+	- Heart of Fear: The Strength of One's Foes
+	- Terrace of the Endless Spring: The Strength of One's Foes
+	- Terrace of the Endless Spring: Fear Itself
+	- Throne of Thunder: Securing a Future (Alliance)
+	- Throne of Thunder: Life Blood (Horde)
+	- Throne of Thunder: Secrets of the First Empire
+	- Throne of Thunder: Echoes of the Titans
+	- Throne of Thunder: Heart of the Thunder King
 
 
 
