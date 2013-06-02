@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.8.4  (May ??, 2013)
+Version 4.8.4  (June 1, 2013)
 
 - Updated TOC file for Patch 5.3
 - Support for new Scenarios and Battleground.  No quests for them though.
