@@ -6951,6 +6951,55 @@ Inst138Quest3Rewardtext = AQNoReward
 --Quest 4 Alliance
 Inst138Quest4Rewardtext = AQNoReward
 
+--Quest 5 Alliance
+Inst138Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest5ITC1 = Itemc4;
+Inst138Quest5description1 = AQITEM_ITEM
+Inst138Quest5ID1 = "97153"
+
+--Quest 6 Alliance
+Inst138Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest6ITC1 = Itemc4;
+Inst138Quest6description1 = AQITEM_ITEM
+Inst138Quest6ID1 = "97153"
+
+--Quest 7 Alliance
+Inst138Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest7ITC1 = Itemc4;
+Inst138Quest7description1 = AQITEM_ITEM
+Inst138Quest7ID1 = "97153"
+
+--Quest 8 Alliance
+Inst138Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest8ITC1 = Itemc4;
+Inst138Quest8description1 = AQITEM_ITEM
+Inst138Quest8ID1 = "97153"
+
+--Quest 9 Alliance
+Inst138Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest9ITC1 = Itemc4;
+Inst138Quest9description1 = AQITEM_ITEM
+Inst138Quest9ID1 = "97153"
+
+--Quest 10 Alliance
+Inst138Quest10Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest10ITC1 = Itemc4;
+Inst138Quest10description1 = AQITEM_ITEM
+Inst138Quest10ID1 = "97153"
+
+--Quest 11 Alliance
+Inst138Quest11Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest11ITC1 = Itemc4;
+Inst138Quest11description1 = AQITEM_ITEM
+Inst138Quest11ID1 = "97153"
+
 
 --Quest 1 Horde
 Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -6967,6 +7016,55 @@ Inst138Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
 Inst138Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst138Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest5ITC1_HORDE = Itemc4;
+Inst138Quest5description1_HORDE = AQITEM_ITEM
+Inst138Quest5ID1_HORDE = "97153"
+
+--Quest 6 Horde
+Inst138Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest6ITC1_HORDE = Itemc4;
+Inst138Quest6description1_HORDE = AQITEM_ITEM
+Inst138Quest6ID1_HORDE = "97153"
+
+--Quest 7 Horde
+Inst138Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest7ITC1_HORDE = Itemc4;
+Inst138Quest7description1_HORDE = AQITEM_ITEM
+Inst138Quest7ID1_HORDE = "97153"
+
+--Quest 8 Horde
+Inst138Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest8ITC1_HORDE = Itemc4;
+Inst138Quest8description1_HORDE = AQITEM_ITEM
+Inst138Quest8ID1_HORDE = "97153"
+
+--Quest 9 Horde
+Inst138Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest9ITC1_HORDE = Itemc4;
+Inst138Quest9description1_HORDE = AQITEM_ITEM
+Inst138Quest9ID1_HORDE = "97153"
+
+--Quest 10 Horde
+Inst138Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest10ITC1_HORDE = Itemc4;
+Inst138Quest10description1_HORDE = AQITEM_ITEM
+Inst138Quest10ID1_HORDE = "97153"
+
+--Quest 11 Horde
+Inst138Quest11Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest11ITC1_HORDE = Itemc4;
+Inst138Quest11description1_HORDE = AQITEM_ITEM
+Inst138Quest11ID1_HORDE = "97153"
 
 
 
