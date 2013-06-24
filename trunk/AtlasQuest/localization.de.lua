@@ -10510,7 +10510,7 @@ Inst92Quest3_Attain = "80"
 Inst92Quest3_Aim = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der Reflexion."
 Inst92Quest3_Location = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")"
 Inst92Quest3_Note = "Du kannst diese Quest innerhalb der Instanz beenden."
-Inst92Quest3_Prequest = "Die Klinge tempern ("..YELLOW.."Forge of Souls"..WHITE..")"
+Inst92Quest3_Prequest = "Die Klinge tempern ("..YELLOW.."Die Seelenschmiede"..WHITE..")"
 Inst92Quest3_Folgequest = "Reise zum Sonnenbrunnen"
 Inst92Quest3FQuest = "true"
 -- No Rewards for this quest
@@ -12839,8 +12839,8 @@ Inst122Quest1PreQuest_HORDE = "true"
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Thron des Donners"
-Inst138QAA = "4 Quests"
-Inst138QAH = "4 Quests"
+Inst138QAA = "11 Quests"
+Inst138QAH = "11 Quests"
 
 --Quest 1 Alliance
 Inst138Quest1 = "1. Zukunftssicherung"
@@ -12889,6 +12889,90 @@ Inst138Quest4_Prequest = "Echos der Titanen"
 Inst138Quest4_Folgequest = "Nein"
 Inst138Quest4PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst138Quest5 = "5. Requiem für eine Königin"
+Inst138Quest5_Level = "90"
+Inst138Quest5_Attain = "90"
+Inst138Quest5_Aim = "Bettet Monara zur ewigen Ruhe."
+Inst138Quest5_Location = "Automatische Questannahmen (Thron des Donners)"
+Inst138Quest5_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Monara befindet sich bei "..YELLOW.."1'"..WHITE.."."
+Inst138Quest5_Prequest = "Nein"
+Inst138Quest5_Folgequest = "Nein"
+--
+Inst138Quest5name1 = "Schatz des Donnerkönigs"
+
+--Quest 6 Alliance
+Inst138Quest6 = "6. Den Sturm besänftigen"
+Inst138Quest6_Level = "90"
+Inst138Quest6_Attain = "90"
+Inst138Quest6_Aim = "Tötet No'ku Sturmsprecher."
+Inst138Quest6_Location = "Automatische Questannahmen (Thron des Donners)"
+Inst138Quest6_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  No'ku Sturmsprecher befindet sich bei "..YELLOW.."2'"..WHITE.."."
+Inst138Quest6_Prequest = "Nein"
+Inst138Quest6_Folgequest = "Nein"
+--
+Inst138Quest6name1 = "Schatz des Donnerkönigs"
+
+--Quest 7 Alliance
+Inst138Quest7 = "7. Ton, Steine, Sterben"
+Inst138Quest7_Level = "90"
+Inst138Quest7_Attain = "90"
+Inst138Quest7_Aim = "Tötet Krankenstein."
+Inst138Quest7_Location = "Automatische Questannahmen (Thron des Donners)"
+Inst138Quest7_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Krankenstein befinden sich bei "..YELLOW.."3'"..WHITE.."."
+Inst138Quest7_Prequest = "Nein"
+Inst138Quest7_Folgequest = "Nein"
+--
+Inst138Quest7name1 = "Schatz des Donnerkönigs"
+
+--Quest 8 Alliance
+Inst138Quest8 = "8. Augen des Donnerkönigs"
+Inst138Quest8_Level = "90"
+Inst138Quest8_Attain = "90"
+Inst138Quest8_Aim = "Setzt Euch gegen den Überfall zur Wehr!"
+Inst138Quest8_Location = "Automatische Questannahmen (Thron des Donners - Morgensucher Kap; "..YELLOW.."32.6, 35.4"..WHITE..")"
+Inst138Quest8_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Starrendes Auge und Fokussiertes Auge befinden sich bei "..YELLOW.."7"..WHITE.."."
+Inst138Quest8_Prequest = "Nein"
+Inst138Quest8_Folgequest = "Nein"
+--
+Inst138Quest8name1 = "Schatz des Donnerkönigs"
+
+--Quest 9 Alliance
+Inst138Quest9 = "9. Angst und Anima"
+Inst138Quest9_Level = "90"
+Inst138Quest9_Attain = "90"
+Inst138Quest9_Aim = "Tötet Erzritualist Kelada."
+Inst138Quest9_Location = "Automatische Questannahmen (Thron des Donners)"
+Inst138Quest9_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Erzritualist Kelada befindet sich bei "..YELLOW.."4'"..WHITE.."."
+Inst138Quest9_Prequest = "Nein"
+Inst138Quest9_Folgequest = "Nein"
+--
+Inst138Quest9name1 = "Schatz des Donnerkönigs"
+
+--Quest 10 Alliance
+Inst138Quest10 = "10. Was riecht denn hier so?"
+Inst138Quest10_Level = "90"
+Inst138Quest10_Attain = "90"
+Inst138Quest10_Aim = "Findet und vernichtet Fleisch'rok den Verpesteten."
+Inst138Quest10_Location = "Automatische Questannahmen (Thron des Donners)"
+Inst138Quest10_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Fleisch'rok den Verpesteten befindet sich bei "..YELLOW.."5'"..WHITE.."."
+Inst138Quest10_Prequest = "Nein"
+Inst138Quest10_Folgequest = "Nein"
+--
+Inst138Quest10name1 = "Schatz des Donnerkönigs"
+
+--Quest 11 Alliance
+Inst138Quest11 = "11. Zao'cho der Hinterhältige"
+Inst138Quest11_Level = "90"
+Inst138Quest11_Attain = "90"
+Inst138Quest11_Aim = "Tötet Zao'cho."
+Inst138Quest11_Location = "Automatische Questannahmen (Thron des Donners)"
+Inst138Quest11_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Zao'cho befindet sich bei "..YELLOW.."6'"..WHITE.."."
+Inst138Quest11_Prequest = "Nein"
+Inst138Quest11_Folgequest = "Nein"
+--
+Inst138Quest11name1 = "Schatz des Donnerkönigs"
 
 
 --Quest 1 Horde
@@ -12939,6 +13023,89 @@ Inst138Quest4_HORDE_Folgequest = "Nein"
 Inst138Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
+--Quest 5 Horde
+Inst138Quest5_HORDE = Inst138Quest5
+Inst138Quest5_HORDE_Level = "90"
+Inst138Quest5_HORDE_Attain = "90"
+Inst138Quest5_HORDE_Aim = Inst138Quest5_Aim
+Inst138Quest5_HORDE_Location = Inst138Quest5_Location
+Inst138Quest5_HORDE_Note = Inst138Quest5_Note
+Inst138Quest5_HORDE_Prequest = "Nein"
+Inst138Quest5_HORDE_Folgequest = "Nein"
+--
+Inst138Quest5name1_HORDE = Inst138Quest5name1
+
+--Quest 6 Horde
+Inst138Quest6_HORDE = Inst138Quest6
+Inst138Quest6_HORDE_Level = "90"
+Inst138Quest6_HORDE_Attain = "90"
+Inst138Quest6_HORDE_Aim = Inst138Quest8_Aim6
+Inst138Quest6_HORDE_Location = Inst138Quest6_Location
+Inst138Quest6_HORDE_Note = Inst138Quest6_Note
+Inst138Quest6_HORDE_Prequest = "Nein"
+Inst138Quest6_HORDE_Folgequest = "Nein"
+--
+Inst138Quest6name1_HORDE = Inst138Quest6name1
+
+--Quest 7 Horde
+Inst138Quest7_HORDE = Inst138Quest7
+Inst138Quest7_HORDE_Level = "90"
+Inst138Quest7_HORDE_Attain = "90"
+Inst138Quest7_HORDE_Aim = Inst138Quest7_Aim
+Inst138Quest7_HORDE_Location = Inst138Quest7_Location
+Inst138Quest7_HORDE_Note = Inst138Quest7_Note
+Inst138Quest7_HORDE_Prequest = "Nein"
+Inst138Quest7_HORDE_Folgequest = "Nein"
+--
+Inst138Quest7name1_HORDE = Inst138Quest7name1
+
+--Quest 8 Horde
+Inst138Quest8_HORDE = Inst138Quest8
+Inst138Quest8_HORDE_Level = "90"
+Inst138Quest8_HORDE_Attain = "90"
+Inst138Quest8_HORDE_Aim = Inst138Quest8_Aim
+Inst138Quest8_HORDE_Location = Inst138Quest8_Location
+Inst138Quest8_HORDE_Note = Inst138Quest8_Note
+Inst138Quest8_HORDE_Prequest = "Nein"
+Inst138Quest8_HORDE_Folgequest = "Nein"
+--
+Inst138Quest8name1_HORDE = Inst138Quest8name1
+
+--Quest 9 Horde
+Inst138Quest9_HORDE = Inst138Quest9
+Inst138Quest9_HORDE_Level = "90"
+Inst138Quest9_HORDE_Attain = "90"
+Inst138Quest9_HORDE_Aim = Inst138Quest9_Aim
+Inst138Quest9_HORDE_Location = Inst138Quest9_Location
+Inst138Quest9_HORDE_Note = Inst138Quest9_Note
+Inst138Quest9_HORDE_Prequest = "Nein"
+Inst138Quest9_HORDE_Folgequest = "Nein"
+--
+Inst138Quest9name1_HORDE = Inst138Quest9name1
+
+--Quest 10 Horde
+Inst138Quest10_HORDE = Inst138Quest10
+Inst138Quest10_HORDE_Level = "90"
+Inst138Quest10_HORDE_Attain = "90"
+Inst138Quest10_HORDE_Aim = Inst138Quest10_Aim
+Inst138Quest10_HORDE_Location = Inst138Quest10_Location
+Inst138Quest10_HORDE_Note = Inst138Quest10_Note
+Inst138Quest10_HORDE_Prequest = "Nein"
+Inst138Quest10_HORDE_Folgequest = "Nein"
+--
+Inst138Quest10name1_HORDE = Inst138Quest10name1
+
+--Quest 11 Horde
+Inst138Quest11_HORDE = Inst138Quest11
+Inst138Quest11_HORDE_Level = "90"
+Inst138Quest11_HORDE_Attain = "90"
+Inst138Quest11_HORDE_Aim = "Tötet Zao'cho."
+Inst138Quest11_HORDE_Location = Inst138Quest11_Location
+Inst138Quest11_HORDE_Note = Inst138Quest11_Note
+Inst138Quest11_HORDE_Prequest = "Nein"
+Inst138Quest11_HORDE_Folgequest = "Nein"
+--
+Inst138Quest11name1_HORDE = Inst138Quest11name1
 
 
 
