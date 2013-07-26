@@ -12782,8 +12782,8 @@ Inst122Quest1PreQuest_HORDE = Inst120Quest1PreQuest
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Throne of Thunder"
-Inst138QAA = "3 Quests"
-Inst138QAH = "3 Quests"
+Inst138QAA = "11 Quests"
+Inst138QAH = "11 Quests"
 
 --Quest 1 Alliance
 Inst138Quest1 = "1. Securing A Future"
@@ -12833,6 +12833,90 @@ Inst138Quest4_Folgequest = "None"
 Inst138Quest4FQuest = "true"
 -- No Rewards for this quest
 
+--Quest 5 Alliance
+Inst138Quest5 = "5. Requiem for a Queen"
+Inst138Quest5_Level = "90"
+Inst138Quest5_Attain = "90"
+Inst138Quest5_Aim = "Put Monara to rest."
+Inst138Quest5_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest5_Note = "This weekly raid quest can be completed on any difficulty setting.  Monara is just beyond "..YELLOW.."[1]"..WHITE.."."
+Inst138Quest5_Prequest = "None"
+Inst138Quest5_Folgequest = "None"
+--
+Inst138Quest5name1 = "Spoils of the Thunder King"
+
+--Quest 6 Alliance
+Inst138Quest6 = "6. Taming the Tempest"
+Inst138Quest6_Level = "90"
+Inst138Quest6_Attain = "90"
+Inst138Quest6_Aim = "Slay No'ku Stormsayer."
+Inst138Quest6_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest6_Note = "This weekly raid quest can be completed on any difficulty setting.  No'ku Stormsayer is just before "..YELLOW.."[3]"..WHITE.."."
+Inst138Quest6_Prequest = "None"
+Inst138Quest6_Folgequest = "None"
+--
+Inst138Quest6name1 = "Spoils of the Thunder King"
+
+--Quest 7 Alliance
+Inst138Quest7 = "7. Rocks Fall, People Die"
+Inst138Quest7_Level = "90"
+Inst138Quest7_Attain = "90"
+Inst138Quest7_Aim = "Slay the Rocky Horror."
+Inst138Quest7_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest7_Note = "This weekly raid quest can be completed on any difficulty setting.  The Rocky Horror is just beyond "..YELLOW.."[4]"..WHITE.."."
+Inst138Quest7_Prequest = "None"
+Inst138Quest7_Folgequest = "None"
+--
+Inst138Quest7name1 = "Spoils of the Thunder King"
+
+--Quest 8 Alliance
+Inst138Quest8 = "8. Eyes of the Thunder King"
+Inst138Quest8_Level = "90"
+Inst138Quest8_Attain = "90"
+Inst138Quest8_Aim = "Defeat the ambush!"
+Inst138Quest8_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest8_Note = "This weekly raid quest can be completed on any difficulty setting.  The ambush starts at "..YELLOW.."[7]"..WHITE.."."
+Inst138Quest8_Prequest = "None"
+Inst138Quest8_Folgequest = "None"
+--
+Inst138Quest8name1 = "Spoils of the Thunder King"
+
+--Quest 9 Alliance
+Inst138Quest9 = "9. Agony and Anima"
+Inst138Quest9_Level = "90"
+Inst138Quest9_Attain = "90"
+Inst138Quest9_Aim = "Slay Archritualist Kelada."
+Inst138Quest9_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest9_Note = "This weekly raid quest can be completed on any difficulty setting.  Archritualist Kelada is just beyond "..YELLOW.."[8]"..WHITE.."."
+Inst138Quest9_Prequest = "None"
+Inst138Quest9_Folgequest = "None"
+--
+Inst138Quest9name1 = "Spoils of the Thunder King"
+
+--Quest 10 Alliance
+Inst138Quest10 = "10. Something Foul is Afoot"
+Inst138Quest10_Level = "90"
+Inst138Quest10_Attain = "90"
+Inst138Quest10_Aim = "Seek and destroy Flesh'rok the Diseased."
+Inst138Quest10_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest10_Note = "This weekly raid quest can be completed on any difficulty setting.  Flesh'rok the Diseased is just after "..YELLOW.."[9]"..WHITE.."."
+Inst138Quest10_Prequest = "None"
+Inst138Quest10_Folgequest = "None"
+--
+Inst138Quest10name1 = "Spoils of the Thunder King"
+
+--Quest 11 Alliance
+Inst138Quest11 = "11. Zao'cho the Wicked"
+Inst138Quest11_Level = "90"
+Inst138Quest11_Attain = "90"
+Inst138Quest11_Aim = "Slay Zao'cho."
+Inst138Quest11_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest11_Note = "This weekly raid quest can be completed on any difficulty setting.  Zao'cho the Wicked is just before "..YELLOW.."[11]"..WHITE.."."
+Inst138Quest11_Prequest = "None"
+Inst138Quest11_Folgequest = "None"
+--
+Inst138Quest11name1 = "Spoils of the Thunder King"
+
 
 --Quest 1 Horde
 Inst138Quest1_HORDE = "1. Life Blood"
@@ -12881,6 +12965,91 @@ Inst138Quest4_HORDE_Prequest = Inst138Quest4_Prequest
 Inst138Quest4_HORDE_Folgequest = Inst138Quest4_Folgequest
 Inst138Quest4FQuest_HORDE = Inst138Quest4FQuest
 -- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst138Quest5_HORDE = Inst138Quest5
+Inst138Quest5_HORDE_Level = Inst138Quest5_Level
+Inst138Quest5_HORDE_Attain = Inst138Quest5_Attain
+Inst138Quest5_HORDE_Aim = Inst138Quest5_Aim
+Inst138Quest5_HORDE_Location = Inst138Quest5_Location
+Inst138Quest5_HORDE_Note = Inst138Quest5_Note
+Inst138Quest5_HORDE_Prequest = Inst138Quest5_Prequest
+Inst138Quest5_HORDE_Folgequest = Inst138Quest5_Folgequest
+--
+Inst138Quest5name1_HORDE = Inst138Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst138Quest6_HORDE = Inst138Quest6
+Inst138Quest6_HORDE_Level = Inst138Quest6_Level
+Inst138Quest6_HORDE_Attain = Inst138Quest6_Attain
+Inst138Quest6_HORDE_Aim = Inst138Quest6_Aim
+Inst138Quest6_HORDE_Location = Inst138Quest6_Location
+Inst138Quest6_HORDE_Note = Inst138Quest6_Note
+Inst138Quest6_HORDE_Prequest = Inst138Quest6_Prequest
+Inst138Quest6_HORDE_Folgequest = Inst138Quest6_Folgequest
+--
+Inst138Quest6name1_HORDE = Inst138Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst138Quest7_HORDE = Inst138Quest7
+Inst138Quest7_HORDE_Level = Inst138Quest7_Level
+Inst138Quest7_HORDE_Attain = Inst138Quest7_Attain
+Inst138Quest7_HORDE_Aim = Inst138Quest7_Aim
+Inst138Quest7_HORDE_Location = Inst138Quest7_Location
+Inst138Quest7_HORDE_Note = Inst138Quest7_Note
+Inst138Quest7_HORDE_Prequest = Inst138Quest7_Prequest
+Inst138Quest7_HORDE_Folgequest = Inst138Quest7_Folgequest
+--
+Inst138Quest7name1_HORDE = Inst138Quest7name1
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst138Quest8_HORDE = Inst138Quest8
+Inst138Quest8_HORDE_Level = Inst138Quest8_Level
+Inst138Quest8_HORDE_Attain = Inst138Quest8_Attain
+Inst138Quest8_HORDE_Aim = Inst138Quest8_Aim
+Inst138Quest8_HORDE_Location = Inst138Quest8_Location
+Inst138Quest8_HORDE_Note = Inst138Quest8_Note
+Inst138Quest8_HORDE_Prequest = Inst138Quest8_Prequest
+Inst138Quest8_HORDE_Folgequest = Inst138Quest8_Folgequest
+--
+Inst138Quest8name1_HORDE = Inst138Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst138Quest9_HORDE = Inst138Quest9
+Inst138Quest9_HORDE_Level = Inst138Quest9_Level
+Inst138Quest9_HORDE_Attain = Inst138Quest9_Attain
+Inst138Quest9_HORDE_Aim = Inst138Quest9_Aim
+Inst138Quest9_HORDE_Location = Inst138Quest9_Location
+Inst138Quest9_HORDE_Note = Inst138Quest9_Note
+Inst138Quest9_HORDE_Prequest = Inst138Quest9_Prequest
+Inst138Quest9_HORDE_Folgequest = Inst138Quest9_Folgequest
+--
+Inst138Quest9name1_HORDE = Inst138Quest9name1
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst138Quest10_HORDE = Inst138Quest10
+Inst138Quest10_HORDE_Level = Inst138Quest10_Level
+Inst138Quest10_HORDE_Attain = Inst138Quest10_Attain
+Inst138Quest10_HORDE_Aim = Inst138Quest10_Aim
+Inst138Quest10_HORDE_Location = Inst138Quest10_Location
+Inst138Quest10_HORDE_Note = Inst138Quest10_Note
+Inst138Quest10_HORDE_Prequest = Inst138Quest10_Prequest
+Inst138Quest10_HORDE_Folgequest = Inst138Quest10_Folgequest
+--
+Inst138Quest10name1_HORDE = Inst138Quest10name1
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst138Quest11_HORDE = Inst138Quest11
+Inst138Quest11_HORDE_Level = Inst138Quest11_Level
+Inst138Quest11_HORDE_Attain = Inst138Quest11_Attain
+Inst138Quest11_HORDE_Aim = Inst138Quest11_Aim
+Inst138Quest11_HORDE_Location = Inst138Quest11_Location
+Inst138Quest11_HORDE_Note = Inst138Quest11_Note
+Inst138Quest11_HORDE_Prequest = Inst138Quest11_Prequest
+Inst138Quest11_HORDE_Folgequest = Inst138Quest11_Folgequest
+--
+Inst138Quest11name1_HORDE = Inst138Quest11name1
+
 
 
 
