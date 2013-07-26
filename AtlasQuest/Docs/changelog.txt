@@ -2,6 +2,21 @@
 Changelog
 =========
 
+Version 4.8.5 BETA  (July ??, 2013)
+
+- Localizations updated: deDE, enUS
+
+- Added quests:
+	- Throne of Thunder: Requiem for a Queen
+	- Throne of Thunder: Taming the Tempest
+	- Throne of Thunder: Rocks Fall, People Die
+	- Throne of Thunder: Eyes of the Thunder King
+	- Throne of Thunder: Agony and Anima
+	- Throne of Thunder: Something Foul is Afoot
+	- Throne of Thunder: Zao'cho the Wicked
+
+
+
 Version 4.8.4  (June 1, 2013)
 
 - Updated TOC file for Patch 5.3
