@@ -2,7 +2,14 @@
 Changelog
 =========
 
-Version 4.8.5 BETA  (July ??, 2013)
+Version 4.8.6 BETA  (August ??, 2013)
+
+- Updated TOC file for Patch 5.4
+- Added support for Siege of Orgrimmar.  No quests for it though.
+
+
+
+Version 4.8.5  (July 30, 2013)
 
 - Localizations updated: deDE, enUS
 
