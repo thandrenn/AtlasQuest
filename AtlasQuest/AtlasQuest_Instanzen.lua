@@ -361,6 +361,9 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderD") then
 		AQINSTANZ = 138;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarD") then
+		AQINSTANZ = 145;
+
 		
 	-- Scenarios
 
@@ -935,4 +938,5 @@ end
 -- 142 = SCENARIO: The Secrets of Ragefire
 -- 143 = BATTLEGROUND: Deepwind Gorge
 -- 144 = SCENARIO: Troves of the Thunder King
+-- 145 = Siege of Orgrimmar
 
