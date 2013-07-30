@@ -13052,6 +13052,17 @@ Inst138Quest11name1_HORDE = Inst138Quest11name1
 
 
 
+--------------- INST145 - Siege of Orgrimmar ---------------
+
+Inst145Caption = "Siege of Orgrimmar"
+Inst145QAA = "No Quests"
+Inst145QAH = "No Quests"
+
+
+
+
+
+
 
 
 ---------------------------------------------------
