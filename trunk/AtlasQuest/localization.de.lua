@@ -312,7 +312,7 @@ Inst1Quest5name3_HORDE = Inst1Quest5name3
 
 Inst2Caption = "Höhlen des Wehklagens"
 Inst2QAA = "3 Quests"
-Inst2QAH = "3 Quests"
+Inst2QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst2Quest1 = "1. Deviatbälge"
@@ -354,43 +354,54 @@ Inst2Quest3name5 = "Anacondras Robe"
 
 
 --Quest 1 Horde
-Inst2Quest1_HORDE = Inst2Quest1
-Inst2Quest1_HORDE_Level = "18"
-Inst2Quest1_HORDE_Attain = "16"
-Inst2Quest1_HORDE_Aim = Inst2Quest1_Aim
-Inst2Quest1_HORDE_Location = Inst2Quest1_Location
-Inst2Quest1_HORDE_Note = Inst2Quest1_Note
-Inst2Quest1_HORDE_Prequest = "Nein"
+Inst2Quest1_HORDE = "1. Jünger von Naralex"
+Inst2Quest1_HORDE_Level = "16"
+Inst2Quest1_HORDE_Attain = "15"
+Inst2Quest1_HORDE_Aim = "Sprecht in den Höhlen des Wehklagens mit Nalpak."
+Inst2Quest1_HORDE_Location = "Tonga Runentotem (Nördliches Brachland - Das Wegekreuz; "..YELLOW.."49.4, 58.6"..WHITE..")"
+Inst2Quest1_HORDE_Note = "Nalpak befindet sich in (Höhlen des Wehklagens; "..GREEN.."[1']"..WHITE..")"
+Inst2Quest1_HORDE_Prequest = "Die Vergessenen Teiche -> Die Brackige Oase"
 Inst2Quest1_HORDE_Folgequest = "Nein"
 --No Rewards for this quest
 
-
 --Quest 2 Horde
-Inst2Quest2_HORDE = Inst2Quest2
+Inst2Quest2_HORDE = "2. Deviatbälge"
 Inst2Quest2_HORDE_Level = "18"
 Inst2Quest2_HORDE_Attain = "16"
-Inst2Quest2_HORDE_Aim = Inst2Quest2_Aim
-Inst2Quest2_HORDE_Location = Inst2Quest2_Location
-Inst2Quest2_HORDE_Note = Inst2Quest2_Note
+Inst2Quest2_HORDE_Aim = Inst2Quest1_Aim
+Inst2Quest2_HORDE_Location = Inst2Quest1_Location
+Inst2Quest2_HORDE_Note = Inst2Quest1_Note
 Inst2Quest2_HORDE_Prequest = "Nein"
 Inst2Quest2_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+--No Rewards for this quest
+
 
 --Quest 3 Horde
-Inst2Quest3_HORDE = Inst2Quest3
-Inst2Quest3_HORDE_Level = "21"
+Inst2Quest3_HORDE = "3. Vorbeugende Maßnahmen"
+Inst2Quest3_HORDE_Level = "18"
 Inst2Quest3_HORDE_Attain = "16"
-Inst2Quest3_HORDE_Aim = Inst2Quest3_Aim
-Inst2Quest3_HORDE_Location = Inst2Quest3_Location
-Inst2Quest3_HORDE_Note = Inst2Quest3_Note
+Inst2Quest3_HORDE_Aim = Inst2Quest2_Aim
+Inst2Quest3_HORDE_Location = Inst2Quest2_Location
+Inst2Quest3_HORDE_Note = Inst2Quest2_Note
 Inst2Quest3_HORDE_Prequest = "Nein"
 Inst2Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst2Quest4_HORDE = "4. Säuberung der Höhlen"
+Inst2Quest4_HORDE_Level = "21"
+Inst2Quest4_HORDE_Attain = "16"
+Inst2Quest4_HORDE_Aim = Inst2Quest3_Aim
+Inst2Quest4_HORDE_Location = Inst2Quest3_Location
+Inst2Quest4_HORDE_Note = Inst2Quest3_Note
+Inst2Quest4_HORDE_Prequest = "Nein"
+Inst2Quest4_HORDE_Folgequest = "Nein"
 --
-Inst2Quest3name1_HORDE = Inst2Quest3name1
-Inst2Quest3name2_HORDE = Inst2Quest3name2
-Inst2Quest3name3_HORDE = Inst2Quest3name3
-Inst2Quest3name4_HORDE = "Pythas Weste"
-Inst2Quest3name5_HORDE = Inst2Quest3name5
+Inst2Quest4name1_HORDE = Inst2Quest3name1
+Inst2Quest4name2_HORDE = Inst2Quest3name2
+Inst2Quest4name3_HORDE = Inst2Quest3name3
+Inst2Quest4name4_HORDE = "Pythas Weste"
+Inst2Quest4name5_HORDE = Inst2Quest3name5
 
 
 
@@ -13106,6 +13117,14 @@ Inst138Quest11_HORDE_Prequest = "Nein"
 Inst138Quest11_HORDE_Folgequest = "Nein"
 --
 Inst138Quest11name1_HORDE = Inst138Quest11name1
+
+
+
+--------------- INST145 - Siege of Orgrimmar --------------- 
+
+Inst145Caption = "Siege of Orgrimmar"
+Inst145QAA = "No Quests"
+Inst145QAH = "No Quests"
 
 
 
