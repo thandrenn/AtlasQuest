@@ -305,7 +305,7 @@ Inst1Quest5name3_HORDE = "Cookie's Table Cloth"
 
 Inst2Caption = "Wailing Caverns"
 Inst2QAA = "3 Quests"
-Inst2QAH = "3 Quests"
+Inst2QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst2Quest1 = "1. Deviate Hides"
@@ -347,43 +347,55 @@ Inst2Quest3name4 = "Pythas' Vest"
 Inst2Quest3name5 = "Anacondra's Robe"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst2Quest1_HORDE = Inst2Quest1
-Inst2Quest1_HORDE_Level = Inst2Quest1_Level
-Inst2Quest1_HORDE_Attain = Inst2Quest1_Attain
-Inst2Quest1_HORDE_Aim = Inst2Quest1_Aim
-Inst2Quest1_HORDE_Location = Inst2Quest1_Location
-Inst2Quest1_HORDE_Note = Inst2Quest1_Note
-Inst2Quest1_HORDE_Prequest = Inst2Quest1_Prequest
-Inst2Quest1_HORDE_Folgequest = Inst2Quest1_Folgequest
+--Quest 1 Horde
+Inst2Quest1_HORDE = "1. Disciples of Naralex"
+Inst2Quest1_HORDE_Level = "16"
+Inst2Quest1_HORDE_Attain = "15"
+Inst2Quest1_HORDE_Aim = "Speak with Nalpak in the Wailing Caverns."
+Inst2Quest1_HORDE_Location = "Tonga Runetotem (Northern Barrens - The Crossroads; "..YELLOW.."49.4, 58.6"..WHITE..")"
+Inst2Quest1_HORDE_Note = "Nalpak is just inside the entrance of the instance at "..GREEN.."[1']"..WHITE.."."
+Inst2Quest1_HORDE_Prequest = "The Forgotten Pools -> The Stagnant Oasis"
+Inst2Quest1_HORDE_Folgequest = "None"
+Inst2Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst2Quest2_HORDE = Inst2Quest2
-Inst2Quest2_HORDE_Level = Inst2Quest2_Level
-Inst2Quest2_HORDE_Attain = Inst2Quest2_Attain
-Inst2Quest2_HORDE_Aim = Inst2Quest2_Aim
-Inst2Quest2_HORDE_Location = Inst2Quest2_Location
-Inst2Quest2_HORDE_Note = Inst2Quest2_Note
-Inst2Quest2_HORDE_Prequest = Inst2Quest2_Prequest
-Inst2Quest2_HORDE_Folgequest = Inst2Quest2_Folgequest
+--Quest 2 Horde  (same as Quest 1 Alliance)
+Inst2Quest2_HORDE = "2. Deviate Hides"
+Inst2Quest2_HORDE_Level = Inst2Quest1_Level
+Inst2Quest2_HORDE_Attain = Inst2Quest1_Attain
+Inst2Quest2_HORDE_Aim = Inst2Quest1_Aim
+Inst2Quest2_HORDE_Location = Inst2Quest1_Location
+Inst2Quest2_HORDE_Note = Inst2Quest1_Note
+Inst2Quest2_HORDE_Prequest = Inst2Quest1_Prequest
+Inst2Quest2_HORDE_Folgequest = Inst2Quest1_Folgequest
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst2Quest3_HORDE = Inst2Quest3
-Inst2Quest3_HORDE_Level = Inst2Quest3_Level
-Inst2Quest3_HORDE_Attain = Inst2Quest3_Attain
-Inst2Quest3_HORDE_Aim = Inst2Quest3_Aim
-Inst2Quest3_HORDE_Location = Inst2Quest3_Location
-Inst2Quest3_HORDE_Note = Inst2Quest3_Note
-Inst2Quest3_HORDE_Prequest = Inst2Quest3_Prequest
-Inst2Quest3_HORDE_Folgequest = Inst2Quest3_Folgequest
+--Quest 3 Horde  (same as Quest 2 Alliance)
+Inst2Quest3_HORDE = "3. Preemptive Methods"
+Inst2Quest3_HORDE_Level = Inst2Quest2_Level
+Inst2Quest3_HORDE_Attain = Inst2Quest2_Attain
+Inst2Quest3_HORDE_Aim = Inst2Quest2_Aim
+Inst2Quest3_HORDE_Location = Inst2Quest2_Location
+Inst2Quest3_HORDE_Note = Inst2Quest2_Note
+Inst2Quest3_HORDE_Prequest = Inst2Quest2_Prequest
+Inst2Quest3_HORDE_Folgequest = Inst2Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 3 Alliance)
+Inst2Quest4_HORDE = "4. Cleansing the Caverns"
+Inst2Quest4_HORDE_Level = Inst2Quest3_Level
+Inst2Quest4_HORDE_Attain = Inst2Quest3_Attain
+Inst2Quest4_HORDE_Aim = Inst2Quest3_Aim
+Inst2Quest4_HORDE_Location = Inst2Quest3_Location
+Inst2Quest4_HORDE_Note = Inst2Quest3_Note
+Inst2Quest4_HORDE_Prequest = Inst2Quest3_Prequest
+Inst2Quest4_HORDE_Folgequest = Inst2Quest3_Folgequest
 --
-Inst2Quest3name1_HORDE = Inst2Quest3name1
-Inst2Quest3name2_HORDE = Inst2Quest3name2
-Inst2Quest3name3_HORDE = Inst2Quest3name3
-Inst2Quest3name4_HORDE = Inst2Quest3name4
-Inst2Quest3name5_HORDE = Inst2Quest3name5
+Inst2Quest4name1_HORDE = Inst2Quest3name1
+Inst2Quest4name2_HORDE = Inst2Quest3name2
+Inst2Quest4name3_HORDE = Inst2Quest3name3
+Inst2Quest4name4_HORDE = Inst2Quest3name4
+Inst2Quest4name5_HORDE = Inst2Quest3name5
 
 
 

@@ -88,7 +88,7 @@ Inst2Quest3_HORDE_QuestID = "26873"
 Inst2Quest4_HORDE_QuestID = "26870"
 
 
-AQ_26878_Level = "15"
+AQ_26878_Level = "16"
 AQ_26872_Level = "18"
 AQ_26873_Level = "18"
 AQ_26870_Level = "21"
