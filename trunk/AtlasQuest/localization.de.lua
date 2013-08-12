@@ -4382,7 +4382,7 @@ Inst29Quest7 = "7. Die Rückkehr des Rings"
 Inst29Quest7_Level = "34"
 Inst29Quest7_Attain = "24"
 Inst29Quest7_Aim = "Ihr könnt den Ring entweder behalten oder die Person finden, die für die Prägung und Gravuren auf der Innenseite des Rings verantwortlich ist."
-Inst29Quest7_Location = "Blitzender Goldring (erhällt man beim Quest Schmutzverkrusteter Ring)"
+Inst29Quest7_Location = "Blitzender Goldring (erhält man von der Quest Schmutzverkrusteter Ring)"
 Inst29Quest7_Note = "Kann bei Talvash del Kissel (Eisenschmiede - Mystikerviertel; "..YELLOW.."36.0,4.2"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
 Inst29Quest7_Prequest = "Schmutzverkrusteter Ring"
 Inst29Quest7_Folgequest = "Gnomenverbesserungen"
@@ -4404,7 +4404,7 @@ Inst29Quest8name1 = "Funkelmatverpackter Kasten"
 
 
 --Quest 1 Horde
-Inst29Quest1_HORDE = Inst29Quest6
+Inst29Quest1_HORDE = "1. Schmutzverkrusteter Ring"
 Inst29Quest1_HORDE_Level = "34"
 Inst29Quest1_HORDE_Attain = "24"
 Inst29Quest1_HORDE_Aim = Inst29Quest6_Aim
@@ -4416,7 +4416,7 @@ Inst29Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst29Quest2_HORDE = Inst29Quest7
+Inst29Quest2_HORDE = "2. Die Rückkehr des Rings"
 Inst29Quest2_HORDE_Level = "34"
 Inst29Quest2_HORDE_Attain = "24"
 Inst29Quest2_HORDE_Aim = Inst29Quest7_Aim
@@ -4429,7 +4429,7 @@ Inst29Quest2FQuest_HORDE = "true"
 Inst29Quest2name1_HORDE = Inst29Quest7name1
 
 --Quest 3 Horde
-Inst29Quest3_HORDE = Inst29Quest8
+Inst29Quest3_HORDE = "3. Der Funkelmat 5200!"
 Inst29Quest3_HORDE_Level = "30"
 Inst29Quest3_HORDE_Attain = "25"
 Inst29Quest3_HORDE_Aim = Inst29Quest8_Aim
