@@ -12815,7 +12815,7 @@ Inst138Quest2_Level = "90"
 Inst138Quest2_Attain = "90"
 Inst138Quest2_Aim = "Collect 20 Secrets of the Empire and 40 Trillium Bars."
 Inst138Quest2_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
-Inst138Quest2_Note = "Secrets of the Empire drop from raid bosses inside Throne of Thunder on any difficulty setting.  The Trillium Bars can be made by a miner or purchased."
+Inst138Quest2_Note = "Secrets of the Empire drop from raid bosses inside Throne of Thunder or the first eight bosses in Siege of Orgrimmar on any difficulty setting.  The Trillium Bars can be made by a miner or purchased."
 Inst138Quest2_Prequest = "Meet me Upstairs"
 Inst138Quest2_Folgequest = "The Thunderforge"
 Inst138Quest2PreQuest = "true"
@@ -12827,7 +12827,7 @@ Inst138Quest3_Level = "90"
 Inst138Quest3_Attain = "90"
 Inst138Quest3_Aim = "Collect 12 Titan Runestones from raid bosses in the Chambers of Flesh-Shaping and the Halls of Thunder."
 Inst138Quest3_Location = "Wrathion (The Veiled Stair - Mason's Folly; "..YELLOW.."75.2, 76.4"..WHITE..")"
-Inst138Quest3_Note = "The Titan Runestones will drop any any difficulty from raid bosses in the last two sections of Throne of Thunder."
+Inst138Quest3_Note = "The Titan Runestones will drop any any difficulty from the last six raid bosses in the Throne of Thunder or the first eight bosses in Siege of Orgrimmar."
 Inst138Quest3_Prequest = "The Thunder Forge -> The Crown of Heaven"
 Inst138Quest3_Folgequest = "Heart of the Thunder King"
 Inst138Quest3PreQuest = "true"
@@ -13067,12 +13067,33 @@ Inst138Quest11name1_HORDE = Inst138Quest11name1
 --------------- INST145 - Siege of Orgrimmar ---------------
 
 Inst145Caption = "Siege of Orgrimmar"
-Inst145QAA = "No Quests"
-Inst145QAH = "No Quests"
+Inst145QAA = "1 Quests"
+Inst145QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst145Quest1 = "1. Judgment of the Black Prince"
+Inst145Quest1_Level = "90"
+Inst145Quest1_Attain = "90"
+Inst145Quest1_Aim = "Complete the Siege of Orgrimmar and defeat Garrosh Hellscream."
+Inst145Quest1_Location = "Wrathion (Vale of Eternal Blossoms - Mogu'shan Palace; "..YELLOW.."83.2, 29.6"..WHITE..")"
+Inst145Quest1_Note = "This quest can be completed on any difficulty.  It is the final quest in the Legendary Cloak questline."
+Inst145Quest1_Prequest = "A Reckoning -> A Pandaren Legend"
+Inst145Quest1_Folgequest = "None"
+Inst145Quest1PreQuest = "true"
+-- No Rewards for this quest
 
 
-
-
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst145Quest1_HORDE = Inst145Quest1
+Inst145Quest1_HORDE_Level = Inst145Quest1_Level
+Inst145Quest1_HORDE_Attain = Inst145Quest1_Attain
+Inst145Quest1_HORDE_Aim = Inst145Quest1_Aim
+Inst145Quest1_HORDE_Location = Inst145Quest1_Location
+Inst145Quest1_HORDE_Note = Inst145Quest1_Note
+Inst145Quest1_HORDE_Prequest = Inst145Quest1_Prequest
+Inst145Quest1_HORDE_Folgequest = Inst145Quest1_Folgequest
+Inst145Quest1PreQuest_HORDE = Inst145Quest1PreQuest
+-- No Rewards for this quest
 
 
 
