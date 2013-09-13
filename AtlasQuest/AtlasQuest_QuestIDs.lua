@@ -2403,6 +2403,12 @@ AQ_32712_Level = "90"
 
 --------------- INST145 - Siege of Orgrimmar ---------------
 
+Inst138Quest1_QuestID = "33105"
+
+Inst138Quest1_HORDE_QuestID = "33105"
+
+
+AQ_33105_Level = "90"
 
 
 

@@ -2,13 +2,15 @@
 Changelog
 =========
 
-Version 4.8.6 BETA  (August ??, 2013)
+Version 4.8.6  (September 15, 2013)
 
 - Updated TOC file for Patch 5.4
-- Added support for Siege of Orgrimmar.  No quests for it though.
+- Localizations updated: deDE, enUS
+- Added support for Siege of Orgrimmar.
 
 - Added quests:
 	- Wailing Caverns: Disciples of Naralex (Horde)
+	- Siege of Orgrimmar: Judgment of the Black Prince
 
 
 

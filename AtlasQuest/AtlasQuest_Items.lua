@@ -7073,6 +7073,11 @@ Inst138Quest11ID1_HORDE = "97153"
 
 --------------- INST145 - Siege of Orgrimmar ---------------
 
+--Quest 1 Alliance
+Inst145Quest1Rewardtext = AQNoReward
+
+--Quest 1 Horde
+Inst145Quest1Rewardtext_HORDE = AQNoReward
 
 
 
