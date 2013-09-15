@@ -11,7 +11,9 @@ Version 4.8.6  (September 15, 2013)
 - Added quests:
 	- Wailing Caverns: Disciples of Naralex (Horde)
 	- Siege of Orgrimmar: Judgment of the Black Prince
-
+	- Temple of the Jade Serpent: The Lost Secret of the Secret Ingredient
+	- Temple of the Jade Serpent: Bad Feeling, Worse Result
+	
 
 
 Version 4.8.5  (July 30, 2013)
