@@ -12597,10 +12597,10 @@ Inst117Quest3 = "3. Das verlorene Geheimnis der Geheimzutat"
 Inst117Quest3_Level = "90"
 Inst117Quest3_Attain = "90"
 Inst117Quest3_Aim = "Besiegt das Sha des Zweifels."
-Inst117Quest3_Location = "Lin Chao-Wei (Zeitlose Insel - Alt Pi'Jiu "..YELLOW.."40.0, 73.0"..WHITE..")"
+Inst117Quest3_Location = "Lin Chao-Wei (Zeitlose Insel - Alt Pi'Jiu "..YELLOW.."41.0, 73.8"..WHITE..")"
 Inst117Quest3_Note = "Das Sha des Zweifels ist bei "..YELLOW.."[4]"..WHITE..".Direkt neben dem Sha des Zorns liegt die Schriftrolle die Du anklicken mußt.\n\nDie Vorquest startet auf der Zeitlosen Insel bei "..YELLOW.."52.0, 46.0"..WHITE.."."
 Inst117Quest3_Prequest = "Lang vergessene Nudelgeheimnisse"
-Inst117Quest3_Folgequest = "Schlechtes Gefühl, schlechteres Ergebnis -> Die geheime Zutat ist.."
+Inst117Quest3_Folgequest = "Schlechtes Gefühl, schlechteres Ergebnis -> Die Geheimzutat ist.."
 Inst117Quest3PreQuest = "true"
 -- No Rewards for this quest
 
@@ -13156,12 +13156,11 @@ Inst145Quest1_Level = "90"
 Inst145Quest1_Attain = "90"
 Inst145Quest1_Aim = "Schließt die Schlacht um Orgrimmar ab und besiegt Garrosh Höllschrei."
 Inst145Quest1_Location = "Furorion (Tal der Ewigen Blüte - Mogu'shan Palast; "..YELLOW.."83.2, 29.6"..WHITE..")"
-Inst145Quest1_Note = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden.  Dies ist die letzte Quest der Legendäre Questreihe."
+Inst145Quest1_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Dies ist die letzte Quest der Legendäre Questreihe."
 Inst145Quest1_Prequest = "Angriffsvorbereitung -> Eine Legende Pandarias"
 Inst145Quest1_Folgequest = "Nein"
 Inst145Quest1PreQuest = "true"
 -- No Rewards for this quest
-
 
 --Quest 1 Horde
 Inst145Quest1_HORDE = Inst145Quest1
