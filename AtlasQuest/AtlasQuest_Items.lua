@@ -6854,12 +6854,24 @@ Inst117Quest1Rewardtext = AQClassRewards
 --Quest 2 Alliance
 Inst117Quest2Rewardtext = AQClassRewards
 
+--Quest 3 Alliance
+Inst117Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst117Quest4Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst117Quest1Rewardtext_HORDE = AQClassRewards
 
 --Quest 2 Horde
 Inst117Quest2Rewardtext_HORDE = AQClassRewards
+
+--Quest 3 Horde
+Inst117Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst117Quest4Rewardtext_HORDE = AQNoReward
 
 
 

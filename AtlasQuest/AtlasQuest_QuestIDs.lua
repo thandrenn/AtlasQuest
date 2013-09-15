@@ -2286,13 +2286,19 @@ AQ_31324_Level = "87"
 
 Inst117Quest1_QuestID = "31355"
 Inst117Quest2_QuestID = "31356"
+Inst117Quest3_QuestID = "33020"
+Inst117Quest4_QuestID = "33107"
 
 Inst117Quest1_HORDE_QuestID = "31355"
 Inst117Quest2_HORDE_QuestID = "31356"
+Inst117Quest3_HORDE_QuestID = "33020"
+Inst117Quest4_HORDE_QuestID = "33107"
 
 
 AQ_31355_Level = "87"
 AQ_31356_Level = "87"
+AQ_33020_Level = "90"
+AQ_33107_Level = "90"
 
 
 

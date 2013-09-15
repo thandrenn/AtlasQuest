@@ -12504,8 +12504,8 @@ Inst116Quest3_HORDE_Folgequest = Inst116Quest3_Folgequest
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Caption = "Temple of the Jade Serpent"
-Inst117QAA = "2 Quests"
-Inst117QAH = "2 Quests"
+Inst117QAA = "4 Quests"
+Inst117QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst117Quest1 = "1. Restoring Jade's Purity"
@@ -12531,6 +12531,30 @@ Inst117Quest2_Folgequest = "None"
 --
 -- Reward varies for each class
 
+--Quest 3 Alliance
+Inst117Quest3 = "3. The Lost Secret of the Secret Ingredient"
+Inst117Quest3_Level = "90"
+Inst117Quest3_Attain = "90"
+Inst117Quest3_Aim = "Defeat the Sha of Doubt."
+Inst117Quest3_Location = "Lin Chao-Wei (Timeless Isle - Old Pi'ju; "..YELLOW.."41.0, 73.8"..WHITE..")"
+Inst117Quest3_Note = "The prequest starts from an Old Sign Fragment, found on the Timeless Isle in the debris of a collapsed bridge at "..YELLOW.."52.2, 46.2"..WHITE..".  You must have learned how to cook in each of the six Pandaren 'Ways' for this quest to be visible.\n\nThe Sha of Doubt is at "..YELLOW.."[4]"..WHITE..".  The scroll for the following quest is behind where the boss was."
+Inst117Quest3_Prequest = "Noodle Secrets Long Forgotten"
+Inst117Quest3_Folgequest = "Bad Feeling, Worse Result"
+Inst117Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst117Quest4 = "4. Bad Feeling, Worse Result"
+Inst117Quest4_Level = "90"
+Inst117Quest4_Attain = "90"
+Inst117Quest4_Aim = "Defeat the Ghost of Lin Da-Gu."
+Inst117Quest4_Location = "Lin Family Scroll (Temple of the Jade Serpent; "..YELLOW.."[4]"..WHITE..")"
+Inst117Quest4_Note = "The Lin Family Scroll usable after defeating the Sha of Doubt.  Reading the Scroll a second time summons the Ghost of Lin Da-Gu."
+Inst117Quest4_Prequest = "The Lost Secret of the Secret Ingredient"
+Inst117Quest4_Folgequest = "Secrets Lost, Forever?"
+Inst117Quest4FQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst117Quest1_HORDE = Inst117Quest1
@@ -12555,6 +12579,31 @@ Inst117Quest2_HORDE_Prequest = Inst117Quest2_Prequest
 Inst117Quest2_HORDE_Folgequest = Inst117Quest2_Folgequest
 --
 -- Reward varies for each class
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst117Quest3_HORDE = Inst117Quest3
+Inst117Quest3_HORDE_Level = Inst117Quest3_Level
+Inst117Quest3_HORDE_Attain = Inst117Quest3_Attain
+Inst117Quest3_HORDE_Aim = Inst117Quest3_Aim
+Inst117Quest3_HORDE_Location = Inst117Quest3_Location
+Inst117Quest3_HORDE_Note = Inst117Quest3_Note
+Inst117Quest3_HORDE_Prequest = Inst117Quest3_Prequest
+Inst117Quest3_HORDE_Folgequest = Inst117Quest3_Folgequest
+Inst117Quest3PreQuest_HORDE = Inst117Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst117Quest4_HORDE = Inst117Quest4
+Inst117Quest4_HORDE_Level = Inst117Quest4_Level
+Inst117Quest4_HORDE_Attain = Inst117Quest4_Attain
+Inst117Quest4_HORDE_Aim = Inst117Quest4_Aim
+Inst117Quest4_HORDE_Location = Inst117Quest4_Location
+Inst117Quest4_HORDE_Note = Inst117Quest4_Note
+Inst117Quest4_HORDE_Prequest = Inst117Quest4_Prequest
+Inst117Quest4_HORDE_Folgequest = Inst117Quest4_Folgequest
+Inst117Quest4FQuest_HORDE = Inst117Quest4FQuest
+-- No Rewards for this quest
+
 
 
 
