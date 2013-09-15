@@ -12565,8 +12565,8 @@ Inst116Quest3_HORDE_Folgequest = "Nein"
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Caption = "Tempel der Jadeschlange"
-Inst117QAA = "2 Quests"
-Inst117QAH = "2 Quests"
+Inst117QAA = "3 Quests"
+Inst117QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst117Quest1 = "1. Wiederherstellung der Reinheit"
@@ -12592,6 +12592,18 @@ Inst117Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
+--Quest 3 Alliance
+Inst117Quest3 = "3. Das verlorene Geheimnis der Geheimzutat"
+Inst117Quest3_Level = "90"
+Inst117Quest3_Attain = "90"
+Inst117Quest3_Aim = "Besiegt das Sha des Zweifels."
+Inst117Quest3_Location = "Lin Chao-Wei (Zeitlose Insel - Alt Pi'Jiu "..YELLOW.."40.0, 73.0"..WHITE..")"
+Inst117Quest3_Note = "Das Sha des Zweifels ist bei "..YELLOW.."[4]"..WHITE..".Direkt neben dem Sha des Zorns liegt die Schriftrolle die Du anklicken mußt.\n\nDie Vorquest startet auf der Zeitlosen Insel bei "..YELLOW.."52.0, 46.0"..WHITE.."."
+Inst117Quest3_Prequest = "Lang vergessene Nudelgeheimnisse"
+Inst117Quest3_Folgequest = "Schlechtes Gefühl, schlechteres Ergebnis -> Die geheime Zutat ist.."
+Inst117Quest3PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst117Quest1_HORDE = Inst117Quest1
@@ -12616,6 +12628,18 @@ Inst117Quest2_HORDE_Prequest = "Nein"
 Inst117Quest2_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
+
+--Quest 3 Horde
+Inst117Quest3_HORDE = Inst117Quest3
+Inst117Quest3_HORDE_Level = "90"
+Inst117Quest3_HORDE_Attain = "90"
+Inst117Quest3_HORDE_Aim = Inst117Quest3_Aim
+Inst117Quest3_HORDE_Location = Inst117Quest3_Location
+Inst117Quest3_HORDE_Note = Inst117Quest3_Note
+Inst117Quest3_HORDE_Prequest = Inst117Quest3_Prequest
+Inst117Quest3_HORDE_Folgequest = Inst117Quest3_Folgequest
+Inst117Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
@@ -12871,7 +12895,7 @@ Inst138Quest2_Level = "90"
 Inst138Quest2_Attain = "90"
 Inst138Quest2_Aim = "Sammelt 20 Geheimnisse des Kaiserreichs und 40 Trilliumbarren."
 Inst138Quest2_Location = Inst120Quest1_Location
-Inst138Quest2_Note = "Die uralten Steintafeln droppen auf jeder Schwierigkeitsstufe und von jedem Raidboss im Thron des Donners. Die Trilliumbarren müßt ihr euch als Bergbauer farmen oder im Auktionshaus kaufen."
+Inst138Quest2_Note = "Die uralten Steintafeln droppen auf jeder Schwierigkeitsstufe und von jedem Raidboss im Thron des Donners oder von den ersten acht Raidbossen von Schlacht um Orgrimmar. Die Trilliumbarren müßt ihr euch als Bergbauer farmen oder im Auktionshaus kaufen."
 Inst138Quest2_Prequest = "Der Donnerkönig -> Trefft mich oben"
 Inst138Quest2_Folgequest = "Nein"
 Inst138Quest2PreQuest = "true"
@@ -12883,7 +12907,7 @@ Inst138Quest3_Level = "90"
 Inst138Quest3_Attain = "90"
 Inst138Quest3_Aim = "Sammelt 12 Runensteine der Titanen von Schlachtzugsbossen in den Hallen der Fleischformer und den Hallen des Donners."
 Inst138Quest3_Location = Inst120Quest1_Location
-Inst138Quest3_Note = "Die Runensteine der Titanen droppen auf jeder Schwierigkeitsstufe von den Raidbossen der letzten zwei Sektionen vom Thron des Donners."
+Inst138Quest3_Note = "Die Runensteine der Titanen droppen auf jeder Schwierigkeitsstufe von den letzten sechs  Raidbossen im Thron des Donners oder von den ersten acht Raidbossen von Schlacht um Orgrimmar."
 Inst138Quest3_Prequest = "Die Donnerschmiede -> Die Krone des Himmels"
 Inst138Quest3_Folgequest = "Herz des Donnerkönigs"
 Inst138Quest3FQuest = "true"
@@ -13122,9 +13146,34 @@ Inst138Quest11name1_HORDE = Inst138Quest11name1
 
 --------------- INST145 - Siege of Orgrimmar --------------- 
 
-Inst145Caption = "Siege of Orgrimmar"
-Inst145QAA = "No Quests"
-Inst145QAH = "No Quests"
+Inst145Caption = "Schlacht um Orgrimmar"
+Inst145QAA = "1 Quests"
+Inst145QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst145Quest1 = "1. Urteil des Schwarzen Prinzen"
+Inst145Quest1_Level = "90"
+Inst145Quest1_Attain = "90"
+Inst145Quest1_Aim = "Schließt die Schlacht um Orgrimmar ab und besiegt Garrosh Höllschrei."
+Inst145Quest1_Location = "Furorion (Tal der Ewigen Blüte - Mogu'shan Palast; "..YELLOW.."83.2, 29.6"..WHITE..")"
+Inst145Quest1_Note = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden.  Dies ist die letzte Quest der Legendäre Questreihe."
+Inst145Quest1_Prequest = "Angriffsvorbereitung -> Eine Legende Pandarias"
+Inst145Quest1_Folgequest = "Nein"
+Inst145Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst145Quest1_HORDE = Inst145Quest1
+Inst145Quest1_HORDE_Level = "90"
+Inst145Quest1_HORDE_Attain = "90"
+Inst145Quest1_HORDE_Aim = Inst145Quest1_Aim
+Inst145Quest1_HORDE_Location = Inst145Quest1_Location
+Inst145Quest1_HORDE_Note = Inst145Quest1_Note
+Inst145Quest1_HORDE_Prequest = Inst145Quest1_Prequest
+Inst145Quest1_HORDE_Folgequest = "Nein"
+Inst145Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
