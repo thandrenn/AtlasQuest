@@ -12565,8 +12565,8 @@ Inst116Quest3_HORDE_Folgequest = "Nein"
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Caption = "Tempel der Jadeschlange"
-Inst117QAA = "3 Quests"
-Inst117QAH = "3 Quests"
+Inst117QAA = "4 Quests"
+Inst117QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst117Quest1 = "1. Wiederherstellung der Reinheit"
@@ -12600,8 +12600,20 @@ Inst117Quest3_Aim = "Besiegt das Sha des Zweifels."
 Inst117Quest3_Location = "Lin Chao-Wei (Zeitlose Insel - Alt Pi'Jiu "..YELLOW.."41.0, 73.8"..WHITE..")"
 Inst117Quest3_Note = "Das Sha des Zweifels ist bei "..YELLOW.."[4]"..WHITE..".Direkt neben dem Sha des Zorns liegt die Schriftrolle die Du anklicken mußt.\n\nDie Vorquest startet auf der Zeitlosen Insel bei "..YELLOW.."52.0, 46.0"..WHITE.."."
 Inst117Quest3_Prequest = "Lang vergessene Nudelgeheimnisse"
-Inst117Quest3_Folgequest = "Schlechtes Gefühl, schlechteres Ergebnis -> Die Geheimzutat ist.."
+Inst117Quest3_Folgequest = "Schlechtes Gefühl, schlechteres Ergebnis"
 Inst117Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst117Quest4 = "4. Schlechtes Gefühl, schlechteres Ergebnis"
+Inst117Quest4_Level = "90"
+Inst117Quest4_Attain = "90"
+Inst117Quest4_Aim = "Besiegt den Geist von Lin Da-Gu."
+Inst117Quest4_Location = "Lin's Familienschriftrolle (Tempel der Jadeschlange; "..YELLOW.."[4]"..WHITE..")"
+Inst117Quest4_Note = "Lin's Familienschriftrolle erscheint nachdem der Sha des Zweifels besiegt wurde.  Lest die Schriftrolle und besiegt den Geist von Lin Da-Gu."
+Inst117Quest4_Prequest = "Das verlorene Geheimnis der Geheimzutat"
+Inst117Quest4_Folgequest = "Auf ewig verlorene Geheimnisse?"
+Inst117Quest4FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -12639,6 +12651,18 @@ Inst117Quest3_HORDE_Note = Inst117Quest3_Note
 Inst117Quest3_HORDE_Prequest = Inst117Quest3_Prequest
 Inst117Quest3_HORDE_Folgequest = Inst117Quest3_Folgequest
 Inst117Quest3PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst117Quest4_HORDE = Inst117Quest4
+Inst117Quest4_HORDE_Level = "90"
+Inst117Quest4_HORDE_Attain = "90"
+Inst117Quest4_HORDE_Aim = Inst117Quest4_Aim
+Inst117Quest4_HORDE_Location = Inst117Quest4_Location
+Inst117Quest4_HORDE_Note = Inst117Quest4_Note
+Inst117Quest4_HORDE_Prequest = Inst117Quest4_Prequest
+Inst117Quest4_HORDE_Folgequest = Inst117Quest4_Folgequest
+Inst117Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -13161,6 +13185,7 @@ Inst145Quest1_Prequest = "Angriffsvorbereitung -> Eine Legende Pandarias"
 Inst145Quest1_Folgequest = "Nein"
 Inst145Quest1PreQuest = "true"
 -- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst145Quest1_HORDE = Inst145Quest1
