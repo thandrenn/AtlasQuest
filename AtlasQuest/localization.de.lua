@@ -3602,7 +3602,7 @@ Inst22Quest2 = "2. Flüssiges Gold"
 Inst22Quest2_Level = "50"
 Inst22Quest2_Attain = "46"
 Inst22Quest2_Aim = "Findet eine Phiole mit Weihwasser von Stratholme."
-Inst22Quest2_Location = "Rottenkommandant Steinberster (Stratholme - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..")."
+Inst22Quest2_Location = "Rottenkommandant Steinberster (Stratholme - Der Spießrutenlauf; "..BLUE.."Eingang"..WHITE..")."
 Inst22Quest2_Note = "Phiole mit Weihwasser findet man überall im Kreuzzüglerpass rundherum der Straßen."
 Inst22Quest2_Prequest = "Nein"
 Inst22Quest2_Folgequest = "Nein"
@@ -4819,7 +4819,7 @@ Inst39Quest1_HORDE = Inst39Quest1
 Inst39Quest1_HORDE_Level = "70"
 Inst39Quest1_HORDE_Attain = "66"
 Inst39Quest1_HORDE_Aim = "Schattenjäger Ty'jin hat Euch gebeten, mit Steingardist Stok'ton in den Zerschmetterten Hallen der Höllenfeuerzitadelle zu sprechen."
-Inst39Quest1_HORDE_Location = "Schattenjäger Ty'jin (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55,36.2"..WHITE..")"
+Inst39Quest1_HORDE_Location = "Schattenjäger Ty'jin (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55.0, 36.2"..WHITE..")"
 Inst39Quest1_HORDE_Note = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")"
 Inst39Quest1_HORDE_Prequest = "Nein"
 Inst39Quest1_HORDE_Folgequest = "Nein"
@@ -12481,8 +12481,8 @@ Inst115Quest3_HORDE_Folgequest = "Nein"
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Brauerei Sturmbräu"
-Inst116QAA = "3 Quests"
-Inst116QAH = "3 Quests"
+Inst116QAA = "4 Quests"
+Inst116QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst116Quest1 = "1. In die Brauerrei"
@@ -12522,6 +12522,18 @@ Inst116Quest3_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
+--Quest 4 Alliance
+Inst116Quest4 = "4. Das ist eine echte Maßeinheit?"
+Inst116Quest4_Level = "90"
+Inst116Quest4_Attain = "90"
+Inst116Quest4_Aim = "Baut einen Nudelwagen und sammelt 20 Schluck Gebräu von erschlagenen Bierlementaren in der Brauerei Sturmbräu."
+Inst116Quest4_Location = "Sungshin Eisentatz (Tal der Vier Winde - Halbhügel "..YELLOW.."53.6, 51.2"..WHITE..")"
+Inst116Quest4_Note = "Die Bierelementare befinden sich innerhalb der Instanz in den Orten Kornkeller und der Vorkostungsraum."
+Inst116Quest4_Prequest = "Fangen und tragen"
+Inst116Quest4_Folgequest = "Das sind nicht Eure fettigen Ziegensteaks"
+Inst116Quest4FQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst116Quest1_HORDE = Inst116Quest1
@@ -12559,6 +12571,18 @@ Inst116Quest3_HORDE_Prequest = "Nein"
 Inst116Quest3_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
+
+--Quest 4 Horde
+Inst116Quest4_HORDE = Inst116Quest4
+Inst116Quest4_HORDE_Level = "90"
+Inst116Quest4_HORDE_Attain = "90"
+Inst116Quest4_HORDE_Aim = Inst116Quest4_Aim
+Inst116Quest4_HORDE_Location = Inst116Quest4_Location
+Inst116Quest4_HORDE_Note = Inst116Quest4_Note
+Inst116Quest4_HORDE_Prequest = Inst116Quest4_Prequest
+Inst116Quest4_HORDE_Folgequest = Inst116Quest4_Folgequest
+Inst116Quest4FQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
