@@ -23,7 +23,7 @@
 
 
 -- German localisation by Asurn
--- updated by Guldukat Realm Antonidas(German)
+-- updated by Guldukat Realm [EU] Antonidas
 
 
 if ( GetLocale() == "deDE" ) then
@@ -12496,7 +12496,6 @@ Inst116Quest1_Folgequest = "Ärger aus dem Fass"
 Inst116Quest1FQuest = "true"
 -- No Rewards for this quest
 
-
 --Quest 2 Alliance
 Inst116Quest2 = "2. Ärger aus dem Fass"
 Inst116Quest2_Level = "87"
@@ -13195,8 +13194,8 @@ Inst138Quest11name1_HORDE = Inst138Quest11name1
 --------------- INST145 - Siege of Orgrimmar --------------- 
 
 Inst145Caption = "Schlacht um Orgrimmar"
-Inst145QAA = "1 Quests"
-Inst145QAH = "1 Quests"
+Inst145QAA = "3 Quests"
+Inst145QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst145Quest1 = "1. Urteil des Schwarzen Prinzen"
@@ -13210,6 +13209,30 @@ Inst145Quest1_Folgequest = "Nein"
 Inst145Quest1PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst145Quest2 = "2. Y'Shaarjs letzter Atemzug"
+Inst145Quest2_Level = "90"
+Inst145Quest2_Attain = "90"
+Inst145Quest2_Aim = "Sprecht mit Lehrensucher Cho in der Schlacht um Orgrimmar."
+Inst145Quest2_Location = "Lehrensucher Cho (Schlacht um Orgrimmar; "..YELLOW.."[14}"..WHITE..")"
+Inst145Quest2_Note = "Lehrensucher Cho erscheint nachdem der Boss Garrosh besiegt wurde und startet dann die Quest "
+Inst145Quest2_Prequest = "Nein"
+Inst145Quest2_Folgequest = "Warum kämpfen wir?"
+Inst145Quest2FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst145Quest3 = "3. Warum kämpfen wir?"
+Inst145Quest3_Level = "90"
+Inst145Quest3_Attain = "90"
+Inst145Quest3_Aim = "Lehrensucher Cho möchte sich mit Euch im Tal der Ewigen Blüten unterhalten."
+Inst145Quest3_Location = "Lehrensucher Cho (Tal der Ewigen Blüte - Mogu'shan Palast; "..YELLOW.."67.4, 45.6"..WHITE..")"
+Inst145Quest3_Note = "Trefft Lehrensucher Cho im Tal der Ewigen Blüte und hört bzw seht euch seine Geschichte an."
+Inst145Quest3_Prequest = "Y'Shaarjs letzter Atemzug"
+Inst145Quest3_Folgequest = "Nein"
+Inst145Quest3PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst145Quest1_HORDE = Inst145Quest1
@@ -13221,6 +13244,30 @@ Inst145Quest1_HORDE_Note = Inst145Quest1_Note
 Inst145Quest1_HORDE_Prequest = Inst145Quest1_Prequest
 Inst145Quest1_HORDE_Folgequest = "Nein"
 Inst145Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst145Quest2_HORDE = Inst145Quest2
+Inst145Quest2_HORDE_Level = "90"
+Inst145Quest2_HORDE_Attain = "90"
+Inst145Quest2_HORDE_Aim = Inst145Quest2_Aim
+Inst145Quest2_HORDE_Location = Inst145Quest2_Location
+Inst145Quest2_HORDE_Note = Inst145Quest2_Note
+Inst145Quest2_HORDE_Prequest = "Nein"
+Inst145Quest2_HORDE_Folgequest = Inst145Quest2_Folgequest
+Inst145Quest2FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst145Quest3_HORDE = Inst145Quest3
+Inst145Quest3_HORDE_Level = "90"
+Inst145Quest3_HORDE_Attain = "90"
+Inst145Quest3_HORDE_Aim = Inst145Quest3_Aim
+Inst145Quest3_HORDE_Location = Inst145Quest3_Location
+Inst145Quest3_HORDE_Note = Inst145Quest3_Note
+Inst145Quest3_HORDE_Prequest = Inst145Quest3_Prequest
+Inst145Quest3_HORDE_Folgequest = "Nein"
+Inst145Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
