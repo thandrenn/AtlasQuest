@@ -1,4 +1,4 @@
---[[
+?F--[[
 
 	AtlasQuest, a World of Warcraft addon.
 	Email me at mystery8@gmail.com
@@ -2410,11 +2410,17 @@ AQ_32712_Level = "90"
 --------------- INST145 - Siege of Orgrimmar ---------------
 
 Inst138Quest1_QuestID = "33105"
+Inst138Quest2_QuestID = "33147"
+Inst138Quest3_QuestID = "33138"
 
 Inst138Quest1_HORDE_QuestID = "33105"
+Inst138Quest2_HORDE_QuestID = "33147"
+Inst138Quest3_HORDE_QuestID = "33138"
 
 
 AQ_33105_Level = "90"
+AQ_33147_Level = "90"
+AQ_33138_Level = "90"
 
 
 
