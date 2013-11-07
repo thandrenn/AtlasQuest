@@ -6834,6 +6834,13 @@ Inst116Quest2Rewardtext = AQClassRewards
 --Quest 3 Alliance
 Inst116Quest3Rewardtext = AQClassRewards
 
+--Quest 4 Alliance
+Inst116Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst116Quest4ITC1 = Itemc6;
+Inst116Quest4description1 = AQITEM_SPELL
+Inst116Quest4ID1 = "145061"
+
 
 --Quest 1 Horde
 Inst116Quest1Rewardtext_HORDE = AQNoReward
@@ -6843,6 +6850,13 @@ Inst116Quest2Rewardtext_HORDE = AQClassRewards
 
 --Quest 3 Horde
 Inst116Quest3Rewardtext_HORDE = AQClassRewards
+
+--Quest 4 Horde
+Inst116Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst116Quest4ITC1_HORDE = Itemc6;
+Inst116Quest4description1_HORDE = AQITEM_SPELL
+Inst116Quest4ID1_HORDE = "145061"
 
 
 

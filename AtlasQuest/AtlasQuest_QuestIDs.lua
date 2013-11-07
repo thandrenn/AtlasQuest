@@ -1,4 +1,4 @@
-?F--[[
+--[[
 
 	AtlasQuest, a World of Warcraft addon.
 	Email me at mystery8@gmail.com
@@ -529,17 +529,21 @@ Inst58Quest1_QuestID = "31513"
 Inst58Quest2_QuestID = "31515"
 Inst58Quest3_QuestID = "31514"
 Inst58Quest4_QuestID = "31516"
+Inst58Quest4_QuestID = "32006"
 
 Inst58Quest1_HORDE_QuestID = "31513"
 Inst58Quest2_HORDE_QuestID = "31515"
 Inst58Quest3_HORDE_QuestID = "31514"
 Inst58Quest4_HORDE_QuestID = "31516"
+Inst58Quest4_HORDE_QuestID = "31527"
 
 
 AQ_31513_Level = "34"
 AQ_31515_Level = "90"
 AQ_31514_Level = "34"
 AQ_31516_Level = "90"
+AQ_32006_Level = "90"
+AQ_31527_Level = "90"
 
 
 
@@ -2253,15 +2257,19 @@ AQ_31360_Level = "89"
 Inst115Quest1_QuestID = "31031"
 Inst115Quest2_QuestID = "30757"
 Inst115Quest3_QuestID = "31342"
+Inst115Quest3_QuestID = "32001"
 
 Inst115Quest1_HORDE_QuestID = "31031"
 Inst115Quest2_HORDE_QuestID = "30757"
 Inst115Quest3_HORDE_QuestID = "31342"
+Inst115Quest3_HORDE_QuestID = "31522"
 
 
 AQ_31031_Level = "88"
 AQ_30757_Level = "89"
 AQ_31342_Level = "89"
+AQ_32001_Level = "90"
+AQ_31522_Level = "90"
 
 
 
@@ -2270,15 +2278,22 @@ AQ_31342_Level = "89"
 Inst116Quest1_QuestID = "30085"
 Inst116Quest2_QuestID = "31327"
 Inst116Quest3_QuestID = "31324"
+Inst116Quest4_QuestID = "33024"
+Inst116Quest5_QuestID = "32000"
 
 Inst116Quest1_HORDE_QuestID = "30085"
 Inst116Quest2_HORDE_QuestID = "31327"
 Inst116Quest3_HORDE_QuestID = "31324"
+Inst116Quest4_HORDE_QuestID = "33024"
+Inst116Quest5_HORDE_QuestID = "31519"
 
 
 AQ_30085_Level = "87"
 AQ_31327_Level = "87"
 AQ_31324_Level = "87"
+AQ_33024_Level = "90"
+AQ_32000_Level = "90"
+AQ_31519_Level = "90"
 
 
 
@@ -2288,17 +2303,21 @@ Inst117Quest1_QuestID = "31355"
 Inst117Quest2_QuestID = "31356"
 Inst117Quest3_QuestID = "33020"
 Inst117Quest4_QuestID = "33107"
+Inst117Quest4_QuestID = "31998"
 
 Inst117Quest1_HORDE_QuestID = "31355"
 Inst117Quest2_HORDE_QuestID = "31356"
 Inst117Quest3_HORDE_QuestID = "33020"
 Inst117Quest4_HORDE_QuestID = "33107"
+Inst117Quest4_HORDE_QuestID = "31520"
 
 
 AQ_31355_Level = "87"
 AQ_31356_Level = "87"
 AQ_33020_Level = "90"
 AQ_33107_Level = "90"
+AQ_31998_Level = "90"
+AQ_31520_Level = "90"
 
 
 
@@ -2306,13 +2325,17 @@ AQ_33107_Level = "90"
 
 Inst118Quest1_QuestID = "31363"
 Inst118Quest2_QuestID = "31364"
+Inst118Quest2_QuestID = "32003"
 
 Inst118Quest1_HORDE_QuestID = "31363"
 Inst118Quest2_HORDE_QuestID = "31364"
+Inst118Quest2_HORDE_QuestID = "31524"
 
 
 AQ_31363_Level = "90"
 AQ_31364_Level = "90"
+AQ_32003_Level = "90"
+AQ_31524_Level = "90"
 
 
 
@@ -2320,13 +2343,17 @@ AQ_31364_Level = "90"
 
 Inst119Quest1_QuestID = "31365"
 Inst119Quest2_QuestID = "31366"
+Inst119Quest2_QuestID = "32004"
 
 Inst119Quest1_HORDE_QuestID = "31365"
 Inst119Quest2_HORDE_QuestID = "31366"
+Inst119Quest2_HORDE_QuestID = "31525"
 
 
 AQ_31365_Level = "90"
 AQ_31366_Level = "90"
+AQ_32004_Level = "90"
+AQ_31525_Level = "90"
 
 
 
