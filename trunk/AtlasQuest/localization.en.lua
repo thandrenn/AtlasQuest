@@ -156,6 +156,7 @@ AQITEM_BAG = "Bag"
 AQITEM_RING = "Ring"
 AQITEM_GEM = "Gem"
 AQITEM_ENCHANT = "Enchant"
+AQITEM_SPELL = "Spell"
 
 
 

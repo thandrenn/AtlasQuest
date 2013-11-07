@@ -161,6 +161,7 @@ AQITEM_BAG = "Behälter"
 AQITEM_RING = "Ring"
 AQITEM_GEM = "Edelstein"
 AQITEM_ENCHANT = "Verzauberung"
+AQITEM_SPELL = "Zauber"
 
 
 
@@ -2787,8 +2788,8 @@ Inst18Quest6name3_HORDE = "Tigerband"
 --------------- INST58 - Scarlet Monastery ---------------
 
 Inst58Caption = "Scharlachrote Kloster"
-Inst58QAA = "4 Quests"
-Inst58QAH = "4 Quests"
+Inst58QAA = "5 Quests"
+Inst58QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst58Quest1 = "1. Die Klingen des Gesalbten"
@@ -2838,6 +2839,19 @@ Inst58Quest4PreQuest = "true"
 --
 -- Reward varies for each class
 
+--Quest 5 Alliance
+Inst58Quest5 = "5. Eine würdige Herausforderung: Durand"
+Inst58Quest5_Level = "90"
+Inst58Quest5_Attain = "90"
+Inst58Quest5_Aim = "Schließt das Scharlachrote Kloster im Herausforderungsmodus ab."
+Inst58Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
+Inst58Quest5_Note = "Herausforderungsmodus des Scharlachroten Klosters bestehen."
+Inst58Quest5_Prequest = "Nein"
+Inst58Quest5_Folgequest = "Nein"
+--
+Inst58Quest5name1= "Heroische Schatzkiste"
+Inst58Quest5name2= "80 Tapferkeitspunkte"
+
 
 --Quest 1 Horde
 Inst58Quest1_HORDE = Inst58Quest1
@@ -2884,15 +2898,30 @@ Inst58Quest4_HORDE_Location = Inst58Quest4_Location
 Inst58Quest4_HORDE_Note = Inst58Quest4_Note
 Inst58Quest4_HORDE_Prequest = Inst58Quest4_Prequest
 Inst58Quest4_HORDE_Folgequest = "Nein"
+Inst58Quest4PreQuest_HORDE = Inst58Quest4PreQuest
 --
 -- Reward varies for each class
+
+--Quest 5 Horde
+Inst58Quest5_HORDE = Inst58Quest5
+Inst58Quest5_HORDE_Level = "90"
+Inst58Quest5_HORDE_Attain = "90"
+Inst58Quest5_HORDE_Aim = Inst58Quest5_Aim
+Inst58Quest5_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst58Quest5_HORDE_Note = Inst58Quest5_Note
+Inst58Quest5_HORDE_Prequest = "Nein"
+Inst58Quest5_HORDE_Folgequest = "Nein"
+--
+Inst58Quest5name1_HORDE = Inst58Quest5name1
+Inst58Quest5name2_HORDE = Inst58Quest5name2
+
 
 
 --------------- INST59 - Scarlet Halls ---------------
 
 Inst59Caption = "Scharlachrote Hallen"
-Inst59QAA = "4 Quests"
-Inst59QAH = "4 Quests"
+Inst59QAA = "5 Quests"
+Inst59QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst59Quest1 = "1. Gegen das Fußvolk"
@@ -2939,6 +2968,19 @@ Inst59Quest4_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
+--Quest 5 Alliance
+Inst59Quest5 = "5. Eine würdige Herausforderung: Flammenwirker Koegler"
+Inst59Quest5_Level = "90"
+Inst59Quest5_Attain = "90"
+Inst59Quest5_Aim = "Schließt die Scharlachroten Hallen im Herausforderungsmodus ab."
+Inst59Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
+Inst59Quest5_Note = "Herausforderungsmodus des Scharlachroten Hallen bestehen."
+Inst59Quest5_Prequest = "Nein"
+Inst59Quest5_Folgequest = "Nein"
+--
+Inst59Quest5name1= "Heroische Schatzkiste"
+Inst59Quest5name2= "80 Tapferkeitspunkte"
+
 
 --Quest 1 Horde
 Inst59Quest1_HORDE = Inst59Quest1
@@ -2983,6 +3025,19 @@ Inst59Quest4_HORDE_Note = Inst59Quest4_Note
 Inst59Quest4_HORDE_Prequest = "Nein"
 Inst59Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 5 Horde
+Inst59Quest5_HORDE = Inst59Quest5
+Inst59Quest5_HORDE_Level = "90"
+Inst59Quest5_HORDE_Attain = "90"
+Inst59Quest5_HORDE_Aim = Inst59Quest5_Aim
+Inst59Quest5_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst59Quest5_HORDE_Note = Inst59Quest5_Note
+Inst59Quest5_HORDE_Prequest = "Nein"
+Inst59Quest5_HORDE_Folgequest = "Nein"
+--
+Inst59Quest5name1_HORDE = Inst59Quest5name1
+Inst59Quest5name2_HORDE = Inst59Quest5name2
 
 
 
@@ -12342,8 +12397,8 @@ Inst113Quest4name2_HORDE = Inst113Quest4name2
 --------------- INST114 - Mogu'Shan Palace ---------------
 
 Inst114Caption = "Mogu’Shan Palast"
-Inst114QAA = "2 Quests"
-Inst114QAH = "2 Quests"
+Inst114QAA = "3 Quests"
+Inst114QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst114Quest1 = "1. Relikte der Vier Könige"
@@ -12369,6 +12424,19 @@ Inst114Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
+--Quest 3 Alliance
+Inst114Quest3 = "3. Eine würdige Herausforderung: Xin der Waffenmeister"
+Inst114Quest3_Level = "90"
+Inst114Quest3_Attain = "90"
+Inst114Quest3_Aim = "Schließt den Mogu'shanpalast im Herausforderungsmodus ab."
+Inst114Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
+Inst114Quest3_Note = "Herausforderungsmodus des Mogu'shanpalasts bestehen."
+Inst114Quest3_Prequest = "Nein"
+Inst114Quest3_Folgequest = "Nein"
+--
+Inst114Quest3name1= "Heroische Schatzkiste"
+Inst114Quest3name2= "80 Tapferkeitspunkte"
+
 
 --Quest 1 Horde
 Inst114Quest1_HORDE = Inst114Quest1
@@ -12393,13 +12461,26 @@ Inst114Quest2_HORDE_Prequest = "Nein"
 Inst114Quest2_HORDE_Folgequest = "Nein"
 -- Reward varies for each class
 
+--Quest 3 Horde
+Inst114Quest3_HORDE = Inst114Quest3
+Inst114Quest3_HORDE_Level = "90"
+Inst114Quest3_HORDE_Attain = "90"
+Inst114Quest3_HORDE_Aim = Inst114Quest3_Aim
+Inst114Quest3_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst114Quest3_HORDE_Note = Inst114Quest3_Note
+Inst114Quest3_HORDE_Prequest = "Nein"
+Inst114Quest3_HORDE_Folgequest = "Nein"
+--
+Inst114Quest3name1_HORDE = Inst114Quest5name1
+Inst114Quest3name2_HORDE = Inst114Quest5name2
+
 
 
 --------------- INST115 - Shado-pan Monastery ---------------
 
 Inst115Caption = "Shado-Pan-Kloster"
-Inst115QAA = "3 Quests"
-Inst115QAH = "3 Quests"
+Inst115QAA = "4 Quests"
+Inst115QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst115Quest1 = "1. Ins Kloster"
@@ -12437,6 +12518,19 @@ Inst115Quest3_Prequest = "Nein"
 Inst115Quest3_Folgequest = "Nein"
 --
 -- Reward varies for each class
+
+--Quest 4 Alliance
+Inst115Quest4 = "4. Eine würdige Herausforderung: Sha des Hasses"
+Inst115Quest4_Level = "90"
+Inst115Quest4_Attain = "90"
+Inst115Quest4_Aim = "Schließt den Shado-Pan-Kloster im Herausforderungsmodus ab."
+Inst115Quest4_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
+Inst115Quest4_Note = "Herausforderungsmodus des Shado-Pan-Klosters bestehen."
+Inst115Quest4_Prequest = "Nein"
+Inst115Quest4_Folgequest = "Nein"
+--
+Inst115Quest4name1= "Heroische Schatzkiste"
+Inst115Quest4name2= "80 Tapferkeitspunkte"
 
 
 --Quest 1 Horde
@@ -12476,13 +12570,26 @@ Inst115Quest3_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
+--Quest 4 Horde
+Inst115Quest4_HORDE = Inst115Quest4
+Inst115Quest4_HORDE_Level = "90"
+Inst115Quest4_HORDE_Attain = "90"
+Inst115Quest4_HORDE_Aim = Inst115Quest4_Aim
+Inst115Quest4_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst115Quest4_HORDE_Note = Inst115Quest4_Note
+Inst115Quest4_HORDE_Prequest = "Nein"
+Inst115Quest4_HORDE_Folgequest = "Nein"
+--
+Inst115Quest4name1_HORDE = Inst115Quest4name1
+Inst115Quest4name2_HORDE = Inst115Quest4name2
+
 
 
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Brauerei Sturmbräu"
-Inst116QAA = "4 Quests"
-Inst116QAH = "4 Quests"
+Inst116QAA = "5 Quests"
+Inst116QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst116Quest1 = "1. In die Brauerrei"
@@ -12527,11 +12634,25 @@ Inst116Quest4_Level = "90"
 Inst116Quest4_Attain = "90"
 Inst116Quest4_Aim = "Baut einen Nudelwagen und sammelt 20 Schluck Gebräu von erschlagenen Bierlementaren in der Brauerei Sturmbräu."
 Inst116Quest4_Location = "Sungshin Eisentatz (Tal der Vier Winde - Halbhügel "..YELLOW.."53.6, 51.2"..WHITE..")"
-Inst116Quest4_Note = "Die Bierelementare befinden sich innerhalb der Instanz in den Orten Kornkeller und der Verkostungsraum."
+Inst116Quest4_Note = "Die Bierelementare befinden sich innerhalb der Instanz bei den Orten Kornkeller und Verkostungsraum."
 Inst116Quest4_Prequest = "Fangen und tragen"
 Inst116Quest4_Folgequest = "Das sind nicht Eure fettigen Ziegensteaks"
 Inst116Quest4FQuest = "true"
--- No Rewards for this quest
+--
+Inst116Quest4name1 = "Nudelwagenbausatz Deluxe"
+
+--Quest 5 Alliance
+Inst116Quest5 = "5. Eine würdige Herausforderung: Yan-Zhu der Dekantierte"
+Inst116Quest5_Level = "90"
+Inst116Quest5_Attain = "90"
+Inst116Quest5_Aim = "Schließt die Brauerei Sturmbräu im Herausforderungsmodus ab."
+Inst116Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
+Inst116Quest5_Note = "Herausforderungsmodus der Brauerei Sturmbräu bestehen."
+Inst116Quest5_Prequest = "Nein"
+Inst116Quest5_Folgequest = "Nein"
+--
+Inst116Quest5name1= "Heroische Schatzkiste"
+Inst116Quest5name2= "80 Tapferkeitspunkte"
 
 
 --Quest 1 Horde
@@ -12581,15 +12702,29 @@ Inst116Quest4_HORDE_Note = Inst116Quest4_Note
 Inst116Quest4_HORDE_Prequest = Inst116Quest4_Prequest
 Inst116Quest4_HORDE_Folgequest = Inst116Quest4_Folgequest
 Inst116Quest4FQuest_HORDE = "true"
--- No Rewards for this quest
+--
+Inst116Quest4name1_HORDE = Inst116Quest4name1
+
+--Quest 5 Horde
+Inst116Quest5_HORDE = Inst116Quest5
+Inst116Quest5_HORDE_Level = "90"
+Inst116Quest5_HORDE_Attain = "90"
+Inst116Quest5_HORDE_Aim = Inst116Quest5_Aim
+Inst116Quest5_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst116Quest5_HORDE_Note = Inst116Quest5_Note
+Inst116Quest5_HORDE_Prequest = "Nein"
+Inst116Quest5_HORDE_Folgequest = "Nein"
+--
+Inst116Quest5name1_HORDE = Inst116Quest5name1
+Inst116Quest5name2_HORDE = Inst116Quest5name2
 
 
 
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Caption = "Tempel der Jadeschlange"
-Inst117QAA = "4 Quests"
-Inst117QAH = "4 Quests"
+Inst117QAA = "5 Quests"
+Inst117QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst117Quest1 = "1. Wiederherstellung der Reinheit"
@@ -12638,6 +12773,19 @@ Inst117Quest4_Prequest = "Das verlorene Geheimnis der Geheimzutat"
 Inst117Quest4_Folgequest = "Auf ewig verlorene Geheimnisse?"
 Inst117Quest4FQuest = "true"
 -- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst117Quest5 = "5. Eine würdige Herausforderung: Sha des Zweifels"
+Inst117Quest5_Level = "90"
+Inst117Quest5_Attain = "90"
+Inst117Quest5_Aim = "Schließt den Tempel der Jadeschlange im Herausforderungsmodus ab."
+Inst117Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
+Inst117Quest5_Note = "Herausforderungsmodus des Tempels der Jadeschlange bestehen."
+Inst117Quest5_Prequest = "Nein"
+Inst117Quest5_Folgequest = "Nein"
+--
+Inst117Quest5name1= "Heroische Schatzkiste"
+Inst117Quest5name2= "80 Tapferkeitspunkte"
 
 
 --Quest 1 Horde
@@ -12688,13 +12836,26 @@ Inst117Quest4_HORDE_Folgequest = Inst117Quest4_Folgequest
 Inst117Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
+--Quest 5 Horde
+Inst117Quest5_HORDE = Inst117Quest5
+Inst117Quest5_HORDE_Level = "90"
+Inst117Quest5_HORDE_Attain = "90"
+Inst117Quest5_HORDE_Aim = Inst117Quest5_Aim
+Inst117Quest5_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst117Quest5_HORDE_Note = Inst117Quest5_Note
+Inst117Quest5_HORDE_Prequest = "Nein"
+Inst117Quest5_HORDE_Folgequest = "Nein"
+--
+Inst117Quest5name1_HORDE = Inst117Quest5name1
+Inst117Quest5name2_HORDE = Inst117Quest5name2
+
 
 
 --------------- INST118 - Gate of the Setting Sun ---------------
 
 Inst118Caption = "Tor der untergehenden Sonne"
-Inst118QAA = "2 Quests"
-Inst118QAH = "2 Quests"
+Inst118QAA = "3 Quests"
+Inst118QAH = "3 Quests"
 
 --Quest 1 Alliance 
 Inst118Quest1 = "1. Gebt das Signal"
@@ -12718,6 +12879,19 @@ Inst118Quest2_Prequest = "Nein"
 Inst118Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
+
+--Quest 3 Alliance
+Inst118Quest3 = "3. Eine würdige Herausforderung: Raigonn"
+Inst118Quest3_Level = "90"
+Inst118Quest3_Attain = "90"
+Inst118Quest3_Aim = "Schließt das Tor der Untergehenden Sonne im Herausforderungsmodus ab."
+Inst118Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
+Inst118Quest3_Note = "Herausforderungsmodus des Tors der Untergehenden Sonne bestehen."
+Inst118Quest3_Prequest = "Nein"
+Inst118Quest3_Folgequest = "Nein"
+--
+--Inst118Quest3name1= "Heroische Schatzkiste"
+--Inst118Quest3name2= "80 Tapferkeitspunkte"
 
 
 --Quest 1 Horde
@@ -12743,13 +12917,26 @@ Inst118Quest2_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
+--Quest 3 Horde
+Inst118Quest3_HORDE = Inst118Quest3
+Inst118Quest3_HORDE_Level = "90"
+Inst118Quest3_HORDE_Attain = "90"
+Inst118Quest3_HORDE_Aim = Inst118Quest3_Aim
+Inst118Quest3_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst118Quest3_HORDE_Note = Inst118Quest3_Note
+Inst118Quest3_HORDE_Prequest = "Nein"
+Inst118Quest3_HORDE_Folgequest = "Nein"
+--
+Inst116Quest5name1_HORDE = Inst116Quest5name1
+Inst116Quest5name2_HORDE = Inst116Quest5name2
+
 
 
 --------------- INST119 - Siege of Niuzao Temple ---------------
 
 Inst119Caption = "Belagerung des Niuzaotempels"
-Inst119QAA = "2 Quests"
-Inst119QAH = "2 Quests"
+Inst119QAA = "3 Quests"
+Inst119QAH = "3 Quests"
 
 --Quest 1 Alliance 
 Inst119Quest1 = "1. Irgendwo da drinnen"
@@ -12774,6 +12961,19 @@ Inst119Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
+--Quest 3 Alliance
+Inst119Quest3 = "3. Eine würdige Herausforderung: Schwadronsführer Ner'onok"
+Inst119Quest3_Level = "90"
+Inst119Quest3_Attain = "90"
+Inst119Quest3_Aim = "Schließt den Niuzaotempel im Herausforderungsmodus ab."
+Inst119Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
+Inst119Quest3_Note = "Herausforderungsmodus der Belagerung des Niuzaotempels bestehen."
+Inst119Quest3_Prequest = "Nein"
+Inst119Quest3_Folgequest = "Nein"
+--
+--Inst119Quest3name1= "Heroische Schatzkiste"
+--Inst119Quest3name2= "80 Tapferkeitspunkte"
+
 
 --Quest 1 Horde
 Inst119Quest1_HORDE = Inst119Quest1
@@ -12797,6 +12997,19 @@ Inst119Quest2_HORDE_Prequest = "Nein"
 Inst119Quest2_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
+
+--Quest 3 Horde
+Inst119Quest3_HORDE = Inst119Quest3
+Inst119Quest3_HORDE_Level = "90"
+Inst119Quest3_HORDE_Attain = "90"
+Inst119Quest3_HORDE_Aim = Inst119Quest3_Aim
+Inst119Quest3_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst119Quest3_HORDE_Note = Inst119Quest3_Note
+Inst119Quest3_HORDE_Prequest = "Nein"
+Inst119Quest3_HORDE_Folgequest = "Nein"
+--
+Inst119Quest5name1_HORDE = Inst119Quest5name1
+Inst119Quest5name2_HORDE = Inst119Quest5name2
 
 
 
@@ -12830,6 +13043,9 @@ Inst120Quest1_HORDE_Prequest = Inst120Quest1_Prequest
 Inst120Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
 Inst120Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
+
+
+
 --------------- INST121 - Terrace of Endless Spring ---------------
 
 Inst121Caption = "Terrasse des Endlosen Frühlings"
