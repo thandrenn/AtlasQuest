@@ -1601,6 +1601,13 @@ Inst58Quest3Rewardtext = AQNoReward
 --Quest 4 Alliance
 Inst58Quest4Rewardtext = AQClassRewards
 
+--Quest 5 Alliance
+Inst58Quest5Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst58Quest5ITC1 = Itemc5;
+Inst58Quest5description1 = AQITEM_ITEM
+Inst58Quest5ID1 = "98134"
+
 
 --Quest 1 Horde
 Inst58Quest1Rewardtext_HORDE = AQNoReward
@@ -1613,6 +1620,13 @@ Inst58Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
 Inst58Quest4Rewardtext_HORDE = AQClassRewards
+
+--Quest 5 Horde
+Inst58Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst58Quest5ITC1_HORDE = Itemc5;
+Inst58Quest5description1_HORDE = AQITEM_ITEM
+Inst58Quest5ID1_HORDE = "98134"
 
 
 
@@ -1630,6 +1644,13 @@ Inst59Quest3Rewardtext = AQNoReward
 --Quest 4 Alliance
 Inst59Quest4Rewardtext = AQClassRewards
 
+--Quest 5 Alliance
+Inst59Quest5Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst59Quest5ITC1 = Itemc5;
+Inst59Quest5description1 = AQITEM_ITEM
+Inst59Quest5ID1 = "98134"
+
 
 --Quest 1 Horde
 Inst59Quest1Rewardtext_HORDE = AQNoReward
@@ -1642,6 +1663,13 @@ Inst59Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
 Inst59Quest4Rewardtext_HORDE = AQClassRewards
+
+--Quest 5 Horde
+Inst59Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst59Quest5ITC1_HORDE = Itemc5;
+Inst59Quest5description1_HORDE = AQITEM_ITEM
+Inst59Quest5ID1_HORDE = "98134"
 
 
 
@@ -1662,6 +1690,13 @@ Inst20Quest4Rewardtext = AQClassRewards
 --Quest 5 Alliance
 Inst20Quest5Rewardtext = AQNoReward
 
+--Quest 6 Alliance
+Inst20Quest6Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst20Quest6ITC1 = Itemc5;
+Inst20Quest6description1 = AQITEM_ITEM
+Inst20Quest6ID1 = "98134"
+
 
 --Quest 1 Horde
 Inst20Quest1Rewardtext_HORDE = AQNoReward
@@ -1677,6 +1712,13 @@ Inst20Quest4Rewardtext_HORDE = AQClassRewards
 
 --Quest 5 Horde
 Inst20Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst20Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst20Quest6ITC1_HORDE = Itemc5;
+Inst20Quest6description1_HORDE = AQITEM_ITEM
+Inst20Quest6ID1_HORDE = "98134"
 
 
 
@@ -6791,6 +6833,13 @@ Inst114Quest1Rewardtext = AQClassRewards
 --Quest 2 Alliance
 Inst114Quest2Rewardtext = AQClassRewards
 
+--Quest 3 Alliance
+Inst114Quest3Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst114Quest3ITC1 = Itemc5;
+Inst114Quest3description1 = AQITEM_ITEM
+Inst114Quest3ID1 = "98134"
+
 
 --Quest 1 Horde
 Inst114Quest1Rewardtext_HORDE = AQClassRewards
@@ -6798,9 +6847,16 @@ Inst114Quest1Rewardtext_HORDE = AQClassRewards
 --Quest 2 Horde
 Inst114Quest2Rewardtext_HORDE = AQClassRewards
 
+--Quest 3 Horde
+Inst114Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst114Quest3ITC1_HORDE = Itemc5;
+Inst114Quest3description1_HORDE = AQITEM_ITEM
+Inst114Quest3ID1_HORDE = "98134"
 
 
---------------- INST115 - Shado-pan Monastery ---------------
+
+--------------- INST115 - Shado-Pan Monastery ---------------
 
 --Quest 1 Alliance
 Inst115Quest1Rewardtext = AQNoReward
@@ -6811,6 +6867,13 @@ Inst115Quest2Rewardtext = AQClassRewards
 --Quest 3 Alliance
 Inst115Quest3Rewardtext = AQClassRewards
 
+--Quest 4 Alliance
+Inst115Quest4Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst115Quest4ITC1 = Itemc5;
+Inst115Quest4description1 = AQITEM_ITEM
+Inst115Quest4ID1 = "98134"
+
 
 --Quest 1 Horde
 Inst115Quest1Rewardtext_HORDE = AQNoReward
@@ -6820,6 +6883,13 @@ Inst115Quest2Rewardtext_HORDE = AQClassRewards
 
 --Quest 3 Horde
 Inst115Quest3Rewardtext_HORDE = AQClassRewards
+
+--Quest 4 Horde
+Inst115Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst115Quest4ITC1_HORDE = Itemc5;
+Inst115Quest4description1_HORDE = AQITEM_ITEM
+Inst115Quest4ID1_HORDE = "98134"
 
 
 
@@ -6839,7 +6909,14 @@ Inst116Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst116Quest4ITC1 = Itemc6;
 Inst116Quest4description1 = AQITEM_SPELL
-Inst116Quest4ID1 = "145061"
+Inst116Quest4ID1 = "101661"
+
+--Quest 5 Alliance
+Inst116Quest5Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst116Quest5ITC1 = Itemc5;
+Inst116Quest5description1 = AQITEM_ITEM
+Inst116Quest5ID1 = "98134"
 
 
 --Quest 1 Horde
@@ -6856,7 +6933,14 @@ Inst116Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst116Quest4ITC1_HORDE = Itemc6;
 Inst116Quest4description1_HORDE = AQITEM_SPELL
-Inst116Quest4ID1_HORDE = "145061"
+Inst116Quest4ID1_HORDE = "101661"
+
+--Quest 5 Horde
+Inst116Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst116Quest5ITC1_HORDE = Itemc5;
+Inst116Quest5description1_HORDE = AQITEM_ITEM
+Inst116Quest5ID1_HORDE = "98134"
 
 
 
@@ -6874,6 +6958,13 @@ Inst117Quest3Rewardtext = AQNoReward
 --Quest 4 Alliance
 Inst117Quest4Rewardtext = AQNoReward
 
+--Quest 5 Alliance
+Inst117Quest5Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst117Quest5ITC1 = Itemc5;
+Inst117Quest5description1 = AQITEM_ITEM
+Inst117Quest5ID1 = "98134"
+
 
 --Quest 1 Horde
 Inst117Quest1Rewardtext_HORDE = AQClassRewards
@@ -6887,6 +6978,13 @@ Inst117Quest3Rewardtext_HORDE = AQNoReward
 --Quest 4 Horde
 Inst117Quest4Rewardtext_HORDE = AQNoReward
 
+--Quest 5 Horde
+Inst117Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst117Quest5ITC1_HORDE = Itemc5;
+Inst117Quest5description1_HORDE = AQITEM_ITEM
+Inst117Quest5ID1_HORDE = "98134"
+
 
 
 --------------- INST118 - Gate of the Setting Sun ---------------
@@ -6897,12 +6995,26 @@ Inst118Quest1Rewardtext = AQNoReward
 --Quest 2 Alliance
 Inst118Quest2Rewardtext = AQClassRewards
 
+--Quest 3 Alliance
+Inst118Quest3Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst118Quest3ITC1 = Itemc5;
+Inst118Quest3description1 = AQITEM_ITEM
+Inst118Quest3ID1 = "98134"
+
 
 --Quest 1 Horde
 Inst118Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
 Inst118Quest2Rewardtext_HORDE = AQClassRewards
+
+--Quest 3 Horde
+Inst118Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst118Quest3ITC1_HORDE = Itemc5;
+Inst118Quest3description1_HORDE = AQITEM_ITEM
+Inst118Quest3ID1_HORDE = "98134"
 
 
 
@@ -6914,12 +7026,26 @@ Inst119Quest1Rewardtext = AQNoReward
 --Quest 2 Alliance
 Inst119Quest2Rewardtext = AQClassRewards
 
+--Quest 3 Alliance
+Inst119Quest3Rewardtext = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst119Quest3ITC1 = Itemc5;
+Inst119Quest3description1 = AQITEM_ITEM
+Inst119Quest3ID1 = "98134"
+
 
 --Quest 1 Horde
 Inst119Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
 Inst119Quest2Rewardtext_HORDE = AQClassRewards
+
+--Quest 3 Horde
+Inst119Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."80"..AQValorPoints..AQDiscription_AND
+--ITEM1
+Inst119Quest3ITC1_HORDE = Itemc5;
+Inst119Quest3description1_HORDE = AQITEM_ITEM
+Inst119Quest3ID1_HORDE = "98134"
 
 
 

@@ -2,12 +2,25 @@
 Changelog
 =========
 
-Version 4.8.7 BETA  (October ??, 2013)
+Version 4.8.7 BETA  (November ??, 2013)
 
-- Fixed: Starting location of Stratholme: Liquid Gold  (thanks yunohu!)
-- Fixed: Starting location of Shattered Halls: Advancing the Campaign (Horde)    (thanks yunohu!)
+- Fixed: Starting location of Stratholme: Liquid Gold  (thanks yunohu)
+- Fixed: Starting location of Shattered Halls: Advancing the Campaign (Horde)    (thanks yunohu)
+- Added missing optional prequest for Utgarde Keep: Stealing Their Thunder   (thanks yunohu)
 
+- Added quests:
+	- Scarlet Halls: A Worthy Challenge: Flameweaver Koegler
+	- Scarlet Monastery: A Worthy Challenge: Durand
+	- Scholomance: A Worthy Challenge: Darkmaster Gandling
+	- Mogu'shan Palace: A Worthy Challenge: Xin the Weaponmaster
+	- Shado-Pan Monastery: A Worthy Challenge: Sha of Hatred
+	- Stormstout Brewery: Is That A Real Measurement?
+	- Stormstout Brewery: A Worthy Challenge: Yan-zhu the Uncasked
+	- Temple of the Jade Serpent: A Worthy Challenge: Sha of Doubt
+	- Gate of the Setting Sun: A Worthy Challenge: Raigonn
+	- Siege of Niuzao Temple: A Worthy Challenge: Wing Leader Ner'onok
 
+	
 
 Version 4.8.6  (September 21, 2013)
 

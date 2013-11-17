@@ -2768,8 +2768,8 @@ Inst18Quest6name3_HORDE = Inst18Quest6name3
 --------------- INST58 - Scarlet Monastery ---------------
 
 Inst58Caption = "Scarlet Monastery"
-Inst58QAA = "4 Quests"
-Inst58QAH = "4 Quests"
+Inst58QAA = "5 Quests"
+Inst58QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst58Quest1 = "1. Blades of the Anointed"
@@ -2817,6 +2817,19 @@ Inst58Quest4_Folgequest = "None"
 Inst58Quest4PreQuest = "true"
 --
 -- Reward varies for each class
+
+--Quest 5 Alliance
+Inst58Quest5 = "5. A Worthy Challenge: Durand"
+Inst58Quest5_Level = "90"
+Inst58Quest5_Attain = "90"
+Inst58Quest5_Aim = "Complete the Scarlet Monastery Challenge Mode."
+Inst58Quest5_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst58Quest5_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst58Quest5_Prequest = "None"
+Inst58Quest5_Folgequest = "None"
+--
+Inst58Quest5name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2866,13 +2879,26 @@ Inst58Quest4PreQuest_HORDE = Inst58Quest4PreQuest
 --
 -- Reward varies for each class
 
+--Quest 5 Horde
+Inst58Quest5_HORDE = "5. A Worthy Challenge: Durand"
+Inst58Quest5_HORDE_Level = "90"
+Inst58Quest5_HORDE_Attain = "90"
+Inst58Quest5_HORDE_Aim = "Complete the Scarlet Monastery Challenge Mode."
+Inst58Quest5_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst58Quest5_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst58Quest5_HORDE_Prequest = "None"
+Inst58Quest5_HORDE_Folgequest = "None"
+--
+Inst58Quest5name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
+
 
 
 --------------- INST59 - Scarlet Halls ---------------
 
 Inst59Caption = "Scarlet Halls"
-Inst59QAA = "4 Quests"
-Inst59QAH = "4 Quests"
+Inst59QAA = "5 Quests"
+Inst59QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst59Quest1 = "1. Rank and File"
@@ -2918,6 +2944,19 @@ Inst59Quest4_Prequest = "None"
 Inst59Quest4_Folgequest = "None"
 --
 -- Reward varies for each class
+
+--Quest 5 Alliance
+Inst59Quest5 = "5. A Worthy Challenge: Flameweaver Koegler"
+Inst59Quest5_Level = "90"
+Inst59Quest5_Attain = "90"
+Inst59Quest5_Aim = "Complete the Scarlet Halls Challenge Mode."
+Inst59Quest5_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst59Quest5_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst59Quest5_Prequest = "None"
+Inst59Quest5_Folgequest = "None"
+--
+Inst59Quest5name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2965,13 +3004,26 @@ Inst59Quest4_HORDE_Folgequest = Inst59Quest4_Folgequest
 --
 -- Reward varies for each class
 
+--Quest 5 Horde
+Inst59Quest5_HORDE = "5. A Worthy Challenge: Flameweaver Koegler"
+Inst59Quest5_HORDE_Level = "90"
+Inst59Quest5_HORDE_Attain = "90"
+Inst59Quest5_HORDE_Aim = "Complete the Scarlet Halls Challenge Mode."
+Inst59Quest5_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst59Quest5_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst59Quest5_HORDE_Prequest = "None"
+Inst59Quest5_HORDE_Folgequest = "None"
+--
+Inst59Quest5name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
+
 
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Caption = "Scholomance"
-Inst20QAA = "5 Quests"
-Inst20QAH = "5 Quests"
+Inst20QAA = "6 Quests"
+Inst20QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. The Four Tomes"
@@ -3029,6 +3081,19 @@ Inst20Quest5_Prequest = "None"
 Inst20Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst20Quest6 = "6. A Worthy Challenge: Darkmaster Gandling"
+Inst20Quest6_Level = "90"
+Inst20Quest6_Attain = "90"
+Inst20Quest6_Aim = "Complete the Scholomance Challenge Mode."
+Inst20Quest6_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst20Quest6_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst20Quest6_Prequest = "None"
+Inst20Quest6_Folgequest = "None"
+--
+Inst20Quest6name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst20Quest1_HORDE = Inst20Quest1
@@ -3085,6 +3150,19 @@ Inst20Quest5_HORDE_Note = Inst20Quest5_Note
 Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
 Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
 -- No Rewards for this quest
+
+--Quest 6 Horde
+Inst20Quest6_HORDE = "6. A Worthy Challenge: Darkmaster Gandling"
+Inst20Quest6_HORDE_Level = "90"
+Inst20Quest6_HORDE_Attain = "90"
+Inst20Quest6_HORDE_Aim = "Complete the Scholomance Challenge Mode."
+Inst20Quest6_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst20Quest6_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst20Quest6_HORDE_Prequest = "None"
+Inst20Quest6_HORDE_Folgequest = "None"
+--
+Inst20Quest6name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 
@@ -8254,8 +8332,8 @@ Inst70Quest1_Level = "71"
 Inst70Quest1_Attain = "68"
 Inst70Quest1_Aim = "Defender Mordun has asked you to acquire the head of Ingvar the Plunderer."
 Inst70Quest1_Location = "Defender Mordun (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
-Inst70Quest1_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE.."."
-Inst70Quest1_Prequest = "None"
+Inst70Quest1_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\nThe prequest is optional."
+Inst70Quest1_Prequest = "Fresh Legs"
 Inst70Quest1_Folgequest = "None"
 --
 Inst70Quest1name1 = "Executioner's Band"
@@ -12285,8 +12363,8 @@ Inst113Quest4name2_HORDE = Inst113Quest4name2
 --------------- INST114 - Mogu'Shan Palace ---------------
 
 Inst114Caption = "Mogu'Shan Palace"
-Inst114QAA = "2 Quests"
-Inst114QAH = "2 Quests"
+Inst114QAA = "3 Quests"
+Inst114QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst114Quest1 = "1. Relics of the Four Kings"
@@ -12310,6 +12388,18 @@ Inst114Quest2_Prequest = "None"
 Inst114Quest2_Folgequest = "None"
 -- Reward varies for each class
 
+--Quest 3 Alliance
+Inst114Quest3 = "3. A Worthy Challenge: Xin the Weaponmaster"
+Inst114Quest3_Level = "90"
+Inst114Quest3_Attain = "90"
+Inst114Quest3_Aim = "Complete the Mogu'shan Palace Challenge Mode."
+Inst114Quest3_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst114Quest3_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst114Quest3_Prequest = "None"
+Inst114Quest3_Folgequest = "None"
+--
+Inst114Quest3name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12334,20 +12424,32 @@ Inst114Quest2_HORDE_Prequest = Inst114Quest2_Prequest
 Inst114Quest2_HORDE_Folgequest = Inst114Quest2_Folgequest
 -- Reward varies for each class
 
+--Quest 3 Horde
+Inst114Quest3_HORDE = "3. A Worthy Challenge: Xin the Weaponmaster"
+Inst114Quest3_HORDE_Level = "90"
+Inst114Quest3_HORDE_Attain = "90"
+Inst114Quest3_HORDE_Aim = "Complete the Mogu'shan Palace Challenge Mode."
+Inst114Quest3_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst114Quest3_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst114Quest3_HORDE_Prequest = "None"
+Inst114Quest3_HORDE_Folgequest = "None"
+--
+Inst114Quest3name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
---------------- INST115 - Shado-pan Monastery ---------------
+--------------- INST115 - Shado-Pan Monastery ---------------
 
-Inst115Caption = "Shado-pan Monastery"
-Inst115QAA = "3 Quests"
-Inst115QAH = "3 Quests"
+Inst115Caption = "Shado-Pan Monastery"
+Inst115QAA = "4 Quests"
+Inst115QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst115Quest1 = "1. Into the Monastery"
 Inst115Quest1_Level = "88"
 Inst115Quest1_Attain = "87"
 Inst115Quest1_Aim = "Meet Ban Bearheart inside the Shado-Pan Monastery."
-Inst115Quest1_Location = "Ban Bearheart (Kun-Lai Summit - Shado-pan Monastery; "..YELLOW.."36.6, 47.9"..WHITE..")"
+Inst115Quest1_Location = "Ban Bearheart (Kun-Lai Summit - Shado-Pan Monastery; "..YELLOW.."36.6, 47.9"..WHITE..")"
 Inst115Quest1_Note = "Ban Bearheart is just inside the entrance of the instance."
 Inst115Quest1_Prequest = "Unbelievable!"
 Inst115Quest1_Folgequest = "Lord of the Shado-Pan"
@@ -12359,7 +12461,7 @@ Inst115Quest2 = "2. Lord of the Shado-Pan"
 Inst115Quest2_Level = "89"
 Inst115Quest2_Attain = "87"
 Inst115Quest2_Aim = "Rid Taran Zhu of his possession by the Sha of Hatred."
-Inst115Quest2_Location = "Ban Bearheart (Shado-pan Monastery; "..BLUE.."Entrance"..WHITE..")"
+Inst115Quest2_Location = "Ban Bearheart (Shado-Pan Monastery; "..BLUE.."Entrance"..WHITE..")"
 Inst115Quest2_Note = "Taran Zhu is at "..YELLOW.."[4]"..WHITE.."."
 Inst115Quest2_Prequest = "Into the Monastery (optional)"
 Inst115Quest2_Folgequest = "None"
@@ -12372,12 +12474,25 @@ Inst115Quest3 = "3. The Path to Respect Lies in Violence"
 Inst115Quest3_Level = "89"
 Inst115Quest3_Attain = "87"
 Inst115Quest3_Aim = "Kill the Sha of Violence."
-Inst115Quest3_Location = "Master Snowdrift (Shado-pan Monastery; "..YELLOW.."[2]"..WHITE..")"
+Inst115Quest3_Location = "Master Snowdrift (Shado-Pan Monastery; "..YELLOW.."[2]"..WHITE..")"
 Inst115Quest3_Note = "The Sha of Violence is at "..YELLOW.."[3]"..WHITE.."."
 Inst115Quest3_Prequest = "None"
 Inst115Quest3_Folgequest = "None"
 --
 -- Reward varies for each class
+
+--Quest 4 Alliance
+Inst115Quest4 = "4. A Worthy Challenge: Sha of Hatred"
+Inst115Quest4_Level = "90"
+Inst115Quest4_Attain = "90"
+Inst115Quest4_Aim = "Complete the Shado-Pan Monastery Challenge Mode."
+Inst115Quest4_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst115Quest4_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst115Quest4_Prequest = "None"
+Inst115Quest4_Folgequest = "None"
+--
+Inst115Quest4name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12417,13 +12532,26 @@ Inst115Quest3_HORDE_Folgequest = Inst115Quest3_Folgequest
 --
 -- Reward varies for each class
 
+--Quest 4 Horde
+Inst115Quest4_HORDE = "4. A Worthy Challenge: Sha of Hatred"
+Inst115Quest4_HORDE_Level = "90"
+Inst115Quest4_HORDE_Attain = "90"
+Inst115Quest4_HORDE_Aim = "Complete the Shado-Pan Monastery Challenge Mode."
+Inst115Quest4_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst115Quest4_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst115Quest4_HORDE_Prequest = "None"
+Inst115Quest4_HORDE_Folgequest = "None"
+--
+Inst115Quest4name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
+
 
 
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Stormstout Brewery"
-Inst116QAA = "3 Quests"
-Inst116QAH = "3 Quests"
+Inst116QAA = "5 Quests"
+Inst116QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst116Quest1 = "1. Into the Brewery"
@@ -12461,6 +12589,32 @@ Inst116Quest3_Prequest = "None"
 Inst116Quest3_Folgequest = "None"
 --
 -- Reward varies for each class
+
+--Quest 4 Alliance
+Inst116Quest4 = "4. Is That A Real Measurement?"
+Inst116Quest4_Level = "90"
+Inst116Quest4_Attain = "90"
+Inst116Quest4_Aim = "Create a Noodle Cart Kit and collect 20 Sloshes of Brew from slain alementals in the Stormstout Brewery."
+Inst116Quest4_Location = "Sungshin Ironpaw (Valley of the Four Winds - Halfhill; "..YELLOW.."53.6, 51.2"..WHITE..")"
+Inst116Quest4_Note = "This quest can be completed in either Normal or Heroic mode."
+Inst116Quest4_Prequest = "None"
+Inst116Quest4_Folgequest = "None"
+Inst116Quest4PreQuest = "true"
+--
+Inst116Quest4name1 = "Deluxe Noodle Cart Kit"
+
+--Quest 5 Alliance
+Inst116Quest5 = "5. A Worthy Challenge: Yan-zhu the Uncasked"
+Inst116Quest5_Level = "90"
+Inst116Quest5_Attain = "90"
+Inst116Quest5_Aim = "Complete the Stormstout Brewery Challenge Mode."
+Inst116Quest5_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst116Quest5_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst116Quest5_Prequest = "None"
+Inst116Quest5_Folgequest = "None"
+--
+Inst116Quest5name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12500,13 +12654,38 @@ Inst116Quest3_HORDE_Folgequest = Inst116Quest3_Folgequest
 --
 -- Reward varies for each class
 
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst116Quest4_HORDE = Inst116Quest4
+Inst116Quest4_HORDE_Level = Inst116Quest4_Level
+Inst116Quest4_HORDE_Attain = Inst116Quest4_Attain
+Inst116Quest4_HORDE_Aim = Inst116Quest4_Aim
+Inst116Quest4_HORDE_Location = Inst116Quest4_Location
+Inst116Quest4_HORDE_Note = Inst116Quest4_Note
+Inst116Quest4_HORDE_Prequest = Inst116Quest4_Prequest
+Inst116Quest4_HORDE_Folgequest = Inst116Quest4_Folgequest
+Inst116Quest4PreQuest_HORDE = Inst116Quest4PreQuest
+--
+Inst116Quest4name1_HORDE = Inst116Quest4name1
+
+--Quest 5 Horde
+Inst116Quest5_HORDE = "5. A Worthy Challenge: Yan-zhu the Uncasked"
+Inst116Quest5_HORDE_Level = "90"
+Inst116Quest5_HORDE_Attain = "90"
+Inst116Quest5_HORDE_Aim = "Complete the Stormstout Brewery Challenge Mode."
+Inst116Quest5_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst116Quest5_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst116Quest5_HORDE_Prequest = "None"
+Inst116Quest5_HORDE_Folgequest = "None"
+--
+Inst116Quest5name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Caption = "Temple of the Jade Serpent"
-Inst117QAA = "4 Quests"
-Inst117QAH = "4 Quests"
+Inst117QAA = "5 Quests"
+Inst117QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst117Quest1 = "1. Restoring Jade's Purity"
@@ -12555,6 +12734,19 @@ Inst117Quest4_Prequest = "The Lost Secret of the Secret Ingredient"
 Inst117Quest4_Folgequest = "Secrets Lost, Forever?"
 Inst117Quest4FQuest = "true"
 -- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst117Quest5 = "5. A Worthy Challenge: Sha of Doubt"
+Inst117Quest5_Level = "90"
+Inst117Quest5_Attain = "90"
+Inst117Quest5_Aim = "Complete the Temple of the Jade Serpent Challenge Mode."
+Inst117Quest5_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst117Quest5_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst117Quest5_Prequest = "None"
+Inst117Quest5_Folgequest = "None"
+--
+Inst117Quest5name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12605,14 +12797,26 @@ Inst117Quest4_HORDE_Folgequest = Inst117Quest4_Folgequest
 Inst117Quest4FQuest_HORDE = Inst117Quest4FQuest
 -- No Rewards for this quest
 
+--Quest 5 Horde
+Inst117Quest5_HORDE = "5. A Worthy Challenge: Sha of Doubt"
+Inst117Quest5_HORDE_Level = "90"
+Inst117Quest5_HORDE_Attain = "90"
+Inst117Quest5_HORDE_Aim = "Complete the Temple of the Jade Serpent Challenge Mode."
+Inst117Quest5_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst117Quest5_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst117Quest5_HORDE_Prequest = "None"
+Inst117Quest5_HORDE_Folgequest = "None"
+--
+Inst117Quest5name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 
 --------------- INST118 - Gate of the Setting Sun ---------------
 
 Inst118Caption = "Gate of the Setting Sun"
-Inst118QAA = "2 Quests"
-Inst118QAH = "2 Quests"
+Inst118QAA = "3 Quests"
+Inst118QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst118Quest1 = "1. Lighting the Way"
@@ -12636,6 +12840,19 @@ Inst118Quest2_Prequest = "None"
 Inst118Quest2_Folgequest = "None"
 --
 -- Reward varies for each class
+
+--Quest 3 Alliance
+Inst118Quest3 = "3. A Worthy Challenge: Raigonn"
+Inst118Quest3_Level = "90"
+Inst118Quest3_Attain = "90"
+Inst118Quest3_Aim = "Complete the Gate of the Setting Sun Challenge Mode."
+Inst118Quest3_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst118Quest3_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst118Quest3_Prequest = "None"
+Inst118Quest3_Folgequest = "None"
+--
+Inst118Quest3name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12661,13 +12878,26 @@ Inst118Quest2_HORDE_Folgequest = Inst118Quest2_Folgequest
 --
 -- Reward varies for each class
 
+--Quest 3 Horde
+Inst118Quest3_HORDE = "3. A Worthy Challenge: Raigonn"
+Inst118Quest3_HORDE_Level = "90"
+Inst118Quest3_HORDE_Attain = "90"
+Inst118Quest3_HORDE_Aim = "Complete the Gate of the Setting Sun Challenge Mode."
+Inst118Quest3_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst118Quest3_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst118Quest3_HORDE_Prequest = "None"
+Inst118Quest3_HORDE_Folgequest = "None"
+--
+Inst118Quest3name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
+
 
 
 --------------- INST119 - Siege of Niuzao Temple ---------------
 
 Inst119Caption = "Siege of Niuzao Temple"
-Inst119QAA = "2 Quests"
-Inst119QAH = "2 Quests"
+Inst119QAA = "3 Quests"
+Inst119QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst119Quest1 = "1. Somewhere Inside"
@@ -12692,6 +12922,19 @@ Inst119Quest2_Folgequest = "None"
 --
 -- Reward varies for each class
 
+--Quest 3 Alliance
+Inst119Quest3 = "3. A Worthy Challenge: Wing Leader Ner'onok"
+Inst119Quest3_Level = "90"
+Inst119Quest3_Attain = "90"
+Inst119Quest3_Aim = "Complete the Siege of Niuzao Temple Challenge Mode."
+Inst119Quest3_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst119Quest3_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst119Quest3_Prequest = "None"
+Inst119Quest3_Folgequest = "None"
+--
+Inst119Quest3name1 = "Heroic Cache of Treasures"
+-- Awards Valor Points.
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst119Quest1_HORDE = Inst119Quest1
@@ -12715,6 +12958,19 @@ Inst119Quest2_HORDE_Prequest = Inst119Quest2_Prequest
 Inst119Quest2_HORDE_Folgequest = Inst119Quest2_Folgequest
 --
 -- Reward varies for each class
+
+--Quest 3 Horde
+Inst119Quest3_HORDE = "3. A Worthy Challenge: Wing Leader Ner'onok"
+Inst119Quest3_HORDE_Level = "90"
+Inst119Quest3_HORDE_Attain = "90"
+Inst119Quest3_HORDE_Aim = "Complete the Siege of Niuzao Temple Challenge Mode."
+Inst119Quest3_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst119Quest3_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
+Inst119Quest3_HORDE_Prequest = "None"
+Inst119Quest3_HORDE_Folgequest = "None"
+--
+Inst119Quest3name1_HORDE = "Heroic Cache of Treasures"
+-- Awards Valor Points.
 
 
 
