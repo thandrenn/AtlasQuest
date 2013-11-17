@@ -908,7 +908,7 @@ end
 -- 113 = Dragon Soul
 
 -- 114 = Mogu'Shan Palace
--- 115 = Shado-pan Monastery
+-- 115 = Shado-Pan Monastery
 -- 116 = Stormstout Brewery
 -- 117 = Temple of the Jade Serpent
 -- 118 = The Gate of the Setting Sun

@@ -529,13 +529,37 @@ Inst58Quest1_QuestID = "31513"
 Inst58Quest2_QuestID = "31515"
 Inst58Quest3_QuestID = "31514"
 Inst58Quest4_QuestID = "31516"
-Inst58Quest4_QuestID = "32006"
+Inst58Quest5_QuestID = "32005"
 
 Inst58Quest1_HORDE_QuestID = "31513"
 Inst58Quest2_HORDE_QuestID = "31515"
 Inst58Quest3_HORDE_QuestID = "31514"
 Inst58Quest4_HORDE_QuestID = "31516"
-Inst58Quest4_HORDE_QuestID = "31527"
+Inst58Quest5_HORDE_QuestID = "31526"
+
+
+AQ_31513_Level = "34"
+AQ_31515_Level = "90"
+AQ_31514_Level = "34"
+AQ_31516_Level = "90"
+AQ_32005_Level = "90"
+AQ_31526_Level = "90"
+
+
+
+--------------- INST59 - Scarlet Halls ---------------
+
+Inst59Quest1_QuestID = "31513"
+Inst59Quest2_QuestID = "31515"
+Inst59Quest3_QuestID = "31514"
+Inst59Quest4_QuestID = "31516"
+Inst59Quest5_QuestID = "32006"
+
+Inst59Quest1_HORDE_QuestID = "31513"
+Inst59Quest2_HORDE_QuestID = "31515"
+Inst59Quest3_HORDE_QuestID = "31514"
+Inst59Quest4_HORDE_QuestID = "31516"
+Inst59Quest5_HORDE_QuestID = "31527"
 
 
 AQ_31513_Level = "34"
@@ -547,26 +571,6 @@ AQ_31527_Level = "90"
 
 
 
---------------- INST59 - Scarlet Halls ---------------
-
-Inst59Quest1_QuestID = "31513"
-Inst59Quest2_QuestID = "31515"
-Inst59Quest3_QuestID = "31514"
-Inst59Quest4_QuestID = "31516"
-
-Inst59Quest1_HORDE_QuestID = "31513"
-Inst59Quest2_HORDE_QuestID = "31515"
-Inst59Quest3_HORDE_QuestID = "31514"
-Inst59Quest4_HORDE_QuestID = "31516"
-
-
-AQ_31513_Level = "34"
-AQ_31515_Level = "90"
-AQ_31514_Level = "34"
-AQ_31516_Level = "90"
-
-
-
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Quest1_QuestID = "31440"
@@ -574,12 +578,14 @@ Inst20Quest2_QuestID = "31442"
 Inst20Quest3_QuestID = "31447"
 Inst20Quest4_QuestID = "31448"
 Inst20Quest5_QuestID = "28756"
+Inst20Quest6_QuestID = "32007"
 
 Inst20Quest1_HORDE_QuestID = "31440"
 Inst20Quest2_HORDE_QuestID = "31442"
 Inst20Quest3_HORDE_QuestID = "31447"
 Inst20Quest4_HORDE_QuestID = "31448"
-Inst20Quest4_HORDE_QuestID = "28756"
+Inst20Quest5_HORDE_QuestID = "28756"
+Inst20Quest6_HORDE_QuestID = "31528"
 
 
 AQ_31440_Level = "43"
@@ -587,6 +593,8 @@ AQ_31442_Level = "90"
 AQ_31447_Level = "43"
 AQ_31448_Level = "90"
 AQ_28756_Level = "42"
+AQ_32007_Level = "90"
+AQ_31528_Level = "90"
 
 
 
@@ -2242,27 +2250,31 @@ AQ_30118_Level = "85"
 
 Inst114Quest1_QuestID = "31357"
 Inst114Quest2_QuestID = "31360"
+Inst114Quest3_QuestID = "32002"
 
 Inst114Quest1_HORDE_QuestID = "31357"
 Inst114Quest2_HORDE_QuestID = "31360"
+Inst114Quest3_HORDE_QuestID = "31523"
 
 
 AQ_31357_Level = "89"
 AQ_31360_Level = "89"
+AQ_32002_Level = "90"
+AQ_31523_Level = "90"
 
 
 
---------------- INST115 - Shado-pan Monastery ---------------
+--------------- INST115 - Shado-Pan Monastery ---------------
 
 Inst115Quest1_QuestID = "31031"
 Inst115Quest2_QuestID = "30757"
 Inst115Quest3_QuestID = "31342"
-Inst115Quest3_QuestID = "32001"
+Inst115Quest4_QuestID = "32001"
 
 Inst115Quest1_HORDE_QuestID = "31031"
 Inst115Quest2_HORDE_QuestID = "30757"
 Inst115Quest3_HORDE_QuestID = "31342"
-Inst115Quest3_HORDE_QuestID = "31522"
+Inst115Quest4_HORDE_QuestID = "31522"
 
 
 AQ_31031_Level = "88"
@@ -2303,13 +2315,13 @@ Inst117Quest1_QuestID = "31355"
 Inst117Quest2_QuestID = "31356"
 Inst117Quest3_QuestID = "33020"
 Inst117Quest4_QuestID = "33107"
-Inst117Quest4_QuestID = "31998"
+Inst117Quest5_QuestID = "31998"
 
 Inst117Quest1_HORDE_QuestID = "31355"
 Inst117Quest2_HORDE_QuestID = "31356"
 Inst117Quest3_HORDE_QuestID = "33020"
 Inst117Quest4_HORDE_QuestID = "33107"
-Inst117Quest4_HORDE_QuestID = "31520"
+Inst117Quest5_HORDE_QuestID = "31520"
 
 
 AQ_31355_Level = "87"
@@ -2325,11 +2337,11 @@ AQ_31520_Level = "90"
 
 Inst118Quest1_QuestID = "31363"
 Inst118Quest2_QuestID = "31364"
-Inst118Quest2_QuestID = "32003"
+Inst118Quest3_QuestID = "32003"
 
 Inst118Quest1_HORDE_QuestID = "31363"
 Inst118Quest2_HORDE_QuestID = "31364"
-Inst118Quest2_HORDE_QuestID = "31524"
+Inst118Quest3_HORDE_QuestID = "31524"
 
 
 AQ_31363_Level = "90"
@@ -2343,11 +2355,11 @@ AQ_31524_Level = "90"
 
 Inst119Quest1_QuestID = "31365"
 Inst119Quest2_QuestID = "31366"
-Inst119Quest2_QuestID = "32004"
+Inst119Quest3_QuestID = "32004"
 
 Inst119Quest1_HORDE_QuestID = "31365"
 Inst119Quest2_HORDE_QuestID = "31366"
-Inst119Quest2_HORDE_QuestID = "31525"
+Inst119Quest3_HORDE_QuestID = "31525"
 
 
 AQ_31365_Level = "90"
