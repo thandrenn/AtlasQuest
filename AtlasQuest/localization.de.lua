@@ -87,7 +87,7 @@ AQQuestQueryButtonTEXT = ""..WHITE.."Quest Abfrage"
 AQClearQuestAndQueryButtonTEXT = ""..WHITE.."Questreset"
 AQQuestQueryTEXT = ""..WHITE.."Abfrage des Servers nach abgeschlossenen Quests."
 AQClearQuestAndQueryTEXT = ""..WHITE.."Zurücksetzen der abgeschlossenen Quests und Serverabfrage."
-AQQuestQueryStart = "AtlasQuest fragt den Server nach abgeschlossenen Quests ab. Dies wird einen Moment dauern."
+AQQuestQueryStart = "AtlasQuest fragt den Server nach abgeschlossenen Quests ab. Dies wird einen kurzen Moment dauern."
 AQQuestQueryDone = "AtlasQuest hat die Anfrage beendet. Abgeschlossene Quests sind nun markiert." 
 
 
@@ -2844,13 +2844,13 @@ Inst58Quest5 = "5. Eine würdige Herausforderung: Durand"
 Inst58Quest5_Level = "90"
 Inst58Quest5_Attain = "90"
 Inst58Quest5_Aim = "Schließt das Scharlachrote Kloster im Herausforderungsmodus ab."
-Inst58Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
-Inst58Quest5_Note = "Herausforderungsmodus des Scharlachroten Klosters bestehen."
+Inst58Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst58Quest5_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
 Inst58Quest5_Prequest = "Nein"
 Inst58Quest5_Folgequest = "Nein"
 --
 Inst58Quest5name1= "Heroische Schatzkiste"
-Inst58Quest5name2= "80 Tapferkeitspunkte"
+-- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -2913,7 +2913,7 @@ Inst58Quest5_HORDE_Prequest = "Nein"
 Inst58Quest5_HORDE_Folgequest = "Nein"
 --
 Inst58Quest5name1_HORDE = Inst58Quest5name1
-Inst58Quest5name2_HORDE = Inst58Quest5name2
+-- Preis Tapferkeitspunkte.
 
 
 
@@ -2973,13 +2973,13 @@ Inst59Quest5 = "5. Eine würdige Herausforderung: Flammenwirker Koegler"
 Inst59Quest5_Level = "90"
 Inst59Quest5_Attain = "90"
 Inst59Quest5_Aim = "Schließt die Scharlachroten Hallen im Herausforderungsmodus ab."
-Inst59Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
-Inst59Quest5_Note = "Herausforderungsmodus des Scharlachroten Hallen bestehen."
+Inst59Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst59Quest5_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
 Inst59Quest5_Prequest = "Nein"
 Inst59Quest5_Folgequest = "Nein"
 --
 Inst59Quest5name1= "Heroische Schatzkiste"
-Inst59Quest5name2= "80 Tapferkeitspunkte"
+-- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -3037,15 +3037,15 @@ Inst59Quest5_HORDE_Prequest = "Nein"
 Inst59Quest5_HORDE_Folgequest = "Nein"
 --
 Inst59Quest5name1_HORDE = Inst59Quest5name1
-Inst59Quest5name2_HORDE = Inst59Quest5name2
+-- Preis Tapferkeitspunkte.
 
 
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Caption = "Scholomance"
-Inst20QAA = "5 Quests"
-Inst20QAH = "5 Quests"
+Inst20QAA = "6 Quests"
+Inst20QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. Die vier Bände"
@@ -3103,6 +3103,19 @@ Inst20Quest5_Prequest = "Nein"
 Inst20Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst20Quest6 = "6. Eine würdige Herausforderung: Dunkelmeister Gandling"
+Inst20Quest6_Level = "90"
+Inst20Quest6_Attain = "90"
+Inst20Quest6_Aim = "Schließt Scholomance im Herausforderungsmodus ab."
+Inst20Quest6_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst20Quest6_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
+Inst20Quest6_Prequest = "Nein"
+Inst20Quest6_Folgequest = "Nein"
+--
+Inst20Quest6name1= "Heroische Schatzkiste"
+-- Preis Tapferkeitspunkte.
+
 
 --Quest 1 Horde
 Inst20Quest1_HORDE = Inst20Quest1
@@ -3159,6 +3172,19 @@ Inst20Quest5_HORDE_Note = Inst20Quest5_Note
 Inst20Quest5_HORDE_Prequest = "Nein"
 Inst20Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 6 Horde
+Inst20Quest6_HORDE = Inst20Quest6
+Inst20Quest6_HORDE_Level = "90"
+Inst20Quest6_HORDE_Attain = "90"
+Inst20Quest6_HORDE_Aim = Inst20Quest6_Aim
+Inst20Quest6_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
+Inst20Quest6_HORDE_Note = Inst20Quest6_Note
+Inst20Quest6_HORDE_Prequest = "Nein"
+Inst20Quest6_HORDE_Folgequest = "Nein"
+--
+Inst20Quest6name1_HORDE = Inst20Quest6name1
+-- Preis Tapferkeitspunkte.
 
 
 
@@ -8332,8 +8358,8 @@ Inst70Quest1_Level = "71"
 Inst70Quest1_Attain = "68"
 Inst70Quest1_Aim = "Verteidiger Mordun hat Euch gebeten, ihm den Kopf von Ingvar dem Brandschatzer zu bringen."
 Inst70Quest1_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
-Inst70Quest1_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst70Quest1_Prequest = "Nein"
+Inst70Quest1_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n Die Vorquest ist Optional."
+Inst70Quest1_Prequest = "Ein neuer Abschnitt"
 Inst70Quest1_Folgequest = "Nein"
 --
 Inst70Quest1name1 = "Band des Henkers"
@@ -12429,13 +12455,13 @@ Inst114Quest3 = "3. Eine würdige Herausforderung: Xin der Waffenmeister"
 Inst114Quest3_Level = "90"
 Inst114Quest3_Attain = "90"
 Inst114Quest3_Aim = "Schließt den Mogu'shanpalast im Herausforderungsmodus ab."
-Inst114Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
-Inst114Quest3_Note = "Herausforderungsmodus des Mogu'shanpalasts bestehen."
+Inst114Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst114Quest3_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
 Inst114Quest3_Prequest = "Nein"
 Inst114Quest3_Folgequest = "Nein"
 --
 Inst114Quest3name1= "Heroische Schatzkiste"
-Inst114Quest3name2= "80 Tapferkeitspunkte"
+-- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12471,8 +12497,8 @@ Inst114Quest3_HORDE_Note = Inst114Quest3_Note
 Inst114Quest3_HORDE_Prequest = "Nein"
 Inst114Quest3_HORDE_Folgequest = "Nein"
 --
-Inst114Quest3name1_HORDE = Inst114Quest5name1
-Inst114Quest3name2_HORDE = Inst114Quest5name2
+Inst114Quest3name1_HORDE = Inst114Quest3name1
+-- Preis Tapferkeitspunkte.
 
 
 
@@ -12524,13 +12550,13 @@ Inst115Quest4 = "4. Eine würdige Herausforderung: Sha des Hasses"
 Inst115Quest4_Level = "90"
 Inst115Quest4_Attain = "90"
 Inst115Quest4_Aim = "Schließt den Shado-Pan-Kloster im Herausforderungsmodus ab."
-Inst115Quest4_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
-Inst115Quest4_Note = "Herausforderungsmodus des Shado-Pan-Klosters bestehen."
+Inst115Quest4_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst115Quest4_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
 Inst115Quest4_Prequest = "Nein"
 Inst115Quest4_Folgequest = "Nein"
 --
 Inst115Quest4name1= "Heroische Schatzkiste"
-Inst115Quest4name2= "80 Tapferkeitspunkte"
+-- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12581,7 +12607,7 @@ Inst115Quest4_HORDE_Prequest = "Nein"
 Inst115Quest4_HORDE_Folgequest = "Nein"
 --
 Inst115Quest4name1_HORDE = Inst115Quest4name1
-Inst115Quest4name2_HORDE = Inst115Quest4name2
+-- Preis Tapferkeitspunkte.
 
 
 
@@ -12646,13 +12672,13 @@ Inst116Quest5 = "5. Eine würdige Herausforderung: Yan-Zhu der Dekantierte"
 Inst116Quest5_Level = "90"
 Inst116Quest5_Attain = "90"
 Inst116Quest5_Aim = "Schließt die Brauerei Sturmbräu im Herausforderungsmodus ab."
-Inst116Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
-Inst116Quest5_Note = "Herausforderungsmodus der Brauerei Sturmbräu bestehen."
+Inst116Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst116Quest5_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
 Inst116Quest5_Prequest = "Nein"
 Inst116Quest5_Folgequest = "Nein"
 --
 Inst116Quest5name1= "Heroische Schatzkiste"
-Inst116Quest5name2= "80 Tapferkeitspunkte"
+-- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12716,7 +12742,7 @@ Inst116Quest5_HORDE_Prequest = "Nein"
 Inst116Quest5_HORDE_Folgequest = "Nein"
 --
 Inst116Quest5name1_HORDE = Inst116Quest5name1
-Inst116Quest5name2_HORDE = Inst116Quest5name2
+-- Preis Tapferkeitspunkte.
 
 
 
@@ -12779,13 +12805,13 @@ Inst117Quest5 = "5. Eine würdige Herausforderung: Sha des Zweifels"
 Inst117Quest5_Level = "90"
 Inst117Quest5_Attain = "90"
 Inst117Quest5_Aim = "Schließt den Tempel der Jadeschlange im Herausforderungsmodus ab."
-Inst117Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
-Inst117Quest5_Note = "Herausforderungsmodus des Tempels der Jadeschlange bestehen."
+Inst117Quest5_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst117Quest5_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
 Inst117Quest5_Prequest = "Nein"
 Inst117Quest5_Folgequest = "Nein"
 --
 Inst117Quest5name1= "Heroische Schatzkiste"
-Inst117Quest5name2= "80 Tapferkeitspunkte"
+-- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12847,7 +12873,7 @@ Inst117Quest5_HORDE_Prequest = "Nein"
 Inst117Quest5_HORDE_Folgequest = "Nein"
 --
 Inst117Quest5name1_HORDE = Inst117Quest5name1
-Inst117Quest5name2_HORDE = Inst117Quest5name2
+-- Preis Tapferkeitspunkte.
 
 
 
@@ -12885,13 +12911,13 @@ Inst118Quest3 = "3. Eine würdige Herausforderung: Raigonn"
 Inst118Quest3_Level = "90"
 Inst118Quest3_Attain = "90"
 Inst118Quest3_Aim = "Schließt das Tor der Untergehenden Sonne im Herausforderungsmodus ab."
-Inst118Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
-Inst118Quest3_Note = "Herausforderungsmodus des Tors der Untergehenden Sonne bestehen."
+Inst118Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst118Quest3_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
 Inst118Quest3_Prequest = "Nein"
 Inst118Quest3_Folgequest = "Nein"
 --
---Inst118Quest3name1= "Heroische Schatzkiste"
---Inst118Quest3name2= "80 Tapferkeitspunkte"
+Inst118Quest3name1= "Heroische Schatzkiste"
+-- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12927,8 +12953,8 @@ Inst118Quest3_HORDE_Note = Inst118Quest3_Note
 Inst118Quest3_HORDE_Prequest = "Nein"
 Inst118Quest3_HORDE_Folgequest = "Nein"
 --
-Inst116Quest5name1_HORDE = Inst116Quest5name1
-Inst116Quest5name2_HORDE = Inst116Quest5name2
+Inst118Quest3name1_HORDE = Inst118Quest3name1
+-- Preis Tapferkeitspunkte.
 
 
 
@@ -12966,13 +12992,13 @@ Inst119Quest3 = "3. Eine würdige Herausforderung: Schwadronsführer Ner'onok"
 Inst119Quest3_Level = "90"
 Inst119Quest3_Attain = "90"
 Inst119Quest3_Aim = "Schließt den Niuzaotempel im Herausforderungsmodus ab."
-Inst119Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.4"..WHITE..")"
-Inst119Quest3_Note = "Herausforderungsmodus der Belagerung des Niuzaotempels bestehen."
+Inst119Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
+Inst119Quest3_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
 Inst119Quest3_Prequest = "Nein"
 Inst119Quest3_Folgequest = "Nein"
 --
---Inst119Quest3name1= "Heroische Schatzkiste"
---Inst119Quest3name2= "80 Tapferkeitspunkte"
+Inst119Quest3name1= "Heroische Schatzkiste"
+-- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -13008,8 +13034,8 @@ Inst119Quest3_HORDE_Note = Inst119Quest3_Note
 Inst119Quest3_HORDE_Prequest = "Nein"
 Inst119Quest3_HORDE_Folgequest = "Nein"
 --
-Inst119Quest5name1_HORDE = Inst119Quest5name1
-Inst119Quest5name2_HORDE = Inst119Quest5name2
+Inst119Quest3name1_HORDE = Inst119Quest3name1
+-- Preis Tapferkeitspunkte.
 
 
 
