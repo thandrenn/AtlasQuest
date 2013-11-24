@@ -7228,8 +7228,21 @@ Inst138Quest11ID1_HORDE = "97153"
 --Quest 1 Alliance
 Inst145Quest1Rewardtext = AQNoReward
 
+--Quest 2 Alliance
+Inst145Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst145Quest3Rewardtext = AQNoReward
+
+
 --Quest 1 Horde
 Inst145Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst145Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst145Quest3Rewardtext_HORDE = AQNoReward
 
 
 

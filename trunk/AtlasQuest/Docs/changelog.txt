@@ -2,11 +2,12 @@
 Changelog
 =========
 
-Version 4.8.7 BETA  (November ??, 2013)
+Version 4.8.7  (November ??, 2013)
 
 - Fixed: Starting location of Stratholme: Liquid Gold  (thanks yunohu)
 - Fixed: Starting location of Shattered Halls: Advancing the Campaign (Horde)    (thanks yunohu)
 - Added missing optional prequest for Utgarde Keep: Stealing Their Thunder   (thanks yunohu)
+- Special thanks to Burkhard for reminding me of these quests I forgot to add.  Thank you!
 
 - Added quests:
 	- Scarlet Halls: A Worthy Challenge: Flameweaver Koegler
@@ -19,6 +20,8 @@ Version 4.8.7 BETA  (November ??, 2013)
 	- Temple of the Jade Serpent: A Worthy Challenge: Sha of Doubt
 	- Gate of the Setting Sun: A Worthy Challenge: Raigonn
 	- Siege of Niuzao Temple: A Worthy Challenge: Wing Leader Ner'onok
+	- Siege of Orgrimmar: The Last Gasp of Y'Shaarj
+	- Siege of Orgrimmar: Why Do We Fight?
 
 	
 
