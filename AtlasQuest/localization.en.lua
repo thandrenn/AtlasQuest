@@ -13373,8 +13373,8 @@ Inst138Quest11name1_HORDE = Inst138Quest11name1
 --------------- INST145 - Siege of Orgrimmar ---------------
 
 Inst145Caption = "Siege of Orgrimmar"
-Inst145QAA = "1 Quests"
-Inst145QAH = "1 Quest"
+Inst145QAA = "3 Quests"
+Inst145QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst145Quest1 = "1. Judgment of the Black Prince"
@@ -13388,6 +13388,29 @@ Inst145Quest1_Folgequest = "None"
 Inst145Quest1PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst145Quest2 = "2. The Last Gasp of Y'Shaarj"
+Inst145Quest2_Level = "90"
+Inst145Quest2_Attain = "90"
+Inst145Quest2_Aim = "Speak with Lorewalker Cho in the Siege of Orgrimmar."
+Inst145Quest2_Location = "Lorewalker Cho (Siege of Orgrimmar; "..YELLOW.."[14]"..WHITE..")"
+Inst145Quest2_Note = "This quest is obtained after defeating Garrosh Hellscream on any difficulty."
+Inst145Quest2_Prequest = "None"
+Inst145Quest2_Folgequest = "Why Do We Fight?"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst145Quest3 = "3. Why Do We Fight?"
+Inst145Quest3_Level = "90"
+Inst145Quest3_Attain = "90"
+Inst145Quest3_Aim = "Lorewalker Cho wishes to speak with you in the Vale of Eternal Blossoms."
+Inst145Quest3_Location = "Lorewalker Cho (Siege of Orgrimmar; "..YELLOW.."[14]"..WHITE..")"
+Inst145Quest3_Note = "Meet the Lorewalker outside the instance at Vale of Eternal Blossoms - Mogu'shan Palace; "..YELLOW.."67.4, 45.6"..WHITE.."."
+Inst145Quest3_Prequest = "The Last Gasp of Y'Shaarj"
+Inst145Quest3_Folgequest = "None"
+Inst145Quest3PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst145Quest1_HORDE = Inst145Quest1
@@ -13398,6 +13421,29 @@ Inst145Quest1_HORDE_Location = Inst145Quest1_Location
 Inst145Quest1_HORDE_Note = Inst145Quest1_Note
 Inst145Quest1_HORDE_Prequest = Inst145Quest1_Prequest
 Inst145Quest1_HORDE_Folgequest = Inst145Quest1_Folgequest
+Inst145Quest1PreQuest_HORDE = Inst145Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst145Quest2_HORDE = Inst145Quest2
+Inst145Quest2_HORDE_Level = Inst145Quest2_Level
+Inst145Quest2_HORDE_Attain = Inst145Quest2_Attain
+Inst145Quest2_HORDE_Aim = Inst145Quest2_Aim
+Inst145Quest2_HORDE_Location = Inst145Quest2_Location
+Inst145Quest2_HORDE_Note = Inst145Quest2_Note
+Inst145Quest2_HORDE_Prequest = Inst145Quest2_Prequest
+Inst145Quest2_HORDE_Folgequest = Inst145Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst145Quest3_HORDE = Inst145Quest3
+Inst145Quest3_HORDE_Level = Inst145Quest3_Level
+Inst145Quest3_HORDE_Attain = Inst145Quest3_Attain
+Inst145Quest3_HORDE_Aim = Inst145Quest3_Aim
+Inst145Quest3_HORDE_Location = Inst145Quest3_Location
+Inst145Quest3_HORDE_Note = Inst145Quest3_Note
+Inst145Quest3_HORDE_Prequest = Inst145Quest3_Prequest
+Inst145Quest3_HORDE_Folgequest = Inst145Quest3_Folgequest
 Inst145Quest1PreQuest_HORDE = Inst145Quest1PreQuest
 -- No Rewards for this quest
 
