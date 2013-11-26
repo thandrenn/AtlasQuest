@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.8.7  (November ??, 2013)
+Version 4.8.7  (November 26, 2013)
 
 - Fixed: Starting location of Stratholme: Liquid Gold  (thanks yunohu)
 - Fixed: Starting location of Shattered Halls: Advancing the Campaign (Horde)    (thanks yunohu)
