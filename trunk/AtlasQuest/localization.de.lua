@@ -2606,7 +2606,7 @@ Inst17Quest5_HORDE_Aim = Inst17Quest5_Aim
 Inst17Quest5_HORDE_Location = Inst17Quest5_Location
 Inst17Quest5_HORDE_Note = Inst17Quest5_Note
 Inst17Quest5_HORDE_Prequest = "Nein"
-Inst17Quest5_HORDE_Folgequest = Inst17Quest5FQuest
+Inst17Quest5_HORDE_Folgequest = "Ausschalten des Götzen"
 Inst17Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
@@ -3797,7 +3797,7 @@ Inst22Quest4_HORDE_Attain = "42"
 Inst22Quest4_HORDE_Aim = Inst22Quest4_Aim
 Inst22Quest4_HORDE_Location = Inst22Quest4_Location
 Inst22Quest4_HORDE_Note = Inst22Quest4_Note
-Inst22Quest4_HORDE_Prequest = Inst22Quest4PreQuest
+Inst22Quest4_HORDE_Prequest = "Gidwin Goldzopf -> Argentumruf: Das giftige Tal"
 Inst22Quest4_HORDE_Folgequest = "Nein"
 Inst22Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
@@ -3905,7 +3905,7 @@ Inst28Quest1_HORDE_Level = "50"
 Inst28Quest1_HORDE_Attain = "46"
 Inst28Quest1_HORDE_Aim = Inst28Quest1_Aim
 Inst28Quest1_HORDE_Location = Inst28Quest1_Location
-Inst28Quest1_HORDE_Note = Inst28Quest91Note
+Inst28Quest1_HORDE_Note = Inst28Quest1_Note
 Inst28Quest1_HORDE_Prequest = "Nein"
 Inst28Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3927,7 +3927,7 @@ Inst28Quest3_HORDE_Level = "50"
 Inst28Quest3_HORDE_Attain = "46"
 Inst28Quest3_HORDE_Aim = Inst28Quest3_Aim
 Inst28Quest3_HORDE_Location = Inst28Quest3_Location
-Inst28Quest3_HORDE_Note = Inst28uest3_Note
+Inst28Quest3_HORDE_Note = Inst28Quest3_Note
 Inst28Quest3_HORDE_Prequest = "Nein"
 Inst28Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
