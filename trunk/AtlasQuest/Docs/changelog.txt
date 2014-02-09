@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 4.8.8  (February ??, 2014)
+
+- Fixes in deDE localization.
+- Translation files for Simplified Chinese, Traditional Chinese and Russian are now disabled.  They're not being deleted, but they'll no longer be loaded as they haven't been updated in over a year.
+
+
+
 Version 4.8.7  (November 26, 2013)
 
 - Fixed: Starting location of Stratholme: Liquid Gold  (thanks yunohu)
