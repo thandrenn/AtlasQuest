@@ -13373,8 +13373,8 @@ Inst138Quest11name1_HORDE = Inst138Quest11name1
 --------------- INST145 - Siege of Orgrimmar ---------------
 
 Inst145Caption = "Siege of Orgrimmar"
-Inst145QAA = "3 Quests"
-Inst145QAH = "3 Quests"
+Inst145QAA = "7 Quests"
+Inst145QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst145Quest1 = "1. Judgment of the Black Prince"
@@ -13411,6 +13411,54 @@ Inst145Quest3_Folgequest = "None"
 Inst145Quest3PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 4 Alliance
+Inst145Quest4 = "4. A Vision in Time"
+Inst145Quest4_Level = "90"
+Inst145Quest4_Attain = "90"
+Inst145Quest4_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
+Inst145Quest4_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
+Inst145Quest4_Note = "Simply step inside the raid instance while in a raid group and use the item to complete the quest.\nIf in a Looking For Raid group, you must defeat all bosses before using the item."
+Inst145Quest4_Prequest = "A Timeless Tour -> Empowering the Hourglass"
+Inst145Quest4_Folgequest = "Refining The Vision"
+Inst145Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst145Quest5 = "5. Refining The Vision"
+Inst145Quest5_Level = "90"
+Inst145Quest5_Attain = "90"
+Inst145Quest5_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
+Inst145Quest5_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
+Inst145Quest5_Note = "Simply step inside the raid instance while in a raid group and use the item to complete the quest. \nIf in a Looking For Raid group, you must defeat all bosses before using the item."
+Inst145Quest5_Prequest = "A Vision in Time"
+Inst145Quest5_Folgequest = "Seeking Fate"
+Inst145Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst145Quest6 = "6. Seeking Fate"
+Inst145Quest6_Level = "90"
+Inst145Quest6_Attain = "90"
+Inst145Quest6_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
+Inst145Quest6_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
+Inst145Quest6_Note = "Simply step inside the raid instance while in a raid group and use the item to complete the quest. \nIf in a Looking For Raid group, you must defeat all bosses before using the item."
+Inst145Quest6_Prequest = "Refining The Vision"
+Inst145Quest6_Folgequest = "Hidden Threads"
+Inst145Quest6FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst145Quest7 = "7. Hidden Threads"
+Inst145Quest7_Level = "90"
+Inst145Quest7_Attain = "90"
+Inst145Quest7_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
+Inst145Quest7_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
+Inst145Quest7_Note = "Simply step inside the raid instance while in a raid group and use the item to complete the quest. \nIf in a Looking For Raid group, you must defeat all bosses before using the item."
+Inst145Quest7_Prequest = "Seeking Fate"
+Inst145Quest7_Folgequest = "Courting Destiny"
+Inst145Quest7FQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst145Quest1_HORDE = Inst145Quest1
@@ -13444,7 +13492,55 @@ Inst145Quest3_HORDE_Location = Inst145Quest3_Location
 Inst145Quest3_HORDE_Note = Inst145Quest3_Note
 Inst145Quest3_HORDE_Prequest = Inst145Quest3_Prequest
 Inst145Quest3_HORDE_Folgequest = Inst145Quest3_Folgequest
-Inst145Quest1PreQuest_HORDE = Inst145Quest1PreQuest
+Inst145Quest3PreQuest_HORDE = Inst145Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst145Quest4_HORDE = Inst145Quest4
+Inst145Quest4_HORDE_Level = Inst145Quest4_Level
+Inst145Quest4_HORDE_Attain = Inst145Quest4_Attain
+Inst145Quest4_HORDE_Aim = Inst145Quest4_Aim
+Inst145Quest4_HORDE_Location = Inst145Quest4_Location
+Inst145Quest4_HORDE_Note = Inst145Quest4_Note
+Inst145Quest4_HORDE_Prequest = Inst145Quest4_Prequest
+Inst145Quest4_HORDE_Folgequest = Inst145Quest4_Folgequest
+Inst145Quest4PreQuest_HORDE = Inst145Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst145Quest5_HORDE = Inst145Quest5
+Inst145Quest5_HORDE_Level = Inst145Quest5_Level
+Inst145Quest5_HORDE_Attain = Inst145Quest5_Attain
+Inst145Quest5_HORDE_Aim = Inst145Quest5_Aim
+Inst145Quest5_HORDE_Location = Inst145Quest5_Location
+Inst145Quest5_HORDE_Note = Inst145Quest5_Note
+Inst145Quest5_HORDE_Prequest = Inst145Quest5_Prequest
+Inst145Quest5_HORDE_Folgequest = Inst145Quest5_Folgequest
+Inst145Quest5FQuest_HORDE = Inst145Quest5FQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst145Quest6_HORDE = Inst145Quest6
+Inst145Quest6_HORDE_Level = Inst145Quest6_Level
+Inst145Quest6_HORDE_Attain = Inst145Quest6_Attain
+Inst145Quest6_HORDE_Aim = Inst145Quest6_Aim
+Inst145Quest6_HORDE_Location = Inst145Quest6_Location
+Inst145Quest6_HORDE_Note = Inst145Quest6_Note
+Inst145Quest6_HORDE_Prequest = Inst145Quest6_Prequest
+Inst145Quest6_HORDE_Folgequest = Inst145Quest6_Folgequest
+Inst145Quest6FQuest_HORDE = Inst145Quest6FQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst145Quest7_HORDE = Inst145Quest7
+Inst145Quest7_HORDE_Level = Inst145Quest7_Level
+Inst145Quest7_HORDE_Attain = Inst145Quest7_Attain
+Inst145Quest7_HORDE_Aim = Inst145Quest7_Aim
+Inst145Quest7_HORDE_Location = Inst145Quest7_Location
+Inst145Quest7_HORDE_Note = Inst145Quest7_Note
+Inst145Quest7_HORDE_Prequest = Inst145Quest7_Prequest
+Inst145Quest7_HORDE_Folgequest = Inst145Quest7_Folgequest
+Inst145Quest7FQuest_HORDE = Inst145Quest7FQuest
 -- No Rewards for this quest
 
 
