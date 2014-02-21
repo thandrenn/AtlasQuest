@@ -7234,6 +7234,18 @@ Inst145Quest2Rewardtext = AQNoReward
 --Quest 3 Alliance
 Inst145Quest3Rewardtext = AQNoReward
 
+--Quest 4 Alliance
+Inst145Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst145Quest5Rewardtext = AQNoReward
+
+--Quest 6 Alliance
+Inst145Quest6Rewardtext = AQNoReward
+
+--Quest 7 Alliance
+Inst145Quest7Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst145Quest1Rewardtext_HORDE = AQNoReward
@@ -7243,6 +7255,18 @@ Inst145Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
 Inst145Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst145Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst145Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst145Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst145Quest7Rewardtext_HORDE = AQNoReward
 
 
 

@@ -2448,20 +2448,30 @@ AQ_32712_Level = "90"
 
 --------------- INST145 - Siege of Orgrimmar ---------------
 
-Inst138Quest1_QuestID = "33105"
-Inst138Quest2_QuestID = "33147"
-Inst138Quest3_QuestID = "33138"
+Inst145Quest1_QuestID = "33105"
+Inst145Quest2_QuestID = "33147"
+Inst145Quest3_QuestID = "33138"
+Inst145Quest4_QuestID = "33337"
+Inst145Quest5_QuestID = "33375"
+Inst145Quest6_QuestID = "33376"
+Inst145Quest7_QuestID = "33377"
 
-Inst138Quest1_HORDE_QuestID = "33105"
-Inst138Quest2_HORDE_QuestID = "33147"
-Inst138Quest3_HORDE_QuestID = "33138"
+Inst145Quest1_HORDE_QuestID = "33105"
+Inst145Quest2_HORDE_QuestID = "33147"
+Inst145Quest3_HORDE_QuestID = "33138"
+Inst145Quest4_HORDE_QuestID = "33337"
+Inst145Quest5_HORDE_QuestID = "33375"
+Inst145Quest6_HORDE_QuestID = "33376"
+Inst145Quest7_HORDE_QuestID = "33377"
 
 
 AQ_33105_Level = "90"
 AQ_33147_Level = "90"
 AQ_33138_Level = "90"
-
-
+AQ_33337_Level = "90"
+AQ_33375_Level = "90"
+AQ_33376_Level = "90"
+AQ_33377_Level = "90"
 
 
 ---------------------------------------------------
