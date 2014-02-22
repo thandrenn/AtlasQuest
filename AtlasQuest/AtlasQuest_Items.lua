@@ -820,26 +820,29 @@ Inst8Quest3ID4_HORDE = "66000"
 Inst9Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst9Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
---ITEM1
-Inst9Quest2ITC1 = Itemc4;
-Inst9Quest2description1 = AQITEM_TWOHAND..AQITEM_SWORD
-Inst9Quest2ID1 = "65982"
---ITEM2
-Inst9Quest2ITC2 = Itemc4;
-Inst9Quest2description2 = AQITEM_TWOHAND..AQITEM_STAFF
-Inst9Quest2ID2 = "66001"
---ITEM3
-Inst9Quest2ITC3 = Itemc4;
-Inst9Quest2description3 = AQITEM_TWOHAND..AQITEM_STAFF
-Inst9Quest2ID3 = "65934"
---ITEM4
-Inst9Quest2ITC4 = Itemc4;
-Inst9Quest2description4 = AQITEM_ONEHAND..AQITEM_DAGGER
-Inst9Quest2ID4 = "65958"
+Inst9Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst9Quest3Rewardtext = AQNoReward
+Inst9Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+--ITEM1
+Inst9Quest3ITC1 = Itemc4;
+Inst9Quest3description1 = AQITEM_TWOHAND..AQITEM_SWORD
+Inst9Quest3ID1 = "65982"
+--ITEM2
+Inst9Quest3ITC2 = Itemc4;
+Inst9Quest3description2 = AQITEM_TWOHAND..AQITEM_STAFF
+Inst9Quest3ID2 = "66001"
+--ITEM3
+Inst9Quest3ITC3 = Itemc4;
+Inst9Quest3description3 = AQITEM_TWOHAND..AQITEM_STAFF
+Inst9Quest3ID3 = "65934"
+--ITEM4
+Inst9Quest3ITC4 = Itemc4;
+Inst9Quest3description4 = AQITEM_ONEHAND..AQITEM_DAGGER
+Inst9Quest3ID4 = "65958"
+
+--Quest 4 Alliance
+Inst9Quest4Rewardtext = AQNoReward
 
 
 --Quest 1 Horde
