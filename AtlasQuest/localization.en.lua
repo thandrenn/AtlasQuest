@@ -1508,84 +1508,93 @@ Inst8Quest3name4_HORDE = Inst8Quest4name4
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
 
 Inst9Caption = "Blackrock Spire (Upper)"
-Inst9QAA = "3 Quests"
+Inst9QAA = "4 Quests"
 Inst9QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst9Quest1 = "1. The False Warchief"
-Inst9Quest1_Level = "59"
+Inst9Quest1 = "1. Blackrock Anomaly"
+Inst9Quest1_Level = "58"
 Inst9Quest1_Attain = "57"
-Inst9Quest1_Aim = "Kill Warchief Rend Blackhand."
-Inst9Quest1_Location = "Acride (Blackrock Spire; "..GREEN.."[1']"..WHITE..")"
-Inst9Quest1_Note = "Warchief Rend Blackhand is at "..YELLOW.."[4]"..WHITE.." within Upper Blackrock Spire."
+Inst9Quest1_Aim = "Find Acride."
+Inst9Quest1_Location = "Helendis Riverhorn (Burning Steppes - Morgan's Vigil; "..YELLOW.."73.4, 66.2"..WHITE..")"
+Inst9Quest1_Note = "Acride is inside the instance at "..GREEN.."['1]"..WHITE.."."
 Inst9Quest1_Prequest = "None"
 Inst9Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst9Quest2 = "2. General Drakkisath, Hand of Nefarian"
-Inst9Quest2_Level = "60"
+Inst9Quest2 = "2. The False Warchief"
+Inst9Quest2_Level = "59"
 Inst9Quest2_Attain = "57"
-Inst9Quest2_Aim = "Kill General Drakkisath."
+Inst9Quest2_Aim = "Kill Warchief Rend Blackhand."
 Inst9Quest2_Location = "Acride (Blackrock Spire; "..GREEN.."[1']"..WHITE..")"
-Inst9Quest2_Note = "General Drakkisath is at "..YELLOW.."[6]"..WHITE.." within Upper Blackrock Spire."
+Inst9Quest2_Note = "Warchief Rend Blackhand is at "..YELLOW.."[4]"..WHITE.." within Upper Blackrock Spire."
 Inst9Quest2_Prequest = "None"
 Inst9Quest2_Folgequest = "None"
---
-Inst9Quest2name1 = "Sword of Nefarian's Hand"
-Inst9Quest2name2 = "Aeyla's Staff"
-Inst9Quest2name3 = "Staff of the Second Orb"
-Inst9Quest2name4 = "Vaelan's Claw"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst9Quest3 = "3. Blackhand's Command"
+Inst9Quest3 = "3. General Drakkisath, Hand of Nefarian"
 Inst9Quest3_Level = "60"
-Inst9Quest3_Attain = "55"
-Inst9Quest3_Aim = "That is one stupid orc. It would appear as if you need to find this brand and gain the Mark of Drakkisath in order to access the Orb of Command."
-Inst9Quest3_Location = "Blackhand's Command (drops from Scarshield Quartermaster at Blackrock Mountain; "..DARKYELLOW.."[1']"..WHITE..")"
-Inst9Quest3_Note = "The Scarshield Quartermaster that drops the item to start the quest is outside the instance in Blackrock Mountain. He is down a hallway to the right of the entrance to the instance.\n\nThe Mark of Drakkisath is behind General Drakkisath at "..YELLOW.."[6]"..WHITE.." within Upper Blackrock Spire."
+Inst9Quest3_Attain = "57"
+Inst9Quest3_Aim = "Kill General Drakkisath."
+Inst9Quest3_Location = "Acride (Blackrock Spire; "..GREEN.."[1']"..WHITE..")"
+Inst9Quest3_Note = "General Drakkisath is at "..YELLOW.."[6]"..WHITE.." within Upper Blackrock Spire."
 Inst9Quest3_Prequest = "None"
 Inst9Quest3_Folgequest = "None"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst9Quest1_HORDE = Inst9Quest1
-Inst9Quest1_HORDE_Level = Inst9Quest1_Level
-Inst9Quest1_HORDE_Attain = Inst9Quest1_Attain
-Inst9Quest1_HORDE_Aim = Inst9Quest1_Aim
-Inst9Quest1_HORDE_Location = Inst9Quest1_Location
-Inst9Quest1_HORDE_Note = Inst9Quest1_Note
-Inst9Quest1_HORDE_Prequest = Inst9Quest1_Prequest
-Inst9Quest1_HORDE_Folgequest = Inst9Quest1_Folgequest
--- No Rewards for this quest
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst9Quest2_HORDE = Inst9Quest2
-Inst9Quest2_HORDE_Level = Inst9Quest2_Level
-Inst9Quest2_HORDE_Attain = Inst9Quest2_Attain
-Inst9Quest2_HORDE_Aim = Inst9Quest2_Aim
-Inst9Quest2_HORDE_Location = Inst9Quest2_Location
-Inst9Quest2_HORDE_Note = Inst9Quest2_Note
-Inst9Quest2_HORDE_Prequest = Inst9Quest2_Prequest
-Inst9Quest2_HORDE_Folgequest = Inst9Quest2_Folgequest
-Inst9Quest2PreQuest_HORDE = Inst9Quest2PreQuest
-Inst9Quest2FQuest_HORDE = Inst9Quest2FQuest
 --
-Inst9Quest2name1_HORDE = Inst9Quest2name1
-Inst9Quest2name2_HORDE = Inst9Quest2name2
-Inst9Quest2name3_HORDE = Inst9Quest2name3
-Inst9Quest2name4_HORDE = Inst9Quest2name4
+Inst9Quest3name1 = "Sword of Nefarian's Hand"
+Inst9Quest3name2 = "Aeyla's Staff"
+Inst9Quest3name3 = "Staff of the Second Orb"
+Inst9Quest3name4 = "Vaelan's Claw"
 
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst9Quest3_HORDE = Inst9Quest3
-Inst9Quest3_HORDE_Level = Inst9Quest3_Level
-Inst9Quest3_HORDE_Attain = Inst9Quest3_Attain
-Inst9Quest3_HORDE_Aim = Inst9Quest3_Aim
-Inst9Quest3_HORDE_Location = Inst9Quest3_Location
-Inst9Quest3_HORDE_Note = Inst9Quest3_Note
-Inst9Quest3_HORDE_Prequest = Inst9Quest3_Prequest
-Inst9Quest3_HORDE_Folgequest = Inst9Quest3_Folgequest
+--Quest 4 Alliance
+Inst9Quest4 = "4. Blackhand's Command"
+Inst9Quest4_Level = "60"
+Inst9Quest4_Attain = "55"
+Inst9Quest4_Aim = "That is one stupid orc. It would appear as if you need to find this brand and gain the Mark of Drakkisath in order to access the Orb of Command."
+Inst9Quest4_Location = "Blackhand's Command (drops from Scarshield Quartermaster at Blackrock Mountain; "..DARKYELLOW.."[1']"..WHITE..")"
+Inst9Quest4_Note = "The Scarshield Quartermaster that drops the item to start the quest is outside the instance in Blackrock Mountain. He is down a hallway to the right of the entrance to the instance.\n\nThe Mark of Drakkisath is behind General Drakkisath at "..YELLOW.."[6]"..WHITE.." within Upper Blackrock Spire."
+Inst9Quest4_Prequest = "None"
+Inst9Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 2 Alliance)
+Inst9Quest1_HORDE = "1. The False Warchief"
+Inst9Quest1_HORDE_Level = Inst9Quest2_Level
+Inst9Quest1_HORDE_Attain = Inst9Quest2_Attain
+Inst9Quest1_HORDE_Aim = Inst9Quest2_Aim
+Inst9Quest1_HORDE_Location = Inst9Quest2_Location
+Inst9Quest1_HORDE_Note = Inst9Quest2_Note
+Inst9Quest1_HORDE_Prequest = Inst9Quest2_Prequest
+Inst9Quest1_HORDE_Folgequest = Inst9Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 3 Alliance)
+Inst9Quest2_HORDE = "2. General Drakkisath, Hand of Nefarian"
+Inst9Quest2_HORDE_Level = Inst9Quest3_Level
+Inst9Quest2_HORDE_Attain = Inst9Quest3_Attain
+Inst9Quest2_HORDE_Aim = Inst9Quest3_Aim
+Inst9Quest2_HORDE_Location = Inst9Quest3_Location
+Inst9Quest2_HORDE_Note = Inst9Quest3_Note
+Inst9Quest2_HORDE_Prequest = Inst9Quest3_Prequest
+Inst9Quest2_HORDE_Folgequest = Inst9Quest3_Folgequest
+--
+Inst9Quest2name1_HORDE = Inst9Quest3name1
+Inst9Quest2name2_HORDE = Inst9Quest3name2
+Inst9Quest2name3_HORDE = Inst9Quest3name3
+Inst9Quest2name4_HORDE = Inst9Quest3name4
+
+--Quest 3 Horde  (same as Quest 4 Alliance)
+Inst9Quest3_HORDE = "3. Blackhand's Command"
+Inst9Quest3_HORDE_Level = Inst9Quest4_Level
+Inst9Quest3_HORDE_Attain = Inst9Quest4_Attain
+Inst9Quest3_HORDE_Aim = Inst9Quest4_Aim
+Inst9Quest3_HORDE_Location = Inst9Quest4_Location
+Inst9Quest3_HORDE_Note = Inst9Quest4_Note
+Inst9Quest3_HORDE_Prequest = Inst9Quest4_Prequest
+Inst9Quest3_HORDE_Folgequest = Inst9Quest4_Folgequest
 -- No Rewards for this quest
 
 
@@ -13417,7 +13426,7 @@ Inst145Quest4_Level = "90"
 Inst145Quest4_Attain = "90"
 Inst145Quest4_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
 Inst145Quest4_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
-Inst145Quest4_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete the LFR before using the item."
+Inst145Quest4_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
 Inst145Quest4_Prequest = "A Timeless Tour -> Empowering the Hourglass"
 Inst145Quest4_Folgequest = "Refining The Vision"
 Inst145Quest4PreQuest = "true"
@@ -13429,7 +13438,7 @@ Inst145Quest5_Level = "90"
 Inst145Quest5_Attain = "90"
 Inst145Quest5_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
 Inst145Quest5_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
-Inst145Quest5_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete the LFR before using the item."
+Inst145Quest5_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
 Inst145Quest5_Prequest = "A Vision in Time"
 Inst145Quest5_Folgequest = "Seeking Fate"
 Inst145Quest5FQuest = "true"
@@ -13441,7 +13450,7 @@ Inst145Quest6_Level = "90"
 Inst145Quest6_Attain = "90"
 Inst145Quest6_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
 Inst145Quest6_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
-Inst145Quest6_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete the LFR before using the item."
+Inst145Quest6_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
 Inst145Quest6_Prequest = "Refining The Vision"
 Inst145Quest6_Folgequest = "Hidden Threads"
 Inst145Quest6FQuest = "true"
@@ -13453,7 +13462,7 @@ Inst145Quest7_Level = "90"
 Inst145Quest7_Attain = "90"
 Inst145Quest7_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
 Inst145Quest7_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
-Inst145Quest7_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete the LFR before using the item."
+Inst145Quest7_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
 Inst145Quest7_Prequest = "Seeking Fate"
 Inst145Quest7_Folgequest = "Courting Destiny"
 Inst145Quest7FQuest = "true"

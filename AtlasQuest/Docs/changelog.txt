@@ -2,13 +2,14 @@
 Changelog
 =========
 
-Version 4.8.8  (February ??, 2014)
+Version 4.8.8  (February 23, 2014)
 
 - Fixes in deDE localization.
 - Translation files for Simplified Chinese, Traditional Chinese and Russian are no longer being loaded.  They haven't been maintained in over a year.  The files will remain in the release however, in case anyone wishes to use them.
 - Fixed a few boring typos.
 
 - Added quests:
+	- Upper Blackrock Spire: Blackrock Anomaly   (thanks Burkhard!)
 	- Siege of Orgrimmar: A Vision in Time
 	- Siege of Orgrimmar: Refining The Vision
 	- Siege of Orgrimmar: Seeking Fate
