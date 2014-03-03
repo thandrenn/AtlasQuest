@@ -2419,7 +2419,7 @@ Inst14Quest1_HORDE_Attain = "60"
 Inst14Quest1_HORDE_Aim = Inst14Quest1_Aim
 Inst14Quest1_HORDE_Location = Inst14Quest1_Location
 Inst14Quest1_HORDE_Note = Inst14Quest1_Note
-Inst14Quest1_HORDE_Prequest = Inst26Quest1_Prequest
+Inst14Quest1_HORDE_Prequest = Inst14Quest1_Prequest
 Inst14Quest1_HORDE_Folgequest = "Donnerzorn erwache!"
 Inst14Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
@@ -4086,7 +4086,7 @@ Inst25Quest4_Level = "54"
 Inst25Quest4_Attain = "50"
 Inst25Quest4_Aim = "Tötet Eranikus."
 Inst25Quest4_Location = Inst25Quest1_Note
-Inst25Quest4_Note = "Eranikus' Schemen ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst25Quest4_Note = "Eranikus Schemen ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst25Quest4_Prequest = "Nein"
 Inst25Quest4_Folgequest = "Nein"
 --
@@ -4094,7 +4094,7 @@ Inst25Quest4name1 = "Essenz des Schemens von Eranikus"
 
 
 --Quest 1 Horde
-Inst25Quest1_HORDE = "1. Der Tempel von Atal'Hakkar"
+Inst25Quest1_HORDE = Inst25Quest1
 Inst25Quest1_HORDE_Level = "54"
 Inst25Quest1_HORDE_Attain = "52"
 Inst25Quest1_HORDE_Aim = Inst25Quest1_Aim
@@ -4106,7 +4106,7 @@ Inst25Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst25Quest2_HORDE = "2. Der versunkene Tempel"
+Inst25Quest2_HORDE = Inst25Quest2
 Inst25Quest2_HORDE_Level = "54"
 Inst25Quest2_HORDE_Attain = "50"
 Inst25Quest2_HORDE_Aim = Inst25Quest2_Aim
@@ -4191,7 +4191,7 @@ Inst26Quest4_Level = "60"
 Inst26Quest4_Attain = "60"
 Inst26Quest4_Aim = "Bring eine Insigne des Qirajilords zu Kandrostrasz im Tempel von Ahn'Qiraj."
 Inst26Quest4_Location = "Kandrostrasz (Tempel von Ahn'Qiraj; "..GREEN.."[1']"..WHITE..")."
-Inst26Quest4_Note = "Dies ist eine wiederholbare Quest um Ruf bei den Zirkel des Cenarius zu machen. Die Insigne des Qirajilords droppen von allen Bossen innerhalb der Instanz. Kandrostrasz kann man im Raum hinter dem ersten Boss finden."
+Inst26Quest4_Note = "Dies ist eine wiederholbare Quest um Ruf beim Zirkel des Cenarius zu machen. Die Insigne des Qirajilords droppen von allen Bossen innerhalb der Instanz. Kandrostrasz befindet sich im Raum hinter dem ersten Boss."
 Inst26Quest4_Prequest = "Nein"
 Inst26Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
