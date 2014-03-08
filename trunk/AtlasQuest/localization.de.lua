@@ -5672,11 +5672,11 @@ Inst44Quest1 = "1. Alles wird gut"
 Inst44Quest1_Level = "67"
 Inst44Quest1_Attain = "64"
 Inst44Quest1_Aim = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und mit dem Draeneigeist spricht."
-Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35.0,65.2"..WHITE..")"
+Inst44Quest1_Location = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35.0,65.2"..WHITE..")\nGroßvater Aldrimus erscheint erst wenn Du die Questen absolviert hast die mit Ha'lei beginnen bei (Wälder von Terokkar; "..YELLOW.."35.0,65.2"..WHITE..")."
 Inst44Quest1_Note = "Der Draeneigeist ist innerhalb der Instanz am Eingang."
-Inst44Quest1_Prequest = "Nein"
+Inst44Quest1_Prequest = "Ich sehe tote Draenei -> Levixus der Seelenrufer"
 Inst44Quest1_Folgequest = "Das Ende des Exarchen"
-Inst44Quest1FQuest = "true"
+Inst44Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -5737,7 +5737,7 @@ Inst44Quest1_HORDE_Attain = "64"
 Inst44Quest1_HORDE_Aim = Inst44Quest1_Aim
 Inst44Quest1_HORDE_Location = Inst44Quest1_Location
 Inst44Quest1_HORDE_Note = Inst44Quest1_Note
-Inst44Quest1_HORDE_Prequest = "Nein"
+Inst44Quest1_HORDE_Prequest = Inst44Quest1_Prequest
 Inst44Quest1_HORDE_Folgequest = "Das Ende des Exarchen"
 Inst44Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
