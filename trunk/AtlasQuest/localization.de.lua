@@ -6721,7 +6721,7 @@ Inst51Quest5 = "5. Netter Hut..."
 Inst51Quest5_Level = "68"
 Inst51Quest5_Attain = "66"
 Inst51Quest5_Aim = "Don Carlos hat Euch versehentlich dazu herausgefordert, sein jüngeres Ich im Alten Hügelland zu besiegen. Bringt ihm anschließend seinen Hut als Beweis. Er befindet sich in Tanaris. "
-Inst51Quest5_Location = "Don Carlos (Tanaris; "..YELLOW.."54,29"..WHITE..")"
+Inst51Quest5_Location = "Don Carlos (Tanaris; "..YELLOW.."50,27"..WHITE..")"
 Inst51Quest5_Note = "Don Carlos wandert auf der Straße nahe "..YELLOW.."[4]"..WHITE.." entlang."
 Inst51Quest5_Prequest = "Nein"
 Inst51Quest5_Folgequest = "Nein"
@@ -7515,13 +7515,13 @@ Inst55Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst55Quest4_HORDE = Inst55Quest2
+Inst55Quest4_HORDE = Inst55Quest4
 Inst55Quest4_HORDE_Level = "70"
 Inst55Quest4_HORDE_Attain = "67"
-Inst55Quest4_HORDE_Aim = Inst55Quest2_Aim
-Inst55Quest4_HORDE_Location = Inst55Quest2_Location
-Inst55Quest4_HORDE_Note = Inst55Quest2_Note
-Inst55Quest4_HORDE_Prequest = Inst55Quest2_Prequest
+Inst55Quest4_HORDE_Aim = Inst55Quest4_Aim
+Inst55Quest4_HORDE_Location = Inst55Quest4_Location
+Inst55Quest4_HORDE_Note = Inst55Quest4_Note
+Inst55Quest4_HORDE_Prequest = Inst55Quest4_Prequest
 Inst55Quest4_HORDE_Folgequest = "Nein"
 Inst55Quest4PreQuest_HORDE = "true"
 --
