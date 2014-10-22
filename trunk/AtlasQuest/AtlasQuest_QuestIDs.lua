@@ -531,21 +531,17 @@ Inst58Quest1_QuestID = "31513"
 Inst58Quest2_QuestID = "31515"
 Inst58Quest3_QuestID = "31514"
 Inst58Quest4_QuestID = "31516"
-Inst58Quest5_QuestID = "32005"
 
 Inst58Quest1_HORDE_QuestID = "31513"
 Inst58Quest2_HORDE_QuestID = "31515"
 Inst58Quest3_HORDE_QuestID = "31514"
 Inst58Quest4_HORDE_QuestID = "31516"
-Inst58Quest5_HORDE_QuestID = "31526"
 
 
 AQ_31513_Level = "34"
 AQ_31515_Level = "90"
 AQ_31514_Level = "34"
 AQ_31516_Level = "90"
-AQ_32005_Level = "90"
-AQ_31526_Level = "90"
 
 
 
@@ -555,21 +551,17 @@ Inst59Quest1_QuestID = "31513"
 Inst59Quest2_QuestID = "31515"
 Inst59Quest3_QuestID = "31514"
 Inst59Quest4_QuestID = "31516"
-Inst59Quest5_QuestID = "32006"
 
 Inst59Quest1_HORDE_QuestID = "31513"
 Inst59Quest2_HORDE_QuestID = "31515"
 Inst59Quest3_HORDE_QuestID = "31514"
 Inst59Quest4_HORDE_QuestID = "31516"
-Inst59Quest5_HORDE_QuestID = "31527"
 
 
 AQ_31513_Level = "34"
 AQ_31515_Level = "90"
 AQ_31514_Level = "34"
 AQ_31516_Level = "90"
-AQ_32006_Level = "90"
-AQ_31527_Level = "90"
 
 
 
@@ -580,14 +572,12 @@ Inst20Quest2_QuestID = "31442"
 Inst20Quest3_QuestID = "31447"
 Inst20Quest4_QuestID = "31448"
 Inst20Quest5_QuestID = "28756"
-Inst20Quest6_QuestID = "32007"
 
 Inst20Quest1_HORDE_QuestID = "31440"
 Inst20Quest2_HORDE_QuestID = "31442"
 Inst20Quest3_HORDE_QuestID = "31447"
 Inst20Quest4_HORDE_QuestID = "31448"
 Inst20Quest5_HORDE_QuestID = "28756"
-Inst20Quest6_HORDE_QuestID = "31528"
 
 
 AQ_31440_Level = "43"
@@ -595,8 +585,6 @@ AQ_31442_Level = "90"
 AQ_31447_Level = "43"
 AQ_31448_Level = "90"
 AQ_28756_Level = "42"
-AQ_32007_Level = "90"
-AQ_31528_Level = "90"
 
 
 
@@ -2252,17 +2240,13 @@ AQ_30118_Level = "85"
 
 Inst114Quest1_QuestID = "31357"
 Inst114Quest2_QuestID = "31360"
-Inst114Quest3_QuestID = "32002"
 
 Inst114Quest1_HORDE_QuestID = "31357"
 Inst114Quest2_HORDE_QuestID = "31360"
-Inst114Quest3_HORDE_QuestID = "31523"
 
 
 AQ_31357_Level = "89"
 AQ_31360_Level = "89"
-AQ_32002_Level = "90"
-AQ_31523_Level = "90"
 
 
 
@@ -2271,19 +2255,15 @@ AQ_31523_Level = "90"
 Inst115Quest1_QuestID = "31031"
 Inst115Quest2_QuestID = "30757"
 Inst115Quest3_QuestID = "31342"
-Inst115Quest4_QuestID = "32001"
 
 Inst115Quest1_HORDE_QuestID = "31031"
 Inst115Quest2_HORDE_QuestID = "30757"
 Inst115Quest3_HORDE_QuestID = "31342"
-Inst115Quest4_HORDE_QuestID = "31522"
 
 
 AQ_31031_Level = "88"
 AQ_30757_Level = "89"
 AQ_31342_Level = "89"
-AQ_32001_Level = "90"
-AQ_31522_Level = "90"
 
 
 
@@ -2293,21 +2273,17 @@ Inst116Quest1_QuestID = "30085"
 Inst116Quest2_QuestID = "31327"
 Inst116Quest3_QuestID = "31324"
 Inst116Quest4_QuestID = "33024"
-Inst116Quest5_QuestID = "32000"
 
 Inst116Quest1_HORDE_QuestID = "30085"
 Inst116Quest2_HORDE_QuestID = "31327"
 Inst116Quest3_HORDE_QuestID = "31324"
 Inst116Quest4_HORDE_QuestID = "33024"
-Inst116Quest5_HORDE_QuestID = "31519"
 
 
 AQ_30085_Level = "87"
 AQ_31327_Level = "87"
 AQ_31324_Level = "87"
 AQ_33024_Level = "90"
-AQ_32000_Level = "90"
-AQ_31519_Level = "90"
 
 
 
@@ -2317,21 +2293,17 @@ Inst117Quest1_QuestID = "31355"
 Inst117Quest2_QuestID = "31356"
 Inst117Quest3_QuestID = "33020"
 Inst117Quest4_QuestID = "33107"
-Inst117Quest5_QuestID = "31998"
 
 Inst117Quest1_HORDE_QuestID = "31355"
 Inst117Quest2_HORDE_QuestID = "31356"
 Inst117Quest3_HORDE_QuestID = "33020"
 Inst117Quest4_HORDE_QuestID = "33107"
-Inst117Quest5_HORDE_QuestID = "31520"
 
 
 AQ_31355_Level = "87"
 AQ_31356_Level = "87"
 AQ_33020_Level = "90"
 AQ_33107_Level = "90"
-AQ_31998_Level = "90"
-AQ_31520_Level = "90"
 
 
 
@@ -2339,17 +2311,13 @@ AQ_31520_Level = "90"
 
 Inst118Quest1_QuestID = "31363"
 Inst118Quest2_QuestID = "31364"
-Inst118Quest3_QuestID = "32003"
 
 Inst118Quest1_HORDE_QuestID = "31363"
 Inst118Quest2_HORDE_QuestID = "31364"
-Inst118Quest3_HORDE_QuestID = "31524"
 
 
 AQ_31363_Level = "90"
 AQ_31364_Level = "90"
-AQ_32003_Level = "90"
-AQ_31524_Level = "90"
 
 
 
@@ -2357,17 +2325,13 @@ AQ_31524_Level = "90"
 
 Inst119Quest1_QuestID = "31365"
 Inst119Quest2_QuestID = "31366"
-Inst119Quest3_QuestID = "32004"
 
 Inst119Quest1_HORDE_QuestID = "31365"
 Inst119Quest2_HORDE_QuestID = "31366"
-Inst119Quest3_HORDE_QuestID = "31525"
 
 
 AQ_31365_Level = "90"
 AQ_31366_Level = "90"
-AQ_32004_Level = "90"
-AQ_31525_Level = "90"
 
 
 
@@ -2476,6 +2440,59 @@ AQ_33376_Level = "90"
 AQ_33377_Level = "90"
 
 
+
+--------------- INST146 - Auchindoun ---------------
+--[[
+Inst146Quest1_QuestID = ""
+Inst146Quest2_QuestID = ""
+Inst146Quest3_QuestID = ""
+Inst146Quest4_QuestID = ""
+Inst146Quest5_QuestID = ""
+
+Inst146Quest1_HORDE_QuestID = ""
+Inst146Quest2_HORDE_QuestID = ""
+Inst146Quest3_HORDE_QuestID = ""
+Inst146Quest4_HORDE_QuestID = ""
+Inst146Quest5_HORDE_QuestID = ""
+
+
+AQ__Level = "100"
+AQ__Level = "100"
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+--]]
+
+
+--------------- INST147 - Skyreach ---------------
+
+
+--------------- INST148 - Bloodmaul Slag Mines ---------------
+
+
+--------------- INST149 - Iron Docks ---------------
+
+
+--------------- INST150 - The Everbloom ---------------
+
+
+--------------- INST151 - Grimrail Depot ---------------
+
+
+--------------- INST152 - Shadowmoon Burial Grounds ---------------
+
+
+--------------- INST153 - Upper Blackrock Spire ---------------
+
+
+--------------- INST154 - Highmaul ---------------
+
+
+--------------- INST155 - Blackrock Foundry ---------------
+
+
+
+
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------
 ---------------------------------------------------
@@ -2579,6 +2596,16 @@ AQ_32251_Level = "90"
 --------------- INST144 - Troves of the Thunder King ---------------
 
 
+--------------- INST157 - The Trial of Faith ---------------
+
+
+--------------- INST158 - The Purge of Grommar ---------------
+
+
+--------------- INST159 - The Coliseum ---------------
+
+
+--------------- INST160 - The Battle of Thunder Pass ---------------
 
 
 

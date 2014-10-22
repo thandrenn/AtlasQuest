@@ -2,7 +2,28 @@
 Changelog
 =========
 
-Version 4.8.8  (February 23, 2014)
+Version 4.9.0 (BETA)  (October 22, 2014)
+
+- Compatibility and TOC file updates for Patch 6.0.2
+- Removed all Challenge Mode quests (deleted in patch 6.0.2)
+- Removed all references to Justice and Valor points.  May they rest in peace.
+- Warlords of Draenor quests will be added in the next release.  I don't have enough information for them at this time.
+
+
+
+Version 4.8.8b  (April 13, 2014)
+
+- Fixes in deDE localization for End Time and Well of Eternity quests.
+
+
+
+Version 4.8.8a  (March 9, 2014)
+
+- Fixes in deDE localization for Auchenai Crypts and Botanica.
+
+
+
+Version 4.8.8  (February 25, 2014)
 
 - Fixes in deDE localization.
 - Translation files for Simplified Chinese, Traditional Chinese and Russian are no longer being loaded.  They haven't been maintained in over a year.  The files will remain in the release however, in case anyone wishes to use them.
