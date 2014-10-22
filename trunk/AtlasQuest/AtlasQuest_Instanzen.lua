@@ -320,6 +320,55 @@ function AtlasQuest_Instanzenchecken()
 		
 	-- Mists of Pandaria Instances
 
+	--  temporarily retaining both naming forms for backwards compatibility
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MoguShanPalace") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanPalace") then
+		AQINSTANZ = 114;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadoPanMonasteryA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadoPanMonasteryB") then
+		AQINSTANZ = 115;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StormstoutBrewery") then
+		AQINSTANZ = 116;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempleOfTheJadeSerpent") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempleoftheJadeSerpent") then
+		AQINSTANZ = 117;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GateoftheSettingSun") then
+		AQINSTANZ = 118;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTempleA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTempleB") then
+		AQINSTANZ = 119;
+
+	--  temporarily retaining both naming forms for backwards compatibility
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MoguShanVaults") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanVaults") then
+		AQINSTANZ = 120;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TerraceofEndlessSpring") then
+		AQINSTANZ = 121;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HeartofFear") then
+		AQINSTANZ = 122;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ScarletMonastery") then
+		AQINSTANZ = 58;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ScarletHalls") then
+		AQINSTANZ = 59;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Scholomance") then
+		AQINSTANZ = 20;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderD") then
+		AQINSTANZ = 138;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarD") then
+		AQINSTANZ = 145;
+
+		
+		
+		-- Mists of Pandaria Instances
+
+
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\MoguShanPalace") then
 		AQINSTANZ = 114;
 
