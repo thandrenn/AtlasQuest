@@ -168,7 +168,7 @@ local AQactiveWindow = ChatEdit_GetActiveWindow();
    else
      AQHideAL();
 --     StoryTEXT:SetText("");
-     if (AtlasQuestInsideFrame:IsVisible() == nil) then
+     if (AtlasQuestInsideFrame:IsVisible() == false) then
          ShowUIPanel(AtlasQuestInsideFrame);
          WHICHBUTTON = AQSHOWNQUEST;
          AQButton_SetText();
@@ -394,7 +394,7 @@ end
 -----------------------------------------------------------------------------
 -- improve the localisation through giving back the right and translated questname
 -- sets the description text too
--- adds a error messeage to the description if item not available
+-- adds a error message to the description if item not available
 -----------------------------------------------------------------------------
 function AQgetItemInformation(count,what)
 local itemId
@@ -436,8 +436,8 @@ end
 
 
 -----------------------------------------------------------------------------
--- set the Questcolour
--- swaped out to get the code clear
+-- Set the Quest Name color
+-- swapped out to get the code clear
 -----------------------------------------------------------------------------
 function AQColourCheck(arg1)
  local AQQuestlevelf

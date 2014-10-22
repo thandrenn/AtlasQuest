@@ -320,49 +320,83 @@ function AtlasQuest_Instanzenchecken()
 		
 	-- Mists of Pandaria Instances
 
-	--  temporarily retaining both naming forms for backwards compatibility
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MoguShanPalace") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanPalace") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\MoguShanPalace") then
 		AQINSTANZ = 114;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadoPanMonasteryA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadoPanMonasteryB") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ShadoPanMonasteryA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ShadoPanMonasteryB") then
 		AQINSTANZ = 115;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StormstoutBrewery") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\StormstoutBrewery") then
 		AQINSTANZ = 116;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempleOfTheJadeSerpent") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempleoftheJadeSerpent") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\TempleOfTheJadeSerpent") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\TempleoftheJadeSerpent") then
 		AQINSTANZ = 117;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GateoftheSettingSun") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\GateoftheSettingSun") then
 		AQINSTANZ = 118;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTempleA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofNiuzaoTempleB") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofNiuzaoTempleA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofNiuzaoTempleB") then
 		AQINSTANZ = 119;
 
-	--  temporarily retaining both naming forms for backwards compatibility
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MoguShanVaults") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MogushanVaults") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\MoguShanVaults") then
 		AQINSTANZ = 120;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TerraceofEndlessSpring") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\TerraceofEndlessSpring") then
 		AQINSTANZ = 121;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HeartofFear") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\HeartofFear") then
 		AQINSTANZ = 122;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ScarletMonastery") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ScarletMonastery") then
 		AQINSTANZ = 58;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ScarletHalls") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ScarletHalls") then
 		AQINSTANZ = 59;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Scholomance") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\Scholomance") then
 		AQINSTANZ = 20;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ThroneofThunderD") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderD") then
 		AQINSTANZ = 138;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SiegeofOrgrimmarD") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofOrgrimmarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofOrgrimmarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofOrgrimmarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofOrgrimmarD") then
 		AQINSTANZ = 145;
+
+		
+	-- Warlords of Draenor Instances
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Auchindoun") then
+		AQINSTANZ = 146;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Skyreach") then
+		AQINSTANZ = 147;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BloodmaulSlagMines") then
+		AQINSTANZ = 148;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IronDocks") then
+		AQINSTANZ = 149;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheEverbloom") then
+		AQINSTANZ = 150;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GrimrailDepot") then
+		AQINSTANZ = 151;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ShadowmoonBurialGrounds") then
+		AQINSTANZ = 152;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UpperBlackrockSpire") then
+		AQINSTANZ = 153;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Highmaul") then
+		AQINSTANZ = 154;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockFoundry") then
+		AQINSTANZ = 155;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Draenor") then
+		AQINSTANZ = 156;
 
 		
 	-- Scenarios
@@ -420,6 +454,18 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TrovesoftheThunderKing") then
 		AQINSTANZ = 144;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheTrialofFaith") then
+		AQINSTANZ = 157;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ThePurgeofGrommar") then
+		AQINSTANZ = 158;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheColiseum") then
+		AQINSTANZ = 158;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheBattleofThunderPass") then
+		AQINSTANZ = 160;
 
 	
 	-- Battlegrounds
@@ -939,4 +985,21 @@ end
 -- 143 = BATTLEGROUND: Deepwind Gorge
 -- 144 = SCENARIO: Troves of the Thunder King
 -- 145 = Siege of Orgrimmar
+
+-- 146 = DUNGEON: Auchindoun
+-- 147 = DUNGEON: Skyreach
+-- 148 = DUNGEON: Bloodmaul Slag Mines
+-- 149 = DUNGEON: Iron Docks
+-- 150 = DUNGEON: The Everbloom
+-- 151 = DUNGEON: Grimrail Depot
+-- 152 = DUNGEON: Shadowmoon Burial Grounds
+-- 153 = DUNGEON: Upper Blackrock Spire
+-- 154 = RAID: Highmaul
+-- 155 = RAID: Blackrock Foundry
+-- 156 = RAID: Draenor
+-- 157 = SCENARIO: The Trial of Faith
+-- 158 = SCENARIO: The Purge of Grommar
+-- 159 = SCENARIO: The Coliseum
+-- 160 = SCENARIO: The Battle of Thunder Pass
+
 

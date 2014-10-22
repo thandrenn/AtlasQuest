@@ -10,23 +10,30 @@ Forums at http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 About AtlasQuest:
 =================
 
-AtlasQuest is an addon for Atlas that displays a list of 
-quests for each dungeon, battleground and outdoor raid along with 
-information and rewards for those quests. 
+AtlasQuest is an addon for a World of Warcraft addon called Atlas.
+It contains information and a list of quests for the Dungeons, Raids,
+Battlegrounds and Scenarios.
 
-AtlasQuest was originally created by Asurn. It is currently maintained
-by Thandrenn (aka Mystery8).
+AtlasQuest was originally created by Asurn in 2006.  It was updated
+for the Burning Crusade expansion by Lothaer and Rabidmax.  Since July
+2007 it has been maintained and updated by Thandrenn (aka Mystery8).
 
-Data for AtlasQuest is gathered either first-hand in the game or from
-WoWhead.com or WoWpedia.org.
+Over the years there have been various contributions by others.  I've
+tried to make note of them in the changelog.txt where possible.
+
+Information for AtlasQuest is gathered either first-hand in the game 
+or from websites such as WoWhead.com or WoWpedia.org.
 
 
 
 Translations:
 =============
 
+Currently Maintained:
 EN: Thandrenn  (previously Asurn and Lothaer)
 DE: Guldukat  (previously Asurn, Nihlo, Telchar and Nalumis)
+
+No longer updated:
 CN: yeachan and Ananhaid (previously DIY)
 TW: Jill
 RU: EvgeshaH (Non-WOTLK by lorientalas)

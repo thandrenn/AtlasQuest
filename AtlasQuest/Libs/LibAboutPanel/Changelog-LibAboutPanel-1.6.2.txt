@@ -1,0 +1,14 @@
+tag 1.6.2
+e743f592e563e367298e12ccc2180511d38ca201
+James D. Callahan III <jcallahan@curse.com>
+2014-08-05 19:23:59 -0500
+
+
+
+--------------------
+
+James D. Callahan III:
+	- Minor formatting fixes.
+	- Remove all references to Donate, X-Donate...no idea why this wasn't done back on 2010... :/
+Phanx:
+	- - The panel name in the category list is now localized. - The field titles in the panel itself are also localized (currently translated only for English, German, and Spanish). - The License field also includes the Copyright field if one is present. - The Website field trims the http:// prefix to save space (only from the displayed text, not from the copy box). - The link color is now a brighter blue, so it's easier to read than the previous grayish purple. - Cleaned up old TOC fields (eg. X-Embed was for the long-defunct WowAceUpdater) and updated for the current Interface version.

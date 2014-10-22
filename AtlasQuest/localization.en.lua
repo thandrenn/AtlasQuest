@@ -42,8 +42,6 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --- OPTIONS ---
 ---------------
 
-AQHelpText = ""..WHITE.."type /aq or atlasquest "..YELLOW.."[command]"..WHITE.."\ncommands: help; option/config; show/hide; left/right; colour; autoshow"..RED.."(only Atlas)"
---
 AQOptionsCaptionTEXT = ""..YELLOW.."AtlasQuest Options";
 AQ_OK = "OK"
 
@@ -93,8 +91,6 @@ AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be 
 AQOptionB = "Options"
 AQNoReward = ""..BLUE.." No Rewards"
 AQClassRewards = ""..BLUE.." Reward varies for each class."
-AQJusticePoints = ""..WHITE.." Justice Points"
-AQValorPoints = ""..WHITE.." Valor Points"
 AQDiscription_REWARD = ""..BLUE.." Reward: "
 AQDiscription_OR = ""..GREY.." or "..WHITE..""
 AQDiscription_AND = ""..GREY.." and "..WHITE..""
@@ -148,7 +144,6 @@ AQITEM_TWOHAND = "Two-Hand,"
 
 AQITEM_ITEM = "Item" -- Use this for those oddball rewards which aren't really anything else.
 AQITEM_TRINKET = "Trinket"
-AQITEM_RELIC = "Relic"
 AQITEM_POTION = "Potion"
 AQITEM_NECK = "Neck"
 AQITEM_PATTERN = "Pattern"
@@ -2777,8 +2772,8 @@ Inst18Quest6name3_HORDE = Inst18Quest6name3
 --------------- INST58 - Scarlet Monastery ---------------
 
 Inst58Caption = "Scarlet Monastery"
-Inst58QAA = "5 Quests"
-Inst58QAH = "5 Quests"
+Inst58QAA = "4 Quests"
+Inst58QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst58Quest1 = "1. Blades of the Anointed"
@@ -2826,19 +2821,6 @@ Inst58Quest4_Folgequest = "None"
 Inst58Quest4PreQuest = "true"
 --
 -- Reward varies for each class
-
---Quest 5 Alliance
-Inst58Quest5 = "5. A Worthy Challenge: Durand"
-Inst58Quest5_Level = "90"
-Inst58Quest5_Attain = "90"
-Inst58Quest5_Aim = "Complete the Scarlet Monastery Challenge Mode."
-Inst58Quest5_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst58Quest5_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst58Quest5_Prequest = "None"
-Inst58Quest5_Folgequest = "None"
---
-Inst58Quest5name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2888,26 +2870,13 @@ Inst58Quest4PreQuest_HORDE = Inst58Quest4PreQuest
 --
 -- Reward varies for each class
 
---Quest 5 Horde
-Inst58Quest5_HORDE = "5. A Worthy Challenge: Durand"
-Inst58Quest5_HORDE_Level = "90"
-Inst58Quest5_HORDE_Attain = "90"
-Inst58Quest5_HORDE_Aim = "Complete the Scarlet Monastery Challenge Mode."
-Inst58Quest5_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst58Quest5_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst58Quest5_HORDE_Prequest = "None"
-Inst58Quest5_HORDE_Folgequest = "None"
---
-Inst58Quest5name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 
 --------------- INST59 - Scarlet Halls ---------------
 
 Inst59Caption = "Scarlet Halls"
-Inst59QAA = "5 Quests"
-Inst59QAH = "5 Quests"
+Inst59QAA = "4 Quests"
+Inst59QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst59Quest1 = "1. Rank and File"
@@ -2953,19 +2922,6 @@ Inst59Quest4_Prequest = "None"
 Inst59Quest4_Folgequest = "None"
 --
 -- Reward varies for each class
-
---Quest 5 Alliance
-Inst59Quest5 = "5. A Worthy Challenge: Flameweaver Koegler"
-Inst59Quest5_Level = "90"
-Inst59Quest5_Attain = "90"
-Inst59Quest5_Aim = "Complete the Scarlet Halls Challenge Mode."
-Inst59Quest5_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst59Quest5_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst59Quest5_Prequest = "None"
-Inst59Quest5_Folgequest = "None"
---
-Inst59Quest5name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3013,26 +2969,13 @@ Inst59Quest4_HORDE_Folgequest = Inst59Quest4_Folgequest
 --
 -- Reward varies for each class
 
---Quest 5 Horde
-Inst59Quest5_HORDE = "5. A Worthy Challenge: Flameweaver Koegler"
-Inst59Quest5_HORDE_Level = "90"
-Inst59Quest5_HORDE_Attain = "90"
-Inst59Quest5_HORDE_Aim = "Complete the Scarlet Halls Challenge Mode."
-Inst59Quest5_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst59Quest5_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst59Quest5_HORDE_Prequest = "None"
-Inst59Quest5_HORDE_Folgequest = "None"
---
-Inst59Quest5name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Caption = "Scholomance"
-Inst20QAA = "6 Quests"
-Inst20QAH = "6 Quests"
+Inst20QAA = "5 Quests"
+Inst20QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. The Four Tomes"
@@ -3090,19 +3033,6 @@ Inst20Quest5_Prequest = "None"
 Inst20Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
---Quest 6 Alliance
-Inst20Quest6 = "6. A Worthy Challenge: Darkmaster Gandling"
-Inst20Quest6_Level = "90"
-Inst20Quest6_Attain = "90"
-Inst20Quest6_Aim = "Complete the Scholomance Challenge Mode."
-Inst20Quest6_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst20Quest6_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst20Quest6_Prequest = "None"
-Inst20Quest6_Folgequest = "None"
---
-Inst20Quest6name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst20Quest1_HORDE = Inst20Quest1
@@ -3159,19 +3089,6 @@ Inst20Quest5_HORDE_Note = Inst20Quest5_Note
 Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
 Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
 -- No Rewards for this quest
-
---Quest 6 Horde
-Inst20Quest6_HORDE = "6. A Worthy Challenge: Darkmaster Gandling"
-Inst20Quest6_HORDE_Level = "90"
-Inst20Quest6_HORDE_Attain = "90"
-Inst20Quest6_HORDE_Aim = "Complete the Scholomance Challenge Mode."
-Inst20Quest6_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst20Quest6_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst20Quest6_HORDE_Prequest = "None"
-Inst20Quest6_HORDE_Folgequest = "None"
---
-Inst20Quest6name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 
@@ -4581,8 +4498,7 @@ Inst37Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst37Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNazan is at "..YELLOW.."[3]"..WHITE.."."
 Inst37Quest5_Prequest = "None"
 Inst37Quest5_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde (same as Quest 1 Alliance, but different Quest giver)
@@ -4643,8 +4559,7 @@ Inst37Quest5_HORDE_Location = Inst37Quest5_Location
 Inst37Quest5_HORDE_Note = Inst37Quest5_Note
 Inst37Quest5_HORDE_Prequest = Inst37Quest5_Prequest
 Inst37Quest5_HORDE_Folgequest = Inst37Quest5_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -4703,8 +4618,7 @@ Inst38Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst38Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nKeli'dan the Breaker is at "..YELLOW.."[3]"..WHITE.."."
 Inst38Quest4_Prequest = "None"
 Inst38Quest4_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance, but different Quest giver)
@@ -4758,8 +4672,7 @@ Inst38Quest4_HORDE_Location = Inst38Quest4_Location
 Inst38Quest4_HORDE_Note = Inst38Quest4_Note
 Inst38Quest4_HORDE_Prequest = Inst38Quest4_Prequest
 Inst38Quest4_HORDE_Folgequest = Inst38Quest4_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -4866,8 +4779,7 @@ Inst39Quest8_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst39Quest8_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarchief Kargath Bladefist is at "..YELLOW.."[4]"..WHITE.."."
 Inst39Quest8_Prequest = "None"
 Inst39Quest8_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 9 Alliance
 Inst39Quest9 = "9. Wanted: Shattered Hand Centurions (Daily)"
@@ -4991,8 +4903,7 @@ Inst39Quest8_HORDE_Location = Inst39Quest8_Location
 Inst39Quest8_HORDE_Note = Inst39Quest8_Note
 Inst39Quest8_HORDE_Prequest = Inst39Quest8_Prequest
 Inst39Quest8_HORDE_Folgequest = Inst39Quest8_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst39Quest9_HORDE = Inst39Quest9
@@ -5146,8 +5057,7 @@ Inst41Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst41Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nQuagmirran is at "..YELLOW.."[3]"..WHITE.."."
 Inst41Quest5_Prequest = "None"
 Inst41Quest5_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 6 Alliance
 Inst41Quest6 = "6. The Cudgel of Kar'desh (Heroic)"
@@ -5230,8 +5140,7 @@ Inst41Quest5_HORDE_Location = Inst41Quest5_Location
 Inst41Quest5_HORDE_Note = Inst41Quest5_Note
 Inst41Quest5_HORDE_Prequest = Inst41Quest5_Prequest
 Inst41Quest5_HORDE_Folgequest = Inst41Quest5_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst41Quest6_HORDE = Inst41Quest6
@@ -5366,8 +5275,7 @@ Inst42Quest9_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst42Quest9_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[3]"..WHITE.."."
 Inst42Quest9_Prequest = "None"
 Inst42Quest9_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -5470,8 +5378,7 @@ Inst42Quest9_HORDE_Location = Inst42Quest9_Location
 Inst42Quest9_HORDE_Note = Inst42Quest9_Note
 Inst42Quest9_HORDE_Prequest = Inst42Quest9_Prequest
 Inst42Quest9_HORDE_Folgequest = Inst42Quest9_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -5559,8 +5466,7 @@ Inst43Quest7_Location ="Wind Trader Zhareem (Shattrath City - Lower City; "..YEL
 Inst43Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Stalker is at "..YELLOW.."[4]"..WHITE.."."
 Inst43Quest7_Prequest = "None"
 Inst43Quest7_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -5642,8 +5548,7 @@ Inst43Quest7_HORDE_Location = Inst43Quest7_Location
 Inst43Quest7_HORDE_Note = Inst43Quest7_Note
 Inst43Quest7_HORDE_Prequest = Inst43Quest7_Prequest
 Inst43Quest7_HORDE_Folgequest = Inst43Quest7_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -5711,8 +5616,7 @@ Inst44Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst44Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nExarch Maladaar is at "..YELLOW.."[2]"..WHITE.."."
 Inst44Quest5_Prequest = "None"
 Inst44Quest5_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -5773,8 +5677,7 @@ Inst44Quest5_HORDE_Location = Inst44Quest5_Location
 Inst44Quest5_HORDE_Note = Inst44Quest5_Note
 Inst44Quest5_HORDE_Prequest = Inst44Quest5_Prequest
 Inst44Quest5_HORDE_Folgequest = Inst44Quest5_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 6 Horde
 Inst44Quest6_HORDE = "6. Auchindoun..."
@@ -5861,8 +5764,7 @@ Inst45Quest5_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Ch
 Inst45Quest5_Prequest = "The Mark of the Nexus-King"
 Inst45Quest5_Folgequest = "None"
 Inst45Quest5PreQuest = "true"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 6 Alliance
 Inst45Quest6 = "6. Wanted: Shaffar's Wondrous Pendant (Heroic Daily)"
@@ -5873,8 +5775,7 @@ Inst45Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst45Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nNexus-Prince Shaffar is at "..YELLOW.."[3]"..WHITE.."."
 Inst45Quest6_Prequest = "None"
 Inst45Quest6_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -5932,8 +5833,7 @@ Inst45Quest5_HORDE_Note = Inst45Quest5_Note
 Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
 Inst45Quest5_HORDE_Folgequest = Inst45Quest5_Folgequest
 Inst45Quest5PreQuest_HORDE = Inst45Quest5PreQuest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst45Quest6_HORDE = Inst45Quest6
@@ -5944,8 +5844,7 @@ Inst45Quest6_HORDE_Location = Inst45Quest6_Location
 Inst45Quest6_HORDE_Note = Inst45Quest6_Note
 Inst45Quest6_HORDE_Prequest = Inst45Quest6_Prequest
 Inst45Quest6_HORDE_Folgequest = Inst45Quest6_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -6027,8 +5926,7 @@ Inst46Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst46Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nTalon King Ikiss is at "..YELLOW.."[3]"..WHITE.."."
 Inst46Quest6_Prequest = "None"
 Inst46Quest6_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -6103,8 +6001,7 @@ Inst46Quest6_HORDE_Location = Inst46Quest6_Location
 Inst46Quest6_HORDE_Note = Inst46Quest6_Note
 Inst46Quest6_HORDE_Prequest = Inst46Quest6_Prequest
 Inst46Quest6_HORDE_Folgequest = Inst46Quest6_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -6247,8 +6144,7 @@ Inst47Quest11_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..Y
 Inst47Quest11_Note = "This daily quest can only be completed on Heroic difficulty.\n\nMurmur is at "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest11_Prequest = "None"
 Inst47Quest11_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 12 Alliance
 Inst47Quest12 = "12. Wanted: Malicious Instructors (Daily)"
@@ -6397,8 +6293,7 @@ Inst47Quest11_HORDE_Location = Inst47Quest11_Location
 Inst47Quest11_HORDE_Note = Inst47Quest11_Note
 Inst47Quest11_HORDE_Prequest = Inst47Quest11_Prequest
 Inst47Quest11_HORDE_Folgequest = Inst47Quest11_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
 Inst47Quest12_HORDE = Inst47Quest12
@@ -6523,8 +6418,7 @@ Inst49Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst49Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nAeonus spawns in the last wave."
 Inst49Quest4_Prequest = "None"
 Inst49Quest4_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 5 Alliance
 Inst49Quest5 = "5. Wanted: Rift Lords (Daily)"
@@ -6587,8 +6481,7 @@ Inst49Quest4_HORDE_Location = Inst49Quest4_Location
 Inst49Quest4_HORDE_Note = Inst49Quest4_Note
 Inst49Quest4_HORDE_Prequest = Inst49Quest4_Prequest
 Inst49Quest4_HORDE_Folgequest = Inst49Quest4_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst49Quest5_HORDE = Inst49Quest5
@@ -6692,8 +6585,7 @@ Inst51Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst51Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nEpoch Hunter is at "..YELLOW.."[3]"..WHITE.."."
 Inst51Quest4_Prequest = "None"
 Inst51Quest4_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 5 Alliance
 Inst51Quest5 = "5. Nice Hat..."
@@ -6757,8 +6649,7 @@ Inst51Quest4_HORDE_Location = Inst51Quest4_Location
 Inst51Quest4_HORDE_Note = Inst51Quest4_Note
 Inst51Quest4_HORDE_Prequest = Inst51Quest4_Prequest
 Inst51Quest4_HORDE_Folgequest = Inst51Quest4_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst51Quest5_HORDE = Inst51Quest5
@@ -7244,8 +7135,7 @@ Inst54Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst54Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[4]"..WHITE.."."
 Inst54Quest7_Prequest = "None"
 Inst54Quest7_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 8 Alliance
 Inst54Quest8 = "8. Wanted: Arcatraz Sentinels (Daily)"
@@ -7342,8 +7232,7 @@ Inst54Quest7_HORDE_Location = Inst54Quest7_Location
 Inst54Quest7_HORDE_Note = Inst54Quest7_Note
 Inst54Quest7_HORDE_Prequest = Inst54Quest7_Prequest
 Inst54Quest7_HORDE_Folgequest = Inst54Quest7_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst54Quest8_HORDE = Inst54Quest8
@@ -7438,8 +7327,7 @@ Inst55Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst55Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarp Splinter is at "..YELLOW.."[5]"..WHITE.."."
 Inst55Quest6_Prequest = "None"
 Inst55Quest6_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 7 Alliance
 Inst55Quest7 = "7. Wanted: Sunseeker Channelers (Daily)"
@@ -7527,8 +7415,7 @@ Inst55Quest6_HORDE_Location = Inst55Quest6_Location
 Inst55Quest6_HORDE_Note = Inst55Quest6_Note
 Inst55Quest6_HORDE_Prequest = Inst55Quest6_Prequest
 Inst55Quest6_HORDE_Folgequest = Inst55Quest6_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst55Quest7_HORDE = Inst55Quest7
@@ -7622,8 +7509,7 @@ Inst56Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst56Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPathaleon the Calculator is at "..YELLOW.."[5]"..WHITE.."."
 Inst56Quest6_Prequest = "None"
 Inst56Quest6_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 7 Alliance
 Inst56Quest7 = "7. Wanted: Tempest-Forge Destroyers (Daily)"
@@ -7710,8 +7596,7 @@ Inst56Quest6_HORDE_Location = Inst56Quest6_Location
 Inst56Quest6_HORDE_Note = Inst56Quest6_Note
 Inst56Quest6_HORDE_Prequest = Inst56Quest6_Prequest
 Inst56Quest6_HORDE_Folgequest = Inst56Quest6_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst56Quest7_HORDE = Inst56Quest7
@@ -8130,8 +8015,7 @@ Inst67Quest8_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YE
 Inst67Quest8_Note = "This daily quest can only be completed on Heroic difficulty.\n\nPrince Kael'thas Sunstrider is at "..YELLOW.."[4]"..WHITE.."."
 Inst67Quest8_Prequest = "None"
 Inst67Quest8_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8228,8 +8112,7 @@ Inst67Quest8_HORDE_Location = Inst67Quest8_Location
 Inst67Quest8_HORDE_Note = Inst67Quest8_Note
 Inst67Quest8_HORDE_Prequest = Inst67Quest8_Prequest
 Inst67Quest8_HORDE_Folgequest = Inst67Quest8_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -8820,8 +8703,7 @@ Inst74Quest3_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELL
 Inst74Quest3_Note = "Malygos is at "..YELLOW.." [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst74Quest3_Prequest = "None"
 Inst74Quest3_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -8865,8 +8747,7 @@ Inst74Quest3_HORDE_Location = Inst74Quest3_Location
 Inst74Quest3_HORDE_Note = Inst74Quest3_Note
 Inst74Quest3_HORDE_Prequest = Inst74Quest3_Prequest
 Inst74Quest3_HORDE_Folgequest = Inst74Quest3_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -9261,8 +9142,7 @@ Inst79Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELL
 Inst79Quest1_Note = "Sartharion is at "..YELLOW.."[4]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst79Quest1_Prequest = "None"
 Inst79Quest1_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9274,8 +9154,7 @@ Inst79Quest1_HORDE_Location = Inst79Quest1_Location
 Inst79Quest1_HORDE_Note = Inst79Quest1_Note
 Inst79Quest1_HORDE_Prequest = Inst79Quest1_Prequest
 Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -9649,8 +9528,7 @@ Inst84Quest3_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELL
 Inst84Quest3_Note = "Anub'Rekhan is at "..YELLOW.."Arachnid Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst84Quest3_Prequest = "None"
 Inst84Quest3_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst84Quest4 = "4. Instructor Razuvious Must Die! (Weekly)"
@@ -9661,8 +9539,7 @@ Inst84Quest4_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELL
 Inst84Quest4_Note = "Instructor Razuvious is at "..YELLOW.."Military Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst84Quest4_Prequest = "None"
 Inst84Quest4_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 5 Alliance
 Inst84Quest5 = "5. Noth the Plaguebringer Must Die! (Weekly)"
@@ -9673,8 +9550,7 @@ Inst84Quest5_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELL
 Inst84Quest5_Note = "Noth the Plaguebringer is at "..YELLOW.."Plague Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst84Quest5_Prequest = "None"
 Inst84Quest5_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 6 Alliance
 Inst84Quest6 = "6. Patchwerk Must Die! (Weekly)"
@@ -9685,8 +9561,7 @@ Inst84Quest6_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELL
 Inst84Quest6_Note = "Patchwerk is at "..YELLOW.."Construct Quarter [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst84Quest6_Prequest = "None"
 Inst84Quest6_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -9722,8 +9597,7 @@ Inst84Quest3_HORDE_Location = Inst84Quest3_Location
 Inst84Quest3_HORDE_Note = Inst84Quest3_Note
 Inst84Quest3_HORDE_Prequest = Inst84Quest3_Prequest
 Inst84Quest3_HORDE_Folgequest = Inst84Quest3_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst84Quest4_HORDE = Inst84Quest4
@@ -9734,8 +9608,7 @@ Inst84Quest4_HORDE_Location = Inst84Quest4_Location
 Inst84Quest4_HORDE_Note = Inst84Quest4_Note
 Inst84Quest4_HORDE_Prequest = Inst84Quest4_Prequest
 Inst84Quest4_HORDE_Folgequest = Inst84Quest4_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst84Quest5_HORDE = Inst84Quest5
@@ -9746,8 +9619,7 @@ Inst84Quest5_HORDE_Location = Inst84Quest5_Location
 Inst84Quest5_HORDE_Note = Inst84Quest5_Note
 Inst84Quest5_HORDE_Prequest = Inst84Quest5_Prequest
 Inst84Quest5_HORDE_Folgequest = Inst84Quest5_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst84Quest6_HORDE = Inst84Quest6
@@ -9758,8 +9630,7 @@ Inst84Quest6_HORDE_Location = Inst84Quest6_Location
 Inst84Quest6_HORDE_Note = Inst84Quest6_Note
 Inst84Quest6_HORDE_Prequest = Inst84Quest6_Prequest
 Inst84Quest6_HORDE_Folgequest = Inst84Quest6_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -9984,8 +9855,7 @@ Inst86Quest17_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YEL
 Inst86Quest17_Note = "Flame Leviathan is at "..YELLOW.."The Siege [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst86Quest17_Prequest = "None"
 Inst86Quest17_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 18 Alliance
 Inst86Quest18 = "18. Ignis the Furnace Master Must Die! (Weekly)"
@@ -9996,8 +9866,7 @@ Inst86Quest18_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YEL
 Inst86Quest18_Note = "Ignis the Furnace Master is at "..YELLOW.."The Siege [3]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst86Quest18_Prequest = "None"
 Inst86Quest18_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 19 Alliance
 Inst86Quest19 = "19. Razorscale Must Die! (Weekly)"
@@ -10008,8 +9877,7 @@ Inst86Quest19_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YEL
 Inst86Quest19_Note = "Razorscale is at "..YELLOW.."The Siege [2]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst86Quest19_Prequest = "None"
 Inst86Quest19_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 20 Alliance
 Inst86Quest20 = "20. XT-002 Deconstructor Must Die! (Weekly)"
@@ -10020,8 +9888,7 @@ Inst86Quest20_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YEL
 Inst86Quest20_Note = "XT-002 Deconstructor is at "..YELLOW.."The Siege [4]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst86Quest20_Prequest = "None"
 Inst86Quest20_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10231,8 +10098,7 @@ Inst86Quest17_HORDE_Location = Inst86Quest17_Location
 Inst86Quest17_HORDE_Note = Inst86Quest17_Note
 Inst86Quest17_HORDE_Prequest = Inst86Quest17_Prequest
 Inst86Quest17_HORDE_Folgequest = Inst86Quest17_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 18 Horde  (same as Quest 18 Alliance)
 Inst86Quest18_HORDE = Inst86Quest18
@@ -10243,8 +10109,7 @@ Inst86Quest18_HORDE_Location = Inst86Quest18_Location
 Inst86Quest18_HORDE_Note = Inst86Quest18_Note
 Inst86Quest18_HORDE_Prequest = Inst86Quest18_Prequest
 Inst86Quest18_HORDE_Folgequest = Inst86Quest18_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 19 Horde  (same as Quest 19 Alliance)
 Inst86Quest19_HORDE = Inst86Quest19
@@ -10255,8 +10120,7 @@ Inst86Quest19_HORDE_Location = Inst86Quest19_Location
 Inst86Quest19_HORDE_Note = Inst86Quest19_Note
 Inst86Quest19_HORDE_Prequest = Inst86Quest19_Prequest
 Inst86Quest19_HORDE_Folgequest = Inst86Quest19_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 20 Horde  (same as Quest 20 Alliance)
 Inst86Quest20_HORDE = Inst86Quest20
@@ -10267,8 +10131,7 @@ Inst86Quest20_HORDE_Location = Inst86Quest20_Location
 Inst86Quest20_HORDE_Note = Inst86Quest20_Note
 Inst86Quest20_HORDE_Prequest = Inst86Quest20_Prequest
 Inst86Quest20_HORDE_Folgequest = Inst86Quest20_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --------------- INST87 - Trial of the Champion ---------------
@@ -10317,8 +10180,7 @@ Inst88Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELL
 Inst88Quest1_Note = "Lord Jaraxxus is the second boss.\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst88Quest1_Prequest = "None"
 Inst88Quest1_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10330,8 +10192,7 @@ Inst88Quest1_HORDE_Location = Inst88Quest1_Location
 Inst88Quest1_HORDE_Note = Inst88Quest1_Note
 Inst88Quest1_HORDE_Prequest = Inst88Quest1_Prequest
 Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -10362,8 +10223,7 @@ Inst90Quest2_Note = "Turn the quest in to Lady Jaina Proudmoore before at "..YEL
 Inst90Quest2_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest2FQuest = "true"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst90Quest3 = "3. Tempering The Blade"
@@ -10399,8 +10259,7 @@ Inst90Quest2_HORDE_Note = "Turn the quest in to Lady Sylvanas Windrunner before 
 Inst90Quest2_HORDE_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_HORDE_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest2FQuest_HORDE = "true"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst90Quest3_HORDE = "3. Tempering The Blade"
@@ -10456,8 +10315,7 @@ Inst91Quest3_Note = "Scourgelord Tyrannus is at the end of the instance. Complet
 Inst91Quest3_Prequest = "The Path to the Citadel"
 Inst91Quest3_Folgequest = "Frostmourne ("..YELLOW.."Halls of Reflection"..WHITE..")"
 Inst91Quest3FQuest = "true"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst91Quest4 = "4. Reforging The Sword"
@@ -10506,8 +10364,7 @@ Inst91Quest3_HORDE_Note = "Scourgelord Tyrannus is at the end of the instance. C
 Inst91Quest3_HORDE_Prequest = "The Path to the Citadel"
 Inst91Quest3_HORDE_Folgequest = "Frostmourne ("..YELLOW.."Halls of Reflection"..WHITE..")"
 Inst91Quest3FQuest_HORDE = "true"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst91Quest4_HORDE = "4. Reforging The Sword"
@@ -10551,8 +10408,7 @@ Inst92Quest2_Note = "Lady Jaina Proudmoore is up ahead. You turn the quest into 
 Inst92Quest2_Prequest = "Frostmourne"
 Inst92Quest2_Folgequest = "None"
 Inst92Quest2FQuest = "true"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst92Quest3 = "3. The Halls Of Reflection"
@@ -10589,8 +10445,7 @@ Inst92Quest2_HORDE_Note = "Lady Sylvanas Windrunner is up ahead. You turn the qu
 Inst92Quest2_HORDE_Prequest = "Frostmourne"
 Inst92Quest2_HORDE_Folgequest = "None"
 Inst92Quest2FQuest_HORDE = "true"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst92Quest3_HORDE = "3. The Halls Of Reflection"
@@ -10621,8 +10476,7 @@ Inst93Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELL
 Inst93Quest1_Note = "Lord Marrowgar is at "..YELLOW.." [1]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
 Inst93Quest1_Prequest = "None"
 Inst93Quest1_Folgequest = "None"
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst93Quest2 = "2. The Sacred and the Corrupt"
@@ -10743,8 +10597,7 @@ Inst93Quest1_HORDE_Location = Inst93Quest1_Location
 Inst93Quest1_HORDE_Note = Inst93Quest1_Note
 Inst93Quest1_HORDE_Prequest = Inst93Quest1_Prequest
 Inst93Quest1_HORDE_Folgequest = Inst93Quest1_Folgequest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst93Quest2_HORDE = Inst93Quest2
@@ -10896,8 +10749,7 @@ Inst94Quest3_Note = "Halion is the main boss, located at "..YELLOW.."[4]"..WHITE
 Inst94Quest3_Prequest = "Trouble at Wyrmrest"
 Inst94Quest3_Folgequest = "None"
 Inst94Quest3FQuest = "true"
---
--- Awards Justice Points.
+-- No Rewards for this quest.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -10933,8 +10785,7 @@ Inst94Quest3_HORDE_Note = Inst94Quest3_Note
 Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
 Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
 Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
---
--- Awards Justice Points.
+-- No Rewards for this quest
 
 
 
@@ -12372,8 +12223,8 @@ Inst113Quest4name2_HORDE = Inst113Quest4name2
 --------------- INST114 - Mogu'Shan Palace ---------------
 
 Inst114Caption = "Mogu'Shan Palace"
-Inst114QAA = "3 Quests"
-Inst114QAH = "3 Quests"
+Inst114QAA = "2 Quests"
+Inst114QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst114Quest1 = "1. Relics of the Four Kings"
@@ -12396,19 +12247,6 @@ Inst114Quest2_Note = "Xin the Weaponmaster is at "..YELLOW.."[3]"..WHITE.."."
 Inst114Quest2_Prequest = "None"
 Inst114Quest2_Folgequest = "None"
 -- Reward varies for each class
-
---Quest 3 Alliance
-Inst114Quest3 = "3. A Worthy Challenge: Xin the Weaponmaster"
-Inst114Quest3_Level = "90"
-Inst114Quest3_Attain = "90"
-Inst114Quest3_Aim = "Complete the Mogu'shan Palace Challenge Mode."
-Inst114Quest3_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst114Quest3_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst114Quest3_Prequest = "None"
-Inst114Quest3_Folgequest = "None"
---
-Inst114Quest3name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12433,25 +12271,12 @@ Inst114Quest2_HORDE_Prequest = Inst114Quest2_Prequest
 Inst114Quest2_HORDE_Folgequest = Inst114Quest2_Folgequest
 -- Reward varies for each class
 
---Quest 3 Horde
-Inst114Quest3_HORDE = "3. A Worthy Challenge: Xin the Weaponmaster"
-Inst114Quest3_HORDE_Level = "90"
-Inst114Quest3_HORDE_Attain = "90"
-Inst114Quest3_HORDE_Aim = "Complete the Mogu'shan Palace Challenge Mode."
-Inst114Quest3_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst114Quest3_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst114Quest3_HORDE_Prequest = "None"
-Inst114Quest3_HORDE_Folgequest = "None"
---
-Inst114Quest3name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 --------------- INST115 - Shado-Pan Monastery ---------------
 
 Inst115Caption = "Shado-Pan Monastery"
-Inst115QAA = "4 Quests"
-Inst115QAH = "4 Quests"
+Inst115QAA = "3 Quests"
+Inst115QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst115Quest1 = "1. Into the Monastery"
@@ -12489,19 +12314,6 @@ Inst115Quest3_Prequest = "None"
 Inst115Quest3_Folgequest = "None"
 --
 -- Reward varies for each class
-
---Quest 4 Alliance
-Inst115Quest4 = "4. A Worthy Challenge: Sha of Hatred"
-Inst115Quest4_Level = "90"
-Inst115Quest4_Attain = "90"
-Inst115Quest4_Aim = "Complete the Shado-Pan Monastery Challenge Mode."
-Inst115Quest4_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst115Quest4_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst115Quest4_Prequest = "None"
-Inst115Quest4_Folgequest = "None"
---
-Inst115Quest4name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12541,26 +12353,13 @@ Inst115Quest3_HORDE_Folgequest = Inst115Quest3_Folgequest
 --
 -- Reward varies for each class
 
---Quest 4 Horde
-Inst115Quest4_HORDE = "4. A Worthy Challenge: Sha of Hatred"
-Inst115Quest4_HORDE_Level = "90"
-Inst115Quest4_HORDE_Attain = "90"
-Inst115Quest4_HORDE_Aim = "Complete the Shado-Pan Monastery Challenge Mode."
-Inst115Quest4_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst115Quest4_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst115Quest4_HORDE_Prequest = "None"
-Inst115Quest4_HORDE_Folgequest = "None"
---
-Inst115Quest4name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Stormstout Brewery"
-Inst116QAA = "5 Quests"
-Inst116QAH = "5 Quests"
+Inst116QAA = "4 Quests"
+Inst116QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst116Quest1 = "1. Into the Brewery"
@@ -12611,19 +12410,6 @@ Inst116Quest4_Folgequest = "These Aren't Your Fatty Goatsteaks"
 Inst116Quest4PreQuest = "true"
 --
 Inst116Quest4name1 = "Deluxe Noodle Cart Kit"
-
---Quest 5 Alliance
-Inst116Quest5 = "5. A Worthy Challenge: Yan-zhu the Uncasked"
-Inst116Quest5_Level = "90"
-Inst116Quest5_Attain = "90"
-Inst116Quest5_Aim = "Complete the Stormstout Brewery Challenge Mode."
-Inst116Quest5_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst116Quest5_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst116Quest5_Prequest = "None"
-Inst116Quest5_Folgequest = "None"
---
-Inst116Quest5name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12676,25 +12462,12 @@ Inst116Quest4PreQuest_HORDE = Inst116Quest4PreQuest
 --
 Inst116Quest4name1_HORDE = Inst116Quest4name1
 
---Quest 5 Horde
-Inst116Quest5_HORDE = "5. A Worthy Challenge: Yan-zhu the Uncasked"
-Inst116Quest5_HORDE_Level = "90"
-Inst116Quest5_HORDE_Attain = "90"
-Inst116Quest5_HORDE_Aim = "Complete the Stormstout Brewery Challenge Mode."
-Inst116Quest5_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst116Quest5_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst116Quest5_HORDE_Prequest = "None"
-Inst116Quest5_HORDE_Folgequest = "None"
---
-Inst116Quest5name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Caption = "Temple of the Jade Serpent"
-Inst117QAA = "5 Quests"
-Inst117QAH = "5 Quests"
+Inst117QAA = "4 Quests"
+Inst117QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst117Quest1 = "1. Restoring Jade's Purity"
@@ -12743,19 +12516,6 @@ Inst117Quest4_Prequest = "The Lost Secret of the Secret Ingredient"
 Inst117Quest4_Folgequest = "Secrets Lost, Forever?"
 Inst117Quest4FQuest = "true"
 -- No Rewards for this quest
-
---Quest 5 Alliance
-Inst117Quest5 = "5. A Worthy Challenge: Sha of Doubt"
-Inst117Quest5_Level = "90"
-Inst117Quest5_Attain = "90"
-Inst117Quest5_Aim = "Complete the Temple of the Jade Serpent Challenge Mode."
-Inst117Quest5_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst117Quest5_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst117Quest5_Prequest = "None"
-Inst117Quest5_Folgequest = "None"
---
-Inst117Quest5name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12806,26 +12566,13 @@ Inst117Quest4_HORDE_Folgequest = Inst117Quest4_Folgequest
 Inst117Quest4FQuest_HORDE = Inst117Quest4FQuest
 -- No Rewards for this quest
 
---Quest 5 Horde
-Inst117Quest5_HORDE = "5. A Worthy Challenge: Sha of Doubt"
-Inst117Quest5_HORDE_Level = "90"
-Inst117Quest5_HORDE_Attain = "90"
-Inst117Quest5_HORDE_Aim = "Complete the Temple of the Jade Serpent Challenge Mode."
-Inst117Quest5_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst117Quest5_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst117Quest5_HORDE_Prequest = "None"
-Inst117Quest5_HORDE_Folgequest = "None"
---
-Inst117Quest5name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 
 --------------- INST118 - Gate of the Setting Sun ---------------
 
 Inst118Caption = "Gate of the Setting Sun"
-Inst118QAA = "3 Quests"
-Inst118QAH = "3 Quests"
+Inst118QAA = "2 Quests"
+Inst118QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst118Quest1 = "1. Lighting the Way"
@@ -12849,19 +12596,6 @@ Inst118Quest2_Prequest = "None"
 Inst118Quest2_Folgequest = "None"
 --
 -- Reward varies for each class
-
---Quest 3 Alliance
-Inst118Quest3 = "3. A Worthy Challenge: Raigonn"
-Inst118Quest3_Level = "90"
-Inst118Quest3_Attain = "90"
-Inst118Quest3_Aim = "Complete the Gate of the Setting Sun Challenge Mode."
-Inst118Quest3_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst118Quest3_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst118Quest3_Prequest = "None"
-Inst118Quest3_Folgequest = "None"
---
-Inst118Quest3name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12887,26 +12621,13 @@ Inst118Quest2_HORDE_Folgequest = Inst118Quest2_Folgequest
 --
 -- Reward varies for each class
 
---Quest 3 Horde
-Inst118Quest3_HORDE = "3. A Worthy Challenge: Raigonn"
-Inst118Quest3_HORDE_Level = "90"
-Inst118Quest3_HORDE_Attain = "90"
-Inst118Quest3_HORDE_Aim = "Complete the Gate of the Setting Sun Challenge Mode."
-Inst118Quest3_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst118Quest3_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst118Quest3_HORDE_Prequest = "None"
-Inst118Quest3_HORDE_Folgequest = "None"
---
-Inst118Quest3name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 
 --------------- INST119 - Siege of Niuzao Temple ---------------
 
 Inst119Caption = "Siege of Niuzao Temple"
-Inst119QAA = "3 Quests"
-Inst119QAH = "3 Quests"
+Inst119QAA = "2 Quests"
+Inst119QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst119Quest1 = "1. Somewhere Inside"
@@ -12931,19 +12652,6 @@ Inst119Quest2_Folgequest = "None"
 --
 -- Reward varies for each class
 
---Quest 3 Alliance
-Inst119Quest3 = "3. A Worthy Challenge: Wing Leader Ner'onok"
-Inst119Quest3_Level = "90"
-Inst119Quest3_Attain = "90"
-Inst119Quest3_Aim = "Complete the Siege of Niuzao Temple Challenge Mode."
-Inst119Quest3_Location = "Challenger Soong (Vale of Eternal Blossoms - Shrine of Seven Stars; "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst119Quest3_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst119Quest3_Prequest = "None"
-Inst119Quest3_Folgequest = "None"
---
-Inst119Quest3name1 = "Heroic Cache of Treasures"
--- Awards Valor Points.
-
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst119Quest1_HORDE = Inst119Quest1
@@ -12967,19 +12675,6 @@ Inst119Quest2_HORDE_Prequest = Inst119Quest2_Prequest
 Inst119Quest2_HORDE_Folgequest = Inst119Quest2_Folgequest
 --
 -- Reward varies for each class
-
---Quest 3 Horde
-Inst119Quest3_HORDE = "3. A Worthy Challenge: Wing Leader Ner'onok"
-Inst119Quest3_HORDE_Level = "90"
-Inst119Quest3_HORDE_Attain = "90"
-Inst119Quest3_HORDE_Aim = "Complete the Siege of Niuzao Temple Challenge Mode."
-Inst119Quest3_HORDE_Location = "Challenger Wuli (Vale of Eternal Blossoms - Shrine of Two Moons; "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst119Quest3_HORDE_Note = "This or one of the other Worthy Challenge quests is available each day."
-Inst119Quest3_HORDE_Prequest = "None"
-Inst119Quest3_HORDE_Folgequest = "None"
---
-Inst119Quest3name1_HORDE = "Heroic Cache of Treasures"
--- Awards Valor Points.
 
 
 
@@ -13554,6 +13249,132 @@ Inst145Quest7FQuest_HORDE = Inst145Quest7FQuest
 
 
 
+--------------- INST146 - Auchindoun ---------------
+
+Inst146Caption = "Auchindoun"
+Inst146QAA = "No Quests"
+Inst146QAH = "No Quests"
+--[[
+--Quest 1 Alliance
+Inst146Quest1 = "1. A Worthy Challenge: Teron'gor"
+Inst146Quest1_Level = "100"
+Inst146Quest1_Attain = "100"
+Inst146Quest1_Aim = "Complete the Auchindoun Challenge Mode."
+Inst146Quest1_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst146Quest1_Note = "You only need to complete the challenge.  How long you take does not matter for the quest."
+Inst146Quest1_Prequest = "None"
+Inst146Quest1_Folgequest = "None"
+--
+Inst146Quest1name1 = "Challenger's Strongbox"
+
+--Quest 2 Alliance
+Inst146Quest2 = ""
+Inst146Quest2_Level = ""
+Inst146Quest2_Attain = ""
+Inst146Quest2_Aim = ""
+Inst146Quest2_Location = ""
+Inst146Quest2_Note = ""
+Inst146Quest2_Prequest = "None"
+Inst146Quest2_Folgequest = "None"
+Inst146Quest2PreQuest = "true"
+Inst146Quest2FQuest = "true"
+--
+Inst146Quest2name1 = ""
+-- No Rewards for this quest
+-- Reward varies for each class
+
+--Quest 3 Alliance
+Inst146Quest3 = ""
+Inst146Quest3_Level = ""
+Inst146Quest3_Attain = ""
+Inst146Quest3_Aim = ""
+Inst146Quest3_Location = ""
+Inst146Quest3_Note = ""
+Inst146Quest3_Prequest = "None"
+Inst146Quest3_Folgequest = "None"
+Inst146Quest3PreQuest = "true"
+Inst146Quest3FQuest = "true"
+--
+Inst146Quest3name1 = ""
+-- No Rewards for this quest
+-- Reward varies for each class
+
+--]]
+
+
+
+--------------- INST147 - Skyreach ---------------
+
+Inst147Caption = "Skyreach"
+Inst147QAA = "No Quests"
+Inst147QAH = "No Quests"
+
+
+
+--------------- INST148 - Bloodmaul Slag Mines ---------------
+
+Inst148Caption = "Bloodmaul Slag Mines"
+Inst148QAA = "No Quests"
+Inst148QAH = "No Quests"
+
+
+
+--------------- INST149 - Iron Docks ---------------
+
+Inst149Caption = "Iron Docks"
+Inst149QAA = "No Quests"
+Inst149QAH = "No Quests"
+
+
+
+--------------- INST150 - The Everbloom ---------------
+
+Inst150Caption = "The Everbloom"
+Inst150QAA = "No Quests"
+Inst150QAH = "No Quests"
+
+
+
+--------------- INST151 - Grimrail Depot ---------------
+
+Inst151Caption = "Grimrail Depot"
+Inst151QAA = "No Quests"
+Inst151QAH = "No Quests"
+
+
+
+--------------- INST152 - Shadowmoon Burial Grounds ---------------
+
+Inst152Caption = "Shadowmoon Burial Grounds"
+Inst152QAA = "No Quests"
+Inst152QAH = "No Quests"
+
+
+
+--------------- INST153 - Upper Blackrock Spire ---------------
+
+Inst153Caption = "Upper Blackrock Spire"
+Inst153QAA = "No Quests"
+Inst153QAH = "No Quests"
+
+
+
+--------------- INST154 - Highmaul ---------------
+
+Inst154Caption = "Highmaul"
+Inst154QAA = "No Quests"
+Inst154QAH = "No Quests"
+
+
+
+--------------- INST155 - Blackrock Foundry ---------------
+
+Inst155Caption = "Blackrock Foundry"
+Inst155QAA = "No Quests"
+Inst155QAH = "No Quests"
+
+
+
 
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------
@@ -13816,6 +13637,38 @@ Inst142QAH = "No Quests"
 Inst144Caption = "Troves of the Thunder King"
 Inst144QAA = "No Quests"
 Inst144QAH = "No Quests"
+
+
+
+--------------- INST157 - The Trial of Faith ---------------
+
+Inst157Caption = "The Trial of Faith"
+Inst157QAA = "No Quests"
+Inst157QAH = "No Quests"
+
+
+
+--------------- INST158 - The Purge of Grommar ---------------
+
+Inst158Caption = "The Purge of Grommar"
+Inst158QAA = "No Quests"
+Inst158QAH = "No Quests"
+
+
+
+--------------- INST159 - The Coliseum ---------------
+
+Inst159Caption = "The Coliseum"
+Inst159QAA = "No Quests"
+Inst159QAH = "No Quests"
+
+
+
+--------------- INST160 - The Battle of Thunder Pass ---------------
+
+Inst160Caption = "The Battle of Thunder Pass"
+Inst160QAA = "No Quests"
+Inst160QAH = "No Quests"
 
 
 
