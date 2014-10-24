@@ -49,8 +49,6 @@ local YELLOW = "|cffFFd200";
 --- OPTIONS ---
 ---------------
 
-AQHelpText = ""..WHITE.."Gib /aq oder atlasquest "..YELLOW.."[command]"..WHITE.." ein\ncommands: help; option/config; show/hide; left/right; colour; autoshow"..RED.."(nur Atlas)"
---
 AQOptionsCaptionTEXT = ""..YELLOW.."AtlasQuest-Optionen";
 AQ_OK = "OK"
 
@@ -100,8 +98,6 @@ AQERRORASKSERVER = "Klicke rechts um den Server nach diesem Gegenstand abzufrage
 AQOptionB = "Optionen"
 AQNoReward = ""..BLUE.."Keine Belohnung"
 AQClassRewards = ""..BLUE.." Belohnung je nach Klasse."
-AQJusticePoints = ""..WHITE.."Gerechtigkeitspunkte"
-AQValorPoints = ""..WHITE.."Tapferkeitspunkte"
 AQDiscription_REWARD = ""..BLUE.."Belohnung:"
 AQDiscription_OR = ""..GREY.." oder "..WHITE..""
 AQDiscription_AND = ""..GREY.." und "..WHITE..""
@@ -2799,8 +2795,8 @@ Inst18Quest6name3_HORDE = "Tigerband"
 --------------- INST58 - Scarlet Monastery ---------------
 
 Inst58Caption = "Scharlachrote Kloster"
-Inst58QAA = "5 Quests"
-Inst58QAH = "5 Quests"
+Inst58QAA = "4 Quests"
+Inst58QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst58Quest1 = "1. Die Klingen des Gesalbten"
@@ -2849,19 +2845,6 @@ Inst58Quest4_Folgequest = "Nein"
 Inst58Quest4PreQuest = "true"
 --
 -- Reward varies for each class
-
---Quest 5 Alliance
-Inst58Quest5 = "5. Eine würdige Herausforderung: Durand"
-Inst58Quest5_Level = "90"
-Inst58Quest5_Attain = "90"
-Inst58Quest5_Aim = "Schließt das Scharlachrote Kloster im Herausforderungsmodus ab."
-Inst58Quest5_Location = Inst114Quest3_Location
-Inst58Quest5_Note = Inst114Quest3_Note
-Inst58Quest5_Prequest = "Nein"
-Inst58Quest5_Folgequest = "Nein"
---
-Inst58Quest5name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -2913,26 +2896,13 @@ Inst58Quest4PreQuest_HORDE = Inst58Quest4PreQuest
 --
 -- Reward varies for each class
 
---Quest 5 Horde
-Inst58Quest5_HORDE = Inst58Quest5
-Inst58Quest5_HORDE_Level = "90"
-Inst58Quest5_HORDE_Attain = "90"
-Inst58Quest5_HORDE_Aim = Inst58Quest5_Aim
-Inst58Quest5_HORDE_Location = Inst114Quest3_HORDE_Location
-Inst58Quest5_HORDE_Note = Inst58Quest5_Note
-Inst58Quest5_HORDE_Prequest = "Nein"
-Inst58Quest5_HORDE_Folgequest = "Nein"
---
-Inst58Quest5name1_HORDE = Inst58Quest5name1
--- Preis Tapferkeitspunkte.
-
 
 
 --------------- INST59 - Scarlet Halls ---------------
 
 Inst59Caption = "Scharlachrote Hallen"
-Inst59QAA = "5 Quests"
-Inst59QAH = "5 Quests"
+Inst59QAA = "4 Quests"
+Inst59QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst59Quest1 = "1. Gegen das Fußvolk"
@@ -2979,19 +2949,6 @@ Inst59Quest4_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
---Quest 5 Alliance
-Inst59Quest5 = "5. Eine würdige Herausforderung: Flammenwirker Koegler"
-Inst59Quest5_Level = "90"
-Inst59Quest5_Attain = "90"
-Inst59Quest5_Aim = "Schließt die Scharlachroten Hallen im Herausforderungsmodus ab."
-Inst59Quest5_Location = Inst114Quest3_Location
-Inst59Quest5_Note = Inst58Quest5_Note
-Inst59Quest5_Prequest = "Nein"
-Inst59Quest5_Folgequest = "Nein"
---
-Inst59Quest5name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
-
 
 --Quest 1 Horde
 Inst59Quest1_HORDE = Inst59Quest1
@@ -3037,26 +2994,13 @@ Inst59Quest4_HORDE_Prequest = "Nein"
 Inst59Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde
-Inst59Quest5_HORDE = Inst59Quest5
-Inst59Quest5_HORDE_Level = "90"
-Inst59Quest5_HORDE_Attain = "90"
-Inst59Quest5_HORDE_Aim = Inst59Quest5_Aim
-Inst59Quest5_HORDE_Location = Inst114Quest3_HORDE_Location
-Inst59Quest5_HORDE_Note = Inst59Quest5_Note
-Inst59Quest5_HORDE_Prequest = "Nein"
-Inst59Quest5_HORDE_Folgequest = "Nein"
---
-Inst59Quest5name1_HORDE = Inst59Quest5name1
--- Preis Tapferkeitspunkte.
-
 
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Caption = "Scholomance"
-Inst20QAA = "6 Quests"
-Inst20QAH = "6 Quests"
+Inst20QAA = "5 Quests"
+Inst20QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. Die vier Bände"
@@ -3114,19 +3058,6 @@ Inst20Quest5_Prequest = "Nein"
 Inst20Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 6 Alliance
-Inst20Quest6 = "6. Eine würdige Herausforderung: Dunkelmeister Gandling"
-Inst20Quest6_Level = "90"
-Inst20Quest6_Attain = "90"
-Inst20Quest6_Aim = "Schließt Scholomance im Herausforderungsmodus ab."
-Inst20Quest6_Location = Inst114Quest3_Location
-Inst20Quest6_Note = Inst58Quest5_Note
-Inst20Quest6_Prequest = "Nein"
-Inst20Quest6_Folgequest = "Nein"
---
-Inst20Quest6name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
-
 
 --Quest 1 Horde
 Inst20Quest1_HORDE = Inst20Quest1
@@ -3183,19 +3114,6 @@ Inst20Quest5_HORDE_Note = Inst20Quest5_Note
 Inst20Quest5_HORDE_Prequest = "Nein"
 Inst20Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
-
---Quest 6 Horde
-Inst20Quest6_HORDE = Inst20Quest6
-Inst20Quest6_HORDE_Level = "90"
-Inst20Quest6_HORDE_Attain = "90"
-Inst20Quest6_HORDE_Aim = Inst20Quest6_Aim
-Inst20Quest6_HORDE_Location = Inst114Quest3_HORDE_Location
-Inst20Quest6_HORDE_Note = Inst20Quest6_Note
-Inst20Quest6_HORDE_Prequest = "Nein"
-Inst20Quest6_HORDE_Folgequest = "Nein"
---
-Inst20Quest6name1_HORDE = Inst20Quest6name1
--- Preis Tapferkeitspunkte.
 
 
 
@@ -4597,8 +4515,7 @@ Inst37Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst37Quest5_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNazan ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst37Quest5_Prequest = "Nein"
 Inst37Quest5_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -4658,8 +4575,7 @@ Inst37Quest5_HORDE_Location = Inst37Quest5_Location
 Inst37Quest5_HORDE_Note = Inst37Quest5_Note
 Inst37Quest5_HORDE_Prequest = "Nein"
 Inst37Quest5_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -4718,8 +4634,7 @@ Inst38Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst38Quest4_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKeli'dan der Zerstörer ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst38Quest4_Prequest = "Nein"
 Inst38Quest4_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -4771,8 +4686,7 @@ Inst38Quest4_HORDE_Location = Inst38Quest4_Location
 Inst38Quest4_HORDE_Note = Inst38Quest4_Note
 Inst38Quest4_HORDE_Prequest = "Nein"
 Inst38Quest4_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -4879,8 +4793,7 @@ Inst39Quest8_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst39Quest8_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst39Quest8_Prequest = "Nein"
 Inst39Quest8_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest9 Alliance
 Inst39Quest9 = "9. Gesucht: Zenturionen der Zerschmetterten Hand (Tagesquest)"
@@ -5003,8 +4916,7 @@ Inst39Quest8_HORDE_Location = Inst39Quest8_Location
 Inst39Quest8_HORDE_Note = Inst39Quest8_Note
 Inst39Quest8_HORDE_Prequest = "Nein"
 Inst39Quest8_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 9 Horde
 Inst39Quest9_HORDE = Inst39Quest9
@@ -5158,8 +5070,7 @@ Inst41Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst41Quest5_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nQuagmirran ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst41Quest5_Prequest = "Nein"
 Inst41Quest5_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 6 Alliance
 Inst41Quest6 = "6. Der Knüppel von Kar'desh (Heroisch)"
@@ -5243,8 +5154,7 @@ Inst41Quest5_HORDE_Location = Inst41Quest5_Location
 Inst41Quest5_HORDE_Note = Inst41Quest5_Note
 Inst41Quest5_HORDE_Prequest = "Nein"
 Inst41Quest5_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 6 Horde
 Inst41Quest6_HORDE = Inst41Quest6
@@ -5379,8 +5289,7 @@ Inst42Quest9_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst42Quest9_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegsherr Kalithresh ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst42Quest9_Prequest = "Nein"
 Inst42Quest9_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -5483,8 +5392,7 @@ Inst42Quest9_HORDE_Location = Inst42Quest9_Location
 Inst42Quest9_HORDE_Note = Inst42Quest9_Note
 Inst42Quest9_HORDE_Prequest = "Nein"
 Inst42Quest9_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -5573,8 +5481,7 @@ Inst43Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst43Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDie Schattenmutter ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst43Quest7_Prequest = "Nein"
 Inst43Quest7_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -5656,8 +5563,7 @@ Inst43Quest7_HORDE_Location = Inst43Quest7_Location
 Inst43Quest7_HORDE_Note = Inst43Quest7_Note
 Inst43Quest7_HORDE_Prequest = "Nein"
 Inst43Quest7_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -5726,8 +5632,7 @@ Inst44Quest5_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst44Quest5_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nExarch Maladaar ist bei "..YELLOW.."[2]"..WHITE.."."
 Inst44Quest5_Prequest = "Nein"
 Inst44Quest5_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -5789,8 +5694,7 @@ Inst44Quest5_HORDE_Location = Inst44Quest5_Location
 Inst44Quest5_HORDE_Note = Inst44Quest5_Note
 Inst44Quest5_HORDE_Prequest = "Nein"
 Inst44Quest5_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 6 Horde
 Inst44Quest6_HORDE = "6. Auchindoun..."
@@ -5878,8 +5782,7 @@ Inst45Quest5_Note = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch
 Inst45Quest5_Prequest = "Das Abzeichen des Nexuskönigs"
 Inst45Quest5_Folgequest = "Nein"
 Inst45Quest5PreQuest = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 6 Alliance
 Inst45Quest6 = "6. Gesucht: Shaffars wundersames Amulett (Heroisches Tagesquest)"
@@ -5890,8 +5793,7 @@ Inst45Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst45Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNexusprinz Shaffar ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst45Quest6_Prequest = "Nein"
 Inst45Quest6_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -5948,8 +5850,7 @@ Inst45Quest5_HORDE_Note = Inst45Quest5_Note
 Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
 Inst45Quest5_HORDE_Folgequest = "Nein"
 Inst45Quest5PreQuest_HORDE = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 6 Horde
 Inst45Quest6_HORDE = Inst45Quest6
@@ -5960,8 +5861,7 @@ Inst45Quest6_HORDE_Location = Inst45Quest6_Location
 Inst45Quest6_HORDE_Note = Inst45Quest6_Note
 Inst45Quest6_HORDE_Prequest = "Nein"
 Inst45Quest6_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -6043,8 +5943,7 @@ Inst46Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst46Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKlauenkönig Ikiss ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst46Quest6_Prequest = "Nein"
 Inst46Quest6_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -6119,8 +6018,7 @@ Inst46Quest6_HORDE_Location = Inst46Quest6_Location
 Inst46Quest6_HORDE_Note = Inst46Quest6_Note
 Inst46Quest6_HORDE_Prequest = "Nein"
 Inst46Quest6_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -6264,8 +6162,7 @@ Inst47Quest11_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..
 Inst47Quest11_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nMurmur ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest11_Prequest = "Nein"
 Inst47Quest11_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 12 Alliance
 Inst47Quest12 = "12. Gesucht: Bösartige Ausbilderinnen (Tagesquest)"
@@ -6415,8 +6312,7 @@ Inst47Quest11_HORDE_Location = Inst47Quest11_Location
 Inst47Quest11_HORDE_Note = Inst47Quest11_Note
 Inst47Quest11_HORDE_Prequest = "Nein"
 Inst47Quest11_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 12 Horde
 Inst47Quest12_HORDE = Inst47Quest12
@@ -6542,8 +6438,7 @@ Inst49Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst49Quest4_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nAeonus erscheint mit der letzten Welle."
 Inst49Quest4_Prequest = "Nein"
 Inst49Quest4_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 5 Alliance
 Inst49Quest5 = "5. Gesucht: Fürsten der Zeitenrisse (Tagesquest)"
@@ -6608,8 +6503,7 @@ Inst49Quest4_HORDE_Location = Inst49Quest4_Location
 Inst49Quest4_HORDE_Note = Inst49Quest4_Note
 Inst49Quest4_HORDE_Prequest = "Nein"
 Inst49Quest4_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 5 Horde
 Inst49Quest5_HORDE = Inst49Quest5
@@ -6713,8 +6607,7 @@ Inst51Quest4_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst51Quest4_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nEpochenjäger ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst51Quest4_Prequest = "Nein"
 Inst51Quest4_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 5 Alliance
 Inst51Quest5 = "5. Netter Hut..."
@@ -6778,8 +6671,7 @@ Inst51Quest4_HORDE_Location = Inst51Quest4_Location
 Inst51Quest4_HORDE_Note = Inst51Quest4_Note
 Inst51Quest4_HORDE_Prequest = "Nein"
 Inst51Quest4_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 5 Horde
 Inst51Quest5_HORDE = Inst51Quest5
@@ -7265,8 +7157,7 @@ Inst54Quest7_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst54Quest7_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nHerold Horizontiss ist bei "..DARKYELLOW.."[1]"..WHITE.."."
 Inst54Quest7_Prequest = "Nein"
 Inst54Quest7_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 8 Alliance
 Inst54Quest8 = "8. Gesucht: Schildwachen der Arkatraz (Tagesquest)"
@@ -7365,8 +7256,7 @@ Inst54Quest7_HORDE_Location = Inst54Quest7_Location
 Inst54Quest7_HORDE_Note = Inst54Quest7_Note
 Inst54Quest7_HORDE_Prequest = "Nein"
 Inst54Quest7_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 8 Horde
 Inst54Quest8_HORDE = Inst54Quest8
@@ -7462,8 +7352,7 @@ Inst55Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst55Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nWarpzweig ist bei "..YELLOW.."[5]"..WHITE.."."
 Inst55Quest6_Prequest = "Nein"
 Inst55Quest6_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 7 Alliance
 Inst55Quest7 = "7. Gesucht: Kanalisierer der Sonnensucher (Tagesquest)"
@@ -7552,8 +7441,7 @@ Inst55Quest6_HORDE_Location = Inst55Quest6_Location
 Inst55Quest6_HORDE_Note = Inst55Quest6_Note
 Inst55Quest6_HORDE_Prequest = "Nein"
 Inst55Quest6_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 7 Horde
 Inst55Quest7_HORDE = Inst55Quest7
@@ -7648,8 +7536,7 @@ Inst56Quest6_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst56Quest6_Note = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nPathaleon der Kalkulator ist bei "..YELLOW.."[5]"..WHITE.."."
 Inst56Quest6_Prequest = "Nein"
 Inst56Quest6_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 7 Alliance
 Inst56Quest7 = "7. Gesucht: Zerstörer der Sturmschmiede (Tagesquest)"
@@ -7737,8 +7624,7 @@ Inst56Quest6_HORDE_Location = Inst56Quest6_Location
 Inst56Quest6_HORDE_Note = Inst56Quest6_Note
 Inst56Quest6_HORDE_Prequest = "Nein"
 Inst56Quest6_HORDE_Folgequest = "Nein"
---
-Inst56Quest6name1_HORDE = Inst56Quest6name1
+-- No Rewards for this quest
 
 --Quest 7 Horde
 Inst56Quest7_HORDE = Inst56Quest7
@@ -7749,8 +7635,7 @@ Inst56Quest7_HORDE_Location = Inst56Quest7_Location
 Inst56Quest7_HORDE_Note = Inst56Quest7_Note
 Inst56Quest7_HORDE_Prequest = "Nein"
 Inst56Quest7_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -8157,8 +8042,7 @@ Inst67Quest8_Location = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..Y
 Inst67Quest8_Note = "Dieses Tagesquest kann nur im heroischen Modus abgeschlossen werden.\n\nPrinz Kael'thas Sonnenwanderer ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst67Quest8_Prequest = "Nein"
 Inst67Quest8_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -8254,8 +8138,7 @@ Inst67Quest8_HORDE_Location = Inst67Quest8_Location
 Inst67Quest8_HORDE_Note = Inst67Quest8_Note
 Inst67Quest8_HORDE_Prequest = "Nein"
 Inst67Quest8_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -8850,8 +8733,7 @@ Inst74Quest3_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "
 Inst74Quest3_Note = "Malygos ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst74Quest3_Prequest = "Nein"
 Inst74Quest3_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -8895,9 +8777,7 @@ Inst74Quest3_HORDE_Location = Inst74Quest3_Location
 Inst74Quest3_HORDE_Note = Inst74Quest3_Note
 Inst74Quest3_HORDE_Prequest = "Nein"
 Inst74Quest3_HORDE_Folgequest = "Nein"
---
-Inst74Quest3name1_HORDE = Inst74Quest3name1
-Inst74Quest3name2_HORDE = Inst74Quest3name2
+-- No Rewards for this quest
 
 
 
@@ -9298,8 +9178,7 @@ Inst79Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "
 Inst79Quest1_Note = "Sartharion ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst79Quest1_Prequest = "Nein"
 Inst79Quest1_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -9311,8 +9190,7 @@ Inst79Quest1_HORDE_Location = Inst79Quest1_Location
 Inst79Quest1_HORDE_Note = Inst79Quest1_Note
 Inst79Quest1_HORDE_Prequest = "Nein"
 Inst79Quest1_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -9693,8 +9571,7 @@ Inst84Quest3_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "
 Inst84Quest3_Note = "Anub'Rekhan ist bei "..YELLOW.."Spinnenviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst84Quest3_Prequest = "Nein"
 Inst84Quest3_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst84Quest4 = "4. Instrukteur Razuvious muss sterben! (Wöchentlich)"
@@ -9705,8 +9582,7 @@ Inst84Quest4_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "
 Inst84Quest4_Note = "Instrukteur Razuvious ist bei "..YELLOW.."Militärviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst84Quest4_Prequest = "Nein"
 Inst84Quest4_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 5 Alliance
 Inst84Quest5 = "5. Noth der Seuchenfürst muss sterben! (Wöchentlich)"
@@ -9717,8 +9593,7 @@ Inst84Quest5_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "
 Inst84Quest5_Note = "Noth der Seuchenfürst ist bei "..YELLOW.."Seuchenviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst84Quest5_Prequest = "Nein"
 Inst84Quest5_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 6 Alliance
 Inst84Quest6 = "6. Flickwerk muss sterben! (Wöchentlich)"
@@ -9729,8 +9604,7 @@ Inst84Quest6_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "
 Inst84Quest6_Note = "Flickwerk ist bei "..YELLOW.."Konstruktviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst84Quest6_Prequest = "Nein"
 Inst84Quest6_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -9768,8 +9642,7 @@ Inst84Quest3_HORDE_Location = Inst84Quest3_Location
 Inst84Quest3_HORDE_Note = Inst84Quest3_Note
 Inst84Quest3_HORDE_Prequest = "Nein"
 Inst84Quest3_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst84Quest4_HORDE = Inst84Quest4
@@ -9780,8 +9653,7 @@ Inst84Quest4_HORDE_Location = Inst84Quest4_Location
 Inst84Quest4_HORDE_Note = Inst84Quest4_Note
 Inst84Quest4_HORDE_Prequest = "Nein"
 Inst84Quest4_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 5 Horde
 Inst84Quest5_HORDE = Inst84Quest5
@@ -9792,8 +9664,7 @@ Inst84Quest5_HORDE_Location = Inst84Quest5_Location
 Inst84Quest5_HORDE_Note = Inst84Quest5_Note
 Inst84Quest5_HORDE_Prequest = "Nein"
 Inst84Quest5_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 6 Horde
 Inst84Quest6_HORDE = Inst84Quest6
@@ -9804,8 +9675,7 @@ Inst84Quest6_HORDE_Location = Inst84Quest6_Location
 Inst84Quest6_HORDE_Note = Inst84Quest6_Note
 Inst84Quest6_HORDE_Prequest = "Nein"
 Inst84Quest6_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -10032,8 +9902,7 @@ Inst86Quest17_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; 
 Inst86Quest17_Note = "Flammenleviathan ist bei "..YELLOW.."Die Belagerung [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst86Quest17_Prequest = "Nein"
 Inst86Quest17_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 18 Alliance
 Inst86Quest18 = "18. Ignis, Meister des Eisenwerks, muss sterben! (Wöchentlich)"
@@ -10044,8 +9913,7 @@ Inst86Quest18_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; 
 Inst86Quest18_Note = "Ignis der Meister des Eisenwerks ist bei "..YELLOW.."Die Belagerung [3]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst86Quest18_Prequest = "Nein"
 Inst86Quest18_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 19 Alliance
 Inst86Quest19 = "19. Klingenschuppe muss sterben! (Wöchentlich)"
@@ -10056,8 +9924,7 @@ Inst86Quest19_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; 
 Inst86Quest19_Note = "Klingenschuppe ist bei "..YELLOW.."Die Belagerung [2]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst86Quest19_Prequest = "Nein"
 Inst86Quest19_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 20 Alliance
 Inst86Quest20 = "20. XT-002 Dekonstruktor muss sterben! (Wöchentlich)"
@@ -10068,8 +9935,7 @@ Inst86Quest20_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; 
 Inst86Quest20_Note = "XT-002 Dekonstruktor ist bei "..YELLOW.."Die Belagerung [4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst86Quest20_Prequest = "Nein"
 Inst86Quest20_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -10281,8 +10147,7 @@ Inst86Quest17_HORDE_Location = Inst86Quest17_Location
 Inst86Quest17_HORDE_Note = Inst86Quest17_Note
 Inst86Quest17_HORDE_Prequest = "Nein"
 Inst86Quest17_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 18 Horde
 Inst86Quest18_HORDE = Inst86Quest18
@@ -10293,8 +10158,7 @@ Inst86Quest18_HORDE_Location = Inst86Quest18_Location
 Inst86Quest18_HORDE_Note = Inst86Quest18_Note
 Inst86Quest18_HORDE_Prequest = "Nein"
 Inst86Quest18_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 19 Horde
 Inst86Quest19_HORDE = Inst86Quest19
@@ -10305,8 +10169,7 @@ Inst86Quest19_HORDE_Location = Inst86Quest19_Location
 Inst86Quest19_HORDE_Note = Inst86Quest19_Note
 Inst86Quest19_HORDE_Prequest = "Nein"
 Inst86Quest19_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 20 Horde
 Inst86Quest20_HORDE = Inst86Quest20
@@ -10317,8 +10180,7 @@ Inst86Quest20_HORDE_Location = Inst86Quest20_Location
 Inst86Quest20_HORDE_Note = Inst86Quest20_Note
 Inst86Quest20_HORDE_Prequest = "Nein"
 Inst86Quest20_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -10367,8 +10229,7 @@ Inst88Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "
 Inst88Quest1_Note = "Lord Jaraxxus ist der zweite Boss.\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst88Quest1_Prequest = "Nein"
 Inst88Quest1_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -10380,8 +10241,7 @@ Inst88Quest1_HORDE_Location = Inst88Quest1_Location
 Inst88Quest1_HORDE_Note = Inst88Quest1_Note
 Inst88Quest1_HORDE_Prequest = "Nein"
 Inst88Quest1_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -10413,8 +10273,7 @@ Inst90Quest2_Note = "Gebe die Quest bei Lady Jaina Prachtmeer ab, bei "..YELLOW.
 Inst90Quest2_Prequest = "In der eisigen Zitadelle"
 Inst90Quest2_Folgequest = "Die Grube von Saron"
 Inst90Quest2FQuest = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst90Quest3 = "3. Die Klinge tempern"
@@ -10451,8 +10310,7 @@ Inst90Quest2_HORDE_Note = "Gebe die Quest bei Fürstin Sylvanas Windläufer ab, 
 Inst90Quest2_HORDE_Prequest = Inst90Quest2_Prequest
 Inst90Quest2_HORDE_Folgequest = "Die Grube von Saron"
 Inst90Quest2FQuest_HORDE = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst90Quest3_HORDE = Inst90Quest3
@@ -10508,8 +10366,7 @@ Inst91Quest3_Note = "Geiselfürst Tyrannus ist am Ende der Instanz. Beende die Q
 Inst91Quest3_Prequest = "Der Pfad zur Zitadelle"
 Inst91Quest3_Folgequest = "Frostgram ("..YELLOW.."Hallen der Reflexion"..WHITE..")"
 Inst91Quest3FQuest = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst91Quest4 = "4. Das Schwert neu schmieden"
@@ -10558,8 +10415,7 @@ Inst91Quest3_HORDE_Note = "Geiselfürst Tyrannus ist am Ende der Instanz. Beende
 Inst91Quest3_HORDE_Prequest = Inst91Quest3_Prequest
 Inst91Quest3_HORDE_Folgequest = Inst91Quest3_Folgequest
 Inst91Quest3FQuest_HORDE = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst91Quest4_HORDE = Inst91Quest4
@@ -10603,8 +10459,7 @@ Inst92Quest2_Note = "Lady Jaina Prachtmeer flieht vorne weg. Die Quest ist beend
 Inst92Quest2_Prequest = "Frostgram"
 Inst92Quest2_Folgequest = "Nein"
 Inst92Quest2PreQuest = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst92Quest3 = "3. Die Hallen der Reflexion"
@@ -10641,8 +10496,7 @@ Inst92Quest2_HORDE_Note = "Fürstin Sylvanas Windläufer flieht vorne weg. Die Q
 Inst92Quest2_HORDE_Prequest = "Frostgram"
 Inst92Quest2_HORDE_Folgequest = "Nein"
 Inst92Quest2PreQuest_HORDE = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst92Quest3_HORDE = Inst92Quest3
@@ -10673,8 +10527,7 @@ Inst93Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "
 Inst93Quest1_Note = "Lord Mark'gar ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
 Inst93Quest1_Prequest = "Nein"
 Inst93Quest1_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst93Quest2 = "2. Die Heiligen und die Verderbten"
@@ -10796,8 +10649,7 @@ Inst93Quest1_HORDE_Location = Inst93Quest1_Location
 Inst93Quest1_HORDE_Note = Inst93Quest1_Note
 Inst93Quest1_HORDE_Prequest = "Nein"
 Inst93Quest1_HORDE_Folgequest = "Nein"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst93Quest2_HORDE = Inst93Quest2
@@ -10951,8 +10803,7 @@ Inst94Quest3_Note = "Halion ist der Hauptboss bei "..YELLOW.."[4]"..WHITE.."."
 Inst94Quest3_Prequest = "Ärger am Wyrmruhtempel"
 Inst94Quest3_Folgequest = "Nein"
 Inst94Quest3PreQuest = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -10989,8 +10840,7 @@ Inst94Quest3_HORDE_Note = Inst94Quest3_Note
 Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
 Inst94Quest3_HORDE_Folgequest = "Nein"
 Inst94Quest3PreQuest_HORDE = "true"
---
--- Preis Gerechtigkeitspunkte.
+-- No Rewards for this quest
 
 
 
@@ -12434,8 +12284,8 @@ Inst113Quest4name2_HORDE = Inst113Quest4name2
 --------------- INST114 - Mogu'Shan Palace ---------------
 
 Inst114Caption = "Mogu’Shan Palast"
-Inst114QAA = "3 Quests"
-Inst114QAH = "3 Quests"
+Inst114QAA = "2 Quests"
+Inst114QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst114Quest1 = "1. Relikte der Vier Könige"
@@ -12461,19 +12311,6 @@ Inst114Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
---Quest 3 Alliance
-Inst114Quest3 = "3. Eine würdige Herausforderung: Xin der Waffenmeister"
-Inst114Quest3_Level = "90"
-Inst114Quest3_Attain = "90"
-Inst114Quest3_Aim = "Schließt den Mogu'shanpalast im Herausforderungsmodus ab."
-Inst114Quest3_Location = "Herausforderer Soong (Tal der Ewigen Blüte - Schrein der Sieben Sterne "..YELLOW.."86.2, 61.6"..WHITE..")"
-Inst114Quest3_Note = "Dies ist eine der würdigen Herausforderungsmoduses die es täglich gibt."
-Inst114Quest3_Prequest = "Nein"
-Inst114Quest3_Folgequest = "Nein"
---
-Inst114Quest3name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
-
 
 --Quest 1 Horde
 Inst114Quest1_HORDE = Inst114Quest1
@@ -12498,26 +12335,13 @@ Inst114Quest2_HORDE_Prequest = "Nein"
 Inst114Quest2_HORDE_Folgequest = "Nein"
 -- Reward varies for each class
 
---Quest 3 Horde
-Inst114Quest3_HORDE = Inst114Quest3
-Inst114Quest3_HORDE_Level = "90"
-Inst114Quest3_HORDE_Attain = "90"
-Inst114Quest3_HORDE_Aim = Inst114Quest3_Aim
-Inst114Quest3_HORDE_Location = "Herausforderer Wuli (Tal der Ewigen Blüte - Schrein der Zwei Monde "..YELLOW.."61.2, 20.8"..WHITE..")"
-Inst114Quest3_HORDE_Note = Inst114Quest3_Note
-Inst114Quest3_HORDE_Prequest = "Nein"
-Inst114Quest3_HORDE_Folgequest = "Nein"
---
-Inst114Quest3name1_HORDE = Inst114Quest3name1
--- Preis Tapferkeitspunkte.
-
 
 
 --------------- INST115 - Shado-pan Monastery ---------------
 
 Inst115Caption = "Shado-Pan-Kloster"
-Inst115QAA = "4 Quests"
-Inst115QAH = "4 Quests"
+Inst115QAA = "3 Quests"
+Inst115QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst115Quest1 = "1. Ins Kloster"
@@ -12555,19 +12379,6 @@ Inst115Quest3_Prequest = "Nein"
 Inst115Quest3_Folgequest = "Nein"
 --
 -- Reward varies for each class
-
---Quest 4 Alliance
-Inst115Quest4 = "4. Eine würdige Herausforderung: Sha des Hasses"
-Inst115Quest4_Level = "90"
-Inst115Quest4_Attain = "90"
-Inst115Quest4_Aim = "Schließt den Shado-Pan-Kloster im Herausforderungsmodus ab."
-Inst115Quest4_Location = Inst114Quest3_Location
-Inst115Quest4_Note = Inst114Quest3_Note
-Inst115Quest4_Prequest = "Nein"
-Inst115Quest4_Folgequest = "Nein"
---
-Inst115Quest4name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12607,26 +12418,13 @@ Inst115Quest3_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
---Quest 4 Horde
-Inst115Quest4_HORDE = Inst115Quest4
-Inst115Quest4_HORDE_Level = "90"
-Inst115Quest4_HORDE_Attain = "90"
-Inst115Quest4_HORDE_Aim = Inst115Quest4_Aim
-Inst115Quest4_HORDE_Location = Inst114Quest3_HORDE_Location
-Inst115Quest4_HORDE_Note = Inst115Quest4_Note
-Inst115Quest4_HORDE_Prequest = "Nein"
-Inst115Quest4_HORDE_Folgequest = "Nein"
---
-Inst115Quest4name1_HORDE = Inst115Quest4name1
--- Preis Tapferkeitspunkte.
-
 
 
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Caption = "Brauerei Sturmbräu"
-Inst116QAA = "5 Quests"
-Inst116QAH = "5 Quests"
+Inst116QAA = "4 Quests"
+Inst116QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst116Quest1 = "1. In die Brauerrei"
@@ -12677,19 +12475,6 @@ Inst116Quest4_Folgequest = "Das sind nicht Eure fettigen Ziegensteaks"
 Inst116Quest4FQuest = "true"
 --
 Inst116Quest4name1 = "Nudelwagenbausatz Deluxe"
-
---Quest 5 Alliance
-Inst116Quest5 = "5. Eine würdige Herausforderung: Yan-Zhu der Dekantierte"
-Inst116Quest5_Level = "90"
-Inst116Quest5_Attain = "90"
-Inst116Quest5_Aim = "Schließt die Brauerei Sturmbräu im Herausforderungsmodus ab."
-Inst116Quest5_Location = Inst114Quest3_Location
-Inst116Quest5_Note = Inst114Quest3_Note
-Inst116Quest5_Prequest = "Nein"
-Inst116Quest5_Folgequest = "Nein"
---
-Inst116Quest5name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12742,26 +12527,13 @@ Inst116Quest4FQuest_HORDE = "true"
 --
 Inst116Quest4name1_HORDE = Inst116Quest4name1
 
---Quest 5 Horde
-Inst116Quest5_HORDE = Inst116Quest5
-Inst116Quest5_HORDE_Level = "90"
-Inst116Quest5_HORDE_Attain = "90"
-Inst116Quest5_HORDE_Aim = Inst116Quest5_Aim
-Inst116Quest5_HORDE_Location = Inst114Quest3_HORDE_Location
-Inst116Quest5_HORDE_Note = Inst116Quest5_Note
-Inst116Quest5_HORDE_Prequest = "Nein"
-Inst116Quest5_HORDE_Folgequest = "Nein"
---
-Inst116Quest5name1_HORDE = Inst116Quest5name1
--- Preis Tapferkeitspunkte.
-
 
 
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Caption = "Tempel der Jadeschlange"
-Inst117QAA = "5 Quests"
-Inst117QAH = "5 Quests"
+Inst117QAA = "4 Quests"
+Inst117QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst117Quest1 = "1. Wiederherstellung der Reinheit"
@@ -12810,19 +12582,6 @@ Inst117Quest4_Prequest = "Das verlorene Geheimnis der Geheimzutat"
 Inst117Quest4_Folgequest = "Auf ewig verlorene Geheimnisse?"
 Inst117Quest4FQuest = "true"
 -- No Rewards for this quest
-
---Quest 5 Alliance
-Inst117Quest5 = "5. Eine würdige Herausforderung: Sha des Zweifels"
-Inst117Quest5_Level = "90"
-Inst117Quest5_Attain = "90"
-Inst117Quest5_Aim = "Schließt den Tempel der Jadeschlange im Herausforderungsmodus ab."
-Inst117Quest5_Location = Inst114Quest3_Location
-Inst117Quest5_Note = Inst114Quest3_Note
-Inst117Quest5_Prequest = "Nein"
-Inst117Quest5_Folgequest = "Nein"
---
-Inst117Quest5name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12873,26 +12632,13 @@ Inst117Quest4_HORDE_Folgequest = Inst117Quest4_Folgequest
 Inst117Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 5 Horde
-Inst117Quest5_HORDE = Inst117Quest5
-Inst117Quest5_HORDE_Level = "90"
-Inst117Quest5_HORDE_Attain = "90"
-Inst117Quest5_HORDE_Aim = Inst117Quest5_Aim
-Inst117Quest5_HORDE_Location = Inst114Quest3_HORDE_Location
-Inst117Quest5_HORDE_Note = Inst117Quest5_Note
-Inst117Quest5_HORDE_Prequest = "Nein"
-Inst117Quest5_HORDE_Folgequest = "Nein"
---
-Inst117Quest5name1_HORDE = Inst117Quest5name1
--- Preis Tapferkeitspunkte.
-
 
 
 --------------- INST118 - Gate of the Setting Sun ---------------
 
 Inst118Caption = "Tor der untergehenden Sonne"
-Inst118QAA = "3 Quests"
-Inst118QAH = "3 Quests"
+Inst118QAA = "2 Quests"
+Inst118QAH = "2 Quests"
 
 --Quest 1 Alliance 
 Inst118Quest1 = "1. Gebt das Signal"
@@ -12916,19 +12662,6 @@ Inst118Quest2_Prequest = "Nein"
 Inst118Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
-
---Quest 3 Alliance
-Inst118Quest3 = "3. Eine würdige Herausforderung: Raigonn"
-Inst118Quest3_Level = "90"
-Inst118Quest3_Attain = "90"
-Inst118Quest3_Aim = "Schließt das Tor der Untergehenden Sonne im Herausforderungsmodus ab."
-Inst118Quest3_Location = Inst114Quest3_Location
-Inst118Quest3_Note = Inst114Quest3_Note
-Inst118Quest3_Prequest = "Nein"
-Inst118Quest3_Folgequest = "Nein"
---
-Inst118Quest3name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
 
 
 --Quest 1 Horde
@@ -12954,26 +12687,13 @@ Inst118Quest2_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
---Quest 3 Horde
-Inst118Quest3_HORDE = Inst118Quest3
-Inst118Quest3_HORDE_Level = "90"
-Inst118Quest3_HORDE_Attain = "90"
-Inst118Quest3_HORDE_Aim = Inst118Quest3_Aim
-Inst118Quest3_HORDE_Location = Inst114Quest3_HORDE_Location
-Inst118Quest3_HORDE_Note = Inst118Quest3_Note
-Inst118Quest3_HORDE_Prequest = "Nein"
-Inst118Quest3_HORDE_Folgequest = "Nein"
---
-Inst118Quest3name1_HORDE = Inst118Quest3name1
--- Preis Tapferkeitspunkte.
-
 
 
 --------------- INST119 - Siege of Niuzao Temple ---------------
 
 Inst119Caption = "Belagerung des Niuzaotempels"
-Inst119QAA = "3 Quests"
-Inst119QAH = "3 Quests"
+Inst119QAA = "2 Quests"
+Inst119QAH = "2 Quests"
 
 --Quest 1 Alliance 
 Inst119Quest1 = "1. Irgendwo da drinnen"
@@ -12998,19 +12718,6 @@ Inst119Quest2_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
---Quest 3 Alliance
-Inst119Quest3 = "3. Eine würdige Herausforderung: Schwadronsführer Ner'onok"
-Inst119Quest3_Level = "90"
-Inst119Quest3_Attain = "90"
-Inst119Quest3_Aim = "Schließt den Niuzaotempel im Herausforderungsmodus ab."
-Inst119Quest3_Location = Inst114Quest3_Location
-Inst119Quest3_Note = Inst114Quest3_Note
-Inst119Quest3_Prequest = "Nein"
-Inst119Quest3_Folgequest = "Nein"
---
-Inst119Quest3name1= "Heroische Schatzkiste"
--- Preis Tapferkeitspunkte.
-
 
 --Quest 1 Horde
 Inst119Quest1_HORDE = Inst119Quest1
@@ -13034,19 +12741,6 @@ Inst119Quest2_HORDE_Prequest = "Nein"
 Inst119Quest2_HORDE_Folgequest = "Nein"
 --
 -- Reward varies for each class
-
---Quest 3 Horde
-Inst119Quest3_HORDE = Inst119Quest3
-Inst119Quest3_HORDE_Level = "90"
-Inst119Quest3_HORDE_Attain = "90"
-Inst119Quest3_HORDE_Aim = Inst119Quest3_Aim
-Inst119Quest3_HORDE_Location = Inst114Quest3_HORDE_Location
-Inst119Quest3_HORDE_Note = Inst119Quest3_Note
-Inst119Quest3_HORDE_Prequest = "Nein"
-Inst119Quest3_HORDE_Folgequest = "Nein"
---
-Inst119Quest3name1_HORDE = Inst119Quest3name1
--- Preis Tapferkeitspunkte.
 
 
 
@@ -13620,6 +13314,120 @@ Inst145Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
+--------------- INST146 - Auchindoun ---------------
+
+Inst146Caption = "Auchindoun"
+Inst146QAA = "Keine Quests"
+Inst146QAH = "Keine Quests"
+--[[
+--Quest 1 Alliance
+Inst146Quest1 = "1. A Worthy Challenge: Teron'gor"
+Inst146Quest1_Level = "100"
+Inst146Quest1_Attain = "100"
+Inst146Quest1_Aim = "Complete the Auchindoun Challenge Mode."
+Inst146Quest1_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst146Quest1_Note = "You only need to complete the challenge.  How long you take does not matter for the quest."
+Inst146Quest1_Prequest = "Nein"
+Inst146Quest1_Folgequest = "Nein"
+--
+Inst146Quest1name1 = "Challenger's Strongbox"
+
+--Quest 2 Alliance
+Inst146Quest2 = ""
+Inst146Quest2_Level = ""
+Inst146Quest2_Attain = ""
+Inst146Quest2_Aim = ""
+Inst146Quest2_Location = ""
+Inst146Quest2_Note = ""
+Inst146Quest2_Prequest = "Nein"
+Inst146Quest2_Folgequest = "Nein"
+Inst146Quest2PreQuest = "true"
+Inst146Quest2FQuest = "true"
+--
+Inst146Quest2name1 = ""
+-- No Rewards for this quest
+-- Reward varies for each class
+--Quest 3 Alliance
+Inst146Quest3 = ""
+Inst146Quest3_Level = ""
+Inst146Quest3_Attain = ""
+Inst146Quest3_Aim = ""
+Inst146Quest3_Location = ""
+Inst146Quest3_Note = ""
+Inst146Quest3_Prequest = "Nein"
+Inst146Quest3_Folgequest = "Nein"
+Inst146Quest3PreQuest = "true"
+Inst146Quest3FQuest = "true"
+--
+Inst146Quest3name1 = ""
+-- No Rewards for this quest
+-- Reward varies for each class
+--]]
+
+
+--------------- INST147 - Skyreach ---------------
+
+Inst147Caption = "Skyreach"
+Inst147QAA = "Keine Quests"
+Inst147QAH = "Keine Quests"
+
+
+--------------- INST148 - Bloodmaul Slag Mines ---------------
+
+Inst148Caption = "Bloodmaul Slag Mines"
+Inst148QAA = "Keine Quests"
+Inst148QAH = "Keine Quests"
+
+
+--------------- INST149 - Iron Docks ---------------
+
+Inst149Caption = "Iron Docks"
+Inst149QAA = "Keine Quests"
+Inst149QAH = "Keine Quests"
+
+
+--------------- INST150 - The Everbloom ---------------
+
+Inst150Caption = "The Everbloom"
+Inst150QAA = "Keine Quests"
+Inst150QAH = "Keine Quests"
+
+
+--------------- INST151 - Grimrail Depot ---------------
+
+Inst151Caption = "Grimrail Depot"
+Inst151QAA = "Keine Quests"
+Inst151QAH = "Keine Quests"
+
+
+--------------- INST152 - Shadowmoon Burial Grounds ---------------
+
+Inst152Caption = "Shadowmoon Burial Grounds"
+Inst152QAA = "Keine Quests"
+Inst152QAH = "Keine Quests"
+
+
+--------------- INST153 - Upper Blackrock Spire ---------------
+
+Inst153Caption = "Upper Blackrock Spire"
+Inst153QAA = "Keine Quests"
+Inst153QAH = "Keine Quests"
+
+
+--------------- INST154 - Highmaul ---------------
+
+Inst154Caption = "Highmaul"
+Inst154QAA = "Keine Quests"
+Inst154QAH = "Keine Quests"
+
+
+--------------- INST155 - Blackrock Foundry ---------------
+
+Inst155Caption = "Blackrock Foundry"
+Inst155QAA = "Keine Quests"
+Inst155QAH = "Keine Quests"
+
+
 
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------
@@ -13903,8 +13711,40 @@ Inst142QAH = "Keine Quests"
 --------------- INST144 - Troves of the Thunder King ---------------
 
 Inst144Caption = "Schatzkammer des Donnerkönigs"
-Inst144QAA = "No Quests"
-Inst144QAH = "No Quests"
+Inst144QAA = "Keine Quests"
+Inst144QAH = "Keine Quests"
+
+
+
+--------------- INST157 - The Trial of Faith ---------------
+
+Inst157Caption = "The Trial of Faith"
+Inst157QAA = "Keine Quests"
+Inst157QAH = "Keine Quests"
+
+
+
+--------------- INST158 - The Purge of Grommar ---------------
+
+Inst158Caption = "The Purge of Grommar"
+Inst158QAA = "Keine Quests"
+Inst158QAH = "Keine Quests"
+
+
+
+--------------- INST159 - The Coliseum ---------------
+
+Inst159Caption = "The Coliseum"
+Inst159QAA = "Keine Quests"
+Inst159QAH = "Keine Quests"
+
+
+
+--------------- INST160 - The Battle of Thunder Pass ---------------
+
+Inst160Caption = "The Battle of Thunder Pass"
+Inst160QAA = "Keine Quests"
+Inst160QAH = "Keine Quests"
 
 
 
