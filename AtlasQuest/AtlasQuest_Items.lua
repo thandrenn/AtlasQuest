@@ -7199,6 +7199,14 @@ Inst146Quest1ID1 = "119032"
 
 --------------- INST125 - A Brewing Storm ---------------
 
+--Quest 1 Alliance
+Inst125Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst125Quest1Rewardtext_HORDE = AQNoReward
+
+
 
 --------------- INST126 - Arena of Annihilation ---------------
 

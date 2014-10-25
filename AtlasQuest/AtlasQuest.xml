@@ -504,9 +504,9 @@
      <AbsDimension x="65" y="23"/>
    </Size>
 	<Anchors>
-		<Anchor point="BOTTOMRIGHT">
+		<Anchor point="BOTTOMLEFT">
 			<Offset>
-				<AbsDimension x="-25" y="11"/>
+				<AbsDimension x="70" y="11"/>
 			</Offset>
 		</Anchor>
 	</Anchors>

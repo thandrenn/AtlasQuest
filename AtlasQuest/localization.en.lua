@@ -13384,8 +13384,32 @@ Inst155QAH = "No Quests"
 --------------- INST125 - A Brewing Storm ---------------
 
 Inst125Caption = "A Brewing Storm"
-Inst125QAA = "No Quests"
-Inst125QAH = "No Quests"
+Inst125QAA = "1 Quest"
+Inst125QAH = "1 Quest"
+
+
+--Quest 1 Alliance
+Inst125Quest1 = "1. Blanche's Boomer Brew"
+Inst125Quest1_Level = "90"
+Inst125Quest1_Attain = "90"
+Inst125Quest1_Aim = "Complete the 'Brewing Storm' Scenario."
+Inst125Quest1_Location = "Brewmaster Blanche (The Jade Forest - Thunderpaw Overlook; "..YELLOW.."38.0, 30.0"..WHITE..")"
+Inst125Quest1_Note = "The NPC that gives the quest walks around the listed coordinates.  You may have to wait or fly around a bit to find her.  The quest turns in at the same NPC."
+Inst125Quest1_Prequest = "None"
+Inst125Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst125Quest1_HORDE = Inst125Quest1
+Inst125Quest1_HORDE_Level = Inst125Quest1_Level
+Inst125Quest1_HORDE_Attain = Inst125Quest1_Attain
+Inst125Quest1_HORDE_Aim = Inst125Quest1_Aim
+Inst125Quest1_HORDE_Location = Inst125Quest1_Location
+Inst125Quest1_HORDE_Note = Inst125Quest1_Note
+Inst125Quest1_HORDE_Prequest = Inst125Quest1_Prequest
+Inst125Quest1_HORDE_Folgequest = Inst125Quest1_Folgequest
+-- No Rewards for this quest
 
 
 
