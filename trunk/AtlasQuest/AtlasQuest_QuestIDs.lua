@@ -2500,6 +2500,14 @@ AQ__Level = ""
 
 --------------- INST125 - A Brewing Storm ---------------
 
+Inst125Quest1_QuestID = "30567"
+
+Inst125Quest1_HORDE_QuestID = "30567"
+
+
+AQ_30567_Level = "90"
+
+
 
 --------------- INST126 - Arena of Annihilation ---------------
 

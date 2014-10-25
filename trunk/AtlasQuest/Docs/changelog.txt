@@ -2,12 +2,15 @@
 Changelog
 =========
 
-Version 4.9.0 (BETA)  (October 22, 2014)
+Version 4.9.0 (BETA)  (October 25, 2014)
 
 - Compatibility and TOC file updates for Patch 6.0.2
 - Removed all Challenge Mode quests (deleted in patch 6.0.2)
 - Removed all references to Justice and Valor points.  May they rest in peace.
+- Moved Options button a little bit more to the center.
 - Warlords of Draenor quests will be added in the next release.  I don't have enough information for them at this time.
+
+- Added quest:  A Brewing Storm: Blanche's Boomer Brew (thanks Guldukat!)
 
 
 
@@ -30,7 +33,7 @@ Version 4.8.8  (February 25, 2014)
 - Fixed a few boring typos.
 
 - Added quests:
-	- Upper Blackrock Spire: Blackrock Anomaly   (thanks Burkhard!)
+	- Upper Blackrock Spire: Blackrock Anomaly   (thanks Guldukat!)
 	- Siege of Orgrimmar: A Vision in Time
 	- Siege of Orgrimmar: Refining The Vision
 	- Siege of Orgrimmar: Seeking Fate
@@ -43,7 +46,7 @@ Version 4.8.7  (November 26, 2013)
 - Fixed: Starting location of Stratholme: Liquid Gold  (thanks yunohu)
 - Fixed: Starting location of Shattered Halls: Advancing the Campaign (Horde)    (thanks yunohu)
 - Added missing optional prequest for Utgarde Keep: Stealing Their Thunder   (thanks yunohu)
-- Special thanks to Burkhard for reminding me of these quests I forgot to add.  Thank you!
+- Special thanks to Guldukat for reminding me of these quests I forgot to add.  Thank you!
 
 - Added quests:
 	- Scarlet Halls: A Worthy Challenge: Flameweaver Koegler
