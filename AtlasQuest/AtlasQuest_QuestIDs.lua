@@ -253,33 +253,13 @@ AQ_8730_Level = "60"
 
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
-Inst7Quest1_QuestID = "26898"
-Inst7Quest2_QuestID = "26885"
-Inst7Quest3_QuestID = "26881"
-Inst7Quest4_QuestID = "26882"
-Inst7Quest5_QuestID = "26884"
-Inst7Quest6_QuestID = "26883"
+Inst7Quest1_QuestID = "34672"
 
-Inst7Quest1_HORDE_QuestID = "26894"
-Inst7Quest2_HORDE_QuestID = "26892"
-Inst7Quest3_HORDE_QuestID = "26891"
-Inst7Quest4_HORDE_QuestID = "26899"
-Inst7Quest5_HORDE_QuestID = "26888"
-Inst7Quest6_HORDE_QuestID = "26890"
+Inst7Quest1_HORDE_QuestID = "34673"
 
 
-AQ_26898_Level = "24"
-AQ_26885_Level = "25"
-AQ_26881_Level = "25"
-AQ_26882_Level = "28"
-AQ_26884_Level = "26"
-AQ_26883_Level = "28"
-AQ_26894_Level = "24"
-AQ_26892_Level = "26"
-AQ_26891_Level = "26"
-AQ_26899_Level = "28"
-AQ_26888_Level = "27"
-AQ_26890_Level = "22"
+AQ_34672_Level = "25"
+AQ_34673_Level = "25"
 
 
 
@@ -475,26 +455,17 @@ AQ_24429_Level = "80"
 --------------- INST17 - Razorfen Downs (RFD) ---------------
 
 Inst17Quest1_QuestID = "27063"
-Inst17Quest2_QuestID = "27009"
-Inst17Quest3_QuestID = "27029"
-Inst17Quest4_QuestID = "27024"
-Inst17Quest5_QuestID = "27019"
-Inst17Quest6_QuestID = "27022"
+Inst17Quest2_QuestID = "33513"
+Inst17Quest3_QuestID = "33514"
 
 Inst17Quest1_HORDE_QuestID = "27062"
-Inst17Quest2_HORDE_QuestID = "27009"
-Inst17Quest3_HORDE_QuestID = "27029"
-Inst17Quest4_HORDE_QuestID = "27024"
-Inst17Quest5_HORDE_QuestID = "27019"
-Inst17Quest6_HORDE_QuestID = "27022"
+Inst17Quest2_HORDE_QuestID = "33513"
+Inst17Quest3_HORDE_QuestID = "33514"
 
 
 AQ_27063_Level = "43"
-AQ_27009_Level = "46"
-AQ_27029_Level = "44"
-AQ_27024_Level = "44"
-AQ_27019_Level = "44"
-AQ_27022_Level = "45"
+AQ_33513_Level = "44"
+AQ_33514_Level = "46"
 AQ_27062_Level = "43"
 
 
@@ -502,26 +473,23 @@ AQ_27062_Level = "43"
 --------------- INST18 - Razorfen Kraul (RFK) ---------------
 
 Inst18Quest1_QuestID = "26908"
-Inst18Quest2_QuestID = "26906"
-Inst18Quest3_QuestID = "26905"
-Inst18Quest4_QuestID = "26901"
-Inst18Quest5_QuestID = "26907"
-Inst18Quest6_QuestID = "26903"
+Inst18Quest2_QuestID = "26907"
+Inst18Quest3_QuestID = "26901"
+Inst18Quest4_QuestID = "26906"
+Inst18Quest5_QuestID = "26905"
 
 Inst18Quest1_HORDE_QuestID = "26908"
-Inst18Quest2_HORDE_QuestID = "26906"
-Inst18Quest3_HORDE_QuestID = "26905"
-Inst18Quest4_HORDE_QuestID = "26901"
-Inst18Quest5_HORDE_QuestID = "26907"
-Inst18Quest6_HORDE_QuestID = "26903"
+Inst18Quest2_HORDE_QuestID = "26907"
+Inst18Quest3_HORDE_QuestID = "26901"
+Inst18Quest4_HORDE_QuestID = "26906"
+Inst18Quest5_HORDE_QuestID = "26905"
 
 
 AQ_26908_Level = "33"
+AQ_26907_Level = "35"
+AQ_26901_Level = "35"
 AQ_26906_Level = "35"
 AQ_26905_Level = "35"
-AQ_26901_Level = "35"
-AQ_26907_Level = "35"
-AQ_26903_Level = "35"
 
 
 
