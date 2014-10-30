@@ -308,7 +308,7 @@ Inst2Quest1 = "1. Deviate Hides"
 Inst2Quest1_Level = "18"
 Inst2Quest1_Attain = "16"
 Inst2Quest1_Aim = "Nalpak wants 10 Deviate Hides."
-Inst2Quest1_Location = "Nalpak (Wailing Caverns; "..YELLOW.."Entrance"..WHITE..")"
+Inst2Quest1_Location = "Nalpak (Wailing Caverns; "..BLUE.."Entrance"..WHITE..")"
 Inst2Quest1_Note = "All deviate mobs inside the instance can drop hides."
 Inst2Quest1_Prequest = "None"
 Inst2Quest1_Folgequest = "None"
@@ -319,7 +319,7 @@ Inst2Quest2 = "2. Preemptive Methods"
 Inst2Quest2_Level = "18"
 Inst2Quest2_Attain = "16"
 Inst2Quest2_Aim = "Nalpak wants you to collect 5 Serpentbloom."
-Inst2Quest2_Location = "Nalpak (Wailing Caverns; "..YELLOW.."Entrance"..WHITE..")"
+Inst2Quest2_Location = "Nalpak (Wailing Caverns; "..BLUE.."Entrance"..WHITE..")"
 Inst2Quest2_Note = "Serpentbloom is scattered all over the instance on the ground."
 Inst2Quest2_Prequest = "None"
 Inst2Quest2_Folgequest = "None"
@@ -331,7 +331,7 @@ Inst2Quest3 = "3. Cleansing the Caverns"
 Inst2Quest3_Level = "21"
 Inst2Quest3_Attain = "16"
 Inst2Quest3_Aim = "Ebru in the Wailing Caverns wants you to kill the Fanglords Cobrahn, Anacondra, Pythas, and Serpentis."
-Inst2Quest3_Location = "Ebru (Wailing Caverns; "..YELLOW.."Entrance"..WHITE..")"
+Inst2Quest3_Location = "Ebru (Wailing Caverns; "..BLUE.."Entrance"..WHITE..")"
 Inst2Quest3_Note = "Lady Anacondra is at "..YELLOW.."[1]"..WHITE..", Lord Cobrahn is at "..YELLOW.."[3]"..WHITE..", Lord Pythas is at "..YELLOW.."[4]"..WHITE.." and Lord Serpentis is at "..YELLOW.."[6]"..WHITE.."."
 Inst2Quest3_Prequest = "None"
 Inst2Quest3_Folgequest = "None"
@@ -516,7 +516,7 @@ Inst4Quest1 = "1. The Chamber of Khaz'mul"
 Inst4Quest1_Level = "39"
 Inst4Quest1_Attain = "37"
 Inst4Quest1_Aim = "Defeat Ironaya."
-Inst4Quest1_Location = "Lead Prospector Durdin (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest1_Location = "Lead Prospector Durdin (Uldaman; "..BLUE.."Entrance"..WHITE..")"
 Inst4Quest1_Note = "Ironaya is at "..YELLOW.."[3]"..WHITE..". To open her chamber, get the Gni'kiv Medallion from Baelog's Chest at "..YELLOW.."[1]"..WHITE.." and the The Shaft of Tsol from Revelosh at "..YELLOW.."[2]"..WHITE..".\n\nYou can turn the quest in and accept the followup with the Quest Log."
 Inst4Quest1_Prequest = "None"
 Inst4Quest1_Folgequest = "Archaedas, The Ancient Stone Watcher"
@@ -527,7 +527,7 @@ Inst4Quest2 = "2. Archaedas, The Ancient Stone Watcher"
 Inst4Quest2_Level = "40"
 Inst4Quest2_Attain = "37"
 Inst4Quest2_Aim = "Defeat Archaedas."
-Inst4Quest2_Location = "Lead Prospector Durdin (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest2_Location = "Lead Prospector Durdin (Uldaman; "..BLUE.."Entrance"..WHITE..")"
 Inst4Quest2_Note = "Archaedas is at "..YELLOW.."[8]"..WHITE.."."
 Inst4Quest2_Prequest = "The Chamber of Khaz'mul"
 Inst4Quest2_Folgequest = "None"
@@ -539,7 +539,7 @@ Inst4Quest3 = "3. It's What's Inside That Counts"
 Inst4Quest3_Level = "39"
 Inst4Quest3_Attain = "37"
 Inst4Quest3_Aim = "Obtain the Obsidian Power Core and the Titan Power Core."
-Inst4Quest3_Location = "Kand Sandseeker (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest3_Location = "Kand Sandseeker (Uldaman; "..BLUE.."Entrance"..WHITE..")"
 Inst4Quest3_Note = "The Obsidian Power Core drops from the Obsidian Sentinel at "..YELLOW.."[4]"..WHITE.." and the Titan Power Core from the Ancient Stone Keeper at "..YELLOW.."[5]"..WHITE.."."
 Inst4Quest3_Prequest = "None"
 Inst4Quest3_Folgequest = "None"
@@ -550,7 +550,7 @@ Inst4Quest4 = "4. Behind Closed Doors"
 Inst4Quest4_Level = "39"
 Inst4Quest4_Attain = "37"
 Inst4Quest4_Aim = "Kill Galgann Firehammer."
-Inst4Quest4_Location = "Olga Runesworn (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest4_Location = "Olga Runesworn (Uldaman; "..BLUE.."Entrance"..WHITE..")"
 Inst4Quest4_Note = "Galgann Firehammer is at "..YELLOW.."[6]"..WHITE.."."
 Inst4Quest4_Prequest = "None"
 Inst4Quest4_Folgequest = "None"
@@ -588,7 +588,7 @@ Inst4Quest1_HORDE = "1. The Chamber of Khaz'mul"
 Inst4Quest1_HORDE_Level = "39"
 Inst4Quest1_HORDE_Attain = "37"
 Inst4Quest1_HORDE_Aim = "Defeat Ironaya."
-Inst4Quest1_HORDE_Location = "High Examiner Tae'thelan Bloodwatcher (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest1_HORDE_Location = "High Examiner Tae'thelan Bloodwatcher (Uldaman; "..BLUE.."Entrance"..WHITE..")"
 Inst4Quest1_HORDE_Note = "Ironaya is at "..YELLOW.."[3]"..WHITE..". To open her chamber, get the Gni'kiv Medallion from Baelog's Chest at "..YELLOW.."[1]"..WHITE.." and the The Shaft of Tsol from Revelosh at "..YELLOW.."[2]"..WHITE..".\n\nYou can turn the quest in and accept the followup with the Quest Log."
 Inst4Quest1_HORDE_Prequest = "None"
 Inst4Quest1_HORDE_Folgequest = "Archaedas, The Ancient Stone Watcher"
@@ -599,7 +599,7 @@ Inst4Quest2_HORDE = "2. Archaedas, The Ancient Stone Watcher"
 Inst4Quest2_HORDE_Level = "40"
 Inst4Quest2_HORDE_Attain = "37"
 Inst4Quest2_HORDE_Aim = "Defeat Archaedas."
-Inst4Quest2_HORDE_Location = "High Examiner Tae'thelan Bloodwatcher (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest2_HORDE_Location = "High Examiner Tae'thelan Bloodwatcher (Uldaman; "..BLUE.."Entrance"..WHITE..")"
 Inst4Quest2_HORDE_Note = "Archaedas is at "..YELLOW.."[8]"..WHITE.."."
 Inst4Quest2_HORDE_Prequest = "The Chamber of Khaz'mul"
 Inst4Quest2_HORDE_Folgequest = "None"
@@ -611,7 +611,7 @@ Inst4Quest3_HORDE = "3. We Require More Minerals"
 Inst4Quest3_HORDE_Level = "39"
 Inst4Quest3_HORDE_Attain = "37"
 Inst4Quest3_HORDE_Aim = "Obtain the Obsidian Power Core and the Titan Power Core."
-Inst4Quest3_HORDE_Location = "Aoren Sunglow (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest3_HORDE_Location = "Aoren Sunglow (Uldaman; "..BLUE.."Entrance"..WHITE..")"
 Inst4Quest3_HORDE_Note = "The Obsidian Power Core drops from the Obsidian Sentinel at "..YELLOW.."[4]"..WHITE.." and the Titan Power Core from the Ancient Stone Keeper at "..YELLOW.."[5]"..WHITE.."."
 Inst4Quest3_HORDE_Prequest = "None"
 Inst4Quest3_HORDE_Folgequest = "None"
@@ -622,7 +622,7 @@ Inst4Quest4_HORDE = "4. Behind Closed Doors"
 Inst4Quest4_HORDE_Level = "39"
 Inst4Quest4_HORDE_Attain = "37"
 Inst4Quest4_HORDE_Aim = "Kill Galgann Firehammer."
-Inst4Quest4_HORDE_Location = "Lidia Sunglow (Uldaman; "..YELLOW.."Entrance"..WHITE..")"
+Inst4Quest4_HORDE_Location = "Lidia Sunglow (Uldaman; "..BLUE.."Entrance"..WHITE..")"
 Inst4Quest4_HORDE_Note = "Galgann Firehammer is at "..YELLOW.."[6]"..WHITE.."."
 Inst4Quest4_HORDE_Prequest = "None"
 Inst4Quest4_HORDE_Folgequest = "None"
@@ -667,7 +667,7 @@ Inst5Quest1 = "1. Into the Prison"
 Inst5Quest1_Level = "52"
 Inst5Quest1_Attain = "47"
 Inst5Quest1_Aim = "Find Kevin Dawson."
-Inst5Quest1_Location = "Jalinda Sprig (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest1_Location = "Jalinda Sprig (Blackrock Depths; "..BLUE.."Entrance"..WHITE..")"
 Inst5Quest1_Note = "Kevin Dawson is on the way to the Prison at "..GREEN.."[2']"..WHITE.."."
 Inst5Quest1_Prequest = "None"
 Inst5Quest1_Folgequest = "Twilight?! No!"
@@ -690,7 +690,7 @@ Inst5Quest3 = "3. The Sealed Gate"
 Inst5Quest3_Level = "52"
 Inst5Quest3_Attain = "47"
 Inst5Quest3_Aim = "Kill Bael'gar."
-Inst5Quest3_Location = "Tinkee Steamboil (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest3_Location = "Tinkee Steamboil (Blackrock Depths; "..BLUE.."Entrance"..WHITE..")"
 Inst5Quest3_Note = "Bael'gar is at "..YELLOW.."[4]"..WHITE.."."
 Inst5Quest3_Prequest = "None"
 Inst5Quest3_Folgequest = "None"
@@ -701,7 +701,7 @@ Inst5Quest4 = "4. Infiltrating Shadowforge City"
 Inst5Quest4_Level = "54"
 Inst5Quest4_Attain = "51"
 Inst5Quest4_Aim = "Speak to Prospector Seymour."
-Inst5Quest4_Location = "Oralius (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest4_Location = "Oralius (Blackrock Depths; "..BLUE.."Entrance"..WHITE..")"
 Inst5Quest4_Note = "Prospector Seymour is at "..GREEN.."[3']"..WHITE.."."
 Inst5Quest4_Prequest = "None"
 Inst5Quest4_Folgequest = "Dark Iron Tacticians"
@@ -763,7 +763,7 @@ Inst5Quest9 = "9. The Heart of the Mountain"
 Inst5Quest9_Level = "55"
 Inst5Quest9_Attain = "51"
 Inst5Quest9_Aim = "Obtain the Heart of the Mountain."
-Inst5Quest9_Location = "Maxwort Uberglint (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest9_Location = "Maxwort Uberglint (Blackrock Depths; "..BLUE.."Entrance"..WHITE..")"
 Inst5Quest9_Note = "The Heart of the Mountain is in the Vault at "..YELLOW.."[7]"..WHITE.."."
 Inst5Quest9_Prequest = "None"
 Inst5Quest9_Folgequest = "None"
@@ -931,7 +931,7 @@ Inst5Quest1_HORDE = "1. Into the Prison"
 Inst5Quest1_HORDE_Level = "52"
 Inst5Quest1_HORDE_Attain = "47"
 Inst5Quest1_HORDE_Aim = "Find Lexlort."
-Inst5Quest1_HORDE_Location = "Thal'trak Proudtusk (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest1_HORDE_Location = "Thal'trak Proudtusk (Blackrock Depths; "..BLUE.."Entrance"..WHITE..")"
 Inst5Quest1_HORDE_Note = "Lexlort is on the way to the Prison at "..GREEN.."[2']"..WHITE.."."
 Inst5Quest1_HORDE_Prequest = "None"
 Inst5Quest1_HORDE_Folgequest = "Twilight?! No!"
@@ -965,7 +965,7 @@ Inst5Quest4_HORDE = "4. Infiltrating Shadowforge City"
 Inst5Quest4_HORDE_Level = "54"
 Inst5Quest4_HORDE_Attain = "51"
 Inst5Quest4_HORDE_Aim = "Speak to Razal'blade."
-Inst5Quest4_HORDE_Location = "Galamav the Marksman (Blackrock Depths; "..YELLOW.."Entrance"..WHITE..")"
+Inst5Quest4_HORDE_Location = "Galamav the Marksman (Blackrock Depths; "..BLUE.."Entrance"..WHITE..")"
 Inst5Quest4_HORDE_Note = "Razal'blade is at "..GREEN.."[3']"..WHITE.."."
 Inst5Quest4_HORDE_Prequest = "None"
 Inst5Quest4_HORDE_Folgequest = "The 109th Division"
@@ -1247,163 +1247,40 @@ Inst6Quest1name3_HORDE = "Master Dragonslayer's Ring"
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
 Inst7Caption = "Blackfathom Deeps"
-Inst7QAA = "6 Quests"
-Inst7QAH = "6 Quests"
+Inst7QAA = "1 Quest"
+Inst7QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst7Quest1 = "1. Blackfathom Deeps"
-Inst7Quest1_Level = "24"
-Inst7Quest1_Attain = "22"
-Inst7Quest1_Aim = "Speak with Sentinel Aluwyn."
-Inst7Quest1_Location = "Shindrell Swiftfire (Ashenvale - Blackfathom Camp; "..YELLOW.."18.3, 20.5"..WHITE..") or\nRaene Wolfrunner (Ashenvale - Astranaar; "..YELLOW.."36.6, 49.6"..WHITE..")"
-Inst7Quest1_Note = "There are two quests with this name and with the same objective from different NPCs. You can only accept one. Sentinel Aluwyn is just inside the Blackfathom Depths instance portal."
+Inst7Quest1 = "1. The Rise of Aku'mai"
+Inst7Quest1_Level = "25"
+Inst7Quest1_Attain = "20"
+Inst7Quest1_Aim = "Kill Aku'mai the Devourer."
+Inst7Quest1_Location = "Zeya (Blackfathom Deeps; "..BLUE.."Entrance"..WHITE..")"
+Inst7Quest1_Note = "Aku'mai is the final boss, at "..YELLOW.."[8]"..WHITE..".   Zeya will appear at the end for the quest turn in."
 Inst7Quest1_Prequest = "None"
 Inst7Quest1_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst7Quest2 = "2. Knowledge in the Deeps"
-Inst7Quest2_Level = "25"
-Inst7Quest2_Attain = "22"
-Inst7Quest2_Aim = "Find the Lorgalis Manuscript."
-Inst7Quest2_Location = "Sentinel-trainee Issara (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest2_Note = "You find the Manuscript at "..GREEN.."[2']"..WHITE.." in the water."
-Inst7Quest2_Prequest = "None"
-Inst7Quest2_Folgequest = "None"
 --
-Inst7Quest2name1 = "Eventide Bow"
-Inst7Quest2name2 = "Gloaming Band"
-Inst7Quest2name3 = "Dusk-Stained Cloak"
-Inst7Quest2name4 = "Sustaining Ring"
-
---Quest 3 Alliance
-Inst7Quest3 = "3. In Search of Thaelrid"
-Inst7Quest3_Level = "25"
-Inst7Quest3_Attain = "22"
-Inst7Quest3_Aim = "Seek out Scout Thaelrid."
-Inst7Quest3_Location = "Ashelan Northwood (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest3_Note = "You find Scout Thaelrid at "..GREEN.."[3']"..WHITE.."."
-Inst7Quest3_Prequest = "None"
-Inst7Quest3_Folgequest = "Blackfathom Villainy"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst7Quest4 = "4. Blackfathom Villainy"
-Inst7Quest4_Level = "28"
-Inst7Quest4_Attain = "22"
-Inst7Quest4_Aim = "Get the head of Twilight Lord Kelris."
-Inst7Quest4_Location = "Scout Thaelrid (Blackfathom Deeps; "..GREEN.."[3']"..WHITE..")"
-Inst7Quest4_Note = "Twilight Lord Kelris is at "..YELLOW.."[5]"..WHITE..". The quest turns in to Ashelan Northwood, back at the entrance of the instance."
-Inst7Quest4_Prequest = "In Search of Thaelrid"
-Inst7Quest4_Folgequest = "None"
-Inst7Quest4FQuest = "true"
---
-Inst7Quest4name1 = "Shield Against the Evil Presence"
-Inst7Quest4name2 = "Thaelrid's Greaves"
-Inst7Quest4name3 = "Blackfathom Leggings"
-Inst7Quest4name4 = "Robe of Kelris"
-
---Quest 5 Alliance
-Inst7Quest5 = "5. Researching the Corruption"
-Inst7Quest5_Level = "26"
-Inst7Quest5_Attain = "22"
-Inst7Quest5_Aim = "Gather 8 Corrupt Brain Stems."
-Inst7Quest5_Location = "Relwyn Shadestar (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest5_Note = "The Corrupt Brain Stems can drop from Naga and Satyr. The quest turns in back at the entrance."
-Inst7Quest5_Prequest = "None"
-Inst7Quest5_Folgequest = "None"
---
-Inst7Quest5name1 = "Dissector"
-Inst7Quest5name2 = "Shadestar Mace"
-Inst7Quest5name3 = "Searching Wand"
-Inst7Quest5name4 = "Band of the Skull Crusher"
-
---Quest 6 Alliance
-Inst7Quest6 = "6. Twilight Falls"
-Inst7Quest6_Level = "28"
-Inst7Quest6_Attain = "22"
-Inst7Quest6_Aim = "Obtain 10 Twilight Pendants."
-Inst7Quest6_Location = "Sentinel Aluwyn (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest6_Note = "The Twilight Pendants drop from the Twilight humanoids. The quest turns in back at the entrance."
-Inst7Quest6_Prequest = "None"
-Inst7Quest6_Folgequest = "None"
---
-Inst7Quest6name1 = "Blackfathom Mace"
-Inst7Quest6name2 = "Gift of the Enigmatic Tree"
-Inst7Quest6name3 = "Aluwyn's Legguards"
-Inst7Quest6name4 = "Nimbus Boots"
-Inst7Quest6name5 = "Heartwood Girdle"
+Inst7Quest1name1 = "Shield Against the Evil Presence"
+Inst7Quest1name2 = "Thaelrid's Greaves"
+Inst7Quest1name3 = "Blackfathom Leggings"
+Inst7Quest1name4 = "Robe of Kelris"
 
 
 --Quest 1 Horde
-Inst7Quest1_HORDE = "1. Blackfathom Deeps"
-Inst7Quest1_HORDE_Level = "24"
-Inst7Quest1_HORDE_Attain = "22"
-Inst7Quest1_HORDE_Aim = "Speak with Je'neu Sancrea."
-Inst7Quest1_HORDE_Location = "Commander Grimfang (Ashenvale - Zoram'gar Outpost; "..YELLOW.."12.0, 33.8"..WHITE..")"
-Inst7Quest1_HORDE_Note = "Je'neu Sancrea is just inside the Blackfathom Depths instance portal."
+Inst7Quest1_HORDE = "1. The Rise of Aku'mai"
+Inst7Quest1_HORDE_Level = "25"
+Inst7Quest1_HORDE_Attain = "20"
+Inst7Quest1_HORDE_Aim = "Kill Aku'mai the Devourer."
+Inst7Quest1_HORDE_Location = "Sentinel Aluwyn (Blackfathom Deeps; "..BLUE.."Entrance"..WHITE..")"
+Inst7Quest1_HORDE_Note = "Aku'mai is the final boss, at "..YELLOW.."[8]"..WHITE..".   Sentinel Aluwyn will appear at the end for the quest turn in."
 Inst7Quest1_HORDE_Prequest = "None"
 Inst7Quest1_HORDE_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst7Quest2_HORDE = "2. Deep in the Deeps"
-Inst7Quest2_HORDE_Level = "26"
-Inst7Quest2_HORDE_Attain = "21"
-Inst7Quest2_HORDE_Aim = "Slay Ghamoo-Ra, Lady Sarevess, and Gelihast."
-Inst7Quest2_HORDE_Location = "Zeya (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest2_HORDE_Note = "Ghamoo-Ra is at "..YELLOW.."[1]"..WHITE..", Lady Sarevess is at "..YELLOW.."[2]"..WHITE.." and Gelihast is at "..YELLOW.."[3]"..WHITE..".\nThe quest turns in back at the entrance."
-Inst7Quest2_HORDE_Prequest = "None"
-Inst7Quest2_HORDE_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 3 Horde
-Inst7Quest3_HORDE = "3. Amongst the Ruins"
-Inst7Quest3_HORDE_Level = "26"
-Inst7Quest3_HORDE_Attain = "20"
-Inst7Quest3_HORDE_Aim = "Extract the Fathom Core."
-Inst7Quest3_HORDE_Location = "Je'neu Sancrea (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest3_HORDE_Note = "You find the Fathom Core at "..DARKYELLOW.."[2]"..WHITE.." in the water. When you get the core Baron Aquanis appears and attacks you. He drops a quest item which you have to take back to Je'neu Sancrea."
-Inst7Quest3_HORDE_Prequest = "None"
-Inst7Quest3_HORDE_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 4 Horde
-Inst7Quest4_HORDE = "4. The Enemy of My Enemy"
-Inst7Quest4_HORDE_Level = "28"
-Inst7Quest4_HORDE_Attain = "21"
-Inst7Quest4_HORDE_Aim = "Obtain the head of Twilight Lord Kelris."
-Inst7Quest4_HORDE_Location = "Flaming Eradicator (Blackfathom Deeps; "..GREEN.."[4']"..WHITE..")"
-Inst7Quest4_HORDE_Note = "Twilight Lord Kelris is at "..YELLOW.."[5]"..WHITE..". The quest turns in back at the entrance."
-Inst7Quest4_HORDE_Prequest = "None"
-Inst7Quest4_HORDE_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst7Quest5_HORDE = "5. Nightmare of the Deeps"
-Inst7Quest5_HORDE_Level = "27"
-Inst7Quest5_HORDE_Attain = "21"
-Inst7Quest5_HORDE_Aim = "Kill Aku'mai."
-Inst7Quest5_HORDE_Location = "Je'neu Sancrea (Blackfathom Deeps; "..YELLOW.."Entrance"..WHITE..")"
-Inst7Quest5_HORDE_Note = "Aku'mai is at "..YELLOW.."[6]"..WHITE..". The quest turns in back at the entrance."
-Inst7Quest5_HORDE_Prequest = "None"
-Inst7Quest5_HORDE_Folgequest = "None"
 --
-Inst7Quest5name1_HORDE = "Shield Against the Evil Presence"
-Inst7Quest5name2_HORDE = "Scales of Aku'mai"
-Inst7Quest5name3_HORDE = "Blackfathom Leggings"
-Inst7Quest5name4_HORDE = "Je'neu's Robes"
+Inst7Quest1name1_HORDE = "Scales of Aku'mai"
+Inst7Quest1name2_HORDE = "Shield Against the Evil Presence"
+Inst7Quest1name3_HORDE = "Blackfathom Leggings"
+Inst7Quest1name4_HORDE = "Je'neu's Robes"
 
---Quest 6 Horde
-Inst7Quest6_HORDE = "6. The Essence of Aku'Mai"
-Inst7Quest6_HORDE_Level = "22"
-Inst7Quest6_HORDE_Attain = "17"
-Inst7Quest6_HORDE_Aim = "Collect 20 Sapphires of Aku'Mai."
-Inst7Quest6_HORDE_Location = "Dagrun Ragehammer (Ashenvale - Zoramgar Outpost; "..YELLOW.."11.6, 35.5"..WHITE..")"
-Inst7Quest6_HORDE_Note = "The Sapphires are found in the cave outside the instance."
-Inst7Quest6_HORDE_Prequest = "None"
-Inst7Quest6_HORDE_Folgequest = "None"
--- No Rewards for this quest
 
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
@@ -1616,7 +1493,7 @@ Inst10Quest2 = "2. Pusillin The Thief"
 Inst10Quest2_Level = "40"
 Inst10Quest2_Attain = "38"
 Inst10Quest2_Aim = "Convince Pusillin to give up the Book of Incantations."
-Inst10Quest2_Location = "Ambassador Dagg'thol (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest2_Location = "Ambassador Dagg'thol (Dire Maul - East; "..BLUE.."Entrance"..WHITE..")"
 Inst10Quest2_Note = "Pusillin is to the left of the entrance at "..GREEN.."[1']"..WHITE..".  After you talk to him, you'll have to chase him down and fight his friends at "..GREEN.."[2']"..WHITE.."."
 Inst10Quest2_Prequest = "None"
 Inst10Quest2_Folgequest = "None"
@@ -1627,7 +1504,7 @@ Inst10Quest3 = "3. Lethtendris's Web"
 Inst10Quest3_Level = "40"
 Inst10Quest3_Attain = "38"
 Inst10Quest3_Aim = "Obtain Lethtendris's Web."
-Inst10Quest3_Location = "Ambassador Dagg'thol (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest3_Location = "Ambassador Dagg'thol (Dire Maul - East; "..BLUE.."Entrance"..WHITE..")"
 Inst10Quest3_Note = "Lethtendris is at "..YELLOW.."[1]"..WHITE.." on a raised platform at the end of a ramp."
 Inst10Quest3_Prequest = "None"
 Inst10Quest3_Folgequest = "None"
@@ -1638,7 +1515,7 @@ Inst10Quest4 = "4. An Unwelcome Guest"
 Inst10Quest4_Level = "40"
 Inst10Quest4_Attain = "38"
 Inst10Quest4_Aim = "Collect the Hydrospawn Essence."
-Inst10Quest4_Location = "Furgus Warpwood (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest4_Location = "Furgus Warpwood (Dire Maul - East; "..BLUE.."Entrance"..WHITE..")"
 Inst10Quest4_Note = "Hydrospawn is at "..YELLOW.."[2]"..WHITE.." in a pool of water."
 Inst10Quest4_Prequest = "None"
 Inst10Quest4_Folgequest = "None"
@@ -1649,7 +1526,7 @@ Inst10Quest5 = "5. Alzzin the Wildshaper"
 Inst10Quest5_Level = "41"
 Inst10Quest5_Attain = "38"
 Inst10Quest5_Aim = "Kill Zevrim Thornhoof and Alzzin the Wildshaper."
-Inst10Quest5_Location = "Furgus Warpwood (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest5_Location = "Furgus Warpwood (Dire Maul - East; "..BLUE.."Entrance"..WHITE..")"
 Inst10Quest5_Note = "Zevrim Thornhoof is at "..YELLOW.."[3]"..WHITE.." and Alzzin the Wildshaper is at "..YELLOW.."[4]"..WHITE.."."
 Inst10Quest5_Prequest = "None"
 Inst10Quest5_Folgequest = "None"
@@ -1664,7 +1541,7 @@ Inst10Quest6 = "6. Shards of the Felvine"
 Inst10Quest6_Level = "41"
 Inst10Quest6_Attain = "38"
 Inst10Quest6_Aim = "Use the Reliquary of Purity to capture a Felvine Shard."
-Inst10Quest6_Location = "Furgus Warpwood (Dire Maul - East; "..YELLOW.."Entrance"..WHITE..")"
+Inst10Quest6_Location = "Furgus Warpwood (Dire Maul - East; "..BLUE.."Entrance"..WHITE..")"
 Inst10Quest6_Note = "Use the Reliquary of Purity after you slay Alzzin the Wildshaper at "..YELLOW.."[4]"..WHITE..".  Only 5 shards spawn and you can pick up more than 1, so grab yours fast."
 Inst10Quest6_Prequest = "None"
 Inst10Quest6_Folgequest = "None"
@@ -1765,7 +1642,7 @@ Inst11Quest2 = "2. King of the Gordok"
 Inst11Quest2_Level = "47"
 Inst11Quest2_Attain = "44"
 Inst11Quest2_Aim = "Kill King Gordok."
-Inst11Quest2_Location = "Druid of the Talon (Dire Maul - North; "..YELLOW.."Entrance"..WHITE..")"
+Inst11Quest2_Location = "Druid of the Talon (Dire Maul - North; "..BLUE.."Entrance"..WHITE..")"
 Inst11Quest2_Note = "King Gordok is at "..YELLOW.."[6]"..WHITE..".\n\nIf you leave the named NPCs (Guard Mol'dar, Stomper Kreeg, Guard Fengus, Guard Slip'kik and Captain Kromcrush) alive, more loot and quests will be available after you defeat King Gordok.  Be sure to speak to Cho'Rush the Observer at the end to access the tribute chest."
 Inst11Quest2_Prequest = "None"
 Inst11Quest2_Folgequest = "None"
@@ -1843,7 +1720,7 @@ Inst11Quest2_HORDE = "2. King of the Gordok"
 Inst11Quest2_HORDE_Level = "47"
 Inst11Quest2_HORDE_Attain = "44"
 Inst11Quest2_HORDE_Aim = "Kill King Gordok."
-Inst11Quest2_HORDE_Location = "Stonemaul Ogre (Dire Maul - North; "..YELLOW.."Entrance"..WHITE..")"
+Inst11Quest2_HORDE_Location = "Stonemaul Ogre (Dire Maul - North; "..BLUE.."Entrance"..WHITE..")"
 Inst11Quest2_HORDE_Note = "King Gordok is at "..YELLOW.."[6]"..WHITE..".\n\nIf you leave the named NPCs (Guard Mol'dar, Stomper Kreeg, Guard Fengus, Guard Slip'kik and Captain Kromcrush) alive, more loot and quests will be available after you defeat King Gordok.  Be sure to speak to Cho'Rush the Observer at the end to access the tribute chest."
 Inst11Quest2_HORDE_Prequest = "None"
 Inst11Quest2_HORDE_Folgequest = "None"
@@ -1928,7 +1805,7 @@ Inst12Quest2 = "2. The Cursed Remains"
 Inst12Quest2_Level = "43"
 Inst12Quest2_Attain = "41"
 Inst12Quest2_Aim = "Kill Magister Kalendris and Illyana Ravenoak."
-Inst12Quest2_Location = "Estulan (Dire Maul - West; "..YELLOW.."Entrance"..WHITE..")"
+Inst12Quest2_Location = "Estulan (Dire Maul - West; "..BLUE.."Entrance"..WHITE..")"
 Inst12Quest2_Note = "Magister Kalendris is at "..YELLOW.."[2]"..WHITE.." and Illyana Ravenoak is at "..YELLOW.."[3]"..WHITE.."."
 Inst12Quest2_Prequest = "None"
 Inst12Quest2_Folgequest = "None"
@@ -1939,7 +1816,7 @@ Inst12Quest3 = "3. The Shen'dralar Ancient"
 Inst12Quest3_Level = "43"
 Inst12Quest3_Attain = "41"
 Inst12Quest3_Aim = "Speak to the Shen'dralar Ancient."
-Inst12Quest3_Location = "Estulan (Dire Maul - West; "..YELLOW.."Entrance"..WHITE..")"
+Inst12Quest3_Location = "Estulan (Dire Maul - West; "..BLUE.."Entrance"..WHITE..")"
 Inst12Quest3_Note = "The Shen'dralar Ancient is at "..GREEN.."[4']"..WHITE.." on the upper level."
 Inst12Quest3_Prequest = "None"
 Inst12Quest3_Folgequest = "None"
@@ -1950,7 +1827,7 @@ Inst12Quest4 = "4. The Warped Defender"
 Inst12Quest4_Level = "43"
 Inst12Quest4_Attain = "41"
 Inst12Quest4_Aim = "Kill Tendris Warpwood."
-Inst12Quest4_Location = "Shen'dralar Watcher (Dire Maul - West; "..YELLOW.."Entrance"..WHITE..")"
+Inst12Quest4_Location = "Shen'dralar Watcher (Dire Maul - West; "..BLUE.."Entrance"..WHITE..")"
 Inst12Quest4_Note = "Tendris Warpwood is at "..YELLOW.."[1]"..WHITE.."."
 Inst12Quest4_Prequest = "None"
 Inst12Quest4_Folgequest = "None"
@@ -2455,8 +2332,8 @@ Inst16Quest1name3_HORDE = "Purified Onyxia Blood Talisman"
 --------------- INST17 - Razorfen Downs (RFD) ---------------
 
 Inst17Caption = "Razorfen Downs"
-Inst17QAA = "6 Quests"
-Inst17QAH = "6 Quests"
+Inst17QAA = "3 Quests"
+Inst17QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst17Quest1 = "1. Looming Threat"
@@ -2466,71 +2343,35 @@ Inst17Quest1_Aim = "Find help in Razorfen Downs."
 Inst17Quest1_Location = "Telaron Windflight (Feralas - Dreamer's Rest; "..YELLOW.."50.6, 17.0"..WHITE..")"
 Inst17Quest1_Note = "Turn the quest in to Koristrasza inside the entrance of Razorfen Down."
 Inst17Quest1_Prequest = "None"
-Inst17Quest1_Folgequest = "The Coldbringer"
+Inst17Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst17Quest2 = "2. The Coldbringer"
-Inst17Quest2_Level = "46"
+Inst17Quest2 = "2. Blackthorn's Lieutenants"
+Inst17Quest2_Level = "44"
 Inst17Quest2_Attain = "40"
-Inst17Quest2_Aim = "Kill Amnennar the Coldbringer."
-Inst17Quest2_Location = "Koristrasza (Razorfen Downs; "..YELLOW.."Entrance"..WHITE..")"
-Inst17Quest2_Note = "Amnennar the Coldbringer is the final boss, at "..YELLOW.."[4]"..WHITE.."."
-Inst17Quest2_Prequest = "Looming Threat"
+Inst17Quest2_Aim = "Kill Aarux, Mordresh, and Mushlump."
+Inst17Quest2_Location = "Koristrasza (Razorfen Downs; "..BLUE.."Entrance"..WHITE..")"
+Inst17Quest2_Note = "Aarux is summoned at "..YELLOW.."[1]"..WHITE.." by using the giant gong. Mordresh is at "..YELLOW.."[2]"..WHITE.." and Mushlump is at "..YELLOW.."[3]"..WHITE..".  Koristrasza appears just a little past Mushlump to turn in the quest."
+Inst17Quest2_Prequest = "None"
 Inst17Quest2_Folgequest = "None"
-Inst17Quest2FQuest = "true"
---
-Inst17Quest2name1 = "Belt of Tyrannic Rule"
-Inst17Quest2name2 = "Chestguard of Redemption"
-Inst17Quest2name3 = "Razorfen Spaulders"
-Inst17Quest2name4 = "Coldbringer's Leggings"
-Inst17Quest2name5 = "Koristrasza's Amulet"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst17Quest3 = "3. Cure the Scourge"
-Inst17Quest3_Level = "44"
+Inst17Quest3 = "3. The Ritual"
+Inst17Quest3_Level = "46"
 Inst17Quest3_Attain = "40"
-Inst17Quest3_Aim = "Collect 20 Withered Tusks."
-Inst17Quest3_Location = "Koristrasza (Razorfen Downs; "..YELLOW.."Entrance"..WHITE..")"
-Inst17Quest3_Note = "The Withered Tusks drop for all party members on the quest throughout the instance."
+Inst17Quest3_Aim = "Kill Amnennar the Coldbringer."
+Inst17Quest3_Location = "Koristrasza (Razorfen Downs; "..BLUE.."Entrance"..WHITE..")"
+Inst17Quest3_Note = "Amnennar the Coldbringer is the final boss, at "..YELLOW.."[4]"..WHITE..".  Koristrasza will appear after defeating Amnennar to turn the quest in."
 Inst17Quest3_Prequest = "None"
 Inst17Quest3_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst17Quest4 = "4. Partners in Crime"
-Inst17Quest4_Level = "44"
-Inst17Quest4_Attain = "40"
-Inst17Quest4_Aim = "Kill Glutton, Mordresh Fire Eye, and Tuten'kash."
-Inst17Quest4_Location = "Koristrasza (Razorfen Downs; "..YELLOW.."Entrance"..WHITE..")"
-Inst17Quest4_Note = "Tuten'kash is at "..YELLOW.."[1]"..WHITE..", Mordresh Fire Eye is at "..YELLOW.."[2]"..WHITE.." and Glutton is at "..YELLOW.."[3]"..WHITE.."."
-Inst17Quest4_Prequest = "None"
-Inst17Quest4_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst17Quest5 = "5. Scourge of the Downs"
-Inst17Quest5_Level = "44"
-Inst17Quest5_Attain = "40"
-Inst17Quest5_Aim = "If you agree to aid Belnistrasz, speak with him again and hand the Oathstone he gave you back to him."
-Inst17Quest5_Location = "Belnistrasz (Razorfen Downs; "..GREEN.."[1']"..WHITE..")"
-Inst17Quest5_Note = "Make sure all party members have turned this quest in before starting the next quest or they won't be able to get the quest."
-Inst17Quest5_Prequest = "None"
-Inst17Quest5_Folgequest = "Extinguishing the Idol"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst17Quest6 = "6. Extinguishing the Idol"
-Inst17Quest6_Level = "45"
-Inst17Quest6_Attain = "40"
-Inst17Quest6_Aim = "Protect Belnistrasz."
-Inst17Quest6_Location = "Belnistrasz (Razorfen Downs; "..GREEN.."[1']"..WHITE..")"
-Inst17Quest6_Note = "Belnistrasz moves very fast.  Be sure to stay close to him to avoid failing the quest."
-Inst17Quest6_Prequest = "Scourge of the Downs"
-Inst17Quest6_Folgequest = "None"
-Inst17Quest6FQuest = "true"
 --
-Inst17Quest6name1 = "Dragonclaw Ring"
+Inst17Quest3name1 = "Belt of Tyrannic Rule"
+Inst17Quest3name2 = "Chestguard of Redemption"
+Inst17Quest3name3 = "Razorfen Spaulders"
+Inst17Quest3name4 = "Coldbringer's Leggings"
+Inst17Quest3name5 = "Koristrasza's Amulet"
 
 
 --Quest 1 Horde
@@ -2553,13 +2394,7 @@ Inst17Quest2_HORDE_Location = Inst17Quest2_Location
 Inst17Quest2_HORDE_Note = Inst17Quest2_Note
 Inst17Quest2_HORDE_Prequest = Inst17Quest2_Prequest
 Inst17Quest2_HORDE_Folgequest = Inst17Quest2_Folgequest
-Inst17Quest2FQuest_HORDE = Inst17Quest2FQuest
---
-Inst17Quest2name1_HORDE = Inst17Quest2name1
-Inst17Quest2name2_HORDE = Inst17Quest2name2
-Inst17Quest2name3_HORDE = Inst17Quest2name3
-Inst17Quest2name4_HORDE = Inst17Quest2name4
-Inst17Quest2name5_HORDE = Inst17Quest2name5
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst17Quest3_HORDE = Inst17Quest3
@@ -2570,51 +2405,21 @@ Inst17Quest3_HORDE_Location = Inst17Quest3_Location
 Inst17Quest3_HORDE_Note = Inst17Quest3_Note
 Inst17Quest3_HORDE_Prequest = Inst17Quest3_Prequest
 Inst17Quest3_HORDE_Folgequest = Inst17Quest3_Folgequest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst17Quest4_HORDE = Inst17Quest4
-Inst17Quest4_HORDE_Level = Inst17Quest4_Level
-Inst17Quest4_HORDE_Attain = Inst17Quest4_Attain
-Inst17Quest4_HORDE_Aim = Inst17Quest4_Aim
-Inst17Quest4_HORDE_Location = Inst17Quest4_Location
-Inst17Quest4_HORDE_Note = Inst17Quest4_Note
-Inst17Quest4_HORDE_Prequest = Inst17Quest4_Prequest
-Inst17Quest4_HORDE_Folgequest = Inst17Quest4_Folgequest
-Inst17Quest4name1_HORDE = Inst17Quest4name1
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst17Quest5_HORDE = Inst17Quest5
-Inst17Quest5_HORDE_Level = Inst17Quest5_Level
-Inst17Quest5_HORDE_Attain = Inst17Quest5_Attain
-Inst17Quest5_HORDE_Aim = Inst17Quest5_Aim
-Inst17Quest5_HORDE_Location = Inst17Quest5_Location
-Inst17Quest5_HORDE_Note = Inst17Quest5_Note
-Inst17Quest5_HORDE_Prequest = Inst17Quest5_Prequest
-Inst17Quest5_HORDE_Folgequest = Inst17Quest5_Folgequest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst17Quest6_HORDE = Inst17Quest6
-Inst17Quest6_HORDE_Level = Inst17Quest6_Level
-Inst17Quest6_HORDE_Attain = Inst17Quest6_Attain
-Inst17Quest6_HORDE_Aim = Inst17Quest6_Aim
-Inst17Quest6_HORDE_Location = Inst17Quest6_Location
-Inst17Quest6_HORDE_Note = Inst17Quest6_Note
-Inst17Quest6_HORDE_Prequest = Inst17Quest6_Prequest
-Inst17Quest6_HORDE_Folgequest = Inst17Quest6_Folgequest
-Inst17Quest6FQuest_HORDE = Inst17Quest6FQuest
+Inst17Quest3FQuest_HORDE = Inst17Quest3FQuest
 --
-Inst17Quest6name1_HORDE = Inst17Quest6name1
+Inst17Quest3name1_HORDE = Inst17Quest3name1
+Inst17Quest3name2_HORDE = Inst17Quest3name2
+Inst17Quest3name3_HORDE = Inst17Quest3name3
+Inst17Quest3name4_HORDE = Inst17Quest3name4
+Inst17Quest3name5_HORDE = Inst17Quest3name5
 
 
 
 --------------- INST18 - Razorfen Kraul (RFK) ---------------
 
 Inst18Caption = "Razorfen Kraul"
-Inst18QAA = "6 Quests"
-Inst18QAH = "6 Quests"
+Inst18QAA = "5 Quests"
+Inst18QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst18Quest1 = "1. Feeling Thorny"
@@ -2628,68 +2433,54 @@ Inst18Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst18Quest2 = "2. Agamaggan"
+Inst18Quest2 = "2. Take Them Down!"
 Inst18Quest2_Level = "35"
 Inst18Quest2_Attain = "30"
-Inst18Quest2_Aim = "Talk to the Spirit of Agamaggan."
-Inst18Quest2_Location = "Auld Stonespire (Razorfen Kraul; "..YELLOW.."Entrance"..WHITE..")"
-Inst18Quest2_Note = "The Spirit of Agamaggan is at "..GREEN.."[1']"..WHITE.."."
+Inst18Quest2_Aim = "Kill Hunter Bonetusk, Roogug, and Warlord Ramtusk."
+Inst18Quest2_Location = "Auld Stonespire (Razorfen Kraul; "..BLUE.."Entrance"..WHITE..")"
+Inst18Quest2_Note = "Hunter Bonetusk is at "..YELLOW.."[1]"..WHITE..", Roogug is at "..YELLOW.."[2]"..WHITE.." and Warlord Ramtusk is at "..YELLOW.."[3]"..WHITE..".   You can turn the quest in to Auld Stonespire at the end of the dungeon after defeating the final boss."
 Inst18Quest2_Prequest = "None"
-Inst18Quest2_Folgequest = "Agamaggan's Charge"
+Inst18Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst18Quest3 = "3. Agamaggan's Charge"
+Inst18Quest3 = "3. Going, Going, Guano!"
 Inst18Quest3_Level = "35"
 Inst18Quest3_Attain = "30"
-Inst18Quest3_Aim = "Take Charlga Razorflank's heart."
-Inst18Quest3_Location = "Spirit of Agamaggan (Razorfen Kraul; "..GREEN.."[1']"..WHITE..")"
-Inst18Quest3_Note = "Charlga Razorflank is at "..YELLOW.."[5]"..WHITE.."."
-Inst18Quest3_Prequest = "Agamaggan"
+Inst18Quest3_Aim = "Extract 1 pile of Kraul Guano."
+Inst18Quest3_Location = "Auld Stonespire (Razorfen Kraul; "..BLUE.."Entrance"..WHITE..")"
+Inst18Quest3_Note = "The Kraul Guano drops from Groyat, the Blind Hunter at "..YELLOW.."[4]"..WHITE..".   You can turn the quest in to Auld Stonespire at the end of the dungeon after defeating the final boss."
+Inst18Quest3_Prequest = "None"
 Inst18Quest3_Folgequest = "None"
-Inst18Quest3FQuest = "true"
---
-Inst18Quest3name1 = "Agamaggan-Blessed Greaves"
-Inst18Quest3name2 = "Boots of the Noble Path"
-Inst18Quest3name3 = "Charlga's Breastplate"
-Inst18Quest3name4 = "Agamaggan's Gift"
-Inst18Quest3name5 = "Agamaggan's Silent Tear"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst18Quest4 = "4. Going, Going, Guano!"
+Inst18Quest4 = "4. Agamaggan"
 Inst18Quest4_Level = "35"
 Inst18Quest4_Attain = "30"
-Inst18Quest4_Aim = "Extract 1 pile of Kraul Guano."
-Inst18Quest4_Location = "Auld Stonespire (Razorfen Kraul; "..YELLOW.."Entrance"..WHITE..")"
-Inst18Quest4_Note = "The Kraul Guano can be found in the bat cave on the Western Side of Razorfen Kraul."
+Inst18Quest4_Aim = "Talk to the Spirit of Agamaggan."
+Inst18Quest4_Location = "Auld Stonespire (Razorfen Kraul; "..BLUE.."Entrance"..WHITE..")"
+Inst18Quest4_Note = "The Spirit of Agamaggan is at "..GREEN.."[1']"..WHITE..", past Groyat, the Blind Hunter."
 Inst18Quest4_Prequest = "None"
-Inst18Quest4_Folgequest = "None"
+Inst18Quest4_Folgequest = "Agamaggan's Charge"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst18Quest5 = "5. Take Them Down!"
+Inst18Quest5 = "5. Agamaggan's Charge"
 Inst18Quest5_Level = "35"
 Inst18Quest5_Attain = "30"
-Inst18Quest5_Aim = "Kill Aggem Thorncurse, Death Speaker Jargba, Overlord Ramtusk, and Agathelos the Raging."
-Inst18Quest5_Location = "Auld Stonespire (Razorfen Kraul; "..YELLOW.."Entrance"..WHITE..")"
-Inst18Quest5_Note = "Aggem Thorncurse is at "..YELLOW.."[1]"..WHITE..", Death Speaker Jargba is at "..YELLOW.."[2]"..WHITE..", Overlord Ramtusk is at "..YELLOW.."[3]"..WHITE.." and Agathelos the Raging is at "..YELLOW.."[4]"..WHITE.."."
-Inst18Quest5_Prequest = "None"
+Inst18Quest5_Aim = "Take Charlga Razorflank's heart."
+Inst18Quest5_Location = "Spirit of Agamaggan (Razorfen Kraul; "..GREEN.."[1']"..WHITE..")"
+Inst18Quest5_Note = "Charlga Razorflank is at "..YELLOW.."[5]"..WHITE..".  The Spirit will move closer for you to turn the quest in after Charlga Razorflank is defeated."
+Inst18Quest5_Prequest = "Agamaggan"
 Inst18Quest5_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst18Quest6 = "6. Willix the Importer"
-Inst18Quest6_Level = "35"
-Inst18Quest6_Attain = "30"
-Inst18Quest6_Aim = "Escort Willix the Importer to the exit of Razorfen Kraul."
-Inst18Quest6_Location = "Willix the Importer (Razorfen Kraul; "..GREEN.."[2']"..WHITE..")"
-Inst18Quest6_Note = "Willix the Importer must be escorted to the entrance of the instance. The quest is turned in to him when completed."
-Inst18Quest6_Prequest = "None"
-Inst18Quest6_Folgequest = "None"
+Inst18Quest5FQuest = "true"
 --
-Inst18Quest6name1 = "Monkey Ring"
-Inst18Quest6name2 = "Snake Hoop"
-Inst18Quest6name3 = "Tiger Band"
+Inst18Quest5name1 = "Agamaggan-Blessed Greaves"
+Inst18Quest5name2 = "Boots of the Noble Path"
+Inst18Quest5name3 = "Charlga's Breastplate"
+Inst18Quest5name4 = "Agamaggan's Gift"
+Inst18Quest5name5 = "Agamaggan's Silent Tear"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2723,13 +2514,7 @@ Inst18Quest3_HORDE_Location = Inst18Quest3_Location
 Inst18Quest3_HORDE_Note = Inst18Quest3_Note
 Inst18Quest3_HORDE_Prequest = Inst18Quest3_Prequest
 Inst18Quest3_HORDE_Folgequest = Inst18Quest3_Folgequest
-Inst18Quest3FQuest_HORDE = Inst18Quest3FQuest
---
-Inst18Quest3name1_HORDE = Inst18Quest3name1
-Inst18Quest3name2_HORDE = Inst18Quest3name2
-Inst18Quest3name3_HORDE = Inst18Quest3name3
-Inst18Quest3name4_HORDE = Inst18Quest3name4
-Inst18Quest3name5_HORDE = Inst18Quest3name5
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst18Quest4_HORDE = Inst18Quest4
@@ -2751,21 +2536,13 @@ Inst18Quest5_HORDE_Location = Inst18Quest5_Location
 Inst18Quest5_HORDE_Note = Inst18Quest5_Note
 Inst18Quest5_HORDE_Prequest = Inst18Quest5_Prequest
 Inst18Quest5_HORDE_Folgequest = Inst18Quest5_Folgequest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst18Quest6_HORDE = Inst18Quest6
-Inst18Quest6_HORDE_Level = Inst18Quest6_Level
-Inst18Quest6_HORDE_Attain = Inst18Quest6_Attain
-Inst18Quest6_HORDE_Aim = Inst18Quest6_Aim
-Inst18Quest6_HORDE_Location = Inst18Quest6_Location
-Inst18Quest6_HORDE_Note = Inst18Quest6_Note
-Inst18Quest6_HORDE_Prequest = Inst18Quest6_Prequest
-Inst18Quest6_HORDE_Folgequest = Inst18Quest6_Folgequest
+Inst18Quest5FQuest_HORDE = Inst18Quest5FQuest
 --
-Inst18Quest6name1_HORDE = Inst18Quest6name1
-Inst18Quest6name2_HORDE = Inst18Quest6name2
-Inst18Quest6name3_HORDE = Inst18Quest6name3
+Inst18Quest5name1_HORDE = Inst18Quest5name1
+Inst18Quest5name2_HORDE = Inst18Quest5name2
+Inst18Quest5name3_HORDE = Inst18Quest5name3
+Inst18Quest5name4_HORDE = Inst18Quest5name4
+Inst18Quest5name5_HORDE = Inst18Quest5name5
 
 
 
@@ -3586,7 +3363,7 @@ Inst22Quest2 = "2. Liquid Gold"
 Inst22Quest2_Level = "50"
 Inst22Quest2_Attain = "46"
 Inst22Quest2_Aim = "Find a vial of Stratholme Holy Water."
-Inst22Quest2_Location = "Packmaster Stonebruiser (Stratholme - The Gauntlet; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest2_Location = "Packmaster Stonebruiser (Stratholme - The Gauntlet; "..BLUE.."Entrance"..WHITE..")"
 Inst22Quest2_Note = "The vial can be found in sparkling crates located around the streets of the city."
 Inst22Quest2_Prequest = "None"
 Inst22Quest2_Folgequest = "None"
@@ -3597,7 +3374,7 @@ Inst22Quest3 = "3. The Great Fras Siabi"
 Inst22Quest3_Level = "46"
 Inst22Quest3_Attain = "42"
 Inst22Quest3_Aim = "Recover a box of Fras Siabi's Premium Tobacco."
-Inst22Quest3_Location = "Packmaster Stonebruiser (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest3_Location = "Packmaster Stonebruiser (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
 Inst22Quest3_Note = "Fras Siabi can be summoned by using his Postbox at "..DARKYELLOW.."[1]"..WHITE.."."
 Inst22Quest3_Prequest = "None"
 Inst22Quest3_Folgequest = "None"
@@ -3620,7 +3397,7 @@ Inst22Quest5 = "5. Of Love and Family"
 Inst22Quest5_Level = "46"
 Inst22Quest5_Attain = "42"
 Inst22Quest5_Aim = "Find 'Of Love and Family.'"
-Inst22Quest5_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest5_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
 Inst22Quest5_Note = "The painting can be found at "..YELLOW.."[5]"..WHITE.."."
 Inst22Quest5_Prequest = "None"
 Inst22Quest5_Folgequest = "None"
@@ -3631,7 +3408,7 @@ Inst22Quest6 = "6. Retribution"
 Inst22Quest6_Level = "47"
 Inst22Quest6_Attain = "42"
 Inst22Quest6_Aim = "Kill The Unforgiven and Timmy the Cruel."
-Inst22Quest6_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest6_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
 Inst22Quest6_Note = "The Unforgiven is at "..YELLOW.."[1]"..WHITE.." and Timmy the Cruel is at "..YELLOW.."[2]"..WHITE.."."
 Inst22Quest6_Prequest = "None"
 Inst22Quest6_Folgequest = "None"
@@ -3642,7 +3419,7 @@ Inst22Quest7 = "7. Cutting the Competition"
 Inst22Quest7_Level = "46"
 Inst22Quest7_Attain = "42"
 Inst22Quest7_Aim = "Kill the Risen Hammersmith."
-Inst22Quest7_Location = "Master Craftsman Wilhelm (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest7_Location = "Master Craftsman Wilhelm (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
 Inst22Quest7_Note = "Risen Hammersmith is summoned at "..DARKYELLOW.."[3]"..WHITE.." by using the sparkling papers on the floor."
 Inst22Quest7_Prequest = "None"
 Inst22Quest7_Folgequest = "None"
@@ -3653,7 +3430,7 @@ Inst22Quest8 = "8. The Dreadlord Balnazzar"
 Inst22Quest8_Level = "47"
 Inst22Quest8_Attain = "42"
 Inst22Quest8_Aim = "Kill Balnazzar."
-Inst22Quest8_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..YELLOW.."Entrance"..WHITE..")"
+Inst22Quest8_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
 Inst22Quest8_Note = "Balnazzar is at "..YELLOW.."[6]"..WHITE.."."
 Inst22Quest8_Prequest = "None"
 Inst22Quest8_Folgequest = "None"
@@ -3971,7 +3748,7 @@ Inst25Quest2 = "2. The Blood God Hakkar"
 Inst25Quest2_Level = "54"
 Inst25Quest2_Attain = "50"
 Inst25Quest2_Aim = "Kill the Avatar of Hakkar."
-Inst25Quest2_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..YELLOW.."Entrance"..WHITE..")"
+Inst25Quest2_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..BLUE.."Entrance"..WHITE..")"
 Inst25Quest2_Note = "Use the provided egg at "..YELLOW.."[1]"..WHITE.." to summon the Avatar of Hakkar."
 Inst25Quest2_Prequest = "None"
 Inst25Quest2_Folgequest = "None"
@@ -3982,7 +3759,7 @@ Inst25Quest3 = "3. Jammal'an the Prophet"
 Inst25Quest3_Level = "54"
 Inst25Quest3_Attain = "50"
 Inst25Quest3_Aim = "Obtain Jammal'an the Prophet's Head."
-Inst25Quest3_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..YELLOW.."Entrance"..WHITE..")"
+Inst25Quest3_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..BLUE.."Entrance"..WHITE..")"
 Inst25Quest3_Note = "Jammal'an the Prophet is at "..YELLOW.."[2]"..WHITE.."."
 Inst25Quest3_Prequest = "None"
 Inst25Quest3_Folgequest = "None"
@@ -3993,7 +3770,7 @@ Inst25Quest4 = "4. Eranikus"
 Inst25Quest4_Level = "54"
 Inst25Quest4_Attain = "50"
 Inst25Quest4_Aim = "Kill Eranikus."
-Inst25Quest4_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..YELLOW.."Entrance"..WHITE..")"
+Inst25Quest4_Location = "Lord Itharius (The Temple of Atal'Hakkar; "..BLUE.."Entrance"..WHITE..")"
 Inst25Quest4_Note = "Eranikus is at "..YELLOW.."[4]"..WHITE.."."
 Inst25Quest4_Prequest = "None"
 Inst25Quest4_Folgequest = "None"
@@ -4177,7 +3954,7 @@ Inst27Quest2 = "2. Chief Ukorz Sandscalp"
 Inst27Quest2_Level = "49"
 Inst27Quest2_Attain = "44"
 Inst27Quest2_Aim = "Kill Chief Ukorz Sandscalp."
-Inst27Quest2_Location = "Mazoga's Spirit (Zul'Farrak; "..YELLOW.."Entrance"..WHITE..")"
+Inst27Quest2_Location = "Mazoga's Spirit (Zul'Farrak; "..BLUE.."Entrance"..WHITE..")"
 Inst27Quest2_Note = "Chief Ukorz Sandscalp is at "..YELLOW.."[4]"..WHITE.."."
 Inst27Quest2_Prequest = "Into Zul'Farrak"
 Inst27Quest2_Folgequest = "None"
@@ -4192,7 +3969,7 @@ Inst27Quest3 = "3. Breaking and Entering"
 Inst27Quest3_Level = "48"
 Inst27Quest3_Attain = "44"
 Inst27Quest3_Aim = "Free Weegli Blastfuse and kill Nekrum Gutchewer and Shadowpriest Sezz'ziz."
-Inst27Quest3_Location = "Tran'rek (Zul'Farrak; "..YELLOW.."Entrance"..WHITE..")"
+Inst27Quest3_Location = "Tran'rek (Zul'Farrak; "..BLUE.."Entrance"..WHITE..")"
 Inst27Quest3_Note = "Weegli Blastfuse is at "..YELLOW.."[2]"..WHITE..",  Nekrum Gutchewer and Shadowpriest Sezz'ziz are at "..YELLOW.."[3]"..WHITE.."."
 Inst27Quest3_Prequest = "None"
 Inst27Quest3_Folgequest = "None"
@@ -4203,7 +3980,7 @@ Inst27Quest4 = "4. Wrath of the Sandfury"
 Inst27Quest4_Level = "48"
 Inst27Quest4_Attain = "44"
 Inst27Quest4_Aim = "Kill Theka the Martyr, Witch Doctor Zum'rah, Antu'sul, and Ruuzlu."
-Inst27Quest4_Location = "Mazoga's Spirit (Zul'Farrak; "..YELLOW.."Entrance"..WHITE..")"
+Inst27Quest4_Location = "Mazoga's Spirit (Zul'Farrak; "..BLUE.."Entrance"..WHITE..")"
 Inst27Quest4_Note = "Theka the Martyr is at "..DARKYELLOW.."[3]"..WHITE..", Witch Doctor Zum'rah is at "..YELLOW.."[5]"..WHITE..", Antu'sul is at "..YELLOW.."[6]"..WHITE..", and Ruuzlu is at "..YELLOW.."[4]"..WHITE.."."
 Inst27Quest4_Prequest = "None"
 Inst27Quest4_Folgequest = "None"
@@ -4214,7 +3991,7 @@ Inst27Quest5 = "5. A Fool's Errand"
 Inst27Quest5_Level = "48"
 Inst27Quest5_Attain = "44"
 Inst27Quest5_Aim = "Obtain the Tiara of the Deep and Gahzrilla's Electrified Scale."
-Inst27Quest5_Location = "Chief Engineer Bilgewhizzle (Zul'Farrak; "..YELLOW.."Entrance"..WHITE..")"
+Inst27Quest5_Location = "Chief Engineer Bilgewhizzle (Zul'Farrak; "..BLUE.."Entrance"..WHITE..")"
 Inst27Quest5_Note = "The Tiara of the Deep drops from Hydromancer Velratha at "..DARKYELLOW.."[2]"..WHITE.." and the Gahzrilla's Electrified Scale drops from Gahz'rilla at "..YELLOW.."[1]"..WHITE.."."
 Inst27Quest5_Prequest = "None"
 Inst27Quest5_Folgequest = "None"
@@ -4324,7 +4101,7 @@ Inst29Quest3 = "3. The G-Team"
 Inst29Quest3_Level = "27"
 Inst29Quest3_Attain = "24"
 Inst29Quest3_Aim = "Kill the Viscous Fallout."
-Inst29Quest3_Location = "Murd Doc (Gnomeregan; "..YELLOW.."Entrance"..WHITE..")"
+Inst29Quest3_Location = "Murd Doc (Gnomeregan; "..BLUE.."Entrance"..WHITE..")"
 Inst29Quest3_Note = "Viscous Fallout is at "..YELLOW.."[2]"..WHITE..".  Turn the quest in to B.E Barechus at "..GREEN.."[3']"..WHITE.."."
 Inst29Quest3_Prequest = "Exploring Gnomeregan or Home Sweet Gnome"
 Inst29Quest3_Folgequest = "The G-Team"
@@ -10218,7 +9995,7 @@ Inst90Quest2 = "2. Echoes of Tortured Souls"
 Inst90Quest2_Level = "80"
 Inst90Quest2_Attain = "78"
 Inst90Quest2_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
-Inst90Quest2_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
+Inst90Quest2_Location = "Lady Jaina Proudmoore (Forge of Souls; "..BLUE.."Entrance"..WHITE..")"
 Inst90Quest2_Note = "Turn the quest in to Lady Jaina Proudmoore before at "..YELLOW.."[2]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
 Inst90Quest2_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
@@ -10254,7 +10031,7 @@ Inst90Quest2_HORDE = "2. Echoes of Tortured Souls"
 Inst90Quest2_HORDE_Level = "80"
 Inst90Quest2_HORDE_Attain = "78"
 Inst90Quest2_HORDE_Aim = "Kill Bronjahm and the Devourer of Souls to secure access to the Pit of Saron."
-Inst90Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."Entrance"..WHITE..")"
+Inst90Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..BLUE.."Entrance"..WHITE..")"
 Inst90Quest2_HORDE_Note = "Turn the quest in to Lady Sylvanas Windrunner before at "..YELLOW.."[2]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
 Inst90Quest2_HORDE_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_HORDE_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
@@ -10957,7 +10734,7 @@ Inst96Quest1 = "1. Rescue the Earthspeaker!"
 Inst96Quest1_Level = "82"
 Inst96Quest1_Attain = "80"
 Inst96Quest1_Aim = "Rescue Erunak Stonespeaker."
-Inst96Quest1_Location = "Captain Taylor (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest1_Location = "Captain Taylor (Throne of the Tides; "..BLUE.."Entrance"..WHITE..")"
 Inst96Quest1_Note = "Erunak Stonespeaker is at "..YELLOW.."[3]"..WHITE.."."
 Inst96Quest1_Prequest = "None"
 Inst96Quest1_Folgequest = "None"
@@ -10971,7 +10748,7 @@ Inst96Quest2 = "2. Sins of the Sea Witch"
 Inst96Quest2_Level = "82"
 Inst96Quest2_Attain = "80"
 Inst96Quest2_Aim = "Captain Taylor wants you to slay Lady Naz'jar."
-Inst96Quest2_Location = "Captain Taylor (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest2_Location = "Captain Taylor (Throne of the Tides; "..BLUE.."Entrance"..WHITE..")"
 Inst96Quest2_Note = "Lady Naz'jar is at "..YELLOW.."[1]"..WHITE.."."
 Inst96Quest2_Prequest = "None"
 Inst96Quest2_Folgequest = "None"
@@ -10986,7 +10763,7 @@ Inst96Quest1_HORDE = Inst96Quest1
 Inst96Quest1_HORDE_Level = Inst96Quest1_Level
 Inst96Quest1_HORDE_Attain = Inst96Quest1_Attain
 Inst96Quest1_HORDE_Aim = Inst96Quest1_Aim
-Inst96Quest1_HORDE_Location = "Legionnaire Nazgrim (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest1_HORDE_Location = "Legionnaire Nazgrim (Throne of the Tides; "..BLUE.."Entrance"..WHITE..")"
 Inst96Quest1_HORDE_Note = Inst96Quest1_Note
 Inst96Quest1_HORDE_Prequest = Inst96Quest1_Prequest
 Inst96Quest1_HORDE_Folgequest = Inst96Quest1_Folgequest
@@ -11000,7 +10777,7 @@ Inst96Quest2_HORDE = Inst96Quest2
 Inst96Quest2_HORDE_Level = Inst96Quest2_Level
 Inst96Quest2_HORDE_Attain = Inst96Quest2_Attain
 Inst96Quest2_HORDE_Aim = "Legionnaire Nazgrim wants you to slay Lady Naz'jar."
-Inst96Quest2_HORDE_Location = "Legionnaire Nazgrim (Throne of the Tides; "..YELLOW.."Entrance"..WHITE..")"
+Inst96Quest2_HORDE_Location = "Legionnaire Nazgrim (Throne of the Tides; "..BLUE.."Entrance"..WHITE..")"
 Inst96Quest2_HORDE_Note = Inst96Quest2_Note
 Inst96Quest2_HORDE_Prequest = Inst96Quest2_Prequest
 Inst96Quest2_HORDE_Folgequest = Inst96Quest2_Folgequest
@@ -11033,7 +10810,7 @@ Inst97Quest2 = "2. Twilight Documents"
 Inst97Quest2_Level = "84"
 Inst97Quest2_Attain = "82"
 Inst97Quest2_Aim = "Obtain the Twilight Documents."
-Inst97Quest2_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..")"
+Inst97Quest2_Location = "Earthwarden Yrsa (The Stonecore; "..BLUE.."Entrance"..WHITE..")"
 Inst97Quest2_Note = "The documents are on the ground after Corborus makes its entrance at "..YELLOW.."[1]"..WHITE.."."
 Inst97Quest2_Prequest = "None"
 Inst97Quest2_Folgequest = "Followers and Leaders"
@@ -11044,7 +10821,7 @@ Inst97Quest3 = "3. Followers and Leaders"
 Inst97Quest3_Level = "84"
 Inst97Quest3_Attain = "82"
 Inst97Quest3_Aim = "Slay High Priestess Azil and 101 Devout Followers."
-Inst97Quest3_Location = "Earthwarden Yrsa (The Stonecore; "..YELLOW.."Entrance"..WHITE..") or automatically given."
+Inst97Quest3_Location = "Earthwarden Yrsa (The Stonecore; "..BLUE.."Entrance"..WHITE..") or automatically given."
 Inst97Quest3_Note = "High Priestess Azil is at "..YELLOW.."[4]"..WHITE.." and the Devout Followers are on the way to her. The quest turns in back at Earthwarden Yrsa at the instance entrance."
 Inst97Quest3_Prequest = "Twilight Documents"
 Inst97Quest3_Folgequest = "None"
@@ -11145,7 +10922,7 @@ Inst98Quest2 = "2. Vengeance for Orsis"
 Inst98Quest2_Level = "84"
 Inst98Quest2_Attain = "82"
 Inst98Quest2_Aim = "Slay Asaad."
-Inst98Quest2_Location = "Itesh (Vortex Pinnacle; "..YELLOW.."Entrance"..WHITE..")"
+Inst98Quest2_Location = "Itesh (Vortex Pinnacle; "..BLUE.."Entrance"..WHITE..")"
 Inst98Quest2_Note = "Asaad is the final boss, at "..YELLOW.."[3]"..WHITE..". The prequest is optional. Quest turns in back at the entrance."
 Inst98Quest2_Prequest = "The Vortex Pinnacle"
 Inst98Quest2_Folgequest = "None"
@@ -11160,7 +10937,7 @@ Inst98Quest3 = "3. A Long Way from Home"
 Inst98Quest3_Level = "84"
 Inst98Quest3_Attain = "82"
 Inst98Quest3_Aim = "Obtain Grand Vizier Ertan's Heart."
-Inst98Quest3_Location = "Itesh (Vortex Pinnacle; "..YELLOW.."Entrance"..WHITE..")"
+Inst98Quest3_Location = "Itesh (Vortex Pinnacle; "..BLUE.."Entrance"..WHITE..")"
 Inst98Quest3_Note = "Grand Vizier Ertan is the first boss, at "..YELLOW.."[1]"..WHITE..". Quest turns in back at the entrance."
 Inst98Quest3_Prequest = "None"
 Inst98Quest3_Folgequest = "None"
@@ -11224,7 +11001,7 @@ Inst99Quest1 = "1. Soften them Up"
 Inst99Quest1_Level = "85"
 Inst99Quest1_Attain = "84"
 Inst99Quest1_Aim = "Free a Red Drake within Grim Batol and use it to destroy 30 Troggs and 15 Twilight's Hammer minions."
-Inst99Quest1_Location = "Velastrasza (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
+Inst99Quest1_Location = "Velastrasza (Grim Batol; "..BLUE.."Entrance"..WHITE..")"
 Inst99Quest1_Note = "After the first few trash pulls you'll be able to use red drakes to fly down the long halls and rain down fire upon the Twilight enemies. The quest turns in back at the entrance."
 Inst99Quest1_Prequest = "None"
 Inst99Quest1_Folgequest = "None"
@@ -11236,7 +11013,7 @@ Inst99Quest2 = "2. Kill the Courier"
 Inst99Quest2_Level = "85"
 Inst99Quest2_Attain = "84"
 Inst99Quest2_Aim = "Kill Drahga Shadowburner and grab his Missive to Cho'gall."
-Inst99Quest2_Location = "Farseer Tooranu (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
+Inst99Quest2_Location = "Farseer Tooranu (Grim Batol; "..BLUE.."Entrance"..WHITE..")"
 Inst99Quest2_Note = "Drahga Shadowburner is at "..YELLOW.."[3]"..WHITE..". The quest turns in back at the entrance."
 Inst99Quest2_Prequest = "None"
 Inst99Quest2_Folgequest = "None"
@@ -11250,7 +11027,7 @@ Inst99Quest3 = "3. Closing a Dark Chapter"
 Inst99Quest3_Level = "85"
 Inst99Quest3_Attain = "84"
 Inst99Quest3_Aim = "Slay Erudax, the Duke of Below."
-Inst99Quest3_Location = "Baleflame (Grim Batol; "..YELLOW.."Entrance"..WHITE..")"
+Inst99Quest3_Location = "Baleflame (Grim Batol; "..BLUE.."Entrance"..WHITE..")"
 Inst99Quest3_Note = "Erudax is at "..YELLOW.."[4]"..WHITE..". The quest turns in back at the entrance."
 Inst99Quest3_Prequest = "None"
 Inst99Quest3_Folgequest = "None"
@@ -11418,7 +11195,7 @@ Inst101Quest2 = "2. Targets of Opportunity"
 Inst101Quest2_Level = "85"
 Inst101Quest2_Attain = "83"
 Inst101Quest2_Aim = "Slay General Husam and 2 Oathsworn Captains."
-Inst101Quest2_Location = "Captain Hadan (Lost City of the Tol'vir; "..YELLOW.."Entrance"..WHITE..")"
+Inst101Quest2_Location = "Captain Hadan (Lost City of the Tol'vir; "..BLUE.."Entrance"..WHITE..")"
 Inst101Quest2_Note = "General Husam is at "..YELLOW.."[1]"..WHITE..". The Oathsworn Captains are on the paths to either side of him. The quest turns in back at the entrance."
 Inst101Quest2_Prequest = "None"
 Inst101Quest2_Folgequest = "None"
@@ -11432,7 +11209,7 @@ Inst101Quest3 = "3. The Source of Their Power"
 Inst101Quest3_Level = "85"
 Inst101Quest3_Attain = "83"
 Inst101Quest3_Aim = "Slay Siamat."
-Inst101Quest3_Location = "Captain Hadan (Lost City of the Tol'vir; "..YELLOW.."Entrance"..WHITE..")"
+Inst101Quest3_Location = "Captain Hadan (Lost City of the Tol'vir; "..BLUE.."Entrance"..WHITE..")"
 Inst101Quest3_Note = "Siamat is at "..YELLOW.."[4]"..WHITE..". The quest turns in back at the entrance."
 Inst101Quest3_Prequest = "None"
 Inst101Quest3_Folgequest = "None"
