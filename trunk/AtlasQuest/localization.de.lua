@@ -1278,7 +1278,7 @@ Inst7Quest1_Note = "Aku'mai ist der Endboss, er befindet sich bei "..YELLOW.."[8
 Inst7Quest1_Prequest = "Nein"
 Inst7Quest1_Folgequest = "Nein"
 --
-Inst7Quest1name1 = "Schild gegen die bösartige Präsenz
+Inst7Quest1name1 = "Schild gegen die bösartige Präsenz"
 Inst7Quest1name2 = "Thaelrids Schienbeinschützer"
 Inst7Quest1name3 = "Gamaschen der Tiefschwarzen Grotte"
 Inst7Quest1name4 = "Kelris' Robe"
@@ -3756,7 +3756,7 @@ Inst25Quest2 = "2. Der Blutgott Hakkar"
 Inst25Quest2_Level = "54"
 Inst25Quest2_Attain = "50"
 Inst25Quest2_Aim = "Tötet den Avatar von Hakkar."
-Inst25Quest2_Location = Lord Itharius (Der Tempel von Atal'Hakkar; "..BLUE.."Eingang"..WHITE..")"
+Inst25Quest2_Location = "Lord Itharius (Der Tempel von Atal'Hakkar; "..BLUE.."Eingang"..WHITE..")"
 Inst25Quest2_Note = "Avatar von Hakkar ist bei "..YELLOW.."[1]"..WHITE.."."
 Inst25Quest2_Prequest = "Nein"
 Inst25Quest2_Folgequest = "Nein"
@@ -13185,7 +13185,7 @@ Inst146Quest4_HORDE = Inst146Quest4
 Inst146Quest4_HORDE_Level = "100"
 Inst146Quest4_HORDE_Attain = "100"
 Inst146Quest4_HORDE_Aim = Inst146Quest4_Aim
-Inst146Quest4_HORDE_Location = Herausforderer Sonnenschmied (Ashran - Kriegsspeer; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst146Quest4_HORDE_Location = "Herausforderer Sonnenschmied (Ashran - Kriegsspeer; "..YELLOW.."65.0, 59.6"..WHITE..")"
 Inst146Quest4_HORDE_Note = Inst146Quest4_Note
 Inst146Quest4_HORDE_Prequest = "Nein"
 Inst146Quest4_HORDE_Folgequest = "Nein"
@@ -13256,6 +13256,28 @@ Inst147Quest2_HORDE_Location = Inst147Quest2_Location
 Inst147Quest2_HORDE_Note = Inst147Quest2_Note
 Inst147Quest2_HORDE_Prequest = "Nein"
 Inst147Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst147Quest3_HORDE = Inst146Quest3
+Inst147Quest3_HORDE_Level = "100"
+Inst147Quest3_HORDE_Attain = "100"
+Inst147Quest3_HORDE_Aim = Inst147Quest3_Aim
+Inst147Quest3_HORDE_Location = Inst147Quest3_Location
+Inst147Quest3_HORDE_Note = Inst147Quest3_Note
+Inst147Quest3_HORDE_Prequest = "Nein"
+Inst147Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst147Quest4_HORDE = Inst146Quest4
+Inst147Quest4_HORDE_Level = "100"
+Inst147Quest4_HORDE_Attain = "100"
+Inst147Quest4_HORDE_Aim = Inst147Quest4_Aim
+Inst147Quest4_HORDE_Location = "Herausforderer Sonnenschmied (Ashran - Kriegsspeer; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst147Quest4_HORDE_Note = Inst147Quest4_Note
+Inst147Quest4_HORDE_Prequest = "Nein"
+Inst147Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
