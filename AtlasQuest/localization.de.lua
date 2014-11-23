@@ -316,7 +316,7 @@ Inst2Quest1 = "1. Deviatbälge"
 Inst2Quest1_Level = "18"
 Inst2Quest1_Attain = "16"
 Inst2Quest1_Aim = "Nalpak in den Höhlen des Wehklagens möchte 10 Deviatbälge."
-Inst2Quest1_Location = "Nalpak (Brachland - Höhlen des Wehklagens; "..GREEN.."[1']"..WHITE..")"
+Inst2Quest1_Location = "Nalpak (Höhlen des Wehklagens; "..BLUE.."Eingang"..WHITE..")"
 Inst2Quest1_Note = "Man bekommt die Bälge von allen Deviatgegnern vor und in der Instanz."
 Inst2Quest1_Prequest = "Nein"
 Inst2Quest1_Folgequest = "Nein"
@@ -338,7 +338,7 @@ Inst2Quest3 = "3. Säuberung der Höhlen"
 Inst2Quest3_Level = "21"
 Inst2Quest3_Attain = "16"
 Inst2Quest3_Aim = "Ebru in den Höhlen des Wehklagens möchte, dass Ihr die Giftzahnlords Cobrahn, Anacondra, Pythas und Serpentis vernichtet. "
-Inst2Quest3_Location = "Ebru (Höhlen des Wehklagens; "..GREEN.."[1']"..WHITE..")"
+Inst2Quest3_Location = "Ebru (Höhlen des Wehklagens; "..BLUE.."Eingang"..WHITE..")"
 Inst2Quest3_Note = "Lady Anacondra ist bei "..YELLOW.."[1]"..WHITE..", Lord Kobrahn ist bei "..YELLOW.."[3]"..WHITE..", Lord Pythas ist bei "..YELLOW.."[4]"..WHITE.." und Lord Serpentis ist bei "..YELLOW.."[6]"..WHITE.."." 
 Inst2Quest3_Prequest = "Nein"
 Inst2Quest3_Folgequest = "Nein"
@@ -524,7 +524,7 @@ Inst4Quest1 = "1. Die Kammer von Khaz'mul"
 Inst4Quest1_Level = "39"
 Inst4Quest1_Attain = "37"
 Inst4Quest1_Aim = "Besiegt Ironaya."
-Inst4Quest1_Location = "Oberausgrabungsleiter Durdin (Uldaman; "..GREEN.."[1']"..WHITE..")"
+Inst4Quest1_Location = "Oberausgrabungsleiter Durdin (Uldaman; "..BLUE.."Eingang"..WHITE..")"
 Inst4Quest1_Note = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nDu kannst diese Quest annehmen und die nächste die vom Questlog kommt akzeptieren."
 Inst4Quest1_Prequest = "Nein"
 Inst4Quest1_Folgequest = "Archaedas, der alte Steinbehüter"
@@ -548,7 +548,7 @@ Inst4Quest3 = "3. Es kommt auf die inneren Werte an"
 Inst4Quest3_Level = "39"
 Inst4Quest3_Attain = "37"
 Inst4Quest3_Aim = "Beschafft Euch den Obsidiankraftkern und den Titankraftkern."
-Inst4Quest3_Location = "Kand Sandsucher (Uldaman; "..GREEN.."[1']"..WHITE..")"
+Inst4Quest3_Location = "Kand Sandsucher (Uldaman; "..BLUE.."Eingang"..WHITE..")"
 Inst4Quest3_Note = "Der Obsidiankraftkern droppt von den Obsidianschildwache bei "..YELLOW.."[4]"..WHITE.." und der Titankraftkern vom Uralter Steinbewahrer bei "..YELLOW.."[5]"..WHITE.."."
 Inst4Quest3_Prequest = "Nein"
 Inst4Quest3_Folgequest = "Nein"
@@ -559,7 +559,7 @@ Inst4Quest4 = "4. Hinter verschlossenen Türen"
 Inst4Quest4_Level = "39"
 Inst4Quest4_Attain = "37"
 Inst4Quest4_Aim = "Tötet Galgann Feuerhammer."
-Inst4Quest4_Location = "Olga Runenschwur (Uldaman; "..GREEN.."[1']"..WHITE..")"
+Inst4Quest4_Location = "Olga Runenschwur (Uldaman; "..BLUE.."Eingang"..WHITE..")"
 Inst4Quest4_Note = "Galgann Feuerhammer ist bei "..YELLOW.."[6]"..WHITE.."."
 Inst4Quest4_Prequest = "Nein"
 Inst4Quest4_Folgequest = "Nein"
@@ -598,7 +598,7 @@ Inst4Quest1_HORDE = "1. Die Kammer von Khaz'mul"
 Inst4Quest1_HORDE_Level = "39"
 Inst4Quest1_HORDE_Attain = "37"
 Inst4Quest1_HORDE_Aim = Inst4Quest1_Aim
-Inst4Quest1_HORDE_Location = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman; "..GREEN.."[1']"..WHITE..")"
+Inst4Quest1_HORDE_Location = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman; "..BLUE.."Eingang"..WHITE..")"
 Inst4Quest1_HORDE_Note = Inst4Quest1_Note
 Inst4Quest1_HORDE_Prequest = "Nein"
 Inst4Quest1_HORDE_Folgequest = Inst4Quest1_Folgequest
@@ -622,7 +622,7 @@ Inst4Quest3_HORDE = "3. Es kommt auf die inneren Werte an"
 Inst4Quest3_HORDE_Level = "39"
 Inst4Quest3_HORDE_Attain = "37"
 Inst4Quest3_HORDE_Aim = Inst4Quest3_Aim
-Inst4Quest3_HORDE_Location = "Aoren Sonnenglanz (Uldaman; "..GREEN.."[1']"..WHITE..")"
+Inst4Quest3_HORDE_Location = "Aoren Sonnenglanz (Uldaman; "..BLUE.."Eingang"..WHITE..")"
 Inst4Quest3_HORDE_Note = Inst4Quest3_Note
 Inst4Quest3_HORDE_Prequest = "Nein"
 Inst4Quest3_HORDE_Folgequest = "Nein"
@@ -633,7 +633,7 @@ Inst4Quest4_HORDE = "4. Hinter verschlossenen Türen"
 Inst4Quest4_HORDE_Level = "39"
 Inst4Quest4_HORDE_Attain = "37"
 Inst4Quest4_HORDE_Aim = Inst4Quest4_Aim
-Inst4Quest4_HORDE_Location = "Lidia Sonnenglanz (Uldaman; "..GREEN.."[1']"..WHITE..")"
+Inst4Quest4_HORDE_Location = "Lidia Sonnenglanz (Uldaman; "..BLUE.."Eingang"..WHITE..")"
 Inst4Quest4_HORDE_Note = Inst4Quest4_Note
 Inst4Quest4_HORDE_Prequest = "Nein"
 Inst4Quest4_HORDE_Folgequest = "Nein"
@@ -679,7 +679,7 @@ Inst5Quest1 = "1. Ins Gefängnis"
 Inst5Quest1_Level = "52"
 Inst5Quest1_Attain = "47"
 Inst5Quest1_Aim = "Findet Kevin Dawson."
-Inst5Quest1_Location = "Jalinda Sprig (Schwarzfelstiefen; "..GREEN.."[1']"..WHITE..")"
+Inst5Quest1_Location = "Jalinda Sprig (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")"
 Inst5Quest1_Note = "Kevin Dawson ist auf dem Weg zum Gefängnis bei "..GREEN.."[2']"..WHITE.."."
 Inst5Quest1_Prequest = "Nein"
 Inst5Quest1_Folgequest = "Schattenhammer?! Nein!"
@@ -703,7 +703,7 @@ Inst5Quest3 = "3. Das versiegelte Tor"
 Inst5Quest3_Level = "52"
 Inst5Quest3_Attain = "47"
 Inst5Quest3_Aim = "Tötet Bael'gar."
-Inst5Quest3_Location = "Tinkee Kesseldampf (Schwarzfelstiefen; "..GREEN.."[1']"..WHITE..")"
+Inst5Quest3_Location = "Tinkee Kesseldampf (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")"
 Inst5Quest3_Note = "Bael'gar ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst5Quest3_Prequest = "Nein"
 Inst5Quest3_Folgequest = "Nein"
@@ -714,7 +714,7 @@ Inst5Quest4 = "4. Schattenschmiede unterwandern"
 Inst5Quest4_Level = "51"
 Inst5Quest4_Attain = "51"
 Inst5Quest4_Aim = "Sprecht mit Ausgrabungsleiter Seymour."
-Inst5Quest4_Location = "Oralius (Schwarzfelstiefen; "..GREEN.."[1']"..WHITE..")"
+Inst5Quest4_Location = "Oralius (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")"
 Inst5Quest4_Note = "Ausgrabungsleiter Seymour ist bei "..GREEN.."[3']"..WHITE.."."
 Inst5Quest4_Prequest = "Nein"
 Inst5Quest4_Folgequest = "Strategen der Dunkeleisenzwerge"
@@ -777,7 +777,7 @@ Inst5Quest9 = "9. Das Herz des Berges"
 Inst5Quest9_Level = "55"
 Inst5Quest9_Attain = "51"
 Inst5Quest9_Aim = "Besorgt Euch das Herz des Berges."
-Inst5Quest9_Location = "Maxwort Funkelglanz (Schwarzfelstiefen; "..GREEN.."[1']"..WHITE..")"
+Inst5Quest9_Location = "Maxwort Funkelglanz (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")"
 Inst5Quest9_Note = "Das Herz des Berges ist im Gewölbe bei "..YELLOW.."[7]"..WHITE.."."
 Inst5Quest9_Prequest = "Nein"
 Inst5Quest9_Folgequest = "Nein"
@@ -945,7 +945,7 @@ Inst5Quest1_HORDE = Inst5Quest1
 Inst5Quest1_HORDE_Level = "52"
 Inst5Quest1_HORDE_Attain = "47"
 Inst5Quest1_HORDE_Aim = "Findet Lexlort."
-Inst5Quest1_HORDE_Location = "Thal'trak Ehrenhauer (Schwarzfelstiefen; "..GREEN.."[1']"..WHITE..")"
+Inst5Quest1_HORDE_Location = "Thal'trak Ehrenhauer (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")"
 Inst5Quest1_HORDE_Note = "Lexlort ist auf den Weg zum Gefängnis bei "..GREEN.."[2']"..WHITE.."."
 Inst5Quest1_HORDE_Prequest = "Nein"
 Inst5Quest1_HORDE_Folgequest = Inst5Quest1_Folgequest
@@ -980,7 +980,7 @@ Inst5Quest4_HORDE = Inst5Quest4
 Inst5Quest4_HORDE_Level = "54"
 Inst5Quest4_HORDE_Attain = "51"
 Inst5Quest4_HORDE_Aim = "Sprecht mit Razal'hieb."
-Inst5Quest4_HORDE_Location = "Galamav der Schütze (Schwarzfelstiefen; "..GREEN.."[1']"..WHITE..")"
+Inst5Quest4_HORDE_Location = "Galamav der Schütze (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")"
 Inst5Quest4_HORDE_Note = "Razal'hieb ist bei "..GREEN.."[3']"..WHITE.."."
 Inst5Quest4_HORDE_Prequest = "Nein"
 Inst5Quest4_HORDE_Folgequest = "Die 109te Division"
@@ -1265,163 +1265,39 @@ Inst6Quest1name3_HORDE = Inst6Quest1name3
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
 Inst7Caption = "Die Tiefschwarze Grotte"
-Inst7QAA = "6 Quests"
-Inst7QAH = "6 Quests"
+Inst7QAA = "1 Quests"
+Inst7QAH = "1 Quests"
 
 --Quest 1 Alliance
-Inst7Quest1 = "1. Die Tiefschwarze Grotte"
-Inst7Quest1_Level = "24"
-Inst7Quest1_Attain = "22"
-Inst7Quest1_Aim = "Sprecht mit Schildwache Aluwyn."
-Inst7Quest1_Location = "Shindrell Feuerflink (Eschental - Tiefschwarzencamp; "..YELLOW.."18.3, 20.5"..WHITE..") oder\nRaene Wolfsläufer (Eschental - Astranaar; "..YELLOW.."36.6, 49.6"..WHITE..")"
-Inst7Quest1_Note = "Es gibt 2 Quests mit dem selben Namen und dem selben Ort aber von 2 verschiedenen NPC´s. Du kannst nur eine annehmen davon. Schildwache Aluwyn ist innerhalb der Instanz am Eingang."
+Inst7Quest1 = "1. Der Aufstieg von Aku'mai"
+Inst7Quest1_Level = "25"
+Inst7Quest1_Attain = "20"
+Inst7Quest1_Aim = "Tötet Aku'mai den Verschlinger ."
+Inst7Quest1_Location = "Schildwache Aluwyn (Tiefschwarze Grotte; "..BLUE.."Eingang"..WHITE..")"
+Inst7Quest1_Note = "Aku'mai ist der Endboss, er befindet sich bei "..YELLOW.."[8]"..WHITE..". Schildwache Aluwyn erscheint nachdem der Endboss besiegt wurde."
 Inst7Quest1_Prequest = "Nein"
 Inst7Quest1_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst7Quest2 = "2. Wissen in der Tiefe"
-Inst7Quest2_Level = "25"
-Inst7Quest2_Attain = "22"
-Inst7Quest2_Aim = "Findet das Manuskript von Lorgalis."
-Inst7Quest2_Location = "Schildwachenschülerin Issara (Tiefschwarze Grotte; "..GREEN.."[1']"..WHITE..")"
-Inst7Quest2_Note = "Das Manuskript befindet sich bei "..GREEN.."[2']"..WHITE.." im Wasser."
-Inst7Quest2_Prequest = "Nein"
-Inst7Quest2_Folgequest = "Nein"
 --
-Inst7Quest2name1 = "Abendrugbogen"
-Inst7Quest2name2 = "Dämmerungsband"
-Inst7Quest2name3 = "Verstaubter Umhang"
-Inst7Quest3name4 = "Erhaltender Ring"
-
---Quest 3 Alliance
-Inst7Quest3 = "3. Auf der Suche nach Thaelrid"
-Inst7Quest3_Level = "25"
-Inst7Quest3_Attain = "22"
-Inst7Quest3_Aim = "Sucht Späher Thaelrid in der Tiefschwarzen Grotte auf."
-Inst7Quest3_Location = "Ashelan Nordwald (Tiefschwarze Grotte; "..GREEN.."[1']"..WHITE..")"
-Inst7Quest3_Note = "Späher Thaelrid ist bei "..GREEN.."[3']"..WHITE.."."
-Inst7Quest3_Prequest = "Nein"
-Inst7Quest3_Folgequest = "Schurkerei in der Tiefschwarzen Grotte"
-Inst7Quest3FQuest = "true"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst7Quest4 = "4. Schurkerei in der Tiefschwarzen Grotte"
-Inst7Quest4_Level = "28"
-Inst7Quest4_Attain = "22"
-Inst7Quest4_Aim = "Holt den Kopf von Zwielichtfürst Kelris."
-Inst7Quest4_Location = "Späher Thaelrid (Tiefschwarze Grotte; "..GREEN.."[3']"..WHITE..")"
-Inst7Quest4_Note = "Der Zwielichtfürst Kelris befindet sich bei "..YELLOW.."[5]"..WHITE.."."
-Inst7Quest4_Prequest = "Auf der Suche nach Thaelrid"
-Inst7Quest4_Folgequest = "Nein"
-Inst7Quest4PreQuest = "true"
---
-Inst7Quest4name1 = "Schild gegen die bösartige Präsenz"
-Inst7Quest4name2 = "Thaelrids Schienbeinschützer"
-Inst7Quest4name3 = "Tiefschwarze Gamaschen"
-Inst7Quest4name4 = "Kelris' Robe"
-
---Quest 5 Alliance
-Inst7Quest5 = "5. Erforschung der Verderbnis"
-Inst7Quest5_Level = "26"
-Inst7Quest5_Attain = "22"
-Inst7Quest5_Aim = "Sammelt 8 verderbte Hirnstämme."
-Inst7Quest5_Location = "Relwyn Schattenstern (Tiefschwarze Grotte; "..GREEN.."[1']"..WHITE..")"
-Inst7Quest5_Note = "Die Gehirnstämme droppen von den Nagas in der Instanz."
-Inst7Quest5_Prequest = "Nein"
-Inst7Quest5_Folgequest = "Nein"
---
-Inst7Quest5name1 = "Sezierer"
-Inst7Quest5name2 = "Schattensternkolben"
-Inst7Quest5name3 = "Suchender Zauberstab"
-Inst7Quest5name4 = "Band des Schädelquetschers"
-
---Quest 6 Alliance
-Inst7Quest6 = "6. Die Stunde der Finsternis"
-Inst7Quest6_Level = "28"
-Inst7Quest6_Attain = "22"
-Inst7Quest6_Aim = "Bringt 10 Zwielichtanhänger an Euch."
-Inst7Quest6_Location = "Schildwache Aluwyn (Tiefschwarze Grotte; "..GREEN.."[1']"..WHITE..")"
-Inst7Quest6_Note = "Alle Schattenhammergegner droppen die Anhänger."
-Inst7Quest6_Prequest = "Nein"
-Inst7Quest6_Folgequest = "Nein"
-Inst7Quest6PreQuest = "true"
---
-Inst7Quest6name1 = "Streitkolben der Tiefschwarzen Grotte"
-Inst7Quest6name2 = "Geschenk des enigmatischen Baumes"
-Inst7Quest6name2 = "Aluwyns Beinschützer"
+Inst7Quest1name1 = "Schild gegen die bösartige Präsenz
+Inst7Quest1name2 = "Thaelrids Schienbeinschützer"
+Inst7Quest1name3 = "Gamaschen der Tiefschwarzen Grotte"
+Inst7Quest1name4 = "Kelris' Robe"
 
 
 --Quest 1 Horde
-Inst7Quest1_HORDE = "1. Die Tiefschwarze Grotte"
-Inst7Quest1_HORDE_Level = "24"
-Inst7Quest1_HORDE_Attain = "22"
-Inst7Quest1_HORDE_Aim = "Sprecht mit Je'neu Sancrea."
-Inst7Quest1_HORDE_Location = "Kommandant Grimmfang (Eschental - Außenposten von Zoram'gar; "..YELLOW.."12.0, 33.8"..WHITE..") oder\nRaene Wolfsläufer (Eschental - Astranaar; "..YELLOW.."36.6, 49.6"..WHITE..")"
-Inst7Quest1_HORDE_Note = "Je'neu Sancrea ist innerhalb der Instanz direkt am Eingang."
+Inst7Quest1_HORDE = "1. Der Aufstieg von Aku'mai"
+Inst7Quest1_HORDE_Level = "25"
+Inst7Quest1_HORDE_Attain = "20"
+Inst7Quest1_HORDE_Aim = Inst7Quest1_Aim
+Inst7Quest1_HORDE_Location = "Zeya (Tiefschwarze Grotte; "..BLUE.."Eingang"..WHITE..")"
+Inst7Quest1_HORDE_Note = "Aku'mai ist der Endboss, er befindet sich bei "..YELLOW.."[8]"..WHITE..". Zeya erscheint nachdem der Endboss besiegt wurde."
 Inst7Quest1_HORDE_Prequest = "Nein"
 Inst7Quest1_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst7Quest2_HORDE = "2. In den tiefsten Tiefen"
-Inst7Quest2_HORDE_Level = "26"
-Inst7Quest2_HORDE_Attain = "21"
-Inst7Quest2_HORDE_Aim = "Vernichtet Ghamoo-Ra, Lady Sarevess und Gelihast."
-Inst7Quest2_HORDE_Location = "Zeya (Tiefschwarze Grotte; "..GREEN.."[1']"..WHITE..")"
-Inst7Quest2_HORDE_Note = "Ghamoo-Ra ist bei "..YELLOW.."[1]"..WHITE..", Lady Sarevess ist bei "..YELLOW.."[2]"..WHITE.." und Gelihast ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst7Quest2_HORDE_Prequest = "Nein"
-Inst7Quest2_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 3 Horde
-Inst7Quest3_HORDE = "3. Inmitten der Ruinen"
-Inst7Quest3_HORDE_Level = "26"
-Inst7Quest3_HORDE_Attain = "20"
-Inst7Quest3_HORDE_Aim = "Findet den Tiefenkern."
-Inst7Quest3_HORDE_Location = "Je'neu Sancrea (Tiefschwarze Grotte; "..GREEN.."[1']"..WHITE..")"
-Inst7Quest3_HORDE_Note = "Den Tiefenkern findet man bei "..DARKYELLOW.."[2]"..WHITE.." im Wasser. Sobald man ihn aufnimmt erscheint Lord Aquanis. Lord Aquanis droppt ein Questgegenstand, welchen man zu Je'neu Sancrea bringen muss."
-Inst7Quest3_HORDE_Prequest = "Nein"
-Inst7Quest3_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Horde
-Inst7Quest4_HORDE = "4. Der Feind meines Feindes"
-Inst7Quest4_HORDE_Level = "28"
-Inst7Quest4_HORDE_Attain = "21"
-Inst7Quest4_HORDE_Aim = "Verschafft Euch den Kopf von Zwielichtfürst Kelris."
-Inst7Quest4_HORDE_Location = "Flammender Vernichter (Tiefschwarze Grotte; "..GREEN.."[4']"..WHITE..")"
-Inst7Quest4_HORDE_Note = "Zwielichtfürst Kelris ist bei "..YELLOW.."[5]"..WHITE..". Um diese Quest abgeben zu können mußt Du zurück zum Eingang gehen."
-Inst7Quest4_HORDE_Prequest = "Nein"
-Inst7Quest4_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst7Quest5_HORDE = "5. Alptraum in der Tiefe"
-Inst7Quest5_HORDE_Level = "27"
-Inst7Quest5_HORDE_Attain = "21"
-Inst7Quest5_HORDE_Aim = "Tötet Aku'mai."
-Inst7Quest5_HORDE_Location = "Je'neu Sancrea (Tiefschwarze Grotte; "..GREEN.."[1']"..WHITE..")"
-Inst7Quest5_HORDE_Note = "Aku'mai ist bei "..YELLOW.."[6]"..WHITE..". Um diese Quest abgeben zu können mußt Du zurück zum Eingang gehen."
-Inst7Quest5_HORDE_Prequest = "Nein"
-Inst7Quest5_HORDE_Folgequest = "Nein"
 --
-Inst7Quest5name1_HORDE = "Sezierer"
-Inst7Quest5name2_HORDE = "Schattensternkolben"
-Inst7Quest5name3_HORDE = "Suchender Zauberstab"
-Inst7Quest5name4_HORDE = "Band des Schädelquetschers"
-
---Quest 6 Horde
-Inst7Quest6_HORDE = "6. Die Essenz von Aku'mai"
-Inst7Quest6_HORDE_Level = "22"
-Inst7Quest6_HORDE_Attain = "17"
-Inst7Quest6_HORDE_Aim = "Sammelt 20 Saphire von Aku'mai."
-Inst7Quest6_HORDE_Location = "Dagrun Zornhammer (Eschental - Außenposten von Zoram'gar; "..YELLOW.."11.6, 35.5"..WHITE..")"
-Inst7Quest6_HORDE_Note = "Die Saphire findet man überall in der Höhle vor der Instanz."
-Inst7Quest6_HORDE_Prequest = "Nein"
-Inst7Quest6_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+Inst7Quest1name1_HORDE = Inst7Quest1name1
+Inst7Quest1name2_HORDE = Inst7Quest1name2
+Inst7Quest1name3_HORDE = Inst7Quest1name3
+Inst7Quest1name4_HORDE = "Kelris' Robe"
 
 
 
@@ -1945,7 +1821,7 @@ Inst12Quest2 = "2. Verfluchte Überreste"
 Inst12Quest2_Level = "43"
 Inst12Quest2_Attain = "41"
 Inst12Quest2_Aim = "Tötet Magister Kalendris und Illyanna Rabeneiche."
-Inst12Quest2_Location = "Estulan (Düsterbruch - West; "..GREEN.."[1']"..WHITE..")"
+Inst12Quest2_Location = "Estulan (Düsterbruch - West; "..BLUE.."Eingang"..WHITE..")"
 Inst12Quest2_Note = "Magister Kalendris ist bei "..YELLOW.."[2]"..WHITE.." und Illyana Rabeneiche ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst12Quest2_Prequest = "Nein"
 Inst12Quest2_Folgequest = "Nein"
@@ -1956,7 +1832,7 @@ Inst12Quest3 = "3. Der Uralte Shen'dralar"
 Inst12Quest3_Level = "43"
 Inst12Quest3_Attain = "41"
 Inst12Quest3_Aim = "Sprecht mit dem Uralten Shen'dralar."
-Inst12Quest3_Location = Inst10Quest3_Location
+Inst12Quest3_Location = Inst12Quest2_Location
 Inst12Quest3_Note = "Der Uralte Shen'dralar ist bei "..GREEN.."[4']"..WHITE.." auf der oberen Plattform."
 Inst12Quest3_Prequest = "Nein"
 Inst12Quest3_Folgequest = "Nein"
@@ -1967,7 +1843,7 @@ Inst12Quest4 = "4. Windschiefe Verteidiger"
 Inst12Quest4_Level = "43"
 Inst12Quest4_Attain = "41"
 Inst12Quest4_Aim = "Tötet Tendris Wucherborke."
-Inst12Quest4_Location = "Behüter der Shen'dralar (Düsterbruch - West; "..GREEN.."[1']"..WHITE..")"
+Inst12Quest4_Location = "Behüter der Shen'dralar (Düsterbruch - West; "..BLUE.."Eingang"..WHITE..")"
 Inst12Quest4_Note = "Tendris Wucherborke ist bei "..YELLOW.."[1]"..WHITE.."."
 Inst12Quest4_Prequest = "Nein"
 Inst12Quest4_Folgequest = "Nein"
@@ -2474,8 +2350,8 @@ Inst16Quest1name3_HORDE = Inst16Quest1name3
 --------------- INST17 - Razorfen Downs (RFD) ---------------
 
 Inst17Caption = "Hügel der Klingenhauer"
-Inst17QAA = "6 Quests"
-Inst17QAH = "6 Quests"
+Inst17QAA = "3 Quests"
+Inst17QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst17Quest1 = "1. Lauernde Gefahr"
@@ -2483,92 +2359,53 @@ Inst17Quest1_Level = "43"
 Inst17Quest1_Attain = "42"
 Inst17Quest1_Aim = "Sucht im Hügel der Klingenhauer nach Hilfe."
 Inst17Quest1_Location = "Telaron Windsegler (Feralas - Täumers Ruh; "..YELLOW.."50.6,17.0 "..WHITE..")"
-Inst17Quest1_Note = "Koristrasza ist innerhalb der Instanz Hügel der Klingenhauer bei; "..GREEN.."Eingang"..WHITE..")"
+Inst17Quest1_Note = "Koristrasza ist innerhalb der Instanz Hügel der Klingenhauer am Eingang."
 Inst17Quest1_Prequest = "Nein"
-Inst17Quest1_Folgequest = "Der Kältebringer"
-Inst17Quest1FQuest = "true"
+Inst17Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst17Quest2 = "2. Der Kältebringer"
-Inst17Quest2_Level = "46"
+Inst17Quest2 = "2. Schwarzdorns Leutnants"
+Inst17Quest2_Level = "44"
 Inst17Quest2_Attain = "40"
-Inst17Quest2_Aim = "Tötet Amnennar den Kältebringer."
+Inst17Quest2_Aim = "Tötet Aarux, Mordresh und Schwämmerl."
 Inst17Quest2_Location = "Koristrasza (Hügel der Klingenhauer; "..BLUE.."Eingang"..WHITE..")"
-Inst17Quest2_Note = "Amnennar der Kältebringer ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst17Quest2_Prequest = "Lauernde Gefahr"
+Inst17Quest2_Note = "Aarux erscheint bei "..YELLOW.."[1]"..WHITE.." nach der Benutzung der riesen Glocke. Mordresh ist bei "..YELLOW.."[2]"..WHITE.." und Mushlump ist bei "..YELLOW.."[3]"..WHITE..".  Koristrasza erscheint kurze Zeit später nachdem Mushlump besiegt wurde, um diese Quest abgeben zu können."
+Inst17Quest2_Prequest = "Nein"
 Inst17Quest2_Folgequest = "Nein"
-Inst17Quest2PreQuest = "true"
---
-Inst17Quest2name1 = "Gürtel der tyrannischen Herrschaft"
-Inst17Quest2name2 = "Brustschutz der Erlösung"
-Inst17Quest2name3 = "Klingenhauerschiftung"
-Inst17Quest2name4 = "Gamaschen des Kältebringers"
-Inst17Quest2name5 = "Koristraszas Amulett"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst17Quest3 = "3. Die Geißel heilen"
-Inst17Quest3_Level = "44"
+Inst17Quest3 = "3. Das Ritual"
+Inst17Quest3_Level = "46"
 Inst17Quest3_Attain = "40"
-Inst17Quest3_Aim = "Besorgt 20 verwitterte Hauer."
+Inst17Quest3_Aim = "Tötet Amnennar den Kältebringer."
 Inst17Quest3_Location = Inst17Quest2_Location
-Inst17Quest3_Note = "Die verwittertern Hauer droppen von jeden untoten Stacheleber innerhalb der Instanz."
+Inst17Quest3_Note = "Amnennar der Kältebringer ist der Endboss bei "..YELLOW.."[4]"..WHITE..". Koristrasza erscheint nachdem der Endboss besiegt wurde, um diese Quest angeben zu können."
 Inst17Quest3_Prequest = "Nein"
 Inst17Quest3_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst17Quest4 = "4. Komplizen"
-Inst17Quest4_Level = "44"
-Inst17Quest4_Attain = "40"
-Inst17Quest4_Aim = "Tötet, Nimmersatt, Mordresh Feuerauge und Tuten'kash."
-Inst17Quest4_Location = Inst17Quest2_Location
-Inst17Quest4_Note = "Tuten'kash ist bei "..YELLOW.."[1]"..WHITE..", Mordresh Feuerauge ist bei "..YELLOW.."[2]"..WHITE.." und Nimmersatt ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst17Quest4_Prequest = "Nein"
-Inst17Quest4_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst17Quest5 = "5. Geißel der Hügel"
-Inst17Quest5_Level = "44"
-Inst17Quest5_Attain = "40"
-Inst17Quest5_Aim = "Wenn Ihr Belnistrasz helfen wollt, sprecht noch einmal mit ihm und übergebt ihm den Schwurstein, den er Euch gab."
-Inst17Quest5_Location = "Belnistrasz (Hügel der Klingenhauer; "..GREEN.."[1']"..WHITE..")"
-Inst17Quest5_Note = "Sei sicher, dass alle Gruppenmitglieder diese Quest beendet haben bevor Du die Folgequest annimmst, sonst sind die anderen nicht in der Lage die Folgequest anzunehmen."
-Inst17Quest5_Prequest = "Nein"
-Inst17Quest5_Folgequest = "Ausschalten des Götzen"
-Inst17Quest5FQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst17Quest6 = "6. Ausschalten des Götzen"
-Inst17Quest6_Level = "45"
-Inst17Quest6_Attain = "40"
-Inst17Quest6_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln der Klingenhauer. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
-Inst17Quest6_Location = Inst17Quest5_Location
-Inst17Quest6_Note = "Belnistrasz bewegt sich sehr schnell. Sei daher immer dicht bei ihm sonst kann die Quest abgebrochen werden."
-Inst17Quest6_Prequest = "Geißel der Hügel"
-Inst17Quest6_Folgequest = "Nein"
-Inst17Quest6PreQuest = "true"
 --
-Inst17Quest5name1 = "Drachenklauenring"
+Inst17Quest3name1 = "Gürtel der tyrannischen Herrschaft"
+Inst17Quest3name2 = "Brustschutz der Erlösung"
+Inst17Quest3name3 = "Klingenhauerschiftung"
+Inst17Quest3name4 = "Gamaschen des Kältebringers"
+Inst17Quest3name5 = "Koristraszas Amulett"
 
 
 --Quest 1 Horde
 Inst17Quest1_HORDE = Inst17Quest1
 Inst17Quest1_HORDE_Level = "43"
 Inst17Quest1_HORDE_Attain = "42"
-Inst17Quest1_HORDE_Aim = "Findet Hilfe bei den Hügeln der Klingenhauer."
+Inst17Quest1_HORDE_Aim = Inst17Quest1_Aim
 Inst17Quest1_HORDE_Location = "Kanati Grauwolke (Tausend Nadeln - Der Westliche Gipfel; "..YELLOW.."11.0,11.2 "..WHITE..")"
 Inst17Quest1_HORDE_Note = Inst17Quest1_Note
 Inst17Quest1_HORDE_Prequest = "Nein"
-Inst17Quest1_HORDE_Folgequest = "Der Kältebringer"
-Inst17Quest1FQuest_HORDE = "true"
+Inst17Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
 Inst17Quest2_HORDE = Inst17Quest2
-Inst17Quest2_HORDE_Level = "46"
+Inst17Quest2_HORDE_Level = "44"
 Inst17Quest2_HORDE_Attain = "40"
 Inst17Quest2_HORDE_Aim = Inst17Quest2_Aim
 Inst17Quest2_HORDE_Location = Inst17Quest2_Location
@@ -2576,16 +2413,11 @@ Inst17Quest2_HORDE_Note = Inst17Quest2_Note
 Inst17Quest2_HORDE_Prequest = "Lauernde Gefahr"
 Inst17Quest2_HORDE_Folgequest = "Nein"
 Inst17Quest2PreQuest_HORDE = "true"
---
-Inst17Quest2name1_HORDE = Inst17Quest2name1
-Inst17Quest2name2_HORDE = Inst17Quest2name2
-Inst17Quest2name3_HORDE = Inst17Quest2name3
-Inst17Quest2name4_HORDE = Inst17Quest2name4
-Inst17Quest2name5_HORDE = Inst17Quest2name5
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst17Quest3_HORDE = Inst17Quest3
-Inst17Quest3_HORDE_Level = "44"
+Inst17Quest3_HORDE_Level = "46"
 Inst17Quest3_HORDE_Attain = "40"
 Inst17Quest3_HORDE_Aim = Inst17Quest3_Aim
 Inst17Quest3_HORDE_Location = Inst17Quest3_Location
@@ -2593,50 +2425,19 @@ Inst17Quest3_HORDE_Note = Inst17Quest3_Note
 Inst17Quest3_HORDE_Prequest = "Nein"
 Inst17Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
-
---Quest 4 Horde
-Inst17Quest4_HORDE = Inst17Quest4
-Inst17Quest4_HORDE_Level = "44"
-Inst17Quest4_HORDE_Attain = "40"
-Inst17Quest4_HORDE_Aim = Inst17Quest4_Aim
-Inst17Quest4_HORDE_Location = Inst17Quest4_Location
-Inst17Quest4_HORDE_Note = Inst17Quest4_Note
-Inst17Quest4_HORDE_Prequest = "Nein"
-Inst17Quest4_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst17Quest5_HORDE = Inst17Quest5
-Inst17Quest5_HORDE_Level = "44"
-Inst17Quest5_HORDE_Attain = "40"
-Inst17Quest5_HORDE_Aim = Inst17Quest5_Aim
-Inst17Quest5_HORDE_Location = Inst17Quest5_Location
-Inst17Quest5_HORDE_Note = Inst17Quest5_Note
-Inst17Quest5_HORDE_Prequest = "Nein"
-Inst17Quest5_HORDE_Folgequest = "Ausschalten des Götzen"
-Inst17Quest5FQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 6 Horde
-Inst17Quest6_HORDE = Inst17Quest6
-Inst17Quest6_HORDE_Level = "45"
-Inst17Quest6_HORDE_Attain = "40"
-Inst17Quest6_HORDE_Aim = Inst17Quest6_Aim
-Inst17Quest6_HORDE_Location = Inst17Quest6_Location
-Inst17Quest6_HORDE_Note = Inst17Quest6_Note
-Inst17Quest6_HORDE_Prequest = "Geißel der Hügel"
-Inst17Quest6_HORDE_Folgequest = "Nein"
-Inst17Quest6PreQuest_HORDE = "true"
---
-Inst17Quest6name1_HORDE = Inst17Quest6name1
+Inst17Quest3name1_HORDE = Inst17Quest3name1
+Inst17Quest3name2_HORDE = Inst17Quest3name2
+Inst17Quest3name3_HORDE = Inst17Quest3name3
+Inst17Quest3name4_HORDE = Inst17Quest3name4
+Inst17Quest3name5_HORDE = Inst17Quest3name5
 
 
 
 --------------- INST18 - Razorfen Kraul (RFK) ---------------
 
 Inst18Caption = "Kral der Klingenhauer"
-Inst18QAA = "6 Quests"
-Inst18QAH = "6 Quests"
+Inst18QAA = "5 Quests"
+Inst18QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst18Quest1 = "1. Dorn im Auge"
@@ -2650,69 +2451,57 @@ Inst18Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst18Quest2 = "2. Agamaggan"
+Inst18Quest2 = "2. Macht sie nieder!"
 Inst18Quest2_Level = "35"
 Inst18Quest2_Attain = "30"
-Inst18Quest2_Aim = "Sprecht mit dem Geist von Agamaggan."
+Inst18Quest2_Aim = "Tötet Jäger Knochenhauer, Roogug und Oberanführer Rammhauer."
 Inst18Quest2_Location = "Auld Steinkeil (Kral der Klingenhauer; "..BLUE.."Eingang"..WHITE..")"
-Inst18Quest2_Note = "Geist von Agamaggan ist bei "..GREEN.."[1']"..WHITE.."."
+Inst18Quest2_Note = "Jäger Knochenhauer ist bei "..YELLOW.."[1]"..WHITE..", Roogug ist bei "..YELLOW.."[2]"..WHITE.." und Oberanführer Rammhauer ist bei "..YELLOW.."[3]"..WHITE..".   Du kannst diese Quest am Ende der Instanz abgeben nachdem der Endboss besiegt wurde."
 Inst18Quest2_Prequest = "Nein"
-Inst18Quest2_Folgequest = "Agamaggans Auftrag"
-Inst18Quest2FQuest = "true"
+Inst18Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst18Quest3 = "3. Agamaggans Auftrag"
+Inst18Quest3 = "3. Go, Go, Guano!"
 Inst18Quest3_Level = "35"
 Inst18Quest3_Attain = "30"
-Inst18Quest3_Aim = "Nehmt Charlga Klingenflanke das Herz."
-Inst18Quest3_Location = "Geist von Agamaggan (Kral der Klingenhauer; "..GREEN.."[1']"..WHITE..")"
-Inst18Quest3_Note = "Charlga Klingenflanke ist bei "..YELLOW.."[5]"..WHITE..")"
-Inst18Quest3_Prequest = "Agamaggan"
+Inst18Quest3_Aim = "Sammelt 1 Häufchen Kralguano."
+Inst18Quest3_Location = Inst18Quest2_Location
+Inst18Quest3_Note = "Häufchen Kralguano droppt vom Groyat der blinde Jäger bei "..YELLOW.."[4]"..WHITE..".   Du kannst diese Quest am Ende der Instanz abgeben nachdem der Endboss besiegt wurde."
+Inst18Quest3_Prequest = "Nein"
 Inst18Quest3_Folgequest = "Nein"
-Inst17Quest3PreQuest = "true"
---
-Inst18Quest3name1 = "Von Agamaggan gesegnete Schienbeinschützer "
-Inst18Quest3name2 = "Stiefel des edlen Weges"
-Inst18Quest3name3 = "Charlgas Brustplatte"
-Inst18Quest3name4 = "Agamaggans Gabe"
-Inst18Quest3name5 = "Agamaggans stille Träne"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst18Quest4 = "4. Go, Go, Guano!"
+Inst18Quest4 = "4. Agamaggan"
 Inst18Quest4_Level = "35"
 Inst18Quest4_Attain = "30"
-Inst18Quest4_Aim = "Sammelt 1 Häufchen Kralguano."
+Inst18Quest4_Aim = "Sprecht mit dem Geist von Agamaggan."
 Inst18Quest4_Location = Inst18Quest2_Location
-Inst18Quest4_Note = "Die Kralguano sind in der Fledermaushöhle im westlichen Teil der Kral der Klingenhauer."
+Inst18Quest4_Note = "Geist von Agamaggan ist bei "..GREEN.."[1']"..WHITE..", hintert Groyat der blinde Jäger."
 Inst18Quest4_Prequest = "Nein"
-Inst18Quest4_Folgequest = "Nein"
+Inst18Quest4_Folgequest = "Agamaggans Auftrag"
+Inst18Quest4FQuest = "true"
 -- No Rewards for this quest
+
 
 --Quest 5 Alliance
 Inst18Quest5 = "5. Macht sie nieder!"
 Inst18Quest5_Level = "35"
 Inst18Quest5_Attain = "30"
-Inst18Quest5_Aim = "Tötet Aggem Dornfluch, Todessprecher Jargba, Oberanführer Rammhauer und Agathelos den Tobenden."
-Inst18Quest5_Location = Inst18Quest2_Location
-Inst18Quest5_Note = "Aggem Dornfluch ist bei"..YELLOW.."[1]"..WHITE..", Todessprecher Jargba ist bei "..YELLOW.."[2]"..WHITE..", Oberanführer Rammhauer ist bei "..YELLOW.."[3]"..WHITE.." und Agathelos der Tobende befindet sich bei "..YELLOW.."[4]"..WHITE.."."
-Inst18Quest5_Prequest = "Nein"
+Inst18Quest5_Aim = "Nehmt Charlga Klingenflanke das Herz."
+Inst18Quest5_Location = "Geist von Agamaggan (Kral der Klingenhauer; "..GREEN.."[1']"..WHITE..")"
+Inst18Quest5_Note = "Charlga Klingenflanke ist bei "..YELLOW.."[5]"..WHITE..".  Der Geist von Agamaggan erscheint nachdem der Endboss besiegt wurde."
+Inst18Quest5_Prequest = "Agamaggan"
 Inst18Quest5_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst18Quest6 = "3. Willix der Importeur"
-Inst18Quest6_Level = "35"
-Inst18Quest6_Attain = "30"
-Inst18Quest6_Aim = "Führt Willix den Importeur aus dem Kral der Klingenhauer hinaus."
-Inst18Quest6_Location = "Willix der Importeur (Kral der Klingenhauer; "..GREEN.."[2']"..WHITE..")"
-Inst18Quest6_Note = "Willix der Importeur muss zum Eingang der Instanz begleitet werden. Danach gibt man das Quest bei ihm ab."
-Inst18Quest6_Prequest = "Nein"
-Inst18Quest6_Folgequest = "Nein"
+Inst18Quest5PreQuest = "true"
 --
-Inst18Quest6name1 = "Affenring"
-Inst18Quest6name2 = "Natternreifen"
-Inst18Quest6name3 = "Tigerband"
+Inst18Quest5name1 = "Von Agamaggan gesegnete Schienbeinschützer "
+Inst18Quest5name2 = "Stiefel des edlen Weges"
+Inst18Quest5name3 = "Charlgas Brustplatte"
+Inst18Quest5name4 = "Agamaggans Gabe"
+Inst18Quest5name5 = "Agamaggans stille Träne"
+
 
 --Quest 1 Horde
 Inst18Quest1_HORDE = Inst18Quest1
@@ -2748,11 +2537,6 @@ Inst18Quest3_HORDE_Prequest = "Agamaggan"
 Inst18Quest3_HORDE_Folgequest = "Nein"
 Inst18Quest3PreQuest_HORDE = "true"
 --
-Inst18Quest3name1_HORDE = Inst18Quest3name1
-Inst18Quest3name2_HORDE = Inst18Quest3name2
-Inst18Quest3name3_HORDE = Inst18Quest3name3
-Inst18Quest3name4_HORDE = "Agamaggans Gabe"
-Inst18Quest3name5_HORDE = Inst18Quest3name5
 
 --Quest 4 Horde
 Inst18Quest4_HORDE = Inst18Quest4
@@ -2774,21 +2558,12 @@ Inst18Quest5_HORDE_Location = Inst18Quest5_Location
 Inst18Quest5_HORDE_Note = Inst18Quest5_Note
 Inst18Quest5_HORDE_Prequest = "Nein"
 Inst18Quest5_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 6 Horde
-Inst18Quest6_HORDE = Inst18Quest6
-Inst18Quest6_HORDE_Level = "35"
-Inst18Quest6_HORDE_Attain = "30"
-Inst18Quest6_HORDE_Aim = Inst18Quest6_Aim
-Inst18Quest6_HORDE_Location = Inst18Quest6_Location
-Inst18Quest6_HORDE_Note = Inst18Quest6_Note
-Inst18Quest6_HORDE_Prequest = "Nein"
-Inst18Quest6_HORDE_Folgequest = "Nein"
 --
-Inst18Quest6name1_HORDE = "Affenring"
-Inst18Quest6name2_HORDE = "Natternreifen"
-Inst18Quest6name3_HORDE = "Tigerband"
+Inst18Quest5name1_HORDE = Inst18Quest5name1
+Inst18Quest5name2_HORDE = Inst18Quest5name2
+Inst18Quest5name3_HORDE = Inst18Quest5name3
+Inst18Quest5name4_HORDE = "Agamaggans Gabe"
+Inst18Quest5name5_HORDE = Inst18Quest5name5
 
 
 
@@ -3981,7 +3756,7 @@ Inst25Quest2 = "2. Der Blutgott Hakkar"
 Inst25Quest2_Level = "54"
 Inst25Quest2_Attain = "50"
 Inst25Quest2_Aim = "Tötet den Avatar von Hakkar."
-Inst25Quest2_Location = Inst25Quest1_Note
+Inst25Quest2_Location = Lord Itharius (Der Tempel von Atal'Hakkar; "..BLUE.."Eingang"..WHITE..")"
 Inst25Quest2_Note = "Avatar von Hakkar ist bei "..YELLOW.."[1]"..WHITE.."."
 Inst25Quest2_Prequest = "Nein"
 Inst25Quest2_Folgequest = "Nein"
@@ -3992,7 +3767,7 @@ Inst25Quest3 = "3. Jammal'an der Prophet"
 Inst25Quest3_Level = "54"
 Inst25Quest3_Attain = "50"
 Inst25Quest3_Aim = "Erbeutet den Kopf von Jammal'an dem Propheten."
-Inst25Quest3_Location = Inst25Quest1_Note
+Inst25Quest3_Location = Inst25Quest2_Note
 Inst25Quest3_Note = "Jammal'an dem Propheten ist bei "..YELLOW.."[2]"..WHITE.."."
 Inst25Quest3_Prequest = "Nein"
 Inst25Quest3_Folgequest = "Nein"
@@ -4003,7 +3778,7 @@ Inst25Quest4 = "4. Eranikus"
 Inst25Quest4_Level = "54"
 Inst25Quest4_Attain = "50"
 Inst25Quest4_Aim = "Tötet Eranikus."
-Inst25Quest4_Location = Inst25Quest1_Note
+Inst25Quest4_Location = Inst25Quest2_Note
 Inst25Quest4_Note = "Eranikus Schemen ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst25Quest4_Prequest = "Nein"
 Inst25Quest4_Folgequest = "Nein"
@@ -4339,7 +4114,7 @@ Inst29Quest3 = "3. Das G-Team"
 Inst29Quest3_Level = "27"
 Inst29Quest3_Attain = "24"
 Inst29Quest3_Aim = "Tötet die Verflüssigte Ablagerung."
-Inst29Quest3_Location = "Mör'dok (Gnomeregan; "..GREEN.."[1']"..WHITE..")"
+Inst29Quest3_Location = "Mör'dok (Gnomeregan; "..BLUE.."Eingang"..WHITE..")"
 Inst29Quest3_Note = "Verflüssigte Ablagerung ist bei "..YELLOW.."[2]"..WHITE..".Gebe die Quest bei Bi'ay Bäräkuss "..GREEN.."[3']"..WHITE.." ab."
 Inst29Quest3_Prequest = "Trautes Heim, Gnom allein oder Gnomeregan erforschen"
 Inst29Quest3_Folgequest = "Das G-Team"
@@ -11283,7 +11058,7 @@ Inst99Quest1 = "1. Klopft sie weich"
 Inst99Quest1_Level = "85"
 Inst99Quest1_Attain = "84"
 Inst99Quest1_Aim = "Befreit einen Roten Drachen in Grim Batol und vernichtet mit ihm 30 Troggs und 15 Anhänger des Schattenhammers."
-Inst99Quest1_Location = "Velastrasza (Grim Batol; "..YELLOW.."Eingang"..WHITE..")"
+Inst99Quest1_Location = "Velastrasza (Grim Batol; "..BLUE.."Eingang"..WHITE..")"
 Inst99Quest1_Note = "Nachdem die ersten wenigen Gegner beseitigt wurden bist Du in der Lage auf den Rücken der roten Drachen zu fliegen und die Zwielichtgegner auf den Boden zu bekämpfen. Diese Quest bringt dich zurück zum Eingang."
 Inst99Quest1_Prequest = "Nein"
 Inst99Quest1_Folgequest = "Nein"
@@ -13317,59 +13092,172 @@ Inst145Quest7FQuest_HORDE = "true"
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Caption = "Auchindoun"
-Inst146QAA = "Keine Quests"
-Inst146QAH = "Keine Quests"
---[[
+Inst146QAA = "4 Quests"
+Inst146QAH = "4 Quests"
+
 --Quest 1 Alliance
-Inst146Quest1 = "1. A Worthy Challenge: Teron'gor"
-Inst146Quest1_Level = "100"
-Inst146Quest1_Attain = "100"
-Inst146Quest1_Aim = "Complete the Auchindoun Challenge Mode."
-Inst146Quest1_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
-Inst146Quest1_Note = "You only need to complete the challenge.  How long you take does not matter for the quest."
+Inst146Quest1 = "1. Apport"
+Inst146Quest1_Level = "96"
+Inst146Quest1_Attain = "94"
+Inst146Quest1_Aim = "Besorgt eine Alptraumglocke aus Auchindoun."
+Inst146Quest1_Location = "Johnny Imba (Garnision - Mondsturzgasthaus; "..YELLOW.."34.2, 50.4"..WHITE..")"
+Inst146Quest1_Note = "Die Alptraumglocke befindet sich bei."
 Inst146Quest1_Prequest = "Nein"
 Inst146Quest1_Folgequest = "Nein"
 --
-Inst146Quest1name1 = "Challenger's Strongbox"
+Inst146Quest1name1 = "Kiste mit wertvollen Schätzen"
 
 --Quest 2 Alliance
-Inst146Quest2 = ""
-Inst146Quest2_Level = ""
-Inst146Quest2_Attain = ""
-Inst146Quest2_Aim = ""
-Inst146Quest2_Location = ""
-Inst146Quest2_Note = ""
+Inst146Quest2 = "2. Der Seelenschnitter"
+Inst146Quest2_Level = "100"
+Inst146Quest2_Attain = "100"
+Inst146Quest2_Aim = "Beschafft eine Seelenschnittklinge aus Auchindoun."
+Inst146Quest2_Location = "Lilian Voss (Garnision - Mondsturzgasthaus; "..YELLOW.."34.0, 48.8"..WHITE..")"
+Inst146Quest2_Note = "Seelenschnittklinge befindet sich bei."
 Inst146Quest2_Prequest = "Nein"
 Inst146Quest2_Folgequest = "Nein"
-Inst146Quest2PreQuest = "true"
-Inst146Quest2FQuest = "true"
 --
-Inst146Quest2name1 = ""
--- No Rewards for this quest
--- Reward varies for each class
+Inst146Quest2name1 = "Lilians Warnschild"
+
 --Quest 3 Alliance
-Inst146Quest3 = ""
-Inst146Quest3_Level = ""
-Inst146Quest3_Attain = ""
-Inst146Quest3_Aim = ""
-Inst146Quest3_Location = ""
-Inst146Quest3_Note = ""
+Inst146Quest3 = "3. Ein Heilmittel gegen den Tod"
+Inst146Quest3_Level = "100"
+Inst146Quest3_Attain = "100"
+Inst146Quest3_Aim = "Besorgt ein Seelenflechtgefäß in Auchindoun."
+Inst146Quest3_Location = "??? (Garnision - Mondsturzgasthaus; "..YELLOW.."34.0, 48.8"..WHITE..")"
+Inst146Quest3_Note = "Seelenflechtgefäß befindet sich bei."
 Inst146Quest3_Prequest = "Nein"
 Inst146Quest3_Folgequest = "Nein"
-Inst146Quest3PreQuest = "true"
-Inst146Quest3FQuest = "true"
 --
-Inst146Quest3name1 = ""
--- No Rewards for this quest
--- Reward varies for each class
---]]
+Inst146Quest3name1 = "Leonids Vorratsbeutel"
+
+--Quest 4 Alliance
+Inst146Quest4 = "4. Eine würdige Herausforderung: Teron'gor"
+Inst146Quest4_Level = "100"
+Inst146Quest4_Attain = "100"
+Inst146Quest4_Aim = "Schließt den Herausforderungsmodus von Auchindoun ab."
+Inst146Quest4_Location = "Herausforderin Savina (Ashran - Sturmschild; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst146Quest4_Note = "Du mußt einfach nur diese Challange beenden. Wie lange du dabei brauchst ist nicht wichtig für diese Quest."
+Inst146Quest4_Prequest = "Nein"
+Inst146Quest4_Folgequest = "Nein"
+--
+Inst146Quest4name1 = "Geldkassette des Herausforderers"
+
+
+--Quest 1 Horde
+Inst146Quest1_HORDE = "1. Apport"
+Inst146Quest1_HORDE_Level = "96"
+Inst146Quest1_HORDE_Attain = "94"
+Inst146Quest1_HORDE_Aim = Inst146Quest1_Aim
+Inst146Quest1_HORDE_Location = Ist146Quest1_Location
+Inst146Quest1_HORDE_Note = Inst146Quest1_Note
+Inst146Quest1_HORDE_Prequest = "Nein"
+Inst146Quest1_HORDE_Folgequest = "Nein"
+--
+Inst146Quest1name1_HORDE = Inst146Quest1name1
+
+--Quest 2 Horde
+Inst146Quest2_HORDE = Inst146Quest2
+Inst146Quest2_HORDE_Level = "100"
+Inst146Quest2_HORDE_Attain = "100"
+Inst146Quest2_HORDE_Aim = Inst146Quest2_Aim
+Inst146Quest2_HORDE_Location = Inst146Quest2_Location
+Inst146Quest2_HORDE_Note = Inst146Quest2_Note
+Inst146Quest2_HORDE_Prequest = "Nein"
+Inst146Quest2_HORDE_Folgequest = "Nein"
+--
+Inst146Quest2name1_HORDE = Inst146Quest2name1
+
+--Quest 3 Horde
+Inst146Quest3_HORDE = Inst146Quest3
+Inst146Quest3_HORDE_Level = "100"
+Inst146Quest3_HORDE_Attain = "100"
+Inst146Quest3_HORDE_Aim = Inst146Quest3_Aim
+Inst146Quest3_HORDE_Location = Inst146Quest3_Location
+Inst146Quest3_HORDE_Note = Inst146Quest3_Note
+Inst146Quest3_HORDE_Prequest = "Nein"
+Inst146Quest3_HORDE_Folgequest = "Nein"
+--
+Inst146Quest3name1_HORDE = Inst146Quest3name1
+
+--Quest 4 Horde
+Inst146Quest4_HORDE = Inst146Quest4
+Inst146Quest4_HORDE_Level = "100"
+Inst146Quest4_HORDE_Attain = "100"
+Inst146Quest4_HORDE_Aim = Inst146Quest4_Aim
+Inst146Quest4_HORDE_Location = Herausforderer Sonnenschmied (Ashran - Kriegsspeer; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst146Quest4_HORDE_Note = Inst146Quest4_Note
+Inst146Quest4_HORDE_Prequest = "Nein"
+Inst146Quest4_HORDE_Folgequest = "Nein"
+--
+Inst146Quest4name1_HORDE = Inst146Quest4name1
+
 
 
 --------------- INST147 - Skyreach ---------------
 
-Inst147Caption = "Skyreach"
-Inst147QAA = "Keine Quests"
-Inst147QAH = "Keine Quests"
+Inst147Caption = "Himmelsnadel"
+Inst147QAA = "6 Quests"
+Inst147QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst147Quest1 = "1. Himmelstänzer"
+Inst147Quest1_Level = "99"
+Inst147Quest1_Attain = "97"
+Inst147Quest1_Aim = "Holt einen Windsturm in der Flasche von der Himmelsnadel."
+Inst147Quest1_Location = "Taoshi (Garnision - Mondsturzgasthaus; "..YELLOW.."32.6, 48.6"..WHITE..")"
+Inst147Quest1_Note = "Der Windsturm in der Flasche befindet sich bei."
+Inst147Quest1_Prequest = "Nein"
+Inst147Quest1_Folgequest = "Nein"
+--
+Inst147Quest1name1 = "Sammlung qualmender Schätze"
+
+--Quest 2 Alliance
+Inst147Quest2 = "2. Türme des Verräters"
+Inst147Quest2_Level = "100"
+Inst147Quest2_Attain = "98	"
+Inst147Quest2_Aim = "Besorgt ein Band aus reinem Solium vom obersten Weisen Viryx in der Himmelsnadel."
+Inst147Quest2_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst147Quest2_Note = "Das Band aus reinem Solium droppt vom Endboss dem obersten Weisen Viryx bei "..YELLOW.."??"..WHITE.."."
+Inst147Quest2_Prequest = "Ruf des Erzmagiers"
+Inst147Quest2_Folgequest = "Khadgars Aufgabe"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst147Quest3 = "3. Ein Heilmittel gegen den Tod"
+Inst147Quest3_Level = "100"
+Inst147Quest3_Attain = "100"
+Inst147Quest3_Aim = "Besorgt ein Seelenflechtgefäß in Auchindoun."
+Inst147Quest3_Location = "??? (Garnision - Mondsturzgasthaus; "..YELLOW.."34.0, 48.8"..WHITE..")"
+Inst147Quest3_Note = "Seelenflechtgefäß befindet sich bei."
+Inst147Quest3_Prequest = "Nein"
+Inst147Quest3_Folgequest = "Nein"
+--
+Inst147Quest3name1 = "Leonids Vorratsbeutel"
+
+
+--Quest 1 Horde
+Inst147Quest1_HORDE = "1. Apport"
+Inst147Quest1_HORDE_Level = "96"
+Inst147Quest1_HORDE_Attain = "94"
+Inst147Quest1_HORDE_Aim = Inst147Quest1_Aim
+Inst147Quest1_HORDE_Location = Ist147Quest1_Location
+Inst147Quest1_HORDE_Note = Inst147Quest1_Note
+Inst147Quest1_HORDE_Prequest = "Nein"
+Inst147Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst147Quest2_HORDE = Inst147Quest2
+Inst147Quest2_HORDE_Level = "100"
+Inst147Quest2_HORDE_Attain = "100"
+Inst147Quest2_HORDE_Aim = Inst147Quest2_Aim
+Inst147Quest2_HORDE_Location = Inst147Quest2_Location
+Inst147Quest2_HORDE_Note = Inst147Quest2_Note
+Inst147Quest2_HORDE_Prequest = "Nein"
+Inst147Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 
 --------------- INST148 - Bloodmaul Slag Mines ---------------
