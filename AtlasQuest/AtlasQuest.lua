@@ -58,14 +58,14 @@ local Initialized = nil; -- the variables are not loaded yet
 
 LibStub("LibAboutPanel").new(parentframe, "AtlasQuest")
 
-Allianceorhorde = 1; -- variable that configures whether horde or allianz is shown
+Allianceorhorde = 1; -- variable that configures whether horde or alliance is shown
 
 AQINSTANZ = 1; -- currently shown instance-pic (see AtlasQuest_Instanzen.lua)
 
 AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function AtlasQuestSetTextandButtons())
 
 -- Sets the max number of instances and quests to check for. 
-local AQMAXINSTANCES = "160"
+local AQMAXINSTANCES = "156"
 local AQMAXQUESTS = "22"
 
 -- Set title for AtlasQuest side panel

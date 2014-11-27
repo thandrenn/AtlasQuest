@@ -453,18 +453,6 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TrovesoftheThunderKing") then
 		AQINSTANZ = 144;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheTrialofFaith") then
-		AQINSTANZ = 157;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ThePurgeofGrommar") then
-		AQINSTANZ = 158;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheColiseum") then
-		AQINSTANZ = 158;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheBattleofThunderPass") then
-		AQINSTANZ = 160;
-
 	
 	-- Battlegrounds
 
@@ -995,9 +983,5 @@ end
 -- 154 = RAID: Highmaul
 -- 155 = RAID: Blackrock Foundry
 -- 156 = RAID: Draenor
--- 157 = SCENARIO: The Trial of Faith
--- 158 = SCENARIO: The Purge of Grommar
--- 159 = SCENARIO: The Coliseum
--- 160 = SCENARIO: The Battle of Thunder Pass
 
 

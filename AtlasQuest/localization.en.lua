@@ -103,6 +103,8 @@ AQDiscription_PREQUEST= "Prequest: "
 AQDiscription_FOLGEQUEST = "Followup: "
 AQFinishedTEXT = "Finished: ";
 
+AQGARRISON = "(Garrison - Lunarfall Inn or Frostwall Tavern)"
+
 
 ------------------
 --- ITEM TYPES ---
@@ -143,6 +145,7 @@ AQITEM_ONEHAND = "One-Hand,"
 AQITEM_TWOHAND = "Two-Hand,"
 
 AQITEM_ITEM = "Item" -- Use this for those oddball rewards which aren't really anything else.
+AQITEM_TOY = "Toy"
 AQITEM_TRINKET = "Trinket"
 AQITEM_POTION = "Potion"
 AQITEM_NECK = "Neck"
@@ -12458,131 +12461,32 @@ Inst119Quest2_HORDE_Folgequest = Inst119Quest2_Folgequest
 --------------- INST120 - Mogu'shan Vaults ---------------
 
 Inst120Caption = "Mogu'shan Vaults"
-Inst120QAA = "1 Quest"
-Inst120QAH = "1 Quest"
-
---Quest 1 Alliance
-Inst120Quest1 = "1. The Strength of One's Foes"
-Inst120Quest1_Level = "90"
-Inst120Quest1_Attain = "90"
-Inst120Quest1_Aim = "Collect 10 Sigils of Power and 10 Sigils of Wisdom from raid bosses in the Mogu'shan Vaults, Heart of Fear, or Terrace of Endless Spring."
-Inst120Quest1_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
-Inst120Quest1_Note = "These drop from raid bosses on any difficulty.  Sigils of Power come from Mogu'shan Vaults and Sigils of Wisdom drop from Heart of Fear or Terrace of the Endless Spring.\nIt is possible to get more than 10 of each while still on the questline.  If you delete extra Sigils, the game will remove the quest and all Sigils.  Only after you've turned in the completed quest to Wrathion can you delete the extra Sigils."
-Inst120Quest1_Prequest = "Stranger in a Strange Land -> A Legend in the Making"
-Inst120Quest1_Folgequest = "Fear Itself"
-Inst120Quest1PreQuest = "true"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst120Quest1_HORDE = Inst120Quest1
-Inst120Quest1_HORDE_Level = Inst120Quest1_Level
-Inst120Quest1_HORDE_Attain = Inst120Quest1_Attain
-Inst120Quest1_HORDE_Aim = Inst120Quest1_Aim
-Inst120Quest1_HORDE_Location = Inst120Quest1_Location
-Inst120Quest1_HORDE_Note = Inst120Quest1_Note
-Inst120Quest1_HORDE_Prequest = Inst120Quest1_Prequest
-Inst120Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
-Inst120Quest1PreQuest_HORDE = Inst120Quest1PreQuest
--- No Rewards for this quest
+Inst120QAA = "No Quests"
+Inst120QAH = "No Quests"
 
 
 
 --------------- INST121 - Terrace of Endless Spring ---------------
 
 Inst121Caption = "Terrace of Endless Spring"
-Inst121QAA = "2 Quests"
-Inst121QAH = "2 Quests"
-
---Quest 1 Alliance   (Linking to Inst120Quest1 - same quest for all)
-Inst121Quest1 = Inst120Quest1
-Inst121Quest1_Level = Inst120Quest1_Level
-Inst121Quest1_Attain = Inst120Quest1_Attain
-Inst121Quest1_Aim = Inst120Quest1_Aim
-Inst121Quest1_Location = Inst120Quest1_Location
-Inst121Quest1_Note = Inst120Quest1_Note
-Inst121Quest1_Prequest = Inst120Quest1_Prequest
-Inst121Quest1_Folgequest = Inst120Quest1_Folgequest
-Inst121Quest1PreQuest = Inst120Quest1PreQuest
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst121Quest2 = "2. Fear Itself"
-Inst121Quest2_Level = "90"
-Inst121Quest2_Attain = "90"
-Inst121Quest2_Aim = "Defeat the Sha of Fear in the Terrace of Endless Spring and acquire the Chimera of Fear."
-Inst121Quest2_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
-Inst121Quest2_Note = "This quest can be completed on any difficulty setting.  Sha of Fear is the final boss in Terrace of the Endless Spring."
-Inst121Quest2_Prequest = "The Strength of One's Foes"
-Inst121Quest2_Folgequest = "None"
-Inst121Quest2FQuest = "true"
--- No Rewards for this quest
-
-
---Quest 1 Horde   (Linking to Inst120Quest1 - same quest for all)
-Inst121Quest1_HORDE = Inst120Quest1
-Inst121Quest1_HORDE_Level = Inst120Quest1_Level
-Inst121Quest1_HORDE_Attain = Inst120Quest1_Attain
-Inst121Quest1_HORDE_Aim = Inst120Quest1_Aim
-Inst121Quest1_HORDE_Location = Inst120Quest1_Location
-Inst121Quest1_HORDE_Note = Inst120Quest1_Note
-Inst121Quest1_HORDE_Prequest = Inst120Quest1_Prequest
-Inst121Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
-Inst121Quest1PreQuest_HORDE = Inst120Quest1PreQuest
--- No Rewards for this quest
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst121Quest2_HORDE = Inst121Quest2
-Inst121Quest2_HORDE_Level = Inst121Quest2_Level
-Inst121Quest2_HORDE_Attain = Inst121Quest2_Attain
-Inst121Quest2_HORDE_Aim = Inst121Quest2_Aim
-Inst121Quest2_HORDE_Location = Inst121Quest2_Location
-Inst121Quest2_HORDE_Note = Inst121Quest2_Note
-Inst121Quest2_HORDE_Prequest = Inst121Quest2_Prequest
-Inst121Quest2_HORDE_Folgequest = Inst121Quest2_Folgequest
-Inst121Quest2FQuest_HORDE = Inst121Quest2FQuest
--- No Rewards for this quest
+Inst121QAA = "No Quests"
+Inst121QAH = "No Quests"
 
 
 
 --------------- INST122 - Heart of Fear ---------------
 
 Inst122Caption = "Heart of Fear"
-Inst122QAA = "1 Quest"
-Inst122QAH = "1 Quest"
-
---Quest 1 Alliance   (Linking to Inst120Quest1 - same quest for all)
-Inst122Quest1 = Inst120Quest1
-Inst122Quest1_Level = Inst120Quest1_Level
-Inst122Quest1_Attain = Inst120Quest1_Attain
-Inst122Quest1_Aim = Inst120Quest1_Aim
-Inst122Quest1_Location = Inst120Quest1_Location
-Inst122Quest1_Note = Inst120Quest1_Note
-Inst122Quest1_Prequest = Inst120Quest1_Prequest
-Inst122Quest1_Folgequest = Inst120Quest1_Folgequest
-Inst122Quest1PreQuest = Inst120Quest1PreQuest
--- No Rewards for this quest
-
-
---Quest 1 Horde   (Linking to Inst120Quest1 - same quest for all)
-Inst122Quest1_HORDE = Inst120Quest1
-Inst122Quest1_HORDE_Level = Inst120Quest1_Level
-Inst122Quest1_HORDE_Attain = Inst120Quest1_Attain
-Inst122Quest1_HORDE_Aim = Inst120Quest1_Aim
-Inst122Quest1_HORDE_Location = Inst120Quest1_Location
-Inst122Quest1_HORDE_Note = Inst120Quest1_Note
-Inst122Quest1_HORDE_Prequest = Inst120Quest1_Prequest
-Inst122Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
-Inst122Quest1PreQuest_HORDE = Inst120Quest1PreQuest
--- No Rewards for this quest
+Inst122QAA = "No Quests"
+Inst122QAH = "No Quests"
 
 
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Throne of Thunder"
-Inst138QAA = "11 Quests"
-Inst138QAH = "11 Quests"
+Inst138QAA = "8 Quests"
+Inst138QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst138Quest1 = "1. Securing A Future"
@@ -12597,124 +12501,88 @@ Inst138Quest1_Folgequest = "None"
 Inst138Quest1name1 = "Glorious Standard of the Kirin Tor Offensive"
 
 --Quest 2 Alliance
-Inst138Quest2 = "2. Secrets of the First Empire"
+Inst138Quest2 = "2. Requiem for a Queen"
 Inst138Quest2_Level = "90"
 Inst138Quest2_Attain = "90"
-Inst138Quest2_Aim = "Collect 20 Secrets of the Empire and 40 Trillium Bars."
-Inst138Quest2_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
-Inst138Quest2_Note = "Secrets of the Empire drop from raid bosses inside Throne of Thunder or the first eight bosses in Siege of Orgrimmar on any difficulty setting.  The Trillium Bars can be made by a miner or purchased."
-Inst138Quest2_Prequest = "Meet me Upstairs"
-Inst138Quest2_Folgequest = "The Thunderforge"
-Inst138Quest2PreQuest = "true"
--- No Rewards for this quest
+Inst138Quest2_Aim = "Put Monara to rest."
+Inst138Quest2_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest2_Note = "This weekly raid quest can be completed on any difficulty setting.  Monara is just beyond "..YELLOW.."[1]"..WHITE.."."
+Inst138Quest2_Prequest = "None"
+Inst138Quest2_Folgequest = "None"
+--
+Inst138Quest2name1 = "Spoils of the Thunder King"
 
 --Quest 3 Alliance
-Inst138Quest3 = "3. Echoes of the Titans"
+Inst138Quest3 = "3. Taming the Tempest"
 Inst138Quest3_Level = "90"
 Inst138Quest3_Attain = "90"
-Inst138Quest3_Aim = "Collect 12 Titan Runestones from raid bosses in the Chambers of Flesh-Shaping and the Halls of Thunder."
-Inst138Quest3_Location = "Wrathion (The Veiled Stair - Mason's Folly; "..YELLOW.."75.2, 76.4"..WHITE..")"
-Inst138Quest3_Note = "The Titan Runestones will drop any any difficulty from the last six raid bosses in the Throne of Thunder or the first eight bosses in Siege of Orgrimmar."
-Inst138Quest3_Prequest = "The Thunder Forge -> The Crown of Heaven"
-Inst138Quest3_Folgequest = "Heart of the Thunder King"
-Inst138Quest3PreQuest = "true"
--- No Rewards for this quest
+Inst138Quest3_Aim = "Slay No'ku Stormsayer."
+Inst138Quest3_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest3_Note = "This weekly raid quest can be completed on any difficulty setting.  No'ku Stormsayer is just before "..YELLOW.."[3]"..WHITE.."."
+Inst138Quest3_Prequest = "None"
+Inst138Quest3_Folgequest = "None"
+--
+Inst138Quest3name1 = "Spoils of the Thunder King"
 
 --Quest 4 Alliance
-Inst138Quest4 = "4. Heart of the Thunder King"
+Inst138Quest4 = "4. Rocks Fall, People Die"
 Inst138Quest4_Level = "90"
 Inst138Quest4_Attain = "90"
-Inst138Quest4_Aim = "Slay the Thunder King in the Halls of Thunder and collect the Heart of the Thunder King."
-Inst138Quest4_Location = "Wrathion (The Veiled Stair - Tavern in the Mists; "..YELLOW.."54.6, 72.6"..WHITE..")"
-Inst138Quest4_Note = "This quest can be completed on any difficulty setting.  The Thunder King, Lei Shen, is the final boss in Throne of Thunder."
-Inst138Quest4_Prequest = "Echoes of the Titans"
+Inst138Quest4_Aim = "Slay the Rocky Horror."
+Inst138Quest4_Location = "Automatically accepted inside Throne of Thunder"
+Inst138Quest4_Note = "This weekly raid quest can be completed on any difficulty setting.  The Rocky Horror is just beyond "..YELLOW.."[4]"..WHITE.."."
+Inst138Quest4_Prequest = "None"
 Inst138Quest4_Folgequest = "None"
-Inst138Quest4FQuest = "true"
--- No Rewards for this quest
+--
+Inst138Quest4name1 = "Spoils of the Thunder King"
 
 --Quest 5 Alliance
-Inst138Quest5 = "5. Requiem for a Queen"
+Inst138Quest5 = "5. Eyes of the Thunder King"
 Inst138Quest5_Level = "90"
 Inst138Quest5_Attain = "90"
-Inst138Quest5_Aim = "Put Monara to rest."
+Inst138Quest5_Aim = "Defeat the ambush!"
 Inst138Quest5_Location = "Automatically accepted inside Throne of Thunder"
-Inst138Quest5_Note = "This weekly raid quest can be completed on any difficulty setting.  Monara is just beyond "..YELLOW.."[1]"..WHITE.."."
+Inst138Quest5_Note = "This weekly raid quest can be completed on any difficulty setting.  The ambush starts at "..YELLOW.."[7]"..WHITE.."."
 Inst138Quest5_Prequest = "None"
 Inst138Quest5_Folgequest = "None"
 --
 Inst138Quest5name1 = "Spoils of the Thunder King"
 
 --Quest 6 Alliance
-Inst138Quest6 = "6. Taming the Tempest"
+Inst138Quest6 = "6. Agony and Anima"
 Inst138Quest6_Level = "90"
 Inst138Quest6_Attain = "90"
-Inst138Quest6_Aim = "Slay No'ku Stormsayer."
+Inst138Quest6_Aim = "Slay Archritualist Kelada."
 Inst138Quest6_Location = "Automatically accepted inside Throne of Thunder"
-Inst138Quest6_Note = "This weekly raid quest can be completed on any difficulty setting.  No'ku Stormsayer is just before "..YELLOW.."[3]"..WHITE.."."
+Inst138Quest6_Note = "This weekly raid quest can be completed on any difficulty setting.  Archritualist Kelada is just beyond "..YELLOW.."[8]"..WHITE.."."
 Inst138Quest6_Prequest = "None"
 Inst138Quest6_Folgequest = "None"
 --
 Inst138Quest6name1 = "Spoils of the Thunder King"
 
 --Quest 7 Alliance
-Inst138Quest7 = "7. Rocks Fall, People Die"
+Inst138Quest7 = "7. Something Foul is Afoot"
 Inst138Quest7_Level = "90"
 Inst138Quest7_Attain = "90"
-Inst138Quest7_Aim = "Slay the Rocky Horror."
+Inst138Quest7_Aim = "Seek and destroy Flesh'rok the Diseased."
 Inst138Quest7_Location = "Automatically accepted inside Throne of Thunder"
-Inst138Quest7_Note = "This weekly raid quest can be completed on any difficulty setting.  The Rocky Horror is just beyond "..YELLOW.."[4]"..WHITE.."."
+Inst138Quest7_Note = "This weekly raid quest can be completed on any difficulty setting.  Flesh'rok the Diseased is just after "..YELLOW.."[9]"..WHITE.."."
 Inst138Quest7_Prequest = "None"
 Inst138Quest7_Folgequest = "None"
 --
 Inst138Quest7name1 = "Spoils of the Thunder King"
 
 --Quest 8 Alliance
-Inst138Quest8 = "8. Eyes of the Thunder King"
+Inst138Quest8 = "8. Zao'cho the Wicked"
 Inst138Quest8_Level = "90"
 Inst138Quest8_Attain = "90"
-Inst138Quest8_Aim = "Defeat the ambush!"
+Inst138Quest8_Aim = "Slay Zao'cho."
 Inst138Quest8_Location = "Automatically accepted inside Throne of Thunder"
-Inst138Quest8_Note = "This weekly raid quest can be completed on any difficulty setting.  The ambush starts at "..YELLOW.."[7]"..WHITE.."."
+Inst138Quest8_Note = "This weekly raid quest can be completed on any difficulty setting.  Zao'cho the Wicked is just before "..YELLOW.."[11]"..WHITE.."."
 Inst138Quest8_Prequest = "None"
 Inst138Quest8_Folgequest = "None"
 --
 Inst138Quest8name1 = "Spoils of the Thunder King"
-
---Quest 9 Alliance
-Inst138Quest9 = "9. Agony and Anima"
-Inst138Quest9_Level = "90"
-Inst138Quest9_Attain = "90"
-Inst138Quest9_Aim = "Slay Archritualist Kelada."
-Inst138Quest9_Location = "Automatically accepted inside Throne of Thunder"
-Inst138Quest9_Note = "This weekly raid quest can be completed on any difficulty setting.  Archritualist Kelada is just beyond "..YELLOW.."[8]"..WHITE.."."
-Inst138Quest9_Prequest = "None"
-Inst138Quest9_Folgequest = "None"
---
-Inst138Quest9name1 = "Spoils of the Thunder King"
-
---Quest 10 Alliance
-Inst138Quest10 = "10. Something Foul is Afoot"
-Inst138Quest10_Level = "90"
-Inst138Quest10_Attain = "90"
-Inst138Quest10_Aim = "Seek and destroy Flesh'rok the Diseased."
-Inst138Quest10_Location = "Automatically accepted inside Throne of Thunder"
-Inst138Quest10_Note = "This weekly raid quest can be completed on any difficulty setting.  Flesh'rok the Diseased is just after "..YELLOW.."[9]"..WHITE.."."
-Inst138Quest10_Prequest = "None"
-Inst138Quest10_Folgequest = "None"
---
-Inst138Quest10name1 = "Spoils of the Thunder King"
-
---Quest 11 Alliance
-Inst138Quest11 = "11. Zao'cho the Wicked"
-Inst138Quest11_Level = "90"
-Inst138Quest11_Attain = "90"
-Inst138Quest11_Aim = "Slay Zao'cho."
-Inst138Quest11_Location = "Automatically accepted inside Throne of Thunder"
-Inst138Quest11_Note = "This weekly raid quest can be completed on any difficulty setting.  Zao'cho the Wicked is just before "..YELLOW.."[11]"..WHITE.."."
-Inst138Quest11_Prequest = "None"
-Inst138Quest11_Folgequest = "None"
---
-Inst138Quest11name1 = "Spoils of the Thunder King"
 
 
 --Quest 1 Horde
@@ -12738,8 +12606,8 @@ Inst138Quest2_HORDE_Location = Inst138Quest2_Location
 Inst138Quest2_HORDE_Note = Inst138Quest2_Note
 Inst138Quest2_HORDE_Prequest = Inst138Quest2_Prequest
 Inst138Quest2_HORDE_Folgequest = Inst138Quest2_Folgequest
-Inst138Quest2PreQuest_HORDE = Inst138Quest2PreQuest
--- No Rewards for this quest
+--
+Inst138Quest2name1_HORDE = Inst138Quest2name1
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst138Quest3_HORDE = Inst138Quest3
@@ -12750,8 +12618,8 @@ Inst138Quest3_HORDE_Location = Inst138Quest3_Location
 Inst138Quest3_HORDE_Note = Inst138Quest3_Note
 Inst138Quest3_HORDE_Prequest = Inst138Quest3_Prequest
 Inst138Quest3_HORDE_Folgequest = Inst138Quest3_Folgequest
-Inst138Quest3PreQuest_HORDE = Inst138Quest3PreQuest
--- No Rewards for this quest
+--
+Inst138Quest3name1_HORDE = Inst138Quest3name1
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst138Quest4_HORDE = Inst138Quest4
@@ -12762,8 +12630,8 @@ Inst138Quest4_HORDE_Location = Inst138Quest4_Location
 Inst138Quest4_HORDE_Note = Inst138Quest4_Note
 Inst138Quest4_HORDE_Prequest = Inst138Quest4_Prequest
 Inst138Quest4_HORDE_Folgequest = Inst138Quest4_Folgequest
-Inst138Quest4FQuest_HORDE = Inst138Quest4FQuest
--- No Rewards for this quest
+--
+Inst138Quest4name1_HORDE = Inst138Quest4name1
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst138Quest5_HORDE = Inst138Quest5
@@ -12813,131 +12681,83 @@ Inst138Quest8_HORDE_Folgequest = Inst138Quest8_Folgequest
 --
 Inst138Quest8name1_HORDE = Inst138Quest8name1
 
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst138Quest9_HORDE = Inst138Quest9
-Inst138Quest9_HORDE_Level = Inst138Quest9_Level
-Inst138Quest9_HORDE_Attain = Inst138Quest9_Attain
-Inst138Quest9_HORDE_Aim = Inst138Quest9_Aim
-Inst138Quest9_HORDE_Location = Inst138Quest9_Location
-Inst138Quest9_HORDE_Note = Inst138Quest9_Note
-Inst138Quest9_HORDE_Prequest = Inst138Quest9_Prequest
-Inst138Quest9_HORDE_Folgequest = Inst138Quest9_Folgequest
---
-Inst138Quest9name1_HORDE = Inst138Quest9name1
-
---Quest 10 Horde  (same as Quest 10 Alliance)
-Inst138Quest10_HORDE = Inst138Quest10
-Inst138Quest10_HORDE_Level = Inst138Quest10_Level
-Inst138Quest10_HORDE_Attain = Inst138Quest10_Attain
-Inst138Quest10_HORDE_Aim = Inst138Quest10_Aim
-Inst138Quest10_HORDE_Location = Inst138Quest10_Location
-Inst138Quest10_HORDE_Note = Inst138Quest10_Note
-Inst138Quest10_HORDE_Prequest = Inst138Quest10_Prequest
-Inst138Quest10_HORDE_Folgequest = Inst138Quest10_Folgequest
---
-Inst138Quest10name1_HORDE = Inst138Quest10name1
-
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst138Quest11_HORDE = Inst138Quest11
-Inst138Quest11_HORDE_Level = Inst138Quest11_Level
-Inst138Quest11_HORDE_Attain = Inst138Quest11_Attain
-Inst138Quest11_HORDE_Aim = Inst138Quest11_Aim
-Inst138Quest11_HORDE_Location = Inst138Quest11_Location
-Inst138Quest11_HORDE_Note = Inst138Quest11_Note
-Inst138Quest11_HORDE_Prequest = Inst138Quest11_Prequest
-Inst138Quest11_HORDE_Folgequest = Inst138Quest11_Folgequest
---
-Inst138Quest11name1_HORDE = Inst138Quest11name1
-
 
 
 --------------- INST145 - Siege of Orgrimmar ---------------
 
 Inst145Caption = "Siege of Orgrimmar"
-Inst145QAA = "7 Quests"
-Inst145QAH = "7 Quests"
+Inst145QAA = "6 Quests"
+Inst145QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst145Quest1 = "1. Judgment of the Black Prince"
+Inst145Quest1 = "1. The Last Gasp of Y'Shaarj"
 Inst145Quest1_Level = "90"
 Inst145Quest1_Attain = "90"
-Inst145Quest1_Aim = "Complete the Siege of Orgrimmar and defeat Garrosh Hellscream."
-Inst145Quest1_Location = "Wrathion (Vale of Eternal Blossoms - Mogu'shan Palace; "..YELLOW.."83.2, 29.6"..WHITE..")"
-Inst145Quest1_Note = "This quest can be completed on any difficulty.  It is the final quest in the Legendary Cloak questline."
-Inst145Quest1_Prequest = "A Reckoning -> A Pandaren Legend"
-Inst145Quest1_Folgequest = "None"
-Inst145Quest1PreQuest = "true"
+Inst145Quest1_Aim = "Speak with Lorewalker Cho in the Siege of Orgrimmar."
+Inst145Quest1_Location = "Lorewalker Cho (Siege of Orgrimmar; "..YELLOW.."[14]"..WHITE..")"
+Inst145Quest1_Note = "This quest is obtained after defeating Garrosh Hellscream on any difficulty."
+Inst145Quest1_Prequest = "None"
+Inst145Quest1_Folgequest = "Why Do We Fight?"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst145Quest2 = "2. The Last Gasp of Y'Shaarj"
+Inst145Quest2 = "2. Why Do We Fight?"
 Inst145Quest2_Level = "90"
 Inst145Quest2_Attain = "90"
-Inst145Quest2_Aim = "Speak with Lorewalker Cho in the Siege of Orgrimmar."
+Inst145Quest2_Aim = "Lorewalker Cho wishes to speak with you in the Vale of Eternal Blossoms."
 Inst145Quest2_Location = "Lorewalker Cho (Siege of Orgrimmar; "..YELLOW.."[14]"..WHITE..")"
-Inst145Quest2_Note = "This quest is obtained after defeating Garrosh Hellscream on any difficulty."
-Inst145Quest2_Prequest = "None"
-Inst145Quest2_Folgequest = "Why Do We Fight?"
+Inst145Quest2_Note = "Meet the Lorewalker outside the instance at Vale of Eternal Blossoms - Mogu'shan Palace; "..YELLOW.."67.4, 45.6"..WHITE.."."
+Inst145Quest2_Prequest = "The Last Gasp of Y'Shaarj"
+Inst145Quest2_Folgequest = "None"
+Inst145Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst145Quest3 = "3. Why Do We Fight?"
+Inst145Quest3 = "3. A Vision in Time"
 Inst145Quest3_Level = "90"
 Inst145Quest3_Attain = "90"
-Inst145Quest3_Aim = "Lorewalker Cho wishes to speak with you in the Vale of Eternal Blossoms."
-Inst145Quest3_Location = "Lorewalker Cho (Siege of Orgrimmar; "..YELLOW.."[14]"..WHITE..")"
-Inst145Quest3_Note = "Meet the Lorewalker outside the instance at Vale of Eternal Blossoms - Mogu'shan Palace; "..YELLOW.."67.4, 45.6"..WHITE.."."
-Inst145Quest3_Prequest = "The Last Gasp of Y'Shaarj"
-Inst145Quest3_Folgequest = "None"
+Inst145Quest3_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
+Inst145Quest3_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
+Inst145Quest3_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
+Inst145Quest3_Prequest = "A Timeless Tour -> Empowering the Hourglass"
+Inst145Quest3_Folgequest = "Refining The Vision"
 Inst145Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst145Quest4 = "4. A Vision in Time"
+Inst145Quest4 = "4. Refining The Vision"
 Inst145Quest4_Level = "90"
 Inst145Quest4_Attain = "90"
 Inst145Quest4_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
 Inst145Quest4_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
 Inst145Quest4_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
-Inst145Quest4_Prequest = "A Timeless Tour -> Empowering the Hourglass"
-Inst145Quest4_Folgequest = "Refining The Vision"
-Inst145Quest4PreQuest = "true"
+Inst145Quest4_Prequest = "A Vision in Time"
+Inst145Quest4_Folgequest = "Seeking Fate"
+Inst145Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst145Quest5 = "5. Refining The Vision"
+Inst145Quest5 = "5. Seeking Fate"
 Inst145Quest5_Level = "90"
 Inst145Quest5_Attain = "90"
 Inst145Quest5_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
 Inst145Quest5_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
 Inst145Quest5_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
-Inst145Quest5_Prequest = "A Vision in Time"
-Inst145Quest5_Folgequest = "Seeking Fate"
+Inst145Quest5_Prequest = "Refining The Vision"
+Inst145Quest5_Folgequest = "Hidden Threads"
 Inst145Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst145Quest6 = "6. Seeking Fate"
+Inst145Quest6 = "6. Hidden Threads"
 Inst145Quest6_Level = "90"
 Inst145Quest6_Attain = "90"
 Inst145Quest6_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
 Inst145Quest6_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
 Inst145Quest6_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
-Inst145Quest6_Prequest = "Refining The Vision"
-Inst145Quest6_Folgequest = "Hidden Threads"
+Inst145Quest6_Prequest = "Seeking Fate"
+Inst145Quest6_Folgequest = "Courting Destiny"
 Inst145Quest6FQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst145Quest7 = "7. Hidden Threads"
-Inst145Quest7_Level = "90"
-Inst145Quest7_Attain = "90"
-Inst145Quest7_Aim = "Use the Vision of Time in the Siege of Orgrimmar."
-Inst145Quest7_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW.."34.6, 53.6"..WHITE..")"
-Inst145Quest7_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
-Inst145Quest7_Prequest = "Seeking Fate"
-Inst145Quest7_Folgequest = "Courting Destiny"
-Inst145Quest7FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -12950,7 +12770,6 @@ Inst145Quest1_HORDE_Location = Inst145Quest1_Location
 Inst145Quest1_HORDE_Note = Inst145Quest1_Note
 Inst145Quest1_HORDE_Prequest = Inst145Quest1_Prequest
 Inst145Quest1_HORDE_Folgequest = Inst145Quest1_Folgequest
-Inst145Quest1PreQuest_HORDE = Inst145Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -12962,6 +12781,7 @@ Inst145Quest2_HORDE_Location = Inst145Quest2_Location
 Inst145Quest2_HORDE_Note = Inst145Quest2_Note
 Inst145Quest2_HORDE_Prequest = Inst145Quest2_Prequest
 Inst145Quest2_HORDE_Folgequest = Inst145Quest2_Folgequest
+Inst145Quest2PreQuest_HORDE = Inst145Quest2PreQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -12985,7 +12805,7 @@ Inst145Quest4_HORDE_Location = Inst145Quest4_Location
 Inst145Quest4_HORDE_Note = Inst145Quest4_Note
 Inst145Quest4_HORDE_Prequest = Inst145Quest4_Prequest
 Inst145Quest4_HORDE_Folgequest = Inst145Quest4_Folgequest
-Inst145Quest4PreQuest_HORDE = Inst145Quest4PreQuest
+Inst145Quest4FQuest_HORDE = Inst145Quest4FQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -13012,71 +12832,163 @@ Inst145Quest6_HORDE_Folgequest = Inst145Quest6_Folgequest
 Inst145Quest6FQuest_HORDE = Inst145Quest6FQuest
 -- No Rewards for this quest
 
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst145Quest7_HORDE = Inst145Quest7
-Inst145Quest7_HORDE_Level = Inst145Quest7_Level
-Inst145Quest7_HORDE_Attain = Inst145Quest7_Attain
-Inst145Quest7_HORDE_Aim = Inst145Quest7_Aim
-Inst145Quest7_HORDE_Location = Inst145Quest7_Location
-Inst145Quest7_HORDE_Note = Inst145Quest7_Note
-Inst145Quest7_HORDE_Prequest = Inst145Quest7_Prequest
-Inst145Quest7_HORDE_Folgequest = Inst145Quest7_Folgequest
-Inst145Quest7FQuest_HORDE = Inst145Quest7FQuest
--- No Rewards for this quest
-
 
 
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Caption = "Auchindoun"
-Inst146QAA = "No Quests"
-Inst146QAH = "No Quests"
---[[
+Inst146QAA = "6 Quests"
+Inst146QAH = "6 Quests"
+
 --Quest 1 Alliance
-Inst146Quest1 = "1. A Worthy Challenge: Teron'gor"
-Inst146Quest1_Level = "100"
-Inst146Quest1_Attain = "100"
-Inst146Quest1_Aim = "Complete the Auchindoun Challenge Mode."
-Inst146Quest1_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
-Inst146Quest1_Note = "You only need to complete the challenge.  How long you take does not matter for the quest."
+Inst146Quest1 = "1. Go Fetch"
+Inst146Quest1_Level = "96"
+Inst146Quest1_Attain = "94"
+Inst146Quest1_Aim = "Collect a Nightmare Bell from Auchindoun."
+Inst146Quest1_Location = "Johnny Awesome "..AQGARRISON
+Inst146Quest1_Note = "The Nightmare Bell can be found next to a wall in the corridor between the second "..YELLOW.."[2]"..WHITE.. " and third "..YELLOW.."[3]"..WHITE.." bosses."
 Inst146Quest1_Prequest = "None"
 Inst146Quest1_Folgequest = "None"
 --
-Inst146Quest1name1 = "Challenger's Strongbox"
+Inst146Quest1name1 = "Crate of Valuable Treasures"
 
 --Quest 2 Alliance
-Inst146Quest2 = ""
-Inst146Quest2_Level = ""
-Inst146Quest2_Attain = ""
-Inst146Quest2_Aim = ""
-Inst146Quest2_Location = ""
-Inst146Quest2_Note = ""
+Inst146Quest2 = "2. The Soulcutter"
+Inst146Quest2_Level = "100"
+Inst146Quest2_Attain = "100"
+Inst146Quest2_Aim = "Collect a Soulsever Blade from Auchindoun."
+Inst146Quest2_Location = "Lilian Voss "..AQGARRISON
+Inst146Quest2_Note = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.  You can retrieve it without killing anything or starting the dungeon."
 Inst146Quest2_Prequest = "None"
 Inst146Quest2_Folgequest = "None"
-Inst146Quest2PreQuest = "true"
-Inst146Quest2FQuest = "true"
 --
-Inst146Quest2name1 = ""
--- No Rewards for this quest
--- Reward varies for each class
+Inst146Quest2name1 = "Lilian's Warning Sign"
 
 --Quest 3 Alliance
-Inst146Quest3 = ""
-Inst146Quest3_Level = ""
-Inst146Quest3_Attain = ""
-Inst146Quest3_Aim = ""
-Inst146Quest3_Location = ""
-Inst146Quest3_Note = ""
+Inst146Quest3 = "3. Soulcarver Voss"
+Inst146Quest3_Level = "100"
+Inst146Quest3_Attain = "100"
+Inst146Quest3_Aim = "Collect a Soulsever Blade from Auchindoun."
+Inst146Quest3_Location = "Lilian Voss "..AQGARRISON
+Inst146Quest3_Note = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.  You can retrieve it without killing anything or starting the dungeon."
 Inst146Quest3_Prequest = "None"
 Inst146Quest3_Folgequest = "None"
-Inst146Quest3PreQuest = "true"
-Inst146Quest3FQuest = "true"
 --
-Inst146Quest3name1 = ""
+Inst146Quest3name1 = "Supply of Storied Rarities"
+
+--Quest 4 Alliance
+Inst146Quest4 = "4. The Cure For Death"
+Inst146Quest4_Level = "100"
+Inst146Quest4_Attain = "100"
+Inst146Quest4_Aim = "Collect a Soulweave Vessel from Auchindoun."
+Inst146Quest4_Location = "Leonid Barthalomew the Revered "..AQGARRISON
+Inst146Quest4_Note = "Requires Heroic Difficulty.  The Soulweave Vessel can be found on the left side of the platform with the first boss at "..YELLOW.."[1]"..WHITE.."."
+Inst146Quest4_Prequest = "None"
+Inst146Quest4_Folgequest = "None"
+--
+Inst146Quest4name1 = "Leonid's Bag of Supplies"
+
+--Quest 5 Alliance
+Inst146Quest5 = "5. Vessel of Virtue"
+Inst146Quest5_Level = "100"
+Inst146Quest5_Attain = "100"
+Inst146Quest5_Aim = "Collect a Soulweave Vessel from Auchindoun."
+Inst146Quest5_Location = "Leonid Barthalomew the Revered "..AQGARRISON
+Inst146Quest5_Note = "Requires Heroic Difficulty.  The Soulweave Vessel can be found on the left side of the platform with the first boss at "..YELLOW.."[1]"..WHITE.."."
+Inst146Quest5_Prequest = "None"
+Inst146Quest5_Folgequest = "None"
+--
+Inst146Quest5name1 = "Supply of Storied Rarities"
+
+--Quest 6 Alliance
+Inst146Quest6 = "6. A Worthy Challenge: Teron'gor"
+Inst146Quest6_Level = "100"
+Inst146Quest6_Attain = "100"
+Inst146Quest6_Aim = "Complete the Auchindoun Challenge Mode."
+Inst146Quest6_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst146Quest6_Note = "You only need to complete the challenge.  How long you take does not matter for the quest."
+Inst146Quest6_Prequest = "None"
+Inst146Quest6_Folgequest = "None"
+--
+Inst146Quest6name1 = "Challenger's Strongbox"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst146Quest1_HORDE = Inst146Quest1
+Inst146Quest1_HORDE_Level = Inst146Quest1_Level
+Inst146Quest1_HORDE_Attain = Inst146Quest1_Attain
+Inst146Quest1_HORDE_Aim = Inst146Quest1_Aim
+Inst146Quest1_HORDE_Location = Inst146Quest1_Location
+Inst146Quest1_HORDE_Note = Inst146Quest1_Note
+Inst146Quest1_HORDE_Prequest = Inst146Quest1_Prequest
+Inst146Quest1_HORDE_Folgequest = Inst146Quest1_Folgequest
+Inst146Quest1PreQuest_HORDE = Inst146Quest1PreQuest
+Inst146Quest1FQuest_HORDE = Inst146Quest1FQuest
+--
+Inst146Quest1name1_HORDE = Inst146Quest1name1
 -- No Rewards for this quest
 -- Reward varies for each class
 
---]]
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst146Quest2_HORDE = Inst146Quest2
+Inst146Quest2_HORDE_Level = Inst146Quest2_Level
+Inst146Quest2_HORDE_Attain = Inst146Quest2_Attain
+Inst146Quest2_HORDE_Aim = Inst146Quest2_Aim
+Inst146Quest2_HORDE_Location = Inst146Quest2_Location
+Inst146Quest2_HORDE_Note = Inst146Quest2_Note
+Inst146Quest2_HORDE_Prequest = Inst146Quest2_Prequest
+Inst146Quest2_HORDE_Folgequest = Inst146Quest2_Folgequest
+--
+Inst146Quest2name1_HORDE = Inst146Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst146Quest3_HORDE = Inst146Quest3
+Inst146Quest3_HORDE_Level = Inst146Quest3_Level
+Inst146Quest3_HORDE_Attain = Inst146Quest3_Attain
+Inst146Quest3_HORDE_Aim = Inst146Quest3_Aim
+Inst146Quest3_HORDE_Location = Inst146Quest3_Location
+Inst146Quest3_HORDE_Note = Inst146Quest3_Note
+Inst146Quest3_HORDE_Prequest = Inst146Quest3_Prequest
+Inst146Quest3_HORDE_Folgequest = Inst146Quest3_Folgequest
+--
+Inst146Quest3name1_HORDE = Inst146Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst146Quest4_HORDE = Inst146Quest4
+Inst146Quest4_HORDE_Level = Inst146Quest4_Level
+Inst146Quest4_HORDE_Attain = Inst146Quest4_Attain
+Inst146Quest4_HORDE_Aim = Inst146Quest4_Aim
+Inst146Quest4_HORDE_Location = Inst146Quest4_Location
+Inst146Quest4_HORDE_Note = Inst146Quest4_Note
+Inst146Quest4_HORDE_Prequest = Inst146Quest4_Prequest
+Inst146Quest4_HORDE_Folgequest = Inst146Quest4_Folgequest
+--
+Inst146Quest4name1_HORDE = Inst146Quest1name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst146Quest5_HORDE = Inst146Quest5
+Inst146Quest5_HORDE_Level = Inst146Quest5_Level
+Inst146Quest5_HORDE_Attain = Inst146Quest5_Attain
+Inst146Quest5_HORDE_Aim = Inst146Quest5_Aim
+Inst146Quest5_HORDE_Location = Inst146Quest5_Location
+Inst146Quest5_HORDE_Note = Inst146Quest5_Note
+Inst146Quest5_HORDE_Prequest = Inst146Quest5_Prequest
+Inst146Quest5_HORDE_Folgequest = Inst146Quest5_Folgequest
+--
+Inst146Quest5name1_HORDE = Inst146Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst146Quest6_HORDE = Inst146Quest6
+Inst146Quest6_HORDE_Level = Inst146Quest6_Level
+Inst146Quest6_HORDE_Attain = Inst146Quest6_Attain
+Inst146Quest6_HORDE_Aim = Inst146Quest6_Aim
+Inst146Quest6_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst146Quest6_HORDE_Note = Inst146Quest6_Note
+Inst146Quest6_HORDE_Prequest = Inst146Quest6_Prequest
+Inst146Quest6_HORDE_Folgequest = Inst146Quest6_Folgequest
+--
+Inst146Quest6name1_HORDE = Inst146Quest6name1
+
 
 
 
@@ -13438,38 +13350,6 @@ Inst142QAH = "No Quests"
 Inst144Caption = "Troves of the Thunder King"
 Inst144QAA = "No Quests"
 Inst144QAH = "No Quests"
-
-
-
---------------- INST157 - The Trial of Faith ---------------
-
-Inst157Caption = "The Trial of Faith"
-Inst157QAA = "No Quests"
-Inst157QAH = "No Quests"
-
-
-
---------------- INST158 - The Purge of Grommar ---------------
-
-Inst158Caption = "The Purge of Grommar"
-Inst158QAA = "No Quests"
-Inst158QAH = "No Quests"
-
-
-
---------------- INST159 - The Coliseum ---------------
-
-Inst159Caption = "The Coliseum"
-Inst159QAA = "No Quests"
-Inst159QAH = "No Quests"
-
-
-
---------------- INST160 - The Battle of Thunder Pass ---------------
-
-Inst160Caption = "The Battle of Thunder Pass"
-Inst160QAA = "No Quests"
-Inst160QAH = "No Quests"
 
 
 

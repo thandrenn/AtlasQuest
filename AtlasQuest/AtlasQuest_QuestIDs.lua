@@ -2305,71 +2305,39 @@ AQ_31366_Level = "90"
 
 --------------- INST120 - Mogu'shan Vaults ---------------
 
-Inst120Quest1_QuestID = "31473"
-
-Inst120Quest1_HORDE_QuestID = "31473"
-
-
-AQ_31473_Level = "90"
-
 
 
 --------------- INST121 - Terrace of Endless Spring ---------------
 
-Inst121Quest1_QuestID = "31473"
-Inst121Quest2_QuestID = "31481"
-
-Inst121Quest1_HORDE_QuestID = "31473"
-Inst121Quest2_HORDE_QuestID = "31481"
-
-
---AQ_31473_Level = "90"   -- Already defined for INST120
-AQ_31481_Level = "90"
-
 
 
 --------------- INST122 - Heart of Fear ---------------
-
-Inst122Quest1_QuestID = "31473"
-
-Inst122Quest1_HORDE_QuestID = "31473"
-
-
---AQ_31473_Level = "90"   -- Already defined for INST120
 
 
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Quest1_QuestID = "32599"
-Inst138Quest2_QuestID = "32591"
-Inst138Quest3_QuestID = "32596"
-Inst138Quest4_QuestID = "32597"
-Inst138Quest5_QuestID = "32715"
-Inst138Quest6_QuestID = "32714"
-Inst138Quest7_QuestID = "32713"
-Inst138Quest8_QuestID = "32716"
-Inst138Quest9_QuestID = "32711"
-Inst138Quest10_QuestID = "32710"
-Inst138Quest11_QuestID = "32712"
+Inst138Quest2_QuestID = "32715"
+Inst138Quest3_QuestID = "32714"
+Inst138Quest4_QuestID = "32713"
+Inst138Quest5_QuestID = "32716"
+Inst138Quest6_QuestID = "32711"
+Inst138Quest7_QuestID = "32710"
+Inst138Quest8_QuestID = "32712"
 
 Inst138Quest1_HORDE_QuestID = "32589"
-Inst138Quest2_HORDE_QuestID = "32591"
-Inst138Quest3_HORDE_QuestID = "32596"
-Inst138Quest4_HORDE_QuestID = "32597"
-Inst138Quest5_HORDE_QuestID = "32715"
-Inst138Quest6_HORDE_QuestID = "32714"
-Inst138Quest7_HORDE_QuestID = "32713"
-Inst138Quest8_HORDE_QuestID = "32716"
-Inst138Quest9_HORDE_QuestID = "32711"
-Inst138Quest10_HORDE_QuestID = "32710"
-Inst138Quest11_HORDE_QuestID = "32712"
+Inst138Quest2_HORDE_QuestID = "32715"
+Inst138Quest3_HORDE_QuestID = "32714"
+Inst138Quest4_HORDE_QuestID = "32713"
+Inst138Quest5_HORDE_QuestID = "32716"
+Inst138Quest6_HORDE_QuestID = "32711"
+Inst138Quest7_HORDE_QuestID = "32710"
+Inst138Quest8_HORDE_QuestID = "32712"
 
 
 AQ_32599_Level = "90"
 AQ_32589_Level = "90"
-AQ_32591_Level = "90"
-AQ_32596_Level = "90"
 AQ_32715_Level = "90"
 AQ_32714_Level = "90"
 AQ_32713_Level = "90"
@@ -2382,24 +2350,21 @@ AQ_32712_Level = "90"
 
 --------------- INST145 - Siege of Orgrimmar ---------------
 
-Inst145Quest1_QuestID = "33105"
-Inst145Quest2_QuestID = "33147"
-Inst145Quest3_QuestID = "33138"
-Inst145Quest4_QuestID = "33337"
-Inst145Quest5_QuestID = "33375"
-Inst145Quest6_QuestID = "33376"
-Inst145Quest7_QuestID = "33377"
+Inst145Quest1_QuestID = "33147"
+Inst145Quest2_QuestID = "33138"
+Inst145Quest3_QuestID = "33337"
+Inst145Quest4_QuestID = "33375"
+Inst145Quest5_QuestID = "33376"
+Inst145Quest6_QuestID = "33377"
 
-Inst145Quest1_HORDE_QuestID = "33105"
-Inst145Quest2_HORDE_QuestID = "33147"
-Inst145Quest3_HORDE_QuestID = "33138"
-Inst145Quest4_HORDE_QuestID = "33337"
-Inst145Quest5_HORDE_QuestID = "33375"
-Inst145Quest6_HORDE_QuestID = "33376"
-Inst145Quest7_HORDE_QuestID = "33377"
+Inst145Quest1_HORDE_QuestID = "33147"
+Inst145Quest2_HORDE_QuestID = "33138"
+Inst145Quest3_HORDE_QuestID = "33337"
+Inst145Quest4_HORDE_QuestID = "33375"
+Inst145Quest5_HORDE_QuestID = "33376"
+Inst145Quest6_HORDE_QuestID = "33377"
 
 
-AQ_33105_Level = "90"
 AQ_33147_Level = "90"
 AQ_33138_Level = "90"
 AQ_33337_Level = "90"
@@ -2410,26 +2375,30 @@ AQ_33377_Level = "90"
 
 
 --------------- INST146 - Auchindoun ---------------
---[[
-Inst146Quest1_QuestID = ""
-Inst146Quest2_QuestID = ""
-Inst146Quest3_QuestID = ""
-Inst146Quest4_QuestID = ""
-Inst146Quest5_QuestID = ""
 
-Inst146Quest1_HORDE_QuestID = ""
-Inst146Quest2_HORDE_QuestID = ""
-Inst146Quest3_HORDE_QuestID = ""
-Inst146Quest4_HORDE_QuestID = ""
-Inst146Quest5_HORDE_QuestID = ""
+Inst146Quest1_QuestID = "37146"
+Inst146Quest2_QuestID = "37156"
+Inst146Quest3_QuestID = "37232"
+Inst146Quest4_QuestID = "37154"
+Inst146Quest5_QuestID = "37233"
+Inst146Quest6_QuestID = "37271"
+
+Inst146Quest1_HORDE_QuestID = "37146"
+Inst146Quest2_HORDE_QuestID = "37156"
+Inst146Quest3_HORDE_QuestID = "37232"
+Inst146Quest4_HORDE_QuestID = "37154"
+Inst146Quest5_HORDE_QuestID = "37233"
+Inst146Quest6_HORDE_QuestID = "37259"
 
 
-AQ__Level = "100"
-AQ__Level = "100"
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
---]]
+AQ_37146_Level = "96"
+AQ_37156_Level = "100"
+AQ_37232_Level = "100"
+AQ_37154_Level = "100"
+AQ_37233_Level = "100"
+AQ_37271_Level = "100"
+AQ_37259_Level = "100"
+
 
 
 --------------- INST147 - Skyreach ---------------
@@ -2570,18 +2539,6 @@ AQ_32251_Level = "90"
 
 
 --------------- INST144 - Troves of the Thunder King ---------------
-
-
---------------- INST157 - The Trial of Faith ---------------
-
-
---------------- INST158 - The Purge of Grommar ---------------
-
-
---------------- INST159 - The Coliseum ---------------
-
-
---------------- INST160 - The Battle of Thunder Pass ---------------
 
 
 
