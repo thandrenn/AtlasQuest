@@ -6790,40 +6790,13 @@ Inst119Quest2Rewardtext_HORDE = AQClassRewards
 
 --------------- INST120 - Mogu'shan Vaults ---------------
 
---Quest 1 Alliance
-Inst120Quest1Rewardtext = AQNoReward
-
-
---Quest 1 Horde
-Inst120Quest1Rewardtext_HORDE = AQNoReward
-
 
 
 --------------- INST121 - Terrace of Endless Spring ---------------
 
---Quest 1 Alliance
-Inst121Quest1Rewardtext = AQNoReward
-
---Quest 2 Alliance
-Inst121Quest2Rewardtext = AQNoReward
-
-
---Quest 1 Horde
-Inst121Quest1Rewardtext_HORDE = AQNoReward
-
---Quest 2 Horde
-Inst121Quest2Rewardtext_HORDE = AQNoReward
-
 
 
 --------------- INST122 - Heart of Fear ---------------
-
---Quest 1 Alliance
-Inst122Quest1Rewardtext = AQNoReward
-
-
---Quest 1 Horde
-Inst122Quest1Rewardtext_HORDE = AQNoReward
 
 
 
@@ -6837,13 +6810,25 @@ Inst138Quest1description1 = AQITEM_ITEM
 Inst138Quest1ID1 = "95589"
 
 --Quest 2 Alliance
-Inst138Quest2Rewardtext = AQNoReward
+Inst138Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest2ITC1 = Itemc4;
+Inst138Quest2description1 = AQITEM_ITEM
+Inst138Quest2ID1 = "97153"
 
 --Quest 3 Alliance
-Inst138Quest3Rewardtext = AQNoReward
+Inst138Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest3ITC1 = Itemc4;
+Inst138Quest3description1 = AQITEM_ITEM
+Inst138Quest3ID1 = "97153"
 
 --Quest 4 Alliance
-Inst138Quest4Rewardtext = AQNoReward
+Inst138Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest4ITC1 = Itemc4;
+Inst138Quest4description1 = AQITEM_ITEM
+Inst138Quest4ID1 = "97153"
 
 --Quest 5 Alliance
 Inst138Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
@@ -6873,27 +6858,6 @@ Inst138Quest8ITC1 = Itemc4;
 Inst138Quest8description1 = AQITEM_ITEM
 Inst138Quest8ID1 = "97153"
 
---Quest 9 Alliance
-Inst138Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst138Quest9ITC1 = Itemc4;
-Inst138Quest9description1 = AQITEM_ITEM
-Inst138Quest9ID1 = "97153"
-
---Quest 10 Alliance
-Inst138Quest10Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst138Quest10ITC1 = Itemc4;
-Inst138Quest10description1 = AQITEM_ITEM
-Inst138Quest10ID1 = "97153"
-
---Quest 11 Alliance
-Inst138Quest11Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst138Quest11ITC1 = Itemc4;
-Inst138Quest11description1 = AQITEM_ITEM
-Inst138Quest11ID1 = "97153"
-
 
 --Quest 1 Horde
 Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -6903,13 +6867,25 @@ Inst138Quest1description1_HORDE = AQITEM_ITEM
 Inst138Quest1ID1_HORDE = "95590"
 
 --Quest 2 Horde
-Inst138Quest2Rewardtext_HORDE = AQNoReward
+Inst138Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest2ITC1_HORDE = Itemc4;
+Inst138Quest2description1_HORDE = AQITEM_ITEM
+Inst138Quest2ID1_HORDE = "97153"
 
 --Quest 3 Horde
-Inst138Quest3Rewardtext_HORDE = AQNoReward
+Inst138Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest3ITC1_HORDE = Itemc4;
+Inst138Quest3description1_HORDE = AQITEM_ITEM
+Inst138Quest3ID1_HORDE = "97153"
 
 --Quest 4 Horde
-Inst138Quest4Rewardtext_HORDE = AQNoReward
+Inst138Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst138Quest4ITC1_HORDE = Itemc4;
+Inst138Quest4description1_HORDE = AQITEM_ITEM
+Inst138Quest4ID1_HORDE = "97153"
 
 --Quest 5 Horde
 Inst138Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -6939,27 +6915,6 @@ Inst138Quest8ITC1_HORDE = Itemc4;
 Inst138Quest8description1_HORDE = AQITEM_ITEM
 Inst138Quest8ID1_HORDE = "97153"
 
---Quest 9 Horde
-Inst138Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst138Quest9ITC1_HORDE = Itemc4;
-Inst138Quest9description1_HORDE = AQITEM_ITEM
-Inst138Quest9ID1_HORDE = "97153"
-
---Quest 10 Horde
-Inst138Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst138Quest10ITC1_HORDE = Itemc4;
-Inst138Quest10description1_HORDE = AQITEM_ITEM
-Inst138Quest10ID1_HORDE = "97153"
-
---Quest 11 Horde
-Inst138Quest11Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst138Quest11ITC1_HORDE = Itemc4;
-Inst138Quest11description1_HORDE = AQITEM_ITEM
-Inst138Quest11ID1_HORDE = "97153"
-
 
 
 --------------- INST145 - Siege of Orgrimmar ---------------
@@ -6982,9 +6937,6 @@ Inst145Quest5Rewardtext = AQNoReward
 --Quest 6 Alliance
 Inst145Quest6Rewardtext = AQNoReward
 
---Quest 7 Alliance
-Inst145Quest7Rewardtext = AQNoReward
-
 
 --Quest 1 Horde
 Inst145Quest1Rewardtext_HORDE = AQNoReward
@@ -7004,9 +6956,6 @@ Inst145Quest5Rewardtext_HORDE = AQNoReward
 --Quest 6 Horde
 Inst145Quest6Rewardtext_HORDE = AQNoReward
 
---Quest 7 Horde
-Inst145Quest7Rewardtext_HORDE = AQNoReward
-
 
 
 --------------- INST146 - Auchindoun ---------------
@@ -7016,8 +6965,85 @@ Inst146Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst146Quest1ITC1 = Itemc4;
 Inst146Quest1description1 = AQITEM_ITEM
-Inst146Quest1ID1 = "119032"
+Inst146Quest1ID1 = "119042"
 
+--Quest 2 Alliance
+Inst146Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest2ITC1 = Itemc4;
+Inst146Quest2description1 = AQITEM_TOY
+Inst146Quest2ID1 = "119039"
+
+--Quest 3 Alliance
+Inst146Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest3ITC1 = Itemc4;
+Inst146Quest3description1 = AQITEM_ITEM
+Inst146Quest3ID1 = "119037"
+
+--Quest 4 Alliance
+Inst146Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest4ITC1 = Itemc4;
+Inst146Quest4description1 = AQITEM_ITEM
+Inst146Quest4ID1 = "118931"
+
+--Quest 5 Alliance
+Inst146Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest5ITC1 = Itemc4;
+Inst146Quest5description1 = AQITEM_ITEM
+Inst146Quest5ID1 = "119037"
+
+--Quest 6 Alliance
+Inst146Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest6ITC1 = Itemc4;
+Inst146Quest6description1 = AQITEM_ITEM
+Inst146Quest6ID1 = "119032"
+
+
+--Quest 1 Horde
+Inst146Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest1ITC1_HORDE = Itemc4;
+Inst146Quest1description1_HORDE = AQITEM_ITEM
+Inst146Quest1ID1_HORDE = "119042"
+
+--Quest 2 Horde
+Inst146Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest2ITC1_HORDE = Itemc4;
+Inst146Quest2description1_HORDE = AQITEM_TOY
+Inst146Quest2ID1_HORDE = "119039"
+
+--Quest 3 Horde
+Inst146Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest3ITC1_HORDE = Itemc4;
+Inst146Quest3description1_HORDE = AQITEM_ITEM
+Inst146Quest3ID1_HORDE = "119037"
+
+--Quest 4 Horde
+Inst146Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest4ITC1_HORDE = Itemc4;
+Inst146Quest4description1_HORDE = AQITEM_ITEM
+Inst146Quest4ID1_HORDE = "118931"
+
+--Quest 5 Horde
+Inst146Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest5ITC1_HORDE = Itemc4;
+Inst146Quest5description1_HORDE = AQITEM_ITEM
+Inst146Quest5ID1_HORDE = "119037"
+
+--Quest 6 Horde
+Inst146Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst146Quest6ITC1_HORDE = Itemc4;
+Inst146Quest6description1_HORDE = AQITEM_ITEM
+Inst146Quest6ID1_HORDE = "119032"
 
 
 
@@ -7159,18 +7185,6 @@ Inst137Quest1Rewardtext_HORDE = AQNoReward
 
 
 --------------- INST144 - Troves of the Thunder King ---------------
-
-
---------------- INST157 - The Trial of Faith ---------------
-
-
---------------- INST158 - The Purge of Grommar ---------------
-
-
---------------- INST159 - The Coliseum ---------------
-
-
---------------- INST160 - The Battle of Thunder Pass ---------------
 
 
 
