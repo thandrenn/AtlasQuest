@@ -2403,6 +2403,36 @@ AQ_37259_Level = "100"
 
 --------------- INST147 - Skyreach ---------------
 
+Inst147Quest1_QuestID = "36316"
+Inst147Quest2_QuestID = "36157"
+Inst147Quest3_QuestID = "37147"
+Inst147Quest4_QuestID = "37159"
+Inst147Quest5_QuestID = "37158"
+Inst147Quest6_QuestID = "37234"
+Inst147Quest7_QuestID = "37235"
+Inst147Quest8_QuestID = "37277"
+
+Inst147Quest1_HORDE_QuestID = "36316"
+Inst147Quest2_HORDE_QuestID = "36157"
+Inst147Quest3_HORDE_QuestID = "37147"
+Inst147Quest4_HORDE_QuestID = "37159"
+Inst147Quest5_HORDE_QuestID = "37158"
+Inst147Quest6_HORDE_QuestID = "37234"
+Inst147Quest7_HORDE_QuestID = "37235"
+Inst147Quest8_HORDE_QuestID = "37264"
+
+
+AQ_36316_Level = "97"
+AQ_36157_Level = "100"
+AQ_37147_Level = "99"
+AQ_37159_Level = "100"
+AQ_37158_Level = "100"
+AQ_37234_Level = "100"
+AQ_37235_Level = "100"
+AQ_37277_Level = "100"
+AQ_37264_Level = "100"
+
+
 
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 

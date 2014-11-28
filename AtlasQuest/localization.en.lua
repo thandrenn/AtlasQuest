@@ -12906,7 +12906,7 @@ Inst146Quest6_Level = "100"
 Inst146Quest6_Attain = "100"
 Inst146Quest6_Aim = "Complete the Auchindoun Challenge Mode."
 Inst146Quest6_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
-Inst146Quest6_Note = "You only need to complete the challenge.  How long you take does not matter for the quest."
+Inst146Quest6_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
 Inst146Quest6_Prequest = "None"
 Inst146Quest6_Folgequest = "None"
 --
@@ -12995,8 +12995,201 @@ Inst146Quest6name1_HORDE = Inst146Quest6name1
 --------------- INST147 - Skyreach ---------------
 
 Inst147Caption = "Skyreach"
-Inst147QAA = "No Quests"
-Inst147QAH = "No Quests"
+Inst147QAA = "8 Quests"
+Inst147QAH = "8 Quests"
+
+--Quest 1 Alliance
+Inst147Quest1 = "1. Victory is Within Reach"
+Inst147Quest1_Level = "97"
+Inst147Quest1_Attain = "97"
+Inst147Quest1_Aim = "Slay Ranjit, Araknath, Rukhran and High Sage Viryx in the Skyreach dungeon."
+Inst147Quest1_Location = "Reshad (Spires of Arak - Veil Terokk; "..YELLOW.."46.5, 46.6"..WHITE..")"
+Inst147Quest1_Note = "Kill all the bosses in the dungeon to complete the quest."
+Inst147Quest1_Prequest = "On Ebon Wings -> When All Is Aligned"
+Inst147Quest1_Folgequest = "None"
+Inst147Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst147Quest2 = "2. Spires of the Betrayer"
+Inst147Quest2_Level = "100"
+Inst147Quest2_Attain = "98"
+Inst147Quest2_Aim = "Collect a Pure Solium Band from High Sage Viryx in Skyreach."
+Inst147Quest2_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst147Quest2_Note = "Part of the Draenor Legendary Ring questline.  High Sage Viryx is the final boss at "..YELLOW.."[4]"..WHITE.."."
+Inst147Quest2_Prequest = "Call of the Archmage"
+Inst147Quest2_Folgequest = "Khadgar's Task"
+Inst147Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst147Quest3 = "3. Sky Dancers"
+Inst147Quest3_Level = "99"
+Inst147Quest3_Attain = "97"
+Inst147Quest3_Aim = "Collect a Bottled Windstorm from Skyreach."
+Inst147Quest3_Location = "Taoshi "..AQGARRISON
+Inst147Quest3_Note = "The Bottled Windstorm is on the platform with the third boss, Rukhran at "..YELLOW.."[3]"..WHITE..".  You can grab it off the pillar before you start the fight."
+Inst147Quest3_Prequest = "None"
+Inst147Quest3_Folgequest = "None"
+--
+Inst147Quest3name1 = "Trove of Smoldering Treasures"
+
+--Quest 4 Alliance
+Inst147Quest4 = "4. Aviana's Request"
+Inst147Quest4_Level = "100"
+Inst147Quest4_Attain = "100"
+Inst147Quest4_Aim = "Collect some Pristine Plumage in Skyreach."
+Inst147Quest4_Location = "Skylord Omnuron "..AQGARRISON
+Inst147Quest4_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering."
+Inst147Quest4_Prequest = "None"
+Inst147Quest4_Folgequest = "None"
+--
+Inst147Quest4name1 = "Aviana's Feather"
+
+--Quest 5 Alliance
+Inst147Quest5 = "5. A Plea to the Sky"
+Inst147Quest5_Level = "100"
+Inst147Quest5_Attain = "100"
+Inst147Quest5_Aim = "Collect some Pristine Plumage in Skyreach."
+Inst147Quest5_Location = "Skylord Omnuron "..AQGARRISON
+Inst147Quest5_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering."
+Inst147Quest5_Prequest = "None"
+Inst147Quest5_Folgequest = "None"
+--
+Inst147Quest5name1 = "Supply of Storied Rarities"
+
+--Quest 6 Alliance
+Inst147Quest6 = "6. Gloriously Incandescent"
+Inst147Quest6_Level = "100"
+Inst147Quest6_Attain = "100"
+Inst147Quest6_Aim = "Collect a Sun Crystal in Skyreach."
+Inst147Quest6_Location = "Sunwalker Dezco "..AQGARRISON
+Inst147Quest6_Note = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby."
+Inst147Quest6_Prequest = "None"
+Inst147Quest6_Folgequest = "None"
+--
+Inst147Quest6name1 = "Faintly-Sparkling Cache"
+
+--Quest 7 Alliance
+Inst147Quest7 = "7. The Dark Within"
+Inst147Quest7_Level = "100"
+Inst147Quest7_Attain = "100"
+Inst147Quest7_Aim = "Collect a Sun Crystal in Skyreach."
+Inst147Quest7_Location = "Sunwalker Dezco "..AQGARRISON
+Inst147Quest7_Note = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby."
+Inst147Quest7_Prequest = "None"
+Inst147Quest7_Folgequest = "None"
+--
+Inst147Quest7name1 = "Supply of Storied Rarities"
+
+--Quest 8 Alliance
+Inst147Quest8 = "8. A Worthy Challenge: High Sage Viryx"
+Inst147Quest8_Level = "100"
+Inst147Quest8_Attain = "100"
+Inst147Quest8_Aim = "Complete the Skyreach Challenge Mode."
+Inst147Quest8_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst147Quest8_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
+Inst147Quest8_Prequest = "None"
+Inst147Quest8_Folgequest = "None"
+--
+Inst147Quest8name1 = "Challenger's Strongbox"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst147Quest1_HORDE = Inst147Quest1
+Inst147Quest1_HORDE_Level = Inst147Quest1_Level
+Inst147Quest1_HORDE_Attain = Inst147Quest1_Attain
+Inst147Quest1_HORDE_Aim = Inst147Quest1_Aim
+Inst147Quest1_HORDE_Location = Inst147Quest1_Location
+Inst147Quest1_HORDE_Note = Inst147Quest1_Note
+Inst147Quest1_HORDE_Prequest = Inst147Quest1_Prequest
+Inst147Quest1_HORDE_Folgequest = Inst147Quest1_Folgequest
+Inst147Quest1PreQuest_HORDE = Inst147Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst147Quest2_HORDE = Inst147Quest2
+Inst147Quest2_HORDE_Level = Inst147Quest2_Level
+Inst147Quest2_HORDE_Attain = Inst147Quest2_Attain
+Inst147Quest2_HORDE_Aim = Inst147Quest2_Aim
+Inst147Quest2_HORDE_Location = Inst147Quest2_Location
+Inst147Quest2_HORDE_Note = Inst147Quest2_Note
+Inst147Quest2_HORDE_Prequest = Inst147Quest2_Prequest
+Inst147Quest2_HORDE_Folgequest = Inst147Quest2_Folgequest
+Inst147Quest2PreQuest_HORDE = Inst147Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst147Quest3_HORDE = Inst147Quest3
+Inst147Quest3_HORDE_Level = Inst147Quest3_Level
+Inst147Quest3_HORDE_Attain = Inst147Quest3_Attain
+Inst147Quest3_HORDE_Aim = Inst147Quest3_Aim
+Inst147Quest3_HORDE_Location = Inst147Quest3_Location
+Inst147Quest3_HORDE_Note = Inst147Quest3_Note
+Inst147Quest3_HORDE_Prequest = Inst147Quest3_Prequest
+Inst147Quest3_HORDE_Folgequest = Inst147Quest3_Folgequest
+--
+Inst147Quest3name1_HORDE = Inst147Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst147Quest4_HORDE = Inst147Quest4
+Inst147Quest4_HORDE_Level = Inst147Quest4_Level
+Inst147Quest4_HORDE_Attain = Inst147Quest4_Attain
+Inst147Quest4_HORDE_Aim = Inst147Quest4_Aim
+Inst147Quest4_HORDE_Location = Inst147Quest4_Location
+Inst147Quest4_HORDE_Note = Inst147Quest4_Note
+Inst147Quest4_HORDE_Prequest = Inst147Quest4_Prequest
+Inst147Quest4_HORDE_Folgequest = Inst147Quest4_Folgequest
+--
+Inst147Quest4name1_HORDE = Inst147Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst147Quest5_HORDE = Inst147Quest5
+Inst147Quest5_HORDE_Level = Inst147Quest5_Level
+Inst147Quest5_HORDE_Attain = Inst147Quest5_Attain
+Inst147Quest5_HORDE_Aim = Inst147Quest5_Aim
+Inst147Quest5_HORDE_Location = Inst147Quest5_Location
+Inst147Quest5_HORDE_Note = Inst147Quest5_Note
+Inst147Quest5_HORDE_Prequest = Inst147Quest5_Prequest
+Inst147Quest5_HORDE_Folgequest = Inst147Quest5_Folgequest
+--
+Inst147Quest5name1_HORDE = Inst147Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst147Quest6_HORDE = Inst147Quest6
+Inst147Quest6_HORDE_Level = Inst147Quest6_Level
+Inst147Quest6_HORDE_Attain = Inst147Quest6_Attain
+Inst147Quest6_HORDE_Aim = Inst147Quest6_Aim
+Inst147Quest6_HORDE_Location = Inst147Quest6_Location
+Inst147Quest6_HORDE_Note = Inst147Quest6_Note
+Inst147Quest6_HORDE_Prequest = Inst147Quest6_Prequest
+Inst147Quest6_HORDE_Folgequest = Inst147Quest6_Folgequest
+--
+Inst147Quest6name1_HORDE = Inst147Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst147Quest7_HORDE = Inst147Quest7
+Inst147Quest7_HORDE_Level = Inst147Quest7_Level
+Inst147Quest7_HORDE_Attain = Inst147Quest7_Attain
+Inst147Quest7_HORDE_Aim = Inst147Quest7_Aim
+Inst147Quest7_HORDE_Location = Inst147Quest7_Location
+Inst147Quest7_HORDE_Note = Inst147Quest7_Note
+Inst147Quest7_HORDE_Prequest = Inst147Quest7_Prequest
+Inst147Quest7_HORDE_Folgequest = Inst147Quest7_Folgequest
+--
+Inst147Quest7name1_HORDE = Inst147Quest7name1
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst147Quest8_HORDE = Inst147Quest8
+Inst147Quest8_HORDE_Level = Inst147Quest8_Level
+Inst147Quest8_HORDE_Attain = Inst147Quest8_Attain
+Inst147Quest8_HORDE_Aim = Inst147Quest8_Aim
+Inst147Quest8_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst147Quest8_HORDE_Note = Inst147Quest8_Note
+Inst147Quest8_HORDE_Prequest = Inst147Quest8_Prequest
+Inst147Quest8_HORDE_Folgequest = Inst147Quest8_Folgequest
+--
+Inst147Quest8name1_HORDE = Inst147Quest8name1
 
 
 
