@@ -18,7 +18,14 @@ Version 4.9.1 BETA  (December ??, 2014)
 	- Auchindoun: The Cure For Death
 	- Auchindoun: Vessel of Virtue
 	- Auchindoun: A Worthy Challenge: Teron'gor
-	
+	- Skyreach: Victory is Within Reach
+	- Skyreach: Spires of the Betrayer
+	- Skyreach: Sky Dancers
+	- Skyreach: Aviana's Request
+	- Skyreach: A Plea to the Sky
+	- Skyreach: Gloriously Incandescent
+	- Skyreach: The Dark Within
+	- Skyreach: A Worthy Challenge: High Sage Viryx
 
 
 
