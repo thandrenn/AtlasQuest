@@ -12837,8 +12837,8 @@ Inst145Quest6FQuest_HORDE = Inst145Quest6FQuest
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Caption = "Auchindoun"
-Inst146QAA = "6 Quests"
-Inst146QAH = "6 Quests"
+Inst146QAA = "7 Quests"
+Inst146QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst146Quest1 = "1. Go Fetch"
@@ -12901,16 +12901,28 @@ Inst146Quest5_Folgequest = "None"
 Inst146Quest5name1 = "Supply of Storied Rarities"
 
 --Quest 6 Alliance
-Inst146Quest6 = "6. A Worthy Challenge: Teron'gor"
+Inst146Quest6 = "6. Tackling Teron'gor"
 Inst146Quest6_Level = "100"
-Inst146Quest6_Attain = "100"
-Inst146Quest6_Aim = "Complete the Auchindoun Challenge Mode."
-Inst146Quest6_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
-Inst146Quest6_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
-Inst146Quest6_Prequest = "None"
-Inst146Quest6_Folgequest = "None"
+Inst146Quest6_Attain = "98"
+Inst146Quest6_Aim = "Obtain Corrupted Blood of Teron'gor from Teron'gor in Auchindoun [Heroic only]."
+Inst146Quest6_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst146Quest6_Note = "Part of the Draenor Legendary Ring questline.  Requires Heroic Difficulty.\n\nTeron'gor is the final boss, at "..YELLOW.."[4]"..WHITE.."."
+Inst146Quest6_Prequest = "Call of the Archmage -> Core of Flame/Iron/Life"
+Inst146Quest6_Folgequest = "Eyes of the Archmage"
+Inst146Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst146Quest7 = "7. A Worthy Challenge: Teron'gor"
+Inst146Quest7_Level = "100"
+Inst146Quest7_Attain = "100"
+Inst146Quest7_Aim = "Complete the Auchindoun Challenge Mode."
+Inst146Quest7_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst146Quest7_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
+Inst146Quest7_Prequest = "None"
+Inst146Quest7_Folgequest = "None"
 --
-Inst146Quest6name1 = "Challenger's Strongbox"
+Inst146Quest7name1 = "Challenger's Strongbox"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12926,8 +12938,6 @@ Inst146Quest1PreQuest_HORDE = Inst146Quest1PreQuest
 Inst146Quest1FQuest_HORDE = Inst146Quest1FQuest
 --
 Inst146Quest1name1_HORDE = Inst146Quest1name1
--- No Rewards for this quest
--- Reward varies for each class
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst146Quest2_HORDE = Inst146Quest2
@@ -12982,12 +12992,24 @@ Inst146Quest6_HORDE = Inst146Quest6
 Inst146Quest6_HORDE_Level = Inst146Quest6_Level
 Inst146Quest6_HORDE_Attain = Inst146Quest6_Attain
 Inst146Quest6_HORDE_Aim = Inst146Quest6_Aim
-Inst146Quest6_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst146Quest6_HORDE_Location = Inst146Quest6_Location
 Inst146Quest6_HORDE_Note = Inst146Quest6_Note
 Inst146Quest6_HORDE_Prequest = Inst146Quest6_Prequest
 Inst146Quest6_HORDE_Folgequest = Inst146Quest6_Folgequest
+Inst146Quest6PreQuest_HORDE = Inst146Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst146Quest7_HORDE = Inst146Quest7
+Inst146Quest7_HORDE_Level = Inst146Quest7_Level
+Inst146Quest7_HORDE_Attain = Inst146Quest7_Attain
+Inst146Quest7_HORDE_Aim = Inst146Quest7_Aim
+Inst146Quest7_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst146Quest7_HORDE_Note = Inst146Quest7_Note
+Inst146Quest7_HORDE_Prequest = Inst146Quest7_Prequest
+Inst146Quest7_HORDE_Folgequest = Inst146Quest7_Folgequest
 --
-Inst146Quest6name1_HORDE = Inst146Quest6name1
+Inst146Quest7name1_HORDE = Inst146Quest7name1
 
 
 
@@ -13196,8 +13218,177 @@ Inst147Quest8name1_HORDE = Inst147Quest8name1
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 
 Inst148Caption = "Bloodmaul Slag Mines"
-Inst148QAA = "No Quests"
-Inst148QAH = "No Quests"
+Inst148QAA = "7 Quests"
+Inst148QAH = "7 Quests"
+
+--Quest 1 Alliance
+Inst148Quest1 = "1. Ogre Ancestry"
+Inst148Quest1_Level = "92"
+Inst148Quest1_Attain = "90"
+Inst148Quest1_Aim = "Collect an Ogre Family Tree from the Bloodmaul Slag Mines."
+Inst148Quest1_Location = "Lunk "..AQGARRISON
+Inst148Quest1_Note = "If you're heading down the path to Slave Watcher Crushto at "..YELLOW.."[2]"..WHITE..", the Ogre Family Tree is in a small alcove to the left before you turn into the boss' room."
+Inst148Quest1_Prequest = "None"
+Inst148Quest1_Folgequest = "None"
+--
+Inst148Quest1name1 = "Cache of Mingled Treasures"
+
+--Quest 2 Alliance
+Inst148Quest2 = "2. Cro's Revenge"
+Inst148Quest2_Level = "100"
+Inst148Quest2_Attain = "100"
+Inst148Quest2_Aim = "Collect a Giant Ogre Head from the Bloodmaul Slag Mines."
+Inst148Quest2_Location = "Cro Threadstrong "..AQGARRISON
+Inst148Quest2_Note = "Requires Heroic Difficulty.  The Giant Ogre Head will drop from the Bloodmaul Ogres."
+Inst148Quest2_Prequest = "None"
+Inst148Quest2_Folgequest = "None"
+--
+Inst148Quest2name1 = "Fruit Basket"
+
+--Quest 3 Alliance
+Inst148Quest3 = "3. A Fruitful Proposition"
+Inst148Quest3_Level = "100"
+Inst148Quest3_Attain = "100"
+Inst148Quest3_Aim = "Collect a Giant Ogre Head from the Bloodmaul Slag Mines."
+Inst148Quest3_Location = "Cro Threadstrong "..AQGARRISON
+Inst148Quest3_Note = "Requires Heroic Difficulty.  The Giant Ogre Head will drop from the Bloodmaul Ogres."
+Inst148Quest3_Prequest = "None"
+Inst148Quest3_Folgequest = "None"
+--
+Inst148Quest3name1 = "Supply of Storied Rarities"
+
+--Quest 4 Alliance
+Inst148Quest4 = "4. Time-Lost Vikings"
+Inst148Quest4_Level = "100"
+Inst148Quest4_Attain = "100"
+Inst148Quest4_Aim = "Collect Olaf's Shield from the Bloodmaul Slag Mines."
+Inst148Quest4_Location = "Olaf "..AQGARRISON
+Inst148Quest4_Note = "Requires Heroic Difficulty.  If heading down the left side towards Magmolatus "..YELLOW.."[1]"..WHITE..",  The shield will be on a shelf opposite the entrance to the tunnel."
+Inst148Quest4_Prequest = "None"
+Inst148Quest4_Folgequest = "None"
+--
+Inst148Quest4name1 = "Sack of Mined Ore"
+
+--Quest 5 Alliance
+Inst148Quest5 = "5. Like A Dwarf In A Mine"
+Inst148Quest5_Level = "100"
+Inst148Quest5_Attain = "100"
+Inst148Quest5_Aim = "Collect Olaf's Shield from the Bloodmaul Slag Mines."
+Inst148Quest5_Location = "Olaf "..AQGARRISON
+Inst148Quest5_Note = "Requires Heroic Difficulty.  If heading down the left side towards Magmolatus "..YELLOW.."[1]"..WHITE..",  The shield will be on a shelf opposite the entrance to the tunnel."
+Inst148Quest5_Prequest = "None"
+Inst148Quest5_Folgequest = "None"
+--
+Inst148Quest5name1 = "Supply of Storied Rarities"
+
+--Quest 6 Alliance
+Inst148Quest6 = "6. Core of Flame"
+Inst148Quest6_Level = "100"
+Inst148Quest6_Attain = "98"
+Inst148Quest6_Aim = "Acquire a Core of Flame from Gug'rokk in the Bloodmaul Slag Mines [Heroic only.]"
+Inst148Quest6_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst148Quest6_Note = "Part of the Draenor Legendary Ring questline.  Requires Heroic Difficulty.\n\nGug'rokk is the final boss, at "..YELLOW.."[4]"..WHITE.."."
+Inst148Quest6_Prequest = "Call of the Archmage -> Khadgar's Task"
+Inst148Quest6_Folgequest = "Tackling Teron'gor"
+Inst148Quest6PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst148Quest7 = "7. A Worthy Challenge: Gug'rokk"
+Inst148Quest7_Level = "100"
+Inst148Quest7_Attain = "100"
+Inst148Quest7_Aim = "Complete the Bloodmaul Slag Mines Challenge Mode."
+Inst148Quest7_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst148Quest7_Note =  "You only need to complete the challenge mode.  How long you take does not matter for the quest."
+Inst148Quest7_Prequest = "None"
+Inst148Quest7_Folgequest = "None"
+--
+Inst148Quest7name1 = "Challenger's Strongbox"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst148Quest1_HORDE = Inst148Quest1
+Inst148Quest1_HORDE_Level = Inst148Quest1_Level
+Inst148Quest1_HORDE_Attain = Inst148Quest1_Attain
+Inst148Quest1_HORDE_Aim = Inst148Quest1_Aim
+Inst148Quest1_HORDE_Location = Inst148Quest1_Location
+Inst148Quest1_HORDE_Note = Inst148Quest1_Note
+Inst148Quest1_HORDE_Prequest = Inst148Quest1_Prequest
+Inst148Quest1_HORDE_Folgequest = Inst148Quest1_Folgequest
+--
+Inst148Quest1name1_HORDE = Inst148Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst148Quest2_HORDE = Inst148Quest2
+Inst148Quest2_HORDE_Level = Inst148Quest2_Level
+Inst148Quest2_HORDE_Attain = Inst148Quest2_Attain
+Inst148Quest2_HORDE_Aim = Inst148Quest2_Aim
+Inst148Quest2_HORDE_Location = Inst148Quest2_Location
+Inst148Quest2_HORDE_Note = Inst148Quest2_Note
+Inst148Quest2_HORDE_Prequest = Inst148Quest2_Prequest
+Inst148Quest2_HORDE_Folgequest = Inst148Quest2_Folgequest
+--
+Inst148Quest2name1_HORDE = Inst148Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst148Quest3_HORDE = Inst148Quest3
+Inst148Quest3_HORDE_Level = Inst148Quest3_Level
+Inst148Quest3_HORDE_Attain = Inst148Quest3_Attain
+Inst148Quest3_HORDE_Aim = Inst148Quest3_Aim
+Inst148Quest3_HORDE_Location = Inst148Quest3_Location
+Inst148Quest3_HORDE_Note = Inst148Quest3_Note
+Inst148Quest3_HORDE_Prequest = Inst148Quest3_Prequest
+Inst148Quest3_HORDE_Folgequest = Inst148Quest3_Folgequest
+--
+Inst148Quest3name1_HORDE = Inst148Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst148Quest4_HORDE = Inst148Quest4
+Inst148Quest4_HORDE_Level = Inst148Quest4_Level
+Inst148Quest4_HORDE_Attain = Inst148Quest4_Attain
+Inst148Quest4_HORDE_Aim = Inst148Quest4_Aim
+Inst148Quest4_HORDE_Location = Inst148Quest4_Location
+Inst148Quest4_HORDE_Note = Inst148Quest4_Note
+Inst148Quest4_HORDE_Prequest = Inst148Quest4_Prequest
+Inst148Quest4_HORDE_Folgequest = Inst148Quest4_Folgequest
+--
+Inst148Quest4name1_HORDE = Inst148Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst148Quest5_HORDE = Inst148Quest5
+Inst148Quest5_HORDE_Level = Inst148Quest5_Level
+Inst148Quest5_HORDE_Attain = Inst148Quest5_Attain
+Inst148Quest5_HORDE_Aim = Inst148Quest5_Aim
+Inst148Quest5_HORDE_Location = Inst148Quest5_Location
+Inst148Quest5_HORDE_Note = Inst148Quest5_Note
+Inst148Quest5_HORDE_Prequest = Inst148Quest5_Prequest
+Inst148Quest5_HORDE_Folgequest = Inst148Quest5_Folgequest
+--
+Inst148Quest5name1_HORDE = Inst148Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst148Quest6_HORDE = Inst148Quest6
+Inst148Quest6_HORDE_Level = Inst148Quest6_Level
+Inst148Quest6_HORDE_Attain = Inst148Quest6_Attain
+Inst148Quest6_HORDE_Aim = Inst148Quest6_Aim
+Inst148Quest6_HORDE_Location = Inst148Quest6_Location
+Inst148Quest6_HORDE_Note = Inst148Quest6_Note
+Inst148Quest6_HORDE_Prequest = Inst148Quest6_Prequest
+Inst148Quest6_HORDE_Folgequest = Inst148Quest6_Folgequest
+Inst148Quest6PreQuest_HORDE = Inst148Quest6PreQuest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst148Quest7_HORDE = Inst148Quest7
+Inst148Quest7_HORDE_Level = Inst148Quest7_Level
+Inst148Quest7_HORDE_Attain = Inst148Quest7_Attain
+Inst148Quest7_HORDE_Aim = Inst148Quest7_Aim
+Inst148Quest7_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst148Quest7_HORDE_Note = Inst148Quest7_Note
+Inst148Quest7_HORDE_Prequest = Inst148Quest7_Prequest
+Inst148Quest7_HORDE_Folgequest = Inst148Quest7_Folgequest
+--
+Inst148Quest7name1_HORDE = Inst148Quest7name1
 
 
 

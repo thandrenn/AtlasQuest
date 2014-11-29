@@ -17,6 +17,7 @@ Version 4.9.1 BETA  (December ??, 2014)
 	- Auchindoun: Soulcarver Voss
 	- Auchindoun: The Cure For Death
 	- Auchindoun: Vessel of Virtue
+	- Auchindoun: Tackling Teron'gor
 	- Auchindoun: A Worthy Challenge: Teron'gor
 	- Skyreach: Victory is Within Reach
 	- Skyreach: Spires of the Betrayer
@@ -26,6 +27,13 @@ Version 4.9.1 BETA  (December ??, 2014)
 	- Skyreach: Gloriously Incandescent
 	- Skyreach: The Dark Within
 	- Skyreach: A Worthy Challenge: High Sage Viryx
+	- Bloodmaul Slag Mines: Ogre Ancestry
+	- Bloodmaul Slag Mines: Cro's Revenge
+	- Bloodmaul Slag Mines: A Fruitful Proposition
+	- Bloodmaul Slag Mines: Time-Lost Vikings
+	- Bloodmaul Slag Mines: Like A Dwarf In A Mine
+	- Bloodmaul Slag Mines: Core of Flame
+	- Bloodmaul Slag Mines: A Worthy Challenge: Gug'rokk
 
 
 

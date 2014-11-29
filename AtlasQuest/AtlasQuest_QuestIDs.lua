@@ -2381,14 +2381,16 @@ Inst146Quest2_QuestID = "37156"
 Inst146Quest3_QuestID = "37232"
 Inst146Quest4_QuestID = "37154"
 Inst146Quest5_QuestID = "37233"
-Inst146Quest6_QuestID = "37271"
+Inst146Quest6_QuestID = "35993"
+Inst146Quest7_QuestID = "37271"
 
 Inst146Quest1_HORDE_QuestID = "37146"
 Inst146Quest2_HORDE_QuestID = "37156"
 Inst146Quest3_HORDE_QuestID = "37232"
 Inst146Quest4_HORDE_QuestID = "37154"
 Inst146Quest5_HORDE_QuestID = "37233"
-Inst146Quest6_HORDE_QuestID = "37259"
+Inst146Quest6_HORDE_QuestID = "35993"
+Inst146Quest7_HORDE_QuestID = "37259"
 
 
 AQ_37146_Level = "96"
@@ -2396,6 +2398,7 @@ AQ_37156_Level = "100"
 AQ_37232_Level = "100"
 AQ_37154_Level = "100"
 AQ_37233_Level = "100"
+AQ_35993_Level = "100"
 AQ_37271_Level = "100"
 AQ_37259_Level = "100"
 
@@ -2435,6 +2438,33 @@ AQ_37264_Level = "100"
 
 
 --------------- INST148 - Bloodmaul Slag Mines ---------------
+
+Inst148Quest1_QuestID = "37142"
+Inst148Quest2_QuestID = "37152"
+Inst148Quest3_QuestID = "37228"
+Inst148Quest4_QuestID = "37153"
+Inst148Quest5_QuestID = "37229"
+Inst148Quest6_QuestID = "35990"
+Inst148Quest7_QuestID = "37272"
+
+Inst148Quest1_HORDE_QuestID = "37142"
+Inst148Quest2_HORDE_QuestID = "37152"
+Inst148Quest3_HORDE_QuestID = "37228"
+Inst148Quest4_HORDE_QuestID = "37153"
+Inst148Quest5_HORDE_QuestID = "37229"
+Inst148Quest6_HORDE_QuestID = "35990"
+Inst148Quest7_HORDE_QuestID = "37260"
+
+
+AQ_37142_Level = "92"
+AQ_37152_Level = "100"
+AQ_37228_Level = "100"
+AQ_37153_Level = "100"
+AQ_37229_Level = "100"
+AQ_35990_Level = "100"
+AQ_37272_Level = "100"
+AQ_37260_Level = "100"
+
 
 
 --------------- INST149 - Iron Docks ---------------
