@@ -2469,6 +2469,30 @@ AQ_37260_Level = "100"
 
 --------------- INST149 - Iron Docks ---------------
 
+Inst149Quest1_QuestID = "37145"
+Inst149Quest2_QuestID = "37157"
+Inst149Quest3_QuestID = "37230"
+Inst149Quest4_QuestID = "37155"
+Inst149Quest5_QuestID = "37231"
+Inst149Quest6_QuestID = "37274"
+
+Inst149Quest1_HORDE_QuestID = "37145"
+Inst149Quest2_HORDE_QuestID = "37157"
+Inst149Quest3_HORDE_QuestID = "37230"
+Inst149Quest4_HORDE_QuestID = "37155"
+Inst149Quest5_HORDE_QuestID = "37231"
+Inst149Quest6_HORDE_QuestID = "37262"
+
+
+AQ_37145_Level = "94"
+AQ_37157_Level = "100"
+AQ_37230_Level = "100"
+AQ_37155_Level = "100"
+AQ_37231_Level = "100"
+AQ_37274_Level = "100"
+AQ_37262_Level = "100"
+
+
 
 --------------- INST150 - The Everbloom ---------------
 

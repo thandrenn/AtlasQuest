@@ -34,6 +34,13 @@ Version 4.9.1 BETA  (December ??, 2014)
 	- Bloodmaul Slag Mines: Like A Dwarf In A Mine
 	- Bloodmaul Slag Mines: Core of Flame
 	- Bloodmaul Slag Mines: A Worthy Challenge: Gug'rokk
+	- Iron Docks: Budd's Gambit
+	- Iron Docks: Feeling A Bit Morose
+	- Iron Docks: Bloody Expensive
+	- Iron Docks: The Brass Compass
+	- Iron Docks: The Search Continues
+	- Iron Docks: A Worthy Challenge: Skullok, Son of Gruul
+	
 
 
 
