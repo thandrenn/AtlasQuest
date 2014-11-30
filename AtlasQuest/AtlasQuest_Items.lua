@@ -366,7 +366,7 @@ Inst5Quest11description2 = AQITEM_HEAD..AQITEM_MAIL
 Inst5Quest11ID2 = "65622"
 
 --Quest 12 Alliance
-Inst5Quest12Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest12Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst5Quest12ITC1 = Itemc4;
 Inst5Quest12description1 = AQITEM_HEAD..AQITEM_CLOTH
@@ -384,28 +384,28 @@ Inst5Quest13description2 = AQITEM_HEAD..AQITEM_LEATHER
 Inst5Quest13ID2 = "65638"
 
 --Quest 14 Alliance
-Inst5Quest14Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest14Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst5Quest14ITC1 = Itemc4;
 Inst5Quest14description1 = AQITEM_HEAD..AQITEM_LEATHER
 Inst5Quest14ID1 = "65624"
 
 --Quest 15 Alliance
-Inst5Quest15Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest15Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst5Quest15ITC1 = Itemc4;
 Inst5Quest15description1 = AQITEM_HEAD..AQITEM_MAIL
 Inst5Quest15ID1 = "65619"
 
 --Quest 16 Alliance
-Inst5Quest16Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest16Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst5Quest16ITC1 = Itemc4;
 Inst5Quest16description1 = AQITEM_HEAD..AQITEM_CLOTH
 Inst5Quest16ID1 = "65620"
 
 --Quest 17 Alliance
-Inst5Quest17Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest17Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst5Quest17ITC1 = Itemc4;
 Inst5Quest17description1 = AQITEM_HEAD..AQITEM_CLOTH
@@ -502,7 +502,7 @@ Inst5Quest11description2_HORDE = AQITEM_HEAD..AQITEM_MAIL
 Inst5Quest11ID2_HORDE = "65630"
 
 --Quest 12 Horde
-Inst5Quest12Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest12Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst5Quest12ITC1_HORDE = Itemc4;
 Inst5Quest12description1_HORDE = AQITEM_HEAD..AQITEM_CLOTH
@@ -520,28 +520,28 @@ Inst5Quest13description2_HORDE = AQITEM_HEAD..AQITEM_LEATHER
 Inst5Quest13ID2_HORDE = "65638"
 
 --Quest 14 Horde
-Inst5Quest14Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest14Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst5Quest14ITC1_HORDE = Itemc4;
 Inst5Quest14description1_HORDE = AQITEM_HEAD..AQITEM_LEATHER
 Inst5Quest14ID1_HORDE = "65629"
 
 --Quest 15 Horde
-Inst5Quest15Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest15Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst5Quest15ITC1_HORDE = Itemc4;
 Inst5Quest15description1_HORDE = AQITEM_HEAD..AQITEM_MAIL
 Inst5Quest15ID1_HORDE = "65628"
 
 --Quest 16 Horde
-Inst5Quest16Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest16Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst5Quest16ITC1_HORDE = Itemc4;
 Inst5Quest16description1_HORDE = AQITEM_HEAD..AQITEM_CLOTH
 Inst5Quest16ID1_HORDE = "65626"
 
 --Quest 17 Horde
-Inst5Quest17Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst5Quest17Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst5Quest17ITC1_HORDE = Itemc4;
 Inst5Quest17description1_HORDE = AQITEM_HEAD..AQITEM_CLOTH
@@ -891,7 +891,7 @@ Inst11Quest2ID4 = "65997"
 Inst11Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst11Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst11Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst11Quest4ITC1 = Itemc3;
 Inst11Quest4description1 = AQITEM_ITEM
@@ -954,7 +954,7 @@ Inst11Quest2ID4_HORDE = "66043"
 Inst11Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst11Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst11Quest4Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst11Quest4ITC1_HORDE = Itemc3;
 Inst11Quest4description1_HORDE = AQITEM_ITEM
@@ -1029,63 +1029,63 @@ Inst12Quest6description4 = AQITEM_ONEHAND..AQITEM_MACE
 Inst12Quest6ID4 = "65949"
 
 --Quest 7 Alliance
-Inst12Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest7ITC1 = Itemc4;
 Inst12Quest7description1 = AQITEM_TRINKET
 Inst12Quest7ID1 = "18470"
 
 --Quest 8 Alliance
-Inst12Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest8Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest8ITC1 = Itemc4;
 Inst12Quest8description1 = AQITEM_TRINKET
 Inst12Quest8ID1 = "18473"
 
 --Quest 9 Alliance
-Inst12Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest9Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest9ITC1 = Itemc4;
 Inst12Quest9description1 = AQITEM_TRINKET
 Inst12Quest9ID1 = "18468"
 
 --Quest 10 Alliance
-Inst12Quest10Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest10Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest10ITC1 = Itemc4;
 Inst12Quest10description1 = AQITEM_TRINKET
 Inst12Quest10ID1 = "18472"
 
 --Quest 11 Alliance
-Inst12Quest11Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest11Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest11ITC1 = Itemc4;
 Inst12Quest11description1 = AQITEM_TRINKET
 Inst12Quest11ID1 = "18469"
 
 --Quest 12 Alliance
-Inst12Quest12Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest12Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest12ITC1 = Itemc4;
 Inst12Quest12description1 = AQITEM_TRINKET
 Inst12Quest12ID1 = "18465"
 
 --Quest 13 Alliance
-Inst12Quest13Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest13Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest13ITC1 = Itemc4;
 Inst12Quest13description1 = AQITEM_TRINKET
 Inst12Quest13ID1 = "18471"
 
 --Quest 14 Alliance
-Inst12Quest14Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest14Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest14ITC1 = Itemc4;
 Inst12Quest14description1 = AQITEM_TRINKET
 Inst12Quest14ID1 = "18467"
 
 --Quest 15 Alliance
-Inst12Quest15Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest15Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst12Quest15ITC1 = Itemc4;
 Inst12Quest15description1 = AQITEM_TRINKET
@@ -1127,63 +1127,63 @@ Inst12Quest6description4_HORDE = AQITEM_ONEHAND..AQITEM_MACE
 Inst12Quest6ID4_HORDE = "65949"
 
 --Quest 7 Horde
-Inst12Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest7ITC1_HORDE = Itemc4;
 Inst12Quest7description1_HORDE = AQITEM_TRINKET
 Inst12Quest7ID1_HORDE = "18470"
 
 --Quest 8 Horde
-Inst12Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest8Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest8ITC1_HORDE = Itemc4;
 Inst12Quest8description1_HORDE = AQITEM_TRINKET
 Inst12Quest8ID1_HORDE = "18473"
 
 --Quest 9 Horde
-Inst12Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest9Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest9ITC1_HORDE = Itemc4;
 Inst12Quest9description1_HORDE = AQITEM_TRINKET
 Inst12Quest9ID1_HORDE = "18468"
 
 --Quest 10 Horde
-Inst12Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest10Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest10ITC1_HORDE = Itemc4;
 Inst12Quest10description1_HORDE = AQITEM_TRINKET
 Inst12Quest10ID1_HORDE = "18472"
 
 --Quest 11 Horde
-Inst12Quest11Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest11Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest11ITC1_HORDE = Itemc4;
 Inst12Quest11description1_HORDE = AQITEM_TRINKET
 Inst12Quest11ID1_HORDE = "18469"
 
 --Quest 12 Horde
-Inst12Quest12Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest12Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest12ITC1_HORDE = Itemc4;
 Inst12Quest12description1_HORDE = AQITEM_TRINKET
 Inst12Quest12ID1_HORDE = "18465"
 
 --Quest 13 Horde
-Inst12Quest13Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest13Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest13ITC1_HORDE = Itemc4;
 Inst12Quest13description1_HORDE = AQITEM_TRINKET
 Inst12Quest13ID1_HORDE = "18471"
 
 --Quest 14 Horde
-Inst12Quest14Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest14Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest14ITC1_HORDE = Itemc4;
 Inst12Quest14description1_HORDE = AQITEM_TRINKET
 Inst12Quest14ID1_HORDE = "18467"
 
 --Quest 15 Horde
-Inst12Quest15Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst12Quest15Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst12Quest15ITC1_HORDE = Itemc4;
 Inst12Quest15description1_HORDE = AQITEM_TRINKET
@@ -1260,7 +1260,7 @@ Inst13Quest3ID5_HORDE = "65919"
 Inst14Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst14Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst14Quest2Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst14Quest2ITC1 = Itemc5;
 Inst14Quest2description1 = AQITEM_PATTERN
@@ -1271,7 +1271,7 @@ Inst14Quest2ID1 = "18592"
 Inst14Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
-Inst14Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst14Quest2Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst14Quest2ITC1_HORDE = Itemc5;
 Inst14Quest2description1_HORDE = AQITEM_PATTERN
@@ -1591,14 +1591,14 @@ Inst21Quest5description2 = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest5ID2 = "65462"
 
 --Quest 6 Alliance
-Inst21Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest6Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst21Quest6ITC1 = Itemc4;
 Inst21Quest6description1 = AQITEM_CROSSBOW
 Inst21Quest6ID1 = "65465"
 
 --Quest 7 Alliance
-Inst21Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst21Quest7ITC1 = Itemc4;
 Inst21Quest7description1 = AQITEM_TWOHAND..AQITEM_STAFF
@@ -1620,28 +1620,28 @@ Inst21Quest8description3 = AQITEM_TWOHAND..AQITEM_MACE
 Inst21Quest8ID3 = "65477"
 
 --Quest 9 Alliance
-Inst21Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest9Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst21Quest9ITC1 = Itemc4;
 Inst21Quest9description1 = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest9ID1 = "65482"
 
 --Quest 10 Alliance
-Inst21Quest10Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest10Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst21Quest10ITC1 = Itemc4;
 Inst21Quest10description1 = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest10ID1 = "65483"
 
 --Quest 11 Alliance
-Inst21Quest11Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest11Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst21Quest11ITC1 = Itemc4;
 Inst21Quest11description1 = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest11ID1 = "65480"
 
 --Quest 12 Alliance
-Inst21Quest12Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest12Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst21Quest12ITC1 = Itemc4;
 Inst21Quest12description1 = AQITEM_ONEHAND..AQITEM_DAGGER
@@ -1659,7 +1659,7 @@ Inst21Quest13description2 = AQITEM_ONEHAND..AQITEM_AXE
 Inst21Quest13ID2 = "65489"
 
 --Quest 14 Alliance
-Inst21Quest14Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest14Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst21Quest14ITC1 = Itemc4;
 Inst21Quest14description1 = AQITEM_TWOHAND..AQITEM_STAFF
@@ -1724,14 +1724,14 @@ Inst21Quest5description2_HORDE = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest5ID2_HORDE = "65464"
 
 --Quest 6 Horde
-Inst21Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest6Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest6ITC1_HORDE = Itemc4;
 Inst21Quest6description1_HORDE = AQITEM_CROSSBOW
 Inst21Quest6ID1_HORDE = "65466"
 
 --Quest 7 Horde
-Inst21Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest7ITC1_HORDE = Itemc4;
 Inst21Quest7description1_HORDE = AQITEM_TWOHAND..AQITEM_STAFF
@@ -1768,42 +1768,42 @@ Inst21Quest9description3_HORDE = AQITEM_TWOHAND..AQITEM_MACE
 Inst21Quest9ID3_HORDE = "65471"
 
 --Quest 10 Horde
-Inst21Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest10Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest10ITC1_HORDE = Itemc4;
 Inst21Quest10description1_HORDE = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest10ID1_HORDE = "65481"
 
 --Quest 11 Horde
-Inst21Quest11Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest11Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest11ITC1_HORDE = Itemc4;
 Inst21Quest11description1_HORDE = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest11ID1_HORDE = "65485"
 
 --Quest 12 Horde
-Inst21Quest12Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest12Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest12ITC1_HORDE = Itemc4;
 Inst21Quest12description1_HORDE = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest12ID1_HORDE = "65484"
 
 --Quest 13 Horde
-Inst21Quest13Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest13Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest13ITC1_HORDE = Itemc4;
 Inst21Quest13description1_HORDE = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest13ID1_HORDE = "65478"
 
 --Quest 14 Horde
-Inst21Quest14Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest14Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest14ITC1_HORDE = Itemc4;
 Inst21Quest14description1_HORDE = AQITEM_TWOHAND..AQITEM_STAFF
 Inst21Quest14ID1_HORDE = "65479"
 
 --Quest 15 Horde
-Inst21Quest15Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest15Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest15ITC1_HORDE = Itemc4;
 Inst21Quest15description1_HORDE = AQITEM_ONEHAND..AQITEM_DAGGER
@@ -1821,7 +1821,7 @@ Inst21Quest16description2_HORDE = AQITEM_ONEHAND..AQITEM_AXE
 Inst21Quest16ID2_HORDE = "65491"
 
 --Quest 17 Horde
-Inst21Quest17Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst21Quest17Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst21Quest17ITC1_HORDE = Itemc4;
 Inst21Quest17description1_HORDE = AQITEM_TWOHAND..AQITEM_STAFF
@@ -2042,7 +2042,7 @@ Inst25Quest2Rewardtext = AQNoReward
 Inst25Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst25Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst25Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst25Quest4ITC1 = Itemc4;
 Inst25Quest4description1 = AQITEM_TRINKET
@@ -2059,7 +2059,7 @@ Inst25Quest2Rewardtext_HORDE = AQNoReward
 Inst25Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst25Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst25Quest4Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst25Quest4ITC1_HORDE = Itemc4;
 Inst25Quest4description1_HORDE = AQITEM_TRINKET
@@ -2252,14 +2252,14 @@ Inst29Quest5ID5 = "65913"
 Inst29Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst29Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst29Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst29Quest7ITC1 = Itemc3;
 Inst29Quest7description1 = AQITEM_RING
 Inst29Quest7ID1 = "9362"
 
 --Quest 8 Alliance
-Inst29Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst29Quest8Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst29Quest8ITC1 = Itemc2;
 Inst29Quest8description1 = AQITEM_ITEM
@@ -2270,14 +2270,14 @@ Inst29Quest8ID1 = "9363"
 Inst29Quest1Rewardtext_HORDE = AQNoReward
 
 --Quest 2 Horde
-Inst29Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst29Quest2Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst29Quest2ITC1_HORDE = Itemc3;
 Inst29Quest2description1_HORDE = AQITEM_RING
 Inst29Quest2ID1_HORDE = "9362"
 
 --Quest 3 Horde
-Inst29Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst29Quest3Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst29Quest3ITC1_HORDE = Itemc2;
 Inst29Quest3description1_HORDE = AQITEM_ITEM
@@ -2500,7 +2500,7 @@ Inst39Quest7Rewardtext = AQNoReward
 Inst39Quest8Rewardtext = AQNoReward
 
 --Quest 9 Alliance
-Inst39Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst39Quest9Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst39Quest9ITC1 = Itemc3;
 Inst39Quest9description1 = AQITEM_ITEM
@@ -2570,7 +2570,7 @@ Inst39Quest7Rewardtext_HORDE = AQNoReward
 Inst39Quest8Rewardtext_HORDE = AQNoReward
 
 --Quest 9 Horde
-Inst39Quest9Rewardtext_HORDE  = AQDiscription_REWARD..WHITE.."1"
+Inst39Quest9Rewardtext_HORDE  = AQDiscription_REWARD
 --ITEM1
 Inst39Quest9ITC1_HORDE  = Itemc3;
 Inst39Quest9description1_HORDE  = AQITEM_ITEM
@@ -2584,7 +2584,7 @@ Inst39Quest10Rewardtext_HORDE = AQNoReward
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
 
 --Quest 1 Alliance
-Inst40Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst40Quest1Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst40Quest1ITC1 = Itemc5;
 Inst40Quest1description1 = AQITEM_RING
@@ -2611,7 +2611,7 @@ Inst40Quest2ID4 = "28791"
 
 
 --Quest 1 Horde
-Inst40Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst40Quest1Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst40Quest1ITC1_HORDE = Itemc5;
 Inst40Quest1description1_HORDE = AQITEM_RING
@@ -2757,7 +2757,7 @@ Inst42Quest6Rewardtext = AQNoReward
 Inst42Quest7Rewardtext = AQNoReward
 
 --Quest 8 Alliance
-Inst42Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst42Quest8Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst42Quest8ITC1 = Itemc3;
 Inst42Quest8description1 = AQITEM_ITEM
@@ -2789,7 +2789,7 @@ Inst42Quest6Rewardtext_HORDE = AQNoReward
 Inst42Quest7Rewardtext_HORDE = AQNoReward
 
 --Quest 8 Horde
-Inst42Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst42Quest8Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst42Quest8ITC1_HORDE = Itemc3;
 Inst42Quest8description1_HORDE = AQITEM_ITEM
@@ -3142,7 +3142,7 @@ Inst47Quest10Rewardtext = AQNoReward
 Inst47Quest11Rewardtext = AQNoReward
 
 --Quest 12 Alliance
-Inst47Quest12Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst47Quest12Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst47Quest12ITC1 = Itemc3;
 Inst47Quest12description1 = AQITEM_ITEM
@@ -3215,7 +3215,7 @@ Inst47Quest10Rewardtext_HORDE = AQNoReward
 Inst47Quest11Rewardtext_HORDE = AQNoReward
 
 --Quest 12 Horde
-Inst47Quest12Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst47Quest12Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst47Quest12ITC1_HORDE = Itemc3;
 Inst47Quest12description1_HORDE = AQITEM_ITEM
@@ -3271,7 +3271,7 @@ Inst49Quest3Rewardtext = AQNoReward
 Inst49Quest4Rewardtext = AQNoReward
 
 --Quest 5 Alliance
-Inst49Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst49Quest5Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst49Quest5ITC1 = Itemc3;
 Inst49Quest5description1 = AQITEM_ITEM
@@ -3307,7 +3307,7 @@ Inst49Quest3Rewardtext_HORDE = AQNoRewardv
 Inst49Quest4Rewardtext_HORDE = AQNoReward
 
 --Quest 5 Horde
-Inst49Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst49Quest5Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst49Quest5ITC1_HORDE = Itemc3;
 Inst49Quest5description1_HORDE = AQITEM_ITEM
@@ -3358,7 +3358,7 @@ Inst51Quest3ID4 = "29316"
 Inst51Quest4Rewardtext = AQNoReward
 
 --Quest 5 Alliance
-Inst51Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst51Quest5Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst51Quest5ITC1 = Itemc2;
 Inst51Quest5description1 = AQITEM_HEAD..AQITEM_CLOTH
@@ -3394,7 +3394,7 @@ Inst51Quest3ID4_HORDE = "29316"
 Inst51Quest4Rewardtext_HORDE = AQNoReward
 
 --Quest 5 Horde
-Inst51Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst51Quest5Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst51Quest5ITC1_HORDE = Itemc2;
 Inst51Quest5description1_HORDE = AQITEM_HEAD..AQITEM_CLOTH
@@ -3425,7 +3425,7 @@ Inst53Quest2Rewardtext = AQNoReward
 Inst53Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
-Inst53Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst53Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst53Quest4ITC1 = Itemc5;
 Inst53Quest4description1 = AQITEM_TRINKET
@@ -3484,7 +3484,7 @@ Inst53Quest2Rewardtext_HORDE = AQNoReward
 Inst53Quest3Rewardtext_HORDE = AQNoReward
 
 --Quest 4 Horde
-Inst53Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst53Quest4Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst53Quest4ITC1_HORDE = Itemc5;
 Inst53Quest4description1_HORDE = AQITEM_TRINKET
@@ -3570,7 +3570,7 @@ Inst54Quest6Rewardtext = AQNoReward
 Inst54Quest7Rewardtext = AQNoReward
 
 --Quest 8 Alliance
-Inst54Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst54Quest8Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst54Quest8ITC1 = Itemc3;
 Inst54Quest8description1 = AQITEM_ITEM
@@ -3611,7 +3611,7 @@ Inst54Quest6Rewardtext_HORDE = AQNoReward
 Inst54Quest7Rewardtext_HORDE = AQNoReward
 
 --Quest 8 Horde
-Inst54Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst54Quest8Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst54Quest8ITC1_HORDE = Itemc3;
 Inst54Quest8description1_HORDE = AQITEM_ITEM
@@ -3660,7 +3660,7 @@ Inst55Quest5Rewardtext = AQNoReward
 Inst55Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst55Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst55Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst55Quest7ITC1 = Itemc3;
 Inst55Quest7description1 = AQITEM_ITEM
@@ -3706,7 +3706,7 @@ Inst55Quest5Rewardtext_HORDE = AQNoReward
 Inst55Quest6Rewardtext_HORDE = AQNoReward
 
 --Quest 7 Horde
-Inst55Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst55Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst55Quest7ITC1_HORDE = Itemc3;
 Inst55Quest7description1_HORDE = AQITEM_ITEM
@@ -3755,7 +3755,7 @@ Inst56Quest5Rewardtext = AQNoReward
 Inst56Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst56Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst56Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst56Quest7ITC1 = Itemc3;
 Inst56Quest7description1 = AQITEM_ITEM
@@ -3801,7 +3801,7 @@ Inst56Quest5Rewardtext_HORDE = AQNoReward
 Inst56Quest6Rewardtext_HORDE = AQNoReward
 
 --Quest 7 Horde
-Inst56Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst56Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst56Quest7ITC1_HORDE = Itemc3;
 Inst56Quest7description1_HORDE = AQITEM_ITEM
@@ -3873,7 +3873,7 @@ Inst62Quest1Rewardtext = AQNoReward
 Inst62Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst62Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst62Quest3Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst62Quest3ITC1 = Itemc5;
 Inst62Quest3description1 = AQITEM_NECK
@@ -3887,7 +3887,7 @@ Inst62Quest1Rewardtext_HORDE = AQNoReward
 Inst62Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
-Inst62Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst62Quest3Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst62Quest3ITC1_HORDE = Itemc5;
 Inst62Quest3description1_HORDE = AQITEM_NECK
@@ -4007,7 +4007,7 @@ Inst67Quest5Rewardtext = AQNoReward
 Inst67Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst67Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst67Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst67Quest7ITC1 = Itemc3;
 Inst67Quest7description1 = AQITEM_ITEM
@@ -4048,7 +4048,7 @@ Inst67Quest5Rewardtext_HORDE = AQNoReward
 Inst67Quest6Rewardtext_HORDE = AQNoReward
 
 --Quest 7 Horde
-Inst67Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst67Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst67Quest7ITC1_HORDE = Itemc3;
 Inst67Quest7description1_HORDE = AQITEM_ITEM
@@ -5278,14 +5278,14 @@ Inst82Quest2ID4_HORDE = "44345"
 --------------- INST84 - Naxxramas (Naxx) ---------------
 
 --Quest 1 Alliance
-Inst84Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst84Quest1Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst84Quest1ITC1 = Itemc5;
 Inst84Quest1description1 = AQITEM_ITEM
 Inst84Quest1ID1 = "44582"
 
 --Quest 2 Alliance
-Inst84Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst84Quest2Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst84Quest2ITC1 = Itemc5;
 Inst84Quest2description1 = AQITEM_ITEM
@@ -5305,14 +5305,14 @@ Inst84Quest6Rewardtext = AQNoReward
 
 
 --Quest 1 Horde
-Inst84Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst84Quest1Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst84Quest1ITC1_HORDE = Itemc5;
 Inst84Quest1description1_HORDE = AQITEM_ITEM
 Inst84Quest1ID1_HORDE = "44582"
 
 --Quest 2 Horde
-Inst84Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst84Quest2Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst84Quest2ITC1_HORDE = Itemc5;
 Inst84Quest2description1_HORDE = AQITEM_ITEM
@@ -5357,7 +5357,7 @@ Inst86Quest5Rewardtext = AQNoReward
 Inst86Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst86Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst86Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst86Quest7ITC1 = Itemc5;
 Inst86Quest7description1 = AQITEM_ITEM
@@ -5401,7 +5401,7 @@ Inst86Quest13Rewardtext = AQNoReward
 Inst86Quest14Rewardtext = AQNoReward
 
 --Quest 15 Alliance
-Inst86Quest15Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst86Quest15Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst86Quest15ITC1 = Itemc5;
 Inst86Quest15description1 = AQITEM_ITEM
@@ -5458,7 +5458,7 @@ Inst86Quest5Rewardtext_HORDE = AQNoReward
 Inst86Quest6Rewardtext_HORDE = AQNoReward
 
 --Quest 7 Horde
-Inst86Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst86Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst86Quest7ITC1_HORDE = Itemc5;
 Inst86Quest7description1_HORDE = AQITEM_ITEM
@@ -5502,7 +5502,7 @@ Inst86Quest13Rewardtext_HORDE = AQNoReward
 Inst86Quest14Rewardtext_HORDE = AQNoReward
 
 --Quest 15 Horde
-Inst86Quest15Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst86Quest15Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst86Quest15ITC1_HORDE = Itemc5;
 Inst86Quest15description1_HORDE = AQITEM_ITEM
@@ -5647,7 +5647,7 @@ Inst93Quest1Rewardtext = AQNoReward
 Inst93Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst93Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst93Quest3Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst93Quest3ITC1 = Itemc5;
 Inst93Quest3description1 = AQITEM_TWOHAND..AQITEM_AXE
@@ -5669,7 +5669,7 @@ Inst93Quest7Rewardtext = AQNoReward
 Inst93Quest8Rewardtext = AQNoReward
 
 --Quest 9 Alliance
-Inst93Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst93Quest9Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst93Quest9ITC1 = Itemc6;
 Inst93Quest9description1 = AQITEM_TWOHAND..AQITEM_AXE
@@ -5686,7 +5686,7 @@ Inst93Quest1Rewardtext_HORDE = AQNoReward
 Inst93Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
-Inst93Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst93Quest3Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst93Quest3ITC1_HORDE = Itemc5;
 Inst93Quest3description1_HORDE = AQITEM_TWOHAND..AQITEM_AXE
@@ -5708,7 +5708,7 @@ Inst93Quest7Rewardtext_HORDE = AQNoReward
 Inst93Quest8Rewardtext_HORDE = AQNoReward
 
 --Quest 9 Horde
-Inst93Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst93Quest9Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst93Quest9ITC1_HORDE = Itemc6;
 Inst93Quest9description1_HORDE = AQITEM_TWOHAND..AQITEM_AXE
@@ -6047,7 +6047,7 @@ Inst98Quest3ID3_HORDE = "66900"
 --------------- INST99 - Grim Batol ---------------
 
 --Quest 1 Alliance
-Inst99Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst99Quest1Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst99Quest1ITC1 = Itemc2;
 Inst99Quest1description1 = AQITEM_ITEM
@@ -6085,7 +6085,7 @@ Inst99Quest3ID3 = "66933"
 
 
 --Quest 1 Horde
-Inst99Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst99Quest1Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst99Quest1ITC1_HORDE = Itemc2;
 Inst99Quest1description1_HORDE = AQITEM_ITEM
@@ -6700,7 +6700,7 @@ Inst116Quest2Rewardtext = AQClassRewards
 Inst116Quest3Rewardtext = AQClassRewards
 
 --Quest 4 Alliance
-Inst116Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst116Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst116Quest4ITC1 = Itemc6;
 Inst116Quest4description1 = AQITEM_SPELL
@@ -6717,7 +6717,7 @@ Inst116Quest2Rewardtext_HORDE = AQClassRewards
 Inst116Quest3Rewardtext_HORDE = AQClassRewards
 
 --Quest 4 Horde
-Inst116Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst116Quest4Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst116Quest4ITC1_HORDE = Itemc6;
 Inst116Quest4description1_HORDE = AQITEM_SPELL
@@ -6803,56 +6803,56 @@ Inst119Quest2Rewardtext_HORDE = AQClassRewards
 --------------- INST138 - Throne of Thunder ---------------
 
 --Quest 1 Alliance
-Inst138Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest1Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst138Quest1ITC1 = Itemc4;
 Inst138Quest1description1 = AQITEM_ITEM
 Inst138Quest1ID1 = "95589"
 
 --Quest 2 Alliance
-Inst138Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest2Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst138Quest2ITC1 = Itemc4;
 Inst138Quest2description1 = AQITEM_ITEM
 Inst138Quest2ID1 = "97153"
 
 --Quest 3 Alliance
-Inst138Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest3Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst138Quest3ITC1 = Itemc4;
 Inst138Quest3description1 = AQITEM_ITEM
 Inst138Quest3ID1 = "97153"
 
 --Quest 4 Alliance
-Inst138Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst138Quest4ITC1 = Itemc4;
 Inst138Quest4description1 = AQITEM_ITEM
 Inst138Quest4ID1 = "97153"
 
 --Quest 5 Alliance
-Inst138Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest5Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst138Quest5ITC1 = Itemc4;
 Inst138Quest5description1 = AQITEM_ITEM
 Inst138Quest5ID1 = "97153"
 
 --Quest 6 Alliance
-Inst138Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest6Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst138Quest6ITC1 = Itemc4;
 Inst138Quest6description1 = AQITEM_ITEM
 Inst138Quest6ID1 = "97153"
 
 --Quest 7 Alliance
-Inst138Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst138Quest7ITC1 = Itemc4;
 Inst138Quest7description1 = AQITEM_ITEM
 Inst138Quest7ID1 = "97153"
 
 --Quest 8 Alliance
-Inst138Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest8Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst138Quest8ITC1 = Itemc4;
 Inst138Quest8description1 = AQITEM_ITEM
@@ -6860,56 +6860,56 @@ Inst138Quest8ID1 = "97153"
 
 
 --Quest 1 Horde
-Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst138Quest1ITC1_HORDE = Itemc4;
 Inst138Quest1description1_HORDE = AQITEM_ITEM
 Inst138Quest1ID1_HORDE = "95590"
 
 --Quest 2 Horde
-Inst138Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest2Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst138Quest2ITC1_HORDE = Itemc4;
 Inst138Quest2description1_HORDE = AQITEM_ITEM
 Inst138Quest2ID1_HORDE = "97153"
 
 --Quest 3 Horde
-Inst138Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest3Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst138Quest3ITC1_HORDE = Itemc4;
 Inst138Quest3description1_HORDE = AQITEM_ITEM
 Inst138Quest3ID1_HORDE = "97153"
 
 --Quest 4 Horde
-Inst138Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest4Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst138Quest4ITC1_HORDE = Itemc4;
 Inst138Quest4description1_HORDE = AQITEM_ITEM
 Inst138Quest4ID1_HORDE = "97153"
 
 --Quest 5 Horde
-Inst138Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest5Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst138Quest5ITC1_HORDE = Itemc4;
 Inst138Quest5description1_HORDE = AQITEM_ITEM
 Inst138Quest5ID1_HORDE = "97153"
 
 --Quest 6 Horde
-Inst138Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest6Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst138Quest6ITC1_HORDE = Itemc4;
 Inst138Quest6description1_HORDE = AQITEM_ITEM
 Inst138Quest6ID1_HORDE = "97153"
 
 --Quest 7 Horde
-Inst138Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst138Quest7ITC1_HORDE = Itemc4;
 Inst138Quest7description1_HORDE = AQITEM_ITEM
 Inst138Quest7ID1_HORDE = "97153"
 
 --Quest 8 Horde
-Inst138Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst138Quest8Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst138Quest8ITC1_HORDE = Itemc4;
 Inst138Quest8description1_HORDE = AQITEM_ITEM
@@ -6961,35 +6961,35 @@ Inst145Quest6Rewardtext_HORDE = AQNoReward
 --------------- INST146 - Auchindoun ---------------
 
 --Quest 1 Alliance
-Inst146Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest1Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst146Quest1ITC1 = Itemc4;
 Inst146Quest1description1 = AQITEM_ITEM
 Inst146Quest1ID1 = "119042"
 
 --Quest 2 Alliance
-Inst146Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest2Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst146Quest2ITC1 = Itemc4;
 Inst146Quest2description1 = AQITEM_TOY
 Inst146Quest2ID1 = "119039"
 
 --Quest 3 Alliance
-Inst146Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest3Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst146Quest3ITC1 = Itemc4;
 Inst146Quest3description1 = AQITEM_ITEM
 Inst146Quest3ID1 = "119037"
 
 --Quest 4 Alliance
-Inst146Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst146Quest4ITC1 = Itemc4;
 Inst146Quest4description1 = AQITEM_ITEM
 Inst146Quest4ID1 = "118931"
 
 --Quest 5 Alliance
-Inst146Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest5Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst146Quest5ITC1 = Itemc4;
 Inst146Quest5description1 = AQITEM_ITEM
@@ -6999,7 +6999,7 @@ Inst146Quest5ID1 = "119037"
 Inst146Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst146Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst146Quest7ITC1 = Itemc4;
 Inst146Quest7description1 = AQITEM_ITEM
@@ -7007,35 +7007,35 @@ Inst146Quest7ID1 = "119032"
 
 
 --Quest 1 Horde
-Inst146Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest1Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst146Quest1ITC1_HORDE = Itemc4;
 Inst146Quest1description1_HORDE = AQITEM_ITEM
 Inst146Quest1ID1_HORDE = "119042"
 
 --Quest 2 Horde
-Inst146Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest2Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst146Quest2ITC1_HORDE = Itemc4;
 Inst146Quest2description1_HORDE = AQITEM_TOY
 Inst146Quest2ID1_HORDE = "119039"
 
 --Quest 3 Horde
-Inst146Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest3Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst146Quest3ITC1_HORDE = Itemc4;
 Inst146Quest3description1_HORDE = AQITEM_ITEM
 Inst146Quest3ID1_HORDE = "119037"
 
 --Quest 4 Horde
-Inst146Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest4Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst146Quest4ITC1_HORDE = Itemc4;
 Inst146Quest4description1_HORDE = AQITEM_ITEM
 Inst146Quest4ID1_HORDE = "118931"
 
 --Quest 5 Horde
-Inst146Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest5Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst146Quest5ITC1_HORDE = Itemc4;
 Inst146Quest5description1_HORDE = AQITEM_ITEM
@@ -7045,7 +7045,7 @@ Inst146Quest5ID1_HORDE = "119037"
 Inst146Quest6Rewardtext_HORDE = AQNoReward
 
 --Quest 7 Horde
-Inst146Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst146Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst146Quest7ITC1_HORDE = Itemc4;
 Inst146Quest7description1_HORDE = AQITEM_ITEM
@@ -7062,42 +7062,42 @@ Inst147Quest1Rewardtext = AQNoReward
 Inst147Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst147Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest3Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst147Quest3ITC1 = Itemc4;
 Inst147Quest3description1 = AQITEM_ITEM
 Inst147Quest3ID1 = "119043"
 
 --Quest 4 Alliance
-Inst147Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst147Quest4ITC1 = Itemc4;
 Inst147Quest4description1 = AQITEM_ITEM
 Inst147Quest4ID1 = "119093"
 
 --Quest 5 Alliance
-Inst147Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest5Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst147Quest5ITC1 = Itemc4;
 Inst147Quest5description1 = AQITEM_ITEM
 Inst147Quest5ID1 = "119037"
 
 --Quest 6 Alliance
-Inst147Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest6Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst147Quest6ITC1 = Itemc4;
 Inst147Quest6description1 = AQITEM_ITEM
 Inst147Quest6ID1 = "118928"
 
 --Quest 7 Alliance
-Inst147Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst147Quest7ITC1 = Itemc4;
 Inst147Quest7description1 = AQITEM_ITEM
 Inst147Quest7ID1 = "119037"
 
 --Quest 8 Alliance
-Inst147Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest8Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst147Quest8ITC1 = Itemc4;
 Inst147Quest8description1 = AQITEM_ITEM
@@ -7111,42 +7111,42 @@ Inst147Quest1Rewardtext_HORDE = AQNoReward
 Inst147Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
-Inst147Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest3Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst147Quest3ITC1_HORDE = Itemc4;
 Inst147Quest3description1_HORDE = AQITEM_ITEM
 Inst147Quest3ID1_HORDE = "119043"
 
 --Quest 4 Horde
-Inst147Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest4Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst147Quest4ITC1_HORDE = Itemc4;
 Inst147Quest4description1_HORDE = AQITEM_ITEM
 Inst147Quest4ID1_HORDE = "119093"
 
 --Quest 5 Horde
-Inst147Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest5Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst147Quest5ITC1_HORDE = Itemc4;
 Inst147Quest5description1_HORDE = AQITEM_ITEM
 Inst147Quest5ID1_HORDE = "119037"
 
 --Quest 6 Horde
-Inst147Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest6Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst147Quest6ITC1_HORDE = Itemc4;
 Inst147Quest6description1_HORDE = AQITEM_ITEM
 Inst147Quest6ID1_HORDE = "118928"
 
 --Quest 7 Horde
-Inst147Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst147Quest7ITC1_HORDE = Itemc4;
 Inst147Quest7description1_HORDE = AQITEM_ITEM
 Inst147Quest7ID1_HORDE = "119037"
 
 --Quest 8 Horde
-Inst147Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst147Quest8Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst147Quest8ITC1_HORDE = Itemc4;
 Inst147Quest8description1_HORDE = AQITEM_ITEM
@@ -7157,35 +7157,35 @@ Inst147Quest8ID1_HORDE = "119032"
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 
 --Quest 1 Alliance
-Inst148Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest1Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst148Quest1ITC1 = Itemc4;
 Inst148Quest1description1 = AQITEM_ITEM
 Inst148Quest1ID1 = "119040"
 
 --Quest 2 Alliance
-Inst148Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest2Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst148Quest2ITC1 = Itemc4;
 Inst148Quest2description1 = AQITEM_TOY
 Inst148Quest2ID1 = "119083"
 
 --Quest 3 Alliance
-Inst148Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest3Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst148Quest3ITC1 = Itemc4;
 Inst148Quest3description1 = AQITEM_ITEM
 Inst148Quest3ID1 = "119037"
 
 --Quest 4 Alliance
-Inst148Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst148Quest4ITC1 = Itemc4;
 Inst148Quest4description1 = AQITEM_ITEM
 Inst148Quest4ID1 = "118929"
 
 --Quest 5 Alliance
-Inst148Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest5Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst148Quest5ITC1 = Itemc4;
 Inst148Quest5description1 = AQITEM_ITEM
@@ -7195,7 +7195,7 @@ Inst148Quest5ID1 = "119037"
 Inst148Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst148Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest7Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst148Quest7ITC1 = Itemc4;
 Inst148Quest7description1 = AQITEM_ITEM
@@ -7203,35 +7203,35 @@ Inst148Quest7ID1 = "119032"
 
 
 --Quest 1 Horde
-Inst148Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest1Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst148Quest1ITC1_HORDE = Itemc4;
 Inst148Quest1description1_HORDE = AQITEM_ITEM
 Inst148Quest1ID1_HORDE = "119040"
 
 --Quest 2 Horde
-Inst148Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest2Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst148Quest2ITC1_HORDE = Itemc4;
 Inst148Quest2description1_HORDE = AQITEM_TOY
 Inst148Quest2ID1_HORDE = "119083"
 
 --Quest 3 Horde
-Inst148Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest3Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst148Quest3ITC1_HORDE = Itemc4;
 Inst148Quest3description1_HORDE = AQITEM_ITEM
 Inst148Quest3ID1_HORDE = "119037"
 
 --Quest 4 Horde
-Inst148Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest4Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst148Quest4ITC1_HORDE = Itemc4;
 Inst148Quest4description1_HORDE = AQITEM_ITEM
 Inst148Quest4ID1_HORDE = "118929"
 
 --Quest 5 Horde
-Inst148Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest5Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst148Quest5ITC1_HORDE = Itemc4;
 Inst148Quest5description1_HORDE = AQITEM_ITEM
@@ -7241,7 +7241,7 @@ Inst148Quest5ID1_HORDE = "119037"
 Inst148Quest6Rewardtext_HORDE = AQNoReward
 
 --Quest 7 Horde
-Inst148Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst148Quest7Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst148Quest7ITC1_HORDE = Itemc4;
 Inst148Quest7description1_HORDE = AQITEM_ITEM
@@ -7250,6 +7250,92 @@ Inst148Quest7ID1_HORDE = "119032"
 
 
 --------------- INST149 - Iron Docks ---------------
+
+--Quest 1 Alliance
+Inst149Quest1Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst149Quest1ITC1 = Itemc4;
+Inst149Quest1description1 = AQITEM_ITEM
+Inst149Quest1ID1 = "119041"
+
+--Quest 2 Alliance
+Inst149Quest2Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst149Quest2ITC1 = Itemc4;
+Inst149Quest2description1 = AQITEM_ITEM
+Inst149Quest2ID1 = "119092"
+
+--Quest 3 Alliance
+Inst149Quest3Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst149Quest3ITC1 = Itemc4;
+Inst149Quest3description1 = AQITEM_ITEM
+Inst149Quest3ID1 = "119037"
+
+--Quest 4 Alliance
+Inst149Quest4Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst149Quest4ITC1 = Itemc4;
+Inst149Quest4description1 = AQITEM_ITEM
+Inst149Quest4ID1 = "118925"
+
+--Quest 5 Alliance
+Inst149Quest5Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst149Quest5ITC1 = Itemc4;
+Inst149Quest5description1 = AQITEM_ITEM
+Inst149Quest5ID1 = "119037"
+
+--Quest 6 Alliance
+Inst149Quest6Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst149Quest6ITC1 = Itemc4;
+Inst149Quest6description1 = AQITEM_ITEM
+Inst149Quest6ID1 = "119032"
+
+
+--Quest 1 Horde
+Inst149Quest1Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst149Quest1ITC1_HORDE = Itemc4;
+Inst149Quest1description1_HORDE = AQITEM_ITEM
+Inst149Quest1ID1_HORDE = "119041"
+
+--Quest 2 Horde
+Inst149Quest2Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst149Quest2ITC1_HORDE = Itemc4;
+Inst149Quest2description1_HORDE = AQITEM_ITEM
+Inst149Quest2ID1_HORDE = "119092"
+
+--Quest 3 Horde
+Inst149Quest3Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst149Quest3ITC1_HORDE = Itemc4;
+Inst149Quest3description1_HORDE = AQITEM_ITEM
+Inst149Quest3ID1_HORDE = "119037"
+
+--Quest 4 Horde
+Inst149Quest4Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst149Quest4ITC1_HORDE = Itemc4;
+Inst149Quest4description1_HORDE = AQITEM_ITEM
+Inst149Quest4ID1_HORDE = "118925"
+
+--Quest 5 Horde
+Inst149Quest5Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst149Quest5ITC1_HORDE = Itemc4;
+Inst149Quest5description1_HORDE = AQITEM_ITEM
+Inst149Quest5ID1_HORDE = "119037"
+
+--Quest 6 Horde
+Inst149Quest6Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst149Quest6ITC1_HORDE = Itemc4;
+Inst149Quest6description1_HORDE = AQITEM_ITEM
+Inst149Quest6ID1_HORDE = "119032"
+
 
 
 --------------- INST150 - The Everbloom ---------------
@@ -7548,7 +7634,7 @@ Inst34Quest1Rewardtext = AQNoReward
 Inst34Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst34Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst34Quest4Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst34Quest3ITC1 = Itemc2;
 Inst34Quest3description1 = AQITEM_TABARD
@@ -7562,7 +7648,7 @@ Inst34Quest1Rewardtext_HORDE = AQNoReward
 Inst34Quest2Rewardtext_HORDE = AQNoReward
 
 --Quest 3 Horde
-Inst34Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst34Quest3Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst34Quest3ITC1_HORDE = Itemc2;
 Inst34Quest3description1_HORDE = AQITEM_TABARD
@@ -7645,7 +7731,7 @@ Inst66Quest4description2 = AQITEM_POTION
 Inst66Quest4ID2 = "28103"
 
 --Quest 5 Alliance
-Inst66Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst66Quest5Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst66Quest5ITC1 = Itemc2;
 Inst66Quest5description1 = AQITEM_POTION
@@ -7670,7 +7756,7 @@ Inst66Quest10Rewardtext = AQNoReward
 Inst66Quest11Rewardtext = AQNoReward
 
 --Quest 12 Alliance
-Inst66Quest12Rewardtext = AQDiscription_REWARD..WHITE.."1"
+Inst66Quest12Rewardtext = AQDiscription_REWARD
 --ITEM1
 Inst66Quest12ITC1 = Itemc2;
 Inst66Quest12description1 = AQITEM_ITEM
@@ -7713,7 +7799,7 @@ Inst66Quest4description2_HORDE = AQITEM_POTION
 Inst66Quest4ID2_HORDE = "28103"
 
 --Quest 5 Horde
-Inst66Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst66Quest5Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst66Quest5ITC1_HORDE = Itemc2;
 Inst66Quest5description1_HORDE = AQITEM_POTION
@@ -7738,7 +7824,7 @@ Inst66Quest10Rewardtext_HORDE = AQNoReward
 Inst66Quest11Rewardtext_HORDE = AQNoReward
 
 --Quest 12 Horde
-Inst66Quest12Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+Inst66Quest12Rewardtext_HORDE = AQDiscription_REWARD
 --ITEM1
 Inst66Quest12ITC1_HORDE = Itemc2;
 Inst66Quest12description1_HORDE = AQITEM_ITEM

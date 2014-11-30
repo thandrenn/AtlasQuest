@@ -13395,8 +13395,153 @@ Inst148Quest7name1_HORDE = Inst148Quest7name1
 --------------- INST149 - Iron Docks ---------------
 
 Inst149Caption = "Iron Docks"
-Inst149QAA = "No Quests"
-Inst149QAH = "No Quests"
+Inst149QAA = "6 Quests"
+Inst149QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst149Quest1 = "1. Budd's Gambit"
+Inst149Quest1_Level = "94"
+Inst149Quest1_Attain = "92"
+Inst149Quest1_Aim = "Collect a Very Shiny Thing from the Iron Docks."
+Inst149Quest1_Location = "Budd "..AQGARRISON
+Inst149Quest1_Note = "The Very Shiny Thing is on a wooden box, about halfway between the second and third bosses."
+Inst149Quest1_Prequest = "None"
+Inst149Quest1_Folgequest = "None"
+--
+Inst149Quest1name1 = "Strongbox of Mysterious Treasures"
+
+--Quest 2 Alliance
+Inst149Quest2 = "2. Feeling A Bit Morose"
+Inst149Quest2_Level = "100"
+Inst149Quest2_Attain = "100"
+Inst149Quest2_Aim = "Collect a barrel of Horribly Acidic Solution from the Iron Docks."
+Inst149Quest2_Location = "Moroes "..AQGARRISON
+Inst149Quest2_Note = "Requires Heroic Difficulty.  The Horribly Acidic Solution is in a vial on top of a barrel on the way to the second boss.  Just before the part with the Iron Stars."
+Inst149Quest2_Prequest = "None"
+Inst149Quest2_Folgequest = "None"
+--
+Inst149Quest2name1 = "Moroes' Famous Polish"
+
+--Quest 3 Alliance
+Inst149Quest3 = "3. Bloody Expensive"
+Inst149Quest3_Level = "100"
+Inst149Quest3_Attain = "100"
+Inst149Quest3_Aim = "Collect a barrel of Horribly Acidic Solution from the Iron Docks."
+Inst149Quest3_Location = "Moroes "..AQGARRISON
+Inst149Quest3_Note = "Requires Heroic Difficulty.  The Horribly Acidic Solution is in a vial on top of a barrel on the way to the second boss.  Just before the part with the Iron Stars."
+Inst149Quest3_Prequest = "None"
+Inst149Quest3_Folgequest = "None"
+--
+Inst149Quest3name1 = "Supply of Storied Rarities"
+
+--Quest 4 Alliance
+Inst149Quest4 = "4. The Brass Compass"
+Inst149Quest4_Level = "100"
+Inst149Quest4_Attain = "100"
+Inst149Quest4_Aim = "Find the Brass Compass at the Iron Docks."
+Inst149Quest4_Location = "Fleet Master Seahorn "..AQGARRISON
+Inst149Quest4_Note = "Requires Heroic Difficulty.  The Brass Compass is on the ground in front of some barrels near the first boss at "..YELLOW.."[1]"..WHITE.."."
+Inst149Quest4_Prequest = "None"
+Inst149Quest4_Folgequest = "None"
+--
+Inst149Quest4name1 = "Plundered Booty"
+
+--Quest 5 Alliance
+Inst149Quest5 = "5. The Search Continues"
+Inst149Quest5_Level = "100"
+Inst149Quest5_Attain = "100"
+Inst149Quest5_Aim = "Find the Brass Compass at the Iron Docks."
+Inst149Quest5_Location = "Fleet Master Seahorn "..AQGARRISON
+Inst149Quest5_Note = "Requires Heroic Difficulty.  The Brass Compass is on the ground in front of some barrels near the first boss at "..YELLOW.."[1]"..WHITE.."."
+Inst149Quest5_Prequest = "None"
+Inst149Quest5_Folgequest = "None"
+--
+Inst149Quest5name1 = "Supply of Storied Rarities"
+
+--Quest 6 Alliance
+Inst149Quest6 = "6. A Worthy Challenge: Skullok, Son of Gruul"
+Inst149Quest6_Level = "100"
+Inst149Quest6_Attain = "100"
+Inst149Quest6_Aim = "Complete the Iron Docks Challenge Mode."
+Inst149Quest6_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst149Quest6_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
+Inst149Quest6_Prequest = "None"
+Inst149Quest6_Folgequest = "None"
+--
+Inst149Quest6name1 = "Challenger's Strongbox"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst149Quest1_HORDE = Inst149Quest1
+Inst149Quest1_HORDE_Level = Inst149Quest1_Level
+Inst149Quest1_HORDE_Attain = Inst149Quest1_Attain
+Inst149Quest1_HORDE_Aim = Inst149Quest1_Aim
+Inst149Quest1_HORDE_Location = Inst149Quest1_Location
+Inst149Quest1_HORDE_Note = Inst149Quest1_Note
+Inst149Quest1_HORDE_Prequest = Inst149Quest1_Prequest
+Inst149Quest1_HORDE_Folgequest = Inst149Quest1_Folgequest
+--
+Inst149Quest1name1_HORDE = Inst149Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst149Quest2_HORDE = Inst149Quest2
+Inst149Quest2_HORDE_Level = Inst149Quest2_Level
+Inst149Quest2_HORDE_Attain = Inst149Quest2_Attain
+Inst149Quest2_HORDE_Aim = Inst149Quest2_Aim
+Inst149Quest2_HORDE_Location = Inst149Quest2_Location
+Inst149Quest2_HORDE_Note = Inst149Quest2_Note
+Inst149Quest2_HORDE_Prequest = Inst149Quest2_Prequest
+Inst149Quest2_HORDE_Folgequest = Inst149Quest2_Folgequest
+--
+Inst149Quest2name1_HORDE = Inst149Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst149Quest3_HORDE = Inst149Quest3
+Inst149Quest3_HORDE_Level = Inst149Quest3_Level
+Inst149Quest3_HORDE_Attain = Inst149Quest3_Attain
+Inst149Quest3_HORDE_Aim = Inst149Quest3_Aim
+Inst149Quest3_HORDE_Location = Inst149Quest3_Location
+Inst149Quest3_HORDE_Note = Inst149Quest3_Note
+Inst149Quest3_HORDE_Prequest = Inst149Quest3_Prequest
+Inst149Quest3_HORDE_Folgequest = Inst149Quest3_Folgequest
+--
+Inst149Quest3name1_HORDE = Inst149Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst149Quest4_HORDE = Inst149Quest4
+Inst149Quest4_HORDE_Level = Inst149Quest4_Level
+Inst149Quest4_HORDE_Attain = Inst149Quest4_Attain
+Inst149Quest4_HORDE_Aim = Inst149Quest4_Aim
+Inst149Quest4_HORDE_Location = Inst149Quest4_Location
+Inst149Quest4_HORDE_Note = Inst149Quest4_Note
+Inst149Quest4_HORDE_Prequest = Inst149Quest4_Prequest
+Inst149Quest4_HORDE_Folgequest = Inst149Quest4_Folgequest
+--
+Inst149Quest4name1_HORDE = Inst149Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst149Quest5_HORDE = Inst149Quest5
+Inst149Quest5_HORDE_Level = Inst149Quest5_Level
+Inst149Quest5_HORDE_Attain = Inst149Quest5_Attain
+Inst149Quest5_HORDE_Aim = Inst149Quest5_Aim
+Inst149Quest5_HORDE_Location = Inst149Quest5_Location
+Inst149Quest5_HORDE_Note = Inst149Quest5_Note
+Inst149Quest5_HORDE_Prequest = Inst149Quest5_Prequest
+Inst149Quest5_HORDE_Folgequest = Inst149Quest5_Folgequest
+--
+Inst149Quest5name1_HORDE = Inst149Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst149Quest6_HORDE = Inst149Quest6
+Inst149Quest6_HORDE_Level = Inst149Quest6_Level
+Inst149Quest6_HORDE_Attain = Inst149Quest6_Attain
+Inst149Quest6_HORDE_Aim = Inst149Quest6_Aim
+Inst149Quest6_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst149Quest6_HORDE_Note = Inst149Quest6_Note
+Inst149Quest6_HORDE_Prequest = Inst149Quest6_Prequest
+Inst149Quest6_HORDE_Folgequest = Inst149Quest6_Folgequest
+--
+Inst149Quest6name1_HORDE = Inst149Quest6name1
 
 
 
