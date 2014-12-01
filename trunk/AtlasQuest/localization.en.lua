@@ -138,6 +138,7 @@ AQITEM_CLOTH = " Cloth"
 AQITEM_LEATHER = " Leather"
 AQITEM_MAIL = " Mail"
 AQITEM_PLATE = " Plate"
+AQITEM_COSMETIC = " Cosmetic"
 
 AQITEM_OFFHAND = "Offhand"
 AQITEM_MAINHAND = "Main Hand,"
@@ -146,6 +147,7 @@ AQITEM_TWOHAND = "Two-Hand,"
 
 AQITEM_ITEM = "Item" -- Use this for those oddball rewards which aren't really anything else.
 AQITEM_TOY = "Toy"
+AQITEM_PET = "Pet"
 AQITEM_TRINKET = "Trinket"
 AQITEM_POTION = "Potion"
 AQITEM_NECK = "Neck"
@@ -13548,16 +13550,426 @@ Inst149Quest6name1_HORDE = Inst149Quest6name1
 --------------- INST150 - The Everbloom ---------------
 
 Inst150Caption = "The Everbloom"
-Inst150QAA = "No Quests"
-Inst150QAH = "No Quests"
+Inst150QAA = "9 Quests"
+Inst150QAH = "9 Quests"
+
+--Quest 1 Alliance
+Inst150Quest1 = "1. For the Birds"
+Inst150Quest1_Level = "100"
+Inst150Quest1_Attain = "98"
+Inst150Quest1_Aim = "Find a Tiny Peachick Hatchling in The Everbloom."
+Inst150Quest1_Location = "Mylune "..AQGARRISON
+Inst150Quest1_Note = "You can find the Tiny Peachick Hatchling in on the ground south of Xeritac's Burrow at coordinates "..YELLOW.."55.4, 22.6"..WHITE.."."
+Inst150Quest1_Prequest = "None"
+Inst150Quest1_Folgequest = "None"
+--
+Inst150Quest1name1 = "Everbloom Peachick"
+
+--Quest 2 Alliance
+Inst150Quest2 = "2. Put a Bird on It"
+Inst150Quest2_Level = "100"
+Inst150Quest2_Attain = "98"
+Inst150Quest2_Aim = "Find a Tiny Peachick Hatchling in The Everbloom."
+Inst150Quest2_Location = "Mylune "..AQGARRISON
+Inst150Quest2_Note = "You can find the Tiny Peachick Hatchling in on the ground south of Xeritac's Burrow at coordinates "..YELLOW.."55.4, 22.6"..WHITE.."."
+Inst150Quest2_Prequest = "None"
+Inst150Quest2_Folgequest = "None"
+--
+Inst150Quest2name1 = "Box of Storied Treasures"
+
+--Quest 3 Alliance
+Inst150Quest3 = "3. Titanic Evolution"
+Inst150Quest3_Level = "100"
+Inst150Quest3_Attain = "100"
+Inst150Quest3_Aim = "Collect an Overgrown Artifact from The Everbloom."
+Inst150Quest3_Location = "Lorewalker Cho "..AQGARRISON
+Inst150Quest3_Note = "Requires Heroic Difficulty.  The Overgrown Artifact is on the south portion of the dungeon at coordinates "..YELLOW.."61.1, 66.3"..WHITE.."."
+Inst150Quest3_Prequest = "None"
+Inst150Quest3_Folgequest = "None"
+--
+Inst150Quest3name1 = "Bag of Everbloom Herbs"
+
+--Quest 4 Alliance
+Inst150Quest4 = "4. Lessons of the Past"
+Inst150Quest4_Level = "100"
+Inst150Quest4_Attain = "100"
+Inst150Quest4_Aim = "Collect an Overgrown Artifact from The Everbloom."
+Inst150Quest4_Location = "Lorewalker Cho "..AQGARRISON
+Inst150Quest4_Note = "Requires Heroic Difficulty.  The Overgrown Artifact is on the south portion of the dungeon at coordinates "..YELLOW.."61.1, 66.3"..WHITE.."."
+Inst150Quest4_Prequest = "None"
+Inst150Quest4_Folgequest = "None"
+--
+Inst150Quest4name1 = "Supply of Storied Rarities"
+
+--Quest 5 Alliance
+Inst150Quest5 = "5. Cenarion Concerns"
+Inst150Quest5_Level = "100"
+Inst150Quest5_Attain = "100"
+Inst150Quest5_Aim = "Collect a Strangely-Glowing Frond from Everbloom."
+Inst150Quest5_Location = "Zen'kiki "..AQGARRISON
+Inst150Quest5_Note = "Requires Heroic Difficulty.  The Strangely-Glowing Frond is in the Verdant Grove at coordinates "..YELLOW.."64.6, 21.0"..WHITE.."."
+Inst150Quest5_Prequest = "None"
+Inst150Quest5_Folgequest = "None"
+--
+Inst150Quest5name1 = "Ever-Blooming Frond"
+
+--Quest 6 Alliance
+Inst150Quest6 = "6. The Leaf-Reader"
+Inst150Quest6_Level = "100"
+Inst150Quest6_Attain = "100"
+Inst150Quest6_Aim = "Collect a Strangely-Glowing Frond from Everbloom."
+Inst150Quest6_Location = "Zen'kiki "..AQGARRISON
+Inst150Quest6_Note = "Requires Heroic Difficulty.  The Strangely-Glowing Frond is in the Verdant Grove at coordinates "..YELLOW.."64.6, 21.0"..WHITE.."."
+Inst150Quest6_Prequest = "None"
+Inst150Quest6_Folgequest = "None"
+--
+Inst150Quest6name1 = "Supply of Storied Rarities"
+
+--Quest 7 Alliance
+Inst150Quest7 = "7. Subversive Infestation"
+Inst150Quest7_Level = "100"
+Inst150Quest7_Attain = "100"
+Inst150Quest7_Aim = "Recover 3 Depleted Everbloom Seeds, Phylarch's Research, and Xeri'tac's Venom Gland from the Everbloom and return to Phylarch the Evergreen."
+Inst150Quest7_Location = "Phylarch the Evergreen "..AQGARRISON
+Inst150Quest7_Note = "The Depleted Everbloom Seeds drops from trash on the way to Witherbark at "..YELLOW.."[1]"..WHITE..".\n\nPhylarch's Research is in a house near Archmage Sol "..YELLOW.."[3]"..WHITE.." at coordinates "..YELLOW.."62.4, 37.6"..WHITE..".\n\nXeri'tac's Venom Gland drops from Xeri'tac at "..YELLOW.."[4]"..WHITE.."."
+Inst150Quest7_Prequest = "None"
+Inst150Quest7_Folgequest = "None"
+--
+Inst150Quest7name1 = "Everbloom Seed Pouch"
+
+--Quest 8 Alliance
+Inst150Quest8 = "8. Core of Life"
+Inst150Quest8_Level = "100"
+Inst150Quest8_Attain = "98"
+Inst150Quest8_Aim = "Collect a Core of Life by slaying Yalnu in the Overgrown Outpost [Heroic only]"
+Inst150Quest8_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst150Quest8_Note = "Part of the Draenor Legendary Ring questline.  Requires Heroic Difficulty.\n\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE.."."
+Inst150Quest8_Prequest = "Call of the Archmage -> Khadgar's Task"
+Inst150Quest8_Folgequest = "Tackling Teron'gor"
+Inst150Quest8PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst150Quest9 = "9. A Worthy Challenge: Yalnu"
+Inst150Quest9_Level = "100"
+Inst150Quest9_Attain = "100"
+Inst150Quest9_Aim = "Complete The Everbloom Challenge Mode."
+Inst150Quest9_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst150Quest9_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
+Inst150Quest9_Prequest = "None"
+Inst150Quest9_Folgequest = "None"
+--
+Inst150Quest9name1 = "Challenger's Strongbox"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst150Quest1_HORDE = Inst150Quest1
+Inst150Quest1_HORDE_Level = Inst150Quest1_Level
+Inst150Quest1_HORDE_Attain = Inst150Quest1_Attain
+Inst150Quest1_HORDE_Aim = Inst150Quest1_Aim
+Inst150Quest1_HORDE_Location = Inst150Quest1_Location
+Inst150Quest1_HORDE_Note = Inst150Quest1_Note
+Inst150Quest1_HORDE_Prequest = Inst150Quest1_Prequest
+Inst150Quest1_HORDE_Folgequest = Inst150Quest1_Folgequest
+--
+Inst150Quest1name1_HORDE = Inst150Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst150Quest2_HORDE = Inst150Quest2
+Inst150Quest2_HORDE_Level = Inst150Quest2_Level
+Inst150Quest2_HORDE_Attain = Inst150Quest2_Attain
+Inst150Quest2_HORDE_Aim = Inst150Quest2_Aim
+Inst150Quest2_HORDE_Location = Inst150Quest2_Location
+Inst150Quest2_HORDE_Note = Inst150Quest2_Note
+Inst150Quest2_HORDE_Prequest = Inst150Quest2_Prequest
+Inst150Quest2_HORDE_Folgequest = Inst150Quest2_Folgequest
+--
+Inst150Quest2name1_HORDE = Inst150Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst150Quest3_HORDE = Inst150Quest3
+Inst150Quest3_HORDE_Level = Inst150Quest3_Level
+Inst150Quest3_HORDE_Attain = Inst150Quest3_Attain
+Inst150Quest3_HORDE_Aim = Inst150Quest3_Aim
+Inst150Quest3_HORDE_Location = Inst150Quest3_Location
+Inst150Quest3_HORDE_Note = Inst150Quest3_Note
+Inst150Quest3_HORDE_Prequest = Inst150Quest3_Prequest
+Inst150Quest3_HORDE_Folgequest = Inst150Quest3_Folgequest
+--
+Inst150Quest3name1_HORDE = Inst150Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst150Quest4_HORDE = Inst150Quest4
+Inst150Quest4_HORDE_Level = Inst150Quest4_Level
+Inst150Quest4_HORDE_Attain = Inst150Quest4_Attain
+Inst150Quest4_HORDE_Aim = Inst150Quest4_Aim
+Inst150Quest4_HORDE_Location = Inst150Quest4_Location
+Inst150Quest4_HORDE_Note = Inst150Quest4_Note
+Inst150Quest4_HORDE_Prequest = Inst150Quest4_Prequest
+Inst150Quest4_HORDE_Folgequest = Inst150Quest4_Folgequest
+--
+Inst150Quest4name1_HORDE = Inst150Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst150Quest5_HORDE = Inst150Quest5
+Inst150Quest5_HORDE_Level = Inst150Quest5_Level
+Inst150Quest5_HORDE_Attain = Inst150Quest5_Attain
+Inst150Quest5_HORDE_Aim = Inst150Quest5_Aim
+Inst150Quest5_HORDE_Location = Inst150Quest5_Location
+Inst150Quest5_HORDE_Note = Inst150Quest5_Note
+Inst150Quest5_HORDE_Prequest = Inst150Quest5_Prequest
+Inst150Quest5_HORDE_Folgequest = Inst150Quest5_Folgequest
+--
+Inst150Quest5name1_HORDE = Inst150Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst150Quest6_HORDE = Inst150Quest6
+Inst150Quest6_HORDE_Level = Inst150Quest6_Level
+Inst150Quest6_HORDE_Attain = Inst150Quest6_Attain
+Inst150Quest6_HORDE_Aim = Inst150Quest6_Aim
+Inst150Quest6_HORDE_Location = Inst150Quest6_Location
+Inst150Quest6_HORDE_Note = Inst150Quest6_Note
+Inst150Quest6_HORDE_Prequest = Inst150Quest6_Prequest
+Inst150Quest6_HORDE_Folgequest = Inst150Quest6_Folgequest
+--
+Inst150Quest6name1_HORDE = Inst150Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst150Quest7_HORDE = Inst150Quest7
+Inst150Quest7_HORDE_Level = Inst150Quest7_Level
+Inst150Quest7_HORDE_Attain = Inst150Quest7_Attain
+Inst150Quest7_HORDE_Aim = Inst150Quest7_Aim
+Inst150Quest7_HORDE_Location = Inst150Quest7_Location
+Inst150Quest7_HORDE_Note = Inst150Quest7_Note
+Inst150Quest7_HORDE_Prequest = Inst150Quest7_Prequest
+Inst150Quest7_HORDE_Folgequest = Inst150Quest7_Folgequest
+--
+Inst150Quest7name1_HORDE = Inst150Quest7name1
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst150Quest8_HORDE = Inst150Quest8
+Inst150Quest8_HORDE_Level = Inst150Quest8_Level
+Inst150Quest8_HORDE_Attain = Inst150Quest8_Attain
+Inst150Quest8_HORDE_Aim = Inst150Quest8_Aim
+Inst150Quest8_HORDE_Location = Inst150Quest8_Location
+Inst150Quest8_HORDE_Note = Inst150Quest8_Note
+Inst150Quest8_HORDE_Prequest = Inst150Quest8_Prequest
+Inst150Quest8_HORDE_Folgequest = Inst150Quest8_Folgequest
+Inst150Quest8PreQuest_HORDE = Inst150Quest8PreQuest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst150Quest9_HORDE = Inst150Quest9
+Inst150Quest9_HORDE_Level = Inst150Quest9_Level
+Inst150Quest9_HORDE_Attain = Inst150Quest9_Attain
+Inst150Quest9_HORDE_Aim = Inst150Quest9_Aim
+Inst150Quest9_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst150Quest9_HORDE_Note = Inst150Quest9_Note
+Inst150Quest9_HORDE_Prequest = Inst150Quest9_Prequest
+Inst150Quest9_HORDE_Folgequest = Inst150Quest9_Folgequest
+--
+Inst150Quest9name1_HORDE = Inst150Quest9name1
 
 
 
 --------------- INST151 - Grimrail Depot ---------------
 
 Inst151Caption = "Grimrail Depot"
-Inst151QAA = "No Quests"
-Inst151QAH = "No Quests"
+Inst151QAA = "8 Quests"
+Inst151QAH = "8 Quests"
+
+--Quest 1 Alliance
+Inst151Quest1 = "1. Cleaving Time"
+Inst151Quest1_Level = "100"
+Inst151Quest1_Attain = "100"
+Inst151Quest1_Aim = "Find an Iron Limbcleaver in Grimrail Depot."
+Inst151Quest1_Location = "Gamon "..AQGARRISON
+Inst151Quest1_Note = "Requires Heroic Difficulty.  You can find the Iron Limbcleaver in the middle of the second train car."
+Inst151Quest1_Prequest = "None"
+Inst151Quest1_Folgequest = "None"
+--
+Inst151Quest1name1 = "Gamon's Braid"
+
+--Quest 2 Alliance
+Inst151Quest2 = "2. An Axe to Grind"
+Inst151Quest2_Level = "100"
+Inst151Quest2_Attain = "100"
+Inst151Quest2_Aim = "Find an Iron Limbcleaver in Grimrail Depot."
+Inst151Quest2_Location = "Gamon "..AQGARRISON
+Inst151Quest2_Note = "Requires Heroic Difficulty.  You can find the Iron Limbcleaver in the middle of the second train car."
+Inst151Quest2_Prequest = "None"
+Inst151Quest2_Folgequest = "None"
+--
+Inst151Quest2name1 = "Supply of Storied Rarities"
+
+--Quest 3 Alliance
+Inst151Quest3 = "3. And No Maces!"
+Inst151Quest3_Level = "100"
+Inst151Quest3_Attain = "100"
+Inst151Quest3_Aim = "Collect a Huge Crate of Weapons in Grimrail Depot."
+Inst151Quest3_Location = "Lonika Stillblade "..AQGARRISON
+Inst151Quest3_Note = "Requires Heroic Difficulty.  The Huge Crate of Weapons is on the way to the first boss at coordinates "..YELLOW.."53.3, 39.1"..WHITE.."."
+Inst151Quest3_Prequest = "None"
+Inst151Quest3_Folgequest = "None"
+--
+Inst151Quest3name1 = "Cache of Arms"
+
+--Quest 4 Alliance
+Inst151Quest4 = "4. Learning Is Painful"
+Inst151Quest4_Level = "100"
+Inst151Quest4_Attain = "100"
+Inst151Quest4_Aim = "Collect a Huge Crate of Weapons in Grimrail Depot."
+Inst151Quest4_Location = "Lonika Stillblade "..AQGARRISON
+Inst151Quest4_Note = "Requires Heroic Difficulty.  The Huge Crate of Weapons is on the way to the first boss at coordinates "..YELLOW.."53.3, 39.1"..WHITE.."."
+Inst151Quest4_Prequest = "None"
+Inst151Quest4_Folgequest = "None"
+--
+Inst151Quest4name1 = "Supply of Storied Rarities"
+
+--Quest 5 Alliance
+Inst151Quest5 = "5. Cold Steel"
+Inst151Quest5_Level = "100"
+Inst151Quest5_Attain = "98"
+Inst151Quest5_Aim = "Find an Iron Autocannon in Grimrail Depot."
+Inst151Quest5_Location = "John J. Keeshan "..AQGARRISON
+Inst151Quest5_Note = "Requires Heroic Difficulty.  You can find the Iron Autocannon after you kill the second boss at "..YELLOW.."[2]"..WHITE.."."
+Inst151Quest5_Prequest = "None"
+Inst151Quest5_Folgequest = "None"
+--
+Inst151Quest5name1 = "Bloody Bandanna"
+
+--Quest 6 Alliance
+Inst151Quest6 = "6. Cold Steel Part II"
+Inst151Quest6_Level = "100"
+Inst151Quest6_Attain = "98"
+Inst151Quest6_Aim = "Find an Iron Autocannon in Grimrail Depot."
+Inst151Quest6_Location = "John J. Keeshan "..AQGARRISON
+Inst151Quest6_Note = "Requires Heroic Difficulty.  You can find the Iron Autocannon after you kill the second boss at "..YELLOW.."[2]"..WHITE.."."
+Inst151Quest6_Prequest = "None"
+Inst151Quest6_Folgequest = "None"
+--
+Inst151Quest6name1 = "Box of Storied Treasures"
+
+--Quest 7 Alliance
+Inst151Quest7 = "7. Core of Iron"
+Inst151Quest7_Level = "100"
+Inst151Quest7_Attain = "98"
+Inst151Quest7_Aim = "Collect a Core of Iron from the engine of the Grimrail Depot train [Heroic only.]"
+Inst151Quest7_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst151Quest7_Note = "Part of the Draenor Legendary Ring questline.  Requires Heroic Difficulty.\n\nAfter defeating the final boss, look for a small iron star on fire nearby."
+Inst151Quest7_Prequest = "Call of the Archmage -> Khadgar's Task"
+Inst151Quest7_Folgequest = "Tackling Teron'gor"
+Inst151Quest7PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst151Quest8 = "8. A Worthy Challenge: Skylord Tovra"
+Inst151Quest8_Level = "100"
+Inst151Quest8_Attain = "100"
+Inst151Quest8_Aim = "Complete the Grimrail Depot Challenge Mode."
+Inst151Quest8_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst151Quest8_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
+Inst151Quest8_Prequest = "None"
+Inst151Quest8_Folgequest = "None"
+--
+Inst151Quest8name1 = "Challenger's Strongbox"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst151Quest1_HORDE = Inst151Quest1
+Inst151Quest1_HORDE_Level = Inst151Quest1_Level
+Inst151Quest1_HORDE_Attain = Inst151Quest1_Attain
+Inst151Quest1_HORDE_Aim = Inst151Quest1_Aim
+Inst151Quest1_HORDE_Location = Inst151Quest1_Location
+Inst151Quest1_HORDE_Note = Inst151Quest1_Note
+Inst151Quest1_HORDE_Prequest = Inst151Quest1_Prequest
+Inst151Quest1_HORDE_Folgequest = Inst151Quest1_Folgequest
+--
+Inst151Quest1name1_HORDE = Inst151Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst151Quest2_HORDE = Inst151Quest2
+Inst151Quest2_HORDE_Level = Inst151Quest2_Level
+Inst151Quest2_HORDE_Attain = Inst151Quest2_Attain
+Inst151Quest2_HORDE_Aim = Inst151Quest2_Aim
+Inst151Quest2_HORDE_Location = Inst151Quest2_Location
+Inst151Quest2_HORDE_Note = Inst151Quest2_Note
+Inst151Quest2_HORDE_Prequest = Inst151Quest2_Prequest
+Inst151Quest2_HORDE_Folgequest = Inst151Quest2_Folgequest
+--
+Inst151Quest2name1_HORDE = Inst151Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst151Quest3_HORDE = Inst151Quest3
+Inst151Quest3_HORDE_Level = Inst151Quest3_Level
+Inst151Quest3_HORDE_Attain = Inst151Quest3_Attain
+Inst151Quest3_HORDE_Aim = Inst151Quest3_Aim
+Inst151Quest3_HORDE_Location = Inst151Quest3_Location
+Inst151Quest3_HORDE_Note = Inst151Quest3_Note
+Inst151Quest3_HORDE_Prequest = Inst151Quest3_Prequest
+Inst151Quest3_HORDE_Folgequest = Inst151Quest3_Folgequest
+--
+Inst151Quest3name1_HORDE = Inst151Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst151Quest4_HORDE = Inst151Quest4
+Inst151Quest4_HORDE_Level = Inst151Quest4_Level
+Inst151Quest4_HORDE_Attain = Inst151Quest4_Attain
+Inst151Quest4_HORDE_Aim = Inst151Quest4_Aim
+Inst151Quest4_HORDE_Location = Inst151Quest4_Location
+Inst151Quest4_HORDE_Note = Inst151Quest4_Note
+Inst151Quest4_HORDE_Prequest = Inst151Quest4_Prequest
+Inst151Quest4_HORDE_Folgequest = Inst151Quest4_Folgequest
+--
+Inst151Quest4name1_HORDE = Inst151Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst151Quest5_HORDE = Inst151Quest5
+Inst151Quest5_HORDE_Level = Inst151Quest5_Level
+Inst151Quest5_HORDE_Attain = Inst151Quest5_Attain
+Inst151Quest5_HORDE_Aim = Inst151Quest5_Aim
+Inst151Quest5_HORDE_Location = Inst151Quest5_Location
+Inst151Quest5_HORDE_Note = Inst151Quest5_Note
+Inst151Quest5_HORDE_Prequest = Inst151Quest5_Prequest
+Inst151Quest5_HORDE_Folgequest = Inst151Quest5_Folgequest
+--
+Inst151Quest5name1_HORDE = Inst151Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst151Quest6_HORDE = Inst151Quest6
+Inst151Quest6_HORDE_Level = Inst151Quest6_Level
+Inst151Quest6_HORDE_Attain = Inst151Quest6_Attain
+Inst151Quest6_HORDE_Aim = Inst151Quest6_Aim
+Inst151Quest6_HORDE_Location = Inst151Quest6_Location
+Inst151Quest6_HORDE_Note = Inst151Quest6_Note
+Inst151Quest6_HORDE_Prequest = Inst151Quest6_Prequest
+Inst151Quest6_HORDE_Folgequest = Inst151Quest6_Folgequest
+--
+Inst151Quest6name1_HORDE = Inst151Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst151Quest7_HORDE = Inst151Quest7
+Inst151Quest7_HORDE_Level = Inst151Quest7_Level
+Inst151Quest7_HORDE_Attain = Inst151Quest7_Attain
+Inst151Quest7_HORDE_Aim = Inst151Quest7_Aim
+Inst151Quest7_HORDE_Location = Inst151Quest7_Location
+Inst151Quest7_HORDE_Note = Inst151Quest7_Note
+Inst151Quest7_HORDE_Prequest = Inst151Quest7_Prequest
+Inst151Quest7_HORDE_Folgequest = Inst151Quest7_Folgequest
+Inst151Quest7PreQuest_HORDE = Inst151Quest7PreQuest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst151Quest8_HORDE = Inst151Quest8
+Inst151Quest8_HORDE_Level = Inst151Quest8_Level
+Inst151Quest8_HORDE_Attain = Inst151Quest8_Attain
+Inst151Quest8_HORDE_Aim = Inst151Quest8_Aim
+Inst151Quest8_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst151Quest8_HORDE_Note = Inst151Quest8_Note
+Inst151Quest8_HORDE_Prequest = Inst151Quest8_Prequest
+Inst151Quest8_HORDE_Folgequest = Inst151Quest8_Folgequest
+--
+Inst151Quest8name1_HORDE = Inst151Quest8name1
 
 
 

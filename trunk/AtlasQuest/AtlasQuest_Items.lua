@@ -7340,9 +7340,234 @@ Inst149Quest6ID1_HORDE = "119032"
 
 --------------- INST150 - The Everbloom ---------------
 
+--Quest 1 Alliance
+Inst150Quest1Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst150Quest1ITC1 = Itemc4;
+Inst150Quest1description1 = AQITEM_PET
+Inst150Quest1ID1 = "118921"
+
+--Quest 2 Alliance
+Inst150Quest2Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst150Quest2ITC1 = Itemc4;
+Inst150Quest2description1 = AQITEM_ITEM
+Inst150Quest2ID1 = "119036"
+
+--Quest 3 Alliance
+Inst150Quest3Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst150Quest3ITC1 = Itemc4;
+Inst150Quest3description1 = AQITEM_ITEM
+Inst150Quest3ID1 = "118930"
+
+--Quest 4 Alliance
+Inst150Quest4Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst150Quest4ITC1 = Itemc4;
+Inst150Quest4description1 = AQITEM_ITEM
+Inst150Quest4ID1 = "119037"
+
+--Quest 5 Alliance
+Inst150Quest5Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst150Quest5ITC1 = Itemc4;
+Inst150Quest5description1 = AQITEM_ITEM
+Inst150Quest5ID1 = "118935"
+
+--Quest 6 Alliance
+Inst150Quest6Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst150Quest6ITC1 = Itemc4;
+Inst150Quest6description1 = AQITEM_ITEM
+Inst150Quest6ID1 = "119037"
+
+--Quest 7 Alliance
+Inst150Quest7Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst150Quest7ITC1 = Itemc4;
+Inst150Quest7description1 = AQITEM_ITEM
+Inst150Quest7ID1 = "117398"
+
+--Quest 8 Alliance
+Inst150Quest8Rewardtext = AQNoReward
+
+--Quest 9 Alliance
+Inst150Quest9Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst150Quest9ITC1 = Itemc4;
+Inst150Quest9description1 = AQITEM_ITEM
+Inst150Quest9ID1 = "119032"
+
+
+--Quest 1 Horde
+Inst150Quest1Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst150Quest1ITC1_HORDE = Itemc4;
+Inst150Quest1description1_HORDE = AQITEM_PET
+Inst150Quest1ID1_HORDE = "118921"
+
+--Quest 2 Horde
+Inst150Quest2Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst150Quest2ITC1_HORDE = Itemc4;
+Inst150Quest2description1_HORDE = AQITEM_ITEM
+Inst150Quest2ID1_HORDE = "119036"
+
+--Quest 3 Horde
+Inst150Quest3Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst150Quest3ITC1_HORDE = Itemc4;
+Inst150Quest3description1_HORDE = AQITEM_ITEM
+Inst150Quest3ID1_HORDE = "118930"
+
+--Quest 4 Horde
+Inst150Quest4Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst150Quest4ITC1_HORDE = Itemc4;
+Inst150Quest4description1_HORDE = AQITEM_ITEM
+Inst150Quest4ID1_HORDE = "119037"
+
+--Quest 5 Horde
+Inst150Quest5Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst150Quest5ITC1_HORDE = Itemc4;
+Inst150Quest5description1_HORDE = AQITEM_ITEM
+Inst150Quest5ID1_HORDE = "118935"
+
+--Quest 6 Horde
+Inst150Quest6Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst150Quest6ITC1_HORDE = Itemc4;
+Inst150Quest6description1_HORDE = AQITEM_ITEM
+Inst150Quest6ID1_HORDE = "119037"
+
+--Quest 7 Horde
+Inst150Quest7Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst150Quest7ITC1_HORDE = Itemc4;
+Inst150Quest7description1_HORDE = AQITEM_ITEM
+Inst150Quest7ID1_HORDE = "117398"
+
+--Quest 8 Horde
+Inst150Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst150Quest9Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst150Quest9ITC1_HORDE = Itemc4;
+Inst150Quest9description1_HORDE = AQITEM_ITEM
+Inst150Quest9ID1_HORDE = "119032"
+
 
 
 --------------- INST151 - Grimrail Depot ---------------
+
+--Quest 1 Alliance
+Inst151Quest1Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst151Quest1ITC1 = Itemc4;
+Inst151Quest1description1 = AQITEM_TOY
+Inst151Quest1ID1 = "118937"
+
+--Quest 2 Alliance
+Inst151Quest2Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst151Quest2ITC1 = Itemc4;
+Inst151Quest2description1 = AQITEM_ITEM
+Inst151Quest2ID1 = "119037"
+
+--Quest 3 Alliance
+Inst151Quest3Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst151Quest3ITC1 = Itemc4;
+Inst151Quest3description1 = AQITEM_ITEM
+Inst151Quest3ID1 = "118924"
+
+--Quest 4 Alliance
+Inst151Quest4Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst151Quest4ITC1 = Itemc4;
+Inst151Quest4description1 = AQITEM_ITEM
+Inst151Quest4ID1 = "119037"
+
+--Quest 5 Alliance
+Inst151Quest5Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst151Quest5ITC1 = Itemc4;
+Inst151Quest5description1 = AQITEM_HEAD..AQITEM_COSMETIC
+Inst151Quest5ID1 = "118918"
+
+--Quest 6 Alliance
+Inst151Quest6Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst151Quest6ITC1 = Itemc4;
+Inst151Quest6description1 = AQITEM_ITEM
+Inst151Quest6ID1 = "119036"
+
+--Quest 7 Alliance
+Inst151Quest7Rewardtext = AQNoReward
+
+--Quest 8 Alliance
+Inst151Quest8Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst151Quest8ITC1 = Itemc4;
+Inst151Quest8description1 = AQITEM_ITEM
+Inst151Quest8ID1 = "119032"
+
+
+--Quest 1 Horde
+Inst151Quest1Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst151Quest1ITC1_HORDE = Itemc4;
+Inst151Quest1description1_HORDE = AQITEM_TOY
+Inst151Quest1ID1_HORDE = "118937"
+
+--Quest 2 Horde
+Inst151Quest2Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst151Quest2ITC1_HORDE = Itemc4;
+Inst151Quest2description1_HORDE = AQITEM_ITEM
+Inst151Quest2ID1_HORDE = "119037"
+
+--Quest 3 Horde
+Inst151Quest3Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst151Quest3ITC1_HORDE = Itemc4;
+Inst151Quest3description1_HORDE = AQITEM_ITEM
+Inst151Quest3ID1_HORDE = "118924"
+
+--Quest 4 Horde
+Inst151Quest4Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst151Quest4ITC1_HORDE = Itemc4;
+Inst151Quest4description1_HORDE = AQITEM_ITEM
+Inst151Quest4ID1_HORDE = "119037"
+
+--Quest 5 Horde
+Inst151Quest5Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst151Quest5ITC1_HORDE = Itemc4;
+Inst151Quest5description1_HORDE = AQITEM_HEAD..AQITEM_COSMETIC
+Inst151Quest5ID1_HORDE = "118918"
+
+--Quest 6 Horde
+Inst151Quest6Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst151Quest6ITC1_HORDE = Itemc4;
+Inst151Quest6description1_HORDE = AQITEM_ITEM
+Inst151Quest6ID1_HORDE = "119036"
+
+--Quest 7 Horde
+Inst151Quest7Rewardtext_HORDE = AQNoReward
+
+--Quest 8 Horde
+Inst151Quest8Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst151Quest8ITC1_HORDE = Itemc4;
+Inst151Quest8description1_HORDE = AQITEM_ITEM
+Inst151Quest8ID1_HORDE = "119032"
+
 
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
