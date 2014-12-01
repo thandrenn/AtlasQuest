@@ -40,8 +40,23 @@ Version 4.9.1 BETA  (December ??, 2014)
 	- Iron Docks: The Brass Compass
 	- Iron Docks: The Search Continues
 	- Iron Docks: A Worthy Challenge: Skullok, Son of Gruul
-	
-
+	- The Everbloom: For the Birds
+	- The Everbloom: Put a Bird on It
+	- The Everbloom: Titanic Evolution
+	- The Everbloom: Lessons of the Past
+	- The Everbloom: Cenarion Concerns
+	- The Everbloom: The Leaf-Reader
+	- The Everbloom: Subversive Infestation
+	- The Everbloom: Core of Life
+	- The Everbloom: A Worthy Challenge: Yalnu
+	- Grimrail Depot: Cleaving Time
+	- Grimrail Depot: An Axe to Grind
+	- Grimrail Depot: And No Maces!
+	- Grimrail Depot: Learning Is Painful
+	- Grimrail Depot: Cold Steel
+	- Grimrail Depot: Cold Steel Part II
+	- Grimrail Depot: Core of Iron
+	- Grimrail Depot: A Worthy Challenge: Skylord Tovra
 
 
 

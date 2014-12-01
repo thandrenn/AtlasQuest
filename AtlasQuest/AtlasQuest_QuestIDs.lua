@@ -2496,14 +2496,135 @@ AQ_37262_Level = "100"
 
 --------------- INST150 - The Everbloom ---------------
 
+Inst150Quest1_QuestID = "37150"
+Inst150Quest2_QuestID = "37227"
+Inst150Quest3_QuestID = "37166"
+Inst150Quest4_QuestID = "37241"
+Inst150Quest5_QuestID = "37165"
+Inst150Quest6_QuestID = "37240"
+Inst150Quest7_QuestID = "36813"
+Inst150Quest8_QuestID = "35992"
+Inst150Quest9_QuestID = "37278"
+
+Inst150Quest1_HORDE_QuestID = "37150"
+Inst150Quest2_HORDE_QuestID = "37227"
+Inst150Quest3_HORDE_QuestID = "37166"
+Inst150Quest4_HORDE_QuestID = "37241"
+Inst150Quest5_HORDE_QuestID = "37165"
+Inst150Quest6_HORDE_QuestID = "37240"
+Inst150Quest7_HORDE_QuestID = "36813"
+Inst150Quest8_HORDE_QuestID = "35992"
+Inst150Quest9_HORDE_QuestID = "37265"
+
+
+AQ_37150_Level = "100"
+AQ_37227_Level = "100"
+AQ_37166_Level = "100"
+AQ_37241_Level = "100"
+AQ_37165_Level = "100"
+AQ_37240_Level = "100"
+AQ_36813_Level = "100"
+AQ_35992_Level = "100"
+AQ_37278_Level = "100"
+AQ_37265_Level = "100"
+
+
 
 --------------- INST151 - Grimrail Depot ---------------
+
+Inst151Quest1_QuestID = "37160"
+Inst151Quest2_QuestID = "37243"
+Inst151Quest3_QuestID = "37167"
+Inst151Quest4_QuestID = "37242"
+Inst151Quest5_QuestID = "37151"
+Inst151Quest6_QuestID = "37209"
+Inst151Quest7_QuestID = "35991"
+Inst151Quest8_QuestID = "37273"
+
+Inst151Quest1_HORDE_QuestID = "37160"
+Inst151Quest2_HORDE_QuestID = "37243"
+Inst151Quest3_HORDE_QuestID = "37167"
+Inst151Quest4_HORDE_QuestID = "37242"
+Inst151Quest5_HORDE_QuestID = "37151"
+Inst151Quest6_HORDE_QuestID = "37209"
+Inst151Quest7_HORDE_QuestID = "35991"
+Inst151Quest8_HORDE_QuestID = "37261"
+
+
+AQ_37160_Level = "100"
+AQ_37243_Level = "100"
+AQ_37167_Level = "100"
+AQ_37242_Level = "100"
+AQ_37151_Level = "100"
+AQ_37209_Level = "100"
+AQ_35991_Level = "100"
+AQ_37273_Level = "100"
+AQ_37261_Level = "100"
+
 
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
+Inst152Quest1_QuestID = ""
+Inst152Quest2_QuestID = ""
+Inst152Quest3_QuestID = ""
+Inst152Quest4_QuestID = ""
+Inst152Quest5_QuestID = ""
+Inst152Quest6_QuestID = ""
+Inst152Quest7_QuestID = ""
+Inst152Quest8_QuestID = ""
+
+Inst152Quest1_HORDE_QuestID = ""
+Inst152Quest2_HORDE_QuestID = ""
+Inst152Quest3_HORDE_QuestID = ""
+Inst152Quest4_HORDE_QuestID = ""
+Inst152Quest5_HORDE_QuestID = ""
+Inst152Quest6_HORDE_QuestID = ""
+Inst152Quest7_HORDE_QuestID = ""
+Inst152Quest8_HORDE_QuestID = ""
+
+
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+
+
 
 --------------- INST153 - Upper Blackrock Spire ---------------
+
+Inst153Quest1_QuestID = ""
+Inst153Quest2_QuestID = ""
+Inst153Quest3_QuestID = ""
+Inst153Quest4_QuestID = ""
+Inst153Quest5_QuestID = ""
+Inst153Quest6_QuestID = ""
+Inst153Quest7_QuestID = ""
+Inst153Quest8_QuestID = ""
+
+Inst153Quest1_HORDE_QuestID = ""
+Inst153Quest2_HORDE_QuestID = ""
+Inst153Quest3_HORDE_QuestID = ""
+Inst153Quest4_HORDE_QuestID = ""
+Inst153Quest5_HORDE_QuestID = ""
+Inst153Quest6_HORDE_QuestID = ""
+Inst153Quest7_HORDE_QuestID = ""
+Inst153Quest8_HORDE_QuestID = ""
+
+
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+
 
 
 --------------- INST154 - Highmaul ---------------
