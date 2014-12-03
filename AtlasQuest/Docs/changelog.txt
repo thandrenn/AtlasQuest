@@ -57,7 +57,24 @@ Version 4.9.1 BETA  (December ??, 2014)
 	- Grimrail Depot: Cold Steel Part II
 	- Grimrail Depot: Core of Iron
 	- Grimrail Depot: A Worthy Challenge: Skylord Tovra
-
+	- Shadowmoon Burial Grounds: The Void-Gate
+	- Shadowmoon Burial Grounds: Whispers in the Darkness
+	- Shadowmoon Burial Grounds: Shadowy Secrets
+	- Shadowmoon Burial Grounds: Secrets of Soulbinding
+	- Shadowmoon Burial Grounds: The Huntresses
+	- Shadowmoon Burial Grounds: Fate of the Fallen
+	- Shadowmoon Burial Grounds: A Worthy Challenge: Ner'zhul
+	- Upper Blackrock Spire: Oralius' Adventure
+	- Upper Blackrock Spire: Flamefly Trap
+	- Upper Blackrock Spire: Family Traditions
+	- Upper Blackrock Spire: Like Father, Like Son
+	- Upper Blackrock Spire: Damsels and Dragons
+	- Upper Blackrock Spire: A Hero's Quest is Never Complete
+	- Upper Blackrock Spire: For The Children!
+	- Upper Blackrock Spire: A Worthy Challenge: Warlord Zaela
+	- Highmaul: Empire's Fall
+	- Highmaul: Legacy of the Sorcerer Kings
+	
 
 
 Version 4.9.0 (BETA)  (October 25, 2014)
