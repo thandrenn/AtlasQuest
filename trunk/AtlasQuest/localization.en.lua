@@ -13976,24 +13976,433 @@ Inst151Quest8name1_HORDE = Inst151Quest8name1
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
 Inst152Caption = "Shadowmoon Burial Grounds"
-Inst152QAA = "No Quests"
-Inst152QAH = "No Quests"
+Inst152QAA = "7 Quests"
+Inst152QAH = "7 Quests"
+
+--Quest 1 Alliance
+Inst152Quest1 = "1. The Void-Gate"
+Inst152Quest1_Level = "100"
+Inst152Quest1_Attain = "98"
+Inst152Quest1_Aim = "Find a Void-Gate Key in the Shadowmoon Burial Grounds."
+Inst152Quest1_Location = "Impsy "..AQGARRISON
+Inst152Quest1_Note = "The Void-Gate Key is fairly close to the entrance of the dungeon.  It is on a pedestal in a room shortly after the first set of stairs at coordinates "..YELLOW.."37.4, 51.7"..WHITE.."."
+Inst152Quest1_Prequest = "None"
+Inst152Quest1_Folgequest = "None"
+--
+Inst152Quest1name1 = "Manual of Void-Calling"
+
+--Quest 2 Alliance
+Inst152Quest2 = "2. Whispers in the Darkness"
+Inst152Quest2_Level = "100"
+Inst152Quest2_Attain = "98"
+Inst152Quest2_Aim = "Find a Void-Gate Key in the Shadowmoon Burial Grounds."
+Inst152Quest2_Location = "Impsy "..AQGARRISON
+Inst152Quest2_Note = "The Void-Gate Key is fairly close to the entrance of the dungeon.  It is on a pedestal in a room shortly after the first set of stairs at coordinates "..YELLOW.."37.4, 51.7"..WHITE.."."
+Inst152Quest2_Prequest = "None"
+Inst152Quest2_Folgequest = "None"
+--
+Inst152Quest2name1 = "Box of Storied Treasures"
+
+--Quest 3 Alliance
+Inst152Quest3 = "3. Shadowy Secrets"
+Inst152Quest3_Level = "100"
+Inst152Quest3_Attain = "100"
+Inst152Quest3_Aim = "Collect a Dark Parchment from the Shadowmoon Burial Grounds."
+Inst152Quest3_Location = "Highlord Darion Mograine "..AQGARRISON
+Inst152Quest3_Note = "Requires Heroic Difficulty.  After entering the dungeon, walk down the corridor.  You'll find the Dark Parchment on the ground on the left side of the first room."
+Inst152Quest3_Prequest = "None"
+Inst152Quest3_Folgequest = "None"
+--
+Inst152Quest3name1 = "Void Totem"
+
+--Quest 4 Alliance
+Inst152Quest4 = "4. Secrets of Soulbinding"
+Inst152Quest4_Level = "100"
+Inst152Quest4_Attain = "100"
+Inst152Quest4_Aim = "Collect a Dark Parchment from the Shadowmoon Burial Grounds."
+Inst152Quest4_Location = "Highlord Darion Mograine "..AQGARRISON
+Inst152Quest4_Note = "Requires Heroic Difficulty.  After entering the dungeon, walk down the corridor.  You'll find the Dark Parchment on the ground on the left side of the first room."
+Inst152Quest4_Prequest = "None"
+Inst152Quest4_Folgequest = "None"
+--
+Inst152Quest4name1 = "Supply of Storied Rarities"
+
+--Quest 5 Alliance
+Inst152Quest5 = "5. The Huntresses"
+Inst152Quest5_Level = "100"
+Inst152Quest5_Attain = "100"
+Inst152Quest5_Aim = "Collect a Silver-Lined Arrow from the Shadowmoon Burial Ground."
+Inst152Quest5_Location = "Cowled Ranger "..AQGARRISON
+Inst152Quest5_Note = "Requires Heroic Difficulty.  The Silver-Lined Arrow is on an altar after you defeat Nhallish at "..YELLOW.."[2]"..WHITE.."."
+Inst152Quest5_Prequest = "None"
+Inst152Quest5_Folgequest = "None"
+--
+Inst152Quest5name1 = "Sentinel's Companion"
+
+--Quest 6 Alliance
+Inst152Quest6 = "6. Fate of the Fallen"
+Inst152Quest6_Level = "100"
+Inst152Quest6_Attain = "100"
+Inst152Quest6_Aim = "Collect a Silver-Lined Arrow from the Shadowmoon Burial Ground."
+Inst152Quest6_Location = "Cowled Ranger "..AQGARRISON
+Inst152Quest6_Note = "Requires Heroic Difficulty.  The Silver-Lined Arrow is on an altar after you defeat Nhallish at "..YELLOW.."[2]"..WHITE.."."
+Inst152Quest6_Prequest = "None"
+Inst152Quest6_Folgequest = "None"
+--
+Inst152Quest6name1 = "Supply of Storied Rarities"
+
+--Quest 7 Alliance
+Inst152Quest7 = "7. A Worthy Challenge: Ner'zhul"
+Inst152Quest7_Level = "100"
+Inst152Quest7_Attain = "100"
+Inst152Quest7_Aim = "Complete the Shadowmoon Burial Grounds Challenge Mode."
+Inst152Quest7_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst152Quest7_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
+Inst152Quest7_Prequest = "None"
+Inst152Quest7_Folgequest = "None"
+--
+Inst152Quest7name1 = "Challenger's Strongbox"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst152Quest1_HORDE = Inst152Quest1
+Inst152Quest1_HORDE_Level = Inst152Quest1_Level
+Inst152Quest1_HORDE_Attain = Inst152Quest1_Attain
+Inst152Quest1_HORDE_Aim = Inst152Quest1_Aim
+Inst152Quest1_HORDE_Location = Inst152Quest1_Location
+Inst152Quest1_HORDE_Note = Inst152Quest1_Note
+Inst152Quest1_HORDE_Prequest = Inst152Quest1_Prequest
+Inst152Quest1_HORDE_Folgequest = Inst152Quest1_Folgequest
+--
+Inst152Quest1name1_HORDE = Inst152Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst152Quest2_HORDE = Inst152Quest2
+Inst152Quest2_HORDE_Level = Inst152Quest2_Level
+Inst152Quest2_HORDE_Attain = Inst152Quest2_Attain
+Inst152Quest2_HORDE_Aim = Inst152Quest2_Aim
+Inst152Quest2_HORDE_Location = Inst152Quest2_Location
+Inst152Quest2_HORDE_Note = Inst152Quest2_Note
+Inst152Quest2_HORDE_Prequest = Inst152Quest2_Prequest
+Inst152Quest2_HORDE_Folgequest = Inst152Quest2_Folgequest
+--
+Inst152Quest2name1_HORDE = Inst152Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst152Quest3_HORDE = Inst152Quest3
+Inst152Quest3_HORDE_Level = Inst152Quest3_Level
+Inst152Quest3_HORDE_Attain = Inst152Quest3_Attain
+Inst152Quest3_HORDE_Aim = Inst152Quest3_Aim
+Inst152Quest3_HORDE_Location = Inst152Quest3_Location
+Inst152Quest3_HORDE_Note = Inst152Quest3_Note
+Inst152Quest3_HORDE_Prequest = Inst152Quest3_Prequest
+Inst152Quest3_HORDE_Folgequest = Inst152Quest3_Folgequest
+--
+Inst152Quest3name1_HORDE = Inst152Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst152Quest4_HORDE = Inst152Quest4
+Inst152Quest4_HORDE_Level = Inst152Quest4_Level
+Inst152Quest4_HORDE_Attain = Inst152Quest4_Attain
+Inst152Quest4_HORDE_Aim = Inst152Quest4_Aim
+Inst152Quest4_HORDE_Location = Inst152Quest4_Location
+Inst152Quest4_HORDE_Note = Inst152Quest4_Note
+Inst152Quest4_HORDE_Prequest = Inst152Quest4_Prequest
+Inst152Quest4_HORDE_Folgequest = Inst152Quest4_Folgequest
+--
+Inst152Quest4name1_HORDE = Inst152Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst152Quest5_HORDE = Inst152Quest5
+Inst152Quest5_HORDE_Level = Inst152Quest5_Level
+Inst152Quest5_HORDE_Attain = Inst152Quest5_Attain
+Inst152Quest5_HORDE_Aim = Inst152Quest5_Aim
+Inst152Quest5_HORDE_Location = Inst152Quest5_Location
+Inst152Quest5_HORDE_Note = Inst152Quest5_Note
+Inst152Quest5_HORDE_Prequest = Inst152Quest5_Prequest
+Inst152Quest5_HORDE_Folgequest = Inst152Quest5_Folgequest
+--
+Inst152Quest5name1_HORDE = Inst152Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst152Quest6_HORDE = Inst152Quest6
+Inst152Quest6_HORDE_Level = Inst152Quest6_Level
+Inst152Quest6_HORDE_Attain = Inst152Quest6_Attain
+Inst152Quest6_HORDE_Aim = Inst152Quest6_Aim
+Inst152Quest6_HORDE_Location = Inst152Quest6_Location
+Inst152Quest6_HORDE_Note = Inst152Quest6_Note
+Inst152Quest6_HORDE_Prequest = Inst152Quest6_Prequest
+Inst152Quest6_HORDE_Folgequest = Inst152Quest6_Folgequest
+--
+Inst152Quest6name1_HORDE = Inst152Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst152Quest7_HORDE = Inst152Quest7
+Inst152Quest7_HORDE_Level = Inst152Quest7_Level
+Inst152Quest7_HORDE_Attain = Inst152Quest7_Attain
+Inst152Quest7_HORDE_Aim = Inst152Quest7_Aim
+Inst152Quest7_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst152Quest7_HORDE_Note = Inst152Quest7_Note
+Inst152Quest7_HORDE_Prequest = Inst152Quest7_Prequest
+Inst152Quest7_HORDE_Folgequest = Inst152Quest7_Folgequest
+--
+Inst152Quest7name1_HORDE = Inst152Quest7name1
 
 
 
 --------------- INST153 - Upper Blackrock Spire ---------------
 
 Inst153Caption = "Upper Blackrock Spire"
-Inst153QAA = "No Quests"
-Inst153QAH = "No Quests"
+Inst153QAA = "8 Quests"
+Inst153QAH = "8 Quests"
+
+--Quest 1 Alliance
+Inst153Quest1 = "1. Oralius' Adventure"
+Inst153Quest1_Level = "100"
+Inst153Quest1_Attain = "98"
+Inst153Quest1_Aim = "Collect a Spire Flamefly in Upper Blackrock Spire."
+Inst153Quest1_Location = "Oralius "..AQGARRISON
+Inst153Quest1_Note = "The Spire Flamefly is on a barrel just up the ramp when you enter the dungeon."
+Inst153Quest1_Prequest = "None"
+Inst153Quest1_Folgequest = "None"
+--
+Inst153Quest1name1 = "Oralius' Whispering Crystal"
+
+--Quest 2 Alliance
+Inst153Quest2 = "2. Flamefly Trap"
+Inst153Quest2_Level = "100"
+Inst153Quest2_Attain = "98"
+Inst153Quest2_Aim = "Collect a Spire Flamefly in Upper Blackrock Spire."
+Inst153Quest2_Location = "Oralius "..AQGARRISON
+Inst153Quest2_Note = "The Spire Flamefly is on a barrel just up the ramp when you enter the dungeon."
+Inst153Quest2_Prequest = "None"
+Inst153Quest2_Folgequest = "None"
+--
+Inst153Quest2name1 = "Box of Storied Treasures"
+
+--Quest 3 Alliance
+Inst153Quest3 = "3. Family Traditions"
+Inst153Quest3_Level = "100"
+Inst153Quest3_Attain = "100"
+Inst153Quest3_Aim = "Find Finkle's Improved Skinner in Blackrock Spire."
+Inst153Quest3_Location = "Finkle Einhorn "..AQGARRISON
+Inst153Quest3_Note = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE.."."
+Inst153Quest3_Prequest = "None"
+Inst153Quest3_Folgequest = "None"
+--
+Inst153Quest3name1 = "Huge Pile of Skins"
+
+--Quest 4 Alliance
+Inst153Quest4 = "4. Like Father, Like Son"
+Inst153Quest4_Level = "100"
+Inst153Quest4_Attain = "100"
+Inst153Quest4_Aim = "Find Finkle's Improved Skinner in Blackrock Spire."
+Inst153Quest4_Location = "Finkle Einhorn "..AQGARRISON
+Inst153Quest4_Note = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE.."."
+Inst153Quest4_Prequest = "None"
+Inst153Quest4_Folgequest = "None"
+--
+Inst153Quest4name1 = "Supply of Storied Rarities"
+
+--Quest 5 Alliance
+Inst153Quest5 = "5. Damsels and Dragons"
+Inst153Quest5_Level = "100"
+Inst153Quest5_Attain = "100"
+Inst153Quest5_Aim = "Collect a Shed Proto-Dragon Claw."
+Inst153Quest5_Location = "Maximillian of Northshire "..AQGARRISON
+Inst153Quest5_Note = "Requires Heroic Difficulty.  The Shed Proto-Dragon Claw is in front of the gate in the room where you fight Commander Tharbek at "..YELLOW.."[3]"..WHITE.."."
+Inst153Quest5_Prequest = "None"
+Inst153Quest5_Folgequest = "None"
+--
+Inst153Quest5name1 = "Maximillian's Laundry"
+
+--Quest 6 Alliance
+Inst153Quest6 = "6. A Hero's Quest is Never Complete"
+Inst153Quest6_Level = "100"
+Inst153Quest6_Attain = "100"
+Inst153Quest6_Aim = "Collect a Shed Proto-Dragon Claw."
+Inst153Quest6_Location = "Maximillian of Northshire "..AQGARRISON
+Inst153Quest6_Note = "Requires Heroic Difficulty.  The Shed Proto-Dragon Claw is in front of the gate in the room where you fight Commander Tharbek at "..YELLOW.."[3]"..WHITE.."."
+Inst153Quest6_Prequest = "None"
+Inst153Quest6_Folgequest = "None"
+--
+Inst153Quest6name1 = "Supply of Storied Rarities"
+
+--Quest 7 Alliance
+Inst153Quest7 = "7. For The Children!"
+Inst153Quest7_Level = "100"
+Inst153Quest7_Attain = "100"
+Inst153Quest7_Aim = "Collect a Miniature Iron Star from Upper Blackrock Spire."
+Inst153Quest7_Location = "Millhouse Manastorm "..AQGARRISON
+Inst153Quest7_Note = "Requires Heroic Difficulty.  The Miniature Iron Star is in the large room just before the final boss' chamber.  It is near where the original Upper Blackrock Spire boss was, at coordinates "..YELLOW.."34.3, 54.2"..WHITE.."."
+Inst153Quest7_Prequest = "None"
+Inst153Quest7_Folgequest = "None"
+--
+Inst153Quest7name1 = "Manastorm's Duplicator"
+
+--Quest 8 Alliance
+Inst153Quest8 = "8. A Worthy Challenge: Warlord Zaela"
+Inst153Quest8_Level = "100"
+Inst153Quest8_Attain = "100"
+Inst153Quest8_Aim = "Complete the Upper Blackrock Spire Challenge Mode."
+Inst153Quest8_Location = "Challenger Savina (Ashran - Stormshield; "..YELLOW.."52.1, 63.6"..WHITE..")"
+Inst153Quest8_Note = "You only need to complete the challenge mode.  How long you take does not matter for the quest."
+Inst153Quest8_Prequest = "None"
+Inst153Quest8_Folgequest = "None"
+--
+Inst153Quest8name1 = "Challenger's Strongbox"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst153Quest1_HORDE = Inst153Quest1
+Inst153Quest1_HORDE_Level = Inst153Quest1_Level
+Inst153Quest1_HORDE_Attain = Inst153Quest1_Attain
+Inst153Quest1_HORDE_Aim = Inst153Quest1_Aim
+Inst153Quest1_HORDE_Location = Inst153Quest1_Location
+Inst153Quest1_HORDE_Note = Inst153Quest1_Note
+Inst153Quest1_HORDE_Prequest = Inst153Quest1_Prequest
+Inst153Quest1_HORDE_Folgequest = Inst153Quest1_Folgequest
+--
+Inst153Quest1name1_HORDE = Inst153Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst153Quest2_HORDE = Inst153Quest2
+Inst153Quest2_HORDE_Level = Inst153Quest2_Level
+Inst153Quest2_HORDE_Attain = Inst153Quest2_Attain
+Inst153Quest2_HORDE_Aim = Inst153Quest2_Aim
+Inst153Quest2_HORDE_Location = Inst153Quest2_Location
+Inst153Quest2_HORDE_Note = Inst153Quest2_Note
+Inst153Quest2_HORDE_Prequest = Inst153Quest2_Prequest
+Inst153Quest2_HORDE_Folgequest = Inst153Quest2_Folgequest
+--
+Inst153Quest2name1_HORDE = Inst153Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst153Quest3_HORDE = Inst153Quest3
+Inst153Quest3_HORDE_Level = Inst153Quest3_Level
+Inst153Quest3_HORDE_Attain = Inst153Quest3_Attain
+Inst153Quest3_HORDE_Aim = Inst153Quest3_Aim
+Inst153Quest3_HORDE_Location = Inst153Quest3_Location
+Inst153Quest3_HORDE_Note = Inst153Quest3_Note
+Inst153Quest3_HORDE_Prequest = Inst153Quest3_Prequest
+Inst153Quest3_HORDE_Folgequest = Inst153Quest3_Folgequest
+--
+Inst153Quest3name1_HORDE = Inst153Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst153Quest4_HORDE = Inst153Quest4
+Inst153Quest4_HORDE_Level = Inst153Quest4_Level
+Inst153Quest4_HORDE_Attain = Inst153Quest4_Attain
+Inst153Quest4_HORDE_Aim = Inst153Quest4_Aim
+Inst153Quest4_HORDE_Location = Inst153Quest4_Location
+Inst153Quest4_HORDE_Note = Inst153Quest4_Note
+Inst153Quest4_HORDE_Prequest = Inst153Quest4_Prequest
+Inst153Quest4_HORDE_Folgequest = Inst153Quest4_Folgequest
+--
+Inst153Quest4name1_HORDE = Inst153Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst153Quest5_HORDE = Inst153Quest5
+Inst153Quest5_HORDE_Level = Inst153Quest5_Level
+Inst153Quest5_HORDE_Attain = Inst153Quest5_Attain
+Inst153Quest5_HORDE_Aim = Inst153Quest5_Aim
+Inst153Quest5_HORDE_Location = Inst153Quest5_Location
+Inst153Quest5_HORDE_Note = Inst153Quest5_Note
+Inst153Quest5_HORDE_Prequest = Inst153Quest5_Prequest
+Inst153Quest5_HORDE_Folgequest = Inst153Quest5_Folgequest
+--
+Inst153Quest5name1_HORDE = Inst153Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst153Quest6_HORDE = Inst153Quest6
+Inst153Quest6_HORDE_Level = Inst153Quest6_Level
+Inst153Quest6_HORDE_Attain = Inst153Quest6_Attain
+Inst153Quest6_HORDE_Aim = Inst153Quest6_Aim
+Inst153Quest6_HORDE_Location = Inst153Quest6_Location
+Inst153Quest6_HORDE_Note = Inst153Quest6_Note
+Inst153Quest6_HORDE_Prequest = Inst153Quest6_Prequest
+Inst153Quest6_HORDE_Folgequest = Inst153Quest6_Folgequest
+--
+Inst153Quest6name1_HORDE = Inst153Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst153Quest7_HORDE = Inst153Quest7
+Inst153Quest7_HORDE_Level = Inst153Quest7_Level
+Inst153Quest7_HORDE_Attain = Inst153Quest7_Attain
+Inst153Quest7_HORDE_Aim = Inst153Quest7_Aim
+Inst153Quest7_HORDE_Location = Inst153Quest7_Location
+Inst153Quest7_HORDE_Note = Inst153Quest7_Note
+Inst153Quest7_HORDE_Prequest = Inst153Quest7_Prequest
+Inst153Quest7_HORDE_Folgequest = Inst153Quest7_Folgequest
+--
+Inst153Quest7name1_HORDE = Inst153Quest7name1
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst153Quest8_HORDE = Inst153Quest8
+Inst153Quest8_HORDE_Level = Inst153Quest8_Level
+Inst153Quest8_HORDE_Attain = Inst153Quest8_Attain
+Inst153Quest8_HORDE_Aim = Inst153Quest8_Aim
+Inst153Quest8_HORDE_Location = "Challenger Sunforge (Ashran - Warspear; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst153Quest8_HORDE_Note = Inst153Quest8_Note
+Inst153Quest8_HORDE_Prequest = Inst153Quest8_Prequest
+Inst153Quest8_HORDE_Folgequest = Inst153Quest8_Folgequest
+--
+Inst153Quest8name1_HORDE = Inst153Quest8name1
 
 
 
 --------------- INST154 - Highmaul ---------------
 
 Inst154Caption = "Highmaul"
-Inst154QAA = "No Quests"
-Inst154QAH = "No Quests"
+Inst154QAA = "2 Quests"
+Inst154QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst154Quest1 = "1. Empire's Fall"
+Inst154Quest1_Level = "100"
+Inst154Quest1_Attain = "100"
+Inst154Quest1_Aim = "Collect a Felbreaker's Tome and the Sigil of the Sorcerer King from Highmaul."
+Inst154Quest1_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst154Quest1_Note = "Part of the Draenor Legendary Ring questline.  This quest can be done on any raid difficulty.  Both items drop from Imperator Mar'gok at "..YELLOW.."[7]"..WHITE.."."
+Inst154Quest1_Prequest = "Call of the Archmage -> Power Unleashed"
+Inst154Quest1_Folgequest = "None"
+Inst154Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst154Quest2 = "2. Legacy of the Sorcerer Kings"
+Inst154Quest2_Level = "100"
+Inst154Quest2_Attain = "100"
+Inst154Quest2_Aim = "Collect 125 Abrogator Stones from creatures in Highmaul. Your garrison followers may also be able to locate stones in certain missions."
+Inst154Quest2_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst154Quest2_Note = "Part of the Draenor Legendary Ring questline.  This quest can be done on any raid difficulty.  Raid bosses in Highmaul have a chance to drop them.  Rarely they can drop from Garrison Missions as well."
+Inst154Quest2_Prequest = "None"
+Inst154Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst154Quest1_HORDE = Inst154Quest1
+Inst154Quest1_HORDE_Level = Inst154Quest1_Level
+Inst154Quest1_HORDE_Attain = Inst154Quest1_Attain
+Inst154Quest1_HORDE_Aim = Inst154Quest1_Aim
+Inst154Quest1_HORDE_Location = Inst154Quest1_Location
+Inst154Quest1_HORDE_Note = Inst154Quest1_Note
+Inst154Quest1_HORDE_Prequest = Inst154Quest1_Prequest
+Inst154Quest1_HORDE_Folgequest = Inst154Quest1_Folgequest
+Inst154Quest1PreQuest_HORDE = Inst154Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst154Quest2_HORDE = Inst154Quest2
+Inst154Quest2_HORDE_Level = Inst154Quest2_Level
+Inst154Quest2_HORDE_Attain = Inst154Quest2_Attain
+Inst154Quest2_HORDE_Aim = Inst154Quest2_Aim
+Inst154Quest2_HORDE_Location = Inst154Quest2_Location
+Inst154Quest2_HORDE_Note = Inst154Quest2_Note
+Inst154Quest2_HORDE_Prequest = Inst154Quest2_Prequest
+Inst154Quest2_HORDE_Folgequest = Inst154Quest2_Folgequest
+-- No Rewards for this quest
 
 
 

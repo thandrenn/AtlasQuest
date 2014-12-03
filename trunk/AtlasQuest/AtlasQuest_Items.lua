@@ -7572,11 +7572,238 @@ Inst151Quest8ID1_HORDE = "119032"
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
+--Quest 1 Alliance
+Inst152Quest1Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst152Quest1ITC1 = Itemc4;
+Inst152Quest1description1 = AQITEM_TRINKET
+Inst152Quest1ID1 = "118936"
+
+--Quest 2 Alliance
+Inst152Quest2Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst152Quest2ITC1 = Itemc4;
+Inst152Quest2description1 = AQITEM_ITEM
+Inst152Quest2ID1 = "119036"
+
+--Quest 3 Alliance
+Inst152Quest3Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst152Quest3ITC1 = Itemc4;
+Inst152Quest3description1 = AQITEM_TOY
+Inst152Quest3ID1 = "119003"
+
+--Quest 4 Alliance
+Inst152Quest4Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst152Quest4ITC1 = Itemc4;
+Inst152Quest4description1 = AQITEM_ITEM
+Inst152Quest4ID1 = "119037"
+
+--Quest 5 Alliance
+Inst152Quest5Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst152Quest5ITC1 = Itemc4;
+Inst152Quest5description1 = AQITEM_PET
+Inst152Quest5ID1 = "118923"
+
+--Quest 6 Alliance
+Inst152Quest6Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst152Quest6ITC1 = Itemc4;
+Inst152Quest6description1 = AQITEM_ITEM
+Inst152Quest6ID1 = "119037"
+
+--Quest 7 Alliance
+Inst152Quest7Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst152Quest7ITC1 = Itemc4;
+Inst152Quest7description1 = AQITEM_ITEM
+Inst152Quest7ID1 = "119032"
+
+
+--Quest 1 Horde
+Inst152Quest1Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst152Quest1ITC1_HORDE = Itemc4;
+Inst152Quest1description1_HORDE = AQITEM_TRINKET
+Inst152Quest1ID1_HORDE = "118936"
+
+--Quest 2 Horde
+Inst152Quest2Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst152Quest2ITC1_HORDE = Itemc4;
+Inst152Quest2description1_HORDE = AQITEM_ITEM
+Inst152Quest2ID1_HORDE = "119036"
+
+--Quest 3 Horde
+Inst152Quest3Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst152Quest3ITC1_HORDE = Itemc4;
+Inst152Quest3description1_HORDE = AQITEM_TOY
+Inst152Quest3ID1_HORDE = "119003"
+
+--Quest 4 Horde
+Inst152Quest4Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst152Quest4ITC1_HORDE = Itemc4;
+Inst152Quest4description1_HORDE = AQITEM_ITEM
+Inst152Quest4ID1_HORDE = "119037"
+
+--Quest 5 Horde
+Inst152Quest5Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst152Quest5ITC1_HORDE = Itemc4;
+Inst152Quest5description1_HORDE = AQITEM_PET
+Inst152Quest5ID1_HORDE = "118923"
+
+--Quest 6 Horde
+Inst152Quest6Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst152Quest6ITC1_HORDE = Itemc4;
+Inst152Quest6description1_HORDE = AQITEM_ITEM
+Inst152Quest6ID1_HORDE = "119037"
+
+--Quest 7 Horde
+Inst152Quest7Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst152Quest7ITC1_HORDE = Itemc4;
+Inst152Quest7description1_HORDE = AQITEM_ITEM
+Inst152Quest7ID1_HORDE = "119032"
+
+
 
 --------------- INST153 - Upper Blackrock Spire ---------------
 
+--Quest 1 Alliance
+Inst153Quest1Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst153Quest1ITC1 = Itemc4;
+Inst153Quest1description1 = AQITEM_ITEM
+Inst153Quest1ID1 = "118922"
+
+--Quest 2 Alliance
+Inst153Quest2Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst153Quest2ITC1 = Itemc4;
+Inst153Quest2description1 = AQITEM_ITEM
+Inst153Quest2ID1 = "119036"
+
+--Quest 3 Alliance
+Inst153Quest3Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst153Quest3ITC1 = Itemc4;
+Inst153Quest3description1 = AQITEM_ITEM
+Inst153Quest3ID1 = "118926"
+
+--Quest 4 Alliance
+Inst153Quest4Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst153Quest4ITC1 = Itemc4;
+Inst153Quest4description1 = AQITEM_ITEM
+Inst153Quest4ID1 = "119037"
+
+--Quest 5 Alliance
+Inst153Quest5Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst153Quest5ITC1 = Itemc4;
+Inst153Quest5description1 = AQITEM_ITEM
+Inst153Quest5ID1 = "118927"
+
+--Quest 6 Alliance
+Inst153Quest6Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst153Quest6ITC1 = Itemc4;
+Inst153Quest6description1 = AQITEM_ITEM
+Inst153Quest6ID1 = "119037"
+
+--Quest 7 Alliance
+Inst153Quest7Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst153Quest7ITC1 = Itemc4;
+Inst153Quest7description1 = AQITEM_TOY
+Inst153Quest7ID1 = "118938"
+
+--Quest 8 Alliance
+Inst153Quest8Rewardtext = AQDiscription_REWARD
+--ITEM1
+Inst153Quest8ITC1 = Itemc4;
+Inst153Quest8description1 = AQITEM_ITEM
+Inst153Quest8ID1 = "119032"
+
+
+--Quest 1 Horde
+Inst153Quest1Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst153Quest1ITC1_HORDE = Itemc4;
+Inst153Quest1description1_HORDE = AQITEM_ITEM
+Inst153Quest1ID1_HORDE = "118922"
+
+--Quest 2 Horde
+Inst153Quest2Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst153Quest2ITC1_HORDE = Itemc4;
+Inst153Quest2description1_HORDE = AQITEM_ITEM
+Inst153Quest2ID1_HORDE = "119036"
+
+--Quest 3 Horde
+Inst153Quest3Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst153Quest3ITC1_HORDE = Itemc4;
+Inst153Quest3description1_HORDE = AQITEM_ITEM
+Inst153Quest3ID1_HORDE = "118926"
+
+--Quest 4 Horde
+Inst153Quest4Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst153Quest4ITC1_HORDE = Itemc4;
+Inst153Quest4description1_HORDE = AQITEM_ITEM
+Inst153Quest4ID1_HORDE = "119037"
+
+--Quest 5 Horde
+Inst153Quest5Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst153Quest5ITC1_HORDE = Itemc4;
+Inst153Quest5description1_HORDE = AQITEM_ITEM
+Inst153Quest5ID1_HORDE = "118927"
+
+--Quest 6 Horde
+Inst153Quest6Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst153Quest6ITC1_HORDE = Itemc4;
+Inst153Quest6description1_HORDE = AQITEM_ITEM
+Inst153Quest6ID1_HORDE = "119037"
+
+--Quest 7 Horde
+Inst153Quest7Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst153Quest7ITC1_HORDE = Itemc4;
+Inst153Quest7description1_HORDE = AQITEM_TOY
+Inst153Quest7ID1_HORDE = "118938"
+
+--Quest 8 Horde
+Inst153Quest8Rewardtext_HORDE = AQDiscription_REWARD
+--ITEM1
+Inst153Quest8ITC1_HORDE = Itemc4;
+Inst153Quest8description1_HORDE = AQITEM_ITEM
+Inst153Quest8ID1_HORDE = "119032"
+
+
 
 --------------- INST154 - Highmaul ---------------
+
+--Quest 1 Alliance
+Inst154Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst154Quest2Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst154Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst154Quest2Rewardtext_HORDE = AQNoReward
 
 
 

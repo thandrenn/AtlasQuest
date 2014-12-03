@@ -2565,69 +2565,79 @@ AQ_37261_Level = "100"
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
-Inst152Quest1_QuestID = ""
-Inst152Quest2_QuestID = ""
-Inst152Quest3_QuestID = ""
-Inst152Quest4_QuestID = ""
-Inst152Quest5_QuestID = ""
-Inst152Quest6_QuestID = ""
-Inst152Quest7_QuestID = ""
-Inst152Quest8_QuestID = ""
+Inst152Quest1_QuestID = "37149"
+Inst152Quest2_QuestID = "37245"
+Inst152Quest3_QuestID = "37163"
+Inst152Quest4_QuestID = "37238"
+Inst152Quest5_QuestID = "37164"
+Inst152Quest6_QuestID = "37239"
+Inst152Quest7_QuestID = "37275"
 
-Inst152Quest1_HORDE_QuestID = ""
-Inst152Quest2_HORDE_QuestID = ""
-Inst152Quest3_HORDE_QuestID = ""
-Inst152Quest4_HORDE_QuestID = ""
-Inst152Quest5_HORDE_QuestID = ""
-Inst152Quest6_HORDE_QuestID = ""
-Inst152Quest7_HORDE_QuestID = ""
-Inst152Quest8_HORDE_QuestID = ""
+Inst152Quest1_HORDE_QuestID = "37149"
+Inst152Quest2_HORDE_QuestID = "37245"
+Inst152Quest3_HORDE_QuestID = "37163"
+Inst152Quest4_HORDE_QuestID = "37238"
+Inst152Quest5_HORDE_QuestID = "37164"
+Inst152Quest6_HORDE_QuestID = "37239"
+Inst152Quest7_HORDE_QuestID = "37263"
 
 
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
+AQ_37149_Level = "100"
+AQ_37245_Level = "100"
+AQ_37163_Level = "100"
+AQ_37238_Level = "100"
+AQ_37164_Level = "100"
+AQ_37239_Level = "100"
+AQ_37275_Level = "100"
+AQ_37263_Level = "100"
 
 
 
 --------------- INST153 - Upper Blackrock Spire ---------------
 
-Inst153Quest1_QuestID = ""
-Inst153Quest2_QuestID = ""
-Inst153Quest3_QuestID = ""
-Inst153Quest4_QuestID = ""
-Inst153Quest5_QuestID = ""
-Inst153Quest6_QuestID = ""
-Inst153Quest7_QuestID = ""
-Inst153Quest8_QuestID = ""
+Inst153Quest1_QuestID = "37148"
+Inst153Quest2_QuestID = "37244"
+Inst153Quest3_QuestID = "37161"
+Inst153Quest4_QuestID = "37236"
+Inst153Quest5_QuestID = "37162"
+Inst153Quest6_QuestID = "37237"
+Inst153Quest7_QuestID = "37179"
+Inst153Quest8_QuestID = "37279"
 
-Inst153Quest1_HORDE_QuestID = ""
-Inst153Quest2_HORDE_QuestID = ""
-Inst153Quest3_HORDE_QuestID = ""
-Inst153Quest4_HORDE_QuestID = ""
-Inst153Quest5_HORDE_QuestID = ""
-Inst153Quest6_HORDE_QuestID = ""
-Inst153Quest7_HORDE_QuestID = ""
-Inst153Quest8_HORDE_QuestID = ""
+Inst153Quest1_HORDE_QuestID = "37148"
+Inst153Quest2_HORDE_QuestID = "37244"
+Inst153Quest3_HORDE_QuestID = "37161"
+Inst153Quest4_HORDE_QuestID = "37236"
+Inst153Quest5_HORDE_QuestID = "37162"
+Inst153Quest6_HORDE_QuestID = "37237"
+Inst153Quest7_HORDE_QuestID = "37179"
+Inst153Quest8_HORDE_QuestID = "37266"
 
 
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
+AQ_37148_Level = "100"
+AQ_37244_Level = "100"
+AQ_37161_Level = "100"
+AQ_37236_Level = "100"
+AQ_37162_Level = "100"
+AQ_37237_Level = "100"
+AQ_37179_Level = "100"
+AQ_37279_Level = "100"
+AQ_37266_Level = "100"
 
 
 
 --------------- INST154 - Highmaul ---------------
+
+Inst154Quest1_QuestID = "35997"
+Inst154Quest2_QuestID = "35998"
+
+Inst154Quest1_HORDE_QuestID = "35997"
+Inst154Quest2_HORDE_QuestID = "35998"
+
+
+AQ_35997_Level = "100"
+AQ_35998_Level = "100"
+
 
 
 --------------- INST155 - Blackrock Foundry ---------------
