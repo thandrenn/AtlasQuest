@@ -827,7 +827,7 @@ end
 -- 6  = Blackwing Lair (BWL)
 -- 7  = Blackfathom Deeps (BFD)
 -- 8  = Lower Blackrock Spire (LBRS)
--- 9  = Upper Blackrock Spire (UBRS)
+-- 9  = *** DELETED ***   Upper Blackrock Spire (UBRS)
 -- 10 = Dire Maul East (DM)
 -- 11 = Dire Maul North (DM)
 -- 12 = Dire Maul West (DM)
@@ -967,7 +967,7 @@ end
 -- 142 = SCENARIO: The Secrets of Ragefire
 -- 143 = BATTLEGROUND: Deepwind Gorge
 -- 144 = SCENARIO: Troves of the Thunder King
--- 145 = Siege of Orgrimmar
+-- 145 = RAID: Siege of Orgrimmar
 
 -- 146 = DUNGEON: Auchindoun
 -- 147 = DUNGEON: Skyreach

@@ -282,25 +282,6 @@ AQ_27440_Level = "59"
 
 
 
---------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
-
-Inst9Quest1_QuestID = "27471"
-Inst9Quest2_QuestID = "27444"
-Inst9Quest3_QuestID = "27445"
-Inst9Quest4_QuestID = "7761"
-
-Inst9Quest1_HORDE_QuestID = "27444"
-Inst9Quest2_HORDE_QuestID = "27445"
-Inst9Quest3_HORDE_QuestID = "7761"
-
-
-AQ_27471_Level = "58"
-AQ_27444_Level = "59"
-AQ_27445_Level = "60"
-AQ_7761_Level = "60"
-
-
-
 --------------- INST10 - Dire Maul East (DM) ---------------
 
 Inst10Quest1_QuestID = "27129"

@@ -1382,100 +1382,6 @@ Inst8Quest3name4_HORDE = Inst8Quest4name4
 
 
 
---------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
-
-Inst9Caption = "Blackrock Spire (Upper)"
-Inst9QAA = "4 Quests"
-Inst9QAH = "3 Quests"
-
---Quest 1 Alliance
-Inst9Quest1 = "1. Blackrock Anomaly"
-Inst9Quest1_Level = "58"
-Inst9Quest1_Attain = "57"
-Inst9Quest1_Aim = "Find Acride."
-Inst9Quest1_Location = "Helendis Riverhorn (Burning Steppes - Morgan's Vigil; "..YELLOW.."73.4, 66.2"..WHITE..")"
-Inst9Quest1_Note = "Acride is inside the instance at "..GREEN.."['1]"..WHITE.."."
-Inst9Quest1_Prequest = "None"
-Inst9Quest1_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst9Quest2 = "2. The False Warchief"
-Inst9Quest2_Level = "59"
-Inst9Quest2_Attain = "57"
-Inst9Quest2_Aim = "Kill Warchief Rend Blackhand."
-Inst9Quest2_Location = "Acride (Blackrock Spire; "..GREEN.."[1']"..WHITE..")"
-Inst9Quest2_Note = "Warchief Rend Blackhand is at "..YELLOW.."[4]"..WHITE.." within Upper Blackrock Spire."
-Inst9Quest2_Prequest = "None"
-Inst9Quest2_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst9Quest3 = "3. General Drakkisath, Hand of Nefarian"
-Inst9Quest3_Level = "60"
-Inst9Quest3_Attain = "57"
-Inst9Quest3_Aim = "Kill General Drakkisath."
-Inst9Quest3_Location = "Acride (Blackrock Spire; "..GREEN.."[1']"..WHITE..")"
-Inst9Quest3_Note = "General Drakkisath is at "..YELLOW.."[6]"..WHITE.." within Upper Blackrock Spire."
-Inst9Quest3_Prequest = "None"
-Inst9Quest3_Folgequest = "None"
---
-Inst9Quest3name1 = "Sword of Nefarian's Hand"
-Inst9Quest3name2 = "Aeyla's Staff"
-Inst9Quest3name3 = "Staff of the Second Orb"
-Inst9Quest3name4 = "Vaelan's Claw"
-
---Quest 4 Alliance
-Inst9Quest4 = "4. Blackhand's Command"
-Inst9Quest4_Level = "60"
-Inst9Quest4_Attain = "55"
-Inst9Quest4_Aim = "That is one stupid orc. It would appear as if you need to find this brand and gain the Mark of Drakkisath in order to access the Orb of Command."
-Inst9Quest4_Location = "Blackhand's Command (drops from Scarshield Quartermaster at Blackrock Mountain; "..DARKYELLOW.."[1']"..WHITE..")"
-Inst9Quest4_Note = "The Scarshield Quartermaster that drops the item to start the quest is outside the instance in Blackrock Mountain. He is down a hallway to the right of the entrance to the instance.\n\nThe Mark of Drakkisath is behind General Drakkisath at "..YELLOW.."[6]"..WHITE.." within Upper Blackrock Spire."
-Inst9Quest4_Prequest = "None"
-Inst9Quest4_Folgequest = "None"
--- No Rewards for this quest
-
-
---Quest 1 Horde  (same as Quest 2 Alliance)
-Inst9Quest1_HORDE = "1. The False Warchief"
-Inst9Quest1_HORDE_Level = Inst9Quest2_Level
-Inst9Quest1_HORDE_Attain = Inst9Quest2_Attain
-Inst9Quest1_HORDE_Aim = Inst9Quest2_Aim
-Inst9Quest1_HORDE_Location = Inst9Quest2_Location
-Inst9Quest1_HORDE_Note = Inst9Quest2_Note
-Inst9Quest1_HORDE_Prequest = Inst9Quest2_Prequest
-Inst9Quest1_HORDE_Folgequest = Inst9Quest2_Folgequest
--- No Rewards for this quest
-
---Quest 2 Horde  (same as Quest 3 Alliance)
-Inst9Quest2_HORDE = "2. General Drakkisath, Hand of Nefarian"
-Inst9Quest2_HORDE_Level = Inst9Quest3_Level
-Inst9Quest2_HORDE_Attain = Inst9Quest3_Attain
-Inst9Quest2_HORDE_Aim = Inst9Quest3_Aim
-Inst9Quest2_HORDE_Location = Inst9Quest3_Location
-Inst9Quest2_HORDE_Note = Inst9Quest3_Note
-Inst9Quest2_HORDE_Prequest = Inst9Quest3_Prequest
-Inst9Quest2_HORDE_Folgequest = Inst9Quest3_Folgequest
---
-Inst9Quest2name1_HORDE = Inst9Quest3name1
-Inst9Quest2name2_HORDE = Inst9Quest3name2
-Inst9Quest2name3_HORDE = Inst9Quest3name3
-Inst9Quest2name4_HORDE = Inst9Quest3name4
-
---Quest 3 Horde  (same as Quest 4 Alliance)
-Inst9Quest3_HORDE = "3. Blackhand's Command"
-Inst9Quest3_HORDE_Level = Inst9Quest4_Level
-Inst9Quest3_HORDE_Attain = Inst9Quest4_Attain
-Inst9Quest3_HORDE_Aim = Inst9Quest4_Aim
-Inst9Quest3_HORDE_Location = Inst9Quest4_Location
-Inst9Quest3_HORDE_Note = Inst9Quest4_Note
-Inst9Quest3_HORDE_Prequest = Inst9Quest4_Prequest
-Inst9Quest3_HORDE_Folgequest = Inst9Quest4_Folgequest
--- No Rewards for this quest
-
-
-
 --------------- INST10 - Dire Maul East (DM) ---------------
 
 Inst10Caption = "Dire Maul (East)"
@@ -12872,7 +12778,7 @@ Inst146Quest3_Level = "100"
 Inst146Quest3_Attain = "100"
 Inst146Quest3_Aim = "Collect a Soulsever Blade from Auchindoun."
 Inst146Quest3_Location = "Lilian Voss "..AQGARRISON
-Inst146Quest3_Note = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.  You can retrieve it without killing anything or starting the dungeon."
+Inst146Quest3_Note = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.  You must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." for quest completion.."
 Inst146Quest3_Prequest = "None"
 Inst146Quest3_Folgequest = "None"
 --
