@@ -144,6 +144,7 @@ AQITEM_CLOTH = "Stoff"
 AQITEM_LEATHER = "Leder"
 AQITEM_MAIL = "Schwere Rüstung"
 AQITEM_PLATE = "Platte"
+AQITEM_COSMETIC = " Kosmetik"
 
 AQITEM_OFFHAND = "Nebenhand"
 AQITEM_MAINHAND = "Waffenhand,"
@@ -151,6 +152,8 @@ AQITEM_ONEHAND = "Einhändig,"
 AQITEM_TWOHAND = "Zweihändig,"
 
 AQITEM_ITEM = "Gegenstand"
+AQITEM_TOY = "Spielzeug"
+AQITEM_PET = "Haustier"
 AQITEM_TRINKET = "Schmuck"
 AQITEM_POTION = "Trank"
 AQITEM_NECK = "Hals"
@@ -1394,100 +1397,6 @@ Inst8Quest3name1_HORDE = Inst8Quest4name1
 Inst8Quest3name2_HORDE = Inst8Quest4name2
 Inst8Quest3name3_HORDE = Inst8Quest4name3
 Inst8Quest3name4_HORDE = Inst8Quest4name4
-
-
-
---------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
-
-Inst9Caption = "Schwarzfelsspitze (Oben)"
-Inst9QAA = "4 Quests"
-Inst9QAH = "3 Quests"
-
---Quest 1 Alliance
-Inst9Quest1 = "1. Schwarzfelsanomalie"
-Inst9Quest1_Level = "58"
-Inst9Quest1_Attain = "57"
-Inst9Quest1_Aim = "Findet Acride. "
-Inst9Quest1_Location = "Helendis Flusshorn (Brennende Steppe - Morgans Wacht; "..YELLOW.."73.4, 66.2"..WHITE..")"
-Inst9Quest1_Note = "Acride ist innerhalb der Instanz bei "..GREEN.."[1']"..WHITE.."."
-Inst9Quest1_Prequest = "Nein"
-Inst9Quest1_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst9Quest2 = "2. Der falsche Kriegshäuptling"
-Inst9Quest2_Level = "59"
-Inst9Quest2_Attain = "57"
-Inst9Quest2_Aim = "Tötet Kriegshäuptling Rend Schwarzfaust."
-Inst9Quest2_Location = "Acride (Schwarzfelsspitze; "..GREEN.."[1']"..WHITE..")"
-Inst9Quest2_Note = "Kriegshäuptling Rend Schwarzfaust ist bei "..YELLOW.."[4]"..WHITE.." innerhalb der oberen Schwarzfelsspitze."
-Inst9Quest2_Prequest = "Nein"
-Inst9Quest2_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst9Quest3 = "3. General Drakkisath, Nefarians rechte Hand"
-Inst9Quest3_Level = "60"
-Inst9Quest3_Attain = "57"
-Inst9Quest3_Aim = "Tötet General Drakkisath."
-Inst9Quest3_Location = Inst9Quest1_Location
-Inst9Quest3_Note = "General Drakkisath ist bei "..YELLOW.."[6]"..WHITE.." innerhalb der oberen Schwarzfelsspitze."
-Inst9Quest3_Prequest = "Nein"
-Inst9Quest3_Folgequest = "Nein"
---
-Inst9Quest3name1 = "Schwert von Nefarians Hand"
-Inst9Quest3name2 = "Aylas Stab"
-Inst9Quest3name3 = "Stab der zweiten Kugel"
-Inst9Quest3name4 = "Vaelans Klaue"
-
---Quest 4 Alliance
-Inst9Quest4 = "4. Schwarzfausts Befehl"
-Inst9Quest4_Level = "60"
-Inst9Quest4_Attain = "55"
-Inst9Quest4_Aim = "Das war ja vielleicht mal ein dummer Orc. Es sieht so aus, als müsstet Ihr dieses Brandzeichen finden, um an das Mal von Drakkisath zu gelangen. Damit sollte sich die Befehlskugel aktivieren lassen."
-Inst9Quest4_Location = "Schwarzfausts Befehl (droppt vom Rüstmeister der Schmetterschilde im Schwarzfels ; "..DARKYELLOW.."[1']"..WHITE..")"
-Inst9Quest4_Note = "Der Rüstmeister der Schmetterschilde droppt das Item zum starten dieser Quest, er ist außerhalb der Instanz im Schwarzfels.Er befindet sich auf der rechten Seite in der Halle am Eingang der Instanz.\n\nDas Drakkisaths Brandzeichen ist hinter General Drakkisath bei "..YELLOW.."[6]"..WHITE.." in der oberen Schwarzfelsspitze."
-Inst9Quest4_Prequest = "Nein"
-Inst9Quest4_Folgequest = "Nein"
--- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst9Quest1_HORDE = "1. Der falsche Kriegshäuptling"
-Inst9Quest1_HORDE_Level = "59"
-Inst9Quest1_HORDE_Attain = "57"
-Inst9Quest1_HORDE_Aim = Inst9Quest2_Aim
-Inst9Quest1_HORDE_Location = Inst9Quest2_Location
-Inst9Quest1_HORDE_Note = Inst9Quest2_Note
-Inst9Quest1_HORDE_Prequest = "Nein"
-Inst9Quest1_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst9Quest2_HORDE = "2. General Drakkisath, Nefarians rechte Hand"
-Inst9Quest2_HORDE_Level = "60"
-Inst9Quest2_HORDE_Attain = "57"
-Inst9Quest2_HORDE_Aim = Inst9Quest3_Aim
-Inst9Quest2_HORDE_Location = Inst9Quest3_Location
-Inst9Quest2_HORDE_Note = Inst9Quest3_Note
-Inst9Quest2_HORDE_Prequest = "Nein"
-Inst9Quest2_HORDE_Folgequest = "Nein"
---
-Inst9Quest2name1_HORDE = Inst9Quest3name1
-Inst9Quest2name2_HORDE = "Aylas Stab"
-Inst9Quest2name3_HORDE = Inst9Quest3name3
-Inst9Quest2name4_HORDE = "Vaelans Klaue"
-
---Quest 3 Horde
-Inst9Quest3_HORDE = "3. Schwarzfausts Befehl"
-Inst9Quest3_HORDE_Level = "60"
-Inst9Quest3_HORDE_Attain = "55"
-Inst9Quest3_HORDE_Aim = Inst9Quest4_Aim
-Inst9Quest3_HORDE_Location = Inst9Quest4_Location
-Inst9Quest3_HORDE_Note = Inst9Quest4_Note
-Inst9Quest3_HORDE_Prequest = "Nein"
-Inst9Quest3_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
 
 
 
@@ -12524,129 +12433,32 @@ Inst119Quest2_HORDE_Folgequest = "Nein"
 --------------- INST120 - Mogu'shan Vaults ---------------
 
 Inst120Caption = "Mogu'shangewölbe"
-Inst120QAA = "1 Quests"
-Inst120QAH = "1 Quests"
-
---Quest 1 Alliance
-Inst120Quest1 = "1. Die Stärke Eures Gegners"
-Inst120Quest1_Level = "90"
-Inst120Quest1_Attain = "90"
-Inst120Quest1_Aim = "Sammelt 10 Siegel der Macht und 10 Siegel der Weisheit von Schlachtzugsbossen im Mogu'shangewölbe, im Herzen der Angst oder auf der Terrasse des Endlosen Frühlings."
-Inst120Quest1_Location = "Furion (Die Verhüllte Treppe - Taverne im Nebel; "..YELLOW.."54.6, 72.6"..WHITE..")"
-Inst120Quest1_Note = "Die Siegel können von jedem Raidboss droppen und auf jeder Schwierigkeitsstufe. Es ist möglich, dass Du mehr als 10 Siegel einer Sorte bekommen kannst. Wenn du ein Siegel löschen solltest, werden dabei alle Siegel zerstört und die Quest entfernt. Erst nach Questabgabe kannst du die überflüsigen Siegel vernichten."
-Inst120Quest1_Prequest = "Fremd in einem fremden Land -> Eine Legende im Werden"
-Inst120Quest1_Folgequest = "Die Furcht selbst"
-Inst120Quest1PreQuest = "true"
--- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst120Quest1_HORDE = Inst120Quest1
-Inst120Quest1_HORDE_Level = "90"
-Inst120Quest1_HORDE_Attain = "90"
-Inst120Quest1_HORDE_Aim = Inst120Quest1_Aim
-Inst120Quest1_HORDE_Location = Inst120Quest1_Location
-Inst120Quest1_HORDE_Note = Inst120Quest1_Note
-Inst120Quest1_HORDE_Prequest = Inst120Quest1_Prequest
-Inst120Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
-Inst120Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
+Inst120QAA = "Keine Quests"
+Inst120QAH = "Keine Quests"
 
 
 
 --------------- INST121 - Terrace of Endless Spring ---------------
 
 Inst121Caption = "Terrasse des Endlosen Frühlings"
-Inst121QAA = "2 Quests"
-Inst121QAH = "2 Quests"
-
---Quest 1 Alliance
-Inst121Quest1 = Inst120Quest1
-Inst121Quest1_Level = "90"
-Inst121Quest1_Attain = "90"
-Inst121Quest1_Aim = Inst120Quest1_Aim
-Inst121Quest1_Location = Inst120Quest1_Location
-Inst121Quest1_Note = Inst120Quest1_Note
-Inst121Quest1_Prequest = Inst120Quest1_Prequest
-Inst121Quest1_Folgequest = Inst120Quest1_Folgequest
-Inst121Quest1PreQuest = "true"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst121Quest2 = "2. Die Furcht selbst"
-Inst121Quest2_Level = "90"
-Inst121Quest2_Attain = "90"
-Inst121Quest2_Aim = "Besiegt das Sha der Angst auf der Terrasse des Endlosen Frühlings und holt Euch die Schimäre der Angst."
-Inst121Quest2_Location = Inst120Quest1_Location
-Inst121Quest2_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Sha der Angst befindet sich bei "..YELLOW.."[4]"..WHITE.."."
-Inst121Quest2_Prequest = "Die Stärke Eures Gegners"
-Inst121Quest2_Folgequest = "Nein"
-Inst121Quest2FQuest = "true"
--- No Rewards for this quest
-
-
---Quest 1 Horde
-Inst121Quest1_HORDE = Inst120Quest1
-Inst121Quest1_HORDE_Level = "90"
-Inst121Quest1_HORDE_Attain = "90"
-Inst121Quest1_HORDE_Aim = Inst120Quest1_Aim
-Inst121Quest1_HORDE_Location = Inst120Quest1_Location
-Inst121Quest1_HORDE_Note = Inst120Quest1_Note
-Inst121Quest1_HORDE_Prequest = Inst120Quest1_Prequest
-Inst121Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
-Inst121Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 2 Horde
-Inst121Quest2_HORDE = Inst121Quest2
-Inst121Quest2_HORDE_Level = "90"
-Inst121Quest2_HORDE_Attain = "90"
-Inst121Quest2_HORDE_Aim = Inst121Quest2_Aim
-Inst121Quest2_HORDE_Location = Inst121Quest2_Location
-Inst121Quest2_HORDE_Note = Inst121Quest2_Note
-Inst121Quest2_HORDE_Prequest = Inst121Quest2_Prequest
-Inst121Quest2_HORDE_Folgequest = "Nein"
-Inst121Quest2FQuest_HORDE = "true"
--- No Rewards for this quest
+Inst121QAA = "Keine Quests"
+Inst121QAH = "Keine Quests"
 
 
 
 --------------- INST122 - Heart of Fear ---------------
 
 Inst122Caption = "Herz der Angst"
-Inst122QAA = "1 Quests"
-Inst122QAH = "1 Quests"
-
---Quest 1 Alliance
-Inst122Quest1 = Inst120Quest1
-Inst122Quest1_Level = "90"
-Inst122Quest1_Attain = "90"
-Inst122Quest1_Aim = Inst120Quest1_Aim
-Inst122Quest1_Location = Inst120Quest1_Location
-Inst122Quest1_Note = Inst120Quest1_Note
-Inst122Quest1_Prequest = Inst120Quest1_Prequest
-Inst122Quest1_Folgequest = Inst120Quest1_Folgequest
-Inst122Quest1PreQuest = "true"
--- No Rewards for this quest
+Inst122QAA = "Keine Quests"
+Inst122QAH = "Keine Quests"
 
 
---Quest 1 Horde
-Inst122Quest1_HORDE = Inst120Quest1
-Inst122Quest1_HORDE_Level = "90"
-Inst122Quest1_HORDE_Attain = "90"
-Inst122Quest1_HORDE_Aim = Inst120Quest1_Aim
-Inst122Quest1_HORDE_Location = Inst120Quest1_Location
-Inst122Quest1_HORDE_Note = Inst120Quest1_Note
-Inst122Quest1_HORDE_Prequest = Inst120Quest1_Prequest
-Inst122Quest1_HORDE_Folgequest = Inst120Quest1_Folgequest
-Inst122Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Thron des Donners"
-Inst138QAA = "11 Quests"
-Inst138QAH = "11 Quests"
+Inst138QAA = "8 Quests"
+Inst138QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst138Quest1 = "1. Zukunftssicherung"
@@ -12661,124 +12473,88 @@ Inst138Quest1_Folgequest = "Nein"
 Inst138Quest1name1 = "Glorreiche Standarte der Offensive der Kirin Tor"
 
 --Quest 2 Alliance
-Inst138Quest2 = "2. Geheimnisse des ersten Kaiserreiches"
+Inst138Quest2 = "2. Requiem für eine Königin"
 Inst138Quest2_Level = "90"
 Inst138Quest2_Attain = "90"
-Inst138Quest2_Aim = "Sammelt 20 Geheimnisse des Kaiserreichs und 40 Trilliumbarren."
-Inst138Quest2_Location = Inst120Quest1_Location
-Inst138Quest2_Note = "Die uralten Steintafeln droppen auf jeder Schwierigkeitsstufe und von jedem Raidboss im Thron des Donners oder von den ersten acht Raidbossen von Schlacht um Orgrimmar. Die Trilliumbarren müßt ihr euch als Bergbauer farmen oder im Auktionshaus kaufen."
-Inst138Quest2_Prequest = "Der Donnerkönig -> Trefft mich oben"
+Inst138Quest2_Aim = "Bettet Monara zur ewigen Ruhe."
+Inst138Quest2_Location = "Automatische Questannahme (Thron des Donners)"
+Inst138Quest2_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Monara befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst138Quest2_Prequest = "Nein"
 Inst138Quest2_Folgequest = "Nein"
-Inst138Quest2PreQuest = "true"
--- No Rewards for this quest
+--
+Inst138Quest2name1 = "Schatz des Donnerkönigs"
 
 --Quest 3 Alliance
-Inst138Quest3 = "3. Echos der Titanen"
+Inst138Quest3 = "3. Den Sturm besänftigen"
 Inst138Quest3_Level = "90"
 Inst138Quest3_Attain = "90"
-Inst138Quest3_Aim = "Sammelt 12 Runensteine der Titanen von Schlachtzugsbossen in den Hallen der Fleischformer und den Hallen des Donners."
-Inst138Quest3_Location = Inst120Quest1_Location
-Inst138Quest3_Note = "Die Runensteine der Titanen droppen auf jeder Schwierigkeitsstufe von den letzten sechs  Raidbossen im Thron des Donners oder von den ersten acht Raidbossen von Schlacht um Orgrimmar."
-Inst138Quest3_Prequest = "Die Donnerschmiede -> Die Krone des Himmels"
-Inst138Quest3_Folgequest = "Herz des Donnerkönigs"
-Inst138Quest3FQuest = "true"
--- No Rewards for this quest
+Inst138Quest3_Aim = "Tötet No'ku Sturmsprecher."
+Inst138Quest3_Location = Inst138Quest2_Location
+Inst138Quest3_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  No'ku Sturmsprecher befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst138Quest3_Prequest = "Nein"
+Inst138Quest3_Folgequest = "Nein"
+--
+Inst138Quest3name1 = "Schatz des Donnerkönigs"
 
 --Quest 4 Alliance
-Inst138Quest4 = "4. Herz des Donnerkönigs"
+Inst138Quest4 = "4. Ton, Steine, Sterben"
 Inst138Quest4_Level = "90"
 Inst138Quest4_Attain = "90"
-Inst138Quest4_Aim = "Tötet den Donnerkönig in den Hallen des Donners und nehmt das Herz des Donnerkönigs an Euch."
-Inst138Quest4_Location = Inst120Quest1_Location
-Inst138Quest4_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Der Donnerkönig, Lei Shen ist bei "..YELLOW.."[12]"..WHITE.."."
-Inst138Quest4_Prequest = "Echos der Titanen"
+Inst138Quest4_Aim = "Tötet Krankenstein."
+Inst138Quest4_Location = Inst138Quest2_Location
+Inst138Quest4_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Krankenstein befinden sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst138Quest4_Prequest = "Nein"
 Inst138Quest4_Folgequest = "Nein"
-Inst138Quest4PreQuest = "true"
--- No Rewards for this quest
+--
+Inst138Quest4name1 = Inst138Quest2name1
 
 --Quest 5 Alliance
-Inst138Quest5 = "5. Requiem für eine Königin"
+Inst138Quest5 = "5. Augen des Donnerkönigs"
 Inst138Quest5_Level = "90"
 Inst138Quest5_Attain = "90"
-Inst138Quest5_Aim = "Bettet Monara zur ewigen Ruhe."
-Inst138Quest5_Location = "Automatische Questannahme (Thron des Donners)"
-Inst138Quest5_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Monara befindet sich bei "..YELLOW.."[1]"..WHITE.."."
+Inst138Quest5_Aim = "Setzt Euch gegen den Überfall zur Wehr!"
+Inst138Quest5_Location = Inst138Quest2_Location
+Inst138Quest5_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Starrendes Auge und Fokussiertes Auge befinden sich bei "..YELLOW.."[7]"..WHITE.."."
 Inst138Quest5_Prequest = "Nein"
 Inst138Quest5_Folgequest = "Nein"
 --
-Inst138Quest5name1 = "Schatz des Donnerkönigs"
+Inst138Quest5name1 = Inst138Quest2name1
 
 --Quest 6 Alliance
-Inst138Quest6 = "6. Den Sturm besänftigen"
+Inst138Quest6 = "6. Angst und Anima"
 Inst138Quest6_Level = "90"
 Inst138Quest6_Attain = "90"
-Inst138Quest6_Aim = "Tötet No'ku Sturmsprecher."
-Inst138Quest6_Location = Inst138Quest5_Location
-Inst138Quest6_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  No'ku Sturmsprecher befindet sich bei "..YELLOW.."[2]"..WHITE.."."
+Inst138Quest6_Aim = "Tötet Erzritualist Kelada."
+Inst138Quest6_Location = Inst138Quest2_Location
+Inst138Quest6_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Erzritualist Kelada befindet sich bei "..YELLOW.."[8]"..WHITE.."."
 Inst138Quest6_Prequest = "Nein"
 Inst138Quest6_Folgequest = "Nein"
 --
-Inst138Quest6name1 = "Schatz des Donnerkönigs"
+Inst138Quest6name1 = Inst138Quest2name1
 
 --Quest 7 Alliance
-Inst138Quest7 = "7. Ton, Steine, Sterben"
+Inst138Quest7 = "7. Was riecht denn hier so?"
 Inst138Quest7_Level = "90"
 Inst138Quest7_Attain = "90"
-Inst138Quest7_Aim = "Tötet Krankenstein."
-Inst138Quest7_Location = Inst138Quest5_Location
-Inst138Quest7_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Krankenstein befinden sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst138Quest7_Aim = "Findet und vernichtet Fleisch'rok den Verpesteten."
+Inst138Quest7_Location = Inst138Quest2_Location
+Inst138Quest7_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Fleisch'rok den Verpesteten befindet sich bei "..YELLOW.."[5]"..WHITE.."."
 Inst138Quest7_Prequest = "Nein"
 Inst138Quest7_Folgequest = "Nein"
 --
-Inst138Quest7name1 = "Schatz des Donnerkönigs"
+Inst138Quest7name1 = Inst138Quest2name1
 
 --Quest 8 Alliance
-Inst138Quest8 = "8. Augen des Donnerkönigs"
+Inst138Quest8 = "8. Zao'cho der Hinterhältige"
 Inst138Quest8_Level = "90"
 Inst138Quest8_Attain = "90"
-Inst138Quest8_Aim = "Setzt Euch gegen den Überfall zur Wehr!"
-Inst138Quest8_Location = Inst138Quest5_Location
-Inst138Quest8_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Starrendes Auge und Fokussiertes Auge befinden sich bei "..YELLOW.."[7]"..WHITE.."."
+Inst138Quest8_Aim = "Tötet Zao'cho."
+Inst138Quest8_Location = Inst138Quest2_Location
+Inst138Quest8_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Zao'cho befindet sich bei "..YELLOW.."[6]"..WHITE.."."
 Inst138Quest8_Prequest = "Nein"
 Inst138Quest8_Folgequest = "Nein"
 --
-Inst138Quest8name1 = "Schatz des Donnerkönigs"
-
---Quest 9 Alliance
-Inst138Quest9 = "9. Angst und Anima"
-Inst138Quest9_Level = "90"
-Inst138Quest9_Attain = "90"
-Inst138Quest9_Aim = "Tötet Erzritualist Kelada."
-Inst138Quest9_Location = Inst138Quest5_Location
-Inst138Quest9_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Erzritualist Kelada befindet sich bei "..YELLOW.."[8]"..WHITE.."."
-Inst138Quest9_Prequest = "Nein"
-Inst138Quest9_Folgequest = "Nein"
---
-Inst138Quest9name1 = "Schatz des Donnerkönigs"
-
---Quest 10 Alliance
-Inst138Quest10 = "10. Was riecht denn hier so?"
-Inst138Quest10_Level = "90"
-Inst138Quest10_Attain = "90"
-Inst138Quest10_Aim = "Findet und vernichtet Fleisch'rok den Verpesteten."
-Inst138Quest10_Location = Inst138Quest5_Location
-Inst138Quest10_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Fleisch'rok den Verpesteten befindet sich bei "..YELLOW.."[5]"..WHITE.."."
-Inst138Quest10_Prequest = "Nein"
-Inst138Quest10_Folgequest = "Nein"
---
-Inst138Quest10name1 = "Schatz des Donnerkönigs"
-
---Quest 11 Alliance
-Inst138Quest11 = "11. Zao'cho der Hinterhältige"
-Inst138Quest11_Level = "90"
-Inst138Quest11_Attain = "90"
-Inst138Quest11_Aim = "Tötet Zao'cho."
-Inst138Quest11_Location = Inst138Quest5_Location
-Inst138Quest11_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Zao'cho befindet sich bei "..YELLOW.."[6]"..WHITE.."."
-Inst138Quest11_Prequest = "Nein"
-Inst138Quest11_Folgequest = "Nein"
---
-Inst138Quest11name1 = "Schatz des Donnerkönigs"
+Inst138Quest8name1 = Inst138Quest2name1
 
 
 --Quest 1 Horde
@@ -12800,10 +12576,10 @@ Inst138Quest2_HORDE_Attain = "90"
 Inst138Quest2_HORDE_Aim = Inst138Quest2_Aim
 Inst138Quest2_HORDE_Location = Inst138Quest2_Location
 Inst138Quest2_HORDE_Note = Inst138Quest2_Note
-Inst138Quest2_HORDE_Prequest = Inst138Quest2_Prequest
+Inst138Quest2_HORDE_Prequest = "Nein"
 Inst138Quest2_HORDE_Folgequest = "Nein"
-Inst138Quest2PreQuest_HORDE = "true"
--- No Rewards for this quest
+--
+Inst138Quest2name1_HORDE = Inst138Quest2name1
 
 --Quest 3 Horde
 Inst138Quest3_HORDE = Inst138Quest3
@@ -12812,10 +12588,10 @@ Inst138Quest3_HORDE_Attain = "90"
 Inst138Quest3_HORDE_Aim = Inst138Quest3_Aim
 Inst138Quest3_HORDE_Location = Inst138Quest3_Location
 Inst138Quest3_HORDE_Note = Inst138Quest3_Note
-Inst138Quest3_HORDE_Prequest = Inst138Quest3_Prequest
-Inst138Quest3_HORDE_Folgequest = "Herz des Donnerkönigs"
-Inst138Quest3FQuest_HORDE = "true"
--- No Rewards for this quest
+Inst138Quest3_HORDE_Prequest = "Nein"
+Inst138Quest3_HORDE_Folgequest = "Nein"
+--
+Inst138Quest3name1_HORDE = Inst138Quest2name1
 
 --Quest 4 Horde
 Inst138Quest4_HORDE = Inst138Quest4
@@ -12824,10 +12600,10 @@ Inst138Quest4_HORDE_Attain = "90"
 Inst138Quest4_HORDE_Aim = Inst138Quest4_Aim
 Inst138Quest4_HORDE_Location = Inst138Quest4_Location
 Inst138Quest4_HORDE_Note = Inst138Quest4_Note
-Inst138Quest4_HORDE_Prequest = "Echos der Titanen"
+Inst138Quest4_HORDE_Prequest = "Nein"
 Inst138Quest4_HORDE_Folgequest = "Nein"
-Inst138Quest4PreQuest_HORDE = "true"
--- No Rewards for this quest
+--
+Inst138Quest4name1_HORDE = Inst138Quest2name1
 
 --Quest 5 Horde
 Inst138Quest5_HORDE = Inst138Quest5
@@ -12839,7 +12615,7 @@ Inst138Quest5_HORDE_Note = Inst138Quest5_Note
 Inst138Quest5_HORDE_Prequest = "Nein"
 Inst138Quest5_HORDE_Folgequest = "Nein"
 --
-Inst138Quest5name1_HORDE = Inst138Quest5name1
+Inst138Quest5name1_HORDE = Inst138Quest2name1
 
 --Quest 6 Horde
 Inst138Quest6_HORDE = Inst138Quest6
@@ -12851,7 +12627,7 @@ Inst138Quest6_HORDE_Note = Inst138Quest6_Note
 Inst138Quest6_HORDE_Prequest = "Nein"
 Inst138Quest6_HORDE_Folgequest = "Nein"
 --
-Inst138Quest6name1_HORDE = Inst138Quest6name1
+Inst138Quest6name1_HORDE = Inst138Quest2name1
 
 --Quest 7 Horde
 Inst138Quest7_HORDE = Inst138Quest7
@@ -12863,7 +12639,7 @@ Inst138Quest7_HORDE_Note = Inst138Quest7_Note
 Inst138Quest7_HORDE_Prequest = "Nein"
 Inst138Quest7_HORDE_Folgequest = "Nein"
 --
-Inst138Quest7name1_HORDE = Inst138Quest7name1
+Inst138Quest7name1_HORDE = Inst138Quest2name1
 
 --Quest 8 Horde
 Inst138Quest8_HORDE = Inst138Quest8
@@ -12875,134 +12651,86 @@ Inst138Quest8_HORDE_Note = Inst138Quest8_Note
 Inst138Quest8_HORDE_Prequest = "Nein"
 Inst138Quest8_HORDE_Folgequest = "Nein"
 --
-Inst138Quest8name1_HORDE = Inst138Quest8name1
-
---Quest 9 Horde
-Inst138Quest9_HORDE = Inst138Quest9
-Inst138Quest9_HORDE_Level = "90"
-Inst138Quest9_HORDE_Attain = "90"
-Inst138Quest9_HORDE_Aim = Inst138Quest9_Aim
-Inst138Quest9_HORDE_Location = Inst138Quest9_Location
-Inst138Quest9_HORDE_Note = Inst138Quest9_Note
-Inst138Quest9_HORDE_Prequest = "Nein"
-Inst138Quest9_HORDE_Folgequest = "Nein"
---
-Inst138Quest9name1_HORDE = Inst138Quest9name1
-
---Quest 10 Horde
-Inst138Quest10_HORDE = Inst138Quest10
-Inst138Quest10_HORDE_Level = "90"
-Inst138Quest10_HORDE_Attain = "90"
-Inst138Quest10_HORDE_Aim = Inst138Quest10_Aim
-Inst138Quest10_HORDE_Location = Inst138Quest10_Location
-Inst138Quest10_HORDE_Note = Inst138Quest10_Note
-Inst138Quest10_HORDE_Prequest = "Nein"
-Inst138Quest10_HORDE_Folgequest = "Nein"
---
-Inst138Quest10name1_HORDE = Inst138Quest10name1
-
---Quest 11 Horde
-Inst138Quest11_HORDE = Inst138Quest11
-Inst138Quest11_HORDE_Level = "90"
-Inst138Quest11_HORDE_Attain = "90"
-Inst138Quest11_HORDE_Aim = "Tötet Zao'cho."
-Inst138Quest11_HORDE_Location = Inst138Quest11_Location
-Inst138Quest11_HORDE_Note = Inst138Quest11_Note
-Inst138Quest11_HORDE_Prequest = "Nein"
-Inst138Quest11_HORDE_Folgequest = "Nein"
---
-Inst138Quest11name1_HORDE = Inst138Quest11name1
+Inst138Quest8name1_HORDE = Inst138Quest2name1
 
 
 
 --------------- INST145 - Siege of Orgrimmar --------------- 
 
 Inst145Caption = "Schlacht um Orgrimmar"
-Inst145QAA = "7 Quests"
-Inst145QAH = "7 Quests"
+Inst145QAA = "6 Quests"
+Inst145QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst145Quest1 = "1. Urteil des Schwarzen Prinzen"
+Inst145Quest1 = "1. Y'Shaarjs letzter Atemzug"
 Inst145Quest1_Level = "90"
 Inst145Quest1_Attain = "90"
-Inst145Quest1_Aim = "Schließt die Schlacht um Orgrimmar ab und besiegt Garrosh Höllschrei."
-Inst145Quest1_Location = "Furorion (Tal der Ewigen Blüte - Mogu'shan Palast; "..YELLOW.."83.2, 29.6"..WHITE..")"
-Inst145Quest1_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.  Dies ist die letzte Quest der Legendäre Questreihe."
-Inst145Quest1_Prequest = "Angriffsvorbereitung -> Eine Legende Pandarias"
-Inst145Quest1_Folgequest = "Nein"
-Inst145Quest1PreQuest = "true"
+Inst145Quest1_Aim = "Sprecht mit Lehrensucher Cho in der Schlacht um Orgrimmar."
+Inst145Quest1_Location = "Lehrensucher Cho (Schlacht um Orgrimmar; "..YELLOW.."[14}"..WHITE..")"
+Inst145Quest1_Note = "Lehrensucher Cho erscheint nachdem der Boss Garrosh besiegt wurde und startet dann die Quest "
+Inst145Quest1_Prequest = "Nein"
+Inst145Quest1_Folgequest = "Warum kämpfen wir?"
+Inst145Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst145Quest2 = "2. Y'Shaarjs letzter Atemzug"
+Inst145Quest2 = "2. Warum kämpfen wir?"
 Inst145Quest2_Level = "90"
 Inst145Quest2_Attain = "90"
-Inst145Quest2_Aim = "Sprecht mit Lehrensucher Cho in der Schlacht um Orgrimmar."
-Inst145Quest2_Location = "Lehrensucher Cho (Schlacht um Orgrimmar; "..YELLOW.."[14}"..WHITE..")"
-Inst145Quest2_Note = "Lehrensucher Cho erscheint nachdem der Boss Garrosh besiegt wurde und startet dann die Quest "
-Inst145Quest2_Prequest = "Nein"
-Inst145Quest2_Folgequest = "Warum kämpfen wir?"
-Inst145Quest2FQuest = "true"
+Inst145Quest2_Aim = "Lehrensucher Cho möchte sich mit Euch im Tal der Ewigen Blüten unterhalten."
+Inst145Quest2_Location = "Lehrensucher Cho (Tal der Ewigen Blüte - Mogu'shan Palast; "..YELLOW.."67.4, 45.6"..WHITE..")"
+Inst145Quest2_Note = "Trefft Lehrensucher Cho im Tal der Ewigen Blüte und hört bzw seht euch seine Geschichte an."
+Inst145Quest2_Prequest = "Y'Shaarjs letzter Atemzug"
+Inst145Quest2_Folgequest = "Nein"
+Inst145Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst145Quest3 = "3. Warum kämpfen wir?"
+Inst145Quest3 = "3. Eine Vision in der Zeit"
 Inst145Quest3_Level = "90"
 Inst145Quest3_Attain = "90"
-Inst145Quest3_Aim = "Lehrensucher Cho möchte sich mit Euch im Tal der Ewigen Blüten unterhalten."
-Inst145Quest3_Location = "Lehrensucher Cho (Tal der Ewigen Blüte - Mogu'shan Palast; "..YELLOW.."67.4, 45.6"..WHITE..")"
-Inst145Quest3_Note = "Trefft Lehrensucher Cho im Tal der Ewigen Blüte und hört bzw seht euch seine Geschichte an."
-Inst145Quest3_Prequest = "Y'Shaarjs letzter Atemzug"
-Inst145Quest3_Folgequest = "Nein"
-Inst145Quest3PreQuest = "true"
+Inst145Quest3_Aim = "Verwendet die Vision der Zeit in der Schlacht um Orgrimmar."
+Inst145Quest3_Location = "Kairoz (Zeitlose Insel - Der Hof der Erhabenen; "..YELLOW.."34.6, 53.6"..WHITE..")"
+Inst145Quest3_Note = "Betrete den Schlachtzug während Du in einer Raidgruppe bist und benutze die Vision der Zeit um diese Quest abzuschließen.\nEs müssen keine Boss besiegt geschweige den alle besiegt worden sein um diese Quest zu beenden, außer im LFR da müssen alle besiegt sein!"
+Inst145Quest3_Prequest = "Eine zeitlose Entdeckungsreise -> Die Macht des Stundenglases"
+Inst145Quest3_Folgequest = "Die Vision genauer bestimmen"
+Inst145Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst145Quest4 = "4. Eine Vision in der Zeit"
+Inst145Quest4 = "4. Die Vision genauer bestimmen"
 Inst145Quest4_Level = "90"
 Inst145Quest4_Attain = "90"
-Inst145Quest4_Aim = "Verwendet die Vision der Zeit in der Schlacht um Orgrimmar."
-Inst145Quest4_Location = "Kairoz (Zeitlose Insel - Der Hof der Erhabenen; "..YELLOW.."34.6, 53.6"..WHITE..")"
-Inst145Quest4_Note = "Betrete den Schlachtzug während Du in einer Raidgruppe bist und benutze die Vision der Zeit um diese Quest abzuschließen.\nEs müssen keine Boss besiegt geschweige den alle besiegt worden sein um diese Quest zu beenden, außer im LFR da müssen alle besiegt sein!"
-Inst145Quest4_Prequest = "Eine zeitlose Entdeckungsreise -> Die Macht des Stundenglases"
-Inst145Quest4_Folgequest = "Die Vision genauer bestimmen"
+Inst145Quest4_Aim = Inst145Quest3_Aim
+Inst145Quest4_Location = Inst145Quest3_Location
+Inst145Quest4_Note = Inst145Quest3_Note
+Inst145Quest4_Prequest = "Eine Vision in der Zeit"
+Inst145Quest4_Folgequest = "Suche nach Bestimmung"
 Inst145Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst145Quest5 = "5. Die Vision genauer bestimmen"
+Inst145Quest5 = "5. Suche nach Bestimmung"
 Inst145Quest5_Level = "90"
 Inst145Quest5_Attain = "90"
-Inst145Quest5_Aim = Inst145Quest4_Aim
-Inst145Quest5_Location = Inst145Quest4_Location
-Inst145Quest5_Note = Inst145Quest4_Note
-Inst145Quest5_Prequest = "Eine Vision in der Zeit"
-Inst145Quest5_Folgequest = "Suche nach Bestimmung"
+Inst145Quest5_Aim = Inst145Quest3_Aim
+Inst145Quest5_Location = Inst145Quest3_Location
+Inst145Quest5_Note = Inst145Quest3_Note
+Inst145Quest5_Prequest = "Die Vision genauer bestimmen"
+Inst145Quest5_Folgequest = "Verborgene Stränge"
 Inst145Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst145Quest6 = "6. Suche nach Bestimmung"
+Inst145Quest6 = "6. Verborgene Stränge"
 Inst145Quest6_Level = "90"
 Inst145Quest6_Attain = "90"
-Inst145Quest6_Aim = Inst145Quest4_Aim
-Inst145Quest6_Location = Inst145Quest4_Location
-Inst145Quest6_Note = Inst145Quest4_Note
-Inst145Quest6_Prequest = "Die Vision genauer bestimmen"
-Inst145Quest6_Folgequest = "Verborgene Stränge"
+Inst145Quest6_Aim = Inst145Quest3_Aim
+Inst145Quest6_Location = Inst145Quest3_Location
+Inst145Quest6_Note = Inst145Quest3_Note
+Inst145Quest6_Prequest = "Suche nach Bestimmung"
+Inst145Quest6_Folgequest = "Das Schicksal herausfordern"
 Inst145Quest6FQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst145Quest7 = "7. Verborgene Stränge"
-Inst145Quest7_Level = "90"
-Inst145Quest7_Attain = "90"
-Inst145Quest7_Aim = Inst145Quest4_Aim
-Inst145Quest7_Location = Inst145Quest4_Location
-Inst145Quest7_Note = Inst145Quest4_Note
-Inst145Quest7_Prequest = "Suche nach Bestimmung"
-Inst145Quest7_Folgequest = "Das Schicksal herausfordern"
-Inst145Quest7FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -13013,10 +12741,9 @@ Inst145Quest1_HORDE_Attain = "90"
 Inst145Quest1_HORDE_Aim = Inst145Quest1_Aim
 Inst145Quest1_HORDE_Location = Inst145Quest1_Location
 Inst145Quest1_HORDE_Note = Inst145Quest1_Note
-Inst145Quest1_HORDE_Prequest = Inst145Quest1_Prequest
-Inst145Quest1_HORDE_Folgequest = "Nein"
-Inst145Quest1PreQuest_HORDE = "true"
--- No Rewards for this quest
+Inst145Quest1_HORDE_Prequest = "Nein"
+Inst145Quest1_HORDE_Folgequest = Inst145Quest1_Folgequest
+Inst145Quest1FQuest_HORDE = "true"-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst145Quest2_HORDE = Inst145Quest2
@@ -13025,9 +12752,9 @@ Inst145Quest2_HORDE_Attain = "90"
 Inst145Quest2_HORDE_Aim = Inst145Quest2_Aim
 Inst145Quest2_HORDE_Location = Inst145Quest2_Location
 Inst145Quest2_HORDE_Note = Inst145Quest2_Note
-Inst145Quest2_HORDE_Prequest = "Nein"
-Inst145Quest2_HORDE_Folgequest = Inst145Quest2_Folgequest
-Inst145Quest2FQuest_HORDE = "true"
+Inst145Quest2_HORDE_Prequest = Inst145Quest2_Prequest
+Inst145Quest2_HORDE_Folgequest = "Nein"
+Inst145Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -13038,8 +12765,8 @@ Inst145Quest3_HORDE_Aim = Inst145Quest3_Aim
 Inst145Quest3_HORDE_Location = Inst145Quest3_Location
 Inst145Quest3_HORDE_Note = Inst145Quest3_Note
 Inst145Quest3_HORDE_Prequest = Inst145Quest3_Prequest
-Inst145Quest3_HORDE_Folgequest = "Nein"
-Inst145Quest3PreQuest_HORDE = "true"
+Inst145Quest3_HORDE_Folgequest = Inst145Quest3_Folgequest
+Inst145Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -13078,17 +12805,6 @@ Inst145Quest6_HORDE_Folgequest = Inst145Quest6_Folgequest
 Inst145Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 7 Horde
-Inst145Quest7_HORDE = Inst145Quest7
-Inst145Quest7_HORDE_Level = "90"
-Inst145Quest7_HORDE_Attain = "90"
-Inst145Quest7_HORDE_Aim = Inst145Quest7_Aim
-Inst145Quest7_HORDE_Location = Inst145Quest7_Location
-Inst145Quest7_HORDE_Note = Inst145Quest7_Note
-Inst145Quest7_HORDE_Prequest = Inst145Quest7_Prequest
-Inst145Quest7_HORDE_Folgequest = Inst145Quest7_Folgequest
-Inst145Quest7FQuest_HORDE = "true"
--- No Rewards for this quest
 
 
 --------------- INST146 - Auchindoun ---------------
@@ -13115,7 +12831,7 @@ Inst146Quest2_Level = "100"
 Inst146Quest2_Attain = "100"
 Inst146Quest2_Aim = "Beschafft eine Seelenschnittklinge aus Auchindoun."
 Inst146Quest2_Location = "Lilian Voss"..AQGARRISON
-Inst146Quest2_Note = "Kann nur im heroischen Modus erledigt werden.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss."
+Inst146Quest2_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss."
 Inst146Quest2_Prequest = "Nein"
 Inst146Quest2_Folgequest = "Nein"
 --
@@ -13127,7 +12843,7 @@ Inst146Quest3_Level = "100"
 Inst146Quest3_Attain = "100"
 Inst146Quest3_Aim = Inst146Quest2_Aim
 Inst146Quest3_Location = Inst146Quest2_Location
-Inst146Quest3_Note = Inst146Quest2_Note
+Inst146Quest3_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss. Dazu muss der Endboss bei "..YELLOW.."[4]"..WHITE.." besiegt werden um diese Quest abzuschließen."
 Inst146Quest3_Prequest = "Nein"
 Inst146Quest3_Folgequest = "Nein"
 --
@@ -13139,7 +12855,7 @@ Inst146Quest4_Level = "100"
 Inst146Quest4_Attain = "100"
 Inst146Quest4_Aim = "Besorgt ein Seelenflechtgefäß in Auchindoun."
 Inst146Quest4_Location = "Leonidas Bartholomäus der Geachtete"..AQGARRISON
-Inst146Quest4_Note = "Kann nur im heroischen Modus erledigt werden.  Das Seelengeflecht befindet sich auf der linken Seite der Plattform mit dem ersten Boss bei "..YELLOW.."[1]"..WHITE.."."
+Inst146Quest4_Note = "Nur im heroischen Modus.  Das Seelengeflecht befindet sich auf der linken Seite der Plattform mit dem ersten Boss bei "..YELLOW.."[1]"..WHITE.."."
 Inst146Quest4_Prequest = "Nein"
 Inst146Quest4_Folgequest = "Nein"
 --
@@ -13163,7 +12879,7 @@ Inst146Quest6_Level = "100"
 Inst146Quest6_Attain = "100"
 Inst146Quest6_Aim = "Besorgt verderbtes Blut von Teron'gor in Auchindoun."
 Inst146Quest6_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst146Quest6_Note = "Dies ist Teil der Legendären Draenor-Questreihe des Ringes. Diese Quest kann nur im heroischen Modus erledigt werden!\n\nTeron'gor der finale Boss ist bei"..YELLOW.."[4]"..WHITE.."."
+Inst146Quest6_Note = "Teil der Legendären Draenor-Questreihe des Ringes. Diese Quest kann nur im heroischen Modus erledigt werden!\n\nTeron'gor der finale Boss ist bei"..YELLOW.."[4]"..WHITE.."."
 Inst146Quest6_Prequest = "Ruf des Erzmagiers -> Flammenkern/Eisenkern/Lebenskern"
 Inst146Quest6_Folgequest = "Augen des Erzmagiers"
 Inst146Quest6FQuest = "true"
@@ -13291,7 +13007,7 @@ Inst147Quest2_Level = "100"
 Inst147Quest2_Attain = "98"
 Inst147Quest2_Aim = "Besorgt ein Band aus reinem Solium vom obersten Weisen Viryx in der Himmelsnadel."
 Inst147Quest2_Location = Inst146Quest6_Location
-Inst147Quest2_Note = "Dies ist Teil der Legendären Draenor-Questreihedes Ringes.  Das Band aus reinem Solium droppt vom Endboss dem obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.."."
+Inst147Quest2_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Das Band aus reinem Solium droppt vom Endboss dem obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.."."
 Inst147Quest2_Prequest = "Ruf des Erzmagiers"
 Inst147Quest2_Folgequest = "Khadgars Aufgabe"
 Inst147Quest2FQuest = "true"
@@ -13315,7 +13031,7 @@ Inst147Quest4_Level = "100"
 Inst147Quest4_Attain = "100"
 Inst147Quest4_Aim = "Sammelt makelloses Gefieder in Himmelsnadel."
 Inst147Quest4_Location = "Himmelsfürst Omnuron"..AQGARRISON
-Inst147Quest4_Note = "Kann nur im heroischen Modus erledigt werden.  Das Makelloses Gefieder befindet in der nähe von Töpfen am Eingang der Instanz."
+Inst147Quest4_Note = "Nur im heroischen Modus.  Das Makelloses Gefieder befindet in der nähe von Töpfen am Eingang der Instanz."
 Inst147Quest4_Prequest = "Nein"
 Inst147Quest4_Folgequest = "Nein"
 --
@@ -13339,7 +13055,7 @@ Inst147Quest6_Level = "100"
 Inst147Quest6_Attain = "100"
 Inst147Quest6_Aim = "Beschafft einen Sonnenkristall in Himmelsnadel."
 Inst147Quest6_Location = "Sonnenläufer Dezco"..AQGARRISON
-Inst147Quest6_Note = "Kann nur im heroischen Modus erledigt werden.  Nach der Tötung des 1. Bosses und nach der Besteigung der Stufen findest du den Sonnenkristall auf einen Tisch."
+Inst147Quest6_Note = "Nur im heroischen Modus.  Nach der Tötung des 1. Bosses und nach der Besteigung der Stufen findest du den Sonnenkristall auf einen Tisch."
 Inst147Quest6_Prequest = "Nein"
 Inst147Quest6_Folgequest = "Nein"
 --
@@ -13491,7 +13207,7 @@ Inst148Quest2_Level = "100"
 Inst148Quest2_Attain = "100"
 Inst148Quest2_Aim = "Besorgt einen riesigen Ogerkopf aus der Blutschlägermine."
 Inst148Quest2_Location = "Cro Dickfädel"..AQGARRISON
-Inst148Quest2_Note = "Kann nur im heroischen Modus erledigt werden.  Der riesige Ogerkopf droppt von den Bultschlägerogern."
+Inst148Quest2_Note = "Nur im heroischen Modus.  Der riesige Ogerkopf droppt von den Bultschlägerogern."
 Inst148Quest2_Prequest = "Nein"
 Inst148Quest2_Folgequest = "Nein"
 --
@@ -13515,7 +13231,7 @@ Inst148Quest4_Level = "100"
 Inst148Quest4_Attain = "100"
 Inst148Quest4_Aim = "Holt Olafs Schild aus der Blutschlägermine."
 Inst148Quest4_Location = "Olaf"..AQGARRISON
-Inst148Quest4_Note = "Kann nur im heroischen Modus erledigt werden.  Olafs Schild befindet sich auf den Weg zum Boss Magmolatus "..YELLOW.."[1]"..WHITE..", auf der Höhe zum Tunnel um zu den Boss zu gelangen."
+Inst148Quest4_Note = "Nur im heroischen Modus.  Olafs Schild befindet sich auf den Weg zum Boss Magmolatus "..YELLOW.."[1]"..WHITE..", auf der Höhe zum Tunnel um zu den Boss zu gelangen."
 Inst148Quest4_Prequest = "Nein"
 Inst148Quest4_Folgequest = "Nein"
 --
@@ -13539,7 +13255,7 @@ Inst148Quest6_Level = "100"
 Inst148Quest6_Attain = "98"
 Inst148Quest6_Aim = "Besorgt einen Flammenkern von Gug'rokk in der Blutschlägermine [nur Heroisch]."
 Inst148Quest6_Location = Inst146Quest6_Location
-Inst148Quest6_Note = "Dies ist Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nGug'rokk ist der Endboss, bei "..YELLOW.."[4]"..WHITE.."."
+Inst148Quest6_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nGug'rokk ist der Endboss, bei "..YELLOW.."[4]"..WHITE.."."
 Inst148Quest6_Prequest = "Ruf des Erzmagiers -> Khadgars Aufgabe"
 Inst148Quest6_Folgequest = "Kampf mit Teron'gor"
 Inst148Quest6FQuest = "true"
@@ -13667,7 +13383,7 @@ Inst149Quest2_Level = "100"
 Inst149Quest2_Attain = "100"
 Inst149Quest2_Aim = "Besorgt ein Fass schrecklich säurehaltiger Lösung von den Eisendocks."
 Inst149Quest2_Location = "Moroes"..AQGARRISON
-Inst149Quest2_Note = "Kann nur im heroischen Modus erledigt werden.  Die schrecklich säurehaltiger Lösung ist in einer Flasche oben auf einem Fass, auf dem Weg zum zweiten Boss. Es wird empfohlen das kleine Minievent mit den Eisensternen zu starten!"
+Inst149Quest2_Note = "Nur im heroischen Modus.  Die schrecklich säurehaltiger Lösung ist in einer Flasche oben auf einem Fass, auf dem Weg zum zweiten Boss. Es wird empfohlen das kleine Minievent mit den Eisensternen zu starten!"
 Inst149Quest2_Prequest = "Nein"
 Inst149Quest2_Folgequest = "Nein"
 --
@@ -13691,7 +13407,7 @@ Inst149Quest4_Level = "100"
 Inst149Quest4_Attain = "100"
 Inst149Quest4_Aim = "Findet den Messingkompass an den Eisendocks."
 Inst149Quest4_Location = "Flottenmeister Seehorn"..AQGARRISON
-Inst149Quest4_Note = "Kann nur im heroischen Modus erledigt werden.  Der Messingkompass liegt auf dem Boden vorne an Fässern in der Nähe vom ersten Boss bei "..YELLOW.."[1]"..WHITE.."."
+Inst149Quest4_Note = "Nur im heroischen Modus.  Der Messingkompass liegt auf dem Boden vorne an Fässern in der Nähe vom ersten Boss bei "..YELLOW.."[1]"..WHITE.."."
 Inst149Quest4_Prequest = "Nein"
 Inst149Quest4_Folgequest = "Nein"
 --
@@ -13831,7 +13547,7 @@ Inst150Quest3_Level = "100"
 Inst150Quest3_Attain = "100"
 Inst150Quest3_Aim = "Besorgt ein überwuchertes Artefakt aus dem Immergrünen Flor."
 Inst150Quest3_Location = "Lehrensucher Cho"..AQGARRISON
-Inst150Quest3_Note = "Kann nur im heroischen Modus erledigt werden.  Das überwuchte Artefakt ist südlich Teil der Instanz bei den Koordinaten "..YELLOW.."61.1, 66.3"..WHITE.."."
+Inst150Quest3_Note = "Nur im heroischen Modus.  Das überwuchte Artefakt ist südlich Teil der Instanz bei den Koordinaten "..YELLOW.."61.1, 66.3"..WHITE.."."
 Inst150Quest3_Prequest = "Nein"
 Inst150Quest3_Folgequest = "Nein"
 --
@@ -13855,7 +13571,7 @@ Inst150Quest5_Level = "100"
 Inst150Quest5_Attain = "100"
 Inst150Quest5_Aim = "Holt einen seltsam leuchtenden Wedel aus dem Immergrünen Flor."
 Inst150Quest5_Location = "Zen'kiki"..AQGARRISON
-Inst150Quest5_Note = "Kann nur im heroischen Modus erledigt werden.  Der seltsam leuchtende Wedel ist im grünen Wäldchen bei den Koordinaten "..YELLOW.."64.6, 21.0"..WHITE.."."
+Inst150Quest5_Note = "Nur im heroischen Modus.  Der seltsam leuchtende Wedel ist im grünen Wäldchen bei den Koordinaten "..YELLOW.."64.6, 21.0"..WHITE.."."
 Inst150Quest5_Prequest = "Nein"
 Inst150Quest5_Folgequest = "Nein"
 --
@@ -13891,7 +13607,7 @@ Inst150Quest8_Level = "100"
 Inst150Quest8_Attain = "98"
 Inst150Quest8_Aim = "Besorgt einen Lebenskern, indem Ihr Yalnu im Überwucherten Außenposten erschlagt [Nur Heroisch]."
 Inst150Quest8_Location = Inst146Quest6_Location
-Inst150Quest8_Note = "Dies ist Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
+Inst150Quest8_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
 Inst150Quest8_Prequest = Inst148Quest6_Prequest
 Inst150Quest8_Folgequest = "Kampf mit Teron'gor"
 Inst150Quest8PreQuest = "true"
@@ -14031,7 +13747,7 @@ Inst151Quest1_Level = "100"
 Inst151Quest1_Attain = "100"
 Inst151Quest1_Aim = "Findet einen eisernen Gliedmaßenspalter im Grimmgleisdepot."
 Inst151Quest1_Location = "Gamon"..AQGARRISON
-Inst151Quest1_Note = "Kann nur im heroischen Modus erledigt werden.  Du findest den eisernen Gliedmaßenspalter in der mitte des zweiten Waggons."
+Inst151Quest1_Note = "Nur im heroischen Modus.  Du findest den eisernen Gliedmaßenspalter in der mitte des zweiten Waggons."
 Inst151Quest1_Prequest = "Nein"
 Inst151Quest1_Folgequest = "Nein"
 --
@@ -14055,7 +13771,7 @@ Inst151Quest3_Level = "100"
 Inst151Quest3_Attain = "100"
 Inst151Quest3_Aim = "Beschafft eine riesige Waffenkiste im Grimmgleisdepot."
 Inst151Quest3_Location = "Lonika Stillstreich"..AQGARRISON
-Inst151Quest3_Note = "Kann nur im heroischen Modus erledigt werden.  Die riesige Waffenkiste ist auf den Weg zum ersten Boss bei den Koordinaten "..YELLOW.."53.3, 39.1"..WHITE.."."
+Inst151Quest3_Note = "Nur im heroischen Modus.  Die riesige Waffenkiste ist auf den Weg zum ersten Boss bei den Koordinaten "..YELLOW.."53.3, 39.1"..WHITE.."."
 Inst151Quest3_Prequest = "Nein"
 Inst151Quest3_Folgequest = "Nein"
 --
@@ -14079,7 +13795,7 @@ Inst151Quest5_Level = "100"
 Inst151Quest5_Attain = "98"
 Inst151Quest5_Aim = "Findet eine Eiserne Autokanone im Grimmgleisdepot."
 Inst151Quest5_Location = "John J. Keeshan"..AQGARRISON
-Inst151Quest5_Note = "Kann nur im heroischen Modus erledigt werden.  Du findest die eiserne Autokanone nach der Vernichtung des zweiten Bosses bei "..YELLOW.."[2]"..WHITE.."."
+Inst151Quest5_Note = "Nur im heroischen Modus.  Du findest die eiserne Autokanone nach der Vernichtung des zweiten Bosses bei "..YELLOW.."[2]"..WHITE.."."
 Inst151Quest5_Prequest = "Nein"
 Inst151Quest5_Folgequest = "Nein"
 --
@@ -14103,7 +13819,7 @@ Inst151Quest7_Level = "100"
 Inst151Quest7_Attain = "98"
 Inst151Quest7_Aim = "Besorgt einen Eisenkern aus dem Zug aus dem Grimmgleisdepot [nur Heroisch]."
 Inst151Quest7_Location = Inst146Quest6_Location
-Inst151Quest7_Note = "Dies ist Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nNach der Vernichtung des Endbosses schaue nach einem kleinen Eisenstern beim Zugwrack."
+Inst151Quest7_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nNach der Vernichtung des Endbosses schaue nach einem kleinen Eisenstern beim Zugwrack."
 Inst151Quest7_Prequest = Inst148Quest6_Prequest
 Inst151Quest7_Folgequest = "Kampf mit Teron'gor"
 Inst151Quest7PreQuest = "true"
@@ -14255,11 +13971,11 @@ Inst152Quest3_Level = "100"
 Inst152Quest3_Attain = "100"
 Inst152Quest3_Aim = "Sammelt ein dunkles Pergament aus der Schattenmondgrabstätte."
 Inst152Quest3_Location = "Hochlord Darion Mograine"..AQGARRISON
-Inst152Quest3_Note = "Kann nur im heroischen Modus erledigt werden.  Nach dem betreten der Instanz laufe den Gang hinunter.  Du wirst dann das dunkel Pergament  auf der linken Seite im ersten Raum auf den Boden finden."
+Inst152Quest3_Note = "Nur im heroischen Modus.  Nach dem betreten der Instanz laufe den Gang hinunter.  Du wirst dann das dunkel Pergament  auf der linken Seite im ersten Raum auf den Boden finden."
 Inst152Quest3_Prequest = "Nein"
 Inst152Quest3_Folgequest = "Nein"
 --
-Inst152Quest3name1 = "Void Totem"
+Inst152Quest3name1 = "Leerentotem"
 
 --Quest 4 Alliance
 Inst152Quest4 = "4. Geheimnisse des Seelenbindens"
@@ -14279,11 +13995,11 @@ Inst152Quest5_Level = "100"
 Inst152Quest5_Attain = "100"
 Inst152Quest5_Aim = "Sammelt einen Silberspitzenpfeil aus der Schattenmondgrabstätte."
 Inst152Quest5_Location = "Geheimnisvolle Waldläuferin"..AQGARRISON
-Inst152Quest5_Note = "Kann nur im heroischen Modus erledigt werden.  Der Silberspitzenpfeil befindet sich auf dem Altar nachdem Du Nhallish besiegt hast bei "..YELLOW.."[2]"..WHITE.."."
+Inst152Quest5_Note = "Nur im heroischen Modus.  Der Silberspitzenpfeil befindet sich auf dem Altar nachdem Du Nhallish besiegt hast bei "..YELLOW.."[2]"..WHITE.."."
 Inst152Quest5_Prequest = "Nein"
 Inst152Quest5_Folgequest = "Nein"
 --
-Inst152Quest5name1 = "Sentinel's Companion"
+Inst152Quest5name1 = "Schildwachengefährte"
 
 --Quest 6 Alliance
 Inst152Quest6 = "6. Schicksal des Gefallenen"
@@ -14431,7 +14147,7 @@ Inst153Quest3_Level = "100"
 Inst153Quest3_Attain = "100"
 Inst153Quest3_Aim = "Findet Finkles verbesserten Kürschner an der Schwarzfelsspitze."
 Inst153Quest3_Location = "Finkle Einhorn"..AQGARRISON
-Inst153Quest3_Note = "Kann nur im heroischen Modus erledigt werden.  Finkles verbesserten Kürschner ist auf dem Boden in der Nähe von Knochen in dem Raum wo sich der zweite Boss Kyrak"..YELLOW.."[2]"..WHITE.." befindet."
+Inst153Quest3_Note = "Nur im heroischen Modus.  Finkles verbesserten Kürschner ist auf dem Boden in der Nähe von Knochen in dem Raum wo sich der zweite Boss Kyrak"..YELLOW.."[2]"..WHITE.." befindet."
 Inst153Quest3_Prequest = "Nein"
 Inst153Quest3_Folgequest = "Nein"
 --
@@ -14455,7 +14171,7 @@ Inst153Quest5_Level = "100"
 Inst153Quest5_Attain = "100"
 Inst153Quest5_Aim = "Sammelt eine abgestoßene Protodrachenklaue."
 Inst153Quest5_Location = "Maximillian von Nordhain"..AQGARRISON
-Inst153Quest5_Note = "Kann nur im heroischen Modus erledigt werden.  Die abgestoßene Drachenklaue ist vor dem Tor in dem Raum wo Du gegen Kommandant Tharbek "..YELLOW.."[3]"..WHITE.." kämpfst."
+Inst153Quest5_Note = "Nur im heroischen Modus.  Die abgestoßene Drachenklaue ist vor dem Tor in dem Raum wo Du gegen Kommandant Tharbek "..YELLOW.."[3]"..WHITE.." kämpfst."
 Inst153Quest5_Prequest = "Nein"
 Inst153Quest5_Folgequest = "Nein"
 --
@@ -14479,7 +14195,7 @@ Inst153Quest7_Level = "100"
 Inst153Quest7_Attain = "100"
 Inst153Quest7_Aim = "Holt einen eisernen Miniaturstern von der Oberen Schwarzfelsspitze."
 Inst153Quest7_Location = "Millhouse Manasturm"..AQGARRISON
-Inst153Quest7_Note = "Kann nur im heroischen Modus erledigt werden.  Der eiserne Miniaturstern ist im großen Raum bevor Du zum Endboss gelangst bei den Koordinaten "..YELLOW.."34.3, 54.2"..WHITE.."."
+Inst153Quest7_Note = "Nur im heroischen Modus.  Der eiserne Miniaturstern ist im großen Raum bevor Du zum Endboss gelangst bei den Koordinaten "..YELLOW.."34.3, 54.2"..WHITE.."."
 Inst153Quest7_Prequest = "Nein"
 Inst153Quest7_Folgequest = "Nein"
 --
@@ -14607,7 +14323,7 @@ Inst154Quest1_Level = "100"
 Inst154Quest1_Attain = "100"
 Inst154Quest1_Aim = "Beschafft den Teufelsbrecherfolianten und das Siegelzeichen des Zaubererkönigs aus Hochfels."
 Inst154Quest1_Location = Inst146Quest6_Location
-Inst154Quest1_Note = "Dies ist Teil der Legendären Draenor-Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.  Beide Gegenstände droppen von Kaiser Mar'gok at "..YELLOW.."[7]"..WHITE.."."
+Inst154Quest1_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.  Beide Gegenstände droppen von Kaiser Mar'gok at "..YELLOW.."[7]"..WHITE.."."
 Inst154Quest1_Prequest = "Ruf des Erzmagiers -> Entfesselte Macht"
 Inst154Quest1_Folgequest = "Nein"
 Inst154Quest1PreQuest = "true"
@@ -14619,7 +14335,7 @@ Inst154Quest2_Level = "100"
 Inst154Quest2_Attain = "100"
 Inst154Quest2_Aim = "Beschafft 125 Dominanzsteine von den Kreaturen in Hochfels. In bestimmten Missionen können auch Eure Garnisonsanhänger solche Steine finden."
 Inst154Quest2_Location = Inst146Quest6_Location
-Inst154Quest2_Note = "Dies ist Teil der Legendären Draenor-Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.  Alle Bosse im Raid haben die Chance diesen Gegenstand fallen zu lassen.  Dazu kann der Gegenstand auch in Garnissionsmissionen droppen."
+Inst154Quest2_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.  Alle Bosse im Raid haben die Chance diesen Gegenstand fallen zu lassen.  Dazu kann der Gegenstand auch in Garnissionsmissionen droppen."
 Inst154Quest2_Prequest = "Nein"
 Inst154Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -14941,38 +14657,6 @@ Inst142QAH = "Keine Quests"
 Inst144Caption = "Schatzkammer des Donnerkönigs"
 Inst144QAA = "Keine Quests"
 Inst144QAH = "Keine Quests"
-
-
-
---------------- INST157 - The Trial of Faith ---------------
-
-Inst157Caption = "The Trial of Faith"
-Inst157QAA = "Keine Quests"
-Inst157QAH = "Keine Quests"
-
-
-
---------------- INST158 - The Purge of Grommar ---------------
-
-Inst158Caption = "The Purge of Grommar"
-Inst158QAA = "Keine Quests"
-Inst158QAH = "Keine Quests"
-
-
-
---------------- INST159 - The Coliseum ---------------
-
-Inst159Caption = "The Coliseum"
-Inst159QAA = "Keine Quests"
-Inst159QAH = "Keine Quests"
-
-
-
---------------- INST160 - The Battle of Thunder Pass ---------------
-
-Inst160Caption = "The Battle of Thunder Pass"
-Inst160QAA = "Keine Quests"
-Inst160QAH = "Keine Quests"
 
 
 
