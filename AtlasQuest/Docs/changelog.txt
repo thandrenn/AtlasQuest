@@ -2,11 +2,12 @@
 Changelog
 =========
 
-Version 4.9.1 BETA  (December ??, 2014)
+Version 4.9.1  (December 14, 2014)
 
 - Changes made for updates to Atlas 1.31.0
 - Updated quests for Blackfathom Deeps, Razorfen Downs and Razorfen Kraul (revamped in 6.0.2).
 - Removed Mists of Pandaria Legendary Cloak quests that were removed from the game.  May the rest in peace.
+- Added all known Warlords of Draenor dungeon quests.  If I missed one, let me know.
 
 - Added Quests:
 	- Blackfathom Deeps: The Rise of Aku'mai
