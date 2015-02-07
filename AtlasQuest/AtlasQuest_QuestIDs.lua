@@ -2623,6 +2623,25 @@ AQ_35998_Level = "100"
 
 --------------- INST155 - Blackrock Foundry ---------------
 
+Inst155Quest1_QuestID = "36009"
+Inst155Quest2_QuestID = "36010"
+Inst155Quest3_QuestID = "36012"
+Inst155Quest4_QuestID = "36013"
+Inst155Quest5_QuestID = "36014"
+
+Inst155Quest1_HORDE_QuestID = "36009"
+Inst155Quest2_HORDE_QuestID = "36010"
+Inst155Quest3_HORDE_QuestID = "36012"
+Inst155Quest4_HORDE_QuestID = "36013"
+Inst155Quest5_HORDE_QuestID = "36014"
+
+
+AQ_36009_Level = "100"
+AQ_36010_Level = "100"
+AQ_36012_Level = "100"
+AQ_36013_Level = "100"
+AQ_36014_Level = "100"
+
 
 
 

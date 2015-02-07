@@ -2,6 +2,17 @@
 Changelog
 =========
 
+Version 4.9.2  (February ??, 2015)
+
+- Added Quests:
+	- Blackrock Foundry: Heart of the Fury
+	- Blackrock Foundry: Flamebender's Tome
+	- Blackrock Foundry: Reverse Piracy
+	- Blackrock Foundry: Might of the Elemental Lords
+	- Blackrock Foundry: Blackhand's Secret
+
+
+
 Version 4.9.1  (December 14, 2014)
 
 - Changes made for updates to Atlas 1.31.0
