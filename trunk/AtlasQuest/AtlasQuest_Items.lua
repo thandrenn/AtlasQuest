@@ -7751,6 +7751,37 @@ Inst154Quest2Rewardtext_HORDE = AQNoReward
 
 --------------- INST155 - Blackrock Foundry ---------------
 
+--Quest 1 Alliance
+Inst155Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst155Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst155Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst155Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst155Quest5Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst155Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst155Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst155Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst155Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst155Quest5Rewardtext_HORDE = AQNoReward
+
 
 
 

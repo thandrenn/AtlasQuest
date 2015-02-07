@@ -12814,7 +12814,7 @@ Inst146Quest6_Level = "100"
 Inst146Quest6_Attain = "98"
 Inst146Quest6_Aim = "Obtain Corrupted Blood of Teron'gor from Teron'gor in Auchindoun [Heroic only]."
 Inst146Quest6_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst146Quest6_Note = "Part of the Draenor Legendary Ring questline.  Requires Heroic Difficulty.\n\nTeron'gor is the final boss, at "..YELLOW.."[4]"..WHITE.."."
+Inst146Quest6_Note = "Part of Chapter 1 of the Legendary Ring Questline.  Requires Heroic Difficulty.\n\nTeron'gor is the final boss, at "..YELLOW.."[4]"..WHITE.."."
 Inst146Quest6_Prequest = "Call of the Archmage -> Core of Flame/Iron/Life"
 Inst146Quest6_Folgequest = "Eyes of the Archmage"
 Inst146Quest6PreQuest = "true"
@@ -12946,7 +12946,7 @@ Inst147Quest2_Level = "100"
 Inst147Quest2_Attain = "98"
 Inst147Quest2_Aim = "Collect a Pure Solium Band from High Sage Viryx in Skyreach."
 Inst147Quest2_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst147Quest2_Note = "Part of the Draenor Legendary Ring questline.  High Sage Viryx is the final boss at "..YELLOW.."[4]"..WHITE.."."
+Inst147Quest2_Note = "Part of Chapter 1 of the Legendary Ring Questline.  The quest can be done on Normal or Heroic.\n\nHigh Sage Viryx is the final boss at "..YELLOW.."[4]"..WHITE.."."
 Inst147Quest2_Prequest = "Call of the Archmage"
 Inst147Quest2_Folgequest = "Khadgar's Task"
 Inst147Quest2PreQuest = "true"
@@ -13195,7 +13195,7 @@ Inst148Quest6_Level = "100"
 Inst148Quest6_Attain = "98"
 Inst148Quest6_Aim = "Acquire a Core of Flame from Gug'rokk in the Bloodmaul Slag Mines [Heroic only.]"
 Inst148Quest6_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst148Quest6_Note = "Part of the Draenor Legendary Ring questline.  Requires Heroic Difficulty.\n\nGug'rokk is the final boss, at "..YELLOW.."[4]"..WHITE.."."
+Inst148Quest6_Note = "Part of Chapter 1 of the Legendary Ring Questline.  Requires Heroic Difficulty.\n\nGug'rokk is the final boss, at "..YELLOW.."[4]"..WHITE.."."
 Inst148Quest6_Prequest = "Call of the Archmage -> Khadgar's Task"
 Inst148Quest6_Folgequest = "Tackling Teron'gor"
 Inst148Quest6PreQuest = "true"
@@ -13549,7 +13549,7 @@ Inst150Quest8_Level = "100"
 Inst150Quest8_Attain = "98"
 Inst150Quest8_Aim = "Collect a Core of Life by slaying Yalnu in the Overgrown Outpost [Heroic only]"
 Inst150Quest8_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst150Quest8_Note = "Part of the Draenor Legendary Ring questline.  Requires Heroic Difficulty.\n\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE.."."
+Inst150Quest8_Note = "Part of Chapter 1 of the Legendary Ring Questline.  Requires Heroic Difficulty.\n\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE.."."
 Inst150Quest8_Prequest = "Call of the Archmage -> Khadgar's Task"
 Inst150Quest8_Folgequest = "Tackling Teron'gor"
 Inst150Quest8PreQuest = "true"
@@ -13762,7 +13762,7 @@ Inst151Quest7_Level = "100"
 Inst151Quest7_Attain = "98"
 Inst151Quest7_Aim = "Collect a Core of Iron from the engine of the Grimrail Depot train [Heroic only.]"
 Inst151Quest7_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst151Quest7_Note = "Part of the Draenor Legendary Ring questline.  Requires Heroic Difficulty.\n\nAfter defeating the final boss, look for a small iron star on fire nearby."
+Inst151Quest7_Note = "Part of Chapter 1 of the Legendary Ring Questline.  Requires Heroic Difficulty.\n\nAfter defeating the final boss, look for a small iron star on fire nearby."
 Inst151Quest7_Prequest = "Call of the Archmage -> Khadgar's Task"
 Inst151Quest7_Folgequest = "Tackling Teron'gor"
 Inst151Quest7PreQuest = "true"
@@ -14269,7 +14269,7 @@ Inst154Quest1_Level = "100"
 Inst154Quest1_Attain = "100"
 Inst154Quest1_Aim = "Collect a Felbreaker's Tome and the Sigil of the Sorcerer King from Highmaul."
 Inst154Quest1_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst154Quest1_Note = "Part of the Draenor Legendary Ring questline.  This quest can be done on any raid difficulty.  Both items drop from Imperator Mar'gok at "..YELLOW.."[7]"..WHITE.."."
+Inst154Quest1_Note = "Part of Chapter 2 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nBoth items drop from Imperator Mar'gok at "..YELLOW.."[7]"..WHITE.."."
 Inst154Quest1_Prequest = "Call of the Archmage -> Power Unleashed"
 Inst154Quest1_Folgequest = "None"
 Inst154Quest1PreQuest = "true"
@@ -14281,7 +14281,7 @@ Inst154Quest2_Level = "100"
 Inst154Quest2_Attain = "100"
 Inst154Quest2_Aim = "Collect 125 Abrogator Stones from creatures in Highmaul. Your garrison followers may also be able to locate stones in certain missions."
 Inst154Quest2_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst154Quest2_Note = "Part of the Draenor Legendary Ring questline.  This quest can be done on any raid difficulty.  Raid bosses in Highmaul have a chance to drop them.  Rarely they can drop from Garrison Missions as well."
+Inst154Quest2_Note = "Part of Chapter 2 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nAll bosses in Highmaul will drop the Abrogator Stones.  They can also be obtained from a garrison mission."
 Inst154Quest2_Prequest = "None"
 Inst154Quest2_Folgequest = "None"
 -- No Rewards for this quest
@@ -14315,8 +14315,129 @@ Inst154Quest2_HORDE_Folgequest = Inst154Quest2_Folgequest
 --------------- INST155 - Blackrock Foundry ---------------
 
 Inst155Caption = "Blackrock Foundry"
-Inst155QAA = "No Quests"
-Inst155QAH = "No Quests"
+Inst155QAA = "5 Quests"
+Inst155QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst155Quest1 = "1. Heart of the Fury"
+Inst155Quest1_Level = "100"
+Inst155Quest1_Attain = "100"
+Inst155Quest1_Aim = "Collect a Heart of the Fury from the elemental Fury encased within the furnace of the Blackrock Foundry."
+Inst155Quest1_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest1_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Heart of Fury drops from the Blast Furnace encounter at "..YELLOW.."[7]"..WHITE.."."
+Inst155Quest1_Prequest = "Touch of the Kirin-Tor"
+Inst155Quest1_Folgequest = "None"
+Inst155Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst155Quest2 = "2. Flamebender's Tome"
+Inst155Quest2_Level = "100"
+Inst155Quest2_Attain = "100"
+Inst155Quest2_Aim = "Retrieve the Flamebender's Tome from Flamebender Ka'graz in the Blackrock Foundry."
+Inst155Quest2_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest2_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Flamebender's Tome drops from Flamebender Ka'graz at "..YELLOW.."[4]"..WHITE.."."
+Inst155Quest2_Prequest = "Touch of the Kirin-Tor"
+Inst155Quest2_Folgequest = "None"
+Inst155Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst155Quest3 = "3. Reverse Piracy"
+Inst155Quest3_Level = "100"
+Inst155Quest3_Attain = "100"
+Inst155Quest3_Aim = "Acquire the Draenic Thaumaturgical Orb from the Dread Grotto in the Blackrock Foundry."
+Inst155Quest3_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest3_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Draenic Thaumaturgical Orb drops from the Dread Grotto encounter at "..YELLOW.."[9]"..WHITE.."."
+Inst155Quest3_Prequest = "Touch of the Kirin-Tor"
+Inst155Quest3_Folgequest = "None"
+Inst155Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst155Quest4 = "4. Might of the Elemental Lords"
+Inst155Quest4_Level = "100"
+Inst155Quest4_Attain = "100"
+Inst155Quest4_Aim = "Collect 3 Elemental Tablets. Assemble the tablets by collecting Elemental Runes from bosses in the Blackrock Foundry."
+Inst155Quest4_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest4_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nIt takes 300 Elemental Runes to make 1 Elemental Tablet.  All bosses in Blackrock Foundry will drop the Elemental Runes.  They can also be obtained from a garrison mission."
+Inst155Quest4_Prequest = "Touch of the Kirin-Tor"
+Inst155Quest4_Folgequest = "None"
+Inst155Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst155Quest5 = "5. Blackhand's Secret"
+Inst155Quest5_Level = "100"
+Inst155Quest5_Attain = "100"
+Inst155Quest5_Aim = "Slay Warlord Blackhand and acquire his severed arm in the Blackrock Foundry."
+Inst155Quest5_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest5_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nWarlord Blackhand is at "..YELLOW.."[10]"..WHITE..".  Turn the quest in to receive your upgraded ring."
+Inst155Quest5_Prequest = "Unlocked after completing previous quests."
+Inst155Quest5_Folgequest = "None"
+Inst155Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst155Quest1_HORDE = Inst155Quest1
+Inst155Quest1_HORDE_Level = Inst155Quest1_Level
+Inst155Quest1_HORDE_Attain = Inst155Quest1_Attain
+Inst155Quest1_HORDE_Aim = Inst155Quest1_Aim
+Inst155Quest1_HORDE_Location = Inst155Quest1_Location
+Inst155Quest1_HORDE_Note = Inst155Quest1_Note
+Inst155Quest1_HORDE_Prequest = Inst155Quest1_Prequest
+Inst155Quest1_HORDE_Folgequest = Inst155Quest1_Folgequest
+Inst155Quest1PreQuest_HORDE = Inst155Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst155Quest2_HORDE = Inst155Quest2
+Inst155Quest2_HORDE_Level = Inst155Quest2_Level
+Inst155Quest2_HORDE_Attain = Inst155Quest2_Attain
+Inst155Quest2_HORDE_Aim = Inst155Quest2_Aim
+Inst155Quest2_HORDE_Location = Inst155Quest2_Location
+Inst155Quest2_HORDE_Note = Inst155Quest2_Note
+Inst155Quest2_HORDE_Prequest = Inst155Quest2_Prequest
+Inst155Quest2_HORDE_Folgequest = Inst155Quest2_Folgequest
+Inst155Quest2PreQuest_HORDE = Inst155Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst155Quest3_HORDE = Inst155Quest3
+Inst155Quest3_HORDE_Level = Inst155Quest3_Level
+Inst155Quest3_HORDE_Attain = Inst155Quest3_Attain
+Inst155Quest3_HORDE_Aim = Inst155Quest3_Aim
+Inst155Quest3_HORDE_Location = Inst155Quest3_Location
+Inst155Quest3_HORDE_Note = Inst155Quest3_Note
+Inst155Quest3_HORDE_Prequest = Inst155Quest3_Prequest
+Inst155Quest3_HORDE_Folgequest = Inst155Quest3_Folgequest
+Inst155Quest3PreQuest_HORDE = Inst155Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst155Quest4_HORDE = Inst155Quest4
+Inst155Quest4_HORDE_Level = Inst155Quest4_Level
+Inst155Quest4_HORDE_Attain = Inst155Quest4_Attain
+Inst155Quest4_HORDE_Aim = Inst155Quest4_Aim
+Inst155Quest4_HORDE_Location = Inst155Quest4_Location
+Inst155Quest4_HORDE_Note = Inst155Quest4_Note
+Inst155Quest4_HORDE_Prequest = Inst155Quest4_Prequest
+Inst155Quest4_HORDE_Folgequest = Inst155Quest4_Folgequest
+Inst155Quest4PreQuest_HORDE = Inst155Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst155Quest5_HORDE = Inst155Quest5
+Inst155Quest5_HORDE_Level = Inst155Quest5_Level
+Inst155Quest5_HORDE_Attain = Inst155Quest5_Attain
+Inst155Quest5_HORDE_Aim = Inst155Quest5_Aim
+Inst155Quest5_HORDE_Location = Inst155Quest5_Location
+Inst155Quest5_HORDE_Note = Inst155Quest5_Note
+Inst155Quest5_HORDE_Prequest = Inst155Quest5_Prequest
+Inst155Quest5_HORDE_Folgequest = Inst155Quest5_Folgequest
+Inst155Quest5PreQuest_HORDE = Inst155Quest5PreQuest
+-- No Rewards for this quest
 
 
 
