@@ -453,7 +453,7 @@ function AQColourCheck(arg1)
              AQQuestfarbe = Gelb;
           elseif ( AQQuestlevelf > UnitLevel("player") + 2 and AQQuestlevelf <= UnitLevel("player") + 4) then
              AQQuestfarbe = Orange;
-          elseif ( AQQuestlevelf >= UnitLevel("player") + 5 and AQQuestlevelf ~= 100) then
+          elseif ( AQQuestlevelf >= UnitLevel("player") + 5 and AQQuestlevelf ~= 200) then
              AQQuestfarbe = Rot;
           elseif ( AQQuestlevelf < UnitLevel("player") - 7) then
              AQQuestfarbe = Grau;
@@ -463,7 +463,7 @@ function AQColourCheck(arg1)
           if (AQNOColourCheck) then
              AQQuestfarbe = Gelb;
           end
-          if ( AQQuestlevelf == 100 or AQCompareQLtoAQ()) then
+          if ( AQQuestlevelf == 200 or AQCompareQLtoAQ()) then
              AQQuestfarbe = Blau;
           end
           if (arg1 == 1) then
