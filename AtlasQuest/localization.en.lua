@@ -12754,7 +12754,7 @@ Inst146Quest1_Level = "96"
 Inst146Quest1_Attain = "94"
 Inst146Quest1_Aim = "Collect a Nightmare Bell from Auchindoun."
 Inst146Quest1_Location = "Johnny Awesome "..AQGARRISON
-Inst146Quest1_Note = "The Nightmare Bell can be found next to a wall in the corridor between the second "..YELLOW.."[2]"..WHITE.. " and third "..YELLOW.."[3]"..WHITE.." bosses."
+Inst146Quest1_Note = "The Nightmare Bell can be found next to a wall in the corridor between the second "..YELLOW.."[2]"..WHITE.. " and third "..YELLOW.."[3]"..WHITE.." bosses.\n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst146Quest1_Prequest = "None"
 Inst146Quest1_Folgequest = "None"
 --
@@ -12766,7 +12766,7 @@ Inst146Quest2_Level = "100"
 Inst146Quest2_Attain = "100"
 Inst146Quest2_Aim = "Collect a Soulsever Blade from Auchindoun."
 Inst146Quest2_Location = "Lilian Voss "..AQGARRISON
-Inst146Quest2_Note = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.  You can retrieve it without killing anything or starting the dungeon."
+Inst146Quest2_Note = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.  You can retrieve it without killing anything or starting the dungeon. \n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst146Quest2_Prequest = "None"
 Inst146Quest2_Folgequest = "None"
 --
@@ -12778,7 +12778,7 @@ Inst146Quest3_Level = "100"
 Inst146Quest3_Attain = "100"
 Inst146Quest3_Aim = "Collect a Soulsever Blade from Auchindoun."
 Inst146Quest3_Location = "Lilian Voss "..AQGARRISON
-Inst146Quest3_Note = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.  You must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." for quest completion.."
+Inst146Quest3_Note = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.\n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst146Quest3_Prequest = "None"
 Inst146Quest3_Folgequest = "None"
 --
@@ -12790,7 +12790,7 @@ Inst146Quest4_Level = "100"
 Inst146Quest4_Attain = "100"
 Inst146Quest4_Aim = "Collect a Soulweave Vessel from Auchindoun."
 Inst146Quest4_Location = "Leonid Barthalomew the Revered "..AQGARRISON
-Inst146Quest4_Note = "Requires Heroic Difficulty.  The Soulweave Vessel can be found on the left side of the platform with the first boss at "..YELLOW.."[1]"..WHITE.."."
+Inst146Quest4_Note = "Requires Heroic Difficulty.  The Soulweave Vessel can be found on the left side of the platform with the first boss at "..YELLOW.."[1]"..WHITE..".\n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst146Quest4_Prequest = "None"
 Inst146Quest4_Folgequest = "None"
 --
@@ -12802,7 +12802,7 @@ Inst146Quest5_Level = "100"
 Inst146Quest5_Attain = "100"
 Inst146Quest5_Aim = "Collect a Soulweave Vessel from Auchindoun."
 Inst146Quest5_Location = "Leonid Barthalomew the Revered "..AQGARRISON
-Inst146Quest5_Note = "Requires Heroic Difficulty.  The Soulweave Vessel can be found on the left side of the platform with the first boss at "..YELLOW.."[1]"..WHITE.."."
+Inst146Quest5_Note = "Requires Heroic Difficulty.  The Soulweave Vessel can be found on the left side of the platform with the first boss at "..YELLOW.."[1]"..WHITE..".\n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst146Quest5_Prequest = "None"
 Inst146Quest5_Folgequest = "None"
 --
@@ -12958,7 +12958,7 @@ Inst147Quest3_Level = "99"
 Inst147Quest3_Attain = "97"
 Inst147Quest3_Aim = "Collect a Bottled Windstorm from Skyreach."
 Inst147Quest3_Location = "Taoshi "..AQGARRISON
-Inst147Quest3_Note = "The Bottled Windstorm is on the platform with the third boss, Rukhran at "..YELLOW.."[3]"..WHITE..".  You can grab it off the pillar before you start the fight."
+Inst147Quest3_Note = "The Bottled Windstorm is on the platform with the third boss, Rukhran at "..YELLOW.."[3]"..WHITE..".  You can grab it off the pillar before you start the fight.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst147Quest3_Prequest = "None"
 Inst147Quest3_Folgequest = "None"
 --
@@ -12970,7 +12970,7 @@ Inst147Quest4_Level = "100"
 Inst147Quest4_Attain = "100"
 Inst147Quest4_Aim = "Collect some Pristine Plumage in Skyreach."
 Inst147Quest4_Location = "Skylord Omnuron "..AQGARRISON
-Inst147Quest4_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering."
+Inst147Quest4_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst147Quest4_Prequest = "None"
 Inst147Quest4_Folgequest = "None"
 --
@@ -12982,7 +12982,7 @@ Inst147Quest5_Level = "100"
 Inst147Quest5_Attain = "100"
 Inst147Quest5_Aim = "Collect some Pristine Plumage in Skyreach."
 Inst147Quest5_Location = "Skylord Omnuron "..AQGARRISON
-Inst147Quest5_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering."
+Inst147Quest5_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst147Quest5_Prequest = "None"
 Inst147Quest5_Folgequest = "None"
 --
@@ -12994,7 +12994,7 @@ Inst147Quest6_Level = "100"
 Inst147Quest6_Attain = "100"
 Inst147Quest6_Aim = "Collect a Sun Crystal in Skyreach."
 Inst147Quest6_Location = "Sunwalker Dezco "..AQGARRISON
-Inst147Quest6_Note = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby."
+Inst147Quest6_Note = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst147Quest6_Prequest = "None"
 Inst147Quest6_Folgequest = "None"
 --
@@ -13006,7 +13006,7 @@ Inst147Quest7_Level = "100"
 Inst147Quest7_Attain = "100"
 Inst147Quest7_Aim = "Collect a Sun Crystal in Skyreach."
 Inst147Quest7_Location = "Sunwalker Dezco "..AQGARRISON
-Inst147Quest7_Note = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby."
+Inst147Quest7_Note = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst147Quest7_Prequest = "None"
 Inst147Quest7_Folgequest = "None"
 --
@@ -13135,7 +13135,7 @@ Inst148Quest1_Level = "92"
 Inst148Quest1_Attain = "90"
 Inst148Quest1_Aim = "Collect an Ogre Family Tree from the Bloodmaul Slag Mines."
 Inst148Quest1_Location = "Lunk "..AQGARRISON
-Inst148Quest1_Note = "If you're heading down the path to Slave Watcher Crushto at "..YELLOW.."[2]"..WHITE..", the Ogre Family Tree is in a small alcove to the left before you turn into the boss' room."
+Inst148Quest1_Note = "If you're heading down the path to Slave Watcher Crushto at "..YELLOW.."[2]"..WHITE..", the Ogre Family Tree is in a small alcove to the left before you turn into the boss' room.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst148Quest1_Prequest = "None"
 Inst148Quest1_Folgequest = "None"
 --
@@ -13147,7 +13147,7 @@ Inst148Quest2_Level = "100"
 Inst148Quest2_Attain = "100"
 Inst148Quest2_Aim = "Collect a Giant Ogre Head from the Bloodmaul Slag Mines."
 Inst148Quest2_Location = "Cro Threadstrong "..AQGARRISON
-Inst148Quest2_Note = "Requires Heroic Difficulty.  The Giant Ogre Head will drop from the Bloodmaul Ogres."
+Inst148Quest2_Note = "Requires Heroic Difficulty.  The Giant Ogre Head will drop from the Bloodmaul Ogres.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst148Quest2_Prequest = "None"
 Inst148Quest2_Folgequest = "None"
 --
@@ -13159,7 +13159,7 @@ Inst148Quest3_Level = "100"
 Inst148Quest3_Attain = "100"
 Inst148Quest3_Aim = "Collect a Giant Ogre Head from the Bloodmaul Slag Mines."
 Inst148Quest3_Location = "Cro Threadstrong "..AQGARRISON
-Inst148Quest3_Note = "Requires Heroic Difficulty.  The Giant Ogre Head will drop from the Bloodmaul Ogres."
+Inst148Quest3_Note = "Requires Heroic Difficulty.  The Giant Ogre Head will drop from the Bloodmaul Ogres.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst148Quest3_Prequest = "None"
 Inst148Quest3_Folgequest = "None"
 --
@@ -13171,7 +13171,7 @@ Inst148Quest4_Level = "100"
 Inst148Quest4_Attain = "100"
 Inst148Quest4_Aim = "Collect Olaf's Shield from the Bloodmaul Slag Mines."
 Inst148Quest4_Location = "Olaf "..AQGARRISON
-Inst148Quest4_Note = "Requires Heroic Difficulty.  If heading down the left side towards Magmolatus "..YELLOW.."[1]"..WHITE..",  The shield will be on a shelf opposite the entrance to the tunnel."
+Inst148Quest4_Note = "Requires Heroic Difficulty.  If heading down the left side towards Magmolatus "..YELLOW.."[1]"..WHITE..",  The shield will be on a shelf opposite the entrance to the tunnel.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst148Quest4_Prequest = "None"
 Inst148Quest4_Folgequest = "None"
 --
@@ -13183,7 +13183,7 @@ Inst148Quest5_Level = "100"
 Inst148Quest5_Attain = "100"
 Inst148Quest5_Aim = "Collect Olaf's Shield from the Bloodmaul Slag Mines."
 Inst148Quest5_Location = "Olaf "..AQGARRISON
-Inst148Quest5_Note = "Requires Heroic Difficulty.  If heading down the left side towards Magmolatus "..YELLOW.."[1]"..WHITE..",  The shield will be on a shelf opposite the entrance to the tunnel."
+Inst148Quest5_Note = "Requires Heroic Difficulty.  If heading down the left side towards Magmolatus "..YELLOW.."[1]"..WHITE..",  The shield will be on a shelf opposite the entrance to the tunnel.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst148Quest5_Prequest = "None"
 Inst148Quest5_Folgequest = "None"
 --
@@ -13312,7 +13312,7 @@ Inst149Quest1_Level = "94"
 Inst149Quest1_Attain = "92"
 Inst149Quest1_Aim = "Collect a Very Shiny Thing from the Iron Docks."
 Inst149Quest1_Location = "Budd "..AQGARRISON
-Inst149Quest1_Note = "The Very Shiny Thing is on a wooden box, about halfway between the second and third bosses."
+Inst149Quest1_Note = "The Very Shiny Thing is on a wooden box, about halfway between the second and third bosses.\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst149Quest1_Prequest = "None"
 Inst149Quest1_Folgequest = "None"
 --
@@ -13324,7 +13324,7 @@ Inst149Quest2_Level = "100"
 Inst149Quest2_Attain = "100"
 Inst149Quest2_Aim = "Collect a barrel of Horribly Acidic Solution from the Iron Docks."
 Inst149Quest2_Location = "Moroes "..AQGARRISON
-Inst149Quest2_Note = "Requires Heroic Difficulty.  The Horribly Acidic Solution is in a vial on top of a barrel on the way to the second boss.  Just before the part with the Iron Stars."
+Inst149Quest2_Note = "Requires Heroic Difficulty.  The Horribly Acidic Solution is in a vial on top of a barrel on the way to the second boss.  Just before the part with the Iron Stars.\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst149Quest2_Prequest = "None"
 Inst149Quest2_Folgequest = "None"
 --
@@ -13336,7 +13336,7 @@ Inst149Quest3_Level = "100"
 Inst149Quest3_Attain = "100"
 Inst149Quest3_Aim = "Collect a barrel of Horribly Acidic Solution from the Iron Docks."
 Inst149Quest3_Location = "Moroes "..AQGARRISON
-Inst149Quest3_Note = "Requires Heroic Difficulty.  The Horribly Acidic Solution is in a vial on top of a barrel on the way to the second boss.  Just before the part with the Iron Stars."
+Inst149Quest3_Note = "Requires Heroic Difficulty.  The Horribly Acidic Solution is in a vial on top of a barrel on the way to the second boss.  Just before the part with the Iron Stars.\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst149Quest3_Prequest = "None"
 Inst149Quest3_Folgequest = "None"
 --
@@ -13348,7 +13348,7 @@ Inst149Quest4_Level = "100"
 Inst149Quest4_Attain = "100"
 Inst149Quest4_Aim = "Find the Brass Compass at the Iron Docks."
 Inst149Quest4_Location = "Fleet Master Seahorn "..AQGARRISON
-Inst149Quest4_Note = "Requires Heroic Difficulty.  The Brass Compass is on the ground in front of some barrels near the first boss at "..YELLOW.."[1]"..WHITE.."."
+Inst149Quest4_Note = "Requires Heroic Difficulty.  The Brass Compass is on the ground in front of some barrels near the first boss at "..YELLOW.."[1]"..WHITE..".\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst149Quest4_Prequest = "None"
 Inst149Quest4_Folgequest = "None"
 --
@@ -13360,7 +13360,7 @@ Inst149Quest5_Level = "100"
 Inst149Quest5_Attain = "100"
 Inst149Quest5_Aim = "Find the Brass Compass at the Iron Docks."
 Inst149Quest5_Location = "Fleet Master Seahorn "..AQGARRISON
-Inst149Quest5_Note = "Requires Heroic Difficulty.  The Brass Compass is on the ground in front of some barrels near the first boss at "..YELLOW.."[1]"..WHITE.."."
+Inst149Quest5_Note = "Requires Heroic Difficulty.  The Brass Compass is on the ground in front of some barrels near the first boss at "..YELLOW.."[1]"..WHITE..".\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst149Quest5_Prequest = "None"
 Inst149Quest5_Folgequest = "None"
 --
@@ -13465,7 +13465,7 @@ Inst150Quest1_Level = "100"
 Inst150Quest1_Attain = "98"
 Inst150Quest1_Aim = "Find a Tiny Peachick Hatchling in The Everbloom."
 Inst150Quest1_Location = "Mylune "..AQGARRISON
-Inst150Quest1_Note = "You can find the Tiny Peachick Hatchling in on the ground south of Xeritac's Burrow at coordinates "..YELLOW.."55.4, 22.6"..WHITE.."."
+Inst150Quest1_Note = "You can find the Tiny Peachick Hatchling in on the ground south of Xeritac's Burrow at coordinates "..YELLOW.."55.4, 22.6"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst150Quest1_Prequest = "None"
 Inst150Quest1_Folgequest = "None"
 --
@@ -13477,7 +13477,7 @@ Inst150Quest2_Level = "100"
 Inst150Quest2_Attain = "98"
 Inst150Quest2_Aim = "Find a Tiny Peachick Hatchling in The Everbloom."
 Inst150Quest2_Location = "Mylune "..AQGARRISON
-Inst150Quest2_Note = "You can find the Tiny Peachick Hatchling in on the ground south of Xeritac's Burrow at coordinates "..YELLOW.."55.4, 22.6"..WHITE.."."
+Inst150Quest2_Note = "You can find the Tiny Peachick Hatchling in on the ground south of Xeritac's Burrow at coordinates "..YELLOW.."55.4, 22.6"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst150Quest2_Prequest = "None"
 Inst150Quest2_Folgequest = "None"
 --
@@ -13489,7 +13489,7 @@ Inst150Quest3_Level = "100"
 Inst150Quest3_Attain = "100"
 Inst150Quest3_Aim = "Collect an Overgrown Artifact from The Everbloom."
 Inst150Quest3_Location = "Lorewalker Cho "..AQGARRISON
-Inst150Quest3_Note = "Requires Heroic Difficulty.  The Overgrown Artifact is on the south portion of the dungeon at coordinates "..YELLOW.."61.1, 66.3"..WHITE.."."
+Inst150Quest3_Note = "Requires Heroic Difficulty.  The Overgrown Artifact is on the south portion of the dungeon at coordinates "..YELLOW.."61.1, 66.3"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst150Quest3_Prequest = "None"
 Inst150Quest3_Folgequest = "None"
 --
@@ -13501,7 +13501,7 @@ Inst150Quest4_Level = "100"
 Inst150Quest4_Attain = "100"
 Inst150Quest4_Aim = "Collect an Overgrown Artifact from The Everbloom."
 Inst150Quest4_Location = "Lorewalker Cho "..AQGARRISON
-Inst150Quest4_Note = "Requires Heroic Difficulty.  The Overgrown Artifact is on the south portion of the dungeon at coordinates "..YELLOW.."61.1, 66.3"..WHITE.."."
+Inst150Quest4_Note = "Requires Heroic Difficulty.  The Overgrown Artifact is on the south portion of the dungeon at coordinates "..YELLOW.."61.1, 66.3"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst150Quest4_Prequest = "None"
 Inst150Quest4_Folgequest = "None"
 --
@@ -13513,7 +13513,7 @@ Inst150Quest5_Level = "100"
 Inst150Quest5_Attain = "100"
 Inst150Quest5_Aim = "Collect a Strangely-Glowing Frond from Everbloom."
 Inst150Quest5_Location = "Zen'kiki "..AQGARRISON
-Inst150Quest5_Note = "Requires Heroic Difficulty.  The Strangely-Glowing Frond is in the Verdant Grove at coordinates "..YELLOW.."64.6, 21.0"..WHITE.."."
+Inst150Quest5_Note = "Requires Heroic Difficulty.  The Strangely-Glowing Frond is in the Verdant Grove at coordinates "..YELLOW.."64.6, 21.0"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst150Quest5_Prequest = "None"
 Inst150Quest5_Folgequest = "None"
 --
@@ -13525,7 +13525,7 @@ Inst150Quest6_Level = "100"
 Inst150Quest6_Attain = "100"
 Inst150Quest6_Aim = "Collect a Strangely-Glowing Frond from Everbloom."
 Inst150Quest6_Location = "Zen'kiki "..AQGARRISON
-Inst150Quest6_Note = "Requires Heroic Difficulty.  The Strangely-Glowing Frond is in the Verdant Grove at coordinates "..YELLOW.."64.6, 21.0"..WHITE.."."
+Inst150Quest6_Note = "Requires Heroic Difficulty.  The Strangely-Glowing Frond is in the Verdant Grove at coordinates "..YELLOW.."64.6, 21.0"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst150Quest6_Prequest = "None"
 Inst150Quest6_Folgequest = "None"
 --
@@ -13690,7 +13690,7 @@ Inst151Quest1_Level = "100"
 Inst151Quest1_Attain = "100"
 Inst151Quest1_Aim = "Find an Iron Limbcleaver in Grimrail Depot."
 Inst151Quest1_Location = "Gamon "..AQGARRISON
-Inst151Quest1_Note = "Requires Heroic Difficulty.  You can find the Iron Limbcleaver in the middle of the second train car."
+Inst151Quest1_Note = "Requires Heroic Difficulty.  You can find the Iron Limbcleaver in the middle of the second train car.\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest."
 Inst151Quest1_Prequest = "None"
 Inst151Quest1_Folgequest = "None"
 --
@@ -13702,7 +13702,7 @@ Inst151Quest2_Level = "100"
 Inst151Quest2_Attain = "100"
 Inst151Quest2_Aim = "Find an Iron Limbcleaver in Grimrail Depot."
 Inst151Quest2_Location = "Gamon "..AQGARRISON
-Inst151Quest2_Note = "Requires Heroic Difficulty.  You can find the Iron Limbcleaver in the middle of the second train car."
+Inst151Quest2_Note = "Requires Heroic Difficulty.  You can find the Iron Limbcleaver in the middle of the second train car.\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest."
 Inst151Quest2_Prequest = "None"
 Inst151Quest2_Folgequest = "None"
 --
@@ -13714,7 +13714,7 @@ Inst151Quest3_Level = "100"
 Inst151Quest3_Attain = "100"
 Inst151Quest3_Aim = "Collect a Huge Crate of Weapons in Grimrail Depot."
 Inst151Quest3_Location = "Lonika Stillblade "..AQGARRISON
-Inst151Quest3_Note = "Requires Heroic Difficulty.  The Huge Crate of Weapons is on the way to the first boss at coordinates "..YELLOW.."53.3, 39.1"..WHITE.."."
+Inst151Quest3_Note = "Requires Heroic Difficulty.  The Huge Crate of Weapons is on the way to the first boss at coordinates "..YELLOW.."53.3, 39.1"..WHITE..".\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest."
 Inst151Quest3_Prequest = "None"
 Inst151Quest3_Folgequest = "None"
 --
@@ -13726,7 +13726,7 @@ Inst151Quest4_Level = "100"
 Inst151Quest4_Attain = "100"
 Inst151Quest4_Aim = "Collect a Huge Crate of Weapons in Grimrail Depot."
 Inst151Quest4_Location = "Lonika Stillblade "..AQGARRISON
-Inst151Quest4_Note = "Requires Heroic Difficulty.  The Huge Crate of Weapons is on the way to the first boss at coordinates "..YELLOW.."53.3, 39.1"..WHITE.."."
+Inst151Quest4_Note = "Requires Heroic Difficulty.  The Huge Crate of Weapons is on the way to the first boss at coordinates "..YELLOW.."53.3, 39.1"..WHITE..".\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest."
 Inst151Quest4_Prequest = "None"
 Inst151Quest4_Folgequest = "None"
 --
@@ -13738,7 +13738,7 @@ Inst151Quest5_Level = "100"
 Inst151Quest5_Attain = "98"
 Inst151Quest5_Aim = "Find an Iron Autocannon in Grimrail Depot."
 Inst151Quest5_Location = "John J. Keeshan "..AQGARRISON
-Inst151Quest5_Note = "Requires Heroic Difficulty.  You can find the Iron Autocannon after you kill the second boss at "..YELLOW.."[2]"..WHITE.."."
+Inst151Quest5_Note = "Requires Heroic Difficulty.  You can find the Iron Autocannon after you kill the second boss at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest."
 Inst151Quest5_Prequest = "None"
 Inst151Quest5_Folgequest = "None"
 --
@@ -13750,7 +13750,7 @@ Inst151Quest6_Level = "100"
 Inst151Quest6_Attain = "98"
 Inst151Quest6_Aim = "Find an Iron Autocannon in Grimrail Depot."
 Inst151Quest6_Location = "John J. Keeshan "..AQGARRISON
-Inst151Quest6_Note = "Requires Heroic Difficulty.  You can find the Iron Autocannon after you kill the second boss at "..YELLOW.."[2]"..WHITE.."."
+Inst151Quest6_Note = "Requires Heroic Difficulty.  You can find the Iron Autocannon after you kill the second boss at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest."
 Inst151Quest6_Prequest = "None"
 Inst151Quest6_Folgequest = "None"
 --
@@ -13891,7 +13891,7 @@ Inst152Quest1_Level = "100"
 Inst152Quest1_Attain = "98"
 Inst152Quest1_Aim = "Find a Void-Gate Key in the Shadowmoon Burial Grounds."
 Inst152Quest1_Location = "Impsy "..AQGARRISON
-Inst152Quest1_Note = "The Void-Gate Key is fairly close to the entrance of the dungeon.  It is on a pedestal in a room shortly after the first set of stairs at coordinates "..YELLOW.."37.4, 51.7"..WHITE.."."
+Inst152Quest1_Note = "The Void-Gate Key is fairly close to the entrance of the dungeon.  It is on a pedestal in a room shortly after the first set of stairs at coordinates "..YELLOW.."37.4, 51.7"..WHITE..".\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst152Quest1_Prequest = "None"
 Inst152Quest1_Folgequest = "None"
 --
@@ -13903,7 +13903,7 @@ Inst152Quest2_Level = "100"
 Inst152Quest2_Attain = "98"
 Inst152Quest2_Aim = "Find a Void-Gate Key in the Shadowmoon Burial Grounds."
 Inst152Quest2_Location = "Impsy "..AQGARRISON
-Inst152Quest2_Note = "The Void-Gate Key is fairly close to the entrance of the dungeon.  It is on a pedestal in a room shortly after the first set of stairs at coordinates "..YELLOW.."37.4, 51.7"..WHITE.."."
+Inst152Quest2_Note = "The Void-Gate Key is fairly close to the entrance of the dungeon.  It is on a pedestal in a room shortly after the first set of stairs at coordinates "..YELLOW.."37.4, 51.7"..WHITE..".\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst152Quest2_Prequest = "None"
 Inst152Quest2_Folgequest = "None"
 --
@@ -13915,7 +13915,7 @@ Inst152Quest3_Level = "100"
 Inst152Quest3_Attain = "100"
 Inst152Quest3_Aim = "Collect a Dark Parchment from the Shadowmoon Burial Grounds."
 Inst152Quest3_Location = "Highlord Darion Mograine "..AQGARRISON
-Inst152Quest3_Note = "Requires Heroic Difficulty.  After entering the dungeon, walk down the corridor.  You'll find the Dark Parchment on the ground on the left side of the first room."
+Inst152Quest3_Note = "Requires Heroic Difficulty.  After entering the dungeon, walk down the corridor.  You'll find the Dark Parchment on the ground on the left side of the first room.\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst152Quest3_Prequest = "None"
 Inst152Quest3_Folgequest = "None"
 --
@@ -13927,7 +13927,7 @@ Inst152Quest4_Level = "100"
 Inst152Quest4_Attain = "100"
 Inst152Quest4_Aim = "Collect a Dark Parchment from the Shadowmoon Burial Grounds."
 Inst152Quest4_Location = "Highlord Darion Mograine "..AQGARRISON
-Inst152Quest4_Note = "Requires Heroic Difficulty.  After entering the dungeon, walk down the corridor.  You'll find the Dark Parchment on the ground on the left side of the first room."
+Inst152Quest4_Note = "Requires Heroic Difficulty.  After entering the dungeon, walk down the corridor.  You'll find the Dark Parchment on the ground on the left side of the first room.\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst152Quest4_Prequest = "None"
 Inst152Quest4_Folgequest = "None"
 --
@@ -13939,7 +13939,7 @@ Inst152Quest5_Level = "100"
 Inst152Quest5_Attain = "100"
 Inst152Quest5_Aim = "Collect a Silver-Lined Arrow from the Shadowmoon Burial Ground."
 Inst152Quest5_Location = "Cowled Ranger "..AQGARRISON
-Inst152Quest5_Note = "Requires Heroic Difficulty.  The Silver-Lined Arrow is on an altar after you defeat Nhallish at "..YELLOW.."[2]"..WHITE.."."
+Inst152Quest5_Note = "Requires Heroic Difficulty.  The Silver-Lined Arrow is on an altar after you defeat Nhallish at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst152Quest5_Prequest = "None"
 Inst152Quest5_Folgequest = "None"
 --
@@ -13951,7 +13951,7 @@ Inst152Quest6_Level = "100"
 Inst152Quest6_Attain = "100"
 Inst152Quest6_Aim = "Collect a Silver-Lined Arrow from the Shadowmoon Burial Ground."
 Inst152Quest6_Location = "Cowled Ranger "..AQGARRISON
-Inst152Quest6_Note = "Requires Heroic Difficulty.  The Silver-Lined Arrow is on an altar after you defeat Nhallish at "..YELLOW.."[2]"..WHITE.."."
+Inst152Quest6_Note = "Requires Heroic Difficulty.  The Silver-Lined Arrow is on an altar after you defeat Nhallish at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst152Quest6_Prequest = "None"
 Inst152Quest6_Folgequest = "None"
 --
@@ -14068,7 +14068,7 @@ Inst153Quest1_Level = "100"
 Inst153Quest1_Attain = "98"
 Inst153Quest1_Aim = "Collect a Spire Flamefly in Upper Blackrock Spire."
 Inst153Quest1_Location = "Oralius "..AQGARRISON
-Inst153Quest1_Note = "The Spire Flamefly is on a barrel just up the ramp when you enter the dungeon."
+Inst153Quest1_Note = "The Spire Flamefly is on a barrel just up the ramp when you enter the dungeon.\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst153Quest1_Prequest = "None"
 Inst153Quest1_Folgequest = "None"
 --
@@ -14080,7 +14080,7 @@ Inst153Quest2_Level = "100"
 Inst153Quest2_Attain = "98"
 Inst153Quest2_Aim = "Collect a Spire Flamefly in Upper Blackrock Spire."
 Inst153Quest2_Location = "Oralius "..AQGARRISON
-Inst153Quest2_Note = "The Spire Flamefly is on a barrel just up the ramp when you enter the dungeon."
+Inst153Quest2_Note = "The Spire Flamefly is on a barrel just up the ramp when you enter the dungeon.\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst153Quest2_Prequest = "None"
 Inst153Quest2_Folgequest = "None"
 --
@@ -14092,7 +14092,7 @@ Inst153Quest3_Level = "100"
 Inst153Quest3_Attain = "100"
 Inst153Quest3_Aim = "Find Finkle's Improved Skinner in Blackrock Spire."
 Inst153Quest3_Location = "Finkle Einhorn "..AQGARRISON
-Inst153Quest3_Note = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE.."."
+Inst153Quest3_Note = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst153Quest3_Prequest = "None"
 Inst153Quest3_Folgequest = "None"
 --
@@ -14104,7 +14104,7 @@ Inst153Quest4_Level = "100"
 Inst153Quest4_Attain = "100"
 Inst153Quest4_Aim = "Find Finkle's Improved Skinner in Blackrock Spire."
 Inst153Quest4_Location = "Finkle Einhorn "..AQGARRISON
-Inst153Quest4_Note = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE.."."
+Inst153Quest4_Note = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst153Quest4_Prequest = "None"
 Inst153Quest4_Folgequest = "None"
 --
@@ -14116,7 +14116,7 @@ Inst153Quest5_Level = "100"
 Inst153Quest5_Attain = "100"
 Inst153Quest5_Aim = "Collect a Shed Proto-Dragon Claw."
 Inst153Quest5_Location = "Maximillian of Northshire "..AQGARRISON
-Inst153Quest5_Note = "Requires Heroic Difficulty.  The Shed Proto-Dragon Claw is in front of the gate in the room where you fight Commander Tharbek at "..YELLOW.."[3]"..WHITE.."."
+Inst153Quest5_Note = "Requires Heroic Difficulty.  The Shed Proto-Dragon Claw is in front of the gate in the room where you fight Commander Tharbek at "..YELLOW.."[3]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst153Quest5_Prequest = "None"
 Inst153Quest5_Folgequest = "None"
 --
@@ -14128,7 +14128,7 @@ Inst153Quest6_Level = "100"
 Inst153Quest6_Attain = "100"
 Inst153Quest6_Aim = "Collect a Shed Proto-Dragon Claw."
 Inst153Quest6_Location = "Maximillian of Northshire "..AQGARRISON
-Inst153Quest6_Note = "Requires Heroic Difficulty.  The Shed Proto-Dragon Claw is in front of the gate in the room where you fight Commander Tharbek at "..YELLOW.."[3]"..WHITE.."."
+Inst153Quest6_Note = "Requires Heroic Difficulty.  The Shed Proto-Dragon Claw is in front of the gate in the room where you fight Commander Tharbek at "..YELLOW.."[3]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst153Quest6_Prequest = "None"
 Inst153Quest6_Folgequest = "None"
 --
@@ -14140,7 +14140,7 @@ Inst153Quest7_Level = "100"
 Inst153Quest7_Attain = "100"
 Inst153Quest7_Aim = "Collect a Miniature Iron Star from Upper Blackrock Spire."
 Inst153Quest7_Location = "Millhouse Manastorm "..AQGARRISON
-Inst153Quest7_Note = "Requires Heroic Difficulty.  The Miniature Iron Star is in the large room just before the final boss' chamber.  It is near where the original Upper Blackrock Spire boss was, at coordinates "..YELLOW.."34.3, 54.2"..WHITE.."."
+Inst153Quest7_Note = "Requires Heroic Difficulty.  The Miniature Iron Star is in the large room just before the final boss' chamber.  It is near where the original Upper Blackrock Spire boss was, at coordinates "..YELLOW.."34.3, 54.2"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest."
 Inst153Quest7_Prequest = "None"
 Inst153Quest7_Folgequest = "None"
 --
@@ -14360,7 +14360,7 @@ Inst155Quest4_Level = "100"
 Inst155Quest4_Attain = "100"
 Inst155Quest4_Aim = "Collect 3 Elemental Tablets. Assemble the tablets by collecting Elemental Runes from bosses in the Blackrock Foundry."
 Inst155Quest4_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest4_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nIt takes 300 Elemental Runes to make 1 Elemental Tablet.  All bosses in Blackrock Foundry will drop the Elemental Runes.  They can also be obtained from a garrison mission."
+Inst155Quest4_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nIt takes 300 Elemental Runes to make 1 Elemental Tablet.  All bosses in Blackrock Foundry will drop the Elemental Runes.  They can also be obtained from certain rare garrison missions and work orders."
 Inst155Quest4_Prequest = "Touch of the Kirin-Tor"
 Inst155Quest4_Folgequest = "None"
 Inst155Quest4PreQuest = "true"
