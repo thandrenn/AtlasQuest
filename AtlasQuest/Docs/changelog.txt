@@ -2,11 +2,12 @@
 Changelog
 =========
 
-Version 4.9.2  (March ??, 2015)
+Version 4.9.2  (March 25, 2015)
 
 - TOC Updated for Patch 6.1
 - Updated Garrison quests which now require the last boss in the instance to be killed.
 - Fixed bug with Level 100 quests always being colored blue, even if not in quest log.
+- NOTE: Only the English localization is updated.  German update is still pending.
 
 - Added Quests:
 	- Blackrock Foundry: Heart of the Fury
