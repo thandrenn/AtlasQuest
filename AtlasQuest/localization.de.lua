@@ -12831,7 +12831,7 @@ Inst146Quest2_Level = "100"
 Inst146Quest2_Attain = "100"
 Inst146Quest2_Aim = "Beschafft eine Seelenschnittklinge aus Auchindoun."
 Inst146Quest2_Location = "Lilian Voss"..AQGARRISON
-Inst146Quest2_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss."
+Inst146Quest2_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss.\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst146Quest2_Prequest = "Nein"
 Inst146Quest2_Folgequest = "Nein"
 --
@@ -12843,7 +12843,7 @@ Inst146Quest3_Level = "100"
 Inst146Quest3_Attain = "100"
 Inst146Quest3_Aim = Inst146Quest2_Aim
 Inst146Quest3_Location = Inst146Quest2_Location
-Inst146Quest3_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss. Dazu muss der Endboss bei "..YELLOW.."[4]"..WHITE.." besiegt werden um diese Quest abzuschließen."
+Inst146Quest3_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss.\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst146Quest3_Prequest = "Nein"
 Inst146Quest3_Folgequest = "Nein"
 --
@@ -12855,7 +12855,7 @@ Inst146Quest4_Level = "100"
 Inst146Quest4_Attain = "100"
 Inst146Quest4_Aim = "Besorgt ein Seelenflechtgefäß in Auchindoun."
 Inst146Quest4_Location = "Leonidas Bartholomäus der Geachtete"..AQGARRISON
-Inst146Quest4_Note = "Nur im heroischen Modus.  Das Seelengeflecht befindet sich auf der linken Seite der Plattform mit dem ersten Boss bei "..YELLOW.."[1]"..WHITE.."."
+Inst146Quest4_Note = "Nur im heroischen Modus.  Das Seelengeflecht befindet sich auf der linken Seite der Plattform mit dem ersten Boss bei "..YELLOW.."[1]"..WHITE..".\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst146Quest4_Prequest = "Nein"
 Inst146Quest4_Folgequest = "Nein"
 --
@@ -12879,7 +12879,7 @@ Inst146Quest6_Level = "100"
 Inst146Quest6_Attain = "100"
 Inst146Quest6_Aim = "Besorgt verderbtes Blut von Teron'gor in Auchindoun."
 Inst146Quest6_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst146Quest6_Note = "Teil der Legendären Draenor-Questreihe des Ringes. Diese Quest kann nur im heroischen Modus erledigt werden!\n\nTeron'gor der finale Boss ist bei"..YELLOW.."[4]"..WHITE.."."
+Inst146Quest6_Note = "Kapitel 1 der Legendären Questreihe des Ringes. Diese Quest kann nur im heroischen Modus erledigt werden!\n\nTeron'gor der finale Boss ist bei"..YELLOW.."[4]"..WHITE.."."
 Inst146Quest6_Prequest = "Ruf des Erzmagiers -> Flammenkern/Eisenkern/Lebenskern"
 Inst146Quest6_Folgequest = "Augen des Erzmagiers"
 Inst146Quest6FQuest = "true"
@@ -12891,7 +12891,7 @@ Inst146Quest7_Level = "100"
 Inst146Quest7_Attain = "100"
 Inst146Quest7_Aim = "Schließt den Herausforderungsmodus von Auchindoun ab."
 Inst146Quest7_Location = "Herausforderin Savina (Ashran - Sturmschild; "..YELLOW.."52.1, 63.6"..WHITE..")"
-Inst146Quest7_Note = "Du mußt einfach nur diese Herrausfoderung beenden. Wie lange du dabei brauchst ist nicht wichtig für diese Quest."
+Inst146Quest7_Note = "Du mußt nur diese Herrausfoderung beenden. Wie lange du dabei brauchst ist nicht wichtig für diese Quest."
 Inst146Quest7_Prequest = "Nein"
 Inst146Quest7_Folgequest = "Nein"
 --
@@ -13007,7 +13007,7 @@ Inst147Quest2_Level = "100"
 Inst147Quest2_Attain = "98"
 Inst147Quest2_Aim = "Besorgt ein Band aus reinem Solium vom obersten Weisen Viryx in der Himmelsnadel."
 Inst147Quest2_Location = Inst146Quest6_Location
-Inst147Quest2_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Das Band aus reinem Solium droppt vom Endboss dem obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.."."
+Inst147Quest2_Note = "Kapitel 1 der Legendären Questreihe des Ringes.  Das Band aus reinem Solium droppt vom Endboss dem obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.."."
 Inst147Quest2_Prequest = "Ruf des Erzmagiers"
 Inst147Quest2_Folgequest = "Khadgars Aufgabe"
 Inst147Quest2FQuest = "true"
@@ -13019,7 +13019,7 @@ Inst147Quest3_Level = "99"
 Inst147Quest3_Attain = "97"
 Inst147Quest3_Aim = "Tötet Ranjit, Araknath, Rukhran und den obersten Weisen Viryx in der Himmelsnadel."
 Inst147Quest3_Location = "Taoshi"..AQGARRISON
-Inst147Quest3_Note = "Der Windsturm in der Flasche befindet sich auf der Plattform vom dritten Boss bei "..YELLOW.."[3]"..WHITE.."."
+Inst147Quest3_Note = "Der Windsturm in der Flasche befindet sich auf der Plattform vom dritten Boss bei "..YELLOW.."[3]"..WHITE..".\n\nDu musst den Endboss obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst147Quest3_Prequest = "Nein"
 Inst147Quest3_Folgequest = "Nein"
 --
@@ -13031,7 +13031,7 @@ Inst147Quest4_Level = "100"
 Inst147Quest4_Attain = "100"
 Inst147Quest4_Aim = "Sammelt makelloses Gefieder in Himmelsnadel."
 Inst147Quest4_Location = "Himmelsfürst Omnuron"..AQGARRISON
-Inst147Quest4_Note = "Nur im heroischen Modus.  Das Makelloses Gefieder befindet in der nähe von Töpfen am Eingang der Instanz."
+Inst147Quest4_Note = "Nur im heroischen Modus.  Das Makelloses Gefieder befindet in der nähe von Töpfen am Eingang der Instanz.\n\nDu musst den Endboss obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst147Quest4_Prequest = "Nein"
 Inst147Quest4_Folgequest = "Nein"
 --
@@ -13055,7 +13055,7 @@ Inst147Quest6_Level = "100"
 Inst147Quest6_Attain = "100"
 Inst147Quest6_Aim = "Beschafft einen Sonnenkristall in Himmelsnadel."
 Inst147Quest6_Location = "Sonnenläufer Dezco"..AQGARRISON
-Inst147Quest6_Note = "Nur im heroischen Modus.  Nach der Tötung des 1. Bosses und nach der Besteigung der Stufen findest du den Sonnenkristall auf einen Tisch."
+Inst147Quest6_Note = "Nur im heroischen Modus.  Nach der Tötung des 1. Bosses und nach der Besteigung der Stufen findest du den Sonnenkristall auf einen Tisch.\n\nDu musst den Endboss obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst147Quest6_Prequest = "Nein"
 Inst147Quest6_Folgequest = "Nein"
 --
@@ -13195,7 +13195,7 @@ Inst148Quest1_Level = "92"
 Inst148Quest1_Attain = "90"
 Inst148Quest1_Aim = "Beschafft einen Ogerstammbaum aus der Blutschlägermine."
 Inst148Quest1_Location = "Lunk"..AQGARRISON
-Inst148Quest1_Note = "Wenn Du den Pfad zum Sklavenwächter Crushto lang gehst bei "..YELLOW.."[2]"..WHITE..", der Ogerbaumstamm befindet sich in einer kleinen Nische bevor Du den Bossraum betritts."
+Inst148Quest1_Note = "Wenn Du den Pfad zum Sklavenwächter Crushto lang gehst bei "..YELLOW.."[2]"..WHITE..", der Ogerbaumstamm befindet sich in einer kleinen Nische bevor Du den Bossraum betritts.\n\nDu musst den Endboss Gug'rokk bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst148Quest1_Prequest = "Nein"
 Inst148Quest1_Folgequest = "Nein"
 --
@@ -13207,7 +13207,7 @@ Inst148Quest2_Level = "100"
 Inst148Quest2_Attain = "100"
 Inst148Quest2_Aim = "Besorgt einen riesigen Ogerkopf aus der Blutschlägermine."
 Inst148Quest2_Location = "Cro Dickfädel"..AQGARRISON
-Inst148Quest2_Note = "Nur im heroischen Modus.  Der riesige Ogerkopf droppt von den Bultschlägerogern."
+Inst148Quest2_Note = "Nur im heroischen Modus.  Der riesige Ogerkopf droppt von den Bultschlägerogern.\n\nDu musst den Endboss Gug'rokk bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst148Quest2_Prequest = "Nein"
 Inst148Quest2_Folgequest = "Nein"
 --
@@ -13231,7 +13231,7 @@ Inst148Quest4_Level = "100"
 Inst148Quest4_Attain = "100"
 Inst148Quest4_Aim = "Holt Olafs Schild aus der Blutschlägermine."
 Inst148Quest4_Location = "Olaf"..AQGARRISON
-Inst148Quest4_Note = "Nur im heroischen Modus.  Olafs Schild befindet sich auf den Weg zum Boss Magmolatus "..YELLOW.."[1]"..WHITE..", auf der Höhe zum Tunnel um zu den Boss zu gelangen."
+Inst148Quest4_Note = "Nur im heroischen Modus.  Olafs Schild befindet sich auf den Weg zum Boss Magmolatus "..YELLOW.."[1]"..WHITE..", auf der Höhe zum Tunnel um zu den Boss zu gelangen.\n\nDu musst den Endboss Gug'rokk bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst148Quest4_Prequest = "Nein"
 Inst148Quest4_Folgequest = "Nein"
 --
@@ -13255,7 +13255,7 @@ Inst148Quest6_Level = "100"
 Inst148Quest6_Attain = "98"
 Inst148Quest6_Aim = "Besorgt einen Flammenkern von Gug'rokk in der Blutschlägermine [nur Heroisch]."
 Inst148Quest6_Location = Inst146Quest6_Location
-Inst148Quest6_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nGug'rokk ist der Endboss, bei "..YELLOW.."[4]"..WHITE.."."
+Inst148Quest6_Note = "Kapitel 1 der Legendären Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nGug'rokk ist der Endboss, bei "..YELLOW.."[4]"..WHITE.."."
 Inst148Quest6_Prequest = "Ruf des Erzmagiers -> Khadgars Aufgabe"
 Inst148Quest6_Folgequest = "Kampf mit Teron'gor"
 Inst148Quest6FQuest = "true"
@@ -13371,7 +13371,7 @@ Inst149Quest1_Level = "94"
 Inst149Quest1_Attain = "92"
 Inst149Quest1_Aim = "Holt in den Eisendocks ein verlockend glänzendes Etwas."
 Inst149Quest1_Location = "Budd"..AQGARRISON
-Inst149Quest1_Note = "Das verlockende glänzendes Etwas ist auf einem Holzkasten, dieser befindet sich auf den halben Weg zwischen dem zweiten und dritten Boss."
+Inst149Quest1_Note = "Das verlockende glänzendes Etwas ist auf einem Holzkasten, dieser befindet sich auf den halben Weg zwischen dem zweiten und dritten Boss.\n\nDu musst den Endboss Skulloc bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst149Quest1_Prequest = "Nein"
 Inst149Quest1_Folgequest = "Nein"
 --
@@ -13383,7 +13383,7 @@ Inst149Quest2_Level = "100"
 Inst149Quest2_Attain = "100"
 Inst149Quest2_Aim = "Besorgt ein Fass schrecklich säurehaltiger Lösung von den Eisendocks."
 Inst149Quest2_Location = "Moroes"..AQGARRISON
-Inst149Quest2_Note = "Nur im heroischen Modus.  Die schrecklich säurehaltiger Lösung ist in einer Flasche oben auf einem Fass, auf dem Weg zum zweiten Boss. Es wird empfohlen das kleine Minievent mit den Eisensternen zu starten!"
+Inst149Quest2_Note = "Nur im heroischen Modus.  Die schrecklich säurehaltiger Lösung ist in einer Flasche oben auf einem Fass, auf dem Weg zum zweiten Boss. Es wird empfohlen das kleine Minievent mit den Eisensternen zu starten!\n\nDu musst den Endboss Skulloc bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst149Quest2_Prequest = "Nein"
 Inst149Quest2_Folgequest = "Nein"
 --
@@ -13407,7 +13407,7 @@ Inst149Quest4_Level = "100"
 Inst149Quest4_Attain = "100"
 Inst149Quest4_Aim = "Findet den Messingkompass an den Eisendocks."
 Inst149Quest4_Location = "Flottenmeister Seehorn"..AQGARRISON
-Inst149Quest4_Note = "Nur im heroischen Modus.  Der Messingkompass liegt auf dem Boden vorne an Fässern in der Nähe vom ersten Boss bei "..YELLOW.."[1]"..WHITE.."."
+Inst149Quest4_Note = "Nur im heroischen Modus.  Der Messingkompass liegt auf dem Boden vorne an Fässern in der Nähe vom ersten Boss bei "..YELLOW.."[1]"..WHITE..".\n\nDu musst den Endboss Skulloc bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst149Quest4_Prequest = "Nein"
 Inst149Quest4_Folgequest = "Nein"
 --
@@ -13523,7 +13523,7 @@ Inst150Quest1_Level = "100"
 Inst150Quest1_Attain = "98"
 Inst150Quest1_Aim = "Sucht ein winziges Pfauenküken im Immergrünen Flor."
 Inst150Quest1_Location = "Mylune"..AQGARRISON
-Inst150Quest1_Note = "Du kannst das winzige Pfauenküken auf den Boden finden südlich vom Xeritac's Baus bei den Koordinaten "..YELLOW.."55.4, 22.6"..WHITE.."."
+Inst150Quest1_Note = "Du kannst das winzige Pfauenküken auf den Boden finden südlich vom Xeritac's Baus bei den Koordinaten "..YELLOW.."55.4, 22.6"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst150Quest1_Prequest = "Nein"
 Inst150Quest1_Folgequest = "Nein"
 --
@@ -13547,7 +13547,7 @@ Inst150Quest3_Level = "100"
 Inst150Quest3_Attain = "100"
 Inst150Quest3_Aim = "Besorgt ein überwuchertes Artefakt aus dem Immergrünen Flor."
 Inst150Quest3_Location = "Lehrensucher Cho"..AQGARRISON
-Inst150Quest3_Note = "Nur im heroischen Modus.  Das überwuchte Artefakt ist südlich Teil der Instanz bei den Koordinaten "..YELLOW.."61.1, 66.3"..WHITE.."."
+Inst150Quest3_Note = "Nur im heroischen Modus.  Das überwuchte Artefakt ist südlich Teil der Instanz bei den Koordinaten "..YELLOW.."61.1, 66.3"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst150Quest3_Prequest = "Nein"
 Inst150Quest3_Folgequest = "Nein"
 --
@@ -13571,7 +13571,7 @@ Inst150Quest5_Level = "100"
 Inst150Quest5_Attain = "100"
 Inst150Quest5_Aim = "Holt einen seltsam leuchtenden Wedel aus dem Immergrünen Flor."
 Inst150Quest5_Location = "Zen'kiki"..AQGARRISON
-Inst150Quest5_Note = "Nur im heroischen Modus.  Der seltsam leuchtende Wedel ist im grünen Wäldchen bei den Koordinaten "..YELLOW.."64.6, 21.0"..WHITE.."."
+Inst150Quest5_Note = "Nur im heroischen Modus.  Der seltsam leuchtende Wedel ist im grünen Wäldchen bei den Koordinaten "..YELLOW.."64.6, 21.0"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst150Quest5_Prequest = "Nein"
 Inst150Quest5_Folgequest = "Nein"
 --
@@ -13607,7 +13607,7 @@ Inst150Quest8_Level = "100"
 Inst150Quest8_Attain = "98"
 Inst150Quest8_Aim = "Besorgt einen Lebenskern, indem Ihr Yalnu im Überwucherten Außenposten erschlagt [Nur Heroisch]."
 Inst150Quest8_Location = Inst146Quest6_Location
-Inst150Quest8_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
+Inst150Quest8_Note = "Kapitel 1 der Legendären Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
 Inst150Quest8_Prequest = Inst148Quest6_Prequest
 Inst150Quest8_Folgequest = "Kampf mit Teron'gor"
 Inst150Quest8PreQuest = "true"
@@ -13747,7 +13747,7 @@ Inst151Quest1_Level = "100"
 Inst151Quest1_Attain = "100"
 Inst151Quest1_Aim = "Findet einen eisernen Gliedmaßenspalter im Grimmgleisdepot."
 Inst151Quest1_Location = "Gamon"..AQGARRISON
-Inst151Quest1_Note = "Nur im heroischen Modus.  Du findest den eisernen Gliedmaßenspalter in der mitte des zweiten Waggons."
+Inst151Quest1_Note = "Nur im heroischen Modus.  Du findest den eisernen Gliedmaßenspalter in der mitte des zweiten Waggons.\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst151Quest1_Prequest = "Nein"
 Inst151Quest1_Folgequest = "Nein"
 --
@@ -13771,7 +13771,7 @@ Inst151Quest3_Level = "100"
 Inst151Quest3_Attain = "100"
 Inst151Quest3_Aim = "Beschafft eine riesige Waffenkiste im Grimmgleisdepot."
 Inst151Quest3_Location = "Lonika Stillstreich"..AQGARRISON
-Inst151Quest3_Note = "Nur im heroischen Modus.  Die riesige Waffenkiste ist auf den Weg zum ersten Boss bei den Koordinaten "..YELLOW.."53.3, 39.1"..WHITE.."."
+Inst151Quest3_Note = "Nur im heroischen Modus.  Die riesige Waffenkiste ist auf den Weg zum ersten Boss bei den Koordinaten "..YELLOW.."53.3, 39.1"..WHITE..".\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst151Quest3_Prequest = "Nein"
 Inst151Quest3_Folgequest = "Nein"
 --
@@ -13795,7 +13795,7 @@ Inst151Quest5_Level = "100"
 Inst151Quest5_Attain = "98"
 Inst151Quest5_Aim = "Findet eine Eiserne Autokanone im Grimmgleisdepot."
 Inst151Quest5_Location = "John J. Keeshan"..AQGARRISON
-Inst151Quest5_Note = "Nur im heroischen Modus.  Du findest die eiserne Autokanone nach der Vernichtung des zweiten Bosses bei "..YELLOW.."[2]"..WHITE.."."
+Inst151Quest5_Note = "Nur im heroischen Modus.  Du findest die eiserne Autokanone nach der Vernichtung des zweiten Bosses bei "..YELLOW.."[2]"..WHITE..".\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst151Quest5_Prequest = "Nein"
 Inst151Quest5_Folgequest = "Nein"
 --
@@ -13819,7 +13819,7 @@ Inst151Quest7_Level = "100"
 Inst151Quest7_Attain = "98"
 Inst151Quest7_Aim = "Besorgt einen Eisenkern aus dem Zug aus dem Grimmgleisdepot [nur Heroisch]."
 Inst151Quest7_Location = Inst146Quest6_Location
-Inst151Quest7_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nNach der Vernichtung des Endbosses schaue nach einem kleinen Eisenstern beim Zugwrack."
+Inst151Quest7_Note = "Kapitel 1 der Legendären Questreihe des Ringes.  Benötigt heroische Schwierigkeit.\n\nNach der Vernichtung des Endbosses schaue nach einem kleinen Eisenstern beim Zugwrack."
 Inst151Quest7_Prequest = Inst148Quest6_Prequest
 Inst151Quest7_Folgequest = "Kampf mit Teron'gor"
 Inst151Quest7PreQuest = "true"
@@ -13947,7 +13947,7 @@ Inst152Quest1_Level = "100"
 Inst152Quest1_Attain = "98"
 Inst152Quest1_Aim = "Findet einen Schlüssel zum Leerentor in der Schattenmondgrabstätte."
 Inst152Quest1_Location = "Impsy"..AQGARRISON
-Inst152Quest1_Note = "Der Leerentorschlüssel ist ziemlich in der vom Eingang der Instanz.  Dieser befindet sich auf einem Sockel in einem Zimmer kurz nach den ersten Stufen bei den Koordinaten "..YELLOW.."37.4, 51.7"..WHITE.."."
+Inst152Quest1_Note = "Der Leerentorschlüssel ist ziemlich in der vom Eingang der Instanz.  Dieser befindet sich auf einem Sockel in einem Zimmer kurz nach den ersten Stufen bei den Koordinaten "..YELLOW.."37.4, 51.7"..WHITE..".\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst152Quest1_Prequest = "Nein"
 Inst152Quest1_Folgequest = "Nein"
 --
@@ -13971,7 +13971,7 @@ Inst152Quest3_Level = "100"
 Inst152Quest3_Attain = "100"
 Inst152Quest3_Aim = "Sammelt ein dunkles Pergament aus der Schattenmondgrabstätte."
 Inst152Quest3_Location = "Hochlord Darion Mograine"..AQGARRISON
-Inst152Quest3_Note = "Nur im heroischen Modus.  Nach dem betreten der Instanz laufe den Gang hinunter.  Du wirst dann das dunkel Pergament  auf der linken Seite im ersten Raum auf den Boden finden."
+Inst152Quest3_Note = "Nur im heroischen Modus.  Nach dem betreten der Instanz laufe den Gang hinunter.  Du wirst dann das dunkel Pergament  auf der linken Seite im ersten Raum auf den Boden finden.\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst152Quest3_Prequest = "Nein"
 Inst152Quest3_Folgequest = "Nein"
 --
@@ -13995,7 +13995,7 @@ Inst152Quest5_Level = "100"
 Inst152Quest5_Attain = "100"
 Inst152Quest5_Aim = "Sammelt einen Silberspitzenpfeil aus der Schattenmondgrabstätte."
 Inst152Quest5_Location = "Geheimnisvolle Waldläuferin"..AQGARRISON
-Inst152Quest5_Note = "Nur im heroischen Modus.  Der Silberspitzenpfeil befindet sich auf dem Altar nachdem Du Nhallish besiegt hast bei "..YELLOW.."[2]"..WHITE.."."
+Inst152Quest5_Note = "Nur im heroischen Modus.  Der Silberspitzenpfeil befindet sich auf dem Altar nachdem Du Nhallish besiegt hast bei "..YELLOW.."[2]"..WHITE..".\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst152Quest5_Prequest = "Nein"
 Inst152Quest5_Folgequest = "Nein"
 --
@@ -14123,7 +14123,7 @@ Inst153Quest1_Level = "100"
 Inst153Quest1_Attain = "98"
 Inst153Quest1_Aim = "Fangt an der Oberen Schwarzfelsspitze eine Flammenfliege der Spitze."
 Inst153Quest1_Location = "Oralius"..AQGARRISON
-Inst153Quest1_Note = "Die Flammenfliege der Spitze ist auf einem Fass oberhalb der Rampe nachdem Du die Instanz betreten hast."
+Inst153Quest1_Note = "Die Flammenfliege der Spitze ist auf einem Fass oberhalb der Rampe nachdem Du die Instanz betreten hast.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst153Quest1_Prequest = "Nein"
 Inst153Quest1_Folgequest = "Nein"
 --
@@ -14147,7 +14147,7 @@ Inst153Quest3_Level = "100"
 Inst153Quest3_Attain = "100"
 Inst153Quest3_Aim = "Findet Finkles verbesserten Kürschner an der Schwarzfelsspitze."
 Inst153Quest3_Location = "Finkle Einhorn"..AQGARRISON
-Inst153Quest3_Note = "Nur im heroischen Modus.  Finkles verbesserten Kürschner ist auf dem Boden in der Nähe von Knochen in dem Raum wo sich der zweite Boss Kyrak"..YELLOW.."[2]"..WHITE.." befindet."
+Inst153Quest3_Note = "Nur im heroischen Modus.  Finkles verbesserten Kürschner ist auf dem Boden in der Nähe von Knochen in dem Raum wo sich der zweite Boss Kyrak"..YELLOW.."[2]"..WHITE.." befindet.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst153Quest3_Prequest = "Nein"
 Inst153Quest3_Folgequest = "Nein"
 --
@@ -14171,7 +14171,7 @@ Inst153Quest5_Level = "100"
 Inst153Quest5_Attain = "100"
 Inst153Quest5_Aim = "Sammelt eine abgestoßene Protodrachenklaue."
 Inst153Quest5_Location = "Maximillian von Nordhain"..AQGARRISON
-Inst153Quest5_Note = "Nur im heroischen Modus.  Die abgestoßene Drachenklaue ist vor dem Tor in dem Raum wo Du gegen Kommandant Tharbek "..YELLOW.."[3]"..WHITE.." kämpfst."
+Inst153Quest5_Note = "Nur im heroischen Modus.  Die abgestoßene Drachenklaue ist vor dem Tor in dem Raum wo Du gegen Kommandant Tharbek "..YELLOW.."[3]"..WHITE.." kämpfst.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst153Quest5_Prequest = "Nein"
 Inst153Quest5_Folgequest = "Nein"
 --
@@ -14195,7 +14195,7 @@ Inst153Quest7_Level = "100"
 Inst153Quest7_Attain = "100"
 Inst153Quest7_Aim = "Holt einen eisernen Miniaturstern von der Oberen Schwarzfelsspitze."
 Inst153Quest7_Location = "Millhouse Manasturm"..AQGARRISON
-Inst153Quest7_Note = "Nur im heroischen Modus.  Der eiserne Miniaturstern ist im großen Raum bevor Du zum Endboss gelangst bei den Koordinaten "..YELLOW.."34.3, 54.2"..WHITE.."."
+Inst153Quest7_Note = "Nur im heroischen Modus.  Der eiserne Miniaturstern ist im großen Raum bevor Du zum Endboss gelangst bei den Koordinaten "..YELLOW.."34.3, 54.2"..WHITE..".\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst153Quest7_Prequest = "Nein"
 Inst153Quest7_Folgequest = "Nein"
 --
@@ -14323,7 +14323,7 @@ Inst154Quest1_Level = "100"
 Inst154Quest1_Attain = "100"
 Inst154Quest1_Aim = "Beschafft den Teufelsbrecherfolianten und das Siegelzeichen des Zaubererkönigs aus Hochfels."
 Inst154Quest1_Location = Inst146Quest6_Location
-Inst154Quest1_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.  Beide Gegenstände droppen von Kaiser Mar'gok at "..YELLOW.."[7]"..WHITE.."."
+Inst154Quest1_Note = "Kapitel 2 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nDer Teufelsbrecherfoliant droppt vom Ko'ragh bei "..YELLOW.."[6]"..WHITE.." und das Siegelzeichen des Zaubererkönigs droppt von Kaiser Mar'gok bei "..YELLOW.."[7]"..WHITE.."."
 Inst154Quest1_Prequest = "Ruf des Erzmagiers -> Entfesselte Macht"
 Inst154Quest1_Folgequest = "Nein"
 Inst154Quest1PreQuest = "true"
@@ -14335,7 +14335,7 @@ Inst154Quest2_Level = "100"
 Inst154Quest2_Attain = "100"
 Inst154Quest2_Aim = "Beschafft 125 Dominanzsteine von den Kreaturen in Hochfels. In bestimmten Missionen können auch Eure Garnisonsanhänger solche Steine finden."
 Inst154Quest2_Location = Inst146Quest6_Location
-Inst154Quest2_Note = "Teil der Legendären Draenor-Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.  Alle Bosse im Raid haben die Chance diesen Gegenstand fallen zu lassen.  Dazu kann der Gegenstand auch in Garnissionsmissionen droppen."
+Inst154Quest2_Note = "Kapitel 2 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nAlle Bosse im Raid droppen die Dominanzsteine.  Dazu kann der Gegenstand auch in Garnissionsmissionen droppen."
 Inst154Quest2_Prequest = "Nein"
 Inst154Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -14368,8 +14368,129 @@ Inst154Quest2_HORDE_Folgequest = "Nein"
 --------------- INST155 - Blackrock Foundry ---------------
 
 Inst155Caption = "Schwarzfelsgießerei"
-Inst155QAA = "Keine Quests"
-Inst155QAH = "Keine Quests"
+Inst155QAA = "5 Quests"
+Inst155QAH = "5 Quests"
+
+--Quest 1 Alliance
+Inst155Quest1 = "1. Herz des Zorns"
+Inst155Quest1_Level = "100"
+Inst155Quest1_Attain = "100"
+Inst155Quest1_Aim = "Besiegt den im Schmelzofen der Schwarzfelsgießerei gefangenen Elementarzorn und entnehmt ihm das Herz des Zorns."
+Inst155Quest1_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest1_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nDas Herz des Zorns droppt von der Begegnung im Hochofen bei "..YELLOW.."[7]"..WHITE.."."
+Inst155Quest1_Prequest = "Berührung der Kirin Tor"
+Inst155Quest1_Folgequest = "Nein"
+Inst155Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst155Quest2 = "2. Der Foliant der Flammenbändiger"
+Inst155Quest2_Level = "100"
+Inst155Quest2_Attain = "100"
+Inst155Quest2_Aim = "Beschafft den Folianten der Flammenbändiger von Flammenbändigerin Ka'graz in der Schwarzfelsgießerei."
+Inst155Quest2_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest2_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nDer Foliant der Flammenbändiger droppt von Flammenbändigerin Ka'graz bei "..YELLOW.."[4]"..WHITE.."."
+Inst155Quest2_Prequest = "Berührung der Kirin Tor"
+Inst155Quest2_Folgequest = "Nein"
+Inst155Quest2PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst155Quest3 = "3. Umgekehrte Piraterie"
+Inst155Quest3_Level = "100"
+Inst155Quest3_Attain = "100"
+Inst155Quest3_Aim = "Beschafft die thaumaturgische Kugel der Draenei aus der Entsetzlichen Grotte in der Schwarzfelsgießerei."
+Inst155Quest3_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest3_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nDie thaumaturgische Kugel der Draenei droppt von der Begegnung in der entsetzlichen Grotte bei "..YELLOW.."[9]"..WHITE.."."
+Inst155Quest3_Prequest = "Berührung der Kirin Tor"
+Inst155Quest3_Folgequest = "Nein"
+Inst155Quest3PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst155Quest4 = "4. Macht der Elementarlords"
+Inst155Quest4_Level = "100"
+Inst155Quest4_Attain = "100"
+Inst155Quest4_Aim = "Sammelt 3 Elementartafeln. Beschafft die Tafeln, indem Ihr Bosse in der Schwarzfelsgießerei besiegt und ihnen ihre Elementarrunen abnehmt."
+Inst155Quest4_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest4_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nMan braucht 300 Elementarrunen um eine Elementartafel herzustellen.  Alle Bosse in dieser Instanz droppen die  Elementarrunen.  Du kannst diese auch durch Missionen und Arbeitsaufträgen in deiner Garnission bekommen."
+Inst155Quest4_Prequest = "Berührung der Kirin Tor"
+Inst155Quest4_Folgequest = "Nein"
+Inst155Quest4PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst155Quest5 = "5. Schwarzfausts Geheimnis"
+Inst155Quest5_Level = "100"
+Inst155Quest5_Attain = "100"
+Inst155Quest5_Aim = "Tötet Kriegsherr Schwarzfaust in der Schwarzfelsgießerei und nehmt seinen abgetrennten Arm an Euch."
+Inst155Quest5_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst155Quest5_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nKriegsherr Schwarzfaust ist bei "..YELLOW.."[10]"..WHITE..".  Gebe diese Quest ab um Deinen Ring aufzuwerten."
+Inst155Quest5_Prequest = "Diese Quest erhälst Du erst nachdem Du die vorigen Questen beendet hast."
+Inst155Quest5_Folgequest = "Der ungebrochene Kreis"
+Inst155Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst155Quest1_HORDE = Inst155Quest1
+Inst155Quest1_HORDE_Level = "100"
+Inst155Quest1_HORDE_Attain = "100"
+Inst155Quest1_HORDE_Aim = Inst155Quest1_Aim
+Inst155Quest1_HORDE_Location = Inst155Quest1_Location
+Inst155Quest1_HORDE_Note = Inst155Quest1_Note
+Inst155Quest1_HORDE_Prequest = Inst155Quest1_Prequest
+Inst155Quest1_HORDE_Folgequest = "Nein"
+Inst155Quest1PreQuest_HORDE = Inst155Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst155Quest2_HORDE = Inst155Quest2
+Inst155Quest2_HORDE_Level = "100"
+Inst155Quest2_HORDE_Attain = "100"
+Inst155Quest2_HORDE_Aim = Inst155Quest2_Aim
+Inst155Quest2_HORDE_Location = Inst155Quest2_Location
+Inst155Quest2_HORDE_Note = Inst155Quest2_Note
+Inst155Quest2_HORDE_Prequest = Inst155Quest2_Prequest
+Inst155Quest2_HORDE_Folgequest = "Nein"
+Inst155Quest2PreQuest_HORDE = Inst155Quest2PreQuest
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst155Quest3_HORDE = Inst155Quest3
+Inst155Quest3_HORDE_Level = "100"
+Inst155Quest3_HORDE_Attain = "100"
+Inst155Quest3_HORDE_Aim = Inst155Quest3_Aim
+Inst155Quest3_HORDE_Location = Inst155Quest3_Location
+Inst155Quest3_HORDE_Note = Inst155Quest3_Note
+Inst155Quest3_HORDE_Prequest = Inst155Quest3_Prequest
+Inst155Quest3_HORDE_Folgequest = "Nein"
+Inst155Quest3PreQuest_HORDE = Inst155Quest3PreQuest
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst155Quest4_HORDE = Inst155Quest4
+Inst155Quest4_HORDE_Level = "100"
+Inst155Quest4_HORDE_Attain = "100"
+Inst155Quest4_HORDE_Aim = Inst155Quest4_Aim
+Inst155Quest4_HORDE_Location = Inst155Quest4_Location
+Inst155Quest4_HORDE_Note = Inst155Quest4_Note
+Inst155Quest4_HORDE_Prequest = Inst155Quest4_Prequest
+Inst155Quest4_HORDE_Folgequest = Inst155Quest4_Folgequest
+Inst155Quest4PreQuest_HORDE = Inst155Quest4PreQuest
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst155Quest5_HORDE = Inst155Quest5
+Inst155Quest5_HORDE_Level = "100"
+Inst155Quest5_HORDE_Attain = "100"
+Inst155Quest5_HORDE_Aim = Inst155Quest5_Aim
+Inst155Quest5_HORDE_Location = Inst155Quest5_Location
+Inst155Quest5_HORDE_Note = Inst155Quest5_Note
+Inst155Quest5_HORDE_Prequest = Inst155Quest5_Prequest
+Inst155Quest5_HORDE_Folgequest = "Nein"
+Inst155Quest5PreQuest_HORDE = Inst155Quest5PreQuest
+-- No Rewards for this quest
 
 
 
