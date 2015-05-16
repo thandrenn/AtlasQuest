@@ -2,6 +2,20 @@
 Changelog
 =========
 
+Version 4.9.4 BETA  (May ??, 2015)
+
+- TOC updated for Patch 6.2
+- Added Hellfire Citadel
+
+- Added Quests:
+	- Hellfire Citadel: 
+	- Hellfire Citadel: 
+	- Hellfire Citadel: 
+	- Hellfire Citadel: 
+	
+
+
+
 Version 4.9.3  (April 29, 2015)
 
 - German localization updated.

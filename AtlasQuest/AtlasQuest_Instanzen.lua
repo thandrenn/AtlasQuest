@@ -393,6 +393,9 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockFoundryA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockFoundryB") then
 		AQINSTANZ = 155;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HellfireCitadelA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HellfireCitadelB") then
+		AQINSTANZ = 156;
+
 		
 	-- Scenarios
 
@@ -979,5 +982,6 @@ end
 -- 153 = DUNGEON: Upper Blackrock Spire
 -- 154 = RAID: Highmaul
 -- 155 = RAID: Blackrock Foundry
+-- 156 = RAID: Hellfire Citadel
 
 

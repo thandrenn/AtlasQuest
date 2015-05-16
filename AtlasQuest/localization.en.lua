@@ -14441,6 +14441,14 @@ Inst155Quest5PreQuest_HORDE = Inst155Quest5PreQuest
 
 
 
+--------------- INST156 - Hellfire Citadel ---------------
+
+Inst156Caption = "Hellfire Citadel"
+Inst156QAA = "0 Quests"
+Inst156QAH = "0 Quests"
+
+
+
 
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------
