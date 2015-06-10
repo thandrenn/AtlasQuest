@@ -20,9 +20,9 @@
 ## X-Website: http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 ## X-Category: Quests
 ## X-License: GPLv2
-## X-Credits: AtlasQuest Team Past & Present
+## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE
-## X-Date: May ??, 2015
+## X-Date: June ??, 2015
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 
