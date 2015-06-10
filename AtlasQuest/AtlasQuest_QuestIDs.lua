@@ -2364,6 +2364,7 @@ Inst146Quest4_QuestID = "37154"
 Inst146Quest5_QuestID = "37233"
 Inst146Quest6_QuestID = "35993"
 Inst146Quest7_QuestID = "37271"
+Inst146Quest8_QuestID = "37796"
 
 Inst146Quest1_HORDE_QuestID = "37146"
 Inst146Quest2_HORDE_QuestID = "37156"
@@ -2372,6 +2373,7 @@ Inst146Quest4_HORDE_QuestID = "37154"
 Inst146Quest5_HORDE_QuestID = "37233"
 Inst146Quest6_HORDE_QuestID = "35993"
 Inst146Quest7_HORDE_QuestID = "37259"
+Inst146Quest8_HORDE_QuestID = "37780"
 
 
 AQ_37146_Level = "96"
@@ -2382,6 +2384,8 @@ AQ_37233_Level = "100"
 AQ_35993_Level = "100"
 AQ_37271_Level = "100"
 AQ_37259_Level = "100"
+AQ_37796_Level = "100"
+AQ_37780_Level = "100"
 
 
 
@@ -2395,6 +2399,7 @@ Inst147Quest5_QuestID = "37158"
 Inst147Quest6_QuestID = "37234"
 Inst147Quest7_QuestID = "37235"
 Inst147Quest8_QuestID = "37277"
+Inst147Quest9_QuestID = "37791"
 
 Inst147Quest1_HORDE_QuestID = "36316"
 Inst147Quest2_HORDE_QuestID = "36157"
@@ -2404,6 +2409,7 @@ Inst147Quest5_HORDE_QuestID = "37158"
 Inst147Quest6_HORDE_QuestID = "37234"
 Inst147Quest7_HORDE_QuestID = "37235"
 Inst147Quest8_HORDE_QuestID = "37264"
+Inst147Quest9_HORDE_QuestID = "37785"
 
 
 AQ_36316_Level = "97"
@@ -2415,6 +2421,8 @@ AQ_37234_Level = "100"
 AQ_37235_Level = "100"
 AQ_37277_Level = "100"
 AQ_37264_Level = "100"
+AQ_37791_Level = "100"
+AQ_37785_Level = "100"
 
 
 
@@ -2427,6 +2435,7 @@ Inst148Quest4_QuestID = "37153"
 Inst148Quest5_QuestID = "37229"
 Inst148Quest6_QuestID = "35990"
 Inst148Quest7_QuestID = "37272"
+Inst148Quest8_QuestID = "37795"
 
 Inst148Quest1_HORDE_QuestID = "37142"
 Inst148Quest2_HORDE_QuestID = "37152"
@@ -2435,6 +2444,7 @@ Inst148Quest4_HORDE_QuestID = "37153"
 Inst148Quest5_HORDE_QuestID = "37229"
 Inst148Quest6_HORDE_QuestID = "35990"
 Inst148Quest7_HORDE_QuestID = "37260"
+Inst148Quest8_HORDE_QuestID = "37781"
 
 
 AQ_37142_Level = "92"
@@ -2445,6 +2455,8 @@ AQ_37229_Level = "100"
 AQ_35990_Level = "100"
 AQ_37272_Level = "100"
 AQ_37260_Level = "100"
+AQ_37795_Level = "100"
+AQ_37781_Level = "100"
 
 
 
@@ -2456,6 +2468,7 @@ Inst149Quest3_QuestID = "37230"
 Inst149Quest4_QuestID = "37155"
 Inst149Quest5_QuestID = "37231"
 Inst149Quest6_QuestID = "37274"
+Inst149Quest7_QuestID = "37793"
 
 Inst149Quest1_HORDE_QuestID = "37145"
 Inst149Quest2_HORDE_QuestID = "37157"
@@ -2463,6 +2476,7 @@ Inst149Quest3_HORDE_QuestID = "37230"
 Inst149Quest4_HORDE_QuestID = "37155"
 Inst149Quest5_HORDE_QuestID = "37231"
 Inst149Quest6_HORDE_QuestID = "37262"
+Inst149Quest7_HORDE_QuestID = "37783"
 
 
 AQ_37145_Level = "94"
@@ -2472,6 +2486,8 @@ AQ_37155_Level = "100"
 AQ_37231_Level = "100"
 AQ_37274_Level = "100"
 AQ_37262_Level = "100"
+AQ_37793_Level = "100"
+AQ_37783_Level = "100"
 
 
 
@@ -2486,6 +2502,7 @@ Inst150Quest6_QuestID = "37240"
 Inst150Quest7_QuestID = "36813"
 Inst150Quest8_QuestID = "35992"
 Inst150Quest9_QuestID = "37278"
+Inst150Quest10_QuestID = "37790"
 
 Inst150Quest1_HORDE_QuestID = "37150"
 Inst150Quest2_HORDE_QuestID = "37227"
@@ -2496,6 +2513,7 @@ Inst150Quest6_HORDE_QuestID = "37240"
 Inst150Quest7_HORDE_QuestID = "36813"
 Inst150Quest8_HORDE_QuestID = "35992"
 Inst150Quest9_HORDE_QuestID = "37265"
+Inst150Quest10_HORDE_QuestID = "37786"
 
 
 AQ_37150_Level = "100"
@@ -2508,6 +2526,8 @@ AQ_36813_Level = "100"
 AQ_35992_Level = "100"
 AQ_37278_Level = "100"
 AQ_37265_Level = "100"
+AQ_37790_Level = "100"
+AQ_37786_Level = "100"
 
 
 
@@ -2521,6 +2541,7 @@ Inst151Quest5_QuestID = "37151"
 Inst151Quest6_QuestID = "37209"
 Inst151Quest7_QuestID = "35991"
 Inst151Quest8_QuestID = "37273"
+Inst151Quest9_QuestID = "37794"
 
 Inst151Quest1_HORDE_QuestID = "37160"
 Inst151Quest2_HORDE_QuestID = "37243"
@@ -2530,6 +2551,7 @@ Inst151Quest5_HORDE_QuestID = "37151"
 Inst151Quest6_HORDE_QuestID = "37209"
 Inst151Quest7_HORDE_QuestID = "35991"
 Inst151Quest8_HORDE_QuestID = "37261"
+Inst151Quest9_HORDE_QuestID = "37782"
 
 
 AQ_37160_Level = "100"
@@ -2541,6 +2563,8 @@ AQ_37209_Level = "100"
 AQ_35991_Level = "100"
 AQ_37273_Level = "100"
 AQ_37261_Level = "100"
+AQ_37794_Level = "100"
+AQ_37782_Level = "100"
 
 
 
@@ -2553,6 +2577,7 @@ Inst152Quest4_QuestID = "37238"
 Inst152Quest5_QuestID = "37164"
 Inst152Quest6_QuestID = "37239"
 Inst152Quest7_QuestID = "37275"
+Inst152Quest8_QuestID = "37792"
 
 Inst152Quest1_HORDE_QuestID = "37149"
 Inst152Quest2_HORDE_QuestID = "37245"
@@ -2561,6 +2586,7 @@ Inst152Quest4_HORDE_QuestID = "37238"
 Inst152Quest5_HORDE_QuestID = "37164"
 Inst152Quest6_HORDE_QuestID = "37239"
 Inst152Quest7_HORDE_QuestID = "37263"
+Inst152Quest8_HORDE_QuestID = "37784"
 
 
 AQ_37149_Level = "100"
@@ -2571,6 +2597,8 @@ AQ_37164_Level = "100"
 AQ_37239_Level = "100"
 AQ_37275_Level = "100"
 AQ_37263_Level = "100"
+AQ_37792_Level = "100"
+AQ_37784_Level = "100"
 
 
 
@@ -2584,6 +2612,7 @@ Inst153Quest5_QuestID = "37162"
 Inst153Quest6_QuestID = "37237"
 Inst153Quest7_QuestID = "37179"
 Inst153Quest8_QuestID = "37279"
+Inst153Quest9_QuestID = "37789"
 
 Inst153Quest1_HORDE_QuestID = "37148"
 Inst153Quest2_HORDE_QuestID = "37244"
@@ -2593,6 +2622,7 @@ Inst153Quest5_HORDE_QuestID = "37162"
 Inst153Quest6_HORDE_QuestID = "37237"
 Inst153Quest7_HORDE_QuestID = "37179"
 Inst153Quest8_HORDE_QuestID = "37266"
+Inst153Quest9_HORDE_QuestID = "37787"
 
 
 AQ_37148_Level = "100"
@@ -2604,6 +2634,8 @@ AQ_37237_Level = "100"
 AQ_37179_Level = "100"
 AQ_37279_Level = "100"
 AQ_37266_Level = "100"
+AQ_37789_Level = "100"
+AQ_37787_Level = "100"
 
 
 
@@ -2611,13 +2643,25 @@ AQ_37266_Level = "100"
 
 Inst154Quest1_QuestID = "35997"
 Inst154Quest2_QuestID = "35998"
+Inst154Quest3_QuestID = "37766"
+Inst154Quest4_QuestID = "37767"
+Inst154Quest5_QuestID = "37768"
 
 Inst154Quest1_HORDE_QuestID = "35997"
 Inst154Quest2_HORDE_QuestID = "35998"
+Inst154Quest3_HORDE_QuestID = "37756"
+Inst154Quest4_HORDE_QuestID = "37757"
+Inst154Quest5_HORDE_QuestID = "37758"
 
 
 AQ_35997_Level = "100"
 AQ_35998_Level = "100"
+AQ_37766_Level = "100"
+AQ_37767_Level = "100"
+AQ_37768_Level = "100"
+AQ_37756_Level = "100"
+AQ_37757_Level = "100"
+AQ_37758_Level = "100"
 
 
 
@@ -2628,12 +2672,20 @@ Inst155Quest2_QuestID = "36010"
 Inst155Quest3_QuestID = "36012"
 Inst155Quest4_QuestID = "36013"
 Inst155Quest5_QuestID = "36014"
+Inst155Quest6_QuestID = "37769"
+Inst155Quest7_QuestID = "37770"
+Inst155Quest8_QuestID = "37771"
+Inst155Quest9_QuestID = "37772"
 
 Inst155Quest1_HORDE_QuestID = "36009"
 Inst155Quest2_HORDE_QuestID = "36010"
 Inst155Quest3_HORDE_QuestID = "36012"
 Inst155Quest4_HORDE_QuestID = "36013"
 Inst155Quest5_HORDE_QuestID = "36014"
+Inst155Quest6_HORDE_QuestID = "37762"
+Inst155Quest7_HORDE_QuestID = "37763"
+Inst155Quest8_HORDE_QuestID = "37764"
+Inst155Quest9_HORDE_QuestID = "37765"
 
 
 AQ_36009_Level = "100"
@@ -2641,10 +2693,46 @@ AQ_36010_Level = "100"
 AQ_36012_Level = "100"
 AQ_36013_Level = "100"
 AQ_36014_Level = "100"
+AQ_37769_Level = "100"
+AQ_37770_Level = "100"
+AQ_37771_Level = "100"
+AQ_37772_Level = "100"
+AQ_37762_Level = "100"
+AQ_37763_Level = "100"
+AQ_37764_Level = "100"
+AQ_37765_Level = "100"
 
 
 
 --------------- INST156 - Hellfire Citadel ---------------
+
+Inst156Quest1_QuestID = ""
+Inst156Quest2_QuestID = ""
+Inst156Quest3_QuestID = ""
+Inst156Quest4_QuestID = ""
+Inst156Quest5_QuestID = ""
+Inst156Quest6_QuestID = ""
+Inst156Quest7_QuestID = ""
+Inst156Quest8_QuestID = ""
+
+Inst156Quest1_HORDE_QuestID = ""
+Inst156Quest2_HORDE_QuestID = ""
+Inst156Quest3_HORDE_QuestID = ""
+Inst156Quest4_HORDE_QuestID = ""
+Inst156Quest5_HORDE_QuestID = ""
+Inst156Quest6_HORDE_QuestID = ""
+Inst156Quest7_HORDE_QuestID = ""
+Inst156Quest8_HORDE_QuestID = ""
+
+
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
+AQ__Level = ""
 
 
 

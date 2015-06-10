@@ -2,12 +2,28 @@
 Changelog
 =========
 
-Version 4.9.4 BETA  (May ??, 2015)
+Version 4.9.4 BETA  (June ??, 2015)
 
 - TOC updated for Patch 6.2
+- Added missing Daily & Weekly Dungeon and Raid quests that were added in Patch 6.1
 - Added Hellfire Citadel
 
 - Added Quests:
+	- Auchindoun: Auchindoun
+	- Skyreach: Skyreach
+	- Bloodmaul Slag Mines: Bloodmaul Slag Mines
+	- Iron Docks: Iron Docks
+	- The Everbloom: The Everbloom
+	- Grimrail Depot: Grimrail Depot
+	- Shadowmoon Burial Grounds: Shadowmoon Burial Grounds
+	- Upper Blackrock Spire: Upper Blackrock Spire
+	- Highmaul: Walled City: Brackenspore
+	- Highmaul: Arcane Sanctum: Ko'ragh
+	- Highmaul: Imperator's Rise: Imperator Mar'gok
+	- Blackrock Foundry: Slagworks: Heart of the Mountain
+	- Blackrock Foundry: The Black Forge: Kromog
+	- Blackrock Foundry: Iron Assembly: Admiral Gar'an
+	- Blackrock Foundry: Blackhand's Crucible: Blackhand
 	- Hellfire Citadel: 
 	- Hellfire Citadel: 
 	- Hellfire Citadel: 

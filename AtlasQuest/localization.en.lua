@@ -104,6 +104,7 @@ AQDiscription_FOLGEQUEST = "Followup: "
 AQFinishedTEXT = "Finished: ";
 
 AQGARRISON = "(Garrison - Lunarfall Inn or Frostwall Tavern)"
+AQGARRISONRESOURCES = " Garrison Resources"
 
 
 ------------------
@@ -12745,8 +12746,8 @@ Inst145Quest6FQuest_HORDE = Inst145Quest6FQuest
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Caption = "Auchindoun"
-Inst146QAA = "7 Quests"
-Inst146QAH = "7 Quests"
+Inst146QAA = "8 Quests"
+Inst146QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst146Quest1 = "1. Go Fetch"
@@ -12831,6 +12832,18 @@ Inst146Quest7_Prequest = "None"
 Inst146Quest7_Folgequest = "None"
 --
 Inst146Quest7name1 = "Challenger's Strongbox"
+
+--Quest 8 Alliance
+Inst146Quest8 = "8. Auchindoun"
+Inst146Quest8_Level = "100"
+Inst146Quest8_Attain = "100"
+Inst146Quest8_Aim = "Defeat Teron'gor in Auchindoun."
+Inst146Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst146Quest8_Note = "This is one of several quests that can appear once a day in your garrison.\nTeron'gor is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst146Quest8_Prequest = "None"
+Inst146Quest8_Folgequest = "None"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -12919,14 +12932,26 @@ Inst146Quest7_HORDE_Folgequest = Inst146Quest7_Folgequest
 --
 Inst146Quest7name1_HORDE = Inst146Quest7name1
 
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst146Quest8_HORDE = Inst146Quest8
+Inst146Quest8_HORDE_Level = Inst146Quest8_Level
+Inst146Quest8_HORDE_Attain = Inst146Quest8_Attain
+Inst146Quest8_HORDE_Aim = Inst146Quest8_Aim
+Inst146Quest8_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst146Quest8_HORDE_Note = Inst146Quest8_Note
+Inst146Quest8_HORDE_Prequest = Inst146Quest8_Prequest
+Inst146Quest8_HORDE_Folgequest = Inst146Quest8_Folgequest
+--
+-- Awards Garrison Resources
+
 
 
 
 --------------- INST147 - Skyreach ---------------
 
 Inst147Caption = "Skyreach"
-Inst147QAA = "8 Quests"
-Inst147QAH = "8 Quests"
+Inst147QAA = "9 Quests"
+Inst147QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst147Quest1 = "1. Victory is Within Reach"
@@ -13023,6 +13048,18 @@ Inst147Quest8_Prequest = "None"
 Inst147Quest8_Folgequest = "None"
 --
 Inst147Quest8name1 = "Challenger's Strongbox"
+
+--Quest 8 Alliance
+Inst147Quest9 = "9. Skyreach"
+Inst147Quest9_Level = "100"
+Inst147Quest9_Attain = "100"
+Inst147Quest9_Aim = "Defeat High Sage Viryx in Skyreach."
+Inst147Quest9_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst147Quest9_Note = "This is one of several quests that can appear once a day in your garrison.\nHigh Sage Viryx is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst147Quest9_Prequest = "None"
+Inst147Quest9_Folgequest = "None"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -13121,13 +13158,25 @@ Inst147Quest8_HORDE_Folgequest = Inst147Quest8_Folgequest
 --
 Inst147Quest8name1_HORDE = Inst147Quest8name1
 
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst147Quest9_HORDE = Inst147Quest9
+Inst147Quest9_HORDE_Level = Inst147Quest9_Level
+Inst147Quest9_HORDE_Attain = Inst147Quest9_Attain
+Inst147Quest9_HORDE_Aim = Inst147Quest9_Aim
+Inst147Quest9_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst147Quest9_HORDE_Note = Inst147Quest9_Note
+Inst147Quest9_HORDE_Prequest = Inst147Quest9_Prequest
+Inst147Quest9_HORDE_Folgequest = Inst147Quest9_Folgequest
+--
+-- Awards Garrison Resources
+
 
 
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 
 Inst148Caption = "Bloodmaul Slag Mines"
-Inst148QAA = "7 Quests"
-Inst148QAH = "7 Quests"
+Inst148QAA = "8 Quests"
+Inst148QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst148Quest1 = "1. Ogre Ancestry"
@@ -13212,6 +13261,18 @@ Inst148Quest7_Prequest = "None"
 Inst148Quest7_Folgequest = "None"
 --
 Inst148Quest7name1 = "Challenger's Strongbox"
+
+--Quest 8 Alliance
+Inst148Quest8 = "8. Bloodmaul Slag Mines"
+Inst148Quest8_Level = "100"
+Inst148Quest8_Attain = "100"
+Inst148Quest8_Aim = "Defeat Gug'rokk in the Bloodmaul Slag Mines."
+Inst148Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst148Quest8_Note = "This is one of several quests that can appear once a day in your garrison.\nGug'rokk is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst148Quest8_Prequest = "None"
+Inst148Quest8_Folgequest = "None"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -13298,13 +13359,25 @@ Inst148Quest7_HORDE_Folgequest = Inst148Quest7_Folgequest
 --
 Inst148Quest7name1_HORDE = Inst148Quest7name1
 
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst148Quest8_HORDE = Inst148Quest8
+Inst148Quest8_HORDE_Level = Inst148Quest8_Level
+Inst148Quest8_HORDE_Attain = Inst148Quest8_Attain
+Inst148Quest8_HORDE_Aim = Inst148Quest8_Aim
+Inst148Quest8_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst148Quest8_HORDE_Note = Inst148Quest8_Note
+Inst148Quest8_HORDE_Prequest = Inst148Quest8_Prequest
+Inst148Quest8_HORDE_Folgequest = Inst148Quest8_Folgequest
+--
+-- Awards Garrison Resources
+
 
 
 --------------- INST149 - Iron Docks ---------------
 
 Inst149Caption = "Iron Docks"
-Inst149QAA = "6 Quests"
-Inst149QAH = "6 Quests"
+Inst149QAA = "7 Quests"
+Inst149QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst149Quest1 = "1. Budd's Gambit"
@@ -13377,6 +13450,18 @@ Inst149Quest6_Prequest = "None"
 Inst149Quest6_Folgequest = "None"
 --
 Inst149Quest6name1 = "Challenger's Strongbox"
+
+--Quest 7 Alliance
+Inst149Quest7 = "7. Iron Docks"
+Inst149Quest7_Level = "100"
+Inst149Quest7_Attain = "100"
+Inst149Quest7_Aim = "Defeat Skulloc in the Iron Docks."
+Inst149Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst149Quest7_Note = "This is one of several quests that can appear once a day in your garrison.\nSkulloc is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst149Quest7_Prequest = "None"
+Inst149Quest7_Folgequest = "None"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -13451,13 +13536,25 @@ Inst149Quest6_HORDE_Folgequest = Inst149Quest6_Folgequest
 --
 Inst149Quest6name1_HORDE = Inst149Quest6name1
 
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst149Quest7_HORDE = Inst149Quest7
+Inst149Quest7_HORDE_Level = Inst149Quest7_Level
+Inst149Quest7_HORDE_Attain = Inst149Quest7_Attain
+Inst149Quest7_HORDE_Aim = Inst149Quest7_Aim
+Inst149Quest7_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst149Quest7_HORDE_Note = Inst149Quest7_Note
+Inst149Quest7_HORDE_Prequest = Inst149Quest7_Prequest
+Inst149Quest7_HORDE_Folgequest = Inst149Quest7_Folgequest
+--
+-- Awards Garrison Resources
+
 
 
 --------------- INST150 - The Everbloom ---------------
 
 Inst150Caption = "The Everbloom"
-Inst150QAA = "9 Quests"
-Inst150QAH = "9 Quests"
+Inst150QAA = "10 Quests"
+Inst150QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst150Quest1 = "1. For the Birds"
@@ -13566,6 +13663,18 @@ Inst150Quest9_Prequest = "None"
 Inst150Quest9_Folgequest = "None"
 --
 Inst150Quest9name1 = "Challenger's Strongbox"
+
+--Quest 8 Alliance
+Inst150Quest10 = "10. The Everbloom"
+Inst150Quest10_Level = "100"
+Inst150Quest10_Attain = "100"
+Inst150Quest10_Aim = "Defeat Yalnu in the Everbloom."
+Inst150Quest10_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst150Quest10_Note = "This is one of several quests that can appear once a day in your garrison.\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE.."."
+Inst150Quest10_Prequest = "None"
+Inst150Quest10_Folgequest = "None"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -13676,13 +13785,25 @@ Inst150Quest9_HORDE_Folgequest = Inst150Quest9_Folgequest
 --
 Inst150Quest9name1_HORDE = Inst150Quest9name1
 
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst150Quest10_HORDE = Inst150Quest10
+Inst150Quest10_HORDE_Level = Inst150Quest10_Level
+Inst150Quest10_HORDE_Attain = Inst150Quest10_Attain
+Inst150Quest10_HORDE_Aim = Inst150Quest10_Aim
+Inst150Quest10_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst150Quest10_HORDE_Note = Inst150Quest10_Note
+Inst150Quest10_HORDE_Prequest = Inst150Quest10_Prequest
+Inst150Quest10_HORDE_Folgequest = Inst150Quest10_Folgequest
+--
+-- Awards Garrison Resources
+
 
 
 --------------- INST151 - Grimrail Depot ---------------
 
 Inst151Caption = "Grimrail Depot"
-Inst151QAA = "8 Quests"
-Inst151QAH = "8 Quests"
+Inst151QAA = "9 Quests"
+Inst151QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst151Quest1 = "1. Cleaving Time"
@@ -13779,6 +13900,18 @@ Inst151Quest8_Prequest = "None"
 Inst151Quest8_Folgequest = "None"
 --
 Inst151Quest8name1 = "Challenger's Strongbox"
+
+--Quest 9 Alliance
+Inst151Quest9 = "9. Grimrail Depot"
+Inst151Quest9_Level = "100"
+Inst151Quest9_Attain = "100"
+Inst151Quest9_Aim = "Defeat Skylord Tovra in Grimrail Depot."
+Inst151Quest9_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst151Quest9_Note = "This is one of several quests that can appear once a day in your garrison.\nSkylord Tovra is the final boss, located at "..YELLOW.."[3]"..WHITE.."."
+Inst151Quest9_Prequest = "None"
+Inst151Quest9_Folgequest = "None"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -13877,13 +14010,25 @@ Inst151Quest8_HORDE_Folgequest = Inst151Quest8_Folgequest
 --
 Inst151Quest8name1_HORDE = Inst151Quest8name1
 
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst151Quest9_HORDE = Inst151Quest9
+Inst151Quest9_HORDE_Level = Inst151Quest9_Level
+Inst151Quest9_HORDE_Attain = Inst151Quest9_Attain
+Inst151Quest9_HORDE_Aim = Inst151Quest9_Aim
+Inst151Quest9_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst151Quest9_HORDE_Note = Inst151Quest9_Note
+Inst151Quest9_HORDE_Prequest = Inst151Quest9_Prequest
+Inst151Quest9_HORDE_Folgequest = Inst151Quest9_Folgequest
+--
+-- Awards Garrison Resources
+
 
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
 Inst152Caption = "Shadowmoon Burial Grounds"
-Inst152QAA = "7 Quests"
-Inst152QAH = "7 Quests"
+Inst152QAA = "8 Quests"
+Inst152QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst152Quest1 = "1. The Void-Gate"
@@ -13968,6 +14113,18 @@ Inst152Quest7_Prequest = "None"
 Inst152Quest7_Folgequest = "None"
 --
 Inst152Quest7name1 = "Challenger's Strongbox"
+
+--Quest 8 Alliance
+Inst152Quest8 = "8. Shadowmoon Burial Grounds"
+Inst152Quest8_Level = "100"
+Inst152Quest8_Attain = "100"
+Inst152Quest8_Aim = "Defeat Ner'zhul in the Shadowmoon Burial Grounds."
+Inst152Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst152Quest8_Note = "This is one of several quests that can appear once a day in your garrison.\nNer'zhul is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst152Quest8_Prequest = "None"
+Inst152Quest8_Folgequest = "None"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -14054,13 +14211,25 @@ Inst152Quest7_HORDE_Folgequest = Inst152Quest7_Folgequest
 --
 Inst152Quest7name1_HORDE = Inst152Quest7name1
 
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst152Quest8_HORDE = Inst152Quest8
+Inst152Quest8_HORDE_Level = Inst152Quest8_Level
+Inst152Quest8_HORDE_Attain = Inst152Quest8_Attain
+Inst152Quest8_HORDE_Aim = Inst152Quest8_Aim
+Inst152Quest8_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst152Quest8_HORDE_Note = Inst152Quest8_Note
+Inst152Quest8_HORDE_Prequest = Inst152Quest8_Prequest
+Inst152Quest8_HORDE_Folgequest = Inst152Quest8_Folgequest
+--
+-- Awards Garrison Resources
+
 
 
 --------------- INST153 - Upper Blackrock Spire ---------------
 
 Inst153Caption = "Upper Blackrock Spire"
-Inst153QAA = "8 Quests"
-Inst153QAH = "8 Quests"
+Inst153QAA = "9 Quests"
+Inst153QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst153Quest1 = "1. Oralius' Adventure"
@@ -14157,6 +14326,18 @@ Inst153Quest8_Prequest = "None"
 Inst153Quest8_Folgequest = "None"
 --
 Inst153Quest8name1 = "Challenger's Strongbox"
+
+--Quest 9 Alliance
+Inst153Quest9 = "9. Upper Blackrock Spire"
+Inst153Quest9_Level = "100"
+Inst153Quest9_Attain = "100"
+Inst153Quest9_Aim = "Defeat Warlord Zaela in Upper Blackrock Spire."
+Inst153Quest9_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst153Quest9_Note = "This is one of several quests that can appear once a day in your garrison.\nWarlord Zaela is the final boss, located at "..YELLOW.."[5]"..WHITE.."."
+Inst153Quest9_Prequest = "None"
+Inst153Quest9_Folgequest = "None"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -14255,13 +14436,25 @@ Inst153Quest8_HORDE_Folgequest = Inst153Quest8_Folgequest
 --
 Inst153Quest8name1_HORDE = Inst153Quest8name1
 
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst153Quest9_HORDE = Inst153Quest9
+Inst153Quest9_HORDE_Level = Inst153Quest9_Level
+Inst153Quest9_HORDE_Attain = Inst153Quest9_Attain
+Inst153Quest9_HORDE_Aim = Inst153Quest9_Aim
+Inst153Quest9_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst153Quest9_HORDE_Note = Inst153Quest9_Note
+Inst153Quest9_HORDE_Prequest = Inst153Quest9_Prequest
+Inst153Quest9_HORDE_Folgequest = Inst153Quest9_Folgequest
+--
+-- Awards Garrison Resources
+
 
 
 --------------- INST154 - Highmaul ---------------
 
 Inst154Caption = "Highmaul"
-Inst154QAA = "2 Quests"
-Inst154QAH = "2 Quests"
+Inst154QAA = "5 Quests"
+Inst154QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst154Quest1 = "1. Empire's Fall"
@@ -14285,6 +14478,42 @@ Inst154Quest2_Note = "Part of Chapter 2 of the Legendary Ring Questline.  This q
 Inst154Quest2_Prequest = "None"
 Inst154Quest2_Folgequest = "None"
 -- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst154Quest3 = "3. Walled City: Brackenspore"
+Inst154Quest3_Level = "100"
+Inst154Quest3_Attain = "100"
+Inst154Quest3_Aim = "Defeat Brackenspore in Highmaul."
+Inst154Quest3_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst154Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.\nBrackenspore is the last boss in the first section of Highmaul at "..YELLOW.."[4]"..WHITE..".  This quest can be completed on any difficulty."
+Inst154Quest3_Prequest = "None"
+Inst154Quest3_Folgequest = "None"
+--
+Inst154Quest3name1 = "Greater Bounty Spoils"
+
+--Quest 4 Alliance
+Inst154Quest4 = "4. Arcane Sanctum: Ko'ragh"
+Inst154Quest4_Level = "100"
+Inst154Quest4_Attain = "100"
+Inst154Quest4_Aim = "Defeat Ko'ragh in Highmaul."
+Inst154Quest4_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst154Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.\nKo'ragh is the last boss in the second section of Highmaul at "..YELLOW.."[6]"..WHITE..".  This quest can be completed on any difficulty."
+Inst154Quest4_Prequest = "None"
+Inst154Quest4_Folgequest = "None"
+--
+Inst154Quest4name1 = "Greater Bounty Spoils"
+
+--Quest 5 Alliance
+Inst154Quest5 = "5. Imperator's Rise: Imperator Mar'gok"
+Inst154Quest5_Level = "100"
+Inst154Quest5_Attain = "100"
+Inst154Quest5_Aim = "Defeat Imperator Mar'gok in Highmaul."
+Inst154Quest5_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst154Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.\nImperator Mar'gok is the last boss in Highmaul at "..YELLOW.."[7]"..WHITE..".  This quest can be completed on any difficulty."
+Inst154Quest5_Prequest = "None"
+Inst154Quest5_Folgequest = "None"
+--
+Inst154Quest5name1 = "Greater Bounty Spoils"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -14310,13 +14539,49 @@ Inst154Quest2_HORDE_Prequest = Inst154Quest2_Prequest
 Inst154Quest2_HORDE_Folgequest = Inst154Quest2_Folgequest
 -- No Rewards for this quest
 
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst154Quest3_HORDE = Inst154Quest3
+Inst154Quest3_HORDE_Level = Inst154Quest3_Level
+Inst154Quest3_HORDE_Attain = Inst154Quest3_Attain
+Inst154Quest3_HORDE_Aim = Inst154Quest3_Aim
+Inst154Quest3_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst154Quest3_HORDE_Note = Inst154Quest3_Note
+Inst154Quest3_HORDE_Prequest = Inst154Quest3_Prequest
+Inst154Quest3_HORDE_Folgequest = Inst154Quest3_Folgequest
+--
+Inst154Quest3name1_HORDE = Inst154Quest3name1
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst154Quest4_HORDE = Inst154Quest4
+Inst154Quest4_HORDE_Level = Inst154Quest4_Level
+Inst154Quest4_HORDE_Attain = Inst154Quest4_Attain
+Inst154Quest4_HORDE_Aim = Inst154Quest4_Aim
+Inst154Quest4_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst154Quest4_HORDE_Note = Inst154Quest4_Note
+Inst154Quest4_HORDE_Prequest = Inst154Quest4_Prequest
+Inst154Quest4_HORDE_Folgequest = Inst154Quest4_Folgequest
+--
+Inst154Quest4name1_HORDE = Inst154Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst154Quest5_HORDE = Inst154Quest5
+Inst154Quest5_HORDE_Level = Inst154Quest5_Level
+Inst154Quest5_HORDE_Attain = Inst154Quest5_Attain
+Inst154Quest5_HORDE_Aim = Inst154Quest5_Aim
+Inst154Quest5_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst154Quest5_HORDE_Note = Inst154Quest5_Note
+Inst154Quest5_HORDE_Prequest = Inst154Quest5_Prequest
+Inst154Quest5_HORDE_Folgequest = Inst154Quest5_Folgequest
+--
+Inst154Quest5name1_HORDE = Inst154Quest5name1
+
 
 
 --------------- INST155 - Blackrock Foundry ---------------
 
 Inst155Caption = "Blackrock Foundry"
-Inst155QAA = "5 Quests"
-Inst155QAH = "5 Quests"
+Inst155QAA = "9 Quests"
+Inst155QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst155Quest1 = "1. Heart of the Fury"
@@ -14378,6 +14643,54 @@ Inst155Quest5_Folgequest = "None"
 Inst155Quest5PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst155Quest6 = "6. Slagworks: Heart of the Mountain"
+Inst155Quest6_Level = "100"
+Inst155Quest6_Attain = "100"
+Inst155Quest6_Aim = "Defeat the Heart of the Mountain at the Blast Furnace in Blackrock Foundry."
+Inst155Quest6_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst155Quest6_Note = "This is one of several raid quests that can appear once a week in your garrison.\nThe Heart of the Mountain is the last boss in the first section of Blackrock Foundry at "..YELLOW.."[7]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest6_Prequest = "None"
+Inst155Quest6_Folgequest = "None"
+--
+Inst155Quest6name1 = "Greater Bounty Spoils"
+
+--Quest 7 Alliance
+Inst155Quest7 = "7. The Black Forge: Kromog"
+Inst155Quest7_Level = "100"
+Inst155Quest7_Attain = "100"
+Inst155Quest7_Aim = "Defeat Kromog in Blackrock Foundry."
+Inst155Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst155Quest7_Note = "This is one of several raid quests that can appear once a week in your garrison.\nKromog is the last boss in the second section of Blackrock Foundry at "..YELLOW.."[8]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest7_Prequest = "None"
+Inst155Quest7_Folgequest = "None"
+--
+Inst155Quest7name1 = "Greater Bounty Spoils"
+
+--Quest 8 Alliance
+Inst155Quest8 = "8. Iron Assembly: Admiral Gar'an"
+Inst155Quest8_Level = "100"
+Inst155Quest8_Attain = "100"
+Inst155Quest8_Aim = "Defeat Admiral Gar'an in Blackrock Foundry."
+Inst155Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst155Quest8_Note = "This is one of several raid quests that can appear once a week in your garrison.\nAdmiral Gar'an is the last boss in the third section of Blackrock Foundry at "..YELLOW.."[9]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest8_Prequest = "None"
+Inst155Quest8_Folgequest = "None"
+--
+Inst155Quest8name1 = "Greater Bounty Spoils"
+
+--Quest 9 Alliance
+Inst155Quest9 = "9. Blackhand's Crucible: Blackhand"
+Inst155Quest9_Level = "100"
+Inst155Quest9_Attain = "100"
+Inst155Quest9_Aim = "Defeat Blackhand in the Blackrock Foundry."
+Inst155Quest9_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst155Quest9_Note = "This is one of several raid quests that can appear once a week in your garrison.\nBlackhand is the last boss in Blackrock Foundry at "..YELLOW.."[10]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest9_Prequest = "None"
+Inst155Quest9_Folgequest = "None"
+--
+Inst155Quest9name1 = "Greater Bounty Spoils"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst155Quest1_HORDE = Inst155Quest1
@@ -14438,6 +14751,54 @@ Inst155Quest5_HORDE_Prequest = Inst155Quest5_Prequest
 Inst155Quest5_HORDE_Folgequest = Inst155Quest5_Folgequest
 Inst155Quest5PreQuest_HORDE = Inst155Quest5PreQuest
 -- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst155Quest6_HORDE = Inst155Quest6
+Inst155Quest6_HORDE_Level = Inst155Quest6_Level
+Inst155Quest6_HORDE_Attain = Inst155Quest6_Attain
+Inst155Quest6_HORDE_Aim = Inst155Quest6_Aim
+Inst155Quest6_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst155Quest6_HORDE_Note = Inst155Quest6_Note
+Inst155Quest6_HORDE_Prequest = Inst155Quest6_Prequest
+Inst155Quest6_HORDE_Folgequest = Inst155Quest6_Folgequest
+--
+Inst155Quest6name1_HORDE = Inst155Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst155Quest7_HORDE = Inst155Quest7
+Inst155Quest7_HORDE_Level = Inst155Quest7_Level
+Inst155Quest7_HORDE_Attain = Inst155Quest7_Attain
+Inst155Quest7_HORDE_Aim = Inst155Quest7_Aim
+Inst155Quest7_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst155Quest7_HORDE_Note = Inst155Quest7_Note
+Inst155Quest7_HORDE_Prequest = Inst155Quest7_Prequest
+Inst155Quest7_HORDE_Folgequest = Inst155Quest7_Folgequest
+--
+Inst155Quest7name1_HORDE = Inst155Quest7name1
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst155Quest8_HORDE = Inst155Quest8
+Inst155Quest8_HORDE_Level = Inst155Quest8_Level
+Inst155Quest8_HORDE_Attain = Inst155Quest8_Attain
+Inst155Quest8_HORDE_Aim = Inst155Quest8_Aim
+Inst155Quest8_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst155Quest8_HORDE_Note = Inst155Quest8_Note
+Inst155Quest8_HORDE_Prequest = Inst155Quest8_Prequest
+Inst155Quest8_HORDE_Folgequest = Inst155Quest8_Folgequest
+--
+Inst155Quest8name1_HORDE = Inst155Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst155Quest9_HORDE = Inst155Quest9
+Inst155Quest9_HORDE_Level = Inst155Quest9_Level
+Inst155Quest9_HORDE_Attain = Inst155Quest9_Attain
+Inst155Quest9_HORDE_Aim = Inst155Quest9_Aim
+Inst155Quest9_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst155Quest9_HORDE_Note = Inst155Quest9_Note
+Inst155Quest9_HORDE_Prequest = Inst155Quest9_Prequest
+Inst155Quest9_HORDE_Folgequest = Inst155Quest9_Folgequest
+--
+Inst155Quest9name1_HORDE = Inst155Quest9name1
 
 
 
