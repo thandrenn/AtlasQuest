@@ -393,7 +393,8 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockFoundryA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackrockFoundryB") then
 		AQINSTANZ = 155;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HellfireCitadelA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HellfireCitadelB") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceDraenor") then
+--	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HellfireCitadelA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HellfireCitadelB") then
 		AQINSTANZ = 156;
 
 		

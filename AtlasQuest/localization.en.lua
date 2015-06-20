@@ -105,6 +105,7 @@ AQFinishedTEXT = "Finished: ";
 
 AQGARRISON = "(Garrison - Lunarfall Inn or Frostwall Tavern)"
 AQGARRISONRESOURCES = " Garrison Resources"
+AQAPEXISCRYSTAL = " Apexis Crystals"
 
 
 ------------------
@@ -14485,7 +14486,7 @@ Inst154Quest3_Level = "100"
 Inst154Quest3_Attain = "100"
 Inst154Quest3_Aim = "Defeat Brackenspore in Highmaul."
 Inst154Quest3_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst154Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.\nBrackenspore is the last boss in the first section of Highmaul at "..YELLOW.."[4]"..WHITE..".  This quest can be completed on any difficulty."
+Inst154Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nBrackenspore is the last boss in the first section of Highmaul at "..YELLOW.."[4]"..WHITE.."."
 Inst154Quest3_Prequest = "None"
 Inst154Quest3_Folgequest = "None"
 --
@@ -14497,7 +14498,7 @@ Inst154Quest4_Level = "100"
 Inst154Quest4_Attain = "100"
 Inst154Quest4_Aim = "Defeat Ko'ragh in Highmaul."
 Inst154Quest4_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst154Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.\nKo'ragh is the last boss in the second section of Highmaul at "..YELLOW.."[6]"..WHITE..".  This quest can be completed on any difficulty."
+Inst154Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKo'ragh is the last boss in the second section of Highmaul at "..YELLOW.."[6]"..WHITE.."."
 Inst154Quest4_Prequest = "None"
 Inst154Quest4_Folgequest = "None"
 --
@@ -14509,7 +14510,7 @@ Inst154Quest5_Level = "100"
 Inst154Quest5_Attain = "100"
 Inst154Quest5_Aim = "Defeat Imperator Mar'gok in Highmaul."
 Inst154Quest5_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst154Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.\nImperator Mar'gok is the last boss in Highmaul at "..YELLOW.."[7]"..WHITE..".  This quest can be completed on any difficulty."
+Inst154Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nImperator Mar'gok is the last boss in Highmaul at "..YELLOW.."[7]"..WHITE.."."
 Inst154Quest5_Prequest = "None"
 Inst154Quest5_Folgequest = "None"
 --
@@ -14649,7 +14650,7 @@ Inst155Quest6_Level = "100"
 Inst155Quest6_Attain = "100"
 Inst155Quest6_Aim = "Defeat the Heart of the Mountain at the Blast Furnace in Blackrock Foundry."
 Inst155Quest6_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst155Quest6_Note = "This is one of several raid quests that can appear once a week in your garrison.\nThe Heart of the Mountain is the last boss in the first section of Blackrock Foundry at "..YELLOW.."[7]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest6_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nThe Heart of the Mountain is the last boss in the first section of Blackrock Foundry at "..YELLOW.."[7]"..WHITE.."."
 Inst155Quest6_Prequest = "None"
 Inst155Quest6_Folgequest = "None"
 --
@@ -14661,7 +14662,7 @@ Inst155Quest7_Level = "100"
 Inst155Quest7_Attain = "100"
 Inst155Quest7_Aim = "Defeat Kromog in Blackrock Foundry."
 Inst155Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst155Quest7_Note = "This is one of several raid quests that can appear once a week in your garrison.\nKromog is the last boss in the second section of Blackrock Foundry at "..YELLOW.."[8]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest7_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKromog is the last boss in the second section of Blackrock Foundry at "..YELLOW.."[8]"..WHITE.."."
 Inst155Quest7_Prequest = "None"
 Inst155Quest7_Folgequest = "None"
 --
@@ -14673,7 +14674,7 @@ Inst155Quest8_Level = "100"
 Inst155Quest8_Attain = "100"
 Inst155Quest8_Aim = "Defeat Admiral Gar'an in Blackrock Foundry."
 Inst155Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst155Quest8_Note = "This is one of several raid quests that can appear once a week in your garrison.\nAdmiral Gar'an is the last boss in the third section of Blackrock Foundry at "..YELLOW.."[9]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest8_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nAdmiral Gar'an is the last boss in the third section of Blackrock Foundry at "..YELLOW.."[9]"..WHITE.."."
 Inst155Quest8_Prequest = "None"
 Inst155Quest8_Folgequest = "None"
 --
@@ -14685,7 +14686,7 @@ Inst155Quest9_Level = "100"
 Inst155Quest9_Attain = "100"
 Inst155Quest9_Aim = "Defeat Blackhand in the Blackrock Foundry."
 Inst155Quest9_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst155Quest9_Note = "This is one of several raid quests that can appear once a week in your garrison.\nBlackhand is the last boss in Blackrock Foundry at "..YELLOW.."[10]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest9_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nBlackhand is the last boss in Blackrock Foundry at "..YELLOW.."[10]"..WHITE.."."
 Inst155Quest9_Prequest = "None"
 Inst155Quest9_Folgequest = "None"
 --
@@ -14805,8 +14806,155 @@ Inst155Quest9name1_HORDE = Inst155Quest9name1
 --------------- INST156 - Hellfire Citadel ---------------
 
 Inst156Caption = "Hellfire Citadel"
-Inst156QAA = "0 Quests"
-Inst156QAH = "0 Quests"
+Inst156QAA = "6 Quests"
+Inst156QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst156Quest1 = "1. We Don't Need No Library Card"
+Inst156Quest1_Level = "100"
+Inst156Quest1_Attain = "100"
+Inst156Quest1_Aim = "Collect 33 Tomes of Chaos from bosses in Hellfire Citadel."
+Inst156Quest1_Location = "Archmage Khadgar"
+Inst156Quest1_Note = "Part of Chapter 4 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Tomes of Chaos drop from bosses in Hellfire Citadel."
+Inst156Quest1_Prequest = "Call of the Archmage"
+Inst156Quest1_Folgequest = "None"
+Inst156Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst156Quest2 = "2. Pits of Mannoroth"
+Inst156Quest2_Level = "100"
+Inst156Quest2_Attain = "100"
+Inst156Quest2_Aim = "Defeat Kormrok in Hellfire Citadel."
+Inst156Quest2_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst156Quest2_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKormrok is the last boss in the first section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest2_Prequest = "None"
+Inst156Quest2_Folgequest = "None"
+--
+-- Awards Apexis Crystals
+
+--Quest 3 Alliance
+Inst156Quest3 = "3. Maw of Souls"
+Inst156Quest3_Level = "100"
+Inst156Quest3_Attain = "100"
+Inst156Quest3_Aim = "Defeat Gorefiend in Hellfire Citadel."
+Inst156Quest3_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst156Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nGorefiend is the last boss in the second section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest3_Prequest = "None"
+Inst156Quest3_Folgequest = "None"
+--
+-- Awards Apexis Crystals
+
+--Quest 4 Alliance
+Inst156Quest4 = "4. Temple of Tyranny"
+Inst156Quest4_Level = "100"
+Inst156Quest4_Attain = "100"
+Inst156Quest4_Aim = "Defeat Tyrant Velhari in Hellfire Citadel."
+Inst156Quest4_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst156Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nTyrant Velhari is the last boss in the third section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest4_Prequest = "None"
+Inst156Quest4_Folgequest = "None"
+--
+-- Awards Apexis Crystals
+
+--Quest 5 Alliance
+Inst156Quest5 = "5. Destructor's Rise"
+Inst156Quest5_Level = "100"
+Inst156Quest5_Attain = "100"
+Inst156Quest5_Aim = "Defeat Mannoroth in Hellfire Citadel."
+Inst156Quest5_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst156Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nMannoroth is the last boss in the fourth section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest5_Prequest = "None"
+Inst156Quest5_Folgequest = "None"
+--
+-- Awards Apexis Crystals
+
+--Quest 6 Alliance
+Inst156Quest6 = "6. The Black Gate"
+Inst156Quest6_Level = "100"
+Inst156Quest6_Attain = "100"
+Inst156Quest6_Aim = "Defeat Archimonde in Hellfire Citadel."
+Inst156Quest6_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst156Quest6_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nArchimonde is the final boss in Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest6_Prequest = "None"
+Inst156Quest6_Folgequest = "None"
+--
+-- Awards Apexis Crystals
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst156Quest1_HORDE = Inst156Quest1
+Inst156Quest1_HORDE_Level = Inst156Quest1_Level
+Inst156Quest1_HORDE_Attain = Inst156Quest1_Attain
+Inst156Quest1_HORDE_Aim = Inst156Quest1_Aim
+Inst156Quest1_HORDE_Location = Inst156Quest1_Location
+Inst156Quest1_HORDE_Note = Inst156Quest1_Note
+Inst156Quest1_HORDE_Prequest = Inst156Quest1_Prequest
+Inst156Quest1_HORDE_Folgequest = Inst156Quest1_Folgequest
+Inst156Quest1PreQuest_HORDE = Inst156Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst156Quest2_HORDE = Inst156Quest2
+Inst156Quest2_HORDE_Level = Inst156Quest2_Level
+Inst156Quest2_HORDE_Attain = Inst156Quest2_Attain
+Inst156Quest2_HORDE_Aim = Inst156Quest2_Aim
+Inst156Quest2_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst156Quest2_HORDE_Note = Inst156Quest2_Note
+Inst156Quest2_HORDE_Prequest = Inst156Quest2_Prequest
+Inst156Quest2_HORDE_Folgequest = Inst156Quest2_Folgequest
+--
+-- Awards Apexis Crystals
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst156Quest3_HORDE = Inst156Quest3
+Inst156Quest3_HORDE_Level = Inst156Quest3_Level
+Inst156Quest3_HORDE_Attain = Inst156Quest3_Attain
+Inst156Quest3_HORDE_Aim = Inst156Quest3_Aim
+Inst156Quest3_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst156Quest3_HORDE_Note = Inst156Quest3_Note
+Inst156Quest3_HORDE_Prequest = Inst156Quest3_Prequest
+Inst156Quest3_HORDE_Folgequest = Inst156Quest3_Folgequest
+--
+-- Awards Apexis Crystals
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst156Quest4_HORDE = Inst156Quest4
+Inst156Quest4_HORDE_Level = Inst156Quest4_Level
+Inst156Quest4_HORDE_Attain = Inst156Quest4_Attain
+Inst156Quest4_HORDE_Aim = Inst156Quest4_Aim
+Inst156Quest4_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst156Quest4_HORDE_Note = Inst156Quest4_Note
+Inst156Quest4_HORDE_Prequest = Inst156Quest4_Prequest
+Inst156Quest4_HORDE_Folgequest = Inst156Quest4_Folgequest
+--
+-- Awards Apexis Crystals
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst156Quest5_HORDE = Inst156Quest5
+Inst156Quest5_HORDE_Level = Inst156Quest5_Level
+Inst156Quest5_HORDE_Attain = Inst156Quest5_Attain
+Inst156Quest5_HORDE_Aim = Inst156Quest5_Aim
+Inst156Quest5_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst156Quest5_HORDE_Note = Inst156Quest5_Note
+Inst156Quest5_HORDE_Prequest = Inst156Quest5_Prequest
+Inst156Quest5_HORDE_Folgequest = Inst156Quest5_Folgequest
+--
+-- Awards Apexis Crystals
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst156Quest6_HORDE = Inst156Quest6
+Inst156Quest6_HORDE_Level = Inst156Quest6_Level
+Inst156Quest6_HORDE_Attain = Inst156Quest6_Attain
+Inst156Quest6_HORDE_Aim = Inst156Quest6_Aim
+Inst156Quest6_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst156Quest6_HORDE_Note = Inst156Quest6_Note
+Inst156Quest6_HORDE_Prequest = Inst156Quest6_Prequest
+Inst156Quest6_HORDE_Folgequest = Inst156Quest6_Folgequest
+--
+-- Awards Apexis Crystals
+
+
 
 
 

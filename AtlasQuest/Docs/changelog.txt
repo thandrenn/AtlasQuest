@@ -6,7 +6,7 @@ Version 4.9.4 BETA  (June ??, 2015)
 
 - TOC updated for Patch 6.2
 - Added missing Daily & Weekly Dungeon and Raid quests that were added in Patch 6.1
-- Added Hellfire Citadel
+- Added Hellfire Citadel and quests.  Quest data is from PTR and incomplete.
 
 - Added Quests:
 	- Auchindoun: Auchindoun
@@ -24,10 +24,12 @@ Version 4.9.4 BETA  (June ??, 2015)
 	- Blackrock Foundry: The Black Forge: Kromog
 	- Blackrock Foundry: Iron Assembly: Admiral Gar'an
 	- Blackrock Foundry: Blackhand's Crucible: Blackhand
-	- Hellfire Citadel: 
-	- Hellfire Citadel: 
-	- Hellfire Citadel: 
-	- Hellfire Citadel: 
+	- Hellfire Citadel: We Don't Need No Library Card
+	- Hellfire Citadel: Pits of Mannoroth
+	- Hellfire Citadel: Maw of Souls
+	- Hellfire Citadel: Temple of Tyranny
+	- Hellfire Citadel: Destructor's Rise
+	- Hellfire Citadel: The Black Gate
 	
 
 

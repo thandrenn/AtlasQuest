@@ -2706,33 +2706,39 @@ AQ_37765_Level = "100"
 
 --------------- INST156 - Hellfire Citadel ---------------
 
-Inst156Quest1_QuestID = ""
-Inst156Quest2_QuestID = ""
-Inst156Quest3_QuestID = ""
-Inst156Quest4_QuestID = ""
-Inst156Quest5_QuestID = ""
-Inst156Quest6_QuestID = ""
+Inst156Quest1_QuestID = "39000"
+Inst156Quest2_QuestID = "39221"
+Inst156Quest3_QuestID = "39225"
+Inst156Quest4_QuestID = "39228"
+Inst156Quest5_QuestID = "39231"
+Inst156Quest6_QuestID = "39232"
 Inst156Quest7_QuestID = ""
 Inst156Quest8_QuestID = ""
 
-Inst156Quest1_HORDE_QuestID = ""
-Inst156Quest2_HORDE_QuestID = ""
-Inst156Quest3_HORDE_QuestID = ""
-Inst156Quest4_HORDE_QuestID = ""
-Inst156Quest5_HORDE_QuestID = ""
-Inst156Quest6_HORDE_QuestID = ""
+Inst156Quest1_HORDE_QuestID = "39000"
+Inst156Quest2_HORDE_QuestID = "39250"
+Inst156Quest3_HORDE_QuestID = "39253"
+Inst156Quest4_HORDE_QuestID = "39256"
+Inst156Quest5_HORDE_QuestID = "39259"
+Inst156Quest6_HORDE_QuestID = "39260"
 Inst156Quest7_HORDE_QuestID = ""
 Inst156Quest8_HORDE_QuestID = ""
 
 
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
-AQ__Level = ""
+AQ_39000_Level = "100"
+
+AQ_39221_Level = "100"
+AQ_39225_Level = "100"
+AQ_39228_Level = "100"
+AQ_39231_Level = "100"
+AQ_39232_Level = "100"
+
+
+AQ_39250_Level = "100"
+AQ_39253_Level = "100"
+AQ_39256_Level = "100"
+AQ_39259_Level = "100"
+AQ_39260_Level = "100"
 
 
 

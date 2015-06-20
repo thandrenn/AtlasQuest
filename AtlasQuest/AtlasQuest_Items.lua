@@ -7932,6 +7932,43 @@ Inst155Quest9ID1_HORDE = "123975"
 
 --------------- INST156 - Hellfire Citadel ---------------
 
+--Quest 1 Alliance
+Inst156Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst156Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 3 Alliance
+Inst156Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 4 Alliance
+Inst156Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 5 Alliance
+Inst156Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 6 Alliance
+Inst156Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+
+--Quest 1 Horde
+Inst156Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst156Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 3 Horde
+Inst156Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 4 Horde
+Inst156Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 5 Horde
+Inst156Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 6 Horde
+Inst156Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
 
 
 
