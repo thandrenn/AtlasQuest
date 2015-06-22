@@ -110,7 +110,9 @@ AQDiscription_PREQUEST = "Vorquest:"
 AQDiscription_FOLGEQUEST = "Folgequest:"
 AQFinishedTEXT = "Abgeschlossen:";
 
-AQGARRISON = " (Garnision - Mondsturzgasthaus oder Frostwallschenke)"
+AQGARRISON = "(Garnision - Mondsturzgasthaus oder Frostwallschenke)"
+AQGARRISONRESOURCES = "Garnisionsressourcen"
+AQAPEXISCRYSTAL = "Apexiskristall"
 
 
 ------------------
@@ -12019,6 +12021,7 @@ Inst114Quest2_HORDE_Location = Inst114Quest2_Location
 Inst114Quest2_HORDE_Note = Inst114Quest2_Note
 Inst114Quest2_HORDE_Prequest = "Nein"
 Inst114Quest2_HORDE_Folgequest = "Nein"
+--
 -- Reward varies for each class
 
 
@@ -12810,8 +12813,8 @@ Inst145Quest6FQuest_HORDE = "true"
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Caption = "Auchindoun"
-Inst146QAA = "7 Quests"
-Inst146QAH = "7 Quests"
+Inst146QAA = "8 Quests"
+Inst146QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst146Quest1 = "1. Apport"
@@ -12896,6 +12899,18 @@ Inst146Quest7_Prequest = "Nein"
 Inst146Quest7_Folgequest = "Nein"
 --
 Inst146Quest7name1 = "Geldkassette des Herausforderers"
+
+--Quest 8 Alliance 
+Inst146Quest8 = "8. Auchindoun"
+Inst146Quest8_Level = "100"
+Inst146Quest8_Attain = "100"
+Inst146Quest8_Aim = "Bezwingt Teron'gor in Auchindoun."
+Inst146Quest8_Location = "Muradin Bronzebart (Garnision - Hauptgebäude)"
+Inst146Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nTeron'gor ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
+Inst146Quest8_Prequest = "Nein"
+Inst146Quest8_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde
@@ -12982,12 +12997,24 @@ Inst146Quest7_HORDE_Folgequest = "Nein"
 --
 Inst146Quest7name1_HORDE = Inst146Quest7name1
 
+--Quest 8 Horde
+Inst146Quest8_HORDE = Inst146Quest8
+Inst146Quest8_HORDE_Level = "100"
+Inst146Quest8_HORDE_Attain = "100"
+Inst146Quest8_HORDE_Aim = Inst146Quest8_Aim
+Inst146Quest8_HORDE_Location = "Hochfürst Saurfang (Garnision - Hauptgebäude)"
+Inst146Quest8_HORDE_Note = Inst146Quest8_Note
+Inst146Quest8_HORDE_Prequest = "Nein"
+Inst146Quest8_HORDE_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+
 
 --------------- INST147 - Skyreach ---------------
 
 Inst147Caption = "Himmelsnadel"
-Inst147QAA = "8 Quests"
-Inst147QAH = "8 Quests"
+Inst147QAA = "9 Quests"
+Inst147QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst147Quest1 = "1. Der Sieg ist nahe"
@@ -13084,6 +13111,18 @@ Inst147Quest8_Prequest = "Nein"
 Inst147Quest8_Folgequest = "Nein"
 --
 Inst147Quest8name1 = "Geldkassette des Herausforderers"
+
+--Quest 9 Alliance 
+Inst147Quest9 = "9. Himmelsnadel"
+Inst147Quest9_Level = "100"
+Inst147Quest9_Attain = "100"
+Inst147Quest9_Aim = "Bezwingt die Oberste Weise Viryx auf der Himmelsnadel."
+Inst147Quest9_Location = Inst146Quest8_Location
+Inst147Quest9_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nOberste Weise Viryx ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst147Quest9_Prequest = "Nein"
+Inst147Quest9_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde
@@ -13182,12 +13221,24 @@ Inst147Quest8_HORDE_Folgequest = "Nein"
 --
 Inst147Quest8name1_HORDE = Inst147Quest8name1
 
+--Quest 9 Horde
+Inst147Quest9_HORDE = Inst147Quest9
+Inst147Quest9_HORDE_Level = "100"
+Inst147Quest9_HORDE_Attain = "100"
+Inst147Quest9_HORDE_Aim = Inst147Quest9_Aim
+Inst147Quest9_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst147Quest9_HORDE_Note = Inst147Quest9_Note
+Inst147Quest9_HORDE_Prequest = "Nein"
+Inst147Quest9_HORDE_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+
 
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 
 Inst148Caption = "Blutschlägermine"
-Inst148QAA = "7 Quests"
-Inst148QAH = "7 Quests"
+Inst148QAA = "8 Quests"
+Inst148QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst148Quest1 = "1. Ogervorfahren"
@@ -13272,6 +13323,18 @@ Inst148Quest7_Prequest = "Nein"
 Inst148Quest7_Folgequest = "Nein"
 --
 Inst148Quest7name1 = Inst147Quest8name1
+
+--Quest 8 Alliance
+Inst148Quest8 = "8. Blutschlägermine"
+Inst148Quest8_Level = "100"
+Inst148Quest8_Attain = "100"
+Inst148Quest8_Aim = "Bezwingt Gug'rokk in der Blutschlägermine."
+Inst148Quest8_Location = Inst146Quest8_Location
+Inst148Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nGug'rokk ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
+Inst148Quest8_Prequest = "Nein"
+Inst148Quest8_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde
@@ -13358,12 +13421,24 @@ Inst148Quest7_HORDE_Folgequest = "Nein"
 --
 Inst148Quest7name1_HORDE = Inst148Quest7name1
 
+--Quest 8 Horde
+Inst148Quest8_HORDE = Inst148Quest8
+Inst148Quest8_HORDE_Level = "100"
+Inst148Quest8_HORDE_Attain = "100"
+Inst148Quest8_HORDE_Aim = Inst148Quest8_Aim
+Inst148Quest8_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst148Quest8_HORDE_Note = Inst148Quest8_Note
+Inst148Quest8_HORDE_Prequest = "Nein"
+Inst148Quest8_HORDE_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+
 
 --------------- INST149 - Iron Docks ---------------
 
 Inst149Caption = "Eisendocks"
-Inst149QAA = "6 Quests"
-Inst149QAH = "6 Quests"
+Inst149QAA = "7 Quests"
+Inst149QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst149Quest1 = "1. Budds Schachzug"
@@ -13436,6 +13511,18 @@ Inst149Quest6_Prequest = "Nein"
 Inst149Quest6_Folgequest = "Nein"
 --
 Inst149Quest6name1 = Inst147Quest8name1
+
+--Quest 7 Alliance
+Inst149Quest7 = "7. Eisendocks"
+Inst149Quest7_Level = "100"
+Inst149Quest7_Attain = "100"
+Inst149Quest7_Aim = "Bezwingt Skulloc in den Eisendocks."
+Inst149Quest7_Location = Inst146Quest8_Location
+Inst149Quest7_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nSkulloc ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
+Inst149Quest7_Prequest = "Nein"
+Inst149Quest7_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde
@@ -13510,12 +13597,24 @@ Inst149Quest6_HORDE_Folgequest = "Nein"
 --
 Inst149Quest6name1_HORDE = Inst149Quest6name1
 
+--Quest 7 Horde
+Inst149Quest7_HORDE = Inst149Quest7
+Inst149Quest7_HORDE_Level = "100"
+Inst149Quest7_HORDE_Attain = "100"
+Inst149Quest7_HORDE_Aim = Inst149Quest7_Aim
+Inst149Quest7_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst149Quest7_HORDE_Note = Inst149Quest7_Note
+Inst149Quest7_HORDE_Prequest = "Nein"
+Inst149Quest7_HORDE_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+
 
 --------------- INST150 - The Everbloom ---------------
 
 Inst150Caption = "Der immergrüne Flor"
-Inst150QAA = "9 Quests"
-Inst150QAH = "9 Quests"
+Inst150QAA = "10 Quests"
+Inst150QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst150Quest1 = "1. Gut zu Vögeln"
@@ -13624,6 +13723,18 @@ Inst150Quest9_Prequest = "Nein"
 Inst150Quest9_Folgequest = "Nein"
 --
 Inst150Quest9name1 = Inst147Quest8name1
+
+--Quest 10 Alliance
+Inst150Quest10 = "10. Der immergrüne Flor"
+Inst150Quest10_Level = "100"
+Inst150Quest10_Attain = "100"
+Inst150Quest10_Aim = "Bezwingt Yalnu im Immergrünen Flor."
+Inst150Quest10_Location = Inst146Quest8_Note
+Inst150Quest10_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
+Inst150Quest10_Prequest = "Nein"
+Inst150Quest10_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde
@@ -13734,12 +13845,24 @@ Inst150Quest9_HORDE_Folgequest = "Nein"
 --
 Inst150Quest9name1_HORDE = Inst150Quest9name1
 
+--Quest 10 Horde
+Inst150Quest10_HORDE = Inst150Quest10
+Inst150Quest10_HORDE_Level = "100"
+Inst150Quest10_HORDE_Attain = "100"
+Inst150Quest10_HORDE_Aim = Inst150Quest10_Aim
+Inst150Quest10_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst150Quest10_HORDE_Note = Inst150Quest10_Note
+Inst150Quest10_HORDE_Prequest = "Nein"
+Inst150Quest10_HORDE_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+
 
 --------------- INST151 - Grimrail Depot ---------------
 
 Inst151Caption = "Grimmgleisdepot"
-Inst151QAA = "8 Quests"
-Inst151QAH = "8 Quests"
+Inst151QAA = "9 Quests"
+Inst151QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst151Quest1 = "1. Spalter!"
@@ -13836,6 +13959,18 @@ Inst151Quest8_Prequest = "Nein"
 Inst151Quest8_Folgequest = "Nein"
 --
 Inst151Quest8name1 = Inst147Quest8name1
+
+--Quest 9 Alliance
+Inst151Quest9 = "9. Grimmgleisdepot"
+Inst151Quest9_Level = "100"
+Inst151Quest9_Attain = "100"
+Inst151Quest9_Aim = "Bezwingt Himmelsfürstin Tovra im Grimmgleisdepot."
+Inst151Quest9_Location = Inst146Quest8_Note
+Inst151Quest9_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nHimmelsfürstin Tovra ist der Endboss bei "..YELLOW.."[3]"..WHITE.."."
+Inst151Quest9_Prequest = "Nein"
+Inst151Quest9_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
 
 
 --Quest 1 Horde
@@ -13934,12 +14069,24 @@ Inst151Quest8_HORDE_Folgequest = "Nein"
 --
 Inst151Quest8name1_HORDE = Inst151Quest8name1
 
+--Quest 9 Horde
+Inst151Quest9_HORDE = Inst151Quest9
+Inst151Quest9_HORDE_Level = "100"
+Inst151Quest9_HORDE_Attain = "100"
+Inst151Quest9_HORDE_Aim = Inst151Quest9_Aim
+Inst151Quest9_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst151Quest9_HORDE_Note = Inst151Quest9_Note
+Inst151Quest9_HORDE_Prequest = "Nein"
+Inst151Quest9_HORDE_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
 Inst152Caption = "Schattenmondgrabstätte"
-Inst152QAA = "7 Quests"
-Inst152QAH = "7 Quests"
+Inst152QAA = "8 Quests"
+Inst152QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst152Quest1 = "1. Das Leerentor"
@@ -14024,6 +14171,20 @@ Inst152Quest7_Prequest = "Nein"
 Inst152Quest7_Folgequest = "Nein"
 --
 Inst152Quest7name1 = Inst147Quest8name1
+
+--Quest 8 Alliance
+Inst152Quest8 = "8. Schattenmondgrabstätte"
+Inst152Quest8_Level = "100"
+Inst152Quest8_Attain = "100"
+Inst152Quest8_Aim = "Bezwingt Ner'zhul in der Schattenmondgrabstätte."
+Inst152Quest8_Location = Inst146Quest8_Note
+Inst152Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nNer'zhul ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
+Inst152Quest8_Prequest = "Nein"
+Inst152Quest8_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+ 
+
 
 
 --Quest 1 Horde
@@ -14110,12 +14271,24 @@ Inst152Quest7_HORDE_Folgequest = "Nein"
 --
 Inst152Quest7name1_HORDE = Inst152Quest7name1
 
+--Quest 8 Horde
+Inst152Quest8_HORDE = Inst152Quest8
+Inst152Quest8_HORDE_Level = "100"
+Inst152Quest8_HORDE_Attain = "100"
+Inst152Quest8_HORDE_Aim = Inst152Quest8_Aim
+Inst152Quest8_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst152Quest8_HORDE_Note = Inst152Quest8_Note
+Inst152Quest8_HORDE_Prequest = "Nein"
+Inst152Quest8_HORDE_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+
 
 --------------- INST153 - Upper Blackrock Spire ---------------
 
-Inst153Caption = "Upper Blackrock Spire"
-Inst153QAA = "8 Quests"
-Inst153QAH = "8 Quests"
+Inst153Caption = "Obere Schwarzfelsspitze"
+Inst153QAA = "9 Quests"
+Inst153QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst153Quest1 = "1. Oralius' Abenteuer"
@@ -14212,6 +14385,20 @@ Inst153Quest8_Prequest = "Nein"
 Inst153Quest8_Folgequest = "Nein"
 --
 Inst153Quest8name1 = Inst147Quest8name1
+
+--Quest 9 Alliance
+Inst153Quest9 = "9. Obere Schwarzfelsspitze"
+Inst153Quest9_Level = "100"
+Inst153Quest9_Attain = "100"
+Inst153Quest9_Aim = "Bezwingt Kriegsfürstin Zaela an der Oberen Schwarzfelsspitze."
+Inst153Quest9_Location = Inst146Quest8_Note
+Inst153Quest9_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nKriegsfürstin Zaela ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
+Inst153Quest9_Prequest = "Nein"
+Inst153Quest9_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+ 
+
 
 
 --Quest 1 Horde
@@ -14310,12 +14497,24 @@ Inst153Quest8_HORDE_Folgequest = "Nein"
 --
 Inst153Quest8name1_HORDE = Inst153Quest8name1
 
+--Quest 9 Horde
+Inst153Quest9_HORDE = Inst153Quest9
+Inst153Quest9_HORDE_Level = "100"
+Inst153Quest9_HORDE_Attain = "100"
+Inst153Quest9_HORDE_Aim = Inst153Quest9_Aim
+Inst153Quest9_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst153Quest9_HORDE_Note = Inst153Quest9_Note
+Inst153Quest9_HORDE_Prequest = "Nein"
+Inst153Quest9_HORDE_Folgequest = "Nein"
+--
+-- Awards Garrison Resources
+
 
 --------------- INST154 - Highmaul ---------------
 
 Inst154Caption = "Hochfels"
-Inst154QAA = "2 Quests"
-Inst154QAH = "2 Quests"
+Inst154QAA = "5 Quests"
+Inst154QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst154Quest1 = "1. Der Fall des Imperiums"
@@ -14339,6 +14538,44 @@ Inst154Quest2_Note = "Kapitel 2 der Legendären Questreihe des Ringes.  Diese Qu
 Inst154Quest2_Prequest = "Nein"
 Inst154Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst154Quest3 = "3. Die Ummauerte Stadt: Farnspore"
+Inst154Quest3_Level = "100"
+Inst154Quest3_Attain = "100"
+Inst154Quest3_Aim = "Bezwingt Farnspore in Hochfels."
+Inst154Quest3_Location = Inst146Quest8_Note
+Inst154Quest3_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.\nFarnspore ist der letzte Boss im ersten Teil von Hochfels bei "..YELLOW.."[4]"..WHITE.."."
+Inst154Quest3_Prequest = "Nein"
+Inst154Quest3_Folgequest = "Nein"
+--
+Inst154Quest3name1 = "Große Kopfgeldbelohnung"
+
+--Quest 4 Alliance
+Inst154Quest4 = "4. Arkanes Sanktum: Ko'ragh"
+Inst154Quest4_Level = "100"
+Inst154Quest4_Attain = "100"
+Inst154Quest4_Aim = "Bezwingt Ko'ragh in Hochfels."
+Inst154Quest4_Location = Inst146Quest8_Note
+Inst154Quest4_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.\nKo'ragh ist der letzte Boss im zweiten Teil von Hochfels bei "..YELLOW.."[6]"..WHITE.."."
+Inst154Quest4_Prequest = "Nein"
+Inst154Quest4_Folgequest = "Nein"
+--
+Inst154Quest4name1 = "Große Kopfgeldbelohnung"
+
+--Quest 5 Alliance
+Inst154Quest5 = "5. Der Kaiserstieg: Kaiser Mar'gok"
+Inst154Quest5_Level = "100"
+Inst154Quest5_Attain = "100"
+Inst154Quest5_Aim = "Bezwingt Kaiser Mar'gok in Hochfels."
+Inst154Quest5_Location = Inst146Quest8_Note
+Inst154Quest5_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.\nKaiser Mar'gok ist der Endboss in Hochfels bei "..YELLOW.."[7]"..WHITE.."."
+Inst154Quest5_Prequest = "Nein"
+Inst154Quest5_Folgequest = "Nein"
+--
+Inst154Quest5name1 = "Große Kopfgeldbelohnung"
+ 
+
 
 
 --Quest 1 Horde
@@ -14364,12 +14601,48 @@ Inst154Quest2_HORDE_Prequest = "Nein"
 Inst154Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 3 Horde
+Inst154Quest3_HORDE = Inst154Quest3
+Inst154Quest3_HORDE_Level = "100"
+Inst154Quest3_HORDE_Attain = "100"
+Inst154Quest3_HORDE_Aim = Inst154Quest3_Aim
+Inst154Quest3_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst154Quest3_HORDE_Note = Inst154Quest3_Note
+Inst154Quest3_HORDE_Prequest = "Nein"
+Inst154Quest3_HORDE_Folgequest = "Nein"
+--
+Inst154Quest3name1_HORDE = Inst154Quest3name1
+
+--Quest 4 Horde
+Inst154Quest4_HORDE = Inst154Quest4
+Inst154Quest4_HORDE_Level = "100"
+Inst154Quest4_HORDE_Attain = "100"
+Inst154Quest4_HORDE_Aim = Inst154Quest4_Aim
+Inst154Quest4_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst154Quest4_HORDE_Note = Inst154Quest4_Note
+Inst154Quest4_HORDE_Prequest = "Nein"
+Inst154Quest4_HORDE_Folgequest = "Nein"
+--
+Inst154Quest4name1_HORDE = Inst154Quest4name1
+
+--Quest 5 Horde
+Inst154Quest5_HORDE = Inst154Quest5
+Inst154Quest5_HORDE_Level = "100"
+Inst154Quest5_HORDE_Attain = "100"
+Inst154Quest5_HORDE_Aim = Inst154Quest5_Aim
+Inst154Quest5_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst154Quest5_HORDE_Note = Inst154Quest5_Note
+Inst154Quest5_HORDE_Prequest = "Nein"
+Inst154Quest5_HORDE_Folgequest = "Nein"
+--
+Inst154Quest5name1_HORDE = Inst154Quest5name1
+
 
 --------------- INST155 - Blackrock Foundry ---------------
 
 Inst155Caption = "Schwarzfelsgießerei"
-Inst155QAA = "5 Quests"
-Inst155QAH = "5 Quests"
+Inst155QAA = "9 Quests"
+Inst155QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst155Quest1 = "1. Herz des Zorns"
@@ -14377,7 +14650,7 @@ Inst155Quest1_Level = "100"
 Inst155Quest1_Attain = "100"
 Inst155Quest1_Aim = "Besiegt den im Schmelzofen der Schwarzfelsgießerei gefangenen Elementarzorn und entnehmt ihm das Herz des Zorns."
 Inst155Quest1_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest1_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nDas Herz des Zorns droppt von der Begegnung im Hochofen bei "..YELLOW.."[7]"..WHITE.."."
+Inst155Quest1_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nDas Herz des Zorns droppt von der Begegnung im Hochofen bei "..YELLOW.."[7]"..WHITE.."."
 Inst155Quest1_Prequest = "Berührung der Kirin Tor"
 Inst155Quest1_Folgequest = "Nein"
 Inst155Quest1PreQuest = "true"
@@ -14389,7 +14662,7 @@ Inst155Quest2_Level = "100"
 Inst155Quest2_Attain = "100"
 Inst155Quest2_Aim = "Beschafft den Folianten der Flammenbändiger von Flammenbändigerin Ka'graz in der Schwarzfelsgießerei."
 Inst155Quest2_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest2_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nDer Foliant der Flammenbändiger droppt von Flammenbändigerin Ka'graz bei "..YELLOW.."[4]"..WHITE.."."
+Inst155Quest2_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nDer Foliant der Flammenbändiger droppt von Flammenbändigerin Ka'graz bei "..YELLOW.."[4]"..WHITE.."."
 Inst155Quest2_Prequest = "Berührung der Kirin Tor"
 Inst155Quest2_Folgequest = "Nein"
 Inst155Quest2PreQuest = "true"
@@ -14401,7 +14674,7 @@ Inst155Quest3_Level = "100"
 Inst155Quest3_Attain = "100"
 Inst155Quest3_Aim = "Beschafft die thaumaturgische Kugel der Draenei aus der Entsetzlichen Grotte in der Schwarzfelsgießerei."
 Inst155Quest3_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest3_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nDie thaumaturgische Kugel der Draenei droppt von der Begegnung in der entsetzlichen Grotte bei "..YELLOW.."[9]"..WHITE.."."
+Inst155Quest3_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nDie thaumaturgische Kugel der Draenei droppt von der Begegnung in der entsetzlichen Grotte bei "..YELLOW.."[9]"..WHITE.."."
 Inst155Quest3_Prequest = "Berührung der Kirin Tor"
 Inst155Quest3_Folgequest = "Nein"
 Inst155Quest3PreQuest = "true"
@@ -14413,7 +14686,7 @@ Inst155Quest4_Level = "100"
 Inst155Quest4_Attain = "100"
 Inst155Quest4_Aim = "Sammelt 3 Elementartafeln. Beschafft die Tafeln, indem Ihr Bosse in der Schwarzfelsgießerei besiegt und ihnen ihre Elementarrunen abnehmt."
 Inst155Quest4_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest4_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\n\nMan braucht 300 Elementarrunen um eine Elementartafel herzustellen.  Alle Bosse in dieser Instanz droppen die  Elementarrunen.  Du kannst diese auch durch Missionen und Arbeitsaufträgen in deiner Garnission bekommen."
+Inst155Quest4_Note = "Kapitel 3 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nMan braucht 300 Elementarrunen um eine Elementartafel herzustellen.  Alle Bosse in dieser Instanz droppen die  Elementarrunen.  Du kannst diese auch durch Missionen und Arbeitsaufträgen in deiner Garnission bekommen."
 Inst155Quest4_Prequest = "Berührung der Kirin Tor"
 Inst155Quest4_Folgequest = "Nein"
 Inst155Quest4PreQuest = "true"
@@ -14430,6 +14703,56 @@ Inst155Quest5_Prequest = "Diese Quest erhälst Du erst nachdem Du die vorigen Qu
 Inst155Quest5_Folgequest = "Der ungebrochene Kreis"
 Inst155Quest5PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst155Quest6 = "6. Erzraffinerie: Herz des Berges"
+Inst155Quest6_Level = "100"
+Inst155Quest6_Attain = "100"
+Inst155Quest6_Aim = "Bezwingt das Herz des Berges am Schmelzofen in der Schwarzfelsgießerei."
+Inst155Quest6_Location = Inst146Quest8_Note
+Inst155Quest6_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden\nDas Herz des Berges ist der letzte Boss im ersten Teil von der Schwazfelsgießerei bei "..YELLOW.."[7]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest6_Prequest = "Nein"
+Inst155Quest6_Folgequest = "Nein"
+--
+Inst155Quest6name1 = "Große Kopfgeldbelohnung"
+
+--Quest 7 Alliance
+Inst155Quest7 = "7. Die Schwarze Schmiede: Kromog"
+Inst155Quest7_Level = "100"
+Inst155Quest7_Attain = "100"
+Inst155Quest7_Aim = "Bezwingt Kromog in der Schwarzfelsgießerei."
+Inst155Quest7_Location = Inst146Quest8_Note
+Inst155Quest7_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden\nKromog ist der letzte Boss im zweiten Teil von der Schwazfelsgießerei bei "..YELLOW.."[8]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest7_Prequest = "Nein"
+Inst155Quest7_Folgequest = "Nein"
+--
+Inst155Quest7name1 = "Große Kopfgeldbelohnung"
+
+--Quest 8 Alliance
+Inst155Quest8 = "8. Eiserne Fertigung: Admiralin Gar'an"
+Inst155Quest8_Level = "100"
+Inst155Quest8_Attain = "100"
+Inst155Quest8_Aim = "Bezwingt Admiralin Gar'an in der Schwarzfelsgießerei."
+Inst155Quest8_Location = Inst146Quest8_Note
+Inst155Quest8_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden\nAdmiralin Gar'an ist der letzte Boss im dritten Teil von der Schwazfelsgießerei bei "..YELLOW.."[9]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest8_Prequest = "Nein"
+Inst155Quest8_Folgequest = "Nein"
+--
+Inst155Quest8name1 = "Große Kopfgeldbelohnung"
+
+--Quest 9 Alliance
+Inst155Quest9 = "9. Schwarzfausts Schmelztiegel: Schwarzfaust"
+Inst155Quest9_Level = "100"
+Inst155Quest9_Attain = "100"
+Inst155Quest9_Aim = "Bezwingt Schwarzfaust in der Schwarzfelsgießerei."
+Inst155Quest9_Location = Inst146Quest8_Note
+Inst155Quest9_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden\nSchwarzfaust ist der Endboss der Schwarzfeldgießerei bei "..YELLOW.."[10]"..WHITE..".  This quest can be completed on any difficulty."
+Inst155Quest9_Prequest = "Nein"
+Inst155Quest9_Folgequest = "Nein"
+--
+Inst155Quest9name1 = "Große Kopfgeldbelohnung"
+ 
+
 
 
 --Quest 1 Horde
@@ -14491,6 +14814,208 @@ Inst155Quest5_HORDE_Prequest = Inst155Quest5_Prequest
 Inst155Quest5_HORDE_Folgequest = "Nein"
 Inst155Quest5PreQuest_HORDE = Inst155Quest5PreQuest
 -- No Rewards for this quest
+
+--Quest 6 Horde
+Inst155Quest6_HORDE = Inst155Quest6
+Inst155Quest6_HORDE_Level = "100"
+Inst155Quest6_HORDE_Attain = "100"
+Inst155Quest6_HORDE_Aim = Inst155Quest6_Aim
+Inst155Quest6_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst155Quest6_HORDE_Note = Inst155Quest6_Note
+Inst155Quest6_HORDE_Prequest = "Nein"
+Inst155Quest6_HORDE_Folgequest = "Nein"
+--
+Inst155Quest6name1_HORDE = Inst155Quest6name1
+
+--Quest 3 Horde
+Inst155Quest7_HORDE = Inst155Quest7
+Inst155Quest7_HORDE_Level = "100"
+Inst155Quest7_HORDE_Attain = "100"
+Inst155Quest7_HORDE_Aim = Inst155Quest7_Aim
+Inst155Quest7_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst155Quest7_HORDE_Note = Inst155Quest7_Note
+Inst155Quest7_HORDE_Prequest = "Nein"
+Inst155Quest7_HORDE_Folgequest = "Nein"
+--
+Inst155Quest7name1_HORDE = Inst155Quest7name1
+
+--Quest 4 Horde
+Inst155Quest8_HORDE = Inst155Quest8
+Inst155Quest8_HORDE_Level = "100"
+Inst155Quest8_HORDE_Attain = "100"
+Inst155Quest8_HORDE_Aim = Inst155Quest8_Aim
+Inst155Quest8_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst155Quest8_HORDE_Note = Inst155Quest8_Note
+Inst155Quest8_HORDE_Prequest = "Nein"
+Inst155Quest8_HORDE_Folgequest = "Nein"
+--
+Inst155Quest8name1_HORDE = Inst158Quest8name1
+
+--Quest 5 Horde
+Inst155Quest9_HORDE = Inst155Quest9
+Inst155Quest9_HORDE_Level = "100"
+Inst155Quest9_HORDE_Attain = "100"
+Inst155Quest9_HORDE_Aim = Inst155Quest9_Aim
+Inst155Quest9_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst155Quest9_HORDE_Note = Inst155Quest9_Note
+Inst155Quest9_HORDE_Prequest = "Nein"
+Inst155Quest9_HORDE_Folgequest = "Nein"
+--
+Inst155Quest9name1_HORDE = Inst155Quest9name1
+
+
+--------------- INST156 - Hellfire Citadel ---------------
+
+Inst156Caption = "Höllenfeuerzitadelle"
+Inst156QAA = "6 Quests"
+Inst156QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst156Quest1 = "1. We Don't Need No Library Card"
+Inst156Quest1_Level = "100"
+Inst156Quest1_Attain = "100"
+Inst156Quest1_Aim = "Collect 33 Tomes of Chaos from bosses in Hellfire Citadel."
+Inst156Quest1_Location = "Erzmagier Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst156Quest1_Note = "Kapitel 4 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nThe Tomes of Chaos drop from bosses in Hellfire Citadel."
+Inst156Quest1_Prequest = "Ruf des Erzmagiers"
+Inst156Quest1_Folgequest = "Nein"
+Inst156Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst156Quest2 = "2. Pits of Mannoroth"
+Inst156Quest2_Level = "100"
+Inst156Quest2_Attain = "100"
+Inst156Quest2_Aim = "Defeat Kormrok in Hellfire Citadel."
+Inst156Quest2_Location = Inst146Quest8_Note
+Inst156Quest2_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nKormrok is the last boss in the first section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest2_Prequest = "Nein"
+Inst156Quest2_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+--Quest 3 Alliance
+Inst156Quest3 = "3. Maw of Souls"
+Inst156Quest3_Level = "100"
+Inst156Quest3_Attain = "100"
+Inst156Quest3_Aim = "Defeat Gorefiend in Hellfire Citadel."
+Inst156Quest3_Location = Inst146Quest8_Note
+Inst156Quest3_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nGorefiend is the last boss in the second section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest3_Prequest = "Nein"
+Inst156Quest3_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+--Quest 4 Alliance
+Inst156Quest4 = "4. Temple of Tyranny"
+Inst156Quest4_Level = "100"
+Inst156Quest4_Attain = "100"
+Inst156Quest4_Aim = "Defeat Tyrant Velhari in Hellfire Citadel."
+Inst156Quest4_Location = Inst146Quest8_Note
+Inst156Quest4_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nTyrant Velhari is the last boss in the third section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest4_Prequest = "Nein"
+Inst156Quest4_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+--Quest 5 Alliance
+Inst156Quest5 = "5. Destructor's Rise"
+Inst156Quest5_Level = "100"
+Inst156Quest5_Attain = "100"
+Inst156Quest5_Aim = "Defeat Mannoroth in Hellfire Citadel."
+Inst156Quest5_Location = Inst146Quest8_Note
+Inst156Quest5_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nMannoroth is the last boss in the fourth section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest5_Prequest = "Nein"
+Inst156Quest5_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+--Quest 6 Alliance
+Inst156Quest6 = "6. The Black Gate"
+Inst156Quest6_Level = "100"
+Inst156Quest6_Attain = "100"
+Inst156Quest6_Aim = "Defeat Archimonde in Hellfire Citadel."
+Inst156Quest6_Location = Inst146Quest8_Note
+Inst156Quest6_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nArchimonde is the final boss in Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest6_Prequest = "Nein"
+Inst156Quest6_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+
+--Quest 1 Horde
+Inst156Quest1_HORDE = Inst156Quest1
+Inst156Quest1_HORDE_Level = "100"
+Inst156Quest1_HORDE_Attain = "100"
+Inst156Quest1_HORDE_Aim = Inst156Quest1_Aim
+Inst156Quest1_HORDE_Location = Inst156Quest1_Location
+Inst156Quest1_HORDE_Note = Inst156Quest1_Note
+Inst156Quest1_HORDE_Prequest = Inst156Quest1_Prequest
+Inst156Quest1_HORDE_Folgequest = "Nein"
+Inst156Quest1PreQuest_HORDE = Inst156Quest1PreQuest
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst156Quest2_HORDE = Inst156Quest2
+Inst156Quest2_HORDE_Level = "100"
+Inst156Quest2_HORDE_Attain = "100"
+Inst156Quest2_HORDE_Aim = Inst156Quest2_Aim
+Inst156Quest2_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst156Quest2_HORDE_Note = Inst156Quest2_Note
+Inst156Quest2_HORDE_Prequest = "Nein"
+Inst156Quest2_HORDE_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+--Quest 3 Horde
+Inst156Quest3_HORDE = Inst156Quest3
+Inst156Quest3_HORDE_Level = "100"
+Inst156Quest3_HORDE_Attain = "100"
+Inst156Quest3_HORDE_Aim = Inst156Quest3_Aim
+Inst156Quest3_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst156Quest3_HORDE_Note = Inst156Quest3_Note
+Inst156Quest3_HORDE_Prequest = "Nein"
+Inst156Quest3_HORDE_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+--Quest 4 Horde
+Inst156Quest4_HORDE = Inst156Quest4
+Inst156Quest4_HORDE_Level = "100"
+Inst156Quest4_HORDE_Attain = "100"
+Inst156Quest4_HORDE_Aim = Inst156Quest4_Aim
+Inst156Quest4_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst156Quest4_HORDE_Note = Inst156Quest4_Note
+Inst156Quest4_HORDE_Prequest = "Nein"
+Inst156Quest4_HORDE_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+--Quest 5 Horde
+Inst156Quest5_HORDE = Inst156Quest5
+Inst156Quest5_HORDE_Level = "100"
+Inst156Quest5_HORDE_Attain = "100"
+Inst156Quest5_HORDE_Aim = Inst156Quest5_Aim
+Inst156Quest5_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst156Quest5_HORDE_Note = Inst156Quest5_Note
+Inst156Quest5_HORDE_Prequest = "Nein"
+Inst156Quest5_HORDE_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+
+--Quest 6 Horde
+Inst156Quest6_HORDE = Inst156Quest6
+Inst156Quest6_HORDE_Level = "100"
+Inst156Quest6_HORDE_Attain = "100"
+Inst156Quest6_HORDE_Aim = Inst156Quest6_Aim
+Inst156Quest6_HORDE_Location = Inst146Quest8_HORDE_Location
+Inst156Quest6_HORDE_Note = Inst156Quest6_Note
+Inst156Quest6_HORDE_Prequest = "Nein"
+Inst156Quest6_HORDE_Folgequest = "Nein"
+--
+-- Awards Apexis Crystals
+ 
+
 
 
 
