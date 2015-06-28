@@ -7950,6 +7950,12 @@ Inst156Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
 --Quest 6 Alliance
 Inst156Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
 
+--Quest 7 Alliance
+Inst156Quest7Rewardtext = AQNoReward
+
+--Quest 8 Alliance
+Inst156Quest8Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst156Quest1Rewardtext_HORDE = AQNoReward
@@ -7968,6 +7974,12 @@ Inst156Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRY
 
 --Quest 6 Horde
 Inst156Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
+
+--Quest 7 Horde
+Inst156Quest7Rewardtext_HORDE = AQNoReward
+
+--Quest 8 Horde
+Inst156Quest8Rewardtext_HORDE = AQNoReward
 
 
 

@@ -30,6 +30,7 @@ Version 4.9.4 BETA  (June ??, 2015)
 	- Hellfire Citadel: Temple of Tyranny
 	- Hellfire Citadel: Destructor's Rise
 	- Hellfire Citadel: The Black Gate
+	- Hellfire Citadel: Well of Souls (Normal and Heroic mode)
 	
 
 

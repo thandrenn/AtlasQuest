@@ -14806,15 +14806,15 @@ Inst155Quest9name1_HORDE = Inst155Quest9name1
 --------------- INST156 - Hellfire Citadel ---------------
 
 Inst156Caption = "Hellfire Citadel"
-Inst156QAA = "6 Quests"
-Inst156QAH = "6 Quests"
+Inst156QAA = "8 Quests"
+Inst156QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst156Quest1 = "1. We Don't Need No Library Card"
 Inst156Quest1_Level = "100"
 Inst156Quest1_Attain = "100"
 Inst156Quest1_Aim = "Collect 33 Tomes of Chaos from bosses in Hellfire Citadel."
-Inst156Quest1_Location = "Archmage Khadgar"
+Inst156Quest1_Location = "Archmage Khadgar (Garrison - Shipyard)"
 Inst156Quest1_Note = "Part of Chapter 4 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Tomes of Chaos drop from bosses in Hellfire Citadel."
 Inst156Quest1_Prequest = "Call of the Archmage"
 Inst156Quest1_Folgequest = "None"
@@ -14880,6 +14880,28 @@ Inst156Quest6_Prequest = "None"
 Inst156Quest6_Folgequest = "None"
 --
 -- Awards Apexis Crystals
+
+--Quest 7 Alliance
+Inst156Quest7 = "7. Well of Souls (Normal)"
+Inst156Quest7_Level = "100"
+Inst156Quest7_Attain = "100"
+Inst156Quest7_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Normal difficulty."
+Inst156Quest7_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
+Inst156Quest7_Note = "This quest is for Normal difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[??]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Normal difficulty, bypassing the first bosses."
+Inst156Quest7_Prequest = "None"
+Inst156Quest7_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst156Quest8 = "8. Well of Souls (Heroic)"
+Inst156Quest8_Level = "100"
+Inst156Quest8_Attain = "100"
+Inst156Quest8_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Heroic difficulty."
+Inst156Quest8_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
+Inst156Quest8_Note = "This quest is for Heroic difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[??]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Heroic difficulty, bypassing the first bosses."
+Inst156Quest8_Prequest = "None"
+Inst156Quest8_Folgequest = "None"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -14954,7 +14976,27 @@ Inst156Quest6_HORDE_Folgequest = Inst156Quest6_Folgequest
 --
 -- Awards Apexis Crystals
 
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst156Quest7_HORDE = Inst156Quest7
+Inst156Quest7_HORDE_Level = Inst156Quest7_Level
+Inst156Quest7_HORDE_Attain = Inst156Quest7_Attain
+Inst156Quest7_HORDE_Aim = Inst156Quest7_Aim
+Inst156Quest7_HORDE_Location = Inst156Quest7_Location
+Inst156Quest7_HORDE_Note = Inst156Quest7_Note
+Inst156Quest7_HORDE_Prequest = Inst156Quest7_Prequest
+Inst156Quest7_HORDE_Folgequest = Inst156Quest7_Folgequest
+-- No Rewards for this quest
 
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst156Quest8_HORDE = Inst156Quest8
+Inst156Quest8_HORDE_Level = Inst156Quest8_Level
+Inst156Quest8_HORDE_Attain = Inst156Quest8_Attain
+Inst156Quest8_HORDE_Aim = Inst156Quest8_Aim
+Inst156Quest8_HORDE_Location = Inst156Quest8_Location
+Inst156Quest8_HORDE_Note = Inst156Quest8_Note
+Inst156Quest8_HORDE_Prequest = Inst156Quest8_Prequest
+Inst156Quest8_HORDE_Folgequest = Inst156Quest8_Folgequest
+-- No Rewards for this quest
 
 
 
