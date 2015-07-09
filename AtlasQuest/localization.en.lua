@@ -14806,8 +14806,8 @@ Inst155Quest9name1_HORDE = Inst155Quest9name1
 --------------- INST156 - Hellfire Citadel ---------------
 
 Inst156Caption = "Hellfire Citadel"
-Inst156QAA = "8 Quests"
-Inst156QAH = "8 Quests"
+Inst156QAA = "9 Quests"
+Inst156QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst156Quest1 = "1. We Don't Need No Library Card"
@@ -14827,7 +14827,7 @@ Inst156Quest2_Level = "100"
 Inst156Quest2_Attain = "100"
 Inst156Quest2_Aim = "Defeat Kormrok in Hellfire Citadel."
 Inst156Quest2_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest2_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKormrok is the last boss in the first section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest2_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKormrok is the last boss in the first section of Hellfire Citadel at "..YELLOW.."[3]"..WHITE.."."
 Inst156Quest2_Prequest = "None"
 Inst156Quest2_Folgequest = "None"
 --
@@ -14839,7 +14839,7 @@ Inst156Quest3_Level = "100"
 Inst156Quest3_Attain = "100"
 Inst156Quest3_Aim = "Defeat Gorefiend in Hellfire Citadel."
 Inst156Quest3_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nGorefiend is the last boss in the second section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nGorefiend is the last boss in the second section of Hellfire Citadel at "..YELLOW.."[6]"..WHITE.."."
 Inst156Quest3_Prequest = "None"
 Inst156Quest3_Folgequest = "None"
 --
@@ -14851,7 +14851,7 @@ Inst156Quest4_Level = "100"
 Inst156Quest4_Attain = "100"
 Inst156Quest4_Aim = "Defeat Tyrant Velhari in Hellfire Citadel."
 Inst156Quest4_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nTyrant Velhari is the last boss in the third section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nTyrant Velhari is the last boss in the third section of Hellfire Citadel at "..YELLOW.."[9]"..WHITE.."."
 Inst156Quest4_Prequest = "None"
 Inst156Quest4_Folgequest = "None"
 --
@@ -14863,7 +14863,7 @@ Inst156Quest5_Level = "100"
 Inst156Quest5_Attain = "100"
 Inst156Quest5_Aim = "Defeat Mannoroth in Hellfire Citadel."
 Inst156Quest5_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nMannoroth is the last boss in the fourth section of Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nMannoroth is the last boss in the fourth section of Hellfire Citadel at "..YELLOW.."[12]"..WHITE.."."
 Inst156Quest5_Prequest = "None"
 Inst156Quest5_Folgequest = "None"
 --
@@ -14875,7 +14875,7 @@ Inst156Quest6_Level = "100"
 Inst156Quest6_Attain = "100"
 Inst156Quest6_Aim = "Defeat Archimonde in Hellfire Citadel."
 Inst156Quest6_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest6_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nArchimonde is the final boss in Hellfire Citadel at "..YELLOW.."[??]"..WHITE.."."
+Inst156Quest6_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nArchimonde is the final boss in Hellfire Citadel at "..YELLOW.."[13]"..WHITE.."."
 Inst156Quest6_Prequest = "None"
 Inst156Quest6_Folgequest = "None"
 --
@@ -14887,7 +14887,7 @@ Inst156Quest7_Level = "100"
 Inst156Quest7_Attain = "100"
 Inst156Quest7_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Normal difficulty."
 Inst156Quest7_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
-Inst156Quest7_Note = "This quest is for Normal difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[??]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Normal difficulty, bypassing the first bosses."
+Inst156Quest7_Note = "This quest is for Normal difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[6]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Normal difficulty, bypassing the first bosses."
 Inst156Quest7_Prequest = "None"
 Inst156Quest7_Folgequest = "None"
 -- No Rewards for this quest
@@ -14898,9 +14898,20 @@ Inst156Quest8_Level = "100"
 Inst156Quest8_Attain = "100"
 Inst156Quest8_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Heroic difficulty."
 Inst156Quest8_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
-Inst156Quest8_Note = "This quest is for Heroic difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[??]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Heroic difficulty, bypassing the first bosses."
+Inst156Quest8_Note = "This quest is for Heroic difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[6]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Heroic difficulty, bypassing the first bosses."
 Inst156Quest8_Prequest = "None"
 Inst156Quest8_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst156Quest9 = "9. Well of Souls (Mythic)"
+Inst156Quest9_Level = "100"
+Inst156Quest9_Attain = "100"
+Inst156Quest9_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Mythic difficulty."
+Inst156Quest9_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
+Inst156Quest9_Note = "This quest is for Mythic difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[6]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Mythic difficulty, bypassing the first bosses."
+Inst156Quest9_Prequest = "None"
+Inst156Quest9_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -14996,6 +15007,17 @@ Inst156Quest8_HORDE_Location = Inst156Quest8_Location
 Inst156Quest8_HORDE_Note = Inst156Quest8_Note
 Inst156Quest8_HORDE_Prequest = Inst156Quest8_Prequest
 Inst156Quest8_HORDE_Folgequest = Inst156Quest8_Folgequest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst156Quest9_HORDE = Inst156Quest9
+Inst156Quest9_HORDE_Level = Inst156Quest9_Level
+Inst156Quest9_HORDE_Attain = Inst156Quest9_Attain
+Inst156Quest9_HORDE_Aim = Inst156Quest9_Aim
+Inst156Quest9_HORDE_Location = Inst156Quest9_Location
+Inst156Quest9_HORDE_Note = Inst156Quest9_Note
+Inst156Quest9_HORDE_Prequest = Inst156Quest9_Prequest
+Inst156Quest9_HORDE_Folgequest = Inst156Quest9_Folgequest
 -- No Rewards for this quest
 
 

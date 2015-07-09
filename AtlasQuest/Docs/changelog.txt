@@ -2,11 +2,11 @@
 Changelog
 =========
 
-Version 4.9.4 BETA  (June ??, 2015)
+Version 4.9.4 BETA  (July ??, 2015)
 
 - TOC updated for Patch 6.2
 - Added missing Daily & Weekly Dungeon and Raid quests that were added in Patch 6.1
-- Added Hellfire Citadel and quests.  Quest data is from PTR and incomplete.
+- Added Hellfire Citadel and quests.
 
 - Added Quests:
 	- Auchindoun: Auchindoun
@@ -30,7 +30,7 @@ Version 4.9.4 BETA  (June ??, 2015)
 	- Hellfire Citadel: Temple of Tyranny
 	- Hellfire Citadel: Destructor's Rise
 	- Hellfire Citadel: The Black Gate
-	- Hellfire Citadel: Well of Souls (Normal and Heroic mode)
+	- Hellfire Citadel: Well of Souls (Normal, Heroic and Mythic modes)
 	
 
 

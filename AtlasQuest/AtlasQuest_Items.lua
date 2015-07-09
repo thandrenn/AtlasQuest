@@ -7956,6 +7956,9 @@ Inst156Quest7Rewardtext = AQNoReward
 --Quest 8 Alliance
 Inst156Quest8Rewardtext = AQNoReward
 
+--Quest 9 Alliance
+Inst156Quest9Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst156Quest1Rewardtext_HORDE = AQNoReward
@@ -7980,6 +7983,9 @@ Inst156Quest7Rewardtext_HORDE = AQNoReward
 
 --Quest 8 Horde
 Inst156Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst156Quest9Rewardtext_HORDE = AQNoReward
 
 
 
