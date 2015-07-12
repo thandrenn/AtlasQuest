@@ -5,6 +5,7 @@ Changelog
 Version 4.9.4 BETA  (July ??, 2015)
 
 - TOC updated for Patch 6.2
+- Updated map file names for Atlas 1.32.00.
 - Added missing Daily & Weekly Dungeon and Raid quests that were added in Patch 6.1
 - Added Hellfire Citadel and quests.
 
