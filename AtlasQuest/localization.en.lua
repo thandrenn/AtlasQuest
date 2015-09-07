@@ -3257,8 +3257,8 @@ Inst21Quest19_HORDE_Folgequest = "None"
 --------------- INST22 - Stratholme - Crusaders' Square (Strat) ---------------
 
 Inst22Caption = "Stratholme - Crusaders' Square"
-Inst22QAA = "8 Quests"
-Inst22QAH = "8 Quests"
+Inst22QAA = "7 Quests"
+Inst22QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. A City Under Siege"
@@ -3272,86 +3272,75 @@ Inst22Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst22Quest2 = "2. Liquid Gold"
-Inst22Quest2_Level = "50"
-Inst22Quest2_Attain = "46"
-Inst22Quest2_Aim = "Find a vial of Stratholme Holy Water."
-Inst22Quest2_Location = "Packmaster Stonebruiser (Stratholme - The Gauntlet; "..BLUE.."Entrance"..WHITE..")"
-Inst22Quest2_Note = "The vial can be found in sparkling crates located around the streets of the city."
+Inst22Quest2 = "2. The Great Fras Siabi"
+Inst22Quest2_Level = "46"
+Inst22Quest2_Attain = "42"
+Inst22Quest2_Aim = "Recover a box of Fras Siabi's Premium Tobacco."
+Inst22Quest2_Location = "Packmaster Stonebruiser (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
+Inst22Quest2_Note = "Fras Siabi can be summoned by using his Postbox at "..DARKYELLOW.."[1]"..WHITE.."."
 Inst22Quest2_Prequest = "None"
 Inst22Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst22Quest3 = "3. The Great Fras Siabi"
+Inst22Quest3 = "3. Annals of the Silver Hand"
 Inst22Quest3_Level = "46"
 Inst22Quest3_Attain = "42"
-Inst22Quest3_Aim = "Recover a box of Fras Siabi's Premium Tobacco."
-Inst22Quest3_Location = "Packmaster Stonebruiser (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
-Inst22Quest3_Note = "Fras Siabi can be summoned by using his Postbox at "..DARKYELLOW.."[1]"..WHITE.."."
-Inst22Quest3_Prequest = "None"
+Inst22Quest3_Aim = "Recover a lost volume of the Annals of the Silver Hand from Stratholme."
+Inst22Quest3_Location = "Lord Raymond George (Eastern Plaguelands - Lights Hope Chapel; "..YELLOW.."76.0, 51.0"..WHITE..")"
+Inst22Quest3_Note = "The book can be found at "..YELLOW.."[5]"..WHITE..".\n\nThis is a repeatable reputation quest for the Argent Dawn. The prequest line starts at Fiona (Eastern Plaguelands - Fiona's Caravan; "..YELLOW.."9.0, 66.4"..WHITE.."."
+Inst22Quest3_Prequest = "Gidwin Goldbraids -> Argent Call: The Noxious Glade"
 Inst22Quest3_Folgequest = "None"
+Inst22Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst22Quest4 = "4. Annals of the Silver Hand"
+Inst22Quest4 = "4. Of Love and Family"
 Inst22Quest4_Level = "46"
 Inst22Quest4_Attain = "42"
-Inst22Quest4_Aim = "Recover a lost volume of the Annals of the Silver Hand from Stratholme."
-Inst22Quest4_Location = "Lord Raymond George (Eastern Plaguelands - Lights Hope Chapel; "..YELLOW.."76.0, 51.0"..WHITE..")"
-Inst22Quest4_Note = "The book can be found at "..YELLOW.."[5]"..WHITE..".\n\nThis is a repeatable reputation quest for the Argent Dawn. The prequest line starts at Fiona (Eastern Plaguelands - Fiona's Caravan; "..YELLOW.."9.0, 66.4"..WHITE.."."
-Inst22Quest4_Prequest = "Gidwin Goldbraids -> Argent Call: The Noxious Glade"
+Inst22Quest4_Aim = "Find 'Of Love and Family.'"
+Inst22Quest4_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
+Inst22Quest4_Note = "The painting can be found at "..YELLOW.."[5]"..WHITE.."."
+Inst22Quest4_Prequest = "None"
 Inst22Quest4_Folgequest = "None"
-Inst22Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst22Quest5 = "5. Of Love and Family"
-Inst22Quest5_Level = "46"
+Inst22Quest5 = "5. Retribution"
+Inst22Quest5_Level = "47"
 Inst22Quest5_Attain = "42"
-Inst22Quest5_Aim = "Find 'Of Love and Family.'"
+Inst22Quest5_Aim = "Kill The Unforgiven and Timmy the Cruel."
 Inst22Quest5_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
-Inst22Quest5_Note = "The painting can be found at "..YELLOW.."[5]"..WHITE.."."
+Inst22Quest5_Note = "The Unforgiven is at "..YELLOW.."[1]"..WHITE.." and Timmy the Cruel is at "..YELLOW.."[2]"..WHITE.."."
 Inst22Quest5_Prequest = "None"
 Inst22Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst22Quest6 = "6. Retribution"
-Inst22Quest6_Level = "47"
+Inst22Quest6 = "6. Cutting the Competition"
+Inst22Quest6_Level = "46"
 Inst22Quest6_Attain = "42"
-Inst22Quest6_Aim = "Kill The Unforgiven and Timmy the Cruel."
-Inst22Quest6_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
-Inst22Quest6_Note = "The Unforgiven is at "..YELLOW.."[1]"..WHITE.." and Timmy the Cruel is at "..YELLOW.."[2]"..WHITE.."."
+Inst22Quest6_Aim = "Kill the Risen Hammersmith."
+Inst22Quest6_Location = "Master Craftsman Wilhelm (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
+Inst22Quest6_Note = "Risen Hammersmith is summoned at "..DARKYELLOW.."[3]"..WHITE.." by using the sparkling papers on the floor."
 Inst22Quest6_Prequest = "None"
 Inst22Quest6_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst22Quest7 = "7. Cutting the Competition"
-Inst22Quest7_Level = "46"
+Inst22Quest7 = "7. The Dreadlord Balnazzar"
+Inst22Quest7_Level = "47"
 Inst22Quest7_Attain = "42"
-Inst22Quest7_Aim = "Kill the Risen Hammersmith."
-Inst22Quest7_Location = "Master Craftsman Wilhelm (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
-Inst22Quest7_Note = "Risen Hammersmith is summoned at "..DARKYELLOW.."[3]"..WHITE.." by using the sparkling papers on the floor."
+Inst22Quest7_Aim = "Kill Balnazzar."
+Inst22Quest7_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
+Inst22Quest7_Note = "Balnazzar is at "..YELLOW.."[6]"..WHITE.."."
 Inst22Quest7_Prequest = "None"
 Inst22Quest7_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst22Quest8 = "8. The Dreadlord Balnazzar"
-Inst22Quest8_Level = "47"
-Inst22Quest8_Attain = "42"
-Inst22Quest8_Aim = "Kill Balnazzar."
-Inst22Quest8_Location = "Crusade Commander Eligor Dawnbringer (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
-Inst22Quest8_Note = "Balnazzar is at "..YELLOW.."[6]"..WHITE.."."
-Inst22Quest8_Prequest = "None"
-Inst22Quest8_Folgequest = "None"
 --
-Inst22Quest8name1 = "Legguards of Stratholme"
-Inst22Quest8name2 = "Balnazzar's Horn"
-Inst22Quest8name3 = "Dathrohan's Mace"
-Inst22Quest8name4 = "Balnazzar's Hide"
+Inst22Quest7name1 = "Legguards of Stratholme"
+Inst22Quest7name2 = "Balnazzar's Horn"
+Inst22Quest7name3 = "Dathrohan's Mace"
+Inst22Quest7name4 = "Balnazzar's Hide"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3378,10 +3367,6 @@ Inst22Quest2_HORDE_Location = Inst22Quest2_Location
 Inst22Quest2_HORDE_Note = Inst22Quest2_Note
 Inst22Quest2_HORDE_Prequest = Inst22Quest2_Prequest
 Inst22Quest2_HORDE_Folgequest = Inst22Quest2_Folgequest
-Inst22Quest2PreQuest_HORDE = Inst22Quest2PreQuest
-Inst22Quest2FQuest_HORDE = Inst22Quest2FQuest
---
-Inst22Quest2name1_HORDE = Inst22Quest2name1
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -3393,6 +3378,7 @@ Inst22Quest3_HORDE_Location = Inst22Quest3_Location
 Inst22Quest3_HORDE_Note = Inst22Quest3_Note
 Inst22Quest3_HORDE_Prequest = Inst22Quest3_Prequest
 Inst22Quest3_HORDE_Folgequest = Inst22Quest3_Folgequest
+Inst22Quest3PreQuest_HORDE = Inst22Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -3404,7 +3390,6 @@ Inst22Quest4_HORDE_Location = Inst22Quest4_Location
 Inst22Quest4_HORDE_Note = Inst22Quest4_Note
 Inst22Quest4_HORDE_Prequest = Inst22Quest4_Prequest
 Inst22Quest4_HORDE_Folgequest = Inst22Quest4_Folgequest
-Inst22Quest4PreQuest_HORDE = Inst22Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -3438,30 +3423,19 @@ Inst22Quest7_HORDE_Location = Inst22Quest7_Location
 Inst22Quest7_HORDE_Note = Inst22Quest7_Note
 Inst22Quest7_HORDE_Prequest = Inst22Quest7_Prequest
 Inst22Quest7_HORDE_Folgequest = Inst22Quest7_Folgequest
--- No Rewards for this quest
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst22Quest8_HORDE = Inst22Quest8
-Inst22Quest8_HORDE_Level = Inst22Quest8_Level
-Inst22Quest8_HORDE_Attain = Inst22Quest8_Attain
-Inst22Quest8_HORDE_Aim = Inst22Quest8_Aim
-Inst22Quest8_HORDE_Location = Inst22Quest8_Location
-Inst22Quest8_HORDE_Note = Inst22Quest8_Note
-Inst22Quest8_HORDE_Prequest = Inst22Quest8_Prequest
-Inst22Quest8_HORDE_Folgequest = Inst22Quest8_Folgequest
 --
-Inst22Quest8name1_HORDE = Inst22Quest8name1
-Inst22Quest8name2_HORDE = Inst22Quest8name2
-Inst22Quest8name3_HORDE = Inst22Quest8name3
-Inst22Quest8name4_HORDE = Inst22Quest8name4
+Inst22Quest7name1_HORDE = Inst22Quest7name1
+Inst22Quest7name2_HORDE = Inst22Quest7name2
+Inst22Quest7name3_HORDE = Inst22Quest7name3
+Inst22Quest7name4_HORDE = Inst22Quest7name4
 
 
 
 --------------- INST28 - Stratholme - The Gauntlet (Strat) ---------------
 
 Inst28Caption = "Stratholme - The Gauntlet"
-Inst28QAA = "4 Quests"
-Inst28QAH = "4 Quests"
+Inst28QAA = "5 Quests"
+Inst28QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst28Quest1 = "1. Weapons for War"
@@ -3507,6 +3481,17 @@ Inst28Quest4_Prequest = "None"
 Inst28Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 5 Alliance
+Inst28Quest5 = "5. Liquid Gold"
+Inst28Quest5_Level = "50"
+Inst28Quest5_Attain = "46"
+Inst28Quest5_Aim = "Find a vial of Stratholme Holy Water."
+Inst28Quest5_Location = "Packmaster Stonebruiser (Stratholme - The Gauntlet; "..BLUE.."Entrance"..WHITE..")"
+Inst28Quest5_Note = "The vial can be found in sparkling crates located around the streets of the city."
+Inst28Quest5_Prequest = "None"
+Inst28Quest5_Folgequest = "None"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst28Quest1_HORDE = Inst28Quest1
@@ -3550,6 +3535,21 @@ Inst28Quest4_HORDE_Location = Inst28Quest4_Location
 Inst28Quest4_HORDE_Note = Inst28Quest4_Note
 Inst28Quest4_HORDE_Prequest = Inst28Quest4_Prequest
 Inst28Quest4_HORDE_Folgequest = Inst28Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst28Quest5_HORDE = Inst28Quest5
+Inst28Quest5_HORDE_Level = Inst28Quest5_Level
+Inst28Quest5_HORDE_Attain = Inst28Quest5_Attain
+Inst28Quest5_HORDE_Aim = Inst28Quest5_Aim
+Inst28Quest5_HORDE_Location = Inst28Quest5_Location
+Inst28Quest5_HORDE_Note = Inst28Quest5_Note
+Inst28Quest5_HORDE_Prequest = Inst28Quest5_Prequest
+Inst28Quest5_HORDE_Folgequest = Inst28Quest5_Folgequest
+Inst28Quest5PreQuest_HORDE = Inst28Quest5PreQuest
+Inst28Quest5FQuest_HORDE = Inst28Quest5FQuest
+--
+Inst28Quest5name1_HORDE = Inst28Quest5name1
 -- No Rewards for this quest
 
 
@@ -4134,7 +4134,7 @@ Inst37QAH = "5 Quests"
 --Quest 1 Alliance
 Inst37Quest1 = "1. Invading the Citadel"
 Inst37Quest1_Level = "62"
-Inst37Quest1_Attain = "59"
+Inst37Quest1_Attain = "58"
 Inst37Quest1_Aim = "Speak with Advance Scout Chadwick in Hellfire Ramparts. "
 Inst37Quest1_Location = "Sergeant Altumus (Hellfire Peninsula - Honor Hold; "..YELLOW.."61.6, 60.8"..WHITE..")"
 Inst37Quest1_Note = "Advance Scout Chadwick is just inside the entrance."
@@ -4145,7 +4145,7 @@ Inst37Quest1_Folgequest = "None"
 --Quest 2 Alliance
 Inst37Quest2 = "2. Hitting Them Where It Hurts"
 Inst37Quest2_Level = "62"
-Inst37Quest2_Attain = "59"
+Inst37Quest2_Attain = "58"
 Inst37Quest2_Aim = "Steal 3 piles of Hellfire Supplies, then return to Advance Scout Chadwick in Hellfire Ramparts. "
 Inst37Quest2_Location = "Advance Scout Chadwick (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
 Inst37Quest2_Note = "The supplies are boxes scattered around the dungeon."
@@ -4156,7 +4156,7 @@ Inst37Quest2_Folgequest = "None"
 --Quest 3 Alliance
 Inst37Quest3 = "3. Demons in the Citadel"
 Inst37Quest3_Level = "62"
-Inst37Quest3_Attain = "59"
+Inst37Quest3_Attain = "58"
 Inst37Quest3_Aim = "Slay Omor the Unscarred and bring his hoof to Advance Scout Chadwick. "
 Inst37Quest3_Location = "Advance Scout Chadwick (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
 Inst37Quest3_Note = "Omor the Unscarred is at "..YELLOW.."[2]"..WHITE.."."
@@ -4167,7 +4167,7 @@ Inst37Quest3_Folgequest = "None"
 --Quest 4 Alliance
 Inst37Quest4 = "4. War on the Ramparts"
 Inst37Quest4_Level = "62"
-Inst37Quest4_Attain = "59"
+Inst37Quest4_Attain = "58"
 Inst37Quest4_Aim = "Slay Watchkeeper Gargolmar, Vazruden the Herald and Vazruden's drake, Nazan. Return Gargolmar's Hand and Nazan's Head to Advance Scout Chadwick. "
 Inst37Quest4_Location = "Advance Scout Chadwick (Hellfire Ramparts; "..BLUE.."Entrance"..WHITE..")"
 Inst37Quest4_Note = "Watchkeeper Gargolmar is at "..YELLOW.."[1]"..WHITE.." and Vazruden the Herald and his drake are at "..YELLOW.."[3]"..WHITE.."."
@@ -7905,52 +7905,63 @@ Inst69Quest2name4_HORDE = Inst69Quest2name4
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
 Inst70Caption = "Utgarde Keep"
-Inst70QAA = "3 Quests"
+Inst70QAA = "4 Quests"
 Inst70QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst70Quest1 = "1. Stealing Their Thunder"
+Inst70Quest1 = "1. Fresh Legs"
 Inst70Quest1_Level = "71"
 Inst70Quest1_Attain = "68"
-Inst70Quest1_Aim = "Defender Mordun has asked you to acquire the head of Ingvar the Plunderer."
-Inst70Quest1_Location = "Defender Mordun (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
-Inst70Quest1_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\nThe prequest is optional."
-Inst70Quest1_Prequest = "Fresh Legs"
+Inst70Quest1_Aim = "Scout Valory wants you to investigate the sounds of battle coming from the northeast of Wyrmskull Village."
+Inst70Quest1_Location = "Scout Valory (Howling Fjord - Valgarde; "..YELLOW.."56.0, 55.8"..WHITE..")"
+Inst70Quest1_Note = "The quest turns in to Defender Mordun inside the Utgarde Keep instance."
+Inst70Quest1_Prequest = "None"
 Inst70Quest1_Folgequest = "None"
---
-Inst70Quest1name1 = "Executioner's Band"
-Inst70Quest1name2 = "Ring of Decimation"
-Inst70Quest1name3 = "Signet of Swift Judgment"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst70Quest2 = "2. Disarmament"
+Inst70Quest2 = "2. Stealing Their Thunder"
 Inst70Quest2_Level = "71"
 Inst70Quest2_Attain = "68"
-Inst70Quest2_Aim = "Defender Mordun wants you to enter Utgarde Keep and steal 5 Vrykul Weapons"
+Inst70Quest2_Aim = "Defender Mordun has asked you to acquire the head of Ingvar the Plunderer."
 Inst70Quest2_Location = "Defender Mordun (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
-Inst70Quest2_Note = "The Vrykul Weapons can be found along walls scattered around the instance."
-Inst70Quest2_Prequest = "None"
+Inst70Quest2_Note = "Ingvar the Plunderer is at "..YELLOW.."[3]"..WHITE..".\nThe prequest is optional."
+Inst70Quest2_Prequest = "Fresh Legs"
 Inst70Quest2_Folgequest = "None"
 --
-Inst70Quest2name1 = "Amulet of the Tranquil Mind"
-Inst70Quest2name2 = "Razor-Blade Pendant"
-Inst70Quest2name3 = "Necklace of Fragmented Light"
-Inst70Quest2name4 = "Woven Steel Necklace"
+Inst70Quest2name1 = "Executioner's Band"
+Inst70Quest2name2 = "Ring of Decimation"
+Inst70Quest2name3 = "Signet of Swift Judgment"
 
 --Quest 3 Alliance
-Inst70Quest3 = "3. Ears of the Lich King"
+Inst70Quest3 = "3. Disarmament"
 Inst70Quest3_Level = "71"
 Inst70Quest3_Attain = "68"
-Inst70Quest3_Aim = "Defender Mordun inside Utgarde Keep wants you to slay Prince Keleseth."
+Inst70Quest3_Aim = "Defender Mordun wants you to enter Utgarde Keep and steal 5 Vrykul Weapons"
 Inst70Quest3_Location = "Defender Mordun (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
-Inst70Quest3_Note = "Prince Keleseth is at "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest3_Note = "The Vrykul Weapons can be found along walls scattered around the instance."
 Inst70Quest3_Prequest = "None"
 Inst70Quest3_Folgequest = "None"
 --
-Inst70Quest3name1 = "Wraps of the San'layn"
-Inst70Quest3name2 = "Vendetta Bindings"
-Inst70Quest3name3 = "Runecaster's Bracers"
-Inst70Quest3name4 = "Vambraces of the Vengeance Bringer"
+Inst70Quest3name1 = "Amulet of the Tranquil Mind"
+Inst70Quest3name2 = "Razor-Blade Pendant"
+Inst70Quest3name3 = "Necklace of Fragmented Light"
+Inst70Quest3name4 = "Woven Steel Necklace"
+
+--Quest 4 Alliance
+Inst70Quest4 = "4. Ears of the Lich King"
+Inst70Quest4_Level = "71"
+Inst70Quest4_Attain = "68"
+Inst70Quest4_Aim = "Defender Mordun inside Utgarde Keep wants you to slay Prince Keleseth."
+Inst70Quest4_Location = "Defender Mordun (Utgarde Keep; "..BLUE.."Entrance"..WHITE..")"
+Inst70Quest4_Note = "Prince Keleseth is at "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest4_Prequest = "None"
+Inst70Quest4_Folgequest = "None"
+--
+Inst70Quest4name1 = "Wraps of the San'layn"
+Inst70Quest4name2 = "Vendetta Bindings"
+Inst70Quest4name3 = "Runecaster's Bracers"
+Inst70Quest4name4 = "Vambraces of the Vengeance Bringer"
 
 
 --Quest 1 Horde

@@ -618,26 +618,23 @@ AQ_14483_Level = "90"
 --------------- INST22 - Stratholme - Crusaders' Square (Strat) ---------------
 
 Inst22Quest1_QuestID = "27422"
-Inst22Quest2_QuestID = "27352"
-Inst22Quest3_QuestID = "27192"
-Inst22Quest4_QuestID = "28755"
-Inst22Quest5_QuestID = "27305"
-Inst22Quest6_QuestID = "27223"
-Inst22Quest7_QuestID = "27185"
-Inst22Quest8_QuestID = "27208"
+Inst22Quest2_QuestID = "27192"
+Inst22Quest3_QuestID = "28755"
+Inst22Quest4_QuestID = "27305"
+Inst22Quest5_QuestID = "27223"
+Inst22Quest6_QuestID = "27185"
+Inst22Quest7_QuestID = "27208"
 
 Inst22Quest1_HORDE_QuestID = "27422"
-Inst22Quest2_HORDE_QuestID = "27352"
-Inst22Quest3_HORDE_QuestID = "27192"
-Inst22Quest4_HORDE_QuestID = "28755"
-Inst22Quest5_HORDE_QuestID = "27305"
-Inst22Quest6_HORDE_QuestID = "27223"
-Inst22Quest7_HORDE_QuestID = "27185"
-Inst22Quest8_HORDE_QuestID = "27208"
+Inst22Quest2_HORDE_QuestID = "27192"
+Inst22Quest3_HORDE_QuestID = "28755"
+Inst22Quest4_HORDE_QuestID = "27305"
+Inst22Quest5_HORDE_QuestID = "27223"
+Inst22Quest6_HORDE_QuestID = "27185"
+Inst22Quest7_HORDE_QuestID = "27208"
 
 
 AQ_27422_Level = "45"
-AQ_27352_Level = "50"
 AQ_27192_Level = "46"
 AQ_28755_Level = "46"
 AQ_27305_Level = "46"
@@ -653,17 +650,20 @@ Inst28Quest1_QuestID = "27230"
 Inst28Quest2_QuestID = "27359"
 Inst28Quest3_QuestID = "27228"
 Inst28Quest4_QuestID = "27227"
+Inst28Quest5_QuestID = "27352"
 
 Inst28Quest1_HORDE_QuestID = "27230"
 Inst28Quest2_HORDE_QuestID = "27359"
 Inst28Quest3_HORDE_QuestID = "27228"
 Inst28Quest4_HORDE_QuestID = "27227"
+Inst28Quest5_HORDE_QuestID = "27352"
 
 
 AQ_27230_Level = "50"
 AQ_27359_Level = "50"
 AQ_27228_Level = "50"
 AQ_27227_Level = "51"
+AQ_27352_Level = "50"
 
 
 
@@ -1443,15 +1443,17 @@ AQ_13151_Level = "80"
 
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
-Inst70Quest1_QuestID = "29763"
-Inst70Quest2_QuestID = "29764"
-Inst70Quest3_QuestID = "29803"
+Inst70Quest1_QuestID = "11251"
+Inst70Quest2_QuestID = "29763"
+Inst70Quest3_QuestID = "29764"
+Inst70Quest4_QuestID = "29803"
 
 Inst70Quest1_HORDE_QuestID = "11262"
 Inst70Quest2_HORDE_QuestID = "13206"
 Inst70Quest3_HORDE_QuestID = "30112"
 
 
+AQ_11251_Level = "71"
 AQ_29763_Level = "71"
 AQ_29764_Level = "71"
 AQ_29803_Level = "71"

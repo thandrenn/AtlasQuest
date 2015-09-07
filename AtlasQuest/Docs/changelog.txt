@@ -4,7 +4,8 @@ Changelog
 
 Version 4.9.5  (August ??, 2015)
 
-- 
+- BUG: Stratholme quest "Liquid Gold" now correctly moved to Stratholme: The Gauntlet.  Thank you yunohu for letting me know.
+- BUG: Added missing quest "Fresh Legs" to Utgarde Keep.    Thank you yunohu
 
 
 Version 4.9.4  (July 14, 2015)
