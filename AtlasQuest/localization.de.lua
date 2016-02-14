@@ -14867,8 +14867,8 @@ Inst155Quest9name1_HORDE = Inst155Quest9name1
 --------------- INST156 - Hellfire Citadel ---------------
 
 Inst156Caption = "Höllenfeuerzitadelle"
-Inst156QAA = "9 Quests"
-Inst156QAH = "9 Quests"
+Inst156QAA = "10 Quests"
+Inst156QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst156Quest1 = "1. Wir brauchen keinen Bibliotheksausweis"
@@ -14883,96 +14883,108 @@ Inst156Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst156Quest2 = "2. Die Gruben des Mannoroth"
+Inst156Quest2 = "2. Inkarnation der Dunkelheit"
 Inst156Quest2_Level = "100"
 Inst156Quest2_Attain = "100"
-Inst156Quest2_Aim = "Vernichtet Kormrok in der Höllenfeuerzitadelle."
-Inst156Quest2_Location = Inst146Quest8_Note
-Inst156Quest2_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nKormrok ist der letzte Boss des ersten Flügels bei "..YELLOW.."[3]"..WHITE.."."
-Inst156Quest2_Prequest = "Nein"
+Inst156Quest2_Aim = "Jagt Gul'dan und bekämpft ihn in der Höllenfeuerzitadelle."
+Inst156Quest2_Location = "Erzmagier Khadgar Garnision - Hafen; "..YELLOW.."85.2, 31.6"..WHITE..")"
+Inst156Quest2_Note = "Kapitel 4 der Legendären Questreihe des Ringes.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.  Du musst den Endboss, Archimonde bei "..YELLOW.."[6]"..WHITE.."töten, um diese Quest zu beenden.  Die Quest bringt Dich zurück zum Erzmagier Khadgar in Deinem Hafen."
+Inst156Quest2_Prequest = "Bücher gut durch"
 Inst156Quest2_Folgequest = "Nein"
---
--- Awards Apexis Crystals
+Inst156Quest2PreQuest = "true"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst156Quest3 = "3. Schlund der Seelen"
+Inst156Quest3 = "3. Die Gruben des Mannoroth"
 Inst156Quest3_Level = "100"
 Inst156Quest3_Attain = "100"
-Inst156Quest3_Aim = "Vernichtet Blutschatten in der Höllenfeuerzitadelle."
+Inst156Quest3_Aim = "Vernichtet Kormrok in der Höllenfeuerzitadelle."
 Inst156Quest3_Location = Inst146Quest8_Note
-Inst156Quest3_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nBlutschatten ist der letzte Boss im zweiten Flügel bei "..YELLOW.."[6]"..WHITE.."."
+Inst156Quest3_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nKormrok ist der letzte Boss des ersten Flügels bei "..YELLOW.."[3]"..WHITE.."."
 Inst156Quest3_Prequest = "Nein"
 Inst156Quest3_Folgequest = "Nein"
 --
 -- Awards Apexis Crystals
 
 --Quest 4 Alliance
-Inst156Quest4 = "4. Tempel der Tyrannei"
+Inst156Quest4 = "4. Schlund der Seelen"
 Inst156Quest4_Level = "100"
 Inst156Quest4_Attain = "100"
-Inst156Quest4_Aim = "Vernichtet Tyrannin Velhari in der Höllenfeuerzitadelle."
+Inst156Quest4_Aim = "Vernichtet Blutschatten in der Höllenfeuerzitadelle."
 Inst156Quest4_Location = Inst146Quest8_Note
-Inst156Quest4_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nTyrannin Velhari ist der letzte boss im dritten Flügel bei "..YELLOW.."[9]"..WHITE.."."
+Inst156Quest4_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nBlutschatten ist der letzte Boss im zweiten Flügel bei "..YELLOW.."[6]"..WHITE.."."
 Inst156Quest4_Prequest = "Nein"
 Inst156Quest4_Folgequest = "Nein"
 --
 -- Awards Apexis Crystals
 
 --Quest 5 Alliance
-Inst156Quest5 = "5. Die Höhe des Zerstörers"
+Inst156Quest5 = "5. Tempel der Tyrannei"
 Inst156Quest5_Level = "100"
 Inst156Quest5_Attain = "100"
-Inst156Quest5_Aim = "Vernichtet Mannoroth in der Höllenfeuerzitadelle."
+Inst156Quest5_Aim = "Vernichtet Tyrannin Velhari in der Höllenfeuerzitadelle."
 Inst156Quest5_Location = Inst146Quest8_Note
-Inst156Quest5_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nMannoroth ist der letzte Boss im vierten Flügel bei "..YELLOW.."[12]"..WHITE.."."
+Inst156Quest5_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nTyrannin Velhari ist der letzte boss im dritten Flügel bei "..YELLOW.."[9]"..WHITE.."."
 Inst156Quest5_Prequest = "Nein"
 Inst156Quest5_Folgequest = "Nein"
 --
 -- Awards Apexis Crystals
 
 --Quest 6 Alliance
-Inst156Quest6 = "6. Das Schwarze Tor"
+Inst156Quest6 = "6. Die Höhe des Zerstörers"
 Inst156Quest6_Level = "100"
 Inst156Quest6_Attain = "100"
-Inst156Quest6_Aim = "Vernichtet Archimonde in der Höllenfeuerzitadelle."
+Inst156Quest6_Aim = "Vernichtet Mannoroth in der Höllenfeuerzitadelle."
 Inst156Quest6_Location = Inst146Quest8_Note
-Inst156Quest6_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nArchimonde ist der Endboss des Schlachtzuges bei "..YELLOW.."[13]"..WHITE.."."
+Inst156Quest6_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nMannoroth ist der letzte Boss im vierten Flügel bei "..YELLOW.."[12]"..WHITE.."."
 Inst156Quest6_Prequest = "Nein"
 Inst156Quest6_Folgequest = "Nein"
 --
 -- Awards Apexis Crystals
 
 --Quest 7 Alliance
-Inst156Quest7 = "7. Brunnen der Seelen (Normal)"
+Inst156Quest7 = "7. Das Schwarze Tor"
 Inst156Quest7_Level = "100"
 Inst156Quest7_Attain = "100"
-Inst156Quest7_Aim = "Sammelt 4 Seelenrückstände von Blutschatten in der normalen Version der Höllenfeuerzitadelle."
-Inst156Quest7_Location = "Erzmagier Khadgar (Höllenfeuerzitadelle "..BLUE.."EINGANG"..WHITE..")"
-Inst156Quest7_Note = "Erzmagier Khadgar erscheint nach der Vernichtung des ersten Bosses. Jedesmal wenn Du Blutschatten bei "..YELLOW.."[6]"..WHITE.." besiegst, bekommt Du ein Seelenrückstand. Nach Beendigung dieser Quest kannst Du Dich danach immer in die oberen Ebenen der Instanz porten und somit die ersten Bosse umgehen "
+Inst156Quest7_Aim = "Vernichtet Archimonde in der Höllenfeuerzitadelle."
+Inst156Quest7_Location = Inst146Quest8_Note
+Inst156Quest7_Note = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nArchimonde ist der Endboss des Schlachtzuges bei "..YELLOW.."[13]"..WHITE.."."
 Inst156Quest7_Prequest = "Nein"
 Inst156Quest7_Folgequest = "Nein"
--- No Rewards for this quest
+--
+-- Awards Apexis Crystals
 
 --Quest 8 Alliance
-Inst156Quest8 = "8. Brunnen der Seelen (Heroisch)"
+Inst156Quest8 = "8. Brunnen der Seelen (Normal)"
 Inst156Quest8_Level = "100"
 Inst156Quest8_Attain = "100"
-Inst156Quest8_Aim = "Sammelt 4 Seelenrückstände von Blutschatten in der heroischen Version der Höllenfeuerzitadelle."
-Inst156Quest8_Location = Inst146Quest7_Location
-Inst156Quest8_Note = Inst146Quest7_Note
+Inst156Quest8_Aim = "Sammelt 4 Seelenrückstände von Blutschatten in der normalen Version der Höllenfeuerzitadelle."
+Inst156Quest8_Location = "Erzmagier Khadgar (Höllenfeuerzitadelle "..BLUE.."EINGANG"..WHITE..")"
+Inst156Quest8_Note = "Erzmagier Khadgar erscheint nach der Vernichtung des ersten Bosses. Jedesmal wenn Du Blutschatten bei "..YELLOW.."[6]"..WHITE.." besiegst, bekommt Du ein Seelenrückstand. Nach Beendigung dieser Quest kannst Du Dich danach immer in die oberen Ebenen der Instanz porten und somit die ersten Bosse umgehen "
 Inst156Quest8_Prequest = "Nein"
 Inst156Quest8_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst156Quest9 = "9. Brunnen der Seelen (Mythik)"
+Inst156Quest9 = "9. Brunnen der Seelen (Heroisch)"
 Inst156Quest9_Level = "100"
 Inst156Quest9_Attain = "100"
-Inst156Quest9_Aim = "Sammelt 4 Seelenrückstände von Blutschatten in der mythischen Version der Höllenfeuerzitadelle."
+Inst156Quest9_Aim = "Sammelt 4 Seelenrückstände von Blutschatten in der heroischen Version der Höllenfeuerzitadelle."
 Inst156Quest9_Location = Inst146Quest7_Location
 Inst156Quest9_Note = Inst146Quest7_Note
 Inst156Quest9_Prequest = "Nein"
 Inst156Quest9_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst156Quest10 = "10. Brunnen der Seelen (Mythik)"
+Inst156Quest10_Level = "100"
+Inst156Quest10_Attain = "100"
+Inst156Quest10_Aim = "Sammelt 4 Seelenrückstände von Blutschatten in der mythischen Version der Höllenfeuerzitadelle."
+Inst156Quest10_Location = Inst146Quest7_Location
+Inst156Quest10_Note = Inst146Quest7_Note
+Inst156Quest10_Prequest = "Nein"
+Inst156Quest10_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -15079,6 +15091,17 @@ Inst156Quest9_HORDE_Location = Inst156Quest9_Location
 Inst156Quest9_HORDE_Note = Inst156Quest9_Note
 Inst156Quest9_HORDE_Prequest = "Nein"
 Inst156Quest9_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 10 Horde
+Inst156Quest10_HORDE = Inst156Quest10
+Inst156Quest10_HORDE_Level = "100"
+Inst156Quest10_HORDE_Attain = "100"
+Inst156Quest10_HORDE_Aim = Inst156Quest10_Aim
+Inst156Quest10_HORDE_Location = Inst156Quest10_Location
+Inst156Quest10_HORDE_Note = Inst156Quest10_Note
+Inst156Quest10_HORDE_Prequest = "Nein"
+Inst156Quest10_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
