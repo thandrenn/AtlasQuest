@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.9.7  (May 15, 2016)
+
+- Update to be compatible with new Atlas 1.32.05's correct Warlords of Draenor module name.  (thanks Thrassivoulos)
+
+
+
 Version 4.9.6  (February 16, 2016)
 
 - German translation updated.

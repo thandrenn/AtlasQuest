@@ -363,37 +363,37 @@ function AtlasQuest_Instanzenchecken()
 		
 	-- Warlords of Draenor Instances
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WorldofDraenor\\Images\\Auchindoun") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\Auchindoun") then
 		AQINSTANZ = 146;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\Skyreach") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\Skyreach") then
 		AQINSTANZ = 147;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\BloodmaulSlagMines") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\BloodmaulSlagMines") then
 		AQINSTANZ = 148;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\IronDocks") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\IronDocks") then
 		AQINSTANZ = 149;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\TheEverbloomA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\TheEverbloomB") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\TheEverbloomA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\TheEverbloomB") then
 		AQINSTANZ = 150;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\GrimrailDepot") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\GrimrailDepot") then
 		AQINSTANZ = 151;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\ShadowmoonBurialGrounds") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\ShadowmoonBurialGrounds") then
 		AQINSTANZ = 152;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\UpperBlackrockSpire") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\UpperBlackrockSpire") then
 		AQINSTANZ = 153;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\HighmaulA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\HighmaulB") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HighmaulA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HighmaulB") then
 		AQINSTANZ = 154;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\BlackrockFoundryA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\BlackrockFoundryB") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\BlackrockFoundryA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\BlackrockFoundryB") then
 		AQINSTANZ = 155;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\HellfireA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\HellfireB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\HellfireC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\HellfireD") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WorldofDraenor\\Images\\HellfireE") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireD") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireE") then
 		AQINSTANZ = 156;
 
 		
