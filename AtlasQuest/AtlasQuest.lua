@@ -56,8 +56,6 @@ AQ = {};
 
 local Initialized = nil; -- the variables are not loaded yet
 
-LibStub("LibAboutPanel").new(parentframe, "AtlasQuest")
-
 Allianceorhorde = 1; -- variable that configures whether horde or alliance is shown
 
 AQINSTANZ = 1; -- currently shown instance-pic (see AtlasQuest_Instanzen.lua)
@@ -69,10 +67,10 @@ local AQMAXINSTANCES = "156"
 local AQMAXQUESTS = "22"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.9.7";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.10.0 ALPHA";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.9.7",
+  ["Version"] =  "4.10.0",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -273,11 +271,7 @@ function AQ_OnUpdate(arg1)
         AQ_AtlasOrAMVISCheck(); -- Show whether atlas or am is shown atm
 
         ------- SEE AtlasQuest_Instanzen.lua
-        if (AtlasORAlphaMap == "Atlas") then
-           AtlasQuest_Instanzenchecken();
-        elseif (AtlasORAlphaMap == "AlphaMap") then
-           AtlasQuest_InstanzencheckAM();
-        end
+        AtlasQuest_Instanzenchecken();
 
         -- Hides the panel if the map which is shown no quests have (map = 36)
         -- Disabled this by changing 36 here to 0 until it can be written out or re-written. 
@@ -834,10 +828,6 @@ function AQQuestQuery()
 		AtlasFrame:Hide();
 		rat = true;
 	end
-	if((AlphaMapFrame ~= nil) and (AlphaMapFrame:IsVisible())) then
-		AlphaMapFrame:Hide();
-		ral = true;
-	end
 
 	-- Update AQ database
 	for i = 1, AQMAXINSTANCES do
@@ -862,9 +852,6 @@ function AQQuestQuery()
 	-- Show map if hidden
 	if(rat == true) then
 		AtlasFrame:Show();
-	end
-	if(ral == true) then
-		AlphaMapFrame:Show();
 	end
 
 if(gurka == true and AQQueryDONE == nil) then

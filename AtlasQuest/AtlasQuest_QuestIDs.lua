@@ -2749,6 +2749,91 @@ AQ_39501_Level = "100"
 
 
 
+--------------- INST157 - Assault on Violet Hold ---------------
+
+Inst157Quest1_QuestID = "43557"
+Inst157Quest1_Level = "110"
+Inst157Quest1_Attain = "110"
+
+Inst157Quest2_QuestID = "44258"
+Inst157Quest2_Level = "110"
+Inst157Quest2_Attain = "110"
+
+Inst157Quest3_QuestID = "44259"
+Inst157Quest3_Level = "110"
+Inst157Quest3_Attain = "110"
+
+
+Inst157Quest1_HORDE_QuestID = "43557"
+Inst157Quest1_HORDE_Level = "110"
+Inst157Quest1_HORDE_Attain = "110"
+
+Inst157Quest2_HORDE_QuestID = "44258"
+Inst157Quest2_HORDE_Level = "110"
+Inst157Quest2_HORDE_Attain = "110"
+
+Inst157Quest3_HORDE_QuestID = "44259"
+Inst157Quest3_HORDE_Level = "110"
+Inst157Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43557_Level = "110"
+AQ_44258_Level = "110"
+AQ_44259_Level = "110"
+
+
+
+--------------- INST158 - Black Rook Hold ---------------
+
+
+
+--------------- INST159 - Court of Stars ---------------
+
+
+
+--------------- INST160 - Darkheart Thicket ---------------
+
+
+
+--------------- INST161 - Eye of Azshara ---------------
+
+
+
+--------------- INST162 - Halls of Valor ---------------
+
+
+
+--------------- INST163 - Maw of Souls ---------------
+
+
+
+--------------- INST164 - Neltharion's Lair ---------------
+
+
+
+--------------- INST165 - The Arcway ---------------
+
+
+
+--------------- INST166 - Vault of the Wardens ---------------
+
+
+
+--------------- INST167 - Broken Isles ---------------
+
+
+
+--------------- INST168 - The Emerald Nightmare ---------------
+
+
+
+--------------- INST169 - The Nighthold ---------------
+
+
+
+
+
 
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------

@@ -2,6 +2,22 @@
 Changelog
 =========
 
+
+Version 4.10.0 ALPHA  (July ??, 2016)
+
+- TOC updated for Patch 7.0
+- Added support for Legion Dungeons and Raids
+- Split English & German localization files up.  No visible difference to users, but makes it easier for the translators.
+- Some code cleanup.  Mostly removing more support for the ancient and dead AlphaMap addon.
+- Removed LibAboutPanel
+
+- Added Quests:
+	- Assault on Violet Hold: Violet Hold
+	- Assault on Violet Hold: Violet Hold (Heroic)
+	- Assault on Violet Hold: Violet Hold (Mythic)
+
+
+
 Version 4.9.7  (May 15, 2016)
 
 - Update to be compatible with new Atlas 1.32.05's correct Warlords of Draenor module name.  (thanks Thrassivoulos)

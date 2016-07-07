@@ -7998,6 +7998,102 @@ Inst156Quest10Rewardtext_HORDE = AQNoReward
 
 
 
+--------------- INST157 - Assault on Violet Hold ---------------
+
+--Quest 1 Alliance
+Inst157Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst157Quest1ITC1 = Itemc4;
+Inst157Quest1description1 = AQITEM_ITEM
+Inst157Quest1ID1 = "141164"
+
+--Quest 2 Alliance
+Inst157Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst157Quest2ITC1 = Itemc4;
+Inst157Quest2description1 = AQITEM_ITEM
+Inst157Quest2ID1 = "141174"
+
+--Quest 3 Alliance
+Inst157Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst157Quest3ITC1 = Itemc4;
+Inst157Quest3description1 = AQITEM_ITEM
+Inst157Quest3ID1 = "141184"
+
+
+--Quest 1 Horde
+Inst157Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst157Quest1ITC1_HORDE = Itemc4;
+Inst157Quest1description1_HORDE = AQITEM_ITEM
+Inst157Quest1ID1_HORDE = "141164"
+
+--Quest 2 Horde
+Inst157Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst157Quest2ITC1_HORDE = Itemc4;
+Inst157Quest2description1_HORDE = AQITEM_ITEM
+Inst157Quest2ID1_HORDE = "141174"
+
+--Quest 3 Horde
+Inst157Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst157Quest3ITC1_HORDE = Itemc4;
+Inst157Quest3description1_HORDE = AQITEM_ITEM
+Inst157Quest3ID1_HORDE = "141184"
+
+
+
+--------------- INST158 - Black Rook Hold ---------------
+
+
+
+--------------- INST159 - Court of Stars ---------------
+
+
+
+--------------- INST160 - Darkheart Thicket ---------------
+
+
+
+--------------- INST161 - Eye of Azshara ---------------
+
+
+
+--------------- INST162 - Halls of Valor ---------------
+
+
+
+--------------- INST163 - Maw of Souls ---------------
+
+
+
+--------------- INST164 - Neltharion's Lair ---------------
+
+
+
+--------------- INST165 - The Arcway ---------------
+
+
+
+--------------- INST166 - Vault of the Wardens ---------------
+
+
+
+--------------- INST167 - Broken Isles ---------------
+
+
+
+--------------- INST168 - The Emerald Nightmare ---------------
+
+
+
+--------------- INST169 - The Nighthold ---------------
+
+
+
+
 
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------
