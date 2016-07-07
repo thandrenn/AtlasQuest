@@ -129,8 +129,69 @@ Inst157Quest3name1_HORDE = Inst157Quest3name1
 --------------- INST158 - Black Rook Hold ---------------
 
 Inst158Caption = "Black Rook Hold"
-Inst158QAA = "6 Quests"
-Inst158QAH = "6 Quests"
+Inst158QAA = "3 Quests"
+Inst158QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst158Quest1 = "1. The Lord of Black Rook Hold"
+Inst158Quest1_Aim = "Defeat Lord Kur'talos Ravencrest in Black Rook Hold."
+Inst158Quest1_Location = "Black Rook Hold (Auto-accept)"
+Inst158Quest1_Note = ""
+Inst158Quest1_Prequest = "None"
+Inst158Quest1_Folgequest = "None"
+--
+Inst158Quest1name1 = "Haunted Ravencrest Keepsake"
+
+--Quest 2 Alliance
+Inst158Quest2 = "2. The Lord of Black Rook Hold (Heroic)"
+Inst158Quest2_Aim = "Defeat Kur'talos Ravencrest in the Black Rook Hold on Heroic difficulty or higher."
+Inst158Quest2_Location = "Black Rook Hold (Auto-accept)"
+Inst158Quest2_Note = ""
+Inst158Quest2_Prequest = "None"
+Inst158Quest2_Folgequest = "None"
+--
+Inst158Quest2name1 = "Haunted Ravencrest Keepsake"
+
+--Quest 3 Alliance
+Inst158Quest3 = "3. The Lord of Black Rook Hold (Mythic)"
+Inst158Quest3_Aim = "Defeat Kur'talos Ravencrest in the Black Rook Hold on Mythic difficulty."
+Inst158Quest3_Location = "Black Rook Hold (Auto-accept)"
+Inst158Quest3_Note = ""
+Inst158Quest3_Prequest = "None"
+Inst158Quest3_Folgequest = "None"
+--
+Inst158Quest3name1 = "Haunted Ravencrest Keepsake"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst158Quest1_HORDE = Inst158Quest1
+Inst158Quest1_HORDE_Aim = Inst158Quest1_Aim
+Inst158Quest1_HORDE_Location = Inst158Quest1_Location
+Inst158Quest1_HORDE_Note = Inst158Quest1_Note
+Inst158Quest1_HORDE_Prequest = Inst158Quest1_Prequest
+Inst158Quest1_HORDE_Folgequest = Inst158Quest1_Folgequest
+--
+Inst158Quest1name1_HORDE = Inst158Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst158Quest2_HORDE = Inst158Quest2
+Inst158Quest2_HORDE_Aim = Inst158Quest2_Aim
+Inst158Quest2_HORDE_Location = Inst158Quest2_Location
+Inst158Quest2_HORDE_Note = Inst158Quest2_Note
+Inst158Quest2_HORDE_Prequest = Inst158Quest2_Prequest
+Inst158Quest2_HORDE_Folgequest = Inst158Quest2_Folgequest
+--
+Inst158Quest2name1_HORDE = Inst158Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst158Quest3_HORDE = Inst158Quest3
+Inst158Quest3_HORDE_Aim = Inst158Quest3_Aim
+Inst158Quest3_HORDE_Location = Inst158Quest3_Location
+Inst158Quest3_HORDE_Note = Inst158Quest3_Note
+Inst158Quest3_HORDE_Prequest = Inst158Quest3_Prequest
+Inst158Quest3_HORDE_Folgequest = Inst158Quest3_Folgequest
+--
+Inst158Quest3name1_HORDE = Inst158Quest3name1
 
 
 
@@ -139,6 +200,67 @@ Inst158QAH = "6 Quests"
 Inst159Caption = "Court of Stars"
 Inst159QAA = "6 Quests"
 Inst159QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst159Quest1 = "1. Court of Stars"
+Inst159Quest1_Aim = "Defeat Advisor Melandrus in Court of Stars."
+Inst159Quest1_Location = "Court of Stars (Auto-accept)"
+Inst159Quest1_Note = ""
+Inst159Quest1_Prequest = "None"
+Inst159Quest1_Folgequest = "None"
+--
+Inst159Quest1name1 = "Nightborne Rucksack"
+
+--Quest 2 Alliance
+Inst159Quest2 = "2. Court of Stars (Heroic)"
+Inst159Quest2_Aim = "Defeat Advisor Melandrus in Court of Stars on Heroic difficulty or higher."
+Inst159Quest2_Location = "Court of Stars (Auto-accept)"
+Inst159Quest2_Note = ""
+Inst159Quest2_Prequest = "None"
+Inst159Quest2_Folgequest = "None"
+--
+Inst159Quest2name1 = "Nightborne Rucksack"
+
+--Quest 3 Alliance
+Inst159Quest3 = "3. Court of Stars (Mythic)"
+Inst159Quest3_Aim = "Defeat Advisor Melandrus in Court of Stars on Mythic difficulty."
+Inst159Quest3_Location = "Court of Stars (Auto-accept)"
+Inst159Quest3_Note = ""
+Inst159Quest3_Prequest = "None"
+Inst159Quest3_Folgequest = "None"
+--
+Inst159Quest3name1 = "Nightborne Rucksack"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst159Quest1_HORDE = Inst159Quest1
+Inst159Quest1_HORDE_Aim = Inst159Quest1_Aim
+Inst159Quest1_HORDE_Location = Inst159Quest1_Location
+Inst159Quest1_HORDE_Note = Inst159Quest1_Note
+Inst159Quest1_HORDE_Prequest = Inst159Quest1_Prequest
+Inst159Quest1_HORDE_Folgequest = Inst159Quest1_Folgequest
+--
+Inst159Quest1name1_HORDE = Inst159Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst159Quest2_HORDE = Inst159Quest2
+Inst159Quest2_HORDE_Aim = Inst159Quest2_Aim
+Inst159Quest2_HORDE_Location = Inst159Quest2_Location
+Inst159Quest2_HORDE_Note = Inst159Quest2_Note
+Inst159Quest2_HORDE_Prequest = Inst159Quest2_Prequest
+Inst159Quest2_HORDE_Folgequest = Inst159Quest2_Folgequest
+--
+Inst159Quest2name1_HORDE = Inst159Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst159Quest3_HORDE = Inst159Quest3
+Inst159Quest3_HORDE_Aim = Inst159Quest3_Aim
+Inst159Quest3_HORDE_Location = Inst159Quest3_Location
+Inst159Quest3_HORDE_Note = Inst159Quest3_Note
+Inst159Quest3_HORDE_Prequest = Inst159Quest3_Prequest
+Inst159Quest3_HORDE_Folgequest = Inst159Quest3_Folgequest
+--
+Inst159Quest3name1_HORDE = Inst159Quest3name1
 
 
 

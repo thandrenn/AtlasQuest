@@ -2786,9 +2786,71 @@ AQ_44259_Level = "110"
 
 --------------- INST158 - Black Rook Hold ---------------
 
+Inst158Quest1_QuestID = "43545"
+Inst158Quest1_Level = "110"
+Inst158Quest1_Attain = "110"
+
+Inst158Quest2_QuestID = "44276"
+Inst158Quest2_Level = "110"
+Inst158Quest2_Attain = "110"
+
+Inst158Quest3_QuestID = "44277"
+Inst158Quest3_Level = "110"
+Inst158Quest3_Attain = "110"
+
+
+Inst158Quest1_HORDE_QuestID = "43545"
+Inst158Quest1_HORDE_Level = "110"
+Inst158Quest1_HORDE_Attain = "110"
+
+Inst158Quest2_HORDE_QuestID = "44276"
+Inst158Quest2_HORDE_Level = "110"
+Inst158Quest2_HORDE_Attain = "110"
+
+Inst158Quest3_HORDE_QuestID = "44277"
+Inst158Quest3_HORDE_Level = "110"
+Inst158Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43545_Level = "110"
+AQ_44276_Level = "110"
+AQ_44277_Level = "110"
+
 
 
 --------------- INST159 - Court of Stars ---------------
+
+Inst159Quest1_QuestID = "43550"
+Inst159Quest1_Level = "110"
+Inst159Quest1_Attain = "110"
+
+Inst159Quest2_QuestID = "44274"
+Inst159Quest2_Level = "110"
+Inst159Quest2_Attain = "110"
+
+Inst159Quest3_QuestID = "44275"
+Inst159Quest3_Level = "110"
+Inst159Quest3_Attain = "110"
+
+
+Inst159Quest1_HORDE_QuestID = "43550"
+Inst159Quest1_HORDE_Level = "110"
+Inst159Quest1_HORDE_Attain = "110"
+
+Inst159Quest2_HORDE_QuestID = "44274"
+Inst159Quest2_HORDE_Level = "110"
+Inst159Quest2_HORDE_Attain = "110"
+
+Inst159Quest3_HORDE_QuestID = "44275"
+Inst159Quest3_HORDE_Level = "110"
+Inst159Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43550_Level = "110"
+AQ_44274_Level = "110"
+AQ_44275_Level = "110"
 
 
 

@@ -15,6 +15,12 @@ Version 4.10.0 ALPHA  (July ??, 2016)
 	- Assault on Violet Hold: Violet Hold
 	- Assault on Violet Hold: Violet Hold (Heroic)
 	- Assault on Violet Hold: Violet Hold (Mythic)
+	- Black Rook Hold: The Lord of Black Rook Hold
+	- Black Rook Hold: The Lord of Black Rook Hold (Heroic)
+	- Black Rook Hold: The Lord of Black Rook Hold (Mythic)
+	- Court of Stars: Court of Stars
+	- Court of Stars: Court of Stars (Heroic)
+	- Court of Stars: Court of Stars (Mythic)
 
 
 
