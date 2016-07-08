@@ -408,25 +408,25 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\CourtOfStars") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\DarkmoonFaire") then
 		AQINSTANZ = 159;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\DarkheartThicket") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\DarkheartThicket") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceDraenor")  then
 		AQINSTANZ = 160;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\EyeOfAzshara") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\EyeOfAzshara") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransHordeDraenor")  then
 		AQINSTANZ = 161;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\HallsOfValor") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\HallsOfValor") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAlliancePandaria")  then
 		AQINSTANZ = 162;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\MawOfSouls") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\MawOfSouls") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransHordePandaria")  then
 		AQINSTANZ = 163;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\NeltharionsLair") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\NeltharionsLair") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransDeepholm")  then
 		AQINSTANZ = 164;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheArcway") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheArcway") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceNorthrend")  then
 		AQINSTANZ = 165;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\VaultOfTheWardens") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\VaultOfTheWardens") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransHordeNorthrend")  then
 		AQINSTANZ = 166;
 
 	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\BrokenIsles") then

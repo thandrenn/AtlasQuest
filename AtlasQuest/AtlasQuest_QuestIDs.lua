@@ -2856,6 +2856,37 @@ AQ_44275_Level = "110"
 
 --------------- INST160 - Darkheart Thicket ---------------
 
+Inst160Quest1_QuestID = "43551"
+Inst160Quest1_Level = "110"
+Inst160Quest1_Attain = "110"
+
+Inst160Quest2_QuestID = "44272"
+Inst160Quest2_Level = "110"
+Inst160Quest2_Attain = "110"
+
+Inst160Quest3_QuestID = "44273"
+Inst160Quest3_Level = "110"
+Inst160Quest3_Attain = "110"
+
+
+Inst160Quest1_HORDE_QuestID = "43551"
+Inst160Quest1_HORDE_Level = "110"
+Inst160Quest1_HORDE_Attain = "110"
+
+Inst160Quest2_HORDE_QuestID = "44272"
+Inst160Quest2_HORDE_Level = "110"
+Inst160Quest2_HORDE_Attain = "110"
+
+Inst160Quest3_HORDE_QuestID = "44273"
+Inst160Quest3_HORDE_Level = "110"
+Inst160Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43551_Level = "110"
+AQ_44272_Level = "110"
+AQ_44273_Level = "110"
+
 
 
 --------------- INST161 - Eye of Azshara ---------------
@@ -2864,21 +2895,176 @@ AQ_44275_Level = "110"
 
 --------------- INST162 - Halls of Valor ---------------
 
+Inst162Quest1_QuestID = "43509"
+Inst162Quest1_Level = "110"
+Inst162Quest1_Attain = "110"
+
+Inst162Quest2_QuestID = "44268"
+Inst162Quest2_Level = "110"
+Inst162Quest2_Attain = "110"
+
+Inst162Quest3_QuestID = "44269"
+Inst162Quest3_Level = "110"
+Inst162Quest3_Attain = "110"
+
+
+Inst162Quest1_HORDE_QuestID = "43509"
+Inst162Quest1_HORDE_Level = "110"
+Inst162Quest1_HORDE_Attain = "110"
+
+Inst162Quest2_HORDE_QuestID = "44268"
+Inst162Quest2_HORDE_Level = "110"
+Inst162Quest2_HORDE_Attain = "110"
+
+Inst162Quest3_HORDE_QuestID = "44269"
+Inst162Quest3_HORDE_Level = "110"
+Inst162Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43509_Level = "110"
+AQ_44268_Level = "110"
+AQ_44269_Level = "110"
+
 
 
 --------------- INST163 - Maw of Souls ---------------
+
+Inst163Quest1_QuestID = "43553"
+Inst163Quest1_Level = "110"
+Inst163Quest1_Attain = "110"
+
+Inst163Quest2_QuestID = "44266"
+Inst163Quest2_Level = "110"
+Inst163Quest2_Attain = "110"
+
+Inst163Quest3_QuestID = "44267"
+Inst163Quest3_Level = "110"
+Inst163Quest3_Attain = "110"
+
+
+Inst163Quest1_HORDE_QuestID = "43553"
+Inst163Quest1_HORDE_Level = "110"
+Inst163Quest1_HORDE_Attain = "110"
+
+Inst163Quest2_HORDE_QuestID = "44266"
+Inst163Quest2_HORDE_Level = "110"
+Inst163Quest2_HORDE_Attain = "110"
+
+Inst163Quest3_HORDE_QuestID = "44267"
+Inst163Quest3_HORDE_Level = "110"
+Inst163Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43553_Level = "110"
+AQ_44266_Level = "110"
+AQ_44267_Level = "110"
 
 
 
 --------------- INST164 - Neltharion's Lair ---------------
 
+Inst164Quest1_QuestID = "43554"
+Inst164Quest1_Level = "110"
+Inst164Quest1_Attain = "110"
+
+Inst164Quest2_QuestID = "44264"
+Inst164Quest2_Level = "110"
+Inst164Quest2_Attain = "110"
+
+Inst164Quest3_QuestID = "44265"
+Inst164Quest3_Level = "110"
+Inst164Quest3_Attain = "110"
+
+
+Inst164Quest1_HORDE_QuestID = "43554"
+Inst164Quest1_HORDE_Level = "110"
+Inst164Quest1_HORDE_Attain = "110"
+
+Inst164Quest2_HORDE_QuestID = "44264"
+Inst164Quest2_HORDE_Level = "110"
+Inst164Quest2_HORDE_Attain = "110"
+
+Inst164Quest3_HORDE_QuestID = "44265"
+Inst164Quest3_HORDE_Level = "110"
+Inst164Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43554_Level = "110"
+AQ_44264_Level = "110"
+AQ_44265_Level = "110"
+
 
 
 --------------- INST165 - The Arcway ---------------
 
+Inst165Quest1_QuestID = "43555"
+Inst165Quest1_Level = "110"
+Inst165Quest1_Attain = "110"
+
+Inst165Quest2_QuestID = "44262"
+Inst165Quest2_Level = "110"
+Inst165Quest2_Attain = "110"
+
+Inst165Quest3_QuestID = "44263"
+Inst165Quest3_Level = "110"
+Inst165Quest3_Attain = "110"
+
+
+Inst165Quest1_HORDE_QuestID = "43555"
+Inst165Quest1_HORDE_Level = "110"
+Inst165Quest1_HORDE_Attain = "110"
+
+Inst165Quest2_HORDE_QuestID = "44262"
+Inst165Quest2_HORDE_Level = "110"
+Inst165Quest2_HORDE_Attain = "110"
+
+Inst165Quest3_HORDE_QuestID = "44263"
+Inst165Quest3_HORDE_Level = "110"
+Inst165Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43555_Level = "110"
+AQ_44262_Level = "110"
+AQ_44263_Level = "110"
+
 
 
 --------------- INST166 - Vault of the Wardens ---------------
+
+Inst166Quest1_QuestID = "43556"
+Inst166Quest1_Level = "110"
+Inst166Quest1_Attain = "110"
+
+Inst166Quest2_QuestID = "44260"
+Inst166Quest2_Level = "110"
+Inst166Quest2_Attain = "110"
+
+Inst166Quest3_QuestID = "44261"
+Inst166Quest3_Level = "110"
+Inst166Quest3_Attain = "110"
+
+
+Inst166Quest1_HORDE_QuestID = "43556"
+Inst166Quest1_HORDE_Level = "110"
+Inst166Quest1_HORDE_Attain = "110"
+
+Inst166Quest2_HORDE_QuestID = "44260"
+Inst166Quest2_HORDE_Level = "110"
+Inst166Quest2_HORDE_Attain = "110"
+
+Inst166Quest3_HORDE_QuestID = "44261"
+Inst166Quest3_HORDE_Level = "110"
+Inst166Quest3_HORDE_Attain = "110"
+
+
+
+AQ_43556_Level = "110"
+AQ_44260_Level = "110"
+AQ_44261_Level = "110"
 
 
 

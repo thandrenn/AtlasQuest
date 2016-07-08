@@ -21,6 +21,24 @@ Version 4.10.0 ALPHA  (July ??, 2016)
 	- Court of Stars: Court of Stars
 	- Court of Stars: Court of Stars (Heroic)
 	- Court of Stars: Court of Stars (Mythic)
+	- Darkheart Thicket: Darkheart Thicket
+	- Darkheart Thicket: Darkheart Thicket (Heroic)
+	- Darkheart Thicket: Darkheart Thicket (Mythic)
+	- Halls of Valor: Odyn's Challenge
+	- Halls of Valor: Odyn's Challenge (Heroic)
+	- Halls of Valor: Odyn's Challenge (Mythic)
+	- Maw of Souls: Maw of Souls
+	- Maw of Souls: Maw of Souls (Heroic)
+	- Maw of Souls: Maw of Souls (Mythic)
+	- Neltharion's Lair: Neltharion's Lair
+	- Neltharion's Lair: Neltharion's Lair (Heroic)
+	- Neltharion's Lair: Neltharion's Lair (Mythic)
+	- The Arcway: The Arcway
+	- The Arcway: The Arcway (Heroic)
+	- The Arcway: The Arcway (Mythic)
+	- Vault of the Wardens: Vault of the Wardens
+	- Vault of the Wardens: Vault of the Wardens (Heroic)
+	- Vault of the Wardens: Vault of the Wardens (Mythic)
 
 
 

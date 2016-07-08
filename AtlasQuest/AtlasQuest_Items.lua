@@ -8141,6 +8141,49 @@ Inst159Quest3ID1_HORDE = "141177"
 
 --------------- INST160 - Darkheart Thicket ---------------
 
+--Quest 1 Alliance
+Inst160Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst160Quest1ITC1 = Itemc4;
+Inst160Quest1description1 = AQITEM_ITEM
+Inst160Quest1ID1 = "141158"
+
+--Quest 2 Alliance
+Inst160Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst160Quest2ITC1 = Itemc4;
+Inst160Quest2description1 = AQITEM_ITEM
+Inst160Quest2ID1 = "141168"
+
+--Quest 3 Alliance
+Inst160Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst160Quest3ITC1 = Itemc4;
+Inst160Quest3description1 = AQITEM_ITEM
+Inst160Quest3ID1 = "141178"
+
+
+--Quest 1 Horde
+Inst160Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst160Quest1ITC1_HORDE = Itemc4;
+Inst160Quest1description1_HORDE = AQITEM_ITEM
+Inst160Quest1ID1_HORDE = "141158"
+
+--Quest 2 Horde
+Inst160Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst160Quest2ITC1_HORDE = Itemc4;
+Inst160Quest2description1_HORDE = AQITEM_ITEM
+Inst160Quest2ID1_HORDE = "141168"
+
+--Quest 3 Horde
+Inst160Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst160Quest3ITC1_HORDE = Itemc4;
+Inst160Quest3description1_HORDE = AQITEM_ITEM
+Inst160Quest3ID1_HORDE = "141178"
+
 
 
 --------------- INST161 - Eye of Azshara ---------------
@@ -8149,21 +8192,236 @@ Inst159Quest3ID1_HORDE = "141177"
 
 --------------- INST162 - Halls of Valor ---------------
 
+--Quest 1 Alliance
+Inst162Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst162Quest1ITC1 = Itemc4;
+Inst162Quest1description1 = AQITEM_ITEM
+Inst162Quest1ID1 = "141155"
+
+--Quest 2 Alliance
+Inst162Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst162Quest2ITC1 = Itemc4;
+Inst162Quest2description1 = AQITEM_ITEM
+Inst162Quest2ID1 = "141165"
+
+--Quest 3 Alliance
+Inst162Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst162Quest3ITC1 = Itemc4;
+Inst162Quest3description1 = AQITEM_ITEM
+Inst162Quest3ID1 = "141175"
+
+
+--Quest 1 Horde
+Inst162Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst162Quest1ITC1_HORDE = Itemc4;
+Inst162Quest1description1_HORDE = AQITEM_ITEM
+Inst162Quest1ID1_HORDE = "141155"
+
+--Quest 2 Horde
+Inst162Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst162Quest2ITC1_HORDE = Itemc4;
+Inst162Quest2description1_HORDE = AQITEM_ITEM
+Inst162Quest2ID1_HORDE = "141165"
+
+--Quest 3 Horde
+Inst162Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst162Quest3ITC1_HORDE = Itemc4;
+Inst162Quest3description1_HORDE = AQITEM_ITEM
+Inst162Quest3ID1_HORDE = "141175"
+
 
 
 --------------- INST163 - Maw of Souls ---------------
+
+--Quest 1 Alliance
+Inst163Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst163Quest1ITC1 = Itemc4;
+Inst163Quest1description1 = AQITEM_ITEM
+Inst163Quest1ID1 = "141160"
+
+--Quest 2 Alliance
+Inst163Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst163Quest2ITC1 = Itemc4;
+Inst163Quest2description1 = AQITEM_ITEM
+Inst163Quest2ID1 = "141170"
+
+--Quest 3 Alliance
+Inst163Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst163Quest3ITC1 = Itemc4;
+Inst163Quest3description1 = AQITEM_ITEM
+Inst163Quest3ID1 = "141180"
+
+
+--Quest 1 Horde
+Inst163Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst163Quest1ITC1_HORDE = Itemc4;
+Inst163Quest1description1_HORDE = AQITEM_ITEM
+Inst163Quest1ID1_HORDE = "141160"
+
+--Quest 2 Horde
+Inst163Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst163Quest2ITC1_HORDE = Itemc4;
+Inst163Quest2description1_HORDE = AQITEM_ITEM
+Inst163Quest2ID1_HORDE = "141170"
+
+--Quest 3 Horde
+Inst163Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst163Quest3ITC1_HORDE = Itemc4;
+Inst163Quest3description1_HORDE = AQITEM_ITEM
+Inst163Quest3ID1_HORDE = "141180"
 
 
 
 --------------- INST164 - Neltharion's Lair ---------------
 
+--Quest 1 Alliance
+Inst164Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst164Quest1ITC1 = Itemc4;
+Inst164Quest1description1 = AQITEM_ITEM
+Inst164Quest1ID1 = "141161"
+
+--Quest 2 Alliance
+Inst164Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst164Quest2ITC1 = Itemc4;
+Inst164Quest2description1 = AQITEM_ITEM
+Inst164Quest2ID1 = "141171"
+
+--Quest 3 Alliance
+Inst164Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst164Quest3ITC1 = Itemc4;
+Inst164Quest3description1 = AQITEM_ITEM
+Inst164Quest3ID1 = "141181"
+
+
+--Quest 1 Horde
+Inst164Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst164Quest1ITC1_HORDE = Itemc4;
+Inst164Quest1description1_HORDE = AQITEM_ITEM
+Inst164Quest1ID1_HORDE = "141161"
+
+--Quest 2 Horde
+Inst164Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst164Quest2ITC1_HORDE = Itemc4;
+Inst164Quest2description1_HORDE = AQITEM_ITEM
+Inst164Quest2ID1_HORDE = "141171"
+
+--Quest 3 Horde
+Inst164Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst164Quest3ITC1_HORDE = Itemc4;
+Inst164Quest3description1_HORDE = AQITEM_ITEM
+Inst164Quest3ID1_HORDE = "141181"
+
 
 
 --------------- INST165 - The Arcway ---------------
 
+--Quest 1 Alliance
+Inst165Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst165Quest1ITC1 = Itemc4;
+Inst165Quest1description1 = AQITEM_ITEM
+Inst165Quest1ID1 = "141163"
+
+--Quest 2 Alliance
+Inst165Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst165Quest2ITC1 = Itemc4;
+Inst165Quest2description1 = AQITEM_ITEM
+Inst165Quest2ID1 = "141173"
+
+--Quest 3 Alliance
+Inst165Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst165Quest3ITC1 = Itemc4;
+Inst165Quest3description1 = AQITEM_ITEM
+Inst165Quest3ID1 = "141183"
+
+
+--Quest 1 Horde
+Inst165Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst165Quest1ITC1_HORDE = Itemc4;
+Inst165Quest1description1_HORDE = AQITEM_ITEM
+Inst165Quest1ID1_HORDE = "141163"
+
+--Quest 2 Horde
+Inst165Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst165Quest2ITC1_HORDE = Itemc4;
+Inst165Quest2description1_HORDE = AQITEM_ITEM
+Inst165Quest2ID1_HORDE = "141173"
+
+--Quest 3 Horde
+Inst165Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst165Quest3ITC1_HORDE = Itemc4;
+Inst165Quest3description1_HORDE = AQITEM_ITEM
+Inst165Quest3ID1_HORDE = "141183"
+
 
 
 --------------- INST166 - Vault of the Wardens ---------------
+
+--Quest 1 Alliance
+Inst166Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst166Quest1ITC1 = Itemc4;
+Inst166Quest1description1 = AQITEM_ITEM
+Inst166Quest1ID1 = "141161"
+
+--Quest 2 Alliance
+Inst166Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst166Quest2ITC1 = Itemc4;
+Inst166Quest2description1 = AQITEM_ITEM
+Inst166Quest2ID1 = "141171"
+
+--Quest 3 Alliance
+Inst166Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst166Quest3ITC1 = Itemc4;
+Inst166Quest3description1 = AQITEM_ITEM
+Inst166Quest3ID1 = "141181"
+
+
+--Quest 1 Horde
+Inst166Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst166Quest1ITC1_HORDE = Itemc4;
+Inst166Quest1description1_HORDE = AQITEM_ITEM
+Inst166Quest1ID1_HORDE = "141161"
+
+--Quest 2 Horde
+Inst166Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst166Quest2ITC1_HORDE = Itemc4;
+Inst166Quest2description1_HORDE = AQITEM_ITEM
+Inst166Quest2ID1_HORDE = "141171"
+
+--Quest 3 Horde
+Inst166Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst166Quest3ITC1_HORDE = Itemc4;
+Inst166Quest3description1_HORDE = AQITEM_ITEM
+Inst166Quest3ID1_HORDE = "141181"
 
 
 
