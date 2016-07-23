@@ -3,31 +3,31 @@ If/when this slips into a release, just ignore it. :)
 
 
 --Quest 1 Alliance
-Inst157Quest1 = ""
-Inst157Quest1_Aim = ""
-Inst157Quest1_Location = ""
-Inst157Quest1_Note = ""
-Inst157Quest1_Prequest = "None"
-Inst157Quest1_Folgequest = "None"
-Inst157Quest1PreQuest = "true"
-Inst157Quest1FQuest = "true"
+Inst159Quest1 = ""
+Inst159Quest1_Aim = ""
+Inst159Quest1_Location = ""
+Inst159Quest1_Note = ""
+Inst159Quest1_Prequest = "None"
+Inst159Quest1_Folgequest = "None"
+Inst159Quest1PreQuest = "true"
+Inst159Quest1FQuest = "true"
 --
-Inst157Quest1name1 = ""
+Inst159Quest1name1 = ""
 -- No Rewards for this quest
 -- Reward varies for each class
 
 
 --Quest 1 Horde
-Inst157Quest1_HORDE = ""
-Inst157Quest1_HORDE_Aim = ""
-Inst157Quest1_HORDE_Location = ""
-Inst157Quest1_HORDE_Note = ""
-Inst157Quest1_HORDE_Prequest = "None"
-Inst157Quest1_HORDE_Folgequest = "None"
-Inst157Quest1PreQuest_HORDE = "true"
-Inst157Quest1FQuest_HORDE = "true"
+Inst159Quest1_HORDE = ""
+Inst159Quest1_HORDE_Aim = ""
+Inst159Quest1_HORDE_Location = ""
+Inst159Quest1_HORDE_Note = ""
+Inst159Quest1_HORDE_Prequest = "None"
+Inst159Quest1_HORDE_Folgequest = "None"
+Inst159Quest1PreQuest_HORDE = "true"
+Inst159Quest1FQuest_HORDE = "true"
 --
-Inst157Quest1name1_HORDE = ""
+Inst159Quest1name1_HORDE = ""
 -- No Rewards for this quest
 -- Reward varies for each class
 
@@ -35,16 +35,16 @@ Inst157Quest1name1_HORDE = ""
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst157Quest1_HORDE = Inst157Quest1
-Inst157Quest1_HORDE_Aim = Inst157Quest1_Aim
-Inst157Quest1_HORDE_Location = Inst157Quest1_Location
-Inst157Quest1_HORDE_Note = Inst157Quest1_Note
-Inst157Quest1_HORDE_Prequest = Inst157Quest1_Prequest
-Inst157Quest1_HORDE_Folgequest = Inst157Quest1_Folgequest
-Inst157Quest1PreQuest_HORDE = Inst157Quest1PreQuest
-Inst157Quest1FQuest_HORDE = Inst157Quest1FQuest
+Inst159Quest1_HORDE = Inst159Quest1
+Inst159Quest1_HORDE_Aim = Inst159Quest1_Aim
+Inst159Quest1_HORDE_Location = Inst159Quest1_Location
+Inst159Quest1_HORDE_Note = Inst159Quest1_Note
+Inst159Quest1_HORDE_Prequest = Inst159Quest1_Prequest
+Inst159Quest1_HORDE_Folgequest = Inst159Quest1_Folgequest
+Inst159Quest1PreQuest_HORDE = Inst159Quest1PreQuest
+Inst159Quest1FQuest_HORDE = Inst159Quest1FQuest
 --
-Inst157Quest1name1_HORDE = Inst157Quest1name1
+Inst159Quest1name1_HORDE = Inst159Quest1name1
 -- No Rewards for this quest
 -- Reward varies for each class
 
@@ -52,32 +52,32 @@ Inst157Quest1name1_HORDE = Inst157Quest1name1
 
 
 --Quest 1 Alliance
-Inst157Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst159Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst157Quest1ITC1 = Itemc4;
-Inst157Quest1description1 = AQITEM_..AQITEM_
-Inst157Quest1ID1 = ""
+Inst159Quest1ITC1 = Itemc4;
+Inst159Quest1description1 = AQITEM_..AQITEM_
+Inst159Quest1ID1 = ""
 --ITEM2
-Inst157Quest1ITC2 = Itemc4;
-Inst157Quest1description2 = AQITEM_..AQITEM_
-Inst157Quest1ID2 = ""
+Inst159Quest1ITC2 = Itemc4;
+Inst159Quest1description2 = AQITEM_..AQITEM_
+Inst159Quest1ID2 = ""
 --ITEM3
-Inst157Quest1ITC3 = Itemc4;
-Inst157Quest1description3 = AQITEM_..AQITEM_
-Inst157Quest1ID3 = ""
+Inst159Quest1ITC3 = Itemc4;
+Inst159Quest1description3 = AQITEM_..AQITEM_
+Inst159Quest1ID3 = ""
 --ITEM4
-Inst157Quest1ITC4 = Itemc4;
-Inst157Quest1description4 = AQITEM_..AQITEM_
-Inst157Quest1ID4 = ""
+Inst159Quest1ITC4 = Itemc4;
+Inst159Quest1description4 = AQITEM_..AQITEM_
+Inst159Quest1ID4 = ""
 
 
 
 
 --Quest 1 Alliance
-Inst157Quest1Rewardtext = AQNoReward
+Inst159Quest1Rewardtext = AQNoReward
 
 --Quest 1 Alliance
-Inst157Quest1Rewardtext = AQClassRewards
+Inst159Quest1Rewardtext = AQClassRewards
 
 
 
@@ -87,9 +87,9 @@ Inst157Quest1Rewardtext = AQClassRewards
 
 
 
-Inst157Quest1_QuestID = ""
-Inst157Quest1_Level = ""
-Inst157Quest1_Attain = ""
+Inst159Quest1_QuestID = ""
+Inst159Quest1_Level = ""
+Inst159Quest1_Attain = ""
 
 Inst157Quest2_QuestID = ""
 Inst157Quest2_Level = ""
@@ -120,9 +120,9 @@ Inst157Quest8_Level = ""
 Inst157Quest8_Attain = ""
 
 
-Inst157Quest1_HORDE_QuestID = ""
-Inst157Quest1_HORDE_Level = ""
-Inst157Quest1_HORDE_Attain = ""
+Inst159Quest1_HORDE_QuestID = ""
+Inst159Quest1_HORDE_Level = ""
+Inst159Quest1_HORDE_Attain = ""
 
 Inst157Quest2_HORDE_QuestID = ""
 Inst157Quest2_HORDE_Level = ""

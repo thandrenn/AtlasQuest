@@ -399,43 +399,43 @@ function AtlasQuest_Instanzenchecken()
 		
 	-- Legion Instances
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AssaultOnVioletHold") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceAshran") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AssaultonVioletHold") then
 		AQINSTANZ = 157;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\BlackRookHold") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransHordeAshran") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\BlackRookHoldA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\BlackRookHoldB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\BlackRookHoldC") then
 		AQINSTANZ = 158;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\CourtOfStars") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\DarkmoonFaire") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CourtofStarsA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CourtofStarsB") then
 		AQINSTANZ = 159;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\DarkheartThicket") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceDraenor")  then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\DarkheartThicket") then
 		AQINSTANZ = 160;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\EyeOfAzshara") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransHordeDraenor")  then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\EyeofAzshara") then
 		AQINSTANZ = 161;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\HallsOfValor") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAlliancePandaria")  then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\HallsofValorA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\HallsofValorB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\HallsofValorC") then
 		AQINSTANZ = 162;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\MawOfSouls") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransHordePandaria")  then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\MawofSoulsA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\MawofSoulsB") then
 		AQINSTANZ = 163;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\NeltharionsLair") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransDeepholm")  then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\NeltharionsLair") then
 		AQINSTANZ = 164;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheArcway") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceNorthrend")  then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheArcway") then
 		AQINSTANZ = 165;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\VaultOfTheWardens") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransHordeNorthrend")  then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensC") then
 		AQINSTANZ = 166;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\BrokenIsles") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\BrokenIsles") then
 		AQINSTANZ = 167;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheEmeraldNightmare") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmare") then
 		AQINSTANZ = 168;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheNighthold") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheNightholdB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheNightholdC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheNightholdD") then
 		AQINSTANZ = 169;
 
 		

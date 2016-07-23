@@ -3,13 +3,15 @@ Changelog
 =========
 
 
-Version 4.10.0 ALPHA  (July ??, 2016)
+Version 4.10.00  (July 23, 2016)
 
 - TOC updated for Patch 7.0
-- Added support for Legion Dungeons and Raids
+- Added early support for Legion Dungeons and Raids.  Quest data not complete yet.
 - Split English & German localization files up.  No visible difference to users, but makes it easier for the translators.
 - Some code cleanup.  Mostly removing more support for the ancient and dead AlphaMap addon.
 - Removed LibAboutPanel
+- Removed Warlods of Draenor Challenge Mode quests.
+- Updated a few quest rewards that are now Toys.
 
 - Added Quests:
 	- Assault on Violet Hold: Violet Hold
