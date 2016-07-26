@@ -311,28 +311,14 @@ function AQ_AtlasOrAlphamap()
            AtlasQuestFrame:SetParent(AtlasFrame);
            if (AQ_ShownSide == "Right" ) then
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 555, -35);
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 607, -65);
            else
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -545, -35);
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -597, -65);
            end
            AtlasQuestInsideFrame:SetParent(AtlasFrame);
            AtlasQuestInsideFrame:ClearAllPoints();
            AtlasQuestInsideFrame:SetPoint("TOPLEFT","AtlasFrame", 18, -84);
-        elseif ((AlphaMapFrame ~= nil) and (AlphaMapFrame:IsVisible())) then
-           AtlasORAlphaMap = "AlphaMap";
-           --
-           AtlasQuestFrame:SetParent(AlphaMapFrame);
-           if (AQ_ShownSide == "Right" ) then
-             AtlasQuestFrame:ClearAllPoints();
-             AtlasQuestFrame:SetPoint("TOP","AlphaMapFrame", 400, -107);
-           else
-             AtlasQuestFrame:ClearAllPoints();
-             AtlasQuestFrame:SetPoint("TOPLEFT","AlphaMapFrame", -195, -107);
-           end
-           AtlasQuestInsideFrame:SetParent(AlphaMapFrame);
-           AtlasQuestInsideFrame:ClearAllPoints();
-           AtlasQuestInsideFrame:SetPoint("TOPLEFT","AlphaMapFrame", 1, -108);
         end
 end
 
@@ -573,7 +559,7 @@ function Atlas_OnShow()
    -- AQ_AtlasOrAlphamap();
    if (AQ_ShownSide == "Right") then
        AtlasQuestFrame:ClearAllPoints();
-       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 555, -80);
+       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 607, -65);
   end
   original_Atlas_OnShow(); -- new line #2
 end

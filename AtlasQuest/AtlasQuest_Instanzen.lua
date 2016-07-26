@@ -414,10 +414,10 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\EyeofAzshara") then
 		AQINSTANZ = 161;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\HallsofValorA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\HallsofValorB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\HallsofValorC") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\HallsofValorA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\HallsofValorB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\HallsofValorC") then
 		AQINSTANZ = 162;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\MawofSoulsA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\MawofSoulsB") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\MawofSoulsA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\MawofSoulsB") then
 		AQINSTANZ = 163;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\NeltharionsLair") then
@@ -435,7 +435,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmare") then
 		AQINSTANZ = 168;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheNightholdB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheNightholdC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas\\Images\\Maps\\TheNightholdD") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdD") then
 		AQINSTANZ = 169;
 
 		
