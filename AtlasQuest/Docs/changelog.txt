@@ -2,9 +2,9 @@
 Changelog
 =========
 
-Version 4.10.10  (July ??, 2016)
+Version 4.10.01  (July 27, 2016)
 
-- Updated AtlasQuest panel location for Atlas 1.33.xx
+- Updated AtlasQuest panel location for Atlas 1.33.02.
 
 
 
