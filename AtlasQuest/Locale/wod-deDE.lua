@@ -64,8 +64,8 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Caption = "Auchindoun"
-Inst146QAA = "8 Quests"
-Inst146QAH = "8 Quests"
+Inst146QAA = "7 Quests"
+Inst146QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst146Quest1 = "1. Apport"
@@ -139,27 +139,15 @@ Inst146Quest6_Folgequest = "Augen des Erzmagiers"
 Inst146Quest6FQuest = "true"
 -- No Rewards for this quest
 
---Quest 7 Alliance
-Inst146Quest7 = "7. Eine würdige Herausforderung: Teron'gor"
+--Quest 7 Alliance 
+Inst146Quest7 = "7. Auchindoun"
 Inst146Quest7_Level = "100"
 Inst146Quest7_Attain = "100"
-Inst146Quest7_Aim = "Schließt den Herausforderungsmodus von Auchindoun ab."
-Inst146Quest7_Location = "Herausforderin Savina (Ashran - Sturmschild; "..YELLOW.."52.1, 63.6"..WHITE..")"
-Inst146Quest7_Note = "Du mußt nur diese Herrausfoderung beenden. Wie lange du dabei brauchst ist nicht wichtig für diese Quest."
+Inst146Quest7_Aim = "Bezwingt Teron'gor in Auchindoun."
+Inst146Quest7_Location = "Muradin Bronzebart (Garnision - Hauptgebäude)"
+Inst146Quest7_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nTeron'gor ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
 Inst146Quest7_Prequest = "Nein"
 Inst146Quest7_Folgequest = "Nein"
---
-Inst146Quest7name1 = "Geldkassette des Herausforderers"
-
---Quest 8 Alliance 
-Inst146Quest8 = "8. Auchindoun"
-Inst146Quest8_Level = "100"
-Inst146Quest8_Attain = "100"
-Inst146Quest8_Aim = "Bezwingt Teron'gor in Auchindoun."
-Inst146Quest8_Location = "Muradin Bronzebart (Garnision - Hauptgebäude)"
-Inst146Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nTeron'gor ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
-Inst146Quest8_Prequest = "Nein"
-Inst146Quest8_Folgequest = "Nein"
 --
 -- Awards Garrison Resources
 
@@ -241,31 +229,20 @@ Inst146Quest7_HORDE = Inst146Quest7
 Inst146Quest7_HORDE_Level = "100"
 Inst146Quest7_HORDE_Attain = "100"
 Inst146Quest7_HORDE_Aim = Inst146Quest7_Aim
-Inst146Quest7_HORDE_Location = "Herausforderer Sonnenschmied (Ashran - Kriegsspeer; "..YELLOW.."65.0, 59.6"..WHITE..")"
+Inst146Quest7_HORDE_Location = "Hochfürst Saurfang (Garnision - Hauptgebäude)"
 Inst146Quest7_HORDE_Note = Inst146Quest7_Note
 Inst146Quest7_HORDE_Prequest = "Nein"
 Inst146Quest7_HORDE_Folgequest = "Nein"
 --
-Inst146Quest7name1_HORDE = Inst146Quest7name1
-
---Quest 8 Horde
-Inst146Quest8_HORDE = Inst146Quest8
-Inst146Quest8_HORDE_Level = "100"
-Inst146Quest8_HORDE_Attain = "100"
-Inst146Quest8_HORDE_Aim = Inst146Quest8_Aim
-Inst146Quest8_HORDE_Location = "Hochfürst Saurfang (Garnision - Hauptgebäude)"
-Inst146Quest8_HORDE_Note = Inst146Quest8_Note
-Inst146Quest8_HORDE_Prequest = "Nein"
-Inst146Quest8_HORDE_Folgequest = "Nein"
---
 -- Awards Garrison Resources
+
 
 
 --------------- INST147 - Skyreach ---------------
 
 Inst147Caption = "Himmelsnadel"
-Inst147QAA = "9 Quests"
-Inst147QAH = "9 Quests"
+Inst147QAA = "8 Quests"
+Inst147QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst147Quest1 = "1. Der Sieg ist nahe"
@@ -352,26 +329,14 @@ Inst147Quest7_Folgequest = "Nein"
 Inst147Quest7name1 = Inst146Quest3name1
 
 --Quest 8 Alliance
-Inst147Quest8 = "8. Eine würdige Herausforderung: Oberster Weiser Viryx"
+Inst147Quest8 = "8. Himmelsnadel"
 Inst147Quest8_Level = "100"
 Inst147Quest8_Attain = "100"
-Inst147Quest8_Aim = "Schließt den Herausforderungsmodus der Himmelsnadel ab."
-Inst147Quest8_Location = "Herausforderin Savina (Ashran - Sturmschild; "..YELLOW.."52.1, 63.6"..WHITE..")"
-Inst147Quest8_Note = Inst146Quest7_Note
+Inst147Quest8_Aim = "Bezwingt die Oberste Weise Viryx auf der Himmelsnadel."
+Inst147Quest8_Location = Inst146Quest7_Location
+Inst147Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nOberste Weise Viryx ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst147Quest8_Prequest = "Nein"
 Inst147Quest8_Folgequest = "Nein"
---
-Inst147Quest8name1 = "Geldkassette des Herausforderers"
-
---Quest 9 Alliance 
-Inst147Quest9 = "9. Himmelsnadel"
-Inst147Quest9_Level = "100"
-Inst147Quest9_Attain = "100"
-Inst147Quest9_Aim = "Bezwingt die Oberste Weise Viryx auf der Himmelsnadel."
-Inst147Quest9_Location = Inst146Quest8_Location
-Inst147Quest9_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nOberste Weise Viryx ist bei "..YELLOW.."[4]"..WHITE.."."
-Inst147Quest9_Prequest = "Nein"
-Inst147Quest9_Folgequest = "Nein"
 --
 -- Awards Garrison Resources
 
@@ -470,26 +435,15 @@ Inst147Quest8_HORDE_Note = Inst147Quest8_Note
 Inst147Quest8_HORDE_Prequest = "Nein"
 Inst147Quest8_HORDE_Folgequest = "Nein"
 --
-Inst147Quest8name1_HORDE = Inst147Quest8name1
-
---Quest 9 Horde
-Inst147Quest9_HORDE = Inst147Quest9
-Inst147Quest9_HORDE_Level = "100"
-Inst147Quest9_HORDE_Attain = "100"
-Inst147Quest9_HORDE_Aim = Inst147Quest9_Aim
-Inst147Quest9_HORDE_Location = Inst146Quest8_HORDE_Location
-Inst147Quest9_HORDE_Note = Inst147Quest9_Note
-Inst147Quest9_HORDE_Prequest = "Nein"
-Inst147Quest9_HORDE_Folgequest = "Nein"
---
 -- Awards Garrison Resources
+
 
 
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 
 Inst148Caption = "Blutschlägermine"
-Inst148QAA = "8 Quests"
-Inst148QAH = "8 Quests"
+Inst148QAA = "7 Quests"
+Inst148QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst148Quest1 = "1. Ogervorfahren"
@@ -564,26 +518,14 @@ Inst148Quest6FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst148Quest7 = "7. Eine würdige Herausforderung: Gug'rokk"
+Inst148Quest7 = "7. Blutschlägermine"
 Inst148Quest7_Level = "100"
 Inst148Quest7_Attain = "100"
-Inst148Quest7_Aim = "Schließt den Herausforderungsmodus der Blutschlägermine ab."
-Inst148Quest7_Location = Inst147Quest6_Location
-Inst148Quest7_Note = Inst146Quest7_Note
+Inst148Quest7_Aim = "Bezwingt Gug'rokk in der Blutschlägermine."
+Inst148Quest7_Location = Inst146Quest7_Location
+Inst148Quest7_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nGug'rokk ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
 Inst148Quest7_Prequest = "Nein"
 Inst148Quest7_Folgequest = "Nein"
---
-Inst148Quest7name1 = Inst147Quest8name1
-
---Quest 8 Alliance
-Inst148Quest8 = "8. Blutschlägermine"
-Inst148Quest8_Level = "100"
-Inst148Quest8_Attain = "100"
-Inst148Quest8_Aim = "Bezwingt Gug'rokk in der Blutschlägermine."
-Inst148Quest8_Location = Inst146Quest8_Location
-Inst148Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nGug'rokk ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
-Inst148Quest8_Prequest = "Nein"
-Inst148Quest8_Folgequest = "Nein"
 --
 -- Awards Garrison Resources
 
@@ -670,26 +612,15 @@ Inst148Quest7_HORDE_Note = Inst148Quest7_Note
 Inst148Quest7_HORDE_Prequest = "Nein"
 Inst148Quest7_HORDE_Folgequest = "Nein"
 --
-Inst148Quest7name1_HORDE = Inst148Quest7name1
-
---Quest 8 Horde
-Inst148Quest8_HORDE = Inst148Quest8
-Inst148Quest8_HORDE_Level = "100"
-Inst148Quest8_HORDE_Attain = "100"
-Inst148Quest8_HORDE_Aim = Inst148Quest8_Aim
-Inst148Quest8_HORDE_Location = Inst146Quest8_HORDE_Location
-Inst148Quest8_HORDE_Note = Inst148Quest8_Note
-Inst148Quest8_HORDE_Prequest = "Nein"
-Inst148Quest8_HORDE_Folgequest = "Nein"
---
 -- Awards Garrison Resources
+
 
 
 --------------- INST149 - Iron Docks ---------------
 
 Inst149Caption = "Eisendocks"
-Inst149QAA = "7 Quests"
-Inst149QAH = "7 Quests"
+Inst149QAA = "6 Quests"
+Inst149QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst149Quest1 = "1. Budds Schachzug"
@@ -752,26 +683,14 @@ Inst149Quest5_Folgequest = "Nein"
 Inst149Quest5name1 = Inst146Quest3name1
 
 --Quest 6 Alliance
-Inst149Quest6 = "6. Eine würdige Herausforderung: Skullok, Sohn von Gruul"
+Inst149Quest6 = "6. Eisendocks"
 Inst149Quest6_Level = "100"
 Inst149Quest6_Attain = "100"
-Inst149Quest6_Aim = "Schließt den Herausforderungsmodus der Eisendocks ab."
-Inst149Quest6_Location = Inst147Quest6_Location
-Inst149Quest6_Note = Inst146Quest7_Note
+Inst149Quest6_Aim = "Bezwingt Skulloc in den Eisendocks."
+Inst149Quest6_Location = Inst146Quest7_Location
+Inst149Quest6_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nSkulloc ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
 Inst149Quest6_Prequest = "Nein"
 Inst149Quest6_Folgequest = "Nein"
---
-Inst149Quest6name1 = Inst147Quest8name1
-
---Quest 7 Alliance
-Inst149Quest7 = "7. Eisendocks"
-Inst149Quest7_Level = "100"
-Inst149Quest7_Attain = "100"
-Inst149Quest7_Aim = "Bezwingt Skulloc in den Eisendocks."
-Inst149Quest7_Location = Inst146Quest8_Location
-Inst149Quest7_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nSkulloc ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
-Inst149Quest7_Prequest = "Nein"
-Inst149Quest7_Folgequest = "Nein"
 --
 -- Awards Garrison Resources
 
@@ -846,26 +765,15 @@ Inst149Quest6_HORDE_Note = Inst149Quest6_Note
 Inst149Quest6_HORDE_Prequest = "Nein"
 Inst149Quest6_HORDE_Folgequest = "Nein"
 --
-Inst149Quest6name1_HORDE = Inst149Quest6name1
-
---Quest 7 Horde
-Inst149Quest7_HORDE = Inst149Quest7
-Inst149Quest7_HORDE_Level = "100"
-Inst149Quest7_HORDE_Attain = "100"
-Inst149Quest7_HORDE_Aim = Inst149Quest7_Aim
-Inst149Quest7_HORDE_Location = Inst146Quest8_HORDE_Location
-Inst149Quest7_HORDE_Note = Inst149Quest7_Note
-Inst149Quest7_HORDE_Prequest = "Nein"
-Inst149Quest7_HORDE_Folgequest = "Nein"
---
 -- Awards Garrison Resources
+
 
 
 --------------- INST150 - The Everbloom ---------------
 
 Inst150Caption = "Der immergrüne Flor"
-Inst150QAA = "10 Quests"
-Inst150QAH = "10 Quests"
+Inst150QAA = "9 Quests"
+Inst150QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst150Quest1 = "1. Gut zu Vögeln"
@@ -964,26 +872,14 @@ Inst150Quest8PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst150Quest9 = "9. Eine würdige Herausforderung: Yalnu"
+Inst150Quest9 = "9. Der immergrüne Flor"
 Inst150Quest9_Level = "100"
 Inst150Quest9_Attain = "100"
-Inst150Quest9_Aim = "Schließt den Herausforderungsmodus des Immergrünen Flors ab."
-Inst150Quest9_Location = Inst147Quest6_Location
-Inst150Quest9_Note = Inst146Quest7_Note
+Inst150Quest9_Aim = "Bezwingt Yalnu im Immergrünen Flor."
+Inst150Quest9_Location = Inst146Quest7_Note
+Inst150Quest9_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
 Inst150Quest9_Prequest = "Nein"
 Inst150Quest9_Folgequest = "Nein"
---
-Inst150Quest9name1 = Inst147Quest8name1
-
---Quest 10 Alliance
-Inst150Quest10 = "10. Der immergrüne Flor"
-Inst150Quest10_Level = "100"
-Inst150Quest10_Attain = "100"
-Inst150Quest10_Aim = "Bezwingt Yalnu im Immergrünen Flor."
-Inst150Quest10_Location = Inst146Quest8_Note
-Inst150Quest10_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
-Inst150Quest10_Prequest = "Nein"
-Inst150Quest10_Folgequest = "Nein"
 --
 -- Awards Garrison Resources
 
@@ -1094,26 +990,15 @@ Inst150Quest9_HORDE_Note = Inst150Quest9_Note
 Inst150Quest9_HORDE_Prequest = "Nein"
 Inst150Quest9_HORDE_Folgequest = "Nein"
 --
-Inst150Quest9name1_HORDE = Inst150Quest9name1
-
---Quest 10 Horde
-Inst150Quest10_HORDE = Inst150Quest10
-Inst150Quest10_HORDE_Level = "100"
-Inst150Quest10_HORDE_Attain = "100"
-Inst150Quest10_HORDE_Aim = Inst150Quest10_Aim
-Inst150Quest10_HORDE_Location = Inst146Quest8_HORDE_Location
-Inst150Quest10_HORDE_Note = Inst150Quest10_Note
-Inst150Quest10_HORDE_Prequest = "Nein"
-Inst150Quest10_HORDE_Folgequest = "Nein"
---
 -- Awards Garrison Resources
+
 
 
 --------------- INST151 - Grimrail Depot ---------------
 
 Inst151Caption = "Grimmgleisdepot"
-Inst151QAA = "9 Quests"
-Inst151QAH = "9 Quests"
+Inst151QAA = "8 Quests"
+Inst151QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst151Quest1 = "1. Spalter!"
@@ -1200,26 +1085,14 @@ Inst151Quest7PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst151Quest8 = "8. Eine würdige Herausforderung: Himmelsfürstin Tovra"
+Inst151Quest8 = "8. Grimmgleisdepot"
 Inst151Quest8_Level = "100"
 Inst151Quest8_Attain = "100"
-Inst151Quest8_Aim = "Schließt den Herausforderungsmodus des Grimmgleisdepots ab."
-Inst151Quest8_Location = Inst147Quest6_Location
-Inst151Quest8_Note = Inst146Quest7_Note
+Inst151Quest8_Aim = "Bezwingt Himmelsfürstin Tovra im Grimmgleisdepot."
+Inst151Quest8_Location = Inst146Quest7_Note
+Inst151Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nHimmelsfürstin Tovra ist der Endboss bei "..YELLOW.."[3]"..WHITE.."."
 Inst151Quest8_Prequest = "Nein"
 Inst151Quest8_Folgequest = "Nein"
---
-Inst151Quest8name1 = Inst147Quest8name1
-
---Quest 9 Alliance
-Inst151Quest9 = "9. Grimmgleisdepot"
-Inst151Quest9_Level = "100"
-Inst151Quest9_Attain = "100"
-Inst151Quest9_Aim = "Bezwingt Himmelsfürstin Tovra im Grimmgleisdepot."
-Inst151Quest9_Location = Inst146Quest8_Note
-Inst151Quest9_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nHimmelsfürstin Tovra ist der Endboss bei "..YELLOW.."[3]"..WHITE.."."
-Inst151Quest9_Prequest = "Nein"
-Inst151Quest9_Folgequest = "Nein"
 --
 -- Awards Garrison Resources
 
@@ -1318,26 +1191,15 @@ Inst151Quest8_HORDE_Note = Inst151Quest8_Note
 Inst151Quest8_HORDE_Prequest = "Nein"
 Inst151Quest8_HORDE_Folgequest = "Nein"
 --
-Inst151Quest8name1_HORDE = Inst151Quest8name1
-
---Quest 9 Horde
-Inst151Quest9_HORDE = Inst151Quest9
-Inst151Quest9_HORDE_Level = "100"
-Inst151Quest9_HORDE_Attain = "100"
-Inst151Quest9_HORDE_Aim = Inst151Quest9_Aim
-Inst151Quest9_HORDE_Location = Inst146Quest8_HORDE_Location
-Inst151Quest9_HORDE_Note = Inst151Quest9_Note
-Inst151Quest9_HORDE_Prequest = "Nein"
-Inst151Quest9_HORDE_Folgequest = "Nein"
---
 -- Awards Garrison Resources
+
 
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
 Inst152Caption = "Schattenmondgrabstätte"
-Inst152QAA = "8 Quests"
-Inst152QAH = "8 Quests"
+Inst152QAA = "7 Quests"
+Inst152QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst152Quest1 = "1. Das Leerentor"
@@ -1412,26 +1274,14 @@ Inst152Quest6_Folgequest = "Nein"
 Inst152Quest6name1 = Inst146Quest3name1
 
 --Quest 7 Alliance
-Inst152Quest7 = "7. Eine würdige Herausforderung: Ner'zhul"
+Inst152Quest7 = "7. Schattenmondgrabstätte"
 Inst152Quest7_Level = "100"
 Inst152Quest7_Attain = "100"
-Inst152Quest7_Aim = "Schließt den Herausforderungsmodus der Schattenmondgrabstätte ab."
-Inst152Quest7_Location = Inst147Quest6_Location
-Inst152Quest7_Note = Inst146Quest7_Note
+Inst152Quest7_Aim = "Bezwingt Ner'zhul in der Schattenmondgrabstätte."
+Inst152Quest7_Location = Inst146Quest7_Note
+Inst152Quest7_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nNer'zhul ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
 Inst152Quest7_Prequest = "Nein"
 Inst152Quest7_Folgequest = "Nein"
---
-Inst152Quest7name1 = Inst147Quest8name1
-
---Quest 8 Alliance
-Inst152Quest8 = "8. Schattenmondgrabstätte"
-Inst152Quest8_Level = "100"
-Inst152Quest8_Attain = "100"
-Inst152Quest8_Aim = "Bezwingt Ner'zhul in der Schattenmondgrabstätte."
-Inst152Quest8_Location = Inst146Quest8_Note
-Inst152Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nNer'zhul ist der Endboss bei "..YELLOW.."[4]"..WHITE.."."
-Inst152Quest8_Prequest = "Nein"
-Inst152Quest8_Folgequest = "Nein"
 --
 -- Awards Garrison Resources
  
@@ -1520,26 +1370,15 @@ Inst152Quest7_HORDE_Note = Inst152Quest7_Note
 Inst152Quest7_HORDE_Prequest = "Nein"
 Inst152Quest7_HORDE_Folgequest = "Nein"
 --
-Inst152Quest7name1_HORDE = Inst152Quest7name1
-
---Quest 8 Horde
-Inst152Quest8_HORDE = Inst152Quest8
-Inst152Quest8_HORDE_Level = "100"
-Inst152Quest8_HORDE_Attain = "100"
-Inst152Quest8_HORDE_Aim = Inst152Quest8_Aim
-Inst152Quest8_HORDE_Location = Inst146Quest8_HORDE_Location
-Inst152Quest8_HORDE_Note = Inst152Quest8_Note
-Inst152Quest8_HORDE_Prequest = "Nein"
-Inst152Quest8_HORDE_Folgequest = "Nein"
---
 -- Awards Garrison Resources
+
 
 
 --------------- INST153 - Upper Blackrock Spire ---------------
 
 Inst153Caption = "Obere Schwarzfelsspitze"
-Inst153QAA = "9 Quests"
-Inst153QAH = "9 Quests"
+Inst153QAA = "8 Quests"
+Inst153QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst153Quest1 = "1. Oralius' Abenteuer"
@@ -1626,30 +1465,16 @@ Inst153Quest7_Folgequest = "Nein"
 Inst153Quest7name1 = "Manasturms Verdoppler"
 
 --Quest 8 Alliance
-Inst153Quest8 = "8. Eine würdige Herausforderung: Kriegsfürstin Zaela"
+Inst153Quest8 = "8. Obere Schwarzfelsspitze"
 Inst153Quest8_Level = "100"
 Inst153Quest8_Attain = "100"
-Inst153Quest8_Aim = "Schließt den Herausforderungsmodus der Oberen Schwarzfelsspitze ab."
-Inst153Quest8_Location = Inst147Quest6_Location
-Inst153Quest8_Note = Inst146Quest7_Note
+Inst153Quest8_Aim = "Bezwingt Kriegsfürstin Zaela an der Oberen Schwarzfelsspitze."
+Inst153Quest8_Location = Inst146Quest7_Note
+Inst153Quest8_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nKriegsfürstin Zaela ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
 Inst153Quest8_Prequest = "Nein"
 Inst153Quest8_Folgequest = "Nein"
 --
-Inst153Quest8name1 = Inst147Quest8name1
-
---Quest 9 Alliance
-Inst153Quest9 = "9. Obere Schwarzfelsspitze"
-Inst153Quest9_Level = "100"
-Inst153Quest9_Attain = "100"
-Inst153Quest9_Aim = "Bezwingt Kriegsfürstin Zaela an der Oberen Schwarzfelsspitze."
-Inst153Quest9_Location = Inst146Quest8_Note
-Inst153Quest9_Note = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nKriegsfürstin Zaela ist der Endboss bei "..YELLOW.."[5]"..WHITE.."."
-Inst153Quest9_Prequest = "Nein"
-Inst153Quest9_Folgequest = "Nein"
---
 -- Awards Garrison Resources
- 
-
 
 
 --Quest 1 Horde
@@ -1746,19 +1571,8 @@ Inst153Quest8_HORDE_Note = Inst153Quest8_Note
 Inst153Quest8_HORDE_Prequest = "Nein"
 Inst153Quest8_HORDE_Folgequest = "Nein"
 --
-Inst153Quest8name1_HORDE = Inst153Quest8name1
-
---Quest 9 Horde
-Inst153Quest9_HORDE = Inst153Quest9
-Inst153Quest9_HORDE_Level = "100"
-Inst153Quest9_HORDE_Attain = "100"
-Inst153Quest9_HORDE_Aim = Inst153Quest9_Aim
-Inst153Quest9_HORDE_Location = Inst146Quest8_HORDE_Location
-Inst153Quest9_HORDE_Note = Inst153Quest9_Note
-Inst153Quest9_HORDE_Prequest = "Nein"
-Inst153Quest9_HORDE_Folgequest = "Nein"
---
 -- Awards Garrison Resources
+
 
 
 --------------- INST154 - Highmaul ---------------
@@ -1825,8 +1639,6 @@ Inst154Quest5_Prequest = "Nein"
 Inst154Quest5_Folgequest = "Nein"
 --
 Inst154Quest5name1 = "Große Kopfgeldbelohnung"
- 
-
 
 
 --Quest 1 Horde
@@ -1887,6 +1699,7 @@ Inst154Quest5_HORDE_Prequest = "Nein"
 Inst154Quest5_HORDE_Folgequest = "Nein"
 --
 Inst154Quest5name1_HORDE = Inst154Quest5name1
+
 
 
 --------------- INST155 - Blackrock Foundry ---------------
@@ -2002,8 +1815,6 @@ Inst155Quest9_Prequest = "Nein"
 Inst155Quest9_Folgequest = "Nein"
 --
 Inst155Quest9name1 = "Große Kopfgeldbelohnung"
- 
-
 
 
 --Quest 1 Horde
@@ -2113,6 +1924,7 @@ Inst155Quest9_HORDE_Prequest = "Nein"
 Inst155Quest9_HORDE_Folgequest = "Nein"
 --
 Inst155Quest9name1_HORDE = Inst155Quest9name1
+
 
 
 --------------- INST156 - Hellfire Citadel ---------------
@@ -2354,7 +2166,6 @@ Inst156Quest10_HORDE_Note = Inst156Quest10_Note
 Inst156Quest10_HORDE_Prequest = "Nein"
 Inst156Quest10_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
-
 
 
 
