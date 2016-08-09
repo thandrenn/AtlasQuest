@@ -3727,6 +3727,4 @@ Inst69Quest2name4_HORDE = Inst69Quest2name4
 
 
 end
-
-
 -- End of File

@@ -1069,7 +1069,6 @@ Inst66Quest13name1_HORDE = Inst66Quest13name1
 Inst66Quest13name2_HORDE = Inst66Quest13name2
 Inst66Quest13name3_HORDE = "Severins Stock"
 
+
 end
-
-
 -- End of File

@@ -1210,6 +1210,4 @@ Inst144QAH = "Keine Quests"
 
 
 end
-
-
 -- End of File

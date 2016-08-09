@@ -2170,6 +2170,4 @@ Inst156Quest10_HORDE_Folgequest = "Nein"
 
 
 end
-
-
 -- End of File
