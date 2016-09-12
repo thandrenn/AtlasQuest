@@ -240,7 +240,7 @@ end
 
 
 -- Grab the Quest Link string using the ID and hopefully use the localized quest name for the link.
-local AQ_QuestLink = "|cffffff00|Hquest:"..AQ_QuestID..":"..AQ_QuestLevel.."|h["..AQ_QuestName.."]|h|r";
+local AQ_QuestLink = "\124cffffff00\124Hquest:"..AQ_QuestID..":"..AQ_QuestLevel.."\124h["..AQ_QuestName.."]\124h\124r";
 
 
 --[[ Debug Stuff

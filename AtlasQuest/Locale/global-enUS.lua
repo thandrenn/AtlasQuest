@@ -115,6 +115,7 @@ AQFinishedTEXT = "Finished: ";
 AQGARRISON = "(Garrison - Lunarfall Inn or Frostwall Tavern)"
 AQGARRISONRESOURCES = " Garrison Resources"
 AQAPEXISCRYSTAL = " Apexis Crystals"
+AQORDERRESOURCES = " Order Resources"
 
 
 ------------------

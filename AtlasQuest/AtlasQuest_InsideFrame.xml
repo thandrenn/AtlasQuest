@@ -26,9 +26,9 @@
 ------------------ FRAME INSIDE ATLAS
 
 <!--  AtlasQuest Inside Atlas/AlphaMap frame -->
-<Frame name="AtlasQuestInsideFrame" toplevel="true" enableMouse="true" parent="AtlasFrame" hidden="false">
+<Frame name="AtlasQuestInsideFrame" toplevel="true" enableMouse="true" parent="AtlasFrame" hidden="false" frameStrata="HIGH">
    <Size>
-      <AbsDimension x="510" y="510"/>
+      <AbsDimension x="513" y="513"/>
    </Size>
    <Anchors>
       <Anchor point="TOPLEFT">

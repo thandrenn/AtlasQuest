@@ -2,10 +2,57 @@
 Changelog
 =========
 
-Version 4.10.10  (August ??, 2016)
+Version 4.10.10  (September ??, 2016)
 
-- 
-
+- Updates for Atlas 1.34.02 changes.
+- Added Quests:
+	- Assault on Violet Hold: Purple Pain
+	- Black Rook Hold: Worst of the Worst
+	- Black Rook Hold: Traitor's Demise
+	- Black Rook Hold: The Sorrow
+	- Black Rook Hold: The Mad Arcanist
+	- Black Rook Hold: ... With Fire!
+	- Court of Stars: Bring Me the Eyes
+	- Court of Stars: Disarming the Watch
+	- Court of Stars: The Deceitful Student
+	- Court of Stars: Beware the Fury of a Patient Elf
+	- Darkheart Thicket: A Burden to Bear
+	- Darkheart Thicket: Kudzilla
+	- Darkheart Thicket: Preserving the Preservers
+	- Darkheart Thicket: Rage Rot
+	- Eye of Azshara: Termination Claws
+	- Eye of Azshara: Slug It Out
+	- Eye of Azshara: Dread End
+	- Eye of Azshara: Azsunian Pearls
+	- Eye of Azshara: Wrath of Azshara
+	- Eye of Azshara: The Tidestone of Golganneth
+	- Halls of Valor: A Worthy Challenge
+	- Halls of Valor: Deeds of the Past
+	- Halls of Valor: Ponderous Poaching
+	- Halls of Valor: The Bear King
+	- Halls of Valor: The Brewmaster
+	- Halls of Valor: Odyn's Cauldron
+	- Halls of Valor: Securing the Aegis
+	- Halls of Valor: The Aegis of Aggramar
+	- Maw of Souls: From Hell's Mouth
+	- Maw of Souls: Menace of the Seas
+	- Maw of Souls: Return of the Beast
+	- Maw of Souls: Message to Helya
+	- Maw of Souls: Ymiron's Broken Blade
+	- Maw of Souls: Ancient Vrykul Legends
+	- Neltharion's Lair: Blighted Bat
+	- Neltharion's Lair: Stonedark Slaves
+	- Neltharion's Lair: Neltharion's Lair
+	- Neltharion's Lair: The Hammer of Khaz'goroth
+	- The Arcway: Clogged Drain
+	- The Arcway: Silver Serpent
+	- The Arcway: Wandering Plague
+	- Vault of the Wardens: How'd He Get Up There?
+	- Vault of the Wardens: Fel-Ravaged Tome
+	- Vault of the Wardens: Demon's Bile
+	- Vault of the Wardens: Bendy Glass Tubes
+	
+	
 
 Version 4.10.01  (July 27, 2016)
 
@@ -20,7 +67,7 @@ Version 4.10.00  (July 23, 2016)
 - Split English & German localization files up.  No visible difference to users, but makes it easier for the translators.
 - Some code cleanup.  Mostly removing more support for the ancient and dead AlphaMap addon.
 - Removed LibAboutPanel
-- Removed Warlods of Draenor Challenge Mode quests.
+- Removed Warlords of Draenor Challenge Mode quests.
 - Updated a few quest rewards that are now Toys.
 
 - Added Quests:

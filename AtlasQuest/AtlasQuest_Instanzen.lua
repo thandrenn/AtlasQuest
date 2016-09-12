@@ -429,14 +429,11 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensC") then
 		AQINSTANZ = 166;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\BrokenIsles") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareD") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareE") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareF") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareG") then
 		AQINSTANZ = 167;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmare") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdD") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdE") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdF") then
 		AQINSTANZ = 168;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdD") then
-		AQINSTANZ = 169;
 
 		
 	-- Scenarios
@@ -732,7 +729,6 @@ end
 -- 164 = DUNGEON: Neltharion's Lair
 -- 165 = DUNGEON: The Arcway
 -- 166 = DUNGEON: Vault of the Wardens
--- 167 = RAID: Broken Isles
--- 168 = RAID: The Emerald Nightmare
--- 169 = RAID: The Nighthold
+-- 167 = RAID: The Emerald Nightmare
+-- 168 = RAID: The Nighthold
 
