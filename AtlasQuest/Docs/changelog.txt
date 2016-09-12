@@ -12,6 +12,7 @@ Version 4.10.10  (September ??, 2016)
 	- Black Rook Hold: The Sorrow
 	- Black Rook Hold: The Mad Arcanist
 	- Black Rook Hold: ... With Fire!
+	- Black Rook Hold: Greater Power
 	- Court of Stars: Bring Me the Eyes
 	- Court of Stars: Disarming the Watch
 	- Court of Stars: The Deceitful Student

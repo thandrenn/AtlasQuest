@@ -34,9 +34,8 @@
 -- 164 = DUNGEON: Neltharion's Lair
 -- 165 = DUNGEON: The Arcway
 -- 166 = DUNGEON: Vault of the Wardens
--- 167 = RAID: Broken Isles
--- 168 = RAID: The Emerald Nightmare
--- 169 = RAID: The Nighthold
+-- 167 = RAID: The Emerald Nightmare
+-- 168 = RAID: The Nighthold
 
 
 ---------------
@@ -225,6 +224,16 @@ Inst158Quest8_Prequest = "None"
 Inst158Quest8_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 9 Alliance
+Inst158Quest9 = "9. Greater Power"
+Inst158Quest9_Aim = "Defeat Lord Kur'talos Ravencrest and retrieve a Greater Demonic Runestone from Dantalionax in the Black Rook Hold Dungeon."
+Inst158Quest9_Location = "Odyn (Skyhold; "..YELLOW.."58.4, 82.8"..WHITE..")"
+Inst158Quest9_Note = "Warrior quest.  Becomes available after completing demonic runes.  Lord Kur'talos Ravencrest and Dantalionax are the last bosses of the dungeon, located at "..YELLOW.."[4]"..WHITE.."."
+Inst158Quest9_Prequest = "Demonic Runes"
+Inst158Quest9_Folgequest = "None"
+Inst158Quest9PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst158Quest1_HORDE = Inst158Quest1
@@ -299,6 +308,16 @@ Inst158Quest8_HORDE_Location = Inst158Quest8_Location
 Inst158Quest8_HORDE_Note = Inst158Quest8_Note
 Inst158Quest8_HORDE_Prequest = Inst158Quest8_Prequest
 Inst158Quest8_HORDE_Folgequest = Inst158Quest8_Folgequest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst158Quest9_HORDE = Inst158Quest9
+Inst158Quest9_HORDE_Aim = Inst158Quest9_Aim
+Inst158Quest9_HORDE_Location = Inst158Quest9_Location
+Inst158Quest9_HORDE_Note = Inst158Quest9_Note
+Inst158Quest9_HORDE_Prequest = Inst158Quest9_Prequest
+Inst158Quest9_HORDE_Folgequest = Inst158Quest9_Folgequest
+Inst158Quest9PreQuest_HORDE = Inst158Quest9PreQuest
 -- No Rewards for this quest
 
 

@@ -2794,6 +2794,10 @@ Inst158Quest8_QuestID = "43711"
 Inst158Quest8_Level = "110"
 Inst158Quest8_Attain = "110"
 
+Inst158Quest9_QuestID = "43506"
+Inst158Quest9_Level = "110"
+Inst158Quest9_Attain = "110"
+
 
 Inst158Quest1_HORDE_QuestID = "43545"
 Inst158Quest1_HORDE_Level = "110"
@@ -2827,6 +2831,10 @@ Inst158Quest8_HORDE_QuestID = "43711"
 Inst158Quest8_HORDE_Level = "110"
 Inst158Quest8_HORDE_Attain = "110"
 
+Inst158Quest9_HORDE_QuestID = "43506"
+Inst158Quest9_HORDE_Level = "110"
+Inst158Quest9_HORDE_Attain = "110"
+
 
 AQ_43545_Level = "110"
 AQ_44276_Level = "110"
@@ -2836,6 +2844,7 @@ AQ_43762_Level = "110"
 AQ_43642_Level = "110"
 AQ_43712_Level = "110"
 AQ_43711_Level = "110"
+AQ_43506_Level = "110"
 
 
 

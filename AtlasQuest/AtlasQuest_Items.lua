@@ -7977,6 +7977,9 @@ Inst158Quest7Rewardtext = AQNoReward
 --Quest 8 Alliance
 Inst158Quest8Rewardtext = AQNoReward
 
+--Quest 9 Alliance
+Inst158Quest9Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst158Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8013,6 +8016,9 @@ Inst158Quest7Rewardtext_HORDE = AQNoReward
 
 --Quest 8 Horde
 Inst158Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst158Quest9Rewardtext_HORDE = AQNoReward
 
 
 
