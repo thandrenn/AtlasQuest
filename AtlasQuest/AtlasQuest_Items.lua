@@ -8136,6 +8136,16 @@ Inst160Quest6Rewardtext = AQNoReward
 --Quest 7 Alliance
 Inst160Quest7Rewardtext = AQNoReward
 
+--Quest 8 Alliance
+Inst160Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst160Quest8ITC1 = Itemc2;
+Inst160Quest8description1 = AQITEM_ITEM
+Inst160Quest8ID1 = "126947"
+
+--Quest 9 Alliance
+Inst160Quest9Rewardtext = AQClassRewards
+
 
 --Quest 1 Horde
 Inst160Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8169,6 +8179,16 @@ Inst160Quest6Rewardtext_HORDE = AQNoReward
 
 --Quest 7 Horde
 Inst160Quest7Rewardtext_HORDE = AQNoReward
+
+--Quest 8 Horde
+Inst160Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst160Quest8ITC1_HORDE = Itemc2;
+Inst160Quest8description1_HORDE = AQITEM_ITEM
+Inst160Quest8ID1_HORDE = "126947"
+
+--Quest 9 Horde
+Inst160Quest9Rewardtext_HORDE = AQClassRewards
 
 
 

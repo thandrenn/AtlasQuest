@@ -468,8 +468,8 @@ Inst159Quest7name1_HORDE = Inst159Quest7name1
 --------------- INST160 - Darkheart Thicket ---------------
 
 Inst160Caption = "Darkheart Thicket"
-Inst160QAA = "7 Quests"
-Inst160QAH = "7 Quests"
+Inst160QAA = "9 Quests"
+Inst160QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst160Quest1 = "1. Darkheart Thicket"
@@ -537,6 +537,27 @@ Inst160Quest7_Prequest = "None"
 Inst160Quest7_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 8 Alliance
+Inst160Quest8 = "8. Nal'ryssa's Sisters"
+Inst160Quest8_Aim = "Go to the Darkheart Thicket and find Lyrelle's Signet Ring."
+Inst160Quest8_Location = "Felsmith Nal'ryssa (Suramar; "..YELLOW.."30.0, 53.4"..WHITE..")"
+Inst160Quest8_Note = "Mining quest. The Signet Ring drops from the Shade of Xavius at "..YELLOW.."[4]"..WHITE.."."
+Inst160Quest8_Prequest = "The Felsmiths"
+Inst160Quest8_Folgequest = "None"
+Inst160Quest8PreQuest = "true"
+--
+Inst160Quest8name1 = "Nal'ryssa's Spare Mining Supplies"
+
+--Quest 9 Alliance
+Inst160Quest9 = "9. Enter the Nightmare"
+Inst160Quest9_Aim = "Enter Darkheart Thicket and Slay the Shade of Xavius."
+Inst160Quest9_Location = "Tyrande Whisperwind (Val'sharah - Temple of Elune; "..YELLOW.."53.6, 55.8"..WHITE..")"
+Inst160Quest9_Note = "This quest becomes available after completing the quests involving Ysera and Malfurion.  The Shade of Xavius is at "..YELLOW.."[4]"..WHITE.."."
+Inst160Quest9_Prequest = "The Fate of Val'sharah"
+Inst160Quest9_Folgequest = "None"
+Inst160Quest9PreQuest = "true"
+-- Reward varies for each class
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst160Quest1_HORDE = Inst160Quest1
@@ -603,6 +624,27 @@ Inst160Quest7_HORDE_Note = Inst160Quest7_Note
 Inst160Quest7_HORDE_Prequest = Inst160Quest7_Prequest
 Inst160Quest7_HORDE_Folgequest = Inst160Quest7_Folgequest
 -- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst160Quest8_HORDE = Inst160Quest8
+Inst160Quest8_HORDE_Aim = Inst160Quest8_Aim
+Inst160Quest8_HORDE_Location = Inst160Quest8_Location
+Inst160Quest8_HORDE_Note = Inst160Quest8_Note
+Inst160Quest8_HORDE_Prequest = Inst160Quest8_Prequest
+Inst160Quest8_HORDE_Folgequest = Inst160Quest8_Folgequest
+Inst160Quest8PreQuest_HORDE = Inst160Quest8PreQuest
+--
+Inst160Quest8name1_HORDE = Inst160Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst160Quest9_HORDE = Inst160Quest9
+Inst160Quest9_HORDE_Aim = Inst160Quest9_Aim
+Inst160Quest9_HORDE_Location = Inst160Quest9_Location
+Inst160Quest9_HORDE_Note = Inst160Quest9_Note
+Inst160Quest9_HORDE_Prequest = Inst160Quest9_Prequest
+Inst160Quest9_HORDE_Folgequest = Inst160Quest9_Folgequest
+Inst160Quest9PreQuest_HORDE = Inst160Quest9PreQuest
+-- Reward varies for each class
 
 
 

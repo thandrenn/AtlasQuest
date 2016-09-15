@@ -2948,6 +2948,14 @@ Inst160Quest7_QuestID = "42742"
 Inst160Quest7_Level = "110"
 Inst160Quest7_Attain = "110"
 
+Inst160Quest8_QuestID = "38799"
+Inst160Quest8_Level = "98"
+Inst160Quest8_Attain = "98"
+
+Inst160Quest9_QuestID = "40567"
+Inst160Quest9_Level = "98"
+Inst160Quest9_Attain = "98"
+
 
 Inst160Quest1_HORDE_QuestID = "43551"
 Inst160Quest1_HORDE_Level = "110"
@@ -2977,6 +2985,14 @@ Inst160Quest7_HORDE_QuestID = "42742"
 Inst160Quest7_HORDE_Level = "110"
 Inst160Quest7_HORDE_Attain = "110"
 
+Inst160Quest8_HORDE_QuestID = "38799"
+Inst160Quest8_HORDE_Level = "98"
+Inst160Quest8_HORDE_Attain = "98"
+
+Inst160Quest9_HORDE_QuestID = "40567"
+Inst160Quest9_HORDE_Level = "98"
+Inst160Quest9_HORDE_Attain = "98"
+
 
 AQ_43551_Level = "110"
 AQ_44272_Level = "110"
@@ -2985,6 +3001,8 @@ AQ_42745_Level = "110"
 AQ_42743_Level = "110"
 AQ_42744_Level = "110"
 AQ_42742_Level = "110"
+AQ_38799_Level = "98"
+AQ_40567_Level = "98"
 
 
 

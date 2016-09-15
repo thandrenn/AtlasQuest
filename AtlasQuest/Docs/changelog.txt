@@ -21,6 +21,8 @@ Version 4.10.10  (September ??, 2016)
 	- Darkheart Thicket: Kudzilla
 	- Darkheart Thicket: Preserving the Preservers
 	- Darkheart Thicket: Rage Rot
+	- Darkheart Thicket: Nal'ryssa's Sisters
+	- Darkheart Thicket: Enter the Nightmare
 	- Eye of Azshara: Termination Claws
 	- Eye of Azshara: Slug It Out
 	- Eye of Azshara: Dread End
