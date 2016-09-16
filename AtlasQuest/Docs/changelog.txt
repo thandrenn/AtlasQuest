@@ -29,6 +29,7 @@ Version 4.10.10  (September ??, 2016)
 	- Eye of Azshara: Azsunian Pearls
 	- Eye of Azshara: Wrath of Azshara
 	- Eye of Azshara: The Tidestone of Golganneth
+	- Eye of Azshara: Cleansing the Dreamway
 	- Halls of Valor: A Worthy Challenge
 	- Halls of Valor: Deeds of the Past
 	- Halls of Valor: Ponderous Poaching

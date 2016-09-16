@@ -8216,6 +8216,9 @@ Inst161Quest5ID1 = "141385"
 --Quest 6 Alliance
 Inst161Quest6Rewardtext = AQClassRewards
 
+--Quest 7 Alliance
+Inst161Quest7Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst161Quest1Rewardtext_HORDE = AQNoReward
@@ -8238,6 +8241,9 @@ Inst161Quest5ID1_HORDE = "141385"
 
 --Quest 6 Horde
 Inst161Quest6Rewardtext_HORDE = AQClassRewards
+
+--Quest 7 Horde
+Inst161Quest7Rewardtext_HORDE = AQNoReward
 
 
 

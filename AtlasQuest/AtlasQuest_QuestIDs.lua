@@ -3032,6 +3032,10 @@ Inst161Quest6_QuestID = "42213"
 Inst161Quest6_Level = "98"
 Inst161Quest6_Attain = "98"
 
+Inst161Quest7_QuestID = "42719"
+Inst161Quest7_Level = "110"
+Inst161Quest7_Attain = "110"
+
 
 Inst161Quest1_HORDE_QuestID = "42712"
 Inst161Quest1_HORDE_Level = "110"
@@ -3057,6 +3061,10 @@ Inst161Quest6_HORDE_QuestID = "42213"
 Inst161Quest6_HORDE_Level = "98"
 Inst161Quest6_HORDE_Attain = "98"
 
+Inst161Quest7_HORDE_QuestID = "42719"
+Inst161Quest7_HORDE_Level = "110"
+Inst161Quest7_HORDE_Attain = "110"
+
 
 AQ_42712_Level = "110"
 AQ_42713_Level = "110"
@@ -3064,6 +3072,7 @@ AQ_42746_Level = "110"
 AQ_42755_Level = "110"
 AQ_38286_Level = "98"
 AQ_42213_Level = "98"
+AQ_42719_Level = "110"
 
 
 

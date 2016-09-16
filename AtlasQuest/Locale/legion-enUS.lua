@@ -651,8 +651,8 @@ Inst160Quest9PreQuest_HORDE = Inst160Quest9PreQuest
 --------------- INST161 - Eye of Azshara ---------------
 
 Inst161Caption = "Eye of Azshara"
-Inst161QAA = "6 Quests"
-Inst161QAH = "6 Quests"
+Inst161QAA = "7 Quests"
+Inst161QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst161Quest1 = "1. Eye of Azshara: Termination Claws"
@@ -711,6 +711,16 @@ Inst161Quest6_Folgequest = "None"
 Inst161Quest6FQuest = "true"
 -- Reward varies for each class
 
+--Quest 7 Alliance
+Inst161Quest7 = "7. Cleansing the Dreamway"
+Inst161Quest7_Aim = "Collect 25 Rarefied Water from the naga in the Eye of Azshara."
+Inst161Quest7_Location = "Brightwing (Flies around the Emerald Dreamway)."
+Inst161Quest7_Note = "Druid quest.  All Naga in the dungeon should be able to drop the Rarefied Water.  The quest turns in to Brightwing."
+Inst161Quest7_Prequest = "Wrath of Azshara"
+Inst161Quest7_Folgequest = "None"
+Inst161Quest7FQuest = "true"
+-- Reward varies for each class
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst161Quest1_HORDE = Inst161Quest1
@@ -767,6 +777,16 @@ Inst161Quest6_HORDE_Note = Inst161Quest6_Note
 Inst161Quest6_HORDE_Prequest = Inst161Quest6_Prequest
 Inst161Quest6_HORDE_Folgequest = Inst161Quest6_Folgequest
 Inst161Quest6FQuest_HORDE = Inst161Quest6FQuest
+-- Reward varies for each class
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst161Quest7_HORDE = Inst161Quest7
+Inst161Quest7_HORDE_Aim = Inst161Quest7_Aim
+Inst161Quest7_HORDE_Location = Inst161Quest7_Location
+Inst161Quest7_HORDE_Note = Inst161Quest7_Note
+Inst161Quest7_HORDE_Prequest = Inst161Quest7_Prequest
+Inst161Quest7_HORDE_Folgequest = Inst161Quest7_Folgequest
+Inst161Quest7FQuest_HORDE = Inst161Quest7FQuest
 -- Reward varies for each class
 
 
