@@ -7,6 +7,7 @@ Version 4.10.10  (September ??, 2016)
 - Updates for Atlas 1.34.02 changes.
 - Added Quests:
 	- Assault on Violet Hold: Purple Pain
+	- Assault on Violet Hold: Cheating Death
 	- Black Rook Hold: Worst of the Worst
 	- Black Rook Hold: Traitor's Demise
 	- Black Rook Hold: The Sorrow
@@ -38,12 +39,14 @@ Version 4.10.10  (September ??, 2016)
 	- Halls of Valor: Odyn's Cauldron
 	- Halls of Valor: Securing the Aegis
 	- Halls of Valor: The Aegis of Aggramar
+	- Halls of Valor: Trigger Happy
 	- Maw of Souls: From Hell's Mouth
 	- Maw of Souls: Menace of the Seas
 	- Maw of Souls: Return of the Beast
 	- Maw of Souls: Message to Helya
 	- Maw of Souls: Ymiron's Broken Blade
 	- Maw of Souls: Ancient Vrykul Legends
+	- Maw of Souls: Piercing the Mists
 	- Neltharion's Lair: Blighted Bat
 	- Neltharion's Lair: Stonedark Slaves
 	- Neltharion's Lair: Neltharion's Lair

@@ -7912,6 +7912,9 @@ Inst157Quest3ID1 = "141184"
 --Quest 4 Alliance
 Inst157Quest4Rewardtext = AQClassRewards
 
+--Quest 5 Alliance
+Inst157Quest5Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst157Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -7936,6 +7939,9 @@ Inst157Quest3ID1_HORDE = "141184"
 
 --Quest 4 Horde
 Inst157Quest4Rewardtext_HORDE = AQClassRewards
+
+--Quest 5 Horde
+Inst157Quest5Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8298,6 +8304,9 @@ Inst162Quest10ID1 = "141402"
 --Quest 11 Alliance
 Inst162Quest11Rewardtext = AQClassRewards
 
+--Quest 12 Alliance
+Inst162Quest12Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst162Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8348,6 +8357,9 @@ Inst162Quest10ID1_HORDE = "141402"
 --Quest 11 Horde
 Inst162Quest11Rewardtext_HORDE = AQClassRewards
 
+--Quest 12 Horde
+Inst162Quest12Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST163 - Maw of Souls ---------------
@@ -8391,6 +8403,9 @@ Inst163Quest7Rewardtext = AQNoReward
 --Quest 9 Alliance
 Inst163Quest9Rewardtext = AQDiscription_REWARD..WHITE.."250"..AQORDERRESOURCES
 
+--Quest 10 Alliance
+Inst163Quest10Rewardtext = AQClassRewards
+
 
 --Quest 1 Horde
 Inst163Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8430,6 +8445,9 @@ Inst163Quest7Rewardtext_HORDE = AQNoReward
 
 --Quest 9 Horde
 Inst163Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."250"..AQORDERRESOURCES
+
+--Quest 10 Horde
+Inst163Quest10Rewardtext_HORDE = AQClassRewards
 
 
 

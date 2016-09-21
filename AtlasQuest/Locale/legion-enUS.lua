@@ -38,6 +38,13 @@
 -- 168 = RAID: The Nighthold
 
 
+--
+-- Using this since it'll be the same text for each Dungeon World Quest.  
+-- I might move this to globals-enUS.lua eventually, but since World Quests only exist in Legion, I'll keep it with the Legion stuff for now.
+-- 
+AQ_WORLDDUNGEONQUEST = "This is a Dungeon World Quest.  When the quest is active (you can check your ingame map to see if it is available), enter the Dungeon to obtain it.  When you complete the dungeon it will be automatically turned in.  The quest will reward reputation and sometimes an item."
+
+
 ---------------
 --- COLOURS ---
 ---------------
@@ -59,14 +66,14 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST157 - Assault on Violet Hold ---------------
 
 Inst157Caption = "Assault on Violet Hold"
-Inst157QAA = "4 Quests"
-Inst157QAH = "4 Quests"
+Inst157QAA = "5 Quests"
+Inst157QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst157Quest1 = "1. Violet Hold"
 Inst157Quest1_Aim = "Defeat the leader of the Assault on Violet Hold."
 Inst157Quest1_Location = "Violet Hold (Auto-accept)"
-Inst157Quest1_Note = ""
+Inst157Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst157Quest1_Prequest = "None"
 Inst157Quest1_Folgequest = "None"
 --
@@ -76,7 +83,7 @@ Inst157Quest1name1 = "Violet Hold Contraband Locker"
 Inst157Quest2 = "2. Violet Hold (Heroic)"
 Inst157Quest2_Aim = "Defeat the leader of the Assault on Violet Hold on Heroic difficulty or higher."
 Inst157Quest2_Location = "Violet Hold (Auto-accept)"
-Inst157Quest2_Note = ""
+Inst157Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst157Quest2_Prequest = "None"
 Inst157Quest2_Folgequest = "None"
 --
@@ -86,7 +93,7 @@ Inst157Quest2name1 = "Violet Hold Contraband Locker"
 Inst157Quest3 = "3. Violet Hold (Mythic)"
 Inst157Quest3_Aim = "Defeat the leader of the Assault on Violet Hold on Mythic difficulty."
 Inst157Quest3_Location = "Violet Hold (Auto-accept)"
-Inst157Quest3_Note = ""
+Inst157Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst157Quest3_Prequest = "None"
 Inst157Quest3_Folgequest = "None"
 --
@@ -100,6 +107,15 @@ Inst157Quest4_Note = "Simply complete the dungeon and turn the quest in to the s
 Inst157Quest4_Prequest = "None"
 Inst157Quest4_Folgequest = "None"
 -- Reward varies for each class
+
+--Quest 5 Alliance
+Inst157Quest5 = "5. Cheating Death"
+Inst157Quest5_Aim = "Craft 2 Failure Detection Pylons. Go to the Violet Hold and recover a Plasmatic Laser Bolt and return everything to Didi the Wrench in Dalaran."
+Inst157Quest5_Location = "Didi the Wrench (Dalaran - The Violet Hold; "..YELLOW.."38.6, 25.0"..WHITE..")"
+Inst157Quest5_Note = "Engineering quest.  Craft the two Failure Detection Pylons.  The Plasmatic Laser Bolt is in the back of the cell of the second boss (which is random).  The reward teaches you a new Engineering Schematic."
+Inst157Quest5_Prequest = "None"
+Inst157Quest5_Folgequest = "None"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -141,6 +157,15 @@ Inst157Quest4_HORDE_Prequest = Inst157Quest4_Prequest
 Inst157Quest4_HORDE_Folgequest = Inst157Quest4_Folgequest
 -- Reward varies for each class
 
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst157Quest5_HORDE = Inst157Quest5
+Inst157Quest5_HORDE_Aim = Inst157Quest5_Aim
+Inst157Quest5_HORDE_Location = Inst157Quest5_Location
+Inst157Quest5_HORDE_Note = Inst157Quest5_Note
+Inst157Quest5_HORDE_Prequest = Inst157Quest5_Prequest
+Inst157Quest5_HORDE_Folgequest = Inst157Quest5_Folgequest
+-- No Rewards for this quest
+
 
 
 --------------- INST158 - Black Rook Hold ---------------
@@ -153,7 +178,7 @@ Inst158QAH = "8 Quests"
 Inst158Quest1 = "1. The Lord of Black Rook Hold"
 Inst158Quest1_Aim = "Defeat Lord Kur'talos Ravencrest in Black Rook Hold."
 Inst158Quest1_Location = "Black Rook Hold (Auto-accept)"
-Inst158Quest1_Note = ""
+Inst158Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst158Quest1_Prequest = "None"
 Inst158Quest1_Folgequest = "None"
 --
@@ -163,7 +188,7 @@ Inst158Quest1name1 = "Haunted Ravencrest Keepsake"
 Inst158Quest2 = "2. The Lord of Black Rook Hold (Heroic)"
 Inst158Quest2_Aim = "Defeat Kur'talos Ravencrest in the Black Rook Hold on Heroic difficulty or higher."
 Inst158Quest2_Location = "Black Rook Hold (Auto-accept)"
-Inst158Quest2_Note = ""
+Inst158Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst158Quest2_Prequest = "None"
 Inst158Quest2_Folgequest = "None"
 --
@@ -173,7 +198,7 @@ Inst158Quest2name1 = "Haunted Ravencrest Keepsake"
 Inst158Quest3 = "3. The Lord of Black Rook Hold (Mythic)"
 Inst158Quest3_Aim = "Defeat Kur'talos Ravencrest in the Black Rook Hold on Mythic difficulty."
 Inst158Quest3_Location = "Black Rook Hold (Auto-accept)"
-Inst158Quest3_Note = ""
+Inst158Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst158Quest3_Prequest = "None"
 Inst158Quest3_Folgequest = "None"
 --
@@ -183,7 +208,7 @@ Inst158Quest3name1 = "Haunted Ravencrest Keepsake"
 Inst158Quest4 = "4. Black Rook Hold: Worst of the Worst"
 Inst158Quest4_Aim = "Kill Braxas the Fleshcarver and Dantallionax in Black Rook Hold."
 Inst158Quest4_Location = ""
-Inst158Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst158Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst158Quest4_Prequest = "None"
 Inst158Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -192,7 +217,7 @@ Inst158Quest4_Folgequest = "None"
 Inst158Quest5 = "5. Black Rook Hold: Traitor's Demise"
 Inst158Quest5_Aim = "Kill Kelorn Nightblade and Dantallionax in Black Rook Hold."
 Inst158Quest5_Location = ""
-Inst158Quest5_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst158Quest5_Note = AQ_WORLDDUNGEONQUEST
 Inst158Quest5_Prequest = "None"
 Inst158Quest5_Folgequest = "None"
 -- No Rewards for this quest
@@ -201,7 +226,7 @@ Inst158Quest5_Folgequest = "None"
 Inst158Quest6 = "6. Black Rook Hold: The Sorrow"
 Inst158Quest6_Aim = "Kill General Tel'arn, Ranger General Feleor and Dantallionax in Black Rook Hold."
 Inst158Quest6_Location = ""
-Inst158Quest6_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst158Quest6_Note = AQ_WORLDDUNGEONQUEST
 Inst158Quest6_Prequest = "None"
 Inst158Quest6_Folgequest = "None"
 -- No Rewards for this quest
@@ -210,7 +235,7 @@ Inst158Quest6_Folgequest = "None"
 Inst158Quest7 = "7. Black Rook Hold: The Mad Arcanist"
 Inst158Quest7_Aim = "Kill Archmage Galeorn and Dantallionax in Black Rook Hold."
 Inst158Quest7_Location = ""
-Inst158Quest7_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst158Quest7_Note = AQ_WORLDDUNGEONQUEST
 Inst158Quest7_Prequest = "None"
 Inst158Quest7_Folgequest = "None"
 -- No Rewards for this quest
@@ -219,7 +244,7 @@ Inst158Quest7_Folgequest = "None"
 Inst158Quest8 = "8. Black Rook Hold: ... With Fire!"
 Inst158Quest8_Aim = "Kill Ancient Widow and Dantallionax in Black Rook Hold."
 Inst158Quest8_Location = ""
-Inst158Quest8_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst158Quest8_Note = AQ_WORLDDUNGEONQUEST
 Inst158Quest8_Prequest = "None"
 Inst158Quest8_Folgequest = "None"
 -- No Rewards for this quest
@@ -332,7 +357,7 @@ Inst159QAH = "7 Quests"
 Inst159Quest1 = "1. Court of Stars"
 Inst159Quest1_Aim = "Defeat Advisor Melandrus in Court of Stars."
 Inst159Quest1_Location = "Court of Stars (Auto-accept)"
-Inst159Quest1_Note = ""
+Inst159Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst159Quest1_Prequest = "None"
 Inst159Quest1_Folgequest = "None"
 --
@@ -342,7 +367,7 @@ Inst159Quest1name1 = "Nightborne Rucksack"
 Inst159Quest2 = "2. Court of Stars (Heroic)"
 Inst159Quest2_Aim = "Defeat Advisor Melandrus in Court of Stars on Heroic difficulty or higher."
 Inst159Quest2_Location = "Court of Stars (Auto-accept)"
-Inst159Quest2_Note = ""
+Inst159Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst159Quest2_Prequest = "None"
 Inst159Quest2_Folgequest = "None"
 --
@@ -352,7 +377,7 @@ Inst159Quest2name1 = "Nightborne Rucksack"
 Inst159Quest3 = "3. Court of Stars (Mythic)"
 Inst159Quest3_Aim = "Defeat Advisor Melandrus in Court of Stars on Mythic difficulty."
 Inst159Quest3_Location = "Court of Stars (Auto-accept)"
-Inst159Quest3_Note = ""
+Inst159Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst159Quest3_Prequest = "None"
 Inst159Quest3_Folgequest = "None"
 --
@@ -362,7 +387,7 @@ Inst159Quest3name1 = "Nightborne Rucksack"
 Inst159Quest4 = "4. Court of Stars: Bring Me the Eyes"
 Inst159Quest4_Aim = "Kill Velimar and Advisor Melandrus in Court of Stars."
 Inst159Quest4_Location = ""
-Inst159Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst159Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest4_Prequest = "None"
 Inst159Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -371,7 +396,7 @@ Inst159Quest4_Folgequest = "None"
 Inst159Quest5 = "5. Court of Stars: Disarming the Watch"
 Inst159Quest5_Aim = "Collect 6 Nightwatch Weaponry and kill Advisor Melandrus in Court of Stars."
 Inst159Quest5_Location = ""
-Inst159Quest5_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst159Quest5_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest5_Prequest = "None"
 Inst159Quest5_Folgequest = "None"
 -- No Rewards for this quest
@@ -380,7 +405,7 @@ Inst159Quest5_Folgequest = "None"
 Inst159Quest6 = "6. Court of Stars: The Deceitful Student"
 Inst159Quest6_Aim = "Kill Arcanist Malrodi and Advisor Melandrus in Court of Stars."
 Inst159Quest6_Location = ""
-Inst159Quest6_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst159Quest6_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest6_Prequest = "None"
 Inst159Quest6_Folgequest = "None"
 -- No Rewards for this quest
@@ -475,7 +500,7 @@ Inst160QAH = "9 Quests"
 Inst160Quest1 = "1. Darkheart Thicket"
 Inst160Quest1_Aim = "Defeat the Shade of Xavius in Darkheart Thicket."
 Inst160Quest1_Location = "Darkheart Thicket (Auto-accept)"
-Inst160Quest1_Note = ""
+Inst160Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst160Quest1_Prequest = "None"
 Inst160Quest1_Folgequest = "None"
 --
@@ -485,7 +510,7 @@ Inst160Quest1name1 = "Despoiled Keeper's Cache"
 Inst160Quest2 = "2. Darkheart Thicket (Heroic)"
 Inst160Quest2_Aim = "Defeat the Shade of Xavius in Darkheart Thicket on Heroic difficulty or higher."
 Inst160Quest2_Location = "Darkheart Thicket (Auto-accept)"
-Inst160Quest2_Note = ""
+Inst160Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst160Quest2_Prequest = "None"
 Inst160Quest2_Folgequest = "None"
 --
@@ -495,7 +520,7 @@ Inst160Quest2name1 = "Despoiled Keeper's Cache"
 Inst160Quest3 = "3. Darkheart Thicket (Mythic)"
 Inst160Quest3_Aim = "Defeat the Shade of Xavius in Darkheart Thicket on Mythic difficulty."
 Inst160Quest3_Location = "Darkheart Thicket (Auto-accept)"
-Inst160Quest3_Note = ""
+Inst160Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst160Quest3_Prequest = "None"
 Inst160Quest3_Folgequest = "None"
 --
@@ -505,7 +530,7 @@ Inst160Quest3name1 = "Despoiled Keeper's Cache"
 Inst160Quest4 = "4. Darkheart Thicket: A Burden to Bear"
 Inst160Quest4_Aim = "Kill 9 Bears and defeat the Shade of Xavius in Darkheart Thicket."
 Inst160Quest4_Location = ""
-Inst160Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst160Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst160Quest4_Prequest = "None"
 Inst160Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -514,7 +539,7 @@ Inst160Quest4_Folgequest = "None"
 Inst160Quest5 = "5. Darkheart Thicket: Kudzilla"
 Inst160Quest5_Aim = "Kill Kudzilla and Shade of Xavius in Darkheart Thicket."
 Inst160Quest5_Location = ""
-Inst160Quest5_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst160Quest5_Note = AQ_WORLDDUNGEONQUEST
 Inst160Quest5_Prequest = "None"
 Inst160Quest5_Folgequest = "None"
 -- No Rewards for this quest
@@ -523,7 +548,7 @@ Inst160Quest5_Folgequest = "None"
 Inst160Quest6 = "6. Darkheart Thicket: Preserving the Preservers"
 Inst160Quest6_Aim = "Revive 5 Preservers and defeat the Shade of Xavius in Darkheart Thicket."
 Inst160Quest6_Location = ""
-Inst160Quest6_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst160Quest6_Note = AQ_WORLDDUNGEONQUEST
 Inst160Quest6_Prequest = "None"
 Inst160Quest6_Folgequest = "None"
 -- No Rewards for this quest
@@ -532,7 +557,7 @@ Inst160Quest6_Folgequest = "None"
 Inst160Quest7 = "7. Darkheart Thicket: Rage Rot"
 Inst160Quest7_Aim = "Kill Rage Rot and Shade of Xavius in Darkheart Thicket."
 Inst160Quest7_Location = ""
-Inst160Quest7_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst160Quest7_Note = AQ_WORLDDUNGEONQUEST
 Inst160Quest7_Prequest = "None"
 Inst160Quest7_Folgequest = "None"
 -- No Rewards for this quest
@@ -658,16 +683,16 @@ Inst161QAH = "7 Quests"
 Inst161Quest1 = "1. Eye of Azshara: Termination Claws"
 Inst161Quest1_Aim = "Kill Gom Crabbar and defeat the Wrath of Azshara."
 Inst161Quest1_Location = ""
-Inst161Quest1_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst161Quest1_Note = AQ_WORLDDUNGEONQUEST
 Inst161Quest1_Prequest = "None"
 Inst161Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst161Quest2 = "2. Eye of Azshara: Slug It Out"
-Inst161Quest2_Aim = ""
+Inst161Quest2_Aim = "Kill Shellmaw and defeat the Wrath of Azshara."
 Inst161Quest2_Location = ""
-Inst161Quest2_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst161Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst161Quest2_Prequest = "None"
 Inst161Quest2_Folgequest = "None"
 -- No Rewards for this quest
@@ -676,7 +701,7 @@ Inst161Quest2_Folgequest = "None"
 Inst161Quest3 = "3. Eye of Azshara: Dread End"
 Inst161Quest3_Aim = "Dread Captain Thedon and defeat the Wrath of Azshara."
 Inst161Quest3_Location = ""
-Inst161Quest3_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst161Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst161Quest3_Prequest = "None"
 Inst161Quest3_Folgequest = "None"
 -- No Rewards for this quest
@@ -685,7 +710,7 @@ Inst161Quest3_Folgequest = "None"
 Inst161Quest4 = "4. Eye of Azshara: Azsunian Pearls"
 Inst161Quest4_Aim = "Collect 5 Massive Azsunian Pearl and defeat the Wrath of Azshara."
 Inst161Quest4_Location = ""
-Inst161Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst161Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst161Quest4_Prequest = "None"
 Inst161Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -794,14 +819,14 @@ Inst161Quest7FQuest_HORDE = Inst161Quest7FQuest
 --------------- INST162 - Halls of Valor ---------------
 
 Inst162Caption = "Halls of Valor"
-Inst162QAA = "11 Quests"
-Inst162QAH = "11 Quests"
+Inst162QAA = "12 Quests"
+Inst162QAH = "12 Quests"
 
 --Quest 1 Alliance
 Inst162Quest1 = "1. Odyn's Challenge"
 Inst162Quest1_Aim = "Defeat Odyn in the Halls of Valor on Normal difficulty."
 Inst162Quest1_Location = "Halls of Valor (Auto-accept)"
-Inst162Quest1_Note = ""
+Inst162Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst162Quest1_Prequest = "None"
 Inst162Quest1_Folgequest = "None"
 --
@@ -811,7 +836,7 @@ Inst162Quest1name1 = "Challenger's Spoils"
 Inst162Quest2 = "2. Odyn's Challenge (Heroic)"
 Inst162Quest2_Aim = "Defeat Odyn in the Halls of Valor on Heroic difficulty or higher."
 Inst162Quest2_Location = "Halls of Valor (Auto-accept)"
-Inst162Quest2_Note = ""
+Inst162Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst162Quest2_Prequest = "None"
 Inst162Quest2_Folgequest = "None"
 --
@@ -821,7 +846,7 @@ Inst162Quest2name1 = "Challenger's Spoils"
 Inst162Quest3 = "3. Odyn's Challenge (Mythic)"
 Inst162Quest3_Aim = "Defeat Odyn in the Halls of Valor on Mythic difficulty."
 Inst162Quest3_Location = "Halls of Valor (Auto-accept)"
-Inst162Quest3_Note = ""
+Inst162Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst162Quest3_Prequest = "None"
 Inst162Quest3_Folgequest = "None"
 --
@@ -831,7 +856,7 @@ Inst162Quest3name1 = "Challenger's Spoils"
 Inst162Quest4 = "4. Halls of Valor: A Worthy Challenge"
 Inst162Quest4_Aim = "Defeat Volynd Stormbringer and Odyn in Halls of Valor."
 Inst162Quest4_Location = ""
-Inst162Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst162Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst162Quest4_Prequest = "None"
 Inst162Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -840,7 +865,7 @@ Inst162Quest4_Folgequest = "None"
 Inst162Quest5 = "5. Halls of Valor: Deeds of the Past"
 Inst162Quest5_Aim = "Collect 3 Book of Exalted Deeds and defeat Odyn in Halls of Valor."
 Inst162Quest5_Location = ""
-Inst162Quest5_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst162Quest5_Note = AQ_WORLDDUNGEONQUEST
 Inst162Quest5_Prequest = "None"
 Inst162Quest5_Folgequest = "None"
 -- No Rewards for this quest
@@ -849,7 +874,7 @@ Inst162Quest5_Folgequest = "None"
 Inst162Quest6 = "6. Halls of Valor: Ponderous Poaching"
 Inst162Quest6_Aim = "Defeat Earlnoc the Beastbreaker and Odyn in Halls of Valor."
 Inst162Quest6_Location = ""
-Inst162Quest6_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst162Quest6_Note = AQ_WORLDDUNGEONQUEST
 Inst162Quest6_Prequest = "None"
 Inst162Quest6_Folgequest = "None"
 -- No Rewards for this quest
@@ -858,7 +883,7 @@ Inst162Quest6_Folgequest = "None"
 Inst162Quest7 = "7. Halls of Valor: The Bear King"
 Inst162Quest7_Aim = "Defeat Arthfael and Odyn in Halls of Valor."
 Inst162Quest7_Location = ""
-Inst162Quest7_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst162Quest7_Note = AQ_WORLDDUNGEONQUEST
 Inst162Quest7_Prequest = "None"
 Inst162Quest7_Folgequest = "None"
 -- No Rewards for this quest
@@ -902,6 +927,15 @@ Inst162Quest11_Prequest = "Securing the Aegis"
 Inst162Quest11_Folgequest = "None"
 Inst162Quest11FQuest = "true"
 -- Reward varies for each class
+
+--Quest 12 Alliance
+Inst162Quest12 = "12. Trigger Happy"
+Inst162Quest12_Aim = "Obtain the Runestone of Vitality from Odyn in the Halls of Valor."
+Inst162Quest12_Location = "Hobart Grapplehammer (Dalaran; "..YELLOW.."38.4, 25.0"..WHITE..")"
+Inst162Quest12_Note = "Engineering quest.  Becomes accessible after completing other engineering quests.  Odyn is the final boss, located at "..YELLOW.."[5]"..WHITE..".  The reward teaches you a new Engineering Schematic."
+Inst162Quest12_Prequest = "None"
+Inst162Quest12_Folgequest = "None"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1010,19 +1044,28 @@ Inst162Quest11_HORDE_Folgequest = Inst162Quest11_Folgequest
 Inst162Quest11FQuest_HORDE = Inst162Quest11FQuest
 -- Reward varies for each class
 
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst162Quest12_HORDE = Inst162Quest12
+Inst162Quest12_HORDE_Aim = Inst162Quest12_Aim
+Inst162Quest12_HORDE_Location = Inst162Quest12_Location
+Inst162Quest12_HORDE_Note = Inst162Quest12_Note
+Inst162Quest12_HORDE_Prequest = Inst162Quest12_Prequest
+Inst162Quest12_HORDE_Folgequest = Inst162Quest12_Folgequest
+-- No Rewards for this quest
+
 
 
 --------------- INST163 - Maw of Souls ---------------
 
 Inst163Caption = "Maw of Souls"
-Inst163QAA = "9 Quests"
-Inst163QAH = "9 Quests"
+Inst163QAA = "10 Quests"
+Inst163QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst163Quest1 = "1. Maw of Souls"
 Inst163Quest1_Aim = "Defeat Helya in Maw of Souls."
 Inst163Quest1_Location = "Maw of Souls (Auto-accept)"
-Inst163Quest1_Note = ""
+Inst163Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst163Quest1_Prequest = "None"
 Inst163Quest1_Folgequest = "None"
 --
@@ -1032,7 +1075,7 @@ Inst163Quest1name1 = "Seaweed-Encrusted Satchel"
 Inst163Quest2 = "2. Maw of Souls (Heroic)"
 Inst163Quest2_Aim = "Defeat Helya in Maw of Souls on Heroic difficulty or higher."
 Inst163Quest2_Location = "Maw of Souls (Auto-accept)"
-Inst163Quest2_Note = ""
+Inst163Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst163Quest2_Prequest = "None"
 Inst163Quest2_Folgequest = "None"
 --
@@ -1042,7 +1085,7 @@ Inst163Quest2name1 = "Seaweed-Encrusted Satchel"
 Inst163Quest3 = "3. Maw of Souls (Mythic)"
 Inst163Quest3_Aim = "Defeat Helya in Maw of Souls on Mythic difficulty."
 Inst163Quest3_Location = "Maw of Souls (Auto-accept)"
-Inst163Quest3_Note = ""
+Inst163Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst163Quest3_Prequest = "None"
 Inst163Quest3_Folgequest = "None"
 --
@@ -1052,7 +1095,7 @@ Inst163Quest3name1 = "Seaweed-Encrusted Satchel"
 Inst163Quest4 = "4. Maw of Souls: From Hell's Mouth"
 Inst163Quest4_Aim = "Defeat Plaguemaw and Helya in the Maw of Souls."
 Inst163Quest4_Location = ""
-Inst163Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst163Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst163Quest4_Prequest = "None"
 Inst163Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -1061,7 +1104,7 @@ Inst163Quest4_Folgequest = "None"
 Inst163Quest5 = "5. Maw of Souls: Menace of the Seas"
 Inst163Quest5_Aim = "Defeat Soulfiend Tagerma and Helya in the Maw of Souls."
 Inst163Quest5_Location = ""
-Inst163Quest5_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst163Quest5_Note = AQ_WORLDDUNGEONQUEST
 Inst163Quest5_Prequest = "None"
 Inst163Quest5_Folgequest = "None"
 -- No Rewards for this quest
@@ -1070,7 +1113,7 @@ Inst163Quest5_Folgequest = "None"
 Inst163Quest6 = "6. Maw of Souls: Return of the Beast"
 Inst163Quest6_Aim = "Defeat Shroudseeker and Helya in the Maw of Souls."
 Inst163Quest6_Location = ""
-Inst163Quest6_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst163Quest6_Note = AQ_WORLDDUNGEONQUEST
 Inst163Quest6_Prequest = "None"
 Inst163Quest6_Folgequest = "None"
 -- No Rewards for this quest
@@ -1103,6 +1146,15 @@ Inst163Quest9_Folgequest = "The Raven's Eye"
 Inst163Quest9PreQuest = "true"
 --
 -- Awards Order Resources
+
+--Quest 10 Alliance
+Inst163Quest10 = "10. Piercing the Mists"
+Inst163Quest10_Aim = "Defeat Helya in the Maw of Souls dungeon, then return to Havi in Valdisdall"
+Inst163Quest10_Location = "Havi (Stormheim - Valdisdall; "..YELLOW.."60.2, 50.8"..WHITE..")"
+Inst163Quest10_Note = "Helya is the final boss in Maw of Souls, located at "..YELLOW.."[3]"..WHITE.."."
+Inst163Quest10_Prequest = "None"
+Inst163Quest10_Folgequest = "None"
+-- Reward varies for each class
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1191,6 +1243,15 @@ Inst163Quest9PreQuest_HORDE = Inst163Quest9PreQuest
 --
 -- Awards Order Resources
 
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst163Quest10_HORDE = Inst163Quest10
+Inst163Quest10_HORDE_Aim = Inst163Quest10_Aim
+Inst163Quest10_HORDE_Location = Inst163Quest10_Location
+Inst163Quest10_HORDE_Note = Inst163Quest10_Note
+Inst163Quest10_HORDE_Prequest = Inst163Quest10_Prequest
+Inst163Quest10_HORDE_Folgequest = Inst163Quest10_Folgequest
+-- Reward varies for each class
+
 
 
 --------------- INST164 - Neltharion's Lair ---------------
@@ -1203,7 +1264,7 @@ Inst164QAH = "7 Quests"
 Inst164Quest1 = "1. Neltharion's Lair"
 Inst164Quest1_Aim = "Defeat Dargrul in Neltharion's Lair."
 Inst164Quest1_Location = "Neltharion's Lair (Auto-accept)"
-Inst164Quest1_Note = ""
+Inst164Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst164Quest1_Prequest = "None"
 Inst164Quest1_Folgequest = "None"
 --
@@ -1213,7 +1274,7 @@ Inst164Quest1name1 = "Cache of the Black Dragon"
 Inst164Quest2 = "2. Neltharion's Lair (Heroic)"
 Inst164Quest2_Aim = "Defeat Dargrul in Neltharion's Lair on Heroic difficulty or higher."
 Inst164Quest2_Location = "Neltharion's Lair (Auto-accept)"
-Inst164Quest2_Note = ""
+Inst164Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst164Quest2_Prequest = "None"
 Inst164Quest2_Folgequest = "None"
 --
@@ -1223,7 +1284,7 @@ Inst164Quest2name1 = "Cache of the Black Dragon"
 Inst164Quest3 = "3. Neltharion's Lair (Mythic)"
 Inst164Quest3_Aim = "Defeat Dargrul in Neltharion's Lair on Mythic difficulty."
 Inst164Quest3_Location = "Neltharion's Lair (Auto-accept)"
-Inst164Quest3_Note = ""
+Inst164Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst164Quest3_Prequest = "None"
 Inst164Quest3_Folgequest = "None"
 --
@@ -1233,7 +1294,7 @@ Inst164Quest3name1 = "Cache of the Black Dragon"
 Inst164Quest4 = "4. Neltharion's Lair: Blighted Bat"
 Inst164Quest4_Aim = "Defeat Ragoul and Dargrul the Underking slain in the Maw of Souls."
 Inst164Quest4_Location = ""
-Inst164Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst164Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst164Quest4_Prequest = "None"
 Inst164Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -1242,7 +1303,7 @@ Inst164Quest4_Folgequest = "None"
 Inst164Quest5 = "5. Neltharion's Lair: Stonedark Slaves"
 Inst164Quest5_Aim = "Kill 5 Understone Lashers and defeat Dargrul the Underking slain in the Maw of Souls."
 Inst164Quest5_Location = ""
-Inst164Quest5_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst164Quest5_Note = AQ_WORLDDUNGEONQUEST
 Inst164Quest5_Prequest = "None"
 Inst164Quest5_Folgequest = "None"
 -- No Rewards for this quest
@@ -1348,7 +1409,7 @@ Inst165QAH = "6 Quests"
 Inst165Quest1 = "1. The Arcway"
 Inst165Quest1_Aim = "Defeat Advisor Vandros in The Arcway."
 Inst165Quest1_Location = "The Arcway (Auto-accept)"
-Inst165Quest1_Note = ""
+Inst165Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst165Quest1_Prequest = "None"
 Inst165Quest1_Folgequest = "None"
 --
@@ -1358,7 +1419,7 @@ Inst165Quest1name1 = "Unmarked Suramar Vault Crate"
 Inst165Quest2 = "2. The Arcway (Heroic)"
 Inst165Quest2_Aim = "Defeat Advisor Vandros in The Arcway on Heroic difficulty or higher."
 Inst165Quest2_Location = "The Arcway (Auto-accept)"
-Inst165Quest2_Note = ""
+Inst165Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst165Quest2_Prequest = "None"
 Inst165Quest2_Folgequest = "None"
 --
@@ -1368,7 +1429,7 @@ Inst165Quest2name1 = "Unmarked Suramar Vault Crate"
 Inst165Quest3 = "3. The Arcway (Mythic)"
 Inst165Quest3_Aim = "Defeat Advisor Vandros in The Arcway on Mythic difficulty."
 Inst165Quest3_Location = "The Arcway (Auto-accept)"
-Inst165Quest3_Note = ""
+Inst165Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst165Quest3_Prequest = "None"
 Inst165Quest3_Folgequest = "None"
 --
@@ -1378,7 +1439,7 @@ Inst165Quest3name1 = "Unmarked Suramar Vault Crate"
 Inst165Quest4 = "4. The Arcway: Clogged Drain"
 Inst165Quest4_Aim = "Defeat Sludge Face and Advisor Vandros in The Arcway."
 Inst165Quest4_Location = ""
-Inst165Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst165Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest4_Prequest = "None"
 Inst165Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -1387,7 +1448,7 @@ Inst165Quest4_Folgequest = "None"
 Inst165Quest5 = "5. The Arcway: Silver Serpent"
 Inst165Quest5_Aim = "Defeat Silver Serpent and Advisor Vandros in The Arcway."
 Inst165Quest5_Location = ""
-Inst165Quest5_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst165Quest5_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest5_Prequest = "None"
 Inst165Quest5_Folgequest = "None"
 -- No Rewards for this quest
@@ -1396,7 +1457,7 @@ Inst165Quest5_Folgequest = "None"
 Inst165Quest6 = "6. The Arcway: Wandering Plague"
 Inst165Quest6_Aim = "Defeat The Rat King and Advisor Vandros in The Arcway."
 Inst165Quest6_Location = ""
-Inst165Quest6_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst165Quest6_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest6_Prequest = "None"
 Inst165Quest6_Folgequest = "None"
 -- No Rewards for this quest
@@ -1471,7 +1532,7 @@ Inst166QAH = "7 Quests"
 Inst166Quest1 = "1. Vault of the Wardens"
 Inst166Quest1_Aim = "Defeat Cordana Felsong in Vault of the Wardens."
 Inst166Quest1_Location = "Vault of the Wardens (Auto-accept)"
-Inst166Quest1_Note = ""
+Inst166Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst166Quest1_Prequest = "None"
 Inst166Quest1_Folgequest = "None"
 --
@@ -1481,7 +1542,7 @@ Inst166Quest1name1 = "Bag of Confiscated Materials"
 Inst166Quest2 = "2. Vault of the Wardens (Heroic)"
 Inst166Quest2_Aim = "Defeat Cordana Felsong in Vault of the Wardens on Heroic difficulty or higher."
 Inst166Quest2_Location = "Vault of the Wardens (Auto-accept)"
-Inst166Quest2_Note = ""
+Inst166Quest2_Note = "Turn in quest to an NPC in your class hall."
 Inst166Quest2_Prequest = "None"
 Inst166Quest2_Folgequest = "None"
 --
@@ -1491,7 +1552,7 @@ Inst166Quest2name1 = "Bag of Confiscated Materials"
 Inst166Quest3 = "3. Vault of the Wardens (Mythic)"
 Inst166Quest3_Aim = "Defeat Cordana Felsong in Vault of the Wardens on Mythic difficulty."
 Inst166Quest3_Location = "Vault of the Wardens (Auto-accept)"
-Inst166Quest3_Note = ""
+Inst166Quest3_Note = "Turn in quest to an NPC in your class hall."
 Inst166Quest3_Prequest = "None"
 Inst166Quest3_Folgequest = "None"
 --
@@ -1501,7 +1562,7 @@ Inst166Quest3name1 = "Bag of Confiscated Materials"
 Inst166Quest4 = "4. Vault of the Wardens: How'd He Get Up There?"
 Inst166Quest4_Aim = "Defeat the Construct and Cordana in the Vault of the Wardens."
 Inst166Quest4_Location = ""
-Inst166Quest4_Note = "This is listed as a Dungeon World Quest.  No other information available yet."
+Inst166Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst166Quest4_Prequest = "None"
 Inst166Quest4_Folgequest = "None"
 -- No Rewards for this quest

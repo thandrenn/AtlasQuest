@@ -2735,6 +2735,10 @@ Inst157Quest4_QuestID = "44400"
 Inst157Quest4_Level = "105"
 Inst157Quest4_Attain = "105"
 
+Inst157Quest5_QuestID = "40878"
+Inst157Quest5_Level = "108"
+Inst157Quest5_Attain = "108"
+
 
 Inst157Quest1_HORDE_QuestID = "43557"
 Inst157Quest1_HORDE_Level = "110"
@@ -2752,11 +2756,16 @@ Inst157Quest4_HORDE_QuestID = "44400"
 Inst157Quest4_HORDE_Level = "105"
 Inst157Quest4_HORDE_Attain = "105"
 
+Inst157Quest5_HORDE_QuestID = "40878"
+Inst157Quest5_HORDE_Level = "108"
+Inst157Quest5_HORDE_Attain = "108"
+
 
 AQ_43557_Level = "110"
 AQ_44258_Level = "110"
 AQ_44259_Level = "110"
 AQ_44400_Level = "105"
+AQ_40878_Level = "108"
 
 
 
@@ -3122,6 +3131,10 @@ Inst162Quest11_QuestID = "43349"
 Inst162Quest11_Level = "98"
 Inst162Quest11_Attain = "98"
 
+Inst162Quest12_QuestID = "40877"
+Inst162Quest12_Level = "108"
+Inst162Quest12_Attain = "108"
+
 
 Inst162Quest1_HORDE_QuestID = "43509"
 Inst162Quest1_HORDE_Level = "110"
@@ -3167,6 +3180,11 @@ Inst162Quest11_HORDE_QuestID = "43349"
 Inst162Quest11_HORDE_Level = "98"
 Inst162Quest11_HORDE_Attain = "98"
 
+Inst162Quest12_HORDE_QuestID = "40877"
+Inst162Quest12_HORDE_Level = "108"
+Inst162Quest12_HORDE_Attain = "108"
+
+
 AQ_43509_Level = "110"
 AQ_44268_Level = "110"
 AQ_44269_Level = "110"
@@ -3178,6 +3196,7 @@ AQ_41040_Level = "110"
 AQ_41059_Level = "110"
 AQ_40072_Level = "110"
 AQ_43349_Level = "98"
+AQ_40877_Level = "108"
 
 
 
@@ -3219,6 +3238,10 @@ Inst163Quest9_QuestID = "43253"
 Inst163Quest9_Level = "110"
 Inst163Quest9_Attain = "110"
 
+Inst163Quest10_QuestID = "43596"
+Inst163Quest10_Level = "110"
+Inst163Quest10_Attain = "110"
+
 
 Inst163Quest1_HORDE_QuestID = "43553"
 Inst163Quest1_HORDE_Level = "110"
@@ -3256,6 +3279,10 @@ Inst163Quest9_HORDE_QuestID = "43253"
 Inst163Quest9_HORDE_Level = "110"
 Inst163Quest9_HORDE_Attain = "110"
 
+Inst163Quest10_HORDE_QuestID = "43596"
+Inst163Quest10_HORDE_Level = "110"
+Inst163Quest10_HORDE_Attain = "110"
+
 
 AQ_43553_Level = "110"
 AQ_44266_Level = "110"
@@ -3266,6 +3293,7 @@ AQ_42788_Level = "110"
 AQ_43586_Level = "110"
 AQ_43604_Level = "110"
 AQ_43253_Level = "110"
+AQ_43596_Level = "110"
 
 
 
