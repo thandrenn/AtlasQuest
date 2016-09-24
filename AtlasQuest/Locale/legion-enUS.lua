@@ -1571,7 +1571,7 @@ Inst166Quest4_Folgequest = "None"
 Inst166Quest5 = "5. Fel-Ravaged Tome"
 Inst166Quest5_Aim = "Bring the Fel-Ravaged Tome to Robert Newhearth in Dalaran."
 Inst166Quest5_Location = "Fel-Ravaged Tome (Vault of the Wardens - Vault of the Betrayer; "..YELLOW.."[5]"..WHITE..")"
-Inst166Quest5_Note = "Turns into Robert Newhearth at Dalaran - The Violet Citadel ("..YELLOW.."25.6, 45.0"..WHITE..")."
+Inst166Quest5_Note = "The Fel-Ravaged Tome is in the caves on the way to the final boss.  The quest turns into Robert Newhearth at Dalaran - The Violet Citadel ("..YELLOW.."25.6, 45.0"..WHITE..")."
 Inst166Quest5_Prequest = "None"
 Inst166Quest5_Folgequest = "None"
 -- No Rewards for this quest
