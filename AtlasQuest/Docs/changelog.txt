@@ -2,9 +2,10 @@
 Changelog
 =========
 
-Version 4.10.10  (September ??, 2016)
+Version 4.10.10  (October 2, 2016)
 
 - Updates for Atlas 1.34.02 changes.
+- NOTE: German translation not yet updated.  It is being worked on.
 - Added Quests:
 	- Assault on Violet Hold: Purple Pain
 	- Assault on Violet Hold: Cheating Death
