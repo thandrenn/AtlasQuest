@@ -8225,6 +8225,9 @@ Inst161Quest6Rewardtext = AQClassRewards
 --Quest 7 Alliance
 Inst161Quest7Rewardtext = AQNoReward
 
+--Quest 8 Alliance
+Inst161Quest8Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst161Quest1Rewardtext_HORDE = AQNoReward
@@ -8250,6 +8253,9 @@ Inst161Quest6Rewardtext_HORDE = AQClassRewards
 
 --Quest 7 Horde
 Inst161Quest7Rewardtext_HORDE = AQNoReward
+
+--Quest 8 Horde
+Inst161Quest8Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8490,6 +8496,13 @@ Inst164Quest6ID1 = "141400"
 --Quest 7 Alliance
 Inst164Quest7Rewardtext = AQClassRewards
 
+--Quest 8 Alliance
+Inst164Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst164Quest8ITC1 = Itemc4;
+Inst164Quest8description1 = AQITEM_POLEARM
+Inst164Quest8ID1 = "131733"
+
 
 --Quest 1 Horde
 Inst164Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8528,6 +8541,13 @@ Inst164Quest6ID1_HORDE = "141400"
 --Quest 7 Horde
 Inst164Quest7Rewardtext_HORDE = AQClassRewards
 
+--Quest 8 Horde
+Inst164Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst164Quest8ITC1_HORDE = Itemc4;
+Inst164Quest8description1_HORDE = AQITEM_POLEARM
+Inst164Quest8ID1_HORDE = "131733"
+
 
 
 --------------- INST165 - The Arcway ---------------
@@ -8562,6 +8582,16 @@ Inst165Quest5Rewardtext = AQNoReward
 --Quest 6 Alliance
 Inst165Quest6Rewardtext = AQNoReward
 
+--Quest 7 Alliance
+Inst165Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst165Quest7ITC1 = Itemc5;
+Inst165Quest7description1 = AQITEM_ITEM
+Inst165Quest7ID1 = "140409"
+
+--Quest 8 Alliance
+Inst165Quest8Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst165Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8592,6 +8622,16 @@ Inst165Quest5Rewardtext_HORDE = AQNoReward
 
 --Quest 6 Horde
 Inst165Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst165Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst165Quest7ITC1_HORDE = Itemc5;
+Inst165Quest7description1_HORDE = AQITEM_ITEM
+Inst165Quest7ID1_HORDE = "140409"
+
+--Quest 8 Horde
+Inst165Quest8Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8630,6 +8670,18 @@ Inst166Quest6Rewardtext = AQNoReward
 --Quest 7 Alliance
 Inst166Quest7Rewardtext = AQNoReward
 
+--Quest 8 Alliance
+Inst166Quest8Rewardtext = AQNoReward
+
+--Quest 9 Alliance
+Inst166Quest9Rewardtext = AQNoReward
+
+--Quest 10 Alliance
+Inst166Quest10Rewardtext = AQNoReward
+
+--Quest 11 Alliance
+Inst166Quest11Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst166Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8664,9 +8716,54 @@ Inst166Quest6Rewardtext_HORDE = AQNoReward
 --Quest 7 Horde
 Inst166Quest7Rewardtext_HORDE = AQNoReward
 
+--Quest 8 Horde
+Inst166Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst166Quest9Rewardtext_HORDE = AQNoReward
+
+--Quest 10 Horde
+Inst166Quest10Rewardtext_HORDE = AQNoReward
+
+--Quest 11 Horde
+Inst166Quest11Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST167 - The Emerald Nightmare ---------------
+
+--Quest 1 Alliance
+Inst167Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst167Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst167Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst167Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst167Quest4ITC1 = Itemc5;
+Inst167Quest4description1 = AQITEM_ITEM
+Inst167Quest4ID1 = "140444"
+
+
+--Quest 1 Horde
+Inst167Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst167Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst167Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst167Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst167Quest4ITC1_HORDE = Itemc5;
+Inst167Quest4description1_HORDE = AQITEM_ITEM
+Inst167Quest4ID1_HORDE = "140444"
 
 
 

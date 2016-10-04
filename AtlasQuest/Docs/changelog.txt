@@ -2,6 +2,25 @@
 Changelog
 =========
 
+Version 4.10.11  (October ??, 2016)
+
+- Added quests:
+	- Eye of Azshara: The Heart of Zin-Azshari
+	- Neltharion's Lair: Misdirected
+	- The Arcway: Opening the Arcway
+	- The Arcway: Long Buried Knowledge
+	- Vault of the Wardens: Startup Sequence
+	- Vault of the Wardens: More Than Just A Food Vendor
+	- Vault of the Wardens: The Enemy of My Enemy...
+	- Vault of the Wardens: Unleashing Judgment
+	- Emerald Nightmare: Piercing the Veil (Normal)
+	- Emerald Nightmare: Piercing the Veil (Heroic)
+	- Emerald Nightmare: Piercing the Veil (Mythic)
+	- Emerald Nightmare: The Stuff of Dreams
+	
+	
+
+
 Version 4.10.10  (October 2, 2016)
 
 - Updates for Atlas 1.34.02 changes.
