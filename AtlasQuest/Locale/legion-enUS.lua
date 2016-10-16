@@ -171,8 +171,8 @@ Inst157Quest5_HORDE_Folgequest = Inst157Quest5_Folgequest
 --------------- INST158 - Black Rook Hold ---------------
 
 Inst158Caption = "Black Rook Hold"
-Inst158QAA = "8 Quests"
-Inst158QAH = "8 Quests"
+Inst158QAA = "9 Quests"
+Inst158QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst158Quest1 = "1. The Lord of Black Rook Hold"
