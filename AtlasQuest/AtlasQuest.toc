@@ -1,4 +1,4 @@
-﻿## Interface: 70000
+﻿## Interface: 70100
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -21,7 +21,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE
-## X-Date: October 2, 2016
+## X-Date: October 28, 2016
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 

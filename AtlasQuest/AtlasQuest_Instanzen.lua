@@ -731,4 +731,5 @@ end
 -- 166 = DUNGEON: Vault of the Wardens
 -- 167 = RAID: The Emerald Nightmare
 -- 168 = RAID: The Nighthold
+-- 169 = DUNGEON: Karazhan (Legion)
 

@@ -36,6 +36,7 @@
 -- 166 = DUNGEON: Vault of the Wardens
 -- 167 = RAID: The Emerald Nightmare
 -- 168 = RAID: The Nighthold
+-- 169 = DUNGEON: Karazhan (Legion)
 
 
 --
@@ -66,8 +67,8 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST157 - Assault on Violet Hold ---------------
 
 Inst157Caption = "Assault on Violet Hold"
-Inst157QAA = "5 Quests"
-Inst157QAH = "5 Quests"
+Inst157QAA = "6 Quests"
+Inst157QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst157Quest1 = "1. Violet Hold"
@@ -112,10 +113,21 @@ Inst157Quest4_Folgequest = "None"
 Inst157Quest5 = "5. Cheating Death"
 Inst157Quest5_Aim = "Craft 2 Failure Detection Pylons. Go to the Violet Hold and recover a Plasmatic Laser Bolt and return everything to Didi the Wrench in Dalaran."
 Inst157Quest5_Location = "Didi the Wrench (Dalaran - The Violet Hold; "..YELLOW.."38.6, 25.0"..WHITE..")"
-Inst157Quest5_Note = "Engineering quest.  Craft the two Failure Detection Pylons.  The Plasmatic Laser Bolt is in the back of the cell of the second boss (which is random).  The reward teaches you a new Engineering Schematic."
+Inst157Quest5_Note = "Engineering quest.  Craft the two Failure Detection Pylons.  The Plasmatic Laser Bolt is in the back of the cell of the first or second boss.  Go into the cell before the end of the instance to retrieve the item.   The reward teaches you a new Engineering Schematic."
 Inst157Quest5_Prequest = "None"
 Inst157Quest5_Folgequest = "None"
 -- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst157Quest6 = "6. Uncovering Orders"
+Inst157Quest6_Aim = "Recover the Fragment of Spite from Blackrook Hold (Mythic), the Fragment of Power from Violet Hold (Mythic), and the Fragment of Torment from Vault of the Wardens (Mythic)."
+Inst157Quest6_Location = "Archmage Khadgar (Dalaran - Violet Citadel; "..YELLOW.."28.8, 48.6"..WHITE..")"
+Inst157Quest6_Note = "Karazhan attunement questline.  Can only be completed on Mythic or Mythic+ difficulty."
+Inst157Quest6_Prequest = "Edict of the God-King -> Unwanted Evidence"
+Inst157Quest6_Folgequest = "Aura of Uncertainty"
+Inst157Quest6PreQuest = "true"
+--
+Inst157Quest6name1 = "Demonic Command Shards"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -166,13 +178,24 @@ Inst157Quest5_HORDE_Prequest = Inst157Quest5_Prequest
 Inst157Quest5_HORDE_Folgequest = Inst157Quest5_Folgequest
 -- No Rewards for this quest
 
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst157Quest6_HORDE = Inst157Quest6
+Inst157Quest6_HORDE_Aim = Inst157Quest6_Aim
+Inst157Quest6_HORDE_Location = Inst157Quest6_Location
+Inst157Quest6_HORDE_Note = Inst157Quest6_Note
+Inst157Quest6_HORDE_Prequest = Inst157Quest6_Prequest
+Inst157Quest6_HORDE_Folgequest = Inst157Quest6_Folgequest
+Inst157Quest6PreQuest_HORDE = Inst157Quest6PreQuest
+--
+Inst157Quest6name1_HORDE = Inst157Quest6name1
+
 
 
 --------------- INST158 - Black Rook Hold ---------------
 
 Inst158Caption = "Black Rook Hold"
-Inst158QAA = "9 Quests"
-Inst158QAH = "9 Quests"
+Inst158QAA = "10 Quests"
+Inst158QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst158Quest1 = "1. The Lord of Black Rook Hold"
@@ -258,6 +281,17 @@ Inst158Quest9_Prequest = "Demonic Runes"
 Inst158Quest9_Folgequest = "None"
 Inst158Quest9PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst158Quest10 = "10. Uncovering Orders"
+Inst158Quest10_Aim = "Recover the Fragment of Spite from Blackrook Hold (Mythic), the Fragment of Power from Violet Hold (Mythic), and the Fragment of Torment from Vault of the Wardens (Mythic)."
+Inst158Quest10_Location = "Archmage Khadgar (Dalaran - Violet Citadel; "..YELLOW.."28.8, 48.6"..WHITE..")"
+Inst158Quest10_Note = "Karazhan attunement questline.  Can only be completed on Mythic or Mythic+ difficulty."
+Inst158Quest10_Prequest = "Edict of the God-King -> Unwanted Evidence"
+Inst158Quest10_Folgequest = "Aura of Uncertainty"
+Inst158Quest10PreQuest = "true"
+--
+Inst158Quest10name1 = "Demonic Command Shards"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -345,17 +379,28 @@ Inst158Quest9_HORDE_Folgequest = Inst158Quest9_Folgequest
 Inst158Quest9PreQuest_HORDE = Inst158Quest9PreQuest
 -- No Rewards for this quest
 
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst158Quest10_HORDE = Inst158Quest10
+Inst158Quest10_HORDE_Aim = Inst158Quest10_Aim
+Inst158Quest10_HORDE_Location = Inst158Quest10_Location
+Inst158Quest10_HORDE_Note = Inst158Quest10_Note
+Inst158Quest10_HORDE_Prequest = Inst158Quest10_Prequest
+Inst158Quest10_HORDE_Folgequest = Inst158Quest10_Folgequest
+Inst158Quest10PreQuest_HORDE = Inst158Quest10PreQuest
+--
+Inst158Quest10name1_HORDE = Inst158Quest10name1
+
 
 
 --------------- INST159 - Court of Stars ---------------
 
 Inst159Caption = "Court of Stars"
-Inst159QAA = "7 Quests"
-Inst159QAH = "7 Quests"
+Inst159QAA = "5 Quests"
+Inst159QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst159Quest1 = "1. Court of Stars"
-Inst159Quest1_Aim = "Defeat Advisor Melandrus in Court of Stars."
+Inst159Quest1 = "1. Court of Stars (Mythic)"
+Inst159Quest1_Aim = "Defeat Advisor Melandrus in Court of Stars on Mythic difficulty."
 Inst159Quest1_Location = "Court of Stars (Auto-accept)"
 Inst159Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst159Quest1_Prequest = "None"
@@ -364,28 +409,26 @@ Inst159Quest1_Folgequest = "None"
 Inst159Quest1name1 = "Nightborne Rucksack"
 
 --Quest 2 Alliance
-Inst159Quest2 = "2. Court of Stars (Heroic)"
-Inst159Quest2_Aim = "Defeat Advisor Melandrus in Court of Stars on Heroic difficulty or higher."
-Inst159Quest2_Location = "Court of Stars (Auto-accept)"
-Inst159Quest2_Note = "Turn in quest to an NPC in your class hall."
+Inst159Quest2 = "2. Court of Stars: Bring Me the Eyes"
+Inst159Quest2_Aim = "Kill Velimar and Advisor Melandrus in Court of Stars."
+Inst159Quest2_Location = ""
+Inst159Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest2_Prequest = "None"
 Inst159Quest2_Folgequest = "None"
---
-Inst159Quest2name1 = "Nightborne Rucksack"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst159Quest3 = "3. Court of Stars (Mythic)"
-Inst159Quest3_Aim = "Defeat Advisor Melandrus in Court of Stars on Mythic difficulty."
-Inst159Quest3_Location = "Court of Stars (Auto-accept)"
-Inst159Quest3_Note = "Turn in quest to an NPC in your class hall."
+Inst159Quest3 = "3. Court of Stars: Disarming the Watch"
+Inst159Quest3_Aim = "Collect 6 Nightwatch Weaponry and kill Advisor Melandrus in Court of Stars."
+Inst159Quest3_Location = ""
+Inst159Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest3_Prequest = "None"
 Inst159Quest3_Folgequest = "None"
---
-Inst159Quest3name1 = "Nightborne Rucksack"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst159Quest4 = "4. Court of Stars: Bring Me the Eyes"
-Inst159Quest4_Aim = "Kill Velimar and Advisor Melandrus in Court of Stars."
+Inst159Quest4 = "4. Court of Stars: The Deceitful Student"
+Inst159Quest4_Aim = "Kill Arcanist Malrodi and Advisor Melandrus in Court of Stars."
 Inst159Quest4_Location = ""
 Inst159Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest4_Prequest = "None"
@@ -393,32 +436,14 @@ Inst159Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst159Quest5 = "5. Court of Stars: Disarming the Watch"
-Inst159Quest5_Aim = "Collect 6 Nightwatch Weaponry and kill Advisor Melandrus in Court of Stars."
-Inst159Quest5_Location = ""
-Inst159Quest5_Note = AQ_WORLDDUNGEONQUEST
+Inst159Quest5 = "5. Beware the Fury of a Patient Elf"
+Inst159Quest5_Aim = "Enter the Court of Stars dungeon and slay Advisor Melandrus. Collect his Spellstone and return it to Thalyssra."
+Inst159Quest5_Location = "First Arcanist Thalyssra (Suramar - Meredii; "..YELLOW.."36.4, 46.8"..WHITE..")"
+Inst159Quest5_Note = "Advisor Melandrus is located at "..YELLOW.."[3]"..WHITE.."."
 Inst159Quest5_Prequest = "None"
 Inst159Quest5_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst159Quest6 = "6. Court of Stars: The Deceitful Student"
-Inst159Quest6_Aim = "Kill Arcanist Malrodi and Advisor Melandrus in Court of Stars."
-Inst159Quest6_Location = ""
-Inst159Quest6_Note = AQ_WORLDDUNGEONQUEST
-Inst159Quest6_Prequest = "None"
-Inst159Quest6_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst159Quest7 = "7. Beware the Fury of a Patient Elf"
-Inst159Quest7_Aim = "Enter the Court of Stars dungeon and slay Advisor Melandrus. Collect his Spellstone and return it to Thalyssra."
-Inst159Quest7_Location = "First Arcanist Thalyssra (Suramar - Meredii; "..YELLOW.."36.4, 46.8"..WHITE..")"
-Inst159Quest7_Note = "Advisor Melandrus is located at "..YELLOW.."[3]"..WHITE.."."
-Inst159Quest7_Prequest = "None"
-Inst159Quest7_Folgequest = "None"
 --
-Inst159Quest7name1 = "Ancient Qiraji Idol"
+Inst159Quest5name1 = "Ancient Qiraji Idol"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -438,8 +463,7 @@ Inst159Quest2_HORDE_Location = Inst159Quest2_Location
 Inst159Quest2_HORDE_Note = Inst159Quest2_Note
 Inst159Quest2_HORDE_Prequest = Inst159Quest2_Prequest
 Inst159Quest2_HORDE_Folgequest = Inst159Quest2_Folgequest
---
-Inst159Quest2name1_HORDE = Inst159Quest2name1
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst159Quest3_HORDE = Inst159Quest3
@@ -448,8 +472,7 @@ Inst159Quest3_HORDE_Location = Inst159Quest3_Location
 Inst159Quest3_HORDE_Note = Inst159Quest3_Note
 Inst159Quest3_HORDE_Prequest = Inst159Quest3_Prequest
 Inst159Quest3_HORDE_Folgequest = Inst159Quest3_Folgequest
---
-Inst159Quest3name1_HORDE = Inst159Quest3name1
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst159Quest4_HORDE = Inst159Quest4
@@ -467,26 +490,8 @@ Inst159Quest5_HORDE_Location = Inst159Quest5_Location
 Inst159Quest5_HORDE_Note = Inst159Quest5_Note
 Inst159Quest5_HORDE_Prequest = Inst159Quest5_Prequest
 Inst159Quest5_HORDE_Folgequest = Inst159Quest5_Folgequest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst159Quest6_HORDE = Inst159Quest6
-Inst159Quest6_HORDE_Aim = Inst159Quest6_Aim
-Inst159Quest6_HORDE_Location = Inst159Quest6_Location
-Inst159Quest6_HORDE_Note = Inst159Quest6_Note
-Inst159Quest6_HORDE_Prequest = Inst159Quest6_Prequest
-Inst159Quest6_HORDE_Folgequest = Inst159Quest6_Folgequest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst159Quest7_HORDE = Inst159Quest7
-Inst159Quest7_HORDE_Aim = Inst159Quest7_Aim
-Inst159Quest7_HORDE_Location = Inst159Quest7_Location
-Inst159Quest7_HORDE_Note = Inst159Quest7_Note
-Inst159Quest7_HORDE_Prequest = Inst159Quest7_Prequest
-Inst159Quest7_HORDE_Folgequest = Inst159Quest7_Folgequest
 --
-Inst159Quest7name1_HORDE = Inst159Quest7name1
+Inst159Quest5name1_HORDE = Inst159Quest5name1
 
 
 
@@ -837,8 +842,8 @@ Inst161Quest8_HORDE_Folgequest = Inst161Quest8_Folgequest
 --------------- INST162 - Halls of Valor ---------------
 
 Inst162Caption = "Halls of Valor"
-Inst162QAA = "12 Quests"
-Inst162QAH = "12 Quests"
+Inst162QAA = "14 Quests"
+Inst162QAH = "14 Quests"
 
 --Quest 1 Alliance
 Inst162Quest1 = "1. Odyn's Challenge"
@@ -955,6 +960,25 @@ Inst162Quest12_Prequest = "None"
 Inst162Quest12_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 13 Alliance
+Inst162Quest13 = "13. Edict of the God-King"
+Inst162Quest13_Aim = "Defeat God-King Skovald in Halls of Valor on Mythic difficulty."
+Inst162Quest13_Location = "Archmage Khadgar (Dalaran - Violet Citadel; "..YELLOW.."28.8, 48.6"..WHITE..")"
+Inst162Quest13_Note = "Karazhan attunement questline.  Requires Mythic or Mythic+ difficulty.  God-King Skovald is at "..YELLOW.."[4]"..WHITE.."."
+Inst162Quest13_Prequest = "None"
+Inst162Quest13_Folgequest = "Unwanted Evidence"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst162Quest14 = "14. Unwanted Evidence"
+Inst162Quest14_Aim = "Bring the Fel Crystal Fragment to Archmage Khadgar in Dalaran."
+Inst162Quest14_Location = "Halls of Valor; "..YELLOW.."[4]"
+Inst162Quest14_Note = "Karazhan attunement questline.  Archmage Khadgar is at Dalaran - Violet Citadel; "..YELLOW.."28.8, 48.6"..WHITE.."."
+Inst162Quest14_Prequest = "Edict of the God-King"
+Inst162Quest14_Folgequest = "Uncovering Orders"
+Inst162Quest14FQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst162Quest1_HORDE = Inst162Quest1
@@ -1069,6 +1093,25 @@ Inst162Quest12_HORDE_Location = Inst162Quest12_Location
 Inst162Quest12_HORDE_Note = Inst162Quest12_Note
 Inst162Quest12_HORDE_Prequest = Inst162Quest12_Prequest
 Inst162Quest12_HORDE_Folgequest = Inst162Quest12_Folgequest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst162Quest13_HORDE = Inst162Quest13
+Inst162Quest13_HORDE_Aim = Inst162Quest13_Aim
+Inst162Quest13_HORDE_Location = Inst162Quest13_Location
+Inst162Quest13_HORDE_Note = Inst162Quest13_Note
+Inst162Quest13_HORDE_Prequest = Inst162Quest13_Prequest
+Inst162Quest13_HORDE_Folgequest = Inst162Quest13_Folgequest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst162Quest14_HORDE = Inst162Quest14
+Inst162Quest14_HORDE_Aim = Inst162Quest14_Aim
+Inst162Quest14_HORDE_Location = Inst162Quest14_Location
+Inst162Quest14_HORDE_Note = Inst162Quest14_Note
+Inst162Quest14_HORDE_Prequest = Inst162Quest14_Prequest
+Inst162Quest14_HORDE_Folgequest = Inst162Quest14_Folgequest
+Inst162Quest14FQuest_HORDE = Inst162Quest14FQuest
 -- No Rewards for this quest
 
 
@@ -1443,12 +1486,12 @@ Inst164Quest8name1_HORDE = Inst164Quest8name1
 --------------- INST165 - The Arcway ---------------
 
 Inst165Caption = "The Arcway"
-Inst165QAA = "8 Quests"
-Inst165QAH = "8 Quests"
+Inst165QAA = "6 Quests"
+Inst165QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst165Quest1 = "1. The Arcway"
-Inst165Quest1_Aim = "Defeat Advisor Vandros in The Arcway."
+Inst165Quest1 = "1. The Arcway (Mythic)"
+Inst165Quest1_Aim = "Defeat Advisor Vandros in The Arcway on Mythic difficulty."
 Inst165Quest1_Location = "The Arcway (Auto-accept)"
 Inst165Quest1_Note = "Turn in quest to an NPC in your class hall."
 Inst165Quest1_Prequest = "None"
@@ -1457,28 +1500,26 @@ Inst165Quest1_Folgequest = "None"
 Inst165Quest1name1 = "Unmarked Suramar Vault Crate"
 
 --Quest 2 Alliance
-Inst165Quest2 = "2. The Arcway (Heroic)"
-Inst165Quest2_Aim = "Defeat Advisor Vandros in The Arcway on Heroic difficulty or higher."
-Inst165Quest2_Location = "The Arcway (Auto-accept)"
-Inst165Quest2_Note = "Turn in quest to an NPC in your class hall."
+Inst165Quest2 = "2. The Arcway: Clogged Drain"
+Inst165Quest2_Aim = "Defeat Sludge Face and Advisor Vandros in The Arcway."
+Inst165Quest2_Location = ""
+Inst165Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest2_Prequest = "None"
 Inst165Quest2_Folgequest = "None"
---
-Inst165Quest2name1 = "Unmarked Suramar Vault Crate"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst165Quest3 = "3. The Arcway (Mythic)"
-Inst165Quest3_Aim = "Defeat Advisor Vandros in The Arcway on Mythic difficulty."
-Inst165Quest3_Location = "The Arcway (Auto-accept)"
-Inst165Quest3_Note = "Turn in quest to an NPC in your class hall."
+Inst165Quest3 = "3. The Arcway: Silver Serpent"
+Inst165Quest3_Aim = "Defeat Silver Serpent and Advisor Vandros in The Arcway."
+Inst165Quest3_Location = ""
+Inst165Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest3_Prequest = "None"
 Inst165Quest3_Folgequest = "None"
---
-Inst165Quest3name1 = "Unmarked Suramar Vault Crate"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst165Quest4 = "4. The Arcway: Clogged Drain"
-Inst165Quest4_Aim = "Defeat Sludge Face and Advisor Vandros in The Arcway."
+Inst165Quest4 = "4. The Arcway: Wandering Plague"
+Inst165Quest4_Aim = "Defeat The Rat King and Advisor Vandros in The Arcway."
 Inst165Quest4_Location = ""
 Inst165Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest4_Prequest = "None"
@@ -1486,42 +1527,24 @@ Inst165Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst165Quest5 = "5. The Arcway: Silver Serpent"
-Inst165Quest5_Aim = "Defeat Silver Serpent and Advisor Vandros in The Arcway."
-Inst165Quest5_Location = ""
-Inst165Quest5_Note = AQ_WORLDDUNGEONQUEST
-Inst165Quest5_Prequest = "None"
+Inst165Quest5 = "5. Opening the Arcway"
+Inst165Quest5_Aim = "Slay Advisor Vandros in the Arcway."
+Inst165Quest5_Location = "First Arcanist Thalyssra (Suramar - Shal'aran; "..YELLOW.."36.8, 46.6"..WHITE..")"
+Inst165Quest5_Note = "This quest will become available after reaching at least Honored and 8000 reputation with The Nightfallen and complete the questline up to Ly'leth's Champion.  It requires Mythic difficulty.\n\nAdvisor Vandros is the final boss, at "..YELLOW.."[5]"..WHITE.."."
+Inst165Quest5_Prequest = "Ly'leth's Champion"
 Inst165Quest5_Folgequest = "None"
--- No Rewards for this quest
+Inst165Quest5PreQuest = "true"
+--
+Inst165Quest5name1 = "Tome of Dimensional Awareness"
 
 --Quest 6 Alliance
-Inst165Quest6 = "6. The Arcway: Wandering Plague"
-Inst165Quest6_Aim = "Defeat The Rat King and Advisor Vandros in The Arcway."
-Inst165Quest6_Location = ""
-Inst165Quest6_Note = AQ_WORLDDUNGEONQUEST
-Inst165Quest6_Prequest = "None"
+Inst165Quest6 = "6. Long Buried Knowledge"
+Inst165Quest6_Aim = "Acquire the Suramar Leyline Map from the Arcway."
+Inst165Quest6_Location = "Arcanist Valtrois (Suramar - Shal'aran; "..YELLOW.."37.0, 46.2"..WHITE..")"
+Inst165Quest6_Note = "This quest will become available after reaching at least Honored and 8000 reputation with The Nightfallen and complete the questline up to Ly'leth's Champion.  It requires Mythic difficulty."
+Inst165Quest6_Prequest = "Ly'leth's Champion"
 Inst165Quest6_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst165Quest7 = "7. Opening the Arcway"
-Inst165Quest7_Aim = "Slay Advisor Vandros in the Arcway."
-Inst165Quest7_Location = "First Arcanist Thalyssra (Suramar - Shal'aran; "..YELLOW.."36.8, 46.6"..WHITE..")"
-Inst165Quest7_Note = "This quest will become available after reaching at least Honored and 8000 reputation with The Nightfallen and complete the questline up to Ly'leth's Champion.  It requires Mythic difficulty.\n\nAdvisor Vandros is the final boss, at "..YELLOW.."[5]"..WHITE.."."
-Inst165Quest7_Prequest = "Ly'leth's Champion"
-Inst165Quest7_Folgequest = "None"
-Inst165Quest7PreQuest = "true"
---
-Inst165Quest7name1 = "Tome of Dimensional Awareness"
-
---Quest 8 Alliance
-Inst165Quest8 = "8. Long Buried Knowledge"
-Inst165Quest8_Aim = "Acquire the Suramar Leyline Map from the Arcway."
-Inst165Quest8_Location = "Arcanist Valtrois (Suramar - Shal'aran; "..YELLOW.."37.0, 46.2"..WHITE..")"
-Inst165Quest8_Note = "This quest will become available after reaching at least Honored and 8000 reputation with The Nightfallen and complete the questline up to Ly'leth's Champion.  It requires Mythic difficulty."
-Inst165Quest8_Prequest = "Ly'leth's Champion"
-Inst165Quest8_Folgequest = "None"
-Inst165Quest8PreQuest = "true"
+Inst165Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1542,8 +1565,7 @@ Inst165Quest2_HORDE_Location = Inst165Quest2_Location
 Inst165Quest2_HORDE_Note = Inst165Quest2_Note
 Inst165Quest2_HORDE_Prequest = Inst165Quest2_Prequest
 Inst165Quest2_HORDE_Folgequest = Inst165Quest2_Folgequest
---
-Inst165Quest2name1_HORDE = Inst165Quest2name1
+-- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst165Quest3_HORDE = Inst165Quest3
@@ -1552,8 +1574,7 @@ Inst165Quest3_HORDE_Location = Inst165Quest3_Location
 Inst165Quest3_HORDE_Note = Inst165Quest3_Note
 Inst165Quest3_HORDE_Prequest = Inst165Quest3_Prequest
 Inst165Quest3_HORDE_Folgequest = Inst165Quest3_Folgequest
---
-Inst165Quest3name1_HORDE = Inst165Quest3name1
+-- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst165Quest4_HORDE = Inst165Quest4
@@ -1571,7 +1592,9 @@ Inst165Quest5_HORDE_Location = Inst165Quest5_Location
 Inst165Quest5_HORDE_Note = Inst165Quest5_Note
 Inst165Quest5_HORDE_Prequest = Inst165Quest5_Prequest
 Inst165Quest5_HORDE_Folgequest = Inst165Quest5_Folgequest
--- No Rewards for this quest
+Inst165Quest5PreQuest_HORDE = Inst165Quest5PreQuest
+--
+Inst165Quest5name1_HORDE = Inst165Quest5name1
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst165Quest6_HORDE = Inst165Quest6
@@ -1580,27 +1603,7 @@ Inst165Quest6_HORDE_Location = Inst165Quest6_Location
 Inst165Quest6_HORDE_Note = Inst165Quest6_Note
 Inst165Quest6_HORDE_Prequest = Inst165Quest6_Prequest
 Inst165Quest6_HORDE_Folgequest = Inst165Quest6_Folgequest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst165Quest7_HORDE = Inst165Quest7
-Inst165Quest7_HORDE_Aim = Inst165Quest7_Aim
-Inst165Quest7_HORDE_Location = Inst165Quest7_Location
-Inst165Quest7_HORDE_Note = Inst165Quest7_Note
-Inst165Quest7_HORDE_Prequest = Inst165Quest7_Prequest
-Inst165Quest7_HORDE_Folgequest = Inst165Quest7_Folgequest
-Inst165Quest7PreQuest_HORDE = Inst165Quest7PreQuest
---
-Inst165Quest7name1_HORDE = Inst165Quest7name1
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst165Quest8_HORDE = Inst165Quest8
-Inst165Quest8_HORDE_Aim = Inst165Quest8_Aim
-Inst165Quest8_HORDE_Location = Inst165Quest8_Location
-Inst165Quest8_HORDE_Note = Inst165Quest8_Note
-Inst165Quest8_HORDE_Prequest = Inst165Quest8_Prequest
-Inst165Quest8_HORDE_Folgequest = Inst165Quest8_Folgequest
-Inst165Quest8PreQuest_HORDE = Inst165Quest8PreQuest
+Inst165Quest6PreQuest_HORDE = Inst165Quest6PreQuest
 -- No Rewards for this quest
 
 
@@ -1608,8 +1611,8 @@ Inst165Quest8PreQuest_HORDE = Inst165Quest8PreQuest
 --------------- INST166 - Vault of the Wardens ---------------
 
 Inst166Caption = "Vault of the Wardens"
-Inst166QAA = "11 Quests"
-Inst166QAH = "11 Quests"
+Inst166QAA = "12 Quests"
+Inst166QAH = "12 Quests"
 
 --Quest 1 Alliance
 Inst166Quest1 = "1. Vault of the Wardens"
@@ -1715,6 +1718,17 @@ Inst166Quest11_Prequest = "The Light's Wrath -> Harnessing the Holy Fire"
 Inst166Quest11_Folgequest = "The Nexus Vault"
 Inst166Quest11PreQuest = "true"
 -- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst166Quest12 = "12. Uncovering Orders"
+Inst166Quest12_Aim = "Recover the Fragment of Spite from Blackrook Hold (Mythic), the Fragment of Power from Violet Hold (Mythic), and the Fragment of Torment from Vault of the Wardens (Mythic)."
+Inst166Quest12_Location = "Archmage Khadgar (Dalaran - Violet Citadel; "..YELLOW.."28.8, 48.6"..WHITE..")"
+Inst166Quest12_Note = "Karazhan attunement questline.  Can only be completed on Mythic or Mythic+ difficulty."
+Inst166Quest12_Prequest = "Edict of the God-King -> Unwanted Evidence"
+Inst166Quest12_Folgequest = "Aura of Uncertainty"
+Inst166Quest12PreQuest = "true"
+--
+Inst166Quest12name1 = "Demonic Command Shards"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1822,6 +1836,17 @@ Inst166Quest11_HORDE_Folgequest = Inst166Quest11_Folgequest
 Inst166Quest11PreQuest_HORDE = Inst166Quest11PreQuest
 -- No Rewards for this quest
 
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst166Quest12_HORDE = Inst166Quest12
+Inst166Quest12_HORDE_Aim = Inst166Quest12_Aim
+Inst166Quest12_HORDE_Location = Inst166Quest12_Location
+Inst166Quest12_HORDE_Note = Inst166Quest12_Note
+Inst166Quest12_HORDE_Prequest = Inst166Quest12_Prequest
+Inst166Quest12_HORDE_Folgequest = Inst166Quest12_Folgequest
+Inst166Quest12PreQuest_HORDE = Inst166Quest12PreQuest
+--
+Inst166Quest12name1_HORDE = Inst166Quest12name1
+
 
 
 --------------- INST167 - The Emerald Nightmare ---------------
@@ -1915,6 +1940,14 @@ Inst168QAH = "No Quests"
 
 
 
+
+
+
+--------------- INST169 - Karazhan (Legion) ---------------
+
+Inst169Caption = "Karazhan"
+Inst169QAA = "No Quests"
+Inst169QAH = "No Quests"
 
 
 

@@ -1120,7 +1120,7 @@ Inst163Quest6_Folgequest = "Nein"
 
 --Quest 7 Alliance
 Inst163Quest7 = "7. Nachricht für Helya"
-Inst163Quest7_Aim = "Bezwingt Helya im Dungeon "Der Seelenschlund."
+Inst163Quest7_Aim = "Bezwingt Helya im Dungeon Der Seelenschlund."
 Inst163Quest7_Location = "Odyn (Die Himmelsfeste; "..YELLOW.."58.4, 82.8"..WHITE..")"
 Inst163Quest7_Note = "Kriegerquest. Teil der Ordenshallenquestreihe. Helya ist der Endboss bei "..YELLOW.."[3]"..WHITE.."."
 Inst163Quest7_Prequest = "Nein"
