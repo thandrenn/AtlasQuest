@@ -432,9 +432,14 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareD") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareE") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareF") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareG") then
 		AQINSTANZ = 167;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdD") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdE") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdF") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdD") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdE") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdF") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdG") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdH") then
 		AQINSTANZ = 168;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\KarazhanA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\KarazhanB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdEnt") then
+		AQINSTANZ = 169;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TrialofValorA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TrialofValorB") then
+		AQINSTANZ = 170;
 		
 	-- Scenarios
 
@@ -732,4 +737,6 @@ end
 -- 167 = RAID: The Emerald Nightmare
 -- 168 = RAID: The Nighthold
 -- 169 = DUNGEON: Karazhan (Legion)
+-- 170 = RAID: Trial of Valor
+-- 171 = RAID: Tomb of Sargeras
 

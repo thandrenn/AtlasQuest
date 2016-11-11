@@ -37,6 +37,8 @@
 -- 167 = RAID: The Emerald Nightmare
 -- 168 = RAID: The Nighthold
 -- 169 = DUNGEON: Karazhan (Legion)
+-- 170 = RAID: Trial of Valor
+-- 171 = RAID: Tomb of Sargeras
 
 
 --
@@ -395,8 +397,8 @@ Inst158Quest10name1_HORDE = Inst158Quest10name1
 --------------- INST159 - Court of Stars ---------------
 
 Inst159Caption = "Court of Stars"
-Inst159QAA = "5 Quests"
-Inst159QAH = "5 Quests"
+Inst159QAA = "6 Quests"
+Inst159QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst159Quest1 = "1. Court of Stars (Mythic)"
@@ -445,6 +447,19 @@ Inst159Quest5_Folgequest = "None"
 --
 Inst159Quest5name1 = "Ancient Qiraji Idol"
 
+--Quest 6 Alliance
+Inst159Quest6 = "6. Revamping the Recoil"
+Inst159Quest6_Aim = "Go into the Court of Stars and recover the Arcanic Compressor for Hobart."
+Inst159Quest6_Location = "Hobart Grapplehammer (Dalaran; "..YELLOW.."38.6, 26.2"..WHITE..")"
+Inst159Quest6_Note = "Engineering quest.  The Arcanic Compressor drops from Patrol Captain Gerdo at "..YELLOW.."[1]"..WHITE.."."
+Inst159Quest6_Prequest = "None"
+Inst159Quest6_Folgequest = "None"
+--
+Inst159Quest6name1 = "Schematic: Semi-Automagic Cranial Cannon"
+Inst159Quest6name2 = "Schematic: Sawed-Off Cranial Cannon"
+Inst159Quest6name3 = "Schematic: Double-Barreled Cranial Cannon"
+Inst159Quest6name4 = "Schematic: Ironsight Cranial Cannon"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst159Quest1_HORDE = Inst159Quest1
@@ -492,6 +507,21 @@ Inst159Quest5_HORDE_Prequest = Inst159Quest5_Prequest
 Inst159Quest5_HORDE_Folgequest = Inst159Quest5_Folgequest
 --
 Inst159Quest5name1_HORDE = Inst159Quest5name1
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst159Quest6_HORDE = Inst159Quest6
+Inst159Quest6_HORDE_Aim = Inst159Quest6_Aim
+Inst159Quest6_HORDE_Location = Inst159Quest6_Location
+Inst159Quest6_HORDE_Note = Inst159Quest6_Note
+Inst159Quest6_HORDE_Prequest = Inst159Quest6_Prequest
+Inst159Quest6_HORDE_Folgequest = Inst159Quest6_Folgequest
+Inst159Quest6PreQuest_HORDE = Inst159Quest6PreQuest
+Inst159Quest6FQuest_HORDE = Inst159Quest6FQuest
+--
+Inst159Quest6name1_HORDE = Inst159Quest6name1
+Inst159Quest6name2_HORDE = Inst159Quest6name2
+Inst159Quest6name3_HORDE = Inst159Quest6name3
+Inst159Quest6name4_HORDE = Inst159Quest6name4
 
 
 
@@ -1946,8 +1976,272 @@ Inst168QAH = "No Quests"
 --------------- INST169 - Karazhan (Legion) ---------------
 
 Inst169Caption = "Karazhan"
-Inst169QAA = "No Quests"
-Inst169QAH = "No Quests"
+Inst169QAA = "9 Quests"
+Inst169QAH = "9 Quests"
+
+--Quest 1 Alliance
+Inst169Quest1 = "1. In the Eye of the Beholder"
+Inst169Quest1_Aim = "Defeat Viz'aduum the Watcher in Karazhan."
+Inst169Quest1_Location = "Archmage Khadgar (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.4"..WHITE..")"
+Inst169Quest1_Note = "Viz'aduum the Watcher is at "..YELLOW.."[10]"..WHITE..".  Archmage Khadgar will appear after defeating him to complete the quest."
+Inst169Quest1_Prequest = "None"
+Inst169Quest1_Folgequest = "None"
+--
+Inst169Quest1name1 = "Viz'aduum's Eye"
+
+--Quest 2 Alliance
+Inst169Quest2 = "2. Fragments of the Past"
+Inst169Quest2_Aim = "Collect the Soul Fragments from the Guest Chambers, Banquet Hall, Servant Quarters, Opera Hall and the Menagerie inside Karazhan."
+Inst169Quest2_Location = "Archmage Khadgar (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.4"..WHITE..")"
+Inst169Quest2_Note = "The fragments are spread around the dungeon.  Once clicked they will disappear.  Make sure all party members are present when clicked so that everyone on the quest receives credit.  Archmage Khadgar should appear after defeating the final boss to complete the quest."
+Inst169Quest2_Prequest = "None"
+Inst169Quest2_Folgequest = "None"
+--
+Inst169Quest2name1 = "Violet Seal of the Archmage"
+
+--Quest 3 Alliance
+Inst169Quest3 = "3. Book Wyrms"
+Inst169Quest3_Aim = "Pick up books in the Karazhan Library."
+Inst169Quest3_Location = "Mage Darius (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.4"..WHITE..")"
+Inst169Quest3_Note = ""
+Inst169Quest3_Prequest = "None"
+Inst169Quest3_Folgequest = "Rebooting the Cleaner"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst169Quest4 = "4. Rebooting the Cleaner"
+Inst169Quest4_Aim = "Disable the Curator and find the Box of Spare Motivator Crystals."
+Inst169Quest4_Location = ""
+Inst169Quest4_Note = "The Box of Spare Motivator Crystals is in the back left side of the room after defeating the Curator, at "..YELLOW.."[6]"..WHITE.."."
+Inst169Quest4_Prequest = "Book Wyrms"
+Inst169Quest4_Folgequest = "New Shoes"
+Inst169Quest4FQuest = "true"
+--
+Inst169Quest4name1 = "Violet Seal of the Archmage"
+
+--Quest 5 Alliance
+Inst169Quest5 = "5. New Shoes"
+Inst169Quest5_Aim = "Deliver the Box of 'New' Horseshoes to Koren the Blacksmith in Karazhan."
+Inst169Quest5_Location = ""
+Inst169Quest5_Note = ""
+Inst169Quest5_Prequest = "Rebooting the Cleaner"
+Inst169Quest5_Folgequest = "High Stress Hiatus"
+Inst169Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst169Quest6 = "6. High Stress Hiatus"
+Inst169Quest6_Aim = "Help Darius soothe the old casts egos by finding a Positive Review amongst the audience members to simmer tensions between Romulo and Julianne, stealing a Bouquet of Roses from one of the new acts for Tinhead's vanity and finding where the understudy stashed Little Red's cape in the Chess room."
+Inst169Quest6_Location = ""
+Inst169Quest6_Note = ""
+Inst169Quest6_Prequest = "New Shoes"
+Inst169Quest6_Folgequest = "Clearing Out the Cobwebs"
+Inst169Quest6FQuest = "true"
+--
+Inst169Quest6name1 = "Violet Seal of the Archmage"
+
+--Quest 7 Alliance
+Inst169Quest7 = "7. Clearing Out the Cobwebs"
+Inst169Quest7_Aim = "Clean out spiders from the Servant's Quarters."
+Inst169Quest7_Location = ""
+Inst169Quest7_Note = "After completing this quest, Kill Nightbane at "..YELLOW.."[]"..WHITE.." and pickup an item off him to start the next quest."
+Inst169Quest7_Prequest = "High Stress Hiatus"
+Inst169Quest7_Folgequest = "No Bones About It"
+Inst169Quest7FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst169Quest8 = "8. No Bones About It"
+Inst169Quest8_Aim = "Take the Charred Bone Fragments to Darius."
+Inst169Quest8_Location = ""
+Inst169Quest8_Note = ""
+Inst169Quest8_Prequest = "Clearing Out the Cobwebs"
+Inst169Quest8_Folgequest = "None"
+Inst169Quest8FQuest = "true"
+--
+Inst169Quest8name1 = "Violet Seal of the Grand Magus"
+
+--Quest 9 Alliance
+Inst169Quest9 = "9. The Tower of Power"
+Inst169Quest9_Aim = "Defeat Viz'aduum the Watcher in Karazhan on Mythic difficulty."
+Inst169Quest9_Location = "Obtained from Order Hall mission."
+Inst169Quest9_Note = "Viz'aduum the Watcher is at "..YELLOW.."[10]"..WHITE..".  Turn in the completed quest in your Order Hall."
+Inst169Quest9_Prequest = "None"
+Inst169Quest9_Folgequest = "None"
+--
+Inst169Quest9name1 = "Glittering Pack"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst169Quest1_HORDE = Inst169Quest1
+Inst169Quest1_HORDE_Aim = Inst169Quest1_Aim
+Inst169Quest1_HORDE_Location = Inst169Quest1_Location
+Inst169Quest1_HORDE_Note = Inst169Quest1_Note
+Inst169Quest1_HORDE_Prequest = Inst169Quest1_Prequest
+Inst169Quest1_HORDE_Folgequest = Inst169Quest1_Folgequest
+--
+Inst169Quest1name1_HORDE = Inst169Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst169Quest2_HORDE = Inst169Quest2
+Inst169Quest2_HORDE_Aim = Inst169Quest2_Aim
+Inst169Quest2_HORDE_Location = Inst169Quest2_Location
+Inst169Quest2_HORDE_Note = Inst169Quest2_Note
+Inst169Quest2_HORDE_Prequest = Inst169Quest2_Prequest
+Inst169Quest2_HORDE_Folgequest = Inst169Quest2_Folgequest
+--
+Inst169Quest2name1_HORDE = Inst169Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst169Quest3_HORDE = Inst169Quest3
+Inst169Quest3_HORDE_Aim = Inst169Quest3_Aim
+Inst169Quest3_HORDE_Location = Inst169Quest3_Location
+Inst169Quest3_HORDE_Note = Inst169Quest3_Note
+Inst169Quest3_HORDE_Prequest = Inst169Quest3_Prequest
+Inst169Quest3_HORDE_Folgequest = Inst169Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst169Quest4_HORDE = Inst169Quest4
+Inst169Quest4_HORDE_Aim = Inst169Quest4_Aim
+Inst169Quest4_HORDE_Location = Inst169Quest4_Location
+Inst169Quest4_HORDE_Note = Inst169Quest4_Note
+Inst169Quest4_HORDE_Prequest = Inst169Quest4_Prequest
+Inst169Quest4_HORDE_Folgequest = Inst169Quest4_Folgequest
+Inst169Quest4FQuest_HORDE = Inst169Quest4FQuest
+--
+Inst169Quest4name1_HORDE = Inst169Quest4name1
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst169Quest5_HORDE = Inst169Quest5
+Inst169Quest5_HORDE_Aim = Inst169Quest5_Aim
+Inst169Quest5_HORDE_Location = Inst169Quest5_Location
+Inst169Quest5_HORDE_Note = Inst169Quest5_Note
+Inst169Quest5_HORDE_Prequest = Inst169Quest5_Prequest
+Inst169Quest5_HORDE_Folgequest = Inst169Quest5_Folgequest
+Inst169Quest5FQuest_HORDE = Inst169Quest5FQuest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst169Quest6_HORDE = Inst169Quest6
+Inst169Quest6_HORDE_Aim = Inst169Quest6_Aim
+Inst169Quest6_HORDE_Location = Inst169Quest6_Location
+Inst169Quest6_HORDE_Note = Inst169Quest6_Note
+Inst169Quest6_HORDE_Prequest = Inst169Quest6_Prequest
+Inst169Quest6_HORDE_Folgequest = Inst169Quest6_Folgequest
+Inst169Quest6FQuest_HORDE = Inst169Quest6FQuest
+--
+Inst169Quest6name1_HORDE = Inst169Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst169Quest7_HORDE = Inst169Quest7
+Inst169Quest7_HORDE_Aim = Inst169Quest7_Aim
+Inst169Quest7_HORDE_Location = Inst169Quest7_Location
+Inst169Quest7_HORDE_Note = Inst169Quest7_Note
+Inst169Quest7_HORDE_Prequest = Inst169Quest7_Prequest
+Inst169Quest7_HORDE_Folgequest = Inst169Quest7_Folgequest
+Inst169Quest7FQuest_HORDE = Inst169Quest7FQuest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst169Quest8_HORDE = Inst169Quest8
+Inst169Quest8_HORDE_Aim = Inst169Quest8_Aim
+Inst169Quest8_HORDE_Location = Inst169Quest8_Location
+Inst169Quest8_HORDE_Note = Inst169Quest8_Note
+Inst169Quest8_HORDE_Prequest = Inst169Quest8_Prequest
+Inst169Quest8_HORDE_Folgequest = Inst169Quest8_Folgequest
+Inst169Quest8FQuest_HORDE = Inst169Quest8FQuest
+--
+Inst169Quest8name1_HORDE = Inst169Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst169Quest9_HORDE = Inst169Quest9
+Inst169Quest9_HORDE_Aim = Inst169Quest9_Aim
+Inst169Quest9_HORDE_Location = Inst169Quest9_Location
+Inst169Quest9_HORDE_Note = Inst169Quest9_Note
+Inst169Quest9_HORDE_Prequest = Inst169Quest9_Prequest
+Inst169Quest9_HORDE_Folgequest = Inst169Quest9_Folgequest
+--
+Inst169Quest9name1_HORDE = Inst169Quest9name1
+
+
+
+--------------- INST170 - Trial of Valor ---------------
+
+Inst170Caption = "Trial of Valor"
+Inst170QAA = "3 Quests"
+Inst170QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst170Quest1 = "1. Odyn's Favor"
+Inst170Quest1_Aim = "Gain Odyn's favor within the Trial of Valor Raid."
+Inst170Quest1_Location = "Havi (Stormheim - Valdisdall; "..YELLOW.."60.2, 50.8"..WHITE..")"
+Inst170Quest1_Note = "Defeat Odyn at "..YELLOW.."[3]"..WHITE.." to gain his favor and complete the quest.  Requires Normal difficulty or higher.  The quest turns in to him."
+Inst170Quest1_Prequest = "A Call to Action -> Helya's Conquest"
+Inst170Quest1_Folgequest = "Odyn's Judgement"
+Inst170Quest1PreQuest = "true"
+--
+Inst170Quest1name1 = "Titan's Boon"
+
+--Quest 2 Alliance
+Inst170Quest2 = "2. Odyn's Judgement"
+Inst170Quest2_Aim = "Defeat Helya within the Trial of Valor Raid."
+Inst170Quest2_Location = "Odyn (Trial of Valor; "..YELLOW.."[3]"..WHITE..")"
+Inst170Quest2_Note = "Helya is located at "..YELLOW.."[5]"..WHITE..".  Requires Normal difficulty or higher."
+Inst170Quest2_Prequest = "Odyn's Favor"
+Inst170Quest2_Folgequest = "None"
+Inst170Quest2FQuest = "true"
+--
+Inst170Quest2name1 = "Plume of the Fallen Val'kyr"
+
+--Quest 3 Alliance
+Inst170Quest3 = "3. The Lost Army"
+Inst170Quest3_Aim = "Gather 1000 Valarjar Soul Fragments within the Trial of Valor Raid."
+Inst170Quest3_Location = "Odyn (Trial of Valor; "..YELLOW.."[3]"..WHITE..")"
+Inst170Quest3_Note = "These drop from Helya's minions and Helya herself.  Requires Normal difficulty or higher."
+Inst170Quest3_Prequest = "None"
+Inst170Quest3_Folgequest = "None"
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst170Quest1_HORDE = Inst170Quest1
+Inst170Quest1_HORDE_Aim = Inst170Quest1_Aim
+Inst170Quest1_HORDE_Location = Inst170Quest1_Location
+Inst170Quest1_HORDE_Note = Inst170Quest1_Note
+Inst170Quest1_HORDE_Prequest = Inst170Quest1_Prequest
+Inst170Quest1_HORDE_Folgequest = Inst170Quest1_Folgequest
+Inst170Quest1PreQuest_HORDE = Inst170Quest1PreQuest
+--
+Inst170Quest1name1_HORDE = Inst170Quest1name1
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst170Quest2_HORDE = Inst170Quest2
+Inst170Quest2_HORDE_Aim = Inst170Quest2_Aim
+Inst170Quest2_HORDE_Location = Inst170Quest2_Location
+Inst170Quest2_HORDE_Note = Inst170Quest2_Note
+Inst170Quest2_HORDE_Prequest = Inst170Quest2_Prequest
+Inst170Quest2_HORDE_Folgequest = Inst170Quest2_Folgequest
+Inst170Quest2FQuest_HORDE = Inst170Quest2FQuest
+--
+Inst170Quest2name1_HORDE = Inst170Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst170Quest3_HORDE = Inst170Quest3
+Inst170Quest3_HORDE_Aim = Inst170Quest3_Aim
+Inst170Quest3_HORDE_Location = Inst170Quest3_Location
+Inst170Quest3_HORDE_Note = Inst170Quest3_Note
+Inst170Quest3_HORDE_Prequest = Inst170Quest3_Prequest
+Inst170Quest3_HORDE_Folgequest = Inst170Quest3_Folgequest
+-- Reward varies for each class
+
+
+
+--------------- INST171 - Tomb of Sargeras ---------------
+
+Inst171Caption = "Tomb of Sargeras"
+Inst171QAA = "No Quests"
+Inst171QAH = "No Quests"
 
 
 

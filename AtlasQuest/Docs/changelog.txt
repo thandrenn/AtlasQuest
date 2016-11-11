@@ -2,6 +2,27 @@
 Changelog
 =========
 
+Version 4.10.21  (November ??, 2016)
+
+- Fixed a few bugs in German translation to keep LUA errors from popping up.
+
+- Added quests:
+	- Court of Stars: Revamping the Recoil
+	- Trial of Valor: Odyn's Favor
+	- Trial of Valor: Odyn's Judgement
+	- Trial of Valor: The Lost Army
+	- Karazhan: In the Eye of the Beholder
+	- Karazhan: Fragments of the Past
+	- Karazhan: Book Wyrms
+	- Karazhan: Rebooting the Cleaner
+	- Karazhan: New Shoes
+	- Karazhan: High Stress Hiatus
+	- Karazhan: Clearing Out the Cobwebs
+	- Karazhan: No Bones About It
+	- Karazhan: The Tower of Power
+	
+
+
 Version 4.10.20  (October 28, 2016)
 
 - TOC file updated for Patch 7.1

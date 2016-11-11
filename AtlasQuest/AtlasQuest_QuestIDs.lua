@@ -2896,6 +2896,10 @@ Inst159Quest5_QuestID = "43314"
 Inst159Quest5_Level = "110"
 Inst159Quest5_Attain = "110"
 
+Inst159Quest6_QuestID = "40882"
+Inst159Quest6_Level = "110"
+Inst159Quest6_Attain = "110"
+
 
 Inst159Quest1_HORDE_QuestID = "44275"
 Inst159Quest1_HORDE_Level = "110"
@@ -2917,12 +2921,17 @@ Inst159Quest5_HORDE_QuestID = "43314"
 Inst159Quest5_HORDE_Level = "110"
 Inst159Quest5_HORDE_Attain = "110"
 
+Inst159Quest6_HORDE_QuestID = "40882"
+Inst159Quest6_HORDE_Level = "110"
+Inst159Quest6_HORDE_Attain = "110"
+
 
 AQ_44275_Level = "110"
 AQ_42769_Level = "110"
 AQ_42781_Level = "110"
 AQ_42784_Level = "110"
 AQ_43314_Level = "110"
+AQ_40882_Level = "110"
 
 
 
@@ -3681,6 +3690,129 @@ AQ__Level = "110"
 
 --------------- INST169 - Karazhan (Legion) ---------------
 
+Inst169Quest1_QuestID = "44735"
+Inst169Quest1_Level = "110"
+Inst169Quest1_Attain = "110"
+
+Inst169Quest2_QuestID = "44734"
+Inst169Quest2_Level = "110"
+Inst169Quest2_Attain = "110"
+
+Inst169Quest3_QuestID = "45291"
+Inst169Quest3_Level = "110"
+Inst169Quest3_Attain = "110"
+
+Inst169Quest4_QuestID = "45292"
+Inst169Quest4_Level = "110"
+Inst169Quest4_Attain = "110"
+
+Inst169Quest5_QuestID = "45293"
+Inst169Quest5_Level = "110"
+Inst169Quest5_Attain = "110"
+
+Inst169Quest6_QuestID = "45294"
+Inst169Quest6_Level = "110"
+Inst169Quest6_Attain = "110"
+
+Inst169Quest7_QuestID = "45295"
+Inst169Quest7_Level = "110"
+Inst169Quest7_Attain = "110"
+
+Inst169Quest8_QuestID = "45296"
+Inst169Quest8_Level = "110"
+Inst169Quest8_Attain = "110"
+
+Inst169Quest9_QuestID = "44917"
+Inst169Quest9_Level = "110"
+Inst169Quest9_Attain = "110"
+
+
+Inst169Quest1_HORDE_QuestID = "44735"
+Inst169Quest1_HORDE_Level = "110"
+Inst169Quest1_HORDE_Attain = "110"
+
+Inst169Quest2_HORDE_QuestID = "44734"
+Inst169Quest2_HORDE_Level = "110"
+Inst169Quest2_HORDE_Attain = "110"
+
+Inst169Quest3_HORDE_QuestID = "45291"
+Inst169Quest3_HORDE_Level = "110"
+Inst169Quest3_HORDE_Attain = "110"
+
+Inst169Quest4_HORDE_QuestID = "45292"
+Inst169Quest4_HORDE_Level = "110"
+Inst169Quest4_HORDE_Attain = "110"
+
+Inst169Quest5_HORDE_QuestID = "45293"
+Inst169Quest5_HORDE_Level = "110"
+Inst169Quest5_HORDE_Attain = "110"
+
+Inst169Quest6_HORDE_QuestID = "45294"
+Inst169Quest6_HORDE_Level = "110"
+Inst169Quest6_HORDE_Attain = "110"
+
+Inst169Quest7_HORDE_QuestID = "45295"
+Inst169Quest7_HORDE_Level = "110"
+Inst169Quest7_HORDE_Attain = "110"
+
+Inst169Quest8_HORDE_QuestID = "45296"
+Inst169Quest8_HORDE_Level = "110"
+Inst169Quest8_HORDE_Attain = "110"
+
+Inst169Quest9_HORDE_QuestID = "44917"
+Inst169Quest9_HORDE_Level = "110"
+Inst169Quest9_HORDE_Attain = "110"
+
+
+
+AQ_44735_Level = "110"
+AQ_44734_Level = "110"
+AQ_45291_Level = "110"
+AQ_45292_Level = "110"
+AQ_45293_Level = "110"
+AQ_45294_Level = "110"
+AQ_45295_Level = "110"
+AQ_45296_Level = "110"
+AQ_44917_Level = "110"
+
+
+
+--------------- INST170 - Trial of Valor ---------------
+
+Inst170Quest1_QuestID = "44729"
+Inst170Quest1_Level = "110"
+Inst170Quest1_Attain = "110"
+
+Inst170Quest2_QuestID = ""
+Inst170Quest2_Level = "110"
+Inst170Quest2_Attain = "110"
+
+Inst170Quest3_QuestID = "45088"
+Inst170Quest3_Level = "110"
+Inst170Quest3_Attain = "110"
+
+
+Inst170Quest1_HORDE_QuestID = "44729"
+Inst170Quest1_HORDE_Level = "110"
+Inst170Quest1_HORDE_Attain = "110"
+
+Inst170Quest2_HORDE_QuestID = ""
+Inst170Quest2_HORDE_Level = "110"
+Inst170Quest2_HORDE_Attain = "110"
+
+Inst170Quest3_HORDE_QuestID = "45088"
+Inst170Quest3_HORDE_Level = "110"
+Inst170Quest3_HORDE_Attain = "110"
+
+
+
+AQ_44729_Level = "110"
+AQ__Level = "110"
+AQ_45088_Level = "110"
+
+
+
+--------------- INST171 - Tomb of Sargeras ---------------
 
 
 

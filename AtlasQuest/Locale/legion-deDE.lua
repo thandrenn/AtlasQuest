@@ -350,42 +350,40 @@ Inst158Quest9PreQuest_HORDE = "Dämonische Runen"
 --------------- INST159 - Court of Stars ---------------
 
 Inst159Caption = "Der Hof der Sterne"
-Inst159QAA = "7 Quests"
-Inst159QAH = "7 Quests"
+Inst159QAA = "5 Quests"
+Inst159QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst159Quest1 = "1. Der Hof der Sterne"
-Inst159Quest1_Aim = "Bezwingt Berater Melandrus im Hof der Sterne."
-Inst159Quest1_Location = "Der Hof der Sterne (Automatische Annahme)"
-Inst159Quest1_Note = Inst157Quest1_Location
+Inst159Quest1 = "1. Der Hof der Sterne (Mythisch)"
+Inst159Quest1_Aim = "Bezwingt Berater Melandrus im Hof der Sterne auf dem Schwierigkeitsgrad 'Mythisch'."
+Inst159Quest1_Location = ""
+Inst159Quest1_Note = ""
 Inst159Quest1_Prequest = "Nein"
 Inst159Quest1_Folgequest = "Nein"
 --
-Inst159Quest1name1 = "Rucksack der Nachtgeborenen"
+Inst159Quest1name1 = "Nightborne Rucksack"
 
 --Quest 2 Alliance
-Inst159Quest2 = "2. Der Hof der Sterne (Heroisch)"
-Inst159Quest2_Aim = "Bezwingt Berater Melandrus im Hof der Sterne auf dem Schwierigkeitsgrad 'Heroisch' oder höher."
-Inst159Quest2_Location = Inst159Quest1_Note
-Inst159Quest2_Note = Inst157Quest1_Location
+Inst159Quest2 = "2. Der Hof der Sterne: Bringt mir die Augen"
+Inst159Quest2_Aim = "Tötet Velimar und Berater Melandrus."
+Inst159Quest2_Location = ""
+Inst159Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest2_Prequest = "Nein"
 Inst159Quest2_Folgequest = "Nein"
---
-Inst159Quest2name1 = Inst159Quest1name1
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst159Quest3 = "3. Der Hof der Sterne (Mythisch)"
-Inst159Quest3_Aim = "Bezwingt Berater Melandrus im Hof der Sterne auf dem Schwierigkeitsgrad 'Mythisch'."
-Inst159Quest3_Location = Inst159Quest1_Note
-Inst159Quest3_Note = Inst157Quest1_Location
+Inst159Quest3 = "3. Der Hof der Sterne: Entwaffnung der Wache"
+Inst159Quest3_Aim = "Sammelt 6 Bewaffnung der Nachtwächter und tötet Berater Melandrus."
+Inst159Quest3_Location = ""
+Inst159Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest3_Prequest = "Nein"
 Inst159Quest3_Folgequest = "Nein"
---
-Inst159Quest3name1 = Inst159Quest1name1
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst159Quest4 = "4. Der Hof der Sterne: Bringt mir die Augen"
-Inst159Quest4_Aim = "Tötet Velimar und Berater Melandrus."
+Inst159Quest4 = "4. Der Hof der Sterne: Die hinterlistige Schülerin"
+Inst159Quest4_Aim = "Tötet Arkanistin Malrodi und Berater Melandrus."
 Inst159Quest4_Location = ""
 Inst159Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst159Quest4_Prequest = "Nein"
@@ -393,32 +391,14 @@ Inst159Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst159Quest5 = "5. Der Hof der Sterne: Entwaffnung der Wache"
-Inst159Quest5_Aim = "Sammelt 6 Bewaffnung der Nachtwächter und tötet Berater Melandrus."
-Inst159Quest5_Location = ""
-Inst159Quest5_Note = AQ_WORLDDUNGEONQUEST
+Inst159Quest5 = "5. Fürchtet den Zorn eines geduldigen Elfen"
+Inst159Quest5_Aim = "Betretet die Dungeon 'Der Hof der Sterne' und tötet Berater Melandrus. Nehmt ihm seinen Zauberstein ab und bringt ihn Thalyssra."
+Inst159Quest5_Location = "Erste Arkanistin Thalyssra (Suramar - Meredii; "..YELLOW.."36.4, 46.8"..WHITE..")"
+Inst159Quest5_Note = "Berater Melandrus ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst159Quest5_Prequest = "Nein"
 Inst159Quest5_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst159Quest6 = "6. Der Hof der Sterne: Die hinterlistige Schülerin"
-Inst159Quest6_Aim = "Tötet Arkanistin Malrodi und Berater Melandrus."
-Inst159Quest6_Location = ""
-Inst159Quest6_Note = AQ_WORLDDUNGEONQUEST
-Inst159Quest6_Prequest = "Nein"
-Inst159Quest6_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst159Quest7 = "7. Fürchtet den Zorn eines geduldigen Elfen"
-Inst159Quest7_Aim = "Betretet die Dungeon 'Der Hof der Sterne' und tötet Berater Melandrus. Nehmt ihm seinen Zauberstein ab und bringt ihn Thalyssra."
-Inst159Quest7_Location = "Erste Arkanistin Thalyssra (Suramar - Meredii; "..YELLOW.."36.4, 46.8"..WHITE..")"
-Inst159Quest7_Note = "Berater Melandrus ist bei "..YELLOW.."[3]"..WHITE.."."
-Inst159Quest7_Prequest = "Nein"
-Inst159Quest7_Folgequest = "Nein"
 --
-Inst159Quest7name1 = "Uralter Qirajigötze"
+Inst159Quest5name1 = "Uralter Qirajigötze"
 
 
 --Quest 1 Horde
@@ -438,8 +418,7 @@ Inst159Quest2_HORDE_Location = Inst159Quest2_Location
 Inst159Quest2_HORDE_Note = Inst159Quest2_Note
 Inst159Quest2_HORDE_Prequest = "Nein"
 Inst159Quest2_HORDE_Folgequest = "Nein"
---
-Inst159Quest2name1_HORDE = Inst159Quest2name1
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst159Quest3_HORDE = Inst159Quest3
@@ -448,8 +427,7 @@ Inst159Quest3_HORDE_Location = Inst159Quest3_Location
 Inst159Quest3_HORDE_Note = Inst159Quest3_Note
 Inst159Quest3_HORDE_Prequest = "Nein"
 Inst159Quest3_HORDE_Folgequest = "Nein"
---
-Inst159Quest3name1_HORDE = Inst159Quest3name1
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst159Quest4_HORDE = Inst159Quest4
@@ -467,26 +445,8 @@ Inst159Quest5_HORDE_Location = Inst159Quest5_Location
 Inst159Quest5_HORDE_Note = Inst159Quest5_Note
 Inst159Quest5_HORDE_Prequest = "Nein"
 Inst159Quest5_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 6 Horde
-Inst159Quest6_HORDE = Inst159Quest6
-Inst159Quest6_HORDE_Aim = Inst159Quest6_Aim
-Inst159Quest6_HORDE_Location = Inst159Quest6_Location
-Inst159Quest6_HORDE_Note = Inst159Quest6_Note
-Inst159Quest6_HORDE_Prequest = "Nein"
-Inst159Quest6_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 7 Horde
-Inst159Quest7_HORDE = Inst159Quest7
-Inst159Quest7_HORDE_Aim = Inst159Quest7_Aim
-Inst159Quest7_HORDE_Location = Inst159Quest7_Location
-Inst159Quest7_HORDE_Note = Inst159Quest7_Note
-Inst159Quest7_HORDE_Prequest = "Nein"
-Inst159Quest7_HORDE_Folgequest = "Nein"
 --
-Inst159Quest7name1_HORDE = Inst159Quest7name1
+Inst159Quest5name1_HORDE = Inst159Quest5name1
 
 
 
@@ -1404,13 +1364,13 @@ Inst164Quest7PreQuest_HORDE = "true"
 --------------- INST165 - The Arcway ---------------
 
 Inst165Caption = "Der Arkus"
-Inst165QAA = "3 Quests"
-Inst165QAH = "3 Quests"
+Inst165QAA = "4 Quests"
+Inst165QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst165Quest1 = "1. Der Arkus"
-Inst165Quest1_Aim = "Bezwingt Berater Vandros im Arkus."
-Inst165Quest1_Location = "The Arcway (Automatische Annahme)"
+Inst165Quest1 = "1. Der Arkus (Mythisch)"
+Inst165Quest1_Aim = "Bezwingt Berater Vandros im Arkus auf dem Schwierigkeitsgrad 'Mythisch'."
+Inst165Quest1_Location = ""
 Inst165Quest1_Note = Inst157Quest1_Location
 Inst165Quest1_Prequest = "Nein"
 Inst165Quest1_Folgequest = "Nein"
@@ -1418,50 +1378,30 @@ Inst165Quest1_Folgequest = "Nein"
 Inst165Quest1name1 = "Unmarked Suramar Vault Crate"
 
 --Quest 2 Alliance
-Inst165Quest2 = "2. Der Arkus (Heroisch)"
-Inst165Quest2_Aim = "Bezwingt Berater Vandros im Arkus auf dem Schwierigkeitsgrad 'Heroisch' oder höher."
-Inst165Quest2_Location = Inst165Quest1_Location
-Inst165Quest2_Note = Inst157Quest1_Location
+Inst165Quest2 = "2. The Arcway: Clogged Drain"
+Inst165Quest2_Aim = "Defeat Sludge Face and Advisor Vandros in The Arcway."
+Inst165Quest2_Location = ""
+Inst165Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest2_Prequest = "Nein"
-Inst165Quest2_Folgequest = "Neine"
---
-Inst165Quest2name1 = "Unmarked Suramar Vault Crate"
+Inst165Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst165Quest3 = "3. Der Arkus (Mythisch)"
-Inst165Quest3_Aim = "Bezwingt Berater Vandros im Arkus auf dem Schwierigkeitsgrad 'Mythisch'."
-Inst165Quest3_Location = Inst165Quest1_Location
-Inst165Quest3_Note = Inst157Quest1_Location
+Inst165Quest3 = "3. The Arcway: Silver Serpent"
+Inst165Quest3_Aim = "Defeat Silver Serpent and Advisor Vandros in The Arcway."
+Inst165Quest3_Location = ""
+Inst165Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest3_Prequest = "Nein"
 Inst165Quest3_Folgequest = "Nein"
---
-Inst165Quest3name1 = "Unmarked Suramar Vault Crate"
+-- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst165Quest4 = "4. The Arcway: Clogged Drain"
-Inst165Quest4_Aim = "Defeat Sludge Face and Advisor Vandros in The Arcway."
+Inst165Quest4 = "4. The Arcway: Wandering Plague"
+Inst165Quest4_Aim = "Defeat The Rat King and Advisor Vandros in The Arcway."
 Inst165Quest4_Location = ""
 Inst165Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest4_Prequest = "Nein"
 Inst165Quest4_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst165Quest5 = "5. The Arcway: Silver Serpent"
-Inst165Quest5_Aim = "Defeat Silver Serpent and Advisor Vandros in The Arcway."
-Inst165Quest5_Location = ""
-Inst165Quest5_Note = AQ_WORLDDUNGEONQUEST
-Inst165Quest5_Prequest = "Nein"
-Inst165Quest5_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst165Quest6 = "6. The Arcway: Wandering Plague"
-Inst165Quest6_Aim = "Defeat The Rat King and Advisor Vandros in The Arcway."
-Inst165Quest6_Location = ""
-Inst165Quest6_Note = AQ_WORLDDUNGEONQUEST
-Inst165Quest6_Prequest = "Nein"
-Inst165Quest6_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -1482,8 +1422,7 @@ Inst165Quest2_HORDE_Location = Inst165Quest2_Location
 Inst165Quest2_HORDE_Note = Inst165Quest2_Note
 Inst165Quest2_HORDE_Prequest = "Nein"
 Inst165Quest2_HORDE_Folgequest = "Nein"
---
-Inst165Quest2name1_HORDE = Inst165Quest2name1
+-- No Rewards for this quest
 
 --Quest 3 Horde
 Inst165Quest3_HORDE = Inst165Quest3
@@ -1492,8 +1431,7 @@ Inst165Quest3_HORDE_Location = Inst165Quest3_Location
 Inst165Quest3_HORDE_Note = Inst165Quest3_Note
 Inst165Quest3_HORDE_Prequest = "Nein"
 Inst165Quest3_HORDE_Folgequest = "Nein"
---
-Inst165Quest3name1_HORDE = Inst165Quest3name1
+-- No Rewards for this quest
 
 --Quest 4 Horde
 Inst165Quest4_HORDE = Inst165Quest4
@@ -1502,24 +1440,6 @@ Inst165Quest4_HORDE_Location = Inst165Quest4_Location
 Inst165Quest4_HORDE_Note = Inst165Quest4_Note
 Inst165Quest4_HORDE_Prequest = "Nein"
 Inst165Quest4_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst165Quest5_HORDE = Inst165Quest5
-Inst165Quest5_HORDE_Aim = Inst165Quest5_Aim
-Inst165Quest5_HORDE_Location = Inst165Quest5_Location
-Inst165Quest5_HORDE_Note = Inst165Quest5_Note
-Inst165Quest5_HORDE_Prequest = "Nein"
-Inst165Quest5_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 6 Horde
-Inst165Quest6_HORDE = Inst165Quest6
-Inst165Quest6_HORDE_Aim = Inst165Quest6_Aim
-Inst165Quest6_HORDE_Location = Inst165Quest6_Location
-Inst165Quest6_HORDE_Note = Inst165Quest6_Note
-Inst165Quest6_HORDE_Prequest = "Nein"
-Inst165Quest6_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
