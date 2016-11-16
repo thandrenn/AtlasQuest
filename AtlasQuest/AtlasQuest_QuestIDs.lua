@@ -3783,7 +3783,7 @@ Inst170Quest1_QuestID = "44729"
 Inst170Quest1_Level = "110"
 Inst170Quest1_Attain = "110"
 
-Inst170Quest2_QuestID = ""
+Inst170Quest2_QuestID = "44868"
 Inst170Quest2_Level = "110"
 Inst170Quest2_Attain = "110"
 
@@ -3796,7 +3796,7 @@ Inst170Quest1_HORDE_QuestID = "44729"
 Inst170Quest1_HORDE_Level = "110"
 Inst170Quest1_HORDE_Attain = "110"
 
-Inst170Quest2_HORDE_QuestID = ""
+Inst170Quest2_HORDE_QuestID = "44868"
 Inst170Quest2_HORDE_Level = "110"
 Inst170Quest2_HORDE_Attain = "110"
 
@@ -3807,7 +3807,7 @@ Inst170Quest3_HORDE_Attain = "110"
 
 
 AQ_44729_Level = "110"
-AQ__Level = "110"
+AQ_44868_Level = "110"
 AQ_45088_Level = "110"
 
 

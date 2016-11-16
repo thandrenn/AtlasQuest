@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.10.21  (November ??, 2016)
+Version 4.10.21  (November 16, 2016)
 
 - Fixed a few bugs in German translation to keep LUA errors from popping up.
 
@@ -20,6 +20,7 @@ Version 4.10.21  (November ??, 2016)
 	- Karazhan: Clearing Out the Cobwebs
 	- Karazhan: No Bones About It
 	- Karazhan: The Tower of Power
+- NOTE: Karazhan quests are temporarily viewable by clicking on The Nighthold Entrance map until Atlas adds a map for Karazhan.
 	
 
 
