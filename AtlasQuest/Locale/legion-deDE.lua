@@ -67,8 +67,8 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST157 - Assault on Violet Hold ---------------
 
 Inst157Caption = "Assault on Violet Hold"
-Inst157QAA = "5 Quests"
-Inst157QAH = "5 Quests"
+Inst157QAA = "6 Quests"
+Inst157QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst157Quest1 = "1. Violette Festung"
@@ -118,6 +118,18 @@ Inst157Quest5_Prequest = "Nein"
 Inst157Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst157Quest6 = "6. Befehle aufdecken"
+Inst157Quest6_Aim = "Sammelt das Fragment der Bösartigkeit in der Rabenwehr (Mythisch), das Fragment der Macht in der Violetten Festung (Mythisch) und das Fragment der Folter im Verlies der Wächterinnen (Mythisch)."
+Inst157Quest6_Location = "Erzmagier Khadgar (Dalaran - Violette Zitadelle; "..YELLOW.."28.8, 48.6"..WHITE..")"
+Inst157Quest6_Note = "Karazhan Einstimmung Questreihe.  Kann nur auf dem Schwierigkeitsgrad Mythisch oder höher abgeschlossen werden."
+Inst157Quest6_Prequest = "Edikt des Gottkönigs -> Unerwünschte Beweise"
+Inst157Quest6_Folgequest = "Aura der Ungewissheit"
+Inst157Quest6PreQuest = "true"
+--
+Inst157Quest6name1 = "Dämonische Befehlssplitter"
+
+
 --Quest 1 Horde
 Inst157Quest1_HORDE = Inst157Quest1
 Inst157Quest1_HORDE_Aim = Inst157Quest1_Aim
@@ -166,13 +178,24 @@ Inst157Quest5_HORDE_Prequest = Inst157Quest5_Prequest
 Inst157Quest5_HORDE_Folgequest = Inst157Quest5_Folgequest
 -- No Rewards for this quest
 
+--Quest 6 Horde
+Inst157Quest6_HORDE = Inst157Quest6
+Inst157Quest6_HORDE_Aim = Inst157Quest6_Aim
+Inst157Quest6_HORDE_Location = Inst157Quest6_Location
+Inst157Quest6_HORDE_Note = Inst157Quest6_Note
+Inst157Quest6_HORDE_Prequest = Inst157Quest6_Prequest
+Inst157Quest6_HORDE_Folgequest = "Aura der Ungewissheit"
+Inst157Quest6PreQuest_HORDE = "true"
+--
+Inst157Quest6name1_HORDE = Inst157Quest6name1
+
 
 
 --------------- INST158 - Black Rook Hold ---------------
 
 Inst158Caption = "Die Rabenwehr"
-Inst158QAA = "9 Quests"
-Inst158QAH = "9 Quests"
+Inst158QAA = "10 Quests"
+Inst158QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst158Quest1 = "1. Der Herr der Rabenwehr"
@@ -232,7 +255,7 @@ Inst158Quest6_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst158Quest7 = "7. Black Rook Hold: The Mad Arcanist"
+Inst158Quest7 = "7. Die Rabenwehr: Der verrückte Arkanist"
 Inst158Quest7_Aim = "Tötet Erzmagier Galeorn und Dantalionax."
 Inst158Quest7_Location = ""
 Inst158Quest7_Note = AQ_WORLDDUNGEONQUEST
@@ -259,6 +282,16 @@ Inst158Quest9_Folgequest = "Nein"
 Inst158Quest9PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 10 Alliance
+Inst158Quest10 = Inst157Quest6
+Inst158Quest10_Aim = Inst157Quest6_Aim
+Inst158Quest10_Location = Inst157Quest6_Location
+Inst158Quest10_Note = Inst157Quest6_Note
+Inst158Quest10_Prequest = Inst157Quest6_Prequest
+Inst158Quest10_Folgequest = "Aura der Ungewissheit"
+Inst158Quest10PreQuest = "true"
+--
+Inst158Quest10name1 = Inst157Quest6name1
 
 --Quest 1 Horde
 Inst158Quest1_HORDE = Inst158Quest1
@@ -345,19 +378,29 @@ Inst158Quest9_HORDE_Folgequest = "Nein"
 Inst158Quest9PreQuest_HORDE = "Dämonische Runen"
 -- No Rewards for this quest
 
+--Quest 10 Horde
+Inst158Quest10_HORDE = Inst157Quest6
+Inst158Quest10_HORDE_Aim = Inst157Quest6_Aim
+Inst158Quest10_HORDE_Location = Inst157Quest6_Location
+Inst158Quest10_HORDE_Note = Inst157Quest6_Note
+Inst158Quest10_HORDE_Prequest = Inst157Quest6_Prequest
+Inst158Quest10_HORDE_Folgequest = "Aura der Ungewissheit"
+Inst158Quest10PreQuest_HORDE = "true"
+--
+Inst158Quest10name1_HORDE = Inst157Quest6name1
 
 
 --------------- INST159 - Court of Stars ---------------
 
 Inst159Caption = "Der Hof der Sterne"
-Inst159QAA = "5 Quests"
-Inst159QAH = "5 Quests"
+Inst159QAA = "6 Quests"
+Inst159QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst159Quest1 = "1. Der Hof der Sterne (Mythisch)"
 Inst159Quest1_Aim = "Bezwingt Berater Melandrus im Hof der Sterne auf dem Schwierigkeitsgrad 'Mythisch'."
 Inst159Quest1_Location = ""
-Inst159Quest1_Note = ""
+Inst159Quest1_Note = Inst157Quest1_Location
 Inst159Quest1_Prequest = "Nein"
 Inst159Quest1_Folgequest = "Nein"
 --
@@ -399,6 +442,19 @@ Inst159Quest5_Prequest = "Nein"
 Inst159Quest5_Folgequest = "Nein"
 --
 Inst159Quest5name1 = "Uralter Qirajigötze"
+
+--Quest 6 Alliance
+Inst159Quest6 = "6. Rückschlagdämpfung"
+Inst159Quest6_Aim = "Geht zum Hof der Sterne und besorgt den arkanen Kompressor für Hobart."
+Inst159Quest6_Location = "Hobart Wurfhammer (Dalaran; "..YELLOW.."38.6, 26.2"..WHITE..")"
+Inst159Quest6_Note = "Ingineursquest.  Der arkane Kompressor droppt vom Patrouillenoffizier Gerdo  bei "..YELLOW.."[1]"..WHITE.."."
+Inst159Quest6_Prequest = "Nein"
+Inst159Quest6_Folgequest = "Nein"
+--
+Inst159Quest6name1 = "Bauplan: Halbautomagische Kranialkanone"
+Inst159Quest6name2 = "Bauplan: Abgesägte Kranialkanone"
+Inst159Quest6name3 = "Bauplan: Doppelläufige Kranialkanone "
+Inst159Quest6name4 = "Bauplan: Fadenkreuzkranialkanone"
 
 
 --Quest 1 Horde
@@ -447,6 +503,21 @@ Inst159Quest5_HORDE_Prequest = "Nein"
 Inst159Quest5_HORDE_Folgequest = "Nein"
 --
 Inst159Quest5name1_HORDE = Inst159Quest5name1
+
+--Quest 6 Horde
+Inst159Quest6_HORDE = Inst159Quest6
+Inst159Quest6_HORDE_Aim = Inst159Quest6_Aim
+Inst159Quest6_HORDE_Location = Inst159Quest6_Location
+Inst159Quest6_HORDE_Note = Inst159Quest6_Note
+Inst159Quest6_HORDE_Prequest = Inst159Quest6_Prequest
+Inst159Quest6_HORDE_Folgequest = Inst159Quest6_Folgequest
+Inst159Quest6PreQuest_HORDE = "Nein"
+Inst159Quest6FQuest_HORDE = "Nein"
+--
+Inst159Quest6name1_HORDE = Inst159Quest6name1
+Inst159Quest6name2_HORDE = Inst159Quest6name2
+Inst159Quest6name3_HORDE = Inst159Quest6name3
+Inst159Quest6name4_HORDE = Inst159Quest6name4
 
 
 
@@ -636,8 +707,8 @@ Inst160Quest9PreQuest_HORDE = "true"
 --------------- INST161 - Eye of Azshara ---------------
 
 Inst161Caption = "Das Auge Azsharas"
-Inst161QAA = "7 Quests"
-Inst161QAH = "7 Quests"
+Inst161QAA = "8 Quests"
+Inst161QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst161Quest1 = "1. Das Auge Azsharas: Verzwickte Lage"
@@ -700,11 +771,20 @@ Inst161Quest6FQuest = "true"
 Inst161Quest7 = "7. Säuberung des Traumpfads"
 Inst161Quest7_Aim = "Sammelt 25 Einheiten verfeinertes Wasser von den Naga im Auge Azsharas."
 Inst161Quest7_Location = "Funkelchen (fliegt um den Smaragdgrüne Traumpfad)."
-Inst161Quest7_Note = "Druidenquest.  Alle Naga in der Dungeon können das verfeinertes Wasserdroppen.  Die Quest bringt Dich zurück zu Funkelchen."
+Inst161Quest7_Note = "Druidenquest.  Alle Naga in der Dungeon können das verfeinertes Wasser droppen.  Die Quest bringt Dich zurück zu Funkelchen."
 Inst161Quest7_Prequest = "Azsharas Zorn"
 Inst161Quest7_Folgequest = "Nein"
 Inst161Quest7FQuest = "true"
 -- Reward varies for each class
+
+--Quest 8 Alliance
+Inst161Quest8 = "8. Das Herz von Zin-Azshari"
+Inst161Quest8_Aim = "Besorgt das Herz von Zin-Azshari und besiegt Azsharas Zorn im Auge Azsharas auf dem Schwierigkeitsgrad 'Mythisch'."
+Inst161Quest8_Location = "Senegos (Azsuna - Azurschwingen Rast; "..YELLOW.."48.2, 25.6"..WHITE..")"
+Inst161Quest8_Note = "Diese Quest kann nur auf dem Schwierigkeitsgrad Mythisch erledigt werden.   Dies ist ein Teil der Artefaktwaffe Questreihe.  Das Herz von Zin'Azshari droppt vom Endboss, bei "..YELLOW.."[5]"..WHITE.."."
+Inst161Quest8_Prequest = "Nein"
+Inst161Quest8_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -774,13 +854,22 @@ Inst161Quest7_HORDE_Folgequest = "Nein"
 Inst161Quest7FQuest_HORDE = "true"
 -- Reward varies for each class
 
+--Quest 8 Horde
+Inst161Quest8_HORDE = Inst161Quest8
+Inst161Quest8_HORDE_Aim = Inst161Quest8_Aim
+Inst161Quest8_HORDE_Location = Inst161Quest8_Location
+Inst161Quest8_HORDE_Note = Inst161Quest8_Note
+Inst161Quest8_HORDE_Prequest = "Nein"
+Inst161Quest8_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 
 --------------- INST162 - Halls of Valor ---------------
 
 Inst162Caption = "Die Hallen der Tapferkeit"
-Inst162QAA = "12 Quests"
-Inst162QAH = "12 Quests"
+Inst162QAA = "14 Quests"
+Inst162QAH = "14 Quests"
 
 --Quest 1 Alliance
 Inst162Quest1 = "1. Odyns Herausforderung"
@@ -895,6 +984,25 @@ Inst162Quest12_Location = "Hobart Grapplehammer (Dalaran; "..YELLOW.."38.4, 25.0
 Inst162Quest12_Note = "Engineering quest.  Becomes accessible after completing other engineering quests.  Odyn is the final boss, located at "..YELLOW.."[5]"..WHITE..".  The reward teaches you a new Engineering Schematic."
 Inst162Quest12_Prequest = "Nein"
 Inst162Quest12_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst162Quest13 = "13. Edikt des Gottkönigs"
+Inst162Quest13_Aim = "Bezwingt Gottkönig Skovald in den Hallen der Tapferkeit auf dem Schwierigkeitsgrad 'Mythisch'."
+Inst162Quest13_Location = Inst157Quest6_Note
+Inst162Quest13_Note = "Karazhan Einstimmungsquestreihe.  Benötigt Mythisch oder Mythisch+ Schwierigkeit.  Gottkönig Skovald ist bei "..YELLOW.."[4]"..WHITE.."."
+Inst162Quest13_Prequest = "Nein"
+Inst162Quest13_Folgequest = "Unerwünschte Beweise"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst162Quest14 = "14. Unerwünschte Beweise"
+Inst162Quest14_Aim = "Bringt das Teufelskristallfragment zu Erzmagier Khadgar in Dalaran."
+Inst162Quest14_Location = "Hallen der Tapferkeit; "..YELLOW.."[4]"
+Inst162Quest14_Note = "Karazhan Einstimmungsquestreihe.  Erzmagier Khadgar ist in Dalaran - Violette Zitadelle; "..YELLOW.."28.8, 48.6"..WHITE.."."
+Inst162Quest14_Prequest = "Edikt des Gottkönigs"
+Inst162Quest14_Folgequest = "Befehle aufdecken"
+Inst162Quest14FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1013,6 +1121,25 @@ Inst162Quest12_HORDE_Prequest = "Nein"
 Inst162Quest12_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 13 Horde
+Inst162Quest13_HORDE = Inst162Quest13
+Inst162Quest13_HORDE_Aim = Inst162Quest13_Aim
+Inst162Quest13_HORDE_Location = Inst162Quest13_Location
+Inst162Quest13_HORDE_Note = Inst162Quest13_Note
+Inst162Quest13_HORDE_Prequest = "Nein"
+Inst162Quest13_HORDE_Folgequest = "Unerwünschte Beweise"
+-- No Rewards for this quest
+
+--Quest 14 Horde
+Inst162Quest14_HORDE = Inst162Quest14
+Inst162Quest14_HORDE_Aim = Inst162Quest14_Aim
+Inst162Quest14_HORDE_Location = Inst162Quest14_Location
+Inst162Quest14_HORDE_Note = Inst162Quest14_Note
+Inst162Quest14_HORDE_Prequest = "Edikt des Gottkönigs"
+Inst162Quest14_HORDE_Folgequest = "Befehle aufdecken"
+Inst162Quest14FQuest_HORDE = "true"
+-- No Rewards for this quest
+
 
 
 --------------- INST163 - Maw of Souls ---------------
@@ -1052,8 +1179,8 @@ Inst163Quest3_Folgequest = "Nein"
 Inst163Quest3name1 = Inst163Quest1name1
 
 --Quest 4 Alliance
-Inst163Quest4 = "4. Maw of Souls: From Hell's Mouth"
-Inst163Quest4_Aim = "Defeat Plaguemaw and Helya in the Maw of Souls."
+Inst163Quest4 = "4. Der Seelenschlund: Aus dem Schlund der Hölle"
+Inst163Quest4_Aim = "Tötet Seuchenschlund und Helya."
 Inst163Quest4_Location = ""
 Inst163Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst163Quest4_Prequest = "Nein"
@@ -1217,13 +1344,13 @@ Inst163Quest10_HORDE_Folgequest = "Nein"
 --------------- INST164 - Neltharion's Lair ---------------
 
 Inst164Caption = "Neltharions Hort"
-Inst164QAA = "7 Quests"
-Inst164QAH = "7 Quests"
+Inst164QAA = "8 Quests"
+Inst164QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst164Quest1 = "1. Neltharions Hort"
 Inst164Quest1_Aim = "Defeat Dargrul in Neltharion's Lair."
-Inst164Quest1_Location = "Neltharion's Lair (Automatische Annahme)"
+Inst164Quest1_Location = "Neltharions Hort (Automatische Annahme)"
 Inst164Quest1_Note = Inst157Quest1_Location
 Inst164Quest1_Prequest = "Nein"
 Inst164Quest1_Folgequest = "Nein"
@@ -1232,7 +1359,7 @@ Inst164Quest1name1 = "Truhe des schwarzen Großdrachen"
 
 --Quest 2 Alliance
 Inst164Quest2 = "2. Neltharions Hort (Heroisch)"
-Inst164Quest2_Aim = "Defeat Dargrul in Neltharion's Lair auf dem Schwierigkeitsgrad 'Heroisch' oder höher."
+Inst164Quest2_Aim = "Defeat Dargrul in Neltharions Hort auf dem Schwierigkeitsgrad 'Heroisch' oder höher."
 Inst164Quest2_Location = Inst164Quest1_Location
 Inst164Quest2_Note = Inst157Quest1_Location
 Inst164Quest2_Prequest = "Nein"
@@ -1242,7 +1369,7 @@ Inst164Quest2name1 = Inst164Quest1name1
 
 --Quest 3 Alliance
 Inst164Quest3 = "3. Neltharions Hort (Mythisch)"
-Inst164Quest3_Aim = "Defeat Dargrul in Neltharion's Lair auf dem Schwierigkeitsgrad 'Mythisch'."
+Inst164Quest3_Aim = "Defeat Dargrul in Neltharions Hort auf dem Schwierigkeitsgrad 'Mythisch'."
 Inst164Quest3_Location = Inst164Quest1_Location
 Inst164Quest3_Note = Inst157Quest1_Location
 Inst164Quest3_Prequest = "Nein"
@@ -1281,13 +1408,25 @@ Inst164Quest6name1 = "Faust des Unterkönigs"
 
 --Quest 7 Alliance
 Inst164Quest7 = "7. Hammer von Khaz'goroth"
-Inst164Quest7_Aim = "Use the central teleporter in Dalaran and then place the Hammer of Khaz'goroth in Aegwynn's Gallery."
-Inst164Quest7_Location = "Hammer of Khaz'goroth (Neltharion's Lair; "..YELLOW.."[]"..WHITE..")"
-Inst164Quest7_Note = "Complete this quest in the Portrait room in the upper level of Dalaran, accessible via the teleporter in the middle of the city."
+Inst164Quest7_Aim = "Verwendet den zentralen Teleporter in Dalaran und platziert den Hammer von Khaz'goroth dann in Aegwynns Galerie."
+Inst164Quest7_Location = "Hammer von Khaz'goroth (Neltharions Hort; "..YELLOW.."[]"..WHITE..")"
+Inst164Quest7_Note = "Vervollständige die Quest im Portraitraum im unteren Abschnitt von Dalaran, benutzt den Teleporter in der Mitte von Dalaran."
 Inst164Quest7_Prequest = "Neltharions Hort"
 Inst164Quest7_Folgequest = "Nein"
 Inst164Quest7PreQuest = "true"
 -- Reward varies for each class
+
+--Quest 8 Alliance
+Inst164Quest8 = "8. Fehlgeleitet"
+Inst164Quest8_Aim = "Begebt Euch zu Neltharions Hort und bergt das uralte Hochbergartefakt."
+Inst164Quest8_Location = "Lessah Mondwasser (Hochberg - Donnertotem; "..YELLOW.."45.8, 44.4"..WHITE..")"
+Inst164Quest8_Note = "Archäologiequest. Das Artefakt ist im Raum vom Endboss bei "..YELLOW.."[4]"..WHITE.."."
+Inst164Quest8_Prequest = "Die Geschichte des Hochbergs -> Forschungsnachhilfe"
+Inst164Quest8_Folgequest = "Nein"
+Inst164Quest8PreQuest = "true"
+Inst164Quest8FQuest = "true"
+--
+Inst164Quest8name1 = "Rethus Speer"
 
 
 --Quest 1 Horde
@@ -1359,23 +1498,34 @@ Inst164Quest7_HORDE_Folgequest = "Nein"
 Inst164Quest7PreQuest_HORDE = "true"
 -- Reward varies for each class
 
+--Quest 8 Horde
+Inst164Quest8_HORDE = Inst164Quest8
+Inst164Quest8_HORDE_Aim = Inst164Quest8_Aim
+Inst164Quest8_HORDE_Location = Inst164Quest8_Location
+Inst164Quest8_HORDE_Note = Inst164Quest8_Note
+Inst164Quest8_HORDE_Prequest = Inst164Quest8_Prequest
+Inst164Quest8_HORDE_Folgequest = "Nein"
+Inst164Quest8PreQuest_HORDE = "true"
+--
+Inst164Quest8name1_HORDE = "Rethus Speer"
+
 
 
 --------------- INST165 - The Arcway ---------------
 
 Inst165Caption = "Der Arkus"
-Inst165QAA = "4 Quests"
-Inst165QAH = "4 Quests"
+Inst165QAA = "6 Quests"
+Inst165QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst165Quest1 = "1. Der Arkus (Mythisch)"
 Inst165Quest1_Aim = "Bezwingt Berater Vandros im Arkus auf dem Schwierigkeitsgrad 'Mythisch'."
-Inst165Quest1_Location = ""
+Inst165Quest1_Location = "Der Arkus (Automatische Annahme)"
 Inst165Quest1_Note = Inst157Quest1_Location
 Inst165Quest1_Prequest = "Nein"
 Inst165Quest1_Folgequest = "Nein"
 --
-Inst165Quest1name1 = "Unmarked Suramar Vault Crate"
+Inst165Quest1name1 = "Nicht gekennzeichnete Truhe aus der Schatzkammer von Suramar"
 
 --Quest 2 Alliance
 Inst165Quest2 = "2. The Arcway: Clogged Drain"
@@ -1387,8 +1537,8 @@ Inst165Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst165Quest3 = "3. The Arcway: Silver Serpent"
-Inst165Quest3_Aim = "Defeat Silver Serpent and Advisor Vandros in The Arcway."
+Inst165Quest3 = "3. Der Arkus: Silberschlange"
+Inst165Quest3_Aim = "Tötet Silberschlange und Berater Vandros."
 Inst165Quest3_Location = ""
 Inst165Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest3_Prequest = "Nein"
@@ -1396,12 +1546,33 @@ Inst165Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst165Quest4 = "4. The Arcway: Wandering Plague"
-Inst165Quest4_Aim = "Defeat The Rat King and Advisor Vandros in The Arcway."
+Inst165Quest4 = "4. Der Arkus: Wandernde Seuche"
+Inst165Quest4_Aim = "Tötet den Rattenkönig und Berater Vandros."
 Inst165Quest4_Location = ""
 Inst165Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest4_Prequest = "Nein"
 Inst165Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst165Quest5 = "5. Den Arkus öffnen"
+Inst165Quest5_Aim = "Tötet Berater Vandros im Arkus."
+Inst165Quest5_Location = "Erste Arkanistin Thalyssra (Suramar - Shal'aran; "..YELLOW.."36.8, 46.6"..WHITE..")"
+Inst165Quest5_Note = "Diese Quest bekommst Du erst wenn Du einen Ruf von 8000 Wohlwollend bei den Nachtsüchtigen hast und die Questreihe bis zum Ly'leths Champion gemacht hast.  Nur auf dem Schwierigkeitsgrad Mytisch.\n\nBerater Vandros ist der finale Endboss, bei "..YELLOW.."[5]"..WHITE.."."
+Inst165Quest5_Prequest = "Ly'leths Champion"
+Inst165Quest5_Folgequest = "Nein"
+Inst165Quest5PreQuest = "true"
+--
+Inst165Quest5name1 = "Foliant des dimensionalen Bewusstseins"
+
+--Quest 6 Alliance
+Inst165Quest6 = "6. Lang begrabenes Wissen"
+Inst165Quest6_Aim = "Besorgt die Leylinienkarte von Suramar aus dem Arkus."
+Inst165Quest6_Location = "Arkanistin Valtrois (Suramar - Shal'aran; "..YELLOW.."37.0, 46.2"..WHITE..")"
+Inst165Quest6_Note = "Diese Quest bekommst Du erst wenn Du einen Ruf von 8000 Wohlwollend bei den Nachtsüchtigen hast und die Questreihe bis zum Ly'leths Champion gemacht hast.  Nur auf dem Schwierigkeitsgrad Mytisch."
+Inst165Quest6_Prequest = "Ly'leths Champion"
+Inst165Quest6_Folgequest = "Nein"
+Inst165Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1442,6 +1613,27 @@ Inst165Quest4_HORDE_Prequest = "Nein"
 Inst165Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 5 Horde
+Inst165Quest5_HORDE = Inst165Quest5
+Inst165Quest5_HORDE_Aim = Inst165Quest5_Aim
+Inst165Quest5_HORDE_Location = Inst165Quest5_Location
+Inst165Quest5_HORDE_Note = Inst165Quest5_Note
+Inst165Quest5_HORDE_Prequest = "Ly'leths Champion"
+Inst165Quest5_HORDE_Folgequest = "Nein"
+Inst165Quest5PreQuest_HORDE = "true"
+--
+Inst165Quest5name1_HORDE = Inst165Quest5name1
+
+--Quest 6 Horde
+Inst165Quest6_HORDE = Inst165Quest6
+Inst165Quest6_HORDE_Aim = Inst165Quest6_Aim
+Inst165Quest6_HORDE_Location = Inst165Quest6_Location
+Inst165Quest6_HORDE_Note = Inst165Quest6_Note
+Inst165Quest6_HORDE_Prequest = "Ly'leths Champion"
+Inst165Quest6_HORDE_Folgequest = "Nein"
+Inst165Quest6PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
 
 
 --------------- INST166 - Vault of the Wardens ---------------
@@ -1458,7 +1650,7 @@ Inst166Quest1_Note = Inst157Quest1_Location
 Inst166Quest1_Prequest = "Nein"
 Inst166Quest1_Folgequest = "Nein"
 --
-Inst166Quest1name1 = "Bag of Confiscated Materials"
+Inst166Quest1name1 = "Tasche mit konfiszierten Materialien"
 
 --Quest 2 Alliance
 Inst166Quest2 = "2. Das Verlies der Wächterinnen (Heroisch)"
@@ -1468,7 +1660,7 @@ Inst166Quest2_Note = Inst157Quest1_Location
 Inst166Quest2_Prequest = "Nein"
 Inst166Quest2_Folgequest = "Nein"
 --
-Inst166Quest2name1 = "Bag of Confiscated Materials"
+Inst166Quest2name1 = Inst166Quest1name1
 
 --Quest 3 Alliance
 Inst166Quest3 = "3. Das Verlies der Wächterinnen (Mythisch)"
@@ -1478,7 +1670,7 @@ Inst166Quest3_Note = Inst157Quest1_Location
 Inst166Quest3_Prequest = "Nein"
 Inst166Quest3_Folgequest = "Nein"
 --
-Inst166Quest3name1 = "Bag of Confiscated Materials"
+Inst166Quest3name1 = Inst166Quest1name1
 
 --Quest 4 Alliance
 Inst166Quest4 = "4. Vault of the Wardens: How'd He Get Up There?"
@@ -1490,32 +1682,81 @@ Inst166Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst166Quest5 = "5. Fel-Ravaged Tome"
-Inst166Quest5_Aim = "Bring the Fel-Ravaged Tome to Robert Newhearth in Dalaran."
-Inst166Quest5_Location = "Fel-Ravaged Tome (Vault of the Wardens - Vault of the Betrayer; "..YELLOW.."[5]"..WHITE..")"
-Inst166Quest5_Note = "Turns into Robert Newhearth at Dalaran - The Violet Citadel ("..YELLOW.."25.6, 45.0"..WHITE..")."
+Inst166Quest5 = "5. Teufelsversehrter Foliant"
+Inst166Quest5_Aim = "Bringt den teufelsversehrten Folianten zu Robert Newhearth in Dalaran."
+Inst166Quest5_Location = "Teufelsversehrter Foliant (Das Verlies der Wächterinnen - Kärker des Verräters; "..YELLOW.."[5]"..WHITE..")"
+Inst166Quest5_Note = "Kehre zurück zu Robert Newhearth in Dalaran - Die Violette Zitadelle ("..YELLOW.."25.6, 45.0"..WHITE..")."
 Inst166Quest5_Prequest = "Nein"
 Inst166Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst166Quest6 = "6. Demon's Bile"
-Inst166Quest6_Aim = "Craft a Skaggldrynk, then go to the Vault of the Wardens and bathe the crucible in the bile of Grimoira."
+Inst166Quest6 = "6. Dämonengalle"
+Inst166Quest6_Aim = "Stellt einen Skaggldrynk her, geht dann zum Verlies der Wächterinnen und taucht den Tiegel in Grimoiras Galle ein."
 Inst166Quest6_Location = "Deucus Valdera (Dalaran; "..YELLOW.."41.6, 32.8"..WHITE..")"
-Inst166Quest6_Note = "Alchemy quest.  Take a Skaggldrynk potion with you.  Its made by an Alchemist.  Kill the first two bosses and use the potion after Inquisitor Tormentorum "..YELLOW.."[2]"..WHITE.." near the door.  The door will open and you can kill Grimoira."
-Inst166Quest6_Prequest = "Lining the Crucible"
+Inst166Quest6_Note = "Alchemiequest.  Nimm eine Portion Skaggldrynk mit Dir.  Wird von einem Alchemisten hergestellt.  Töte die ersten beiden Bosse und benutze dann den Tiegel hinter Inquisitor Foltyrium "..YELLOW.."[2]"..WHITE.." Nähe der Tür.  Die Tür öffnet sich und Du kannst dann Grimoira töten."
+Inst166Quest6_Prequest = "Neue Beschichtung für den Tiegel"
 Inst166Quest6_Folgequest = "Nein"
 Inst166Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst166Quest7 = "7. Bendy Glass Tubes"
-Inst166Quest7_Aim = "Bring the Bendy Glass Tubes to Deucus Valdera in Dalaran."
-Inst166Quest7_Location = "Grimoira (Vault of the Wardens; "..YELLOW.."[2]"..WHITE..")"
-Inst166Quest7_Note = "Alchemy quest.  After killing Grimoira in the secret area (detailed in the previous quest, Demon's Bile), you will be able to obtain this quest from her.  It turns in to Deucus Valdera in Dalaran ("..YELLOW.."41.4, 32.8"..WHITE..")."
+Inst166Quest7 = "7. Biegsame Glasröhren"
+Inst166Quest7_Aim = "Bringt die biegsamen Glasröhren zu Deucus Valdera in Dalaran."
+Inst166Quest7_Location = "Grimoira (Das Verlies der Wächterinnen; "..YELLOW.."[2]"..WHITE..")"
+Inst166Quest7_Note = "Alchemiequest.  Nach der Tötung von Grimoira hinter der geheimen Tür, wirst Du dies Quest von Grimoira erhalten.  Diese bringt Dich zurück zu Deucus Valdera in Dalaran ("..YELLOW.."41.4, 32.8"..WHITE..")."
 Inst166Quest7_Prequest = "Nein"
 Inst166Quest7_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst166Quest8 = "8. Vault of the Wardens: Startup Sequence"
+Inst166Quest8_Aim = "Complete the startup sequence and defeat Cordana."
+Inst166Quest8_Location = ""
+Inst166Quest8_Note = AQ_WORLDDUNGEONQUEST
+Inst166Quest8_Prequest = "Nein"
+Inst166Quest8_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst166Quest9 = "9. Essen für alle"
+Inst166Quest9_Aim = "Löscht 15 Dämonen aus und gebt 10 fast verhungerten Gefangenen Eure herbeigezauberten Lebensmittel."
+Inst166Quest9_Location = "Kalecgos (Suramar; "..YELLOW.."34.2, 83.6"..WHITE..")"
+Inst166Quest9_Note = "Magierquest.  Benutze dein Zauber Essen herbeizaubern um Essen zu machen und gebe es dann den Gefangen.  Benutze Kalec's Abbildkristall um die Quest abzugeben."
+Inst166Quest9_Prequest = "Nein"
+Inst166Quest9_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst166Quest10 = "10. Der Feind meines Feindes..."
+Inst166Quest10_Aim = "Findet Millhaus Manasturm."
+Inst166Quest10_Location = ""
+Inst166Quest10_Note = "Magierquest.  Questreihe beginnt mit Final Exit."
+Inst166Quest10_Prequest = "Final Exit -> Kein zahnloser Drache"
+Inst166Quest10_Folgequest = "Nein"
+Inst166Quest10PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst166Quest11 = "11. Entfesselte Gerechtigkeit"
+Inst166Quest11_Aim = "Nutzt Eure gesammelte instabile heilige Energie, um die Sognadeln in Kaltarra zu vernichten."
+Inst166Quest11_Location = "Abbild von Kalec (Dalaran; "..YELLOW..""..WHITE..")"
+Inst166Quest11_Note = "Priesterquest.  Missing information for this quest."
+Inst166Quest11_Prequest = "Der Zorn des Lichts -> Bändigung des heiligen Feuers"
+Inst166Quest11_Folgequest = "Die Nexuskammer"
+Inst166Quest11PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst166Quest12 = "12. Befehle aufdecken"
+Inst166Quest12_Aim = Inst157Quest6_Aim
+Inst166Quest12_Location = Inst157Quest6_Location
+Inst166Quest12_Note = Inst157Quest6_Note
+Inst166Quest12_HORDE_Prequest = Inst157Quest6_Prequest
+Inst166Quest12_Folgequest = "Aura der Ungewissheit"
+Inst166Quest12PreQuest = "true"
+--
+Inst166Quest12name1 = Inst157Quest6name1
 
 
 --Quest 1 Horde
@@ -1585,15 +1826,137 @@ Inst166Quest7_HORDE_Prequest = "Nein"
 Inst166Quest7_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 8 Horde
+Inst166Quest8_HORDE = Inst166Quest8
+Inst166Quest8_HORDE_Aim = Inst166Quest8_Aim
+Inst166Quest8_HORDE_Location = Inst166Quest8_Location
+Inst166Quest8_HORDE_Note = Inst166Quest8_Note
+Inst166Quest8_HORDE_Prequest = Nein
+Inst166Quest8_HORDE_Folgequest = Nein
+-- No Rewards for this quest
+
+--Quest 9 Horde
+Inst166Quest9_HORDE = Inst166Quest9
+Inst166Quest9_HORDE_Aim = Inst166Quest9_Aim
+Inst166Quest9_HORDE_Location = Inst166Quest9_Location
+Inst166Quest9_HORDE_Note = Inst166Quest9_Note
+Inst166Quest9_HORDE_Prequest = Nein
+Inst166Quest9_HORDE_Folgequest = Nein
+-- No Rewards for this quest
+
+--Quest 10 Horde
+Inst166Quest10_HORDE = Inst166Quest10
+Inst166Quest10_HORDE_Aim = Inst166Quest10_Aim
+Inst166Quest10_HORDE_Location = Inst166Quest10_Location
+Inst166Quest10_HORDE_Note = Inst166Quest10_Note
+Inst166Quest10_HORDE_Prequest = Inst166Quest10_Prequest
+Inst166Quest10_HORDE_Folgequest = Nein
+Inst166Quest10PreQuest_HORDE = Inst166Quest10PreQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde
+Inst166Quest11_HORDE = Inst166Quest11
+Inst166Quest11_HORDE_Aim = Inst166Quest11_Aim
+Inst166Quest11_HORDE_Location = Inst166Quest11_Location
+Inst166Quest11_HORDE_Note = Inst166Quest11_Note
+Inst166Quest11_HORDE_Prequest = Inst166Quest11_Prequest
+Inst166Quest11_HORDE_Folgequest = Inst166Quest11_Folgequest
+Inst166Quest11PreQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 12 Horde
+Inst166Quest12_HORDE = Inst166Quest12
+Inst166Quest12_HORDE_Aim = Inst166Quest12_Aim
+Inst166Quest12_HORDE_Location = Inst166Quest12_Location
+Inst166Quest12_HORDE_Note = Inst166Quest12_Note
+Inst166Quest12_HORDE_Prequest = Inst166Quest12_Prequest
+Inst166Quest12_HORDE_Folgequest = Inst166Quest12_Folgequest
+Inst166Quest12PreQuest_HORDE = "true"
+--
+Inst166Quest12name1_HORDE = Inst166Quest12name1
+
 
 
 --------------- INST167 - The Emerald Nightmare ---------------
 
-Inst167Caption = "The Emerald Nightmare"
-Inst167QAA = "Keine Quests"
-Inst167QAH = "Keine Quests"
+Inst167Caption = "Der Smaragdgrüne Alptraum"
+Inst167QAA = "4 Quests"
+Inst167QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst167Quest1 = "1. Den Schleier lüften (Normal)"
+Inst167Quest1_Aim = "Sammelt 4 Essenzen der Klarheit von Cenarius im Smaragdgrünen Alptraum auf dem Schwierigkeitsgrad Normal."
+Inst167Quest1_Location = "Malfurion Sturmgrimm (Der Smaragdgrüne Alptraum; "..GREEN.."[1']"..WHITE..")"
+Inst167Quest1_Note = "Besiege Cenarius bei "..YELLOW.."[6]"..WHITE.." um eine Essenz der Klarheit zu sammeln.  Nach dem sammeln von 4 Essenzen, kannst du bei Malfurion die Fähigkeit einschalten alle Bosse zu überspringen und gleich zu Cenarius zu gelangen."
+Inst167Quest1_Prequest = "Nein"
+Inst167Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst167Quest2 = "2. Den Schleier lüften (Heroisch)"
+Inst167Quest2_Aim = "Sammelt 4 Essenzen der Klarheit von Cenarius im Smaragdgrünen Alptraum auf dem Schwierigkeitsgrad Heroisch."
+Inst167Quest2_Location = Inst167Quest1_Location
+Inst167Quest2_Note = Inst167Quest1_Note
+Inst167Quest2_Prequest = "Nein"
+Inst167Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst167Quest3 = "3. Den Schleier lüften (Mythisch)"
+Inst167Quest3_Aim = "Sammelt 4 Essenzen der Klarheit von Cenarius im Smaragdgrünen Alptraum auf dem Schwierigkeitsgrad Mythisch."
+Inst167Quest3_Location = Inst167Quest1_Location
+Inst167Quest3_Note = Inst167Quest1_Note
+Inst167Quest3_Prequest = "Nein"
+Inst167Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst167Quest4 = "4. Der Stoff der Träume"
+Inst167Quest4_Aim = "Sammelt geläuterte Lebensessenz während eines Schlachtzugs im Smaragdgrünen Alptraum."
+Inst167Quest4_Location = "Talwandler Farodin (Suramar; "..YELLOW.."36.8, 46.6"..WHITE..")"
+Inst167Quest4_Note = "Die geläuterte Lebensessenzen drppen von Xavius bei "..YELLOW.."[7]"..WHITE..".  Um diese Quest machen zu können musst Du vorher 7000 Rufpunkte auf Respektvoll gesammelt haben bei der Fraktion Die Nachtsüchtigen."
+Inst167Quest4_Prequest = "Nein"
+Inst167Quest4_Folgequest = "Nein"
+--
+Inst167Quest4name1 = "Traumträne"
 
 
+--Quest 1 Horde
+Inst167Quest1_HORDE = Inst167Quest1
+Inst167Quest1_HORDE_Aim = Inst167Quest1_Aim
+Inst167Quest1_HORDE_Location = Inst167Quest1_Location
+Inst167Quest1_HORDE_Note = Inst167Quest1_Note
+Inst167Quest1_HORDE_Prequest = "Nein"
+Inst167Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst167Quest2_HORDE = Inst167Quest2
+Inst167Quest2_HORDE_Aim = Inst167Quest2_Aim
+Inst167Quest2_HORDE_Location = Inst167Quest2_Location
+Inst167Quest2_HORDE_Note = Inst167Quest2_Note
+Inst167Quest2_HORDE_Prequest = "Nein"
+Inst167Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst167Quest3_HORDE = Inst167Quest3
+Inst167Quest3_HORDE_Aim = Inst167Quest3_Aim
+Inst167Quest3_HORDE_Location = Inst167Quest3_Location
+Inst167Quest3_HORDE_Note = Inst167Quest3_Note
+Inst167Quest3_HORDE_Prequest = "Nein"
+Inst167Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst167Quest4_HORDE = Inst167Quest4
+Inst167Quest4_HORDE_Aim = Inst167Quest4_Aim
+Inst167Quest4_HORDE_Location = Inst167Quest4_Location
+Inst167Quest4_HORDE_Note = Inst167Quest4_Note
+Inst167Quest4_HORDE_Prequest = "Nein"
+Inst167Quest4_HORDE_Folgequest = "Nein"
+--
+Inst167Quest4name1_HORDE = "Traumträne"
 
 
 --------------- INST168 - The Nighthold ---------------
@@ -1604,6 +1967,275 @@ Inst168QAH = "Keine Quests"
 
 
 
+--------------- INST169 - Karazhan (Legion) ---------------
+
+Inst169Caption = "Karazhan"
+Inst169QAA = "9 Quests"
+Inst169QAH = "9 Quests"
+
+--Quest 1 Alliance
+Inst169Quest1 = "1. Im Auge des Betrachters"
+Inst169Quest1_Aim = "Bezwingt Viz'aduum den Beobachter in Karazhan."
+Inst169Quest1_Location = "Erzmagier Khadgar (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.4"..WHITE..")"
+Inst169Quest1_Note = "Viz'aduum der Beobchter ist bei "..YELLOW.."[10]"..WHITE..".  Erzmagier Khadgar erscheint nachdem der Boss besiegt wurde um die Quest dann abgeben zu können."
+Inst169Quest1_Prequest = "Nein"
+Inst169Quest1_Folgequest = "Nein"
+--
+Inst169Quest1name1 = "Viz'aduums Auge"
+
+--Quest 2 Alliance
+Inst169Quest2 = "2. Fragmente der Vergangenheit"
+Inst169Quest2_Aim = "Sammelt die Seelenfragmente aus den Gästezimmern, dem Bankettsaal, den Bedienstetenunterkünften, dem Opernsaal und der Menagerie in Karazhan."
+Inst169Quest2_Location = Inst169Quest1_Location
+Inst169Quest2_Note = "Die Fragmente sind überall verteilt in der Dungeon.  Ein Klick und Du hast es gesammelt.  Erzmagier Khadgar erscheint nachdem der Endboss besiegt wurde und kannst die Quest dann abgeben."
+Inst169Quest2_Prequest = "Nein"
+Inst169Quest2_Folgequest = "Nein"
+--
+Inst169Quest2name1 = "Violetter Siegelring des Erzmagiers "
+
+--Quest 3 Alliance
+Inst169Quest3 = "3. Bücherwyrms"
+Inst169Quest3_Aim = "Hebt Bücher in der Bibliothek von Karazhan auf."
+Inst169Quest3_Location = "Magier Darius (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.4"..WHITE..")"
+Inst169Quest3_Note = ""
+Inst169Quest3_Prequest = "Nein"
+Inst169Quest3_Folgequest = "Neustart des Aufräumers"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst169Quest4 = "4. Neustart des Aufräumers"
+Inst169Quest4_Aim = "Deaktiviert den Kurator und sucht nach der Kiste mit übriggebliebenen Motivationskristallen."
+Inst169Quest4_Location = ""
+Inst169Quest4_Note = "The Box of Spare Motivator Crystals is in the back left side of the room after defeating the Curator, at "..YELLOW.."[6]"..WHITE.."."
+Inst169Quest4_Prequest = "Bücherwyrms"
+Inst169Quest4_Folgequest = "Heiße Eisen"
+Inst169Quest4FQuest = "true"
+--
+Inst169Quest4name1 = "Violetter Siegelring des Erzmagiers "
+
+--Quest 5 Alliance
+Inst169Quest5 = "5. Heiße Eisen"
+Inst169Quest5_Aim = "Bringt die Kiste mit 'neuen' Hufeisen zu Koren dem Schmied in Karazhan."
+Inst169Quest5_Location = ""
+Inst169Quest5_Note = ""
+Inst169Quest5_Prequest = "Neustart des Aufräumers"
+Inst169Quest5_Folgequest = "Palaver in der Pause"
+Inst169Quest5FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst169Quest6 = "6. Palaver in der Pause"
+Inst169Quest6_Aim = "Helft Darius, die verletzten Egos der alten Ensemblemitglieder zu beruhigen. Treibt eine positive Kritik eines Zuschauers auf, um die Spannungen zwischen Romulo und Julianne zu beruhigen, stehlt ein Rosenbouquet von einem der neuen Stücke, um dem Blechkopf wieder etwas Selbstvertrauen zu geben und findet heraus, wo Rotkäppchens Vertretung ihr Käppchen im Schachsaal versteckt hat."
+Inst169Quest6_Location = ""
+Inst169Quest6_Note = ""
+Inst169Quest6_Prequest = "Heiße Eisen"
+Inst169Quest6_Folgequest = "Schluss mit der Spinnerei"
+Inst169Quest6FQuest = "true"
+--
+Inst169Quest6name1 = Inst169Quest2name1
+
+--Quest 7 Alliance
+Inst169Quest7 = "7. Schluss mit der Spinnerei"
+Inst169Quest7_Aim = "Tötet die Spinnen in den Bedienstetenunterkünften."
+Inst169Quest7_Location = ""
+Inst169Quest7_Note = "Nach Beendigung der Quest, töte Schrecken der Nacht bei "..YELLOW.."[]"..WHITE.." und nehme den Gegenstandand von ihm ab um die nächste Quest zu starten."
+Inst169Quest7_Prequest = "Palaver in der Pause"
+Inst169Quest7_Folgequest = "No Bones About It"
+Inst169Quest7FQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst169Quest8 = "8. No Bones About It"
+Inst169Quest8_Aim = "Bring das Verkohlte Knochenfragmente zu Darius."
+Inst169Quest8_Location = ""
+Inst169Quest8_Note = ""
+Inst169Quest8_Prequest = "Schluss mit der Spinnerei"
+Inst169Quest8_Folgequest = "Nein"
+Inst169Quest8FQuest = "true"
+--
+Inst169Quest8name1 = "Violetter Siegelring des Großmagus"
+
+--Quest 9 Alliance
+Inst169Quest9 = "9. Der Turm der Macht"
+Inst169Quest9_Aim = "Bezwingt Viz'aduum den Beobachter in Karazhan auf dem Schwierigkeitsgrad Mythisch."
+Inst169Quest9_Location = "Obtained from Order Hall mission."
+Inst169Quest9_Note = "Viz'aduum the Watcher is at "..YELLOW.."[10]"..WHITE..".  Turn in the completed quest in your Order Hall."
+Inst169Quest9_Prequest = "Nein"
+Inst169Quest9_Folgequest = "Nein"
+--
+Inst169Quest9name1 = "Schimmerndes Bündel"
+
+
+--Quest 1 Horde
+Inst169Quest1_HORDE = Inst169Quest1
+Inst169Quest1_HORDE_Aim = Inst169Quest1_Aim
+Inst169Quest1_HORDE_Location = Inst169Quest1_Location
+Inst169Quest1_HORDE_Note = Inst169Quest1_Note
+Inst169Quest1_HORDE_Prequest = "Nein"
+Inst169Quest1_HORDE_Folgequest = "Nein"
+--
+Inst169Quest1name1_HORDE = Inst169Quest1name1
+
+--Quest 2 Horde
+Inst169Quest2_HORDE = Inst169Quest2
+Inst169Quest2_HORDE_Aim = Inst169Quest2_Aim
+Inst169Quest2_HORDE_Location = Inst169Quest2_Location
+Inst169Quest2_HORDE_Note = Inst169Quest2_Note
+Inst169Quest2_HORDE_Prequest = "Nein"
+Inst169Quest2_HORDE_Folgequest = "Nein"
+--
+Inst169Quest2name1_HORDE = Inst169Quest2name1
+
+--Quest 3 Horde
+Inst169Quest3_HORDE = Inst169Quest3
+Inst169Quest3_HORDE_Aim = Inst169Quest3_Aim
+Inst169Quest3_HORDE_Location = Inst169Quest3_Location
+Inst169Quest3_HORDE_Note = Inst169Quest3_Note
+Inst169Quest3_HORDE_Prequest = "Nein"
+Inst169Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst169Quest4_HORDE = Inst169Quest4
+Inst169Quest4_HORDE_Aim = Inst169Quest4_Aim
+Inst169Quest4_HORDE_Location = Inst169Quest4_Location
+Inst169Quest4_HORDE_Note = Inst169Quest4_Note
+Inst169Quest4_HORDE_Prequest = "Bücherwyrms"
+Inst169Quest4_HORDE_Folgequest = "Heiße Eisen"
+Inst169Quest4FQuest_HORDE = "true"
+--
+Inst169Quest4name1_HORDE = Inst169Quest4name1
+
+--Quest 5 Horde
+Inst169Quest5_HORDE = Inst169Quest5
+Inst169Quest5_HORDE_Aim = Inst169Quest5_Aim
+Inst169Quest5_HORDE_Location = Inst169Quest5_Location
+Inst169Quest5_HORDE_Note = Inst169Quest5_Note
+Inst169Quest5_HORDE_Prequest = Inst169Quest5_Prequest
+Inst169Quest5_HORDE_Folgequest = Inst169Quest5_Folgequest
+Inst169Quest5FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst169Quest6_HORDE = Inst169Quest6
+Inst169Quest6_HORDE_Aim = Inst169Quest6_Aim
+Inst169Quest6_HORDE_Location = Inst169Quest6_Location
+Inst169Quest6_HORDE_Note = Inst169Quest6_Note
+Inst169Quest6_HORDE_Prequest = "Heiße Eisen"
+Inst169Quest6_HORDE_Folgequest = Inst169Quest6_Folgequest
+Inst169Quest6FQuest_HORDE = "true"
+--
+Inst169Quest6name1_HORDE = Inst169Quest6name1
+
+--Quest 7 Horde
+Inst169Quest7_HORDE = Inst169Quest7
+Inst169Quest7_HORDE_Aim = Inst169Quest7_Aim
+Inst169Quest7_HORDE_Location = Inst169Quest7_Location
+Inst169Quest7_HORDE_Note = Inst169Quest7_Note
+Inst169Quest7_HORDE_Prequest = Inst169Quest7_Prequest
+Inst169Quest7_HORDE_Folgequest = Inst169Quest7_Folgequest
+Inst169Quest7FQuest_HORDE = "true"
+-- No Rewards for this quest
+
+--Quest 8 Horde
+Inst169Quest8_HORDE = Inst169Quest8
+Inst169Quest8_HORDE_Aim = Inst169Quest8_Aim
+Inst169Quest8_HORDE_Location = Inst169Quest8_Location
+Inst169Quest8_HORDE_Note = Inst169Quest8_Note
+Inst169Quest8_HORDE_Prequest = Inst169Quest8_Prequest
+Inst169Quest8_HORDE_Folgequest = "Nein"
+Inst169Quest8FQuest_HORDE = "true"
+--
+Inst169Quest8name1_HORDE = Inst169Quest8name1
+
+--Quest 9 Horde
+Inst169Quest9_HORDE = Inst169Quest9
+Inst169Quest9_HORDE_Aim = Inst169Quest9_Aim
+Inst169Quest9_HORDE_Location = Inst169Quest9_Location
+Inst169Quest9_HORDE_Note = Inst169Quest9_Note
+Inst169Quest9_HORDE_Prequest = "Nein"
+Inst169Quest9_HORDE_Folgequest = "Nein"
+--
+Inst169Quest9name1_HORDE = Inst169Quest9name1
+
+
+
+--------------- INST170 - Trial of Valor ---------------
+
+Inst170Caption = "Prüfung der Tapferkeit"
+Inst170QAA = "3 Quests"
+Inst170QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst170Quest1 = "1. Odyns Gunst"
+Inst170Quest1_Aim = "Sichert Euch Odyns Gunst im Schlachtzug 'Die Prüfung der Tapferkeit'."
+Inst170Quest1_Location = "Havi (Sturmheim - Valdisdall; "..YELLOW.."60.2, 50.8"..WHITE..")"
+Inst170Quest1_Note = "Besiege Odyn bei "..YELLOW.."[3]"..WHITE.." um seine Gunst zu erlangen und diese Quest zu beenden.  Kann auf jeder Schwierigkeit abgeschlossen werden."
+Inst170Quest1_Prequest = "Zum Handeln gezwungen -> Helyas Eroberung"
+Inst170Quest1_Folgequest = "Odyns Urteil"
+Inst170Quest1PreQuest = "true"
+--
+Inst170Quest1name1 = "Gnade des Titanen"
+
+--Quest 2 Alliance
+Inst170Quest2 = "2. Odyns Urteil"
+Inst170Quest2_Aim = "Bezwingt Helya im Schlachtzug 'Die Prüfung der Tapferkeit'."
+Inst170Quest2_Location = "Odyn (Prüfung der Tapferkeit; "..YELLOW.."[3]"..WHITE..")"
+Inst170Quest2_Note = "Helya ist bei "..YELLOW.."[5]"..WHITE..".  Kann auf jeder Schwierigkeit abgeschlossen werden."
+Inst170Quest2_Prequest = "Odyns Gunst"
+Inst170Quest2_Folgequest = "Nein"
+Inst170Quest2FQuest = "true"
+--
+Inst170Quest2name1 = "Daune der gefallenen Val'kyr"
+
+--Quest 3 Alliance
+Inst170Quest3 = "3. Die verlorene Armee"
+Inst170Quest3_Aim = "Sammelt 1000 Seelenfragmente der Valarjar innerhalb des Schlachtzugs 'Die Prüfung der Tapferkeit'."
+Inst170Quest3_Location = "Odyn (Prüfung der Tapferkeit; "..YELLOW.."[3]"..WHITE..")"
+Inst170Quest3_Note = "Diese droppen von Helyas Schergen und von Helya selbst.  Benötigt normale oder höhere Schwierigkeit."
+Inst170Quest3_Prequest = "Nein"
+Inst170Quest3_Folgequest = "Nein"
+-- Reward varies for each class
+
+
+--Quest 1 Horde
+Inst170Quest1_HORDE = Inst170Quest1
+Inst170Quest1_HORDE_Aim = Inst170Quest1_Aim
+Inst170Quest1_HORDE_Location = Inst170Quest1_Location
+Inst170Quest1_HORDE_Note = Inst170Quest1_Note
+Inst170Quest1_HORDE_Prequest = Inst170Quest1_Prequest
+Inst170Quest1_HORDE_Folgequest = "Odyns Urteil"
+Inst170Quest1PreQuest_HORDE = "true"
+--
+Inst170Quest1name1_HORDE = Inst170Quest1name1
+
+--Quest 2 Horde
+Inst170Quest2_HORDE = Inst170Quest2
+Inst170Quest2_HORDE_Aim = Inst170Quest2_Aim
+Inst170Quest2_HORDE_Location = Inst170Quest2_Location
+Inst170Quest2_HORDE_Note = Inst170Quest2_Note
+Inst170Quest2_HORDE_Prequest = "Odyns Gunst"
+Inst170Quest2_HORDE_Folgequest = "Nein"
+Inst170Quest2FQuest_HORDE = "true"
+--
+Inst170Quest2name1_HORDE = Inst170Quest2name1
+
+--Quest 3 Horde
+Inst170Quest3_HORDE = Inst170Quest3
+Inst170Quest3_HORDE_Aim = Inst170Quest3_Aim
+Inst170Quest3_HORDE_Location = Inst170Quest3_Location
+Inst170Quest3_HORDE_Note = Inst170Quest3_Note
+Inst170Quest3_HORDE_Prequest = "Nein"
+Inst170Quest3_HORDE_Folgequest = "Nein"
+-- Reward varies for each class
+
+
+
+--------------- INST171 - Tomb of Sargeras ---------------
+
+Inst171Caption = "Tomb of Sargeras"
+Inst171QAA = "Keine Quests"
+Inst171QAH = "Keine Quests"
 
 
 
