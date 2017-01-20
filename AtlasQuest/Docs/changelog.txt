@@ -2,9 +2,44 @@
 Changelog
 =========
 
+Version 4.10.23  (January ??, 2017)
+
+- Added quests:
+	- The Nighthold: Creepy Crawlers
+	- The Nighthold: Ettin Your Foot In The Door
+	- The Nighthold: Focused Power
+	- The Nighthold: Gilded Guardian
+	- The Nighthold: Love Tap
+	- The Nighthold: Seeds of Destruction
+	- The Nighthold: Supply Routes
+	- The Nighthold: Wailing In The Night
+	- The Nighthold: Touch of a Titan
+	- The Nighthold: Talisman of the Shal'dorei (Normal)
+	- The Nighthold: Talisman of the Shal'dorei (Heroic)
+	- The Nighthold: Talisman of the Shal'dorei (Mythic)
+
+- Removed the following Obsolete / Unavailable quests from the Warlords Legendary Questline.
+	- Auchindoun: Tackling Teron'gor
+	- Skyreach: Spires of the Betrayer
+	- Bloodmaul Slag Mines: Core of Flame
+	- The Everbloom: Core of Life
+	- Grimrail Depot: Core of Iron
+	- Highmaul: Empire's Fall
+	- Highmaul: Legacy of the Sorcerer Kings
+	- Blackrock Foundry: Heart of the Fury
+	- Blackrock Foundry: Flamebender's Tome
+	- Blackrock Foundry: Reverse Piracy
+	- Blackrock Foundry: Might of the Elemental Lords
+	- Blackrock Foundry: Blackhand's Secret
+	- Hellfire Citadel: We Don't Need No Library Card
+	- Hellfire Citadel: Darkness Incarnate
+
+
+
 Version 4.10.22  (December 18, 2016)
 
 - German translation updated.
+
 
 
 Version 4.10.21  (November 16, 2016)

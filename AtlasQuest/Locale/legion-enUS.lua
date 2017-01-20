@@ -1677,7 +1677,7 @@ Inst166Quest3name1 = "Bag of Confiscated Materials"
 --Quest 4 Alliance
 Inst166Quest4 = "4. Vault of the Wardens: How'd He Get Up There?"
 Inst166Quest4_Aim = "Defeat the Construct and Cordana in the Vault of the Wardens."
-Inst166Quest4_Location = ""
+Inst166Quest4_Location = "Vault of the Wardens (Auto-accept)"
 Inst166Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst166Quest4_Prequest = "None"
 Inst166Quest4_Folgequest = "None"
@@ -1965,11 +1965,233 @@ Inst167Quest4name1_HORDE = Inst167Quest4name1
 --------------- INST168 - The Nighthold ---------------
 
 Inst168Caption = "The Nighthold"
-Inst168QAA = "No Quests"
-Inst168QAH = "No Quests"
+Inst168QAA = "12 Quests"
+Inst168QAH = "12 Quests"
+
+--Quest 1 Alliance
+Inst168Quest1 = "1. The Nighthold: Creepy Crawlers"
+Inst168Quest1_Aim = "Defeat Kar'zun."
+Inst168Quest1_Location = "The Nighthold (Auto-accept)"
+Inst168Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest1_Prequest = "None"
+Inst168Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst168Quest2 = "2. The Nighthold: Ettin Your Foot In The Door"
+Inst168Quest2_Aim = "Defeat Torm the Brute."
+Inst168Quest2_Location = "The Nighthold (Auto-accept)"
+Inst168Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest2_Prequest = "None"
+Inst168Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst168Quest3 = "3. The Nighthold: Focused Power"
+Inst168Quest3_Aim = "Slay 2 Nightwell Diviners."
+Inst168Quest3_Location = "The Nighthold (Auto-accept)"
+Inst168Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest3_Prequest = "None"
+Inst168Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst168Quest4 = "4. The Nighthold: Gilded Guardian"
+Inst168Quest4_Aim = "Defeat Gilded Guardian."
+Inst168Quest4_Location = "The Nighthold (Auto-accept)"
+Inst168Quest4_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest4_Prequest = "None"
+Inst168Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst168Quest5 = "5. The Nighthold: Love Tap"
+Inst168Quest5_Aim = "Eliminate Elisande's Private Attendants (34 Wild Sycophants)."
+Inst168Quest5_Location = "The Nighthold (Auto-accept)"
+Inst168Quest5_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest5_Prequest = "None"
+Inst168Quest5_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst168Quest6 = "6. The Nighthold: Seeds of Destruction"
+Inst168Quest6_Aim = "Defeat Doomlash."
+Inst168Quest6_Location = "The Nighthold (Auto-accept)"
+Inst168Quest6_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest6_Prequest = "None"
+Inst168Quest6_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst168Quest7 = "7. The Nighthold: Supply Routes"
+Inst168Quest7_Aim = "Defeat Flightmaster Volnath."
+Inst168Quest7_Location = "The Nighthold (Auto-accept)"
+Inst168Quest7_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest7_Prequest = "None"
+Inst168Quest7_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst168Quest8 = "8. The Nighthold: Wailing In The Night"
+Inst168Quest8_Aim = "Defeat Ariadne."
+Inst168Quest8_Location = "The Nighthold (Auto-accept)"
+Inst168Quest8_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest8_Prequest = "None"
+Inst168Quest8_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst168Quest9 = "9. Touch of a Titan"
+Inst168Quest9_Aim = "Bring 50 Essences of Aman'Thul to Arcanomancer Vridiel."
+Inst168Quest9_Location = "Arcanomancer Vridiel (Dalaran; "..YELLOW.."45.2, 28.4"..WHITE..".)"
+Inst168Quest9_Note = "The Essences of Aman'Thul drop from bosses in The Nighthold, as well as Chests obtained from Order Hall quests for Nighthold."
+Inst168Quest9_Prequest = "None"
+Inst168Quest9_Folgequest = "None"
+--
+Inst168Quest9name1 = "Distilled Titan Essence"
+
+--Quest 10 Alliance
+Inst168Quest10 = "10. Talisman of the Shal'dorei (Normal)"
+Inst168Quest10_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Normal Difficulty."
+Inst168Quest10_Location = "First Arcanist Thalyssra (The Nighthold; "..BLUE.."Entrance [A]"..WHITE..")"
+Inst168Quest10_Note = "Grand Magistrix Elisande is at "..YELLOW.."[9]"..WHITE..".  Completing this quest will allow you to skip the first bosses in the raid."
+Inst168Quest10_Prequest = "None"
+Inst168Quest10_Folgequest = "None"
+--
+Inst168Quest10name1 = "Talisman of the Shal'dorei"
+
+--Quest 11 Alliance
+Inst168Quest11 = "11. Talisman of the Shal'dorei (Heroic)"
+Inst168Quest11_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Heroic Difficulty."
+Inst168Quest11_Location = "First Arcanist Thalyssra (The Nighthold; "..BLUE.."Entrance [A]"..WHITE..")"
+Inst168Quest11_Note = "Grand Magistrix Elisande is at "..YELLOW.."[9]"..WHITE..".  Completing this quest will allow you to skip the first bosses in the raid."
+Inst168Quest11_Prequest = "None"
+Inst168Quest11_Folgequest = "None"
+--
+Inst168Quest11name1 = "Talisman of the Shal'dorei"
+
+--Quest 12 Alliance
+Inst168Quest12 = "12. Talisman of the Shal'dorei (Mythic)"
+Inst168Quest12_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Mythic Difficulty."
+Inst168Quest12_Location = "First Arcanist Thalyssra (The Nighthold; "..BLUE.."Entrance [A]"..WHITE..")"
+Inst168Quest12_Note = "Grand Magistrix Elisande is at "..YELLOW.."[9]"..WHITE..".  Completing this quest will allow you to skip the first bosses in the raid."
+Inst168Quest12_Prequest = "None"
+Inst168Quest12_Folgequest = "None"
+--
+Inst168Quest12name1 = "Talisman of the Shal'dorei"
 
 
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst168Quest1_HORDE = Inst168Quest1
+Inst168Quest1_HORDE_Aim = Inst168Quest1_Aim
+Inst168Quest1_HORDE_Location = Inst168Quest1_Location
+Inst168Quest1_HORDE_Note = Inst168Quest1_Note
+Inst168Quest1_HORDE_Prequest = Inst168Quest1_Prequest
+Inst168Quest1_HORDE_Folgequest = Inst168Quest1_Folgequest
+-- No Rewards for this quest
 
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst168Quest2_HORDE = Inst168Quest2
+Inst168Quest2_HORDE_Aim = Inst168Quest2_Aim
+Inst168Quest2_HORDE_Location = Inst168Quest2_Location
+Inst168Quest2_HORDE_Note = Inst168Quest2_Note
+Inst168Quest2_HORDE_Prequest = Inst168Quest2_Prequest
+Inst168Quest2_HORDE_Folgequest = Inst168Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst168Quest3_HORDE = Inst168Quest3
+Inst168Quest3_HORDE_Aim = Inst168Quest3_Aim
+Inst168Quest3_HORDE_Location = Inst168Quest3_Location
+Inst168Quest3_HORDE_Note = Inst168Quest3_Note
+Inst168Quest3_HORDE_Prequest = Inst168Quest3_Prequest
+Inst168Quest3_HORDE_Folgequest = Inst168Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst168Quest4_HORDE = Inst168Quest4
+Inst168Quest4_HORDE_Aim = Inst168Quest4_Aim
+Inst168Quest4_HORDE_Location = Inst168Quest4_Location
+Inst168Quest4_HORDE_Note = Inst168Quest4_Note
+Inst168Quest4_HORDE_Prequest = Inst168Quest4_Prequest
+Inst168Quest4_HORDE_Folgequest = Inst168Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst168Quest5_HORDE = Inst168Quest5
+Inst168Quest5_HORDE_Aim = Inst168Quest5_Aim
+Inst168Quest5_HORDE_Location = Inst168Quest5_Location
+Inst168Quest5_HORDE_Note = Inst168Quest5_Note
+Inst168Quest5_HORDE_Prequest = Inst168Quest5_Prequest
+Inst168Quest5_HORDE_Folgequest = Inst168Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst168Quest6_HORDE = Inst168Quest6
+Inst168Quest6_HORDE_Aim = Inst168Quest6_Aim
+Inst168Quest6_HORDE_Location = Inst168Quest6_Location
+Inst168Quest6_HORDE_Note = Inst168Quest6_Note
+Inst168Quest6_HORDE_Prequest = Inst168Quest6_Prequest
+Inst168Quest6_HORDE_Folgequest = Inst168Quest6_Folgequest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst168Quest7_HORDE = Inst168Quest7
+Inst168Quest7_HORDE_Aim = Inst168Quest7_Aim
+Inst168Quest7_HORDE_Location = Inst168Quest7_Location
+Inst168Quest7_HORDE_Note = Inst168Quest7_Note
+Inst168Quest7_HORDE_Prequest = Inst168Quest7_Prequest
+Inst168Quest7_HORDE_Folgequest = Inst168Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst168Quest8_HORDE = Inst168Quest8
+Inst168Quest8_HORDE_Aim = Inst168Quest8_Aim
+Inst168Quest8_HORDE_Location = Inst168Quest8_Location
+Inst168Quest8_HORDE_Note = Inst168Quest8_Note
+Inst168Quest8_HORDE_Prequest = Inst168Quest8_Prequest
+Inst168Quest8_HORDE_Folgequest = Inst168Quest8_Folgequest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst168Quest9_HORDE = Inst168Quest9
+Inst168Quest9_HORDE_Aim = Inst168Quest9_Aim
+Inst168Quest9_HORDE_Location = Inst168Quest9_Location
+Inst168Quest9_HORDE_Note = Inst168Quest9_Note
+Inst168Quest9_HORDE_Prequest = Inst168Quest9_Prequest
+Inst168Quest9_HORDE_Folgequest = Inst168Quest9_Folgequest
+--
+Inst168Quest9name1_HORDE = Inst168Quest9name1
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst168Quest10_HORDE = Inst168Quest10
+Inst168Quest10_HORDE_Aim = Inst168Quest10_Aim
+Inst168Quest10_HORDE_Location = Inst168Quest10_Location
+Inst168Quest10_HORDE_Note = Inst168Quest10_Note
+Inst168Quest10_HORDE_Prequest = Inst168Quest10_Prequest
+Inst168Quest10_HORDE_Folgequest = Inst168Quest10_Folgequest
+--
+Inst168Quest10name1_HORDE = Inst168Quest10name1
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst168Quest11_HORDE = Inst168Quest11
+Inst168Quest11_HORDE_Aim = Inst168Quest11_Aim
+Inst168Quest11_HORDE_Location = Inst168Quest11_Location
+Inst168Quest11_HORDE_Note = Inst168Quest11_Note
+Inst168Quest11_HORDE_Prequest = Inst168Quest11_Prequest
+Inst168Quest11_HORDE_Folgequest = Inst168Quest11_Folgequest
+--
+Inst168Quest11name1_HORDE = Inst168Quest11name1
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst168Quest12_HORDE = Inst168Quest12
+Inst168Quest12_HORDE_Aim = Inst168Quest12_Aim
+Inst168Quest12_HORDE_Location = Inst168Quest12_Location
+Inst168Quest12_HORDE_Note = Inst168Quest12_Note
+Inst168Quest12_HORDE_Prequest = Inst168Quest12_Prequest
+Inst168Quest12_HORDE_Folgequest = Inst168Quest12_Folgequest
+--
+Inst168Quest12name1_HORDE = Inst168Quest12name1
 
 
 

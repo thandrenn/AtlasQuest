@@ -58,8 +58,8 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Caption = "Auchindoun"
-Inst146QAA = "7 Quests"
-Inst146QAH = "7 Quests"
+Inst146QAA = "6 Quests"
+Inst146QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst146Quest1 = "1. Go Fetch"
@@ -122,26 +122,14 @@ Inst146Quest5_Folgequest = "None"
 Inst146Quest5name1 = "Supply of Storied Rarities"
 
 --Quest 6 Alliance
-Inst146Quest6 = "6. Tackling Teron'gor"
+Inst146Quest6 = "6. Auchindoun"
 Inst146Quest6_Level = "100"
-Inst146Quest6_Attain = "98"
-Inst146Quest6_Aim = "Obtain Corrupted Blood of Teron'gor from Teron'gor in Auchindoun [Heroic only]."
-Inst146Quest6_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst146Quest6_Note = "Part of Chapter 1 of the Legendary Ring Questline.  Requires Heroic Difficulty.\n\nTeron'gor is the final boss, at "..YELLOW.."[4]"..WHITE.."."
-Inst146Quest6_Prequest = "Call of the Archmage -> Core of Flame/Iron/Life"
-Inst146Quest6_Folgequest = "Eyes of the Archmage"
-Inst146Quest6PreQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst146Quest7 = "7. Auchindoun"
-Inst146Quest7_Level = "100"
-Inst146Quest7_Attain = "100"
-Inst146Quest7_Aim = "Defeat Teron'gor in Auchindoun."
-Inst146Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst146Quest7_Note = "This is one of several quests that can appear once a day in your garrison.\nTeron'gor is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
-Inst146Quest7_Prequest = "None"
-Inst146Quest7_Folgequest = "None"
+Inst146Quest6_Attain = "100"
+Inst146Quest6_Aim = "Defeat Teron'gor in Auchindoun."
+Inst146Quest6_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst146Quest6_Note = "This is one of several quests that can appear once a day in your garrison.\nTeron'gor is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst146Quest6_Prequest = "None"
+Inst146Quest6_Folgequest = "None"
 --
 -- Awards Garrison Resources
 
@@ -213,22 +201,10 @@ Inst146Quest6_HORDE = Inst146Quest6
 Inst146Quest6_HORDE_Level = Inst146Quest6_Level
 Inst146Quest6_HORDE_Attain = Inst146Quest6_Attain
 Inst146Quest6_HORDE_Aim = Inst146Quest6_Aim
-Inst146Quest6_HORDE_Location = Inst146Quest6_Location
+Inst146Quest6_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst146Quest6_HORDE_Note = Inst146Quest6_Note
 Inst146Quest6_HORDE_Prequest = Inst146Quest6_Prequest
 Inst146Quest6_HORDE_Folgequest = Inst146Quest6_Folgequest
-Inst146Quest6PreQuest_HORDE = Inst146Quest6PreQuest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst146Quest7_HORDE = Inst146Quest7
-Inst146Quest7_HORDE_Level = Inst146Quest7_Level
-Inst146Quest7_HORDE_Attain = Inst146Quest7_Attain
-Inst146Quest7_HORDE_Aim = Inst146Quest7_Aim
-Inst146Quest7_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst146Quest7_HORDE_Note = Inst146Quest7_Note
-Inst146Quest7_HORDE_Prequest = Inst146Quest7_Prequest
-Inst146Quest7_HORDE_Folgequest = Inst146Quest7_Folgequest
 --
 -- Awards Garrison Resources
 
@@ -238,8 +214,8 @@ Inst146Quest7_HORDE_Folgequest = Inst146Quest7_Folgequest
 --------------- INST147 - Skyreach ---------------
 
 Inst147Caption = "Skyreach"
-Inst147QAA = "8 Quests"
-Inst147QAH = "8 Quests"
+Inst147QAA = "7 Quests"
+Inst147QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst147Quest1 = "1. Victory is Within Reach"
@@ -254,31 +230,31 @@ Inst147Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst147Quest2 = "2. Spires of the Betrayer"
-Inst147Quest2_Level = "100"
-Inst147Quest2_Attain = "98"
-Inst147Quest2_Aim = "Collect a Pure Solium Band from High Sage Viryx in Skyreach."
-Inst147Quest2_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst147Quest2_Note = "Part of Chapter 1 of the Legendary Ring Questline.  The quest can be done on Normal or Heroic.\n\nHigh Sage Viryx is the final boss at "..YELLOW.."[4]"..WHITE.."."
-Inst147Quest2_Prequest = "Call of the Archmage"
-Inst147Quest2_Folgequest = "Khadgar's Task"
-Inst147Quest2PreQuest = "true"
--- No Rewards for this quest
+Inst147Quest2 = "2. Sky Dancers"
+Inst147Quest2_Level = "99"
+Inst147Quest2_Attain = "97"
+Inst147Quest2_Aim = "Collect a Bottled Windstorm from Skyreach."
+Inst147Quest2_Location = "Taoshi "..AQGARRISON
+Inst147Quest2_Note = "The Bottled Windstorm is on the platform with the third boss, Rukhran at "..YELLOW.."[3]"..WHITE..".  You can grab it off the pillar before you start the fight.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
+Inst147Quest2_Prequest = "None"
+Inst147Quest2_Folgequest = "None"
+--
+Inst147Quest2name1 = "Trove of Smoldering Treasures"
 
 --Quest 3 Alliance
-Inst147Quest3 = "3. Sky Dancers"
-Inst147Quest3_Level = "99"
-Inst147Quest3_Attain = "97"
-Inst147Quest3_Aim = "Collect a Bottled Windstorm from Skyreach."
-Inst147Quest3_Location = "Taoshi "..AQGARRISON
-Inst147Quest3_Note = "The Bottled Windstorm is on the platform with the third boss, Rukhran at "..YELLOW.."[3]"..WHITE..".  You can grab it off the pillar before you start the fight.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
+Inst147Quest3 = "3. Aviana's Request"
+Inst147Quest3_Level = "100"
+Inst147Quest3_Attain = "100"
+Inst147Quest3_Aim = "Collect some Pristine Plumage in Skyreach."
+Inst147Quest3_Location = "Skylord Omnuron "..AQGARRISON
+Inst147Quest3_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst147Quest3_Prequest = "None"
 Inst147Quest3_Folgequest = "None"
 --
-Inst147Quest3name1 = "Trove of Smoldering Treasures"
+Inst147Quest3name1 = "Aviana's Feather"
 
 --Quest 4 Alliance
-Inst147Quest4 = "4. Aviana's Request"
+Inst147Quest4 = "4. A Plea to the Sky"
 Inst147Quest4_Level = "100"
 Inst147Quest4_Attain = "100"
 Inst147Quest4_Aim = "Collect some Pristine Plumage in Skyreach."
@@ -287,22 +263,22 @@ Inst147Quest4_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on th
 Inst147Quest4_Prequest = "None"
 Inst147Quest4_Folgequest = "None"
 --
-Inst147Quest4name1 = "Aviana's Feather"
+Inst147Quest4name1 = "Supply of Storied Rarities"
 
 --Quest 5 Alliance
-Inst147Quest5 = "5. A Plea to the Sky"
+Inst147Quest5 = "5. Gloriously Incandescent"
 Inst147Quest5_Level = "100"
 Inst147Quest5_Attain = "100"
-Inst147Quest5_Aim = "Collect some Pristine Plumage in Skyreach."
-Inst147Quest5_Location = "Skylord Omnuron "..AQGARRISON
-Inst147Quest5_Note = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
+Inst147Quest5_Aim = "Collect a Sun Crystal in Skyreach."
+Inst147Quest5_Location = "Sunwalker Dezco "..AQGARRISON
+Inst147Quest5_Note = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
 Inst147Quest5_Prequest = "None"
 Inst147Quest5_Folgequest = "None"
 --
-Inst147Quest5name1 = "Supply of Storied Rarities"
+Inst147Quest5name1 = "Faintly-Sparkling Cache"
 
 --Quest 6 Alliance
-Inst147Quest6 = "6. Gloriously Incandescent"
+Inst147Quest6 = "6. The Dark Within"
 Inst147Quest6_Level = "100"
 Inst147Quest6_Attain = "100"
 Inst147Quest6_Aim = "Collect a Sun Crystal in Skyreach."
@@ -311,29 +287,17 @@ Inst147Quest6_Note = "Requires Heroic Difficulty.  After killing the first boss 
 Inst147Quest6_Prequest = "None"
 Inst147Quest6_Folgequest = "None"
 --
-Inst147Quest6name1 = "Faintly-Sparkling Cache"
+Inst147Quest6name1 = "Supply of Storied Rarities"
 
 --Quest 7 Alliance
-Inst147Quest7 = "7. The Dark Within"
+Inst147Quest7 = "7. Skyreach"
 Inst147Quest7_Level = "100"
 Inst147Quest7_Attain = "100"
-Inst147Quest7_Aim = "Collect a Sun Crystal in Skyreach."
-Inst147Quest7_Location = "Sunwalker Dezco "..AQGARRISON
-Inst147Quest7_Note = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest."
+Inst147Quest7_Aim = "Defeat High Sage Viryx in Skyreach."
+Inst147Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst147Quest7_Note = "This is one of several quests that can appear once a day in your garrison.\nHigh Sage Viryx is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
 Inst147Quest7_Prequest = "None"
 Inst147Quest7_Folgequest = "None"
---
-Inst147Quest7name1 = "Supply of Storied Rarities"
-
---Quest 8 Alliance
-Inst147Quest8 = "8. Skyreach"
-Inst147Quest8_Level = "100"
-Inst147Quest8_Attain = "100"
-Inst147Quest8_Aim = "Defeat High Sage Viryx in Skyreach."
-Inst147Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst147Quest8_Note = "This is one of several quests that can appear once a day in your garrison.\nHigh Sage Viryx is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
-Inst147Quest8_Prequest = "None"
-Inst147Quest8_Folgequest = "None"
 --
 -- Awards Garrison Resources
 
@@ -359,8 +323,8 @@ Inst147Quest2_HORDE_Location = Inst147Quest2_Location
 Inst147Quest2_HORDE_Note = Inst147Quest2_Note
 Inst147Quest2_HORDE_Prequest = Inst147Quest2_Prequest
 Inst147Quest2_HORDE_Folgequest = Inst147Quest2_Folgequest
-Inst147Quest2PreQuest_HORDE = Inst147Quest2PreQuest
--- No Rewards for this quest
+--
+Inst147Quest2name1_HORDE = Inst147Quest2name1
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst147Quest3_HORDE = Inst147Quest3
@@ -415,22 +379,10 @@ Inst147Quest7_HORDE = Inst147Quest7
 Inst147Quest7_HORDE_Level = Inst147Quest7_Level
 Inst147Quest7_HORDE_Attain = Inst147Quest7_Attain
 Inst147Quest7_HORDE_Aim = Inst147Quest7_Aim
-Inst147Quest7_HORDE_Location = Inst147Quest7_Location
+Inst147Quest7_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst147Quest7_HORDE_Note = Inst147Quest7_Note
 Inst147Quest7_HORDE_Prequest = Inst147Quest7_Prequest
 Inst147Quest7_HORDE_Folgequest = Inst147Quest7_Folgequest
---
-Inst147Quest7name1_HORDE = Inst147Quest7name1
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst147Quest8_HORDE = Inst147Quest8
-Inst147Quest8_HORDE_Level = Inst147Quest8_Level
-Inst147Quest8_HORDE_Attain = Inst147Quest8_Attain
-Inst147Quest8_HORDE_Aim = Inst147Quest8_Aim
-Inst147Quest8_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst147Quest8_HORDE_Note = Inst147Quest8_Note
-Inst147Quest8_HORDE_Prequest = Inst147Quest8_Prequest
-Inst147Quest8_HORDE_Folgequest = Inst147Quest8_Folgequest
 --
 -- Awards Garrison Resources
 
@@ -439,8 +391,8 @@ Inst147Quest8_HORDE_Folgequest = Inst147Quest8_Folgequest
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 
 Inst148Caption = "Bloodmaul Slag Mines"
-Inst148QAA = "7 Quests"
-Inst148QAH = "7 Quests"
+Inst148QAA = "6 Quests"
+Inst148QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst148Quest1 = "1. Ogre Ancestry"
@@ -503,26 +455,14 @@ Inst148Quest5_Folgequest = "None"
 Inst148Quest5name1 = "Supply of Storied Rarities"
 
 --Quest 6 Alliance
-Inst148Quest6 = "6. Core of Flame"
+Inst148Quest6 = "6. Bloodmaul Slag Mines"
 Inst148Quest6_Level = "100"
-Inst148Quest6_Attain = "98"
-Inst148Quest6_Aim = "Acquire a Core of Flame from Gug'rokk in the Bloodmaul Slag Mines [Heroic only.]"
-Inst148Quest6_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst148Quest6_Note = "Part of Chapter 1 of the Legendary Ring Questline.  Requires Heroic Difficulty.\n\nGug'rokk is the final boss, at "..YELLOW.."[4]"..WHITE.."."
-Inst148Quest6_Prequest = "Call of the Archmage -> Khadgar's Task"
-Inst148Quest6_Folgequest = "Tackling Teron'gor"
-Inst148Quest6PreQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst148Quest7 = "7. Bloodmaul Slag Mines"
-Inst148Quest7_Level = "100"
-Inst148Quest7_Attain = "100"
-Inst148Quest7_Aim = "Defeat Gug'rokk in the Bloodmaul Slag Mines."
-Inst148Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst148Quest7_Note = "This is one of several quests that can appear once a day in your garrison.\nGug'rokk is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
-Inst148Quest7_Prequest = "None"
-Inst148Quest7_Folgequest = "None"
+Inst148Quest6_Attain = "100"
+Inst148Quest6_Aim = "Defeat Gug'rokk in the Bloodmaul Slag Mines."
+Inst148Quest6_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst148Quest6_Note = "This is one of several quests that can appear once a day in your garrison.\nGug'rokk is the final boss, located at "..YELLOW.."[4]"..WHITE.."."
+Inst148Quest6_Prequest = "None"
+Inst148Quest6_Folgequest = "None"
 --
 -- Awards Garrison Resources
 
@@ -592,22 +532,10 @@ Inst148Quest6_HORDE = Inst148Quest6
 Inst148Quest6_HORDE_Level = Inst148Quest6_Level
 Inst148Quest6_HORDE_Attain = Inst148Quest6_Attain
 Inst148Quest6_HORDE_Aim = Inst148Quest6_Aim
-Inst148Quest6_HORDE_Location = Inst148Quest6_Location
+Inst148Quest6_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst148Quest6_HORDE_Note = Inst148Quest6_Note
 Inst148Quest6_HORDE_Prequest = Inst148Quest6_Prequest
 Inst148Quest6_HORDE_Folgequest = Inst148Quest6_Folgequest
-Inst148Quest6PreQuest_HORDE = Inst148Quest6PreQuest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst148Quest7_HORDE = Inst148Quest7
-Inst148Quest7_HORDE_Level = Inst148Quest7_Level
-Inst148Quest7_HORDE_Attain = Inst148Quest7_Attain
-Inst148Quest7_HORDE_Aim = Inst148Quest7_Aim
-Inst148Quest7_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst148Quest7_HORDE_Note = Inst148Quest7_Note
-Inst148Quest7_HORDE_Prequest = Inst148Quest7_Prequest
-Inst148Quest7_HORDE_Folgequest = Inst148Quest7_Folgequest
 --
 -- Awards Garrison Resources
 
@@ -769,8 +697,8 @@ Inst149Quest6_HORDE_Folgequest = Inst149Quest6_Folgequest
 --------------- INST150 - The Everbloom ---------------
 
 Inst150Caption = "The Everbloom"
-Inst150QAA = "9 Quests"
-Inst150QAH = "9 Quests"
+Inst150QAA = "8 Quests"
+Inst150QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst150Quest1 = "1. For the Birds"
@@ -857,26 +785,14 @@ Inst150Quest7_Folgequest = "None"
 Inst150Quest7name1 = "Everbloom Seed Pouch"
 
 --Quest 8 Alliance
-Inst150Quest8 = "8. Core of Life"
+Inst150Quest8 = "8. The Everbloom"
 Inst150Quest8_Level = "100"
-Inst150Quest8_Attain = "98"
-Inst150Quest8_Aim = "Collect a Core of Life by slaying Yalnu in the Overgrown Outpost [Heroic only]"
-Inst150Quest8_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst150Quest8_Note = "Part of Chapter 1 of the Legendary Ring Questline.  Requires Heroic Difficulty.\n\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE.."."
-Inst150Quest8_Prequest = "Call of the Archmage -> Khadgar's Task"
-Inst150Quest8_Folgequest = "Tackling Teron'gor"
-Inst150Quest8PreQuest = "true"
--- No Rewards for this quest
-
---Quest 9 Alliance
-Inst150Quest9 = "9. The Everbloom"
-Inst150Quest9_Level = "100"
-Inst150Quest9_Attain = "100"
-Inst150Quest9_Aim = "Defeat Yalnu in the Everbloom."
-Inst150Quest9_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst150Quest9_Note = "This is one of several quests that can appear once a day in your garrison.\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE.."."
-Inst150Quest9_Prequest = "None"
-Inst150Quest9_Folgequest = "None"
+Inst150Quest8_Attain = "100"
+Inst150Quest8_Aim = "Defeat Yalnu in the Everbloom."
+Inst150Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst150Quest8_Note = "This is one of several quests that can appear once a day in your garrison.\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE.."."
+Inst150Quest8_Prequest = "None"
+Inst150Quest8_Folgequest = "None"
 --
 -- Awards Garrison Resources
 
@@ -970,22 +886,10 @@ Inst150Quest8_HORDE = Inst150Quest8
 Inst150Quest8_HORDE_Level = Inst150Quest8_Level
 Inst150Quest8_HORDE_Attain = Inst150Quest8_Attain
 Inst150Quest8_HORDE_Aim = Inst150Quest8_Aim
-Inst150Quest8_HORDE_Location = Inst150Quest8_Location
+Inst150Quest8_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst150Quest8_HORDE_Note = Inst150Quest8_Note
 Inst150Quest8_HORDE_Prequest = Inst150Quest8_Prequest
 Inst150Quest8_HORDE_Folgequest = Inst150Quest8_Folgequest
-Inst150Quest8PreQuest_HORDE = Inst150Quest8PreQuest
--- No Rewards for this quest
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst150Quest9_HORDE = Inst150Quest9
-Inst150Quest9_HORDE_Level = Inst150Quest9_Level
-Inst150Quest9_HORDE_Attain = Inst150Quest9_Attain
-Inst150Quest9_HORDE_Aim = Inst150Quest9_Aim
-Inst150Quest9_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst150Quest9_HORDE_Note = Inst150Quest9_Note
-Inst150Quest9_HORDE_Prequest = Inst150Quest9_Prequest
-Inst150Quest9_HORDE_Folgequest = Inst150Quest9_Folgequest
 --
 -- Awards Garrison Resources
 
@@ -994,8 +898,8 @@ Inst150Quest9_HORDE_Folgequest = Inst150Quest9_Folgequest
 --------------- INST151 - Grimrail Depot ---------------
 
 Inst151Caption = "Grimrail Depot"
-Inst151QAA = "8 Quests"
-Inst151QAH = "8 Quests"
+Inst151QAA = "7 Quests"
+Inst151QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst151Quest1 = "1. Cleaving Time"
@@ -1070,26 +974,14 @@ Inst151Quest6_Folgequest = "None"
 Inst151Quest6name1 = "Box of Storied Treasures"
 
 --Quest 7 Alliance
-Inst151Quest7 = "7. Core of Iron"
+Inst151Quest7 = "7. Grimrail Depot"
 Inst151Quest7_Level = "100"
-Inst151Quest7_Attain = "98"
-Inst151Quest7_Aim = "Collect a Core of Iron from the engine of the Grimrail Depot train [Heroic only.]"
-Inst151Quest7_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst151Quest7_Note = "Part of Chapter 1 of the Legendary Ring Questline.  Requires Heroic Difficulty.\n\nAfter defeating the final boss, look for a small iron star on fire nearby."
-Inst151Quest7_Prequest = "Call of the Archmage -> Khadgar's Task"
-Inst151Quest7_Folgequest = "Tackling Teron'gor"
-Inst151Quest7PreQuest = "true"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst151Quest8 = "8. Grimrail Depot"
-Inst151Quest8_Level = "100"
-Inst151Quest8_Attain = "100"
-Inst151Quest8_Aim = "Defeat Skylord Tovra in Grimrail Depot."
-Inst151Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst151Quest8_Note = "This is one of several quests that can appear once a day in your garrison.\nSkylord Tovra is the final boss, located at "..YELLOW.."[3]"..WHITE.."."
-Inst151Quest8_Prequest = "None"
-Inst151Quest8_Folgequest = "None"
+Inst151Quest7_Attain = "100"
+Inst151Quest7_Aim = "Defeat Skylord Tovra in Grimrail Depot."
+Inst151Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst151Quest7_Note = "This is one of several quests that can appear once a day in your garrison.\nSkylord Tovra is the final boss, located at "..YELLOW.."[3]"..WHITE.."."
+Inst151Quest7_Prequest = "None"
+Inst151Quest7_Folgequest = "None"
 --
 -- Awards Garrison Resources
 
@@ -1171,22 +1063,10 @@ Inst151Quest7_HORDE = Inst151Quest7
 Inst151Quest7_HORDE_Level = Inst151Quest7_Level
 Inst151Quest7_HORDE_Attain = Inst151Quest7_Attain
 Inst151Quest7_HORDE_Aim = Inst151Quest7_Aim
-Inst151Quest7_HORDE_Location = Inst151Quest7_Location
+Inst151Quest7_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst151Quest7_HORDE_Note = Inst151Quest7_Note
 Inst151Quest7_HORDE_Prequest = Inst151Quest7_Prequest
 Inst151Quest7_HORDE_Folgequest = Inst151Quest7_Folgequest
-Inst151Quest7PreQuest_HORDE = Inst151Quest7PreQuest
--- No Rewards for this quest
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst151Quest8_HORDE = Inst151Quest8
-Inst151Quest8_HORDE_Level = Inst151Quest8_Level
-Inst151Quest8_HORDE_Attain = Inst151Quest8_Attain
-Inst151Quest8_HORDE_Aim = Inst151Quest8_Aim
-Inst151Quest8_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst151Quest8_HORDE_Note = Inst151Quest8_Note
-Inst151Quest8_HORDE_Prequest = Inst151Quest8_Prequest
-Inst151Quest8_HORDE_Folgequest = Inst151Quest8_Folgequest
 --
 -- Awards Garrison Resources
 
@@ -1573,67 +1453,44 @@ Inst153Quest8_HORDE_Folgequest = Inst153Quest8_Folgequest
 --------------- INST154 - Highmaul ---------------
 
 Inst154Caption = "Highmaul"
-Inst154QAA = "5 Quests"
-Inst154QAH = "5 Quests"
+Inst154QAA = "3 Quests"
+Inst154QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst154Quest1 = "1. Empire's Fall"
+Inst154Quest1 = "1. Walled City: Brackenspore"
 Inst154Quest1_Level = "100"
 Inst154Quest1_Attain = "100"
-Inst154Quest1_Aim = "Collect a Felbreaker's Tome and the Sigil of the Sorcerer King from Highmaul."
-Inst154Quest1_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst154Quest1_Note = "Part of Chapter 2 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nFelbreaker's Tome drops from Kor'ragh at "..YELLOW.."[6]"..WHITE.." and Sigil of the Sorcerer King drops from Imperator Mar'gok at "..YELLOW.."[7]"..WHITE.."."
-Inst154Quest1_Prequest = "Call of the Archmage -> Power Unleashed"
+Inst154Quest1_Aim = "Defeat Brackenspore in Highmaul."
+Inst154Quest1_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst154Quest1_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nBrackenspore is the last boss in the first section of Highmaul at "..YELLOW.."[4]"..WHITE.."."
+Inst154Quest1_Prequest = "None"
 Inst154Quest1_Folgequest = "None"
-Inst154Quest1PreQuest = "true"
--- No Rewards for this quest
+--
+Inst154Quest1name1 = "Greater Bounty Spoils"
 
 --Quest 2 Alliance
-Inst154Quest2 = "2. Legacy of the Sorcerer Kings"
+Inst154Quest2 = "2. Arcane Sanctum: Ko'ragh"
 Inst154Quest2_Level = "100"
 Inst154Quest2_Attain = "100"
-Inst154Quest2_Aim = "Collect 125 Abrogator Stones from creatures in Highmaul. Your garrison followers may also be able to locate stones in certain missions."
-Inst154Quest2_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst154Quest2_Note = "Part of Chapter 2 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nAll bosses in Highmaul will drop the Abrogator Stones.  They can also be obtained from a garrison mission."
+Inst154Quest2_Aim = "Defeat Ko'ragh in Highmaul."
+Inst154Quest2_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst154Quest2_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKo'ragh is the last boss in the second section of Highmaul at "..YELLOW.."[6]"..WHITE.."."
 Inst154Quest2_Prequest = "None"
 Inst154Quest2_Folgequest = "None"
--- No Rewards for this quest
+--
+Inst154Quest2name1 = "Greater Bounty Spoils"
 
 --Quest 3 Alliance
-Inst154Quest3 = "3. Walled City: Brackenspore"
+Inst154Quest3 = "3. Imperator's Rise: Imperator Mar'gok"
 Inst154Quest3_Level = "100"
 Inst154Quest3_Attain = "100"
-Inst154Quest3_Aim = "Defeat Brackenspore in Highmaul."
+Inst154Quest3_Aim = "Defeat Imperator Mar'gok in Highmaul."
 Inst154Quest3_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst154Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nBrackenspore is the last boss in the first section of Highmaul at "..YELLOW.."[4]"..WHITE.."."
+Inst154Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nImperator Mar'gok is the last boss in Highmaul at "..YELLOW.."[7]"..WHITE.."."
 Inst154Quest3_Prequest = "None"
 Inst154Quest3_Folgequest = "None"
 --
 Inst154Quest3name1 = "Greater Bounty Spoils"
-
---Quest 4 Alliance
-Inst154Quest4 = "4. Arcane Sanctum: Ko'ragh"
-Inst154Quest4_Level = "100"
-Inst154Quest4_Attain = "100"
-Inst154Quest4_Aim = "Defeat Ko'ragh in Highmaul."
-Inst154Quest4_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst154Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKo'ragh is the last boss in the second section of Highmaul at "..YELLOW.."[6]"..WHITE.."."
-Inst154Quest4_Prequest = "None"
-Inst154Quest4_Folgequest = "None"
---
-Inst154Quest4name1 = "Greater Bounty Spoils"
-
---Quest 5 Alliance
-Inst154Quest5 = "5. Imperator's Rise: Imperator Mar'gok"
-Inst154Quest5_Level = "100"
-Inst154Quest5_Attain = "100"
-Inst154Quest5_Aim = "Defeat Imperator Mar'gok in Highmaul."
-Inst154Quest5_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst154Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nImperator Mar'gok is the last boss in Highmaul at "..YELLOW.."[7]"..WHITE.."."
-Inst154Quest5_Prequest = "None"
-Inst154Quest5_Folgequest = "None"
---
-Inst154Quest5name1 = "Greater Bounty Spoils"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1641,23 +1498,24 @@ Inst154Quest1_HORDE = Inst154Quest1
 Inst154Quest1_HORDE_Level = Inst154Quest1_Level
 Inst154Quest1_HORDE_Attain = Inst154Quest1_Attain
 Inst154Quest1_HORDE_Aim = Inst154Quest1_Aim
-Inst154Quest1_HORDE_Location = Inst154Quest1_Location
+Inst154Quest1_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst154Quest1_HORDE_Note = Inst154Quest1_Note
 Inst154Quest1_HORDE_Prequest = Inst154Quest1_Prequest
 Inst154Quest1_HORDE_Folgequest = Inst154Quest1_Folgequest
-Inst154Quest1PreQuest_HORDE = Inst154Quest1PreQuest
--- No Rewards for this quest
+--
+Inst154Quest1name1_HORDE = Inst154Quest1name1
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst154Quest2_HORDE = Inst154Quest2
 Inst154Quest2_HORDE_Level = Inst154Quest2_Level
 Inst154Quest2_HORDE_Attain = Inst154Quest2_Attain
 Inst154Quest2_HORDE_Aim = Inst154Quest2_Aim
-Inst154Quest2_HORDE_Location = Inst154Quest2_Location
+Inst154Quest2_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst154Quest2_HORDE_Note = Inst154Quest2_Note
 Inst154Quest2_HORDE_Prequest = Inst154Quest2_Prequest
 Inst154Quest2_HORDE_Folgequest = Inst154Quest2_Folgequest
--- No Rewards for this quest
+--
+Inst154Quest2name1_HORDE = Inst154Quest2name1
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst154Quest3_HORDE = Inst154Quest3
@@ -1671,145 +1529,61 @@ Inst154Quest3_HORDE_Folgequest = Inst154Quest3_Folgequest
 --
 Inst154Quest3name1_HORDE = Inst154Quest3name1
 
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst154Quest4_HORDE = Inst154Quest4
-Inst154Quest4_HORDE_Level = Inst154Quest4_Level
-Inst154Quest4_HORDE_Attain = Inst154Quest4_Attain
-Inst154Quest4_HORDE_Aim = Inst154Quest4_Aim
-Inst154Quest4_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst154Quest4_HORDE_Note = Inst154Quest4_Note
-Inst154Quest4_HORDE_Prequest = Inst154Quest4_Prequest
-Inst154Quest4_HORDE_Folgequest = Inst154Quest4_Folgequest
---
-Inst154Quest4name1_HORDE = Inst154Quest4name1
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst154Quest5_HORDE = Inst154Quest5
-Inst154Quest5_HORDE_Level = Inst154Quest5_Level
-Inst154Quest5_HORDE_Attain = Inst154Quest5_Attain
-Inst154Quest5_HORDE_Aim = Inst154Quest5_Aim
-Inst154Quest5_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst154Quest5_HORDE_Note = Inst154Quest5_Note
-Inst154Quest5_HORDE_Prequest = Inst154Quest5_Prequest
-Inst154Quest5_HORDE_Folgequest = Inst154Quest5_Folgequest
---
-Inst154Quest5name1_HORDE = Inst154Quest5name1
-
 
 
 --------------- INST155 - Blackrock Foundry ---------------
 
 Inst155Caption = "Blackrock Foundry"
-Inst155QAA = "9 Quests"
-Inst155QAH = "9 Quests"
+Inst155QAA = "4 Quests"
+Inst155QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst155Quest1 = "1. Heart of the Fury"
+Inst155Quest1 = "1. Slagworks: Heart of the Mountain"
 Inst155Quest1_Level = "100"
 Inst155Quest1_Attain = "100"
-Inst155Quest1_Aim = "Collect a Heart of the Fury from the elemental Fury encased within the furnace of the Blackrock Foundry."
-Inst155Quest1_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest1_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Heart of Fury drops from the Blast Furnace encounter at "..YELLOW.."[7]"..WHITE.."."
-Inst155Quest1_Prequest = "Touch of the Kirin-Tor"
+Inst155Quest1_Aim = "Defeat the Heart of the Mountain at the Blast Furnace in Blackrock Foundry."
+Inst155Quest1_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst155Quest1_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nThe Heart of the Mountain is the last boss in the first section of Blackrock Foundry at "..YELLOW.."[7]"..WHITE.."."
+Inst155Quest1_Prequest = "None"
 Inst155Quest1_Folgequest = "None"
-Inst155Quest1PreQuest = "true"
--- No Rewards for this quest
+--
+Inst155Quest1name1 = "Greater Bounty Spoils"
 
 --Quest 2 Alliance
-Inst155Quest2 = "2. Flamebender's Tome"
+Inst155Quest2 = "2. The Black Forge: Kromog"
 Inst155Quest2_Level = "100"
 Inst155Quest2_Attain = "100"
-Inst155Quest2_Aim = "Retrieve the Flamebender's Tome from Flamebender Ka'graz in the Blackrock Foundry."
-Inst155Quest2_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest2_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Flamebender's Tome drops from Flamebender Ka'graz at "..YELLOW.."[4]"..WHITE.."."
-Inst155Quest2_Prequest = "Touch of the Kirin-Tor"
+Inst155Quest2_Aim = "Defeat Kromog in Blackrock Foundry."
+Inst155Quest2_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst155Quest2_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKromog is the last boss in the second section of Blackrock Foundry at "..YELLOW.."[8]"..WHITE.."."
+Inst155Quest2_Prequest = "None"
 Inst155Quest2_Folgequest = "None"
-Inst155Quest2PreQuest = "true"
--- No Rewards for this quest
+--
+Inst155Quest2name1 = "Greater Bounty Spoils"
 
 --Quest 3 Alliance
-Inst155Quest3 = "3. Reverse Piracy"
+Inst155Quest3 = "3. Iron Assembly: Admiral Gar'an"
 Inst155Quest3_Level = "100"
 Inst155Quest3_Attain = "100"
-Inst155Quest3_Aim = "Acquire the Draenic Thaumaturgical Orb from the Dread Grotto in the Blackrock Foundry."
-Inst155Quest3_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest3_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Draenic Thaumaturgical Orb drops from the Dread Grotto encounter at "..YELLOW.."[9]"..WHITE.."."
-Inst155Quest3_Prequest = "Touch of the Kirin-Tor"
+Inst155Quest3_Aim = "Defeat Admiral Gar'an in Blackrock Foundry."
+Inst155Quest3_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst155Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nAdmiral Gar'an is the last boss in the third section of Blackrock Foundry at "..YELLOW.."[9]"..WHITE.."."
+Inst155Quest3_Prequest = "None"
 Inst155Quest3_Folgequest = "None"
-Inst155Quest3PreQuest = "true"
--- No Rewards for this quest
+--
+Inst155Quest3name1 = "Greater Bounty Spoils"
 
 --Quest 4 Alliance
-Inst155Quest4 = "4. Might of the Elemental Lords"
+Inst155Quest4 = "4. Blackhand's Crucible: Blackhand"
 Inst155Quest4_Level = "100"
 Inst155Quest4_Attain = "100"
-Inst155Quest4_Aim = "Collect 3 Elemental Tablets. Assemble the tablets by collecting Elemental Runes from bosses in the Blackrock Foundry."
-Inst155Quest4_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest4_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nIt takes 300 Elemental Runes to make 1 Elemental Tablet.  All bosses in Blackrock Foundry will drop the Elemental Runes.  They can also be obtained from certain rare garrison missions and work orders."
-Inst155Quest4_Prequest = "Touch of the Kirin-Tor"
+Inst155Quest4_Aim = "Defeat Blackhand in the Blackrock Foundry."
+Inst155Quest4_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst155Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nBlackhand is the last boss in Blackrock Foundry at "..YELLOW.."[10]"..WHITE.."."
+Inst155Quest4_Prequest = "None"
 Inst155Quest4_Folgequest = "None"
-Inst155Quest4PreQuest = "true"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst155Quest5 = "5. Blackhand's Secret"
-Inst155Quest5_Level = "100"
-Inst155Quest5_Attain = "100"
-Inst155Quest5_Aim = "Slay Warlord Blackhand and acquire his severed arm in the Blackrock Foundry."
-Inst155Quest5_Location = "Archmage Khadgar (Talador - Zangarra; "..YELLOW.."85.2, 31.6"..WHITE..")"
-Inst155Quest5_Note = "Part of Chapter 3 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nWarlord Blackhand is at "..YELLOW.."[10]"..WHITE..".  Turn the quest in to receive your upgraded ring."
-Inst155Quest5_Prequest = "Unlocked after completing previous quests."
-Inst155Quest5_Folgequest = "None"
-Inst155Quest5PreQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst155Quest6 = "6. Slagworks: Heart of the Mountain"
-Inst155Quest6_Level = "100"
-Inst155Quest6_Attain = "100"
-Inst155Quest6_Aim = "Defeat the Heart of the Mountain at the Blast Furnace in Blackrock Foundry."
-Inst155Quest6_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst155Quest6_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nThe Heart of the Mountain is the last boss in the first section of Blackrock Foundry at "..YELLOW.."[7]"..WHITE.."."
-Inst155Quest6_Prequest = "None"
-Inst155Quest6_Folgequest = "None"
 --
-Inst155Quest6name1 = "Greater Bounty Spoils"
-
---Quest 7 Alliance
-Inst155Quest7 = "7. The Black Forge: Kromog"
-Inst155Quest7_Level = "100"
-Inst155Quest7_Attain = "100"
-Inst155Quest7_Aim = "Defeat Kromog in Blackrock Foundry."
-Inst155Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst155Quest7_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKromog is the last boss in the second section of Blackrock Foundry at "..YELLOW.."[8]"..WHITE.."."
-Inst155Quest7_Prequest = "None"
-Inst155Quest7_Folgequest = "None"
---
-Inst155Quest7name1 = "Greater Bounty Spoils"
-
---Quest 8 Alliance
-Inst155Quest8 = "8. Iron Assembly: Admiral Gar'an"
-Inst155Quest8_Level = "100"
-Inst155Quest8_Attain = "100"
-Inst155Quest8_Aim = "Defeat Admiral Gar'an in Blackrock Foundry."
-Inst155Quest8_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst155Quest8_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nAdmiral Gar'an is the last boss in the third section of Blackrock Foundry at "..YELLOW.."[9]"..WHITE.."."
-Inst155Quest8_Prequest = "None"
-Inst155Quest8_Folgequest = "None"
---
-Inst155Quest8name1 = "Greater Bounty Spoils"
-
---Quest 9 Alliance
-Inst155Quest9 = "9. Blackhand's Crucible: Blackhand"
-Inst155Quest9_Level = "100"
-Inst155Quest9_Attain = "100"
-Inst155Quest9_Aim = "Defeat Blackhand in the Blackrock Foundry."
-Inst155Quest9_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst155Quest9_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nBlackhand is the last boss in Blackrock Foundry at "..YELLOW.."[10]"..WHITE.."."
-Inst155Quest9_Prequest = "None"
-Inst155Quest9_Folgequest = "None"
---
-Inst155Quest9name1 = "Greater Bounty Spoils"
+Inst155Quest4name1 = "Greater Bounty Spoils"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1817,232 +1591,148 @@ Inst155Quest1_HORDE = Inst155Quest1
 Inst155Quest1_HORDE_Level = Inst155Quest1_Level
 Inst155Quest1_HORDE_Attain = Inst155Quest1_Attain
 Inst155Quest1_HORDE_Aim = Inst155Quest1_Aim
-Inst155Quest1_HORDE_Location = Inst155Quest1_Location
+Inst155Quest1_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst155Quest1_HORDE_Note = Inst155Quest1_Note
 Inst155Quest1_HORDE_Prequest = Inst155Quest1_Prequest
 Inst155Quest1_HORDE_Folgequest = Inst155Quest1_Folgequest
-Inst155Quest1PreQuest_HORDE = Inst155Quest1PreQuest
--- No Rewards for this quest
+--
+Inst155Quest1name1_HORDE = Inst155Quest1name1
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst155Quest2_HORDE = Inst155Quest2
 Inst155Quest2_HORDE_Level = Inst155Quest2_Level
 Inst155Quest2_HORDE_Attain = Inst155Quest2_Attain
 Inst155Quest2_HORDE_Aim = Inst155Quest2_Aim
-Inst155Quest2_HORDE_Location = Inst155Quest2_Location
+Inst155Quest2_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst155Quest2_HORDE_Note = Inst155Quest2_Note
 Inst155Quest2_HORDE_Prequest = Inst155Quest2_Prequest
 Inst155Quest2_HORDE_Folgequest = Inst155Quest2_Folgequest
-Inst155Quest2PreQuest_HORDE = Inst155Quest2PreQuest
--- No Rewards for this quest
+--
+Inst155Quest2name1_HORDE = Inst155Quest2name1
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst155Quest3_HORDE = Inst155Quest3
 Inst155Quest3_HORDE_Level = Inst155Quest3_Level
 Inst155Quest3_HORDE_Attain = Inst155Quest3_Attain
 Inst155Quest3_HORDE_Aim = Inst155Quest3_Aim
-Inst155Quest3_HORDE_Location = Inst155Quest3_Location
+Inst155Quest3_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst155Quest3_HORDE_Note = Inst155Quest3_Note
 Inst155Quest3_HORDE_Prequest = Inst155Quest3_Prequest
 Inst155Quest3_HORDE_Folgequest = Inst155Quest3_Folgequest
-Inst155Quest3PreQuest_HORDE = Inst155Quest3PreQuest
--- No Rewards for this quest
+--
+Inst155Quest3name1_HORDE = Inst155Quest3name1
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst155Quest4_HORDE = Inst155Quest4
 Inst155Quest4_HORDE_Level = Inst155Quest4_Level
 Inst155Quest4_HORDE_Attain = Inst155Quest4_Attain
 Inst155Quest4_HORDE_Aim = Inst155Quest4_Aim
-Inst155Quest4_HORDE_Location = Inst155Quest4_Location
+Inst155Quest4_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst155Quest4_HORDE_Note = Inst155Quest4_Note
 Inst155Quest4_HORDE_Prequest = Inst155Quest4_Prequest
 Inst155Quest4_HORDE_Folgequest = Inst155Quest4_Folgequest
-Inst155Quest4PreQuest_HORDE = Inst155Quest4PreQuest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst155Quest5_HORDE = Inst155Quest5
-Inst155Quest5_HORDE_Level = Inst155Quest5_Level
-Inst155Quest5_HORDE_Attain = Inst155Quest5_Attain
-Inst155Quest5_HORDE_Aim = Inst155Quest5_Aim
-Inst155Quest5_HORDE_Location = Inst155Quest5_Location
-Inst155Quest5_HORDE_Note = Inst155Quest5_Note
-Inst155Quest5_HORDE_Prequest = Inst155Quest5_Prequest
-Inst155Quest5_HORDE_Folgequest = Inst155Quest5_Folgequest
-Inst155Quest5PreQuest_HORDE = Inst155Quest5PreQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst155Quest6_HORDE = Inst155Quest6
-Inst155Quest6_HORDE_Level = Inst155Quest6_Level
-Inst155Quest6_HORDE_Attain = Inst155Quest6_Attain
-Inst155Quest6_HORDE_Aim = Inst155Quest6_Aim
-Inst155Quest6_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst155Quest6_HORDE_Note = Inst155Quest6_Note
-Inst155Quest6_HORDE_Prequest = Inst155Quest6_Prequest
-Inst155Quest6_HORDE_Folgequest = Inst155Quest6_Folgequest
 --
-Inst155Quest6name1_HORDE = Inst155Quest6name1
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst155Quest7_HORDE = Inst155Quest7
-Inst155Quest7_HORDE_Level = Inst155Quest7_Level
-Inst155Quest7_HORDE_Attain = Inst155Quest7_Attain
-Inst155Quest7_HORDE_Aim = Inst155Quest7_Aim
-Inst155Quest7_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst155Quest7_HORDE_Note = Inst155Quest7_Note
-Inst155Quest7_HORDE_Prequest = Inst155Quest7_Prequest
-Inst155Quest7_HORDE_Folgequest = Inst155Quest7_Folgequest
---
-Inst155Quest7name1_HORDE = Inst155Quest7name1
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst155Quest8_HORDE = Inst155Quest8
-Inst155Quest8_HORDE_Level = Inst155Quest8_Level
-Inst155Quest8_HORDE_Attain = Inst155Quest8_Attain
-Inst155Quest8_HORDE_Aim = Inst155Quest8_Aim
-Inst155Quest8_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst155Quest8_HORDE_Note = Inst155Quest8_Note
-Inst155Quest8_HORDE_Prequest = Inst155Quest8_Prequest
-Inst155Quest8_HORDE_Folgequest = Inst155Quest8_Folgequest
---
-Inst155Quest8name1_HORDE = Inst155Quest8name1
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst155Quest9_HORDE = Inst155Quest9
-Inst155Quest9_HORDE_Level = Inst155Quest9_Level
-Inst155Quest9_HORDE_Attain = Inst155Quest9_Attain
-Inst155Quest9_HORDE_Aim = Inst155Quest9_Aim
-Inst155Quest9_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
-Inst155Quest9_HORDE_Note = Inst155Quest9_Note
-Inst155Quest9_HORDE_Prequest = Inst155Quest9_Prequest
-Inst155Quest9_HORDE_Folgequest = Inst155Quest9_Folgequest
---
-Inst155Quest9name1_HORDE = Inst155Quest9name1
+Inst155Quest4name1_HORDE = Inst155Quest4name1
 
 
 
 --------------- INST156 - Hellfire Citadel ---------------
 
 Inst156Caption = "Hellfire Citadel"
-Inst156QAA = "10 Quests"
-Inst156QAH = "10 Quests"
+Inst156QAA = "8 Quests"
+Inst156QAH = "8 Quests"
 
 --Quest 1 Alliance
-Inst156Quest1 = "1. We Don't Need No Library Card"
+Inst156Quest1 = "1. Pits of Mannoroth"
 Inst156Quest1_Level = "100"
 Inst156Quest1_Attain = "100"
-Inst156Quest1_Aim = "Collect 33 Tomes of Chaos from bosses in Hellfire Citadel."
-Inst156Quest1_Location = "Archmage Khadgar (Garrison - Shipyard)"
-Inst156Quest1_Note = "Part of Chapter 4 of the Legendary Ring Questline.  This quest can be done on any raid difficulty.\n\nThe Tomes of Chaos drop from bosses in Hellfire Citadel."
-Inst156Quest1_Prequest = "Call of the Archmage"
-Inst156Quest1_Folgequest = "Cooking the Books"
-Inst156Quest1PreQuest = "true"
--- No Rewards for this quest
+Inst156Quest1_Aim = "Defeat Kormrok in Hellfire Citadel."
+Inst156Quest1_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst156Quest1_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKormrok is the last boss in the first section of Hellfire Citadel at "..YELLOW.."[6]"..WHITE.."."
+Inst156Quest1_Prequest = "None"
+Inst156Quest1_Folgequest = "None"
+--
+-- Awards Apexis Crystals
 
 --Quest 2 Alliance
-Inst156Quest2 = "2. Darkness Incarnate"
+Inst156Quest2 = "2. Maw of Souls"
 Inst156Quest2_Level = "100"
 Inst156Quest2_Attain = "100"
-Inst156Quest2_Aim = "Hunt down and engage Gul'dan within the Hellfire Citadel."
-Inst156Quest2_Location = "Archmage Khadgar (Garrison - Shipyard)"
-Inst156Quest2_Note = "This quest becomes available after you obtain your Legendary Ring in the previous quest.  To complete it you must kill the final boss in Hellfire Citadel, Archimonde at "..YELLOW.."[6]"..WHITE..".  The quest turns in to Archmage Khadgar at your Shipyard."
-Inst156Quest2_Prequest = "Cooking the Books"
+Inst156Quest2_Aim = "Defeat Gorefiend in Hellfire Citadel."
+Inst156Quest2_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
+Inst156Quest2_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nGorefiend is the last boss in the second section of Hellfire Citadel at "..YELLOW.."[3]"..WHITE.."."
+Inst156Quest2_Prequest = "None"
 Inst156Quest2_Folgequest = "None"
-Inst156Quest2PreQuest = "true"
--- No Rewards for this quest
+--
+-- Awards Apexis Crystals
 
 --Quest 3 Alliance
-Inst156Quest3 = "3. Pits of Mannoroth"
+Inst156Quest3 = "3. Temple of Tyranny"
 Inst156Quest3_Level = "100"
 Inst156Quest3_Attain = "100"
-Inst156Quest3_Aim = "Defeat Kormrok in Hellfire Citadel."
+Inst156Quest3_Aim = "Defeat Tyrant Velhari in Hellfire Citadel."
 Inst156Quest3_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKormrok is the last boss in the first section of Hellfire Citadel at "..YELLOW.."[5]"..WHITE.."."
+Inst156Quest3_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nTyrant Velhari is the last boss in the third section of Hellfire Citadel at "..YELLOW.."[11]"..WHITE.."."
 Inst156Quest3_Prequest = "None"
 Inst156Quest3_Folgequest = "None"
 --
 -- Awards Apexis Crystals
 
 --Quest 4 Alliance
-Inst156Quest4 = "4. Maw of Souls"
+Inst156Quest4 = "4. Destructor's Rise"
 Inst156Quest4_Level = "100"
 Inst156Quest4_Attain = "100"
-Inst156Quest4_Aim = "Defeat Gorefiend in Hellfire Citadel."
+Inst156Quest4_Aim = "Defeat Mannoroth in Hellfire Citadel."
 Inst156Quest4_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nGorefiend is the last boss in the second section of Hellfire Citadel at "..YELLOW.."[2]"..WHITE.."."
+Inst156Quest4_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nMannoroth is the last boss in the fourth section of Hellfire Citadel at "..YELLOW.."[12]"..WHITE.."."
 Inst156Quest4_Prequest = "None"
 Inst156Quest4_Folgequest = "None"
 --
 -- Awards Apexis Crystals
 
 --Quest 5 Alliance
-Inst156Quest5 = "5. Temple of Tyranny"
+Inst156Quest5 = "5. The Black Gate"
 Inst156Quest5_Level = "100"
 Inst156Quest5_Attain = "100"
-Inst156Quest5_Aim = "Defeat Tyrant Velhari in Hellfire Citadel."
+Inst156Quest5_Aim = "Defeat Archimonde in Hellfire Citadel."
 Inst156Quest5_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nTyrant Velhari is the last boss in the third section of Hellfire Citadel at "..YELLOW.."[10]"..WHITE.."."
+Inst156Quest5_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nArchimonde is the final boss in Hellfire Citadel at "..YELLOW.."[13]"..WHITE.."."
 Inst156Quest5_Prequest = "None"
 Inst156Quest5_Folgequest = "None"
 --
 -- Awards Apexis Crystals
 
 --Quest 6 Alliance
-Inst156Quest6 = "6. Destructor's Rise"
+Inst156Quest6 = "6. Well of Souls (Normal)"
 Inst156Quest6_Level = "100"
 Inst156Quest6_Attain = "100"
-Inst156Quest6_Aim = "Defeat Mannoroth in Hellfire Citadel."
-Inst156Quest6_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest6_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nMannoroth is the last boss in the fourth section of Hellfire Citadel at "..YELLOW.."[Not Shown]"..WHITE.."."
+Inst156Quest6_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Normal difficulty."
+Inst156Quest6_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
+Inst156Quest6_Note = "This quest is for Normal difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[3]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Normal difficulty, bypassing the first bosses."
 Inst156Quest6_Prequest = "None"
 Inst156Quest6_Folgequest = "None"
---
--- Awards Apexis Crystals
+-- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst156Quest7 = "7. The Black Gate"
+Inst156Quest7 = "7. Well of Souls (Heroic)"
 Inst156Quest7_Level = "100"
 Inst156Quest7_Attain = "100"
-Inst156Quest7_Aim = "Defeat Archimonde in Hellfire Citadel."
-Inst156Quest7_Location = "Muradin Bronzebeard (Garrison - Town Hall)"
-Inst156Quest7_Note = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nArchimonde is the final boss in Hellfire Citadel at "..YELLOW.."[6]"..WHITE.."."
+Inst156Quest7_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Heroic difficulty."
+Inst156Quest7_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
+Inst156Quest7_Note = "This quest is for Heroic difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[3]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Heroic difficulty, bypassing the first bosses."
 Inst156Quest7_Prequest = "None"
 Inst156Quest7_Folgequest = "None"
---
--- Awards Apexis Crystals
+-- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst156Quest8 = "8. Well of Souls (Normal)"
+Inst156Quest8 = "8. Well of Souls (Mythic)"
 Inst156Quest8_Level = "100"
 Inst156Quest8_Attain = "100"
-Inst156Quest8_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Normal difficulty."
+Inst156Quest8_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Mythic difficulty."
 Inst156Quest8_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
-Inst156Quest8_Note = "This quest is for Normal difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[6]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Normal difficulty, bypassing the first bosses."
+Inst156Quest8_Note = "This quest is for Mythic difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[3]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Mythic difficulty, bypassing the first bosses."
 Inst156Quest8_Prequest = "None"
 Inst156Quest8_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 9 Alliance
-Inst156Quest9 = "9. Well of Souls (Heroic)"
-Inst156Quest9_Level = "100"
-Inst156Quest9_Attain = "100"
-Inst156Quest9_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Heroic difficulty."
-Inst156Quest9_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
-Inst156Quest9_Note = "This quest is for Heroic difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[6]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Heroic difficulty, bypassing the first bosses."
-Inst156Quest9_Prequest = "None"
-Inst156Quest9_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst156Quest10 = "10. Well of Souls (Mythic)"
-Inst156Quest10_Level = "100"
-Inst156Quest10_Attain = "100"
-Inst156Quest10_Aim = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Mythic difficulty."
-Inst156Quest10_Location = "Archmage Khadgar (Hellfire Citadel; "..BLUE.."Entrance"..WHITE..")"
-Inst156Quest10_Note = "This quest is for Mythic difficulty mode.  Archmage Khadgar will appear after defeating the first boss, just inside the raid. Each time you defeat Gorefiend at "..YELLOW.."[6]"..WHITE..", a Soul Remnant will be credited to you.  After completing this quest you will be able to skip to the Upper levels of Hellfire Citadel on Mythic difficulty, bypassing the first bosses."
-Inst156Quest10_Prequest = "None"
-Inst156Quest10_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -2051,24 +1741,24 @@ Inst156Quest1_HORDE = Inst156Quest1
 Inst156Quest1_HORDE_Level = Inst156Quest1_Level
 Inst156Quest1_HORDE_Attain = Inst156Quest1_Attain
 Inst156Quest1_HORDE_Aim = Inst156Quest1_Aim
-Inst156Quest1_HORDE_Location = Inst156Quest1_Location
+Inst156Quest1_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst156Quest1_HORDE_Note = Inst156Quest1_Note
 Inst156Quest1_HORDE_Prequest = Inst156Quest1_Prequest
 Inst156Quest1_HORDE_Folgequest = Inst156Quest1_Folgequest
-Inst156Quest1PreQuest_HORDE = Inst156Quest1PreQuest
--- No Rewards for this quest
+--
+-- Awards Apexis Crystals
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst156Quest2_HORDE = Inst156Quest2
 Inst156Quest2_HORDE_Level = Inst156Quest2_Level
 Inst156Quest2_HORDE_Attain = Inst156Quest2_Attain
 Inst156Quest2_HORDE_Aim = Inst156Quest2_Aim
-Inst156Quest2_HORDE_Location = Inst156Quest2_Location
+Inst156Quest2_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
 Inst156Quest2_HORDE_Note = Inst156Quest2_Note
 Inst156Quest2_HORDE_Prequest = Inst156Quest2_Prequest
 Inst156Quest2_HORDE_Folgequest = Inst156Quest2_Folgequest
-Inst156Quest2PreQuest_HORDE = Inst156Quest2PreQuest
--- No Rewards for this quest
+--
+-- Awards Apexis Crystals
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst156Quest3_HORDE = Inst156Quest3
@@ -2111,24 +1801,22 @@ Inst156Quest6_HORDE = Inst156Quest6
 Inst156Quest6_HORDE_Level = Inst156Quest6_Level
 Inst156Quest6_HORDE_Attain = Inst156Quest6_Attain
 Inst156Quest6_HORDE_Aim = Inst156Quest6_Aim
-Inst156Quest6_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst156Quest6_HORDE_Location = Inst156Quest6_Location
 Inst156Quest6_HORDE_Note = Inst156Quest6_Note
 Inst156Quest6_HORDE_Prequest = Inst156Quest6_Prequest
 Inst156Quest6_HORDE_Folgequest = Inst156Quest6_Folgequest
---
--- Awards Apexis Crystals
+-- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst156Quest7_HORDE = Inst156Quest7
 Inst156Quest7_HORDE_Level = Inst156Quest7_Level
 Inst156Quest7_HORDE_Attain = Inst156Quest7_Attain
 Inst156Quest7_HORDE_Aim = Inst156Quest7_Aim
-Inst156Quest7_HORDE_Location = "High Overlord Saurfang (Garrison - Town Hall)"
+Inst156Quest7_HORDE_Location = Inst156Quest7_Location
 Inst156Quest7_HORDE_Note = Inst156Quest7_Note
 Inst156Quest7_HORDE_Prequest = Inst156Quest7_Prequest
 Inst156Quest7_HORDE_Folgequest = Inst156Quest7_Folgequest
---
--- Awards Apexis Crystals
+-- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst156Quest8_HORDE = Inst156Quest8
@@ -2139,28 +1827,6 @@ Inst156Quest8_HORDE_Location = Inst156Quest8_Location
 Inst156Quest8_HORDE_Note = Inst156Quest8_Note
 Inst156Quest8_HORDE_Prequest = Inst156Quest8_Prequest
 Inst156Quest8_HORDE_Folgequest = Inst156Quest8_Folgequest
--- No Rewards for this quest
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst156Quest9_HORDE = Inst156Quest9
-Inst156Quest9_HORDE_Level = Inst156Quest9_Level
-Inst156Quest9_HORDE_Attain = Inst156Quest9_Attain
-Inst156Quest9_HORDE_Aim = Inst156Quest9_Aim
-Inst156Quest9_HORDE_Location = Inst156Quest9_Location
-Inst156Quest9_HORDE_Note = Inst156Quest9_Note
-Inst156Quest9_HORDE_Prequest = Inst156Quest9_Prequest
-Inst156Quest9_HORDE_Folgequest = Inst156Quest9_Folgequest
--- No Rewards for this quest
-
---Quest 10 Horde  (same as Quest 10 Alliance)
-Inst156Quest10_HORDE = Inst156Quest10
-Inst156Quest10_HORDE_Level = Inst156Quest10_Level
-Inst156Quest10_HORDE_Attain = Inst156Quest10_Attain
-Inst156Quest10_HORDE_Aim = Inst156Quest10_Aim
-Inst156Quest10_HORDE_Location = Inst156Quest10_Location
-Inst156Quest10_HORDE_Note = Inst156Quest10_Note
-Inst156Quest10_HORDE_Prequest = Inst156Quest10_Prequest
-Inst156Quest10_HORDE_Folgequest = Inst156Quest10_Folgequest
 -- No Rewards for this quest
 
 
