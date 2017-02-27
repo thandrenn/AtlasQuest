@@ -8765,6 +8765,9 @@ Inst168Quest12ITC1 = Itemc5;
 Inst168Quest12description1 = AQITEM_NECK
 Inst168Quest12ID1 = "141326"
 
+--Quest 13 Alliance
+Inst168Quest13Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst168Quest1Rewardtext_HORDE = AQNoReward
@@ -8817,6 +8820,9 @@ Inst168Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst168Quest12ITC1_HORDE = Itemc5;
 Inst168Quest12description1_HORDE = AQITEM_NECK
 Inst168Quest12ID1_HORDE = "141326"
+
+--Quest 13 Horde
+Inst168Quest13Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8873,6 +8879,9 @@ Inst169Quest9ITC1 = Itemc4;
 Inst169Quest9description1 = AQITEM_ITEM
 Inst169Quest9ID1 = "142342"
 
+--Quest 10 Alliance
+Inst169Quest10Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst169Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8924,6 +8933,9 @@ Inst169Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst169Quest9ITC1_HORDE = Itemc4;
 Inst169Quest9description1_HORDE = AQITEM_ITEM
 Inst169Quest9ID1_HORDE = "142342"
+
+--Quest 10 Horde
+Inst169Quest10Rewardtext_HORDE = AQNoReward
 
 
 

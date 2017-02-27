@@ -1965,8 +1965,8 @@ Inst167Quest4name1_HORDE = Inst167Quest4name1
 --------------- INST168 - The Nighthold ---------------
 
 Inst168Caption = "The Nighthold"
-Inst168QAA = "12 Quests"
-Inst168QAH = "12 Quests"
+Inst168QAA = "13 Quests"
+Inst168QAH = "13 Quests"
 
 --Quest 1 Alliance
 Inst168Quest1 = "1. The Nighthold: Creepy Crawlers"
@@ -2044,7 +2044,7 @@ Inst168Quest8_Folgequest = "None"
 Inst168Quest9 = "9. Touch of a Titan"
 Inst168Quest9_Aim = "Bring 50 Essences of Aman'Thul to Arcanomancer Vridiel."
 Inst168Quest9_Location = "Arcanomancer Vridiel (Dalaran; "..YELLOW.."45.2, 28.4"..WHITE..".)"
-Inst168Quest9_Note = "The Essences of Aman'Thul drop from bosses in The Nighthold, as well as Chests obtained from Order Hall quests for Nighthold."
+Inst168Quest9_Note = "Repeatable quest.  The Essences of Aman'Thul drop from bosses in The Nighthold, Chests from Emissary quests and Order Hall raid quest chests."
 Inst168Quest9_Prequest = "None"
 Inst168Quest9_Folgequest = "None"
 --
@@ -2079,6 +2079,15 @@ Inst168Quest12_Prequest = "None"
 Inst168Quest12_Folgequest = "None"
 --
 Inst168Quest12name1 = "Talisman of the Shal'dorei"
+
+--Quest 13 Alliance
+Inst168Quest13 = "13. Cubic Conundrum"
+Inst168Quest13_Aim = "Take the Mysterious Cube to Dariness the Learned in Dalaran."
+Inst168Quest13_Location = "Drops from Chronomatic Anomaly (The Nighthold; "..YELLOW.."[2]"..WHITE..")"
+Inst168Quest13_Note = "The chance for this to drop from Chronomatic Anomaly is reportedly low.  It can drop on any difficulty level.  Turn the quest in to Dariness The Learned (Dalaran - Things of the Past; "..YELLOW.."40.5, 26.3"..WHITE..")."
+Inst168Quest13_Prequest = "None"
+Inst168Quest13_Folgequest = "Cubic Currents"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2193,13 +2202,22 @@ Inst168Quest12_HORDE_Folgequest = Inst168Quest12_Folgequest
 --
 Inst168Quest12name1_HORDE = Inst168Quest12name1
 
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst168Quest13_HORDE = Inst168Quest13
+Inst168Quest13_HORDE_Aim = Inst168Quest13_Aim
+Inst168Quest13_HORDE_Location = Inst168Quest13_Location
+Inst168Quest13_HORDE_Note = Inst168Quest13_Note
+Inst168Quest13_HORDE_Prequest = Inst168Quest13_Prequest
+Inst168Quest13_HORDE_Folgequest = Inst168Quest13_Folgequest
+-- No Rewards for this quest
+
 
 
 --------------- INST169 - Karazhan (Legion) ---------------
 
 Inst169Caption = "Karazhan"
-Inst169QAA = "9 Quests"
-Inst169QAH = "9 Quests"
+Inst169QAA = "10 Quests"
+Inst169QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst169Quest1 = "1. In the Eye of the Beholder"
@@ -2293,6 +2311,16 @@ Inst169Quest9_Folgequest = "None"
 --
 Inst169Quest9name1 = "Glittering Pack"
 
+--Quest 10 Alliance
+Inst169Quest10 = "10. Return to Karazhan: Cubic Cynosure"
+Inst169Quest10_Aim = "Obtain a Mana Focus from the Mana Devourer within Karazhan"
+Inst169Quest10_Location = "Dariness The Learned (Dalaran - Things of the Past; "..YELLOW.."40.5, 26.3"..WHITE..")"
+Inst169Quest10_Note = "The Mana Devourer is located at "..YELLOW.."[??]"..WHITE.."."
+Inst169Quest10_Prequest = "Cubic Conundrum -> Cubic Currents"
+Inst169Quest10_Folgequest = "Cubic Coalescing"
+Inst169Quest10PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst169Quest1_HORDE = Inst169Quest1
@@ -2385,6 +2413,16 @@ Inst169Quest9_HORDE_Prequest = Inst169Quest9_Prequest
 Inst169Quest9_HORDE_Folgequest = Inst169Quest9_Folgequest
 --
 Inst169Quest9name1_HORDE = Inst169Quest9name1
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst169Quest10_HORDE = Inst169Quest10
+Inst169Quest10_HORDE_Aim = Inst169Quest10_Aim
+Inst169Quest10_HORDE_Location = Inst169Quest10_Location
+Inst169Quest10_HORDE_Note = Inst169Quest10_Note
+Inst169Quest10_HORDE_Prequest = Inst169Quest10_Prequest
+Inst169Quest10_HORDE_Folgequest = Inst169Quest10_Folgequest
+Inst169Quest10PreQuest_HORDE = Inst169Quest10PreQuest
+-- No Rewards for this quest
 
 
 

@@ -2,7 +2,9 @@
 Changelog
 =========
 
-Version 4.10.23  (January ??, 2017)
+Version 4.10.23  (February 26, 2017)
+
+- These updates are for the English translation.  German updates are pending.
 
 - Added quests:
 	- The Nighthold: Creepy Crawlers
@@ -17,6 +19,8 @@ Version 4.10.23  (January ??, 2017)
 	- The Nighthold: Talisman of the Shal'dorei (Normal)
 	- The Nighthold: Talisman of the Shal'dorei (Heroic)
 	- The Nighthold: Talisman of the Shal'dorei (Mythic)
+	- The Nighthold: Cubic Conundrum
+	- Karazhan: Return to Karazhan: Cubic Cynosure
 
 - Removed the following Obsolete / Unavailable quests from the Warlords Legendary Questline.
 	- Auchindoun: Tackling Teron'gor
