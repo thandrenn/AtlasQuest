@@ -36,12 +36,13 @@
 -- 166 = DUNGEON: Vault of the Wardens
 -- 167 = RAID: The Emerald Nightmare
 -- 168 = RAID: The Nighthold
-
+-- 169 = DUNGEON: Karazhan (Legion)
+-- 170 = RAID: Trial of Valor
+-- 171 = RAID: Tomb of Sargeras
 
 AQ_WORLDDUNGEONQUEST = "Dies ist eine Weltquest.  Wenn diese Aktiv ist (Du kannst das in der Map sehen ob diese aktiv ist), betrete die Dungeon.  Wenn Du die Instanz beendest , wird die Quest automatisch abgeschlossen.  Diese Quest gibt Dir Rufbelohnung und manchmal auch ein Gegenstand."
 
--- German localisation by Asurn
--- updated by Guldukat Realm [EU] Antonidas
+-- German localisation by Guldukat Realm [EU] Antonidas
 
 
 if ( GetLocale() == "deDE" ) then
@@ -978,10 +979,10 @@ Inst162Quest11PreQuest = "true"
 -- Reward varies for each class
 
 --Quest 12 Alliance
-Inst162Quest12 = "12. Trigger Happy"
-Inst162Quest12_Aim = "Obtain the Runestone of Vitality from Odyn in the Halls of Valor."
-Inst162Quest12_Location = "Hobart Grapplehammer (Dalaran; "..YELLOW.."38.4, 25.0"..WHITE..")"
-Inst162Quest12_Note = "Engineering quest.  Becomes accessible after completing other engineering quests.  Odyn is the final boss, located at "..YELLOW.."[5]"..WHITE..".  The reward teaches you a new Engineering Schematic."
+Inst162Quest12 = "12. Hallen der Tapferkeit: Finger am Abzug"
+Inst162Quest12_Aim = "Beschafft den Runenstein der Vitalität von Odyn in den Hallen der Tapferkeit."
+Inst162Quest12_Location = "Hobart Wurfhammer (Dalaran; "..YELLOW.."38.4, 25.0"..WHITE..")"
+Inst162Quest12_Note = "Ingenieursquest.  Wird nach Abschluss anderer Ingenieursquesten zugänglich.  Odyn ist der Endboss bei "..YELLOW.."[5]"..WHITE..".  Die Belohnung lehrt Dir eine neue Ingenieursvorlage."
 Inst162Quest12_Prequest = "Nein"
 Inst162Quest12_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -1349,7 +1350,7 @@ Inst164QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst164Quest1 = "1. Neltharions Hort"
-Inst164Quest1_Aim = "Defeat Dargrul in Neltharion's Lair."
+Inst164Quest1_Aim = "Besiege Dargrul in Neltharion's Lair."
 Inst164Quest1_Location = "Neltharions Hort (Automatische Annahme)"
 Inst164Quest1_Note = Inst157Quest1_Location
 Inst164Quest1_Prequest = "Nein"
@@ -1359,7 +1360,7 @@ Inst164Quest1name1 = "Truhe des schwarzen Großdrachen"
 
 --Quest 2 Alliance
 Inst164Quest2 = "2. Neltharions Hort (Heroisch)"
-Inst164Quest2_Aim = "Defeat Dargrul in Neltharions Hort auf dem Schwierigkeitsgrad 'Heroisch' oder höher."
+Inst164Quest2_Aim = "Besiege Dargrul in Neltharions Hort auf dem Schwierigkeitsgrad 'Heroisch' oder höher."
 Inst164Quest2_Location = Inst164Quest1_Location
 Inst164Quest2_Note = Inst157Quest1_Location
 Inst164Quest2_Prequest = "Nein"
@@ -1369,7 +1370,7 @@ Inst164Quest2name1 = Inst164Quest1name1
 
 --Quest 3 Alliance
 Inst164Quest3 = "3. Neltharions Hort (Mythisch)"
-Inst164Quest3_Aim = "Defeat Dargrul in Neltharions Hort auf dem Schwierigkeitsgrad 'Mythisch'."
+Inst164Quest3_Aim = "Besiege Dargrul in Neltharions Hort auf dem Schwierigkeitsgrad 'Mythisch'."
 Inst164Quest3_Location = Inst164Quest1_Location
 Inst164Quest3_Note = Inst157Quest1_Location
 Inst164Quest3_Prequest = "Nein"
@@ -1379,7 +1380,7 @@ Inst164Quest3name1 = Inst164Quest1name1
 
 --Quest 4 Alliance
 Inst164Quest4 = "4. Neltharions Hort: Verseuchte Fledermaus"
-Inst164Quest4_Aim = "Besiegt Ragoul getötet und Dargrul den Unterkönig."
+Inst164Quest4_Aim = "Besiege Ragoul und Dargrul den Unterkönig."
 Inst164Quest4_Location = ""
 Inst164Quest4_Note = AQ_WORLDDUNGEONQUEST
 Inst164Quest4_Prequest = "Nein"
@@ -1528,8 +1529,8 @@ Inst165Quest1_Folgequest = "Nein"
 Inst165Quest1name1 = "Nicht gekennzeichnete Truhe aus der Schatzkammer von Suramar"
 
 --Quest 2 Alliance
-Inst165Quest2 = "2. The Arcway: Clogged Drain"
-Inst165Quest2_Aim = "Defeat Sludge Face and Advisor Vandros in The Arcway."
+Inst165Quest2 = "2. Der Arkus: Verstopfter Abfluss"
+Inst165Quest2_Aim = "Besiege Slchlickfratze und Berater Vandros."
 Inst165Quest2_Location = ""
 Inst165Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst165Quest2_Prequest = "Nein"
@@ -1639,8 +1640,8 @@ Inst165Quest6PreQuest_HORDE = "true"
 --------------- INST166 - Vault of the Wardens ---------------
 
 Inst166Caption = "Das Verlies der Wächterinnen"
-Inst166QAA = "7 Quests"
-Inst166QAH = "7 Quests"
+Inst166QAA = "12 Quests"
+Inst166QAH = "12 Quests"
 
 --Quest 1 Alliance
 Inst166Quest1 = "1. Das Verlies der Wächterinnen"
@@ -1961,17 +1962,258 @@ Inst167Quest4name1_HORDE = "Traumträne"
 
 --------------- INST168 - The Nighthold ---------------
 
-Inst168Caption = "The Nighthold"
-Inst168QAA = "Keine Quests"
-Inst168QAH = "Keine Quests"
+Inst168Caption = "Die Nachtfestung"
+Inst168QAA = "13 Quests"
+Inst168QAH = "13 Quests"
+
+--Quest 1 Alliance
+Inst168Quest1 = "1. Die Nachtfestung: Creepy Crawlers"
+Inst168Quest1_Aim = "Defeat Kar'zun."
+Inst168Quest1_Location = "Die Nachtfestung (Automatische Annahme)"
+Inst168Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest1_Prequest = "Nein"
+Inst168Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst168Quest2 = "2. Die Nachtfestung: Ein Ettinfuß in der Tür"
+Inst168Quest2_Aim = "Torm den Schläger getötet."
+Inst168Quest2_Location = Inst168Quest1_Location
+Inst168Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest2_Prequest = "Nein"
+Inst168Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst168Quest3 = "3. The Nighthold: Focused Power"
+Inst168Quest3_Aim = "Slay 2 Nightwell Diviners."
+Inst168Quest3_Location = Inst168Quest1_Location
+Inst168Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest3_Prequest = "Nein"
+Inst168Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst168Quest4 = "4. The Nighthold: Gilded Guardian"
+Inst168Quest4_Aim = "Defeat Gilded Guardian."
+Inst168Quest4_Location = Inst168Quest1_Location
+Inst168Quest4_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest4_Prequest = "Nein"
+Inst168Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst168Quest5 = "5. The Nighthold: Love Tap"
+Inst168Quest5_Aim = "Eliminate Elisande's Private Attendants (34 Wild Sycophants)."
+Inst168Quest5_Location = Inst168Quest1_Location
+Inst168Quest5_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest5_Prequest = "Nein"
+Inst168Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst168Quest6 = "6. The Nighthold: Seeds of Destruction"
+Inst168Quest6_Aim = "Defeat Doomlash."
+Inst168Quest6_Location = Inst168Quest1_Location
+Inst168Quest6_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest6_Prequest = "Nein"
+Inst168Quest6_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst168Quest7 = "7. The Nighthold: Supply Routes"
+Inst168Quest7_Aim = "Defeat Flightmaster Volnath."
+Inst168Quest7_Location = Inst168Quest1_Location
+Inst168Quest7_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest7_Prequest = "Nein"
+Inst168Quest7_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst168Quest8 = "8. Die Nachtfestung: Heulen in der Nacht"
+Inst168Quest8_Aim = "Ariadne getötet."
+Inst168Quest8_Location = Inst168Quest1_Location
+Inst168Quest8_Note = AQ_WORLDDUNGEONQUEST
+Inst168Quest8_Prequest = "Nein"
+Inst168Quest8_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst168Quest9 = "9. Von Titanen berührt"
+Inst168Quest9_Aim = "Bringt 50 Essenzen von Aman'thul zu Arkanomant Vridiel."
+Inst168Quest9_Location = "Arkanomant Vridiel (Dalaran; "..YELLOW.."45.2, 28.4"..WHITE..".)"
+Inst168Quest9_Note = "Wiederholbare Quest.  Die Essenzen von Aman'Thul droppen von jedem Boss, sowie aus Anhänger Missionen und von der Ordenshalle Raidquesten."
+Inst168Quest9_Prequest = "Nein"
+Inst168Quest9_Folgequest = "Nein"
+--
+Inst168Quest9name1 = "Destillierte Titanenessenz"
+
+--Quest 10 Alliance
+Inst168Quest10 = "10. Talisman der Shal'dorei (Normal)"
+Inst168Quest10_Aim = "Sammelt 4 Echos der Zeit von Elisande in der Nachtfestung auf dem Schwierigkeitsgrad 'Normal' ein."
+Inst168Quest10_Location = "Erste Arkanistin Thalyssra (Die Nachtfestung; "..BLUE.."Eingang [A]"..WHITE..")"
+Inst168Quest10_Note = "Großmagistrix Elisande ist bei "..YELLOW.."[9]"..WHITE..".  Wenn du diese Quest beendest, kannst du die ersten Bosse im Raid überspringen."
+Inst168Quest10_Prequest = "Nein"
+Inst168Quest10_Folgequest = "Nein"
+--
+Inst168Quest10name1 = "Talisman der Shal'dorei"
+
+--Quest 11 Alliance
+Inst168Quest11 = "11. Talisman der Shal'dorei (Heroisch)"
+Inst168Quest11_Aim = "Sammelt 4 Echos der Zeit von Elisande in der Nachtfestung auf dem Schwierigkeitsgrad 'Heroisch' ein."
+Inst168Quest11_Location = Inst168Quest10_Location
+Inst168Quest11_Note = Inst168Quest10_Note
+Inst168Quest11_Prequest = "Nein"
+Inst168Quest11_Folgequest = "Nein"
+--
+Inst168Quest11name1 = Inst168Quest10name1
+
+--Quest 12 Alliance
+Inst168Quest12 = "12. Talisman der Shal'dorei (Mythisch)"
+Inst168Quest12_Aim = "Sammelt 4 Echos der Zeit von Elisande in der Nachtfestung auf dem Schwierigkeitsgrad 'Mythisch' ein."
+Inst168Quest12_Location = Inst168Quest10_Location
+Inst168Quest12_Note = Inst168Quest10_Note
+Inst168Quest12_Prequest = "Nein"
+Inst168Quest12_Folgequest = "Nein"
+--
+Inst168Quest12name1 = Inst168Quest10name1
+
+--Quest 13 Alliance
+Inst168Quest13 = "13. Kubisches Rätsel"
+Inst168Quest13_Aim = "Bringt den mysteriösen Würfel zu Dariness der Gelehrten in Dalaran. "
+Inst168Quest13_Location = "Droppt von Chronomatische Anomalie (Die Nachtfestung; "..YELLOW.."[2]"..WHITE..")"
+Inst168Quest13_Note = "Die Chance, dass dies von der Chronomatischen Anomalie droppt ist sehr gering.  Dies kann auf jeder Schwierigkeitsstufe droppen.  Bringe den Gegenstand zu Dariness die Gelehrte in (Dalaran - Handelsmarkt der Magier; "..YELLOW.."40.8, 26.2"..WHITE..")."
+Inst168Quest13_Prequest = "Nein"
+Inst168Quest13_Folgequest = "Kubische Ströme"
+-- No Rewards for this quest
 
 
+--Quest 1 Horde
+Inst168Quest1_HORDE = Inst168Quest1
+Inst168Quest1_HORDE_Aim = Inst168Quest1_Aim
+Inst168Quest1_HORDE_Location = Inst168Quest1_Location
+Inst168Quest1_HORDE_Note = Inst168Quest1_Note
+Inst168Quest1_HORDE_Prequest = "Nein"
+Inst168Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst168Quest2_HORDE = Inst168Quest2
+Inst168Quest2_HORDE_Aim = Inst168Quest2_Aim
+Inst168Quest2_HORDE_Location = Inst168Quest2_Location
+Inst168Quest2_HORDE_Note = Inst168Quest2_Note
+Inst168Quest2_HORDE_Prequest = "Nein"
+Inst168Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst168Quest3_HORDE = Inst168Quest3
+Inst168Quest3_HORDE_Aim = Inst168Quest3_Aim
+Inst168Quest3_HORDE_Location = Inst168Quest3_Location
+Inst168Quest3_HORDE_Note = Inst168Quest3_Note
+Inst168Quest3_HORDE_Prequest = "Nein"
+Inst168Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst168Quest4_HORDE = Inst168Quest4
+Inst168Quest4_HORDE_Aim = Inst168Quest4_Aim
+Inst168Quest4_HORDE_Location = Inst168Quest4_Location
+Inst168Quest4_HORDE_Note = Inst168Quest4_Note
+Inst168Quest4_HORDE_Prequest = "Nein"
+Inst168Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst168Quest5_HORDE = Inst168Quest5
+Inst168Quest5_HORDE_Aim = Inst168Quest5_Aim
+Inst168Quest5_HORDE_Location = Inst168Quest5_Location
+Inst168Quest5_HORDE_Note = Inst168Quest5_Note
+Inst168Quest5_HORDE_Prequest = "Nein"
+Inst168Quest5_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst168Quest6_HORDE = Inst168Quest6
+Inst168Quest6_HORDE_Aim = Inst168Quest6_Aim
+Inst168Quest6_HORDE_Location = Inst168Quest6_Location
+Inst168Quest6_HORDE_Note = Inst168Quest6_Note
+Inst168Quest6_HORDE_Prequest = "Nein"
+Inst168Quest6_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst168Quest7_HORDE = Inst168Quest7
+Inst168Quest7_HORDE_Aim = Inst168Quest7_Aim
+Inst168Quest7_HORDE_Location = Inst168Quest7_Location
+Inst168Quest7_HORDE_Note = Inst168Quest7_Note
+Inst168Quest7_HORDE_Prequest = "Nein"
+Inst168Quest7_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 8 Horde
+Inst168Quest8_HORDE = Inst168Quest8
+Inst168Quest8_HORDE_Aim = Inst168Quest8_Aim
+Inst168Quest8_HORDE_Location = Inst168Quest8_Location
+Inst168Quest8_HORDE_Note = Inst168Quest8_Note
+Inst168Quest8_HORDE_Prequest = "Nein"
+Inst168Quest8_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 9 Horde
+Inst168Quest9_HORDE = Inst168Quest9
+Inst168Quest9_HORDE_Aim = Inst168Quest9_Aim
+Inst168Quest9_HORDE_Location = Inst168Quest9_Location
+Inst168Quest9_HORDE_Note = Inst168Quest9_Note
+Inst168Quest9_HORDE_Prequest = "Nein"
+Inst168Quest9_HORDE_Folgequest = "Nein"
+--
+Inst168Quest9name1_HORDE = Inst168Quest9name1
+
+--Quest 10 Horde
+Inst168Quest10_HORDE = Inst168Quest10
+Inst168Quest10_HORDE_Aim = Inst168Quest10_Aim
+Inst168Quest10_HORDE_Location = Inst168Quest10_Location
+Inst168Quest10_HORDE_Note = Inst168Quest10_Note
+Inst168Quest10_HORDE_Prequest = "Nein"
+Inst168Quest10_HORDE_Folgequest = "Nein"
+--
+Inst168Quest10name1_HORDE = Inst168Quest10name1
+
+--Quest 11 Horde
+Inst168Quest11_HORDE = Inst168Quest11
+Inst168Quest11_HORDE_Aim = Inst168Quest11_Aim
+Inst168Quest11_HORDE_Location = Inst168Quest11_Location
+Inst168Quest11_HORDE_Note = Inst168Quest11_Note
+Inst168Quest11_HORDE_Prequest = "Nein"
+Inst168Quest11_HORDE_Folgequest = "Nein"
+--
+Inst168Quest11name1_HORDE = Inst168Quest11name1
+
+--Quest 12 Horde
+Inst168Quest12_HORDE = Inst168Quest12
+Inst168Quest12_HORDE_Aim = Inst168Quest12_Aim
+Inst168Quest12_HORDE_Location = Inst168Quest12_Location
+Inst168Quest12_HORDE_Note = Inst168Quest12_Note
+Inst168Quest12_HORDE_Prequest = "Nein"
+Inst168Quest12_HORDE_Folgequest = "Nein"
+--
+Inst168Quest12name1_HORDE = Inst168Quest12name1
+
+--Quest 13 Horde
+Inst168Quest13_HORDE = Inst168Quest13
+Inst168Quest13_HORDE_Aim = Inst168Quest13_Aim
+Inst168Quest13_HORDE_Location = Inst168Quest13_Location
+Inst168Quest13_HORDE_Note = Inst168Quest13_Note
+Inst168Quest13_HORDE_Prequest = "Nein"
+Inst168Quest13_HORDE_Folgequest = Inst168Quest13_Folgequest
+-- No Rewards for this quest
 
 --------------- INST169 - Karazhan (Legion) ---------------
 
 Inst169Caption = "Karazhan"
-Inst169QAA = "9 Quests"
-Inst169QAH = "9 Quests"
+Inst169QAA = "10 Quests"
+Inst169QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst169Quest1 = "1. Im Auge des Betrachters"
@@ -2045,7 +2287,7 @@ Inst169Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst169Quest8 = "8. No Bones About It"
+Inst169Quest8 = "8. Knochenarbeit"
 Inst169Quest8_Aim = "Bring das Verkohlte Knochenfragmente zu Darius."
 Inst169Quest8_Location = ""
 Inst169Quest8_Note = ""
@@ -2064,6 +2306,16 @@ Inst169Quest9_Prequest = "Nein"
 Inst169Quest9_Folgequest = "Nein"
 --
 Inst169Quest9name1 = "Schimmerndes Bündel"
+
+--Quest 10 Alliance
+Inst169Quest10 = "10. Rückkehr nach Karazhan: Kubischer Anziehungspunkt"
+Inst169Quest10_Aim = "Besorgt einen Manafokus vom Manaschlinger in Karazhan."
+Inst169Quest10_Location = "Dariness die Gelehrte (Dalaran - Handelsmarkt der Magier; "..YELLOW.."40.8, 26.2"..WHITE..")"
+Inst169Quest10_Note = "Der Manaschlinger ist bei "..YELLOW.."[??]"..WHITE.."."
+Inst169Quest10_Prequest = "Kubisches Rätsel -> Kubische Ströme"
+Inst169Quest10_Folgequest = "Kubische Verschmelzung"
+Inst169Quest10PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde
@@ -2158,6 +2410,15 @@ Inst169Quest9_HORDE_Folgequest = "Nein"
 --
 Inst169Quest9name1_HORDE = Inst169Quest9name1
 
+--Quest 10 Horde
+Inst169Quest10_HORDE = Inst169Quest10
+Inst169Quest10_HORDE_Aim = Inst169Quest10_Aim
+Inst169Quest10_HORDE_Location = Inst169Quest10_Location
+Inst169Quest10_HORDE_Note = Inst169Quest10_Note
+Inst169Quest10_HORDE_Prequest = Inst169Quest10_Prequest
+Inst169Quest10_HORDE_Folgequest = Inst169Quest10_Folgequest
+Inst169Quest10PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 --------------- INST170 - Trial of Valor ---------------

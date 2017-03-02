@@ -37,8 +37,7 @@
 -- 156 = RAID: Hellfire Citadel
 
 
--- German localisation by Asurn
--- updated by Guldukat Realm [EU] Antonidas
+-- German localisation by Guldukat Realm [EU] Antonidas
 
 
 if ( GetLocale() == "deDE" ) then
@@ -85,7 +84,7 @@ Inst146Quest2_Level = "100"
 Inst146Quest2_Attain = "100"
 Inst146Quest2_Aim = "Beschafft eine Seelenschnittklinge aus Auchindoun."
 Inst146Quest2_Location = "Lilian Voss "..AQGARRISON
-Inst146Quest2_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss.\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
+Inst146Quest2_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge kann am Brunnen rechts von der ersten Kreuzung gefunden werden.  Du kannst sie finden ohne einen Gegner zu töten oder die Instanz zu starten\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst146Quest2_Prequest = "Nein"
 Inst146Quest2_Folgequest = "Nein"
 --
@@ -97,7 +96,7 @@ Inst146Quest3_Level = "100"
 Inst146Quest3_Attain = "100"
 Inst146Quest3_Aim = Inst146Quest2_Aim
 Inst146Quest3_Location = Inst146Quest2_Location
-Inst146Quest3_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge befindet sich am Brunnen am ersten Verbindungsknoten im Raum vom dritten "..YELLOW.."[3]"..WHITE.." Boss.\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
+Inst146Quest3_Note = "Nur im heroischen Modus.  Die Seelenschnittklinge kann am Brunnen rechts von der ersten Kreuzung gefunden werden "..YELLOW.."[3]"..WHITE.." Boss.\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen."
 Inst146Quest3_Prequest = "Nein"
 Inst146Quest3_Folgequest = "Nein"
 --
