@@ -2282,7 +2282,7 @@ Inst169Quest7_Aim = "Tötet die Spinnen in den Bedienstetenunterkünften."
 Inst169Quest7_Location = ""
 Inst169Quest7_Note = "Nach Beendigung der Quest, töte Schrecken der Nacht bei "..YELLOW.."[]"..WHITE.." und nehme den Gegenstandand von ihm ab um die nächste Quest zu starten."
 Inst169Quest7_Prequest = "Palaver in der Pause"
-Inst169Quest7_Folgequest = "No Bones About It"
+Inst169Quest7_Folgequest = "Knochenarbeit"
 Inst169Quest7FQuest = "true"
 -- No Rewards for this quest
 
@@ -2301,7 +2301,7 @@ Inst169Quest8name1 = "Violetter Siegelring des Großmagus"
 Inst169Quest9 = "9. Der Turm der Macht"
 Inst169Quest9_Aim = "Bezwingt Viz'aduum den Beobachter in Karazhan auf dem Schwierigkeitsgrad Mythisch."
 Inst169Quest9_Location = "Obtained from Order Hall mission."
-Inst169Quest9_Note = "Viz'aduum the Watcher is at "..YELLOW.."[10]"..WHITE..".  Turn in the completed quest in your Order Hall."
+Inst169Quest9_Note = "Viz'aduum den Beobachter ist bei "..YELLOW.."[10]"..WHITE..".  Diese Quest kannst Du nach der Beendigung in Deiner Ordenshalle abgeben."
 Inst169Quest9_Prequest = "Nein"
 Inst169Quest9_Folgequest = "Nein"
 --
