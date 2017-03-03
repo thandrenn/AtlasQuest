@@ -1963,8 +1963,8 @@ Inst167Quest4name1_HORDE = "Traumträne"
 --------------- INST168 - The Nighthold ---------------
 
 Inst168Caption = "Die Nachtfestung"
-Inst168QAA = "13 Quests"
-Inst168QAH = "13 Quests"
+Inst168QAA = "14 Quests"
+Inst168QAH = "14 Quests"
 
 --Quest 1 Alliance
 Inst168Quest1 = "1. Die Nachtfestung: Creepy Crawlers"
@@ -2087,6 +2087,18 @@ Inst168Quest13_Prequest = "Nein"
 Inst168Quest13_Folgequest = "Kubische Ströme"
 -- No Rewards for this quest
 
+--Quest 14 Alliance
+Inst168Quest14 = "14. Die Nachtfestung: Herr des Schattenrats"
+Inst168Quest14_Aim = "Besiegt Gul'dan."
+Inst168Quest14_Location = 
+Inst168Quest14_Note = ""
+Inst168Quest14_Prequest = "Eine Bresche in das Sanktum"
+Inst168Quest14_Folgequest = "Das Auge von Aman'thul"
+Inst166Quest14FQuest = "true"
+Inst166Quest14PreQuest = "true"
+--
+Inst168Quest10name1 = "Kopfstück des Schattenrats"
+
 
 --Quest 1 Horde
 Inst168Quest1_HORDE = Inst168Quest1
@@ -2208,6 +2220,18 @@ Inst168Quest13_HORDE_Note = Inst168Quest13_Note
 Inst168Quest13_HORDE_Prequest = "Nein"
 Inst168Quest13_HORDE_Folgequest = Inst168Quest13_Folgequest
 -- No Rewards for this quest
+
+--Quest 14 Horde
+Inst168Quest14_HORDE = Inst168Quest14
+Inst168Quest14_HORDE_Aim = Inst168Quest14_Aim
+Inst168Quest14_HORDE_Location = Inst168Quest14_Location
+Inst168Quest14_HORDE_Note = Inst168Quest14_Note
+Inst168Quest14_HORDE_Prequest = Inst168Quest14_Prequest
+Inst168Quest14_HORDE_Folgequest = Inst168Quest14_Folgequest
+--
+Inst168Quest14name1_HORDE = Inst168Quest14name1
+
+
 
 --------------- INST169 - Karazhan (Legion) ---------------
 
