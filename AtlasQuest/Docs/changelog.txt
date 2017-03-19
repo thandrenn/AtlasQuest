@@ -2,10 +2,15 @@
 Changelog
 =========
 
+Version 4.10.25  (March 19, 2017)
+
+- Fixed a bug in the German language file that was causing a LUA error on load.
+
+
+
 Version 4.10.24  (March 18, 2017)
 
 - German translation updated.
-
 
 
 
