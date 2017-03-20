@@ -1968,7 +1968,7 @@ Inst168QAH = "14 Quests"
 
 --Quest 1 Alliance
 Inst168Quest1 = "1. Die Nachtfestung: Creepy Crawlers"
-Inst168Quest1_Aim = "Defeat Kar'zun."
+Inst168Quest1_Aim = "Besiegt Kar'zun."
 Inst168Quest1_Location = "Die Nachtfestung (Automatische Annahme)"
 Inst168Quest1_Note = AQ_WORLDDUNGEONQUEST
 Inst168Quest1_Prequest = "Nein"
@@ -1985,7 +1985,7 @@ Inst168Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst168Quest3 = "3. The Nighthold: Focused Power"
+Inst168Quest3 = "3. Die Nachtfestung: Focused Power"
 Inst168Quest3_Aim = "Slay 2 Nightwell Diviners."
 Inst168Quest3_Location = Inst168Quest1_Location
 Inst168Quest3_Note = AQ_WORLDDUNGEONQUEST
@@ -1994,7 +1994,7 @@ Inst168Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst168Quest4 = "4. The Nighthold: Gilded Guardian"
+Inst168Quest4 = "4. Die Nachtfestung: Gilded Guardian"
 Inst168Quest4_Aim = "Defeat Gilded Guardian."
 Inst168Quest4_Location = Inst168Quest1_Location
 Inst168Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -2003,7 +2003,7 @@ Inst168Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst168Quest5 = "5. The Nighthold: Love Tap"
+Inst168Quest5 = "5. Die Nachtfestung: Love Tap"
 Inst168Quest5_Aim = "Eliminate Elisande's Private Attendants (34 Wild Sycophants)."
 Inst168Quest5_Location = Inst168Quest1_Location
 Inst168Quest5_Note = AQ_WORLDDUNGEONQUEST
@@ -2012,7 +2012,7 @@ Inst168Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst168Quest6 = "6. The Nighthold: Seeds of Destruction"
+Inst168Quest6 = "6. Die Nachtfestung: Seeds of Destruction"
 Inst168Quest6_Aim = "Defeat Doomlash."
 Inst168Quest6_Location = Inst168Quest1_Location
 Inst168Quest6_Note = AQ_WORLDDUNGEONQUEST
@@ -2021,7 +2021,7 @@ Inst168Quest6_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst168Quest7 = "7. The Nighthold: Supply Routes"
+Inst168Quest7 = "7. Die Nachtfestung: Supply Routes"
 Inst168Quest7_Aim = "Defeat Flightmaster Volnath."
 Inst168Quest7_Location = Inst168Quest1_Location
 Inst168Quest7_Note = AQ_WORLDDUNGEONQUEST
@@ -2082,7 +2082,7 @@ Inst168Quest12name1 = Inst168Quest10name1
 Inst168Quest13 = "13. Kubisches Rätsel"
 Inst168Quest13_Aim = "Bringt den mysteriösen Würfel zu Dariness der Gelehrten in Dalaran. "
 Inst168Quest13_Location = "Droppt von Chronomatische Anomalie (Die Nachtfestung; "..YELLOW.."[2]"..WHITE..")"
-Inst168Quest13_Note = "Die Chance, dass dies von der Chronomatischen Anomalie droppt ist sehr gering.  Dies kann auf jeder Schwierigkeitsstufe droppen.  Bringe den Gegenstand zu Dariness die Gelehrte in (Dalaran - Handelsmarkt der Magier; "..YELLOW.."40.8, 26.2"..WHITE..")."
+Inst168Quest13_Note = "Die Chance, dass dies von der Chronomatischen Anomalie droppt ist sehr gering.  Dies kann auf jeder Schwierigkeitsstufe droppen.  Bringe dies zu Dariness die Gelehrte in (Dalaran - Handelsmarkt der Magier; "..YELLOW.."40.8, 26.2"..WHITE..")."
 Inst168Quest13_Prequest = "Nein"
 Inst168Quest13_Folgequest = "Kubische Ströme"
 -- No Rewards for this quest
@@ -2090,8 +2090,16 @@ Inst168Quest13_Folgequest = "Kubische Ströme"
 --Quest 14 Alliance
 Inst168Quest14 = "14. Die Nachtfestung: Herr des Schattenrats"
 Inst168Quest14_Aim = "Besiegt Gul'dan."
+<<<<<<< .mine
+Inst168Quest14_Location = "Gul'dan ist der Endboss bei (Die Nachtfestung; "..YELLOW.."[10]"..WHITE..")"
+Inst168Quest14_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden."
+||||||| .r667
+Inst168Quest14_Location = 
+Inst168Quest14_Note = ""
+=======
 Inst168Quest14_Location = ""
 Inst168Quest14_Note = ""
+>>>>>>> .r669
 Inst168Quest14_Prequest = "Eine Bresche in das Sanktum"
 Inst168Quest14_Folgequest = "Das Auge von Aman'thul"
 Inst166Quest14FQuest = "true"
