@@ -2,9 +2,17 @@
 Changelog
 =========
 
+
+Version 4.10.30  (March ??, 2017)
+
+- TOC file updated for Patch 7.2.
+- Basic support for Tomb of Sargeras.  No quests yet.
+
+
+
 Version 4.10.25  (March 19, 2017)
 
-- Fixed a bug in the German language file that was causing a LUA error on load.
+- Fixed a bug in the German language file that was causing a LUA error on load.  (Thanks Enigma_TL & bsmorgan)
 
 
 

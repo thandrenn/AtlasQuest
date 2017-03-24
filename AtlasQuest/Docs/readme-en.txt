@@ -3,8 +3,11 @@
 AtlasQuest
 Maintained by Thandrenn (aka Mystery8)
 Email me at mystery8@gmail.com
-Forums at http://www.atlasmod.com/phpBB3/viewforum.php?f=7
 
+Github: https://github.com/thandrenn/AtlasQuest
+
+Report Bugs at the CurseForge page:
+https://wow.curseforge.com/projects/atlas-quest-fan-update
 
 
 About AtlasQuest:

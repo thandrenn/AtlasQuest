@@ -2090,16 +2090,8 @@ Inst168Quest13_Folgequest = "Kubische Ströme"
 --Quest 14 Alliance
 Inst168Quest14 = "14. Die Nachtfestung: Herr des Schattenrats"
 Inst168Quest14_Aim = "Besiegt Gul'dan."
-<<<<<<< .mine
 Inst168Quest14_Location = "Gul'dan ist der Endboss bei (Die Nachtfestung; "..YELLOW.."[10]"..WHITE..")"
 Inst168Quest14_Note = "Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden."
-||||||| .r667
-Inst168Quest14_Location = 
-Inst168Quest14_Note = ""
-=======
-Inst168Quest14_Location = ""
-Inst168Quest14_Note = ""
->>>>>>> .r669
 Inst168Quest14_Prequest = "Eine Bresche in das Sanktum"
 Inst168Quest14_Folgequest = "Das Auge von Aman'thul"
 Inst166Quest14FQuest = "true"
