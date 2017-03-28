@@ -435,11 +435,14 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdD") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdE") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdF") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdG") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_Legion\\Images\\TheNightholdH") then
 		AQINSTANZ = 168;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\KarazhanA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\KarazhanB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdEnt") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanD") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanE") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanF") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanG") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanH") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanI") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanJ") then
 		AQINSTANZ = 169;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TrialofValorA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TrialofValorB") then
 		AQINSTANZ = 170;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasD") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasE") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasF") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasG") then
+		AQINSTANZ = 171;
 		
 	-- Scenarios
 
