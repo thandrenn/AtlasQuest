@@ -443,6 +443,9 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasD") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasE") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasF") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasG") then
 		AQINSTANZ = 171;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightD") then
+		AQINSTANZ = 172;
 		
 	-- Scenarios
 
@@ -742,4 +745,5 @@ end
 -- 169 = DUNGEON: Karazhan (Legion)
 -- 170 = RAID: Trial of Valor
 -- 171 = RAID: Tomb of Sargeras
+-- 172 = DUNGEON: Cathedral of Eternal Night
 

@@ -8982,6 +8982,16 @@ Inst170Quest3Rewardtext_HORDE = AQClassRewards
 
 
 
+--------------- INST172 - Cathedral of Eternal Night ---------------
+
+--Quest 1 Alliance
+Inst172Quest1Rewardtext = AQClassRewards
+
+
+--Quest 1 Horde
+Inst172Quest1Rewardtext_HORDE = AQClassRewards
+
+
 
 
 ---------------------------------------------------

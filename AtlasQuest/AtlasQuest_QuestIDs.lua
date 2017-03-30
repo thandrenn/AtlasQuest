@@ -3904,6 +3904,24 @@ AQ_45088_Level = "110"
 
 
 
+--------------- INST172 - Cathedral of Eternal Night ---------------
+
+Inst172Quest1_QuestID = "46244"
+Inst172Quest1_Level = "110"
+Inst172Quest1_Attain = "110"
+
+
+Inst172Quest1_HORDE_QuestID = "46244"
+Inst172Quest1_HORDE_Level = "110"
+Inst172Quest1_HORDE_Attain = "110"
+
+
+
+AQ_46244_Level = "110"
+
+
+
+
 
 
 ---------------------------------------------------

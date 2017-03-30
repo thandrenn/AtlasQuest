@@ -3,31 +3,31 @@ If/when this slips into a release, just ignore it. :)
 
 
 --Quest 1 Alliance
-Inst168Quest1 = ""
-Inst168Quest1_Aim = ""
-Inst168Quest1_Location = ""
-Inst168Quest1_Note = ""
-Inst168Quest1_Prequest = "None"
-Inst168Quest1_Folgequest = "None"
-Inst168Quest1PreQuest = "true"
-Inst168Quest1FQuest = "true"
+Inst172Quest1 = ""
+Inst172Quest1_Aim = ""
+Inst172Quest1_Location = ""
+Inst172Quest1_Note = ""
+Inst172Quest1_Prequest = "None"
+Inst172Quest1_Folgequest = "None"
+Inst172Quest1PreQuest = "true"
+Inst172Quest1FQuest = "true"
 --
-Inst168Quest1name1 = ""
+Inst172Quest1name1 = ""
 -- No Rewards for this quest
 -- Reward varies for each class
 
 
 --Quest 1 Horde
-Inst168Quest1_HORDE = ""
-Inst168Quest1_HORDE_Aim = ""
-Inst168Quest1_HORDE_Location = ""
-Inst168Quest1_HORDE_Note = ""
-Inst168Quest1_HORDE_Prequest = "None"
-Inst168Quest1_HORDE_Folgequest = "None"
-Inst168Quest1PreQuest_HORDE = "true"
-Inst168Quest1FQuest_HORDE = "true"
+Inst172Quest1_HORDE = ""
+Inst172Quest1_HORDE_Aim = ""
+Inst172Quest1_HORDE_Location = ""
+Inst172Quest1_HORDE_Note = ""
+Inst172Quest1_HORDE_Prequest = "None"
+Inst172Quest1_HORDE_Folgequest = "None"
+Inst172Quest1PreQuest_HORDE = "true"
+Inst172Quest1FQuest_HORDE = "true"
 --
-Inst168Quest1name1_HORDE = ""
+Inst172Quest1name1_HORDE = ""
 -- No Rewards for this quest
 -- Reward varies for each class
 
@@ -35,16 +35,16 @@ Inst168Quest1name1_HORDE = ""
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst168Quest1_HORDE = Inst168Quest1
-Inst168Quest1_HORDE_Aim = Inst168Quest1_Aim
-Inst168Quest1_HORDE_Location = Inst168Quest1_Location
-Inst168Quest1_HORDE_Note = Inst168Quest1_Note
-Inst168Quest1_HORDE_Prequest = Inst168Quest1_Prequest
-Inst168Quest1_HORDE_Folgequest = Inst168Quest1_Folgequest
-Inst168Quest1PreQuest_HORDE = Inst168Quest1PreQuest
-Inst168Quest1FQuest_HORDE = Inst168Quest1FQuest
+Inst172Quest1_HORDE = Inst172Quest1
+Inst172Quest1_HORDE_Aim = Inst172Quest1_Aim
+Inst172Quest1_HORDE_Location = Inst172Quest1_Location
+Inst172Quest1_HORDE_Note = Inst172Quest1_Note
+Inst172Quest1_HORDE_Prequest = Inst172Quest1_Prequest
+Inst172Quest1_HORDE_Folgequest = Inst172Quest1_Folgequest
+Inst172Quest1PreQuest_HORDE = Inst172Quest1PreQuest
+Inst172Quest1FQuest_HORDE = Inst172Quest1FQuest
 --
-Inst168Quest1name1_HORDE = Inst168Quest1name1
+Inst172Quest1name1_HORDE = Inst172Quest1name1
 -- No Rewards for this quest
 -- Reward varies for each class
 
@@ -52,32 +52,32 @@ Inst168Quest1name1_HORDE = Inst168Quest1name1
 
 
 --Quest 1 Alliance
-Inst168Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst172Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst168Quest1ITC1 = Itemc4;
-Inst168Quest1description1 = AQITEM_..AQITEM_
-Inst168Quest1ID1 = ""
+Inst172Quest1ITC1 = Itemc4;
+Inst172Quest1description1 = AQITEM_..AQITEM_
+Inst172Quest1ID1 = ""
 --ITEM2
-Inst168Quest1ITC2 = Itemc4;
-Inst168Quest1description2 = AQITEM_..AQITEM_
-Inst168Quest1ID2 = ""
+Inst172Quest1ITC2 = Itemc4;
+Inst172Quest1description2 = AQITEM_..AQITEM_
+Inst172Quest1ID2 = ""
 --ITEM3
-Inst168Quest1ITC3 = Itemc4;
-Inst168Quest1description3 = AQITEM_..AQITEM_
-Inst168Quest1ID3 = ""
+Inst172Quest1ITC3 = Itemc4;
+Inst172Quest1description3 = AQITEM_..AQITEM_
+Inst172Quest1ID3 = ""
 --ITEM4
-Inst168Quest1ITC4 = Itemc4;
-Inst168Quest1description4 = AQITEM_..AQITEM_
-Inst168Quest1ID4 = ""
+Inst172Quest1ITC4 = Itemc4;
+Inst172Quest1description4 = AQITEM_..AQITEM_
+Inst172Quest1ID4 = ""
 
 
 
 
 --Quest 1 Alliance
-Inst168Quest1Rewardtext = AQNoReward
+Inst172Quest1Rewardtext = AQNoReward
 
 --Quest 1 Alliance
-Inst168Quest1Rewardtext = AQClassRewards
+Inst172Quest1Rewardtext = AQClassRewards
 
 
 
@@ -87,86 +87,86 @@ Inst168Quest1Rewardtext = AQClassRewards
 
 
 
-Inst168Quest1_QuestID = ""
-Inst168Quest1_Level = "110"
-Inst168Quest1_Attain = "110"
+Inst172Quest1_QuestID = ""
+Inst172Quest1_Level = "110"
+Inst172Quest1_Attain = "110"
 
-Inst168Quest2_QuestID = ""
-Inst168Quest2_Level = "110"
-Inst168Quest2_Attain = "110"
+Inst172Quest2_QuestID = ""
+Inst172Quest2_Level = "110"
+Inst172Quest2_Attain = "110"
 
-Inst168Quest3_QuestID = ""
-Inst168Quest3_Level = "110"
-Inst168Quest3_Attain = "110"
+Inst172Quest3_QuestID = ""
+Inst172Quest3_Level = "110"
+Inst172Quest3_Attain = "110"
 
-Inst168Quest4_QuestID = ""
-Inst168Quest4_Level = "110"
-Inst168Quest4_Attain = "110"
+Inst172Quest4_QuestID = ""
+Inst172Quest4_Level = "110"
+Inst172Quest4_Attain = "110"
 
-Inst168Quest5_QuestID = ""
-Inst168Quest5_Level = "110"
-Inst168Quest5_Attain = "110"
+Inst172Quest5_QuestID = ""
+Inst172Quest5_Level = "110"
+Inst172Quest5_Attain = "110"
 
-Inst168Quest6_QuestID = ""
-Inst168Quest6_Level = "110"
-Inst168Quest6_Attain = "110"
+Inst172Quest6_QuestID = ""
+Inst172Quest6_Level = "110"
+Inst172Quest6_Attain = "110"
 
-Inst168Quest7_QuestID = ""
-Inst168Quest7_Level = "110"
-Inst168Quest7_Attain = "110"
+Inst172Quest7_QuestID = ""
+Inst172Quest7_Level = "110"
+Inst172Quest7_Attain = "110"
 
-Inst168Quest8_QuestID = ""
-Inst168Quest8_Level = "110"
-Inst168Quest8_Attain = "110"
+Inst172Quest8_QuestID = ""
+Inst172Quest8_Level = "110"
+Inst172Quest8_Attain = "110"
 
-Inst168Quest9_QuestID = ""
-Inst168Quest9_Level = "110"
-Inst168Quest9_Attain = "110"
+Inst172Quest9_QuestID = ""
+Inst172Quest9_Level = "110"
+Inst172Quest9_Attain = "110"
 
-Inst168Quest10_QuestID = ""
-Inst168Quest10_Level = "110"
-Inst168Quest10_Attain = "110"
+Inst172Quest10_QuestID = ""
+Inst172Quest10_Level = "110"
+Inst172Quest10_Attain = "110"
 
 
-Inst168Quest1_HORDE_QuestID = ""
-Inst168Quest1_HORDE_Level = "110"
-Inst168Quest1_HORDE_Attain = "110"
+Inst172Quest1_HORDE_QuestID = ""
+Inst172Quest1_HORDE_Level = "110"
+Inst172Quest1_HORDE_Attain = "110"
 
-Inst168Quest2_HORDE_QuestID = ""
-Inst168Quest2_HORDE_Level = "110"
-Inst168Quest2_HORDE_Attain = "110"
+Inst172Quest2_HORDE_QuestID = ""
+Inst172Quest2_HORDE_Level = "110"
+Inst172Quest2_HORDE_Attain = "110"
 
-Inst168Quest3_HORDE_QuestID = ""
-Inst168Quest3_HORDE_Level = "110"
-Inst168Quest3_HORDE_Attain = "110"
+Inst172Quest3_HORDE_QuestID = ""
+Inst172Quest3_HORDE_Level = "110"
+Inst172Quest3_HORDE_Attain = "110"
 
-Inst168Quest4_HORDE_QuestID = ""
-Inst168Quest4_HORDE_Level = "110"
-Inst168Quest4_HORDE_Attain = "110"
+Inst172Quest4_HORDE_QuestID = ""
+Inst172Quest4_HORDE_Level = "110"
+Inst172Quest4_HORDE_Attain = "110"
 
-Inst168Quest5_HORDE_QuestID = ""
-Inst168Quest5_HORDE_Level = "110"
-Inst168Quest5_HORDE_Attain = "110"
+Inst172Quest5_HORDE_QuestID = ""
+Inst172Quest5_HORDE_Level = "110"
+Inst172Quest5_HORDE_Attain = "110"
 
-Inst168Quest6_HORDE_QuestID = ""
-Inst168Quest6_HORDE_Level = "110"
-Inst168Quest6_HORDE_Attain = "110"
+Inst172Quest6_HORDE_QuestID = ""
+Inst172Quest6_HORDE_Level = "110"
+Inst172Quest6_HORDE_Attain = "110"
 
-Inst168Quest7_HORDE_QuestID = ""
-Inst168Quest7_HORDE_Level = "110"
-Inst168Quest7_HORDE_Attain = "110"
+Inst172Quest7_HORDE_QuestID = ""
+Inst172Quest7_HORDE_Level = "110"
+Inst172Quest7_HORDE_Attain = "110"
 
-Inst168Quest8_HORDE_QuestID = ""
-Inst168Quest8_HORDE_Level = "110"
-Inst168Quest8_HORDE_Attain = "110"
+Inst172Quest8_HORDE_QuestID = ""
+Inst172Quest8_HORDE_Level = "110"
+Inst172Quest8_HORDE_Attain = "110"
 
-Inst168Quest9_HORDE_QuestID = ""
-Inst168Quest9_HORDE_Level = "110"
-Inst168Quest9_HORDE_Attain = "110"
+Inst172Quest9_HORDE_QuestID = ""
+Inst172Quest9_HORDE_Level = "110"
+Inst172Quest9_HORDE_Attain = "110"
 
-Inst168Quest10_HORDE_QuestID = ""
-Inst168Quest10_HORDE_Level = "110"
-Inst168Quest10_HORDE_Attain = "110"
+Inst172Quest10_HORDE_QuestID = ""
+Inst172Quest10_HORDE_Level = "110"
+Inst172Quest10_HORDE_Attain = "110"
 
 
 

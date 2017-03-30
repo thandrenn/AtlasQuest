@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.10.31  (April ??, 2017)
+
+- Added support for Cathedral of the Eternal Night dungeon.
+
+- Added quests:
+	- Cathedral of Eternal Night: Altar of the Aegis
+
+
 
 Version 4.10.30  (March 28, 2017)
 

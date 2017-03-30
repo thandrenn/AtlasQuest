@@ -39,6 +39,7 @@
 -- 169 = DUNGEON: Karazhan (Legion)
 -- 170 = RAID: Trial of Valor
 -- 171 = RAID: Tomb of Sargeras
+-- 172 = DUNGEON: Cathedral of Eternal Night
 
 
 --
@@ -2502,6 +2503,35 @@ Inst170Quest3_HORDE_Folgequest = Inst170Quest3_Folgequest
 Inst171Caption = "Tomb of Sargeras"
 Inst171QAA = "No Quests"
 Inst171QAH = "No Quests"
+
+
+
+--------------- INST172 - Cathedral of Eternal Night ---------------
+
+Inst172Caption = "Cathedral of Eternal Night"
+Inst172QAA = "1 Quest"
+Inst172QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst172Quest1 = "1. Altar of the Aegis"
+Inst172Quest1_Aim = "Defeat Lord Mephistroth and place the Aegis of Aggramar upon the Altar of Eternal Night."
+Inst172Quest1_Location = "Archmage Khadgar (Broken Shores - Deliverance Point;"..YELLOW.."44.8, 63.2"..WHITE..")"
+Inst172Quest1_Note = "Lord Mephistroth is the final boss of the dungeon."
+Inst172Quest1_Prequest = "Assault on Broken Shore -> Legionfall Supplies"
+Inst172Quest1_Folgequest = "None"
+Inst172Quest1PreQuest = "true"
+-- Reward varies for each class
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst172Quest1_HORDE = Inst172Quest1
+Inst172Quest1_HORDE_Aim = Inst172Quest1_Aim
+Inst172Quest1_HORDE_Location = Inst172Quest1_Location
+Inst172Quest1_HORDE_Note = Inst172Quest1_Note
+Inst172Quest1_HORDE_Prequest = Inst172Quest1_Prequest
+Inst172Quest1_HORDE_Folgequest = Inst172Quest1_Folgequest
+Inst172Quest1PreQuest_HORDE = Inst172Quest1PreQuest
+-- Reward varies for each class
 
 
 
