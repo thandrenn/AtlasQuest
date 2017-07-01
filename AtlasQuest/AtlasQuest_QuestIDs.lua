@@ -3902,6 +3902,101 @@ AQ_45088_Level = "110"
 
 --------------- INST171 - Tomb of Sargeras ---------------
 
+Inst171Quest1_QuestID = "46508"
+Inst171Quest1_Level = "110"
+Inst171Quest1_Attain = "110"
+
+Inst171Quest2_QuestID = "46506"
+Inst171Quest2_Level = "110"
+Inst171Quest2_Attain = "110"
+
+Inst171Quest3_QuestID = "46505"
+Inst171Quest3_Level = "110"
+Inst171Quest3_Attain = "110"
+
+Inst171Quest4_QuestID = "46507"
+Inst171Quest4_Level = "110"
+Inst171Quest4_Attain = "110"
+
+Inst171Quest5_QuestID = "46805"
+Inst171Quest5_Level = "110"
+Inst171Quest5_Attain = "110"
+
+Inst171Quest6_QuestID = "46253"
+Inst171Quest6_Level = "110"
+Inst171Quest6_Attain = "110"
+
+Inst171Quest7_QuestID = ""
+Inst171Quest7_Level = "110"
+Inst171Quest7_Attain = "110"
+
+Inst171Quest8_QuestID = ""
+Inst171Quest8_Level = "110"
+Inst171Quest8_Attain = "110"
+
+Inst171Quest9_QuestID = ""
+Inst171Quest9_Level = "110"
+Inst171Quest9_Attain = "110"
+
+Inst171Quest10_QuestID = ""
+Inst171Quest10_Level = "110"
+Inst171Quest10_Attain = "110"
+
+
+Inst171Quest1_HORDE_QuestID = "46508"
+Inst171Quest1_HORDE_Level = "110"
+Inst171Quest1_HORDE_Attain = "110"
+
+Inst171Quest2_HORDE_QuestID = "46506"
+Inst171Quest2_HORDE_Level = "110"
+Inst171Quest2_HORDE_Attain = "110"
+
+Inst171Quest3_HORDE_QuestID = "46505"
+Inst171Quest3_HORDE_Level = "110"
+Inst171Quest3_HORDE_Attain = "110"
+
+Inst171Quest4_HORDE_QuestID = "46507"
+Inst171Quest4_HORDE_Level = "110"
+Inst171Quest4_HORDE_Attain = "110"
+
+Inst171Quest5_HORDE_QuestID = "46805"
+Inst171Quest5_HORDE_Level = "110"
+Inst171Quest5_HORDE_Attain = "110"
+
+Inst171Quest6_HORDE_QuestID = "46253"
+Inst171Quest6_HORDE_Level = "110"
+Inst171Quest6_HORDE_Attain = "110"
+
+Inst171Quest7_HORDE_QuestID = ""
+Inst171Quest7_HORDE_Level = "110"
+Inst171Quest7_HORDE_Attain = "110"
+
+Inst171Quest8_HORDE_QuestID = ""
+Inst171Quest8_HORDE_Level = "110"
+Inst171Quest8_HORDE_Attain = "110"
+
+Inst171Quest9_HORDE_QuestID = ""
+Inst171Quest9_HORDE_Level = "110"
+Inst171Quest9_HORDE_Attain = "110"
+
+Inst171Quest10_HORDE_QuestID = ""
+Inst171Quest10_HORDE_Level = "110"
+Inst171Quest10_HORDE_Attain = "110"
+
+
+
+AQ_46508_Level = "110"
+AQ_46506_Level = "110"
+AQ_46505_Level = "110"
+AQ_46507_Level = "110"
+AQ_46805_Level = "110"
+AQ_46253_Level = "110"
+AQ__Level = "110"
+AQ__Level = "110"
+AQ__Level = "110"
+AQ__Level = "110"
+
+
 
 
 --------------- INST172 - Cathedral of Eternal Night ---------------

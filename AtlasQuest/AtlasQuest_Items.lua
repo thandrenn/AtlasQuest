@@ -8980,6 +8980,52 @@ Inst170Quest3Rewardtext_HORDE = AQClassRewards
 
 --------------- INST171 - Tomb of Sargeras ---------------
 
+--Quest 1 Alliance
+Inst171Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst171Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst171Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst171Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst171Quest5Rewardtext = AQNoReward
+
+--Quest 6 Alliance
+Inst171Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst171Quest6ITC1 = Itemc5;
+Inst171Quest6description1 = AQITEM_ITEM
+Inst171Quest6ID1 = "152504"
+
+
+--Quest 1 Horde
+Inst171Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst171Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst171Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst171Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst171Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst171Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst171Quest6ITC1_HORDE = Itemc5;
+Inst171Quest6description1_HORDE = AQITEM_ITEM
+Inst171Quest6ID1_HORDE = "152504"
+
+
 
 
 --------------- INST172 - Cathedral of Eternal Night ---------------

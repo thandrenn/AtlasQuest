@@ -2501,8 +2501,121 @@ Inst170Quest3_HORDE_Folgequest = Inst170Quest3_Folgequest
 --------------- INST171 - Tomb of Sargeras ---------------
 
 Inst171Caption = "Tomb of Sargeras"
-Inst171QAA = "No Quests"
-Inst171QAH = "No Quests"
+Inst171QAA = "6 Quests"
+Inst171QAH = "6 Quests"
+
+--Quest 1 Alliance
+Inst171Quest1 = "1. Tomb of Sargeras: Azshara's Reach"
+Inst171Quest1_Aim = "Slay Warlord Darjah."
+Inst171Quest1_Location = "Tomb of Sargeras (auto accepted)"
+Inst171Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst171Quest1_Prequest = "None"
+Inst171Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst171Quest2 = "2. Tomb of Sargeras: Life After Death"
+Inst171Quest2_Aim = "Defeat Ryul the Fading."
+Inst171Quest2_Location = "Tomb of Sargeras (auto accepted)"
+Inst171Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst171Quest2_Prequest = "None"
+Inst171Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst171Quest3 = "3. Tomb of Sargeras: Lost But Not Forgotten"
+Inst171Quest3_Aim = "Defeat Naisha."
+Inst171Quest3_Location = "Tomb of Sargeras (auto accepted)"
+Inst171Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst171Quest3_Prequest = "None"
+Inst171Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst171Quest4 = "4. Tomb of Sargeras: The Dread Stalker"
+Inst171Quest4_Aim = "Defeat the Dread Stalker."
+Inst171Quest4_Location = "Tomb of Sargeras (auto accepted)"
+Inst171Quest4_Note = AQ_WORLDDUNGEONQUEST
+Inst171Quest4_Prequest = "None"
+Inst171Quest4_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst171Quest5 = "5. The Deceiver's Downfall"
+Inst171Quest5_Aim = "Enter the Tomb of Sargeras and defeat Kil'jaeden."
+Inst171Quest5_Location = "Prophet Velen (Deliverance Point - Broken Shore; "..YELLOW.."44.5, 63.3"..WHITE..")"
+Inst171Quest5_Note = "Kil'jaeden is the final boss in the Tomb of Sargeras.  This quest can be completed on any difficulty."
+Inst171Quest5_Prequest = "None"
+Inst171Quest5_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst171Quest6 = "6. Pillars of Creation"
+Inst171Quest6_Aim = "Use the Pillars of Creation to seal the Tomb of Sargeras."
+Inst171Quest6_Location = "Archmage Khadgar (Deliverance Point - Broken Shore; "..YELLOW.."44.6, 63.3"..WHITE..")"
+Inst171Quest6_Note = ""
+Inst171Quest6_Prequest = "None"
+Inst171Quest6_Folgequest = "None"
+--
+Inst171Quest6name1 = "Shattered Seal of the Unrepentant Guardian"
+
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst171Quest1_HORDE = Inst171Quest1
+Inst171Quest1_HORDE_Aim = Inst171Quest1_Aim
+Inst171Quest1_HORDE_Location = Inst171Quest1_Location
+Inst171Quest1_HORDE_Note = Inst171Quest1_Note
+Inst171Quest1_HORDE_Prequest = Inst171Quest1_Prequest
+Inst171Quest1_HORDE_Folgequest = Inst171Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst171Quest2_HORDE = Inst171Quest2
+Inst171Quest2_HORDE_Aim = Inst171Quest2_Aim
+Inst171Quest2_HORDE_Location = Inst171Quest2_Location
+Inst171Quest2_HORDE_Note = Inst171Quest2_Note
+Inst171Quest2_HORDE_Prequest = Inst171Quest2_Prequest
+Inst171Quest2_HORDE_Folgequest = Inst171Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst171Quest3_HORDE = Inst171Quest3
+Inst171Quest3_HORDE_Aim = Inst171Quest3_Aim
+Inst171Quest3_HORDE_Location = Inst171Quest3_Location
+Inst171Quest3_HORDE_Note = Inst171Quest3_Note
+Inst171Quest3_HORDE_Prequest = Inst171Quest3_Prequest
+Inst171Quest3_HORDE_Folgequest = Inst171Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst171Quest4_HORDE = Inst171Quest4
+Inst171Quest4_HORDE_Aim = Inst171Quest4_Aim
+Inst171Quest4_HORDE_Location = Inst171Quest4_Location
+Inst171Quest4_HORDE_Note = Inst171Quest4_Note
+Inst171Quest4_HORDE_Prequest = Inst171Quest4_Prequest
+Inst171Quest4_HORDE_Folgequest = Inst171Quest4_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst171Quest5_HORDE = Inst171Quest5
+Inst171Quest5_HORDE_Aim = Inst171Quest5_Aim
+Inst171Quest5_HORDE_Location = Inst171Quest5_Location
+Inst171Quest5_HORDE_Note = Inst171Quest5_Note
+Inst171Quest5_HORDE_Prequest = Inst171Quest5_Prequest
+Inst171Quest5_HORDE_Folgequest = Inst171Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst171Quest6_HORDE = Inst171Quest6
+Inst171Quest6_HORDE_Aim = Inst171Quest6_Aim
+Inst171Quest6_HORDE_Location = Inst171Quest6_Location
+Inst171Quest6_HORDE_Note = Inst171Quest6_Note
+Inst171Quest6_HORDE_Prequest = Inst171Quest6_Prequest
+Inst171Quest6_HORDE_Folgequest = Inst171Quest6_Folgequest
+--
+Inst171Quest6name1_HORDE = Inst171Quest6name1
+
 
 
 

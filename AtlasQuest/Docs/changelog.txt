@@ -2,13 +2,19 @@
 Changelog
 =========
 
-Version 4.10.31  (April ??, 2017)
+Version 4.10.31  (July ??, 2017)
 
 - Added support for Cathedral of the Eternal Night dungeon.
 
 - Added quests:
 	- Cathedral of Eternal Night: Altar of the Aegis
-
+	- Tomb of Sargeras: Azshara's Reach
+	- Tomb of Sargeras: Life After Death
+	- Tomb of Sargeras: Lost But Not Forgotten
+	- Tomb of Sargeras: The Dread Stalker 
+	- Tomb of Sargeras: The Deceiver's Downfall
+	- Tomb of Sargeras: Pillars of Creation
+	
 
 
 Version 4.10.30  (March 28, 2017)
