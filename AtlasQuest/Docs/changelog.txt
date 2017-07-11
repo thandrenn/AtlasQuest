@@ -5,6 +5,7 @@ Changelog
 Version 4.10.31  (July ??, 2017)
 
 - Added support for Cathedral of the Eternal Night dungeon.
+- Added support for Antorus, the Burning Throne and Seat of the Triumvirate (Patch 7.3)
 
 - Added quests:
 	- Cathedral of Eternal Night: Altar of the Aegis
@@ -14,6 +15,7 @@ Version 4.10.31  (July ??, 2017)
 	- Tomb of Sargeras: The Dread Stalker 
 	- Tomb of Sargeras: The Deceiver's Downfall
 	- Tomb of Sargeras: Pillars of Creation
+	- Darkheart Thicket: The Glamour Has Faded
 	
 
 

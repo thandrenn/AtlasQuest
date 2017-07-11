@@ -2931,6 +2931,10 @@ Inst160Quest9_QuestID = "40567"
 Inst160Quest9_Level = "98"
 Inst160Quest9_Attain = "98"
 
+Inst160Quest10_QuestID = "39882"
+Inst160Quest10_Level = "104"
+Inst160Quest10_Attain = "104"
+
 
 Inst160Quest1_HORDE_QuestID = "43551"
 Inst160Quest1_HORDE_Level = "110"
@@ -2968,6 +2972,10 @@ Inst160Quest9_HORDE_QuestID = "40567"
 Inst160Quest9_HORDE_Level = "98"
 Inst160Quest9_HORDE_Attain = "98"
 
+Inst160Quest10_HORDE_QuestID = "39882"
+Inst160Quest10_HORDE_Level = "104"
+Inst160Quest10_HORDE_Attain = "104"
+
 
 AQ_43551_Level = "110"
 AQ_44272_Level = "110"
@@ -2978,6 +2986,7 @@ AQ_42744_Level = "110"
 AQ_42742_Level = "110"
 AQ_38799_Level = "98"
 AQ_40567_Level = "98"
+AQ_39882_Level = "104"
 
 
 
@@ -3562,30 +3571,6 @@ Inst167Quest4_QuestID = "43362"
 Inst167Quest4_Level = "110"
 Inst167Quest4_Attain = "110"
 
-Inst167Quest5_QuestID = ""
-Inst167Quest5_Level = "110"
-Inst167Quest5_Attain = "110"
-
-Inst167Quest6_QuestID = ""
-Inst167Quest6_Level = "110"
-Inst167Quest6_Attain = "110"
-
-Inst167Quest7_QuestID = ""
-Inst167Quest7_Level = "110"
-Inst167Quest7_Attain = "110"
-
-Inst167Quest8_QuestID = ""
-Inst167Quest8_Level = "110"
-Inst167Quest8_Attain = "110"
-
-Inst167Quest9_QuestID = ""
-Inst167Quest9_Level = "110"
-Inst167Quest9_Attain = "110"
-
-Inst167Quest10_QuestID = ""
-Inst167Quest10_Level = "110"
-Inst167Quest10_Attain = "110"
-
 
 Inst167Quest1_HORDE_QuestID = "44283"
 Inst167Quest1_HORDE_Level = "110"
@@ -3603,42 +3588,11 @@ Inst167Quest4_HORDE_QuestID = "43362"
 Inst167Quest4_HORDE_Level = "110"
 Inst167Quest4_HORDE_Attain = "110"
 
-Inst167Quest5_HORDE_QuestID = ""
-Inst167Quest5_HORDE_Level = "110"
-Inst167Quest5_HORDE_Attain = "110"
-
-Inst167Quest6_HORDE_QuestID = ""
-Inst167Quest6_HORDE_Level = "110"
-Inst167Quest6_HORDE_Attain = "110"
-
-Inst167Quest7_HORDE_QuestID = ""
-Inst167Quest7_HORDE_Level = "110"
-Inst167Quest7_HORDE_Attain = "110"
-
-Inst167Quest8_HORDE_QuestID = ""
-Inst167Quest8_HORDE_Level = "110"
-Inst167Quest8_HORDE_Attain = "110"
-
-Inst167Quest9_HORDE_QuestID = ""
-Inst167Quest9_HORDE_Level = "110"
-Inst167Quest9_HORDE_Attain = "110"
-
-Inst167Quest10_HORDE_QuestID = ""
-Inst167Quest10_HORDE_Level = "110"
-Inst167Quest10_HORDE_Attain = "110"
-
-
 
 AQ_44283_Level = "110"
 AQ_44284_Level = "110"
 AQ_44285_Level = "110"
 AQ_43362_Level = "110"
-AQ__Level = "110"
-AQ__Level = "110"
-AQ__Level = "110"
-AQ__Level = "110"
-AQ__Level = "110"
-AQ__Level = "110"
 
 
 
@@ -4011,10 +3965,15 @@ Inst172Quest1_HORDE_Level = "110"
 Inst172Quest1_HORDE_Attain = "110"
 
 
-
 AQ_46244_Level = "110"
 
 
+
+--------------- INST173 - Seat of the Triumvirate ---------------
+
+
+
+--------------- INST174 - Antorus, the Burning Throne ---------------
 
 
 

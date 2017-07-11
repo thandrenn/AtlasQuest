@@ -446,6 +446,12 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightD") then
 		AQINSTANZ = 172;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\SeatoftheTriumvirate") then
+		AQINSTANZ = 173;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThrone") then
+		AQINSTANZ = 174;
 		
 	-- Scenarios
 
@@ -746,4 +752,7 @@ end
 -- 170 = RAID: Trial of Valor
 -- 171 = RAID: Tomb of Sargeras
 -- 172 = DUNGEON: Cathedral of Eternal Night
+-- 173 = DUNGEON: Seat of the Triumvirate
+-- 174 = RAID: Antorus, the Burning Throne
+
 

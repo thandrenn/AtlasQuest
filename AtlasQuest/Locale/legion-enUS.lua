@@ -40,6 +40,8 @@
 -- 170 = RAID: Trial of Valor
 -- 171 = RAID: Tomb of Sargeras
 -- 172 = DUNGEON: Cathedral of Eternal Night
+-- 173 = DUNGEON: Seat of the Triumvirate
+-- 174 = RAID: Antorus, the Burning Throne
 
 
 --
@@ -529,8 +531,8 @@ Inst159Quest6name4_HORDE = Inst159Quest6name4
 --------------- INST160 - Darkheart Thicket ---------------
 
 Inst160Caption = "Darkheart Thicket"
-Inst160QAA = "9 Quests"
-Inst160QAH = "9 Quests"
+Inst160QAA = "10 Quests"
+Inst160QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst160Quest1 = "1. Darkheart Thicket"
@@ -619,6 +621,16 @@ Inst160Quest9_Folgequest = "None"
 Inst160Quest9PreQuest = "true"
 -- Reward varies for each class
 
+--Quest 10 Alliance
+Inst160Quest10 = "10. Darkheart Thicket: The Glamour Has Faded"
+Inst160Quest10_Aim = "Kill Arch-Druid Glaidalis in the Darkheart Thicket and recover Nalamya's Book of Enchantments."
+Inst160Quest10_Location = "Nalamya (Val'sharah - Temple of Elune; "..YELLOW.."54.4, 57.6"..WHITE..")"
+Inst160Quest10_Note = "Enchanting quest.  The questline starts with the quests 'Strong Like the Earth' and 'Waste Not', both obtained from Guron Twaintail (Highmountain - Thunder Totem; "..YELLOW.."44.4, 44.2"..WHITE.."). Arch-Druid Glaidalis is the first boss in Darkheart Thicket.  The quest can be completed on Normal or Heroic difficulty.  The reward trains you in 'Boon of the Scavenger'."
+Inst160Quest10_Prequest = "Strong Like the Earth, Waste Not"
+Inst160Quest10_Folgequest = "None"
+Inst160Quest10PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst160Quest1_HORDE = Inst160Quest1
@@ -706,6 +718,16 @@ Inst160Quest9_HORDE_Prequest = Inst160Quest9_Prequest
 Inst160Quest9_HORDE_Folgequest = Inst160Quest9_Folgequest
 Inst160Quest9PreQuest_HORDE = Inst160Quest9PreQuest
 -- Reward varies for each class
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst160Quest10_HORDE = Inst160Quest10
+Inst160Quest10_HORDE_Aim = Inst160Quest10_Aim
+Inst160Quest10_HORDE_Location = Inst160Quest10_Location
+Inst160Quest10_HORDE_Note = Inst160Quest10_Note
+Inst160Quest10_HORDE_Prequest = Inst160Quest10_Prequest
+Inst160Quest10_HORDE_Folgequest = Inst160Quest10_Folgequest
+Inst160Quest10PreQuest_HORDE = Inst160Quest10PreQuest
+-- No Rewards for this quest
 
 
 
@@ -2646,6 +2668,26 @@ Inst172Quest1_HORDE_Folgequest = Inst172Quest1_Folgequest
 Inst172Quest1PreQuest_HORDE = Inst172Quest1PreQuest
 -- Reward varies for each class
 
+
+
+
+
+
+--------------- INST173 - Seat of the Triumvirate ---------------
+
+
+Inst173Caption = "Seat of the Triumvirate"
+Inst173QAA = "No Quests"
+Inst173QAH = "No Quests"
+
+
+--------------- INST174 - Antorus, the Burning Throne ---------------
+
+
+
+Inst174Caption = "Antorus, the Burning Throne"
+Inst174QAA = "No Quests"
+Inst174QAH = "No Quests"
 
 
 

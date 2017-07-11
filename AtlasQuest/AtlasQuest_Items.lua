@@ -8106,6 +8106,9 @@ Inst160Quest8ID1 = "126947"
 --Quest 9 Alliance
 Inst160Quest9Rewardtext = AQClassRewards
 
+--Quest 10 Alliance
+Inst160Quest10Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst160Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8149,6 +8152,9 @@ Inst160Quest8ID1_HORDE = "126947"
 
 --Quest 9 Horde
 Inst160Quest9Rewardtext_HORDE = AQClassRewards
+
+--Quest 10 Horde
+Inst160Quest10Rewardtext_HORDE = AQNoReward
 
 
 
@@ -9036,6 +9042,14 @@ Inst172Quest1Rewardtext = AQClassRewards
 
 --Quest 1 Horde
 Inst172Quest1Rewardtext_HORDE = AQClassRewards
+
+
+
+--------------- INST173 - Seat of the Triumvirate ---------------
+
+
+
+--------------- INST174 - Antorus, the Burning Throne ---------------
 
 
 
