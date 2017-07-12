@@ -8279,6 +8279,9 @@ Inst162Quest13Rewardtext = AQNoReward
 --Quest 14 Alliance
 Inst162Quest14Rewardtext = AQNoReward
 
+--Quest 15 Alliance
+Inst162Quest15Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst162Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8337,6 +8340,9 @@ Inst162Quest13Rewardtext_HORDE = AQNoReward
 
 --Quest 14 Horde
 Inst162Quest14Rewardtext_HORDE = AQNoReward
+
+--Quest 15 Horde
+Inst162Quest15Rewardtext_HORDE = AQNoReward
 
 
 

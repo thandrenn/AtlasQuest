@@ -895,8 +895,8 @@ Inst161Quest8_HORDE_Folgequest = Inst161Quest8_Folgequest
 --------------- INST162 - Halls of Valor ---------------
 
 Inst162Caption = "Halls of Valor"
-Inst162QAA = "14 Quests"
-Inst162QAH = "14 Quests"
+Inst162QAA = "15 Quests"
+Inst162QAH = "15 Quests"
 
 --Quest 1 Alliance
 Inst162Quest1 = "1. Odyn's Challenge"
@@ -1032,6 +1032,16 @@ Inst162Quest14_Folgequest = "Uncovering Orders"
 Inst162Quest14FQuest = "true"
 -- No Rewards for this quest
 
+--Quest 15 Alliance
+Inst162Quest15 = "15. Halls of Valor: Revenge of the Enchantress"
+Inst162Quest15_Aim = "Retrieve Tigrid's Enchanting Rod from the Halls of Valor and return it to her in Stormheim."
+Inst162Quest15_Location = "Tigrid the Charmer (Stormheim; "..YELLOW.."39.4, 42.6"..WHITE..")"
+Inst162Quest15_Note = "Enchanting quest.  The questline starts in Dalaran at the Enchanting shop.  Tigrid's Enchanting Rod drops from the chest that appears after defeating the final boss in Halls of Valor."
+Inst162Quest15_Prequest = "An Enchanting Home, A Touch of Magic"
+Inst162Quest15_Folgequest = "None"
+Inst162Quest15PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst162Quest1_HORDE = Inst162Quest1
@@ -1165,6 +1175,16 @@ Inst162Quest14_HORDE_Note = Inst162Quest14_Note
 Inst162Quest14_HORDE_Prequest = Inst162Quest14_Prequest
 Inst162Quest14_HORDE_Folgequest = Inst162Quest14_Folgequest
 Inst162Quest14FQuest_HORDE = Inst162Quest14FQuest
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst162Quest15_HORDE = Inst162Quest15
+Inst162Quest15_HORDE_Aim = Inst162Quest15_Aim
+Inst162Quest15_HORDE_Location = Inst162Quest15_Location
+Inst162Quest15_HORDE_Note = Inst162Quest15_Note
+Inst162Quest15_HORDE_Prequest = Inst162Quest15_Prequest
+Inst162Quest15_HORDE_Folgequest = Inst162Quest15_Folgequest
+Inst162Quest15PreQuest_HORDE = Inst162Quest15PreQuest
 -- No Rewards for this quest
 
 
