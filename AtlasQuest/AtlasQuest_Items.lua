@@ -8188,6 +8188,12 @@ Inst161Quest7Rewardtext = AQNoReward
 --Quest 8 Alliance
 Inst161Quest8Rewardtext = AQNoReward
 
+--Quest 9 Alliance
+Inst161Quest9Rewardtext = AQNoReward
+
+--Quest 10 Alliance
+Inst161Quest10Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst161Quest1Rewardtext_HORDE = AQNoReward
@@ -8216,6 +8222,12 @@ Inst161Quest7Rewardtext_HORDE = AQNoReward
 
 --Quest 8 Horde
 Inst161Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst161Quest9Rewardtext_HORDE = AQNoReward
+
+--Quest 10 Horde
+Inst161Quest10Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8282,6 +8294,9 @@ Inst162Quest14Rewardtext = AQNoReward
 --Quest 15 Alliance
 Inst162Quest15Rewardtext = AQNoReward
 
+--Quest 16 Alliance
+Inst162Quest16Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst162Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8343,6 +8358,9 @@ Inst162Quest14Rewardtext_HORDE = AQNoReward
 
 --Quest 15 Horde
 Inst162Quest15Rewardtext_HORDE = AQNoReward
+
+--Quest 16 Horde
+Inst162Quest16Rewardtext_HORDE = AQNoReward
 
 
 

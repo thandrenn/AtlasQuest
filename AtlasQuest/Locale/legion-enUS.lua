@@ -734,8 +734,8 @@ Inst160Quest10PreQuest_HORDE = Inst160Quest10PreQuest
 --------------- INST161 - Eye of Azshara ---------------
 
 Inst161Caption = "Eye of Azshara"
-Inst161QAA = "8 Quests"
-Inst161QAH = "8 Quests"
+Inst161QAA = "10 Quests"
+Inst161QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst161Quest1 = "1. Eye of Azshara: Termination Claws"
@@ -811,6 +811,26 @@ Inst161Quest8_Location = "Senegos (Azsuna - Azurewing Repose; "..YELLOW.."48.2, 
 Inst161Quest8_Note = "This quest can only be completed on Mythic difficulty without a keystone.   It is part of your Artifact weapon questline.  The Heart of Zin'Azshari drops the final boss, at "..YELLOW.."[5]"..WHITE.."."
 Inst161Quest8_Prequest = "None"
 Inst161Quest8_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst161Quest9 = "9. Eye of Azshara: Looking Through the Lens"
+Inst161Quest9_Aim = "Recover the Lens of the Tide from Lady Hatecoil within the Eye of Azshara dungeon."
+Inst161Quest9_Location = "Yalia Sagewhisper (Azsuna; "..YELLOW.."47.0, 44.0"..WHITE..")"
+Inst161Quest9_Note = "Priest Order Hall quest.  The quest turns in to Velen in the Priest Order Hall."
+Inst161Quest9_Prequest = "Priestly Matters -> Problem Salver"
+Inst161Quest9_Folgequest = "None"
+Inst161Quest9PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst161Quest10 = "10. Eye of Azshara: The Depraved Nightfallen"
+Inst161Quest10_Aim = "Go to the Eye of Azshara, defeat the Wrath of Azshara and recover the Heart of the Storm."
+Inst161Quest10_Location = "Lyndras (Dalaran; "..YELLOW.."36.1, 33.9"..WHITE..")"
+Inst161Quest10_Note = "Tailoring quest.  Defeat the final boss in Eye of Azshara to complete the quest and then return to Dalaran."
+Inst161Quest10_Prequest = "Where's Lyndras Again? -> The Final Lesson"
+Inst161Quest10_Folgequest = "None"
+Inst161Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -890,13 +910,33 @@ Inst161Quest8_HORDE_Prequest = Inst161Quest8_Prequest
 Inst161Quest8_HORDE_Folgequest = Inst161Quest8_Folgequest
 -- No Rewards for this quest
 
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst161Quest9_HORDE = Inst161Quest9
+Inst161Quest9_HORDE_Aim = Inst161Quest9_Aim
+Inst161Quest9_HORDE_Location = Inst161Quest9_Location
+Inst161Quest9_HORDE_Note = Inst161Quest9_Note
+Inst161Quest9_HORDE_Prequest = Inst161Quest9_Prequest
+Inst161Quest9_HORDE_Folgequest = Inst161Quest9_Folgequest
+Inst161Quest9PreQuest_HORDE = Inst161Quest9PreQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst161Quest10_HORDE = Inst161Quest10
+Inst161Quest10_HORDE_Aim = Inst161Quest10_Aim
+Inst161Quest10_HORDE_Location = Inst161Quest10_Location
+Inst161Quest10_HORDE_Note = Inst161Quest10_Note
+Inst161Quest10_HORDE_Prequest = Inst161Quest10_Prequest
+Inst161Quest10_HORDE_Folgequest = Inst161Quest10_Folgequest
+Inst161Quest10PreQuest_HORDE = Inst161Quest10PreQuest
+-- No Rewards for this quest
+
 
 
 --------------- INST162 - Halls of Valor ---------------
 
 Inst162Caption = "Halls of Valor"
-Inst162QAA = "15 Quests"
-Inst162QAH = "15 Quests"
+Inst162QAA = "16 Quests"
+Inst162QAH = "16 Quests"
 
 --Quest 1 Alliance
 Inst162Quest1 = "1. Odyn's Challenge"
@@ -1042,6 +1082,16 @@ Inst162Quest15_Folgequest = "None"
 Inst162Quest15PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 16 Alliance
+Inst162Quest16 = "16. Halls of Valor: The Light Within"
+Inst162Quest16_Aim = "Recover a Spark of Light from Hyrja within the Halls of Valor dungeon."
+Inst162Quest16_Location = "Alonsus Faol (Netherlight Temple; "..YELLOW.."51.2, 48.4"..WHITE..")"
+Inst162Quest16_Note = "Priest quest, part of the Order Hall campaign.  Complete the dungeon, then return to your Order Hall and go to the Temple of Light to complete the quest."
+Inst162Quest16_Prequest = "Order Hall campaign"
+Inst162Quest16_Folgequest = "None"
+Inst162Quest16PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst162Quest1_HORDE = Inst162Quest1
@@ -1185,6 +1235,16 @@ Inst162Quest15_HORDE_Note = Inst162Quest15_Note
 Inst162Quest15_HORDE_Prequest = Inst162Quest15_Prequest
 Inst162Quest15_HORDE_Folgequest = Inst162Quest15_Folgequest
 Inst162Quest15PreQuest_HORDE = Inst162Quest15PreQuest
+-- No Rewards for this quest
+
+--Quest 16 Horde  (same as Quest 16 Alliance)
+Inst162Quest16_HORDE = Inst162Quest16
+Inst162Quest16_HORDE_Aim = Inst162Quest16_Aim
+Inst162Quest16_HORDE_Location = Inst162Quest16_Location
+Inst162Quest16_HORDE_Note = Inst162Quest16_Note
+Inst162Quest16_HORDE_Prequest = Inst162Quest16_Prequest
+Inst162Quest16_HORDE_Folgequest = Inst162Quest16_Folgequest
+Inst162Quest16PreQuest_HORDE = Inst162Quest16PreQuest
 -- No Rewards for this quest
 
 

@@ -17,6 +17,9 @@ Version 4.10.31  (July ??, 2017)
 	- Tomb of Sargeras: Pillars of Creation
 	- Darkheart Thicket: The Glamour Has Faded
 	- Halls of Valor: Revenge of the Enchantress
+	- Halls of Valor: The Light Within
+	- Eye of Azshara: Looking Through the Lens
+	- Eye of Azshara: The Depraved Nightfallen
 	
 
 
