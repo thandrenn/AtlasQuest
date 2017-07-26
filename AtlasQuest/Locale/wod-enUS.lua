@@ -1639,8 +1639,8 @@ Inst155Quest4name1_HORDE = Inst155Quest4name1
 --------------- INST156 - Hellfire Citadel ---------------
 
 Inst156Caption = "Hellfire Citadel"
-Inst156QAA = "8 Quests"
-Inst156QAH = "8 Quests"
+Inst156QAA = "9 Quests"
+Inst156QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst156Quest1 = "1. Pits of Mannoroth"
@@ -1735,6 +1735,16 @@ Inst156Quest8_Prequest = "None"
 Inst156Quest8_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 9 Alliance
+Inst156Quest9 = "9. Hellfire Citadel: Hellfire and Brimstone"
+Inst156Quest9_Aim = "Gather a group and storm Hellfire Citadel once more. Defeat Archimonde and recover the Infernal Codex."
+Inst156Quest9_Location = "Mama Diggs (Dalaran; "..YELLOW.."46.2, 26.4"..WHITE..")"
+Inst156Quest9_Note = "Mining quest.  Defeat and loot the final boss for quest credit.  Turn in back at Dalaran."
+Inst156Quest9_Prequest = "Infernal Brimstone Analysis -> The Brimstone's Secret"
+Inst156Quest9_Folgequest = "None"
+Inst156Quest9PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst156Quest1_HORDE = Inst156Quest1
@@ -1827,6 +1837,18 @@ Inst156Quest8_HORDE_Location = Inst156Quest8_Location
 Inst156Quest8_HORDE_Note = Inst156Quest8_Note
 Inst156Quest8_HORDE_Prequest = Inst156Quest8_Prequest
 Inst156Quest8_HORDE_Folgequest = Inst156Quest8_Folgequest
+-- No Rewards for this quest
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst156Quest9_HORDE = Inst156Quest9
+Inst156Quest9_HORDE_Level = Inst156Quest9_Level
+Inst156Quest9_HORDE_Attain = Inst156Quest9_Attain
+Inst156Quest9_HORDE_Aim = Inst156Quest9_Aim
+Inst156Quest9_HORDE_Location = Inst156Quest9_Location
+Inst156Quest9_HORDE_Note = Inst156Quest9_Note
+Inst156Quest9_HORDE_Prequest = Inst156Quest9_Prequest
+Inst156Quest9_HORDE_Folgequest = Inst156Quest9_Folgequest
+Inst156Quest9PreQuest_HORDE = Inst156Quest9PreQuest
 -- No Rewards for this quest
 
 

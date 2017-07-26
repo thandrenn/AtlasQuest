@@ -72,8 +72,8 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST157 - Assault on Violet Hold ---------------
 
 Inst157Caption = "Assault on Violet Hold"
-Inst157QAA = "6 Quests"
-Inst157QAH = "6 Quests"
+Inst157QAA = "7 Quests"
+Inst157QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst157Quest1 = "1. Violet Hold"
@@ -134,6 +134,16 @@ Inst157Quest6PreQuest = "true"
 --
 Inst157Quest6name1 = "Demonic Command Shards"
 
+--Quest 7 Alliance
+Inst157Quest7 = "7. Assault on Violet Hold: Into the Hold"
+Inst157Quest7_Aim = "Go into Violet Hold and find out what happened to Lyndras."
+Inst157Quest7_Location = "Violet Hold Guard (Dalaran - The Violet Hold; "..YELLOW.."65.2, 67.4"..WHITE..")"
+Inst157Quest7_Note = "Tailoring quest.  Loot the key from the final boss, open Lyndras' cell and defeat him.  Lyndras has as much health as a rare mob, so you can probably defeat him by yourself if you need to."
+Inst157Quest7_Prequest = "Where's Lyndras Again? -> Where's Lyndras: Leyflame Larceny"
+Inst157Quest7_Folgequest = "Secret Silkweaving Methods"
+Inst157Quest7PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst157Quest1_HORDE = Inst157Quest1
@@ -193,6 +203,16 @@ Inst157Quest6_HORDE_Folgequest = Inst157Quest6_Folgequest
 Inst157Quest6PreQuest_HORDE = Inst157Quest6PreQuest
 --
 Inst157Quest6name1_HORDE = Inst157Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst157Quest7_HORDE = Inst157Quest7
+Inst157Quest7_HORDE_Aim = Inst157Quest7_Aim
+Inst157Quest7_HORDE_Location = Inst157Quest7_Location
+Inst157Quest7_HORDE_Note = Inst157Quest7_Note
+Inst157Quest7_HORDE_Prequest = Inst157Quest7_Prequest
+Inst157Quest7_HORDE_Folgequest = Inst157Quest7_Folgequest
+Inst157Quest7PreQuest_HORDE = Inst157Quest7PreQuest
+-- No Rewards for this quest
 
 
 
@@ -2603,8 +2623,8 @@ Inst170Quest3_HORDE_Folgequest = Inst170Quest3_Folgequest
 --------------- INST171 - Tomb of Sargeras ---------------
 
 Inst171Caption = "Tomb of Sargeras"
-Inst171QAA = "6 Quests"
-Inst171QAH = "6 Quests"
+Inst171QAA = "7 Quests"
+Inst171QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst171Quest1 = "1. Tomb of Sargeras: Azshara's Reach"
@@ -2660,6 +2680,16 @@ Inst171Quest6_Prequest = "None"
 Inst171Quest6_Folgequest = "None"
 --
 Inst171Quest6name1 = "Shattered Seal of the Unrepentant Guardian"
+
+--Quest 7 Alliance
+Inst171Quest7 = "7. The Tombs Mistress"
+Inst171Quest7_Aim = "Defeat Mistress Sassz'ine in the Tomb of Sargeras."
+Inst171Quest7_Location = "Commander Chambers (Broken Shore; "..YELLOW.."44.6, 63.2"..WHITE..")"
+Inst171Quest7_Note = "Mistress Sassz'ine is the second boss in the Tomb of Sargeras."
+Inst171Quest7_Prequest = "None"
+Inst171Quest7_Folgequest = "None"
+--
+Inst171Quest7name1 = "Cache of Fel Treasures"
 
 
 
@@ -2717,6 +2747,16 @@ Inst171Quest6_HORDE_Prequest = Inst171Quest6_Prequest
 Inst171Quest6_HORDE_Folgequest = Inst171Quest6_Folgequest
 --
 Inst171Quest6name1_HORDE = Inst171Quest6name1
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst171Quest7_HORDE = Inst171Quest7
+Inst171Quest7_HORDE_Aim = Inst171Quest7_Aim
+Inst171Quest7_HORDE_Location = Inst171Quest7_Location
+Inst171Quest7_HORDE_Note = Inst171Quest7_Note
+Inst171Quest7_HORDE_Prequest = Inst171Quest7_Prequest
+Inst171Quest7_HORDE_Folgequest = Inst171Quest7_Folgequest
+--
+Inst171Quest7name1_HORDE = Inst171Quest7name1
 
 
 

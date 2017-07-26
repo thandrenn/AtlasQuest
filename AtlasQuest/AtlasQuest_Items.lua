@@ -7775,6 +7775,9 @@ Inst156Quest7Rewardtext = AQNoReward
 --Quest 8 Alliance
 Inst156Quest8Rewardtext = AQNoReward
 
+--Quest 9 Alliance
+Inst156Quest9Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst156Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1000"..AQAPEXISCRYSTAL
@@ -7799,6 +7802,9 @@ Inst156Quest7Rewardtext_HORDE = AQNoReward
 
 --Quest 8 Horde
 Inst156Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst156Quest9Rewardtext_HORDE = AQNoReward
 
 
 
@@ -7838,6 +7844,9 @@ Inst157Quest6ITC1 = Itemc5;
 Inst157Quest6description1 = AQITEM_ITEM
 Inst157Quest6ID1 = "142455"
 
+--Quest 7 Alliance
+Inst157Quest7Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst157Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -7872,6 +7881,9 @@ Inst157Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst157Quest6ITC1_HORDE = Itemc5;
 Inst157Quest6description1_HORDE = AQITEM_ITEM
 Inst157Quest6ID1_HORDE = "142455"
+
+--Quest 7 Horde
+Inst157Quest7Rewardtext_HORDE = AQNoReward
 
 
 
@@ -9032,6 +9044,13 @@ Inst171Quest6ITC1 = Itemc5;
 Inst171Quest6description1 = AQITEM_ITEM
 Inst171Quest6ID1 = "152504"
 
+--Quest 7 Alliance
+Inst171Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst171Quest7ITC1 = Itemc5;
+Inst171Quest7description1 = AQITEM_ITEM
+Inst171Quest7ID1 = "147518"
+
 
 --Quest 1 Horde
 Inst171Quest1Rewardtext_HORDE = AQNoReward
@@ -9054,6 +9073,13 @@ Inst171Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst171Quest6ITC1_HORDE = Itemc5;
 Inst171Quest6description1_HORDE = AQITEM_ITEM
 Inst171Quest6ID1_HORDE = "152504"
+
+--Quest 7 Horde
+Inst171Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst171Quest7ITC1_HORDE = Itemc5;
+Inst171Quest7description1_HORDE = AQITEM_ITEM
+Inst171Quest7ID1_HORDE = "147518"
 
 
 

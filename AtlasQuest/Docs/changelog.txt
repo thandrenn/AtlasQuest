@@ -20,6 +20,8 @@ Version 4.10.31  (July ??, 2017)
 	- Halls of Valor: The Light Within
 	- Eye of Azshara: Looking Through the Lens
 	- Eye of Azshara: The Depraved Nightfallen
+	- Assault on Violet Hold: Into the Hold
+	- Hellfire Citadel: Hellfire and Brimstone
 	
 
 
