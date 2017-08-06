@@ -2,10 +2,11 @@
 Changelog
 =========
 
-Version 4.10.31  (July ??, 2017)
+Version 4.10.31  (August 6, 2017)
 
 - Added support for Cathedral of the Eternal Night dungeon.
 - Added support for Antorus, the Burning Throne and Seat of the Triumvirate (Patch 7.3)
+- German translation pending.
 
 - Added quests:
 	- Cathedral of Eternal Night: Altar of the Aegis
