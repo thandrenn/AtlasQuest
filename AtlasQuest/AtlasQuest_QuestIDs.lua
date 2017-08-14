@@ -2714,6 +2714,10 @@ Inst157Quest7_QuestID = "38965"
 Inst157Quest7_Level = "110"
 Inst157Quest7_Attain = "110"
 
+Inst157Quest8_QuestID = "43487"
+Inst157Quest8_Level = "103"
+Inst157Quest8_Attain = "103"
+
 
 Inst157Quest1_HORDE_QuestID = "43557"
 Inst157Quest1_HORDE_Level = "110"
@@ -2743,6 +2747,10 @@ Inst157Quest7_HORDE_QuestID = "38965"
 Inst157Quest7_HORDE_Level = "110"
 Inst157Quest7_HORDE_Attain = "110"
 
+Inst157Quest8_HORDE_QuestID = "43487"
+Inst157Quest8_HORDE_Level = "103"
+Inst157Quest8_HORDE_Attain = "103"
+
 
 AQ_43557_Level = "110"
 AQ_44258_Level = "110"
@@ -2751,6 +2759,7 @@ AQ_44400_Level = "105"
 AQ_40878_Level = "108"
 AQ_44887_Level = "110"
 AQ_38965_Level = "110"
+AQ_43487_Level = "103"
 
 
 
@@ -2954,6 +2963,10 @@ Inst160Quest10_QuestID = "39882"
 Inst160Quest10_Level = "104"
 Inst160Quest10_Attain = "104"
 
+Inst160Quest11_QuestID = "41169"
+Inst160Quest11_Level = "110"
+Inst160Quest11_Attain = "110"
+
 
 Inst160Quest1_HORDE_QuestID = "43551"
 Inst160Quest1_HORDE_Level = "110"
@@ -2995,6 +3008,10 @@ Inst160Quest10_HORDE_QuestID = "39882"
 Inst160Quest10_HORDE_Level = "104"
 Inst160Quest10_HORDE_Attain = "104"
 
+Inst160Quest11_HORDE_QuestID = "41169"
+Inst160Quest11_HORDE_Level = "110"
+Inst160Quest11_HORDE_Attain = "110"
+
 
 AQ_43551_Level = "110"
 AQ_44272_Level = "110"
@@ -3006,6 +3023,7 @@ AQ_42742_Level = "110"
 AQ_38799_Level = "98"
 AQ_40567_Level = "98"
 AQ_39882_Level = "104"
+AQ_41169_Level = "110"
 
 
 

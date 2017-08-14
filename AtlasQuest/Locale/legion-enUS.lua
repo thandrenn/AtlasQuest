@@ -72,8 +72,8 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST157 - Assault on Violet Hold ---------------
 
 Inst157Caption = "Assault on Violet Hold"
-Inst157QAA = "7 Quests"
-Inst157QAH = "7 Quests"
+Inst157QAA = "8 Quests"
+Inst157QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst157Quest1 = "1. Violet Hold"
@@ -144,6 +144,16 @@ Inst157Quest7_Folgequest = "Secret Silkweaving Methods"
 Inst157Quest7PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 8 Alliance
+Inst157Quest8 = "8. Assault on Violet Hold: The Fel Lexicon"
+Inst157Quest8_Aim = "Collect a Fel Lexicon from a powerful prisoner inside Violet Hold."
+Inst157Quest8_Location = "Delas Moonfang (Dalaran - Antonidas Memorial "..YELLOW.."44.8, 22.7"..WHITE..")"
+Inst157Quest8_Note = "This quest is part of the Paladin Order Hall campaign and can be completed on Normal or Heroic difficulty.  The Fel Lexicon drops from the second to last boss in the Violet Hold."
+Inst157Quest8_Prequest = "Cracking the Codex"
+Inst157Quest8_Folgequest = "None"
+Inst157Quest8PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst157Quest1_HORDE = Inst157Quest1
@@ -212,6 +222,16 @@ Inst157Quest7_HORDE_Note = Inst157Quest7_Note
 Inst157Quest7_HORDE_Prequest = Inst157Quest7_Prequest
 Inst157Quest7_HORDE_Folgequest = Inst157Quest7_Folgequest
 Inst157Quest7PreQuest_HORDE = Inst157Quest7PreQuest
+-- No Rewards for this quest
+
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst157Quest8_HORDE = Inst157Quest8
+Inst157Quest8_HORDE_Aim = Inst157Quest8_Aim
+Inst157Quest8_HORDE_Location = Inst157Quest8_Location
+Inst157Quest8_HORDE_Note = Inst157Quest8_Note
+Inst157Quest8_HORDE_Prequest = Inst157Quest8_Prequest
+Inst157Quest8_HORDE_Folgequest = Inst157Quest8_Folgequest
+Inst157Quest8PreQuest_HORDE = Inst157Quest8PreQuest
 -- No Rewards for this quest
 
 
@@ -551,8 +571,8 @@ Inst159Quest6name4_HORDE = Inst159Quest6name4
 --------------- INST160 - Darkheart Thicket ---------------
 
 Inst160Caption = "Darkheart Thicket"
-Inst160QAA = "10 Quests"
-Inst160QAH = "10 Quests"
+Inst160QAA = "11 Quests"
+Inst160QAH = "11 Quests"
 
 --Quest 1 Alliance
 Inst160Quest1 = "1. Darkheart Thicket"
@@ -651,6 +671,17 @@ Inst160Quest10_Folgequest = "None"
 Inst160Quest10PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 11 Alliance
+Inst160Quest11 = "11. Darkheart Thicket: Through the Fog"
+Inst160Quest11_Aim = "Obtain the Final Chapter of The Purple Hills of Mac'Aree."
+Inst160Quest11_Location = "Brann Bronzebeard (Val'sharah; "..YELLOW.."61.2, 87.9"..WHITE..")"
+Inst160Quest11_Note = "Archaeology quest.  This is the final week in a few of the bi-weekly quests.  Both items drop from the final boss in the dungeon.  The quest turns in back at Brann Bronzebeard."
+Inst160Quest11_Prequest = "Archaeology bi-weekly quest."
+Inst160Quest11_Folgequest = "None"
+Inst160Quest11PreQuest = "true"
+--
+Inst160Quest11name1 = "Purple Hills of Mac'Aree"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst160Quest1_HORDE = Inst160Quest1
@@ -748,6 +779,17 @@ Inst160Quest10_HORDE_Prequest = Inst160Quest10_Prequest
 Inst160Quest10_HORDE_Folgequest = Inst160Quest10_Folgequest
 Inst160Quest10PreQuest_HORDE = Inst160Quest10PreQuest
 -- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst160Quest11_HORDE = Inst160Quest11
+Inst160Quest11_HORDE_Aim = Inst160Quest11_Aim
+Inst160Quest11_HORDE_Location = Inst160Quest11_Location
+Inst160Quest11_HORDE_Note = Inst160Quest11_Note
+Inst160Quest11_HORDE_Prequest = Inst160Quest11_Prequest
+Inst160Quest11_HORDE_Folgequest = Inst160Quest11_Folgequest
+Inst160Quest11PreQuest_HORDE = Inst160Quest11PreQuest
+--
+Inst160Quest11name1_HORDE = Inst160Quest11name1
 
 
 
