@@ -206,8 +206,10 @@ Quest = AQSHOWNQUEST;
 -- Grab the Quest ID and then the QuestLink string.
 if (Allianceorhorde == 1) then
 	AQ_QuestID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_QuestID");
+	AQ_QuestLevel = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_Level");
 else
 	AQ_QuestID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_QuestID");
+	AQ_QuestLevel = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE_Level");
 end
 
 
@@ -226,10 +228,6 @@ elseif (Quest > 9) then
 		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 5)
 	end
 end
-
-
--- Grab the quest level. Use new variable to assure that it's actually set.
-local AQ_QuestLevel = getglobal("AQ_"..AQ_QuestID.."_Level");
 
 
 -- Code from Denival to remove parentheses and anything in it from Quest Name string

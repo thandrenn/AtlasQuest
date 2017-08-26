@@ -32,7 +32,7 @@ function AtlasQuest_Instanzenchecken()
 
 	-- Original Instances
 
-	if (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheDeadminesEnt") then
+	if (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheDeadminesA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheDeadminesB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheDeadminesEnt") then
 		AQINSTANZ = 1;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\WailingCaverns") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\WailingCavernsEnt") then
@@ -80,7 +80,10 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\RazorfenKraul") then
 		AQINSTANZ = 18;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\ShadowfangKeep") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Scholomance") then
+		AQINSTANZ = 20;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\ShadowfangKeep") then
 		AQINSTANZ = 21;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\StratholmeCrusader") then
@@ -106,6 +109,12 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Gnomeregan") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\GnomereganEnt") then
 		AQINSTANZ = 29;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\ScarletMonastery") then
+		AQINSTANZ = 58;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\ScarletHalls") then
+		AQINSTANZ = 59;
 
 		
 	-- Burning Crusade Instances
@@ -345,15 +354,6 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\HeartofFear") then
 		AQINSTANZ = 122;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ScarletMonastery") then
-		AQINSTANZ = 58;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ScarletHalls") then
-		AQINSTANZ = 59;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\Scholomance") then
-		AQINSTANZ = 20;
-
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderD") then
 		AQINSTANZ = 138;
 
@@ -393,7 +393,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\BlackrockFoundryA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\BlackrockFoundryB") then
 		AQINSTANZ = 155;
 
-	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireD") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireE") then
+	elseif (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireA") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireB") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireC") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireD") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireE") or (AQATLASMAP == "Interface\\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireF") then
 		AQINSTANZ = 156;
 
 		
@@ -748,7 +748,7 @@ end
 -- 166 = DUNGEON: Vault of the Wardens
 -- 167 = RAID: The Emerald Nightmare
 -- 168 = RAID: The Nighthold
--- 169 = DUNGEON: Karazhan (Legion)
+-- 169 = DUNGEON: Return to Karazhan (Legion)
 -- 170 = RAID: Trial of Valor
 -- 171 = RAID: Tomb of Sargeras
 -- 172 = DUNGEON: Cathedral of Eternal Night

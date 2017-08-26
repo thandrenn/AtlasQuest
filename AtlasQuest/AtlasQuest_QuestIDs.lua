@@ -63,18 +63,6 @@ Inst1Quest4_HORDE_QuestID = "27848"
 Inst1Quest5_HORDE_QuestID = "27850"
 
 
-AQ_27756_Level = "16"
-AQ_27758_Level = "16"
-AQ_27781_Level = "16"
-AQ_27785_Level = "16"
-AQ_27790_Level = "17"
-AQ_27842_Level = "16"
-AQ_27844_Level = "16"
-AQ_27847_Level = "16"
-AQ_27848_Level = "16"
-AQ_27850_Level = "17"
-
-
 
 --------------- INST2 - Wailing Caverns (WC) ---------------
 
@@ -86,12 +74,6 @@ Inst2Quest1_HORDE_QuestID = "26878"
 Inst2Quest2_HORDE_QuestID = "26872"
 Inst2Quest3_HORDE_QuestID = "26873"
 Inst2Quest4_HORDE_QuestID = "26870"
-
-
-AQ_26878_Level = "16"
-AQ_26872_Level = "18"
-AQ_26873_Level = "18"
-AQ_26870_Level = "21"
 
 
 
@@ -107,17 +89,6 @@ Inst3Quest2_HORDE_QuestID = "30982"
 Inst3Quest3_HORDE_QuestID = "30984"
 Inst3Quest4_HORDE_QuestID = "30969"
 Inst3Quest5_HORDE_QuestID = "30983"
-
-
-AQ_30997_Level = "15"
-AQ_30995_Level = "15"
-AQ_30998_Level = "15"
-AQ_30996_Level = "15"
-AQ_31037_Level = "15"
-AQ_30982_Level = "15"
-AQ_30984_Level = "15"
-AQ_30969_Level = "15"
-AQ_30983_Level = "15"
 
 
 
@@ -136,18 +107,6 @@ Inst4Quest3_HORDE_QuestID = "27682"
 Inst4Quest4_HORDE_QuestID = "27681"
 Inst4Quest5_HORDE_QuestID = "2278"
 Inst4Quest6_HORDE_QuestID = "2280"
-
-
-AQ_27672_Level = "39"
-AQ_27677_Level = "40"
-AQ_27673_Level = "39"
-AQ_27676_Level = "39"
-AQ_2278_Level = "40"
-AQ_2280_Level = "40"
-AQ_27679_Level = "39"
-AQ_27680_Level = "40"
-AQ_27682_Level = "39"
-AQ_27681_Level = "39"
 
 
 
@@ -199,46 +158,6 @@ Inst5Quest21_HORDE_QuestID = "4083"
 Inst5Quest22_HORDE_QuestID = "12492"
 
 
-AQ_27565_Level = "52"
-AQ_27567_Level = "55"
-AQ_27603_Level = "52"
-AQ_27568_Level = "54"
-AQ_27569_Level = "55"
-AQ_27571_Level = "56"
-AQ_27573_Level = "57"
-AQ_27578_Level = "58"
-AQ_27596_Level = "55"
-AQ_28393_Level = "50"
-AQ_28401_Level = "50"
-AQ_28399_Level = "50"
-AQ_28343_Level = "50"
-AQ_28406_Level = "50"
-AQ_28394_Level = "50"
-AQ_28398_Level = "50"
-AQ_28328_Level = "50"
-AQ_28405_Level = "50"
-AQ_7848_Level = "60"
-AQ_4083_Level = "55"
-AQ_12491_Level = "90"
-AQ_27579_Level = "52"
-AQ_27581_Level = "55"
-AQ_27582_Level = "54"
-AQ_27585_Level = "55"
-AQ_27589_Level = "56"
-AQ_27591_Level = "57"
-AQ_27593_Level = "58"
-AQ_28457_Level = "50"
-AQ_28465_Level = "50"
-AQ_28459_Level = "50"
-AQ_28463_Level = "50"
-AQ_28461_Level = "50"
-AQ_28458_Level = "50"
-AQ_28474_Level = "50"
-AQ_28473_Level = "50"
-AQ_28466_Level = "50"
-AQ_12492_Level = "90"
-
-
 
 --------------- INST6 - Blackwing Lair (BWL) ---------------
 
@@ -247,19 +166,12 @@ Inst6Quest1_QuestID = "8730"
 Inst6Quest1_HORDE_QuestID = "8730"
 
 
-AQ_8730_Level = "60"
-
-
 
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
 Inst7Quest1_QuestID = "34672"
 
 Inst7Quest1_HORDE_QuestID = "34673"
-
-
-AQ_34672_Level = "25"
-AQ_34673_Level = "25"
 
 
 
@@ -273,12 +185,6 @@ Inst8Quest4_QuestID = "27440"
 Inst8Quest1_HORDE_QuestID = "27470"
 Inst8Quest2_HORDE_QuestID = "27469"
 Inst8Quest3_HORDE_QuestID = "27440"
-
-
-AQ_27470_Level = "58"
-AQ_27471_Level = "58"
-AQ_27469_Level = "58"
-AQ_27440_Level = "59"
 
 
 
@@ -299,15 +205,6 @@ Inst10Quest5_HORDE_QuestID = "27104"
 Inst10Quest6_HORDE_QuestID = "27103"
 
 
-AQ_27129_Level = "40"
-AQ_27107_Level = "40"
-AQ_27108_Level = "40"
-AQ_27105_Level = "40"
-AQ_27104_Level = "41"
-AQ_27103_Level = "41"
-AQ_27130_Level = "40"
-
-
 
 --------------- INST11 - Dire Maul North (DM) ---------------
 
@@ -324,16 +221,6 @@ Inst11Quest3_HORDE_QuestID = "27118"
 Inst11Quest4_HORDE_QuestID = "27119"
 Inst11Quest5_HORDE_QuestID = "27124"
 Inst11Quest6_HORDE_QuestID = "27114"
-
-
-AQ_27133_Level = "46"
-AQ_27125_Level = "47"
-AQ_27118_Level = "46"
-AQ_27119_Level = "46"
-AQ_27124_Level = "47"
-AQ_27114_Level = "46"
-AQ_27134_Level = "46"
-AQ_27128_Level = "47"
 
 
 
@@ -371,23 +258,6 @@ Inst12Quest13_HORDE_QuestID = "7505"
 Inst12Quest14_HORDE_QuestID = "7502"
 Inst12Quest15_HORDE_QuestID = "7499"
 
-AQ_27131_Level = "42"
-AQ_27112_Level = "43"
-AQ_27113_Level = "43"
-AQ_27109_Level = "43"
-AQ_27110_Level = "44"
-AQ_27111_Level = "44"
-AQ_27132_Level = "42"
-AQ_7506_Level = "60"
-AQ_7503_Level = "60"
-AQ_7500_Level = "60"
-AQ_7501_Level = "60"
-AQ_7504_Level = "60"
-AQ_7498_Level = "60"
-AQ_7505_Level = "60"
-AQ_7502_Level = "60"
-AQ_7499_Level = "60"
-
 
 
 --------------- INST13 - Maraudon (Mara) ---------------
@@ -401,11 +271,6 @@ Inst13Quest2_HORDE_QuestID = "27698"
 Inst13Quest3_HORDE_QuestID = "27692"
 
 
-AQ_27697_Level = "34"
-AQ_27698_Level = "36"
-AQ_27692_Level = "39"
-
-
 
 --------------- INST14 - Molten Core (MC) ---------------
 
@@ -416,20 +281,12 @@ Inst14Quest1_HORDE_QuestID = "7786"
 Inst14Quest2_HORDE_QuestID = "7604"
 
 
-AQ_7786_Level = "60"
-AQ_7604_Level = "60"
-
-
 
 --------------- INST16 - Onyxia's Lair (Ony) ---------------
 
 Inst16Quest1_QuestID = "24428"
 
 Inst16Quest1_HORDE_QuestID = "24429"
-
-
-AQ_24428_Level = "80"
-AQ_24429_Level = "80"
 
 
 
@@ -442,12 +299,6 @@ Inst17Quest3_QuestID = "33514"
 Inst17Quest1_HORDE_QuestID = "27062"
 Inst17Quest2_HORDE_QuestID = "33513"
 Inst17Quest3_HORDE_QuestID = "33514"
-
-
-AQ_27063_Level = "43"
-AQ_33513_Level = "44"
-AQ_33514_Level = "46"
-AQ_27062_Level = "43"
 
 
 
@@ -466,13 +317,6 @@ Inst18Quest4_HORDE_QuestID = "26906"
 Inst18Quest5_HORDE_QuestID = "26905"
 
 
-AQ_26908_Level = "33"
-AQ_26907_Level = "35"
-AQ_26901_Level = "35"
-AQ_26906_Level = "35"
-AQ_26905_Level = "35"
-
-
 
 --------------- INST58 - Scarlet Monastery ---------------
 
@@ -485,12 +329,6 @@ Inst58Quest1_HORDE_QuestID = "31513"
 Inst58Quest2_HORDE_QuestID = "31515"
 Inst58Quest3_HORDE_QuestID = "31514"
 Inst58Quest4_HORDE_QuestID = "31516"
-
-
-AQ_31513_Level = "34"
-AQ_31515_Level = "90"
-AQ_31514_Level = "34"
-AQ_31516_Level = "90"
 
 
 
@@ -507,12 +345,6 @@ Inst59Quest3_HORDE_QuestID = "31514"
 Inst59Quest4_HORDE_QuestID = "31516"
 
 
-AQ_31513_Level = "34"
-AQ_31515_Level = "90"
-AQ_31514_Level = "34"
-AQ_31516_Level = "90"
-
-
 
 --------------- INST20 - Scholomance (Scholo) ---------------
 
@@ -527,13 +359,6 @@ Inst20Quest2_HORDE_QuestID = "31442"
 Inst20Quest3_HORDE_QuestID = "31447"
 Inst20Quest4_HORDE_QuestID = "31448"
 Inst20Quest5_HORDE_QuestID = "28756"
-
-
-AQ_31440_Level = "43"
-AQ_31442_Level = "90"
-AQ_31447_Level = "43"
-AQ_31448_Level = "90"
-AQ_28756_Level = "42"
 
 
 
@@ -577,43 +402,6 @@ Inst21Quest18_HORDE_QuestID = "27365"
 Inst21Quest19_HORDE_QuestID = "14483"
 
 
-AQ_27917_Level = "18"
-AQ_27920_Level = "19"
-AQ_27921_Level = "20"
-AQ_27968_Level = "21"
-AQ_27356_Level = "20"
-AQ_27344_Level = "20"
-AQ_27354_Level = "20"
-AQ_27343_Level = "20"
-AQ_27361_Level = "20"
-AQ_27362_Level = "20"
-AQ_27363_Level = "20"
-AQ_27351_Level = "20"
-AQ_27353_Level = "20"
-AQ_27355_Level = "20"
-AQ_27337_Level = "20"
-AQ_24745_Level = "90"
-AQ_27974_Level = "18"
-AQ_27988_Level = "19"
-AQ_27996_Level = "20"
-AQ_27998_Level = "21"
-AQ_27404_Level = "20"
-AQ_27395_Level = "20"
-AQ_27400_Level = "20"
-AQ_27403_Level = "20"
-AQ_27434_Level = "20"
-AQ_27441_Level = "20"
-AQ_27436_Level = "20"
-AQ_27435_Level = "20"
-AQ_27439_Level = "20"
-AQ_27437_Level = "20"
-AQ_27396_Level = "20"
-AQ_27397_Level = "20"
-AQ_27402_Level = "20"
-AQ_27365_Level = "20"
-AQ_14483_Level = "90"
-
-
 
 --------------- INST22 - Stratholme - Crusaders' Square (Strat) ---------------
 
@@ -634,15 +422,6 @@ Inst22Quest6_HORDE_QuestID = "27185"
 Inst22Quest7_HORDE_QuestID = "27208"
 
 
-AQ_27422_Level = "45"
-AQ_27192_Level = "46"
-AQ_28755_Level = "46"
-AQ_27305_Level = "46"
-AQ_27223_Level = "47"
-AQ_27185_Level = "46"
-AQ_27208_Level = "47"
-
-
 
 --------------- INST28 - Stratholme - The Gauntlet (Strat) ---------------
 
@@ -659,13 +438,6 @@ Inst28Quest4_HORDE_QuestID = "27227"
 Inst28Quest5_HORDE_QuestID = "27352"
 
 
-AQ_27230_Level = "50"
-AQ_27359_Level = "50"
-AQ_27228_Level = "50"
-AQ_27227_Level = "51"
-AQ_27352_Level = "50"
-
-
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
 
@@ -674,20 +446,12 @@ Inst23Quest1_QuestID = "8791"
 Inst23Quest1_HORDE_QuestID = "8791"
 
 
-AQ_8791_Level = "60"
-
-
 
 --------------- INST24 - The Stockade (Stocks) ---------------
 
 Inst24Quest1_QuestID = "27733"
 Inst24Quest2_QuestID = "27737"
 Inst24Quest3_QuestID = "27739"
-
-
-AQ_27733_Level = "23"
-AQ_27737_Level = "24"
-AQ_27739_Level = "25"
 
 
 
@@ -704,12 +468,6 @@ Inst25Quest3_HORDE_QuestID = "27604"
 Inst25Quest4_HORDE_QuestID = "27605"
 
 
-AQ_27915_Level = "54"
-AQ_27633_Level = "54"
-AQ_27604_Level = "54"
-AQ_27605_Level = "54"
-
-
 
 --------------- INST26 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
@@ -722,12 +480,6 @@ Inst26Quest1_HORDE_QuestID = "8801"
 Inst26Quest2_HORDE_QuestID = "8802"
 Inst26Quest3_HORDE_QuestID = "8784"
 Inst26Quest4_HORDE_QuestID = "8579"
-
-
-AQ_8801_Level = "60"
-AQ_8802_Level = "60"
-AQ_8784_Level = "60"
-AQ_8579_Level = "60"
 
 
 
@@ -746,13 +498,6 @@ Inst27Quest4_HORDE_QuestID = "27071"
 Inst27Quest5_HORDE_QuestID = "27070"
 
 
-AQ_25556_Level = "47"
-AQ_27068_Level = "49"
-AQ_27076_Level = "48"
-AQ_27071_Level = "48"
-AQ_27070_Level = "48"
-
-
 
 --------------- INST29 - Gnomeregan (Gnomer) ---------------
 
@@ -764,21 +509,6 @@ Inst29Quest5_QuestID = "26942"
 Inst29Quest6_QuestID = "2945"
 Inst29Quest7_QuestID = "2947"
 Inst29Quest8_QuestID = "2951"
-
-Inst29Quest1_HORDE_QuestID = "2945"
-Inst29Quest2_HORDE_QuestID = "2949"
-Inst29Quest3_HORDE_QuestID = "2951"
-
-
-AQ_26943_Level = "26"
-AQ_26944_Level = "26"
-AQ_26939_Level = "27"
-AQ_26941_Level = "28"
-AQ_26942_Level = "29"
-AQ_2945_Level = "34"
-AQ_2949_Level = "34"
-AQ_2951_Level = "30"
-AQ_2947_Level = "34"
 
 
 
@@ -797,17 +527,6 @@ Inst37Quest4_HORDE_QuestID = "29527"
 Inst37Quest5_HORDE_QuestID = "11354"
 
 
-AQ_29543_Level = "62"
-AQ_29594_Level = "62"
-AQ_29529_Level = "62"
-AQ_29528_Level = "62"
-AQ_11354_Level = "70"
-AQ_29542_Level = "62"
-AQ_29593_Level = "62"
-AQ_29530_Level = "62"
-AQ_29527_Level = "62"
-
-
 
 --------------- INST38 - HFC: Blood Furnace (BF) ---------------
 
@@ -821,14 +540,6 @@ Inst38Quest2_HORDE_QuestID = "29536"
 Inst38Quest3_HORDE_QuestID = "29537"
 Inst38Quest4_HORDE_QuestID = "11362"
 
-
-AQ_29538_Level = "63"
-AQ_29539_Level = "63"
-AQ_29540_Level = "63"
-AQ_11362_Level = "70"
-AQ_29535_Level = "63"
-AQ_29536_Level = "63"
-AQ_29537_Level = "63"
 
 
 --------------- INST39 - HFC: Shattered Halls (SH) ---------------
@@ -856,23 +567,6 @@ Inst39Quest9_HORDE_QuestID = "11364"
 Inst39Quest10_HORDE_QuestID = "29651"
 
 
-AQ_29689_Level = "70"
-AQ_29649_Level = "70"
-AQ_29654_Level = "70"
-AQ_29656_Level = "70"
-AQ_10884_Level = "70"
-AQ_10670_Level = "70"
-AQ_9637_Level = "70"
-AQ_11363_Level = "70"
-AQ_11364_Level = "70"
-AQ_29652_Level = "70"
-AQ_29688_Level = "70"
-AQ_29650_Level = "70"
-AQ_29653_Level = "70"
-AQ_29655_Level = "70"
-AQ_29651_Level = "70"
-
-
 
 --------------- INST40 - HFC: Magtheridon's Lair ---------------
 
@@ -881,11 +575,6 @@ Inst40Quest2_QuestID = "11002" --**
 
 Inst40Quest1_HORDE_QuestID = "10888"
 Inst40Quest2_HORDE_QuestID = "11003"
-
-
-AQ_10888_Level = "70"
-AQ_11002_Level = "70"
-AQ_11003_Level = "70"
 
 
 
@@ -906,15 +595,6 @@ Inst41Quest4_HORDE_QuestID = "29565"
 Inst41Quest5_HORDE_QuestID = "11368"
 Inst41Quest6_HORDE_QuestID = "13431"
 Inst41Quest7_HORDE_QuestID = "11972"
-
-
-AQ_29566_Level = "65"
-AQ_29563_Level = "65"
-AQ_29564_Level = "65"
-AQ_29565_Level = "65"
-AQ_11368_Level = "70"
-AQ_13431_Level = "70"
-AQ_11972_Level = "90"
 
 
 
@@ -941,17 +621,6 @@ Inst42Quest8_HORDE_QuestID = "11371"
 Inst42Quest9_HORDE_QuestID = "11370"
 
 
-AQ_29616_Level = "69"
-AQ_29613_Level = "70"
-AQ_29614_Level = "70"
-AQ_29615_Level = "70"
-AQ_10885_Level = "70"
-AQ_10667_Level = "70"
-AQ_9832_Level = "70"
-AQ_11371_Level = "70"
-AQ_11370_Level = "70"
-
-
 
 --------------- INST43 - CR: The Underbog (UB) ---------------
 
@@ -972,15 +641,6 @@ Inst43Quest6_HORDE_QuestID = "29692"
 Inst43Quest7_HORDE_QuestID = "11369"
 
 
-AQ_29571_Level = "65"
-AQ_29570_Level = "65"
-AQ_29568_Level = "65"
-AQ_29567_Level = "65"
-AQ_29691_Level = "65"
-AQ_29692_Level = "65"
-AQ_11369_Level = "70"
-
-
 
 --------------- INST44 - Auchindoun: Auchenai Crypts (AC) ---------------
 
@@ -997,14 +657,6 @@ Inst44Quest4_HORDE_QuestID = "29591"
 Inst44Quest5_HORDE_QuestID = "11374"
 Inst44Quest6_HORDE_QuestID = "10167"
 Inst44Quest7_HORDE_QuestID = "10168"
-
-AQ_29595_Level = "67"
-AQ_29596_Level = "67"
-AQ_29590_Level = "67"
-AQ_29591_Level = "67"
-AQ_11374_Level = "70"
-AQ_10167_Level = "68"
-AQ_10168_Level = "68"
 
 
 
@@ -1025,15 +677,6 @@ Inst45Quest5_HORDE_QuestID = "10977"
 Inst45Quest6_HORDE_QuestID = "11373"
 
 
-AQ_29583_Level = "66"
-AQ_29574_Level = "66"
-AQ_29573_Level = "66"
-AQ_29575_Level = "66"
-AQ_10977_Level = "70"
-AQ_11373_Level = "70"
-AQ_29582_Level = "66"
-
-
 
 --------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
 
@@ -1050,14 +693,6 @@ Inst46Quest3_HORDE_QuestID = "29607"
 Inst46Quest4_HORDE_QuestID = "29606"
 Inst46Quest5_HORDE_QuestID = "9637"
 Inst46Quest6_HORDE_QuestID = "11372"
-
-
-AQ_10180_Level = "69"
-AQ_29605_Level = "69"
-AQ_29607_Level = "69"
-AQ_29606_Level = "69"
---AQ_9637_Level = "70"  -- Already used for HFC: Shattered Halls. Left here just for the note.
-AQ_11372_Level = "70"
 
 
 
@@ -1090,20 +725,6 @@ Inst46Quest11_HORDE_QuestID = "11376"
 Inst46Quest12_HORDE_QuestID = "11375"
 
 
-AQ_29642_Level = "70"
-AQ_29640_Level = "70"
-AQ_29641_Level = "70"
-AQ_29645_Level = "70"
-AQ_10649_Level = "70"
-AQ_29643_Level = "70"
-AQ_29644_Level = "70"
-AQ_10666_Level = "69"
-AQ_9831_Level = "70"
-AQ_10885_Level = "70"
-AQ_11376_Level = "70"
-AQ_11375_Level = "70"
-
-
 
 --------------- INST48 - CR: Serpentshrine Cavern (SSC) ---------------
 
@@ -1112,10 +733,6 @@ Inst48Quest2_QuestID = "10944"
 
 Inst48Quest1_HORDE_QuestID = "10445"
 Inst48Quest2_HORDE_QuestID = "10944"
-
-
-AQ_10445_Level = "70"
-AQ_10944_Level = "70"
 
 
 
@@ -1134,22 +751,12 @@ Inst49Quest4_HORDE_QuestID = "11382"
 Inst49Quest5_HORDE_QuestID = "11383"
 
 
-AQ_10296_Level = "70"
-AQ_10297_Level = "70"
-AQ_9836_Level = "70"
-AQ_11382_Level = "70"
-AQ_11383_Level = "70"
-
-
 
 --------------- INST50 - CoT: Battle of Mount Hyjal ---------------
 
 Inst50Quest1_QuestID = "10947"
 
 Inst50Quest1_HORDE_QuestID = "10947"
-
-
-AQ_10947_Level = "70"
 
 
 
@@ -1168,22 +775,12 @@ Inst51Quest4_HORDE_QuestID = "11378"
 Inst51Quest5_HORDE_QuestID = "12513"
 
 
-AQ_10282_Level = "68"
-AQ_29598_Level = "68"
-AQ_29599_Level = "68"
-AQ_11378_Level = "70"
-AQ_12513_Level = "68"
-
-
 
 --------------- INST52 - Gruul's Lair (GL) ---------------
 
 Inst52Quest1_QuestID = "13431"
 
 Inst52Quest1_HORDE_QuestID = "13431"
-
-
---AQ_13431_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
 
 
 
@@ -1220,22 +817,6 @@ Inst53Quest13_HORDE_QuestID = "9644"
 Inst53Quest14_HORDE_QuestID = "13431"
 
 
-AQ_9840_Level = "70"
-AQ_9843_Level = "70"
-AQ_9844_Level = "70"
-AQ_9860_Level = "70"
-AQ_9630_Level = "70"
-AQ_9638_Level = "70"
-AQ_9639_Level = "70"
-AQ_9640_Level = "70"
-AQ_9645_Level = "70"
-AQ_9680_Level = "70"
-AQ_9631_Level = "70"
-AQ_9637_Level = "70"
-AQ_9644_Level = "70"
---AQ_13431_Level = "70"  -- Already used for CR: Slave Pens. Left here just for the note.
-
-
 
 --------------- INST54 - TK: Arcatraz (Arc) ---------------
 
@@ -1258,15 +839,6 @@ Inst54Quest6_HORDE_QuestID = "9832"
 Inst54Quest7_HORDE_QuestID = "11388"
 Inst54Quest8_HORDE_QuestID = "11389"
 
-AQ_29674_Level = "70"
-AQ_29675_Level = "70"
-AQ_29681_Level = "70"
-AQ_10705_Level = "70"
-AQ_10886_Level = "70"
---AQ_9832_Level = "70"  -- Already used for CR: The Steamvault. Left here just for the note.
-AQ_11388_Level = "70"
-AQ_11389_Level = "70"
-
 
 
 --------------- INST55 - TK: Botanica (Bot) ---------------
@@ -1286,14 +858,6 @@ Inst55Quest4_HORDE_QuestID = "10704"
 Inst55Quest5_HORDE_QuestID = "10257"
 Inst55Quest6_HORDE_QuestID = "11384"
 Inst55Quest7_HORDE_QuestID = "11385"
-
-AQ_29660_Level = "70"
-AQ_29667_Level = "70"
-AQ_29669_Level = "70"
-AQ_10704_Level = "70"
-AQ_10257_Level = "70"
-AQ_11384_Level = "70"
-AQ_11385_Level = "70"
 
 
 
@@ -1316,15 +880,6 @@ Inst56Quest6_HORDE_QuestID = "11386"
 Inst56Quest7_HORDE_QuestID = "11387"
 
 
-AQ_29659_Level = "70"
-AQ_29657_Level = "70"
-AQ_29658_Level = "70"
---AQ_10704_Level = "70"  -- Already used for TK: Botanica. Left here just for the note.
-AQ_10665_Level = "69"
-AQ_11386_Level = "70"
-AQ_11387_Level = "70"
-
-
 
 --------------- INST61 - TK: The Eye ---------------
 
@@ -1337,11 +892,6 @@ Inst61Quest2_HORDE_QuestID = "11007"
 Inst61Quest3_HORDE_QuestID = "10445"
 
 
-AQ_10946_Level = "70"
-AQ_11007_Level = "70"
-AQ_10445_Level = "70"
-
-
 
 --------------- INST62 - Black Temple (BT) ---------------
 
@@ -1352,11 +902,6 @@ Inst62Quest3_QuestID = "10959"
 Inst62Quest1_HORDE_QuestID = "10958"
 Inst62Quest2_HORDE_QuestID = "10957"
 Inst62Quest3_HORDE_QuestID = "10959"
-
-
-AQ_10958_Level = "70"
-AQ_10957_Level = "70"
-AQ_10959_Level = "70"
 
 
 
@@ -1373,13 +918,6 @@ Inst63Quest2_HORDE_QuestID = "29184"
 Inst63Quest3_HORDE_QuestID = "29186"
 Inst63Quest4_HORDE_QuestID = "29217"
 Inst63Quest5_HORDE_QuestID = "29186"
-
-
-AQ_29180_Level = "85"
-AQ_29184_Level = "85"
-AQ_29186_Level = "85"
-AQ_29217_Level = "85"
-AQ_29186_Level = "85"
 
 
 
@@ -1404,26 +942,12 @@ Inst67Quest7_HORDE_QuestID = "11500"
 Inst67Quest8_HORDE_QuestID = "11499"
 
 
-AQ_29682_Level = "70"
-AQ_29684_Level = "70"
-AQ_11490_Level = "70"
-AQ_29685_Level = "70"
-AQ_29686_Level = "70"
-AQ_29687_Level = "70"
-AQ_11500_Level = "70"
-AQ_11499_Level = "70"
-
-
 
 --------------- INST68 - Sunwell Plateau ---------------
 
 Inst68Quest1_QuestID = "24553"
 
 Inst68Quest1_HORDE_QuestID = "24564"
-
-
-AQ_24553_Level = "80"
-AQ_24564_Level = "80"
 
 
 
@@ -1434,10 +958,6 @@ Inst69Quest2_QuestID = "13151"
 
 Inst69Quest1_HORDE_QuestID = "13149"
 Inst69Quest2_HORDE_QuestID = "13151"
-
-
-AQ_13149_Level = "80"
-AQ_13151_Level = "80"
 
 
 
@@ -1453,15 +973,6 @@ Inst70Quest2_HORDE_QuestID = "13206"
 Inst70Quest3_HORDE_QuestID = "30112"
 
 
-AQ_11251_Level = "71"
-AQ_29763_Level = "71"
-AQ_29764_Level = "71"
-AQ_29803_Level = "71"
-AQ_11262_Level = "71"
-AQ_13206_Level = "71"
-AQ_30112_Level = "71"
-
-
 
 --------------- INST71 - Utgarde Keep: Utgarde Pinnacle ---------------
 
@@ -1472,11 +983,6 @@ Inst71Quest3_QuestID = "29864"
 Inst71Quest1_HORDE_QuestID = "13131"
 Inst71Quest2_HORDE_QuestID = "13132"
 Inst71Quest3_HORDE_QuestID = "29864"
-
-
-AQ_13131_Level = "80"
-AQ_13132_Level = "80"
-AQ_29864_Level = "80"
 
 
 
@@ -1493,13 +999,6 @@ Inst72Quest3_HORDE_QuestID = "11911"
 Inst72Quest4_HORDE_QuestID = "11973"
 
 
-AQ_13094_Level = "71"
-AQ_11905_Level = "71"
-AQ_11911_Level = "71"
-AQ_11973_Level = "71"
-AQ_13095_Level = "71"
-
-
 
 --------------- INST73 - The Nexus: The Oculus ---------------
 
@@ -1514,12 +1013,6 @@ Inst73Quest3_HORDE_QuestID = "13127"
 Inst73Quest4_HORDE_QuestID = "13128"
 
 
-AQ_13124_Level = "80"
-AQ_13126_Level = "80"
-AQ_13127_Level = "80"
-AQ_13128_Level = "80"
-
-
 
 --------------- INST74 - The Nexus: The Eye of Eternity ---------------
 
@@ -1530,11 +1023,6 @@ Inst74Quest3_QuestID = "24584"
 Inst74Quest1_HORDE_QuestID = "13384"
 Inst74Quest2_HORDE_QuestID = "13385"
 Inst74Quest3_HORDE_QuestID = "24584"
-
-
-AQ_13384_Level = "80"
-AQ_13385_Level = "80"
-AQ_24584_Level = "80"
 
 
 
@@ -1549,11 +1037,6 @@ Inst75Quest2_HORDE_QuestID = "29808"
 Inst75Quest3_HORDE_QuestID = "29807"
 
 
-AQ_29811_Level = "74"
-AQ_29808_Level = "74"
-AQ_29807_Level = "74"
-
-
 
 --------------- INST76 - Ahn'kahet: The Old Kingdom ---------------
 
@@ -1566,11 +1049,6 @@ Inst76Quest2_HORDE_QuestID = "29826"
 Inst76Quest3_HORDE_QuestID = "13187"
 
 
-AQ_29825_Level = "76"
-AQ_29826_Level = "76"
-AQ_13187_Level = "76"
-
-
 
 --------------- INST77 - Ulduar: Halls of Stone ---------------
 
@@ -1581,11 +1059,6 @@ Inst77Quest1_QuestID = "13207"
 Inst77Quest1_HORDE_QuestID = "29850"
 Inst77Quest1_HORDE_QuestID = "29848"
 Inst77Quest1_HORDE_QuestID = "13207"
-
-
-AQ_29850_Level = "78"
-AQ_29848_Level = "78"
-AQ_13207_Level = "78"
 
 
 
@@ -1602,21 +1075,12 @@ Inst78Quest3_HORDE_QuestID = "29862"
 Inst78Quest4_HORDE_QuestID = "29860"
 
 
-AQ_29863_Level = "80"
-AQ_29861_Level = "80"
-AQ_29862_Level = "80"
-AQ_29860_Level = "80"
-
-
 
 --------------- INST79 - The Obsidian Sanctum ---------------
 
 Inst79Quest1_QuestID = "24579"
 
 Inst79Quest1_HORDE_QuestID = "24579"
-
-
-AQ_24579_Level = "80"
 
 
 
@@ -1631,12 +1095,6 @@ Inst80Quest1_HORDE_QuestID = "12037"
 Inst80Quest2_HORDE_QuestID = "13129"
 Inst80Quest3_HORDE_QuestID = "29828"
 Inst80Quest4_HORDE_QuestID = "30120"
-
-
-AQ_12037_Level = "74"
-AQ_13129_Level = "74"
-AQ_29828_Level = "74"
-AQ_30120_Level = "75"
 
 
 
@@ -1655,26 +1113,14 @@ Inst81Quest4_HORDE_QuestID = "29834"
 Inst81Quest5_HORDE_QuestID = "29839"
 
 
-AQ_29836_Level = "78"
-AQ_29833_Level = "78"
-AQ_29844_Level = "78"
-AQ_29834_Level = "78"
-AQ_29839_Level = "78"
-
-
 
 --------------- INST82 - The Violet Hold ---------------
 
 Inst82Quest1_QuestID = "29829"
 Inst82Quest2_QuestID = "29830"
 
-
 Inst82Quest1_HORDE_QuestID = "29829"
 Inst82Quest2_HORDE_QuestID = "29830"
-
-
-AQ_29829_Level = "77"
-AQ_29830_Level = "77"
 
 
 
@@ -1693,14 +1139,6 @@ Inst84Quest3_HORDE_QuestID = "24580"
 Inst84Quest4_HORDE_QuestID = "24582"
 Inst84Quest5_HORDE_QuestID = "24581"
 Inst84Quest6_HORDE_QuestID = "24583"
-
-
-AQ_13372_Level = "80"
-AQ_13375_Level = "80"
-AQ_24580_Level = "80"
-AQ_24582_Level = "80"
-AQ_24581_Level = "80"
-AQ_24583_Level = "80"
 
 
 
@@ -1753,28 +1191,6 @@ Inst86Quest19_HORDE_QuestID = "24586"
 Inst86Quest20_HORDE_QuestID = "24588"
 
 
-AQ_13604_Level = "80"
-AQ_13607_Level = "80"
-AQ_13609_Level = "80"
-AQ_13610_Level = "80"
-AQ_13606_Level = "80"
-AQ_13611_Level = "80"
-AQ_13614_Level = "80"
-AQ_13631_Level = "80"
-AQ_13817_Level = "80"
-AQ_13816_Level = "80"
-AQ_13822_Level = "80"
-AQ_13823_Level = "80"
-AQ_13821_Level = "80"
-AQ_13824_Level = "80"
-AQ_13818_Level = "80"
-AQ_13819_Level = "80"
-AQ_24585_Level = "80"
-AQ_24587_Level = "80"
-AQ_24586_Level = "80"
-AQ_24588_Level = "80"
-
-
 
 --------------- INST87 - Trial of the Champion ---------------
 
@@ -1783,17 +1199,12 @@ Inst87Quest1_QuestID = "29851"
 Inst87Quest1_HORDE_QuestID = "29851"
 
 
-AQ_29851_Level = "78"
-
-
 
 --------------- INST88 - Trial of the Crusader ---------------
 
 Inst88Quest1_QuestID = "24589"
 
 Inst88Quest1_HORDE_QuestID = "24589"
-
-AQ_24589_Level = "80"
 
 
 
@@ -1806,14 +1217,6 @@ Inst90Quest3_QuestID = "24476"
 Inst90Quest1_HORDE_QuestID = "24506"
 Inst90Quest2_HORDE_QuestID = "24511"
 Inst90Quest3_HORDE_QuestID = "24560"
-
-
-AQ_24510_Level = "80"
-AQ_24499_Level = "80"
-AQ_24476_Level = "80"
-AQ_24506_Level = "80"
-AQ_24511_Level = "80"
-AQ_24560_Level = "80"
 
 
 
@@ -1830,16 +1233,6 @@ Inst91Quest3_HORDE_QuestID = "24712"
 Inst91Quest4_HORDE_QuestID = "24559"
 
 
-AQ_24683_Level = "80"
-AQ_24498_Level = "80"
-AQ_24710_Level = "80"
-AQ_24461_Level = "80"
-AQ_24682_Level = "80"
-AQ_24507_Level = "80"
-AQ_24712_Level = "80"
-AQ_24559_Level = "80"
-
-
 
 --------------- INST92 - Halls of Reflection (HoR)  ---------------
 
@@ -1850,14 +1243,6 @@ Inst92Quest3_QuestID = "24480"
 Inst92Quest1_HORDE_QuestID = "24713"
 Inst92Quest2_HORDE_QuestID = "24802"
 Inst92Quest3_HORDE_QuestID = "24561"
-
-
-AQ_24711_Level = "80"
-AQ_24500_Level = "80"
-AQ_24480_Level = "80"
-AQ_24713_Level = "80"
-AQ_24802_Level = "80"
-AQ_24561_Level = "80"
 
 
 
@@ -1885,17 +1270,6 @@ Inst93Quest8_HORDE_QuestID = "24548"
 Inst93Quest9_HORDE_QuestID = "24549"
 Inst93Quest10_HORDE_QuestID = "24748"
 
-AQ_24590_Level = "80"
-AQ_24545_Level = "80"
-AQ_24743_Level = "80"
-AQ_24547_Level = "80"
-AQ_24749_Level = "80"
-AQ_24756_Level = "80"
-AQ_24757_Level = "80"
-AQ_24548_Level = "80"
-AQ_24549_Level = "80"
-AQ_24748_Level = "80"
-
 
 
 --------------- INST94 - Ruby Sanctum (RS)  ---------------
@@ -1907,10 +1281,6 @@ Inst94Quest3_QuestID = "26034"
 Inst94Quest1_HORDE_QuestID = "26012"
 Inst94Quest2_HORDE_QuestID = "26013"
 Inst94Quest3_HORDE_QuestID = "26034"
-
-AQ_26012_Level = "80"
-AQ_26013_Level = "80"
-AQ_26034_Level = "80"
 
 
 
@@ -1931,14 +1301,6 @@ Inst95Quest5_HORDE_QuestID = "28740"
 Inst95Quest6_HORDE_QuestID = "28741"
 
 
-AQ_28732_Level = "82"
-AQ_28735_Level = "82"
-AQ_28737_Level = "82"
-AQ_28738_Level = "82"
-AQ_28740_Level = "82"
-AQ_28741_Level = "82"
-
-
 
 --------------- INST96 - Throne of the Tides ---------------
 
@@ -1947,12 +1309,6 @@ Inst96Quest2_QuestID = "28836"
 
 Inst96Quest1_HORDE_QuestID = "28833"
 Inst96Quest2_HORDE_QuestID = "28843"
-
-
-AQ_28834_Level = "82"
-AQ_28836_Level = "82"
-AQ_28833_Level = "82"
-AQ_28843_Level = "82"
 
 
 
@@ -1969,12 +1325,6 @@ Inst97Quest3_HORDE_QuestID = "28814"
 Inst97Quest4_HORDE_QuestID = "28824"
 
 
-AQ_28866_Level = "83"
-AQ_28815_Level = "84"
-AQ_28814_Level = "84"
-AQ_28824_Level = "84"
-
-
 
 --------------- INST98 - The Vortex Pinnacle ---------------
 
@@ -1985,11 +1335,6 @@ Inst98Quest3_QuestID = "28779"
 Inst98Quest1_HORDE_QuestID = "28845"
 Inst98Quest2_HORDE_QuestID = "28760"
 Inst98Quest3_HORDE_QuestID = "28779"
-
-
-AQ_28845_Level = "84"
-AQ_28760_Level = "84"
-AQ_28779_Level = "84"
 
 
 
@@ -2004,11 +1349,6 @@ Inst99Quest2_HORDE_QuestID = "28853"
 Inst99Quest3_HORDE_QuestID = "28854"
 
 
-AQ_28852_Level = "85"
-AQ_28853_Level = "85"
-AQ_28854_Level = "85"
-
-
 
 --------------- INST100 - Halls of Origination ---------------
 
@@ -2019,10 +1359,6 @@ Inst100Quest3_QuestID = "28753"
 Inst100Quest1_HORDE_QuestID = "28654"
 Inst100Quest2_HORDE_QuestID = "28746"
 Inst100Quest3_HORDE_QuestID = "28753"
-
-AQ_28654_Level = "83"
-AQ_28746_Level = "83"
-AQ_28753_Level = "83"
 
 
 
@@ -2035,11 +1371,6 @@ Inst101Quest3_QuestID = "28783"
 Inst101Quest1_HORDE_QuestID = "28870"
 Inst101Quest2_HORDE_QuestID = "28781"
 Inst101Quest3_HORDE_QuestID = "28783"
-
-
-AQ_28870_Level = "83"
-AQ_28781_Level = "85"
-AQ_28783_Level = "85"
 
 
 
@@ -2076,15 +1407,6 @@ Inst108Quest5_HORDE_QuestID = "29251"
 Inst108Quest6_HORDE_QuestID = "29241"
 
 
-AQ_29172_Level = "85"
-AQ_29174_Level = "85"
-AQ_29242_Level = "85"
-AQ_29173_Level = "85"
-AQ_29153_Level = "85"
-AQ_29241_Level = "85"
-AQ_29251_Level = "85"
-
-
 
 --------------- INST109 - Firelands ---------------
 
@@ -2101,14 +1423,6 @@ Inst109Quest4_HORDE_QuestID = "29270"
 Inst109Quest5_HORDE_QuestID = "29307"
 
 
-AQ_29453_Level = "85"
-AQ_29135_Level = "85"
-AQ_29234_Level = "85"
-AQ_29270_Level = "85"
-AQ_29307_Level = "85"
-AQ_29452_Level = "85"
-
-
 
 --------------- INST110 - End Time ---------------
 
@@ -2119,11 +1433,6 @@ Inst110Quest3_QuestID = "30097"
 Inst110Quest1_HORDE_QuestID = "30094"
 Inst110Quest2_HORDE_QuestID = "30096"
 Inst110Quest3_HORDE_QuestID = "30097"
-
-
-AQ_30095_Level = "85"
-AQ_30096_Level = "85"
-AQ_30097_Level = "85"
 
 
 
@@ -2142,13 +1451,6 @@ Inst111Quest4_HORDE_QuestID = "30101"
 Inst111Quest5_HORDE_QuestID = "30104"
 
 
-AQ_30098_Level = "85"
-AQ_30099_Level = "85"
-AQ_30100_Level = "85"
-AQ_30101_Level = "85"
-AQ_30104_Level = "85"
-
-
 
 --------------- INST112 - Hour of Twilight ---------------
 
@@ -2159,11 +1461,6 @@ Inst112Quest3_QuestID = "30105"
 Inst112Quest1_HORDE_QuestID = "30102"
 Inst112Quest2_HORDE_QuestID = "30103"
 Inst112Quest3_HORDE_QuestID = "30105"
-
-
-AQ_30102_Level = "85"
-AQ_30103_Level = "85"
-AQ_30105_Level = "85"
 
 
 
@@ -2180,12 +1477,6 @@ Inst113Quest3_HORDE_QuestID = "30116"
 Inst113Quest4_HORDE_QuestID = "30118"
 
 
-AQ_29801_Level = "85"
-AQ_30107_Level = "85"
-AQ_30116_Level = "85"
-AQ_30118_Level = "85"
-
-
 
 --------------- INST114 - Mogu'Shan Palace ---------------
 
@@ -2194,10 +1485,6 @@ Inst114Quest2_QuestID = "31360"
 
 Inst114Quest1_HORDE_QuestID = "31357"
 Inst114Quest2_HORDE_QuestID = "31360"
-
-
-AQ_31357_Level = "89"
-AQ_31360_Level = "89"
 
 
 
@@ -2210,11 +1497,6 @@ Inst115Quest3_QuestID = "31342"
 Inst115Quest1_HORDE_QuestID = "31031"
 Inst115Quest2_HORDE_QuestID = "30757"
 Inst115Quest3_HORDE_QuestID = "31342"
-
-
-AQ_31031_Level = "88"
-AQ_30757_Level = "89"
-AQ_31342_Level = "89"
 
 
 
@@ -2231,12 +1513,6 @@ Inst116Quest3_HORDE_QuestID = "31324"
 Inst116Quest4_HORDE_QuestID = "33024"
 
 
-AQ_30085_Level = "87"
-AQ_31327_Level = "87"
-AQ_31324_Level = "87"
-AQ_33024_Level = "90"
-
-
 
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
@@ -2251,12 +1527,6 @@ Inst117Quest3_HORDE_QuestID = "33020"
 Inst117Quest4_HORDE_QuestID = "33107"
 
 
-AQ_31355_Level = "87"
-AQ_31356_Level = "87"
-AQ_33020_Level = "90"
-AQ_33107_Level = "90"
-
-
 
 --------------- INST118 - Gate of the Setting Sun ---------------
 
@@ -2267,10 +1537,6 @@ Inst118Quest1_HORDE_QuestID = "31363"
 Inst118Quest2_HORDE_QuestID = "31364"
 
 
-AQ_31363_Level = "90"
-AQ_31364_Level = "90"
-
-
 
 --------------- INST119 - Siege of Niuzao Temple ---------------
 
@@ -2279,10 +1545,6 @@ Inst119Quest2_QuestID = "31366"
 
 Inst119Quest1_HORDE_QuestID = "31365"
 Inst119Quest2_HORDE_QuestID = "31366"
-
-
-AQ_31365_Level = "90"
-AQ_31366_Level = "90"
 
 
 
@@ -2319,17 +1581,6 @@ Inst138Quest7_HORDE_QuestID = "32710"
 Inst138Quest8_HORDE_QuestID = "32712"
 
 
-AQ_32599_Level = "90"
-AQ_32589_Level = "90"
-AQ_32715_Level = "90"
-AQ_32714_Level = "90"
-AQ_32713_Level = "90"
-AQ_32716_Level = "90"
-AQ_32711_Level = "90"
-AQ_32710_Level = "90"
-AQ_32712_Level = "90"
-
-
 
 --------------- INST145 - Siege of Orgrimmar ---------------
 
@@ -2348,14 +1599,6 @@ Inst145Quest5_HORDE_QuestID = "33376"
 Inst145Quest6_HORDE_QuestID = "33377"
 
 
-AQ_33147_Level = "90"
-AQ_33138_Level = "90"
-AQ_33337_Level = "90"
-AQ_33375_Level = "90"
-AQ_33376_Level = "90"
-AQ_33377_Level = "90"
-
-
 
 --------------- INST146 - Auchindoun ---------------
 
@@ -2372,15 +1615,6 @@ Inst146Quest3_HORDE_QuestID = "37232"
 Inst146Quest4_HORDE_QuestID = "37154"
 Inst146Quest5_HORDE_QuestID = "37233"
 Inst146Quest6_HORDE_QuestID = "37780"
-
-
-AQ_37146_Level = "96"
-AQ_37156_Level = "100"
-AQ_37232_Level = "100"
-AQ_37154_Level = "100"
-AQ_37233_Level = "100"
-AQ_37796_Level = "100"
-AQ_37780_Level = "100"
 
 
 
@@ -2403,16 +1637,6 @@ Inst147Quest6_HORDE_QuestID = "37235"
 Inst147Quest7_HORDE_QuestID = "37785"
 
 
-AQ_36316_Level = "97"
-AQ_37147_Level = "99"
-AQ_37159_Level = "100"
-AQ_37158_Level = "100"
-AQ_37234_Level = "100"
-AQ_37235_Level = "100"
-AQ_37791_Level = "100"
-AQ_37785_Level = "100"
-
-
 
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 
@@ -2431,15 +1655,6 @@ Inst148Quest5_HORDE_QuestID = "37229"
 Inst148Quest6_HORDE_QuestID = "37781"
 
 
-AQ_37142_Level = "92"
-AQ_37152_Level = "100"
-AQ_37228_Level = "100"
-AQ_37153_Level = "100"
-AQ_37229_Level = "100"
-AQ_37795_Level = "100"
-AQ_37781_Level = "100"
-
-
 
 --------------- INST149 - Iron Docks ---------------
 
@@ -2456,15 +1671,6 @@ Inst149Quest3_HORDE_QuestID = "37230"
 Inst149Quest4_HORDE_QuestID = "37155"
 Inst149Quest5_HORDE_QuestID = "37231"
 Inst149Quest6_HORDE_QuestID = "37783"
-
-
-AQ_37145_Level = "94"
-AQ_37157_Level = "100"
-AQ_37230_Level = "100"
-AQ_37155_Level = "100"
-AQ_37231_Level = "100"
-AQ_37793_Level = "100"
-AQ_37783_Level = "100"
 
 
 
@@ -2489,17 +1695,6 @@ Inst150Quest7_HORDE_QuestID = "36813"
 Inst150Quest8_HORDE_QuestID = "37786"
 
 
-AQ_37150_Level = "100"
-AQ_37227_Level = "100"
-AQ_37166_Level = "100"
-AQ_37241_Level = "100"
-AQ_37165_Level = "100"
-AQ_37240_Level = "100"
-AQ_36813_Level = "100"
-AQ_37790_Level = "100"
-AQ_37786_Level = "100"
-
-
 
 --------------- INST151 - Grimrail Depot ---------------
 
@@ -2520,16 +1715,6 @@ Inst151Quest6_HORDE_QuestID = "37209"
 Inst151Quest7_HORDE_QuestID = "37782"
 
 
-AQ_37160_Level = "100"
-AQ_37243_Level = "100"
-AQ_37167_Level = "100"
-AQ_37242_Level = "100"
-AQ_37151_Level = "100"
-AQ_37209_Level = "100"
-AQ_37794_Level = "100"
-AQ_37782_Level = "100"
-
-
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
@@ -2548,16 +1733,6 @@ Inst152Quest4_HORDE_QuestID = "37238"
 Inst152Quest5_HORDE_QuestID = "37164"
 Inst152Quest6_HORDE_QuestID = "37239"
 Inst152Quest7_HORDE_QuestID = "37784"
-
-
-AQ_37149_Level = "100"
-AQ_37245_Level = "100"
-AQ_37163_Level = "100"
-AQ_37238_Level = "100"
-AQ_37164_Level = "100"
-AQ_37239_Level = "100"
-AQ_37792_Level = "100"
-AQ_37784_Level = "100"
 
 
 
@@ -2582,17 +1757,6 @@ Inst153Quest7_HORDE_QuestID = "37179"
 Inst153Quest8_HORDE_QuestID = "37787"
 
 
-AQ_37148_Level = "100"
-AQ_37244_Level = "100"
-AQ_37161_Level = "100"
-AQ_37236_Level = "100"
-AQ_37162_Level = "100"
-AQ_37237_Level = "100"
-AQ_37179_Level = "100"
-AQ_37789_Level = "100"
-AQ_37787_Level = "100"
-
-
 
 --------------- INST154 - Highmaul ---------------
 
@@ -2603,14 +1767,6 @@ Inst154Quest3_QuestID = "37768"
 Inst154Quest1_HORDE_QuestID = "37756"
 Inst154Quest2_HORDE_QuestID = "37757"
 Inst154Quest3_HORDE_QuestID = "37758"
-
-
-AQ_37766_Level = "100"
-AQ_37767_Level = "100"
-AQ_37768_Level = "100"
-AQ_37756_Level = "100"
-AQ_37757_Level = "100"
-AQ_37758_Level = "100"
 
 
 
@@ -2625,16 +1781,6 @@ Inst155Quest1_HORDE_QuestID = "37762"
 Inst155Quest2_HORDE_QuestID = "37763"
 Inst155Quest3_HORDE_QuestID = "37764"
 Inst155Quest4_HORDE_QuestID = "37765"
-
-
-AQ_37769_Level = "100"
-AQ_37770_Level = "100"
-AQ_37771_Level = "100"
-AQ_37772_Level = "100"
-AQ_37762_Level = "100"
-AQ_37763_Level = "100"
-AQ_37764_Level = "100"
-AQ_37765_Level = "100"
 
 
 
@@ -2665,22 +1811,6 @@ Inst156Quest8_HORDE_QuestID = "39501"
 Inst156Quest9_HORDE_QuestID = "39830"
 Inst156Quest9_HORDE_Level = "110"
 Inst156Quest9_HORDE_Attain = "110"
-
-
-AQ_39250_Level = "100"
-AQ_39253_Level = "100"
-AQ_39256_Level = "100"
-AQ_39259_Level = "100"
-AQ_39260_Level = "100"
-AQ_39221_Level = "100"
-AQ_39225_Level = "100"
-AQ_39228_Level = "100"
-AQ_39231_Level = "100"
-AQ_39232_Level = "100"
-AQ_39499_Level = "100"
-AQ_39500_Level = "100"
-AQ_39501_Level = "100"
-AQ_39830_Level = "110"
 
 
 
@@ -2752,16 +1882,6 @@ Inst157Quest8_HORDE_Level = "103"
 Inst157Quest8_HORDE_Attain = "103"
 
 
-AQ_43557_Level = "110"
-AQ_44258_Level = "110"
-AQ_44259_Level = "110"
-AQ_44400_Level = "105"
-AQ_40878_Level = "108"
-AQ_44887_Level = "110"
-AQ_38965_Level = "110"
-AQ_43487_Level = "103"
-
-
 
 --------------- INST158 - Black Rook Hold ---------------
 
@@ -2805,6 +1925,26 @@ Inst158Quest10_QuestID = "44887"
 Inst158Quest10_Level = "110"
 Inst158Quest10_Attain = "110"
 
+Inst158Quest11_QuestID = "39349"
+Inst158Quest11_Level = "110"
+Inst158Quest11_Attain = "110"
+
+Inst158Quest12_QuestID = "40559"
+Inst158Quest12_Level = "110"
+Inst158Quest12_Attain = "110"
+
+Inst158Quest13_QuestID = "43493"
+Inst158Quest13_Level = "110"
+Inst158Quest13_Attain = "110"
+
+Inst158Quest14_QuestID = "42678"
+Inst158Quest14_Level = "110"
+Inst158Quest14_Attain = "110"
+
+Inst158Quest15_QuestID = "42098"
+Inst158Quest15_Level = "110"
+Inst158Quest15_Attain = "110"
+
 
 Inst158Quest1_HORDE_QuestID = "43545"
 Inst158Quest1_HORDE_Level = "110"
@@ -2846,17 +1986,25 @@ Inst158Quest10_HORDE_QuestID = "44887"
 Inst158Quest10_HORDE_Level = "110"
 Inst158Quest10_HORDE_Attain = "110"
 
+Inst158Quest11_HORDE_QuestID = "39349"
+Inst158Quest11_HORDE_Level = "110"
+Inst158Quest11_HORDE_Attain = "110"
 
-AQ_43545_Level = "110"
-AQ_44276_Level = "110"
-AQ_44277_Level = "110"
-AQ_43714_Level = "110"
-AQ_43762_Level = "110"
-AQ_43642_Level = "110"
-AQ_43712_Level = "110"
-AQ_43711_Level = "110"
-AQ_43506_Level = "110"
-AQ_44887_Level = "110"
+Inst158Quest12_HORDE_QuestID = "40559"
+Inst158Quest12_HORDE_Level = "110"
+Inst158Quest12_HORDE_Attain = "110"
+
+Inst158Quest13_HORDE_QuestID = "43493"
+Inst158Quest13_HORDE_Level = "110"
+Inst158Quest13_HORDE_Attain = "110"
+
+Inst158Quest14_HORDE_QuestID = "42678"
+Inst158Quest14_HORDE_Level = "110"
+Inst158Quest14_HORDE_Attain = "110"
+
+Inst158Quest15_HORDE_QuestID = "42098"
+Inst158Quest15_HORDE_Level = "110"
+Inst158Quest15_HORDE_Attain = "110"
 
 
 
@@ -2912,14 +2060,6 @@ Inst159Quest6_HORDE_Level = "110"
 Inst159Quest6_HORDE_Attain = "110"
 
 
-AQ_44275_Level = "110"
-AQ_42769_Level = "110"
-AQ_42781_Level = "110"
-AQ_42784_Level = "110"
-AQ_43314_Level = "110"
-AQ_40882_Level = "110"
-
-
 
 --------------- INST160 - Darkheart Thicket ---------------
 
@@ -2967,6 +2107,22 @@ Inst160Quest11_QuestID = "41169"
 Inst160Quest11_Level = "110"
 Inst160Quest11_Attain = "110"
 
+Inst160Quest12_QuestID = "40158"
+Inst160Quest12_Level = "110"
+Inst160Quest12_Attain = "110"
+
+Inst160Quest13_QuestID = "43572"
+Inst160Quest13_Level = "103"
+Inst160Quest13_Attain = "103"
+
+Inst160Quest14_QuestID = "44076"
+Inst160Quest14_Level = "103"
+Inst160Quest14_Attain = "103"
+
+Inst160Quest15_QuestID = "42654"
+Inst160Quest15_Level = "110"
+Inst160Quest15_Attain = "110"
+
 
 Inst160Quest1_HORDE_QuestID = "43551"
 Inst160Quest1_HORDE_Level = "110"
@@ -3012,18 +2168,21 @@ Inst160Quest11_HORDE_QuestID = "41169"
 Inst160Quest11_HORDE_Level = "110"
 Inst160Quest11_HORDE_Attain = "110"
 
+Inst160Quest12_HORDE_QuestID = "40158"
+Inst160Quest12_HORDE_Level = "110"
+Inst160Quest12_HORDE_Attain = "110"
 
-AQ_43551_Level = "110"
-AQ_44272_Level = "110"
-AQ_44273_Level = "110"
-AQ_42745_Level = "110"
-AQ_42743_Level = "110"
-AQ_42744_Level = "110"
-AQ_42742_Level = "110"
-AQ_38799_Level = "98"
-AQ_40567_Level = "98"
-AQ_39882_Level = "104"
-AQ_41169_Level = "110"
+Inst160Quest13_HORDE_QuestID = "43572"
+Inst160Quest13_HORDE_Level = "103"
+Inst160Quest13_HORDE_Attain = "103"
+
+Inst160Quest14_HORDE_QuestID = "44076"
+Inst160Quest14_HORDE_Level = "103"
+Inst160Quest14_HORDE_Attain = "103"
+
+Inst160Quest15_HORDE_QuestID = "42654"
+Inst160Quest15_HORDE_Level = "110"
+Inst160Quest15_HORDE_Attain = "110"
 
 
 
@@ -3069,6 +2228,34 @@ Inst161Quest10_QuestID = "38961"
 Inst161Quest10_Level = "108"
 Inst161Quest10_Attain = "108"
 
+Inst161Quest11_QuestID = "39331"
+Inst161Quest11_Level = "102"
+Inst161Quest11_Attain = "102"
+
+Inst161Quest12_QuestID = "40208"
+Inst161Quest12_Level = "108"
+Inst161Quest12_Attain = "108"
+
+Inst161Quest13_QuestID = "40154"
+Inst161Quest13_Level = "98"
+Inst161Quest13_Attain = "98"
+
+Inst161Quest14_QuestID = "44282"
+Inst161Quest14_Level = "110"
+Inst161Quest14_Attain = "110"
+
+Inst161Quest15_QuestID = "44077"
+Inst161Quest15_Level = "103"
+Inst161Quest15_Attain = "103"
+
+Inst161Quest16_QuestID = "42707"
+Inst161Quest16_Level = "110"
+Inst161Quest16_Attain = "110"
+
+Inst161Quest17_QuestID = "42984"
+Inst161Quest17_Level = "110"
+Inst161Quest17_Attain = "110"
+
 
 Inst161Quest1_HORDE_QuestID = "42712"
 Inst161Quest1_HORDE_Level = "110"
@@ -3110,17 +2297,33 @@ Inst161Quest10_HORDE_QuestID = "38961"
 Inst161Quest10_HORDE_Level = "108"
 Inst161Quest10_HORDE_Attain = "108"
 
+Inst161Quest11_HORDE_QuestID = "39331"
+Inst161Quest11_HORDE_Level = "102"
+Inst161Quest11_HORDE_Attain = "102"
 
-AQ_42712_Level = "110"
-AQ_42713_Level = "110"
-AQ_42746_Level = "110"
-AQ_42755_Level = "110"
-AQ_38286_Level = "98"
-AQ_42213_Level = "98"
-AQ_42719_Level = "110"
-AQ_40668_Level = "110"
-AQ_43378_Level = "103"
-AQ_38961_Level = "108"
+Inst161Quest12_HORDE_QuestID = "40208"
+Inst161Quest12_HORDE_Level = "108"
+Inst161Quest12_HORDE_Attain = "108"
+
+Inst161Quest13_HORDE_QuestID = "40154"
+Inst161Quest13_HORDE_Level = "98"
+Inst161Quest13_HORDE_Attain = "98"
+
+Inst161Quest14_HORDE_QuestID = "44282"
+Inst161Quest14_HORDE_Level = "110"
+Inst161Quest14_HORDE_Attain = "110"
+
+Inst161Quest15_HORDE_QuestID = "44077"
+Inst161Quest15_HORDE_Level = "103"
+Inst161Quest15_HORDE_Attain = "103"
+
+Inst161Quest16_HORDE_QuestID = "42707"
+Inst161Quest16_HORDE_Level = "110"
+Inst161Quest16_HORDE_Attain = "110"
+
+Inst161Quest17_HORDE_QuestID = "42984"
+Inst161Quest17_HORDE_Level = "110"
+Inst161Quest17_HORDE_Attain = "110"
 
 
 
@@ -3190,6 +2393,30 @@ Inst162Quest16_QuestID = "43377"
 Inst162Quest16_Level = "103"
 Inst162Quest16_Attain = "103"
 
+Inst162Quest17_QuestID = "39348"
+Inst162Quest17_Level = "110"
+Inst162Quest17_Attain = "110"
+
+Inst162Quest18_QuestID = "39953"
+Inst162Quest18_Level = "106"
+Inst162Quest18_Attain = "106"
+
+Inst162Quest19_QuestID = "40561"
+Inst162Quest19_Level = "110"
+Inst162Quest19_Attain = "110"
+
+Inst162Quest20_QuestID = "40139"
+Inst162Quest20_Level = "98"
+Inst162Quest20_Attain = "98"
+
+Inst162Quest21_QuestID = "38974"
+Inst162Quest21_Level = "110"
+Inst162Quest21_Attain = "110"
+
+Inst162Quest22_QuestID = "44075"
+Inst162Quest22_Level = "103"
+Inst162Quest22_Attain = "103"
+
 
 Inst162Quest1_HORDE_QuestID = "43509"
 Inst162Quest1_HORDE_Level = "110"
@@ -3255,23 +2482,29 @@ Inst162Quest16_HORDE_QuestID = "43377"
 Inst162Quest16_HORDE_Level = "103"
 Inst162Quest16_HORDE_Attain = "103"
 
+Inst162Quest17_HORDE_QuestID = "39348"
+Inst162Quest17_HORDE_Level = "110"
+Inst162Quest17_HORDE_Attain = "110"
 
-AQ_43509_Level = "110"
-AQ_44268_Level = "110"
-AQ_44269_Level = "110"
-AQ_42241_Level = "110"
-AQ_42243_Level = "110"
-AQ_42240_Level = "110"
-AQ_42239_Level = "110"
-AQ_41040_Level = "110"
-AQ_41059_Level = "110"
-AQ_40072_Level = "110"
-AQ_43349_Level = "98"
-AQ_40877_Level = "108"
-AQ_45422_Level = "110"
-AQ_44886_Level = "110"
-AQ_39904_Level = "106"
-AQ_43377_Level = "103"
+Inst162Quest18_HORDE_QuestID = "39953"
+Inst162Quest18_HORDE_Level = "106"
+Inst162Quest18_HORDE_Attain = "106"
+
+Inst162Quest19_HORDE_QuestID = "40561"
+Inst162Quest19_HORDE_Level = "110"
+Inst162Quest19_HORDE_Attain = "110"
+
+Inst162Quest20_HORDE_QuestID = "40139"
+Inst162Quest20_HORDE_Level = "98"
+Inst162Quest20_HORDE_Attain = "98"
+
+Inst162Quest21_HORDE_QuestID = "38974"
+Inst162Quest21_HORDE_Level = "110"
+Inst162Quest21_HORDE_Attain = "110"
+
+Inst162Quest22_HORDE_QuestID = "44075"
+Inst162Quest22_HORDE_Level = "103"
+Inst162Quest22_HORDE_Attain = "103"
 
 
 
@@ -3359,18 +2592,6 @@ Inst163Quest10_HORDE_Level = "110"
 Inst163Quest10_HORDE_Attain = "110"
 
 
-AQ_43553_Level = "110"
-AQ_44266_Level = "110"
-AQ_44267_Level = "110"
-AQ_42780_Level = "110"
-AQ_42757_Level = "110"
-AQ_42788_Level = "110"
-AQ_43586_Level = "110"
-AQ_43604_Level = "110"
-AQ_43253_Level = "110"
-AQ_43596_Level = "110"
-
-
 
 --------------- INST164 - Neltharion's Lair ---------------
 
@@ -3440,16 +2661,6 @@ Inst164Quest8_HORDE_Level = "110"
 Inst164Quest8_HORDE_Attain = "110"
 
 
-AQ_43554_Level = "110"
-AQ_44264_Level = "110"
-AQ_44265_Level = "110"
-AQ_41866_Level = "110"
-AQ_41857_Level = "110"
-AQ_39781_Level = "98"
-AQ_42454_Level = "98"
-AQ_41188_Level = "110"
-
-
 
 --------------- INST165 - The Arcway ---------------
 
@@ -3501,14 +2712,6 @@ Inst165Quest5_HORDE_Attain = "110"
 Inst165Quest6_HORDE_QuestID = "42491"
 Inst165Quest6_HORDE_Level = "113"
 Inst165Quest6_HORDE_Attain = "110"
-
-
-AQ_44263_Level = "110"
-AQ_43637_Level = "110"
-AQ_43638_Level = "110"
-AQ_43641_Level = "110"
-AQ_42490_Level = "113"
-AQ_42491_Level = "113"
 
 
 
@@ -3612,19 +2815,6 @@ Inst166Quest12_HORDE_Level = "110"
 Inst166Quest12_HORDE_Attain = "110"
 
 
-AQ_43556_Level = "110"
-AQ_44260_Level = "110"
-AQ_44261_Level = "110"
-AQ_42926_Level = "110"
-AQ_44486_Level = "110"
-AQ_39341_Level = "110"
-AQ_39343_Level = "110"
-AQ_42922_Level = "110"
-AQ_42494_Level = "110"
-AQ_42521_Level = "110"
-AQ_41630_Level = "98"
-
-
 
 --------------- INST167 - The Emerald Nightmare ---------------
 
@@ -3660,12 +2850,6 @@ Inst167Quest3_HORDE_Attain = "110"
 Inst167Quest4_HORDE_QuestID = "43362"
 Inst167Quest4_HORDE_Level = "110"
 Inst167Quest4_HORDE_Attain = "110"
-
-
-AQ_44283_Level = "110"
-AQ_44284_Level = "110"
-AQ_44285_Level = "110"
-AQ_43362_Level = "110"
 
 
 
@@ -3778,23 +2962,7 @@ Inst168Quest13_HORDE_Attain = "110"
 
 
 
-AQ_44934_Level = "110"
-AQ_44932_Level = "110"
-AQ_44937_Level = "110"
-AQ_44935_Level = "110"
-AQ_44938_Level = "110"
-AQ_44939_Level = "110"
-AQ_44936_Level = "110"
-AQ_44933_Level = "110"
-AQ_45352_Level = "110"
-AQ_45381_Level = "110"
-AQ_45382_Level = "110"
-AQ_45383_Level = "110"
-AQ_45159_Level = "110"
-
-
-
---------------- INST169 - Karazhan (Legion) ---------------
+--------------- INST169 - Return to Karazhan (Legion) ---------------
 
 Inst169Quest1_QuestID = "44735"
 Inst169Quest1_Level = "110"
@@ -3879,19 +3047,6 @@ Inst169Quest10_HORDE_Attain = "110"
 
 
 
-AQ_44735_Level = "110"
-AQ_44734_Level = "110"
-AQ_45291_Level = "110"
-AQ_45292_Level = "110"
-AQ_45293_Level = "110"
-AQ_45294_Level = "110"
-AQ_45295_Level = "110"
-AQ_45296_Level = "110"
-AQ_44917_Level = "110"
-AQ_45238_Level = "110"
-
-
-
 --------------- INST170 - Trial of Valor ---------------
 
 Inst170Quest1_QuestID = "44729"
@@ -3918,12 +3073,6 @@ Inst170Quest2_HORDE_Attain = "110"
 Inst170Quest3_HORDE_QuestID = "45088"
 Inst170Quest3_HORDE_Level = "110"
 Inst170Quest3_HORDE_Attain = "110"
-
-
-
-AQ_44729_Level = "110"
-AQ_44868_Level = "110"
-AQ_45088_Level = "110"
 
 
 
@@ -3988,17 +3137,6 @@ Inst171Quest7_HORDE_Attain = "110"
 
 
 
-AQ_46508_Level = "110"
-AQ_46506_Level = "110"
-AQ_46505_Level = "110"
-AQ_46507_Level = "110"
-AQ_46805_Level = "110"
-AQ_46253_Level = "110"
-AQ_47114_Level = "110"
-
-
-
-
 --------------- INST172 - Cathedral of Eternal Night ---------------
 
 Inst172Quest1_QuestID = "46244"
@@ -4009,9 +3147,6 @@ Inst172Quest1_Attain = "110"
 Inst172Quest1_HORDE_QuestID = "46244"
 Inst172Quest1_HORDE_Level = "110"
 Inst172Quest1_HORDE_Attain = "110"
-
-
-AQ_46244_Level = "110"
 
 
 
@@ -4036,9 +3171,6 @@ Inst125Quest1_QuestID = "30567"
 Inst125Quest1_HORDE_QuestID = "30567"
 
 
-AQ_30567_Level = "90"
-
-
 
 --------------- INST126 - Arena of Annihilation ---------------
 
@@ -4047,18 +3179,12 @@ Inst126Quest1_QuestID = "31207"
 Inst126Quest1_HORDE_QuestID = "31207"
 
 
-AQ_31207_Level = "90"
-
-
 
 --------------- INST127 - Brewmoon Festival ---------------
 
 Inst127Quest1_QuestID = "31611"
 
 Inst127Quest1_HORDE_QuestID = "31611"
-
-
-AQ_31611_Level = "90"
 
 
 
@@ -4072,9 +3198,6 @@ Inst129Quest1_QuestID = "31613"
 Inst129Quest1_HORDE_QuestID = "31613"
 
 
-AQ_31613_Level = "90"
-
-
 
 --------------- INST130 - Theramore's Fall ---------------
 
@@ -4084,9 +3207,6 @@ AQ_31613_Level = "90"
 Inst131Quest1_QuestID = "31658"
 
 Inst131Quest1_HORDE_QuestID = "31658"
-
-
-AQ_31658_Level = "90"
 
 
 
@@ -4107,16 +3227,10 @@ AQ_31658_Level = "90"
 Inst136Quest1_QuestID = "32248"
 
 
-AQ_32248_Level = "90"
-
-
 
 --------------- INST137 - Dagger in the Dark ---------------
 
 Inst137Quest1_HORDE_QuestID = "32251"
-
-
-AQ_32251_Level = "90"
 
 
 
@@ -4180,40 +3294,6 @@ Inst33Quest15_HORDE_QuestID = "6826"
 Inst33Quest16_HORDE_QuestID = "6827"
 
 
-AQ_7162_Level = "-1"
-AQ_7141_Level = "-1"
-AQ_7121_Level = "-1"
-AQ_6982_Level = "-1"
-AQ_5892_Level = "-1"
-AQ_7223_Level = "-1"
-AQ_7122_Level = "-1"
-AQ_7102_Level = "-1"
-AQ_7081_Level = "-1"
-AQ_7027_Level = "-1"
-AQ_7026_Level = "-1"
-AQ_7386_Level = "-1"
-AQ_6881_Level = "-1"
-AQ_6942_Level = "-1"
-AQ_6941_Level = "-1"
-AQ_6943_Level = "-1"
-AQ_7161_Level = "-1"
-AQ_7142_Level = "-1"
-AQ_7123_Level = "-1"
-AQ_5893_Level = "-1"
-AQ_6985_Level = "-1"
-AQ_7224_Level = "-1"
-AQ_7124_Level = "-1"
-AQ_7101_Level = "-1"
-AQ_7082_Level = "-1"
-AQ_7001_Level = "-1"
-AQ_7002_Level = "-1"
-AQ_7385_Level = "-1"
-AQ_6801_Level = "-1"
-AQ_6825_Level = "-1"
-AQ_6826_Level = "-1"
-AQ_6827_Level = "-1"
-
-
 
 --------------- INST34 - Arathi Basin (AB) ---------------
 
@@ -4224,14 +3304,6 @@ Inst34Quest3_QuestID = "8115"
 Inst34Quest1_HORDE_QuestID = "8120"
 Inst34Quest2_HORDE_QuestID = "8121"
 Inst34Quest3_HORDE_QuestID = "8122"
-
-
-AQ_8105_Level = "55"
-AQ_8114_Level = "60"
-AQ_8115_Level = "60"
-AQ_8120_Level = "55"
-AQ_8121_Level = "60"
-AQ_8122_Level = "60"
 
 
 
@@ -4316,18 +3388,4 @@ Inst66Quest11_HORDE_QuestID = "11029"
 Inst66Quest12_HORDE_QuestID = "11885"
 Inst66Quest13_HORDE_QuestID = "11073"
 
-
-AQ_11098_Level = "70"
-AQ_11008_Level = "70"
-AQ_11085_Level = "70"
-AQ_11093_Level = "70"
-AQ_11004_Level = "70"
-AQ_11005_Level = "70"
-AQ_11021_Level = "70"
-AQ_11024_Level = "70"
-AQ_11028_Level = "70"
-AQ_11056_Level = "70"
-AQ_11029_Level = "70"
-AQ_11885_Level = "70"
-AQ_11073_Level = "70"
 

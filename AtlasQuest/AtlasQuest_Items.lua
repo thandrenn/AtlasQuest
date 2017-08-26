@@ -7941,6 +7941,21 @@ Inst158Quest10ITC1 = Itemc5;
 Inst158Quest10description1 = AQITEM_ITEM
 Inst158Quest10ID1 = "142455"
 
+--Quest 11 Alliance
+Inst158Quest11Rewardtext = AQNoReward
+
+--Quest 12 Alliance
+Inst158Quest12Rewardtext = AQNoReward
+
+--Quest 13 Alliance
+Inst158Quest13Rewardtext = AQNoReward
+
+--Quest 14 Alliance
+Inst158Quest14Rewardtext = AQNoReward
+
+--Quest 15 Alliance
+Inst158Quest15Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst158Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -7987,6 +8002,21 @@ Inst158Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst158Quest10ITC1_HORDE = Itemc5;
 Inst158Quest10description1_HORDE = AQITEM_ITEM
 Inst158Quest10ID1_HORDE = "142455"
+
+--Quest 11 Horde
+Inst158Quest11Rewardtext_HORDE = AQNoReward
+
+--Quest 12 Horde
+Inst158Quest12Rewardtext_HORDE = AQNoReward
+
+--Quest 13 Horde
+Inst158Quest13Rewardtext_HORDE = AQNoReward
+
+--Quest 14 Horde
+Inst158Quest14Rewardtext_HORDE = AQNoReward
+
+--Quest 15 Horde
+Inst158Quest15Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8134,6 +8164,18 @@ Inst160Quest11ITC1 = Itemc5;
 Inst160Quest11description1 = AQITEM_ITEM
 Inst160Quest11ID1 = "131732"
 
+--Quest 12 Alliance
+Inst160Quest12Rewardtext = AQNoReward
+
+--Quest 13 Alliance
+Inst160Quest13Rewardtext = AQNoReward
+
+--Quest 14 Alliance
+Inst160Quest14Rewardtext = AQNoReward
+
+--Quest 15 Alliance
+Inst160Quest15Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst160Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8188,6 +8230,18 @@ Inst160Quest11ITC1_HORDE = Itemc5;
 Inst160Quest11description1_HORDE = AQITEM_ITEM
 Inst160Quest11ID1_HORDE = "131732"
 
+--Quest 12 Horde
+Inst160Quest12Rewardtext_HORDE = AQNoReward
+
+--Quest 13 Horde
+Inst160Quest13Rewardtext_HORDE = AQNoReward
+
+--Quest 14 Horde
+Inst160Quest14Rewardtext_HORDE = AQNoReward
+
+--Quest 15 Horde
+Inst160Quest15Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST161 - Eye of Azshara ---------------
@@ -8226,6 +8280,27 @@ Inst161Quest9Rewardtext = AQNoReward
 --Quest 10 Alliance
 Inst161Quest10Rewardtext = AQNoReward
 
+--Quest 11 Alliance
+Inst161Quest11Rewardtext = AQNoReward
+
+--Quest 12 Alliance
+Inst161Quest12Rewardtext = AQNoReward
+
+--Quest 13 Alliance
+Inst161Quest13Rewardtext = AQNoReward
+
+--Quest 14 Alliance
+Inst161Quest14Rewardtext = AQNoReward
+
+--Quest 15 Alliance
+Inst161Quest15Rewardtext = AQNoReward
+
+--Quest 16 Alliance
+Inst161Quest16Rewardtext = AQNoReward
+
+--Quest 17 Alliance
+Inst161Quest17Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst161Quest1Rewardtext_HORDE = AQNoReward
@@ -8260,6 +8335,27 @@ Inst161Quest9Rewardtext_HORDE = AQNoReward
 
 --Quest 10 Horde
 Inst161Quest10Rewardtext_HORDE = AQNoReward
+
+--Quest 11 Horde
+Inst161Quest11Rewardtext_HORDE = AQNoReward
+
+--Quest 12 Horde
+Inst161Quest12Rewardtext_HORDE = AQNoReward
+
+--Quest 13 Horde
+Inst161Quest13Rewardtext_HORDE = AQNoReward
+
+--Quest 14 Horde
+Inst161Quest14Rewardtext_HORDE = AQNoReward
+
+--Quest 15 Horde
+Inst161Quest15Rewardtext_HORDE = AQNoReward
+
+--Quest 16 Horde
+Inst161Quest16Rewardtext_HORDE = AQNoReward
+
+--Quest 17 Horde
+Inst161Quest17Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8329,6 +8425,24 @@ Inst162Quest15Rewardtext = AQNoReward
 --Quest 16 Alliance
 Inst162Quest16Rewardtext = AQNoReward
 
+--Quest 17 Alliance
+Inst162Quest17Rewardtext = AQNoReward
+
+--Quest 18 Alliance
+Inst162Quest18Rewardtext = AQNoReward
+
+--Quest 19 Alliance
+Inst162Quest19Rewardtext = AQNoReward
+
+--Quest 20 Alliance
+Inst162Quest20Rewardtext = AQNoReward
+
+--Quest 21 Alliance
+Inst162Quest21Rewardtext = AQNoReward
+
+--Quest 22 Alliance
+Inst162Quest22Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst162Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8393,6 +8507,24 @@ Inst162Quest15Rewardtext_HORDE = AQNoReward
 
 --Quest 16 Horde
 Inst162Quest16Rewardtext_HORDE = AQNoReward
+
+--Quest 17 Horde
+Inst162Quest17Rewardtext_HORDE = AQNoReward
+
+--Quest 18 Horde
+Inst162Quest18Rewardtext_HORDE = AQNoReward
+
+--Quest 19 Horde
+Inst162Quest19Rewardtext_HORDE = AQNoReward
+
+--Quest 20 Horde
+Inst162Quest20Rewardtext_HORDE = AQNoReward
+
+--Quest 21 Horde
+Inst162Quest21Rewardtext_HORDE = AQNoReward
+
+--Quest 22 Horde
+Inst162Quest22Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8888,7 +9020,7 @@ Inst168Quest13Rewardtext_HORDE = AQNoReward
 
 
 
---------------- INST169 - Karazhan (Legion) ---------------
+--------------- INST169 - Return to Karazhan (Legion) ---------------
 
 --Quest 1 Alliance
 Inst169Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"

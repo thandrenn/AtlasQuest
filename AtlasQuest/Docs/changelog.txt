@@ -4,10 +4,36 @@ Changelog
 
 Version 4.10.32  (August ??, 2017)
 
-- Added quests: 
-	- Darkheart Thicket: Through the Fog
-	- Assault on Violet Hold: The Fel Lexicon
+- TOC file updated for Patch 7.3.
 
+- Fixed quests not showing for The Deadmines, Scarlet Halls, Scarlet Monastery, Shadowfang Keep and Scholomance. 
+
+- Added quests: 
+	- Assault on Violet Hold: The Fel Lexicon
+	- Black Rook Hold: Heavy, But Helpful
+	- Black Rook Hold: The Raven's Wisdom
+	- Black Rook Hold: Lord Ravencrest
+	- Black Rook Hold: Into Black Rook Hold
+	- Black Rook Hold: An Unclaimed Soul
+	- Darkheart Thicket: Through the Fog
+	- Darkheart Thicket: Demons Be Different
+	- Darkheart Thicket: The Nightmare Lash
+	- Darkheart Thicket: Essence of Regrowth
+	- Darkheart Thicket: Nightmare Oak
+	- Eye of Azshara: Put a Cork in It
+	- Eye of Azshara: Scales of the Sea
+	- Eye of Azshara: The Scales of Serpentrix
+	- Eye of Azshara: The Frozen Soul
+	- Eye of Azshara: Essence of Balance
+	- Eye of Azshara: A Magical Affliction
+	- Eye of Azshara: The Scepter of Storms
+	- Halls of Valor: The Prime Ingredient
+	- Halls of Valor: Vision of Valor
+	- Halls of Valor: Jewel of the Heavens
+	- Halls of Valor: The Hide of Fenryr
+	- Halls of Valor: The Right Question
+	- Halls of Valor: Essence of Ferocity
+	- 
 
 
 
