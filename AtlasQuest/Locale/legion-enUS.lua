@@ -805,7 +805,7 @@ Inst160Quest13PreQuest = "true"
 Inst160Quest14 = "14. Darkheart Thicket: Essence of Regrowth"
 Inst160Quest14_Aim = "Collect 1 Essence of Regrowth from Oakheart in Darkheart Thicket, then defeat the Shade of Xavius."
 Inst160Quest14_Location = "Glimmer of Aessina (The Emerald Dreamway; "..YELLOW.."40.8, 58.6"..WHITE..")"
-Inst160Quest14_Note = "Druid campaign.  Normal or Heroic difficulty.  The Essence of Regrowth drops from the second boss, Oakheart.  Then defeat the Shade of Xavius to complete the quest.  Turn the quest in to Keeper Remulos at Val'sharah - The Dreamgrove; "..YELLOW.."44.8, 50.6"..WHITE.."."
+Inst160Quest14_Note = "Druid campaign.  Normal or Heroic difficulty.  The Essence of Regrowth drops from the second boss, Oakheart.  Then defeat the Shade of Xavius to complete the quest.  Turn the quest in to Keeper Remulos at The Dreamgrove; "..YELLOW.."44.8, 50.6"..WHITE.."."
 Inst160Quest14_Prequest = "None"
 Inst160Quest14_Folgequest = "None"
 -- No Rewards for this quest
@@ -1524,7 +1524,7 @@ Inst162Quest21PreQuest = "true"
 Inst162Quest22 = "22. Halls of Valor: Essence of Ferocity"
 Inst162Quest22_Aim = "Collect 1 Essence of Ferocity from Fenryr in the Halls of Valor, then prove your worth to Odyn."
 Inst162Quest22_Location = "Echo of Ashamane (Emerald Dreamway; "..YELLOW.."31.2, 36.8"..WHITE..")"
-Inst162Quest22_Note = "Druid quest.  Normal or Heroic difficulty.  Fenryr is the third boss.  Finish the dungeon to complete the quest.   Turn the quest in to Keeper Remulos at Val'sharah - The Dreamgrove; "..YELLOW.."44.8, 50.6"..WHITE.."."
+Inst162Quest22_Note = "Druid quest.  Normal or Heroic difficulty.  Fenryr is the third boss.  Finish the dungeon to complete the quest.   Turn the quest in to Keeper Remulos at The Dreamgrove; "..YELLOW.."44.8, 50.6"..WHITE.."."
 Inst162Quest22_Prequest = "None"
 Inst162Quest22_Folgequest = "None"
 -- No Rewards for this quest
@@ -1748,8 +1748,8 @@ Inst162Quest22_HORDE_Folgequest = Inst162Quest22_Folgequest
 --------------- INST163 - Maw of Souls ---------------
 
 Inst163Caption = "Maw of Souls"
-Inst163QAA = "10 Quests"
-Inst163QAH = "10 Quests"
+Inst163QAA = "14 Quests"
+Inst163QAH = "14 Quests"
 
 --Quest 1 Alliance
 Inst163Quest1 = "1. Maw of Souls"
@@ -1845,6 +1845,46 @@ Inst163Quest10_Note = "Helya is the final boss in Maw of Souls, located at "..YE
 Inst163Quest10_Prequest = "None"
 Inst163Quest10_Folgequest = "None"
 -- Reward varies for each class
+
+--Quest 11 Alliance
+Inst163Quest11 = "11. Maw of Souls: A Hope in Helheim"
+Inst163Quest11_Aim = "Retrieve a crate of Dragur Dust from Heroic: Maw of Souls, craft a Flask of the Seventh Demon and return both items to Alard in Dalaran."
+Inst163Quest11_Location = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")"
+Inst163Quest11_Note = "Alchemy quest.  Requires Heroic difficulty.  The crate of Dragur Dust drops from the final boss."
+Inst163Quest11_Prequest = "Halls of Valor: The Prime Ingredient"
+Inst163Quest11_Folgequest = "Black Rook Hold: Heavy, But Helpful"
+Inst163Quest11PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst163Quest12 = "12. Maw of Souls: Hammered By The Storm"
+Inst163Quest12_Aim = "Go to the Maw of Souls and recover an Ancient Vrykul Hammer."
+Inst163Quest12_Location = "Barm Stonebreaker (Highmountain; "..YELLOW.."55.2, 84.2"..WHITE..")"
+Inst163Quest12_Note = "Blacksmithing quest.  Normal or Heroic difficulty.  The Ancient Vrykul Hammer drops from the final boss."
+Inst163Quest12_Prequest = "Leystone Mastery"
+Inst163Quest12_Folgequest = "Worthy of the Stone"
+Inst163Quest12PreQuest = "true"
+--
+Inst163Quest12name1 = "Brumdysla, Hammer of Vrorsk"
+
+--Quest 13 Alliance
+Inst163Quest13 = "13. Maw of Souls: Spiriting Away"
+Inst163Quest13_Aim = "Go to the Maw of Souls and bring back the Ring of the Fallen to Timothy Jones in Dalaran."
+Inst163Quest13_Location = "Timothy Jones (Dalaran; "..YELLOW.."39.8, 35.0"..WHITE..")"
+Inst163Quest13_Note = "Jewelcrafting quest.  Normal or Heroic difficulty.  The Ring of the Fallen is in a crate under the stairs before the second boss.  Finish the dungeon to complete teh quest."
+Inst163Quest13_Prequest = "None"
+Inst163Quest13_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst163Quest14 = "14. Maw of Souls: Maul of the Dead"
+Inst163Quest14_Aim = "Retrieve the Maul of the Dead from Helheim."
+Inst163Quest14_Location = "Salanar the Horseman (Ebon Hold; "..YELLOW.."98.8, 59.2"..WHITE..")"
+Inst163Quest14_Note = "Death Knight quest.  Normal or Heroic difficulty.  The Maul of the Dead will be in the crate that drops after defeating the final boss."
+Inst163Quest14_Prequest = "Champion: Amal'thazad"
+Inst163Quest14_Folgequest = "The Fourth Horseman"
+Inst163Quest14PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1942,13 +1982,53 @@ Inst163Quest10_HORDE_Prequest = Inst163Quest10_Prequest
 Inst163Quest10_HORDE_Folgequest = Inst163Quest10_Folgequest
 -- Reward varies for each class
 
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst163Quest11_HORDE = Inst163Quest11
+Inst163Quest11_HORDE_Aim = Inst163Quest11_Aim
+Inst163Quest11_HORDE_Location = Inst163Quest11_Location
+Inst163Quest11_HORDE_Note = Inst163Quest11_Note
+Inst163Quest11_HORDE_Prequest = Inst163Quest11_Prequest
+Inst163Quest11_HORDE_Folgequest = Inst163Quest11_Folgequest
+Inst163Quest11PreQuest_HORDE = Inst163Quest11PreQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst163Quest12_HORDE = Inst163Quest12
+Inst163Quest12_HORDE_Aim = Inst163Quest12_Aim
+Inst163Quest12_HORDE_Location = Inst163Quest12_Location
+Inst163Quest12_HORDE_Note = Inst163Quest12_Note
+Inst163Quest12_HORDE_Prequest = Inst163Quest12_Prequest
+Inst163Quest12_HORDE_Folgequest = Inst163Quest12_Folgequest
+Inst163Quest12PreQuest_HORDE = Inst163Quest12PreQuest
+--
+Inst163Quest12name1_HORDE = Inst163Quest12name1
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst163Quest13_HORDE = Inst163Quest13
+Inst163Quest13_HORDE_Aim = Inst163Quest13_Aim
+Inst163Quest13_HORDE_Location = Inst163Quest13_Location
+Inst163Quest13_HORDE_Note = Inst163Quest13_Note
+Inst163Quest13_HORDE_Prequest = Inst163Quest13_Prequest
+Inst163Quest13_HORDE_Folgequest = Inst163Quest13_Folgequest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst163Quest14_HORDE = Inst163Quest14
+Inst163Quest14_HORDE_Aim = Inst163Quest14_Aim
+Inst163Quest14_HORDE_Location = Inst163Quest14_Location
+Inst163Quest14_HORDE_Note = Inst163Quest14_Note
+Inst163Quest14_HORDE_Prequest = Inst163Quest14_Prequest
+Inst163Quest14_HORDE_Folgequest = Inst163Quest14_Folgequest
+Inst163Quest14PreQuest_HORDE = Inst163Quest14PreQuest
+-- No Rewards for this quest
+
 
 
 --------------- INST164 - Neltharion's Lair ---------------
 
 Inst164Caption = "Neltharion's Lair"
-Inst164QAA = "8 Quests"
-Inst164QAH = "8 Quests"
+Inst164QAA = "13 Quests"
+Inst164QAH = "13 Quests"
 
 --Quest 1 Alliance
 Inst164Quest1 = "1. Neltharion's Lair"
@@ -2030,6 +2110,55 @@ Inst164Quest8FQuest = "true"
 --
 Inst164Quest8name1 = "Spear of Rethu"
 
+--Quest 9 Alliance
+Inst164Quest9 = "9. Neltharion's Lair: Rod of Azure"
+Inst164Quest9_Aim = "Retrieve a Skystone Rod from Dargrul the Underking in Neltharion's Lair, a Radiant Zephyrite from Ozruk in The Stonecore and a pile of Ancient Arkhana from Scholomance."
+Inst164Quest9_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
+Inst164Quest9_Note = "Enchanting quest.  Normal or Heroic difficulty.  The Skystone Rod drops from the final boss in the dungeon.  The other two items drop from The Stonecore and Scholomance dungeons."
+Inst164Quest9_Prequest = "On Azure Wings"
+Inst164Quest9_Folgequest = "Down to the Core"
+Inst164Quest9PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 10 Alliance
+Inst164Quest10 = "10. Neltharion's Lair: Potent Powder"
+Inst164Quest10_Aim = "Acquire Precipitating Powder in Neltharion's Lair and bring it to Deucus Valdera in Dalaran."
+Inst164Quest10_Location = "Deucus Valdera (Dalaran; "..YELLOW.."41.6, 32.8"..WHITE..")"
+Inst164Quest10_Note = "Alchemy quest.  Normal or Heroic difficulty.  The Precipitating Powder is on a table after the second boss.  Finish the dungeon to complete the quest."
+Inst164Quest10_Prequest = "Thanks for Flasking"
+Inst164Quest10_Folgequest = "We Need More Powder!"
+Inst164Quest10PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 11 Alliance
+Inst164Quest11 = "11. Neltharion's Lair: Braid of the Underking"
+Inst164Quest11_Aim = "Retrieve the Braid of the Underking from Neltharion's Lair."
+Inst164Quest11_Location = "Salanar the Horseman (Ebon Hold; "..YELLOW.."98.8, 59.2"..WHITE..")"
+Inst164Quest11_Note = "Death Knight quest.  Normal or Heroic difficulty.  The Braid of the Underking drops from the final boss."
+Inst164Quest11_Prequest = "Knights of the Ebon Blade"
+Inst164Quest11_Folgequest = "Darkheart Thicket: The Nightmare Lash"
+Inst164Quest11PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst164Quest12 = "12. Neltharion's Lair: Essence of Tenacity"
+Inst164Quest12_Aim = "Collect 1 Essence of Tenacity from Rokmora in Neltharion's Lair, then slay Dar'grul the Underking."
+Inst164Quest12_Location = "Son of Ursoc (Emerald Dreamway; "..YELLOW.."34.4, 62.0"..WHITE..")"
+Inst164Quest12_Note = "Druid quest.  Normal or Heroic difficulty.  The Essence of Tenacity drops from the first boss.  Finish the dungeon to complete the quest.   Turn the quest in to Keeper Remulos at The Dreamgrove; "..YELLOW.."44.8, 50.6"..WHITE.."."
+Inst164Quest12_Prequest = "None"
+Inst164Quest12_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 13 Alliance
+Inst164Quest13 = "13. Neltharion's Lair: The Earthen Amulet"
+Inst164Quest13_Aim = "Retrieve the Earthen Amulet from Dargrul the Underking in Neltharion's Lair."
+Inst164Quest13_Location = "Elementalist Janai (The Maelstrom; "..YELLOW.."29.4, 77.4"..WHITE..")"
+Inst164Quest13_Note = "Shaman quest.  Normal or Heroic difficulty.  The Earthen Amulet drops from the final boss."
+Inst164Quest13_Prequest = "Return to Janai"
+Inst164Quest13_Folgequest = "The Firelord's Command"
+Inst164Quest13PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst164Quest1_HORDE = Inst164Quest1
@@ -2109,6 +2238,55 @@ Inst164Quest8_HORDE_Folgequest = Inst164Quest8_Folgequest
 Inst164Quest8PreQuest_HORDE = Inst164Quest8PreQuest
 --
 Inst164Quest8name1_HORDE = Inst164Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst164Quest9_HORDE = Inst164Quest9
+Inst164Quest9_HORDE_Aim = Inst164Quest9_Aim
+Inst164Quest9_HORDE_Location = Inst164Quest9_Location
+Inst164Quest9_HORDE_Note = Inst164Quest9_Note
+Inst164Quest9_HORDE_Prequest = Inst164Quest9_Prequest
+Inst164Quest9_HORDE_Folgequest = Inst164Quest9_Folgequest
+Inst164Quest9PreQuest_HORDE = Inst164Quest9PreQuest
+-- No Rewards for this quest
+
+--Quest 10 Horde  (same as Quest 10 Alliance)
+Inst164Quest10_HORDE = Inst164Quest10
+Inst164Quest10_HORDE_Aim = Inst164Quest10_Aim
+Inst164Quest10_HORDE_Location = Inst164Quest10_Location
+Inst164Quest10_HORDE_Note = Inst164Quest10_Note
+Inst164Quest10_HORDE_Prequest = Inst164Quest10_Prequest
+Inst164Quest10_HORDE_Folgequest = Inst164Quest10_Folgequest
+Inst164Quest10PreQuest_HORDE = Inst164Quest10PreQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst164Quest11_HORDE = Inst164Quest11
+Inst164Quest11_HORDE_Aim = Inst164Quest11_Aim
+Inst164Quest11_HORDE_Location = Inst164Quest11_Location
+Inst164Quest11_HORDE_Note = Inst164Quest11_Note
+Inst164Quest11_HORDE_Prequest = Inst164Quest11_Prequest
+Inst164Quest11_HORDE_Folgequest = Inst164Quest11_Folgequest
+Inst164Quest11PreQuest_HORDE = Inst164Quest11PreQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst164Quest12_HORDE = Inst164Quest12
+Inst164Quest12_HORDE_Aim = Inst164Quest12_Aim
+Inst164Quest12_HORDE_Location = Inst164Quest12_Location
+Inst164Quest12_HORDE_Note = Inst164Quest12_Note
+Inst164Quest12_HORDE_Prequest = Inst164Quest12_Prequest
+Inst164Quest12_HORDE_Folgequest = Inst164Quest12_Folgequest
+-- No Rewards for this quest
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst164Quest13_HORDE = Inst164Quest13
+Inst164Quest13_HORDE_Aim = Inst164Quest13_Aim
+Inst164Quest13_HORDE_Location = Inst164Quest13_Location
+Inst164Quest13_HORDE_Note = Inst164Quest13_Note
+Inst164Quest13_HORDE_Prequest = Inst164Quest13_Prequest
+Inst164Quest13_HORDE_Folgequest = Inst164Quest13_Folgequest
+Inst164Quest13PreQuest_HORDE = Inst164Quest13PreQuest
+-- No Rewards for this quest
 
 
 
@@ -2240,8 +2418,8 @@ Inst165Quest6PreQuest_HORDE = Inst165Quest6PreQuest
 --------------- INST166 - Vault of the Wardens ---------------
 
 Inst166Caption = "Vault of the Wardens"
-Inst166QAA = "12 Quests"
-Inst166QAH = "12 Quests"
+Inst166QAA = "15 Quests"
+Inst166QAH = "15 Quests"
 
 --Quest 1 Alliance
 Inst166Quest1 = "1. Vault of the Wardens"
@@ -2359,6 +2537,36 @@ Inst166Quest12PreQuest = "true"
 --
 Inst166Quest12name1 = "Demonic Command Shards"
 
+--Quest 13 Alliance
+Inst166Quest13 = "13. Vault of the Wardens: A Masterpiece of Flesh"
+Inst166Quest13_Aim = "Retrieve the Beating Fel-Heart and Demonic Entrails from Vault of the Wardens."
+Inst166Quest13_Location = "Lord Thorval (Icecrown Citadel; "..YELLOW..""..WHITE..")"
+Inst166Quest13_Note = "Death Knight quest.  Normal or Heroic difficulty.  All items drop from bosses in Vault of the Wardens."
+Inst166Quest13_Prequest = "A Thirst For Blood"
+Inst166Quest13_Folgequest = "Champion: Rottgut"
+Inst166Quest13PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 14 Alliance
+Inst166Quest14 = "14. Vault of the Wardens: Vault Break-In"
+Inst166Quest14_Aim = "Retrieve the Sargerite Keystone."
+Inst166Quest14_Location = "Belath Dawnblade (Mardum, the Shattered Abyss; "..YELLOW.."57.6, 53.4"..WHITE..")"
+Inst166Quest14_Note = "Demon Hunter quest.  Normal or Heroic difficulty.  The Sargerite Keystone drops from the final boss."
+Inst166Quest14_Prequest = "Strange Bedfellows"
+Inst166Quest14_Folgequest = "The Crux of the Plan"
+Inst166Quest14PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 15 Alliance
+Inst166Quest15 = "15. Vault of the Wardens: Matters of the Heart"
+Inst166Quest15_Aim = "Collect a Felsworn Heart from Cordana within The Vault of the Wardens dungeon."
+Inst166Quest15_Location = "Kira Iresoul (Dreadscar Rift; "..YELLOW.."56.0, 35.4"..WHITE..")"
+Inst166Quest15_Note = "Warlock quest.  Normal or Heroic.  The Felsworn Heart drops from the final boss."
+Inst166Quest15_Prequest = "Unparalleled Power"
+Inst166Quest15_Folgequest = "Let it Feed"
+Inst166Quest15PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst166Quest1_HORDE = Inst166Quest1
@@ -2475,6 +2683,36 @@ Inst166Quest12_HORDE_Folgequest = Inst166Quest12_Folgequest
 Inst166Quest12PreQuest_HORDE = Inst166Quest12PreQuest
 --
 Inst166Quest12name1_HORDE = Inst166Quest12name1
+
+--Quest 13 Horde  (same as Quest 13 Alliance)
+Inst166Quest13_HORDE = Inst166Quest13
+Inst166Quest13_HORDE_Aim = Inst166Quest13_Aim
+Inst166Quest13_HORDE_Location = Inst166Quest13_Location
+Inst166Quest13_HORDE_Note = Inst166Quest13_Note
+Inst166Quest13_HORDE_Prequest = Inst166Quest13_Prequest
+Inst166Quest13_HORDE_Folgequest = Inst166Quest13_Folgequest
+Inst166Quest13PreQuest_HORDE = Inst166Quest13PreQuest
+-- No Rewards for this quest
+
+--Quest 14 Horde  (same as Quest 14 Alliance)
+Inst166Quest14_HORDE = Inst166Quest14
+Inst166Quest14_HORDE_Aim = Inst166Quest14_Aim
+Inst166Quest14_HORDE_Location = Inst166Quest14_Location
+Inst166Quest14_HORDE_Note = Inst166Quest14_Note
+Inst166Quest14_HORDE_Prequest = Inst166Quest14_Prequest
+Inst166Quest14_HORDE_Folgequest = Inst166Quest14_Folgequest
+Inst166Quest14PreQuest_HORDE = Inst166Quest14PreQuest
+-- No Rewards for this quest
+
+--Quest 15 Horde  (same as Quest 15 Alliance)
+Inst166Quest15_HORDE = Inst166Quest15
+Inst166Quest15_HORDE_Aim = Inst166Quest15_Aim
+Inst166Quest15_HORDE_Location = Inst166Quest15_Location
+Inst166Quest15_HORDE_Note = Inst166Quest15_Note
+Inst166Quest15_HORDE_Prequest = Inst166Quest15_Prequest
+Inst166Quest15_HORDE_Folgequest = Inst166Quest15_Folgequest
+Inst166Quest15PreQuest_HORDE = Inst166Quest15PreQuest
+-- No Rewards for this quest
 
 
 
@@ -2815,8 +3053,8 @@ Inst168Quest13_HORDE_Folgequest = Inst168Quest13_Folgequest
 --------------- INST169 - Return to Karazhan (Legion) ---------------
 
 Inst169Caption = "Return to Karazhan"
-Inst169QAA = "10 Quests"
-Inst169QAH = "10 Quests"
+Inst169QAA = "12 Quests"
+Inst169QAH = "12 Quests"
 
 --Quest 1 Alliance
 Inst169Quest1 = "1. In the Eye of the Beholder"
@@ -2920,6 +3158,25 @@ Inst169Quest10_Folgequest = "Cubic Coalescing"
 Inst169Quest10PreQuest = "true"
 -- No Rewards for this quest
 
+--Quest 11 Alliance
+Inst169Quest11 = "11. Return to Karazhan: Scales of Legend"
+Inst169Quest11_Aim = "Obtain the Scale of Netherspite from Karazhan, the Scale of Sartharion from the Obsidian Sanctum, and the Scales of Garalon from the Heart of Fear."
+Inst169Quest11_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst169Quest11_Note = "Skinning quest.  The Scale of Netherspite drops from Netherspite.  The other two quest items drop from Obsidian Sanctum in Northrend and Heart of Fear in Pandaria."
+Inst169Quest11_Prequest = "Scales for Ske'rit"
+Inst169Quest11_Folgequest = "Eye of Azshara: The Scales of Serpentrix"
+Inst169Quest11PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst169Quest12 = "12. Return to Karazhan: The Big Bag Theory"
+Inst169Quest12_Aim = "Recover a Bag of a Thousand Pockets and a Fel Sinew Bag from Karazhan."
+Inst169Quest12_Location = "Leyweaver Tytallo (Suramar; "..YELLOW.."40.4, 69.4"..WHITE..")"
+Inst169Quest12_Note = "Tailoring quest.  The Bag of a Thousand Pockets drops from Moroes and the Fel Sinew Bag from Viz'aduum the Watcher."
+Inst169Quest12_Prequest = "None"
+Inst169Quest12_Folgequest = "None"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst169Quest1_HORDE = Inst169Quest1
@@ -3021,6 +3278,25 @@ Inst169Quest10_HORDE_Note = Inst169Quest10_Note
 Inst169Quest10_HORDE_Prequest = Inst169Quest10_Prequest
 Inst169Quest10_HORDE_Folgequest = Inst169Quest10_Folgequest
 Inst169Quest10PreQuest_HORDE = Inst169Quest10PreQuest
+-- No Rewards for this quest
+
+--Quest 11 Horde  (same as Quest 11 Alliance)
+Inst169Quest11_HORDE = Inst169Quest11
+Inst169Quest11_HORDE_Aim = Inst169Quest11_Aim
+Inst169Quest11_HORDE_Location = Inst169Quest11_Location
+Inst169Quest11_HORDE_Note = Inst169Quest11_Note
+Inst169Quest11_HORDE_Prequest = Inst169Quest11_Prequest
+Inst169Quest11_HORDE_Folgequest = Inst169Quest11_Folgequest
+Inst169Quest11PreQuest_HORDE = Inst169Quest11PreQuest
+-- No Rewards for this quest
+
+--Quest 12 Horde  (same as Quest 12 Alliance)
+Inst169Quest12_HORDE = Inst169Quest12
+Inst169Quest12_HORDE_Aim = Inst169Quest12_Aim
+Inst169Quest12_HORDE_Location = Inst169Quest12_Location
+Inst169Quest12_HORDE_Note = Inst169Quest12_Note
+Inst169Quest12_HORDE_Prequest = Inst169Quest12_Prequest
+Inst169Quest12_HORDE_Folgequest = Inst169Quest12_Folgequest
 -- No Rewards for this quest
 
 

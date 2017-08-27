@@ -2550,6 +2550,22 @@ Inst163Quest10_QuestID = "43596"
 Inst163Quest10_Level = "110"
 Inst163Quest10_Attain = "110"
 
+Inst163Quest11_QuestID = "39350"
+Inst163Quest11_Level = "110"
+Inst163Quest11_Attain = "110"
+
+Inst163Quest12_QuestID = "38532"
+Inst163Quest12_Level = "110"
+Inst163Quest12_Attain = "110"
+
+Inst163Quest13_QuestID = "40560"
+Inst163Quest13_Level = "110"
+Inst163Quest13_Attain = "110"
+
+Inst163Quest14_QuestID = "43574"
+Inst163Quest14_Level = "110"
+Inst163Quest14_Attain = "110"
+
 
 Inst163Quest1_HORDE_QuestID = "43553"
 Inst163Quest1_HORDE_Level = "110"
@@ -2591,6 +2607,22 @@ Inst163Quest10_HORDE_QuestID = "43596"
 Inst163Quest10_HORDE_Level = "110"
 Inst163Quest10_HORDE_Attain = "110"
 
+Inst163Quest11_HORDE_QuestID = "39350"
+Inst163Quest11_HORDE_Level = "110"
+Inst163Quest11_HORDE_Attain = "110"
+
+Inst163Quest12_HORDE_QuestID = "38532"
+Inst163Quest12_HORDE_Level = "110"
+Inst163Quest12_HORDE_Attain = "110"
+
+Inst163Quest13_HORDE_QuestID = "40560"
+Inst163Quest13_HORDE_Level = "110"
+Inst163Quest13_HORDE_Attain = "110"
+
+Inst163Quest14_HORDE_QuestID = "43574"
+Inst163Quest14_HORDE_Level = "110"
+Inst163Quest14_HORDE_Attain = "110"
+
 
 
 --------------- INST164 - Neltharion's Lair ---------------
@@ -2627,6 +2659,26 @@ Inst164Quest8_QuestID = "41188"
 Inst164Quest8_Level = "110"
 Inst164Quest8_Attain = "110"
 
+Inst164Quest9_QuestID = "39921"
+Inst164Quest9_Level = "110"
+Inst164Quest9_Attain = "110"
+
+Inst164Quest10_QuestID = "39335"
+Inst164Quest10_Level = "106"
+Inst164Quest10_Attain = "106"
+
+Inst164Quest11_QuestID = "43571"
+Inst164Quest11_Level = "103"
+Inst164Quest11_Attain = "103"
+
+Inst164Quest12_QuestID = "44074"
+Inst164Quest12_Level = "103"
+Inst164Quest12_Attain = "103"
+
+Inst164Quest13_QuestID = "42990"
+Inst164Quest13_Level = "110"
+Inst164Quest13_Attain = "110"
+
 
 Inst164Quest1_HORDE_QuestID = "43554"
 Inst164Quest1_HORDE_Level = "110"
@@ -2659,6 +2711,26 @@ Inst164Quest7_HORDE_Attain = "98"
 Inst164Quest8_HORDE_QuestID = "41188"
 Inst164Quest8_HORDE_Level = "110"
 Inst164Quest8_HORDE_Attain = "110"
+
+Inst164Quest9_HORDE_QuestID = "39921"
+Inst164Quest9_HORDE_Level = "110"
+Inst164Quest9_HORDE_Attain = "110"
+
+Inst164Quest10_HORDE_QuestID = "39335"
+Inst164Quest10_HORDE_Level = "106"
+Inst164Quest10_HORDE_Attain = "106"
+
+Inst164Quest11_HORDE_QuestID = "43571"
+Inst164Quest11_HORDE_Level = "103"
+Inst164Quest11_HORDE_Attain = "103"
+
+Inst164Quest12_HORDE_QuestID = "44074"
+Inst164Quest12_HORDE_Level = "103"
+Inst164Quest12_HORDE_Attain = "103"
+
+Inst164Quest13_HORDE_QuestID = "42990"
+Inst164Quest13_HORDE_Level = "110"
+Inst164Quest13_HORDE_Attain = "110"
 
 
 
@@ -2765,6 +2837,18 @@ Inst166Quest12_QuestID = "44887"
 Inst166Quest12_Level = "110"
 Inst166Quest12_Attain = "110"
 
+Inst166Quest13_QuestID = "44286"
+Inst166Quest13_Level = "110"
+Inst166Quest13_Attain = "110"
+
+Inst166Quest14_QuestID = "42752"
+Inst166Quest14_Level = "110"
+Inst166Quest14_Attain = "110"
+
+Inst166Quest15_QuestID = "42660"
+Inst166Quest15_Level = "110"
+Inst166Quest15_Attain = "110"
+
 
 Inst166Quest1_HORDE_QuestID = "43556"
 Inst166Quest1_HORDE_Level = "110"
@@ -2813,6 +2897,18 @@ Inst166Quest11_HORDE_Attain = "98"
 Inst166Quest12_HORDE_QuestID = "44887"
 Inst166Quest12_HORDE_Level = "110"
 Inst166Quest12_HORDE_Attain = "110"
+
+Inst166Quest13_HORDE_QuestID = "44286"
+Inst166Quest13_HORDE_Level = "110"
+Inst166Quest13_HORDE_Attain = "110"
+
+Inst166Quest14_HORDE_QuestID = "42752"
+Inst166Quest14_HORDE_Level = "110"
+Inst166Quest14_HORDE_Attain = "110"
+
+Inst166Quest15_HORDE_QuestID = "42660"
+Inst166Quest15_HORDE_Level = "110"
+Inst166Quest15_HORDE_Attain = "110"
 
 
 
@@ -3004,6 +3100,14 @@ Inst169Quest10_QuestID = "45238"
 Inst169Quest10_Level = "110"
 Inst169Quest10_Attain = "110"
 
+Inst169Quest11_QuestID = "40153"
+Inst169Quest11_Level = "110"
+Inst169Quest11_Attain = "110"
+
+Inst169Quest12_QuestID = "44741"
+Inst169Quest12_Level = "110"
+Inst169Quest12_Attain = "110"
+
 
 Inst169Quest1_HORDE_QuestID = "44735"
 Inst169Quest1_HORDE_Level = "110"
@@ -3044,6 +3148,14 @@ Inst169Quest9_HORDE_Attain = "110"
 Inst169Quest10_HORDE_QuestID = "45238"
 Inst169Quest10_HORDE_Level = "110"
 Inst169Quest10_HORDE_Attain = "110"
+
+Inst169Quest11_HORDE_QuestID = "40153"
+Inst169Quest11_HORDE_Level = "110"
+Inst169Quest11_HORDE_Attain = "110"
+
+Inst169Quest12_HORDE_QuestID = "44741"
+Inst169Quest12_HORDE_Level = "110"
+Inst169Quest12_HORDE_Attain = "110"
 
 
 

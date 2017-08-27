@@ -8572,6 +8572,22 @@ Inst163Quest9Rewardtext = AQDiscription_REWARD..WHITE.."250"..AQORDERRESOURCES
 --Quest 10 Alliance
 Inst163Quest10Rewardtext = AQClassRewards
 
+--Quest 11 Alliance
+Inst163Quest11Rewardtext = AQNoReward
+
+--Quest 12 Alliance
+Inst163Quest12Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst163Quest12ITC1 = Itemc2;
+Inst163Quest12description1 = AQITEM_MAINHAND
+Inst163Quest12ID1 = "136350"
+
+--Quest 13 Alliance
+Inst163Quest13Rewardtext = AQNoReward
+
+--Quest 14 Alliance
+Inst163Quest14Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst163Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8614,6 +8630,22 @@ Inst163Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."250"..AQORDERRESOU
 
 --Quest 10 Horde
 Inst163Quest10Rewardtext_HORDE = AQClassRewards
+
+--Quest 11 Horde
+Inst163Quest11Rewardtext_HORDE = AQNoReward
+
+--Quest 12 Horde
+Inst163Quest12Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst163Quest12ITC1_HORDE = Itemc2;
+Inst163Quest12description1_HORDE = AQITEM_MAINHAND
+Inst163Quest12ID1_HORDE = "136350"
+
+--Quest 13 Horde
+Inst163Quest13Rewardtext_HORDE = AQNoReward
+
+--Quest 14 Horde
+Inst163Quest14Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8663,6 +8695,21 @@ Inst164Quest8ITC1 = Itemc4;
 Inst164Quest8description1 = AQITEM_POLEARM
 Inst164Quest8ID1 = "131733"
 
+--Quest 9 Alliance
+Inst164Quest9Rewardtext = AQNoReward
+
+--Quest 10 Alliance
+Inst164Quest10Rewardtext = AQNoReward
+
+--Quest 11 Alliance
+Inst164Quest11Rewardtext = AQNoReward
+
+--Quest 12 Alliance
+Inst164Quest12Rewardtext = AQNoReward
+
+--Quest 13 Alliance
+Inst164Quest13Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst164Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8707,6 +8754,21 @@ Inst164Quest8Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst164Quest8ITC1_HORDE = Itemc4;
 Inst164Quest8description1_HORDE = AQITEM_POLEARM
 Inst164Quest8ID1_HORDE = "131733"
+
+--Quest 9 Horde
+Inst164Quest9Rewardtext_HORDE = AQNoReward
+
+--Quest 10 Horde
+Inst164Quest10Rewardtext_HORDE = AQNoReward
+
+--Quest 11 Horde
+Inst164Quest11Rewardtext_HORDE = AQNoReward
+
+--Quest 12 Horde
+Inst164Quest12Rewardtext_HORDE = AQNoReward
+
+--Quest 13 Horde
+Inst164Quest13Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8817,6 +8879,15 @@ Inst166Quest11Rewardtext = AQNoReward
 --Quest 12 Alliance
 Inst166Quest12Rewardtext = AQNoReward
 
+--Quest 13 Alliance
+Inst166Quest13Rewardtext = AQNoReward
+
+--Quest 14 Alliance
+Inst166Quest14Rewardtext = AQNoReward
+
+--Quest 15 Alliance
+Inst166Quest15Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst166Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -8865,6 +8936,15 @@ Inst166Quest11Rewardtext_HORDE = AQNoReward
 
 --Quest 12 Horde
 Inst166Quest12Rewardtext_HORDE = AQNoReward
+
+--Quest 13 Horde
+Inst166Quest13Rewardtext_HORDE = AQNoReward
+
+--Quest 14 Horde
+Inst166Quest14Rewardtext_HORDE = AQNoReward
+
+--Quest 15 Horde
+Inst166Quest15Rewardtext_HORDE = AQNoReward
 
 
 
@@ -9076,6 +9156,12 @@ Inst169Quest9ID1 = "142342"
 --Quest 10 Alliance
 Inst169Quest10Rewardtext = AQNoReward
 
+--Quest 11 Alliance
+Inst169Quest11Rewardtext = AQNoReward
+
+--Quest 12 Alliance
+Inst169Quest12Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst169Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -9130,6 +9216,12 @@ Inst169Quest9ID1_HORDE = "142342"
 
 --Quest 10 Horde
 Inst169Quest10Rewardtext_HORDE = AQNoReward
+
+--Quest 11 Horde
+Inst169Quest11Rewardtext_HORDE = AQNoReward
+
+--Quest 12 Horde
+Inst169Quest12Rewardtext_HORDE = AQNoReward
 
 
 

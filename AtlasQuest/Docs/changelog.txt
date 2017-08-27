@@ -8,7 +8,7 @@ Version 4.10.32  (August ??, 2017)
 
 - Fixed quests not showing for The Deadmines, Scarlet Halls, Scarlet Monastery, Shadowfang Keep and Scholomance. 
 
-- Added quests: 
+- Many profession and Order Hall quests added: 
 	- Assault on Violet Hold: The Fel Lexicon
 	- Black Rook Hold: Heavy, But Helpful
 	- Black Rook Hold: The Raven's Wisdom
@@ -33,7 +33,20 @@ Version 4.10.32  (August ??, 2017)
 	- Halls of Valor: The Hide of Fenryr
 	- Halls of Valor: The Right Question
 	- Halls of Valor: Essence of Ferocity
-	- 
+	- Maw of Souls: A Hope in Helheim
+	- Maw of Souls: Hammered By The Storm
+	- Maw of Souls: Spiriting Away
+	- Maw of Souls: Maul of the Dead
+	- Neltharion's Lair: Rod of Azure
+	- Neltharion's Lair: Potent Powder
+	- Neltharion's Lair: Braid of the Underking
+	- Neltharion's Lair: Essence of Tenacity
+	- Neltharion's Lair: The Earthen Amulet
+	- Vault of the Wardens: A Masterpiece of Flesh
+	- Vault of the Wardens: Vault Break-In
+	- Vault of the Wardens: Matters of the Heart
+	- Return to Karazhan: Scales of Legend
+	- Return to Karazhan: The Big Bag Theory
 
 
 
