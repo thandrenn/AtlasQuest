@@ -561,8 +561,8 @@ Inst4Quest6name3_HORDE = Inst4Quest6name3
 --------------- INST5 - Blackrock Depths (BRD) ---------------
 
 Inst5Caption = "Blackrock Depths"
-Inst5QAA = "21 Quests"
-Inst5QAH = "22 Quests"
+Inst5QAA = "22 Quests"
+Inst5QAH = "23 Quests"
 
 --Quest 1 Alliance
 Inst5Quest1 = "1. Into the Prison"
@@ -826,6 +826,16 @@ Inst5Quest21_Prequest = "None"
 Inst5Quest21_Folgequest = "None"
 --
 Inst5Quest21name1 = "Brewfest Prize Token"
+
+--Quest 22 Alliance
+Inst5Quest22 = "22. Jewel of the Depths"
+Inst5Quest22_Aim = "Travel to Blackrock Depths and obtain a Core of Bael'Gar, Core of Roccor, Essence of Incendius, and Essence of Magmus. Once you have all four items, combine them at the Black Forge near the entrance to Molten Core at the bottom of Blackrock Depths and bring the Blackrock Ruby back to Wixxrak in Everlook."
+Inst5Quest22_Location = "Wixxrak (Winterspring - Everlook; "..YELLOW.."60.2, 50.2"..WHITE..")"
+Inst5Quest22_Note = "Blacksmithing quest.  The Core of Bael'Gar drops at "..YELLOW.."[4]"..WHITE..", the Core of Roccor at "..YELLOW.."[2]"..WHITE.." and the Essence of Magmus at "..YELLOW.."[18]"..WHITE..".  The Black Forge is at "..GREEN.."['12]"..WHITE..", near the entrance to The Molten Core."
+Inst5Quest22_Prequest = "None"
+Inst5Quest22_Folgequest = "None"
+--
+Inst5Quest22name1 = "Plans: Dawn's Edge"
 
 
 --Quest 1 Horde
@@ -1106,6 +1116,17 @@ Inst5Quest22_HORDE_Prequest = "None"
 Inst5Quest22_HORDE_Folgequest = "None"
 --
 Inst5Quest22name1_HORDE = "Brewfest Prize Token"
+
+--Quest 23 Horde  (same as Quest 22 Alliance)
+Inst5Quest23_HORDE = "23. Jewel of the Depths"
+Inst5Quest23_HORDE_Aim = Inst5Quest22_Aim
+Inst5Quest23_HORDE_Location = Inst5Quest22_Location
+Inst5Quest23_HORDE_Note = Inst5Quest22_Note
+Inst5Quest23_HORDE_Prequest = Inst5Quest22_Prequest
+Inst5Quest23_HORDE_Folgequest = Inst5Quest22_Folgequest
+--
+Inst5Quest23name1_HORDE = Inst5Quest22name1
+-- No Rewards for this quest
 
 
 
@@ -2559,8 +2580,8 @@ Inst59Quest4_HORDE_Folgequest = Inst59Quest4_Folgequest
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Caption = "Scholomance"
-Inst20QAA = "5 Quests"
-Inst20QAH = "5 Quests"
+Inst20QAA = "6 Quests"
+Inst20QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. The Four Tomes"
@@ -2618,6 +2639,16 @@ Inst20Quest5_Prequest = "None"
 Inst20Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst20Quest6 = "6. Rod of Azure"
+Inst20Quest6_Aim = "Retrieve a Skystone Rod from Dargrul the Underking in Neltharion's Lair, a Radiant Zephyrite from Ozruk in The Stonecore and a pile of Ancient Arkhana from Scholomance."
+Inst20Quest6_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
+Inst20Quest6_Note = "LEGION Enchanting quest.  Normal or Heroic difficulty.  The Skystone Rod drops from the final boss in the dungeon.  The Radiant Zephyrite drops from the second to last boss in The Stonecore (Cataclysm - Deepholm).  Ancient Arkhana drops from the last boss in Scholomance (Classic - Western Plaguelands)."
+Inst20Quest6_Prequest = "On Azure Wings"
+Inst20Quest6_Folgequest = "Down to the Core"
+Inst20Quest6PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst20Quest1_HORDE = Inst20Quest1
@@ -2673,6 +2704,16 @@ Inst20Quest5_HORDE_Location = Inst20Quest5_Location
 Inst20Quest5_HORDE_Note = Inst20Quest5_Note
 Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
 Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst20Quest6_HORDE = Inst20Quest6
+Inst20Quest6_HORDE_Aim = Inst20Quest6_Aim
+Inst20Quest6_HORDE_Location = Inst20Quest6_Location
+Inst20Quest6_HORDE_Note = Inst20Quest6_Note
+Inst20Quest6_HORDE_Prequest = Inst20Quest6_Prequest
+Inst20Quest6_HORDE_Folgequest = Inst20Quest6_Folgequest
+Inst20Quest6PreQuest_HORDE = Inst20Quest6PreQuest
 -- No Rewards for this quest
 
 

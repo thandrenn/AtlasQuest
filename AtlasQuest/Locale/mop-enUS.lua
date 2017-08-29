@@ -550,16 +550,36 @@ Inst121QAH = "No Quests"
 --------------- INST122 - Heart of Fear ---------------
 
 Inst122Caption = "Heart of Fear"
-Inst122QAA = "No Quests"
-Inst122QAH = "No Quests"
+Inst122QAA = "1 Quest"
+Inst122QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst122Quest1 = "1. Scales of Legend"
+Inst122Quest1_Aim = "Obtain the Scale of Netherspite from Karazhan, the Scale of Sartharion from the Obsidian Sanctum, and the Scales of Garalon from the Heart of Fear."
+Inst122Quest1_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst122Quest1_Note = "LEGION Skinning quest.  The Scale of Netherspite drops from Netherspite.  The Scale of Sartharion drops from the only boss in Obsidian Sanctum (Northrend - Dragonblight).  The Scales of Garalon drop from the third boss in Heart of Fear (Pandaria - Dread Wastes)."
+Inst122Quest1_Prequest = "Scales for Ske'rit"
+Inst122Quest1_Folgequest = "Eye of Azshara: The Scales of Serpentrix"
+Inst122Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst122Quest1_HORDE = Inst122Quest1
+Inst122Quest1_HORDE_Aim = Inst122Quest1_Aim
+Inst122Quest1_HORDE_Location = Inst122Quest1_Location
+Inst122Quest1_HORDE_Note = Inst122Quest1_Note
+Inst122Quest1_HORDE_Prequest = Inst122Quest1_Prequest
+Inst122Quest1_HORDE_Folgequest = Inst122Quest1_Folgequest
+Inst122Quest1PreQuest_HORDE = Inst122Quest1PreQuest
+-- No Rewards for this quest
 
 
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Throne of Thunder"
-Inst138QAA = "8 Quests"
-Inst138QAH = "8 Quests"
+Inst138QAA = "9 Quests"
+Inst138QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst138Quest1 = "1. Securing A Future"
@@ -657,6 +677,16 @@ Inst138Quest8_Folgequest = "None"
 --
 Inst138Quest8name1 = "Spoils of the Thunder King"
 
+--Quest 9 Alliance
+Inst138Quest9 = "9. Hides of Legend"
+Inst138Quest9_Aim = "Obtain the Hide of Icehowl from the Trial of the Crusader, the Hide of Occu'thar from Baradin Hold and the Hide of Horridon from the Throne of Thunder."
+Inst138Quest9_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst138Quest9_Note = "LEGION Skinning quest.  Icehowl is the first boss in the Trial of the Crusader raid.  To reach Occu'thar, enter Baradin Hold and make the first left turn.  Horridon is the second boss in Throne of Thunder."
+Inst138Quest9_Prequest = "Halls of Valor: The Hide of Fenryr"
+Inst138Quest9_Folgequest = "Ske'rit's Leather Handbook"
+Inst138Quest9PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst138Quest1_HORDE = "1. Life Blood"
@@ -753,6 +783,16 @@ Inst138Quest8_HORDE_Prequest = Inst138Quest8_Prequest
 Inst138Quest8_HORDE_Folgequest = Inst138Quest8_Folgequest
 --
 Inst138Quest8name1_HORDE = Inst138Quest8name1
+
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst138Quest9_HORDE = Inst138Quest9
+Inst138Quest9_HORDE_Aim = Inst138Quest9_Aim
+Inst138Quest9_HORDE_Location = Inst138Quest9_Location
+Inst138Quest9_HORDE_Note = Inst138Quest9_Note
+Inst138Quest9_HORDE_Prequest = Inst138Quest9_Prequest
+Inst138Quest9_HORDE_Folgequest = Inst138Quest9_Folgequest
+Inst138Quest9PreQuest_HORDE = Inst138Quest9PreQuest
+-- No Rewards for this quest
 
 
 

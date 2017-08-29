@@ -997,13 +997,11 @@ Inst78Quest4name5_HORDE = Inst78Quest4name5
 --------------- INST79 - The Obsidian Sanctum ---------------
 
 Inst79Caption = "The Obsidian Sanctum"
-Inst79QAA = "1 Quest"
-Inst79QAH = "1 Quest"
+Inst79QAA = "2 Quests"
+Inst79QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst79Quest1 = "1. Sartharion Must Die! (Weekly)"
-Inst79Quest1_Level = "80"
-Inst79Quest1_Attain = "80"
 Inst79Quest1_Aim = "Kill Sartharion."
 Inst79Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst79Quest1_Note = "Sartharion is at "..YELLOW.."[4]"..WHITE..".\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
@@ -1011,16 +1009,34 @@ Inst79Quest1_Prequest = "None"
 Inst79Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst79Quest2 = "2.  Scales of Legend"
+Inst79Quest2_Aim = "Obtain the Scale of Netherspite from Karazhan, the Scale of Sartharion from the Obsidian Sanctum, and the Scales of Garalon from the Heart of Fear."
+Inst79Quest2_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst79Quest2_Note = "LEGION Skinning quest.  The Scale of Netherspite drops from Netherspite.  The Scale of Sartharion drops from the only boss in Obsidian Sanctum (Northrend - Dragonblight).  The Scales of Garalon drop from the third boss in Heart of Fear (Pandaria - Dread Wastes)."
+Inst79Quest2_Prequest = "Scales for Ske'rit"
+Inst79Quest2_Folgequest = "Eye of Azshara: The Scales of Serpentrix"
+Inst79Quest2PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst79Quest1_HORDE = Inst79Quest1
-Inst79Quest1_HORDE_Level = Inst79Quest1_Level
-Inst79Quest1_HORDE_Attain = Inst79Quest1_Attain
 Inst79Quest1_HORDE_Aim = Inst79Quest1_Aim
 Inst79Quest1_HORDE_Location = Inst79Quest1_Location
 Inst79Quest1_HORDE_Note = Inst79Quest1_Note
 Inst79Quest1_HORDE_Prequest = Inst79Quest1_Prequest
 Inst79Quest1_HORDE_Folgequest = Inst79Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst79Quest2_HORDE = Inst79Quest2
+Inst79Quest2_HORDE_Aim = Inst79Quest2_Aim
+Inst79Quest2_HORDE_Location = Inst79Quest2_Location
+Inst79Quest2_HORDE_Note = Inst79Quest2_Note
+Inst79Quest2_HORDE_Prequest = Inst79Quest2_Prequest
+Inst79Quest2_HORDE_Folgequest = Inst79Quest2_Folgequest
+Inst79Quest2PreQuest_HORDE = Inst79Quest2PreQuest
 -- No Rewards for this quest
 
 
@@ -2035,13 +2051,11 @@ Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest
 --------------- INST88 - Trial of the Crusader ---------------
 
 Inst88Caption = "Trial of the Crusader"
-Inst88QAA = "1 Quest"
-Inst88QAH = "1 Quest"
+Inst88QAA = "2 Quests"
+Inst88QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst88Quest1 = "1. Lord Jaraxxus Must Die! (Weekly)"
-Inst88Quest1_Level = "80"
-Inst88Quest1_Attain = "80"
 Inst88Quest1_Aim = "Kill Lord Jaraxxus."
 Inst88Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
 Inst88Quest1_Note = "Lord Jaraxxus is the second boss.\n\nRaid Weekly quests can be completed once a week and done on either 10 or 25 man."
@@ -2049,16 +2063,34 @@ Inst88Quest1_Prequest = "None"
 Inst88Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst88Quest2 = "2. Hides of Legend"
+Inst88Quest2_Aim = "Obtain the Hide of Icehowl from the Trial of the Crusader, the Hide of Occu'thar from Baradin Hold and the Hide of Horridon from the Throne of Thunder."
+Inst88Quest2_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst88Quest2_Note = "LEGION Skinning quest.  Icehowl is the first boss in the Trial of the Crusader raid.  To reach Occu'thar, enter Baradin Hold and make the first left turn.  Horridon is the second boss in Throne of Thunder."
+Inst88Quest2_Prequest = "Halls of Valor: The Hide of Fenryr"
+Inst88Quest2_Folgequest = "Ske'rit's Leather Handbook"
+Inst88Quest2PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst88Quest1_HORDE = Inst88Quest1
-Inst88Quest1_HORDE_Level = Inst88Quest1_Level
-Inst88Quest1_HORDE_Attain = Inst88Quest1_Attain
 Inst88Quest1_HORDE_Aim = Inst88Quest1_Aim
 Inst88Quest1_HORDE_Location = Inst88Quest1_Location
 Inst88Quest1_HORDE_Note = Inst88Quest1_Note
 Inst88Quest1_HORDE_Prequest = Inst88Quest1_Prequest
 Inst88Quest1_HORDE_Folgequest = Inst88Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst88Quest2_HORDE = Inst88Quest2
+Inst88Quest2_HORDE_Aim = Inst88Quest2_Aim
+Inst88Quest2_HORDE_Location = Inst88Quest2_Location
+Inst88Quest2_HORDE_Note = Inst88Quest2_Note
+Inst88Quest2_HORDE_Prequest = Inst88Quest2_Prequest
+Inst88Quest2_HORDE_Folgequest = Inst88Quest2_Folgequest
+Inst88Quest2PreQuest_HORDE = Inst88Quest2PreQuest
 -- No Rewards for this quest
 
 

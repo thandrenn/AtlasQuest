@@ -472,11 +472,11 @@
 <!-- AtlasQuest Panel-->
 <Frame name="AtlasQuestFrame" toplevel="false" enableMouse="true" movable="false" parent="AtlasFrame">
  <Size>
-   <AbsDimension x="198" y="565"/>
+   <AbsDimension x="198" y="585"/>
  </Size>
  <Anchors>
    <Anchor point="TOP" relativeTo="AtlasFrame">
-      <Offset><AbsDimension x="-597" y="-65"/></Offset>>
+      <Offset><AbsDimension x="-597" y="-45"/></Offset>>
    </Anchor>
  </Anchors>
  <Backdrop name="$parentBackdrop" bgFile="Interface\Minimap\TooltipBackdrop-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
@@ -981,7 +981,6 @@
 	    </OnShow>
 	</Scripts>
  </Button>
-
  <Button name="AQQuestbutton21" inherits="" text="18">
    <Size>
      <AbsDimension x="165" y="20"/>
@@ -1015,6 +1014,25 @@
 	<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
 	<Scripts>
 		<OnClick> AQSHOWNQUEST = 22; Quest_OnClick(arg1); </OnClick>
+		<OnShow>
+	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
+	    </OnShow>
+	</Scripts>
+ </Button>
+ <Button name="AQQuestbutton23" inherits="" text="18">
+   <Size>
+     <AbsDimension x="165" y="20"/>
+   </Size>
+	<Anchors>
+		<Anchor point="TOPLEFT">
+			<Offset>
+				<AbsDimension x="15" y="-525"/>
+			</Offset>
+		</Anchor>
+	</Anchors>
+	<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
+	<Scripts>
+		<OnClick> AQSHOWNQUEST = 23; Quest_OnClick(arg1); </OnClick>
 		<OnShow>
 	    	AtlasQuestFrame:SetFrameLevel( AtlasQuestFrame:GetParent():GetFrameLevel() + 1 );
 	    </OnShow>
@@ -1252,6 +1270,14 @@
              </Anchor>
            </Anchors>
       </Texture>
+	  <Texture name="AQQuestlineArrow_23" file="Interface\Glues\Login\UI-BackArrow">
+          <Size><AbsDimension x="13" y="15"/></Size>
+           <Anchors>
+             <Anchor point="TOPLEFT" relativeTo="AQQuestlineArrow_22" relativePoint="TOPLEFT">
+			<Offset><AbsDimension x="0" y="-20"/></Offset>
+             </Anchor>
+           </Anchors>
+      </Texture>
 	  <FontString name="AQBUTTONTEXT1" inherits="GameFontNormalSmall" text="1" justifyH = "LEFT">
        <Size><AbsDimension x="165" y="20"/></Size>
        <Anchors>
@@ -1431,6 +1457,14 @@
          </Anchor>
        </Anchors>
      </FontString>
+     <FontString name="AQBUTTONTEXT23" inherits="GameFontNormalSmall" text="18" justifyH = "LEFT">
+       <Size><AbsDimension x="165" y="20"/></Size>
+       <Anchors>
+         <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT22" relativePoint="TOPLEFT">
+			<Offset><AbsDimension x="0" y="-20"/></Offset>
+         </Anchor>
+       </Anchors>
+     </FontString>
 
 	 <Texture name="AQ_HordeTexture" file="Interface\TargetingFrame\UI-PVP-HORDE">
          <Size><AbsDimension x="50" y="50"/></Size>
@@ -1466,27 +1500,4 @@
   </Scripts>
 </Frame>
 
-<!-- Added for AlphaMap Compatibility 
-
-Commented out November 10, 2011 as AlphaMap is no longer supported.  May be re-added at a later time if necessary.
-
-
-	<Button name="AQ_AMCloseButton" inherits="OptionsButtonTemplate" text="AQ" parent="AlphaMapAlphaMapFrame">
-		<Size>
-			<AbsDimension x="45" y="35"/>
-		</Size>
-		<Anchors>
-			<Anchor point="BOTTOMRIGHT" relativePoint="TOPRIGHT" relativeTo="AlphaMapAlphaMapFrame">
-				<Offset>
-					<AbsDimension x="0" y="5"/>
-				</Offset>
-			</Anchor>
-		</Anchors>
-		<Scripts>
-			<OnClick>
-				AQCLOSE_OnClick();
-			</OnClick>
-		</Scripts>
-	</Button>
--->
 </Ui>

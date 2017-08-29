@@ -135,7 +135,7 @@ Inst157Quest6PreQuest = "true"
 Inst157Quest6name1 = "Demonic Command Shards"
 
 --Quest 7 Alliance
-Inst157Quest7 = "7. Assault on Violet Hold: Into the Hold"
+Inst157Quest7 = "7. Into the Hold"
 Inst157Quest7_Aim = "Go into Violet Hold and find out what happened to Lyndras."
 Inst157Quest7_Location = "Violet Hold Guard (Dalaran - The Violet Hold; "..YELLOW.."65.2, 67.4"..WHITE..")"
 Inst157Quest7_Note = "Tailoring quest.  Loot the key from the final boss, open Lyndras' cell and defeat him.  Lyndras has as much health as a rare mob, so you can probably defeat him by yourself if you need to."
@@ -145,7 +145,7 @@ Inst157Quest7PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst157Quest8 = "8. Assault on Violet Hold: The Fel Lexicon"
+Inst157Quest8 = "8. The Fel Lexicon"
 Inst157Quest8_Aim = "Collect a Fel Lexicon from a powerful prisoner inside Violet Hold."
 Inst157Quest8_Location = "Delas Moonfang (Dalaran - Antonidas Memorial "..YELLOW.."44.8, 22.7"..WHITE..")"
 Inst157Quest8_Note = "This quest is part of the Paladin Order Hall campaign and can be completed on Normal or Heroic difficulty.  The Fel Lexicon drops from the second to last boss in the Violet Hold."
@@ -273,7 +273,7 @@ Inst158Quest3_Folgequest = "None"
 Inst158Quest3name1 = "Haunted Ravencrest Keepsake"
 
 --Quest 4 Alliance
-Inst158Quest4 = "4. Black Rook Hold: Worst of the Worst"
+Inst158Quest4 = "4. Worst of the Worst"
 Inst158Quest4_Aim = "Kill Braxas the Fleshcarver and Dantallionax in Black Rook Hold."
 Inst158Quest4_Location = ""
 Inst158Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -282,7 +282,7 @@ Inst158Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst158Quest5 = "5. Black Rook Hold: Traitor's Demise"
+Inst158Quest5 = "5. Traitor's Demise"
 Inst158Quest5_Aim = "Kill Kelorn Nightblade and Dantallionax in Black Rook Hold."
 Inst158Quest5_Location = ""
 Inst158Quest5_Note = AQ_WORLDDUNGEONQUEST
@@ -291,7 +291,7 @@ Inst158Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst158Quest6 = "6. Black Rook Hold: The Sorrow"
+Inst158Quest6 = "6. The Sorrow"
 Inst158Quest6_Aim = "Kill General Tel'arn, Ranger General Feleor and Dantallionax in Black Rook Hold."
 Inst158Quest6_Location = ""
 Inst158Quest6_Note = AQ_WORLDDUNGEONQUEST
@@ -300,7 +300,7 @@ Inst158Quest6_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst158Quest7 = "7. Black Rook Hold: The Mad Arcanist"
+Inst158Quest7 = "7. The Mad Arcanist"
 Inst158Quest7_Aim = "Kill Archmage Galeorn and Dantallionax in Black Rook Hold."
 Inst158Quest7_Location = ""
 Inst158Quest7_Note = AQ_WORLDDUNGEONQUEST
@@ -309,7 +309,7 @@ Inst158Quest7_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst158Quest8 = "8. Black Rook Hold: ... With Fire!"
+Inst158Quest8 = "8.  ... With Fire!"
 Inst158Quest8_Aim = "Kill Ancient Widow and Dantallionax in Black Rook Hold."
 Inst158Quest8_Location = ""
 Inst158Quest8_Note = AQ_WORLDDUNGEONQUEST
@@ -339,7 +339,7 @@ Inst158Quest10PreQuest = "true"
 Inst158Quest10name1 = "Demonic Command Shards"
 
 --Quest 11 Alliance
-Inst158Quest11 = "11. Black Rook Hold: Heavy, But Helpful"
+Inst158Quest11 = "11. Heavy, But Helpful"
 Inst158Quest11_Aim = "Retrieve some Sabelite Sulfate from Heroic: Black Rook Hold, craft a Flask of the Countless Armies and return both items to Alard in Dalaran."
 Inst158Quest11_Location = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")"
 Inst158Quest11_Note = "Alchemy quest.  Requires Heroic difficulty.  The Sabelite Sulfate is at the bottom of the main stairs guarded by a Bloodscent Felhound.  You should be able to make the flask yourself."
@@ -349,7 +349,7 @@ Inst158Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst158Quest12 = "12. Black Rook Hold: The Raven's Wisdom"
+Inst158Quest12 = "12. The Raven's Wisdom"
 Inst158Quest12_Aim = "Go to Black Rook Hold and locate a book on jewelcrafting and bring it to Timothy Jones in Dalaran."
 Inst158Quest12_Location = "Timothy Jones (Dalaran; "..YELLOW.."39.8, 35.0"..WHITE..")"
 Inst158Quest12_Note = "Jewelcrafting quest.  Normal or Heroic difficulty.  The book is located near the second boss, Illysanna Ravencrest.  Slay the final boss, Dantalionax to complete the quest."
@@ -359,7 +359,7 @@ Inst158Quest12PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst158Quest13 = "13. Black Rook Hold: Lord Ravencrest"
+Inst158Quest13 = "13. Lord Ravencrest"
 Inst158Quest13_Aim = "Defeat Lord Kur'talos Ravencrest in Black Rook Hold."
 Inst158Quest13_Location = "Lord Grayson Shadowbreaker (Eastern Plaguelands - Sanctum of Light; "..YELLOW.."76.8, 50.8"..WHITE..")"
 Inst158Quest13_Note = "Paladin quest.  Normal or Heroic difficulty.  Lord Kur'talos Ravencrest is the final boss."
@@ -368,7 +368,7 @@ Inst158Quest13_Folgequest = "To Felblaze Ingress"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
-Inst158Quest14 = "14. Black Rook Hold: Into Black Rook Hold"
+Inst158Quest14 = "14. Into Black Rook Hold"
 Inst158Quest14_Aim = "Gather a group and enter Black Rook Hold to take the Raven's Eye from Dantalionax"
 Inst158Quest14_Location = "Valeera Sanguinar (Dalaran - The Hall of Shadows; "..YELLOW.."42.2, 77.0"..WHITE..")"
 Inst158Quest14_Note = "Rogue quest.  Normal or Heroic difficulty.   Dantalionax is the final boss."
@@ -378,7 +378,7 @@ Inst158Quest14PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst158Quest15 = "15. Black Rook Hold: An Unclaimed Soul"
+Inst158Quest15 = "15. An Unclaimed Soul"
 Inst158Quest15_Aim = "Collect an Unclaimed Soul from The Amalgam of Souls in the Black Rook Hold dungeon."
 Inst158Quest15_Location = "Ritssyn Flamescowl (Dreadscar Rift; "..YELLOW.."55.6, 37.2"..WHITE..")"
 Inst158Quest15_Note = "Warlock quest.  Normal or Heroic difficulty.  The Unclaimed Soul drops from the first boss, but to complete the quest you must finish the dungeon."
@@ -553,7 +553,7 @@ Inst159Quest1_Folgequest = "None"
 Inst159Quest1name1 = "Nightborne Rucksack"
 
 --Quest 2 Alliance
-Inst159Quest2 = "2. Court of Stars: Bring Me the Eyes"
+Inst159Quest2 = "2. Bring Me the Eyes"
 Inst159Quest2_Aim = "Kill Velimar and Advisor Melandrus in Court of Stars."
 Inst159Quest2_Location = ""
 Inst159Quest2_Note = AQ_WORLDDUNGEONQUEST
@@ -562,7 +562,7 @@ Inst159Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst159Quest3 = "3. Court of Stars: Disarming the Watch"
+Inst159Quest3 = "3. Disarming the Watch"
 Inst159Quest3_Aim = "Collect 6 Nightwatch Weaponry and kill Advisor Melandrus in Court of Stars."
 Inst159Quest3_Location = ""
 Inst159Quest3_Note = AQ_WORLDDUNGEONQUEST
@@ -571,7 +571,7 @@ Inst159Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst159Quest4 = "4. Court of Stars: The Deceitful Student"
+Inst159Quest4 = "4. The Deceitful Student"
 Inst159Quest4_Aim = "Kill Arcanist Malrodi and Advisor Melandrus in Court of Stars."
 Inst159Quest4_Location = ""
 Inst159Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -704,7 +704,7 @@ Inst160Quest3_Folgequest = "None"
 Inst160Quest3name1 = "Despoiled Keeper's Cache"
 
 --Quest 4 Alliance
-Inst160Quest4 = "4. Darkheart Thicket: A Burden to Bear"
+Inst160Quest4 = "4. A Burden to Bear"
 Inst160Quest4_Aim = "Kill 9 Bears and defeat the Shade of Xavius in Darkheart Thicket."
 Inst160Quest4_Location = ""
 Inst160Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -713,7 +713,7 @@ Inst160Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst160Quest5 = "5. Darkheart Thicket: Kudzilla"
+Inst160Quest5 = "5. Kudzilla"
 Inst160Quest5_Aim = "Kill Kudzilla and Shade of Xavius in Darkheart Thicket."
 Inst160Quest5_Location = ""
 Inst160Quest5_Note = AQ_WORLDDUNGEONQUEST
@@ -722,7 +722,7 @@ Inst160Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst160Quest6 = "6. Darkheart Thicket: Preserving the Preservers"
+Inst160Quest6 = "6. Preserving the Preservers"
 Inst160Quest6_Aim = "Revive 5 Preservers and defeat the Shade of Xavius in Darkheart Thicket."
 Inst160Quest6_Location = ""
 Inst160Quest6_Note = AQ_WORLDDUNGEONQUEST
@@ -731,7 +731,7 @@ Inst160Quest6_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst160Quest7 = "7. Darkheart Thicket: Rage Rot"
+Inst160Quest7 = "7. Rage Rot"
 Inst160Quest7_Aim = "Kill Rage Rot and Shade of Xavius in Darkheart Thicket."
 Inst160Quest7_Location = ""
 Inst160Quest7_Note = AQ_WORLDDUNGEONQUEST
@@ -761,7 +761,7 @@ Inst160Quest9PreQuest = "true"
 -- Reward varies for each class
 
 --Quest 10 Alliance
-Inst160Quest10 = "10. Darkheart Thicket: The Glamour Has Faded"
+Inst160Quest10 = "10. The Glamour Has Faded"
 Inst160Quest10_Aim = "Kill Arch-Druid Glaidalis in the Darkheart Thicket and recover Nalamya's Book of Enchantments."
 Inst160Quest10_Location = "Nalamya (Val'sharah - Temple of Elune; "..YELLOW.."54.4, 57.6"..WHITE..")"
 Inst160Quest10_Note = "Enchanting quest.  The questline starts with the quests 'Strong Like the Earth' and 'Waste Not', both obtained from Guron Twaintail (Highmountain - Thunder Totem; "..YELLOW.."44.4, 44.2"..WHITE.."). Arch-Druid Glaidalis is the first boss in Darkheart Thicket.  The quest can be completed on Normal or Heroic difficulty.  The reward trains you in 'Boon of the Scavenger'."
@@ -771,7 +771,7 @@ Inst160Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst160Quest11 = "11. Darkheart Thicket: Through the Fog"
+Inst160Quest11 = "11. Through the Fog"
 Inst160Quest11_Aim = "Obtain the Final Chapter of The Purple Hills of Mac'Aree."
 Inst160Quest11_Location = "Brann Bronzebeard (Val'sharah; "..YELLOW.."61.2, 87.9"..WHITE..")"
 Inst160Quest11_Note = "Archaeology quest.  This is the final week in a few of the bi-weekly quests.  Both items drop from the final boss in the dungeon.  The quest turns in back at Brann Bronzebeard."
@@ -782,7 +782,7 @@ Inst160Quest11PreQuest = "true"
 Inst160Quest11name1 = "Purple Hills of Mac'Aree"
 
 --Quest 12 Alliance
-Inst160Quest12 = "12. Darkheart Thicket: Demons Be Different"
+Inst160Quest12 = "12. Demons Be Different"
 Inst160Quest12_Aim = "Go to Darkheart Thicket and kill Dresaron. Skin him and bring his hide back to Ske'rit in Suramar."
 Inst160Quest12_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst160Quest12_Note = "Skinning quest.  Normal or Heroic difficulty.  The quest item actually drops off Dresaron, you won't need to skin him.  Dresaron is the third boss and is skippable, so if you're with a Dungeon Finder group, you should probably ask the group to kill that boss."
@@ -792,7 +792,7 @@ Inst160Quest12PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst160Quest13 = "13. Darkheart Thicket: The Nightmare Lash"
+Inst160Quest13 = "13. The Nightmare Lash"
 Inst160Quest13_Aim = "Retrieve the Nightmare Lash from Darkheart Thicket."
 Inst160Quest13_Location = "Salanar the Horseman (Ebon Hold; "..YELLOW.."98.8, 59.2"..WHITE..")"
 Inst160Quest13_Note = "Death Knight quest.  Normal or Heroic difficulty.  The Nightmare Lash drops from Shade of Xavius, the final boss."
@@ -802,7 +802,7 @@ Inst160Quest13PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
-Inst160Quest14 = "14. Darkheart Thicket: Essence of Regrowth"
+Inst160Quest14 = "14. Essence of Regrowth"
 Inst160Quest14_Aim = "Collect 1 Essence of Regrowth from Oakheart in Darkheart Thicket, then defeat the Shade of Xavius."
 Inst160Quest14_Location = "Glimmer of Aessina (The Emerald Dreamway; "..YELLOW.."40.8, 58.6"..WHITE..")"
 Inst160Quest14_Note = "Druid campaign.  Normal or Heroic difficulty.  The Essence of Regrowth drops from the second boss, Oakheart.  Then defeat the Shade of Xavius to complete the quest.  Turn the quest in to Keeper Remulos at The Dreamgrove; "..YELLOW.."44.8, 50.6"..WHITE.."."
@@ -811,7 +811,7 @@ Inst160Quest14_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst160Quest15 = "15. Darkheart Thicket: Nightmare Oak"
+Inst160Quest15 = "15. Nightmare Oak"
 Inst160Quest15_Aim = "Collect Nightmare Oak from Oakheart within the dungeon, Darkheart Thicket."
 Inst160Quest15_Location = "Halduron Brightwing (Highmountain - Trueshot Lodge; "..YELLOW.."42.8, 6.0"..WHITE..")"
 Inst160Quest15_Note = "Hunter quest.  Normal or Heroic difficulty.  The Nightmare Oak drops from the second boss, Oakheart.  Then defeat the Shade of Xavius to complete the quest."
@@ -977,7 +977,7 @@ Inst161QAA = "17 Quests"
 Inst161QAH = "17 Quests"
 
 --Quest 1 Alliance
-Inst161Quest1 = "1. Eye of Azshara: Termination Claws"
+Inst161Quest1 = "1. Termination Claws"
 Inst161Quest1_Aim = "Kill Gom Crabbar and defeat the Wrath of Azshara."
 Inst161Quest1_Location = ""
 Inst161Quest1_Note = AQ_WORLDDUNGEONQUEST
@@ -986,7 +986,7 @@ Inst161Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst161Quest2 = "2. Eye of Azshara: Slug It Out"
+Inst161Quest2 = "2. Slug It Out"
 Inst161Quest2_Aim = "Kill Shellmaw and defeat the Wrath of Azshara."
 Inst161Quest2_Location = ""
 Inst161Quest2_Note = AQ_WORLDDUNGEONQUEST
@@ -995,7 +995,7 @@ Inst161Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst161Quest3 = "3. Eye of Azshara: Dread End"
+Inst161Quest3 = "3. Dread End"
 Inst161Quest3_Aim = "Dread Captain Thedon and defeat the Wrath of Azshara."
 Inst161Quest3_Location = ""
 Inst161Quest3_Note = AQ_WORLDDUNGEONQUEST
@@ -1004,7 +1004,7 @@ Inst161Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst161Quest4 = "4. Eye of Azshara: Azsunian Pearls"
+Inst161Quest4 = "4. Azsunian Pearls"
 Inst161Quest4_Aim = "Collect 5 Massive Azsunian Pearl and defeat the Wrath of Azshara."
 Inst161Quest4_Location = ""
 Inst161Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -1053,7 +1053,7 @@ Inst161Quest8_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst161Quest9 = "9. Eye of Azshara: Looking Through the Lens"
+Inst161Quest9 = "9. Looking Through the Lens"
 Inst161Quest9_Aim = "Recover the Lens of the Tide from Lady Hatecoil within the Eye of Azshara dungeon."
 Inst161Quest9_Location = "Yalia Sagewhisper (Azsuna; "..YELLOW.."47.0, 44.0"..WHITE..")"
 Inst161Quest9_Note = "Priest Order Hall quest.  The quest turns in to Velen in the Priest Order Hall."
@@ -1063,7 +1063,7 @@ Inst161Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst161Quest10 = "10. Eye of Azshara: The Depraved Nightfallen"
+Inst161Quest10 = "10. The Depraved Nightfallen"
 Inst161Quest10_Aim = "Go to the Eye of Azshara, defeat the Wrath of Azshara and recover the Heart of the Storm."
 Inst161Quest10_Location = "Lyndras (Dalaran; "..YELLOW.."36.1, 33.9"..WHITE..")"
 Inst161Quest10_Note = "Tailoring quest.  Defeat the final boss in Eye of Azshara to complete the quest and then return to Dalaran."
@@ -1073,7 +1073,7 @@ Inst161Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst161Quest11 = "11. Eye of Azshara: Put a Cork in It"
+Inst161Quest11 = "11. Put a Cork in It"
 Inst161Quest11_Aim = "Go to the Eye of Azshara and retrieve the Advanced Corks for Deucus Valdera in Dalaran."
 Inst161Quest11_Location = "Deucus Valdera (Dalaran; "..YELLOW.."41.4, 32.8"..WHITE..")"
 Inst161Quest11_Note = "Alchemy quest.  Normal or Heroic difficulty.  The Advanced Corks are in the crate after you defeat the final boss."
@@ -1083,7 +1083,7 @@ Inst161Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst161Quest12 = "12. Eye of Azshara: Scales of the Sea"
+Inst161Quest12 = "12. Scales of the Sea"
 Inst161Quest12_Aim = "Go to the Eye of Azshara and obtain Warlord Parjesh's Hauberk."
 Inst161Quest12_Location = "Celea (Azsuna; "..YELLOW.."47.4, 44.2"..WHITE..")"
 Inst161Quest12_Note = "Leatherworking quest.   Normal or Heroic difficulty.  Warlord Parjesh's Hauberk drops from the first boss.  You must finish the dungeon to complete the quest."
@@ -1093,7 +1093,7 @@ Inst161Quest12PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst161Quest13 = "13. Eye of Azshara: The Scales of Serpentrix"
+Inst161Quest13 = "13. The Scales of Serpentrix"
 Inst161Quest13_Aim = "Obtain the Scales of Serpentrix by skinning Serpentrix in the Wrath of Azshara dungeon."
 Inst161Quest13_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst161Quest13_Note = "Skinning quest.  Normal or Heroic difficulty.  The Scales of Serpentrix drop from the third boss.  You don't need to actually skin it.  You must finish the dungeon to complete the quest."
@@ -1103,7 +1103,7 @@ Inst161Quest13PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
-Inst161Quest14 = "14. Eye of Azshara: The Frozen Soul"
+Inst161Quest14 = "14. The Frozen Soul"
 Inst161Quest14_Aim = "Retrieve the Frozen Soul Pendant from the Wrath of Azshara."
 Inst161Quest14_Location = "Amal'thazad (Ebon Hold; "..YELLOW.."57.8, 31.8"..WHITE..")"
 Inst161Quest14_Note = "Death Knight quest.  Normal or Heroic difficulty.  The Frozen Soul Pendant drops from the final boss."
@@ -1113,7 +1113,7 @@ Inst161Quest14PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst161Quest15 = "15. Eye of Azshara: Essence of Balance"
+Inst161Quest15 = "15. Essence of Balance"
 Inst161Quest15_Aim = "Collect 1 Essence of Balance from the Wrath of Azshara."
 Inst161Quest15_Location = "Avatar of Aviana (Emerald Dreamway; "..YELLOW.."30.6, 51.6"..WHITE..")"
 Inst161Quest15_Note = "Druid quest.  Normal or Heroic difficulty.  The Essence of Balance drops from the final boss."
@@ -1122,7 +1122,7 @@ Inst161Quest15_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 16 Alliance
-Inst161Quest16 = "16. Eye of Azshara: A Magical Affliction"
+Inst161Quest16 = "16. A Magical Affliction"
 Inst161Quest16_Aim = "Fill a vial with arcane water from the Wrath of Azshara."
 Inst161Quest16_Location = "Archmage Khadgar (Hall of the Guardian; "..YELLOW.."71.4, 56.0"..WHITE..")"
 Inst161Quest16_Note = "Mage quest.  Normal or Heroic difficulty.  Use the vial on the corpse of the final boss to complete the quest."
@@ -1132,7 +1132,7 @@ Inst161Quest16PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 17 Alliance
-Inst161Quest17 = "17. Eye of Azshara: The Scepter of Storms"
+Inst161Quest17 = "17. The Scepter of Storms"
 Inst161Quest17_Aim = "Collect the Scepter of Storms from Lady Hatecoil in the Eye of Azshara dungeon."
 Inst161Quest17_Location = "Elementalist Janai (The Maelstrom; "..YELLOW.."29.4, 77.4"..WHITE..")"
 Inst161Quest17_Note = "Shaman quest.  Normal or Heroic difficulty.  The Scepter of Storms drops from the second boss, Lady Hatecoil.  You must finish the dungeon to complete the quest."
@@ -1347,7 +1347,7 @@ Inst162Quest3_Folgequest = "None"
 Inst162Quest3name1 = "Challenger's Spoils"
 
 --Quest 4 Alliance
-Inst162Quest4 = "4. Halls of Valor: A Worthy Challenge"
+Inst162Quest4 = "4. A Worthy Challenge"
 Inst162Quest4_Aim = "Defeat Volynd Stormbringer and Odyn in Halls of Valor."
 Inst162Quest4_Location = ""
 Inst162Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -1356,7 +1356,7 @@ Inst162Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst162Quest5 = "5. Halls of Valor: Deeds of the Past"
+Inst162Quest5 = "5. Deeds of the Past"
 Inst162Quest5_Aim = "Collect 3 Book of Exalted Deeds and defeat Odyn in Halls of Valor."
 Inst162Quest5_Location = ""
 Inst162Quest5_Note = AQ_WORLDDUNGEONQUEST
@@ -1365,7 +1365,7 @@ Inst162Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst162Quest6 = "6. Halls of Valor: Ponderous Poaching"
+Inst162Quest6 = "6. Ponderous Poaching"
 Inst162Quest6_Aim = "Defeat Earlnoc the Beastbreaker and Odyn in Halls of Valor."
 Inst162Quest6_Location = ""
 Inst162Quest6_Note = AQ_WORLDDUNGEONQUEST
@@ -1374,7 +1374,7 @@ Inst162Quest6_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst162Quest7 = "7. Halls of Valor: The Bear King"
+Inst162Quest7 = "7. The Bear King"
 Inst162Quest7_Aim = "Defeat Arthfael and Odyn in Halls of Valor."
 Inst162Quest7_Location = ""
 Inst162Quest7_Note = AQ_WORLDDUNGEONQUEST
@@ -1451,7 +1451,7 @@ Inst162Quest14FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst162Quest15 = "15. Halls of Valor: Revenge of the Enchantress"
+Inst162Quest15 = "15. Revenge of the Enchantress"
 Inst162Quest15_Aim = "Retrieve Tigrid's Enchanting Rod from the Halls of Valor and return it to her in Stormheim."
 Inst162Quest15_Location = "Tigrid the Charmer (Stormheim; "..YELLOW.."39.4, 42.6"..WHITE..")"
 Inst162Quest15_Note = "Enchanting quest.  The questline starts in Dalaran at the Enchanting shop.  Tigrid's Enchanting Rod drops from the chest that appears after defeating the final boss in Halls of Valor."
@@ -1461,7 +1461,7 @@ Inst162Quest15PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 16 Alliance
-Inst162Quest16 = "16. Halls of Valor: The Light Within"
+Inst162Quest16 = "16. The Light Within"
 Inst162Quest16_Aim = "Recover a Spark of Light from Hyrja within the Halls of Valor dungeon."
 Inst162Quest16_Location = "Alonsus Faol (Netherlight Temple; "..YELLOW.."51.2, 48.4"..WHITE..")"
 Inst162Quest16_Note = "Priest quest, part of the Order Hall campaign.  Complete the dungeon, then return to your Order Hall and go to the Temple of Light to complete the quest."
@@ -1471,7 +1471,7 @@ Inst162Quest16PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 17 Alliance
-Inst162Quest17 = "17. Halls of Valor: The Prime Ingredient"
+Inst162Quest17 = "17. The Prime Ingredient"
 Inst162Quest17_Aim = "Retrieve the Eternity Sand from Heroic: Halls of Valor, craft a Flask of Ten Thousand Scars and return both items to Alard in Dalaran."
 Inst162Quest17_Location = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")"
 Inst162Quest17_Note = "Alchemy quest.  Requires Heroic difficulty.  The Eternity Sand drops from the final boss."
@@ -1481,7 +1481,7 @@ Inst162Quest17PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 18 Alliance
-Inst162Quest18 = "18. Halls of Valor: Vision of Valor"
+Inst162Quest18 = "18. Vision of Valor"
 Inst162Quest18_Aim = "Retrieve 5 Valarjar Rune-Sigils from the Halls of Valor."
 Inst162Quest18_Location = "Professor Pallin (Dalaran; "..YELLOW.."41.4, 37.2"..WHITE..")"
 Inst162Quest18_Note = "Inscription quest.  Normal or Heroic difficulty.  The Rune-Sigils drop from trash mobs.  Finish the dungeon to complete the quest."
@@ -1491,7 +1491,7 @@ Inst162Quest18PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 19 Alliance
-Inst162Quest19 = "19. Halls of Valor: Jewel of the Heavens"
+Inst162Quest19 = "19. Jewel of the Heavens"
 Inst162Quest19_Aim = "Kill Odyn in the Halls of Valor and bring back his ring to Timothy Jones in Dalaran."
 Inst162Quest19_Location = "Timothy Jones (Dalaran; "..YELLOW.."39.8, 35.0"..WHITE..")"
 Inst162Quest19_Note = "Jewelcrafting quest.  Normal or Heroic difficulty.  The quest item drops from the final boss."
@@ -1501,7 +1501,7 @@ Inst162Quest19PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 20 Alliance
-Inst162Quest20 = "20. Halls of Valor: The Hide of Fenryr"
+Inst162Quest20 = "20. The Hide of Fenryr"
 Inst162Quest20_Aim = "Obtain the Hide of Fenryr by skinning Fenryr in Valhallas."
 Inst162Quest20_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst162Quest20_Note = "Skinning quest.  Normal or Heroic difficulty.  The Hide of Fenryr drops from the third boss.  Finish the dungeon to complete the quest."
@@ -1511,7 +1511,7 @@ Inst162Quest20PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 21 Alliance
-Inst162Quest21 = "21. Halls of Valor: The Right Question"
+Inst162Quest21 = "21. The Right Question"
 Inst162Quest21_Aim = "Defeat Hymdall in the Halls of Valor and recover his loincloth."
 Inst162Quest21_Location = "Leyweaver Tellumi (Stormheim; "..YELLOW.."65.6, 56.2"..WHITE..")"
 Inst162Quest21_Note = "Tailoring quest.  Normal or Heroic difficulty.  Hymdall is the first boss in the dungeon.  Finish the dungeon to complete the quest."
@@ -1521,7 +1521,7 @@ Inst162Quest21PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 22 Alliance
-Inst162Quest22 = "22. Halls of Valor: Essence of Ferocity"
+Inst162Quest22 = "22. Essence of Ferocity"
 Inst162Quest22_Aim = "Collect 1 Essence of Ferocity from Fenryr in the Halls of Valor, then prove your worth to Odyn."
 Inst162Quest22_Location = "Echo of Ashamane (Emerald Dreamway; "..YELLOW.."31.2, 36.8"..WHITE..")"
 Inst162Quest22_Note = "Druid quest.  Normal or Heroic difficulty.  Fenryr is the third boss.  Finish the dungeon to complete the quest.   Turn the quest in to Keeper Remulos at The Dreamgrove; "..YELLOW.."44.8, 50.6"..WHITE.."."
@@ -1782,7 +1782,7 @@ Inst163Quest3_Folgequest = "None"
 Inst163Quest3name1 = "Seaweed-Encrusted Satchel"
 
 --Quest 4 Alliance
-Inst163Quest4 = "4. Maw of Souls: From Hell's Mouth"
+Inst163Quest4 = "4. From Hell's Mouth"
 Inst163Quest4_Aim = "Defeat Plaguemaw and Helya in the Maw of Souls."
 Inst163Quest4_Location = ""
 Inst163Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -1791,7 +1791,7 @@ Inst163Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst163Quest5 = "5. Maw of Souls: Menace of the Seas"
+Inst163Quest5 = "5. Menace of the Seas"
 Inst163Quest5_Aim = "Defeat Soulfiend Tagerma and Helya in the Maw of Souls."
 Inst163Quest5_Location = ""
 Inst163Quest5_Note = AQ_WORLDDUNGEONQUEST
@@ -1800,7 +1800,7 @@ Inst163Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst163Quest6 = "6. Maw of Souls: Return of the Beast"
+Inst163Quest6 = "6. Return of the Beast"
 Inst163Quest6_Aim = "Defeat Shroudseeker and Helya in the Maw of Souls."
 Inst163Quest6_Location = ""
 Inst163Quest6_Note = AQ_WORLDDUNGEONQUEST
@@ -1847,7 +1847,7 @@ Inst163Quest10_Folgequest = "None"
 -- Reward varies for each class
 
 --Quest 11 Alliance
-Inst163Quest11 = "11. Maw of Souls: A Hope in Helheim"
+Inst163Quest11 = "11. A Hope in Helheim"
 Inst163Quest11_Aim = "Retrieve a crate of Dragur Dust from Heroic: Maw of Souls, craft a Flask of the Seventh Demon and return both items to Alard in Dalaran."
 Inst163Quest11_Location = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")"
 Inst163Quest11_Note = "Alchemy quest.  Requires Heroic difficulty.  The crate of Dragur Dust drops from the final boss."
@@ -1857,7 +1857,7 @@ Inst163Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst163Quest12 = "12. Maw of Souls: Hammered By The Storm"
+Inst163Quest12 = "12. Hammered By The Storm"
 Inst163Quest12_Aim = "Go to the Maw of Souls and recover an Ancient Vrykul Hammer."
 Inst163Quest12_Location = "Barm Stonebreaker (Highmountain; "..YELLOW.."55.2, 84.2"..WHITE..")"
 Inst163Quest12_Note = "Blacksmithing quest.  Normal or Heroic difficulty.  The Ancient Vrykul Hammer drops from the final boss."
@@ -1868,7 +1868,7 @@ Inst163Quest12PreQuest = "true"
 Inst163Quest12name1 = "Brumdysla, Hammer of Vrorsk"
 
 --Quest 13 Alliance
-Inst163Quest13 = "13. Maw of Souls: Spiriting Away"
+Inst163Quest13 = "13. Spiriting Away"
 Inst163Quest13_Aim = "Go to the Maw of Souls and bring back the Ring of the Fallen to Timothy Jones in Dalaran."
 Inst163Quest13_Location = "Timothy Jones (Dalaran; "..YELLOW.."39.8, 35.0"..WHITE..")"
 Inst163Quest13_Note = "Jewelcrafting quest.  Normal or Heroic difficulty.  The Ring of the Fallen is in a crate under the stairs before the second boss.  Finish the dungeon to complete teh quest."
@@ -1877,7 +1877,7 @@ Inst163Quest13_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
-Inst163Quest14 = "14. Maw of Souls: Maul of the Dead"
+Inst163Quest14 = "14. Maul of the Dead"
 Inst163Quest14_Aim = "Retrieve the Maul of the Dead from Helheim."
 Inst163Quest14_Location = "Salanar the Horseman (Ebon Hold; "..YELLOW.."98.8, 59.2"..WHITE..")"
 Inst163Quest14_Note = "Death Knight quest.  Normal or Heroic difficulty.  The Maul of the Dead will be in the crate that drops after defeating the final boss."
@@ -2061,7 +2061,7 @@ Inst164Quest3_Folgequest = "None"
 Inst164Quest3name1 = "Cache of the Black Dragon"
 
 --Quest 4 Alliance
-Inst164Quest4 = "4. Neltharion's Lair: Blighted Bat"
+Inst164Quest4 = "4. Blighted Bat"
 Inst164Quest4_Aim = "Defeat Ragoul and Dargrul the Underking slain in the Maw of Souls."
 Inst164Quest4_Location = ""
 Inst164Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -2070,7 +2070,7 @@ Inst164Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst164Quest5 = "5. Neltharion's Lair: Stonedark Slaves"
+Inst164Quest5 = "5. Stonedark Slaves"
 Inst164Quest5_Aim = "Kill 5 Understone Lashers and defeat Dargrul the Underking slain in the Maw of Souls."
 Inst164Quest5_Location = ""
 Inst164Quest5_Note = AQ_WORLDDUNGEONQUEST
@@ -2106,22 +2106,21 @@ Inst164Quest8_Note = "Archaeology quest. The artifact is in the room with the la
 Inst164Quest8_Prequest = "History of Highmountain -> Surveying Student"
 Inst164Quest8_Folgequest = "None"
 Inst164Quest8PreQuest = "true"
-Inst164Quest8FQuest = "true"
 --
 Inst164Quest8name1 = "Spear of Rethu"
 
 --Quest 9 Alliance
-Inst164Quest9 = "9. Neltharion's Lair: Rod of Azure"
+Inst164Quest9 = "9. Rod of Azure"
 Inst164Quest9_Aim = "Retrieve a Skystone Rod from Dargrul the Underking in Neltharion's Lair, a Radiant Zephyrite from Ozruk in The Stonecore and a pile of Ancient Arkhana from Scholomance."
 Inst164Quest9_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
-Inst164Quest9_Note = "Enchanting quest.  Normal or Heroic difficulty.  The Skystone Rod drops from the final boss in the dungeon.  The other two items drop from The Stonecore and Scholomance dungeons."
+Inst164Quest9_Note = "LEGION Enchanting quest.  Normal or Heroic difficulty.  The Skystone Rod drops from the final boss in the dungeon.  The Radiant Zephyrite drops from the second to last boss in The Stonecore (Cataclysm - Deepholm).  Ancient Arkhana drops from the last boss in Scholomance (Classic - Western Plaguelands)."
 Inst164Quest9_Prequest = "On Azure Wings"
 Inst164Quest9_Folgequest = "Down to the Core"
 Inst164Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst164Quest10 = "10. Neltharion's Lair: Potent Powder"
+Inst164Quest10 = "10. Potent Powder"
 Inst164Quest10_Aim = "Acquire Precipitating Powder in Neltharion's Lair and bring it to Deucus Valdera in Dalaran."
 Inst164Quest10_Location = "Deucus Valdera (Dalaran; "..YELLOW.."41.6, 32.8"..WHITE..")"
 Inst164Quest10_Note = "Alchemy quest.  Normal or Heroic difficulty.  The Precipitating Powder is on a table after the second boss.  Finish the dungeon to complete the quest."
@@ -2131,7 +2130,7 @@ Inst164Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst164Quest11 = "11. Neltharion's Lair: Braid of the Underking"
+Inst164Quest11 = "11. Braid of the Underking"
 Inst164Quest11_Aim = "Retrieve the Braid of the Underking from Neltharion's Lair."
 Inst164Quest11_Location = "Salanar the Horseman (Ebon Hold; "..YELLOW.."98.8, 59.2"..WHITE..")"
 Inst164Quest11_Note = "Death Knight quest.  Normal or Heroic difficulty.  The Braid of the Underking drops from the final boss."
@@ -2141,7 +2140,7 @@ Inst164Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst164Quest12 = "12. Neltharion's Lair: Essence of Tenacity"
+Inst164Quest12 = "12. Essence of Tenacity"
 Inst164Quest12_Aim = "Collect 1 Essence of Tenacity from Rokmora in Neltharion's Lair, then slay Dar'grul the Underking."
 Inst164Quest12_Location = "Son of Ursoc (Emerald Dreamway; "..YELLOW.."34.4, 62.0"..WHITE..")"
 Inst164Quest12_Note = "Druid quest.  Normal or Heroic difficulty.  The Essence of Tenacity drops from the first boss.  Finish the dungeon to complete the quest.   Turn the quest in to Keeper Remulos at The Dreamgrove; "..YELLOW.."44.8, 50.6"..WHITE.."."
@@ -2150,7 +2149,7 @@ Inst164Quest12_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst164Quest13 = "13. Neltharion's Lair: The Earthen Amulet"
+Inst164Quest13 = "13. The Earthen Amulet"
 Inst164Quest13_Aim = "Retrieve the Earthen Amulet from Dargrul the Underking in Neltharion's Lair."
 Inst164Quest13_Location = "Elementalist Janai (The Maelstrom; "..YELLOW.."29.4, 77.4"..WHITE..")"
 Inst164Quest13_Note = "Shaman quest.  Normal or Heroic difficulty.  The Earthen Amulet drops from the final boss."
@@ -2307,7 +2306,7 @@ Inst165Quest1_Folgequest = "None"
 Inst165Quest1name1 = "Unmarked Suramar Vault Crate"
 
 --Quest 2 Alliance
-Inst165Quest2 = "2. The Arcway: Clogged Drain"
+Inst165Quest2 = "2. Clogged Drain"
 Inst165Quest2_Aim = "Defeat Sludge Face and Advisor Vandros in The Arcway."
 Inst165Quest2_Location = ""
 Inst165Quest2_Note = AQ_WORLDDUNGEONQUEST
@@ -2316,7 +2315,7 @@ Inst165Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst165Quest3 = "3. The Arcway: Silver Serpent"
+Inst165Quest3 = "3. Silver Serpent"
 Inst165Quest3_Aim = "Defeat Silver Serpent and Advisor Vandros in The Arcway."
 Inst165Quest3_Location = ""
 Inst165Quest3_Note = AQ_WORLDDUNGEONQUEST
@@ -2325,7 +2324,7 @@ Inst165Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst165Quest4 = "4. The Arcway: Wandering Plague"
+Inst165Quest4 = "4. Wandering Plague"
 Inst165Quest4_Aim = "Defeat The Rat King and Advisor Vandros in The Arcway."
 Inst165Quest4_Location = ""
 Inst165Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -2452,7 +2451,7 @@ Inst166Quest3_Folgequest = "None"
 Inst166Quest3name1 = "Bag of Confiscated Materials"
 
 --Quest 4 Alliance
-Inst166Quest4 = "4. Vault of the Wardens: How'd He Get Up There?"
+Inst166Quest4 = "4. How'd He Get Up There?"
 Inst166Quest4_Aim = "Defeat the Construct and Cordana in the Vault of the Wardens."
 Inst166Quest4_Location = "Vault of the Wardens (Auto-accept)"
 Inst166Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -2489,7 +2488,7 @@ Inst166Quest7_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst166Quest8 = "8. Vault of the Wardens: Startup Sequence"
+Inst166Quest8 = "8. Startup Sequence"
 Inst166Quest8_Aim = "Complete the startup sequence and defeat Cordana."
 Inst166Quest8_Location = ""
 Inst166Quest8_Note = AQ_WORLDDUNGEONQUEST
@@ -2538,7 +2537,7 @@ Inst166Quest12PreQuest = "true"
 Inst166Quest12name1 = "Demonic Command Shards"
 
 --Quest 13 Alliance
-Inst166Quest13 = "13. Vault of the Wardens: A Masterpiece of Flesh"
+Inst166Quest13 = "13. A Masterpiece of Flesh"
 Inst166Quest13_Aim = "Retrieve the Beating Fel-Heart and Demonic Entrails from Vault of the Wardens."
 Inst166Quest13_Location = "Lord Thorval (Icecrown Citadel; "..YELLOW..""..WHITE..")"
 Inst166Quest13_Note = "Death Knight quest.  Normal or Heroic difficulty.  All items drop from bosses in Vault of the Wardens."
@@ -2548,7 +2547,7 @@ Inst166Quest13PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
-Inst166Quest14 = "14. Vault of the Wardens: Vault Break-In"
+Inst166Quest14 = "14. Vault Break-In"
 Inst166Quest14_Aim = "Retrieve the Sargerite Keystone."
 Inst166Quest14_Location = "Belath Dawnblade (Mardum, the Shattered Abyss; "..YELLOW.."57.6, 53.4"..WHITE..")"
 Inst166Quest14_Note = "Demon Hunter quest.  Normal or Heroic difficulty.  The Sargerite Keystone drops from the final boss."
@@ -2558,7 +2557,7 @@ Inst166Quest14PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst166Quest15 = "15. Vault of the Wardens: Matters of the Heart"
+Inst166Quest15 = "15. Matters of the Heart"
 Inst166Quest15_Aim = "Collect a Felsworn Heart from Cordana within The Vault of the Wardens dungeon."
 Inst166Quest15_Location = "Kira Iresoul (Dreadscar Rift; "..YELLOW.."56.0, 35.4"..WHITE..")"
 Inst166Quest15_Note = "Warlock quest.  Normal or Heroic.  The Felsworn Heart drops from the final boss."
@@ -2719,8 +2718,8 @@ Inst166Quest15PreQuest_HORDE = Inst166Quest15PreQuest
 --------------- INST167 - The Emerald Nightmare ---------------
 
 Inst167Caption = "The Emerald Nightmare"
-Inst167QAA = "4 Quests"
-Inst167QAH = "4 Quests"
+Inst167QAA = "9 Quests"
+Inst167QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst167Quest1 = "1. Piercing the Veil (Normal)"
@@ -2758,6 +2757,55 @@ Inst167Quest4_Prequest = "None"
 Inst167Quest4_Folgequest = "None"
 --
 Inst167Quest4name1 = "Dream Tear"
+
+--Quest 5 Alliance
+Inst167Quest5 = "5. Rage Fire"
+Inst167Quest5_Aim = "Travel to the Emerald Nightmare and acquire Nythendra's Heart. Bring it to Alard in Dalaran."
+Inst167Quest5_Location = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")"
+Inst167Quest5_Note = "Alchemy quest.  Any raid difficulty level.  Nythendra's Heart drops from the first boss in the raid."
+Inst167Quest5_Prequest = "Black Rook Hold: Heavy, But Helpful"
+Inst167Quest5_Folgequest = "None"
+Inst167Quest5PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst167Quest6 = "6. Felwort Mastery"
+Inst167Quest6_Aim = "Travel to the Emerald Nightmare and cleanse Cenarius of his affliction. Bring back anything you discover to Kuhuine in Dalaran."
+Inst167Quest6_Location = "Kuhuine Tenderstride (Dalaran; "..YELLOW.."42.8, 33.8"..WHITE..")"
+Inst167Quest6_Note = "Herbalism quest.  Any raid difficulty level.  Cenarius is the second to last boss of the raid.  Reportedly this quest becomes available a day or so after reaching Rank 2 on Gathering for all Legion herbs."
+Inst167Quest6_Prequest = "None"
+Inst167Quest6_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst167Quest7 = "7. The Pestilential Hide of Nythendra"
+Inst167Quest7_Aim = "Obtain the Pestilential Hide of Nythendra."
+Inst167Quest7_Location = "Kondal Huntsworn (Dalaran; "..YELLOW.."35.8, 28.6"..WHITE..")"
+Inst167Quest7_Note = "Skinning quest.  Any raid difficulty level.  The Pestilential Hide of Nythendra drops from the first boss in the raid."
+Inst167Quest7_Prequest = "Darkheart Thicket: Demons Be Different"
+Inst167Quest7_Folgequest = "None"
+Inst167Quest7PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst167Quest8 = "8. The Emerald Nightmare"
+Inst167Quest8_Aim = "Enter the Emerald Nightmare raid on any difficulty and defeat Lord Xavius."
+Inst167Quest8_Location = "Rensar Greathoof (The Dreamgrove; "..YELLOW.."44.8, 51.4"..WHITE..")"
+Inst167Quest8_Note = "Druid quest.  Any raid difficulty level.  Xavius is the final boss in the raid."
+Inst167Quest8_Prequest = "The Demi-God's Return"
+Inst167Quest8_Folgequest = "None"
+Inst167Quest8PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 9 Alliance
+Inst167Quest9 = "9. In Nightmares"
+Inst167Quest9_Aim = "Obtain a Deathglare Iris and the Horn of the Nightmare Lord from the Emerald Nightmare on Normal difficulty or higher."
+Inst167Quest9_Location = "Archmage Kalec (Azsuna; "..YELLOW.."48.0, 25.6"..WHITE..")"
+Inst167Quest9_Note = "The items drop from  Il'gynoth and Xavius.  Normal or higher difficulty level.  The items will not drop on LFR."
+Inst167Quest9_Prequest = "None"
+Inst167Quest9_Folgequest = "None"
+Inst167Quest9PreQuest = "true"
+-- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2797,8 +2845,57 @@ Inst167Quest4_HORDE_Folgequest = Inst167Quest4_Folgequest
 --
 Inst167Quest4name1_HORDE = Inst167Quest4name1
 
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst167Quest5_HORDE = Inst167Quest5
+Inst167Quest5_HORDE_Aim = Inst167Quest5_Aim
+Inst167Quest5_HORDE_Location = Inst167Quest5_Location
+Inst167Quest5_HORDE_Note = Inst167Quest5_Note
+Inst167Quest5_HORDE_Prequest = Inst167Quest5_Prequest
+Inst167Quest5_HORDE_Folgequest = Inst167Quest5_Folgequest
+Inst167Quest5PreQuest_HORDE = Inst167Quest5PreQuest
+-- No Rewards for this quest
 
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst167Quest6_HORDE = Inst167Quest6
+Inst167Quest6_HORDE_Aim = Inst167Quest6_Aim
+Inst167Quest6_HORDE_Location = Inst167Quest6_Location
+Inst167Quest6_HORDE_Note = Inst167Quest6_Note
+Inst167Quest6_HORDE_Prequest = Inst167Quest6_Prequest
+Inst167Quest6_HORDE_Folgequest = Inst167Quest6_Folgequest
+-- No Rewards for this quest
 
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst167Quest7_HORDE = Inst167Quest7
+Inst167Quest7_HORDE_Aim = Inst167Quest7_Aim
+Inst167Quest7_HORDE_Location = Inst167Quest7_Location
+Inst167Quest7_HORDE_Note = Inst167Quest7_Note
+Inst167Quest7_HORDE_Prequest = Inst167Quest7_Prequest
+Inst167Quest7_HORDE_Folgequest = Inst167Quest7_Folgequest
+Inst167Quest7PreQuest_HORDE = Inst167Quest7PreQuest
+-- No Rewards for this quest
+ 
+--Quest 8 Horde  (same as Quest 8 Alliance)
+Inst167Quest8_HORDE = Inst167Quest8
+Inst167Quest8_HORDE_Aim = Inst167Quest8_Aim
+Inst167Quest8_HORDE_Location = Inst167Quest8_Location
+Inst167Quest8_HORDE_Note = Inst167Quest8_Note
+Inst167Quest8_HORDE_Prequest = Inst167Quest8_Prequest
+Inst167Quest8_HORDE_Folgequest = Inst167Quest8_Folgequest
+Inst167Quest8PreQuest_HORDE = Inst167Quest8PreQuest
+-- No Rewards for this quest
+ 
+--Quest 9 Horde  (same as Quest 9 Alliance)
+Inst167Quest9_HORDE = Inst167Quest9
+Inst167Quest9_HORDE_Aim = Inst167Quest9_Aim
+Inst167Quest9_HORDE_Location = Inst167Quest9_Location
+Inst167Quest9_HORDE_Note = Inst167Quest9_Note
+Inst167Quest9_HORDE_Prequest = Inst167Quest9_Prequest
+Inst167Quest9_HORDE_Folgequest = Inst167Quest9_Folgequest
+Inst167Quest9PreQuest_HORDE = Inst167Quest9PreQuest
+-- No Rewards for this quest
+    
+ 
+ 
 --------------- INST168 - The Nighthold ---------------
 
 Inst168Caption = "The Nighthold"
@@ -2806,7 +2903,7 @@ Inst168QAA = "13 Quests"
 Inst168QAH = "13 Quests"
 
 --Quest 1 Alliance
-Inst168Quest1 = "1. The Nighthold: Creepy Crawlers"
+Inst168Quest1 = "1. Creepy Crawlers"
 Inst168Quest1_Aim = "Defeat Kar'zun."
 Inst168Quest1_Location = "The Nighthold (Auto-accept)"
 Inst168Quest1_Note = AQ_WORLDDUNGEONQUEST
@@ -2815,7 +2912,7 @@ Inst168Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst168Quest2 = "2. The Nighthold: Ettin Your Foot In The Door"
+Inst168Quest2 = "2. Ettin Your Foot In The Door"
 Inst168Quest2_Aim = "Defeat Torm the Brute."
 Inst168Quest2_Location = "The Nighthold (Auto-accept)"
 Inst168Quest2_Note = AQ_WORLDDUNGEONQUEST
@@ -2824,7 +2921,7 @@ Inst168Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst168Quest3 = "3. The Nighthold: Focused Power"
+Inst168Quest3 = "3. Focused Power"
 Inst168Quest3_Aim = "Slay 2 Nightwell Diviners."
 Inst168Quest3_Location = "The Nighthold (Auto-accept)"
 Inst168Quest3_Note = AQ_WORLDDUNGEONQUEST
@@ -2833,7 +2930,7 @@ Inst168Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst168Quest4 = "4. The Nighthold: Gilded Guardian"
+Inst168Quest4 = "4. Gilded Guardian"
 Inst168Quest4_Aim = "Defeat Gilded Guardian."
 Inst168Quest4_Location = "The Nighthold (Auto-accept)"
 Inst168Quest4_Note = AQ_WORLDDUNGEONQUEST
@@ -2842,7 +2939,7 @@ Inst168Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst168Quest5 = "5. The Nighthold: Love Tap"
+Inst168Quest5 = "5. Love Tap"
 Inst168Quest5_Aim = "Eliminate Elisande's Private Attendants (34 Wild Sycophants)."
 Inst168Quest5_Location = "The Nighthold (Auto-accept)"
 Inst168Quest5_Note = AQ_WORLDDUNGEONQUEST
@@ -2851,7 +2948,7 @@ Inst168Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst168Quest6 = "6. The Nighthold: Seeds of Destruction"
+Inst168Quest6 = "6. Seeds of Destruction"
 Inst168Quest6_Aim = "Defeat Doomlash."
 Inst168Quest6_Location = "The Nighthold (Auto-accept)"
 Inst168Quest6_Note = AQ_WORLDDUNGEONQUEST
@@ -2860,7 +2957,7 @@ Inst168Quest6_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst168Quest7 = "7. The Nighthold: Supply Routes"
+Inst168Quest7 = "7. Supply Routes"
 Inst168Quest7_Aim = "Defeat Flightmaster Volnath."
 Inst168Quest7_Location = "The Nighthold (Auto-accept)"
 Inst168Quest7_Note = AQ_WORLDDUNGEONQUEST
@@ -2869,7 +2966,7 @@ Inst168Quest7_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst168Quest8 = "8. The Nighthold: Wailing In The Night"
+Inst168Quest8 = "8. Wailing In The Night"
 Inst168Quest8_Aim = "Defeat Ariadne."
 Inst168Quest8_Location = "The Nighthold (Auto-accept)"
 Inst168Quest8_Note = AQ_WORLDDUNGEONQUEST
@@ -3149,7 +3246,7 @@ Inst169Quest9_Folgequest = "None"
 Inst169Quest9name1 = "Glittering Pack"
 
 --Quest 10 Alliance
-Inst169Quest10 = "10. Return to Karazhan: Cubic Cynosure"
+Inst169Quest10 = "10. Cubic Cynosure"
 Inst169Quest10_Aim = "Obtain a Mana Focus from the Mana Devourer within Karazhan"
 Inst169Quest10_Location = "Dariness The Learned (Dalaran - Things of the Past; "..YELLOW.."40.5, 26.3"..WHITE..")"
 Inst169Quest10_Note = "The Mana Devourer is located at "..YELLOW.."[9]"..WHITE.."."
@@ -3159,17 +3256,17 @@ Inst169Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst169Quest11 = "11. Return to Karazhan: Scales of Legend"
+Inst169Quest11 = "11. Scales of Legend"
 Inst169Quest11_Aim = "Obtain the Scale of Netherspite from Karazhan, the Scale of Sartharion from the Obsidian Sanctum, and the Scales of Garalon from the Heart of Fear."
 Inst169Quest11_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
-Inst169Quest11_Note = "Skinning quest.  The Scale of Netherspite drops from Netherspite.  The other two quest items drop from Obsidian Sanctum in Northrend and Heart of Fear in Pandaria."
+Inst169Quest11_Note = "LEGION Skinning quest.  The Scale of Netherspite drops from Netherspite.  The Scale of Sartharion drops from the only boss in Obsidian Sanctum (Northrend - Dragonblight).  The Scales of Garalon drop from the third boss in Heart of Fear (Pandaria - Dread Wastes)."
 Inst169Quest11_Prequest = "Scales for Ske'rit"
 Inst169Quest11_Folgequest = "Eye of Azshara: The Scales of Serpentrix"
 Inst169Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst169Quest12 = "12. Return to Karazhan: The Big Bag Theory"
+Inst169Quest12 = "12. The Big Bag Theory"
 Inst169Quest12_Aim = "Recover a Bag of a Thousand Pockets and a Fel Sinew Bag from Karazhan."
 Inst169Quest12_Location = "Leyweaver Tytallo (Suramar; "..YELLOW.."40.4, 69.4"..WHITE..")"
 Inst169Quest12_Note = "Tailoring quest.  The Bag of a Thousand Pockets drops from Moroes and the Fel Sinew Bag from Viz'aduum the Watcher."
@@ -3379,7 +3476,7 @@ Inst171QAA = "7 Quests"
 Inst171QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst171Quest1 = "1. Tomb of Sargeras: Azshara's Reach"
+Inst171Quest1 = "1. Azshara's Reach"
 Inst171Quest1_Aim = "Slay Warlord Darjah."
 Inst171Quest1_Location = "Tomb of Sargeras (auto accepted)"
 Inst171Quest1_Note = AQ_WORLDDUNGEONQUEST
@@ -3388,7 +3485,7 @@ Inst171Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst171Quest2 = "2. Tomb of Sargeras: Life After Death"
+Inst171Quest2 = "2. Life After Death"
 Inst171Quest2_Aim = "Defeat Ryul the Fading."
 Inst171Quest2_Location = "Tomb of Sargeras (auto accepted)"
 Inst171Quest2_Note = AQ_WORLDDUNGEONQUEST
@@ -3397,7 +3494,7 @@ Inst171Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst171Quest3 = "3. Tomb of Sargeras: Lost But Not Forgotten"
+Inst171Quest3 = "3. Lost But Not Forgotten"
 Inst171Quest3_Aim = "Defeat Naisha."
 Inst171Quest3_Location = "Tomb of Sargeras (auto accepted)"
 Inst171Quest3_Note = AQ_WORLDDUNGEONQUEST
@@ -3406,7 +3503,7 @@ Inst171Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst171Quest4 = "4. Tomb of Sargeras: The Dread Stalker"
+Inst171Quest4 = "4. The Dread Stalker"
 Inst171Quest4_Aim = "Defeat the Dread Stalker."
 Inst171Quest4_Location = "Tomb of Sargeras (auto accepted)"
 Inst171Quest4_Note = AQ_WORLDDUNGEONQUEST

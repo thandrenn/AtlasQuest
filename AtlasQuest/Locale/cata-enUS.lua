@@ -287,8 +287,8 @@ Inst96Quest2name3_HORDE = Inst96Quest2name3
 --------------- INST97 - The Stonecore ---------------
 
 Inst97Caption = "The Stonecore"
-Inst97QAA = "4 Quests"
-Inst97QAH = "4 Quests"
+Inst97QAA = "5 Quests"
+Inst97QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst97Quest1 = "1. Into the Stonecore"
@@ -341,6 +341,16 @@ Inst97Quest4name1 = "Leggings of the Lost Child"
 Inst97Quest4name2 = "Stonecore Belt"
 Inst97Quest4name3 = "Crystal Shimmer Cloak"
 
+--Quest 5 Alliance
+Inst97Quest5 = "5. Rod of Azure"
+Inst97Quest5_Aim = "Retrieve a Skystone Rod from Dargrul the Underking in Neltharion's Lair, a Radiant Zephyrite from Ozruk in The Stonecore and a pile of Ancient Arkhana from Scholomance."
+Inst97Quest5_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
+Inst97Quest5_Note = "LEGION Enchanting quest.  Normal or Heroic difficulty.  The Skystone Rod drops from the final boss in the dungeon.  The Radiant Zephyrite drops from the second to last boss in The Stonecore (Cataclysm - Deepholm).  Ancient Arkhana drops from the last boss in Scholomance (Classic - Western Plaguelands)."
+Inst97Quest5_Prequest = "On Azure Wings"
+Inst97Quest5_Folgequest = "Down to the Core"
+Inst97Quest5PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst97Quest1_HORDE = Inst97Quest1
@@ -392,6 +402,16 @@ Inst97Quest4_HORDE_Folgequest = Inst97Quest4_Folgequest
 Inst97Quest4name1_HORDE = Inst97Quest4name1
 Inst97Quest4name2_HORDE = Inst97Quest4name2
 Inst97Quest4name3_HORDE = Inst97Quest4name3
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst97Quest5_HORDE = Inst97Quest5
+Inst97Quest5_HORDE_Aim = Inst97Quest5_Aim
+Inst97Quest5_HORDE_Location = Inst97Quest5_Location
+Inst97Quest5_HORDE_Note = Inst97Quest5_Note
+Inst97Quest5_HORDE_Prequest = Inst97Quest5_Prequest
+Inst97Quest5_HORDE_Folgequest = Inst97Quest5_Folgequest
+Inst97Quest5PreQuest_HORDE = Inst97Quest5PreQuest
+-- No Rewards for this quest
 
 
 
@@ -788,8 +808,29 @@ Inst104QAH = "No Quests"
 --------------- INST105 - Baradin Hold ---------------
 
 Inst105Caption = "Baradin Hold"
-Inst105QAA = "No Quests"
-Inst105QAH = "No Quests"
+Inst105QAA = "1 Quest"
+Inst105QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst105Quest1 = "1. Hides of Legend"
+Inst105Quest1_Aim = "Obtain the Hide of Icehowl from the Trial of the Crusader, the Hide of Occu'thar from Baradin Hold and the Hide of Horridon from the Throne of Thunder."
+Inst105Quest1_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst105Quest1_Note = "LEGION Skinning quest.  Icehowl is the first boss in the Trial of the Crusader raid.  To reach Occu'thar, enter Baradin Hold and make the first left turn.  Horridon is the second boss in Throne of Thunder."
+Inst105Quest1_Prequest = "Halls of Valor: The Hide of Fenryr"
+Inst105Quest1_Folgequest = "Ske'rit's Leather Handbook"
+Inst105Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst105Quest1_HORDE = Inst105Quest1
+Inst105Quest1_HORDE_Aim = Inst105Quest1_Aim
+Inst105Quest1_HORDE_Location = Inst105Quest1_Location
+Inst105Quest1_HORDE_Note = Inst105Quest1_Note
+Inst105Quest1_HORDE_Prequest = Inst105Quest1_Prequest
+Inst105Quest1_HORDE_Folgequest = Inst105Quest1_Folgequest
+Inst105Quest1PreQuest_HORDE = Inst105Quest1PreQuest
+-- No Rewards for this quest
 
 
 

@@ -2,11 +2,13 @@
 Changelog
 =========
 
-Version 4.10.32  (August ??, 2017)
+Version 4.10.40  (August 29, 2017)
 
 - TOC file updated for Patch 7.3.
 
 - Fixed quests not showing for The Deadmines, Scarlet Halls, Scarlet Monastery, Shadowfang Keep and Scholomance. 
+
+- Blizzard now includes the name of the dungeon or raid with the quests.  This was causing some text alignment issues with so many quests, so I removed the Dungeon names and just kept the quest names for each quest.  Will break the code that detects if you're on a quest until I can re-work it.
 
 - Many profession and Order Hall quests added: 
 	- Assault on Violet Hold: The Fel Lexicon
@@ -47,6 +49,19 @@ Version 4.10.32  (August ??, 2017)
 	- Vault of the Wardens: Matters of the Heart
 	- Return to Karazhan: Scales of Legend
 	- Return to Karazhan: The Big Bag Theory
+	- The Emerald Nightmare: Rage Fire
+	- The Emerald Nightmare: Felwort Mastery
+	- The Emerald Nightmare: The Pestilential Hide of Nythendra
+	- The Emerald Nightmare: The Emerald Nightmare
+	- The Emerald Nightmare: In Nightmares
+	- Blackrock Depths: Jewel of the Depths
+	- Trial of the Crusader: Hides of Legend
+	- Baradin Hold: Hides of Legend
+	- Throne of Thunder: Hides of Legend
+	- The Stonecore: Rod of Azure
+	- Scholomance: Rod of Azure
+	- Heart of Fear: Scales of Legend
+	- Obsidian Sanctum: Scales of Legend
 
 
 

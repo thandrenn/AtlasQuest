@@ -134,6 +134,10 @@ Inst5Quest19_QuestID = "7848"
 Inst5Quest20_QuestID = "4083"
 Inst5Quest21_QuestID = "12491"
 
+Inst5Quest22_QuestID = "44952"
+Inst5Quest22_Level = "56"
+Inst5Quest22_Attain = "50"
+
 Inst5Quest1_HORDE_QuestID = "27579"
 Inst5Quest2_HORDE_QuestID = "27581"
 Inst5Quest3_HORDE_QuestID = "27603"
@@ -156,6 +160,10 @@ Inst5Quest19_HORDE_QuestID = "28466"
 Inst5Quest20_HORDE_QuestID = "7848"
 Inst5Quest21_HORDE_QuestID = "4083"
 Inst5Quest22_HORDE_QuestID = "12492"
+
+Inst5Quest23_HORDE_QuestID = "44952"
+Inst5Quest23_HORDE_Level = "56"
+Inst5Quest23_HORDE_Attain = "50"
 
 
 
@@ -354,11 +362,19 @@ Inst20Quest3_QuestID = "31447"
 Inst20Quest4_QuestID = "31448"
 Inst20Quest5_QuestID = "28756"
 
+Inst20Quest6_QuestID = "39921"
+Inst20Quest6_Level = "110"
+Inst20Quest6_Attain = "110"
+
 Inst20Quest1_HORDE_QuestID = "31440"
 Inst20Quest2_HORDE_QuestID = "31442"
 Inst20Quest3_HORDE_QuestID = "31447"
 Inst20Quest4_HORDE_QuestID = "31448"
 Inst20Quest5_HORDE_QuestID = "28756"
+
+Inst20Quest6_HORDE_QuestID = "39921"
+Inst20Quest6_HORDE_Level = "110"
+Inst20Quest6_HORDE_Attain = "110"
 
 
 
@@ -1079,8 +1095,21 @@ Inst78Quest4_HORDE_QuestID = "29860"
 --------------- INST79 - The Obsidian Sanctum ---------------
 
 Inst79Quest1_QuestID = "24579"
+Inst79Quest1_Level = "80"
+Inst79Quest1_Attain = "80"
+
+Inst79Quest2_QuestID = "40153"
+Inst79Quest2_Level = "110"
+Inst79Quest2_Attain = "110"
+
 
 Inst79Quest1_HORDE_QuestID = "24579"
+Inst79Quest1_HORDE_Level = "80"
+Inst79Quest1_HORDE_Attain = "80"
+
+Inst79Quest2_HORDE_QuestID = "40153"
+Inst79Quest2_HORDE_Level = "110"
+Inst79Quest2_HORDE_Attain = "110"
 
 
 
@@ -1203,8 +1232,21 @@ Inst87Quest1_HORDE_QuestID = "29851"
 --------------- INST88 - Trial of the Crusader ---------------
 
 Inst88Quest1_QuestID = "24589"
+Inst88Quest1_Level = "80"
+Inst88Quest1_Attain = "80"
+
+Inst88Quest2_QuestID = "40138"
+Inst88Quest2_Level = "98"
+Inst88Quest2_Attain = "98"
+
 
 Inst88Quest1_HORDE_QuestID = "24589"
+Inst88Quest1_HORDE_Level = "80"
+Inst88Quest1_HORDE_Attain = "80"
+
+Inst88Quest2_HORDE_QuestID = "40138"
+Inst88Quest2_HORDE_Level = "98"
+Inst88Quest2_HORDE_Attain = "98"
 
 
 
@@ -1319,10 +1361,19 @@ Inst97Quest2_QuestID = "28815"
 Inst97Quest3_QuestID = "28814"
 Inst97Quest4_QuestID = "28824"
 
+Inst97Quest5_QuestID = "39921"
+Inst97Quest5_Level = "110"
+Inst97Quest5_Attain = "110"
+
+
 Inst97Quest1_HORDE_QuestID = "28866"
 Inst97Quest2_HORDE_QuestID = "28815"
 Inst97Quest3_HORDE_QuestID = "28814"
 Inst97Quest4_HORDE_QuestID = "28824"
+
+Inst97Quest5_HORDE_QuestID = "39921"
+Inst97Quest5_HORDE_Level = "110"
+Inst97Quest5_HORDE_Attain = "110"
 
 
 
@@ -1387,6 +1438,15 @@ Inst101Quest3_HORDE_QuestID = "28783"
 
 
 --------------- INST105 - Baradin Hold ---------------
+
+Inst105Quest1_QuestID = "40138"
+Inst105Quest1_Level = "98"
+Inst105Quest1_Attain = "98"
+
+
+Inst105Quest1_HORDE_QuestID = "40138"
+Inst105Quest1_HORDE_Level = "98"
+Inst105Quest1_HORDE_Attain = "98"
 
 
 
@@ -1558,6 +1618,15 @@ Inst119Quest2_HORDE_QuestID = "31366"
 
 --------------- INST122 - Heart of Fear ---------------
 
+Inst122Quest1_QuestID = "40153"
+Inst122Quest1_Level = "110"
+Inst122Quest1_Attain = "110"
+
+
+Inst122Quest1_HORDE_QuestID = "40153"
+Inst122Quest1_HORDE_Level = "110"
+Inst122Quest1_HORDE_Attain = "110"
+
 
 
 --------------- INST138 - Throne of Thunder ---------------
@@ -1571,6 +1640,11 @@ Inst138Quest6_QuestID = "32711"
 Inst138Quest7_QuestID = "32710"
 Inst138Quest8_QuestID = "32712"
 
+Inst138Quest9_QuestID = "40138"
+Inst138Quest9_Level = "98"
+Inst138Quest9_Attain = "98"
+
+
 Inst138Quest1_HORDE_QuestID = "32589"
 Inst138Quest2_HORDE_QuestID = "32715"
 Inst138Quest3_HORDE_QuestID = "32714"
@@ -1579,6 +1653,10 @@ Inst138Quest5_HORDE_QuestID = "32716"
 Inst138Quest6_HORDE_QuestID = "32711"
 Inst138Quest7_HORDE_QuestID = "32710"
 Inst138Quest8_HORDE_QuestID = "32712"
+
+Inst138Quest9_HORDE_QuestID = "40138"
+Inst138Quest9_HORDE_Level = "98"
+Inst138Quest9_HORDE_Attain = "98"
 
 
 
@@ -2930,6 +3008,26 @@ Inst167Quest4_QuestID = "43362"
 Inst167Quest4_Level = "110"
 Inst167Quest4_Attain = "110"
 
+Inst167Quest5_QuestID = "39351"
+Inst167Quest5_Level = "110"
+Inst167Quest5_Attain = "110"
+
+Inst167Quest6_QuestID = "40042"
+Inst167Quest6_Level = "110"
+Inst167Quest6_Attain = "110"
+
+Inst167Quest7_QuestID = "40159"
+Inst167Quest7_Level = "110"
+Inst167Quest7_Attain = "110"
+
+Inst167Quest8_QuestID = "42432"
+Inst167Quest8_Level = "110"
+Inst167Quest8_Attain = "110"
+
+Inst167Quest9_QuestID = "43520"
+Inst167Quest9_Level = "110"
+Inst167Quest9_Attain = "110"
+
 
 Inst167Quest1_HORDE_QuestID = "44283"
 Inst167Quest1_HORDE_Level = "110"
@@ -2946,6 +3044,26 @@ Inst167Quest3_HORDE_Attain = "110"
 Inst167Quest4_HORDE_QuestID = "43362"
 Inst167Quest4_HORDE_Level = "110"
 Inst167Quest4_HORDE_Attain = "110"
+
+Inst167Quest5_HORDE_QuestID = "39351"
+Inst167Quest5_HORDE_Level = "110"
+Inst167Quest5_HORDE_Attain = "110"
+
+Inst167Quest6_HORDE_QuestID = "40042"
+Inst167Quest6_HORDE_Level = "110"
+Inst167Quest6_HORDE_Attain = "110"
+
+Inst167Quest7_HORDE_QuestID = "40159"
+Inst167Quest7_HORDE_Level = "110"
+Inst167Quest7_HORDE_Attain = "110"
+
+Inst167Quest8_HORDE_QuestID = "42432"
+Inst167Quest8_HORDE_Level = "110"
+Inst167Quest8_HORDE_Attain = "110"
+
+Inst167Quest9_HORDE_QuestID = "43520"
+Inst167Quest9_HORDE_Level = "110"
+Inst167Quest9_HORDE_Attain = "110"
 
 
 
@@ -3100,9 +3218,9 @@ Inst169Quest10_QuestID = "45238"
 Inst169Quest10_Level = "110"
 Inst169Quest10_Attain = "110"
 
-Inst169Quest11_QuestID = "40153"
-Inst169Quest11_Level = "110"
-Inst169Quest11_Attain = "110"
+Inst79Quest2_QuestID = "40153"
+Inst79Quest2_Level = "110"
+Inst79Quest2_Attain = "110"
 
 Inst169Quest12_QuestID = "44741"
 Inst169Quest12_Level = "110"
@@ -3149,9 +3267,9 @@ Inst169Quest10_HORDE_QuestID = "45238"
 Inst169Quest10_HORDE_Level = "110"
 Inst169Quest10_HORDE_Attain = "110"
 
-Inst169Quest11_HORDE_QuestID = "40153"
-Inst169Quest11_HORDE_Level = "110"
-Inst169Quest11_HORDE_Attain = "110"
+Inst79Quest2_HORDE_QuestID = "40153"
+Inst79Quest2_HORDE_Level = "110"
+Inst79Quest2_HORDE_Attain = "110"
 
 Inst169Quest12_HORDE_QuestID = "44741"
 Inst169Quest12_HORDE_Level = "110"

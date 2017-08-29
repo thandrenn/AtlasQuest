@@ -439,6 +439,13 @@ Inst5Quest21ITC1 = Itemc3;
 Inst5Quest21description1 = AQITEM_ITEM
 Inst5Quest21ID1 = "37829"
 
+--Quest 22 Alliance
+Inst5Quest22Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst5Quest22ITC1 = Itemc2;
+Inst5Quest22description1 = AQITEM_ITEM
+Inst5Quest22ID1 = "142357"
+
 
 --Quest 1 Horde
 Inst5Quest1Rewardtext_HORDE = AQNoReward
@@ -593,6 +600,13 @@ Inst5Quest22Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x40)"
 Inst5Quest22ITC1_HORDE = Itemc3;
 Inst5Quest22description1_HORDE = AQITEM_ITEM
 Inst5Quest22ID1_HORDE = "37829"
+
+--Quest 23 Horde
+Inst5Quest23Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst5Quest23ITC1_HORDE = Itemc2;
+Inst5Quest23description1_HORDE = AQITEM_ITEM
+Inst5Quest23ID1_HORDE = "142357"
 
 
 
@@ -1469,6 +1483,9 @@ Inst20Quest4Rewardtext = AQClassRewards
 --Quest 5 Alliance
 Inst20Quest5Rewardtext = AQNoReward
 
+--Quest 6 Alliance
+Inst20Quest6Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst20Quest1Rewardtext_HORDE = AQNoReward
@@ -1484,6 +1501,9 @@ Inst20Quest4Rewardtext_HORDE = AQClassRewards
 
 --Quest 5 Horde
 Inst20Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst20Quest6Rewardtext_HORDE = AQNoReward
 
 
 
@@ -4909,9 +4929,15 @@ Inst78Quest4ID5_HORDE = "43198"
 --Quest 1 Alliance
 Inst79Quest1Rewardtext = AQNoReward
 
+--Quest 2 Alliance
+Inst79Quest2Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst79Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst79Quest2Rewardtext_HORDE = AQNoReward
 
 
 
@@ -5879,6 +5905,9 @@ Inst97Quest4ITC3 = Itemc4;
 Inst97Quest4description3 = AQITEM_BACK
 Inst97Quest4ID3 = "66897"
 
+--Quest 5 Alliance
+Inst97Quest5Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst97Quest1Rewardtext_HORDE = AQNoReward
@@ -5915,6 +5944,9 @@ Inst97Quest4ID2_HORDE = "66896"
 Inst97Quest4ITC3_HORDE = Itemc4;
 Inst97Quest4description3_HORDE = AQITEM_BACK
 Inst97Quest4ID3_HORDE = "66897"
+
+--Quest 5 Horde
+Inst97Quest5Rewardtext_HORDE = AQNoReward
 
 
 
@@ -6223,6 +6255,13 @@ Inst101Quest3ID3_HORDE = "66909"
 
 
 --------------- INST105 - Baradin Hold ---------------
+
+--Quest 1 Alliance
+Inst105Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst105Quest1Rewardtext_HORDE = AQNoReward
 
 
 
@@ -6743,6 +6782,13 @@ Inst119Quest2Rewardtext_HORDE = AQClassRewards
 
 --------------- INST122 - Heart of Fear ---------------
 
+--Quest 1 Alliance
+Inst122Quest1Rewardtext_HORDE = AQNoReward
+
+
+--Quest 1 Horde
+Inst122Quest1Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST138 - Throne of Thunder ---------------
@@ -6803,6 +6849,9 @@ Inst138Quest8ITC1 = Itemc4;
 Inst138Quest8description1 = AQITEM_ITEM
 Inst138Quest8ID1 = "97153"
 
+--Quest 9 Alliance
+Inst138Quest9Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst138Quest1Rewardtext_HORDE = AQDiscription_REWARD
@@ -6859,6 +6908,9 @@ Inst138Quest8Rewardtext_HORDE = AQDiscription_REWARD
 Inst138Quest8ITC1_HORDE = Itemc4;
 Inst138Quest8description1_HORDE = AQITEM_ITEM
 Inst138Quest8ID1_HORDE = "97153"
+
+--Quest 9 Horde
+Inst138Quest9Rewardtext_HORDE = AQNoReward
 
 
 
@@ -8966,6 +9018,21 @@ Inst167Quest4ITC1 = Itemc5;
 Inst167Quest4description1 = AQITEM_ITEM
 Inst167Quest4ID1 = "140444"
 
+--Quest 5 Alliance
+Inst167Quest5Rewardtext = AQNoReward
+
+--Quest 6 Alliance
+Inst167Quest6Rewardtext = AQNoReward
+
+--Quest 7 Alliance
+Inst167Quest7Rewardtext = AQNoReward
+
+--Quest 8 Alliance
+Inst167Quest8Rewardtext = AQNoReward
+
+--Quest 9 Alliance
+Inst167Quest9Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst167Quest1Rewardtext_HORDE = AQNoReward
@@ -8982,6 +9049,21 @@ Inst167Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 Inst167Quest4ITC1_HORDE = Itemc5;
 Inst167Quest4description1_HORDE = AQITEM_ITEM
 Inst167Quest4ID1_HORDE = "140444"
+
+--Quest 5 Horde
+Inst167Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst167Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst167Quest7Rewardtext_HORDE = AQNoReward
+
+--Quest 8 Horde
+Inst167Quest8Rewardtext_HORDE = AQNoReward
+
+--Quest 9 Horde
+Inst167Quest9Rewardtext_HORDE = AQNoReward
 
 
 
