@@ -470,6 +470,8 @@
 </Frame>
 
 <!-- AtlasQuest Panel-->
+<!-- Don't forget to update AtlasQuest_OptionUI.lua when changing anchor point values.  Specifically the LEFT and RIGHT options. -->
+
 <Frame name="AtlasQuestFrame" toplevel="false" enableMouse="true" movable="false" parent="AtlasFrame">
  <Size>
    <AbsDimension x="198" y="585"/>
