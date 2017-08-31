@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.10.40  (August 29, 2017)
+Version 4.10.40  (August 31, 2017)
 
 - TOC file updated for Patch 7.3.
 
