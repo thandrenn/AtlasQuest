@@ -122,6 +122,7 @@ AQFinishedTEXT = "Abgeschlossen:";
 AQGARRISON = "(Garnision - Mondsturzgasthaus oder Frostwallschenke)"
 AQGARRISONRESOURCES = "Garnisionsressourcen"
 AQAPEXISCRYSTAL = "Apexiskristall"
+AQORDERRESOURCES = " Ordensressourcen"
 
 
 ------------------
@@ -139,6 +140,7 @@ AQITEM_SHIELD = "Schild"
 AQITEM_GUN = "Schusswaffe"
 AQITEM_BOW = "Bogen"
 AQITEM_CROSSBOW = "Armbrust"
+AQITEM_THROWN = "Wurfwaffe"
 
 AQITEM_WAIST = "Taille,"
 AQITEM_SHOULDER = "Schultern,"
@@ -169,7 +171,7 @@ AQITEM_TRINKET = "Schmuck"
 AQITEM_POTION = "Trank"
 AQITEM_NECK = "Hals"
 AQITEM_PATTERN = "Muster"
-AQITEM_BAG = "Behälter"
+AQITEM_BAG = "Tasche"
 AQITEM_RING = "Ring"
 AQITEM_GEM = "Edelstein"
 AQITEM_ENCHANT = "Verzauberung"
@@ -715,14 +717,6 @@ Inst143QAH = "Keine Quests"
 ---------------------------------------------------
 ---------------- OUTDOOR RAIDS --------------------
 ---------------------------------------------------
-
-
-
---------------- INST32 - Highlord Kruul ---------------
-
-Inst32Caption = "Hochlord Kruul"
-Inst32QAA = "Keine Quests"
-Inst32QAH = "Keine Quests"
 
 
 
