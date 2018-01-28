@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.10.41  (January 28, 2018)
+
+- German translation updated.
+
+
+
 Version 4.10.40  (August 31, 2017)
 
 - TOC file updated for Patch 7.3.
