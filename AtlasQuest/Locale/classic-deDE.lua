@@ -573,8 +573,8 @@ Inst4Quest6name3_HORDE = Inst4Quest6name3
 --------------- INST5 - Blackrock Depths (BRD) ---------------
 
 Inst5Caption = "Die Schwarzfelstiefen"
-Inst5QAA = "21 Quests"
-Inst5QAH = "22 Quests"
+Inst5QAA = "22 Quests"
+Inst5QAH = "23 Quests"
 
 --Quest 1 Alliance
 Inst5Quest1 = "1. Ins Gefängnis"
@@ -840,6 +840,16 @@ Inst5Quest21_Prequest = "Nein"
 Inst5Quest21_Folgequest = "Nein"
 --
 Inst5Quest21name1 = "Braufestmarken"
+
+--Quest 22 Alliance
+Inst5Quest22 = "22. Juwel der Tiefen"
+Inst5Quest22_Aim = "Begebt Euch in die Schwarzfelstiefen und beschafft Euch den Kern von Bael'Gar, den Kern von Roccor, die Essenz von Incendius und die Essenz von Magmus. Hast Du alle vier Materialien zusammen, musst Du zur Schwarze Schmiede in den Schwarzfelstiefen nahe dem Eingangs zum Geschmolzenen Kern und kombiniere sie. Bringe dann den Schwarzfelsrubin zu Wixxrak in der Ewigen Warte."
+Inst5Quest22_Location = "Wixxrak (Winterquell - Ewigen Warte; "..YELLOW.."60.2, 50.2"..WHITE..")"
+Inst5Quest22_Note = "Schmiedekunstquest.  Der Kern von Bael'Gar droppt bei "..YELLOW.."[4]"..WHITE..", Der Kern von Roccor bei "..YELLOW.."[2]"..WHITE.." und die Essenz von Magmus bei "..YELLOW.."[18]"..WHITE..".  Die Schwarze Schmiede ist bei "..GREEN.."['12]"..WHITE.."."
+Inst5Quest22_Prequest = "Nein"
+Inst5Quest22_Folgequest = "Nein"
+--
+Inst5Quest22name1 = "Pläne: Dämmerungsschneide"
 
 
 --Quest 1 Horde
@@ -1122,6 +1132,17 @@ Inst5Quest22_HORDE_Prequest = "Nein"
 Inst5Quest22_HORDE_Folgequest = "Nein"
 --
 Inst5Quest22name1_HORDE = "Braufestmarken"
+
+--Quest 23 Horde
+Inst5Quest23_HORDE = Inst5Quest22
+Inst5Quest23_HORDE_Aim = Inst5Quest22_Aim
+Inst5Quest23_HORDE_Location = Inst5Quest22_Location
+Inst5Quest23_HORDE_Note = Inst5Quest22_Note
+Inst5Quest23_HORDE_Prequest = "Nein"
+Inst5Quest23_HORDE_Folgequest = "Nein"
+--
+Inst5Quest23name1_HORDE = Inst5Quest22name1
+-- No Rewards for this quest
 
 
 
@@ -2582,8 +2603,8 @@ Inst59Quest4_HORDE_Folgequest = "Nein"
 --------------- INST20 - Scholomance (Scholo) ---------------
 
 Inst20Caption = "Scholomance"
-Inst20QAA = "5 Quests"
-Inst20QAH = "5 Quests"
+Inst20QAA = "6 Quests"
+Inst20QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. Die vier Bände"
@@ -2641,6 +2662,16 @@ Inst20Quest5_Prequest = "Nein"
 Inst20Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 6 Alliance
+Inst20Quest6 = "6. Azurblaue Rute"
+Inst20Quest6_Aim = "Besorgt einen Himmelssteinstab von Dargrul dem Unterkönig in Neltharions Hort, einen strahlenden Zephyrit von Ozruk im Steinernen Kern und einen Haufen uralten Arkhanas aus Scholomance."
+Inst20Quest6_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
+Inst20Quest6_Note = "LEGION Verzauberungsquest.  Normale oder Heroische Schwierigkeit.  Der Himmelssteinstab droppt vom Endboss.  Der strahlenden Zephyrit droppt vom zweiten Boss im Steinernen Kern (Cataclysm - Tiefenheim).  uralten Arkhanas droppt vom Endboss in Scholomance (Classic - Westliche Pestländer)."
+Inst20Quest6_Prequest = "Auf azurblauen Schwingen"
+Inst20Quest6_Folgequest = "Kernbohrung"
+Inst20Quest6PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst20Quest1_HORDE = Inst20Quest1
@@ -2696,6 +2727,16 @@ Inst20Quest5_HORDE_Location = Inst20Quest5_Location
 Inst20Quest5_HORDE_Note = Inst20Quest5_Note
 Inst20Quest5_HORDE_Prequest = "Nein"
 Inst20Quest5_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst20Quest6_HORDE = Inst20Quest6
+Inst20Quest6_HORDE_Aim = Inst20Quest6_Aim
+Inst20Quest6_HORDE_Location = Inst20Quest6_Location
+Inst20Quest6_HORDE_Note = Inst20Quest6_Note
+Inst20Quest6_HORDE_Prequest = Inst20Quest6_Prequest
+Inst20Quest6_HORDE_Folgequest = "Kernbohrung"
+Inst20Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -3176,8 +3217,8 @@ Inst21Quest19_HORDE_Folgequest = "Nein"
 --------------- INST22 - Stratholme - Crusaders' Square (Strat) ---------------
 
 Inst22Caption = "Stratholme - Der Kreuzzüglerpass"
-Inst22QAA = "8 Quests"
-Inst22QAH = "8 Quests"
+Inst22QAA = "7 Quests"
+Inst22QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. Eine Stadt unter Belagerung"
@@ -3191,82 +3232,75 @@ Inst22Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst22Quest2 = "2. Flüssiges Gold"
-Inst22Quest2_Level = "50"
-Inst22Quest2_Attain = "46"
-Inst22Quest2_Aim = "Findet eine Phiole mit Weihwasser von Stratholme."
-Inst22Quest2_Location = "Rottenkommandant Steinberster (Stratholme - Der Spießrutenlauf; "..BLUE.."Eingang"..WHITE..")."
-Inst22Quest2_Note = "Phiole mit Weihwasser findet man überall im Kreuzzüglerpass rundherum der Straßen."
+Inst22Quest2 = "2. Der große Fras Siabi"
+Inst22Quest2_Level = "46"
+Inst22Quest2_Attain = "42"
+Inst22Quest2_Aim = "Bergt einen Kasten von Fras Siabis Tollem Tabak."
+Inst22Quest2_Location = "Rottenkommandant Steinberster (Stratholm - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..")."
+Inst22Quest2_Note = "Fras Siabi erscheint bei der Benutzung seines Briefkastens bei "..DARKYELLOW.."[1]"..WHITE.."."
 Inst22Quest2_Prequest = "Nein"
 Inst22Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst22Quest3 = "3. Der große Fras Siabi"
+Inst22Quest3 = "3. Annalen der Silbernen Hand"
 Inst22Quest3_Level = "46"
 Inst22Quest3_Attain = "42"
-Inst22Quest3_Aim = "Bergt einen Kasten von Fras Siabis Tollem Tabak."
-Inst22Quest3_Location = "Rottenkommandant Steinberster (Stratholm - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..")."
-Inst22Quest3_Note = "Fras Siabi erscheint bei der Benutzung seines Briefkastens bei "..DARKYELLOW.."[1]"..WHITE.."."
-Inst22Quest3_Prequest = "Nein"
+Inst22Quest3_Aim = "Treibt einen verschollenen Band der Annalen der Silbernen Hand in Stratholme auf."
+Inst22Quest3_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76.0,51.0"..WHITE..")"
+Inst22Quest3_Note = "Das Buch ist bei "..YELLOW.."[5]"..WHITE..".\n\nDies ist eine wiederholbare Ruffarmquest für die Argentumdämmerung. Die Vorquest startet bei Fiona (Östliche Pestländer - Fionas Karawane; "..YELLOW.."9.0, 66.4"..WHITE.."."
+Inst22Quest3_Prequest = "Gidwin Goldzopf -> Argentumruf: Das giftige Tal"
 Inst22Quest3_Folgequest = "Nein"
+Inst22Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst22Quest4 = "4. Annalen der Silbernen Hand"
+Inst22Quest4 = "4. Von Liebe und Familie"
 Inst22Quest4_Level = "46"
 Inst22Quest4_Attain = "42"
-Inst22Quest4_Aim = "Treibt einen verschollenen Band der Annalen der Silbernen Hand in Stratholme auf."
-Inst22Quest4_Location = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76.0,51.0"..WHITE..")"
-Inst22Quest4_Note = "Das Buch ist bei "..YELLOW.."[5]"..WHITE..".\n\nDies ist eine wiederholbare Ruffarmquest für die Argentumdämmerung. Die Vorquest startet bei Fiona (Östliche Pestländer - Fionas Karawane; "..YELLOW.."9.0, 66.4"..WHITE.."."
-Inst22Quest4_Prequest = "Gidwin Goldzopf -> Argentumruf: Das giftige Tal"
+Inst22Quest4_Aim = "Findet 'Von Liebe und Familie'."
+Inst22Quest4_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..")."
+Inst22Quest4_Note = "Das Bild ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst22Quest4_Prequest = "Nein"
 Inst22Quest4_Folgequest = "Nein"
-Inst22Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst22Quest5 = "5. Von Liebe und Familie"
-Inst22Quest5_Level = "46"
+Inst22Quest5 = "5. Vergeltung"
+Inst22Quest5_Level = "47"
 Inst22Quest5_Attain = "42"
-Inst22Quest5_Aim = "Findet 'Von Liebe und Familie'."
-Inst22Quest5_Location = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..")."
-Inst22Quest5_Note = "Das Bild ist bei "..YELLOW.."[5]"..WHITE.."."
+Inst22Quest5_Aim = "Tötet den Unverziehenen und Timmy den Grausamen."
+Inst22Quest5_Location = Inst22Quest5_Location
+Inst22Quest5_Note = "Der Unverziehene ist bei "..YELLOW.."[1]"..WHITE.." und Timmy der Grausame ist bei "..YELLOW.."[2]"..WHITE.."."
 Inst22Quest5_Prequest = "Nein"
 Inst22Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst22Quest6 = "6. Vergeltung"
-Inst22Quest6_Level = "47"
+Inst22Quest6 = "6. Die Wettstreiter ausmerzen"
+Inst22Quest6_Level = "46"
 Inst22Quest6_Attain = "42"
-Inst22Quest6_Aim = "Tötet den Unverziehenen und Timmy den Grausamen."
-Inst22Quest6_Location = Inst22Quest5_Location
-Inst22Quest6_Note = "Der Unverziehene ist bei "..YELLOW.."[1]"..WHITE.." und Timmy der Grausame ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst22Quest6_Aim = "Tötet den purpurroten Hammerschmied."
+Inst22Quest6_Location = "Meisterhandwerker Wilhelm (Stratholme - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..")."
+Inst22Quest6_Note = "Auferstandener Hammerschmied erscheint bei"..DARKYELLOW.."[3]"..WHITE.." beim benutzen der funkelnden Papieren auf den Boden"
 Inst22Quest6_Prequest = "Nein"
 Inst22Quest6_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst22Quest7 = "7. Die Wettstreiter ausmerzen"
-Inst22Quest7_Level = "46"
+Inst22Quest7 = "7. Der Schreckenslord Balnazzar"
+Inst22Quest7_Level = "47"
 Inst22Quest7_Attain = "42"
-Inst22Quest7_Aim = "Tötet den purpurroten Hammerschmied."
-Inst22Quest7_Location = "Meisterhandwerker Wilhelm (Stratholme - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..")."
-Inst22Quest7_Note = "Auferstandener Hammerschmied erscheint bei"..DARKYELLOW.."[3]"..WHITE.." beim benutzen der funkelnden Papieren auf den Boden"
+Inst22Quest7_Aim = "Tötet Balnazzar."
+Inst22Quest7_Location = Inst22Quest5_Location
+Inst22Quest7_Note = "Schreckenslord Balnazzar ist bei "..YELLOW.."[6]"..WHITE.."."
 Inst22Quest7_Prequest = "Nein"
 Inst22Quest7_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst22Quest8 = "8. Der Schreckenslord Balnazzar"
-Inst22Quest8_Level = "47"
-Inst22Quest8_Attain = "42"
-Inst22Quest8_Aim = "Tötet Balnazzar."
-Inst22Quest8_Location = Inst22Quest5_Location
-Inst22Quest8_Note = "Schreckenslord Balnazzar ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst22Quest8_Prequest = "Nein"
-Inst22Quest8_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst22Quest7name1 = "Beinschützer von Stratholme"
+Inst22Quest7name2 = "Balnazzars Horn"
+Inst22Quest7name3 = "Dathrohans Streitkolben"
+Inst22Quest7name4 = "Balnazzars Balg"
 
 
 --Quest 1 Horde
@@ -3345,26 +3379,19 @@ Inst22Quest7_HORDE_Location = Inst22Quest7_Location
 Inst22Quest7_HORDE_Note = Inst22Quest7_Note
 Inst22Quest7_HORDE_Prequest = "Nein"
 Inst22Quest7_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 8 Horde
-Inst22Quest8_HORDE = Inst22Quest8
-Inst22Quest8_HORDE_Level = "46"
-Inst22Quest8_HORDE_Attain = "42"
-Inst22Quest8_HORDE_Aim = Inst22Quest8_Aim
-Inst22Quest8_HORDE_Location = Inst22Quest8_Location
-Inst22Quest8_HORDE_Note = Inst22Quest8_Note
-Inst22Quest8_HORDE_Prequest = "Nein"
-Inst22Quest8_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst22Quest7name1_HORDE = Inst22Quest7name1
+Inst22Quest7name2_HORDE = "Balnazzars Horn"
+Inst22Quest7name3_HORDE = Inst22Quest7name3
+Inst22Quest7name4_HORDE = "Balnazzars Balg"
 
 
 
 --------------- INST28 - Stratholme - The Gauntlet (Strat) ---------------
 
 Inst28Caption = "Stratholme - Der Spießrutenlauf"
-Inst28QAA = "4 Quests"
-Inst28QAH = "4 Quests"
+Inst28QAA = "5 Quests"
+Inst28QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst28Quest1 = "1. Waffen für den Krieg"
@@ -3410,6 +3437,17 @@ Inst28Quest4_Prequest = "Nein"
 Inst28Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 5 Alliance
+Inst28Quest5 = "5. Flüssiges Gold"
+Inst28Quest5_Level = "50"
+Inst28Quest5_Attain = "46"
+Inst28Quest5_Aim = "Findet eine Phiole mit Weihwasser von Stratholme."
+Inst28Quest5_Location = "Rottenkommandant Steinberster (Stratholme - Der Spießrutenlauf; "..BLUE.."Eingang"..WHITE..")"
+Inst28Quest5_Note = "Die Phiole kann in den funkelnden Kisten gefunden werden, die in den Straßen der Stadt verteilt sind."
+Inst28Quest5_Prequest = "Nein"
+Inst28Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst28Quest1_HORDE = Inst28Quest1
@@ -3453,6 +3491,17 @@ Inst28Quest4_HORDE_Location = Inst28Quest4_Location
 Inst28Quest4_HORDE_Note = Inst28Quest4_Note
 Inst28Quest4_HORDE_Prequest = "Nein"
 Inst28Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst28Quest5_HORDE = Inst28Quest5
+Inst28Quest5_HORDE_Level = "50"
+Inst28Quest5_HORDE_Attain = "46"
+Inst28Quest5_HORDE_Aim = Inst28Quest5_Aim
+Inst28Quest5_HORDE_Location = Inst28Quest5_Location
+Inst28Quest5_HORDE_Note = Inst28Quest5_Note
+Inst28Quest5_HORDE_Prequest = "Nein"
+Inst28Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -3846,7 +3895,6 @@ Inst27Quest2PreQuest_HORDE = "true"
 Inst27Quest2name1_HORDE = Inst27Quest2name1
 Inst27Quest2name2_HORDE = Inst27Quest2name2
 Inst27Quest2name3_HORDE = Inst27Quest2name3
-
 
 --Quest 3 Horde
 Inst27Quest3_HORDE = Inst27Quest3

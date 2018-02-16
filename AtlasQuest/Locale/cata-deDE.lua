@@ -293,8 +293,8 @@ Inst96Quest2name3_Horde = Inst96Quest2name3
 --------------- INST97 - The Stonecore ---------------
 
 Inst97Caption = "Der steinerne Kern"
-Inst97QAA = "4 Quests"
-Inst97QAH = "4 Quests"
+Inst97QAA = "5 Quests"
+Inst97QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst97Quest1 = "1. In den Steinernen Kern"
@@ -349,7 +349,15 @@ Inst97Quest4name1 = "Gamaschen des verlorenen Kidnes"
 Inst97Quest4name2 = "Gürtel des Steinernen Kerns"
 Inst97Quest4name3 = "Kristallschimmerumhang"
 
-
+--Quest 5 Alliance
+Inst97Quest5 = "5. Azurblaue Rute"
+Inst97Quest5_Aim = "Besorgt einen Himmelssteinstab von Dargrul dem Unterkönig in Neltharions Hort, einen strahlenden Zephyrit von Ozruk im Steinernen Kern und einen Haufen uralten Arkhanas aus Scholomance."
+Inst97Quest5_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
+Inst97Quest5_Note = "LEGION Verzauberungsquest.  Normale oder Heroische Schwierigkeit.  Der Himmelssteinstab droppt vom Endboss.  Der strahlenden Zephyrit droppt vom zweiten Boss im Steinernen Kern (Cataclysm - Tiefenheim).  uralten Arkhanas droppt vom Endboss in Scholomance (Classic - Westliche Pestländer)."
+Inst97Quest5_Prequest = "Auf azurblauen Schwingen"
+Inst97Quest5_Folgequest = "Kernbohrung"
+Inst97Quest5PreQuest = "true"
+-- No Rewards for this quest
 --Quest 1 Horde
 Inst97Quest1_HORDE = Inst97Quest1
 Inst97Quest1_HORDE_Level = "83"
@@ -403,7 +411,15 @@ Inst97Quest4name1_HORDE = Inst97Quest4name1
 Inst97Quest4name2_HORDE = Inst97Quest4name2
 Inst97Quest4name3_HORDE = Inst97Quest4name3
 
-
+--Quest 5 Horde
+Inst97Quest5_HORDE = Inst97Quest5
+Inst97Quest5_HORDE_Aim = Inst97Quest5_Aim
+Inst97Quest5_HORDE_Location = Inst97Quest5_Location
+Inst97Quest5_HORDE_Note = Inst97Quest5_Note
+Inst97Quest5_HORDE_Prequest = Inst97Quest5_Prequest
+Inst97Quest5_HORDE_Folgequest = "Kernbohrung"
+Inst97Quest5PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 --------------- INST98 - The Vortex Pinnacle ---------------
 
@@ -794,8 +810,29 @@ Inst104QAH = "Keine Quests"
 --------------- INST105 - Baradin Hold ---------------
 
 Inst105Caption = "Baradin Hold"
-Inst105QAA = "Keine Quests"
-Inst105QAH = "Keine Quests"
+Inst105QAA = "1 Quest"
+Inst105QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst105Quest1 = "1. Legendäre Bälge"
+Inst105Quest1_Aim = "Erbeutet Eisheulers Balg aus der Prüfung des Kreuzfahrers. Erbeutet Occu'thars Balg aus der Baradinfestung. Erbeutet Horridons Balg vom Thron des Donners."
+Inst105Quest1_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst105Quest1_Note = "LEGION Ledererquest.  Eisheuler ist der erste Boss in der Prüfung des Kreuzfahrers.  Um Occu'thars Balg zu bekommen, betrete Baradinfstung und nehme die erste links Kurve.  Horridon ist der zweite Boss im Thron des Donners."
+Inst105Quest1_Prequest = "Hallen der Tapferkeit: Fenryrs Balg"
+Inst105Quest1_Folgequest = "Ske'rits Lederleitfaden"
+Inst105Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst105Quest1_HORDE = Inst105Quest1
+Inst105Quest1_HORDE_Aim = Inst105Quest1_Aim
+Inst105Quest1_HORDE_Location = Inst105Quest1_Location
+Inst105Quest1_HORDE_Note = Inst105Quest1_Note
+Inst105Quest1_HORDE_Prequest = Inst105Quest1_Prequest
+Inst105Quest1_HORDE_Folgequest = Inst105Quest1_Folgequest
+Inst105Quest1PreQuest_HORDE = Inst105Quest1PreQuest
+-- No Rewards for this quest
 
 
 

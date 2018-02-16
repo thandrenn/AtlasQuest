@@ -3288,10 +3288,6 @@ Inst22Quest1_HORDE_Location = Inst22Quest1_Location
 Inst22Quest1_HORDE_Note = Inst22Quest1_Note
 Inst22Quest1_HORDE_Prequest = Inst22Quest1_Prequest
 Inst22Quest1_HORDE_Folgequest = Inst22Quest1_Folgequest
-Inst22Quest1PreQuest_HORDE = Inst22Quest1PreQuest
-Inst22Quest1FQuest_HORDE = Inst22Quest1FQuest
---
-Inst22Quest1name1_HORDE = Inst22Quest1name1
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -3482,10 +3478,6 @@ Inst28Quest5_HORDE_Location = Inst28Quest5_Location
 Inst28Quest5_HORDE_Note = Inst28Quest5_Note
 Inst28Quest5_HORDE_Prequest = Inst28Quest5_Prequest
 Inst28Quest5_HORDE_Folgequest = Inst28Quest5_Folgequest
-Inst28Quest5PreQuest_HORDE = Inst28Quest5PreQuest
-Inst28Quest5FQuest_HORDE = Inst28Quest5FQuest
---
-Inst28Quest5name1_HORDE = Inst28Quest5name1
 -- No Rewards for this quest
 
 
