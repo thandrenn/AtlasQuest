@@ -1645,8 +1645,8 @@ Inst155Quest4name1_HORDE = Inst155Quest4name1
 --------------- INST156 - Hellfire Citadel ---------------
 
 Inst156Caption = "Höllenfeuerzitadelle"
-Inst156QAA = "8 Quests"
-Inst156QAH = "8 Quests"
+Inst156QAA = "9 Quests"
+Inst156QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst156Quest1 = "1. Die Gruben des Mannoroth"
@@ -1741,6 +1741,16 @@ Inst156Quest8_Prequest = "Nein"
 Inst156Quest8_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 9 Alliance
+Inst156Quest9 = "9. Höllenfeuerzitadelle: Höllenfeuer und Schwefel"
+Inst156Quest9_Aim = "Stürmt gemeinsam mit Euren Mitstreitern die Höllenfeuerzitadelle. Besiegt dort Archimonde und entwendet ihm den Höllenkodex."
+Inst156Quest9_Location = "Mama Buddel (Dalaran; "..YELLOW.."46.2, 26.4"..WHITE..")"
+Inst156Quest9_Note = "Bergbauerquest.  Besiege den Endboss für den Questgegenstand.  Bringe es zurück nach Dalaran."
+Inst156Quest9_Prequest = "Infernoschwefelanalyse -> Das Geheimnis des Schwefels"
+Inst156Quest9_Folgequest = "Nein"
+Inst156Quest9PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst156Quest1_HORDE = Inst156Quest1
@@ -1833,6 +1843,18 @@ Inst156Quest8_HORDE_Location = Inst156Quest8_Location
 Inst156Quest8_HORDE_Note = Inst156Quest8_Note
 Inst156Quest8_HORDE_Prequest = "Nein"
 Inst156Quest8_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 9 Horde
+Inst156Quest9_HORDE = Inst156Quest9
+Inst156Quest9_HORDE_Level = Inst156Quest9_Level
+Inst156Quest9_HORDE_Attain = Inst156Quest9_Attain
+Inst156Quest9_HORDE_Aim = Inst156Quest9_Aim
+Inst156Quest9_HORDE_Location = Inst156Quest9_Location
+Inst156Quest9_HORDE_Note = Inst156Quest9_Note
+Inst156Quest9_HORDE_Prequest = Inst156Quest9_Prequest
+Inst156Quest9_HORDE_Folgequest = "Nein"
+Inst156Quest9PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 

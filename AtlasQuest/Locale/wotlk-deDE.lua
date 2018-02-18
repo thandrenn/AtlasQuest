@@ -77,52 +77,63 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
 Inst70Caption = "Burg Utgarde"
-Inst70QAA = "3 Quests"
+Inst70QAA = "4 Quests"
 Inst70QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst70Quest1 = "1. Raubt ihnen den Donner"
+Inst70Quest1 = "1. Ein neuer Abschnitt"
 Inst70Quest1_Level = "71"
 Inst70Quest1_Attain = "68"
-Inst70Quest1_Aim = "Verteidiger Mordun hat Euch gebeten, ihm den Kopf von Ingvar dem Brandschatzer zu bringen."
-Inst70Quest1_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
-Inst70Quest1_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n Die Vorquest ist Optional."
-Inst70Quest1_Prequest = "Ein neuer Abschnitt"
+Inst70Quest1_Aim = "Kundschafterin Valory möchte, dass Ihr den Geräuschen nachgeht, die vom nordöstlichen Teil von Wyrmskol herstammen."
+Inst70Quest1_Location = "Kundschafterin Valory (Heulender Fjord - Valgarde; "..YELLOW.."56.0, 55.8"..WHITE..")"
+Inst70Quest1_Note = "Die Quest bringt dich zum  Verteidiger Mordun innerhalb der Instanz."
+Inst70Quest1_Prequest = "Nein"
 Inst70Quest1_Folgequest = "Nein"
---
-Inst70Quest1name1 = "Band des Henkers"
-Inst70Quest1name2 = "Ring der Dezimierung"
-Inst70Quest1name3 = "Signet des schnellen Richturteils"
+-- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst70Quest2 = "2. Abrüstung"
+Inst70Quest2 = "2. Raubt ihnen den Donner"
 Inst70Quest2_Level = "71"
 Inst70Quest2_Attain = "68"
-Inst70Quest2_Aim = "Verteidiger Mordun möchte, dass Ihr 5 Waffen der Vrykul stehlt."
+Inst70Quest2_Aim = "Verteidiger Mordun hat Euch gebeten, ihm den Kopf von Ingvar dem Brandschatzer zu bringen."
 Inst70Quest2_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
-Inst70Quest2_Note = "Die Waffen der Vykul können überall in der Instanz in den Waffenständern gefunden werden."
-Inst70Quest2_Prequest = "Nein"
+Inst70Quest2_Note = "Ingvar der Brandschatzer ist bei "..YELLOW.."[3]"..WHITE..".\n Die Vorquest ist Optional."
+Inst70Quest2_Prequest = "Ein neuer Abschnitt"
 Inst70Quest2_Folgequest = "Nein"
 --
-Inst70Quest2name1 = "Amulett des ruhigen Gemüts"
-Inst70Quest2name2 = "Rasierklingenanhänger"
-Inst70Quest2name3 = "Halskette des gestreuten Lichts"
-Inst70Quest2name4 = "Gewebte Stahlhalskette"
+Inst70Quest2name1 = "Band des Henkers"
+Inst70Quest2name2 = "Ring der Dezimierung"
+Inst70Quest2name3 = "Signet des schnellen Richturteils"
 
 --Quest 3 Alliance
-Inst70Quest3 = "3. Die Ohren des Lichkönigs"
+Inst70Quest3 = "3. Abrüstung"
 Inst70Quest3_Level = "71"
 Inst70Quest3_Attain = "68"
-Inst70Quest3_Aim = "Verteidiger Mordun in Burg Utgarde möchte, dass Ihr Prinz Keleseth tötet."
+Inst70Quest3_Aim = "Verteidiger Mordun möchte, dass Ihr 5 Waffen der Vrykul stehlt."
 Inst70Quest3_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
-Inst70Quest3_Note = "Prinz Keleseth ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest3_Note = "Die Waffen der Vykul können überall in der Instanz in den Waffenständern gefunden werden."
 Inst70Quest3_Prequest = "Nein"
 Inst70Quest3_Folgequest = "Nein"
 --
-Inst70Quest3name1 = "Wickel der San'layn"
-Inst70Quest3name2 = "Vendettabindungen"
-Inst70Quest3name3 = "Armschienen des Runenmagiers"
-Inst70Quest3name4 = "Unterarmschienen des Vergeltungsbringers"
+Inst70Quest3name1 = "Amulett des ruhigen Gemüts"
+Inst70Quest3name2 = "Rasierklingenanhänger"
+Inst70Quest3name3 = "Halskette des gestreuten Lichts"
+Inst70Quest3name4 = "Gewebte Stahlhalskette"
+
+--Quest 4 Alliance
+Inst70Quest4 = "4. Die Ohren des Lichkönigs"
+Inst70Quest4_Level = "71"
+Inst70Quest4_Attain = "68"
+Inst70Quest4_Aim = "Verteidiger Mordun in Burg Utgarde möchte, dass Ihr Prinz Keleseth tötet."
+Inst70Quest4_Location = "Verteidiger Mordun (Burg Utgard; "..BLUE.."Eingang"..WHITE..")"
+Inst70Quest4_Note = "Prinz Keleseth ist bei "..YELLOW.."[1]"..WHITE.."."
+Inst70Quest4_Prequest = "Nein"
+Inst70Quest4_Folgequest = "Nein"
+--
+Inst70Quest4name1 = "Wickel der San'layn"
+Inst70Quest4name2 = "Vendettabindungen"
+Inst70Quest4name3 = "Armschienen des Runenmagiers"
+Inst70Quest4name4 = "Unterarmschienen des Vergeltungsbringers"
 
 
 --Quest 1 Horde
@@ -1000,13 +1011,11 @@ Inst78Quest4name5_HORDE = Inst78Quest4name5
 --------------- INST79 - The Obsidian Sanctum ---------------
 
 Inst79Caption = "Der Obsidiandrachenschrein"
-Inst79QAA = "1 Quest"
-Inst79QAH = "1 Quest"
+Inst79QAA = "2 Quest"
+Inst79QAH = "2 Quest"
 
 --Quest 1 Alliance
 Inst79Quest1 = "1. Sartharion muss sterben! (Wöchentlich)"
-Inst79Quest1_Level = "80"
-Inst79Quest1_Attain = "80"
 Inst79Quest1_Aim = "Tötet Sartharion."
 Inst79Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")"
 Inst79Quest1_Note = "Sartharion ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
@@ -1014,16 +1023,34 @@ Inst79Quest1_Prequest = "Nein"
 Inst79Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst79Quest2 = "2. Legendäre Schuppen"
+Inst79Quest2_Aim = "Besorgt die Schuppe von Nethergroll aus Karazhan, die Schuppe von Sartharion aus dem Obsidiansanktum und die Schuppe von Garalon aus dem Herz der Angst."
+Inst79Quest2_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst79Quest2_Note = "LEGION Kürschnereiquest.  Die Schuppe von Nethergroll droppt von Nethergroll.  Die Schuppe von Sartharion droppt vom einzigsten Boss im Obsidiansanktum (Nordend - Drachenöde).  Die Schuppe von Garalon droppt vom dritten Boss im Herz der Angst (Pandaria - Schreckensöde)."
+Inst79Quest2_Prequest = "Schuppen für Ske'rit"
+Inst79Quest2_Folgequest = "Das Auge Azsharas: Die Schuppen von Serpentrix"
+Inst79Quest2PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst79Quest1_HORDE = Inst79Quest1
-Inst79Quest1_HORDE_Level = "80"
-Inst79Quest1_HORDE_Attain = "80"
 Inst79Quest1_HORDE_Aim = Inst79Quest1_Aim
 Inst79Quest1_HORDE_Location = Inst79Quest1_Location
 Inst79Quest1_HORDE_Note = Inst79Quest1_Note
 Inst79Quest1_HORDE_Prequest = "Nein"
 Inst79Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst79Quest2_HORDE = Inst79Quest2
+Inst79Quest2_HORDE_Aim = Inst79Quest2_Aim
+Inst79Quest2_HORDE_Location = Inst79Quest2_Location
+Inst79Quest2_HORDE_Note = Inst79Quest2_Note
+Inst79Quest2_HORDE_Prequest = Inst79Quest2_Prequest
+Inst79Quest2_HORDE_Folgequest = Inst79Quest2_Folgequest
+Inst79Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -2051,13 +2078,11 @@ Inst87Quest1_HORDE_Folgequest = "Nein"
 --------------- INST88 - Trial of the Crusader ---------------  
 
 Inst88Caption = "Prüfung des Kreuzfahrers" 
-Inst88QAA = "1 Quest" 
-Inst88QAH = "1 Quest" 
+Inst88QAA = "2 Quest" 
+Inst88QAH = "2 Quest" 
 
 --Quest 1 Alliance
 Inst88Quest1 = "1. Lord Jaraxxus muss sterben! (Wöchentlich)"
-Inst88Quest1_Level = "80"
-Inst88Quest1_Attain = "80"
 Inst88Quest1_Aim = "Tötet Lord Jaraxxus."
 Inst88Quest1_Location = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")"
 Inst88Quest1_Note = "Lord Jaraxxus ist der zweite Boss.\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden."
@@ -2065,16 +2090,34 @@ Inst88Quest1_Prequest = "Nein"
 Inst88Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 2 Alliance
+Inst88Quest2 = "2. Legendäre Bälge"
+Inst88Quest2_Aim = "Erbeutet Eisheulers Balg aus der Prüfung des Kreuzfahrers.Erbeutet Occu'thars Balg aus der Baradinfestung.Erbeutet Horridons Balg vom Thron des Donners."
+Inst88Quest2_Location = Inst79Quest2_Location
+Inst88Quest2_Note = "LEGION Kürschnereiquest.  Eisheuler ist der erste Boss in der Prüfung des Kreufahrers.  Um zu Occu'thar zu gelangen, betrete die Baradinfeste und nehme die erste Linkskurve.  Horridon ist der zweite Boss im Thron des Donners."
+Inst88Quest2_Prequest = "Hallen der Tapferkeit: Fenryrs Balg"
+Inst88Quest2_Folgequest = "Ske'rits Lederleitfaden"
+Inst88Quest2PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst88Quest1_HORDE = Inst88Quest1
-Inst88Quest1_HORDE_Level = "80"
-Inst88Quest1_HORDE_Attain = "80"
 Inst88Quest1_HORDE_Aim = Inst88Quest1_Aim
 Inst88Quest1_HORDE_Location = Inst88Quest1_Location
 Inst88Quest1_HORDE_Note = Inst88Quest1_Note
 Inst88Quest1_HORDE_Prequest = "Nein"
 Inst88Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst88Quest2_HORDE = Inst88Quest2
+Inst88Quest2_HORDE_Aim = Inst88Quest2_Aim
+Inst88Quest2_HORDE_Location = Inst88Quest2_Location
+Inst88Quest2_HORDE_Note = Inst88Quest2_Note
+Inst88Quest2_HORDE_Prequest = Inst88Quest2_Prequest
+Inst88Quest2_HORDE_Folgequest = Inst88Quest2_Folgequest
+Inst88Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -2349,8 +2392,8 @@ Inst92Quest3FQuest_HORDE = "true"
 --------------- INST93 - Icecrown Citadel (ICC) ---------------
 
 Inst93Caption = "Eiskronenzitadelle"
-Inst93QAA = "10 Quest"
-Inst93QAH = "10 Quest"
+Inst93QAA = "10 Quests"
+Inst93QAH = "10 Quests"
 
 --Quest 1 Alliance
 Inst93Quest1 = "1. Lord Mark'gar muss sterben! (Wöchentlich)"

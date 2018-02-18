@@ -562,16 +562,36 @@ Inst121QAH = "Keine Quests"
 --------------- INST122 - Heart of Fear ---------------
 
 Inst122Caption = "Herz der Angst"
-Inst122QAA = "Keine Quests"
-Inst122QAH = "Keine Quests"
+Inst122QAA = "1 Quest"
+Inst122QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst122Quest1 = "1. Legendäre Schuppen"
+Inst122Quest1_Aim = "Besorgt die Schuppe von Nethergroll aus Karazhan, die Schuppe von Sartharion aus dem Obsidiansanktum und die Schuppe von Garalon aus dem Herz der Angst."
+Inst122Quest1_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
+Inst122Quest1_Note = "LEGION Kürschnereiquest.  Die Schuppe von Nethergroll droppt von Nethergroll.  Die Schuppe von Sartharion droppt vom einzigsten Boss im Obsidiansanktum (Nordend - Drachenöde).  Die Schuppe von Garalon droppt vom dritten Boss im Herz der Angst (Pandaria - Schreckensöde)."
+Inst122Quest1_Prequest = "Schuppen für Ske'rit"
+Inst122Quest1_Folgequest = "Das Auge Azsharas: Die Schuppen von Serpentrix"
+Inst122Quest1PreQuest = "true"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst122Quest1_HORDE = Inst122Quest1
+Inst122Quest1_HORDE_Aim = Inst122Quest1_Aim
+Inst122Quest1_HORDE_Location = Inst122Quest1_Location
+Inst122Quest1_HORDE_Note = Inst122Quest1_Note
+Inst122Quest1_HORDE_Prequest = "Schuppen für Ske'rit"
+Inst122Quest1_HORDE_Folgequest = Inst122Quest1_Folgequest
+Inst122Quest1PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Caption = "Thron des Donners"
-Inst138QAA = "8 Quests"
-Inst138QAH = "8 Quests"
+Inst138QAA = "9 Quests"
+Inst138QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst138Quest1 = "1. Zukunftssicherung"
@@ -669,6 +689,16 @@ Inst138Quest8_Folgequest = "Nein"
 --
 Inst138Quest8name1 = Inst138Quest2name1
 
+--Quest 9 Alliance
+Inst138Quest9 = "9. Legendäre Bälge"
+Inst138Quest9_Aim = "Erbeutet Eisheulers Balg aus der Prüfung des Kreuzfahrers.Erbeutet Occu'thars Balg aus der Baradinfestung.Erbeutet Horridons Balg vom Thron des Donners."
+Inst138Quest9_Location = Inst122Quest1_Location
+Inst138Quest9_Note = "LEGION Kürschnereiquest.  Eisheuler ist der erste Boss in der Prüfung des Kreufahrers.  Um zu Occu'thar zu gelangen, betrete die Baradinfeste und nehme die erste Linkskurve.  Horridon ist der zweite Boss im Thron des Donners."
+Inst138Quest9_Prequest = "Hallen der Tapferkeit: Fenryrs Balg"
+Inst138Quest9_Folgequest = "Ske'rits Lederleitfaden"
+Inst138Quest9PreQuest = "true"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst138Quest1_HORDE = "1. Lebensblut"
@@ -765,6 +795,16 @@ Inst138Quest8_HORDE_Prequest = "Nein"
 Inst138Quest8_HORDE_Folgequest = "Nein"
 --
 Inst138Quest8name1_HORDE = Inst138Quest2name1
+
+--Quest 9 Horde
+Inst138Quest9_HORDE = Inst138Quest9
+Inst138Quest9_HORDE_Aim = Inst138Quest9_Aim
+Inst138Quest9_HORDE_Location = Inst138Quest9_Location
+Inst138Quest9_HORDE_Note = Inst138Quest9_Note
+Inst138Quest9_HORDE_Prequest = Inst138Quest9_Prequest
+Inst138Quest9_HORDE_Folgequest = Inst138Quest9_Folgequest
+Inst138Quest9PreQuest_HORDE = "true"
+-- No Rewards for this quest
 
 
 
