@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 4.10.43  (February 19, 2018)
+
+	- German translation updated.
+	
+
+	
+
 Version 4.10.42  (February 14, 2018)
 
 	- Bug fix for Return to Karazhan quests.
