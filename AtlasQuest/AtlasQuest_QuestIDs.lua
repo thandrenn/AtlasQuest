@@ -79,16 +79,14 @@ Inst2Quest4_HORDE_QuestID = "26870"
 
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
-Inst3Quest1_QuestID = "30997"
-Inst3Quest2_QuestID = "30995"
-Inst3Quest3_QuestID = "30998"
-Inst3Quest4_QuestID = "30996"
+Inst3Quest1_QuestID = "30995"
+Inst3Quest2_QuestID = "30998"
+Inst3Quest3_QuestID = "30996"
 
 Inst3Quest1_HORDE_QuestID = "31037"
-Inst3Quest2_HORDE_QuestID = "30982"
-Inst3Quest3_HORDE_QuestID = "30984"
-Inst3Quest4_HORDE_QuestID = "30969"
-Inst3Quest5_HORDE_QuestID = "30983"
+Inst3Quest2_HORDE_QuestID = "30984"
+Inst3Quest3_HORDE_QuestID = "30969"
+Inst3Quest4_HORDE_QuestID = "30983"
 
 
 

@@ -190,35 +190,32 @@ Inst3Quest1Rewardtext = AQNoReward
 Inst3Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst3Quest3Rewardtext = AQNoReward
-
---Quest 4 Alliance
-Inst3Quest4Rewardtext = AQClassRewards
+Inst3Quest3Rewardtext = AQClassRewards
 
 
 --[[
---Quest 4 Alliance
-Inst3Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
+--Quest 3 Alliance
+Inst3Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
 --ITEM1
-Inst3Quest4ITC1 = Itemc4;
-Inst3Quest4description1 = AQITEM_CHEST
-Inst3Quest4ID1 = "82891"
+Inst3Quest3ITC1 = Itemc4;
+Inst3Quest3description1 = AQITEM_CHEST
+Inst3Quest3ID1 = "82891"
 --ITEM2
-Inst3Quest4ITC2 = Itemc4;
-Inst3Quest4description2 = AQITEM_LEGS
-Inst3Quest4ID2 = "82892"
+Inst3Quest3ITC2 = Itemc4;
+Inst3Quest3description2 = AQITEM_LEGS
+Inst3Quest3ID2 = "82892"
 --ITEM3
-Inst3Quest4ITC3 = Itemc4;
-Inst3Quest4description3 = AQITEM_CHEST
-Inst3Quest4ID3 = "82893"
+Inst3Quest3ITC3 = Itemc4;
+Inst3Quest3description3 = AQITEM_CHEST
+Inst3Quest3ID3 = "82893"
 --ITEM4
-Inst3Quest4ITC4 = Itemc4;
-Inst3Quest4description3 = AQITEM_LEGS
-Inst3Quest4ID4 = "82894"
+Inst3Quest3ITC4 = Itemc4;
+Inst3Quest3description4 = AQITEM_LEGS
+Inst3Quest3ID4 = "82894"
 --ITEM5
-Inst3Quest4ITC5 = Itemc4;
-Inst3Quest4description3 = AQITEM_WAIST
-Inst3Quest4ID5 = "82895"
+Inst3Quest3ITC5 = Itemc4;
+Inst3Quest3description5 = AQITEM_WAIST
+Inst3Quest3ID5 = "82895"
 --]]
 
 

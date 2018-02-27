@@ -307,51 +307,40 @@ Inst2Quest4name5_HORDE = Inst2Quest3name5
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
 Inst3Caption = "Der Flammenschlund"
-Inst3QAA = "4 Quests"
-Inst3QAH = "5 Quests"
+Inst3QAA = "3 Quests"
+Inst3QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst3Quest1 = "1. Ungezieferbekämpfung"
+Inst3Quest1 = "1. Niemand bleibt zurück"
 Inst3Quest1_Level = "16"
 Inst3Quest1_Attain = "15"
-Inst3Quest1_Aim = "Tötet Adarogg und Nagma."
+Inst3Quest1_Aim = "Rettet 5 Waldläufer des SI:7 im Flammenschlund."
 Inst3Quest1_Location = "SI:7-Feldkommandant Dirken (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
-Inst3Quest1_Note = "Adarogg befindet sich bei "..YELLOW.."[1]"..WHITE.." und Nagma befindet sich bei "..YELLOW.."[3]"..WHITE.."."
+Inst3Quest1_Note = "Die Waldläufer sind überall in der Instanz verteilt."
 Inst3Quest1_Prequest = "Nein"
 Inst3Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst3Quest2 = "2. Niemand bleibt zurück"
+Inst3Quest2 = "2. Ein neuer Feind"
 Inst3Quest2_Level = "16"
 Inst3Quest2_Attain = "15"
-Inst3Quest2_Aim = "Rettet 5 Waldläufer des SI:7 im Flammenschlund."
-Inst3Quest2_Location = Inst3Quest1_Location
-Inst3Quest2_Note = "Die Waldläufer sind überall in der Instanz verteilt."
+Inst3Quest2_Aim = "Sammelt 5 verderbte Insignien von den Dunkelschamanenkultisten."
+Inst3Quest2_Location = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest2_Note = "Die Dunkelschamenkultisten sind überall in der Instanz verteilt."
 Inst3Quest2_Prequest = "Nein"
 Inst3Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst3Quest3 = "3. Ein neuer Feind"
+Inst3Quest3 = "3. Die Dunkelschamanen"
 Inst3Quest3_Level = "16"
 Inst3Quest3_Attain = "15"
-Inst3Quest3_Aim = "Sammelt 5 verderbte Insignien von den Dunkelschamanenkultisten."
-Inst3Quest3_Location = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
-Inst3Quest3_Note = "Die Dunkelschamenkultisten sind überall in der Instanz verteilt."
+Inst3Quest3_Aim = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth."
+Inst3Quest3_Location = Inst3Quest2_Location
+Inst3Quest3_Note = "Dunkelschamane Koranthal befindet sich bei "..YELLOW.."[2]"..WHITE.." und Lavawache Gordoth befindet sich bei "..YELLOW.."[4]"..WHITE.."."
 Inst3Quest3_Prequest = "Nein"
 Inst3Quest3_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst3Quest4 = "4. Die Dunkelschamanen"
-Inst3Quest4_Level = "16"
-Inst3Quest4_Attain = "15"
-Inst3Quest4_Aim = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth."
-Inst3Quest4_Location = Inst3Quest3_Location
-Inst3Quest4_Note = "Dunkelschamane Koranthal befindet sich bei "..YELLOW.."[2]"..WHITE.." und Lavawache Gordoth befindet sich bei "..YELLOW.."[4]"..WHITE.."."
-Inst3Quest4_Prequest = "Nein"
-Inst3Quest4_Folgequest = "Nein"
 --
 -- Reward varies for each class
 
@@ -364,53 +353,41 @@ Inst3Quest1_HORDE_Aim = "Sprecht mit Kommandant Bagran."
 Inst3Quest1_HORDE_Location = "Garrosh Höllschrei (Orgrimmar - Das Tal der Stärke; "..YELLOW.."48.2, 70.6"..WHITE..")\nBaine Bluthuf (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."60.6, 51.6"..WHITE..")\nFürstin Sylvanas Windläufer (Unterstadt - Das königliche Viertel; "..YELLOW.."58.6, 93.0"..WHITE..")"
 Inst3Quest1_HORDE_Note = "Dies ist eine optionale Quest.Du kannst sie in drei verschiedenen Hauptstädten annehmen."
 Inst3Quest1_HORDE_Prequest = "Nein"
-Inst3Quest1_HORDE_Folgequest = "Ungezieferbekämpfung"
+Inst3Quest1_HORDE_Folgequest = "Nein"
 Inst3Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst3Quest2_HORDE = "2. Ungezieferbekämpfung"
+Inst3Quest2_HORDE = "2. Kein Ork bleibt zurück"
 Inst3Quest2_HORDE_Level = "16"
 Inst3Quest2_HORDE_Attain = "15"
-Inst3Quest2_HORDE_Aim = "Tötet Adarogg und Nagma."
-Inst3Quest2_HORDE_Location = "Kommandant Bagran (Flammenschlund; "..GREEN.."1'"..WHITE..")"
-Inst3Quest2_HORDE_Note = Inst3Quest1_Note
-Inst3Quest2_HORDE_Prequest = "Feinde im Untergrund"
+Inst3Quest2_HORDE_Aim = "Rettet 5 Späher der Kor'kron im Flammenschlund."
+Inst3Quest2_HORDE_Location = "Kommandant Bagran (Flammenschlund; "..BLUE.."Eingang"..WHITE..")"
+Inst3Quest2_HORDE_Note = "Die Späher findest Du überall in der Instanz."
+Inst3Quest2_HORDE_Prequest = "Nein"
 Inst3Quest2_HORDE_Folgequest = "Nein"
-Inst3Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst3Quest3_HORDE = "3. Kein Ork bleibt zurück"
+Inst3Quest3_HORDE = "3. Ein neuer Feind"
 Inst3Quest3_HORDE_Level = "16"
 Inst3Quest3_HORDE_Attain = "15"
-Inst3Quest3_HORDE_Aim = "Rettet 5 Späher der Kor'kron im Flammenschlund."
-Inst3Quest3_HORDE_Location = Inst3Quest2_HORDE_Location
-Inst3Quest3_HORDE_Note = "Die Späher findest Du überall in der Instanz."
+Inst3Quest3_HORDE_Aim = "Sammelt 5 verderbte Insignien von Kultisten im Flammenschlund."
+Inst3Quest3_HORDE_Location = "Herbeirufer Xorenth (Flammenschlund; "..GREEN.."1'"..WHITE..")"
+Inst3Quest3_HORDE_Note = "Die Kultisten findest Du überall in der Instanz."
 Inst3Quest3_HORDE_Prequest = "Nein"
 Inst3Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst3Quest4_HORDE = "4. Ein neuer Feind"
+Inst3Quest4_HORDE = "4. Die Dunkelschamanen"
 Inst3Quest4_HORDE_Level = "16"
 Inst3Quest4_HORDE_Attain = "15"
-Inst3Quest4_HORDE_Aim = "Sammelt 5 verderbte Insignien von Kultisten im Flammenschlund."
-Inst3Quest4_HORDE_Location = "Herbeirufer Xorenth (Flammenschlund; "..GREEN.."1'"..WHITE..")"
-Inst3Quest4_HORDE_Note = "Die Kultisten findest Du überall in der Instanz."
+Inst3Quest4_HORDE_Aim = Inst3Quest3_Aim
+Inst3Quest4_HORDE_Location = Inst3Quest3_HORDE_Location
+Inst3Quest4_HORDE_Note = Inst3Quest3_Note
 Inst3Quest4_HORDE_Prequest = "Nein"
 Inst3Quest4_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst3Quest5_HORDE = "5. Die Dunkelschamanen"
-Inst3Quest5_HORDE_Level = "16"
-Inst3Quest5_HORDE_Attain = "15"
-Inst3Quest5_HORDE_Aim = Inst3Quest4_Aim
-Inst3Quest5_HORDE_Location = Inst3Quest4_HORDE_Location
-Inst3Quest5_HORDE_Note = Inst3Quest4_Note
-Inst3Quest5_HORDE_Prequest = "Nein"
-Inst3Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
