@@ -2,6 +2,16 @@
 Changelog
 =========
 
+Version 4.10.44  (March ??, 2018)
+
+- Removed quest:  Ragefire Chasm: Animal Control (obsolete)
+
+- Added quests:
+	- Antorus, the Burning Throne: The Death of a Titan
+	- Antorus, the Burning Throne: The Unmaker
+	- Antorus, the Burning Throne: Moments of Reflection
+
+
 Version 4.10.43  (February 19, 2018)
 
 	- German translation updated.

@@ -3384,6 +3384,31 @@ Inst172Quest1_HORDE_Attain = "110"
 
 --------------- INST174 - Antorus, the Burning Throne ---------------
 
+Inst174Quest1_QuestID = "49015"
+Inst174Quest1_Level = "110"
+Inst174Quest1_Attain = "110"
+
+Inst174Quest2_QuestID = "48306"
+Inst174Quest2_Level = "110"
+Inst174Quest2_Attain = "110"
+
+Inst174Quest3_QuestID = "49077"
+Inst174Quest3_Level = "110"
+Inst174Quest3_Attain = "110"
+
+
+Inst174Quest1_HORDE_QuestID = "49015"
+Inst174Quest1_HORDE_Level = "110"
+Inst174Quest1_HORDE_Attain = "110"
+
+Inst174Quest2_HORDE_QuestID = "48306"
+Inst174Quest2_HORDE_Level = "110"
+Inst174Quest2_HORDE_Attain = "110"
+
+Inst174Quest3_HORDE_QuestID = "49077"
+Inst174Quest3_HORDE_Level = "110"
+Inst174Quest3_HORDE_Attain = "110"
+
 
 
 

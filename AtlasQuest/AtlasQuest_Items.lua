@@ -193,33 +193,6 @@ Inst3Quest2Rewardtext = AQNoReward
 Inst3Quest3Rewardtext = AQClassRewards
 
 
---[[
---Quest 3 Alliance
-Inst3Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
---ITEM1
-Inst3Quest3ITC1 = Itemc4;
-Inst3Quest3description1 = AQITEM_CHEST
-Inst3Quest3ID1 = "82891"
---ITEM2
-Inst3Quest3ITC2 = Itemc4;
-Inst3Quest3description2 = AQITEM_LEGS
-Inst3Quest3ID2 = "82892"
---ITEM3
-Inst3Quest3ITC3 = Itemc4;
-Inst3Quest3description3 = AQITEM_CHEST
-Inst3Quest3ID3 = "82893"
---ITEM4
-Inst3Quest3ITC4 = Itemc4;
-Inst3Quest3description4 = AQITEM_LEGS
-Inst3Quest3ID4 = "82894"
---ITEM5
-Inst3Quest3ITC5 = Itemc4;
-Inst3Quest3description5 = AQITEM_WAIST
-Inst3Quest3ID5 = "82895"
---]]
-
-
-
 --Quest 1 Horde
 Inst3Quest1Rewardtext_HORDE = AQNoReward
 
@@ -9423,6 +9396,49 @@ Inst172Quest1Rewardtext_HORDE = AQClassRewards
 
 
 --------------- INST174 - Antorus, the Burning Throne ---------------
+
+--Quest 1 Alliance
+Inst174Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"
+--ITEM1
+Inst174Quest1ITC1 = Itemc5;
+Inst174Quest1description1 = AQITEM_ITEM
+Inst174Quest1ID1 = "152984"
+--ITEM2
+Inst174Quest1ITC2 = Itemc6;
+Inst174Quest1description2 = AQITEM_RING
+Inst174Quest1ID2 = "152626"
+
+--Quest 2 Alliance
+Inst174Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst174Quest2ITC1 = Itemc5;
+Inst174Quest2description1 = AQITEM_ITEM
+Inst174Quest2ID1 = "153503"
+
+--Quest 3 Alliance
+Inst174Quest3Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst174Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"
+--ITEM1
+Inst174Quest1ITC1_HORDE = Itemc5;
+Inst174Quest1description1_HORDE = AQITEM_ITEM
+Inst174Quest1ID1_HORDE = "152984"
+--ITEM2
+Inst174Quest1ITC2_HORDE = Itemc6;
+Inst174Quest1description2_HORDE = AQITEM_RING
+Inst174Quest1ID2_HORDE = "152626"
+
+--Quest 2 Horde
+Inst174Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst174Quest2ITC1_HORDE = Itemc5;
+Inst174Quest2description1_HORDE = AQITEM_ITEM
+Inst174Quest2ID1_HORDE = "153503"
+
+--Quest 3 Horde
+Inst174Quest3Rewardtext_HORDE = AQNoReward
 
 
 

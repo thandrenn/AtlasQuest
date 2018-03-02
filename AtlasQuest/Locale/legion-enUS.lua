@@ -3652,14 +3652,70 @@ Inst173QAH = "No Quests"
 
 --------------- INST174 - Antorus, the Burning Throne ---------------
 
-
-
 Inst174Caption = "Antorus, the Burning Throne"
-Inst174QAA = "No Quests"
-Inst174QAH = "No Quests"
+Inst174QAA = "3 Quests"
+Inst174QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst174Quest1 = "1. Antorus, the Burning Throne: The Death of a Titan"
+Inst174Quest1_Aim = "Strike down the soul of Argus in Antorus, the Burning Throne."
+Inst174Quest1_Location = "Prophet Velen (Argus - The Vindicaar)"
+Inst174Quest1_Note = "This quest can be completed on Raid Finder difficulty or higher.  AFter defeating the final boss of the raid, the Prophet Velen will appear and the quest can be turned in to him."
+Inst174Quest1_Prequest = "None"
+Inst174Quest1_Folgequest = "None"
+--
+Inst174Quest1name1 = "Boon of the Pantheon"
+Inst174Quest1name2 = "Insignia of the Grand Army"
+
+--Quest 2 Alliance
+Inst174Quest2 = "2. The Unmaker"
+Inst174Quest2_Aim = "Defeat Argus the Unmaker in Antorus, the Burning Throne."
+Inst174Quest2_Location = "Obtained from Order Hall mission."
+Inst174Quest2_Note = "This quest can be completed on any difficulty.  It is turned in to a NPC in your Order Hall."
+Inst174Quest2_Prequest = "None"
+Inst174Quest2_Folgequest = "None"
+--
+Inst174Quest2name1 = "Cache of Antoran Treasures"
+
+--Quest 3 Alliance
+Inst174Quest3 = "3. Moments of Reflection"
+Inst174Quest3_Aim = "Bring Illidan's crystal to the people and places closest to him."
+Inst174Quest3_Location = "Alor'idal Crystal (The Vindicaar)"
+Inst174Quest3_Note = "After defeating Argus you will be teleported to a version of the Vindicaar in the raid.  The Crystal will be on the same level towards the middle of the ship.  It appears on any difficulty level.\nMalfurion Stormrage is at Val'sharah - Lorlathil ("..YELLOW.."54.68, 72.84"..WHITE..").  Tyrande Whisperwind is at Val'sharah - Temple of Elune ("..YELLOW.."53.68, 55.89"..WHITE..").  The quest completes in Mount Hyjal at "..YELLOW.."61.30, 28.09"..WHITE.."."
+Inst174Quest3_Prequest = "None"
+Inst174Quest3_Folgequest = "None"
+-- No Rewards for this quest
 
 
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst174Quest1_HORDE = Inst174Quest1
+Inst174Quest1_HORDE_Aim = Inst174Quest1_Aim
+Inst174Quest1_HORDE_Location = Inst174Quest1_Location
+Inst174Quest1_HORDE_Note = Inst174Quest1_Note
+Inst174Quest1_HORDE_Prequest = Inst174Quest1_Prequest
+Inst174Quest1_HORDE_Folgequest = Inst174Quest1_Folgequest
+--
+Inst174Quest1name1_HORDE = Inst174Quest1name1
+Inst174Quest1name2_HORDE = Inst174Quest1name2
 
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst174Quest2_HORDE = Inst174Quest2
+Inst174Quest2_HORDE_Aim = Inst174Quest2_Aim
+Inst174Quest2_HORDE_Location = Inst174Quest2_Location
+Inst174Quest2_HORDE_Note = Inst174Quest2_Note
+Inst174Quest2_HORDE_Prequest = Inst174Quest2_Prequest
+Inst174Quest2_HORDE_Folgequest = Inst174Quest2_Folgequest
+--
+Inst174Quest2name1_HORDE = Inst174Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst174Quest3_HORDE = Inst174Quest3
+Inst174Quest3_HORDE_Aim = Inst174Quest3_Aim
+Inst174Quest3_HORDE_Location = Inst174Quest3_Location
+Inst174Quest3_HORDE_Note = Inst174Quest3_Note
+Inst174Quest3_HORDE_Prequest = Inst174Quest3_Prequest
+Inst174Quest3_HORDE_Folgequest = Inst174Quest3_Folgequest
+-- No Rewards for this quest
 
 
 
