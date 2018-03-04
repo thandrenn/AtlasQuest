@@ -2198,7 +2198,7 @@ Inst17Quest1_HORDE_Aim = "Find help in Razorfen Downs."
 Inst17Quest1_HORDE_Location = "Kanati Greycloud (Thousand Needles - Westreach Summit; "..YELLOW.."11.0, 11.2"..WHITE..")"
 Inst17Quest1_HORDE_Note = "Turn the quest in to Koristrasza inside the entrance of Razorfen Down."
 Inst17Quest1_HORDE_Prequest = "None"
-Inst17Quest1_HORDE_Folgequest = "The Coldbringer"
+Inst17Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)

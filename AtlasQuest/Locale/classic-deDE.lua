@@ -2226,7 +2226,7 @@ Inst17Quest2_HORDE_Attain = "40"
 Inst17Quest2_HORDE_Aim = Inst17Quest2_Aim
 Inst17Quest2_HORDE_Location = Inst17Quest2_Location
 Inst17Quest2_HORDE_Note = Inst17Quest2_Note
-Inst17Quest2_HORDE_Prequest = "Lauernde Gefahr"
+Inst17Quest2_HORDE_Prequest = "Nein"
 Inst17Quest2_HORDE_Folgequest = "Nein"
 Inst17Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
