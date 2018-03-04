@@ -618,23 +618,26 @@ Inst6Quest1ID3_HORDE = "19384"
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
 --Quest 1 Alliance
-Inst7Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst8Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst7Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst7Quest1ITC1 = Itemc4;
-Inst7Quest1description1 = AQITEM_OFFHAND..AQITEM_SHIELD
-Inst7Quest1ID1 = "65986"
+Inst7Quest2ITC1 = Itemc4;
+Inst7Quest2description1 = AQITEM_OFFHAND..AQITEM_SHIELD
+Inst7Quest2ID1 = "65986"
 --ITEM2
-Inst7Quest1ITC2 = Itemc4;
-Inst7Quest1description2 = AQITEM_LEGS..AQITEM_MAIL
-Inst7Quest1ID2 = "65962"
+Inst7Quest2ITC2 = Itemc4;
+Inst7Quest2description2 = AQITEM_LEGS..AQITEM_MAIL
+Inst7Quest2ID2 = "65962"
 --ITEM3
-Inst7Quest1ITC3 = Itemc4;
-Inst7Quest1description3 = AQITEM_LEGS..AQITEM_LEATHER
-Inst7Quest1ID3 = "65938"
+Inst7Quest2ITC3 = Itemc4;
+Inst7Quest2description3 = AQITEM_LEGS..AQITEM_LEATHER
+Inst7Quest2ID3 = "65938"
 --ITEM4
-Inst7Quest1ITC4 = Itemc3;
-Inst7Quest1description4 = AQITEM_CHEST..AQITEM_CLOTH
-Inst7Quest1ID4 = "65912"
+Inst7Quest2ITC4 = Itemc3;
+Inst7Quest2description4 = AQITEM_CHEST..AQITEM_CLOTH
+Inst7Quest2ID4 = "65912"
 
 
 --Quest 1 Horde

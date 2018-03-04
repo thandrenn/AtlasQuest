@@ -175,7 +175,8 @@ Inst6Quest1_HORDE_QuestID = "8730"
 
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
-Inst7Quest1_QuestID = "34672"
+Inst7Quest1_QuestID = "26897"
+Inst7Quest2_QuestID = "34672"
 
 Inst7Quest1_HORDE_QuestID = "34673"
 

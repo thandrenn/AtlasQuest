@@ -1147,23 +1147,33 @@ Inst6Quest1name3_HORDE = "Master Dragonslayer's Ring"
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
 Inst7Caption = "Blackfathom Deeps"
-Inst7QAA = "1 Quest"
+Inst7QAA = "2 Quest"
 Inst7QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst7Quest1 = "1. The Rise of Aku'mai"
+Inst7Quest1 = "1. Blackfathom Deeps"
 Inst7Quest1_Level = "25"
 Inst7Quest1_Attain = "20"
-Inst7Quest1_Aim = "Kill Aku'mai the Devourer."
-Inst7Quest1_Location = "Zeya (Blackfathom Deeps; "..BLUE.."Entrance"..WHITE..")"
-Inst7Quest1_Note = "Aku'mai is the final boss, at "..YELLOW.."[8]"..WHITE..".   Zeya will appear at the end for the quest turn in."
+Inst7Quest1_Aim = "Speak with Sentinel Aluwyn."
+Inst7Quest1_Location = "Shindrell Swiftfire (Ashenvale; Base at the Grotto; "..YELLOW.."18.2, 20.4"..WHITE..")."
+Inst7Quest1_Note = "Shindrell Swiftfire is inside the instance at "..BLUE.."Entrance"..WHITE.."."
 Inst7Quest1_Prequest = "None"
 Inst7Quest1_Folgequest = "None"
+
+--Quest 2 Allianz
+Inst7Quest2 = "2. The Rise of Aku'mai"
+Inst7Quest2_Level = "25"
+Inst7Quest2_Attain = "20"
+Inst7Quest2_Aim = "Kill Aku'mai the Devourer."
+Inst7Quest2_Location = "Sentinel Aluwyn (Blackfathom Deeps; "..BLUE.."Entrance"..WHITE..")"
+Inst7Quest2_Note = "Aku'mai is the final boss, at "..YELLOW.."[8]"..WHITE..". Sentinel Aluwyn will appear at the end for the quest turn in."
+Inst7Quest2_Prequest = "None"
+Inst7Quest2_Folgequest = "None"
 --
-Inst7Quest1name1 = "Shield Against the Evil Presence"
-Inst7Quest1name2 = "Thaelrid's Greaves"
-Inst7Quest1name3 = "Blackfathom Leggings"
-Inst7Quest1name4 = "Robe of Kelris"
+Inst7Quest2name1 = "Scales of Aku'mai"
+Inst7Quest2name2 = "Shield Against the Evil Presence"
+Inst7Quest2name3 = "Blackfathom Leggings"
+Inst7Quest2name4 = "Je'neu's Robes"
 
 
 --Quest 1 Horde
@@ -1171,15 +1181,15 @@ Inst7Quest1_HORDE = "1. The Rise of Aku'mai"
 Inst7Quest1_HORDE_Level = "25"
 Inst7Quest1_HORDE_Attain = "20"
 Inst7Quest1_HORDE_Aim = "Kill Aku'mai the Devourer."
-Inst7Quest1_HORDE_Location = "Sentinel Aluwyn (Blackfathom Deeps; "..BLUE.."Entrance"..WHITE..")"
-Inst7Quest1_HORDE_Note = "Aku'mai is the final boss, at "..YELLOW.."[8]"..WHITE..".   Sentinel Aluwyn will appear at the end for the quest turn in."
+Inst7Quest1_HORDE_Location = "Zeya (Blackfathom Deeps; "..BLUE.."Entrance"..WHITE..")"
+Inst7Quest1_HORDE_Note = "Aku'mai is the final boss, at "..YELLOW.."[8]"..WHITE..". Zeya will appear at the end for the quest turn in."
 Inst7Quest1_HORDE_Prequest = "None"
 Inst7Quest1_HORDE_Folgequest = "None"
 --
-Inst7Quest1name1_HORDE = "Scales of Aku'mai"
-Inst7Quest1name2_HORDE = "Shield Against the Evil Presence"
+Inst7Quest1name1_HORDE = "Shield Against the Evil Presence"
+Inst7Quest1name2_HORDE = "Thaelrid's Greaves"
 Inst7Quest1name3_HORDE = "Blackfathom Leggings"
-Inst7Quest1name4_HORDE = "Je'neu's Robes"
+Inst7Quest1name4_HORDE = "Robe of Kelris"
 
 
 

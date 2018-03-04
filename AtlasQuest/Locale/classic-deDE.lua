@@ -1165,38 +1165,48 @@ Inst6Quest1name3_HORDE = Inst6Quest1name3
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
 Inst7Caption = "Die Tiefschwarze Grotte"
-Inst7QAA = "1 Quests"
+Inst7QAA = "2 Quests"
 Inst7QAH = "1 Quests"
 
 --Quest 1 Alliance
-Inst7Quest1 = "1. Der Aufstieg von Aku'mai"
+Inst7Quest1 = "1. Die Tiefschwarze Grotte"
 Inst7Quest1_Level = "25"
 Inst7Quest1_Attain = "20"
-Inst7Quest1_Aim = "Tötet Aku'mai den Verschlinger ."
-Inst7Quest1_Location = "Schildwache Aluwyn (Tiefschwarze Grotte; "..BLUE.."Eingang"..WHITE..")"
-Inst7Quest1_Note = "Aku'mai ist der Endboss, er befindet sich bei "..YELLOW.."[8]"..WHITE..". Schildwache Aluwyn erscheint nachdem der Endboss besiegt wurde."
+Inst7Quest1_Aim = "Sprecht mit Schildwache Aluwyn."
+Inst7Quest1_Location = "Shindrell Feuerflink (Eschental; Stützpunkt an der Grotte; "..YELLOW.."18.2, 20.4"..WHITE..")."
+Inst7Quest1_Note = "Schildwache Aluwyn befindet sich am "..BLUE.."Eingang"..WHITE.." der Instanz."
 Inst7Quest1_Prequest = "Nein"
 Inst7Quest1_Folgequest = "Nein"
+
+--Quest 2 Alliance
+Inst7Quest2 = "2. Der Aufstieg von Aku'mai"
+Inst7Quest2_Level = "25"
+Inst7Quest2_Attain = "20"
+Inst7Quest2_Aim = "Tötet Aku'mai den Verschlinger."
+Inst7Quest2_Location = "Schildwache Aluwyn (Tiefschwarze Grotte; "..BLUE.."Eingang"..WHITE..")"
+Inst7Quest2_Note = "Aku'mai ist der Endboss, er befindet sich bei "..YELLOW.."[8]"..WHITE..". Schildwache Aluwyn erscheint nachdem der Endboss besiegt wurde."
+Inst7Quest2_Prequest = "Nein"
+Inst7Quest2_Folgequest = "Nein"
 --
-Inst7Quest1name1 = "Schild gegen die bösartige Präsenz"
-Inst7Quest1name2 = "Thaelrids Schienbeinschützer"
-Inst7Quest1name3 = "Gamaschen der Tiefschwarzen Grotte"
-Inst7Quest1name4 = "Kelris' Robe"
+Inst7Quest2name1 = "Schild gegen die bösartige Präsenz"
+Inst7Quest2name2 = "Thaelrids Schienbeinschützer"
+Inst7Quest2name3 = "Gamaschen der Tiefschwarzen Grotte"
+Inst7Quest2name4 = "Kelris' Robe"
 
 
 --Quest 1 Horde
 Inst7Quest1_HORDE = "1. Der Aufstieg von Aku'mai"
 Inst7Quest1_HORDE_Level = "25"
 Inst7Quest1_HORDE_Attain = "20"
-Inst7Quest1_HORDE_Aim = Inst7Quest1_Aim
+Inst7Quest1_HORDE_Aim = Inst7Quest2_Aim
 Inst7Quest1_HORDE_Location = "Zeya (Tiefschwarze Grotte; "..BLUE.."Eingang"..WHITE..")"
 Inst7Quest1_HORDE_Note = "Aku'mai ist der Endboss, er befindet sich bei "..YELLOW.."[8]"..WHITE..". Zeya erscheint nachdem der Endboss besiegt wurde."
 Inst7Quest1_HORDE_Prequest = "Nein"
 Inst7Quest1_HORDE_Folgequest = "Nein"
 --
-Inst7Quest1name1_HORDE = Inst7Quest1name1
-Inst7Quest1name2_HORDE = Inst7Quest1name2
-Inst7Quest1name3_HORDE = Inst7Quest1name3
+Inst7Quest1name1_HORDE = Inst7Quest2name1
+Inst7Quest1name2_HORDE = Inst7Quest2name2
+Inst7Quest1name3_HORDE = Inst7Quest2name3
 Inst7Quest1name4_HORDE = "Kelris' Robe"
 
 
