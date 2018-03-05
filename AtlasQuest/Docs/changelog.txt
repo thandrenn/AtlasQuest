@@ -8,6 +8,7 @@ Version 4.10.44  (March ??, 2018)
 
 - Added quests:
 	- Blackfathom Deeps: The Rise of Aku'mai (thanks Guldukat)
+	- Trial of Valor: The Once and Future Lord of Shadows
 	- Antorus, the Burning Throne: The Death of a Titan
 	- Antorus, the Burning Throne: The Unmaker
 	- Antorus, the Burning Throne: Moments of Reflection

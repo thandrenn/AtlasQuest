@@ -9307,6 +9307,9 @@ Inst170Quest2ID1 = "142533"
 --Quest 3 Alliance
 Inst170Quest3Rewardtext = AQClassRewards
 
+--Quest 4 Alliance
+Inst170Quest4Rewardtext = AQClassRewards
+
 
 --Quest 1 Horde
 Inst170Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
@@ -9324,6 +9327,9 @@ Inst170Quest2ID1_HORDE = "142533"
 
 --Quest 3 Horde
 Inst170Quest3Rewardtext_HORDE = AQClassRewards
+
+--Quest 4 Horde
+Inst170Quest4Rewardtext_HORDE = AQClassRewards
 
 
 

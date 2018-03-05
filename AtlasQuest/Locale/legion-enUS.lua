@@ -3401,8 +3401,8 @@ Inst169Quest12_HORDE_Folgequest = Inst169Quest12_Folgequest
 --------------- INST170 - Trial of Valor ---------------
 
 Inst170Caption = "Trial of Valor"
-Inst170QAA = "3 Quests"
-Inst170QAH = "3 Quests"
+Inst170QAA = "4 Quests"
+Inst170QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst170Quest1 = "1. Odyn's Favor"
@@ -3435,6 +3435,16 @@ Inst170Quest3_Prequest = "None"
 Inst170Quest3_Folgequest = "None"
 -- Reward varies for each class
 
+--Quest 4 Alliance
+Inst170Quest4 = "4. The Once and Future Lord of Shadows"
+Inst170Quest4_Aim = "Defeat Helya in the Trials of Valor raid and then use the Soul Prism of the Illidari to claim Illidan's Soul."
+Inst170Quest4_Location = "Allari the Souleater (Azsuna - Illidari Stand; "..YELLOW.."43.2, 43.2"..WHITE..")"
+Inst170Quest4_Note = "Helya is the final boss in the Trial of the Valor raid.  Illidan Stormrage will appear on the right side of the platform after defeating Helya. Use the item on him to complete the quest.  The quest can be completed on any raid difficulty.  Turn the quest in to Light's Heart in your Order Hall."
+Inst170Quest4_Prequest = "Soul Prism of the Illidari"
+Inst170Quest4_Folgequest = "The Nighthold"
+Inst170Quest4PreQuest = "true"
+-- Reward varies for each class
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst170Quest1_HORDE = Inst170Quest1
@@ -3465,6 +3475,16 @@ Inst170Quest3_HORDE_Location = Inst170Quest3_Location
 Inst170Quest3_HORDE_Note = Inst170Quest3_Note
 Inst170Quest3_HORDE_Prequest = Inst170Quest3_Prequest
 Inst170Quest3_HORDE_Folgequest = Inst170Quest3_Folgequest
+-- Reward varies for each class
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst170Quest4_HORDE = Inst170Quest4
+Inst170Quest4_HORDE_Aim = Inst170Quest4_Aim
+Inst170Quest4_HORDE_Location = Inst170Quest4_Location
+Inst170Quest4_HORDE_Note = Inst170Quest4_Note
+Inst170Quest4_HORDE_Prequest = Inst170Quest4_Prequest
+Inst170Quest4_HORDE_Folgequest = Inst170Quest4_Folgequest
+Inst170Quest4PreQuest_HORDE = Inst170Quest4PreQuest
 -- Reward varies for each class
 
 
@@ -3647,8 +3667,8 @@ Inst172Quest1PreQuest_HORDE = Inst172Quest1PreQuest
 
 
 Inst173Caption = "Seat of the Triumvirate"
-Inst173QAA = "1 Quests"
-Inst173QAH = "1 Quests"
+Inst173QAA = "1 Quest"
+Inst173QAH = "1 Quest"
 
 --Quest 1 Alliance
 Inst173Quest1 = "1. The Crest of Knowledge"
