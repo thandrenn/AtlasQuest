@@ -1147,7 +1147,7 @@ Inst6Quest1name3_HORDE = "Master Dragonslayer's Ring"
 --------------- INST7 - Blackfathom Deeps (BFD) ---------------
 
 Inst7Caption = "Blackfathom Deeps"
-Inst7QAA = "2 Quest"
+Inst7QAA = "2 Quests"
 Inst7QAH = "1 Quest"
 
 --Quest 1 Alliance
@@ -1160,7 +1160,7 @@ Inst7Quest1_Note = "Shindrell Swiftfire is inside the instance at "..BLUE.."Entr
 Inst7Quest1_Prequest = "None"
 Inst7Quest1_Folgequest = "None"
 
---Quest 2 Allianz
+--Quest 2 Alliance
 Inst7Quest2 = "2. The Rise of Aku'mai"
 Inst7Quest2_Level = "25"
 Inst7Quest2_Attain = "20"
@@ -1170,10 +1170,11 @@ Inst7Quest2_Note = "Aku'mai is the final boss, at "..YELLOW.."[8]"..WHITE..". Se
 Inst7Quest2_Prequest = "None"
 Inst7Quest2_Folgequest = "None"
 --
-Inst7Quest2name1 = "Scales of Aku'mai"
-Inst7Quest2name2 = "Shield Against the Evil Presence"
+Inst7Quest2name1 = "Shield Against the Evil Presence"
+Inst7Quest2name2 = "Thaelrid's Greaves"
 Inst7Quest2name3 = "Blackfathom Leggings"
-Inst7Quest2name4 = "Je'neu's Robes"
+Inst7Quest2name4 = "Robe of Kelris"
+Inst7Quest2name5 = "Scales of Aku'mai"
 
 
 --Quest 1 Horde
@@ -1190,6 +1191,7 @@ Inst7Quest1name1_HORDE = "Shield Against the Evil Presence"
 Inst7Quest1name2_HORDE = "Thaelrid's Greaves"
 Inst7Quest1name3_HORDE = "Blackfathom Leggings"
 Inst7Quest1name4_HORDE = "Robe of Kelris"
+Inst7Quest1name5_HORDE = "Scales of Aku'mai"
 
 
 

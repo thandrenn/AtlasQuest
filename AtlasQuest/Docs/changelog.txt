@@ -7,9 +7,11 @@ Version 4.10.44  (March ??, 2018)
 - Removed quest:  Ragefire Chasm: Animal Control (obsolete)
 
 - Added quests:
+	- Blackfathom Deeps: The Rise of Aku'mai (thanks Guldukat)
 	- Antorus, the Burning Throne: The Death of a Titan
 	- Antorus, the Burning Throne: The Unmaker
 	- Antorus, the Burning Throne: Moments of Reflection
+	- Seat of the Triumvirate: The Crest of Knowledge
 
 
 Version 4.10.43  (February 19, 2018)

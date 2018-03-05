@@ -3381,6 +3381,15 @@ Inst172Quest1_HORDE_Attain = "110"
 
 --------------- INST173 - Seat of the Triumvirate ---------------
 
+Inst173Quest1_QuestID = "47654"
+Inst173Quest1_Level = "110"
+Inst173Quest1_Attain = "110"
+
+
+Inst173Quest1_HORDE_QuestID = "47654"
+Inst173Quest1_HORDE_Level = "110"
+Inst173Quest1_HORDE_Attain = "110"
+
 
 
 --------------- INST174 - Antorus, the Burning Throne ---------------

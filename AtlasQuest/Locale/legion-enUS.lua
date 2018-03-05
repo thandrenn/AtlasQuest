@@ -3624,7 +3624,8 @@ Inst172Quest1_Note = "Lord Mephistroth is the final boss of the dungeon."
 Inst172Quest1_Prequest = "Assault on Broken Shore -> Legionfall Supplies"
 Inst172Quest1_Folgequest = "None"
 Inst172Quest1PreQuest = "true"
--- Reward varies for each class
+--
+-- Rewards "Veiled Argunite"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3646,8 +3647,32 @@ Inst172Quest1PreQuest_HORDE = Inst172Quest1PreQuest
 
 
 Inst173Caption = "Seat of the Triumvirate"
-Inst173QAA = "No Quests"
-Inst173QAH = "No Quests"
+Inst173QAA = "1 Quests"
+Inst173QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst173Quest1 = "1. The Crest of Knowledge"
+Inst173Quest1_Aim = "Slay L'ura and retrieve the Crest of Knowledge."
+Inst173Quest1_Location = "Prophet Velen (Mac'Aree - The Vindicaar)"
+Inst173Quest1_Note = "L'ura is the final boss in the dungeon.  The Vindicaar must be in Mac'Aree to turn this quest in."
+Inst173Quest1_Prequest = "A Beacon in the Dark"
+Inst173Quest1_Folgequest = "The Ruins of Oronaar"
+Inst173Quest1PreQuest = "true"
+--
+Inst173Quest1name1 = "Veiled Argunite"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst173Quest1_HORDE = Inst173Quest1
+Inst173Quest1_HORDE_Aim = Inst173Quest1_Aim
+Inst173Quest1_HORDE_Location = Inst173Quest1_Location
+Inst173Quest1_HORDE_Note = Inst173Quest1_Note
+Inst173Quest1_HORDE_Prequest = Inst173Quest1_Prequest
+Inst173Quest1_HORDE_Folgequest = Inst173Quest1_Folgequest
+Inst173Quest1PreQuest_HORDE = Inst173Quest1PreQuest
+--
+Inst173Quest1name1_HORDE = Inst173Quest1name1
+
 
 
 --------------- INST174 - Antorus, the Burning Throne ---------------

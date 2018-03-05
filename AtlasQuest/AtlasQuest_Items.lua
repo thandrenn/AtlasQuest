@@ -621,43 +621,51 @@ Inst6Quest1ID3_HORDE = "19384"
 Inst8Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst7Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst7Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
 --ITEM1
 Inst7Quest2ITC1 = Itemc4;
-Inst7Quest2description1 = AQITEM_OFFHAND..AQITEM_SHIELD
+Inst7Quest2description1 = AQITEM_SHIELD
 Inst7Quest2ID1 = "65986"
 --ITEM2
 Inst7Quest2ITC2 = Itemc4;
-Inst7Quest2description2 = AQITEM_LEGS..AQITEM_MAIL
+Inst7Quest2description2 = AQITEM_LEGS..AQITEM_PLATE
 Inst7Quest2ID2 = "65962"
 --ITEM3
 Inst7Quest2ITC3 = Itemc4;
 Inst7Quest2description3 = AQITEM_LEGS..AQITEM_LEATHER
 Inst7Quest2ID3 = "65938"
 --ITEM4
-Inst7Quest2ITC4 = Itemc3;
+Inst7Quest2ITC4 = Itemc4;
 Inst7Quest2description4 = AQITEM_CHEST..AQITEM_CLOTH
 Inst7Quest2ID4 = "65912"
+--ITEM5
+Inst7Quest2ITC5 = Itemc4;
+Inst7Quest2description5 = AQITEM_LEGS..AQITEM_MAIL
+Inst7Quest2ID5 = "131713"
 
 
 --Quest 1 Horde
-Inst7Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst7Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
 --ITEM1
 Inst7Quest1ITC1_HORDE = Itemc4;
-Inst7Quest1description1_HORDE = AQITEM_LEGS..AQITEM_MAIL
-Inst7Quest1ID1_HORDE = "66030"
+Inst7Quest1description1_HORDE = AQITEM_SHIELD
+Inst7Quest1ID1_HORDE = "65986"
 --ITEM2
 Inst7Quest1ITC2_HORDE = Itemc4;
-Inst7Quest1description2_HORDE = AQITEM_OFFHAND..AQITEM_SHIELD
-Inst7Quest1ID2_HORDE = "66039"
+Inst7Quest1description2_HORDE = AQITEM_LEGS..AQITEM_PLATE
+Inst7Quest1ID2_HORDE = "65962"
 --ITEM3
 Inst7Quest1ITC3_HORDE = Itemc4;
 Inst7Quest1description3_HORDE = AQITEM_LEGS..AQITEM_LEATHER
-Inst7Quest1ID3_HORDE = "66021"
+Inst7Quest1ID3_HORDE = "65938"
 --ITEM4
-Inst7Quest1ITC4_HORDE = Itemc3;
+Inst7Quest1ITC4_HORDE = Itemc4;
 Inst7Quest1description4_HORDE = AQITEM_CHEST..AQITEM_CLOTH
-Inst7Quest1ID4_HORDE = "66012"
+Inst7Quest1ID4_HORDE = "65912"
+--ITEM5
+Inst7Quest1ITC5_HORDE = Itemc4;
+Inst7Quest1description5_HORDE = AQITEM_LEGS..AQITEM_MAIL
+Inst7Quest1ID5_HORDE = "131713"
 
 
 
@@ -9395,6 +9403,13 @@ Inst172Quest1Rewardtext_HORDE = AQClassRewards
 
 
 --------------- INST173 - Seat of the Triumvirate ---------------
+
+--Quest 1 Alliance
+Inst173Quest1Rewardtext = AQDiscription_REWARD..WHITE.."300"..AQVEILEDARGUNITE
+
+
+--Quest 1 Horde
+Inst173Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."300"..AQVEILEDARGUNITE
 
 
 
