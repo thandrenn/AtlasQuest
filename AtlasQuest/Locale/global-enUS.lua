@@ -113,23 +113,23 @@ AQDiscription_FOLGEQUEST = "Followup: "
 AQFinishedTEXT = "Finished: ";
 
 AQGARRISON = "(Garrison - Lunarfall Inn or Frostwall Tavern)"
-AQGARRISONRESOURCES = " Garrison Resources"
-AQAPEXISCRYSTAL = " Apexis Crystals"
-AQORDERRESOURCES = " Order Resources"
-AQVEILEDARGUNITE = " Veiled Argunite" 
+AQGARRISONRESOURCES = "Garrison Resources"
+AQAPEXISCRYSTAL = "Apexis Crystals"
+AQORDERRESOURCES = "Order Resources"
+AQVEILEDARGUNITE = "Veiled Argunite" 
 
 
 ------------------
 --- ITEM TYPES ---
 ------------------
 
-AQITEM_DAGGER = " Dagger"
-AQITEM_POLEARM = " Polearm"
-AQITEM_SWORD = " Sword"
-AQITEM_AXE = " Axe"
+AQITEM_DAGGER = "Dagger"
+AQITEM_POLEARM = "Polearm"
+AQITEM_SWORD = "Sword"
+AQITEM_AXE = "Axe"
 AQITEM_WAND = "Wand"
-AQITEM_STAFF = " Staff"
-AQITEM_MACE = " Mace"
+AQITEM_STAFF = "Staff"
+AQITEM_MACE = "Mace"
 AQITEM_SHIELD = "Shield"
 AQITEM_GUN = "Gun"
 AQITEM_BOW = "Bow"
@@ -147,11 +147,11 @@ AQITEM_HEAD = "Head,"
 AQITEM_BACK = "Back"
 AQITEM_TABARD = "Tabard"
 
-AQITEM_CLOTH = " Cloth"
-AQITEM_LEATHER = " Leather"
-AQITEM_MAIL = " Mail"
-AQITEM_PLATE = " Plate"
-AQITEM_COSMETIC = " Cosmetic"
+AQITEM_CLOTH = "Cloth"
+AQITEM_LEATHER = "Leather"
+AQITEM_MAIL = "Mail"
+AQITEM_PLATE = "Plate"
+AQITEM_COSMETIC = "Cosmetic"
 
 AQITEM_OFFHAND = "Offhand"
 AQITEM_MAINHAND = "Main Hand,"

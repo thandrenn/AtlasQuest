@@ -3665,20 +3665,97 @@ Inst172Quest1PreQuest_HORDE = "true"
 
 
 Inst173Caption = "Sitz des Triumvirats"
-Inst173QAA = "Keine Quests"
-Inst173QAH = "Keine Quests"
+Inst173QAA = "1 Quest"
+Inst173QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst173Quest1 = "1. Das Wappen des Wissens"
+Inst173Quest1_Aim = "Tötet L'ura und bergt das Wappen des Wissens."
+Inst173Quest1_Location = "Prophet Velen (Mac'Aree - Die Vindikaar)"
+Inst173Quest1_Note = "L'ura ist der Endboss der Instanz.  Die Vindicaar muss sich in Mac'Aree befinden um die Quest abzuschließen."
+Inst173Quest1_Prequest = "Ein Signal im Dunklen"
+Inst173Quest1_Folgequest = "Die Ruinen von Oronaar"
+Inst173Quest1PreQuest = "true"
+--
+Inst173Quest1name1 = "Verschleierter Argunit"
 
 
+--Quest 1 Horde
+Inst173Quest1_HORDE = Inst173Quest1
+Inst173Quest1_HORDE_Aim = Inst173Quest1_Aim
+Inst173Quest1_HORDE_Location = Inst173Quest1_Location
+Inst173Quest1_HORDE_Note = Inst173Quest1_Note
+Inst173Quest1_HORDE_Prequest = Inst173Quest1_Prequest
+Inst173Quest1_HORDE_Folgequest = "Ein Signal im Dunklen"
+Inst173Quest1PreQuest_HORDE = Inst173Quest1PreQuest
+--
+Inst173Quest1name1_HORDE = Inst173Quest1name1
 --------------- INST174 - Antorus, the Burning Throne ---------------
 
-
-
 Inst174Caption = "Antorus, der Brennende Thron"
-Inst174QAA = "Keine Quests"
-Inst174QAH = "Keine Quests"
+Inst174QAA = "3 Quests"
+Inst174QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst174Quest1 = "1. Antorus, der Brennende Thron: Der Tod eines Titanen"
+Inst174Quest1_Aim = "Bezwingt die Seele von Argus in Antorus, dem Brennenden Thron."
+Inst174Quest1_Location = "Prophet Velen (Argus - Die Vindikaar)"
+Inst174Quest1_Note = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden.  Nach dem Bezwingen des Endbosses wird Prophet Velen erscheinen und Du kannst die Quest abgeben."
+Inst174Quest1_Prequest = "Nein"
+Inst174Quest1_Folgequest = "Nein"
+--
+Inst174Quest1name1 = "Gabe des Pantheons"
+Inst174Quest1name2 = "Insigne der Großen Armee"
+
+--Quest 2 Alliance
+Inst174Quest2 = "2. Der Zerrütter"
+Inst174Quest2_Aim = "Bezwingt Argus, den Zerrütter, in Antorus, dem Brennenden Thron."
+Inst174Quest2_Location = "Erhältlich von der Ordenshallenmissionen."
+Inst174Quest2_Note = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden.  Kehre zurück zu deiner Ordnenshalle."
+Inst174Quest2_Prequest = "Nein"
+Inst174Quest2_Folgequest = "Nein"
+--
+Inst174Quest2name1 = "Truhe mit antorischen Schätzen"
+
+--Quest 3 Alliance
+Inst174Quest3 = "3. Momente der Reue"
+Inst174Quest3_Aim = "Bringt Illidans Kristall zu den Personen und Orten, die ihm am meisten am Herzen liegen."
+Inst174Quest3_Location = "Alor'idalkristall (Die Vindikaar)"
+Inst174Quest3_Note = "Nachdem Argus besiegt wurde wirst du zu einer Version der Vendikaar telepotiert im Schlachtzug.  Die Kristalle sind am selben Ort in der mitte des Schiffs.  Es erscheint auf jedem Schwierigkeitsgrad.\nMalfurion Sturmgrimm ist bei Val'sharah - Lorlathil ("..YELLOW.."54.68, 72.84"..WHITE..").  Tyrande Wisperwind ist bei Val'sharah - Tempel von Elune ("..YELLOW.."53.68, 55.89"..WHITE..").  Die Quest wird abgeschlossen in Mount Hyjal bei "..YELLOW.."61.30, 28.09"..WHITE.."."
+Inst174Quest3_Prequest = "Nein"
+Inst174Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
+--Quest 1 Horde
+Inst174Quest1_HORDE = Inst174Quest1
+Inst174Quest1_HORDE_Aim = Inst174Quest1_Aim
+Inst174Quest1_HORDE_Location = Inst174Quest1_Location
+Inst174Quest1_HORDE_Note = Inst174Quest1_Note
+Inst174Quest1_HORDE_Prequest = "Nein"
+Inst174Quest1_HORDE_Folgequest = "Nein"
+--
+Inst174Quest1name1_HORDE = Inst174Quest1name1
+Inst174Quest1name2_HORDE = Inst174Quest1name2
 
+--Quest 2 Horde
+Inst174Quest2_HORDE = Inst174Quest2
+Inst174Quest2_HORDE_Aim = Inst174Quest2_Aim
+Inst174Quest2_HORDE_Location = Inst174Quest2_Location
+Inst174Quest2_HORDE_Note = Inst174Quest2_Note
+Inst174Quest2_HORDE_Prequest = "Nein"
+Inst174Quest2_HORDE_Folgequest = "Nein"
+--
+Inst174Quest2name1_HORDE = Inst174Quest2name1
+
+--Quest 3 Horde
+Inst174Quest3_HORDE = Inst174Quest3
+Inst174Quest3_HORDE_Aim = Inst174Quest3_Aim
+Inst174Quest3_HORDE_Location = Inst174Quest3_Location
+Inst174Quest3_HORDE_Note = Inst174Quest3_Note
+Inst174Quest3_HORDE_Prequest = "Nein"
+Inst174Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 

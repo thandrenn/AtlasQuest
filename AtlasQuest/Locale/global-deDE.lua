@@ -122,8 +122,8 @@ AQFinishedTEXT = "Abgeschlossen:";
 AQGARRISON = "(Garnision - Mondsturzgasthaus oder Frostwallschenke)"
 AQGARRISONRESOURCES = "Garnisionsressourcen"
 AQAPEXISCRYSTAL = "Apexiskristall"
-AQORDERRESOURCES = " Ordensressourcen"
-
+AQORDERRESOURCES = "Ordensressourcen"
+AQVEILEDARGUNITE = "Verschleierter Argunit"
 
 ------------------
 --- ITEM TYPES ---
