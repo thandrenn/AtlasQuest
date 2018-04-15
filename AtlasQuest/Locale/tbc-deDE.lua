@@ -1499,7 +1499,7 @@ Inst46Quest1_Level = "69"
 Inst46Quest1_Attain = "65"
 Inst46Quest1_Aim = "Sprecht mit Isfar in den Sethekkhallen in Auchindoun."
 Inst46Quest1_Location = "Oloraak (Shattrath - Unteres Viertel; "..YELLOW.."58.0, 15.4"..WHITE..")"
-Inst46Quest1_Note = "Terokks Maske droppt von Dunkelwirker Syth bei "..YELLOW.."[1]"..WHITE..", die Sage von Terokk findet man bei "..YELLOW.."[2]"..WHITE..", und Terokks Federkiel droppt von Klauenkönig Ikiss bei "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest1_Note = "Isfar ist innerhalb der Instanz am Eingang."
 Inst46Quest1_Prequest = "Nein"
 Inst46Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
