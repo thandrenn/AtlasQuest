@@ -3124,11 +3124,11 @@ Inst56Quest3PreQuest = "true"
 Inst56Quest4 = "4. Wie man in Arkatraz einbricht"
 Inst56Quest4_Level = "70"
 Inst56Quest4_Attain = "67"
-Inst56Quest4_Aim = "A'dal bittet Euch, das obere und das untere Fragment des Schlüssels zur Arkatraz zu besorgen. Bringt beide Fragmente zu ihm zurück, damit er sie für Euch zum Schlüssel zur Arkatraz zusammenfügen kann."
-Inst56Quest4_Location = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")"
+Inst56Quest4_Aim = Inst55Quest4_Aim
+Inst56Quest4_Location = Inst55Quest4_Location
 Inst56Quest4_Note = "Das obere Schlüsselfragment droppt von Pathaleon dem Kalkulator bei "..YELLOW.."[5]"..WHITE..". Das untere Fragment droppt in der Botanika."
-Inst56Quest4_Prequest = "Sphärenräuber Nesaad -> Sonderlieferung nach Shattrath"
-Inst56Quest4_Folgequest = "Herold der Verdammnis ("..YELLOW.."FdS: Die Arkatraz"..WHITE..")"
+Inst56Quest4_Prequest = Inst55Quest4_Prequest
+Inst56Quest4_Folgequest = Inst55Quest4_Folgequest
 Inst56Quest4FQuest = "true"
 --
 Inst56Quest4name1 = "Anachoretenumhang der Sha'tari"
