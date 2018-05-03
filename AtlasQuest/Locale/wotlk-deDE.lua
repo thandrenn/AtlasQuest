@@ -2052,8 +2052,8 @@ Inst87QAA = "1 Quest"
 Inst87QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst876Quest1 = "1. Champion des Turniers"
-Inst8Quest1_Level = "78"
+Inst87Quest1 = "1. Champion des Turniers"
+Inst87Quest1_Level = "78"
 Inst87Quest1_Attain = "75"
 Inst87Quest1_Aim = "Hochlord Tirion Fordring hat Euch beauftragt, die Prüfung des Champions zu vollenden."
 Inst87Quest1_Location = "Du bekommst die Quest automatisch wenn Du die Instanz betritts."
