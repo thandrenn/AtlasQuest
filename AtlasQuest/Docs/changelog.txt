@@ -5,6 +5,8 @@ Changelog
 Version 4.10.44  (March ??, 2018)
 
 - Removed quest:  Ragefire Chasm: Animal Control (obsolete)
+- Minor fixes for a few quests.
+- Updates to German translation.
 
 - Added quests:
 	- Blackfathom Deeps: The Rise of Aku'mai (thanks Guldukat)
