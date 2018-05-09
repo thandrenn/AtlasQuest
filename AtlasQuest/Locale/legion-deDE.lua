@@ -3457,6 +3457,16 @@ Inst170Quest3_Prequest = "Nein"
 Inst170Quest3_Folgequest = "Nein"
 -- Reward varies for each class
 
+--Quest 4 Alliance
+Inst170Quest4 = "4. Der einstige und zukünftige Herr der Schatten"
+Inst170Quest4_Aim = "Bezwingt Helya in der Prüfung der Tapferkeit und verwendet dann das Seelenprisma der Illidari, um Illidans Seele einzufangen."
+Inst170Quest4_Location = "Allari die Seelenfresserin (Azsuna - Verteidigungsposten der Illidari; "..YELLOW.."43.2, 43.2"..WHITE..")"
+Inst170Quest4_Note = "Helya ist der Endboss in der Prüfung der Tapferkeit.  Illidan Sturmgrimm erscheint auf der rechten Seite der Plattform nachdem Helya besiegt wurde. Benutze den Gegenstand um die Quest zu vervollständigen.  Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden.  Beende die Quest in deiner Ordenshalle beim Herz des Lichts."
+Inst170Quest4_Prequest = "Seelenprisma der Illidari"
+Inst170Quest4_Folgequest = "Die Nachtfestung"
+Inst170Quest4PreQuest = "true"
+-- Reward varies for each class
+
 
 --Quest 1 Horde
 Inst170Quest1_HORDE = Inst170Quest1
@@ -3489,7 +3499,15 @@ Inst170Quest3_HORDE_Prequest = "Nein"
 Inst170Quest3_HORDE_Folgequest = "Nein"
 -- Reward varies for each class
 
-
+--Quest 4 Horde
+Inst170Quest4_HORDE = Inst170Quest4
+Inst170Quest4_HORDE_Aim = Inst170Quest4_Aim
+Inst170Quest4_HORDE_Location = Inst170Quest4_Location
+Inst170Quest4_HORDE_Note = Inst170Quest4_Note
+Inst170Quest4_HORDE_Prequest = Inst170Quest4_Prequest
+Inst170Quest4_HORDE_Folgequest = Inst170Quest4_Folgequest
+Inst170Quest4PreQuest_HORDE = "Die Nachtfestung"
+-- Reward varies for each class
 
 --------------- INST171 - Tomb of Sargeras ---------------
 
