@@ -2177,8 +2177,8 @@ Inst50Quest1FQuest_HORDE = "true"
 --------------- INST51 - CoT: Old Hillsbrad ---------------
 
 Inst51Caption = "Vorgebirge des alten Hügellands"
-Inst51QAA = "6 Quests"
-Inst51QAH = "6 Quests"
+Inst51QAA = "4 Quests"
+Inst51QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst51Quest1 = "1. Das alte Hügelland"
@@ -2231,18 +2231,6 @@ Inst51Quest4_Prequest = "Nein"
 Inst51Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Alliance
-Inst51Quest5 = "5. Netter Hut..."
-Inst51Quest5_Level = "68"
-Inst51Quest5_Attain = "66"
-Inst51Quest5_Aim = "Don Carlos hat Euch versehentlich dazu herausgefordert, sein jüngeres Ich im Alten Hügelland zu besiegen. Bringt ihm anschließend seinen Hut als Beweis. Er befindet sich in Tanaris. "
-Inst51Quest5_Location = "Don Carlos (Tanaris; "..YELLOW.."50,27"..WHITE..")"
-Inst51Quest5_Note = "Don Carlos wandert auf der Straße nahe "..YELLOW.."[4]"..WHITE.." entlang."
-Inst51Quest5_Prequest = "Nein"
-Inst51Quest5_Folgequest = "Nein"
---
-Inst51Quest5name1 = "Breitkrempiger Haliskanhut"
-
 
 --Quest 1 Horde
 Inst51Quest1_HORDE = Inst51Quest1
@@ -2294,18 +2282,6 @@ Inst51Quest4_HORDE_Note = Inst51Quest4_Note
 Inst51Quest4_HORDE_Prequest = "Nein"
 Inst51Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
-
---Quest 5 Horde
-Inst51Quest5_HORDE = Inst51Quest5
-Inst51Quest5_HORDE_Level = "68"
-Inst51Quest5_HORDE_Attain = "66"
-Inst51Quest5_HORDE_Aim = Inst51Quest5_Aim
-Inst51Quest5_HORDE_Location = Inst51Quest5_Location
-Inst51Quest5_HORDE_Note = Inst51Quest5_Note
-Inst51Quest5_HORDE_Prequest = "Nein"
-Inst51Quest5_HORDE_Folgequest = "Nein"
---
-Inst51Quest5name1_HORDE = Inst51Quest5name1
 
 
 
