@@ -2166,8 +2166,8 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 --------------- INST51 - CoT: Old Hillsbrad Foothills ---------------
 
 Inst51Caption = "Old Hillsbrad Foothills"
-Inst51QAA = "5 Quests"
-Inst51QAH = "5 Quests"
+Inst51QAA = "4 Quests"
+Inst51QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst51Quest1 = "1. Old Hillsbrad"
@@ -2220,18 +2220,6 @@ Inst51Quest4_Prequest = "None"
 Inst51Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
---Quest 5 Alliance
-Inst51Quest5 = "5. Nice Hat..."
-Inst51Quest5_Level = "68"
-Inst51Quest5_Attain = "66"
-Inst51Quest5_Aim = "Don Carlos has inadvertently challenged you to defeat his younger self in Old Hillsbrad. Afterwards, bring Don Carlos' Hat to him in Tanaris as proof."
-Inst51Quest5_Location = "Don Carlos (Tanaris - Gadgetzan; "..YELLOW.."50.8, 27.4"..WHITE..")"
-Inst51Quest5_Note = "Don Carlos patrols the road near "..YELLOW.."[4]"..WHITE.."."
-Inst51Quest5_Prequest = "None"
-Inst51Quest5_Folgequest = "None"
---
-Inst51Quest5name1 = "Haliscan Brimmed Hat"
-
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst51Quest1_HORDE = Inst51Quest1
@@ -2283,18 +2271,6 @@ Inst51Quest4_HORDE_Note = Inst51Quest4_Note
 Inst51Quest4_HORDE_Prequest = Inst51Quest4_Prequest
 Inst51Quest4_HORDE_Folgequest = Inst51Quest4_Folgequest
 -- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst51Quest5_HORDE = Inst51Quest5
-Inst51Quest5_HORDE_Level = Inst51Quest5_Level
-Inst51Quest5_HORDE_Attain = Inst51Quest5_Attain
-Inst51Quest5_HORDE_Aim = Inst51Quest5_Aim
-Inst51Quest5_HORDE_Location = Inst51Quest5_Location
-Inst51Quest5_HORDE_Note = Inst51Quest5_Note
-Inst51Quest5_HORDE_Prequest = Inst51Quest5_Prequest
-Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
---
-Inst51Quest5name1_HORDE = Inst51Quest5name1
 
 
 
