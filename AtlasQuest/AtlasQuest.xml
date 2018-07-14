@@ -37,6 +37,7 @@
 <Script file="Locale/mop-enUS.lua" />
 <Script file="Locale/wod-enUS.lua" />
 <Script file="Locale/legion-enUS.lua" />
+<Script file="Locale/bfa-enUS.lua" />
 
 <!--  GERMAN LOCALIZATION -->
 <Script file="Locale/global-deDE.lua" />
@@ -47,6 +48,7 @@
 <Script file="Locale/mop-deDE.lua" />
 <Script file="Locale/wod-deDE.lua" />
 <Script file="Locale/legion-deDE.lua" />
+<Script file="Locale/bfa-deDE.lua" />
 
 <Script file="AtlasQuest_Items.lua" />
 <Script file="AtlasQuest_QuestIDs.lua" />

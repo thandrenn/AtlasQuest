@@ -30,7 +30,7 @@ function AtlasQuest_Instanzenchecken()
 	AQATLASMAP = AtlasMap:GetTexture()
 
 
-	-- Original Instances
+	-- Original Dungeons & Raids
 
 	if (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheDeadminesA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheDeadminesB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheDeadminesEnt") then
 		AQINSTANZ = 1;
@@ -117,7 +117,7 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 59;
 
 		
-	-- Burning Crusade Instances
+	-- Burning Crusade Dungeons & Raids
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\HCHellfireRamparts") then
 		AQINSTANZ = 37;
@@ -192,7 +192,7 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 68;
 
 
-	-- Wrath of the Lich King Instances
+	-- Wrath of the Lich King Dungeons & Raids
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\CoTOldStratholme") then
 		AQINSTANZ = 69;
@@ -267,7 +267,7 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 94;
 
 		
-	-- Cataclysm Instances
+	-- Cataclysm Dungeons & Raids
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Cataclysm\\Images\\BlackrockCaverns") then
 		AQINSTANZ = 95;
@@ -324,7 +324,7 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 113;
 
 		
-	-- Mists of Pandaria Instances
+	-- Mists of Pandaria Dungeons & Raids
 
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\MoguShanPalace") then
@@ -361,7 +361,7 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 145;
 
 		
-	-- Warlords of Draenor Instances
+	-- Warlords of Draenor Dungeons & Raids
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\Auchindoun") then
 		AQINSTANZ = 146;
@@ -397,7 +397,7 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 156;
 
 		
-	-- Legion Instances
+	-- Legion Dungeons & Raids
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AssaultonVioletHold") then
 		AQINSTANZ = 157;
@@ -452,6 +452,43 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneD") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneE") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneF") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneG") then
 		AQINSTANZ = 174;
+
+		
+	-- Battle For Azeroth Dungeons & Raids
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\AtalDazar") then
+		AQINSTANZ = 175;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\Freehold") then
+		AQINSTANZ = 176;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\KingsRest") then
+		AQINSTANZ = 177;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\ShrineOfTheStorm") then
+		AQINSTANZ = 178;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\SiegeOfBoralus") then
+		AQINSTANZ = 179;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\TempleOfSethraliss") then
+		AQINSTANZ = 180;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\TheMotherlode") then
+		AQINSTANZ = 181;
+
+		elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\TheUnderrot") then
+		AQINSTANZ = 182;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\TolDagor") then
+		AQINSTANZ = 183;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\WaycrestManor") then
+		AQINSTANZ = 184;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\Uldir") then
+		AQINSTANZ = 185;
+
 		
 	-- Scenarios
 
@@ -754,5 +791,17 @@ end
 -- 172 = DUNGEON: Cathedral of Eternal Night
 -- 173 = DUNGEON: Seat of the Triumvirate
 -- 174 = RAID: Antorus, the Burning Throne
+
+-- 175 = DUNGEON: Atal'Dazar
+-- 176 = DUNGEON: Freehold
+-- 177 = DUNGEON: Kings' Rest
+-- 178 = DUNGEON: Shrine of the Storm
+-- 179 = DUNGEON: Siege of Boralus
+-- 180 = DUNGEON: Temple of Sethraliss
+-- 181 = DUNGEON: The Motherlode
+-- 182 = DUNGEON: The Underrot
+-- 183 = DUNGEON: Tol Dagor
+-- 184 = DUNGEON: Waycrest Manor
+-- 185 = RAID: Uldir
 
 

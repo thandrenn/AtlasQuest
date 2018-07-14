@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.11.01  (July 2018)
+
+- 8.0 Battle for Azeroth prep.
+
+
+
 Version 4.10.44  (May 11, 2018)
 
 - Removed quest:  Ragefire Chasm: Animal Control (obsolete)
