@@ -2,9 +2,9 @@
 Changelog
 =========
 
-Version 4.11.01  (July 2018)
+Version 4.11.00  (July 22, 2018)
 
-- 8.0 Battle for Azeroth prep.
+- Patch 8.0 & Battle for Azeroth prepation.  No content changes yet.
 
 
 

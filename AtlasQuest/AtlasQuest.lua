@@ -67,10 +67,10 @@ local AQMAXINSTANCES = "187"
 local AQMAXQUESTS = "23"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.11.01";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.11.00";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.11.01",
+  ["Version"] =  "4.11.00",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
