@@ -24,7 +24,18 @@
 
 ------------  BATTLE FOR AZEROTH  ------------
 
--- 175
+-- 175 = DUNGEON: Atal'Dazar
+-- 176 = DUNGEON: Freehold
+-- 177 = DUNGEON: Kings' Rest
+-- 178 = DUNGEON: Shrine of the Storm
+-- 179 = DUNGEON: Siege of Boralus
+-- 180 = DUNGEON: Temple of Sethraliss
+-- 181 = DUNGEON: The Motherlode
+-- 182 = DUNGEON: The Underrot
+-- 183 = DUNGEON: Tol Dagor
+-- 184 = DUNGEON: Waycrest Manor
+-- 185 = RAID: Uldir
+
 
 
 --
@@ -52,11 +63,92 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 
 
---------------- INST157 - Assault on Violet Hold ---------------
+--------------- INST175 - Atal'Dazar ---------------
 
-Inst157Caption = "Assault on Violet Hold"
-Inst157QAA = "8 Quests"
-Inst157QAH = "8 Quests"
+Inst175Caption = "Atal'Dazar"
+Inst175QAA = "No Quests"
+Inst175QAH = "No Quests"
+
+
+
+--------------- INST176 - Freehold ---------------
+
+Inst176Caption = "Freihafen"
+Inst176QAA = "No Quests"
+Inst176QAH = "No Quests"
+
+
+
+--------------- INST177 - Kings' Rest ---------------
+
+Inst177Caption = "Die Königsruh"
+Inst177QAA = "No Quests"
+Inst177QAH = "No Quests"
+
+
+
+--------------- INST178 - Shrine of the Storm ---------------
+
+Inst178Caption = "Der Schrein des Sturms"
+Inst178QAA = "No Quests"
+Inst178QAH = "No Quests"
+
+
+
+--------------- INST179 - Siege of Boralus ---------------
+
+Inst179Caption = "Siege of Boralus"
+Inst179QAA = "No Quests"
+Inst179QAH = "No Quests"
+
+
+
+--------------- INST180 - Temple of Sethraliss ---------------
+
+Inst180Caption = "Der Tempel von Sethraliss"
+Inst180QAA = "No Quests"
+Inst180QAH = "No Quests"
+
+
+
+--------------- INST181 - The Motherlode ---------------
+
+Inst181Caption = "Das RIESENFLÖZ!!"
+Inst181QAA = "No Quests"
+Inst181QAH = "No Quests"
+
+
+
+--------------- INST182 - The Underrot ---------------
+
+Inst182Caption = "Der Tiefenpfuhl"
+Inst182QAA = "No Quests"
+Inst182QAH = "No Quests"
+
+
+
+--------------- INST183 - Tol Dagor ---------------
+
+Inst183Caption = "Tol Dagor"
+Inst183QAA = "No Quests"
+Inst183QAH = "No Quests"
+
+
+
+--------------- INST184 - Waycrest Manor ---------------
+
+Inst184Caption = "Das Kronsteiganwesen"
+Inst184QAA = "No Quests"
+Inst184QAH = "No Quests"
+
+
+
+--------------- INST185 - Uldir ---------------
+
+Inst185Caption = "Uldir"
+Inst185QAA = "No Quests"
+Inst185QAH = "No Quests"
+
 
 
 
