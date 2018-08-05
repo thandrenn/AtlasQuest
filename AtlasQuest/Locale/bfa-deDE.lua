@@ -42,7 +42,7 @@
 -- Using this since it'll be the same text for each Dungeon World Quest.  
 -- I might move this to globals-enUS.lua eventually, but since World Quests only exist in Legion, I'll keep it with the Legion stuff for now.
 -- 
-AQ_WORLDDUNGEONQUEST = "This is a Dungeon World Quest.  When the quest is active (you can check your ingame map to see if it is available), enter the Dungeon to obtain it.  When you complete the dungeon it will be automatically turned in.  The quest will reward reputation and sometimes an item."
+AQ_WORLDDUNGEONQUEST = "Dies ist eine Weltquest.  Wenn diese Aktiv ist (Du kannst das in der Map sehen ob diese aktiv ist), betrete die Instanz.  Wenn Du die Instanz beendest, wird die Quest automatisch abgeschlossen.  Diese Quest gibt Dir Rufbelohnung und manchmal auch ein Gegenstand."
 
 
 ---------------
@@ -66,88 +66,88 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST175 - Atal'Dazar ---------------
 
 Inst175Caption = "Atal'Dazar"
-Inst175QAA = "No Quests"
-Inst175QAH = "No Quests"
+Inst175QAA = "Keine Quests"
+Inst175QAH = "Keine Quests"
 
 
 
 --------------- INST176 - Freehold ---------------
 
 Inst176Caption = "Freihafen"
-Inst176QAA = "No Quests"
-Inst176QAH = "No Quests"
+Inst176QAA = "Keine Quests"
+Inst176QAH = "Keine Quests"
 
 
 
 --------------- INST177 - Kings' Rest ---------------
 
 Inst177Caption = "Die Königsruh"
-Inst177QAA = "No Quests"
-Inst177QAH = "No Quests"
+Inst177QAA = "Keine Quests"
+Inst177QAH = "Keine Quests"
 
 
 
 --------------- INST178 - Shrine of the Storm ---------------
 
 Inst178Caption = "Der Schrein des Sturms"
-Inst178QAA = "No Quests"
-Inst178QAH = "No Quests"
+Inst178QAA = "Keine Quests"
+Inst178QAH = "Keine Quests"
 
 
 
 --------------- INST179 - Siege of Boralus ---------------
 
-Inst179Caption = "Siege of Boralus"
-Inst179QAA = "No Quests"
-Inst179QAH = "No Quests"
+Inst179Caption = "Die Belagerung von Boralus"
+Inst179QAA = "Keine Quests"
+Inst179QAH = "Keine Quests"
 
 
 
 --------------- INST180 - Temple of Sethraliss ---------------
 
 Inst180Caption = "Der Tempel von Sethraliss"
-Inst180QAA = "No Quests"
-Inst180QAH = "No Quests"
+Inst180QAA = "Keine Quests"
+Inst180QAH = "Keine Quests"
 
 
 
 --------------- INST181 - The Motherlode ---------------
 
-Inst181Caption = "Das RIESENFLÖZ!!"
-Inst181QAA = "No Quests"
-Inst181QAH = "No Quests"
+Inst181Caption = "Das Riesenflöz"
+Inst181QAA = "Keine Quests"
+Inst181QAH = "Keine Quests"
 
 
 
 --------------- INST182 - The Underrot ---------------
 
 Inst182Caption = "Der Tiefenpfuhl"
-Inst182QAA = "No Quests"
-Inst182QAH = "No Quests"
+Inst182QAA = "Keine Quests"
+Inst182QAH = "Keine Quests"
 
 
 
 --------------- INST183 - Tol Dagor ---------------
 
 Inst183Caption = "Tol Dagor"
-Inst183QAA = "No Quests"
-Inst183QAH = "No Quests"
+Inst183QAA = "Keine Quests"
+Inst183QAH = "Keine Quests"
 
 
 
 --------------- INST184 - Waycrest Manor ---------------
 
 Inst184Caption = "Das Kronsteiganwesen"
-Inst184QAA = "No Quests"
-Inst184QAH = "No Quests"
+Inst184QAA = "Keine Quests"
+Inst184QAH = "Keine Quests"
 
 
 
 --------------- INST185 - Uldir ---------------
 
 Inst185Caption = "Uldir"
-Inst185QAA = "No Quests"
-Inst185QAH = "No Quests"
+Inst185QAA = "Keine Quests"
+Inst185QAH = "Keine Quests"
 
 
 
