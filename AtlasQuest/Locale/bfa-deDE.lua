@@ -21,6 +21,9 @@
 
 --]]
 
+if ( GetLocale() == "deDE" ) then
+
+
 
 ------------  BATTLE FOR AZEROTH  ------------
 
@@ -151,7 +154,7 @@ Inst185QAH = "Keine Quests"
 
 
 
-
+end
 
 
 -- End of File

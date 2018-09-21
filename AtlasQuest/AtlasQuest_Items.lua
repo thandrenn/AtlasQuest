@@ -9468,9 +9468,60 @@ Inst174Quest3Rewardtext_HORDE = AQNoReward
 
 --------------- INST175 - Atal'Dazar ---------------
 
+--Quest 1 Alliance
+Inst175Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst175Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst175Quest3Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst175Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst175Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst175Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst175Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
+--Quest 5 Horde
+Inst175Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."750"..AQAZERITE
+--ITEM1
+Inst175Quest5ITC1_HORDE = Itemc2;
+Inst175Quest5description1_HORDE = AQITEM_ITEM
+Inst175Quest5ID1_HORDE = "160479"
+
 
 
 --------------- INST176 - Freehold ---------------
+
+--Quest 1 Alliance
+Inst176Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst176Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst176Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst176Quest4Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
+
+--Quest 1 Horde
+Inst176Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst176Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst176Quest3Rewardtext_HORDE = AQNoReward
 
 
 
@@ -9479,6 +9530,25 @@ Inst174Quest3Rewardtext_HORDE = AQNoReward
 
 
 --------------- INST178 - Shrine of the Storm ---------------
+
+--Quest 1 Alliance
+Inst178Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst178Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst178Quest3Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
+--Quest 4 Alliance
+Inst178Quest4Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
+
+--Quest 1 Horde
+Inst178Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst178Quest2Rewardtext_HORDE = AQNoReward
 
 
 

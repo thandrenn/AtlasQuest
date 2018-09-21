@@ -1084,7 +1084,7 @@
        </Anchors>
      </FontString>
      <Texture name="AQBACKGROUNDTEXTUR" file="Interface\AddOns\AtlasQuest\Images\AtlasQuestPanelFrame">
-         <Size><AbsDimension x="187" y="555"/></Size>
+         <Size><AbsDimension x="187" y="575"/></Size>
            <Anchors>
              <Anchor point="TOPRIGHT" >
                <Offset>

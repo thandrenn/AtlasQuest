@@ -21,6 +21,7 @@
 
 --]]
 
+if ( GetLocale() == "deDE" ) then
 
 
 ------------  LEGION  ------------
@@ -49,8 +50,6 @@ AQ_WORLDDUNGEONQUEST = "Dies ist eine Weltquest.  Wenn diese Aktiv ist (Du kanns
 
 -- German localisation by Guldukat Realm [EU] Antonidas
 
-
-if ( GetLocale() == "deDE" ) then
 
 ---------------
 --- COLOURS ---

@@ -2,9 +2,31 @@
 Changelog
 =========
 
+Version 4.11.01  (September ??, 2018)
+
+- NOTE: Some quests might be missing data.  If you find missing info, contact me on Curse or WoW Interface.
+
+- Added quests:
+	- Atal'Dazar: Spiders!
+	- Atal'Dazar: From the Shadows
+	- Atal'Dazar: A Little Mojo
+	- Atal'Dazar: Yazma the Fallen Priestess
+	- Atal'Dazar: Ashes of a Warchief
+	- Freehold: Pieces of Eight
+	- Freehold: Veteran Man O' War
+	- Freehold: Dread Captain Vandegrim
+	- Freehold: A Pirate's End
+	- Shrine of the Storm: Cleansing Fonts
+	- Shrine of the Storm: Behold, Pure Water
+	- Shrine of the Storm: Whispers Below
+	- Shrine of the Storm: The Missing Ritual
+
+
+
+
 Version 4.11.00  (July 22, 2018)
 
-- Patch 8.0 & Battle for Azeroth prepation.  No content changes yet.
+- Patch 8.0 & Battle for Azeroth preparation.  No content changes yet.
 
 
 
@@ -23,12 +45,12 @@ Version 4.10.44  (May 11, 2018)
 	- Seat of the Triumvirate: The Crest of Knowledge
 
 
+	
 Version 4.10.43  (February 19, 2018)
 
 	- German translation updated.
 	
 
-	
 
 Version 4.10.42  (February 14, 2018)
 

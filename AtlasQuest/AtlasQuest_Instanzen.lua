@@ -447,7 +447,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightD") then
 		AQINSTANZ = 172;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheSeatoftheTriumvirate") then
+--	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\TheSeatoftheTriumvirate") then
 		AQINSTANZ = 173;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneD") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneE") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneF") or (AQATLASMAP == "Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneG") then
@@ -456,6 +456,17 @@ function AtlasQuest_Instanzenchecken()
 		
 	-- Battle For Azeroth Dungeons & Raids
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassOrderHalls\\Images\\CH_Druid") then
+		AQINSTANZ = 175;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassOrderHalls\\Images\\CH_Hunter") then
+		AQINSTANZ = 176;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassOrderHalls\\Images\\CH_Warrior") then
+		AQINSTANZ = 178;
+
+--[[		
+		
 	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\AtalDazar") then
 		AQINSTANZ = 175;
 
@@ -488,7 +499,7 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\Uldir") then
 		AQINSTANZ = 185;
-
+--]]
 		
 	-- Scenarios
 

@@ -3431,9 +3431,71 @@ Inst174Quest3_HORDE_Attain = "110"
 
 --------------- INST175 - Atal'Dazar ---------------
 
+Inst175Quest1_QuestID = "49800"
+Inst175Quest1_Level = "120"
+Inst175Quest1_Attain = "120"
+
+Inst175Quest2_QuestID = "49809"
+Inst175Quest2_Level = "120"
+Inst175Quest2_Attain = "120"
+
+Inst175Quest3_QuestID = "49888"
+Inst175Quest3_Level = "120"
+Inst175Quest3_Attain = "120"
+
+
+Inst175Quest1_HORDE_QuestID = "49800"
+Inst175Quest1_HORDE_Level = "120"
+Inst175Quest1_HORDE_Attain = "120"
+
+Inst175Quest2_HORDE_QuestID = "49809"
+Inst175Quest2_HORDE_Level = "120"
+Inst175Quest2_HORDE_Attain = "120"
+
+Inst175Quest3_HORDE_QuestID = "49888"
+Inst175Quest3_HORDE_Level = "120"
+Inst175Quest3_HORDE_Attain = "120"
+
+Inst175Quest4_HORDE_QuestID = "49901"
+Inst175Quest4_HORDE_Level = "110"
+Inst175Quest4_HORDE_Attain = "110"
+
+Inst175Quest5_HORDE_QuestID = "51516"
+Inst175Quest5_HORDE_Level = "120"
+Inst175Quest5_HORDE_Attain = "120"
+
 
 
 --------------- INST176 - Freehold ---------------
+
+Inst176Quest1_QuestID = "52458"
+Inst176Quest1_Level = "120"
+Inst176Quest1_Attain = "120"
+
+Inst176Quest2_QuestID = "52456"
+Inst176Quest2_Level = "120"
+Inst176Quest2_Attain = "120"
+
+Inst176Quest3_QuestID = "52454"
+Inst176Quest3_Level = "120"
+Inst176Quest3_Attain = "120"
+
+Inst176Quest4_QuestID = "52148"
+Inst176Quest4_Level = "110"
+Inst176Quest4_Attain = "110"
+
+
+Inst176Quest1_HORDE_QuestID = "52458"
+Inst176Quest1_HORDE_Level = "120"
+Inst176Quest1_HORDE_Attain = "120"
+
+Inst176Quest2_HORDE_QuestID = "52456"
+Inst176Quest2_HORDE_Level = "120"
+Inst176Quest2_HORDE_Attain = "120"
+
+Inst176Quest3_HORDE_QuestID = "52454"
+Inst176Quest3_HORDE_Level = "120"
+Inst176Quest3_HORDE_Attain = "120"
 
 
 
@@ -3442,6 +3504,31 @@ Inst174Quest3_HORDE_Attain = "110"
 
 
 --------------- INST178 - Shrine of the Storm ---------------
+
+Inst178Quest1_QuestID = "51455"
+Inst178Quest1_Level = "120"
+Inst178Quest1_Attain = "120"
+
+Inst178Quest2_QuestID = "51453"
+Inst178Quest2_Level = "120"
+Inst178Quest2_Attain = "120"
+
+Inst178Quest3_QuestID = "50825"
+Inst178Quest3_Level = "110"
+Inst178Quest3_Attain = "110"
+
+Inst178Quest4_QuestID = "52510"
+Inst178Quest4_Level = "120"
+Inst178Quest4_Attain = "120"
+
+
+Inst178Quest1_HORDE_QuestID = "51455"
+Inst178Quest1_HORDE_Level = "120"
+Inst178Quest1_HORDE_Attain = "120"
+
+Inst178Quest2_HORDE_QuestID = "51453"
+Inst178Quest2_HORDE_Level = "120"
+Inst178Quest2_HORDE_Attain = "120"
 
 
 

@@ -117,6 +117,7 @@ AQGARRISONRESOURCES = " Garrison Resources"
 AQAPEXISCRYSTAL = " Apexis Crystals"
 AQORDERRESOURCES = " Order Resources"
 AQVEILEDARGUNITE = " Veiled Argunite" 
+AQAZERITE = " Azerite" 
 
 
 ------------------
