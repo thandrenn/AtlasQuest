@@ -9558,6 +9558,28 @@ Inst178Quest2Rewardtext_HORDE = AQNoReward
 
 --------------- INST180 - Temple of Sethraliss ---------------
 
+--Quest 1 Alliance
+Inst180Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst180Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst180Quest3Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst180Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst180Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst180Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst180Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
 
 
 --------------- INST181 - The Motherlode ---------------

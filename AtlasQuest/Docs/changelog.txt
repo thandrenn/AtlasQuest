@@ -2,8 +2,9 @@
 Changelog
 =========
 
-Version 4.11.01  (September ??, 2018)
+Version 4.11.01  (July ??, 2019)
 
+- TOC update for Patch 8.2.
 - NOTE: Some quests might be missing data.  If you find missing info, contact me on Curse or WoW Interface.
 
 - Added quests:
@@ -20,6 +21,11 @@ Version 4.11.01  (September ??, 2018)
 	- Shrine of the Storm: Behold, Pure Water
 	- Shrine of the Storm: Whispers Below
 	- Shrine of the Storm: The Missing Ritual
+	- Temple of Sethraliss: Navigating Currents
+	- Temple of Sethraliss: A Bazaar Menagerie
+	- Temple of Sethraliss: Ecological Research
+	- Temple of Sethraliss: Avatar of the Loa
+	
 
 
 

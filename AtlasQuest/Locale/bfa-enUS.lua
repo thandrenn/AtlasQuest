@@ -128,7 +128,7 @@ Inst175Quest3_HORDE_Folgequest = Inst175Quest3_Folgequest
 Inst175Quest4_HORDE = "4. Atal'Dazar: Yazma the Fallen Priestess"
 Inst175Quest4_HORDE_Aim = "Defeat Yazma in Atal'Dazar."
 Inst175Quest4_HORDE_Location = "King Rastakhan (Zuldazar; "..YELLOW.."42.6, 37.6"..WHITE..")"
-Inst175Quest4_HORDE_Note = "Part of the 'March of the Loa' quest line.  Can be completed on Normal, Heroic and Mythic +0 difficulty.  Yazma is the final boss in the dungeon.  Turn quest in to Princess Talanji at Dazar'alor - "..YELLOW.."40.6, 69.0"..WHITE.."."
+Inst175Quest4_HORDE_Note = "Part of the 'March of the Loa' quest line.  Can be completed on Normal or Heroic difficulty.  Yazma is the final boss in the dungeon.  Turn quest in to Princess Talanji at Dazar'alor - "..YELLOW.."40.6, 69.0"..WHITE.."."
 Inst175Quest4_HORDE_Prequest = "The King's Gambit"
 Inst175Quest4_HORDE_Folgequest = "Of Dark Deeds and Dark Days"
 Inst175Quest4PreQuest_HORDE = "true"
@@ -139,7 +139,7 @@ Inst175Quest4PreQuest_HORDE = "true"
 Inst175Quest5_HORDE = "5. Atal'Dazar: Ashes of a Warchief"
 Inst175Quest5_HORDE_Aim = "Bring Vol'jin's ashes to Atal'Dazar."
 Inst175Quest5_HORDE_Location = "Princess Talanji (Zuldazar; "..YELLOW.."43.8, 39.4"..WHITE..")"
-Inst175Quest5_HORDE_Note = "Part of 'The Fallen Chieftain' quest line.  Can be completed on Normal, Heroic and Mythic +0 difficulty.  "
+Inst175Quest5_HORDE_Note = "Part of 'The Fallen Chieftain' quest line.  Can be completed on Normal or Heroic difficulty.  "
 Inst175Quest5_HORDE_Prequest = "Vol'jin, Son of Sen'jin"
 Inst175Quest5_HORDE_Folgequest = "You Owe Me a Spirit"
 Inst175Quest5PreQuest_HORDE = "true"
@@ -260,7 +260,7 @@ Inst178Quest2_Folgequest = "None"
 Inst178Quest3 = "3. Shrine of the Storm: Whispers Below"
 Inst178Quest3_Aim = "Defeat Lord Stormsong in the Shrine of the Storm."
 Inst178Quest3_Location = "Brother Pike (Stormsong Valley - Shrine of the Storm; "..YELLOW.."78.2, 28.8"..WHITE..")"
-Inst178Quest3_Note = "Can be completed on Normal, Heroic and Mythic +0 difficulty.  Lord Stormsong and Vol'zith the Whisperer are the 3rd and last bosses.  After defeating the final boss, wait a moment or two for Brother Pike to appear to turn in the quest.  If you leave too soon, you can also turn the quest in outside the dungeon where you picked it up."
+Inst178Quest3_Note = "Can be completed on Normal or Heroic difficulty.  Lord Stormsong and Vol'zith the Whisperer are the 3rd and last bosses.  After defeating the final boss, wait a moment or two for Brother Pike to appear to turn in the quest.  If you leave too soon, you can also turn the quest in outside the dungeon where you picked it up."
 Inst178Quest3_Prequest = "None"
 Inst178Quest3_Folgequest = "None"
 --
@@ -270,7 +270,7 @@ Inst178Quest3_Folgequest = "None"
 Inst178Quest4 = "4. Shrine of the Storm: The Missing Ritual"
 Inst178Quest4_Aim = "Go into the Shrine of the Storms, recover the Ritual of Safe Passage and defeat Vol'zith the Whisperer."
 Inst178Quest4_Location = "Brother Pike (Stormsong Valley - Shrine of the Storm; "..YELLOW.."78.2, 28.8"..WHITE..")"
-Inst178Quest4_Note = "Part of the Pride of Kul Tiras quest line.  Can be completed on Normal, Heroic and Mythic +0 difficulty.\nThe Ritual of Safe Passage is in a room with an altar between the 2nd and 3rd bosses.  Turn the quest back in to Brother Pike at the same location where you started it."
+Inst178Quest4_Note = "Part of the Pride of Kul Tiras quest line.  Can be completed on Normal or Heroic difficulty.\nThe Ritual of Safe Passage is in a room with an altar between the 2nd and 3rd bosses.  Turn the quest back in to Brother Pike at the same location where you started it."
 Inst178Quest4_Prequest = "Ritual Effects"
 Inst178Quest4_Folgequest = "Opening the Way"
 Inst178Quest4PreQuest = "true"
@@ -309,8 +309,74 @@ Inst179QAH = "No Quests"
 --------------- INST180 - Temple of Sethraliss ---------------
 
 Inst180Caption = "Temple of Sethraliss"
-Inst180QAA = "No Quests"
-Inst180QAH = "No Quests"
+Inst180QAA = "3 Quests"
+Inst180QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst180Quest1 = "1. Temple of Sethraliss: Navigating Currents"
+Inst180Quest1_Aim = "??"
+Inst180Quest1_Location = "Temple of Sethraliss"
+Inst180Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst180Quest1_Prequest = "None"
+Inst180Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst180Quest2 = "2. Temple of Sethraliss: A Bazaar Menagerie"
+Inst180Quest2_Aim = "Collect 5 Relics and complete the dungeon."
+Inst180Quest2_Location = "Temple of Sethraliss"
+Inst180Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst180Quest2_Prequest = "None"
+Inst180Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst180Quest3 = "3. Temple of Sethraliss: Ecological Research"
+Inst180Quest3_Aim = "Capture a Krolusk Larva and complete the dungeon."
+Inst180Quest3_Location = "Temple of Sethraliss"
+Inst180Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst180Quest3_Prequest = "None"
+Inst180Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst180Quest1_HORDE = Inst180Quest1
+Inst180Quest1_HORDE_Aim = Inst180Quest1_Aim
+Inst180Quest1_HORDE_Location = Inst180Quest1_Location
+Inst180Quest1_HORDE_Note = Inst180Quest1_Note
+Inst180Quest1_HORDE_Prequest = Inst180Quest1_Prequest
+Inst180Quest1_HORDE_Folgequest = Inst180Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst180Quest2_HORDE = Inst180Quest2
+Inst180Quest2_HORDE_Aim = Inst180Quest2_Aim
+Inst180Quest2_HORDE_Location = Inst180Quest2_Location
+Inst180Quest2_HORDE_Note = Inst180Quest2_Note
+Inst180Quest2_HORDE_Prequest = Inst180Quest2_Prequest
+Inst180Quest2_HORDE_Folgequest = Inst180Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst180Quest3_HORDE = Inst180Quest3
+Inst180Quest3_HORDE_Aim = Inst180Quest3_Aim
+Inst180Quest3_HORDE_Location = Inst180Quest3_Location
+Inst180Quest3_HORDE_Note = Inst180Quest3_Note
+Inst180Quest3_HORDE_Prequest = Inst180Quest3_Prequest
+Inst180Quest3_HORDE_Folgequest = Inst180Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst180Quest4_HORDE = "4. Temple of Sethraliss: Avatar of the Loa"
+Inst180Quest4_HORDE_Aim = "Enter the Temple of Sethraliss and heal the avatar of the loa."
+Inst180Quest4_HORDE_Location = "Vorrik (Voldun; "..YELLOW.."27.0, 52.6"..WHITE..")"
+Inst180Quest4_HORDE_Note = "Part of the Atul'Aman quest line. Can be completed on Normal or Heroic difficulty.\nDefeat the final boss to complete the quest.  Return to the quest giver."
+Inst180Quest4_HORDE_Prequest = "Defeat Jakra'zet"
+Inst180Quest4_HORDE_Folgequest = "Informing the Horde"
+Inst180Quest4PreQuest_HORDE = "true"
+--
+-- Rewards "Azerite"
 
 
 

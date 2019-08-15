@@ -3538,6 +3538,35 @@ Inst178Quest2_HORDE_Attain = "120"
 
 --------------- INST180 - Temple of Sethraliss ---------------
 
+Inst180Quest1_QuestID = "51379"
+Inst180Quest1_Level = "120"
+Inst180Quest1_Attain = "120"
+
+Inst180Quest2_QuestID = "51378"
+Inst180Quest2_Level = "120"
+Inst180Quest2_Attain = "120"
+
+Inst180Quest3_QuestID = "51377"
+Inst180Quest3_Level = "120"
+Inst180Quest3_Attain = "120"
+
+
+Inst180Quest1_HORDE_QuestID = "51379"
+Inst180Quest1_HORDE_Level = "120"
+Inst180Quest1_HORDE_Attain = "120"
+
+Inst180Quest2_HORDE_QuestID = "51378"
+Inst180Quest2_HORDE_Level = "120"
+Inst180Quest2_HORDE_Attain = "120"
+
+Inst180Quest3_HORDE_QuestID = "51377"
+Inst180Quest3_HORDE_Level = "120"
+Inst180Quest3_HORDE_Attain = "120"
+
+Inst180Quest4_HORDE_QuestID = "50551"
+Inst180Quest4_HORDE_Level = "110"
+Inst180Quest4_HORDE_Attain = "110"
+
 
 
 --------------- INST181 - The Motherlode ---------------
