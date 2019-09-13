@@ -24,7 +24,7 @@
 
 ------------  CLASSIC / VANILLA  ------------
 
--- 0  = default.  Nothing shown.
+-- 66  = default.  Nothing shown.
 
 -- 1  = Blackrock Depths
 -- 2  = Blackwing Lair
@@ -533,7 +533,7 @@ Inst2Quest2 = "2. The Lord of Blackrock"
 Inst2Quest2_Level = "60"
 Inst2Quest2_Attain = "60"
 Inst2Quest2_Aim = "Return the Head of Nefarian to King Varian Wrynn in Stormwind."
-Inst2Quest2_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[10]"..WHITE..")"
+Inst2Quest2_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[8]"..WHITE..")"
 Inst2Quest2_Note = "King Varian Wrynn is at (Stormwind City - Stormwind Keep; "..YELLOW.."80.0, 38.5"..WHITE.."). The follow up sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."71.5, 80.5"..WHITE..") for the reward."
 Inst2Quest2_Prequest = "None"
 Inst2Quest2_Folgequest = "The Lord of Blackrock"
@@ -572,7 +572,7 @@ Inst2Quest2_HORDE = "2. The Lord of Blackrock"
 Inst2Quest2_HORDE_Level = "60"
 Inst2Quest2_HORDE_Attain = "60"
 Inst2Quest2_HORDE_Aim = "Return the Head of Nefarian to Thrall in Orgrimmar."
-Inst2Quest2_HORDE_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
+Inst2Quest2_HORDE_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[8]"..WHITE..")"
 Inst2Quest2_HORDE_Note = "The follow up sends you to High Overlord Saurfang (Orgrimmar - Valley of Strength; "..YELLOW.."51,76"..WHITE..") for the reward."
 Inst2Quest2_HORDE_Prequest = "None"
 Inst2Quest2_HORDE_Folgequest = "The Lord of Blackrock"
