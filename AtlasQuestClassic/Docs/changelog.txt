@@ -1,0 +1,11 @@
+=========
+Changelog
+=========
+
+Version Classic 1.00.00  (September 11, 2019)
+
+- Initial release.
+- Copied over code from AtlasQuest 4.11.01 and quests from AtlasQuest 4.4.3 (last release before Cataclysm).
+- Pruned a bunch of quests that were added later, for holidays or new classes.
+- I expect there's still some more pruning and tweaking to do.  Let me know if you come across any issues.
+- Disabled the "Blue Colored quest name" for now until I can fix it.
