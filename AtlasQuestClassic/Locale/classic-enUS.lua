@@ -3221,20 +3221,20 @@ Inst15Quest15name1_HORDE = Inst15Quest15name1
 Inst15Quest15name2_HORDE = Inst15Quest15name2
 Inst15Quest15name3_HORDE = Inst15Quest15name3
 
---Quest 16 Horde  (same as Quest 16 Alliance)
-Inst15Quest16_HORDE = Inst15Quest16
-Inst15Quest16_HORDE_Level = Inst15Quest16_Level
-Inst15Quest16_HORDE_Attain = Inst15Quest16_Attain
-Inst15Quest16_HORDE_Aim = Inst15Quest16_Aim
-Inst15Quest16_HORDE_Location = Inst15Quest16_Location
-Inst15Quest16_HORDE_Note = Inst15Quest16_Note
-Inst15Quest16_HORDE_Prequest = Inst15Quest16_Prequest
-Inst15Quest16_HORDE_Folgequest = Inst15Quest16_Folgequest
-Inst15Quest16PreQuest_HORDE = Inst15Quest16PreQuest
+--Quest 16 Horde
+Inst15Quest16_HORDE = "16. Da Voodoo (Shaman)"
+Inst15Quest16_HORDE_Level = "52"
+Inst15Quest16_HORDE_Attain = "50"
+Inst15Quest16_HORDE_Aim = "Bring the voodoo feathers to Bath'rah the Windwatcher."
+Inst15Quest16_HORDE_Location = "Bath'rah the Windwatcher (Alterac Mountains; "..YELLOW.."80,67"..WHITE..")"
+Inst15Quest16_HORDE_Note = "Shaman quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
+Inst15Quest16_HORDE_Prequest = "Yes, Elemental Mastery -> Spirit Totem"
+Inst15Quest16_HORDE_Folgequest = "No"
+Inst15Quest16PreQuest_HORDE = "true"
 --
-Inst15Quest16name1_HORDE = Inst15Quest16name1
-Inst15Quest16name2_HORDE = Inst15Quest16name2
-Inst15Quest16name3_HORDE = Inst15Quest16name3
+Inst15Quest16name1_HORDE = "Azurite Fists"
+Inst15Quest16name2_HORDE = "Enamored Water Spirit"
+Inst15Quest16name3_HORDE = "Wildstaff"
 
 
 
