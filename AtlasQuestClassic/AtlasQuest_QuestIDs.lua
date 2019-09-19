@@ -223,75 +223,271 @@ Inst2Quest3_HORDE_Attain = Inst2Quest3_Attain
 --------------- INST3 - Lower Blackrock Spire ---------------
 
 Inst3Quest1_QuestID = "4788"
+Inst3Quest1_Level = "58"
+Inst3Quest1_Attain = "40"
+Inst3Quest1PreQuest = "true"
+
 Inst3Quest2_QuestID = "4729"
+Inst3Quest2_Level = "59"
+Inst3Quest2_Attain = "55"
+
 Inst3Quest3_QuestID = "4862"
+Inst3Quest3_Level = "59"
+Inst3Quest3_Attain = "55"
+
 Inst3Quest4_QuestID = "4866"
+Inst3Quest4_Level = "60"
+Inst3Quest4_Attain = "55"
+
 Inst3Quest5_QuestID = "4701"
+Inst3Quest5_Level = "59"
+Inst3Quest5_Attain = "55"
+
 Inst3Quest6_QuestID = "4867"
+Inst3Quest6_Level = "60"
+Inst3Quest6_Attain = "55"
+
 Inst3Quest7_QuestID = "5001"
+Inst3Quest7_Level = "59"
+Inst3Quest7_Attain = "55"
+
 Inst3Quest8_QuestID = "5081"
+Inst3Quest8_Level = "60"
+Inst3Quest8_Attain = "55"
+Inst3Quest8FQuest = "true"
+
 Inst3Quest9_QuestID = "4742"
+Inst3Quest9_Level = "60"
+Inst3Quest9_Attain = "57"
+
 Inst3Quest10_QuestID = "5089"
+Inst3Quest10_Level = "60"
+Inst3Quest10_Attain = "55"
+
 Inst3Quest11_QuestID = "8966"
+Inst3Quest11_Level = "60"
+Inst3Quest11_Attain = "58"
+
 Inst3Quest12_QuestID = "8989"
+Inst3Quest12_Level = "60"
+Inst3Quest12_Attain = "58"
+Inst3Quest12PreQuest = "true"
+
 Inst3Quest13_QuestID = "5306"
+Inst3Quest13_Level = "60"
+Inst3Quest13_Attain = "50"
+
 Inst3Quest14_QuestID = "5103"
+Inst3Quest14_Level = "60"
+Inst3Quest14_Attain = "56"
+
 
 Inst3Quest1_HORDE_QuestID = "4788"
+Inst3Quest1_HORDE_Level = Inst3Quest1_Level
+Inst3Quest1_HORDE_Attain = Inst3Quest1_Attain
+Inst3Quest1PreQuest_HORDE = Inst3Quest1PreQuest
+
 Inst3Quest2_HORDE_QuestID = "4729"
+Inst3Quest2_HORDE_Level = Inst3Quest2_Level
+Inst3Quest2_HORDE_Attain = Inst3Quest2_Attain
+
 Inst3Quest3_HORDE_QuestID = "4862"
+Inst3Quest3_HORDE_Level = Inst3Quest3_Level
+Inst3Quest3_HORDE_Attain = Inst3Quest3_Attain
+
 Inst3Quest4_HORDE_QuestID = "4866"
+Inst3Quest4_HORDE_Level = Inst3Quest4_Level
+Inst3Quest4_HORDE_Attain = Inst3Quest4_Attain
+
 Inst3Quest5_HORDE_QuestID = "4724"
+Inst3Quest5_HORDE_Level = "59"
+Inst3Quest5_HORDE_Attain = "55"
+
 Inst3Quest6_HORDE_QuestID = "4867"
+Inst3Quest6_HORDE_Level = Inst3Quest6_Level
+Inst3Quest6_HORDE_Attain = Inst3Quest6_Attain
+
 Inst3Quest7_HORDE_QuestID = "4981"
+Inst3Quest7_HORDE_Level = "59"
+Inst3Quest7_HORDE_Attain = "55"
+
 Inst3Quest8_HORDE_QuestID = "4982"
+Inst3Quest8_HORDE_Level = "59"
+Inst3Quest8_HORDE_Attain = "55"
+Inst3Quest8FQuest_HORDE = "true"
+
 Inst3Quest9_HORDE_QuestID = "4742"
+Inst3Quest9_HORDE_Level = Inst3Quest9_Level
+Inst3Quest9_HORDE_Attain = Inst3Quest9_Attain
+
 Inst3Quest11_HORDE_QuestID = "8966"
+Inst3Quest11_HORDE_Level = Inst3Quest11_Level
+Inst3Quest11_HORDE_Attain = Inst3Quest11_Attain
+Inst3Quest11PreQuest_HORDE = Inst3Quest11PreQuest
+
 Inst3Quest12_HORDE_QuestID = "8989"
+Inst3Quest12_HORDE_Level = Inst3Quest12_Level
+Inst3Quest12_HORDE_Attain = Inst3Quest12_Attain
+Inst3Quest12PreQuest_HORDE = Inst3Quest12PreQuest
+
 Inst3Quest13_HORDE_QuestID = "5306"
+Inst3Quest13_HORDE_Level = Inst3Quest13_Level
+Inst3Quest13_HORDE_Attain = Inst3Quest13_Attain
+
 Inst3Quest14_HORDE_QuestID = "5103"
+Inst3Quest14_HORDE_Level = Inst3Quest14_Level
+Inst3Quest14_HORDE_Attain = Inst3Quest14_Attain
 
 
 
 --------------- INST4 - Upper Blackrock Spire ---------------
 
 Inst4Quest1_QuestID = "5160"
+Inst4Quest1_Level = "60"
+Inst4Quest1_Attain = "57"
+
 Inst4Quest2_QuestID = "5047"
+Inst4Quest2_Level = "60"
+Inst4Quest2_Attain = "57"
+
 Inst4Quest3_QuestID = "4734"
+Inst4Quest3_Level = "60"
+Inst4Quest3_Attain = "57"
+Inst4Quest3PreQuest = "true"
+
 Inst4Quest4_QuestID = "6821"
+Inst4Quest4_Level = "60"
+Inst4Quest4_Attain = "55"
+Inst4Quest4PreQuest = "true"
+
 Inst4Quest5_QuestID = "5102"
+Inst4Quest5_Level = "60"
+Inst4Quest5_Attain = "55"
+Inst4Quest5PreQuest = "true"
+
 Inst4Quest6_QuestID = "4764"
+Inst4Quest6_Level = "60"
+Inst4Quest6_Attain = "57"
+Inst4Quest6PreQuest = "true"
+
 Inst4Quest7_QuestID = "7761"
+Inst4Quest7_Level = "60"
+Inst4Quest7_Attain = "55"
+
 Inst4Quest8_QuestID = "8994"
+Inst4Quest8_Level = "60"
+Inst4Quest8_Attain = "58"
+Inst4Quest8PreQuest = "true"
+
 Inst4Quest9_QuestID = "8995"
+Inst4Quest9_Level = "60"
+Inst4Quest9_Attain = "58"
+Inst4Quest9FQuest = "true"
+
 Inst4Quest10_QuestID = "5127"
+Inst4Quest10_Level = "60"
+Inst4Quest10_Attain = "55"
+
 Inst4Quest11_QuestID = "4735"
+Inst4Quest11_Level = "60"
+Inst4Quest11_Attain = "57"
+Inst4Quest11PreQuest = "true"
+
 
 Inst4Quest1_HORDE_QuestID = "5160"
+Inst4Quest1_HORDE_Level = Inst4Quest1_Level
+Inst4Quest1_HORDE_Attain = Inst4Quest1_Attain
+
 Inst4Quest2_HORDE_QuestID = "5047"
+Inst4Quest2_HORDE_Level = Inst4Quest2_Level
+Inst4Quest2_HORDE_Attain = Inst4Quest2_Attain
+
 Inst4Quest3_HORDE_QuestID = "4734"
+Inst4Quest3_HORDE_Level = Inst4Quest3_Level
+Inst4Quest3_HORDE_Attain = Inst4Quest3_Attain
+Inst4Quest3PreQuest_HORDE = Inst4Quest3PreQuest
+
 Inst4Quest4_HORDE_QuestID = "6821"
+Inst4Quest4_HORDE_Level = Inst4Quest4_Level
+Inst4Quest4_HORDE_Attain = Inst4Quest4_Attain
+Inst4Quest4PreQuest_HORDE = Inst4Quest4PreQuest
+
 Inst4Quest5_HORDE_QuestID = "4768"
+Inst4Quest5_HORDE_Level = "60"
+Inst4Quest5_HORDE_Attain = "57"
+Inst4Quest5PreQuest_HORDE = "true"
+
 Inst4Quest6_HORDE_QuestID = "4974"
+Inst4Quest6_HORDE_Level = "60"
+Inst4Quest6_HORDE_Attain = "55"
+Inst4Quest6PreQuest_HORDE = "true"
+
 Inst4Quest7_HORDE_QuestID = "6569"
+Inst4Quest7_HORDE_Level = "60"
+Inst4Quest7_HORDE_Attain = "55"
+Inst4Quest7FQuest_HORDE = "true"
+
 Inst4Quest8_HORDE_QuestID = "6602"
+Inst4Quest8_HORDE_Level = "60"
+Inst4Quest8_HORDE_Attain = "55"
+Inst4Quest8FQuest_HORDE = "true"
+
 Inst4Quest9_HORDE_QuestID = "7761"
+Inst4Quest9_HORDE_Level = Inst4Quest7_Level
+Inst4Quest9_HORDE_Attain = Inst4Quest7_Attain
+
 Inst4Quest10_HORDE_QuestID = "8994"
+Inst4Quest10_HORDE_Level = Inst4Quest8_Level
+Inst4Quest10_HORDE_Attain = Inst4Quest8_Attain
+
 Inst4Quest11_HORDE_QuestID = "8995"
+Inst4Quest11_HORDE_Level = Inst4Quest9_Level
+Inst4Quest11_HORDE_Attain = Inst4Quest9_Attain
+
 Inst4Quest12_HORDE_QuestID = "5127"
+Inst4Quest12_HORDE_Level = Inst4Quest10_Level
+Inst4Quest12_HORDE_Attain = Inst4Quest10_Attain
+
 Inst4Quest13_HORDE_QuestID = "4735"
+Inst4Quest13_HORDE_Level = Inst4Quest11_Level
+Inst4Quest13_HORDE_Attain = Inst4Quest11_Attain
+Inst4Quest13PreQuest_HORDE = Inst4Quest11PreQuest
 
 
 
 --------------- INST5 - Deadmines ---------------
 
 Inst5Quest1_QuestID = "214"
+Inst5Quest1_Level = "17"
+Inst5Quest1_Attain = "14"
+Inst5Quest1PreQuest = "true"
+
 Inst5Quest2_QuestID = "168"
+Inst5Quest2_Level = "18"
+Inst5Quest2_Attain = "14"
+
 Inst5Quest3_QuestID = "167"
+Inst5Quest3_Level = "20"
+Inst5Quest3_Attain = "15"
+
 Inst5Quest4_QuestID = "2040"
+Inst5Quest4_Level = "20"
+Inst5Quest4_Attain = "15"
+Inst5Quest4PreQuest = "true"
+
 Inst5Quest5_QuestID = "166"
+Inst5Quest5_Level = "22"
+Inst5Quest5_Attain = "14"
+Inst5Quest5PreQuest = "true"
+
 Inst5Quest6_QuestID = "1654"
+Inst5Quest6_Level = "22"
+Inst5Quest6_Attain = "20"
+Inst5Quest6PreQuest = "true"
+
 Inst5Quest7_QuestID = "373"
+Inst5Quest7_Level = "22"
+Inst5Quest7_Attain = "16"
 
 
 

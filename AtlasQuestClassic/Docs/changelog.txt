@@ -2,9 +2,10 @@
 Changelog
 =========
 
-Version 4.11.52  (for WoW Classic)  September 17, 2019
+Version 4.11.52  (for WoW Classic)  September 19, 2019
 
 - Updated Simplified Chinese localization.  (thank you "yoke233")
+- Added Russian translation thanks to "GoodDeath".
 
 - Cleanup Progress:
 	- Blackrock Depths complete.

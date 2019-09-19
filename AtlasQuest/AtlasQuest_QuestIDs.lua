@@ -20,24 +20,19 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 
-This file is for storing quest IDs and Levels.
+This file is for storing quest IDs, levels and maybe other data that does not
+need to be localized.  I plan to rename it to AtlasQuest_QuestData.lua soon.
 
-The Quest IDs are stored in the old/current variable format:
+
+Variables use the following format:
 
 Inst[INST #]Quest[QUEST #]_QuestID
-Inst1Quest1_QuestID
 
-The Quest Levels are stored in the new format:
-AQ_[Quest ID]_Level
-AQ_214_Level
+Examples: 
+Inst1Quest1_QuestID = "quest ID number"
+Inst1Quest1_Attain = "level when quest can be picked up"
+Inst1Quest1_Level = "level of quest"
 
-
-Although the quest levels are already stored in the localization files, I
-cannot be 100% certain they are all up to date. Storing them here as well
-for the purpose of quest links helps with that.
-
-
-- Thandrenn
 
 --]]
 

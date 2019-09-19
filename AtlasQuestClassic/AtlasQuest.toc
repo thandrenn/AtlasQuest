@@ -20,8 +20,8 @@
 ## X-Category: Quests
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
-## X-Localizations: enUS, zhCN
-## X-Date: September 17, 2019
+## X-Localizations: enUS, zhCN, ruRU
+## X-Date: September 19, 2019
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 
