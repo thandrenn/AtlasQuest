@@ -1142,44 +1142,33 @@ Inst6QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst6Quest1 = "1. Save Techbot's Brain!"
-Inst6Quest1_Level = "26"
-Inst6Quest1_Attain = "20"
 Inst6Quest1_Aim = "Bring Techbot's Memory Core to Tinkmaster Overspark in Ironforge."
 Inst6Quest1_Location = "Tinkmaster Overspark (Ironforge - Tinkertown; "..YELLOW.."69,50"..WHITE..")"
 Inst6Quest1_Note = "You get the prequest from Brother Sarno (Stormwind - Cathedral Square; "..YELLOW.."50.9, 47.8"..WHITE..").\nYou find Techbot before you enter the instance near the backdoor, at "..YELLOW.."[4] on Entrance Map"..WHITE.."."
 Inst6Quest1_Prequest = "Tinkmaster Overspark"
 Inst6Quest1_Folgequest = "None"
-Inst6Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst6Quest2 = "2. Gnogaine"
-Inst6Quest2_Level = "27"
-Inst6Quest2_Attain = "20"
 Inst6Quest2_Aim = "Use the Empty Leaden Collection Phial on Irradiated Invaders or Irradiated Pillagers to collect radioactive fallout. Once it is full, take it back to Ozzie Togglevolt in Kharanos."
 Inst6Quest2_Location = "Ozzie Togglevolt (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")"
 Inst6Quest2_Note = "You get the prequest from Gnoarn (Ironforge - Tinkertown; "..YELLOW.."69,50"..WHITE..").\nTo get fallout you musst use the Phial on "..RED.."alive"..WHITE.." Irradiated Invaders or Irradiated Pillagers."
 Inst6Quest2_Prequest = "The Day After"
 Inst6Quest2_Folgequest = "The Only Cure is More Green Glow"
-Inst6Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst6Quest3 = "3. The Only Cure is More Green Glow"
-Inst6Quest3_Level = "30"
-Inst6Quest3_Attain = "20"
 Inst6Quest3_Aim = "Travel to Gnomeregan and bring back High Potency Radioactive Fallout. Be warned, the fallout is unstable and will collapse rather quickly.\nOzzie will also require your Heavy Leaden Collection Phial when the task is complete."
 Inst6Quest3_Location = "Ozzie Togglevolt (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")"
 Inst6Quest3_Note = "To get fallout you must use the Phial on "..RED.."alive"..WHITE.." Irradiated Slimes or Horrors."
 Inst6Quest3_Prequest = "Gnogaine"
 Inst6Quest3_Folgequest = "None"
-Inst6Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst6Quest4 = "4. Gyrodrillmatic Excavationators"
-Inst6Quest4_Level = "30"
-Inst6Quest4_Attain = "20"
 Inst6Quest4_Aim = "Bring twenty-four Robo-mechanical Guts to Shoni in Stormwind."
 Inst6Quest4_Location = "Shoni the Silent (Stormwind - Dwarven District; "..YELLOW.."62.6, 34.1"..WHITE..")"
 Inst6Quest4_Note = "All Robots can drop the Robo-mechanical Guts."
@@ -1191,34 +1180,26 @@ Inst6Quest4name2 = "Shilly Mitts"
 
 --Quest 5 Alliance
 Inst6Quest5 = "5. Essential Artificials"
-Inst6Quest5_Level = "30"
-Inst6Quest5_Attain = "24"
 Inst6Quest5_Aim = "Bring 12 Essential Artificials to Klockmort Spannerspan in Ironforge."
 Inst6Quest5_Location = "Klockmort Spannerspan (Ironforge - Tinkertown; "..YELLOW.."68,46"..WHITE..")"
 Inst6Quest5_Note = "You get the prequest from Mathiel (Darnassus - Warrior's Terrace; "..YELLOW.."59,45"..WHITE.."). The prequest is only a pointer quest and is not required to get this quest.\nThe Essential Artificials come from machines scattered around the instance."
 Inst6Quest5_Prequest = "Klockmort's Essentials"
 Inst6Quest5_Folgequest = "None"
-Inst6Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
 Inst6Quest6 = "6. Data Rescue"
-Inst6Quest6_Level = "30"
-Inst6Quest6_Attain = "25"
 Inst6Quest6_Aim = "Bring a Prismatic Punch Card to Master Mechanic Castpipe in Ironforge."
 Inst6Quest6_Location = "Master Mechanic Castpipe (Ironforge - Tinkertown; "..YELLOW.."69,48"..WHITE..")"
 Inst6Quest6_Note = "You get the prequest from Gaxim Rustfizzle (Stonetalon Mountains; "..YELLOW.."59,67"..WHITE.."). The prequest is only a pointer quest and is not required to get this quest.\nThe white card is a random drop. You find the first terminal next to the back entrance before you enter the instance at "..YELLOW.."[3] on Entrance Map"..WHITE..". The 3005-B is at "..YELLOW.."[3]"..WHITE..", the 3005-C at "..YELLOW.."[5]"..WHITE.." and the 3005-D is at "..YELLOW.."[6]"..WHITE.."."
 Inst6Quest6_Prequest = "Castpipe's Task"
 Inst6Quest6_Folgequest = "None"
-Inst6Quest6PreQuest = "true"
 --
 Inst6Quest6name1 = "Repairman's Cape"
 Inst6Quest6name2 = "Mechanic's Pipehammer"
 
 --Quest 7 Alliance
 Inst6Quest7 = "7. A Fine Mess"
-Inst6Quest7_Level = "30"
-Inst6Quest7_Attain = "20"
 Inst6Quest7_Aim = "Escort Kernobee to the Clockwerk Run exit and then report to Scooty in Booty Bay."
 Inst6Quest7_Location = "Kernobee (Gnomeregan; "..YELLOW.."[3]"..WHITE..")"
 Inst6Quest7_Note = "Escort quest! You find Scooty in Stranglethorn Vale - Booty Bay ("..YELLOW.."27,77"..WHITE..")."
@@ -1230,8 +1211,6 @@ Inst6Quest7name2 = "Fairywing Mantle"
 
 --Quest 8 Alliance
 Inst6Quest8 = "8. The Grand Betrayal"
-Inst6Quest8_Level = "35"
-Inst6Quest8_Attain = "25"
 Inst6Quest8_Aim = "Venture to Gnomeregan and kill Mekgineer Thermaplugg. Return to High Tinker Mekkatorque when the task is complete."
 Inst6Quest8_Location = "High Tinker Mekkatorque (Ironforge - Tinkertown; "..YELLOW.."68,48"..WHITE..")"
 Inst6Quest8_Note = "You find Thermaplugg at "..YELLOW.."[8]"..WHITE..". He is the last boss in Gnomeregan.\nDuring the fight you have to disable the columns through pushing the button on the side."
@@ -1244,8 +1223,6 @@ Inst6Quest8name3 = "Dual Reinforced Leggings"
 
 --Quest 9 Alliance
 Inst6Quest9 = "9. Grime-Encrusted Ring"
-Inst6Quest9_Level = "34"
-Inst6Quest9_Attain = "28"
 Inst6Quest9_Aim = "Figure out a way to remove the grime from the Grime-Encrusted Ring."
 Inst6Quest9_Location = "Grime-Encrusted Ring (random drop from Dark Iron Agents in Gnomeregan)"
 Inst6Quest9_Note = "The Ring can be cleaned off at the Sparklematic 5200 in the Clean Room at "..YELLOW.."[2]"..WHITE.."."
@@ -1255,21 +1232,16 @@ Inst6Quest9_Folgequest = "Return of the Ring"
 
 --Quest 10 Alliance
 Inst6Quest10 = "10. Return of the Ring"
-Inst6Quest10_Level = "34"
-Inst6Quest10_Attain = "28"
 Inst6Quest10_Aim = "You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
 Inst6Quest10_Location = "Brilliant Gold Ring (obtained from Grime-Encrusted Ring quest)"
 Inst6Quest10_Note = "Turns in to Talvash del Kissel (Ironforge - Mystic Ward; "..YELLOW.."36,3"..WHITE.."). The followup to enhance the ring is optional."
 Inst6Quest10_Prequest = "Grime-Encrusted Ring"
 Inst6Quest10_Folgequest = "Gnome Improvement"
-Inst6Quest10FQuest = "true"
 --
 Inst6Quest10name1 = "Brilliant Gold Ring"
 
 --Quest 11 Alliance
 Inst6Quest11 = "11. The Sparklematic 5200!"
-Inst6Quest11_Level = "30"
-Inst6Quest11_Attain = "25"
 Inst6Quest11_Aim = "Insert a Grime-Encrusted Item into the Sparklematic 5200, and be sure to have three silver coins to start the machine."
 Inst6Quest11_Location = "Sparklematic 5200 (Gnomeregan - The Clean Room; "..YELLOW.."[2]"..WHITE..")"
 Inst6Quest11_Note = "You can repeat this quest for all the Grime-Encrusted Items you have."
@@ -1281,21 +1253,16 @@ Inst6Quest11name1 = "Sparklematic-Wrapped Box"
 
 --Quest 1 Horde
 Inst6Quest1_HORDE = "1. Gnomer-gooooone!"
-Inst6Quest1_HORDE_Level = "35"
-Inst6Quest1_HORDE_Attain = "20"
 Inst6Quest1_HORDE_Aim = "Wait for Scooty to calibrate the Goblin Transponder."
 Inst6Quest1_HORDE_Location = "Scooty (Stranglethorn Vale - Booty Bay; "..YELLOW.."27,77"..WHITE..")"
 Inst6Quest1_HORDE_Note = "You get the prequest from Sovik (Orgrimmar - Valley of Honor; "..YELLOW.."75,25"..WHITE..").\nWhen you complete this quest you can use the transponder in Booty Bay."
 Inst6Quest1_HORDE_Prequest = "Chief Engineer Scooty"
 Inst6Quest1_HORDE_Folgequest = "None"
-Inst6Quest1PreQuest_HORDE = "true"
 --
 Inst6Quest1name1_HORDE = "Goblin Transponder"
 
 --Quest 2 Horde  (same as Quest 7 Alliance)
 Inst6Quest2_HORDE = "2. A Fine Mess"
-Inst6Quest2_HORDE_Level = Inst6Quest7_Level
-Inst6Quest2_HORDE_Attain = Inst6Quest7_Attain
 Inst6Quest2_HORDE_Aim = Inst6Quest7_Aim
 Inst6Quest2_HORDE_Location = Inst6Quest7_Location
 Inst6Quest2_HORDE_Note = Inst6Quest7_Note
@@ -1307,8 +1274,6 @@ Inst6Quest2name2_HORDE = Inst6Quest7name2
 
 --Quest 3 Horde
 Inst6Quest3_HORDE = "3. Rig Wars"
-Inst6Quest3_HORDE_Level = "35"
-Inst6Quest3_HORDE_Attain = "25"
 Inst6Quest3_HORDE_Aim = "Retrieve the Rig Blueprints and Thermaplugg's Safe Combination from Gnomeregan and bring them to Nogg in Orgrimmar."
 Inst6Quest3_HORDE_Location = "Nogg (Orgrimmar - Valley of Honor; "..YELLOW.."75,25"..WHITE..")"
 Inst6Quest3_HORDE_Note = "You find Thermaplugg at "..YELLOW.."[8]"..WHITE..". He is the last boss in Gnomeregan.\nDuring the fight you have to disable the columns through pushing the button on the side."
@@ -1321,8 +1286,6 @@ Inst6Quest3name3_HORDE = "Dual Reinforced Leggings"
 
 --Quest 4 Horde  (same as Quest 9 Alliance)
 Inst6Quest4_HORDE = "4. Grime-Encrusted Ring"
-Inst6Quest4_HORDE_Level = Inst6Quest9_Level
-Inst6Quest4_HORDE_Attain = Inst6Quest9_Attain
 Inst6Quest4_HORDE_Aim = Inst6Quest9_Aim
 Inst6Quest4_HORDE_Location = Inst6Quest9_Location
 Inst6Quest4_HORDE_Note = Inst6Quest9_Note
@@ -1332,21 +1295,16 @@ Inst6Quest4_HORDE_Folgequest = Inst6Quest9_Folgequest
 
 --Quest 5 Horde
 Inst6Quest5_HORDE = "5. Return of the Ring"
-Inst6Quest5_HORDE_Level = "34"
-Inst6Quest5_HORDE_Attain = "28"
 Inst6Quest5_HORDE_Aim = "You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
 Inst6Quest5_HORDE_Location = "Brilliant Gold Ring (obtained from Grime-Encrusted Ring quest)"
 Inst6Quest5_HORDE_Note = "Turns in to Nogg (Orgrimmar - The Valley of Honor; "..YELLOW.."75,25"..WHITE.."). The followup to enhance the ring is optional."
 Inst6Quest5_HORDE_Prequest = "Grime-Encrusted Ring"
 Inst6Quest5_HORDE_Folgequest = "Nogg's Ring Redo"
-Inst6Quest5FQuest_HORDE = "true"
 --
 Inst6Quest5name1_HORDE = "Brilliant Gold Ring"
 
 --Quest 6 Horde
 Inst6Quest6_HORDE = "6. The Sparklematic 5200!"
-Inst6Quest6_HORDE_Level = "30"
-Inst6Quest6_HORDE_Attain = "25"
 Inst6Quest6_HORDE_Aim = "Insert a Grime-Encrusted Item into the Sparklematic 5200, and be sure to have three silver coins to start the machine."
 Inst6Quest6_HORDE_Location = "Sparklematic 5200 (Gnomeregan - The Clean Room; "..YELLOW.."[2]"..WHITE..")"
 Inst6Quest6_HORDE_Note = "You can repeat this quest for all the Grime-Encrusted Items you have."
@@ -1365,8 +1323,6 @@ Inst7QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst7Quest1 = "1. Mythology of the Titans"
-Inst7Quest1_Level = "38"
-Inst7Quest1_Attain = "28"
 Inst7Quest1_Aim = "Retrieve Mythology of the Titans from the Monastery and bring it to Librarian Mae Paledust in Ironforge."
 Inst7Quest1_Location = "Librarian Mae Paledust (Ironforge - Hall of Explorers; "..YELLOW.."74,12"..WHITE..")"
 Inst7Quest1_Note = "The book is on the floor on the left side of one of the corridors leading to Arcanist Doan ("..YELLOW.."[2]"..WHITE..")."
@@ -1377,14 +1333,11 @@ Inst7Quest1name1 = "Explorers' League Commendation"
 
 --Quest 2 Alliance
 Inst7Quest2 = "2. Rituals of Power (Mage)"
-Inst7Quest2_Level = "40"
-Inst7Quest2_Attain = "30"
 Inst7Quest2_Aim = "Bring the book Rituals of Power to Tabetha in Dustwallow Marsh."
 Inst7Quest2_Location = "Tabetha (Dustwallow Marsh; "..YELLOW.."43,57"..WHITE..")"
 Inst7Quest2_Note = "This quest can only be obtained by mages. You can find the book in the last corridor leading to Arcanist Doan ("..YELLOW.."[2]"..WHITE..").\n\nThe rewards listed are for the followup."
 Inst7Quest2_Prequest = "Journey to the Marsh -> Get the Scoop"
 Inst7Quest2_Folgequest = "Mage's Wand"
-Inst7Quest2PreQuest = "true"
 --
 Inst7Quest2name1 = "Icefury Wand"
 Inst7Quest2name2 = "Nether Force Wand"
@@ -1392,14 +1345,11 @@ Inst7Quest2name3 = "Ragefire Wand"
 
 --Quest 3 Alliance
 Inst7Quest3 = "3. In the Name of the Light"
-Inst7Quest3_Level = "40"
-Inst7Quest3_Attain = "34"
 Inst7Quest3_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
 Inst7Quest3_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
 Inst7Quest3_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.3, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
 Inst7Quest3_Prequest = "Brother Anton -> Down the Scarlet Path"
 Inst7Quest3_Folgequest = "None"
-Inst7Quest3PreQuest = "true"
 --
 Inst7Quest3name1 = "Sword of Serenity"
 Inst7Quest3name2 = "Bonebiter"
@@ -1409,34 +1359,26 @@ Inst7Quest3name4 = "Orb of Lorica"
 
 --Quest 1 Horde
 Inst7Quest1_HORDE = "1. Hearts of Zeal"
-Inst7Quest1_HORDE_Level = "33"
-Inst7Quest1_HORDE_Attain = "30"
 Inst7Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
 Inst7Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
 Inst7Quest1_HORDE_Note = "All mobs inside the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
 Inst7Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."[Razorfen Kraul]"..WHITE..")"
 Inst7Quest1_HORDE_Folgequest = "None"
-Inst7Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
 Inst7Quest2_HORDE = "2. Test of Lore"
-Inst7Quest2_HORDE_Level = "36"
-Inst7Quest2_HORDE_Attain = "25"
 Inst7Quest2_HORDE_Aim = "Find The Beginnings of the Undead Threat, and return it to Parqual Fintallas in Undercity."
 Inst7Quest2_HORDE_Location = "Parqual Fintallas (Undercity - The Apothecarium; "..YELLOW.."57,65"..WHITE..")"
 Inst7Quest2_HORDE_Note = "Questline starts at Dorn Plainstalker (Thousand Needles; "..YELLOW.."53,41"..WHITE.."). You can find the book in the Library of Scarlet Monastary.\n\nThe rewards listed are for the followup, which just involves talking to the NPC."
 Inst7Quest2_HORDE_Prequest = "Test of Faith -> Test of Lore"
 Inst7Quest2_HORDE_Folgequest = "Test of Lore"
-Inst7Quest2PreQuest_HORDE = "true"
 --
 Inst7Quest2name1_HORDE = "Windstorm Hammer"
 Inst7Quest2name2_HORDE = "Dancing Flame"
 
 --Quest 3 Horde
 Inst7Quest3_HORDE = "3. Compendium of the Fallen"
-Inst7Quest3_HORDE_Level = "38"
-Inst7Quest3_HORDE_Attain = "28"
 Inst7Quest3_HORDE_Aim = "Retrieve the Compendium of the Fallen from the Monastery in Tirisfal Glades and return to Sage Truthseeker in Thunder Bluff."
 Inst7Quest3_HORDE_Location = "Sage Truthseeker (Thunderbluff; "..YELLOW.."34,47"..WHITE..")"
 Inst7Quest3_HORDE_Note = "You can find the book in the Library section of the Scarlet Monastery. For lore reasons, Undead cannot do this quest."
@@ -1449,14 +1391,11 @@ Inst7Quest3name3_HORDE = "Omega Orb"
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
 Inst7Quest4_HORDE = "4. Rituals of Power (Mage)"
-Inst7Quest4_HORDE_Level = Inst7Quest2_Level
-Inst7Quest4_HORDE_Attain = Inst7Quest2_Attain
 Inst7Quest4_HORDE_Aim = Inst7Quest2_Aim
 Inst7Quest4_HORDE_Location = Inst7Quest2_Location
 Inst7Quest4_HORDE_Note = Inst7Quest2_Note
 Inst7Quest4_HORDE_Prequest = Inst7Quest2_Prequest
 Inst7Quest4_HORDE_Folgequest = Inst7Quest2_Folgequest
-Inst7Quest4PreQuest_HORDE = Inst7Quest2_PreQuest
 --
 Inst7Quest4name1_HORDE = Inst7Quest2name1
 Inst7Quest4name2_HORDE = Inst7Quest2name2
@@ -1464,8 +1403,6 @@ Inst7Quest4name3_HORDE = Inst7Quest2name3
 
 --Quest 5 Horde
 Inst7Quest5_HORDE = "5. Into The Scarlet Monastery"
-Inst7Quest5_HORDE_Level = "42"
-Inst7Quest5_HORDE_Attain = "33"
 Inst7Quest5_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
 Inst7Quest5_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
 Inst7Quest5_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
@@ -1486,14 +1423,11 @@ Inst8QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst8Quest1 = "1. In the Name of the Light"
-Inst8Quest1_Level = "40"
-Inst8Quest1_Attain = "34"
 Inst8Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
 Inst8Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
 Inst8Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.1, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
 Inst8Quest1_Prequest = "Brother Anton -> Down the Scarlet Path"
 Inst8Quest1_Folgequest = "None"
-Inst8Quest1PreQuest = "true"
 --
 Inst8Quest1name1 = "Sword of Serenity"
 Inst8Quest1name2 = "Bonebiter"
@@ -1503,20 +1437,15 @@ Inst8Quest1name4 = "Orb of Lorica"
 
 --Quest 1 Horde
 Inst8Quest1_HORDE = "1. Hearts of Zeal"
-Inst8Quest1_HORDE_Level = "33"
-Inst8Quest1_HORDE_Attain = "30"
 Inst8Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
 Inst8Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
 Inst8Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
 Inst8Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
 Inst8Quest1_HORDE_Folgequest = "None"
-Inst8Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
 Inst8Quest2_HORDE = "2. Into The Scarlet Monastery"
-Inst8Quest2_HORDE_Level = "42"
-Inst8Quest2_HORDE_Attain = "33"
 Inst8Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
 Inst8Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
 Inst8Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
@@ -1537,14 +1466,11 @@ Inst9QAH = "2 Quests"
 
 --Quest 1 Alliance
 Inst9Quest1 = "1. In the Name of the Light"
-Inst9Quest1_Level = "40"
-Inst9Quest1_Attain = "34"
 Inst9Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
 Inst9Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
 Inst9Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.1, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
 Inst9Quest1_Prequest = "Brother Anton -> Down the Scarlet Path"
 Inst9Quest1_Folgequest = "None"
-Inst9Quest1PreQuest = "true"
 --
 Inst9Quest1name1 = "Sword of Serenity"
 Inst9Quest1name2 = "Bonebiter"
@@ -1554,20 +1480,15 @@ Inst9Quest1name4 = "Orb of Lorica"
 
 --Quest 1 Horde
 Inst9Quest1_HORDE = "1. Hearts of Zeal"
-Inst9Quest1_HORDE_Level = "33"
-Inst9Quest1_HORDE_Attain = "30"
 Inst9Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
 Inst9Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
 Inst9Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
 Inst9Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
 Inst9Quest1_HORDE_Folgequest = "None"
-Inst9Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
 Inst9Quest2_HORDE = "2. Into The Scarlet Monastery"
-Inst9Quest2_HORDE_Level = "42"
-Inst9Quest2_HORDE_Attain = "33"
 Inst9Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
 Inst9Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
 Inst9Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
@@ -1589,8 +1510,6 @@ Inst10QAH = "2 Quests"
 
 --Quest 1 Horde
 Inst10Quest1_HORDE = "1. Vorrel's Revenge"
-Inst10Quest1_HORDE_Level = "33"
-Inst10Quest1_HORDE_Attain = "25"
 Inst10Quest1_HORDE_Aim = "Return Vorrel Sengutz's wedding ring to Monika Sengutz in Tarren Mill."
 Inst10Quest1_HORDE_Location = "Vorrel Sengutz (Scarlet Monastery - Graveyard; "..YELLOW.."[1]"..WHITE..")"
 Inst10Quest1_HORDE_Note = "You can find Vorrel Sengutz at the beginning of the Graveyard section of the Scarlet Monastery. Nancy Vishas, who drops the ring needed for this quest, can be found in a house in the Alterac Mountains ("..YELLOW.."31,32"..WHITE..")."
@@ -1603,14 +1522,11 @@ Inst10Quest1name3_HORDE = "Grimsteel Cape"
 
 --Quest 2 Horde
 Inst10Quest2_HORDE = "2. Hearts of Zeal"
-Inst10Quest2_HORDE_Level = "33"
-Inst10Quest2_HORDE_Attain = "30"
 Inst10Quest2_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
 Inst10Quest2_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
 Inst10Quest2_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
 Inst10Quest2_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Razorfen Kraul"..WHITE..")"
 Inst10Quest2_HORDE_Folgequest = "None"
-Inst10Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -1623,8 +1539,6 @@ Inst11QAH = "12 Quests"
 
 --Quest 1 Alliance
 Inst11Quest1 = "1. Plagued Hatchlings"
-Inst11Quest1_Level = "58"
-Inst11Quest1_Attain = "55"
 Inst11Quest1_Aim = "Kill 20 Plagued Hatchlings, then return to Betina Bigglezink at the Light's Hope Chapel."
 Inst11Quest1_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."75.6, 53.6"..WHITE..")"
 Inst11Quest1_Note = "The Plagued Hatchlings are on the way to Rattlegore in a large room."
@@ -1634,20 +1548,15 @@ Inst11Quest1_Folgequest = "Healthy Dragon Scale"
 
 --Quest 2 Alliance
 Inst11Quest2 = "2. Healthy Dragon Scale"
-Inst11Quest2_Level = "58"
-Inst11Quest2_Attain = "55"
 Inst11Quest2_Aim = "Bring the Healthy Dragon Scale to Betina Bigglezink at the Light's Hope Chapel in Eastern Plaguelands."
 Inst11Quest2_Location = "Healthy Dragon Scale (random drop in Scholomance)"
 Inst11Quest2_Note = "Plagued Hatchlings drop the Healthy Dragon Scales (8% chance to drop). You can find Betina Bigglezink at Eastern Plaguelands - Light's Hope Chapel ("..YELLOW.."75.6, 53.6"..WHITE..")."
 Inst11Quest2_Prequest = "Plagued Hatchlings "
 Inst11Quest2_Folgequest = "None"
-Inst11Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
 Inst11Quest3 = "3. Doctor Theolen Krastinov, the Butcher"
-Inst11Quest3_Level = "60"
-Inst11Quest3_Attain = "55"
 Inst11Quest3_Aim = "Find Doctor Theolen Krastinov inside the Scholomance. Destroy him, then burn the Remains of Eva Sarkhoff and the Remains of Lucien Sarkhoff. Return to Eva Sarkhoff when the task is complete."
 Inst11Quest3_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
 Inst11Quest3_Note = "You find Doctor Theolen Krastinov, the remains of Eva Sarkhoff and the remains of Lucien Sarkhoff at "..YELLOW.."[9]"..WHITE.."."
@@ -1657,26 +1566,20 @@ Inst11Quest3_Folgequest = "Krastinov's Bag of Horrors"
 
 --Quest 4 Alliance
 Inst11Quest4 = "4. Krastinov's Bag of Horrors"
-Inst11Quest4_Level = "60"
-Inst11Quest4_Attain = "55"
 Inst11Quest4_Aim = "Locate Jandice Barov in the Scholomance and destroy her. From her corpse recover Krastinov's Bag of Horrors. Return the bag to Eva Sarkhoff."
 Inst11Quest4_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
 Inst11Quest4_Note = "You can find Jandice Barov at "..YELLOW.."[3]"..WHITE.."."
 Inst11Quest4_Prequest = "Doctor Theolen Krastinov, the Butcher"
 Inst11Quest4_Folgequest = "Kirtonos the Herald"
-Inst11Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
 Inst11Quest5 = "5. Kirtonos the Herald"
-Inst11Quest5_Level = "60"
-Inst11Quest5_Attain = "55"
 Inst11Quest5_Aim = "Return to the Scholomance with the Blood of Innocents. Find the porch and place the Blood of Innocents in the brazier. Kirtonos will come to feast upon your soul. Fight valiantly, do not give an inch! Destroy Kirtonos and return to Eva Sarkhoff."
 Inst11Quest5_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
 Inst11Quest5_Note = "The porch is at "..YELLOW.."[2]"..WHITE.."."
 Inst11Quest5_Prequest = "Krastinov's Bag of Horrors"
 Inst11Quest5_Folgequest = "The Human, Ras Frostwhisper"
-Inst11Quest5FQuest = "true"
 --
 Inst11Quest5name1 = "Spectral Essence"
 Inst11Quest5name2 = "Penelope's Rose"
@@ -1684,14 +1587,11 @@ Inst11Quest5name3 = "Mirah's Song"
 
 --Quest 6 Alliance
 Inst11Quest6 = "6. The Lich, Ras Frostwhisper"
-Inst11Quest6_Level = "60"
-Inst11Quest6_Attain = "57"
 Inst11Quest6_Aim = "Find Ras Frostwhisper in the Scholomance. When you have found him, use the Soulbound Keepsake on his undead visage. Should you succeed in reverting him to a mortal, strike him down and recover the Human Head of Ras Frostwhisper. Take the head back to Magistrate Marduke."
 Inst11Quest6_Location = "Magistrate Marduke (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
 Inst11Quest6_Note = "You can find Ras Frostwhisper at "..YELLOW.."[7]"..WHITE.."."
 Inst11Quest6_Prequest = "The Human, Ras Frostwhisper - > Soulbound Keepsake"
 Inst11Quest6_Folgequest = "None"
-Inst11Quest6PreQuest = "true"
 --
 Inst11Quest6name1 = "Darrowshire Strongguard"
 Inst11Quest6name2 = "Warblade of Caer Darrow"
@@ -1700,8 +1600,6 @@ Inst11Quest6name4 = "Darrowspike"
 
 --Quest 7 Alliance
 Inst11Quest7 = "7. Barov Family Fortune"
-Inst11Quest7_Level = "60"
-Inst11Quest7_Attain = "52"
 Inst11Quest7_Aim = "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Weldon Barov when you have completed this task."
 Inst11Quest7_Location = "Weldon Barov (Western Plaguelands - Chillwind Camp; "..YELLOW.."43,83"..WHITE..")"
 Inst11Quest7_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE..".\nThe reward listed is for the followup."
@@ -1712,59 +1610,45 @@ Inst11Quest7name1 = "Barov Peasant Caller"
 
 --Quest 8 Alliance
 Inst11Quest8 = "8. Dawn's Gambit"
-Inst11Quest8_Level = "60"
-Inst11Quest8_Attain = "57"
 Inst11Quest8_Aim = "Place Dawn's Gambit in the Viewing Room of the Scholomance. Defeat Vectus, then return to Betina Bigglezink."
 Inst11Quest8_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."75.6, 53.6"..WHITE..")"
 Inst11Quest8_Note = "Broodling Essence begins at Tinkee Steamboil (Burning Steppes - Flame Crest; "..YELLOW.."65,23"..WHITE.."). The Viewing Room is at "..YELLOW.."[6]"..WHITE.."."
 Inst11Quest8_Prequest = "Broodling Essence - > Betina Bigglezink"
 Inst11Quest8_Folgequest = "None"
-Inst11Quest8PreQuest = "true"
 --
 Inst11Quest8name1 = "Windreaper"
 Inst11Quest8name2 = "Dancing Sliver"
 
 --Quest 9 Alliance
 Inst11Quest9 = "9. Imp Delivery (Warlock)"
-Inst11Quest9_Level = "60"
-Inst11Quest9_Attain = "60"
 Inst11Quest9_Aim = "Bring the Imp in a Yesr to the alchemy lab in the Scholomance. After the parchment is created, return the jar to Gorzeeki Wildeyes."
 Inst11Quest9_Location = "Gorzeeki Wildeyes (Burning Steppes; "..YELLOW.."12,31"..WHITE..")"
 Inst11Quest9_Note = "Only Warlocks can get this Quest! You find the alchemy lab at "..YELLOW.."[7]"..WHITE.."."
 Inst11Quest9_Prequest = "Mor'zul Bloodbringer - > Xorothian Stardust"
 Inst11Quest9_Folgequest = "Dreadsteed of Xoroth ("..YELLOW.."Dire Maul West"..WHITE..")"
-Inst11Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
 Inst11Quest10 = "10. The Left Piece of Lord Valthalak's Amulet"
-Inst11Quest10_Level = "60"
-Inst11Quest10_Attain = "58"
 Inst11Quest10_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst11Quest10_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
 Inst11Quest10_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE.."."
 Inst11Quest10_Prequest = "Components of Importance"
 Inst11Quest10_Folgequest = "I See Alcaz Island In Your Future..."
-Inst11Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
 Inst11Quest11 = "11. The Right Piece of Lord Valthalak's Amulet"
-Inst11Quest11_Level = "60"
-Inst11Quest11_Attain = "58"
 Inst11Quest11_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst11Quest11_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
 Inst11Quest11_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE.."."
 Inst11Quest11_Prequest = "More Components of Importance"
 Inst11Quest11_Folgequest = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
-Inst11Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst11Quest1_HORDE = Inst11Quest1
-Inst11Quest1_HORDE_Level = Inst11Quest1_Level
-Inst11Quest1_HORDE_Attain = Inst11Quest1_Attain
 Inst11Quest1_HORDE_Aim = Inst11Quest1_Aim
 Inst11Quest1_HORDE_Location = Inst11Quest1_Location
 Inst11Quest1_HORDE_Note = Inst11Quest1_Note
@@ -1774,20 +1658,15 @@ Inst11Quest1_HORDE_Folgequest = Inst11Quest1_Folgequest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst11Quest2_HORDE = Inst11Quest2
-Inst11Quest2_HORDE_Level = Inst11Quest2_Level
-Inst11Quest2_HORDE_Attain = Inst11Quest2_Attain
 Inst11Quest2_HORDE_Aim = Inst11Quest2_Aim
 Inst11Quest2_HORDE_Location = Inst11Quest2_Location
 Inst11Quest2_HORDE_Note = Inst11Quest2_Note
 Inst11Quest2_HORDE_Prequest = Inst11Quest2_Prequest
 Inst11Quest2_HORDE_Folgequest = Inst11Quest2_Folgequest
-Inst11Quest2FQuest_HORDE = Inst11Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst11Quest3_HORDE = Inst11Quest3
-Inst11Quest3_HORDE_Level = Inst11Quest3_Level
-Inst11Quest3_HORDE_Attain = Inst11Quest3_Attain
 Inst11Quest3_HORDE_Aim = Inst11Quest3_Aim
 Inst11Quest3_HORDE_Location = Inst11Quest3_Location
 Inst11Quest3_HORDE_Note = Inst11Quest3_Note
@@ -1797,26 +1676,20 @@ Inst11Quest3_HORDE_Folgequest = Inst11Quest3_Folgequest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst11Quest4_HORDE = Inst11Quest4
-Inst11Quest4_HORDE_Level = Inst11Quest4_Level
-Inst11Quest4_HORDE_Attain = Inst11Quest4_Attain
 Inst11Quest4_HORDE_Aim = Inst11Quest4_Aim
 Inst11Quest4_HORDE_Location = Inst11Quest4_Location
 Inst11Quest4_HORDE_Note = Inst11Quest4_Note
 Inst11Quest4_HORDE_Prequest = Inst11Quest4_Prequest
 Inst11Quest4_HORDE_Folgequest = Inst11Quest4_Folgequest
-Inst11Quest4FQuest_HORDE = Inst11Quest4FQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst11Quest5_HORDE = Inst11Quest5
-Inst11Quest5_HORDE_Level = Inst11Quest5_Level
-Inst11Quest5_HORDE_Attain = Inst11Quest5_Attain
 Inst11Quest5_HORDE_Aim = Inst11Quest5_Aim
 Inst11Quest5_HORDE_Location = Inst11Quest5_Location
 Inst11Quest5_HORDE_Note = Inst11Quest5_Note
 Inst11Quest5_HORDE_Prequest = Inst11Quest5_Prequest
 Inst11Quest5_HORDE_Folgequest = Inst11Quest5_Folgequest
-Inst11Quest5FQuest_HORDE = Inst11Quest5FQuest
 --
 Inst11Quest5name1_HORDE = Inst11Quest5name1
 Inst11Quest5name2_HORDE = Inst11Quest5name2
@@ -1824,14 +1697,11 @@ Inst11Quest5name3_HORDE = Inst11Quest5name3
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst11Quest6_HORDE = Inst11Quest6
-Inst11Quest6_HORDE_Level = Inst11Quest6_Level
-Inst11Quest6_HORDE_Attain = Inst11Quest6_Attain
 Inst11Quest6_HORDE_Aim = Inst11Quest6_Aim
 Inst11Quest6_HORDE_Location = Inst11Quest6_Location
 Inst11Quest6_HORDE_Note = Inst11Quest6_Note
 Inst11Quest6_HORDE_Prequest = Inst11Quest6_Prequest
 Inst11Quest6_HORDE_Folgequest = Inst11Quest6_Folgequest
-Inst11Quest6PreQuest_HORDE = Inst11Quest6PreQuest
 --
 Inst11Quest6name1_HORDE = Inst11Quest6name1
 Inst11Quest6name2_HORDE = Inst11Quest6name2
@@ -1840,8 +1710,6 @@ Inst11Quest6name4_HORDE = Inst11Quest6name4
 
 --Quest 7 Horde
 Inst11Quest7_HORDE = "7. Barov Family Fortune"
-Inst11Quest7_HORDE_Level = "60"
-Inst11Quest7_HORDE_Attain = "52"
 Inst11Quest7_HORDE_Aim = "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Alexi Barov when you have completed this task."
 Inst11Quest7_HORDE_Location = "Alexi Barov (Tirisfal Glades - The Bulwark; "..YELLOW.."80,73"..WHITE..")"
 Inst11Quest7_HORDE_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE..".\nThe reward listed is for the followup."
@@ -1852,65 +1720,50 @@ Inst11Quest7name1_HORDE = "Barov Peasant Caller"
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst11Quest8_HORDE = Inst11Quest8
-Inst11Quest8_HORDE_Level = Inst11Quest8_Level
-Inst11Quest8_HORDE_Attain = Inst11Quest8_Attain
 Inst11Quest8_HORDE_Aim = Inst11Quest8_Aim
 Inst11Quest8_HORDE_Location = Inst11Quest8_Location
 Inst11Quest8_HORDE_Note = Inst11Quest8_Note
 Inst11Quest8_HORDE_Prequest = Inst11Quest8_Prequest
 Inst11Quest8_HORDE_Folgequest = Inst11Quest8_Folgequest
-Inst11Quest8PreQuest_HORDE = Inst11Quest8PreQuest
 --
 Inst11Quest8name1_HORDE = Inst11Quest8name1
 Inst11Quest8name2_HORDE = Inst11Quest8name2
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst11Quest9_HORDE = Inst11Quest9
-Inst11Quest9_HORDE_Level = Inst11Quest9_Level
-Inst11Quest9_HORDE_Attain = Inst11Quest9_Attain
 Inst11Quest9_HORDE_Aim = Inst11Quest9_Aim
 Inst11Quest9_HORDE_Location = Inst11Quest9_Location
 Inst11Quest9_HORDE_Note = Inst11Quest9_Note
 Inst11Quest9_HORDE_Prequest = Inst11Quest9_Prequest
 Inst11Quest9_HORDE_Folgequest = Inst11Quest9_Folgequest
-Inst11Quest9PreQuest_HORDE = Inst11Quest9PreQuest
 -- No Rewards for this quest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
 Inst11Quest10_HORDE = Inst11Quest10
-Inst11Quest10_HORDE_Level = Inst11Quest10_Level
-Inst11Quest10_HORDE_Attain = Inst11Quest10_Attain
 Inst11Quest10_HORDE_Aim = Inst11Quest10_Aim
 Inst11Quest10_HORDE_Location = Inst11Quest10_Location
 Inst11Quest10_HORDE_Note = Inst11Quest10_Note
 Inst11Quest10_HORDE_Prequest = Inst11Quest10_Prequest
 Inst11Quest10_HORDE_Folgequest = Inst11Quest10_Folgequest
-Inst11Quest10PreQuest_HORDE = Inst11Quest10PreQuest
 -- No Rewards for this quest
 
 --Quest 11 Horde
 Inst11Quest11_HORDE = "11. The Darkreaver Menace (Shaman)"
-Inst11Quest11_HORDE_Level = "60"
-Inst11Quest11_HORDE_Attain = "58"
 Inst11Quest11_HORDE_Aim = "Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance.\n\nBring Darkreaver's Head to Sagorne Creststrider in the Valley of Wisdom, Orgrimmar."
 Inst11Quest11_HORDE_Location = "Sagorne Creststrider (Orgrimmar - Valley of Wisdom; "..YELLOW.."38.6, 36.2"..WHITE..")"
 Inst11Quest11_HORDE_Note = "This quest is only available for Shamans. The prequest is obtained from the same NPC.\n\nDeath Knight Darkreaver is summoned at "..YELLOW.."[5]"..WHITE.."."
 Inst11Quest11_HORDE_Prequest = "Material Assistance"
 Inst11Quest11_HORDE_Folgequest = "None"
-Inst11Quest11PreQuest_HORDE = "true"
 --
 Inst11Quest11name1_HORDE = "Skyfury Helm"
 
 --Quest 12 Horde  (same as Quest 11 Alliance)
 Inst11Quest12_HORDE = "12. The Right Piece of Lord Valthalak's Amulet"
-Inst11Quest12_HORDE_Level = Inst11Quest11_Level
-Inst11Quest12_HORDE_Attain = Inst11Quest11_Attain
 Inst11Quest12_HORDE_Aim = Inst11Quest11_Aim
 Inst11Quest12_HORDE_Location = Inst11Quest11_Location
 Inst11Quest12_HORDE_Note = Inst11Quest11_Note
 Inst11Quest12_HORDE_Prequest = Inst11Quest11_Prequest
 Inst11Quest12_HORDE_Folgequest = Inst11Quest11_Folgequest
-Inst11Quest12PreQuest_HORDE = Inst11Quest11PreQuest
 -- No Rewards for this quest
 
 
@@ -1923,22 +1776,17 @@ Inst12QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst12Quest1 = "1. The Test of Righteousness (Paladin)"
-Inst12Quest1_Level = "22"
-Inst12Quest1_Attain = "20"
 Inst12Quest1_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
 Inst12Quest1_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
 Inst12Quest1_Note = "To see the note click on  "..YELLOW.."[The Test of Righteousness Information]"..WHITE.."."
 Inst12Quest1_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." at "..YELLOW.."[5]"..WHITE..".\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
 Inst12Quest1_Prequest = "The Tome of Valor -> The Test of Righteousness"
 Inst12Quest1_Folgequest = "The Test of Righteousness"
-Inst12Quest1PreQuest = "true"
 --
 Inst12Quest1name1 = "Verigan's Fist"
 
 --Quest 2 Alliance
 Inst12Quest2 = "2. The Orb of Soran'ruk (Warlock)"
-Inst12Quest2_Level = "25"
-Inst12Quest2_Attain = "20"
 Inst12Quest2_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
 Inst12Quest2_Location = "Doan Karhan (Barrens; "..YELLOW.."49,57"..WHITE..")"
 Inst12Quest2_Note = "Only Warlocks can get this Quest! You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Blackfathom Deeps]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
@@ -1952,8 +1800,6 @@ Inst12Quest2name2 = "Staff of Soran'ruk"
 
 --Quest 1 Horde
 Inst12Quest1_HORDE = "1. Deathstalkers in Shadowfang"
-Inst12Quest1_HORDE_Level = "25"
-Inst12Quest1_HORDE_Attain = "18"
 Inst12Quest1_HORDE_Aim = "Find the Deathstalker Adamant and Deathstalker Vincent."
 Inst12Quest1_HORDE_Location = "High Executor Hadrec (Silverpine Forest - The Sepulcher; "..YELLOW.."43,40"..WHITE..")"
 Inst12Quest1_HORDE_Note = "You find Deathstalker Adamant at "..YELLOW.."[1]"..WHITE..". Deathstalker Vincent is on the right side when you go into the courtyard at "..YELLOW.."[3]"..WHITE.."."
@@ -1964,8 +1810,6 @@ Inst12Quest1name1_HORDE = "Ghostly Mantle"
 
 --Quest 2 Horde
 Inst12Quest2_HORDE = "2. The Book of Ur"
-Inst12Quest2_HORDE_Level = "26"
-Inst12Quest2_HORDE_Attain = "16"
 Inst12Quest2_HORDE_Aim = "Bring the Book of Ur to Keeper Bel'dugur at the Apothecarium in the Undercity."
 Inst12Quest2_HORDE_Location = "Keeper Bel'dugur (Undercity - The Apothecarium; "..YELLOW.."53,54"..WHITE..")"
 Inst12Quest2_HORDE_Note = "You find the book at "..YELLOW.."[11]"..WHITE.." on the left side when you enter the room."
@@ -1977,8 +1821,6 @@ Inst12Quest2name2_HORDE = "Steel-clasped Bracers"
 
 --Quest 3 Horde
 Inst12Quest3_HORDE = "3. Arugal Must Die"
-Inst12Quest3_HORDE_Level = "27"
-Inst12Quest3_HORDE_Attain = "18"
 Inst12Quest3_HORDE_Aim = "Kill Arugal and bring his head to Dalar Dawnweaver at the Sepulcher."
 Inst12Quest3_HORDE_Location = "Dalar Dawnweaver (Silverpine Forest - The Sepulcher; "..YELLOW.."44,39"..WHITE..")"
 Inst12Quest3_HORDE_Note = "You find Archmage Arugal at "..YELLOW.."[13]"..WHITE.."."
@@ -1989,8 +1831,6 @@ Inst12Quest3name1_HORDE = "Seal of Sylvanas"
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
 Inst12Quest4_HORDE = "4. The Orb of Soran'ruk (Warlock)"
-Inst12Quest4_HORDE_Level = Inst12Quest2_Level
-Inst12Quest4_HORDE_Attain = Inst12Quest2_Attain
 Inst12Quest4_HORDE_Aim = Inst12Quest2_Aim
 Inst12Quest4_HORDE_Location = Inst12Quest2_Location
 Inst12Quest4_HORDE_Note = Inst12Quest2_Note
@@ -2010,8 +1850,6 @@ Inst13QAH = "No Quests"
 
 --Quest 1 Alliance
 Inst13Quest1 = "1. What Comes Around..."
-Inst13Quest1_Level = "25"
-Inst13Quest1_Attain = "22"
 Inst13Quest1_Aim = "Bring the head of Targorr the Dread to Guard Berton in Lakeshire."
 Inst13Quest1_Location = "Guard Berton (Redridge Mountains - Lakeshire; "..YELLOW.."26,46"..WHITE..")"
 Inst13Quest1_Note = "You can find Targorr at "..YELLOW.."[1]"..WHITE.."."
@@ -2023,8 +1861,6 @@ Inst13Quest1name2 = "Hardened Root Staff"
 
 --Quest 2 Alliance
 Inst13Quest2 = "2. Crime and Punishment"
-Inst13Quest2_Level = "26"
-Inst13Quest2_Attain = "22"
 Inst13Quest2_Aim = "Councilman Millstipe of Darkshire wants you to bring him the hand of Dextren Ward."
 Inst13Quest2_Location = "Millstipe (Duskwood - Darkshire; "..YELLOW.."72,47"..WHITE..")"
 Inst13Quest2_Note = "You can find Dextren at "..YELLOW.."[5]"..WHITE.."."
@@ -2036,8 +1872,6 @@ Inst13Quest2name2 = "Darkshire Mail Leggings"
 
 --Quest 3 Alliance
 Inst13Quest3 = "3. Quell The Uprising"
-Inst13Quest3_Level = "26"
-Inst13Quest3_Attain = "22"
 Inst13Quest3_Aim = "Warden Thelwater of Stormwind wants you to kill 10 Defias Prisoners, 8 Defias Convicts, and 8 Defias Insurgents in The Stockade."
 Inst13Quest3_Location = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."51.4, 68.8"..WHITE..")"
 Inst13Quest3_Note = ""
@@ -2047,8 +1881,6 @@ Inst13Quest3_Folgequest = "None"
 
 --Quest 4 Alliance
 Inst13Quest4 = "4. The Color of Blood"
-Inst13Quest4_Level = "26"
-Inst13Quest4_Attain = "22"
 Inst13Quest4_Aim = "Nikova Raskol of Stormwind wants you to collect 10 Red Wool Bandanas."
 Inst13Quest4_Location = "Nikova Raskol (Stormwind - Old Town; "..YELLOW.."75.6, 62.9"..WHITE..")"
 Inst13Quest4_Note = "Nikova Raskol walks around Old Town. All mobs found inside the instance drops Red Wool Bandanas."
@@ -2058,8 +1890,6 @@ Inst13Quest4_Folgequest = "None"
 
 --Quest 5 Alliance
 Inst13Quest5 = "5. The Fury Runs Deep"
-Inst13Quest5_Level = "27"
-Inst13Quest5_Attain = "22"
 Inst13Quest5_Aim = "Motley Garmason wants Kam Deepfury's head brought to him at Dun Modr."
 Inst13Quest5_Location = "Motley Garmason (Wetlands - Dun Modr; "..YELLOW.."49,18"..WHITE..")"
 Inst13Quest5_Note = "The preceding quest can be obtained from Motley too. You can find Kam Deepfury at "..YELLOW.."[2]"..WHITE.."."
@@ -2072,8 +1902,6 @@ Inst13Quest5name2 = "Headbasher"
 
 --Quest 6 Alliance
 Inst13Quest6 = "6. The Stockade Riots"
-Inst13Quest6_Level = "29"
-Inst13Quest6_Attain = "16"
 Inst13Quest6_Aim = "Kill Bazil Thredd and bring his head back to Warden Thelwater at the Stockade."
 Inst13Quest6_Location = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."51.4, 68.8"..WHITE..")"
 Inst13Quest6_Note = "For more details about the preceding quest see "..YELLOW.."[Deadmines, The Defias Brotherhood]"..WHITE..".\nYou can find Bazil Thredd at "..YELLOW.."[4]"..WHITE.."."
@@ -2092,8 +1920,6 @@ Inst14QAH = "19 Quests"
 
 --Quest 1 Alliance
 Inst14Quest1 = "1. The Flesh Does Not Lie"
-Inst14Quest1_Level = "60"
-Inst14Quest1_Attain = "55"
 Inst14Quest1_Aim = "Recover 10 Plagued Flesh Samples from Stratholme and return them to Betina Bigglezink. You suspect that any creature in Stratholme would have said flesh sample."
 Inst14Quest1_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."75.6, 53.6"..WHITE..")"
 Inst14Quest1_Note = "Most mobs in Stratholme can drop the Plagued Flesh Samples, but the drop rate seems low."
@@ -2103,22 +1929,17 @@ Inst14Quest1_Folgequest = "The Active Agent"
 
 --Quest 2 Alliance
 Inst14Quest2 = "2. The Active Agent"
-Inst14Quest2_Level = "60"
-Inst14Quest2_Attain = "55"
 Inst14Quest2_Aim = "Travel to Stratholme and search the ziggurats. Find and return new Scourge Data to Betina Bigglezink."
 Inst14Quest2_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."75.6, 53.6"..WHITE..")"
 Inst14Quest2_Note = "The Scourge Data is in one of the 3 Towers, you find near "..YELLOW.."[15]"..WHITE..", "..YELLOW.."[16]"..WHITE.." and "..YELLOW.."[17]"..WHITE.."."
 Inst14Quest2_Prequest = "The Flesh Does Not Lie"
 Inst14Quest2_Folgequest = "None"
-Inst14Quest2FQuest = "true"
 --
 Inst14Quest2name1 = "Seal of the Dawn"
 Inst14Quest2name2 = "Rune of the Dawn"
 
 --Quest 3 Alliance
 Inst14Quest3 = "3. Houses of the Holy"
-Inst14Quest3_Level = "60"
-Inst14Quest3_Attain = "55"
 Inst14Quest3_Aim = "Travel to Stratholme, in the north. Search the supply crates that litter the city and recover 5 Stratholme Holy Water. Return to Leonid Barthalomew the Revered when you have collected enough of the blessed fluid."
 Inst14Quest3_Location = "Leonid Barthalomew the Revered (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."75.8, 52.0"..WHITE..")"
 Inst14Quest3_Note = "You can find the Holy Water in crates everywhere in Stratholme. Some of the crates will spawn bugs that attack you."
@@ -2132,8 +1953,6 @@ Inst14Quest3name4 = "Band of the Penitent"
 
 --Quest 4 Alliance
 Inst14Quest4 = "4. The Great Fras Siabi"
-Inst14Quest4_Level = "60"
-Inst14Quest4_Attain = "55"
 Inst14Quest4_Aim = "Find Fras Siabi's smoke shop in Stratholme and recover a box of Siabi's Premium Tobacco. Return to Smokey LaRue when the job is done."
 Inst14Quest4_Location = "Smokey LaRue (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."74.8, 52.0"..WHITE..")"
 Inst14Quest4_Note = "You find the smoke shop near "..YELLOW.."[1]"..WHITE..". Fras Siabi spawns when you open box."
@@ -2144,45 +1963,34 @@ Inst14Quest4name1 = "Smokey's Lighter"
 
 --Quest 5 Alliance
 Inst14Quest5 = "5. The Restless Souls"
-Inst14Quest5_Level = "60"
-Inst14Quest5_Attain = "55"
 Inst14Quest5_Aim = "Use Egan's Blaster on the ghostly and spectral citizens of Stratholme. When the restless souls break free from their ghostly shells, use the blaster again - freedom will be theirs!\nFree 15 Restless Souls and return to Egan."
 Inst14Quest5_Location = "Egan (Eastern Plaguelands; "..YELLOW.."11.3, 28.7"..WHITE..")"
 Inst14Quest5_Note = "You get the prequest from Caretaker Alen (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."74,58"..WHITE.."). The Spectral Citizens walk through the streets of Stratholme."
 Inst14Quest5_Prequest = "The Restless Souls"
 Inst14Quest5_Folgequest = "None"
-Inst14Quest5PreQuest = "true"
 --
 Inst14Quest5name1 = "Testament of Hope"
 
 --Quest 6 Alliance
 Inst14Quest6 = "6. Of Love and Family"
-Inst14Quest6_Level = "60"
-Inst14Quest6_Attain = "52"
 Inst14Quest6_Aim = "Travel to Stratholme, in the northern part of the Plaguelands. It is in the Scarlet Bastion that you will find the painting 'Of Love and Family,' hidden behind another painting depicting the twin moons of our world.\nReturn the painting to Tirion Fordring."
 Inst14Quest6_Location = "Artist Renfray (Western Plaguelands - Caer Darrow; "..YELLOW.."65,75"..WHITE..")"
 Inst14Quest6_Note = "You get the prequest from Tirion Fordring (Western Plaguelands; "..YELLOW.."7,43"..WHITE.."). You can find the picture near "..YELLOW.."[10]"..WHITE.."."
 Inst14Quest6_Prequest = "Redemption - > Of Love and Family"
 Inst14Quest6_Folgequest = "Find Myranda"
-Inst14Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
 Inst14Quest7 = "7. Menethil's Gift"
-Inst14Quest7_Level = "60"
-Inst14Quest7_Attain = "57"
 Inst14Quest7_Aim = "Travel to Stratholme and find Menethil's Gift. Place the Keepsake of Remembrance upon the unholy ground."
 Inst14Quest7_Location = "Leonid Barthalomew the Revered (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."75.8, 52.0"..WHITE..")"
 Inst14Quest7_Note = "You get the prequest from Magistrate Marduke (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE.."). You find the sign near "..YELLOW.."[19]"..WHITE..". See also: "..YELLOW.."[The Lich, Ras Frostwhisper]"..WHITE.." in Scholomance."
 Inst14Quest7_Prequest = "The Human, Ras Frostwhisper - > The Dying, Ras Frostwhisper"
 Inst14Quest7_Folgequest = "Menethil's Gift"
-Inst14Quest7PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
 Inst14Quest8 = "8. Aurius' Reckoning"
-Inst14Quest8_Level = "60"
-Inst14Quest8_Attain = "56"
 Inst14Quest8_Aim = "Kill the Baron."
 Inst14Quest8_Location = "Aurius (Stratholme; "..YELLOW.."[13]"..WHITE..")"
 Inst14Quest8_Note = "You get the Medallion from a chest (Malor's Strongbox "..YELLOW.."[7]"..WHITE..") in the first chamber of the bastion (before the ways split). It is not bound so you can trade it from another player or get it in a separate run.\n\nAfter giving Aurius the Medallion he'll help you when you fight Baron Rivendare "..YELLOW.."[19]"..WHITE..". After the Baron dies, Aurius will also die. Talk to his corpse to receive the reward."
@@ -2194,8 +2002,6 @@ Inst14Quest8name2 = "Blood of the Martyr"
 
 --Quest 9 Alliance
 Inst14Quest9 = "9. The Archivist"
-Inst14Quest9_Level = "60"
-Inst14Quest9_Attain = "55"
 Inst14Quest9_Aim = "Travel to Stratholme and find Archivist Galford of the Scarlet Crusade. Destroy him and burn down the Scarlet Archive."
 Inst14Quest9_Location = "Duke Nicholas Zverenhoff (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."76,52"..WHITE..")"
 Inst14Quest9_Note = "You can find the Archive and the Achivist at "..YELLOW.."[10]"..WHITE.."."
@@ -2205,26 +2011,20 @@ Inst14Quest9_Folgequest = "The Truth Comes Crashing Down"
 
 --Quest 10 Alliance
 Inst14Quest10 = "10. The Truth Comes Crashing Down"
-Inst14Quest10_Level = "60"
-Inst14Quest10_Attain = "55"
 Inst14Quest10_Aim = "Take the Head of Balnazzar to Duke Nicholas Zverenhoff in the Eastern Plaguelands."
 Inst14Quest10_Location = "Balnazzar (Stratholme; "..YELLOW.."[11]"..WHITE..")"
 Inst14Quest10_Note = "You find Duke Nicholas Zverenhoff in the Eastern Plaguelands - Light's Hope Chapel ("..YELLOW.."76,52"..WHITE..")."
 Inst14Quest10_Prequest = "The Archivist"
 Inst14Quest10_Folgequest = "Above and Beyond"
-Inst14Quest10FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
 Inst14Quest11 = "11. Above and Beyond"
-Inst14Quest11_Level = "60"
-Inst14Quest11_Attain = "55"
 Inst14Quest11_Aim = "Venture to Stratholme and destroy Baron Rivendare. Take his head and return to Duke Nicholas Zverenhoff."
 Inst14Quest11_Location = "Duke Nicholas Zverenhoff (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."76,52"..WHITE..")"
 Inst14Quest11_Note = "You can find the Baron at "..YELLOW.."[19]"..WHITE..".\n\nThe rewards listed are for the followup."
 Inst14Quest11_Prequest = "The Truth Comes Crashing Down"
 Inst14Quest11_Folgequest = "Lord Maxwell Tyrosus -> The Argent Hold"
-Inst14Quest11FQuest = "true"
 --
 Inst14Quest11name1 = "Argent Defender"
 Inst14Quest11name2 = "Argent Crusader"
@@ -2232,50 +2032,38 @@ Inst14Quest11name3 = "Argent Avenger"
 
 --Quest 12 Alliance
 Inst14Quest12 = "12. Dead Man's Plea"
-Inst14Quest12_Level = "60"
-Inst14Quest12_Attain = "58"
 Inst14Quest12_Aim = "Go into Stratholme and rescue Ysida Harmon from Baron Rivendare."
 Inst14Quest12_Location = "Anthion Harmon (Eastern Plaguelands - Stratholme)"
 Inst14Quest12_Note = "Anthion stands just outside the Stratholme portal. You need the Extra-Dimensional Ghost Revealer to see him. It comes from the pre-quest. The questline starts with Just Compensation. Deliana in Ironforge ("..YELLOW.."43,52"..WHITE..") for Alliance, Mokvar in Orgrimmar ("..YELLOW.."38,37"..WHITE..") for Horde.\nThis is the infamous '45 minute' Baron run."
 Inst14Quest12_Prequest = "In Search of Anthion"
 Inst14Quest12_Folgequest = "Proof of Life"
-Inst14Quest12PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
 Inst14Quest13 = "13. The Left Piece of Lord Valthalak's Amulet"
-Inst14Quest13_Level = "60"
-Inst14Quest13_Attain = "58"
 Inst14Quest13_Aim = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst14Quest13_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
 Inst14Quest13_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE.."."
 Inst14Quest13_Prequest = "Components of Importance"
 Inst14Quest13_Folgequest = "I See Alcaz Island In Your Future..."
-Inst14Quest13PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
 Inst14Quest14 = "14. The Right Piece of Lord Valthalak's Amulet"
-Inst14Quest14_Level = "60"
-Inst14Quest14_Attain = "58"
 Inst14Quest14_Aim = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst14Quest14_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
 Inst14Quest14_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE.."."
 Inst14Quest14_Prequest = "More Components of Importance"
 Inst14Quest14_Folgequest = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
-Inst14Quest14PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
 Inst14Quest15 = "15. Atiesh, Greatstaff of the Guardian"
-Inst14Quest15_Level = "60"
-Inst14Quest15_Attain = "60"
 Inst14Quest15_Aim = "Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
 Inst14Quest15_Location = "Anachronos (Tanaris - Caverns of Time; "..YELLOW.."65,49"..WHITE..")"
 Inst14Quest15_Note = "Atiesh is summoned at "..YELLOW.."[2]"..WHITE..".\n\nAs of the Wrath of the Lich King expansion, this quest can no longer be obtained. Only those on the last step of the quest, who have the quest item to summon Atiesh can complete it."
 Inst14Quest15_Prequest = "Yes"
 Inst14Quest15_Folgequest = "None"
-Inst14Quest15PreQuest = "true"
 --
 Inst14Quest15name1 = "Atiesh, Greatstaff of the Guardian"
 Inst14Quest15name2 = "Atiesh, Greatstaff of the Guardian"
@@ -2284,8 +2072,6 @@ Inst14Quest15name4 = "Atiesh, Greatstaff of the Guardian"
 
 --Quest 16 Alliance
 Inst14Quest16 = "16. Corruption (Blacksmith)"
-Inst14Quest16_Level = "60"
-Inst14Quest16_Attain = "50"
 Inst14Quest16_Aim = "Find the Black Guard Swordsmith in Stratholme and destroy him. Recover the Insignia of the Black Guard and return to Seril Scourgebane."
 Inst14Quest16_Location = "Seril Scourgebane (Winterspring - Everlook; "..YELLOW.."61,37"..WHITE..")"
 Inst14Quest16_Note = "The Black Guard Swordsmith is summoned near "..YELLOW.."[15]"..WHITE.."."
@@ -2296,8 +2082,6 @@ Inst14Quest16name1 = "Plans: Blazing Rapier"
 
 --Quest 17 Alliance
 Inst14Quest17 = "17. Sweet Serenity (Blacksmith)"
-Inst14Quest17_Level = "60"
-Inst14Quest17_Attain = "50"
 Inst14Quest17_Aim = "Travel to Stratholme and kill the Crimson Hammersmith. Recover the Crimson Hammersmith's Apron and return to Lilith."
 Inst14Quest17_Location = "Lilith the Lithe (Winterspring - Everlook; "..YELLOW.."61,37"..WHITE..")"
 Inst14Quest17_Note = "The Crimson Hammersmith is summoned at "..YELLOW.."[8]"..WHITE.."."
@@ -2308,22 +2092,17 @@ Inst14Quest17name1 = "Plans: Enchanted Battlehammer"
 
 --Quest 18 Alliance
 Inst14Quest18 = "18. The Balance of Light and Shadow (Priest)"
-Inst14Quest18_Level = "60"
-Inst14Quest18_Attain = "60"
 Inst14Quest18_Aim = "Save 50 Peasants before 15 are slain. Speak with Eris Havenfire should you accomplish this task."
 Inst14Quest18_Location = "Eris Havenfire (Eastern Plaguelands; "..YELLOW.."17.6, 14.0"..WHITE..")"
 Inst14Quest18_Note = "In order to see Eris Havenfire and get this quest and the prequest, you need the Eye of Divinity (comes from Cache of the Firelord in "..YELLOW.."[Molten Core]"..WHITE..").\n\nThis quest's reward, when combined with Eye of Divinity and The Eye of Shadow (drops from demons in Winterspring or Blasted Lands) form Benediction, an epic priest's staff."
 Inst14Quest18_Prequest = "A Warning"
 Inst14Quest18_Folgequest = "None"
-Inst14Quest18PreQuest = "true"
 --
 Inst14Quest18name1 = "Splinter of Nordrassil"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst14Quest1_HORDE = Inst14Quest1
-Inst14Quest1_HORDE_Level = Inst14Quest1_Level
-Inst14Quest1_HORDE_Attain = Inst14Quest1_Attain
 Inst14Quest1_HORDE_Aim = Inst14Quest1_Aim
 Inst14Quest1_HORDE_Location = Inst14Quest1_Location
 Inst14Quest1_HORDE_Note = Inst14Quest1_Note
@@ -2333,22 +2112,17 @@ Inst14Quest1_HORDE_Folgequest = Inst14Quest1_Folgequest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst14Quest2_HORDE = Inst14Quest2
-Inst14Quest2_HORDE_Level = Inst14Quest2_Level
-Inst14Quest2_HORDE_Attain = Inst14Quest2_Attain
 Inst14Quest2_HORDE_Aim = Inst14Quest2_Aim
 Inst14Quest2_HORDE_Location = Inst14Quest2_Location
 Inst14Quest2_HORDE_Note = Inst14Quest2_Note
 Inst14Quest2_HORDE_Prequest = Inst14Quest2_Prequest
 Inst14Quest2_HORDE_Folgequest = Inst14Quest2_Folgequest
-Inst14Quest2FQuest_HORDE = Inst14Quest2FQuest
 --
 Inst14Quest2name1_HORDE = Inst14Quest2name1
 Inst14Quest2name2_HORDE = Inst14Quest2name2
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst14Quest3_HORDE = Inst14Quest3
-Inst14Quest3_HORDE_Level = Inst14Quest3_Level
-Inst14Quest3_HORDE_Attain = Inst14Quest3_Attain
 Inst14Quest3_HORDE_Aim = Inst14Quest3_Aim
 Inst14Quest3_HORDE_Location = Inst14Quest3_Location
 Inst14Quest3_HORDE_Note = Inst14Quest3_Note
@@ -2362,8 +2136,6 @@ Inst14Quest3name4_HORDE = Inst14Quest3name4
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst14Quest4_HORDE = Inst14Quest4
-Inst14Quest4_HORDE_Level = Inst14Quest4_Level
-Inst14Quest4_HORDE_Attain = Inst14Quest4_Attain
 Inst14Quest4_HORDE_Aim = Inst14Quest4_Aim
 Inst14Quest4_HORDE_Location = Inst14Quest4_Location
 Inst14Quest4_HORDE_Note = Inst14Quest4_Note
@@ -2374,45 +2146,34 @@ Inst14Quest4name1_HORDE = Inst14Quest4name1
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst14Quest5_HORDE = Inst14Quest5
-Inst14Quest5_HORDE_Level = Inst14Quest5_Level
-Inst14Quest5_HORDE_Attain = Inst14Quest5_Attain
 Inst14Quest5_HORDE_Aim = Inst14Quest5_Aim
 Inst14Quest5_HORDE_Location = Inst14Quest5_Location
 Inst14Quest5_HORDE_Note = Inst14Quest5_Note
 Inst14Quest5_HORDE_Prequest = Inst14Quest5_Prequest
 Inst14Quest5_HORDE_Folgequest = Inst14Quest5_Folgequest
-Inst14Quest5PreQuest_HORDE = Inst14Quest5PreQuest
 --
 Inst14Quest5name1_HORDE = Inst14Quest5name1
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst14Quest6_HORDE = Inst14Quest6
-Inst14Quest6_HORDE_Level = Inst14Quest6_Level
-Inst14Quest6_HORDE_Attain = Inst14Quest6_Attain
 Inst14Quest6_HORDE_Aim = Inst14Quest6_Aim
 Inst14Quest6_HORDE_Location = Inst14Quest6_Location
 Inst14Quest6_HORDE_Note = Inst14Quest6_Note
 Inst14Quest6_HORDE_Prequest = Inst14Quest6_Prequest
 Inst14Quest6_HORDE_Folgequest = Inst14Quest6_Folgequest
-Inst14Quest6PreQuest_HORDE = Inst14Quest6PreQuest
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst14Quest7_HORDE = Inst14Quest7
-Inst14Quest7_HORDE_Level = Inst14Quest7_Level
-Inst14Quest7_HORDE_Attain = Inst14Quest7_Attain
 Inst14Quest7_HORDE_Aim = Inst14Quest7_Aim
 Inst14Quest7_HORDE_Location = Inst14Quest7_Location
 Inst14Quest7_HORDE_Note = Inst14Quest7_Note
 Inst14Quest7_HORDE_Prequest = Inst14Quest7_Prequest
 Inst14Quest7_HORDE_Folgequest = Inst14Quest7_Folgequest
-Inst14Quest7PreQuest_HORDE = Inst14Quest7PreQuest
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst14Quest8_HORDE = Inst14Quest8
-Inst14Quest8_HORDE_Level = Inst14Quest8_Level
-Inst14Quest8_HORDE_Attain = Inst14Quest8_Attain
 Inst14Quest8_HORDE_Aim = Inst14Quest8_Aim
 Inst14Quest8_HORDE_Location = Inst14Quest8_Location
 Inst14Quest8_HORDE_Note = Inst14Quest8_Note
@@ -2424,8 +2185,6 @@ Inst14Quest8name2_HORDE = Inst14Quest8name2
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst14Quest9_HORDE = Inst14Quest9
-Inst14Quest9_HORDE_Level = Inst14Quest9_Level
-Inst14Quest9_HORDE_Attain = Inst14Quest9_Attain
 Inst14Quest9_HORDE_Aim = Inst14Quest9_Aim
 Inst14Quest9_HORDE_Location = Inst14Quest9_Location
 Inst14Quest9_HORDE_Note = Inst14Quest9_Note
@@ -2435,26 +2194,20 @@ Inst14Quest9_HORDE_Folgequest = Inst14Quest9_Folgequest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
 Inst14Quest10_HORDE = Inst14Quest10
-Inst14Quest10_HORDE_Level = Inst14Quest10_Level
-Inst14Quest10_HORDE_Attain = Inst14Quest10_Attain
 Inst14Quest10_HORDE_Aim = Inst14Quest10_Aim
 Inst14Quest10_HORDE_Location = Inst14Quest10_Location
 Inst14Quest10_HORDE_Note = Inst14Quest10_Note
 Inst14Quest10_HORDE_Prequest = Inst14Quest10_Prequest
 Inst14Quest10_HORDE_Folgequest = Inst14Quest10_Folgequest
-Inst14Quest10FQuest_HORDE = Inst14Quest10FQuest
 -- No Rewards for this quest
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
 Inst14Quest11_HORDE = Inst14Quest11
-Inst14Quest11_HORDE_Level = Inst14Quest11_Level
-Inst14Quest11_HORDE_Attain = Inst14Quest11_Attain
 Inst14Quest11_HORDE_Aim = Inst14Quest11_Aim
 Inst14Quest11_HORDE_Location = Inst14Quest11_Location
 Inst14Quest11_HORDE_Note = Inst14Quest11_Note
 Inst14Quest11_HORDE_Prequest = Inst14Quest11_Prequest
 Inst14Quest11_HORDE_Folgequest = Inst14Quest11_Folgequest
-Inst14Quest11FQuest_HORDE = Inst14Quest11FQuest
 --
 Inst14Quest11name1_HORDE = Inst14Quest11name1
 Inst14Quest11name2_HORDE = Inst14Quest11name2
@@ -2462,50 +2215,38 @@ Inst14Quest11name3_HORDE = Inst14Quest11name3
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
 Inst14Quest12_HORDE = Inst14Quest12
-Inst14Quest12_HORDE_Level = Inst14Quest12_Level
-Inst14Quest12_HORDE_Attain = Inst14Quest12_Attain
 Inst14Quest12_HORDE_Aim = Inst14Quest12_Aim
 Inst14Quest12_HORDE_Location = Inst14Quest12_Location
 Inst14Quest12_HORDE_Note = Inst14Quest12_Note
 Inst14Quest12_HORDE_Prequest = Inst14Quest12_Prequest
 Inst14Quest12_HORDE_Folgequest = Inst14Quest12_Folgequest
-Inst14Quest12PreQuest_HORDE = Inst14Quest12PreQuest
 -- No Rewards for this quest
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
 Inst14Quest13_HORDE = Inst14Quest13
-Inst14Quest13_HORDE_Level = Inst14Quest13_Level
-Inst14Quest13_HORDE_Attain = Inst14Quest13_Attain
 Inst14Quest13_HORDE_Aim = Inst14Quest13_Aim
 Inst14Quest13_HORDE_Location = Inst14Quest13_Location
 Inst14Quest13_HORDE_Note = Inst14Quest13_Note
 Inst14Quest13_HORDE_Prequest = Inst14Quest13_Prequest
 Inst14Quest13_HORDE_Folgequest = Inst14Quest13_Folgequest
-Inst14Quest13PreQuest_HORDE = Inst14Quest13PreQuest
 -- No Rewards for this quest
 
 --Quest 14 Horde  (same as Quest 14 Alliance)
 Inst14Quest14_HORDE = Inst14Quest14
-Inst14Quest14_HORDE_Level = Inst14Quest14_Level
-Inst14Quest14_HORDE_Attain = Inst14Quest14_Attain
 Inst14Quest14_HORDE_Aim = Inst14Quest14_Aim
 Inst14Quest14_HORDE_Location = Inst14Quest14_Location
 Inst14Quest14_HORDE_Note = Inst14Quest14_Note
 Inst14Quest14_HORDE_Prequest = Inst14Quest14_Prequest
 Inst14Quest14_HORDE_Folgequest = Inst14Quest14_Folgequest
-Inst14Quest14PreQuest_HORDE = Inst14Quest14PreQuest
 -- No Rewards for this quest
 
 --Quest 15 Horde  (same as Quest 15 Alliance)
 Inst14Quest15_HORDE = Inst14Quest15
-Inst14Quest15_HORDE_Level = Inst14Quest15_Level
-Inst14Quest15_HORDE_Attain = Inst14Quest15_Attain
 Inst14Quest15_HORDE_Aim = Inst14Quest15_Aim
 Inst14Quest15_HORDE_Location = Inst14Quest15_Location
 Inst14Quest15_HORDE_Note = Inst14Quest15_Note
 Inst14Quest15_HORDE_Prequest = Inst14Quest15_Prequest
 Inst14Quest15_HORDE_Folgequest = Inst14Quest15_Folgequest
-Inst14Quest15PreQuest_HORDE = Inst14Quest15PreQuest
 --
 Inst14Quest15name1_HORDE = Inst14Quest15name1
 Inst14Quest15name2_HORDE = Inst14Quest15name2
@@ -2514,8 +2255,6 @@ Inst14Quest15name4_HORDE = Inst14Quest15name4
 
 --Quest 16 Horde  (same as Quest 16 Alliance)
 Inst14Quest16_HORDE = Inst14Quest16
-Inst14Quest16_HORDE_Level = Inst14Quest16_Level
-Inst14Quest16_HORDE_Attain = Inst14Quest16_Attain
 Inst14Quest16_HORDE_Aim = Inst14Quest16_Aim
 Inst14Quest16_HORDE_Location = Inst14Quest16_Location
 Inst14Quest16_HORDE_Note = Inst14Quest16_Note
@@ -2526,8 +2265,6 @@ Inst14Quest16name1_HORDE = Inst14Quest16name1
 
 --Quest 17 Horde  (same as Quest 17 Alliance)
 Inst14Quest17_HORDE = Inst14Quest17
-Inst14Quest17_HORDE_Level = Inst14Quest17_Level
-Inst14Quest17_HORDE_Attain = Inst14Quest17_Attain
 Inst14Quest17_HORDE_Aim = Inst14Quest17_Aim
 Inst14Quest17_HORDE_Location = Inst14Quest17_Location
 Inst14Quest17_HORDE_Note = Inst14Quest17_Note
@@ -2538,28 +2275,22 @@ Inst14Quest17name1_HORDE = Inst14Quest17name1
 
 --Quest 18 Horde
 Inst14Quest18_HORDE = "18. Ramstein"
-Inst14Quest18_HORDE_Level = "60"
-Inst14Quest18_HORDE_Attain = "56"
 Inst14Quest18_HORDE_Aim = "Travel to Stratholme and slay Ramstein the Gorger. Take his head as a souvenir for Nathanos."
 Inst14Quest18_HORDE_Location = "Nathanos Blightcaller (Eastern Plaguelands; "..YELLOW.."22.8, 68.0"..WHITE..")"
 Inst14Quest18_HORDE_Note = "You get the prequest from Nathanos Blightcaller, too. You can find Ramstein at "..YELLOW.."[18]"..WHITE.."."
 Inst14Quest18_HORDE_Prequest = "The Ranger Lord's Behest -> Duskwing, Oh How I Hate Thee..."
 Inst14Quest18_HORDE_Folgequest = "None"
-Inst14Quest18PreQuest_HORDE = "true"
 --
 Inst14Quest18name1_HORDE = "Royal Seal of Alexis"
 Inst14Quest18name2_HORDE = "Elemental Circle"
 
 --Quest 19 Horde  (same as Quest 18 Alliance)
 Inst14Quest19_HORDE = "19. The Balance of Light and Shadow (Priest)"
-Inst14Quest19_HORDE_Level = Inst14Quest18_Level
-Inst14Quest19_HORDE_Attain = Inst14Quest18_Attain
 Inst14Quest19_HORDE_Aim = Inst14Quest18_Aim
 Inst14Quest19_HORDE_Location = Inst14Quest18_Location
 Inst14Quest19_HORDE_Note = Inst14Quest18_Note
 Inst14Quest19_HORDE_Prequest = Inst14Quest18_Prequest
 Inst14Quest19_HORDE_Folgequest = Inst14Quest18_Folgequest
-Inst14Quest19PreQuest_HORDE = Inst14Quest18PreQuest
 --
 Inst14Quest19name1_HORDE = Inst14Quest18name1
 
@@ -2573,21 +2304,16 @@ Inst15QAH = "16 Quests"
 
 --Quest 1 Alliance
 Inst15Quest1 = "1. Into The Temple of Atal'Hakkar"
-Inst15Quest1_Level = "50"
-Inst15Quest1_Attain = "38"
 Inst15Quest1_Aim = "Gather 10 Atal'ai Tablets for Brohann Caskbelly in Stormwind."
 Inst15Quest1_Location = "Brohann Caskbelly (Stormwind - Dwarven District; "..YELLOW.."69.5, 40.4"..WHITE..")"
 Inst15Quest1_Note = "The prequest line comes from the same NPC and has quite a few steps.\n\nYou can find the Tablets everywhere in the Temple, both outside and inside the instance."
 Inst15Quest1_Prequest = "In Search of The Temple -> Rhapsody's Tale"
 Inst15Quest1_Folgequest = "None"
-Inst15Quest1PreQuest = "true"
 --
 Inst15Quest1name1 = "Guardian Talisman"
 
 --Quest 2 Alliance
 Inst15Quest2 = "2. The Sunken Temple"
-Inst15Quest2_Level = "51"
-Inst15Quest2_Attain = "46"
 Inst15Quest2_Aim = "Find Marvon Rivetseeker in Tanaris."
 Inst15Quest2_Location = "Angelas Moonbreeze (Feralas - Feathermoon Stronghold; "..YELLOW.."31,45"..WHITE..")"
 Inst15Quest2_Note = "You find Marvon Rivetseeker at "..YELLOW.."52,45"..WHITE.."."
@@ -2597,51 +2323,39 @@ Inst15Quest2_Folgequest = "The Stone Circle"
 
 --Quest 3 Alliance
 Inst15Quest3 = "3. Into the Depths"
-Inst15Quest3_Level = "51"
-Inst15Quest3_Attain = "46"
 Inst15Quest3_Aim = "Find the Altar of Hakkar in the Sunken Temple in Swamp of Sorrows."
 Inst15Quest3_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
 Inst15Quest3_Note = "The Altar is at "..YELLOW.."[1]"..WHITE.."."
 Inst15Quest3_Prequest = "The Stone Circle"
 Inst15Quest3_Folgequest = "None"
-Inst15Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
 Inst15Quest4 = "4. Secret of the Circle"
-Inst15Quest4_Level = "51"
-Inst15Quest4_Attain = "46"
 Inst15Quest4_Aim = "Travel into the Sunken Temple and discover the secret hidden in the circle of statues."
 Inst15Quest4_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
 Inst15Quest4_Note = "You find the statues at "..YELLOW.."[1]"..WHITE..". See map for order to activate them."
 Inst15Quest4_Prequest = "The Stone Circle"
 Inst15Quest4_Folgequest = "None"
-Inst15Quest4PreQuest = "true"
 --
 Inst15Quest4name1 = "Hakkari Urn"
 
 --Quest 5 Alliance
 Inst15Quest5 = "5. Haze of Evil"
-Inst15Quest5_Level = "52"
-Inst15Quest5_Attain = "47"
 Inst15Quest5_Aim = "Collect 5 samples of Atal'ai Haze, then return to Muigin in Un'Goro Crater."
 Inst15Quest5_Location = "Gregan Brewspewer (Feralas; "..YELLOW.."45,25"..WHITE..")"
 Inst15Quest5_Note = "The Prequest 'Muigin and Larion' starts at Muigin (Un'Goro Crater - Marshal's Refuge; "..YELLOW.."42,9"..WHITE.."). You get the Haze from Deep Lurkers, Murk Worms or Oozes in the Temple."
 Inst15Quest5_Prequest = "Muigin and Larion -> A Visit to Gregan "
 Inst15Quest5_Folgequest = "None"
-Inst15Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
 Inst15Quest6 = "6. The God Hakkar"
-Inst15Quest6_Level = "53"
-Inst15Quest6_Attain = "40"
 Inst15Quest6_Aim = "Bring the Filled Egg of Hakkar to Yeh'kinya in Tanaris."
 Inst15Quest6_Location = "Yeh'kinya (Tanaris - Steamwheedle Port; "..YELLOW.."66,22"..WHITE..")"
 Inst15Quest6_Note = "The Questline starts with 'Screecher Spirits' at the same NPC (See "..YELLOW.."[Zul'Farrak]"..WHITE..").\nYou have to use the Egg at "..YELLOW.."[3]"..WHITE.." to start the Event. Once it starts enemies spawn and attack you. Some of them drop the blood of Hakkar. With this blood you can put out the torch around the circle. After this the Avatar of Hakkar spawns. You kill him and loot the 'Essence of Hakkar' which you use to fill the egg."
 Inst15Quest6_Prequest = "Screecher Spirits -> The Ancient Egg"
 Inst15Quest6_Folgequest = "None"
-Inst15Quest6PreQuest = "true"
 --
 Inst15Quest6name1 = "Avenguard Helm"
 Inst15Quest6name2 = "Lifeforce Dirk"
@@ -2649,8 +2363,6 @@ Inst15Quest6name3 = "Gemburst Circlet"
 
 --Quest 7 Alliance
 Inst15Quest7 = "7. Jammal'an the Prophet"
-Inst15Quest7_Level = "53"
-Inst15Quest7_Attain = "38"
 Inst15Quest7_Aim = "The Atal'ai Exile in The Hinterlands wants the Head of Jammal'an."
 Inst15Quest7_Location = "The Atal'ai Exile (The Hinterlands; "..YELLOW.."33,75"..WHITE..")"
 Inst15Quest7_Note = "You find Jammal'an at "..YELLOW.."[4]"..WHITE.."."
@@ -2662,8 +2374,6 @@ Inst15Quest7name2 = "Helm of Exile"
 
 --Quest 8 Alliance
 Inst15Quest8 = "8. The Essence of Eranikus"
-Inst15Quest8_Level = "55"
-Inst15Quest8_Attain = "48"
 Inst15Quest8_Aim = "Place the Essence of Eranikus in the Essence Font located in this lair in the Sunken Temple."
 Inst15Quest8_Location = "The Essence of Eranikus (drops from Shade of Eranikus; "..YELLOW.."[6]"..WHITE..")"
 Inst15Quest8_Note = "You find the Essence Font next to where Shade of Eranikus is at "..YELLOW.."[6]"..WHITE.."."
@@ -2674,14 +2384,11 @@ Inst15Quest8name1 = "Chained Essence of Eranikus"
 
 --Quest 9 Alliance
 Inst15Quest9 = "9. Trolls of a Feather (Warlock)"
-Inst15Quest9_Level = "52"
-Inst15Quest9_Attain = "50"
 Inst15Quest9_Aim = "Bring a total of 6 Voodoo Feathers from the trolls in sunken temple."
 Inst15Quest9_Location = "Impsy (Felwood; "..YELLOW.."42,45"..WHITE..")"
 Inst15Quest9_Note = "Warlock quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
 Inst15Quest9_Prequest = "An Imp's Request -> The Wrong Stuff"
 Inst15Quest9_Folgequest = "None"
-Inst15Quest9PreQuest = "true"
 --
 Inst15Quest9name1 = "Soul Harvester"
 Inst15Quest9name2 = "Abyss Shard"
@@ -2689,14 +2396,11 @@ Inst15Quest9name3 = "Robes of Servitude"
 
 --Quest 10 Alliance
 Inst15Quest10 = "10. Voodoo Feathers (Warrior)"
-Inst15Quest10_Level = "52"
-Inst15Quest10_Attain = "50"
 Inst15Quest10_Aim = "Bring the Voodoo Feathers from the trolls in the Sunken Temple to the Fallen Hero of the Horde."
 Inst15Quest10_Location = "Fallen Hero of the Horde (Swamp of Sorrows; "..YELLOW.."34,66"..WHITE..")"
 Inst15Quest10_Note = "Warrior quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
 Inst15Quest10_Prequest = "A Troubled Spirit -> War on the Shadowsworn"
 Inst15Quest10_Folgequest = "None"
-Inst15Quest10PreQuest = "true"
 --
 Inst15Quest10name1 = "Fury Visor"
 Inst15Quest10name2 = "Diamond Flask"
@@ -2704,14 +2408,11 @@ Inst15Quest10name3 = "Razorsteel Shoulders"
 
 --Quest 11 Alliance
 Inst15Quest11 = "11. A Better Ingredient (Druid)"
-Inst15Quest11_Level = "52"
-Inst15Quest11_Attain = "50"
 Inst15Quest11_Aim = "Retrieve a Putrid Vine from the guardian at the bottom of the Sunken Temple and return to Torwa Pathfinder."
 Inst15Quest11_Location = "Torwa Pathfinder (Un'Goro Crater; "..YELLOW.."72,76"..WHITE..")"
 Inst15Quest11_Note = "Druid quest. The Putrid Vine drops from Atal'alarion who is summoned at "..YELLOW.."[1]"..WHITE.." by activating the statues in the order listed on the map."
 Inst15Quest11_Prequest = "Torwa Pathfinder -> Toxic Test"
 Inst15Quest11_Folgequest = "None"
-Inst15Quest11PreQuest = "true"
 --
 Inst15Quest11name1 = "Grizzled Pelt"
 Inst15Quest11name2 = "Forest's Embrace"
@@ -2719,14 +2420,11 @@ Inst15Quest11name3 = "Moonshadow Stave"
 
 --Quest 12 Alliance
 Inst15Quest12 = "12. The Green Drake (Hunter)"
-Inst15Quest12_Level = "52"
-Inst15Quest12_Attain = "50"
 Inst15Quest12_Aim = "Bring the Tooth of Morphaz to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
 Inst15Quest12_Location = "Ogtinc (Azshara; "..YELLOW.."42,43"..WHITE..")"
 Inst15Quest12_Note = "Hunter quest. Morphaz is at "..YELLOW.."[5]"..WHITE.."."
 Inst15Quest12_Prequest = "The Hunter's Charm -> Wavethrashing"
 Inst15Quest12_Folgequest = "None"
-Inst15Quest12PreQuest = "true"
 --
 Inst15Quest12name1 = "Hunting Spear"
 Inst15Quest12name2 = "Devilsaur Eye"
@@ -2734,14 +2432,11 @@ Inst15Quest12name3 = "Devilsaur Tooth"
 
 --Quest 13 Alliance
 Inst15Quest13 = "13. Destroy Morphaz (Mage)"
-Inst15Quest13_Level = "52"
-Inst15Quest13_Attain = "50"
 Inst15Quest13_Aim = "Retrieve the Arcane Shard from Morphaz and return to Archmage Xylem."
 Inst15Quest13_Location = "Archmage Xylem (Azshara; "..YELLOW.."29,40"..WHITE..")"
 Inst15Quest13_Note = "Mage quest. Morphaz is at "..YELLOW.."[5]"..WHITE.."."
 Inst15Quest13_Prequest = "Magic Dust -> The Siren's Coral"
 Inst15Quest13_Folgequest = "None"
-Inst15Quest13PreQuest = "true"
 --
 Inst15Quest13name1 = "Glacial Spike"
 Inst15Quest13name2 = "Arcane Crystal Pendant"
@@ -2749,14 +2444,11 @@ Inst15Quest13name3 = "Fire Ruby"
 
 --Quest 14 Alliance
 Inst15Quest14 = "14. Blood of Morphaz (Priest)"
-Inst15Quest14_Level = "52"
-Inst15Quest14_Attain = "50"
 Inst15Quest14_Aim = "Kill Morphaz in the sunken temple of Atal'Hakkar, and return his blood to Greta Mosshoof in Felwood. The entrance to the sunken temple can be found in the Swamp of Sorrows."
 Inst15Quest14_Location = "Ogtinc (Azshara; "..YELLOW.."42,43"..WHITE..")"
 Inst15Quest14_Note = "Priest quest. Morphaz is at "..YELLOW.."[5]"..WHITE..". Greta Mosshoof is at Felwood - Emerald Sanctuary ("..YELLOW.."51,82"..WHITE..")."
 Inst15Quest14_Prequest = "Cenarion Aid -> The Ichor of Undeath"
 Inst15Quest14_Folgequest = "None"
-Inst15Quest14PreQuest = "true"
 --
 Inst15Quest14name1 = "Blessed Prayer Beads"
 Inst15Quest14name2 = "Woestave"
@@ -2764,14 +2456,11 @@ Inst15Quest14name3 = "Circle of Hope"
 
 --Quest 15 Alliance
 Inst15Quest15 = "15. The Azure Key (Rogue)"
-Inst15Quest15_Level = "52"
-Inst15Quest15_Attain = "50"
 Inst15Quest15_Aim = "Return the Azure Key to Lord Jorach Ravenholdt."
 Inst15Quest15_Location = "Archmage Xylem (Azshara; "..YELLOW.."29,40"..WHITE..")"
 Inst15Quest15_Note = "Rogue quest. The Azure Key drops from Morphaz at "..YELLOW.."[5]"..WHITE..". Lord Jorach Ravenholdt is at Alterac Mountains - Ravenholdt ("..YELLOW.."86,79"..WHITE..")."
 Inst15Quest15_Prequest = "A Simple Request -> Encoded Fragments"
 Inst15Quest15_Folgequest = "None"
-Inst15Quest15PreQuest = "true"
 --
 Inst15Quest15name1 = "Ebon Mask"
 Inst15Quest15name2 = "Whisperwalk Boots"
@@ -2779,14 +2468,11 @@ Inst15Quest15name3 = "Duskbat Drape"
 
 --Quest 16 Alliance
 Inst15Quest16 = "16. Forging the Mightstone (Paladin)"
-Inst15Quest16_Level = "52"
-Inst15Quest16_Attain = "50"
 Inst15Quest16_Aim = "Bring the voodoo feathers to Ashlam Valorfist."
 Inst15Quest16_Location = "Commander Ashlam Valorfist (Western Plaguelands - Chillwind Camp; "..YELLOW.."43,85"..WHITE..")"
 Inst15Quest16_Note = "Paladin quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
 Inst15Quest16_Prequest = "Inert Scourgestones"
 Inst15Quest16_Folgequest = "None"
-Inst15Quest16PreQuest = "true"
 --
 Inst15Quest16name1 = "Holy Mightstone"
 Inst15Quest16name2 = "Lightforged Blade"
@@ -2796,21 +2482,16 @@ Inst15Quest16name4 = "Chivalrous Signet"
 
 --Quest 1 Horde
 Inst15Quest1_HORDE = "1. The Temple of Atal'Hakkar"
-Inst15Quest1_HORDE_Level = "50"
-Inst15Quest1_HORDE_Attain = "38"
 Inst15Quest1_HORDE_Aim = "Collect 20 Fetishes of Hakkar and bring them to Fel'Zerul in Stonard."
 Inst15Quest1_HORDE_Location = "Fel'Zerul (Swamp of Sorrows - Stonard; "..YELLOW.."47,54"..WHITE..")"
 Inst15Quest1_HORDE_Note = "All Enemys in the Temple drop Fetishes."
 Inst15Quest1_HORDE_Prequest = "Pool of Tears -> Return to Fel'Zerul"
 Inst15Quest1_HORDE_Folgequest = "None"
-Inst15Quest1PreQuest_HORDE = "true"
 --
 Inst15Quest1name1_HORDE = "Guardian Talisman"
 
 --Quest 2 Horde
 Inst15Quest2_HORDE = "2. The Sunken Temple"
-Inst15Quest2_HORDE_Level = "51"
-Inst15Quest2_HORDE_Attain = "46"
 Inst15Quest2_HORDE_Aim = "Find Marvon Rivetseeker in Tanaris."
 Inst15Quest2_HORDE_Location = "Witch Doctor Uzer'i (Feralas; "..YELLOW.."74,43"..WHITE..")"
 Inst15Quest2_HORDE_Note = "You find Marvon Rivetseeker at "..YELLOW.."52,45"..WHITE.."."
@@ -2819,50 +2500,38 @@ Inst15Quest2_HORDE_Folgequest = "The Stone Circle"
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst15Quest3_HORDE = Inst15Quest3
-Inst15Quest3_HORDE_Level = Inst15Quest3_Level
-Inst15Quest3_HORDE_Attain = Inst15Quest3_Attain
 Inst15Quest3_HORDE_Aim = Inst15Quest3_Aim
 Inst15Quest3_HORDE_Location = Inst15Quest3_Location
 Inst15Quest3_HORDE_Note = Inst15Quest3_Note
 Inst15Quest3_HORDE_Prequest = Inst15Quest3_Prequest
 Inst15Quest3_HORDE_Folgequest = Inst15Quest3_Folgequest
-Inst15Quest3PreQuest_HORDE = Inst15Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
 Inst15Quest4_HORDE = Inst15Quest4
-Inst15Quest4_HORDE_Level = Inst15Quest4_Level
-Inst15Quest4_HORDE_Attain = Inst15Quest4_Attain
 Inst15Quest4_HORDE_Aim = Inst15Quest4_Aim
 Inst15Quest4_HORDE_Location = Inst15Quest4_Location
 Inst15Quest4_HORDE_Note = Inst15Quest4_Note
 Inst15Quest4_HORDE_Prequest = Inst15Quest4_Prequest
 Inst15Quest4_HORDE_Folgequest = Inst15Quest4_Folgequest
-Inst15Quest4PreQuest_HORDE = Inst15Quest4PreQuest
 --
 Inst15Quest4name1_HORDE = Inst15Quest4name1
 
 --Quest 5 Horde
 Inst15Quest5_HORDE = "5. Zapper Fuel"
-Inst15Quest5_HORDE_Level = "52"
-Inst15Quest5_HORDE_Attain = "47"
 Inst15Quest5_HORDE_Aim = "Deliver the Unloaded Zapper and 5 samples of Atal'ai Haze to Larion in Marshal's Refuge."
 Inst15Quest5_HORDE_Location = "Liv Rizzlefix (Barrens; "..YELLOW.."62,38"..WHITE..")"
 Inst15Quest5_HORDE_Note = "The Prequest 'Larion and Muigin' starts at Larion (Un'Goro Crater; "..YELLOW.."45,8"..WHITE.."). You get the Haze from Deep Lurkers, Murk Worms or Oozes in the Temple."
 Inst15Quest5_HORDE_Prequest = "Larion and Muigin -> Marvon's Workshop"
 Inst15Quest5_HORDE_Folgequest = "None"
-Inst15Quest5PreQuest_HORDE = "true"
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
 Inst15Quest6_HORDE = Inst15Quest6
-Inst15Quest6_HORDE_Level = Inst15Quest6_Level
-Inst15Quest6_HORDE_Attain = Inst15Quest6_Attain
 Inst15Quest6_HORDE_Aim = Inst15Quest6_Aim
 Inst15Quest6_HORDE_Location = Inst15Quest6_Location
 Inst15Quest6_HORDE_Note = Inst15Quest6_Note
 Inst15Quest6_HORDE_Prequest = Inst15Quest6_Prequest
 Inst15Quest6_HORDE_Folgequest = Inst15Quest6_Folgequest
-Inst15Quest6PreQuest_HORDE = Inst15Quest6PreQuest
 --
 Inst15Quest6name1_HORDE = Inst15Quest6name1
 Inst15Quest6name2_HORDE = Inst15Quest6name2
@@ -2870,8 +2539,6 @@ Inst15Quest6name3_HORDE = Inst15Quest6name3
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst15Quest7_HORDE = Inst15Quest7
-Inst15Quest7_HORDE_Level = Inst15Quest7_Level
-Inst15Quest7_HORDE_Attain = Inst15Quest7_Attain
 Inst15Quest7_HORDE_Aim = Inst15Quest7_Aim
 Inst15Quest7_HORDE_Location = Inst15Quest7_Location
 Inst15Quest7_HORDE_Note = Inst15Quest7_Note
@@ -2883,8 +2550,6 @@ Inst15Quest7name2_HORDE = Inst15Quest7name2
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst15Quest8_HORDE = Inst15Quest8
-Inst15Quest8_HORDE_Level = Inst15Quest8_Level
-Inst15Quest8_HORDE_Attain = Inst15Quest8_Attain
 Inst15Quest8_HORDE_Aim = Inst15Quest8_Aim
 Inst15Quest8_HORDE_Location = Inst15Quest8_Location
 Inst15Quest8_HORDE_Note = Inst15Quest8_Note
@@ -2895,14 +2560,11 @@ Inst15Quest8name1_HORDE = Inst15Quest8name1
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst15Quest9_HORDE = Inst15Quest9
-Inst15Quest9_HORDE_Level = Inst15Quest9_Level
-Inst15Quest9_HORDE_Attain = Inst15Quest9_Attain
 Inst15Quest9_HORDE_Aim = Inst15Quest9_Aim
 Inst15Quest9_HORDE_Location = Inst15Quest9_Location
 Inst15Quest9_HORDE_Note = Inst15Quest9_Note
 Inst15Quest9_HORDE_Prequest = Inst15Quest9_Prequest
 Inst15Quest9_HORDE_Folgequest = Inst15Quest9_Folgequest
-Inst15Quest9PreQuest_HORDE = Inst15Quest9PreQuest
 --
 Inst15Quest9name1_HORDE = Inst15Quest9name1
 Inst15Quest9name2_HORDE = Inst15Quest9name2
@@ -2910,14 +2572,11 @@ Inst15Quest9name3_HORDE = Inst15Quest9name3
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
 Inst15Quest10_HORDE = Inst15Quest10
-Inst15Quest10_HORDE_Level = Inst15Quest10_Level
-Inst15Quest10_HORDE_Attain = Inst15Quest10_Attain
 Inst15Quest10_HORDE_Aim = Inst15Quest10_Aim
 Inst15Quest10_HORDE_Location = Inst15Quest10_Location
 Inst15Quest10_HORDE_Note = Inst15Quest10_Note
 Inst15Quest10_HORDE_Prequest = Inst15Quest10_Prequest
 Inst15Quest10_HORDE_Folgequest = Inst15Quest10_Folgequest
-Inst15Quest10PreQuest_HORDE = Inst15Quest10PreQuest
 --
 Inst15Quest10name1_HORDE = Inst15Quest10name1
 Inst15Quest10name2_HORDE = Inst15Quest10name2
@@ -2925,14 +2584,11 @@ Inst15Quest10name3_HORDE = Inst15Quest10name3
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
 Inst15Quest11_HORDE = Inst15Quest11
-Inst15Quest11_HORDE_Level = Inst15Quest11_Level
-Inst15Quest11_HORDE_Attain = Inst15Quest11_Attain
 Inst15Quest11_HORDE_Aim = Inst15Quest11_Aim
 Inst15Quest11_HORDE_Location = Inst15Quest11_Location
 Inst15Quest11_HORDE_Note = Inst15Quest11_Note
 Inst15Quest11_HORDE_Prequest = Inst15Quest11_Prequest
 Inst15Quest11_HORDE_Folgequest = Inst15Quest11_Folgequest
-Inst15Quest11PreQuest_HORDE = Inst15Quest11PreQuest
 --
 Inst15Quest11name1_HORDE = Inst15Quest11name1
 Inst15Quest11name2_HORDE = Inst15Quest11name2
@@ -2940,14 +2596,11 @@ Inst15Quest11name3_HORDE = Inst15Quest11name3
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
 Inst15Quest12_HORDE = Inst15Quest12
-Inst15Quest12_HORDE_Level = Inst15Quest12_Level
-Inst15Quest12_HORDE_Attain = Inst15Quest12_Attain
 Inst15Quest12_HORDE_Aim = Inst15Quest12_Aim
 Inst15Quest12_HORDE_Location = Inst15Quest12_Location
 Inst15Quest12_HORDE_Note = Inst15Quest12_Note
 Inst15Quest12_HORDE_Prequest = Inst15Quest12_Prequest
 Inst15Quest12_HORDE_Folgequest = Inst15Quest12_Folgequest
-Inst15Quest12PreQuest_HORDE = Inst15Quest12PreQuest
 --
 Inst15Quest12name1_HORDE = Inst15Quest12name1
 Inst15Quest12name2_HORDE = Inst15Quest12name2
@@ -2955,14 +2608,11 @@ Inst15Quest12name3_HORDE = Inst15Quest12name3
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
 Inst15Quest13_HORDE = Inst15Quest13
-Inst15Quest13_HORDE_Level = Inst15Quest13_Level
-Inst15Quest13_HORDE_Attain = Inst15Quest13_Attain
 Inst15Quest13_HORDE_Aim = Inst15Quest13_Aim
 Inst15Quest13_HORDE_Location = Inst15Quest13_Location
 Inst15Quest13_HORDE_Note = Inst15Quest13_Note
 Inst15Quest13_HORDE_Prequest = Inst15Quest13_Prequest
 Inst15Quest13_HORDE_Folgequest = Inst15Quest13_Folgequest
-Inst15Quest13PreQuest_HORDE = Inst15Quest13PreQuest
 --
 Inst15Quest13name1_HORDE = Inst15Quest13name1
 Inst15Quest13name2_HORDE = Inst15Quest13name2
@@ -2970,14 +2620,11 @@ Inst15Quest13name3_HORDE = Inst15Quest13name3
 
 --Quest 14 Horde  (same as Quest 14 Alliance)
 Inst15Quest14_HORDE = Inst15Quest14
-Inst15Quest14_HORDE_Level = Inst15Quest14_Level
-Inst15Quest14_HORDE_Attain = Inst15Quest14_Attain
 Inst15Quest14_HORDE_Aim = Inst15Quest14_Aim
 Inst15Quest14_HORDE_Location = Inst15Quest14_Location
 Inst15Quest14_HORDE_Note = Inst15Quest14_Note
 Inst15Quest14_HORDE_Prequest = Inst15Quest14_Prequest
 Inst15Quest14_HORDE_Folgequest = Inst15Quest14_Folgequest
-Inst15Quest14PreQuest_HORDE = Inst15Quest14PreQuest
 --
 Inst15Quest14name1_HORDE = Inst15Quest14name1
 Inst15Quest14name2_HORDE = Inst15Quest14name2
@@ -2985,14 +2632,11 @@ Inst15Quest14name3_HORDE = Inst15Quest14name3
 
 --Quest 15 Horde  (same as Quest 15 Alliance)
 Inst15Quest15_HORDE = Inst15Quest15
-Inst15Quest15_HORDE_Level = Inst15Quest15_Level
-Inst15Quest15_HORDE_Attain = Inst15Quest15_Attain
 Inst15Quest15_HORDE_Aim = Inst15Quest15_Aim
 Inst15Quest15_HORDE_Location = Inst15Quest15_Location
 Inst15Quest15_HORDE_Note = Inst15Quest15_Note
 Inst15Quest15_HORDE_Prequest = Inst15Quest15_Prequest
 Inst15Quest15_HORDE_Folgequest = Inst15Quest15_Folgequest
-Inst15Quest15PreQuest_HORDE = Inst15Quest15PreQuest
 --
 Inst15Quest15name1_HORDE = Inst15Quest15name1
 Inst15Quest15name2_HORDE = Inst15Quest15name2
@@ -3000,14 +2644,11 @@ Inst15Quest15name3_HORDE = Inst15Quest15name3
 
 --Quest 16 Horde
 Inst15Quest16_HORDE = "16. Da Voodoo (Shaman)"
-Inst15Quest16_HORDE_Level = "52"
-Inst15Quest16_HORDE_Attain = "50"
 Inst15Quest16_HORDE_Aim = "Bring the voodoo feathers to Bath'rah the Windwatcher."
 Inst15Quest16_HORDE_Location = "Bath'rah the Windwatcher (Alterac Mountains; "..YELLOW.."80,67"..WHITE..")"
 Inst15Quest16_HORDE_Note = "Shaman quest. 1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center."
 Inst15Quest16_HORDE_Prequest = "Yes, Elemental Mastery -> Spirit Totem"
 Inst15Quest16_HORDE_Folgequest = "No"
-Inst15Quest16PreQuest_HORDE = "true"
 --
 Inst15Quest16name1_HORDE = "Azurite Fists"
 Inst15Quest16name2_HORDE = "Enamored Water Spirit"
@@ -6041,8 +5682,6 @@ Inst34QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst34Quest1 = "1. The Battle for Arathi Basin!"
-Inst34Quest1_Level = "25"
-Inst34Quest1_Attain = "25"
 Inst34Quest1_Aim = "Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe."
 Inst34Quest1_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
 Inst34Quest1_Note = "The locations to be assaulted are marked on the map as 2 through 5."
@@ -6052,8 +5691,6 @@ Inst34Quest1_Folgequest = "None"
 
 --Quest 2 Alliance
 Inst34Quest2 = "2. Control Four Bases"
-Inst34Quest2_Level = "60"
-Inst34Quest2_Attain = "60"
 Inst34Quest2_Aim = "Enter Arathi Basin, capture and control four bases at the same time, and then return to Field Marshal Oslight at Refuge Pointe."
 Inst34Quest2_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
 Inst34Quest2_Note = "You need to be Friendly with the League of Arathor to get this quest."
@@ -6063,8 +5700,6 @@ Inst34Quest2_Folgequest = "None"
 
 --Quest 3 Alliance
 Inst34Quest3 = "3. Control Five Bases"
-Inst34Quest3_Level = "60"
-Inst34Quest3_Attain = "60"
 Inst34Quest3_Aim = "Control 5 bases in Arathi Basin at the same time, then return to Field Marshal Oslight at Refuge Pointe."
 Inst34Quest3_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
 Inst34Quest3_Note = "You need to be Exalted with the League of Arathor to get this quest."
@@ -6076,8 +5711,6 @@ Inst34Quest3name1 = "Arathor Battle Tabard"
 
 --Quest 1 Horde
 Inst34Quest1_HORDE = "1. The Battle for Arathi Basin!"
-Inst34Quest1_HORDE_Level = "25"
-Inst34Quest1_HORDE_Attain = "25"
 Inst34Quest1_HORDE_Aim = "Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall."
 Inst34Quest1_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
 Inst34Quest1_HORDE_Note = "The locations to be assaulted are marked on the map as 1 through 4."
@@ -6087,8 +5720,6 @@ Inst34Quest1_HORDE_Folgequest = "None"
 
 --Quest 2 Horde
 Inst34Quest2_HORDE = "2. Take Four Bases"
-Inst34Quest2_HORDE_Level = "60"
-Inst34Quest2_HORDE_Attain = "60"
 Inst34Quest2_HORDE_Aim = "Hold four bases at the same time in Arathi Basin, and then return to Deathmaster Dwire in Hammerfall."
 Inst34Quest2_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
 Inst34Quest2_HORDE_Note = "You need to be Friendly with The Defilers to get this quest."
@@ -6098,8 +5729,6 @@ Inst34Quest2_HORDE_Folgequest = "None"
 
 --Quest 3 Horde
 Inst34Quest3_HORDE = "3. Take Five Bases"
-Inst34Quest3_HORDE_Level = "60"
-Inst34Quest3_HORDE_Attain = "60"
 Inst34Quest3_HORDE_Aim = "Hold five bases in Arathi Basin at the same time, then return to Deathmaster Dwire in Hammerfall."
 Inst34Quest3_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
 Inst34Quest3_HORDE_Note = "You need to be Exalted with The Defilers to get this quest."
@@ -6133,8 +5762,6 @@ Inst36QAH = "1 Quest"
 
 --Quest 1 Alliance
 Inst36Quest1 = "1. Shrouded in Nightmare"
-Inst36Quest1_Level = "60"
-Inst36Quest1_Attain = "60"
 Inst36Quest1_Aim = "Find someone capable of deciphering the meaning behind the Nightmare Engulfed Object.\n\nPerhaps a druid of great power could assist you."
 Inst36Quest1_Location = "Nightmare Engulfed Object (drops from Emeriss, Taerar, Lethon or Ysondre)"
 Inst36Quest1_Note = "Quest turns in to Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36,41"..WHITE.."). Reward listed is for the followup."
@@ -6146,8 +5773,6 @@ Inst36Quest1name1 = "Malfurion's Signet Ring"
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst36Quest1_HORDE = Inst36Quest1
-Inst36Quest1_HORDE_Level = Inst36Quest1_Level
-Inst36Quest1_HORDE_Attain = Inst36Quest1_Attain
 Inst36Quest1_HORDE_Aim = Inst36Quest1_Aim
 Inst36Quest1_HORDE_Location = Inst36Quest1_Location
 Inst36Quest1_HORDE_Note = Inst36Quest1_Note
@@ -6166,28 +5791,22 @@ Inst37QAH = "1 Quest"
 
 --Quest 1 Alliance
 Inst37Quest1 = "1. Ancient Sinew Wrapped Lamina (Hunter)"
-Inst37Quest1_Level = "60"
-Inst37Quest1_Attain = "60"
 Inst37Quest1_Aim = "Hastat the Ancient has asked that you bring him a Mature Blue Dragon Sinew. Should you find this sinew, return it to Hastat in Felwood."
 Inst37Quest1_Location = "Hastat the Ancient (Felwood - Irontree Woods; "..YELLOW.."48,24"..WHITE..")"
 Inst37Quest1_Note = "Kill Azuregos to get the Mature Blue Dragon Sinew. He walks around the middle of the southern peninsula in Azshara near "..YELLOW.."[1]"..WHITE.."."
 Inst37Quest1_Prequest = "The Ancient Leaf ("..YELLOW.."Molten Core"..WHITE..")"
 Inst37Quest1_Folgequest = "None"
-Inst37Quest1PreQuest = "true"
 --
 Inst37Quest1name1 = "Ancient Sinew Wrapped Lamina"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst37Quest1_HORDE = Inst37Quest1
-Inst37Quest1_HORDE_Level = Inst37Quest1_Level
-Inst37Quest1_HORDE_Attain = Inst37Quest1_Attain
 Inst37Quest1_HORDE_Aim = Inst37Quest1_Aim
 Inst37Quest1_HORDE_Location = Inst37Quest1_Location
 Inst37Quest1_HORDE_Note = Inst37Quest1_Note
 Inst37Quest1_HORDE_Prequest = Inst37Quest1_Prequest
 Inst37Quest1_HORDE_Folgequest = Inst37Quest1_Folgequest
-Inst37Quest1PreQuest_HORDE = Inst37Quest1PreQuest
 --
 Inst37Quest1name1_HORDE = Inst37Quest1name1
 

@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.11.54  (for WoW Classic)  September 20, 2019
+
+-
+
+
+
 Version 4.11.53  (for WoW Classic)  September 19, 2019
 
 - Fixed Russian language file loading incorrectly.

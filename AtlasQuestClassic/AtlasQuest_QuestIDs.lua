@@ -494,195 +494,682 @@ Inst5Quest7_Attain = "16"
 --------------- INST6 - Gnomeregan ---------------
 
 Inst6Quest1_QuestID = "2922"
+Inst6Quest1_Level = "26"
+Inst6Quest1_Attain = "20"
+Inst6Quest1PreQuest = "true"
+
 Inst6Quest2_QuestID = "2926"
+Inst6Quest2_Level = "27"
+Inst6Quest2_Attain = "20"
+Inst6Quest2PreQuest = "true"
+
 Inst6Quest3_QuestID = "2962"
+Inst6Quest3_Level = "30"
+Inst6Quest3_Attain = "20"
+Inst6Quest3FQuest = "true"
+
 Inst6Quest4_QuestID = "2928"
+Inst6Quest4_Level = "30"
+Inst6Quest4_Attain = "20"
+
 Inst6Quest5_QuestID = "2924"
+Inst6Quest5_Level = "30"
+Inst6Quest5_Attain = "24"
+Inst6Quest5PreQuest = "true"
+
 Inst6Quest6_QuestID = "2930"
+Inst6Quest6_Level = "30"
+Inst6Quest6_Attain = "25"
+Inst6Quest6PreQuest = "true"
+
 Inst6Quest7_QuestID = "2904"
+Inst6Quest7_Level = "30"
+Inst6Quest7_Attain = "20"
+
 Inst6Quest8_QuestID = "2929"
+Inst6Quest8_Level = "35"
+Inst6Quest8_Attain = "25"
+
 Inst6Quest9_QuestID = "2945"
+Inst6Quest9_Level = "34"
+Inst6Quest9_Attain = "28"
+
 Inst6Quest10_QuestID = "2947"
+Inst6Quest10_Level = "34"
+Inst6Quest10_Attain = "28"
+Inst6Quest10FQuest = "true"
+
 Inst6Quest11_QuestID = "2951"
+Inst6Quest11_Level = "30"
+Inst6Quest11_Attain = "25"
+
+
 
 Inst6Quest1_HORDE_QuestID = "2843"
+Inst6Quest1_HORDE_Level = "35"
+Inst6Quest1_HORDE_Attain = "20"
+Inst6Quest1PreQuest_HORDE = "true"
+
 Inst6Quest2_HORDE_QuestID = "2904"
+Inst6Quest2_HORDE_Level = Inst6Quest7_Level
+Inst6Quest2_HORDE_Attain = Inst6Quest7_Attain
+
 Inst6Quest3_HORDE_QuestID = "2841"
+Inst6Quest3_HORDE_Level = "35"
+Inst6Quest3_HORDE_Attain = "25"
+
 Inst6Quest4_HORDE_QuestID = "2945"
+Inst6Quest4_HORDE_Level = Inst6Quest9_Level
+Inst6Quest4_HORDE_Attain = Inst6Quest9_Attain
+
 Inst6Quest5_HORDE_QuestID = "2949"
+Inst6Quest5_HORDE_Level = "34"
+Inst6Quest5_HORDE_Attain = "28"
+Inst6Quest5FQuest_HORDE = "true"
+
 Inst6Quest6_HORDE_QuestID = "2951"
+Inst6Quest6_HORDE_Level = "30"
+Inst6Quest6_HORDE_Attain = "25"
 
 
 
 --------------- INST7 - SM: Library  ---------------
 
 Inst7Quest1_QuestID = "1050"
+Inst7Quest1_Level = "38"
+Inst7Quest1_Attain = "28"
+
 Inst7Quest2_QuestID = "1951"
+Inst7Quest2_Level = "40"
+Inst7Quest2_Attain = "30"
+Inst7Quest2PreQuest = "true"
+
 Inst7Quest3_QuestID = "1053"
+Inst7Quest3_Level = "40"
+Inst7Quest3_Attain = "34"
+Inst7Quest3PreQuest = "true"
+
 
 Inst7Quest1_HORDE_QuestID = "1113"
+Inst7Quest1_HORDE_Level = "33"
+Inst7Quest1_HORDE_Attain = "30"
+Inst7Quest1PreQuest_HORDE = "true"
+
 Inst7Quest2_HORDE_QuestID = "1160"
+Inst7Quest2_HORDE_Level = "36"
+Inst7Quest2_HORDE_Attain = "25"
+Inst7Quest2PreQuest_HORDE = "true"
+
 Inst7Quest3_HORDE_QuestID = "1049"
+Inst7Quest3_HORDE_Level = "38"
+Inst7Quest3_HORDE_Attain = "28"
+
 Inst7Quest4_HORDE_QuestID = "1951"
+Inst7Quest4_HORDE_Level = Inst7Quest2_Level
+Inst7Quest4_HORDE_Attain = Inst7Quest2_Attain
+Inst7Quest4PreQuest_HORDE = Inst7Quest2_PreQuest
+
 Inst7Quest5_HORDE_QuestID = "1048"
+Inst7Quest5_HORDE_Level = "42"
+Inst7Quest5_HORDE_Attain = "33"
 
 
 
 --------------- INST8 - SM: Armory ---------------
 
 Inst8Quest1_QuestID = "1053"
+Inst8Quest1_Level = "40"
+Inst8Quest1_Attain = "34"
+Inst8Quest1PreQuest = "true"
+
 
 Inst8Quest1_HORDE_QuestID = "1113"
+Inst8Quest1_HORDE_Level = "33"
+Inst8Quest1_HORDE_Attain = "30"
+Inst8Quest1PreQuest_HORDE = "true"
+
 Inst8Quest2_HORDE_QuestID = "1048"
+Inst8Quest2_HORDE_Level = "42"
+Inst8Quest2_HORDE_Attain = "33"
 
 
 
 --------------- INST9 - SM: Cathedral ---------------
 
 Inst9Quest1_QuestID = "1053"
+Inst9Quest1_Level = "40"
+Inst9Quest1_Attain = "34"
+Inst9Quest1PreQuest = "true"
+
 
 Inst9Quest1_HORDE_QuestID = "1113"
+Inst9Quest1_HORDE_Level = "33"
+Inst9Quest1_HORDE_Attain = "30"
+Inst9Quest1PreQuest_HORDE = "true"
+
 Inst9Quest2_HORDE_QuestID = "1048"
+Inst9Quest2_HORDE_Level = "42"
+Inst9Quest2_HORDE_Attain = "33"
 
 
 
 --------------- INST10 - SM: Graveyard ---------------
 
 Inst10Quest1_HORDE_QuestID = "1051"
+Inst10Quest1_HORDE_Level = "33"
+Inst10Quest1_HORDE_Attain = "25"
+
 Inst10Quest2_HORDE_QuestID = "1113"
+Inst10Quest2_HORDE_Level = "33"
+Inst10Quest2_HORDE_Attain = "30"
+Inst10Quest2PreQuest_HORDE = "true"
 
 
 
 --------------- INST11 - Scholomance ---------------
 
 Inst11Quest1_QuestID = "5529"
+Inst11Quest1_Level = "58"
+Inst11Quest1_Attain = "55"
+
 Inst11Quest2_QuestID = "5582"
+Inst11Quest2_Level = "58"
+Inst11Quest2_Attain = "55"
+Inst11Quest2FQuest = "true"
+
 Inst11Quest3_QuestID = "5382"
+Inst11Quest3_Level = "60"
+Inst11Quest3_Attain = "55"
+
 Inst11Quest4_QuestID = "5515"
+Inst11Quest4_Level = "60"
+Inst11Quest4_Attain = "55"
+Inst11Quest4FQuest = "true"
+
 Inst11Quest5_QuestID = "5384"
+Inst11Quest5_Level = "60"
+Inst11Quest5_Attain = "55"
+Inst11Quest5FQuest = "true"
+
 Inst11Quest6_QuestID = "5466"
+Inst11Quest6_Level = "60"
+Inst11Quest6_Attain = "57"
+Inst11Quest6PreQuest = "true"
+
 Inst11Quest7_QuestID = "5343"
+Inst11Quest7_Level = "60"
+Inst11Quest7_Attain = "52"
+
 Inst11Quest8_QuestID = "4771"
+Inst11Quest8_Level = "60"
+Inst11Quest8_Attain = "57"
+Inst11Quest8PreQuest = "true"
+
 Inst11Quest9_QuestID = "7629"
+Inst11Quest9_Level = "60"
+Inst11Quest9_Attain = "60"
+Inst11Quest9PreQuest = "true"
+
 Inst11Quest10_QuestID = "8969"
+Inst11Quest10_Level = "60"
+Inst11Quest10_Attain = "58"
+Inst11Quest10PreQuest = "true"
+
 Inst11Quest11_QuestID = "8992"
+Inst11Quest11_Level = "60"
+Inst11Quest11_Attain = "58"
+Inst11Quest11PreQuest = "true"
+
 
 Inst11Quest1_HORDE_QuestID = "5529"
+Inst11Quest1_HORDE_Level = Inst11Quest1_Level
+Inst11Quest1_HORDE_Attain = Inst11Quest1_Attain
+
 Inst11Quest2_HORDE_QuestID = "5582"
+Inst11Quest2_HORDE_Level = Inst11Quest2_Level
+Inst11Quest2_HORDE_Attain = Inst11Quest2_Attain
+Inst11Quest2FQuest_HORDE = Inst11Quest2FQuest
+
 Inst11Quest3_HORDE_QuestID = "5382"
+Inst11Quest3_HORDE_Level = Inst11Quest3_Level
+Inst11Quest3_HORDE_Attain = Inst11Quest3_Attain
+
 Inst11Quest4_HORDE_QuestID = "5515"
+Inst11Quest4_HORDE_Level = Inst11Quest4_Level
+Inst11Quest4_HORDE_Attain = Inst11Quest4_Attain
+Inst11Quest4FQuest_HORDE = Inst11Quest4FQuest
+
 Inst11Quest5_HORDE_QuestID = "5384"
+Inst11Quest5_HORDE_Level = Inst11Quest5_Level
+Inst11Quest5_HORDE_Attain = Inst11Quest5_Attain
+Inst11Quest5FQuest_HORDE = Inst11Quest5FQuest
+
 Inst11Quest6_HORDE_QuestID = "5466"
+Inst11Quest6_HORDE_Level = Inst11Quest6_Level
+Inst11Quest6_HORDE_Attain = Inst11Quest6_Attain
+Inst11Quest6PreQuest_HORDE = Inst11Quest6PreQuest
+
 Inst11Quest7_HORDE_QuestID = "5341"
+Inst11Quest7_HORDE_Level = "60"
+Inst11Quest7_HORDE_Attain = "52"
+
 Inst11Quest8_HORDE_QuestID = "4771"
+Inst11Quest8_HORDE_Level = Inst11Quest8_Level
+Inst11Quest8_HORDE_Attain = Inst11Quest8_Attain
+Inst11Quest8PreQuest_HORDE = Inst11Quest8PreQuest
+
 Inst11Quest9_HORDE_QuestID = "7629"
+Inst11Quest9_HORDE_Level = Inst11Quest9_Level
+Inst11Quest9_HORDE_Attain = Inst11Quest9_Attain
+Inst11Quest9PreQuest_HORDE = Inst11Quest9PreQuest
+
 Inst11Quest10_HORDE_QuestID = "8969"
+Inst11Quest10_HORDE_Level = Inst11Quest10_Level
+Inst11Quest10_HORDE_Attain = Inst11Quest10_Attain
+Inst11Quest10PreQuest_HORDE = Inst11Quest10PreQuest
+
 Inst11Quest11_HORDE_QuestID = "8258"
+Inst11Quest11_HORDE_Level = "60"
+Inst11Quest11_HORDE_Attain = "58"
+Inst11Quest11PreQuest_HORDE = "true"
+
 Inst11Quest12_HORDE_QuestID = "8992"
+Inst11Quest12_HORDE_Level = Inst11Quest11_Level
+Inst11Quest12_HORDE_Attain = Inst11Quest11_Attain
+Inst11Quest12PreQuest_HORDE = Inst11Quest11PreQuest
 
 
 
 --------------- INST12 - Shadowfang Keep ---------------
 
 Inst12Quest1_QuestID = "1654"
+Inst12Quest1_Level = "22"
+Inst12Quest1_Attain = "20"
+Inst12Quest1PreQuest = "true"
+
 Inst12Quest2_QuestID = "1740"
+Inst12Quest2_Level = "25"
+Inst12Quest2_Attain = "20"
+
 
 Inst12Quest1_HORDE_QuestID = "1098"
+Inst12Quest1_HORDE_Level = "25"
+Inst12Quest1_HORDE_Attain = "18"
+
 Inst12Quest2_HORDE_QuestID = "1013"
+Inst12Quest2_HORDE_Level = "26"
+Inst12Quest2_HORDE_Attain = "16"
+
 Inst12Quest3_HORDE_QuestID = "1014"
+Inst12Quest3_HORDE_Level = "27"
+Inst12Quest3_HORDE_Attain = "18"
+
 Inst12Quest4_HORDE_QuestID = "1740"
+Inst12Quest4_HORDE_Level = Inst12Quest2_Level
+Inst12Quest4_HORDE_Attain = Inst12Quest2_Attain
 
 
 
 --------------- INST13 - The Stockade ---------------
 
 Inst13Quest1_QuestID = "386"
+Inst13Quest1_Level = "25"
+Inst13Quest1_Attain = "22"
+
 Inst13Quest2_QuestID = "377"
+Inst13Quest2_Level = "26"
+Inst13Quest2_Attain = "22"
+
 Inst13Quest3_QuestID = "387"
+Inst13Quest3_Level = "26"
+Inst13Quest3_Attain = "22"
+
 Inst13Quest4_QuestID = "388"
+Inst13Quest4_Level = "26"
+Inst13Quest4_Attain = "22"
+
 Inst13Quest5_QuestID = "378"
+Inst13Quest5_Level = "27"
+Inst13Quest5_Attain = "22"
+
 Inst13Quest6_QuestID = "391"
+Inst13Quest6_Level = "29"
+Inst13Quest6_Attain = "16"
 
 
 
 --------------- INST14 - Stratholme ---------------
 
 Inst14Quest1_QuestID = "5212"
+Inst14Quest1_Level = "60"
+Inst14Quest1_Attain = "55"
+
 Inst14Quest2_QuestID = "5213"
+Inst14Quest2_Level = "60"
+Inst14Quest2_Attain = "55"
+Inst14Quest2FQuest = "true"
+
 Inst14Quest3_QuestID = "5243"
+Inst14Quest3_Level = "60"
+Inst14Quest3_Attain = "55"
+
 Inst14Quest4_QuestID = "5214"
+Inst14Quest4_Level = "60"
+Inst14Quest4_Attain = "55"
+
 Inst14Quest5_QuestID = "5282"
+Inst14Quest5_Level = "60"
+Inst14Quest5_Attain = "55"
+Inst14Quest5PreQuest = "true"
+
 Inst14Quest6_QuestID = "5848"
+Inst14Quest6_Level = "60"
+Inst14Quest6_Attain = "52"
+Inst14Quest6PreQuest = "true"
+
 Inst14Quest7_QuestID = "5463"
+Inst14Quest7_Level = "60"
+Inst14Quest7_Attain = "57"
+Inst14Quest7PreQuest = "true"
+
 Inst14Quest8_QuestID = "5125"
+Inst14Quest8_Level = "60"
+Inst14Quest8_Attain = "56"
+
 Inst14Quest9_QuestID = "5251"
+Inst14Quest9_Level = "60"
+Inst14Quest9_Attain = "55"
+
 Inst14Quest10_QuestID = "5262"
+Inst14Quest10_Level = "60"
+Inst14Quest10_Attain = "55"
+Inst14Quest10FQuest = "true"
+
 Inst14Quest11_QuestID = "5263"
+Inst14Quest11_Level = "60"
+Inst14Quest11_Attain = "55"
+Inst14Quest11FQuest = "true"
+
 Inst14Quest12_QuestID = "8945"
+Inst14Quest12_Level = "60"
+Inst14Quest12_Attain = "58"
+Inst14Quest12PreQuest = "true"
+
 Inst14Quest13_QuestID = "8968"
+Inst14Quest13_Level = "60"
+Inst14Quest13_Attain = "58"
+Inst14Quest13PreQuest = "true"
+
 Inst14Quest14_QuestID = "8991"
+Inst14Quest14_Level = "60"
+Inst14Quest14_Attain = "58"
+Inst14Quest14PreQuest = "true"
+
 Inst14Quest15_QuestID = "9257"
+Inst14Quest15_Level = "60"
+Inst14Quest15_Attain = "60"
+Inst14Quest15PreQuest = "true"
+
 Inst14Quest16_QuestID = "5307"
+Inst14Quest16_Level = "60"
+Inst14Quest16_Attain = "50"
+
 Inst14Quest17_QuestID = "5305"
+Inst14Quest17_Level = "60"
+Inst14Quest17_Attain = "50"
+
 Inst14Quest18_QuestID = "7622"
+Inst14Quest18_Level = "60"
+Inst14Quest18_Attain = "60"
+Inst14Quest18PreQuest = "true"
+
 
 Inst14Quest1_HORDE_QuestID = "5212"
+Inst14Quest1_HORDE_Level = Inst14Quest1_Level
+Inst14Quest1_HORDE_Attain = Inst14Quest1_Attain
+
 Inst14Quest2_HORDE_QuestID = "5213"
+Inst14Quest2_HORDE_Level = Inst14Quest2_Level
+Inst14Quest2_HORDE_Attain = Inst14Quest2_Attain
+Inst14Quest2FQuest_HORDE = Inst14Quest2FQuest
+
 Inst14Quest3_HORDE_QuestID = "5243"
+Inst14Quest3_HORDE_Level = Inst14Quest3_Level
+Inst14Quest3_HORDE_Attain = Inst14Quest3_Attain
+
 Inst14Quest4_HORDE_QuestID = "5214"
+Inst14Quest4_HORDE_Level = Inst14Quest4_Level
+Inst14Quest4_HORDE_Attain = Inst14Quest4_Attain
+
 Inst14Quest5_HORDE_QuestID = "5282"
+Inst14Quest5_HORDE_Level = Inst14Quest5_Level
+Inst14Quest5_HORDE_Attain = Inst14Quest5_Attain
+Inst14Quest5PreQuest_HORDE = Inst14Quest5PreQuest
+
 Inst14Quest6_HORDE_QuestID = "5848"
+Inst14Quest6_HORDE_Level = Inst14Quest6_Level
+Inst14Quest6_HORDE_Attain = Inst14Quest6_Attain
+Inst14Quest6PreQuest_HORDE = Inst14Quest6PreQuest
+
 Inst14Quest7_HORDE_QuestID = "5463"
+Inst14Quest7_HORDE_Level = Inst14Quest7_Level
+Inst14Quest7_HORDE_Attain = Inst14Quest7_Attain
+Inst14Quest7PreQuest_HORDE = Inst14Quest7PreQuest
+
 Inst14Quest8_HORDE_QuestID = "5125"
+Inst14Quest8_HORDE_Level = Inst14Quest8_Level
+Inst14Quest8_HORDE_Attain = Inst14Quest8_Attain
+
 Inst14Quest9_HORDE_QuestID = "5251"
+Inst14Quest9_HORDE_Level = Inst14Quest9_Level
+Inst14Quest9_HORDE_Attain = Inst14Quest9_Attain
+
 Inst14Quest10_HORDE_QuestID = "5262"
+Inst14Quest10_HORDE_Level = Inst14Quest10_Level
+Inst14Quest10_HORDE_Attain = Inst14Quest10_Attain
+Inst14Quest10FQuest_HORDE = Inst14Quest10FQuest
+
 Inst14Quest11_HORDE_QuestID = "5263"
+Inst14Quest11_HORDE_Level = Inst14Quest11_Level
+Inst14Quest11_HORDE_Attain = Inst14Quest11_Attain
+Inst14Quest11FQuest_HORDE = Inst14Quest11FQuest
+
 Inst14Quest12_HORDE_QuestID = "8945"
+Inst14Quest12_HORDE_Level = Inst14Quest12_Level
+Inst14Quest12_HORDE_Attain = Inst14Quest12_Attain
+Inst14Quest12PreQuest_HORDE = Inst14Quest12PreQuest
+
 Inst14Quest13_HORDE_QuestID = "8968"
+Inst14Quest13_HORDE_Level = Inst14Quest13_Level
+Inst14Quest13_HORDE_Attain = Inst14Quest13_Attain
+Inst14Quest13PreQuest_HORDE = Inst14Quest13PreQuest
+
 Inst14Quest14_HORDE_QuestID = "8991"
+Inst14Quest14_HORDE_Level = Inst14Quest14_Level
+Inst14Quest14_HORDE_Attain = Inst14Quest14_Attain
+Inst14Quest14PreQuest_HORDE = Inst14Quest14PreQuest
+
 Inst14Quest15_HORDE_QuestID = "9257"
+Inst14Quest15_HORDE_Level = Inst14Quest15_Level
+Inst14Quest15_HORDE_Attain = Inst14Quest15_Attain
+Inst14Quest15PreQuest_HORDE = Inst14Quest15PreQuest
+
 Inst14Quest16_HORDE_QuestID = "5307"
+Inst14Quest16_HORDE_Level = Inst14Quest16_Level
+Inst14Quest16_HORDE_Attain = Inst14Quest16_Attain
+
 Inst14Quest17_HORDE_QuestID = "5305"
+Inst14Quest17_HORDE_Level = Inst14Quest17_Level
+Inst14Quest17_HORDE_Attain = Inst14Quest17_Attain
+
 Inst14Quest18_HORDE_QuestID = "6163"
+Inst14Quest18_HORDE_Level = "60"
+Inst14Quest18_HORDE_Attain = "56"
+Inst14Quest18PreQuest_HORDE = "true"
+
 Inst14Quest19_HORDE_QuestID = "7622"
+Inst14Quest19_HORDE_Level = Inst14Quest18_Level
+Inst14Quest19_HORDE_Attain = Inst14Quest18_Attain
+Inst14Quest19PreQuest_HORDE = Inst14Quest18PreQuest
 
 
 
 --------------- INST15 - Sunken Temple ---------------
 
 Inst15Quest1_QuestID = "1475"
+Inst15Quest1_Level = "50"
+Inst15Quest1_Attain = "38"
+Inst15Quest1PreQuest = "true"
+
 Inst15Quest2_QuestID = "3445"
+Inst15Quest2_Level = "51"
+Inst15Quest2_Attain = "46"
+
 Inst15Quest3_QuestID = "3446"
+Inst15Quest3_Level = "51"
+Inst15Quest3_Attain = "46"
+Inst15Quest3PreQuest = "true"
+
 Inst15Quest4_QuestID = "3447"
+Inst15Quest4_Level = "51"
+Inst15Quest4_Attain = "46"
+Inst15Quest4PreQuest = "true"
+
 Inst15Quest5_QuestID = "4143"
+Inst15Quest5_Level = "52"
+Inst15Quest5_Attain = "47"
+Inst15Quest5PreQuest = "true"
+
 Inst15Quest6_QuestID = "3528"
+Inst15Quest6_Level = "53"
+Inst15Quest6_Attain = "40"
+Inst15Quest6PreQuest = "true"
+
 Inst15Quest7_QuestID = "1446"
+Inst15Quest7_Level = "53"
+Inst15Quest7_Attain = "38"
+
 Inst15Quest8_QuestID = "3373"
+Inst15Quest8_Level = "55"
+Inst15Quest8_Attain = "48"
+
 Inst15Quest9_QuestID = "8422"
+Inst15Quest9_Level = "52"
+Inst15Quest9_Attain = "50"
+Inst15Quest9PreQuest = "true"
+
 Inst15Quest10_QuestID = "8425"
+Inst15Quest10_Level = "52"
+Inst15Quest10_Attain = "50"
+Inst15Quest10PreQuest = "true"
+
 Inst15Quest11_QuestID = "9053"
+Inst15Quest11_Level = "52"
+Inst15Quest11_Attain = "50"
+Inst15Quest11PreQuest = "true"
+
 Inst15Quest12_QuestID = "8232"
+Inst15Quest12_Level = "52"
+Inst15Quest12_Attain = "50"
+Inst15Quest12PreQuest = "true"
+
 Inst15Quest13_QuestID = "8253"
+Inst15Quest13_Level = "52"
+Inst15Quest13_Attain = "50"
+Inst15Quest13PreQuest = "true"
+
 Inst15Quest14_QuestID = "8257"
+Inst15Quest14_Level = "52"
+Inst15Quest14_Attain = "50"
+Inst15Quest14PreQuest = "true"
+
 Inst15Quest15_QuestID = "8236"
+Inst15Quest15_Level = "52"
+Inst15Quest15_Attain = "50"
+Inst15Quest15PreQuest = "true"
+
 Inst15Quest16_QuestID = "8418"
+Inst15Quest16_Level = "52"
+Inst15Quest16_Attain = "50"
+Inst15Quest16PreQuest = "true"
+
 
 Inst15Quest1_HORDE_QuestID = "1445"
+Inst15Quest1_HORDE_Level = "50"
+Inst15Quest1_HORDE_Attain = "38"
+Inst15Quest1PreQuest_HORDE = "true"
+
 Inst15Quest2_HORDE_QuestID = "3380"
+Inst15Quest2_HORDE_Level = "51"
+Inst15Quest2_HORDE_Attain = "46"
+
 Inst15Quest3_HORDE_QuestID = "3446"
+Inst15Quest3_HORDE_Level = Inst15Quest3_Level
+Inst15Quest3_HORDE_Attain = Inst15Quest3_Attain
+Inst15Quest3PreQuest_HORDE = Inst15Quest3PreQuest
+
 Inst15Quest4_HORDE_QuestID = "3447"
+Inst15Quest4_HORDE_Level = Inst15Quest4_Level
+Inst15Quest4_HORDE_Attain = Inst15Quest4_Attain
+Inst15Quest4PreQuest_HORDE = Inst15Quest4PreQuest
+
 Inst15Quest5_HORDE_QuestID = "4146"
+Inst15Quest5_HORDE_Level = "52"
+Inst15Quest5_HORDE_Attain = "47"
+Inst15Quest5PreQuest_HORDE = "true"
+
 Inst15Quest6_HORDE_QuestID = "3528"
+Inst15Quest6_HORDE_Level = Inst15Quest6_Level
+Inst15Quest6_HORDE_Attain = Inst15Quest6_Attain
+Inst15Quest6PreQuest_HORDE = Inst15Quest6PreQuest
+
 Inst15Quest7_HORDE_QuestID = "1446"
+Inst15Quest7_HORDE_Level = Inst15Quest7_Level
+Inst15Quest7_HORDE_Attain = Inst15Quest7_Attain
+
 Inst15Quest8_HORDE_QuestID = "3373"
+Inst15Quest8_HORDE_Level = Inst15Quest8_Level
+Inst15Quest8_HORDE_Attain = Inst15Quest8_Attain
+
 Inst15Quest9_HORDE_QuestID = "8422"
+Inst15Quest9_HORDE_Level = Inst15Quest9_Level
+Inst15Quest9_HORDE_Attain = Inst15Quest9_Attain
+Inst15Quest9PreQuest_HORDE = Inst15Quest9PreQuest
+
 Inst15Quest10_HORDE_QuestID = "8425"
+Inst15Quest10_HORDE_Level = Inst15Quest10_Level
+Inst15Quest10_HORDE_Attain = Inst15Quest10_Attain
+Inst15Quest10PreQuest_HORDE = Inst15Quest10PreQuest
+
 Inst15Quest11_HORDE_QuestID = "9053"
+Inst15Quest11_HORDE_Level = Inst15Quest11_Level
+Inst15Quest11_HORDE_Attain = Inst15Quest11_Attain
+Inst15Quest11PreQuest_HORDE = Inst15Quest11PreQuest
+
 Inst15Quest12_HORDE_QuestID = "8232"
+Inst15Quest12_HORDE_Level = Inst15Quest12_Level
+Inst15Quest12_HORDE_Attain = Inst15Quest12_Attain
+Inst15Quest12PreQuest_HORDE = Inst15Quest12PreQuest
+
 Inst15Quest13_HORDE_QuestID = "8253"
+Inst15Quest13_HORDE_Level = Inst15Quest13_Level
+Inst15Quest13_HORDE_Attain = Inst15Quest13_Attain
+Inst15Quest13PreQuest_HORDE = Inst15Quest13PreQuest
+
 Inst15Quest14_HORDE_QuestID = "8257"
+Inst15Quest14_HORDE_Level = Inst15Quest14_Level
+Inst15Quest14_HORDE_Attain = Inst15Quest14_Attain
+Inst15Quest14PreQuest_HORDE = Inst15Quest14PreQuest
+
 Inst15Quest15_HORDE_QuestID = "8236"
+Inst15Quest15_HORDE_Level = Inst15Quest15_Level
+Inst15Quest15_HORDE_Attain = Inst15Quest15_Attain
+Inst15Quest15PreQuest_HORDE = Inst15Quest15PreQuest
+
 Inst15Quest16_HORDE_QuestID = "8413"
+Inst15Quest16_HORDE_Level = "52"
+Inst15Quest16_HORDE_Attain = "50"
+Inst15Quest16PreQuest_HORDE = "true"
 
 
 
@@ -705,6 +1192,7 @@ Inst16Quest14_QuestID = "1360"
 Inst16Quest15_QuestID = "2278"
 Inst16Quest16_QuestID = "1956"
 Inst16Quest17_QuestID = "1192"
+
 
 Inst16Quest1_HORDE_QuestID = "2418"
 Inst16Quest2_HORDE_QuestID = "709"
@@ -729,6 +1217,7 @@ Inst17Quest4_QuestID = "1200"
 Inst17Quest5_QuestID = "1199"
 Inst17Quest6_QuestID = "1740"
 
+
 Inst17Quest1_HORDE_QuestID = "6563"
 Inst17Quest2_HORDE_QuestID = "6564"
 Inst17Quest3_HORDE_QuestID = "6921"
@@ -746,6 +1235,7 @@ Inst18Quest4_QuestID = "8967"
 Inst18Quest5_QuestID = "8990"
 Inst18Quest6_QuestID = "7581"
 
+
 Inst18Quest1_HORDE_QuestID = "7441"
 Inst18Quest2_HORDE_QuestID = "7489"
 Inst18Quest3_HORDE_QuestID = "5526"
@@ -762,6 +1252,7 @@ Inst19Quest2_QuestID = "5518"
 Inst19Quest3_QuestID = "5525"
 Inst19Quest4_QuestID = "7703"
 Inst19Quest5_QuestID = "5528"
+
 
 Inst19Quest1_HORDE_QuestID = "1193"
 Inst19Quest2_HORDE_QuestID = "5518"
@@ -790,6 +1281,7 @@ Inst20Quest14_QuestID = "7484"
 Inst20Quest15_QuestID = "7485"
 Inst20Quest16_QuestID = "7483"
 Inst20Quest17_QuestID = "7507"
+
 
 Inst20Quest1_HORDE_QuestID = "7481"
 Inst20Quest2_HORDE_QuestID = "7461"
@@ -822,6 +1314,7 @@ Inst21Quest6_QuestID = "7046"
 Inst21Quest7_QuestID = "7065"
 Inst21Quest8_QuestID = "7066"
 
+
 Inst21Quest1_HORDE_QuestID = "7068"
 Inst21Quest2_HORDE_QuestID = "7029"
 Inst21Quest3_HORDE_QuestID = "7028"
@@ -849,6 +1342,7 @@ Inst23Quest1_QuestID = "6626"
 Inst23Quest2_QuestID = "3525"
 Inst23Quest3_QuestID = "3636"
 
+
 Inst23Quest1_HORDE_QuestID = "6626"
 Inst23Quest2_HORDE_QuestID = "6521"
 Inst23Quest3_HORDE_QuestID = "3525"
@@ -863,6 +1357,7 @@ Inst24Quest2_QuestID = "1142"
 Inst24Quest3_QuestID = "1144"
 Inst24Quest4_QuestID = "1101"
 Inst24Quest5_QuestID = "1701"
+
 
 Inst24Quest1_HORDE_QuestID = "1221"
 Inst24Quest2_HORDE_QuestID = "1144"
@@ -879,6 +1374,7 @@ Inst25Quest2_QuestID = "959"
 Inst25Quest3_QuestID = "1491"
 Inst25Quest4_QuestID = "1487"
 Inst25Quest5_QuestID = "6981"
+
 
 Inst25Quest1_HORDE_QuestID = "1486"
 Inst25Quest2_HORDE_QuestID = "959"
@@ -900,6 +1396,7 @@ Inst26Quest5_QuestID = "3527"
 Inst26Quest6_QuestID = "2768"
 Inst26Quest7_QuestID = "2770"
 
+
 Inst26Quest1_HORDE_QuestID = "2936"
 Inst26Quest2_HORDE_QuestID = "3042"
 Inst26Quest3_HORDE_QuestID = "2865"
@@ -919,6 +1416,7 @@ Inst27Quest4_QuestID = "7604"
 Inst27Quest5_QuestID = "7632"
 Inst27Quest6_QuestID = "8578"
 
+
 Inst27Quest1_HORDE_QuestID = "6822"
 Inst27Quest2_HORDE_QuestID = "6824"
 Inst27Quest3_HORDE_QuestID = "7786"
@@ -933,6 +1431,7 @@ Inst27Quest6_HORDE_QuestID = "8578"
 Inst28Quest1_QuestID = "7509"
 Inst28Quest2_QuestID = "7495"
 
+
 Inst28Quest1_HORDE_QuestID = "7509"
 Inst28Quest2_HORDE_QuestID = "7490"
 
@@ -944,6 +1443,7 @@ Inst29Quest1_QuestID = "8201"
 Inst29Quest2_QuestID = "8183"
 Inst29Quest3_QuestID = "8227"
 Inst29Quest4_QuestID = "9023"
+
 
 Inst29Quest1_HORDE_QuestID = "8201"
 Inst29Quest2_HORDE_QuestID = "8183"
@@ -957,6 +1457,7 @@ Inst29Quest4_HORDE_QuestID = "9023"
 Inst30Quest1_QuestID = "8791"
 Inst30Quest2_QuestID = "9023"
 
+
 Inst30Quest1_HORDE_QuestID = "8791"
 Inst30Quest2_HORDE_QuestID = "9023"
 
@@ -968,6 +1469,7 @@ Inst31Quest1_QuestID = "8801"
 Inst31Quest2_QuestID = "8802"
 Inst31Quest3_QuestID = "8784"
 Inst31Quest4_QuestID = "8579"
+
 
 Inst31Quest1_HORDE_QuestID = "8801"
 Inst31Quest2_HORDE_QuestID = "8802"
@@ -1009,6 +1511,7 @@ Inst33Quest15_QuestID = "6942"
 Inst33Quest16_QuestID = "6941"
 Inst33Quest17_QuestID = "6943"
 
+
 Inst33Quest1_HORDE_QuestID = "7241"
 Inst33Quest2_HORDE_QuestID = "7161"
 Inst33Quest3_HORDE_QuestID = "7142"
@@ -1032,12 +1535,29 @@ Inst33Quest17_HORDE_QuestID = "6827"
 --------------- INST34 - Arathi Basin (AB) ---------------
 
 Inst34Quest1_QuestID = "8105"
+Inst34Quest1_Level = "25"
+Inst34Quest1_Attain = "25"
+
 Inst34Quest2_QuestID = "8114"
+Inst34Quest2_Level = "60"
+Inst34Quest2_Attain = "60"
+
 Inst34Quest3_QuestID = "8115"
+Inst34Quest3_Level = "60"
+Inst34Quest3_Attain = "60"
+
 
 Inst34Quest1_HORDE_QuestID = "8120"
+Inst34Quest1_HORDE_Level = "25"
+Inst34Quest1_HORDE_Attain = "25"
+
 Inst34Quest2_HORDE_QuestID = "8121"
+Inst34Quest2_HORDE_Level = "60"
+Inst34Quest2_HORDE_Attain = "60"
+
 Inst34Quest3_HORDE_QuestID = "8122"
+Inst34Quest3_HORDE_Level = "60"
+Inst34Quest3_HORDE_Attain = "60"
 
 
 
@@ -1057,16 +1577,28 @@ Inst34Quest3_HORDE_QuestID = "8122"
 --------------- INST35 - Dragons of Nightmare ---------------
 
 Inst35Quest1_QuestID = "8446"
+Inst36Quest1_Level = "60"
+Inst36Quest1_Attain = "60"
+
 
 Inst35Quest1_HORDE_QuestID = "8446"
+Inst36Quest1_HORDE_Level = Inst36Quest1_Level
+Inst36Quest1_HORDE_Attain = Inst36Quest1_Attain
 
 
 
 --------------- INST36 - Azuregos ---------------
 
 Inst36Quest1_QuestID = "7634"
+Inst37Quest1_Level = "60"
+Inst37Quest1_Attain = "60"
+Inst37Quest1PreQuest = "true"
+
 
 Inst36Quest1_HORDE_QuestID = "7634"
+Inst37Quest1_HORDE_Level = Inst37Quest1_Level
+Inst37Quest1_HORDE_Attain = Inst37Quest1_Attain
+Inst37Quest1PreQuest_HORDE = Inst37Quest1PreQuest
 
 
 
