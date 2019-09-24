@@ -4,10 +4,11 @@ Changelog
 
 Version 4.11.01  (September 15, 2019)
 
-- TOC update for Patch 8.2.
-- NOTE: Some quests might be missing data.  If you find missing info, contact me on Curse or WoW Interface.
+- TOC update for Patch 8.2.5.
 
-- Added quests:
+- Item Compare option disabled until I can figure out how to fix it.
+
+- Added quests:   NOTE:  These won't be visible until Atlas adds a map pack for Battle for Azeroth
 	- Atal'Dazar: Spiders!
 	- Atal'Dazar: From the Shadows
 	- Atal'Dazar: A Little Mojo

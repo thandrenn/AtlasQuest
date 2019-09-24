@@ -3,81 +3,69 @@ If/when this slips into a release, just ignore it. :)
 
 
 --Quest 1 Alliance
-Inst178Quest1 = ""
-Inst178Quest1_Aim = ""
-Inst178Quest1_Location = ""
-Inst178Quest1_Note = ""
-Inst178Quest1_Prequest = "None"
-Inst178Quest1_Folgequest = "None"
-Inst178Quest1PreQuest = "true"
-Inst178Quest1FQuest = "true"
+Inst22Quest1 = ""
+Inst22Quest1_Aim = ""
+Inst22Quest1_Location = ""
+Inst22Quest1_Note = ""
+Inst22Quest1_Prequest = "None"
+Inst22Quest1_Folgequest = "None"
 --
-Inst178Quest1name1 = ""
+Inst22Quest1name1 = ""
 -- No Rewards for this quest
--- Reward varies for each class
 
 
 --Quest 1 Horde
-Inst178Quest1_HORDE = ""
-Inst178Quest1_HORDE_Aim = ""
-Inst178Quest1_HORDE_Location = ""
-Inst178Quest1_HORDE_Note = ""
-Inst178Quest1_HORDE_Prequest = "None"
-Inst178Quest1_HORDE_Folgequest = "None"
-Inst178Quest1PreQuest_HORDE = "true"
-Inst178Quest1FQuest_HORDE = "true"
+Inst22Quest1_HORDE = ""
+Inst22Quest1_HORDE_Aim = ""
+Inst22Quest1_HORDE_Location = ""
+Inst22Quest1_HORDE_Note = ""
+Inst22Quest1_HORDE_Prequest = "None"
+Inst22Quest1_HORDE_Folgequest = "None"
 --
-Inst178Quest1name1_HORDE = ""
+Inst22Quest1name1_HORDE = ""
 -- No Rewards for this quest
--- Reward varies for each class
 
 
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
-Inst178Quest1_HORDE = Inst178Quest1
-Inst178Quest1_HORDE_Aim = Inst178Quest1_Aim
-Inst178Quest1_HORDE_Location = Inst178Quest1_Location
-Inst178Quest1_HORDE_Note = Inst178Quest1_Note
-Inst178Quest1_HORDE_Prequest = Inst178Quest1_Prequest
-Inst178Quest1_HORDE_Folgequest = Inst178Quest1_Folgequest
-Inst178Quest1PreQuest_HORDE = Inst178Quest1PreQuest
-Inst178Quest1FQuest_HORDE = Inst178Quest1FQuest
+Inst22Quest1_HORDE = Inst22Quest1
+Inst22Quest1_HORDE_Aim = Inst22Quest1_Aim
+Inst22Quest1_HORDE_Location = Inst22Quest1_Location
+Inst22Quest1_HORDE_Note = Inst22Quest1_Note
+Inst22Quest1_HORDE_Prequest = Inst22Quest1_Prequest
+Inst22Quest1_HORDE_Folgequest = Inst22Quest1_Folgequest
 --
-Inst178Quest1name1_HORDE = Inst178Quest1name1
+Inst22Quest1name1_HORDE = Inst22Quest1name1
 -- No Rewards for this quest
--- Reward varies for each class
 
 
 
 
 --Quest 1 Alliance
-Inst178Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst22Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
 --ITEM1
-Inst178Quest1ITC1 = Itemc4;
-Inst178Quest1description1 = AQITEM_..AQITEM_
-Inst178Quest1ID1 = ""
+Inst22Quest1ITC1 = Itemc4;
+Inst22Quest1description1 = AQITEM_..AQITEM_
+Inst22Quest1ID1 = ""
 --ITEM2
-Inst178Quest1ITC2 = Itemc4;
-Inst178Quest1description2 = AQITEM_..AQITEM_
-Inst178Quest1ID2 = ""
+Inst22Quest1ITC2 = Itemc4;
+Inst22Quest1description2 = AQITEM_..AQITEM_
+Inst22Quest1ID2 = ""
 --ITEM3
-Inst178Quest1ITC3 = Itemc4;
-Inst178Quest1description3 = AQITEM_..AQITEM_
-Inst178Quest1ID3 = ""
+Inst22Quest1ITC3 = Itemc4;
+Inst22Quest1description3 = AQITEM_..AQITEM_
+Inst22Quest1ID3 = ""
 --ITEM4
-Inst178Quest1ITC4 = Itemc4;
-Inst178Quest1description4 = AQITEM_..AQITEM_
-Inst178Quest1ID4 = ""
+Inst22Quest1ITC4 = Itemc4;
+Inst22Quest1description4 = AQITEM_..AQITEM_
+Inst22Quest1ID4 = ""
 
 
 
 
 --Quest 1 Alliance
-Inst178Quest1Rewardtext = AQNoReward
-
---Quest 1 Alliance
-Inst178Quest1Rewardtext = AQClassRewards
+Inst22Quest1Rewardtext = AQNoReward
 
 
 
@@ -87,9 +75,11 @@ Inst178Quest1Rewardtext = AQClassRewards
 
 
 
-Inst178Quest1_QuestID = ""
-Inst178Quest1_Level = "120"
-Inst178Quest1_Attain = "120"
+Inst22Quest1_QuestID = ""
+Inst22Quest1_Level = "120"
+Inst22Quest1_Attain = "120"
+Inst22Quest1PreQuest = "true"
+Inst22Quest1FQuest = "true"
 
 Inst178Quest2_QuestID = ""
 Inst178Quest2_Level = "120"
@@ -123,14 +113,16 @@ Inst178Quest9_QuestID = ""
 Inst178Quest9_Level = "120"
 Inst178Quest9_Attain = "120"
 
-Inst178Quest10_QuestID = ""
-Inst178Quest10_Level = "120"
-Inst178Quest10_Attain = "120"
+Inst22Quest10_QuestID = ""
+Inst22Quest10_Level = "120"
+Inst22Quest10_Attain = "120"
 
 
-Inst178Quest1_HORDE_QuestID = ""
-Inst178Quest1_HORDE_Level = "120"
-Inst178Quest1_HORDE_Attain = "120"
+Inst22Quest1_HORDE_QuestID = ""
+Inst22Quest1_HORDE_Level = "120"
+Inst22Quest1_HORDE_Attain = "120"
+Inst22Quest1PreQuest_HORDE = "true"
+Inst22Quest1FQuest_HORDE = "true"
 
 Inst178Quest2_HORDE_QuestID = ""
 Inst178Quest2_HORDE_Level = "120"
@@ -164,7 +156,7 @@ Inst178Quest9_HORDE_QuestID = ""
 Inst178Quest9_HORDE_Level = "120"
 Inst178Quest9_HORDE_Attain = "120"
 
-Inst178Quest10_HORDE_QuestID = ""
-Inst178Quest10_HORDE_Level = "120"
-Inst178Quest10_HORDE_Attain = "120"
+Inst22Quest10_HORDE_QuestID = ""
+Inst22Quest10_HORDE_Level = "120"
+Inst22Quest10_HORDE_Attain = "120"
 
