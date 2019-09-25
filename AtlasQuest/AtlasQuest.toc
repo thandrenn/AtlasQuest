@@ -1,4 +1,4 @@
-﻿## Interface: 80200
+﻿## Interface: 80205
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -21,7 +21,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE
-## X-Date: July ??, 2019
+## X-Date: September 24, 2019
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 
