@@ -9527,6 +9527,25 @@ Inst176Quest3Rewardtext_HORDE = AQNoReward
 
 --------------- INST177 - Kings' Rest ---------------
 
+--Quest 1 Alliance
+Inst177Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst177Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst177Quest3Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst177Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst177Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst177Quest3Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST178 - Shrine of the Storm ---------------
@@ -9538,10 +9557,13 @@ Inst178Quest1Rewardtext = AQNoReward
 Inst178Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst178Quest3Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+Inst178Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
 Inst178Quest4Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
+--Quest 5 Alliance
+Inst178Quest5Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
 
 
 --Quest 1 Horde
@@ -9553,6 +9575,49 @@ Inst178Quest2Rewardtext_HORDE = AQNoReward
 
 
 --------------- INST179 - Siege of Boralus ---------------
+
+--Quest 1 Alliance
+Inst179Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst179Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst179Quest3Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst179Quest4Rewardtext = AQNoReward
+
+--Quest 5 Alliance
+Inst179Quest5Rewardtext = AQNoReward
+
+--Quest 6 Alliance
+Inst179Quest5Rewardtext = AQNoReward
+
+--Quest 7 Alliance
+Inst179Quest5Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst179Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst179Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst179Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst179Quest4Rewardtext_HORDE = AQNoReward
+
+--Quest 5 Horde
+Inst179Quest5Rewardtext_HORDE = AQNoReward
+
+--Quest 6 Horde
+Inst179Quest6Rewardtext_HORDE = AQNoReward
+
+--Quest 7 Horde
+Inst179Quest7Rewardtext_HORDE = AQNoReward
 
 
 
@@ -9599,6 +9664,18 @@ Inst180Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
 
 
 --------------- INST185 - Uldir ---------------
+
+
+
+--------------- INST186 - Battle of Dazar'alor ---------------
+
+
+
+--------------- INST187 - Crucible of Storms ---------------
+
+
+
+--------------- INST188 - The Eternal Palace ---------------
 
 
 

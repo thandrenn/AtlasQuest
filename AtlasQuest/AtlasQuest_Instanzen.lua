@@ -499,6 +499,15 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\Uldir") then
 		AQINSTANZ = 185;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\Battle of Dazar'alor") then
+		AQINSTANZ = 186;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\Crucible of Storms") then
+		AQINSTANZ = 187;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\The Eternal Palace") then
+		AQINSTANZ = 188;
 --]]
 		
 	-- Scenarios
@@ -814,5 +823,8 @@ end
 -- 183 = DUNGEON: Tol Dagor
 -- 184 = DUNGEON: Waycrest Manor
 -- 185 = RAID: Uldir
+-- 186 = RAID: Battle of Dazar'alor
+-- 187 = RAID: Crucible of Storms
+-- 188 = RAID: The Eternal Palace
 
 

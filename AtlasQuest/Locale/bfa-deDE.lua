@@ -224,8 +224,8 @@ Inst176Quest3_HORDE_Folgequest = "Nein"
 --------------- INST177 - Kings' Rest ---------------
 
 Inst177Caption = "Die Königsruh"
-Inst177QAA = "Keine Quests"
-Inst177QAH = "Keine Quests"
+Inst177QAA = "3 Quests"
+Inst177QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst177Quest1 = "1. Die Königsruh: Der Waffenmeister ist wieder auf den Beinen"
@@ -272,13 +272,13 @@ Inst177Quest2_HORDE_Prequest = "Nein"
 Inst177Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 1 Horde
-Inst177Quest1_HORDE = Inst177Quest3
-Inst177Quest1_HORDE_Aim = Inst177Quest3_Aim
-Inst177Quest1_HORDE_Location = "Die Königsruh"
-Inst177Quest1_HORDE_Note = Inst177Quest3_Note
-Inst177Quest1_HORDE_Prequest = "Nein"
-Inst177Quest1_HORDE_Folgequest = "Nein"
+--Quest 3 Horde
+Inst177Quest3_HORDE = Inst177Quest3
+Inst177Quest3_HORDE_Aim = Inst177Quest3_Aim
+Inst177Quest3_HORDE_Location = "Die Königsruh"
+Inst177Quest3HORDE_Note = Inst177Quest3_Note
+Inst177Quest3_HORDE_Prequest = "Nein"
+Inst177Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -325,6 +325,7 @@ Inst178Quest4_Prequest = "Nein"
 Inst178Quest4_Folgequest = "Nein"
 --
 -- Rewards "Azerite"
+
 --Quest 5 Alliance
 Inst178Quest5 = "5. Der Schrein des Sturms: Das fehlende Ritual"
 Inst178Quest5_Aim = "Geht in den Schrein des Sturms, bergt das Ritual des sicheren Geleits und besiegt Vol'zith den Flüsterer."
@@ -333,7 +334,8 @@ Inst178Quest5_Note = "Vol'zith der Flüsterer ist der Endboss."
 Inst178Quest5_Prequest = "Ritualgegenstände -> Die Stärke des Sturms"
 Inst178Quest4_Folgequest = "Öffnen des Weges"
 Inst178Quest4PreQuest = "true"
--- No Rewards for this quest
+--
+-- Rewards "Azerite"
 
 
 --Quest 1 Horde
@@ -368,17 +370,134 @@ Inst178Quest3_HORDE_Folgequest = "Nein"
 --------------- INST179 - Siege of Boralus ---------------
 
 Inst179Caption = "Die Belagerung von Boralus"
-Inst179QAA = "1 Quests"
-Inst179QAH = "Keine Quests"
+Inst179QAA = "7 Quests"
+Inst179QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst179Quest1 = "1. Die gefallene Mutter"
-Inst179Quest1_Aim = "Schließt die Belagerung von Boralus (Dungeon) ab."
-Inst179Quest1_Location = "Kathrine Prachtmeer (Boralus - Burg Prachtmeer; "..YELLOW.."44.8, 62.6"..WHITE.."), die Questabgabe erfolgt in Dungeon beim Endbosswq."
-Inst179Quest1_Note = ""
-Inst179Quest1_Prequest = "In die Dunkelheit -> Thros, die verseuchten Lande"
-Inst179Quest1_Folgequest = ""
-Inst179Quest1PreQuest = "true"
+Inst179Quest1 = "1. Die Belagerung von Boralus: Blutgeld"
+Inst179Quest1_Aim = "Töte Tara Schnellklinge und Viq'Goth"
+Inst179Quest1_Location = "Die Belagerung von Boralus"
+Inst179Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst179Quest1_Prequest = "Nein"
+Inst179Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst179Quest2 = "2. Die Belagerung von Boralus: Die Horde zerschmettern"
+Inst179Quest2_Aim = "Töte 5 Helden der Horde und den Endboss"
+Inst179Quest2_Location = "Die Belagerung von Boralus"
+Inst179Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst179Quest2_Prequest = "Nein"
+Inst179Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst179Quest3 = "3. Die Belagerung von Boralus: Die Reihen lichten"
+Inst179Quest3_Aim = Inst179Quest1_Aim
+Inst179Quest3_Location = "Die Belagerung von Boralus"
+Inst179Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst179Quest3_Prequest = "Nein"
+Inst179Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst179Quest4 = "4. Die Belagerung von Boralus: Ketten brechen"
+Inst179Quest4_Aim = "Rette 5 Zivilisten und besiege den Endboss."
+Inst179Quest4_Location = "Die Belagerung von Boralus"
+Inst179Quest4_Note = AQ_WORLDDUNGEONQUEST
+Inst179Quest4_Prequest = "Nein"
+Inst179Quest4_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Alliance
+Inst179Quest5 = "5. Die Belagerung von Boralus: Die Allianz brechen"
+Inst179Quest5_Aim = "Töte 5 Helden der Allinz und besiege den Endboss."
+Inst179Quest5_Location = "Die Belagerung von Boralus"
+Inst179Quest5_Note = AQ_WORLDDUNGEONQUEST
+Inst179Quest5_Prequest = "Nein"
+Inst179Quest5_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst179Quest6 = "6. Die Klage des Lordadmirals"
+Inst179Quest6_Aim = "Bringt die unleserliche Korrespondenz zu Kayla Mills in Sturmwind."
+Inst179Quest6_Location = "Schließkasette des Lordadmirals (Die Belagerung von Boralus)"
+Inst179Quest6_Note = "Gebe die Quest bei Kayla Mills (Sturmwind - Burg Sturmwind; "..YELLOW.."85.8, 24.0"..WHITE..") ab."
+Inst179Quest6_Prequest = "Nein"
+Inst179Quest6_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst179Quest7 = "7. Die Belagerung von Boralus: Was Euer ist, ist mein"
+Inst179Quest7_Aim = "Sammel 5 Azeritgeschütze und besiege den Endboss."
+Inst179Quest7_Location = "Die Belagerung von Boralus"
+Inst179Quest7_Note = AQ_WORLDDUNGEONQUEST
+Inst179Quest7_Prequest = "Nein"
+Inst179Quest7_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst179Quest3_HORDE = Inst179Quest1
+Inst179Quest3_HORDE_Aim = Inst179Quest1_Aim
+Inst179Quest3_HORDE_Location = Inst179Quest1_Location
+Inst179Quest3_HORDE_Note = Inst179Quest1_Note
+Inst179Quest3_HORDE_Prequest = "Nein"
+Inst179Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst179Quest1_HORDE = Inst179Quest1
+Inst179Quest1_HORDE_Aim = Inst179Quest1_Aim
+Inst179Quest1_HORDE_Location = Inst179Quest1_Location
+Inst179Quest1_HORDE_Note = Inst179Quest1_Note
+Inst179Quest1_HORDE_Prequest = "Nein"
+Inst179Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst179Quest2_HORDE = Inst179Quest2
+Inst179Quest2_HORDE_Aim = Inst179Quest2_Aim
+Inst179Quest2_HORDE_Location = Inst179Quest2_Location
+Inst179Quest2_HORDE_Note = Inst179Quest2_Note
+Inst179Quest2_HORDE_Prequest = "Nein"
+Inst179Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst179Quest3_HORDE = Inst179Quest3
+Inst179Quest3_HORDE_Aim = Inst179Ques31_Aim
+Inst179Quest3_HORDE_Location = Inst179Ques31_Location
+Inst179Quest3_HORDE_Note = Inst179Quest3_Note
+Inst179Quest3_HORDE_Prequest = "Nein"
+Inst179Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst179Quest5_HORDE = Inst179Quest5
+Inst179Quest5_HORDE_Aim = Inst179Ques51_Aim
+Inst179Quest5_HORDE_Location = Inst179Ques51_Location
+Inst179Quest5_HORDE_Note = Inst179Quest5_Note
+Inst179Quest5_HORDE_Prequest = "Nein"
+Inst179Quest5_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 6 Horde
+Inst179Quest6_HORDE = Inst179Quest6
+Inst179Quest6_HORDE_Aim = "Bringt die unleserliche Korrespondenz zu Isabella in Orgrimmar."
+Inst179Quest6_HORDE_Location = Inst179Quest1_Location
+Inst179Quest6_HORDE_Note = "Gebe die Quest bei Isabella (Ogrimmar - Das Tal der Stärke; "..YELLOW.."44.0, 71.6"..WHITE..") ab."
+Inst179Quest6_HORDE_Prequest = "Nein"
+Inst179Quest6_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 7 Horde
+Inst179Quest7_HORDE = Inst179Quest7
+Inst179Quest7_HORDE_Aim = Inst179Quest7_Aim
+Inst179Quest7_HORDE_Location = Inst179Quest7_Location
+Inst179Quest7_HORDE_Note = Inst179Quest7_Note
+Inst179Quest7_HORDE_Prequest = "Nein"
+Inst179Quest7_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -513,6 +632,30 @@ Inst184Quest2PreQuest = "true"
 Inst185Caption = "Uldir"
 Inst185QAA = "Keine Quests"
 Inst185QAH = "Keine Quests"
+
+
+
+--------------- INST186 - Battle of Dazar'alor ---------------
+
+Inst186Caption = "Schlacht um Dazar'alor"
+Inst186QAA = "Keine Quests"
+Inst186QAH = "Keine Quests"
+
+
+
+--------------- INST187 - Crucible of Storms ---------------
+
+Inst187Caption = "Der Tiegel der Stürme"
+Inst187QAA = "Keine Quests"
+Inst187QAH = "Keine Quests"
+
+
+
+--------------- INST188 - The Eternal Palace ---------------
+
+Inst188Caption = "Der Ewige Palast"
+Inst188QAA = "Keine Quests"
+Inst188QAH = "Keine Quests"
 
 
 
