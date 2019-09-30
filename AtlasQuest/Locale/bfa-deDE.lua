@@ -70,8 +70,8 @@ Inst175QAA = "3 Quests"
 Inst175QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst175Quest1 = "1. Atal'Dazar: Spiders!"
-Inst175Quest1_Aim = "Squish 5 Creepy Spiders and defeat the final boss."
+Inst175Quest1 = "1. Atal'Dazar: Spinnen!"
+Inst175Quest1_Aim = "Zerquetsche 5 unheimliche Spinnen und besiege den Endboss."
 Inst175Quest1_Location = "Atal'Dazar"
 Inst175Quest1_Note = AQ_WORLDDUNGEONQUEST
 Inst175Quest1_Prequest = "Nein"
@@ -79,8 +79,8 @@ Inst175Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst175Quest2 = "2. Atal'Dazar: From the Shadows"
-Inst175Quest2_Aim = "Slay Shadowblade Razi and defeat the final boss."
+Inst175Quest2 = "2. Atal'Dazar: Aus den Schatten"
+Inst175Quest2_Aim = "Töte Schattenklinge Razi und besiege den Endboss."
 Inst175Quest2_Location = "Atal'Dazar"
 Inst175Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst175Quest2_Prequest = "Nein"
@@ -88,8 +88,8 @@ Inst175Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst175Quest3 = "3. Atal'Dazar: A Little Mojo"
-Inst175Quest3_Aim = ""
+Inst175Quest3 = "3. Atal'Dazar: Ein bisschen Mojo"
+Inst175Quest3_Aim = "Töte 3 verzauberte Tikimasken und besiege den Endboss."
 Inst175Quest3_Location = "Atal'Dazar"
 Inst175Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst175Quest3_Prequest = "Nein"
@@ -100,7 +100,7 @@ Inst175Quest3_Folgequest = "Nein"
 --Quest 1 Horde
 Inst175Quest1_HORDE = Inst175Quest1
 Inst175Quest1_HORDE_Aim = Inst175Quest1_Aim
-Inst175Quest1_HORDE_Location = Inst175Quest1_Location
+Inst175Quest1_HORDE_Location = "Atal'Dazar"
 Inst175Quest1_HORDE_Note = Inst175Quest1_Note
 Inst175Quest1_HORDE_Prequest = "Nein"
 Inst175Quest1_HORDE_Folgequest = "Nein"
@@ -109,7 +109,7 @@ Inst175Quest1_HORDE_Folgequest = "Nein"
 --Quest 2 Horde
 Inst175Quest2_HORDE = Inst175Quest2
 Inst175Quest2_HORDE_Aim = Inst175Quest2_Aim
-Inst175Quest2_HORDE_Location = Inst175Quest2_Location
+Inst175Quest2_HORDE_Location = "Atal'Dazar"
 Inst175Quest2_HORDE_Note = Inst175Quest2_Note
 Inst175Quest2_HORDE_Prequest = "Nein"
 Inst175Quest2_HORDE_Folgequest = "Nein"
@@ -118,33 +118,33 @@ Inst175Quest2_HORDE_Folgequest = "Nein"
 --Quest 3 Horde
 Inst175Quest3_HORDE = Inst175Quest3
 Inst175Quest3_HORDE_Aim = Inst175Quest3_Aim
-Inst175Quest3_HORDE_Location = Inst175Quest3_Location
+Inst175Quest3_HORDE_Location = "Atal'Dazar"
 Inst175Quest3_HORDE_Note = Inst175Quest3_Note
 Inst175Quest3_HORDE_Prequest = "Nein"
 Inst175Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst175Quest4_HORDE = "4. Atal'Dazar: Yazma the Fallen Priestess"
-Inst175Quest4_HORDE_Aim = "Defeat Yazma in Atal'Dazar."
-Inst175Quest4_HORDE_Location = "King Rastakhan (Zuldazar; "..YELLOW.."42.6, 37.6"..WHITE..")"
-Inst175Quest4_HORDE_Note = "Part of the 'March of the Loa' quest line.  Can be completed on Normal or Heroic difficulty.  Yazma is the final boss in the dungeon.  Turn quest in to Princess Talanji at Dazar'alor - "..YELLOW.."40.6, 69.0"..WHITE.."."
-Inst175Quest4_HORDE_Prequest = "The King's Gambit"
-Inst175Quest4_HORDE_Folgequest = "Of Dark Deeds and Dark Days"
+Inst175Quest4_HORDE = "4. Atal'Dazar: Yazma, die gefallene Priesterin"
+Inst175Quest4_HORDE_Aim = "Bezwingt Yazma in Atal'Dazar."
+Inst175Quest4_HORDE_Location = "König Rastakhan (Zuldazar; "..YELLOW.."42.6, 37.6"..WHITE..")"
+Inst175Quest4_HORDE_Note = "Teil der Questreihe vom "Marsch der Loas".  Kann auf Normal oder Heroisch abgeschlossen werden.  Yazma ist der Endboss.  Gebe die Quest bei Prinzessin Talanji in Dazar'alor bei - "..YELLOW.."40.6, 69.0"..WHITE.." ab."
+Inst175Quest4_HORDE_Prequest = "Ketzer -> Der Schachzug des Königs"
+Inst175Quest4_HORDE_Folgequest = "Von finsteren Taten und finsteren Tagen"
 Inst175Quest4PreQuest_HORDE = "true"
 --
 -- Rewards "Azerite"
 
 --Quest 5 Horde
-Inst175Quest5_HORDE = "5. Atal'Dazar: Ashes of a Warchief"
-Inst175Quest5_HORDE_Aim = "Bring Vol'jin's ashes to Atal'Dazar."
-Inst175Quest5_HORDE_Location = "Princess Talanji (Zuldazar; "..YELLOW.."43.8, 39.4"..WHITE..")"
-Inst175Quest5_HORDE_Note = "Part of 'The Fallen Chieftain' quest line.  Can be completed on Normal or Heroic difficulty.  "
-Inst175Quest5_HORDE_Prequest = "Vol'jin, Son of Sen'jin"
-Inst175Quest5_HORDE_Folgequest = "You Owe Me a Spirit"
+Inst175Quest5_HORDE = "5. Atal'Dazar: Die Asche eines Kriegshäuptlings"
+Inst175Quest5_HORDE_Aim = "Bringt Vol'jins Asche nach Atal'Dazar."
+Inst175Quest5_HORDE_Location = "Prinzessin Talanji (Zuldazar; "..YELLOW.."43.8, 39.4"..WHITE..")"
+Inst175Quest5_HORDE_Note = "Teil der Questreihe "Der gefallene Kriegshäuptling".  Kann auf Normal oder Heroisch abgeschlossen werden.  "
+Inst175Quest5_HORDE_Prequest = "Vol'jin, Sohn von Sen'jin"
+Inst175Quest5_HORDE_Folgequest = "Ihr schuldet mir einen Geist"
 Inst175Quest5PreQuest_HORDE = "true"
 --
-Inst175Quest5name1_HORDE = "Urn of Vol'jin"
+Inst175Quest5name1_HORDE = "Vol'jins Urne"
 -- Rewards "Azerite"
 
 --------------- INST176 - Freehold ---------------
@@ -154,37 +154,37 @@ Inst176QAA = "4 Quests"
 Inst176QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst176Quest1 = "1. Freehold: Pieces of Eight"
-Inst176Quest1_Aim = "Collect Pieces of Eight and defeat the final boss."
-Inst176Quest1_Location = "Freehold"
+Inst176Quest1 = "1. Freihafen: Piratendublonen"
+Inst176Quest1_Aim = "Sammel 8 Piratendublonen und besiege den Endboss."
+Inst176Quest1_Location = "Freihafen"
 Inst176Quest1_Note = AQ_WORLDDUNGEONQUEST
 Inst176Quest1_Prequest = "Nein"
 Inst176Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst176Quest2 = "2. Freehold: Veteran Man O' War"
-Inst176Quest2_Aim = ""
-Inst176Quest2_Location = "Freehold"
+Inst176Quest2 = "2. Freihafen: Kriegsbewährte Galeere"
+Inst176Quest2_Aim = "Töte die kriegsbewährte Galeere und besiege den Endboss."
+Inst176Quest2_Location = "Freihafen"
 Inst176Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst176Quest2_Prequest = "Nein"
 Inst176Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst176Quest3 = "3. Freehold: Dread Captain Vandegrim"
-Inst176Quest3_Aim = "Slay Dread Captain Vandegrim and defeat the final boss."
-Inst176Quest3_Location = "Freehold"
+Inst176Quest3 = "3. Freihafen: Schreckenskapitän Vandegrimm"
+Inst176Quest3_Aim = "Töte Schreckenskapitän Vandegrimm und besiege den Endboss."
+Inst176Quest3_Location = "Freihafen"
 Inst176Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst176Quest3_Prequest = "Nein"
 Inst176Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst176Quest4 = "4. Ende eines Piraten"
+Inst176Quest4 = "4. Freihafen: Ende eines Piraten"
 Inst176Quest4_Aim = "Tötet Harlan den Schmierigen in Freihafen."
 Inst176Quest4_Location = "Finn Schönwind (Tiragadesund - Die Wachkuppe; "..YELLOW.."56.4, 61.6"..WHITE.."), die Questabgabe erfolgt in (Boralus- Die Aschenwinddocks; "..YELLOW.."67.6, 22.2"..WHITE..")."
-Inst176Quest4_Note = "Harlan den Schmierigen befindet sich bei."
+Inst176Quest4_Note = "Harlan den Schmierigen ist der Endboss."
 Inst176Quest4_Prequest = "Die Handelskompanie Aschenwind -> Verladen und verschickt"
 Inst176Quest4_Folgequest = "Nein"
 Inst176Quest4PreQuest = "true"
@@ -195,7 +195,7 @@ Inst176Quest4PreQuest = "true"
 --Quest 1 Horde
 Inst176Quest1_HORDE = Inst176Quest1
 Inst176Quest1_HORDE_Aim = Inst176Quest1_Aim
-Inst176Quest1_HORDE_Location = Inst176Quest1_Location
+Inst176Quest1_HORDE_Location = "Freihafen"
 Inst176Quest1_HORDE_Note = Inst176Quest1_Note
 Inst176Quest1_HORDE_Prequest = "Nein"
 Inst176Quest1_HORDE_Folgequest = "Nein"
@@ -204,7 +204,7 @@ Inst176Quest1_HORDE_Folgequest = "Nein"
 --Quest 2 Horde
 Inst176Quest2_HORDE = Inst176Quest2
 Inst176Quest2_HORDE_Aim = Inst176Quest2_Aim
-Inst176Quest2_HORDE_Location = Inst176Quest2_Location
+Inst176Quest2_HORDE_Location = "Freihafen"
 Inst176Quest2_HORDE_Note = Inst176Quest2_Note
 Inst176Quest2_HORDE_Prequest = "Nein"
 Inst176Quest2_HORDE_Folgequest = "Nein"
@@ -213,7 +213,7 @@ Inst176Quest2_HORDE_Folgequest = "Nein"
 --Quest 3 Horde
 Inst176Quest3_HORDE = Inst176Quest3
 Inst176Quest3_HORDE_Aim = Inst176Quest3_Aim
-Inst176Quest3_HORDE_Location = Inst176Quest3_Location
+Inst176Quest3_HORDE_Location = "Freihafen"
 Inst176Quest3_HORDE_Note = Inst176Quest3_Note
 Inst176Quest3_HORDE_Prequest = "Nein"
 Inst176Quest3_HORDE_Folgequest = "Nein"
@@ -227,47 +227,110 @@ Inst177Caption = "Die Königsruh"
 Inst177QAA = "Keine Quests"
 Inst177QAH = "Keine Quests"
 
+--Quest 1 Alliance
+Inst177Quest1 = "1. Die Königsruh: Der Waffenmeister ist wieder auf den Beinen"
+Inst177Quest1_Aim = "Töte Waffenmeister Halu."
+Inst177Quest1_Location = "Die Königsruh"
+Inst177Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst177Quest1_Prequest = "Nein"
+Inst177Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst177Quest2 = "2. Die Königsruh: Fatale Fehlfunktion"
+Inst177Quest2_Aim = "Fehlerhaftes Konstrukt getötet."
+Inst177Quest2_Location = "Die Königsruh"
+Inst177Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst177Quest2_Prequest = "Nein"
+Inst177Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst177Quest3 = "3. Die Königsruh: Königswächter"
+Inst177Quest3_Aim = "Töte Lord Azi, Lady Ha'ti und Weise Tu'aka."
+Inst177Quest3_Location = "Die Königsruh"
+Inst177Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst177Quest3_Prequest = "Nein"
+Inst177Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst177Quest1_HORDE = Inst177Quest1
+Inst177Quest1_HORDE_Aim = Inst177Quest1_Aim
+Inst177Quest1_HORDE_Location = "Die Königsruh"
+Inst177Quest1_HORDE_Note = Inst177Quest1_Note
+Inst177Quest1_HORDE_Prequest = "Nein"
+Inst177Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst177Quest2_HORDE = Inst177Quest2
+Inst177Quest2_HORDE_Aim = Inst177Quest2_Aim
+Inst177Quest2_HORDE_Location = "Die Königsruh"
+Inst177Quest2_HORDE_Note = Inst177Quest2_Note
+Inst177Quest2_HORDE_Prequest = "Nein"
+Inst177Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 1 Horde
+Inst177Quest1_HORDE = Inst177Quest3
+Inst177Quest1_HORDE_Aim = Inst177Quest3_Aim
+Inst177Quest1_HORDE_Location = "Die Königsruh"
+Inst177Quest1_HORDE_Note = Inst177Quest3_Note
+Inst177Quest1_HORDE_Prequest = "Nein"
+Inst177Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 
 --------------- INST178 - Shrine of the Storm ---------------
 
 Inst178Caption = "Der Schrein des Sturms"
-Inst178QAA = "4 Quests"
-Inst178QAH = "2 Quests"
+Inst178QAA = "5 Quests"
+Inst178QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst178Quest1 = "1. Shrine of the Storm: Cleansing Fonts"
-Inst178Quest1_Aim = ""
-Inst178Quest1_Location = "Shrine of the Storm"
+Inst178Quest1 = "1. Der Schrein des Sturms: Reinigende Brunnen"
+Inst178Quest1_Aim = "Springe in 4 Reinigungsschriften beim 2. Boss und besiege den Endboss"
+Inst178Quest1_Location = "Der Schrein des Sturms"
 Inst178Quest1_Note = AQ_WORLDDUNGEONQUEST
 Inst178Quest1_Prequest = "Nein"
 Inst178Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst178Quest2 = "2. Shrine of the Storm: Behold, Pure Water"
-Inst178Quest2_Aim = "Collect 3 Motes of Pure Water and defeat the final boss in the dungeon."
-Inst178Quest2_Location = "Shrine of the Storm"
+Inst178Quest2 = "2. Der Schrein des Sturms: Sehet das reine Wasser"
+Inst178Quest2_Aim = "Sammel 3 reine Wasserpartikel und besiege den Endboss."
+Inst178Quest2_Location = "Der Schrein des Sturms"
 Inst178Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst178Quest2_Prequest = "Nein"
 Inst178Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst178Quest3 = "3. Shrine of the Storm: Whispers Below"
-Inst178Quest3_Aim = "Defeat Lord Stormsong in the Shrine of the Storm."
-Inst178Quest3_Location = "Brother Pike (Stormsong Valley - Shrine of the Storm; "..YELLOW.."78.2, 28.8"..WHITE..")"
-Inst178Quest3_Note = "Can be completed on Normal or Heroic difficulty.  Lord Stormsong and Vol'zith the Whisperer are the 3rd and last bosses.  After defeating the final boss, wait a moment or two for Brother Pike to appear to turn in the quest.  If you leave too soon, you can also turn the quest in outside the dungeon where you picked it up."
+Inst178Quest3 = "3. Der Schrein des Sturms: Schleichende Verderbnis"
+Inst178Quest3_Aim = "Töte das schwarze Blut und den Endboss."
+Inst178Quest3_Location = "Der Schrein des Sturms"
+Inst178Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst178Quest3_Prequest = "Nein"
 Inst178Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst178Quest4 = "4. Der Schrein des Sturms: Geflüster aus der Tiefe"
+Inst178Quest4_Aim = "Besiege Lord Sturmsang und Vol'zith den Flüsterer."
+Inst178Quest4_Location = "Bruder Pike (Sturmsangtal - Der Schrein des Sturms; "..YELLOW.."78.2, 28.8"..WHITE..")"
+Inst178Quest4_Note = "Kann auf Normal oder Heroisch abgeschlossen werden.  Lord Sturmsang und Vol'zith der Flüsterer sind die letzten beide Bosse.  Nach dem besiegen des Endbosses, warte einen Moment auf Bruder Pike, um die Quest abzugeben.  Wenn Du zu früh die Dungeon verlässt, kannst Du die Quest dort abgeben, wo Du die angenommen hast."
+Inst178Quest4_Prequest = "Nein"
+Inst178Quest4_Folgequest = "Nein"
 --
 -- Rewards "Azerite"
---Quest 4 Alliance
-Inst178Quest4 = "4. Das fehlende Ritual"
-Inst178Quest4_Aim = "Geht in den Schrein des Sturms, bergt das Ritual des sicheren Geleits und besiegt Vol'zith den Flüsterer."
-Inst178Quest4_Location = "Bruder Pike (Sturmsangtal - Der Schrein des Sturms; "..YELLOW.."78.2, 28.8"..WHITE.."), die Questabgabe erfolgt in Dungeon beim Endbosswq."
-Inst178Quest4_Note = "Vol'zith der Flüsterer befindet sich bei."
-Inst178Quest4_Prequest = "Ritualgegenstände -> Die Stärke des Sturms"
+--Quest 5 Alliance
+Inst178Quest5 = "5. Der Schrein des Sturms: Das fehlende Ritual"
+Inst178Quest5_Aim = "Geht in den Schrein des Sturms, bergt das Ritual des sicheren Geleits und besiegt Vol'zith den Flüsterer."
+Inst178Quest5_Location = "Bruder Pike (Sturmsangtal - Der Schrein des Sturms; "..YELLOW.."78.2, 28.8"..WHITE.."), die Questabgabe erfolgt in Dungeon beim Endbosswq."
+Inst178Quest5_Note = "Vol'zith der Flüsterer ist der Endboss."
+Inst178Quest5_Prequest = "Ritualgegenstände -> Die Stärke des Sturms"
 Inst178Quest4_Folgequest = "Öffnen des Weges"
 Inst178Quest4PreQuest = "true"
 -- No Rewards for this quest
@@ -276,7 +339,7 @@ Inst178Quest4PreQuest = "true"
 --Quest 1 Horde
 Inst178Quest1_HORDE = Inst178Quest1
 Inst178Quest1_HORDE_Aim = Inst178Quest1_Aim
-Inst178Quest1_HORDE_Location = Inst178Quest1_Location
+Inst178Quest1_HORDE_Location = Der Schrein des Sturms
 Inst178Quest1_HORDE_Note = Inst178Quest1_Note
 Inst178Quest1_HORDE_Prequest = "Nein"
 Inst178Quest1_HORDE_Folgequest = "Nein"
@@ -285,10 +348,19 @@ Inst178Quest1_HORDE_Folgequest = "Nein"
 --Quest 2 Horde
 Inst178Quest2_HORDE = Inst178Quest2
 Inst178Quest2_HORDE_Aim = Inst178Quest2_Aim
-Inst178Quest2_HORDE_Location = Inst178Quest2_Location
+Inst178Quest2_HORDE_Location = Der Schrein des Sturms
 Inst178Quest2_HORDE_Note = Inst178Quest2_Note
 Inst178Quest2_HORDE_Prequest = "Nein"
 Inst178Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst178Quest3_HORDE = Inst178Quest3
+Inst178Quest3_HORDE_Aim = Inst178Quest3_Aim
+Inst178Quest3_HORDE_Location = Der Schrein des Sturms
+Inst178Quest3_HORDE_Note = Inst178Quest3_Note
+Inst178Quest3_HORDE_Prequest = "Nein"
+Inst178Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
