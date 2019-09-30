@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 4.11.55  (for WoW Classic)  September ??, 2019
+
+- Russian language file updated.  Thank you to "GoodDeath".
+
+
+
+
 Version 4.11.54  (for WoW Classic)  September 24, 2019
 
 - Moved Quest levels & prequest icons out of localization files and to a quest data file.  This will reduce the overall duplication of data and make things a bit easier for translators.  And me!
