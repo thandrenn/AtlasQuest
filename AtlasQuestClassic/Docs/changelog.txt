@@ -6,6 +6,14 @@ Version 4.11.55  (for WoW Classic)  September ??, 2019
 
 - Russian language file updated.  Thank you to "GoodDeath".
 
+- Cleanup Progress:
+	- Gnomeregan complete.
+	- Scarlet Monastery: Library
+	- Scarlet Monastery: Armory
+	- Scarlet Monastery: Cathedral
+	- Scarlet Monastery: Graveyard
+	
+
 
 
 
