@@ -508,6 +508,9 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\The Eternal Palace") then
 		AQINSTANZ = 188;
+
+	elseif (AQATLASMAP == "Interface\\Addons\\Atlas_BattleForAzeroth\\Images\\Operation: Mechagon") then
+		AQINSTANZ = 189;
 --]]
 		
 	-- Scenarios
@@ -826,5 +829,6 @@ end
 -- 186 = RAID: Battle of Dazar'alor
 -- 187 = RAID: Crucible of Storms
 -- 188 = RAID: The Eternal Palace
+-- 189 = DUNGEON: Operation: Mechagon
 
 

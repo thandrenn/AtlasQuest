@@ -9572,6 +9572,9 @@ Inst178Quest1Rewardtext_HORDE = AQNoReward
 --Quest 2 Horde
 Inst178Quest2Rewardtext_HORDE = AQNoReward
 
+--Quest 3 Horde
+Inst178Quest3Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST179 - Siege of Boralus ---------------
@@ -9649,6 +9652,31 @@ Inst180Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
 
 --------------- INST181 - The Motherlode ---------------
 
+--Quest 1 Alliance
+Inst181Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst181Quest1Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst181Quest1Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst181Quest4Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
+
+--Quest 1 Horde
+Inst181Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst181Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst181Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst181Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
 
 
 --------------- INST182 - The Underrot ---------------
@@ -9676,6 +9704,10 @@ Inst180Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
 
 
 --------------- INST188 - The Eternal Palace ---------------
+
+
+
+--------------- INST189 - Operatin: Mechagon ---------------
 
 
 

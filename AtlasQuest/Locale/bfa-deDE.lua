@@ -128,7 +128,7 @@ Inst175Quest3_HORDE_Folgequest = "Nein"
 Inst175Quest4_HORDE = "4. Atal'Dazar: Yazma, die gefallene Priesterin"
 Inst175Quest4_HORDE_Aim = "Bezwingt Yazma in Atal'Dazar."
 Inst175Quest4_HORDE_Location = "König Rastakhan (Zuldazar; "..YELLOW.."42.6, 37.6"..WHITE..")"
-Inst175Quest4_HORDE_Note = "Teil der Questreihe vom "Marsch der Loas".  Kann auf Normal oder Heroisch abgeschlossen werden.  Yazma ist der Endboss.  Gebe die Quest bei Prinzessin Talanji in Dazar'alor bei - "..YELLOW.."40.6, 69.0"..WHITE.." ab."
+Inst175Quest4_HORDE_Note = "Teil der Questreihe vom 'Marsch der Loas'.  Kann auf Normal oder Heroisch abgeschlossen werden.  Yazma ist der Endboss.  Gebe die Quest bei Prinzessin Talanji (Dazar'alor bei - "..YELLOW.."40.6, 69.0"..WHITE..") ab."
 Inst175Quest4_HORDE_Prequest = "Ketzer -> Der Schachzug des Königs"
 Inst175Quest4_HORDE_Folgequest = "Von finsteren Taten und finsteren Tagen"
 Inst175Quest4PreQuest_HORDE = "true"
@@ -139,7 +139,7 @@ Inst175Quest4PreQuest_HORDE = "true"
 Inst175Quest5_HORDE = "5. Atal'Dazar: Die Asche eines Kriegshäuptlings"
 Inst175Quest5_HORDE_Aim = "Bringt Vol'jins Asche nach Atal'Dazar."
 Inst175Quest5_HORDE_Location = "Prinzessin Talanji (Zuldazar; "..YELLOW.."43.8, 39.4"..WHITE..")"
-Inst175Quest5_HORDE_Note = "Teil der Questreihe "Der gefallene Kriegshäuptling".  Kann auf Normal oder Heroisch abgeschlossen werden.  "
+Inst175Quest5_HORDE_Note = "Teil der Questreihe 'Der gefallene Kriegshäuptling'.  Kann auf Normal oder Heroisch abgeschlossen werden.  "
 Inst175Quest5_HORDE_Prequest = "Vol'jin, Sohn von Sen'jin"
 Inst175Quest5_HORDE_Folgequest = "Ihr schuldet mir einen Geist"
 Inst175Quest5PreQuest_HORDE = "true"
@@ -341,7 +341,7 @@ Inst178Quest4PreQuest = "true"
 --Quest 1 Horde
 Inst178Quest1_HORDE = Inst178Quest1
 Inst178Quest1_HORDE_Aim = Inst178Quest1_Aim
-Inst178Quest1_HORDE_Location = Der Schrein des Sturms
+Inst178Quest1_HORDE_Location = "Der Schrein des Sturms"
 Inst178Quest1_HORDE_Note = Inst178Quest1_Note
 Inst178Quest1_HORDE_Prequest = "Nein"
 Inst178Quest1_HORDE_Folgequest = "Nein"
@@ -350,7 +350,7 @@ Inst178Quest1_HORDE_Folgequest = "Nein"
 --Quest 2 Horde
 Inst178Quest2_HORDE = Inst178Quest2
 Inst178Quest2_HORDE_Aim = Inst178Quest2_Aim
-Inst178Quest2_HORDE_Location = Der Schrein des Sturms
+Inst178Quest2_HORDE_Location = "Der Schrein des Sturms"
 Inst178Quest2_HORDE_Note = Inst178Quest2_Note
 Inst178Quest2_HORDE_Prequest = "Nein"
 Inst178Quest2_HORDE_Folgequest = "Nein"
@@ -359,7 +359,7 @@ Inst178Quest2_HORDE_Folgequest = "Nein"
 --Quest 3 Horde
 Inst178Quest3_HORDE = Inst178Quest3
 Inst178Quest3_HORDE_Aim = Inst178Quest3_Aim
-Inst178Quest3_HORDE_Location = Der Schrein des Sturms
+Inst178Quest3_HORDE_Location = "Der Schrein des Sturms"
 Inst178Quest3_HORDE_Note = Inst178Quest3_Note
 Inst178Quest3_HORDE_Prequest = "Nein"
 Inst178Quest3_HORDE_Folgequest = "Nein"
@@ -508,27 +508,27 @@ Inst180Caption = "Der Tempel von Sethraliss"
 Inst180QAA = "3 Quests"
 Inst180QAH = "4 Quests"
 --Quest 1 Alliance
-Inst180Quest1 = "1. Temple of Sethraliss: Navigating Currents"
-Inst180Quest1_Aim = "??"
-Inst180Quest1_Location = "Temple of Sethraliss"
+Inst180Quest1 = "1. Der Tempel von Sethraliss: Ein Weg durch die Strömungen"
+Inst180Quest1_Aim = "Gewinne 100 Macht aus dem fliesenden Strom"
+Inst180Quest1_Location = "Der Tempel von Sethraliss"
 Inst180Quest1_Note = AQ_WORLDDUNGEONQUEST
 Inst180Quest1_Prequest = "Nein"
 Inst180Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst180Quest2 = "2. Temple of Sethraliss: A Bazaar Menagerie"
-Inst180Quest2_Aim = "Collect 5 Relics and complete the dungeon."
-Inst180Quest2_Location = "Temple of Sethraliss"
+Inst180Quest2 = "2. Der Tempel von Sethraliss: Bazar des Bizarren"
+Inst180Quest2_Aim = "Sammel 5 Relikte und beende die Dungeon."
+Inst180Quest2_Location = "Der Tempel von Sethraliss"
 Inst180Quest2_Note = AQ_WORLDDUNGEONQUEST
 Inst180Quest2_Prequest = "Nein"
 Inst180Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst180Quest3 = "3. Temple of Sethraliss: Ecological Research"
-Inst180Quest3_Aim = "Capture a Krolusk Larva and complete the dungeon."
-Inst180Quest3_Location = "Temple of Sethraliss"
+Inst180Quest3 = "3. Der Tempel von Sethraliss: Ökologische Forschung"
+Inst180Quest3_Aim = "Fange eine Krolusklarve und beende die Dungeon."
+Inst180Quest3_Location = "Der Tempel von Sethraliss"
 Inst180Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst180Quest3_Prequest = "Nein"
 Inst180Quest3_Folgequest = "Nein"
@@ -563,10 +563,10 @@ Inst180Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst180Quest4_HORDE = "4. Temple of Sethraliss: Avatar of the Loa"
-Inst180Quest4_HORDE_Aim = "Enter the Temple of Sethraliss and heal the avatar of the loa."
+Inst180Quest4_HORDE = "4. Der Tempel von Sethraliss: Avatar des Loas"
+Inst180Quest4_HORDE_Aim = "Betretet den Tempel von Sethraliss und heilt den Avatar des Loas."
 Inst180Quest4_HORDE_Location = "Vorrik (Voldun; "..YELLOW.."27.0, 52.6"..WHITE..")"
-Inst180Quest4_HORDE_Note = "Part of the Atul'Aman quest line. Can be completed on Normal or Heroic difficulty.\nDefeat the final boss to complete the quest.  Return to the quest giver."
+Inst180Quest4_HORDE_Note = "Teil der 'Atul'Aman Kampagne'. Kann auf Normal oder Heroisch abgeschlossen werden.\nBesiege den Endboss um die Quest abzuschließen und kehre zum Questgeber zurück."
 Inst180Quest4_HORDE_Prequest = "Defeat Jakra'zet"
 Inst180Quest4_HORDE_Folgequest = "Informing the Horde"
 Inst180Quest4PreQuest_HORDE = "true"
@@ -578,8 +578,83 @@ Inst180Quest4PreQuest_HORDE = "true"
 --------------- INST181 - The Motherlode ---------------
 
 Inst181Caption = "Das Riesenflöz"
-Inst181QAA = "Keine Quests"
-Inst181QAH = "Keine Quests"
+Inst181QAA = "4 Quests"
+Inst181QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst181Quest1 = "1. Das Riesenflöz: Elementare als Angestellte"
+Inst181Quest1_Aim = "Töte Schlachtii und Mogul Ratztunk."
+Inst181Quest1_Location = "Das Riesenflöz"
+Inst181Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst181Quest1_Prequest = "Nein"
+Inst181Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst181Quest2 = "2. Das Riesenflöz: Die Schläue steckt in seinem Horn!"
+Inst181Quest2_Aim = "Töte Vog'rish den Aufgestiegenen und Mogul Ratztunk."
+Inst181Quest2_Location = "Das Riesenflöz"
+Inst181Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst181Quest2_Prequest = "Nein"
+Inst181Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst181Quest3 = "3. Das Riesenflöz: Der hat aber echt fette Bomben"
+Inst181Quest3_Aim = "Töte Rally Riesenspreng und Mogul Ratztunk."
+Inst181Quest3_Location = "Das Riesenflöz"
+Inst181Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst181Quest3_Prequest = "Nein"
+Inst181Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst181Quest4 = "4. Das Riesenflöz: Eisenfeind"
+Inst181Quest4_Aim = "Holt Eisenfeind von Mogul Ratztunk zurück."
+Inst181Quest4_Location = "Moira Thaurissan (Sturmwind - ; "..YELLOW.."52.0, 13.8"..WHITE..")"
+Inst181Quest4_Note = "Teil der 'Dunkeleisenzwerge Kampagne'. Kann auf Normal oder Heroisch abgeschlossen werden." 
+Inst181Quest4_Prequest = "Die Schwarzfelstiefen"
+Inst181Quest4_Folgequest = "Der Geschmolzene Kern -> Dunkeleisenzwerge"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst181Quest1_HORDE = Inst181Quest1
+Inst181Quest1_HORDE_Aim = Inst181Quest1_Aim
+Inst181Quest1_HORDE_Location = "Das Riesenflöz"
+Inst181Quest1_HORDE_Note = Inst181Quest1_Note
+Inst181Quest1_HORDE_Prequest = "Nein"
+Inst181Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst181Quest2_HORDE = Inst181Quest2
+Inst181Quest2_HORDE_Aim = Inst181Quest2_Aim
+Inst181Quest2_HORDE_Location = "Das Riesenflöz"
+Inst181Quest2_HORDE_Note = Inst181Quest2_Note
+Inst181Quest2_HORDE_Prequest = "Nein"
+Inst181Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst181Quest3_HORDE = Inst181Quest3
+Inst181Quest3_HORDE_Aim = Inst181Quest3_Aim
+Inst181Quest3_HORDE_Location = "Das Riesenflöz"
+Inst181Quest3_HORDE_Note = Inst181Quest1_Note
+Inst181Quest3_HORDE_Prequest = "Nein"
+Inst181Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst181Quest4_HORDE = "4. Das Riesenflöz: Rohe Gewalt"
+Inst181Quest4_HORDE_Aim = "Überbringt die endgültige, tödliche Nachricht Mogul Ratztunk im RIESENFLÖZ!!"
+Inst181Quest4_HORDE_Location = "Handelsprinz Gallywix (Drustvar - ; "..YELLOW.."37.2, 27.0"..WHITE..")"
+Inst181Quest4_HORDE_Note = "Kann auf Normal oder Heroisch abgeschlossen werden."
+Inst181Quest4_HORDE_Prequest = "Nein"
+Inst181Quest4_HORDE_Folgequest = "Nein"
+--
+-- Rewards "Azerite"
 
 
 
