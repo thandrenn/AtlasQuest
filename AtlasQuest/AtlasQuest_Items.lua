@@ -9681,13 +9681,90 @@ Inst181Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
 
 --------------- INST182 - The Underrot ---------------
 
+--Quest 1 Alliance
+Inst182Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst182Quest1Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst182Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst182Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst182Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst182Quest3Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST183 - Tol Dagor ---------------
 
+--Quest 1 Alliance
+Inst183Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst183Quest1Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst183Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst183Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst183Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst183Quest3Rewardtext_HORDE = AQNoReward
+
 
 
 --------------- INST184 - Waycrest Manor ---------------
+
+--Quest 1 Alliance
+Inst184Quest1Rewardtext = AQNoReward
+
+--Quest 2 Alliance
+Inst184Quest1Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst184Quest1Rewardtext = AQNoReward
+
+--Quest 4 Alliance
+Inst184Quest4Rewardtext = AQDiscription_REWARD..GREEN.."1"
+--ITEM1
+Inst184Quest9ITC1 = Itemc3;
+Inst184Quest9description1 = AQITEM_ITEM
+Inst184Quest9ID1 = "160940"
+
+--Quest 5 Alliance
+Inst184Quest5Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
+--Quest 6 Alliance
+Inst184Quest6Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
+
+--Quest 1 Horde
+Inst184Quest1Rewardtext_HORDE = AQNoReward
+
+--Quest 2 Horde
+Inst184Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst184Quest3Rewardtext_HORDE = AQNoReward
+
+--Quest 4 Horde
+Inst184Quest4Rewardtext_HORDE = AQDiscription_REWARD..GREEN.."1"
+--ITEM1
+Inst184Quest1ITC1_HORDE = Itemc3;
+Inst184Quest1description1_HORDE = AQITEM_ITEM
+Inst184Quest1ID1_HORDE = "160940"
 
 
 
@@ -9697,9 +9774,23 @@ Inst181Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
 
 --------------- INST186 - Battle of Dazar'alor ---------------
 
+--Quest 1 Alliance
+Inst186Quest1Rewardtext = AQDiscription_REWARD..WHITE.."2000"..AQAZERITE
+
+
+--Quest 1 Horde
+Inst186Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."2000"..AQAZERITE
+
 
 
 --------------- INST187 - Crucible of Storms ---------------
+
+--Quest 1 Alliance
+Inst186Quest1Rewardtext = AQDiscription_REWARD..WHITE.."500"..AQAZERITE
+
+
+--Quest 1 Horde
+Inst186Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."500"..AQAZERITE
 
 
 

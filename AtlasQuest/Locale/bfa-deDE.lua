@@ -649,7 +649,7 @@ Inst181Quest3_HORDE_Folgequest = "Nein"
 --Quest 4 Horde
 Inst181Quest4_HORDE = "4. Das Riesenflöz: Rohe Gewalt"
 Inst181Quest4_HORDE_Aim = "Überbringt die endgültige, tödliche Nachricht Mogul Ratztunk im RIESENFLÖZ!!"
-Inst181Quest4_HORDE_Location = "Handelsprinz Gallywix (Drustvar - ; "..YELLOW.."37.2, 27.0"..WHITE..")"
+Inst181Quest4_HORDE_Location = "Handelsprinz Gallywix (Drustvar - ; "..YELLOW.."37.2, 27.0"..WHITE..")."
 Inst181Quest4_HORDE_Note = "Kann auf Normal oder Heroisch abgeschlossen werden."
 Inst181Quest4_HORDE_Prequest = "Nein"
 Inst181Quest4_HORDE_Folgequest = "Nein"
@@ -661,44 +661,231 @@ Inst181Quest4_HORDE_Folgequest = "Nein"
 --------------- INST182 - The Underrot ---------------
 
 Inst182Caption = "Der Tiefenpfuhl"
-Inst182QAA = "Keine Quests"
-Inst182QAH = "Keine Quests"
+Inst182QAA = "3 Quests"
+Inst182QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst182Quest1 = "1. Der Tiefenpfuhl: Moderschlund"
+Inst182Quest1_Aim = "Töte Moderschlund und die entfesselte Monstrosität."
+Inst182Quest1_Location = "Der Tiefenpfuhl"
+Inst182Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst182Quest1_Prequest = "Nein"
+Inst182Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst182Quest2 = "2. Der Tiefenpfuhl: Mysteriöse Sporen"
+Inst182Quest2_Aim = "Sammel 5 geheimnisvolle Sporen und töte die entfesselte Monstrosität."
+Inst182Quest2_Location = "Der Tiefenpfuhl"
+Inst182Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst182Quest2_Prequest = "Nein"
+Inst182Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst182Quest3 = "3. Der Tiefenpfuhl: Ruheloser Schrecken"
+Inst182Quest3_Aim = "Töte das ruhelose Schrecken und die entfesselte Monstrosität."
+Inst182Quest3_Location = "Der Tiefenpfuhl"
+Inst182Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst182Quest3_Prequest = "Nein"
+Inst182Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst182Quest1_HORDE = Inst182Quest1
+Inst182Quest1_HORDE_Aim = Inst182Quest1_Aim
+Inst182Quest1_HORDE_Location = "Der Tiefenpfuhl"
+Inst182Quest1_HORDE_Note = Inst182Quest1_Note
+Inst182Quest1_HORDE_Prequest = "Nein"
+Inst182Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst182Quest2_HORDE = Inst182Quest2
+Inst182Quest2_HORDE_Aim = Inst182Quest2_Aim
+Inst182Quest2_HORDE_Location = "Der Tiefenpfuhl"
+Inst182Quest2_HORDE_Note = Inst182Quest2_Note
+Inst182Quest2_HORDE_Prequest = "Nein"
+Inst182Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst182Quest3_HORDE = Inst182Quest3
+Inst182Quest3_HORDE_Aim = Inst182Quest3_Aim
+Inst182Quest3_HORDE_Location = "Der Tiefenpfuhl"
+Inst182Quest3_HORDE_Note = Inst182Quest3_Note
+Inst182Quest3_HORDE_Prequest = "Nein"
+Inst182Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
 --------------- INST183 - Tol Dagor ---------------
 
 Inst183Caption = "Tol Dagor"
-Inst183QAA = "Keine Quests"
-Inst183QAH = "Keine Quests"
+Inst183QAA = "3 Quests"
+Inst183QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst183Quest1 = "1. Tol Dagor: Der Stolz des Aufsehers"
+Inst183Quest1_Aim = "Finde die Stolz von Kul Tiras und töte Aufseheer Korgus."
+Inst183Quest1_Location = "Tol Dagor"
+Inst183Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst183Quest1_Prequest = "Nein"
+Inst183Quest1_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst183Quest2 = "2. Tol Dagor: üstengrundstück"
+Inst183Quest2_Aim = "Töte Liskorath und Aufseheer Korgus."
+Inst183Quest2_Location = "Tol Dagor"
+Inst183Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst183Quest2_Prequest = "Nein"
+Inst183Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst183Quest3 = "3. Tol Dagor: Versiegelte Vorräte"
+Inst183Quest3_Aim = "Finde 6 verschlossene Kisten von Kul Tiras und töte Aufseheer Korgus."
+Inst183Quest3_Location = "Tol Dagor"
+Inst183Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst183Quest3_Prequest = "Nein"
+Inst183Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst183Quest1_HORDE = Inst183Quest1
+Inst183Quest1_HORDE_Aim = Inst183Quest1_Aim
+Inst183Quest1_HORDE_Location = "Tol Dagor"
+Inst183Quest1_HORDE_Note = Inst183Quest1_Note
+Inst183Quest1_HORDE_Prequest = "Nein"
+Inst183Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst183Quest2_HORDE = Inst183Quest2
+Inst183Quest2_HORDE_Aim = Inst183Quest2_Aim
+Inst183Quest2_HORDE_Location = "Tol Dagor"
+Inst183Quest2_HORDE_Note = Inst183Quest2_Note
+Inst183Quest2_HORDE_Prequest = "Nein"
+Inst183Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst183Quest3_HORDE = Inst183Quest3
+Inst183Quest3_HORDE_Aim = Inst183Quest3_Aim
+Inst183Quest3_HORDE_Location = "Tol Dagor"
+Inst183Quest3_HORDE_Note = Inst183Quest3_Note
+Inst183Quest3_HORDE_Prequest = "Nein"
+Inst183Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
 --------------- INST184 - Waycrest Manor ---------------
 
 Inst184Caption = "Das Kronsteiganwesen"
-Inst184QAA = "2 Quests"
-Inst184QAH = "Keine Quests"
+Inst184QAA = "6 Quests"
+Inst184QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst184Quest1 = "1. Die gefallene Mutter"
-Inst184Quest1_Aim = "Besiegt Lady Kronsteig im Kronsteiganwesen."
-Inst184Quest1_Location = "Luzilla Kronsteig (Drustvar - Das Kronsteiganwesen; "..YELLOW.."32.8, 15.4"..WHITE.."), die Questabgabe erfolgt in (Drustvar - Aroms Wehr; "..YELLOW.."36.0, 51.2"..WHITE..")."
-Inst184Quest1_Note = "Lady Kronsteig befindet sich bei."
-Inst184Quest1_Prequest = "Sturm auf das Anwesen"
-Inst184Quest1_Folgequest = "Ewige Flamme"
-Inst184Quest1PreQuest = "true"
+Inst184Quest1 = "1. Das Kronsteiganwesen: Das Krächzen der Krähe"
+Inst184Quest1_Aim = "Töte Corvus und Gorak Tul."
+Inst184Quest1_Location = "Das Kronsteiganwesen"
+Inst184Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst184Quest1_Prequest = "Nein"
+Inst184Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst184Quest2 = "2. Den Herzbann absorbieren"
-Inst184Quest2_Aim = "Stärkt Korvashs Schädel in den Tiefen des Kronsteiganwesens."
-Inst184Quest2_Location = "Ulfar (Drustvar - Ulfars Höhle; "..YELLOW.."45.2, 45.8"..WHITE.."), die Questabgabe erfolgt in (Drustvar - Aroms Wehr; "..YELLOW.."36.0, 51.2"..WHITE..")."
-Inst184Quest2_Note = "."
-Inst184Quest2_Prequest = "Öffnen des Weges -> Alptraumfänger - Vergrabene Macht - Fokus des Hasses"
-Inst184Quest2_Folgequest = "In die Dunkelheit"
-Inst184Quest2PreQuest = "true"
+Inst184Quest2 = "2. Das Kronsteiganwesen: Die Hexenküche"
+Inst184Quest2_Aim = "Töte Chefkoch Daniel, Bratenköchin Birte, Soßenkoch Samuel und Gorak Tul."
+Inst184Quest2_Location = "Das Kronsteiganwesen"
+Inst184Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst184Quest2_Prequest = "Nein"
+Inst184Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst184Quest2 = "3. Das Kronsteiganwesen: Eine Hexe zu viel"
+Inst184Quest2_Aim = "Töte Matrone Christiane und Gorak Tul."
+Inst184Quest2_Location = "Das Kronsteiganwesen"
+Inst184Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst184Quest2_Prequest = "Nein"
+Inst184Quest2_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst184Quest4 = "4. Brathühnchenwissenschaft"
+Inst184Quest4_Aim = "Bringt das köstliche Hühnchen zu Dr. Glotz Widrikus in der Beutebuch."
+Inst184Quest4_Location = "Das Kronsteiganwesen"
+Inst184Quest4_Note = "Bringt das köstlichen Hühnchen zu Glotz Widrikus in (Schlingendornkap - Beutebucht; "..YELLOW.."28.2, 76.2"..WHITE..")"
+Inst184Quest4_Prequest = "Nein"
+Inst184Quest4_Folgequest = "Nein"
+--
+Inst175Quest5name1 = "Intaktes Hühnerhirn"
+
+--Quest 5 Alliance
+Inst184Quest5 = "1. Die gefallene Mutter"
+Inst184Quest5_Aim = "Besiegt Lady Kronsteig im Kronsteiganwesen."
+Inst184Quest5_Location = "Luzilla Kronsteig (Drustvar - Das Kronsteiganwesen; "..YELLOW.."32.8, 15.4"..WHITE.."), die Questabgabe erfolgt in (Drustvar - Aroms Wehr; "..YELLOW.."36.0, 51.2"..WHITE..")."
+Inst184Quest5_Note = "Lady Kronsteig ist der Endboss."
+Inst184Quest5_Prequest = "Sturm auf das Anwesen"
+Inst184Quest5_Folgequest = "Ewige Flamme"
+Inst184Quest5PreQuest = "true"
+--
+-- Rewards "Azerite"
+
+--Quest 6 Alliance
+Inst184Quest6 = "6. Den Herzbann absorbieren"
+Inst184Quest6_Aim = "Stärkt Korvashs Schädel in den Tiefen des Kronsteiganwesens."
+Inst184Quest6_Location = "Ulfar (Drustvar - Ulfars Höhle; "..YELLOW.."45.2, 45.8"..WHITE.."), die Questabgabe erfolgt in (Drustvar - Aroms Wehr; "..YELLOW.."36.0, 51.2"..WHITE..")."
+Inst184Quest6_Note = "Den Schädel von Korvahs kann bei dem Endboss gestärkt werden.  Daher verlasse nicht zu schnell die Instanz."
+Inst184Quest6_Prequest = "Öffnen des Weges -> Alptraumfänger - Vergrabene Macht - Fokus des Hasses"
+Inst184Quest6_Folgequest = "In die Dunkelheit"
+Inst184Quest6PreQuest = "true"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst184Quest1_HORDE = Inst184Quest1
+Inst184Quest1_HORDE_Aim = Inst184Quest1_Aim
+Inst184Quest1_HORDE_Location = "Das Kronsteiganwesen"
+Inst184Quest1_HORDE_Note = Inst184Quest1_Note
+Inst184Quest1_HORDE_Prequest = "Nein"
+Inst184Quest1_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst184Quest2_HORDE = Inst184Quest2
+Inst184Quest2_HORDE_Aim = Inst184Quest2_Aim
+Inst184Quest2_HORDE_Location = "Das Kronsteiganwesen"
+Inst184Quest2_HORDE_Note = Inst184Quest2_Note
+Inst184Quest2_HORDE_Prequest = "Nein"
+Inst184Quest2_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst184Quest3_HORDE = Inst184Quest3
+Inst184Quest3_HORDE_Aim = Inst184Quest3_Aim
+Inst184Quest3_HORDE_Location = "Das Kronsteiganwesen"
+Inst184Quest3_HORDE_Note = Inst184Quest3_Note
+Inst184Quest3_HORDE_Prequest = "Nein"
+Inst184Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
+--Quest 4 Horde
+Inst184Quest4_HORDE = Inst184Quest4
+Inst184Quest4_HORDE_Aim = Inst184Quest4_Aim
+Inst184Quest4_HORDE_Location = "Das Kronsteiganwesen"
+Inst184Quest4_HORDE_Note = Inst184Quest4_Note
+Inst184Quest4_HORDE_Prequest = "Nein"
+Inst184Quest4_HORDE_Folgequest = "Nein"
+--
+Inst184Quest4name1_HORDE = "Intaktes Hühnerhirn"
 
 
 
@@ -713,22 +900,72 @@ Inst185QAH = "Keine Quests"
 --------------- INST186 - Battle of Dazar'alor ---------------
 
 Inst186Caption = "Schlacht um Dazar'alor"
-Inst186QAA = "Keine Quests"
-Inst186QAH = "Keine Quests"
+Inst186QAA = "1 Quests"
+Inst186QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst186Quest1 = "1. Schlacht um Dazar'alor"
+Inst186Quest1_Aim = "Besiegt König Rastakhan in der Schlacht von Dazar'alor."
+Inst186Quest1_Location = "Halford Wyrmbann (Boralus - Die Aschenwinddocks; "..YELLOW.."69.4, 27.0"..WHITE..")."
+Inst186Quest1_Note = "Besiege den Endboss und kehre zurück zu Halford Wyrmbann um die Quest abzugeben."
+Inst186Quest1_Prequest = "Nein"
+Inst186Quest1_Folgequest = "Nein"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst186Quest1_HORDE = Inst186Quest1
+Inst186Quest1_HORDE_Aim = Inst186Quest1_Aim
+Inst186Quest1_HORDE_Location = "Prinzessin Talanji (Zuldazar - ; "..YELLOW.."58.0, 21.2"..WHITE..")."
+Inst186Quest1_HORDE_Note = Besiege den Endboss und gebe die Quest bei Nathanos Pestrufer in (Dazar'alor - Der Grosse Basar; "..YELLOW.."58.4, 62.6"..WHITE..") ab."
+Inst186Quest1_HORDE_Prequest = "Nein"
+Inst186Quest1_HORDE_Folgequest = "Nein"
+--
+-- Rewards "Azerite"
 
 
 
 --------------- INST187 - Crucible of Storms ---------------
 
 Inst187Caption = "Der Tiegel der Stürme"
-Inst187QAA = "Keine Quests"
-Inst187QAH = "Keine Quests"
+Inst187QAA = "1 Quests"
+Inst187QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst187Quest1 = "1. Die verschwundene Klinge"
+Inst187Quest1_Aim = "Berichtet König Anduin von der Abwesenheit von Xal'atath."
+Inst187Quest1_Location = "Xal'atath, Klinge des Schwarzen Imperiums (Sturmsangtal - Die Tiegel der Stürme; "..YELLOW.."??.?, ??.?"..WHITE..")."
+Inst187Quest1_Note = "Besiege den Endboss und gebe die Quest bei König Anduin Wrynn in (Sturmwind - Burg Sturmwind; "..YELLOW.."85.6, 31.8"..WHITE..")."
+Inst187Quest1_Prequest = "Nein"
+Inst187Quest1_Folgequest = "Nein"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst187Quest1_HORDE = Inst187Quest1
+Inst187Quest1_HORDE_Aim = "Bringt den Dolch zu Kriegshäuptling Sylvanas Windläufer."
+Inst187Quest1_HORDE_Location = Inst186Quest1_Location
+Inst187Quest1_HORDE_Note = Besiege den Endboss und gebe die Quest bei Fürstin Sylvanas Windläufer in (Ogrimmar - Tal der Stärke; "..YELLOW.."48.4, 71.6"..WHITE..") ab."
+Inst187Quest1_HORDE_Prequest = "Nein"
+Inst187Quest1_HORDE_Folgequest = "Nein"
+--
+-- Rewards "Azerite"
 
 
 
 --------------- INST188 - The Eternal Palace ---------------
 
 Inst188Caption = "Der Ewige Palast"
+Inst188QAA = "Keine Quests"
+Inst188QAH = "Keine Quests"
+
+
+
+--------------- INST189 - Operation: Mechagon ---------------
+
+Inst188Caption = "Operation: Mechagon"
 Inst188QAA = "Keine Quests"
 Inst188QAH = "Keine Quests"
 
