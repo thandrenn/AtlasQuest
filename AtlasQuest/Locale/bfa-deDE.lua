@@ -918,7 +918,7 @@ Inst186Quest1_Folgequest = "Nein"
 Inst186Quest1_HORDE = Inst186Quest1
 Inst186Quest1_HORDE_Aim = Inst186Quest1_Aim
 Inst186Quest1_HORDE_Location = "Prinzessin Talanji (Zuldazar - ; "..YELLOW.."58.0, 21.2"..WHITE..")."
-Inst186Quest1_HORDE_Note = Besiege den Endboss und gebe die Quest bei Nathanos Pestrufer in (Dazar'alor - Der Grosse Basar; "..YELLOW.."58.4, 62.6"..WHITE..") ab."
+Inst186Quest1_HORDE_Note = "Besiege den Endboss und gebe die Quest bei Nathanos Pestrufer in (Dazar'alor - Der Grosse Basar; "..YELLOW.."58.4, 62.6"..WHITE..") ab."
 Inst186Quest1_HORDE_Prequest = "Nein"
 Inst186Quest1_HORDE_Folgequest = "Nein"
 --
@@ -936,7 +936,7 @@ Inst187QAH = "1 Quests"
 Inst187Quest1 = "1. Die verschwundene Klinge"
 Inst187Quest1_Aim = "Berichtet König Anduin von der Abwesenheit von Xal'atath."
 Inst187Quest1_Location = "Xal'atath, Klinge des Schwarzen Imperiums (Sturmsangtal - Die Tiegel der Stürme; "..YELLOW.."??.?, ??.?"..WHITE..")."
-Inst187Quest1_Note = "Besiege den Endboss und gebe die Quest bei König Anduin Wrynn in (Sturmwind - Burg Sturmwind; "..YELLOW.."85.6, 31.8"..WHITE..")."
+Inst187Quest1_Note = "Besiege den Endboss und gebe die Quest bei König Anduin Wrynn in (Sturmwind - Burg Sturmwind; "..YELLOW.."85.6, 31.8"..WHITE..") ab."
 Inst187Quest1_Prequest = "Nein"
 Inst187Quest1_Folgequest = "Nein"
 --
@@ -947,7 +947,7 @@ Inst187Quest1_Folgequest = "Nein"
 Inst187Quest1_HORDE = Inst187Quest1
 Inst187Quest1_HORDE_Aim = "Bringt den Dolch zu Kriegshäuptling Sylvanas Windläufer."
 Inst187Quest1_HORDE_Location = Inst186Quest1_Location
-Inst187Quest1_HORDE_Note = Besiege den Endboss und gebe die Quest bei Fürstin Sylvanas Windläufer in (Ogrimmar - Tal der Stärke; "..YELLOW.."48.4, 71.6"..WHITE..") ab."
+Inst187Quest1_HORDE_Note = "Besiege den Endboss und gebe die Quest bei Fürstin Sylvanas Windläufer in (Ogrimmar - Tal der Stärke; "..YELLOW.."48.4, 71.6"..WHITE..") ab."
 Inst187Quest1_HORDE_Prequest = "Nein"
 Inst187Quest1_HORDE_Folgequest = "Nein"
 --
@@ -958,16 +958,60 @@ Inst187Quest1_HORDE_Folgequest = "Nein"
 --------------- INST188 - The Eternal Palace ---------------
 
 Inst188Caption = "Der Ewige Palast"
-Inst188QAA = "Keine Quests"
-Inst188QAH = "Keine Quests"
+Inst188QAA = "1 Quests"
+Inst188QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst188Quest1 = "1. Der Ewige Palast: Schachzug der Königin"
+Inst188Quest1_Aim = "Besiegt Königin Azshara im Ewigen Palast."
+Inst188Quest1_Location = "Lady Jaina Prachtmeer (Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..")."
+Inst188Quest1_Note = "Besiege den Endboss und gebe die Quest bei Lady Jaina Prachtmeer in ((Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..") ab."
+Inst188Quest1_Prequest = "Nein"
+Inst188Quest1_Folgequest = "Nein"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst188Quest1_HORDE = Inst187Quest1
+Inst188Quest1_HORDE_Aim = "Bringt den Dolch zu Kriegshäuptling Sylvanas Windläufer."
+Inst188Quest1_HORDE_Location = "Lor'themar Theron (Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..")."
+Inst188Quest1_HORDE_Note = "Besiege den Endboss und gebe die Quest bei Lor'themar Theron in (Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..") ab."
+Inst188Quest1_HORDE_Prequest = "Nein"
+Inst188Quest1_HORDE_Folgequest = "Nein"
+--
+-- Rewards "Azerite"
 
 
 
 --------------- INST189 - Operation: Mechagon ---------------
 
-Inst188Caption = "Operation: Mechagon"
-Inst188QAA = "Keine Quests"
-Inst188QAH = "Keine Quests"
+Inst189Caption = "Operation: Mechagon"
+Inst189QAA = "1 Quests"
+Inst189QAH = "1 Quests"
+
+--Quest 1 Alliance
+Inst189Quest1 = "1. Operation: Mechagon: Der Mecherschaffer"
+Inst189Quest1_Aim = "Begebt Euch nach Mechagon und besiegt König Mechagon."
+Inst189Quest1_Location = "Prinz Erazmin (Mechagon - Der Rostbolzen; "..YELLOW.."74.0, 36.8"..WHITE..")."
+Inst189Quest1_Note = "Besiege den Endboss und gebe die Quest bei Prinz Erazmin in der Dungeon ab."
+Inst189Quest1_Prequest = "Nein"
+Inst189Quest1_Folgequest = "Nein"
+--
+Inst189Quest1name1 = "Kiste mit E.R.S.A.T.Z.-Teilen"
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst189Quest1_HORDE = Inst187Quest1
+Inst189Quest1_HORDE_Aim = "Bringt den Dolch zu Kriegshäuptling Sylvanas Windläufer."
+Inst189Quest1_HORDE_Location = "Lor'themar Theron (Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..")."
+Inst189Quest1_HORDE_Note = "Besiege den Endboss und gebe die Quest bei Lor'themar Theron in (Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..") ab."
+Inst189Quest1_HORDE_Prequest = "Nein"
+Inst189Quest1_HORDE_Folgequest = "Nein"
+--
+Inst189Quest1name1_HORDE = "Kiste mit E.R.S.A.T.Z.-Teilen"
+-- Rewards "Azerite"
 
 
 

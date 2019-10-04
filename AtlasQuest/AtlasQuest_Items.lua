@@ -9796,9 +9796,32 @@ Inst186Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."500"..AQAZERITE
 
 --------------- INST188 - The Eternal Palace ---------------
 
+--Quest 1 Alliance
+Inst188Quest1Rewardtext = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
+--ITEM1
+
+
+--Quest 1 Horde
+Inst188Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
+
 
 
 --------------- INST189 - Operatin: Mechagon ---------------
+
+--Quest 1 Alliance
+Inst189Quest1Rewardtext = AQDiscription_REWARD..WHITE.."2500"..AQAZERITE
+--ITEM1
+Inst189Quest1ITC1_HORDE = Itemc4;
+Inst189Quest1description1 = AQITEM_ITEM
+Inst189Quest1ID1 = "169610"
+
+
+--Quest 1 Horde
+Inst189Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."2500"..AQAZERITE
+--ITEM1
+Inst189Quest1ITC1_HORDE = Itemc4;
+Inst189Quest1description1_HORDE = AQITEM_ITEM
+Inst189Quest1ID1_HORDE = "169610"
 
 
 
