@@ -2,16 +2,19 @@
 Changelog
 =========
 
-Version 4.11.55  (for WoW Classic)  September ??, 2019
+Version 4.11.55  (for WoW Classic)  October 6, 2019
 
 - Russian language file updated.  Thank you to "GoodDeath".
+- Fixed quest rewards for RFK Quest 4 "A Vengeful Fate".   Thank you reaper666735 for the report.
+- Removed ancient server item query code.  Its been obsolete for quite some time.
 
 - Cleanup Progress:
 	- Gnomeregan complete.
-	- Scarlet Monastery: Library
-	- Scarlet Monastery: Armory
-	- Scarlet Monastery: Cathedral
-	- Scarlet Monastery: Graveyard
+	- Scarlet Monastery: Library complete.
+	- Scarlet Monastery: Armory complete.
+	- Scarlet Monastery: Cathedral complete.
+	- Scarlet Monastery: Graveyard complete.
+	- Ragefire Chasm complete.
 	
 
 

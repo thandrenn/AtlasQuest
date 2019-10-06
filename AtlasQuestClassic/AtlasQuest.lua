@@ -76,8 +76,6 @@ local AtlasQuest_Defaults = {
     ["AtlasAutoShow"] = 1,
     ["NOColourCheck"] = nil,
     ["CheckQuestlog"] = nil,
-    ["AutoQuery"] = nil,
-    ["NoQuerySpam"] = "yes",
     ["CompareTooltip"] = nil,
   },
 };
@@ -169,10 +167,6 @@ function AtlasQuest_LoadData()
   end
   --AQCheckQuestlog
   AQCheckQuestlog = AtlasQuest_Options[UnitName("player")]["CheckQuestlog"];
-  -- AutoQuery option
-  AQAutoQuery = AtlasQuest_Options[UnitName("player")]["AutoQuery"];
-  -- Suppress Server Query Text option
-  AQNoQuerySpam = AtlasQuest_Options[UnitName("player")]["NoQuerySpam"];
   -- Comparison Tooltips option
   AQCompareTooltip = AtlasQuest_Options[UnitName("player")]["CompareTooltip"];
 
@@ -187,8 +181,6 @@ function AtlasQuest_SaveData()
   AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"] = AQAtlasAuto;
   AtlasQuest_Options[UnitName("player")]["ColourCheck"] = AQNOColourCheck;
   AtlasQuest_Options[UnitName("player")]["CheckQuestlog"] = AQCheckQuestlog;
-  AtlasQuest_Options[UnitName("player")]["AutoQuery"] = AQAutoQuery;
-  AtlasQuest_Options[UnitName("player")]["NoQuerySpam"] = AQNoQuerySpam;
   AtlasQuest_Options[UnitName("player")]["CompareTooltip"] = AQCompareTooltip;
 end
 
@@ -249,8 +241,6 @@ function AQSetButtontext()
       AQColourOptionTEXT:SetText(AQOptionsCCTEXT);
       AQFQ_TEXT:SetText(AQFinishedTEXT);
       AQCheckQuestlogTEXT:SetText(AQQLColourChange);
-      AQAutoQueryTEXT:SetText(AQOptionsAutoQueryTEXT);
-      AQNoQuerySpamTEXT:SetText(AQOptionsNoQuerySpamTEXT);
       AQCompareTooltipTEXT:SetText(AQOptionsCompareTooltipTEXT);
 end
 

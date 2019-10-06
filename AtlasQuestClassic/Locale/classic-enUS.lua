@@ -3894,8 +3894,8 @@ Inst22QAH = "5 Quests"
 --Quest 1 Horde
 Inst22Quest1_HORDE = "1. Testing an Enemy's Strength"
 Inst22Quest1_HORDE_Aim = "Search Orgrimmar for Ragefire Chasm, then kill 8 Ragefire Troggs and 8 Ragefire Shaman before returning to Rahauro in Thunder Bluff."
-Inst22Quest1_HORDE_Location = "Rahauro (Thunder Bluff - Elder Rise; "..YELLOW.."70,29"..WHITE..")"
-Inst22Quest1_HORDE_Note = "You find the troggs at the beginning."
+Inst22Quest1_HORDE_Location = "Rahauro (Thunder Bluff - Elder Rise; "..YELLOW.."70.4, 32.2"..WHITE..")"
+Inst22Quest1_HORDE_Note = "You find the troggs at the beginning of the dungeon."
 Inst22Quest1_HORDE_Prequest = "None"
 Inst22Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
@@ -3903,8 +3903,8 @@ Inst22Quest1_HORDE_Folgequest = "None"
 --Quest 2 Horde
 Inst22Quest2_HORDE = "2. The Power to Destroy..."
 Inst22Quest2_HORDE_Aim = "Bring the books Spells of Shadow and Incantations from the Nether to Varimathras in Undercity."
-Inst22Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst22Quest2_HORDE_Note = "Searing Blade Cultists and Warlocks drop the books"
+Inst22Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56.2, 92.6"..WHITE..")"
+Inst22Quest2_HORDE_Note = "The books can be dropped by Searing Blade Cultists and Searing Blade Warlocks."
 Inst22Quest2_HORDE_Prequest = "None"
 Inst22Quest2_HORDE_Folgequest = "None"
 --
@@ -3915,8 +3915,8 @@ Inst22Quest2name3_HORDE = "Gargoyle Leggings"
 --Quest 3 Horde
 Inst22Quest3_HORDE = "3. Searching for the Lost Satchel"
 Inst22Quest3_HORDE_Aim = "Search Ragefire Chasm for Maur Grimtotem's corpse and search it for any items of interest."
-Inst22Quest3_HORDE_Location = "Rahauro (Thunder Bluff - Elder Rise; "..YELLOW.."70,29"..WHITE..")"
-Inst22Quest3_HORDE_Note = "You find Maur Grimtotem at "..YELLOW.."[1]"..WHITE..". After getting the satchel you must bring it back to Rahauro in Thunder Bluff"
+Inst22Quest3_HORDE_Location = "Rahauro (Thunder Bluff - Elder Rise; "..YELLOW.."70.4, 32.2"..WHITE..")"
+Inst22Quest3_HORDE_Note = "You find Maur Grimtotem at "..YELLOW.."[1]"..WHITE..".  After getting the satchel you must bring it back to Rahauro in Thunder Bluff.  The rewards are for the followup quest."
 Inst22Quest3_HORDE_Prequest = "None"
 Inst22Quest3_HORDE_Folgequest = "Returning the Lost Satchel"
 --
@@ -3926,8 +3926,8 @@ Inst22Quest3name2_HORDE = "Savannah Bracers"
 --Quest 4 Horde
 Inst22Quest4_HORDE = "4. Hidden Enemies"
 Inst22Quest4_HORDE_Aim = "Kill Bazzalan and Jergosh the Invoker before returning to Thrall in Orgrimmar."
-Inst22Quest4_HORDE_Location = "Thrall (Orgrimmar - Valley of Wisdom; "..YELLOW.."31,37"..WHITE..")"
-Inst22Quest4_HORDE_Note = "You find Bazzalan at  "..YELLOW.."[4]"..WHITE.." and Jergosh at "..YELLOW.."[3]"..WHITE..". The questline starts at Warchief Thrall in Orgrimmar."
+Inst22Quest4_HORDE_Location = "Thrall (Orgrimmar - Valley of Wisdom; "..YELLOW.."32.0, 37.8"..WHITE..")"
+Inst22Quest4_HORDE_Note = "You find Bazzalan at  "..YELLOW.."[4]"..WHITE.." and Jergosh the Invoker at "..YELLOW.."[3]"..WHITE..".  The prequest starts at Thrall in Orgrimmar."
 Inst22Quest4_HORDE_Prequest = "Hidden Enemies"
 Inst22Quest4_HORDE_Folgequest = "Hidden Enemies"
 --
@@ -3939,8 +3939,8 @@ Inst22Quest4name4_HORDE = "Staff of Orgrimmar"
 --Quest 5 Horde
 Inst22Quest5_HORDE = "5. Slaying the Beast"
 Inst22Quest5_HORDE_Aim = "Enter Ragefire Chasm and slay Taragaman the Hungerer, then bring his heart back to Neeru Fireblade in Orgrimmar."
-Inst22Quest5_HORDE_Location = "Neeru Fireblade (Orgrimmar - Cleft of Shadow; "..YELLOW.."49,50"..WHITE..")"
-Inst22Quest5_HORDE_Note = "You find Taragaman at "..YELLOW.."[2]"..WHITE.."."
+Inst22Quest5_HORDE_Location = "Neeru Fireblade (Orgrimmar - Cleft of Shadow; "..YELLOW.."49.6, 50.4"..WHITE..")"
+Inst22Quest5_HORDE_Note = "You find Taragaman the Hungerer at "..YELLOW.."[2]"..WHITE.."."
 Inst22Quest5_HORDE_Prequest = "None"
 Inst22Quest5_HORDE_Folgequest = "None"
 -- No Rewards for this quest
@@ -4075,7 +4075,7 @@ Inst24Quest4_Note = "Charlga Razorflank "..YELLOW.."[7]"..WHITE.." drops the Med
 Inst24Quest4_Prequest = "Lonebrow's Journal"
 Inst24Quest4_Folgequest = "None"
 --
-Inst24Quest4name1 = "Falfindel's Blaster"
+Inst24Quest4name1 = "'Mage-Eye' Blunderbuss"
 Inst24Quest4name2 = "Berylline Pads"
 Inst24Quest4name3 = "Stonefist Girdle"
 Inst24Quest4name4 = "Marbled Buckler"

@@ -3156,7 +3156,7 @@ Inst24Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WH
 --ITEM1
 Inst24Quest4ITC1 = Itemc3;
 Inst24Quest4description1 = AQITEM_GUN
-Inst24Quest4ID1 = "29200"
+Inst24Quest4ID1 = "3041"
 --ITEM2
 Inst24Quest4ITC2 = Itemc4;
 Inst24Quest4description2 = AQITEM_SHOULDER..AQITEM_CLOTH
