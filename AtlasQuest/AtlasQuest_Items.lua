@@ -9595,10 +9595,13 @@ Inst179Quest4Rewardtext = AQNoReward
 Inst179Quest5Rewardtext = AQNoReward
 
 --Quest 6 Alliance
-Inst179Quest5Rewardtext = AQNoReward
+Inst179Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst179Quest5Rewardtext = AQNoReward
+Inst179Quest7Rewardtext = AQNoReward
+
+--Quest 8 Alliance
+Inst179Quest8Rewardtext = AQDiscription_REWARD..WHITE.."750"..AQAZERITE
 
 
 --Quest 1 Horde
@@ -9656,10 +9659,10 @@ Inst180Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
 Inst181Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst181Quest1Rewardtext = AQNoReward
+Inst181Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst181Quest1Rewardtext = AQNoReward
+Inst181Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
 Inst181Quest4Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
@@ -9685,10 +9688,10 @@ Inst181Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
 Inst182Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst182Quest1Rewardtext = AQNoReward
+Inst182Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst182Quest1Rewardtext = AQNoReward
+Inst182Quest3Rewardtext = AQNoReward
 
 
 --Quest 1 Horde
@@ -9700,6 +9703,9 @@ Inst182Quest2Rewardtext_HORDE = AQNoReward
 --Quest 3 Horde
 Inst182Quest3Rewardtext_HORDE = AQNoReward
 
+--Quest 4 Horde
+Inst182Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
 
 
 --------------- INST183 - Tol Dagor ---------------
@@ -9708,10 +9714,10 @@ Inst182Quest3Rewardtext_HORDE = AQNoReward
 Inst183Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst183Quest1Rewardtext = AQNoReward
+Inst183Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst183Quest1Rewardtext = AQNoReward
+Inst183Quest3Rewardtext = AQNoReward
 
 
 --Quest 1 Horde
@@ -9731,17 +9737,17 @@ Inst183Quest3Rewardtext_HORDE = AQNoReward
 Inst184Quest1Rewardtext = AQNoReward
 
 --Quest 2 Alliance
-Inst184Quest1Rewardtext = AQNoReward
+Inst184Quest2Rewardtext = AQNoReward
 
 --Quest 3 Alliance
-Inst184Quest1Rewardtext = AQNoReward
+Inst184Quest3Rewardtext = AQNoReward
 
 --Quest 4 Alliance
 Inst184Quest4Rewardtext = AQDiscription_REWARD..GREEN.."1"
 --ITEM1
-Inst184Quest9ITC1 = Itemc3;
-Inst184Quest9description1 = AQITEM_ITEM
-Inst184Quest9ID1 = "160940"
+Inst184Quest4ITC1 = Itemc3;
+Inst184Quest4description1 = AQITEM_ITEM
+Inst184Quest4ID1 = "160940"
 
 --Quest 5 Alliance
 Inst184Quest5Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
@@ -9762,9 +9768,9 @@ Inst184Quest3Rewardtext_HORDE = AQNoReward
 --Quest 4 Horde
 Inst184Quest4Rewardtext_HORDE = AQDiscription_REWARD..GREEN.."1"
 --ITEM1
-Inst184Quest1ITC1_HORDE = Itemc3;
-Inst184Quest1description1_HORDE = AQITEM_ITEM
-Inst184Quest1ID1_HORDE = "160940"
+Inst184Quest4ITC1_HORDE = Itemc3;
+Inst184Quest4description1_HORDE = AQITEM_ITEM
+Inst184Quest4ID1_HORDE = "160940"
 
 
 
@@ -9806,7 +9812,7 @@ Inst188Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
 
 
 
---------------- INST189 - Operatin: Mechagon ---------------
+--------------- INST189 - Operation: Mechagon ---------------
 
 --Quest 1 Alliance
 Inst189Quest1Rewardtext = AQDiscription_REWARD..WHITE.."2500"..AQAZERITE

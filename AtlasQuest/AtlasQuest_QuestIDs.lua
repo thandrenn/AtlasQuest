@@ -3454,10 +3454,12 @@ Inst175Quest3_HORDE_Attain = "120"
 Inst175Quest4_HORDE_QuestID = "49901"
 Inst175Quest4_HORDE_Level = "110"
 Inst175Quest4_HORDE_Attain = "110"
+Inst175Quest4PreQuest_HORDE = "true"
 
 Inst175Quest5_HORDE_QuestID = "51516"
 Inst175Quest5_HORDE_Level = "120"
 Inst175Quest5_HORDE_Attain = "120"
+Inst175Quest5PreQuest_HORDE = "true"
 
 
 
@@ -3496,6 +3498,31 @@ Inst176Quest3_HORDE_Attain = "120"
 
 --------------- INST177 - Kings' Rest ---------------
 
+Inst177Quest1_QuestID = "51500"
+Inst177Quest1_Level = "120"
+Inst177Quest1_Attain = "120"
+
+Inst177Quest2_QuestID = "51501"
+Inst177Quest2_Level = "120"
+Inst177Quest2_Attain = "120"
+
+Inst177Quest3_QuestID = "51502"
+Inst177Quest3_Level = "120"
+Inst177Quest3_Attain = "120"
+
+
+Inst177Quest1_HORDE_QuestID = "51500"
+Inst177Quest1_HORDE_Level = "120"
+Inst177Quest1_HORDE_Attain = "120"
+
+Inst177Quest2_HORDE_QuestID = "51501"
+Inst177Quest2_HORDE_Level = "120"
+Inst177Quest2_HORDE_Attain = "120"
+
+Inst177Quest3_HORDE_QuestID = "51502"
+Inst177Quest3_HORDE_Level = "120"
+Inst177Quest3_HORDE_Attain = "120"
+
 
 
 --------------- INST178 - Shrine of the Storm ---------------
@@ -3508,13 +3535,18 @@ Inst178Quest2_QuestID = "51453"
 Inst178Quest2_Level = "120"
 Inst178Quest2_Attain = "120"
 
-Inst178Quest3_QuestID = "50825"
-Inst178Quest3_Level = "110"
-Inst178Quest3_Attain = "110"
+Inst178Quest3_QuestID = "51456"
+Inst178Quest3_Level = "120"
+Inst178Quest3_Attain = "120"
 
-Inst178Quest4_QuestID = "52510"
-Inst178Quest4_Level = "120"
-Inst178Quest4_Attain = "120"
+Inst178Quest4_QuestID = "50825"
+Inst178Quest4_Level = "110"
+Inst178Quest4_Attain = "110"
+
+Inst178Quest5_QuestID = "52510"
+Inst178Quest5_Level = "120"
+Inst178Quest5_Attain = "120"
+Inst178Quest5PreQuest = "true"
 
 
 Inst178Quest1_HORDE_QuestID = "51455"
@@ -3525,9 +3557,75 @@ Inst178Quest2_HORDE_QuestID = "51453"
 Inst178Quest2_HORDE_Level = "120"
 Inst178Quest2_HORDE_Attain = "120"
 
+Inst178Quest3_HORDE_QuestID = "51456"
+Inst178Quest3_HORDE_Level = "120"
+Inst178Quest3_HORDE_Attain = "120"
+
 
 
 --------------- INST179 - Siege of Boralus ---------------
+
+Inst179Quest1_QuestID = "52761"
+Inst179Quest1_Level = "120"
+Inst179Quest1_Attain = "120"
+
+Inst179Quest2_QuestID = "52778"
+Inst179Quest2_Level = "120"
+Inst179Quest2_Attain = "120"
+
+Inst179Quest3_QuestID = "52763"
+Inst179Quest3_Level = "120"
+Inst179Quest3_Attain = "120"
+
+Inst179Quest4_QuestID = "52771"
+Inst179Quest4_Level = "120"
+Inst179Quest4_Attain = "120"
+
+Inst179Quest5_QuestID = "52780"
+Inst179Quest5_Level = "120"
+Inst179Quest5_Attain = "120"
+
+Inst179Quest6_QuestID = "53128"
+Inst179Quest6_Level = "120"
+Inst179Quest6_Attain = "120"
+
+Inst179Quest7_QuestID = "52775"
+Inst179Quest7_Level = "120"
+Inst179Quest7_Attain = "120"
+
+Inst179Quest8_QuestID = "52153"
+Inst179Quest8_Level = "110"
+Inst179Quest8_Attain = "110"
+Inst179Quest8PreQuest = "true"
+
+
+Inst179Quest1_HORDE_QuestID = "52761"
+Inst179Quest1_HORDE_Level = "120"
+Inst179Quest1_HORDE_Attain = "120"
+
+Inst179Quest2_HORDE_QuestID = "52778"
+Inst179Quest2_HORDE_Level = "120"
+Inst179Quest2_HORDE_Attain = "120"
+
+Inst179Quest3_HORDE_QuestID = "52763"
+Inst179Quest3_HORDE_Level = "120"
+Inst179Quest3_HORDE_Attain = "120"
+
+Inst179Quest4_HORDE_QuestID = "52771"
+Inst179Quest4_HORDE_Level = "120"
+Inst179Quest4_HORDE_Attain = "120"
+
+Inst179Quest5_HORDE_QuestID = "52780"
+Inst179Quest5_HORDE_Level = "120"
+Inst179Quest5_HORDE_Attain = "120"
+
+Inst179Quest6_HORDE_QuestID = "53127"
+Inst179Quest6_HORDE_Level = "120"
+Inst179Quest6_HORDE_Attain = "120"
+
+Inst179Quest7_HORDE_QuestID = "52775"
+Inst179Quest7_HORDE_Level = "120"
+Inst179Quest7_HORDE_Attain = "120"
 
 
 
@@ -3561,14 +3659,79 @@ Inst180Quest3_HORDE_Attain = "120"
 Inst180Quest4_HORDE_QuestID = "50551"
 Inst180Quest4_HORDE_Level = "110"
 Inst180Quest4_HORDE_Attain = "110"
+Inst180Quest4PreQuest_HORDE = "true"
 
 
 
 --------------- INST181 - The Motherlode ---------------
 
+Inst181Quest1_QuestID = "52295"
+Inst181Quest1_Level = "120"
+Inst181Quest1_Attain = "120"
+
+Inst181Quest2_QuestID = "52298"
+Inst181Quest2_Level = "120"
+Inst181Quest2_Attain = "120"
+
+Inst181Quest3_QuestID = "52302"
+Inst181Quest3_Level = "120"
+Inst181Quest3_Attain = "120"
+
+Inst181Quest4_QuestID = "53351"
+Inst181Quest4_Level = "110"
+Inst181Quest4_Attain = "110"
+Inst181Quest4PreQuest = "true"
+
+
+Inst181Quest1_HORDE_QuestID = "52295"
+Inst181Quest1_HORDE_Level = "120"
+Inst181Quest1_HORDE_Attain = "120"
+
+Inst181Quest2_HORDE_QuestID = "52298"
+Inst181Quest2_HORDE_Level = "120"
+Inst181Quest2_HORDE_Attain = "120"
+
+Inst181Quest3_HORDE_QuestID = "52302"
+Inst181Quest3_HORDE_Level = "120"
+Inst181Quest3_HORDE_Attain = "120"
+
+Inst181Quest4_HORDE_QuestID = "53437"
+Inst181Quest4_HORDE_Level = "110"
+Inst181Quest4_HORDE_Attain = "110"
+
 
 
 --------------- INST182 - The Underrot ---------------
+
+Inst182Quest1_QuestID = "51856"
+Inst182Quest1_Level = "120"
+Inst182Quest1_Attain = "120"
+
+Inst182Quest2_QuestID = "52238"
+Inst182Quest2_Level = "120"
+Inst182Quest2_Attain = "120"
+
+Inst182Quest3_QuestID = "52237"
+Inst182Quest3_Level = "120"
+Inst182Quest3_Attain = "120"
+
+
+Inst182Quest1_HORDE_QuestID = "51856"
+Inst182Quest1_HORDE_Level = "120"
+Inst182Quest1_HORDE_Attain = "120"
+
+Inst182Quest2_HORDE_QuestID = "52238"
+Inst182Quest2_HORDE_Level = "120"
+Inst182Quest2_HORDE_Attain = "120"
+
+Inst182Quest3_HORDE_QuestID = "52237"
+Inst182Quest3_HORDE_Level = "120"
+Inst182Quest3_HORDE_Attain = "120"
+
+Inst182Quest4_HORDE_QuestID = "51302"
+Inst182Quest4_HORDE_Level = "110"
+Inst182Quest4_HORDE_Attain = "110"
+Inst182Quest4PreQuest_HORDE = "true"
 
 
 
@@ -3582,6 +3745,21 @@ Inst180Quest4_HORDE_Attain = "110"
 
 --------------- INST185 - Uldir ---------------
 
+
+
+--------------- INST186 - Battle of Dazar'alor ---------------
+
+
+
+--------------- INST187 - Crucible of Storms ---------------
+
+
+
+--------------- INST188 - The Eternal Palace ---------------
+
+
+
+--------------- INST189 - Operation: Mechagon ---------------
 
 
 
