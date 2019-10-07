@@ -226,7 +226,6 @@ end
 -- Set the button text
 -----------------------------------------------------------------------------
 function AQSetButtontext()
---      STORYbutton:SetText(AQStoryB);
       OPTIONbutton:SetText(AQOptionB);
       AQOptionCloseButton:SetText(AQ_OK);
 	  AQOptionQuestQueryButton:SetText(AQQuestQueryButtonTEXT);

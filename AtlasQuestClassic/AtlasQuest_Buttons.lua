@@ -380,7 +380,6 @@ end
     if (what == "name") then
       return itemtext;
     elseif (what == "extra") then
---    itemdiscription = itemdiscription.." "..RED..AQERRORNOTSHOWN;  -- No longer necessary.
       return itemdiscription;
     end
   end
