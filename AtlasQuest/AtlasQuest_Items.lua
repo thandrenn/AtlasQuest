@@ -9719,6 +9719,9 @@ Inst183Quest2Rewardtext = AQNoReward
 --Quest 3 Alliance
 Inst183Quest3Rewardtext = AQNoReward
 
+--Quest 4 Alliance
+Inst183Quest4Rewardtext = AQDiscription_REWARD..WHITE.."600"..AQAZERITE
+
 
 --Quest 1 Horde
 Inst183Quest1Rewardtext_HORDE = AQNoReward
@@ -9776,6 +9779,8 @@ Inst184Quest4ID1_HORDE = "160940"
 
 --------------- INST185 - Uldir ---------------
 
+-- No quests
+
 
 
 --------------- INST186 - Battle of Dazar'alor ---------------
@@ -9804,11 +9809,22 @@ Inst186Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."500"..AQAZERITE
 
 --Quest 1 Alliance
 Inst188Quest1Rewardtext = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
---ITEM1
+
+--Quest 2 Alliance
+Inst188Quest2Rewardtext = AQNoReward
+
+--Quest 3 Alliance
+Inst188Quest3Rewardtext = AQNoReward
 
 
 --Quest 1 Horde
 Inst188Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
+
+--Quest 2 Horde
+Inst188Quest2Rewardtext_HORDE = AQNoReward
+
+--Quest 3 Horde
+Inst188Quest3Rewardtext_HORDE = AQNoReward
 
 
 

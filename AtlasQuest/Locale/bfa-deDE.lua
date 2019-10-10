@@ -809,12 +809,12 @@ Inst184Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst184Quest2 = "3. Das Kronsteiganwesen: Eine Hexe zu viel"
-Inst184Quest2_Aim = "Töte Matrone Christiane und Gorak Tul."
-Inst184Quest2_Location = "Das Kronsteiganwesen"
-Inst184Quest2_Note = AQ_WORLDDUNGEONQUEST
-Inst184Quest2_Prequest = "Nein"
-Inst184Quest2_Folgequest = "Nein"
+Inst184Quest3 = "3. Das Kronsteiganwesen: Eine Hexe zu viel"
+Inst184Quest3_Aim = "Töte Matrone Christiane und Gorak Tul."
+Inst184Quest3_Location = "Das Kronsteiganwesen"
+Inst184Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst184Quest3_Prequest = "Nein"
+Inst184Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -828,7 +828,7 @@ Inst184Quest4_Folgequest = "Nein"
 Inst175Quest5name1 = "Intaktes Hühnerhirn"
 
 --Quest 5 Alliance
-Inst184Quest5 = "1. Die gefallene Mutter"
+Inst184Quest5 = "5. Die gefallene Mutter"
 Inst184Quest5_Aim = "Besiegt Lady Kronsteig im Kronsteiganwesen."
 Inst184Quest5_Location = "Luzilla Kronsteig (Drustvar - Das Kronsteiganwesen; "..YELLOW.."32.8, 15.4"..WHITE.."), die Questabgabe erfolgt in (Drustvar - Aroms Wehr; "..YELLOW.."36.0, 51.2"..WHITE..")."
 Inst184Quest5_Note = "Lady Kronsteig ist der Endboss."

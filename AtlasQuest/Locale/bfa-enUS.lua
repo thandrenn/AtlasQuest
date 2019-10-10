@@ -747,16 +747,176 @@ Inst182Quest4_HORDE_Folgequest = "Halting the Empire's Fall"
 --------------- INST183 - Tol Dagor ---------------
 
 Inst183Caption = "Tol Dagor"
-Inst183QAA = "No Quests"
-Inst183QAH = "No Quests"
+Inst183QAA = "4 Quests"
+Inst183QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst183Quest1 = "1. Tol Dagor: The Overseer's Pride"
+Inst183Quest1_Aim = "Recover The Pride of Kul Tiras and slay the final boss in the dungeon."
+Inst183Quest1_Location = "Tol Dagor"
+Inst183Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst183Quest1_Prequest = "None"
+Inst183Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst183Quest2 = "2. Tol Dagor: Shorefront Property"
+Inst183Quest2_Aim = "Slay Liskorath and the final boss in the dungeon."
+Inst183Quest2_Location = "Tol Dagor"
+Inst183Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst183Quest2_Prequest = "None"
+Inst183Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst183Quest3 = "3. Tol Dagor: Sealed Supplies"
+Inst183Quest3_Aim = "Recover 6 Sealed Kul Tiran Crates and slay the final boss in the dungeon."
+Inst183Quest3_Location = "Tol Dagor"
+Inst183Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst183Quest3_Prequest = "None"
+Inst183Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst183Quest4 = "4. Tol Dagor: The Ashvane Overseer"
+Inst183Quest4_Aim = "Retrieve the Tol Dagor Master Key from Overseer Korgus."
+Inst183Quest4_Location = "Cyrus Crestfall (Boralus - Harbormaster's Office; "..YELLOW.."68.0, 22.0"..WHITE..")"
+Inst183Quest4_Note = "Overseer Korgus is the final boss in the dungeon."
+Inst183Quest4_Prequest = "None"
+Inst183Quest4_Folgequest = "None"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst183Quest1_HORDE = Inst183Quest1
+Inst183Quest1_HORDE_Aim = Inst183Quest1_Aim
+Inst183Quest1_HORDE_Location = Inst183Quest1_Location
+Inst183Quest1_HORDE_Note = Inst183Quest1_Note
+Inst183Quest1_HORDE_Prequest = Inst183Quest1_Prequest
+Inst183Quest1_HORDE_Folgequest = Inst183Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst183Quest2_HORDE = Inst183Quest2
+Inst183Quest2_HORDE_Aim = Inst183Quest2_Aim
+Inst183Quest2_HORDE_Location = Inst183Quest2_Location
+Inst183Quest2_HORDE_Note = Inst183Quest2_Note
+Inst183Quest2_HORDE_Prequest = Inst183Quest2_Prequest
+Inst183Quest2_HORDE_Folgequest = Inst183Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst183Quest3_HORDE = Inst183Quest3
+Inst183Quest3_HORDE_Aim = Inst183Quest3_Aim
+Inst183Quest3_HORDE_Location = Inst183Quest3_Location
+Inst183Quest3_HORDE_Note = Inst183Quest3_Note
+Inst183Quest3_HORDE_Prequest = Inst183Quest3_Prequest
+Inst183Quest3_HORDE_Folgequest = Inst183Quest3_Folgequest
+-- No Rewards for this quest
 
 
 
 --------------- INST184 - Waycrest Manor ---------------
 
 Inst184Caption = "Waycrest Manor"
-Inst184QAA = "No Quests"
-Inst184QAH = "No Quests"
+Inst184QAA = "6 Quests"
+Inst184QAH = "4 Quests"
+
+--Quest 1 Alliance
+Inst184Quest1 = "1. Waycrest Manor: Something to Crow About"
+Inst184Quest1_Aim = "Slay Corvus and the final boss in the dungeon."
+Inst184Quest1_Location = "Waycrest Manor"
+Inst184Quest1_Note = AQ_WORLDDUNGEONQUEST
+Inst184Quest1_Prequest = "None"
+Inst184Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst184Quest2 = "2. Waycrest Manor: Witchy Kitchen"
+Inst184Quest2_Aim = "Slay Executive Chef Daniel, Roast Chef Rhonda, Sauciere Samuel and Gorak Tul."
+Inst184Quest2_Location = "Waycrest Manor"
+Inst184Quest2_Note = AQ_WORLDDUNGEONQUEST
+Inst184Quest2_Prequest = "None"
+Inst184Quest2_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst184Quest3 = "3. Waycrest Manor: No need to Hag-gle"
+Inst184Quest3_Aim = "Slay Matron Christiane and the final boss in the dungeon."
+Inst184Quest3_Location = "Waycrest Manor"
+Inst184Quest3_Note = AQ_WORLDDUNGEONQUEST
+Inst184Quest3_Prequest = "None"
+Inst184Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst184Quest4 = "4. Cutting Edge Poultry Science"
+Inst184Quest4_Aim = "Take the Delicious Chicken to Dr. Oglethorpe in Booty Bay."
+Inst184Quest4_Location = "Waycrest Manor (Kitchen)"
+Inst184Quest4_Note = "To get the chicken to spawn for the quest, you must let Roast Chef Rhonda cast 'Raw Chicken'.  This spawns a Raw Chicken.  Then let her cast 'Roasting Fire' on that Raw Chicken.  Then let Sauciere Samuel cast 'Gravy Spray' on any resulting Cooked Chicken.  This should result in a 'Delicious Chicken' that starts the quest.  Thanks to user 'duduhead96' on Wowhead for this information.  Turn the quest in to Oglethorpe Obnoticus (The Cape of Stranglethorn - Booty Bay; "..YELLOW.."43.0, 72.0"..WHITE..")."
+Inst184Quest4_Prequest = "None"
+Inst184Quest4_Folgequest = "None"
+--
+Inst184Quest4name1 = "Intact Chicken Brain"
+
+--Quest 5 Alliance
+Inst184Quest5 = "5. Waycrest Manor: The Fallen Mother"
+Inst184Quest5_Aim = "Defeat Lady Waycrest in Waycrest Manor."
+Inst184Quest5_Location = "Lucille Waycrest (Drustvar - Corlain; "..YELLOW.."31.4, 30.2"..WHITE..")"
+Inst184Quest5_Note = "Part of the 'Storming the Manor' questline.  It starts at the same NPC.  The quest turns in to Lucille Waycrest (Drustvar - Arom's Stand; "..YELLOW.."36.8, 50.0"..WHITE..")."
+Inst184Quest5_Prequest = "To the Other Side -> Storming the Manor"
+Inst184Quest5_Folgequest = "None"
+--
+-- Rewards "Azerite"
+
+--Quest 6 Alliance
+Inst184Quest6 = "6. Waycrest Manor: Draining the Heartsbane"
+Inst184Quest6_Aim = "Empower Korvash's Skull in the depths of Waycrest Manor and defeat the final boss in the dungeon."
+Inst184Quest6_Location = "Ulfar (Drustvar - Ulfar's Cave; "..YELLOW.."45.2, 45.8"..WHITE..")"
+Inst184Quest6_Note = "Part of the 'Pride of Kul'Tiras' questline.  An extra action button will appear in Lord Waycrest's room allowing you to empower Korvash's Skull."
+Inst184Quest6_Prequest = "What You May Regret -> Hatred's Focus"
+Inst184Quest6_Folgequest = "Into Darkness"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst184Quest1_HORDE = Inst184Quest1
+Inst184Quest1_HORDE_Aim = Inst184Quest1_Aim
+Inst184Quest1_HORDE_Location = Inst184Quest1_Location
+Inst184Quest1_HORDE_Note = Inst184Quest1_Note
+Inst184Quest1_HORDE_Prequest = Inst184Quest1_Prequest
+Inst184Quest1_HORDE_Folgequest = Inst184Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst184Quest2_HORDE = Inst184Quest2
+Inst184Quest2_HORDE_Aim = Inst184Quest2_Aim
+Inst184Quest2_HORDE_Location = Inst184Quest2_Location
+Inst184Quest2_HORDE_Note = Inst184Quest2_Note
+Inst184Quest2_HORDE_Prequest = Inst184Quest2_Prequest
+Inst184Quest2_HORDE_Folgequest = Inst184Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst184Quest3_HORDE = Inst184Quest3
+Inst184Quest3_HORDE_Aim = Inst184Quest3_Aim
+Inst184Quest3_HORDE_Location = Inst184Quest3_Location
+Inst184Quest3_HORDE_Note = Inst184Quest3_Note
+Inst184Quest3_HORDE_Prequest = Inst184Quest3_Prequest
+Inst184Quest3_HORDE_Folgequest = Inst184Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst184Quest4_HORDE = Inst184Quest4
+Inst184Quest4_HORDE_Aim = Inst184Quest4_Aim
+Inst184Quest4_HORDE_Location = Inst184Quest4_Location
+Inst184Quest4_HORDE_Note = Inst184Quest4_Note
+Inst184Quest4_HORDE_Prequest = Inst184Quest4_Prequest
+Inst184Quest4_HORDE_Folgequest = Inst184Quest4_Folgequest
+--
+Inst184Quest4name1_HORDE = Inst184Quest4name1
 
 
 
@@ -768,6 +928,158 @@ Inst185QAH = "No Quests"
 
 
 
+--------------- INST186 - Battle of Dazar'alor ---------------
+
+Inst186Caption = "Battle of Dazar'alor"
+Inst186QAA = "1 Quest"
+Inst186QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst186Quest1 = "1. Battle of Dazar'alor"
+Inst186Quest1_Aim = "Defeat King Rastakhan in the Battle of Dazar'alor raid."
+Inst186Quest1_Location = "Halford Wyrmbane (Boralus; "..YELLOW.."69.4, 27.0"..WHITE..")"
+Inst186Quest1_Note = "King Rastakhan is the final boss in the raid.  This quest can be completed on any difficulty."
+Inst186Quest1_Prequest = "The Fall of Zuldazar -> He Who Walks in the Light"
+Inst186Quest1_Folgequest = "None"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst186Quest1_HORDE = "1. Battle of Dazar'alor"
+Inst186Quest1_HORDE_Aim = "Defeat Jaina Proudmoore in the Battle of Dazar'alor raid."
+Inst186Quest1_HORDE_Location = "Princess Talanji (Zuldazar; "..YELLOW.."58.0, 21.2"..WHITE..")"
+Inst186Quest1_HORDE_Note = "Jaina Proudmoore is the final boss in the raid.   This quest can be completed on any difficulty."
+Inst186Quest1_HORDE_Prequest = "War Is Here -> Fly Out to Meet Them"
+Inst186Quest1_HORDE_Folgequest = "None"
+--
+-- Rewards "Azerite"
+
+
+
+--------------- INST187 - Crucible of Storms ---------------
+
+Inst187Caption = "Crucible of Storms"
+Inst187QAA = "1 Quest"
+Inst187QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst187Quest1 = "1. The Missing Blade"
+Inst187Quest1_Aim = "Inform King Anduin about the absence of Xal'atath."
+Inst187Quest1_Location = "Crucible of Storms, final boss"
+Inst187Quest1_Note = "Click on Xal'atath, Blade of the Black Empire on the ground after defeating the final boss.  The quest turns in to Anduin Wrynn (Stormwind City - Stormwind Keep; "..YELLOW.."85.6, 31.8"..WHITE..")."
+Inst187Quest1_Prequest = "None"
+Inst187Quest1_Folgequest = "None"
+--
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst187Quest1_HORDE = "1. The Black Blade"
+Inst187Quest1_HORDE_Aim = "Bring the Dagger to Warchief Sylvanas Windrunner."
+Inst187Quest1_HORDE_Location = "Crucible of Storms, final boss"
+Inst187Quest1_HORDE_Note = "Click on Xal'atath, Blade of the Black Empire on the ground after defeating the final boss.  The quest turns in to Lady Sylvanas Windrunner (Orgrimmar - Valley of Strength; "..YELLOW.."48.4, 71.4"..WHITE..")."
+Inst187Quest1_HORDE_Prequest = "None"
+Inst187Quest1_HORDE_Folgequest = "None"
+--
+-- Rewards "Azerite"
+
+
+
+--------------- INST188 - The Eternal Palace ---------------
+
+Inst188Caption = "The Eternal Palace"
+Inst188QAA = "3 Quests"
+Inst188QAH = "3 Quests"
+
+--Quest 1 Alliance
+Inst188Quest1 = "1. The Eternal Palace: Queen's Gambit"
+Inst188Quest1_Aim = "Defeat Queen Azshara in the Eternal Palace."
+Inst188Quest1_Location = "Lady Jaina Proudmoore (Nazjatar; "..YELLOW.."50.4, 24.0"..WHITE..")"
+Inst188Quest1_Note = "Queen Azshara is the final boss in the raid.  This quest can be completed on any difficulty."
+Inst188Quest1_Prequest = "None"
+Inst188Quest1_Folgequest = "None"
+--
+-- Rewards "Azerite"
+
+--Quest 2 Alliance
+Inst188Quest2 = "2. The Eternal Palace: We Can Make It Stronger..."
+Inst188Quest2_Aim = "Collect 20 Eternal Ornaments from the most powerful creatures of the Eternal Palace."
+Inst188Quest2_Location = "Instructor Ulooaka (Naz'jatar - Mezzamere; "..YELLOW.."38.0, 53.0"..WHITE..")"
+Inst188Quest2_Note = "This quest can be completed on any difficulty, but more Eternal Ornaments drop from higher difficulties."
+Inst188Quest2_Prequest = "Ancient Technology -> An Abyssal Opportunity"
+Inst188Quest2_Folgequest = "The Eternal Palace: Pushing the Limits"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst188Quest3 = "3. The Eternal Palace: Pushing the Limits"
+Inst188Quest3_Aim = "Collect 200 Eternal Ornaments from the most powerful creatures of the Eternal Palace."
+Inst188Quest3_Location = "Instructor Ulooaka (Naz'jatar - Mezzamere; "..YELLOW.."38.0, 53.0"..WHITE..")"
+Inst188Quest3_Note = "This quest can be completed on any difficulty, but more Eternal Ornaments drop from higher difficulties."
+Inst188Quest3_Prequest = "The Eternal Palace: We Can Make It Stronger..."
+Inst188Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde
+Inst188Quest1_HORDE = Inst188Quest1
+Inst188Quest1_HORDE_Aim = Inst188Quest1_Aim
+Inst188Quest1_HORDE_Location = "Lor'themar Theron (Nazjatar; "..YELLOW.."50.4, 24.0"..WHITE..")."
+Inst188Quest1_HORDE_Note = Inst188Quest1_Note
+Inst188Quest1_HORDE_Prequest = Inst188Quest1_Prequest
+Inst188Quest1_HORDE_Folgequest = Inst188Quest1_Folgequest
+--
+-- Rewards "Azerite"
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst188Quest2_HORDE = Inst188Quest2
+Inst188Quest2_HORDE_Aim = Inst188Quest2_Aim
+Inst188Quest2_HORDE_Location = "Rolm (Naz'jatar - Newhome; "..YELLOW.."49.2, 61.8"..WHITE..")"
+Inst188Quest2_HORDE_Note = Inst188Quest2_Note
+Inst188Quest2_HORDE_Prequest = Inst188Quest2_Prequest
+Inst188Quest2_HORDE_Folgequest = Inst188Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst188Quest3_HORDE = Inst188Quest3
+Inst188Quest3_HORDE_Aim = Inst188Quest3_Aim
+Inst188Quest3_HORDE_Location = "Rolm (Naz'jatar - Newhome; "..YELLOW.."49.2, 61.8"..WHITE..")"
+Inst188Quest3_HORDE_Note = Inst188Quest3_Note
+Inst188Quest3_HORDE_Prequest = Inst188Quest3_Prequest
+Inst188Quest3_HORDE_Folgequest = Inst188Quest3_Folgequest
+-- No Rewards for this quest
+
+
+
+--------------- INST189 - Operation: Mechagon ---------------
+
+Inst189Caption = "Operation: Mechagon"
+Inst189QAA = "1 Quest"
+Inst189QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst189Quest1 = "1. Operation: Mechagon - The Mechoriginator"
+Inst189Quest1_Aim = "Enter Mechagon and defeat King Mechagon."
+Inst189Quest1_Location = "Prince Erazmin (Mechagon - Rustbolt; "..YELLOW.."74.0, 36.8"..WHITE..")"
+Inst189Quest1_Note = "King Mechagon is the final boss in the dungeon."
+Inst189Quest1_Prequest = "None"
+Inst189Quest1_Folgequest = "None"
+--
+Inst189Quest1name1 = "S.P.A.R.E. Crate"
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst189Quest1_HORDE = Inst189Quest1
+Inst189Quest1_HORDE_Aim = Inst189Quest1_Aim
+Inst189Quest1_HORDE_Location = Inst189Quest1_Location
+Inst189Quest1_HORDE_Note = Inst189Quest1_Note
+Inst189Quest1_HORDE_Prequest = Inst189Quest1_Prequest
+Inst189Quest1_HORDE_Folgequest = Inst189Quest1_Folgequest
+--
+Inst189Quest1name1_HORDE = Inst189Quest1name1
+-- No Rewards for this quest
+-- Reward varies for each class
 
 
 

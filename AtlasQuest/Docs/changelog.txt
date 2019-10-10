@@ -28,6 +28,23 @@ Version 4.11.02  (October 7, 2019)
 	- The Underrot: Mysterious Spores
 	- The Underrot: Restless Horror
 	- The Underrot: Sealing G'huun's Corruption
+	- Tol Dagor: The Overseer's Pride
+	- Tol Dagor: Shorefront Property
+	- Tol Dagor: Sealed Supplies
+	- Tol Dagor: The Ashvane Overseer
+	- Waycrest Manor: Something to Crow About
+	- Waycrest Manor: Witchy Kitchen
+	- Waycrest Manor: No need to Hag-gle
+	- Waycrest Manor: Cutting Edge Poultry Science
+	- Waycrest Manor: The Fallen Mother
+	- Waycrest Manor: Draining the Heartsbane
+	- Battle of Dazar'alor
+	- Crucible of Storms: The Missing Blade
+	- Crucible of Storms: The Black Blade
+	- The Eternal Palace: Queen's Gambit
+	- The Eternal Palace: We Can Make It Stronger...
+	- The Eternal Palace: Pushing the Limits
+	- Operation: Mechagon - The Mechoriginator
 	
 
 

@@ -263,7 +263,7 @@
 	<Anchors>
 		<Anchor point="TOPLEFT">
 			<Offset>
-				<AbsDimension x="10" y="-260"></AbsDimension>
+				<AbsDimension x="10" y="-200"></AbsDimension>
 			</Offset>
 		</Anchor>
 		<HitRectInsets>
@@ -385,7 +385,7 @@
        <Anchors>
          <Anchor point="TOPLEFT">
            <Offset>
-              <AbsDimension x="45" y="-260"/>
+              <AbsDimension x="45" y="-200"/>
            </Offset>
          </Anchor>
        </Anchors>
