@@ -755,6 +755,11 @@ Inst11Quest11_Level = "60"
 Inst11Quest11_Attain = "58"
 Inst11Quest11PreQuest = "true"
 
+Inst11Quest12_QuestID = "7647"
+Inst11Quest12_Level = "60"
+Inst11Quest12_Attain = "60"
+Inst11Quest12PreQuest = "true"
+
 
 Inst11Quest1_HORDE_QuestID = "5529"
 Inst11Quest1_HORDE_Level = Inst11Quest1_Level

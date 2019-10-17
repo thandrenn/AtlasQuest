@@ -1325,6 +1325,9 @@ Inst11Quest10Rewardtext = AQNoReward
 --Quest 11 Alliance
 Inst11Quest11Rewardtext = AQNoReward
 
+--Quest 12 Alliance
+Inst11Quest12Rewardtext = AQNoReward
+
 
 --Quest 1 Horde
 Inst11Quest1Rewardtext_HORDE = AQNoReward

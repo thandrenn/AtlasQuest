@@ -1172,7 +1172,7 @@ Inst5Quest5name3 = "Staff of Westfall"
 Inst5Quest6 = "6. The Test of Righteousness"
 Inst5Quest6_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
 Inst5Quest6_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
-Inst5Quest6_Note = "Paladin quest.  You get the Whitestone Oak Lumber from Goblin Woodcarvers in near "..YELLOW.."[3]"..WHITE..".\n\nThe remaining items come from Shadowfang Keep, Loch Modan, Darkshore and Ashenvale.  Some require doing side quests.  I recommend looking it up on Wowhead for all the defails."
+Inst5Quest6_Note = "Paladin quest.  You get the Whitestone Oak Lumber from Goblin Woodcarvers in near "..YELLOW.."[3]"..WHITE..".\n\nThe remaining items come from "..YELLOW.."[Shadowfang Keep]"..WHITE..", Loch Modan, Darkshore and Ashenvale.  Some require doing side quests.  I recommend looking it up on Wowhead for all the details."
 Inst5Quest6_Prequest = "The Tome of Valor -> The Test of Righteousness"
 Inst5Quest6_Folgequest = "The Test of Righteousness"
 --
@@ -1589,13 +1589,13 @@ Inst10Quest2_HORDE_Folgequest = Inst7Quest1_HORDE_Folgequest
 --------------- INST11 - Scholomance ---------------
 
 Inst11Caption = "Scholomance"
-Inst11QAA = "11 Quests"
+Inst11QAA = "12 Quests"
 Inst11QAH = "12 Quests"
 
 --Quest 1 Alliance
 Inst11Quest1 = "1. Plagued Hatchlings"
 Inst11Quest1_Aim = "Kill 20 Plagued Hatchlings, then return to Betina Bigglezink at the Light's Hope Chapel."
-Inst11Quest1_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."75.6, 53.6"..WHITE..")"
+Inst11Quest1_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81.4, 59.6"..WHITE..")"
 Inst11Quest1_Note = "The Plagued Hatchlings are on the way to Rattlegore in a large room."
 Inst11Quest1_Prequest = "None"
 Inst11Quest1_Folgequest = "Healthy Dragon Scale"
@@ -1605,7 +1605,7 @@ Inst11Quest1_Folgequest = "Healthy Dragon Scale"
 Inst11Quest2 = "2. Healthy Dragon Scale"
 Inst11Quest2_Aim = "Bring the Healthy Dragon Scale to Betina Bigglezink at the Light's Hope Chapel in Eastern Plaguelands."
 Inst11Quest2_Location = "Healthy Dragon Scale (random drop in Scholomance)"
-Inst11Quest2_Note = "Plagued Hatchlings drop the Healthy Dragon Scales (8% chance to drop). You can find Betina Bigglezink at Eastern Plaguelands - Light's Hope Chapel ("..YELLOW.."75.6, 53.6"..WHITE..")."
+Inst11Quest2_Note = "Plagued Hatchlings can drop the Healthy Dragon Scales.  You can find Betina Bigglezink at Eastern Plaguelands - Light's Hope Chapel ("..YELLOW.."81.4, 59.6"..WHITE..")."
 Inst11Quest2_Prequest = "Plagued Hatchlings "
 Inst11Quest2_Folgequest = "None"
 -- No Rewards for this quest
@@ -1613,7 +1613,7 @@ Inst11Quest2_Folgequest = "None"
 --Quest 3 Alliance
 Inst11Quest3 = "3. Doctor Theolen Krastinov, the Butcher"
 Inst11Quest3_Aim = "Find Doctor Theolen Krastinov inside the Scholomance. Destroy him, then burn the Remains of Eva Sarkhoff and the Remains of Lucien Sarkhoff. Return to Eva Sarkhoff when the task is complete."
-Inst11Quest3_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
+Inst11Quest3_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70.2, 73.8"..WHITE..")"
 Inst11Quest3_Note = "You find Doctor Theolen Krastinov, the remains of Eva Sarkhoff and the remains of Lucien Sarkhoff at "..YELLOW.."[9]"..WHITE.."."
 Inst11Quest3_Prequest = "None"
 Inst11Quest3_Folgequest = "Krastinov's Bag of Horrors"
@@ -1622,7 +1622,7 @@ Inst11Quest3_Folgequest = "Krastinov's Bag of Horrors"
 --Quest 4 Alliance
 Inst11Quest4 = "4. Krastinov's Bag of Horrors"
 Inst11Quest4_Aim = "Locate Jandice Barov in the Scholomance and destroy her. From her corpse recover Krastinov's Bag of Horrors. Return the bag to Eva Sarkhoff."
-Inst11Quest4_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
+Inst11Quest4_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70.2, 73.8"..WHITE..")"
 Inst11Quest4_Note = "You can find Jandice Barov at "..YELLOW.."[3]"..WHITE.."."
 Inst11Quest4_Prequest = "Doctor Theolen Krastinov, the Butcher"
 Inst11Quest4_Folgequest = "Kirtonos the Herald"
@@ -1631,7 +1631,7 @@ Inst11Quest4_Folgequest = "Kirtonos the Herald"
 --Quest 5 Alliance
 Inst11Quest5 = "5. Kirtonos the Herald"
 Inst11Quest5_Aim = "Return to the Scholomance with the Blood of Innocents. Find the porch and place the Blood of Innocents in the brazier. Kirtonos will come to feast upon your soul. Fight valiantly, do not give an inch! Destroy Kirtonos and return to Eva Sarkhoff."
-Inst11Quest5_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
+Inst11Quest5_Location = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70.2, 73.8"..WHITE..")"
 Inst11Quest5_Note = "The porch is at "..YELLOW.."[2]"..WHITE.."."
 Inst11Quest5_Prequest = "Krastinov's Bag of Horrors"
 Inst11Quest5_Folgequest = "The Human, Ras Frostwhisper"
@@ -1643,7 +1643,7 @@ Inst11Quest5name3 = "Mirah's Song"
 --Quest 6 Alliance
 Inst11Quest6 = "6. The Lich, Ras Frostwhisper"
 Inst11Quest6_Aim = "Find Ras Frostwhisper in the Scholomance. When you have found him, use the Soulbound Keepsake on his undead visage. Should you succeed in reverting him to a mortal, strike him down and recover the Human Head of Ras Frostwhisper. Take the head back to Magistrate Marduke."
-Inst11Quest6_Location = "Magistrate Marduke (Western Plaguelands - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
+Inst11Quest6_Location = "Magistrate Marduke (Western Plaguelands - Caer Darrow; "..YELLOW.."70.4, 74.0"..WHITE..")"
 Inst11Quest6_Note = "You can find Ras Frostwhisper at "..YELLOW.."[7]"..WHITE.."."
 Inst11Quest6_Prequest = "The Human, Ras Frostwhisper - > Soulbound Keepsake"
 Inst11Quest6_Folgequest = "None"
@@ -1656,7 +1656,7 @@ Inst11Quest6name4 = "Darrowspike"
 --Quest 7 Alliance
 Inst11Quest7 = "7. Barov Family Fortune"
 Inst11Quest7_Aim = "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Weldon Barov when you have completed this task."
-Inst11Quest7_Location = "Weldon Barov (Western Plaguelands - Chillwind Camp; "..YELLOW.."43,83"..WHITE..")"
+Inst11Quest7_Location = "Weldon Barov (Western Plaguelands - Chillwind Camp; "..YELLOW.."43.4, 83.8"..WHITE..")"
 Inst11Quest7_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE..".\nThe reward listed is for the followup."
 Inst11Quest7_Prequest = "None"
 Inst11Quest7_Folgequest = "The Last Barov"
@@ -1666,8 +1666,8 @@ Inst11Quest7name1 = "Barov Peasant Caller"
 --Quest 8 Alliance
 Inst11Quest8 = "8. Dawn's Gambit"
 Inst11Quest8_Aim = "Place Dawn's Gambit in the Viewing Room of the Scholomance. Defeat Vectus, then return to Betina Bigglezink."
-Inst11Quest8_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."75.6, 53.6"..WHITE..")"
-Inst11Quest8_Note = "Broodling Essence begins at Tinkee Steamboil (Burning Steppes - Flame Crest; "..YELLOW.."65,23"..WHITE.."). The Viewing Room is at "..YELLOW.."[6]"..WHITE.."."
+Inst11Quest8_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81.4, 59.6"..WHITE..")"
+Inst11Quest8_Note = "Broodling Essence begins at Tinkee Steamboil (Burning Steppes - Flame Crest; "..YELLOW.."65.2, 23.8"..WHITE.."). The Viewing Room is at "..YELLOW.."[6]"..WHITE.."."
 Inst11Quest8_Prequest = "Broodling Essence - > Betina Bigglezink"
 Inst11Quest8_Folgequest = "None"
 --
@@ -1675,11 +1675,11 @@ Inst11Quest8name1 = "Windreaper"
 Inst11Quest8name2 = "Dancing Sliver"
 
 --Quest 9 Alliance
-Inst11Quest9 = "9. Imp Delivery (Warlock)"
+Inst11Quest9 = "9. Imp Delivery"
 Inst11Quest9_Aim = "Bring the Imp in a Yesr to the alchemy lab in the Scholomance. After the parchment is created, return the jar to Gorzeeki Wildeyes."
-Inst11Quest9_Location = "Gorzeeki Wildeyes (Burning Steppes; "..YELLOW.."12,31"..WHITE..")"
-Inst11Quest9_Note = "Only Warlocks can get this Quest! You find the alchemy lab at "..YELLOW.."[7]"..WHITE.."."
-Inst11Quest9_Prequest = "Mor'zul Bloodbringer - > Xorothian Stardust"
+Inst11Quest9_Location = "Gorzeeki Wildeyes (Burning Steppes; "..YELLOW.."12.6, 31.6"..WHITE..")"
+Inst11Quest9_Note = "Warlock Epic Mount questline.  You find the alchemy lab at "..YELLOW.."[7]"..WHITE.."."
+Inst11Quest9_Prequest = "Mor'zul Bloodbringer -> Xorothian Stardust"
 Inst11Quest9_Folgequest = "Dreadsteed of Xoroth ("..YELLOW.."Dire Maul West"..WHITE..")"
 -- No Rewards for this quest
 
@@ -1699,6 +1699,15 @@ Inst11Quest11_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entranc
 Inst11Quest11_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE.."."
 Inst11Quest11_Prequest = "More Components of Importance"
 Inst11Quest11_Folgequest = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst11Quest12 = "12. Judgment and Redemption"
+Inst11Quest12_Aim = "Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance. Doing so will bring forth the spirits you must judge. Defeating these spirits will summon forth Death Knight Darkreaver. Defeat him and reclaim the lost soul of the fallen charger."
+Inst11Quest12_Location = "Lord Grayson Shadowbreaker (Stormwind City - Cathedral; "..YELLOW.."37.6, 32.6"..WHITE..")"
+Inst11Quest12_Note = "Paladin Epic Mount questline.  This questline is lengthy and has many steps.  There is an excellent guide on WoWhead.com that goes into great detail on how to complete it.  The Great Ossuary's basement is at "..YELLOW.."[5]"..WHITE.."."
+Inst11Quest12_Prequest = "Lord Grayson Shadowbreaker -> The Divination Scryer"
+Inst11Quest12_Folgequest = "Again Into the Great Ossuary"
 -- No Rewards for this quest
 
 
@@ -1766,7 +1775,7 @@ Inst11Quest6name4_HORDE = Inst11Quest6name4
 --Quest 7 Horde
 Inst11Quest7_HORDE = "7. Barov Family Fortune"
 Inst11Quest7_HORDE_Aim = "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Alexi Barov when you have completed this task."
-Inst11Quest7_HORDE_Location = "Alexi Barov (Tirisfal Glades - The Bulwark; "..YELLOW.."80,73"..WHITE..")"
+Inst11Quest7_HORDE_Location = "Alexi Barov (Tirisfal Glades - The Bulwark; "..YELLOW.."83.0, 71.4"..WHITE..")"
 Inst11Quest7_HORDE_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE..".\nThe reward listed is for the followup."
 Inst11Quest7_HORDE_Prequest = "None"
 Inst11Quest7_HORDE_Folgequest = "The Last Barov"
@@ -1803,10 +1812,10 @@ Inst11Quest10_HORDE_Folgequest = Inst11Quest10_Folgequest
 -- No Rewards for this quest
 
 --Quest 11 Horde
-Inst11Quest11_HORDE = "11. The Darkreaver Menace (Shaman)"
+Inst11Quest11_HORDE = "11. The Darkreaver Menace"
 Inst11Quest11_HORDE_Aim = "Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance.\n\nBring Darkreaver's Head to Sagorne Creststrider in the Valley of Wisdom, Orgrimmar."
 Inst11Quest11_HORDE_Location = "Sagorne Creststrider (Orgrimmar - Valley of Wisdom; "..YELLOW.."38.6, 36.2"..WHITE..")"
-Inst11Quest11_HORDE_Note = "This quest is only available for Shamans. The prequest is obtained from the same NPC.\n\nDeath Knight Darkreaver is summoned at "..YELLOW.."[5]"..WHITE.."."
+Inst11Quest11_HORDE_Note = "Shaman quest.  The prequest is obtained from the same NPC.\n\nDeath Knight Darkreaver is summoned at "..YELLOW.."[5]"..WHITE.."."
 Inst11Quest11_HORDE_Prequest = "Material Assistance"
 Inst11Quest11_HORDE_Folgequest = "None"
 --
@@ -1830,21 +1839,20 @@ Inst12QAA = "2 Quests"
 Inst12QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst12Quest1 = "1. The Test of Righteousness (Paladin)"
-Inst12Quest1_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
-Inst12Quest1_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
-Inst12Quest1_Note = "To see the note click on  "..YELLOW.."[The Test of Righteousness Information]"..WHITE.."."
-Inst12Quest1_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." at "..YELLOW.."[5]"..WHITE..".\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
-Inst12Quest1_Prequest = "The Tome of Valor -> The Test of Righteousness"
-Inst12Quest1_Folgequest = "The Test of Righteousness"
+Inst12Quest1 = "1. The Test of Righteousness"
+Inst12Quest1_Aim = Inst5Quest6_Aim
+Inst12Quest1_Location = Inst5Quest6_Location
+Inst12Quest1_Note = "Paladin quest.  Jordan's Smithing Hammer is at  "..YELLOW.."[9]"..WHITE..".\n\nThe remaining items come from "..YELLOW.."[Deadmines]"..WHITE..", Loch Modan, Darkshore and Ashenvale.  Some require doing side quests.  I recommend looking it up on Wowhead for all the details."
+Inst12Quest1_Prequest = Inst5Quest6_Prequest
+Inst12Quest1_Folgequest = Inst5Quest6_Folgequest
 --
-Inst12Quest1name1 = "Verigan's Fist"
+Inst12Quest1name1 = Inst5Quest6name1
 
 --Quest 2 Alliance
-Inst12Quest2 = "2. The Orb of Soran'ruk (Warlock)"
+Inst12Quest2 = "2. The Orb of Soran'ruk"
 Inst12Quest2_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
-Inst12Quest2_Location = "Doan Karhan (Barrens; "..YELLOW.."49,57"..WHITE..")"
-Inst12Quest2_Note = "Only Warlocks can get this Quest! You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Blackfathom Deeps]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
+Inst12Quest2_Location = "Doan Karhan (Barrens; "..YELLOW.."49.2, 57.2"..WHITE..")"
+Inst12Quest2_Note = "Warlock quest.  You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Blackfathom Deeps]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
 Inst12Quest2_Prequest = "None"
 Inst12Quest2_Folgequest = "None"
 --
@@ -1856,8 +1864,8 @@ Inst12Quest2name2 = "Staff of Soran'ruk"
 --Quest 1 Horde
 Inst12Quest1_HORDE = "1. Deathstalkers in Shadowfang"
 Inst12Quest1_HORDE_Aim = "Find the Deathstalker Adamant and Deathstalker Vincent."
-Inst12Quest1_HORDE_Location = "High Executor Hadrec (Silverpine Forest - The Sepulcher; "..YELLOW.."43,40"..WHITE..")"
-Inst12Quest1_HORDE_Note = "You find Deathstalker Adamant at "..YELLOW.."[1]"..WHITE..". Deathstalker Vincent is on the right side when you go into the courtyard at "..YELLOW.."[3]"..WHITE.."."
+Inst12Quest1_HORDE_Location = "High Executor Hadrec (Silverpine Forest - The Sepulcher; "..YELLOW.."43.4, 40.8"..WHITE..")"
+Inst12Quest1_HORDE_Note = "You find Deathstalker Adamant at "..YELLOW.."[1]"..WHITE..". Deathstalker Vincent is on the right side when you go into the courtyard."
 Inst12Quest1_HORDE_Prequest = "None"
 Inst12Quest1_HORDE_Folgequest = "None"
 --
@@ -1866,8 +1874,8 @@ Inst12Quest1name1_HORDE = "Ghostly Mantle"
 --Quest 2 Horde
 Inst12Quest2_HORDE = "2. The Book of Ur"
 Inst12Quest2_HORDE_Aim = "Bring the Book of Ur to Keeper Bel'dugur at the Apothecarium in the Undercity."
-Inst12Quest2_HORDE_Location = "Keeper Bel'dugur (Undercity - The Apothecarium; "..YELLOW.."53,54"..WHITE..")"
-Inst12Quest2_HORDE_Note = "You find the book at "..YELLOW.."[11]"..WHITE.." on the left side when you enter the room."
+Inst12Quest2_HORDE_Location = "Keeper Bel'dugur (Undercity - The Apothecarium; "..YELLOW.."53.6, 54.0"..WHITE..")"
+Inst12Quest2_HORDE_Note = "You find the book at "..YELLOW.."[6]"..WHITE.." on the left side when you enter the room."
 Inst12Quest2_HORDE_Prequest = "None"
 Inst12Quest2_HORDE_Folgequest = "None"
 --
@@ -1877,15 +1885,15 @@ Inst12Quest2name2_HORDE = "Steel-clasped Bracers"
 --Quest 3 Horde
 Inst12Quest3_HORDE = "3. Arugal Must Die"
 Inst12Quest3_HORDE_Aim = "Kill Arugal and bring his head to Dalar Dawnweaver at the Sepulcher."
-Inst12Quest3_HORDE_Location = "Dalar Dawnweaver (Silverpine Forest - The Sepulcher; "..YELLOW.."44,39"..WHITE..")"
-Inst12Quest3_HORDE_Note = "You find Archmage Arugal at "..YELLOW.."[13]"..WHITE.."."
+Inst12Quest3_HORDE_Location = "Dalar Dawnweaver (Silverpine Forest - The Sepulcher; "..YELLOW.."44.2, 39.8"..WHITE..")"
+Inst12Quest3_HORDE_Note = "You find Archmage Arugal at "..YELLOW.."[8]"..WHITE.."."
 Inst12Quest3_HORDE_Prequest = "None"
 Inst12Quest3_HORDE_Folgequest = "None"
 --
 Inst12Quest3name1_HORDE = "Seal of Sylvanas"
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
-Inst12Quest4_HORDE = "4. The Orb of Soran'ruk (Warlock)"
+Inst12Quest4_HORDE = "4. The Orb of Soran'ruk"
 Inst12Quest4_HORDE_Aim = Inst12Quest2_Aim
 Inst12Quest4_HORDE_Location = Inst12Quest2_Location
 Inst12Quest4_HORDE_Note = Inst12Quest2_Note
@@ -1906,7 +1914,7 @@ Inst13QAH = "No Quests"
 --Quest 1 Alliance
 Inst13Quest1 = "1. What Comes Around..."
 Inst13Quest1_Aim = "Bring the head of Targorr the Dread to Guard Berton in Lakeshire."
-Inst13Quest1_Location = "Guard Berton (Redridge Mountains - Lakeshire; "..YELLOW.."26,46"..WHITE..")"
+Inst13Quest1_Location = "Guard Berton (Redridge Mountains - Lakeshire; "..YELLOW.."26.4, 46.6"..WHITE..")"
 Inst13Quest1_Note = "You can find Targorr at "..YELLOW.."[1]"..WHITE.."."
 Inst13Quest1_Prequest = "None"
 Inst13Quest1_Folgequest = "None"
@@ -1917,7 +1925,7 @@ Inst13Quest1name2 = "Hardened Root Staff"
 --Quest 2 Alliance
 Inst13Quest2 = "2. Crime and Punishment"
 Inst13Quest2_Aim = "Councilman Millstipe of Darkshire wants you to bring him the hand of Dextren Ward."
-Inst13Quest2_Location = "Millstipe (Duskwood - Darkshire; "..YELLOW.."72,47"..WHITE..")"
+Inst13Quest2_Location = "Millstipe (Duskwood - Darkshire; "..YELLOW.."72.0, 47.8"..WHITE..")"
 Inst13Quest2_Note = "You can find Dextren at "..YELLOW.."[5]"..WHITE.."."
 Inst13Quest2_Prequest = "None"
 Inst13Quest2_Folgequest = "None"
@@ -1928,8 +1936,8 @@ Inst13Quest2name2 = "Darkshire Mail Leggings"
 --Quest 3 Alliance
 Inst13Quest3 = "3. Quell The Uprising"
 Inst13Quest3_Aim = "Warden Thelwater of Stormwind wants you to kill 10 Defias Prisoners, 8 Defias Convicts, and 8 Defias Insurgents in The Stockade."
-Inst13Quest3_Location = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."51.4, 68.8"..WHITE..")"
-Inst13Quest3_Note = ""
+Inst13Quest3_Location = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."41.2, 58.0"..WHITE..")"
+Inst13Quest3_Note = "Sometimes there are not enough mobs to complete the quest and you might have to wait for some to respawn."
 Inst13Quest3_Prequest = "None"
 Inst13Quest3_Folgequest = "None"
 -- No Rewards for this quest
@@ -1937,8 +1945,8 @@ Inst13Quest3_Folgequest = "None"
 --Quest 4 Alliance
 Inst13Quest4 = "4. The Color of Blood"
 Inst13Quest4_Aim = "Nikova Raskol of Stormwind wants you to collect 10 Red Wool Bandanas."
-Inst13Quest4_Location = "Nikova Raskol (Stormwind - Old Town; "..YELLOW.."75.6, 62.9"..WHITE..")"
-Inst13Quest4_Note = "Nikova Raskol walks around Old Town. All mobs found inside the instance drops Red Wool Bandanas."
+Inst13Quest4_Location = "Nikova Raskol (Stormwind - Old Town; "..YELLOW.."66.8, 46.4"..WHITE..")"
+Inst13Quest4_Note = "Nikova Raskol walks around Old Town. All mobs found inside the instance can drop the Red Wool Bandanas."
 Inst13Quest4_Prequest = "None"
 Inst13Quest4_Folgequest = "None"
 -- No Rewards for this quest
@@ -1946,8 +1954,8 @@ Inst13Quest4_Folgequest = "None"
 --Quest 5 Alliance
 Inst13Quest5 = "5. The Fury Runs Deep"
 Inst13Quest5_Aim = "Motley Garmason wants Kam Deepfury's head brought to him at Dun Modr."
-Inst13Quest5_Location = "Motley Garmason (Wetlands - Dun Modr; "..YELLOW.."49,18"..WHITE..")"
-Inst13Quest5_Note = "The preceding quest can be obtained from Motley too. You can find Kam Deepfury at "..YELLOW.."[2]"..WHITE.."."
+Inst13Quest5_Location = "Motley Garmason (Wetlands - Dun Modr; "..YELLOW.."49.6, 18.2"..WHITE..")"
+Inst13Quest5_Note = "The preceding quest can be obtained from Motley Garmason too. You can find Kam Deepfury at "..YELLOW.."[2]"..WHITE.."."
 Inst13Quest5_Prequest = "The Dark Iron War"
 Inst13Quest5_Folgequest = "None"
 --
@@ -1957,8 +1965,8 @@ Inst13Quest5name2 = "Headbasher"
 --Quest 6 Alliance
 Inst13Quest6 = "6. The Stockade Riots"
 Inst13Quest6_Aim = "Kill Bazil Thredd and bring his head back to Warden Thelwater at the Stockade."
-Inst13Quest6_Location = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."51.4, 68.8"..WHITE..")"
-Inst13Quest6_Note = "For more details about the preceding quest see "..YELLOW.."[Deadmines, The Defias Brotherhood]"..WHITE..".\nYou can find Bazil Thredd at "..YELLOW.."[4]"..WHITE.."."
+Inst13Quest6_Location = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."41.2, 58.0"..WHITE..")"
+Inst13Quest6_Note = "You can find Bazil Thredd at "..YELLOW.."[4]"..WHITE.."."
 Inst13Quest6_Prequest = "The Defias Brotherhood -> Bazil Thredd"
 Inst13Quest6_Folgequest = "The Curious Visitor"
 -- No Rewards for this quest

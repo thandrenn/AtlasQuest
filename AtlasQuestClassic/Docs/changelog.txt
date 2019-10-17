@@ -12,6 +12,9 @@ Version 4.11.55  (for WoW Classic)  October 17, 2019
 
 - Spanish translation added!  Thanks to Rick!  
 
+- Quests added:
+	- Scholomance: Judgment and Redemption
+
 - Cleanup Progress:
 	- Gnomeregan complete.
 	- Scarlet Monastery: Library complete.
@@ -19,6 +22,9 @@ Version 4.11.55  (for WoW Classic)  October 17, 2019
 	- Scarlet Monastery: Cathedral complete.
 	- Scarlet Monastery: Graveyard complete.
 	- Ragefire Chasm complete.
+	- Scholomance complete.
+	- Shadowfang Keep complete.
+	- The Stockade complete.
 	
 
 

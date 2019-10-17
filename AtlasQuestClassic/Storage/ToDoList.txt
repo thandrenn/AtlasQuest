@@ -1,0 +1,26 @@
+
+To Do List:
+	
+- Fix "Blue" quests option
+- Fix comparison tooltips
+
+
+- Add missing Warlock & Paladin Epic Mount Quests
+
+
+
+CLEANUP PROGRESS:
+	- Blackrock Depths complete.
+	- Blackwing Lair complete.
+	- Lower Blackrock Spire complete.
+	- Upper Blackrock Spire complete.
+	- Deadmines complete.
+	- Gnomeregan complete.
+	- Scarlet Monastery: Library complete.
+	- Scarlet Monastery: Armory complete.
+	- Scarlet Monastery: Cathedral complete.
+	- Scarlet Monastery: Graveyard complete.
+	- Ragefire Chasm complete.
+	- Scholomance complete.
+	- Shadowfang Keep complete.
+	- The Stockade complete.
