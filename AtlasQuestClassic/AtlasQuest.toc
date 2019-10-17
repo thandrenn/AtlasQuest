@@ -5,12 +5,16 @@
 ## Title-zhCN: AtlasQuest 副本任务
 ## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest
 ## Title-ruRU: Атлас |r|cFF0099FF[Задания]|r
+## Title-esES: AtlasQuest
+## Title-esMX: AtlasQuest
 ## Notes: Shows the Quests for dungeons and battlegrounds.
 ## Notes-deDE: Zeigt die Quests, die es für die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
 ## Notes-zhCN: Atlas 插件，在 Atlas 面板上显示副本和战场相关任务及副本背景。
 ## Notes-zhTW: 顯示副本背景故事、相關任務及BOSS攻略提示
 ## Notes-ruRU: Показывает задания в подземельях.
+## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
+## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
 ## Author: Thandrenn
 ## Version: 4.11.55
 ## X-Author-Faction: Alliance
@@ -20,7 +24,7 @@
 ## X-Category: Quests
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
-## X-Localizations: enUS, deDE, zhCN, ruRU
+## X-Localizations: enUS, deDE, zhCN, ruRU, esES, esMX
 ## X-Date: October 7, 2019
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas

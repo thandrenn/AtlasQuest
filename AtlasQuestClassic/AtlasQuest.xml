@@ -36,6 +36,12 @@
 <Script file="Locale/global-deDE.lua" />
 <Script file="Locale/classic-deDE.lua" />
 
+<!--  SPANISH LOCALIZATION -->
+<Script file="Locale/global-esMX.lua" />
+<Script file="Locale/classic-esMX.lua" />
+<Script file="Locale/global-esES.lua" />
+<Script file="Locale/classic-esES.lua" />
+
 <!--  Simplified Chinese LOCALIZATION -->
 <Script file="Locale/global-zhCN.lua" />
 <Script file="Locale/classic-zhCN.lua" />

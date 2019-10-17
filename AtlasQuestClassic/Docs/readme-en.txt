@@ -35,6 +35,7 @@ English:  Thandrenn
 German:  Guldukat
 Simplified Chinese:  yoke233
 Russian:  GoodDeath
+Spanish: Rick
 
 
 
