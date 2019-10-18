@@ -2342,7 +2342,7 @@ Inst14Quest18name1_HORDE = "Sello real de Alexis"
 Inst14Quest18name2_HORDE = "Círculo elemental"
 
 --Quest 19 Horde  (same as Quest 18 Alliance)
-Inst14Quest19_HORDE = "19. Equilibrio de Luz y Sombras "
+Inst14Quest19_HORDE = "19. Equilibrio de Luz y Sombras"
 Inst14Quest19_HORDE_Aim = Inst14Quest18_Aim
 Inst14Quest19_HORDE_Location = Inst14Quest18_Location
 Inst14Quest19_HORDE_Note = Inst14Quest18_Note
@@ -2542,14 +2542,14 @@ Inst15Quest16name4 = "Sello caballeresco"
 
 
 --Quest 1 Horde
-Inst15Quest1_HORDE = "1. The Temple of Atal'Hakkar"
-Inst15Quest1_HORDE_Aim = "Collect 20 Fetishes of Hakkar and bring them to Fel'Zerul in Stonard."
-Inst15Quest1_HORDE_Location = "Fel'Zerul (Swamp of Sorrows - Stonard; "..YELLOW.."47,54"..WHITE..")"
-Inst15Quest1_HORDE_Note = "All Enemys in the Temple drop Fetishes."
-Inst15Quest1_HORDE_Prequest = "Pool of Tears -> Return to Fel'Zerul"
+Inst15Quest1_HORDE = "1. El Templo de Atal'Hakkar" -- 1445
+Inst15Quest1_HORDE_Aim = "Reúne 20 fetiches de Hakkar y llévaselos a Fel'Zerul en Rocal."
+Inst15Quest1_HORDE_Location = "Fel'Zerul (Pantano de las Penas - Rocal; "..YELLOW.."47,54"..WHITE..")"
+Inst15Quest1_HORDE_Note = "Despoja a cualquier criatura para obtener los fetiches."
+Inst15Quest1_HORDE_Prequest = "Charca de Lágrimas -> Regresa junto a Fel'Zerul" -- 1424 -> 1444
 Inst15Quest1_HORDE_Folgequest = "Ninguno"
 --
-Inst15Quest1name1_HORDE = "Guardian Talisman"
+Inst15Quest1name1_HORDE = "Dije guardián"
 
 --Quest 2 Horde
 Inst15Quest2_HORDE = "2. El Templo Sumergido"

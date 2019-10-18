@@ -24,3 +24,4 @@ CLEANUP PROGRESS:
 	- Scholomance complete.
 	- Shadowfang Keep complete.
 	- The Stockade complete.
+	- Stratholme complete.
