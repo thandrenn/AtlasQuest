@@ -2,6 +2,15 @@
 Changelog
 =========
 
+Version 4.11.56  (for WoW Classic)  October 20, 2019
+
+- Spanish localization updated.
+
+- Cleanup Progress:
+
+
+
+
 Version 4.11.55  (for WoW Classic)  October 18, 2019
 
 - Russian language file updated.  Thank you to "GoodDeath".
@@ -10,7 +19,7 @@ Version 4.11.55  (for WoW Classic)  October 18, 2019
 
 - German translation added!  Thanks to "Guldukat".  It is incomplete but being updated.
 
-- Spanish translation added!  Thanks to Woopy!  
+- Spanish translation added!  Thanks to Woopy.
 
 - Quests added:
 	- Scholomance: Judgment and Redemption
