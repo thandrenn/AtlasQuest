@@ -3419,11 +3419,13 @@ Inst169Quest12_HORDE_Prequest = "Nein"
 Inst169Quest12_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
+
+
 --------------- INST170 - Trial of Valor ---------------
 
 Inst170Caption = "Prüfung der Tapferkeit"
-Inst170QAA = "3 Quests"
-Inst170QAH = "3 Quests"
+Inst170QAA = "4 Quests"
+Inst170QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst170Quest1 = "1. Odyns Gunst"
@@ -3507,6 +3509,8 @@ Inst170Quest4_HORDE_Prequest = Inst170Quest4_Prequest
 Inst170Quest4_HORDE_Folgequest = Inst170Quest4_Folgequest
 Inst170Quest4PreQuest_HORDE = "Die Nachtfestung"
 -- Reward varies for each class
+
+
 
 --------------- INST171 - Tomb of Sargeras ---------------
 
@@ -3643,7 +3647,7 @@ Inst171Quest7_HORDE_Note = Inst171Quest7_Note
 Inst171Quest7_HORDE_Prequest = "Nein"
 Inst171Quest7_HORDE_Folgequest = "Nein"
 --
-
+Inst171Quest7name1_HORDE = Inst171Quest7name1
 
 
 
@@ -3661,7 +3665,8 @@ Inst172Quest1_Note = "Lord Mephistroth ist der Endboss."
 Inst172Quest1_Prequest = "Angriff auf die Verheerte Küste -> Vorräte der Legionsrichter"
 Inst172Quest1_Folgequest = "Nein"
 Inst172Quest1PreQuest = "true"
--- Reward varies for each class
+--
+-- Rewards "Verschleierter Argunit"
 
 
 --Quest 1 Horde
@@ -3673,9 +3678,6 @@ Inst172Quest1_HORDE_Prequest = Inst172Quest1_Prequest
 Inst172Quest1_HORDE_Folgequest = "Nein"
 Inst172Quest1PreQuest_HORDE = "true"
 -- Reward varies for each class
-
-
-
 
 
 
@@ -3708,6 +3710,9 @@ Inst173Quest1_HORDE_Folgequest = "Ein Signal im Dunklen"
 Inst173Quest1PreQuest_HORDE = Inst173Quest1PreQuest
 --
 Inst173Quest1name1_HORDE = Inst173Quest1name1
+
+
+
 --------------- INST174 - Antorus, the Burning Throne ---------------
 
 Inst174Caption = "Antorus, der Brennende Thron"
