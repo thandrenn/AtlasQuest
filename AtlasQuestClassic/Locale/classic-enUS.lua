@@ -950,7 +950,7 @@ Inst4Quest10 = "10. The Demon Forge"
 Inst4Quest10_Aim = "Travel to Blackrock Spire and find Goraluk Anvilcrack. Slay him and then use the Blood Stained Pike upon his corpse. After his soul has been siphoned, the pike will be Soul Stained. You must also find the Unforged Rune Covered Breastplate. Return both the Soul Stained Pike and the Unforged Rune Covered Breastplate to Lorax in Winterspring."
 Inst4Quest10_Location = "Lorax (Winterspring; "..YELLOW.."64, 74"..WHITE..")"
 Inst4Quest10_Note = "Blacksmith quest.  Goraluk Anvilcrack is at "..YELLOW.."[4]"..WHITE.."."
-Inst4Quest10_Prequest = "None"
+Inst4Quest10_Prequest = "Lorax's Tale"
 Inst4Quest10_Folgequest = "None"
 --
 Inst4Quest10name1 = "Plans: Demon Forged Breastplate"
