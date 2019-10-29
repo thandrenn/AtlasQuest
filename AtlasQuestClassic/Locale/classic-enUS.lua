@@ -954,7 +954,8 @@ Inst4Quest10_Prequest = "None"
 Inst4Quest10_Folgequest = "None"
 --
 Inst4Quest10name1 = "Plans: Demon Forged Breastplate"
-Inst4Quest10name2 = "Elixir of Demonslaying"
+Inst4Quest10name2 = "Demon Kissed Sack"
+Inst4Quest10name3 = "Elixir of Demonslaying"
 
 --Quest 11 Alliance
 Inst4Quest11 = "11. Egg Collection"
@@ -1094,6 +1095,7 @@ Inst4Quest12_HORDE_Folgequest = Inst4Quest10_Folgequest
 --
 Inst4Quest12name1_HORDE = Inst4Quest10name1
 Inst4Quest12name2_HORDE = Inst4Quest10name2
+Inst4Quest12name2_HORDE = Inst4Quest10name3
 
 --Quest 13 Horde  (same as Quest 11 Alliance)
 Inst4Quest13_HORDE = "13. Egg Collection"
