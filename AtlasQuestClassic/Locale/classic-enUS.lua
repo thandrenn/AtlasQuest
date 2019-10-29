@@ -1051,7 +1051,7 @@ Inst4Quest8_HORDE = "8. Blood of the Black Dragon Champion"
 Inst4Quest8_HORDE_Aim = "Travel to Blackrock Spire and slay General Drakkisath. Gather his blood and return it to Rokaro."
 Inst4Quest8_HORDE_Location = "Rexxar (Roams from Stonetalon Mountains to Feralas)"
 Inst4Quest8_HORDE_Note = "Last part of the Onyxia attunement questline.  Rexxar spawns at the border between Stonetalon Mountains and walks down through Desolace to Feralas.  The best way of finding him is starting in Feralas at around "..YELLOW.."48.2, 24.8"..WHITE.." and moving North to intercept him.   You find General Drakkisath at "..YELLOW.."[8]"..WHITE.."."
-Inst4Quest8_HORDE_Prequest = "Emberstrife -> Ascension..."
+Inst4Quest8_HORDE_Prequest = "The Test of Skulls, Axtroz -> Ascension..."
 Inst4Quest8_HORDE_Folgequest = "None"
 --
 Inst4Quest8name1_HORDE = "Drakefire Amulet"
