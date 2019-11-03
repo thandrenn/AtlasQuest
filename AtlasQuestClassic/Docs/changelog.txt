@@ -2,11 +2,18 @@
 Changelog
 =========
 
-Version 4.11.56  (for WoW Classic)  October 20, 2019
+Version 4.11.56  (for WoW Classic)  November 3, 2019
 
 - Spanish localization updated.
+- German localization updated.
+- Fixed a missing PreQuest name & quest reward for UBRS: The Demon Forge (thanks Guldukat)
+- Fixed a missing prequest for UBRS: Blood of the Black Dragon Champion (thanks Guldukat)
+
+- Quests added:
 
 - Cleanup Progress:
+	- Sunken Temple complete.
+	- Uldaman complete.
 
 
 
@@ -39,7 +46,6 @@ Version 4.11.55  (for WoW Classic)  October 18, 2019
 
 
 
-
 Version 4.11.54  (for WoW Classic)  September 24, 2019
 
 - Moved Quest levels & prequest icons out of localization files and to a quest data file.  This will reduce the overall duplication of data and make things a bit easier for translators.  And me!
@@ -58,6 +64,7 @@ Version 4.11.54  (for WoW Classic)  September 24, 2019
 	- Lower Blackrock Spire complete.
 	- Upper Blackrock Spire complete.
 	- Deadmines complete.
+
 
 
 

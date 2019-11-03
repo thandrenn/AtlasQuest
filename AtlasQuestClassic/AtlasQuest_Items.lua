@@ -1835,7 +1835,7 @@ Inst15Quest4ID1 = "10773"
 Inst15Quest5Rewardtext = AQNoReward
 
 --Quest 6 Alliance
-Inst15Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst15Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_AND..WHITE.."4"
 --ITEM1
 Inst15Quest6ITC1 = Itemc4;
 Inst15Quest6description1 = AQITEM_HEAD..AQITEM_PLATE
@@ -1848,6 +1848,10 @@ Inst15Quest6ID2 = "10750"
 Inst15Quest6ITC3 = Itemc4;
 Inst15Quest6description3 = AQITEM_HEAD..AQITEM_CLOTH
 Inst15Quest6ID3 = "10751"
+--ITEM4
+Inst15Quest6ITC4 = Itemc2;
+Inst15Quest6description4 = AQITEM_ITEM
+Inst15Quest6ID4 = "10663"
 
 --Quest 7 Alliance
 Inst15Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"

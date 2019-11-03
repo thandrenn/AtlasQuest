@@ -25,3 +25,5 @@ CLEANUP PROGRESS:
 	- Shadowfang Keep complete.
 	- The Stockade complete.
 	- Stratholme complete.
+	- Sunken Temple complete.
+	- Uldaman complete.
