@@ -27,3 +27,5 @@ CLEANUP PROGRESS:
 	- Stratholme complete.
 	- Sunken Temple complete.
 	- Uldaman complete.
+	- Blackfathom Deeps complete.
+	- Dire Maul East complete.

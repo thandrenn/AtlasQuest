@@ -1853,7 +1853,7 @@ Inst12Quest1name1 = Inst5Quest6name1
 --Quest 2 Alliance
 Inst12Quest2 = "2. The Orb of Soran'ruk"
 Inst12Quest2_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
-Inst12Quest2_Location = "Doan Karhan (Barrens; "..YELLOW.."49.2, 57.2"..WHITE..")"
+Inst12Quest2_Location = "Doan Karhan (The Barrens; "..YELLOW.."49.2, 57.2"..WHITE..")"
 Inst12Quest2_Note = "Warlock quest.  You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Blackfathom Deeps]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
 Inst12Quest2_Prequest = "None"
 Inst12Quest2_Folgequest = "None"
@@ -3013,7 +3013,7 @@ Inst17QAH = "5 Quests"
 --Quest 1 Alliance
 Inst17Quest1 = "1. Knowledge in the Deeps"
 Inst17Quest1_Aim = "Bring the Lorgalis Manuscript to Gerrig Bonegrip in the Forlorn Cavern in Ironforge."
-Inst17Quest1_Location = "Gerrig Bonegrip (Ironforge - The Forlorn Cavern; "..YELLOW.."50,5"..WHITE..")"
+Inst17Quest1_Location = "Gerrig Bonegrip (Ironforge - The Forlorn Cavern; "..YELLOW.."50.4, 6.0"..WHITE..")"
 Inst17Quest1_Note = "You find the Manuscript at "..YELLOW.."[2]"..WHITE.." in the water."
 Inst17Quest1_Prequest = "None"
 Inst17Quest1_Folgequest = "None"
@@ -3023,8 +3023,8 @@ Inst17Quest1name1 = "Sustaining Ring"
 --Quest 2 Alliance
 Inst17Quest2 = "2. Researching the Corruption"
 Inst17Quest2_Aim = "Gershala Nightwhisper in Auberdine wants 8 Corrupt Brain stems."
-Inst17Quest2_Location = "Gershala Nightwhisper (Darkshore - Auberdine; "..YELLOW.."38,43"..WHITE..")"
-Inst17Quest2_Note = "The prequest is optional. You get it from Argos Nightwhisper at (Stormwind - The Park; "..YELLOW.."35.9, 67.3"..WHITE.."). \n\nAll the Nagas before and in Blackfathom Deeps drop the brains."
+Inst17Quest2_Location = "Gershala Nightwhisper (Darkshore - Auberdine; "..YELLOW.."38.4, 43.0"..WHITE..")"
+Inst17Quest2_Note = "The prequest is optional.  You get it from Argos Nightwhisper at (Stormwind City - The Park; "..YELLOW.."21.4, 55.6"..WHITE..").  Nagas inside the dungeon and just outside the portal can drop the Corrupt Brain stems."
 Inst17Quest2_Prequest = "The Corruption Abroad"
 Inst17Quest2_Folgequest = "None"
 --
@@ -3034,7 +3034,7 @@ Inst17Quest2name2 = "Prelacy Cape"
 --Quest 3 Alliance
 Inst17Quest3 = "3. In Search of Thaelrid"
 Inst17Quest3_Aim = "Seek out Argent Guard Thaelrid in Blackfathom Deeps."
-Inst17Quest3_Location = "Dawnwatcher Shaedlass (Darnassus - Craftsmen's Terrace; "..YELLOW.."55,24"..WHITE..")"
+Inst17Quest3_Location = "Dawnwatcher Shaedlass (Darnassus - Craftsmen's Terrace; "..YELLOW.."55.4, 24.6"..WHITE..")"
 Inst17Quest3_Note = "You find Argent Guard Thaelrid at "..YELLOW.."[4]"..WHITE.."."
 Inst17Quest3_Prequest = "None"
 Inst17Quest3_Folgequest = "Blackfathom Villainy"
@@ -3044,7 +3044,7 @@ Inst17Quest3_Folgequest = "Blackfathom Villainy"
 Inst17Quest4 = "4. Blackfathom Villainy"
 Inst17Quest4_Aim = "Bring the head of Twilight Lord Kelris to Dawnwatcher Selgorm in Darnassus."
 Inst17Quest4_Location = "Argent Guard Thaelrid (Blackfathom Deeps; "..YELLOW.."[4]"..WHITE..")"
-Inst17Quest4_Note = "Twilight Lord Kelris is at "..YELLOW.."[8]"..WHITE..". You find Dawnwatcher Selgorm in Darnassus - Craftsmen's Terrace ("..YELLOW.."55,24"..WHITE.."). \n\nATTENTION! If you turn on the flames beside Lord Kelris, enemies appear and attack you."
+Inst17Quest4_Note = "Twilight Lord Kelris is at "..YELLOW.."[8]"..WHITE..".  You find Dawnwatcher Selgorm in (Darnassus - Craftsmen's Terrace; "..YELLOW.."55.8, 24.2"..WHITE..")."
 Inst17Quest4_Prequest = "In Search of Thaelrid"
 Inst17Quest4_Folgequest = "None"
 --
@@ -3054,31 +3054,31 @@ Inst17Quest4name2 = "Arctic Buckler"
 --Quest 5 Alliance
 Inst17Quest5 = "5. Twilight Falls"
 Inst17Quest5_Aim = "Bring 10 Twilight Pendants to Argent Guard Manados in Darnassus."
-Inst17Quest5_Location = "Argent Guard Manados (Darnassus - Craftsmen's Terrace; "..YELLOW.."55,23"..WHITE..")"
-Inst17Quest5_Note = "Every Twilight mob can drop the pendants."
+Inst17Quest5_Location = "Argent Guard Manados (Darnassus - Craftsmen's Terrace; "..YELLOW.."55.2, 23.6"..WHITE..")"
+Inst17Quest5_Note = "All Twilight mobs throughout the dungeon can drop the Twilight Pendants."
 Inst17Quest5_Prequest = "None"
 Inst17Quest5_Folgequest = "None"
 --
 Inst17Quest5name1 = "Nimbus Boots"
 Inst17Quest5name2 = "Heartwood Girdle"
 
---Quest 6 Alliance
-Inst17Quest6 = "6. The Orb of Soran'ruk (Warlock)"
-Inst17Quest6_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
-Inst17Quest6_Location = "Doan Karhan (Barrens; "..YELLOW.."49,57"..WHITE..")"
-Inst17Quest6_Note = "Only Warlocks can get this Quest! You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Blackfathom Deeps]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
-Inst17Quest6_Prequest = "None"
-Inst17Quest6_Folgequest = "None"
+--Quest 6 Alliance   (using data from Shadowfang Keep Alliance Quest 2 since its the same quest.)
+Inst17Quest6 = "6. The Orb of Soran'ruk"
+Inst17Quest6_Aim = Inst12Quest2_Aim
+Inst17Quest6_Location = Inst12Quest2_Location
+Inst17Quest6_Note = Inst12Quest2_Note
+Inst17Quest6_Prequest = Inst12Quest2_Prequest
+Inst17Quest6_Folgequest = Inst12Quest2_Folgequest
 --
-Inst17Quest6name1 = "Orb of Soran'ruk"
-Inst17Quest6name2 = "Staff of Soran'ruk"
+Inst17Quest6name1 = Inst12Quest2name1
+Inst17Quest6name2 = Inst12Quest2name2
 
 
 --Quest 1 Horde
 Inst17Quest1_HORDE = "1. The Essence of Aku'Mai"
 Inst17Quest1_HORDE_Aim = "Bring 20 Sapphires of Aku'Mai to Je'neu Sancrea in Ashenvale."
-Inst17Quest1_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE..")"
-Inst17Quest1_HORDE_Note = "You get the prequest Trouble in the Deeps from Tsunaman (Stonetalon Mountains - Sun Rock Retreat; "..YELLOW.."47,64"..WHITE.."). The crystals can be found in the tunnels before the instance."
+Inst17Quest1_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11.6, 34.2"..WHITE..")"
+Inst17Quest1_HORDE_Note = "You get the prequest Trouble in the Deeps from Tsunaman (Stonetalon Mountains - Sun Rock Retreat; "..YELLOW.."47.2, 64.2"..WHITE..").  The crystals can be found in the tunnels before the dungeon."
 Inst17Quest1_HORDE_Prequest = "Trouble in the Deeps"
 Inst17Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
@@ -3087,9 +3087,9 @@ Inst17Quest1_HORDE_Folgequest = "None"
 Inst17Quest2_HORDE = "2. Allegiance to the Old Gods"
 Inst17Quest2_HORDE_Aim = "Bring the Damp Note to Je'neu Sancrea in Ashenvale -> Kill Lorgus Jett in Blackfathom Deeps and then return to Je'neu Sancrea in Ashenvale."
 Inst17Quest2_HORDE_Location = "Damp Note (drop - see note)"
-Inst17Quest2_HORDE_Note = "You get the Damp Note from Blackfathom Tide Priestess (5% drop rate). Then take it to Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE.."). Lorgus Jett is at "..YELLOW.."[6]"..WHITE.."."
+Inst17Quest2_HORDE_Note = "You get the Damp Note from Blackfathom Tide Priestesses.  Then take it to Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11.6, 34.2"..WHITE..").  Lorgus Jett is at "..YELLOW.."[6]"..WHITE..".  The rewards listed are for the followup quest."
 Inst17Quest2_HORDE_Prequest = "None"
-Inst17Quest2_HORDE_Folgequest = "None"
+Inst17Quest2_HORDE_Folgequest = "Allegiance to the Old Gods"
 --
 Inst17Quest2name1_HORDE = "Band of the Fist"
 Inst17Quest2name2_HORDE = "Chestnut Mantle"
@@ -3097,8 +3097,8 @@ Inst17Quest2name2_HORDE = "Chestnut Mantle"
 --Quest 3 Horde
 Inst17Quest3_HORDE = "3. Amongst the Ruins"
 Inst17Quest3_HORDE_Aim = "Bring the Fathom Core to Je'neu Sancrea at Zoram'gar Outpost, Ashenvale."
-Inst17Quest3_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE..")"
-Inst17Quest3_HORDE_Note = "You find the Fathom Core at "..YELLOW.."[7]"..WHITE.." in the water. When you get the core Baron Aquanis appears and attacks you. He drops a quest item which you have to take back to Je'neu Sancrea."
+Inst17Quest3_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11.6, 34.2"..WHITE..")"
+Inst17Quest3_HORDE_Note = "You find the Fathom Core at "..YELLOW.."[7]"..WHITE.." in the water.  When you get the core Baron Aquanis appears and attacks you.  He drops a quest item which you have to take back to Je'neu Sancrea."
 Inst17Quest3_HORDE_Prequest = "None"
 Inst17Quest3_HORDE_Folgequest = "None"
 -- No Rewards for this quest
@@ -3106,8 +3106,8 @@ Inst17Quest3_HORDE_Folgequest = "None"
 --Quest 4 Horde
 Inst17Quest4_HORDE = "4. Blackfathom Villainy"
 Inst17Quest4_HORDE_Aim = "Bring the head of Twilight Lord Kelris to Bashana Runetotem in Thunder Bluff."
-Inst17Quest4_HORDE_Location = "Argent guard Thaelrid (Blackfathom Deeps; "..YELLOW.."[4]"..WHITE..")"
-Inst17Quest4_HORDE_Note = "Twilight Lord Kelris is at "..YELLOW.."[8]"..WHITE..". You find Bashana Runetotem in Thunderbluff - The Elder Rise ("..YELLOW.."70,33"..WHITE.."). \n\nATTENTION! If you turn on the flames beside Lord Kelris, enemies appear and attack you."
+Inst17Quest4_HORDE_Location = "Argent Guard Thaelrid (Blackfathom Deeps; "..YELLOW.."[4]"..WHITE..")"
+Inst17Quest4_HORDE_Note = "Twilight Lord Kelris is at "..YELLOW.."[8]"..WHITE..". You find Bashana Runetotem at (Thunderbluff - The Elder Rise; "..YELLOW.."70.8, 33.8"..WHITE..")."
 Inst17Quest4_HORDE_Prequest = "None"
 Inst17Quest4_HORDE_Folgequest = "None"
 --
@@ -3115,7 +3115,7 @@ Inst17Quest4name1_HORDE = "Gravestone Scepter"
 Inst17Quest4name2_HORDE = "Arctic Buckler"
 
 --Quest 5 Horde  (same as Quest 6 Alliance)
-Inst17Quest5_HORDE = "5. The Orb of Soran'ruk (Warlock)"
+Inst17Quest5_HORDE = "5. The Orb of Soran'ruk"
 Inst17Quest5_HORDE_Aim = Inst17Quest6_Aim
 Inst17Quest5_HORDE_Location = Inst17Quest6_Location
 Inst17Quest5_HORDE_Note = Inst17Quest6_Note
@@ -3135,9 +3135,9 @@ Inst18QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst18Quest1 = "1. Pusillin and the Elder Azj'Tordin"
-Inst18Quest1_Aim = "Travel to Dire Maul and locate the Imp, Pusillin. Convince Pusillin to give you Azj'Tordin's Book of Incantations through any means necessary.\nReturn to Azj'Tordin at the Lariss Pavilion in Feralas should you recover the Book of Incantations."
-Inst18Quest1_Location = "Azj'Tordin (Feralas - Lariss Pavillion; "..YELLOW.."76,37"..WHITE..")"
-Inst18Quest1_Note = "Pusillin is in Dire Maul "..YELLOW.."East"..WHITE.." at "..YELLOW.."[1]"..WHITE..". He runs when you talk to him, but stops and fights at "..YELLOW.."[2]"..WHITE..". He'll drop the Crescent Key which is used for Dire Maul North and West."
+Inst18Quest1_Aim = "Travel to Dire Maul and locate the Imp, Pusillin. Convince Pusillin to give you Azj'Tordin's Book of Incantations through any means necessary. Return to Azj'Tordin at the Lariss Pavilion in Feralas should you recover the Book of Incantations."
+Inst18Quest1_Location = "Azj'Tordin (Feralas - Lariss Pavillion; "..YELLOW.."76.8, 37.4"..WHITE..")"
+Inst18Quest1_Note = "Pusillin is at "..YELLOW.."[1]"..WHITE..".  He runs when you talk to him, but stops and fights at "..YELLOW.."[2]"..WHITE..".  He'll drop the Crescent Key which is used for Dire Maul North and West."
 Inst18Quest1_Prequest = "None"
 Inst18Quest1_Folgequest = "None"
 --
@@ -3147,8 +3147,8 @@ Inst18Quest1name2 = "Sprinter's Sword"
 --Quest 2 Alliance
 Inst18Quest2 = "2. Lethtendris's Web"
 Inst18Quest2_Aim = "Bring Lethtendris' Web to Latronicus Moonspear at the Feathermoon Stronghold in Feralas."
-Inst18Quest2_Location = "Latronicus Moonspear (Feralas - Feathermoon Stronghold; "..YELLOW.."30,46"..WHITE..")"
-Inst18Quest2_Note = "Lethtendris is in Dire Maul "..YELLOW.."East"..WHITE.." at "..YELLOW.."[3]"..WHITE..". The prequest comes from Courier Hammerfall in Ironforge. He roams the entire city."
+Inst18Quest2_Location = "Latronicus Moonspear (Feralas - Feathermoon Stronghold; "..YELLOW.."30.4, 46.0"..WHITE..")"
+Inst18Quest2_Note = "Lethtendris is at "..YELLOW.."[3]"..WHITE..".  The prequest comes from Courier Hammerfall in Ironforge.  He roams the entire city."
 Inst18Quest2_Prequest = "Feathermoon Stronghold"
 Inst18Quest2_Folgequest = "None"
 --
@@ -3157,8 +3157,8 @@ Inst18Quest2name1 = "Lorespinner"
 --Quest 3 Alliance
 Inst18Quest3 = "3. Shards of the Felvine"
 Inst18Quest3_Aim = "Find the Felvine in Dire Maul and acquire a shard from it. Chances are you'll only be able to procure one with the demise of Alzzin the Wildshaper. Use the Reliquary of Purity to securely seal the shard inside, and return it to Rabine Saturna in Nighthaven, Moonglade."
-Inst18Quest3_Location = "Rabine Saturna (Moonglade - Nighthaven; "..YELLOW.."51,44"..WHITE..")"
-Inst18Quest3_Note = "You find Alliz the Wildshaper in the "..YELLOW.."East"..WHITE.." part of Dire Maul at "..YELLOW.."[5]"..WHITE..". The relict is in Silithius at "..YELLOW.."62,54"..WHITE..". The prequest comes from Rabine Saturna as well."
+Inst18Quest3_Location = "Rabine Saturna (Moonglade - Nighthaven; "..YELLOW.."51.6, 44.8"..WHITE..")"
+Inst18Quest3_Note = "You find Alliz the Wildshaper at "..YELLOW.."[5]"..WHITE..".  The prequest comes from Rabine Saturna as well and sends you to recover the Reliquary of Purity from (Silithus; "..YELLOW.."63.2, 55.2"..WHITE..")."
 Inst18Quest3_Prequest = "A Reliquary of Purity"
 Inst18Quest3_Folgequest = "None"
 --
@@ -3169,7 +3169,7 @@ Inst18Quest3name2 = "Milli's Lexicon"
 Inst18Quest4 = "4. The Left Piece of Lord Valthalak's Amulet"
 Inst18Quest4_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst18Quest4_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst18Quest4_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
+Inst18Quest4_Note = "Dungeon Set questline.  The Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
 Inst18Quest4_Prequest = "Components of Importance"
 Inst18Quest4_Folgequest = "I See Alcaz Island In Your Future..."
 -- No Rewards for this quest
@@ -3178,16 +3178,16 @@ Inst18Quest4_Folgequest = "I See Alcaz Island In Your Future..."
 Inst18Quest5 = "5. The Right Piece of Lord Valthalak's Amulet"
 Inst18Quest5_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 Inst18Quest5_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")"
-Inst18Quest5_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
+Inst18Quest5_Note = "Dungeon Set questline.  The Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
 Inst18Quest5_Prequest = "More Components of Importance"
 Inst18Quest5_Folgequest = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst18Quest6 = "6. The Prison's Bindings (Warlock)"
+Inst18Quest6 = "6. The Prison's Bindings"
 Inst18Quest6_Aim = "Travel to Dire Maul in Feralas and recover 15 Satyr Blood from the Wildspawn Satyr that inhabit the Warpwood Quarter. Return to Daio in the Tainted Scar when this is done."
-Inst18Quest6_Location = "Daio the Decrepit (Blasted Lands - The Tainted Scar; "..YELLOW.."34,50"..WHITE..")"
-Inst18Quest6_Note = "This along with another quest given by Daio the Decrepit are Warlock only quests for the Ritual of Doom spell. The easiest way to get to the Wildspawn Satyr is to enter Dire Maul East through the 'back door' at the Lariss Pavilion (Feralas; "..YELLOW.."77,37"..WHITE.."). You'll need the Crescent Key, however."
+Inst18Quest6_Location = "Daio the Decrepit (Blasted Lands - The Tainted Scar; "..YELLOW.."34.2, 50.0"..WHITE..")"
+Inst18Quest6_Note = "This along with another quest given by Daio the Decrepit are Warlock only quests for the Ritual of Doom spell.  If you have the Crescent Key, provided by the quest 'Pusillin and the Elder Azj'Tordin', then you can enter Dire Maul East through  back door at the Lariss Pavilion (Feralas; "..YELLOW.."77, 37"..WHITE..")."
 Inst18Quest6_Prequest = "None"
 Inst18Quest6_Folgequest = "None"
 -- No Rewards for this quest
@@ -3207,8 +3207,8 @@ Inst18Quest1name2_HORDE = Inst18Quest1name2
 --Quest 2 Horde
 Inst18Quest2_HORDE = "2. Lethtendris's Web"
 Inst18Quest2_HORDE_Aim = "Bring Lethtendris's Web to Talo Thornhoof at Camp Mojache in Feralas."
-Inst18Quest2_HORDE_Location = "Talo Thornhoof (Feralas - Camp Mojache; "..YELLOW.."76,43"..WHITE..")"
-Inst18Quest2_HORDE_Note = "Lethtendris is in Dire Maul "..YELLOW.."East"..WHITE.." at "..YELLOW.."[3]"..WHITE..". The prequest comes from Warcaller Gorlach in Orgrimmar. He roams the entire city."
+Inst18Quest2_HORDE_Location = "Talo Thornhoof (Feralas - Camp Mojache; "..YELLOW.."76.0, 43.8"..WHITE..")"
+Inst18Quest2_HORDE_Note = "Lethtendris is in Dire Maul "..YELLOW.."East"..WHITE.." at "..YELLOW.."[3]"..WHITE..".  The prequest comes from Warcaller Gorlach in Orgrimmar.  He roams the entire city."
 Inst18Quest2_HORDE_Prequest = "Camp Mojache"
 Inst18Quest2_HORDE_Folgequest = "None"
 --

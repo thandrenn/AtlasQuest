@@ -2,6 +2,14 @@
 Changelog
 =========
 
+Version 4.11.58  (for WoW Classic)  November ??, 2019
+
+- Cleanup Progress:
+	- Blackfathom Deeps complete.
+	- Dire Maul East complete.
+	
+
+
 Version 4.11.57  (for WoW Classic)  November 4, 2019
 
 - Fixed missing Followup quest for Sunken Temple: The Essence of Eranikus  (thanks nihlolino)

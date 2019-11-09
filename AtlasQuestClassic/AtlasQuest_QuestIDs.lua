@@ -1353,7 +1353,7 @@ Inst16Quest11PreQuest_HORDE = Inst16Quest17PreQuest
 
 Inst17Quest1_QuestID = "971"
 Inst17Quest1_Level = "23"
-Inst17Quest1_Attain = "19"
+Inst17Quest1_Attain = "10"
 
 Inst17Quest2_QuestID = "1275"
 Inst17Quest2_Level = "24"
@@ -1374,8 +1374,8 @@ Inst17Quest5_Level = "25"
 Inst17Quest5_Attain = "20"
 
 Inst17Quest6_QuestID = "1740"
-Inst17Quest6_Level = "25"
-Inst17Quest6_Attain = "20"
+Inst17Quest6_Level = Inst12Quest2_Level
+Inst17Quest6_Attain = Inst12Quest2_Attain
 
 
 Inst17Quest1_HORDE_QuestID = "6563"
@@ -1444,6 +1444,7 @@ Inst18Quest2PreQuest_HORDE = "true"
 Inst18Quest3_HORDE_QuestID = "5526"
 Inst18Quest3_HORDE_Level = Inst18Quest3_Level
 Inst18Quest3_HORDE_Attain = Inst18Quest3_Attain
+Inst18Quest3PreQuest_HORDE = Inst18Quest3PreQuest
 
 Inst18Quest4_HORDE_QuestID = "8967"
 Inst18Quest4_HORDE_Level = Inst18Quest4_Level
