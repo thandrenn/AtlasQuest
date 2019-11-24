@@ -112,7 +112,7 @@ Inst1Quest1name1 = "Schlüssel zur Schattenschmiede"
 --Quest 2 Alliance
 Inst1Quest2 = "2. Ribbly Screwspigot"
 Inst1Quest2_Aim = "Bringt Yuka Screwspigot in der brennenden Steppe Ribblys Kopf."
-Inst1Quest2_Location = "Yuka Screwspigot (Brennende Steppe - Flame Crest; "..YELLOW.."66.0, 22.0"..WHITE..")"
+Inst1Quest2_Location = "Yuka Screwspigot (Brennende Steppe - Flammenkamm; "..YELLOW.."66.0, 22.0"..WHITE..")"
 Inst1Quest2_Note = "Du bekommst die Vorquest von Yorba Screwspigot (Tanaris - Steamwheedle Port; "..YELLOW.."67.0, 24.0"..WHITE..").\nRibbly Screwspigot ist bei "..YELLOW.."[15]"..WHITE.."."
 Inst1Quest2_Prequest = "Yuka Screwspigot"
 Inst1Quest2_Folgequest = "Nein"
@@ -169,7 +169,7 @@ Inst1Quest6name4 = "Wackere Umklammerung"
 --Quest 7 Alliance
 Inst1Quest7 = "7. Das 'Herz des Berges'"
 Inst1Quest7_Aim = "Bringt das 'Herz des Berges' zu Maxwort Uberglint in der brennenden Steppe."
-Inst1Quest7_Location = "Maxwort Uberglint (Brennende Steppe - Flame Crest; "..YELLOW.."65.2, 23.8"..WHITE..")"
+Inst1Quest7_Location = "Maxwort Uberglint (Brennende Steppe - Flammenkamm; "..YELLOW.."65.2, 23.8"..WHITE..")"
 Inst1Quest7_Note = "Du kannst das Herz des Berges bei "..YELLOW.."[8]"..WHITE.." in einer Truhe finden.  Um den Schlüssel zu diesem Tresor zu erhalten, musst Du erst die anderen kleineren Tresore mit dem Relikttruhenschlüsseln öffnen, die in der gesamten Dungeon verteilt sind.  Wenn alle kleinen Truhen geöffnet sind, erscheint Wachmann Stahlgriff und seine Freunde.  Besiege diese um den Schlüssel zu bekommen."
 Inst1Quest7_Prequest = "Nein"
 Inst1Quest7_Folgequest = "Nein"
@@ -410,7 +410,7 @@ Inst1Quest11_HORDE_Aim = "Reist zum Steinbruch am Blackrock und tötet Übermeiste
 Inst1Quest11_HORDE_Location = "Thunderheart (Ödland - Kargath; "..YELLOW.."3.4, 48.2"..WHITE..")"
 Inst1Quest11_HORDE_Note = Inst1Quest5_Note
 Inst1Quest11_HORDE_Prequest = "Nein"
-Inst1Quest11_HORDE_Folgequest = "Disharmony of Fire"
+Inst1Quest11_HORDE_Folgequest = "Disharmonie des Feuers"
 -- No Rewards for this quest
 
 --Quest 12 Horde
@@ -578,7 +578,7 @@ Inst3Quest1name2 = "Zerlumptes Hakkaricape"
 --Quest 2 Alliance
 Inst3Quest2 = "2. Kiblers Exotische Tiere"
 Inst3Quest2_Aim = "Begebt Euch zur Blackrockspitze und sucht Worgwelpen der Blutäxte. Benutzt den Käfig, um die wilden kleinen Bestien zu transportieren. Bringt einen eingesperrten Worgwelpen zu Kibler."
-Inst3Quest2_Location = "Kibler (Brennende Steppe - Flame Crest; "..YELLOW.."65.8, 22.0"..WHITE..")"
+Inst3Quest2_Location = "Kibler (Brennende Steppe - Flammenkamm; "..YELLOW.."65.8, 22.0"..WHITE..")"
 Inst3Quest2_Note = "Du findest die Worhwelpen in der Nähe von Halcyon bei "..YELLOW.."[16]"..WHITE.."."
 Inst3Quest2_Prequest = "Nein"
 Inst3Quest2_Folgequest = "Nein"
@@ -588,7 +588,7 @@ Inst3Quest2name1 = "Worgtransportkorb"
 --Quest 3 Alliance
 Inst3Quest3 = "3. Be-Öh-Es-Eh"
 Inst3Quest3_Aim = "Reist zur Blackrockspitze und sammelt 15 Spitzenspinnen-Eier für Kibler."
-Inst3Quest3_Location = "Kibler (Brennende Steppe - Flame Crest; "..YELLOW.."65.8, 22.0"..WHITE..")"
+Inst3Quest3_Location = "Kibler (Brennende Steppe - Flammenkamm; "..YELLOW.."65.8, 22.0"..WHITE..")"
 Inst3Quest3_Note = "Du findest die Spitzenspinnen-Eier in der Nähe von Mutter Glimmernetz bei "..YELLOW.."[11]"..WHITE.."."
 Inst3Quest3_Prequest = "Nein"
 Inst3Quest3_Folgequest = "Nein"
@@ -598,7 +598,7 @@ Inst3Quest3name1 = "Glimmernetztransportkorb"
 --Quest 4 Alliance
 Inst3Quest4 = "4. Muttermilch"
 Inst3Quest4_Aim = "Ihr findet Mutter Glimmernetz im Herzen der Blackrockspitze. Kämpft mit ihr und bringt sie dazu, Euch zu vergiften. Es kann gut sein, dass Ihr sie sogar töten müsst. Kehrt zum struppigen John zurück, sobald Ihr vergiftet seid, damit er Euch 'melken' kann."
-Inst3Quest4_Location = "Ragged John (Brennende Steppe - Flame Crest; "..YELLOW.."65.0, 23.6"..WHITE..")"
+Inst3Quest4_Location = "Ragged John (Brennende Steppe - Flammenkamm; "..YELLOW.."65.0, 23.6"..WHITE..")"
 Inst3Quest4_Note = "Mutter Glimmernetz ist bei "..YELLOW.."[11]"..WHITE..". Der Gifteffekt kann jeden Spieler erwischen. Wenn der Effekt entfernt wird, scheiterst Du auch an der Quest."
 Inst3Quest4_Prequest = "Nein"
 Inst3Quest4_Folgequest = "Nein"
@@ -882,7 +882,7 @@ Inst4Quest2_Folgequest = "Brustplatte des Blutdurstes, Gamaschen von Arcana, Kap
 --Quest 3 Alliance
 Inst4Quest3 = "3. Ei-Frosten"
 Inst4Quest3_Aim = "Benutzt den Prototyp des Eiszilloskops an einem Ei im Hors."
-Inst4Quest3_Location = "Tinkee Steamboil (Brennende Steppe - Flame Crest; "..YELLOW.."65.2, 23.8"..WHITE..")"
+Inst4Quest3_Location = "Tinkee Steamboil (Brennende Steppe - Flammenkamm; "..YELLOW.."65.2, 23.8"..WHITE..")"
 Inst4Quest3_Note = "Du findest die Eier in dem Raum Vatersflammen bei "..YELLOW.."[2]"..WHITE.."."
 Inst4Quest3_Prequest = "Brutlingessenz -> Tinkee Steamboil"
 Inst4Quest3_Folgequest = "Eiersammlung"
@@ -965,7 +965,7 @@ Inst4Quest10name3 = "Elixier des Dämonentötens"
 --Quest 11 Alliance
 Inst4Quest11 = "11. Eiersammlung"
 Inst4Quest11_Aim = "Bringt 8 eingesammelte Dracheneier sowie das kollektronische Modul zu Tinkee Steamboil am Flammenkamm in der brennenden Steppe."
-Inst4Quest11_Location = "Tinkee Steamboil (Brennende Steppe - Flame Crest; "..YELLOW.."65.2, 23.8"..WHITE..")"
+Inst4Quest11_Location = "Tinkee Steamboil (Brennende Steppe - Flammenkamm; "..YELLOW.."65.2, 23.8"..WHITE..")"
 Inst4Quest11_Note = "Du findest die Eier im Raum von Vatersflammen bei "..YELLOW.."[2]"..WHITE.."."
 Inst4Quest11_Prequest = "Ei-Frosten"
 Inst4Quest11_Folgequest = "Leonid Barthalomew -> Dämmerungstrickfalle  ("..YELLOW.."Scholomance"..WHITE..")"
@@ -1156,7 +1156,7 @@ Inst5Quest3name1 = "Rächer des Minenarbeiters"
 Inst5Quest4 = "4. Unterirdischer Angriff"
 Inst5Quest4_Aim = "Holt das Gnoam-Sprecklesprocket aus den Todesminen und bringt es Shoni der Schtillen in Stormwind."
 Inst5Quest4_Location = "Shoni der Schtillen (Stormwind - Zwergendistrikt; "..YELLOW.."62.6, 34.1"..WHITE..")"
-Inst5Quest4_Note = "Die optionale Vorquest bekommst Du von Gnoarn (Ironforge - Tinkertown; "..YELLOW.."69.4, 50.6"..WHITE..").\nSneed's Schredder droppt vom Gnoam Sprecklesprocket bei "..YELLOW.."[3]"..WHITE.."."
+Inst5Quest4_Note = "Die optionale Vorquest bekommst Du von Gnoarn (Ironforge - Tüftlerstadt; "..YELLOW.."69.4, 50.6"..WHITE..").\nSneed's Schredder droppt vom Gnoam Sprecklesprocket bei "..YELLOW.."[3]"..WHITE.."."
 Inst5Quest4_Prequest = "Sprecht mit Shoni"
 Inst5Quest4_Folgequest = "Nein"
 --
@@ -1203,256 +1203,256 @@ Inst6QAA = "11 Quests"
 Inst6QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst6Quest1 = "1. Save Techbot's Brain!"
-Inst6Quest1_Aim = "Bring Techbot's Memory Core to Tinkmaster Overspark in Ironforge."
-Inst6Quest1_Location = "Tinkmaster Overspark (Ironforge - Tinkertown; "..YELLOW.."69,50"..WHITE..")"
-Inst6Quest1_Note = "You get the prequest from Brother Sarno (Stormwind - Cathedral Square; "..YELLOW.."50.9, 47.8"..WHITE..").\nYou find Techbot before you enter the instance near the backdoor, at "..YELLOW.."[4] auf der Eingangskarte"..WHITE.."."
-Inst6Quest1_Prequest = "Tinkmaster Overspark"
+Inst6Quest1 = "1. Rettet Techbots Hirn!"
+Inst6Quest1_Aim = "Bringt Techbots Speicherkern zu Tüftlermeister Overspark nach Ironforge."
+Inst6Quest1_Location = "Tüftlermeister Overspark (Ironforge - Tüftlerstadt; "..YELLOW.."69,50"..WHITE..")"
+Inst6Quest1_Note = "Du Vorquest bekommst Du von Bruder Sarno (Stormwind - Kathedralenplatz; "..YELLOW.."50.9, 47.8"..WHITE..").\nDu findest Techbot bevor Du die Instanz betretest in der Nähe der Hintertür bei "..YELLOW.."[4] auf der Eingangskarte"..WHITE.."."
+Inst6Quest1_Prequest = "Tüftlermeister Overspark"
 Inst6Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst6Quest2 = "2. Gnogaine"
-Inst6Quest2_Aim = "Use the Empty Leaden Collection Phial on Irradiated Invaders or Irradiated Pillagers to collect radioactive fallout. Once it is full, take it back to Ozzie Togglevolt in Kharanos."
+Inst6Quest2_Aim = "Sammelt mit der leeren bleiernen Sammelphiole radioaktive Ablagerungen bestrahlter Eindringlinge oder Plünderer. Sobald sie voll ist, bringt Ihr sie zu Ozzie Togglevolt nach Kharanos zurück."
 Inst6Quest2_Location = "Ozzie Togglevolt (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")"
-Inst6Quest2_Note = "You get the prequest from Gnoarn (Ironforge - Tinkertown; "..YELLOW.."69,50"..WHITE..").\nTo get fallout you musst use the Phial on "..RED.."alive"..WHITE.." Irradiated Invaders or Irradiated Pillagers."
-Inst6Quest2_Prequest = "The Day After"
-Inst6Quest2_Folgequest = "The Only Cure is More Green Glow"
+Inst6Quest2_Note = "Du Vorquest bekommst Du von Gnoarn (Ironforge - Tüftlerstadt; "..YELLOW.."69,50"..WHITE..").\nUm die Ablagerungen zu bekommst, musst Du die Phiole auf die "..RED.."Lebenden"..WHITE.." betrahlten Plünderer oder Eindringlinge anwenden."
+Inst6Quest2_Prequest = "Der Tag danach"
+Inst6Quest2_Folgequest = "Das einzige Heilmittel ist mehr grünes Leuchten"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst6Quest3 = "3. The Only Cure is More Green Glow"
-Inst6Quest3_Aim = "Travel to Gnomeregan and bring back High Potency Radioactive Fallout. Be warned, the fallout is unstable and will collapse rather quickly.\nOzzie will also require your Heavy Leaden Collection Phial when the task is complete."
+Inst6Quest3 = "3. Das einzige Heilmittel ist mehr grünes Leuchten"
+Inst6Quest3_Aim = "Reist nach Gnomeregan und bringt etwas von der hoch konzentrierten radioaktiven Ablagerung zurück. Seid gewarnt, die Ablagerung ist instabil und wird ziemlich schnell zerfallen.\nOzzie wird außerdem Eure schwere bleierne Phiole benötigen, nachdem die Aufgabe erledigt ist."
 Inst6Quest3_Location = "Ozzie Togglevolt (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")"
-Inst6Quest3_Note = "To get fallout you must use the Phial on "..RED.."alive"..WHITE.." Irradiated Slimes or Horrors."
+Inst6Quest3_Note = "Um die Ablagerungen zu bekommst, musst Du die Phiole auf die "..RED.."Lebenden"..WHITE.." betrahlten Brühschleimern, Lauerern und Schrecken anwenden."
 Inst6Quest3_Prequest = "Gnogaine"
 Inst6Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst6Quest4 = "4. Gyrodrillmatic Excavationators"
-Inst6Quest4_Aim = "Bring twenty-four Robo-mechanical Guts to Shoni in Stormwind."
-Inst6Quest4_Location = "Shoni the Silent (Stormwind - Zwergendistrikt; "..YELLOW.."62.6, 34.1"..WHITE..")"
-Inst6Quest4_Note = "All Robots can drop the Robo-mechanical Guts."
+Inst6Quest4 = "4. Gyrobohrmatische Exkavation"
+Inst6Quest4_Aim = "Bringt 24 robomechanische Innereien zu Shoni nach Stormwind."
+Inst6Quest4_Location = "Shoni die Schtille (Stormwind - Zwergendistrikt; "..YELLOW.."62.6, 34.1"..WHITE..")"
+Inst6Quest4_Note = "Alle Roboter können die Innereien droppen."
 Inst6Quest4_Prequest = "Nein"
 Inst6Quest4_Folgequest = "Nein"
 --
-Inst6Quest4name1 = "Shoni's Disarming Tool"
-Inst6Quest4name2 = "Shilly Mitts"
+Inst6Quest4name1 = "Shonis Entwaffnungs-Werkzeug"
+Inst6Quest4name2 = "Fäustlinge der Entschlossenheit"
 
 --Quest 5 Alliance
-Inst6Quest5 = "5. Essential Artificials"
-Inst6Quest5_Aim = "Bring 12 Essential Artificials to Klockmort Spannerspan in Ironforge."
-Inst6Quest5_Location = "Klockmort Spannerspan (Ironforge - Tinkertown; "..YELLOW.."68,46"..WHITE..")"
-Inst6Quest5_Note = "You get the prequest from Mathiel (Darnassus - Warrior's Terrace; "..YELLOW.."59,45"..WHITE.."). The prequest is only a pointer quest and is not required to get this quest.\nThe Essential Artificials come from machines scattered around the instance."
-Inst6Quest5_Prequest = "Klockmort's Essentials"
+Inst6Quest5 = "5. Grundlegende Artifixe"
+Inst6Quest5_Aim = "Bringt Klockmort Spannerspan in Ironforge 12 grundlegende Artifixe."
+Inst6Quest5_Location = "Klockmort Spannerspan (Ironforge - Tüftlerstadt; "..YELLOW.."68,46"..WHITE..")"
+Inst6Quest5_Note = "Du bekommst die Vorquest von Mathiel (Darnassus - Terasse der Krieger; "..YELLOW.."59,45"..WHITE..").\nDie grundlegende Artifixe kommen von den Geräten, die überall in der Instanz verteilt sind."
+Inst6Quest5_Prequest = "Klockmorts Grundlagen"
 Inst6Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst6Quest6 = "6. Data Rescue"
-Inst6Quest6_Aim = "Bring a Prismatic Punch Card to Master Mechanic Castpipe in Ironforge."
-Inst6Quest6_Location = "Master Mechanic Castpipe (Ironforge - Tinkertown; "..YELLOW.."69,48"..WHITE..")"
-Inst6Quest6_Note = "You get the prequest from Gaxim Rustfizzle (Stonetalon Mountains; "..YELLOW.."59,67"..WHITE.."). The prequest is only a pointer quest and is not required to get this quest.\nThe white card is a random drop. You find the first terminal next to the back entrance before you enter the instance at "..YELLOW.."[3] auf der Eingangskarte"..WHITE..". The 3005-B ist bei "..YELLOW.."[3]"..WHITE..", the 3005-C at "..YELLOW.."[5]"..WHITE.." and the 3005-D ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst6Quest6_Prequest = "Castpipe's Task"
+Inst6Quest6 = "6. Datenrettung"
+Inst6Quest6_Aim = "Bringt Mechanikermeister Castpipe in Ironforge eine Prismalochkarte."
+Inst6Quest6_Location = "Mechanikermeister Castpipe (Ironforge - Tüftlerstadt; "..YELLOW.."69,48"..WHITE..")"
+Inst6Quest6_Note = "Die Vorquest erhälst du von Gaxim Rustfizzle (Steinkrallengebirge; "..YELLOW.."59,67"..WHITE..").\nDie Karte kann von jedem Gegner droppen. Du findeest das 1. Terminal neben dem Hintereingang, bevor Sie die Instanz betrits, bei  "..YELLOW.."[3] auf der Eingangskarte"..WHITE..". Der 3005-B ist bei "..YELLOW.."[3]"..WHITE..", der 3005-C at "..YELLOW.."[5]"..WHITE.." und der 3005-D ist bei "..YELLOW.."[6]"..WHITE.."."
+Inst6Quest6_Prequest = "Castpipes Auftrag"
 Inst6Quest6_Folgequest = "Nein"
 --
-Inst6Quest6name1 = "Repairman's Cape"
-Inst6Quest6name2 = "Mechanic's Pipehammer"
+Inst6Quest6name1 = "Schlosser-Cape"
+Inst6Quest6name2 = "Mechanikerrohrhammer"
 
 --Quest 7 Alliance
-Inst6Quest7 = "7. A Fine Mess"
-Inst6Quest7_Aim = "Escort Kernobee to the Clockwerk Run exit and then report to Scooty in Booty Bay."
+Inst6Quest7 = "7. Eine schöne Bescherung"
+Inst6Quest7_Aim = "Begleitet Kernobee zur Uhrwerkgasse und meldet Euch dann wieder bei Scooty in Booty Bay."
 Inst6Quest7_Location = "Kernobee (Gnomeregan; "..YELLOW.."[3]"..WHITE..")"
-Inst6Quest7_Note = "Escort quest! You find Scooty in Stranglethorn Vale - Booty Bay ("..YELLOW.."27,77"..WHITE..")."
+Inst6Quest7_Note = "Begleitquest! Du findest Scooty in Schlingendorntal - Booty Bay ("..YELLOW.."27,77"..WHITE..")."
 Inst6Quest7_Prequest = "Nein"
 Inst6Quest7_Folgequest = "Nein"
 --
-Inst6Quest7name1 = "Fire-welded Bracers"
-Inst6Quest7name2 = "Fairywing Mantle"
+Inst6Quest7name1 = "Feuergeschmiedete Armschienen"
+Inst6Quest7name2 = "Feenflügel-Mantel"
 
 --Quest 8 Alliance
-Inst6Quest8 = "8. The Grand Betrayal"
-Inst6Quest8_Aim = "Venture to Gnomeregan and kill Mekgineer Thermaplugg. Return to High Tinker Mekkatorque when the task is complete."
-Inst6Quest8_Location = "High Tinker Mekkatorque (Ironforge - Tinkertown; "..YELLOW.."68,48"..WHITE..")"
-Inst6Quest8_Note = "You find Thermaplugg at "..YELLOW.."[8]"..WHITE..". He is the last boss in Gnomeregan.\nDuring the fight you have to disable the columns through pushing the button on the side."
+Inst6Quest8 = "8. Der große Verrat"
+Inst6Quest8_Aim = "Reist nach Gnomeregan und tötet Robogenieur Thermaplugg. Kehrt zu Hochtüftler Mekkatorque zurück, wenn der Auftrag ausgeführt ist."
+Inst6Quest8_Location = "Hochtüftler Mekkatorque (Ironforge - Tüftlerstadt; "..YELLOW.."68,48"..WHITE..")"
+Inst6Quest8_Note = "Du findest Thermaplugg bei "..YELLOW.."[8]"..WHITE..".\nWähredn des Kampfes, musst Du die Hebel an den Säulen deaktiviren."
 Inst6Quest8_Prequest = "Nein"
 Inst6Quest8_Folgequest = "Nein"
 --
-Inst6Quest8name1 = "Civinad Robes"
-Inst6Quest8name2 = "Triprunner Dungarees"
-Inst6Quest8name3 = "Dual Reinforced Leggings"
+Inst6Quest8name1 = "Civinad-Roben"
+Inst6Quest8name2 = "Stolperläufer-Latzhose"
+Inst6Quest8name3 = "Zweifach verstärkte Gamaschen"
 
 --Quest 9 Alliance
-Inst6Quest9 = "9. Grime-Encrusted Ring"
-Inst6Quest9_Aim = "Figure out a way to remove the grime from the Grime-Encrusted Ring."
-Inst6Quest9_Location = "Grime-Encrusted Ring (random drop from Dark Iron Agents in Gnomeregan)"
-Inst6Quest9_Note = "The Ring can be cleaned off at the Sparklematic 5200 in the Clean Room at "..YELLOW.."[2]"..WHITE.."."
+Inst6Quest9 = "9. Schmutzverkrusteter Ring"
+Inst6Quest9_Aim = "Findet einen Weg, den schmutzverkrusteten Ring zu säubern."
+Inst6Quest9_Location = "Schmutzverkrusteter Ring (zufälliger drop von den Dunkeleisenzwergen)"
+Inst6Quest9_Note = "Der Ring kann gereinigt werden mit dem Funkelmat 5200 in 'Die sauberen Zone' bei "..YELLOW.."[2]"..WHITE.."."
 Inst6Quest9_Prequest = "Nein"
-Inst6Quest9_Folgequest = "Return of the Ring"
+Inst6Quest9_Folgequest = "Die Rückkehr des Rings"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst6Quest10 = "10. Return of the Ring"
-Inst6Quest10_Aim = "You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
-Inst6Quest10_Location = "Brilliant Gold Ring (obtained from Grime-Encrusted Ring quest)"
-Inst6Quest10_Note = "Turns in to Talvash del Kissel (Ironforge - Mystic Ward; "..YELLOW.."36,3"..WHITE.."). The followup to enhance the ring is optional."
-Inst6Quest10_Prequest = "Grime-Encrusted Ring"
-Inst6Quest10_Folgequest = "Gnome Improvement"
+Inst6Quest10 = "10. Die Rückkehr des Rings"
+Inst6Quest10_Aim = "Ihr könnt den Ring entweder behalten oder die Person finden, die für die Prägung und Gravuren auf der Innenseite des Rings verantwortlich ist."
+Inst6Quest10_Location = "Blitzender Goldring (erhalten von Schmutzverkrusteter Ring Quest)"
+Inst6Quest10_Note = "Kehre zurück zusTalvash del Kissel (Ironforge - Mystikerviertel; "..YELLOW.."36,3"..WHITE.."). Die Folgequest des Ringes ist optional."
+Inst6Quest10_Prequest = "Schmutzverkrusteter Ring"
+Inst6Quest10_Folgequest = "Gnomen-Verbesserungen"
 --
-Inst6Quest10name1 = "Brilliant Gold Ring"
+Inst6Quest10name1 = "Blitzender Goldring"
 
 --Quest 11 Alliance
-Inst6Quest11 = "11. The Sparklematic 5200!"
-Inst6Quest11_Aim = "Insert a Grime-Encrusted Item into the Sparklematic 5200, and be sure to have three silver coins to start the machine."
-Inst6Quest11_Location = "Sparklematic 5200 (Gnomeregan - The Clean Room; "..YELLOW.."[2]"..WHITE..")"
-Inst6Quest11_Note = "You can repeat this quest for all the Grime-Encrusted Items you have."
+Inst6Quest11 = "11. Der Funkelmat 5200!"
+Inst6Quest11_Aim = "Gebt einen schmutzverkrusteten Gegenstand in den Funkelmat 5200 und stellt sicher, dass Ihr drei Silbermünzen habt, um die Maschine zu aktivieren."
+Inst6Quest11_Location = "Funkelmat 5200 (Gnomeregan - Die saubere Zone; "..YELLOW.."[2]"..WHITE..")"
+Inst6Quest11_Note = "Du kannst diese Quest so oft wiederholen wie du schmutzverkrustete Ringe hast."
 Inst6Quest11_Prequest = "Nein"
 Inst6Quest11_Folgequest = "Nein"
 --
-Inst6Quest11name1 = "Sparklematic-Wrapped Box"
+Inst6Quest11name1 = "Funkelmatverpackter Kasten"
 
 
 --Quest 1 Horde
-Inst6Quest1_HORDE = "1. Gnomer-gooooone!"
-Inst6Quest1_HORDE_Aim = "Wait for Scooty to calibrate the Goblin Transponder."
-Inst6Quest1_HORDE_Location = "Scooty (Stranglethorn Vale - Booty Bay; "..YELLOW.."27,77"..WHITE..")"
-Inst6Quest1_HORDE_Note = "You get the prequest from Sovik (Orgrimmar - Valley of Honor; "..YELLOW.."75,25"..WHITE..").\nWhen you complete this quest you can use the transponder in Booty Bay."
-Inst6Quest1_HORDE_Prequest = "Chief Engineer Scooty"
+Inst6Quest1_HORDE = "1. Gnomer-weeeeg!"
+Inst6Quest1_HORDE_Aim = "Wartet, bis Scooty den Goblin-Transponder kalibriert hat."
+Inst6Quest1_HORDE_Location = "Scooty (Schlingendorntal - Booty Bay; "..YELLOW.."27,77"..WHITE..")"
+Inst6Quest1_HORDE_Note = "Du bekommst die Vorquest von Sovik (Orgrimmar - Tal der Ehre; "..YELLOW.."75,25"..WHITE..").\nWenn Du die Quest beendet hast, kannst Du den Transporter in Booty Bay benutzen."
+Inst6Quest1_HORDE_Prequest = "Chefingenieur Scooty"
 Inst6Quest1_HORDE_Folgequest = "Nein"
 --
-Inst6Quest1name1_HORDE = "Goblin Transponder"
+Inst6Quest1name1_HORDE = "Goblin-Transponder"
 
---Quest 2 Horde  (same as Quest 7 Alliance)
-Inst6Quest2_HORDE = "2. A Fine Mess"
+--Quest 2 Horde
+Inst6Quest2_HORDE = "2. Eine schöne Bescherung"
 Inst6Quest2_HORDE_Aim = Inst6Quest7_Aim
 Inst6Quest2_HORDE_Location = Inst6Quest7_Location
 Inst6Quest2_HORDE_Note = Inst6Quest7_Note
-Inst6Quest2_HORDE_Prequest = Inst6Quest7_Prequest
-Inst6Quest2_HORDE_Folgequest = Inst6Quest7_Folgequest
+Inst6Quest2_HORDE_Prequest = "Nein"
+Inst6Quest2_HORDE_Folgequest = "Nein"
 --
 Inst6Quest2name1_HORDE = Inst6Quest7name1
 Inst6Quest2name2_HORDE = Inst6Quest7name2
 
 --Quest 3 Horde
-Inst6Quest3_HORDE = "3. Rig Wars"
-Inst6Quest3_HORDE_Aim = "Retrieve the Rig Blueprints and Thermaplugg's Safe Combination from Gnomeregan and bring them to Nogg in Orgrimmar."
-Inst6Quest3_HORDE_Location = "Nogg (Orgrimmar - Valley of Honor; "..YELLOW.."75,25"..WHITE..")"
-Inst6Quest3_HORDE_Note = "You find Thermaplugg at "..YELLOW.."[8]"..WHITE..". He is the last boss in Gnomeregan.\nDuring the fight you have to disable the columns through pushing the button on the side."
+Inst6Quest3_HORDE = "3. Maschinenkriege"
+Inst6Quest3_HORDE_Aim = "Besorgt die Maschinenblaupausen und Thermapluggs Safekombination aus Gnomeregan und bringt sie zu Nogg nach Orgrimmar."
+Inst6Quest3_HORDE_Location = "Nogg (Orgrimmar - Tal der Ehre; "..YELLOW.."75,25"..WHITE..")"
+Inst6Quest3_HORDE_Note = Inst6Quest8_Note
 Inst6Quest3_HORDE_Prequest = "Nein"
 Inst6Quest3_HORDE_Folgequest = "Nein"
 --
-Inst6Quest3name1_HORDE = "Civinad Robes"
-Inst6Quest3name2_HORDE = "Triprunner Dungarees"
-Inst6Quest3name3_HORDE = "Dual Reinforced Leggings"
+Inst6Quest3name1_HORDE = "Civinad-Roben"
+Inst6Quest3name2_HORDE = Inst6Quest8name2
+Inst6Quest3name3_HORDE = Inst6Quest8name3
 
---Quest 4 Horde  (same as Quest 9 Alliance)
-Inst6Quest4_HORDE = "4. Grime-Encrusted Ring"
+--Quest 4 Horde
+Inst6Quest4_HORDE = "4. Schmutzverkrusteter Ring"
 Inst6Quest4_HORDE_Aim = Inst6Quest9_Aim
 Inst6Quest4_HORDE_Location = Inst6Quest9_Location
 Inst6Quest4_HORDE_Note = Inst6Quest9_Note
-Inst6Quest4_HORDE_Prequest = Inst6Quest9_Prequest
+Inst6Quest4_HORDE_Prequest = "Nein"
 Inst6Quest4_HORDE_Folgequest = Inst6Quest9_Folgequest
 -- No Rewards for this quest
 
 --Quest 5 Horde
-Inst6Quest5_HORDE = "5. Return of the Ring"
-Inst6Quest5_HORDE_Aim = "You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
-Inst6Quest5_HORDE_Location = "Brilliant Gold Ring (obtained from Grime-Encrusted Ring quest)"
-Inst6Quest5_HORDE_Note = "Turns in to Nogg (Orgrimmar - The Valley of Honor; "..YELLOW.."75,25"..WHITE.."). The followup to enhance the ring is optional."
-Inst6Quest5_HORDE_Prequest = "Grime-Encrusted Ring"
-Inst6Quest5_HORDE_Folgequest = "Nogg's Ring Redo"
+Inst6Quest5_HORDE = "5. Die Rückkehr des Rings"
+Inst6Quest5_HORDE_Aim = Inst6Quest10_Aim
+Inst6Quest5_HORDE_Location = Inst6Quest10_Location
+Inst6Quest5_HORDE_Note = "Kehre zurück zu Nogg (Orgrimmar - Tal der Ehre; "..YELLOW.."75,25"..WHITE.."). Die Folgequest des Ringes ist optional."
+Inst6Quest5_HORDE_Prequest = Inst6Quest10_Prequest
+Inst6Quest5_HORDE_Folgequest = "Noggs Ringerneuerung"
 --
-Inst6Quest5name1_HORDE = "Brilliant Gold Ring"
+Inst6Quest5name1_HORDE = Inst6Quest10name1
 
 --Quest 6 Horde
-Inst6Quest6_HORDE = "6. The Sparklematic 5200!"
-Inst6Quest6_HORDE_Aim = "Insert a Grime-Encrusted Item into the Sparklematic 5200, and be sure to have three silver coins to start the machine."
-Inst6Quest6_HORDE_Location = "Sparklematic 5200 (Gnomeregan - The Clean Room; "..YELLOW.."[2]"..WHITE..")"
-Inst6Quest6_HORDE_Note = "You can repeat this quest for all the Grime-Encrusted Items you have."
+Inst6Quest6_HORDE = "6. Der Funkelmat 5200!"
+Inst6Quest6_HORDE_Aim = Inst6Quest11_Aim
+Inst6Quest6_HORDE_Location = Inst6Quest11_Location
+Inst6Quest6_HORDE_Note = Inst6Quest11_Note
 Inst6Quest6_HORDE_Prequest = "Nein"
 Inst6Quest6_HORDE_Folgequest = "Nein"
 --
-Inst6Quest6name1_HORDE = "Sparklematic-Wrapped Box"
+Inst6Quest6name1_HORDE = Inst6Quest11name1
 
 
 
 --------------- INST7 - Scarlet Monastery: Library ---------------
 
-Inst7Caption = "SM: Library"
+Inst7Caption = "SM: Bibliothek"
 Inst7QAA = "3 Quests"
 Inst7QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst7Quest1 = "1. Mythology of the Titans"
-Inst7Quest1_Aim = "Retrieve Mythology of the Titans from the Monastery and bring it to Librarian Mae Paledust in Ironforge."
-Inst7Quest1_Location = "Librarian Mae Paledust (Ironforge - Hall of Explorers; "..YELLOW.."74,12"..WHITE..")"
-Inst7Quest1_Note = "The book is on the floor on the left side of one of the corridors leading to Arcanist Doan ("..YELLOW.."[2]"..WHITE..")."
+Inst7Quest1 = "1. Mythologie der Titanen"
+Inst7Quest1_Aim = "Holt die 'Mythologie der Titanen' aus dem Kloster und bringt die der Bibliothekarin Mae Paledust in Ironforge."
+Inst7Quest1_Location = "Bilbliothekarin Mae Paledust (Ironforge - Halle der Forscher; "..YELLOW.."74,12"..WHITE..")"
+Inst7Quest1_Note = "Das Buch befindet sich auf dem Boden auf der linken Seite im letzten Korridor, die zum Arkanist Doan führt ("..YELLOW.."[2]"..WHITE..")."
 Inst7Quest1_Prequest = "Nein"
 Inst7Quest1_Folgequest = "Nein"
 --
-Inst7Quest1name1 = "Explorers' League Commendation"
+Inst7Quest1name1 = "Forscherliga-Empfehlung"
 
 --Quest 2 Alliance
-Inst7Quest2 = "2. Rituals of Power (Mage)"
-Inst7Quest2_Aim = "Bring the book Rituals of Power to Tabetha in Dustwallow Marsh."
-Inst7Quest2_Location = "Tabetha (Dustwallow Marsh; "..YELLOW.."43,57"..WHITE..")"
-Inst7Quest2_Note = "This quest can only be obtained by mages. You can find the book in the last corridor leading to Arcanist Doan ("..YELLOW.."[2]"..WHITE..").\n\nThe rewards listed are for the followup."
-Inst7Quest2_Prequest = "Journey to the Marsh -> Get the Scoop"
-Inst7Quest2_Folgequest = "Mage's Wand"
+Inst7Quest2 = "2. Rituale der Macht (Magier)"
+Inst7Quest2_Aim = "Bringt das Buch 'Rituale der Macht' zu Tabetha in den Marschen von Dustwallow."
+Inst7Quest2_Location = "Tabetha (Dustwallow Marsehen; "..YELLOW.."43,57"..WHITE..")"
+Inst7Quest2_Note = "Diese Quest ist nur für Magier. Du findet das Buch im letzten Korridor auf dem Weg zum Atkanist Doan ("..YELLOW.."[2]"..WHITE..").\n\nDie Belohnung erhälst Du in der Folgequest."
+Inst7Quest2_Prequest = "Reise in die Marschen -> Der Knüller schlechthin"
+Inst7Quest2_Folgequest = "Der Zauberstab des Magiers"
 --
-Inst7Quest2name1 = "Icefury Wand"
-Inst7Quest2name2 = "Nether Force Wand"
-Inst7Quest2name3 = "Ragefire Wand"
+Inst7Quest2name1 = "Zauberstab des Eisfurors"
+Inst7Quest2name2 = "Zauberstab der Netherkraft"
+Inst7Quest2name3 = "Zauberstab des Wutfeuers"
 
 --Quest 3 Alliance
-Inst7Quest3 = "3. In the Name of the Light"
-Inst7Quest3_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
-Inst7Quest3_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
-Inst7Quest3_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.3, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst7Quest3_Prequest = "Brother Anton -> Down the Scarlet Path"
+Inst7Quest3 = "3. Im Namen des Lichts"
+Inst7Quest3_Aim = "Tötet Hochinquisitor Whitemane, den Scharlachroten Kommandant Mograine, Herod, den Scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Southshore."
+Inst7Quest3_Location = "Raleigh der Andächtige ( Vorgebirge von Hillsbrad - Southshore; "..YELLOW.."51,58"..WHITE..")"
+Inst7Quest3_Note = "Die Questreihe startet bei Bruder Crowley in Stormwind - Kathedrale des Lichts ("..YELLOW.."52.3, 43.1"..WHITE..").\nDu findest Hochinquisitorr Whitemane und Scharlachroter Kommandant Mograine bei "..YELLOW.."SM: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SM: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SM: Bibliothek [1]"..WHITE.."."
+Inst7Quest3_Prequest = "Bruder Anton -> Auf dem Scharlachroten Pfad"
 Inst7Quest3_Folgequest = "Nein"
 --
-Inst7Quest3name1 = "Sword of Serenity"
-Inst7Quest3name2 = "Bonebiter"
-Inst7Quest3name3 = "Black Menace"
-Inst7Quest3name4 = "Orb of Lorica"
+Inst7Quest3name1 = "Schwert der Beschaulichkeit"
+Inst7Quest3name2 = "Knochenbeißer"
+Inst7Quest3name3 = "Schwarze Bedrohung"
+Inst7Quest3name4 = "Kugel von Lorica"
 
 
 --Quest 1 Horde
-Inst7Quest1_HORDE = "1. Hearts of Zeal"
-Inst7Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst7Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst7Quest1_HORDE_Note = "All mobs inside the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
+Inst7Quest1_HORDE = "1. Herzen des Eifers"
+Inst7Quest1_HORDE_Aim = "Apothekermeister Faranell in Undercity möchte 20 Herzen des Eifers."
+Inst7Quest1_HORDE_Location = "Apothekenmeister Faranell (Undercity - Das Apothekarium; "..YELLOW.."48,69"..WHITE..")"
+Inst7Quest1_HORDE_Note = "Alle Gegner in den Scharlachroten Hallen droppen die Herzen des Eifers. Dazu gehören auch die Gegner außerhalb der Instanz."
 Inst7Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
 Inst7Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst7Quest2_HORDE = "2. Test of Lore"
-Inst7Quest2_HORDE_Aim = "Find The Beginnings of the Undead Threat, and return it to Parqual Fintallas in Undercity."
-Inst7Quest2_HORDE_Location = "Parqual Fintallas (Undercity - The Apothecarium; "..YELLOW.."57,65"..WHITE..")"
-Inst7Quest2_HORDE_Note = "Questline starts at Dorn Plainstalker (Thousand Needles; "..YELLOW.."53,41"..WHITE.."). You can find the book in the Library of Scarlet Monastary.\n\nThe rewards listed are for the followup, which just involves talking to the NPC."
-Inst7Quest2_HORDE_Prequest = "Test of Faith -> Test of Lore"
-Inst7Quest2_HORDE_Folgequest = "Test of Lore"
+Inst7Quest2_HORDE = "2. Test der Lehre"
+Inst7Quest2_HORDE_Aim = "Sucht Die Anfänge der Bedrohung durch die Untoten und bringt es zu Parqual Fintallas in Undercity."
+Inst7Quest2_HORDE_Location = "Parqual Fintallas (Undercity - Das Apothekarium; "..YELLOW.."57,65"..WHITE..")"
+Inst7Quest2_HORDE_Note = "Questreihe startet bei Dorn Plainstalker (Thausend Nadeln; "..YELLOW.."53,41"..WHITE.."). Du findest das Buch in den Scharlachroten Hallen.\n\nDie Belohnung erhälst Du in den Folgequesten, die nur beinhalten mit den NPC zu sprechen."
+Inst7Quest2_HORDE_Prequest = "Test des Glaubens -> Test der Lehre"
+Inst7Quest2_HORDE_Folgequest = "Test der Lehre"
 --
-Inst7Quest2name1_HORDE = "Windstorm Hammer"
-Inst7Quest2name2_HORDE = "Dancing Flame"
+Inst7Quest2name1_HORDE = "Windsturmhammer"
+Inst7Quest2name2_HORDE = "Tanzende Flamme"
 
 --Quest 3 Horde
-Inst7Quest3_HORDE = "3. Compendium of the Fallen"
-Inst7Quest3_HORDE_Aim = "Retrieve the Compendium of the Fallen from the Monastery in Tirisfal Glades and return to Sage Truthseeker in Thunder Bluff."
+Inst7Quest3_HORDE = "3. Kompendium der Gefallenen"
+Inst7Quest3_HORDE_Aim = "Holt das 'Kompendium der Gefallenen' aus dem Kloster in Tirisfal und bringt es zu Sage Truthseeker in Thunder Bluff."
 Inst7Quest3_HORDE_Location = "Sage Truthseeker (Thunderbluff; "..YELLOW.."34,47"..WHITE..")"
-Inst7Quest3_HORDE_Note = "You can find the book in the Library section of the Scarlet Monastery. For lore reasons, Undead cannot do this quest."
+Inst7Quest3_HORDE_Note = "Du findest das Buch in der Bibliothek im Scharlachroten Kloster. Untode können diese Quest nicht machen."
 Inst7Quest3_HORDE_Prequest = "Nein"
 Inst7Quest3_HORDE_Folgequest = "Nein"
 --
-Inst7Quest3name1_HORDE = "Vile Protector"
-Inst7Quest3name2_HORDE = "Forcestone Buckler"
-Inst7Quest3name3_HORDE = "Omega Orb"
+Inst7Quest3name1_HORDE = "Grässlicher Beschützer"
+Inst7Quest3name2_HORDE = "Zwingstein-Rundschild"
+Inst7Quest3name3_HORDE = "Omegakugel"
 
---Quest 4 Horde  (same as Quest 2 Alliance)
-Inst7Quest4_HORDE = "4. Rituals of Power (Mage)"
+--Quest 4 Horde
+Inst7Quest4_HORDE = "2. Rituale der Macht (Magier)"
 Inst7Quest4_HORDE_Aim = Inst7Quest2_Aim
 Inst7Quest4_HORDE_Location = Inst7Quest2_Location
 Inst7Quest4_HORDE_Note = Inst7Quest2_Note
@@ -1464,130 +1464,130 @@ Inst7Quest4name2_HORDE = Inst7Quest2name2
 Inst7Quest4name3_HORDE = Inst7Quest2name3
 
 --Quest 5 Horde
-Inst7Quest5_HORDE = "5. Into The Scarlet Monastery"
-Inst7Quest5_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
-Inst7Quest5_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst7Quest5_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst7Quest5_HORDE = "5. In das Scharlachrote Kloster"
+Inst7Quest5_HORDE_Aim = "Tötet Hochinquisitor Whitemane, den Scharlachroten Kommandant Mograine, Herod, den Scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Varimathras in Undercity."
+Inst7Quest5_HORDE_Location = "Varimathras (Undercity - Königliches Quartier; "..YELLOW.."56,92"..WHITE..")"
+Inst7Quest5_HORDE_Note = "Du findest Hochinquisitor Whitemane und Scharlachroten Kommandant Mograine bei "..YELLOW.."SM: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SM: Armory [1]"..WHITE.." and Hundemeister Loksey bei "..YELLOW.."SM: Bibliothek [1]"..WHITE.."."
 Inst7Quest5_HORDE_Prequest = "Nein"
 Inst7Quest5_HORDE_Folgequest = "Nein"
 --
-Inst7Quest5name1_HORDE = "Sword of Omen"
-Inst7Quest5name2_HORDE = "Prophetic Cane"
-Inst7Quest5name3_HORDE = "Dragon's Blood Necklace"
+Inst7Quest5name1_HORDE = "Schwert des Omens"
+Inst7Quest5name2_HORDE = "Prophetenkrückstock"
+Inst7Quest5name3_HORDE = "Drachenblut-Halskette"
 
 
 
 --------------- INST8 - Scarlet Monastery: Armory ---------------
 
-Inst8Caption = "SM: Armory"
+Inst8Caption = "SM: Waffenkammer"
 Inst8QAA = "1 Quest"
 Inst8QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst8Quest1 = "1. In the Name of the Light"
-Inst8Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
-Inst8Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
-Inst8Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.1, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst8Quest1_Prequest = "Brother Anton -> Down the Scarlet Path"
+Inst8Quest1 = "1. Im Namen des Lichts"
+Inst8Quest1_Aim = Inst7Quest3_Aim
+Inst8Quest1_Location = Inst7Quest3_Location
+Inst8Quest1_Note = Inst7Quest3_Note
+Inst8Quest1_Prequest = Inst7Quest3_Prequest
 Inst8Quest1_Folgequest = "Nein"
 --
-Inst8Quest1name1 = "Sword of Serenity"
-Inst8Quest1name2 = "Bonebiter"
-Inst8Quest1name3 = "Black Menace"
-Inst8Quest1name4 = "Orb of Lorica"
+Inst8Quest1name1 = Inst7Quest3name1
+Inst8Quest1name2 = "Knochenbeißer"
+Inst8Quest1name3 = Inst7Quest3name3
+Inst8Quest1name4 = Inst7Quest3name4
 
 
 --Quest 1 Horde
-Inst8Quest1_HORDE = "1. Hearts of Zeal"
-Inst8Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst8Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst8Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
-Inst8Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Kral der Klingenhauer"..WHITE..")"
+Inst8Quest1_HORDE = Inst7Quest1_HORDE
+Inst8Quest1_HORDE_Aim = Inst7Quest1_HORDE_Aim
+Inst8Quest1_HORDE_Location = Inst7Quest1_HORDE_Location
+Inst8Quest1_HORDE_Note = Inst7Quest1_HORDE_Note
+Inst8Quest1_HORDE_Prequest = Inst7Quest1_HORDE_Prequest
 Inst8Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst8Quest2_HORDE = "2. Into The Scarlet Monastery"
-Inst8Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
-Inst8Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst8Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst8Quest2_HORDE = "2. In das Scharlachrote Kloster"
+Inst8Quest2_HORDE_Aim = Inst7Quest5_HORDE_Aim
+Inst8Quest2_HORDE_Location = Inst7Quest5_HORDE_Location
+Inst8Quest2_HORDE_Note = Inst7Quest5_HORDE_Note
 Inst8Quest2_HORDE_Prequest = "Nein"
 Inst8Quest2_HORDE_Folgequest = "Nein"
 --
-Inst8Quest2name1_HORDE = "Sword of Omen"
-Inst8Quest2name2_HORDE = "Prophetic Cane"
-Inst8Quest2name3_HORDE = "Dragon's Blood Necklace"
+Inst8Quest2name1_HORDE = "Schwert des Omens"
+Inst8Quest2name2_HORDE = "Prophetenkrückstock"
+Inst8Quest2name3_HORDE = Inst7Quest5name3_HORDE
 
 
 
 --------------- INST9 - Scarlet Monastery: Cathedral ---------------
 
-Inst9Caption = "SM: Cathedral"
+Inst9Caption = "SM: Kathedrale"
 Inst9QAA = "1 Quest"
 Inst9QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst9Quest1 = "1. In the Name of the Light"
-Inst9Quest1_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
-Inst9Quest1_Location = "Raleigh the Devout (Hillsbrad Foothills - Southshore; "..YELLOW.."51,58"..WHITE..")"
-Inst9Quest1_Note = "This quest line starts at Brother Crowley in Stormwind - Cathedral of Light ("..YELLOW.."52.1, 43.1"..WHITE..").\nYou can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
-Inst9Quest1_Prequest = "Brother Anton -> Down the Scarlet Path"
+Inst9Quest1 = "1. Im Namen des Lichts"
+Inst9Quest1_Aim = Inst7Quest3_Aim
+Inst9Quest1_Location = Inst7Quest3_Location
+Inst9Quest1_Note = Inst7Quest9_Note
+Inst9Quest1_Prequest = Inst7Quest3_Prequest
 Inst9Quest1_Folgequest = "Nein"
 --
-Inst9Quest1name1 = "Sword of Serenity"
-Inst9Quest1name2 = "Bonebiter"
-Inst9Quest1name3 = "Black Menace"
-Inst9Quest1name4 = "Orb of Lorica"
+Inst9Quest1name1 = Inst7Quest3name1
+Inst9Quest1name2 = "Knochenbeißer"
+Inst9Quest1name3 = Inst7Quest3name3
+Inst9Quest1name4 = Inst7Quest3name4
 
 
 --Quest 1 Horde
-Inst9Quest1_HORDE = "1. Hearts of Zeal"
-Inst9Quest1_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst9Quest1_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst9Quest1_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
-Inst9Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Kral der Klingenhauer"..WHITE..")"
+Inst9Quest1_HORDE = Inst7Quest1_HORDE
+Inst9Quest1_HORDE_Aim = Inst7Quest1_HORDE_Aim
+Inst9Quest1_HORDE_Location = Inst7Quest1_HORDE_Location
+Inst9Quest1_HORDE_Note = Inst7Quest1_HORDE_Note
+Inst9Quest1_HORDE_Prequest = Inst7Quest1_HORDE_Prequest
 Inst9Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst9Quest2_HORDE = "2. Into The Scarlet Monastery"
-Inst9Quest2_HORDE_Aim = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
-Inst9Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst9Quest2_HORDE_Note = "You can find High Inquisitor Whitemane and Scarlet Commander Mograine at "..YELLOW.."SM: Cathedral [2]"..WHITE..", Herod at "..YELLOW.."SM: Armory [1]"..WHITE.." and Houndmaster Loksey at "..YELLOW.."SM: Library [1]"..WHITE.."."
+Inst9Quest2_HORDE = "2. In das Scharlachrote Kloster"
+Inst9Quest2_HORDE_Aim = Inst7Quest5_HORDE_Aim
+Inst9Quest2_HORDE_Location = Inst7Quest5_HORDE_Location
+Inst9Quest2_HORDE_Note = Inst7Quest5_HORDE_Note
 Inst9Quest2_HORDE_Prequest = "Nein"
 Inst9Quest2_HORDE_Folgequest = "Nein"
 --
-Inst9Quest2name1_HORDE = "Sword of Omen"
-Inst9Quest2name2_HORDE = "Prophetic Cane"
-Inst9Quest2name3_HORDE = "Dragon's Blood Necklace"
+Inst9Quest2name1_HORDE = "Schwert des Omens"
+Inst9Quest2name2_HORDE = "Prophetenkrückstock"
+Inst9Quest2name3_HORDE = Inst7Quest5name3_HORDE
 
 
 
 --------------- INST10 - Scarlet Monastery: Graveyard ---------------
 
-Inst10Caption = "SM: Graveyard"
+Inst10Caption = "SM: Friedhof"
 Inst10QAA = "Keine Quests"
 Inst10QAH = "2 Quests"
 
 
 --Quest 1 Horde
-Inst10Quest1_HORDE = "1. Vorrel's Revenge"
-Inst10Quest1_HORDE_Aim = "Return Vorrel Sengutz's wedding ring to Monika Sengutz in Tarren Mill."
-Inst10Quest1_HORDE_Location = "Vorrel Sengutz (Scarlet Monastery - Graveyard; "..YELLOW.."[1]"..WHITE..")"
-Inst10Quest1_HORDE_Note = "You can find Vorrel Sengutz at the beginning of the Graveyard section of the Scarlet Monastery. Nancy Vishas, who drops the ring needed for this quest, can be found in a house in the Alterac Mountains ("..YELLOW.."31,32"..WHITE..")."
+Inst10Quest1_HORDE = "1. Vorrels Rache"
+Inst10Quest1_HORDE_Aim = "Bringt Monika Sengutz in Tarrens Mühle den Ehering von Vorrel Sengutz."
+Inst10Quest1_HORDE_Location = "Vorrel Sengutz (Scharlachroter Kloster - Friedhof; "..YELLOW.."[1]"..WHITE..")"
+Inst10Quest1_HORDE_Note = "Du findest Vorrel Sengutz am Anfang der Instanz der Scharlachroten Kloster Friedhof. Nancy Vishas, die den Ring für diese Quest fallen lässt, kann in einem Haus im Alteracgebirge ("..YELLOW.."31,32"..WHITE..")."
 Inst10Quest1_HORDE_Prequest = "Nein"
 Inst10Quest1_HORDE_Folgequest = "Nein"
 --
-Inst10Quest1name1_HORDE = "Vorrel's Boots"
-Inst10Quest1name2_HORDE = "Mantle of Woe"
-Inst10Quest1name3_HORDE = "Grimsteel Cape"
+Inst10Quest1name1_HORDE = "Vorrels Stiefel"
+Inst10Quest1name2_HORDE = "Mantel des Jammers"
+Inst10Quest1name3_HORDE = "Grimmstahlcape"
 
 --Quest 2 Horde
-Inst10Quest2_HORDE = "2. Hearts of Zeal"
-Inst10Quest2_HORDE_Aim = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal."
-Inst10Quest2_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
-Inst10Quest2_HORDE_Note = "All mobs in the Scarlet Monastery drop Hearts of Zeal. This includes the mobs outside the instance by the portals."
-Inst10Quest2_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."Kral der Klingenhauer"..WHITE..")"
+Inst10Quest2_HORDE = "2. Herzen des Eifers"
+Inst10Quest2_HORDE_Aim = Inst7Quest1_HORDE_Aim
+Inst10Quest2_HORDE_Location = Inst7Quest1_HORDE_Location
+Inst10Quest2_HORDE_Note = Inst7Quest2_HORDE_Note"
+Inst10Quest2_HORDE_Prequest = Inst7Quest1_HORDE_Prequest
 Inst10Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
@@ -1596,147 +1596,156 @@ Inst10Quest2_HORDE_Folgequest = "Nein"
 --------------- INST11 - Scholomance ---------------
 
 Inst11Caption = "Scholomance"
-Inst11QAA = "11 Quests"
+Inst11QAA = "12 Quests"
 Inst11QAH = "12 Quests"
 
 --Quest 1 Alliance
-Inst11Quest1 = "1. Plagued Hatchlings"
-Inst11Quest1_Aim = "Kill 20 Plagued Hatchlings, then return to Betina Bigglezink at the Light's Hope Chapel."
-Inst11Quest1_Location = "Betina Bigglezink (Östliche Pestländer - Light's Hope Chapel; "..YELLOW.."75.6, 53.6"..WHITE..")"
-Inst11Quest1_Note = "The Plagued Hatchlings are on the way to Rattlegore in a large room."
+Inst11Quest1 = "1. Verseuchte Jungtiere"
+Inst11Quest1_Aim = "Tötet 20 verseuchte Jungtiere und kehrt dann zu Betina Bigglezink bei der Kapelle des hoffnungsvollen Lichts zurück."
+Inst11Quest1_Location = "Betina Bigglezink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."75.6, 53.6"..WHITE..")"
+Inst11Quest1_Note = "Die verseuchten Jungtiere findest Du auf den Weg zu Rattlegore in einem großen Raum."
 Inst11Quest1_Prequest = "Nein"
-Inst11Quest1_Folgequest = "Healthy Dragon Scale"
+Inst11Quest1_Folgequest = "Gesunde Großdrachenschuppe"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst11Quest2 = "2. Healthy Dragon Scale"
-Inst11Quest2_Aim = "Bring the Healthy Dragon Scale to Betina Bigglezink at the Light's Hope Chapel in Östliche Pestländer."
-Inst11Quest2_Location = "Healthy Dragon Scale (random drop in Scholomance)"
-Inst11Quest2_Note = "Plagued Hatchlings drop the Healthy Dragon Scales (8% chance to drop). You can find Betina Bigglezink at Östliche Pestländer - Light's Hope Chapel ("..YELLOW.."75.6, 53.6"..WHITE..")."
-Inst11Quest2_Prequest = "Plagued Hatchlings "
+Inst11Quest2 = "2. Gesunde Großdrachenschuppe"
+Inst11Quest2_Aim = "Bringt die gesunde Großdrachenschuppe zu Betina Bigglezink bei der Kapelle des hoffnungsvollen Lichts in den Östlichen Pestländern."
+Inst11Quest2_Location = "Gesunde Großdrachenschuppe (random drop in Scholomance)"
+Inst11Quest2_Note = "Geplagte Jungtiere droppen die gesunde Großdrachenschuppen (8% Chance zu droppen). Du findest Betina Bigglezink in Östliche Pestländer - Kapelle des hoffnungsvollen Lichts ("..YELLOW.."75.6, 53.6"..WHITE..")."
+Inst11Quest2_Prequest = "Verseuchte Jungtiere"
 Inst11Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst11Quest3 = "3. Doctor Theolen Krastinov, the Butcher"
-Inst11Quest3_Aim = "Find Doctor Theolen Krastinov inside the Scholomance. Destroy him, then burn the Remains of Eva Sarkhoff and the Remains of Lucien Sarkhoff. Return to Eva Sarkhoff when the task is complete."
+Inst11Quest3 = "3. Doktor Theolen Krastinov, der Schlächter"
+Inst11Quest3_Aim = "Sucht Doktor Theolen Krastinov in der Scholomance. Vernichtet ihn, verbrennt dann die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff. Kehrt zu Eva Sarkhoff zurück, sobald Ihr die Aufgabe erfüllt habt."
 Inst11Quest3_Location = "Eva Sarkhoff (Westliche Pestländer - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
-Inst11Quest3_Note = "You find Doctor Theolen Krastinov, the remains of Eva Sarkhoff and the remains of Lucien Sarkhoff at "..YELLOW.."[9]"..WHITE.."."
+Inst11Quest3_Note = "Du findest Doktor Theolen Krastinov, die Überreste von Eva Sarkhoff und die Überreste von Lucien Sarkhoff bei "..YELLOW.."[9]"..WHITE.."."
 Inst11Quest3_Prequest = "Nein"
-Inst11Quest3_Folgequest = "Krastinov's Bag of Horrors"
+Inst11Quest3_Folgequest = "Krastinovs Tasche der Schrecken"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst11Quest4 = "4. Krastinov's Bag of Horrors"
-Inst11Quest4_Aim = "Locate Jandice Barov in the Scholomance and destroy her. From her corpse recover Krastinov's Bag of Horrors. Return the bag to Eva Sarkhoff."
+Inst11Quest4 = "4. Krastinovs Tasche der Schrecken"
+Inst11Quest4_Aim = "Sucht nach Jandice Barov in der Scholomance und vernichtet sie. Entnehmt ihrer Leiche Krastinovs Tasche der Schrecken. Bringt die Tasche zu Eva Sarkhoff."
 Inst11Quest4_Location = "Eva Sarkhoff (Westliche Pestländer - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
-Inst11Quest4_Note = "You can find Jandice Barov at "..YELLOW.."[3]"..WHITE.."."
-Inst11Quest4_Prequest = "Doctor Theolen Krastinov, the Butcher"
-Inst11Quest4_Folgequest = "Kirtonos the Herald"
+Inst11Quest4_Note = "Du findest Jandice Barov bei "..YELLOW.."[3]"..WHITE.."."
+Inst11Quest4_Prequest = "Doktor Theolen Krastinov, der Schlächter"
+Inst11Quest4_Folgequest = "Kirtonos der Herold"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst11Quest5 = "5. Kirtonos the Herald"
-Inst11Quest5_Aim = "Return to the Scholomance with the Blood of Innocents. Find the porch and place the Blood of Innocents in the brazier. Kirtonos will come to feast upon your soul. Fight valiantly, do not give an inch! Destroy Kirtonos and return to Eva Sarkhoff."
+Inst11Quest5 = "5. Kirtonos der Herold"
+Inst11Quest5_Aim = "Kehrt mit dem Blut Unschuldiger zur Scholomance zurück. Sucht die Veranda und legt das Blut der Unschuldigen in die Kohlenpfanne. Kirtonos wird kommen, um sich von Eurer Seele zu nähren."
 Inst11Quest5_Location = "Eva Sarkhoff (Westliche Pestländer - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
-Inst11Quest5_Note = "The porch ist bei "..YELLOW.."[2]"..WHITE.."."
-Inst11Quest5_Prequest = "Krastinov's Bag of Horrors"
-Inst11Quest5_Folgequest = "The Human, Ras Frostwhisper"
+Inst11Quest5_Note = "Die Veranda ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst11Quest5_Prequest = "Krastinovs Tasche der Schrecken"
+Inst11Quest5_Folgequest = "Der Mensch Ras Frostraunen"
 --
-Inst11Quest5name1 = "Spectral Essence"
-Inst11Quest5name2 = "Penelope's Rose"
-Inst11Quest5name3 = "Mirah's Song"
+Inst11Quest5name1 = "Spektrale Essenz"
+Inst11Quest5name2 = "Penelopes Rose"
+Inst11Quest5name3 = "Mirahs Lied"
 
 --Quest 6 Alliance
 Inst11Quest6 = "6. The Lich, Ras Frostwhisper"
-Inst11Quest6_Aim = "Find Ras Frostwhisper in the Scholomance. When you have found him, use the Soulbound Keepsake on his undead visage. Should you succeed in reverting him to a mortal, strike him down and recover the Human Head of Ras Frostwhisper. Take the head back to Magistrate Marduke."
+Inst11Quest6_Aim = "Sucht Ras Frostraunen in der Scholomance. Wenn Ihr ihn gefunden habt, wendet das seelengebundene Andenken auf sein untotes Antlitz an. Solltet Ihr ihn erfolgreich in einen Sterblichen zurückverwandeln können, dann schlagt ihn nieder und nehmt den menschlichen Kopf von Ras Frostraunen an Euch. Bringt den Kopf zu Magistrat Marduke."
 Inst11Quest6_Location = "Magistrate Marduke (Westliche Pestländer - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
-Inst11Quest6_Note = "You can find Ras Frostwhisper at "..YELLOW.."[7]"..WHITE.."."
-Inst11Quest6_Prequest = "The Human, Ras Frostwhisper - > Soulbound Keepsake"
+Inst11Quest6_Note = "Du findest Ras Frostwhisper bei "..YELLOW.."[7]"..WHITE.."."
+Inst11Quest6_Prequest = "Der Mensch Ras Frostraunen - > Seelengebundenes Andenken"
 Inst11Quest6_Folgequest = "Nein"
 --
-Inst11Quest6name1 = "Darrowshire Strongguard"
-Inst11Quest6name2 = "Warblade of Caer Darrow"
-Inst11Quest6name3 = "Crown of Caer Darrow"
-Inst11Quest6name4 = "Darrowspike"
+Inst11Quest6name1 = "Starkwache von Darrowshire"
+Inst11Quest6name2 = "Kriegsklinge von Caer Darrow"
+Inst11Quest6name3 = "Krone von Caer Darrow"
+Inst11Quest6name4 = "Froststachel"
 
 --Quest 7 Alliance
-Inst11Quest7 = "7. Barov Family Fortune"
-Inst11Quest7_Aim = "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Weldon Barov when you have completed this task."
-Inst11Quest7_Location = "Weldon Barov (Westliche Pestländer - Chillwind Camp; "..YELLOW.."43,83"..WHITE..")"
-Inst11Quest7_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE..".\nThe reward listed is for the followup."
+Inst11Quest7 = "7. Das Familienvermögen der Barovs"
+Inst11Quest7_Aim = Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Weldon Barov zurück, sobald die Aufgabe erledigt ist."
+Inst11Quest7_Location = "Weldon Barov (Westliche Pestländer - Chillwind Lager; "..YELLOW.."43,83"..WHITE..")"
+Inst11Quest7_Note = "Du findest die Besitzurkunde für Caer Darrow bei "..YELLOW.."[12]"..WHITE..", Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und Besitzurkunde für Southshore bei "..YELLOW.."[1]"..WHITE..".\nDie Belohnung erhälst Du in der Folgeuest."
 Inst11Quest7_Prequest = "Nein"
-Inst11Quest7_Folgequest = "The Last Barov"
+Inst11Quest7_Folgequest = "Der letzte Barov"
 --
-Inst11Quest7name1 = "Barov Peasant Caller"
+Inst11Quest7name1 = "Barov-Arbeiterrufer"
 
 --Quest 8 Alliance
-Inst11Quest8 = "8. Dawn's Gambit"
-Inst11Quest8_Aim = "Place Dawn's Gambit in the Viewing Room of the Scholomance. Defeat Vectus, then return to Betina Bigglezink."
-Inst11Quest8_Location = "Betina Bigglezink (Östliche Pestländer - Light's Hope Chapel; "..YELLOW.."75.6, 53.6"..WHITE..")"
-Inst11Quest8_Note = "Broodling Essence begins at Tinkee Steamboil (Brennende Steppe - Flame Crest; "..YELLOW.."65,23"..WHITE.."). The Viewing Room ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst11Quest8_Prequest = "Broodling Essence - > Betina Bigglezink"
+Inst11Quest8 = "8. Dämmerungstrickfalle"
+Inst11Quest8_Aim = "Legt die Dämmerungstrickfalle in den Vorführraum von Scholomance. Besiegt Vectus und kehrt dann zu Betina Bigglezink zurück."
+Inst11Quest8_Location = "Betina Bigglezink (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."75.6, 53.6"..WHITE..")"
+Inst11Quest8_Note = "Broodling Essence begins at Tinkee Steamboil (Brennende Steppe - Flammenkamm; "..YELLOW.."65,23"..WHITE.."). Der Vorführraum ist bei "..YELLOW.."[6]"..WHITE.."."
+Inst11Quest8_Prequest = "Brutlingessenz - > Betina Bigglezink"
 Inst11Quest8_Folgequest = "Nein"
 --
-Inst11Quest8name1 = "Windreaper"
-Inst11Quest8name2 = "Dancing Sliver"
+Inst11Quest8name1 = "Windschnitter"
+Inst11Quest8name2 = "Tanzender Span"
 
 --Quest 9 Alliance
-Inst11Quest9 = "9. Imp Delivery (Warlock)"
-Inst11Quest9_Aim = "Bring the Imp in a Yesr to the alchemy lab in the Scholomance. After the parchment is created, return the jar to Gorzeeki Wildeyes."
+Inst11Quest9 = "9. Wichtellieferung (Hexenmeister)"
+Inst11Quest9_Aim = "Bringt den Wichtel im Gefäß in das Alchimielabor in der Scholomance. Bringt nach der Herstellung des Pergaments, dass Gefäß zurück zu Gorzeeki Wildeyes."
 Inst11Quest9_Location = "Gorzeeki Wildeyes (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
-Inst11Quest9_Note = "Only Warlocks can get this Quest! You find the alchemy lab at "..YELLOW.."[7]"..WHITE.."."
-Inst11Quest9_Prequest = "Mor'zul Bloodbringer - > Xorothian Stardust"
-Inst11Quest9_Folgequest = "Dreadsteed of Xoroth ("..YELLOW.."Dire Maul West"..WHITE..")"
+Inst11Quest9_Note = "Nur Hexenmeister bekommen diese Quest! Du findest das Alchimielabor bei "..YELLOW.."[7]"..WHITE.."."
+Inst11Quest9_Prequest = "Mor'zul Bloodbringer - > Xorothianischer Sternenstaub"
+Inst11Quest9_Folgequest = "Schreckensross von Xoroth ("..YELLOW.."Dire Maul West"..WHITE..")"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst11Quest10 = "10. The Left Piece of Lord Valthalak's Amulet"
-Inst11Quest10_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst11Quest10_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst11Quest10_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE.."."
-Inst11Quest10_Prequest = "Components of Importance"
-Inst11Quest10_Folgequest = "I See Alcaz Island In Your Future..."
+Inst11Quest10 = "10. Das linke Stück von Lord Valthalaks Amulett"
+Inst11Quest10_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Kormok zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst11Quest10_Location = "Bodley (Blackrockberg; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
+Inst11Quest10_Note = "Ein extradimensionalen  Geisterdetektor wird benötigt um Bodley zu sehen. Du bekommst diese aus der Quest'Suche nach Anthion'.\n\nKormok ist beschwöbar bei "..YELLOW.."[7]"..WHITE.."."
+Inst11Quest10_Prequest = "Komponenten von großer Wichtigkeit"
+Inst11Quest10_Folgequest = "Ich sehe die Insel Alcaz in Eurer Zukunft..."
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst11Quest11 = "11. The Right Piece of Lord Valthalak's Amulet"
-Inst11Quest11_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst11Quest11_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst11Quest11_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE.."."
-Inst11Quest11_Prequest = "More Components of Importance"
-Inst11Quest11_Folgequest = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
+Inst11Quest11 = "11. Das rechte Stück von Lord Valthalaks Amulett"
+Inst11Quest11_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Kormok zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst11Quest11_Location = Inst11Quest10_Location
+Inst11Quest11_Note = Inst11Quest10_Note
+Inst11Quest11_Prequest = "Mehr Komponenten von großer Wichtigkeit"
+Inst11Quest11_Folgequest = "Letzte Vorbereitungen ("..YELLOW.."Obere Blackrockspitze"..WHITE..")"
+-- No Rewards for this quest
+
+--Quest 12 Alliance
+Inst11Quest12 = "12. Gerechtigkeit und Erlösung (Paladin)"
+Inst11Quest12_Aim = "Benutzt das Orakel der Anrufung im Herzen des Kellergewölbes des großen Ossuariums, in Scholomance. Damit ruft Ihr die verfluchten Geister, über deren Schicksal Ihr richten müsst. Durch das besiegen der Geister wird der Todesritter Schattensichel beschworen. Besiegt ihn und holt Euch die verlorene Seele des gefallenen Streitrosses."
+Inst11Quest12_Location = "Lord Grayson Shadowbreaker (Stormwind City - Kathedrale; "..YELLOW.."37.6, 32.6"..WHITE..")"
+Inst11Quest12_Note = "Paladin Episches Reittierquestreihe  Diese Questreihe ist lang und hat viele Schritte. Das Große Ossuariumbefindet sich bei "..YELLOW.."[5]"..WHITE.."."
+Inst11Quest12_Prequest = "Lord Grayson Shadowbreaker -> Das Orakel der Anrufung"
+Inst11Quest12_Folgequest = "Erneut im großen Ossuarium"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst11Quest1_HORDE = Inst11Quest1
 Inst11Quest1_HORDE_Aim = Inst11Quest1_Aim
 Inst11Quest1_HORDE_Location = Inst11Quest1_Location
 Inst11Quest1_HORDE_Note = Inst11Quest1_Note
-Inst11Quest1_HORDE_Prequest = Inst11Quest1_Prequest
+Inst11Quest1_HORDE_Prequest = "Nein"
 Inst11Quest1_HORDE_Folgequest = Inst11Quest1_Folgequest
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst11Quest2_HORDE = Inst11Quest2
 Inst11Quest2_HORDE_Aim = Inst11Quest2_Aim
 Inst11Quest2_HORDE_Location = Inst11Quest2_Location
 Inst11Quest2_HORDE_Note = Inst11Quest2_Note
 Inst11Quest2_HORDE_Prequest = Inst11Quest2_Prequest
-Inst11Quest2_HORDE_Folgequest = Inst11Quest2_Folgequest
+Inst11Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst11Quest3_HORDE = Inst11Quest3
 Inst11Quest3_HORDE_Aim = Inst11Quest3_Aim
 Inst11Quest3_HORDE_Location = Inst11Quest3_Location
 Inst11Quest3_HORDE_Note = Inst11Quest3_Note
-Inst11Quest3_HORDE_Prequest = Inst11Quest3_Prequest
+Inst11Quest3_HORDE_Prequest = "Nein"
 Inst11Quest3_HORDE_Folgequest = Inst11Quest3_Folgequest
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst11Quest4_HORDE = Inst11Quest4
 Inst11Quest4_HORDE_Aim = Inst11Quest4_Aim
 Inst11Quest4_HORDE_Location = Inst11Quest4_Location
@@ -1745,7 +1754,7 @@ Inst11Quest4_HORDE_Prequest = Inst11Quest4_Prequest
 Inst11Quest4_HORDE_Folgequest = Inst11Quest4_Folgequest
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst11Quest5_HORDE = Inst11Quest5
 Inst11Quest5_HORDE_Aim = Inst11Quest5_Aim
 Inst11Quest5_HORDE_Location = Inst11Quest5_Location
@@ -1754,44 +1763,44 @@ Inst11Quest5_HORDE_Prequest = Inst11Quest5_Prequest
 Inst11Quest5_HORDE_Folgequest = Inst11Quest5_Folgequest
 --
 Inst11Quest5name1_HORDE = Inst11Quest5name1
-Inst11Quest5name2_HORDE = Inst11Quest5name2
-Inst11Quest5name3_HORDE = Inst11Quest5name3
+Inst11Quest5name2_HORDE = "Penelopes Rose"
+Inst11Quest5name3_HORDE = "Mirahs Lied"
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst11Quest6_HORDE = Inst11Quest6
 Inst11Quest6_HORDE_Aim = Inst11Quest6_Aim
 Inst11Quest6_HORDE_Location = Inst11Quest6_Location
 Inst11Quest6_HORDE_Note = Inst11Quest6_Note
 Inst11Quest6_HORDE_Prequest = Inst11Quest6_Prequest
-Inst11Quest6_HORDE_Folgequest = Inst11Quest6_Folgequest
+Inst11Quest6_HORDE_Folgequest = "Nein"
 --
 Inst11Quest6name1_HORDE = Inst11Quest6name1
 Inst11Quest6name2_HORDE = Inst11Quest6name2
 Inst11Quest6name3_HORDE = Inst11Quest6name3
-Inst11Quest6name4_HORDE = Inst11Quest6name4
+Inst11Quest6name4_HORDE = "Froststachel"
 
 --Quest 7 Horde
-Inst11Quest7_HORDE = "7. Barov Family Fortune"
-Inst11Quest7_HORDE_Aim = "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Alexi Barov when you have completed this task."
+Inst11Quest7_HORDE = Inst11Quest7
+Inst11Quest7_HORDE_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Alexi Barov zurück, sobald die Aufgabe erledigt ist."
 Inst11Quest7_HORDE_Location = "Alexi Barov (Tirisfal Glades - The Bulwark; "..YELLOW.."80,73"..WHITE..")"
-Inst11Quest7_HORDE_Note = "You can find The Deed to Caer Darrow at "..YELLOW.."[12]"..WHITE..", The Deed to Brill at "..YELLOW.."[7]"..WHITE..", The Deed to Tarren Mill at "..YELLOW.."[4]"..WHITE.." and The Deed to Southshore at "..YELLOW.."[1]"..WHITE..".\nThe reward listed is for the followup."
+Inst11Quest7_HORDE_Note = Inst11Quest7_Note
 Inst11Quest7_HORDE_Prequest = "Nein"
-Inst11Quest7_HORDE_Folgequest = "The Last Barov"
+Inst11Quest7_HORDE_Folgequest = "Der letzte Barov"
 --
-Inst11Quest7name1_HORDE = "Barov Peasant Caller"
+Inst11Quest7name1_HORDE = Inst11Quest7name1
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst11Quest8_HORDE = Inst11Quest8
 Inst11Quest8_HORDE_Aim = Inst11Quest8_Aim
 Inst11Quest8_HORDE_Location = Inst11Quest8_Location
 Inst11Quest8_HORDE_Note = Inst11Quest8_Note
 Inst11Quest8_HORDE_Prequest = Inst11Quest8_Prequest
-Inst11Quest8_HORDE_Folgequest = Inst11Quest8_Folgequest
+Inst11Quest8_HORDE_Folgequest = "Nein"
 --
-Inst11Quest8name1_HORDE = Inst11Quest8name1
-Inst11Quest8name2_HORDE = Inst11Quest8name2
+Inst11Quest8name1_HORDE = "Windschnitter"
+Inst11Quest8name2_HORDE = "Tanzender Span"
 
---Quest 9 Horde  (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst11Quest9_HORDE = Inst11Quest9
 Inst11Quest9_HORDE_Aim = Inst11Quest9_Aim
 Inst11Quest9_HORDE_Location = Inst11Quest9_Location
@@ -1800,7 +1809,7 @@ Inst11Quest9_HORDE_Prequest = Inst11Quest9_Prequest
 Inst11Quest9_HORDE_Folgequest = Inst11Quest9_Folgequest
 -- No Rewards for this quest
 
---Quest 10 Horde  (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst11Quest10_HORDE = Inst11Quest10
 Inst11Quest10_HORDE_Aim = Inst11Quest10_Aim
 Inst11Quest10_HORDE_Location = Inst11Quest10_Location
@@ -1810,17 +1819,17 @@ Inst11Quest10_HORDE_Folgequest = Inst11Quest10_Folgequest
 -- No Rewards for this quest
 
 --Quest 11 Horde
-Inst11Quest11_HORDE = "11. The Darkreaver Menace (Shaman)"
-Inst11Quest11_HORDE_Aim = "Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance.\n\nBring Darkreaver's Head to Sagorne Creststrider in the Valley of Wisdom, Orgrimmar."
+Inst11Quest11_HORDE = "11. Die Bedrohung durch Schattensichel (Sshamane)"
+Inst11Quest11_HORDE_Aim = "Wendet das Orakel der Anrufung inmitten des Kellergewölbes des Großen Ossuariums in Scholomance an.\n\nBringt Schattensichels Kopf zu Sagorne Gratläufer im Tal der Weisheit in Orgrimmar."
 Inst11Quest11_HORDE_Location = "Sagorne Creststrider (Orgrimmar - Valley of Wisdom; "..YELLOW.."38.6, 36.2"..WHITE..")"
 Inst11Quest11_HORDE_Note = "This quest is only available for Shamans. The prequest is obtained from the same NPC.\n\nDeath Knight Darkreaver is summoned at "..YELLOW.."[5]"..WHITE.."."
-Inst11Quest11_HORDE_Prequest = "Material Assistance"
+Inst11Quest11_HORDE_Prequest = "Materielle Unterstützung"
 Inst11Quest11_HORDE_Folgequest = "Nein"
 --
 Inst11Quest11name1_HORDE = "Skyfury Helm"
 
---Quest 12 Horde  (same as Quest 11 Alliance)
-Inst11Quest12_HORDE = "12. The Right Piece of Lord Valthalak's Amulet"
+--Quest 12 Horde
+Inst11Quest12_HORDE = "12. Das rechte Stück von Lord Valthalaks Amulett"
 Inst11Quest12_HORDE_Aim = Inst11Quest11_Aim
 Inst11Quest12_HORDE_Location = Inst11Quest11_Location
 Inst11Quest12_HORDE_Note = Inst11Quest11_Note
@@ -1832,7 +1841,7 @@ Inst11Quest12_HORDE_Folgequest = Inst11Quest11_Folgequest
 
 --------------- INST12 - Shadowfang Keep ---------------
 
-Inst12Caption = "Shadowfang Keep"
+Inst12Caption = "Burg Shadowfang"
 Inst12QAA = "2 Quests"
 Inst12QAH = "4 Quests"
 
@@ -1845,59 +1854,59 @@ Inst12Quest1_Page = {2, "Only Paladins can get this quest!\n\n1. You get the  Wh
 Inst12Quest1_Prequest = "The Tome of Valor -> The Test of Righteousness"
 Inst12Quest1_Folgequest = "The Test of Righteousness"
 --
-Inst12Quest1name1 = "Verigan's Fist"
+Inst12Quest1name1 = "Verigans Faust"
 
 --Quest 2 Alliance
-Inst12Quest2 = "2. The Orb of Soran'ruk (Warlock)"
-Inst12Quest2_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
-Inst12Quest2_Location = "Doan Karhan (Barrens; "..YELLOW.."49,57"..WHITE..")"
-Inst12Quest2_Note = "Only Warlocks can get this Quest! You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Tiefschwarze Grotte]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
+Inst12Quest2 = "2. Die Kugel von Soran'ruk Hexenmeister)"
+Inst12Quest2_Aim = "Sucht 3 Soran'ruk-Fragmente und 1 großes Soran'ruk-Fragment und bringt sie zu Doan Karhan im Brachland."
+Inst12Quest2_Location = "Doan Karhan (Brachland; "..YELLOW.."49,57"..WHITE..")"
+Inst12Quest2_Note = "Nur Hexenmeister bekommen diese Quest! Du bekommst die 3 Soran'ruk-Fragmente von den Twilight Akolyten in "..YELLOW.."[Tiefschwarze Grotte]"..WHITE..". Du bekommst das großes Soran'ruk-Fragment in "..YELLOW.."[Burg Shadowfang]"..WHITE.." von Shadowfang-Dunkelseele."
 Inst12Quest2_Prequest = "Nein"
 Inst12Quest2_Folgequest = "Nein"
 --
-Inst12Quest2name1 = "Orb of Soran'ruk"
-Inst12Quest2name2 = "Staff of Soran'ruk"
+Inst12Quest2name1 = "Kugel von Soran'ruk"
+Inst12Quest2name2 = "Stab von Soran'ruk"
 
 
 
 --Quest 1 Horde
-Inst12Quest1_HORDE = "1. Deathstalkers in Shadowfang"
-Inst12Quest1_HORDE_Aim = "Find the Deathstalker Adamant and Deathstalker Vincent."
-Inst12Quest1_HORDE_Location = "High Executor Hadrec (Silverpine Forest - The Sepulcher; "..YELLOW.."43,40"..WHITE..")"
-Inst12Quest1_HORDE_Note = "You find Deathstalker Adamant at "..YELLOW.."[1]"..WHITE..". Deathstalker Vincent is on the right side when you go into the courtyard at "..YELLOW.."[3]"..WHITE.."."
+Inst12Quest1_HORDE = "1. Todespirscher in Shadowfang"
+Inst12Quest1_HORDE_Aim = "Sucht die Todespirscher Adamant und Vincent."
+Inst12Quest1_HORDE_Location = "Hochexekutor Hadrec (Silberwald - Das Grabmal; "..YELLOW.."43,40"..WHITE..")"
+Inst12Quest1_HORDE_Note = "Du findest Todespirscher Adamant bei "..YELLOW.."[1]"..WHITE..". Todespirscher Vincent ist auf der rechten Seite wenn Du den Hof betritts bei "..YELLOW.."[3]"..WHITE.."."
 Inst12Quest1_HORDE_Prequest = "Nein"
 Inst12Quest1_HORDE_Folgequest = "Nein"
 --
-Inst12Quest1name1_HORDE = "Ghostly Mantle"
+Inst12Quest1name1_HORDE = "Geisterhafter Mantel"
 
 --Quest 2 Horde
-Inst12Quest2_HORDE = "2. The Book of Ur"
-Inst12Quest2_HORDE_Aim = "Bring the Book of Ur to Keeper Bel'dugur at the Apothecarium in the Undercity."
-Inst12Quest2_HORDE_Location = "Keeper Bel'dugur (Undercity - The Apothecarium; "..YELLOW.."53,54"..WHITE..")"
-Inst12Quest2_HORDE_Note = "You find the book at "..YELLOW.."[11]"..WHITE.." on the left side when you enter the room."
+Inst12Quest2_HORDE = "2. Das Buch von Ur"
+Inst12Quest2_HORDE_Aim = "Bringt dem Bewahrer Bel'dugur im Apothekarium in Undercity das Buch von Ur."
+Inst12Quest2_HORDE_Location = "Bawahrer Bel'dugur (Undercity - Das Apothekarium; "..YELLOW.."53,54"..WHITE..")"
+Inst12Quest2_HORDE_Note = "Du findest das Buch bei "..YELLOW.."[11]"..WHITE.." auf der linken Seite wenn Du den Raum betritts."
 Inst12Quest2_HORDE_Prequest = "Nein"
 Inst12Quest2_HORDE_Folgequest = "Nein"
 --
-Inst12Quest2name1_HORDE = "Grizzled Boots"
-Inst12Quest2name2_HORDE = "Steel-clasped Bracers"
+Inst12Quest2name1_HORDE = "Ergraute Stiefel"
+Inst12Quest2name2_HORDE = "Stahlschnallenarmschienen"
 
 --Quest 3 Horde
-Inst12Quest3_HORDE = "3. Arugal Must Die"
-Inst12Quest3_HORDE_Aim = "Kill Arugal and bring his head to Dalar Dawnweaver at the Sepulcher."
-Inst12Quest3_HORDE_Location = "Dalar Dawnweaver (Silverpine Forest - The Sepulcher; "..YELLOW.."44,39"..WHITE..")"
-Inst12Quest3_HORDE_Note = "You find Archmage Arugal at "..YELLOW.."[13]"..WHITE.."."
+Inst12Quest3_HORDE = "3. Arugal muss sterben"
+Inst12Quest3_HORDE_Aim = "Tötet Arugal und bringt Dalar Dawnweaver in dem Grabmal seinen Kopf."
+Inst12Quest3_HORDE_Location = "Dalar Dawnweaver (Silberwald - Das Grabmal; "..YELLOW.."44,39"..WHITE..")"
+Inst12Quest3_HORDE_Note = "Du findest Erzmagier Arugal bei "..YELLOW.."[13]"..WHITE.."."
 Inst12Quest3_HORDE_Prequest = "Nein"
 Inst12Quest3_HORDE_Folgequest = "Nein"
 --
-Inst12Quest3name1_HORDE = "Seal of Sylvanas"
+Inst12Quest3name1_HORDE = "Siegel von Sylvanas"
 
---Quest 4 Horde  (same as Quest 2 Alliance)
-Inst12Quest4_HORDE = "4. The Orb of Soran'ruk (Warlock)"
+--Quest 4 Horde
+Inst12Quest4_HORDE = "4. Die Kugel von Soran'ruk (Hexenmeister)"
 Inst12Quest4_HORDE_Aim = Inst12Quest2_Aim
 Inst12Quest4_HORDE_Location = Inst12Quest2_Location
 Inst12Quest4_HORDE_Note = Inst12Quest2_Note
-Inst12Quest4_HORDE_Prequest = Inst12Quest2_Prequest
-Inst12Quest4_HORDE_Folgequest = Inst12Quest2_Folgequest
+Inst12Quest4_HORDE_Prequest = "Nein"
+Inst12Quest4_HORDE_Folgequest = "Nein"
 --
 Inst12Quest4name1_HORDE = Inst12Quest2name1
 Inst12Quest4name2_HORDE = Inst12Quest2name1
@@ -1911,63 +1920,63 @@ Inst13QAA = "6 Quests"
 Inst13QAH = "Keine Quests"
 
 --Quest 1 Alliance
-Inst13Quest1 = "1. What Comes Around..."
-Inst13Quest1_Aim = "Bring the head of Targorr the Dread to Guard Berton in Lakeshire."
-Inst13Quest1_Location = "Guard Berton (Redridge Mountains - Lakeshire; "..YELLOW.."26,46"..WHITE..")"
-Inst13Quest1_Note = "You can find Targorr at "..YELLOW.."[1]"..WHITE.."."
+Inst13Quest1 = "1. Verbrechen lohnt sich nicht"
+Inst13Quest1_Aim = "Bringt Wache Berton in Seenhain den Kopf von Targorr dem Schrecklichen."
+Inst13Quest1_Location = "Wache Berton (Steinkrallengebirge - Seenhain; "..YELLOW.."26,46"..WHITE..")"
+Inst13Quest1_Note = "Du findest Targorr bei "..YELLOW.."[1]"..WHITE.."."
 Inst13Quest1_Prequest = "Nein"
 Inst13Quest1_Folgequest = "Nein"
 --
-Inst13Quest1name1 = "Lucine Longsword"
-Inst13Quest1name2 = "Hardened Root Staff"
+Inst13Quest1name1 = "Lucinen-Langschwert"
+Inst13Quest1name2 = "Gehärteter Wurzelstab"
 
 --Quest 2 Alliance
-Inst13Quest2 = "2. Crime and Punishment"
-Inst13Quest2_Aim = "Councilman Millstipe of Darkshire wants you to bring him the hand of Dextren Ward."
-Inst13Quest2_Location = "Millstipe (Duskwood - Darkshire; "..YELLOW.."72,47"..WHITE..")"
-Inst13Quest2_Note = "You can find Dextren at "..YELLOW.."[5]"..WHITE.."."
+Inst13Quest2 = "2. Verbrechen und Strafe"
+Inst13Quest2_Aim = "Ratsherr Millstipe von Dunkelhain will, dass Ihr ihm die Hand von Dextren Ward bringt."
+Inst13Quest2_Location = "Ratsherr Millstipe (Dämmerwald - Dunkelhain; "..YELLOW.."72,47"..WHITE..")"
+Inst13Quest2_Note = "Du findest Dextren bei "..YELLOW.."[5]"..WHITE.."."
 Inst13Quest2_Prequest = "Nein"
 Inst13Quest2_Folgequest = "Nein"
 --
-Inst13Quest2name1 = "Ambassador's Boots"
-Inst13Quest2name2 = "Darkshire Mail Leggings"
+Inst13Quest2name1 = "Botschafter-Stiefel"
+Inst13Quest2name2 = "Panzergamaschen von Dunkelhain"
 
 --Quest 3 Alliance
-Inst13Quest3 = "3. Quell The Uprising"
-Inst13Quest3_Aim = "Warden Thelwater of Stormwind wants you to kill 10 Defias Prisoners, 8 Defias Convicts, and 8 Defias Insurgents in The Stockade."
+Inst13Quest3 = "3. Niederschlagung des Aufstandes"
+Inst13Quest3_Aim = "Aufseher Thelwater aus Stormwind will, dass Ihr im Verlies 10 gefangene Defias, 8 eingekerkerte Defias und 8 Aufrührer der Defias tötet."
 Inst13Quest3_Location = "Warden Thelwater (Stormwind - Das Verlies; "..YELLOW.."51.4, 68.8"..WHITE..")"
-Inst13Quest3_Note = ""
+Inst13Quest3_Note = "Manchmal sind nicht genug Gegner vorhanden um die Quest zu beenden, warte dann einfach auf ein Wiedererscheinen oder wiederholde die Instanz."
 Inst13Quest3_Prequest = "Nein"
 Inst13Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst13Quest4 = "4. The Color of Blood"
-Inst13Quest4_Aim = "Nikova Raskol of Stormwind wants you to collect 10 Red Wool Bandanas."
-Inst13Quest4_Location = "Nikova Raskol (Stormwind - Old Town; "..YELLOW.."75.6, 62.9"..WHITE..")"
-Inst13Quest4_Note = "Nikova Raskol walks around Old Town. All mobs found inside the instance drops Red Wool Bandanas."
+Inst13Quest4 = "4. Die Farbe von Blut"
+Inst13Quest4_Aim = "Nikova Raskol von Stormwind will, dass Ihr 10 rote Wollkopftücher für sie sammelt."
+Inst13Quest4_Location = "Nikova Raskol (Stormwind - Altstadt; "..YELLOW.."75.6, 62.9"..WHITE..")"
+Inst13Quest4_Note = "Nikova Raskol wander in der Altstadt umher. Alle Gegner in der Instanz können die rote Wollkopftücher fallen lassen."
 Inst13Quest4_Prequest = "Nein"
 Inst13Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst13Quest5 = "5. The Fury Runs Deep"
-Inst13Quest5_Aim = "Motley Garmason wants Kam Deepfury's head brought to him at Dun Modr."
-Inst13Quest5_Location = "Motley Garmason (Wetlands - Dun Modr; "..YELLOW.."49,18"..WHITE..")"
-Inst13Quest5_Note = "The preceding quest can be obtained from Motley too. You can find Kam Deepfury at "..YELLOW.."[2]"..WHITE.."."
+Inst13Quest5 = "5. Tief empfundener Zorn"
+Inst13Quest5_Aim = "Motley Garmason in Dun Modr verlangt Kam Deepfurys Kopf."
+Inst13Quest5_Location = "Motley Garmason (Sumpfland - Dun Modr; "..YELLOW.."49,18"..WHITE..")"
+Inst13Quest5_Note = "Die Vorquest bekommst Du ebenfalls von Motley Garmason die abgeschlossen werden muss. Du findest Kam Deepfury bei "..YELLOW.."[2]"..WHITE.."."
 Inst13Quest5_Prequest = "The Dark Iron War"
 Inst13Quest5_Folgequest = "Nein"
 --
-Inst13Quest5name1 = "Belt of Vindication"
-Inst13Quest5name2 = "Headbasher"
+Inst13Quest5name1 = "Gürtel der Rechtfertigung"
+Inst13Quest5name2 = "Kopfberster"
 
 --Quest 6 Alliance
-Inst13Quest6 = "6. The Stockade Riots"
-Inst13Quest6_Aim = "Kill Bazil Thredd and bring his head back to Warden Thelwater at the Stockade."
-Inst13Quest6_Location = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."51.4, 68.8"..WHITE..")"
-Inst13Quest6_Note = "For more details about the preceding quest see "..YELLOW.."[Todesmine, The Defias Brotherhood]"..WHITE..".\nYou can find Bazil Thredd at "..YELLOW.."[4]"..WHITE.."."
-Inst13Quest6_Prequest = "The Defias Brotherhood -> Bazil Thredd"
-Inst13Quest6_Folgequest = "The Curious Visitor"
+Inst13Quest6 = "6. Aufstand im Verlies"
+Inst13Quest6_Aim = "Tötet Bazil Thredd und bringt seinen Kopf mit zurück zu Aufseher Thelwater im Verlies."
+Inst13Quest6_Location = "Warden Thelwater (Stormwind - Das Verlies; "..YELLOW.."51.4, 68.8"..WHITE..")"
+Inst13Quest6_Note = "Weitere Informationen zur vorherigen Quest findest du unter "..YELLOW.."[Todesmine, Die Defias Bruderschaft]"..WHITE..".\nDu findest Bazil Thredd bei "..YELLOW.."[4]"..WHITE.."."
+Inst13Quest6_Prequest = "Die Defias Bruderschaft -> Bazil Thredd"
+Inst13Quest6_Folgequest = "Der seltsame Besucher"
 -- No Rewards for this quest
 
 
@@ -2806,7 +2815,7 @@ Inst16Quest8name2 = "Explorer's League Lodestar"
 Inst16Quest9 = "9. The Shattered Necklace"
 Inst16Quest9_Aim = "Search for the original creator of the shattered necklace to learn of its potential value."
 Inst16Quest9_Location = "Shattered Necklace (random drop from Uldaman)"
-Inst16Quest9_Note = "Bring the necklace to Talvash del Kissel (Ironforge - The Mystic Ward; "..YELLOW.."36,3"..WHITE..")."
+Inst16Quest9_Note = "Bring the necklace to Talvash del Kissel (Ironforge - The Mystikerviertel; "..YELLOW.."36,3"..WHITE..")."
 Inst16Quest9_Prequest = "Nein"
 Inst16Quest9_Folgequest = "Lore for a Price"
 -- No Rewards for this quest
@@ -2814,7 +2823,7 @@ Inst16Quest9_Folgequest = "Lore for a Price"
 --Quest 10 Alliance
 Inst16Quest10 = "10. Back to Uldaman"
 Inst16Quest10_Aim = "Search for clues as to the current disposition of Talvash's necklace within Uldaman. The slain paladin he mentioned was the person who has it last."
-Inst16Quest10_Location = "Talvash del Kissel (Ironforge - The Mystic Ward; "..YELLOW.."36,3"..WHITE..")"
+Inst16Quest10_Location = "Talvash del Kissel (Ironforge - The Mystikerviertel; "..YELLOW.."36,3"..WHITE..")"
 Inst16Quest10_Note = "The Paladin ist bei "..YELLOW.."[2]"..WHITE.."."
 Inst16Quest10_Prequest = "Lore for a Price"
 Inst16Quest10_Folgequest = "Find the Gems"
@@ -3002,121 +3011,121 @@ Inst16Quest11_HORDE_Folgequest = Inst16Quest17_Folgequest
 
 --------------- INST17 - Blackfathom Deeps ---------------
 
-Inst17Caption = "Tiefschwarze Grotte"
+Inst17Caption = "Blackfathom-Tiefe"
 Inst17QAA = "6 Quests"
 Inst17QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst17Quest1 = "1. Knowledge in the Deeps"
-Inst17Quest1_Aim = "Bring the Lorgalis Manuscript to Gerrig Bonegrip in the Forlorn Cavern in Ironforge."
-Inst17Quest1_Location = "Gerrig Bonegrip (Ironforge - The Forlorn Cavern; "..YELLOW.."50,5"..WHITE..")"
-Inst17Quest1_Note = "You find the Manuscript at "..YELLOW.."[2]"..WHITE.." in the water."
+Inst17Quest1 = "1. Wissen in der Tiefe"
+Inst17Quest1_Aim = "Bringt das 'Lorgalis-Manuskript' zu Gerrig Bonegrip in Ironforge."
+Inst17Quest1_Location = "Gerrig Bonegrip (Ironforge - Das Düstere Viertel; "..YELLOW.."50,5"..WHITE..")"
+Inst17Quest1_Note = "Das Mansukript findest Du bei "..YELLOW.."[2]"..WHITE.." in the water."
 Inst17Quest1_Prequest = "Nein"
 Inst17Quest1_Folgequest = "Nein"
 --
-Inst17Quest1name1 = "Sustaining Ring"
+Inst17Quest1name1 = "Erhaltender Ring"
 
 --Quest 2 Alliance
-Inst17Quest2 = "2. Researching the Corruption"
-Inst17Quest2_Aim = "Gershala Nightwhisper in Auberdine wants 8 Corrupt Brain stems."
-Inst17Quest2_Location = "Gershala Nightwhisper (Darkshore - Auberdine; "..YELLOW.."38,43"..WHITE..")"
-Inst17Quest2_Note = "The prequest is optional. You get it from Argos Nightwhisper at (Stormwind - The Park; "..YELLOW.."35.9, 67.3"..WHITE.."). \n\nAll the Nagas before and in Tiefschwarze Grotte drop the brains."
-Inst17Quest2_Prequest = "The Corruption Abroad"
+Inst17Quest2 = "2. Erforschung der Verderbnis"
+Inst17Quest2_Aim = "Gershala Nightwhisper in Auberdine möchte 8 verderbte Hirnstämme."
+Inst17Quest2_Location = "Gershala Nightwhisper (Dunkelküste - Auberdine; "..YELLOW.."38,43"..WHITE..")"
+Inst17Quest2_Note = "Die Vorquest ist optional.Diese bekommst Du von Argos Nightwhisper bei (Stormwind - Der Park; "..YELLOW.."35.9, 67.3"..WHITE.."). \n\nAlle Nagas vor und in der Instanz droppen die Gehirne."
+Inst17Quest2_Prequest = "Verderbnis in der Fremde"
 Inst17Quest2_Folgequest = "Nein"
 --
-Inst17Quest2name1 = "Beetle Clasps"
-Inst17Quest2name2 = "Prelacy Cape"
+Inst17Quest2name1 = "Käferschnallen"
+Inst17Quest2name2 = "Prälaturen-Cape"
 
 --Quest 3 Alliance
-Inst17Quest3 = "3. In Search of Thaelrid"
-Inst17Quest3_Aim = "Seek out Argent Guard Thaelrid in Tiefschwarze Grotte."
-Inst17Quest3_Location = "Dawnwatcher Shaedlass (Darnassus - Craftsmen's Terrace; "..YELLOW.."55,24"..WHITE..")"
-Inst17Quest3_Note = "You find Argent Guard Thaelrid at "..YELLOW.."[4]"..WHITE.."."
+Inst17Quest3 = "3. Auf der Suche nach Thaelrid"
+Inst17Quest3_Aim = "Sucht Argentumwache Thaelrid in der Blackfathom-Tiefe auf."
+Inst17Quest3_Location = "Dämmerungsbehüter Shaedlass (Darnassus - Terrasse der Handwerker; "..YELLOW.."55,24"..WHITE..")"
+Inst17Quest3_Note = "Du findest Argentumwache Thaelrid bei "..YELLOW.."[4]"..WHITE.."."
 Inst17Quest3_Prequest = "Nein"
-Inst17Quest3_Folgequest = "Blackfathom Villainy"
+Inst17Quest3_Folgequest = "Schurkerei in Blackfathom"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst17Quest4 = "4. Blackfathom Villainy"
-Inst17Quest4_Aim = "Bring the head of Twilight Lord Kelris to Dawnwatcher Selgorm in Darnassus."
-Inst17Quest4_Location = "Argent Guard Thaelrid (Tiefschwarze Grotte; "..YELLOW.."[4]"..WHITE..")"
-Inst17Quest4_Note = "Twilight Lord Kelris ist bei "..YELLOW.."[8]"..WHITE..". You find Dawnwatcher Selgorm in Darnassus - Craftsmen's Terrace ("..YELLOW.."55,24"..WHITE.."). \n\nATTENTION! If you turn on the flames beside Lord Kelris, enemies appear and attack you."
-Inst17Quest4_Prequest = "In Search of Thaelrid"
+Inst17Quest4 = "4. Schurkerei in Blackfathom"
+Inst17Quest4_Aim = "Bringt den Kopf des Twilight-Lords Kelris zu Dämmerungsbehüter Selgorm in Darnassus."
+Inst17Quest4_Location = "Argentumwache Thaelrid (Blackfathom-Tiefe; "..YELLOW.."[4]"..WHITE..")"
+Inst17Quest4_Note = "Twilight Lord Kelris ist bei "..YELLOW.."[8]"..WHITE..". Du findest Dämmerungsbehüter Selgorm in Darnassus - Terrasse der Handwerker ("..YELLOW.."55,24"..WHITE.."). \n\nACHTUNG! Wenn du die kleinen Flammen an den Seiten der Säule betritts, erscheinen Feinde."
+Inst17Quest4_Prequest = "Auf der Suche nach Thaelrid"
 Inst17Quest4_Folgequest = "Nein"
 --
-Inst17Quest4name1 = "Gravestone Scepter"
-Inst17Quest4name2 = "Arctic Buckler"
+Inst17Quest4name1 = "Grabsteinszepter"
+Inst17Quest4name2 = "Arktischer Rundschild"
 
 --Quest 5 Alliance
-Inst17Quest5 = "5. Twilight Falls"
-Inst17Quest5_Aim = "Bring 10 Twilight Pendants to Argent Guard Manados in Darnassus."
-Inst17Quest5_Location = "Argent Guard Manados (Darnassus - Craftsmen's Terrace; "..YELLOW.."55,23"..WHITE..")"
-Inst17Quest5_Note = "Every Twilight mob can drop the pendants."
+Inst17Quest5 = "5. Die Twilight fallen"
+Inst17Quest5_Aim = "Bringt 10 Twilight-Anhänger zu Argentumwache Manados in Darnassus ."
+Inst17Quest5_Location = "Argentumwache Manados (Darnassus - Terrasse der Handwerker; "..YELLOW.."55,23"..WHITE..")"
+Inst17Quest5_Note = "Jeder Twilight Gegner können die Anhänger fallen lassen."
 Inst17Quest5_Prequest = "Nein"
 Inst17Quest5_Folgequest = "Nein"
 --
-Inst17Quest5name1 = "Nimbus Boots"
-Inst17Quest5name2 = "Heartwood Girdle"
+Inst17Quest5name1 = "Nimbus-Stiefel"
+Inst17Quest5name2 = "Herzholzgurt"
 
 --Quest 6 Alliance
-Inst17Quest6 = "6. The Orb of Soran'ruk (Warlock)"
-Inst17Quest6_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
-Inst17Quest6_Location = "Doan Karhan (Barrens; "..YELLOW.."49,57"..WHITE..")"
-Inst17Quest6_Note = "Only Warlocks can get this Quest! You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Tiefschwarze Grotte]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
+Inst17Quest6 = "6. Die Kugel von Soran'ruk (Hexenmeister)"
+Inst17Quest6_Aim = Inst12Quest2_Aim
+Inst17Quest6_Location = Inst12Quest2_Location
+Inst17Quest6_Note = Inst12Quest2_Note
 Inst17Quest6_Prequest = "Nein"
 Inst17Quest6_Folgequest = "Nein"
 --
-Inst17Quest6name1 = "Orb of Soran'ruk"
-Inst17Quest6name2 = "Staff of Soran'ruk"
+Inst17Quest6name1 = Inst12Quest2name1
+Inst17Quest6name2 = Inst12Quest2name2
 
 
 --Quest 1 Horde
-Inst17Quest1_HORDE = "1. The Essence of Aku'Mai"
-Inst17Quest1_HORDE_Aim = "Bring 20 Sapphires of Aku'Mai to Je'neu Sancrea in Ashenvale."
-Inst17Quest1_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE..")"
-Inst17Quest1_HORDE_Note = "You get the prequest Trouble in the Deeps from Tsunaman (Stonetalon Mountains - Sun Rock Retreat; "..YELLOW.."47,64"..WHITE.."). The crystals can be found in the tunnels before the instance."
-Inst17Quest1_HORDE_Prequest = "Trouble in the Deeps"
+Inst17Quest1_HORDE = "1. Die Essenz von Aku'mai"
+Inst17Quest1_HORDE_Aim = "Bringt 20 Saphire von Aku'mai zu Je'neu Sancrea nach Ashenvale."
+Inst17Quest1_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Außénposten; "..YELLOW.."11,33"..WHITE..")"
+Inst17Quest1_HORDE_Note = "Du bekommst die Vorquest von Tsunaman (Steinkrallengebirge - Sonnenfels; "..YELLOW.."47,64"..WHITE.."). Die Kristalle findest Du im Tunnel vor der Instanze."
+Inst17Quest1_HORDE_Prequest = "Ärger in der Tiefe"
 Inst17Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst17Quest2_HORDE = "2. Allegiance to the Old Gods"
-Inst17Quest2_HORDE_Aim = "Bring the Damp Note to Je'neu Sancrea in Ashenvale -> Kill Lorgus Jett in Tiefschwarze Grotte and then return to Je'neu Sancrea in Ashenvale."
-Inst17Quest2_HORDE_Location = "Damp Note (drop - see note)"
-Inst17Quest2_HORDE_Note = "You get the Damp Note from Blackfathom Tide Priestess (5% drop rate). Then take it to Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE.."). Lorgus Jett ist bei "..YELLOW.."[6]"..WHITE.."."
-Inst17Quest2_HORDE_Prequest = "Nein"
+Inst17Quest2_HORDE = "2. Treue zu den Alten Göttern"
+Inst17Quest2_HORDE_Aim = "Tötet Lorgus Jett in der Blackfathom-Tiefe und kehrt dann zu Je'neu Sancrea nach Ashenvale zurück."
+Inst17Quest2_HORDE_Location = "Feuchte Notiz (drop - Siehe Beschreibung)"
+Inst17Quest2_HORDE_Note = "Du bekommst die feuchte Notiz von den Blackfathom Gezeitenpriesterinen (5% drop Chance). Dies bringt Dich zu Je'neu Sancrea (Ashenvale - Zoram'gar Außenposten; "..YELLOW.."11,33"..WHITE.."). Lorgus Jett ist bei "..YELLOW.."[6]"..WHITE.."."
+Inst17Quest2_HORDE_Prequest = "Treue zu den Alten Göttern"
 Inst17Quest2_HORDE_Folgequest = "Nein"
 --
-Inst17Quest2name1_HORDE = "Band of the Fist"
-Inst17Quest2name2_HORDE = "Chestnut Mantle"
+Inst17Quest2name1_HORDE = "Band der Faust"
+Inst17Quest2name2_HORDE = "Kastanienbrauner Mantel"
 
 --Quest 3 Horde
-Inst17Quest3_HORDE = "3. Amongst the Ruins"
-Inst17Quest3_HORDE_Aim = "Bring the Fathom Core to Je'neu Sancrea at Zoram'gar Outpost, Ashenvale."
-Inst17Quest3_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11,33"..WHITE..")"
-Inst17Quest3_HORDE_Note = "You find the Fathom Core at "..YELLOW.."[7]"..WHITE.." in the water. When you get the core Baron Aquanis appears and attacks you. He drops a quest item which you have to take back to Je'neu Sancrea."
+Inst17Quest3_HORDE = "3. Inmitten der Ruinen"
+Inst17Quest3_HORDE_Aim = "Bringt den Fathom-Kern zu Je'neu Sancrea im Zoram'gar-Außenposten in Ashenvale."
+Inst17Quest3_HORDE_Location = "Je'neu Sancrea (Ashenvale - Zoram'gar Außenposten; "..YELLOW.."11,33"..WHITE..")"
+Inst17Quest3_HORDE_Note = "Du findest den Fathom-Kern bei "..YELLOW.."[7]"..WHITE.." im Wasser. Wenn Du den Kern bekommst, erscheint Baron Aquanis und greift dich an. Er droppt den Questgegenstand was Du brauchst um zu Je'neu Sancrea zurückzukehren."
 Inst17Quest3_HORDE_Prequest = "Nein"
 Inst17Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst17Quest4_HORDE = "4. Blackfathom Villainy"
-Inst17Quest4_HORDE_Aim = "Bring the head of Twilight Lord Kelris to Bashana Runetotem in Thunder Bluff."
-Inst17Quest4_HORDE_Location = "Argent guard Thaelrid (Tiefschwarze Grotte; "..YELLOW.."[4]"..WHITE..")"
-Inst17Quest4_HORDE_Note = "Twilight Lord Kelris ist bei "..YELLOW.."[8]"..WHITE..". You find Bashana Runetotem in Thunderbluff - The Elder Rise ("..YELLOW.."70,33"..WHITE.."). \n\nATTENTION! If you turn on the flames beside Lord Kelris, enemies appear and attack you."
+Inst17Quest4_HORDE = "4. Blackfathom-Schurkerei"
+Inst17Quest4_HORDE_Aim = "Bringt den Kopf des Twilight-Lords Kelris zu Bashana Runetotem in Thunder Bluff."
+Inst17Quest4_HORDE_Location = Inst17Quest4_Location
+Inst17Quest4_HORDE_Note = "Twilight Lord Kelris ist bei "..YELLOW.."[8]"..WHITE..". Du findest Bashana Runetotem in Thunder Bluff - Anhöhe der Ältesten ("..YELLOW.."70,33"..WHITE.."). \n\nACHTUNG! Wenn du die kleinen Flammen an den Seiten der Säule betritts, erscheinen Feinde."
 Inst17Quest4_HORDE_Prequest = "Nein"
 Inst17Quest4_HORDE_Folgequest = "Nein"
 --
-Inst17Quest4name1_HORDE = "Gravestone Scepter"
-Inst17Quest4name2_HORDE = "Arctic Buckler"
+Inst17Quest4name1_HORDE = "Grabsteinszepter"
+Inst17Quest4name2_HORDE = "Grabsteinszepter"
 
---Quest 5 Horde  (same as Quest 6 Alliance)
-Inst17Quest5_HORDE = "5. The Orb of Soran'ruk (Warlock)"
+--Quest 5 Horde
+Inst17Quest5_HORDE = "5. Die Kugel von Soran'ruk (Hexenmeister)"
 Inst17Quest5_HORDE_Aim = Inst17Quest6_Aim
 Inst17Quest5_HORDE_Location = Inst17Quest6_Location
 Inst17Quest5_HORDE_Note = Inst17Quest6_Note
-Inst17Quest5_HORDE_Prequest = Inst17Quest6_Prequest
-Inst17Quest5_HORDE_Folgequest = Inst17Quest6_Folgequest
+Inst17Quest5_HORDE_Prequest = "Nein"
+Inst17Quest5_HORDE_Folgequest = "Nein"
 --
 Inst17Quest5name1_HORDE = Inst17Quest6name1
 Inst17Quest5name2_HORDE = Inst17Quest6name2
@@ -4304,7 +4313,7 @@ Inst26Quest1_Folgequest = "Nein"
 Inst26Quest2 = "2. Scarab Shells"
 Inst26Quest2_Aim = "Bring 5 Uncracked Scarab Shells to Tran'rek in Gadgetzan."
 Inst26Quest2_Location = "Tran'rek (Tanaris - Gadgetzan; "..YELLOW.."51,26"..WHITE..")"
-Inst26Quest2_Note = "The prequest starts at Krazek (Stranglethorn Vale - Booty Bay; "..YELLOW.."25,77"..WHITE..").\nEvery Scarab can drop the Shells. A lot of Scarabs are at "..YELLOW.."[2]"..WHITE.."."
+Inst26Quest2_Note = "The prequest starts at Krazek (Schlingendorntal - Booty Bay; "..YELLOW.."25,77"..WHITE..").\nEvery Scarab can drop the Shells. A lot of Scarabs are at "..YELLOW.."[2]"..WHITE.."."
 Inst26Quest2_Prequest = "Tran'rek"
 Inst26Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4353,7 +4362,7 @@ Inst26Quest6name2 = "Engineer's Guild Headpiece"
 Inst26Quest7 = "7. Gahz'rilla"
 Inst26Quest7_Aim = "Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats."
 Inst26Quest7_Location = "Wizzle Brassbolts (Thousands Needles - Mirage Raceway; "..YELLOW.."78,77"..WHITE..")"
-Inst26Quest7_Note = "You get the prequest from Klockmort Spannerspan (Ironforge - Tinkertown; "..YELLOW.."68,46"..WHITE.."). It is not necessary to have the prequest to get the Gahz'rilla quest.\nYou summon Gahz'rilla at "..YELLOW.."[6]"..WHITE.." by banging the gong. The Mallet of Zul'Farrak is no longer required."
+Inst26Quest7_Note = "You get the prequest from Klockmort Spannerspan (Ironforge - Tüftlerstadt; "..YELLOW.."68,46"..WHITE.."). It is not necessary to have the prequest to get the Gahz'rilla quest.\nYou summon Gahz'rilla at "..YELLOW.."[6]"..WHITE.." by banging the gong. The Mallet of Zul'Farrak is no longer required."
 Inst26Quest7_Prequest = "The Brassbolts Brothers"
 Inst26Quest7_Folgequest = "Nein"
 --
@@ -4617,7 +4626,7 @@ Inst29QAH = "4 Quests"
 --Quest 1 Alliance
 Inst29Quest1 = "1. A Collection of Heads"
 Inst29Quest1_Aim = "String 5 Channeler's Heads, then return the Collection of Troll Heads to Exzhal on Yojamba Isle."
-Inst29Quest1_Location = "Exzhal (Stranglethorn Vale - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
+Inst29Quest1_Location = "Exzhal (Schlingendorntal - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
 Inst29Quest1_Note = "Make sure you loot all the priests."
 Inst29Quest1_Prequest = "Nein"
 Inst29Quest1_Folgequest = "Nein"
@@ -4631,7 +4640,7 @@ Inst29Quest1name4 = "Belt of Tiny Heads"
 Inst29Quest2 = "2. The Heart of Hakkar"
 Inst29Quest2_Aim = "Bring the Heart of Hakkar to Molthor on Yojamba Isle."
 Inst29Quest2_Location = "Heart of Hakkar (drops from Hakkar; "..YELLOW.."[11]"..WHITE..")"
-Inst29Quest2_Note = "Molthor (Stranglethorn Vale - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
+Inst29Quest2_Note = "Molthor (Schlingendorntal - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
 Inst29Quest2_Prequest = "Nein"
 Inst29Quest2_Folgequest = "Nein"
 --
@@ -4717,59 +4726,59 @@ Inst29Quest4name6_HORDE = Inst29Quest4name6
 
 --------------- INST30 - The Ruins of Ahn'Qiraj (AQ20) ---------------
 
-Inst30Caption = "Ruins of Ahn'Qiraj"
+Inst30Caption = "Ruinen von Ahn'Qiraj"
 Inst30QAA = "2 Quests"
 Inst30QAH = "2 Quests"
 
 --Quest 1 Alliance
-Inst30Quest1 = "1. The Fall of Ossirian"
-Inst30Quest1_Aim = "Deliver the Head of Ossirian the Unscarred to Commander Mar'alith at Cenarion Hold in Silithus."
-Inst30Quest1_Location = "Head of Ossirian the Unscarred (drops from Ossirian the Unscarred; "..YELLOW.."[6]"..WHITE..")"
-Inst30Quest1_Note = "Commander Mar'alith (Silithus - Cenarion Hold; "..YELLOW.."49,34"..WHITE..")"
+Inst30Quest1 = "1. Der Untergang von Ossirian"
+Inst30Quest1_Aim = "Bringt den Kopf von Ossirian dem Narbenlosen zu Kommandant Mar'alith auf Burg Cenarius in Silithus."
+Inst30Quest1_Location = "Kopf von Ossirian dem Narbenlosen (droppt von Ossirian dem Narbenlosen; "..YELLOW.."[6]"..WHITE..")"
+Inst30Quest1_Note = "Kommandant Mar'alith (Silithus - Burg Cenarius; "..YELLOW.."49,34"..WHITE..")"
 Inst30Quest1_Prequest = "Nein"
 Inst30Quest1_Folgequest = "Nein"
 --
-Inst30Quest1name1 = "Charm of the Shifting Sands"
-Inst30Quest1name2 = "Amulet of the Shifting Sands"
-Inst30Quest1name3 = "Choker of the Shifting Sands"
-Inst30Quest1name4 = "Pendant of the Shifting Sands"
+Inst30Quest1name1 = "Glücksbringer der Sandstürme"
+Inst30Quest1name2 = "Amulett der Sandstürme"
+Inst30Quest1name3 = "Halsschmuck der Sandstürme"
+Inst30Quest1name4 = "Anhänger der Sandstürme"
 
 --Quest 2 Alliance
-Inst30Quest2 = "2. The Perfect Poison"
-Inst30Quest2_Aim = "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac."
-Inst30Quest2_Location = "Dirk Thunderwood (Silithus - Cenarion Hold; "..YELLOW.."52,39"..WHITE..")"
-Inst30Quest2_Note = "Venoxis's Venom Sac drops from High priest Venoxis in "..YELLOW.."Zul'Gurub"..WHITE..". Kurinnaxx's Venom Sac drops in the "..YELLOW.."Ruins of Ahn'Qiraj"..WHITE.." at "..YELLOW.."[1]"..WHITE.."."
+Inst30Quest2 = "2. Das perfekte Gift"
+Inst30Quest2_Aim = "Dirk Thunderwood in der Burg Cenarius will, dass Ihr ihm Venoxis' Giftbeutel und Kurinnaxx' Giftbeutel bringt."
+Inst30Quest2_Location = "Dirk Thunderwood (Silithus - Burg Cenarius; "..YELLOW.."52,39"..WHITE..")"
+Inst30Quest2_Note = "Venoxis's Giftbeutel droppt von Hohepriester Venoxis in "..YELLOW.."Zul'Gurub"..WHITE..". Kurinnaxx's Gifbeutel droppt in den "..YELLOW.."Ruinen von Ahn'Qiraj"..WHITE.." bei "..YELLOW.."[1]"..WHITE.."."
 Inst30Quest2_Prequest = "Nein"
 Inst30Quest2_Folgequest = "Nein"
 --
-Inst30Quest2name1 = "Ravenholdt Slicer"
-Inst30Quest2name2 = "Shivsprocket's Shiv"
-Inst30Quest2name3 = "The Thunderwood Poker"
-Inst30Quest2name4 = "Doomulus Prime"
-Inst30Quest2name5 = "Fahrad's Reloading Repeater"
-Inst30Quest2name6 = "Simone's Cultivating Hammer"
+Inst30Quest2name1 = "Ravenholdtschnitzler"
+Inst30Quest2name2 = "Shivsprokets Messer"
+Inst30Quest2name3 = "Donnerholzschüreisen"
+Inst30Quest2name4 = "Schicksalsbringer"
+Inst30Quest2name5 = "Fahrads selbstladende Repetierarmbrust"
+Inst30Quest2name6 = "Simones Hammer der Kultivierung"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst30Quest1_HORDE = Inst30Quest1
 Inst30Quest1_HORDE_Aim = Inst30Quest1_Aim
 Inst30Quest1_HORDE_Location = Inst30Quest1_Location
 Inst30Quest1_HORDE_Note = Inst30Quest1_Note
-Inst30Quest1_HORDE_Prequest = Inst30Quest1_Prequest
-Inst30Quest1_HORDE_Folgequest = Inst30Quest1_Folgequest
+Inst30Quest1_HORDE_Prequest = "Nein"
+Inst30Quest1_HORDE_Folgequest = "Nein"
 --
 Inst30Quest1name1_HORDE = Inst30Quest1name1
 Inst30Quest1name2_HORDE = Inst30Quest1name2
 Inst30Quest1name3_HORDE = Inst30Quest1name3
 Inst30Quest1name4_HORDE = Inst30Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst30Quest2_HORDE = Inst30Quest2
 Inst30Quest2_HORDE_Aim = Inst30Quest2_Aim
 Inst30Quest2_HORDE_Location = Inst30Quest2_Location
 Inst30Quest2_HORDE_Note = Inst30Quest2_Note
-Inst30Quest2_HORDE_Prequest = Inst30Quest2_Prequest
-Inst30Quest2_HORDE_Folgequest = Inst30Quest2_Folgequest
+Inst30Quest2_HORDE_Prequest = "Nein"
+Inst30Quest2_HORDE_Folgequest = "Nein"
 --
 Inst30Quest2name1_HORDE = Inst30Quest2name1
 Inst30Quest2name2_HORDE = Inst30Quest2name2
@@ -4782,88 +4791,89 @@ Inst30Quest2name6_HORDE = Inst30Quest2name6
 
 --------------- INST31 - The Temple of Ahn'Qiraj (AQ40) ---------------
 
-Inst31Caption = "Temple of Ahn'Qiraj"
+Inst31Caption = "Tempel von Ahn'Qiraj"
 Inst31QAA = "4 Quests"
 Inst31QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst31Quest1 = "1. C'Thun's Legacy"
-Inst31Quest1_Aim = "Take the Eye of C'Thun to Caelastrasz in the Temple of Ahn'Qiraj."
-Inst31Quest1_Location = "Eye of C'Thun (drops from C'Thun; "..YELLOW.."[9]"..WHITE..")"
-Inst31Quest1_Note = "Caelestrasz (Temple of Ahn'Qiraj; "..YELLOW.."2'"..WHITE..")"
+Inst31Quest1 = "1. C'Thuns Vermächnis"
+Inst31Quest1_Aim = "Bringt Caelastrasz im Tempel von Ahn'Qiraj das Auge von C'Thun."
+Inst31Quest1_Location = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..WHITE..")"
+Inst31Quest1_Note = "Caelestrasz (Tempel von Ahn'Qiraj; "..YELLOW.."2'"..WHITE..")"
 Inst31Quest1_Prequest = "Nein"
-Inst31Quest1_Folgequest = "The Savior of Kalimdor"
+Inst31Quest1_Folgequest = "Der Retter von Kalimdor
+Inst31Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst31Quest2 = "2. The Savior of Kalimdor"
-Inst31Quest2_Aim = "Take the Eye of C'Thun to Anachronos at the Caverns of Time."
-Inst31Quest2_Location = "Eye of C'Thun (drops from C'Thun; "..YELLOW.."[9]"..WHITE..")"
-Inst31Quest2_Note = "Anachronos (Tanaris - Caverns of Time; "..YELLOW.."65,49"..WHITE..")"
-Inst31Quest2_Prequest = "C'Thun's Legacy"
+Inst31Quest2 = "2. Der Retter von Kalimdor"
+Inst31Quest2_Aim = "Bringt Anachronos in den Höhlen der Zeit das Auge von C'Thun."
+Inst31Quest2_Location = Inst31Quest1_Location
+Inst31Quest2_Note = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."65,49"..WHITE..")"
+Inst31Quest2_Prequest = "C'Thuns Vermächnis"
 Inst31Quest2_Folgequest = "Nein"
 --
-Inst31Quest2name1 = "Amulet of the Fallen God"
-Inst31Quest2name2 = "Cloak of the Fallen God"
-Inst31Quest2name3 = "Ring of the Fallen God"
+Inst31Quest2name1 = "Amulett des gefallenen Gottes"
+Inst31Quest2name2 = "Umhanf des gefallenen Gottes"
+Inst31Quest2name3 = "Ring des gefallenen Gottes"
 
 --Quest 3 Alliance
-Inst31Quest3 = "3. Secrets of the Qiraji"
-Inst31Quest3_Aim = "Take the Ancient Qiraji Artifact to the dragons hiding near the entrance of the temple."
-Inst31Quest3_Location = "Ancient Qiraji Artifact (random drop in Temple of Ahn'Qiraj)"
-Inst31Quest3_Note = "Turns in to Andorgos (Temple of Ahn'Qiraj; "..YELLOW.."1'"..WHITE..")."
+Inst31Quest3 = "3. Geheimnisse der Qiraji"
+Inst31Quest3_Aim = "Bringt das uralte Qirajiartefakt zu den Drachen, die sich nahe des Tempeleingangs versteckt halten."
+Inst31Quest3_Location = "Uraltes Qirajiartefakt (Zufälliger Dropp in Tempel von Ahn'Qiraj)"
+Inst31Quest3_Note = "Kehre zurück zu Andorgos (Tempel von Ahn'Qiraj; "..YELLOW.."1'"..WHITE..")."
 Inst31Quest3_Prequest = "Nein"
 Inst31Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst31Quest4 = "4. Mortal Champions"
-Inst31Quest4_Aim = "Turn in a Qiraji Lord's Insignia to Kandrostrasz in the Temple of Ahn'Qiraj."
-Inst31Quest4_Location = "Kandrostrasz (Temple of Ahn'Qiraj; "..YELLOW.."[1']"..WHITE..")"
-Inst31Quest4_Note = "This is a repeatable quest which yields Cenarion Circle reputation. The Qiraji Lord's Insignia drop from all bosses inside the instance. Kandrostrasz is found in the rooms behind the first boss."
+Inst31Quest4 = "4. Sterbliche Helden"
+Inst31Quest4_Aim = "Kehre mit einer Insignien des Qirajilords zu Kandrostrasz im Tempel von Ahn'Qiraj zurück."
+Inst31Quest4_Location = "Kandrostrasz (Tempel von Ahn'Qiraj; "..YELLOW.."[1']"..WHITE..")"
+Inst31Quest4_Note = "Dies ist eine widerholbare Quest um Ruf für den Zirkel des Cenarius zu erwerben. Die Insignien des Qirajilords droppen von allen Bossen in der Inatanz. Kandrostrasz befindet sich im Raum, hinter dem ersten Boss."
 Inst31Quest4_Prequest = "Nein"
 Inst31Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst31Quest1_HORDE = Inst31Quest1
 Inst31Quest1_HORDE_Aim = Inst31Quest1_Aim
 Inst31Quest1_HORDE_Location = Inst31Quest1_Location
 Inst31Quest1_HORDE_Note = Inst31Quest1_Note
-Inst31Quest1_HORDE_Prequest = Inst31Quest1_Prequest
+Inst31Quest1_HORDE_Prequest = "Nein"
 Inst31Quest1_HORDE_Folgequest = Inst31Quest1_Folgequest
+Inst31Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst31Quest2_HORDE = Inst31Quest2
 Inst31Quest2_HORDE_Aim = Inst31Quest2_Aim
 Inst31Quest2_HORDE_Location = Inst31Quest2_Location
 Inst31Quest2_HORDE_Note = Inst31Quest2_Note
 Inst31Quest2_HORDE_Prequest = Inst31Quest2_Prequest
-Inst31Quest2_HORDE_Folgequest = Inst31Quest2_Folgequest
-Inst31Quest2FQuest_HORDE = Inst31Quest2FQuest
---
+Inst31Quest2_HORDE_Folgequest = "Nein"
+
 Inst31Quest2name1_HORDE = Inst31Quest2name1
 Inst31Quest2name2_HORDE = Inst31Quest2name2
 Inst31Quest2name3_HORDE = Inst31Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst31Quest3_HORDE = Inst31Quest3
 Inst31Quest3_HORDE_Aim = Inst31Quest3_Aim
 Inst31Quest3_HORDE_Location = Inst31Quest3_Location
 Inst31Quest3_HORDE_Note = Inst31Quest3_Note
-Inst31Quest3_HORDE_Prequest = Inst31Quest3_Prequest
-Inst31Quest3_HORDE_Folgequest = Inst31Quest3_Folgequest
+Inst31Quest3_HORDE_Prequest = "Nein"
+Inst31Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst31Quest4_HORDE = Inst31Quest4
 Inst31Quest4_HORDE_Aim = Inst31Quest4_Aim
 Inst31Quest4_HORDE_Location = Inst31Quest4_Location
 Inst31Quest4_HORDE_Note = Inst31Quest4_Note
-Inst31Quest4_HORDE_Prequest = Inst31Quest4_Prequest
-Inst31Quest4_HORDE_Folgequest = Inst31Quest4_Folgequest
+Inst31Quest4_HORDE_Prequest = "Nein"
+Inst31Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -4977,10 +4987,10 @@ Inst33Quest9_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst33Quest10 = "10. Alterac Valley Graveyards"
-Inst33Quest10_Aim = "Assault a graveyard, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
+Inst33Quest10 = "10. Alterac Valley Friedhofs"
+Inst33Quest10_Aim = "Assault a Friedhof, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
 Inst33Quest10_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
-Inst33Quest10_Note = "Reportedly you do not need to do anything but be near a graveyard when the Alliance assaults it. It does not need to be captured, just assaulted."
+Inst33Quest10_Note = "Reportedly you do not need to do anything but be near a Friedhof when the Alliance assaults it. It does not need to be captured, just assaulted."
 Inst33Quest10_Prequest = "Nein"
 Inst33Quest10_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5043,7 +5053,7 @@ Inst33Quest16_Folgequest = "Nein"
 Inst33Quest17 = "17. Call of Air - Ichman's Fleet"
 Inst33Quest17_Aim = "Return to the battlefield and strike at the heart of the Frostwolf's command. Take down their commanders and guardians. Return to me with as many of their medals as you can stuff in your pack! I promise you, when my gryphons see the bounty and smell the blood of our enemies, they will fly again! Go now!"
 Inst33Quest17_Location = "Wing Commander Ichman (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest17_Note = "Kill Horde NPCs for the Frostwolf Commander's Medals. After turning in 50, Wing Commander Ichman will either send a gryphon to attack the Horde base or give you a beacon to plant in the Snowfall Graveyard. If the beacon is protected long enough a gryphon will come to defend it."
+Inst33Quest17_Note = "Kill Horde NPCs for the Frostwolf Commander's Medals. After turning in 50, Wing Commander Ichman will either send a gryphon to attack the Horde base or give you a beacon to plant in the Snowfall Friedhof. If the beacon is protected long enough a gryphon will come to defend it."
 Inst33Quest17_Prequest = "Nein"
 Inst33Quest17_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5137,10 +5147,10 @@ Inst33Quest9_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 10 Horde
-Inst33Quest10_HORDE = "10. The Graveyards of Alterac"
-Inst33Quest10_HORDE_Aim = "Assault a graveyard, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
+Inst33Quest10_HORDE = "10. The Friedhofs of Alterac"
+Inst33Quest10_HORDE_Aim = "Assault a Friedhof, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
 Inst33Quest10_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest10_HORDE_Note = "Reportedly you do not need to do anything but be near a graveyard when the Horde assaults it. It does not need to be captured, just assaulted."
+Inst33Quest10_HORDE_Note = "Reportedly you do not need to do anything but be near a Friedhof when the Horde assaults it. It does not need to be captured, just assaulted."
 Inst33Quest10_HORDE_Prequest = "Nein"
 Inst33Quest10_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5292,19 +5302,19 @@ Inst35QAH = "Keine Quests"
 
 --------------- INST36 - Dragons of Nightmare ---------------
 
-Inst36Caption = "Dragons of Nightmare"
+Inst36Caption = "Drachen der Alpträume"
 Inst36QAA = "1 Quest"
 Inst36QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst36Quest1 = "1. Shrouded in Nightmare"
-Inst36Quest1_Aim = "Find someone capable of deciphering the meaning behind the Nightmare Engulfed Object.\n\nPerhaps a druid of great power could assist you."
-Inst36Quest1_Location = "Nightmare Engulfed Object (drops from Emeriss, Taerar, Lethon or Ysondre)"
-Inst36Quest1_Note = "Quest turns in to Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36,41"..WHITE.."). Reward listed is for the followup."
+Inst36Quest1 = "1. Eingehüllt in Alpträume"
+Inst36Quest1_Aim = "Sucht nach jemandem, der die Bedeutung des in Alpträume gehüllten Gegenstands entschlüsseln kann.\n\nVielleicht kann Euch ein Druide von großer Macht weiterhelfen."
+Inst36Quest1_Location = "In Alpträume gehüllter Gegenstand (droppt von Emeriss, Taerar, Lethon oder Ysondre)"
+Inst36Quest1_Note = "Quest führt Dich zu Bawahrer Remulos bei (Moonglade - Schrein von Remulos; "..YELLOW.."36,41"..WHITE.."). Die Belohnung erälst Du mit der Folgequest."
 Inst36Quest1_Prequest = "Nein"
-Inst36Quest1_Folgequest = "Waking Legends"
+Inst36Quest1_Folgequest = "Legenden erwachen"
 --
-Inst36Quest1name1 = "Malfurion's Signet Ring"
+Inst36Quest1name1 = "Malfurions Siegelring"
 
 
 --Quest 1 Horde
@@ -5313,7 +5323,7 @@ Inst36Quest1_HORDE_Aim = Inst36Quest1_Aim
 Inst36Quest1_HORDE_Location = Inst36Quest1_Location
 Inst36Quest1_HORDE_Note = Inst36Quest1_Note
 Inst36Quest1_HORDE_Prequest = "Nein"
-Inst36Quest1_HORDE_Folgequest = Inst36Quest1_Folgequest
+Inst36Quest1_HORDE_Folgequest = "Legenden erwachen"
 --
 Inst36Quest1name1_HORDE = Inst36Quest1name1
 
@@ -5326,14 +5336,14 @@ Inst37QAA = "1 Quest"
 Inst37QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst37Quest1 = "1. Ancient Sinew Wrapped Lamina (Hunter)"
-Inst37Quest1_Aim = "Hastat the Ancient has asked that you bring him a Mature Blue Dragon Sinew. Should you find this sinew, return it to Hastat in Felwood."
-Inst37Quest1_Location = "Hastat the Ancient (Felwood - Irontree Woods; "..YELLOW.."48,24"..WHITE..")"
-Inst37Quest1_Note = "Kill Azuregos to get the Mature Blue Dragon Sinew. He walks around the middle of the southern peninsula in Azshara near "..YELLOW.."[1]"..WHITE.."."
-Inst37Quest1_Prequest = "The Ancient Leaf ("..YELLOW.."Molten Core"..WHITE..")"
+Inst37Quest1 = "1. Uraltes in Sehnen eingewickeltes Laminablatt (Hunter)"
+Inst37Quest1_Aim = "Hastat der Uralte hat Euch um die Beschaffung einer Sehne eines ausgewachsenen, blauen Drachens gebeten. Solltet Ihr diese Sehne finden, kehrt zu Hastat im Teufelswald zurück."
+Inst37Quest1_Location = "Hastat der Uralte (Felwood - Irontree Woods; "..YELLOW.."48,24"..WHITE..")"
+Inst37Quest1_Note = "Töte Azuregos um die Sehne eine ausgewachsenen blauen Drachens zu erhalten. Er wandert um die Mitte der südlichen Halbinsel in Azshara in der Nähe von "..YELLOW.."[1]"..WHITE.."."
+Inst37Quest1_Prequest = "Das uralte Blatt ("..YELLOW.."Molten Core"..WHITE..")"
 Inst37Quest1_Folgequest = "Nein"
 --
-Inst37Quest1name1 = "Ancient Sinew Wrapped Lamina"
+Inst37Quest1name1 = "Uraltes in Sehnen eingewickeltes Laminablatt"
 
 
 --Quest 1 Horde
