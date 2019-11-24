@@ -35,7 +35,10 @@
 -- 183 = DUNGEON: Tol Dagor
 -- 184 = DUNGEON: Waycrest Manor
 -- 185 = RAID: Uldir
-
+-- 186 = RAID: Battle of Dazar'alor
+-- 187 = RAID: Crucible of Storms
+-- 188 = RAID: The Eternal Palace
+-- 189 = DUNGEON: Operation: Mechagon
 
 
 --
