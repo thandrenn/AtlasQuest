@@ -4,6 +4,9 @@ Changelog
 
 Version 4.11.58  (for WoW Classic)  November ??, 2019
 
+- Russian localization updated.
+- German localization updated.
+
 - Cleanup Progress:
 	- Blackfathom Deeps complete.
 	- Dire Maul East complete.
