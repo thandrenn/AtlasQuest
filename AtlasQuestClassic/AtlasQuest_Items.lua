@@ -1613,7 +1613,11 @@ Inst14Quest11description3 = AQITEM_ONEHAND .. AQITEM_SWORD
 Inst14Quest11ID3 = "13246"
 
 --Quest 12 Alliance
-Inst14Quest12Rewardtext = AQNoReward
+Inst14Quest12Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst14Quest12ITC1 = Itemc2;
+Inst14Quest12description1 = AQITEM_BAG
+Inst14Quest12ID1 = "22137"
 
 --Quest 13 Alliance
 Inst14Quest13Rewardtext = AQNoReward

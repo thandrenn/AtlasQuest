@@ -1983,7 +1983,7 @@ Inst14QAH = "19 Quests"
 
 --Quest 1 Alliance
 Inst14Quest1 = "1. The Flesh Does Not Lie"
-Inst14Quest1_Aim = "Recover 10 Plagued Flesh Samples from Stratholme and return them to Betina Bigglezink. You suspect that any creature in Stratholme would have said flesh sample."
+Inst14Quest1_Aim = "Recover 20 Plagued Flesh Samples from Stratholme and return them to Betina Bigglezink. You suspect that any creature in Stratholme would have said flesh sample."
 Inst14Quest1_Location = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81.4, 59.6"..WHITE..")"
 Inst14Quest1_Note = "Most mobs in Stratholme can drop the Plagued Flesh Samples, but the drop rate seems low."
 Inst14Quest1_Prequest = "None"
@@ -2100,7 +2100,8 @@ Inst14Quest12_Location = "Anthion Harmon (Eastern Plaguelands - Stratholme)"
 Inst14Quest12_Note = "Anthion stands just outside the Stratholme portal. You need the Extra-Dimensional Ghost Revealer to see him. It comes from the pre-quest. The questline starts with Just Compensation. Deliana in Ironforge ("..YELLOW.."43, 52"..WHITE..") for Alliance, Mokvar in Orgrimmar ("..YELLOW.."38, 37"..WHITE..") for Horde.\nThis is the infamous '45 minute' Baron run."
 Inst14Quest12_Prequest = "In Search of Anthion"
 Inst14Quest12_Folgequest = "Proof of Life"
--- No Rewards for this quest
+--
+Inst14Quest11name1 = "Ysida's Satchel"
 
 --Quest 13 Alliance
 Inst14Quest13 = "13. The Left Piece of Lord Valthalak's Amulet"
