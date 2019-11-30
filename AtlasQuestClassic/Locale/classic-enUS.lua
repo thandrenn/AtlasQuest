@@ -3274,7 +3274,7 @@ Inst19Quest1_Folgequest = "None"
 Inst19Quest2 = "2. The Gordok Ogre Suit"
 Inst19Quest2_Aim = "Bring 4 Bolts of Runecloth, 8 Rugged Leather, 2 Rune Threads, and Ogre Tannin to Knot Thimblejack. He is currently chained inside the Gordok wing of Dire Maul."
 Inst19Quest2_Location = "Knot Thimblejack (Dire Maul; "..YELLOW.."North, [4]"..WHITE..")"
-Inst19Quest2_Note = "Repeatable quest. You get the Ogre Tannin near "..YELLOW.."[4] (above)"..WHITE.."."
+Inst19Quest2_Note = "Repeatable quest.  You get the Ogre Tannin near "..YELLOW.."[4] (above)"..WHITE..".  The Bolts of Runecloth come from a Tailor, the Rugged Leather from a Leatherworker and the Rune Threads from a Tailoring Vendor."
 Inst19Quest2_Prequest = "None"
 Inst19Quest2_Folgequest = "None"
 --
@@ -3284,7 +3284,7 @@ Inst19Quest2name1 = "Gordok Ogre Suit"
 Inst19Quest3 = "3. Free Knot!"
 Inst19Quest3_Aim = "Collect a Gordok Shackle Key for Knot Thimblejack."
 Inst19Quest3_Location = "Knot Thimblejack (Dire Maul; "..YELLOW.."North, [4]"..WHITE..")"
-Inst19Quest3_Note = "Repeatable quest. Every warden can drop the key."
+Inst19Quest3_Note = "Repeatable quest.  Every warden can drop the key."
 Inst19Quest3_Prequest = "None"
 Inst19Quest3_Folgequest = "None"
 -- No Rewards for this quest
@@ -3293,7 +3293,7 @@ Inst19Quest3_Folgequest = "None"
 Inst19Quest4 = "4. Unfinished Gordok Business"
 Inst19Quest4_Aim = "Find the Gauntlet of Gordok Might and return it to Captain Kromcrush in Dire Maul.\nAccording to Kromcrush, the 'old timey story' says that Tortheldrin - a 'creepy' elf who called himself a prince - stole it from one of the Gordok kings."
 Inst19Quest4_Location = "Captain Kromcrush (Dire Maul; "..YELLOW.."North, [5]"..WHITE..")"
-Inst19Quest4_Note = "Prince is in Dire Maul "..YELLOW.."West"..WHITE.." at "..YELLOW.."[7]"..WHITE..". The Gauntlet is near him in a chest. You can only get this quest after a Tribute run and have the It's Good to be King! buff."
+Inst19Quest4_Note = "Tortheldrin is in Dire Maul "..YELLOW.."West"..WHITE.." at "..YELLOW.."[7]"..WHITE..".  The Gauntlet is near him in a chest.  You can only get this quest after a Tribute run and have the 'It's Good to be King!' buff."
 Inst19Quest4_Prequest = "None"
 Inst19Quest4_Folgequest = "None"
 --
@@ -3371,14 +3371,14 @@ Inst19Quest5name2_HORDE = Inst19Quest5name2
 --------------- INST20 - Dire Maul West ---------------
 
 Inst20Caption = "Dire Maul (West)"
-Inst20QAA = "17 Quests"
-Inst20QAH = "17 Quests"
+Inst20QAA = "16 Quests"
+Inst20QAH = "16 Quests"
 
 --Quest 1 Alliance
 Inst20Quest1 = "1. Elven Legends"
 Inst20Quest1_Aim = "Search Dire Maul for Kariel Winthalus. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find."
-Inst20Quest1_Location = "Scholar Runethorn (Feralas - Feathermoon Stronghold; "..YELLOW.."31,43"..WHITE..")"
-Inst20Quest1_Note = "You find Kariel Winthalus in the "..YELLOW.."Library (West)"..WHITE.."."
+Inst20Quest1_Location = "Scholar Runethorn (Feralas - Feathermoon Stronghold; "..YELLOW.."31.2, 43.4"..WHITE..")"
+Inst20Quest1_Note = "You find Kariel Winthalus in the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest1_Prequest = "None"
 Inst20Quest1_Folgequest = "None"
 -- No Rewards for this quest
@@ -3396,7 +3396,7 @@ Inst20Quest2_Folgequest = "The Treasure of the Shen'dralar"
 Inst20Quest3 = "3. The Treasure of the Shen'dralar"
 Inst20Quest3_Aim = "Return to the Athenaeum and find the Treasure of the Shen'dralar. Claim your reward!"
 Inst20Quest3_Location = "Shen'dralar Ancient (Dire Maul; "..YELLOW.."West, [1]"..WHITE..")"
-Inst20Quest3_Note = "You can find the Treasure under the stairs "..YELLOW.."[7]"..WHITE.."."
+Inst20Quest3_Note = "You can find the Treasure under the stairs near "..YELLOW.."[7]"..WHITE.."."
 Inst20Quest3_Prequest = "The Madness Within"
 Inst20Quest3_Folgequest = "None"
 --
@@ -3405,149 +3405,139 @@ Inst20Quest3name2 = "Backwood Helm"
 Inst20Quest3name3 = "Bonecrusher"
 
 --Quest 4 Alliance
-Inst20Quest4 = "4. Dreadsteed of Xoroth (Warlock)"
+Inst20Quest4 = "4. Dreadsteed of Xoroth"
 Inst20Quest4_Aim = "Read Mor'zul's Instructions. Summon a Xorothian Dreadsteed, defeat it, then bind its spirit to you."
 Inst20Quest4_Location = "Mor'zul Bloodbringer (Burning Steppes; "..YELLOW.."12,31"..WHITE..")"
-Inst20Quest4_Note = "Final Quest in the Warlock Epic mount questline. First you must shut down all Pylons marked with "..BLUE.."[B]"..WHITE.." and then kill Immol'thar at "..YELLOW.."[6]"..WHITE..". After that, you can begin the Summoning Ritual. Be sure to have upwards of 20 Soul Shards ready and have one Warlock specifically assigned to keeping the Bell, Candle and Wheel up. The Doomguards that come can be enslaved. After completion, talk to the Dreadsteed ghost to complete the quest."
+Inst20Quest4_Note = "Warlock quest.  Final Quest in the Warlock Epic mount questline.  First you must shut down all Pylons marked with "..BLUE.."[B]"..WHITE.." and then kill Immol'thar at "..YELLOW.."[6]"..WHITE..".  After that, you can begin the Summoning Ritual.  Be sure to have around 20 Soul Shards ready and have one Warlock specifically assigned to keeping the Bell, Candle and Wheel up.  The Doomguards that come can be enslaved.  After completion, talk to the Dreadsteed ghost to complete the quest."
 Inst20Quest4_Prequest = "Imp Delivery ("..YELLOW.."Scholomance"..WHITE..")"
 Inst20Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst20Quest5 = "5. The Emerald Dream... (Druid)"
+Inst20Quest5 = "5. The Emerald Dream..."
 Inst20Quest5_Aim = "Return the book to its rightful owners."
 Inst20Quest5_Location = "The Emerald Dream (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest5_Note = "The reward is for Druids. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest5_Note = "Druid quest.  You turn the book in to Lorekeeper Javon at the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest5_Prequest = "None"
 Inst20Quest5_Folgequest = "None"
 --
 Inst20Quest5name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 6 Alliance
-Inst20Quest6 = "6. The Greatest Race of Hunters (Hunter)"
+Inst20Quest6 = "6. The Greatest Race of Hunters"
 Inst20Quest6_Aim = "Return the book to its rightful owners."
 Inst20Quest6_Location = "The Greatest Race of Hunters (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest6_Note = "The reward is for Hunters. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest6_Note = "Hunter quest.  You turn the book in to Lorekeeper Mykos at the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest6_Prequest = "None"
 Inst20Quest6_Folgequest = "None"
 --
 Inst20Quest6name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 7 Alliance
-Inst20Quest7 = "7. The Arcanist's Cookbook (Mage)"
+Inst20Quest7 = "7. The Arcanist's Cookbook"
 Inst20Quest7_Aim = "Return the book to its rightful owners."
 Inst20Quest7_Location = "The Arcanist's Cookbook (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest7_Note = "The reward is for Mages. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest7_Note = "Mage quest.  You turn the book in to Lorekeeper Kildrath at the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest7_Prequest = "None"
 Inst20Quest7_Folgequest = "None"
 --
 Inst20Quest7name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 8 Alliance
-Inst20Quest8 = "8. The Light and How To Swing It (Paladin)"
+Inst20Quest8 = "8. The Light and How To Swing It"
 Inst20Quest8_Aim = "Return the book to its rightful owners."
 Inst20Quest8_Location = "The Light and How To Swing It (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest8_Note = "The reward is for Paladins. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest8_Note = "Paladin quest.  You turn the book in to Lorekeeper Mykos at the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest8_Prequest = "None"
 Inst20Quest8_Folgequest = "None"
 --
 Inst20Quest8name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 9 Alliance
-Inst20Quest9 = "9. Holy Bologna: What the Light Won't Tell You (Priest)"
+Inst20Quest9 = "9. Holy Bologna: What the Light Won't Tell You"
 Inst20Quest9_Aim = "Return the book to its rightful owners."
 Inst20Quest9_Location = "Holy Bologna: What the Light Won't Tell You (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest9_Note = "The reward is for Priests. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest9_Note = "Priest quest.  You turn the book in to Lorekeeper Javon at the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest9_Prequest = "None"
 Inst20Quest9_Folgequest = "None"
 --
 Inst20Quest9name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 10 Alliance
-Inst20Quest10 = "10. Garona: A Study on Stealth and Treachery (Rogue)"
+Inst20Quest10 = "10. Garona: A Study on Stealth and Treachery"
 Inst20Quest10_Aim = "Return the book to its rightful owners."
 Inst20Quest10_Location = "Garona: A Study on Stealth and Treachery (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest10_Note = "The reward is for Rogues. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest10_Note = "Rogue quest.  You turn the book in to Lorekeeper Kildrath at the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest10_Prequest = "None"
 Inst20Quest10_Folgequest = "None"
 --
 Inst20Quest10name1 = "Royal Seal of Eldre'Thalas"
 
---Quest 11 Alliance    - THIS QUEST TO BE REMOVED
-Inst20Quest11 = "11. Frost Shock and You (Shaman)"
+--Quest 11 Alliance
+Inst20Quest11 = "11. Harnessing Shadows"
 Inst20Quest11_Aim = "Return the book to its rightful owners."
-Inst20Quest11_Location = "Frost Shock and You (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest11_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest11_Location = "Harnessing Shadows (randomly drops off bosses in all Dire Maul wings)"
+Inst20Quest11_Note = "Warlock quest.  You turn the book in to Lorekeeper Mykos at the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest11_Prequest = "None"
 Inst20Quest11_Folgequest = "None"
 --
 Inst20Quest11name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 12 Alliance
-Inst20Quest12 = "12. Harnessing Shadows (Warlock)"
+Inst20Quest12 = "12. Codex of Defense"
 Inst20Quest12_Aim = "Return the book to its rightful owners."
-Inst20Quest12_Location = "Harnessing Shadows (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest12_Note = "Warlock quest. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest12_Location = "Codex of Defense (randomly drops off bosses in all Dire Maul wings)"
+Inst20Quest12_Note = "Warrior quest.  You turn the book in to Lorekeeper Kildrath at the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest12_Prequest = "None"
 Inst20Quest12_Folgequest = "None"
 --
 Inst20Quest12name1 = "Royal Seal of Eldre'Thalas"
 
 --Quest 13 Alliance
-Inst20Quest13 = "13. Codex of Defense (Warrior)"
-Inst20Quest13_Aim = "Return the book to its rightful owners."
-Inst20Quest13_Location = "Codex of Defense (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest13_Note = "Warrior quest. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest13 = "13. Libram of Focus"
+Inst20Quest13_Aim = "Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Focus."
+Inst20Quest13_Location = "Lorekeeper Lydros (Dire Maul West; "..GREEN.."[1'] Library"..WHITE..")"
+Inst20Quest13_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House.  Skin of Shadow is Soulbound and can drop off some bosses, Risen Constructs and Risen Bonewarder in "..YELLOW.."Scholomance"..WHITE.."."
 Inst20Quest13_Prequest = "None"
 Inst20Quest13_Folgequest = "None"
 --
-Inst20Quest13name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest13name1 = "Arcanum of Focus"
 
 --Quest 14 Alliance
-Inst20Quest14 = "14. Libram of Focus"
-Inst20Quest14_Aim = "Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Focus."
-Inst20Quest14_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst20Quest14_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Skin of Shadow is Soulbound and can drop off some bosses, Risen Constructs and Risen Bonewarder in "..YELLOW.."Scholomance"..WHITE.."."
+Inst20Quest14 = "14. Libram of Protection"
+Inst20Quest14_Aim = "Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Protection."
+Inst20Quest14_Location = "Lorekeeper Lydros (Dire Maul West; "..GREEN.."[1'] Library"..WHITE..")"
+Inst20Quest14_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House.  Frayed Abomination Stitching is Soulbound and can drop off Ramstein the Gorger, Venom Belchers, Bile Spewer and Patchwork Horror in "..YELLOW.."Stratholme"..WHITE.."."
 Inst20Quest14_Prequest = "None"
 Inst20Quest14_Folgequest = "None"
 --
-Inst20Quest14name1 = "Arcanum of Focus"
+Inst20Quest14name1 = "Arcanum of Protection"
 
 --Quest 15 Alliance
-Inst20Quest15 = "15. Libram of Protection"
-Inst20Quest15_Aim = "Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Protection."
-Inst20Quest15_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst20Quest15_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Frayed Abomination Stitching is Soulbound and can drop off Ramstein the Gorger, Venom Belchers, Bile Spewer and Patchwork Horror in "..YELLOW.."Stratholme"..WHITE.."."
+Inst20Quest15 = "15. Libram of Rapidity"
+Inst20Quest15_Aim = "Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Rapidity."
+Inst20Quest15_Location = "Lorekeeper Lydros (Dire Maul West; "..GREEN.."[1'] Library"..WHITE..")"
+Inst20Quest15_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House.  Blood of Heroes is Soulbound and can be found on the ground in random places in the Western and Eastern Plaguelands."
 Inst20Quest15_Prequest = "None"
 Inst20Quest15_Folgequest = "None"
 --
-Inst20Quest15name1 = "Arcanum of Protection"
+Inst20Quest15name1 = "Arcanum of Rapidity"
 
 --Quest 16 Alliance
-Inst20Quest16 = "16. Libram of Rapidity"
-Inst20Quest16_Aim = "Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Rapidity."
-Inst20Quest16_Location = "Lorekeeper Lydros (Dire Maul West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst20Quest16_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Dire Maul and is tradeable, so it may be found on the Auction House. Blood of Heroes is Soulbound and can be found on the ground in random places in the Western and Eastern Plaguelands."
+Inst20Quest16 = "16. Foror's Compendium"
+Inst20Quest16_Aim = "Return Foror's Compendium of Dragon Slaying to the Athenaeum."
+Inst20Quest16_Location = "Foror's Compendium of Dragon Slaying (random boss drop in "..YELLOW.."Dire Maul"..WHITE..")"
+Inst20Quest16_Note = "Warrior or Paladin quest.  It turns in to Lorekeeper Lydros at (Dire Maul West; "..GREEN.."[1'] Library"..WHITE..").  Turning this in allows you to start the quest for Quel'Serrar."
 Inst20Quest16_Prequest = "None"
-Inst20Quest16_Folgequest = "None"
---
-Inst20Quest16name1 = "Arcanum of Rapidity"
-
---Quest 17 Alliance
-Inst20Quest17 = "17. Foror's Compendium (Warrior, Paladin)"
-Inst20Quest17_Aim = "Return Foror's Compendium of Dragon Slaying to the Athenaeum."
-Inst20Quest17_Location = "Foror's Compendium of Dragon Slaying (random boss drop in "..YELLOW.."Dire Maul"..WHITE..")"
-Inst20Quest17_Note = "Warrior or Paladin quest. It turns in to Lorekeeper Lydros at (Dire Maul West; "..YELLOW.."[1'] Library"..WHITE.."). Turning this in allows you to start the quest for Quel'Serrar.\n\nAs of patch 3.2.2, you can no longer complete this questline unless you've already started it."
-Inst20Quest17_Prequest = "None"
-Inst20Quest17_Folgequest = "The Forging of Quel'Serrar"
+Inst20Quest16_Folgequest = "The Forging of Quel'Serrar"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
 Inst20Quest1_HORDE = "1. Elven Legends"
 Inst20Quest1_HORDE_Aim = "Search Dire Maul for Kariel Winthalus. Report back to Sage Korolusk at Camp Mojache with whatever information that you may find."
-Inst20Quest1_HORDE_Location = "Sage Korolusk (Feralas - Camp Mojache; "..YELLOW.."74,43"..WHITE..")"
-Inst20Quest1_HORDE_Note = "You find Kariel Winthalus in the "..YELLOW.."Library (West)"..WHITE.."."
+Inst20Quest1_HORDE_Location = "Sage Korolusk (Feralas - Camp Mojache; "..YELLOW.."75.0, 43.8"..WHITE..")"
+Inst20Quest1_HORDE_Note = "You find Kariel Winthalus in the "..GREEN.."[1'] Library"..WHITE.."."
 Inst20Quest1_HORDE_Prequest = "None"
 Inst20Quest1_HORDE_Folgequest = "None"
 -- No Rewards for this quest
@@ -3612,15 +3602,15 @@ Inst20Quest7_HORDE_Folgequest = Inst20Quest7_Folgequest
 --
 Inst20Quest7name1_HORDE = Inst20Quest7name1
 
---Quest 8 Horde  (same as Quest 8 Alliance)   - THIS QUEST TO BE REMOVED
-Inst20Quest8_HORDE = Inst20Quest8
-Inst20Quest8_HORDE_Aim = Inst20Quest8_Aim
-Inst20Quest8_HORDE_Location = Inst20Quest8_Location
-Inst20Quest8_HORDE_Note = Inst20Quest8_Note
-Inst20Quest8_HORDE_Prequest = Inst20Quest8_Prequest
-Inst20Quest8_HORDE_Folgequest = Inst20Quest8_Folgequest
+--Quest 8 Horde
+Inst20Quest8_HORDE = "8. Frost Shock and You (Shaman)"
+Inst20Quest8_HORDE_Aim = "Return the book to its rightful owners."
+Inst20Quest8_HORDE_Location = "Frost Shock and You (randomly drops off bosses in all Dire Maul wings)"
+Inst20Quest8_HORDE_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the "..GREEN.."[1'] Library"..WHITE.."."
+Inst20Quest8_HORDE_Prequest = "None"
+Inst20Quest8_HORDE_Folgequest = "None"
 --
-Inst20Quest8name1_HORDE = Inst20Quest8name1
+Inst20Quest8name1_HORDE = "Royal Seal of Eldre'Thalas"
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst20Quest9_HORDE = Inst20Quest9
@@ -3702,15 +3692,6 @@ Inst20Quest16_HORDE_Folgequest = Inst20Quest16_Folgequest
 --
 Inst20Quest16name1_HORDE = Inst20Quest16name1
 
---Quest 17 Horde  (same as Quest 17 Alliance)   - THIS QUEST TO BE REMOVED
-Inst20Quest17_HORDE = Inst20Quest17
-Inst20Quest17_HORDE_Aim = Inst20Quest17_Aim
-Inst20Quest17_HORDE_Location = Inst20Quest17_Location
-Inst20Quest17_HORDE_Note = Inst20Quest17_Note
-Inst20Quest17_HORDE_Prequest = Inst20Quest17_Prequest
-Inst20Quest17_HORDE_Folgequest = Inst20Quest17_Folgequest
--- No Rewards for this quest
-
 
 
 --------------- INST21 - Maraudon ---------------
@@ -3722,7 +3703,7 @@ Inst21QAH = "8 Quests"
 --Quest 1 Alliance
 Inst21Quest1 = "1. Shadowshard Fragments"
 Inst21Quest1_Aim = "Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh."
-Inst21Quest1_Location = "Archmage Tervosh (Dustwallow Marsh - Theramore Isle; "..YELLOW.."66,49"..WHITE..")"
+Inst21Quest1_Location = "Archmage Tervosh (Dustwallow Marsh - Theramore Isle; "..YELLOW.."66.4, 49.2"..WHITE..")"
 Inst21Quest1_Note = "You get the Shadowshard Fragments from 'Shadowshard Rumbler' or 'Shadowshard Smasher' outside the instance on the Purple side."
 Inst21Quest1_Prequest = "None"
 Inst21Quest1_Folgequest = "None"
@@ -3733,8 +3714,8 @@ Inst21Quest1name2 = "Prodigious Shadowshard Pendant"
 --Quest 2 Alliance
 Inst21Quest2 = "2. Vyletongue Corruption"
 Inst21Quest2_Aim = "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\nHeal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point."
-Inst21Quest2_Location = "Talendria (Desolace - Nijel's Point; "..YELLOW.."68,8"..WHITE..")"
-Inst21Quest2_Note = "You can fill the Vial at any pool outside the instance on the Orange side. The plants are in the orange and purple areas inside the instance."
+Inst21Quest2_Location = "Talendria (Desolace - Nijel's Point; "..YELLOW.."68.4, 8.8"..WHITE..")"
+Inst21Quest2_Note = "You can fill the Vial at any pool outside the instance on the Orange side.  The plants are in the orange and purple areas inside the instance."
 Inst21Quest2_Prequest = "None"
 Inst21Quest2_Folgequest = "None"
 --
@@ -3745,7 +3726,7 @@ Inst21Quest2name3 = "Branchclaw Gauntlets"
 --Quest 3 Alliance
 Inst21Quest3 = "3. Twisted Evils"
 Inst21Quest3_Aim = "Collect 25 Theradric Crystal Carvings for Willow in Desolace."
-Inst21Quest3_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
+Inst21Quest3_Location = "Willow (Desolace; "..YELLOW.."62.2, 39.6"..WHITE..")"
 Inst21Quest3_Note = "Most mobs in Maraudon drop the Carvings."
 Inst21Quest3_Prequest = "None"
 Inst21Quest3_Folgequest = "None"
@@ -3758,13 +3739,13 @@ Inst21Quest3name4 = "Hulkstone Pauldrons"
 --Quest 4 Alliance
 Inst21Quest4 = "4. The Pariah's Instructions"
 Inst21Quest4_Aim = "Read the Pariah's Instructions. Afterwards, obtain the Amulet of Union from Maraudon and return it to the Centaur Pariah in southern Desolace."
-Inst21Quest4_Location = "Centaur Pariah (Desolace; "..YELLOW.."45,86"..WHITE..")"
-Inst21Quest4_Note = "The 5 Kahns (Description for The Pariah's Instructions)"
-Inst21Quest4_Page = {2, "You find the Centaur Pariah in the south of desolace. He walks between "..YELLOW.."44,85"..WHITE.." and "..YELLOW.."50,87"..WHITE..".\nFirst, you have to kill the The Nameless Prophet ("..YELLOW.."[A] on Entrance Map"..WHITE.."). You find him before you enter the instance, before the point where you can choose whether you take the purple or the orange entrance. After killing him you must kill the 5 Kahns. You find the first if you choose the way in the middle ("..YELLOW.."[1] on Entrance Map"..WHITE.."). The second is in the purple part of Maraudon but before you enter the instance ("..YELLOW.."[2] on Entrance Map"..WHITE.."). The third is in the orange part before you enter the instance ("..YELLOW.."[3] on Entrance Map"..WHITE.."). The fourth is near "..YELLOW.."[4]"..WHITE.." and the fifth is near  "..YELLOW.."[1]"..WHITE..".", };
+Inst21Quest4_Location = "Centaur Pariah (Desolace;  Roams around "..YELLOW.."50.4, 86.6"..WHITE..")"
+Inst21Quest4_Note = "Kill the The Nameless Prophet at ("..YELLOW.."[A] on Entrance Map"..WHITE..") and then kill the 5 Kahns.  The first is in the middle path near ("..YELLOW.."[D] on Entrance Map"..WHITE..").  The second is in the purple part of Maraudon but before you enter the dungeon ("..YELLOW.."[B] on Entrance Map"..WHITE..").  The third is in the orange part before you enter the instance ("..YELLOW.."[C] on Entrance Map"..WHITE..").  The fourth is near "..YELLOW.."[4]"..WHITE.." and the fifth is near  "..YELLOW.."[1]"..WHITE.."."
 Inst21Quest4_Prequest = "None"
 Inst21Quest4_Folgequest = "None"
 --
 Inst21Quest4name1 = "Mark of the Chosen"
+Inst21Quest4name2 = "Amulet of Spirits"
 
 --Quest 5 Alliance
 Inst21Quest5 = "5. Legends of Maraudon"
@@ -3788,7 +3769,7 @@ Inst21Quest6name1 = "Scepter of Celebras"
 --Quest 7 Alliance
 Inst21Quest7 = "7. Corruption of Earth and Seed"
 Inst21Quest7_Aim = "Slay Princess Theradras and return to Keeper Marandis at Nijel's Point in Desolace."
-Inst21Quest7_Location = "Keeper Marandis (Desolace - Nijel's Point; "..YELLOW.."63,10"..WHITE..")"
+Inst21Quest7_Location = "Keeper Marandis (Desolace - Nijel's Point; "..YELLOW.."63.8, 10.6"..WHITE..")"
 Inst21Quest7_Note = "You find Princess Theradras at "..YELLOW.."[11]"..WHITE.."."
 Inst21Quest7_Prequest = "None"
 Inst21Quest7_Folgequest = "Seed of Life"
@@ -3801,7 +3782,7 @@ Inst21Quest7name3 = "Verdant Keeper's Aim"
 Inst21Quest8 = "8. Seed of Life"
 Inst21Quest8_Aim = "Seek out Remulos in Moonglade and give him the Seed of Life."
 Inst21Quest8_Location = "Zaetar's Spirit (Maraudon; "..YELLOW.."[11]"..WHITE..")"
-Inst21Quest8_Note = "Zaetars Ghost appears after killing Princess Theradras "..YELLOW.."[11]"..WHITE..". You find Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36,41"..WHITE..")."
+Inst21Quest8_Note = "Zaetars Ghost appears after killing Princess Theradras "..YELLOW.."[11]"..WHITE..". You find Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36.2, 41.8"..WHITE..")."
 Inst21Quest8_Prequest = "Corruption of Earth and Seed"
 Inst21Quest8_Folgequest = "None"
 -- No Rewards for this quest
@@ -3810,7 +3791,7 @@ Inst21Quest8_Folgequest = "None"
 --Quest 1 Horde
 Inst21Quest1_HORDE = "1. Shadowshard Fragments"
 Inst21Quest1_HORDE_Aim = "Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar"
-Inst21Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Valley of Spirits; "..YELLOW.."39,86"..WHITE..")"
+Inst21Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Valley of Spirits; "..YELLOW.."39.0, 86.0"..WHITE..")"
 Inst21Quest1_HORDE_Note = "You get the Shadowshard Fragments from 'Shadowshard Rumbler' or 'Shadowshard Smasher' outside the instance on the Purple side."
 Inst21Quest1_HORDE_Prequest = "None"
 Inst21Quest1_HORDE_Folgequest = "None"
@@ -3821,7 +3802,7 @@ Inst21Quest1name2_HORDE = "Prodigious Shadowshard Pendant"
 --Quest 2 Horde
 Inst21Quest2_HORDE = "2. Vyletongue Corruption"
 Inst21Quest2_HORDE_Aim = "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\nHeal 8 plants by killing these Noxxious Scion, then return to Vark Battlescar in Shadowprey Village."
-Inst21Quest2_HORDE_Location = "Vark Battlescar (Desolace - Shadowprey Village; "..YELLOW.."23,70"..WHITE..")"
+Inst21Quest2_HORDE_Location = "Vark Battlescar (Desolace - Shadowprey Village; "..YELLOW.."23.2, 70.2"..WHITE..")"
 Inst21Quest2_HORDE_Note = "You can fill the Vial at any pool outside the instance on the Orange side. The plants are in the orange and purple areas inside the instance."
 Inst21Quest2_HORDE_Prequest = "None"
 Inst21Quest2_HORDE_Folgequest = "None"
@@ -3848,11 +3829,11 @@ Inst21Quest4_HORDE = Inst21Quest4
 Inst21Quest4_HORDE_Aim = Inst21Quest4_Aim
 Inst21Quest4_HORDE_Location = Inst21Quest4_Location
 Inst21Quest4_HORDE_Note = Inst21Quest4_Note
-Inst21Quest4_HORDE_Page = Inst21Quest4_Page
 Inst21Quest4_HORDE_Prequest = Inst21Quest4_Prequest
 Inst21Quest4_HORDE_Folgequest = Inst21Quest4_Folgequest
 --
 Inst21Quest4name1_HORDE = Inst21Quest4name1
+Inst21Quest4name2_HORDE = Inst21Quest4name2
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst21Quest5_HORDE = Inst21Quest5
@@ -3877,7 +3858,7 @@ Inst21Quest6name1_HORDE = Inst21Quest6name1
 --Quest 7 Horde
 Inst21Quest7_HORDE = "7. Corruption of Earth and Seed"
 Inst21Quest7_HORDE_Aim = "Slay Princess Theradras and return to Selendra near Shadowprey Village in Desolace."
-Inst21Quest7_HORDE_Location = "Selendra (Desolace; "..YELLOW.."27,77"..WHITE..")"
+Inst21Quest7_HORDE_Location = "Selendra (Desolace; "..YELLOW.."26.8, 77.6"..WHITE..")"
 Inst21Quest7_HORDE_Note = "You find Princess Theradras at "..YELLOW.."[11]"..WHITE.."."
 Inst21Quest7_HORDE_Prequest = "None"
 Inst21Quest7_HORDE_Folgequest = "Seed of Life"
@@ -3968,7 +3949,7 @@ Inst23QAH = "4 Quests"
 --Quest 1 Alliance
 Inst23Quest1 = "1. A Host of Evil"
 Inst23Quest1_Aim = "Kill 8 Razorfen Battleguard, 8 Razorfen Thornweavers, and 8 Death's Head Cultists and return to Myriam Moonsinger near the entrance to Razorfen Downs."
-Inst23Quest1_Location = "Myriam Moonsinger (The Barrens; "..YELLOW.."49,94"..WHITE..")"
+Inst23Quest1_Location = "Myriam Moonsinger (The Barrens; "..YELLOW.."49.0, 94.8"..WHITE..")"
 Inst23Quest1_Note = "You can find the mobs and the quest giver in the area just before the instance entrance."
 Inst23Quest1_Prequest = "None"
 Inst23Quest1_Folgequest = "None"
@@ -3978,7 +3959,7 @@ Inst23Quest1_Folgequest = "None"
 Inst23Quest2 = "2. Extinguishing the Idol"
 Inst23Quest2_Aim = "Escort Belnistrasz to the Quilboar's idol in Razorfen Downs. Protect Belnistrasz while he performs the ritual to shut down the idol."
 Inst23Quest2_Location = "Belnistrasz (Razorfen Downs; "..YELLOW.."[2]"..WHITE..")"
-Inst23Quest2_Note = "The prequest is just you agreeing to help him. Several mobs spawn and attack Belnistrasz as he attempts to shut down the idol. After completing the quest, you can turn the quest in at the brazier in front of the idol."
+Inst23Quest2_Note = "The prequest is just you agreeing to help him.  Several mobs spawn and attack Belnistrasz as he attempts to shut down the idol.  After completing the quest, you can turn the quest in at the brazier in front of the idol."
 Inst23Quest2_Prequest = "Scourge of the Downs"
 Inst23Quest2_Folgequest = "None"
 --
@@ -3987,7 +3968,7 @@ Inst23Quest2name1 = "Dragonclaw Ring"
 --Quest 3 Alliance
 Inst23Quest3 = "3. Bring the Light"
 Inst23Quest3_Aim = "Archbishop Benedictus wants you to slay Amnennar the Coldbringer in Razorfen Downs."
-Inst23Quest3_Location = "Archbishop Benedictus (Stormwind - Cathedral of Light; "..YELLOW.."50.0, 45.4"..WHITE..")"
+Inst23Quest3_Location = "Archbishop Benedictus (Stormwind - Cathedral of Light; "..YELLOW.."39.6, 27.4"..WHITE..")"
 Inst23Quest3_Note = "Amnennar the Coldbringer is the last boss in Razorfen Downs. You can find him at "..YELLOW.."[6]"..WHITE.."."
 Inst23Quest3_Prequest = "None"
 Inst23Quest3_Folgequest = "None"
@@ -4008,8 +3989,8 @@ Inst23Quest1_HORDE_Folgequest = Inst23Quest1_Folgequest
 --Quest 2 Horde
 Inst23Quest2_HORDE = "2. An Unholy Alliance"
 Inst23Quest2_HORDE_Aim = "Bring Ambassador Malcin's Head to Varimathras in the Undercity."
-Inst23Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56,92"..WHITE..")"
-Inst23Quest2_HORDE_Note = "The preceding quest can be obtained from the last Boss in Razorfen Kraul. You find Malcin outside (The Barrens; "..YELLOW.."48,92"..WHITE..")."
+Inst23Quest2_HORDE_Location = "Varimathras (Undercity - Royal Quarter; "..YELLOW.."56.2, 92.6"..WHITE..")"
+Inst23Quest2_HORDE_Note = "The preceding quest can be obtained from the last Boss in Razorfen Kraul.  You find Malcin outside the dungeon (The Barrens; "..YELLOW.."48.0, 92.4"..WHITE..")."
 Inst23Quest2_HORDE_Prequest = "An Unholy Alliance"
 Inst23Quest2_HORDE_Folgequest = "None"
 --
@@ -4030,8 +4011,8 @@ Inst23Quest3name1_HORDE = Inst23Quest2name1
 --Quest 4 Horde
 Inst23Quest4_HORDE = "4. Bring the End"
 Inst23Quest4_HORDE_Aim = "Andrew Brownell wants you to kill Amnennar the Coldbringer and return his skull."
-Inst23Quest4_HORDE_Location = "Andrew Brownell (Undercity - The Magic Quarter; "..YELLOW.."72,32"..WHITE..")"
-Inst23Quest4_HORDE_Note = "Amnennar the Coldbringer is the last Boss at Razorfen Downs. You can find him at "..YELLOW.."[6]"..WHITE.."."
+Inst23Quest4_HORDE_Location = "Andrew Brownell (Undercity - The Magic Quarter; "..YELLOW.."74.0, 32.8"..WHITE..")"
+Inst23Quest4_HORDE_Note = "Amnennar the Coldbringer is the last Boss at Razorfen Downs.  You can find him at "..YELLOW.."[6]"..WHITE.."."
 Inst23Quest4_HORDE_Prequest = "None"
 Inst23Quest4_HORDE_Folgequest = "None"
 --

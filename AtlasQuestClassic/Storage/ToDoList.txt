@@ -20,7 +20,6 @@ CLEANUP PROGRESS:
 	- Scarlet Monastery: Armory complete.
 	- Scarlet Monastery: Cathedral complete.
 	- Scarlet Monastery: Graveyard complete.
-	- Ragefire Chasm complete.
 	- Scholomance complete.
 	- Shadowfang Keep complete.
 	- The Stockade complete.
@@ -29,3 +28,8 @@ CLEANUP PROGRESS:
 	- Uldaman complete.
 	- Blackfathom Deeps complete.
 	- Dire Maul East complete.
+	- Dire Maul North complete.
+	- Dire Maul West complete.
+	- Maraudon complete.
+	- Ragefire Chasm complete.
+	- Razorfen Downs complete.

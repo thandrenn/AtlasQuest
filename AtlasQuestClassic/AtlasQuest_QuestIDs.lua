@@ -1482,7 +1482,7 @@ Inst19Quest4_Attain = "56"
 
 Inst19Quest5_QuestID = "5528"
 Inst19Quest5_Level = "60"
-Inst19Quest5_Attain = "60"
+Inst19Quest5_Attain = "56"
 
 
 Inst19Quest1_HORDE_QuestID = "1193"
@@ -1551,33 +1551,29 @@ Inst20Quest10_QuestID = "7498"
 Inst20Quest10_Level = "60"
 Inst20Quest10_Attain = "54"
 
-Inst20Quest11_QuestID = "7505"
+Inst20Quest11_QuestID = "7502"
 Inst20Quest11_Level = "60"
 Inst20Quest11_Attain = "54"
 
-Inst20Quest12_QuestID = "7502"
+Inst20Quest12_QuestID = "7499"
 Inst20Quest12_Level = "60"
 Inst20Quest12_Attain = "54"
 
-Inst20Quest13_QuestID = "7499"
+Inst20Quest13_QuestID = "7484"
 Inst20Quest13_Level = "60"
 Inst20Quest13_Attain = "54"
 
-Inst20Quest14_QuestID = "7484"
+Inst20Quest14_QuestID = "7485"
 Inst20Quest14_Level = "60"
 Inst20Quest14_Attain = "54"
 
-Inst20Quest15_QuestID = "7485"
+Inst20Quest15_QuestID = "7483"
 Inst20Quest15_Level = "60"
 Inst20Quest15_Attain = "54"
 
-Inst20Quest16_QuestID = "7483"
+Inst20Quest16_QuestID = "7507"
 Inst20Quest16_Level = "60"
-Inst20Quest16_Attain = "54"
-
-Inst20Quest17_QuestID = "7507"
-Inst20Quest17_Level = "60"
-Inst20Quest17_Attain = "60"
+Inst20Quest16_Attain = "60"
 
 
 
@@ -1611,9 +1607,9 @@ Inst20Quest7_HORDE_QuestID = "7500"
 Inst20Quest7_HORDE_Level = Inst20Quest7_Level
 Inst20Quest7_HORDE_Attain = Inst20Quest7_Attain
 
-Inst20Quest8_HORDE_QuestID = "7501"
-Inst20Quest8_HORDE_Level = Inst20Quest8_Level
-Inst20Quest8_HORDE_Attain = Inst20Quest8_Attain
+Inst20Quest8_HORDE_QuestID = "7505"
+Inst20Quest8_HORDE_Level = "60"
+Inst20Quest8_HORDE_Attain = "54"
 
 Inst20Quest9_HORDE_QuestID = "7504"
 Inst20Quest9_HORDE_Level = Inst20Quest9_Level
@@ -1623,33 +1619,29 @@ Inst20Quest10_HORDE_QuestID = "7498"
 Inst20Quest10_HORDE_Level = Inst20Quest10_Level
 Inst20Quest10_HORDE_Attain = Inst20Quest10_Attain
 
-Inst20Quest11_HORDE_QuestID = "7505"
+Inst20Quest11_HORDE_QuestID = "7502"
 Inst20Quest11_HORDE_Level = Inst20Quest11_Level
 Inst20Quest11_HORDE_Attain = Inst20Quest11_Attain
 
-Inst20Quest12_HORDE_QuestID = "7502"
+Inst20Quest12_HORDE_QuestID = "7499"
 Inst20Quest12_HORDE_Level = Inst20Quest12_Level
 Inst20Quest12_HORDE_Attain = Inst20Quest12_Attain
 
-Inst20Quest13_HORDE_QuestID = "7499"
+Inst20Quest13_HORDE_QuestID = "7484"
 Inst20Quest13_HORDE_Level = Inst20Quest13_Level
 Inst20Quest13_HORDE_Attain = Inst20Quest13_Attain
 
-Inst20Quest14_HORDE_QuestID = "7484"
+Inst20Quest14_HORDE_QuestID = "7485"
 Inst20Quest14_HORDE_Level = Inst20Quest14_Level
 Inst20Quest14_HORDE_Attain = Inst20Quest14_Attain
 
-Inst20Quest15_HORDE_QuestID = "7485"
+Inst20Quest15_HORDE_QuestID = "7483"
 Inst20Quest15_HORDE_Level = Inst20Quest15_Level
 Inst20Quest15_HORDE_Attain = Inst20Quest15_Attain
 
-Inst20Quest16_HORDE_QuestID = "7483"
+Inst20Quest16_HORDE_QuestID = "7507"
 Inst20Quest16_HORDE_Level = Inst20Quest16_Level
 Inst20Quest16_HORDE_Attain = Inst20Quest16_Attain
-
-Inst20Quest17_HORDE_QuestID = "7507"
-Inst20Quest17_HORDE_Level = Inst20Quest17_Level
-Inst20Quest17_HORDE_Attain = Inst20Quest17_Attain
 
 
 
@@ -1713,6 +1705,7 @@ Inst21Quest5_HORDE_Attain = Inst21Quest5_Attain
 Inst21Quest6_HORDE_QuestID = "7046"
 Inst21Quest6_HORDE_Level = Inst21Quest6_Level
 Inst21Quest6_HORDE_Attain = Inst21Quest6_Attain
+Inst21Quest6FQuest_HORDE = Inst21Quest6FQuest
 
 Inst21Quest7_HORDE_QuestID = "7064"
 Inst21Quest7_HORDE_Level = "51"
@@ -1762,8 +1755,8 @@ Inst23Quest2_Attain = "32"
 Inst23Quest2PreQuest = "true"
 
 Inst23Quest3_QuestID = "3636"
-Inst23Quest3_Level = "37"
-Inst23Quest3_Attain = "32"
+Inst23Quest3_Level = "42"
+Inst23Quest3_Attain = "39"
 
 
 Inst23Quest1_HORDE_QuestID = "6626"
