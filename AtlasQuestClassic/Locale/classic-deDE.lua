@@ -167,7 +167,7 @@ Inst1Quest6name3 = "Gruftdämonen-Armschienen"
 Inst1Quest6name4 = "Wackere Umklammerung"
 
 --Quest 7 Alliance
-Inst1Quest7 = "7. Das 'Herz des Berges'"
+Inst1Quest7 = "7. Das Herz des Berges"
 Inst1Quest7_Aim = "Bringt das 'Herz des Berges' zu Maxwort Uberglint in der brennenden Steppe."
 Inst1Quest7_Location = "Maxwort Uberglint (Brennende Steppe - Flammenkamm; "..YELLOW.."65.2, 23.8"..WHITE..")"
 Inst1Quest7_Note = "Du kannst das Herz des Berges bei "..YELLOW.."[8]"..WHITE.." in einer Truhe finden.  Um den Schlüssel zu diesem Tresor zu erhalten, musst Du erst die anderen kleineren Tresore mit dem Relikttruhenschlüsseln öffnen, die in der gesamten Dungeon verteilt sind.  Wenn alle kleinen Truhen geöffnet sind, erscheint Wachmann Stahlgriff und seine Freunde.  Besiege diese um den Schlüssel zu bekommen."
@@ -1586,7 +1586,7 @@ Inst10Quest1name3_HORDE = "Grimmstahlcape"
 Inst10Quest2_HORDE = "2. Herzen des Eifers"
 Inst10Quest2_HORDE_Aim = Inst7Quest1_HORDE_Aim
 Inst10Quest2_HORDE_Location = Inst7Quest1_HORDE_Location
-Inst10Quest2_HORDE_Note = Inst7Quest2_HORDE_Note"
+Inst10Quest2_HORDE_Note = Inst7Quest2_HORDE_Note
 Inst10Quest2_HORDE_Prequest = Inst7Quest1_HORDE_Prequest
 Inst10Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -1662,7 +1662,7 @@ Inst11Quest6name4 = "Froststachel"
 
 --Quest 7 Alliance
 Inst11Quest7 = "7. Das Familienvermögen der Barovs"
-Inst11Quest7_Aim = Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Weldon Barov zurück, sobald die Aufgabe erledigt ist."
+Inst11Quest7_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Weldon Barov zurück, sobald die Aufgabe erledigt ist."
 Inst11Quest7_Location = "Weldon Barov (Westliche Pestländer - Chillwind Lager; "..YELLOW.."43,83"..WHITE..")"
 Inst11Quest7_Note = "Du findest die Besitzurkunde für Caer Darrow bei "..YELLOW.."[12]"..WHITE..", Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und Besitzurkunde für Southshore bei "..YELLOW.."[1]"..WHITE..".\nDie Belohnung erhälst Du in der Folgeuest."
 Inst11Quest7_Prequest = "Nein"
@@ -2345,9 +2345,9 @@ Inst14Quest17name1_HORDE = Inst14Quest17name1
 
 --Quest 18 Horde
 Inst14Quest18_HORDE = "18. Ramstein"
-Inst14Quest18_HORDE_Aim = Reist nach Stratholme und tötet Ramstein den Würger. Bringt seinen Kopf als Souvenir zu Nathanos."
+Inst14Quest18_HORDE_Aim = "Reist nach Stratholme und tötet Ramstein den Würger. Bringt seinen Kopf als Souvenir zu Nathanos."
 Inst14Quest18_HORDE_Location = "Nathanos Blightcaller (Östliche Pestländer; "..YELLOW.."22.8, 68.0"..WHITE..")"
-Inst14Quest18_HORDE_Note = "You get the prequest from Nathanos Blightcaller, too. You can find Ramstein at "..YELLOW.."[18]"..WHITE.."."
+Inst14Quest18_HORDE_Note = "Du bekommst die Vorquest ebenfalls von Nathanos Blightcaller. Du findest Ramstein bei "..YELLOW.."[18]"..WHITE.."."
 Inst14Quest18_HORDE_Prequest = "Das Ersuchen des Waldläuferlords -> Dämmerschwinge, oh, wie ich Euch hasse..."
 Inst14Quest18_HORDE_Folgequest = "Nein"
 --
@@ -2393,7 +2393,7 @@ Inst15Quest2_Folgequest = "Der runde Stein"
 
 --Quest 3 Alliance
 Inst15Quest3 = "3. In die Tiefen"
-Inst15Quest3_Aim = Sucht den Altar von Hakkar im Versunkenen Tempel in den Sümpfen des Elends."
+Inst15Quest3_Aim = "Sucht den Altar von Hakkar im Versunkenen Tempel in den Sümpfen des Elends."
 Inst15Quest3_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
 Inst15Quest3_Note = "Der Altar ist bei "..YELLOW.."[1]"..WHITE.."."
 Inst15Quest3_Prequest = "Der runde Stein"
@@ -2566,7 +2566,7 @@ Inst15Quest2_HORDE_Aim = Inst15Quest2_Aim
 Inst15Quest2_HORDE_Location = "Hexendoktor Uzer'i (Feralas; "..YELLOW.."74,43"..WHITE..")"
 Inst15Quest2_HORDE_Note = Inst15Quest2_Note
 Inst15Quest2_HORDE_Prequest = "Nein"
-Inst15Quest2_HORDE_Folgequest = ""Der runde Stein""
+Inst15Quest2_HORDE_Folgequest = "Der runde Stein"
 
 --Quest 3 Horde
 Inst15Quest3_HORDE = Inst15Quest3
@@ -4802,7 +4802,7 @@ Inst31Quest1_Aim = "Bringt Caelastrasz im Tempel von Ahn'Qiraj das Auge von C'Th
 Inst31Quest1_Location = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..WHITE..")"
 Inst31Quest1_Note = "Caelestrasz (Tempel von Ahn'Qiraj; "..YELLOW.."2'"..WHITE..")"
 Inst31Quest1_Prequest = "Nein"
-Inst31Quest1_Folgequest = "Der Retter von Kalimdor
+Inst31Quest1_Folgequest = "Der Retter von Kalimdor"
 Inst31Quest2FQuest = "true"
 -- No Rewards for this quest
 
