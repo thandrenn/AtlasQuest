@@ -1530,7 +1530,7 @@ Inst9QAH = "2 Quests"
 Inst9Quest1 = "1. Im Namen des Lichts"
 Inst9Quest1_Aim = Inst7Quest3_Aim
 Inst9Quest1_Location = Inst7Quest3_Location
-Inst9Quest1_Note = Inst7Quest9_Note
+Inst9Quest1_Note = Inst7Quest3_Note
 Inst9Quest1_Prequest = Inst7Quest3_Prequest
 Inst9Quest1_Folgequest = "Nein"
 --
@@ -1648,7 +1648,7 @@ Inst11Quest5name2 = "Penelopes Rose"
 Inst11Quest5name3 = "Mirahs Lied"
 
 --Quest 6 Alliance
-Inst11Quest6 = "6. The Lich, Ras Frostwhisper"
+Inst11Quest6 = "6. Der Lich Ras Frostraunen"
 Inst11Quest6_Aim = "Sucht Ras Frostraunen in der Scholomance. Wenn Ihr ihn gefunden habt, wendet das seelengebundene Andenken auf sein untotes Antlitz an. Solltet Ihr ihn erfolgreich in einen Sterblichen zurückverwandeln können, dann schlagt ihn nieder und nehmt den menschlichen Kopf von Ras Frostraunen an Euch. Bringt den Kopf zu Magistrat Marduke."
 Inst11Quest6_Location = "Magistrate Marduke (Westliche Pestländer - Caer Darrow; "..YELLOW.."70,73"..WHITE..")"
 Inst11Quest6_Note = "Du findest Ras Frostwhisper bei "..YELLOW.."[7]"..WHITE.."."
@@ -1849,7 +1849,7 @@ Inst12QAH = "4 Quests"
 Inst12Quest1 = "1. Die Prüfung der Rechtschaffenheit (Paladin)"
 Inst12Quest1_Aim = Inst5Quest6_Aim
 Inst12Quest1_Location = Inst5Quest6_Location
-Inst12Quest1_Note = Inst15uest6_Note
+Inst12Quest1_Note = Inst5Quest6_Note
 Inst12Quest1_Page = Inst5Quest6_Page
 Inst12Quest1_Prequest = Inst5Quest6_Prequest
 Inst12Quest1_Folgequest = Inst5Quest6_Folgequest
@@ -1860,7 +1860,7 @@ Inst12Quest1name1 = "Verigans Faust"
 Inst12Quest2 = "2. Die Kugel von Soran'ruk Hexenmeister)"
 Inst12Quest2_Aim = "Sucht 3 Soran'ruk-Fragmente und 1 großes Soran'ruk-Fragment und bringt sie zu Doan Karhan im Brachland."
 Inst12Quest2_Location = "Doan Karhan (Brachland; "..YELLOW.."49,57"..WHITE..")"
-Inst12Quest2_Note = "Nur Hexenmeister bekommen diese Quest! Du bekommst die 3 Soran'ruk-Fragmente von den Twilight Akolyten in "..YELLOW.."[Tiefschwarze Grotte]"..WHITE..". Du bekommst das großes Soran'ruk-Fragment in "..YELLOW.."[Burg Shadowfang]"..WHITE.." von Shadowfang-Dunkelseele."
+Inst12Quest2_Note = "Nur Hexenmeister bekommen diese Quest! Du bekommst die 3 Soran'ruk-Fragmente von den Twilight Akolyten in "..YELLOW.."[Blackfathom-Tiefe]"..WHITE..". Du bekommst das großes Soran'ruk-Fragment in "..YELLOW.."[Burg Shadowfang]"..WHITE.." von Shadowfang-Dunkelseele."
 Inst12Quest2_Prequest = "Nein"
 Inst12Quest2_Folgequest = "Nein"
 --
