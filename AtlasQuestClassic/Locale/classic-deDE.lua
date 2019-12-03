@@ -2733,279 +2733,279 @@ Inst16QAA = "17 Quests"
 Inst16QAH = "11 Quests"
 
 --Quest 1 Alliance
-Inst16Quest1 = "1. A Sign of Hope"
-Inst16Quest1_Aim = "Find Hammertoe Grez in Uldaman."
-Inst16Quest1_Location = "Prospector Ryedol (Ödland; "..YELLOW.."53,43"..WHITE..")"
-Inst16Quest1_Note = "The Prequest starts at the Crumpled Map (Ödland; "..YELLOW.."53,33"..WHITE..").\nYou find Hammertoe Grez before you enter the instance, at "..YELLOW.."[1]"..WHITE.." auf der Eingangskarte."
-Inst16Quest1_Prequest = "A Sign of Hope"
-Inst16Quest1_Folgequest = "Amulet of Secrets"
+Inst16Quest1 = "1. Ein Hoffnungsschimmer"
+Inst16Quest1_Aim = "Sucht in Uldaman nach Hammertoe Grez."
+Inst16Quest1_Location = "Ausgrabungsleiter Ryedol (Ödland; "..YELLOW.."53,43"..WHITE..")"
+Inst16Quest1_Note = "Die Vorquest startet mit der zerknittere Karte (Ödland; "..YELLOW.."53,33"..WHITE..").\nDu findest Hammertoe Grez bevor Du die Instanze betretets bei "..YELLOW.."[1]"..WHITE.." auf der Eingangskarte."
+Inst16Quest1_Prequest = "Ein Hoffnungsschimmer"
+Inst16Quest1_Folgequest = "Amulett der Geheimnisse"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst16Quest2 = "2. Amulet of Secrets"
-Inst16Quest2_Aim = "Find Hammertoe's Amulet and return it to him in Uldaman."
+Inst16Quest2 = "2. Amulett der Geheimnisse"
+Inst16Quest2_Aim = "Sucht Hammertoes Amulett und bringt es ihm nach Uldaman."
 Inst16Quest2_Location = "Hammertoe Grez (Uldaman; "..YELLOW.."[1] auf der Eingangskarte"..WHITE..")."
-Inst16Quest2_Note = "The Amulet drops from Magregan Deepshadow at "..YELLOW.."[2] auf der Eingangskarte"..WHITE.."."
-Inst16Quest2_Prequest = "A Sign of Hope"
-Inst16Quest2_Folgequest = "Prospect of Faith"
+Inst16Quest2_Note = "Das Amulett droppt von Magregan Deepshadow bei "..YELLOW.."[2] auf der Eingangskarte"..WHITE.."."
+Inst16Quest2_Prequest = Inst16Quest1_Prequest
+Inst16Quest2_Folgequest = "Ein Funken Hoffnung"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst16Quest3 = "3. The Lost Tablets of Will"
-Inst16Quest3_Aim = "Find the Tablet of Will, and return them to Advisor Belgrum in Ironforge."
-Inst16Quest3_Location = "Advisor Belgrum (Ironforge - Hall of Explorers; "..YELLOW.."77,10"..WHITE..")"
-Inst16Quest3_Note = "The tablet ist bei "..YELLOW.."[8]"..WHITE.."."
-Inst16Quest3_Prequest = "Amulet of Secrets -> An Ambassador of Evil"
+Inst16Quest3 = "3. Die verlorene Tafel des Willens"
+Inst16Quest3_Aim = "Sucht die Tafel des Willens und bringt sie zu Berater Belgrum in Ironforge."
+Inst16Quest3_Location = "Berater Belgrum (Ironforge - Hallr der Forscher; "..YELLOW.."77,10"..WHITE..")"
+Inst16Quest3_Note = "Die Tafel ist bei "..YELLOW.."[8]"..WHITE.."."
+Inst16Quest3_Prequest = "Amulett der Geheimnisse -> Ein Botschafter des Bösen"
 Inst16Quest3_Folgequest = "Nein"
 --
-Inst16Quest3name1 = "Medal of Courage"
+Inst16Quest3name1 = "Medaille des Mutes"
 
 --Quest 4 Alliance
-Inst16Quest4 = "4. Power Stones"
-Inst16Quest4_Aim = "Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Ödland."
+Inst16Quest4 = "4. Kraftsteine"
+Inst16Quest4_Aim = "Bringt Rigglefuzz im Ödland 8 Kraftsteine aus Dentrium und 8 Kraftsteine aus An'Alleum.."
 Inst16Quest4_Location = "Rigglefuzz (Ödland; "..YELLOW.."42,52"..WHITE..")"
-Inst16Quest4_Note = "The stones can be found on any Shadowforge enemies before and in the instance."
+Inst16Quest4_Note = "Die Steine können bei allen Gegnern der Schattenschmiede vor und in der Instanz gefunden werden."
 Inst16Quest4_Prequest = "Nein"
 Inst16Quest4_Folgequest = "Nein"
 --
-Inst16Quest4name1 = "Energized Stone Circle"
-Inst16Quest4name2 = "Duracin Bracers"
-Inst16Quest4name3 = "Everlast Boots"
+Inst16Quest4name1 = "Energiegeladener Steinkreis"
+Inst16Quest4name2 = "Duracin-Armschienen"
+Inst16Quest4name3 = "Ewige Stiefel"
 
 --Quest 5 Alliance
-Inst16Quest5 = "5. Agmond's Fate"
-Inst16Quest5_Aim = "Bring 4 Carved Stone Urns to Prospector Ironband in Loch Modan."
-Inst16Quest5_Location = "Prospector Ironband (Loch Modan - Ironband's Excavation Site; "..YELLOW.."65,65"..WHITE..")"
-Inst16Quest5_Note = "The Prequest starts at Prospector Stormpike (Ironforge - Hall of Explorers; "..YELLOW.."74,12"..WHITE..").\nThe Urns are scattered throughout the caves before the instance."
-Inst16Quest5_Prequest = "Ironband Wants You! -> Murdaloc"
+Inst16Quest5 = "5. Agmonds Schicksal"
+Inst16Quest5_Aim = "Bringt Ausgrabungsleiter Ironband am Loch Modan 4 verzierte Steinurnen."
+Inst16Quest5_Location = "Ausgrabungsleiter Ironband (Loch Modan - Ironbands Ausgrabungsstätte; "..YELLOW.."65,65"..WHITE..")"
+Inst16Quest5_Note = "Die Vorquest startet bei Ausgrabungsleiter Stormpike (Ironforge - Halle der Forscher; "..YELLOW.."74,12"..WHITE..").\nDie Urnen sind in der Höhle vor der Instanz verstreut."
+Inst16Quest5_Prequest = "Ironband sucht Euch! -> Murdaloc"
 Inst16Quest5_Folgequest = "Nein"
 --
-Inst16Quest5name1 = "Prospector Gloves"
+Inst16Quest5name1 = "Ausgrabungsleiter-Handschuhe"
 
 --Quest 6 Alliance
-Inst16Quest6 = "6. Solution to Doom"
-Inst16Quest6_Aim = "Bring the Tablet of Ryun'eh to Theldurin the Lost."
-Inst16Quest6_Location = "Theldurin the Lost (Ödland; "..YELLOW.."51,76"..WHITE..")"
-Inst16Quest6_Note = "The tablet is north of the caves, at the east end of a tunnel, before the instance. auf der Eingangskarte, it's at "..YELLOW.."[3]"..WHITE.."."
+Inst16Quest6 = "6. Lösung der Verdammnis"
+Inst16Quest6_Aim = "Bringt Theldurin dem Verirrten die Schrifttafel von Ryun'eh."
+Inst16Quest6_Location = "Theldurin der Verirrte (Ödland; "..YELLOW.."51,76"..WHITE..")"
+Inst16Quest6_Note = "Die Tafeln befinden sich nördlich der Höhle, am östlichen Ende eines Tunnels und vor dem Eingang der Dungeon."
 Inst16Quest6_Prequest = "Nein"
-Inst16Quest6_Folgequest = "To Ironforge for Yagyin's Digest"
+Inst16Quest6_Folgequest = "Auf nach Ironforge zu 'Yagyins Zusammenstellung'"
 --
-Inst16Quest6name1 = "Doomsayer's Robe"
+Inst16Quest6name1 = "Verdammnisverkünder-Robe"
 
 --Quest 7 Alliance
-Inst16Quest7 = "7. The Lost Dwarves"
-Inst16Quest7_Aim = "Find Baelog in Uldaman."
-Inst16Quest7_Location = "Prospector Stormpike (Ironforge - Hall of Explorers; "..YELLOW.."75,12"..WHITE..")"
+Inst16Quest7 = "7. Die verschollenen Zwerge"
+Inst16Quest7_Aim = "Sucht in Uldaman nach Baelog. ."
+Inst16Quest7_Location = "Ausgrabungsleiter Stormpike (Ironforge - Halle der Forscher; "..YELLOW.."75,12"..WHITE..")"
 Inst16Quest7_Note = "Baelog ist bei "..YELLOW.."[1]"..WHITE.."."
 Inst16Quest7_Prequest = "Nein"
-Inst16Quest7_Folgequest = "The Hidden Chamber"
+Inst16Quest7_Folgequest = "Die geheime Kammer"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst16Quest8 = "8. The Hidden Chamber"
-Inst16Quest8_Aim = "Read Baelog's Journal, explore the hidden chamber, then report to Prospector Stormpike."
+Inst16Quest8 = "8. Die geheime Kammer"
+Inst16Quest8_Aim = "Lest Baelogs Tagebuch, erforscht die geheime Kammer und erstattet dann Ausgrabungsleiter Stormpike Bericht."
 Inst16Quest8_Location = "Baelog (Uldaman; "..YELLOW.."[1]"..WHITE..")"
-Inst16Quest8_Note = "The Hidden Chamber ist bei "..YELLOW.."[4]"..WHITE..". To open the Hidden Chamber you need The Shaft of Tsol from Revelosh "..YELLOW.."[3]"..WHITE.." and the Gni'kiv Medallion from Baelog's Chest "..YELLOW.."[1]"..WHITE..". Combine these two items to form Staff of Prehistoria. The Staff is used in the Map Room between "..YELLOW.."[3] and [4]"..WHITE.." to summon Ironaya. After killing her, run inside the room she came from to get quest credit."
-Inst16Quest8_Prequest = "The Lost Dwarves"
+Inst16Quest8_Note = "Die geheime Kammer ist bei "..YELLOW.."[4]"..WHITE..". Um die geheime Kammer zu öffnen brauchst Du den Stab von Tsol von Revelosh "..YELLOW.."[3]"..WHITE.." und das Gni'kiv Medaillon von der Brust Baelog "..YELLOW.."[1]"..WHITE..". Kombiniere diese beiden Gegenstände, um den Stab der Prähistorie zu bilden. Der Stab wird im Kartenraum eingesetzt zwischen "..YELLOW.."[3] und [4]"..WHITE.." um Ironaya zu beschwören. Nachdem du sie getötet hast, laufe in den Raum, aus dem sie kam, um die Questbelohnung zu erhalten."
+Inst16Quest8_Prequest = "Die verschollenen Zwerge"
 Inst16Quest8_Folgequest = "Nein"
 --
-Inst16Quest8name1 = "Dwarven Charge"
-Inst16Quest8name2 = "Explorer's League Lodestar"
+Inst16Quest8name1 = "Zwergenstürmer"
+Inst16Quest8name2 = "Forscherliga-Erzaderstern"
 
 --Quest 9 Alliance
-Inst16Quest9 = "9. The Shattered Necklace"
-Inst16Quest9_Aim = "Search for the original creator of the shattered necklace to learn of its potential value."
-Inst16Quest9_Location = "Shattered Necklace (random drop from Uldaman)"
-Inst16Quest9_Note = "Bring the necklace to Talvash del Kissel (Ironforge - The Mystikerviertel; "..YELLOW.."36,3"..WHITE..")."
+Inst16Quest9 = "9. Die zerrissene Halskette"
+Inst16Quest9_Aim = "Sucht nach dem Erschaffer der zerrissenen Halskette, um etwas über ihren möglichen Wert zu erfahren."
+Inst16Quest9_Location = "Zerissene Halskette (zufälliger Drop aus Uldaman)"
+Inst16Quest9_Note = "Bring die zerissene Halskette zu Talvash del Kissel (Ironforge - Mystikerviertel; "..YELLOW.."36,3"..WHITE..")."
 Inst16Quest9_Prequest = "Nein"
-Inst16Quest9_Folgequest = "Lore for a Price"
+Inst16Quest9_Folgequest = "Lehren haben ihren Preis"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst16Quest10 = "10. Back to Uldaman"
-Inst16Quest10_Aim = "Search for clues as to the current disposition of Talvash's necklace within Uldaman. The slain paladin he mentioned was the person who has it last."
-Inst16Quest10_Location = "Talvash del Kissel (Ironforge - The Mystikerviertel; "..YELLOW.."36,3"..WHITE..")"
-Inst16Quest10_Note = "The Paladin ist bei "..YELLOW.."[2]"..WHITE.."."
-Inst16Quest10_Prequest = "Lore for a Price"
-Inst16Quest10_Folgequest = "Find the Gems"
+Inst16Quest10 = "10. Rückkehr nach Uldaman"
+Inst16Quest10_Aim = "Sucht in Uldaman nach Hinweisen auf den momentanen Zustand von Talvashs Halskette. Der getötete Paladin, den Talvash erwähnte, hatte die Kette zuletzt."
+Inst16Quest10_Location = "Talvash del Kissel (Ironforge - Mystikerviertel; "..YELLOW.."36,3"..WHITE..")"
+Inst16Quest10_Note = "Der Paladin ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst16Quest10_Prequest = "Lehren haben ihren Preis"
+Inst16Quest10_Folgequest = "Suche nach den Edelsteinen"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst16Quest11 = "11. Find the Gems"
-Inst16Quest11_Aim = "Find the ruby, sapphire, and topaz that are scattered throughout Uldaman. Once acquired, contact Talvash del Kissel remotely by using the Phial of Scrying he previously gave you."
-Inst16Quest11_Location = "Remains of a Paladin (Uldaman; "..YELLOW.."[2]"..WHITE..")"
-Inst16Quest11_Note = "The gems are at "..YELLOW.."[1]"..WHITE.." in a Conspicous Urn, "..YELLOW.."[8]"..WHITE.." from the Shadowforge Cache, and "..YELLOW.."[9]"..WHITE.." off Grimlok. Note that when openning the Shadowforge Cache, a few mobs will spawn an aggro you.\nUse Talvash's Scrying Bowl to turn the quest in and get the followup."
-Inst16Quest11_Prequest = "Back to Uldaman"
-Inst16Quest11_Folgequest = "Restoring the Necklace"
+Inst16Quest11 = "11. Suche nach den Edelsteinen"
+Inst16Quest11_Aim = "Findet den Rubin, den Saphir und den Topas, die in ganz Uldaman verstreut sind. Wenn Ihr sie habt, wendet Euch aus der Ferne an Talvash del Kissel, indem Ihr die Wahrsagephiole nutzt, die er Euch zuvor gegeben hat."
+Inst16Quest11_Location = "Überreste eines Paladins (Uldaman; "..YELLOW.."[2]"..WHITE..")"
+Inst16Quest11_Note = "Die Edelsteine sind bei "..YELLOW.."[1]"..WHITE.." in einer auffälligen Urne., "..YELLOW.."[8]"..WHITE.." von der Schattenschmiede, und "..YELLOW.."[9]"..WHITE.." von Grimlok. Beachte, wenn die Schattenschmiede geöffnet wird, erscheinen einige Gegner die Dich sofort angreifen.\nBenutze Talvashs Wahrsageschale um die Quest zu beenden und die Folgequest zu erhalten."
+Inst16Quest11_Prequest = "Rückkehr nach Uldaman"
+Inst16Quest11_Folgequest = "Restaurierung der Halskette"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst16Quest12 = "12. Restoring the Necklace"
-Inst16Quest12_Aim = "Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge."
-Inst16Quest12_Location = "Talvash's Scrying Bowl"
-Inst16Quest12_Note = "The Shattered Necklace Power Source drops from Archaedas "..YELLOW.."[10]"..WHITE.."."
-Inst16Quest12_Prequest = "Find the Gems."
+Inst16Quest12 = "12. Restaurierung der Halskette"
+Inst16Quest12_Aim = "Besorgt Euch eine Kraftquelle vom mächtigsten Konstrukt, das Ihr in Uldaman finden könnt, und liefert sie bei Talvash del Kissel in Ironforge ab."
+Inst16Quest12_Location = "Talvashs Wahrsagerschale"
+Inst16Quest12_Note = "Die Kraftquelle droppt von Archaedas bei "..YELLOW.."[10]"..WHITE.."."
+Inst16Quest12_Prequest = "Suche nach den Edelsteinen"
 Inst16Quest12_Folgequest = "Nein"
 --
-Inst16Quest12name1 = "Talvash's Enhancing Necklace"
+Inst16Quest12name1 = "Talvashs verstärkende Halskette"
 
 --Quest 13 Alliance
-Inst16Quest13 = "13. Uldaman Reagent Run"
-Inst16Quest13_Aim = "Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar."
+Inst16Quest13 = "13. Reagenzsuche in Uldaman"
+Inst16Quest13_Aim = "Bringt zwölf magenta Funguskappen nach Thelsamar zu Ghak Healtouch."
 Inst16Quest13_Location = "Ghak Healtouch (Loch Modan - Thelsamar; "..YELLOW.."37,49"..WHITE..")"
-Inst16Quest13_Note = "The caps are scattered throughout the instance. Herbalists can see them on their minimap if Track Herbs is on and they have the quest. The prequest is obtained from the same NPC."
-Inst16Quest13_Prequest = "Ödland Reagent Run"
+Inst16Quest13_Note = "Die Kappen sind über die gesamte Instanz verteilt. Kräuterkundige können die Kappen auf der Minimap sehen, wenn die Suche nach Kräutern aktiv ist und die Quest haben.. Die Vorquest ist optional vom selben NPC."
+Inst16Quest13_Prequest = "Reagenzien-Suche im Ödland"
 Inst16Quest13_Folgequest = "Nein"
 --
-Inst16Quest13name1 = "Restorative Potion"
+Inst16Quest13name1 = "Regenerationstrank"
 
 --Quest 14 Alliance
-Inst16Quest14 = "14. Reclaimed Treasures"
-Inst16Quest14_Aim = "Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge."
-Inst16Quest14_Location = "Krom Stoutarm (Ironforge - Hall of Explorers; "..YELLOW.."74,9"..WHITE..")"
-Inst16Quest14_Note = "You find the treasure before you enter the instance. It is in the north of the caves, at the southeast end of the first tunnel. auf der Eingangskarte, it's at "..YELLOW.."[4]"..WHITE.."."
+Inst16Quest14 = "14. Wiederbeschaffte Schätze"
+Inst16Quest14_Aim = "Holt Krom Stoutarms wertvollen Besitz aus seiner Truhe in der nördlichen Bankenhalle von Uldaman und bringt den Schatz zu ihm nach Ironforge."
+Inst16Quest14_Location = "Krom Stoutarm (Ironforge - Halle der Forscher; "..YELLOW.."74,9"..WHITE..")"
+Inst16Quest14_Note = "Du findest die Truhen vor der Instanz. Es befindet sich im Norden der Höhle, am südöstlichen Ende des ersten Tunnels."
 Inst16Quest14_Prequest = "Nein"
 Inst16Quest14_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst16Quest15 = "15. The Platinum Discs"
-Inst16Quest15_Aim = "Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon. -> Take the miniature version of the Discs of Norgannon to the Explorers' League in Ironforge."
-Inst16Quest15_Location = "The Discs of Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst16Quest15_Note = "After you receive the quest, speak to the stone watcher to the left of the discs.  Then use the platinum discs again to recieve miniature discs, which you'll have to take to High Explorer Magellas in Ironforge - Hall of Explorers ("..YELLOW.."69,18"..WHITE.."). The followup starts another NPC who is nearby."
+Inst16Quest15 = "15. Die Platinscheiben"
+Inst16Quest15_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon. -> Nimm die Miniaturversion der Scheiben von Norgannon und bringe dies zu der Forschernliga in Ironforge."
+Inst16Quest15_Location = "Die Scheiben von Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
+Inst16Quest15_Note = "Nachdem du die Quest erhalten hast, sprich mit dem Steinbeobachter links von der Scheibe.  Dann benutze die Platinscheibe wieder, um Miniaturscheibe zu erhalten und bringe diese zu Hochforscher Magellas in Ironforge - Halle der Forscher ("..YELLOW.."69,18"..WHITE.."). Die Folgequest erälst Du von einem NPC in der Nähe."
 Inst16Quest15_Prequest = "Nein"
-Inst16Quest15_Folgequest = "Portents of Uldum"
+Inst16Quest15_Folgequest = "Omen von Uldum"
 --
-Inst16Quest15name1 = "Thawpelt Sack"
-Inst16Quest15name2 = "Superior Healing Potion"
-Inst16Quest15name3 = "Greater Mana Potion"
+Inst16Quest15name1 = "Taupelzsack"
+Inst16Quest15name2 = "Überragender Heiltrank"
+Inst16Quest15name3 = "Großer Manatrank"
 
 --Quest 16 Alliance
-Inst16Quest16 = "16. Power in Uldaman (Mage)"
-Inst16Quest16_Aim = "Retrieve an Obsidian Power Source and bring it to Tabetha in Dustwallow Marsh."
-Inst16Quest16_Location = "Tabetha (Dustwallow Marsh; "..YELLOW.."46,57"..WHITE..")"
-Inst16Quest16_Note = "This quest is only available to Mages!\nThe Obsidian Power Source drops from the Obsidian Sentinel at "..YELLOW.."[5]"..WHITE.."."
-Inst16Quest16_Prequest = "The Exorcism"
-Inst16Quest16_Folgequest = "Mana Surges"
+Inst16Quest16 = "16. Macht in Uldaman (Magier)"
+Inst16Quest16_Aim = "Beschafft Euch eine Obsidiankraftquelle und bringt sie in die Marschen von Dustwallow zu Tabetha."
+Inst16Quest16_Location = "Tabetha (Marschen von Dustwallow; "..YELLOW.."46,57"..WHITE..")"
+Inst16Quest16_Note = "Magierquest!\nDie Obsidiankraftquelle droppt von der Obsidianschildwache bei "..YELLOW.."[5]"..WHITE.."."
+Inst16Quest16_Prequest = "Rückkehr in die Marschen -> Die Austreibung"
+Inst16Quest16_Folgequest = "Manawogen"
 -- No Rewards for this quest
 
 --Quest 17 Alliance
-Inst16Quest17 = "17. Indurium Ore"
-Inst16Quest17_Aim = "Bring 4 Indurium Ore to Pozzik in Thousand Needles."
-Inst16Quest17_Location = "Pozzik (Thousand Needles - Mirage Raceway; "..YELLOW.."80.1, 75.9"..WHITE..")"
-Inst16Quest17_Note = "This is a repeatable quest after the prequests are complete. It gives no reputation or experience, just a small amount of money. Indurium Ore can be mined inside Uldaman or purchased from other players."
-Inst16Quest17_Prequest = "Keeping Pace -> Rizzle's Schematics"
+Inst16Quest17 = "17. Induriumerz"
+Inst16Quest17_Aim = "Bringt 4 Induriumerze zu Pozzik in Tausend Nadeln."
+Inst16Quest17_Location = "Pozzik (Tausend Nadeln - Mirage Raceway; "..YELLOW.."80.1, 75.9"..WHITE..")"
+Inst16Quest17_Note = "Dies ist eine wiederholbare Quest, nachdem die Vorquest erledigt ist. Es gibt keinen Ruf oder Erfahrung, nur einen kleinen Geldbetrag. Induriumerz kann in Uldaman abgebaut oder von anderen Spielern gekauft werden."
+Inst16Quest17_Prequest = "Tempo halten -> Rizzles Baupläne"
 Inst16Quest17_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
 
---Quest 1 Horde  (same as Quest 4 Alliance)
-Inst16Quest1_HORDE = "1. Power Stones"
+--Quest 1 Horde
+Inst16Quest1_HORDE = "1. Kraftsteine"
 Inst16Quest1_HORDE_Aim = Inst16Quest4_Aim
 Inst16Quest1_HORDE_Location = Inst16Quest4_Location
 Inst16Quest1_HORDE_Note = Inst16Quest4_Note
-Inst16Quest1_HORDE_Prequest = Inst16Quest4_Prequest
-Inst16Quest1_HORDE_Folgequest = Inst16Quest4_Folgequest
+Inst16Quest1_HORDE_Prequest = "Nein"
+Inst16Quest1_HORDE_Folgequest = "Nein"
 --
 Inst16Quest1name1_HORDE = Inst16Quest4name1
 Inst16Quest1name2_HORDE = Inst16Quest4name2
-Inst16Quest1name3_HORDE = Inst16Quest4name3
+Inst16Quest1name3_HORDE = "Ewige Stiefel"
 
---Quest 2 Horde  (same as Quest 6 Alliance - different followup)
-Inst16Quest2_HORDE = "2. Solution to Doom"
+--Quest 2 Horde
+Inst16Quest2_HORDE = "2. Lösung der Verdammnis"
 Inst16Quest2_HORDE_Aim = Inst16Quest6_Aim
 Inst16Quest2_HORDE_Location = Inst16Quest6_Location
 Inst16Quest2_HORDE_Note = Inst16Quest6_Note
-Inst16Quest2_HORDE_Prequest = Inst16Quest6_Prequest
-Inst16Quest2_HORDE_Folgequest = "To the Undercity for Yagyin's Digest"
+Inst16Quest2_HORDE_Prequest = "Nein"
+Inst16Quest2_HORDE_Folgequest = "Auf nach Undercity zu 'Yagyins Zusammenstellung'"
 --
 Inst16Quest2name1_HORDE = Inst16Quest6name1
 
 --Quest 3 Horde
-Inst16Quest3_HORDE = "3. Necklace Recovery"
-Inst16Quest3_HORDE_Aim = "Look for a valuable necklace within the Uldaman dig site and bring it back to Dran Droffers in Orgrimmar. The necklace may be damaged."
-Inst16Quest3_HORDE_Location = "Dran Droffers (Orgrimmar - The Drag; "..YELLOW.."59,36"..WHITE..")"
-Inst16Quest3_HORDE_Note = "The necklace is a random drop in the instance."
+Inst16Quest3_HORDE = "3. Wiederbeschaffung der Halskette"
+Inst16Quest3_HORDE_Aim = "Sucht in der Grabungsstätte von Uldaman nach einer wertvollen Halskette und bringt sie nach Orgrimmar zu Dran Droffers. Die Halskette ist vielleicht beschädigt."
+Inst16Quest3_HORDE_Location = "Dran Droffers (Orgrimmar - Die Gasse; "..YELLOW.."59,36"..WHITE..")"
+Inst16Quest3_HORDE_Note = "Die Halskette ist ein zufälliger Drop in der Instanz."
 Inst16Quest3_HORDE_Prequest = "Nein"
-Inst16Quest3_HORDE_Folgequest = "Necklace Recovery, Take 2"
+Inst16Quest3_HORDE_Folgequest = "Wiederbeschaffung der Halskette, Teil 2"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst16Quest4_HORDE = "4. Necklace Recovery, Take 2"
-Inst16Quest4_HORDE_Aim = "Find a clue as to the gems' whereabouts in the depths of Uldaman."
-Inst16Quest4_HORDE_Location = "Dran Droffers (Orgrimmar - The Drag; "..YELLOW.."59,36"..WHITE..")"
-Inst16Quest4_HORDE_Note = "The Paladin ist bei "..YELLOW.."[2]"..WHITE.."."
-Inst16Quest4_HORDE_Prequest = "Necklace Recovery"
-Inst16Quest4_HORDE_Folgequest = "Translating the Journal"
+Inst16Quest4_HORDE = "4. Wiederbeschaffung der Halskette, Teil 2"
+Inst16Quest4_HORDE_Aim = "Sucht in den Tiefen von Uldaman nach einem Hinweis auf den Verbleib der Edelsteine."
+Inst16Quest4_HORDE_Location = "Dran Droffers (Orgrimmar - Die Gasse; "..YELLOW.."59,36"..WHITE..")"
+Inst16Quest4_HORDE_Note = "Der Paladin ist bei "..YELLOW.."[2]"..WHITE.."."
+Inst16Quest4_HORDE_Prequest = "Wiederbeschaffung der Halskette"
+Inst16Quest4_HORDE_Folgequest = "Übersetzung des Tagebuchs"
 -- No Rewards for this quest
 
 --Quest 5 Horde
-Inst16Quest5_HORDE = "5. Translating the Journal"
-Inst16Quest5_HORDE_Aim = "Find someone who can translate the paladin's journal. The closest location that might have someone is Kargath, in the Ödland."
-Inst16Quest5_HORDE_Location = "Remains of a Paladin (Uldaman; "..YELLOW.."[2]"..WHITE..")"
-Inst16Quest5_HORDE_Note = "The translator Jarkal Mossmeld is in Kargath (Ödland; "..YELLOW.."2,46"..WHITE..")."
-Inst16Quest5_HORDE_Prequest = "Necklace Recovery, Take 2"
+Inst16Quest5_HORDE = "5. Übersetzung des Tagebuchs"
+Inst16Quest5_HORDE_Aim = "Sucht jemanden, der das Tagebuch des Paladins übersetzen kann. Der nächstgelegene Ort, wo Ihr so jemanden finden könntet, ist Kargath im Ödland."
+Inst16Quest5_HORDE_Location = Inst16Quest11_Location
+Inst16Quest5_HORDE_Note = "Der Übersetzer Jarkal Mossmeld ist in Kargath (Ödland; "..YELLOW.."2,46"..WHITE..")."
+Inst16Quest5_HORDE_Prequest = Inst16Quest3_HORDE_Folgequest
 Inst16Quest5_HORDE_Folgequest = "Find the Gems and Power Source"
 -- No Rewards for this quest
 
 --Quest 6 Horde
-Inst16Quest6_HORDE = "6. Find the Gems and Power Source"
-Inst16Quest6_HORDE_Aim = "Recover all three gems and a power source for the necklace from Uldaman, and then bring them to Jarkal Mossmeld in Kargath. Jarkal believes a power source might be found on the strongest construct present in Uldaman."
+Inst16Quest6_HORDE = "6. Findet die Edelsteine und die Kraftquelle"
+Inst16Quest6_HORDE_Aim = "Beschafft in Uldaman alle drei Edelsteine sowie eine Kraftquelle für die Halskette und bringt sie anschließend zu Jarkal Mossmeld nach Kargath. Jarkal glaubt, dass sich eine Kraftquelle vielleicht im stärksten Konstrukt in Uldaman findet."
 Inst16Quest6_HORDE_Location = "Jarkal Mossmeld (Ödland - Kargath; "..YELLOW.."2,46"..WHITE..")"
-Inst16Quest6_HORDE_Note = "The gems are at "..YELLOW.."[1]"..WHITE.." in a Conspicous Urn, "..YELLOW.."[8]"..WHITE.." from the Shadowforge Cache, and "..YELLOW.."[9]"..WHITE.." off Grimlok. Note that when openning the Shadowforge Cache, a few mobs will spawn an aggro you. The Shattered Necklace Power Source drops from Archaedas "..YELLOW.."[10]"..WHITE.."."
-Inst16Quest6_HORDE_Prequest = "Translating the Journal"
-Inst16Quest6_HORDE_Folgequest = "Deliver the Gems"
+Inst16Quest6_HORDE_Note = "Die Edelsteine sind bei "..YELLOW.."[1]"..WHITE.." in einer auffälligen Urne., "..YELLOW.."[8]"..WHITE.." von der Schattenschmiede, und "..YELLOW.."[9]"..WHITE.." von Grimlok. Beachte, wenn die Schattenschmiede geöffnet wird, erscheinen einige Gegner die Dich sofort angreifen Die Kraftquelle der zerbrochenen Halskette droppt von Archaedas "..YELLOW.."[10]"..WHITE.."."
+Inst16Quest6_HORDE_Prequest = "Übersetzung des Tagebuchs"
+Inst16Quest6_HORDE_Folgequest = "Ablieferung der Edelsteine"
 --
-Inst16Quest6name1_HORDE = "Jarkal's Enhancing Necklace"
+Inst16Quest6name1_HORDE = "Jarkals intensivierende Halskette"
 
 --Quest 7 Horde
-Inst16Quest7_HORDE = "7. Uldaman Reagent Run"
-Inst16Quest7_HORDE_Aim = "Bring 12 Magenta Fungus Caps to Jarkal Mossmeld in Kargath."
+Inst16Quest7_HORDE = "7. Reagenzsuche in Uldaman"
+Inst16Quest7_HORDE_Aim = "Bringt 12 magenta Funguskappen nach Kargath zu Jarkal Mossmeld."
 Inst16Quest7_HORDE_Location = "Jarkal Mossmeld (Ödland - Kargath; "..YELLOW.."2,69"..WHITE..")"
-Inst16Quest7_HORDE_Note = "You get the Prequest from Jarkal Mossmeld, too.\nThe caps are scattered throughout the instance. Herbalists can see them on their minimap if Track Herbs is on and they have the quest. The prequest is obtained from the same NPC."
-Inst16Quest7_HORDE_Prequest = "Ödland Reagent Run"
-Inst16Quest7_HORDE_Folgequest = "Ödland Reagent Run II"
+Inst16Quest7_HORDE_Note = Inst16Quest13_Note
+Inst16Quest7_HORDE_Prequest = "Reagenzien-Suche im Ödland"
+Inst16Quest7_HORDE_Folgequest = "Reagenzien-Suche im Ödland II"
 --
-Inst16Quest7name1_HORDE = "Restorative Potion"
+Inst16Quest7name1_HORDE = "Regenerationstrank"
 
 --Quest 8 Horde
-Inst16Quest8_HORDE = "8. Reclaimed Treasures"
-Inst16Quest8_HORDE_Aim = "Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity."
+Inst16Quest8_HORDE = "8. Wiederbeschaffte Schätze"
+Inst16Quest8_HORDE_Aim = "Holt Patrick Garretts Familienschatz aus der Truhe der Familie in der südlichen Bankenhalle von Uldaman und bringt diesen zu ihm nach Undercity."
 Inst16Quest8_HORDE_Location = "Patrick Garrett (Undercity; "..YELLOW.."72,48"..WHITE..")"
-Inst16Quest8_HORDE_Note = "You find the treasure before you enter the instance. It ist bei the end of the south tunnel. auf der Eingangskarte, it's at "..YELLOW.."[5]"..WHITE.."."
+Inst16Quest8_HORDE_Note = "Du findest die Truhe bevor Du die Instanz betritts. Es ist am Ende des südlichen Tunnels auf der Eingangskarte "..YELLOW.."[5]"..WHITE.."."
 Inst16Quest8_HORDE_Prequest = "Nein"
 Inst16Quest8_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 9 Horde
-Inst16Quest9_HORDE = "9. The Platinum Discs"
-Inst16Quest9_HORDE_Aim = "Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon. -> Take the miniature version of the Discs of Norgannon to the one of the sages in Thunder Bluff."
-Inst16Quest9_HORDE_Location = "The Discs of Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
-Inst16Quest9_HORDE_Note = "After you receive the quest, speak to the stone watcher to the left of the discs.  Then use the platinum discs again to recieve miniature discs, which you'll have to take to Sage Truthseeker in Thunder Bluff ("..YELLOW.."34,46"..WHITE.."). The followup starts another NPC who is nearby."
+Inst16Quest9_HORDE = "9. Die Platinscheiben"
+Inst16Quest9_HORDE_Aim = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon. -> Nimm die Miniaturversion der Scheiben von Norgannon und bringe dies zu Sage Truthseeker in Thunder Bluff."
+Inst16Quest9_HORDE_Location = Inst16Quest15_Location
+Inst16Quest9_HORDE_Note = "Nachdem du die Quest erhalten hast, sprich mit dem Steinbeobachter links von der Scheibe.  Dann benutze die Platinscheibe wieder, um Miniaturscheibe zu erhalten und bringe diese zu Sage Truthseeker in Thunder Bluff ("..YELLOW.."34,46"..WHITE.."). Die Folgequest erälst Du von einem NPC in der Nähe."
 Inst16Quest9_HORDE_Prequest = "Nein"
 Inst16Quest9_HORDE_Folgequest = "Portents of Uldum"
 --
-Inst16Quest9name1_HORDE = "Thawpelt Sack"
-Inst16Quest9name2_HORDE = "Superior Healing Potion"
-Inst16Quest9name3_HORDE = "Greater Mana Potion"
+Inst16Quest9name1_HORDE = "Taupelzsack"
+Inst16Quest9name2_HORDE = Inst16Quest15name2
+Inst16Quest9name3_HORDE = Inst16Quest15name3
 
---Quest 10 Horde  (same as Quest 4 Alliance)
-Inst16Quest10_HORDE = "10. Power in Uldaman (Mage)"
+--Quest 10 Horde
+Inst16Quest10_HORDE = "10. Macht in Uldaman (Magier)"
 Inst16Quest10_HORDE_Aim = Inst16Quest16_Aim
 Inst16Quest10_HORDE_Location = Inst16Quest16_Location
 Inst16Quest10_HORDE_Note = Inst16Quest16_Note
 Inst16Quest10_HORDE_Prequest = Inst16Quest16_Prequest
-Inst16Quest10_HORDE_Folgequest = Inst16Quest16_Folgequest
+Inst16Quest10_HORDE_Folgequest = "Manawogen"
 -- No Rewards for this quest
 
---Quest 11 Horde  (same as Quest 17 Alliance)
-Inst16Quest11_HORDE = "11. Indurium Ore"
+--Quest 11 Horde
+Inst16Quest11_HORDE = "11. Induriumerz"
 Inst16Quest11_HORDE_Aim = Inst16Quest17_Aim
 Inst16Quest11_HORDE_Location = Inst16Quest17_Location
 Inst16Quest11_HORDE_Note = Inst16Quest17_Note
 Inst16Quest11_HORDE_Prequest = Inst16Quest17_Prequest
-Inst16Quest11_HORDE_Folgequest = Inst16Quest17_Folgequest
+Inst16Quest11_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -3135,7 +3135,7 @@ Inst17Quest5name2_HORDE = Inst17Quest6name2
 
 --------------- INST18 - Düsterbruch East ---------------
 
-Inst18Caption = "Düsterbruch (East)"
+Inst18Caption = "Düsterbruch (Ost)"
 Inst18QAA = "6 Quests"
 Inst18QAH = "6 Quests"
 
@@ -3262,7 +3262,7 @@ Inst18Quest6_HORDE_Folgequest = Inst18Quest6_Folgequest
 
 --------------- INST19 - Düsterbruch North ---------------
 
-Inst19Caption = "Düsterbruch (North)"
+Inst19Caption = "Düsterbruch (Nord)"
 Inst19QAA = "5 Quests"
 Inst19QAH = "5 Quests"
 
