@@ -1377,7 +1377,7 @@ Inst6Quest6name1_HORDE = Inst6Quest11name1
 
 
 
---------------- INST7 - Scarlet Monastery: Library ---------------
+--------------- INST7 - Scarlet Monastery: Bibliothek ---------------
 
 Inst7Caption = "SM: Bibliothek"
 Inst7QAA = "3 Quests"
@@ -3133,105 +3133,105 @@ Inst17Quest5name2_HORDE = Inst17Quest6name2
 
 
 
---------------- INST18 - Düsterbruch East ---------------
+--------------- INST18 - Dire Maul East ---------------
 
 Inst18Caption = "Düsterbruch (Ost)"
 Inst18QAA = "6 Quests"
 Inst18QAH = "6 Quests"
 
 --Quest 1 Alliance
-Inst18Quest1 = "1. Pusillin and the Elder Azj'Tordin"
-Inst18Quest1_Aim = "Travel to Düsterbruch and locate the Imp, Pusillin. Convince Pusillin to give you Azj'Tordin's Book of Incantations through any means necessary.\nReturn to Azj'Tordin at the Lariss Pavilion in Feralas should you recover the Book of Incantations."
+Inst18Quest1 = "1. Pusillin und der Älteste Azj'Tordin"
+Inst18Quest1_Aim = "Reist nach Düsterbruch und macht den Dämonen Pusillin ausfindig. Überzeugt ihn mit allen Mitteln davon, Euch Azj'Tordin's Buch der Zauberformeln zu geben.\nKehrt mit dem Buch zu Az'Tordin, an Lariss' Pavillon in Feralas, zurück."
 Inst18Quest1_Location = "Azj'Tordin (Feralas - Lariss Pavillion; "..YELLOW.."76,37"..WHITE..")"
-Inst18Quest1_Note = "Pusillin is in Düsterbruch "..YELLOW.."East"..WHITE.." at "..YELLOW.."[1]"..WHITE..". He runs when you talk to him, but stops and fights at "..YELLOW.."[2]"..WHITE..". He'll drop the Crescent Key which is used for Düsterbruch North and West."
+Inst18Quest1_Note = "Pusillin ist in Düsterbruch "..YELLOW.."Ost"..WHITE.." at "..YELLOW.."[1]"..WHITE..". Er rennt, wenn du mit ihm redest, aber stoppt und kämpft bei "..YELLOW.."[2]"..WHITE..". Er droppt den Halbmondschlüssel, der für Düsterbruch Nord und West benutzt wird."
 Inst18Quest1_Prequest = "Nein"
 Inst18Quest1_Folgequest = "Nein"
 --
-Inst18Quest1name1 = "Spry Boots"
-Inst18Quest1name2 = "Sprinter's Sword"
+Inst18Quest1name1 = "Flotte Stiefel"
+Inst18Quest1name2 = "Sprinterschwert"
 
 --Quest 2 Alliance
-Inst18Quest2 = "2. Lethtendris's Web"
-Inst18Quest2_Aim = "Bring Lethtendris' Web to Latronicus Moonspear at the Feathermoon Stronghold in Feralas."
-Inst18Quest2_Location = "Latronicus Moonspear (Feralas - Feathermoon Stronghold; "..YELLOW.."30,46"..WHITE..")"
-Inst18Quest2_Note = "Lethtendris is in Düsterbruch "..YELLOW.."East"..WHITE.." at "..YELLOW.."[3]"..WHITE..". The prequest comes from Courier Hammerfall in Ironforge. He roams the entire city."
-Inst18Quest2_Prequest = "Feathermoon Stronghold"
+Inst18Quest2 = "2. Lethtendris' Netz"
+Inst18Quest2_Aim = "Bringt Lethtendris' Netz zu Latronicus Moonspear in der Festung Feathermoon, in Feralas."
+Inst18Quest2_Location = "Latronicus Moonspear (Feralas - Festung Feathermoon; "..YELLOW.."30,46"..WHITE..")"
+Inst18Quest2_Note = "Lethtendris ist in Düsterbruch "..YELLOW.."Ost"..WHITE.." bei "..YELLOW.."[3]"..WHITE..". Die Vorquest stammt vom Kurier Hammerfall in Ironforge. Er durchstreift die ganze Stadt."
+Inst18Quest2_Prequest = "Festung Stronghold"
 Inst18Quest2_Folgequest = "Nein"
 --
-Inst18Quest2name1 = "Lorespinner"
+Inst18Quest2name1 = "Lehrenspinner"
 
 --Quest 3 Alliance
-Inst18Quest3 = "3. Shards of the Felvine"
-Inst18Quest3_Aim = "Find the Felvine in Düsterbruch and acquire a shard from it. Chances are you'll only be able to procure one with the demise of Alzzin the Wildshaper. Use the Reliquary of Purity to securely seal the shard inside, and return it to Rabine Saturna in Nighthaven, Moonglade."
+Inst18Quest3 = "3. Die Splitter der Teufelsranke"
+Inst18Quest3_Aim = "Sucht die Teufelsranke in Düsterbruch und nehmt einen Teufelsrankensplitter mit Euch. Aller Wahrscheinlichkeit nach, werdet Ihr Alzzin den Wildformer töten müssen, um an die Teufelsranke zu gelangen. Benutzt das Requiliar der Reinheit, um darin den Splitter sicher zu versiegeln und bringt das versiegelte Reliquiar zu Rabine Saturna in Nighthaven, Moonglade."
 Inst18Quest3_Location = "Rabine Saturna (Moonglade - Nighthaven; "..YELLOW.."51,44"..WHITE..")"
-Inst18Quest3_Note = "You find Alliz the Wildshaper in the "..YELLOW.."East"..WHITE.." part of Düsterbruch at "..YELLOW.."[5]"..WHITE..". The relict is in Silithius at "..YELLOW.."62,54"..WHITE..". The prequest comes from Rabine Saturna as well."
-Inst18Quest3_Prequest = "A Reliquary of Purity"
+Inst18Quest3_Note = "Du findest Alliz der Wildformer in Düsterbruch"..YELLOW.."Ost"..WHITE.." bei "..YELLOW.."[5]"..WHITE..". Das Relikt ist in Silithius bei "..YELLOW.."62,54"..WHITE..". Die Vorquest stratet ebenfalls beim selben NPC."
+Inst18Quest3_Prequest = "Ein Reliquiar der Reinheit"
 Inst18Quest3_Folgequest = "Nein"
 --
-Inst18Quest3name1 = "Milli's Shield"
-Inst18Quest3name2 = "Milli's Lexicon"
+Inst18Quest3name1 = "Millis Schild"
+Inst18Quest3name2 = "Millis Lexikon"
 
 --Quest 4 Alliance
-Inst18Quest4 = "4. The Left Piece of Lord Valthalak's Amulet"
-Inst18Quest4_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst18Quest4_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst18Quest4_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
-Inst18Quest4_Prequest = "Components of Importance"
-Inst18Quest4_Folgequest = "I See Alcaz Island In Your Future..."
+Inst18Quest4 = "4. Das linke Stück von Lord Valthalaks Amulett"
+Inst18Quest4_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Isalien zu beschwören und zu vernichten. Kehrt dann mit dem linken Stück von Lord Valthalaks Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst18Quest4_Location = Inst11Quest10_Location
+Inst18Quest4_Note = "Ein extradimensionalen  Geisterdetektor wird benötigt um Bodley zu sehen. Du bekommst diese aus der Quest'Suche nach Anthion'\n\nIsalien erscheint bei "..YELLOW.."[5]"..WHITE.."."
+Inst18Quest4_Prequest = Inst11Quest10_Prequest
+Inst18Quest4_Folgequest = Inst11Quest10_Folgequest
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst18Quest5 = "5. The Right Piece of Lord Valthalak's Amulet"
-Inst18Quest5_Aim = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
-Inst18Quest5_Location = "Bodley (Blackrock Mountain; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")"
-Inst18Quest5_Note = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE.."."
-Inst18Quest5_Prequest = "More Components of Importance"
-Inst18Quest5_Folgequest = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")"
+Inst18Quest5 = "5. Das rechte Stück von Lord Valthalaks Amulett"
+Inst18Quest5_Aim = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Isalien zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück."
+Inst18Quest5_Location = Inst11Quest10_Location
+Inst18Quest5_Note = Inst18Quest4_Note
+Inst18Quest5_Prequest = Inst11Quest11_Prequest
+Inst18Quest5_Folgequest = Inst11Quest11_Folgequest
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst18Quest6 = "6. The Prison's Bindings (Warlock)"
-Inst18Quest6_Aim = "Travel to Düsterbruch in Feralas and recover 15 Satyr Blood from the Wildspawn Satyr that inhabit the Warpwood Quarter. Return to Daio in the Tainted Scar when this is done."
-Inst18Quest6_Location = "Daio the Decrepit (Blasted Lands - The Tainted Scar; "..YELLOW.."34,50"..WHITE..")"
-Inst18Quest6_Note = "This along with another quest given by Daio the Decrepit are Warlock only quests for the Ritual of Doom spell. The easiest way to get to the Wildspawn Satyr is to enter Düsterbruch East through the 'back door' at the Lariss Pavilion (Feralas; "..YELLOW.."77,37"..WHITE.."). You'll need the Crescent Key, however."
+Inst18Quest6 = "6. Das Fundament des Gefängnisses (Hexenmeister)"
+Inst18Quest6_Aim = "Reist nach Düsterbruch in Feralas und holt Euch das Blut von 15 Satyrn der Wildhufe, die im Wucherborkenviertel ansässig sind. Kehrt anschließend zu Daio in der faulenden Narbe zurück."
+Inst18Quest6_Location = "Daio der Klapprige (Verwüstete Lande - Die faulennde Narbe; "..YELLOW.."34,50"..WHITE..")"
+Inst18Quest6_Note = "Dies zusammen mit einer weiteren Quest, die von Daio dem Verfall gegeben wird, sind nur Questen für Hexenmeistern für den Zauber: Ritual des Schicksals. Der einfachste Weg zu den Satyrn der Wildhufe ist der Einstieg in Düsterbruch Ost durch die 'Hintertür' im Lariss Pavillon. (Feralas; "..YELLOW.."77,37"..WHITE.."). Du benötigst jedoch den Halbmondschlüssel."
 Inst18Quest6_Prequest = "Nein"
 Inst18Quest6_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst18Quest1_HORDE = Inst18Quest1
 Inst18Quest1_HORDE_Aim = Inst18Quest1_Aim
 Inst18Quest1_HORDE_Location = Inst18Quest1_Location
 Inst18Quest1_HORDE_Note = Inst18Quest1_Note
-Inst18Quest1_HORDE_Prequest = Inst18Quest1_Prequest
-Inst18Quest1_HORDE_Folgequest = Inst18Quest1_Folgequest
+Inst18Quest1_HORDE_Prequest = "Nein"
+Inst18Quest1_HORDE_Folgequest = "Nein"
 --
-Inst18Quest1name1_HORDE = Inst18Quest1name1
-Inst18Quest1name2_HORDE = Inst18Quest1name2
+Inst18Quest1name1_HORDE = "Flotte Stiefel"
+Inst18Quest1name2_HORDE = "Sprinterschwert"
 
 --Quest 2 Horde
-Inst18Quest2_HORDE = "2. Lethtendris's Web"
-Inst18Quest2_HORDE_Aim = "Bring Lethtendris's Web to Talo Thornhoof at Camp Mojache in Feralas."
+Inst18Quest2_HORDE = Inst18Quest2
+Inst18Quest2_HORDE_Aim = "Bringt Lethtendris' Netz zu Talo Thornhoof im Camp Mojache in Feralas."
 Inst18Quest2_HORDE_Location = "Talo Thornhoof (Feralas - Camp Mojache; "..YELLOW.."76,43"..WHITE..")"
-Inst18Quest2_HORDE_Note = "Lethtendris is in Düsterbruch "..YELLOW.."East"..WHITE.." at "..YELLOW.."[3]"..WHITE..". The prequest comes from Warcaller Gorlach in Orgrimmar. He roams the entire city."
+Inst18Quest2_HORDE_Note = "Lethtendris ist in Düsterbruch "..YELLOW.."Ost"..WHITE.." bei "..YELLOW.."[3]"..WHITE..". Die Vorquest stammt von Kriegsrufer Gorlach in Orgrimmar. Er durchstreift die ganze Stadt."
 Inst18Quest2_HORDE_Prequest = "Camp Mojache"
 Inst18Quest2_HORDE_Folgequest = "Nein"
 --
-Inst18Quest2name1_HORDE = "Lorespinner"
+Inst18Quest2name1_HORDE = "Lehrenspinner"
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst18Quest3_HORDE = Inst18Quest3
 Inst18Quest3_HORDE_Aim = Inst18Quest3_Aim
 Inst18Quest3_HORDE_Location = Inst18Quest3_Location
 Inst18Quest3_HORDE_Note = Inst18Quest3_Note
 Inst18Quest3_HORDE_Prequest = Inst18Quest3_Prequest
-Inst18Quest3_HORDE_Folgequest = Inst18Quest3_Folgequest
+Inst18Quest3_HORDE_Folgequest = "Nein"
 --
-Inst18Quest3name1_HORDE = Inst18Quest3name1
-Inst18Quest3name2_HORDE = Inst18Quest3name2
+Inst18Quest3name1_HORDE = "Millis Schild"
+Inst18Quest3name2_HORDE = "Millis Lexikon"
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst18Quest4_HORDE = Inst18Quest4
 Inst18Quest4_HORDE_Aim = Inst18Quest4_Aim
 Inst18Quest4_HORDE_Location = Inst18Quest4_Location
@@ -3240,7 +3240,7 @@ Inst18Quest4_HORDE_Prequest = Inst18Quest4_Prequest
 Inst18Quest4_HORDE_Folgequest = Inst18Quest4_Folgequest
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst18Quest5_HORDE = Inst18Quest5
 Inst18Quest5_HORDE_Aim = Inst18Quest5_Aim
 Inst18Quest5_HORDE_Location = Inst18Quest5_Location
@@ -3249,74 +3249,74 @@ Inst18Quest5_HORDE_Prequest = Inst18Quest5_Prequest
 Inst18Quest5_HORDE_Folgequest = Inst18Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst18Quest6_HORDE = Inst18Quest6
 Inst18Quest6_HORDE_Aim = Inst18Quest6_Aim
 Inst18Quest6_HORDE_Location = Inst18Quest6_Location
 Inst18Quest6_HORDE_Note = Inst18Quest6_Note
-Inst18Quest6_HORDE_Prequest = Inst18Quest6_Prequest
-Inst18Quest6_HORDE_Folgequest = Inst18Quest6_Folgequest
+Inst18Quest6_HORDE_Prequest = "Nein"
+Inst18Quest6_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
 
---------------- INST19 - Düsterbruch North ---------------
+--------------- INST19 - Dire Maul North ---------------
 
 Inst19Caption = "Düsterbruch (Nord)"
 Inst19QAA = "5 Quests"
 Inst19QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst19Quest1 = "1. A Broken Trap"
-Inst19Quest1_Aim = "Repair the trap."
-Inst19Quest1_Location = "A Broken Trap (Düsterbruch; "..YELLOW.."North"..WHITE..")"
-Inst19Quest1_Note = "Repeatable quest. To repair the trap you have to use a [Thorium Widget] and a [Frost Oil]."
+Inst19Quest1 = "1. Die beschädigte Falle"
+Inst19Quest1_Aim = "Repariere die Falle."
+Inst19Quest1_Location = "Eine beschädigte Falle (Düsterbruch; "..YELLOW.."Nord"..WHITE..")"
+Inst19Quest1_Note = "Wiederholbare Quest. Um die Falle zu reparieren brauchst ein [Thoriumapparat] und ein [Frostöl]."
 Inst19Quest1_Prequest = "Nein"
 Inst19Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst19Quest2 = "2. The Gordok Ogre Suit"
-Inst19Quest2_Aim = "Bring 4 Bolts of Runecloth, 8 Rugged Leather, 2 Rune Threads, and Ogre Tannin to Knot Thimblejack. He is currently chained inside the Gordok wing of Düsterbruch."
-Inst19Quest2_Location = "Knot Thimblejack (Düsterbruch; "..YELLOW.."North, [4]"..WHITE..")"
-Inst19Quest2_Note = "Repeatable quest. You get the Ogre Tannin near "..YELLOW.."[4] (above)"..WHITE.."."
+Inst19Quest2 = "2. Der Ogeranzug der Gordok"
+Inst19Quest2_Aim = "Bringe 4 Runenstoffballen, 8 Unverwüstliches Leder, 2 Runemfaden, und ein Ogergerbemittel zu Knot Thimblejack. Er ist im Inneren des Gordok-Flügels angekettet."
+Inst19Quest2_Location = "Knot Thimblejack (Düsterbruch; "..YELLOW.."Nord, [4]"..WHITE..")"
+Inst19Quest2_Note = "Wiederholbare Quest. Du bekommst das Ogergerbemittel nähe "..YELLOW.."[4] (oben)"..WHITE.."."
 Inst19Quest2_Prequest = "Nein"
 Inst19Quest2_Folgequest = "Nein"
 --
-Inst19Quest2name1 = "Gordok Ogre Suit"
+Inst19Quest2name1 = "Ogeranzug der Gordok"
 
 --Quest 3 Alliance
-Inst19Quest3 = "3. Free Knot!"
-Inst19Quest3_Aim = "Collect a Gordok Shackle Key for Knot Thimblejack."
-Inst19Quest3_Location = "Knot Thimblejack (Düsterbruch; "..YELLOW.."North, [4]"..WHITE..")"
-Inst19Quest3_Note = "Repeatable quest. Every warden can drop the key."
+Inst19Quest3 = "3. Befreit Knot!"
+Inst19Quest3_Aim = "Sammelt ein Gordokfesselschlüssel für Knot Thimblejack."
+Inst19Quest3_Location = "Knot Thimblejack (Düsterbruch; "..YELLOW.."Nord, [4]"..WHITE..")"
+Inst19Quest3_Note = "Wiederholbare Quest. Jede Wache kann den Schlüssel  droppen."
 Inst19Quest3_Prequest = "Nein"
 Inst19Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst19Quest4 = "4. Unfinished Gordok Business"
-Inst19Quest4_Aim = "Find the Gauntlet of Gordok Might and return it to Captain Kromcrush in Düsterbruch.\nAccording to Kromcrush, the 'old timey story' says that Tortheldrin - a 'creepy' elf who called himself a prince - stole it from one of the Gordok kings."
-Inst19Quest4_Location = "Captain Kromcrush (Düsterbruch; "..YELLOW.."North, [5]"..WHITE..")"
-Inst19Quest4_Note = "Prince is in Düsterbruch "..YELLOW.."West"..WHITE.." at "..YELLOW.."[7]"..WHITE..". The Gauntlet is near him in a chest. You can only get this quest after a Tribute run and have the It's Good to be King! buff."
+Inst19Quest4 = "4. Die offene Rechnung der Gordok"
+Inst19Quest4_Aim = "Findet die Stulpen der Gordokmacht und bringt sie zu Captain Kromcrush in Düsterbruch.\nKromcrush zufolge sagen die "Alte Zeit Geschichten", dass Tortheldrin - ein "gruseliger" Elf, der sich selbst als Prinz bezeichnet- sie einem der Gordokkönige gestohlen hat."
+Inst19Quest4_Location = "Captain Kromcrush (Düsterbruch; "..YELLOW.."Nord, [5]"..WHITE..")"
+Inst19Quest4_Note = "Prinz ist in Düsterbruch "..YELLOW.."West"..WHITE.." bei "..YELLOW.."[7]"..WHITE..". Die Stulpen sind in der Nähe in einer Truhe. Du kannst diese Quest nur machen, nachdem Du den Tributlauf gemacht hast und den Königsbuff der Gordok besitzt."
 Inst19Quest4_Prequest = "Nein"
 Inst19Quest4_Folgequest = "Nein"
 --
-Inst19Quest4name1 = "Gordok's Handwraps"
-Inst19Quest4name2 = "Gordok's Gloves"
-Inst19Quest4name3 = "Gordok's Gauntlets"
-Inst19Quest4name4 = "Gordok's Handguards"
+Inst19Quest4name1 = "Gordoks Handschützer"
+Inst19Quest4name2 = "Gordoks Stulpen"
+Inst19Quest4name3 = "Gordoks Handschuhe"
+Inst19Quest4name4 = "Gordoks Handlappen"
 
 --Quest 5 Alliance
-Inst19Quest5 = "5. The Gordok Taste Test"
-Inst19Quest5_Aim = "Free Booze."
-Inst19Quest5_Location = "Stomper Kreeg (Düsterbruch; "..YELLOW.."North, [2]"..WHITE..")"
-Inst19Quest5_Note = "Just talk to the NPC to accept and complete the quest at the same time."
+Inst19Quest5 = "5. Der Gordokgeschmackstest"
+Inst19Quest5_Aim = "Kostenloser Alkohol."
+Inst19Quest5_Location = "Stampfer Kreeg (Düsterbruch; "..YELLOW.."Nord, [2]"..WHITE..")"
+Inst19Quest5_Note = "Sprich einfach mit dem NPC, um die Quest anzunehmen und gleichzeitig abzuschließen. Du kannst diese Quest nur abschließen wenn Du den Königsbuff besitzt."
 Inst19Quest5_Prequest = "Nein"
 Inst19Quest5_Folgequest = "Nein"
 --
-Inst19Quest5name1 = "Gordok Green Grog"
-Inst19Quest5name2 = "Kreeg's Stout Beatdown"
+Inst19Quest5name1 = "Grüner Gordokgrog"
+Inst19Quest5name2 = "Kreegs Hauweg-Starkbier"
 
 
 --Quest 1 Horde
@@ -3356,7 +3356,7 @@ Inst19Quest4_HORDE_Prequest = "Nein"
 Inst19Quest4_HORDE_Folgequest = "Nein"
 --
 Inst19Quest4name1_HORDE = Inst19Quest4name1
-Inst19Quest4name2_HORDE = Inst19Quest4name2
+Inst19Quest4name2_HORDE = "Gordoks Stulpen"
 Inst19Quest4name3_HORDE = Inst19Quest4name3
 Inst19Quest4name4_HORDE = Inst19Quest4name4
 
@@ -3373,7 +3373,7 @@ Inst19Quest5name2_HORDE = Inst19Quest5name2
 
 
 
---------------- INST20 - Düsterbruch West ---------------
+--------------- INST20 - Dire Maul West ---------------
 
 Inst20Caption = "Düsterbruch (West)"
 Inst20QAA = "17 Quests"
@@ -3383,7 +3383,7 @@ Inst20QAH = "17 Quests"
 Inst20Quest1 = "1. Elven Legends"
 Inst20Quest1_Aim = "Search Düsterbruch for Kariel Winthalus. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find."
 Inst20Quest1_Location = "Scholar Runethorn (Feralas - Feathermoon Stronghold; "..YELLOW.."31,43"..WHITE..")"
-Inst20Quest1_Note = "You find Kariel Winthalus in the "..YELLOW.."Library (West)"..WHITE.."."
+Inst20Quest1_Note = "You find Kariel Winthalus in the "..YELLOW.."Bibliothek (West)"..WHITE.."."
 Inst20Quest1_Prequest = "Nein"
 Inst20Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3422,129 +3422,119 @@ Inst20Quest4_Folgequest = "Nein"
 Inst20Quest5 = "5. The Emerald Dream... (Druid)"
 Inst20Quest5_Aim = "Return the book to its rightful owners."
 Inst20Quest5_Location = "The Emerald Dream (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest5_Note = "The reward is for Druids. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest5_Note = "The reward is for Druids. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Bibliothek"..WHITE.."."
 Inst20Quest5_Prequest = "Nein"
 Inst20Quest5_Folgequest = "Nein"
 --
-Inst20Quest5name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest5name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 6 Alliance
 Inst20Quest6 = "6. The Greatest Race of Hunters (Hunter)"
 Inst20Quest6_Aim = "Return the book to its rightful owners."
 Inst20Quest6_Location = "The Greatest Race of Hunters (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest6_Note = "The reward is for Hunters. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest6_Note = "The reward is for Hunters. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Bibliothek"..WHITE.."."
 Inst20Quest6_Prequest = "Nein"
 Inst20Quest6_Folgequest = "Nein"
 --
-Inst20Quest6name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest6name1 = Inst20Quest5name1
 
 --Quest 7 Alliance
 Inst20Quest7 = "7. The Arcanist's Cookbook (Mage)"
 Inst20Quest7_Aim = "Return the book to its rightful owners."
 Inst20Quest7_Location = "The Arcanist's Cookbook (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest7_Note = "The reward is for Mages. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest7_Note = "The reward is for Mages. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Bibliothek"..WHITE.."."
 Inst20Quest7_Prequest = "Nein"
 Inst20Quest7_Folgequest = "Nein"
 --
-Inst20Quest7name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest7name1 = Inst20Quest5name1
 
 --Quest 8 Alliance
 Inst20Quest8 = "8. The Light and How To Swing It (Paladin)"
 Inst20Quest8_Aim = "Return the book to its rightful owners."
 Inst20Quest8_Location = "The Light and How To Swing It (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest8_Note = "The reward is for Paladins. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest8_Note = "The reward is for Paladins. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Bibliothek"..WHITE.."."
 Inst20Quest8_Prequest = "Nein"
 Inst20Quest8_Folgequest = "Nein"
 --
-Inst20Quest8name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest8name1 = Inst20Quest5name1
 
 --Quest 9 Alliance
 Inst20Quest9 = "9. Holy Bologna: What the Light Won't Tell You (Priest)"
 Inst20Quest9_Aim = "Return the book to its rightful owners."
 Inst20Quest9_Location = "Holy Bologna: What the Light Won't Tell You (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest9_Note = "The reward is for Priests. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest9_Note = "The reward is for Priests. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Bibliothek"..WHITE.."."
 Inst20Quest9_Prequest = "Nein"
 Inst20Quest9_Folgequest = "Nein"
 --
-Inst20Quest9name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest9name1 = Inst20Quest5name1
 
 --Quest 10 Alliance
 Inst20Quest10 = "10. Garona: A Study on Stealth and Treachery (Rogue)"
 Inst20Quest10_Aim = "Return the book to its rightful owners."
 Inst20Quest10_Location = "Garona: A Study on Stealth and Treachery (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest10_Note = "The reward is for Rogues. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest10_Note = "The reward is for Rogues. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Bibliothek"..WHITE.."."
 Inst20Quest10_Prequest = "Nein"
 Inst20Quest10_Folgequest = "Nein"
 --
-Inst20Quest10name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest10name1 = Inst20Quest5name1
 
---Quest 11 Alliance    - THIS QUEST TO BE REMOVED
-Inst20Quest11 = "11. Frost Shock and You (Shaman)"
+--Quest 11 Alliance
+Inst20Quest11 = "11. Harnessing Shadows (Warlock)"
 Inst20Quest11_Aim = "Return the book to its rightful owners."
-Inst20Quest11_Location = "Frost Shock and You (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest11_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest11_Location = "Harnessing Shadows (randomly drops off bosses in all Düsterbruch wings)"
+Inst20Quest11_Note = "Warlock quest. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Bibliothek"..WHITE.."."
 Inst20Quest11_Prequest = "Nein"
 Inst20Quest11_Folgequest = "Nein"
 --
-Inst20Quest11name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest11name1 = Inst20Quest5name1
 
 --Quest 12 Alliance
-Inst20Quest12 = "12. Harnessing Shadows (Warlock)"
+Inst20Quest12 = "12. Codex of Defense (Warrior)"
 Inst20Quest12_Aim = "Return the book to its rightful owners."
-Inst20Quest12_Location = "Harnessing Shadows (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest12_Note = "Warlock quest. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest12_Location = "Codex of Defense (randomly drops off bosses in all Düsterbruch wings)"
+Inst20Quest12_Note = "Warrior quest. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Bibliothek"..WHITE.."."
 Inst20Quest12_Prequest = "Nein"
 Inst20Quest12_Folgequest = "Nein"
 --
-Inst20Quest12name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest12name1 = Inst20Quest5name1
 
 --Quest 13 Alliance
-Inst20Quest13 = "13. Codex of Defense (Warrior)"
-Inst20Quest13_Aim = "Return the book to its rightful owners."
-Inst20Quest13_Location = "Codex of Defense (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest13_Note = "Warrior quest. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Library"..WHITE.."."
+Inst20Quest13 = "13. Libram of Focus"
+Inst20Quest13_Aim = "Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Focus."
+Inst20Quest13_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE..")"
+Inst20Quest13_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Skin of Shadow is Soulbound and can drop off some bosses, Risen Constructs and Risen Bonewarder in "..YELLOW.."Scholomance"..WHITE.."."
 Inst20Quest13_Prequest = "Nein"
 Inst20Quest13_Folgequest = "Nein"
 --
-Inst20Quest13name1 = "Royal Seal of Eldre'Thalas"
+Inst20Quest13name1 = "Arcanum of Focus"
 
 --Quest 14 Alliance
-Inst20Quest14 = "14. Libram of Focus"
-Inst20Quest14_Aim = "Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Focus."
-Inst20Quest14_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst20Quest14_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Skin of Shadow is Soulbound and can drop off some bosses, Risen Constructs and Risen Bonewarder in "..YELLOW.."Scholomance"..WHITE.."."
+Inst20Quest14 = "14. Libram of Protection"
+Inst20Quest14_Aim = "Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Protection."
+Inst20Quest14_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE..")"
+Inst20Quest14_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Frayed Abomination Stitching is Soulbound and can drop off Ramstein the Gorger, Venom Belchers, Bile Spewer and Patchwork Horror in "..YELLOW.."Stratholme"..WHITE.."."
 Inst20Quest14_Prequest = "Nein"
 Inst20Quest14_Folgequest = "Nein"
 --
-Inst20Quest14name1 = "Arcanum of Focus"
+Inst20Quest14name1 = "Arcanum of Protection"
 
 --Quest 15 Alliance
-Inst20Quest15 = "15. Libram of Protection"
-Inst20Quest15_Aim = "Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Protection."
-Inst20Quest15_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst20Quest15_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Frayed Abomination Stitching is Soulbound and can drop off Ramstein the Gorger, Venom Belchers, Bile Spewer and Patchwork Horror in "..YELLOW.."Stratholme"..WHITE.."."
+Inst20Quest15 = "15. Libram of Rapidity"
+Inst20Quest15_Aim = "Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Rapidity."
+Inst20Quest15_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE..")"
+Inst20Quest15_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Blood of Heroes is Soulbound and can be found on the ground in random places in the Western and Östliche Pestländer."
 Inst20Quest15_Prequest = "Nein"
 Inst20Quest15_Folgequest = "Nein"
 --
-Inst20Quest15name1 = "Arcanum of Protection"
+Inst20Quest15name1 = "Arcanum of Rapidity"
 
 --Quest 16 Alliance
-Inst20Quest16 = "16. Libram of Rapidity"
-Inst20Quest16_Aim = "Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Rapidity."
-Inst20Quest16_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Library"..WHITE..")"
-Inst20Quest16_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Blood of Heroes is Soulbound and can be found on the ground in random places in the Western and Östliche Pestländer."
+Inst20Quest16 = "16. Foror's Compendium (Warrior, Paladin)"
+Inst20Quest16_Aim = "Return Foror's Compendium of Dragon Slaying to the Athenaeum."
+Inst20Quest16_Location = "Foror's Compendium of Dragon Slaying (random boss drop in "..YELLOW.."Düsterbruch"..WHITE..")"
+Inst20Quest16_Note = "Warrior or Paladin quest. It turns in to Lorekeeper Lydros at (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE.."). Turning this in allows you to start the quest for Quel'Serrar.\n\nAs of patch 3.2.2, you can no longer complete this questline unless you've already started it."
 Inst20Quest16_Prequest = "Nein"
-Inst20Quest16_Folgequest = "Nein"
---
-Inst20Quest16name1 = "Arcanum of Rapidity"
-
---Quest 17 Alliance
-Inst20Quest17 = "17. Foror's Compendium (Warrior, Paladin)"
-Inst20Quest17_Aim = "Return Foror's Compendium of Dragon Slaying to the Athenaeum."
-Inst20Quest17_Location = "Foror's Compendium of Dragon Slaying (random boss drop in "..YELLOW.."Düsterbruch"..WHITE..")"
-Inst20Quest17_Note = "Warrior or Paladin quest. It turns in to Lorekeeper Lydros at (Düsterbruch West; "..YELLOW.."[1'] Library"..WHITE.."). Turning this in allows you to start the quest for Quel'Serrar.\n\nAs of patch 3.2.2, you can no longer complete this questline unless you've already started it."
-Inst20Quest17_Prequest = "Nein"
-Inst20Quest17_Folgequest = "The Forging of Quel'Serrar"
+Inst20Quest16_Folgequest = "The Forging of Quel'Serrar"
 -- No Rewards for this quest
 
 
@@ -3552,7 +3542,7 @@ Inst20Quest17_Folgequest = "The Forging of Quel'Serrar"
 Inst20Quest1_HORDE = "1. Elven Legends"
 Inst20Quest1_HORDE_Aim = "Search Düsterbruch for Kariel Winthalus. Report back to Sage Korolusk at Camp Mojache with whatever information that you may find."
 Inst20Quest1_HORDE_Location = "Sage Korolusk (Feralas - Camp Mojache; "..YELLOW.."74,43"..WHITE..")"
-Inst20Quest1_HORDE_Note = "You find Kariel Winthalus in the "..YELLOW.."Library (West)"..WHITE.."."
+Inst20Quest1_HORDE_Note = "You find Kariel Winthalus in the "..YELLOW.."Bibliothek (West)"..WHITE.."."
 Inst20Quest1_HORDE_Prequest = "Nein"
 Inst20Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -3562,7 +3552,7 @@ Inst20Quest2_HORDE = Inst20Quest2
 Inst20Quest2_HORDE_Aim = Inst20Quest2_Aim
 Inst20Quest2_HORDE_Location = Inst20Quest2_Location
 Inst20Quest2_HORDE_Note = Inst20Quest2_Note
-Inst20Quest2_HORDE_Prequest = Inst20Quest2_Prequest
+Inst20Quest2_HORDE_Prequest = "Nein"
 Inst20Quest2_HORDE_Folgequest = Inst20Quest2_Folgequest
 -- No Rewards for this quest
 
@@ -3572,7 +3562,7 @@ Inst20Quest3_HORDE_Aim = Inst20Quest3_Aim
 Inst20Quest3_HORDE_Location = Inst20Quest3_Location
 Inst20Quest3_HORDE_Note = Inst20Quest3_Note
 Inst20Quest3_HORDE_Prequest = Inst20Quest3_Prequest
-Inst20Quest3_HORDE_Folgequest = Inst20Quest3_Folgequest
+Inst20Quest3_HORDE_Folgequest = "Nein"
 --
 Inst20Quest3name1_HORDE = Inst20Quest3name1
 Inst20Quest3name2_HORDE = Inst20Quest3name2
@@ -3584,116 +3574,116 @@ Inst20Quest4_HORDE_Aim = Inst20Quest4_Aim
 Inst20Quest4_HORDE_Location = Inst20Quest4_Location
 Inst20Quest4_HORDE_Note = Inst20Quest4_Note
 Inst20Quest4_HORDE_Prequest = Inst20Quest4_Prequest
-Inst20Quest4_HORDE_Folgequest = Inst20Quest4_Folgequest
+Inst20Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst20Quest5_HORDE = Inst20Quest5
 Inst20Quest5_HORDE_Aim = Inst20Quest5_Aim
 Inst20Quest5_HORDE_Location = Inst20Quest5_Location
 Inst20Quest5_HORDE_Note = Inst20Quest5_Note
-Inst20Quest5_HORDE_Prequest = Inst20Quest5_Prequest
-Inst20Quest5_HORDE_Folgequest = Inst20Quest5_Folgequest
+Inst20Quest5_HORDE_Prequest = "Nein"
+Inst20Quest5_HORDE_Folgequest = "Nein"
 --
 Inst20Quest5name1_HORDE = Inst20Quest5name1
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst20Quest6_HORDE = Inst20Quest6
 Inst20Quest6_HORDE_Aim = Inst20Quest6_Aim
 Inst20Quest6_HORDE_Location = Inst20Quest6_Location
 Inst20Quest6_HORDE_Note = Inst20Quest6_Note
-Inst20Quest6_HORDE_Prequest = Inst20Quest6_Prequest
-Inst20Quest6_HORDE_Folgequest = Inst20Quest6_Folgequest
+Inst20Quest6_HORDE_Prequest = "Nein"
+Inst20Quest6_HORDE_Folgequest = "Nein"
 --
 Inst20Quest6name1_HORDE = Inst20Quest6name1
 
---Quest 7 Horde  (same as Quest 7 Alliance)
+--Quest 7 Horde
 Inst20Quest7_HORDE = Inst20Quest7
 Inst20Quest7_HORDE_Aim = Inst20Quest7_Aim
 Inst20Quest7_HORDE_Location = Inst20Quest7_Location
 Inst20Quest7_HORDE_Note = Inst20Quest7_Note
-Inst20Quest7_HORDE_Prequest = Inst20Quest7_Prequest
-Inst20Quest7_HORDE_Folgequest = Inst20Quest7_Folgequest
+Inst20Quest7_HORDE_Prequest = "Nein"
+Inst20Quest7_HORDE_Folgequest = "Nein"
 --
 Inst20Quest7name1_HORDE = Inst20Quest7name1
 
---Quest 8 Horde  (same as Quest 8 Alliance)   - THIS QUEST TO BE REMOVED
-Inst20Quest8_HORDE = Inst20Quest8
-Inst20Quest8_HORDE_Aim = Inst20Quest8_Aim
-Inst20Quest8_HORDE_Location = Inst20Quest8_Location
-Inst20Quest8_HORDE_Note = Inst20Quest8_Note
-Inst20Quest8_HORDE_Prequest = Inst20Quest8_Prequest
-Inst20Quest8_HORDE_Folgequest = Inst20Quest8_Folgequest
+--Quest 8 Horde
+Inst20Quest8_HORDE = "8. Frost Shock and You (Shaman)"
+Inst20Quest8_HORDE_Aim = "Return the book to its rightful owners."
+Inst20Quest8_HORDE_Location = "Frost Shock and You (randomly drops off bosses in all Dire Maul wings)"
+Inst20Quest8_HORDE_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the "..GREEN.."[1'] Bibliothek"..WHITE.."."
+Inst20Quest8_HORDE_Prequest = "Nein"
+Inst20Quest8_HORDE_Folgequest = "Nein"
 --
 Inst20Quest8name1_HORDE = Inst20Quest8name1
 
---Quest 9 Horde  (same as Quest 9 Alliance)
+--Quest 9 Horde
 Inst20Quest9_HORDE = Inst20Quest9
 Inst20Quest9_HORDE_Aim = Inst20Quest9_Aim
 Inst20Quest9_HORDE_Location = Inst20Quest9_Location
 Inst20Quest9_HORDE_Note = Inst20Quest9_Note
-Inst20Quest9_HORDE_Prequest = Inst20Quest9_Prequest
-Inst20Quest9_HORDE_Folgequest = Inst20Quest9_Folgequest
+Inst20Quest9_HORDE_Prequest = "Nein"
+Inst20Quest9_HORDE_Folgequest = "Nein"
 --
 Inst20Quest9name1_HORDE = Inst20Quest9name1
 
---Quest 10 Horde  (same as Quest 10 Alliance)
+--Quest 10 Horde
 Inst20Quest10_HORDE = Inst20Quest10
 Inst20Quest10_HORDE_Aim = Inst20Quest10_Aim
 Inst20Quest10_HORDE_Location = Inst20Quest10_Location
 Inst20Quest10_HORDE_Note = Inst20Quest10_Note
-Inst20Quest10_HORDE_Prequest = Inst20Quest10_Prequest
-Inst20Quest10_HORDE_Folgequest = Inst20Quest10_Folgequest
+Inst20Quest10_HORDE_Prequest = "Nein"
+Inst20Quest10_HORDE_Folgequest = "Nein"
 --
 Inst20Quest10name1_HORDE = Inst20Quest10name1
 
---Quest 11 Horde  (same as Quest 11 Alliance)
+--Quest 11 Horde
 Inst20Quest11_HORDE = Inst20Quest11
 Inst20Quest11_HORDE_Aim = Inst20Quest11_Aim
 Inst20Quest11_HORDE_Location = Inst20Quest11_Location
 Inst20Quest11_HORDE_Note = Inst20Quest11_Note
-Inst20Quest11_HORDE_Prequest = Inst20Quest11_Prequest
-Inst20Quest11_HORDE_Folgequest = Inst20Quest11_Folgequest
+Inst20Quest11_HORDE_Prequest = "Nein"
+Inst20Quest11_HORDE_Folgequest = "Nein"
 --
 Inst20Quest11name1_HORDE = Inst20Quest11name1
 
---Quest 12 Horde  (same as Quest 12 Alliance)
+--Quest 12 Horde
 Inst20Quest12_HORDE = Inst20Quest12
 Inst20Quest12_HORDE_Aim = Inst20Quest12_Aim
 Inst20Quest12_HORDE_Location = Inst20Quest12_Location
 Inst20Quest12_HORDE_Note = Inst20Quest12_Note
-Inst20Quest12_HORDE_Prequest = Inst20Quest12_Prequest
-Inst20Quest12_HORDE_Folgequest = Inst20Quest12_Folgequest
+Inst20Quest12_HORDE_Prequest = "Nein"
+Inst20Quest12_HORDE_Folgequest = "Nein"
 --
 Inst20Quest12name1_HORDE = Inst20Quest12name1
 
---Quest 13 Horde  (same as Quest 13 Alliance)
+--Quest 13 Horde
 Inst20Quest13_HORDE = Inst20Quest13
 Inst20Quest13_HORDE_Aim = Inst20Quest13_Aim
 Inst20Quest13_HORDE_Location = Inst20Quest13_Location
 Inst20Quest13_HORDE_Note = Inst20Quest13_Note
-Inst20Quest13_HORDE_Prequest = Inst20Quest13_Prequest
-Inst20Quest13_HORDE_Folgequest = Inst20Quest13_Folgequest
+Inst20Quest13_HORDE_Prequest = "Nein"
+Inst20Quest13_HORDE_Folgequest = "Nein"
 --
 Inst20Quest13name1_HORDE = Inst20Quest13name1
 
---Quest 14 Horde  (same as Quest 14 Alliance)
+--Quest 14 Horde
 Inst20Quest14_HORDE = Inst20Quest14
 Inst20Quest14_HORDE_Aim = Inst20Quest14_Aim
 Inst20Quest14_HORDE_Location = Inst20Quest14_Location
 Inst20Quest14_HORDE_Note = Inst20Quest14_Note
-Inst20Quest14_HORDE_Prequest = Inst20Quest14_Prequest
-Inst20Quest14_HORDE_Folgequest = Inst20Quest14_Folgequest
+Inst20Quest14_HORDE_Prequest = "Nein"
+Inst20Quest14_HORDE_Folgequest = "Nein"
 --
 Inst20Quest14name1_HORDE = Inst20Quest14name1
 
---Quest 15 Horde  (same as Quest 15 Alliance)
+--Quest 15 Horde
 Inst20Quest15_HORDE = Inst20Quest15
 Inst20Quest15_HORDE_Aim = Inst20Quest15_Aim
 Inst20Quest15_HORDE_Location = Inst20Quest15_Location
 Inst20Quest15_HORDE_Note = Inst20Quest15_Note
-Inst20Quest15_HORDE_Prequest = Inst20Quest15_Prequest
-Inst20Quest15_HORDE_Folgequest = Inst20Quest15_Folgequest
+Inst20Quest15_HORDE_Prequest = "Nein"
+Inst20Quest15_HORDE_Folgequest = "Nein"
 --
 Inst20Quest15name1_HORDE = Inst20Quest15name1
 
@@ -3702,19 +3692,10 @@ Inst20Quest16_HORDE = Inst20Quest16
 Inst20Quest16_HORDE_Aim = Inst20Quest16_Aim
 Inst20Quest16_HORDE_Location = Inst20Quest16_Location
 Inst20Quest16_HORDE_Note = Inst20Quest16_Note
-Inst20Quest16_HORDE_Prequest = Inst20Quest16_Prequest
+Inst20Quest16_HORDE_Prequest = "Nein"
 Inst20Quest16_HORDE_Folgequest = Inst20Quest16_Folgequest
 --
 Inst20Quest16name1_HORDE = Inst20Quest16name1
-
---Quest 17 Horde  (same as Quest 17 Alliance)   - THIS QUEST TO BE REMOVED
-Inst20Quest17_HORDE = Inst20Quest17
-Inst20Quest17_HORDE_Aim = Inst20Quest17_Aim
-Inst20Quest17_HORDE_Location = Inst20Quest17_Location
-Inst20Quest17_HORDE_Note = Inst20Quest17_Note
-Inst20Quest17_HORDE_Prequest = Inst20Quest17_Prequest
-Inst20Quest17_HORDE_Folgequest = Inst20Quest17_Folgequest
--- No Rewards for this quest
 
 
 
@@ -4652,7 +4633,7 @@ Inst29Quest2name3 = "Zandalarian Hero Medallion"
 --Quest 3 Alliance
 Inst29Quest3 = "3. Nat's Measuring Tape"
 Inst29Quest3_Aim = "Return Nat's Measuring Tape to Nat Pagle in Dustwallow Marsh."
-Inst29Quest3_Location = "Battered Tackle Box (Zul'Gurub - Northeast by water from Hakkar's Island)"
+Inst29Quest3_Location = "Battered Tackle Box (Zul'Gurub - Nordeast by water from Hakkar's Island)"
 Inst29Quest3_Note = "Nat Pagle ist bei Dustwallow Marsh ("..YELLOW.."59,60"..WHITE.."). Turning the quest in allows you to buy Mudskunk Lures from Nat Pagle to summon Gahz'ranka in Zul'Gurub."
 Inst29Quest3_Prequest = "Nein"
 Inst29Quest3_Folgequest = "Nein"
@@ -4913,7 +4894,7 @@ Inst33Quest1_Folgequest = "Proving Grounds"
 Inst33Quest2 = "2. Proving Grounds"
 Inst33Quest2_Aim = "Travel to the Icewing Caverns located southwest of Dun Baldar in Alterac Valley and recover the Stormpike Banner. Return the Stormpike Banner to Lieutenant Haggerdin in the Alterac Mountains."
 Inst33Quest2_Location = "Lieutenant Haggerdin (Alterac Mountains; "..YELLOW.."39,81"..WHITE..")"
-Inst33Quest2_Note = "The Stormpike Banner is in the Icewing Cavern at "..YELLOW.."[11]"..WHITE.." on the Alterac Valley - North map. Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest."
+Inst33Quest2_Note = "The Stormpike Banner is in the Icewing Cavern at "..YELLOW.."[11]"..WHITE.." on the Alterac Valley - Nord map. Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest."
 Inst33Quest2_Prequest = "The Sovereign Imperative"
 Inst33Quest2_Folgequest = "Nein"
 --
@@ -4923,7 +4904,7 @@ Inst33Quest2name2 = "The Frostwolf Artichoke"
 --Quest 3 Alliance
 Inst33Quest3 = "3. The Battle of Alterac"
 Inst33Quest3_Aim = "Enter Alterac Valley, defeat the Horde general Drek'thar, and then return to Prospector Stonehewer in the Alterac Mountains."
-Inst33Quest3_Location = "Prospector Stonehewer (Alterac Mountains; "..YELLOW.."41,80"..WHITE..") and\n(Alterac Valley - North; "..YELLOW.."[B]"..WHITE..")"
+Inst33Quest3_Location = "Prospector Stonehewer (Alterac Mountains; "..YELLOW.."41,80"..WHITE..") and\n(Alterac Valley - Nord; "..YELLOW.."[B]"..WHITE..")"
 Inst33Quest3_Note = "Drek'thar ist bei (Alterac Valley - South; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
 Inst33Quest3_Prequest = "Nein"
 Inst33Quest3_Folgequest = "Hero of the Stormpike"
@@ -4936,8 +4917,8 @@ Inst33Quest3name4 = "Cold Forged Hammer"
 --Quest 4 Alliance
 Inst33Quest4 = "4. The Quartermaster"
 Inst33Quest4_Aim = "Speak with the Stormpike Quartermaster."
-Inst33Quest4_Location = "Mountaineer Boombellow (Alterac Valley - North; "..YELLOW.."Near [3] Before Bridge"..WHITE..")"
-Inst33Quest4_Note = "The Stormpike Quartermaster ist bei (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..") and provides more quests."
+Inst33Quest4_Location = "Mountaineer Boombellow (Alterac Valley - Nord; "..YELLOW.."Near [3] Before Bridge"..WHITE..")"
+Inst33Quest4_Note = "The Stormpike Quartermaster ist bei (Alterac Valley - Nord; "..YELLOW.."[7]"..WHITE..") and provides more quests."
 Inst33Quest4_Prequest = "Nein"
 Inst33Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4945,7 +4926,7 @@ Inst33Quest4_Folgequest = "Nein"
 --Quest 5 Alliance
 Inst33Quest5 = "5. Coldtooth Supplies"
 Inst33Quest5_Aim = "Bring 10 Coldtooth Supplies to the Alliance Quartermaster in Dun Baldar."
-Inst33Quest5_Location = "Stormpike Quartermaster (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..")"
+Inst33Quest5_Location = "Stormpike Quartermaster (Alterac Valley - Nord; "..YELLOW.."[7]"..WHITE..")"
 Inst33Quest5_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..")."
 Inst33Quest5_Prequest = "Nein"
 Inst33Quest5_Folgequest = "Nein"
@@ -4954,8 +4935,8 @@ Inst33Quest5_Folgequest = "Nein"
 --Quest 6 Alliance
 Inst33Quest6 = "6. Irondeep Supplies"
 Inst33Quest6_Aim = "Bring 10 Irondeep Supplies to the Alliance Quartermaster in Dun Baldar."
-Inst33Quest6_Location = "Stormpike Quartermaster (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..")"
-Inst33Quest6_Note = "The supplies can be found in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..")."
+Inst33Quest6_Location = "Stormpike Quartermaster (Alterac Valley - Nord; "..YELLOW.."[7]"..WHITE..")"
+Inst33Quest6_Note = "The supplies can be found in the Irondeep Mine at (Alterac Valley - Nord; "..YELLOW.."[1]"..WHITE..")."
 Inst33Quest6_Prequest = "Nein"
 Inst33Quest6_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4963,7 +4944,7 @@ Inst33Quest6_Folgequest = "Nein"
 --Quest 7 Alliance
 Inst33Quest7 = "7. Armor Scraps"
 Inst33Quest7_Aim = "Bring 20 Armor Scraps to Murgot Deepforge in Dun Baldar."
-Inst33Quest7_Location = "Murgot Deepforge (Alterac Valley - North; "..YELLOW.."[4]"..WHITE..")"
+Inst33Quest7_Location = "Murgot Deepforge (Alterac Valley - Nord; "..YELLOW.."[4]"..WHITE..")"
 Inst33Quest7_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
 Inst33Quest7_Prequest = "Nein"
 Inst33Quest7_Folgequest = "More Armor Scraps"
@@ -4973,7 +4954,7 @@ Inst33Quest7_Folgequest = "More Armor Scraps"
 Inst33Quest8 = "8. Capture a Mine"
 Inst33Quest8_Aim = "Capture a mine that the Stormpike does not control, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
 Inst33Quest8_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
-Inst33Quest8_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Horde control it."
+Inst33Quest8_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - Nord; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Horde control it."
 Inst33Quest8_Prequest = "Nein"
 Inst33Quest8_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4999,7 +4980,7 @@ Inst33Quest10_Folgequest = "Nein"
 --Quest 11 Alliance
 Inst33Quest11 = "11. Empty Stables"
 Inst33Quest11_Aim = "Locate an Alterac Ram in Alterac Valley. Use the Stormpike Training Collar when you are near the Alterac Ram to 'tame' the beast. Once tamed, the Alterac Ram will follow you back to the Stable Master. Speak with the Stable Master to earn credit for the capture."
-Inst33Quest11_Location = "Stormpike Stable Master (Alterac Valley - North; "..YELLOW.."[6]"..WHITE..")"
+Inst33Quest11_Location = "Stormpike Stable Master (Alterac Valley - Nord; "..YELLOW.."[6]"..WHITE..")"
 Inst33Quest11_Note = "You can find a Ram outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Stormpike Cavalry will arrive to assist in the battle."
 Inst33Quest11_Prequest = "Nein"
 Inst33Quest11_Folgequest = "Nein"
@@ -5008,7 +4989,7 @@ Inst33Quest11_Folgequest = "Nein"
 --Quest 12 Alliance
 Inst33Quest12 = "12. Ram Riding Harnesses"
 Inst33Quest12_Aim = "You must strike at our enemy's base, slaying the frostwolves they use as mounts and taking their hides. Return their hides to me so that harnesses may be made for the cavalry. Go!"
-Inst33Quest12_Location = "Stormpike Ram Rider Commander (Alterac Valley - North; "..YELLOW.."[6]"..WHITE..")"
+Inst33Quest12_Location = "Stormpike Ram Rider Commander (Alterac Valley - Nord; "..YELLOW.."[6]"..WHITE..")"
 Inst33Quest12_Note = "Frostwolves can be found in the southern area of Alterac Valley."
 Inst33Quest12_Prequest = "Nein"
 Inst33Quest12_Folgequest = "Nein"
@@ -5017,8 +4998,8 @@ Inst33Quest12_Folgequest = "Nein"
 --Quest 13 Alliance
 Inst33Quest13 = "13. Crystal Cluster"
 Inst33Quest13_Aim = "There are times which you may be entrenched in battle for days or weeks on end. During those longer periods of activity you may end up collecting large clusters of the Frostwolf's storm crystals.\n\nThe Circle accepts such offerings."
-Inst33Quest13_Location = "Arch Druid Renferal (Alterac Valley - North; "..YELLOW.."[2]"..WHITE..")"
-Inst33Quest13_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - North; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
+Inst33Quest13_Location = "Arch Druid Renferal (Alterac Valley - Nord; "..YELLOW.."[2]"..WHITE..")"
+Inst33Quest13_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - Nord; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
 Inst33Quest13_Prequest = "Nein"
 Inst33Quest13_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5026,8 +5007,8 @@ Inst33Quest13_Folgequest = "Nein"
 --Quest 14 Alliance
 Inst33Quest14 = "14. Ivus the Forest Lord"
 Inst33Quest14_Aim = "The Frostwolf Clan is protected by a taint of elemental energy. Their shaman meddle in powers that will surely destroy us all if left unchecked.\n\nThe Frostwolf soldiers carry elemental charms called storm crystals. We can use the charms to conjure Ivus. Venture forth and claim the crystals."
-Inst33Quest14_Location = "Arch Druid Renferal (Alterac Valley - North; "..YELLOW.."[2]"..WHITE..")"
-Inst33Quest14_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - North; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
+Inst33Quest14_Location = "Arch Druid Renferal (Alterac Valley - Nord; "..YELLOW.."[2]"..WHITE..")"
+Inst33Quest14_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - Nord; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
 Inst33Quest14_Prequest = "Nein"
 Inst33Quest14_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5035,7 +5016,7 @@ Inst33Quest14_Folgequest = "Nein"
 --Quest 15 Alliance
 Inst33Quest15 = "15. Call of Air - Slidore's Fleet"
 Inst33Quest15_Aim = "My gryphons are poised to strike at the front lines but cannot make the attack until the lines are thinned out.\n\nThe Frostwolf warriors charged with holding the front lines wear medals of service proudly upon their chests. Rip those medals off their rotten corpses and bring them back here.\n\nOnce the front line is sufficiently thinned out, I will make the call to air! Death from above!"
-Inst33Quest15_Location = "Wing Commander Slidore (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest15_Location = "Wing Commander Slidore (Alterac Valley - Nord; "..YELLOW.."[8]"..WHITE..")"
 Inst33Quest15_Note = "Kill Horde NPCs for the Frostwolf Soldier's Medal."
 Inst33Quest15_Prequest = "Nein"
 Inst33Quest15_Folgequest = "Nein"
@@ -5044,7 +5025,7 @@ Inst33Quest15_Folgequest = "Nein"
 --Quest 16 Alliance
 Inst33Quest16 = "16. Call of Air - Vipore's Fleet"
 Inst33Quest16_Aim = "The elite Frostwolf units that guard the lines must be dealt with, soldier! I'm tasking you with thinning out that herd of savages. Return to me with medals from their lieutenants and legionnaires. When I feel that enough of the riff-raff has been dealt with, I'll deploy the air strike."
-Inst33Quest16_Location = "Wing Commander Vipore (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest16_Location = "Wing Commander Vipore (Alterac Valley - Nord; "..YELLOW.."[8]"..WHITE..")"
 Inst33Quest16_Note = "Kill Horde NPCs for the Frostwolf Lieutenant's Medal."
 Inst33Quest16_Prequest = "Nein"
 Inst33Quest16_Folgequest = "Nein"
@@ -5053,7 +5034,7 @@ Inst33Quest16_Folgequest = "Nein"
 --Quest 17 Alliance
 Inst33Quest17 = "17. Call of Air - Ichman's Fleet"
 Inst33Quest17_Aim = "Return to the battlefield and strike at the heart of the Frostwolf's command. Take down their commanders and guardians. Return to me with as many of their medals as you can stuff in your pack! I promise you, when my gryphons see the bounty and smell the blood of our enemies, they will fly again! Go now!"
-Inst33Quest17_Location = "Wing Commander Ichman (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest17_Location = "Wing Commander Ichman (Alterac Valley - Nord; "..YELLOW.."[8]"..WHITE..")"
 Inst33Quest17_Note = "Kill Horde NPCs for the Frostwolf Commander's Medals. After turning in 50, Wing Commander Ichman will either send a gryphon to attack the Horde base or give you a beacon to plant in the Snowfall Friedhof. If the beacon is protected long enough a gryphon will come to defend it."
 Inst33Quest17_Prequest = "Nein"
 Inst33Quest17_Folgequest = "Nein"
@@ -5062,7 +5043,7 @@ Inst33Quest17_Folgequest = "Nein"
 
 --Quest 1 Horde
 Inst33Quest1_HORDE = "1. In Defense of Frostwolf"
-Inst33Quest1_HORDE_Aim = "Venture to Alterac Valley, located in the Alterac Mountains. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alterac Valley north of Tarren Mill at the base of the Alterac Mountains."
+Inst33Quest1_HORDE_Aim = "Venture to Alterac Valley, located in the Alterac Mountains. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alterac Valley Nord of Tarren Mill at the base of the Alterac Mountains."
 Inst33Quest1_HORDE_Location = "Frostwolf Ambassador Rokhstrom (Orgrimmar - Valley of Strength "..YELLOW.."50,71"..WHITE..")"
 Inst33Quest1_HORDE_Note = "Warmaster Laggrond ist bei (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")."
 Inst33Quest1_HORDE_Prequest = "Nein"
@@ -5084,7 +5065,7 @@ Inst33Quest2name2_HORDE = "Peeling the Onion"
 Inst33Quest3_HORDE = "3. The Battle for Alterac"
 Inst33Quest3_HORDE_Aim = "Enter Alterac Valley and defeat the dwarven general, Vanndar Stormpike. Then, return to Voggah Deathgrip in the Alterac Mountains."
 Inst33Quest3_HORDE_Location = "Voggah Deathgrip (Alterac Mountains; "..YELLOW.."64,60"..WHITE..")"
-Inst33Quest3_HORDE_Note = "Vanndar Stormpike ist bei (Alterac Valley - North; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
+Inst33Quest3_HORDE_Note = "Vanndar Stormpike ist bei (Alterac Valley - Nord; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
 Inst33Quest3_HORDE_Prequest = "Nein"
 Inst33Quest3_HORDE_Folgequest = "Hero of the Frostwolf"
 --
@@ -5115,7 +5096,7 @@ Inst33Quest5_HORDE_Folgequest = "Nein"
 Inst33Quest6_HORDE = "6. Irondeep Supplies"
 Inst33Quest6_HORDE_Aim = "Bring 10 Irondeep Supplies to the Horde Quartermaster in Frostwolf Keep."
 Inst33Quest6_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest6_HORDE_Note = "The supplies can be found in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..")."
+Inst33Quest6_HORDE_Note = "The supplies can be found in the Irondeep Mine at (Alterac Valley - Nord; "..YELLOW.."[1]"..WHITE..")."
 Inst33Quest6_HORDE_Prequest = "Nein"
 Inst33Quest6_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5133,7 +5114,7 @@ Inst33Quest7_HORDE_Folgequest = "More Booty!"
 Inst33Quest8_HORDE = "8. Capture a Mine"
 Inst33Quest8_HORDE_Aim = "Capture a mine, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
 Inst33Quest8_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest8_HORDE_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Alliance control it."
+Inst33Quest8_HORDE_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - Nord; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Alliance control it."
 Inst33Quest8_HORDE_Prequest = "Nein"
 Inst33Quest8_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5169,7 +5150,7 @@ Inst33Quest11_HORDE_Folgequest = "Nein"
 Inst33Quest12_HORDE = "12. Ram Hide Harnesses"
 Inst33Quest12_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
 Inst33Quest12_HORDE_Location = "Frostwolf Wolf Rider Commander (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")"
-Inst33Quest12_HORDE_Note = "The Rams can be found in the northern area of Alterac Valley."
+Inst33Quest12_HORDE_Note = "The Rams can be found in the Nordern area of Alterac Valley."
 Inst33Quest12_HORDE_Prequest = "Nein"
 Inst33Quest12_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
