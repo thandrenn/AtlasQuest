@@ -3380,174 +3380,174 @@ Inst20QAA = "17 Quests"
 Inst20QAH = "17 Quests"
 
 --Quest 1 Alliance
-Inst20Quest1 = "1. Elven Legends"
-Inst20Quest1_Aim = "Search Düsterbruch for Kariel Winthalus. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find."
-Inst20Quest1_Location = "Scholar Runethorn (Feralas - Feathermoon Stronghold; "..YELLOW.."31,43"..WHITE..")"
-Inst20Quest1_Note = "You find Kariel Winthalus in the "..YELLOW.."Bibliothek (West)"..WHITE.."."
+Inst20Quest1 = "1. Elfische Legenden"
+Inst20Quest1_Aim = "Sucht in Düsterbruch nach Kariel Winthalus. Meldet Euch anschließend bei der Gelehrten Runethorn in Feathermoon."
+Inst20Quest1_Location = "Gelehrter Runethorn (Feralas - Festung Feathermoon; "..YELLOW.."31,43"..WHITE..")"
+Inst20Quest1_Note = "Du findest Kariel Winthalus in der "..YELLOW.."Bibliothek (West)"..WHITE.."."
 Inst20Quest1_Prequest = "Nein"
 Inst20Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst20Quest2 = "2. The Madness Within"
-Inst20Quest2_Aim = "You must destroy the guardians surrounding the 5 Pylons that power the Prison of Immol'thar. Once the Pylons have powered down, the force field surrounding Immol'thar will have dissipated.\nEnter the Prison of Immol'thar and eradicate the foul demon that stands at its heart. Finally, confront Prince Tortheldrin in Athenaeum."
-Inst20Quest2_Location = "Shen'dralar Ancient (Düsterbruch; "..YELLOW.."West, [1] (above)"..WHITE..")"
-Inst20Quest2_Note = "The Pylons are marked as "..BLUE.."[B]"..WHITE..". Immol'thar ist bei "..YELLOW.."[6]"..WHITE..", Prince Tortheldrin at "..YELLOW.."[7]"..WHITE.."."
+Inst20Quest2 = "2. Der innere Wahnsinn"
+Inst20Quest2_Aim = "Zerstört alle Wächter, die um die 5 Pylonen herumstehen, welche Immol'thars Gefängnis mit Energie versorgen. Sobald die Pylone deaktiviert wurden, wird sich das Kraftfeld, das Immol'thar umgibt, auflösen.\nBetretet Immol'thars Gefängnis und vernichtet den verdorbenen Dämonen. Anschließend müsst Ihr Prinz Tortheldrin im Athenaeum entgegentreten."
+Inst20Quest2_Location = "Uralte Shen'dralar (Düsterbruch; "..YELLOW.."West, [1] (Oben)"..WHITE..")"
+Inst20Quest2_Note = "Die Pylonen sind markiert als "..BLUE.."[B]"..WHITE..". Immol'thar ist bei "..YELLOW.."[6]"..WHITE..", Prinze Tortheldrin bei "..YELLOW.."[7]"..WHITE.."."
 Inst20Quest2_Prequest = "Nein"
-Inst20Quest2_Folgequest = "The Treasure of the Shen'dralar"
+Inst20Quest2_Folgequest = "Der Schatz der Shen'dralar"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst20Quest3 = "3. The Treasure of the Shen'dralar"
-Inst20Quest3_Aim = "Return to the Athenaeum and find the Treasure of the Shen'dralar. Claim your reward!"
-Inst20Quest3_Location = "Shen'dralar Ancient (Düsterbruch; "..YELLOW.."West, [1]"..WHITE..")"
-Inst20Quest3_Note = "You can find the Treasure under the stairs "..YELLOW.."[7]"..WHITE.."."
-Inst20Quest3_Prequest = "The Madness Within"
+Inst20Quest3 = "3. Der Schatz der Shen'dralar"
+Inst20Quest3_Aim = "Kehrt in das Athenaeum zurück und sucht den Schatz der Shen'dralar. Nehmt Euch Eure Belohnung!"
+Inst20Quest3_Location = "Uralte Shen'dralar (Düsterbruch; "..YELLOW.."West, [1]"..WHITE..")"
+Inst20Quest3_Note = "Du findest den Schatz unterhalb des Treppenaufgangs "..YELLOW.."[7]"..WHITE.."."
+Inst20Quest3_Prequest = "Der innere Wahnsinn"
 Inst20Quest3_Folgequest = "Nein"
 --
-Inst20Quest3name1 = "Sedge Boots"
-Inst20Quest3name2 = "Backwood Helm"
-Inst20Quest3name3 = "Bonecrusher"
+Inst20Quest3name1 = "Seggenstiefel"
+Inst20Quest3name2 = "Hinterwaldhelm"
+Inst20Quest3name3 = "Knochenzermalmer"
 
 --Quest 4 Alliance
-Inst20Quest4 = "4. Dreadsteed of Xoroth (Warlock)"
-Inst20Quest4_Aim = "Read Mor'zul's Instructions. Summon a Xorothian Dreadsteed, defeat it, then bind its spirit to you."
+Inst20Quest4 = "4. Schreckensross von Xoroth (Hexenmeister)"
+Inst20Quest4_Aim = Lest Morzuls Anweisungen. Beschwört ein xorothianisches Schreckensross, besiegt es und bindet seinen Geist an Euch."
 Inst20Quest4_Location = "Mor'zul Bloodbringer (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
-Inst20Quest4_Note = "Final Quest in the Warlock Epic mount questline. First you must shut down all Pylons marked with "..BLUE.."[B]"..WHITE.." and then kill Immol'thar at "..YELLOW.."[6]"..WHITE..". After that, you can begin the Summoning Ritual. Be sure to have upwards of 20 Soul Shards ready and have one Warlock specifically assigned to keeping the Bell, Candle and Wheel up. The Doomguards that come can be enslaved. After completion, talk to the Dreadsteed ghost to complete the quest."
-Inst20Quest4_Prequest = "Imp Delivery ("..YELLOW.."Scholomance"..WHITE..")"
+Inst20Quest4_Note = "Finale Quest für das Eische Reittier des Hexenmeisters. Zuerst musst du alle mit "..BLUE.."[B]"..WHITE.." markierten Pylone abschalten und dann töte Immol'thar bei "..YELLOW.."[6]"..WHITE..".Danach kannst du mit dem Beschwörungsritual beginnen. Stelle sicher, dass du mehr als 20 Seelensplitter hast und einen Hexenmeister hast, der speziell dafür vorgesehen ist, die Glocke, die Kerze und das Rad oben zu halten. Die kommenden Schicksalsgarden können versklavt werden. Sprich nach Abschluss mit dem Schreckensrossgeist, um die Quest abzuschließen."
+Inst20Quest4_Prequest = "Wichtellieferung ("..YELLOW.."Scholomance"..WHITE..")"
 Inst20Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
-Inst20Quest5 = "5. The Emerald Dream... (Druid)"
-Inst20Quest5_Aim = "Return the book to its rightful owners."
-Inst20Quest5_Location = "The Emerald Dream (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest5_Note = "The reward is for Druids. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Bibliothek"..WHITE.."."
+Inst20Quest5 = "5. Der Smaragdgrüne Traum (Druide)"
+Inst20Quest5_Aim = "Bringt das Buch seinen rechtmäßigen Besitzern zurück."
+Inst20Quest5_Location = "Der Smaragdgrüne Traum (lassen alle Bosse in allen Düsterbruch-Flügeln zufällig fallen)"
+Inst20Quest5_Note = "Die Belohnung sind für Druiden. Du gibst das Buch bei Hüter des Wissens Javon in der "..YELLOW.."1' Bibliothek"..WHITE.." ab."
 Inst20Quest5_Prequest = "Nein"
 Inst20Quest5_Folgequest = "Nein"
 --
 Inst20Quest5name1 = "Königliches Siegel von Eldre'Thalas"
 
 --Quest 6 Alliance
-Inst20Quest6 = "6. The Greatest Race of Hunters (Hunter)"
-Inst20Quest6_Aim = "Return the book to its rightful owners."
-Inst20Quest6_Location = "The Greatest Race of Hunters (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest6_Note = "The reward is for Hunters. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Bibliothek"..WHITE.."."
+Inst20Quest6 = "6. Das größte Volk von Jägern (Jäger)"
+Inst20Quest6_Aim = Inst20Quest5_Aim
+Inst20Quest6_Location = "Das größte Volk von Jägern (lassen alle Bosse in allen Düsterbruch-Flügeln zufällig fallen)"
+Inst20Quest6_Note = "Die Belohnung sind für Jäger. Du gibst das Buch bei Hüterin des Wissens Mykos in der "..YELLOW.."1' Bibliothek"..WHITE.." ab."
 Inst20Quest6_Prequest = "Nein"
 Inst20Quest6_Folgequest = "Nein"
 --
 Inst20Quest6name1 = Inst20Quest5name1
 
 --Quest 7 Alliance
-Inst20Quest7 = "7. The Arcanist's Cookbook (Mage)"
-Inst20Quest7_Aim = "Return the book to its rightful owners."
-Inst20Quest7_Location = "The Arcanist's Cookbook (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest7_Note = "The reward is for Mages. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Bibliothek"..WHITE.."."
+Inst20Quest7 = "7. Das Arkanistenkochbuch (Magier)"
+Inst20Quest7_Aim = Inst20Quest5_Aim
+Inst20Quest7_Location = "Das Arkanistenkochbuch (lassen alle Bosse in allen Düsterbruch-Flügeln zufällig fallen)"
+Inst20Quest7_Note = "Die Belohnung sind für Magier. Du gibst das Buch bei Lorekeeper Kildrath at the "..YELLOW.."1' Bibliothek"..WHITE.." ab."
 Inst20Quest7_Prequest = "Nein"
 Inst20Quest7_Folgequest = "Nein"
 --
 Inst20Quest7name1 = Inst20Quest5name1
 
 --Quest 8 Alliance
-Inst20Quest8 = "8. The Light and How To Swing It (Paladin)"
-Inst20Quest8_Aim = "Return the book to its rightful owners."
-Inst20Quest8_Location = "The Light and How To Swing It (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest8_Note = "The reward is for Paladins. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Bibliothek"..WHITE.."."
+Inst20Quest8 = "8. Vom Licht und wie man es schwingt (Paladin)"
+Inst20Quest8_Aim = Inst20Quest5_Aim
+Inst20Quest8_Location = "Vom Licht und wie man es schwingt (lassen alle Bosse in allen Düsterbruch-Flügeln zufällig fallen)"
+Inst20Quest8_Note = "Die Belohnung sind für Paladine. Du gibst das Buch bei Hüterin des Wissens Mykos in der "..YELLOW.."1' Bibliothek"..WHITE.." ab."
 Inst20Quest8_Prequest = "Nein"
 Inst20Quest8_Folgequest = "Nein"
 --
 Inst20Quest8name1 = Inst20Quest5name1
 
 --Quest 9 Alliance
-Inst20Quest9 = "9. Holy Bologna: What the Light Won't Tell You (Priest)"
-Inst20Quest9_Aim = "Return the book to its rightful owners."
-Inst20Quest9_Location = "Holy Bologna: What the Light Won't Tell You (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest9_Note = "The reward is for Priests. You turn the book in to Lorekeeper Javon at the "..YELLOW.."1' Bibliothek"..WHITE.."."
+Inst20Quest9 = "9. Heiliger Fleischklops: Was das Licht Dir nicht erzählt (Priester)"
+Inst20Quest9_Aim = Inst20Quest5_Aim
+Inst20Quest9_Location = "Heiliger Fleischklops: Was das Licht Dir nicht erzählt (lassen alle Bosse in allen Düsterbruch-Flügeln zufällig fallen)"
+Inst20Quest9_Note = "Die Belohnung sind für Priester. Du gibst das Buch bei Hüter des Wissens Javon in der "..YELLOW.."1' Bibliothek"..WHITE.." ab."
 Inst20Quest9_Prequest = "Nein"
 Inst20Quest9_Folgequest = "Nein"
 --
 Inst20Quest9name1 = Inst20Quest5name1
 
 --Quest 10 Alliance
-Inst20Quest10 = "10. Garona: A Study on Stealth and Treachery (Rogue)"
-Inst20Quest10_Aim = "Return the book to its rightful owners."
-Inst20Quest10_Location = "Garona: A Study on Stealth and Treachery (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest10_Note = "The reward is for Rogues. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Bibliothek"..WHITE.."."
+Inst20Quest10 = "10. Garona: Eine Studie über Heimlichkeit und Verrat (Schurke)"
+Inst20Quest10_Aim = Inst20Quest5_Aim
+Inst20Quest10_Location = "Garona: Eine Studie über Heimlichkeit und Verrat (lassen alle Bosse in allen Düsterbruch-Flügeln zufällig fallen)"
+Inst20Quest10_Note = "Die Belohnung sind für Schurken. Du gibst das Buch bei Lorekeeper Kildrath at the "..YELLOW.."1' Bibliothek"..WHITE.." ab."
 Inst20Quest10_Prequest = "Nein"
 Inst20Quest10_Folgequest = "Nein"
 --
 Inst20Quest10name1 = Inst20Quest5name1
 
 --Quest 11 Alliance
-Inst20Quest11 = "11. Harnessing Shadows (Warlock)"
-Inst20Quest11_Aim = "Return the book to its rightful owners."
-Inst20Quest11_Location = "Harnessing Shadows (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest11_Note = "Warlock quest. You turn the book in to Lorekeeper Mykos at the "..YELLOW.."1' Bibliothek"..WHITE.."."
+Inst20Quest11 = "11. Schatten einspannen (Hexenmeister)"
+Inst20Quest11_Aim = Inst20Quest5_Aim
+Inst20Quest11_Location = "Schatten einspannen (lassen alle Bosse in allen Düsterbruch-Flügeln zufällig fallen)"
+Inst20Quest11_Note = "Die Belohnung sind für Hexenmeister. Du gibst das Buch bei Hüterin des Wissens Mykos in der "..YELLOW.."1' Bibliothek"..WHITE.." ab."
 Inst20Quest11_Prequest = "Nein"
 Inst20Quest11_Folgequest = "Nein"
 --
 Inst20Quest11name1 = Inst20Quest5name1
 
 --Quest 12 Alliance
-Inst20Quest12 = "12. Codex of Defense (Warrior)"
-Inst20Quest12_Aim = "Return the book to its rightful owners."
-Inst20Quest12_Location = "Codex of Defense (randomly drops off bosses in all Düsterbruch wings)"
-Inst20Quest12_Note = "Warrior quest. You turn the book in to Lorekeeper Kildrath at the "..YELLOW.."1' Bibliothek"..WHITE.."."
+Inst20Quest12 = "12. Kodex der Verteidigung (Krieger)"
+Inst20Quest12_Aim = Inst20Quest5_Aim
+Inst20Quest12_Location = "Kodex der Verteidigung (lassen alle Bosse in allen Düsterbruch-Flügeln zufällig fallen)"
+Inst20Quest12_Note = "Die Belohnung sind für Krieger. Du gibst das Buch bei Hüter des Wissens Kildrath in der "..YELLOW.."1' Bibliothek"..WHITE.." ab."
 Inst20Quest12_Prequest = "Nein"
 Inst20Quest12_Folgequest = "Nein"
 --
 Inst20Quest12name1 = Inst20Quest5name1
 
 --Quest 13 Alliance
-Inst20Quest13 = "13. Libram of Focus"
-Inst20Quest13_Aim = "Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Focus."
-Inst20Quest13_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE..")"
-Inst20Quest13_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Skin of Shadow is Soulbound and can drop off some bosses, Risen Constructs and Risen Bonewarder in "..YELLOW.."Scholomance"..WHITE.."."
+Inst20Quest13 = "13. Buchband des Fokus"
+Inst20Quest13_Aim = "Bringt ein Buchband des Fokus, 1 makellosen schwarzen Diamanten, 4 große glänzende Splitter und 2 mal Schattenhaut, zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum des Fokus zu erhalten."
+Inst20Quest13_Location = "Hüter des Wissens Lydros (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE..")"
+Inst20Quest13_Note = "Es gibt keine Vorquest, doch die Quest 'Elfische Legenden' muss vorher abgeschlossen werden.\n\nDas Buchband ist ein zufälliger dropp in Düsterbruch und ist handelbar, so dass es im Auktionshaus zu finden ist. Schattenhaut ist sellengebunden und Kann von den Gegnern: Auferstandenes Konstrukt und Auferstandener Knochenwärter in "..YELLOW.."Scholomance"..WHITE.." gedroppt werden."
 Inst20Quest13_Prequest = "Nein"
 Inst20Quest13_Folgequest = "Nein"
 --
-Inst20Quest13name1 = "Arcanum of Focus"
+Inst20Quest13name1 = "Arkanum des Fokus"
 
 --Quest 14 Alliance
-Inst20Quest14 = "14. Libram of Protection"
-Inst20Quest14_Aim = "Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Protection."
-Inst20Quest14_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE..")"
-Inst20Quest14_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Frayed Abomination Stitching is Soulbound and can drop off Ramstein the Gorger, Venom Belchers, Bile Spewer and Patchwork Horror in "..YELLOW.."Stratholme"..WHITE.."."
+Inst20Quest14 = "14. Buchband des Schutzes"
+Inst20Quest14_Aim = "Bringt ein Buchband des Schutzes, 1 makellosen schwarzen Diamanten, 2 große glänzende Splitter und 1 ausgefranste Monstrositätenstickerei zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum des Schutzes zu erhalten."
+Inst20Quest14_Location = Inst20Quest13_Location
+Inst20Quest14_Note = "Es gibt keine Vorquest, doch die Quest 'Elfische Legenden' muss vorher abgeschlossen werden.\n\nDas Buchband ist ein zufälliger dropp in Düsterbruch und ist handelbar, so dass es im Auktionshaus zu finden ist. Ausgefranste Monstrositätenstickerei ist seelengebunden und kann von den Gegnern: Ramstein der Verschlinger, Giftrülpser, Gallspucker und Flickwerkschrecken in "..YELLOW.."Stratholme"..WHITE.." gedroppt werden."
 Inst20Quest14_Prequest = "Nein"
 Inst20Quest14_Folgequest = "Nein"
 --
-Inst20Quest14name1 = "Arcanum of Protection"
+Inst20Quest14name1 = "Arkanum des Schutzes"
 
 --Quest 15 Alliance
-Inst20Quest15 = "15. Libram of Rapidity"
-Inst20Quest15_Aim = "Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Düsterbruch to receive an Arcanum of Rapidity."
-Inst20Quest15_Location = "Lorekeeper Lydros (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE..")"
-Inst20Quest15_Note = "It's not a prequest, but Elven Legends must be completed before this quest can be started.\n\nThe Libram is a random drop in Düsterbruch and is tradeable, so it may be found on the Auction House. Blood of Heroes is Soulbound and can be found on the ground in random places in the Western and Östliche Pestländer."
+Inst20Quest15 = "15. Buchband der Schnelligkeit"
+Inst20Quest15_Aim = "Bringt ein Buchband der Schnelligkeit, 1 makellosen schwarzen Diamanten, 2 große glänzende Splitter und 2 mal das Blut von Helden, zum Hüter des Wissens Lydros in Düsterbruch, um ein Arkanum der Schnelligkeit zu erhalten."
+Inst20Quest15_Location = Inst20Quest13_Location
+Inst20Quest15_Note = "Es gibt keine Vorquest, doch die Quest 'Elfische Legenden' muss vorher abgeschlossen werden.\n\nDas Buchband ist ein zufälliger dropp in Düsterbruch und ist handelbar, so dass es im Auktionshaus zu finden ist. Blut von Helden ist seelengebunden und kann am Boden an beliebigen Orten in den westlichen und östlichen Pestländern gefunden werden."
 Inst20Quest15_Prequest = "Nein"
 Inst20Quest15_Folgequest = "Nein"
 --
-Inst20Quest15name1 = "Arcanum of Rapidity"
+Inst20Quest15name1 = "Arkanum der Schnelligkeit"
 
 --Quest 16 Alliance
-Inst20Quest16 = "16. Foror's Compendium (Warrior, Paladin)"
-Inst20Quest16_Aim = "Return Foror's Compendium of Dragon Slaying to the Athenaeum."
-Inst20Quest16_Location = "Foror's Compendium of Dragon Slaying (random boss drop in "..YELLOW.."Düsterbruch"..WHITE..")"
-Inst20Quest16_Note = "Warrior or Paladin quest. It turns in to Lorekeeper Lydros at (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE.."). Turning this in allows you to start the quest for Quel'Serrar.\n\nAs of patch 3.2.2, you can no longer complete this questline unless you've already started it."
+Inst20Quest16 = "16. Forors Kompendium (Krieger)"
+Inst20Quest16_Aim = "Bringt Forors Kompendium des Drachentötens zurück in das Athenaeum."
+Inst20Quest16_Location = "Forors Kompendium des Drachentötens (zufälliger dropp  in "..YELLOW.."Düsterbruch"..WHITE..")"
+Inst20Quest16_Note = "Kriegerquest. Die bringt Dich zu Hüter des Wissens Lydros in (Düsterbruch West; "..YELLOW.."[1'] Bibliothek"..WHITE.."). Wenn du dies aktivierst, kannst du die Quest für Quel'Serrar beginnen."
 Inst20Quest16_Prequest = "Nein"
-Inst20Quest16_Folgequest = "The Forging of Quel'Serrar"
+Inst20Quest16_Folgequest = "Das Schmieden von Quel'Serrar"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst20Quest1_HORDE = "1. Elven Legends"
-Inst20Quest1_HORDE_Aim = "Search Düsterbruch for Kariel Winthalus. Report back to Sage Korolusk at Camp Mojache with whatever information that you may find."
+Inst20Quest1_HORDE = Inst20Quest1
+Inst20Quest1_HORDE_Aim = "Sucht in Düsterbruch nach Kariel Winthalus. Meldet Euch anschließend bei Sage Korolusk in Camp Mojache."
 Inst20Quest1_HORDE_Location = "Sage Korolusk (Feralas - Camp Mojache; "..YELLOW.."74,43"..WHITE..")"
-Inst20Quest1_HORDE_Note = "You find Kariel Winthalus in the "..YELLOW.."Bibliothek (West)"..WHITE.."."
+Inst20Quest1_HORDE_Note = Inst20Quest1_Note
 Inst20Quest1_HORDE_Prequest = "Nein"
 Inst20Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst20Quest2_HORDE = Inst20Quest2
 Inst20Quest2_HORDE_Aim = Inst20Quest2_Aim
 Inst20Quest2_HORDE_Location = Inst20Quest2_Location
@@ -3556,7 +3556,7 @@ Inst20Quest2_HORDE_Prequest = "Nein"
 Inst20Quest2_HORDE_Folgequest = Inst20Quest2_Folgequest
 -- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst20Quest3_HORDE = Inst20Quest3
 Inst20Quest3_HORDE_Aim = Inst20Quest3_Aim
 Inst20Quest3_HORDE_Location = Inst20Quest3_Location
@@ -3568,7 +3568,7 @@ Inst20Quest3name1_HORDE = Inst20Quest3name1
 Inst20Quest3name2_HORDE = Inst20Quest3name2
 Inst20Quest3name3_HORDE = Inst20Quest3name3
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst20Quest4_HORDE = Inst20Quest4
 Inst20Quest4_HORDE_Aim = Inst20Quest4_Aim
 Inst20Quest4_HORDE_Location = Inst20Quest4_Location
@@ -3608,10 +3608,10 @@ Inst20Quest7_HORDE_Folgequest = "Nein"
 Inst20Quest7name1_HORDE = Inst20Quest7name1
 
 --Quest 8 Horde
-Inst20Quest8_HORDE = "8. Frost Shock and You (Shaman)"
-Inst20Quest8_HORDE_Aim = "Return the book to its rightful owners."
-Inst20Quest8_HORDE_Location = "Frost Shock and You (randomly drops off bosses in all Dire Maul wings)"
-Inst20Quest8_HORDE_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the "..GREEN.."[1'] Bibliothek"..WHITE.."."
+Inst20Quest8_HORDE = "8. Frostschock und Du (Schamane)"
+Inst20Quest8_HORDE_Aim = Inst20Quest5_Aim
+Inst20Quest8_HORDE_Location = "Frostschock und Du (zufälliger dropp von Allen Bossen in den Drüsterbruch-Flügeln)"
+Inst20Quest8_HORDE_Note = "Die Belohnung sind für Schamanen. Du gibst das Buch bei Hüter des Wissens Javon in der "..GREEN.."[1'] Bibliothek"..WHITE.." ab."
 Inst20Quest8_HORDE_Prequest = "Nein"
 Inst20Quest8_HORDE_Folgequest = "Nein"
 --
@@ -3687,7 +3687,7 @@ Inst20Quest15_HORDE_Folgequest = "Nein"
 --
 Inst20Quest15name1_HORDE = Inst20Quest15name1
 
---Quest 16 Horde  (same as Quest 16 Alliance)
+--Quest 16 Horde
 Inst20Quest16_HORDE = Inst20Quest16
 Inst20Quest16_HORDE_Aim = Inst20Quest16_Aim
 Inst20Quest16_HORDE_Location = Inst20Quest16_Location
