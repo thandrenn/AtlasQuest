@@ -3020,7 +3020,7 @@ Inst17QAH = "5 Quests"
 Inst17Quest1 = "1. Wissen in der Tiefe"
 Inst17Quest1_Aim = "Bringt das 'Lorgalis-Manuskript' zu Gerrig Bonegrip in Ironforge."
 Inst17Quest1_Location = "Gerrig Bonegrip (Ironforge - Das Düstere Viertel; "..YELLOW.."50,5"..WHITE..")"
-Inst17Quest1_Note = "Das Mansukript findest Du bei "..YELLOW.."[2]"..WHITE.." in the water."
+Inst17Quest1_Note = "Das Mansukript findest Du bei "..YELLOW.."[2]"..WHITE.." im Wasser."
 Inst17Quest1_Prequest = "Nein"
 Inst17Quest1_Folgequest = "Nein"
 --
@@ -3296,7 +3296,7 @@ Inst19Quest3_Folgequest = "Nein"
 
 --Quest 4 Alliance
 Inst19Quest4 = "4. Die offene Rechnung der Gordok"
-Inst19Quest4_Aim = "Findet die Stulpen der Gordokmacht und bringt sie zu Captain Kromcrush in Düsterbruch.\nKromcrush zufolge sagen die "Alte Zeit Geschichten", dass Tortheldrin - ein "gruseliger" Elf, der sich selbst als Prinz bezeichnet- sie einem der Gordokkönige gestohlen hat."
+Inst19Quest4_Aim = "Findet die Stulpen der Gordokmacht und bringt sie zu Captain Kromcrush in Düsterbruch.\nKromcrush zufolge sagen die 'Alte Zeit Geschichten', dass Tortheldrin - ein 'gruseliger' Elf, der sich selbst als Prinz bezeichnet- sie einem der Gordokkönige gestohlen hat."
 Inst19Quest4_Location = "Captain Kromcrush (Düsterbruch; "..YELLOW.."Nord, [5]"..WHITE..")"
 Inst19Quest4_Note = "Prinz ist in Düsterbruch "..YELLOW.."West"..WHITE.." bei "..YELLOW.."[7]"..WHITE..". Die Stulpen sind in der Nähe in einer Truhe. Du kannst diese Quest nur machen, nachdem Du den Tributlauf gemacht hast und den Königsbuff der Gordok besitzt."
 Inst19Quest4_Prequest = "Nein"
@@ -3411,7 +3411,7 @@ Inst20Quest3name3 = "Knochenzermalmer"
 
 --Quest 4 Alliance
 Inst20Quest4 = "4. Schreckensross von Xoroth (Hexenmeister)"
-Inst20Quest4_Aim = Lest Morzuls Anweisungen. Beschwört ein xorothianisches Schreckensross, besiegt es und bindet seinen Geist an Euch."
+Inst20Quest4_Aim = "Lest Morzuls Anweisungen. Beschwört ein xorothianisches Schreckensross, besiegt es und bindet seinen Geist an Euch."
 Inst20Quest4_Location = "Mor'zul Bloodbringer (Brennende Steppe; "..YELLOW.."12,31"..WHITE..")"
 Inst20Quest4_Note = "Finale Quest für das Eische Reittier des Hexenmeisters. Zuerst musst du alle mit "..BLUE.."[B]"..WHITE.." markierten Pylone abschalten und dann töte Immol'thar bei "..YELLOW.."[6]"..WHITE..".Danach kannst du mit dem Beschwörungsritual beginnen. Stelle sicher, dass du mehr als 20 Seelensplitter hast und einen Hexenmeister hast, der speziell dafür vorgesehen ist, die Glocke, die Kerze und das Rad oben zu halten. Die kommenden Schicksalsgarden können versklavt werden. Sprich nach Abschluss mit dem Schreckensrossgeist, um die Quest abzuschließen."
 Inst20Quest4_Prequest = "Wichtellieferung ("..YELLOW.."Scholomance"..WHITE..")"
@@ -3781,11 +3781,11 @@ Inst21Quest7_Folgequest = "Samenkorn des Lebens"
 --
 Inst21Quest7name1 = "Hauklinge"
 Inst21Quest7name2 = "Rute der Wiederauferstehung"
-Inst21Quest7name3 = Ziel des tiefgrünen Bewahrers
+Inst21Quest7name3 = "Ziel des tiefgrünen Bewahrers"
 
 --Quest 8 Alliance
 Inst21Quest8 = "8. Samenkorn des Lebens"
-Inst21Quest8_Aim = "Sucht Remulos in Moonglade auf und gebt ihm das Samenkorn des Lebens. ."
+Inst21Quest8_Aim = "Sucht Remulos in Moonglade auf und gebt ihm das Samenkorn des Lebens."
 Inst21Quest8_Location = "Zaetars Geist (Maraudon; "..YELLOW.."[11]"..WHITE..")"
 Inst21Quest8_Note = "Zaetars Geist erscheint nach dem Tod von Prinzessin Theradras "..YELLOW.."[11]"..WHITE..". Du findest Bewahrer Remulos bei (Moonglade - Schrein von Remulos; "..YELLOW.."36,41"..WHITE..")."
 Inst21Quest8_Prequest = "Verderbnis von Erde und Samenkorn"
@@ -4073,7 +4073,7 @@ Inst24Quest4_Note = "Charlga Razorflank "..YELLOW.."[7]"..WHITE.." droppt das Me
 Inst24Quest4_Prequest = "Lonebrows Tagebuch"
 Inst24Quest4_Folgequest = "Nein"
 --
-Inst24Quest4name1 = "Donnerbüchse "Magierauge""
+Inst24Quest4name1 = "Donnerbüchse 'Magierauge'"
 Inst24Quest4name2 = "Beryllpolster"
 Inst24Quest4name3 = "Steinfaustgurt"
 Inst24Quest4name4 = "Marmorierter Rundschild"
@@ -4084,7 +4084,7 @@ Inst24Quest5_Aim = "Sammelt die Materialien, die Furen Longbeard benötigt, und 
 Inst24Quest5_Location = "Furen Longbeard (Stormwind - Zwergendistrikt; "..YELLOW.."64.4, 37.3"..WHITE..")"
 Inst24Quest5_Note = "Diese Quest können nur Krieger erhalten. Du bekommst die Phiole von Roogug bei "..YELLOW.."[1]"..WHITE..".\n\nDie Folgequest ist für jeden Rasse unterschiedlich. Brennendes Blut für Menschen, Eisenkoralle für Zwerge und Gnome und Sonnenverbrannte Schalen für Nachtelfen."
 Inst24Quest5_Prequest = "Der Schildschmied"
-Inst24Quest5_Folgequest = "(Siehe Note)"
+Inst24Quest5_Folgequest = "(Siehe Information)"
 -- No Rewards for this quest
 
 
@@ -4114,7 +4114,7 @@ Inst24Quest2name3_HORDE = "Tigerband"
 Inst24Quest3_HORDE = "3. Go, Go, Guano!"
 Inst24Quest3_HORDE_Aim = "Bringt dem Apothekermeister Faranell in Undercity 1 Häufchen Kral-Guano."
 Inst24Quest3_HORDE_Location = "Apothekenmeister Faranell (Undercity - Das Apothekarium; "..YELLOW.."48,69 "..WHITE..")"
-Inst24Quest3_HORDE_Note = "Kraul Guano is dropped by any of the bats found within the instance."
+Inst24Quest3_HORDE_Note = "Kraul Guano wird von jeder der Fledermäuse fallen gelassen, die in der Instanz gefunden werden."
 Inst24Quest3_HORDE_Prequest = "Nein"
 Inst24Quest3_HORDE_Folgequest = "Herzen des Eifers ("..YELLOW.."[Scharlachroter Kloster"..WHITE..")"
 -- No Rewards for this quest
@@ -4137,7 +4137,7 @@ Inst24Quest5_HORDE_Aim = "Bringt Thun'grim Firegaze 15 rauchige Eisenblöcke, 10
 Inst24Quest5_HORDE_Location = "Thun'grim Firegaze (Brachland; "..YELLOW.."57,30"..WHITE..")"
 Inst24Quest5_HORDE_Note = "Diese Quest können nur Krieger erhalten. Du bekommst die Phiole von Roogug bei "..YELLOW.."[1]"..WHITE..".\n\nWenn du diese Quest abschließt, kannst du vier neue Quests vom gleichen NPC starten."
 Inst24Quest5_HORDE_Prequest = "Gespräch mit Ruga -> Gespräch mit Thun'grim"
-Inst24Quest5_HORDE_Folgequest = "(Siehe Note)"
+Inst24Quest5_HORDE_Folgequest = "(Siehe Information)"
 -- No Rewards for this quest
 
 
@@ -4245,8 +4245,8 @@ Inst25Quest5_HORDE = "5. Deviate Eradication"
 Inst25Quest5_HORDE_Aim = Inst25Quest4_Aim
 Inst25Quest5_HORDE_Location = Inst25Quest4_Location
 Inst25Quest5_HORDE_Note = Inst25Quest4_Note
-Inst25Quest5_HORDE_Prequest = Nein"
-Inst25Quest5_HORDE_Folgequest = Nein"
+Inst25Quest5_HORDE_Prequest = "Nein"
+Inst25Quest5_HORDE_Folgequest = "Nein"
 --
 Inst25Quest5name1_HORDE = Inst25Quest4name1
 Inst25Quest5name2_HORDE = Inst25Quest4name2
@@ -4268,7 +4268,7 @@ Inst25Quest7_HORDE = "7. Der leuchtende Splitter"
 Inst25Quest7_HORDE_Aim = Inst25Quest5_Aim
 Inst25Quest7_HORDE_Location = Inst25Quest5_Location
 Inst25Quest7_HORDE_Note = Inst25Quest5_Note
-Inst25Quest7_HORDE_Prequest = Nein"
+Inst25Quest7_HORDE_Prequest = "Nein"
 Inst25Quest7_HORDE_Folgequest = "Alptraum"
 --
 Inst25Quest7name1_HORDE = "Talbar-Mantel"
@@ -4727,18 +4727,18 @@ Inst30Quest1name4 = "Anhänger der Sandstürme"
 
 --Quest 2 Alliance
 Inst30Quest2 = "2. Das perfekte Gift"
-Inst30Quest2_Aim = "Dirk Thunderwood in der Burg Cenarius will, dass Ihr ihm Venoxis' Giftbeutel und Kurinnaxx' Giftbeutel bringt."
-Inst30Quest2_Location = "Dirk Thunderwood (Silithus - Burg Cenarius; "..YELLOW.."52,39"..WHITE..")"
-Inst30Quest2_Note = "Venoxis's Giftbeutel droppt von Hohepriester Venoxis in "..YELLOW.."Zul'Gurub"..WHITE..". Kurinnaxx's Gifbeutel droppt in den "..YELLOW.."Ruinen von Ahn'Qiraj"..WHITE.." bei "..YELLOW.."[1]"..WHITE.."."
+Inst30Quest2_Aim = Inst29Quest4_Aim
+Inst30Quest2_Location = Inst29Quest4_Location
+Inst30Quest2_Note = Inst29Quest4_Note
 Inst30Quest2_Prequest = "Nein"
 Inst30Quest2_Folgequest = "Nein"
 --
-Inst30Quest2name1 = "Ravenholdtschnitzler"
-Inst30Quest2name2 = "Shivsprokets Messer"
-Inst30Quest2name3 = "Donnerholzschüreisen"
-Inst30Quest2name4 = "Schicksalsbringer"
-Inst30Quest2name5 = "Fahrads selbstladende Repetierarmbrust"
-Inst30Quest2name6 = "Simones Hammer der Kultivierung"
+Inst30Quest2name1 = Inst29Quest4name1
+Inst30Quest2name2 = Inst29Quest4name2
+Inst30Quest2name3 = Inst29Quest4name3
+Inst30Quest2name4 = Inst29Quest4name4
+Inst30Quest2name5 = Inst29Quest4name5
+Inst30Quest2name6 = Inst29Quest4name6
 
 
 --Quest 1 Horde
