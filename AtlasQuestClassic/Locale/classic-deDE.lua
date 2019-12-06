@@ -1424,7 +1424,7 @@ Inst7Quest1_HORDE = "1. Herzen des Eifers"
 Inst7Quest1_HORDE_Aim = "Apothekermeister Faranell in Undercity möchte 20 Herzen des Eifers."
 Inst7Quest1_HORDE_Location = "Apothekenmeister Faranell (Undercity - Das Apothekarium; "..YELLOW.."48,69"..WHITE..")"
 Inst7Quest1_HORDE_Note = "Alle Gegner in den Scharlachroten Hallen droppen die Herzen des Eifers. Dazu gehören auch die Gegner außerhalb der Instanz."
-Inst7Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."[Kral der Klingenhauer]"..WHITE..")"
+Inst7Quest1_HORDE_Prequest = "Going, Going, Guano! ("..YELLOW.."[Kral der Razforzen]"..WHITE..")"
 Inst7Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
@@ -2590,7 +2590,7 @@ Inst15Quest4name1_HORDE = Inst15Quest4name1
 --Quest 5 Horde
 Inst15Quest5_HORDE = "5. Schrumpf-Treibstoff"
 Inst15Quest5_HORDE_Aim = "Bringt Larion in Marshals Zuflucht den ungeladenen Schrumpfer und 5 Proben Dunst der Atal'ai."
-Inst15Quest5_HORDE_Location = "Liv Rizzlefix (Barrens; "..YELLOW.."62,38"..WHITE..")"
+Inst15Quest5_HORDE_Location = "Liv Rizzlefix (Brachland; "..YELLOW.."62,38"..WHITE..")"
 Inst15Quest5_HORDE_Note = "Die Vorquest 'Larion und Muigin' startet bei Larion (Un'Goro-Krater; "..YELLOW.."45,8"..WHITE.."). Du bekommst den Dunst von den Brühschlammern, Düsterwürmern oder Tieflauerern."
 Inst15Quest5_HORDE_Prequest = "Larion und Muigin -> Marvons Werkstatt"
 Inst15Quest5_HORDE_Folgequest = "Nein"
@@ -3706,179 +3706,179 @@ Inst21QAA = "8 Quests"
 Inst21QAH = "8 Quests"
 
 --Quest 1 Alliance
-Inst21Quest1 = "1. Shadowshard Fragments"
-Inst21Quest1_Aim = "Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh."
-Inst21Quest1_Location = "Archmage Tervosh (Dustwallow Marsh - Theramore Isle; "..YELLOW.."66,49"..WHITE..")"
-Inst21Quest1_Note = "You get the Shadowshard Fragments from 'Shadowshard Rumbler' or 'Shadowshard Smasher' outside the instance on the Purple side."
+Inst21Quest1 = "1. Schattensplitter"
+Inst21Quest1_Aim = "Sammelt 10 Schattensplitter in Maraudon und bringt sie zu Erzmagier Tervosh in den Marschen von Dustwallow."
+Inst21Quest1_Location = "Erzmagier Tervosh (Marschen von Dustwallow - Insel Theramore "..YELLOW.."66,49"..WHITE..")"
+Inst21Quest1_Note = "Du bekommst die Schattensplitter von den Schattensteinrumplern und den Schattensteinzerkracher außerhalb der Instanzthe und auf violetten Seite."
 Inst21Quest1_Prequest = "Nein"
 Inst21Quest1_Folgequest = "Nein"
 --
-Inst21Quest1name1 = "Zealous Shadowshard Pendant"
-Inst21Quest1name2 = "Prodigious Shadowshard Pendant"
+Inst21Quest1name1 = "Schattensplitteranhänger des Eifers"
+Inst21Quest1name2 = "Vorwarnender Schattensplitteranhänger"
 
 --Quest 2 Alliance
-Inst21Quest2 = "2. Vyletongue Corruption"
-Inst21Quest2_Aim = "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\nHeal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point."
-Inst21Quest2_Location = "Talendria (Desolace - Nijel's Point; "..YELLOW.."68,8"..WHITE..")"
-Inst21Quest2_Note = "You can fill the Vial at any pool outside the instance on the Orange side. The plants are in the orange and purple areas inside the instance."
+Inst21Quest2 = "2. Schlangenzunges Verderbnis"
+Inst21Quest2_Aim = "Füllt die beschichtete himmelblaue Phiole am orangefarbenen Kristallteich in Maraudon.\nBenutzt die gefüllte himmelblaue Phiole mit den Schlangenstrunkranken, damit der verderbte Noxxious-Spross herausgezwungen wird.\nHeilt 8 Pflanzen, indem Ihr diesen Noxxious-Spross tötet und kehrt dann zu Talendria an der Nijelspitze zurück."
+Inst21Quest2_Location = "Talendria (Desolace - Nijelspitze; "..YELLOW.."68,8"..WHITE..")"
+Inst21Quest2_Note = "Du kannst das Fläschchen an jedem Teich außerhalb der Instanz auf der orangefarbenen Seite füllen. Die Pflanzen befinden sich in den orangefarbenen und violetten Bereichen innerhalb der Instanz."
 Inst21Quest2_Prequest = "Nein"
 Inst21Quest2_Folgequest = "Nein"
 --
-Inst21Quest2name1 = "Woodseed Hoop"
-Inst21Quest2name2 = "Sagebrush Girdle"
-Inst21Quest2name3 = "Branchclaw Gauntlets"
+Inst21Quest2name1 = "Ring der Waldsaat"
+Inst21Quest2name2 = "Weisenblattgurt"
+Inst21Quest2name3 = "Astkrallenstulpen"
 
 --Quest 3 Alliance
-Inst21Quest3 = "3. Twisted Evils"
-Inst21Quest3_Aim = "Collect 25 Theradric Crystal Carvings for Willow in Desolace."
+Inst21Quest3 = "3. Dunkles Böses"
+Inst21Quest3_Aim = "Sammelt 25 theradrische Kristallschnitzereien für Willow in Desolace."
 Inst21Quest3_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
-Inst21Quest3_Note = "Most mobs in Maraudon drop the Carvings."
+Inst21Quest3_Note = "Die meisten Gegner droppen die Schnitzereien."
 Inst21Quest3_Prequest = "Nein"
 Inst21Quest3_Folgequest = "Nein"
 --
-Inst21Quest3name1 = "Acumen Robes"
-Inst21Quest3name2 = "Sprightring Helm"
-Inst21Quest3name3 = "Relentless Chain"
-Inst21Quest3name4 = "Hulkstone Pauldrons"
+Inst21Quest3name1 = "Scharfsinn-Roben"
+Inst21Quest3name2 = "Rüstringhelm"
+Inst21Quest3name3 = "Unerbittliche Kette"
+Inst21Quest3name4 = "Schulterstücke des Steinkolosses"
 
 --Quest 4 Alliance
-Inst21Quest4 = "4. The Pariah's Instructions"
-Inst21Quest4_Aim = "Read the Pariah's Instructions. Afterwards, obtain the Amulet of Union from Maraudon and return it to the Centaur Pariah in southern Desolace."
-Inst21Quest4_Location = "Centaur Pariah (Desolace; "..YELLOW.."45,86"..WHITE..")"
-Inst21Quest4_Note = "The 5 Kahns (Description for The Pariah's Instructions)"
-Inst21Quest4_Page = {2, "You find the Centaur Pariah in the south of desolace. He walks between "..YELLOW.."44,85"..WHITE.." and "..YELLOW.."50,87"..WHITE..".\nFirst, you have to kill the The Nameless Prophet ("..YELLOW.."[A] auf der Eingangskarte"..WHITE.."). You find him before you enter the instance, before the point where you can choose whether you take the purple or the orange entrance. After killing him you must kill the 5 Kahns. You find the first if you choose the way in the middle ("..YELLOW.."[1] auf der Eingangskarte"..WHITE.."). The second is in the purple part of Maraudon but before you enter the instance ("..YELLOW.."[2] auf der Eingangskarte"..WHITE.."). The third is in the orange part before you enter the instance ("..YELLOW.."[3] auf der Eingangskarte"..WHITE.."). The fourth is near "..YELLOW.."[4]"..WHITE.." and the fifth is near  "..YELLOW.."[1]"..WHITE..".", };
+Inst21Quest4 = "4. Die Anweisungen des Pariahs"
+Inst21Quest4_Aim = "Lest die Anweisungen des Pariahs. Beschafft Euch danach das Amulett der Vereinigung von Maraudon und bringt es dem Zentaurenpariah im südlichen Desolace."
+Inst21Quest4_Location = "Zentaurenpariah (Desolace; "..YELLOW.."45,86"..WHITE..")"
+Inst21Quest4_Note = "Töte den Namenlosen Propheten bei ("..YELLOW.."[A] auf der Eingangskarte"..WHITE..") und dann töte den 5. Kahns.  Der erste ist im mittleren Pfad in der Nähe von ("..YELLOW.."[D] auf der Eingangskarte"..WHITE..").  Der zweite ist im lilafarbenen Teil von Maraudon, aber bevor Du die Dungeon betrittst ("..YELLOW.."[B] auf der Eingangskarte"..WHITE..").  Der Dritte befindet sich im orangefarbenen Teil, bevor du die Instanz betrittst ("..YELLOW.."[C] auf der Eingangskarte"..WHITE..").  Der Vierte ist in der Nähe von "..YELLOW.."[4]"..WHITE.." und der Fünfte ist in der Nähe von  "..YELLOW.."[1]"..WHITE.."."
 Inst21Quest4_Prequest = "Nein"
 Inst21Quest4_Folgequest = "Nein"
 --
-Inst21Quest4name1 = "Mark of the Chosen"
+Inst21Quest4name1 = "Mal der Auserwählten"
+Inst21Quest4name2 = "Amulett der Geister"
 
 --Quest 5 Alliance
-Inst21Quest5 = "5. Legends of Maraudon"
-Inst21Quest5_Aim = "Recover the two parts of the Scepter of Celebras: the Celebrian Rod and the Celebrian Diamond.\nFind a way to speak with Celebras."
+Inst21Quest5 = "5. Legenden von Maraudon"
+Inst21Quest5_Aim = "Beschafft die beiden Teile des Szepters von Celebras: den Celebriangriff und den Celebriandiamanten.\nFindet einen Weg, um mit Celebras zu sprechen."
 Inst21Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] auf der Eingangskarte"..WHITE..")"
-Inst21Quest5_Note = "You find Cavindra at the beginning  of the orange part before you enter the instance.\nYou get the Celebrian Rod from Noxxion at "..YELLOW.."[2]"..WHITE..", the Celebrian Diamond from Lord Vyletongue at  "..YELLOW.."[5]"..WHITE..". Celebras ist bei "..YELLOW.."[7]"..WHITE..". You have to defeat him to be able to talk to him."
+Inst21Quest5_Note = "Du findest Cavindra am Anfang des orangefarbenen Teils, bevor du die Instanz betrittst.\nDu bekommst denn Celebriangriff von Noxxion bei "..YELLOW.."[2]"..WHITE..", den Celebriandiamanten von Lord Vyletongue bei  "..YELLOW.."[5]"..WHITE..". Celebras ist bei "..YELLOW.."[7]"..WHITE..". Du mußt ihn besiegen, um mit ihm reden zu können."
 Inst21Quest5_Prequest = "Nein"
-Inst21Quest5_Folgequest = "The Scepter of Celebras"
+Inst21Quest5_Folgequest = "Das Szepter von Celebras"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst21Quest6 = "6. The Scepter of Celebras"
-Inst21Quest6_Aim = "Assist Celebras the Redeemed while he creates the Scepter of Celebras.\nSpeak with him when the ritual is complete."
-Inst21Quest6_Location = "Celebras the Redeemed (Maraudon; "..YELLOW.."[7]"..WHITE..")"
-Inst21Quest6_Note = "Celebras creates the Scepter. Speak with him after he is finished."
-Inst21Quest6_Prequest = "Legends of Maraudon"
+Inst21Quest6 = "6. Das Szepter von Celebras"
+Inst21Quest6_Aim = "Helft Celebras dem Erlösten, während er das Szepter von Celebras herstellt.\nSprecht mit ihm, nachdem das Ritual vollendet ist."
+Inst21Quest6_Location = "Celebras der Erlöste (Maraudon; "..YELLOW.."[7]"..WHITE..")"
+Inst21Quest6_Note = "Celebras erschafft das Zepter. Sprich mit ihm, nachdem er fertig ist."
+Inst21Quest6_Prequest = "Legenden von Maraudon"
 Inst21Quest6_Folgequest = "Nein"
 --
-Inst21Quest6name1 = "Scepter of Celebras"
+Inst21Quest6name1 = "Szepter von Celebras"
 
 --Quest 7 Alliance
-Inst21Quest7 = "7. Corruption of Earth and Seed"
-Inst21Quest7_Aim = "Slay Princess Theradras and return to Keeper Marandist bei Nijel's Point in Desolace."
-Inst21Quest7_Location = "Keeper Marandis (Desolace - Nijel's Point; "..YELLOW.."63,10"..WHITE..")"
-Inst21Quest7_Note = "You find Princess Theradras at "..YELLOW.."[11]"..WHITE.."."
+Inst21Quest7 = "7. Verderbnis von Erde und Samenkorn"
+Inst21Quest7_Aim = "Erschlagt Prinzessin Theradras und kehrt zum Bewahrer Marandis an der Nijelspitze in Desolace zurück."
+Inst21Quest7_Location = "Bewahrer Marandis (Desolace - Nijelspitze; "..YELLOW.."63,10"..WHITE..")"
+Inst21Quest7_Note = "Du findest Prinzessin Theradras bei "..YELLOW.."[11]"..WHITE.."."
 Inst21Quest7_Prequest = "Nein"
-Inst21Quest7_Folgequest = "Seed of Life"
+Inst21Quest7_Folgequest = "Samenkorn des Lebens"
 --
-Inst21Quest7name1 = "Thrash Blade"
-Inst21Quest7name2 = "Resurgence Rod"
-Inst21Quest7name3 = "Verdant Keeper's Aim"
+Inst21Quest7name1 = "Hauklinge"
+Inst21Quest7name2 = "Rute der Wiederauferstehung"
+Inst21Quest7name3 = Ziel des tiefgrünen Bewahrers
 
 --Quest 8 Alliance
-Inst21Quest8 = "8. Seed of Life"
-Inst21Quest8_Aim = "Seek out Remulos in Moonglade and give him the Seed of Life."
-Inst21Quest8_Location = "Zaetar's Spirit (Maraudon; "..YELLOW.."[11]"..WHITE..")"
-Inst21Quest8_Note = "Zaetars Ghost appears after killing Princess Theradras "..YELLOW.."[11]"..WHITE..". You find Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36,41"..WHITE..")."
-Inst21Quest8_Prequest = "Corruption of Earth and Seed"
+Inst21Quest8 = "8. Samenkorn des Lebens"
+Inst21Quest8_Aim = "Sucht Remulos in Moonglade auf und gebt ihm das Samenkorn des Lebens. ."
+Inst21Quest8_Location = "Zaetars Geist (Maraudon; "..YELLOW.."[11]"..WHITE..")"
+Inst21Quest8_Note = "Zaetars Geist erscheint nach dem Tod von Prinzessin Theradras "..YELLOW.."[11]"..WHITE..". Du findest Bewahrer Remulos bei (Moonglade - Schrein von Remulos; "..YELLOW.."36,41"..WHITE..")."
+Inst21Quest8_Prequest = "Verderbnis von Erde und Samenkorn"
 Inst21Quest8_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
 --Quest 1 Horde
-Inst21Quest1_HORDE = "1. Shadowshard Fragments"
-Inst21Quest1_HORDE_Aim = "Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar"
-Inst21Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Valley of Spirits; "..YELLOW.."39,86"..WHITE..")"
-Inst21Quest1_HORDE_Note = "You get the Shadowshard Fragments from 'Shadowshard Rumbler' or 'Shadowshard Smasher' outside the instance on the Purple side."
+Inst21Quest1_HORDE = Inst21Quest1
+Inst21Quest1_HORDE_Aim = "Sammelt 10 Schattensplitter aus Maraudon und bringt sie zu Uthel'nay nach Orgrimmar."
+Inst21Quest1_HORDE_Location = "Uthel'nay (Orgrimmar - Tal der Geister; "..YELLOW.."39,86"..WHITE..")"
+Inst21Quest1_HORDE_Note = Inst21Quest1_Note
 Inst21Quest1_HORDE_Prequest = "Nein"
 Inst21Quest1_HORDE_Folgequest = "Nein"
 --
-Inst21Quest1name1_HORDE = "Zealous Shadowshard Pendant"
-Inst21Quest1name2_HORDE = "Prodigious Shadowshard Pendant"
+Inst21Quest1name1_HORDE = Inst21Quest1name1
+Inst21Quest1name2_HORDE = Inst21Quest1name2
 
 --Quest 2 Horde
-Inst21Quest2_HORDE = "2. Vyletongue Corruption"
-Inst21Quest2_HORDE_Aim = "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\nHeal 8 plants by killing these Noxxious Scion, then return to Vark Battlescar in Shadowprey Village."
+Inst21Quest2_HORDE = Inst21Quest2
+Inst21Quest2_HORDE_Aim = "Füllt die beschichtete himmelblaue Phiole am orangefarbenen Kristallteich in Maraudon..\nBenutzt die gefüllte himmelblaue Phiole mit den Schlangenstrunkranken, damit der verderbte Noxxious-Spross herausgezwungen wird.\nHeilt 8 Pflanzen, indem Ihr diesen Noxxious-Spross tötet und kehrt dann zu Vark Battlescar in Shadowprey zurück."
 Inst21Quest2_HORDE_Location = "Vark Battlescar (Desolace - Shadowprey Village; "..YELLOW.."23,70"..WHITE..")"
-Inst21Quest2_HORDE_Note = "You can fill the Vial at any pool outside the instance on the Orange side. The plants are in the orange and purple areas inside the instance."
+Inst21Quest2_HORDE_Note = Inst21Quest2_Note
 Inst21Quest2_HORDE_Prequest = "Nein"
 Inst21Quest2_HORDE_Folgequest = "Nein"
 --
-Inst21Quest2name1_HORDE = "Woodseed Hoop"
-Inst21Quest2name2_HORDE = "Sagebrush Girdle"
-Inst21Quest2name3_HORDE = "Branchclaw Gauntlets"
+Inst21Quest2name1_HORDE = Inst21Quest2name1
+Inst21Quest2name2_HORDE = "Weisenblattgurt"
+Inst21Quest2name3_HORDE = Inst21Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst21Quest3_HORDE = Inst21Quest3
 Inst21Quest3_HORDE_Aim = Inst21Quest3_Aim
 Inst21Quest3_HORDE_Location = Inst21Quest3_Location
 Inst21Quest3_HORDE_Note = Inst21Quest3_Note
-Inst21Quest3_HORDE_Prequest = Inst21Quest3_Prequest
-Inst21Quest3_HORDE_Folgequest = Inst21Quest3_Folgequest
+Inst21Quest3_HORDE_Prequest = "Nein"
+Inst21Quest3_HORDE_Folgequest = "Nein"
 --
 Inst21Quest3name1_HORDE = Inst21Quest3name1
-Inst21Quest3name2_HORDE = Inst21Quest3name2
+Inst21Quest3name2_HORDE = "Rüstringhelm"
 Inst21Quest3name3_HORDE = Inst21Quest3name3
 Inst21Quest3name4_HORDE = Inst21Quest3name4
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst21Quest4_HORDE = Inst21Quest4
 Inst21Quest4_HORDE_Aim = Inst21Quest4_Aim
 Inst21Quest4_HORDE_Location = Inst21Quest4_Location
 Inst21Quest4_HORDE_Note = Inst21Quest4_Note
-Inst21Quest4_HORDE_Page = Inst21Quest4_Page
-Inst21Quest4_HORDE_Prequest = Inst21Quest4_Prequest
-Inst21Quest4_HORDE_Folgequest = Inst21Quest4_Folgequest
+Inst21Quest4_HORDE_Prequest = "Nein"
+Inst21Quest4_HORDE_Folgequest = "Nein"
 --
 Inst21Quest4name1_HORDE = Inst21Quest4name1
+Inst21Quest4name2_HORDE = Inst21Quest4name2
 
---Quest 5 Horde  (same as Quest 5 Alliance)
+--Quest 5 Horde
 Inst21Quest5_HORDE = Inst21Quest5
 Inst21Quest5_HORDE_Aim = Inst21Quest5_Aim
 Inst21Quest5_HORDE_Location = Inst21Quest5_Location
 Inst21Quest5_HORDE_Note = Inst21Quest5_Note
-Inst21Quest5_HORDE_Prequest = Inst21Quest5_Prequest
+Inst21Quest5_HORDE_Prequest = "Nein"
 Inst21Quest5_HORDE_Folgequest = Inst21Quest5_Folgequest
 -- No Rewards for this quest
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde
 Inst21Quest6_HORDE = Inst21Quest6
 Inst21Quest6_HORDE_Aim = Inst21Quest6_Aim
 Inst21Quest6_HORDE_Location = Inst21Quest6_Location
 Inst21Quest6_HORDE_Note = Inst21Quest6_Note
 Inst21Quest6_HORDE_Prequest = Inst21Quest6_Prequest
-Inst21Quest6_HORDE_Folgequest = Inst21Quest6_Folgequest
+Inst21Quest6_HORDE_Folgequest = "Nein"
 Inst21Quest6FQuest_HORDE = Inst21Quest6FQuest
 --
 Inst21Quest6name1_HORDE = Inst21Quest6name1
 
 --Quest 7 Horde
-Inst21Quest7_HORDE = "7. Corruption of Earth and Seed"
-Inst21Quest7_HORDE_Aim = "Slay Princess Theradras and return to Selendra near Shadowprey Village in Desolace."
+Inst21Quest7_HORDE = Inst21Quest7
+Inst21Quest7_HORDE_Aim = "Tötet Prinzessin Theradras und kehrt zu Selendra in der Nähe von Shadowprey in Desolace zurück."
 Inst21Quest7_HORDE_Location = "Selendra (Desolace; "..YELLOW.."27,77"..WHITE..")"
-Inst21Quest7_HORDE_Note = "You find Princess Theradras at "..YELLOW.."[11]"..WHITE.."."
+Inst21Quest7_HORDE_Note = Inst21Quest7_Note
 Inst21Quest7_HORDE_Prequest = "Nein"
-Inst21Quest7_HORDE_Folgequest = "Seed of Life"
+Inst21Quest7_HORDE_Folgequest = "Samenkorn des Lebens"
 --
-Inst21Quest7name1_HORDE = "Thrash Blade"
-Inst21Quest7name2_HORDE = "Resurgence Rod"
-Inst21Quest7name3_HORDE = "Verdant Keeper's Aim"
+Inst21Quest7name1_HORDE = "Hauklinge"
+Inst21Quest7name2_HORDE = Inst21Quest7name2
+Inst21Quest7name3_HORDE = Inst21Quest7name3
 
---Quest 8 Horde  (same as Quest 8 Alliance)
+--Quest 8 Horde
 Inst21Quest8_HORDE = Inst21Quest8
 Inst21Quest8_HORDE_Aim = Inst21Quest8_Aim
 Inst21Quest8_HORDE_Location = Inst21Quest8_Location
 Inst21Quest8_HORDE_Note = Inst21Quest8_Note
 Inst21Quest8_HORDE_Prequest = Inst21Quest8_Prequest
-Inst21Quest8_HORDE_Folgequest = Inst21Quest8_Folgequest
+Inst21Quest8_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 
@@ -3947,39 +3947,39 @@ Inst22Quest5_HORDE_Folgequest = "Nein"
 
 --------------- INST23 - Razorfen Downs ---------------
 
-Inst23Caption = "Die Hügel der Klingenhauer"
+Inst23Caption = "Die Hügel der Razorfen"
 Inst23QAA = "3 Quests"
 Inst23QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst23Quest1 = "1. A Host of Evil"
-Inst23Quest1_Aim = "Kill 8 Razorfen Battleguard, 8 Razorfen Thornweavers, and 8 Death's Head Cultists and return to Myriam Moonsinger near the entrance to Die Hügel der Klingenhauer."
-Inst23Quest1_Location = "Myriam Moonsinger (The Barrens; "..YELLOW.."49,94"..WHITE..")"
-Inst23Quest1_Note = "You can find the mobs and the quest giver in the area just before the instance entrance."
+Inst23Quest1 = "1. Ein Hort des Bösen"
+Inst23Quest1_Aim = "Tötet 8 Schlachtwachen von Razorfen, 8 Dornenwirker von Razorfen und 8 Kultistinnen der Totenköpfe und kehrt dann zu Myriam Moonsinger nahe dem Eingang zu den Hügeln von Razorfen zurück."
+Inst23Quest1_Location = "Myriam Moonsinger (Brachland; "..YELLOW.."49,94"..WHITE..")"
+Inst23Quest1_Note = "Du findest die Gegner und den Questgeber in der Gegend kurz vor dem Instanzeingang."
 Inst23Quest1_Prequest = "Nein"
 Inst23Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst23Quest2 = "2. Extinguishing the Idol"
-Inst23Quest2_Aim = "Escort Belnistrasz to the Quilboar's idol in Die Hügel der Klingenhauer. Protect Belnistrasz while he performs the ritual to shut down the idol."
-Inst23Quest2_Location = "Belnistrasz (Die Hügel der Klingenhauer; "..YELLOW.."[2]"..WHITE..")"
-Inst23Quest2_Note = "The prequest is just you agreeing to help him. Several mobs spawn and attack Belnistrasz as he attempts to shut down the idol. After completing the quest, you can turn the quest in at the brazier in front of the idol."
-Inst23Quest2_Prequest = "Scourge of the Downs"
+Inst23Quest2 = "2. Ausschalten des Götzen"
+Inst23Quest2_Aim = "Begleitet Belnistrasz zum Götzen der Stacheleber in den Hügeln von Razorfen. Beschützt Belnistrasz, während er das Ritual durchführt, um den Götzen auszuschalten."
+Inst23Quest2_Location = "Belnistrasz (Die Hügel der Razforzen; "..YELLOW.."[2]"..WHITE..")"
+Inst23Quest2_Note = "Die Vorquest ist nur, dass Du zustimmst, ihm zu helfen.. Mehrere Gegner Gruppen erscheinen und greifen Belnistrasz an, während er versucht, den Götzen auszuschalten. Nach Abschluss der Quest kannst du die Quest im Kohlenbecken vor dem Götzen abgeben."
+Inst23Quest2_Prequest = "Geißel der Niederungen"
 Inst23Quest2_Folgequest = "Nein"
 --
-Inst23Quest2name1 = "Dragonclaw Ring"
+Inst23Quest2name1 = "Drachenklauenring"
 
 --Quest 3 Alliance
-Inst23Quest3 = "3. Bring the Light"
-Inst23Quest3_Aim = "Archbishop Benedictus wants you to slay Amnennar the Coldbringer in Die Hügel der Klingenhauer."
-Inst23Quest3_Location = "Archbishop Benedictus (Stormwind - Cathedral of Light; "..YELLOW.."50.0, 45.4"..WHITE..")"
-Inst23Quest3_Note = "Amnennar the Coldbringer is the last boss in Die Hügel der Klingenhauer. You can find him at "..YELLOW.."[6]"..WHITE.."."
+Inst23Quest3 = "3. Das Licht bringen"
+Inst23Quest3_Aim = "Erzbischof Benedictus will, dass Ihr Amnennar den Kältebringer in den Hügeln von Razorfen tötet."
+Inst23Quest3_Location = "Erzbischof Benedictus (Stormwind - Kathedrale des Lichts; "..YELLOW.."50.0, 45.4"..WHITE..")"
+Inst23Quest3_Note = "Amnennar den Kältebringer ist bei "..YELLOW.."[6]"..WHITE.."."
 Inst23Quest3_Prequest = "Nein"
 Inst23Quest3_Folgequest = "Nein"
 --
-Inst23Quest3name1 = "Vanquisher's Sword"
-Inst23Quest3name2 = "Amberglow Talisman"
+Inst23Quest3name1 = "Bezwingerschwert"
+Inst23Quest3name2 = "Bernsteinglut-Talisman"
 
 
 --Quest 1 Horde
@@ -3992,19 +3992,19 @@ Inst23Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst23Quest2_HORDE = "2. An Unholy Alliance"
-Inst23Quest2_HORDE_Aim = "Bring Ambassador Malcin's Head to Varimathras in the Undercity."
+Inst23Quest2_HORDE = "2. Eine unheilige Allianz"
+Inst23Quest2_HORDE_Aim = "Bringt den Kopf von Botschafter Malcin zu Varimathras nach Undercity."
 Inst23Quest2_HORDE_Location = "Varimathras (Undercity - Königliches Quartier; "..YELLOW.."56,92"..WHITE..")"
-Inst23Quest2_HORDE_Note = "The preceding quest can be obtained from the last Boss in Kral der Klingenhauer. You find Malcin outside (The Barrens; "..YELLOW.."48,92"..WHITE..")."
-Inst23Quest2_HORDE_Prequest = "An Unholy Alliance"
+Inst23Quest2_HORDE_Note = "Die vorhergehende Quest kann vom letzten Boss erhalten werden. Du findest Malcin außerhalb (Brachland; "..YELLOW.."48,92"..WHITE..")."
+Inst23Quest2_HORDE_Prequest = "Eine unheilige Allianz"
 Inst23Quest2_HORDE_Folgequest = "Nein"
 --
-Inst23Quest2name1_HORDE = "Skullbreaker"
-Inst23Quest2name2_HORDE = "Nail Spitter"
-Inst23Quest2name3_HORDE = "Zealot's Robe"
+Inst23Quest2name1_HORDE = "Schädelbrecher"
+Inst23Quest2name2_HORDE = "Nagelspeier"
+Inst23Quest2name3_HORDE = "Zelotenrobe"
 
---Quest 3 Horde  (same as Quest 2 Alliance)
-Inst23Quest3_HORDE = "3. Extinguishing the Idol"
+--Quest 3 Horde
+Inst23Quest3_HORDE = "3. Ausschalten des Götzen"
 Inst23Quest3_HORDE_Aim = Inst23Quest2_Aim
 Inst23Quest3_HORDE_Location = Inst23Quest2_Location
 Inst23Quest3_HORDE_Note = Inst23Quest2_Note
@@ -4014,265 +4014,265 @@ Inst23Quest3_HORDE_Folgequest = "Nein"
 Inst23Quest3name1_HORDE = Inst23Quest2name1
 
 --Quest 4 Horde
-Inst23Quest4_HORDE = "4. Bring the End"
-Inst23Quest4_HORDE_Aim = "Andrew Brownell wants you to kill Amnennar the Coldbringer and return his skull."
-Inst23Quest4_HORDE_Location = "Andrew Brownell (Undercity - The Magic Quarter; "..YELLOW.."72,32"..WHITE..")"
-Inst23Quest4_HORDE_Note = "Amnennar the Coldbringer is the last Boss at Die Hügel der Klingenhauer. You can find him at "..YELLOW.."[6]"..WHITE.."."
+Inst23Quest4_HORDE = "4. Das Ende bringen"
+Inst23Quest4_HORDE_Aim = "Andrew Brownell will, dass Ihr Amnennar den Kältebringer tötet und ihm dessen Schädel bringt."
+Inst23Quest4_HORDE_Location = "Andrew Brownell (Undercity - Das Magierviertel; "..YELLOW.."72,32"..WHITE..")"
+Inst23Quest4_HORDE_Note = Inst23Quest3_Note
 Inst23Quest4_HORDE_Prequest = "Nein"
 Inst23Quest4_HORDE_Folgequest = "Nein"
 --
-Inst23Quest4name1_HORDE = "Vanquisher's Sword"
-Inst23Quest4name2_HORDE = "Amberglow Talisman"
+Inst23Quest4name1_HORDE = Inst23Quest3name1
+Inst23Quest4name2_HORDE = Inst23Quest3name2
 
 
 
 --------------- INST24 - Razorfen Kraul ---------------
 
-Inst24Caption = "Kral der Klingenhauer"
+Inst24Caption = "Der Kral der Razorfen"
 Inst24QAA = "5 Quests"
 Inst24QAH = "5 Quests"
 
 --Quest 1 Alliance
-Inst24Quest1 = "1. Blueleaf Tubers"
-Inst24Quest1_Aim = "In Kral der Klingenhauer, use the Crate with Holes to summon a Snufflenose Gopher, and use the Command Stick on the gopher to make it search for Tubers. Bring 6 Blueleaf Tubers, the Snufflenose Command Stick and the Crate with Holes to Mebok Mizzyrix in Ratchet."
-Inst24Quest1_Location = "Mebok Mizzyrix (The Barrens - Ratchet; "..YELLOW.."62,37"..WHITE..")"
-Inst24Quest1_Note = "The Crate, the Stick and the Manual can all be found near Mebok Mizzyrix."
+Inst24Quest1 = "1. Blaulaubknollen"
+Inst24Quest1_Aim = "Benutzt im Kral von Razorfen die Kiste mit Löchern, um ein Schnüffelnasenziesel zu beschwören, und benutzt den Leitstecken bei dem Ziesel, damit es nach Knollen sucht.\nBringt 6 Blaulaubknollen, den Schnüffelnasenleitstecken und die Kiste mit Löchern zu Mebok Mizzyrix in Ratchet."
+Inst24Quest1_Location = "Mebok Mizzyrix (Brachland - Ratchet; "..YELLOW.."62,37"..WHITE..")"
+Inst24Quest1_Note = "Die Kiste, der Leitstecken und das Handbuch befinden sich alle in der Nähe von Mebok Mizzyrix."
 Inst24Quest1_Prequest = "Nein"
 Inst24Quest1_Folgequest = "Nein"
 --
-Inst24Quest1name1 = "A Small Container of Gems"
+Inst24Quest1name1 = "Ein kleiner Behälter mit Edelsteinen"
 
 --Quest 2 Alliance
-Inst24Quest2 = "2. Mortality Wanes"
-Inst24Quest2_Aim = "Find and return Treshala's Pendant to Treshala Fallowbrook in Darnassus."
-Inst24Quest2_Location = "Heraltha Fallowbrook (Kral der Klingenhauer; "..YELLOW.."[8]"..WHITE..")"
-Inst24Quest2_Note = "The pendant is a random drop. You must bring back the pendant to Treshala Fallowbrook in Darnassus - Tradesmen Terrace ("..YELLOW.."69,67"..WHITE..")."
+Inst24Quest2 = "2. Die Sterblichkeit schwindet"
+Inst24Quest2_Aim = "Sucht und bringt Treshalas Anhänger zu Treshala Fallowbrook in Darnassus."
+Inst24Quest2_Location = "Heraltha Fallowbrook (Kral der Razforzen; "..YELLOW.."[8]"..WHITE..")"
+Inst24Quest2_Note = "Der Anhänger ist ein zufälliger Drop. Du musst den Anhänger zum Treshala Fallowbrook in Darnassus zurückbringen - Terrasse der Händler ("..YELLOW.."69,67"..WHITE..")."
 Inst24Quest2_Prequest = "Nein"
 Inst24Quest2_Folgequest = "Nein"
 --
-Inst24Quest2name1 = "Mourning Shawl"
-Inst24Quest2name2 = "Lancer Boots"
+Inst24Quest2name1 = "Trauerschal"
+Inst24Quest2name2 = "Lanzer-Stiefel"
 
 --Quest 3 Alliance
-Inst24Quest3 = "3. Willix the Importer"
-Inst24Quest3_Aim = "Escort Willix the Importer out of Kral der Klingenhauer."
-Inst24Quest3_Location = "Willix the Importer (Kral der Klingenhauer; "..YELLOW.."[8]"..WHITE..")"
-Inst24Quest3_Note = "Willix the Importer must be escorted to the entrance of the instance. The quest is turned in to him when completed."
+Inst24Quest3 = "3. Willix der Importeur"
+Inst24Quest3_Aim = "Führt Willix den Importeur aus dem Kral von Razorfen hinaus."
+Inst24Quest3_Location = "Willix der Importeur (Kral der Razforzen; "..YELLOW.."[8]"..WHITE..")"
+Inst24Quest3_Note = "Willix der Importeur muss zum Eingang der Instanz begleitet werden. Die Quest wird bei ihm abgegeben, wenn sie abgeschlossen ist."
 Inst24Quest3_Prequest = "Nein"
 Inst24Quest3_Folgequest = "Nein"
 --
-Inst24Quest3name1 = "Monkey Ring"
-Inst24Quest3name2 = "Snake Hoop"
-Inst24Quest3name3 = "Tiger Band"
+Inst24Quest3name1 = "Affenring"
+Inst24Quest3name2 = "Natternreifen"
+Inst24Quest3name3 = "Tigerband"
 
 --Quest 4 Alliance
-Inst24Quest4 = "4. The Crone of the Kraul"
-Inst24Quest4_Aim = "Bring Razorflank's Medallion to Falfindel Waywarder in Thalanaar."
+Inst24Quest4 = "4. Die Greisin des Krals"
+Inst24Quest4_Aim = "Bringt Falfindel Waywarder in Thalanaar Razorflanks Medaillon."
 Inst24Quest4_Location = "Falfindel Waywarder (Feralas - Thalanaar; "..YELLOW.."89,46"..WHITE..")"
-Inst24Quest4_Note = "Charlga Razorflank "..YELLOW.."[7]"..WHITE.." drops the Medallion required for this quest."
-Inst24Quest4_Prequest = "Lonebrow's Journal"
+Inst24Quest4_Note = "Charlga Razorflank "..YELLOW.."[7]"..WHITE.." droppt das Medaillon, das für diese Aufgabe benötigt wird."
+Inst24Quest4_Prequest = "Lonebrows Tagebuch"
 Inst24Quest4_Folgequest = "Nein"
 --
-Inst24Quest4name1 = "Falfindel's Blaster"
-Inst24Quest4name2 = "Berylline Pads"
-Inst24Quest4name3 = "Stonefist Girdle"
-Inst24Quest4name4 = "Marbled Buckler"
+Inst24Quest4name1 = "Donnerbüchse "Magierauge""
+Inst24Quest4name2 = "Beryllpolster"
+Inst24Quest4name3 = "Steinfaustgurt"
+Inst24Quest4name4 = "Marmorierter Rundschild"
 
 --Quest 5 Alliance
-Inst24Quest5 = "5. Fire Hardened Mail (Warrior)"
-Inst24Quest5_Aim = "Gather the materials Furen Longbeard requires, and bring them to him in Stormwind."
+Inst24Quest5 = "5. Feuergehärteter Panzer (Krieger)"
+Inst24Quest5_Aim = "Sammelt die Materialien, die Furen Longbeard benötigt, und bringt sie zu ihm nach Stormwind."
 Inst24Quest5_Location = "Furen Longbeard (Stormwind - Zwergendistrikt; "..YELLOW.."64.4, 37.3"..WHITE..")"
-Inst24Quest5_Note = "This quest can only be obtained by warriors. You get the Vial of Phlogiston from Roogug at "..YELLOW.."[1]"..WHITE..".\n\nThe followup quest is different for each race. Burning Blood for Humans, Iron Coral for Dwarves and Gnomes and Sunscorched Shells for Night Elves."
-Inst24Quest5_Prequest = "The Shieldsmith"
-Inst24Quest5_Folgequest = "(See Note)"
+Inst24Quest5_Note = "Diese Quest können nur Krieger erhalten. Du bekommst die Phiole von Roogug bei "..YELLOW.."[1]"..WHITE..".\n\nDie Folgequest ist für jeden Rasse unterschiedlich. Brennendes Blut für Menschen, Eisenkoralle für Zwerge und Gnome und Sonnenverbrannte Schalen für Nachtelfen."
+Inst24Quest5_Prequest = "Der Schildschmied"
+Inst24Quest5_Folgequest = "(Siehe Note)"
 -- No Rewards for this quest
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst24Quest1_HORDE = Inst24Quest1
 Inst24Quest1_HORDE_Aim = Inst24Quest1_Aim
 Inst24Quest1_HORDE_Location = Inst24Quest1_Location
 Inst24Quest1_HORDE_Note = Inst24Quest1_Note
-Inst24Quest1_HORDE_Prequest = Inst24Quest1_Prequest
-Inst24Quest1_HORDE_Folgequest = Inst24Quest1_Folgequest
+Inst24Quest1_HORDE_Prequest = "Nein"
+Inst24Quest1_HORDE_Folgequest = "Nein"
 --
 Inst24Quest1name1_HORDE = Inst24Quest1name1
 
---Quest 2 Horde  (same as Quest 3 Alliance)
-Inst24Quest2_HORDE = "2. Willix the Importer"
+--Quest 2 Horde
+Inst24Quest2_HORDE = "2. Willix der Importeur"
 Inst24Quest2_HORDE_Aim = Inst24Quest3_Aim
 Inst24Quest2_HORDE_Location = Inst24Quest3_Location
 Inst24Quest2_HORDE_Note = Inst24Quest3_Note
-Inst24Quest2_HORDE_Prequest = Inst24Quest3_Prequest
-Inst24Quest2_HORDE_Folgequest = Inst24Quest3_Folgequest
+Inst24Quest2_HORDE_Prequest = "Nein"
+Inst24Quest2_HORDE_Folgequest = "Nein"
 --
-Inst24Quest2name1_HORDE = Inst24Quest3name1
-Inst24Quest2name2_HORDE = Inst24Quest3name2
-Inst24Quest2name3_HORDE = Inst24Quest3name3
+Inst24Quest2name1_HORDE = "Affenring"
+Inst24Quest2name2_HORDE = "Natternreifen"
+Inst24Quest2name3_HORDE = "Tigerband"
 
 -- Quest 3 Horde
-Inst24Quest3_HORDE = "3. Going, Going, Guano!"
-Inst24Quest3_HORDE_Aim = "Bring 1 pile of Kraul Guano to Master Apothecary Faranell in the Undercity."
-Inst24Quest3_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69 "..WHITE..")"
+Inst24Quest3_HORDE = "3. Go, Go, Guano!"
+Inst24Quest3_HORDE_Aim = "Bringt dem Apothekermeister Faranell in Undercity 1 Häufchen Kral-Guano."
+Inst24Quest3_HORDE_Location = "Apothekenmeister Faranell (Undercity - Das Apothekarium; "..YELLOW.."48,69 "..WHITE..")"
 Inst24Quest3_HORDE_Note = "Kraul Guano is dropped by any of the bats found within the instance."
 Inst24Quest3_HORDE_Prequest = "Nein"
-Inst24Quest3_HORDE_Folgequest = "Hearts of Zeal ("..YELLOW.."[Scarlet Monastery]"..WHITE..")"
+Inst24Quest3_HORDE_Folgequest = "Herzen des Eifers ("..YELLOW.."[Scharlachroter Kloster"..WHITE..")"
 -- No Rewards for this quest
 
 --Quest 4 Horde
-Inst24Quest4_HORDE = "4. A Vengeful Fate"
-Inst24Quest4_HORDE_Aim = "Bring Razorflank's Heart to Auld Stonespire in Thunder Bluff."
+Inst24Quest4_HORDE = "4. Ein schreckliches Schicksal"
+Inst24Quest4_HORDE_Aim = "Bringt Auld Stonespire in Thunder Bluff Razorflanks Herz."
 Inst24Quest4_HORDE_Location = "Auld Stonespire (Thunderbluff; "..YELLOW.."36,59"..WHITE..")"
-Inst24Quest4_HORDE_Note = "You can find Charlga Razorflank at "..YELLOW.."[7]"..WHITE.."."
+Inst24Quest4_HORDE_Note = "Du findest Charlga Razorflank bei "..YELLOW.."[7]"..WHITE.."."
 Inst24Quest4_HORDE_Prequest = "Nein"
 Inst24Quest4_HORDE_Folgequest = "Nein"
 --
-Inst24Quest4name1_HORDE = "Berylline Pads"
-Inst24Quest4name2_HORDE = "Stonefist Girdle"
-Inst24Quest4name3_HORDE = "Marbled Buckler"
+Inst24Quest4name1_HORDE = "Beryllpolster"
+Inst24Quest4name2_HORDE = "Steinfaustgurt"
+Inst24Quest4name3_HORDE = Inst24Quest4name4
 
 --Quest 5 Horde
-Inst24Quest5_HORDE = "5. Brutal Armor (Warrior)"
-Inst24Quest5_HORDE_Aim = "Bring to Thun'grim Firegaze 15 Smoky Iron Ingots, 10 Powdered Azurite, 10 Iron Bars and a Vial of Phlogiston."
-Inst24Quest5_HORDE_Location = "Thun'grim Firegaze (The Barrens; "..YELLOW.."57,30"..WHITE..")"
-Inst24Quest5_HORDE_Note = "This quest can only be obtained by warriors. You get the Vial of Phlogiston from Roogug at "..YELLOW.."[1]"..WHITE..".\n\nCompleting this quest allows you to start four new quests from the same NPC."
-Inst24Quest5_HORDE_Prequest = "Speak with Thun'grim"
-Inst24Quest5_HORDE_Folgequest = "(See Note)"
+Inst24Quest5_HORDE = "5. Brutale Rüstung (Krieger)"
+Inst24Quest5_HORDE_Aim = "Bringt Thun'grim Firegaze 15 rauchige Eisenblöcke, 10 pulverisierte Azurite, 10 Eisenbarren und 1 Phiole Phlogiston."
+Inst24Quest5_HORDE_Location = "Thun'grim Firegaze (Brachland; "..YELLOW.."57,30"..WHITE..")"
+Inst24Quest5_HORDE_Note = "Diese Quest können nur Krieger erhalten. Du bekommst die Phiole von Roogug bei "..YELLOW.."[1]"..WHITE..".\n\nWenn du diese Quest abschließt, kannst du vier neue Quests vom gleichen NPC starten."
+Inst24Quest5_HORDE_Prequest = "Gespräch mit Ruga -> Gespräch mit Thun'grim"
+Inst24Quest5_HORDE_Folgequest = "(Siehe Note)"
 -- No Rewards for this quest
 
 
 
 --------------- INST25 - Wailing Caverns ---------------
 
-Inst25Caption = "Wailing Caverns"
+Inst25Caption = "Die Höhlen des Wehklagens"
 Inst25QAA = "5 Quests"
 Inst25QAH = "7 Quests"
 
 --Quest 1 Alliance
-Inst25Quest1 = "1. Deviate Hides"
-Inst25Quest1_Aim = "Nalpak in the Wailing Caverns wants 20 Deviate Hides."
-Inst25Quest1_Location = "Nalpak (Barrens - Wailing Caverns; "..YELLOW.."47,36"..WHITE..")"
-Inst25Quest1_Note = "All deviate mobs inside of and right before the entrance to the instance can drop hides.\nNalpak can be found in a hidden cave above the actual cave entrance. Easiest way to him seems to be to run up the hill outside and behind the entrance and drop down the slight ledge above the cave entrance."
+Inst25Quest1 = "1. Deviatbälge"
+Inst25Quest1_Aim = "Nalpak in den Höhlen des Wehklagens möchte 20 Deviatbälge."
+Inst25Quest1_Location = "Nalpak (Brachland - Wailing Caverns; "..YELLOW.."47,36"..WHITE..")"
+Inst25Quest1_Note = "Alle Deviat Gegner innerhalb und unmittelbar vor dem Eingang zur Instanz können die Bälge droppen.\nNalpak ist in einer versteckten Höhle über dem Höhleneingang. Der einfachste Weg um zu ihn zu gelangen ist, den Hügel draußen und hinter dem Eingang hinaufzulaufen und den leichten Vorsprung über dem Höhleneingang hinunterzuspringen."
 Inst25Quest1_Prequest = "Nein"
 Inst25Quest1_Folgequest = "Nein"
 --
-Inst25Quest1name1 = "Slick Deviate Leggings"
-Inst25Quest1name2 = "Deviate Hide Pack"
+Inst25Quest1name1 = "Clevere Deviatgamaschen"
+Inst25Quest1name2 = "Deviathautpack"
 
 --Quest 2 Alliance
-Inst25Quest2 = "2. Trouble at the Docks"
-Inst25Quest2_Aim = "Crane Operator Bigglefuzz in Ratchet wants you to retrieve the bottle of 99-Year-Old Port from Mad Magglish who is hiding in the Wailing Caverns."
-Inst25Quest2_Location = "Crane Operator Bigglefuzz (Barrens - Ratchet; "..YELLOW.."63,37"..WHITE..")"
-Inst25Quest2_Note = "You get the bottle right before you go into the instance by killing Mad Magglish. When you first enter the cave make an immediate right to find him at the end of the passage. He is stealthed by the wall at "..YELLOW.."[2] auf der Eingangskarte"..WHITE.."."
+Inst25Quest2 = "2. Ärger auf den Docks"
+Inst25Quest2_Aim = "Kranführer Bigglefuzz in Ratchet möchte, dass Ihr Zausel dem Verrückten, der sich in den Höhlen des Wehklagens versteckt, die Flasche mit 99-jährigem Portwein wieder abnehmt."
+Inst25Quest2_Location = "Kranführer Bigglefuzz (Brachland - Ratchet; "..YELLOW.."63,37"..WHITE..")"
+Inst25Quest2_Note = "Du bekommst die Flasche kurz bevor du in die Instanz gehst, indem du Mad Magglish tötest. Wenn du das erste Mal die Höhle betrittst, biege sofort rechts ab, um ihn am Ende des Ganges zu finden. Er ist getarnt an der Mauer bei "..YELLOW.."[2] auf der Eingangskarte"..WHITE.."."
 Inst25Quest2_Prequest = "Nein"
 Inst25Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst25Quest3 = "3. Smart Drinks"
-Inst25Quest3_Aim = "Bring 6 portions of Wailing Essence to Mebok Mizzyrix in Ratchet."
-Inst25Quest3_Location = "Mebok Mizzyrix (Barrens - Ratchet; "..YELLOW.."62,37"..WHITE..")"
-Inst25Quest3_Note = "The prequest can be obtained from Mebok Mizzyrix too.\nAll Ectoplasm enemies in and before the instance drop the Essence."
-Inst25Quest3_Prequest = "Raptor Horns"
+Inst25Quest3 = "3. Klugheitstränke"
+Inst25Quest3_Aim = "Bringt 6 Portionen Klageessenz zu Mebok Mizzyrix in Ratchet."
+Inst25Quest3_Location = "Mebok Mizzyrix (Brachland - Ratchet; "..YELLOW.."62,37"..WHITE..")"
+Inst25Quest3_Note = "Die Vorquest kann auch bei Mebok Mizzyrix angenommen werden.\nAlle Gegner des Ektoplasmas in und vor der Instanz lassen die Essenz fallen."
+Inst25Quest3_Prequest = "Raptorhörner"
 Inst25Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst25Quest4 = "4. Deviate Eradication"
-Inst25Quest4_Aim = "Ebru in the Wailing Caverns wants you to kill 7 Deviate Ravagers, 7 Deviate Vipers, 7 Deviate Shamblers and 7 Deviate Dreadfangs."
-Inst25Quest4_Location = "Ebru (Barrens - Wailing Caverns; "..YELLOW.."47,36"..WHITE..")"
-Inst25Quest4_Note = "Ebru is in a hidden cave above the cave entrance. Easiest way to him seems to be to run up the hill outside and behind the entrance and drop down the slight ledge above the cave entrance."
+Inst25Quest4 = "4. Ausrottung der Deviat"
+Inst25Quest4_Aim = "Ebru in den Höhlen des Wehklagens möchte, dass Ihr 7 Deviatverheerer, 7 Deviatvipern, 7 Deviatschlurfer und 7 Deviatschreckensfange tötet."
+Inst25Quest4_Location = "Ebru (Brachland - Die Höhlen des Wehklagens; "..YELLOW.."47,36"..WHITE..")"
+Inst25Quest4_Note = "Ebru ist in einer versteckten Höhle über dem Höhleneingang. Der einfachste Weg um zu ihn zu gelangen ist, den Hügel draußen und hinter dem Eingang hinaufzulaufen und den leichten Vorsprung über dem Höhleneingang hinunterzuspringen."
 Inst25Quest4_Prequest = "Nein"
 Inst25Quest4_Folgequest = "Nein"
 --
-Inst25Quest4name1 = "Pattern: Deviate Scale Belt"
-Inst25Quest4name2 = "Sizzle Stick"
-Inst25Quest4name3 = "Dagmire Gauntlets"
+Inst25Quest4name1 = "Muster: Deviatschuppengürtel"
+Inst25Quest4name2 = "Schmorstecken"
+Inst25Quest4name3 = "Moorlandstulpen"
 
 --Quest 5 Alliance
-Inst25Quest5 = "5. The Glowing Shard"
-Inst25Quest5_Aim = "Travel to Ratchet to find the meaning behind the Nightmare Shard."
-Inst25Quest5_Location = "The Glowing Shard (drops from Mutanus the Devourer; "..YELLOW.."[9]"..WHITE..")"
-Inst25Quest5_Note = "Mutanus the Devourer will only appear if you kill the four leader druids of the fang and escort the tauren druid at the entrance.\nWhen you have the Shard, you must bring it to the Bank at Ratchet, and then back to the top of the hill over Wailing Caverns to Falla Sagewind."
+Inst25Quest5 = "5. Der leuchtende Splitter"
+Inst25Quest5_Aim = "Reist nach Ratchet, um die Bedeutung des Alptraum-Splitters herauszufinden."
+Inst25Quest5_Location = "Leuchtender Splitter (droppt von Mutanus der Verschlinger bei ; "..YELLOW.."[9]"..WHITE..")"
+Inst25Quest5_Note = "Mutanus der Verschlinger erscheint nur, wenn Du die vier Druidenanführer der Giftzahnlorde tötest und den Tauren-Druiden zum Eingang eskortieren..\nWenn du den Splitter hast, musst du ihn zur Bank in Ratchet bringen, und dann zurück zum Hügel der Wehklage zu Falla Sagewind."
 Inst25Quest5_Prequest = "Nein"
-Inst25Quest5_Folgequest = "In Nightmares"
+Inst25Quest5_Folgequest = "Alptraum"
 --
-Inst25Quest5name1 = "Talbar Mantle"
-Inst25Quest5name2 = "Quagmire Galoshes"
+Inst25Quest5name1 = "Talbar-Mantel"
+Inst25Quest5name2 = "Morastgaloschen"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst25Quest1_HORDE = Inst25Quest1
 Inst25Quest1_HORDE_Aim = Inst25Quest1_Aim
 Inst25Quest1_HORDE_Location = Inst25Quest1_Location
 Inst25Quest1_HORDE_Note = Inst25Quest1_Note
-Inst25Quest1_HORDE_Prequest = Inst25Quest1_Prequest
-Inst25Quest1_HORDE_Folgequest = Inst25Quest1_Folgequest
+Inst25Quest1_HORDE_Prequest = "Nein"
+Inst25Quest1_HORDE_Folgequest = "Nein"
 --
 Inst25Quest1name1_HORDE = Inst25Quest1name1
-Inst25Quest1name2_HORDE = Inst25Quest1name2
+Inst25Quest1name2_HORDE = "Deviathautpack"
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst25Quest2_HORDE = Inst25Quest2
 Inst25Quest2_HORDE_Aim = Inst25Quest2_Aim
 Inst25Quest2_HORDE_Location = Inst25Quest2_Location
 Inst25Quest2_HORDE_Note = Inst25Quest2_Note
-Inst25Quest2_HORDE_Prequest = Inst25Quest2_Prequest
-Inst25Quest2_HORDE_Folgequest = Inst25Quest2_Folgequest
+Inst25Quest2_HORDE_Prequest = "Nein"
+Inst25Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst25Quest3_HORDE = "3. Serpentbloom"
-Inst25Quest3_HORDE_Aim = "Apothecary Zamah in Thunder Bluff wants you to collect 10 Serpentbloom."
-Inst25Quest3_HORDE_Location = "Apothecary Zamah (Thunder Bluff - Spirit Rise; "..YELLOW.."22,20"..WHITE..")"
-Inst25Quest3_HORDE_Note = "Apothecary Zamah is in a cave under the Spirit Rise.  You get the prequest from Apothecary Helbrim (Barrens - Crossroads; "..YELLOW.."51,30"..WHITE..").\nYou get the Serpentbloom inside the cave in front of the instance and inside the instance. Players with Herbalism can see the plants on their minimap."
-Inst25Quest3_HORDE_Prequest = "Fungal Spores -> Apothecary Zamah"
+Inst25Quest3_HORDE = "3. Schlangenflaum"
+Inst25Quest3_HORDE_Aim = "Die Apothekerin Zamah in Thunder Bluff möchte, dass Ihr zehn Schlangenflaum für sie sammelt."
+Inst25Quest3_HORDE_Location = "Apothekerin Zamah (Thunder Bluff - Anhöhe der Geister; "..YELLOW.."22,20"..WHITE..")"
+Inst25Quest3_HORDE_Note = "Apothekerin Zamah ist in einer Höhle unter der Anhöge der Geister.  Du bekommst die Vorquest von Apothekerin Helbrim (Brachland - Crossroads; "..YELLOW.."51,30"..WHITE..").\nDu bekommst den Schlangenfaum innerhalb der Höhle vor und in der Instanz. Spieler mit Kräuterkunde können die Pflanzen auf ihrer Minimap sehen."
+Inst25Quest3_HORDE_Prequest = "Pilzsporen -> Apothekerin Zamah"
 Inst25Quest3_HORDE_Folgequest = "Nein"
 --
-Inst25Quest3name1_HORDE = "Apothecary Gloves"
+Inst25Quest3name1_HORDE = "Apotheker-Handschuhe"
 
---Quest 4 Horde  (same as Quest 3 Alliance)
-Inst25Quest4_HORDE = "4. Smart Drinks"
+--Quest 4 Horde
+Inst25Quest4_HORDE = "4. Klugheitstränke"
 Inst25Quest4_HORDE_Aim = Inst25Quest3_Aim
 Inst25Quest4_HORDE_Location = Inst25Quest3_Location
 Inst25Quest4_HORDE_Note = Inst25Quest3_Note
-Inst25Quest4_HORDE_Prequest = Inst25Quest3_Prequest
-Inst25Quest4_HORDE_Folgequest = Inst25Quest3_Folgequest
+Inst25Quest4_HORDE_Prequest = "Raptorhörner"
+Inst25Quest4_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 5 Horde  (same as Quest 4 Alliance)
+--Quest 5 Horde
 Inst25Quest5_HORDE = "5. Deviate Eradication"
 Inst25Quest5_HORDE_Aim = Inst25Quest4_Aim
 Inst25Quest5_HORDE_Location = Inst25Quest4_Location
 Inst25Quest5_HORDE_Note = Inst25Quest4_Note
-Inst25Quest5_HORDE_Prequest = Inst25Quest4_Prequest
-Inst25Quest5_HORDE_Folgequest = Inst25Quest4_Folgequest
+Inst25Quest5_HORDE_Prequest = Nein"
+Inst25Quest5_HORDE_Folgequest = Nein"
 --
 Inst25Quest5name1_HORDE = Inst25Quest4name1
 Inst25Quest5name2_HORDE = Inst25Quest4name2
 Inst25Quest5name3_HORDE = Inst25Quest4name3
 
 --Quest 6 Horde
-Inst25Quest6_HORDE = "6. Leaders of the Fang"
-Inst25Quest6_HORDE_Aim = "Bring the Gems of Cobrahn, Anacondra, Pythas and Serpentis to Nara Wildmane in Thunder Bluff."
-Inst25Quest6_HORDE_Location = "Nara Wildmane (Thunder Bluff - Elder Rise; "..YELLOW.."75,31"..WHITE..")"
-Inst25Quest6_HORDE_Note = "The Questline starts at Hamuul Runetotem (Thunderbluff - Elder Rise; "..YELLOW.."78,28"..WHITE..")\nThe 4 druids drop the gems "..YELLOW.."[2]"..WHITE..", "..YELLOW.."[3]"..WHITE..", "..YELLOW.."[5]"..WHITE..", "..YELLOW.."[7]"..WHITE.."."
-Inst25Quest6_HORDE_Prequest = "The Barrens Oases -> Nara Wildmane"
+Inst25Quest6_HORDE = "6. Anführer der Giftzähne"
+Inst25Quest6_HORDE_Aim = "Bringt die Edelsteine von Kobrahn, Anacondra, Pythas und Serpentis nach Thunder Bluff zu Nara Wildmane."
+Inst25Quest6_HORDE_Location = "Nara Wildmane (Thunder Bluff - Anhöe der Ältesten Rise; "..YELLOW.."75,31"..WHITE..")"
+Inst25Quest6_HORDE_Note = "Die Questreihe startet bei Hamuul Runetotem (Thunderbluff - Elder Rise; "..YELLOW.."78,28"..WHITE..")\nDie 4 Druiden droppen die Edelsteine bei "..YELLOW.."[2]"..WHITE..", und "..YELLOW.."[3]"..WHITE..", und "..YELLOW.."[5]"..WHITE..", und "..YELLOW.."[7]"..WHITE.."."
+Inst25Quest6_HORDE_Prequest = "Die Oasen des Brachlandes -> Nara Wildmane"
 Inst25Quest6_HORDE_Folgequest = "Nein"
 --
-Inst25Quest6name1_HORDE = "Crescent Staff"
-Inst25Quest6name2_HORDE = "Wingblade"
+Inst25Quest6name1_HORDE = "Mondsichelstab"
+Inst25Quest6name2_HORDE = "Flügelklinge"
 
---Quest 7 Horde  (same as Quest 5 Alliance)
-Inst25Quest7_HORDE = "7. The Glowing Shard"
+--Quest 7 Horde
+Inst25Quest7_HORDE = "7. Der leuchtende Splitter"
 Inst25Quest7_HORDE_Aim = Inst25Quest5_Aim
 Inst25Quest7_HORDE_Location = Inst25Quest5_Location
 Inst25Quest7_HORDE_Note = Inst25Quest5_Note
-Inst25Quest7_HORDE_Prequest = Inst25Quest5_Prequest
-Inst25Quest7_HORDE_Folgequest = Inst25Quest5_Folgequest
+Inst25Quest7_HORDE_Prequest = Nein"
+Inst25Quest7_HORDE_Folgequest = "Alptraum"
 --
-Inst25Quest7name1_HORDE = Inst25Quest5name1
-Inst25Quest7name2_HORDE = Inst25Quest5name2
+Inst25Quest7name1_HORDE = "Talbar-Mantel"
+Inst25Quest7name2_HORDE = "Morastgaloschen"
 
 
 
@@ -4302,8 +4302,8 @@ Inst26Quest2_Folgequest = "Nein"
 
 --Quest 3 Alliance
 Inst26Quest3 = "3. Tiara of the Deep"
-Inst26Quest3_Aim = "Bring the Tiara of the Deep to Tabetha in Dustwallow Marsh."
-Inst26Quest3_Location = "Tabetha (Dustwallow Marsh; "..YELLOW.."46,57"..WHITE..")"
+Inst26Quest3_Aim = "Bring the Tiara of the Deep to Tabetha in Marschen von Dustwallow."
+Inst26Quest3_Location = "Tabetha (Marschen von Dustwallow; "..YELLOW.."46,57"..WHITE..")"
 Inst26Quest3_Note = "You get the prequest from Bink (Ironforge; "..YELLOW.."25,8"..WHITE..").\nHydromancer Velratha drops the Tiara of the Deep at "..YELLOW.."[6]"..WHITE.."."
 Inst26Quest3_Prequest = "Tabetha's Task"
 Inst26Quest3_Folgequest = "Nein"
@@ -4606,96 +4606,96 @@ Inst29QAA = "4 Quests"
 Inst29QAH = "4 Quests"
 
 --Quest 1 Alliance
-Inst29Quest1 = "1. A Collection of Heads"
-Inst29Quest1_Aim = "String 5 Channeler's Heads, then return the Collection of Troll Heads to Exzhal on Yojamba Isle."
-Inst29Quest1_Location = "Exzhal (Schlingendorntal - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
-Inst29Quest1_Note = "Make sure you loot all the priests."
+Inst29Quest1 = "1. Die Schädelsammlung"
+Inst29Quest1_Aim = "Reiht die Köpfe der 5 Kanalisierer auf der heiligen Kordel aneinander. Bringt dann die Trollschädelsammlung zu Exzhal auf der Insel Yojamba."
+Inst29Quest1_Location = "Exzhal (Schlingendorntal - Insel Yojamba; "..YELLOW.."15,15"..WHITE..")"
+Inst29Quest1_Note = "Stelle sicher, dass du alle Priester plünderst."
 Inst29Quest1_Prequest = "Nein"
 Inst29Quest1_Folgequest = "Nein"
 --
-Inst29Quest1name1 = "Belt of Shrunken Heads"
-Inst29Quest1name2 = "Belt of Shriveled Heads"
-Inst29Quest1name3 = "Belt of Preserved Heads"
-Inst29Quest1name4 = "Belt of Tiny Heads"
+Inst29Quest1name1 = "Gürtel mit Schrumpfköpfen"
+Inst29Quest1name2 = "Gürtel mit Schrumpelköpfen"
+Inst29Quest1name3 = "Gürtel mit konservierten Köpfen"
+Inst29Quest1name4 = "Gürtel mit winzigen Köpfen"
 
 --Quest 2 Alliance
-Inst29Quest2 = "2. The Heart of Hakkar"
-Inst29Quest2_Aim = "Bring the Heart of Hakkar to Molthor on Yojamba Isle."
-Inst29Quest2_Location = "Heart of Hakkar (drops from Hakkar; "..YELLOW.."[11]"..WHITE..")"
-Inst29Quest2_Note = "Molthor (Schlingendorntal - Yojamba Isle; "..YELLOW.."15,15"..WHITE..")"
+Inst29Quest2 = "2. Das Herz von Hakkar"
+Inst29Quest2_Aim = "Bringt das Herz von Hakkar zu Molthor auf die Insel Yojamba. ."
+Inst29Quest2_Location = "Herz von Hakkar (droppt von Hakkar; "..YELLOW.."[11]"..WHITE..")"
+Inst29Quest2_Note = "Molthor (Schlingendorntal - Insel Yojamba; "..YELLOW.."15,15"..WHITE..")"
 Inst29Quest2_Prequest = "Nein"
 Inst29Quest2_Folgequest = "Nein"
 --
-Inst29Quest2name1 = "Zandalarian Hero Badge"
-Inst29Quest2name2 = "Zandalarian Hero Charm"
-Inst29Quest2name3 = "Zandalarian Hero Medallion"
+Inst29Quest2name1 = "Zandalarianisches Heldenabzeichen"
+Inst29Quest2name2 = "Zandalarianisches Heldenamulett"
+Inst29Quest2name3 = "Zandalarianisches Heldenmedallion"
 
 --Quest 3 Alliance
-Inst29Quest3 = "3. Nat's Measuring Tape"
-Inst29Quest3_Aim = "Return Nat's Measuring Tape to Nat Pagle in Dustwallow Marsh."
-Inst29Quest3_Location = "Battered Tackle Box (Zul'Gurub - Nordeast by water from Hakkar's Island)"
-Inst29Quest3_Note = "Nat Pagle ist bei Dustwallow Marsh ("..YELLOW.."59,60"..WHITE.."). Turning the quest in allows you to buy Mudskunk Lures from Nat Pagle to summon Gahz'ranka in Zul'Gurub."
+Inst29Quest3 = "3. Nats Maßband"
+Inst29Quest3_Aim = "Bringt Nats Maßband zu Nat Pagle in den Marschen von Dustwallow zurück."
+Inst29Quest3_Location = "Ramponierter Ausrüstungskasten (Zul'Gurub - Nordöstlich auf dem Wasser von Hakkars Insel)"
+Inst29Quest3_Note = "Nat Pagle ist bei Marschen von Dustwallow ("..YELLOW.."59,60"..WHITE.."). Wenn du die Quest abgeschlossen hast, kannst du Matschstinkerköder von Nat Pagle kaufen, um Gahz'ranka in Zul'Gurub zu beschwören."
 Inst29Quest3_Prequest = "Nein"
 Inst29Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst29Quest4 = "4. The Perfect Poison"
-Inst29Quest4_Aim = "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac."
-Inst29Quest4_Location = "Dirk Thunderwood (Silithus - Cenarion Hold; "..YELLOW.."52,39"..WHITE..")"
-Inst29Quest4_Note = "Venoxis's Venom Sac drops from High priest Venoxis in "..YELLOW.."Zul'Gurub"..WHITE.." at "..YELLOW.."[2]"..WHITE..". Kurinnaxx's Venom Sac drops in the "..YELLOW.."Ruins of Ahn'Qiraj"..WHITE.." at "..YELLOW.."[1]"..WHITE.."."
+Inst29Quest4 = "4. Das perfekte Gift"
+Inst29Quest4_Aim = "Dirk Thunderwood in der Burg Cenarius will, dass Ihr ihm Venoxis' Giftbeutel und Kurinnaxx' Giftbeutel bringt."
+Inst29Quest4_Location = "Dirk Thunderwood (Silithus - Burg Cenarion; "..YELLOW.."52,39"..WHITE..")"
+Inst29Quest4_Note = "Venoxiss Giftbeutel droppt von Hohepriester Venoxis in "..YELLOW.."Zul'Gurub"..WHITE.." bei "..YELLOW.."[2]"..WHITE..". Kurinnaxxs Giftbeutel dropt in den "..YELLOW.."Ruinen von Ahn'Qiraj"..WHITE.." bei "..YELLOW.."[1]"..WHITE.."."
 Inst29Quest4_Prequest = "Nein"
 Inst29Quest4_Folgequest = "Nein"
 --
-Inst29Quest4name1 = "Ravenholdt Slicer"
-Inst29Quest4name2 = "Shivsprocket's Shiv"
-Inst29Quest4name3 = "The Thunderwood Poker"
-Inst29Quest4name4 = "Doomulus Prime"
-Inst29Quest4name5 = "Fahrad's Reloading Repeater"
-Inst29Quest4name6 = "Simone's Cultivating Hammer"
+Inst29Quest4name1 = "Ravenholdtschnitzler"
+Inst29Quest4name2 = "Shivsprokets Messer"
+Inst29Quest4name3 = "Donnerholzschüreisen"
+Inst29Quest4name4 = "Schicksalsbringer"
+Inst29Quest4name5 = "Fahrads selbstladende Repetierarmbrust"
+Inst29Quest4name6 = "Simones Hammer der Kultivierung"
 
 
---Quest 1 Horde  (same as Quest 1 Alliance)
+--Quest 1 Horde
 Inst29Quest1_HORDE = Inst29Quest1
 Inst29Quest1_HORDE_Aim = Inst29Quest1_Aim
 Inst29Quest1_HORDE_Location = Inst29Quest1_Location
 Inst29Quest1_HORDE_Note = Inst29Quest1_Note
-Inst29Quest1_HORDE_Prequest = Inst29Quest1_Prequest
-Inst29Quest1_HORDE_Folgequest = Inst29Quest1_Folgequest
+Inst29Quest1_HORDE_Prequest = "Nein"
+Inst29Quest1_HORDE_Folgequest = "Nein"
 --
 Inst29Quest1name1_HORDE = Inst29Quest1name1
 Inst29Quest1name2_HORDE = Inst29Quest1name2
 Inst29Quest1name3_HORDE = Inst29Quest1name3
 Inst29Quest1name4_HORDE = Inst29Quest1name4
 
---Quest 2 Horde  (same as Quest 2 Alliance)
+--Quest 2 Horde
 Inst29Quest2_HORDE = Inst29Quest2
 Inst29Quest2_HORDE_Aim = Inst29Quest2_Aim
 Inst29Quest2_HORDE_Location = Inst29Quest2_Location
 Inst29Quest2_HORDE_Note = Inst29Quest2_Note
-Inst29Quest2_HORDE_Prequest = Inst29Quest2_Prequest
-Inst29Quest2_HORDE_Folgequest = Inst29Quest2_Folgequest
+Inst29Quest2_HORDE_Prequest = "Nein"
+Inst29Quest2_HORDE_Folgequest = "Nein"
 --
 Inst29Quest2name1_HORDE = Inst29Quest2name1
 Inst29Quest2name2_HORDE = Inst29Quest2name2
 Inst29Quest2name3_HORDE = Inst29Quest2name3
 
---Quest 3 Horde  (same as Quest 3 Alliance)
+--Quest 3 Horde
 Inst29Quest3_HORDE = Inst29Quest3
 Inst29Quest3_HORDE_Aim = Inst29Quest3_Aim
 Inst29Quest3_HORDE_Location = Inst29Quest3_Location
 Inst29Quest3_HORDE_Note = Inst29Quest3_Note
-Inst29Quest3_HORDE_Prequest = Inst29Quest3_Prequest
-Inst29Quest3_HORDE_Folgequest = Inst29Quest3_Folgequest
+Inst29Quest3_HORDE_Prequest = "Nein"
+Inst29Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
---Quest 4 Horde  (same as Quest 4 Alliance)
+--Quest 4 Horde
 Inst29Quest4_HORDE = Inst29Quest4
 Inst29Quest4_HORDE_Aim = Inst29Quest4_Aim
 Inst29Quest4_HORDE_Location = Inst29Quest4_Location
 Inst29Quest4_HORDE_Note = Inst29Quest4_Note
-Inst29Quest4_HORDE_Prequest = Inst29Quest4_Prequest
-Inst29Quest4_HORDE_Folgequest = Inst29Quest4_Folgequest
+Inst29Quest4_HORDE_Prequest = "Nein"
+Inst29Quest4_HORDE_Folgequest = "Nein"
 --
 Inst29Quest4name1_HORDE = Inst29Quest4name1
 Inst29Quest4name2_HORDE = Inst29Quest4name2
