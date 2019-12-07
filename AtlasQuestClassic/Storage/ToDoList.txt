@@ -33,3 +33,5 @@ CLEANUP PROGRESS:
 	- Maraudon complete.
 	- Ragefire Chasm complete.
 	- Razorfen Downs complete.
+	- Razorfen Kraul complete.
+	- Wailing Caverns complete.

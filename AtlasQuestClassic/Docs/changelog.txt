@@ -6,6 +6,7 @@ Version 4.11.58  (for WoW Classic)  November ??, 2019
 
 - Russian localization updated.
 - German localization updated.
+- Fixes in Sunken Temple quests (thanks Guldukat)
 
 - Cleanup Progress:
 	- Blackfathom Deeps complete.
@@ -14,6 +15,8 @@ Version 4.11.58  (for WoW Classic)  November ??, 2019
 	- Dire Maul West complete.
 	- Maraudon complete.
 	- Razorfen Downs complete.
+	- Razorfen Kraul complete.
+	- Wailing Caverns complete.
 	
 
 

@@ -3137,7 +3137,6 @@ Inst24Quest1ITC1 = Itemc2;
 Inst24Quest1description1 = AQITEM_ITEM
 Inst24Quest1ID1 = "6755"
 
-
 --Quest 2 Alliance
 Inst24Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
 --ITEM1
@@ -3267,7 +3266,7 @@ Inst25Quest4description3 = AQITEM_HANDS..AQITEM_MAIL
 Inst25Quest4ID3 = "6481"
 
 --Quest 5 Alliance
-Inst25Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst25Quest5Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
 --ITEM1
 Inst25Quest5ITC1 = Itemc3;
 Inst25Quest5description1 = AQITEM_SHOULDER..AQITEM_CLOTH
@@ -3329,7 +3328,7 @@ Inst25Quest6description2_HORDE = AQITEM_MAINHAND..AQITEM_SWORD
 Inst25Quest6ID2_HORDE = "6504"
 
 --Quest 7 Horde
-Inst25Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
+Inst25Quest7Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
 --ITEM1
 Inst25Quest7ITC1_HORDE = Itemc3;
 Inst25Quest7description1_HORDE = AQITEM_SHOULDER..AQITEM_CLOTH
