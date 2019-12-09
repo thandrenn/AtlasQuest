@@ -1056,7 +1056,7 @@ Inst7Quest1description1 = AQITEM_NECK
 Inst7Quest1ID1 = "7746"
 
 --Quest 2 Alliance
-Inst7Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst7Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
 Inst7Quest2ITC1 = Itemc4;
 Inst7Quest2description1 = AQITEM_WAND
@@ -1096,11 +1096,11 @@ Inst7Quest1Rewardtext_HORDE = AQNoReward
 --Quest 2 Horde
 Inst7Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
 --ITEM1
-Inst7Quest2ITC1_HORDE = Itemc4;
+Inst7Quest2ITC1_HORDE = Itemc3;
 Inst7Quest2description1_HORDE = AQITEM_ONEHAND..AQITEM_MACE
 Inst7Quest2ID1_HORDE = "6804"
 --ITEM2
-Inst7Quest2ITC2_HORDE = Itemc4;
+Inst7Quest2ITC2_HORDE = Itemc3;
 Inst7Quest2description2_HORDE = AQITEM_WAND
 Inst7Quest2ID2_HORDE = "6806"
 
@@ -1120,7 +1120,7 @@ Inst7Quest3description3_HORDE = AQITEM_OFFHAND
 Inst7Quest3ID3_HORDE = "7749"
 
 --Quest 4 Horde
-Inst7Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst7Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
 Inst7Quest4ITC1_HORDE = Itemc4;
 Inst7Quest4description1_HORDE = AQITEM_WAND
