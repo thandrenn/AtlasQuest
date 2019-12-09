@@ -1941,7 +1941,7 @@ Inst26Quest4_HORDE_Attain = Inst26Quest3_Attain
 Inst26Quest5_HORDE_QuestID = "3527"
 Inst26Quest5_HORDE_Level = Inst26Quest5_Level
 Inst26Quest5_HORDE_Attain = Inst26Quest5_Attain
-Inst26Quest5PreQuest_HORDE = Inst26Quest5Prequest
+Inst26Quest5PreQuest_HORDE = Inst26Quest5PreQuest
 
 Inst26Quest6_HORDE_QuestID = "2768"
 Inst26Quest6_HORDE_Level = Inst26Quest6_Level
@@ -1957,7 +1957,7 @@ Inst26Quest7_HORDE_Attain = Inst26Quest7_Attain
 
 Inst27Quest1_QuestID = "6822"
 Inst27Quest1_Level = "60"
-Inst27Quest1_Attain = "58"
+Inst27Quest1_Attain = "55"
 Inst27Quest1PreQuest = "true"
 
 Inst27Quest2_QuestID = "6824"

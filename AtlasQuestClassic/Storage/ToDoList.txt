@@ -35,3 +35,9 @@ CLEANUP PROGRESS:
 	- Razorfen Downs complete.
 	- Razorfen Kraul complete.
 	- Wailing Caverns complete.
+	- Zul'Farrak complete.
+	- Molten Core complete.
+	- Onyxia's Lair complete.
+	- Zul'Gurub complete.
+	- The Ruins of Ahn'Qiraj complete.
+	- The Temple of Ahn'Qiraj complete.

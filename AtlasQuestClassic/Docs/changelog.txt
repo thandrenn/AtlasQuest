@@ -2,10 +2,11 @@
 Changelog
 =========
 
-Version 4.11.58  (for WoW Classic)  November ??, 2019
+Version 4.11.58  (for WoW Classic)  December 9, 2019
 
-- Russian localization updated.
-- German localization updated.
+- Russian localization updated by GoodDeath.
+- German localization updated by Guldukat.
+- Spanish localization updated by Woopy.
 - Fixes in Sunken Temple quests (thanks Guldukat)
 
 - Cleanup Progress:
@@ -17,6 +18,12 @@ Version 4.11.58  (for WoW Classic)  November ??, 2019
 	- Razorfen Downs complete.
 	- Razorfen Kraul complete.
 	- Wailing Caverns complete.
+	- Zul'Farrak complete.
+	- Molten Core complete.
+	- Onyxia's Lair complete.
+	- Zul'Gurub complete.
+	- The Ruins of Ahn'Qiraj complete.
+	- The Temple of Ahn'Qiraj complete.
 	
 
 
