@@ -3032,14 +3032,14 @@ Inst17QAA = "6 Misiones"
 Inst17QAH = "5 Misiones"
 
 --Quest 1 Alliance
-Inst17Quest1 = "1. Conocimiento en las Cavernas" -- 971
-Inst17Quest1_Aim = "Lleva el manuscrito de Lorgalis a Gerrig Agarrahueso en la Caverna Abandonada de Forjaz."
+Inst17Quest1 = "1. El conocimiento de las profundidades" -- 971
+Inst17Quest1_Aim = "Lleva el manuscrito de Lorgalis a Gerrig Agarrahueso, que está en la Caverna Abandonada en Forjaz."
 Inst17Quest1_Location = "Gerrig Agarrahueso (Forjaz - La Caverna Abandonada; "..YELLOW.."50,5"..WHITE..")"
 Inst17Quest1_Note = "Encuentras el manuscrito en "..YELLOW.."[2]"..WHITE.." en el agua."
 Inst17Quest1_Prequest = "Ninguno"
 Inst17Quest1_Folgequest = "Ninguno"
 --
-Inst17Quest1name1 = "Anillo de apoyo"
+Inst17Quest1name1 = "Anillo de sustención"
 
 --Quest 2 Alliance
 Inst17Quest2 = "2. Investigaciones acerca de la corrupción" -- 1275
