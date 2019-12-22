@@ -904,7 +904,7 @@ Inst4Quest5_Note = "Encuentras al General Drakkisath en "..YELLOW.."[8]"..WHITE.
 Inst4Quest5_Prequest = "Orden del general Drakkisath ("..YELLOW.."Cumbre de Roca Negra Inferior"..WHITE..")" -- 5089
 Inst4Quest5_Folgequest = "Ninguno"
 --
-Inst4Quest5name1 = "Marca de Tirania"
+Inst4Quest5name1 = "Marca de Tiranía"
 Inst4Quest5name2 = "Ojo de la bestia"
 Inst4Quest5name3 = "Amplitud de Puño Negro"
 
@@ -1037,7 +1037,7 @@ Inst4Quest6_HORDE_Note = "Es la misión para la armonización con Onyxia. Encuen
 Inst4Quest6_HORDE_Prequest = "La orden del Señor de la Guerra -> La sabiduría de Eitrigg" -- 4903 -> 4941
 Inst4Quest6_HORDE_Folgequest = "Lo que trae el viento" -- 6566
 --
-Inst4Quest6name1_HORDE = "Marca de Tirania"
+Inst4Quest6name1_HORDE = "Marca de Tiranía"
 Inst4Quest6name2_HORDE = "Ojo de la bestia"
 Inst4Quest6name3_HORDE = "Amplitud de Puño Negro"
 
