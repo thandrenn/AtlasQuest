@@ -4115,7 +4115,7 @@ Inst24Quest4name4 = "Rodela de mármol"
 Inst24Quest5 = "5. Armadura de malla endurecida con fuego" -- 1701
 Inst24Quest5_Aim = "Reúne los materiales que necesita Furen Barbalarga y llévaselos a Ventormenta."
 Inst24Quest5_Location = "Furen Barbalarga (Ventormenta - Distrito de los Enanos; "..YELLOW.."57,16"..WHITE..")"
-Inst24Quest5_Note = "Solamente para Guerreros: Consigues el Vial de flogisto de Roogug en "..YELLOW.."[1]"..WHITE..".\n\nDespués de completar la misión, se abrirá 4 nuevas misiones: Sangre ardiente en Ventormenta, Coral férreo en Forjaz, y Cáscaras asoladas en Darnassus." -- 1705, 1710, 1708
+Inst24Quest5_Note = "Solamente para Guerreros: Consigues el Vial de flogisto de Roogug en "..YELLOW.."[1]"..WHITE..".\n\nDespués de completar la misión, se abrirá 3 nuevas misiones: Sangre ardiente en Ventormenta, Coral férreo en Forjaz, y Cáscaras asoladas en Darnassus." -- 1705, 1710, 1708
 Inst24Quest5_Prequest = "El forjador de escudos" -- 1702
 Inst24Quest5_Folgequest = "(Ve la Nota)"
 -- No Rewards for this quest
