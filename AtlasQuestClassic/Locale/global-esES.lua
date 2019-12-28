@@ -151,7 +151,7 @@ AQITEM_ONEHAND = "Una mano,"
 AQITEM_TWOHAND = "Dos manos,"
 
 AQITEM_ITEM = "Objeto" -- Use this for those oddball rewards which aren't really anything else.
-AQITEM_TRINKET = "Alhaja"
+AQITEM_TRINKET = "Abalorio"
 AQITEM_RELIC = "Reliquia"
 AQITEM_POTION = "Poción"
 AQITEM_OFFHAND = "Sostener con la mano izquierda"
