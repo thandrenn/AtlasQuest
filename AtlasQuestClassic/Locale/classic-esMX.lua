@@ -3903,7 +3903,7 @@ Inst21Quest7_HORDE_Folgequest = "La semilla de vida" -- 7066
 --
 Inst21Quest7name1_HORDE = "Zumbaespada"
 Inst21Quest7name2_HORDE = "Vara de resurgimiento"
-Inst21Quest7name3_HORDE = "Objetivo del Guardaverde"
+Inst21Quest7name3_HORDE = "Objetivo del vigilante verdeante"
 
 --Quest 8 Horde (same as Quest 8 Alliance)
 Inst21Quest8_HORDE = Inst21Quest8
