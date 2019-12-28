@@ -3542,7 +3542,7 @@ Inst20Quest15_Note = "Tienes que completar la misión \"Leyendas élficas\" ante
 Inst20Quest15_Prequest = "Ninguno"
 Inst20Quest15_Folgequest = "Ninguno"
 --
-Inst20Quest16name1 = "Arcanum de Rapidez"
+Inst20Quest15name1 = "Arcano de Rapidez"
 
 --Quest 16 Alliance
 Inst20Quest16 = "16. Compendio de Foror" -- 7507
@@ -3631,7 +3631,7 @@ Inst20Quest8_HORDE_Note = "Solamente para Chamanes: Devuelves el libro al Tradic
 Inst20Quest8_HORDE_Prequest = "Ninguno"
 Inst20Quest8_HORDE_Folgequest = "Ninguno"
 --
-Inst20Quest11name1 = "Sello real de Eldre'Thalas"
+Inst20Quest11name1 = "Lacre real de Eldre'Thalas"
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst20Quest9_HORDE = Inst20Quest9
