@@ -4012,7 +4012,7 @@ Inst23Quest3_Prequest = "Ninguno"
 Inst23Quest3_Folgequest = "Ninguno"
 --
 Inst23Quest3name1 = "Espada del vencedor"
-Inst23Quest3name2 = "Dije del Resplandor Ámbar"
+Inst23Quest3name2 = "Dije Resplandor de Ámbar"
 
 
 --Quest 1 Horde (same as Quest 1 Alliance)
