@@ -4006,7 +4006,7 @@ Inst23Quest2name1 = "Anillo garra de dragón"
 --Quest 3 Alliance
 Inst23Quest3 = "3. Trae la Luz" -- 3636
 Inst23Quest3_Aim = "El arzobispo Benedictus quiere que mates a Amnennar el Gélido en Zahúrda Rajacieno."
-Inst23Quest3_Location = "Arzobispo Bendictus (Ventormenta - Catedral de la Luz; "..YELLOW.."39,27"..WHITE..")"
+Inst23Quest3_Location = "Arzobispo Benedictus (Ventormenta - Catedral de la Luz; "..YELLOW.."39,27"..WHITE..")"
 Inst23Quest3_Note = "Amnennar el Gélido es el último jefe en la Zahúrda Rajacieno. Lo encuentras en "..YELLOW.."[6]"..WHITE.."."
 Inst23Quest3_Prequest = "Ninguno"
 Inst23Quest3_Folgequest = "Ninguno"
