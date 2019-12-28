@@ -3624,7 +3624,6 @@ Inst20Quest7_HORDE_Folgequest = Inst20Quest7_Folgequest
 Inst20Quest7name1_HORDE = Inst20Quest7name1
 
 --Quest 8 Horde
-
 Inst20Quest8_HORDE = "11. El choque de Escarcha y tú" -- 7505
 Inst20Quest8_HORDE_Aim = "Devuelve el libro a sus legítimos dueños. "
 Inst20Quest8_HORDE_Location = "El choque de Escarcha y tú (botín aleatorio de todas las alas de La Masacre)"
