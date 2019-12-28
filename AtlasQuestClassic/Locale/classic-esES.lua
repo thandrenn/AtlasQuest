@@ -3815,7 +3815,7 @@ Inst21Quest7_Folgequest = "La semilla de vida" -- 7066
 --
 Inst21Quest7name1 = "Zumbaespada"
 Inst21Quest7name2 = "Vara de resurgimiento"
-Inst21Quest7name3 = "Objetivo del vigilante verdeante"
+Inst21Quest7name3 = "Objetivo del Guardaverde"
 
 --Quest 8 Alliance
 Inst21Quest8 = "8. La semilla de vida" -- 7066
