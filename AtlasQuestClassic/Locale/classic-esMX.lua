@@ -369,7 +369,7 @@ Inst1Quest7_HORDE_Folgequest = "Grark Lorkrub -> ¡Estás en un aprieto! (Misió
 Inst1Quest8_HORDE = "8. Operación: muerte a Forjainquina" -- 4132
 Inst1Quest8_HORDE_Aim = "Viaja hasta las Profundidades de Roca Negra ¡y mata al general Forjainquina! Vuelve junto al señor de la guerra Dientegore cuando hayas acabado la tarea."
 Inst1Quest8_HORDE_Location = "Señor de la guerra Dientegore (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst1Quest8_HORDE_Note = "Encuentras al General Forjainquina en "..YELLOW.."[13]"..WHITE..". Él llama para ayuda cuando tenga menos del 30% de salud."
+Inst1Quest8_HORDE_Note = "Encuentras al General Forjainquina en "..YELLOW.."[13]"..WHITE..". Él pedirá ayuda cuando tenga menos del 30% de salud."
 Inst1Quest8_HORDE_Prequest = "¡Estás en un aprieto!" -- 4121
 Inst1Quest8_HORDE_Folgequest = "Ninguno"
 --
