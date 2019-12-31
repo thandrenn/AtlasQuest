@@ -1052,8 +1052,6 @@ Inst4Quest7_HORDE_Folgequest = "Brasaliza" -- 6570
 
 --Quest 8 Horde
 Inst4Quest8_HORDE = "8. La sangre de dragón Negro Campeón" -- 6602
-Inst4Quest8_HORDE_Level = "60"
-Inst4Quest8_HORDE_Attain = "55"
 Inst4Quest8_HORDE_Aim = "Viaja a la Cumbre de Roca Negra y mata al general Drakkisath. Recoge su sangre y llévasela a Rexxar."
 Inst4Quest8_HORDE_Location = "Rexxar (Desolace - Aldea Cazasombras; "..YELLOW.."25,71"..WHITE..")"
 Inst4Quest8_HORDE_Note = "Es la parte final para la misión para la armonización con Onyxia. Encuentras al General Drakkisath en "..YELLOW.."[8]"..WHITE.."."
@@ -1782,8 +1780,6 @@ Inst11Quest6name4_HORDE = Inst11Quest6name4
 
 --Quest 7 Horde
 Inst11Quest7_HORDE = "7. La fortuna de la familia Barov" -- 5341
-Inst11Quest7_HORDE_Level = "60"
-Inst11Quest7_HORDE_Attain = "52"
 Inst11Quest7_HORDE_Aim = "Aventúrate a Scholomance y recupera la fortuna familiar de los Barov. La fortuna se compone de cuatro escrituras: Las escrituras de Castel Darrow, Las escrituras de Rémol, Las escrituras de Molino Tarren y Las escrituras de Costasur. Regresa con Alexi Barov cuando hayas terminado esta tarea."
 Inst11Quest7_HORDE_Location = "Alexi Barov (Claros de Tirisfal - El Baluarte; "..YELLOW.."80,73"..WHITE..")"
 Inst11Quest7_HORDE_Note = "Encuentras las escrituras de Castel Darrow en "..YELLOW.."[12]"..WHITE..", las escrituras de Rémol en "..YELLOW.."[7]"..WHITE..", las escrituras de Molino Tarren en "..YELLOW.."[4]"..WHITE..", y las escrituras de Costasur en "..YELLOW.."[1]"..WHITE.."."
@@ -2457,8 +2453,6 @@ Inst15Quest8name1 = "Esencia encadenada de Eranikus"
 
 --Quest 9 Alliance
 Inst15Quest9 = "9. Plumas de trol" -- 8422
-Inst15Quest9_Level = "52"
-Inst15Quest9_Attain = "50"
 Inst15Quest9_Aim = "Reúne un total de 6 plumas vudú en el Templo Sumergido."
 Inst15Quest9_Location = "Diblis (Frondavil; "..YELLOW.."42,45"..WHITE..")"
 Inst15Quest9_Note = "Solamente para Brujos: Despoja a los minijefes trol para obtener las plumas."
@@ -2483,8 +2477,6 @@ Inst15Quest10name3 = "Sobrehombros Acero afilado"
 
 --Quest 11 Alliance
 Inst15Quest11 = "11. Un ingrediente mejor" -- 9053
-Inst15Quest11_Level = "52"
-Inst15Quest11_Attain = "50"
 Inst15Quest11_Aim = "Consigue una vid pútrida de las que custodia el guardián en las profundidades del Templo Sumergido y después ve a ver de nuevo a Torwa Abrecaminos."
 Inst15Quest11_Location = "Torwa Abrecaminos (Cráter de Un'Goro; "..YELLOW.."72,76"..WHITE..")"
 Inst15Quest11_Note = "Solamente para Druidas: Despoja a Atal'alarion que está invocado en "..YELLOW.."[1]"..WHITE.." por activar las estatuas en la orden especificada en el mapa para obtener la vid pútrida."
@@ -2841,7 +2833,7 @@ Inst16Quest10_Folgequest = "Encuentra las gemas" -- 2201
 --Quest 11 Alliance
 Inst16Quest11 = "11. Encuentra las gemas" -- 2201
 Inst16Quest11_Aim = "Encuentra el rubí, el zafiro y el topacio que están desperdigados por Uldaman. Cuando los tengas, contacta con Talvash del Kissel mediante la ampolla de adivinación que él te dio."
-Inst16Quest11_Location = "Remains of a Paladin (Uldaman; "..YELLOW.."[2]"..WHITE..")"
+Inst16Quest11_Location = "Restos de un paladín (Uldaman; "..YELLOW.."[2]"..WHITE..")"
 Inst16Quest11_Note = "Las gemas están en "..YELLOW.."[1]"..WHITE.." dentro de la Urna llamativa, "..YELLOW.."[8]"..WHITE.." del Alijo de Forjatiniebla, y "..YELLOW.."[9]"..WHITE.." de Grimlok. Por favor nota que aparecerán monstruos después de abrir el Alijo de Forjatiniebla.\nUsa el Cuenco de visión de Talvash para entregar la misión y obtener la misión siguiente."
 Inst16Quest11_Prequest = "El regreso a Uldaman" -- 2200
 Inst16Quest11_Folgequest = "Restaurar el collar" -- 2204
@@ -2859,8 +2851,6 @@ Inst16Quest12name1 = "Collar de mejoría de Talvash"
 
 --Quest 13 Alliance
 Inst16Quest13 = "13. Componentes de Uldaman" -- 17
-Inst16Quest13_Level = "42"
-Inst16Quest13_Attain = "36"
 Inst16Quest13_Aim = "Lleva 12 setas magenta a Ghak Sanadón a Thelsamar."
 Inst16Quest13_Location = "Ghak Sanadón (Loch Modan - Thelsamar; "..YELLOW.."37,49"..WHITE..")"
 Inst16Quest13_Note = "Las setas están desperdigadas a través de toda la instancia. Se puede rastrear las hierbas si tienes la profesión Botánica."
@@ -2871,8 +2861,6 @@ Inst16Quest13name1 = "Poción restauradora"
 
 --Quest 14 Alliance
 Inst16Quest14 = "14. Los tesoros reclamados" -- 1360
-Inst16Quest14_Level = "43"
-Inst16Quest14_Attain = "33"
 Inst16Quest14_Aim = "Recoge la posesión más preciada de Krom Brazorrecio de su cofre, que está en la Sala Comunal Norte de Uldaman, y llévasela a Forjaz."
 Inst16Quest14_Location = "Krom Brazorrecio (Forjaz - Sala de los Exploradores; "..YELLOW.."74,9"..WHITE..")"
 Inst16Quest14_Note = "Encuentras el tesoro antes de entrar la instancia. Está a la parte al norte de las cuevas, al fin sureste del primer túnel. En el mapa de la Entrada está en "..YELLOW.."[4]"..WHITE.."."
@@ -2882,8 +2870,6 @@ Inst16Quest14_Folgequest = "Ninguno"
 
 --Quest 15 Alliance
 Inst16Quest15 = "15. Los discos de platino" -- 2278 -> 2439
-Inst16Quest15_Level = "47"
-Inst16Quest15_Attain = "40"
 Inst16Quest15_Aim = "Habla con el vigía de piedra y descubre qué conocimiento antiguo alberga. Cuando hayas adquirido el conocimiento que te ofrece, activa los Discos de Norgannon. -> Lleva la reproducción en miniatura de los Discos de Norgannon a la Liga de Expedicionarios de Forjaz."
 Inst16Quest15_Location = "Los Discos de Norgannon (Uldaman; "..YELLOW.."[11]"..WHITE..")"
 Inst16Quest15_Note = "Despúes de adquirir la misión, habla con el vigía de piedra a la izquierda de los discos. Usa los discos de platino para recibir los discos de platino en miniatura y llévaselos al Alto expedicionario Magellas en Forjaz - Sala de los Exploradores ("..YELLOW.."69,18"..WHITE.."). La misión siguiente empieza con un PNJ que está cerca."
@@ -2896,8 +2882,6 @@ Inst16Quest15name3 = "Poción de maná superior"
 
 --Quest 16 Alliance
 Inst16Quest16 = "16. Poder en Uldaman" -- 1956
-Inst16Quest16_Level = "40"
-Inst16Quest16_Attain = "35"
 Inst16Quest16_Aim = "Hazte con una fuente de poder obsidiano y llévasela a Tabetha en el Marjal Revolcafango."
 Inst16Quest16_Location = "Tabetha (Marjal Revolcafango; "..YELLOW.."46,57"..WHITE..")"
 Inst16Quest16_Note = "Solamente para Magos: \nDespoja a una Centinela obsidiana para obtener el Fuente de poder obsidiano en "..YELLOW.."[5]"..WHITE.."."
@@ -4104,8 +4088,6 @@ Inst24Quest5_Folgequest = "(Ve la Nota)"
 
 --Quest 1 Horde (same as Quest 1 Alliance)
 Inst24Quest1_HORDE = Inst24Quest1
-Inst24Quest1_HORDE_Level = Inst24Quest1_Level
-Inst24Quest1_HORDE_Attain = Inst24Quest1_Attain
 Inst24Quest1_HORDE_Aim = Inst24Quest1_Aim
 Inst24Quest1_HORDE_Location = Inst24Quest1_Location
 Inst24Quest1_HORDE_Note = Inst24Quest1_Note
@@ -4116,8 +4098,6 @@ Inst24Quest1name1_HORDE = Inst24Quest1name1
 
 --Quest 2 Horde (same as Quest 3 Alliance)
 Inst24Quest2_HORDE = "2. Willix el Importador"
-Inst24Quest2_HORDE_Level = Inst24Quest3_Level
-Inst24Quest2_HORDE_Attain = Inst24Quest3_Attain
 Inst24Quest2_HORDE_Aim = Inst24Quest3_Aim
 Inst24Quest2_HORDE_Location = Inst24Quest3_Location
 Inst24Quest2_HORDE_Note = Inst24Quest3_Note
