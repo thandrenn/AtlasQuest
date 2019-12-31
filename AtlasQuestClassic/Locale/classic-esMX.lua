@@ -971,7 +971,7 @@ Inst4Quest11_Folgequest = "Leonid Barthalomew -> Gambito del Alba ("..YELLOW.."S
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst4Quest12 = "7. Amuleto Pirodraco" -- 6502
+Inst4Quest12 = "12. Amuleto Pirodraco" -- 6502
 Inst4Quest12_Aim = "Tienes que recuperar la sangre de dragón Negro Campeón, la tiene el general Drakkisath. Puedes encontrar a Drakkisath en su sala del trono, tras las Salas de la Ascensión, en la Cumbre de Roca Negra."
 Inst4Quest12_Location = "Haleh (Cuna del Invierno; "..YELLOW.."54,51"..WHITE..")"
 Inst4Quest12_Note = "Es la parte final para la cadena de misiones para la armonización con Onyxia por la Alianza. Encuentras al General Drakkisath en "..YELLOW.."[8]"..WHITE.."."
