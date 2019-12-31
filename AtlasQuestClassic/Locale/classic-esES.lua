@@ -868,7 +868,7 @@ Inst4Quest1_Folgequest = "La cólera del Vuelo Azul" -- 5161
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst4Quest2 = "2. ¡Finkle Einhorn, a tu servicio!" -- 5047
+Inst4Quest2 = "2. ¡Finkle Unicornín, a tu servicio!" -- 5047
 Inst4Quest2_Aim = "Habla con Malyfous Martilloscuro en Vista Eterna."
 Inst4Quest2_Location = "Finkle Einhorn (Cumbre de Roca Negra Superior; "..YELLOW.."[7]"..WHITE..")"
 Inst4Quest2_Note = "Finkle Einhorn aparece después de desollar a La Bestia. Encuentras a Malyfous Martilloscuro en (Cuna del Invierno - Vista Eterna; "..YELLOW.."61,38"..WHITE..")."
@@ -891,7 +891,7 @@ Inst4Quest3name1 = "Ovosciloscopio"
 Inst4Quest4 = "4. Ojo del Brasadivino" -- 6821
 Inst4Quest4_Aim = "Lleva el ojo del Brasadivino al duque Hydraxis a Azshara."
 Inst4Quest4_Location = "Duque Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")"
-Inst4Quest4_Note = "Encuentras al Piroguardia Brasadivino en "..YELLOW.."[1]"..WHITE.."."
+Inst4Quest4_Note = "Encuentras al Piroguardián brasadivino en "..YELLOW.."[1]"..WHITE.."."
 Inst4Quest4_Prequest = "Agua envenenada, Sirocosos y reptarenas" -- 6804, 6805
 Inst4Quest4_Folgequest = "El Núcleo de Magma" -- 6822
 -- No Rewards for this quest
@@ -978,7 +978,7 @@ Inst4Quest12_Note = "Es la parte final para la cadena de misiones para la armoni
 Inst4Quest12_Prequest = "El Ojo del Dragón" -- 6501
 Inst4Quest12_Folgequest = "Ninguno"
 --
-Inst4Quest12name1 = "Amuleto Pirodraco"
+Inst4Quest12name1 = "Amuleto de Pirodraco"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
