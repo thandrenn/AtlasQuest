@@ -1252,7 +1252,7 @@ Inst6Quest5_Folgequest = "Ninguno"
 Inst6Quest6 = "6. Rescatar los datos" -- 2930
 Inst6Quest6_Aim = "Lleva una tarjeta perforada prismática al maestro mecánico Funditubo a Forjaz."
 Inst6Quest6_Location = "Maestro mecánico Funditubo (Forjaz - Ciudad Manitas; "..YELLOW.."69,48"..WHITE..")"
-Inst6Quest6_Note = "Obtienes la misión requisita de Gaxim Silvóxido (Sierra Espolón; "..YELLOW.."59,67"..WHITE.."). No es necesario obtener la misión requisita para empezar esta misión.\nLa Tarjeta perforada blanca es botín aleatorio de las criaturas fuera de la estancia. Encuentras el Perforágrafo Matriz 3005-A cerca de la entrada trasera antes de entrar la estancia en "..YELLOW.."[3] en el mapa de la Entrada"..WHITE..". Perforágrafo Matriz 3005-B está en "..YELLOW.."[3]"..WHITE..", 3005-C está en "..YELLOW.."[5]"..WHITE.." y 3005-D está en "..YELLOW.."[6]"..WHITE.."."
+Inst6Quest6_Note = "Obtienes la misión requisita de Gaxim Silvóxido (Sierra Espolón; "..YELLOW.."59,67"..WHITE.."). No es necesario obtener la misión requisita para empezar esta misión.\nLa Tarjeta perforada blanca es botín aleatorio de los troggs fuera de la estancia. Encuentras el Perforágrafo Matriz 3005-A cerca de la entrada trasera antes de entrar la estancia en "..YELLOW.."[3] en el mapa de la Entrada"..WHITE..". Perforágrafo Matriz 3005-B está en "..YELLOW.."[3]"..WHITE..", 3005-C está en "..YELLOW.."[5]"..WHITE.." y 3005-D está en "..YELLOW.."[6]"..WHITE.."."
 Inst6Quest6_Prequest = "Trabajar para Funditubo" -- 2931
 Inst6Quest6_Folgequest = "Ninguno"
 --
@@ -1953,7 +1953,7 @@ Inst13Quest3_Folgequest = "Ninguno"
 Inst13Quest4 = "4. El color de la sangre" -- 388
 Inst13Quest4_Aim = "Nikova Raskol, de Ventormenta, quiere que consigas 10 pañuelos de lana roja."
 Inst13Quest4_Location = "Nikova Raskol (Ventormenta - Casco Antiguo; "..YELLOW.."73,46"..WHITE..")"
-Inst13Quest4_Note = "Despoja a cualquier criatura en la estancia para obtener los pañuelos de lana roja."
+Inst13Quest4_Note = "Despoja a cualquier Defias en la estancia para obtener los pañuelos de lana roja."
 Inst13Quest4_Prequest = "Ninguno"
 Inst13Quest4_Folgequest = "Ninguno"
 -- No Rewards for this quest
