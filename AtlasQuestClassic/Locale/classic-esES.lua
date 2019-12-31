@@ -197,7 +197,7 @@ Inst1Quest9name3 = "Fajín valconiano"
 Inst1Quest10 = "10. Kharan Martillazo" -- 4341
 Inst1Quest10_Aim = "Ve a las Profundidades de Roca Negra y encuentra a Kharan Martillazo.\nEl rey dijo que estaba prisionero allí; busca una cárcel."
 Inst1Quest10_Location = "Rey Magni Barbabronce (Forjaz; "..YELLOW.."39,55"..WHITE..")"
-Inst1Quest10_Note = "La misión requisita empieza con Historiadora Real Archesonus (Forjaz; "..YELLOW.."38,55"..WHITE.."). Kharan Martillo Poderoso está en "..YELLOW.."[2]"..WHITE.."."
+Inst1Quest10_Note = "La misión requisita empieza con Historiadora Real Archesonus (Forjaz; "..YELLOW.."38,55"..WHITE.."). Kharan Martillazo está en "..YELLOW.."[2]"..WHITE.."."
 Inst1Quest10_Prequest = "Las humeantes Ruinas de Thaurissan" -- 3701
 Inst1Quest10_Folgequest = "Portador de malas noticias" -- 4361
 -- No Rewards for this quest
@@ -406,7 +406,7 @@ Inst1Quest11_HORDE_Aim = "Ve a la cantera de la Montaña Roca Negra y ejecuta al
 Inst1Quest11_HORDE_Location = "Truenozón (Tierras Inhóspitas - Kargath; "..YELLOW.."3,48"..WHITE..")"
 Inst1Quest11_HORDE_Note = "Maestro supremo Pyron es un elemental de fuego afuera de la mazmorra. Patrulla cerca del portal en "..YELLOW.."[24]"..WHITE.." en el mapa de Las Profundidades Roca Negra en "..YELLOW.."[3]"..WHITE.." en el mapa de entrada de la Montaña Roca Negra."
 Inst1Quest11_HORDE_Prequest = "Ninguno"
-Inst1Quest11_HORDE_Folgequest = "La discordia del fuego"
+Inst1Quest11_HORDE_Folgequest = "La discordia de las llamas"
 -- No Rewards for this quest
 
 --Quest 12 Horde
@@ -414,7 +414,7 @@ Inst1Quest12_HORDE = "12. La discordia de las llamas" -- 3907
 Inst1Quest12_HORDE_Aim = "Adéntrate en las Profundidades de Roca Negra y localiza a Lord Incendius. Mátalo y llévale toda la información que encuentres a Truenozón."
 Inst1Quest12_HORDE_Location = "Truenozón (Tierras Inhóspitas - Kargath; "..YELLOW.."3,48"..WHITE..")"
 Inst1Quest12_HORDE_Note = "Obtienes la misión requisita de Truenozón también.\nEncuentras a Lord Incendius en "..YELLOW.."[10]"..WHITE.."."
-Inst1Quest12_HORDE_Prequest = "La discordia del fuego" -- 3906
+Inst1Quest12_HORDE_Prequest = "La discordia de las llamas" -- 3906
 Inst1Quest12_HORDE_Folgequest = "Ninguno"
 --
 Inst1Quest12name1_HORDE = "Manteo nacido del Sol"
@@ -446,7 +446,7 @@ Inst1Quest15_HORDE = "15. El rescate real" -- 4003
 
 Inst1Quest15_HORDE_Aim = "Mata al emperador Dagran Thaurissan para liberar a la princesa Moira Barbabronce del hechizo."
 Inst1Quest15_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,37"..WHITE..")"
-Inst1Quest15_HORDE_Note = "Después de hablar con Kharan Martillo Poderoso y Thrall, consigues esta misión.\nEncuentras al Emperador Dagran Thaurissan en "..YELLOW.."[21]"..WHITE..". Es posible que Princesa Moira Barbabronce sanará a Dagran. Interrúmpela pero no puedes matarla para completar la misión. (Las recompensas son para la misión ¿Princesa salvada?)"
+Inst1Quest15_HORDE_Note = "Después de hablar con Kharan Martillazo y Thrall, consigues esta misión.\nEncuentras al Emperador Dagran Thaurissan en "..YELLOW.."[21]"..WHITE..". Es posible que Princesa Moira Barbabronce sanará a Dagran. Interrúmpela pero no puedes matarla para completar la misión. (Las recompensas son para la misión ¿Princesa salvada?)"
 Inst1Quest15_HORDE_Prequest = "Comandante Gor'shak -> Los Reinos del Este" -- 3981 -> 4002
 Inst1Quest15_HORDE_Folgequest = "¿Princesa salvada?" -- 4004
 --
