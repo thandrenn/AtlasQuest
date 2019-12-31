@@ -1649,7 +1649,7 @@ Inst11Quest5name3 = "Canción de Mirah"
 
 --Quest 6 Alliance
 Inst11Quest6 = "6. El exánime, Ras Levescarcha" -- 5466
-Inst11Quest6_Aim = "Busca a Ras Levescarcha en Scholomance. Cuando lo hayas encontrado utiliza el Libro de Memorias del Alma sobre su rostro no-muerto. Si consiguieras convertirlo en mortal, derrótale y recupera la Cabeza humana de Ras Murmuhielo. Lleva la cabeza al magistrado Marduke."
+Inst11Quest6_Aim = "Busca a Ras Levescarcha en Scholomance. Cuando lo hayas encontrado utiliza el Libro de Memorias del Alma sobre su rostro no-muerto. Si consiguieras convertirlo en mortal, derrótale y recupera la Cabeza humana de Ras Levescarcha. Lleva la cabeza al magistrado Marduke."
 Inst11Quest6_Location = "Magistrado Marduke (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."70,73"..WHITE..")"
 Inst11Quest6_Note = "Encuentras a Ras Levescarcha en "..YELLOW.."[7]"..WHITE.."."
 Inst11Quest6_Prequest = "El humano, Ras Levescarcha - > El Libro de Memorias del Alma" -- 5461 -> 5465
@@ -2052,7 +2052,7 @@ Inst14Quest6_Folgequest = "Encuentra a Myranda" -- 5861
 Inst14Quest7 = "7. El Obsequio de Menethil" -- 5463
 Inst14Quest7_Aim = "Viaja a Stratholme y encuentra el Obsequio de Menethil. Coloca el Libro de los Recuerdos en suelo no consagrado."
 Inst14Quest7_Location = "Leonid Barthalomew el Venerado (Tierras de la Peste del Este - Capilla de la Esperanza de la Luz; "..YELLOW.."80,58"..WHITE..")"
-Inst14Quest7_Note = "Obtienes la misión requisita de Magistrado Marduke (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."70,73"..WHITE.."). Encuentras el Obsequio de Menethil cerca de "..YELLOW.."[19]"..WHITE..". Ver También: "..YELLOW.."[El exánime, Ras Murmuhielo]"..WHITE.." en Scholomance."
+Inst14Quest7_Note = "Obtienes la misión requisita de Magistrado Marduke (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."70,73"..WHITE.."). Encuentras el Obsequio de Menethil cerca de "..YELLOW.."[19]"..WHITE..". Ver También: "..YELLOW.."[El exánime, Ras Levescarcha]"..WHITE.." en Scholomance."
 Inst14Quest7_Prequest = "El humano, Ras Levescarcha - > El moribundo, Ras Levescarcha" -- 5461 -> 5462
 Inst14Quest7_Folgequest = "El Obsequio de Menethil" -- 5464
 -- No Rewards for this quest
