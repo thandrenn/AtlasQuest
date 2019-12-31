@@ -154,7 +154,7 @@ Inst1Quest6 = "6. ¡Incendius!"
 Inst1Quest6_Aim = "Encuentra a Lord Incendius en las Profundidades de Roca Negra ¡y acaba con él! "
 Inst1Quest6_Location = "Jalinda Espiga (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,69"..WHITE..")"
 Inst1Quest6_Note = "Obtienes la misión requisita de Jalinda Espiga también. Encuentras a Lord Incendius en "..YELLOW.."[10]"..WHITE.."."
-Inst1Quest6_Prequest = "Gran maestro Pyron" -- 4262
+Inst1Quest6_Prequest = "Maestro supremo Pyron" -- 4262
 Inst1Quest6_Folgequest = "Ninguno"
 --
 Inst1Quest6name1 = "Manteo nacido del Sol"
@@ -173,7 +173,7 @@ Inst1Quest7_Folgequest = "Ninguno"
 
 --Quest 8 Alliance
 Inst1Quest8 = "8. Buena mercancía" -- 4286
-Inst1Quest8_Aim = "Viaja a las Profundidades de Roca Negra y recupera 20 riñoneras Hierro Negro. Vuelve junto a Oralius cuando hayas completado esta tarea. Se da por sentado que los enanos Hierro Negro de las Profundidades de Roca Negra llevan estos inventos de riñoneras. "
+Inst1Quest8_Aim = "Viaja a las Profundidades de Roca Negra y recupera 20 riñoneras Hierro Negro. Vuelve junto a Oralius cuando hayas completado esta tarea. Se da por sentado que los enanos Hierro Negro de las Profundidades de Roca Negra llevan estos inventos de riñoneras."
 Inst1Quest8_Location = "Oralius (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,68"..WHITE..")"
 Inst1Quest8_Note = "Despoja a cualquier enano para obtener las riñoneras."
 Inst1Quest8_Prequest = "Ninguno"
@@ -194,8 +194,8 @@ Inst1Quest9name2 = "Bufas de pellejo de vermis"
 Inst1Quest9name3 = "Fajín valconiano"
 
 --Quest 10 Alliance
-Inst1Quest10 = "10. Kharan Martillo Poderoso" -- 4341
-Inst1Quest10_Aim = "Ve a las Profundidades de Roca Negra y encuentra a Kharan Martillo Poderoso.\nEl rey dijo que estaba prisionero allí; busca una cárcel."
+Inst1Quest10 = "10. Kharan Martillazo" -- 4341
+Inst1Quest10_Aim = "Ve a las Profundidades de Roca Negra y encuentra a Kharan Martillazo.\nEl rey dijo que estaba prisionero allí; busca una cárcel."
 Inst1Quest10_Location = "Rey Magni Barbabronce (Forjaz; "..YELLOW.."39,55"..WHITE..")"
 Inst1Quest10_Note = "La misión requisita empieza con Historiadora Real Archesonus (Forjaz; "..YELLOW.."38,55"..WHITE.."). Kharan Martillo Poderoso está en "..YELLOW.."[2]"..WHITE.."."
 Inst1Quest10_Prequest = "Las humeantes Ruinas de Thaurissan" -- 3701
@@ -254,7 +254,7 @@ Inst1Quest16 = "16. Esperanza perdida"
 Inst1Quest16_Aim = "Dale las malas noticias a mariscal Maxwell. "
 Inst1Quest16_Location = "Mariscal Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
 Inst1Quest16_Note = "Esta misión es una parte de la cadena para la armonización de Onyxia. Mariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,69"..WHITE.."). La siguiente misión en la cadena se despoja en las Profundidades de Roca Negra."
-Inst1Quest16_Prequest = "Marshal Windsor"
+Inst1Quest16_Prequest = "El mariscal Windsor"
 Inst1Quest16_Folgequest = "Ninguno"
 --
 Inst1Quest16name1 = "Yelmo de conservador"
@@ -328,9 +328,9 @@ Inst1Quest3name2_HORDE = Inst1Quest3name2
 --Quest 4 Horde
 Inst1Quest4_HORDE = "4. La receta de Cebatruenos perdida" -- 4143
 Inst1Quest4_HORDE_Aim = "Llévale la receta de Cebatruenos perdida a Vivian Lagrave en Kargath."
-Inst1Quest4_HORDE_Location = "Maga oscura Vivian Lagrave (Tierras Inhóspitas - Kargath; "..YELLOW.."2,47"..WHITE..")"
+Inst1Quest4_HORDE_Location = "Maga oscura Vivian Latumba (Tierras Inhóspitas - Kargath; "..YELLOW.."2,47"..WHITE..")"
 Inst1Quest4_HORDE_Note = "Obtienes la misión requisita de la Boticaria Zinge en Entrañas - El Apothecarium ("..YELLOW.."50,68"..WHITE..").\nConsigues la receta de unos de los guardias que aparezcan si destruyes la cerveza en "..YELLOW.."[15]"..WHITE.."."
-Inst1Quest4_HORDE_Prequest = "Vivian Lagrave" -- 4133
+Inst1Quest4_HORDE_Prequest = "Vivian Latumba" -- 4133
 Inst1Quest4_HORDE_Folgequest = "Ninguno"
 --
 Inst1Quest4name1_HORDE = "Poción de curación excelente"
@@ -425,7 +425,7 @@ Inst1Quest12name4_HORDE = "Garra Stalwart"
 --Quest 13 Horde
 Inst1Quest13_HORDE = "13. El último elemento" -- 7201
 Inst1Quest13_HORDE_Aim = "Viaja a las Profundidades de Roca Negra y recupera 10 esencias de los elementos. Tu primer impulso es buscar los gólems y a los creadores de gólems. Recuerdas que Vivian Lagrave también murmuró entre dientes algo sobre los elementales."
-Inst1Quest13_HORDE_Location = "Maga oscura Vivian Lagrave (Tierras Inhóspitas - Kargath; "..YELLOW.."2,47"..WHITE..")"
+Inst1Quest13_HORDE_Location = "Maga oscura Vivian Latumba (Tierras Inhóspitas - Kargath; "..YELLOW.."2,47"..WHITE..")"
 Inst1Quest13_HORDE_Note = "Obtienes la misión requisita de Truenozón (Tierras Inhóspitas - Kargath; "..YELLOW.."3,48"..WHITE..").\nDespoja a cualquier elemental para obtener la esencia."
 Inst1Quest13_HORDE_Prequest = "Ninguno"
 Inst1Quest13_HORDE_Folgequest = "Ninguno"
@@ -435,7 +435,7 @@ Inst1Quest13name1_HORDE = "Lacre de Lagrave"
 --Quest 14 Horde
 Inst1Quest14_HORDE = "14. Comandante Gor'shak" -- 3981
 Inst1Quest14_HORDE_Aim = "Encuentra al comandante Gor'shak en las Profundidades de Roca Negra.\nRecuerdas que en el dibujo burdo había rejas sobre el rostro del orco. Quizás deberías buscar una cárcel o algo similar."
-Inst1Quest14_HORDE_Location = "Galamav el Tirador (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")"
+Inst1Quest14_HORDE_Location = "Galamav el Preciso (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")"
 Inst1Quest14_HORDE_Note = "Obtienes la misión requisita de Truenozón (Tierras Inhóspitas - Kargath; "..YELLOW.."3,48"..WHITE..").\nEncuentras al Comandante Gor'shak en "..YELLOW.."[3]"..WHITE..". Despoja a Alta interrogadora Gerstahn "..YELLOW.."[5]"..WHITE.." para obtener la llave para abrir el cárcel. Si hablas consigo y empezar, los enemigos aparecen."
 Inst1Quest14_HORDE_Prequest = "La discordia de las llamas" -- 3906
 Inst1Quest14_HORDE_Folgequest = "¿Qué pasa?" -- 3982
@@ -749,7 +749,7 @@ Inst3Quest4name1_HORDE = Inst3Quest4name1
 --Quest 5 Horde
 Inst3Quest5_HORDE = "5. La maestra de la manada" -- 4724
 Inst3Quest5_HORDE_Aim = "Mata a Halycon, la maestra de la manada de los huargos Hacha de Sangre."
-Inst3Quest5_HORDE_Location = "Galamav el Tirador (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")"
+Inst3Quest5_HORDE_Location = "Galamav el Preciso (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")"
 Inst3Quest5_HORDE_Note = "Halycon está en "..YELLOW.."[15]"..WHITE.."."
 Inst3Quest5_HORDE_Prequest = "Ninguno"
 Inst3Quest5_HORDE_Folgequest = "Ninguno"
@@ -1021,7 +1021,7 @@ Inst4Quest4_HORDE_Folgequest = Inst4Quest4_Folgequest
 --Quest 5 Horde
 Inst4Quest5_HORDE = "5. La tablilla de Rocanegra" -- 4768
 Inst4Quest5_HORDE_Aim = "Llévale la tablilla de Rocanegra a la maga oscura Vivian Lagrave en Kargath."
-Inst4Quest5_HORDE_Location = "Maga oscura Vivian Lagrave (Tierras Inhóspitas - Kargath; "..YELLOW.."2,47"..WHITE..")"
+Inst4Quest5_HORDE_Location = "Maga oscura Vivian Latumba (Tierras Inhóspitas - Kargath; "..YELLOW.."2,47"..WHITE..")"
 Inst4Quest5_HORDE_Note = "Obtienes la misión requisita de la Boticaria Zinge en Entrañas - El Apothecarium ("..YELLOW.."50,68"..WHITE..").\n\nLa tablilla de Rocanegra está en "..YELLOW.."[3]"..WHITE.." dentro de un cofre."
 Inst4Quest5_HORDE_Prequest = "Vivian Lagrave y la tablilla de Rocanegra" -- 4769
 Inst4Quest5_HORDE_Folgequest = "Ninguno"
