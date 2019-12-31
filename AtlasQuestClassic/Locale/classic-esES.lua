@@ -271,9 +271,9 @@ Inst1Quest17_Folgequest = "Una esperanza hecha trizas"
 -- No Rewards for this quest
 
 --Quest 18 Alliance
-Inst1Quest18 = "18. Una esperanza hecha trizas"
+Inst1Quest18 = "18. Una brizna de esperanza"
 Inst1Quest18_Aim = "Devuélvele al mariscal Windsor la información perdida.\nEl mariscal Windsor cree que la información está siendo retenida en manos del Señor Gólem Argelmach y del general Forjainquina."
-Inst1Quest18_Location = "Mariscal Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
+Inst1Quest18_Location = "Alguacil Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
 Inst1Quest18_Note = "Esta misión es una parte de la cadena para la armonización de Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE..".\nEncuentras al Señor Gólem Argelmach en "..YELLOW.."[14]"..WHITE.." y a General Forjainquina en "..YELLOW.."[13]"..WHITE.."."
 Inst1Quest18_Prequest = "Una nota arrugada"
 Inst1Quest18_Folgequest = "La fuga de la prisión"
@@ -281,8 +281,8 @@ Inst1Quest18_Folgequest = "La fuga de la prisión"
 
 --Quest 19 Alliance
 Inst1Quest19 = "19. La fuga de la prisión"
-Inst1Quest19_Aim = "Ayuda al mariscal Windsor a recuperar su equipo y a liberar a sus amigos. Vuelve junto al mariscal Maxwell si lo consigues."
-Inst1Quest19_Location = "Mariscal Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
+Inst1Quest19_Aim = "Ayuda al alguacil Windsor a recuperar su equipo y a liberar a sus amigos. Vuelve junto al mariscal Maxwell si lo consigues."
+Inst1Quest19_Location = "Alguacil Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
 Inst1Quest19_Note = "Esta misión es una parte de la cadena para la armonización con Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE..".\nEs más fácil realizar la misión si haces el Círculo de la Ley ("..YELLOW.."[6]"..WHITE..") y el camino a la entrada antes de empezar el evento. Encuentras a Mariscal Maxwell en Las Estepas Ardientes - Vigilia de Morgan ("..YELLOW.."84,68"..WHITE..")"
 Inst1Quest19_Prequest = "Una brizna de esperanza" -- 4282
 Inst1Quest19_Folgequest = "Tienes una cita en Ventormenta" -- 6204
@@ -501,9 +501,9 @@ Inst2Quest1name2 = "Amuleto de Escudo de las Sombras"
 
 --Quest 2 Alliance
 Inst2Quest2 = "2. Señor de Roca Negra" -- 7781
-Inst2Quest2_Aim = "Lleva la cabeza de Nefarian al Alto señor Bolvar Fordragón en Ventormenta."
+Inst2Quest2_Aim = "Llévale la cabeza de Nefarian al alto señor Bolvar Fordragón en Ventormenta"
 Inst2Quest2_Location = "Cabeza de Nefarian; "..YELLOW.."[8]"..WHITE..""
-Inst2Quest2_Note = "Alto señor Bolvar Fordragón está en Ventormenta - Castillo de Ventormenta; "..YELLOW.."78,20"..WHITE..". La misión siguiente te envia al Mariscal de campo Afrasiabi (Ventormenta - Valle de los Héroes; "..YELLOW.."67,72"..WHITE..") para obtener la recompensa."
+Inst2Quest2_Note = "Alto Señor Bolvar Fordragón está en Ventormenta - Castillo de Ventormenta; "..YELLOW.."78,20"..WHITE..". La misión siguiente te envia al Mariscal de campo Afrasiabi (Ventormenta - Valle de los Héroes; "..YELLOW.."67,72"..WHITE..") para obtener la recompensa."
 Inst2Quest2_Prequest = "Ninguno"
 Inst2Quest2_Folgequest = "Señor de Roca Negra" -- 7782
 --
@@ -534,7 +534,7 @@ Inst2Quest1name2_HORDE = Inst2Quest1name2
 
 --Quest 2 Horde
 Inst2Quest2_HORDE = "2. Señor de Roca Negra" -- 7783
-Inst2Quest2_HORDE_Aim = "Regresa la cabeza de Nefarian a Thrall en Orgrimmar."
+Inst2Quest2_HORDE_Aim = "Llévale la cabeza de Nefarian a Thrall en Orgrimmar."
 Inst2Quest2_HORDE_Location = "Cabeza de Nefarian; "..YELLOW.."[8]"..WHITE..""
 Inst2Quest2_HORDE_Note = "La misión siguiente te envia al Alto señor supremo Colmillosauro (Orgrimmar - Valle de la Fuerza; "..YELLOW.."51,76"..WHITE..") para la recompensa."
 Inst2Quest2_HORDE_Prequest = "Ninguno"
@@ -1052,8 +1052,6 @@ Inst4Quest7_HORDE_Folgequest = "Brasaliza" -- 6570
 
 --Quest 8 Horde
 Inst4Quest8_HORDE = "8. La sangre de dragón Negro Campeón" -- 6602
-Inst4Quest8_HORDE_Level = "60"
-Inst4Quest8_HORDE_Attain = "55"
 Inst4Quest8_HORDE_Aim = "Viaja a la Cumbre de Roca Negra y mata al general Drakkisath. Recoge su sangre y llévasela a Rexxar."
 Inst4Quest8_HORDE_Location = "Rexxar (Desolace - Aldea Cazasombras; "..YELLOW.."25,71"..WHITE..")"
 Inst4Quest8_HORDE_Note = "Es la parte final para la misión para la armonización con Onyxia. Encuentras al General Drakkisath en "..YELLOW.."[8]"..WHITE.."."
@@ -1412,7 +1410,7 @@ Inst7Quest3 = "3. En el nombre de la Luz" -- 1053
 Inst7Quest3_Aim = "Mata a la alta inquisidora Melenablanca, al Comandante Escarlata Mograine, a Herod, el Campeón Escarlata y al maestro de canes Loksey. A continuación, preséntate ante Raleigh el Devoto, en Costasur."
 Inst7Quest3_Location = "Raleigh el Devoto (Laderas de Trabalomas - Costasur; "..YELLOW.."51,58"..WHITE..")"
 Inst7Quest3_Note = "Esta cadena de misiones empieza con Hermano Cuerviz en Ventormenta - Catedral de Luz ("..YELLOW.."42,24"..WHITE..").\nEncuentras a la Alta inquisidora Melenablanca y al Comandante Escarlata Mograine en la "..YELLOW.."Catedral [2]"..WHITE..", a Herod en el "..YELLOW.."Arsenal [1]"..WHITE.." y al Maestro de Canes Loksey en la "..YELLOW.."Biblioteca [1]"..WHITE.."."
-Inst7Quest3_Prequest = "Hermano Anton -> El sendero Escarlata" -- 6141 -> 1052
+Inst7Quest3_Prequest = "Hermano Antón -> El sendero Escarlata" -- 6141 -> 1052
 Inst7Quest3_Folgequest = "Ninguno"
 --
 Inst7Quest3name1 = "Espada de Serenidad"
@@ -1686,7 +1684,7 @@ Inst11Quest8name2 = "Plata de danza"
 --Quest 9 Alliance
 Inst11Quest9 = "9. Entrega de diablillo" -- 7629
 Inst11Quest9_Aim = "Llévale el diablillo en un tarro al laboratorio de alquimia de Scholomance. Después de crear el papiro llévale el tarro a Gorzeeki Ojovago."
-Inst11Quest9_Location = "Gorzeeki Ojovago (Las Estepas Ardientes; "..YELLOW.."12,31"..WHITE..")"
+Inst11Quest9_Location = "Gorzeeki Ojosalvajes (Las Estepas Ardientes; "..YELLOW.."12,31"..WHITE..")"
 Inst11Quest9_Note = "Solamente para Brujos: Encuentras el Laboratorio de alquimia en "..YELLOW.."[7]"..WHITE.."."
 Inst11Quest9_Prequest = "Mor'zul Sangredoble - > Polvo estelar xorothiano" -- 7562 -> 7625
 Inst11Quest9_Folgequest = "Corcel nefasto xorothiano ("..YELLOW.."La Masacre Oeste"..WHITE..")" -- 7631
@@ -1782,8 +1780,6 @@ Inst11Quest6name4_HORDE = Inst11Quest6name4
 
 --Quest 7 Horde
 Inst11Quest7_HORDE = "7. La fortuna de la familia Barov" -- 5341
-Inst11Quest7_HORDE_Level = "60"
-Inst11Quest7_HORDE_Attain = "52"
 Inst11Quest7_HORDE_Aim = "Aventúrate a Scholomance y recupera la fortuna familiar de los Barov. La fortuna se compone de cuatro escrituras: Las escrituras de Castel Darrow, Las escrituras de Rémol, Las escrituras de Molino Tarren y Las escrituras de Costasur. Regresa con Alexi Barov cuando hayas terminado esta tarea."
 Inst11Quest7_HORDE_Location = "Alexi Barov (Claros de Tirisfal - El Baluarte; "..YELLOW.."80,73"..WHITE..")"
 Inst11Quest7_HORDE_Note = "Encuentras las escrituras de Castel Darrow en "..YELLOW.."[12]"..WHITE..", las escrituras de Rémol en "..YELLOW.."[7]"..WHITE..", las escrituras de Molino Tarren en "..YELLOW.."[4]"..WHITE..", y las escrituras de Costasur en "..YELLOW.."[1]"..WHITE.."."
@@ -1826,7 +1822,7 @@ Inst11Quest11_HORDE = "11. La amenaza de Atracoscuro"
 Inst11Quest11_HORDE_Aim = "Usa el cristal de adivinación en el corazón del sótano de El Gran Osario en Scholomance.\n\nLlévale la cabeza de Atracoscuro a Sagorne Zanca Cresta en el Valle de la Sabiduría, en Orgrimmar."
 Inst11Quest11_HORDE_Location = "Sagorne Zancresta (Orgrimmar - Valle de la Sabiduría; "..YELLOW.."39,36"..WHITE..")"
 Inst11Quest11_HORDE_Note = "Solamente para chamanes.\n\nInvoca al Caballero de la Muerte Atracoscuro en "..YELLOW.."[5]"..WHITE.."."
-Inst11Quest11_HORDE_Prequest = "Material Assistance"
+Inst11Quest11_HORDE_Prequest = "Asistencia material"
 Inst11Quest11_HORDE_Folgequest = "Ninguno"
 --
 Inst11Quest11name1_HORDE = "Yelmo furia del cielo"
@@ -1875,8 +1871,8 @@ Inst12Quest2name2 = "Bastón de Soran'ruk"
 --Quest 1 Horde
 Inst12Quest1_HORDE = "1. Mortacechadores en Colmillo Oscuro" -- 1098
 Inst12Quest1_HORDE_Aim = "Encuentra a los mortacechadores Adamant y Vincent."
-Inst12Quest1_HORDE_Location = "Sumo ejecutor Hadrec (Bosque de Argénteos - El Sepulcro; "..YELLOW.."43,40"..WHITE..")"
-Inst12Quest1_HORDE_Note = "Encuentras al Mortacechador Adamant en "..YELLOW.."[1]"..WHITE..". Mortacechador Vincent está en el lado derecho cuando vayas en el patio en "..YELLOW.."[2]"..WHITE.."."
+Inst12Quest1_HORDE_Location = "Sumo Ejecutor Hadrec (Bosque de Argénteos - El Sepulcro; "..YELLOW.."43,40"..WHITE..")"
+Inst12Quest1_HORDE_Note = "Encuentras al Mortacechador Adamant en "..YELLOW.."[1]"..WHITE..". Mortacechador Vincent está al lado derecho cuando vayas en el patio en "..YELLOW.."[2]"..WHITE.."."
 Inst12Quest1_HORDE_Prequest = "Ninguno"
 Inst12Quest1_HORDE_Folgequest = "Ninguno"
 --
@@ -2057,7 +2053,7 @@ Inst14Quest7 = "7. El Obsequio de Menethil" -- 5463
 Inst14Quest7_Aim = "Viaja a Stratholme y encuentra el Obsequio de Menethil. Coloca el Libro de los Recuerdos en suelo no consagrado."
 Inst14Quest7_Location = "Leonid Barthalomew el Venerado (Tierras de la Peste del Este - Capilla de la Esperanza de la Luz; "..YELLOW.."80,58"..WHITE..")"
 Inst14Quest7_Note = "Obtienes la misión requisita de Magistrado Marduke (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."70,73"..WHITE.."). Encuentras el Obsequio de Menethil cerca de "..YELLOW.."[19]"..WHITE..". Ver También: "..YELLOW.."[El exánime, Ras Murmuhielo]"..WHITE.." en Scholomance."
-Inst14Quest7_Prequest = "El humano, Ras Murmuhielo - > El moribundo, Ras Murmuhielo" -- 5461 -> 5462
+Inst14Quest7_Prequest = "El humano, Ras Levescarcha - > El moribundo, Ras Levescarcha" -- 5461 -> 5462
 Inst14Quest7_Folgequest = "El Obsequio de Menethil" -- 5464
 -- No Rewards for this quest
 
@@ -2155,7 +2151,7 @@ Inst14Quest16name1 = "Diseño: estoque llameante"
 --Quest 17 Alliance
 Inst14Quest17 = "17. Dulce serenidad" -- 5305
 Inst14Quest17_Aim = "Viaja a Stratholme y mata al forjamartillos Carmesí. Consigue el delantal del forjamartillos Carmesí y regresa con Lilith."
-Inst14Quest17_Location = "Lilith la Ágil (Cuna del Invierno - Vista Eterna; "..YELLOW.."61,37"..WHITE..")"
+Inst14Quest17_Location = "Lilith la Pequeña (Cuna del Invierno - Vista Eterna; "..YELLOW.."61,37"..WHITE..")"
 Inst14Quest17_Note = "Solamente para Herreros: Invoca al Forjamartillos Carmesí en "..YELLOW.."[8]"..WHITE.."."
 Inst14Quest17_Prequest = "Ninguno"
 Inst14Quest17_Folgequest = "Ninguno"
@@ -2166,7 +2162,7 @@ Inst14Quest17name1 = "Diseño: martillo de batalla encantado"
 Inst14Quest18 = "18. Equilibrio de Luz y Sombras "
 Inst14Quest18_Aim = "Salva a 50 campesinos antes de que 15 sean asesinados. Habla con Eris Feleste si tienes éxito."
 Inst14Quest18_Location = "Eris Feleste (Tierras de la Peste del Este; "..YELLOW.."18,14"..WHITE..")"
-Inst14Quest18_Note = "Necesitas El Ojo de divinidad para ver Eris Felese (despoja al Alijo del Señor del Fuego en "..YELLOW.."[Núcleo de Magma]"..WHITE..").\n\nMezclando la recompensa de esta misión con El Ojo de divinidad y El Ojo de la Sombra forma Oración, el bastón épico para sacerdotes"
+Inst14Quest18_Note = "Necesitas El Ojo de divinidad para ver Eris Feleste (despoja al Alijo del Señor del Fuego en "..YELLOW.."[Núcleo de Magma]"..WHITE..").\n\nMezclando la recompensa de esta misión con El Ojo de divinidad y El Ojo de la Sombra forma Oración, el bastón épico para sacerdotes"
 Inst14Quest18_Prequest = "A Warning"
 Inst14Quest18_Folgequest = "Ninguno"
 --
