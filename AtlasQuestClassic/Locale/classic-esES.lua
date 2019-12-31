@@ -3294,7 +3294,7 @@ Inst19Quest1_Folgequest = "Ninguno"
 --Quest 2 Alliance
 Inst19Quest2 = "2. El disfraz de ogro Gordok" -- 5518
 Inst19Quest2_Aim = "Lleva 4 madejas de paño rúnico, 8 cueros bastos, 2 hilos rúnicos y tanino de ogro a Knot Llavededo. Actualmente está encadenado en el interior del ala Gordok de La Masacre."
-Inst19Quest2_Location = "Knot Thimblejack (La Masacre; "..YELLOW.."Norte, [4]"..WHITE..")"
+Inst19Quest2_Location = "Knot Llavededo (La Masacre; "..YELLOW.."Norte, [4]"..WHITE..")"
 Inst19Quest2_Note = "Misión repitible. Consigues el Tanino de ogro cerca de "..YELLOW.."[4] (encima)"..WHITE.."."
 Inst19Quest2_Prequest = "Ninguno"
 Inst19Quest2_Folgequest = "Ninguno"
@@ -3303,8 +3303,8 @@ Inst19Quest2name1 = "Taje ogro de Gordok"
 
 --Quest 3 Alliance
 Inst19Quest3 = "3. ¡Libera a Knot!" -- 5525
-Inst19Quest3_Aim = "Colecciona una Llave de los grilletes de Gordok para Knot Thimblejack."
-Inst19Quest3_Location = "Knot Thimblejack (La Masacre; "..YELLOW.."Norte, [4]"..WHITE..")"
+Inst19Quest3_Aim = "Colecciona una Llave de los grilletes de Gordok para Knot Llavededo."
+Inst19Quest3_Location = "Knot Llavededo (La Masacre; "..YELLOW.."Norte, [4]"..WHITE..")"
 Inst19Quest3_Note = "Misión repitible. Despoja a cualquier depositorio para obtener la llave."
 Inst19Quest3_Prequest = "Ninguno"
 Inst19Quest3_Folgequest = "Ninguno"
