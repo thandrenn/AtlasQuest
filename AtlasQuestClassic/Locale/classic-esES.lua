@@ -5293,7 +5293,7 @@ Inst36Quest1_Note = "Entrega el objeto a Guardián Remulos (Claro de la Luna - S
 Inst36Quest1_Prequest = "Ninguno"
 Inst36Quest1_Folgequest = "Leyendas veraces" -- 8447
 --
-Inst36Quest1name1 = "Sello de Malfurion"
+Inst36Quest1name1 = "Sello de Malfurión"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -5322,7 +5322,7 @@ Inst37Quest1_Note = "Solamente para Cazadores: Mata a Azuregos para obtener el T
 Inst37Quest1_Prequest = "La hoja antigua ("..YELLOW.."Núcleo de Magma"..WHITE..")" -- 7632
 Inst37Quest1_Folgequest = "Ninguno"
 --
-Inst37Quest1name1 = "Carcaj antiguo cosido con tendón"
+Inst37Quest1name1 = "Antigua lámina envuelta en tendones"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
