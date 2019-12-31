@@ -4251,7 +4251,7 @@ Inst25Quest3_HORDE_Folgequest = "Ninguno"
 Inst25Quest3name1_HORDE = "Guantes de boticario"
 
 --Quest 4 Horde (same as Quest 3 Alliance)
-Inst25Quest4_HORDE = "4. Bebidas de inteligencia"
+Inst25Quest4_HORDE = "4. Las bebidas astutas"
 Inst25Quest4_HORDE_Aim = Inst25Quest3_Aim
 Inst25Quest4_HORDE_Location = Inst25Quest3_Location
 Inst25Quest4_HORDE_Note = Inst25Quest3_Note
