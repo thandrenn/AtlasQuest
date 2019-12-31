@@ -267,11 +267,11 @@ Inst1Quest17_Aim = "Puede que acabes de toparte con algo que le interesaría ver
 Inst1Quest17_Location = "Una nota arrugada (botín aleatorio de Profundidades de Roca Negra)"
 Inst1Quest17_Note = "Esta misión es una parte de la cadena de misiones para la armonización de Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE.."."
 Inst1Quest17_Prequest = "Esperanza perdida"
-Inst1Quest17_Folgequest = "Una esperanza hecha trizas"
+Inst1Quest17_Folgequest = "Una brizna de esperanza"
 -- No Rewards for this quest
 
 --Quest 18 Alliance
-Inst1Quest18 = "18. Una esperanza hecha trizas"
+Inst1Quest18 = "18. Una brizna de esperanza"
 Inst1Quest18_Aim = "Devuélvele al mariscal Windsor la información perdida.\nEl mariscal Windsor cree que la información está siendo retenida en manos del Señor Gólem Argelmach y del general Forjainquina."
 Inst1Quest18_Location = "Mariscal Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
 Inst1Quest18_Note = "Esta misión es una parte de la cadena para la armonización de Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE..".\nEncuentras al Señor Gólem Argelmach en "..YELLOW.."[14]"..WHITE.." y a General Forjainquina en "..YELLOW.."[13]"..WHITE.."."
@@ -1826,7 +1826,7 @@ Inst11Quest11_HORDE = "11. La amenaza de Atracoscuro"
 Inst11Quest11_HORDE_Aim = "Usa el cristal de adivinación en el corazón del sótano de El Gran Osario en Scholomance.\n\nLlévale la cabeza de Atracoscuro a Sagorne Zanca Cresta en el Valle de la Sabiduría, en Orgrimmar."
 Inst11Quest11_HORDE_Location = "Sagorne Zancresta (Orgrimmar - Valle de la Sabiduría; "..YELLOW.."39,36"..WHITE..")"
 Inst11Quest11_HORDE_Note = "Solamente para chamanes.\n\nInvoca al Caballero de la Muerte Atracoscuro en "..YELLOW.."[5]"..WHITE.."."
-Inst11Quest11_HORDE_Prequest = "Material Assistance"
+Inst11Quest11_HORDE_Prequest = "Asistencia material"
 Inst11Quest11_HORDE_Folgequest = "Ninguno"
 --
 Inst11Quest11name1_HORDE = "Yelmo furia del cielo"
@@ -2166,8 +2166,8 @@ Inst14Quest17name1 = "Diseño: martillo de batalla encantado"
 Inst14Quest18 = "18. Equilibrio de Luz y Sombras "
 Inst14Quest18_Aim = "Salva a 50 campesinos antes de que 15 sean asesinados. Habla con Eris Feleste si tienes éxito."
 Inst14Quest18_Location = "Eris Feleste (Tierras de la Peste del Este; "..YELLOW.."18,14"..WHITE..")"
-Inst14Quest18_Note = "Necesitas El Ojo de divinidad para ver Eris Felese (despoja al Alijo del Señor del Fuego en "..YELLOW.."[Núcleo de Magma]"..WHITE..").\n\nMezclando la recompensa de esta misión con El Ojo de divinidad y El Ojo de la Sombra forma Oración, el bastón épico para sacerdotes"
-Inst14Quest18_Prequest = "A Warning"
+Inst14Quest18_Note = "Necesitas El Ojo de divinidad para ver Eris Feleste (despoja al Alijo del Señor del Fuego en "..YELLOW.."[Núcleo de Magma]"..WHITE..").\n\nMezclando la recompensa de esta misión con El Ojo de divinidad y El Ojo de la Sombra forma Oración, el bastón épico para sacerdotes"
+Inst14Quest18_Prequest = "Un aviso"
 Inst14Quest18_Folgequest = "Ninguno"
 --
 Inst14Quest18name1 = "Astilla de Nordrassil"
