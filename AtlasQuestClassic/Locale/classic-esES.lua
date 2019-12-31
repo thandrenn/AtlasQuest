@@ -2163,7 +2163,7 @@ Inst14Quest18 = "18. Equilibrio de Luz y Sombras "
 Inst14Quest18_Aim = "Salva a 50 campesinos antes de que 15 sean asesinados. Habla con Eris Feleste si tienes éxito."
 Inst14Quest18_Location = "Eris Feleste (Tierras de la Peste del Este; "..YELLOW.."18,14"..WHITE..")"
 Inst14Quest18_Note = "Necesitas El Ojo de divinidad para ver Eris Feleste (despoja al Alijo del Señor del Fuego en "..YELLOW.."[Núcleo de Magma]"..WHITE..").\n\nMezclando la recompensa de esta misión con El Ojo de divinidad y El Ojo de la Sombra forma Oración, el bastón épico para sacerdotes"
-Inst14Quest18_Prequest = "A Warning"
+Inst14Quest18_Prequest = "Un aviso"
 Inst14Quest18_Folgequest = "Ninguno"
 --
 Inst14Quest18name1 = "Astilla de Nordrassil"
