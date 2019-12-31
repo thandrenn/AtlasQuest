@@ -2477,8 +2477,6 @@ Inst15Quest10name3 = "Hombreras acero afilado"
 
 --Quest 11 Alliance
 Inst15Quest11 = "11. Un ingrediente mejor" -- 9053
-Inst15Quest11_Level = "52"
-Inst15Quest11_Attain = "50"
 Inst15Quest11_Aim = "Consigue una vid pútrida de las que custodia el guardián en las profundidades del Templo Sumergido y después ve a ver de nuevo a Torwa Abrecaminos."
 Inst15Quest11_Location = "Torwa Abrecaminos (Cráter de Un'Goro; "..YELLOW.."72,76"..WHITE..")"
 Inst15Quest11_Note = "Solamente para Druidas: Despoja a Atal'alarion que está invocado en "..YELLOW.."[1]"..WHITE.." por activar las estatuas en la orden especificada en el mapa para obtener la vid pútrida."
@@ -4091,8 +4089,6 @@ Inst24Quest5_Folgequest = "(Ve la Nota)"
 
 --Quest 1 Horde (same as Quest 1 Alliance)
 Inst24Quest1_HORDE = Inst24Quest1
-Inst24Quest1_HORDE_Level = Inst24Quest1_Level
-Inst24Quest1_HORDE_Attain = Inst24Quest1_Attain
 Inst24Quest1_HORDE_Aim = Inst24Quest1_Aim
 Inst24Quest1_HORDE_Location = Inst24Quest1_Location
 Inst24Quest1_HORDE_Note = Inst24Quest1_Note
@@ -4103,8 +4099,6 @@ Inst24Quest1name1_HORDE = Inst24Quest1name1
 
 --Quest 2 Horde (same as Quest 3 Alliance)
 Inst24Quest2_HORDE = "2. Willix el Importador"
-Inst24Quest2_HORDE_Level = Inst24Quest3_Level
-Inst24Quest2_HORDE_Attain = Inst24Quest3_Attain
 Inst24Quest2_HORDE_Aim = Inst24Quest3_Aim
 Inst24Quest2_HORDE_Location = Inst24Quest3_Location
 Inst24Quest2_HORDE_Note = Inst24Quest3_Note
