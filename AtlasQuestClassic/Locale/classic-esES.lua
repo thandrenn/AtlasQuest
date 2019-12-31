@@ -1432,7 +1432,7 @@ Inst7Quest1_HORDE_Folgequest = "Ninguno"
 Inst7Quest2_HORDE = "2. Prueba de conocimiento" -- 1160
 Inst7Quest2_HORDE_Aim = "Encuentra el libro Comienzos de la amenaza de los no-muertos y devuélveselo a Parqual Fintallas, que está en Entrañas."
 Inst7Quest2_HORDE_Location = "Parqual Fintallas (Entrañas - El Apothecarium; "..YELLOW.."57,65"..WHITE..")"
-Inst7Quest2_HORDE_Note = "La cadena de misiones empieza con Dorn Acechallanos (Las Mil Agujas; "..YELLOW.."53,41"..WHITE.."). Encuentras el libro en la Biblioteca del Monasterio Escarlata."
+Inst7Quest2_HORDE_Note = "La cadena de misiones empieza con Dorn Acechaprados (Las Mil Agujas; "..YELLOW.."53,41"..WHITE.."). Encuentras el libro en la Biblioteca del Monasterio Escarlata."
 Inst7Quest2_HORDE_Prequest = "Prueba de fe - > Prueba de conocimiento" -- 1149 -> 1159
 Inst7Quest2_HORDE_Folgequest = "Prueba de conocimiento" -- 6628
 --
