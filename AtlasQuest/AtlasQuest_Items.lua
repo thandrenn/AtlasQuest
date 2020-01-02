@@ -9847,6 +9847,11 @@ Inst189Quest1ID1_HORDE = "169610"
 
 
 
+--------------- INST190 - Ny'alotha, the Waking City ---------------
+
+
+
+
 
 
 

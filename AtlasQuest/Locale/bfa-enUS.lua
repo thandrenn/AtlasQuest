@@ -39,6 +39,7 @@
 -- 187 = RAID: Crucible of Storms
 -- 188 = RAID: The Eternal Palace
 -- 189 = DUNGEON: Operation: Mechagon
+-- 190 = RAID: Ny'alotha, the Waking City
 
 
 
@@ -1080,6 +1081,18 @@ Inst189Quest1_HORDE_Folgequest = Inst189Quest1_Folgequest
 Inst189Quest1name1_HORDE = Inst189Quest1name1
 -- No Rewards for this quest
 -- Reward varies for each class
+
+
+
+--------------- INST190 - Ny'alotha, the Waking City ---------------
+
+Inst190Caption = "Ny'alotha, the Waking City"
+Inst190QAA = "No Quests"
+Inst190QAH = "No Quests"
+
+
+
+
 
 
 

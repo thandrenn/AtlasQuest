@@ -830,5 +830,6 @@ end
 -- 187 = RAID: Crucible of Storms
 -- 188 = RAID: The Eternal Palace
 -- 189 = DUNGEON: Operation: Mechagon
+-- 190 = RAID: Ny'alotha, the Waking City
 
 
