@@ -3954,16 +3954,16 @@ Inst23QAH = "4 Misiones"
 Inst23Quest1 = "1. Un anfitrión del mal" -- 6626
 Inst23Quest1_Aim = "Mata a 8 guardias de batalla de Rajacieno y 8 tejespinas Rajacieno y 8 cultores Caramuerte y ve a ver a Myriam Lunacanta cerca de la entrada a Zahúrda Rajacieno."
 Inst23Quest1_Location = "Myriam Lunacanta (Los Baldíos; "..YELLOW.."49,94"..WHITE..")"
-Inst23Quest1_Note = "Encuentras a Myriam Lunacanta y los monstruous en la localización antes de entrar la estancia."
+Inst23Quest1_Note = "Encuentras a Myriam Lunacanta y los jabaespines en la localización antes de entrar la estancia."
 Inst23Quest1_Prequest = "Ninguno"
 Inst23Quest1_Folgequest = "Ninguno"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
 Inst23Quest2 = "2. Extinguir el ídolo" -- 3525
-Inst23Quest2_Aim = "Acompaña a Belnistrasz al ídolo jabaespín en Zahúrda Rajacieno. Protégelo mientras realiza el ritual para inutilizar el ídolo."
+Inst23Quest2_Aim = "Acompaña a Belnistrasz al ídolo jabaespín en Zahúrda Rajacieno.\n\nProtégelo mientras realiza el ritual para inutilizar el ídolo."
 Inst23Quest2_Location = "Belnistrasz (Zahúrda Rajacieno; "..YELLOW.."[2]"..WHITE..")"
-Inst23Quest2_Note = "Después de aceptar la misión, aparececen los monstruous que atacan a Belnistrasz mientras extingue el ídolo. Después de completar la misión, lo entregas al blandón enfrente del ídolo."
+Inst23Quest2_Note = "Después de aceptar la misión, aparececen los jabaespines que atacan a Belnistrasz mientras extingue el ídolo. Después de completar la misión, lo entregas al blandón enfrente del ídolo."
 Inst23Quest2_Prequest = "La plaga de la Zahúrda" -- 3523
 Inst23Quest2_Folgequest = "Ninguno"
 --
