@@ -4150,7 +4150,7 @@ Inst25QAH = "7 Misiones"
 Inst25Quest1 = "1. Pellejos descarriados" --1486
 Inst25Quest1_Aim = "Nalpak de las Cuevas de los Lamentos quiere 20 pellejos descarriados."
 Inst25Quest1_Location = "Nalpak (Los Baldíos - Cuevas de los Lamentos; "..YELLOW.."47,36"..WHITE..")"
-Inst25Quest1_Note = "Despoja a los monstruos descarrriados dentro y afuera de la estancia para obtener los pellejos descarriados.\nSe encuentra Nalpak en una cueva oculta encima de la entrada a la cueva principal."
+Inst25Quest1_Note = "Despoja a las bestias descarrriadas dentro y afuera de la estancia para obtener los pellejos descarriados.\nSe encuentra Nalpak en una cueva oculta encima de la entrada a la cueva principal."
 Inst25Quest1_Prequest = "Ninguno"
 Inst25Quest1_Folgequest = "Ninguno"
 --
