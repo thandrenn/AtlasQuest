@@ -4161,7 +4161,7 @@ Inst25Quest1name2 = "Talega de pellejo descarriado"
 Inst25Quest2 = "2. ¡A por la botella!" -- 959
 Inst25Quest2_Aim = "El operador de grúa Pelardo de Trinquete quiere que le consigas una botella de Oporto con 99 años de antigüedad de Loco Magglish, que se esconde en las Cuevas de los Lamentos."
 Inst25Quest2_Location = "Operador de grúa Pelardo (Los Baldíos - Trinquete; "..YELLOW.."63,37"..WHITE..")"
-Inst25Quest2_Note = "Consigues la botella antes de que entras la estancia por matar Loco magglish. Cuando entras la cueva, dirígete al derecho para encontrarlo al final del pasaje. Él está en sigilo cerca del muro en "..YELLOW.."[1] en el mapa de la Entrada"..WHITE.."."
+Inst25Quest2_Note = "Consigues la botella antes de que entras la estancia por matar Loco Magglish. Cuando entras la cueva, dirígete al derecho para encontrarlo al final del pasaje. Él está en sigilo cerca del muro en "..YELLOW.."[1] en el mapa de la Entrada"..WHITE.."."
 Inst25Quest2_Prequest = "Ninguno"
 Inst25Quest2_Folgequest = "Ninguno"
 -- No Rewards for this quest
