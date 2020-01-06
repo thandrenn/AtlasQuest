@@ -2834,7 +2834,7 @@ Inst16Quest10_Folgequest = "Encuentra las gemas" -- 2201
 Inst16Quest11 = "11. Encuentra las gemas" -- 2201
 Inst16Quest11_Aim = "Encuentra el rubí, el zafiro y el topacio que están desperdigados por Uldaman. Cuando los tengas, contacta con Talvash del Kissel mediante la ampolla de adivinación que él te dio."
 Inst16Quest11_Location = "Restos de un paladín (Uldaman; "..YELLOW.."[2]"..WHITE..")"
-Inst16Quest11_Note = "Las gemas están en "..YELLOW.."[1]"..WHITE.." dentro de la Urna llamativa, "..YELLOW.."[8]"..WHITE.." del Alijo de Forjatiniebla, y "..YELLOW.."[9]"..WHITE.." de Grimlok. Por favor nota que aparecerán monstruos después de abrir el Alijo de Forjatiniebla.\nUsa el Cuenco de visión de Talvash para entregar la misión y obtener la misión siguiente."
+Inst16Quest11_Note = "Las gemas están en "..YELLOW.."[1]"..WHITE.." dentro de la Urna llamativa, "..YELLOW.."[8]"..WHITE.." del Alijo de Forjatiniebla, y "..YELLOW.."[9]"..WHITE.." de Grimlok. Por favor nota que aparecerán enanos forjatinieblas después de abrir el Alijo de Forjatiniebla.\nUsa el Cuenco de visión de Talvash para entregar la misión y obtener la misión siguiente."
 Inst16Quest11_Prequest = "El regreso a Uldaman" -- 2200
 Inst16Quest11_Folgequest = "Restaurar el collar" -- 2204
 -- No Rewards for this quest
@@ -2953,7 +2953,7 @@ Inst16Quest5_HORDE_Folgequest = "Encuentra las gemas y la fuente de alimentació
 Inst16Quest6_HORDE = "6. Encuentra las gemas y la fuente de alimentación" -- 2339
 Inst16Quest6_HORDE_Aim = "Recupera las 3 gemas y una fuente de energía para el collar de Uldaman y llévalo todo a Jarkal Musgofusión en Kargath. Jarkal cree que es posible que la fuente de energía más poderosa se halle en un ensamblaje de Uldaman."
 Inst16Quest6_HORDE_Location = "Jarkal Musgofusión (Tierras Inhóspitas - Kargath; "..YELLOW.."2,46"..WHITE..")"
-Inst16Quest6_HORDE_Note = "Las gemas están en "..YELLOW.."[1]"..WHITE.." dentro de la Urna llamativa, "..YELLOW.."[8]"..WHITE.." del Alijo de Forjatiniebla, y "..YELLOW.."[9]"..WHITE.." de Grimlok. Por favor nota que aparecerán monstruos después de abrir el Alijo de Forjatiniebla. Despoja a Archaedas para obtener el Fuente de alimentación del collar destrozado en "..YELLOW.."[10]"..WHITE.."."
+Inst16Quest6_HORDE_Note = "Las gemas están en "..YELLOW.."[1]"..WHITE.." dentro de la Urna llamativa, "..YELLOW.."[8]"..WHITE.." del Alijo de Forjatiniebla, y "..YELLOW.."[9]"..WHITE.." de Grimlok. Por favor nota que aparecerán enanos forjatinieblas después de abrir el Alijo de Forjatiniebla. Despoja a Archaedas para obtener el Fuente de alimentación del collar destrozado en "..YELLOW.."[10]"..WHITE.."."
 Inst16Quest6_HORDE_Prequest = "La traducción del diario" -- 2338
 Inst16Quest6_HORDE_Folgequest = "Entregar las gemas" -- 2340
 --
@@ -3731,7 +3731,7 @@ Inst21Quest2name3 = "Guanteletes ramazarza"
 Inst21Quest3 = "3. Los males de Maraudon" -- 7028
 Inst21Quest3_Aim = "Recoge 15 tallas de cristal terádrico y llévaselas a Willow a Desolace."
 Inst21Quest3_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
-Inst21Quest3_Note = "Puedes despojar a la mayoría de los monstruos en Maraudon para obtener las tallas."
+Inst21Quest3_Note = "Puedes despojar a la mayoría de las criaturas en Maraudon para obtener las tallas."
 Inst21Quest3_Prequest = "Ninguno"
 Inst21Quest3_Folgequest = "Ninguno"
 --
