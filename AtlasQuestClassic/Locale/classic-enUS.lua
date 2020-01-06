@@ -4618,7 +4618,7 @@ Inst29Quest1name4 = "Belt of Tiny Heads"
 Inst29Quest2 = "2. The Heart of Hakkar"
 Inst29Quest2_Aim = "Bring the Heart of Hakkar to Molthor on Yojamba Isle."
 Inst29Quest2_Location = "Heart of Hakkar (drops from Hakkar; "..YELLOW.."[11]"..WHITE..")"
-Inst29Quest2_Note = "Molthor (Stranglethorn Vale - Yojamba Isle; "..YELLOW.."15, 15"..WHITE..")"
+Inst29Quest2_Note = "Molthor (Stranglethorn Vale - Yojamba Isle; "..YELLOW.."15.0, 15.2"..WHITE..")"
 Inst29Quest2_Prequest = "None"
 Inst29Quest2_Folgequest = "None"
 --
