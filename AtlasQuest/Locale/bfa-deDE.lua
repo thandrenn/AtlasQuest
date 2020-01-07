@@ -41,6 +41,9 @@
 -- 189 = DUNGEON: Operation: Mechagon
 
 
+if ( GetLocale() == "deDE" ) then
+
+
 --
 -- Using this since it'll be the same text for each Dungeon World Quest.  
 -- I might move this to globals-enUS.lua eventually, but since World Quests only exist in Legion, I'll keep it with the Legion stuff for now.
@@ -1020,5 +1023,5 @@ Inst189Quest1name1_HORDE = "Kiste mit E.R.S.A.T.Z.-Teilen"
 
 
 
-
+end
 -- End of File
