@@ -94,7 +94,7 @@ Inst175Quest2_Folgequest = "None"
 
 --Quest 3 Alliance
 Inst175Quest3 = "3. Atal'Dazar: A Little Mojo"
-Inst175Quest3_Aim = ""
+Inst175Quest3_Aim = "Slay 3 Enchanted Tiki Masks and defeat the final boss."
 Inst175Quest3_Location = "Atal'Dazar"
 Inst175Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst175Quest3_Prequest = "None"
@@ -133,7 +133,7 @@ Inst175Quest3_HORDE_Folgequest = Inst175Quest3_Folgequest
 Inst175Quest4_HORDE = "4. Atal'Dazar: Yazma the Fallen Priestess"
 Inst175Quest4_HORDE_Aim = "Defeat Yazma in Atal'Dazar."
 Inst175Quest4_HORDE_Location = "King Rastakhan (Zuldazar; "..YELLOW.."42.6, 37.6"..WHITE..")"
-Inst175Quest4_HORDE_Note = "Part of the 'March of the Loa' quest line.  Can be completed on Normal or Heroic difficulty.  Yazma is the final boss in the dungeon.  Turn quest in to Princess Talanji at Dazar'alor - "..YELLOW.."40.6, 69.0"..WHITE.."."
+Inst175Quest4_HORDE_Note = "Part of the 'March of the Loa' quest line.  This can be completed on Normal or Heroic difficulty.  Yazma is the final boss in the dungeon.  Turn quest in to Princess Talanji at Dazar'alor - "..YELLOW.."40.6, 69.0"..WHITE.."."
 Inst175Quest4_HORDE_Prequest = "The King's Gambit"
 Inst175Quest4_HORDE_Folgequest = "Of Dark Deeds and Dark Days"
 --
@@ -500,7 +500,7 @@ Inst179Quest5_HORDE_Folgequest = Inst179Quest5_Folgequest
 Inst179Quest6_HORDE = Inst179Quest6
 Inst179Quest6_HORDE_Aim = "Take the Illegible Correspondence to someone in Orgrimmar."
 Inst179Quest6_HORDE_Location = Inst179Quest6_Location
-Inst179Quest6_HORDE_Note = "The quest turns in to Isabella (Orgrimmar - The Valley of Strength; 48.0, 71.6)"
+Inst179Quest6_HORDE_Note = "The quest turns in to Isabella (Orgrimmar - The Valley of Strength; "..YELLOW.."48.0, 71.6"..WHITE..")."
 Inst179Quest6_HORDE_Prequest = Inst179Quest6_Prequest
 Inst179Quest6_HORDE_Folgequest = Inst179Quest6_Folgequest
 -- No Rewards for this quest
@@ -524,7 +524,7 @@ Inst180QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst180Quest1 = "1. Temple of Sethraliss: Navigating Currents"
-Inst180Quest1_Aim = "??"
+Inst180Quest1_Aim = ""
 Inst180Quest1_Location = "Temple of Sethraliss"
 Inst180Quest1_Note = AQ_WORLDDUNGEONQUEST
 Inst180Quest1_Prequest = "None"

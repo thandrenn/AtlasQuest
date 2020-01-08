@@ -483,7 +483,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\TolDagorA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\TolDagorB") then
 		AQINSTANZ = 183;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\WaycrestManorA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\WaycrestManorA") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\WaycrestManorA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\WaycrestManorB") then
 		AQINSTANZ = 184;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\Uldir") then
