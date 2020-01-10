@@ -1943,7 +1943,7 @@ Inst13Quest2name2 = "Leotardos de malla Villa Oscura"
 --Quest 3 Alliance
 Inst13Quest3 = "3. Detener el motín" -- 387
 Inst13Quest3_Aim = "El celador Thelagua de Ventormenta quiere que mates 10 prisioneros Defias, 8 presidiarios Defias, y 8 insurgentes Defias en Las Mazmorras."
-Inst13Quest3_Location = "Celador Thelagua (Ventormenta - Las Mazmorras; "..YELLOW.."41,58"..WHITE..")"
+Inst13Quest3_Location = "Alcaide Thelagua (Ventormenta - Las Mazmorras; "..YELLOW.."41,58"..WHITE..")"
 Inst13Quest3_Note = ""
 Inst13Quest3_Prequest = "Ninguno"
 Inst13Quest3_Folgequest = "Ninguno"
