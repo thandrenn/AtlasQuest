@@ -1407,8 +1407,8 @@ Inst7Quest2name3 = "Zauberstab des Wutfeuers"
 
 --Quest 3 Alliance
 Inst7Quest3 = "3. Im Namen des Lichts"
-Inst7Quest3_Aim = "Tötet Hochinquisitor Whitemane, den Scharlachroten Kommandant Mograine, Herod, den Scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Southshore."
-Inst7Quest3_Location = "Raleigh der Andächtige ( Vorgebirge von Hillsbrad - Southshore; "..YELLOW.."51,58"..WHITE..")"
+Inst7Quest3_Aim = "Tötet Hochinquisitor Whitemane, den Scharlachroten Kommandant Mograine, Herod, den Scharlachroten Helden sowie den Hundemeister Loksey und meldet Euch dann wieder bei Raleigh dem Andächtigen in Südshore."
+Inst7Quest3_Location = "Raleigh der Andächtige ( Vorgebirge von Hillsbrad - Südshore; "..YELLOW.."51,58"..WHITE..")"
 Inst7Quest3_Note = "Die Questreihe startet bei Bruder Crowley in Stormwind - Kathedrale des Lichts ("..YELLOW.."52.3, 43.1"..WHITE..").\nDu findest Hochinquisitorr Whitemane und Scharlachroter Kommandant Mograine bei "..YELLOW.."SM: Kathedrale [2]"..WHITE..", Herod bei "..YELLOW.."SM: Waffenkammer [1]"..WHITE.." und Hundemeister Loksey bei "..YELLOW.."SM: Bibliothek [1]"..WHITE.."."
 Inst7Quest3_Prequest = "Bruder Anton -> Auf dem Scharlachroten Pfad"
 Inst7Quest3_Folgequest = "Nein"
@@ -1662,9 +1662,9 @@ Inst11Quest6name4 = "Froststachel"
 
 --Quest 7 Alliance
 Inst11Quest7 = "7. Das Familienvermögen der Barovs"
-Inst11Quest7_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Weldon Barov zurück, sobald die Aufgabe erledigt ist."
+Inst11Quest7_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Südshore. Kehrt zu Weldon Barov zurück, sobald die Aufgabe erledigt ist."
 Inst11Quest7_Location = "Weldon Barov (Westliche Pestländer - Chillwind Lager; "..YELLOW.."43,83"..WHITE..")"
-Inst11Quest7_Note = "Du findest die Besitzurkunde für Caer Darrow bei "..YELLOW.."[12]"..WHITE..", Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und Besitzurkunde für Southshore bei "..YELLOW.."[1]"..WHITE..".\nDie Belohnung erhälst Du in der Folgeuest."
+Inst11Quest7_Note = "Du findest die Besitzurkunde für Caer Darrow bei "..YELLOW.."[12]"..WHITE..", Besitzurkunde für Brill bei "..YELLOW.."[7]"..WHITE..", Besitzurkunde für Tarrens Mühle bei "..YELLOW.."[4]"..WHITE.." und Besitzurkunde für Südshore bei "..YELLOW.."[1]"..WHITE..".\nDie Belohnung erhälst Du in der Folgeuest."
 Inst11Quest7_Prequest = "Nein"
 Inst11Quest7_Folgequest = "Der letzte Barov"
 --
@@ -1781,7 +1781,7 @@ Inst11Quest6name4_HORDE = "Froststachel"
 
 --Quest 7 Horde
 Inst11Quest7_HORDE = Inst11Quest7
-Inst11Quest7_HORDE_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Southshore. Kehrt zu Alexi Barov zurück, sobald die Aufgabe erledigt ist."
+Inst11Quest7_HORDE_Aim = "Begebt Euch zur Scholomance und holt das Familienvermögen der Barovs zurück. Dieses Vermögen besteht aus vier Besitzurkunden: Es sind die Besitzurkunde für Caer Darrow, die Besitzurkunde für Brill, die Besitzurkunde für Tarrens Mühle und die Besitzurkunde für Südshore. Kehrt zu Alexi Barov zurück, sobald die Aufgabe erledigt ist."
 Inst11Quest7_HORDE_Location = "Alexi Barov (Tirisfal- Das Bollwerk; "..YELLOW.."80,73"..WHITE..")"
 Inst11Quest7_HORDE_Note = Inst11Quest7_Note
 Inst11Quest7_HORDE_Prequest = "Nein"
@@ -4893,15 +4893,15 @@ Inst32QAH = "Keine Quests"
 
 
 
---------------- INST33 - Alterac Valley ---------------
+--------------- INST33 - Alteractal ---------------
 
-Inst33Caption = "Alterac Valley"
+Inst33Caption = "Alteractal"
 Inst33QAA = "17 Quests"
 Inst33QAH = "17 Quests"
 
 --Quest 1 Alliance
 Inst33Quest1 = "1. The Sovereign Imperative"
-Inst33Quest1_Aim = "Travel to Alterac Valley in the Hillsbrad Foothills. Outside of the entrance tunnel, find and speak with Lieutenant Haggerdin."
+Inst33Quest1_Aim = "Travel to Alteractal in the Hillsbrad Foothills. Outside of the entrance tunnel, find and speak with Lieutenant Haggerdin."
 Inst33Quest1_Location = "Lieutenant Rotimer (Ironforge - The Commons; "..YELLOW.."30,62"..WHITE..")"
 Inst33Quest1_Note = "Lieutenant Haggerdin ist bei (Alterac Mountains; "..YELLOW.."39,81"..WHITE..")."
 Inst33Quest1_Prequest = "Nein"
@@ -4910,9 +4910,9 @@ Inst33Quest1_Folgequest = "Proving Grounds"
 
 --Quest 2 Alliance
 Inst33Quest2 = "2. Proving Grounds"
-Inst33Quest2_Aim = "Travel to the Icewing Caverns located southwest of Dun Baldar in Alterac Valley and recover the Stormpike Banner. Return the Stormpike Banner to Lieutenant Haggerdin in the Alterac Mountains."
+Inst33Quest2_Aim = "Travel to the Icewing Caverns located Südwest of Dun Baldar in Alteractal and recover the Stormpike Banner. Return the Stormpike Banner to Lieutenant Haggerdin in the Alterac Mountains."
 Inst33Quest2_Location = "Lieutenant Haggerdin (Alterac Mountains; "..YELLOW.."39,81"..WHITE..")"
-Inst33Quest2_Note = "The Stormpike Banner is in the Icewing Cavern at "..YELLOW.."[11]"..WHITE.." on the Alterac Valley - Nord map. Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest."
+Inst33Quest2_Note = "The Stormpike Banner is in the Icewing Cavern at "..YELLOW.."[11]"..WHITE.." on the Alteractal - Nord map. Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest."
 Inst33Quest2_Prequest = "The Sovereign Imperative"
 Inst33Quest2_Folgequest = "Nein"
 --
@@ -4921,9 +4921,9 @@ Inst33Quest2name2 = "The Frostwolf Artichoke"
 
 --Quest 3 Alliance
 Inst33Quest3 = "3. The Battle of Alterac"
-Inst33Quest3_Aim = "Enter Alterac Valley, defeat the Horde general Drek'thar, and then return to Prospector Stonehewer in the Alterac Mountains."
-Inst33Quest3_Location = "Prospector Stonehewer (Alterac Mountains; "..YELLOW.."41,80"..WHITE..") and\n(Alterac Valley - Nord; "..YELLOW.."[B]"..WHITE..")"
-Inst33Quest3_Note = "Drek'thar ist bei (Alterac Valley - South; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
+Inst33Quest3_Aim = "Enter Alteractal, defeat the Horde general Drek'thar, and then return to Prospector Stonehewer in the Alterac Mountains."
+Inst33Quest3_Location = "Prospector Stonehewer (Alterac Mountains; "..YELLOW.."41,80"..WHITE..") and\n(Alteractal - Nord; "..YELLOW.."[B]"..WHITE..")"
+Inst33Quest3_Note = "Drek'thar ist bei (Alteractal - Süd; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
 Inst33Quest3_Prequest = "Nein"
 Inst33Quest3_Folgequest = "Hero of the Stormpike"
 --
@@ -4935,8 +4935,8 @@ Inst33Quest3name4 = "Cold Forged Hammer"
 --Quest 4 Alliance
 Inst33Quest4 = "4. The Quartermaster"
 Inst33Quest4_Aim = "Speak with the Stormpike Quartermaster."
-Inst33Quest4_Location = "Mountaineer Boombellow (Alterac Valley - Nord; "..YELLOW.."Near [3] Before Bridge"..WHITE..")"
-Inst33Quest4_Note = "The Stormpike Quartermaster ist bei (Alterac Valley - Nord; "..YELLOW.."[7]"..WHITE..") and provides more quests."
+Inst33Quest4_Location = "Mountaineer Boombellow (Alteractal - Nord; "..YELLOW.."Near [3] Before Bridge"..WHITE..")"
+Inst33Quest4_Note = "The Stormpike Quartermaster ist bei (Alteractal - Nord; "..YELLOW.."[7]"..WHITE..") and provides more quests."
 Inst33Quest4_Prequest = "Nein"
 Inst33Quest4_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4944,8 +4944,8 @@ Inst33Quest4_Folgequest = "Nein"
 --Quest 5 Alliance
 Inst33Quest5 = "5. Coldtooth Supplies"
 Inst33Quest5_Aim = "Bring 10 Coldtooth Supplies to the Alliance Quartermaster in Dun Baldar."
-Inst33Quest5_Location = "Stormpike Quartermaster (Alterac Valley - Nord; "..YELLOW.."[7]"..WHITE..")"
-Inst33Quest5_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..")."
+Inst33Quest5_Location = "Stormpike Quartermaster (Alteractal - Nord; "..YELLOW.."[7]"..WHITE..")"
+Inst33Quest5_Note = "The supplies can be found in the Coldtooth Mine at (Alteractal - Süd; "..YELLOW.."[6]"..WHITE..")."
 Inst33Quest5_Prequest = "Nein"
 Inst33Quest5_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4953,8 +4953,8 @@ Inst33Quest5_Folgequest = "Nein"
 --Quest 6 Alliance
 Inst33Quest6 = "6. Irondeep Supplies"
 Inst33Quest6_Aim = "Bring 10 Irondeep Supplies to the Alliance Quartermaster in Dun Baldar."
-Inst33Quest6_Location = "Stormpike Quartermaster (Alterac Valley - Nord; "..YELLOW.."[7]"..WHITE..")"
-Inst33Quest6_Note = "The supplies can be found in the Irondeep Mine at (Alterac Valley - Nord; "..YELLOW.."[1]"..WHITE..")."
+Inst33Quest6_Location = "Stormpike Quartermaster (Alteractal - Nord; "..YELLOW.."[7]"..WHITE..")"
+Inst33Quest6_Note = "The supplies can be found in the Irondeep Mine at (Alteractal - Nord; "..YELLOW.."[1]"..WHITE..")."
 Inst33Quest6_Prequest = "Nein"
 Inst33Quest6_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4962,7 +4962,7 @@ Inst33Quest6_Folgequest = "Nein"
 --Quest 7 Alliance
 Inst33Quest7 = "7. Armor Scraps"
 Inst33Quest7_Aim = "Bring 20 Armor Scraps to Murgot Deepforge in Dun Baldar."
-Inst33Quest7_Location = "Murgot Deepforge (Alterac Valley - Nord; "..YELLOW.."[4]"..WHITE..")"
+Inst33Quest7_Location = "Murgot Deepforge (Alteractal - Nord; "..YELLOW.."[4]"..WHITE..")"
 Inst33Quest7_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
 Inst33Quest7_Prequest = "Nein"
 Inst33Quest7_Folgequest = "More Armor Scraps"
@@ -4972,7 +4972,7 @@ Inst33Quest7_Folgequest = "More Armor Scraps"
 Inst33Quest8 = "8. Capture a Mine"
 Inst33Quest8_Aim = "Capture a mine that the Stormpike does not control, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
 Inst33Quest8_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
-Inst33Quest8_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - Nord; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Horde control it."
+Inst33Quest8_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alteractal - Nord; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alteractal - Süd; "..YELLOW.."[6]"..WHITE..") while the Horde control it."
 Inst33Quest8_Prequest = "Nein"
 Inst33Quest8_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -4987,7 +4987,7 @@ Inst33Quest9_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst33Quest10 = "10. Alterac Valley Friedhofs"
+Inst33Quest10 = "10. Alteractal Friedhofs"
 Inst33Quest10_Aim = "Assault a Friedhof, then return to Sergeant Durgen Stormpike in the Alterac Mountains."
 Inst33Quest10_Location = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")"
 Inst33Quest10_Note = "Reportedly you do not need to do anything but be near a Friedhof when the Alliance assaults it. It does not need to be captured, just assaulted."
@@ -4997,8 +4997,8 @@ Inst33Quest10_Folgequest = "Nein"
 
 --Quest 11 Alliance
 Inst33Quest11 = "11. Empty Stables"
-Inst33Quest11_Aim = "Locate an Alterac Ram in Alterac Valley. Use the Stormpike Training Collar when you are near the Alterac Ram to 'tame' the beast. Once tamed, the Alterac Ram will follow you back to the Stable Master. Speak with the Stable Master to earn credit for the capture."
-Inst33Quest11_Location = "Stormpike Stable Master (Alterac Valley - Nord; "..YELLOW.."[6]"..WHITE..")"
+Inst33Quest11_Aim = "Locate an Alterac Ram in Alteractal. Use the Stormpike Training Collar when you are near the Alterac Ram to 'tame' the beast. Once tamed, the Alterac Ram will follow you back to the Stable Master. Speak with the Stable Master to earn credit for the capture."
+Inst33Quest11_Location = "Stormpike Stable Master (Alteractal - Nord; "..YELLOW.."[6]"..WHITE..")"
 Inst33Quest11_Note = "You can find a Ram outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Stormpike Cavalry will arrive to assist in the battle."
 Inst33Quest11_Prequest = "Nein"
 Inst33Quest11_Folgequest = "Nein"
@@ -5007,8 +5007,8 @@ Inst33Quest11_Folgequest = "Nein"
 --Quest 12 Alliance
 Inst33Quest12 = "12. Ram Riding Harnesses"
 Inst33Quest12_Aim = "You must strike at our enemy's base, slaying the frostwolves they use as mounts and taking their hides. Return their hides to me so that harnesses may be made for the cavalry. Go!"
-Inst33Quest12_Location = "Stormpike Ram Rider Commander (Alterac Valley - Nord; "..YELLOW.."[6]"..WHITE..")"
-Inst33Quest12_Note = "Frostwolves can be found in the southern area of Alterac Valley."
+Inst33Quest12_Location = "Stormpike Ram Rider Commander (Alteractal - Nord; "..YELLOW.."[6]"..WHITE..")"
+Inst33Quest12_Note = "Frostwolves can be found in the Südern area of Alteractal."
 Inst33Quest12_Prequest = "Nein"
 Inst33Quest12_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5016,8 +5016,8 @@ Inst33Quest12_Folgequest = "Nein"
 --Quest 13 Alliance
 Inst33Quest13 = "13. Crystal Cluster"
 Inst33Quest13_Aim = "There are times which you may be entrenched in battle for days or weeks on end. During those longer periods of activity you may end up collecting large clusters of the Frostwolf's storm crystals.\n\nThe Circle accepts such offerings."
-Inst33Quest13_Location = "Arch Druid Renferal (Alterac Valley - Nord; "..YELLOW.."[2]"..WHITE..")"
-Inst33Quest13_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - Nord; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
+Inst33Quest13_Location = "Arch Druid Renferal (Alteractal - Nord; "..YELLOW.."[2]"..WHITE..")"
+Inst33Quest13_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alteractal - Nord; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
 Inst33Quest13_Prequest = "Nein"
 Inst33Quest13_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5025,8 +5025,8 @@ Inst33Quest13_Folgequest = "Nein"
 --Quest 14 Alliance
 Inst33Quest14 = "14. Ivus the Forest Lord"
 Inst33Quest14_Aim = "The Frostwolf Clan is protected by a taint of elemental energy. Their shaman meddle in powers that will surely destroy us all if left unchecked.\n\nThe Frostwolf soldiers carry elemental charms called storm crystals. We can use the charms to conjure Ivus. Venture forth and claim the crystals."
-Inst33Quest14_Location = "Arch Druid Renferal (Alterac Valley - Nord; "..YELLOW.."[2]"..WHITE..")"
-Inst33Quest14_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - Nord; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
+Inst33Quest14_Location = "Arch Druid Renferal (Alteractal - Nord; "..YELLOW.."[2]"..WHITE..")"
+Inst33Quest14_Note = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alteractal - Nord; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle."
 Inst33Quest14_Prequest = "Nein"
 Inst33Quest14_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5034,7 +5034,7 @@ Inst33Quest14_Folgequest = "Nein"
 --Quest 15 Alliance
 Inst33Quest15 = "15. Call of Air - Slidore's Fleet"
 Inst33Quest15_Aim = "My gryphons are poised to strike at the front lines but cannot make the attack until the lines are thinned out.\n\nThe Frostwolf warriors charged with holding the front lines wear medals of service proudly upon their chests. Rip those medals off their rotten corpses and bring them back here.\n\nOnce the front line is sufficiently thinned out, I will make the call to air! Death from above!"
-Inst33Quest15_Location = "Wing Commander Slidore (Alterac Valley - Nord; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest15_Location = "Wing Commander Slidore (Alteractal - Nord; "..YELLOW.."[8]"..WHITE..")"
 Inst33Quest15_Note = "Kill Horde NPCs for the Frostwolf Soldier's Medal."
 Inst33Quest15_Prequest = "Nein"
 Inst33Quest15_Folgequest = "Nein"
@@ -5043,7 +5043,7 @@ Inst33Quest15_Folgequest = "Nein"
 --Quest 16 Alliance
 Inst33Quest16 = "16. Call of Air - Vipore's Fleet"
 Inst33Quest16_Aim = "The elite Frostwolf units that guard the lines must be dealt with, soldier! I'm tasking you with thinning out that herd of savages. Return to me with medals from their lieutenants and legionnaires. When I feel that enough of the riff-raff has been dealt with, I'll deploy the air strike."
-Inst33Quest16_Location = "Wing Commander Vipore (Alterac Valley - Nord; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest16_Location = "Wing Commander Vipore (Alteractal - Nord; "..YELLOW.."[8]"..WHITE..")"
 Inst33Quest16_Note = "Kill Horde NPCs for the Frostwolf Lieutenant's Medal."
 Inst33Quest16_Prequest = "Nein"
 Inst33Quest16_Folgequest = "Nein"
@@ -5052,7 +5052,7 @@ Inst33Quest16_Folgequest = "Nein"
 --Quest 17 Alliance
 Inst33Quest17 = "17. Call of Air - Ichman's Fleet"
 Inst33Quest17_Aim = "Return to the battlefield and strike at the heart of the Frostwolf's command. Take down their commanders and guardians. Return to me with as many of their medals as you can stuff in your pack! I promise you, when my gryphons see the bounty and smell the blood of our enemies, they will fly again! Go now!"
-Inst33Quest17_Location = "Wing Commander Ichman (Alterac Valley - Nord; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest17_Location = "Wing Commander Ichman (Alteractal - Nord; "..YELLOW.."[8]"..WHITE..")"
 Inst33Quest17_Note = "Kill Horde NPCs for the Frostwolf Commander's Medals. After turning in 50, Wing Commander Ichman will either send a gryphon to attack the Horde base or give you a beacon to plant in the Snowfall Friedhof. If the beacon is protected long enough a gryphon will come to defend it."
 Inst33Quest17_Prequest = "Nein"
 Inst33Quest17_Folgequest = "Nein"
@@ -5061,7 +5061,7 @@ Inst33Quest17_Folgequest = "Nein"
 
 --Quest 1 Horde
 Inst33Quest1_HORDE = "1. In Defense of Frostwolf"
-Inst33Quest1_HORDE_Aim = "Venture to Alterac Valley, located in the Alterac Mountains. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alterac Valley Nord of Tarren Mill at the base of the Alterac Mountains."
+Inst33Quest1_HORDE_Aim = "Venture to Alteractal, located in the Alterac Mountains. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alteractal Nord of Tarren Mill at the base of the Alterac Mountains."
 Inst33Quest1_HORDE_Location = "Frostwolf Ambassador Rokhstrom (Orgrimmar - Valley of Strength "..YELLOW.."50,71"..WHITE..")"
 Inst33Quest1_HORDE_Note = "Warmaster Laggrond ist bei (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")."
 Inst33Quest1_HORDE_Prequest = "Nein"
@@ -5070,9 +5070,9 @@ Inst33Quest1_HORDE_Folgequest = "Proving Grounds"
 
 --Quest 2 Horde
 Inst33Quest2_HORDE = "2. Proving Grounds"
-Inst33Quest2_HORDE_Aim = "Travel to the Wildpaw cavern located southeast of the main base in Alterac Valley and find the Frostwolf Banner. Return the Frostwolf Banner to Warmaster Laggrond."
+Inst33Quest2_HORDE_Aim = "Travel to the Wildpaw cavern located Southeast of the main base in Alteractal and find the Frostwolf Banner. Return the Frostwolf Banner to Warmaster Laggrond."
 Inst33Quest2_HORDE_Location = "Warmaster Laggrond (Alterac Mountains; "..YELLOW.."62,59"..WHITE..")"
-Inst33Quest2_HORDE_Note = "The Frostwolf Banner is in the Wildpaw Cavern at (Alterac Valley - South; "..YELLOW.."[15]"..WHITE.."). Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest."
+Inst33Quest2_HORDE_Note = "The Frostwolf Banner is in the Wildpaw Cavern at (Alteractal - Süd; "..YELLOW.."[15]"..WHITE.."). Talk to the same NPC each time you gain a new Reputation level for an upgraded Insignia.\n\nThe prequest is not necessary to obtain this quest."
 Inst33Quest2_HORDE_Prequest = "In Defense of Frostwolf"
 Inst33Quest2_HORDE_Folgequest = "Nein"
 --
@@ -5081,9 +5081,9 @@ Inst33Quest2name2_HORDE = "Peeling the Onion"
 
 --Quest 3 Horde
 Inst33Quest3_HORDE = "3. The Battle for Alterac"
-Inst33Quest3_HORDE_Aim = "Enter Alterac Valley and defeat the dwarven general, Vanndar Stormpike. Then, return to Voggah Deathgrip in the Alterac Mountains."
+Inst33Quest3_HORDE_Aim = "Enter Alteractal and defeat the dwarven general, Vanndar Stormpike. Then, return to Voggah Deathgrip in the Alterac Mountains."
 Inst33Quest3_HORDE_Location = "Voggah Deathgrip (Alterac Mountains; "..YELLOW.."64,60"..WHITE..")"
-Inst33Quest3_HORDE_Note = "Vanndar Stormpike ist bei (Alterac Valley - Nord; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
+Inst33Quest3_HORDE_Note = "Vanndar Stormpike ist bei (Alteractal - Nord; "..YELLOW.."[B]"..WHITE.."). He does not actually need to be killed to complete the quest. The battleground just has to be won by your side in any manner.\nAfter turning this quest in, talk to the NPC again for the reward."
 Inst33Quest3_HORDE_Prequest = "Nein"
 Inst33Quest3_HORDE_Folgequest = "Hero of the Frostwolf"
 --
@@ -5095,7 +5095,7 @@ Inst33Quest3name4_HORDE = "Cold Forged Hammer"
 --Quest 4 Horde
 Inst33Quest4_HORDE = "4. Speak with our Quartermaster"
 Inst33Quest4_HORDE_Aim = "Speak with the Frostwolf Quartermaster."
-Inst33Quest4_HORDE_Location = "Jotek (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest4_HORDE_Location = "Jotek (Alteractal - Süd; "..YELLOW.."[8]"..WHITE..")"
 Inst33Quest4_HORDE_Note = "The Frostwolf Quartermaster ist bei "..YELLOW.."[10]"..WHITE.." and provides more quests."
 Inst33Quest4_HORDE_Prequest = "Nein"
 Inst33Quest4_HORDE_Folgequest = "Nein"
@@ -5104,8 +5104,8 @@ Inst33Quest4_HORDE_Folgequest = "Nein"
 --Quest 5 Horde
 Inst33Quest5_HORDE = "5. Coldtooth Supplies"
 Inst33Quest5_HORDE_Aim = "Bring 10 Coldtooth Supplies to the Horde Quatermaster in Frostwolf Keep."
-Inst33Quest5_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest5_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..")."
+Inst33Quest5_HORDE_Location = "Frostwolf Quartermaster (Alteractal - Süd; "..YELLOW.."[10]"..WHITE..")"
+Inst33Quest5_HORDE_Note = "The supplies can be found in the Coldtooth Mine at (Alteractal - Süd; "..YELLOW.."[6]"..WHITE..")."
 Inst33Quest5_HORDE_Prequest = "Nein"
 Inst33Quest5_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5113,8 +5113,8 @@ Inst33Quest5_HORDE_Folgequest = "Nein"
 --Quest 6 Horde
 Inst33Quest6_HORDE = "6. Irondeep Supplies"
 Inst33Quest6_HORDE_Aim = "Bring 10 Irondeep Supplies to the Horde Quartermaster in Frostwolf Keep."
-Inst33Quest6_HORDE_Location = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")"
-Inst33Quest6_HORDE_Note = "The supplies can be found in the Irondeep Mine at (Alterac Valley - Nord; "..YELLOW.."[1]"..WHITE..")."
+Inst33Quest6_HORDE_Location = "Frostwolf Quartermaster (Alteractal - Süd; "..YELLOW.."[10]"..WHITE..")"
+Inst33Quest6_HORDE_Note = "The supplies can be found in the Irondeep Mine at (Alteractal - Nord; "..YELLOW.."[1]"..WHITE..")."
 Inst33Quest6_HORDE_Prequest = "Nein"
 Inst33Quest6_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5122,7 +5122,7 @@ Inst33Quest6_HORDE_Folgequest = "Nein"
 --Quest 7 Horde
 Inst33Quest7_HORDE = "7. Enemy Booty"
 Inst33Quest7_HORDE_Aim = "Bring 20 Armor Scraps to Smith Regzar in Frostwolf Village."
-Inst33Quest7_HORDE_Location = "Smith Regzar (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest7_HORDE_Location = "Smith Regzar (Alteractal - Süd; "..YELLOW.."[8]"..WHITE..")"
 Inst33Quest7_HORDE_Note = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable."
 Inst33Quest7_HORDE_Prequest = "Nein"
 Inst33Quest7_HORDE_Folgequest = "More Booty!"
@@ -5132,7 +5132,7 @@ Inst33Quest7_HORDE_Folgequest = "More Booty!"
 Inst33Quest8_HORDE = "8. Capture a Mine"
 Inst33Quest8_HORDE_Aim = "Capture a mine, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
 Inst33Quest8_HORDE_Location = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")"
-Inst33Quest8_HORDE_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - Nord; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Alliance control it."
+Inst33Quest8_HORDE_Note = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alteractal - Nord; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alteractal - Süd; "..YELLOW.."[6]"..WHITE..") while the Alliance control it."
 Inst33Quest8_HORDE_Prequest = "Nein"
 Inst33Quest8_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5157,8 +5157,8 @@ Inst33Quest10_HORDE_Folgequest = "Nein"
 
 --Quest 11 Horde
 Inst33Quest11_HORDE = "11. Empty Stables"
-Inst33Quest11_HORDE_Aim = "Locate a Frostwolf in Alterac Valley. Use the Frostwolf Muzzle when you are near the Frostwolf to 'tame' the beast. Once tamed, the Frostwolf will follow you back to the Frostwolf Stable Master. Speak with the Frostwolf Stable Master to earn credit for the capture."
-Inst33Quest11_HORDE_Location = "Frostwolf Stable Master (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")"
+Inst33Quest11_HORDE_Aim = "Locate a Frostwolf in Alteractal. Use the Frostwolf Muzzle when you are near the Frostwolf to 'tame' the beast. Once tamed, the Frostwolf will follow you back to the Frostwolf Stable Master. Speak with the Frostwolf Stable Master to earn credit for the capture."
+Inst33Quest11_HORDE_Location = "Frostwolf Stable Master (Alteractal - Süd; "..YELLOW.."[9]"..WHITE..")"
 Inst33Quest11_HORDE_Note = "You can find a Frostwolf outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Frostwolf Cavalry will arrive to assist in the battle."
 Inst33Quest11_HORDE_Prequest = "Nein"
 Inst33Quest11_HORDE_Folgequest = "Nein"
@@ -5167,8 +5167,8 @@ Inst33Quest11_HORDE_Folgequest = "Nein"
 --Quest 12 Horde
 Inst33Quest12_HORDE = "12. Ram Hide Harnesses"
 Inst33Quest12_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
-Inst33Quest12_HORDE_Location = "Frostwolf Wolf Rider Commander (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")"
-Inst33Quest12_HORDE_Note = "The Rams can be found in the Nordern area of Alterac Valley."
+Inst33Quest12_HORDE_Location = "Frostwolf Wolf Rider Commander (Alteractal - Süd; "..YELLOW.."[9]"..WHITE..")"
+Inst33Quest12_HORDE_Note = "The Rams can be found in the Nordern area of Alteractal."
 Inst33Quest12_HORDE_Prequest = "Nein"
 Inst33Quest12_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5176,8 +5176,8 @@ Inst33Quest12_HORDE_Folgequest = "Nein"
 --Quest 13 Horde
 Inst33Quest13_HORDE = "13. A Gallon of Blood"
 Inst33Quest13_HORDE_Aim = "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings."
-Inst33Quest13_HORDE_Location = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest13_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
+Inst33Quest13_HORDE_Location = "Primalist Thurloga (Alteractal - Süd; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest13_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alteractal - Süd; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
 Inst33Quest13_HORDE_Prequest = "Nein"
 Inst33Quest13_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5185,8 +5185,8 @@ Inst33Quest13_HORDE_Folgequest = "Nein"
 --Quest 14 Horde
 Inst33Quest14_HORDE = "14. Lokholar the Ice Lord"
 Inst33Quest14_HORDE_Aim = "You must strike down our enemies and bring to me their blood. Once enough blood has been gathered, the ritual of summoning may begin.\n\nVictory will be assured when the elemental lord is loosed upon the Stormpike army."
-Inst33Quest14_HORDE_Location = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")"
-Inst33Quest14_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
+Inst33Quest14_HORDE_Location = "Primalist Thurloga (Alteractal - Süd; "..YELLOW.."[8]"..WHITE..")"
+Inst33Quest14_HORDE_Note = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alteractal - Süd; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players."
 Inst33Quest14_HORDE_Prequest = "Nein"
 Inst33Quest14_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -5194,7 +5194,7 @@ Inst33Quest14_HORDE_Folgequest = "Nein"
 --Quest 15 Horde
 Inst33Quest15_HORDE = "15. Call of Air - Guse's Fleet"
 Inst33Quest15_HORDE_Aim = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!"
-Inst33Quest15_HORDE_Location = "Wing Commander Guse (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest15_HORDE_Location = "Wing Commander Guse (Alteractal - Süd; "..YELLOW.."[13]"..WHITE..")"
 Inst33Quest15_HORDE_Note = "Kill Horde NPCs for the Stormpike Soldier's Flesh. Reportedly 90 flesh are needed to make the Wing Commander do whatever she does."
 Inst33Quest15_HORDE_Prequest = "Nein"
 Inst33Quest15_HORDE_Folgequest = "Nein"
@@ -5203,7 +5203,7 @@ Inst33Quest15_HORDE_Folgequest = "Nein"
 --Quest 16 Horde
 Inst33Quest16_HORDE = "16. Call of Air - Jeztor's Fleet"
 Inst33Quest16_HORDE_Aim = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Lieutenants."
-Inst33Quest16_HORDE_Location = "Wing Commander Jeztor (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest16_HORDE_Location = "Wing Commander Jeztor (Alteractal - Süd; "..YELLOW.."[13]"..WHITE..")"
 Inst33Quest16_HORDE_Note = "Kill Alliance NPCs for the Stormpike Lieutenant's Flesh."
 Inst33Quest16_HORDE_Prequest = "Nein"
 Inst33Quest16_HORDE_Folgequest = "Nein"
@@ -5212,7 +5212,7 @@ Inst33Quest16_HORDE_Folgequest = "Nein"
 --Quest 17 Horde
 Inst33Quest17_HORDE = "17. Call of Air - Mulverick's Fleet"
 Inst33Quest17_HORDE_Aim = "First, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you."
-Inst33Quest17_HORDE_Location = "Wing Commander Mulverick (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")"
+Inst33Quest17_HORDE_Location = "Wing Commander Mulverick (Alteractal - Süd; "..YELLOW.."[13]"..WHITE..")"
 Inst33Quest17_HORDE_Note = "Kill Alliance NPCs for the Stormpike Commander's Flesh."
 Inst33Quest17_HORDE_Prequest = "Nein"
 Inst33Quest17_HORDE_Folgequest = "Nein"
@@ -5222,66 +5222,66 @@ Inst33Quest17_HORDE_Folgequest = "Nein"
 
 --------------- INST34 - Arathi Basin ---------------
 
-Inst34Caption = "Arathi Basin"
+Inst34Caption = "Arathibecken"
 Inst34QAA = "3 Quests"
 Inst34QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst34Quest1 = "1. The Battle for Arathi Basin!"
-Inst34Quest1_Aim = "Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe."
-Inst34Quest1_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest1_Note = "The locations to be assaulted are marked on the map as 2 through 5."
+Inst34Quest1 = "1. Die Schlacht um das Arathibecken!"
+Inst34Quest1_Aim = "Erobert die Mine, das Sägewerk, die Schmiede und den Hof und meldet Euch anschließend bei Feldmarschall Lichtmark in der Zuflucht."
+Inst34Quest1_Location = "Feldmarschall Oslight (Arathihochland - Die Zuflucht; "..YELLOW.."46,45"..WHITE..")"
+Inst34Quest1_Note = "Die Orte, die angegriffen werden sollen, sind auf der Karte als 2 bis 5 markiert."
 Inst34Quest1_Prequest = "Nein"
 Inst34Quest1_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst34Quest2 = "2. Control Four Bases"
-Inst34Quest2_Aim = "Enter Arathi Basin, capture and control four bases at the same time, and then return to Field Marshal Oslight at Refuge Pointe."
-Inst34Quest2_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest2_Note = "You need to be Friendly with the League of Arathor to get this quest."
+Inst34Quest2 = "2. Kontrolliert vier Stützpunkte"
+Inst34Quest2_Aim = "Betretet das Arathibecken, erobert und kontrolliert gleichzeitig vier Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
+Inst34Quest2_Location = Inst34Quest1_Location
+Inst34Quest2_Note = "Du brauchst einen freundschaftlichen Ruf beim Bund von Arathor, um dieses Quest zu bekommen."
 Inst34Quest2_Prequest = "Nein"
 Inst34Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst34Quest3 = "3. Control Five Bases"
-Inst34Quest3_Aim = "Control 5 bases in Arathi Basin at the same time, then return to Field Marshal Oslight at Refuge Pointe."
-Inst34Quest3_Location = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")"
-Inst34Quest3_Note = "You need to be Exalted with the League of Arathor to get this quest."
+Inst34Quest3 = "3. Kontrolliert fünf Stützpunkte"
+Inst34Quest3_Aim = "Kontrolliert gleichzeitig fünf Stützpunkte im Arathibecken und kehrt danach zu Feldmarschall Lichtmark in der Zuflucht zurück."
+Inst34Quest3_Location = Inst34Quest1_Location
+Inst34Quest3_Note = "Du brauchst einen ehrfürchtigen Ruf beim Bund von Arathor, um dieses Quest zu bekommen."
 Inst34Quest3_Prequest = "Nein"
 Inst34Quest3_Folgequest = "Nein"
 --
-Inst34Quest3name1 = "Arathor Battle Tabard"
+Inst34Quest3name1 = "Wappenrock der Arathor"
 
 
 --Quest 1 Horde
-Inst34Quest1_HORDE = "1. The Battle for Arathi Basin!"
-Inst34Quest1_HORDE_Aim = "Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall."
-Inst34Quest1_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest1_HORDE_Note = "The locations to be assaulted are marked on the map as 1 through 4."
+Inst34Quest1_HORDE = Inst34Quest1
+Inst34Quest1_HORDE_Aim = "Erobert die Mine, das Sägewerk, die Schmiede, den Hof und die Ställe und kehrt dann zu Todesmeister Dwire in Hammerfall zurück."
+Inst34Quest1_HORDE_Location = "Todesmeister Dwire (Arathihochland - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
+Inst34Quest1_HORDE_Note = "Die Orte, die angegriffen werden sollen, sind auf der Karte als 1 bis 4 markiert."
 Inst34Quest1_HORDE_Prequest = "Nein"
 Inst34Quest1_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst34Quest2_HORDE = "2. Take Four Bases"
-Inst34Quest2_HORDE_Aim = "Hold four bases at the same time in Arathi Basin, and then return to Deathmaster Dwire in Hammerfall."
-Inst34Quest2_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest2_HORDE_Note = "You need to be Friendly with The Defilers to get this quest."
+Inst34Quest2_HORDE = "2. Erobert vier Stützpunkte"
+Inst34Quest2_HORDE_Aim = "Haltet vier Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dwire nach Hammerfall zurück."
+Inst34Quest2_HORDE_Location = Inst34Quest1_HORDE_Location
+Inst34Quest2_HORDE_Note = "Du brauchst einen freundschaftlichen Ruf bei den Entweihten, um dieses Quest zu bekommen."
 Inst34Quest2_HORDE_Prequest = "Nein"
 Inst34Quest2_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Horde
-Inst34Quest3_HORDE = "3. Take Five Bases"
-Inst34Quest3_HORDE_Aim = "Hold five bases in Arathi Basin at the same time, then return to Deathmaster Dwire in Hammerfall."
-Inst34Quest3_HORDE_Location = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")"
-Inst34Quest3_HORDE_Note = "You need to be Exalted with The Defilers to get this quest."
+Inst34Quest3_HORDE = "3. Erobert fünf Stützpunkte"
+Inst34Quest3_HORDE_Aim = "Haltet fünf Stützpunkte zur selben Zeit im Arathibecken und kehrt danach zu Todesmeister Dunkels nach Hammerfall zurück."
+Inst34Quest3_HORDE_Location = Inst34Quest1_HORDE_Location
+Inst34Quest3_HORDE_Note = "Du brauchst einen ehrfürchtigen Ruf bei den Entweihten, um dieses Quest zu bekommen."
 Inst34Quest3_HORDE_Prequest = "Nein"
 Inst34Quest3_HORDE_Folgequest = "Nein"
 --
-Inst34Quest3name1_HORDE = "Battle Tabard of the Defilers"
+Inst34Quest3name1_HORDE = "Wappenrock der Entweihten"
 
 
 
@@ -5336,9 +5336,9 @@ Inst37QAA = "1 Quest"
 Inst37QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst37Quest1 = "1. Uraltes in Sehnen eingewickeltes Laminablatt (Hunter)"
+Inst37Quest1 = "1. Uraltes in Sehnen eingewickeltes Laminablatt (Jäger)"
 Inst37Quest1_Aim = "Hastat der Uralte hat Euch um die Beschaffung einer Sehne eines ausgewachsenen, blauen Drachens gebeten. Solltet Ihr diese Sehne finden, kehrt zu Hastat im Teufelswald zurück."
-Inst37Quest1_Location = "Hastat der Uralte (Felwood - Irontree Woods; "..YELLOW.."48,24"..WHITE..")"
+Inst37Quest1_Location = "Hastat der Uralte (Teufelswald - Der Eisenwald; "..YELLOW.."48,24"..WHITE..")"
 Inst37Quest1_Note = "Töte Azuregos um die Sehne eine ausgewachsenen blauen Drachens zu erhalten. Er wandert um die Mitte der südlichen Halbinsel in Azshara in der Nähe von "..YELLOW.."[1]"..WHITE.."."
 Inst37Quest1_Prequest = "Das uralte Blatt ("..YELLOW.."Molten Core"..WHITE..")"
 Inst37Quest1_Folgequest = "Nein"
