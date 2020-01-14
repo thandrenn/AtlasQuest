@@ -4054,7 +4054,7 @@ Inst24Quest2name2 = "Botas de lancero"
 
 --Quest 3 Alliance
 Inst24Quest3 = "3. Willix el Importador" -- 1144
-Inst24Quest3_Aim = "Escolta a Willix el Importador hasta la salida de Horado Rajacieno."
+Inst24Quest3_Aim = "Ayuda a Willix el Importador a salir de Horado Rajacieno."
 Inst24Quest3_Location = "Willix el Importador (Horado Rajacieno; "..YELLOW.."[8]"..WHITE..")"
 Inst24Quest3_Note = "Escolta a Willix el Importador a la entrada de la estancia. Entrega la misión a él después de escoltarle."
 Inst24Quest3_Prequest = "Ninguno"
@@ -4148,8 +4148,8 @@ Inst25QAA = "5 Misiones"
 Inst25QAH = "7 Misiones"
 
 --Quest 1 Alliance
-Inst25Quest1 = "1. Pellejos descarriados" --1486
-Inst25Quest1_Aim = "Nalpak de las Cuevas de los Lamentos quiere 20 pellejos descarriados."
+Inst25Quest1 = "1. Pellejo de los descarriados" --1486
+Inst25Quest1_Aim = "Nalpak de las Cuevas de los Lamentos quiere 20 cueros descarriados."
 Inst25Quest1_Location = "Nalpak (Los Baldíos - Cuevas de los Lamentos; "..YELLOW.."47,36"..WHITE..")"
 Inst25Quest1_Note = "Despoja a las bestias descarrriadas dentro y afuera de la estancia para obtener los pellejos descarriados.\nSe encuentra Nalpak en una cueva oculta encima de la entrada a la cueva principal."
 Inst25Quest1_Prequest = "Ninguno"
@@ -4178,7 +4178,7 @@ Inst25Quest3_Folgequest = "Ninguno"
 
 --Quest 4 Alliance
 Inst25Quest4 = "4. Erradicación de descarriados" -- 1487
-Inst25Quest4_Aim = "Ebru de las Cuevas de los Lamentos quiere que mates 7 devastadores descarriados, 7 víboras descarriadas, 7 arrastrapiés descarriados y 7 colminfernos descarriados."
+Inst25Quest4_Aim = "Ebru de las Cuevas de los Lamentos quiere que mates 7 devastadores descarriados, 7 víboras descarriadas, 7 arrastrados descarriados y 7 colminfernos descarriados."
 Inst25Quest4_Location = "Ebru (Los Baldíos - Cuevas de los Lamentos; "..YELLOW.."47,36"..WHITE..")"
 Inst25Quest4_Note = "Ebru está dentro de una cueva oculta encima de la entrada de la cueva principal."
 Inst25Quest4_Prequest = "Ninguno"
