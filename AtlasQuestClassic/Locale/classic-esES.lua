@@ -119,7 +119,7 @@ Inst1Quest2name3 = "Armadura de acero seccionador"
 
 --Quest 3 Alliance
 Inst1Quest3 = "3. La poción de enamoramiento" -- 4201
-Inst1Quest3_Aim = "Llévale 4 gromsanguinas, 10 venas de plata gigantescas y el vial lleno de Nagmara a la coima Nagmara en las Profundidades de Roca Negra."
+Inst1Quest3_Aim = "Llévale 4 gromsanguinas, 10 venas de plata gigantescas y el vial lleno de Nagmara a la maestra Nagmara en las Profundidades de Roca Negra."
 Inst1Quest3_Location = "Coima Nagmara (Profundidades de Roca Negra; "..YELLOW.."[15]"..WHITE..")"
 Inst1Quest3_Note = "Despoja a los gigantes en Azshara para obtener las Vetas gigantes de plata. Puedes coger Gromsanguina si tienes herboristería o comprarla en la subasta. Llenas el vial en los Baños de Golakka (Cráter de Un'Goro; "..YELLOW.."31,50"..WHITE..").\nDespués de completar la misión, puedes usar la puerta trasera en lugar de matar a Falange."
 Inst1Quest3_Prequest = "Ninguno"
@@ -130,18 +130,18 @@ Inst1Quest3name2 = "Cinturón de castigo de Nagmara"
 
 --Quest 4 Alliance
 Inst1Quest4 = "4. Hurley Negrálito" -- 4126
-Inst1Quest4_Aim = "Llévale la receta de Cebatruenos perdida a Ragnar Cebatruenos en Kharanos."
+Inst1Quest4_Aim = "Llévale la receta perdida de Cebatruenos a Ragnar Cebatruenos en Kharanos."
 Inst1Quest4_Location = "Ragnar Cebatruenos  (Dun Morogh - Kharanos; "..YELLOW.."46,52"..WHITE..")"
 Inst1Quest4_Note = "Obtienes la misión requisita de Enohar Cebatruenos (Las Tierras Devastadas - Castillo de Nethergarde; "..YELLOW.."61,18"..WHITE..").\nConsigues la receta de los guardias que aparezcan si destruyes la cerveza así en "..YELLOW.."[15]"..WHITE.."."
 Inst1Quest4_Prequest = "Ragnar Cebatruenos" -- 4128
 Inst1Quest4_Folgequest = "Ninguno"
 --
 Inst1Quest4name1 = "Cerveza negra enana"
-Inst1Quest4name2 = "Cayada Golpepresto"
-Inst1Quest4name3 = "Cuchilla de extremidad"
+Inst1Quest4name2 = "Cayada Golpeveloz"
+Inst1Quest4name3 = "Cuchilla de miembro"
 
 --Quest 5 Alliance  
-Inst1Quest5 = "5. Maestro supremo Pyron"
+Inst1Quest5 = "5. Gran maestro Pyron"
 Inst1Quest5_Aim = "Mata al maestro supremo Pyron y vuelve junto a Jalinda Espiga."
 Inst1Quest5_Location = "Jalinda Espiga (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,70"..WHITE..")"
 Inst1Quest5_Note = "Maestro supremo Pyron es un elemental de fuego afuera de la mazmorra. Patrulla cerca del portal en "..YELLOW.."[24]"..WHITE.." en el mapa de Las Profundidades Roca Negra en "..YELLOW.."[3]"..WHITE.." en el mapa de entrada de la Montaña Roca Negra."
@@ -154,17 +154,17 @@ Inst1Quest6 = "6. ¡Incendius!"
 Inst1Quest6_Aim = "Encuentra a Lord Incendius en las Profundidades de Roca Negra ¡y acaba con él! "
 Inst1Quest6_Location = "Jalinda Espiga (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,69"..WHITE..")"
 Inst1Quest6_Note = "Obtienes la misión requisita de Jalinda Espiga también. Encuentras a Lord Incendius en "..YELLOW.."[10]"..WHITE.."."
-Inst1Quest6_Prequest = "Maestro supremo Pyron" -- 4262
+Inst1Quest6_Prequest = "Gran maestro Pyron" -- 4262
 Inst1Quest6_Folgequest = "Ninguno"
 --
 Inst1Quest6name1 = "Manteo nacido del Sol"
 Inst1Quest6name2 = "Guantes Ocaso"
 Inst1Quest6name3 = "Brazales de demonio de cripta"
-Inst1Quest6name4 = "Agarre de adepto"
+Inst1Quest6name4 = "Garra Stalwart"
 
 --Quest 7 Alliance
-Inst1Quest7 = "7. El corazón de la montaña" -- 4123
-Inst1Quest7_Aim = "Llévale el corazón de la montaña a Maxwort Suprandor en Las Estepas Ardientes."
+Inst1Quest7 = "7. El Corazón de la Montaña" -- 4123
+Inst1Quest7_Aim = "Llévale el Corazón de la Montaña a Maxwort Suprandor en Las Estepas Ardientes."
 Inst1Quest7_Location = "Maxwort Suprandor (Las Estepas Ardientes - Peñasco Llamarada; "..YELLOW.."65,23"..WHITE..")"
 Inst1Quest7_Note = "Encuentras el corazón de la montaña en "..YELLOW.."[8]"..WHITE.." dentro de una caja fuerte. Consigues la llave para la caja fuerte de Depositario Stilgiss. Él se aparecerá después de abrir todas las cajitas fuertes."
 Inst1Quest7_Prequest = "Ninguno"
@@ -241,8 +241,8 @@ Inst1Quest14_Folgequest = "Ninguno"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
-Inst1Quest15 = "15. El mariscal Windsor" -- 4241
-Inst1Quest15_Aim = "Viaja a la Montaña Roca Negra al noroeste y adéntrate en las Profundidades de Roca Negra. Averigua qué le ha ocurrido al mariscal Windsor."
+Inst1Quest15 = "15. El alguacil Windsor" -- 4241
+Inst1Quest15_Aim = "Viaja a la Montaña Roca Negra al noroeste y adéntrate en las Profundidades de Roca Negra. Averigua qué le ha ocurrido al alguacil Windsor.\nRecuerdas que John Andrajoso había comentado que se habían llevado a una cárcel a Windsor."
 Inst1Quest15_Location = "Mariscal Maxwell (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,68"..WHITE..")"
 Inst1Quest15_Note = "Esta misión es una parte de la cadena para la armonización con Onyxia. La misión para la cadena empieza con Helendis Rivacuerno (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,68"..WHITE..").\nMariscal Windsor está en "..YELLOW.."[4]"..WHITE..". Tienes que regresar a Mariscal Maxwell después de completar la misión."
 Inst1Quest15_Prequest = "La amenaza de los dragonantes -> Los verdaderos maestros" -- 4182 -> 4224
@@ -252,9 +252,9 @@ Inst1Quest15_Folgequest = "Esperanza perdida" -- 4242
 --Quest 16 Alliance
 Inst1Quest16 = "16. Esperanza perdida"
 Inst1Quest16_Aim = "Dale las malas noticias a mariscal Maxwell. "
-Inst1Quest16_Location = "Mariscal Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
+Inst1Quest16_Location = "Alguacil Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
 Inst1Quest16_Note = "Esta misión es una parte de la cadena para la armonización de Onyxia. Mariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,69"..WHITE.."). La siguiente misión en la cadena se despoja en las Profundidades de Roca Negra."
-Inst1Quest16_Prequest = "El mariscal Windsor"
+Inst1Quest16_Prequest = "El alguacil Windsor"
 Inst1Quest16_Folgequest = "Ninguno"
 --
 Inst1Quest16name1 = "Yelmo de conservador"
@@ -271,7 +271,7 @@ Inst1Quest17_Folgequest = "Una esperanza hecha trizas"
 -- No Rewards for this quest
 
 --Quest 18 Alliance
-Inst1Quest18 = "18. Una brizna de esperanza"
+Inst1Quest18 = "18. Una esperanza hecha trizas"
 Inst1Quest18_Aim = "Devuélvele al mariscal Windsor la información perdida.\nEl mariscal Windsor cree que la información está siendo retenida en manos del Señor Gólem Argelmach y del general Forjainquina."
 Inst1Quest18_Location = "Alguacil Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
 Inst1Quest18_Note = "Esta misión es una parte de la cadena para la armonización de Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE..".\nEncuentras al Señor Gólem Argelmach en "..YELLOW.."[14]"..WHITE.." y a General Forjainquina en "..YELLOW.."[13]"..WHITE.."."
@@ -287,7 +287,7 @@ Inst1Quest19_Note = "Esta misión es una parte de la cadena para la armonizació
 Inst1Quest19_Prequest = "Una brizna de esperanza" -- 4282
 Inst1Quest19_Folgequest = "Tienes una cita en Ventormenta" -- 6204
 --
-Inst1Quest19name1 = "Amuleto de los Elementos"
+Inst1Quest19name1 = "Amuleto de los elementos"
 Inst1Quest19name2 = "Hoja de Juicio"
 Inst1Quest19name3 = "Hoja apta para la lucha"
 
