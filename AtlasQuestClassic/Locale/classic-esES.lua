@@ -5190,7 +5190,7 @@ Inst33Quest16_HORDE_Folgequest = "Ninguno"
 
 --Quest 17 Horde
 Inst33Quest17_HORDE = "17. La llamada del aire: flota de Mulverick" -- 6827
-Inst33Quest17_HORDE_Aim = "First, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you."
+Inst33Quest17_HORDE_Aim = "He pasado días encerrado en un horrible antro de enanos. ¡Vaya si quiero venganza!\n\nDebemos planificarlo minuciosamente.\n\nPrimero mis alas de guerra necesitan objetivos a los que apuntar, objetivos de alta prioridad. Tendré que alimentarlos con carne de los Comandantes Pico Tormenta. Por desgracia, ¡esos malnacidos están atrincherados muy lejos detrás de las líneas enemigas! Ahí tienes un trabajo a tu medida."
 Inst33Quest17_HORDE_Location = "Comandante del aire Mulverick (Valle de Alterac - Sur; "..YELLOW.."[13]"..WHITE..")"
 Inst33Quest17_HORDE_Note = "Mata a los PNJs Horda para obtener la Carne de Comandante Pico Tormenta."
 Inst33Quest17_HORDE_Prequest = "Ninguno"
