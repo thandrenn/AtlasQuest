@@ -5002,7 +5002,7 @@ Inst33Quest13_Folgequest = "Ninguno"
 
 --Quest 14 Alliance
 Inst33Quest14 = "14. Ivus, el Señor del Bosque" -- 6881
-Inst33Quest14_Aim = "El clan Lobo Gélido está protegido por una contaminación de energía elemental. Su chamán anda metido con poderes que seguramente nos aniquilarían si no nos ocupamos de ellos.\n\nThe ¡El daño se ha extendido demasiado para que el Círculo lo controle! Tenemos que invocar a Ivus para que nos ayude.\n\nLos soldados Lobo Gélido llevan talismanes de elemental llamados cristales de tormenta. Podemos usar estos talismanes para conjurar a Ivus. ¡Adéntrate hasta ese lugar y recupera esos cristales, <nombre>! "
+Inst33Quest14_Aim = "El clan Lobo Gélido está protegido por una contaminación de energía elemental. Su chamán anda metido con poderes que seguramente nos aniquilarían si no nos ocupamos de ellos.\n\n¡El daño se ha extendido demasiado para que el Círculo lo controle! Tenemos que invocar a Ivus para que nos ayude.\n\nLos soldados Lobo Gélido llevan talismanes de elemental llamados cristales de tormenta. Podemos usar estos talismanes para conjurar a Ivus. ¡Adéntrate hasta ese lugar y recupera esos cristales, <nombre>!"
 Inst33Quest14_Location = "Archidruida Renferal (Valle de Alterac - Norte; "..YELLOW.."[2]"..WHITE..")"
 Inst33Quest14_Note = "Despúes de entregar alrededor 200 cristales, Archidruida Renferal caminará hacia (Valle de Alterac - Norte; "..YELLOW.."[19]"..WHITE.."). Empezará el ritual de invocación que requiere 10 jugadores para asistirle. Si lo completa, invocará Ivus, el Señor del Bosque para ayudarles en la batalla."
 Inst33Quest14_Prequest = "Ninguno"
