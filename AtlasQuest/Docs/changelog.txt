@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 4.11.04  (January 14, 2020)
+
+- Just a TOC update for Patch 8.3.  Nothing fancy here.
+
+
+
+
 Version 4.11.03  (January 8, 2020)
 
 - Compatibility updates for Atlas 1.46.04 and its shiny new "Battle for Azeroth" module.
