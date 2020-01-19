@@ -1087,9 +1087,29 @@ Inst189Quest1name1_HORDE = Inst189Quest1name1
 --------------- INST190 - Ny'alotha, the Waking City ---------------
 
 Inst190Caption = "Ny'alotha, the Waking City"
-Inst190QAA = "No Quests"
-Inst190QAH = "No Quests"
+Inst190QAA = "1 Quest"
+Inst190QAH = "1 Quest"
 
+--Quest 1 Alliance
+Inst190Quest1 = "1. Ny'alotha, the Waking City: The Corruptor's End"
+Inst190Quest1_Aim = "Defeat N'Zoth in Ny'alotha, the Waking City."
+Inst190Quest1_Location = "Magni Bronzebeard (Silithus - Chamber of Heart; "..YELLOW.."48.0, 61.1"..WHITE..")"
+Inst190Quest1_Note = "N'Zoth is the final boss in the raid.  This can be completed on any difficulty level."
+Inst190Quest1_Prequest = "Where the Heart Is -> Into Dreams"
+Inst190Quest1_Folgequest = "None"
+Inst190Quest1PreQuest = "true"
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst190Quest1_HORDE = Inst190Quest1
+Inst190Quest1_HORDE_Aim = Inst190Quest1_Aim
+Inst190Quest1_HORDE_Location = Inst190Quest1_Location
+Inst190Quest1_HORDE_Note = Inst190Quest1_Note
+Inst190Quest1_HORDE_Prequest = Inst190Quest1_Prequest
+Inst190Quest1_HORDE_Folgequest = Inst190Quest1_Folgequest
+Inst190Quest1PreQuest_HORDE = Inst190Quest1PreQuest
+-- Rewards "Azerite"
 
 
 

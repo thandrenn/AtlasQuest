@@ -2,9 +2,12 @@
 Changelog
 =========
 
-Version 4.11.04  (January 14, 2020)
+Version 4.11.04  (January 19, 2020)
 
-- Just a TOC update for Patch 8.3.  Nothing fancy here.
+- Just a TOC update for Patch 8.3.
+
+- Added quest:
+	- Ny'alotha, the Waking City: The Corruptor's End
 
 
 

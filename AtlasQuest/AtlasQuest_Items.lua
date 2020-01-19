@@ -9849,7 +9849,12 @@ Inst189Quest1ID1_HORDE = "169610"
 
 --------------- INST190 - Ny'alotha, the Waking City ---------------
 
+--Quest 1 Alliance
+Inst190Quest1Rewardtext = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
 
+
+--Quest 1 Horde
+Inst190Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
 
 
 

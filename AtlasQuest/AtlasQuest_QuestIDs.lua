@@ -4046,6 +4046,15 @@ Inst189Quest1_HORDE_Attain = "120"
 
 --------------- INST190 - Ny'alotha, the Waking City ---------------
 
+Inst190Quest1_QuestID = "58632"
+Inst190Quest1_Level = "120"
+Inst190Quest1_Attain = "120"
+
+
+Inst190Quest1_HORDE_QuestID = "58632"
+Inst190Quest1_HORDE_Level = "120"
+Inst190Quest1_HORDE_Attain = "120"
+
 
 
 
