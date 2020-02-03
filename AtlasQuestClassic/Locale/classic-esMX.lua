@@ -3615,7 +3615,7 @@ Inst20Quest8_HORDE_Note = "Solamente para Chamanes: Devuelves el libro al Tradic
 Inst20Quest8_HORDE_Prequest = "Ninguno"
 Inst20Quest8_HORDE_Folgequest = "Ninguno"
 --
-Inst20Quest11name1 = "Sello real de Eldre'Thalas"
+Inst20Quest8name1_HORDE = "Sello real de Eldre'Thalas"
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
 Inst20Quest9_HORDE = Inst20Quest9
