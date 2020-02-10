@@ -2853,7 +2853,7 @@ Inst16Quest12name1 = "Collar de mejoría de Talvash"
 Inst16Quest13 = "13. Componentes de Uldaman" -- 17
 Inst16Quest13_Aim = "Lleva 12 setas magenta a Ghak Sanadón a Thelsamar."
 Inst16Quest13_Location = "Ghak Sanadón (Loch Modan - Thelsamar; "..YELLOW.."37,49"..WHITE..")"
-Inst16Quest13_Note = "Las setas están desperdigadas a través de toda la estancia. Se puede rastrear las hierbas si tienes la profesión Botánica."
+Inst16Quest13_Note = "Las setas están desperdigadas a través de toda la estancia. Se puede rastrear las hierbas si tienes la profesión Herboristería."
 Inst16Quest13_Prequest = "Componentes de Tierras Inhóspitas" -- 2500
 Inst16Quest13_Folgequest = "Ninguno"
 --
