@@ -2823,7 +2823,7 @@ Inst16Quest9_Folgequest = "Esa información tiene un precio" -- 2199
 
 --Quest 10 Alliance
 Inst16Quest10 = "10. El regreso a Uldaman" -- 2200
-Inst16Quest10_Aim = "Busca pistas sobre el paradero del collar de Talvash en Uldaman. Dijo que un paladín muerto fue su último dueño."
+Inst16Quest10_Aim = "Busca pistas de la ubicación actual del collar de Talvash dentro de Uldaman. El paladín asesinado que mencionó fue la última persona que lo tenía."
 Inst16Quest10_Location = "Talvash del Kissel (Forjaz - La Sala Mística; "..YELLOW.."36,3"..WHITE..")"
 Inst16Quest10_Note = "El paladín está en "..YELLOW.."[2]"..WHITE.."."
 Inst16Quest10_Prequest = "Esa información tiene un precio" -- 2199
