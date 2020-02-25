@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.11.63  (for WoW Classic)  March ??, 2020
+
+-
+
+
+
 Version 4.11.62  (for WoW Classic)  February 24, 2020
 
 - Updates to Spanish localization by Woopy.
