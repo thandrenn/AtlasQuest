@@ -3750,6 +3750,7 @@ Inst21Quest4_Prequest = "Ninguno"
 Inst21Quest4_Folgequest = "Ninguno"
 --
 Inst21Quest4name1 = "Marca del elegido"
+Inst21Quest4name2 = "Amuleto de los espíritus"
 
 --Quest 5 Alliance
 Inst21Quest5 = "5. Leyendas de Maraudon" -- 7044
@@ -3838,6 +3839,7 @@ Inst21Quest4_HORDE_Prequest = Inst21Quest4_Prequest
 Inst21Quest4_HORDE_Folgequest = Inst21Quest4_Folgequest
 --
 Inst21Quest4name1_HORDE = Inst21Quest4name1
+Inst21Quest4name2_HORDE = Inst21Quest4name2
 
 --Quest 5 Horde (same as Quest 5 Alliance)
 Inst21Quest5_HORDE = Inst21Quest5
