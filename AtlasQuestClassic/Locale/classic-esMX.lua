@@ -5175,7 +5175,7 @@ Inst33Quest14_HORDE_Folgequest = "Ninguno"
 Inst33Quest15_HORDE = "15. La llamada del aire: flota de Guse" -- 6825
 Inst33Quest15_HORDE_Aim = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!"
 Inst33Quest15_HORDE_Location = "Comandante del aire Guse (Valle de Alterac - Sur; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest15_HORDE_Note = "Mata a los PNJs Horda para obtener la Carne de Soldado Pico Tormenta."
+Inst33Quest15_HORDE_Note = "Mata a los PNJs Alianza para obtener la Carne de Soldado Pico Tormenta."
 Inst33Quest15_HORDE_Prequest = "Ninguno"
 Inst33Quest15_HORDE_Folgequest = "Ninguno"
 -- No Rewards for this quest
@@ -5184,7 +5184,7 @@ Inst33Quest15_HORDE_Folgequest = "Ninguno"
 Inst33Quest16_HORDE = "16. La llamada del aire: flota de Jeztor" -- 6826
 Inst33Quest16_HORDE_Aim = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Tenientes."
 Inst33Quest16_HORDE_Location = "Comandante del aire Jeztor (Valle de Alterac - Sur; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest16_HORDE_Note = "Mata a los PNJs Horda para obtener la Carne de Teniente Pico Tormenta."
+Inst33Quest16_HORDE_Note = "Mata a los PNJs Alianza para obtener la Carne de Teniente Pico Tormenta."
 Inst33Quest16_HORDE_Prequest = "Ninguno"
 Inst33Quest16_HORDE_Folgequest = "Ninguno"
 -- No Rewards for this quest
@@ -5193,7 +5193,7 @@ Inst33Quest16_HORDE_Folgequest = "Ninguno"
 Inst33Quest17_HORDE = "17. La llamada del aire: flota de Mulverick" -- 6827
 Inst33Quest17_HORDE_Aim = "He pasado días encerrado en un horrible antro de enanos. ¡Vaya si quiero venganza!\n\nDebemos planificarlo minuciosamente.\n\nPrimero mis alas de guerra necesitan objetivos a los que apuntar, objetivos de alta prioridad. Tendré que alimentarlos con carne de los Comandantes Pico Tormenta. Por desgracia, ¡esos malnacidos están atrincherados muy lejos detrás de las líneas enemigas! Ahí tienes un trabajo a tu medida."
 Inst33Quest17_HORDE_Location = "Comandante del aire Mulverick (Valle de Alterac - Sur; "..YELLOW.."[13]"..WHITE..")"
-Inst33Quest17_HORDE_Note = "Mata a los PNJs Horda para obtener la Carne de Comandante Pico Tormenta."
+Inst33Quest17_HORDE_Note = "Mata a los PNJs Alianza para obtener la Carne de Comandante Pico Tormenta."
 Inst33Quest17_HORDE_Prequest = "Ninguno"
 Inst33Quest17_HORDE_Folgequest = "Ninguno"
 -- No Rewards for this quest
