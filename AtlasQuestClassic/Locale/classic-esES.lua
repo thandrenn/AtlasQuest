@@ -4344,7 +4344,7 @@ Inst26Quest6name2 = "Celada de hermandad de ingeniero"
 Inst26Quest7 = "7. Gahz'rilla" -- 2770
 Inst26Quest7_Aim = "Llévale la escama electrificada de Gahz'rilla a Wizzle Pernolatón, que está en El Desierto de Sal."
 Inst26Quest7_Location = "Wizzle Pernolatón (Las Mil Agujas - Circuito del Espejismo; "..YELLOW.."78,77"..WHITE..")"
-Inst26Quest7_Note = "Obtienes la misión requisita de Klockmort Palmalicate (Forjaz - Ciudad Manitas; "..YELLOW.."68,46"..WHITE.."). No es necesario tener la misión requisita para obtener la misión de Gahz'rilla.\nInvoca a Gahz'rilla en "..YELLOW.."[6]"..WHITE.." con la Marra de Zul'Farrak.\nObtienes la marra sacra de Qiaga la Vigilante (Tierras del Interior - El Altar de Zul; "..YELLOW.."49,70"..WHITE.."). Úsala al Altar de Jinta'Alor en "..YELLOW.."59,77"..WHITE.." para crear la Marra de Zul'Farrak."
+Inst26Quest7_Note = "Obtienes la misión requisita de Klockmort Palmalicate (Forjaz - Ciudad Manitas; "..YELLOW.."68,46"..WHITE.."). No es necesario tener la misión requisita para obtener la misión de Gahz'rilla.\nInvoca a Gahz'rilla en "..YELLOW.."[6]"..WHITE.." con la Marra de Zul'Farrak.\nObtienes la marra sacra de Qiaga la Vigilante (Tierras del Interior - El Altar de Zul; "..YELLOW.."49,70"..WHITE.."). Úsala al Altar de Jintha'Alor en "..YELLOW.."59,77"..WHITE.." para crear la Marra de Zul'Farrak."
 Inst26Quest7_Prequest = "Los hermanos Pernolatón" -- 2769
 Inst26Quest7_Folgequest = "Ninguno"
 --
