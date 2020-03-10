@@ -4985,7 +4985,7 @@ Inst33Quest11_Folgequest = "Ninguno"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
-Inst33Quest12 = "12. Arneses de pellejo de carnero" -- 7026
+Inst33Quest12 = "12. Arneses para carneros de montar" -- 7026
 Inst33Quest12_Aim = "You must strike at our enemy's base, slaying the frostwolves they use as mounts and taking their hides. Return their hides to me so that harnesses may be made for the cavalry. Go!"
 Inst33Quest12_Location = "Comandante de jinetes de carneros Pico Tormenta (Valle de Alterac - Norte; "..YELLOW.."[6]"..WHITE..")"
 Inst33Quest12_Note = "Los Lobos Gélidos se encuentran al sur del Valle de Alterac."
@@ -5145,7 +5145,7 @@ Inst33Quest11_HORDE_Folgequest = "Ninguno"
 -- No Rewards for this quest
 
 --Quest 12 Horde
-Inst33Quest12_HORDE = "12. Arneses de pellejo de carnero" -- 7002
+Inst33Quest12_HORDE = "12. Arneses para carneros de montar" -- 7002
 Inst33Quest12_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
 Inst33Quest12_HORDE_Location = "Comandante jinete de lobos Lobo Gélido (Valle de Alterac - Sur; "..YELLOW.."[9]"..WHITE..")"
 Inst33Quest12_HORDE_Note = "Los carneros se encuentran al norte del Valle de Alterac."
@@ -5173,7 +5173,7 @@ Inst33Quest14_HORDE_Folgequest = "Ninguno"
 
 --Quest 15 Horde
 Inst33Quest15_HORDE = "15. La llamada del aire: flota de Guse" -- 6825
-Inst33Quest15_HORDE_Aim = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!"
+Inst33Quest15_HORDE_Aim = "Mis jinetes están listos para un ataque sobre el campo de batalla central pero primero hay que despertar su apetito… prepararlos para el asalto.\n\nNecesito carne de soldados Pico Tormenta, ¡como para alimentar a una flota! ¡Cientos de kilos! Seguro que puedes encargarte de eso, ¿verdad? ¡Andando!"
 Inst33Quest15_HORDE_Location = "Comandante del aire Guse (Valle de Alterac - Sur; "..YELLOW.."[13]"..WHITE..")"
 Inst33Quest15_HORDE_Note = "Mata a los PNJs Alianza para obtener la Carne de Soldado Pico Tormenta."
 Inst33Quest15_HORDE_Prequest = "Ninguno"
