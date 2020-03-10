@@ -5145,7 +5145,7 @@ Inst33Quest11_HORDE_Folgequest = "Ninguno"
 -- No Rewards for this quest
 
 --Quest 12 Horde
-Inst33Quest12_HORDE = "12. Arneses de pellejo de carnero" -- 7002
+Inst33Quest12_HORDE = "12. Arneses para carneros de montar" -- 7002
 Inst33Quest12_HORDE_Aim = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!"
 Inst33Quest12_HORDE_Location = "Comandante jinete de lobos Lobo Gélido (Valle de Alterac - Sur; "..YELLOW.."[9]"..WHITE..")"
 Inst33Quest12_HORDE_Note = "Los carneros se encuentran al norte del Valle de Alterac."
