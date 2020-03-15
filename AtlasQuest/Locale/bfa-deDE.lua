@@ -39,6 +39,7 @@
 -- 187 = RAID: Crucible of Storms
 -- 188 = RAID: The Eternal Palace
 -- 189 = DUNGEON: Operation: Mechagon
+-- 190 = RAID: Ny'alotha, the Waking City
 
 
 if ( GetLocale() == "deDE" ) then
@@ -282,7 +283,7 @@ Inst177Quest2_HORDE_Folgequest = "Nein"
 Inst177Quest3_HORDE = Inst177Quest3
 Inst177Quest3_HORDE_Aim = Inst177Quest3_Aim
 Inst177Quest3_HORDE_Location = "Die Königsruh"
-Inst177Quest3HORDE_Note = Inst177Quest3_Note
+Inst177Quest3_HORDE_Note = Inst177Quest3_Note
 Inst177Quest3_HORDE_Prequest = "Nein"
 Inst177Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
@@ -376,7 +377,7 @@ Inst178Quest3_HORDE_Folgequest = "Nein"
 --------------- INST179 - Siege of Boralus ---------------
 
 Inst179Caption = "Die Belagerung von Boralus"
-Inst179QAA = "7 Quests"
+Inst179QAA = "8 Quests"
 Inst179QAH = "7 Quests"
 
 --Quest 1 Alliance
@@ -442,15 +443,16 @@ Inst179Quest7_Prequest = "Nein"
 Inst179Quest7_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 8 Alliance
+Inst179Quest8 = "8. Belagerung von Boralus: Lady Aschenwinds Rückkehr"
+Inst179Quest8_Aim = "Schließt die Belagerung von Boralus (Dungeon) ab. ."
+Inst179Quest8_Location = "Katherine Prachtmeer (Boralus - Burg Prachtmeer; "..YELLOW.."44.8, 62.6"..WHITE..")"
+Inst179Quest8_Note = "Dies ist die letze Quest der Questreihe von 'Der Stolz von Kul'Tiras'.   Die Quest bringt Dich zu Taelia (Boralus; "..YELLOW.."68.0, 22.0"..WHITE..")."
+Inst179Quest8_Prequest = "Was Ihr vielleicht bereut -> Thros, die Verseuchten Lande"
+Inst179Quest8_Folgequest = "Eine vereinte Nation"
+--
+-- Rewards "Azerite"
 
---Quest 1 Horde
-Inst179Quest3_HORDE = Inst179Quest1
-Inst179Quest3_HORDE_Aim = Inst179Quest1_Aim
-Inst179Quest3_HORDE_Location = Inst179Quest1_Location
-Inst179Quest3_HORDE_Note = Inst179Quest1_Note
-Inst179Quest3_HORDE_Prequest = "Nein"
-Inst179Quest3_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
 
 --Quest 1 Horde
 Inst179Quest1_HORDE = Inst179Quest1
@@ -472,17 +474,26 @@ Inst179Quest2_HORDE_Folgequest = "Nein"
 
 --Quest 3 Horde
 Inst179Quest3_HORDE = Inst179Quest3
-Inst179Quest3_HORDE_Aim = Inst179Ques31_Aim
-Inst179Quest3_HORDE_Location = Inst179Ques31_Location
+Inst179Quest3_HORDE_Aim = Inst179Ques3_Aim
+Inst179Quest3_HORDE_Location = Inst179Ques3_Location
 Inst179Quest3_HORDE_Note = Inst179Quest3_Note
 Inst179Quest3_HORDE_Prequest = "Nein"
 Inst179Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 4 Horde
+Inst179Quest4_HORDE = Inst179Quest4
+Inst179Quest4_HORDE_Aim = Inst179Ques4_Aim
+Inst179Quest4_HORDE_Location = Inst179Ques4_Location
+Inst179Quest4_HORDE_Note = Inst179Quest4_Note
+Inst179Quest4_HORDE_Prequest = "Nein"
+Inst179Quest4_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
+
 --Quest 5 Horde
 Inst179Quest5_HORDE = Inst179Quest5
-Inst179Quest5_HORDE_Aim = Inst179Ques51_Aim
-Inst179Quest5_HORDE_Location = Inst179Ques51_Location
+Inst179Quest5_HORDE_Aim = Inst179Quest5_Aim
+Inst179Quest5_HORDE_Location = Inst179Quest5_Location
 Inst179Quest5_HORDE_Note = Inst179Quest5_Note
 Inst179Quest5_HORDE_Prequest = "Nein"
 Inst179Quest5_HORDE_Folgequest = "Nein"
@@ -573,8 +584,8 @@ Inst180Quest4_HORDE = "4. Der Tempel von Sethraliss: Avatar des Loas"
 Inst180Quest4_HORDE_Aim = "Betretet den Tempel von Sethraliss und heilt den Avatar des Loas."
 Inst180Quest4_HORDE_Location = "Vorrik (Voldun; "..YELLOW.."27.0, 52.6"..WHITE..")"
 Inst180Quest4_HORDE_Note = "Teil der 'Atul'Aman Kampagne'. Kann auf Normal oder Heroisch abgeschlossen werden.\nBesiege den Endboss um die Quest abzuschließen und kehre zum Questgeber zurück."
-Inst180Quest4_HORDE_Prequest = "Defeat Jakra'zet"
-Inst180Quest4_HORDE_Folgequest = "Informing the Horde"
+Inst180Quest4_HORDE_Prequest = "Jakra'zet besiegen"
+Inst180Quest4_HORDE_Folgequest = "Die Horde informieren"
 Inst180Quest4PreQuest_HORDE = "true"
 --
 -- Rewards "Azerite"
@@ -668,7 +679,7 @@ Inst181Quest4_HORDE_Folgequest = "Nein"
 
 Inst182Caption = "Der Tiefenpfuhl"
 Inst182QAA = "3 Quests"
-Inst182QAH = "3 Quests"
+Inst182QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst182Quest1 = "1. Der Tiefenpfuhl: Moderschlund"
@@ -725,12 +736,22 @@ Inst182Quest3_HORDE_Prequest = "Nein"
 Inst182Quest3_HORDE_Folgequest = "Nein"
 -- No Rewards for this quest
 
+--Quest 4 Horde
+Inst182Quest4_HORDE = "4. Der Tiefenpfuhl: Versiegeln von G'huuns Verderbnis"
+Inst182Quest4_HORDE_Aim = "Begebt Euch in den Tiefenpfuhl und besiegt die entfesselte Monstrosität."
+Inst182Quest4_HORDE_Location = "Titanenhüter Hezrel (Nazmir; "..YELLOW.."51.8, 65.8"..WHITE..")"
+Inst182Quest4_HORDE_Note = "Dies ist Teil der 'Das Finstere Herz von Nazmir' Questreihe.  Die Quest endet bei Rokhan (Nazmir; "..YELLOW.."39.2, 78.8"..WHITE..")."
+Inst182Quest4_HORDE_Prequest = "Unten am Fluss -> Die Verderbnis in der Tiefe"
+Inst182Quest4_HORDE_Folgequest = "Den Fall des Imperiums aufhalten"
+--
+-- Rewards "Azerite"
+
 
 
 --------------- INST183 - Tol Dagor ---------------
 
 Inst183Caption = "Tol Dagor"
-Inst183QAA = "3 Quests"
+Inst183QAA = "4 Quests"
 Inst183QAH = "3 Quests"
 
 --Quest 1 Alliance
@@ -759,6 +780,16 @@ Inst183Quest3_Note = AQ_WORLDDUNGEONQUEST
 Inst183Quest3_Prequest = "Nein"
 Inst183Quest3_Folgequest = "Nein"
 -- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst183Quest4 = "4. Tol Dagor: Der Aschenwindaufseher"
+Inst183Quest4_Aim = "Besorgt den Generalschlüssel von Tol Dagor von Aufseher Korgus."
+Inst183Quest4_Location = "Carsten Jammerthal (Boralus - Hafenmeisterbüro; "..YELLOW.."68.0, 22.0"..WHITE..")"
+Inst183Quest4_Note = "Aufseher Korgus ist der Endboss in der Dungeon."
+Inst183Quest4_Prequest = "Nein"
+Inst183Quest4_Folgequest = "Nein"
+--
+-- Rewards "Azerite"
 
 
 --Quest 1 Horde
@@ -977,6 +1008,24 @@ Inst188Quest1_Folgequest = "Nein"
 --
 -- Rewards "Azerite"
 
+--Quest 2 Alliance
+Inst188Quest2 = "2. Der Ewige Palast: Wir können ihn stärker machen..."
+Inst188Quest2_Aim = "Sammelt 20 ewige Ornamente von den mächtigsten Kreaturen des Ewigen Palasts."
+Inst188Quest2_Location = "Ausbilder Ulooaka (Naz'jatar - Mezzamere; "..YELLOW.."38.0, 53.0"..WHITE..")"
+Inst188Quest2_Note = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden aber auf höherer Schweirigkeit bekommst Du mehr Ornamente."
+Inst188Quest2_Prequest = "Uralte Technologie -> Eine abgrundtiefe Gelegenheit"
+Inst188Quest2_Folgequest = "Der Ewige Palast: Grenzen austesten"
+-- No Rewards for this quest
+
+--Quest 3 Alliance
+Inst188Quest3 = "3. Der Ewige Palast: Grenzen austesten"
+Inst188Quest3_Aim = "Sammelt 200 ewige Ornamente von den mächtigsten Kreaturen des Ewigen Palasts. ."
+Inst188Quest3_Location = Inst188Quest2_Location
+Inst188Quest3_Note = Inst188Quest2_Note
+Inst188Quest3_Prequest = "Der Ewige Palast: Wir können ihn stärker machen..."
+Inst188Quest3_Folgequest = "Nein"
+-- No Rewards for this quest
+
 
 --Quest 1 Horde
 Inst188Quest1_HORDE = Inst187Quest1
@@ -987,6 +1036,24 @@ Inst188Quest1_HORDE_Prequest = "Nein"
 Inst188Quest1_HORDE_Folgequest = "Nein"
 --
 -- Rewards "Azerite"
+
+--Quest 2 Horde
+Inst188Quest2_HORDE = Inst188Quest2
+Inst188Quest2_HORDE_Aim = Inst188Quest2_Aim
+Inst188Quest2_HORDE_Location = "Rolm (Naz'jatar - Neuheim; "..YELLOW.."49.2, 61.8"..WHITE..")"
+Inst188Quest2_HORDE_Note = Inst188Quest2_Note
+Inst188Quest2_HORDE_Prequest = Inst188Quest2_Prequest
+Inst188Quest2_HORDE_Folgequest = Inst188Quest2_Folgequest
+-- No Rewards for this quest
+
+--Quest 3 Horde
+Inst188Quest3_HORDE = Inst188Quest3
+Inst188Quest3_HORDE_Aim = Inst188Quest3_Aim
+Inst188Quest3_HORDE_Location = Inst188Quest2_HORDE_Location
+Inst188Quest3_HORDE_Note = Inst188Quest3_Note
+Inst188Quest3_HORDE_Prequest = Inst188Quest3_Prequest
+Inst188Quest3_HORDE_Folgequest = "Nein"
+-- No Rewards for this quest
 
 
 
@@ -1016,7 +1083,37 @@ Inst189Quest1_HORDE_Note = "Besiege den Endboss und gebe die Quest bei Lor'thema
 Inst189Quest1_HORDE_Prequest = "Nein"
 Inst189Quest1_HORDE_Folgequest = "Nein"
 --
-Inst189Quest1name1_HORDE = "Kiste mit E.R.S.A.T.Z.-Teilen"
+Inst189Quest1name1_HORDE = Inst189Quest1name1
+-- No Rewards for this quest
+-- Reward varies for each class
+
+
+
+--------------- INST190 - Ny'alotha, the Waking City ---------------
+
+Inst190Caption = "Ny'alotha, die Erwachte Stadt"
+Inst190QAA = "1 Quest"
+Inst190QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst190Quest1 = "1. Ny'alotha, die Erwachte Stadt: Das Ende des Verderbers"
+Inst190Quest1_Aim = "Besiegt N'Zoth in Ny'alotha, der Erwachten Stadt."
+Inst190Quest1_Location = "Magni Bronzebeard (Silithus - Herzkammer; "..YELLOW.."48.0, 61.1"..WHITE..")"
+Inst190Quest1_Note = "N'Zoth ist der Endboss vom Schlachtzug.  Dies kann auf jeder Schweirigkeit abgeschlossen werden."
+Inst190Quest1_Prequest = "Herzensangelegenheit -> Hinein in die Träume"
+Inst190Quest1_Folgequest = "Nein"
+Inst190Quest1PreQuest = "true"
+-- Rewards "Azerite"
+
+
+--Quest 1 Horde
+Inst190Quest1_HORDE = Inst190Quest1
+Inst190Quest1_HORDE_Aim = Inst190Quest1_Aim
+Inst190Quest1_HORDE_Location = Inst190Quest1_Location
+Inst190Quest1_HORDE_Note = Inst190Quest1_Note
+Inst190Quest1_HORDE_Prequest = Inst190Quest1_Prequest
+Inst190Quest1_HORDE_Folgequest = "Nein"
+Inst190Quest1PreQuest_HORDE = Inst190Quest1PreQuest
 -- Rewards "Azerite"
 
 
