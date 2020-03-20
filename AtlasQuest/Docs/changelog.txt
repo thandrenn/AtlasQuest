@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.11.06  (for Battle for Azeroth)  (April ??, 2020)
+
+- 
+
+
+
 Version 4.11.05  (March 20, 2020)
 
 - German translation updated.
