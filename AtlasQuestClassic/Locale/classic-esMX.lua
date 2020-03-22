@@ -3729,7 +3729,7 @@ Inst21Quest2name3 = "Guanteletes ramazarza"
 
 --Quest 3 Alliance
 Inst21Quest3 = "3. Los males de Maraudon" -- 7028
-Inst21Quest3_Aim = "Recoge 15 tallas de cristal terádrico y llévaselas a Willow a Desolace."
+Inst21Quest3_Aim = "Recoge 25 tallas de cristal terádrico para Willow en Desolace."
 Inst21Quest3_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
 Inst21Quest3_Note = "Puedes despojar a la mayoría de las criaturas en Maraudon para obtener las tallas."
 Inst21Quest3_Prequest = "Ninguno"
@@ -3744,7 +3744,7 @@ Inst21Quest3name4 = "Espaldares de mole de piedra"
 Inst21Quest4 = "4. Las instrucciones del Paria" -- 7067
 Inst21Quest4_Aim = "Lee las instrucciones del Paria. Busca el Amuleto de Unidad en Maraudon y llévaselo al sur de Desolace."
 Inst21Quest4_Location = "Paria Centauro (Desolace; "..YELLOW.."45,86"..WHITE..")"
-Inst21Quest4_Note = "Los 5 Khans (Descripción para Las instrucciones del Paria)"
+Inst21Quest4_Note = "Los 5 Kahns (Descripción para Las instrucciones del Paria)"
 Inst21Quest4_Page = {2, "Encuentras el Paria Centauro al sur de Desolace. Camina entre "..YELLOW.."44,85"..WHITE.." y "..YELLOW.."50,87"..WHITE..".\nPrimero, debes matar al Profeta sin nombre ("..YELLOW.."[A] en el mapa de la Entrada"..WHITE.."). Lo encuentras antes de entrar la estancia, antes de la parte con la bifurcación para entrar al lado morado o naranja. Después de matarlo, debes matar a los 5 Khans. El Primer Khan está al camino central ("..YELLOW.."[1] en el mapa de la Entrada"..WHITE.."). El Segundo Khan está en la parte morada de Maraudon antes de entrar la estancia ("..YELLOW.."[2] en el mapa de la Entrada"..WHITE.."). El Tercer Khan está en la parte naranja antes de entrar la estancia ("..YELLOW.."[3] en el mapa de la Entrada"..WHITE.."). El Cuarto Khan está cerca de "..YELLOW.."[4]"..WHITE.." y El Quinto Khan está cerca de  "..YELLOW.."[1]"..WHITE..".", };
 Inst21Quest4_Prequest = "Ninguno"
 Inst21Quest4_Folgequest = "Ninguno"
@@ -3755,7 +3755,7 @@ Inst21Quest4name2 = "Amuleto de los espíritus"
 --Quest 5 Alliance
 Inst21Quest5 = "5. Leyendas de Maraudon" -- 7044
 Inst21Quest5_Aim = "Recupera las 2 partes del cetro de Celebras: la vara y el diamante de Celebras.\nEncuentra el modo de hablar con Celebras."
-Inst21Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] on Entrance Map"..WHITE..")"
+Inst21Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] en el mapa de la Entrada"..WHITE..")"
 Inst21Quest5_Note = "Encuentras a Cavindra al comienzo de la parte naranja antes de entrar la estancia.\nConsigues el Vara de Celebras de Noxxion en "..YELLOW.."[2]"..WHITE.." y el Diamante de Celebras de Lord Lenguavil en "..YELLOW.."[5]"..WHITE..". Celebras está en "..YELLOW.."[7]"..WHITE..". Tienes que derrotarlo para hablar consigo."
 Inst21Quest5_Prequest = "Ninguno"
 Inst21Quest5_Folgequest = "El cetro de Celebras" -- 7046
