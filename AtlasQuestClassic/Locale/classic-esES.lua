@@ -3729,7 +3729,7 @@ Inst21Quest2name3 = "Guanteletes ramazarza"
 
 --Quest 3 Alliance
 Inst21Quest3 = "3. Los males de Maraudon" -- 7028
-Inst21Quest3_Aim = "Recoge 15 tallas de cristal terádrico y llévaselas a Willow a Desolace."
+Inst21Quest3_Aim = "Recoge 25 tallas de cristal terádrico y llévaselas a Willow a Desolace."
 Inst21Quest3_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
 Inst21Quest3_Note = "Puedes despojar a la mayoría de las criaturas en Maraudon para obtener las tallas."
 Inst21Quest3_Prequest = "Ninguno"
@@ -3755,7 +3755,7 @@ Inst21Quest4name2 = "Amuleto de los espíritus"
 --Quest 5 Alliance
 Inst21Quest5 = "5. Leyendas de Maraudon" -- 7044
 Inst21Quest5_Aim = "Recupera las 2 partes del cetro de Celebras: la vara y el diamante de Celebras.\nEncuentra el modo de hablar con Celebras."
-Inst21Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] on Entrance Map"..WHITE..")"
+Inst21Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] en el mapa de la entrada"..WHITE..")"
 Inst21Quest5_Note = "Encuentras a Cavindra al comienzo de la parte naranja antes de entrar la estancia.\nConsigues el Vara de Celebras de Noxxion en "..YELLOW.."[2]"..WHITE.." y el Diamante de Celebras de Lord Lenguavil en "..YELLOW.."[5]"..WHITE..". Celebras está en "..YELLOW.."[7]"..WHITE..". Tienes que derrotarlo para hablar consigo."
 Inst21Quest5_Prequest = "Ninguno"
 Inst21Quest5_Folgequest = "El cetro de Celebras" -- 7046
