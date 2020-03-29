@@ -4334,9 +4334,9 @@ Inst26Quest5_Folgequest = "El huevo antiguo" -- 4787
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst26Quest6 = "6. Vara divinomática" -- 2768
-Inst26Quest6_Aim = "Lleva la vara divinomática al ingeniero jefe Pasaquillas en Gadgetzan."
-Inst26Quest6_Location = "Ingeniero Jefe Pasaquillas (Tanaris - Gadgetzan; "..YELLOW.."52,28"..WHITE..")"
+Inst26Quest6 = "6. Cetro Divinomático" -- 2768
+Inst26Quest6_Aim = "Lleva el Cetro Divinomático al ingeniero jefe Silvaina en Gadgetzan."
+Inst26Quest6_Location = "Ingeniero Jefe Silvaina (Tanaris - Gadgetzan; "..YELLOW.."52,28"..WHITE..")"
 Inst26Quest6_Note = "Obtienes la vara del Sargento Bly. Lo encuentras en "..YELLOW.."[4]"..WHITE.." después del evento en las escaleras."
 Inst26Quest6_Prequest = "Ninguno"
 Inst26Quest6_Folgequest = "Ninguno"
