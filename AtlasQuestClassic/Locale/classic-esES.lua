@@ -4297,7 +4297,7 @@ Inst26Quest1_Folgequest = "Ninguno"
 
 --Quest 2 Alliance
 Inst26Quest2 = "2. Caparazones de escarabajo" -- 2865
-Inst26Quest2_Aim = "Lleva 5 caparazones de escarabajo sin rajar a Tran'rek en Gadgetzan."
+Inst26Quest2_Aim = "Lleva 5 caparazones de escarabajo sin grietas a Tran'rek en Gadgetzan."
 Inst26Quest2_Location = "Tran'rek (Tanaris - Gadgetzan; "..YELLOW.."51,26"..WHITE..")"
 Inst26Quest2_Note = "La misión requisita empieza con Krazek (Vega de Tuercespina - Bahía del Botín; "..YELLOW.."25,77"..WHITE..").\nDespoja a cualquier escarabajo para obtener los caparazones. Hay muchos escarabajos que están en "..YELLOW.."[2]"..WHITE.."."
 Inst26Quest2_Prequest = "Tran'rek" -- 2864
@@ -4305,8 +4305,8 @@ Inst26Quest2_Folgequest = "Ninguno"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst26Quest3 = "3. Tiara de las profundidades" -- 2846
-Inst26Quest3_Aim = "Lleva la tiara de las profundidades a Tabetha en el Marjal Revolcafango."
+Inst26Quest3 = "3. Tiara de la Profundidad" -- 2846
+Inst26Quest3_Aim = "Lleva la Tiara de la Profundidad a Tabetha en el Marjal Revolcafango."
 Inst26Quest3_Location = "Tabetha (Marjal Revolcafango; "..YELLOW.."46,57"..WHITE..")"
 Inst26Quest3_Note = "Despoja a Hidromántica Velratha en "..YELLOW.."[6]"..WHITE.." para obtener la tiara de las profundidades."
 Inst26Quest3_Prequest = "La tarea de Tabetha" -- 2861
