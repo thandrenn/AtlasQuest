@@ -4,7 +4,10 @@ Changelog
 
 Version 4.11.64  (for WoW Classic)  April ??, 2020
 
-- 
+- TOC updated to 11304.
+- Updates to Spanish localization by Woopy.
+- Corrected item quality color for UBRS: The Demon Forge.  Reported by Woopy.
+
 
 
 
