@@ -2105,7 +2105,8 @@ Inst14Quest12_Location = "Anthion Harmon (Tierras de la Peste del Este - Stratho
 Inst14Quest12_Note = "Anthion está fuera del portal a Stratholme. Tienes que llevar el Detector de fantasmas extradimensional para verlo. Lo obtienes de la misión requisita. La cadena de misiones empieza con Una compensación justa. Deliana en Forjaz ("..YELLOW.."43,52"..WHITE..") para la Alianza, Mokvar en Orgrimmar ("..YELLOW.."38,37"..WHITE..") para la Horda.\nTienes que matar al Barón Osahendido en 45 minutos o menos."
 Inst14Quest12_Prequest = "Buscando a Anthion" -- 8929
 Inst14Quest12_Folgequest = "Prueba de vida" -- 8946
--- No Rewards for this quest
+--
+Inst14Quest12name1 = "Cartera de Ysida"
 
 --Quest 13 Alliance
 Inst14Quest13 = "13. La parte izquierda del amuleto de Lord Valthalak" -- 8968
@@ -2288,7 +2289,8 @@ Inst14Quest12_HORDE_Location = Inst14Quest12_Location
 Inst14Quest12_HORDE_Note = Inst14Quest12_Note
 Inst14Quest12_HORDE_Prequest = Inst14Quest12_Prequest
 Inst14Quest12_HORDE_Folgequest = Inst14Quest12_Folgequest
--- No Rewards for this quest
+--
+Inst14Quest12name1_HORDE = Inst14Quest12name1
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
 Inst14Quest13_HORDE = Inst14Quest13
@@ -4484,6 +4486,14 @@ Inst27Quest6_Folgequest = "Buenas y malas noticias (Tienes que completar las cad
 --
 Inst27Quest6name1 = "Poción de rejuvenecimiento sublime"
 
+--Quest 7 Alliance
+Inst27Quest7 = "7. Armonización con el Núcleo" -- 7848
+Inst27Quest7_Aim = Inst1Quest12_Aim
+Inst27Quest7_Location = Inst1Quest12_Location
+Inst27Quest7_Note = Inst1Quest12_Note
+Inst27Quest7_Prequest = Inst1Quest12_Prequest
+Inst27Quest7_Folgequest = Inst1Quest12_Folgequest
+-- No Rewards for this quest
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst27Quest1_HORDE = Inst27Quest1
@@ -4543,7 +4553,14 @@ Inst27Quest6_HORDE_Folgequest = Inst27Quest6_Folgequest
 --
 Inst27Quest6name1_HORDE = Inst27Quest6name1
 
-
+--Quest 7 Horde (same as Quest 7 Alliance)
+Inst27Quest7_HORDE = Inst27Quest7 -- 7848
+Inst27Quest7_HORDE_Aim = Inst1Quest12_Aim
+Inst27Quest7_HORDE_Location = Inst1Quest12_Location
+Inst27Quest7_HORDE_Note = Inst1Quest12_Note
+Inst27Quest7_HORDE_Prequest = Inst1Quest12_Prequest
+Inst27Quest7_HORDE_Folgequest = Inst1Quest12_Folgequest
+-- No Rewards for this quest
 
 --------------- INST28 - Onyxia's Lair ---------------
 
