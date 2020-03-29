@@ -1099,6 +1099,7 @@ Inst4Quest12_HORDE_Folgequest = Inst4Quest10_Folgequest
 --
 Inst4Quest12name1_HORDE = Inst4Quest10name1
 Inst4Quest12name2_HORDE = Inst4Quest10name2
+Inst4Quest12name3_HORDE = Inst4Quest10name3
 
 --Quest 13 Horde  (same as Quest 11 Alliance)
 Inst4Quest13_HORDE = "13. La colecta de huevos"
@@ -2485,7 +2486,7 @@ Inst15Quest11_Note = "Solamente para Druidas: Despoja a Atal'alarion que está i
 Inst15Quest11_Prequest = "Torwa Abrecaminos -> Prueba de toxicidad" -- 9063 -> 9051
 Inst15Quest11_Folgequest = "Ninguno"
 --
-Inst15Quest11name1 = "Pellejo grisáceo"
+Inst15Quest11name1 = "Pelambre grisácea"
 Inst15Quest11name2 = "Abrazo del bosque"
 Inst15Quest11name3 = "Bastón Sombra Lunar"
 
@@ -4025,7 +4026,7 @@ Inst23Quest4_HORDE_Prequest = "Ninguno"
 Inst23Quest4_HORDE_Folgequest = "Ninguno"
 --
 Inst23Quest4name1_HORDE = "Espada del vencedor"
-Inst23Quest4name2_HORDE = "Dije del Resplandor Ámbar"
+Inst23Quest4name2_HORDE = "Dije Resplandor de Ámbar"
 
 
 
