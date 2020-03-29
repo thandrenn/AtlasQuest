@@ -4489,7 +4489,7 @@ Inst27Quest6_Folgequest = "Buenas y malas noticias (Tienes que completar las cad
 Inst27Quest6name1 = "Poción rejuvenecedora sublime"
 
 --Quest 7 Alliance
-Inst27Quest7 = Inst1Quest12 -- 7848
+Inst27Quest7 = "7. Armonización con el Núcleo" -- 7848
 Inst27Quest7_Aim = Inst1Quest12_Aim
 Inst27Quest7_Location = Inst1Quest12_Location
 Inst27Quest7_Note = Inst1Quest12_Note
@@ -4556,7 +4556,7 @@ Inst27Quest6_HORDE_Folgequest = Inst27Quest6_Folgequest
 Inst27Quest6name1_HORDE = Inst27Quest6name1
 
 --Quest 7 Horde (same as Quest 7 Alliance)
-Inst27Quest7_HORDE = Inst1Quest12 -- 7848
+Inst27Quest7_HORDE = Inst27Quest7 -- 7848
 Inst27Quest7_HORDE_Aim = Inst1Quest12_Aim
 Inst27Quest7_HORDE_Location = Inst1Quest12_Location
 Inst27Quest7_HORDE_Note = Inst1Quest12_Note
