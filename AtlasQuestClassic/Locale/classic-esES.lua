@@ -366,10 +366,10 @@ Inst1Quest7_HORDE_Folgequest = "Grark Lorkrub -> ¡Estás en un aprieto! (Misió
 -- No Rewards for this quest
 
 --Quest 8 Horde
-Inst1Quest8_HORDE = "8. Operación: muerte a Forjainquina" -- 4132
-Inst1Quest8_HORDE_Aim = "Viaja hasta las Profundidades de Roca Negra ¡y mata al general Forjainquina! Vuelve junto al señor de la guerra Dientegore cuando hayas acabado la tarea."
+Inst1Quest8_HORDE = "8. Operación: muerte a Forjafuria" -- 4132
+Inst1Quest8_HORDE_Aim = "Viaja hasta las Profundidades de Roca Negra ¡y mata al general Forjira! Vuelve junto al señor de la guerra Dientegore cuando hayas acabado la tarea."
 Inst1Quest8_HORDE_Location = "Señor de la guerra Dientegore (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst1Quest8_HORDE_Note = "Encuentras al General Forjainquina en "..YELLOW.."[13]"..WHITE..". Él pedirá ayuda cuando tenga menos del 30% de salud."
+Inst1Quest8_HORDE_Note = "Encuentras al General Forjira en "..YELLOW.."[13]"..WHITE..". Él pedirá ayuda cuando tenga menos del 30% de salud."
 Inst1Quest8_HORDE_Prequest = "¡Estás en un aprieto!" -- 4121
 Inst1Quest8_HORDE_Folgequest = "Ninguno"
 --
@@ -540,9 +540,9 @@ Inst2Quest2_HORDE_Note = "La misión siguiente te envia al Alto señor supremo C
 Inst2Quest2_HORDE_Prequest = "Ninguno"
 Inst2Quest2_HORDE_Folgequest = "Señor de Roca Negra" -- 7784
 --
-Inst2Quest2name1_HORDE = "Medallón de maestro matadragones"
-Inst2Quest2name2_HORDE = "Orbe de maestro matadragones"
-Inst2Quest2name3_HORDE = "Anillo de maestro matadragones"
+Inst2Quest2name1_HORDE = Inst2Quest2name1
+Inst2Quest2name2_HORDE = Inst2Quest2name2
+Inst2Quest2name3_HORDE = Inst2Quest2name3
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst2Quest3_HORDE = Inst2Quest3
@@ -615,10 +615,10 @@ Inst3Quest5name2 = "Chaleco de calador"
 Inst3Quest5name3 = "Coraza de Luna de jade"
 
 --Quest 6 Alliance
-Inst3Quest6 = "6. Urok Aullasino" -- 4867
+Inst3Quest6 = "6. Urok Aullapocalipsis" -- 4867
 Inst3Quest6_Aim = "Lee el pergamino de Warosh. Llévale el mojo de Warosh a Warosh."
 Inst3Quest6_Location = "Warosh (Cumbre de Roca Negra Inferior; "..YELLOW.."[2]"..WHITE..")"
-Inst3Quest6_Note = "Invoca y mata a Urok Aullasino en "..YELLOW.."[13]"..WHITE.." para obtener el Mojo de Warosh. Para invocarlo, necesitas la Pica férrea y la Cabeza de Omokk en "..YELLOW.."[6]"..WHITE..". La Pica férrea está en "..YELLOW.."[4]"..WHITE..". Durante la invocación, aparecerán oleadas de ogros antes de que aparezca Urok Aullasino. Usa la Pica férrea para dañar a los ogros."
+Inst3Quest6_Note = "Invoca y mata a Urok Aullapocalipsis en "..YELLOW.."[13]"..WHITE.." para obtener el Mojo de Warosh. Para invocarlo, necesitas la Pica férrea y la Cabeza de Omokk en "..YELLOW.."[6]"..WHITE..". La Pica férrea está en "..YELLOW.."[4]"..WHITE..". Durante la invocación, aparecerán oleadas de ogros antes de que aparezca Urok Aullasino. Usa la Pica férrea para dañar a los ogros."
 Inst3Quest6_Prequest = "Ninguno"
 Inst3Quest6_Folgequest = "Ninguno"
 --
@@ -808,7 +808,7 @@ Inst3Quest10_HORDE_Folgequest = "La sabiduría de Eitrigg -> ¡Por la Horda! (".
 Inst3Quest10name1_HORDE = "Grilletes Vermiothalak"
 Inst3Quest10name2_HORDE = "Limitador de circunferencia de Omokk"
 Inst3Quest10name3_HORDE = "Bozal de Halycon"
-Inst3Quest10name4_HORDE = "Ceñidor de Vosh'gajin"
+Inst3Quest10name4_HORDE = "Playa de Vosh'gajin"
 Inst3Quest10name5_HORDE = "Mandiletes de maña de Voone"
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
@@ -1026,7 +1026,7 @@ Inst4Quest5_HORDE_Note = "Obtienes la misión requisita de la Boticaria Zinge en
 Inst4Quest5_HORDE_Prequest = "Vivian Lagrave y la tablilla de Rocanegra" -- 4769
 Inst4Quest5_HORDE_Folgequest = "Ninguno"
 --
-Inst4Quest5name1_HORDE = "Botines Piepresto"
+Inst4Quest5name1_HORDE = "Botines Pieveloz"
 Inst4Quest5name2_HORDE = "Guardabrazos golpeguiño"
 
 --Quest 6 Horde
@@ -1058,7 +1058,7 @@ Inst4Quest8_HORDE_Note = "Es la parte final para la misión para la armonizació
 Inst4Quest8_HORDE_Prequest = "Brasaliza -> El ascenso" -- 6570 -> 6601
 Inst4Quest8_HORDE_Folgequest = "Ninguno"
 --
-Inst4Quest8name1_HORDE = "Amuleto Pirodraco"
+Inst4Quest8name1_HORDE = "Amuleto de Pirodraco"
 
 --Quest 9 Horde  (same as Quest 7 Alliance)
 Inst4Quest9_HORDE = "9. Orden de Puño Negro"
@@ -1099,6 +1099,7 @@ Inst4Quest12_HORDE_Folgequest = Inst4Quest10_Folgequest
 --
 Inst4Quest12name1_HORDE = Inst4Quest10name1
 Inst4Quest12name2_HORDE = Inst4Quest10name2
+Inst4Quest12name3_HORDE = Inst4Quest10name3
 
 --Quest 13 Horde  (same as Quest 11 Alliance)
 Inst4Quest13_HORDE = "13. La colecta de huevos"
@@ -1169,9 +1170,9 @@ Inst5Quest5_Note = "Empieza la cadena de misiones a Gryan Mantorrecio (Páramos 
 Inst5Quest5_Prequest = "La hermandad de los Defias" -- 155
 Inst5Quest5_Folgequest = "Ninguno"
 --
-Inst5Quest5name1 = "Albarca de los Páramos de Poniente"
-Inst5Quest5name2 = "Túnica de los Páramos de Poniente"
-Inst5Quest5name3 = "Bastón de los Páramos de Poniente"
+Inst5Quest5name1 = "Albarca de Páramos de Poniente"
+Inst5Quest5name2 = "Túnica de Páramos de Poniente"
+Inst5Quest5name3 = "Bastón de Páramos de Poniente"
 
 --Quest 6 Alliance
 Inst5Quest6 = "6. La prueba de rectitud" -- 1654
@@ -1437,7 +1438,7 @@ Inst7Quest2_HORDE_Prequest = "Prueba de fe - > Prueba de conocimiento" -- 1149 -
 Inst7Quest2_HORDE_Folgequest = "Prueba de conocimiento" -- 6628
 --
 Inst7Quest2name1_HORDE = "Martillo tormenta de viento"
-Inst7Quest2name2_HORDE = "Llama danzarina"
+Inst7Quest2name2_HORDE = "Llama de danza"
 
 --Quest 3 Horde
 Inst7Quest3_HORDE = "3. El Compendio de los Caídos" -- 1049
@@ -1448,7 +1449,7 @@ Inst7Quest3_HORDE_Prequest = "Ninguno"
 Inst7Quest3_HORDE_Folgequest = "Ninguno"
 --
 Inst7Quest3name1_HORDE = "Protector vil"
-Inst7Quest3name2_HORDE = "Rodela piedra de fuerza"
+Inst7Quest3name2_HORDE = "Rodela Piedra de potencia"
 Inst7Quest3name3_HORDE = "Orbe omega"
 
 --Quest 4 Horde  (same as Quest 2 Alliance)
@@ -2105,7 +2106,8 @@ Inst14Quest12_Location = "Anthion Harmon (Tierras de la Peste del Este - Stratho
 Inst14Quest12_Note = "Anthion está fuera del portal a Stratholme. Tienes que llevar el Detector de fantasmas extradimensional para verlo. Lo obtienes de la misión requisita. La cadena de misiones empieza con Una compensación justa. Deliana en Forjaz ("..YELLOW.."43,52"..WHITE..") para la Alianza, Mokvar en Orgrimmar ("..YELLOW.."38,37"..WHITE..") para la Horda.\nTienes que matar al Barón Osahendido en 45 minutos o menos."
 Inst14Quest12_Prequest = "Buscando a Anthion" -- 8929
 Inst14Quest12_Folgequest = "Prueba de vida" -- 8946
--- No Rewards for this quest
+--
+Inst14Quest12name1 = "Cartera de Ysida"
 
 --Quest 13 Alliance
 Inst14Quest13 = "13. La parte izquierda del amuleto de Lord Valthalak" -- 8968
@@ -2288,7 +2290,8 @@ Inst14Quest12_HORDE_Location = Inst14Quest12_Location
 Inst14Quest12_HORDE_Note = Inst14Quest12_Note
 Inst14Quest12_HORDE_Prequest = Inst14Quest12_Prequest
 Inst14Quest12_HORDE_Folgequest = Inst14Quest12_Folgequest
--- No Rewards for this quest
+--
+Inst14Quest12name1_HORDE = Inst14Quest12name1
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
 Inst14Quest13_HORDE = Inst14Quest13
@@ -2460,7 +2463,7 @@ Inst15Quest9_Prequest = "Pedido de un diablillo -> La mercancía equivocada" -- 
 Inst15Quest9_Folgequest = "Ninguno"
 --
 Inst15Quest9name1 = "Cosechador de almas"
-Inst15Quest9name2 = "Fragmento Abisal"
+Inst15Quest9name2 = "Fragmento abisal"
 Inst15Quest9name3 = "Togas de Servidumbre"
 
 --Quest 10 Alliance
@@ -2533,7 +2536,7 @@ Inst15Quest15_Folgequest = "Ninguno"
 --
 Inst15Quest15name1 = "Máscara de ébano"
 Inst15Quest15name2 = "Botas Caminasusurro"
-Inst15Quest15name3 = "Mantón de Murciumbrío"
+Inst15Quest15name3 = "Mantón Murciumbrío"
 
 --Quest 16 Alliance
 Inst15Quest16 = "16. La forja de la piedra de poderío" -- 8418
@@ -2557,7 +2560,7 @@ Inst15Quest1_HORDE_Note = "Despoja a cualquier criatura para obtener los fetiche
 Inst15Quest1_HORDE_Prequest = "Charca de Lágrimas -> Regresa junto a Fel'Zerul" -- 1424 -> 1444
 Inst15Quest1_HORDE_Folgequest = "Ninguno"
 --
-Inst15Quest1name1_HORDE = "Dije guardián"
+Inst15Quest1name1_HORDE = "Talismán guardián"
 
 --Quest 2 Horde
 Inst15Quest2_HORDE = "2. El Templo Sumergido"
@@ -2606,6 +2609,7 @@ Inst15Quest6_HORDE_Folgequest = Inst15Quest6_Folgequest
 Inst15Quest6name1_HORDE = Inst15Quest6name1
 Inst15Quest6name2_HORDE = Inst15Quest6name2
 Inst15Quest6name3_HORDE = Inst15Quest6name3
+Inst15Quest6name4_HORDE = Inst15Quest6name4
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
 Inst15Quest7_HORDE = Inst15Quest7
@@ -4022,7 +4026,7 @@ Inst23Quest4_HORDE_Prequest = "Ninguno"
 Inst23Quest4_HORDE_Folgequest = "Ninguno"
 --
 Inst23Quest4name1_HORDE = "Espada del vencedor"
-Inst23Quest4name2_HORDE = "Dije del Resplandor Ámbar"
+Inst23Quest4name2_HORDE = "Talismán Resplandor de Ámbar"
 
 
 
@@ -4156,8 +4160,8 @@ Inst25Quest1_Note = "Despoja a las bestias descarrriadas dentro y afuera de la e
 Inst25Quest1_Prequest = "Ninguno"
 Inst25Quest1_Folgequest = "Ninguno"
 --
-Inst25Quest1name1 = "Leotardos descarriados escurridizos"
-Inst25Quest1name2 = "Talega de pellejo descarriado"
+Inst25Quest1name1 = "Leotardos desviados escurridizos"
+Inst25Quest1name2 = "Talega de pellejo desviado"
 
 --Quest 2 Alliance
 Inst25Quest2 = "2. ¡A por la botella!" -- 959
@@ -4185,7 +4189,7 @@ Inst25Quest4_Note = "Ebru está dentro de una cueva oculta encima de la entrada 
 Inst25Quest4_Prequest = "Ninguno"
 Inst25Quest4_Folgequest = "Ninguno"
 --
-Inst25Quest4name1 = "Patrón: cinturón de escamas descarriadas"
+Inst25Quest4name1 = "Patrón: cinturón de escamas desviadas"
 Inst25Quest4name2 = "Palo de fritura"
 Inst25Quest4name3 = "Guanteletes de Damire"
 
@@ -4484,6 +4488,14 @@ Inst27Quest6_Folgequest = "Buenas y malas noticias (Tienes que completar las cad
 --
 Inst27Quest6name1 = "Poción rejuvenecedora sublime"
 
+--Quest 7 Alliance
+Inst27Quest7 = Inst1Quest12 -- 7848
+Inst27Quest7_Aim = Inst1Quest12_Aim
+Inst27Quest7_Location = Inst1Quest12_Location
+Inst27Quest7_Note = Inst1Quest12_Note
+Inst27Quest7_Prequest = Inst1Quest12_Prequest
+Inst27Quest7_Folgequest = Inst1Quest12_Folgequest
+-- No Rewards for this quest
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst27Quest1_HORDE = Inst27Quest1
@@ -4543,6 +4555,14 @@ Inst27Quest6_HORDE_Folgequest = Inst27Quest6_Folgequest
 --
 Inst27Quest6name1_HORDE = Inst27Quest6name1
 
+--Quest 7 Horde (same as Quest 7 Alliance)
+Inst27Quest7_HORDE = Inst1Quest12 -- 7848
+Inst27Quest7_HORDE_Aim = Inst1Quest12_Aim
+Inst27Quest7_HORDE_Location = Inst1Quest12_Location
+Inst27Quest7_HORDE_Note = Inst1Quest12_Note
+Inst27Quest7_HORDE_Prequest = Inst1Quest12_Prequest
+Inst27Quest7_HORDE_Folgequest = Inst1Quest12_Folgequest
+-- No Rewards for this quest
 
 
 --------------- INST28 - Onyxia's Lair ---------------
@@ -4722,7 +4742,7 @@ Inst30Quest1_Folgequest = "Ninguno"
 Inst30Quest1name1 = "Talismán del Mar de Dunas"
 Inst30Quest1name2 = "Amuleto del Mar de Dunas"
 Inst30Quest1name3 = "Gargantilla del Mar de Dunas"
-Inst30Quest1name4 = "Colgante del Mar de Dunas"
+Inst30Quest1name4 = "Colgante de las Arenas Movedizas"
 
 --Quest 2 Alliance
 Inst30Quest2 = "2. El veneno perfecto" -- 9023
