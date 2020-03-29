@@ -2284,7 +2284,8 @@ Inst14Quest12_HORDE_Location = Inst14Quest12_Location
 Inst14Quest12_HORDE_Note = Inst14Quest12_Note
 Inst14Quest12_HORDE_Prequest = Inst14Quest12_Prequest
 Inst14Quest12_HORDE_Folgequest = Inst14Quest12_Folgequest
--- No Rewards for this quest
+--
+Inst14Quest12name1_HORDE = Inst14Quest12name1
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
 Inst14Quest13_HORDE = Inst14Quest13
