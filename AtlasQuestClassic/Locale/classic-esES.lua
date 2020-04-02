@@ -615,7 +615,7 @@ Inst3Quest5name2 = "Chaleco de calador"
 Inst3Quest5name3 = "Coraza de Luna de jade"
 
 --Quest 6 Alliance
-Inst3Quest6 = "6. Urok Aullapocalipsis" -- 4867
+Inst3Quest6 = "6. Urok Doomhowl" -- 4867
 Inst3Quest6_Aim = "Lee el pergamino de Warosh. Llévale el mojo de Warosh a Warosh."
 Inst3Quest6_Location = "Warosh (Cumbre de Roca Negra Inferior; "..YELLOW.."[2]"..WHITE..")"
 Inst3Quest6_Note = "Invoca y mata a Urok Aullapocalipsis en "..YELLOW.."[13]"..WHITE.." para obtener el Mojo de Warosh. Para invocarlo, necesitas la Pica férrea y la Cabeza de Omokk en "..YELLOW.."[6]"..WHITE..". La Pica férrea está en "..YELLOW.."[4]"..WHITE..". Durante la invocación, aparecerán oleadas de ogros antes de que aparezca Urok Aullasino. Usa la Pica férrea para dañar a los ogros."
