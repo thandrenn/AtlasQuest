@@ -2397,7 +2397,7 @@ Inst15Quest3 = "3. En las profundidades" -- 3446
 Inst15Quest3_Aim = "Encuentra el Altar de Hakkar en el Templo Sumergido, en el Pantano de las Penas."
 Inst15Quest3_Location = "Marvon Buscarroblones (Tanaris; "..YELLOW.."52,45"..WHITE..")"
 Inst15Quest3_Note = "El Altar está en "..YELLOW.."[1]"..WHITE.."."
-Inst15Quest3_Prequest = "El Círculo de Piedras" -- 3444
+Inst15Quest3_Prequest = "El círculo de piedra" -- 3444
 Inst15Quest3_Folgequest = "Ninguno"
 -- No Rewards for this quest
 
@@ -2406,7 +2406,7 @@ Inst15Quest4 = "4. El secreto del círculo" -- 3447
 Inst15Quest4_Aim = "Ve al Templo Sumergido y descubre el secreto oculto en el círculo de estatuas."
 Inst15Quest4_Location = "Marvon Buscarroblones (Tanaris; "..YELLOW.."52,45"..WHITE..")"
 Inst15Quest4_Note = "Encuentras las estatuas en "..YELLOW.."[1]"..WHITE..". Ve en el mapa para ver la orden de activarlas."
-Inst15Quest4_Prequest = "El Círculo de Piedras" -- 3444
+Inst15Quest4_Prequest = "El círculo de piedra" -- 3444
 Inst15Quest4_Folgequest = "Ninguno"
 --
 Inst15Quest4name1 = "Urna Hakkari"
