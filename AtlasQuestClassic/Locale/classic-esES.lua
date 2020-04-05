@@ -2413,7 +2413,7 @@ Inst15Quest4name1 = "Urna Hakkari"
 
 --Quest 5 Alliance
 Inst15Quest5 = "5. Bruma del mal" -- 4143
-Inst15Quest5_Aim = "Reúne 5 muestras de calima Atal'ai y después ve a ver de nuevo a Muigin al Cráter de Un'Goro."
+Inst15Quest5_Aim = "Reúne 5 muestras de bruma Atal'ai y después ve a ver de nuevo a Muigin al Cráter de Un'Goro."
 Inst15Quest5_Location = "Gregan Vomitabrebaje (Feralas; "..YELLOW.."45,25"..WHITE..")"
 Inst15Quest5_Note = "La misión requisita 'Muigin y Larion' empieza con Muigin (Cráter de Un'Goro - Refugio de Marshal; "..YELLOW.."42,9"..WHITE.."). Despoja a los Rondadores de lo profundo, Gusanos de la oscuridad, y Mocos saturados para obtener las calimas."
 Inst15Quest5_Prequest = "Muigin y Larion -> Visita a Gregan" -- 4141 -> 4142
@@ -2422,7 +2422,7 @@ Inst15Quest5_Folgequest = "Ninguno"
 
 --Quest 6 Alliance
 Inst15Quest6 = "6. El dios Hakkar" -- 3528
-Inst15Quest6_Aim = "Llévale el huevo de Hakkar relleno a Yeh'kinya, que está en Tanaris."
+Inst15Quest6_Aim = "Llévale el Huevo relleno de Hakkar a Yeh'kinya, que está en Tanaris."
 Inst15Quest6_Location = "Yeh'kinya (Tanaris - Puerto Bonvapor; "..YELLOW.."66,22"..WHITE..")"
 Inst15Quest6_Note = "La cadena de misiones empieza con 'Los espíritus de los estridadores' al mismo PNJ (Ve "..YELLOW.."[Zul'Farrak]"..WHITE..").\nUsas el huevo en "..YELLOW.."[3]"..WHITE.." para comenzar el evento. Aparecerán criaturas que te atacan. Despójalos para obtener la sangre de Hakkar. Usa la sangre para extinguir la antorcha en el círculo. Después de extinguir la antorcha, aparece el Avatar de Hakkar. Mátalo y despójalo para obtener la 'Esencia de Hakkar' para llenar el huevo."
 Inst15Quest6_Prequest = "Los espíritus de los estridadores -> El huevo antiguo" -- 3520 -> 4787
