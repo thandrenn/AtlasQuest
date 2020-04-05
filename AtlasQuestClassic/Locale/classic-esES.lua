@@ -2591,7 +2591,7 @@ Inst15Quest4name1_HORDE = Inst15Quest4name1
 
 --Quest 5 Horde
 Inst15Quest5_HORDE = "5. Combustible de irradior" -- 4146
-Inst15Quest5_HORDE_Aim = "Entrega el Controlador descargado y 5 muestras de calima Atal'ai a Larion, en el Refugio de Marshal."
+Inst15Quest5_HORDE_Aim = "Entrega el Controlador descargado y 5 muestras de bruma Atal'ai a Larion, en el Refugio de Marshal."
 Inst15Quest5_HORDE_Location = "Liv Rizzlefix (Los Baldíos; "..YELLOW.."62,38"..WHITE..")"
 Inst15Quest5_HORDE_Note = "La misión requisita 'Larion y Muigin' empieza con Larion (Cráter de Un'Goro; "..YELLOW.."45,8"..WHITE.."). Despoja a los Rondadores de lo profundo, Gusanos de la oscuridad, y Mocos saturados para obtener las calimas."
 Inst15Quest5_HORDE_Prequest = "Larion y Muigin -> El taller de Marvon" -- 4145 -> 4147
@@ -2718,7 +2718,7 @@ Inst15Quest15name3_HORDE = Inst15Quest15name3
 
 --Quest 16 Horde
 Inst15Quest16_HORDE = "16. Vudú" -- 8413
-Inst15Quest16_HORDE_Aim = "Lleva las plumas vudú a Bath'rah el Vigía del viento."
+Inst15Quest16_HORDE_Aim = "Lleva las plumas vudú a Bath'rah el Cazavientos."
 Inst15Quest16_HORDE_Location = "Bath'rah el Cazavientos (Montañas de Alterac; "..YELLOW.."80,67"..WHITE..")"
 Inst15Quest16_HORDE_Note = "Solamente para Chamanes: Despoja a los minijefes trol para obtener las plumas."
 Inst15Quest16_HORDE_Prequest = "Tótem de espíritu" -- 8412
