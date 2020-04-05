@@ -3721,7 +3721,7 @@ Inst21Quest1name2 = "Colgante de fragmento de sombras prodigioso"
 
 --Quest 2 Alliance
 Inst21Quest2 = "2. La corrupción de Lenguavil" -- 7041
-Inst21Quest2_Aim = "Llena el vial cerúleo cubierto en el estanque naranja de Maraudon.\n\nAplica el líquido a la hiedra tallovil para que emerja el vástago tóxico.\n\nCura 8 plantas eliminando su vástago tóxico e informa a Talendria en Punta de Nijel."
+Inst21Quest2_Aim = "Llena el vial revestido en el estanque naranja de Maraudon.\n\nAplica el líquido a la hiedra tallovil para que emerja el vástago tóxico.\n\nCura 8 plantas eliminando su vástago tóxico e informa a Talendria en Punta de Nijel."
 Inst21Quest2_Location = "Talendria (Desolace - Punta de Nijel; "..YELLOW.."68,8"..WHITE..")"
 Inst21Quest2_Note = "Llenas el vial en cualquier estanque fuera de la estancia al lado naranja. Las plantas están en las localizaciones moradas y naranjas dentro de la estancia."
 Inst21Quest2_Prequest = "Ninguno"
