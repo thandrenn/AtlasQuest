@@ -3721,7 +3721,7 @@ Inst21Quest1name2 = "Colgante de fragmento de sombras prodigioso"
 
 --Quest 2 Alliance
 Inst21Quest2 = "2. La corrupción de Lenguavil" -- 7041
-Inst21Quest2_Aim = "Llena el vial cerúleo cubierto en el estanque naranja de Maraudon.\nAplica el vial cerúleo lleno a la hiedravil para que emerja el sucesor tóxico.\nCura 8 plantas eliminando su sucesor tóxico e informa a Talendria en Punta de Nijel."
+Inst21Quest2_Aim = "Llena el vial cerúleo cubierto en el estanque naranja de Maraudon.\n\nAplica el líquido a la hiedra tallovil para que emerja el vástago tóxico.\n\nCura 8 plantas eliminando su vástago tóxico e informa a Talendria en Punta de Nijel."
 Inst21Quest2_Location = "Talendria (Desolace - Punta de Nijel; "..YELLOW.."68,8"..WHITE..")"
 Inst21Quest2_Note = "Llenas el vial en cualquier estanque fuera de la estancia al lado naranja. Las plantas están en las localizaciones moradas y naranjas dentro de la estancia."
 Inst21Quest2_Prequest = "Ninguno"
@@ -3732,7 +3732,7 @@ Inst21Quest2name2 = "Faja arbusto"
 Inst21Quest2name3 = "Guanteletes ramazarza"
 
 --Quest 3 Alliance
-Inst21Quest3 = "3. Los males de Maraudon" -- 7028
+Inst21Quest3 = "3. Los males de Maraudón" -- 7028
 Inst21Quest3_Aim = "Recoge 25 tallas de cristal terádrico y llévaselas a Willow a Desolace."
 Inst21Quest3_Location = "Willow (Desolace; "..YELLOW.."62,39"..WHITE..")"
 Inst21Quest3_Note = "Puedes despojar a la mayoría de las criaturas en Maraudon para obtener las tallas."
@@ -3757,8 +3757,8 @@ Inst21Quest4name1 = "Marca del elegido"
 Inst21Quest4name2 = "Amuleto de los espíritus"
 
 --Quest 5 Alliance
-Inst21Quest5 = "5. Leyendas de Maraudon" -- 7044
-Inst21Quest5_Aim = "Recupera las 2 partes del cetro de Celebras: la vara y el diamante de Celebras.\nEncuentra el modo de hablar con Celebras."
+Inst21Quest5 = "5. Leyendas de Maraudón" -- 7044
+Inst21Quest5_Aim = "Recupera las 2 partes del Cetro de Celebras: la vara y el diamante Celebrian.\nEncuentra el modo de hablar con Celebras."
 Inst21Quest5_Location = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] en el mapa de la entrada"..WHITE..")"
 Inst21Quest5_Note = "Encuentras a Cavindra al comienzo de la parte naranja antes de entrar la estancia.\nConsigues el Vara de Celebras de Noxxion en "..YELLOW.."[2]"..WHITE.." y el Diamante de Celebras de Lord Lenguavil en "..YELLOW.."[5]"..WHITE..". Celebras está en "..YELLOW.."[7]"..WHITE..". Tienes que derrotarlo para hablar consigo."
 Inst21Quest5_Prequest = "Ninguno"
@@ -3766,8 +3766,8 @@ Inst21Quest5_Folgequest = "El cetro de Celebras" -- 7046
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst21Quest6 = "6. El cetro de Celebras" -- 7046
-Inst21Quest6_Aim = "Ayuda a Celebras el Redimido mientras reconstruye el cetro de Celebras.\nHabla con él después del ritual."
+Inst21Quest6 = "6. El Cetro de Celebras" -- 7046
+Inst21Quest6_Aim = "Ayuda a Celebras el Redimido mientras reconstruye el Cetro de Celebras.\n\nHabla con él después del ritual."
 Inst21Quest6_Location = "Celebras el Redimido (Maraudon; "..YELLOW.."[7]"..WHITE..")"
 Inst21Quest6_Note = "Celebras crea el Cetro. Habla con él después del ritual."
 Inst21Quest6_Prequest = "Leyendas de Maraudon" -- 7044
@@ -3777,7 +3777,7 @@ Inst21Quest6name1 = "Cetro de Celebras"
 
 --Quest 7 Alliance
 Inst21Quest7 = "7. Corrupción de la tierra y de la semilla" -- 7065
-Inst21Quest7_Aim = "Mata a la princesa Theradras y ve a ver al vigilante Marandis a Punta de Nijel, en Desolace."
+Inst21Quest7_Aim = "Mata a la princesa Theradras y ve a ver al guardián Marandis a Punta de Nijel, en Desolace."
 Inst21Quest7_Location = "Vigilante Marandis (Desolace - Punta de Nijel; "..YELLOW.."63,10"..WHITE..")"
 Inst21Quest7_Note = "Encuentras a la Princesa Theradras en "..YELLOW.."[11]"..WHITE.."."
 Inst21Quest7_Prequest = "Ninguno"
@@ -3788,8 +3788,8 @@ Inst21Quest7name2 = "Vara de resurgimiento"
 Inst21Quest7name3 = "Objetivo del vigilante de Verdantis"
 
 --Quest 8 Alliance
-Inst21Quest8 = "8. La semilla de vida" -- 7066
-Inst21Quest8_Aim = "Busca a Remulos en Claro de la Luna y dale la semilla de vida."
+Inst21Quest8 = "8. La semilla de la vida" -- 7066
+Inst21Quest8_Aim = "Busca a Remulos en Claro de la Luna y dale la semilla de la vida."
 Inst21Quest8_Location = "Espíritu de Zaetar (Maraudon; "..YELLOW.."[11]"..WHITE..")"
 Inst21Quest8_Note = "El Espíritu de Zaetar aparece después de matar a la Princesa Theradras en "..YELLOW.."[11]"..WHITE..". Encuentras al Guardián Remulos en (Claro de la Luna - Santuario de Remulos; "..YELLOW.."36,41"..WHITE..")."
 Inst21Quest8_Prequest = "Corrupción de la tierra y de la semilla" -- 7065
@@ -3810,7 +3810,7 @@ Inst21Quest1name2_HORDE = "Colgante de fragmento de sombras prodigioso"
 
 --Quest 2 Horde
 Inst21Quest2_HORDE = "2. La corrupción de Lenguavil" -- 7029
-Inst21Quest2_HORDE_Aim = "Llena el vial cerúleo cubierto en el estanque naranja de Maraudon.\nAplica el vial cerúleo lleno a la hiedravil para que emerja el sucesor tóxico.\nCura 8 plantas eliminando su sucesor tóxico e informa a Vark Marca de Guerra en la Aldea Cazasombras."
+Inst21Quest2_HORDE_Aim = "Llena el vial revestido en el estanque naranja de Maraudon.\n\nAplica el líquido a la hiedra tallovil para que emerja el vástago tóxico.\nCura 8 plantas eliminando su vástago tóxico e informa a Vark Marcaguerra en la Aldea Cazasombras."
 Inst21Quest2_HORDE_Location = "Vark Marca de Guerra (Desolace - Aldea Cazasombras; "..YELLOW.."23,70"..WHITE..")"
 Inst21Quest2_HORDE_Note = "Llenas el vial en cualquier estanque fuera de la estancia al lado naranja. Las plantas están en las localizaciones moradas y naranjas dentro de la estancia."
 Inst21Quest2_HORDE_Prequest = "Ninguno"
