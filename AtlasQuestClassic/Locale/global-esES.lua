@@ -137,7 +137,7 @@ AQITEM_HANDS = "Manos,"
 AQITEM_FEET = "Pies,"
 AQITEM_WRIST = "Muñeca,"
 AQITEM_HEAD = "Cabeza,"
-AQITEM_BACK = "Espalda"
+AQITEM_BACK = "Atrás"
 AQITEM_TABARD = "Tabardo"
 
 AQITEM_CLOTH = " Tela"
