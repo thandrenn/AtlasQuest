@@ -2424,8 +2424,8 @@ Inst15Quest5_Folgequest = "Ninguno"
 Inst15Quest6 = "6. El dios Hakkar" -- 3528
 Inst15Quest6_Aim = "Llévale el Huevo relleno de Hakkar a Yeh'kinya, que está en Tanaris."
 Inst15Quest6_Location = "Yeh'kinya (Tanaris - Puerto Bonvapor; "..YELLOW.."66,22"..WHITE..")"
-Inst15Quest6_Note = "La cadena de misiones empieza con 'Los espíritus de los estridadores' al mismo PNJ (Ve "..YELLOW.."[Zul'Farrak]"..WHITE..").\nUsas el huevo en "..YELLOW.."[3]"..WHITE.." para comenzar el evento. Aparecerán criaturas que te atacan. Despójalos para obtener la sangre de Hakkar. Usa la sangre para extinguir la antorcha en el círculo. Después de extinguir la antorcha, aparece el Avatar de Hakkar. Mátalo y despójalo para obtener la 'Esencia de Hakkar' para llenar el huevo."
-Inst15Quest6_Prequest = "Los espíritus de los estridadores -> El huevo antiguo" -- 3520 -> 4787
+Inst15Quest6_Note = "La cadena de misiones empieza con 'Los espíritus de los estriadores' al mismo PNJ (Ve "..YELLOW.."[Zul'Farrak]"..WHITE..").\nUsas el huevo en "..YELLOW.."[3]"..WHITE.." para comenzar el evento. Aparecerán criaturas que te atacan. Despójalos para obtener la sangre de Hakkar. Usa la sangre para extinguir la antorcha en el círculo. Después de extinguir la antorcha, aparece el Avatar de Hakkar. Mátalo y despójalo para obtener la 'Esencia de Hakkar' para llenar el huevo."
+Inst15Quest6_Prequest = "Los espíritus de los estriadores -> El huevo antiguo" -- 3520 -> 4787
 Inst15Quest6_Folgequest = "Ninguno"
 --
 Inst15Quest6name1 = "Yelmo de guardia vengador"
@@ -4329,7 +4329,7 @@ Inst26Quest5 = "5. La profecía de Mosh'aru" -- 3527
 Inst26Quest5_Aim = "Llévale la primera y segunda tablillas Mosh'aru a Yeh'kinya, que está en Tanaris."
 Inst26Quest5_Location = "Yeh'kinya (Tanaris - Puerto Bonvapor; "..YELLOW.."66,22"..WHITE..")"
 Inst26Quest5_Note = "Obtienes la misión requisita de Yeh'kinya también.\nDespoja a Theka el Martír en "..YELLOW.."[2]"..WHITE.." y Hidromántica Velratha en "..YELLOW.."[6]"..WHITE.." para obtener la primera y segunda tablillas Mosh'aru."
-Inst26Quest5_Prequest = "Los espíritus de los estridadores" -- 3520
+Inst26Quest5_Prequest = "Los espíritus de los estriadores" -- 3520
 Inst26Quest5_Folgequest = "El huevo antiguo" -- 4787
 -- No Rewards for this quest
 
