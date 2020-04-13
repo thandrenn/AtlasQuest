@@ -97,7 +97,7 @@ Inst1QAH = "18 Misiones"
 
 --Quest 1 Alliance
 Inst1Quest1 = "1. El legado de los Hierro Negro" -- 3802
-Inst1Quest1_Aim = "Mata a Finoso Virunegro y recupera el gran martillo, Ferrovil. Lleva a Ferrovil al Santuario de Thaurissan y coloca el martillo en la estatua de Franclorn Forjador."
+Inst1Quest1_Aim = "Mata a Finoso Virunegro y recupera el gran martillo, Ferrovil. Lleva a Ferrovil al Santuario de Thaurissan y coloca el martillo en la estatua de Franclorn Forjafina."
 Inst1Quest1_Location = "Franclorn Forjador (Montaña Roca Negra; "..GREEN.."[1'] en el mapa de la Entrada"..WHITE..")"
 Inst1Quest1_Note = "Franclorn está al centro de la Montaña Roca Negra encima de su tumba. Tienes que estar muerto para hablar consigo para empezar la misión.\nFinoso Virunegro está en "..YELLOW.."[9]"..WHITE..". Encuentras el Santuario cerca de la arena en "..YELLOW.."[7]"..WHITE.."."
 Inst1Quest1_Prequest = "El legado de los Hierro Negro" -- 3801
@@ -142,9 +142,9 @@ Inst1Quest4name3 = "Cuchilla de miembro"
 
 --Quest 5 Alliance  
 Inst1Quest5 = "5. Gran maestro Pyron"
-Inst1Quest5_Aim = "Mata al maestro supremo Pyron y vuelve junto a Jalinda Espiga."
-Inst1Quest5_Location = "Jalinda Espiga (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,70"..WHITE..")"
-Inst1Quest5_Note = "Maestro supremo Pyron es un elemental de fuego afuera de la mazmorra. Patrulla cerca del portal en "..YELLOW.."[24]"..WHITE.." en el mapa de Las Profundidades Roca Negra en "..YELLOW.."[3]"..WHITE.." en el mapa de entrada de la Montaña Roca Negra."
+Inst1Quest5_Aim = "Mata al maestro supremo Pyron y vuelve junto a Jalinda Sprig."
+Inst1Quest5_Location = "Jalinda Spring (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,70"..WHITE..")"
+Inst1Quest5_Note = "Gran Maestro Pyron es un elemental de fuego afuera de la mazmorra. Patrulla cerca del portal en "..YELLOW.."[24]"..WHITE.." en el mapa de Las Profundidades Roca Negra en "..YELLOW.."[3]"..WHITE.." en el mapa de entrada de la Montaña Roca Negra."
 Inst1Quest5_Prequest = "Ninguno"
 Inst1Quest5_Folgequest = "¡Incendius!"
 -- No Rewards for this quest
@@ -152,8 +152,8 @@ Inst1Quest5_Folgequest = "¡Incendius!"
 --Quest 6 Alliance
 Inst1Quest6 = "6. ¡Incendius!"
 Inst1Quest6_Aim = "Encuentra a Lord Incendius en las Profundidades de Roca Negra ¡y acaba con él! "
-Inst1Quest6_Location = "Jalinda Espiga (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,69"..WHITE..")"
-Inst1Quest6_Note = "Obtienes la misión requisita de Jalinda Espiga también. Encuentras a Lord Incendius en "..YELLOW.."[10]"..WHITE.."."
+Inst1Quest6_Location = "Jalinda Spring (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,69"..WHITE..")"
+Inst1Quest6_Note = "Obtienes la misión requisita de Jalinda Spring también. Encuentras a Lord Incendius en "..YELLOW.."[10]"..WHITE.."."
 Inst1Quest6_Prequest = "Gran maestro Pyron" -- 4262
 Inst1Quest6_Folgequest = "Ninguno"
 --
@@ -195,10 +195,10 @@ Inst1Quest9name3 = "Fajín valconiano"
 
 --Quest 10 Alliance
 Inst1Quest10 = "10. Kharan Martillazo" -- 4341
-Inst1Quest10_Aim = "Ve a las Profundidades de Roca Negra y encuentra a Kharan Martillazo.\nEl rey dijo que estaba prisionero allí; busca una cárcel."
+Inst1Quest10_Aim = "Ve a las Profundidades de Roca Negra y encuentra a Kharan Martillazo.\n\nEl rey dijo que estaba prisionero allí; busca una cárcel."
 Inst1Quest10_Location = "Rey Magni Barbabronce (Forjaz; "..YELLOW.."39,55"..WHITE..")"
 Inst1Quest10_Note = "La misión requisita empieza con Historiadora Real Archesonus (Forjaz; "..YELLOW.."38,55"..WHITE.."). Kharan Martillazo está en "..YELLOW.."[2]"..WHITE.."."
-Inst1Quest10_Prequest = "Las humeantes Ruinas de Thaurissan" -- 3701
+Inst1Quest10_Prequest = "Las ruinas humeantes de Thaurissan" -- 3701
 Inst1Quest10_Folgequest = "Portador de malas noticias" -- 4361
 -- No Rewards for this quest
 
@@ -215,9 +215,9 @@ Inst1Quest11name2 = "Piedracanto de Forjaz"
 
 --Quest 12 Alliance
 Inst1Quest12 = "12. Armonización con el Núcleo" -- 7848
-Inst1Quest12_Aim = "Acércate al portal de entrada del Núcleo de Magma en las Profundidades de Roca Negra y recoge un trozo del Núcleo. Llévaselo a Lothos Levantagrietas a la Montaña Roca Negra. "
+Inst1Quest12_Aim = "Acércate al portal de entrada del Núcleo de Magma en las Profundidades de Roca Negra y recoge un fragmento del Núcleo. Llévaselo a Lothos Levantagrietas a la Montaña Roca Negra."
 Inst1Quest12_Location = "Lothos Levantagrietas (Montaña Roca Negra; "..YELLOW.."[E] en el mapa de la Entrada"..WHITE..")"
-Inst1Quest12_Note = "Después de completar la misión, puedes usar el portal justo al lado de Lothos Levantagrietas para entrar el Núcleo de Magma.\nEncuentras el Trozo del Núcleo cerca de "..YELLOW.."[23]"..WHITE.."."
+Inst1Quest12_Note = "Después de completar la misión, puedes usar el portal justo al lado de Lothos Levantagrietas para entrar el Núcleo de Magma.\nEncuentras el Fragmento del Núcleo cerca de "..YELLOW.."[23]"..WHITE.."."
 Inst1Quest12_Prequest = "Ninguno"
 Inst1Quest12_Folgequest = "Ninguno"
 -- No Rewards for this quest
