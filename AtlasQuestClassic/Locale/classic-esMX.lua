@@ -142,7 +142,7 @@ Inst1Quest4name3 = "Cuchilla de extremidad"
 
 --Quest 5 Alliance  
 Inst1Quest5 = "5. Maestro supremo Pyron"
-Inst1Quest5_Aim = "Mata al maestro supremo Pyron y vuelve junto a Jalinda Espiga."
+Inst1Quest5_Aim = "Mata al maestro supremo Pyron y regresa con Jalinda Espiga."
 Inst1Quest5_Location = "Jalinda Espiga (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,70"..WHITE..")"
 Inst1Quest5_Note = "Maestro supremo Pyron es un elemental de fuego afuera del calabozo. Patrulla cerca del portal en "..YELLOW.."[24]"..WHITE.." en el mapa de Las Profundidades Roca Negra en "..YELLOW.."[3]"..WHITE.." en el mapa de entrada de la Montaña Roca Negra."
 Inst1Quest5_Prequest = "Ninguno"
@@ -154,7 +154,7 @@ Inst1Quest6 = "6. ¡Incendius!"
 Inst1Quest6_Aim = "Encuentra a Lord Incendius en las Profundidades de Roca Negra ¡y acaba con él! "
 Inst1Quest6_Location = "Jalinda Espiga (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,69"..WHITE..")"
 Inst1Quest6_Note = "Obtienes la misión requisita de Jalinda Espiga también. Encuentras a Lord Incendius en "..YELLOW.."[10]"..WHITE.."."
-Inst1Quest6_Prequest = "Gran maestro Pyron" -- 4262
+Inst1Quest6_Prequest = "Maestro supremo Pyron" -- 4262
 Inst1Quest6_Folgequest = "Ninguno"
 --
 Inst1Quest6name1 = "Manteo nacido del Sol"
@@ -173,7 +173,7 @@ Inst1Quest7_Folgequest = "Ninguno"
 
 --Quest 8 Alliance
 Inst1Quest8 = "8. Buena mercancía" -- 4286
-Inst1Quest8_Aim = "Viaja a las Profundidades de Roca Negra y recupera 20 riñoneras Hierro Negro. Vuelve junto a Oralius cuando hayas completado esta tarea. Se da por sentado que los enanos Hierro Negro de las Profundidades de Roca Negra llevan estos inventos de riñoneras. "
+Inst1Quest8_Aim = "Viaja a las Profundidades de Roca Negra y recupera 20 riñoneras Hierro Negro. Vuelve con Oralius cuando termines. Supones que los enanos Hierro Negro de las Profundidades de Roca Negra llevan estas extrañas \"riñoneras\"."
 Inst1Quest8_Location = "Oralius (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,68"..WHITE..")"
 Inst1Quest8_Note = "Despoja a cualquier enano para obtener las riñoneras."
 Inst1Quest8_Prequest = "Ninguno"
@@ -254,7 +254,7 @@ Inst1Quest16 = "16. Esperanza perdida"
 Inst1Quest16_Aim = "Dale las malas noticias a mariscal Maxwell. "
 Inst1Quest16_Location = "Mariscal Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
 Inst1Quest16_Note = "Esta misión es una parte de la cadena para la armonización de Onyxia. Mariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,69"..WHITE.."). La siguiente misión en la cadena se despoja en las Profundidades de Roca Negra."
-Inst1Quest16_Prequest = "Marshal Windsor"
+Inst1Quest16_Prequest = "El mariscal Windsor"
 Inst1Quest16_Folgequest = "Ninguno"
 --
 Inst1Quest16name1 = "Yelmo de conservador"
