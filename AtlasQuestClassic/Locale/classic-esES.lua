@@ -2389,7 +2389,7 @@ Inst15Quest2_Aim = "Encuentra a Marvon Buscarroblones en Tanaris."
 Inst15Quest2_Location = "Angelas Brisaluna (Feralas - Bastión Plumaluna; "..YELLOW.."31,45"..WHITE..")"
 Inst15Quest2_Note = "Encuentras a Marvon Buscarroblones en "..YELLOW.."52,45"..WHITE.."."
 Inst15Quest2_Prequest = "Ninguno"
-Inst15Quest2_Folgequest = "El círculo de piedra"
+Inst15Quest2_Folgequest = "El Círculo de Piedras"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
