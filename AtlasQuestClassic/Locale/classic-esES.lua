@@ -1687,7 +1687,7 @@ Inst11Quest9 = "9. Entrega de diablillo" -- 7629
 Inst11Quest9_Aim = "Llévale el diablillo en un tarro al laboratorio de alquimia de Scholomance. Después de crear el papiro llévale el tarro a Gorzeeki Ojovago."
 Inst11Quest9_Location = "Gorzeeki Ojosalvajes (Las Estepas Ardientes; "..YELLOW.."12,31"..WHITE..")"
 Inst11Quest9_Note = "Solamente para Brujos: Encuentras el Laboratorio de alquimia en "..YELLOW.."[7]"..WHITE.."."
-Inst11Quest9_Prequest = "Mor'zul Sangredoble - > Polvo estelar xorothiano" -- 7562 -> 7625
+Inst11Quest9_Prequest = "Mor'zul Sangredoble -> Polvo estelar xorothiano" -- 7562 -> 7625
 Inst11Quest9_Folgequest = "Corcel nefasto xorothiano ("..YELLOW.."La Masacre Oeste"..WHITE..")" -- 7631
 -- No Rewards for this quest
 
@@ -2468,7 +2468,7 @@ Inst15Quest9name3 = "Togas de Servidumbre"
 
 --Quest 10 Alliance
 Inst15Quest10 = "10. Plumas Vudú" -- 8425
-Inst15Quest10_Aim = "Llévale las plumas vudú de los trols del Templo Sumergido al héroe caído de la Horda."
+Inst15Quest10_Aim = "Llévale las plumas vudú de los trols del Templo Sumergido al Héroe Caído de la Horda."
 Inst15Quest10_Location = "Héroe caído de la Horda (Pantano de las Penas; "..YELLOW.."34,66"..WHITE..")"
 Inst15Quest10_Note = "Solamente para Guerreros: Despoja a los minijefes trol para obtener las plumas."
 Inst15Quest10_Prequest = "Un espíritu afligido -> La guerra contra los Sombra Jurada" -- 8417 -> 8424
