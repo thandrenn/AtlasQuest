@@ -142,7 +142,7 @@ Inst1Quest4name3 = "Cuchilla de miembro"
 
 --Quest 5 Alliance  
 Inst1Quest5 = "5. Gran maestro Pyron"
-Inst1Quest5_Aim = "Mata al maestro supremo Pyron y vuelve junto a Jalinda Sprig."
+Inst1Quest5_Aim = "Mata al gran maestro Pyron y vuelve junto a Jalinda Sprig."
 Inst1Quest5_Location = "Jalinda Spring (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,70"..WHITE..")"
 Inst1Quest5_Note = "Gran Maestro Pyron es un elemental de fuego afuera de la mazmorra. Patrulla cerca del portal en "..YELLOW.."[24]"..WHITE.." en el mapa de Las Profundidades Roca Negra en "..YELLOW.."[3]"..WHITE.." en el mapa de entrada de la Montaña Roca Negra."
 Inst1Quest5_Prequest = "Ninguno"
@@ -244,7 +244,7 @@ Inst1Quest14_Folgequest = "Ninguno"
 Inst1Quest15 = "15. El alguacil Windsor" -- 4241
 Inst1Quest15_Aim = "Viaja a la Montaña Roca Negra al noroeste y adéntrate en las Profundidades de Roca Negra. Averigua qué le ha ocurrido al alguacil Windsor.\nRecuerdas que John Andrajoso había comentado que se habían llevado a una cárcel a Windsor."
 Inst1Quest15_Location = "Mariscal Maxwell (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,68"..WHITE..")"
-Inst1Quest15_Note = "Esta misión es una parte de la cadena para la armonización con Onyxia. La misión para la cadena empieza con Helendis Rivacuerno (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,68"..WHITE..").\nMariscal Windsor está en "..YELLOW.."[4]"..WHITE..". Tienes que regresar a Mariscal Maxwell después de completar la misión."
+Inst1Quest15_Note = "Esta misión es una parte de la cadena para la armonización con Onyxia. La misión para la cadena empieza con Helendis Rivacuerno (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,68"..WHITE..").\nAlguacil Windsor está en "..YELLOW.."[4]"..WHITE..". Tienes que regresar a Mariscal Maxwell después de completar la misión."
 Inst1Quest15_Prequest = "La amenaza de los dragonantes -> Los verdaderos maestros" -- 4182 -> 4224
 Inst1Quest15_Folgequest = "Esperanza perdida" -- 4242
 --
@@ -263,18 +263,18 @@ Inst1Quest16name3 = "Leotardos Cortaviento"
 
 --Quest 17 Alliance
 Inst1Quest17 = "17. Una nota arrugada"
-Inst1Quest17_Aim = "Puede que acabes de toparte con algo que le interesaría ver al mariscal Windsor. Puede que haya esperanza, después de todo."
+Inst1Quest17_Aim = "Puede que acabes de toparte con algo que le interesaría ver al alguacil Windsor. Puede que haya esperanza, después de todo."
 Inst1Quest17_Location = "Una nota arrugada (botín aleatorio de Profundidades de Roca Negra)"
-Inst1Quest17_Note = "Esta misión es una parte de la cadena de misiones para la armonización de Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE.."."
+Inst1Quest17_Note = "Esta misión es una parte de la cadena de misiones para la armonización de Onyxia. Alguacil Windsor está en "..YELLOW.."[4]"..WHITE.."."
 Inst1Quest17_Prequest = "Esperanza perdida"
 Inst1Quest17_Folgequest = "Una esperanza hecha trizas"
 -- No Rewards for this quest
 
 --Quest 18 Alliance
 Inst1Quest18 = "18. Una esperanza hecha trizas"
-Inst1Quest18_Aim = "Devuélvele al mariscal Windsor la información perdida.\nEl mariscal Windsor cree que la información está siendo retenida en manos del Señor Gólem Argelmach y del general Forjainquina."
+Inst1Quest18_Aim = "Devuélvele al alguacil Windsor la información perdida.\nEl alguacil Windsor cree que la información está siendo retenida en manos del Señor Gólem Argelmach y del general Forjira."
 Inst1Quest18_Location = "Alguacil Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
-Inst1Quest18_Note = "Esta misión es una parte de la cadena para la armonización de Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE..".\nEncuentras al Señor Gólem Argelmach en "..YELLOW.."[14]"..WHITE.." y a General Forjainquina en "..YELLOW.."[13]"..WHITE.."."
+Inst1Quest18_Note = "Esta misión es una parte de la cadena para la armonización de Onyxia. Alguacil Windsor está en "..YELLOW.."[4]"..WHITE..".\nEncuentras al Señor Gólem Argelmach en "..YELLOW.."[14]"..WHITE.." y a General Forjainquina en "..YELLOW.."[13]"..WHITE.."."
 Inst1Quest18_Prequest = "Una nota arrugada"
 Inst1Quest18_Folgequest = "La fuga de la prisión"
 -- No Rewards for this quest
@@ -283,7 +283,7 @@ Inst1Quest18_Folgequest = "La fuga de la prisión"
 Inst1Quest19 = "19. La fuga de la prisión"
 Inst1Quest19_Aim = "Ayuda al alguacil Windsor a recuperar su equipo y a liberar a sus amigos. Vuelve junto al mariscal Maxwell si lo consigues."
 Inst1Quest19_Location = "Alguacil Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")"
-Inst1Quest19_Note = "Esta misión es una parte de la cadena para la armonización con Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE..".\nEs más fácil realizar la misión si haces el Círculo de la Ley ("..YELLOW.."[6]"..WHITE..") y el camino a la entrada antes de empezar el evento. Encuentras a Mariscal Maxwell en Las Estepas Ardientes - Vigilia de Morgan ("..YELLOW.."84,68"..WHITE..")"
+Inst1Quest19_Note = "Esta misión es una parte de la cadena para la armonización con Onyxia. Alguacil Windsor está en "..YELLOW.."[4]"..WHITE..".\nEs más fácil realizar la misión si haces el Círculo de la Ley ("..YELLOW.."[6]"..WHITE..") y el camino a la entrada antes de empezar el evento. Encuentras a Mariscal Maxwell en Las Estepas Ardientes - Vigilia de Morgan ("..YELLOW.."84,68"..WHITE..")"
 Inst1Quest19_Prequest = "Una brizna de esperanza" -- 4282
 Inst1Quest19_Folgequest = "Tienes una cita en Ventormenta" -- 6204
 --
