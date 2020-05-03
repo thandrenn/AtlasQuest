@@ -3166,7 +3166,7 @@ Inst18Quest2name1 = "Hilador de conocimiento"
 
 --Quest 3 Alliance
 Inst18Quest3 = "3. Fragmentos de gangrevid" -- 5526
-Inst18Quest3_Aim = "Encuentra gangrevid en La Masacre y coge un fragmento. Es probable que solo puedas conseguirlo si derrotas a Alzzin el Formaferal. Usa el relicario de Pureza para guardar el fragmento y llévaselo a Rabine Saturna a Amparo de la Noche, en Claro de la Luna."
+Inst18Quest3_Aim = "Encuentra gangrevid en La Masacre y coge un fragmento. Es probable que solo puedas conseguirlo si derrotas a Alzzin el Formaferal. Usa el relicario de Pureza para guardar el fragmento y llévaselo al rabino Saturna a Amparo de la Noche, en Claro de la Luna."
 Inst18Quest3_Location = "Rabine Saturna (Claro de la Luna - Amparo de la Noche; "..YELLOW.."51,44"..WHITE..")"
 Inst18Quest3_Note = "Encuentras a Alzzin el Formaferal en la parte "..YELLOW.."Este"..WHITE.." de La Masacre en "..YELLOW.."[5]"..WHITE..". El relicario está en Silithius en "..YELLOW.."62,54"..WHITE..". Obtienes la misión requisita de Rabine Saturna también."
 Inst18Quest3_Prequest = "Un relicario de Pureza" -- 5527
