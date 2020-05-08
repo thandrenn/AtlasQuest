@@ -2,7 +2,7 @@
 Changelog
 =========
 
-Version 4.11.64  (for WoW Classic)  April ??, 2020
+Version 4.11.64  (for WoW Classic)  May 7, 2020
 
 - TOC updated to 11304.
 - Updates to Spanish localization by Woopy.
