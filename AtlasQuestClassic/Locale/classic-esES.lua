@@ -618,7 +618,7 @@ Inst3Quest5name3 = "Coraza de Luna de jade"
 Inst3Quest6 = "6. Urok Doomhowl" -- 4867
 Inst3Quest6_Aim = "Lee el pergamino de Warosh. Llévale el mojo de Warosh a Warosh."
 Inst3Quest6_Location = "Warosh (Cumbre de Roca Negra Inferior; "..YELLOW.."[2]"..WHITE..")"
-Inst3Quest6_Note = "Invoca y mata a Urok Aullapocalipsis en "..YELLOW.."[15]"..WHITE.." para obtener el Mojo de Warosh. Para invocarlo, necesitas la Pica férrea y la Cabeza de Omokk en "..YELLOW.."[6]"..WHITE..". La Pica férrea está en "..YELLOW.."[4]"..WHITE..". Durante la invocación, aparecerán oleadas de ogros antes de que aparezca Urok Aullasino. Usa la Pica férrea para dañar a los ogros."
+Inst3Quest6_Note = "Invoca y mata a Urok Aullapocalipsis en "..YELLOW.."[15]"..WHITE.." para obtener el Mojo de Warosh. Para invocarlo, necesitas la Pica férrea y la Cabeza de Omokk en "..YELLOW.."[5]"..WHITE..". La Pica férrea está en "..YELLOW.."[3]"..WHITE..". Durante la invocación, aparecerán oleadas de ogros antes de que aparezca Urok Aullasino. Usa la Pica férrea para dañar a los ogros."
 Inst3Quest6_Prequest = "Ninguno"
 Inst3Quest6_Folgequest = "Ninguno"
 --
@@ -659,7 +659,7 @@ Inst3Quest9_Folgequest = "El sello de ascensión" -- 4743
 --Quest 10 Alliance
 Inst3Quest10 = "10. Orden del general Drakkisath" -- 5089
 Inst3Quest10_Aim = "Llévale la orden del general Drakkisath al mariscal Maxwell en Las Estepas Ardientes."
-Inst3Quest10_Location = "Orden del general Drakkisath (botín del Señor supremo Vermiothalak; "..YELLOW.."[17]"..WHITE..")"
+Inst3Quest10_Location = "Orden del general Drakkisath (botín del Señor supremo Vermiothalak; "..YELLOW.."[19]"..WHITE..")"
 Inst3Quest10_Note = "Mariscal Maxwell está en Las Estepas Ardientes - Vigilia de Morgan; ("..YELLOW.."84,58"..WHITE..")."
 Inst3Quest10_Prequest = "Ninguno"
 Inst3Quest10_Folgequest = "Muerte al general Drakkisath ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")" -- 5102
