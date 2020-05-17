@@ -596,7 +596,7 @@ Inst3Quest3name1 = "Jaula de Telebrasada"
 Inst3Quest4 = "4. La leche de la madre" -- 4866
 Inst3Quest4_Aim = "En el corazón de la Cumbre de Roca Negra encontrarás a la madre Telabrasada. Provócala para que te envenene. Lo más seguro es que tendrás que matarla también. Vuelve junto a John Andrajoso cuando estés envenenado para que pueda extraer el veneno de ti."
 Inst3Quest4_Location = "John Andrajoso (Las Estepas Ardientes - Peñasco Llamarada; "..YELLOW.."65,23"..WHITE..")"
-Inst3Quest4_Note = "Madre Telebrasada está en "..YELLOW.."[11]"..WHITE..". El efecto de veneno atrapa los jugadores cercanos también. Si está quitado o disipado, fallarás la misión."
+Inst3Quest4_Note = "Madre Telebrasada está en "..YELLOW.."[13]"..WHITE..". El efecto de veneno atrapa los jugadores cercanos también. Si está quitado o disipado, fallarás la misión."
 Inst3Quest4_Prequest = "Ninguno"
 Inst3Quest4_Folgequest = "Ninguno"
 --
@@ -861,8 +861,8 @@ Inst4QAH = "13 Misiones"
 --Quest 1 Alliance
 Inst4Quest1 = "1. El Protectorado de la matrona" -- 5160
 Inst4Quest1_Aim = "Viaja hasta la Cuna del Invierno y encuentra a Haleh. Dale la escama de Awbee."
-Inst4Quest1_Location = "Awbee (Cumbre de Roca Negra Superior; "..YELLOW.."[6]"..WHITE..")"
-Inst4Quest1_Note = "Encuentras a Awbee en la habitación después de la Arena en "..YELLOW.."[6]"..WHITE..".\nHaleh está en la Cuna del Invierno ("..YELLOW.."54,51"..WHITE.."). Usa el portal al fin de la cueva para irte a ella."
+Inst4Quest1_Location = "Awbee (Cumbre de Roca Negra Superior; "..YELLOW.."[7]"..WHITE..")"
+Inst4Quest1_Note = "Encuentras a Awbee en la habitación después de la Arena en "..YELLOW.."[7]"..WHITE..".\nHaleh está en la Cuna del Invierno ("..YELLOW.."54,51"..WHITE.."). Usa el portal al fin de la cueva para irte a ella."
 Inst4Quest1_Prequest = "Ninguno"
 Inst4Quest1_Folgequest = "La cólera del Vuelo Azul" -- 5161
 -- No Rewards for this quest
@@ -878,7 +878,7 @@ Inst4Quest2_Folgequest = "Leotardos de Arcana, Almete del Sabio Escarlata, y Cor
 
 --Quest 3 Alliance
 Inst4Quest3 = "3. Un huevo congelado" -- 4734
-Inst4Quest3_Aim = "Usa el prototipo de ovosciloscopio sobre un huevo de El Grajero, en la Cumbre de Roca Negra."
+Inst4Quest3_Aim = "Usa el prototipo de ovosciloscopio en un huevo del Grajero."
 Inst4Quest3_Location = "Tinkee Vaporio (Las Estepas Ardientes - Peñasco Llamarada; "..YELLOW.."65,24"..WHITE..")"
 Inst4Quest3_Note = "Encuentras los huevos en "..YELLOW.."[2]"..WHITE.."."
 Inst4Quest3_Prequest = "Esencia de cría -> Tinkee Vaporio" -- 4726 -> 4907
@@ -900,7 +900,7 @@ Inst4Quest4_Folgequest = "El Núcleo de Magma" -- 6822
 Inst4Quest5 = "5. Muerte al general Drakkisath" -- 5102
 Inst4Quest5_Aim = "Viaja hasta la Cumbre de Roca Negra y mata al general Drakkisath."
 Inst4Quest5_Location = "Mariscal Maxwell (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."82,68"..WHITE..")"
-Inst4Quest5_Note = "Encuentras al General Drakkisath en "..YELLOW.."[8]"..WHITE.."."
+Inst4Quest5_Note = "Encuentras al General Drakkisath en "..YELLOW.."[9]"..WHITE.."."
 Inst4Quest5_Prequest = "Orden del general Drakkisath ("..YELLOW.."Cumbre de Roca Negra Inferior"..WHITE..")" -- 5089
 Inst4Quest5_Folgequest = "Ninguno"
 --
@@ -922,8 +922,8 @@ Inst4Quest6name2 = "Guardabrazos golpeguiño"
 --Quest 7 Alliance
 Inst4Quest7 = "7. Orden de Puño Negro" -- 7761
 Inst4Quest7_Aim = "Según la carta, el general Drakkisath guarda la enseña. Quizás deberías investigarlo."
-Inst4Quest7_Location = "Orden de Puño Negro (botín del Intendente del Escudo del Estigma; "..YELLOW.."[1] en el mapa de la Entrada"..WHITE..")"
-Inst4Quest7_Note = "Es la misión para la armonización con Guarida Alanegra. El Intendente del Escudo del Estigma está a la derecha justo antes del portal a la Cumbre de Roca Negra.\n\nGeneral Drakkisath está en "..YELLOW.."[8]"..WHITE..". El orbe está detrás de él."
+Inst4Quest7_Location = "Orden de Puño Negro (botín del Intendente del Escudo del Estigma; "..YELLOW.."[7] en el mapa de la Entrada"..WHITE..")"
+Inst4Quest7_Note = "Es la misión para la armonización con Guarida Alanegra. El Intendente del Escudo del Estigma está a la derecha justo antes del portal a la Cumbre de Roca Negra.\n\nGeneral Drakkisath está en "..YELLOW.."[9]"..WHITE..". El orbe está detrás de él."
 Inst4Quest7_Prequest = "Ninguno"
 Inst4Quest7_Folgequest = "Ninguno"
 -- No Rewards for this quest
