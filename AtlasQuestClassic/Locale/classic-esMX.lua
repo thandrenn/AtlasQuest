@@ -618,7 +618,7 @@ Inst3Quest5name3 = "Coraza de Luna de jade"
 Inst3Quest6 = "6. Urok Aullasino" -- 4867
 Inst3Quest6_Aim = "Lee el pergamino de Warosh. Llévale el mojo de Warosh a Warosh."
 Inst3Quest6_Location = "Warosh (Cumbre de Roca Negra Inferior; "..YELLOW.."[2]"..WHITE..")"
-Inst3Quest6_Note = "Invoca y mata a Urok Aullasino en "..YELLOW.."[13]"..WHITE.." para obtener el Mojo de Warosh. Para invocarlo, necesitas la Pica férrea y la Cabeza de Omokk en "..YELLOW.."[6]"..WHITE..". La Pica férrea está en "..YELLOW.."[4]"..WHITE..". Durante la invocación, aparecerán oleadas de ogros antes de que aparezca Urok Aullasino. Usa la Pica férrea para dañar a los ogros."
+Inst3Quest6_Note = "Invoca y mata a Urok Aullasino en "..YELLOW.."[15]"..WHITE.." para obtener el Mojo de Warosh. Para invocarlo, necesitas la Pica férrea y la Cabeza de Omokk en "..YELLOW.."[5]"..WHITE..". La Pica férrea está en "..YELLOW.."[3]"..WHITE..". Durante la invocación, aparecerán oleadas de ogros antes de que aparezca Urok Aullasino. Usa la Pica férrea para dañar a los ogros."
 Inst3Quest6_Prequest = "Ninguno"
 Inst3Quest6_Folgequest = "Ninguno"
 --
@@ -628,7 +628,7 @@ Inst3Quest6name1 = "Talismán prismático"
 Inst3Quest7 = "7. Las pertenencias de Bijou" -- 5001
 Inst3Quest7_Aim = "Encuentra las pertenencias de Bijou y devuélveselas. ¡Suerte!"
 Inst3Quest7_Location = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[3]"..WHITE..")"
-Inst3Quest7_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[11]"..WHITE..".\nMariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..")."
+Inst3Quest7_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[13]"..WHITE..".\nMariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..")."
 Inst3Quest7_Prequest = "Ninguno"
 Inst3Quest7_Folgequest = "Un mensaje para Maxwell" -- 5002
 -- No Rewards for this quest
@@ -637,7 +637,7 @@ Inst3Quest7_Folgequest = "Un mensaje para Maxwell" -- 5002
 Inst3Quest8 = "8. La misión de Maxwell" -- 5081
 Inst3Quest8_Aim = "Viaja a la Cumbre de Roca Negra y acaba con el maestro de guerra Voone, el alto señor Omokk y el señor supremo Vermiothalak."
 Inst3Quest8_Location = "Mariscal Maxwell (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..")"
-Inst3Quest8_Note = "Encuentras al Maestro de guerra Voone en "..YELLOW.."[8]"..WHITE..", Alto señor Omokk en "..YELLOW.."[6]"..WHITE.." y Señor supremo Vermiothalak en "..YELLOW.."[17]"..WHITE.."."
+Inst3Quest8_Note = "Encuentras al Maestro de guerra Voone en "..YELLOW.."[9]"..WHITE..", Alto señor Omokk en "..YELLOW.."[5]"..WHITE.." y Señor supremo Vermiothalak en "..YELLOW.."[19]"..WHITE.."."
 Inst3Quest8_Prequest = "Un mensaje para Maxwell" -- 5002
 Inst3Quest8_Folgequest = "Ninguno"
 --
@@ -659,7 +659,7 @@ Inst3Quest9_Folgequest = "El sello de ascensión" -- 4743
 --Quest 10 Alliance
 Inst3Quest10 = "10. Orden del general Drakkisath" -- 5089
 Inst3Quest10_Aim = "Llévale la orden del general Drakkisath al mariscal Maxwell en Las Estepas Ardientes."
-Inst3Quest10_Location = "Orden del general Drakkisath (botín del Señor supremo Vermiothalak; "..YELLOW.."[17]"..WHITE..")"
+Inst3Quest10_Location = "Orden del general Drakkisath (botín del Señor supremo Vermiothalak; "..YELLOW.."[19]"..WHITE..")"
 Inst3Quest10_Note = "Mariscal Maxwell está en Las Estepas Ardientes - Vigilia de Morgan; ("..YELLOW.."84,58"..WHITE..")."
 Inst3Quest10_Prequest = "Ninguno"
 Inst3Quest10_Folgequest = "Muerte al general Drakkisath ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")" -- 5102
@@ -696,7 +696,7 @@ Inst3Quest13name1 = "Diseño: Filo del Alba"
 --Quest 14 Alliance
 Inst3Quest14 = "14. Muerte abrasadora" -- 5103
 Inst3Quest14_Aim = "Alguien en este mundo debe de saber qué hacer con estos guanteletes. ¡Suerte!"
-Inst3Quest14_Location = "Restos humanos (Cumbre de Roca Negra Inferior; "..YELLOW.."[9]"..WHITE..")"
+Inst3Quest14_Location = "Restos humanos (Cumbre de Roca Negra Inferior; "..YELLOW.."[11]"..WHITE..")"
 Inst3Quest14_Note = "Misión para Herreros. Coge los Guanteletes de placas sin templar cerca de los restos humanos en "..YELLOW.."[9]"..WHITE..". Devuélveselos a Malyfous Martilloscuro (Cuna del Invierno - Vista Eterna; "..YELLOW.."61,39"..WHITE.."). Las recompensas son para la misión siguiente."
 Inst3Quest14_Prequest = "Ninguno"
 Inst3Quest14_Folgequest = "Guanteletes de placas ígneas" -- 5124
@@ -772,7 +772,7 @@ Inst3Quest6name1_HORDE = Inst3Quest6name1
 Inst3Quest7_HORDE = "7. La espía Bijou" -- 4981
 Inst3Quest7_HORDE_Aim = "Viaja hasta la Cumbre de Roca Negra y averigua qué le ha ocurrido a Bijou."
 Inst3Quest7_HORDE_Location = "Lexlort (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")"
-Inst3Quest7_HORDE_Note = "Encuentras a Bijou en "..YELLOW.."[3]"..WHITE.."."
+Inst3Quest7_HORDE_Note = "Encuentras a Bijou en "..YELLOW.."[8]"..WHITE.."."
 Inst3Quest7_HORDE_Prequest = "Ninguno"
 Inst3Quest7_HORDE_Folgequest = "Las pertenencias de Bijou" -- 4982
 -- No Rewards for this quest
@@ -781,7 +781,7 @@ Inst3Quest7_HORDE_Folgequest = "Las pertenencias de Bijou" -- 4982
 Inst3Quest8_HORDE = "8. Las pertenencias de Bijou" -- 4982
 Inst3Quest8_HORDE_Aim = "Encuentra las pertenencias de Bijou y devuélveselas. Recuerdas que ella mencionó haberlas ocultado en la planta baja de la ciudad."
 Inst3Quest8_HORDE_Location = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[3]"..WHITE..")"
-Inst3Quest8_HORDE_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[11]"..WHITE..".\nLas recompensas son para la misión 'El informe de reconocimiento de Bijou'."
+Inst3Quest8_HORDE_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[10]"..WHITE..".\nLas recompensas son para la misión 'El informe de reconocimiento de Bijou'."
 Inst3Quest8_HORDE_Prequest = "La espía Bijou" -- 4981
 Inst3Quest8_HORDE_Folgequest = "El informe de reconocimiento de Bijou" -- 4983
 --
@@ -801,7 +801,7 @@ Inst3Quest9_HORDE_Folgequest = Inst3Quest9_Folgequest
 Inst3Quest10_HORDE = "10. La orden del Señor de la Guerra" -- 4903
 Inst3Quest10_HORDE_Aim = "Mata al alto señor Omokk, al maestro de guerra Voone y al señor supremo Vermiothalak. Recupera importantes documentos Roca Negra. Vuelve junto al señor de la guerra Dientegore en Kargath cuando hayas cumplido la misión."
 Inst3Quest10_HORDE_Location = "Señor de la guerra Dientegore (Tierras Inhóspitas - Kargath; "..YELLOW.."65,22"..WHITE..")"
-Inst3Quest10_HORDE_Note = "Es la misión requisita para la cadena de misiones para la armonización con Onyxia.\nEncuentras al Maestro de guerra Voone en "..YELLOW.."[6]"..WHITE..", Alto señor Omokk en "..YELLOW.."[8]"..WHITE.." y Señor supremo Vermiothalak en "..YELLOW.."[17]"..WHITE..". Los Importantes documentos de Roca Negra aparece cerca de uno de los jefes."
+Inst3Quest10_HORDE_Note = "Es la misión requisita para la cadena de misiones para la armonización con Onyxia.\nEncuentras al Maestro de guerra Voone en "..YELLOW.."[9]"..WHITE..", Alto señor Omokk en "..YELLOW.."[5]"..WHITE.." y Señor supremo Vermiothalak en "..YELLOW.."[19]"..WHITE..". Los Importantes documentos de Roca Negra aparece cerca de uno de los jefes."
 Inst3Quest10_HORDE_Prequest = "Ninguno"
 Inst3Quest10_HORDE_Folgequest = "La sabiduría de Eitrigg -> ¡Por la Horda! ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")" -- 4941 -> 4974
 --
