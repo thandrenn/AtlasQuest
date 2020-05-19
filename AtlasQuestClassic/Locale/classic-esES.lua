@@ -1989,7 +1989,7 @@ Inst14QAH = "19 Misiones"
 
 --Quest 1 Alliance
 Inst14Quest1 = "1. La carne no miente" -- 5212
-Inst14Quest1_Aim = "Recoge 10 muestras de carne apestada de Stratholme y vuelve con Betina Bigglezink. Sospechas que podrías obtener una muestra de cualquier criatura de Stratholme."
+Inst14Quest1_Aim = "Recoge 20 muestras de carne infestada de Stratholme y vuelve con Betina Bigglezink. Sospechas que podrías obtener una muestra de cualquier criatura de Stratholme."
 Inst14Quest1_Location = "Betina Bigglezink (Tierras de la Peste del Este - Capilla de la Esperanza de la Luz; "..YELLOW.."81,59"..WHITE..")"
 Inst14Quest1_Note = "Despoja a cualquier criatura para obtener una muestra de carne apestada."
 Inst14Quest1_Prequest = "Ninguno"
