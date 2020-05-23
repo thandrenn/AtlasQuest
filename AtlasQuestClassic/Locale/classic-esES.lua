@@ -215,7 +215,7 @@ Inst1Quest11name2 = "Piedracanto de Forjaz"
 
 --Quest 12 Alliance
 Inst1Quest12 = "12. Armonización con el Núcleo" -- 7848
-Inst1Quest12_Aim = "Acércate al portal de entrada del Núcleo de Magma en las Profundidades de Roca Negra y recoge un fragmento del Núcleo. Llévaselo a Lothos Levantagrietas a la Montaña Roca Negra."
+Inst1Quest12_Aim = "Entra en el Núcleo de Magma de las Profundidades de Roca Negra y recoge un fragmento de núcleo. Llévaselo a Lothos Levantagrietas a la Montaña Roca Negra."
 Inst1Quest12_Location = "Lothos Levantagrietas (Montaña Roca Negra; "..YELLOW.."[E] en el mapa de la Entrada"..WHITE..")"
 Inst1Quest12_Note = "Después de completar la misión, puedes usar el portal justo al lado de Lothos Levantagrietas para entrar el Núcleo de Magma.\nEncuentras el Fragmento del Núcleo cerca de "..YELLOW.."[23]"..WHITE.."."
 Inst1Quest12_Prequest = "Ninguno"
@@ -1600,8 +1600,8 @@ Inst11QAA = "11 Misiones"
 Inst11QAH = "12 Misiones"
 
 --Quest 1 Alliance
-Inst11Quest1 = "1. Crías de dragón apestadas" -- 5529
-Inst11Quest1_Aim = "Mata a 20 crías de dragón apestadas y ve a ver a Betina Bigglezink a la Capilla de la Esperanza de la Luz."
+Inst11Quest1 = "1. Crías infestadas" -- 5529
+Inst11Quest1_Aim = "Mata a 20 crías de dragón infectadas y ve a ver a Betina Bigglezink a la Capilla de la Esperanza de la Luz."
 Inst11Quest1_Location = "Betina Bigglezink (Tierras de la Peste del Este - Capilla de la Esperanza de la Luz; "..YELLOW.."81,59"..WHITE..")"
 Inst11Quest1_Note = "Las crías de dragón apestadas están en la situación antes de encontrar a Traquesangre."
 Inst11Quest1_Prequest = "Ninguno"
@@ -1613,7 +1613,7 @@ Inst11Quest2 = "2. Escama de dragón sana" -- 5582
 Inst11Quest2_Aim = "Lleva la escama de dragón sana a Betina Bigglezink a la Capilla de la Esperanza de la Luz, en las Tierras de la Peste del Este."
 Inst11Quest2_Location = "Escama de dragón sana (botín aleatorio de Scholomance)"
 Inst11Quest2_Note = "Despoja a las crías de dragón apestadas para obtener las Escamas de dragón sana. Encuentras a Betina Bigglezink en las Tierras de la Peste del Este - Capilla de la Esperanza de la Luz ("..YELLOW.."81,59"..WHITE..")."
-Inst11Quest2_Prequest = "Crías de dragón apestadas" -- 5529
+Inst11Quest2_Prequest = "Crías infestadas" -- 5529
 Inst11Quest2_Folgequest = "Ninguno"
 -- No Rewards for this quest
 
@@ -1649,7 +1649,7 @@ Inst11Quest5name2 = "Rosa de Penelope"
 Inst11Quest5name3 = "Canción de Mirah"
 
 --Quest 6 Alliance
-Inst11Quest6 = "6. El exánime, Ras Levescarcha" -- 5466
+Inst11Quest6 = "6. El Lich, Ras Levescarcha" -- 5466
 Inst11Quest6_Aim = "Busca a Ras Levescarcha en Scholomance. Cuando lo hayas encontrado utiliza el Libro de Memorias del Alma sobre su rostro no-muerto. Si consiguieras convertirlo en mortal, derrótale y recupera la Cabeza humana de Ras Levescarcha. Lleva la cabeza al magistrado Marduke."
 Inst11Quest6_Location = "Magistrado Marduke (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."70,73"..WHITE..")"
 Inst11Quest6_Note = "Encuentras a Ras Levescarcha en "..YELLOW.."[7]"..WHITE.."."
