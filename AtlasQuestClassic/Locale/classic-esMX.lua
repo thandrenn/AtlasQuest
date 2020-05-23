@@ -1596,7 +1596,7 @@ Inst10Quest2_HORDE_Folgequest = Inst7Quest1_HORDE_Folgequest
 --------------- INST11 - Scholomance ---------------
 
 Inst11Caption = "Scholomance"
-Inst11QAA = "11 Misiones"
+Inst11QAA = "12 Misiones"
 Inst11QAH = "12 Misiones"
 
 --Quest 1 Alliance
