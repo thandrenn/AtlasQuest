@@ -3394,7 +3394,7 @@ Inst20Quest1_Folgequest = "Ninguno"
 
 --Quest 2 Alliance
 Inst20Quest2 = "2. Locura interior" -- 7461
-Inst20Quest2_Aim = "Debes destruir a los guardianes que rodean las 5 torres que controlan la Prisión de Immol'thar. Una vez desactivadas las torres, el campo de fuerza que rodea a Immol'thar se disipará.\nEntra en la Prisión de Immol'thar y erradica al demonio que hace guardia en su interior. Por último, haz frente al príncipe Tortheldrin en El Athenaeum."
+Inst20Quest2_Aim = "Debes destruir a los guardianes que rodean las 5 torres que controlan la Prisión de Immol'thar. Una vez desactivadas las torres, el campo de fuerza que rodea a Immol'thar se disipará.\n\nEntra en la Prisión de Immol'thar y erradica al demonio que hace guardia en su interior. Por último, haz frente al príncipe Tortheldrin en El Athenaeum."
 Inst20Quest2_Location = "Ancestro Shen'dralar (La Masacre; "..YELLOW.."Oeste, [1] (encima)"..WHITE..")"
 Inst20Quest2_Note = "Las torres están marcadas así como "..BLUE.."[B]"..WHITE..". Immol'thar está en "..YELLOW.."[6]"..WHITE..", Príncipe Tortheldrin está en "..YELLOW.."[7]"..WHITE.."."
 Inst20Quest2_Prequest = "Ninguno"
