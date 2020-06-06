@@ -870,7 +870,7 @@ Inst4Quest1_Folgequest = "La cólera del Vuelo Azul" -- 5161
 --Quest 2 Alliance
 Inst4Quest2 = "2. ¡Finkle Unicornín, a tu servicio!" -- 5047
 Inst4Quest2_Aim = "Habla con Malyfous Martilloscuro en Vista Eterna."
-Inst4Quest2_Location = "Finkle Einhorn (Cumbre de Roca Negra Superior; "..YELLOW.."[7]"..WHITE..")"
+Inst4Quest2_Location = "Finkle Einhorn (Cumbre de Roca Negra Superior; "..YELLOW.."[8]"..WHITE..")"
 Inst4Quest2_Note = "Finkle Einhorn aparece después de desollar a La Bestia. Encuentras a Malyfous Martilloscuro en (Cuna del Invierno - Vista Eterna; "..YELLOW.."61,38"..WHITE..")."
 Inst4Quest2_Prequest = "Ninguno"
 Inst4Quest2_Folgequest = "Leotardos de Arcana, Almete del Sabio Escarlata, y Coraza Sed de Sangre" -- 5063, 5067, 5068
