@@ -957,9 +957,9 @@ Inst4Quest10_Prequest = "Ninguno"
 Inst4Quest10_Folgequest = "Ninguno"
 --
 Inst4Quest10name1 = "Diseño: coraza de demonio forjada"
-Inst4Quest10name2 = "Elixir de matanza de demonios"
-Inst4Quest10name3 = "Saco besado por demonio"
-
+Inst4Quest10name2 = "Saco besado por demonio"
+Inst4Quest10name3 = "Elixir de matanza de demonios"
+Elixir de matanza de demonios
 
 --Quest 11 Alliance
 Inst4Quest11 = "11. La colecta de huevos"
