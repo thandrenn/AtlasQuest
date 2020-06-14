@@ -565,7 +565,7 @@ Inst3QAH = "14 Misiones"
 Inst3Quest1 = "1. Las últimas tablillas" -- 4788
 Inst3Quest1_Aim = "Llévale la quinta y sexta tablillas Mosh'aru al prospector Ferrobota, que está en Tanaris."
 Inst3Quest1_Location = "Prospector Ferrobota (Tanaris - Puerto Bonvapor; "..YELLOW.."66,23"..WHITE..")"
-Inst3Quest1_Note = "Encuentras las tablillas cerca de "..YELLOW.."[7]"..WHITE.." y "..YELLOW.."[8]"..WHITE..".\nLas recompensas son para la misión 'La confrontación con Yeh'kinya'. Encuentras a Yeh'kinya cerca del Prospector Ferrobota."
+Inst3Quest1_Note = "Encuentras las tablillas cerca de "..YELLOW.."[7]"..WHITE.." y "..YELLOW.."[9]"..WHITE..".\nLas recompensas son para la misión 'La confrontación con Yeh'kinya'. Encuentras a Yeh'kinya cerca del Prospector Ferrobota."
 Inst3Quest1_Prequest = "Las tablillas perdidas Mosh'aru" -- 5065
 Inst3Quest1_Folgequest = "La confrontación con Yeh'kinya" -- 8181
 -- No Rewards for this quest
@@ -586,7 +586,7 @@ Inst3Quest2name1 = "Lupo porteador"
 Inst3Quest3 = "3. Bestia amaestrada" -- 4862
 Inst3Quest3_Aim = "Viaja a la Cumbre de Roca Negra y reúne 15 huevos de araña de la cumbre para Kibler."
 Inst3Quest3_Location = "Kibler (Las Estepas Ardientes - Peñasco Llamarada; "..YELLOW.."65,22"..WHITE..")"
-Inst3Quest3_Note = "Encuentras los huevos de araña cerca de "..YELLOW.."[11]"..WHITE.."."
+Inst3Quest3_Note = "Encuentras los huevos de araña cerca de "..YELLOW.."[13]"..WHITE.."."
 Inst3Quest3_Prequest = "Ninguno"
 Inst3Quest3_Folgequest = "Ninguno"
 --
@@ -627,7 +627,7 @@ Inst3Quest6name1 = "Talismán prismático"
 --Quest 7 Alliance
 Inst3Quest7 = "7. Las pertenencias de Bijou" -- 5001
 Inst3Quest7_Aim = "Encuentra las pertenencias de Bijou y devuélveselas. ¡Suerte!"
-Inst3Quest7_Location = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[3]"..WHITE..")"
+Inst3Quest7_Location = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[8]"..WHITE..")"
 Inst3Quest7_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[13]"..WHITE..".\nMariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..")."
 Inst3Quest7_Prequest = "Ninguno"
 Inst3Quest7_Folgequest = "Un mensaje para Maxwell" -- 5002
@@ -651,7 +651,7 @@ Inst3Quest8name5 = "Mandiletes de maña de Voone"
 Inst3Quest9 = "9. El sello de ascensión" -- 4742
 Inst3Quest9_Aim = "Encuentra las 3 gemas del mando: La gema de Espina Ahumada, la gema de Cumbrerroca y la gema de Hacha de Sangre. Llévaselas, junto con el sello de ascensión sin adornar a Vaelan."
 Inst3Quest9_Location = "Vaelan (Cumbre de Roca Negra Inferior; "..YELLOW.."[1]"..WHITE..")"
-Inst3Quest9_Note = "Consigues la Gema de Cumbrerroca del Alto señor Omokk en "..YELLOW.."[6]"..WHITE..", la Gema de Espina Ahumada del Maestro de guerra Voone en "..YELLOW.."[8]"..WHITE.." y la Gema de Hacha de Sangre del Señor supremo Vermiothalak en "..YELLOW.."[17]"..WHITE..". Despoja a cualquier enemigo en la Cumbre de Roca Negra Inferior para obtener el Sello de ascención sin adornar. Obtienes la llave para entrar la Cumbre de Roca Negra Superior si completas la cadena de misiones."
+Inst3Quest9_Note = "Consigues la Gema de Cumbrerroca del Alto señor Omokk en "..YELLOW.."[5]"..WHITE..", la Gema de Espina Ahumada del Maestro de guerra Voone en "..YELLOW.."[9]"..WHITE.." y la Gema de Hacha de Sangre del Señor supremo Vermiothalak en "..YELLOW.."[19]"..WHITE..". Despoja a cualquier enemigo en la Cumbre de Roca Negra Inferior para obtener el Sello de ascención sin adornar. Obtienes la llave para entrar la Cumbre de Roca Negra Superior si completas la cadena de misiones."
 Inst3Quest9_Prequest = "Ninguno"
 Inst3Quest9_Folgequest = "El sello de ascensión" -- 4743
 -- No Rewards for this quest
@@ -696,7 +696,7 @@ Inst3Quest13name1 = "Diseño: filo del Alba"
 --Quest 14 Alliance
 Inst3Quest14 = "14. Muerte abrasadora" -- 5103
 Inst3Quest14_Aim = "Alguien en este mundo debe de saber qué hacer con estos guanteletes. ¡Suerte!"
-Inst3Quest14_Location = "Restos humanos (Cumbre de Roca Negra Inferior; "..YELLOW.."[9]"..WHITE..")"
+Inst3Quest14_Location = "Restos humanos (Cumbre de Roca Negra Inferior; "..YELLOW.."[11]"..WHITE..")"
 Inst3Quest14_Note = "Misión para Herreros. Coge los Guanteletes de placas sin templar cerca de los restos humanos en "..YELLOW.."[11]"..WHITE..". Devuélveselos a Malyfous Martilloscuro (Cuna del Invierno - Vista Eterna; "..YELLOW.."61,39"..WHITE.."). Las recompensas son para la misión siguiente."
 Inst3Quest14_Prequest = "Ninguno"
 Inst3Quest14_Folgequest = "Guanteletes de placas ígneas" -- 5124
@@ -780,8 +780,8 @@ Inst3Quest7_HORDE_Folgequest = "Las pertenencias de Bijou" -- 4982
 --Quest 8 Horde
 Inst3Quest8_HORDE = "8. Las pertenencias de Bijou" -- 4982
 Inst3Quest8_HORDE_Aim = "Encuentra las pertenencias de Bijou y devuélveselas. Recuerdas que ella mencionó haberlas ocultado en la planta baja de la ciudad."
-Inst3Quest8_HORDE_Location = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[3]"..WHITE..")"
-Inst3Quest8_HORDE_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[10]"..WHITE..".\nLas recompensas son para la misión 'El informe de reconocimiento de Bijou'."
+Inst3Quest8_HORDE_Location = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[8]"..WHITE..")"
+Inst3Quest8_HORDE_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[13]"..WHITE..".\nLas recompensas son para la misión 'El informe de reconocimiento de Bijou'."
 Inst3Quest8_HORDE_Prequest = "La espía Bijou" -- 4981
 Inst3Quest8_HORDE_Folgequest = "El informe de reconocimiento de Bijou" -- 4983
 --
@@ -974,7 +974,7 @@ Inst4Quest11_Folgequest = "Leonid Barthalomew -> Gambito del Alba ("..YELLOW.."S
 Inst4Quest12 = "12. Amuleto Pirodraco" -- 6502
 Inst4Quest12_Aim = "Tienes que recuperar la sangre de dragón Negro Campeón, la tiene el general Drakkisath. Puedes encontrar a Drakkisath en su sala del trono, tras las Salas de la Ascensión, en la Cumbre de Roca Negra."
 Inst4Quest12_Location = "Haleh (Cuna del Invierno; "..YELLOW.."54,51"..WHITE..")"
-Inst4Quest12_Note = "Es la parte final para la cadena de misiones para la armonización con Onyxia por la Alianza. Encuentras al General Drakkisath en "..YELLOW.."[8]"..WHITE.."."
+Inst4Quest12_Note = "Es la parte final para la cadena de misiones para la armonización con Onyxia por la Alianza. Encuentras al General Drakkisath en "..YELLOW.."[9]"..WHITE.."."
 Inst4Quest12_Prequest = "El Ojo del Dragón" -- 6501
 Inst4Quest12_Folgequest = "Ninguno"
 --
