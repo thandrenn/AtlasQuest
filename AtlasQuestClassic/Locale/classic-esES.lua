@@ -952,7 +952,7 @@ Inst4Quest9name2 = "Blandón de Invocación: manual"
 Inst4Quest10 = "10. La forja demoníaca" -- 5127
 Inst4Quest10_Aim = "Viaja a la Cumbre de Roca Negra y encuentra a Goraluk Yunquegrieta. Mátale y utiliza el Pica manchada de sangre sobre su cadáver. Cuando hayas absorbido su alma, la pica estará manchada de alma."
 Inst4Quest10_Location = "Lorax (Cuna del Invierno; "..YELLOW.."64,74"..WHITE..")"
-Inst4Quest10_Note = "Misión para Herreros. Goraluk Yunquegrieta está en "..YELLOW.."[4]"..WHITE.."."
+Inst4Quest10_Note = "Misión para Herreros. Goraluk Yunquegrieta está en "..YELLOW.."[5]"..WHITE.."."
 Inst4Quest10_Prequest = "Ninguno"
 Inst4Quest10_Folgequest = "Ninguno"
 --
@@ -1031,9 +1031,9 @@ Inst4Quest5name2_HORDE = "Guardabrazos golpeguiño"
 
 --Quest 6 Horde
 Inst4Quest6_HORDE = "6. ¡Por la Horda!" -- 4974
-Inst4Quest6_HORDE_Aim = "Ve a Cumbre de Roca Negra para matar al Jefe de Guerra Rend Puño Negro. Lleva su cabeza a Orgrimmar."
+Inst4Quest6_HORDE_Aim = "Ve a Cumbre de Roca Negra para matar al Jefe de Guerra Rend Puño Negro. Llévale su cabeza a Orgrimmar."
 Inst4Quest6_HORDE_Location = "Thrall (Orgrimmar; "..YELLOW.."31,38"..WHITE..")"
-Inst4Quest6_HORDE_Note = "Es la misión para la armonización con Onyxia. Encuentras al Jefe de Guerra Rend Puño Negro en "..YELLOW.."[5]"..WHITE.."."
+Inst4Quest6_HORDE_Note = "Es la misión para la armonización con Onyxia. Encuentras al Jefe de Guerra Desgarro Puño Negro en "..YELLOW.."[6]"..WHITE.."."
 Inst4Quest6_HORDE_Prequest = "La orden del Señor de la Guerra -> La sabiduría de Eitrigg" -- 4903 -> 4941
 Inst4Quest6_HORDE_Folgequest = "Lo que trae el viento" -- 6566
 --
@@ -1054,7 +1054,7 @@ Inst4Quest7_HORDE_Folgequest = "Brasaliza" -- 6570
 Inst4Quest8_HORDE = "8. La sangre de dragón Negro Campeón" -- 6602
 Inst4Quest8_HORDE_Aim = "Viaja a la Cumbre de Roca Negra y mata al general Drakkisath. Recoge su sangre y llévasela a Rexxar."
 Inst4Quest8_HORDE_Location = "Rexxar (Desolace - Aldea Cazasombras; "..YELLOW.."25,71"..WHITE..")"
-Inst4Quest8_HORDE_Note = "Es la parte final para la misión para la armonización con Onyxia. Encuentras al General Drakkisath en "..YELLOW.."[8]"..WHITE.."."
+Inst4Quest8_HORDE_Note = "Es la parte final para la misión para la armonización con Onyxia. Encuentras al General Drakkisath en "..YELLOW.."[9]"..WHITE.."."
 Inst4Quest8_HORDE_Prequest = "Brasaliza -> El ascenso" -- 6570 -> 6601
 Inst4Quest8_HORDE_Folgequest = "Ninguno"
 --
