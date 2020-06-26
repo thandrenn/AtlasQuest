@@ -781,7 +781,7 @@ Inst3Quest7_HORDE_Folgequest = "Las pertenencias de Bijou" -- 4982
 Inst3Quest8_HORDE = "8. Las pertenencias de Bijou" -- 4982
 Inst3Quest8_HORDE_Aim = "Encuentra las pertenencias de Bijou y devuélveselas. Recuerdas que ella mencionó haberlas ocultado en la planta baja de la ciudad."
 Inst3Quest8_HORDE_Location = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[8]"..WHITE..")"
-Inst3Quest8_HORDE_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[13]"..WHITE..".\nLas recompensas son para la misión 'El informe de reconocimiento de Bijou'."
+Inst3Quest8_HORDE_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[10]"..WHITE..".\nLas recompensas son para la misión 'El informe de reconocimiento de Bijou'."
 Inst3Quest8_HORDE_Prequest = "La espía Bijou" -- 4981
 Inst3Quest8_HORDE_Folgequest = "El informe de reconocimiento de Bijou" -- 4983
 --
