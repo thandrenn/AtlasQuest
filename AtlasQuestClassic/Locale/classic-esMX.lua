@@ -606,7 +606,7 @@ Inst3Quest4name1 = "Copa interminable de John Andrajoso"
 Inst3Quest5 = "5. Acaba con el origen de la amenaza" -- 4701
 Inst3Quest5_Aim = "Viaja hasta la Cumbre de Roca Negra y destruye el origen de la amenaza del huargo. Cuando dejaste a Helendis, gritó un nombre: Halycon. Es la palabra que los orcos usan para referirse al huargo."
 Inst3Quest5_Location = "Helendis Rivacuerno (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."5,47"..WHITE..")"
-Inst3Quest5_Note = "Halycon está en "..YELLOW.."[16]"..WHITE.."."
+Inst3Quest5_Note = "Halycon está en "..YELLOW.."[17]"..WHITE.."."
 Inst3Quest5_Prequest = "Ninguno"
 Inst3Quest5_Folgequest = "Ninguno"
 --
@@ -628,7 +628,7 @@ Inst3Quest6name1 = "Talismán prismático"
 Inst3Quest7 = "7. Las pertenencias de Bijou" -- 5001
 Inst3Quest7_Aim = "Encuentra las pertenencias de Bijou y devuélveselas. ¡Suerte!"
 Inst3Quest7_Location = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[8]"..WHITE..")"
-Inst3Quest7_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[13]"..WHITE..".\nMariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..")."
+Inst3Quest7_Note = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[10]"..WHITE..".\nMariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..")."
 Inst3Quest7_Prequest = "Ninguno"
 Inst3Quest7_Folgequest = "Un mensaje para Maxwell" -- 5002
 -- No Rewards for this quest
@@ -669,7 +669,7 @@ Inst3Quest10_Folgequest = "Muerte al general Drakkisath ("..YELLOW.."Cumbre de R
 Inst3Quest11 = "11. La parte izquierda del amuleto de Lord Valthalak" -- 8966
 Inst3Quest11_Aim = "Usa el Blandón de Señalización para invocar al espíritu de Mor Pezuña Gris y mátalo. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con la parte izquierda del amuleto de Lord Valthalak y el Blandón de Señalización."
 Inst3Quest11_Location = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")"
-Inst3Quest11_Note = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Mor Pezuña Gris en "..YELLOW.."[8]"..WHITE.."."
+Inst3Quest11_Note = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Mor Pezuña Gris en "..YELLOW.."[9]"..WHITE.."."
 Inst3Quest11_Prequest = "Componentes importantes" -- 8962
 Inst3Quest11_Folgequest = "En tu destino veo la Isla de Alcaz..." -- 8970
 -- No Rewards for this quest
@@ -678,7 +678,7 @@ Inst3Quest11_Folgequest = "En tu destino veo la Isla de Alcaz..." -- 8970
 Inst3Quest12 = "12. La parte derecha del amuleto de Lord Valthalak" -- 8989
 Inst3Quest12_Aim = "Usa el Blandón de Señalización para invocar al espíritu de Mor Pezuña Gris y mátalo. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con el amuleto de Lord Valthalak recompuesto y el Blandón de Señalización."
 Inst3Quest12_Location = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")"
-Inst3Quest12_Note = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Mor Pezuña Gris en "..YELLOW.."[8]"..WHITE.."."
+Inst3Quest12_Note = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Mor Pezuña Gris en "..YELLOW.."[9]"..WHITE.."."
 Inst3Quest12_Prequest = "Más componentes importantes" -- 8986
 Inst3Quest12_Folgequest = "Últimos preparativos ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")" -- 8994
 -- No Rewards for this quest
@@ -912,7 +912,7 @@ Inst4Quest5name3 = "Amplitud de Puño Negro"
 Inst4Quest6 = "6. El Broche de Equipasino" -- 4764
 Inst4Quest6_Aim = "Llévale el broche de Equipasino a Mayara Alasol en Las Estepas Ardientes."
 Inst4Quest6_Location = "Mayara Alasol (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,69"..WHITE..")"
-Inst4Quest6_Note = "Obtienes la misión requisita de Conde Remington Bonacresta (Ventormenta - Castillo de Ventormenta; "..YELLOW.."74,30"..WHITE..").\n\nEl broche de Equipasino está en "..YELLOW.."[2]"..WHITE.." dentro de un cofre."
+Inst4Quest6_Note = "Obtienes la misión requisita de Conde Remington Bonacresta (Ventormenta - Castillo de Ventormenta; "..YELLOW.."74,30"..WHITE..").\n\nEl broche de Equipasino está en "..YELLOW.."[3]"..WHITE.." dentro de un cofre."
 Inst4Quest6_Prequest = "Mayara Alasol" -- 4766
 Inst4Quest6_Folgequest = "Entrega a Bonacresta" -- 4765
 --
