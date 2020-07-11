@@ -635,7 +635,7 @@ Inst3Quest7_Folgequest = "Un mensaje para Maxwell" -- 5002
 
 --Quest 8 Alliance
 Inst3Quest8 = "8. La misión de Maxwell" -- 5081
-Inst3Quest8_Aim = "Viaja a la Cumbre de Roca Negra y destruye al el maestro de guerra Voone, el alto señor Omokk y el señor supremo Vermiothalak."
+Inst3Quest8_Aim = "Viaja a la Cumbre de Roca Negra y destruye al maestro de guerra Voone, el alto señor Omokk y el señor supremo Vermiothalak."
 Inst3Quest8_Location = "Mariscal Maxwell (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..")"
 Inst3Quest8_Note = "Encuentras al Maestro de guerra Voone en "..YELLOW.."[9]"..WHITE..", Alto señor Omokk en "..YELLOW.."[5]"..WHITE.." y Señor supremo Vermiothalak en "..YELLOW.."[19]"..WHITE.."."
 Inst3Quest8_Prequest = "Un mensaje para Maxwell" -- 5002
