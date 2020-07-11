@@ -576,7 +576,7 @@ Inst3Quest1name2 = "Manteo Hakkari andrajoso"
 Inst3Quest2 = "2. Las mascotas exóticas de Kibler" -- 4729
 Inst3Quest2_Aim = "Viaja hasta la Cumbre de Roca Negra y encuentra cachorros de huargo Hacha de Sangre. Usa la jaula para transportar a esas feroces fierecillas. Llévale a Kibler 1 cachorro de huargo enjaulado."
 Inst3Quest2_Location = "Kibler (Las Estepas Ardientes - Peñasco Llamarada; "..YELLOW.."65,22"..WHITE..")"
-Inst3Quest2_Note = "Encuentras el cachorro de huargo en "..YELLOW.."[16]"..WHITE.."."
+Inst3Quest2_Note = "Encuentras el cachorro de huargo en "..YELLOW.."[17]"..WHITE.."."
 Inst3Quest2_Prequest = "Ninguno"
 Inst3Quest2_Folgequest = "Ninguno"
 --
@@ -635,7 +635,7 @@ Inst3Quest7_Folgequest = "Un mensaje para Maxwell" -- 5002
 
 --Quest 8 Alliance
 Inst3Quest8 = "8. La misión de Maxwell" -- 5081
-Inst3Quest8_Aim = "Viaja a la Cumbre de Roca Negra y acaba con el maestro de guerra Voone, el alto señor Omokk y el señor supremo Vermiothalak."
+Inst3Quest8_Aim = "Viaja a la Cumbre de Roca Negra y destruye al maestro de guerra Voone, al alto señor Omokk y al Señor Supremo Vermiothalak."
 Inst3Quest8_Location = "Mariscal Maxwell (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..")"
 Inst3Quest8_Note = "Encuentras al Maestro de guerra Voone en "..YELLOW.."[9]"..WHITE..", Alto señor Omokk en "..YELLOW.."[5]"..WHITE.." y Señor supremo Vermiothalak en "..YELLOW.."[19]"..WHITE.."."
 Inst3Quest8_Prequest = "Un mensaje para Maxwell" -- 5002
