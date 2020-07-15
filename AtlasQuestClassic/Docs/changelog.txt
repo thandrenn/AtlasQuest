@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 4.11.66  (for WoW Classic)  August ??, 2020
+
+-
+
+
+
 Version 4.11.65  (for WoW Classic)  July 14, 2020
 
 - TOC updated to 11305.
