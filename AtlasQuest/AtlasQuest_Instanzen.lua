@@ -505,6 +505,36 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 190;
 
 		
+	-- Shadowlands Dungeons & Raids
+		
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\TheNecroticWake") then
+		AQINSTANZ = 191;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\Plaguefall") then
+		AQINSTANZ = 192;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\MistsofTirnaScithe") then
+		AQINSTANZ = 193;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\HallsofAtonement") then
+		AQINSTANZ = 194;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\TheaterofPain") then
+		AQINSTANZ = 195;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\DeOtherSide") then
+		AQINSTANZ = 196;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\SpiresofAscension") then
+		AQINSTANZ = 197;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\SanguineDepths") then
+		AQINSTANZ = 198;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\CastleNathria") then
+		AQINSTANZ = 199;
+
+		
 	-- Scenarios
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ABrewingStorm") then
@@ -626,6 +656,8 @@ end
 --- AQ Instance Numbers ---
 ---------------------------
 
+-- CLASSIC
+--
 -- 1  = Deadmines (VC)
 -- 2  = Wailing Caverns (WC)
 -- 3  = Ragefire Chasm (RFC)
@@ -663,6 +695,8 @@ end
 -- 35 = Warsong Gulch (WSG)
 -- 36 =  default "rest"
 
+-- BURNING CRUSADE
+--
 -- 37 = HFC: Ramparts (Ramp)
 -- 38 = HFC: Blood Furnace (BF)
 -- 39 = HFC: Shattered Halls (SH)
@@ -696,6 +730,8 @@ end
 -- 67 = Magisters' Terrace
 -- 68 = Sunwell Plateau
 
+-- WRATH OF THE LICH KING
+--
 -- 69 = Caverns of Time: The Culling of Stratholme
 -- 70 = Utgarde Keep: Utgarde Keep
 -- 71 = Utgarde Keep: Utgarde Pinnacle
@@ -723,6 +759,8 @@ end
 -- 93 = Icecrown Citadel (ICC)
 -- 94 = Ruby Sanctum (RS)
 
+-- CATACLYSM
+--
 -- 95 = Blackrock Caverns
 -- 96 = Throne of the Tides
 -- 97 = The Stonecore
@@ -743,6 +781,8 @@ end
 -- 112 = Hour of Twilight
 -- 113 = Dragon Soul
 
+-- MISTS OF PANDARIA
+--
 -- 114 = Mogu'Shan Palace
 -- 115 = Shado-Pan Monastery
 -- 116 = Stormstout Brewery
@@ -776,6 +816,8 @@ end
 -- 144 = SCENARIO: Troves of the Thunder King
 -- 145 = RAID: Siege of Orgrimmar
 
+-- WARLORDS OF DRAENOR
+--
 -- 146 = DUNGEON: Auchindoun
 -- 147 = DUNGEON: Skyreach
 -- 148 = DUNGEON: Bloodmaul Slag Mines
@@ -788,6 +830,8 @@ end
 -- 155 = RAID: Blackrock Foundry
 -- 156 = RAID: Hellfire Citadel
 
+-- LEGION
+--
 -- 157 = DUNGEON: Assault on Violet Hold
 -- 158 = DUNGEON: Black Rook Hold
 -- 159 = DUNGEON: Court of Stars
@@ -807,6 +851,8 @@ end
 -- 173 = DUNGEON: Seat of the Triumvirate
 -- 174 = RAID: Antorus, the Burning Throne
 
+-- BATTLE FOR AZEROTH
+--
 -- 175 = DUNGEON: Atal'Dazar
 -- 176 = DUNGEON: Freehold
 -- 177 = DUNGEON: Kings' Rest
@@ -823,5 +869,18 @@ end
 -- 188 = RAID: The Eternal Palace
 -- 189 = DUNGEON: Operation: Mechagon
 -- 190 = RAID: Ny'alotha, the Waking City
+
+-- SHADOWLANDS
+--
+-- 191 = DUNGEON: The Necrotic Wake
+-- 192 = DUNGEON: Plaguefall
+-- 193 = DUNGEON: Mists of Tirna Scithe
+-- 194 = DUNGEON: Halls of Atonement
+-- 195 = DUNGEON: Theater of Pain
+-- 196 = DUNGEON: De Other Side
+-- 197 = DUNGEON: Spires of Ascension
+-- 198 = DUNGEON: Sanguine Depths
+-- 199 = RAID: Castle Nathria
+
 
 

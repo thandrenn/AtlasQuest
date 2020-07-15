@@ -4057,6 +4057,32 @@ Inst190Quest1_HORDE_Attain = "120"
 
 
 
+--------------- INST191 - The Necrotic Wake ---------------
+
+
+--------------- INST192 - Plaguefall ---------------
+
+
+--------------- INST193 - Mists of Tirna Scithe ---------------
+
+
+--------------- INST194 - Halls of Atonement ---------------
+
+
+--------------- INST195 - Theater of Pain ---------------
+
+
+--------------- INST196 - De Other Side ---------------
+
+
+--------------- INST197 - Spires of Ascension ---------------
+
+
+--------------- INST198 - Sanguine Depths ---------------
+
+
+--------------- INST199 - Castle Nathria ---------------
+
 
 
 

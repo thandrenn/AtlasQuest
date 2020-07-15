@@ -38,6 +38,7 @@
 <Script file="Locale/wod-enUS.lua" />
 <Script file="Locale/legion-enUS.lua" />
 <Script file="Locale/bfa-enUS.lua" />
+<Script file="Locale/shadowlands-enUS.lua" />
 
 <!--  GERMAN LOCALIZATION -->
 <Script file="Locale/global-deDE.lua" />
@@ -49,9 +50,10 @@
 <Script file="Locale/wod-deDE.lua" />
 <Script file="Locale/legion-deDE.lua" />
 <Script file="Locale/bfa-deDE.lua" />
+<Script file="Locale/shadowlands-deDE.lua" />
 
 <Script file="AtlasQuest_Items.lua" />
-<Script file="AtlasQuest_QuestIDs.lua" />
+<Script file="AtlasQuest_QuestData.lua" />
 <Script file="AtlasQuest.lua" />
 
 -- Tooltip
