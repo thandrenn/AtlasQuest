@@ -24,8 +24,8 @@
 ## X-Category: Quests
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
-## X-Localizations: enUS, deDE, zhCN, zhTW, ruRU, esES, esMX
-## X-Date: July 14, 2020
+## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
+## X-Date: July 17, 2020
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 

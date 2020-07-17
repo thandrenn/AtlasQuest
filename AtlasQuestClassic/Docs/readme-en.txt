@@ -36,6 +36,7 @@ German:  Guldukat
 Simplified Chinese:  yoke233
 Traditional Chinese:  
 Russian:  GoodDeath
+Korean: LockCole
 Spanish: 
 
 
