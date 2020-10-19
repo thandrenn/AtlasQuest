@@ -67,7 +67,7 @@ local AQMAXINSTANCES = "199"
 local AQMAXQUESTS = "23"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.11.06";
+ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.12.01";
 
 local AtlasQuest_Defaults = {
   ["Version"] =  "4.11.06",
@@ -483,9 +483,9 @@ local count
       end
     end
     --this checks should be done everytime when the questupdate event gets executed
-    TotalQuestEntries = GetNumQuestLogEntries();
+    TotalQuestEntries = C_QuestLog.GetNumQuestLogEntries();
     for CurrentQuestnum=1, TotalQuestEntries do
-      x, y, z = GetQuestLogTitle(CurrentQuestnum)
+      x, y, z = C_QuestLog.GetInfo(CurrentQuestnum)
       TotalQuestsTable = {
         [CurrentQuestnum] = x,
       };

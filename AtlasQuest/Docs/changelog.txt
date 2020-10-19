@@ -2,9 +2,11 @@
 Changelog
 =========
 
-Version 4.11.06  (for Battle for Azeroth)  (July ??, 2020)
+Version 4.12.01  (for Shadowlands)  (October ??, 2020)
 
+- TOC update for Patch 9.0.1.
 - Shadowlands prep work.
+- Updates to some Return to Karazhan quests.
 
 
 

@@ -21,7 +21,7 @@
 
 
 This file is for storing quest IDs, levels and maybe other data that does not
-need to be localized.  I plan to rename it to AtlasQuest_QuestData.lua soon.
+need to be localized.
 
 
 Variables use the following format:
@@ -46,66 +46,173 @@ Inst1Quest1_Level = "level of quest"
 --------------- INST1 - Deadmines (VC) ---------------
 
 Inst1Quest1_QuestID = "27756"
+Inst1Quest1_Level = "7"
+Inst1Quest1_Attain = "7"
+
 Inst1Quest2_QuestID = "27758"
+Inst1Quest2_Level = "7"
+Inst1Quest2_Attain = "7"
+
 Inst1Quest3_QuestID = "27781"
+Inst1Quest3_Level = "7"
+Inst1Quest3_Attain = "7"
+
 Inst1Quest4_QuestID = "27785"
+Inst1Quest4_Level = "7"
+Inst1Quest4_Attain = "7"
+
 Inst1Quest5_QuestID = "27790"
+Inst1Quest5_Level = "7"
+Inst1Quest5_Attain = "7"
+
 
 Inst1Quest1_HORDE_QuestID = "27842"
+Inst1Quest1_HORDE_Level = "7"
+Inst1Quest1_HORDE_Attain = "7"
+
 Inst1Quest2_HORDE_QuestID = "27844"
+Inst1Quest2_HORDE_Level = "7"
+Inst1Quest2_HORDE_Attain = "7"
+
 Inst1Quest3_HORDE_QuestID = "27847"
+Inst1Quest3_HORDE_Level = "7"
+Inst1Quest3_HORDE_Attain = "7"
+
 Inst1Quest4_HORDE_QuestID = "27848"
+Inst1Quest4_HORDE_Level = "7"
+Inst1Quest4_HORDE_Attain = "7"
+
 Inst1Quest5_HORDE_QuestID = "27850"
+Inst1Quest5_HORDE_Level = "7"
+Inst1Quest5_HORDE_Attain = "7"
 
 
 
 --------------- INST2 - Wailing Caverns (WC) ---------------
 
 Inst2Quest1_QuestID = "26872"
+Inst2Quest1_Level = "8"
+Inst2Quest1_Attain = "8"
+
 Inst2Quest2_QuestID = "26873"
+Inst2Quest2_Level = "8"
+Inst2Quest2_Attain = "8"
+
 Inst2Quest3_QuestID = "26870"
+Inst2Quest3_Level = "8"
+Inst2Quest3_Attain = "8"
+
 
 Inst2Quest1_HORDE_QuestID = "26878"
+Inst2Quest1_HORDE_Level = "8"
+Inst2Quest1_HORDE_Attain = "8"
+
 Inst2Quest2_HORDE_QuestID = "26872"
+Inst2Quest2_HORDE_Level = "8"
+Inst2Quest2_HORDE_Attain = "8"
+
 Inst2Quest3_HORDE_QuestID = "26873"
+Inst2Quest3_HORDE_Level = "8"
+Inst2Quest3_HORDE_Attain = "8"
+
 Inst2Quest4_HORDE_QuestID = "26870"
+Inst2Quest4_HORDE_Level = "8"
+Inst2Quest4_HORDE_Attain = "8"
 
 
 
 --------------- INST3 - Ragefire Chasm (RFC) ---------------
 
 Inst3Quest1_QuestID = "30995"
+Inst3Quest1_Level = "7"
+Inst3Quest1_Attain = "7"
+
 Inst3Quest2_QuestID = "30998"
+Inst3Quest2_Level = "7"
+Inst3Quest2_Attain = "7"
+
 Inst3Quest3_QuestID = "30996"
+Inst3Quest3_Level = "7"
+Inst3Quest3_Attain = "7"
+
 
 Inst3Quest1_HORDE_QuestID = "31037"
+Inst3Quest1_Level = "7"
+Inst3Quest1_Attain = "7"
+
 Inst3Quest2_HORDE_QuestID = "30984"
+Inst3Quest2_Level = "7"
+Inst3Quest2_Attain = "7"
+
 Inst3Quest3_HORDE_QuestID = "30969"
+Inst3Quest3_Level = "7"
+Inst3Quest3_Attain = "7"
+
 Inst3Quest4_HORDE_QuestID = "30983"
+Inst3Quest4_Level = "7"
+Inst3Quest4_Attain = "7"
 
 
 
 --------------- INST4 - Uldaman (Ulda) ---------------
 
 Inst4Quest1_QuestID = "27672"
+Inst4Quest1_Level = "15"
+Inst4Quest1_Attain = "15"
+
 Inst4Quest2_QuestID = "27677"
+Inst4Quest2_Level = "15"
+Inst4Quest2_Attain = "15"
+
 Inst4Quest3_QuestID = "27673"
+Inst4Quest3_Level = "15"
+Inst4Quest3_Attain = "15"
+
 Inst4Quest4_QuestID = "27676"
+Inst4Quest4_Level = "15"
+Inst4Quest4_Attain = "15"
+
 Inst4Quest5_QuestID = "2278"
+Inst4Quest5_Level = "15"
+Inst4Quest5_Attain = "15"
+
 Inst4Quest6_QuestID = "2280"
+Inst4Quest6_Level = "15"
+Inst4Quest6_Attain = "15"
+
 
 Inst4Quest1_HORDE_QuestID = "27679"
+Inst4Quest1_HORDE_Level = "15"
+Inst4Quest1_HORDE_Attain = "15"
+
 Inst4Quest2_HORDE_QuestID = "27680"
+Inst4Quest2_HORDE_Level = "15"
+Inst4Quest2_HORDE_Attain = "15"
+
 Inst4Quest3_HORDE_QuestID = "27682"
+Inst4Quest3_HORDE_Level = "15"
+Inst4Quest3_HORDE_Attain = "15"
+
 Inst4Quest4_HORDE_QuestID = "27681"
+Inst4Quest4_HORDE_Level = "15"
+Inst4Quest4_HORDE_Attain = "15"
+
 Inst4Quest5_HORDE_QuestID = "2278"
+Inst4Quest5_HORDE_Level = "15"
+Inst4Quest5_HORDE_Attain = "15"
+
 Inst4Quest6_HORDE_QuestID = "2280"
+Inst4Quest6_HORDE_Level = "15"
+Inst4Quest6_HORDE_Attain = "15"
 
 
 
 --------------- INST5 - Blackrock Depths (BRD) ---------------
 
 Inst5Quest1_QuestID = "27565"
+Inst5Quest_Level = ""
+Inst5Quest_Attain = ""
+
 Inst5Quest2_QuestID = "27567"
 Inst5Quest3_QuestID = "27603"
 Inst5Quest4_QuestID = "27568"
@@ -132,6 +239,9 @@ Inst5Quest22_Level = "56"
 Inst5Quest22_Attain = "50"
 
 Inst5Quest1_HORDE_QuestID = "27579"
+Inst5Quest_HORDE_Level = ""
+Inst5Quest_HORDE_Attain = ""
+
 Inst5Quest2_HORDE_QuestID = "27581"
 Inst5Quest3_HORDE_QuestID = "27603"
 Inst5Quest4_HORDE_QuestID = "27582"
