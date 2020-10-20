@@ -121,7 +121,6 @@ Inst1Quest5_Location = "Lieutenant Horatio Laine (The Deadmines; "..GREEN.."[1']
 Inst1Quest5_Note = "This quest is also automatically given upon entering the Mastroom in Deadmines.\n\n'Captain' Cookie is the final boss (on normal), located at "..YELLOW.."[4]"..WHITE.."."
 Inst1Quest5_Prequest = "The Admiral"
 Inst1Quest5_Folgequest = "None"
-Inst1Quest5FQuest = "true"
 --
 Inst1Quest5name1 = "Cookie's Meat Mallet"
 Inst1Quest5name2 = "Cookie's Stirring Stick"
@@ -171,7 +170,6 @@ Inst1Quest5_HORDE_Location = "Kagtha (The Deadmines; "..GREEN.."[1']"..WHITE..")
 Inst1Quest5_HORDE_Note = "This quest is also automatically given upon entering the Mastroom in Deadmines.\n\n'Captain' Cookie is the final boss (on normal), located at "..YELLOW.."[4]"..WHITE.."."
 Inst1Quest5_HORDE_Prequest = "The Admiral"
 Inst1Quest5_HORDE_Folgequest = "None"
-Inst1Quest5FQuest_HORDE = "true"
 --
 Inst1Quest5name1_HORDE = "Cookie's Meat Mallet"
 Inst1Quest5name2_HORDE = "Cookie's Stirring Stick"
@@ -301,7 +299,7 @@ Inst3Quest3_Folgequest = "None"
 --Quest 1 Horde
 Inst3Quest1_HORDE = "1. Enemies Below"
 Inst3Quest1_HORDE_Aim = "Speak with Commander Bagran."
-Inst3Quest1_HORDE_Location = "Garrosh Hellscream (Orgrimmar - Valley of Strength; "..YELLOW.."48.2, 70.6"..WHITE..")\nBaine Bloodhoof (Thunder Bluff - The High Rise; "..YELLOW.."60.6, 51.6"..WHITE..")\nLady Sylvanas Windrunner (Undercity - The Royal Quarter; "..YELLOW.."58.6, 93.0"..WHITE..")"
+Inst3Quest1_HORDE_Location = "Eitrigg (Orgrimmar - Valley of Strength; "..YELLOW.."49.2, 72.2"..WHITE..")\nBaine Bloodhoof (Thunder Bluff - The High Rise; "..YELLOW.."60.6, 51.6"..WHITE..")\nLady Sylvanas Windrunner (Undercity - The Royal Quarter; "..YELLOW.."58.6, 93.0"..WHITE..")"
 Inst3Quest1_HORDE_Note = "This is an optional quest that can be picked up in three different cities."
 Inst3Quest1_HORDE_Prequest = "None"
 Inst3Quest1_HORDE_Folgequest = "Animal Control"
@@ -358,7 +356,6 @@ Inst4Quest2_Location = "Lead Prospector Durdin (Uldaman; "..BLUE.."Entrance"..WH
 Inst4Quest2_Note = "Archaedas is at "..YELLOW.."[8]"..WHITE.."."
 Inst4Quest2_Prequest = "The Chamber of Khaz'mul"
 Inst4Quest2_Folgequest = "None"
-Inst4Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -395,7 +392,6 @@ Inst4Quest6_Location = "The Platinum Discs (Uldaman; "..GREEN.."[2']"..WHITE..")
 Inst4Quest6_Note = "The quest turns in to Lead Prospector Durdin at the entrance of the instance."
 Inst4Quest6_Prequest = "The Platinum Discs"
 Inst4Quest6_Folgequest = "None"
-Inst4Quest6FQuest = "true"
 --
 Inst4Quest6name1 = "Platinum Sword"
 Inst4Quest6name2 = "Band of Uldaman"
@@ -418,7 +414,6 @@ Inst4Quest2_HORDE_Location = "High Examiner Tae'thelan Bloodwatcher (Uldaman; ".
 Inst4Quest2_HORDE_Note = "Archaedas is at "..YELLOW.."[8]"..WHITE.."."
 Inst4Quest2_HORDE_Prequest = "The Chamber of Khaz'mul"
 Inst4Quest2_HORDE_Folgequest = "None"
-Inst4Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -455,7 +450,6 @@ Inst4Quest6_HORDE_Location = Inst4Quest6_Location
 Inst4Quest6_HORDE_Note = Inst4Quest6_Note
 Inst4Quest6_HORDE_Prequest = Inst4Quest6_Prequest
 Inst4Quest6_HORDE_Folgequest = Inst4Quest6_Folgequest
-Inst4Quest6FQuest_HORDE = Inst4Quest6FQuest
 --
 Inst4Quest6name1_HORDE = Inst4Quest6name1
 Inst4Quest6name2_HORDE = Inst4Quest6name2
@@ -485,7 +479,6 @@ Inst5Quest2_Location = "Kevin Dawson (Blackrock Depths; "..GREEN.."[2']"..WHITE.
 Inst5Quest2_Note = "High Interrogator Gerstahn can be found at "..YELLOW.."[1]"..WHITE.."."
 Inst5Quest2_Prequest = "Into the Prison"
 Inst5Quest2_Folgequest = "None"
-Inst5Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -513,7 +506,6 @@ Inst5Quest5_Location = "Prospector Seymour (Blackrock Depths; "..GREEN.."[3']"..
 Inst5Quest5_Note = "General Angerforge is at "..YELLOW.."[10]"..WHITE.." and Golem Lord Argelmach is at "..YELLOW.."[11]"..WHITE..". The quest turns in to Mayara Brightwing at "..GREEN.."[7']"..WHITE.."."
 Inst5Quest5_Prequest = "Infiltrating Shadowforge City"
 Inst5Quest5_Folgequest = "The Grim Guzzler"
-Inst5Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -523,7 +515,6 @@ Inst5Quest6_Location = "Mayara Brightwing (Blackrock Depths; "..GREEN.."[7']"..W
 Inst5Quest6_Note = "All three are in the Grim Guzzler at "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." and "..YELLOW.."[14]"..WHITE..". The quest turns in to Mountaineer Orfus at "..GREEN.."[10']"..WHITE.."."
 Inst5Quest6_Prequest = "Dark Iron Tacticians"
 Inst5Quest6_Folgequest = "The Dark Iron Pact"
-Inst5Quest6FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
@@ -533,7 +524,6 @@ Inst5Quest7_Location = "Mountaineer Orfus (Blackrock Depths; "..GREEN.."[10']"..
 Inst5Quest7_Note = "Ambassador Flamelash is at "..YELLOW.."[15]"..WHITE.." and Doom'rel is at "..YELLOW.."[16]"..WHITE..". The quest turns in to Marshall Maxwell at "..GREEN.."[11']"..WHITE.."."
 Inst5Quest7_Prequest = "The Grim Guzzler"
 Inst5Quest7_Folgequest = "Morgan's Fruition"
-Inst5Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
@@ -543,7 +533,6 @@ Inst5Quest8_Location = "Marshall Maxwell (Blackrock Depths; "..GREEN.."[11']"..W
 Inst5Quest8_Note = "Emperor Dagran Thaurissan is at "..YELLOW.."[18]"..WHITE..". The quest turns in back at Marshall Maxwell."
 Inst5Quest8_Prequest = "The Dark Iron Pact"
 Inst5Quest8_Folgequest = "None"
-Inst5Quest8FQuest = "true"
 --
 Inst5Quest8name1 = "Thaurissan's Breastplate"
 Inst5Quest8name2 = "Maxwell's Cloak"
@@ -565,7 +554,6 @@ Inst5Quest10_Location = "Ander Germaine (Stormwind City - Old Town; "..YELLOW.."
 Inst5Quest10_Note = "This is a Warrior class quest. The optional prequest comes from Warrior trainers in the capital cities.\n\nGeneral Angerforge is at "..YELLOW.."[10]"..WHITE.." and the Fireguard Destroyers are on the way to him."
 Inst5Quest10_Prequest = "Meet with Ander Germaine"
 Inst5Quest10_Folgequest = "None"
-Inst5Quest10PreQuest = "true"
 --
 Inst5Quest10name1 = "Faceguard of the Crown"
 Inst5Quest10name2 = "Headguard of the Crown"
@@ -577,7 +565,6 @@ Inst5Quest11_Location = "Farseer Umbrua (Stormwind City - Dwarven District; "..Y
 Inst5Quest11_Note = "This is a Shaman class quest. The optional prequest comes from Shaman trainers in the capital cities.\n\nThe Fireguards can be found in various locations inside Blackrock Depths. Use the Totem first before killing them."
 Inst5Quest11_Prequest = "Meet with Farseer Umbrua"
 Inst5Quest11_Folgequest = "None"
-Inst5Quest11PreQuest = "true"
 --
 Inst5Quest11name1 = "Mask of the Farseer"
 Inst5Quest11name2 = "Headcover of the Farseer"
@@ -589,7 +576,6 @@ Inst5Quest12_Location = "Demisette Cloyce (Stormwind City - The Mage Quarter; ".
 Inst5Quest12_Note = "This is a Warlock class quest. The optional prequest comes from Warlock trainers in the capital cities."
 Inst5Quest12_Prequest = "Meet with Demisette Cloyce"
 Inst5Quest12_Folgequest = "None"
-Inst5Quest12PreQuest = "true"
 --
 Inst5Quest12name1 = "Horns of Justified Sins"
 
@@ -600,7 +586,6 @@ Inst5Quest13_Location = "Loganaar (Moonglade - Nighthaven; "..YELLOW.."52.5, 40.
 Inst5Quest13_Note = "This is a Druid class quest. The optional prequest comes from Druid trainers in the capital cities.\n\nPyromancer Loregrain is at "..YELLOW.."[8]"..WHITE.."."
 Inst5Quest13_Prequest = "Moonglade Calls"
 Inst5Quest13_Folgequest = "None"
-Inst5Quest13PreQuest = "true"
 --
 Inst5Quest13name1 = "Headdress of the Verdant Circle"
 Inst5Quest13name2 = "Headdress of the Green Circle"
@@ -612,7 +597,6 @@ Inst5Quest14_Location = "Lord Tony Romano (Stormwind City - Old Town; "..YELLOW.
 Inst5Quest14_Note = "This is a Rogue class quest. The optional prequest comes from Rogue trainers in the capital cities."
 Inst5Quest14_Prequest = "Meet with Lord Tony Romano"
 Inst5Quest14_Folgequest = "None"
-Inst5Quest14PreQuest = "true"
 --
 Inst5Quest14name1 = "SI:7 Special Issue Facemask"
 
@@ -623,7 +607,6 @@ Inst5Quest15_Location = "Wulf Hansreim (Stormwind City - Old Town; "..YELLOW.."7
 Inst5Quest15_Note = "This is a Hunter class quest. The optional prequest comes from Hunter trainers in the capital cities.\n\nThe Elemental Golem Blueprints drop from Golem Lord Argelmach at "..YELLOW.."[11]"..WHITE.." and the Elemental Modules from the nearby Golems."
 Inst5Quest15_Prequest = "Meet with Wulf Hansreim"
 Inst5Quest15_Folgequest = "None"
-Inst5Quest15PreQuest = "true"
 --
 Inst5Quest15name1 = "Helm of the Crown"
 
@@ -634,7 +617,6 @@ Inst5Quest16_Location = "Maginor Dumas (Stormwind City - Mage Quarter; "..YELLOW
 Inst5Quest16_Note = "This is a Mage class quest. The optional prequest comes from Mage trainers in the capital cities.\n\nPyromancer Loregrain is at "..YELLOW.."[8]"..WHITE.."."
 Inst5Quest16_Prequest = "Meet with Maginor Dumas"
 Inst5Quest16_Folgequest = "None"
-Inst5Quest16PreQuest = "true"
 --
 Inst5Quest16name1 = "Hood of the Royal Wizard"
 
@@ -645,7 +627,6 @@ Inst5Quest17_Location = "High Priestess Laurena (Stormwind City - Cathedral Squa
 Inst5Quest17_Note = "This is a Priest class quest. The optional prequest comes from Priest trainers in the capital cities."
 Inst5Quest17_Prequest = "Meet with High Priestess Laurena"
 Inst5Quest17_Folgequest = "None"
-Inst5Quest17PreQuest = "true"
 --
 Inst5Quest17name1 = "Crown of the Hallowed"
 
@@ -656,7 +637,6 @@ Inst5Quest18_Location = "Lord Grayson Shadowbreaker (Stormwind City - Cathedral 
 Inst5Quest18_Note = "This is a Paladin class quest. The optional prequest comes from Paladin trainers in the capital cities.\n\nThe Black Anvil is at "..YELLOW.."[5]"..WHITE.."."
 Inst5Quest18_Prequest = "Meet with Lord Grayson Shadowbreaker"
 Inst5Quest18_Folgequest = "None"
-Inst5Quest18PreQuest = "true"
 --
 Inst5Quest18name1 = "Helm of the Order"
 Inst5Quest18name2 = "Faceguard of the Order"
@@ -717,7 +697,6 @@ Inst5Quest2_HORDE_Location = "Lexlort (Blackrock Depths; "..GREEN.."[2']"..WHITE
 Inst5Quest2_HORDE_Note = Inst5Quest2_Note
 Inst5Quest2_HORDE_Prequest = Inst5Quest2_Prequest
 Inst5Quest2_HORDE_Folgequest = Inst5Quest2_Folgequest
-Inst5Quest2FQuest_HORDE = Inst5Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -745,7 +724,6 @@ Inst5Quest5_HORDE_Location = "Razal'blade (Blackrock Depths; "..GREEN.."[3']"..W
 Inst5Quest5_HORDE_Note = "General Angerforge is at "..YELLOW.."[10]"..WHITE.." and Golem Lord Argelmach is at "..YELLOW.."[11]"..WHITE..". The quest turns in to Hierophant Theodora Mulvadania at "..GREEN.."[7']"..WHITE.."."
 Inst5Quest5_HORDE_Prequest = "Infiltrating Shadowforge City"
 Inst5Quest5_HORDE_Folgequest = "The Grim Guzzler"
-Inst5Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde
@@ -755,7 +733,6 @@ Inst5Quest6_HORDE_Location = "Hierophant Theodora Mulvadania (Blackrock Depths; 
 Inst5Quest6_HORDE_Note = "All three are in the Grim Guzzler at "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." and "..YELLOW.."[14]"..WHITE..". The quest turns in to Thunderheart at "..GREEN.."[10']"..WHITE.."."
 Inst5Quest6_HORDE_Prequest = "The 109th Division"
 Inst5Quest6_HORDE_Folgequest = "The Dark Iron Pact"
-Inst5Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde
@@ -765,7 +742,6 @@ Inst5Quest7_HORDE_Location = "Thunderheart (Blackrock Depths; "..GREEN.."[10']".
 Inst5Quest7_HORDE_Note = "Ambassador Flamelash is at "..YELLOW.."[15]"..WHITE.." and Doom'rel is at "..YELLOW.."[16]"..WHITE..". The quest turns in to Warlord Goretooth at "..GREEN.."[11']"..WHITE.."."
 Inst5Quest7_HORDE_Prequest = "The Grim Guzzler"
 Inst5Quest7_HORDE_Folgequest = "Rebirth of the K.E.F."
-Inst5Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 8 Horde
@@ -775,7 +751,6 @@ Inst5Quest8_HORDE_Location = "Warlord Goretooth (Blackrock Depths; "..GREEN.."[1
 Inst5Quest8_HORDE_Note = "Emperor Dagran Thaurissan is at "..YELLOW.."[18]"..WHITE..". The quest turns in back at Warlord Goretooth."
 Inst5Quest8_HORDE_Prequest = "The Dark Iron Pact"
 Inst5Quest8_HORDE_Folgequest = "None"
-Inst5Quest8FQuest_HORDE = "true"
 --
 Inst5Quest8name1_HORDE = "Dark Iron Band"
 Inst5Quest8name2_HORDE = "Thaurissan's Breastplate"
@@ -797,7 +772,6 @@ Inst5Quest10_HORDE_Location = "Grezz Ragefist (Orgrimmar - Valley of Honor; "..Y
 Inst5Quest10_HORDE_Note = "This is a Warrior class quest. The optional prequest comes from Warrior trainers in the capital cities.\n\nGeneral Angerforge is at "..YELLOW.."[10]"..WHITE.." and the Fireguard Destroyers are on the way to him."
 Inst5Quest10_HORDE_Prequest = "Meet with Grezz Ragefist"
 Inst5Quest10_HORDE_Folgequest = "None"
-Inst5Quest10PreQuest_HORDE = "true"
 --
 Inst5Quest10name1_HORDE = "Faceguard of the Horde"
 Inst5Quest10name2_HORDE = "Headguard of the Horde"
@@ -809,7 +783,6 @@ Inst5Quest11_HORDE_Location = "Kardris Dreamseeker (Orgrimmar - Valley of Wisdom
 Inst5Quest11_HORDE_Note = "This is a Shaman class quest. The optional prequest comes from Shaman trainers in the capital cities.\n\nThe Fireguards can be found in various locations inside Blackrock Depths. Use the Totem first before killing them."
 Inst5Quest11_HORDE_Prequest = "Meet with Kardris Dreamseeker"
 Inst5Quest11_HORDE_Folgequest = "None"
-Inst5Quest11PreQuest_HORDE = "true"
 --
 Inst5Quest11name1_HORDE = "Mask of the Speaker"
 Inst5Quest11name2_HORDE = "Headcover of the Speaker"
@@ -821,7 +794,6 @@ Inst5Quest12_HORDE_Location = "Zevrost (Orgrimmar - Cleft of Shadow; "..YELLOW..
 Inst5Quest12_HORDE_Note = "This is a Warlock class quest. The optional prequest comes from Warlock trainers in the capital cities."
 Inst5Quest12_HORDE_Prequest = "Meet with Zevrost"
 Inst5Quest12_HORDE_Folgequest = "None"
-Inst5Quest12PreQuest_HORDE = "true"
 --
 Inst5Quest12name1_HORDE = "Horns of the Left Hand Path"
 
@@ -832,7 +804,6 @@ Inst5Quest13_HORDE_Location = Inst5Quest13_Location
 Inst5Quest13_HORDE_Note = Inst5Quest13_Note
 Inst5Quest13_HORDE_Prequest = Inst5Quest13_Prequest
 Inst5Quest13_HORDE_Folgequest = Inst5Quest13_Folgequest
-Inst5Quest13PreQuest_HORDE = Inst5Quest13PreQuest
 --
 Inst5Quest13name1_HORDE = Inst5Quest13name1
 Inst5Quest13name2_HORDE = Inst5Quest13name2
@@ -844,7 +815,6 @@ Inst5Quest14_HORDE_Location = "Gordul (Orgrimmar - Cleft of Shadow; "..YELLOW.."
 Inst5Quest14_HORDE_Note = "This is a Rogue class quest. The optional prequest comes from Rogue trainers in the capital cities."
 Inst5Quest14_HORDE_Prequest = "Meet with Gordul"
 Inst5Quest14_HORDE_Folgequest = "None"
-Inst5Quest14PreQuest_HORDE = "true"
 --
 Inst5Quest14name1_HORDE = "Facemask of the Shattered Hand"
 
@@ -855,7 +825,6 @@ Inst5Quest15_HORDE_Location = "Ormak Grimshot (Orgrimmar - Valley of Honor; "..Y
 Inst5Quest15_HORDE_Note = "This is a Hunter class quest. The optional prequest comes from Hunter trainers in the capital cities.\n\nThe Elemental Golem Blueprints drop from Golem Lord Argelmach at "..YELLOW.."[11]"..WHITE.." and the Elemental Modules from the nearby Golems."
 Inst5Quest15_HORDE_Prequest = "Meet with Ormak Grimshot"
 Inst5Quest15_HORDE_Folgequest = "None"
-Inst5Quest15PreQuest_HORDE = "true"
 --
 Inst5Quest15name1_HORDE = "Helm of the Great Hunter"
 
@@ -866,7 +835,6 @@ Inst5Quest16_HORDE_Location = "Ureda (Orgrimmar - Cleft of Shadow; "..YELLOW.."5
 Inst5Quest16_HORDE_Note = "This is a Mage class quest. The optional prequest comes from Mage trainers in the capital cities.\n\nPyromancer Loregrain is at "..YELLOW.."[8]"..WHITE.."."
 Inst5Quest16_HORDE_Prequest = "Meet with Ureda"
 Inst5Quest16_HORDE_Folgequest = "None"
-Inst5Quest16PreQuest_HORDE = "true"
 --
 Inst5Quest16name1_HORDE = "Hood of the Arcane Path"
 
@@ -877,7 +845,6 @@ Inst5Quest17_HORDE_Location = "Dark Cleric Cecille (Orgrimmar - Valley of Streng
 Inst5Quest17_HORDE_Note = "This is a Priest class quest. The optional prequest comes from Priest trainers in the capital cities."
 Inst5Quest17_HORDE_Prequest = "Meet with Dark Cleric Cecille"
 Inst5Quest17_HORDE_Folgequest = "None"
-Inst5Quest17PreQuest_HORDE = "true"
 --
 Inst5Quest17name1_HORDE = "Crown of Forsaken Faith"
 
@@ -888,7 +855,6 @@ Inst5Quest18_HORDE_Location = "Master Pyreanor (Orgrimmar - Valley of Strength; 
 Inst5Quest18_HORDE_Note = "This is a Blood Elf Paladin quest. The optional prequest comes from Paladin trainers in the capital cities.\n\nThe Black Anvil is at "..YELLOW.."[5]"..WHITE.."."
 Inst5Quest18_HORDE_Prequest = "Meet with Master Pyreanor"
 Inst5Quest18_HORDE_Folgequest = "None"
-Inst5Quest18PreQuest_HORDE = "true"
 --
 Inst5Quest18name1_HORDE = "Helm of the Order"
 Inst5Quest18name2_HORDE = "Faceguard of the Order"
@@ -902,7 +868,6 @@ Inst5Quest19_HORDE_Location = "Sunwalker Atohmo (Orgrimmar - Valley of Wisdom;".
 Inst5Quest19_HORDE_Note = "This is a Tauren Paladin quest. The optional prequest comes from Paladin trainers in the capital cities.\n\nThe Black Anvil is at "..YELLOW.."[5]"..WHITE.."."
 Inst5Quest19_HORDE_Prequest = "Meet with Sunwalker Atohmo"
 Inst5Quest19_HORDE_Folgequest = "None"
-Inst5Quest19PreQuest_HORDE = "true"
 --
 Inst5Quest19name1_HORDE = "Helm of the Sunwalker"
 Inst5Quest19name2_HORDE = "Faceguard of the Sunwalker"
@@ -957,9 +922,9 @@ Inst6QAH = "1 Quest"
 
 --Quest 1 Alliance
 Inst6Quest1 = "1. The Lord of Blackrock"
-Inst6Quest1_Aim = "Return the Head of Nefarian to King Varian Wrynn in Stormwind."
+Inst6Quest1_Aim = "Return the Head of Nefarian to Grand Admiral Jes-Tereth in Stormwind."
 Inst6Quest1_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
-Inst6Quest1_Note = "King Varian Wrynn is at (Stormwind City - Stormwind Keep; "..YELLOW.."85.7, 31.8"..WHITE..").\n\nThe followup sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."71.5, 80.5"..WHITE..") for the reward."
+Inst6Quest1_Note = "Grand Admiral Jes-Tereth is at (Stormwind City - Stormwind Keep; "..YELLOW.."85.8, 32.8"..WHITE..").\n\nThe followup sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."71.5, 80.5"..WHITE..") for the reward."
 Inst6Quest1_Prequest = "None"
 Inst6Quest1_Folgequest = "The Lord of Blackrock"
 --
@@ -970,9 +935,9 @@ Inst6Quest1name3 = "Master Dragonslayer's Ring"
 
 --Quest 1 Horde
 Inst6Quest1_HORDE = "1. The Lord of Blackrock"
-Inst6Quest1_HORDE_Aim = "Return the Head of Nefarian to Garrosh in Orgrimmar."
+Inst6Quest1_HORDE_Aim = "Return the Head of Nefarian to Eitrigg in Orgrimmar."
 Inst6Quest1_HORDE_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
-Inst6Quest1_HORDE_Note = "Garrosh Hellscream is at (Orgrimmar - Valley of Strength; "..YELLOW.."48.2, 70.6"..WHITE..").\n\nThe followup sends you to Overlord Runthak (Orgrimmar - Valley of Strength; "..YELLOW.."51.3, 83.2"..WHITE..") for the reward."
+Inst6Quest1_HORDE_Note = "Eitrigg is at (Orgrimmar - Valley of Strength; "..YELLOW.."48.2, 70.6"..WHITE..").\n\nThe followup sends you to Overlord Runthak (Orgrimmar - Valley of Strength; "..YELLOW.."51.3, 83.2"..WHITE..") for the reward."
 Inst6Quest1_HORDE_Prequest = "None"
 Inst6Quest1_HORDE_Folgequest = "The Lord of Blackrock"
 --
@@ -1374,8 +1339,8 @@ Inst11Quest6name2_HORDE = Inst11Quest6name2
 --------------- INST12 - Dire Maul West (DM) ---------------
 
 Inst12Caption = "Dire Maul (West)"
-Inst12QAA = "15 Quests"
-Inst12QAH = "15 Quests"
+Inst12QAA = "6 Quests"
+Inst12QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst12Quest1 = "1. The Highborne"
@@ -1429,102 +1394,11 @@ Inst12Quest6_Location = "Shen'dralar Ancient (Dire Maul - West; "..GREEN.."[4']"
 Inst12Quest6_Note = "The Treasure of the Shen'dralar is near the ramp in the Athenaeum."
 Inst12Quest6_Prequest = "The Madness Within"
 Inst12Quest6_Folgequest = "None"
-Inst12Quest6FQuest = "true"
 --
 Inst12Quest6name1 = "Fras Siabi's Cigar Cutter"
 Inst12Quest6name2 = "Staff of Athen'a"
 Inst12Quest6name3 = "Shen'dralar Trident"
 Inst12Quest6name4 = "Dire Maul"
-
---Quest 7 Alliance
-Inst12Quest7 = "7. The Emerald Dream... (Druid)"
-Inst12Quest7_Aim = "Return the book to its rightful owners."
-Inst12Quest7_Location = "The Emerald Dream (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest7_Note = "The reward is for Druids. You turn the book in to Lorekeeper Javon at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest7_Prequest = "None"
-Inst12Quest7_Folgequest = "None"
---
-Inst12Quest7name1 = "Royal Seal of Eldre'Thalas"
-
---Quest 8 Alliance
-Inst12Quest8 = "8. The Greatest Race of Hunters (Hunter)"
-Inst12Quest8_Aim = "Return the book to its rightful owners."
-Inst12Quest8_Location = "The Greatest Race of Hunters (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest8_Note = "The reward is for Hunters. You turn the book in to Lorekeeper Mykos at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest8_Prequest = "None"
-Inst12Quest8_Folgequest = "None"
---
-Inst12Quest8name1 = "Royal Seal of Eldre'Thalas"
-
---Quest 9 Alliance
-Inst12Quest9 = "9. The Arcanist's Cookbook (Mage)"
-Inst12Quest9_Aim = "Return the book to its rightful owners."
-Inst12Quest9_Location = "The Arcanist's Cookbook (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest9_Note = "The reward is for Mages. You turn the book in to Lorekeeper Kildrath at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest9_Prequest = "None"
-Inst12Quest9_Folgequest = "None"
---
-Inst12Quest9name1 = "Royal Seal of Eldre'Thalas"
-
---Quest 10 Alliance
-Inst12Quest10 = "10. The Light and How To Swing It (Paladin)"
-Inst12Quest10_Aim = "Return the book to its rightful owners."
-Inst12Quest10_Location = "The Light and How To Swing It (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest10_Note = "The reward is for Paladins. You turn the book in to Lorekeeper Mykos at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest10_Prequest = "None"
-Inst12Quest10_Folgequest = "None"
---
-Inst12Quest10name1 = "Royal Seal of Eldre'Thalas"
-
---Quest 11 Alliance
-Inst12Quest11 = "11. Holy Bologna: What the Light Won't Tell You (Priest)"
-Inst12Quest11_Aim = "Return the book to its rightful owners."
-Inst12Quest11_Location = "Holy Bologna: What the Light Won't Tell You (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest11_Note = "The reward is for Priests. You turn the book in to Lorekeeper Javon at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest11_Prequest = "None"
-Inst12Quest11_Folgequest = "None"
---
-Inst12Quest11name1 = "Royal Seal of Eldre'Thalas"
-
---Quest 12 Alliance
-Inst12Quest12 = "12. Garona: A Study on Stealth and Treachery (Rogue)"
-Inst12Quest12_Aim = "Return the book to its rightful owners."
-Inst12Quest12_Location = "Garona: A Study on Stealth and Treachery (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest12_Note = "The reward is for Rogues. You turn the book in to Lorekeeper Kildrath at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest12_Prequest = "None"
-Inst12Quest12_Folgequest = "None"
---
-Inst12Quest12name1 = "Royal Seal of Eldre'Thalas"
-
---Quest 13 Alliance
-Inst12Quest13 = "13. Frost Shock and You (Shaman)"
-Inst12Quest13_Aim = "Return the book to its rightful owners."
-Inst12Quest13_Location = "Frost Shock and You (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest13_Note = "Shaman quest. You turn the book in to Lorekeeper Javon at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest13_Prequest = "None"
-Inst12Quest13_Folgequest = "None"
---
-Inst12Quest13name1 = "Royal Seal of Eldre'Thalas"
-
---Quest 14 Alliance
-Inst12Quest14 = "14. Harnessing Shadows (Warlock)"
-Inst12Quest14_Aim = "Return the book to its rightful owners."
-Inst12Quest14_Location = "Harnessing Shadows (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest14_Note = "Warlock quest. You turn the book in to Lorekeeper Mykos at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest14_Prequest = "None"
-Inst12Quest14_Folgequest = "None"
---
-Inst12Quest14name1 = "Royal Seal of Eldre'Thalas"
-
---Quest 15 Alliance
-Inst12Quest15 = "15. Codex of Defense (Warrior)"
-Inst12Quest15_Aim = "Return the book to its rightful owners."
-Inst12Quest15_Location = "Codex of Defense (randomly drops off bosses in all Dire Maul wings)"
-Inst12Quest15_Note = "Warrior quest. You turn the book in to Lorekeeper Kildrath at the Athenaeum "..GREEN.."[5']"..WHITE.."."
-Inst12Quest15_Prequest = "None"
-Inst12Quest15_Folgequest = "None"
---
-Inst12Quest15name1 = "Royal Seal of Eldre'Thalas"
 
 
 --Quest 1 Horde
@@ -1579,102 +1453,11 @@ Inst12Quest6_HORDE_Location = Inst12Quest6_Location
 Inst12Quest6_HORDE_Note = Inst12Quest6_Note
 Inst12Quest6_HORDE_Prequest = Inst12Quest6_Prequest
 Inst12Quest6_HORDE_Folgequest = Inst12Quest6_Folgequest
-Inst12Quest6FQuest_HORDE = Inst12Quest6FQuest
 --
 Inst12Quest6name1_HORDE = Inst12Quest6name1
 Inst12Quest6name2_HORDE = Inst12Quest6name2
 Inst12Quest6name3_HORDE = Inst12Quest6name3
 Inst12Quest6name4_HORDE = Inst12Quest6name4
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst12Quest7_HORDE = Inst12Quest7
-Inst12Quest7_HORDE_Aim = Inst12Quest7_Aim
-Inst12Quest7_HORDE_Location = Inst12Quest7_Location
-Inst12Quest7_HORDE_Note = Inst12Quest7_Note
-Inst12Quest7_HORDE_Prequest = Inst12Quest7_Prequest
-Inst12Quest7_HORDE_Folgequest = Inst12Quest7_Folgequest
---
-Inst12Quest7name1_HORDE = Inst12Quest7name1
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst12Quest8_HORDE = Inst12Quest8
-Inst12Quest8_HORDE_Aim = Inst12Quest8_Aim
-Inst12Quest8_HORDE_Location = Inst12Quest8_Location
-Inst12Quest8_HORDE_Note = Inst12Quest8_Note
-Inst12Quest8_HORDE_Prequest = Inst12Quest8_Prequest
-Inst12Quest8_HORDE_Folgequest = Inst12Quest8_Folgequest
---
-Inst12Quest8name1_HORDE = Inst12Quest8name1
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst12Quest9_HORDE = Inst12Quest9
-Inst12Quest9_HORDE_Aim = Inst12Quest9_Aim
-Inst12Quest9_HORDE_Location = Inst12Quest9_Location
-Inst12Quest9_HORDE_Note = Inst12Quest9_Note
-Inst12Quest9_HORDE_Prequest = Inst12Quest9_Prequest
-Inst12Quest9_HORDE_Folgequest = Inst12Quest9_Folgequest
---
-Inst12Quest9name1_HORDE = Inst12Quest9name1
-
---Quest 10 Horde  (same as Quest 10 Alliance)
-Inst12Quest10_HORDE = Inst12Quest10
-Inst12Quest10_HORDE_Aim = Inst12Quest10_Aim
-Inst12Quest10_HORDE_Location = Inst12Quest10_Location
-Inst12Quest10_HORDE_Note = Inst12Quest10_Note
-Inst12Quest10_HORDE_Prequest = Inst12Quest10_Prequest
-Inst12Quest10_HORDE_Folgequest = Inst12Quest10_Folgequest
---
-Inst12Quest10name1_HORDE = Inst12Quest10name1
-
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst12Quest11_HORDE = Inst12Quest11
-Inst12Quest11_HORDE_Aim = Inst12Quest11_Aim
-Inst12Quest11_HORDE_Location = Inst12Quest11_Location
-Inst12Quest11_HORDE_Note = Inst12Quest11_Note
-Inst12Quest11_HORDE_Prequest = Inst12Quest11_Prequest
-Inst12Quest11_HORDE_Folgequest = Inst12Quest11_Folgequest
---
-Inst12Quest11name1_HORDE = Inst12Quest11name1
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst12Quest12_HORDE = Inst12Quest12
-Inst12Quest12_HORDE_Aim = Inst12Quest12_Aim
-Inst12Quest12_HORDE_Location = Inst12Quest12_Location
-Inst12Quest12_HORDE_Note = Inst12Quest12_Note
-Inst12Quest12_HORDE_Prequest = Inst12Quest12_Prequest
-Inst12Quest12_HORDE_Folgequest = Inst12Quest12_Folgequest
---
-Inst12Quest12name1_HORDE = Inst12Quest12name1
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst12Quest13_HORDE = Inst12Quest13
-Inst12Quest13_HORDE_Aim = Inst12Quest13_Aim
-Inst12Quest13_HORDE_Location = Inst12Quest13_Location
-Inst12Quest13_HORDE_Note = Inst12Quest13_Note
-Inst12Quest13_HORDE_Prequest = Inst12Quest13_Prequest
-Inst12Quest13_HORDE_Folgequest = Inst12Quest13_Folgequest
---
-Inst12Quest13name1_HORDE = Inst12Quest13name1
-
---Quest 14 Horde  (same as Quest 14 Alliance)
-Inst12Quest14_HORDE = Inst12Quest14
-Inst12Quest14_HORDE_Aim = Inst12Quest14_Aim
-Inst12Quest14_HORDE_Location = Inst12Quest14_Location
-Inst12Quest14_HORDE_Note = Inst12Quest14_Note
-Inst12Quest14_HORDE_Prequest = Inst12Quest14_Prequest
-Inst12Quest14_HORDE_Folgequest = Inst12Quest14_Folgequest
---
-Inst12Quest14name1_HORDE = Inst12Quest14name1
-
---Quest 15 Horde  (same as Quest 15 Alliance)
-Inst12Quest15_HORDE = Inst12Quest15
-Inst12Quest15_HORDE_Aim = Inst12Quest15_Aim
-Inst12Quest15_HORDE_Location = Inst12Quest15_Location
-Inst12Quest15_HORDE_Note = Inst12Quest15_Note
-Inst12Quest15_HORDE_Prequest = Inst12Quest15_Prequest
-Inst12Quest15_HORDE_Folgequest = Inst12Quest15_Folgequest
---
-Inst12Quest15name1_HORDE = Inst12Quest15name1
 
 
 
@@ -1764,7 +1547,6 @@ Inst14Quest1_Location = "Highlord Demitrian (Silithus; "..YELLOW.."29.6, 10.6"..
 Inst14Quest1_Note = "Part of the Thunderfury, Blessed Blade of the Windseeker questline. It starts after obtaining either the left or right Bindings of the Windseeker from Garr at "..YELLOW.."[4]"..WHITE.." or Baron Geddon at "..YELLOW.."[6]"..WHITE..". Then talk to Highlord Demitrian to start the questline. Essence of the Firelord drops from Ragnaros at "..YELLOW.."[10]"..WHITE..". After turning this part in, Prince Thunderaan is summoned and you must kill him. He's a 40-man raid boss."
 Inst14Quest1_Prequest = "Examine the Vessel"
 Inst14Quest1_Folgequest = "Rise, Thunderfury!"
-Inst14Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -1785,7 +1567,6 @@ Inst14Quest1_HORDE_Location = Inst14Quest1_Location
 Inst14Quest1_HORDE_Note = Inst14Quest1_Note
 Inst14Quest1_HORDE_Prequest = Inst14Quest1_Prequest
 Inst14Quest1_HORDE_Folgequest = Inst14Quest1_Folgequest
-Inst14Quest1PreQuest_HORDE = Inst14Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -1956,7 +1737,6 @@ Inst18Quest5_Location = "Spirit of Agamaggan (Razorfen Kraul; "..GREEN.."[1']"..
 Inst18Quest5_Note = "Charlga Razorflank is at "..YELLOW.."[5]"..WHITE..".  The Spirit will move closer for you to turn the quest in after Charlga Razorflank is defeated."
 Inst18Quest5_Prequest = "Agamaggan"
 Inst18Quest5_Folgequest = "None"
-Inst18Quest5FQuest = "true"
 --
 Inst18Quest5name1 = "Agamaggan-Blessed Greaves"
 Inst18Quest5name2 = "Boots of the Noble Path"
@@ -2008,7 +1788,6 @@ Inst18Quest5_HORDE_Location = Inst18Quest5_Location
 Inst18Quest5_HORDE_Note = Inst18Quest5_Note
 Inst18Quest5_HORDE_Prequest = Inst18Quest5_Prequest
 Inst18Quest5_HORDE_Folgequest = Inst18Quest5_Folgequest
-Inst18Quest5FQuest_HORDE = Inst18Quest5FQuest
 --
 Inst18Quest5name1_HORDE = Inst18Quest5name1
 Inst18Quest5name2_HORDE = Inst18Quest5name2
@@ -2049,7 +1828,6 @@ Inst58Quest3_Location = "Fountain in Chapel Gardens"
 Inst58Quest3_Note = "High Inquisitor Whitemane is at "..YELLOW.."[3]"..WHITE..".  After you complete the quest, Lilian Voss will spawn to turn the quest in."
 Inst58Quest3_Prequest = "Blades of the Anointed"
 Inst58Quest3_Folgequest = "None"
-Inst58Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -2059,7 +1837,6 @@ Inst58Quest4_Location = "Fountain in Chapel Gardens"
 Inst58Quest4_Note = "High Inquisitor Whitemane is at "..YELLOW.."[3]"..WHITE..".  After you complete the quest, Lilian Voss will spawn to turn the quest in."
 Inst58Quest4_Prequest = "Blades of the Anointed"
 Inst58Quest4_Folgequest = "None"
-Inst58Quest4PreQuest = "true"
 --
 -- Reward varies for each class
 
@@ -2089,7 +1866,6 @@ Inst58Quest3_HORDE_Location = Inst58Quest3_Location
 Inst58Quest3_HORDE_Note = Inst58Quest3_Note
 Inst58Quest3_HORDE_Prequest = Inst58Quest3_Prequest
 Inst58Quest3_HORDE_Folgequest = Inst58Quest3_Folgequest
-Inst58Quest3PreQuest_HORDE = Inst58Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -2099,7 +1875,6 @@ Inst58Quest4_HORDE_Location = Inst58Quest4_Location
 Inst58Quest4_HORDE_Note = Inst58Quest4_Note
 Inst58Quest4_HORDE_Prequest = Inst58Quest4_Prequest
 Inst58Quest4_HORDE_Folgequest = Inst58Quest4_Folgequest
-Inst58Quest4PreQuest_HORDE = Inst58Quest4PreQuest
 --
 -- Reward varies for each class
 

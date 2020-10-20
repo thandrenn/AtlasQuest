@@ -7,6 +7,8 @@ Version 4.12.01  (for Shadowlands)  (October ??, 2020)
 - TOC update for Patch 9.0.1.
 - Shadowlands prep work.
 - Updates to some Return to Karazhan quests.
+- Removed old Dire Maul class quests.
+- Fixed some quest ID numbers being incorrect.
 
 
 
