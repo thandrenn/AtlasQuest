@@ -3137,33 +3137,61 @@ Inst29Quest8name1 = "Funkelmatverpackter Kasten"
 
 
 --Quest 1 Horde
-Inst29Quest1_HORDE = "1. Schmutzverkrusteter Ring"
-Inst29Quest1_HORDE_Aim = Inst29Quest6_Aim
-Inst29Quest1_HORDE_Location = Inst29Quest6_Location
-Inst29Quest1_HORDE_Note = Inst29Quest6_Note
+Inst29Quest1_HORDE = "1. Das G-Team"
+Inst29Quest1_HORDE_Aim = "Tötet die Verflüssigte Ablagerung."
+Inst29Quest1_HORDE_Location = "Mör'dok (Gnomeregan; "..BLUE.."Eingang"..WHITE..")"
+Inst29Quest1_HORDE_Note = "Verflüssigte Ablagerung ist bei "..YELLOW.."[2]"..WHITE..".Gebe die Quest bei Bi'ay Bäräkuss "..GREEN.."[3']"..WHITE.." ab."
 Inst29Quest1_HORDE_Prequest = "Nein"
-Inst29Quest1_HORDE_Folgequest = Inst29Quest6_Folgequest
+Inst29Quest1_HORDE_Folgequest = "Das G-Team"
 -- No Rewards for this quest
 
 --Quest 2 Horde
-Inst29Quest2_HORDE = "2. Die Rückkehr des Rings"
-Inst29Quest2_HORDE_Aim = Inst29Quest7_Aim
-Inst29Quest2_HORDE_Location = Inst29Quest7_Location
-Inst29Quest2_HORDE_Note = "Kann bei Nogg (Orgrimmar - Die Gasse; "..YELLOW.."56.6,56.8"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
-Inst29Quest2_HORDE_Prequest = Inst29Quest7_Prequest
-Inst29Quest2_HORDE_Folgequest = "Gnomenverbesserungen"
---
-Inst29Quest2name1_HORDE = Inst29Quest7name1
+Inst29Quest2_HORDE = "2. Das G-Team"
+Inst29Quest2_HORDE_Aim = "Tötet den Elektrokutor 6000."
+Inst29Quest2_HORDE_Location = "Bi'ay Bäräkuss (Gnomeregan; "..GREEN.."[3']"..WHITE..")"
+Inst29Quest2_HORDE_Note = "Elektrokutor 6000 ist bei "..YELLOW.."[3]"..WHITE..".Gebe die Quest bei Fähs "..GREEN.."[4']"..WHITE.." ab."
+Inst29Quest2_HORDE_Prequest = "Das G-Team"
+Inst29Quest2_HORDE_Folgequest = "Das G-Team"
+-- No Rewards for this quest
 
 --Quest 3 Horde
-Inst29Quest3_HORDE = "3. Der Funkelmat 5200!"
-Inst29Quest3_HORDE_Aim = Inst29Quest8_Aim
-Inst29Quest3_HORDE_Location = Inst29Quest8_Location
-Inst29Quest3_HORDE_Note = Inst29Quest8_Note
-Inst29Quest3_HORDE_Prequest = "Nein"
+Inst29Quest3_HORDE = "3. Das G-Team"
+Inst29Quest3_HORDE_Aim = "Tötet Robogenieur Thermadraht."
+Inst29Quest3_HORDE_Location = "Fähs (Gnomeregan; "..GREEN.."[4']"..WHITE..")"
+Inst29Quest3_HORDE_Note = "Robogenieur Thermadraht ist bei "..YELLOW.."[5]"..WHITE..".Gebe die Quest bei Hann Ibal "..GREEN.."[5']"..WHITE.." ab."
+Inst29Quest3_HORDE_Prequest = "Das G-Team"
 Inst29Quest3_HORDE_Folgequest = "Nein"
 --
-Inst29Quest3name1_HORDE = Inst29Quest8name1
+-- Reward varies for each class
+
+--Quest 4 Horde
+Inst29Quest4_HORDE = "4. Schmutzverkrusteter Ring"
+Inst29Quest4_HORDE_Aim = Inst29Quest6_Aim
+Inst29Quest4_HORDE_Location = Inst29Quest6_Location
+Inst29Quest4_HORDE_Note = Inst29Quest6_Note
+Inst29Quest4_HORDE_Prequest = "Nein"
+Inst29Quest4_HORDE_Folgequest = Inst29Quest6_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde
+Inst29Quest5_HORDE = "5. Die Rückkehr des Rings"
+Inst29Quest5_HORDE_Aim = Inst29Quest7_Aim
+Inst29Quest5_HORDE_Location = Inst29Quest7_Location
+Inst29Quest5_HORDE_Note = "Kann bei Nogg (Orgrimmar - Die Gasse; "..YELLOW.."56.6,56.8"..WHITE..") abgegeben werden. Die Folgequest, um den Ring zu verbessern, ist optional."
+Inst29Quest5_HORDE_Prequest = Inst29Quest7_Prequest
+Inst29Quest5_HORDE_Folgequest = "Gnomenverbesserungen"
+--
+Inst29Quest5name1_HORDE = Inst29Quest7name1
+
+--Quest 6 Horde
+Inst29Quest6_HORDE = "6. Der Funkelmat 5200!"
+Inst29Quest6_HORDE_Aim = Inst29Quest8_Aim
+Inst29Quest6_HORDE_Location = Inst29Quest8_Location
+Inst29Quest6_HORDE_Note = Inst29Quest8_Note
+Inst29Quest6_HORDE_Prequest = "Nein"
+Inst29Quest6_HORDE_Folgequest = "Nein"
+--
+Inst29Quest6name1_HORDE = Inst29Quest8name1
 
 
 

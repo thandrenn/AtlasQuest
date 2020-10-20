@@ -2022,7 +2022,6 @@ Inst20Quest6_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
 Inst20Quest6_Note = "LEGION Enchanting quest.  Normal or Heroic difficulty.  The Skystone Rod drops from the final boss in the dungeon.  The Radiant Zephyrite drops from the second to last boss in The Stonecore (Cataclysm - Deepholm).  Ancient Arkhana drops from the last boss in Scholomance (Classic - Western Plaguelands)."
 Inst20Quest6_Prequest = "On Azure Wings"
 Inst20Quest6_Folgequest = "Down to the Core"
-Inst20Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -2079,7 +2078,6 @@ Inst20Quest6_HORDE_Location = Inst20Quest6_Location
 Inst20Quest6_HORDE_Note = Inst20Quest6_Note
 Inst20Quest6_HORDE_Prequest = Inst20Quest6_Prequest
 Inst20Quest6_HORDE_Folgequest = Inst20Quest6_Folgequest
-Inst20Quest6PreQuest_HORDE = Inst20Quest6PreQuest
 -- No Rewards for this quest
 
 
@@ -2106,7 +2104,6 @@ Inst21Quest2_Location = "Packleader Ivar Bloodfang (Shadowfang Keep; "..GREEN.."
 Inst21Quest2_Note = "Baron Silverlaine is at "..YELLOW.."[2]"..WHITE.." and Commander Springvale is at "..YELLOW.."[3]"..WHITE..".\n\nPackleader Ivar Bloodfang also appears on the walkway after you kill Commander Springvale."
 Inst21Quest2_Prequest = "Sniffing Them Out"
 Inst21Quest2_Folgequest = "Fighting Tooth and Claw"
-Inst21Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2116,7 +2113,6 @@ Inst21Quest3_Location = "Packleader Ivar Bloodfang (Shadowfang Keep; "..GREEN.."
 Inst21Quest3_Note = "Lord Walden is at "..YELLOW.."[4]"..WHITE..".\n\nPackleader Ivar Bloodfang also appears at the doorway after you kill Lord Walden."
 Inst21Quest3_Prequest = "Armored to the Teeth"
 Inst21Quest3_Folgequest = "Fury of the Pack"
-Inst21Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -2126,7 +2122,6 @@ Inst21Quest4_Location = "Packleader Ivar Bloodfang (Shadowfang Keep; "..GREEN.."
 Inst21Quest4_Note = "Lord Godfrey is at "..YELLOW.."[5]"..WHITE..".\n\nPackleader Ivar Bloodfang is in the doorway leading to Lord Godfrey's room."
 Inst21Quest4_Prequest = "Fighting Tooth and Claw"
 Inst21Quest4_Folgequest = "None"
-Inst21Quest4FQuest = "true"
 --
 Inst21Quest4name1 = "Breastplate of the Terrible Price"
 Inst21Quest4name2 = "Packleader's Pauldrons"
@@ -2141,7 +2136,6 @@ Inst21Quest5_Location = "Loganaar (Moonglade - Nighthaven; "..YELLOW.."52.4, 40.
 Inst21Quest5_Note = "Walden's Elixirs drops at "..YELLOW.."[4]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Narianna (Moonglade - Nighthaven; "..YELLOW.."53.2, 42.6"..WHITE..").  The prequest starts from Celestine of the Harvest (Stormwind City; "..YELLOW.."57.6, 24.8"..WHITE..")."
 Inst21Quest5_Prequest = "An Invitation from Moonglade"
 Inst21Quest5_Folgequest = "None"
-Inst21Quest5PreQuest = "true"
 --
 Inst21Quest5name1 = "Staff of the Green Circle"
 Inst21Quest5name2 = "Staff of the Verdant Circle"
@@ -2153,7 +2147,6 @@ Inst21Quest6_Location = "Wulf Hansreim (Stormwind City - Old Town; "..YELLOW.."7
 Inst21Quest6_Note = "Godfrey's Crystal Scope drops at "..YELLOW.."[5]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Frederick Stover (Stormwind City - Trade District; "..YELLOW.."58.6, 69.0"..WHITE..").  The prequest starts from Vord (The Exodar - Traders' Tier; "..YELLOW.."47.2, 88.4"..WHITE..")."
 Inst21Quest6_Prequest = "Wulf Calls"
 Inst21Quest6_Folgequest = "None"
-Inst21Quest6PreQuest = "true"
 --
 Inst21Quest6name1 = "Crossbow of the Crown"
 
@@ -2164,7 +2157,6 @@ Inst21Quest7_Location = "Maginor Dumas (Stormwind City - The Mage Quarter; "..YE
 Inst21Quest7_Note = "Silverlaine's Enchanted Crystal drops at "..YELLOW.."[2]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from Tarelvir (Darnassus - The Temple of the Moon; "..YELLOW.."37.6, 80.0"..WHITE..")."
 Inst21Quest7_Prequest = "Journey to the Wizard's Sanctum"
 Inst21Quest7_Folgequest = "None"
-Inst21Quest7PreQuest = "true"
 --
 Inst21Quest7name1 = "Staff of the Royal Wizard"
 
@@ -2175,7 +2167,6 @@ Inst21Quest8_Location = "Lord Grayson Shadowbreaker (Stormwind City - Cathedral 
 Inst21Quest8_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Therum Deepforge (Stormwind City - Dwarven District; "..YELLOW.."63.4, 37.2"..WHITE..").  The prequest starts from Rukua (Darnassus - The Temple of the Moon; "..YELLOW.."42.8, 77.6"..WHITE..")."
 Inst21Quest8_Prequest = "Lord Grayson Shadowbreaker"
 Inst21Quest8_Folgequest = "None"
-Inst21Quest8PreQuest = "true"
 --
 Inst21Quest8name1 = "Mace of the Order"
 Inst21Quest8name2 = "Gavel of the Order"
@@ -2188,7 +2179,6 @@ Inst21Quest9_Location = "High Priestess Laurena (Stormwind City - Cathedral of L
 Inst21Quest9_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from Caedmos (The Exodar - The Vault of Lights; "..YELLOW.."38.8, 51.0"..WHITE..")."
 Inst21Quest9_Prequest = "Make Haste to the Cathedral"
 Inst21Quest9_Folgequest = "None"
-Inst21Quest9PreQuest = "true"
 --
 Inst21Quest9name1 = "Staff of the Hallowed"
 
@@ -2199,7 +2189,6 @@ Inst21Quest10_Location = "Tyrande Whisperwind (Darnassus - The Temple of the Moo
 Inst21Quest10_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from High Priest Rohan (Ironforge - The Mystic Ward; "..YELLOW.."24.8, 8.4"..WHITE..")."
 Inst21Quest10_Prequest = "The Temple of the Moon"
 Inst21Quest10_Folgequest = "None"
-Inst21Quest10PreQuest = "true"
 --
 Inst21Quest10name1 = "Moon Staff of Elune"
 
@@ -2210,7 +2199,6 @@ Inst21Quest11_Location = "Chief Surgeon Gashweld (Stormwind City - Dwarven Distr
 Inst21Quest11_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from High Priest Rohan (Ironforge - The Mystic Ward; "..YELLOW.."24.8, 8.4"..WHITE..")."
 Inst21Quest11_Prequest = "The Chief Surgeon"
 Inst21Quest11_Folgequest = "None"
-Inst21Quest11PreQuest = "true"
 --
 Inst21Quest11name1 = "Staff of the Technocrat"
 
@@ -2221,7 +2209,6 @@ Inst21Quest12_Location = "Lord Tony Romano (Stormwind City - Old Town; "..YELLOW
 Inst21Quest12_Note = "Springvale's Sharpening Stone drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Therum Deepforge (Stormwind City - Dwarven District; "..YELLOW.."63.4, 37.2"..WHITE..").  The prequest starts from Hulfdan Blackbeard (Ironforge - The Forlorn Cavern; "..YELLOW.."50.8, 15.2"..WHITE..")."
 Inst21Quest12_Prequest = "Make Contact with SI:7"
 Inst21Quest12_Folgequest = "None"
-Inst21Quest12PreQuest = "true"
 --
 Inst21Quest12name1 = "SI:7 Special Issue Dagger"
 
@@ -2232,7 +2219,6 @@ Inst21Quest13_Location = "Farseer Umbrua (Stormwind City - The Valley of Heroes;
 Inst21Quest13_Note = "Walden's Talisman drops at "..YELLOW.."[4]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Therum Deepforge (Stormwind City - Dwarven District; "..YELLOW.."63.4, 37.2"..WHITE..").  The prequest starts from Farseer Javad (Ironforge - The Great Forge; "..YELLOW.."55.2, 29.0"..WHITE..")."
 Inst21Quest13_Prequest = "An Audience with the Farseer"
 Inst21Quest13_Folgequest = "None"
-Inst21Quest13PreQuest = "true"
 --
 Inst21Quest13name1 = "Battleaxe of the Farseer"
 Inst21Quest13name2 = "Spell Axe of the Farseer"
@@ -2244,7 +2230,6 @@ Inst21Quest14_Location = "Demisette Cloyce (Stormwind City - The Mage Quarter; "
 Inst21Quest14_Note = "Tenebrous Orb drops at "..YELLOW.."[5]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Lucan Cordell (Stormwind City - The Mage Quarter; "..YELLOW.."53.0, 74.2"..WHITE..").  The prequest starts from Alexander Calder (Ironforge - The Forlorn Cavern; "..YELLOW.."50.2, 7.4"..WHITE..")."
 Inst21Quest14_Prequest = "Demisette Sends Word"
 Inst21Quest14_Folgequest = "None"
-Inst21Quest14PreQuest = "true"
 --
 Inst21Quest14name1 = "Staff of Justified Sins"
 
@@ -2255,7 +2240,6 @@ Inst21Quest15_Location = "Ander Germaine (Stormwind City - Old Town; "..YELLOW..
 Inst21Quest15_Note = "Silverlaine Family Sword drops at "..YELLOW.."[2]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Therum Deepforge (Stormwind City - Dwarven District; "..YELLOW.."63.4, 37.2"..WHITE..").  The prequest starts from Behomat (The Exodar - The Traders' Tier; "..YELLOW.."55.4, 81.8"..WHITE..")."
 Inst21Quest15_Prequest = "A Summons from Ander Germaine"
 Inst21Quest15_Folgequest = "None"
-Inst21Quest15PreQuest = "true"
 --
 Inst21Quest15name1 = "Broadsword of the Crown"
 Inst21Quest15name2 = "Greatsword of the Crown"
@@ -2286,7 +2270,6 @@ Inst21Quest2_HORDE_Location = "Deathstalker Commander Belmont (Shadowfang Keep; 
 Inst21Quest2_HORDE_Note = "Baron Silverlaine is at "..YELLOW.."[2]"..WHITE.." and Commander Springvale is at "..YELLOW.."[3]"..WHITE..".\n\nDeathstalker Commander Belmont also appears on the walkway after you kill Commander Springvale."
 Inst21Quest2_HORDE_Prequest = "This Land is Our Land"
 Inst21Quest2_HORDE_Folgequest = "Orders Are For the Living"
-Inst21Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -2296,7 +2279,6 @@ Inst21Quest3_HORDE_Location = "Deathstalker Commander Belmont (Shadowfang Keep; 
 Inst21Quest3_HORDE_Note = "Lord Walden is at "..YELLOW.."[4]"..WHITE..".\n\nDeathstalker Commander Belmont also appears at the doorway after you kill Lord Walden."
 Inst21Quest3_HORDE_Prequest = "Plague...Plague Everywhere!"
 Inst21Quest3_HORDE_Folgequest = "Sweet, Merciless Reveng"
-Inst21Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -2306,7 +2288,6 @@ Inst21Quest4_HORDE_Location = "Deathstalker Commander Belmont (Shadowfang Keep; 
 Inst21Quest4_HORDE_Note = "Lord Godfrey is at "..YELLOW.."[5]"..WHITE..".\n\nDeathstalker Commander Belmont is in the doorway leading to Lord Godfrey's room."
 Inst21Quest4_HORDE_Prequest = "Orders Are For the Living"
 Inst21Quest4_HORDE_Folgequest = "None"
-Inst21Quest4FQuest_HORDE = "true"
 --
 Inst21Quest4name1_HORDE = "Breastplate of the Terrible Price"
 Inst21Quest4name2_HORDE = "Deathstalker Pauldrons"
@@ -2321,7 +2302,6 @@ Inst21Quest5_HORDE_Location = Inst21Quest5_Location
 Inst21Quest5_HORDE_Note = "Walden's Elixirs drops at "..YELLOW.."[4]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Narianna (Moonglade - Nighthaven; "..YELLOW.."53.2, 42.6"..WHITE..").  The prequest starts from Sesebi (Orgrimmar - Valley of Spirits; "..YELLOW.."35.0, 67.6"..WHITE..")."
 Inst21Quest5_HORDE_Prequest = "A Journey to Moonglade"
 Inst21Quest5_HORDE_Folgequest = Inst21Quest5_Folgequest
-Inst21Quest5PreQuest_HORDE = Inst21Quest5PreQuest
 --
 Inst21Quest5name1_HORDE = Inst21Quest5name1
 Inst21Quest5name2_HORDE = Inst21Quest5name2
@@ -2333,7 +2313,6 @@ Inst21Quest6_HORDE_Location = "Ormak Grimshot (Orgrimmar - The Valley of Honor; 
 Inst21Quest6_HORDE_Note = "Godfrey's Crystal Scope drops at "..YELLOW.."[5]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Apolos (Undercity - The War Quarter; "..YELLOW.."49.6, 29"..WHITE..")."
 Inst21Quest6_HORDE_Prequest = "Grimshot's Call"
 Inst21Quest6_HORDE_Folgequest = "None"
-Inst21Quest6PreQuest_HORDE = "true"
 --
 Inst21Quest6name1_HORDE = "Bow of the Great Hunter"
 
@@ -2344,7 +2323,6 @@ Inst21Quest7_HORDE_Location = "Ureda (Orgrimmar - Cleft of Shadow; "..YELLOW.."6
 Inst21Quest7_HORDE_Note = "Silverlaine's Enchanted Crystal drops at "..YELLOW.."[2]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Inethven (Silvermoon City - Sunfury Spire; "..YELLOW.."59.0, 19.6"..WHITE..")."
 Inst21Quest7_HORDE_Prequest = "An Audience with Ureda"
 Inst21Quest7_HORDE_Folgequest = "None"
-Inst21Quest7PreQuest_HORDE = "true"
 --
 Inst21Quest7name1_HORDE = "Staff of the Arcane Path"
 
@@ -2355,7 +2333,6 @@ Inst21Quest8_HORDE_Location = "Sunwalker Atohmo (Orgrimmar - The Valley of Wisdo
 Inst21Quest8_HORDE_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Aponi Brightmane (Thunder Bluff - The Hunter Rise; "..YELLOW.."63.2, 79.8"..WHITE..")."
 Inst21Quest8_HORDE_Prequest = "Follow the Sun"
 Inst21Quest8_HORDE_Folgequest = "None"
-Inst21Quest8PreQuest_HORDE = "true"
 --
 Inst21Quest8name1_HORDE = "Mace of the Sunwalker"
 Inst21Quest8name2_HORDE = "Battlehammer of the Sunwalker"
@@ -2368,7 +2345,6 @@ Inst21Quest9_HORDE_Location = "Master Pyreanor (Orgrimmar - The Valley of Streng
 Inst21Quest9_HORDE_Note = "This quest is only for Blood Elf Paladins.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Aponi Brightmane (Thunder Bluff - The Hunter Rise; "..YELLOW.."63.2, 79.8"..WHITE..")."
 Inst21Quest9_HORDE_Prequest = "Seek Out Master Pyreanor"
 Inst21Quest9_HORDE_Folgequest = "None"
-Inst21Quest9PreQuest_HORDE = "true"
 --
 Inst21Quest9name1_HORDE = "Morningstar of the Order"
 Inst21Quest9name2_HORDE = "Battlemace of the Order"
@@ -2381,7 +2357,6 @@ Inst21Quest10_HORDE_Location = "Brother Silverhallow (Orgrimmar - The Valley of 
 Inst21Quest10_HORDE_Note = "This quest is only for Goblin Priests.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from ?? (Orgrimmar - ??; "..YELLOW.."??, ??"..WHITE..")."
 Inst21Quest10_HORDE_Prequest = "Seek Brother Silverhallow"
 Inst21Quest10_HORDE_Folgequest = "None"
-Inst21Quest10PreQuest_HORDE = "true"
 --
 Inst21Quest10name1_HORDE = "Staff of Golden Worship"
 
@@ -2392,7 +2367,6 @@ Inst21Quest11_HORDE_Location = "Shadow-Walker Zuru (Orgrimmar - The Valley of Sp
 Inst21Quest11_HORDE_Note = "This quest is only for Troll Priests.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Aldrae (Silvermoon City - Sunfury Spire; "..YELLOW.."53.2, 26.6"..WHITE..")."
 Inst21Quest11_HORDE_Prequest = "Seek the Shadow-Walker"
 Inst21Quest11_HORDE_Folgequest = "None"
-Inst21Quest11PreQuest_HORDE = "true"
 --
 Inst21Quest11name1_HORDE = "Shadow-Walker Staff"
 
@@ -2403,7 +2377,6 @@ Inst21Quest12_HORDE_Location = "Seer Liwatha (Orgrimmar - The Valley of Wisdom; 
 Inst21Quest12_HORDE_Note = "Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Seer Beryl (Thunder Bluff - The Elder Rise; "..YELLOW.."75.4, 28.0"..WHITE..")."
 Inst21Quest12_HORDE_Prequest = "The Seer's Call"
 Inst21Quest12_HORDE_Folgequest = "None"
-Inst21Quest12PreQuest_HORDE = "true"
 --
 Inst21Quest12name1_HORDE = "Staff of the Earthmother"
 
@@ -2414,7 +2387,6 @@ Inst21Quest13_HORDE_Location = "Tyelis (Orgrimmar - The Valley of Strength; "..Y
 Inst21Quest13_HORDE_Note = "This quest is only for Blood Elf Priest.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Seer Beryl (Thunder Bluff - The Elder Rise; "..YELLOW.."75.4, 28.0"..WHITE..")."
 Inst21Quest13_HORDE_Prequest = "Journey to Orgrimmar"
 Inst21Quest13_HORDE_Folgequest = "None"
-Inst21Quest13PreQuest_HORDE = "true"
 --
 Inst21Quest13name1_HORDE = "Staff of the Sunchaser"
 
@@ -2425,7 +2397,6 @@ Inst21Quest14_HORDE_Location = "Dark Cleric Cecille (Orgrimmar - The Valley of S
 Inst21Quest14_HORDE_Note = "This quest is only for Undead Priest.  Commander's Holy Symbol drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Aldrae (Silvermoon City - Sunfury Spire; "..YELLOW.."53.2, 26.6"..WHITE..")."
 Inst21Quest14_HORDE_Prequest = "Dark Cleric Cecille"
 Inst21Quest14_HORDE_Folgequest = "None"
-Inst21Quest14PreQuest_HORDE = "true"
 --
 Inst21Quest14name1_HORDE = "Staff of Forsaken Faith"
 
@@ -2436,7 +2407,6 @@ Inst21Quest15_HORDE_Location = "Gordul (Orgrimmar - Cleft of Shadow; "..YELLOW..
 Inst21Quest15_HORDE_Note = "Springvale's Sharpening Stone drops at "..YELLOW.."[3]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Zelanis (Silvermoon City - Murder Row; "..YELLOW.."79.6, 52.0"..WHITE..")."
 Inst21Quest15_HORDE_Prequest = "The Shattered Hand"
 Inst21Quest15_HORDE_Folgequest = "None"
-Inst21Quest15PreQuest_HORDE = "true"
 --
 Inst21Quest15name1_HORDE = "Blade of the Shattered Hand"
 
@@ -2447,7 +2417,6 @@ Inst21Quest16_HORDE_Location = ""
 Inst21Quest16_HORDE_Note = "Walden's Talisman drops at "..YELLOW.."[4]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Beram Skychaser (Thunder Bluff - The Spirit Rise; "..YELLOW.."22.2, 19.0"..WHITE..")."
 Inst21Quest16_HORDE_Prequest = "The Dreamseeker Calls"
 Inst21Quest16_HORDE_Folgequest = "None"
-Inst21Quest16PreQuest_HORDE = "true"
 --
 Inst21Quest16name1_HORDE = "Battleaxe of the Speaker"
 Inst21Quest16name2_HORDE = "Spell Axe of the Speaker"
@@ -2459,7 +2428,6 @@ Inst21Quest17_HORDE_Location = "Zevrost (Orgrimmar - Cleft of Shadow; "..YELLOW.
 Inst21Quest17_HORDE_Note = "Tenebrous Orb drops at "..YELLOW.."[5]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Godan (Orgrimmar - Cleft of Shadow; "..YELLOW.."53.4, 49.4"..WHITE..").  The prequest starts from Zanien (Silvermoon City - Murder Row; "..YELLOW.."73.2, 45.2"..WHITE..")."
 Inst21Quest17_HORDE_Prequest = "Zevrost's Behest"
 Inst21Quest17_HORDE_Folgequest = "None"
-Inst21Quest17PreQuest_HORDE = "true"
 --
 Inst21Quest17name1_HORDE = "Staff of the Left Hand Path"
 
@@ -2470,7 +2438,6 @@ Inst21Quest18_HORDE_Location = "Grezz Ragefist (Orgrimmar - The Valley of Honor;
 Inst21Quest18_HORDE_Note = "Silverlaine Family Sword drops at "..YELLOW.."[2]"..WHITE..".  The other materials are found or drop around the instance.\n\nTurn in is at Saru Steelfury (Orgrimmar - The Valley of Honor; "..YELLOW.."76.2, 34.6"..WHITE..").  The prequest starts from Alsudar the Bastion (Silvermoon City - Farstrider's Square; "..YELLOW.."81.6, 38.2"..WHITE..")."
 Inst21Quest18_HORDE_Prequest = "Grezz Ragefist"
 Inst21Quest18_HORDE_Folgequest = "None"
-Inst21Quest18PreQuest_HORDE = "true"
 --
 Inst21Quest18name1_HORDE = "Broadaxe of the Horde"
 Inst21Quest18name2_HORDE = "Greataxe of the Horde"
@@ -2517,7 +2484,6 @@ Inst22Quest3_Location = "Lord Raymond George (Eastern Plaguelands - Lights Hope 
 Inst22Quest3_Note = "The book can be found at "..YELLOW.."[5]"..WHITE..".\n\nThis is a repeatable reputation quest for the Argent Dawn. The prequest line starts at Fiona (Eastern Plaguelands - Fiona's Caravan; "..YELLOW.."9.0, 66.4"..WHITE.."."
 Inst22Quest3_Prequest = "Gidwin Goldbraids -> Argent Call: The Noxious Glade"
 Inst22Quest3_Folgequest = "None"
-Inst22Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -2586,7 +2552,6 @@ Inst22Quest3_HORDE_Location = Inst22Quest3_Location
 Inst22Quest3_HORDE_Note = Inst22Quest3_Note
 Inst22Quest3_HORDE_Prequest = Inst22Quest3_Prequest
 Inst22Quest3_HORDE_Folgequest = Inst22Quest3_Folgequest
-Inst22Quest3PreQuest_HORDE = Inst22Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -2817,7 +2782,6 @@ Inst25Quest1_Location = "Lord Itharius (Swamp of Sorrows - The Temple of Atal'Ha
 Inst25Quest1_Note = "Lord Itharius is just inside the entrance of the instance.\n\nThe prequest line also starts from Lord Itharius, but is outside of the instance.  You do not have to complete this quest to pick up the other dungeon quests for Sunken Temple."
 Inst25Quest1_Prequest = "Pool of Tears -> Blessing of the Green Dragonflight"
 Inst25Quest1_Folgequest = "None"
-Inst25Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -2856,7 +2820,6 @@ Inst25Quest1_HORDE_Location = Inst25Quest1_Location
 Inst25Quest1_HORDE_Note = Inst25Quest1_Note
 Inst25Quest1_HORDE_Prequest = Inst25Quest1_Prequest
 Inst25Quest1_HORDE_Folgequest = Inst25Quest1_Folgequest
-Inst25Quest1PreQuest_HORDE = Inst25Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2Horde  (same as Quest 2 Alliance)
@@ -2911,7 +2874,6 @@ Inst26Quest2_Location = "Eye of C'Thun (drops from C'Thun; "..YELLOW.."[9]"..WHI
 Inst26Quest2_Note = "Anachronos can be found at (Tanaris - Caverns of Time; "..YELLOW.."64.2, 51.2"..WHITE..")."
 Inst26Quest2_Prequest = "C'Thun's Legacy"
 Inst26Quest2_Folgequest = "None"
-Inst26Quest2FQuest = "true"
 --
 Inst26Quest2name1 = "Amulet of the Fallen God"
 Inst26Quest2name2 = "Cloak of the Fallen God"
@@ -2952,7 +2914,6 @@ Inst26Quest2_HORDE_Location = Inst26Quest2_Location
 Inst26Quest2_HORDE_Note = Inst26Quest2_Note
 Inst26Quest2_HORDE_Prequest = Inst26Quest2_Prequest
 Inst26Quest2_HORDE_Folgequest = Inst26Quest2_Folgequest
-Inst26Quest2FQuest_HORDE = Inst26Quest2FQuest
 --
 Inst26Quest2name1_HORDE = Inst26Quest2name1
 Inst26Quest2name2_HORDE = Inst26Quest2name2
@@ -2991,7 +2952,6 @@ Inst27Quest1_Location = "Trenton Lighthammer (Tanaris - Zul'Farrak; "..YELLOW.."
 Inst27Quest1_Note = "Mazoga is just inside the entrance of the instance.\n\nThe prequest line starts at Mazoga (Tanaris - Zul'Furrak; "..YELLOW.."42.2, 23.8"..WHITE.."), outside the instance."
 Inst27Quest1_Prequest = "Blood to Thrive -> Secrets in the Oasis"
 Inst27Quest1_Folgequest = "Chief Ukorz Sandscalp"
-Inst27Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -3001,7 +2961,6 @@ Inst27Quest2_Location = "Mazoga's Spirit (Zul'Farrak; "..BLUE.."Entrance"..WHITE
 Inst27Quest2_Note = "Chief Ukorz Sandscalp is at "..YELLOW.."[4]"..WHITE.."."
 Inst27Quest2_Prequest = "Into Zul'Farrak"
 Inst27Quest2_Folgequest = "None"
-Inst27Quest2FQuest = "true"
 --
 Inst27Quest2name1 = "Mazoga's Boots"
 Inst27Quest2name2 = "Hands of Consequences"
@@ -3046,7 +3005,6 @@ Inst27Quest1_HORDE_Location = Inst27Quest1_Location
 Inst27Quest1_HORDE_Note = Inst27Quest1_Note
 Inst27Quest1_HORDE_Prequest = Inst27Quest1_Prequest
 Inst27Quest1_HORDE_Folgequest = Inst27Quest1_Folgequest
-Inst27Quest1PreQuest_HORDE = Inst27Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -3056,7 +3014,6 @@ Inst27Quest2_HORDE_Location = Inst27Quest2_Location
 Inst27Quest2_HORDE_Note = Inst27Quest2_Note
 Inst27Quest2_HORDE_Prequest = Inst27Quest2_Prequest
 Inst27Quest2_HORDE_Folgequest = Inst27Quest2_Folgequest
-Inst27Quest2FQuest_HORDE = Inst27Quest2FQuest
 --
 Inst27Quest2name1_HORDE = Inst27Quest2name1
 Inst27Quest2name2_HORDE = Inst27Quest2name2
@@ -3099,7 +3056,7 @@ Inst27Quest5name4_HORDE = Inst27Quest5name4
 
 Inst29Caption = "Gnomeregan"
 Inst29QAA = "8 Quests"
-Inst29QAH = "3 Quests"
+Inst29QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst29Quest1 = "1. Home Sweet Gnome"
@@ -3126,7 +3083,6 @@ Inst29Quest3_Location = "Murd Doc (Gnomeregan; "..BLUE.."Entrance"..WHITE..")"
 Inst29Quest3_Note = "Viscous Fallout is at "..YELLOW.."[2]"..WHITE..".  Turn the quest in to B.E Barechus at "..GREEN.."[3']"..WHITE.."."
 Inst29Quest3_Prequest = "Exploring Gnomeregan or Home Sweet Gnome"
 Inst29Quest3_Folgequest = "The G-Team"
-Inst29Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -3136,7 +3092,6 @@ Inst29Quest4_Location = "B.E Barechus (Gnomeregan; "..GREEN.."[3']"..WHITE..")"
 Inst29Quest4_Note = "Electrocutioner 6000 is at "..YELLOW.."[3]"..WHITE..".  Turn the quest in to Face at "..GREEN.."[4']"..WHITE.."."
 Inst29Quest4_Prequest = "The G-Team"
 Inst29Quest4_Folgequest = "The G-Team"
-Inst29Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -3146,7 +3101,6 @@ Inst29Quest5_Location = "Face (Gnomeregan; "..GREEN.."[4']"..WHITE..")"
 Inst29Quest5_Note = "Mekgineer Thermaplugg is at "..YELLOW.."[5]"..WHITE..".  Turn the quest in to Hann Ibal at "..GREEN.."[5']"..WHITE.."."
 Inst29Quest5_Prequest = "The G-Team"
 Inst29Quest5_Folgequest = "None"
-Inst29Quest5FQuest = "true"
 --
 Inst29Quest5name1 = "G-Team Belt"
 Inst29Quest5name2 = "Barechus' Greaves"
@@ -3170,7 +3124,6 @@ Inst29Quest7_Location = "Brilliant Gold Ring (obtained from Grime-Encrusted Ring
 Inst29Quest7_Note = "Turns in to Talvash del Kissel (Ironforge - Mystic Ward; "..YELLOW.."36.0, 4.6"..WHITE.."). The followup to enhance the ring is optional."
 Inst29Quest7_Prequest = "Grime-Encrusted Ring"
 Inst29Quest7_Folgequest = "Gnome Improvement"
-Inst29Quest7FQuest = "true"
 --
 Inst29Quest7name1 = "Brilliant Gold Ring"
 
@@ -3185,35 +3138,63 @@ Inst29Quest8_Folgequest = "None"
 Inst29Quest8name1 = "Sparklematic-Wrapped Box"
 
 
---Quest 1 Horde  (same as Quest 6 Alliance)
-Inst29Quest1_HORDE = "1. Grime-Encrusted Ring"
-Inst29Quest1_HORDE_Aim = Inst29Quest6_Aim
-Inst29Quest1_HORDE_Location = Inst29Quest6_Location
-Inst29Quest1_HORDE_Note = Inst29Quest6_Note
-Inst29Quest1_HORDE_Prequest = Inst29Quest6_Prequest
-Inst29Quest1_HORDE_Folgequest = Inst29Quest6_Folgequest
+--Quest 1 Horde
+Inst29Quest1_HORDE = "1. The G-Team"
+Inst29Quest1_HORDE_Aim = "Kill the Viscous Fallout."
+Inst29Quest1_HORDE_Location = "Murd Doc (Gnomeregan; "..BLUE.."Entrance"..WHITE..")"
+Inst29Quest1_HORDE_Note = "Viscous Fallout is at "..YELLOW.."[2]"..WHITE..".  Turn the quest in to B.E Barechus at "..GREEN.."[3']"..WHITE.."."
+Inst29Quest1_HORDE_Prequest = "None"
+Inst29Quest1_HORDE_Folgequest = "The G-Team"
 -- No Rewards for this quest
 
---Quest 2 Horde  (same as Quest 7 Alliance - different turnin)
-Inst29Quest2_HORDE = "2. Return of the Ring"
-Inst29Quest2_HORDE_Aim = Inst29Quest7_Aim
-Inst29Quest2_HORDE_Location = Inst29Quest7_Location
-Inst29Quest2_HORDE_Note = "Turns in to Nogg (Orgrimmar - The Drag; "..YELLOW.."56.6, 56.8"..WHITE.."). The followup to enhance the ring is optional."
-Inst29Quest2_HORDE_Prequest = Inst29Quest7_Prequest
-Inst29Quest2_HORDE_Folgequest = "Nogg's Ring Redo"
-Inst29Quest2FQuest_HORDE = Inst29Quest7FQuest
---
-Inst29Quest2name1_HORDE = Inst29Quest7name1
+--Quest 2 Horde
+Inst29Quest2_HORDE = "2. The G-Team"
+Inst29Quest2_HORDE_Aim = "Kill the Electrocutioner 6000."
+Inst29Quest2_HORDE_Location = "B.E Barechus (Gnomeregan; "..GREEN.."[3']"..WHITE..")"
+Inst29Quest2_HORDE_Note = "Electrocutioner 6000 is at "..YELLOW.."[3]"..WHITE..".  Turn the quest in to Face at "..GREEN.."[4']"..WHITE.."."
+Inst29Quest2_HORDE_Prequest = "The G-Team"
+Inst29Quest2_HORDE_Folgequest = "The G-Team"
+-- No Rewards for this quest
 
---Quest 3 Horde  (same as Quest 8 Alliance)
-Inst29Quest3_HORDE = "3. The Sparklematic 5200!"
-Inst29Quest3_HORDE_Aim = Inst29Quest8_Aim
-Inst29Quest3_HORDE_Location = Inst29Quest8_Location
-Inst29Quest3_HORDE_Note = Inst29Quest8_Note
-Inst29Quest3_HORDE_Prequest = Inst29Quest8_Prequest
-Inst29Quest3_HORDE_Folgequest = Inst29Quest8_Folgequest
+--Quest 3 Horde
+Inst29Quest3_HORDE = "3. The G-Team"
+Inst29Quest3_HORDE_Aim = "Kill Mekgineer Thermaplugg."
+Inst29Quest3_HORDE_Location = "Face (Gnomeregan; "..GREEN.."[4']"..WHITE..")"
+Inst29Quest3_HORDE_Note = "Mekgineer Thermaplugg is at "..YELLOW.."[5]"..WHITE..".  Turn the quest in to Hann Ibal at "..GREEN.."[5']"..WHITE.."."
+Inst29Quest3_HORDE_Prequest = "The G-Team"
+Inst29Quest3_HORDE_Folgequest = "None"
 --
-Inst29Quest3name1_HORDE = Inst29Quest8name1
+-- Reward varies for each class
+
+--Quest 4 Horde  (same as Quest 6 Alliance)
+Inst29Quest4_HORDE = "4. Grime-Encrusted Ring"
+Inst29Quest4_HORDE_Aim = Inst29Quest6_Aim
+Inst29Quest4_HORDE_Location = Inst29Quest6_Location
+Inst29Quest4_HORDE_Note = Inst29Quest6_Note
+Inst29Quest4_HORDE_Prequest = Inst29Quest6_Prequest
+Inst29Quest4_HORDE_Folgequest = Inst29Quest6_Folgequest
+-- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 7 Alliance - different turnin)
+Inst29Quest5_HORDE = "5. Return of the Ring"
+Inst29Quest5_HORDE_Aim = Inst29Quest7_Aim
+Inst29Quest5_HORDE_Location = Inst29Quest7_Location
+Inst29Quest5_HORDE_Note = "Turns in to Nogg (Orgrimmar - The Drag; "..YELLOW.."56.6, 56.8"..WHITE.."). The followup to enhance the ring is optional."
+Inst29Quest5_HORDE_Prequest = Inst29Quest7_Prequest
+Inst29Quest5_HORDE_Folgequest = "Nogg's Ring Redo"
+Inst29Quest5FQuest_HORDE = Inst29Quest7FQuest
+--
+Inst29Quest5name1_HORDE = Inst29Quest7name1
+
+--Quest 6 Horde  (same as Quest 8 Alliance)
+Inst29Quest6_HORDE = "6. The Sparklematic 5200!"
+Inst29Quest6_HORDE_Aim = Inst29Quest8_Aim
+Inst29Quest6_HORDE_Location = Inst29Quest8_Location
+Inst29Quest6_HORDE_Note = Inst29Quest8_Note
+Inst29Quest6_HORDE_Prequest = Inst29Quest8_Prequest
+Inst29Quest6_HORDE_Folgequest = Inst29Quest8_Folgequest
+--
+Inst29Quest6name1_HORDE = Inst29Quest8name1
 
 
 -- End of File

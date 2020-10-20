@@ -9,6 +9,7 @@ Version 4.12.01  (for Shadowlands)  (October ??, 2020)
 - Updates to some Return to Karazhan quests.
 - Removed old Dire Maul class quests.
 - Fixed some quest ID numbers being incorrect.
+- Added missing "The G-Team" Horde quests for Gnomeregan.
 
 
 
