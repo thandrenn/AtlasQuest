@@ -158,7 +158,6 @@ Inst37Quest4_HORDE_Location = "Stone Guard Stok'ton (Hellfire Ramparts; "..BLUE.
 Inst37Quest4_HORDE_Note = Inst37Quest4_Note
 Inst37Quest4_HORDE_Prequest = Inst37Quest4_Prequest
 Inst37Quest4_HORDE_Folgequest = Inst37Quest4_Folgequest
-Inst37Quest4PreQuest_HORDE = Inst37Quest4PreQuest
 --
 Inst37Quest4name1_HORDE = Inst37Quest4name1
 Inst37Quest4name2_HORDE = Inst37Quest4name2
@@ -233,7 +232,6 @@ Inst38Quest1_HORDE_Location = "Caza'rez (Blood Furnace; "..BLUE.."Entrance"..WHI
 Inst38Quest1_HORDE_Note = Inst38Quest1_Note
 Inst38Quest1_HORDE_Prequest = Inst38Quest1_Prequest
 Inst38Quest1_HORDE_Folgequest = Inst38Quest1_Folgequest
-Inst38Quest1PreQuest_HORDE = Inst38Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance, but different Quest giver)
@@ -243,7 +241,6 @@ Inst38Quest2_HORDE_Location = "Caza'rez (Blood Furnace; "..BLUE.."Entrance"..WHI
 Inst38Quest2_HORDE_Note = Inst38Quest2_Note
 Inst38Quest2_HORDE_Prequest = Inst38Quest2_Prequest
 Inst38Quest2_HORDE_Folgequest = Inst38Quest2_Folgequest
-Inst38Quest2PreQuest_HORDE = Inst38Quest2PreQuest
 --
 Inst38Quest2name1_HORDE = Inst38Quest2name1
 Inst38Quest2name2_HORDE = Inst38Quest2name2
@@ -276,8 +273,8 @@ Inst38Quest4_HORDE_Folgequest = Inst38Quest4_Folgequest
 --------------- INST39 - HFC: Shattered Halls (SH) ---------------
 
 Inst39Caption = "The Shattered Halls"
-Inst39QAA = "10 Quests"
-Inst39QAH = "10 Quests"
+Inst39QAA = "9 Quests"
+Inst39QAH = "9 Quests"
 
 --Quest 1 Alliance
 Inst39Quest1 = "1. Advancing the Campaign"
@@ -340,45 +337,34 @@ Inst39Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLO
 Inst39Quest6_Note = "Warbringer O'mrogg is at "..YELLOW.."[3]"..WHITE.."."
 Inst39Quest6_Prequest = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst39Quest6_Folgequest = "Bane of the Illidari"
-Inst39Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst39Quest7 = "7. Kalynna's Request (Heroic)"
-Inst39Quest7_Aim = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun."
-Inst39Quest7_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")"
-Inst39Quest7_Note = "Requires Heroic Dungeon Difficulty.\n\nGrand Warlock Nethekurse is at "..YELLOW.."[1]"..WHITE..". The Book of Forgotten Names drops in Sethekk Halls."
-Inst39Quest7_Prequest = "A Colleague's Aid ("..YELLOW.."Karazhan"..WHITE..")"
-Inst39Quest7_Folgequest = "Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
-Inst39Quest7PreQuest = "true"
+Inst39Quest7 = "7. Wanted: Bladefist's Seal (Heroic Daily)"
+Inst39Quest7_Aim = "Wind Trader Zhareem has asked you to obtain Bladefist's Seal. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst39Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst39Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarchief Kargath Bladefist is at "..YELLOW.."[4]"..WHITE.."."
+Inst39Quest7_Prequest = "None"
+Inst39Quest7_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
-Inst39Quest8 = "8. Wanted: Bladefist's Seal (Heroic Daily)"
-Inst39Quest8_Aim = "Wind Trader Zhareem has asked you to obtain Bladefist's Seal. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst39Quest8_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
-Inst39Quest8_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarchief Kargath Bladefist is at "..YELLOW.."[4]"..WHITE.."."
+Inst39Quest8 = "8. Wanted: Shattered Hand Centurions (Daily)"
+Inst39Quest8_Aim = "Nether-Stalker Mah'duun has tasked you with the deaths of 4 Shattered Hand Centurions. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst39Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
+Inst39Quest8_Note = "This is a daily quest."
 Inst39Quest8_Prequest = "None"
 Inst39Quest8_Folgequest = "None"
--- No Rewards for this quest
+--
+Inst39Quest8name1 = "Ethereum Prison Key"
 
 --Quest 9 Alliance
-Inst39Quest9 = "9. Wanted: Shattered Hand Centurions (Daily)"
-Inst39Quest9_Aim = "Nether-Stalker Mah'duun has tasked you with the deaths of 4 Shattered Hand Centurions. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst39Quest9_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
-Inst39Quest9_Note = "This is a daily quest."
+Inst39Quest9 = "9. One Last Favor"
+Inst39Quest9_Aim = "Gunny inside the Shattered Halls of Hellfire Citadel wants you to kill 4 Shattered Hand Legionnaires, 2 Shattered Hand Centurions, and 2 Shattered Hand Champions. "
+Inst39Quest9_Location = "Gunny (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
+Inst39Quest9_Note = "You'll find the required Shattered Hand mobs throughout the dungeon."
 Inst39Quest9_Prequest = "None"
 Inst39Quest9_Folgequest = "None"
---
-Inst39Quest9name1 = "Ethereum Prison Key"
-
---Quest 10 Alliance
-Inst39Quest10 = "10. One Last Favor"
-Inst39Quest10_Aim = "Gunny inside the Shattered Halls of Hellfire Citadel wants you to kill 4 Shattered Hand Legionnaires, 2 Shattered Hand Centurions, and 2 Shattered Hand Champions. "
-Inst39Quest10_Location = "Gunny (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
-Inst39Quest10_Note = "You'll find the required Shattered Hand mobs throughout the dungeon."
-Inst39Quest10_Prequest = "None"
-Inst39Quest10_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -389,7 +375,6 @@ Inst39Quest1_HORDE_Location = "Shadow Hunter Ty'jin (Hellfire Peninsula - Thrall
 Inst39Quest1_HORDE_Note = Inst39Quest1_Note
 Inst39Quest1_HORDE_Prequest = Inst39Quest1_Prequest
 Inst39Quest1_HORDE_Folgequest = Inst39Quest1_Folgequest
-Inst39Quest1PreQuest_HORDE = Inst39Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance, but different Quest giver)
@@ -444,17 +429,15 @@ Inst39Quest6_HORDE_Location = Inst39Quest6_Location
 Inst39Quest6_HORDE_Note = Inst39Quest6_Note
 Inst39Quest6_HORDE_Prequest = Inst39Quest6_Prequest
 Inst39Quest6_HORDE_Folgequest = Inst39Quest6_Folgequest
-Inst39Quest6PreQuest_HORDE = Inst39Quest6Prequest
 -- No Rewards for this quest
 
---Quest 7 Alliance  (same as Quest 7 Alliance)
+--Quest 7 Horde  (same as Quest 7 Alliance)
 Inst39Quest7_HORDE = Inst39Quest7
 Inst39Quest7_HORDE_Aim = Inst39Quest7_Aim
 Inst39Quest7_HORDE_Location = Inst39Quest7_Location
 Inst39Quest7_HORDE_Note = Inst39Quest7_Note
 Inst39Quest7_HORDE_Prequest = Inst39Quest7_Prequest
 Inst39Quest7_HORDE_Folgequest = Inst39Quest7_Folgequest
-Inst39Quest7PreQuest_HORDE = Inst39Quest7PreQuest
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
@@ -464,25 +447,16 @@ Inst39Quest8_HORDE_Location = Inst39Quest8_Location
 Inst39Quest8_HORDE_Note = Inst39Quest8_Note
 Inst39Quest8_HORDE_Prequest = Inst39Quest8_Prequest
 Inst39Quest8_HORDE_Folgequest = Inst39Quest8_Folgequest
--- No Rewards for this quest
+--
+Inst39Quest8name1_HORDE = Inst39Quest8name1
 
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst39Quest9_HORDE = Inst39Quest9
-Inst39Quest9_HORDE_Aim = Inst39Quest9_Aim
-Inst39Quest9_HORDE_Location = Inst39Quest9_Location
+--Quest 9 Horde
+Inst39Quest9_HORDE = "9. Honor the Dying"
+Inst39Quest9_HORDE_Aim = "Caza'rez inside the Shattered Halls of Hellfire Citadel wants you to kill 4 Shattered Hand Legionnaires, 2 Shattered Hand Centurions, and 2 Shattered Hand Champions. "
+Inst39Quest9_HORDE_Location = "Caza'rez (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
 Inst39Quest9_HORDE_Note = Inst39Quest9_Note
 Inst39Quest9_HORDE_Prequest = Inst39Quest9_Prequest
 Inst39Quest9_HORDE_Folgequest = Inst39Quest9_Folgequest
---
-Inst39Quest9name1_HORDE = Inst39Quest9name1
-
---Quest 10 Horde
-Inst39Quest10_HORDE = "10. Honor the Dying"
-Inst39Quest10_HORDE_Aim = "Caza'rez inside the Shattered Halls of Hellfire Citadel wants you to kill 4 Shattered Hand Legionnaires, 2 Shattered Hand Centurions, and 2 Shattered Hand Champions. "
-Inst39Quest10_HORDE_Location = "Caza'rez (Shattered Halls; "..BLUE.."Entrance"..WHITE..")"
-Inst39Quest10_HORDE_Note = Inst39Quest10_Note
-Inst39Quest10_HORDE_Prequest = Inst39Quest10_Prequest
-Inst39Quest10_HORDE_Folgequest = Inst39Quest10_Folgequest
 -- No Rewards for this quest
 
 
@@ -500,7 +474,6 @@ Inst40Quest1_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."5
 Inst40Quest1_Note = "Must have completed Trial of the Naaru Mercy, Trial of the Naaru Strength and Trial of the Naaru Tenacity all available from A'dal."
 Inst40Quest1_Prequest = "Trial of the Naaru: Tenacity, Mercy & Strength quests."
 Inst40Quest1_Folgequest = "None"
-Inst40Quest1PreQuest = "true"
 --
 Inst40Quest1name1 = "Phoenix-fire Band"
 
@@ -525,7 +498,6 @@ Inst40Quest1_HORDE_Location = Inst40Quest1_Location
 Inst40Quest1_HORDE_Note = Inst40Quest1_Note
 Inst40Quest1_HORDE_Prequest = Inst40Quest1_Prequest
 Inst40Quest1_HORDE_Folgequest = Inst40Quest1_Folgequest
-Inst40Quest1PreQuest_HORDE = Inst40Quest1PreQuest
 --
 Inst40Quest1name1_HORDE = Inst40Quest1name1
 
@@ -693,8 +665,8 @@ Inst41Quest7name3_HORDE = Inst41Quest7name3
 --------------- INST42 - CR: The Steamvault (SV) ---------------
 
 Inst42Caption = "The Steamvault"
-Inst42QAA = "9 Quests"
-Inst42QAH = "9 Quests"
+Inst42QAA = "8 Quests"
+Inst42QAH = "8 Quests"
 
 --Quest 1 Alliance
 Inst42Quest1 = "1. Storming the Steamvault"
@@ -748,36 +720,25 @@ Inst42Quest6_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLO
 Inst42Quest6_Note = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE.."."
 Inst42Quest6_Prequest = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
 Inst42Quest6_Folgequest = "Bane of the Illidari"
-Inst42Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst42Quest7 = "7. The Second and Third Fragments"
-Inst42Quest7_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst42Quest7_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.0"..WHITE..")"
-Inst42Quest7_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..", at the bottom of a pool of water on the way to Hydromancer Thespia. Opening it will spawn an elemental that must be killed to get the fragment.\n\nThe Third Key Fragment is in the Arcatraz."
-Inst42Quest7_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
-Inst42Quest7_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
-Inst42Quest7PreQuest = "true"
--- No Rewards for this quest
+Inst42Quest7 = "7. Wanted: Coilfang Myrmidons (Daily)"
+Inst42Quest7_Aim = "Nether-Stalker Mah'duun has asked you to slay 14 Coilfang Myrmidons. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst42Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
+Inst42Quest7_Note = "This is a daily quest."
+Inst42Quest7_Prequest = "None"
+Inst42Quest7_Folgequest = "None"
+--
+Inst42Quest7name1 = "Ethereum Prison Key"
 
 --Quest 8 Alliance
-Inst42Quest8 = "8. Wanted: Coilfang Myrmidons (Daily)"
-Inst42Quest8_Aim = "Nether-Stalker Mah'duun has asked you to slay 14 Coilfang Myrmidons. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst42Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
-Inst42Quest8_Note = "This is a daily quest."
+Inst42Quest8 = "8. Wanted: The Warlord's Treatise (Heroic Daily)"
+Inst42Quest8_Aim = "Wind Trader Zhareem has asked you to acquire The Warlord's Treatise. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst42Quest8_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst42Quest8_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[3]"..WHITE.."."
 Inst42Quest8_Prequest = "None"
 Inst42Quest8_Folgequest = "None"
---
-Inst42Quest8name1 = "Ethereum Prison Key"
-
---Quest 9 Alliance
-Inst42Quest9 = "9. Wanted: The Warlord's Treatise (Heroic Daily)"
-Inst42Quest9_Aim = "Wind Trader Zhareem has asked you to acquire The Warlord's Treatise. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst42Quest9_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
-Inst42Quest9_Note = "This daily quest can only be completed on Heroic difficulty.\n\nWarlord Kalithresh is at "..YELLOW.."[3]"..WHITE.."."
-Inst42Quest9_Prequest = "None"
-Inst42Quest9_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -833,7 +794,6 @@ Inst42Quest6_HORDE_Location = Inst42Quest6_Location
 Inst42Quest6_HORDE_Note = Inst42Quest6_Note
 Inst42Quest6_HORDE_Prequest = Inst42Quest6_Prequest
 Inst42Quest6_HORDE_Folgequest = Inst42Quest6_Folgequest
-Inst42Quest6PreQuest_HORDE = Inst42Quest6PreQuest
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -843,8 +803,8 @@ Inst42Quest7_HORDE_Location = Inst42Quest7_Location
 Inst42Quest7_HORDE_Note = Inst42Quest7_Note
 Inst42Quest7_HORDE_Prequest = Inst42Quest7_Prequest
 Inst42Quest7_HORDE_Folgequest = Inst42Quest7_Folgequest
-Inst42Quest7PreQuest_HORDE = Inst42Quest7PreQuest
--- No Rewards for this quest
+--
+Inst42Quest7name1_HORDE = Inst42Quest7name1
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst42Quest8_HORDE = Inst42Quest8
@@ -853,16 +813,6 @@ Inst42Quest8_HORDE_Location = Inst42Quest8_Location
 Inst42Quest8_HORDE_Note = Inst42Quest8_Note
 Inst42Quest8_HORDE_Prequest = Inst42Quest8_Prequest
 Inst42Quest8_HORDE_Folgequest = Inst42Quest8_Folgequest
---
-Inst42Quest8name1_HORDE = Inst42Quest8name1
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst42Quest9_HORDE = Inst42Quest9
-Inst42Quest9_HORDE_Aim = Inst42Quest9_Aim
-Inst42Quest9_HORDE_Location = Inst42Quest9_Location
-Inst42Quest9_HORDE_Note = Inst42Quest9_Note
-Inst42Quest9_HORDE_Prequest = Inst42Quest9_Prequest
-Inst42Quest9_HORDE_Folgequest = Inst42Quest9_Folgequest
 -- No Rewards for this quest
 
 
@@ -927,7 +877,6 @@ Inst43Quest6_Location = "T'shu (The Underbog; "..BLUE.."Entrance"..WHITE..")"
 Inst43Quest6_Note = "This is a repeatable version of the previous quest.\n\nThe Sanguine Hibiscus are scattered throughout Underbog near plants and also drop off of Bog mobs, including those in Steamvault. They are also tradeable and can be found on the Auction House."
 Inst43Quest6_Prequest = "Bring Me A Shrubbery!"
 Inst43Quest6_Folgequest = "None"
-Inst43Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
@@ -995,7 +944,6 @@ Inst43Quest6_HORDE_Location = Inst43Quest6_Location
 Inst43Quest6_HORDE_Note = Inst43Quest6_Note
 Inst43Quest6_HORDE_Prequest = Inst43Quest6_Prequest
 Inst43Quest6_HORDE_Folgequest = Inst43Quest6_Folgequest
-Inst43Quest6PreQuest_HORDE = Inst43Quest6PreQuest
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -1031,7 +979,6 @@ Inst44Quest2_Location = "Draenei Spirit (Auchenai Crypts; "..BLUE.."Entrance"..W
 Inst44Quest2_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE.."."
 Inst44Quest2_Prequest = "Everything Will Be Alright"
 Inst44Quest2_Folgequest = "None"
-Inst44Quest2FQuest = "true"
 --
 Inst44Quest2name1 = "Auchenai Anchorite's Robe"
 Inst44Quest2name2 = "Auchenai Monk's Tunic"
@@ -1082,7 +1029,6 @@ Inst44Quest2_HORDE_Location = Inst44Quest2_Location
 Inst44Quest2_HORDE_Note = Inst44Quest2_Note
 Inst44Quest2_HORDE_Prequest = Inst44Quest2_Prequest
 Inst44Quest2_HORDE_Folgequest = Inst44Quest2_Folgequest
-Inst44Quest2FQuest_HORDE = Inst44Quest2FQuest
 --
 Inst44Quest2name1_HORDE = Inst44Quest2name1
 Inst44Quest2name2_HORDE = Inst44Quest2name2
@@ -1123,7 +1069,6 @@ Inst44Quest6_HORDE_Location = "A'dal (Shattrath City - Terrace of Light; "..YELL
 Inst44Quest6_HORDE_Note = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". D'ore appears after Exarch Maladarr has been killed."
 Inst44Quest6_HORDE_Prequest = "A Visit With the Greatmother -> A Secret Revealed"
 Inst44Quest6_HORDE_Folgequest = "What The Soul Sees"
-Inst44Quest6PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 7 Horde
@@ -1133,7 +1078,6 @@ Inst44Quest7_HORDE_Location = "D'ore (Auchenai Crypts; "..YELLOW.."[2]"..WHITE..
 Inst44Quest7_HORDE_Note = "D'ore appears after Exarch Maladarr has been killed. Mother Kashur is at (Nagrand; "..YELLOW.."26.0, 60.6"..WHITE..")."
 Inst44Quest7_HORDE_Prequest = "Auchindoun..."
 Inst44Quest7_HORDE_Folgequest = "Return to the Greatmother"
-Inst44Quest7FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -1186,7 +1130,6 @@ Inst45Quest5_Location = "Image of Commander Ameer (Blade's Edge Mountains - Bash
 Inst45Quest5_Note = "Requires Heroic Dungeon Difficulty. There are two Stasis Chambers. The first is just beyond Pandemonius "..YELLOW.."[1]"..WHITE..". The second is in Nexus-Prince Shaffar's room "..YELLOW.."[3]"..WHITE..". You'll need a Mark of the Nexus-King for each."
 Inst45Quest5_Prequest = "The Mark of the Nexus-King"
 Inst45Quest5_Folgequest = "None"
-Inst45Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -1243,7 +1186,6 @@ Inst45Quest5_HORDE_Location = Inst45Quest5_Location
 Inst45Quest5_HORDE_Note = Inst45Quest5_Note
 Inst45Quest5_HORDE_Prequest = Inst45Quest5_Prequest
 Inst45Quest5_HORDE_Folgequest = Inst45Quest5_Folgequest
-Inst45Quest5PreQuest_HORDE = Inst45Quest5PreQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -1260,8 +1202,8 @@ Inst45Quest6_HORDE_Folgequest = Inst45Quest6_Folgequest
 --------------- INST46 - Auchindoun: Sethekk Halls (Seth) ---------------
 
 Inst46Caption = "Sethekk Halls"
-Inst46QAA = "6 Quests"
-Inst46QAH = "6 Quests"
+Inst46QAA = "5 Quests"
+Inst46QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst46Quest1 = "1. Can't Stay Away"
@@ -1307,22 +1249,12 @@ Inst46Quest4name2 = "Terokk's Mask"
 Inst46Quest4name3 = "Terokk's Quill"
 
 --Quest 5 Alliance
-Inst46Quest5 = "5. Kalynna's Request (Heroic)"
-Inst46Quest5_Aim = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun."
-Inst46Quest5_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")"
-Inst46Quest5_Note = "Requires Heroic Dungeon Difficulty.\n\nDarkweaver Syth is at "..YELLOW.."[1]"..WHITE..". The Tome of Dusk drops in Shattered Halls."
-Inst46Quest5_Prequest = "A Colleague's Aid ("..YELLOW.."Karazhan"..WHITE..")"
-Inst46Quest5_Folgequest = "Nightbane ("..YELLOW.."Karazhan"..WHITE..")"
-Inst46Quest5PreQuest = "true"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst46Quest6 = "6. Wanted: The Headfeathers of Ikiss (Heroic Daily)"
-Inst46Quest6_Aim = "Wind Trader Zhareem has asked you to acquire The Headfeathers of Ikiss. Deliver them to him in Shattrath's Lower City to collect the reward."
-Inst46Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
-Inst46Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nTalon King Ikiss is at "..YELLOW.."[3]"..WHITE.."."
-Inst46Quest6_Prequest = "None"
-Inst46Quest6_Folgequest = "None"
+Inst46Quest5 = "5. Wanted: The Headfeathers of Ikiss (Heroic Daily)"
+Inst46Quest5_Aim = "Wind Trader Zhareem has asked you to acquire The Headfeathers of Ikiss. Deliver them to him in Shattrath's Lower City to collect the reward."
+Inst46Quest5_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst46Quest5_Note = "This daily quest can only be completed on Heroic difficulty.\n\nTalon King Ikiss is at "..YELLOW.."[3]"..WHITE.."."
+Inst46Quest5_Prequest = "None"
+Inst46Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 
@@ -1376,16 +1308,6 @@ Inst46Quest5_HORDE_Location = Inst46Quest5_Location
 Inst46Quest5_HORDE_Note = Inst46Quest5_Note
 Inst46Quest5_HORDE_Prequest = Inst46Quest5_Prequest
 Inst46Quest5_HORDE_Folgequest = Inst46Quest5_Folgequest
-Inst46Quest5PreQuest_HORDE = Inst46Quest5PreQuest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst46Quest6_HORDE = Inst46Quest6
-Inst46Quest6_HORDE_Aim = Inst46Quest6_Aim
-Inst46Quest6_HORDE_Location = Inst46Quest6_Location
-Inst46Quest6_HORDE_Note = Inst46Quest6_Note
-Inst46Quest6_HORDE_Prequest = Inst46Quest6_Prequest
-Inst46Quest6_HORDE_Folgequest = Inst46Quest6_Folgequest
 -- No Rewards for this quest
 
 
@@ -1393,8 +1315,8 @@ Inst46Quest6_HORDE_Folgequest = Inst46Quest6_Folgequest
 --------------- INST47 - Auchindoun: Shadow Labyrinth (SLabs) ---------------
 
 Inst47Caption = "Shadow Labyrinth"
-Inst47QAA = "12 Quests"
-Inst47QAH = "12 Quests"
+Inst47QAA = "11 Quests"
+Inst47QAH = "11 Quests"
 
 --Quest 1 Alliance
 Inst47Quest1 = "1. Trouble at Auchindoun"
@@ -1421,7 +1343,6 @@ Inst47Quest3_Location = "Spy To'gun (Shadow Labyrinth; "..GREEN.."[1']"..WHITE..
 Inst47Quest3_Note = "Soul Devices are the dark purple orbs that can be found scattered around the instance."
 Inst47Quest3_Prequest = "Find Spy To'gun"
 Inst47Quest3_Folgequest = "None"
-Inst47Quest3FQuest = "true"
 --
 Inst47Quest3name1 = "Shattrath Wraps"
 Inst47Quest3name2 = "Spymistress's Wristguards"
@@ -1444,7 +1365,6 @@ Inst47Quest5_Location = "Altruis the Sufferer (Nagrand; "..YELLOW.."27.2, 43.0".
 Inst47Quest5_Note = "Blackheart the Inciter is at "..YELLOW.."[2]"..WHITE..". This is the last part of a chain quest that starts in Shadowmoon Valley at "..YELLOW.."61.2, 29.2"..WHITE.." for Aldor and "..YELLOW.."55.8, 58.2"..WHITE.." for Scryer"
 Inst47Quest5_Prequest = "Illidan's Pupil"
 Inst47Quest5_Folgequest = "Return to the Aldor or Return to the Scryers"
-Inst47Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -1463,7 +1383,6 @@ Inst47Quest7_Location = "The Codex of Blood (Shadow Labyrinth; "..YELLOW.."[3]".
 Inst47Quest7_Note = "Murmur is at "..YELLOW.."[4]"..WHITE.."."
 Inst47Quest7_Prequest = "The Codex of Blood"
 Inst47Quest7_Folgequest = "None"
-Inst47Quest7FQuest = "true"
 --
 Inst47Quest7name1 = "Shattrath Jumpers"
 Inst47Quest7name2 = "Spymistress's Boots"
@@ -1477,47 +1396,35 @@ Inst47Quest8_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLO
 Inst47Quest8_Note = "Grandmaster Vorpil is at "..YELLOW.."[3]"..WHITE.."."
 Inst47Quest8_Prequest = "Additional Materials"
 Inst47Quest8_Folgequest = "None"
-Inst47Quest8PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst47Quest9 = "9. Entry Into Karazhan"
-Inst47Quest9_Aim = "Khadgar wants you to enter the Shadow Labyrinth at Auchindoun and retrieve the First Key Fragment from an Arcane Container hidden there. Return to Khadgar with the fragment."
-Inst47Quest9_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.0"..WHITE..")"
-Inst47Quest9_Note = "Part of the Karazhan attunement line. The Arcane Container is next to Murmur at "..YELLOW.."[4]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment."
-Inst47Quest9_Prequest = "Khadgar"
-Inst47Quest9_Folgequest = "The Second and Third Fragments"
-Inst47Quest9PreQuest = "true"
+Inst47Quest9 = "9. Trial of the Naaru: Strength (Heroic)"
+Inst47Quest9_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
+Inst47Quest9_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
+Inst47Quest9_Note = "Requires Heroic Dungeon Difficulty. Murmur is at "..YELLOW.."[4]"..WHITE..". Kalithresh's Trident comes from The Steamvault."
+Inst47Quest9_Prequest = "The Hand of Gul'dan -> The Cipher of Damnation"
+Inst47Quest9_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 10 Alliance
-Inst47Quest10 = "10. Trial of the Naaru: Strength (Heroic)"
-Inst47Quest10_Aim = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence."
-Inst47Quest10_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.6"..WHITE..")"
-Inst47Quest10_Note = "Requires Heroic Dungeon Difficulty. Murmur is at "..YELLOW.."[4]"..WHITE..". Kalithresh's Trident comes from The Steamvault."
-Inst47Quest10_Prequest = "The Hand of Gul'dan -> The Cipher of Damnation"
+Inst47Quest10 = "10. Wanted: Murmur's Whisper (Heroic Daily)"
+Inst47Quest10_Aim = "Wind Trader Zhareem has asked you to obtain Murmur's Whisper. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst47Quest10_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst47Quest10_Note = "This daily quest can only be completed on Heroic difficulty.\n\nMurmur is at "..YELLOW.."[4]"..WHITE.."."
+Inst47Quest10_Prequest = "None"
 Inst47Quest10_Folgequest = "None"
-Inst47Quest10PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
-Inst47Quest11 = "11. Wanted: Murmur's Whisper (Heroic Daily)"
-Inst47Quest11_Aim = "Wind Trader Zhareem has asked you to obtain Murmur's Whisper. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst47Quest11_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
-Inst47Quest11_Note = "This daily quest can only be completed on Heroic difficulty.\n\nMurmur is at "..YELLOW.."[4]"..WHITE.."."
+Inst47Quest11 = "11. Wanted: Malicious Instructors (Daily)"
+Inst47Quest11_Aim = "Nether-Stalker Mah'duun wants you to kill 3 Malicious Instructors. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst47Quest11_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
+Inst47Quest11_Note = "This is a daily quest."
 Inst47Quest11_Prequest = "None"
 Inst47Quest11_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst47Quest12 = "12. Wanted: Malicious Instructors (Daily)"
-Inst47Quest12_Aim = "Nether-Stalker Mah'duun wants you to kill 3 Malicious Instructors. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst47Quest12_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
-Inst47Quest12_Note = "This is a daily quest."
-Inst47Quest12_Prequest = "None"
-Inst47Quest12_Folgequest = "None"
 --
-Inst47Quest12name1 = "Ethereum Prison Key"
+Inst47Quest11name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1545,7 +1452,6 @@ Inst47Quest3_HORDE_Location = Inst47Quest3_Location
 Inst47Quest3_HORDE_Note = Inst47Quest3_Note
 Inst47Quest3_HORDE_Prequest = Inst47Quest3_Prequest
 Inst47Quest3_HORDE_Folgequest = Inst47Quest3_Folgequest
-Inst47Quest3FQuest_HORDE = Inst47Quest3FQuest
 --
 Inst47Quest3name1_HORDE = Inst47Quest3name1
 Inst47Quest3name2_HORDE = Inst47Quest3name2
@@ -1568,7 +1474,6 @@ Inst47Quest5_HORDE_Location = Inst47Quest5_Location
 Inst47Quest5_HORDE_Note = Inst47Quest5_Note
 Inst47Quest5_HORDE_Prequest = Inst47Quest5_Prequest
 Inst47Quest5_HORDE_Folgequest = Inst47Quest5_Folgequest
-Inst47Quest5PreQuest_HORDE = Inst47Quest5PreQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -1587,13 +1492,11 @@ Inst47Quest7_HORDE_Location = Inst47Quest7_Location
 Inst47Quest7_HORDE_Note = Inst47Quest7_Note
 Inst47Quest7_HORDE_Prequest = Inst47Quest7_Prequest
 Inst47Quest7_HORDE_Folgequest = Inst47Quest7_Folgequest
-Inst47Quest7FQuest_HORDE = Inst47Quest7FQuest
 --
 Inst47Quest7name1_HORDE = Inst47Quest7name1
 Inst47Quest7name2_HORDE = Inst47Quest7name2
 Inst47Quest7name3_HORDE = Inst47Quest7name3
 Inst47Quest7name4_HORDE = Inst47Quest7name4
-
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
 Inst47Quest8_HORDE = Inst47Quest8
@@ -1602,7 +1505,6 @@ Inst47Quest8_HORDE_Location = Inst47Quest8_Location
 Inst47Quest8_HORDE_Note = Inst47Quest8_Note
 Inst47Quest8_HORDE_Prequest = Inst47Quest8_Prequest
 Inst47Quest8_HORDE_Folgequest = Inst47Quest8_Folgequest
-Inst47Quest8PreQuest_HORDE = Inst47Quest8PreQuest
 -- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
@@ -1612,7 +1514,6 @@ Inst47Quest9_HORDE_Location = Inst47Quest9_Location
 Inst47Quest9_HORDE_Note = Inst47Quest9_Note
 Inst47Quest9_HORDE_Prequest = Inst47Quest9_Prequest
 Inst47Quest9_HORDE_Folgequest = Inst47Quest9_Folgequest
-Inst47Quest9PreQuest_HORDE = Inst47Quest8PreQuest
 -- No Rewards for this quest
 
 --Quest 10 Horde  (same as Quest 10 Alliance)
@@ -1622,7 +1523,6 @@ Inst47Quest10_HORDE_Location = Inst47Quest10_Location
 Inst47Quest10_HORDE_Note = Inst47Quest10_Note
 Inst47Quest10_HORDE_Prequest = Inst47Quest10_Prequest
 Inst47Quest10_HORDE_Folgequest = Inst47Quest10_Folgequest
-Inst47Quest10PreQuest_HORDE = Inst47Quest8PreQuest
 -- No Rewards for this quest
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
@@ -1632,17 +1532,8 @@ Inst47Quest11_HORDE_Location = Inst47Quest11_Location
 Inst47Quest11_HORDE_Note = Inst47Quest11_Note
 Inst47Quest11_HORDE_Prequest = Inst47Quest11_Prequest
 Inst47Quest11_HORDE_Folgequest = Inst47Quest11_Folgequest
--- No Rewards for this quest
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst47Quest12_HORDE = Inst47Quest12
-Inst47Quest12_HORDE_Aim = Inst47Quest12_Aim
-Inst47Quest12_HORDE_Location = Inst47Quest12_Location
-Inst47Quest12_HORDE_Note = Inst47Quest12_Note
-Inst47Quest12_HORDE_Prequest = Inst47Quest12_Prequest
-Inst47Quest12_HORDE_Folgequest = Inst47Quest12_Folgequest
 --
-Inst47Quest12name1_HORDE = Inst47Quest12name1
+Inst47Quest11name1_HORDE = Inst47Quest11name1
 
 
 
@@ -1668,7 +1559,6 @@ Inst48Quest2_Location = "Seer Olum (Serpentshrine Cavern; "..YELLOW.."[4]"..WHIT
 Inst48Quest2_Note = "Akama is at (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58.0, 48.2"..WHITE..").\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62.6, 28.4"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56.2, 59.6"..WHITE..") for Scryers."
 Inst48Quest2_Prequest = "Tablets of Baa'ri -> Akama's Promise"
 Inst48Quest2_Folgequest = "Ruse of the Ashtongue ("..YELLOW.."TK: The Eye"..WHITE..")"
-Inst48Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1688,7 +1578,6 @@ Inst48Quest2_HORDE_Location = Inst48Quest2_Location
 Inst48Quest2_HORDE_Note = Inst48Quest2_Note
 Inst48Quest2_HORDE_Prequest = Inst48Quest2_Prequest
 Inst48Quest2_HORDE_Folgequest = Inst48Quest2_Folgequest
-Inst48Quest2PreQuest_HORDE = Inst48Quest2PreQuest
 -- No Rewards for this quest
 
 
