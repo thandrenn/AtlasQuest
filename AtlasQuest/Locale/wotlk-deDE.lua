@@ -74,6 +74,59 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 
 
+--------------- INST69 - Caverns of Time: The Culling of Stratholme ---------------
+
+Inst69Caption = "Das Ausmerzen von Stratholme"
+Inst69QAA = "2 Quests"
+Inst69QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst69Quest1 = "1. Illusionen bannen"
+Inst69Quest1_Aim = "Chromie möchte, dass Ihr den arkanen Disruptor auf die verdächtigen Kisten im Stratholme der Vergangenheit anwendet und sie anschließend am Eingang von Stratholme trefft."
+Inst69Quest1_Location = "Chromie (Das Ausmerzen von Stratholme; "..GREEN.."[1']"..WHITE..")"
+Inst69Quest1_Note = "Die Kisten findet man in der Nähe der Häuser entlang des Weges nach Stratholm. Nach Beendigung der Aufgabe kannst Du die Quest bei Chromi "..GREEN.."[1']"..WHITE.." abgeben."
+Inst69Quest1_Prequest = "Nein"
+Inst69Quest1_Folgequest = "Die Eskorte des Königs"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst69Quest2 = "2. Die Eskorte des Königs"
+Inst69Quest2_Aim = "Chromie möchte, dass Ihr Arthas bei seiner Ausmerzaktion in Stratholme begleitet. Ihr sollt wieder mit ihr sprechen, nachdem Mal'Ganis besiegt ist."
+Inst69Quest2_Location = "Chromie (Das Ausmerzen von Stratholme; "..GREEN.."[1']"..WHITE..")"
+Inst69Quest2_Note = "Mal'Ganis ist bei "..YELLOW.."[5]"..WHITE..". Chromie erscheint nachdem Mal'Ganis besiegt worden ist."
+Inst69Quest2_Prequest = "Illusionen bannen"
+Inst69Quest2_Folgequest = "Nein"
+--
+Inst69Quest2name1 = "Handschuhe des Zeitwächters"
+Inst69Quest2name2 = "Handlappen der erhaltenen Geschichte"
+Inst69Quest2name3 = "Handschutz der chronologischen Ereignisse"
+Inst69Quest2name4 = "Stulpen der Säuberung"
+
+
+--Quest 1 Horde
+Inst69Quest1_HORDE = Inst69Quest1
+Inst69Quest1_HORDE_Aim = Inst69Quest1_Aim
+Inst69Quest1_HORDE_Location = Inst69Quest1_Location
+Inst69Quest1_HORDE_Note = Inst69Quest1_Note
+Inst69Quest1_HORDE_Prequest = "Nein"
+Inst69Quest1_HORDE_Folgequest = Inst69Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde
+Inst69Quest2_HORDE = Inst69Quest2
+Inst69Quest2_HORDE_Aim = Inst69Quest2_Aim
+Inst69Quest2_HORDE_Location = Inst69Quest2_Location
+Inst69Quest2_HORDE_Note = Inst69Quest2_Note
+Inst69Quest2_HORDE_Prequest = "Illusionen bannen"
+Inst69Quest2_HORDE_Folgequest = "Nein"
+--
+Inst69Quest2name1_HORDE = Inst69Quest2name1
+Inst69Quest2name2_HORDE = Inst69Quest2name2
+Inst69Quest2name3_HORDE = Inst69Quest2name3
+Inst69Quest2name4_HORDE = Inst69Quest2name4
+
+
+
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
 Inst70Caption = "Burg Utgarde"

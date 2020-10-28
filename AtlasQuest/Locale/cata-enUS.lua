@@ -741,61 +741,41 @@ Inst105Quest1PreQuest_HORDE = Inst105Quest1PreQuest
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
 Inst63Caption = "Zul'Aman"
-Inst63QAA = "5 Quests"
-Inst63QAH = "5 Quests"
+Inst63QAA = "3 Quests"
+Inst63QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst63Quest1 = "1. Promises, Promises..."
-Inst63Quest1_Aim = "Retrieve Budd's Map of Zul'Aman from High Priest Nalorakk's terrace in Zul'Aman."
-Inst63Quest1_Location = ""
-Inst63Quest1_Note = "Found on the right ramp near High Priest Nalorakk at "..YELLOW.."[1]"..WHITE..".\n\nIf you already did the level 70 version of this quest, you will only be able to pick up The Hex Lord's Fetish."
+Inst63Quest1 = "1. The Hex Lord's Fetish"
+Inst63Quest1_Aim = "Obtain the Hex Lord's Fetish from Hex Lord Malacrass in Zul'Aman."
+Inst63Quest1_Location = "Witch Doctor T'wansi (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
+Inst63Quest1_Note = "Hex Lord Malacrass is at "..YELLOW.."[5]"..WHITE.."."
 Inst63Quest1_Prequest = "None"
 Inst63Quest1_Folgequest = "None"
--- No Rewards for this quest
+--
+Inst63Quest1name1 = "Voodoo Hunting Bow"
+Inst63Quest1name2 = "Fetish Greaves"
+Inst63Quest1name3 = "T'wansi's Handwraps"
+Inst63Quest1name4 = "Tattered Hexcloth Bag"
 
 --Quest 2 Alliance
-Inst63Quest2 = "2. X Marks... Your Doom!"
-Inst63Quest2_Aim = "Visit Halazzi's Chamber, Jan'alai's Platform, and Akil'zon's Platform in Zul'Aman."
-Inst63Quest2_Location = ""
-Inst63Quest2_Note = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..".\n\nIf you already did the level 70 version of this quest, you will only be able to pick up The Hex Lord's Fetish."
-Inst63Quest2_Prequest = "Promises, Promises..."
-Inst63Quest2_Folgequest = "The Hex Lord's Fetish"
-Inst63Quest2FQuest = "true"
+Inst63Quest2 = "2. The Captive Scouts"
+Inst63Quest2_Aim = "Free the captive scouts: Hazlek, Bakkalzu, Norkani, and Kasha. They are being held captive by the Amani high priests."
+Inst63Quest2_Location = "Blood Guard Hakkuz (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
+Inst63Quest2_Note = "The Scouts are located at the platforms of the first four bosses and can be freed after defeating them."
+Inst63Quest2_Prequest = "None"
+Inst63Quest2_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst63Quest3 = "3. The Hex Lord's Fetish"
-Inst63Quest3_Aim = "Obtain the Hex Lord's Fetish from Hex Lord Malacrass in Zul'Aman."
-Inst63Quest3_Location = "Witch Doctor T'wansi (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
-Inst63Quest3_Note = "Hex Lord Malacrass is at "..YELLOW.."[5]"..WHITE..".\n\nIf you already did the level 70 version of this quest, you will be able to obtain this quest without doing the prequests."
-Inst63Quest3_Prequest = "X Marks... Your Doom!"
+Inst63Quest3 = "3. Warlord of the Amani"
+Inst63Quest3_Aim = "Defeat the new Amani Warlord, Daakara."
+Inst63Quest3_Location = "Vol'jin (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
+Inst63Quest3_Note = "Daakara is the final boss, at "..YELLOW.."[6]"..WHITE.."."
+Inst63Quest3_Prequest = "None"
 Inst63Quest3_Folgequest = "None"
-Inst63Quest3FQuest = "true"
 --
-Inst63Quest3name1 = "Voodoo Hunting Bow"
-Inst63Quest3name2 = "Fetish Greaves"
-Inst63Quest3name3 = "T'wansi's Handwraps"
-Inst63Quest3name4 = "Tattered Hexcloth Bag"
-
---Quest 4 Alliance
-Inst63Quest4 = "4. The Captive Scouts"
-Inst63Quest4_Aim = "Free the captive scouts: Hazlek, Bakkalzu, Norkani, and Kasha. They are being held captive by the Amani high priests."
-Inst63Quest4_Location = "Blood Guard Hakkuz (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
-Inst63Quest4_Note = "The Scouts are located at the platforms of the first four bosses and can be freed after defeating them."
-Inst63Quest4_Prequest = "None"
-Inst63Quest4_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst63Quest5 = "5. Warlord of the Amani"
-Inst63Quest5_Aim = "Defeat the new Amani Warlord, Daakara."
-Inst63Quest5_Location = "Vol'jin (Zul'Aman; "..BLUE.."Entrance"..WHITE..")"
-Inst63Quest5_Note = "Daakara is the final boss, at "..YELLOW.."[6]"..WHITE.."."
-Inst63Quest5_Prequest = "None"
-Inst63Quest5_Folgequest = "None"
---
-Inst63Quest5name1 = "Pauldrons of Ambition"
-Inst63Quest5name2 = "Robes of Dissention"
+Inst63Quest3name1 = "Pauldrons of Ambition"
+Inst63Quest3name2 = "Robes of Dissention"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -805,7 +785,11 @@ Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
 Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
 Inst63Quest1_HORDE_Folgequest = Inst63Quest1_Folgequest
--- No Rewards for this quest
+--
+Inst63Quest1name1_HORDE = Inst63Quest1name1
+Inst63Quest1name2_HORDE = Inst63Quest1name2
+Inst63Quest1name3_HORDE = Inst63Quest1name3
+Inst63Quest1name4_HORDE = Inst63Quest1name4
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst63Quest2_HORDE = Inst63Quest2
@@ -814,7 +798,6 @@ Inst63Quest2_HORDE_Location = Inst63Quest2_Location
 Inst63Quest2_HORDE_Note = Inst63Quest2_Note
 Inst63Quest2_HORDE_Prequest = Inst63Quest2_Prequest
 Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
-Inst63Quest2FQuest_HORDE = Inst63Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -824,32 +807,9 @@ Inst63Quest3_HORDE_Location = Inst63Quest3_Location
 Inst63Quest3_HORDE_Note = Inst63Quest3_Note
 Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
 Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
-Inst63Quest3FQuest_HORDE = Inst63Quest3FQuest
 --
 Inst63Quest3name1_HORDE = Inst63Quest3name1
 Inst63Quest3name2_HORDE = Inst63Quest3name2
-Inst63Quest3name3_HORDE = Inst63Quest3name3
-Inst63Quest3name4_HORDE = Inst63Quest3name4
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst63Quest4_HORDE = Inst63Quest4
-Inst63Quest4_HORDE_Aim = Inst63Quest4_Aim
-Inst63Quest4_HORDE_Location = Inst63Quest4_Location
-Inst63Quest4_HORDE_Note = Inst63Quest4_Note
-Inst63Quest4_HORDE_Prequest = Inst63Quest4_Prequest
-Inst63Quest4_HORDE_Folgequest = Inst63Quest4_Folgequest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst63Quest5_HORDE = Inst63Quest5
-Inst63Quest5_HORDE_Aim = Inst63Quest5_Aim
-Inst63Quest5_HORDE_Location = Inst63Quest5_Location
-Inst63Quest5_HORDE_Note = Inst63Quest5_Note
-Inst63Quest5_HORDE_Prequest = Inst63Quest5_Prequest
-Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
---
-Inst63Quest5name1_HORDE = Inst63Quest5name1
-Inst63Quest5name2_HORDE = Inst63Quest5name2
 
 
 

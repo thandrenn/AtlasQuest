@@ -1585,8 +1585,8 @@ Inst48Quest2_HORDE_Folgequest = Inst48Quest2_Folgequest
 --------------- INST49 - CoT: The Black Morass (BM) ---------------
 
 Inst49Caption = "The Black Morass"
-Inst49QAA = "5 Quests"
-Inst49QAH = "5 Quests"
+Inst49QAA = "4 Quests"
+Inst49QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst49Quest1 = "1. The Black Morass"
@@ -1604,7 +1604,6 @@ Inst49Quest2_Location = "Sa'at (Black Morass; "..BLUE.."Entrance"..WHITE..")"
 Inst49Quest2_Note = "If you fail, you'll have to start the event over from the beginning."
 Inst49Quest2_Prequest = "The Black Morass"
 Inst49Quest2_Folgequest = "None"
-Inst49Quest2FQuest = "true"
 --
 Inst49Quest2name1 = "Band of the Guardian"
 Inst49Quest2name2 = "Keeper's Ring of Piety"
@@ -1612,33 +1611,23 @@ Inst49Quest2name3 = "Time-bending Gem"
 Inst49Quest2name4 = "Andormu's Tear"
 
 --Quest 3 Alliance
-Inst49Quest3 = "3. The Master's Touch"
-Inst49Quest3_Aim = "Go into the Caverns of Time and convince Medivh to enable your Restored Apprentice's Key"
-Inst49Quest3_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54.8, 44.6"..WHITE..")"
-Inst49Quest3_Note = "Part of the Karazhan attunement line. You must be inside the instance when Aeonus dies in order to talk to Medivh."
-Inst49Quest3_Prequest = "The Second and Third Fragments"
-Inst49Quest3_Folgequest = "Return to Khadgar"
-Inst49Quest3PreQuest = "true"
+Inst49Quest3 = "3. Wanted: Aeonus's Hourglass (Heroic Daily)"
+Inst49Quest3_Aim = "Wind Trader Zhareem has asked you to acquire Aeonus's Hourglass. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst49Quest3_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst49Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nAeonus spawns in the last wave."
+Inst49Quest3_Prequest = "None"
+Inst49Quest3_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
-Inst49Quest4 = "4. Wanted: Aeonus's Hourglass (Heroic Daily)"
-Inst49Quest4_Aim = "Wind Trader Zhareem has asked you to acquire Aeonus's Hourglass. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst49Quest4_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
-Inst49Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nAeonus spawns in the last wave."
+Inst49Quest4 = "4. Wanted: Rift Lords (Daily)"
+Inst49Quest4_Aim = "Nether-Stalker Mah'duun wants you to kill 4 Rift Lords. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
+Inst49Quest4_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
+Inst49Quest4_Note = "This is a daily quest."
 Inst49Quest4_Prequest = "None"
 Inst49Quest4_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst49Quest5 = "5. Wanted: Rift Lords (Daily)"
-Inst49Quest5_Aim = "Nether-Stalker Mah'duun wants you to kill 4 Rift Lords. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty."
-Inst49Quest5_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
-Inst49Quest5_Note = "This is a daily quest."
-Inst49Quest5_Prequest = "None"
-Inst49Quest5_Folgequest = "None"
 --
-Inst49Quest5name1 = "Ethereum Prison Key"
+Inst49Quest4name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1657,7 +1646,6 @@ Inst49Quest2_HORDE_Location = Inst49Quest2_Location
 Inst49Quest2_HORDE_Note = Inst49Quest2_Note
 Inst49Quest2_HORDE_Prequest = Inst49Quest2_Prequest
 Inst49Quest2_HORDE_Folgequest = Inst49Quest2_Folgequest
-Inst49Quest2FQuest_HORDE = Inst49Quest2FQuest
 --
 Inst49Quest2name1_HORDE = Inst49Quest2name1
 Inst49Quest2name2_HORDE = Inst49Quest2name2
@@ -1671,7 +1659,6 @@ Inst49Quest3_HORDE_Location = Inst49Quest3_Location
 Inst49Quest3_HORDE_Note = Inst49Quest3_Note
 Inst49Quest3_HORDE_Prequest = Inst49Quest3_Prequest
 Inst49Quest3_HORDE_Folgequest = Inst49Quest3_Folgequest
-Inst49Quest3PreQuest_HORDE = Inst49Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -1681,17 +1668,8 @@ Inst49Quest4_HORDE_Location = Inst49Quest4_Location
 Inst49Quest4_HORDE_Note = Inst49Quest4_Note
 Inst49Quest4_HORDE_Prequest = Inst49Quest4_Prequest
 Inst49Quest4_HORDE_Folgequest = Inst49Quest4_Folgequest
--- No Rewards for this quest
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst49Quest5_HORDE = Inst49Quest5
-Inst49Quest5_HORDE_Aim = Inst49Quest5_Aim
-Inst49Quest5_HORDE_Location = Inst49Quest5_Location
-Inst49Quest5_HORDE_Note = Inst49Quest5_Note
-Inst49Quest5_HORDE_Prequest = Inst49Quest5_Prequest
-Inst49Quest5_HORDE_Folgequest = Inst49Quest5_Folgequest
 --
-Inst49Quest5name1_HORDE = Inst49Quest5name1
+Inst49Quest4name1_HORDE = Inst49Quest4name1
 
 
 
@@ -1708,7 +1686,6 @@ Inst50Quest1_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."5
 Inst50Quest1_Note = "Part of the Black Temple attunement line. Rage Winterchill is at "..YELLOW.."[1]"..WHITE.."."
 Inst50Quest1_Prequest = "Ruse of the Ashtongue ("..YELLOW.."TK: The Eye"..WHITE..")"
 Inst50Quest1_Folgequest = "The Hostage Soul"
-Inst50Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1719,7 +1696,6 @@ Inst50Quest1_HORDE_Location = Inst50Quest1_Location
 Inst50Quest1_HORDE_Note = Inst50Quest1_Note
 Inst50Quest1_HORDE_Prequest = Inst50Quest1_Prequest
 Inst50Quest1_HORDE_Folgequest = Inst50Quest1_Folgequest
-Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 -- No Rewards for this quest
 
 
@@ -1727,8 +1703,8 @@ Inst50Quest1PreQuest_HORDE = Inst50Quest1PreQuest
 --------------- INST51 - CoT: Old Hillsbrad Foothills ---------------
 
 Inst51Caption = "Old Hillsbrad Foothills"
-Inst51QAA = "4 Quests"
-Inst51QAH = "4 Quests"
+Inst51QAA = "5 Quests"
+Inst51QAH = "5 Quests"
 
 --Quest 1 Alliance
 Inst51Quest1 = "1. Old Hillsbrad"
@@ -1737,7 +1713,6 @@ Inst51Quest1_Location = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58.0, 5
 Inst51Quest1_Note = "Must have done the attunement quest that starts from the dragon at the entrance to Caverns of Time."
 Inst51Quest1_Prequest = "The Caverns of Time"
 Inst51Quest1_Folgequest = "Tareth's Diversion"
-Inst51Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -1747,7 +1722,6 @@ Inst51Quest2_Location = "Erozion (Old Hillsbrad Foothills; "..BLUE.."Entrance"..
 Inst51Quest2_Note = "Thrall is at "..GREEN.."[1']"..WHITE..".\n\nGo to Southshore to hear the story of Ashbringer and see some people with familiar names like Kel'Thuzad and Herod the Bully."
 Inst51Quest2_Prequest = "Old Hillsbrad"
 Inst51Quest2_Folgequest = "Escape from Durnholde"
-Inst51Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -1757,7 +1731,6 @@ Inst51Quest3_Location = "Thrall (Old Hillsbrad Foothills; "..GREEN.."[1']"..WHIT
 Inst51Quest3_Note = "Make sure everyone accepts the quest before anyone tells Thrall to start. Reportedly, the quest can be shared and successfully completed, though. You get 20 tries at rescuing Thrall after that you'll have to reset the instance and you can't kill the last boss without him."
 Inst51Quest3_Prequest = "Taretha's Diversion"
 Inst51Quest3_Folgequest = "None"
-Inst51Quest3FQuest = "true"
 --
 Inst51Quest3name1 = "Tempest's Touch"
 Inst51Quest3name2 = "Southshore Sneakers"
@@ -1773,6 +1746,16 @@ Inst51Quest4_Prequest = "None"
 Inst51Quest4_Folgequest = "None"
 -- No Rewards for this quest
 
+--Quest 5 Alliance
+Inst51Quest5 = "5. Nice Hat..."
+Inst51Quest5_Aim = "Don Carlos has inadvertently challenged you to defeat his younger self in Old Hillsbrad. Afterwards, bring Don Carlos' Hat to him in Tanaris as proof."
+Inst51Quest5_Location = "Don Carlos (Tanaris - Gadgetzan; "..YELLOW.."50.8, 27.4"..WHITE..")"
+Inst51Quest5_Note = "Don Carlos walks along the main road that runs West and East."
+Inst51Quest5_Prequest = "None"
+Inst51Quest5_Folgequest = "None"
+--
+Inst51Quest5name1 = "Haliscan Brimmed Hat"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst51Quest1_HORDE = Inst51Quest1
@@ -1781,7 +1764,6 @@ Inst51Quest1_HORDE_Location = Inst51Quest1_Location
 Inst51Quest1_HORDE_Note = Inst51Quest1_Note
 Inst51Quest1_HORDE_Prequest = Inst51Quest1_Prequest
 Inst51Quest1_HORDE_Folgequest = Inst51Quest1_Folgequest
-Inst51Quest1PreQuest_HORDE = Inst51Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -1791,7 +1773,6 @@ Inst51Quest2_HORDE_Location = Inst51Quest2_Location
 Inst51Quest2_HORDE_Note = Inst51Quest2_Note
 Inst51Quest2_HORDE_Prequest = Inst51Quest2_Prequest
 Inst51Quest2_HORDE_Folgequest = Inst51Quest2_Folgequest
-Inst51Quest2FQuest_HORDE = Inst51Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -1801,7 +1782,6 @@ Inst51Quest3_HORDE_Location = Inst51Quest3_Location
 Inst51Quest3_HORDE_Note = Inst51Quest3_Note
 Inst51Quest3_HORDE_Prequest = Inst51Quest3_Prequest
 Inst51Quest3_HORDE_Folgequest = Inst51Quest3_Folgequest
-Inst51Quest3FQuest_HORDE = Inst51Quest3FQuest
 --
 Inst51Quest3name1_HORDE = Inst51Quest3name1
 Inst51Quest3name2_HORDE = Inst51Quest3name2
@@ -1816,6 +1796,16 @@ Inst51Quest4_HORDE_Note = Inst51Quest4_Note
 Inst51Quest4_HORDE_Prequest = Inst51Quest4_Prequest
 Inst51Quest4_HORDE_Folgequest = Inst51Quest4_Folgequest
 -- No Rewards for this quest
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst51Quest5_HORDE = Inst51Quest5
+Inst51Quest5_HORDE_Aim = Inst51Quest5_Aim
+Inst51Quest5_HORDE_Location = Inst51Quest5_Location
+Inst51Quest5_HORDE_Note = Inst51Quest5_Note
+Inst51Quest5_HORDE_Prequest = Inst51Quest5_Prequest
+Inst51Quest5_HORDE_Folgequest = Inst51Quest5_Folgequest
+--
+Inst51Quest5name1_HORDE = Inst51Quest5name1
 
 
 
@@ -1849,151 +1839,17 @@ Inst52Quest1_HORDE_Folgequest = Inst52Quest1_Folgequest
 --------------- INST53 - Karazhan (Kara) ---------------
 
 Inst53Caption = "Karazhan"
-Inst53QAA = "14 Quests"
-Inst53QAH = "14 Quests"
+Inst53QAA = "1 Quest"
+Inst53QAH = "1 Quest"
 
 --Quest 1 Alliance
-Inst53Quest1 = "1. Assessing the Situation"
-Inst53Quest1_Aim = "Find Koren inside Karazhan."
-Inst53Quest1_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
-Inst53Quest1_Note = "Koren is located inside Karazhan, just past Attumen the Huntsman at "..GREEN.."[4']"..WHITE.."."
-Inst53Quest1_Prequest = "Arcane Disturbances -> The Violet Eye"
-Inst53Quest1_Folgequest = "Keanna's Log"
-Inst53Quest1PreQuest = "true"
+Inst53Quest1 = "1. The Cudgel of Kar'desh"
+Inst53Quest1_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
+Inst53Quest1_Location = "Skar'this the Heretic  (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")"
+Inst53Quest1_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane at "..YELLOW.."[5]"..WHITE.."."
+Inst53Quest1_Prequest = "None"
+Inst53Quest1_Folgequest = "None"
 -- No Rewards for this quest
-
---Quest 2 Alliance
-Inst53Quest2 = "2. Keanna's Log"
-Inst53Quest2_Aim = "Search the Guest Chambers inside Karazhan for Keanna's Log and bring it to Archmage Alturus outside Karazhan."
-Inst53Quest2_Location = "Koren (Karazhan; "..GREEN.."[4']"..WHITE..")"
-Inst53Quest2_Note = "The log is in the second room in the hall leading to Maiden of Virtue at "..GREEN.."[6']"..WHITE..", on a table. Archmage Alturus is at (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")."
-Inst53Quest2_Prequest = "Assessing the Situation"
-Inst53Quest2_Folgequest = "A Demonic Presence"
-Inst53Quest2FQuest = "true"
--- No Rewards for this quest
-
---Quest 3 Alliance
-Inst53Quest3 = "3. A Demonic Presence"
-Inst53Quest3_Aim = "Archmage Alturus wants you to destroy the Demonic Presence at the top of Karazhan."
-Inst53Quest3_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
-Inst53Quest3_Note = "Prince Malchezaar is at "..YELLOW.."[12]"..WHITE.."."
-Inst53Quest3_Prequest = "Keanna's Log"
-Inst53Quest3_Folgequest = "The New Directive"
-Inst53Quest3FQuest = "true"
--- No Rewards for this quest
-
---Quest 4 Alliance
-Inst53Quest4 = "4. The New Directive"
-Inst53Quest4_Aim = "Speak to Archmage Cedric in the Outskirts of Dalaran."
-Inst53Quest4_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
-Inst53Quest4_Note = "Archmage Cedric is at (Hillsbrad Foothills - Dalaran Crater; "..YELLOW.."30.8, 30.8"..WHITE..")"
-Inst53Quest4_Prequest = "A Demonic Presence"
-Inst53Quest4_Folgequest = "None"
-Inst53Quest4FQuest = "true"
---
-Inst53Quest4name1 = "Violet Badge"
-
---Quest 5 Alliance
-Inst53Quest5 = "5. Medivh's Journal"
-Inst53Quest5_Aim = "Archmage Alturus at Deadwind Pass wants you go into Karazhan and speak to Wravien."
-Inst53Quest5_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
-Inst53Quest5_Note = "Requires Honored with The Violet Eye. Wravien is located in the Guardians Library beyond The Curator at "..GREEN.."[10']"..WHITE.."."
-Inst53Quest5_Prequest = "None"
-Inst53Quest5_Folgequest = "In Good Hands"
--- No Rewards for this quest
-
---Quest 6 Alliance
-Inst53Quest6 = "6. In Good Hands"
-Inst53Quest6_Aim = "Speak to Gradav at the Guardian's Library in Karazhan."
-Inst53Quest6_Location = "Wravien (Karazhan; "..GREEN.."[10']"..WHITE..")"
-Inst53Quest6_Note = "Gradav is in the same room as Wravien at "..GREEN.."[11']"..WHITE.."."
-Inst53Quest6_Prequest = "Medivh's Journal"
-Inst53Quest6_Folgequest = "Kamsis"
-Inst53Quest6FQuest = "true"
--- No Rewards for this quest
-
---Quest 7 Alliance
-Inst53Quest7 = "7. Kamsis"
-Inst53Quest7_Aim = "Speak to Kamsis at the Guardian's Library in Karazhan."
-Inst53Quest7_Location = "Gradav (Karazhan; "..GREEN.."[11']"..WHITE..")"
-Inst53Quest7_Note = "Kamsis is in the same room as Gradav at "..GREEN.."[12']"..WHITE.."."
-Inst53Quest7_Prequest = "In Good Hands"
-Inst53Quest7_Folgequest = "The Shade of Aran"
-Inst53Quest7FQuest = "true"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst53Quest8 = "8. The Shade of Aran"
-Inst53Quest8_Aim = "Obtain Medivh's Journal and return to Kamsis at the Guardian's Library in Karazhan."
-Inst53Quest8_Location = "Kamsis (Karazhan; "..GREEN.."[12']"..WHITE..")"
-Inst53Quest8_Note = "Shade of Aran drops the journal at "..YELLOW.."[9]"..WHITE.."."
-Inst53Quest8_Prequest = "Kamsis"
-Inst53Quest8_Folgequest = "The Master's Terrace"
-Inst53Quest8FQuest = "true"
--- No Rewards for this quest
-
---Quest 9 Alliance
-Inst53Quest9 = "9. The Master's Terrace"
-Inst53Quest9_Aim = "Go to the Master's Terrace in Karazhan and read Medivh's Journal. Return to Archmage Alturus with Medivh's Journal after completing this task."
-Inst53Quest9_Location = "Kamsis (Karazhan; "..GREEN.."[12']"..WHITE..")"
-Inst53Quest9_Note = "The Master's Terrace is at "..YELLOW.."[5]"..WHITE..". No combat involved. Enjoy the show.\n\nArchmage Alturus is at (Deadwind Pass; "..YELLOW.."47.0, 75.6"..WHITE..")."
-Inst53Quest9_Prequest = "The Shade of Aran"
-Inst53Quest9_Folgequest = "Digging Up the Past"
-Inst53Quest9FQuest = "true"
--- No Rewards for this quest
-
---Quest 10 Alliance
-Inst53Quest10 = "10. Digging Up the Past"
-Inst53Quest10_Aim = "Archmage Alturus wants you to go to the mountains south of Karazhan in Deadwind Pass and retrieve a Charred Bone Fragment."
-Inst53Quest10_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
-Inst53Quest10_Note = "The Charred Bone Fragment is located at "..YELLOW.."45.0, 78.8"..WHITE.." in Deadwind Pass."
-Inst53Quest10_Prequest = "The Master's Terrace"
-Inst53Quest10_Folgequest = "A Colleague's Aid"
-Inst53Quest10FQuest = "true"
--- No Rewards for this quest
-
---Quest 11 Alliance
-Inst53Quest11 = "11. A Colleague's Aid"
-Inst53Quest11_Aim = "Take the Charred Bone Fragment to Kalynna Lathred at Area 52 in Netherstorm."
-Inst53Quest11_Location = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..")"
-Inst53Quest11_Note = "Kalynna Lathred is at (Netherstorm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")."
-Inst53Quest11_Prequest = "Digging up the Past"
-Inst53Quest11_Folgequest = "Kalynna's Request"
-Inst53Quest11FQuest = "true"
--- No Rewards for this quest
-
---Quest 12 Alliance
-Inst53Quest12 = "12. Kalynna's Request"
-Inst53Quest12_Aim = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun."
-Inst53Quest12_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")"
-Inst53Quest12_Note = "This quest requires you to run Heroic Shattered Halls and Heroic Sethekk Halls"
-Inst53Quest12_Prequest = "A Colleague's Aid"
-Inst53Quest12_Folgequest = "Nightbane"
-Inst53Quest12FQuest = "true"
--- No Rewards for this quest
-
---Quest 13 Alliance
-Inst53Quest13 = "13. Nightbane"
-Inst53Quest13_Aim = "Go to the Master's Terrace in Karazhan and use Kalynna's Urn to summon Nightbane. Retrieve the Faint Arcane Essence from Nightbane's corpse and bring it to Archmage Alturus"
-Inst53Quest13_Location = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32.2, 63.6"..WHITE..")"
-Inst53Quest13_Note = "Nightbane is summoned at "..YELLOW.."[5]"..WHITE..". Return to Archmage Alturus at (Deadwind Pass - Karazhan; "..YELLOW.."47.0, 75.6"..WHITE..") to turn in."
-Inst53Quest13_Prequest = "Kalynna's Request"
-Inst53Quest13_Folgequest = "None"
-Inst53Quest13FQuest = "true"
---
-Inst53Quest13name1 = "Pulsing Amethyst"
-Inst53Quest13name2 = "Soothing Amethyst"
-Inst53Quest13name3 = "Infused Amethyst"
-
---Quest 14 Alliance
-Inst53Quest14 = "14. The Cudgel of Kar'desh"
-Inst53Quest14_Aim = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet."
-Inst53Quest14_Location = "Skar'this the Heretic  (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")"
-Inst53Quest14_Note = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane at "..YELLOW.."[5]"..WHITE.."."
-Inst53Quest14_Prequest = "None"
-Inst53Quest14_Folgequest = "None"
--- No Rewards for this quest
-
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2003,149 +1859,15 @@ Inst53Quest1_HORDE_Location = Inst53Quest1_Location
 Inst53Quest1_HORDE_Note = Inst53Quest1_Note
 Inst53Quest1_HORDE_Prequest = Inst53Quest1_Prequest
 Inst53Quest1_HORDE_Folgequest = Inst53Quest1_Folgequest
-Inst53Quest1PreQuest_HORDE = Inst53Quest1PreQuest
 -- No Rewards for this quest
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst53Quest2_HORDE = Inst53Quest2
-Inst53Quest2_HORDE_Aim = Inst53Quest2_Aim
-Inst53Quest2_HORDE_Location = Inst53Quest2_Location
-Inst53Quest2_HORDE_Note = Inst53Quest2_Note
-Inst53Quest2_HORDE_Prequest = Inst53Quest2_Prequest
-Inst53Quest2_HORDE_Folgequest = Inst53Quest2_Folgequest
-Inst53Quest2FQuest_HORDE = Inst53Quest2FQuest
--- No Rewards for this quest
-
---Quest 3 Horde  (same as Quest 3 Alliance)
-Inst53Quest3_HORDE = Inst53Quest3
-Inst53Quest3_HORDE_Aim = Inst53Quest3_Aim
-Inst53Quest3_HORDE_Location = Inst53Quest3_Location
-Inst53Quest3_HORDE_Note = Inst53Quest3_Note
-Inst53Quest3_HORDE_Prequest = Inst53Quest3_Prequest
-Inst53Quest3_HORDE_Folgequest = Inst53Quest3_Folgequest
-Inst53Quest3FQuest_HORDE = Inst53Quest3FQuest
--- No Rewards for this quest
-
---Quest 4 Horde  (same as Quest 4 Alliance)
-Inst53Quest4_HORDE = Inst53Quest4
-Inst53Quest4_HORDE_Aim = Inst53Quest4_Aim
-Inst53Quest4_HORDE_Location = Inst53Quest4_Location
-Inst53Quest4_HORDE_Note = Inst53Quest4_Note
-Inst53Quest4_HORDE_Prequest = Inst53Quest4_Prequest
-Inst53Quest4_HORDE_Folgequest = Inst53Quest4_Folgequest
-Inst53Quest4FQuest_HORDE = Inst53Quest4FQuest
---
-Inst53Quest4name1_HORDE = Inst53Quest4name1
-
---Quest 5 Horde  (same as Quest 5 Alliance)
-Inst53Quest5_HORDE = Inst53Quest5
-Inst53Quest5_HORDE_Aim = Inst53Quest5_Aim
-Inst53Quest5_HORDE_Location = Inst53Quest5_Location
-Inst53Quest5_HORDE_Note = Inst53Quest5_Note
-Inst53Quest5_HORDE_Prequest = Inst53Quest5_Prequest
-Inst53Quest5_HORDE_Folgequest = Inst53Quest5_Folgequest
--- No Rewards for this quest
-
---Quest 6 Horde  (same as Quest 6 Alliance)
-Inst53Quest6_HORDE = Inst53Quest6
-Inst53Quest6_HORDE_Aim = Inst53Quest6_Aim
-Inst53Quest6_HORDE_Location = Inst53Quest6_Location
-Inst53Quest6_HORDE_Note = Inst53Quest6_Note
-Inst53Quest6_HORDE_Prequest = Inst53Quest6_Prequest
-Inst53Quest6_HORDE_Folgequest = Inst53Quest6_Folgequest
-Inst53Quest6FQuest_HORDE = Inst53Quest6FQuest
--- No Rewards for this quest
-
---Quest 7 Horde  (same as Quest 7 Alliance)
-Inst53Quest7_HORDE = Inst53Quest7
-Inst53Quest7_HORDE_Aim = Inst53Quest7_Aim
-Inst53Quest7_HORDE_Location = Inst53Quest7_Location
-Inst53Quest7_HORDE_Note = Inst53Quest7_Note
-Inst53Quest7_HORDE_Prequest = Inst53Quest7_Prequest
-Inst53Quest7_HORDE_Folgequest = Inst53Quest7_Folgequest
-Inst53Quest7FQuest_HORDE = Inst53Quest7FQuest
--- No Rewards for this quest
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst53Quest8_HORDE = Inst53Quest8
-Inst53Quest8_HORDE_Aim = Inst53Quest8_Aim
-Inst53Quest8_HORDE_Location = Inst53Quest8_Location
-Inst53Quest8_HORDE_Note = Inst53Quest8_Note
-Inst53Quest8_HORDE_Prequest = Inst53Quest8_Prequest
-Inst53Quest8_HORDE_Folgequest = Inst53Quest8_Folgequest
-Inst53Quest8FQuest_HORDE = Inst53Quest8FQuest
--- No Rewards for this quest
-
---Quest 9 Horde  (same as Quest 9 Alliance)
-Inst53Quest9_HORDE = Inst53Quest9
-Inst53Quest9_HORDE_Aim = Inst53Quest9_Aim
-Inst53Quest9_HORDE_Location = Inst53Quest9_Location
-Inst53Quest9_HORDE_Note = Inst53Quest9_Note
-Inst53Quest9_HORDE_Prequest = Inst53Quest9_Prequest
-Inst53Quest9_HORDE_Folgequest = Inst53Quest9_Folgequest
-Inst53Quest9FQuest_HORDE = Inst53Quest9FQuest
--- No Rewards for this quest
-
---Quest 10 Horde  (same as Quest 10 Alliance)
-Inst53Quest10_HORDE = Inst53Quest10
-Inst53Quest10_HORDE_Aim = Inst53Quest10_Aim
-Inst53Quest10_HORDE_Location = Inst53Quest10_Location
-Inst53Quest10_HORDE_Note = Inst53Quest10_Note
-Inst53Quest10_HORDE_Prequest = Inst53Quest10_Prequest
-Inst53Quest10_HORDE_Folgequest = Inst53Quest10_Folgequest
-Inst53Quest10FQuest_HORDE = Inst53Quest10FQuest
--- No Rewards for this quest
-
---Quest 11 Horde  (same as Quest 11 Alliance)
-Inst53Quest11_HORDE = Inst53Quest11
-Inst53Quest11_HORDE_Aim = Inst53Quest11_Aim
-Inst53Quest11_HORDE_Location = Inst53Quest11_Location
-Inst53Quest11_HORDE_Note = Inst53Quest11_Note
-Inst53Quest11_HORDE_Prequest = Inst53Quest11_Prequest
-Inst53Quest11_HORDE_Folgequest = Inst53Quest11_Folgequest
-Inst53Quest11FQuest_HORDE = Inst53Quest11FQuest
--- No Rewards for this quest
-
---Quest 12 Horde  (same as Quest 12 Alliance)
-Inst53Quest12_HORDE = Inst53Quest12
-Inst53Quest12_HORDE_Aim = Inst53Quest12_Aim
-Inst53Quest12_HORDE_Location = Inst53Quest12_Location
-Inst53Quest12_HORDE_Note = Inst53Quest12_Note
-Inst53Quest12_HORDE_Prequest = Inst53Quest12_Prequest
-Inst53Quest12_HORDE_Folgequest = Inst53Quest12_Folgequest
-Inst53Quest12FQuest_HORDE = Inst53Quest12FQuest
--- No Rewards for this quest
-
---Quest 13 Horde  (same as Quest 13 Alliance)
-Inst53Quest13_HORDE = Inst53Quest13
-Inst53Quest13_HORDE_Aim = Inst53Quest13_Aim
-Inst53Quest13_HORDE_Location = Inst53Quest13_Location
-Inst53Quest13_HORDE_Note = Inst53Quest13_Note
-Inst53Quest13_HORDE_Prequest = Inst53Quest13_Prequest
-Inst53Quest13_HORDE_Folgequest = Inst53Quest13_Folgequest
-Inst53Quest13FQuest_HORDE = Inst53Quest13FQuest
---
-Inst53Quest13name1_HORDE = Inst53Quest13name1
-Inst53Quest13name2_HORDE = Inst53Quest13name2
-Inst53Quest13name3_HORDE = Inst53Quest13name3
-
---Quest 14 Horde  (same as Quest 14 Alliance)
-Inst53Quest14_HORDE = Inst53Quest14
-Inst53Quest14_HORDE_Aim = Inst53Quest14_Aim
-Inst53Quest14_HORDE_Location = Inst53Quest14_Location
-Inst53Quest14_HORDE_Note = Inst53Quest14_Note
-Inst53Quest14_HORDE_Prequest = Inst53Quest14_Prequest
-Inst53Quest14_HORDE_Folgequest = Inst53Quest14_Folgequest
--- No Rewards for this quest
-
 
 
 
 --------------- INST54 - TK: Arcatraz (Arc) ---------------
 
 Inst54Caption = "The Arcatraz"
-Inst54QAA = "8 Quests"
-Inst54QAH = "8 Quests"
+Inst54QAA = "7 Quests"
+Inst54QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst54Quest1 = "1. Unbound Darkness"
@@ -2163,7 +1885,6 @@ Inst54Quest2_Location = "Auto-accepted in The Arcatraz"
 Inst54Quest2_Note = "Wrath-Scryer Soccothrates is at "..YELLOW.."[3]"..WHITE.." and Dalliah the Doomsayer is at "..YELLOW.."[2]"..WHITE..".  The quest can be turned in with the Quest log."
 Inst54Quest2_Prequest = "Unbound Darkness"
 Inst54Quest2_Folgequest = "Maximum Security Breakout"
-Inst54Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2173,7 +1894,6 @@ Inst54Quest3_Location = "Auto-accepted in The Arcatraz"
 Inst54Quest3_Note = "Harbinger Skyriss is at "..YELLOW.."[4]"..WHITE..".  The quest can be turned in with the Quest log."
 Inst54Quest3_Prequest = "Hey There Dalliah"
 Inst54Quest3_Folgequest = "None"
-Inst54Quest3FQuest = "true"
 --
 Inst54Quest3name1 = "Potent Sha'tari Pendant"
 Inst54Quest3name2 = "A'dal's Recovery Necklace"
@@ -2186,7 +1906,6 @@ Inst54Quest4_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."5
 Inst54Quest4_Note = "Seer Udalo is at "..GREEN.."[1']"..WHITE..", just before the room with the final boss.\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62.4,28.4"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56.2,59.4"..WHITE..") for Scryers."
 Inst54Quest4_Prequest = "Tablets of Baa'ri -> Akama"
 Inst54Quest4_Folgequest = "A Mysterious Portent"
-Inst54Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -2199,33 +1918,23 @@ Inst54Quest5_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
-Inst54Quest6 = "6. The Second and Third Fragments"
-Inst54Quest6_Aim = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task."
-Inst54Quest6_Location = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54.6, 44.0"..WHITE..")"
-Inst54Quest6_Note = "Part of the Karazhan attunement line. The Arcane Container is at "..DARKYELLOW.."[1]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault."
-Inst54Quest6_Prequest = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")"
-Inst54Quest6_Folgequest = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")"
-Inst54Quest6PreQuest = "true"
+Inst54Quest6 = "6. Wanted: The Scroll of Skyriss (Heroic Daily)"
+Inst54Quest6_Aim = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward."
+Inst54Quest6_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
+Inst54Quest6_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[4]"..WHITE.."."
+Inst54Quest6_Prequest = "None"
+Inst54Quest6_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
-Inst54Quest7 = "7. Wanted: The Scroll of Skyriss (Heroic Daily)"
-Inst54Quest7_Aim = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward."
-Inst54Quest7_Location = "Wind Trader Zhareem (Shattrath City - Lower City; "..YELLOW.."75.0, 37.0"..WHITE..")"
-Inst54Quest7_Note = "This daily quest can only be completed on Heroic difficulty.\n\nHarbinger Skyriss is at "..YELLOW.."[4]"..WHITE.."."
+Inst54Quest7 = "7. Wanted: Arcatraz Sentinels (Daily)"
+Inst54Quest7_Aim = "Nether-Stalker Mah'duun wants you to dismantle 5 Arcatraz Sentinels. Return to him in Shattrath's Lower City once that has been accomplished in order to collect the bounty."
+Inst54Quest7_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
+Inst54Quest7_Note = "This is a daily quest."
 Inst54Quest7_Prequest = "None"
 Inst54Quest7_Folgequest = "None"
--- No Rewards for this quest
-
---Quest 8 Alliance
-Inst54Quest8 = "8. Wanted: Arcatraz Sentinels (Daily)"
-Inst54Quest8_Aim = "Nether-Stalker Mah'duun wants you to dismantle 5 Arcatraz Sentinels. Return to him in Shattrath's Lower City once that has been accomplished in order to collect the bounty."
-Inst54Quest8_Location = "Nether-Stalker Mah'duun (Shattrath City - Lower City; "..YELLOW.."75.2, 37.6"..WHITE..")"
-Inst54Quest8_Note = "This is a daily quest."
-Inst54Quest8_Prequest = "None"
-Inst54Quest8_Folgequest = "None"
 --
-Inst54Quest8name1 = "Ethereum Prison Key"
+Inst54Quest7name1 = "Ethereum Prison Key"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -2244,7 +1953,6 @@ Inst54Quest2_HORDE_Location = Inst54Quest2_Location
 Inst54Quest2_HORDE_Note = Inst54Quest2_Note
 Inst54Quest2_HORDE_Prequest = Inst54Quest2_Prequest
 Inst54Quest2_HORDE_Folgequest = Inst54Quest2_Folgequest
-Inst54Quest2FQuest_HORDE = Inst54Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -2254,7 +1962,6 @@ Inst54Quest3_HORDE_Location = Inst54Quest3_Location
 Inst54Quest3_HORDE_Note = Inst54Quest3_Note
 Inst54Quest3_HORDE_Prequest = Inst54Quest3_Prequest
 Inst54Quest3_HORDE_Folgequest = Inst54Quest3_Folgequest
-Inst54Quest3FQuest_HORDE = Inst54Quest3FQuest
 --
 Inst54Quest3name1_HORDE = Inst54Quest3name1
 Inst54Quest3name2_HORDE = Inst54Quest3name2
@@ -2267,7 +1974,6 @@ Inst54Quest4_HORDE_Location = Inst54Quest4_Location
 Inst54Quest4_HORDE_Note = Inst54Quest4_Note
 Inst54Quest4_HORDE_Prequest = Inst54Quest4_Prequest
 Inst54Quest4_HORDE_Folgequest = Inst54Quest4_Folgequest
-Inst54Quest4PreQuest_HORDE = Inst54Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -2286,7 +1992,6 @@ Inst54Quest6_HORDE_Location = Inst54Quest6_Location
 Inst54Quest6_HORDE_Note = Inst54Quest6_Note
 Inst54Quest6_HORDE_Prequest = Inst54Quest6_Prequest
 Inst54Quest6_HORDE_Folgequest = Inst54Quest6_Folgequest
-Inst54Quest6PreQuest_HORDE = Inst54Quest6PreQuest
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -2296,17 +2001,8 @@ Inst54Quest7_HORDE_Location = Inst54Quest7_Location
 Inst54Quest7_HORDE_Note = Inst54Quest7_Note
 Inst54Quest7_HORDE_Prequest = Inst54Quest7_Prequest
 Inst54Quest7_HORDE_Folgequest = Inst54Quest7_Folgequest
--- No Rewards for this quest
-
---Quest 8 Horde  (same as Quest 8 Alliance)
-Inst54Quest8_HORDE = Inst54Quest8
-Inst54Quest8_HORDE_Aim = Inst54Quest8_Aim
-Inst54Quest8_HORDE_Location = Inst54Quest8_Location
-Inst54Quest8_HORDE_Note = Inst54Quest8_Note
-Inst54Quest8_HORDE_Prequest = Inst54Quest8_Prequest
-Inst54Quest8_HORDE_Folgequest = Inst54Quest8_Folgequest
 --
-Inst54Quest8name1_HORDE = Inst54Quest8name1
+Inst54Quest7name1_HORDE = Inst54Quest7name1
 
 
 
@@ -2332,7 +2028,6 @@ Inst55Quest2_Location = "Auto-accepted in The Botanica"
 Inst55Quest2_Note = "Laj is at "..YELLOW.."[4]"..WHITE.."."
 Inst55Quest2_Prequest = "Saving the Botanica"
 Inst55Quest2_Folgequest = "A Most Somber Task"
-Inst55Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2342,7 +2037,6 @@ Inst55Quest3_Location = "Auto-accepted in The Botanica"
 Inst55Quest3_Note = "Warp Splinter is at "..YELLOW.."[5]"..WHITE.."."
 Inst55Quest3_Prequest = "Culling the Herd"
 Inst55Quest3_Folgequest = "None"
-Inst55Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -2352,7 +2046,6 @@ Inst55Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."5
 Inst55Quest4_Note = "The Bottom Piece drops off Warp Splinter located at "..YELLOW.."[5]"..WHITE..". The Top piece drops in Mechanar."
 Inst55Quest4_Prequest = "Warp-Raider Nesaad -> Special Delivery to Shattrath City"
 Inst55Quest4_Folgequest = "Harbinger of Doom ("..YELLOW.."TK: Arcatraz"..WHITE..")"
-Inst55Quest4PreQuest = "true"
 --
 Inst55Quest4name1 = "Sha'tari Anchorite's Cloak"
 Inst55Quest4name2 = "A'dal's Gift"
@@ -2367,7 +2060,6 @@ Inst55Quest5_Location = "Archmage Vargoth (Netherstorm - Kirin'Var Village; "..Y
 Inst55Quest5_Note = "Commander Sarannis is at "..YELLOW.."[1]"..WHITE.."."
 Inst55Quest5_Prequest = "Finding the Keymaster"
 Inst55Quest5_Folgequest = "None"
-Inst55Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -2406,7 +2098,6 @@ Inst55Quest2_HORDE_Location = Inst55Quest2_Location
 Inst55Quest2_HORDE_Note = Inst55Quest2_Note
 Inst55Quest2_HORDE_Prequest = Inst55Quest2_Prequest
 Inst55Quest2_HORDE_Folgequest = Inst55Quest2_Folgequest
-Inst55Quest2FQuest_HORDE = Inst55Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -2416,7 +2107,6 @@ Inst55Quest3_HORDE_Location = Inst55Quest3_Location
 Inst55Quest3_HORDE_Note = Inst55Quest3_Note
 Inst55Quest3_HORDE_Prequest = Inst55Quest3_Prequest
 Inst55Quest3_HORDE_Folgequest = Inst55Quest3_Folgequest
-Inst55Quest3FQuest_HORDE = Inst55Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -2426,7 +2116,6 @@ Inst55Quest4_HORDE_Location = Inst55Quest4_Location
 Inst55Quest4_HORDE_Note = Inst55Quest4_Note
 Inst55Quest4_HORDE_Prequest = Inst55Quest4_Prequest
 Inst55Quest4_HORDE_Folgequest = Inst55Quest4_Folgequest
-Inst55Quest4PreQuest_HORDE = Inst55Quest4PreQuest
 --
 Inst55Quest4name1_HORDE = Inst55Quest4name1
 Inst55Quest4name2_HORDE = Inst55Quest4name2
@@ -2441,7 +2130,6 @@ Inst55Quest5_HORDE_Location = Inst55Quest5_Location
 Inst55Quest5_HORDE_Note = Inst55Quest5_Note
 Inst55Quest5_HORDE_Prequest = Inst55Quest5_Prequest
 Inst55Quest5_HORDE_Folgequest = Inst55Quest5_Folgequest
-Inst55Quest5PreQuest_HORDE = Inst55Quest5PreQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -2496,7 +2184,6 @@ Inst56Quest3_Location = "Auto-accepted in The Mechanar"
 Inst56Quest3_Note = "Pathaleon the Calculator is at "..YELLOW.."[5]"..WHITE.."."
 Inst56Quest3_Prequest = "With Great Power, Comes Great Responsibility"
 Inst56Quest3_Folgequest = "None"
-Inst56Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -2506,7 +2193,6 @@ Inst56Quest4_Location = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."5
 Inst56Quest4_Note = "The Top Piece drops off Pathaleon the Calculator located at "..YELLOW.."[5]"..WHITE..". The Bottom piece drops in Botanica."
 Inst56Quest4_Prequest = "Warp-Raider Nesaad -> Special Delivery to Shattrath City"
 Inst56Quest4_Folgequest = "Harbinger of Doom ("..YELLOW.."TK: Arcatraz"..WHITE..")"
-Inst56Quest4PreQuest = "true"
 --
 Inst56Quest4name1 = "Sha'tari Anchorite's Cloak"
 Inst56Quest4name2 = "A'dal's Gift"
@@ -2521,7 +2207,6 @@ Inst56Quest5_Location = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLO
 Inst56Quest5_Note = "The cell is before Mechano-Lord Capacitus at "..YELLOW.."[3]"..WHITE.." in a box near the wall.\n\nCompleting this quest along with The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..") will open up two new quests from David Wayne."
 Inst56Quest5_Prequest = "Additional Materials"
 Inst56Quest5_Folgequest = "None"
-Inst56Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -2569,7 +2254,6 @@ Inst56Quest3_HORDE_Location = Inst56Quest3_Location
 Inst56Quest3_HORDE_Note = Inst56Quest3_Note
 Inst56Quest3_HORDE_Prequest = Inst56Quest3_Prequest
 Inst56Quest3_HORDE_Folgequest = Inst56Quest3_Folgequest
-Inst56Quest3FQuest_HORDE = Inst56Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -2579,7 +2263,6 @@ Inst56Quest4_HORDE_Location = Inst56Quest4_Location
 Inst56Quest4_HORDE_Note = Inst56Quest4_Note
 Inst56Quest4_HORDE_Prequest = Inst56Quest4_Prequest
 Inst56Quest4_HORDE_Folgequest = Inst56Quest4_Folgequest
-Inst56Quest4PreQuest_HORDE = Inst56Quest4PreQuest
 --
 Inst56Quest4name1_HORDE = Inst56Quest4name1
 Inst56Quest4name2_HORDE = Inst56Quest4name2
@@ -2594,7 +2277,6 @@ Inst56Quest5_HORDE_Location = Inst56Quest5_Location
 Inst56Quest5_HORDE_Note = Inst56Quest5_Note
 Inst56Quest5_HORDE_Prequest = Inst56Quest5_Prequest
 Inst56Quest5_HORDE_Folgequest = Inst56Quest5_Folgequest
-Inst56Quest5PreQuest_HORDE = Inst56Quest5PreQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -2631,7 +2313,6 @@ Inst61Quest1_Location = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."5
 Inst61Quest1_Note = "This is part of the Black Temple attunement line."
 Inst61Quest1_Prequest = "The Secret Compromised ("..YELLOW.."Serpentshrine Cavern"..WHITE..")"
 Inst61Quest1_Folgequest = "An Artifact From the Past ("..YELLOW.."Battle of Mount Hyjal"..WHITE..")"
-Inst61Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -2664,7 +2345,6 @@ Inst61Quest1_HORDE_Location = Inst61Quest1_Location
 Inst61Quest1_HORDE_Note = Inst61Quest1_Note
 Inst61Quest1_HORDE_Prequest = Inst61Quest1_Prequest
 Inst61Quest1_HORDE_Folgequest = Inst61Quest1_Folgequest
-Inst61Quest1PreQuest_HORDE = Inst61Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -2704,7 +2384,6 @@ Inst62Quest1_Location = "Xi'ri (Shadowmoon Valley; "..YELLOW.."65.2, 44.0"..WHIT
 Inst62Quest1_Note = "Spirit of Olum is up the tunnel once you enter the Black Temple at "..GREEN.."[1']"..WHITE..". He will teleport you to Seer Kanai once you've defeated High Warlord Naj'entus at "..YELLOW.."[1]"..WHITE.." and Supremus at "..YELLOW.."[2]"..WHITE.."."
 Inst62Quest1_Prequest = "The Secret Compromised -> A Distraction for Akama"
 Inst62Quest1_Folgequest = "Redemption of the Ashtongue"
-Inst62Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -2714,7 +2393,6 @@ Inst62Quest2_Location = "Seer Kanai (Black Temple; "..GREEN.."[2']"..WHITE..")."
 Inst62Quest2_Note = "Shade of Akama is at "..YELLOW.."[3]"..WHITE.."."
 Inst62Quest2_Prequest = "Seek Out the Ashtongue"
 Inst62Quest2_Folgequest = "The Fall of the Betrayer"
-Inst62Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2724,7 +2402,6 @@ Inst62Quest3_Location = "Seer Kanai (Black Temple; "..GREEN.."[2']"..WHITE..")."
 Inst62Quest3_Note = "Illidan Stormrage is at "..YELLOW.."[9]"..WHITE.."."
 Inst62Quest3_Prequest = "Redemption of the Ashtongue"
 Inst62Quest3_Folgequest = "None"
-Inst62Quest3FQuest = "true"
 --
 Inst62Quest3name1 = "Blessed Medallion of Karabor"
 
@@ -2736,7 +2413,6 @@ Inst62Quest1_HORDE_Location = Inst62Quest1_Location
 Inst62Quest1_HORDE_Note = Inst62Quest1_Note
 Inst62Quest1_HORDE_Prequest = Inst62Quest1_Prequest
 Inst62Quest1_HORDE_Folgequest = Inst62Quest1_Folgequest
-Inst62Quest1PreQuest_HORDE = Inst62Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -2746,7 +2422,6 @@ Inst62Quest2_HORDE_Location = Inst62Quest2_Location
 Inst62Quest2_HORDE_Note = Inst62Quest2_Note
 Inst62Quest2_HORDE_Prequest = Inst62Quest2_Prequest
 Inst62Quest2_HORDE_Folgequest = Inst62Quest2_Folgequest
-Inst62Quest2FQuest_HORDE = Inst62Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -2756,10 +2431,8 @@ Inst62Quest3_HORDE_Location = Inst62Quest3_Location
 Inst62Quest3_HORDE_Note = Inst62Quest3_Note
 Inst62Quest3_HORDE_Prequest = Inst62Quest3_Prequest
 Inst62Quest3_HORDE_Folgequest = Inst62Quest3_Folgequest
-Inst62Quest3FQuest_HORDE = Inst62Quest3FQuest
 --
 Inst62Quest3name1_HORDE = Inst62Quest3name1
-
 
 
 
@@ -2776,7 +2449,6 @@ Inst67Quest1_Location = "Exarch Larethor (Isle of Quel'Danas - Shattered Sun Sta
 Inst67Quest1_Note = "Exarch Larethor is inside the instance at "..BLUE.."Entrance"..WHITE..". \n\nThe prequest is available from either Adyen the Lightwarden (Shattrath City - Aldor Rise; "..YELLOW.."30.6, 34.4"..WHITE..") or Dathris Sunstriker (Shattrath City - Scryers Tier; "..YELLOW.."54.4, 80.6"..WHITE..")."
 Inst67Quest1_Prequest = "Crisis at the Sunwell or Duty Calls"
 Inst67Quest1_Folgequest = "None"
-Inst67Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -2786,7 +2458,6 @@ Inst67Quest2_Location = "Exarch Larethor (Magisters' Terrace; "..BLUE.."Entrance
 Inst67Quest2_Note = "Tyrith is inside the instance at "..GREEN.."[1']"..WHITE.."."
 Inst67Quest2_Prequest = "Duty Calls"
 Inst67Quest2_Folgequest = "The Scryer's Scryer"
-Inst67Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2796,7 +2467,6 @@ Inst67Quest3_Location = "Tyrith (Magisters' Terrace; "..GREEN.."[1']"..WHITE..")
 Inst67Quest3_Note = "The Scrying Orb is at "..GREEN.."[2']"..WHITE..". After the 'movie' clip, Kalecgos will appear to start the next quest."
 Inst67Quest3_Prequest = "Severed Communications"
 Inst67Quest3_Folgequest = "Hard to Kill"
-Inst67Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -2806,7 +2476,6 @@ Inst67Quest4_Location = "Kalecgos (Magisters' Terrace; "..GREEN.."[2']"..WHITE..
 Inst67Quest4_Note = "Prince Kael'thas Sunstrider is at "..YELLOW.."[4]"..WHITE.."."
 Inst67Quest4_Prequest = "The Scryer's Scryer"
 Inst67Quest4_Folgequest = "None"
-Inst67Quest4FQuest = "true"
 --
 Inst67Quest4name1 = "Delicate Crimson Spinel"
 Inst67Quest4name2 = "Brilliant Crimson Spinel"
@@ -2856,7 +2525,6 @@ Inst67Quest1_HORDE_Location = Inst67Quest1_Location
 Inst67Quest1_HORDE_Note = Inst67Quest1_Note
 Inst67Quest1_HORDE_Prequest = Inst67Quest1_Prequest
 Inst67Quest1_HORDE_Folgequest = Inst67Quest1_Folgequest
-Inst67Quest1PreQuest_HORDE = Inst67Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -2866,7 +2534,6 @@ Inst67Quest2_HORDE_Location = Inst67Quest2_Location
 Inst67Quest2_HORDE_Note = Inst67Quest2_Note
 Inst67Quest2_HORDE_Prequest = Inst67Quest2_Prequest
 Inst67Quest2_HORDE_Folgequest = Inst67Quest2_Folgequest
-Inst67Quest2PreQuest_HORDE = Inst67Quest2PreQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -2876,7 +2543,6 @@ Inst67Quest3_HORDE_Location = Inst67Quest3_Location
 Inst67Quest3_HORDE_Note = Inst67Quest3_Note
 Inst67Quest3_HORDE_Prequest = Inst67Quest3_Prequest
 Inst67Quest3_HORDE_Folgequest = Inst67Quest3_Folgequest
-Inst67Quest3FQuest_HORDE = Inst67Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -2886,7 +2552,6 @@ Inst67Quest4_HORDE_Location = Inst67Quest4_Location
 Inst67Quest4_HORDE_Note = Inst67Quest4_Note
 Inst67Quest4_HORDE_Prequest = Inst67Quest4_Prequest
 Inst67Quest4_HORDE_Folgequest = Inst67Quest4_Folgequest
-Inst67Quest4FQuest_HORDE = Inst67Quest4FQuest
 --
 Inst67Quest4name1_HORDE = Inst67Quest4name1
 Inst67Quest4name2_HORDE = Inst67Quest4name2
@@ -2944,7 +2609,6 @@ Inst68Quest1_Location = "Halduron Brightwing (Isle of Quel'danas; "..YELLOW.."44
 Inst68Quest1_Note = "When you enter Sunwell Plateau, you will be in a phased version and will not have to fight any mobs or bosses.  The Sunwell is at "..YELLOW.."[4]"..WHITE.."."
 Inst68Quest1_Prequest = "Thalorien Dawnseeker"
 Inst68Quest1_Folgequest = "A Victory For The Silver Covenant"
-Inst68Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -2955,63 +2619,8 @@ Inst68Quest1_HORDE_Location = "Halduron Brightwing (Isle of Quel'danas; "..YELLO
 Inst68Quest1_HORDE_Note = "When you enter Sunwell Plateau, you will be in a phased version and will not have to fight any mobs or bosses.  The Sunwell is at "..YELLOW.."[4]"..WHITE.."."
 Inst68Quest1_HORDE_Prequest = "Thalorien Dawnseeker"
 Inst68Quest1_HORDE_Folgequest = "A Victory For The Sunreavers"
-Inst68Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
-
-
---------------- INST69 - Caverns of Time: The Culling of Stratholme ---------------
-
-Inst69Caption = "The Culling of Stratholme"
-Inst69QAA = "2 Quests"
-Inst69QAH = "2 Quests"
-
---Quest 1 Alliance
-Inst69Quest1 = "1. Dispelling Illusions"
-Inst69Quest1_Aim = "Chromie wants you to use the Arcane Disruptor on the suspicious crates in Stratholme Past, then speak to her near the entrance to Stratholme."
-Inst69Quest1_Location = "Chromie (The Culling of Stratholme; "..GREEN.."[1']"..WHITE..")"
-Inst69Quest1_Note = "The crates are found near the houses along the road on the way to Stratholme. After completion, you can turn the quest in to another Chromie at "..GREEN.."[1']"..WHITE.."."
-Inst69Quest1_Prequest = "None"
-Inst69Quest1_Folgequest = "A Royal Escort"
--- No Rewards for this quest
-
---Quest 2 Alliance
-Inst69Quest2 = "2. A Royal Escort"
-Inst69Quest2_Aim = "Chromie has asked you to accompany Arthas in the Culling of Stratholme. You are to speak with her again after Mal'Ganis is defeated."
-Inst69Quest2_Location = "Chromie (The Culling of Stratholme; "..GREEN.."[1']"..WHITE..")"
-Inst69Quest2_Note = "Mal'Ganis is at "..YELLOW.."[5]"..WHITE..". Chromie will appear there after the event is over."
-Inst69Quest2_Prequest = "Dispelling Illusions"
-Inst69Quest2_Folgequest = "None"
-Inst69Quest2FQuest = "true"
---
-Inst69Quest2name1 = "Gloves of the Time Guardian"
-Inst69Quest2name2 = "Handwraps of Preserved History"
-Inst69Quest2name3 = "Grips of Chronological Events"
-Inst69Quest2name4 = "Gauntlets of The Culling"
-
-
---Quest 1 Horde  (same as Quest 1 Alliance)
-Inst69Quest1_HORDE = Inst69Quest1
-Inst69Quest1_HORDE_Aim = Inst69Quest1_Aim
-Inst69Quest1_HORDE_Location = Inst69Quest1_Location
-Inst69Quest1_HORDE_Note = Inst69Quest1_Note
-Inst69Quest1_HORDE_Prequest = Inst69Quest1_Prequest
-Inst69Quest1_HORDE_Folgequest = Inst69Quest1_Folgequest
--- No Rewards for this quest
-
---Quest 2 Horde  (same as Quest 2 Alliance)
-Inst69Quest2_HORDE = Inst69Quest2
-Inst69Quest2_HORDE_Aim = Inst69Quest2_Aim
-Inst69Quest2_HORDE_Location = Inst69Quest2_Location
-Inst69Quest2_HORDE_Note = Inst69Quest2_Note
-Inst69Quest2_HORDE_Prequest = Inst69Quest2_Prequest
-Inst69Quest2_HORDE_Folgequest = Inst69Quest2_Folgequest
-Inst69Quest2FQuest_HORDE = Inst69Quest2FQuest
---
-Inst69Quest2name1_HORDE = Inst69Quest2name1
-Inst69Quest2name2_HORDE = Inst69Quest2name2
-Inst69Quest2name3_HORDE = Inst69Quest2name3
-Inst69Quest2name4_HORDE = Inst69Quest2name4
 
 
 -- End of File

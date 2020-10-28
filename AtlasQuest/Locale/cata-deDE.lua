@@ -743,61 +743,41 @@ Inst105Quest1PreQuest_HORDE = Inst105Quest1PreQuest
 --------------- INST63 - Zul'Aman (ZA) ---------------
 
 Inst63Caption = "Zul'Aman"
-Inst63QAA = "5 Quests"
-Inst63QAH = "5 Quests"
+Inst63QAA = "3 Quests"
+Inst63QAH = "3 Quests"
 
 --Quest 1 Alliance
-Inst63Quest1 = "1. Versprechen, Versprechen..."
-Inst63Quest1_Aim = "Besorgt Budd Winterhäldlers Karte von Zul'Aman, dass bei Hohepriester Nalorakks Terrasse liegt."
-Inst63Quest1_Location = ""
-Inst63Quest1_Note = "Die Karte liegt auf der rechten Rampe neben Hohepriester Nalorakk bei "..YELLOW.."[1]"..WHITE.."."
+Inst63Quest1 = "1. Der Fetisch des Hexlords"
+Inst63Quest1_Aim = "Erbeutet den Fetisch des Hexlords von Hexlord Malacrass in Zul'Aman."
+Inst63Quest1_Location = "Hexendoktor T'wansi (Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
+Inst63Quest1_Note = "Hexlord Malacrass ist bei "..YELLOW.."[5]"..WHITE.."."
 Inst63Quest1_Prequest = "Nein"
 Inst63Quest1_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst63Quest1name1 = "Voodoojagdbogen"
+Inst63Quest1name2 = "Fetischschienbeinschützer"
+Inst63Quest1name3 = "T'wansis Handlappen"
+Inst63Quest1name4 = "Zerlumpter Beutel aus Hexerstoff"
 
 --Quest 2 Alliance
-Inst63Quest2 = "2. Das X markiert Euren Untergang!"
-Inst63Quest2_Aim = "Untersucht Halazzis Kammer, Jan'alais Plateau und Akil'zons Plateau in Zul'Aman."
-Inst63Quest2_Location = ""
-Inst63Quest2_Note = "Halazzis Kammer ist bei "..YELLOW.."[4]"..WHITE..", Jan'alais Plattform ist bei "..YELLOW.."[3]"..WHITE..", und Akil'zons Plattform ist bei "..YELLOW.."[2]"..WHITE..".\n\nDie Bosse müssen nicht bekämpft werden, um die Quest abzuschließen. Einfach in die Nähe gehen, ohne Aggro zu ziehen."
-Inst63Quest2_Prequest = "Versprechen, Versprechen..."
-Inst63Quest2_Folgequest = "Der Fetisch des Hexlords"
-Inst63Quest2FQuest = "true"
+Inst63Quest2 = "2. Die gefangenen Späher"
+Inst63Quest2_Aim = "Befreit die gefangenen Späher: Hazlek, Bakkalzu, Norkani und Kasha. Sie werden von den Hohepriestern der Amanitrolle gefangengehalten."
+Inst63Quest2_Location = "Blutwache Hakkuz (Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
+Inst63Quest2_Note = "Die Späher sind auf den Plattformen der ersten 4 Bosse und können nach deren Vernichtung befreit werden."
+Inst63Quest2_Prequest = "Nein"
+Inst63Quest2_Folgequest = "Nein"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
-Inst63Quest3 = "3. Der Fetisch des Hexlords"
-Inst63Quest3_Aim = "Erbeutet den Fetisch des Hexlords von Hexlord Malacrass in Zul'Aman."
-Inst63Quest3_Location = "Hexendoktor T'wansi (Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
-Inst63Quest3_Note = "Hexlord Malacrass ist bei "..YELLOW.."[5]"..WHITE.."."
-Inst63Quest3_Prequest = "Das X markiert Euren Untergang!"
+Inst63Quest3 = "3. Der Kriegsherr der Amani"
+Inst63Quest3_Aim = "Besiegt den neuen Kriegsherrn der Amani, Daakara."
+Inst63Quest3_Location = "Vol'jin (Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
+Inst63Quest3_Note = "Daakara ist der Endboss, bei "..YELLOW.."[6]"..WHITE.."."
+Inst63Quest3_Prequest = "Nein"
 Inst63Quest3_Folgequest = "Nein"
-Inst63Quest3PreQuest = "true"
 --
-Inst63Quest3name1 = "Voodoojagdbogen"
-Inst63Quest3name2 = "Fetischschienbeinschützer"
-Inst63Quest3name3 = "T'wansis Handlappen"
-Inst63Quest3name4 = "Zerlumpter Beutel aus Hexerstoff"
-
---Quest 4 Alliance
-Inst63Quest4 = "4. Die gefangenen Späher"
-Inst63Quest4_Aim = "Befreit die gefangenen Späher: Hazlek, Bakkalzu, Norkani und Kasha. Sie werden von den Hohepriestern der Amanitrolle gefangengehalten."
-Inst63Quest4_Location = "Blutwache Hakkuz (Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
-Inst63Quest4_Note = "Die Späher sind auf den Plattformen der ersten 4 Bosse und können nach deren Vernichtung befreit werden."
-Inst63Quest4_Prequest = "Nein"
-Inst63Quest4_Folgequest = "Nein"
--- No Rewards for this quest
-
---Quest 5 Alliance
-Inst63Quest5 = "5. Der Kriegsherr der Amani"
-Inst63Quest5_Aim = "Besiegt den neuen Kriegsherrn der Amani, Daakara."
-Inst63Quest5_Location = "Vol'jin (Zul'Aman; "..BLUE.."Eingang"..WHITE..")"
-Inst63Quest5_Note = "Daakara ist der Endboss, bei "..YELLOW.."[6]"..WHITE.."."
-Inst63Quest5_Prequest = "Nein"
-Inst63Quest5_Folgequest = "Nein"
---
-Inst63Quest5name1 = "Schulterstücke des Ehrgeizes"
-Inst63Quest5name2 = "Roben der Uneinigkeit"
+Inst63Quest3name1 = "Schulterstücke des Ehrgeizes"
+Inst63Quest3name2 = "Roben der Uneinigkeit"
 
 
 --Quest 1 Horde
@@ -805,18 +785,22 @@ Inst63Quest1_HORDE = Inst63Quest1
 Inst63Quest1_HORDE_Aim = Inst63Quest1_Aim
 Inst63Quest1_HORDE_Location = Inst63Quest1_Location
 Inst63Quest1_HORDE_Note = Inst63Quest1_Note
-Inst63Quest1_HORDE_Prequest = "Nein"
+Inst63Quest1_HORDE_Prequest = Inst63Quest1_Prequest
 Inst63Quest1_HORDE_Folgequest = "Nein"
--- No Rewards for this quest
+--
+Inst63Quest1name1_HORDE = "Voodoojagdbogen"
+Inst63Quest1name2_HORDE = Inst63Quest1name2
+Inst63Quest1name3_HORDE = Inst63Quest1name3
+Inst63Quest1name4_HORDE = Inst63Quest1name4
 
 --Quest 2 Horde
 Inst63Quest2_HORDE = Inst63Quest2
 Inst63Quest2_HORDE_Aim = Inst63Quest2_Aim
 Inst63Quest2_HORDE_Location = Inst63Quest2_Location
 Inst63Quest2_HORDE_Note = Inst63Quest2_Note
-Inst63Quest2_HORDE_Prequest = Inst63Quest2_Prequest
+Inst63Quest2_HORDE_Prequest = "Nein"
 Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
-Inst63Quest2FQuest_HORDE = "true"
+Inst63Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -825,35 +809,11 @@ Inst63Quest3_HORDE_Aim = Inst63Quest3_Aim
 Inst63Quest3_HORDE_Location = Inst63Quest3_Location
 Inst63Quest3_HORDE_Note = Inst63Quest3_Note
 Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
-Inst63Quest3_HORDE_Folgequest = "Nein"
-Inst63Quest3PreQuest_HORDE = "true"
+Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
+Inst63Quest3FQuest_HORDE = "true"
 --
-Inst63Quest3name1_HORDE = "Voodoojagdbogen"
+Inst63Quest3name1_HORDE = Inst63Quest3name1
 Inst63Quest3name2_HORDE = Inst63Quest3name2
-Inst63Quest3name3_HORDE = Inst63Quest3name3
-Inst63Quest3name4_HORDE = Inst63Quest3name4
-
---Quest 4 Horde
-Inst63Quest4_HORDE = Inst63Quest4
-Inst63Quest4_HORDE_Aim = Inst63Quest4_Aim
-Inst63Quest4_HORDE_Location = Inst63Quest4_Location
-Inst63Quest4_HORDE_Note = Inst63Quest4_Note
-Inst63Quest4_HORDE_Prequest = "Nein"
-Inst63Quest4_HORDE_Folgequest = Inst63Quest4_Folgequest
-Inst63Quest4PreQuest_HORDE = "true"
--- No Rewards for this quest
-
---Quest 5 Horde
-Inst63Quest5_HORDE = Inst63Quest5
-Inst63Quest5_HORDE_Aim = Inst63Quest5_Aim
-Inst63Quest5_HORDE_Location = Inst63Quest5_Location
-Inst63Quest5_HORDE_Note = Inst63Quest5_Note
-Inst63Quest5_HORDE_Prequest = Inst63Quest5_Prequest
-Inst63Quest5_HORDE_Folgequest = Inst63Quest5_Folgequest
-Inst63Quest5FQuest_HORDE = "true"
---
-Inst63Quest5name1_HORDE = Inst63Quest5name1
-Inst63Quest5name2_HORDE = Inst63Quest5name2
 
 
 

@@ -68,6 +68,61 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 
 
+--------------- INST69 - Caverns of Time: The Culling of Stratholme ---------------
+
+Inst69Caption = "The Culling of Stratholme"
+Inst69QAA = "2 Quests"
+Inst69QAH = "2 Quests"
+
+--Quest 1 Alliance
+Inst69Quest1 = "1. Dispelling Illusions"
+Inst69Quest1_Aim = "Chromie wants you to use the Arcane Disruptor on the suspicious crates in Stratholme Past, then speak to her near the entrance to Stratholme."
+Inst69Quest1_Location = "Chromie (The Culling of Stratholme; "..GREEN.."[1']"..WHITE..")"
+Inst69Quest1_Note = "The crates are found near the houses along the road on the way to Stratholme. After completion, you can turn the quest in to another Chromie at "..GREEN.."[1']"..WHITE.."."
+Inst69Quest1_Prequest = "None"
+Inst69Quest1_Folgequest = "A Royal Escort"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst69Quest2 = "2. A Royal Escort"
+Inst69Quest2_Aim = "Chromie has asked you to accompany Arthas in the Culling of Stratholme. You are to speak with her again after Mal'Ganis is defeated."
+Inst69Quest2_Location = "Chromie (The Culling of Stratholme; "..GREEN.."[1']"..WHITE..")"
+Inst69Quest2_Note = "Mal'Ganis is at "..YELLOW.."[5]"..WHITE..". Chromie will appear there after the event is over."
+Inst69Quest2_Prequest = "Dispelling Illusions"
+Inst69Quest2_Folgequest = "None"
+Inst69Quest2FQuest = "true"
+--
+Inst69Quest2name1 = "Gloves of the Time Guardian"
+Inst69Quest2name2 = "Handwraps of Preserved History"
+Inst69Quest2name3 = "Grips of Chronological Events"
+Inst69Quest2name4 = "Gauntlets of The Culling"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst69Quest1_HORDE = Inst69Quest1
+Inst69Quest1_HORDE_Aim = Inst69Quest1_Aim
+Inst69Quest1_HORDE_Location = Inst69Quest1_Location
+Inst69Quest1_HORDE_Note = Inst69Quest1_Note
+Inst69Quest1_HORDE_Prequest = Inst69Quest1_Prequest
+Inst69Quest1_HORDE_Folgequest = Inst69Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst69Quest2_HORDE = Inst69Quest2
+Inst69Quest2_HORDE_Aim = Inst69Quest2_Aim
+Inst69Quest2_HORDE_Location = Inst69Quest2_Location
+Inst69Quest2_HORDE_Note = Inst69Quest2_Note
+Inst69Quest2_HORDE_Prequest = Inst69Quest2_Prequest
+Inst69Quest2_HORDE_Folgequest = Inst69Quest2_Folgequest
+Inst69Quest2FQuest_HORDE = Inst69Quest2FQuest
+--
+Inst69Quest2name1_HORDE = Inst69Quest2name1
+Inst69Quest2name2_HORDE = Inst69Quest2name2
+Inst69Quest2name3_HORDE = Inst69Quest2name3
+Inst69Quest2name4_HORDE = Inst69Quest2name4
+
+
+
 --------------- INST70 - Utgarde Keep: Utgarde Keep ---------------
 
 Inst70Caption = "Utgarde Keep"
