@@ -90,7 +90,6 @@ Inst69Quest2_Location = "Chromie (The Culling of Stratholme; "..GREEN.."[1']"..W
 Inst69Quest2_Note = "Mal'Ganis is at "..YELLOW.."[5]"..WHITE..". Chromie will appear there after the event is over."
 Inst69Quest2_Prequest = "Dispelling Illusions"
 Inst69Quest2_Folgequest = "None"
-Inst69Quest2FQuest = "true"
 --
 Inst69Quest2name1 = "Gloves of the Time Guardian"
 Inst69Quest2name2 = "Handwraps of Preserved History"
@@ -114,7 +113,6 @@ Inst69Quest2_HORDE_Location = Inst69Quest2_Location
 Inst69Quest2_HORDE_Note = Inst69Quest2_Note
 Inst69Quest2_HORDE_Prequest = Inst69Quest2_Prequest
 Inst69Quest2_HORDE_Folgequest = Inst69Quest2_Folgequest
-Inst69Quest2FQuest_HORDE = Inst69Quest2FQuest
 --
 Inst69Quest2name1_HORDE = Inst69Quest2name1
 Inst69Quest2name2_HORDE = Inst69Quest2name2
@@ -324,7 +322,6 @@ Inst72Quest2_Location = "Image of Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance
 Inst72Quest2_Note = "Use the Interdimensional Refabricator on the edge of the platform where Anomalus is, at "..YELLOW.."[3]"..WHITE.."."
 Inst72Quest2_Prequest = "Reading the Meters"
 Inst72Quest2_Folgequest = "None"
-Inst72Quest2PreQuest = "true"
 --
 Inst72Quest2name1 = "Time-Twisted Wraps"
 Inst72Quest2name2 = "Time-Stop Gloves"
@@ -338,7 +335,6 @@ Inst72Quest3_Location = "Image of Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance
 Inst72Quest3_Note = "Crystalline Protectors drop the Arcane Splinters. They are found on the way to Ormorok the Tree-Shaper."
 Inst72Quest3_Prequest = "Secrets of the Ancients"
 Inst72Quest3_Folgequest = "None"
-Inst72Quest3PreQuest = "true"
 --
 Inst72Quest3name1 = "Sandals of Mystical Evolution"
 Inst72Quest3name2 = "Treads of Torn Future"
@@ -353,7 +349,6 @@ Inst72Quest4_Location = "Warmage Kaitlyn (The Nexus; "..BLUE.."Entrance"..WHITE.
 Inst72Quest4_Note = "Keristrasza is at "..YELLOW.."[5]"..WHITE.."."
 Inst72Quest4_Prequest = "Keristrasza -> Springing the Trap"
 Inst72Quest4_Folgequest = "None"
-Inst72Quest4PreQuest = "true"
 --
 Inst72Quest4name1 = "Cloak of Azure Lights"
 Inst72Quest4name2 = "Mantle of Keristrasza"
@@ -380,7 +375,6 @@ Inst72Quest2_HORDE_Location = Inst72Quest2_Location
 Inst72Quest2_HORDE_Note = Inst72Quest2_Note
 Inst72Quest2_HORDE_Prequest = Inst72Quest2_Prequest
 Inst72Quest2_HORDE_Folgequest = Inst72Quest2_Folgequest
-Inst72Quest2PreQuest_HORDE = Inst72Quest2PreQuest
 --
 Inst72Quest2name1_HORDE = Inst72Quest2name1
 Inst72Quest2name2_HORDE = Inst72Quest2name2
@@ -394,7 +388,6 @@ Inst72Quest3_HORDE_Location = Inst72Quest3_Location
 Inst72Quest3_HORDE_Note = Inst72Quest3_Note
 Inst72Quest3_HORDE_Prequest = Inst72Quest3_Prequest
 Inst72Quest3_HORDE_Folgequest = Inst72Quest3_Folgequest
-Inst72Quest3PreQuest_HORDE = Inst72Quest3PreQuest
 --
 Inst72Quest3name1_HORDE = Inst72Quest3name1
 Inst72Quest3name2_HORDE = Inst72Quest3name2
@@ -409,7 +402,6 @@ Inst72Quest4_HORDE_Location = Inst72Quest4_Location
 Inst72Quest4_HORDE_Note = Inst72Quest4_Note
 Inst72Quest4_HORDE_Prequest = Inst72Quest4_Prequest
 Inst72Quest4_HORDE_Folgequest = Inst72Quest4_Folgequest
-Inst72Quest4PreQuest_HORDE = Inst72Quest4PreQuest
 --
 Inst72Quest4name1_HORDE = Inst72Quest4name1
 Inst72Quest4name2_HORDE = Inst72Quest4name2
@@ -443,7 +435,6 @@ Inst73Quest2_Location = "Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[1]".
 Inst73Quest2_Note = "Belgaristrasz will appear after you defeat Varos Cloudstrider at "..YELLOW.."[2]"..WHITE.."."
 Inst73Quest2_Prequest = "The Struggle Persists"
 Inst73Quest2_Folgequest = "Mage-Lord Urom"
-Inst73Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -453,7 +444,6 @@ Inst73Quest3_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLO
 Inst73Quest3_Note = "Belgaristrasz will appear after you defeat Mage-Lord Urom at "..YELLOW.."[3]"..WHITE.."."
 Inst73Quest3_Prequest = "A Unified Front"
 Inst73Quest3_Folgequest = "A Wing and a Prayer"
-Inst73Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -463,7 +453,6 @@ Inst73Quest4_Location = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLO
 Inst73Quest4_Note = "Ley-Guardian Eregos is at "..YELLOW.."[4]"..WHITE.."."
 Inst73Quest4_Prequest = "Mage-Lord Urom"
 Inst73Quest4_Folgequest = "None"
-Inst73Quest4FQuest = "true"
 --
 Inst73Quest4name1 = "Cuffs of Gratitude"
 Inst73Quest4name2 = "Soaring Wristwraps"
@@ -491,7 +480,6 @@ Inst73Quest2_HORDE_Location = Inst73Quest2_Location
 Inst73Quest2_HORDE_Note = Inst73Quest2_Note
 Inst73Quest2_HORDE_Prequest = Inst73Quest2_Prequest
 Inst73Quest2_HORDE_Folgequest = Inst73Quest2_Folgequest
-Inst73Quest2FQuest_HORDE = Inst73Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -501,7 +489,6 @@ Inst73Quest3_HORDE_Location = Inst73Quest3_Location
 Inst73Quest3_HORDE_Note = Inst73Quest3_Note
 Inst73Quest3_HORDE_Prequest = Inst73Quest3_Prequest
 Inst73Quest3_HORDE_Folgequest = Inst73Quest3_Folgequest
-Inst73Quest3FQuest_HORDE = Inst73Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -511,7 +498,6 @@ Inst73Quest4_HORDE_Location = Inst73Quest4_Location
 Inst73Quest4_HORDE_Note = Inst73Quest4_Note
 Inst73Quest4_HORDE_Prequest = Inst73Quest4_Prequest
 Inst73Quest4_HORDE_Folgequest = Inst73Quest4_Folgequest
-Inst73Quest4FQuest_HORDE = Inst73Quest4FQuest
 --
 Inst73Quest4name1_HORDE = Inst73Quest4name1
 Inst73Quest4name2_HORDE = Inst73Quest4name2
@@ -533,7 +519,6 @@ Inst74Quest1_Location = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.
 Inst74Quest1_Note = "After Malygos dies, his Heart of Magic can be found in a Red Heart floating near Alexstrasza's Gift."
 Inst74Quest1_Prequest = "The Key to the Focusing Iris ("..YELLOW.."Naxxramas"..WHITE..")"
 Inst74Quest1_Folgequest = "None"
-Inst74Quest1PreQuest = "true"
 --
 Inst74Quest1name1 = "Chain of the Ancient Wyrm"
 Inst74Quest1name2 = "Torque of the Red Dragonflight"
@@ -547,7 +532,6 @@ Inst74Quest2_Location = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.
 Inst74Quest2_Note = "After Malygos dies, his Heart of Magic can be found in a Red Heart floating near Alexstrasza's Gift."
 Inst74Quest2_Prequest = "The Heroic Key to the Focusing Iris ("..YELLOW.."Naxxramas"..WHITE..")"
 Inst74Quest2_Folgequest = "None"
-Inst74Quest2PreQuest = "true"
 --
 Inst74Quest2name1 = "Wyrmrest Necklace of Power"
 Inst74Quest2name2 = "Life-Binder's Locket"
@@ -571,7 +555,6 @@ Inst74Quest1_HORDE_Location = Inst74Quest1_Location
 Inst74Quest1_HORDE_Note = Inst74Quest1_Note
 Inst74Quest1_HORDE_Prequest = Inst74Quest1_Prequest
 Inst74Quest1_HORDE_Folgequest = Inst74Quest1_Folgequest
-Inst74Quest1PreQuest_HORDE = Inst74Quest1PreQuest
 --
 Inst74Quest1name1_HORDE = Inst74Quest1name1
 Inst74Quest1name2_HORDE = Inst74Quest1name2
@@ -585,7 +568,6 @@ Inst74Quest2_HORDE_Location = Inst74Quest2_Location
 Inst74Quest2_HORDE_Note = Inst74Quest2_Note
 Inst74Quest2_HORDE_Prequest = Inst74Quest2_Prequest
 Inst74Quest2_HORDE_Folgequest = Inst74Quest2_Folgequest
-Inst74Quest2PreQuest_HORDE = Inst74Quest2PreQuest
 --
 Inst74Quest2name1_HORDE = Inst74Quest2name1
 Inst74Quest2name2_HORDE = Inst74Quest2name2
@@ -704,7 +686,6 @@ Inst76Quest2_Location = "Seer Ixit (Ahn'kahet: The Old Kingdom; "..BLUE.."Entran
 Inst76Quest2_Note = "The Eyes of Taldaram and Bonegrinder are on the way to Prince Taldaram at "..YELLOW.."[2]"..WHITE.."."
 Inst76Quest2_Prequest = "Pupil No More"
 Inst76Quest2_Folgequest = "The Faceless Ones"
-Inst76Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -714,7 +695,6 @@ Inst76Quest3_Location = "Seer Ixit (Ahn'kahet: The Old Kingdom; "..BLUE.."Entran
 Inst76Quest3_Note = "The Forgotten Ones and Herald Volazj can be found at "..YELLOW.."[5]"..WHITE.."."
 Inst76Quest3_Prequest = "Reclaiming Ahn'Kahet"
 Inst76Quest3_Folgequest = "None"
-Inst76Quest3FQuest = "true"
 --
 Inst76Quest3name1 = "Mantle of Thwarted Evil"
 Inst76Quest3name2 = "Shoulderpads of Abhorrence"
@@ -738,7 +718,6 @@ Inst76Quest2_HORDE_Location = Inst76Quest2_Location
 Inst76Quest2_HORDE_Note = Inst76Quest2_Note
 Inst76Quest2_HORDE_Prequest = Inst76Quest2_Prequest
 Inst76Quest2_HORDE_Folgequest = Inst76Quest2_Folgequest
-Inst76Quest2FQuest_HORDE = Inst76Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -748,7 +727,6 @@ Inst76Quest3_HORDE_Location = Inst76Quest3_Location
 Inst76Quest3_HORDE_Note = Inst76Quest3_Note
 Inst76Quest3_HORDE_Prequest = Inst76Quest3_Prequest
 Inst76Quest3_HORDE_Folgequest = Inst76Quest3_Folgequest
-Inst76Quest3FQuest_HORDE = Inst76Quest3FQuest
 --
 Inst76Quest3name1_HORDE = Inst76Quest3name1
 Inst76Quest3name2_HORDE = Inst76Quest3name2
@@ -839,7 +817,7 @@ Inst78Quest1 = "1. Stormherald Eljrrin"
 Inst78Quest1_Aim = "King Jokkum wants you to enter the Halls of Lightning and speak with Stormherald Eljrrin."
 Inst78Quest1_Location = "King Jokkum (The Storm Peaks - Dun Niffelem; "..YELLOW.."65.4, 60.2"..WHITE..")"
 Inst78Quest1_Note = "Stormherald Eljrrin is just inside the entrance of the dungeon."
-Inst78Quest1_Prequest = "None"
+Inst78Quest1_Prequest = "The Reckoning"
 Inst78Quest1_Folgequest = "Whatever it Takes!"
 -- No Rewards for this quest
 
@@ -850,7 +828,6 @@ Inst78Quest2_Location = "Stormherald Eljrinn (Halls of Lightning; "..BLUE.."Entr
 Inst78Quest2_Note = "Loken is at "..YELLOW.."[4]"..WHITE..".  The prequest is optional."
 Inst78Quest2_Prequest = "Stormherald Eljrrin"
 Inst78Quest2_Folgequest = "None"
-Inst78Quest2FQuest = "true"
 --
 Inst78Quest2name1 = "Robes of Lightning"
 Inst78Quest2name2 = "Hardened Tongue Tunic"
@@ -896,7 +873,6 @@ Inst78Quest2_HORDE_Location = Inst78Quest2_Location
 Inst78Quest2_HORDE_Note = Inst78Quest2_Note
 Inst78Quest2_HORDE_Prequest = Inst78Quest2_Prequest
 Inst78Quest2_HORDE_Folgequest = Inst78Quest2_Folgequest
-Inst78Quest2FQuest_HORDE = Inst78Quest2FQuest
 --
 Inst78Quest2name1_HORDE = Inst78Quest2name1
 Inst78Quest2name2_HORDE = Inst78Quest2name2
@@ -949,7 +925,6 @@ Inst79Quest2_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst79Quest2_Note = "LEGION Skinning quest.  The Scale of Netherspite drops from Netherspite.  The Scale of Sartharion drops from the only boss in Obsidian Sanctum (Northrend - Dragonblight).  The Scales of Garalon drop from the third boss in Heart of Fear (Pandaria - Dread Wastes)."
 Inst79Quest2_Prequest = "Scales for Ske'rit"
 Inst79Quest2_Folgequest = "Eye of Azshara: The Scales of Serpentrix"
-Inst79Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -969,7 +944,6 @@ Inst79Quest2_HORDE_Location = Inst79Quest2_Location
 Inst79Quest2_HORDE_Note = Inst79Quest2_Note
 Inst79Quest2_HORDE_Prequest = Inst79Quest2_Prequest
 Inst79Quest2_HORDE_Folgequest = Inst79Quest2_Folgequest
-Inst79Quest2PreQuest_HORDE = Inst79Quest2PreQuest
 -- No Rewards for this quest
 
 
@@ -987,7 +961,6 @@ Inst80Quest1_Location = "Mack Fearsen (Grizzly Hills - Granite Springs; "..YELLO
 Inst80Quest1_Note = "Kurzel just inside the entrance of the dungeon."
 Inst80Quest1_Prequest = "Seared Scourge"
 Inst80Quest1_Folgequest = "Head Games"
-Inst80Quest1PreQuest = "true"
 --
 Inst80Quest1name1 = "Kurzel's Angst"
 Inst80Quest1name2 = "Kurzel's Rage"
@@ -1000,7 +973,6 @@ Inst80Quest2_Location = "Kurzel (Drak'Tharon Keep; "..BLUE.."Entrance"..WHITE.."
 Inst80Quest2_Note = "Novos the Summoner is at "..YELLOW.."[2]"..WHITE.."."
 Inst80Quest2_Prequest = "Search and Rescue"
 Inst80Quest2_Folgequest = "None"
-Inst80Quest2FQuest = "true"
 --
 Inst80Quest2name1 = "Shameful Cuffs"
 Inst80Quest2name2 = "Scorned Bands"
@@ -1037,7 +1009,6 @@ Inst80Quest1_HORDE_Location = Inst80Quest1_Location
 Inst80Quest1_HORDE_Note = Inst80Quest1_Note
 Inst80Quest1_HORDE_Prequest = Inst80Quest1_Prequest
 Inst80Quest1_HORDE_Folgequest = Inst80Quest1_Folgequest
-Inst80Quest1PreQuest_HORDE = Inst80Quest1PreQuest
 --
 Inst80Quest1name1_HORDE = Inst80Quest1name1
 Inst80Quest1name2_HORDE = Inst80Quest1name2
@@ -1050,7 +1021,6 @@ Inst80Quest2_HORDE_Location = Inst80Quest2_Location
 Inst80Quest2_HORDE_Note = Inst80Quest2_Note
 Inst80Quest2_HORDE_Prequest = Inst80Quest2_Prequest
 Inst80Quest2_HORDE_Folgequest = Inst80Quest2_Folgequest
-Inst80Quest2FQuest_HORDE = Inst80Quest2FQuest
 --
 Inst80Quest2name1_HORDE = Inst80Quest2name1
 Inst80Quest2name2_HORDE = Inst80Quest2name2
@@ -1228,7 +1198,6 @@ Inst82Quest2_Location = "Lieutenant Sinclari (The Violet Hold; "..BLUE.."Entranc
 Inst82Quest2_Note = "Cyanigosa is in the final wave."
 Inst82Quest2_Prequest = "Discretion is Key"
 Inst82Quest2_Folgequest = "None"
-Inst82Quest2FQuest = "true"
 --
 Inst82Quest2name1 = "Tattooed Deerskin Leggings"
 Inst82Quest2name2 = "Conferred Pantaloons"
@@ -1252,7 +1221,6 @@ Inst82Quest2_HORDE_Location = Inst82Quest2_Location
 Inst82Quest2_HORDE_Note = Inst82Quest2_Note
 Inst82Quest2_HORDE_Prequest = Inst82Quest2_Prequest
 Inst82Quest2_HORDE_Folgequest = Inst82Quest2_Folgequest
-Inst82Quest2FQuest_HORDE = Inst82Quest2FQuest
 --
 Inst82Quest2name1_HORDE = Inst82Quest2name1
 Inst82Quest2name2_HORDE = Inst82Quest2name2
@@ -1412,7 +1380,6 @@ Inst86Quest2_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."
 Inst86Quest2_Note = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[7]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests."
 Inst86Quest2_Prequest = "Archivum Data Disc"
 Inst86Quest2_Folgequest = "Four more quests"
-Inst86Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -1422,7 +1389,6 @@ Inst86Quest3_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."
 Inst86Quest3_Note = "Hodir is at "..YELLOW.."The Keepers [9]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
 Inst86Quest3_Prequest = "The Celestial Planetarium"
 Inst86Quest3_Folgequest = "None"
-Inst86Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -1432,7 +1398,6 @@ Inst86Quest4_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."
 Inst86Quest4_Note = "Thorim is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
 Inst86Quest4_Prequest = "The Celestial Planetarium"
 Inst86Quest4_Folgequest = "None"
-Inst86Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -1442,7 +1407,6 @@ Inst86Quest5_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."
 Inst86Quest5_Note = "Freya is at "..YELLOW.."The Keepers [11]"..WHITE..".  She must be killed on Hard Mode for the Sigil to drop."
 Inst86Quest5_Prequest = "The Celestial Planetarium"
 Inst86Quest5_Folgequest = "None"
-Inst86Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -1452,7 +1416,6 @@ Inst86Quest6_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."
 Inst86Quest6_Note = "Mimiron is at "..YELLOW.."Spark of Imagination [15]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop."
 Inst86Quest6_Prequest = "The Celestial Planetarium"
 Inst86Quest6_Folgequest = "None"
-Inst86Quest6PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
@@ -1462,7 +1425,6 @@ Inst86Quest7_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN.."
 Inst86Quest7_Note = "Completing this quest allows you to fight Algalon the Observer in the Celestial Planetarium."
 Inst86Quest7_Prequest = "The four Sigil quests"
 Inst86Quest7_Folgequest = "None"
-Inst86Quest7PreQuest = "true"
 --
 Inst86Quest7name1 = "Sack of Ulduar Spoils"
 
@@ -1495,7 +1457,6 @@ Inst86Quest10_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN..
 Inst86Quest10_Note = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[7]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests."
 Inst86Quest10_Prequest = "Archivum Data Disc"
 Inst86Quest10_Folgequest = "Four more quests"
-Inst86Quest10FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 11 Alliance
@@ -1505,7 +1466,6 @@ Inst86Quest11_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN..
 Inst86Quest11_Note = "Hodir is at "..YELLOW.."The Keepers [9]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
 Inst86Quest11_Prequest = "The Celestial Planetarium"
 Inst86Quest11_Folgequest = "None"
-Inst86Quest11PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 12 Alliance
@@ -1515,7 +1475,6 @@ Inst86Quest12_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN..
 Inst86Quest12_Note = "Thorim is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
 Inst86Quest12_Prequest = "The Celestial Planetarium"
 Inst86Quest12_Folgequest = "None"
-Inst86Quest12PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 13 Alliance
@@ -1525,7 +1484,6 @@ Inst86Quest13_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN..
 Inst86Quest13_Note = "Freya is at "..YELLOW.."The Keepers [11]"..WHITE..".  She must be killed on Heroic Hard Mode for the Sigil to drop."
 Inst86Quest13_Prequest = "The Celestial Planetarium"
 Inst86Quest13_Folgequest = "None"
-Inst86Quest13PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 14 Alliance
@@ -1535,7 +1493,6 @@ Inst86Quest14_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN..
 Inst86Quest14_Note = "Mimiron is at "..YELLOW.."Spark of Imagination [15]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop."
 Inst86Quest14_Prequest = "The Celestial Planetarium"
 Inst86Quest14_Folgequest = "None"
-Inst86Quest14PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 15 Alliance
@@ -1545,7 +1502,6 @@ Inst86Quest15_Location = "Prospector Doren (Ulduar - The Antechamber; "..GREEN..
 Inst86Quest15_Note = "Completing this quest allows you to fight Algalon the Observer in the Celestial Planetarium."
 Inst86Quest15_Prequest = "The four Sigil quests"
 Inst86Quest15_Folgequest = "None"
-Inst86Quest15PreQuest = "true"
 --
 Inst86Quest15name1 = "Sack of Ulduar Spoils"
 
@@ -1615,7 +1571,6 @@ Inst86Quest2_HORDE_Location = Inst86Quest2_Location
 Inst86Quest2_HORDE_Note = Inst86Quest2_Note
 Inst86Quest2_HORDE_Prequest = Inst86Quest2_Prequest
 Inst86Quest2_HORDE_Folgequest = Inst86Quest2_Folgequest
-Inst86Quest2FQuest_HORDE = Inst86Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -1625,7 +1580,6 @@ Inst86Quest3_HORDE_Location = Inst86Quest3_Location
 Inst86Quest3_HORDE_Note = Inst86Quest3_Note
 Inst86Quest3_HORDE_Prequest = Inst86Quest3_Prequest
 Inst86Quest3_HORDE_Folgequest = Inst86Quest3_Folgequest
-Inst86Quest3PreQuest_HORDE = Inst86Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -1635,7 +1589,6 @@ Inst86Quest4_HORDE_Location = Inst86Quest4_Location
 Inst86Quest4_HORDE_Note = Inst86Quest4_Note
 Inst86Quest4_HORDE_Prequest = Inst86Quest4_Prequest
 Inst86Quest4_HORDE_Folgequest = Inst86Quest4_Folgequest
-Inst86Quest4PreQuest_HORDE = Inst86Quest4PreQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -1645,7 +1598,6 @@ Inst86Quest5_HORDE_Location = Inst86Quest5_Location
 Inst86Quest5_HORDE_Note = Inst86Quest5_Note
 Inst86Quest5_HORDE_Prequest = Inst86Quest5_Prequest
 Inst86Quest5_HORDE_Folgequest = Inst86Quest5_Folgequest
-Inst86Quest5PreQuest_HORDE = Inst86Quest5PreQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -1655,7 +1607,6 @@ Inst86Quest6_HORDE_Location = Inst86Quest6_Location
 Inst86Quest6_HORDE_Note = Inst86Quest6_Note
 Inst86Quest6_HORDE_Prequest = Inst86Quest6_Prequest
 Inst86Quest6_HORDE_Folgequest = Inst86Quest6_Folgequest
-Inst86Quest6PreQuest_HORDE = Inst86Quest6PreQuest
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -1665,7 +1616,6 @@ Inst86Quest7_HORDE_Location = Inst86Quest7_Location
 Inst86Quest7_HORDE_Note = Inst86Quest7_Note
 Inst86Quest7_HORDE_Prequest = Inst86Quest7_Prequest
 Inst86Quest7_HORDE_Folgequest = Inst86Quest7_Folgequest
-Inst86Quest7PreQuest_HORDE = Inst86Quest7PreQuest
 --
 Inst86Quest7name1_HORDE = Inst86Quest7name1
 
@@ -1698,7 +1648,6 @@ Inst86Quest10_HORDE_Location = Inst86Quest10_Location
 Inst86Quest10_HORDE_Note = Inst86Quest10_Note
 Inst86Quest10_HORDE_Prequest = Inst86Quest10_Prequest
 Inst86Quest10_HORDE_Folgequest = Inst86Quest10_Folgequest
-Inst86Quest10FQuest_HORDE = Inst86Quest10FQuest
 -- No Rewards for this quest
 
 --Quest 11 Horde  (same as Quest 11 Alliance)
@@ -1708,7 +1657,6 @@ Inst86Quest11_HORDE_Location = Inst86Quest11_Location
 Inst86Quest11_HORDE_Note = Inst86Quest11_Note
 Inst86Quest11_HORDE_Prequest = Inst86Quest11_Prequest
 Inst86Quest11_HORDE_Folgequest = Inst86Quest11_Folgequest
-Inst86Quest11PreQuest_HORDE = Inst86Quest11PreQuest
 -- No Rewards for this quest
 
 --Quest 12 Horde  (same as Quest 12 Alliance)
@@ -1718,7 +1666,6 @@ Inst86Quest12_HORDE_Location = Inst86Quest12_Location
 Inst86Quest12_HORDE_Note = Inst86Quest12_Note
 Inst86Quest12_HORDE_Prequest = Inst86Quest12_Prequest
 Inst86Quest12_HORDE_Folgequest = Inst86Quest12_Folgequest
-Inst86Quest12PreQuest_HORDE = Inst86Quest12PreQuest
 -- No Rewards for this quest
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
@@ -1728,7 +1675,6 @@ Inst86Quest13_HORDE_Location = Inst86Quest13_Location
 Inst86Quest13_HORDE_Note = Inst86Quest13_Note
 Inst86Quest13_HORDE_Prequest = Inst86Quest13_Prequest
 Inst86Quest13_HORDE_Folgequest = Inst86Quest13_Folgequest
-Inst86Quest13PreQuest_HORDE = Inst86Quest13PreQuest
 -- No Rewards for this quest
 
 --Quest 14 Horde  (same as Quest 14 Alliance)
@@ -1738,7 +1684,6 @@ Inst86Quest14_HORDE_Location = Inst86Quest14_Location
 Inst86Quest14_HORDE_Note = Inst86Quest14_Note
 Inst86Quest14_HORDE_Prequest = Inst86Quest14_Prequest
 Inst86Quest14_HORDE_Folgequest = Inst86Quest14_Folgequest
-Inst86Quest14PreQuest_HORDE = Inst86Quest14PreQuest
 -- No Rewards for this quest
 
 --Quest 15 Horde  (same as Quest 15 Alliance)
@@ -1748,7 +1693,6 @@ Inst86Quest15_HORDE_Location = Inst86Quest15_Location
 Inst86Quest15_HORDE_Note = Inst86Quest15_Note
 Inst86Quest15_HORDE_Prequest = Inst86Quest15_Prequest
 Inst86Quest15_HORDE_Folgequest = Inst86Quest15_Folgequest
-Inst86Quest15PreQuest_HORDE = Inst86Quest15PreQuest
 --
 Inst86Quest15name1_HORDE = Inst86Quest15name1
 
@@ -1851,7 +1795,6 @@ Inst88Quest2_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst88Quest2_Note = "LEGION Skinning quest.  Icehowl is the first boss in the Trial of the Crusader raid.  To reach Occu'thar, enter Baradin Hold and make the first left turn.  Horridon is the second boss in Throne of Thunder."
 Inst88Quest2_Prequest = "Halls of Valor: The Hide of Fenryr"
 Inst88Quest2_Folgequest = "Ske'rit's Leather Handbook"
-Inst88Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1871,7 +1814,6 @@ Inst88Quest2_HORDE_Location = Inst88Quest2_Location
 Inst88Quest2_HORDE_Note = Inst88Quest2_Note
 Inst88Quest2_HORDE_Prequest = Inst88Quest2_Prequest
 Inst88Quest2_HORDE_Folgequest = Inst88Quest2_Folgequest
-Inst88Quest2PreQuest_HORDE = Inst88Quest2PreQuest
 -- No Rewards for this quest
 
 
@@ -1898,7 +1840,6 @@ Inst90Quest2_Location = "Lady Jaina Proudmoore (Forge of Souls; "..BLUE.."Entran
 Inst90Quest2_Note = "Turn the quest in to Lady Jaina Proudmoore before at "..YELLOW.."[2]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
 Inst90Quest2_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
-Inst90Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -1908,7 +1849,6 @@ Inst90Quest3_Location = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..Y
 Inst90Quest3_Note = "The Crucible of Souls is at "..YELLOW.."[2]"..WHITE..", near the end of the instance."
 Inst90Quest3_Prequest = "Reforging The Sword ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest3_Folgequest = "The Halls Of Reflection ("..YELLOW.."Halls of Reflection"..WHITE..")"
-Inst90Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1928,7 +1868,6 @@ Inst90Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..BLUE
 Inst90Quest2_HORDE_Note = "Turn the quest in to Lady Sylvanas Windrunner before at "..YELLOW.."[2]"..WHITE.." before you leave the instance.\n\nCompleting this quest is required to enter the Pit of Saron."
 Inst90Quest2_HORDE_Prequest = "Inside the Frozen Citadel"
 Inst90Quest2_HORDE_Folgequest = "The Pit of Saron ("..YELLOW.."Pit of Saron"..WHITE..")"
-Inst90Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -1938,7 +1877,6 @@ Inst90Quest3_HORDE_Location = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; 
 Inst90Quest3_HORDE_Note = "The Crucible of Souls is at "..YELLOW.."[2]"..WHITE..", near the end of the instance."
 Inst90Quest3_HORDE_Prequest = "Reforging The Sword ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst90Quest3_HORDE_Folgequest = "The Halls Of Reflection ("..YELLOW.."Halls of Reflection"..WHITE..")"
-Inst90Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -1956,7 +1894,6 @@ Inst91Quest1_Location = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."[2]"
 Inst91Quest1_Note = "Lady Jaina Proudmoore is just inside the instance."
 Inst91Quest1_Prequest = "Echoes of Tortured Souls ("..YELLOW.."Forge of Souls"..WHITE..")"
 Inst91Quest1_Folgequest = "The Path to the Citadel"
-Inst91Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -1966,7 +1903,6 @@ Inst91Quest2_Location = "Lady Jaina Proudmoore (Pit of Saron; "..GREEN.."[1']"..
 Inst91Quest2_Note = "The slaves are all over the pit. The quest turns in to Martin Victus at "..YELLOW.."[1]"..WHITE.." after Forgemaster Garfrost is slain."
 Inst91Quest2_Prequest = "The Pit of Saron"
 Inst91Quest2_Folgequest = "Deliverance from the Pit"
-Inst91Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -1976,7 +1912,6 @@ Inst91Quest3_Location = "Martin Victus (Pit of Saron; "..YELLOW.."[1]"..WHITE.."
 Inst91Quest3_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection.\n\nRemember to turn the quest in to Lady Jaina Proudmoore before leaving."
 Inst91Quest3_Prequest = "The Path to the Citadel"
 Inst91Quest3_Folgequest = "Frostmourne ("..YELLOW.."Halls of Reflection"..WHITE..")"
-Inst91Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -1986,7 +1921,6 @@ Inst91Quest4_Location = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..Y
 Inst91Quest4_Note = "The Infused Saronite Bars are spread out around the Pit.  Use the hammer that drops from Forgemaster Garfrost at the anvil near him."
 Inst91Quest4_Prequest = "Return To Caladis Brightspear"
 Inst91Quest4_Folgequest = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")"
-Inst91Quest4PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1997,7 +1931,6 @@ Inst91Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Forge of Souls; "..YELL
 Inst91Quest1_HORDE_Note = "Lady Sylvanas Windrunner is just inside the instance."
 Inst91Quest1_HORDE_Prequest = "Echoes of Tortured Souls ("..YELLOW.."Forge of Souls"..WHITE..")"
 Inst91Quest1_HORDE_Folgequest = "The Path to the Citadel"
-Inst91Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -2007,7 +1940,6 @@ Inst91Quest2_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..GREEN.
 Inst91Quest2_HORDE_Note = "The slaves are all over the pit. The quest turns in to Gorkun Ironskull at "..YELLOW.."[1]"..WHITE.." after Forgemaster Garfrost is slain."
 Inst91Quest2_HORDE_Prequest = "The Pit of Saron"
 Inst91Quest2_HORDE_Folgequest = "Deliverance from the Pit"
-Inst91Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -2017,7 +1949,6 @@ Inst91Quest3_HORDE_Location = "Gorkun Ironskull (Pit of Saron; "..YELLOW.."[1]".
 Inst91Quest3_HORDE_Note = "Scourgelord Tyrannus is at the end of the instance. Completing this quest is required to enter the Halls of Reflection.\n\nRemember to turn the quest in to Lady Sylvanas Windrunner before leaving."
 Inst91Quest3_HORDE_Prequest = "The Path to the Citadel"
 Inst91Quest3_HORDE_Folgequest = "Frostmourne ("..YELLOW.."Halls of Reflection"..WHITE..")"
-Inst91Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -2027,7 +1958,6 @@ Inst91Quest4_HORDE_Location = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; 
 Inst91Quest4_HORDE_Note = "The Infused Saronite Bars are spread out around the Pit.  Use the hammer that drops from Forgemaster Garfrost at the anvil near him."
 Inst91Quest4_HORDE_Prequest = "Return To Myralion Sunblaze"
 Inst91Quest4_HORDE_Folgequest = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")"
-Inst91Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -2045,7 +1975,6 @@ Inst92Quest1_Location = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."[3]"..
 Inst92Quest1_Note = "You get the quest from Lady Jaina Proudmoore at the end of Pit of Saron and then complete it by entering Halls of Reflection.  Be sure all party members have turned the quest in before proceeding. The followup will be given after the event is completed."
 Inst92Quest1_Prequest = "Deliverance from the Pit ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst92Quest1_Folgequest = "Wrath of the Lich King"
-Inst92Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -2055,7 +1984,6 @@ Inst92Quest2_Location = "Halls of Reflection"
 Inst92Quest2_Note = "Lady Jaina Proudmoore is up ahead. You turn the quest into her after the end of the super awesome event."
 Inst92Quest2_Prequest = "Frostmourne"
 Inst92Quest2_Folgequest = "None"
-Inst92Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2065,7 +1993,6 @@ Inst92Quest3_Location = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..Y
 Inst92Quest3_Note = "You can complete the quest just inside the instance."
 Inst92Quest3_Prequest = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")"
 Inst92Quest3_Folgequest = "Journey To The Sunwell"
-Inst92Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -2076,7 +2003,6 @@ Inst92Quest1_HORDE_Location = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW
 Inst92Quest1_HORDE_Note = "You get the quest from Lady Sylvanas Windrunner at the end of Pit of Saron and then complete it by entering Halls of Reflection.  Be sure all party members have turned the quest in before proceeding. The followup will be given after the event is completed."
 Inst92Quest1_HORDE_Prequest = "Deliverance from the Pit ("..YELLOW.."Pit of Saron"..WHITE..")"
 Inst92Quest1_HORDE_Folgequest = "Wrath of the Lich King"
-Inst92Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -2086,7 +2012,6 @@ Inst92Quest2_HORDE_Location = "Halls of Reflection"
 Inst92Quest2_HORDE_Note = "Lady Sylvanas Windrunner is up ahead. You turn the quest into her after the end of the super awesome event."
 Inst92Quest2_HORDE_Prequest = "Frostmourne"
 Inst92Quest2_HORDE_Folgequest = "None"
-Inst92Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -2096,7 +2021,6 @@ Inst92Quest3_HORDE_Location = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; 
 Inst92Quest3_HORDE_Note = "You can complete the quest just inside the instance."
 Inst92Quest3_HORDE_Prequest = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")"
 Inst92Quest3_HORDE_Folgequest = "Journey To The Sunwell"
-Inst92Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -2132,7 +2056,6 @@ Inst93Quest3_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."
 Inst93Quest3_Note = "Watch as Mograine forges your weapon, and collect it when he's done."
 Inst93Quest3_Prequest = "The Sacred and the Corrupt"
 Inst93Quest3_Folgequest = "A Feast of Souls"
-Inst93Quest3FQuest = "true"
 --
 Inst93Quest3name1 = "Shadow's Edge"
 
@@ -2143,7 +2066,6 @@ Inst93Quest4_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."
 Inst93Quest4_Note = "You've got a lot of killing to do. Only kills in Icecrown Citadel count towards the 50."
 Inst93Quest4_Prequest = "Shadow's Edge"
 Inst93Quest4_Folgequest = "Unholy Infusion"
-Inst93Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -2153,7 +2075,6 @@ Inst93Quest5_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."
 Inst93Quest5_Note = "This quest can only be completed in 25-player mode.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion."
 Inst93Quest5_Prequest = "A Feast of Souls"
 Inst93Quest5_Folgequest = "Blood Infusion"
-Inst93Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -2163,7 +2084,6 @@ Inst93Quest6_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."
 Inst93Quest6_Note = "This quest can only be completed in 25-player mode.\n\nTo complete the quest, get the Blood Mirror debuff. Then, assuming you're not bitten first, have the first person bitten bite you. Bite three more people and survive the encounter to complete the quest. Info from hobbesmarcus on WoWhead.com"
 Inst93Quest6_Prequest = "Unholy Infusion"
 Inst93Quest6_Folgequest = "Frost Infusion"
-Inst93Quest6FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 7 Alliance
@@ -2173,7 +2093,6 @@ Inst93Quest7_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."
 Inst93Quest7_Note = "This quest can only be completed in 25-player mode.\n\nAfter receiving the Frost-Imbued Blade buff from the 4 breath attacks, you must kill Sindragosa within 6 minutes to complete the quest. "
 Inst93Quest7_Prequest = "Blood Infusion"
 Inst93Quest7_Folgequest = "The Splintered Throne"
-Inst93Quest7FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 8 Alliance
@@ -2183,7 +2102,6 @@ Inst93Quest8_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."
 Inst93Quest8_Note = "This quest can only be completed in 25-player mode.\n\nThe Shadowfrost Shards are rare drops from bosses."
 Inst93Quest8_Prequest = "Frost Infusion"
 Inst93Quest8_Folgequest = "Shadowmourne..."
-Inst93Quest8FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
@@ -2193,7 +2111,6 @@ Inst93Quest9_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."
 Inst93Quest9_Note = "This quest upgrades your Shadow's Edge to Shadowmourne."
 Inst93Quest9_Prequest = "The Splintered Throne"
 Inst93Quest9_Folgequest = "The Lich King's Last Stand"
-Inst93Quest9FQuest = "true"
 --
 Inst93Quest9name1 = "Shadowmourne"
 
@@ -2204,7 +2121,6 @@ Inst93Quest10_Location = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN..
 Inst93Quest10_Note = "This quest can only be completed in 25-player mode."
 Inst93Quest10_Prequest = "Shadowmourne..."
 Inst93Quest10_Folgequest = "None"
-Inst93Quest10FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -2232,7 +2148,6 @@ Inst93Quest3_HORDE_Location = Inst93Quest3_Location
 Inst93Quest3_HORDE_Note = Inst93Quest3_Note
 Inst93Quest3_HORDE_Prequest = Inst93Quest3_Prequest
 Inst93Quest3_HORDE_Folgequest = Inst93Quest3_Folgequest
-Inst93Quest3FQuest_HORDE = Inst93Quest3FQuest
 --
 Inst93Quest3name1_HORDE = Inst93Quest3name1
 
@@ -2243,7 +2158,6 @@ Inst93Quest4_HORDE_Location = Inst93Quest4_Location
 Inst93Quest4_HORDE_Note = Inst93Quest4_Note
 Inst93Quest4_HORDE_Prequest = Inst93Quest4_Prequest
 Inst93Quest4_HORDE_Folgequest = Inst93Quest4_Folgequest
-Inst93Quest4FQuest_HORDE = Inst93Quest4FQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -2253,7 +2167,6 @@ Inst93Quest5_HORDE_Location = Inst93Quest5_Location
 Inst93Quest5_HORDE_Note = Inst93Quest5_Note
 Inst93Quest5_HORDE_Prequest = Inst93Quest5_Prequest
 Inst93Quest5_HORDE_Folgequest = Inst93Quest5_Folgequest
-Inst93Quest5FQuest_HORDE = Inst93Quest5FQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -2263,7 +2176,6 @@ Inst93Quest6_HORDE_Location = Inst93Quest6_Location
 Inst93Quest6_HORDE_Note = Inst93Quest6_Note
 Inst93Quest6_HORDE_Prequest = Inst93Quest6_Prequest
 Inst93Quest6_HORDE_Folgequest = Inst93Quest6_Folgequest
-Inst93Quest6FQuest_HORDE = Inst93Quest6FQuest
 -- No Rewards for this quest
 
 --Quest 7 Horde  (same as Quest 7 Alliance)
@@ -2273,7 +2185,6 @@ Inst93Quest7_HORDE_Location = Inst93Quest7_Location
 Inst93Quest7_HORDE_Note = Inst93Quest7_Note
 Inst93Quest7_HORDE_Prequest = Inst93Quest7_Prequest
 Inst93Quest7_HORDE_Folgequest = Inst93Quest7_Folgequest
-Inst93Quest7FQuest_HORDE = Inst93Quest7FQuest
 -- No Rewards for this quest
 
 --Quest 8 Horde  (same as Quest 8 Alliance)
@@ -2283,7 +2194,6 @@ Inst93Quest8_HORDE_Location = Inst93Quest8_Location
 Inst93Quest8_HORDE_Note = Inst93Quest8_Note
 Inst93Quest8_HORDE_Prequest = Inst93Quest8_Prequest
 Inst93Quest8_HORDE_Folgequest = Inst93Quest8_Folgequest
-Inst93Quest8FQuest_HORDE = Inst93Quest8FQuest
 -- No Rewards for this quest
 
 --Quest 9 Horde  (same as Quest 9 Alliance)
@@ -2293,7 +2203,6 @@ Inst93Quest9_HORDE_Location = Inst93Quest9_Location
 Inst93Quest9_HORDE_Note = Inst93Quest9_Note
 Inst93Quest9_HORDE_Prequest = Inst93Quest9_Prequest
 Inst93Quest9_HORDE_Folgequest = Inst93Quest9_Folgequest
-Inst93Quest9FQuest_HORDE = Inst93Quest9FQuest
 --
 Inst93Quest9name1_HORDE = Inst93Quest9name1
 -- No Rewards for this quest
@@ -2305,7 +2214,6 @@ Inst93Quest10_HORDE_Location = Inst93Quest10_Location
 Inst93Quest10_HORDE_Note = Inst93Quest10_Note
 Inst93Quest10_HORDE_Prequest = Inst93Quest10_Prequest
 Inst93Quest10_HORDE_Folgequest = Inst93Quest10_Folgequest
-Inst93Quest10FQuest_HORDE = Inst93Quest10FQuest
 -- No Rewards for this quest
 
 
@@ -2332,7 +2240,6 @@ Inst94Quest2_Location = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.
 Inst94Quest2_Note = "Sanctum Guardian Xerestrasza is inside the Ruby Sanctum and appears after you slay the second sub-boss, Baltharius the Warborn at "..YELLOW.."[1]"..WHITE.."."
 Inst94Quest2_Prequest = "Trouble at Wyrmrest (optional)"
 Inst94Quest2_Folgequest = "The Twilight Destroyer"
-Inst94Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -2342,7 +2249,6 @@ Inst94Quest3_Location = "Sanctum Guardian Xerestrasza (Ruby Sanctum; "..YELLOW..
 Inst94Quest3_Note = "Halion is the main boss, located at "..YELLOW.."[4]"..WHITE.."."
 Inst94Quest3_Prequest = "Trouble at Wyrmrest"
 Inst94Quest3_Folgequest = "None"
-Inst94Quest3FQuest = "true"
 -- No Rewards for this quest.
 
 
@@ -2362,7 +2268,6 @@ Inst94Quest2_HORDE_Location = Inst94Quest2_Location
 Inst94Quest2_HORDE_Note = Inst94Quest2_Note
 Inst94Quest2_HORDE_Prequest = Inst94Quest2_Prequest
 Inst94Quest2_HORDE_Folgequest = Inst94Quest2_Folgequest
-Inst94Quest2FQuest_HORDE = Inst94Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -2372,7 +2277,6 @@ Inst94Quest3_HORDE_Location = Inst94Quest3_Location
 Inst94Quest3_HORDE_Note = Inst94Quest3_Note
 Inst94Quest3_HORDE_Prequest = Inst94Quest3_Prequest
 Inst94Quest3_HORDE_Folgequest = Inst94Quest3_Folgequest
-Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 -- No Rewards for this quest
 
 
