@@ -129,8 +129,6 @@ Inst146Quest1_HORDE_Location = Inst146Quest1_Location
 Inst146Quest1_HORDE_Note = Inst146Quest1_Note
 Inst146Quest1_HORDE_Prequest = Inst146Quest1_Prequest
 Inst146Quest1_HORDE_Folgequest = Inst146Quest1_Folgequest
-Inst146Quest1PreQuest_HORDE = Inst146Quest1PreQuest
-Inst146Quest1FQuest_HORDE = Inst146Quest1FQuest
 --
 Inst146Quest1name1_HORDE = Inst146Quest1name1
 
@@ -200,7 +198,6 @@ Inst147Quest1_Location = "Reshad (Spires of Arak - Veil Terokk; "..YELLOW.."46.5
 Inst147Quest1_Note = "Kill all the bosses in the dungeon to complete the quest."
 Inst147Quest1_Prequest = "On Ebon Wings -> When All Is Aligned"
 Inst147Quest1_Folgequest = "None"
-Inst147Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -271,7 +268,6 @@ Inst147Quest1_HORDE_Location = Inst147Quest1_Location
 Inst147Quest1_HORDE_Note = Inst147Quest1_Note
 Inst147Quest1_HORDE_Prequest = Inst147Quest1_Prequest
 Inst147Quest1_HORDE_Folgequest = Inst147Quest1_Folgequest
-Inst147Quest1PreQuest_HORDE = Inst147Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -1478,7 +1474,6 @@ Inst156Quest9_Location = "Mama Diggs (Dalaran; "..YELLOW.."46.2, 26.4"..WHITE.."
 Inst156Quest9_Note = "Mining quest.  Defeat and loot the final boss for quest credit.  Turn in back at Dalaran."
 Inst156Quest9_Prequest = "Infernal Brimstone Analysis -> The Brimstone's Secret"
 Inst156Quest9_Folgequest = "None"
-Inst156Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1566,7 +1561,6 @@ Inst156Quest9_HORDE_Location = Inst156Quest9_Location
 Inst156Quest9_HORDE_Note = Inst156Quest9_Note
 Inst156Quest9_HORDE_Prequest = Inst156Quest9_Prequest
 Inst156Quest9_HORDE_Folgequest = Inst156Quest9_Folgequest
-Inst156Quest9PreQuest_HORDE = Inst156Quest9PreQuest
 -- No Rewards for this quest
 
 

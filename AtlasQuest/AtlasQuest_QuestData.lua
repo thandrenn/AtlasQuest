@@ -4511,220 +4511,627 @@ Inst145Quest6FQuest_HORDE = Inst145Quest6FQuest
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Quest1_QuestID = "37146"
-Inst146Quest1_Level = ""
-Inst146Quest1_Attain = ""
+Inst146Quest1_Level = "20"
+Inst146Quest1_Attain = "20"
 
 Inst146Quest2_QuestID = "37156"
+Inst146Quest2_Level = "40"
+Inst146Quest2_Attain = "40"
+
 Inst146Quest3_QuestID = "37232"
+Inst146Quest3_Level = "40"
+Inst146Quest3_Attain = "40"
+
 Inst146Quest4_QuestID = "37154"
+Inst146Quest4_Level = "40"
+Inst146Quest4_Attain = "40"
+
 Inst146Quest5_QuestID = "37233"
+Inst146Quest5_Level = "40"
+Inst146Quest5_Attain = "40"
+
 Inst146Quest6_QuestID = "37796"
+Inst146Quest6_Level = "20"
+Inst146Quest6_Attain = "20"
+
 
 Inst146Quest1_HORDE_QuestID = "37146"
-Inst146Quest1_HORDE_Level = ""
-Inst146Quest1_HORDE_Attain = ""
+Inst146Quest1_HORDE_Level = "20"
+Inst146Quest1_HORDE_Attain = "20"
 
 Inst146Quest2_HORDE_QuestID = "37156"
+Inst146Quest2_HORDE_Level = "40"
+Inst146Quest2_HORDE_Attain = "40"
+
 Inst146Quest3_HORDE_QuestID = "37232"
+Inst146Quest3_HORDE_Level = "40"
+Inst146Quest3_HORDE_Attain = "40"
+
 Inst146Quest4_HORDE_QuestID = "37154"
+Inst146Quest4_HORDE_Level = "40"
+Inst146Quest4_HORDE_Attain = "40"
+
 Inst146Quest5_HORDE_QuestID = "37233"
+Inst146Quest5_HORDE_Level = "40"
+Inst146Quest5_HORDE_Attain = "40"
+
 Inst146Quest6_HORDE_QuestID = "37780"
+Inst146Quest6_HORDE_Level = "20"
+Inst146Quest6_HORDE_Attain = "20"
 
 
 
 --------------- INST147 - Skyreach ---------------
 
 Inst147Quest1_QuestID = "36316"
+Inst147Quest1_Level = "30"
+Inst147Quest1_Attain = "30"
+Inst147Quest1PreQuest = "true"
+
 Inst147Quest2_QuestID = "37147"
+Inst147Quest2_Level = "30"
+Inst147Quest2_Attain = "30"
+
 Inst147Quest3_QuestID = "37159"
+Inst147Quest3_Level = "40"
+Inst147Quest3_Attain = "40"
+
 Inst147Quest4_QuestID = "37158"
+Inst147Quest4_Level = "40"
+Inst147Quest4_Attain = "40"
+
 Inst147Quest5_QuestID = "37234"
+Inst147Quest5_Level = "40"
+Inst147Quest5_Attain = "40"
+
 Inst147Quest6_QuestID = "37235"
+Inst147Quest6_Level = "40"
+Inst147Quest6_Attain = "40"
+
 Inst147Quest7_QuestID = "37791"
+Inst147Quest7_Level = "30"
+Inst147Quest7_Attain = "30"
+
 
 Inst147Quest1_HORDE_QuestID = "36316"
+Inst147Quest1_HORDE_Level = "30"
+Inst147Quest1_HORDE_Attain = "30"
+Inst147Quest1PreQuest_HORDE = Inst147Quest1PreQuest
+
 Inst147Quest2_HORDE_QuestID = "37147"
+Inst147Quest2_HORDE_Level = "30"
+Inst147Quest2_HORDE_Attain = "30"
+
 Inst147Quest3_HORDE_QuestID = "37159"
+Inst147Quest3_HORDE_Level = "40"
+Inst147Quest3_HORDE_Attain = "40"
+
 Inst147Quest4_HORDE_QuestID = "37158"
+Inst147Quest4_HORDE_Level = "40"
+Inst147Quest4_HORDE_Attain = "40"
+
 Inst147Quest5_HORDE_QuestID = "37234"
+Inst147Quest5_HORDE_Level = "40"
+Inst147Quest5_HORDE_Attain = "40"
+
 Inst147Quest6_HORDE_QuestID = "37235"
+Inst147Quest6_HORDE_Level = "40"
+Inst147Quest6_HORDE_Attain = "40"
+
 Inst147Quest7_HORDE_QuestID = "37785"
+Inst147Quest7_HORDE_Level = "30"
+Inst147Quest7_HORDE_Attain = "30"
 
 
 
 --------------- INST148 - Bloodmaul Slag Mines ---------------
 
 Inst148Quest1_QuestID = "37142"
+Inst148Quest1_Level = "10"
+Inst148Quest1_Attain = "10"
+
 Inst148Quest2_QuestID = "37152"
+Inst148Quest2_Level = "40"
+Inst148Quest2_Attain = "40"
+
 Inst148Quest3_QuestID = "37228"
+Inst148Quest3_Level = "40"
+Inst148Quest3_Attain = "40"
+
 Inst148Quest4_QuestID = "37153"
+Inst148Quest4_Level = "40"
+Inst148Quest4_Attain = "40"
+
 Inst148Quest5_QuestID = "37229"
+Inst148Quest5_Level = "40"
+Inst148Quest5_Attain = "40"
+
 Inst148Quest6_QuestID = "37795"
+Inst148Quest6_Level = "10"
+Inst148Quest6_Attain = "10"
+
 
 Inst148Quest1_HORDE_QuestID = "37142"
+Inst148Quest1_HORDE_Level = "10"
+Inst148Quest1_HORDE_Attain = "10"
+
 Inst148Quest2_HORDE_QuestID = "37152"
+Inst148Quest2_HORDE_Level = "40"
+Inst148Quest2_HORDE_Attain = "40"
+
 Inst148Quest3_HORDE_QuestID = "37228"
+Inst148Quest3_HORDE_Level = "40"
+Inst148Quest3_HORDE_Attain = "40"
+
 Inst148Quest4_HORDE_QuestID = "37153"
+Inst148Quest4_HORDE_Level = "40"
+Inst148Quest4_HORDE_Attain = "40"
+
 Inst148Quest5_HORDE_QuestID = "37229"
+Inst148Quest5_HORDE_Level = "40"
+Inst148Quest5_HORDE_Attain = "40"
+
 Inst148Quest6_HORDE_QuestID = "37781"
+Inst148Quest6_HORDE_Level = "10"
+Inst148Quest6_HORDE_Attain = "10"
 
 
 
 --------------- INST149 - Iron Docks ---------------
 
 Inst149Quest1_QuestID = "37145"
+Inst149Quest1_Level = "15"
+Inst149Quest1_Attain = "15"
+
 Inst149Quest2_QuestID = "37157"
+Inst149Quest2_Level = "40"
+Inst149Quest2_Attain = "40"
+
 Inst149Quest3_QuestID = "37230"
+Inst149Quest3_Level = "40"
+Inst149Quest3_Attain = "40"
+
 Inst149Quest4_QuestID = "37155"
+Inst149Quest4_Level = "40"
+Inst149Quest4_Attain = "40"
+
 Inst149Quest5_QuestID = "37231"
+Inst149Quest5_Level = "40"
+Inst149Quest5_Attain = "40"
+
 Inst149Quest6_QuestID = "37793"
+Inst149Quest6_Level = "15"
+Inst149Quest6_Attain = "15"
+
 
 Inst149Quest1_HORDE_QuestID = "37145"
+Inst149Quest1_HORDE_Level = "15"
+Inst149Quest1_HORDE_Attain = "15"
+
 Inst149Quest2_HORDE_QuestID = "37157"
+Inst149Quest2_HORDE_Level = "40"
+Inst149Quest2_HORDE_Attain = "40"
+
 Inst149Quest3_HORDE_QuestID = "37230"
+Inst149Quest3_HORDE_Level = "40"
+Inst149Quest3_HORDE_Attain = "40"
+
 Inst149Quest4_HORDE_QuestID = "37155"
+Inst149Quest4_HORDE_Level = "40"
+Inst149Quest4_HORDE_Attain = "40"
+
 Inst149Quest5_HORDE_QuestID = "37231"
+Inst149Quest5_HORDE_Level = "40"
+Inst149Quest5_HORDE_Attain = "40"
+
 Inst149Quest6_HORDE_QuestID = "37783"
+Inst149Quest6_HORDE_Level = "15"
+Inst149Quest6_HORDE_Attain = "15"
 
 
 
 --------------- INST150 - The Everbloom ---------------
 
 Inst150Quest1_QuestID = "37150"
+Inst150Quest1_Level = "35"
+Inst150Quest1_Attain = "35"
+
 Inst150Quest2_QuestID = "37227"
+Inst150Quest2_Level = "35"
+Inst150Quest2_Attain = "35"
+
 Inst150Quest3_QuestID = "37166"
+Inst150Quest3_Level = "40"
+Inst150Quest3_Attain = "40"
+
 Inst150Quest4_QuestID = "37241"
+Inst150Quest4_Level = "40"
+Inst150Quest4_Attain = "40"
+
 Inst150Quest5_QuestID = "37165"
+Inst150Quest5_Level = "40"
+Inst150Quest5_Attain = "40"
+
 Inst150Quest6_QuestID = "37240"
+Inst150Quest6_Level = "40"
+Inst150Quest6_Attain = "40"
+
 Inst150Quest7_QuestID = "36813"
+Inst150Quest7_Level = "35"
+Inst150Quest7_Attain = "35"
+
 Inst150Quest8_QuestID = "37790"
+Inst150Quest8_Level = "35"
+Inst150Quest8_Attain = "35"
+
 
 Inst150Quest1_HORDE_QuestID = "37150"
+Inst150Quest1_HORDE_Level = "35"
+Inst150Quest1_HORDE_Attain = "35"
+
 Inst150Quest2_HORDE_QuestID = "37227"
+Inst150Quest2_HORDE_Level = "35"
+Inst150Quest2_HORDE_Attain = "35"
+
 Inst150Quest3_HORDE_QuestID = "37166"
+Inst150Quest3_HORDE_Level = "40"
+Inst150Quest3_HORDE_Attain = "40"
+
 Inst150Quest4_HORDE_QuestID = "37241"
+Inst150Quest4_HORDE_Level = "40"
+Inst150Quest4_HORDE_Attain = "40"
+
 Inst150Quest5_HORDE_QuestID = "37165"
+Inst150Quest5_HORDE_Level = "40"
+Inst150Quest5_HORDE_Attain = "40"
+
 Inst150Quest6_HORDE_QuestID = "37240"
+Inst150Quest6_HORDE_Level = "40"
+Inst150Quest6_HORDE_Attain = "40"
+
 Inst150Quest7_HORDE_QuestID = "36813"
+Inst150Quest7_HORDE_Level = "35"
+Inst150Quest7_HORDE_Attain = "35"
+
 Inst150Quest8_HORDE_QuestID = "37786"
+Inst150Quest8_HORDE_Level = "35"
+Inst150Quest8_HORDE_Attain = "35"
 
 
 
 --------------- INST151 - Grimrail Depot ---------------
 
 Inst151Quest1_QuestID = "37160"
+Inst151Quest1_Level = "40"
+Inst151Quest1_Attain = "40"
+
 Inst151Quest2_QuestID = "37243"
+Inst151Quest2_Level = "40"
+Inst151Quest2_Attain = "40"
+
 Inst151Quest3_QuestID = "37167"
+Inst151Quest3_Level = "40"
+Inst151Quest3_Attain = "40"
+
 Inst151Quest4_QuestID = "37242"
+Inst151Quest4_Level = "40"
+Inst151Quest4_Attain = "40"
+
 Inst151Quest5_QuestID = "37151"
+Inst151Quest5_Level = "35"
+Inst151Quest5_Attain = "35"
+
 Inst151Quest6_QuestID = "37209"
+Inst151Quest6_Level = "35"
+Inst151Quest6_Attain = "35"
+
 Inst151Quest7_QuestID = "37794"
+Inst151Quest7_Level = "35"
+Inst151Quest7_Attain = "35"
+
 
 Inst151Quest1_HORDE_QuestID = "37160"
+Inst151Quest1_HORDE_Level = "40"
+Inst151Quest1_HORDE_Attain = "40"
+
 Inst151Quest2_HORDE_QuestID = "37243"
+Inst151Quest2_HORDE_Level = "40"
+Inst151Quest2_HORDE_Attain = "40"
+
 Inst151Quest3_HORDE_QuestID = "37167"
+Inst151Quest3_HORDE_Level = "40"
+Inst151Quest3_HORDE_Attain = "40"
+
 Inst151Quest4_HORDE_QuestID = "37242"
+Inst151Quest4_HORDE_Level = "40"
+Inst151Quest4_HORDE_Attain = "40"
+
 Inst151Quest5_HORDE_QuestID = "37151"
+Inst151Quest5_HORDE_Level = "35"
+Inst151Quest5_HORDE_Attain = "35"
+
 Inst151Quest6_HORDE_QuestID = "37209"
+Inst151Quest6_HORDE_Level = "35"
+Inst151Quest6_HORDE_Attain = "35"
+
 Inst151Quest7_HORDE_QuestID = "37782"
+Inst151Quest7_HORDE_Level = "35"
+Inst151Quest7_HORDE_Attain = "35"
 
 
 
 --------------- INST152 - Shadowmoon Burial Grounds ---------------
 
 Inst152Quest1_QuestID = "37149"
+Inst152Quest1_Level = "10"
+Inst152Quest1_Attain = "10"
+
 Inst152Quest2_QuestID = "37245"
+Inst152Quest2_Level = "10"
+Inst152Quest2_Attain = "10"
+
 Inst152Quest3_QuestID = "37163"
+Inst152Quest3_Level = "40"
+Inst152Quest3_Attain = "40"
+
 Inst152Quest4_QuestID = "37238"
+Inst152Quest4_Level = "40"
+Inst152Quest4_Attain = "40"
+
 Inst152Quest5_QuestID = "37164"
+Inst152Quest5_Level = "40"
+Inst152Quest5_Attain = "40"
+
 Inst152Quest6_QuestID = "37239"
+Inst152Quest6_Level = "40"
+Inst152Quest6_Attain = "40"
+
 Inst152Quest7_QuestID = "37792"
+Inst152Quest7_Level = "10"
+Inst152Quest7_Attain = "10"
+
 
 Inst152Quest1_HORDE_QuestID = "37149"
+Inst152Quest1_HORDE_Level = "10"
+Inst152Quest1_HORDE_Attain = "10"
+
 Inst152Quest2_HORDE_QuestID = "37245"
+Inst152Quest2_HORDE_Level = "10"
+Inst152Quest2_HORDE_Attain = "10"
+
 Inst152Quest3_HORDE_QuestID = "37163"
+Inst152Quest3_HORDE_Level = "40"
+Inst152Quest3_HORDE_Attain = "40"
+
 Inst152Quest4_HORDE_QuestID = "37238"
+Inst152Quest4_HORDE_Level = "40"
+Inst152Quest4_HORDE_Attain = "40"
+
 Inst152Quest5_HORDE_QuestID = "37164"
+Inst152Quest5_HORDE_Level = "40"
+Inst152Quest5_HORDE_Attain = "40"
+
 Inst152Quest6_HORDE_QuestID = "37239"
+Inst152Quest6_HORDE_Level = "40"
+Inst152Quest6_HORDE_Attain = "40"
+
 Inst152Quest7_HORDE_QuestID = "37784"
+Inst152Quest7_HORDE_Level = "10"
+Inst152Quest7_HORDE_Attain = "10"
 
 
 
 --------------- INST153 - Upper Blackrock Spire ---------------
 
 Inst153Quest1_QuestID = "37148"
+Inst153Quest1_Level = "35"
+Inst153Quest1_Attain = "35"
+
 Inst153Quest2_QuestID = "37244"
+Inst153Quest2_Level = "35"
+Inst153Quest2_Attain = "35"
+
 Inst153Quest3_QuestID = "37161"
+Inst153Quest3_Level = "40"
+Inst153Quest3_Attain = "40"
+
 Inst153Quest4_QuestID = "37236"
+Inst153Quest4_Level = "40"
+Inst153Quest4_Attain = "40"
+
 Inst153Quest5_QuestID = "37162"
+Inst153Quest5_Level = "40"
+Inst153Quest5_Attain = "40"
+
 Inst153Quest6_QuestID = "37237"
+Inst153Quest6_Level = "40"
+Inst153Quest6_Attain = "40"
+
 Inst153Quest7_QuestID = "37179"
+Inst153Quest7_Level = "40"
+Inst153Quest7_Attain = "40"
+
 Inst153Quest8_QuestID = "37789"
+Inst153Quest8_Level = "35"
+Inst153Quest8_Attain = "35"
+
 
 Inst153Quest1_HORDE_QuestID = "37148"
+Inst153Quest1_HORDE_Level = "35"
+Inst153Quest1_HORDE_Attain = "35"
+
 Inst153Quest2_HORDE_QuestID = "37244"
+Inst153Quest2_HORDE_Level = "35"
+Inst153Quest2_HORDE_Attain = "35"
+
 Inst153Quest3_HORDE_QuestID = "37161"
+Inst153Quest3_HORDE_Level = "40"
+Inst153Quest3_HORDE_Attain = "40"
+
 Inst153Quest4_HORDE_QuestID = "37236"
+Inst153Quest4_HORDE_Level = "40"
+Inst153Quest4_HORDE_Attain = "40"
+
 Inst153Quest5_HORDE_QuestID = "37162"
+Inst153Quest5_HORDE_Level = "40"
+Inst153Quest5_HORDE_Attain = "40"
+
 Inst153Quest6_HORDE_QuestID = "37237"
+Inst153Quest6_HORDE_Level = "40"
+Inst153Quest6_HORDE_Attain = "40"
+
 Inst153Quest7_HORDE_QuestID = "37179"
+Inst153Quest7_HORDE_Level = "40"
+Inst153Quest7_HORDE_Attain = "40"
+
 Inst153Quest8_HORDE_QuestID = "37787"
+Inst153Quest8_HORDE_Level = "35"
+Inst153Quest8_HORDE_Attain = "35"
 
 
 
 --------------- INST154 - Highmaul ---------------
 
 Inst154Quest1_QuestID = "37766"
+Inst154Quest1_Level = "40"
+Inst154Quest1_Attain = "40"
+
 Inst154Quest2_QuestID = "37767"
+Inst154Quest2_Level = "40"
+Inst154Quest2_Attain = "40"
+
 Inst154Quest3_QuestID = "37768"
+Inst154Quest3_Level = "40"
+Inst154Quest3_Attain = "40"
+
 
 Inst154Quest1_HORDE_QuestID = "37756"
+Inst154Quest1_HORDE_Level = "40"
+Inst154Quest1_HORDE_Attain = "40"
+
 Inst154Quest2_HORDE_QuestID = "37757"
+Inst154Quest2_HORDE_Level = "40"
+Inst154Quest2_HORDE_Attain = "40"
+
 Inst154Quest3_HORDE_QuestID = "37758"
+Inst154Quest3_HORDE_Level = "40"
+Inst154Quest3_HORDE_Attain = "40"
 
 
 
 --------------- INST155 - Blackrock Foundry ---------------
 
 Inst155Quest1_QuestID = "37769"
+Inst155Quest1_Level = "40"
+Inst155Quest1_Attain = "40"
+
 Inst155Quest2_QuestID = "37770"
+Inst155Quest2_Level = "40"
+Inst155Quest2_Attain = "40"
+
 Inst155Quest3_QuestID = "37771"
+Inst155Quest3_Level = "40"
+Inst155Quest3_Attain = "40"
+
 Inst155Quest4_QuestID = "37772"
+Inst155Quest4_Level = "40"
+Inst155Quest4_Attain = "40"
+
 
 Inst155Quest1_HORDE_QuestID = "37762"
+Inst155Quest1_HORDE_Level = "40"
+Inst155Quest1_HORDE_Attain = "40"
+
 Inst155Quest2_HORDE_QuestID = "37763"
+Inst155Quest2_HORDE_Level = "40"
+Inst155Quest2_HORDE_Attain = "40"
+
 Inst155Quest3_HORDE_QuestID = "37764"
+Inst155Quest3_HORDE_Level = "40"
+Inst155Quest3_HORDE_Attain = "40"
+
 Inst155Quest4_HORDE_QuestID = "37765"
+Inst155Quest4_HORDE_Level = "40"
+Inst155Quest4_HORDE_Attain = "40"
 
 
 
 --------------- INST156 - Hellfire Citadel ---------------
 
 Inst156Quest1_QuestID = "39250"
+Inst156Quest1_Level = "40"
+Inst156Quest1_Attain = "40"
+
 Inst156Quest2_QuestID = "39253"
+Inst156Quest2_Level = "40"
+Inst156Quest2_Attain = "40"
+
 Inst156Quest3_QuestID = "39256"
+Inst156Quest3_Level = "40"
+Inst156Quest3_Attain = "40"
+
 Inst156Quest4_QuestID = "39259"
+Inst156Quest4_Level = "40"
+Inst156Quest4_Attain = "40"
+
 Inst156Quest5_QuestID = "39260"
+Inst156Quest5_Level = "40"
+Inst156Quest5_Attain = "40"
+
 Inst156Quest6_QuestID = "39499"
+Inst156Quest6_Level = "40"
+Inst156Quest6_Attain = "40"
+
 Inst156Quest7_QuestID = "39500"
+Inst156Quest7_Level = "40"
+Inst156Quest7_Attain = "40"
+
 Inst156Quest8_QuestID = "39501"
+Inst156Quest8_Level = "40"
+Inst156Quest8_Attain = "40"
 
 Inst156Quest9_QuestID = "39830"
-Inst156Quest9_Level = "110"
-Inst156Quest9_Attain = "110"
+Inst156Quest9_Level = "45"
+Inst156Quest9_Attain = "45"
+Inst156Quest9PreQuest = "true"
+
 
 Inst156Quest1_HORDE_QuestID = "39221"
+Inst156Quest1_HORDE_Level = "40"
+Inst156Quest1_HORDE_Attain = "40"
+
 Inst156Quest2_HORDE_QuestID = "39225"
+Inst156Quest2_HORDE_Level = "40"
+Inst156Quest2_HORDE_Attain = "40"
+
 Inst156Quest3_HORDE_QuestID = "39228"
+Inst156Quest3_HORDE_Level = "40"
+Inst156Quest3_HORDE_Attain = "40"
+
 Inst156Quest4_HORDE_QuestID = "39231"
+Inst156Quest4_HORDE_Level = "40"
+Inst156Quest4_HORDE_Attain = "40"
+
 Inst156Quest5_HORDE_QuestID = "39232"
+Inst156Quest5_HORDE_Level = "40"
+Inst156Quest5_HORDE_Attain = "40"
+
 Inst156Quest6_HORDE_QuestID = "39499"
+Inst156Quest6_HORDE_Level = "40"
+Inst156Quest6_HORDE_Attain = "40"
+
 Inst156Quest7_HORDE_QuestID = "39500"
+Inst156Quest7_HORDE_Level = "40"
+Inst156Quest7_HORDE_Attain = "40"
+
 Inst156Quest8_HORDE_QuestID = "39501"
+Inst156Quest8_HORDE_Level = "40"
+Inst156Quest8_HORDE_Attain = "40"
 
 Inst156Quest9_HORDE_QuestID = "39830"
-Inst156Quest9_HORDE_Level = "110"
-Inst156Quest9_HORDE_Attain = "110"
+Inst156Quest9_HORDE_Level = "45"
+Inst156Quest9_HORDE_Attain = "45"
+Inst156Quest9PreQuest_HORDE = Inst156Quest9PreQuest
 
 
 

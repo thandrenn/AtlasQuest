@@ -202,7 +202,6 @@ Inst147Quest1_Location = "Reshad (Spitzen von Arak - Terrokversteck; "..YELLOW..
 Inst147Quest1_Note = "Töte alle Bosse dieser Instanz um diese Quest zu beenden."
 Inst147Quest1_Prequest = "Auf schwarzen Schwingen-> Wege des Ruhms"
 Inst147Quest1_Folgequest = "Nein"
-Inst147Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -273,7 +272,6 @@ Inst147Quest1_HORDE_Location = Inst147Quest1_Location
 Inst147Quest1_HORDE_Note = Inst147Quest1_Note
 Inst147Quest1_HORDE_Prequest = Inst147Quest1_Prequest
 Inst147Quest1_HORDE_Folgequest = "Nein"
-Inst147Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -283,7 +281,6 @@ Inst147Quest2_HORDE_Location = Inst147Quest2_Location
 Inst147Quest2_HORDE_Note = Inst147Quest2_Note
 Inst147Quest2_HORDE_Prequest = "Ruf des Erzmagiers"
 Inst147Quest2_HORDE_Folgequest = "Khadgars Aufgabe"
-Inst147Quest2FQuest_HORDE = "true"
 --
 Inst147Quest2name1_HORDE = Inst147Quest2name1
 
@@ -463,7 +460,6 @@ Inst148Quest6_HORDE_Location = Inst146Quest6_Horde_Location
 Inst148Quest6_HORDE_Note = Inst148Quest6_Note
 Inst148Quest6_HORDE_Prequest = Inst148Quest6_Prequest
 Inst148Quest6_HORDE_Folgequest = "Kampf mit Teron'gor"
-Inst148Quest6PreQuest_HORDE = "true"
 --
 -- Awards Garrison Resources
 
@@ -1280,7 +1276,6 @@ Inst154Quest1_HORDE_Location = Inst146Quest6_Location
 Inst154Quest1_HORDE_Note = Inst154Quest1_Note
 Inst154Quest1_HORDE_Prequest = Inst154Quest1_Prequest
 Inst154Quest1_HORDE_Folgequest = "Nein"
-Inst154Quest1PreQuest_HORDE = "true"
 --
 Inst154Quest1name1_HORDE = Inst154Quest1name1
 
@@ -1485,7 +1480,6 @@ Inst156Quest9_Location = "Mama Buddel (Dalaran; "..YELLOW.."46.2, 26.4"..WHITE..
 Inst156Quest9_Note = "Bergbauerquest.  Besiege den Endboss für den Questgegenstand.  Bringe es zurück nach Dalaran."
 Inst156Quest9_Prequest = "Infernoschwefelanalyse -> Das Geheimnis des Schwefels"
 Inst156Quest9_Folgequest = "Nein"
-Inst156Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1496,7 +1490,6 @@ Inst156Quest1_HORDE_Location = Inst146Quest6_Horde_Location
 Inst156Quest1_HORDE_Note = Inst156Quest1_Note
 Inst156Quest1_HORDE_Prequest = Inst156Quest1_Prequest
 Inst156Quest1_HORDE_Folgequest = "Nein"
-Inst156Quest1PreQuest_HORDE = Inst156Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -1573,7 +1566,6 @@ Inst156Quest9_HORDE_Location = Inst156Quest9_Location
 Inst156Quest9_HORDE_Note = Inst156Quest9_Note
 Inst156Quest9_HORDE_Prequest = Inst156Quest9_Prequest
 Inst156Quest9_HORDE_Folgequest = "Nein"
-Inst156Quest9PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
