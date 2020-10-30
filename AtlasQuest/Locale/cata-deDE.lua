@@ -81,7 +81,6 @@ Inst95Quest1_Location = "Finkle Einhorn (Berg Hyjal - Der Aschenzirkel; "..YELLO
 Inst95Quest1_Note = "Die Maulwurfmaschine ist in der Nähe von "..YELLOW.."42.8, 28.9"..WHITE..". Diese Quest bringt dich zu Finkle Einhorn innerhalb der Schwarzfelshöhlen am Eingang bei "..GREEN.."[1']"..WHITE.."."
 Inst95Quest1_Prequest = "Nein"
 Inst95Quest1_Folgequest = "Zur Kammer der Verbrennung!"
-Inst95Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -91,7 +90,6 @@ Inst95Quest2_Location = "Finkle Einhorn (Schwarzfelshöhlen; "..GREEN.."[1']"..W
 Inst95Quest2_Note = "Rom'ogg Knochenbrecher ist der erste Boss, bei "..YELLOW.."[1]"..WHITE.."."
 Inst95Quest2_Prequest = "Das kann nur eins bedeuten..."
 Inst95Quest2_Folgequest = "Nein"
-Inst95Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -144,7 +142,6 @@ Inst95Quest1_HORDE_Location = Inst95Quest1_Location
 Inst95Quest1_HORDE_Note = Inst95Quest1_Note
 Inst95Quest1_HORDE_Prequest = "Nein"
 Inst95Quest1_HORDE_Folgequest = Inst95Quest1_Folgequest
-Inst95Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -154,7 +151,6 @@ Inst95Quest2_HORDE_Location = Inst95Quest2_Location
 Inst95Quest2_HORDE_Note = Inst95Quest2_Note
 Inst95Quest2_HORDE_Prequest = Inst95Quest2_Prequest
 Inst95Quest2_HORDE_Folgequest = "Nein"
-Inst95Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -271,7 +267,6 @@ Inst97Quest1_Location = "Sturmruferin Mylra (Tiefenheim; "..YELLOW.."64.5, 82.2"
 Inst97Quest1_Note = "Erdwächterin Yrsa ist innerhalb der Instanz direkt am Eingang. Es gibt eine Vorquest, noch ist unklar von wem wird noch eingefügt. Die Vorquest ist optional."
 Inst97Quest1_Prequest = "Ach, einen Gefangenen sollten wir doch nehmen -> Die Zwielichtwarte"
 Inst97Quest1_Folgequest = "Nein"
-Inst97Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -281,7 +276,6 @@ Inst97Quest2_Location = "Erdwächterin Yrsa (Der steinerne Kern; "..BLUE.."Einga
 Inst97Quest2_Note = "Die Dokumente liegen auf den Boden vor dem Boss Corborus, bei "..YELLOW.."[1]"..WHITE.."."
 Inst97Quest2_Prequest = "Nein"
 Inst97Quest2_Folgequest = "Eine Anführerin und ihre Anhänger"
-Inst97Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -291,7 +285,6 @@ Inst97Quest3_Location = "Erdwächterin Yrsa (Der steinerne Kern; "..BLUE.."Einga
 Inst97Quest3_Note = "Hohepriesterin Azil ist bei "..YELLOW.."[4]"..WHITE.." und die ergebenen Anhänger sind überall auf den Weg zu ihr verteilt. Diese Quest bringt dich zurück zur Erdwächterin Yrsa am Eingang der Instanz."
 Inst97Quest3_Prequest = "Dokumente des Schattenhammers"
 Inst97Quest3_Folgequest = "Nein"
-Inst97Quest3PreQuest = "true"
 --
 Inst97Quest3name1 = "Band der Einhundert und Eins"
 Inst97Quest3name2 = "Signet der Hohepriesterin"
@@ -316,7 +309,6 @@ Inst97Quest5_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
 Inst97Quest5_Note = "LEGION Verzauberungsquest.  Normale oder Heroische Schwierigkeit.  Der Himmelssteinstab droppt vom Endboss.  Der strahlenden Zephyrit droppt vom zweiten Boss im Steinernen Kern (Cataclysm - Tiefenheim).  uralten Arkhanas droppt vom Endboss in Scholomance (Classic - Westliche Pestländer)."
 Inst97Quest5_Prequest = "Auf azurblauen Schwingen"
 Inst97Quest5_Folgequest = "Kernbohrung"
-Inst97Quest5PreQuest = "true"
 -- No Rewards for this quest
 --Quest 1 Horde
 Inst97Quest1_HORDE = Inst97Quest1
@@ -325,7 +317,6 @@ Inst97Quest1_HORDE_Location = Inst97Quest1_Location
 Inst97Quest1_HORDE_Note = Inst97Quest1_Note
 Inst97Quest1_HORDE_Prequest = Inst97Quest1_Prequest
 Inst97Quest1_HORDE_Folgequest = "Nein"
-Inst97Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -335,7 +326,6 @@ Inst97Quest2_HORDE_Location = Inst97Quest2_Location
 Inst97Quest2_HORDE_Note = Inst97Quest2_Note
 Inst97Quest2_HORDE_Prequest = "Nein"
 Inst97Quest2_HORDE_Folgequest = Inst97Quest2_Folgequest
-Inst97Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -345,7 +335,6 @@ Inst97Quest3_HORDE_Location = Inst97Quest3_Location
 Inst97Quest3_HORDE_Note = Inst97Quest3_Note
 Inst97Quest3_HORDE_Prequest = Inst97Quest3_Prequest
 Inst97Quest3_HORDE_Folgequest = "Nein"
-Inst97Quest3PreQuest_HORDE = "true"
 --
 Inst97Quest3name1_HORDE = Inst97Quest3name1
 Inst97Quest3name2_HORDE = Inst97Quest3name2
@@ -370,7 +359,6 @@ Inst97Quest5_HORDE_Location = Inst97Quest5_Location
 Inst97Quest5_HORDE_Note = Inst97Quest5_Note
 Inst97Quest5_HORDE_Prequest = Inst97Quest5_Prequest
 Inst97Quest5_HORDE_Folgequest = "Kernbohrung"
-Inst97Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --------------- INST98 - The Vortex Pinnacle ---------------
@@ -386,7 +374,6 @@ Inst98Quest1_Location = "General Ammantep (Uldum; "..YELLOW.."45.2, 37.8"..WHITE
 Inst98Quest1_Note = "Dies ist eine optionale Quest die Dich zum Vortexgipfel schickt. Du bekommst diese Quest nachdem Du einige Quests in Uldum erledigt hast.\n\nItesh ist in der Nähe vom Eingang."
 Inst98Quest1_Prequest = "Der Prophet Hadassi --> Das Zepter von Orsis"
 Inst98Quest1_Folgequest = "Rache für Orsis"
-Inst98Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -396,7 +383,6 @@ Inst98Quest2_Location = "Itesh (Vortexgipfel; "..BLUE.."Eingang"..WHITE..")"
 Inst98Quest2_Note = "Asaad ist der finale Boss, bei "..YELLOW.."[3]"..WHITE..". Die Vorquest ist optional. Diese Quest bringt dich zurück zum Eingang."
 Inst98Quest2_Prequest = "Der Vortexgipfel"
 Inst98Quest2_Folgequest = "Nein"
-Inst98Quest2PreQuest = "true"
 --
 Inst98Quest2name1 = "Zeichen der Dankbarkeit"
 Inst98Quest2name2 = "Schienbeinschützer von Orsis"
@@ -422,7 +408,6 @@ Inst98Quest1_HORDE_Location = Inst98Quest1_Location
 Inst98Quest1_HORDE_Note = Inst98Quest1_Note
 Inst98Quest1_HORDE_Prequest = Inst98Quest1_Prequest
 Inst98Quest1_HORDE_Folgequest = "Rache für Orsis"
-Inst98Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -432,7 +417,6 @@ Inst98Quest2_HORDE_Location = Inst98Quest2_Location
 Inst98Quest2_HORDE_Note = Inst98Quest2_Note
 Inst98Quest2_HORDE_Prequest = "Der Vortexgipfel"
 Inst98Quest2_HORDE_Folgequest = "Nein"
-Inst98Quest2PreQuest_HORDE = "true"
 --
 Inst98Quest2name1_HORDE = Inst98Quest2name1
 Inst98Quest2name2_HORDE = Inst98Quest2name2
@@ -542,7 +526,6 @@ Inst100Quest1_Location = "Brann Bronzebart (Uldum - Wiege der Uralten; "..YELLOW
 Inst100Quest1_Note = "Brann Bronzebart ist ein wenig innerhalb der Hallen des Ursprungs. Die Vorquest ist eine Questreihe in Uldum die bei Brann Bronzebart startet."
 Inst100Quest1_Prequest = "Sullahs Geschenk -> Die Lade der Verheißung"
 Inst100Quest1_Folgequest = "Ihre Verteidigung durchbrechen"
-Inst100Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -552,7 +535,6 @@ Inst100Quest2_Location = "Brann Bronzebart (Hallen des Ursprungs; "..GREEN.."[2'
 Inst100Quest2_Note = "Der Kontrollraum der Titanen ist zugänglich nachdem Anraphet besiegt wurde, bei "..YELLOW.."3"..WHITE.."."
 Inst100Quest2_Prequest = "Des Pudels Kern"
 Inst100Quest2_Folgequest = "Auf die harte Tour"
-Inst100Quest2FQuest = "true"
 --
 Inst100Quest2name1 = "Warenlagerstulpen"
 Inst100Quest2name2 = "Offlineschienbeinschützer"
@@ -565,7 +547,6 @@ Inst100Quest3_Location = Inst100Quest1_Location
 Inst100Quest3_Note = "Isiset ist bei "..YELLOW.."[4]"..WHITE..", Ammunae ist bei "..YELLOW.."[5]"..WHITE..", Setesh ist bei "..YELLOW.."[6]"..WHITE..", und Rajh ist bei "..YELLOW.."[7]"..WHITE.."."
 Inst100Quest3_Prequest = "Ihre Verteidigung durchbrechen"
 Inst100Quest3_Folgequest = "Nein"
-Inst100Quest3PreQuest = "true"
 --
 Inst100Quest3name1 = "Armschienen des wahren Archäologen"
 Inst100Quest3name2 = "Helm der Neuerschaffung"
@@ -579,7 +560,6 @@ Inst100Quest1_HORDE_Location = Inst100Quest1_Location
 Inst100Quest1_HORDE_Note = Inst100Quest1_Note
 Inst100Quest1_HORDE_Prequest = Inst100Quest1_Prequest
 Inst100Quest1_HORDE_Folgequest = Inst100Quest1_Folgequest
-Inst100Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -589,7 +569,6 @@ Inst100Quest2_HORDE_Location = Inst100Quest2_Location
 Inst100Quest2_HORDE_Note = Inst100Quest2_Note
 Inst100Quest2_HORDE_Prequest = "Des Pudels Kern"
 Inst100Quest2_HORDE_Folgequest = "Auf die harte Tour"
-Inst100Quest2FQuest_HORDE = "true"
 --
 Inst100Quest2name1_HORDE = Inst100Quest2name1
 Inst100Quest2name2_HORDE = Inst100Quest2name2
@@ -602,7 +581,6 @@ Inst100Quest3_HORDE_Location = Inst100Quest3_Location
 Inst100Quest3_HORDE_Note = Inst100Quest3_Note
 Inst100Quest3_HORDE_Prequest = Inst100Quest3_Prequest
 Inst100Quest3_HORDE_Folgequest = "Nein"
-Inst100Quest3PreQuest_HORDE = "true"
 --
 Inst100Quest3name1_HORDE = Inst100Quest3name1
 Inst100Quest3name2_HORDE = Inst100Quest3name2
@@ -623,7 +601,6 @@ Inst101Quest1_Location = "König Phaoris (Uldum - Ramakahen; "..YELLOW.."54.9, 3
 Inst101Quest1_Note = "Hauptmann Hadan ist innerhalb der Instanz. Diese Quest bekommst du nachdem du einige Quests von Ramakahen in Uldum abgeschlossen hast. Diese Quest ist nicht erforderlich um die anderen beiden Quests annehmen zu können."
 Inst101Quest1_Prequest = "Der Fall von Neferset"
 Inst101Quest1_Folgequest = "Nein"
-Inst101Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -658,7 +635,6 @@ Inst101Quest1_HORDE_Location = Inst101Quest1_Location
 Inst101Quest1_HORDE_Note = Inst101Quest1_Note
 Inst101Quest1_HORDE_Prequest = Inst101Quest1_Prequest
 Inst101Quest1_HORDE_Folgequest = "Nein"
-Inst101Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -724,7 +700,6 @@ Inst105Quest1_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst105Quest1_Note = "LEGION Ledererquest.  Eisheuler ist der erste Boss in der Prüfung des Kreuzfahrers.  Um Occu'thars Balg zu bekommen, betrete Baradinfstung und nehme die erste links Kurve.  Horridon ist der zweite Boss im Thron des Donners."
 Inst105Quest1_Prequest = "Hallen der Tapferkeit: Fenryrs Balg"
 Inst105Quest1_Folgequest = "Ske'rits Lederleitfaden"
-Inst105Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -735,7 +710,6 @@ Inst105Quest1_HORDE_Location = Inst105Quest1_Location
 Inst105Quest1_HORDE_Note = Inst105Quest1_Note
 Inst105Quest1_HORDE_Prequest = Inst105Quest1_Prequest
 Inst105Quest1_HORDE_Folgequest = Inst105Quest1_Folgequest
-Inst105Quest1PreQuest_HORDE = Inst105Quest1PreQuest
 -- No Rewards for this quest
 
 
@@ -800,7 +774,6 @@ Inst63Quest2_HORDE_Location = Inst63Quest2_Location
 Inst63Quest2_HORDE_Note = Inst63Quest2_Note
 Inst63Quest2_HORDE_Prequest = "Nein"
 Inst63Quest2_HORDE_Folgequest = Inst63Quest2_Folgequest
-Inst63Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -810,7 +783,6 @@ Inst63Quest3_HORDE_Location = Inst63Quest3_Location
 Inst63Quest3_HORDE_Note = Inst63Quest3_Note
 Inst63Quest3_HORDE_Prequest = Inst63Quest3_Prequest
 Inst63Quest3_HORDE_Folgequest = Inst63Quest3_Folgequest
-Inst63Quest3FQuest_HORDE = "true"
 --
 Inst63Quest3name1_HORDE = Inst63Quest3name1
 Inst63Quest3name2_HORDE = Inst63Quest3name2
@@ -866,7 +838,6 @@ Inst108Quest5_Location = "Aufseher Klunkerknall (Zul'Gurub; "..BLUE.."Eingang"..
 Inst108Quest5_Note = "Diese Quest kann innerhalb der Instanz angenommen werden oder am Ende der Questreihe bei der Tafel des Heldenaufrufs in Sturmwind und Ogrimmar.  Das Artefakt ist bei "..YELLOW.."[17]"..WHITE.."."
 Inst108Quest5_Prequest = "Abgesandter der Dunkelspeertrolle (Bwemba's Geist) -> Kontaktaufnahme"
 Inst108Quest5_Folgequest = "Eine glitzernde Beute"
-Inst108Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -922,7 +893,6 @@ Inst108Quest5_HORDE_Location = Inst108Quest5_Location
 Inst108Quest5_HORDE_Note = Inst108Quest5_Note
 Inst108Quest5_HORDE_Prequest = "Abgesandter der Dunkelspeertrolle (Bwemba's Geist) -> Kontaktaufnahme"
 Inst108Quest5_HORDE_Folgequest = "Eine glitzernde Beute"
-Inst108Quest5PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde
@@ -949,7 +919,6 @@ Inst109Quest1_Location = "Diese Quest bekommst du automatisch nach dem Tod einen
 Inst109Quest1_Note = "Diese Quest bekommen nur Klassen die diesen Stab benutzen können - Druiden, Priester, Hexenmeister, Magier und Schamanen.\n\nCoridormi ist bei Sturmwind - Magierviertel; "..YELLOW.."49.4, 87.4"..WHITE.."."
 Inst109Quest1_Prequest = "Nein"
 Inst109Quest1_Folgequest = "Eine legendäre Verabredung -> Ein allsehendes Auge"
-Inst109Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -959,7 +928,6 @@ Inst109Quest2_Location = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."58
 Inst109Quest2_Note = "Das Immerglut droppt von den Bossen in den Feuerlanden.\n\nDie Sande der Zeit kann gekauft werden bei Yasmin (Uldum - Oasis von Vir'sar; "..YELLOW.."26.6, 7.2"..WHITE..")"
 Inst109Quest2_Prequest = "Eure Zeit ist gekommen -> Eine Furche in der Zeit"
 Inst109Quest2_Folgequest = "Auf gut Glück -> Delegierung"
-Inst109Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -969,7 +937,6 @@ Inst109Quest3_Location = "Kalecgos (Hyjal - Nordrassil; "..YELLOW.."62.2, 23.2".
 Inst109Quest3_Note = "Um den Zweig von Nordrassil zu bekommen mußt Du noch einige Sachen aus den Feuerlanden besorgen. Dies ist leider zuviel um dies hier niederzuschreiben und bitte Euch daher Seiten wie: http://www.wowhead.com \n http://www.wowpedia.org durchzulesen."
 Inst109Quest3_Prequest = "Ein allsehendes Auge -> Informationen mit Konsequenzen"
 Inst109Quest3_Folgequest= "Der Zweig von Nordrassil -> Die Zeit drängt"
-Inst109Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -979,7 +946,6 @@ Inst109Quest4_Location = "Kalecgos (Boreanische Tundra - Kaltarra; "..YELLOW.."3
 Inst109Quest4_Note = "Die siedende Schlacke droppt von den Bossen in den Feuerlanden."
 Inst109Quest4_Prequest = "Der Zweig von Nordrassil -> Vereint"
 Inst109Quest4_Folgequest = "Ausrichtung -> Herz der Flamme"
-Inst109Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -989,7 +955,6 @@ Inst109Quest5_Location = "Kalecgos (Boreanische Tundra - Kaltarra; "..YELLOW.."2
 Inst109Quest5_Note = "Benutze den Runenstab von Nordrassil um die schwelenden Essenzen aus den Körpern der Bosse zu extrahieren. Bei Ragnaros wird es nicht gehen.\nUm ans Herz der Flamme zu gelangen, mußt du Ragnaros besiegen ohne zu sterben und vorher die 250 schwelenden Essenzen gesammelt haben. Gehe in die Lava und sammel das Herz ein. Wenn du dabei stirbst, mußt Du Ragnaros, beim nächsten Versuch, erneut besiegen."
 Inst109Quest5_Prequest = "Die Zeit drängt -> Ausrichtung"
 Inst109Quest5_Folgequest = "Der Stoff, aus dem Legenden sind"
-Inst109Quest5FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1000,7 +965,6 @@ Inst109Quest1_HORDE_Location = Inst109Quest1_Location
 Inst109Quest1_HORDE_Note = "Diese Quest bekommen nur Klassen die diesen Stab benutzen können - Druiden, Priester, Hexenmeister, Magier und Schamanen.\n\nZiradormi ist bei Orgrimmar - Tal der Stärke; "..YELLOW.."48.8, 70.4"..WHITE.."."
 Inst109Quest1_Prequest = "Nein"
 Inst109Quest1_HORDE_Folgequest = Inst109Quest1_Folgequest
-Inst109Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -1010,7 +974,6 @@ Inst109Quest2_HORDE_Location = Inst109Quest2_Location
 Inst109Quest2_HORDE_Note = Inst109Quest2_Note
 Inst109Quest2_HORDE_Prequest = Inst109Quest2_Prequest
 Inst109Quest2_HORDE_Folgequest = Inst109Quest2_Folgequest
-Inst109Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -1020,7 +983,6 @@ Inst109Quest3_HORDE_Location = Inst109Quest3_Location
 Inst109Quest3_HORDE_Note = Inst109Quest3_Note
 Inst109Quest3_HORDE_Prequest = Inst109Quest3_Prequest
 Inst109Quest3_HORDE_Folgequest = Inst109Quest3_Folgequest
-Inst109Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -1030,7 +992,6 @@ Inst109Quest4_HORDE_Location = Inst109Quest4_Location
 Inst109Quest4_HORDE_Note = Inst109Quest4_Note
 Inst109Quest4_HORDE_Prequest = Inst109Quest4_Prequest
 Inst109Quest4_HORDE_Folgequest = Inst109Quest4_Folgequest
-Inst109Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde
@@ -1040,7 +1001,6 @@ Inst109Quest5_HORDE_Location = Inst109Quest5_Location
 Inst109Quest5_HORDE_Note = Inst109Quest5_Note
 Inst109Quest5_HORDE_Prequest = Inst109Quest5_Prequest
 Inst109Quest5_HORDE_Folgequest = Inst109Quest5_Folgequest
-Inst109Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -1067,7 +1027,6 @@ Inst110Quest2_Location = "Nozdormu (Endzeit; "..BLUE.."Eingang"..WHITE..")"
 Inst110Quest2_Note = "Murozond ist der erste Boss auf den Du stoßen wirst, nachdem ein paar Trashtruppen gepullt wurden."
 Inst110Quest2_Prequest = "Endzeit"
 Inst110Quest2_Folgequest = "Der Brunnen der Ewigkeit"
-Inst110Quest2FQuest = "true"
 --
 Inst110Quest2name1 = "Bronzeblaster"
 Inst110Quest2name2 = "Stiefel des verzweigten Weges"
@@ -1103,7 +1062,6 @@ Inst110Quest2_HORDE_Location = Inst110Quest2_Location
 Inst110Quest2_HORDE_Note = Inst110Quest2_Note
 Inst110Quest2_HORDE_Prequest = "Endzeit"
 Inst110Quest2_HORDE_Folgequest = Inst110Quest2_Folgequest
-Inst110Quest2FQuest_HORDE = "true"
 --
 Inst110Quest2name1_HORDE = "Bronzeblaster"
 Inst110Quest2name2_HORDE = Inst110Quest2name2
@@ -1137,7 +1095,6 @@ Inst111Quest1_Location = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WH
 Inst111Quest1_Note = "Nozdormu ist innerhalb der Instanz Brunnen der Ewigkeit."
 Inst111Quest1_Prequest = "Murozond"
 Inst111Quest1_Folgequest = "In Scharen"
-Inst111Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -1147,7 +1104,6 @@ Inst111Quest2_Location = Inst111Quest1_Location
 Inst111Quest2_Note = "Die drei Portale können im großen Gebiet nach dem Eingang gefunden werden mit Massen von Dämonen die da rumlaufen. Jedes Portal ist auf eine anderen Seite des Raumes. Nach dem deaktivieren der drei Portale, erscheint Peroth'arn bei "..YELLOW.."[1]"..WHITE.."."
 Inst111Quest2_Prequest = "Der Brunnen der Ewigkeit"
 Inst111Quest2_Folgequest = "Die Selbstherrlichen"
-Inst111Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -1157,7 +1113,6 @@ Inst111Quest3_Location = Inst111Quest1_Location
 Inst111Quest3_Note = "Königen Azshara ist bei "..YELLOW.."[2]"..WHITE.."."
 Inst111Quest3_Prequest = "In Scharen"
 Inst111Quest3_Folgequest = "Der Weg zur Drachenseele"
-Inst111Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -1167,7 +1122,6 @@ Inst111Quest4_Location = Inst111Quest1_Location
 Inst111Quest4_Note = "Mannoroth ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst111Quest4_Prequest = "Die Selbstherrlichen"
 Inst111Quest4_Folgequest = "Nein"
-Inst111Quest4PreQuest = "true"
 --
 Inst111Quest4name1 = "Eisenfederlangbogen"
 Inst111Quest4name2 = "Kette des Dämonenjägers"
@@ -1195,7 +1149,6 @@ Inst111Quest1_HORDE_Location = Inst111Quest1_Location
 Inst111Quest1_HORDE_Note = Inst111Quest1_Note
 Inst111Quest1_HORDE_Prequest = "Murozond"
 Inst111Quest1_HORDE_Folgequest = Inst111Quest1_Folgequest
-Inst111Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -1205,7 +1158,6 @@ Inst111Quest2_HORDE_Location = Inst111Quest1_Location
 Inst111Quest2_HORDE_Note = Inst111Quest2_Note
 Inst111Quest2_HORDE_Prequest = Inst111Quest2_Prequest
 Inst111Quest2_HORDE_Folgequest = "Die Selbstherrlichen"
-Inst111Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -1215,7 +1167,6 @@ Inst111Quest3_HORDE_Location = Inst111Quest1_Location
 Inst111Quest3_HORDE_Note = Inst111Quest3_Note
 Inst111Quest3_HORDE_Prequest = "In Scharen"
 Inst111Quest3_HORDE_Folgequest = Inst111Quest3_Folgequest
-Inst111Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -1225,7 +1176,6 @@ Inst111Quest4_HORDE_Location = Inst111Quest1_Location
 Inst111Quest4_HORDE_Note = Inst111Quest4_Note
 Inst111Quest4_HORDE_Prequest = "Die Selbstherrlichen"
 Inst111Quest4_HORDE_Folgequest = "Nein"
-Inst111Quest4PreQuest_HORDE = "true"
 --
 Inst111Quest4name1_HORDE = Inst111Quest4name1
 Inst111Quest4name2_HORDE = Inst111Quest4name2
@@ -1260,7 +1210,6 @@ Inst112Quest1_Location = "Chromie (Brunnen der Ewigkeit; "..YELLOW.."[3]"..WHITE
 Inst112Quest1_Note = "Thrall befindet sich innerhalb der Instanz am Eingang."
 Inst112Quest1_Prequest = "Nein"
 Inst112Quest1_Folgequest = "Auf zum Wyrmruhtempel!"
-Inst112Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -1270,7 +1219,6 @@ Inst112Quest2_Location = "Thrall (Stunde des Zwielichts; "..BLUE.."Eingang"..WHI
 Inst112Quest2_Note = "Thrall stoppt an einigen Stellen der Reise. Wenn Du ihn verlierst, gehe den Weg zurück oder gehe den Weg weiter und Du wirst ihn weiter vorne wartend finden."
 Inst112Quest2_Prequest = "Die Stunde des Zwielichts"
 Inst112Quest2_Folgequest = "Nein"
-Inst112Quest2PreQuest = "true"
 --
 Inst112Quest2name1 = "Sicherheitshandschuhe"
 Inst112Quest2name2 = "Sattelgurt des Weltenschamanen"
@@ -1296,7 +1244,6 @@ Inst112Quest1_HORDE_Location = Inst112Quest1_Location
 Inst112Quest1_HORDE_Note = Inst112Quest1_Note
 Inst112Quest1_HORDE_Prequest = "Nein"
 Inst112Quest1_HORDE_Folgequest = Inst112Quest1_Folgequest
-Inst112Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -1306,7 +1253,6 @@ Inst112Quest2_HORDE_Location = Inst112Quest2_Location
 Inst112Quest2_HORDE_Note = Inst112Quest2_Note
 Inst112Quest2_HORDE_Prequest = Inst112Quest2_Prequest
 Inst112Quest2_HORDE_Folgequest = "Nein"
-Inst112Quest2PreQuest_HORDE = "true"
 --
 Inst112Quest2name1_HORDE = Inst112Quest2name1
 Inst112Quest2name2_HORDE = Inst112Quest2name2
@@ -1339,7 +1285,6 @@ Inst113Quest1_Location = "Lord Afrasastrasz (Drachenseele; "..BLUE.."Eingang"..W
 Inst113Quest1_Note = "Dies ist eine Schurkenquest. Diese und folgenden Questen können nicht mit dem Raidfinder angeschlosssen werden. Hagara die Sturmbinderin ist bei "..YELLOW.."[4]"..WHITE..". Es können mehrer Schurken in einem Schlachtzug dabei sein nur muß der Boss zwischendurch resettet werden."
 Inst113Quest1_Prequest = "Nein"
 Inst113Quest1_Folgequest = "Eine verborgene Botschaft -> Gelege im Gehege"
-Inst113Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -1349,7 +1294,6 @@ Inst113Quest2_Location = "Furion (Vorgebirge des Hügellands - Rabenholdtanwesen
 Inst113Quest2_Note = "Die Elementiumedelsteinformationen droppen nicht im Raidfinder. Du bekommst 1 im 10'er Schlachtzug und 2 bis 3 im 25'er. Die Elementiumsteinformationen beinhalten 3 - 9 schattenhafte Edelsteine.\n\nWenn Du mehr als 333 sammelst, behalte diese. Die die Du über hast zählen dann für eine späterer Quest."
 Inst113Quest2_Prequest = "Bewährungsprobe -> Es ist vollbracht"
 Inst113Quest2_Folgequest = "Der Spitzel von Karazhan -> Wetzt Eure Klauen"
-Inst113Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -1359,7 +1303,6 @@ Inst113Quest3_Location = Inst113Quest2_Location
 Inst113Quest3_Note = "Die Elementiumedelsteinformationen droppen nicht im Raidfinder. Du bekommst 1 im 10'er Schlachtzug und 2 bis 3 im 25'er."
 Inst113Quest3_Prequest = "Gelege im Gehege -> Sieg in den Tiefen"
 Inst113Quest3_Folgequest = "Vatermord"
-Inst113Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -1369,7 +1312,6 @@ Inst113Quest4_Location = Inst113Quest2_Location
 Inst113Quest4_Note = "Diese Quest kann nicht beendet werden wenn Du den Raidfinder nutzt."
 Inst113Quest4_Prequest = "Sieg in den Tiefen"
 Inst113Quest4_Folgequest = "Nein"
-Inst113Quest4PreQuest = "true"
 --
 Inst113Quest4name1 = "Golad, Zwielicht der Aspekte"
 Inst113Quest4name2 = "Tiriosh, Alptraum der Zeitalter"
@@ -1382,7 +1324,6 @@ Inst113Quest1_HORDE_Location = Inst113Quest1_Location
 Inst113Quest1_HORDE_Note = Inst113Quest1_Note
 Inst113Quest1_HORDE_Prequest = "Nein"
 Inst113Quest1_HORDE_Folgequest = Inst113Quest1_Folgequest
-Inst113Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -1392,7 +1333,6 @@ Inst113Quest2_HORDE_Location = Inst113Quest2_Location
 Inst113Quest2_HORDE_Note = Inst113Quest2_Note
 Inst113Quest2_HORDE_Prequest = Inst113Quest2_Prequest
 Inst113Quest2_HORDE_Folgequest = Inst113Quest2_Folgequest
-Inst113Quest2FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -1402,7 +1342,6 @@ Inst113Quest3_HORDE_Location = Inst113Quest3_Location
 Inst113Quest3_HORDE_Note = Inst113Quest3_Note
 Inst113Quest3_HORDE_Prequest = Inst113Quest3_Prequest
 Inst113Quest3_HORDE_Folgequest = "Vatermord"
-Inst113Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -1412,7 +1351,6 @@ Inst113Quest4_HORDE_Location = Inst113Quest4_Location
 Inst113Quest4_HORDE_Note = Inst113Quest4_Note
 Inst113Quest4_HORDE_Prequest = "Sieg in den Tiefen"
 Inst113Quest4_HORDE_Folgequest = "Nein"
-Inst113Quest4FQuest_HORDE = "true"
 --
 Inst113Quest4name1_HORDE = Inst113Quest4name1
 Inst113Quest4name2_HORDE = Inst113Quest4name2

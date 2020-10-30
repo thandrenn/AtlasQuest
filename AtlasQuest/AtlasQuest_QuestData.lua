@@ -3618,105 +3618,255 @@ Inst94Quest3FQuest_HORDE = Inst94Quest3FQuest
 --------------- INST95 - Blackrock Caverns ---------------
 
 Inst95Quest1_QuestID = "28732"
-Inst95Quest1_Level = ""
-Inst95Quest1_Attain = ""
+Inst95Quest1_Level = "30"
+Inst95Quest1_Attain = "30"
 
 Inst95Quest2_QuestID = "28735"
+Inst95Quest2_Level = "30"
+Inst95Quest2_Attain = "30"
+Inst95Quest2FQuest = "true"
+
 Inst95Quest3_QuestID = "28737"
+Inst95Quest3_Level = "30"
+Inst95Quest3_Attain = "30"
+
 Inst95Quest4_QuestID = "28738"
+Inst95Quest4_Level = "30"
+Inst95Quest4_Attain = "30"
+
 Inst95Quest5_QuestID = "28740"
+Inst95Quest5_Level = "30"
+Inst95Quest5_Attain = "30"
+
 Inst95Quest6_QuestID = "28741"
+Inst95Quest6_Level = "30"
+Inst95Quest6_Attain = "30"
+
 
 Inst95Quest1_HORDE_QuestID = "28732"
-Inst95Quest1_HORDE_Level = ""
-Inst95Quest1_HORDE_Attain = ""
+Inst95Quest1_HORDE_Level = "30"
+Inst95Quest1_HORDE_Attain = "30"
 
 Inst95Quest2_HORDE_QuestID = "28735"
+Inst95Quest2_HORDE_Level = "30"
+Inst95Quest2_HORDE_Attain = "30"
+Inst95Quest2FQuest_HORDE = Inst95Quest2FQuest
+
 Inst95Quest3_HORDE_QuestID = "28737"
+Inst95Quest3_HORDE_Level = "30"
+Inst95Quest3_HORDE_Attain = "30"
+
 Inst95Quest4_HORDE_QuestID = "28738"
+Inst95Quest4_HORDE_Level = "30"
+Inst95Quest4_HORDE_Attain = "30"
+
 Inst95Quest5_HORDE_QuestID = "28740"
+Inst95Quest5_HORDE_Level = "30"
+Inst95Quest5_HORDE_Attain = "30"
+
 Inst95Quest6_HORDE_QuestID = "28741"
+Inst95Quest6_HORDE_Level = "30"
+Inst95Quest6_HORDE_Attain = "30"
 
 
 
 --------------- INST96 - Throne of the Tides ---------------
 
 Inst96Quest1_QuestID = "28834"
+Inst96Quest1_Level = "30"
+Inst96Quest1_Attain = "30"
+
 Inst96Quest2_QuestID = "28836"
+Inst96Quest2_Level = "30"
+Inst96Quest2_Attain = "30"
+
 
 Inst96Quest1_HORDE_QuestID = "28833"
+Inst96Quest1_HORDE_Level = "30"
+Inst96Quest1_HORDE_Attain = "30"
+
 Inst96Quest2_HORDE_QuestID = "28843"
+Inst96Quest2_HORDE_Level = "30"
+Inst96Quest2_HORDE_Attain = "30"
 
 
 
 --------------- INST97 - The Stonecore ---------------
 
 Inst97Quest1_QuestID = "28866"
+Inst97Quest1_Level = "30"
+Inst97Quest1_Attain = "30"
+Inst97Quest1PreQuest = "true"
+
 Inst97Quest2_QuestID = "28815"
+Inst97Quest2_Level = "30"
+Inst97Quest2_Attain = "30"
+
 Inst97Quest3_QuestID = "28814"
+Inst97Quest3_Level = "30"
+Inst97Quest3_Attain = "30"
+Inst97Quest3FQuest = "true"
+
 Inst97Quest4_QuestID = "28824"
+Inst97Quest4_Level = "30"
+Inst97Quest4_Attain = "30"
 
 Inst97Quest5_QuestID = "39921"
-Inst97Quest5_Level = "110"
-Inst97Quest5_Attain = "110"
+Inst97Quest5_Level = "45"
+Inst97Quest5_Attain = "45"
+Inst97Quest5PreQuest = "true"
 
 
 Inst97Quest1_HORDE_QuestID = "28866"
+Inst97Quest1_HORDE_Level = "30"
+Inst97Quest1_HORDE_Attain = "30"
+Inst97Quest1PreQuest_HORDE = Inst97Quest1PreQuest
+
 Inst97Quest2_HORDE_QuestID = "28815"
+Inst97Quest2_HORDE_Level = "30"
+Inst97Quest2_HORDE_Attain = "30"
+
 Inst97Quest3_HORDE_QuestID = "28814"
+Inst97Quest3_HORDE_Level = "30"
+Inst97Quest3_HORDE_Attain = "30"
+Inst97Quest3FQuest_HORDE = Inst97Quest3FQuest
+
 Inst97Quest4_HORDE_QuestID = "28824"
+Inst97Quest4_HORDE_Level = "30"
+Inst97Quest4_HORDE_Attain = "30"
 
 Inst97Quest5_HORDE_QuestID = "39921"
-Inst97Quest5_HORDE_Level = "110"
-Inst97Quest5_HORDE_Attain = "110"
+Inst97Quest5_HORDE_Level = "45"
+Inst97Quest5_HORDE_Attain = "45"
+Inst97Quest5PreQuest_HORDE = Inst97Quest5PreQuest
 
 
 
 --------------- INST98 - The Vortex Pinnacle ---------------
 
 Inst98Quest1_QuestID = "28845"
+Inst98Quest1_Level = "30"
+Inst98Quest1_Attain = "30"
+Inst98Quest1PreQuest = "true"
+
 Inst98Quest2_QuestID = "28760"
+Inst98Quest2_Level = "30"
+Inst98Quest2_Attain = "30"
+Inst98Quest2FQuest = "true"
+
 Inst98Quest3_QuestID = "28779"
+Inst98Quest3_Level = "30"
+Inst98Quest3_Attain = "30"
+
 
 Inst98Quest1_HORDE_QuestID = "28845"
+Inst98Quest1_HORDE_Level = "30"
+Inst98Quest1_HORDE_Attain = "30"
+Inst98Quest1PreQuest_HORDE = Inst98Quest1PreQuest
+
 Inst98Quest2_HORDE_QuestID = "28760"
+Inst98Quest2_HORDE_Level = "30"
+Inst98Quest2_HORDE_Attain = "30"
+Inst98Quest2FQuest_HORDE = Inst98Quest2FQuest
+
 Inst98Quest3_HORDE_QuestID = "28779"
+Inst98Quest3_HORDE_Level = "30"
+Inst98Quest3_HORDE_Attain = "30"
 
 
 
 --------------- INST99 - Grim Batol ---------------
 
 Inst99Quest1_QuestID = "28852"
+Inst99Quest1_Level = "30"
+Inst99Quest1_Attain = "30"
+
 Inst99Quest2_QuestID = "28853"
+Inst99Quest2_Level = "30"
+Inst99Quest2_Attain = "30"
+
 Inst99Quest3_QuestID = "28854"
+Inst99Quest3_Level = "30"
+Inst99Quest3_Attain = "30"
+
 
 Inst99Quest1_HORDE_QuestID = "28852"
+Inst99Quest1_HORDE_Level = "30"
+Inst99Quest1_HORDE_Attain = "30"
+
 Inst99Quest2_HORDE_QuestID = "28853"
+Inst99Quest2_HORDE_Level = "30"
+Inst99Quest2_HORDE_Attain = "30"
+
 Inst99Quest3_HORDE_QuestID = "28854"
+Inst99Quest3_HORDE_Level = "30"
+Inst99Quest3_HORDE_Attain = "30"
 
 
 
 --------------- INST100 - Halls of Origination ---------------
 
 Inst100Quest1_QuestID = "28654"
+Inst100Quest1_Level = "30"
+Inst100Quest1_Attain = "30"
+Inst100PreQuest = "true"
+
 Inst100Quest2_QuestID = "28746"
+Inst100Quest2_Level = "30"
+Inst100Quest2_Attain = "30"
+Inst100Quest2FQuest = "true"
+
 Inst100Quest3_QuestID = "28753"
+Inst100Quest3_Level = "30"
+Inst100Quest3_Attain = "30"
+Inst100Quest3FQuest = "true"
+
 
 Inst100Quest1_HORDE_QuestID = "28654"
+Inst100Quest1_HORDE_Level = "30"
+Inst100Quest1_HORDE_Attain = "30"
+Inst100Quest1PreQuest_HORDE = Inst100Quest1PreQuest
+
 Inst100Quest2_HORDE_QuestID = "28746"
+Inst100Quest2_HORDE_Level = "30"
+Inst100Quest2_HORDE_Attain = "30"
+Inst100Quest2FQuest_HORDE = Inst100Quest2FQuest
+
 Inst100Quest3_HORDE_QuestID = "28753"
+Inst100Quest3_HORDE_Level = "30"
+Inst100Quest3_HORDE_Attain = "30"
+Inst100Quest3FQuest_HORDE = Inst100Quest3FQuest
 
 
 
 --------------- INST101 - Lost City of the Tol'vir ---------------
 
 Inst101Quest1_QuestID = "28870"
+Inst101Quest1_Level = "30"
+Inst101Quest1_Attain = "30"
+Inst101Quest1PreQuest = "true"
+
 Inst101Quest2_QuestID = "28781"
+Inst101Quest2_Level = "30"
+Inst101Quest2_Attain = "30"
+
 Inst101Quest3_QuestID = "28783"
+Inst101Quest3_Level = "30"
+Inst101Quest3_Attain = "30"
+
 
 Inst101Quest1_HORDE_QuestID = "28870"
+Inst101Quest1_HORDE_Level = "30"
+Inst101Quest1_HORDE_Attain = "30"
+Inst101Quest1PreQuest_HORDE = Inst101Quest1PreQuest
+
 Inst101Quest2_HORDE_QuestID = "28781"
+Inst101Quest2_HORDE_Level = "30"
+Inst101Quest2_HORDE_Attain = "30"
+
 Inst101Quest3_HORDE_QuestID = "28783"
+Inst101Quest3_HORDE_Level = "30"
+Inst101Quest3_HORDE_Attain = "30"
 
 
 
@@ -3735,111 +3885,302 @@ Inst101Quest3_HORDE_QuestID = "28783"
 --------------- INST105 - Baradin Hold ---------------
 
 Inst105Quest1_QuestID = "40138"
-Inst105Quest1_Level = "98"
-Inst105Quest1_Attain = "98"
+Inst105Quest1_Level = "10"
+Inst105Quest1_Attain = "10"
+Inst105Quest1PreQuest = "true"
 
 
 Inst105Quest1_HORDE_QuestID = "40138"
-Inst105Quest1_HORDE_Level = "98"
-Inst105Quest1_HORDE_Attain = "98"
+Inst105Quest1_HORDE_Level = "10"
+Inst105Quest1_HORDE_Attain = "10"
+Inst105Quest1PreQuest_HORDE = Inst105Quest1PreQuest
 
 
 
 --------------- INST108 - Zul'Gurub (ZG) ---------------
 
 Inst108Quest1_QuestID = "29172"
-Inst108Quest2_QuestID = "29174"
+Inst108Quest1_Level = "35"
+Inst108Quest1_Attain = "35"
+
+Inst108Quest2_QuestID = "29175"
+Inst108Quest2_Level = "35"
+Inst108Quest2_Attain = "35"
+
 Inst108Quest3_QuestID = "29242"
+Inst108Quest3_Level = "35"
+Inst108Quest3_Attain = "35"
+
 Inst108Quest4_QuestID = "29173"
+Inst108Quest4_Level = "35"
+Inst108Quest4_Attain = "35"
+
 Inst108Quest5_QuestID = "29153"
+Inst108Quest5_Level = "35"
+Inst108Quest5_Attain = "35"
+Inst108Quest5PreQuest = "true"
+
 Inst108Quest6_QuestID = "29241"
+Inst108Quest6_Level = "35"
+Inst108Quest6_Attain = "35"
+
 
 Inst108Quest1_HORDE_QuestID = "29172"
-Inst108Quest2_HORDE_QuestID = "29174"
+Inst108Quest1_HORDE_Level = "35"
+Inst108Quest1_HORDE_Attain = "35"
+
+Inst108Quest2_HORDE_QuestID = "29175"
+Inst108Quest2_HORDE_Level = "35"
+Inst108Quest2_HORDE_Attain = "35"
+
 Inst108Quest3_HORDE_QuestID = "29242"
+Inst108Quest3_HORDE_Level = "35"
+Inst108Quest3_HORDE_Attain = "35"
+
 Inst108Quest4_HORDE_QuestID = "29173"
+Inst108Quest4_HORDE_Level = "35"
+Inst108Quest4_HORDE_Attain = "35"
+
 Inst108Quest5_HORDE_QuestID = "29251"
+Inst108Quest5_HORDE_Level = "35"
+Inst108Quest5_HORDE_Attain = "35"
+Inst108Quest5PreQuest_HORDE = Inst108Quest5PreQuest
+
 Inst108Quest6_HORDE_QuestID = "29241"
+Inst108Quest6_HORDE_Level = "35"
+Inst108Quest6_HORDE_Attain = "35"
 
 
 
 --------------- INST109 - Firelands ---------------
 
 Inst109Quest1_QuestID = "29453"
+Inst109Quest1_Level = "35"
+Inst109Quest1_Attain = "35"
+
 Inst109Quest2_QuestID = "29135"
+Inst109Quest2_Level = "35"
+Inst109Quest2_Attain = "35"
+Inst109Quest2FQuest = "true"
+
 Inst109Quest3_QuestID = "29234"
+Inst109Quest3_Level = "35"
+Inst109Quest3_Attain = "35"
+Inst109Quest3FQuest = "true"
+
 Inst109Quest4_QuestID = "29270"
+Inst109Quest4_Level = "35"
+Inst109Quest4_Attain = "35"
+Inst109Quest4FQuest = "true"
+
 Inst109Quest5_QuestID = "29307"
+Inst109Quest5_Level = "35"
+Inst109Quest5_Attain = "35"
+Inst109Quest5FQuest = "true"
+
 
 Inst109Quest1_HORDE_QuestID = "29452"
+Inst109Quest1_HORDE_Level = "35"
+Inst109Quest1_HORDE_Attain = "35"
+
 Inst109Quest2_HORDE_QuestID = "29135"
+Inst109Quest2_HORDE_Level = "35"
+Inst109Quest2_HORDE_Attain = "35"
+Inst109Quest2FQuest_HORDE = Inst109Quest2FQuest
+
 Inst109Quest3_HORDE_QuestID = "29234"
+Inst109Quest3_HORDE_Level = "35"
+Inst109Quest3_HORDE_Attain = "35"
+Inst109Quest3FQuest_HORDE = Inst109Quest3FQuest
+
 Inst109Quest4_HORDE_QuestID = "29270"
+Inst109Quest4_HORDE_Level = "35"
+Inst109Quest4_HORDE_Attain = "35"
+Inst109Quest4FQuest_HORDE = Inst109Quest4FQuest
+
 Inst109Quest5_HORDE_QuestID = "29307"
+Inst109Quest5_HORDE_Level = "35"
+Inst109Quest5_HORDE_Attain = "35"
+Inst109Quest5FQuest_HORDE = Inst109Quest5FQuest
 
 
 
 --------------- INST110 - End Time ---------------
 
 Inst110Quest1_QuestID = "30095"
+Inst110Quest1_Level = "35"
+Inst110Quest1_Attain = "35"
+
 Inst110Quest2_QuestID = "30096"
+Inst110Quest2_Level = "35"
+Inst110Quest2_Attain = "35"
+Inst110Quest2FQuest = "true"
+
 Inst110Quest3_QuestID = "30097"
+Inst110Quest3_Level = "35"
+Inst110Quest3_Attain = "35"
+
 
 Inst110Quest1_HORDE_QuestID = "30094"
+Inst110Quest1_HORDE_Level = "35"
+Inst110Quest1_HORDE_Attain = "35"
+
 Inst110Quest2_HORDE_QuestID = "30096"
+Inst110Quest2_HORDE_Level = "35"
+Inst110Quest2_HORDE_Attain = "35"
+Inst110Quest2FQuest_HORDE = Inst110Quest2FQuest
+
 Inst110Quest3_HORDE_QuestID = "30097"
+Inst110Quest3_HORDE_Level = "35"
+Inst110Quest3_HORDE_Attain = "35"
 
 
 
 --------------- INST111 - Well of Eternity ---------------
 
 Inst111Quest1_QuestID = "30098"
+Inst111Quest1_Level = "35"
+Inst111Quest1_Attain = "35"
+Inst111Quest1PreQuest = "true"
+
 Inst111Quest2_QuestID = "30099"
+Inst111Quest2_Level = "35"
+Inst111Quest2_Attain = "35"
+Inst111Quest2FQuest = "true"
+
 Inst111Quest3_QuestID = "30100"
+Inst111Quest3_Level = "35"
+Inst111Quest3_Attain = "35"
+Inst111Quest3FQuest = "true"
+
 Inst111Quest4_QuestID = "30101"
+Inst111Quest4_Level = "35"
+Inst111Quest4_Attain = "35"
+Inst111Quest4FQuest = "true"
+
 Inst111Quest5_QuestID = "30104"
+Inst111Quest5_Level = "35"
+Inst111Quest5_Attain = "35"
+
 
 Inst111Quest1_HORDE_QuestID = "30098"
+Inst111Quest1_HORDE_Level = "35"
+Inst111Quest1_HORDE_Attain = "35"
+Inst111Quest1PreQuest_HORDE = Inst111Quest1PreQuest
+
 Inst111Quest2_HORDE_QuestID = "30099"
+Inst111Quest2_HORDE_Level = "35"
+Inst111Quest2_HORDE_Attain = "35"
+Inst111Quest2FQuest_HORDE = Inst111Quest2FQuest
+
 Inst111Quest3_HORDE_QuestID = "30100"
+Inst111Quest3_HORDE_Level = "35"
+Inst111Quest3_HORDE_Attain = "35"
+Inst111Quest3FQuest_HORDE = Inst111Quest3FQuest
+
 Inst111Quest4_HORDE_QuestID = "30101"
+Inst111Quest4_HORDE_Level = "35"
+Inst111Quest4_HORDE_Attain = "35"
+Inst111Quest4FQuest_HORDE = Inst111Quest4FQuest
+
 Inst111Quest5_HORDE_QuestID = "30104"
+Inst111Quest5_HORDE_Level = "35"
+Inst111Quest5_HORDE_Attain = "35"
 
 
 
 --------------- INST112 - Hour of Twilight ---------------
 
 Inst112Quest1_QuestID = "30102"
+Inst112Quest1_Level = "35"
+Inst112Quest1_Attain = "35"
+
 Inst112Quest2_QuestID = "30103"
+Inst112Quest2_Level = "35"
+Inst112Quest2_Attain = "35"
+Inst112Quest2FQuest = "true"
+
 Inst112Quest3_QuestID = "30105"
+Inst112Quest3_Level = "35"
+Inst112Quest3_Attain = "35"
+
 
 Inst112Quest1_HORDE_QuestID = "30102"
+Inst112Quest1_HORDE_Level = "35"
+Inst112Quest1_HORDE_Attain = "35"
+
 Inst112Quest2_HORDE_QuestID = "30103"
+Inst112Quest2_HORDE_Level = "35"
+Inst112Quest2_HORDE_Attain = "35"
+Inst112Quest2FQuest_HORDE = Inst112Quest2FQuest
+
 Inst112Quest3_HORDE_QuestID = "30105"
+Inst112Quest3_HORDE_Level = "35"
+Inst112Quest3_HORDE_Attain = "35"
 
 
 
 --------------- INST113 - Dragon Soul ---------------
 
 Inst113Quest1_QuestID = "29801"
+Inst113Quest1_Level = "35"
+Inst113Quest1_Attain = "35"
+
 Inst113Quest2_QuestID = "30107"
+Inst113Quest2_Level = "35"
+Inst113Quest2_Attain = "35"
+Inst113Quest2FQuest = "true"
+
 Inst113Quest3_QuestID = "30116"
+Inst113Quest3_Level = "35"
+Inst113Quest3_Attain = "35"
+Inst113Quest3FQuest = "true"
+
 Inst113Quest4_QuestID = "30118"
+Inst113Quest4_Level = "35"
+Inst113Quest4_Attain = "35"
+Inst113Quest4FQuest = "true"
+
 
 Inst113Quest1_HORDE_QuestID = "29801"
+Inst113Quest1_HORDE_Level = "35"
+Inst113Quest1_HORDE_Attain = "35"
+
 Inst113Quest2_HORDE_QuestID = "30107"
+Inst113Quest2_HORDE_Level = "35"
+Inst113Quest2_HORDE_Attain = "35"
+Inst113Quest2FQuest_HORDE = Inst113Quest2FQuest
+
 Inst113Quest3_HORDE_QuestID = "30116"
+Inst113Quest3_HORDE_Level = "35"
+Inst113Quest3_HORDE_Attain = "35"
+Inst113Quest3FQuest_HORDE = Inst113Quest3FQuest
+
 Inst113Quest4_HORDE_QuestID = "30118"
+Inst113Quest4_HORDE_Level = "35"
+Inst113Quest4_HORDE_Attain = "35"
+Inst113Quest4FQuest_HORDE = Inst113Quest4FQuest
 
 
 
 --------------- INST114 - Mogu'Shan Palace ---------------
 
 Inst114Quest1_QuestID = "31357"
+Inst114Quest1_Level = ""
+Inst114Quest1_Attain = ""
+
 Inst114Quest2_QuestID = "31360"
+Inst114Quest2_Level = ""
+Inst114Quest2_Attain = ""
+
 
 Inst114Quest1_HORDE_QuestID = "31357"
+Inst114Quest1_HORDE_Level = ""
+Inst114Quest1_HORDE_Attain = ""
+
 Inst114Quest2_HORDE_QuestID = "31360"
+Inst114Quest2_HORDE_Level = ""
+Inst114Quest2_HORDE_Attain = ""
 
 
 

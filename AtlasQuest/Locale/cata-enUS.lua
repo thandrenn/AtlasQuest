@@ -75,7 +75,6 @@ Inst95Quest1_Location = "Finkle Einhorn (Mount Hyjal - Circle of Cinders; "..YEL
 Inst95Quest1_Note = "The Mole Machine is nearby at "..YELLOW.."42.8, 28.9"..WHITE..". The quest turns in to Finkle Einhorn just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE.."."
 Inst95Quest1_Prequest = "None"
 Inst95Quest1_Folgequest = "To the Chamber of Incineration!"
-Inst95Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -85,7 +84,6 @@ Inst95Quest2_Location = "Finkle Einhorn (Blackrock Caverns; "..GREEN.."[1']"..WH
 Inst95Quest2_Note = "Rom'ogg Bonecrusher is the first boss, at "..YELLOW.."[1]"..WHITE.."."
 Inst95Quest2_Prequest = "This Can Only Mean One Thing..."
 Inst95Quest2_Folgequest = "None"
-Inst95Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -138,7 +136,6 @@ Inst95Quest1_HORDE_Location = Inst95Quest1_Location
 Inst95Quest1_HORDE_Note = Inst95Quest1_Note
 Inst95Quest1_HORDE_Prequest = Inst95Quest1_Prequest
 Inst95Quest1_HORDE_Folgequest = Inst95Quest1_Folgequest
-Inst95Quest1PreQuest_HORDE = Inst95Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -148,7 +145,6 @@ Inst95Quest2_HORDE_Location = Inst95Quest2_Location
 Inst95Quest2_HORDE_Note = Inst95Quest2_Note
 Inst95Quest2_HORDE_Prequest = Inst95Quest2_Prequest
 Inst95Quest2_HORDE_Folgequest = Inst95Quest2_Folgequest
-Inst95Quest2FQuest_HORDE = Inst95Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -283,7 +279,6 @@ Inst97Quest3_Location = "Earthwarden Yrsa (The Stonecore; "..BLUE.."Entrance"..W
 Inst97Quest3_Note = "High Priestess Azil is at "..YELLOW.."[4]"..WHITE.." and the Devout Followers are on the way to her. The quest turns in back at Earthwarden Yrsa at the instance entrance."
 Inst97Quest3_Prequest = "Twilight Documents"
 Inst97Quest3_Folgequest = "None"
-Inst97Quest3FQuest = "true"
 --
 Inst97Quest3name1 = "Band of the One Hundred and One"
 Inst97Quest3name2 = "High Priestess' Signet"
@@ -308,7 +303,6 @@ Inst97Quest5_Location = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")"
 Inst97Quest5_Note = "LEGION Enchanting quest.  Normal or Heroic difficulty.  The Skystone Rod drops from the final boss in the dungeon.  The Radiant Zephyrite drops from the second to last boss in The Stonecore (Cataclysm - Deepholm).  Ancient Arkhana drops from the last boss in Scholomance (Classic - Western Plaguelands)."
 Inst97Quest5_Prequest = "On Azure Wings"
 Inst97Quest5_Folgequest = "Down to the Core"
-Inst97Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -337,7 +331,6 @@ Inst97Quest3_HORDE_Location = Inst97Quest3_Location
 Inst97Quest3_HORDE_Note = Inst97Quest3_Note
 Inst97Quest3_HORDE_Prequest = Inst97Quest3_Prequest
 Inst97Quest3_HORDE_Folgequest = Inst97Quest3_Folgequest
-Inst97Quest3FQuest_HORDE = Inst97Quest3FQuest
 --
 Inst97Quest3name1_HORDE = Inst97Quest3name1
 Inst97Quest3name2_HORDE = Inst97Quest3name2
@@ -362,7 +355,6 @@ Inst97Quest5_HORDE_Location = Inst97Quest5_Location
 Inst97Quest5_HORDE_Note = Inst97Quest5_Note
 Inst97Quest5_HORDE_Prequest = Inst97Quest5_Prequest
 Inst97Quest5_HORDE_Folgequest = Inst97Quest5_Folgequest
-Inst97Quest5PreQuest_HORDE = Inst97Quest5PreQuest
 -- No Rewards for this quest
 
 
@@ -380,7 +372,6 @@ Inst98Quest1_Location = "General Ammantep (Uldum; "..YELLOW.."45.2, 37.8"..WHITE
 Inst98Quest1_Note = "This is an optional 'breadcrumb' quest to send you to the Vortex Pinnacle. \n\nItesh is just inside the instance."
 Inst98Quest1_Prequest = "The Scepter of Orsis and Under the Choking Sands"
 Inst98Quest1_Folgequest = "Vengeance for Orsis"
-Inst98Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -390,7 +381,6 @@ Inst98Quest2_Location = "Itesh (Vortex Pinnacle; "..BLUE.."Entrance"..WHITE..")"
 Inst98Quest2_Note = "Asaad is the final boss, at "..YELLOW.."[3]"..WHITE..". The prequest is optional. Quest turns in back at the entrance."
 Inst98Quest2_Prequest = "The Vortex Pinnacle"
 Inst98Quest2_Folgequest = "None"
-Inst98Quest2FQuest = "true"
 --
 Inst98Quest2name1 = "Token of Gratitude"
 Inst98Quest2name2 = "Greaves of Orsis"
@@ -416,7 +406,6 @@ Inst98Quest1_HORDE_Location = Inst98Quest1_Location
 Inst98Quest1_HORDE_Note = Inst98Quest1_Note
 Inst98Quest1_HORDE_Prequest = Inst98Quest1_Prequest
 Inst98Quest1_HORDE_Folgequest = Inst98Quest1_Folgequest
-Inst98Quest1PreQuest_HORDE = Inst98Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -426,7 +415,6 @@ Inst98Quest2_HORDE_Location = Inst98Quest2_Location
 Inst98Quest2_HORDE_Note = Inst98Quest2_Note
 Inst98Quest2_HORDE_Prequest = Inst98Quest2_Prequest
 Inst98Quest2_HORDE_Folgequest = Inst98Quest2_Folgequest
-Inst98Quest2FQuest_HORDE = Inst98Quest2FQuest
 --
 Inst98Quest2name1_HORDE = Inst98Quest2name1
 Inst98Quest2name2_HORDE = Inst98Quest2name2
@@ -536,7 +524,6 @@ Inst100Quest1_Location = "Brann Bronzebeard (Uldum - Cradle of the Ancients; "..
 Inst100Quest1_Note = "Brann Bronzebeard is at "..GREEN.."[2']"..WHITE..". The prequest line is part of a series of other quests you'll do while in Uldum."
 Inst100Quest1_Prequest = "Sullah's Gift -> The Coffer of Promise"
 Inst100Quest1_Folgequest = "Penetrating Their Defenses"
-Inst100PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -546,7 +533,6 @@ Inst100Quest2_Location = "Brann Bronzebeard (Halls of Origination; "..GREEN.."[2
 Inst100Quest2_Note = "The Titan Control Room is accessible after defeating Anraphet at "..YELLOW.."[3]"..WHITE.."."
 Inst100Quest2_Prequest = "The Heart of the Matter"
 Inst100Quest2_Folgequest = "Doing it the Hard Way"
-Inst100Quest2FQuest = "true"
 --
 Inst100Quest2name1 = "Repository Gauntlets"
 Inst100Quest2name2 = "Offline Greaves"
@@ -559,7 +545,6 @@ Inst100Quest3_Location = "Brann Bronzebeard (Halls of Origination; "..GREEN.."[2
 Inst100Quest3_Note = "Isiset is at "..YELLOW.."[4]"..WHITE..", Ammunae is at "..YELLOW.."[5]"..WHITE..", Setesh is at "..YELLOW.."[6]"..WHITE..", and Rajh is at "..YELLOW.."[7]"..WHITE.."."
 Inst100Quest3_Prequest = "Penetrating Their Defenses"
 Inst100Quest3_Folgequest = "None"
-Inst100Quest3FQuest = "true"
 --
 Inst100Quest3name1 = "True Archaeologist's Bracers"
 Inst100Quest3name2 = "Helm of Reorigination"
@@ -573,7 +558,6 @@ Inst100Quest1_HORDE_Location = Inst100Quest1_Location
 Inst100Quest1_HORDE_Note = Inst100Quest1_Note
 Inst100Quest1_HORDE_Prequest = Inst100Quest1_Prequest
 Inst100Quest1_HORDE_Folgequest = Inst100Quest1_Folgequest
-Inst100Quest1PreQuest_HORDE = Inst100Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -583,7 +567,6 @@ Inst100Quest2_HORDE_Location = Inst100Quest2_Location
 Inst100Quest2_HORDE_Note = Inst100Quest2_Note
 Inst100Quest2_HORDE_Prequest = Inst100Quest2_Prequest
 Inst100Quest2_HORDE_Folgequest = Inst100Quest2_Folgequest
-Inst100Quest2FQuest_HORDE = Inst100Quest2FQuest
 --
 Inst100Quest2name1_HORDE = Inst100Quest2name1
 Inst100Quest2name2_HORDE = Inst100Quest2name2
@@ -596,7 +579,6 @@ Inst100Quest3_HORDE_Location = Inst100Quest3_Location
 Inst100Quest3_HORDE_Note = Inst100Quest3_Note
 Inst100Quest3_HORDE_Prequest = Inst100Quest3_Prequest
 Inst100Quest3_HORDE_Folgequest = Inst100Quest3_Folgequest
-Inst100Quest3FQuest_HORDE = Inst100Quest3FQuest
 --
 Inst100Quest3name1_HORDE = Inst100Quest3name1
 Inst100Quest3name2_HORDE = Inst100Quest3name2
@@ -617,7 +599,6 @@ Inst101Quest1_Location = "King Phaoris (Uldum - Ramakahen; "..YELLOW.."54.9, 32.
 Inst101Quest1_Note = "Captain Hadan is just inside the instance. This quest becomes available after completing a series of quests from Ramakahen in Uldum. It is not required to obtain the other two quests."
 Inst101Quest1_Prequest = "Yes"
 Inst101Quest1_Folgequest = "None"
-Inst101Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -652,7 +633,6 @@ Inst101Quest1_HORDE_Location = Inst101Quest1_Location
 Inst101Quest1_HORDE_Note = Inst101Quest1_Note
 Inst101Quest1_HORDE_Prequest = Inst101Quest1_Prequest
 Inst101Quest1_HORDE_Folgequest = Inst101Quest1_Folgequest
-Inst101Quest1PreQuest_HORDE = Inst101Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -662,8 +642,6 @@ Inst101Quest2_HORDE_Location = Inst101Quest2_Location
 Inst101Quest2_HORDE_Note = Inst101Quest2_Note
 Inst101Quest2_HORDE_Prequest = Inst101Quest2_Prequest
 Inst101Quest2_HORDE_Folgequest = Inst101Quest2_Folgequest
-Inst101Quest2PreQuest_HORDE = Inst101Quest2PreQuest
-Inst101Quest2FQuest_HORDE = Inst101Quest2FQuest
 --
 Inst101Quest2name1_HORDE = Inst101Quest2name1
 Inst101Quest2name2_HORDE = Inst101Quest2name2
@@ -676,8 +654,6 @@ Inst101Quest3_HORDE_Location = Inst101Quest3_Location
 Inst101Quest3_HORDE_Note = Inst101Quest3_Note
 Inst101Quest3_HORDE_Prequest = Inst101Quest3_Prequest
 Inst101Quest3_HORDE_Folgequest = Inst101Quest3_Folgequest
-Inst101Quest3PreQuest_HORDE = Inst101Quest3PreQuest
-Inst101Quest3FQuest_HORDE = Inst101Quest3FQuest
 --
 Inst101Quest3name1_HORDE = Inst101Quest3name1
 Inst101Quest3name2_HORDE = Inst101Quest3name2
@@ -722,7 +698,6 @@ Inst105Quest1_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst105Quest1_Note = "LEGION Skinning quest.  Icehowl is the first boss in the Trial of the Crusader raid.  To reach Occu'thar, enter Baradin Hold and make the first left turn.  Horridon is the second boss in Throne of Thunder."
 Inst105Quest1_Prequest = "Halls of Valor: The Hide of Fenryr"
 Inst105Quest1_Folgequest = "Ske'rit's Leather Handbook"
-Inst105Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -733,7 +708,6 @@ Inst105Quest1_HORDE_Location = Inst105Quest1_Location
 Inst105Quest1_HORDE_Note = Inst105Quest1_Note
 Inst105Quest1_HORDE_Prequest = Inst105Quest1_Prequest
 Inst105Quest1_HORDE_Folgequest = Inst105Quest1_Folgequest
-Inst105Quest1PreQuest_HORDE = Inst105Quest1PreQuest
 -- No Rewards for this quest
 
 
@@ -862,7 +836,6 @@ Inst108Quest5_Location = "Overseer Blingbang (Zul'Gurub; "..BLUE.."Entrance"..WH
 Inst108Quest5_Note = "This quest can either be picked up inside the instance or at the end of a questline that starts from the Hero's Call Boards in Stormwind City and Orgrimmar.  The artifact is at "..YELLOW.."[17]"..WHITE.."."
 Inst108Quest5_Prequest = "The Zandalar Representative -> Making Contact"
 Inst108Quest5_Folgequest = "A Shiny Reward"
-Inst108Quest5PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -918,7 +891,6 @@ Inst108Quest5_HORDE_Location = Inst108Quest5_Location
 Inst108Quest5_HORDE_Note = Inst108Quest5_Note
 Inst108Quest5_HORDE_Prequest = "The Zandalar Menace -> Making Contact"
 Inst108Quest5_HORDE_Folgequest = Inst108Quest5_Folgequest
-Inst108Quest5PreQuest_HORDE = Inst108Quest5PreQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -954,7 +926,6 @@ Inst109Quest2_Location = "Anachronos (Tanaris - Caverns of Time; "..YELLOW.."58.
 Inst109Quest2_Note = "The Eternal Embers drop from raid bosses in Firelands.  Unlike some other boss drops, they cannot be traded to other raid members.\n\nThe Sands of Time can be purchased from Yasmin (Uldum - Oasis of Vir'sar; "..YELLOW.."26.6, 7.2"..WHITE..")"
 Inst109Quest2_Prequest = "Your Time Has Come -> A Wrinkle in Time"
 Inst109Quest2_Folgequest = "On a Wing and a Prayer -> Delegation"
-Inst109Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -964,7 +935,6 @@ Inst109Quest3_Location = "Kalecgos (Mount Hyjal - Nordrassil; "..YELLOW.."62.2, 
 Inst109Quest3_Note = "To obtain the Branch of Nordrassil you obtain a number of items during several boss fights and then summon the mini-boss Volcanus.  The full details are too lengthy to include here, so I suggest reading a full guide at either: \n\n http://www.wowhead.com \n http://www.wowpedia.org"
 Inst109Quest3_Prequest = "All-Seeing Eye -> Actionable Intelligence"
 Inst109Quest3_Folgequest = "Nordrassil's Bough -> Time Grows Short"
-Inst109Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -974,7 +944,6 @@ Inst109Quest4_Location = "Kalecgos (Borean Tundra - The Coldarra; "..YELLOW.."31
 Inst109Quest4_Note = "The Seething Cinders drop from raid bosses in the Firelands."
 Inst109Quest4_Prequest = "Nordrassil's Bough -> At One"
 Inst109Quest4_Folgequest = "Alignment -> Heart of Flame"
-Inst109Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -984,7 +953,6 @@ Inst109Quest5_Location = "Kalecgos (Borean Tundra - The Coldarra; "..YELLOW.."23
 Inst109Quest5_Note = "Use your Runestaff of Nordrassil to extract the Smouldering Essences from the corpses of Firelands raid bosses.  Ragnaros cannot be siphoned.\nTo obtain the Heart of Flame, defeat Ragnaros after collecting the 250 Smouldering Essences without dying.  Leap into the pool of lava and collect it from the center.  If you die, you'll have to defeat Ragnaros again to try once more."
 Inst109Quest5_Prequest = "Time Grows Short -> Alignment"
 Inst109Quest5_Folgequest = "The Stuff of Legends"
-Inst109Quest5FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -1004,7 +972,6 @@ Inst109Quest2_HORDE_Location = Inst109Quest2_Location
 Inst109Quest2_HORDE_Note = Inst109Quest2_Note
 Inst109Quest2_HORDE_Prequest = Inst109Quest2_Prequest
 Inst109Quest2_HORDE_Folgequest = Inst109Quest2_Folgequest
-Inst109Quest2FQuest_HORDE = Inst109Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -1014,7 +981,6 @@ Inst109Quest3_HORDE_Location = Inst109Quest3_Location
 Inst109Quest3_HORDE_Note = Inst109Quest3_Note
 Inst109Quest3_HORDE_Prequest = Inst109Quest3_Prequest
 Inst109Quest3_HORDE_Folgequest = Inst109Quest3_Folgequest
-Inst109Quest3FQuest_HORDE = Inst109Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -1024,7 +990,6 @@ Inst109Quest4_HORDE_Location = Inst109Quest4_Location
 Inst109Quest4_HORDE_Note = Inst109Quest4_Note
 Inst109Quest4_HORDE_Prequest = Inst109Quest4_Prequest
 Inst109Quest4_HORDE_Folgequest = Inst109Quest4_Folgequest
-Inst109Quest4FQuest_HORDE = Inst109Quest4FQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -1034,7 +999,6 @@ Inst109Quest5_HORDE_Location = Inst109Quest5_Location
 Inst109Quest5_HORDE_Note = Inst109Quest5_Note
 Inst109Quest5_HORDE_Prequest = Inst109Quest5_Prequest
 Inst109Quest5_HORDE_Folgequest = Inst109Quest5_Folgequest
-Inst109Quest5FQuest_HORDE = Inst109Quest5FQuest
 -- No Rewards for this quest
 
 
@@ -1061,7 +1025,6 @@ Inst110Quest2_Location = "Nozdormu (End Time; "..BLUE.."Entrance"..WHITE..")"
 Inst110Quest2_Note = "Murozond is the final boss you encounter."
 Inst110Quest2_Prequest = "The End Time"
 Inst110Quest2_Folgequest = "The Well of Eternity"
-Inst110Quest2FQuest = "true"
 --
 Inst110Quest2name1 = "Bronze Blaster"
 Inst110Quest2name2 = "Boots of the Forked Road"
@@ -1097,7 +1060,6 @@ Inst110Quest2_HORDE_Location = Inst110Quest2_Location
 Inst110Quest2_HORDE_Note = Inst110Quest2_Note
 Inst110Quest2_HORDE_Prequest = Inst110Quest2_Prequest
 Inst110Quest2_HORDE_Folgequest = Inst110Quest2_Folgequest
-Inst110Quest2FQuest_HORDE = Inst110Quest2FQuest
 --
 Inst110Quest2name1_HORDE = Inst110Quest2name1
 Inst110Quest2name2_HORDE = Inst110Quest2name2
@@ -1131,7 +1093,6 @@ Inst111Quest1_Location = "Nozdormu (End Time; "..BLUE.."[F]"..WHITE..")"
 Inst111Quest1_Note = "Nozdormu is just inside the Well of Eternity."
 Inst111Quest1_Prequest = "Murozond"
 Inst111Quest1_Folgequest = "In Unending Numbers"
-Inst111Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -1141,7 +1102,6 @@ Inst111Quest2_Location = "Nozdormu (Well of Eternity; "..BLUE.."Entrance"..WHITE
 Inst111Quest2_Note = "The three portals can be found in the large area after the entrance with the masses of demons running through.  Each portal is on a different side of the room.  After disabling them, Peroth'arn will appear at "..YELLOW.."[1]"..WHITE.."."
 Inst111Quest2_Prequest = "The Well of Eternity"
 Inst111Quest2_Folgequest = "The Vainglorious"
-Inst111Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -1151,7 +1111,6 @@ Inst111Quest3_Location = "Nozdormu (Well of Eternity; "..BLUE.."Entrance"..WHITE
 Inst111Quest3_Note = "Queen Azshara is at "..YELLOW.."[2]"..WHITE.."."
 Inst111Quest3_Prequest = "In Unending Numbers"
 Inst111Quest3_Folgequest = "The Path to the Dragon Soul"
-Inst111Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -1161,7 +1120,6 @@ Inst111Quest4_Location = "Nozdormu (Well of Eternity; "..BLUE.."Entrance"..WHITE
 Inst111Quest4_Note = "Mannoroth is at "..YELLOW.."[3]"..WHITE.."."
 Inst111Quest4_Prequest = "The Vainglorious"
 Inst111Quest4_Folgequest = "None"
-Inst111Quest4FQuest = "true"
 --
 Inst111Quest4name1 = "Ironfeather Longbow"
 Inst111Quest4name2 = "Chain of the Demon Hunter"
@@ -1189,7 +1147,6 @@ Inst111Quest1_HORDE_Location = Inst111Quest1_Location
 Inst111Quest1_HORDE_Note = Inst111Quest1_Note
 Inst111Quest1_HORDE_Prequest = Inst111Quest1_Prequest
 Inst111Quest1_HORDE_Folgequest = Inst111Quest1_Folgequest
-Inst111Quest1PreQuest_HORDE = Inst111Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -1199,7 +1156,6 @@ Inst111Quest2_HORDE_Location = Inst111Quest2_Location
 Inst111Quest2_HORDE_Note = Inst111Quest2_Note
 Inst111Quest2_HORDE_Prequest = Inst111Quest2_Prequest
 Inst111Quest2_HORDE_Folgequest = Inst111Quest2_Folgequest
-Inst111Quest2FQuest_HORDE = Inst111Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -1209,7 +1165,6 @@ Inst111Quest3_HORDE_Location = Inst111Quest3_Location
 Inst111Quest3_HORDE_Note = Inst111Quest3_Note
 Inst111Quest3_HORDE_Prequest = Inst111Quest3_Prequest
 Inst111Quest3_HORDE_Folgequest = Inst111Quest3_Folgequest
-Inst111Quest3FQuest_HORDE = Inst111Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -1219,7 +1174,6 @@ Inst111Quest4_HORDE_Location = Inst111Quest4_Location
 Inst111Quest4_HORDE_Note = Inst111Quest4_Note
 Inst111Quest4_HORDE_Prequest = Inst111Quest4_Prequest
 Inst111Quest4_HORDE_Folgequest = Inst111Quest4_Folgequest
-Inst111Quest4FQuest_HORDE = Inst111Quest4FQuest
 --
 Inst111Quest4name1_HORDE = Inst111Quest4name1
 Inst111Quest4name2_HORDE = Inst111Quest4name2
@@ -1263,7 +1217,6 @@ Inst112Quest2_Location = "Thrall (Hour of Twilight; "..BLUE.."Entrance"..WHITE..
 Inst112Quest2_Note = "Thrall stops at several points in the journey.  If you lose him, backtrack or go further ahead and you might find him waiting."
 Inst112Quest2_Prequest = "The Hour of Twilight"
 Inst112Quest2_Folgequest = "None"
-Inst112Quest2FQuest = "true"
 --
 Inst112Quest2name1 = "Safeguard Gloves"
 Inst112Quest2name2 = "Cinch of the World Shaman"
@@ -1298,7 +1251,6 @@ Inst112Quest2_HORDE_Location = Inst112Quest2_Location
 Inst112Quest2_HORDE_Note = Inst112Quest2_Note
 Inst112Quest2_HORDE_Prequest = Inst112Quest2_Prequest
 Inst112Quest2_HORDE_Folgequest = Inst112Quest2_Folgequest
-Inst112Quest2FQuest_HORDE = Inst112Quest2FQuest
 --
 Inst112Quest2name1_HORDE = Inst112Quest2name1
 Inst112Quest2name2_HORDE = Inst112Quest2name2
@@ -1340,7 +1292,6 @@ Inst113Quest2_Location = "Wrathion (Hillsbrad Foothills - Ravenholdt Manor; "..Y
 Inst113Quest2_Note = "Elementium Gem Clusters do not drop on Raid Finder difficulty.  You get 1 on 10-man and 2 or 3 on 25-man.  The Elementium Gem Clusters contain 3 to 9 Shadowy Gems each.\n\nAfter you've obtained your 333 Shadowy Gems, do not open any more Elementium Gem Clusters.  Still collect them however, as they will count towards another part of the questline."
 Inst113Quest2_Prequest = "Proving Your Worth -> The Deed is Done"
 Inst113Quest2_Folgequest = "Our Man in Karazhan -> Sharpening Your Fangs"
-Inst113Quest2FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -1350,7 +1301,6 @@ Inst113Quest3_Location = "Wrathion (Hillsbrad Foothills - Ravenholdt Manor; "..Y
 Inst113Quest3_Note = "Elementium Gem Clusters do not drop on Raid Finder difficulty.  You get 1 on 10-man and 2 or 3 on 25-man.\n\nIf you have any leftover unopened Clusters from the prior quest, they will count towards this quest."
 Inst113Quest3_Prequest = "Cluster Clutch -> Victory in the Depths"
 Inst113Quest3_Folgequest = "Patricide"
-Inst113Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -1360,7 +1310,6 @@ Inst113Quest4_Location = "Wrathion (Hillsbrad Foothills - Ravenholdt Manor; "..Y
 Inst113Quest4_Note = "This quest cannot be completed on Raid Finder difficulty."
 Inst113Quest4_Prequest = "Victory in the Depths"
 Inst113Quest4_Folgequest = "None"
-Inst113Quest4FQuest = "true"
 --
 Inst113Quest4name1 = "Golad, Twilight of Aspects"
 Inst113Quest4name2 = "Tiriosh, Nightmare of Ages"
@@ -1382,7 +1331,6 @@ Inst113Quest2_HORDE_Location = Inst113Quest2_Location
 Inst113Quest2_HORDE_Note = Inst113Quest2_Note
 Inst113Quest2_HORDE_Prequest = Inst113Quest2_Prequest
 Inst113Quest2_HORDE_Folgequest = Inst113Quest2_Folgequest
-Inst113Quest2FQuest_HORDE = Inst113Quest2FQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -1392,7 +1340,6 @@ Inst113Quest3_HORDE_Location = Inst113Quest3_Location
 Inst113Quest3_HORDE_Note = Inst113Quest3_Note
 Inst113Quest3_HORDE_Prequest = Inst113Quest3_Prequest
 Inst113Quest3_HORDE_Folgequest = Inst113Quest3_Folgequest
-Inst113Quest3FQuest_HORDE = Inst113Quest3FQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -1402,7 +1349,6 @@ Inst113Quest4_HORDE_Location = Inst113Quest4_Location
 Inst113Quest4_HORDE_Note = Inst113Quest4_Note
 Inst113Quest4_HORDE_Prequest = Inst113Quest4_Prequest
 Inst113Quest4_HORDE_Folgequest = Inst113Quest4_Folgequest
-Inst113Quest4FQuest_HORDE = Inst113Quest4FQuest
 --
 Inst113Quest4name1_HORDE = Inst113Quest4name1
 Inst113Quest4name2_HORDE = Inst113Quest4name2
