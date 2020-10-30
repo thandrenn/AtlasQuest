@@ -130,7 +130,6 @@ Inst115Quest1_Location = "Ban Bearheart (Kun-Lai Summit - Shado-Pan Monastery; "
 Inst115Quest1_Note = "Ban Bearheart is just inside the entrance of the instance."
 Inst115Quest1_Prequest = "Unbelievable!"
 Inst115Quest1_Folgequest = "Lord of the Shado-Pan"
-Inst115Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -140,7 +139,6 @@ Inst115Quest2_Location = "Ban Bearheart (Shado-Pan Monastery; "..BLUE.."Entrance
 Inst115Quest2_Note = "Taran Zhu is at "..YELLOW.."[4]"..WHITE.."."
 Inst115Quest2_Prequest = "Into the Monastery (optional)"
 Inst115Quest2_Folgequest = "None"
-Inst115Quest2FQuest = "true"
 --
 -- Reward varies for each class
 
@@ -162,7 +160,6 @@ Inst115Quest1_HORDE_Location = Inst115Quest1_Location
 Inst115Quest1_HORDE_Note = Inst115Quest1_Note
 Inst115Quest1_HORDE_Prequest = Inst115Quest1_Prequest
 Inst115Quest1_HORDE_Folgequest = Inst115Quest1_Folgequest
-Inst115Quest1PreQuest_HORDE = Inst115Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -172,7 +169,6 @@ Inst115Quest2_HORDE_Location = Inst115Quest2_Location
 Inst115Quest2_HORDE_Note = Inst115Quest2_Note
 Inst115Quest2_HORDE_Prequest = Inst115Quest2_Prequest
 Inst115Quest2_HORDE_Folgequest = Inst115Quest2_Folgequest
-Inst115Quest2FQuest_HORDE = Inst115Quest2FQuest
 --
 -- Reward varies for each class
 
@@ -201,7 +197,6 @@ Inst116Quest1_Location = "Chen Stormstout (Valley of the Four Winds - Stormstout
 Inst116Quest1_Note = "Chen Stormstout is just inside the entrance of the instance."
 Inst116Quest1_Prequest = "Clear the Way -> Cleaning House"
 Inst116Quest1_Folgequest = "Trouble Brewing"
-Inst116Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -211,7 +206,6 @@ Inst116Quest2_Location = "Chen Stormstout (Stormstout Brewery; "..BLUE.."Entranc
 Inst116Quest2_Note = "Yan-Zhu the Uncasked is the final boss, at "..YELLOW.."[3]"..WHITE.."."
 Inst116Quest2_Prequest = "Into the Brewery (optional)"
 Inst116Quest2_Folgequest = "None"
-Inst116Quest2FQuest = "true"
 --
 -- Reward varies for each class
 
@@ -232,7 +226,6 @@ Inst116Quest4_Location = "Sungshin Ironpaw (Valley of the Four Winds - Halfhill;
 Inst116Quest4_Note = "This quest can be completed in either Normal or Heroic mode."
 Inst116Quest4_Prequest = "Catch and Carry"
 Inst116Quest4_Folgequest = "These Aren't Your Fatty Goatsteaks"
-Inst116Quest4PreQuest = "true"
 --
 Inst116Quest4name1 = "Deluxe Noodle Cart Kit"
 
@@ -244,7 +237,6 @@ Inst116Quest1_HORDE_Location = Inst116Quest1_Location
 Inst116Quest1_HORDE_Note = Inst116Quest1_Note
 Inst116Quest1_HORDE_Prequest = Inst116Quest1_Prequest
 Inst116Quest1_HORDE_Folgequest = Inst116Quest1_Folgequest
-Inst116Quest1PreQuest_HORDE = Inst116Quest1PreQuest
 -- No Rewards for this quest
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
@@ -254,7 +246,6 @@ Inst116Quest2_HORDE_Location = Inst116Quest2_Location
 Inst116Quest2_HORDE_Note = Inst116Quest2_Note
 Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
 Inst116Quest2_HORDE_Folgequest = Inst116Quest2_Folgequest
-Inst116Quest2FQuest_HORDE = Inst116Quest2FQuest
 --
 -- Reward varies for each class
 
@@ -275,7 +266,6 @@ Inst116Quest4_HORDE_Location = Inst116Quest4_Location
 Inst116Quest4_HORDE_Note = Inst116Quest4_Note
 Inst116Quest4_HORDE_Prequest = Inst116Quest4_Prequest
 Inst116Quest4_HORDE_Folgequest = Inst116Quest4_Folgequest
-Inst116Quest4PreQuest_HORDE = Inst116Quest4PreQuest
 --
 Inst116Quest4name1_HORDE = Inst116Quest4name1
 
@@ -313,7 +303,6 @@ Inst117Quest3_Location = "Lin Chao-Wei (Timeless Isle - Old Pi'ju; "..YELLOW.."4
 Inst117Quest3_Note = "The prequest starts from an Old Sign Fragment, found on the Timeless Isle in the debris of a collapsed bridge at "..YELLOW.."52.2, 46.2"..WHITE..".  You must have learned how to cook in each of the six Pandaren 'Ways' for this quest to be visible.\n\nThe Sha of Doubt is at "..YELLOW.."[4]"..WHITE..".  The scroll for the following quest is behind where the boss was."
 Inst117Quest3_Prequest = "Noodle Secrets Long Forgotten"
 Inst117Quest3_Folgequest = "Bad Feeling, Worse Result"
-Inst117Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -323,7 +312,6 @@ Inst117Quest4_Location = "Lin Family Scroll (Temple of the Jade Serpent; "..YELL
 Inst117Quest4_Note = "The Lin Family Scroll usable after defeating the Sha of Doubt.  Reading the Scroll a second time summons the Ghost of Lin Da-Gu."
 Inst117Quest4_Prequest = "The Lost Secret of the Secret Ingredient"
 Inst117Quest4_Folgequest = "Secrets Lost, Forever?"
-Inst117Quest4FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -354,7 +342,6 @@ Inst117Quest3_HORDE_Location = Inst117Quest3_Location
 Inst117Quest3_HORDE_Note = Inst117Quest3_Note
 Inst117Quest3_HORDE_Prequest = Inst117Quest3_Prequest
 Inst117Quest3_HORDE_Folgequest = Inst117Quest3_Folgequest
-Inst117Quest3PreQuest_HORDE = Inst117Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -364,7 +351,6 @@ Inst117Quest4_HORDE_Location = Inst117Quest4_Location
 Inst117Quest4_HORDE_Note = Inst117Quest4_Note
 Inst117Quest4_HORDE_Prequest = Inst117Quest4_Prequest
 Inst117Quest4_HORDE_Folgequest = Inst117Quest4_Folgequest
-Inst117Quest4FQuest_HORDE = Inst117Quest4FQuest
 -- No Rewards for this quest
 
 
@@ -492,7 +478,6 @@ Inst122Quest1_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst122Quest1_Note = "LEGION Skinning quest.  The Scale of Netherspite drops from Netherspite.  The Scale of Sartharion drops from the only boss in Obsidian Sanctum (Northrend - Dragonblight).  The Scales of Garalon drop from the third boss in Heart of Fear (Pandaria - Dread Wastes)."
 Inst122Quest1_Prequest = "Scales for Ske'rit"
 Inst122Quest1_Folgequest = "Eye of Azshara: The Scales of Serpentrix"
-Inst122Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -502,7 +487,6 @@ Inst122Quest1_HORDE_Location = Inst122Quest1_Location
 Inst122Quest1_HORDE_Note = Inst122Quest1_Note
 Inst122Quest1_HORDE_Prequest = Inst122Quest1_Prequest
 Inst122Quest1_HORDE_Folgequest = Inst122Quest1_Folgequest
-Inst122Quest1PreQuest_HORDE = Inst122Quest1PreQuest
 -- No Rewards for this quest
 
 
@@ -600,7 +584,6 @@ Inst138Quest9_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst138Quest9_Note = "LEGION Skinning quest.  Icehowl is the first boss in the Trial of the Crusader raid.  To reach Occu'thar, enter Baradin Hold and make the first left turn.  Horridon is the second boss in Throne of Thunder."
 Inst138Quest9_Prequest = "Halls of Valor: The Hide of Fenryr"
 Inst138Quest9_Folgequest = "Ske'rit's Leather Handbook"
-Inst138Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -691,7 +674,6 @@ Inst138Quest9_HORDE_Location = Inst138Quest9_Location
 Inst138Quest9_HORDE_Note = Inst138Quest9_Note
 Inst138Quest9_HORDE_Prequest = Inst138Quest9_Prequest
 Inst138Quest9_HORDE_Folgequest = Inst138Quest9_Folgequest
-Inst138Quest9PreQuest_HORDE = Inst138Quest9PreQuest
 -- No Rewards for this quest
 
 
@@ -718,7 +700,6 @@ Inst145Quest2_Location = "Lorewalker Cho (Siege of Orgrimmar; "..YELLOW.."[14]".
 Inst145Quest2_Note = "Meet the Lorewalker outside the instance at Vale of Eternal Blossoms - Mogu'shan Palace; "..YELLOW.."67.4, 45.6"..WHITE.."."
 Inst145Quest2_Prequest = "The Last Gasp of Y'Shaarj"
 Inst145Quest2_Folgequest = "None"
-Inst145Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -728,7 +709,6 @@ Inst145Quest3_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW
 Inst145Quest3_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
 Inst145Quest3_Prequest = "A Timeless Tour -> Empowering the Hourglass"
 Inst145Quest3_Folgequest = "Refining The Vision"
-Inst145Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -738,7 +718,6 @@ Inst145Quest4_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW
 Inst145Quest4_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
 Inst145Quest4_Prequest = "A Vision in Time"
 Inst145Quest4_Folgequest = "Seeking Fate"
-Inst145Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -748,7 +727,6 @@ Inst145Quest5_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW
 Inst145Quest5_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
 Inst145Quest5_Prequest = "Refining The Vision"
 Inst145Quest5_Folgequest = "Hidden Threads"
-Inst145Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -758,7 +736,6 @@ Inst145Quest6_Location = "Kairoz (Timeless Isle - The Celestial Court; "..YELLOW
 Inst145Quest6_Note = "Enter the raid instance while in a raid group and use the item anywhere to complete the quest.\nIf in a Looking For Raid (LFR) group, you must complete it before you'll be able to use the item."
 Inst145Quest6_Prequest = "Seeking Fate"
 Inst145Quest6_Folgequest = "Courting Destiny"
-Inst145Quest6FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -778,7 +755,6 @@ Inst145Quest2_HORDE_Location = Inst145Quest2_Location
 Inst145Quest2_HORDE_Note = Inst145Quest2_Note
 Inst145Quest2_HORDE_Prequest = Inst145Quest2_Prequest
 Inst145Quest2_HORDE_Folgequest = Inst145Quest2_Folgequest
-Inst145Quest2PreQuest_HORDE = Inst145Quest2PreQuest
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
@@ -788,7 +764,6 @@ Inst145Quest3_HORDE_Location = Inst145Quest3_Location
 Inst145Quest3_HORDE_Note = Inst145Quest3_Note
 Inst145Quest3_HORDE_Prequest = Inst145Quest3_Prequest
 Inst145Quest3_HORDE_Folgequest = Inst145Quest3_Folgequest
-Inst145Quest3PreQuest_HORDE = Inst145Quest3PreQuest
 -- No Rewards for this quest
 
 --Quest 4 Horde  (same as Quest 4 Alliance)
@@ -798,7 +773,6 @@ Inst145Quest4_HORDE_Location = Inst145Quest4_Location
 Inst145Quest4_HORDE_Note = Inst145Quest4_Note
 Inst145Quest4_HORDE_Prequest = Inst145Quest4_Prequest
 Inst145Quest4_HORDE_Folgequest = Inst145Quest4_Folgequest
-Inst145Quest4FQuest_HORDE = Inst145Quest4FQuest
 -- No Rewards for this quest
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
@@ -808,7 +782,6 @@ Inst145Quest5_HORDE_Location = Inst145Quest5_Location
 Inst145Quest5_HORDE_Note = Inst145Quest5_Note
 Inst145Quest5_HORDE_Prequest = Inst145Quest5_Prequest
 Inst145Quest5_HORDE_Folgequest = Inst145Quest5_Folgequest
-Inst145Quest5FQuest_HORDE = Inst145Quest5FQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)
@@ -818,7 +791,6 @@ Inst145Quest6_HORDE_Location = Inst145Quest6_Location
 Inst145Quest6_HORDE_Note = Inst145Quest6_Note
 Inst145Quest6_HORDE_Prequest = Inst145Quest6_Prequest
 Inst145Quest6_HORDE_Folgequest = Inst145Quest6_Folgequest
-Inst145Quest6FQuest_HORDE = Inst145Quest6FQuest
 -- No Rewards for this quest
 
 
@@ -1025,7 +997,6 @@ Inst136Quest1_Location = "Quest automatically starts (Krasarang Wilds - Lion's L
 Inst136Quest1_Note = "King Varian Wrynn is found just inside the scenario."
 Inst136Quest1_Prequest = "A King Among Men -> Lion's Landing"
 Inst136Quest1_Folgequest = "Nein"
-Inst136Quest1Prequest = "true"
 -- No Rewards for this quest
 
 
@@ -1043,7 +1014,6 @@ Inst137Quest1_HORDE_Location = "Quest automatically starts (Krasarang Wilds - Do
 Inst137Quest1_HORDE_Note = "Vol'jin is found just inside the scenario."
 Inst137Quest1_HORDE_Prequest = "Meet the Scout -> Domination Point"
 Inst137Quest1_HORDE_Folgequest = "Nein"
-Inst137Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 

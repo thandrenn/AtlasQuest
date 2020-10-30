@@ -141,7 +141,6 @@ Inst115Quest1_Location = "Ban Bärenherz (Kun-Lai-Gipfel - Shado-Pan-Kloster; ".
 Inst115Quest1_Note = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")"
 Inst115Quest1_Prequest = "Unglaublich! -> In den Schlund des Hasses"
 Inst115Quest1_Folgequest = "Der Herr der Shado-Pan"
-Inst115Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -151,7 +150,6 @@ Inst115Quest2_Location = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang".
 Inst115Quest2_Note = "Taran Zhu ist bei "..YELLOW.."[4]"..WHITE.."."
 Inst115Quest2_Prequest = "Unglaublich! -> Ins Kloster"
 Inst115Quest2_Folgequest = "Nein"
-Inst115Quest2PreQuest = "true"
 --
 -- Reward varies for each class
 
@@ -173,7 +171,6 @@ Inst115Quest1_HORDE_Location = Inst115Quest1_Location
 Inst115Quest1_HORDE_Note = Inst115Quest1_Note
 Inst115Quest1_HORDE_Prequest = Inst115Quest1_Prequest
 Inst115Quest1_HORDE_Folgequest = "Nein"
-Inst115Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -183,7 +180,6 @@ Inst115Quest2_HORDE_Location = Inst115Quest2_Location
 Inst115Quest2_HORDE_Note = Inst115Quest2_Note
 Inst115Quest2_HORDE_Prequest = Inst115Quest2_Prequest
 Inst115Quest2_HORDE_Folgequest = "Nein"
-Inst115Quest2PreQuest_HORDE = "true"
 --
 -- Reward varies for each class
 
@@ -212,7 +208,6 @@ Inst116Quest1_Location = "Chen Sturmbräu (Tal der vier Winde - Brauerei Sturmbr
 Inst116Quest1_Note = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst116Quest1_Prequest = "Weg frei -> Hausputz"
 Inst116Quest1_Folgequest = "Ärger aus dem Fass"
-Inst116Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -222,7 +217,6 @@ Inst116Quest2_Location = "Chen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingan
 Inst116Quest2_Note = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE.."."
 Inst116Quest2_Prequest = "In der Brauerei"
 Inst116Quest2_Folgequest = "Nein"
-Inst116Quest2PreQuest = "true"
 --
 -- Reward varies for each class
 
@@ -243,7 +237,6 @@ Inst116Quest4_Location = "Sungshin Eisentatz (Tal der Vier Winde - Halbhügel ".
 Inst116Quest4_Note = "Die Bierelementare befinden sich innerhalb der Instanz bei den Orten Kornkeller und Verkostungsraum."
 Inst116Quest4_Prequest = "Fangen und tragen"
 Inst116Quest4_Folgequest = "Das sind nicht Eure fettigen Ziegensteaks"
-Inst116Quest4FQuest = "true"
 --
 Inst116Quest4name1 = "Nudelwagenbausatz Deluxe"
 
@@ -255,7 +248,6 @@ Inst116Quest1_HORDE_Location = Inst116Quest1_Location
 Inst116Quest1_HORDE_Note = Inst116Quest1_Note
 Inst116Quest1_HORDE_Prequest = "Weg frei -> Hausputz"
 Inst116Quest1_HORDE_Folgequest = "Ärger aus dem Fass"
-Inst116Quest1FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 2 Horde
@@ -265,7 +257,6 @@ Inst116Quest2_HORDE_Location = Inst116Quest2_Location
 Inst116Quest2_HORDE_Note = Inst116Quest2_Note
 Inst116Quest2_HORDE_Prequest = Inst116Quest2_Prequest
 Inst116Quest2_HORDE_Folgequest = "Nein"
-Inst116Quest2PreQuest_HORDE = "true"
 --
 -- Reward varies for each class
 
@@ -286,7 +277,6 @@ Inst116Quest4_HORDE_Location = Inst116Quest4_Location
 Inst116Quest4_HORDE_Note = Inst116Quest4_Note
 Inst116Quest4_HORDE_Prequest = Inst116Quest4_Prequest
 Inst116Quest4_HORDE_Folgequest = Inst116Quest4_Folgequest
-Inst116Quest4FQuest_HORDE = "true"
 --
 Inst116Quest4name1_HORDE = Inst116Quest4name1
 
@@ -325,7 +315,6 @@ Inst117Quest3_Location = "Lin Chao-Wei (Zeitlose Insel - Alt Pi'Jiu "..YELLOW.."
 Inst117Quest3_Note = "Das Sha des Zweifels ist bei "..YELLOW.."[4]"..WHITE..".Direkt neben dem Sha des Zorns liegt die Schriftrolle die Du anklicken mußt.\n\nDie Vorquest startet auf der Zeitlosen Insel bei "..YELLOW.."52.0, 46.0"..WHITE.."."
 Inst117Quest3_Prequest = "Lang vergessene Nudelgeheimnisse"
 Inst117Quest3_Folgequest = "Schlechtes Gefühl, schlechteres Ergebnis"
-Inst117Quest3PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -335,7 +324,6 @@ Inst117Quest4_Location = "Lin's Familienschriftrolle (Tempel der Jadeschlange; "
 Inst117Quest4_Note = "Lin's Familienschriftrolle erscheint nachdem der Sha des Zweifels besiegt wurde.  Lest die Schriftrolle und besiegt den Geist von Lin Da-Gu."
 Inst117Quest4_Prequest = "Das verlorene Geheimnis der Geheimzutat"
 Inst117Quest4_Folgequest = "Auf ewig verlorene Geheimnisse?"
-Inst117Quest4FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -366,7 +354,6 @@ Inst117Quest3_HORDE_Location = Inst117Quest3_Location
 Inst117Quest3_HORDE_Note = Inst117Quest3_Note
 Inst117Quest3_HORDE_Prequest = Inst117Quest3_Prequest
 Inst117Quest3_HORDE_Folgequest = Inst117Quest3_Folgequest
-Inst117Quest3PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -376,7 +363,6 @@ Inst117Quest4_HORDE_Location = Inst117Quest4_Location
 Inst117Quest4_HORDE_Note = Inst117Quest4_Note
 Inst117Quest4_HORDE_Prequest = Inst117Quest4_Prequest
 Inst117Quest4_HORDE_Folgequest = Inst117Quest4_Folgequest
-Inst117Quest4PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -504,7 +490,6 @@ Inst122Quest1_Location = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")"
 Inst122Quest1_Note = "LEGION Kürschnereiquest.  Die Schuppe von Nethergroll droppt von Nethergroll.  Die Schuppe von Sartharion droppt vom einzigsten Boss im Obsidiansanktum (Nordend - Drachenöde).  Die Schuppe von Garalon droppt vom dritten Boss im Herz der Angst (Pandaria - Schreckensöde)."
 Inst122Quest1_Prequest = "Schuppen für Ske'rit"
 Inst122Quest1_Folgequest = "Das Auge Azsharas: Die Schuppen von Serpentrix"
-Inst122Quest1PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 1 Horde
@@ -514,7 +499,6 @@ Inst122Quest1_HORDE_Location = Inst122Quest1_Location
 Inst122Quest1_HORDE_Note = Inst122Quest1_Note
 Inst122Quest1_HORDE_Prequest = "Schuppen für Ske'rit"
 Inst122Quest1_HORDE_Folgequest = Inst122Quest1_Folgequest
-Inst122Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -612,7 +596,6 @@ Inst138Quest9_Location = Inst122Quest1_Location
 Inst138Quest9_Note = "LEGION Kürschnereiquest.  Eisheuler ist der erste Boss in der Prüfung des Kreufahrers.  Um zu Occu'thar zu gelangen, betrete die Baradinfeste und nehme die erste Linkskurve.  Horridon ist der zweite Boss im Thron des Donners."
 Inst138Quest9_Prequest = "Hallen der Tapferkeit: Fenryrs Balg"
 Inst138Quest9_Folgequest = "Ske'rits Lederleitfaden"
-Inst138Quest9PreQuest = "true"
 -- No Rewards for this quest
 
 
@@ -703,7 +686,6 @@ Inst138Quest9_HORDE_Location = Inst138Quest9_Location
 Inst138Quest9_HORDE_Note = Inst138Quest9_Note
 Inst138Quest9_HORDE_Prequest = Inst138Quest9_Prequest
 Inst138Quest9_HORDE_Folgequest = Inst138Quest9_Folgequest
-Inst138Quest9PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -721,7 +703,6 @@ Inst145Quest1_Location = "Lehrensucher Cho (Schlacht um Orgrimmar; "..YELLOW.."[
 Inst145Quest1_Note = "Lehrensucher Cho erscheint nachdem der Boss Garrosh besiegt wurde und startet dann die Quest "
 Inst145Quest1_Prequest = "Nein"
 Inst145Quest1_Folgequest = "Warum kämpfen wir?"
-Inst145Quest1FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
@@ -731,7 +712,6 @@ Inst145Quest2_Location = "Lehrensucher Cho (Tal der Ewigen Blüte - Mogu'shan Pa
 Inst145Quest2_Note = "Trefft Lehrensucher Cho im Tal der Ewigen Blüte und hört bzw seht euch seine Geschichte an."
 Inst145Quest2_Prequest = "Y'Shaarjs letzter Atemzug"
 Inst145Quest2_Folgequest = "Nein"
-Inst145Quest2PreQuest = "true"
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -741,7 +721,6 @@ Inst145Quest3_Location = "Kairoz (Zeitlose Insel - Der Hof der Erhabenen; "..YEL
 Inst145Quest3_Note = "Betrete den Schlachtzug während Du in einer Raidgruppe bist und benutze die Vision der Zeit um diese Quest abzuschließen.\nEs müssen keine Boss besiegt geschweige den alle besiegt worden sein um diese Quest zu beenden, außer im LFR da müssen alle besiegt sein!"
 Inst145Quest3_Prequest = "Eine zeitlose Entdeckungsreise -> Die Macht des Stundenglases"
 Inst145Quest3_Folgequest = "Die Vision genauer bestimmen"
-Inst145Quest3FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 4 Alliance
@@ -751,7 +730,6 @@ Inst145Quest4_Location = Inst145Quest3_Location
 Inst145Quest4_Note = Inst145Quest3_Note
 Inst145Quest4_Prequest = "Eine Vision in der Zeit"
 Inst145Quest4_Folgequest = "Suche nach Bestimmung"
-Inst145Quest4FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 5 Alliance
@@ -761,7 +739,6 @@ Inst145Quest5_Location = Inst145Quest3_Location
 Inst145Quest5_Note = Inst145Quest3_Note
 Inst145Quest5_Prequest = "Die Vision genauer bestimmen"
 Inst145Quest5_Folgequest = "Verborgene Stränge"
-Inst145Quest5FQuest = "true"
 -- No Rewards for this quest
 
 --Quest 6 Alliance
@@ -771,7 +748,6 @@ Inst145Quest6_Location = Inst145Quest3_Location
 Inst145Quest6_Note = Inst145Quest3_Note
 Inst145Quest6_Prequest = "Suche nach Bestimmung"
 Inst145Quest6_Folgequest = "Das Schicksal herausfordern"
-Inst145Quest6FQuest = "true"
 -- No Rewards for this quest
 
 
@@ -782,7 +758,6 @@ Inst145Quest1_HORDE_Location = Inst145Quest1_Location
 Inst145Quest1_HORDE_Note = Inst145Quest1_Note
 Inst145Quest1_HORDE_Prequest = "Nein"
 Inst145Quest1_HORDE_Folgequest = Inst145Quest1_Folgequest
-Inst145Quest1FQuest_HORDE = "true"-- No Rewards for this quest
 
 --Quest 2 Horde
 Inst145Quest2_HORDE = Inst145Quest2
@@ -791,7 +766,6 @@ Inst145Quest2_HORDE_Location = Inst145Quest2_Location
 Inst145Quest2_HORDE_Note = Inst145Quest2_Note
 Inst145Quest2_HORDE_Prequest = Inst145Quest2_Prequest
 Inst145Quest2_HORDE_Folgequest = "Nein"
-Inst145Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde
@@ -801,7 +775,6 @@ Inst145Quest3_HORDE_Location = Inst145Quest3_Location
 Inst145Quest3_HORDE_Note = Inst145Quest3_Note
 Inst145Quest3_HORDE_Prequest = Inst145Quest3_Prequest
 Inst145Quest3_HORDE_Folgequest = Inst145Quest3_Folgequest
-Inst145Quest3FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 4 Horde
@@ -811,7 +784,6 @@ Inst145Quest4_HORDE_Location = Inst145Quest4_Location
 Inst145Quest4_HORDE_Note = Inst145Quest4_Note
 Inst145Quest4_HORDE_Prequest = Inst145Quest4_Prequest
 Inst145Quest4_HORDE_Folgequest = Inst145Quest4_Folgequest
-Inst145Quest4FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 5 Horde
@@ -821,7 +793,6 @@ Inst145Quest5_HORDE_Location = Inst145Quest5_Location
 Inst145Quest5_HORDE_Note = Inst145Quest5_Note
 Inst145Quest5_HORDE_Prequest = Inst145Quest5_Prequest
 Inst145Quest5_HORDE_Folgequest = Inst145Quest5_Folgequest
-Inst145Quest5FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 6 Horde
@@ -831,7 +802,6 @@ Inst145Quest6_HORDE_Location = Inst145Quest6_Location
 Inst145Quest6_HORDE_Note = Inst145Quest6_Note
 Inst145Quest6_HORDE_Prequest = Inst145Quest6_Prequest
 Inst145Quest6_HORDE_Folgequest = Inst145Quest6_Folgequest
-Inst145Quest6FQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -1055,7 +1025,6 @@ Inst137Quest1_HORDE_Location = "Quest startet automatisch (Krasarangwildnis - He
 Inst137Quest1_HORDE_Note = "Nach dem Betreten des Szenarius gebe die Quest bei Vol'jin ab."
 Inst137Quest1_HORDE_Prequest = "Treffen mit der Späherin -> Herrschaftsfeste"
 Inst137Quest1_HORDE_Folgequest = "Nein"
-Inst137Quest1PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 

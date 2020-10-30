@@ -4166,81 +4166,180 @@ Inst113Quest4FQuest_HORDE = Inst113Quest4FQuest
 --------------- INST114 - Mogu'Shan Palace ---------------
 
 Inst114Quest1_QuestID = "31357"
-Inst114Quest1_Level = ""
-Inst114Quest1_Attain = ""
+Inst114Quest1_Level = "20"
+Inst114Quest1_Attain = "20"
 
 Inst114Quest2_QuestID = "31360"
-Inst114Quest2_Level = ""
-Inst114Quest2_Attain = ""
+Inst114Quest2_Level = "20"
+Inst114Quest2_Attain = "20"
 
 
 Inst114Quest1_HORDE_QuestID = "31357"
-Inst114Quest1_HORDE_Level = ""
-Inst114Quest1_HORDE_Attain = ""
+Inst114Quest1_HORDE_Level = "20"
+Inst114Quest1_HORDE_Attain = "20"
 
 Inst114Quest2_HORDE_QuestID = "31360"
-Inst114Quest2_HORDE_Level = ""
-Inst114Quest2_HORDE_Attain = ""
+Inst114Quest2_HORDE_Level = "20"
+Inst114Quest2_HORDE_Attain = "20"
 
 
 
 --------------- INST115 - Shado-Pan Monastery ---------------
 
 Inst115Quest1_QuestID = "31031"
+Inst115Quest1_Level = "20"
+Inst115Quest1_Attain = "20"
+Inst115Quest1PreQuest = "true"
+
 Inst115Quest2_QuestID = "30757"
+Inst115Quest2_Level = "20"
+Inst115Quest2_Attain = "20"
+Inst115Quest2FQuest = "true"
+
 Inst115Quest3_QuestID = "31342"
+Inst115Quest3_Level = "20"
+Inst115Quest3_Attain = "20"
+
 
 Inst115Quest1_HORDE_QuestID = "31031"
+Inst115Quest1_HORDE_Level = "20"
+Inst115Quest1_HORDE_Attain = "20"
+Inst115Quest1PreQuest_HORDE = Inst115Quest1PreQuest
+
 Inst115Quest2_HORDE_QuestID = "30757"
+Inst115Quest2_HORDE_Level = "20"
+Inst115Quest2_HORDE_Attain = "20"
+Inst115Quest2FQuest_HORDE = Inst115Quest2FQuest
+
 Inst115Quest3_HORDE_QuestID = "31342"
+Inst115Quest3_HORDE_Level = "20"
+Inst115Quest3_HORDE_Attain = "20"
 
 
 
 --------------- INST116 - Stormstout Brewery ---------------
 
 Inst116Quest1_QuestID = "30085"
+Inst116Quest1_Level = "15"
+Inst116Quest1_Attain = "15"
+Inst116Quest1PreQuest = "true"
+
 Inst116Quest2_QuestID = "31327"
+Inst116Quest2_Level = "15"
+Inst116Quest2_Attain = "15"
+Inst116Quest2FQuest = "true"
+
 Inst116Quest3_QuestID = "31324"
+Inst116Quest3_Level = "15"
+Inst116Quest3_Attain = "15"
+
 Inst116Quest4_QuestID = "33024"
+Inst116Quest4_Level = "35"
+Inst116Quest4_Attain = "35"
+Inst116Quest4PreQuest = "true"
+
 
 Inst116Quest1_HORDE_QuestID = "30085"
+Inst116Quest1_HORDE_Level = "15"
+Inst116Quest1_HORDE_Attain = "15"
+Inst116Quest1PreQuest_HORDE = Inst116Quest1PreQuest
+
 Inst116Quest2_HORDE_QuestID = "31327"
+Inst116Quest2_HORDE_Level = "15"
+Inst116Quest2_HORDE_Attain = "15"
+Inst116Quest2FQuest_HORDE = Inst116Quest2FQuest
+
 Inst116Quest3_HORDE_QuestID = "31324"
+Inst116Quest3_HORDE_Level = "15"
+Inst116Quest3_HORDE_Attain = "15"
+
 Inst116Quest4_HORDE_QuestID = "33024"
+Inst116Quest4_HORDE_Level = "35"
+Inst116Quest4_HORDE_Attain = "35"
+Inst116Quest4PreQuest_HORDE = Inst116Quest4PreQuest
 
 
 
 --------------- INST117 - Temple of the Jade Serpent ---------------
 
 Inst117Quest1_QuestID = "31355"
+Inst117Quest1_Level = "10"
+Inst117Quest1_Attain = "10"
+
 Inst117Quest2_QuestID = "31356"
+Inst117Quest2_Level = "10"
+Inst117Quest2_Attain = "10"
+
 Inst117Quest3_QuestID = "33020"
+Inst117Quest3_Level = "35"
+Inst117Quest3_Attain = "35"
+Inst117Quest3PreQuest = "true"
+
 Inst117Quest4_QuestID = "33107"
+Inst117Quest4_Level = "35"
+Inst117Quest4_Attain = "35"
+Inst117Quest4FQuest = "true"
+
 
 Inst117Quest1_HORDE_QuestID = "31355"
+Inst117Quest1_HORDE_Level = "10"
+Inst117Quest1_HORDE_Attain = "10"
+
 Inst117Quest2_HORDE_QuestID = "31356"
+Inst117Quest2_HORDE_Level = "10"
+Inst117Quest2_HORDE_Attain = "10"
+
 Inst117Quest3_HORDE_QuestID = "33020"
+Inst117Quest3_HORDE_Level = "35"
+Inst117Quest3_HORDE_Attain = "35"
+Inst117Quest3PreQuest_HORDE = Inst117Quest3PreQuest
+
 Inst117Quest4_HORDE_QuestID = "33107"
+Inst117Quest4_HORDE_Level = "35"
+Inst117Quest4_HORDE_Attain = "35"
+Inst117Quest4FQuest_HORDE = Inst117Quest4FQuest
 
 
 
 --------------- INST118 - Gate of the Setting Sun ---------------
 
 Inst118Quest1_QuestID = "31363"
+Inst118Quest1_Level = "25"
+Inst118Quest1_Attain = "25"
+
 Inst118Quest2_QuestID = "31364"
+Inst118Quest2_Level = "25"
+Inst118Quest2_Attain = "25"
+
 
 Inst118Quest1_HORDE_QuestID = "31363"
+Inst118Quest1_HORDE_Level = "25"
+Inst118Quest1_HORDE_Attain = "25"
+
 Inst118Quest2_HORDE_QuestID = "31364"
+Inst118Quest2_HORDE_Level = "25"
+Inst118Quest2_HORDE_Attain = "25"
 
 
 
 --------------- INST119 - Siege of Niuzao Temple ---------------
 
 Inst119Quest1_QuestID = "31365"
+Inst119Quest1_Level = "25"
+Inst119Quest1_Attain = "25"
+
 Inst119Quest2_QuestID = "31366"
+Inst119Quest2_Level = "25"
+Inst119Quest2_Attain = "25"
+
 
 Inst119Quest1_HORDE_QuestID = "31365"
+Inst119Quest1_HORDE_Level = "25"
+Inst119Quest1_HORDE_Attain = "25"
+
 Inst119Quest2_HORDE_QuestID = "31366"
+Inst119Quest2_HORDE_Level = "25"
+Inst119Quest2_HORDE_Attain = "25"
 
 
 
@@ -4255,68 +4354,166 @@ Inst119Quest2_HORDE_QuestID = "31366"
 --------------- INST122 - Heart of Fear ---------------
 
 Inst122Quest1_QuestID = "40153"
-Inst122Quest1_Level = "110"
-Inst122Quest1_Attain = "110"
+Inst122Quest1_Level = "10"
+Inst122Quest1_Attain = "10"
+Inst122Quest1PreQuest = "true"
 
 
 Inst122Quest1_HORDE_QuestID = "40153"
-Inst122Quest1_HORDE_Level = "110"
-Inst122Quest1_HORDE_Attain = "110"
+Inst122Quest1_HORDE_Level = "10"
+Inst122Quest1_HORDE_Attain = "10"
+Inst122Quest1PreQuest_HORDE = Inst122Quest1PreQuest
 
 
 
 --------------- INST138 - Throne of Thunder ---------------
 
 Inst138Quest1_QuestID = "32599"
+Inst138Quest1_Level = "35"
+Inst138Quest1_Attain = "35"
+
 Inst138Quest2_QuestID = "32715"
+Inst138Quest2_Level = "35"
+Inst138Quest2_Attain = "35"
+
 Inst138Quest3_QuestID = "32714"
+Inst138Quest3_Level = "35"
+Inst138Quest3_Attain = "35"
+
 Inst138Quest4_QuestID = "32713"
+Inst138Quest4_Level = "35"
+Inst138Quest4_Attain = "35"
+
 Inst138Quest5_QuestID = "32716"
+Inst138Quest5_Level = "35"
+Inst138Quest5_Attain = "35"
+
 Inst138Quest6_QuestID = "32711"
+Inst138Quest6_Level = "35"
+Inst138Quest6_Attain = "35"
+
 Inst138Quest7_QuestID = "32710"
+Inst138Quest7_Level = "35"
+Inst138Quest7_Attain = "35"
+
 Inst138Quest8_QuestID = "32712"
+Inst138Quest8_Level = "35"
+Inst138Quest8_Attain = "35"
 
 Inst138Quest9_QuestID = "40138"
-Inst138Quest9_Level = "98"
-Inst138Quest9_Attain = "98"
+Inst138Quest9_Level = "10"
+Inst138Quest9_Attain = "10"
+Inst138Quest9PreQuest = "true"
 
 
 Inst138Quest1_HORDE_QuestID = "32589"
+Inst138Quest1_HORDE_Level = "35"
+Inst138Quest1_HORDE_Attain = "35"
+
 Inst138Quest2_HORDE_QuestID = "32715"
+Inst138Quest2_HORDE_Level = "35"
+Inst138Quest2_HORDE_Attain = "35"
+
 Inst138Quest3_HORDE_QuestID = "32714"
+Inst138Quest3_HORDE_Level = "35"
+Inst138Quest3_HORDE_Attain = "35"
+
 Inst138Quest4_HORDE_QuestID = "32713"
+Inst138Quest4_HORDE_Level = "35"
+Inst138Quest4_HORDE_Attain = "35"
+
 Inst138Quest5_HORDE_QuestID = "32716"
+Inst138Quest5_HORDE_Level = "35"
+Inst138Quest5_HORDE_Attain = "35"
+
 Inst138Quest6_HORDE_QuestID = "32711"
+Inst138Quest6_HORDE_Level = "35"
+Inst138Quest6_HORDE_Attain = "35"
+
 Inst138Quest7_HORDE_QuestID = "32710"
+Inst138Quest7_HORDE_Level = "35"
+Inst138Quest7_HORDE_Attain = "35"
+
 Inst138Quest8_HORDE_QuestID = "32712"
+Inst138Quest8_HORDE_Level = "35"
+Inst138Quest8_HORDE_Attain = "35"
 
 Inst138Quest9_HORDE_QuestID = "40138"
-Inst138Quest9_HORDE_Level = "98"
-Inst138Quest9_HORDE_Attain = "98"
+Inst138Quest9_HORDE_Level = "10"
+Inst138Quest9_HORDE_Attain = "10"
+Inst138Quest9PreQuest_HORDE = Inst138Quest9PreQuest
 
 
 
 --------------- INST145 - Siege of Orgrimmar ---------------
 
 Inst145Quest1_QuestID = "33147"
+Inst145Quest1_Level = "35"
+Inst145Quest1_Attain = "35"
+
 Inst145Quest2_QuestID = "33138"
+Inst145Quest2_Level = "35"
+Inst145Quest2_Attain = "35"
+Inst145Quest2PreQuest = "true"
+
 Inst145Quest3_QuestID = "33337"
+Inst145Quest3_Level = "30"
+Inst145Quest3_Attain = "30"
+Inst145Quest3PreQuest = "true"
+
 Inst145Quest4_QuestID = "33375"
+Inst145Quest4_Level = "30"
+Inst145Quest4_Attain = "30"
+Inst145Quest4FQuest = "true"
+
 Inst145Quest5_QuestID = "33376"
+Inst145Quest5_Level = "30"
+Inst145Quest5_Attain = "30"
+Inst145Quest5FQuest = "true"
+
 Inst145Quest6_QuestID = "33377"
+Inst145Quest6_Level = "30"
+Inst145Quest6_Attain = "30"
+Inst145Quest6FQuest = "true"
+
 
 Inst145Quest1_HORDE_QuestID = "33147"
+Inst145Quest1_HORDE_Level = "35"
+Inst145Quest1_HORDE_Attain = "35"
+
 Inst145Quest2_HORDE_QuestID = "33138"
+Inst145Quest2_HORDE_Level = "35"
+Inst145Quest2_HORDE_Attain = "35"
+Inst145Quest2PreQuest_HORDE = Inst145Quest2PreQuest
+
 Inst145Quest3_HORDE_QuestID = "33337"
+Inst145Quest3_HORDE_Level = "30"
+Inst145Quest3_HORDE_Attain = "30"
+Inst145Quest3PreQuest_HORDE = Inst145Quest3PreQuest
+
 Inst145Quest4_HORDE_QuestID = "33375"
+Inst145Quest4_HORDE_Level = "30"
+Inst145Quest4_HORDE_Attain = "30"
+Inst145Quest4FQuest_HORDE = Inst145Quest4FQuest
+
 Inst145Quest5_HORDE_QuestID = "33376"
+Inst145Quest5_HORDE_Level = "30"
+Inst145Quest5_HORDE_Attain = "30"
+Inst145Quest5FQuest_HORDE = Inst145Quest5FQuest
+
 Inst145Quest6_HORDE_QuestID = "33377"
+Inst145Quest6_HORDE_Level = "30"
+Inst145Quest6_HORDE_Attain = "30"
+Inst145Quest6FQuest_HORDE = Inst145Quest6FQuest
 
 
 
 --------------- INST146 - Auchindoun ---------------
 
 Inst146Quest1_QuestID = "37146"
+Inst146Quest1_Level = ""
+Inst146Quest1_Attain = ""
+
 Inst146Quest2_QuestID = "37156"
 Inst146Quest3_QuestID = "37232"
 Inst146Quest4_QuestID = "37154"
@@ -4324,6 +4521,9 @@ Inst146Quest5_QuestID = "37233"
 Inst146Quest6_QuestID = "37796"
 
 Inst146Quest1_HORDE_QuestID = "37146"
+Inst146Quest1_HORDE_Level = ""
+Inst146Quest1_HORDE_Attain = ""
+
 Inst146Quest2_HORDE_QuestID = "37156"
 Inst146Quest3_HORDE_QuestID = "37232"
 Inst146Quest4_HORDE_QuestID = "37154"
@@ -6736,24 +6936,36 @@ Inst190Quest1_HORDE_Attain = "120"
 --------------- INST125 - A Brewing Storm ---------------
 
 Inst125Quest1_QuestID = "30567"
+Inst125Quest1_Level = "35"
+Inst125Quest1_Attain = "35"
 
 Inst125Quest1_HORDE_QuestID = "30567"
+Inst125Quest1_HORDE_Level = "35"
+Inst125Quest1_HORDE_Attain = "35"
 
 
 
 --------------- INST126 - Arena of Annihilation ---------------
 
 Inst126Quest1_QuestID = "31207"
+Inst126Quest1_Level = "20"
+Inst126Quest1_Attain = "20"
 
 Inst126Quest1_HORDE_QuestID = "31207"
+Inst126Quest1_HORDE_Level = "20"
+Inst126Quest1_HORDE_Attain = "20"
 
 
 
 --------------- INST127 - Brewmoon Festival ---------------
 
 Inst127Quest1_QuestID = "31611"
+Inst127Quest1_Level = "35"
+Inst127Quest1_Attain = "35"
 
 Inst127Quest1_HORDE_QuestID = "31611"
+Inst127Quest1_HORDE_Level = "35"
+Inst127Quest1_HORDE_Attain = "35"
 
 
 
@@ -6763,8 +6975,12 @@ Inst127Quest1_HORDE_QuestID = "31611"
 --------------- INST129 - Greenstone Village ---------------
 
 Inst129Quest1_QuestID = "31613"
+Inst129Quest1_Level = "35"
+Inst129Quest1_Attain = "35"
 
 Inst129Quest1_HORDE_QuestID = "31613"
+Inst129Quest1_HORDE_Level = "35"
+Inst129Quest1_HORDE_Attain = "35"
 
 
 
@@ -6773,9 +6989,13 @@ Inst129Quest1_HORDE_QuestID = "31613"
 
 --------------- INST131 - Unga Ingoo ---------------
 
-Inst131Quest1_QuestID = "31658"
+Inst131Quest1_QuestID = "31058"
+Inst131Quest1_Level = "35"
+Inst131Quest1_Attain = "35"
 
-Inst131Quest1_HORDE_QuestID = "31658"
+Inst131Quest1_HORDE_QuestID = "31058"
+Inst131Quest1_HORDE_Level = "35"
+Inst131Quest1_HORDE_Attain = "35"
 
 
 
@@ -6794,12 +7014,18 @@ Inst131Quest1_HORDE_QuestID = "31658"
 --------------- INST136 - A Little Patience ---------------
 
 Inst136Quest1_QuestID = "32248"
+Inst136Quest1_Level = "15"
+Inst136Quest1_Attain = "15"
+Inst136Quest1Prequest = "true"
 
 
 
 --------------- INST137 - Dagger in the Dark ---------------
 
 Inst137Quest1_HORDE_QuestID = "32251"
+Inst137Quest1_HORDE_Level = "15"
+Inst137Quest1_HORDE_Attain = "15"
+Inst137Quest1PreQuest_HORDE = "true"
 
 
 
