@@ -23,7 +23,6 @@
 
 
 -- Colours
-local PURPLE = "|cff999999"; -- grey atm -- removed
 local RED = "|cffff0000";
 local REDA = "|cffcc6666";
 local WHITE = "|cffFFFFFF";

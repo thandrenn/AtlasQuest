@@ -46,7 +46,6 @@ local RED = "|cffff0000";
 local ATLAS_RED = "|cffcc3333";
 local WHITE = "|cffFFFFFF";
 local GREEN = "|cff66cc33";
-local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 local DARKYELLOW = "|cffcc9933";  -- Atlas uses this color for some things.
@@ -98,7 +97,6 @@ AQQuestQueryStart = "AtlasQuest fragt den Server nach abgeschlossenen Quests ab.
 AQQuestQueryDone = "AtlasQuest hat die Anfrage beendet. Abgeschlossene Quests sind nun markiert." 
 
 
-AQAbilities = BLUE.."Fähigkeiten:".. WHITE;
 AQSERVERASKInformation = "Bitte rechtsklicken bis der Gegenstand angezeigt wird."
 AQSERVERASKAuto = "Versuche den Mauszeiger in einer Sekunde über den Gegenstand zu bewegen."
 AQSERVERASK = "AtlasQuest fragt den Server nach folgendem Gegenstand ab:"

@@ -25,7 +25,6 @@
 -- Colours
 -----------------------------------------------------------------------------
 
-local PURPLE = "|cff999999"; -- grey atm -- removed/useless atm
 local RED = "|cffff0000";
 local REDA = "|cffcc6666";
 local WHITE = "|cffFFFFFF";
@@ -784,7 +783,7 @@ function AQQuestQuery()
     --	self.stamp = time();
 	local ishorde = (UnitFactionGroup("player") == "Horde")
        
-  	AQPleaseCheckQuests = GetQuestsCompleted(qct);
+  	AQPleaseCheckQuests = C_QuestLog.GetAllCompletedQuestIDs(qct);
   
 	for qx in pairs(qct) do
 		qcs = qcs .. qx .. ":";
