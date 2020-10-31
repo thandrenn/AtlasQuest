@@ -2849,18 +2849,18 @@ Inst168Quest8_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 9 Alliance
-Inst168Quest9 = "9. Touch of a Titan"
-Inst168Quest9_Aim = "Bring 50 Essences of Aman'Thul to Arcanomancer Vridiel."
-Inst168Quest9_Location = "Arcanomancer Vridiel (Dalaran; "..YELLOW.."45.2, 28.4"..WHITE..".)"
-Inst168Quest9_Note = "Repeatable quest.  The Essences of Aman'Thul drop from bosses in The Nighthold, Chests from Emissary quests and Order Hall raid quest chests."
+Inst168Quest9 = "9. Talisman of the Shal'dorei (Normal)"
+Inst168Quest9_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Normal Difficulty."
+Inst168Quest9_Location = "First Arcanist Thalyssra (The Nighthold; "..BLUE.."Entrance [A]"..WHITE..")"
+Inst168Quest9_Note = "Grand Magistrix Elisande is at "..YELLOW.."[9]"..WHITE..".  Completing this quest will allow you to skip the first bosses in the raid."
 Inst168Quest9_Prequest = "None"
 Inst168Quest9_Folgequest = "None"
 --
-Inst168Quest9name1 = "Distilled Titan Essence"
+Inst168Quest9name1 = "Talisman of the Shal'dorei"
 
 --Quest 10 Alliance
-Inst168Quest10 = "10. Talisman of the Shal'dorei (Normal)"
-Inst168Quest10_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Normal Difficulty."
+Inst168Quest10 = "10. Talisman of the Shal'dorei (Heroic)"
+Inst168Quest10_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Heroic Difficulty."
 Inst168Quest10_Location = "First Arcanist Thalyssra (The Nighthold; "..BLUE.."Entrance [A]"..WHITE..")"
 Inst168Quest10_Note = "Grand Magistrix Elisande is at "..YELLOW.."[9]"..WHITE..".  Completing this quest will allow you to skip the first bosses in the raid."
 Inst168Quest10_Prequest = "None"
@@ -2869,8 +2869,8 @@ Inst168Quest10_Folgequest = "None"
 Inst168Quest10name1 = "Talisman of the Shal'dorei"
 
 --Quest 11 Alliance
-Inst168Quest11 = "11. Talisman of the Shal'dorei (Heroic)"
-Inst168Quest11_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Heroic Difficulty."
+Inst168Quest11 = "11. Talisman of the Shal'dorei (Mythic)"
+Inst168Quest11_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Mythic Difficulty."
 Inst168Quest11_Location = "First Arcanist Thalyssra (The Nighthold; "..BLUE.."Entrance [A]"..WHITE..")"
 Inst168Quest11_Note = "Grand Magistrix Elisande is at "..YELLOW.."[9]"..WHITE..".  Completing this quest will allow you to skip the first bosses in the raid."
 Inst168Quest11_Prequest = "None"
@@ -2879,23 +2879,23 @@ Inst168Quest11_Folgequest = "None"
 Inst168Quest11name1 = "Talisman of the Shal'dorei"
 
 --Quest 12 Alliance
-Inst168Quest12 = "12. Talisman of the Shal'dorei (Mythic)"
-Inst168Quest12_Aim = "Collect 4 Echoes of Time from Elisande in The Nighthold on Mythic Difficulty."
-Inst168Quest12_Location = "First Arcanist Thalyssra (The Nighthold; "..BLUE.."Entrance [A]"..WHITE..")"
-Inst168Quest12_Note = "Grand Magistrix Elisande is at "..YELLOW.."[9]"..WHITE..".  Completing this quest will allow you to skip the first bosses in the raid."
+Inst168Quest12 = "12. Cubic Conundrum"
+Inst168Quest12_Aim = "Take the Mysterious Cube to Dariness the Learned in Dalaran."
+Inst168Quest12_Location = "Drops from Chronomatic Anomaly (The Nighthold; "..YELLOW.."[2]"..WHITE..")"
+Inst168Quest12_Note = "The chance for this to drop from Chronomatic Anomaly is reportedly low.  It can drop on any difficulty level.  Turn the quest in to Dariness The Learned (Dalaran - Things of the Past; "..YELLOW.."40.5, 26.3"..WHITE..")."
 Inst168Quest12_Prequest = "None"
-Inst168Quest12_Folgequest = "None"
---
-Inst168Quest12name1 = "Talisman of the Shal'dorei"
+Inst168Quest12_Folgequest = "Cubic Currents"
+-- No Rewards for this quest
 
 --Quest 13 Alliance
-Inst168Quest13 = "13. Cubic Conundrum"
-Inst168Quest13_Aim = "Take the Mysterious Cube to Dariness the Learned in Dalaran."
-Inst168Quest13_Location = "Drops from Chronomatic Anomaly (The Nighthold; "..YELLOW.."[2]"..WHITE..")"
-Inst168Quest13_Note = "The chance for this to drop from Chronomatic Anomaly is reportedly low.  It can drop on any difficulty level.  Turn the quest in to Dariness The Learned (Dalaran - Things of the Past; "..YELLOW.."40.5, 26.3"..WHITE..")."
-Inst168Quest13_Prequest = "None"
-Inst168Quest13_Folgequest = "Cubic Currents"
--- No Rewards for this quest
+Inst168Quest13 = "13. Lord of the Shadow Council"
+Inst168Quest13_Aim = "Defeat Gul'dan in The Nighthold."
+Inst168Quest13_Location = "Archmage Khadgar (Suramar; "..YELLOW.."44.2, 60.0"..WHITE..")"
+Inst168Quest13_Note = "Gul'dan is the final boss in the raid."
+Inst168Quest13_Prequest = "Breaching the Sanctum"
+Inst168Quest13_Folgequest = "The Nighthold: The Eye of Aman'Thul"
+--
+Inst168Quest9name1 = "Headpiece of the Shadow Council"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -3007,8 +3007,7 @@ Inst168Quest12_HORDE_Location = Inst168Quest12_Location
 Inst168Quest12_HORDE_Note = Inst168Quest12_Note
 Inst168Quest12_HORDE_Prequest = Inst168Quest12_Prequest
 Inst168Quest12_HORDE_Folgequest = Inst168Quest12_Folgequest
---
-Inst168Quest12name1_HORDE = Inst168Quest12name1
+-- No Rewards for this quest
 
 --Quest 13 Horde  (same as Quest 13 Alliance)
 Inst168Quest13_HORDE = Inst168Quest13
@@ -3017,7 +3016,8 @@ Inst168Quest13_HORDE_Location = Inst168Quest13_Location
 Inst168Quest13_HORDE_Note = Inst168Quest13_Note
 Inst168Quest13_HORDE_Prequest = Inst168Quest13_Prequest
 Inst168Quest13_HORDE_Folgequest = Inst168Quest13_Folgequest
--- No Rewards for this quest
+--
+Inst168Quest13name1_HORDE = Inst168Quest13name1
 
 
 

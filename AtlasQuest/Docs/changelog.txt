@@ -11,6 +11,8 @@ Version 4.12.01  (for Shadowlands)  (October ??, 2020)
 - Removed some obsolete quests.  RIP Karazan Attunement quests and Violet Eye quest line.
 - Fixed some quest ID numbers being incorrect.
 - Added missing "The G-Team" Horde quests for Gnomeregan.
+- Added missing Legion Nighthold quest "Lord of the Shadow Council".
+
 
 
 

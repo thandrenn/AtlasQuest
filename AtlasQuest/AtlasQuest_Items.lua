@@ -8802,33 +8802,33 @@ Inst168Quest8Rewardtext = AQNoReward
 --Quest 9 Alliance
 Inst168Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
-Inst168Quest9ITC1 = Itemc6;
-Inst168Quest9description1 = AQITEM_ITEM
-Inst168Quest9ID1 = "143613"
+Inst168Quest9ITC1 = Itemc5;
+Inst168Quest9description1 = AQITEM_NECK
+Inst168Quest9ID1 = "141324"
 
 --Quest 10 Alliance
 Inst168Quest10Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst168Quest10ITC1 = Itemc5;
 Inst168Quest10description1 = AQITEM_NECK
-Inst168Quest10ID1 = "141324"
+Inst168Quest10ID1 = "141325"
 
 --Quest 11 Alliance
 Inst168Quest11Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst168Quest11ITC1 = Itemc5;
 Inst168Quest11description1 = AQITEM_NECK
-Inst168Quest11ID1 = "141325"
+Inst168Quest11ID1 = "141326"
 
 --Quest 12 Alliance
-Inst168Quest10Rewardtext = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst168Quest12ITC1 = Itemc5;
-Inst168Quest12description1 = AQITEM_NECK
-Inst168Quest12ID1 = "141326"
+Inst168Quest12Rewardtext = AQNoReward
 
 --Quest 13 Alliance
-Inst168Quest13Rewardtext = AQNoReward
+Inst168Quest13Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst168Quest13ITC1 = Itemc1;
+Inst168Quest13description1 = AQITEM_ITEM
+Inst168Quest13ID1 = "143757"
 
 
 --Quest 1 Horde
@@ -8858,33 +8858,33 @@ Inst168Quest8Rewardtext_HORDE = AQNoReward
 --Quest 9 Horde
 Inst168Quest9Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
-Inst168Quest9ITC1_HORDE = Itemc6;
-Inst168Quest9description1_HORDE = AQITEM_ITEM
-Inst168Quest9ID1_HORDE = "143613"
+Inst168Quest9ITC1_HORDE = Itemc5;
+Inst168Quest9description1_HORDE = AQITEM_NECK
+Inst168Quest9ID1_HORDE = "141324"
 
 --Quest 10 Horde
 Inst168Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst168Quest10ITC1_HORDE = Itemc5;
 Inst168Quest10description1_HORDE = AQITEM_NECK
-Inst168Quest10ID1_HORDE = "141324"
+Inst168Quest10ID1_HORDE = "141325"
 
 --Quest 11 Horde
 Inst168Quest11Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst168Quest11ITC1_HORDE = Itemc5;
 Inst168Quest11description1_HORDE = AQITEM_NECK
-Inst168Quest11ID1_HORDE = "141325"
+Inst168Quest11ID1_HORDE = "141326"
 
 --Quest 12 Horde
-Inst168Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst168Quest12ITC1_HORDE = Itemc5;
-Inst168Quest12description1_HORDE = AQITEM_NECK
-Inst168Quest12ID1_HORDE = "141326"
+Inst168Quest12Rewardtext_HORDE = AQNoReward
 
 --Quest 13 Horde
-Inst168Quest13Rewardtext_HORDE = AQNoReward
+Inst168Quest13Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst168Quest13ITC1_HORDE = Itemc1;
+Inst168Quest13description1_HORDE = AQITEM_ITEM
+Inst168Quest13ID1_HORDE = "143757"
 
 
 
