@@ -6827,38 +6827,38 @@ Inst174Quest3_HORDE_Attain = "45"
 --------------- INST175 - Atal'Dazar ---------------
 
 Inst175Quest1_QuestID = "49800"
-Inst175Quest1_Level = "120"
-Inst175Quest1_Attain = "120"
+Inst175Quest1_Level = "50"
+Inst175Quest1_Attain = "50"
 
 Inst175Quest2_QuestID = "49809"
-Inst175Quest2_Level = "120"
-Inst175Quest2_Attain = "120"
+Inst175Quest2_Level = "50"
+Inst175Quest2_Attain = "50"
 
 Inst175Quest3_QuestID = "49888"
-Inst175Quest3_Level = "120"
-Inst175Quest3_Attain = "120"
+Inst175Quest3_Level = "50"
+Inst175Quest3_Attain = "50"
 
 
 Inst175Quest1_HORDE_QuestID = "49800"
-Inst175Quest1_HORDE_Level = "120"
-Inst175Quest1_HORDE_Attain = "120"
+Inst175Quest1_HORDE_Level = "50"
+Inst175Quest1_HORDE_Attain = "50"
 
 Inst175Quest2_HORDE_QuestID = "49809"
-Inst175Quest2_HORDE_Level = "120"
-Inst175Quest2_HORDE_Attain = "120"
+Inst175Quest2_HORDE_Level = "50"
+Inst175Quest2_HORDE_Attain = "50"
 
 Inst175Quest3_HORDE_QuestID = "49888"
-Inst175Quest3_HORDE_Level = "120"
-Inst175Quest3_HORDE_Attain = "120"
+Inst175Quest3_HORDE_Level = "50"
+Inst175Quest3_HORDE_Attain = "50"
 
 Inst175Quest4_HORDE_QuestID = "49901"
-Inst175Quest4_HORDE_Level = "110"
-Inst175Quest4_HORDE_Attain = "110"
+Inst175Quest4_HORDE_Level = "10"
+Inst175Quest4_HORDE_Attain = "10"
 Inst175Quest4PreQuest_HORDE = "true"
 
 Inst175Quest5_HORDE_QuestID = "51516"
-Inst175Quest5_HORDE_Level = "120"
-Inst175Quest5_HORDE_Attain = "120"
+Inst175Quest5_HORDE_Level = "50"
+Inst175Quest5_HORDE_Attain = "50"
 Inst175Quest5PreQuest_HORDE = "true"
 
 
@@ -6866,199 +6866,199 @@ Inst175Quest5PreQuest_HORDE = "true"
 --------------- INST176 - Freehold ---------------
 
 Inst176Quest1_QuestID = "52458"
-Inst176Quest1_Level = "120"
-Inst176Quest1_Attain = "120"
+Inst176Quest1_Level = "50"
+Inst176Quest1_Attain = "50"
 
 Inst176Quest2_QuestID = "52456"
-Inst176Quest2_Level = "120"
-Inst176Quest2_Attain = "120"
+Inst176Quest2_Level = "50"
+Inst176Quest2_Attain = "50"
 
 Inst176Quest3_QuestID = "52454"
-Inst176Quest3_Level = "120"
-Inst176Quest3_Attain = "120"
+Inst176Quest3_Level = "50"
+Inst176Quest3_Attain = "50"
 
 Inst176Quest4_QuestID = "52148"
-Inst176Quest4_Level = "110"
-Inst176Quest4_Attain = "110"
+Inst176Quest4_Level = "10"
+Inst176Quest4_Attain = "10"
 
 
 Inst176Quest1_HORDE_QuestID = "52458"
-Inst176Quest1_HORDE_Level = "120"
-Inst176Quest1_HORDE_Attain = "120"
+Inst176Quest1_HORDE_Level = "50"
+Inst176Quest1_HORDE_Attain = "50"
 
 Inst176Quest2_HORDE_QuestID = "52456"
-Inst176Quest2_HORDE_Level = "120"
-Inst176Quest2_HORDE_Attain = "120"
+Inst176Quest2_HORDE_Level = "50"
+Inst176Quest2_HORDE_Attain = "50"
 
 Inst176Quest3_HORDE_QuestID = "52454"
-Inst176Quest3_HORDE_Level = "120"
-Inst176Quest3_HORDE_Attain = "120"
+Inst176Quest3_HORDE_Level = "50"
+Inst176Quest3_HORDE_Attain = "50"
 
 
 
 --------------- INST177 - Kings' Rest ---------------
 
 Inst177Quest1_QuestID = "51500"
-Inst177Quest1_Level = "120"
-Inst177Quest1_Attain = "120"
+Inst177Quest1_Level = "50"
+Inst177Quest1_Attain = "50"
 
 Inst177Quest2_QuestID = "51501"
-Inst177Quest2_Level = "120"
-Inst177Quest2_Attain = "120"
+Inst177Quest2_Level = "50"
+Inst177Quest2_Attain = "50"
 
 Inst177Quest3_QuestID = "51502"
-Inst177Quest3_Level = "120"
-Inst177Quest3_Attain = "120"
+Inst177Quest3_Level = "50"
+Inst177Quest3_Attain = "50"
 
 
 Inst177Quest1_HORDE_QuestID = "51500"
-Inst177Quest1_HORDE_Level = "120"
-Inst177Quest1_HORDE_Attain = "120"
+Inst177Quest1_HORDE_Level = "50"
+Inst177Quest1_HORDE_Attain = "50"
 
 Inst177Quest2_HORDE_QuestID = "51501"
-Inst177Quest2_HORDE_Level = "120"
-Inst177Quest2_HORDE_Attain = "120"
+Inst177Quest2_HORDE_Level = "50"
+Inst177Quest2_HORDE_Attain = "50"
 
 Inst177Quest3_HORDE_QuestID = "51502"
-Inst177Quest3_HORDE_Level = "120"
-Inst177Quest3_HORDE_Attain = "120"
+Inst177Quest3_HORDE_Level = "50"
+Inst177Quest3_HORDE_Attain = "50"
 
 
 
 --------------- INST178 - Shrine of the Storm ---------------
 
 Inst178Quest1_QuestID = "51455"
-Inst178Quest1_Level = "120"
-Inst178Quest1_Attain = "120"
+Inst178Quest1_Level = "50"
+Inst178Quest1_Attain = "50"
 
 Inst178Quest2_QuestID = "51453"
-Inst178Quest2_Level = "120"
-Inst178Quest2_Attain = "120"
+Inst178Quest2_Level = "50"
+Inst178Quest2_Attain = "50"
 
 Inst178Quest3_QuestID = "51456"
-Inst178Quest3_Level = "120"
-Inst178Quest3_Attain = "120"
+Inst178Quest3_Level = "50"
+Inst178Quest3_Attain = "50"
 
 Inst178Quest4_QuestID = "50825"
-Inst178Quest4_Level = "110"
-Inst178Quest4_Attain = "110"
+Inst178Quest4_Level = "35"
+Inst178Quest4_Attain = "35"
 
 Inst178Quest5_QuestID = "52510"
-Inst178Quest5_Level = "120"
-Inst178Quest5_Attain = "120"
+Inst178Quest5_Level = "50"
+Inst178Quest5_Attain = "50"
 Inst178Quest5PreQuest = "true"
 
 
 Inst178Quest1_HORDE_QuestID = "51455"
-Inst178Quest1_HORDE_Level = "120"
-Inst178Quest1_HORDE_Attain = "120"
+Inst178Quest1_HORDE_Level = "50"
+Inst178Quest1_HORDE_Attain = "50"
 
 Inst178Quest2_HORDE_QuestID = "51453"
-Inst178Quest2_HORDE_Level = "120"
-Inst178Quest2_HORDE_Attain = "120"
+Inst178Quest2_HORDE_Level = "50"
+Inst178Quest2_HORDE_Attain = "50"
 
 Inst178Quest3_HORDE_QuestID = "51456"
-Inst178Quest3_HORDE_Level = "120"
-Inst178Quest3_HORDE_Attain = "120"
+Inst178Quest3_HORDE_Level = "50"
+Inst178Quest3_HORDE_Attain = "50"
 
 
 
 --------------- INST179 - Siege of Boralus ---------------
 
 Inst179Quest1_QuestID = "52761"
-Inst179Quest1_Level = "120"
-Inst179Quest1_Attain = "120"
+Inst179Quest1_Level = "50"
+Inst179Quest1_Attain = "50"
 
 Inst179Quest2_QuestID = "52778"
-Inst179Quest2_Level = "120"
-Inst179Quest2_Attain = "120"
+Inst179Quest2_Level = "50"
+Inst179Quest2_Attain = "50"
 
 Inst179Quest3_QuestID = "52763"
-Inst179Quest3_Level = "120"
-Inst179Quest3_Attain = "120"
+Inst179Quest3_Level = "50"
+Inst179Quest3_Attain = "50"
 
 Inst179Quest4_QuestID = "52771"
-Inst179Quest4_Level = "120"
-Inst179Quest4_Attain = "120"
+Inst179Quest4_Level = "50"
+Inst179Quest4_Attain = "50"
 
 Inst179Quest5_QuestID = "52780"
-Inst179Quest5_Level = "120"
-Inst179Quest5_Attain = "120"
+Inst179Quest5_Level = "50"
+Inst179Quest5_Attain = "50"
 
 Inst179Quest6_QuestID = "53128"
-Inst179Quest6_Level = "120"
-Inst179Quest6_Attain = "120"
+Inst179Quest6_Level = "50"
+Inst179Quest6_Attain = "50"
 
 Inst179Quest7_QuestID = "52775"
-Inst179Quest7_Level = "120"
-Inst179Quest7_Attain = "120"
+Inst179Quest7_Level = "50"
+Inst179Quest7_Attain = "50"
 
 Inst179Quest8_QuestID = "52153"
-Inst179Quest8_Level = "110"
-Inst179Quest8_Attain = "110"
+Inst179Quest8_Level = "10"
+Inst179Quest8_Attain = "10"
 Inst179Quest8PreQuest = "true"
 
 
 Inst179Quest1_HORDE_QuestID = "52761"
-Inst179Quest1_HORDE_Level = "120"
-Inst179Quest1_HORDE_Attain = "120"
+Inst179Quest1_HORDE_Level = "50"
+Inst179Quest1_HORDE_Attain = "50"
 
 Inst179Quest2_HORDE_QuestID = "52778"
-Inst179Quest2_HORDE_Level = "120"
-Inst179Quest2_HORDE_Attain = "120"
+Inst179Quest2_HORDE_Level = "50"
+Inst179Quest2_HORDE_Attain = "50"
 
 Inst179Quest3_HORDE_QuestID = "52763"
-Inst179Quest3_HORDE_Level = "120"
-Inst179Quest3_HORDE_Attain = "120"
+Inst179Quest3_HORDE_Level = "50"
+Inst179Quest3_HORDE_Attain = "50"
 
 Inst179Quest4_HORDE_QuestID = "52771"
-Inst179Quest4_HORDE_Level = "120"
-Inst179Quest4_HORDE_Attain = "120"
+Inst179Quest4_HORDE_Level = "50"
+Inst179Quest4_HORDE_Attain = "50"
 
 Inst179Quest5_HORDE_QuestID = "52780"
-Inst179Quest5_HORDE_Level = "120"
-Inst179Quest5_HORDE_Attain = "120"
+Inst179Quest5_HORDE_Level = "50"
+Inst179Quest5_HORDE_Attain = "50"
 
 Inst179Quest6_HORDE_QuestID = "53127"
-Inst179Quest6_HORDE_Level = "120"
-Inst179Quest6_HORDE_Attain = "120"
+Inst179Quest6_HORDE_Level = "50"
+Inst179Quest6_HORDE_Attain = "50"
 
 Inst179Quest7_HORDE_QuestID = "52775"
-Inst179Quest7_HORDE_Level = "120"
-Inst179Quest7_HORDE_Attain = "120"
+Inst179Quest7_HORDE_Level = "50"
+Inst179Quest7_HORDE_Attain = "50"
 
 
 
 --------------- INST180 - Temple of Sethraliss ---------------
 
 Inst180Quest1_QuestID = "51379"
-Inst180Quest1_Level = "120"
-Inst180Quest1_Attain = "120"
+Inst180Quest1_Level = "50"
+Inst180Quest1_Attain = "50"
 
 Inst180Quest2_QuestID = "51378"
-Inst180Quest2_Level = "120"
-Inst180Quest2_Attain = "120"
+Inst180Quest2_Level = "50"
+Inst180Quest2_Attain = "50"
 
 Inst180Quest3_QuestID = "51377"
-Inst180Quest3_Level = "120"
-Inst180Quest3_Attain = "120"
+Inst180Quest3_Level = "50"
+Inst180Quest3_Attain = "50"
 
 
 Inst180Quest1_HORDE_QuestID = "51379"
-Inst180Quest1_HORDE_Level = "120"
-Inst180Quest1_HORDE_Attain = "120"
+Inst180Quest1_HORDE_Level = "50"
+Inst180Quest1_HORDE_Attain = "50"
 
 Inst180Quest2_HORDE_QuestID = "51378"
-Inst180Quest2_HORDE_Level = "120"
-Inst180Quest2_HORDE_Attain = "120"
+Inst180Quest2_HORDE_Level = "50"
+Inst180Quest2_HORDE_Attain = "50"
 
 Inst180Quest3_HORDE_QuestID = "51377"
-Inst180Quest3_HORDE_Level = "120"
-Inst180Quest3_HORDE_Attain = "120"
+Inst180Quest3_HORDE_Level = "50"
+Inst180Quest3_HORDE_Attain = "50"
 
 Inst180Quest4_HORDE_QuestID = "50551"
-Inst180Quest4_HORDE_Level = "110"
-Inst180Quest4_HORDE_Attain = "110"
+Inst180Quest4_HORDE_Level = "35"
+Inst180Quest4_HORDE_Attain = "35"
 Inst180Quest4PreQuest_HORDE = "true"
 
 
@@ -7066,71 +7066,71 @@ Inst180Quest4PreQuest_HORDE = "true"
 --------------- INST181 - The Motherlode ---------------
 
 Inst181Quest1_QuestID = "52295"
-Inst181Quest1_Level = "120"
-Inst181Quest1_Attain = "120"
+Inst181Quest1_Level = "50"
+Inst181Quest1_Attain = "50"
 
 Inst181Quest2_QuestID = "52298"
-Inst181Quest2_Level = "120"
-Inst181Quest2_Attain = "120"
+Inst181Quest2_Level = "50"
+Inst181Quest2_Attain = "50"
 
 Inst181Quest3_QuestID = "52302"
-Inst181Quest3_Level = "120"
-Inst181Quest3_Attain = "120"
+Inst181Quest3_Level = "50"
+Inst181Quest3_Attain = "50"
 
 Inst181Quest4_QuestID = "53351"
-Inst181Quest4_Level = "110"
-Inst181Quest4_Attain = "110"
+Inst181Quest4_Level = "50"
+Inst181Quest4_Attain = "50"
 Inst181Quest4PreQuest = "true"
 
 
 Inst181Quest1_HORDE_QuestID = "52295"
-Inst181Quest1_HORDE_Level = "120"
-Inst181Quest1_HORDE_Attain = "120"
+Inst181Quest1_HORDE_Level = "50"
+Inst181Quest1_HORDE_Attain = "50"
 
 Inst181Quest2_HORDE_QuestID = "52298"
-Inst181Quest2_HORDE_Level = "120"
-Inst181Quest2_HORDE_Attain = "120"
+Inst181Quest2_HORDE_Level = "50"
+Inst181Quest2_HORDE_Attain = "50"
 
 Inst181Quest3_HORDE_QuestID = "52302"
-Inst181Quest3_HORDE_Level = "120"
-Inst181Quest3_HORDE_Attain = "120"
+Inst181Quest3_HORDE_Level = "50"
+Inst181Quest3_HORDE_Attain = "50"
 
 Inst181Quest4_HORDE_QuestID = "53437"
-Inst181Quest4_HORDE_Level = "110"
-Inst181Quest4_HORDE_Attain = "110"
+Inst181Quest4_HORDE_Level = "30"
+Inst181Quest4_HORDE_Attain = "30"
 
 
 
 --------------- INST182 - The Underrot ---------------
 
 Inst182Quest1_QuestID = "51856"
-Inst182Quest1_Level = "120"
-Inst182Quest1_Attain = "120"
+Inst182Quest1_Level = "50"
+Inst182Quest1_Attain = "50"
 
 Inst182Quest2_QuestID = "52238"
-Inst182Quest2_Level = "120"
-Inst182Quest2_Attain = "120"
+Inst182Quest2_Level = "50"
+Inst182Quest2_Attain = "50"
 
 Inst182Quest3_QuestID = "52237"
-Inst182Quest3_Level = "120"
-Inst182Quest3_Attain = "120"
+Inst182Quest3_Level = "50"
+Inst182Quest3_Attain = "50"
 
 
 Inst182Quest1_HORDE_QuestID = "51856"
-Inst182Quest1_HORDE_Level = "120"
-Inst182Quest1_HORDE_Attain = "120"
+Inst182Quest1_HORDE_Level = "50"
+Inst182Quest1_HORDE_Attain = "50"
 
 Inst182Quest2_HORDE_QuestID = "52238"
-Inst182Quest2_HORDE_Level = "120"
-Inst182Quest2_HORDE_Attain = "120"
+Inst182Quest2_HORDE_Level = "50"
+Inst182Quest2_HORDE_Attain = "50"
 
 Inst182Quest3_HORDE_QuestID = "52237"
-Inst182Quest3_HORDE_Level = "120"
-Inst182Quest3_HORDE_Attain = "120"
+Inst182Quest3_HORDE_Level = "50"
+Inst182Quest3_HORDE_Attain = "50"
 
 Inst182Quest4_HORDE_QuestID = "51302"
-Inst182Quest4_HORDE_Level = "110"
-Inst182Quest4_HORDE_Attain = "110"
+Inst182Quest4_HORDE_Level = "25"
+Inst182Quest4_HORDE_Attain = "25"
 Inst182Quest4PreQuest_HORDE = "true"
 
 
@@ -7138,80 +7138,80 @@ Inst182Quest4PreQuest_HORDE = "true"
 --------------- INST183 - Tol Dagor ---------------
 
 Inst183Quest1_QuestID = "51296"
-Inst183Quest1_Level = "120"
-Inst183Quest1_Attain = "120"
+Inst183Quest1_Level = "50"
+Inst183Quest1_Attain = "50"
 
 Inst183Quest2_QuestID = "51297"
-Inst183Quest2_Level = "120"
-Inst183Quest2_Attain = "120"
+Inst183Quest2_Level = "50"
+Inst183Quest2_Attain = "50"
 
 Inst183Quest3_QuestID = "51287"
-Inst183Quest3_Level = "120"
-Inst183Quest3_Attain = "120"
+Inst183Quest3_Level = "50"
+Inst183Quest3_Attain = "50"
 
 Inst183Quest4_QuestID = "52800"
-Inst183Quest4_Level = "110"
-Inst183Quest4_Attain = "110"
+Inst183Quest4_Level = "10"
+Inst183Quest4_Attain = "10"
 
 
 Inst183Quest1_HORDE_QuestID = "51296"
-Inst183Quest1_HORDE_Level = "120"
-Inst183Quest1_HORDE_Attain = "120"
+Inst183Quest1_HORDE_Level = "50"
+Inst183Quest1_HORDE_Attain = "50"
 
 Inst183Quest2_HORDE_QuestID = "51297"
-Inst183Quest2_HORDE_Level = "120"
-Inst183Quest2_HORDE_Attain = "120"
+Inst183Quest2_HORDE_Level = "50"
+Inst183Quest2_HORDE_Attain = "50"
 
 Inst183Quest3_HORDE_QuestID = "51287"
-Inst183Quest3_HORDE_Level = "120"
-Inst183Quest3_HORDE_Attain = "120"
+Inst183Quest3_HORDE_Level = "50"
+Inst183Quest3_HORDE_Attain = "50"
 
 
 
 --------------- INST184 - Waycrest Manor ---------------
 
 Inst184Quest1_QuestID = "51216"
-Inst184Quest1_Level = "120"
-Inst184Quest1_Attain = "120"
+Inst184Quest1_Level = "50"
+Inst184Quest1_Attain = "50"
 
 Inst184Quest2_QuestID = "51212"
-Inst184Quest2_Level = "120"
-Inst184Quest2_Attain = "120"
+Inst184Quest2_Level = "50"
+Inst184Quest2_Attain = "50"
 
 Inst184Quest3_QuestID = "51213"
-Inst184Quest3_Level = "120"
-Inst184Quest3_Attain = "120"
+Inst184Quest3_Level = "50"
+Inst184Quest3_Attain = "50"
 
 Inst184Quest4_QuestID = "50990"
-Inst184Quest4_Level = "110"
-Inst184Quest4_Attain = "110"
+Inst184Quest4_Level = "25"
+Inst184Quest4_Attain = "25"
 
 Inst184Quest5_QuestID = "50639"
-Inst184Quest5_Level = "110"
-Inst184Quest5_Attain = "110"
+Inst184Quest5_Level = "25"
+Inst184Quest5_Attain = "25"
 Inst184Quest5PreQuest = "true"
 
 Inst184Quest6_QuestID = "52486"
-Inst184Quest6_Level = "120"
-Inst184Quest6_Attain = "120"
+Inst184Quest6_Level = "50"
+Inst184Quest6_Attain = "50"
 Inst184Quest6PreQuest = "true"
 
 
 Inst184Quest1_HORDE_QuestID = "51216"
-Inst184Quest1_HORDE_Level = "120"
-Inst184Quest1_HORDE_Attain = "120"
+Inst184Quest1_HORDE_Level = "50"
+Inst184Quest1_HORDE_Attain = "50"
 
 Inst184Quest2_HORDE_QuestID = "51212"
-Inst184Quest2_HORDE_Level = "120"
-Inst184Quest2_HORDE_Attain = "120"
+Inst184Quest2_HORDE_Level = "50"
+Inst184Quest2_HORDE_Attain = "50"
 
 Inst184Quest3_HORDE_QuestID = "51213"
-Inst184Quest3_HORDE_Level = "120"
-Inst184Quest3_HORDE_Attain = "120"
+Inst184Quest3_HORDE_Level = "50"
+Inst184Quest3_HORDE_Attain = "50"
 
 Inst184Quest4_HORDE_QuestID = "50990"
-Inst184Quest4_HORDE_Level = "110"
-Inst184Quest4_HORDE_Attain = "110"
+Inst184Quest4_HORDE_Level = "25"
+Inst184Quest4_HORDE_Attain = "25"
 
 
 
@@ -7224,14 +7224,14 @@ Inst184Quest4_HORDE_Attain = "110"
 --------------- INST186 - Battle of Dazar'alor ---------------
 
 Inst186Quest1_QuestID = "54485"
-Inst186Quest1_Level = "120"
-Inst186Quest1_Attain = "120"
+Inst186Quest1_Level = "50"
+Inst186Quest1_Attain = "50"
 Inst186Quest1PreQuest = "true"
 
 
 Inst186Quest1_HORDE_QuestID = "54282"
-Inst186Quest1_HORDE_Level = "120"
-Inst186Quest1_HORDE_Attain = "120"
+Inst186Quest1_HORDE_Level = "50"
+Inst186Quest1_HORDE_Attain = "50"
 Inst186Quest1PreQuest_HORDE = "true"
 
 
@@ -7239,45 +7239,45 @@ Inst186Quest1PreQuest_HORDE = "true"
 --------------- INST187 - Crucible of Storms ---------------
 
 Inst187Quest1_QuestID = "54682"
-Inst187Quest1_Level = "120"
-Inst187Quest1_Attain = "120"
+Inst187Quest1_Level = "50"
+Inst187Quest1_Attain = "50"
 
 
 Inst187Quest1_HORDE_QuestID = "54683"
-Inst187Quest1_HORDE_Level = "120"
-Inst187Quest1_HORDE_Attain = "120"
+Inst187Quest1_HORDE_Level = "50"
+Inst187Quest1_HORDE_Attain = "50"
 
 
 
 --------------- INST188 - The Eternal Palace ---------------
 
 Inst188Quest1_QuestID = "56358"
-Inst188Quest1_Level = "120"
-Inst188Quest1_Attain = "120"
+Inst188Quest1_Level = "50"
+Inst188Quest1_Attain = "50"
 
 Inst188Quest2_QuestID = "56348"
-Inst188Quest2_Level = "120"
-Inst188Quest2_Attain = "120"
+Inst188Quest2_Level = "50"
+Inst188Quest2_Attain = "50"
 Inst188Quest2PreQuest = "true"
 
 Inst188Quest3_QuestID = "56349"
-Inst188Quest3_Level = "120"
-Inst188Quest3_Attain = "120"
+Inst188Quest3_Level = "50"
+Inst188Quest3_Attain = "50"
 Inst188Quest3FQuest = "true"
 
 
 Inst188Quest1_HORDE_QuestID = "56356"
-Inst188Quest1_HORDE_Level = "120"
-Inst188Quest1_HORDE_Attain = "120"
+Inst188Quest1_HORDE_Level = "50"
+Inst188Quest1_HORDE_Attain = "50"
 
 Inst188Quest2_HORDE_QuestID = "56352"
-Inst188Quest2_HORDE_Level = "120"
-Inst188Quest2_HORDE_Attain = "120"
+Inst188Quest2_HORDE_Level = "50"
+Inst188Quest2_HORDE_Attain = "50"
 Inst188Quest2PreQuest_HORDE = "true"
 
 Inst188Quest3_HORDE_QuestID = "56351"
-Inst188Quest3_HORDE_Level = "120"
-Inst188Quest3_HORDE_Attain = "120"
+Inst188Quest3_HORDE_Level = "50"
+Inst188Quest3_HORDE_Attain = "50"
 Inst188Quest3FQuest_HORDE = "true"
 
 
@@ -7285,26 +7285,26 @@ Inst188Quest3FQuest_HORDE = "true"
 --------------- INST189 - Operation: Mechagon ---------------
 
 Inst189Quest1_QuestID = "55609"
-Inst189Quest1_Level = "120"
-Inst189Quest1_Attain = "120"
+Inst189Quest1_Level = "50"
+Inst189Quest1_Attain = "50"
 
 
 Inst189Quest1_HORDE_QuestID = "55609"
-Inst189Quest1_HORDE_Level = "120"
-Inst189Quest1_HORDE_Attain = "120"
+Inst189Quest1_HORDE_Level = "50"
+Inst189Quest1_HORDE_Attain = "50"
 
 
 
 --------------- INST190 - Ny'alotha, the Waking City ---------------
 
 Inst190Quest1_QuestID = "58632"
-Inst190Quest1_Level = "120"
-Inst190Quest1_Attain = "120"
+Inst190Quest1_Level = "50"
+Inst190Quest1_Attain = "50"
 
 
 Inst190Quest1_HORDE_QuestID = "58632"
-Inst190Quest1_HORDE_Level = "120"
-Inst190Quest1_HORDE_Attain = "120"
+Inst190Quest1_HORDE_Level = "50"
+Inst190Quest1_HORDE_Attain = "50"
 
 
 
@@ -7464,50 +7464,137 @@ Inst137Quest1PreQuest_HORDE = "true"
 --------------- INST33 - Alterac Valley (AV) ---------------
 
 Inst33Quest1_QuestID = "7162"
+Inst33Quest1_Level = "1"
+Inst33Quest1_Attain = "1"
+
 Inst33Quest2_QuestID = "7141"
+Inst33Quest2_Level = "1"
+Inst33Quest2_Attain = "1"
+
 Inst33Quest3_QuestID = "7121"
+Inst33Quest3_Level = "1"
+Inst33Quest3_Attain = "1"
+
 Inst33Quest4_QuestID = "6982"
+Inst33Quest4_Level = "1"
+Inst33Quest4_Attain = "1"
+
 Inst33Quest5_QuestID = "5892"
+Inst33Quest5_Level = "1"
+Inst33Quest5_Attain = "1"
+
 Inst33Quest6_QuestID = "7223"
+Inst33Quest6_Level = "1"
+Inst33Quest6_Attain = "1"
+
 Inst33Quest7_QuestID = "7122"
+Inst33Quest7_Level = "1"
+Inst33Quest7_Attain = "1"
+
 Inst33Quest8_QuestID = "7102"
+Inst33Quest8_Level = "1"
+Inst33Quest8_Attain = "1"
+
 Inst33Quest9_QuestID = "7081"
+Inst33Quest9_Level = "1"
+Inst33Quest9_Attain = "1"
+
 Inst33Quest10_QuestID = "7027"
+Inst33Quest10_Level = "1"
+Inst33Quest10_Attain = "1"
+
 Inst33Quest11_QuestID = "7026"
+Inst33Quest11_Level = "1"
+Inst33Quest11_Attain = "1"
+
 Inst33Quest12_QuestID = "7386"
+Inst33Quest12_Level = "1"
+Inst33Quest12_Attain = "1"
+
 Inst33Quest13_QuestID = "6881"
+Inst33Quest13_Level = "1"
+Inst33Quest13_Attain = "1"
+
 Inst33Quest14_QuestID = "6942"
+Inst33Quest14_Level = "1"
+Inst33Quest14_Attain = "1"
+
 Inst33Quest15_QuestID = "6941"
+Inst33Quest15_Level = "1"
+Inst33Quest15_Attain = "1"
+
 Inst33Quest16_QuestID = "6943"
+Inst33Quest16_Level = "1"
+Inst33Quest16_Attain = "1"
+
 
 Inst33Quest1_HORDE_QuestID = "7161"
+Inst33Quest1_HORDE_Level = "1"
+Inst33Quest1_HORDE_Attain = "1"
+
 Inst33Quest2_HORDE_QuestID = "7142"
+Inst33Quest2_HORDE_Level = "1"
+Inst33Quest2_HORDE_Attain = "1"
+
 Inst33Quest3_HORDE_QuestID = "7123"
+Inst33Quest3_HORDE_Level = "1"
+Inst33Quest3_HORDE_Attain = "1"
+
 Inst33Quest4_HORDE_QuestID = "5893"
+Inst33Quest4_HORDE_Level = "1"
+Inst33Quest4_HORDE_Attain = "1"
+
 Inst33Quest5_HORDE_QuestID = "6985"
+Inst33Quest5_HORDE_Level = "1"
+Inst33Quest5_HORDE_Attain = "1"
+
 Inst33Quest6_HORDE_QuestID = "7224"
+Inst33Quest6_HORDE_Level = "1"
+Inst33Quest6_HORDE_Attain = "1"
+
 Inst33Quest7_HORDE_QuestID = "7124"
+Inst33Quest7_HORDE_Level = "1"
+Inst33Quest7_HORDE_Attain = "1"
+
 Inst33Quest8_HORDE_QuestID = "7101"
+Inst33Quest8_HORDE_Level = "1"
+Inst33Quest8_HORDE_Attain = "1"
+
 Inst33Quest9_HORDE_QuestID = "7082"
+Inst33Quest9_HORDE_Level = "1"
+Inst33Quest9_HORDE_Attain = "1"
+
 Inst33Quest10_HORDE_QuestID = "7001"
+Inst33Quest10_HORDE_Level = "1"
+Inst33Quest10_HORDE_Attain = "1"
+
 Inst33Quest11_HORDE_QuestID = "7002"
+Inst33Quest11_HORDE_Level = "1"
+Inst33Quest11_HORDE_Attain = "1"
+
 Inst33Quest12_HORDE_QuestID = "7385"
+Inst33Quest12_HORDE_Level = "1"
+Inst33Quest12_HORDE_Attain = "1"
+
 Inst33Quest13_HORDE_QuestID = "6801"
+Inst33Quest13_HORDE_Level = "1"
+Inst33Quest13_HORDE_Attain = "1"
+
 Inst33Quest14_HORDE_QuestID = "6825"
+Inst33Quest14_HORDE_Level = "1"
+Inst33Quest14_HORDE_Attain = "1"
+
 Inst33Quest15_HORDE_QuestID = "6826"
+Inst33Quest15_HORDE_Level = "1"
+Inst33Quest15_HORDE_Attain = "1"
+
 Inst33Quest16_HORDE_QuestID = "6827"
+Inst33Quest16_HORDE_Level = "1"
+Inst33Quest16_HORDE_Attain = "1"
 
 
 
 --------------- INST34 - Arathi Basin (AB) ---------------
-
-Inst34Quest1_QuestID = "8105"
-Inst34Quest2_QuestID = "8114"
-Inst34Quest3_QuestID = "8115"
-
-Inst34Quest1_HORDE_QuestID = "8120"
-Inst34Quest2_HORDE_QuestID = "8121"
-Inst34Quest3_HORDE_QuestID = "8122"
 
 
 
@@ -7554,42 +7641,130 @@ Inst34Quest3_HORDE_QuestID = "8122"
 
 
 
---------------- INST64 - Doom Lord Kazzak ---------------
-
-
-
---------------- INST65 - Doomwalker ---------------
-
-
-
 --------------- INST66 - Skettis ---------------
 
 Inst66Quest1_QuestID = "11098"
+Inst66Quest1_Level = "15"
+Inst66Quest1_Attain = "15"
+Inst66Quest1PreQuest = "true"
+
 Inst66Quest2_QuestID = "11008"
+Inst66Quest2_Level = "15"
+Inst66Quest2_Attain = "15"
+Inst66Quest2PreQuest = "true"
+
 Inst66Quest3_QuestID = "11085"
+Inst66Quest3_Level = "15"
+Inst66Quest3_Attain = "15"
+
 Inst66Quest4_QuestID = "11093"
+Inst66Quest4_Level = "15"
+Inst66Quest4_Attain = "15"
+
 Inst66Quest5_QuestID = "11004"
+Inst66Quest5_Level = "15"
+Inst66Quest5_Attain = "15"
+
 Inst66Quest6_QuestID = "11005"
+Inst66Quest6_Level = "15"
+Inst66Quest6_Attain = "15"
+Inst66Quest6PreQuest = "true"
+
 Inst66Quest7_QuestID = "11021"
+Inst66Quest7_Level = "15"
+Inst66Quest7_Attain = "15"
+
 Inst66Quest8_QuestID = "11024"
+Inst66Quest8_Level = "15"
+Inst66Quest8_Attain = "15"
+Inst66Quest8FQuest = "true"
+
 Inst66Quest9_QuestID = "11028"
+Inst66Quest9_Level = "15"
+Inst66Quest9_Attain = "15"
+Inst66Quest9FQuest = "true"
+
 Inst66Quest10_QuestID = "11056"
+Inst66Quest10_Level = "15"
+Inst66Quest10_Attain = "15"
+Inst66Quest10FQuest = "true"
+
 Inst66Quest11_QuestID = "11029"
+Inst66Quest11_Level = "15"
+Inst66Quest11_Attain = "15"
+Inst66Quest11FQuest = "true"
+
 Inst66Quest12_QuestID = "11885"
+Inst66Quest12_Level = "15"
+Inst66Quest12_Attain = "15"
+Inst66Quest12FQuest = "true"
+
 Inst66Quest13_QuestID = "11073"
+Inst66Quest13_Level = "15"
+Inst66Quest13_Attain = "15"
+Inst66Quest13FQuest = "true"
+
 
 Inst66Quest1_HORDE_QuestID = "11098"
+Inst66Quest1_HORDE_Level = "15"
+Inst66Quest1_HORDE_Attain = "15"
+Inst66Quest1PreQuest_HORDE = Inst66Quest1PreQuest
+
 Inst66Quest2_HORDE_QuestID = "11008"
+Inst66Quest2_HORDE_Level = "15"
+Inst66Quest2_HORDE_Attain = "15"
+Inst66Quest2PreQuest_HORDE = Inst66Quest2PreQuest
+
 Inst66Quest3_HORDE_QuestID = "11085"
+Inst66Quest3_HORDE_Level = "15"
+Inst66Quest3_HORDE_Attain = "15"
+
 Inst66Quest4_HORDE_QuestID = "11093"
+Inst66Quest4_HORDE_Level = "15"
+Inst66Quest4_HORDE_Attain = "15"
+
 Inst66Quest5_HORDE_QuestID = "11004"
+Inst66Quest5_HORDE_Level = "15"
+Inst66Quest5_HORDE_Attain = "15"
+
 Inst66Quest6_HORDE_QuestID = "11005"
+Inst66Quest6_HORDE_Level = "15"
+Inst66Quest6_HORDE_Attain = "15"
+Inst66Quest6PreQuest_HORDE = Inst66Quest6PreQuest
+
 Inst66Quest7_HORDE_QuestID = "11021"
+Inst66Quest7_HORDE_Level = "15"
+Inst66Quest7_HORDE_Attain = "15"
+
 Inst66Quest8_HORDE_QuestID = "11024"
+Inst66Quest8_HORDE_Level = "15"
+Inst66Quest8_HORDE_Attain = "15"
+Inst66Quest8FQuest_HORDE = Inst66Quest8FQuest
+
 Inst66Quest9_HORDE_QuestID = "11028"
+Inst66Quest9_HORDE_Level = "15"
+Inst66Quest9_HORDE_Attain = "15"
+Inst66Quest9FQuest_HORDE = Inst66Quest9FQuest
+
 Inst66Quest10_HORDE_QuestID = "11056"
+Inst66Quest10_HORDE_Level = "15"
+Inst66Quest10_HORDE_Attain = "15"
+Inst66Quest10FQuest_HORDE = Inst66Quest10FQuest
+
 Inst66Quest11_HORDE_QuestID = "11029"
+Inst66Quest11_HORDE_Level = "15"
+Inst66Quest11_HORDE_Attain = "15"
+Inst66Quest11FQuest_HORDE = Inst66Quest11FQuest
+
 Inst66Quest12_HORDE_QuestID = "11885"
+Inst66Quest12_HORDE_Level = "15"
+Inst66Quest12_HORDE_Attain = "15"
+Inst66Quest12FQuest_HORDE = Inst66Quest12FQuest
+
 Inst66Quest13_HORDE_QuestID = "11073"
+Inst66Quest13_HORDE_Level = "15"
+Inst66Quest13_HORDE_Attain = "15"
+Inst66Quest13FQuest_HORDE = Inst66Quest13FQuest
 
 
+-- End of File

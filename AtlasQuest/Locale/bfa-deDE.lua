@@ -138,7 +138,6 @@ Inst175Quest4_HORDE_Location = "König Rastakhan (Zuldazar; "..YELLOW.."42.6, 37.
 Inst175Quest4_HORDE_Note = "Teil der Questreihe vom 'Marsch der Loas'.  Kann auf Normal oder Heroisch abgeschlossen werden.  Yazma ist der Endboss.  Gebe die Quest bei Prinzessin Talanji (Dazar'alor bei - "..YELLOW.."40.6, 69.0"..WHITE..") ab."
 Inst175Quest4_HORDE_Prequest = "Ketzer -> Der Schachzug des Königs"
 Inst175Quest4_HORDE_Folgequest = "Von finsteren Taten und finsteren Tagen"
-Inst175Quest4PreQuest_HORDE = "true"
 --
 -- Rewards "Azerite"
 
@@ -149,7 +148,6 @@ Inst175Quest5_HORDE_Location = "Prinzessin Talanji (Zuldazar; "..YELLOW.."43.8, 
 Inst175Quest5_HORDE_Note = "Teil der Questreihe 'Der gefallene Kriegshäuptling'.  Kann auf Normal oder Heroisch abgeschlossen werden.  "
 Inst175Quest5_HORDE_Prequest = "Vol'jin, Sohn von Sen'jin"
 Inst175Quest5_HORDE_Folgequest = "Ihr schuldet mir einen Geist"
-Inst175Quest5PreQuest_HORDE = "true"
 --
 Inst175Quest5name1_HORDE = "Vol'jins Urne"
 -- Rewards "Azerite"
@@ -194,7 +192,6 @@ Inst176Quest4_Location = "Finn Schönwind (Tiragadesund - Die Wachkuppe; "..YELLO
 Inst176Quest4_Note = "Harlan den Schmierigen ist der Endboss."
 Inst176Quest4_Prequest = "Die Handelskompanie Aschenwind -> Verladen und verschickt"
 Inst176Quest4_Folgequest = "Nein"
-Inst176Quest4PreQuest = "true"
 --
 -- Rewards "Azerite"
 
@@ -340,7 +337,6 @@ Inst178Quest5_Location = "Bruder Pike (Sturmsangtal - Der Schrein des Sturms; ".
 Inst178Quest5_Note = "Vol'zith der Flüsterer ist der Endboss."
 Inst178Quest5_Prequest = "Ritualgegenstände -> Die Stärke des Sturms"
 Inst178Quest4_Folgequest = "Öffnen des Weges"
-Inst178Quest4PreQuest = "true"
 --
 -- Rewards "Azerite"
 
@@ -586,7 +582,6 @@ Inst180Quest4_HORDE_Location = "Vorrik (Voldun; "..YELLOW.."27.0, 52.6"..WHITE..
 Inst180Quest4_HORDE_Note = "Teil der 'Atul'Aman Kampagne'. Kann auf Normal oder Heroisch abgeschlossen werden.\nBesiege den Endboss um die Quest abzuschließen und kehre zum Questgeber zurück."
 Inst180Quest4_HORDE_Prequest = "Jakra'zet besiegen"
 Inst180Quest4_HORDE_Folgequest = "Die Horde informieren"
-Inst180Quest4PreQuest_HORDE = "true"
 --
 -- Rewards "Azerite"
 
@@ -871,7 +866,6 @@ Inst184Quest5_Location = "Luzilla Kronsteig (Drustvar - Das Kronsteiganwesen; ".
 Inst184Quest5_Note = "Lady Kronsteig ist der Endboss."
 Inst184Quest5_Prequest = "Sturm auf das Anwesen"
 Inst184Quest5_Folgequest = "Ewige Flamme"
-Inst184Quest5PreQuest = "true"
 --
 -- Rewards "Azerite"
 
@@ -882,7 +876,6 @@ Inst184Quest6_Location = "Ulfar (Drustvar - Ulfars Höhle; "..YELLOW.."45.2, 45.8
 Inst184Quest6_Note = "Den Schädel von Korvahs kann bei dem Endboss gestärkt werden.  Daher verlasse nicht zu schnell die Instanz."
 Inst184Quest6_Prequest = "Öffnen des Weges -> Alptraumfänger - Vergrabene Macht - Fokus des Hasses"
 Inst184Quest6_Folgequest = "In die Dunkelheit"
-Inst184Quest6PreQuest = "true"
 --
 -- Rewards "Azerite"
 
@@ -1102,7 +1095,6 @@ Inst190Quest1_Location = "Magni Bronzebeard (Silithus - Herzkammer; "..YELLOW.."
 Inst190Quest1_Note = "N'Zoth ist der Endboss vom Schlachtzug.  Dies kann auf jeder Schweirigkeit abgeschlossen werden."
 Inst190Quest1_Prequest = "Herzensangelegenheit -> Hinein in die Träume"
 Inst190Quest1_Folgequest = "Nein"
-Inst190Quest1PreQuest = "true"
 -- Rewards "Azerite"
 
 
@@ -1113,7 +1105,6 @@ Inst190Quest1_HORDE_Location = Inst190Quest1_Location
 Inst190Quest1_HORDE_Note = Inst190Quest1_Note
 Inst190Quest1_HORDE_Prequest = Inst190Quest1_Prequest
 Inst190Quest1_HORDE_Folgequest = "Nein"
-Inst190Quest1PreQuest_HORDE = Inst190Quest1PreQuest
 -- Rewards "Azerite"
 
 

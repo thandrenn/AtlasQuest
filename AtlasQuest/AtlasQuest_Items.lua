@@ -9879,33 +9879,6 @@ Inst33Quest16Rewardtext_HORDE = AQNoReward
 
 --------------- INST34 - Arathi Basin (AB) ---------------
 
---Quest 1 Alliance
-Inst34Quest1Rewardtext = AQNoReward
-
---Quest 2 Alliance
-Inst34Quest2Rewardtext = AQNoReward
-
---Quest 3 Alliance
-Inst34Quest4Rewardtext = AQDiscription_REWARD
---ITEM1
-Inst34Quest3ITC1 = Itemc2;
-Inst34Quest3description1 = AQITEM_TABARD
-Inst34Quest3ID1 = "20132"
-
-
---Quest 1 Horde
-Inst34Quest1Rewardtext_HORDE = AQNoReward
-
---Quest 2 Horde
-Inst34Quest2Rewardtext_HORDE = AQNoReward
-
---Quest 3 Horde
-Inst34Quest3Rewardtext_HORDE = AQDiscription_REWARD
---ITEM1
-Inst34Quest3ITC1_HORDE = Itemc2;
-Inst34Quest3description1_HORDE = AQITEM_TABARD
-Inst34Quest3ID1_HORDE = "20131"
-
 
 
 --------------- INST35 - Warsong Gulch (WSG) ---------------
@@ -9949,14 +9922,6 @@ Inst34Quest3ID1_HORDE = "20131"
 ---------------- OUTDOOR RAIDS --------------------
 ---------------------------------------------------
 
-
-
-
---------------- INST64 - Doom Lord Kazzak ---------------
-
-
-
---------------- INST65 - Doomwalker ---------------
 
 
 

@@ -609,9 +609,6 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\EyeOfTheStorm") then
 		AQINSTANZ = 60;
 
-	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\StrandOfTheAncients") then
-		AQINSTANZ = 83;
-
 	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
 		AQINSTANZ = 89;
 
@@ -633,12 +630,6 @@ function AtlasQuest_Instanzenchecken()
 		
 	-- Outdoor Raids
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\OR_DoomLordKazzak")  then
-		AQINSTANZ = 64;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\OR_Doomwalker")  then
-		AQINSTANZ = 65;
-
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\OR_Skettis")  then
 		AQINSTANZ = 66;
 
@@ -652,146 +643,146 @@ end
 
 
 
----------------------------
---- AQ Instance Numbers ---
----------------------------
+------------------------------------------
+--- AQ Instance Numbers - Primary List ---
+------------------------------------------
 
 -- CLASSIC
 --
--- 1  = Deadmines (VC)
--- 2  = Wailing Caverns (WC)
--- 3  = Ragefire Chasm (RFC)
--- 4  = Uldaman (ULD)
--- 5  = Blackrock Depths (BRD)
--- 6  = Blackwing Lair (BWL)
--- 7  = Blackfathom Deeps (BFD)
--- 8  = Lower Blackrock Spire (LBRS)
--- 9  = *** DELETED ***   Upper Blackrock Spire (UBRS)
--- 10 = Dire Maul East (DM)
--- 11 = Dire Maul North (DM)
--- 12 = Dire Maul West (DM)
--- 13 = Maraudon (Mara)
--- 14 = Molten Core (MC)
--- 15 = *** DELETED ***   Naxxramas (level 60)
--- 16 = Onyxia's Lair (Ony)
--- 17 = Razorfen Downs (RFD)
--- 18 = Razorfen Kraul (RFK)
--- 19 = *** DELETED ***   SM: Library (SM Lib)
--- 20 = Scholomance (Scholo)
--- 21 = Shadowfang Keep (SFK)
--- 22 = Stratholme - Crusaders' Square (Strat)
--- 23 = The Ruins of Ahn'Qiraj (AQ20)
--- 24 = The Stockade (Stocks)
--- 25 = Sunken Temple (ST)
--- 26 = The Temple of Ahn'Qiraj (AQ40)
--- 27 = Zul'Farrak (ZF)
--- 28 = Stratholme - The Gauntlet (Strat)
--- 29 = Gnomeregan (Gnomer)
--- 30 = *** DELETED ***   Four Dragons
--- 31 = *** DELETED ***   Azuregos
--- 32 = *** DELETED ***   Highlord Kruul
--- 33 = Alterac Valley (AV)
--- 34 = Arathi Basin (AB)
--- 35 = Warsong Gulch (WSG)
--- 36 =  default "rest"
+-- 1  = DUNGEON: Deadmines (VC)
+-- 2  = DUNGEON: Wailing Caverns (WC)
+-- 3  = DUNGEON: Ragefire Chasm (RFC)
+-- 4  = DUNGEON: Uldaman (ULD)
+-- 5  = DUNGEON: Blackrock Depths (BRD)
+-- 6  = RAID: Blackwing Lair (BWL)
+-- 7  = DUNGEON: Blackfathom Deeps (BFD)
+-- 8  = DUNGEON: Lower Blackrock Spire (LBRS)
+-- 9  = *** DELETED ***   DUNGEON: Upper Blackrock Spire (UBRS)
+-- 10 = DUNGEON: Dire Maul East (DM)
+-- 11 = DUNGEON: Dire Maul North (DM)
+-- 12 = DUNGEON: Dire Maul West (DM)
+-- 13 = DUNGEON: Maraudon (Mara)
+-- 14 = RAID: Molten Core (MC)
+-- 15 = *** DELETED ***   RAID: Naxxramas (level 60)
+-- 16 = RAID: Onyxia's Lair (Ony)
+-- 17 = DUNGEON: Razorfen Downs (RFD)
+-- 18 = DUNGEON: Razorfen Kraul (RFK)
+-- 19 = *** DELETED ***   DUNGEON: SM: Library (SM Lib)
+-- 20 = DUNGEON: Scholomance (Scholo)
+-- 21 = DUNGEON: Shadowfang Keep (SFK)
+-- 22 = DUNGEON: Stratholme - Crusaders' Square (Strat)
+-- 23 = RAID: The Ruins of Ahn'Qiraj (AQ20)
+-- 24 = DUNGEON: The Stockade (Stocks)
+-- 25 = DUNGEON: Sunken Temple (ST)
+-- 26 = RAID: The Temple of Ahn'Qiraj (AQ40)
+-- 27 = DUNGEON: Zul'Farrak (ZF)
+-- 28 = DUNGEON: Stratholme - The Gauntlet (Strat)
+-- 29 = DUNGEON: Gnomeregan (Gnomer)
+-- 30 = *** DELETED ***   OUTDOOR: Four Dragons
+-- 31 = *** DELETED ***   OUTDOOR: Azuregos
+-- 32 = *** DELETED ***   OUTDOOR: Highlord Kruul
+-- 33 = BATTLEGROUND: Alterac Valley (AV)
+-- 34 = BATTLEGROUND: Arathi Basin (AB)
+-- 35 = BATTLEGROUND: Warsong Gulch (WSG)
+-- 36 =  default
 
 -- BURNING CRUSADE
 --
--- 37 = HFC: Ramparts (Ramp)
--- 38 = HFC: Blood Furnace (BF)
--- 39 = HFC: Shattered Halls (SH)
--- 40 = HFC: Magtheridon's Lair
--- 41 = CR: The Slave Pens (SP)
--- 42 = CR: The Steamvault (SV)
--- 43 = CR: The Underbog (UB)
--- 44 = Auchindoun: Auchenai Crypts (AC)
--- 45 = Auchindoun: Mana Tombs (MT)
--- 46 = Auchindoun: Sethekk Halls (Seth)
--- 47 = Auchindoun: Shadow Labyrinth (SLabs)
--- 48 = CR: Serpentshrine Cavern (SSC)
--- 49 = CoT: Black Morass (BM)
--- 50 = CoT: Battle of Mount Hyjal
--- 51 = CoT: Old Hillsbrad
--- 52 = Gruul's Lair (GL)
--- 53 = Karazhan (Kara)
--- 54 = TK: Arcatraz (Arc)
--- 55 = TK: Botanica (Bot)
--- 56 = TK: Mechanar (Mech)
--- 57 = *** DELETED ***   SM: Armory (SM Arm)
--- 58 = Scarlet Monastery
--- 59 = Scarlet Halls
--- 60 = Eye of the Storm
--- 61 = TK: The Eye
--- 62 = Black Temple (BT)
--- 63 = Zul'Aman (ZA)
--- 64 = Doom Lord Kazzak
--- 65 = Doomwalker
--- 66 = Skettis
--- 67 = Magisters' Terrace
--- 68 = Sunwell Plateau
+-- 37 = DUNGEON: HFC: Ramparts (Ramp)
+-- 38 = DUNGEON: HFC: Blood Furnace (BF)
+-- 39 = DUNGEON: HFC: Shattered Halls (SH)
+-- 40 = DUNGEON: HFC: Magtheridon's Lair
+-- 41 = DUNGEON: CR: The Slave Pens (SP)
+-- 42 = DUNGEON: CR: The Steamvault (SV)
+-- 43 = DUNGEON: CR: The Underbog (UB)
+-- 44 = DUNGEON: Auchindoun: Auchenai Crypts (AC)
+-- 45 = DUNGEON: Auchindoun: Mana Tombs (MT)
+-- 46 = DUNGEON: Auchindoun: Sethekk Halls (Seth)
+-- 47 = DUNGEON: Auchindoun: Shadow Labyrinth (SLabs)
+-- 48 = DUNGEON: CR: Serpentshrine Cavern (SSC)
+-- 49 = DUNGEON: CoT: Black Morass (BM)
+-- 50 = DUNGEON: CoT: Battle of Mount Hyjal
+-- 51 = DUNGEON: CoT: Old Hillsbrad
+-- 52 = RAID: Gruul's Lair (GL)
+-- 53 = RAID: Karazhan (Kara)
+-- 54 = DUNGEON: TK: Arcatraz (Arc)
+-- 55 = DUNGEON: TK: Botanica (Bot)
+-- 56 = DUNGEON: TK: Mechanar (Mech)
+-- 57 = *** DELETED ***   DUNGEON: SM: Armory (SM Arm)
+-- 58 = DUNGEON: Scarlet Monastery
+-- 59 = DUNGEON: Scarlet Halls
+-- 60 = BATTLEGROUND: Eye of the Storm
+-- 61 = RAID: TK: The Eye
+-- 62 = RAID: Black Temple (BT)
+-- 63 = DUNGEON: Zul'Aman (ZA)
+-- 64 = *** DELETED ***   OUTDOOR: Doom Lord Kazzak
+-- 65 = *** DELETED ***   OUTDOOR: Doomwalker
+-- 66 = OUTDOOR: Skettis
+-- 67 = DUNGEON: Magisters' Terrace
+-- 68 = RAID: Sunwell Plateau
 
 -- WRATH OF THE LICH KING
 --
--- 69 = Caverns of Time: The Culling of Stratholme
--- 70 = Utgarde Keep: Utgarde Keep
--- 71 = Utgarde Keep: Utgarde Pinnacle
--- 72 = The Nexus: The Nexus
--- 73 = The Nexus: The Oculus
--- 74 = The Nexus: The Eye of Eternity
--- 75 = Azjol-Nerub: The Upper Kingdom
--- 76 = Azjol-Nerub: Ahn'kahet: The Old Kingdom
--- 77 = Ulduar: Halls of Stone
--- 78 = Ulduar: Halls of Lightning
--- 79 = The Obsidian Sanctum
--- 80 = Drak'Tharon Keep
--- 81 = Zul'Drak: Gundrak
--- 82 = The Violet Hold
--- 83 = Strand of the Ancients (SotA)
--- 84 = Naxxramas (Naxx)
--- 85 = Vault of Archavon (VoA)
--- 86 = Ulduar
--- 87 = Trial of the Champion (ToC)
--- 88 = Trial of the Crusader (ToC)
--- 89 = Isle of Conquest (IoC)
--- 90 = Forge of Souls (FoS)
--- 91 = Pit of Saron (PoS)
--- 92 = Halls of Reflection (HoR)
--- 93 = Icecrown Citadel (ICC)
--- 94 = Ruby Sanctum (RS)
+-- 69 = DUNGEON: Caverns of Time: The Culling of Stratholme
+-- 70 = DUNGEON: Utgarde Keep: Utgarde Keep
+-- 71 = DUNGEON: Utgarde Keep: Utgarde Pinnacle
+-- 72 = DUNGEON: The Nexus: The Nexus
+-- 73 = DUNGEON: The Nexus: The Oculus
+-- 74 = RAID: The Nexus: The Eye of Eternity
+-- 75 = DUNGEON: Azjol-Nerub: The Upper Kingdom
+-- 76 = DUNGEON: Azjol-Nerub: Ahn'kahet: The Old Kingdom
+-- 77 = DUNGEON: Ulduar: Halls of Stone
+-- 78 = DUNGEON: Ulduar: Halls of Lightning
+-- 79 = RAID: The Obsidian Sanctum
+-- 80 = DUNGEON: Drak'Tharon Keep
+-- 81 = DUNGEON: Zul'Drak: Gundrak
+-- 82 = DUNGEON: The Violet Hold
+-- 83 = *** DELETED ***   BATTLEGROUND: Strand of the Ancients (SotA)
+-- 84 = RAID: Naxxramas (Naxx)
+-- 85 = RAID: Vault of Archavon (VoA)
+-- 86 = RAID: Ulduar
+-- 87 = DUNGEON: Trial of the Champion (ToC)
+-- 88 = RAID: Trial of the Crusader (ToC)
+-- 89 = BATTLEGROUND: Isle of Conquest (IoC)
+-- 90 = DUNGEON: Forge of Souls (FoS)
+-- 91 = DUNGEON: Pit of Saron (PoS)
+-- 92 = DUNGEON: Halls of Reflection (HoR)
+-- 93 = RAID: Icecrown Citadel (ICC)
+-- 94 = RAID: Ruby Sanctum (RS)
 
 -- CATACLYSM
 --
--- 95 = Blackrock Caverns
--- 96 = Throne of the Tides
--- 97 = The Stonecore
--- 98 = The Vortex Pinnacle
--- 99 = Grim Batol
--- 100 = Halls of Origination
--- 101 = Lost City of the Tol'vir
--- 102 = Blackwing Descent
--- 103 = The Bastion of Twilight
--- 104 = Throne of the Four Winds
--- 105 = Baradin Hold
--- 106 = Battle for Gilneas
--- 107 = Twin Peaks
--- 108 = Zul'Gurub (ZG)
--- 109 = Firelands
--- 110 = End Time
--- 111 = Well of Eternity
--- 112 = Hour of Twilight
--- 113 = Dragon Soul
+-- 95 = DUNGEON: Blackrock Caverns
+-- 96 = DUNGEON: Throne of the Tides
+-- 97 = DUNGEON: The Stonecore
+-- 98 = DUNGEON: The Vortex Pinnacle
+-- 99 = DUNGEON: Grim Batol
+-- 100 = DUNGEON: Halls of Origination
+-- 101 = DUNGEON: Lost City of the Tol'vir
+-- 102 = RAID: Blackwing Descent
+-- 103 = RAID: The Bastion of Twilight
+-- 104 = RAID: Throne of the Four Winds
+-- 105 = RAID: Baradin Hold
+-- 106 = BATTLEGROUND: Battle for Gilneas
+-- 107 = BATTLEGROUND: Twin Peaks
+-- 108 = DUNGEON: Zul'Gurub (ZG)
+-- 109 = RAID: Firelands
+-- 110 = DUNGEON: End Time
+-- 111 = DUNGEON: Well of Eternity
+-- 112 = DUNGEON: Hour of Twilight
+-- 113 = RAID: Dragon Soul
 
 -- MISTS OF PANDARIA
 --
--- 114 = Mogu'Shan Palace
--- 115 = Shado-Pan Monastery
--- 116 = Stormstout Brewery
--- 117 = Temple of the Jade Serpent
--- 118 = The Gate of the Setting Sun
--- 119 = Siege of Niuzao Temple
--- 120 = Mogu'shan Vaults
--- 121 = Terrace of Endless Spring
--- 122 = Heart of Fear
+-- 114 = DUNGEON: Mogu'Shan Palace
+-- 115 = DUNGEON: Shado-Pan Monastery
+-- 116 = DUNGEON: Stormstout Brewery
+-- 117 = DUNGEON: Temple of the Jade Serpent
+-- 118 = DUNGEON: The Gate of the Setting Sun
+-- 119 = DUNGEON: Siege of Niuzao Temple
+-- 120 = RAID: Mogu'shan Vaults
+-- 121 = RAID: Terrace of Endless Spring
+-- 122 = RAID: Heart of Fear
 -- 123 = BATTLEGROUND: Silvershard Mines
 -- 124 = BATTLEGROUND: Temple of Kotmogu
 -- 125 = SCENARIO: A Brewing Storm

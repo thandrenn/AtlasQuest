@@ -5,10 +5,11 @@ Changelog
 Version 4.12.01  (for Shadowlands)  (October ??, 2020)
 
 - TOC update for Patch 9.0.1.
+- All quest levels updated.
 - Shadowlands prep work.
 - Updates to some Return to Karazhan quests.
 - Removed old Dire Maul class quests.
-- Removed some obsolete quests.  RIP Karazan Attunement quests and Violet Eye quest line.
+- Removed some obsolete quests.  There may be more.  Some quests Wowhead had tagged as "removed" but they still existed.  I could not verify all though.
 - Fixed some quest ID numbers being incorrect.
 - Added missing "The G-Team" Horde quests for Gnomeregan.
 - Added missing Legion Nighthold quest "Lord of the Shadow Council".
