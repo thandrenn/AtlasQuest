@@ -2,11 +2,20 @@
 Changelog
 =========
 
-Version 4.12.01  (for Shadowlands)  (October ??, 2020)
+KNOWN ISSUES:
+- Certain UI elements aren't displaying.  Like the bars around the quest list and the background for the Options window.
+- Blue colored text is "leaking" in the quest info window.
+- "Color quest titles in blue" option is not working.
+- Item Comparisons are not working.
+
+
+
+
+Version 4.12.01  (for Shadowlands)  (November 11, 2020)
 
 - TOC update for Patch 9.0.1.
 - All quest levels updated.
-- Shadowlands prep work.
+- Shadowlands prep work.  No quests added yet.
 - Updates to some Return to Karazhan quests.
 - Removed old Dire Maul class quests.
 - Removed some obsolete quests.  There may be more.  Some quests Wowhead had tagged as "removed" but they still existed.  I could not verify all though.
