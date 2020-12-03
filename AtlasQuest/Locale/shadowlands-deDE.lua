@@ -16,7 +16,7 @@
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with AtlasQuest; if not, write to the Free Software
+	along with AtlasQuest; if Keinet, write to the Free Software
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
@@ -58,73 +58,73 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 
 --------------- INST191 - The Necrotic Wake ---------------
 
-Inst191Caption = "The Necrotic Wake"
-Inst191QAA = "No Quests"
-Inst191QAH = "No Quests"
+Inst191Caption = "Die Nekrotische Schneise"
+Inst191QAA = "Keine Quests"
+Inst191QAH = "Keine Quests"
 
 
 
 --------------- INST192 - Plaguefall ---------------
 
-Inst192Caption = "Plaguefall"
-Inst192QAA = "No Quests"
-Inst192QAH = "No Quests"
+Inst192Caption = "Seuchensturz"
+Inst192QAA = "Keine Quests"
+Inst192QAH = "Keine Quests"
 
 
 
 --------------- INST193 - Mists of Tirna Scithe ---------------
 
-Inst193Caption = "Mists of Tirna Scithe"
-Inst193QAA = "No Quests"
-Inst193QAH = "No Quests"
+Inst193Caption = "Die Nebel von Tirna Scithe"
+Inst193QAA = "Keine Quests"
+Inst193QAH = "Keine Quests"
 
 
 
 --------------- INST194 - Halls of Atonement ---------------
 
-Inst194Caption = "Halls of Atonement"
-Inst194QAA = "No Quests"
-Inst194QAH = "No Quests"
+Inst194Caption = "Sie Hallen der Sühne"
+Inst194QAA = "Keine Quests"
+Inst194QAH = "Keine Quests"
 
 
 
 --------------- INST195 - Theater of Pain ---------------
 
-Inst195Caption = "Theater of Pain"
-Inst195QAA = "No Quests"
-Inst195QAH = "No Quests"
+Inst195Caption = "Theater der Schmerzen"
+Inst195QAA = "Keine Quests"
+Inst195QAH = "Keine Quests"
 
 
 
 --------------- INST196 - De Other Side ---------------
 
-Inst196Caption = "De Other Side"
-Inst196QAA = "No Quests"
-Inst196QAH = "No Quests"
+Inst196Caption = "Die Andre Seitee"
+Inst196QAA = "Keine Quests"
+Inst196QAH = "Keine Quests"
 
 
 
 --------------- INST197 - Spires of Ascension ---------------
 
-Inst197Caption = "Spires of Ascension"
-Inst197QAA = "No Quests"
-Inst197QAH = "No Quests"
+Inst197Caption = "Spitzen des Aufstiegs"
+Inst197QAA = "Keine Quests"
+Inst197QAH = "Keine Quests"
 
 
 
 --------------- INST198 - Sanguine Depths ---------------
 
-Inst198Caption = "Sanguine Depths"
-Inst198QAA = "No Quests"
-Inst198QAH = "No Quests"
+Inst198Caption = "Die blutigen Tiefen"
+Inst198QAA = "Keine Quests"
+Inst198QAH = "Keine Quests"
 
 
 
 --------------- INST199 - Castle Nathria ---------------
 
-Inst199Caption = "Castle Nathria"
-Inst199QAA = "No Quests"
-Inst199QAH = "No Quests"
+Inst199Caption = "Schloss Nathria"
+Inst199QAA = "Keine Quests"
+Inst199QAH = "Keine Quests"
 
 
 
