@@ -1,11 +1,8 @@
 Stuff I Want to Do:
 
-- Rename QuestIDs file to QuestData file
-
-- Move  PreQuest & FQuest icon markers to QuestData.  Info that is the same between translations should be stored in a separate file to reduce file size and workload for translators.
-
 - Make a new Icon or Marker or something for Class-specific quests, Heroic, Mythic, etc?  I don't really like using paranthesis. 
 
 
 
 Quests To Add:
+

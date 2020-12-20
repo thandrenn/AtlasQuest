@@ -7310,26 +7310,200 @@ Inst190Quest1_HORDE_Attain = "50"
 
 --------------- INST191 - The Necrotic Wake ---------------
 
+Inst191Quest1_QuestID = "60242"
+Inst191Quest1_Level = "60"
+Inst191Quest1_Attain = "60"
+
+Inst191Quest2_QuestID = "60253"
+Inst191Quest2_Level = "60"
+Inst191Quest2_Attain = "60"
+
+Inst191Quest3_QuestID = "60057"
+Inst191Quest3_Level = "51"
+Inst191Quest3_Attain = "51"
+Inst191Quest3PreQuest = "true"
+
+
+Inst191Quest1_HORDE_QuestID = "60242"
+Inst191Quest1_HORDE_Level = "60"
+Inst191Quest1_HORDE_Attain = "60"
+
+Inst191Quest2_HORDE_QuestID = "60253"
+Inst191Quest2_HORDE_Level = "60"
+Inst191Quest2_HORDE_Attain = "60"
+
+Inst191Quest3_HORDE_QuestID = "60057"
+Inst191Quest3_HORDE_Level = "51"
+Inst191Quest3_HORDE_Attain = "51"
+Inst191Quest3PreQuest_HORDE = "true"
+
+
 
 --------------- INST192 - Plaguefall ---------------
+
+Inst192Quest1_QuestID = "60248"
+Inst192Quest1_Level = "60"
+Inst192Quest1_Attain = "60"
+
+Inst192Quest2_QuestID = "60251"
+Inst192Quest2_Level = "60"
+Inst192Quest2_Attain = "60"
+
+Inst192Quest3_QuestID = "59520"
+Inst192Quest3_Level = "54"
+Inst192Quest3_Attain = "54"
+Inst192Quest3PreQuest = "true"
+
+
+Inst192Quest1_HORDE_QuestID = "60248"
+Inst192Quest1_HORDE_Level = "60"
+Inst192Quest1_HORDE_Attain = "60"
+
+Inst192Quest2_HORDE_QuestID = "60251"
+Inst192Quest2_HORDE_Level = "60"
+Inst192Quest2_HORDE_Attain = "60"
+
+Inst192Quest3_HORDE_QuestID = "59520"
+Inst192Quest3_HORDE_Level = "54"
+Inst192Quest3_HORDE_Attain = "54"
+Inst192Quest3PreQuest_HORDE = "true"
+
 
 
 --------------- INST193 - Mists of Tirna Scithe ---------------
 
+Inst193Quest1_QuestID = "60246"
+Inst193Quest1_Level = "60"
+Inst193Quest1_Attain = "60"
+
+Inst193Quest2_QuestID = "60254"
+Inst193Quest2_Level = "60"
+Inst193Quest2_Attain = "60"
+
+Inst193Quest3_QuestID = "62371"
+Inst193Quest3_Level = "56"
+Inst193Quest3_Attain = "56"
+Inst193Quest3PreQuest = "true"
+
+
+Inst193Quest1_HORDE_QuestID = "60246"
+Inst193Quest1_HORDE_Level = "60"
+Inst193Quest1_HORDE_Attain = "60"
+
+Inst193Quest2_HORDE_QuestID = "60254"
+Inst193Quest2_HORDE_Level = "60"
+Inst193Quest2_HORDE_Attain = "60"
+
+Inst193Quest3_HORDE_QuestID = "62371"
+Inst193Quest3_HORDE_Level = "56"
+Inst193Quest3_HORDE_Attain = "56"
+Inst193Quest3PreQuest_HORDE = "true"
+
+
 
 --------------- INST194 - Halls of Atonement ---------------
+
+Inst194Quest1_QuestID = "60244"
+Inst194Quest1_Level = "60"
+Inst194Quest1_Attain = "60"
+
+Inst194Quest2_QuestID = "60256"
+Inst194Quest2_Level = "60"
+Inst194Quest2_Attain = "60"
+
+
+Inst194Quest1_HORDE_QuestID = "60244"
+Inst194Quest1_HORDE_Level = "60"
+Inst194Quest1_HORDE_Attain = "60"
+
+Inst194Quest2_HORDE_QuestID = "60256"
+Inst194Quest2_HORDE_Level = "60"
+Inst194Quest2_HORDE_Attain = "60"
+
 
 
 --------------- INST195 - Theater of Pain ---------------
 
+Inst195Quest1_QuestID = "60247"
+Inst195Quest1_Level = "60"
+Inst195Quest1_Attain = "60"
+
+Inst195Quest2_QuestID = "60250"
+Inst195Quest2_Level = "60"
+Inst195Quest2_Attain = "60"
+
+
+Inst195Quest1_HORDE_QuestID = "60247"
+Inst195Quest1_HORDE_Level = "60"
+Inst195Quest1_HORDE_Attain = "60"
+
+Inst195Quest2_HORDE_QuestID = "60250"
+Inst195Quest2_HORDE_Level = "60"
+Inst195Quest2_HORDE_Attain = "60"
+
+
 
 --------------- INST196 - De Other Side ---------------
+
+Inst196Quest1_QuestID = "60245"
+Inst196Quest1_Level = "60"
+Inst196Quest1_Attain = "60"
+
+Inst196Quest2_QuestID = "60255"
+Inst196Quest2_Level = "60"
+Inst196Quest2_Attain = "60"
+
+
+Inst196Quest1_HORDE_QuestID = "60245"
+Inst196Quest1_HORDE_Level = "60"
+Inst196Quest1_HORDE_Attain = "60"
+
+Inst196Quest2_HORDE_QuestID = "60255"
+Inst196Quest2_HORDE_Level = "60"
+Inst196Quest2_HORDE_Attain = "60"
+
 
 
 --------------- INST197 - Spires of Ascension ---------------
 
+Inst197Quest1_QuestID = "60249"
+Inst197Quest1_Level = "60"
+Inst197Quest1_Attain = "60"
+
+Inst197Quest2_QuestID = "60252"
+Inst197Quest2_Level = "60"
+Inst197Quest2_Attain = "60"
+
+
+Inst197Quest1_HORDE_QuestID = "60249"
+Inst197Quest1_HORDE_Level = "60"
+Inst197Quest1_HORDE_Attain = "60"
+
+Inst197Quest2_HORDE_QuestID = "60252"
+Inst197Quest2_HORDE_Level = "60"
+Inst197Quest2_HORDE_Attain = "60"
+
+
 
 --------------- INST198 - Sanguine Depths ---------------
+
+Inst198Quest1_QuestID = "60243"
+Inst198Quest1_Level = "60"
+Inst198Quest1_Attain = "60"
+
+Inst198Quest2_QuestID = "60257"
+Inst198Quest2_Level = "60"
+Inst198Quest2_Attain = "60"
+
+
+Inst198Quest1_HORDE_QuestID = "60243"
+Inst198Quest1_HORDE_Level = "60"
+Inst198Quest1_HORDE_Attain = "60"
+
+Inst198Quest2_HORDE_QuestID = "60257"
+Inst198Quest2_HORDE_Level = "60"
+Inst198Quest2_HORDE_Attain = "60"
+
 
 
 --------------- INST199 - Castle Nathria ---------------

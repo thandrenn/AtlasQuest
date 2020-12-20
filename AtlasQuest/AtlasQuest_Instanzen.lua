@@ -506,6 +506,36 @@ function AtlasQuest_Instanzenchecken()
 
 		
 	-- Shadowlands Dungeons & Raids
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceEast") then
+		AQINSTANZ = 191;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceWest") then
+		AQINSTANZ = 192;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceStormwindCity") then
+		AQINSTANZ = 193;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAlliancePandaria") then
+		AQINSTANZ = 194;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceOutland") then
+		AQINSTANZ = 195;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceNorthrend") then
+		AQINSTANZ = 196;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceKulTiras") then
+		AQINSTANZ = 197;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceDraenor") then
+		AQINSTANZ = 198;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceBrokenIsles") then
+		AQINSTANZ = 199;
+
+
+--[[
 		
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\TheNecroticWake") then
 		AQINSTANZ = 191;
@@ -533,6 +563,8 @@ function AtlasQuest_Instanzenchecken()
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\CastleNathria") then
 		AQINSTANZ = 199;
+
+--]]
 
 		
 	-- Scenarios

@@ -9585,26 +9585,300 @@ Inst190Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
 
 --------------- INST191 - The Necrotic Wake ---------------
 
+--Quest 1 Alliance
+Inst191Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_AND..WHITE.."5 (x5)"
+--ITEM1
+Inst191Quest1ITC1 = Itemc4;
+Inst191Quest1description1 = AQITEM_REPUTATION
+Inst191Quest1ID1 = ""
+--ITEM2
+Inst191Quest1ITC2 = Itemc4;
+Inst191Quest1description2 = AQITEM_REPUTATION
+Inst191Quest1ID2 = ""
+--ITEM3
+Inst191Quest1ITC3 = Itemc4;
+Inst191Quest1description3 = AQITEM_REPUTATION
+Inst191Quest1ID3 = ""
+--ITEM4
+Inst191Quest1ITC4 = Itemc4;
+Inst191Quest1description4 = AQITEM_REPUTATION
+Inst191Quest1ID4 = ""
+--ITEM5
+Inst191Quest1ITC5 = Itemc4;
+Inst191Quest1description5 = AQITEM_ANIMA
+Inst191Quest1ID5 = "184374"
+
+--Quest 2 Alliance
+Inst191Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst191Quest2ITC1 = Itemc4;
+Inst191Quest2description1 = AQITEM_ANIMA
+Inst191Quest2ID1 = "184374"
+
+--Quest 3 Alliance
+Inst191Quest3Rewardtext = AQClassRewards
+
+
+--Quest 1 Horde
+Inst191Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst191Quest1ITC1_HORDE = Itemc4;
+Inst191Quest1description1_HORDE = AQITEM_ANIMA
+Inst191Quest1ID1_HORDE = "184374"
+
+--Quest 2 Horde
+Inst191Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst191Quest2ITC1_HORDE = Itemc4;
+Inst191Quest2description1_HORDE = AQITEM_ANIMA
+Inst191Quest2ID1_HORDE = "184374"
+
+--Quest 3 Horde
+Inst191Quest3Rewardtext_HORDE = AQClassRewards
+
+
 
 --------------- INST192 - Plaguefall ---------------
+
+--Quest 1 Alliance
+Inst192Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst192Quest1ITC1 = Itemc4;
+Inst192Quest1description1 = AQITEM_ANIMA
+Inst192Quest1ID1 = "184374"
+
+--Quest 2 Alliance
+Inst192Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst192Quest2ITC1 = Itemc4;
+Inst192Quest2description1 = AQITEM_ANIMA
+Inst192Quest2ID1 = "184374"
+
+--Quest 3 Alliance
+Inst192Quest3Rewardtext = AQClassRewards
+
+
+--Quest 1 Horde
+Inst192Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst192Quest1ITC1_HORDE = Itemc4;
+Inst192Quest1description1_HORDE = AQITEM_ANIMA
+Inst192Quest1ID1_HORDE = "184374"
+
+--Quest 2 Horde
+Inst192Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst192Quest2ITC1_HORDE = Itemc4;
+Inst192Quest2description1_HORDE = AQITEM_ANIMA
+Inst192Quest2ID1_HORDE = "184374"
+
+--Quest 3 Horde
+Inst192Quest3Rewardtext_HORDE = AQClassRewards
+
 
 
 --------------- INST193 - Mists of Tirna Scithe ---------------
 
+--Quest 1 Alliance
+Inst193Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst193Quest1ITC1 = Itemc4;
+Inst193Quest1description1 = AQITEM_ANIMA
+Inst193Quest1ID1 = "184374"
+
+--Quest 2 Alliance
+Inst193Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst193Quest2ITC1 = Itemc4;
+Inst193Quest2description1 = AQITEM_ANIMA
+Inst193Quest2ID1 = "184374"
+
+--Quest 3 Alliance
+Inst193Quest3Rewardtext = AQClassRewards
+
+
+--Quest 1 Horde
+Inst193Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst193Quest1ITC1_HORDE = Itemc4;
+Inst193Quest1description1_HORDE = AQITEM_ANIMA
+Inst193Quest1ID1_HORDE = "184374"
+
+--Quest 2 Horde
+Inst193Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst193Quest2ITC1_HORDE = Itemc4;
+Inst193Quest2description1_HORDE = AQITEM_ANIMA
+Inst193Quest2ID1_HORDE = "184374"
+
+--Quest 3 Horde
+Inst193Quest3Rewardtext_HORDE = AQClassRewards
+
+
 
 --------------- INST194 - Halls of Atonement ---------------
+
+--Quest 1 Alliance
+Inst194Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst194Quest1ITC1 = Itemc4;
+Inst194Quest1description1 = AQITEM_ANIMA
+Inst194Quest1ID1 = "184374"
+
+--Quest 2 Alliance
+Inst194Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst194Quest2ITC1 = Itemc4;
+Inst194Quest2description1 = AQITEM_ANIMA
+Inst194Quest2ID1 = "184374"
+
+
+--Quest 1 Horde
+Inst194Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst194Quest1ITC1_HORDE = Itemc4;
+Inst194Quest1description1_HORDE = AQITEM_ANIMA
+Inst194Quest1ID1_HORDE = "184374"
+
+--Quest 2 Horde
+Inst194Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst194Quest2ITC1_HORDE = Itemc4;
+Inst194Quest2description1_HORDE = AQITEM_ANIMA
+Inst194Quest2ID1_HORDE = "184374"
+
 
 
 --------------- INST195 - Theater of Pain ---------------
 
+--Quest 1 Alliance
+Inst195Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst195Quest1ITC1 = Itemc4;
+Inst195Quest1description1 = AQITEM_ANIMA
+Inst195Quest1ID1 = "184374"
+
+--Quest 2 Alliance
+Inst195Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst195Quest2ITC1 = Itemc4;
+Inst195Quest2description1 = AQITEM_ANIMA
+Inst195Quest2ID1 = "184374"
+
+
+--Quest 1 Horde
+Inst195Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst195Quest1ITC1_HORDE = Itemc4;
+Inst195Quest1description1_HORDE = AQITEM_ANIMA
+Inst195Quest1ID1_HORDE = "184374"
+
+--Quest 2 Horde
+Inst195Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst195Quest2ITC1_HORDE = Itemc4;
+Inst195Quest2description1_HORDE = AQITEM_ANIMA
+Inst195Quest2ID1_HORDE = "184374"
+
+
 
 --------------- INST196 - De Other Side ---------------
+
+--Quest 1 Alliance
+Inst196Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst196Quest1ITC1 = Itemc4;
+Inst196Quest1description1 = AQITEM_ANIMA
+Inst196Quest1ID1 = "184374"
+
+--Quest 2 Alliance
+Inst196Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst196Quest2ITC1 = Itemc4;
+Inst196Quest2description1 = AQITEM_ANIMA
+Inst196Quest2ID1 = "184374"
+
+
+--Quest 1 Horde
+Inst196Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst196Quest1ITC1_HORDE = Itemc4;
+Inst196Quest1description1_HORDE = AQITEM_ANIMA
+Inst196Quest1ID1_HORDE = "184374"
+
+--Quest 2 Horde
+Inst196Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst196Quest2ITC1_HORDE = Itemc4;
+Inst196Quest2description1_HORDE = AQITEM_ANIMA
+Inst196Quest2ID1_HORDE = "184374"
+
 
 
 --------------- INST197 - Spires of Ascension ---------------
 
+--Quest 1 Alliance
+Inst197Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst197Quest1ITC1 = Itemc4;
+Inst197Quest1description1 = AQITEM_ANIMA
+Inst197Quest1ID1 = "184374"
+
+--Quest 2 Alliance
+Inst197Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst197Quest2ITC1 = Itemc4;
+Inst197Quest2description1 = AQITEM_ANIMA
+Inst197Quest2ID1 = "184374"
+
+
+--Quest 1 Horde
+Inst197Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst197Quest1ITC1_HORDE = Itemc4;
+Inst197Quest1description1_HORDE = AQITEM_ANIMA
+Inst197Quest1ID1_HORDE = "184374"
+
+--Quest 2 Horde
+Inst197Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst197Quest2ITC1_HORDE = Itemc4;
+Inst197Quest2description1_HORDE = AQITEM_ANIMA
+Inst197Quest2ID1_HORDE = "184374"
+
+
 
 --------------- INST198 - Sanguine Depths ---------------
+
+--Quest 1 Alliance
+Inst198Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst198Quest1ITC1 = Itemc4;
+Inst198Quest1description1 = AQITEM_ANIMA
+Inst198Quest1ID1 = "184374"
+
+--Quest 2 Alliance
+Inst198Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst198Quest2ITC1 = Itemc4;
+Inst198Quest2description1 = AQITEM_ANIMA
+Inst198Quest2ID1 = "184374"
+
+
+--Quest 1 Horde
+Inst198Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst198Quest1ITC1_HORDE = Itemc4;
+Inst198Quest1description1_HORDE = AQITEM_ANIMA
+Inst198Quest1ID1_HORDE = "184374"
+
+--Quest 2 Horde
+Inst198Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
+--ITEM1
+Inst198Quest2ITC1_HORDE = Itemc4;
+Inst198Quest2description1_HORDE = AQITEM_ANIMA
+Inst198Quest2ID1_HORDE = "184374"
+
 
 
 --------------- INST199 - Castle Nathria ---------------

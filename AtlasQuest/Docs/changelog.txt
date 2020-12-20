@@ -11,6 +11,33 @@ KNOWN ISSUES:
 
 
 
+Version 4.12.02  (for Shadowlands)  (December ??, 2020)
+
+- TOC update for Patch 9.0.2.
+
+- Added quests:
+	- Trading Favors: Halls of Atonement
+	- Trading Favors: Necrotic Wake
+	- Trading Favors: Plaguefall
+	- Trading Favors: Sanguine Depths
+	- Trading Favors: The Other Side
+	- Trading Favors: Theater of Pain
+	- Trading Favors: Tirna Scithe
+	- A Valuable Find: Halls of Atonement
+	- A Valuable Find: Necrotic Wake
+	- A Valuable Find: Plaguefall
+	- A Valuable Find: Sanguine Depths
+	- A Valuable Find: Spires of Ascension
+	- A Valuable Find: The Other Side
+	- A Valuable Find: Theater of Pain
+	- A Valuable Find: Tirna Scithe
+	- Necrotic Wake: A Paragon's Plight
+	- Plaguefall: Knee Deep In It
+	- Tirna Scithe: A Warning Silence
+
+
+
+
 Version 4.12.01  (for Shadowlands)  (November 11, 2020)
 
 - TOC update for Patch 9.0.1.

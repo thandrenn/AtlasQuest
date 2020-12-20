@@ -169,6 +169,8 @@ AQITEM_RING = "Ring"
 AQITEM_GEM = "Gem"
 AQITEM_ENCHANT = "Enchant"
 AQITEM_SPELL = "Spell"
+AQITEM_ANIMA = "Anima"
+AQITEM_REPUTATION = "Reputation"
 
 
 
