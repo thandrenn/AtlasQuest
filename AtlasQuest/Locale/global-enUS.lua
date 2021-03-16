@@ -170,6 +170,7 @@ AQITEM_GEM = "Gem"
 AQITEM_ENCHANT = "Enchant"
 AQITEM_SPELL = "Spell"
 AQITEM_ANIMA = "Anima"
+AQITEM_RENOWN = "Renown"
 AQITEM_REPUTATION = "Reputation"
 
 

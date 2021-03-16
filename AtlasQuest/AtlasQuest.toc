@@ -1,4 +1,4 @@
-﻿## Interface: 90002
+﻿## Interface: 90005
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -21,7 +21,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE
-## X-Date: November 11, 2020
+## X-Date: March ??, 2021
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
 ## OptionalDeps: 

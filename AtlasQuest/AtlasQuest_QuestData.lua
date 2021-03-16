@@ -7411,6 +7411,11 @@ Inst194Quest2_QuestID = "60256"
 Inst194Quest2_Level = "60"
 Inst194Quest2_Attain = "60"
 
+Inst194Quest3_QuestID = "58092"
+Inst194Quest3_Level = "60"
+Inst194Quest3_Attain = "60"
+Inst194Quest3PreQuest = "true"
+
 
 Inst194Quest1_HORDE_QuestID = "60244"
 Inst194Quest1_HORDE_Level = "60"
@@ -7419,6 +7424,11 @@ Inst194Quest1_HORDE_Attain = "60"
 Inst194Quest2_HORDE_QuestID = "60256"
 Inst194Quest2_HORDE_Level = "60"
 Inst194Quest2_HORDE_Attain = "60"
+
+Inst194Quest3_HORDE_QuestID = "58092"
+Inst194Quest3_HORDE_Level = "60"
+Inst194Quest3_HORDE_Attain = "60"
+Inst194Quest3PreQuest_HORDE = "true"
 
 
 
@@ -7432,6 +7442,11 @@ Inst195Quest2_QuestID = "60250"
 Inst195Quest2_Level = "60"
 Inst195Quest2_Attain = "60"
 
+Inst195Quest3_QuestID = "58095"
+Inst195Quest3_Level = "60"
+Inst195Quest3_Attain = "60"
+Inst195Quest3PreQuest = "true"
+
 
 Inst195Quest1_HORDE_QuestID = "60247"
 Inst195Quest1_HORDE_Level = "60"
@@ -7440,6 +7455,11 @@ Inst195Quest1_HORDE_Attain = "60"
 Inst195Quest2_HORDE_QuestID = "60250"
 Inst195Quest2_HORDE_Level = "60"
 Inst195Quest2_HORDE_Attain = "60"
+
+Inst195Quest3_HORDE_QuestID = "58095"
+Inst195Quest3_HORDE_Level = "60"
+Inst195Quest3_HORDE_Attain = "60"
+Inst195Quest3PreQuest_HORDE = "true"
 
 
 
@@ -7474,6 +7494,11 @@ Inst197Quest2_QuestID = "60252"
 Inst197Quest2_Level = "60"
 Inst197Quest2_Attain = "60"
 
+Inst197Quest3_QuestID = "58798"
+Inst197Quest3_Level = "60"
+Inst197Quest3_Attain = "60"
+Inst197Quest3PreQuest = "true"
+
 
 Inst197Quest1_HORDE_QuestID = "60249"
 Inst197Quest1_HORDE_Level = "60"
@@ -7482,6 +7507,11 @@ Inst197Quest1_HORDE_Attain = "60"
 Inst197Quest2_HORDE_QuestID = "60252"
 Inst197Quest2_HORDE_Level = "60"
 Inst197Quest2_HORDE_Attain = "60"
+
+Inst197Quest3_HORDE_QuestID = "58798"
+Inst197Quest3_HORDE_Level = "60"
+Inst197Quest3_HORDE_Attain = "60"
+Inst197Quest3PreQuest_HORDE = "true"
 
 
 

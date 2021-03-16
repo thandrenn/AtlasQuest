@@ -11,9 +11,9 @@ KNOWN ISSUES:
 
 
 
-Version 4.12.02  (for Shadowlands)  (December ??, 2020)
+Version 4.12.02  (for Shadowlands)  (March ??, 2021)
 
-- TOC update for Patch 9.0.2.
+- TOC update for Patch 9.0.5.
 
 - Added quests:
 	- Trading Favors: Halls of Atonement
@@ -34,6 +34,9 @@ Version 4.12.02  (for Shadowlands)  (December ??, 2020)
 	- Necrotic Wake: A Paragon's Plight
 	- Plaguefall: Knee Deep In It
 	- Tirna Scithe: A Warning Silence
+	- Spires of Ascension: The Spires of Ascension
+	- Halls of Atonement: Your Absolution
+	- Theater of Pain: Help Wanted
 
 
 

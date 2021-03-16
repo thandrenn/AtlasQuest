@@ -9732,6 +9732,13 @@ Inst194Quest2ITC1 = Itemc4;
 Inst194Quest2description1 = AQITEM_ANIMA
 Inst194Quest2ID1 = "184374"
 
+--Quest 3 Alliance
+Inst194Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst194Quest3ITC1 = Itemc4;
+Inst194Quest3description1 = AQITEM_BACK
+Inst194Quest3ID1 = "184717"
+
 
 --Quest 1 Horde
 Inst194Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
@@ -9746,6 +9753,13 @@ Inst194Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
 Inst194Quest2ITC1_HORDE = Itemc4;
 Inst194Quest2description1_HORDE = AQITEM_ANIMA
 Inst194Quest2ID1_HORDE = "184374"
+
+--Quest 3 Horde
+Inst194Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst194Quest3ITC1_HORDE = Itemc4;
+Inst194Quest3description1_HORDE = AQITEM_BACK
+Inst194Quest3ID1_HORDE = "184717"
 
 
 
@@ -9765,6 +9779,13 @@ Inst195Quest2ITC1 = Itemc4;
 Inst195Quest2description1 = AQITEM_ANIMA
 Inst195Quest2ID1 = "184374"
 
+--Quest 3 Alliance
+Inst195Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst195Quest3ITC1 = Itemc5;
+Inst195Quest3description1 = AQITEM_ANIMA
+Inst195Quest3ID1 = "181646"
+
 
 --Quest 1 Horde
 Inst195Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
@@ -9779,6 +9800,13 @@ Inst195Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
 Inst195Quest2ITC1_HORDE = Itemc4;
 Inst195Quest2description1_HORDE = AQITEM_ANIMA
 Inst195Quest2ID1_HORDE = "184374"
+
+--Quest 3 Horde
+Inst195Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst195Quest3ITC1_HORDE = Itemc5;
+Inst195Quest3description1_HORDE = AQITEM_ANIMA
+Inst195Quest3ID1_HORDE = "181646"
 
 
 
@@ -9831,6 +9859,13 @@ Inst197Quest2ITC1 = Itemc4;
 Inst197Quest2description1 = AQITEM_ANIMA
 Inst197Quest2ID1 = "184374"
 
+--Quest 3 Alliance
+Inst197Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..AQITEM_RENOWN
+--ITEM1
+Inst197Quest3ITC1 = Itemc5;
+Inst197Quest3description1 = AQITEM_ANIMA
+Inst197Quest3ID1 = "181743"
+
 
 --Quest 1 Horde
 Inst197Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
@@ -9845,6 +9880,13 @@ Inst197Quest2Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1 (x5)"
 Inst197Quest2ITC1_HORDE = Itemc4;
 Inst197Quest2description1_HORDE = AQITEM_ANIMA
 Inst197Quest2ID1_HORDE = "184374"
+
+--Quest 3 Horde
+Inst197Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..AQITEM_RENOWN
+--ITEM1
+Inst197Quest3ITC1_HORDE = Itemc5;
+Inst197Quest3description1_HORDE = AQITEM_ANIMA
+Inst197Quest3ID1_HORDE = "181743"
 
 
 

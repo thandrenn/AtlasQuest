@@ -78,7 +78,7 @@ Inst191Quest1name5 = "Kartellaustauschgef‰ﬂ"
 
 --Quest 2 Alliance
 Inst191Quest2 = "2. Wertvoller Fund: Nekrotische Schneise"
-Inst191Quest2_Aim = "Beschafft "Der Ursprung des Todes" von Nalthor dem Eisbinder in der Nekrotischen Schneise."
+Inst191Quest2_Aim = "Beschafft 'Der Ursprung des Todes' von Nalthor dem Eisbinder in der Nekrotischen Schneise."
 Inst191Quest2_Location = "Ta'lan der Antiquar (Oribos; "..YELLOW.."51.2, 44.2"..WHITE..")"
 Inst191Quest2_Note = ""
 Inst191Quest2_Prequest = "Nein"

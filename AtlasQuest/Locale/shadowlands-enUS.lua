@@ -311,8 +311,8 @@ Inst193Quest3_HORDE_Folgequest = Inst193Quest3_Folgequest
 --------------- INST194 - Halls of Atonement ---------------
 
 Inst194Caption = "Halls of Atonement"
-Inst194QAA = "2 Quests"
-Inst194QAH = "2 Quests"
+Inst194QAA = "3 Quests"
+Inst194QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst194Quest1 = "1. Trading Favors: Halls of Atonement"
@@ -341,6 +341,16 @@ Inst194Quest2name2 = "Undying Army Commendation"
 Inst194Quest2name3 = "Wild Hunt Commendation"
 Inst194Quest2name4 = "Court of Harvesters Commendation"
 Inst194Quest2name5 = "Cartel Exchange Vessel"
+
+--Quest 3 Alliance
+Inst194Quest3 = "3. Halls of Atonement: Your Absolution"
+Inst194Quest3_Aim = "Kill the Lord Chamberlain inside the Halls of Atonement."
+Inst194Quest3_Location = "Archivist Fane (Revendreth - Halls of Atonement;"..YELLOW.."73.0, 52.0"..WHITE..")"
+Inst194Quest3_Note = "Part of 'The Final Atonement' questline in Revendreth.  Lord Chamberlain is the final boss.  The quest turns in to Gresit in Revendreth at "..YELLOW.."71.8, 40.4"..WHITE.."."
+Inst194Quest3_Prequest = "An Abuse of Power -> Hunting an Inquisitor"
+Inst194Quest3_Folgequest = "Missing Stone Fiend"
+--
+Inst194Quest3name1 = "Lord Chamberlain's Cloak"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -371,13 +381,23 @@ Inst194Quest2name3_HORDE = Inst194Quest2name3
 Inst194Quest2name4_HORDE = Inst194Quest2name4
 Inst194Quest2name5_HORDE = Inst194Quest2name5
 
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst194Quest3_HORDE = Inst194Quest3
+Inst194Quest3_HORDE_Aim = Inst194Quest3_Aim
+Inst194Quest3_HORDE_Location = Inst194Quest3_Location
+Inst194Quest3_HORDE_Note = Inst194Quest3_Note
+Inst194Quest3_HORDE_Prequest = Inst194Quest3_Prequest
+Inst194Quest3_HORDE_Folgequest = Inst194Quest3_Folgequest
+--
+Inst194Quest3name1_HORDE = Inst194Quest3name1
+
 
 
 --------------- INST195 - Theater of Pain ---------------
 
 Inst195Caption = "Theater of Pain"
-Inst195QAA = "2 Quests"
-Inst195QAH = "2 Quests"
+Inst195QAA = "3 Quests"
+Inst195QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst195Quest1 = "1. Trading Favors: Theater of Pain"
@@ -407,6 +427,16 @@ Inst195Quest2name3 = "Wild Hunt Commendation"
 Inst195Quest2name4 = "Court of Harvesters Commendation"
 Inst195Quest2name5 = "Cartel Exchange Vessel"
 
+--Quest 3 Alliance
+Inst195Quest3 = "3. Theater of Pain: Help Wanted"
+Inst195Quest3_Aim = "Enter the Theater of Pain dungeon, and defeat the champions within."
+Inst195Quest3_Location = "Overseer Kalvaros (Maldraxxus; "..YELLOW.."54.0, 50.8"..WHITE..")"
+Inst195Quest3_Note = "Defeat all of the bosses in the dungeon to complete the quest and return to the quest giver."
+Inst195Quest3_Prequest = "Side Effects"
+Inst195Quest3_Folgequest = "None"
+--
+Inst195Quest3name1 = "Bound Failsafe Phylactery"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst195Quest1_HORDE = Inst195Quest1
@@ -435,6 +465,16 @@ Inst195Quest2name2_HORDE = Inst195Quest2name2
 Inst195Quest2name3_HORDE = Inst195Quest2name3
 Inst195Quest2name4_HORDE = Inst195Quest2name4
 Inst195Quest2name5_HORDE = Inst195Quest2name5
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst195Quest3_HORDE = Inst195Quest3
+Inst195Quest3_HORDE_Aim = Inst195Quest3_Aim
+Inst195Quest3_HORDE_Location = Inst195Quest3_Location
+Inst195Quest3_HORDE_Note = Inst195Quest3_Note
+Inst195Quest3_HORDE_Prequest = Inst195Quest3_Prequest
+Inst195Quest3_HORDE_Folgequest = Inst195Quest3_Folgequest
+--
+Inst195Quest3name1_HORDE = Inst195Quest3name1
 
 
 
@@ -506,8 +546,8 @@ Inst196Quest2name5_HORDE = Inst196Quest2name5
 --------------- INST197 - Spires of Ascension ---------------
 
 Inst197Caption = "Spires of Ascension"
-Inst197QAA = "2 Quests"
-Inst197QAH = "2 Quests"
+Inst197QAA = "3 Quests"
+Inst197QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst197Quest1 = "1. Trading Favors: Spires of Ascension"
@@ -537,6 +577,16 @@ Inst197Quest2name3 = "Wild Hunt Commendation"
 Inst197Quest2name4 = "Court of Harvesters Commendation"
 Inst197Quest2name5 = "Cartel Exchange Vessel"
 
+--Quest 3 Alliance
+Inst197Quest3 = "3. The Spires of Ascension"
+Inst197Quest3_Aim = "Kill Devos, Paragon of Doubt in the Spires of Ascension."
+Inst197Quest3_Location = "Kleia (Bastion - Elysian Hold; "..YELLOW.."66.4, 16.6"..WHITE..")"
+Inst197Quest3_Note = "Part of the Kyrian Convenant story questline.  Devos is the final boss in the dungeon."
+Inst197Quest3_Prequest = "Trial of Ascension -> Forged by Trial"
+Inst197Quest3_Folgequest = "None"
+--
+Inst197Quest3name1 = "Plume of the Archon"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst197Quest1_HORDE = Inst197Quest1
@@ -565,6 +615,16 @@ Inst197Quest2name2_HORDE = Inst197Quest2name2
 Inst197Quest2name3_HORDE = Inst197Quest2name3
 Inst197Quest2name4_HORDE = Inst197Quest2name4
 Inst197Quest2name5_HORDE = Inst197Quest2name5
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst197Quest3_HORDE = Inst197Quest3
+Inst197Quest3_HORDE_Aim = Inst197Quest3_Aim
+Inst197Quest3_HORDE_Location = Inst197Quest3_Location
+Inst197Quest3_HORDE_Note = Inst197Quest3_Note
+Inst197Quest3_HORDE_Prequest = Inst197Quest3_Prequest
+Inst197Quest3_HORDE_Folgequest = Inst197Quest3_Folgequest
+--
+Inst197Quest3name1_HORDE = Inst197Quest3name1
 
 
 
