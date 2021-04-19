@@ -9586,27 +9586,11 @@ Inst190Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."3000"..AQAZERITE
 --------------- INST191 - The Necrotic Wake ---------------
 
 --Quest 1 Alliance
-Inst191Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_AND..WHITE.."5 (x5)"
---ITEM1
-Inst191Quest1ITC1 = Itemc4;
-Inst191Quest1description1 = AQITEM_REPUTATION
-Inst191Quest1ID1 = ""
---ITEM2
-Inst191Quest1ITC2 = Itemc4;
-Inst191Quest1description2 = AQITEM_REPUTATION
-Inst191Quest1ID2 = ""
---ITEM3
-Inst191Quest1ITC3 = Itemc4;
-Inst191Quest1description3 = AQITEM_REPUTATION
-Inst191Quest1ID3 = ""
---ITEM4
-Inst191Quest1ITC4 = Itemc4;
-Inst191Quest1description4 = AQITEM_REPUTATION
-Inst191Quest1ID4 = ""
+Inst191Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"
 --ITEM5
-Inst191Quest1ITC5 = Itemc4;
-Inst191Quest1description5 = AQITEM_ANIMA
-Inst191Quest1ID5 = "184374"
+Inst191Quest1ITC1 = Itemc4;
+Inst191Quest1description1 = AQITEM_ANIMA
+Inst191Quest1ID1 = "184374"
 
 --Quest 2 Alliance
 Inst191Quest2Rewardtext = AQDiscription_REWARD..WHITE.."1 (x5)"

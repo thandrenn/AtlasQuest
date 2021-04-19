@@ -67,11 +67,7 @@ Inst191Quest1_Note = ""
 Inst191Quest1_Prequest = "None"
 Inst191Quest1_Folgequest = "None"
 --
-Inst191Quest1name1 = "Ascended Commendation"
-Inst191Quest1name2 = "Undying Army Commendation"
-Inst191Quest1name3 = "Wild Hunt Commendation"
-Inst191Quest1name4 = "Court of Harvesters Commendation"
-Inst191Quest1name5 = "Cartel Exchange Vessel"
+Inst191Quest1name1 = "Cartel Exchange Vessel"
 
 --Quest 2 Alliance
 Inst191Quest2 = "2. A Valuable Find: Necrotic Wake"
@@ -81,11 +77,7 @@ Inst191Quest2_Note = ""
 Inst191Quest2_Prequest = "None"
 Inst191Quest2_Folgequest = "None"
 --
-Inst191Quest2name1 = "Ascended Commendation"
-Inst191Quest2name2 = "Undying Army Commendation"
-Inst191Quest2name3 = "Wild Hunt Commendation"
-Inst191Quest2name4 = "Court of Harvesters Commendation"
-Inst191Quest2name5 = "Cartel Exchange Vessel"
+Inst191Quest2name1 = "Cartel Exchange Vessel"
 
 --Quest 3 Alliance
 Inst191Quest3 = "3. Necrotic Wake: A Paragon's Plight"
@@ -107,10 +99,6 @@ Inst191Quest1_HORDE_Prequest = Inst191Quest1_Prequest
 Inst191Quest1_HORDE_Folgequest = Inst191Quest1_Folgequest
 --
 Inst191Quest1name1_HORDE = Inst191Quest1name1
-Inst191Quest1name2_HORDE = Inst191Quest1name2
-Inst191Quest1name3_HORDE = Inst191Quest1name3
-Inst191Quest1name4_HORDE = Inst191Quest1name4
-Inst191Quest1name5_HORDE = Inst191Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst191Quest2_HORDE = Inst191Quest2
@@ -121,10 +109,6 @@ Inst191Quest2_HORDE_Prequest = Inst191Quest2_Prequest
 Inst191Quest2_HORDE_Folgequest = Inst191Quest2_Folgequest
 --
 Inst191Quest2name1_HORDE = Inst191Quest2name1
-Inst191Quest2name2_HORDE = Inst191Quest2name2
-Inst191Quest2name3_HORDE = Inst191Quest2name3
-Inst191Quest2name4_HORDE = Inst191Quest2name4
-Inst191Quest2name5_HORDE = Inst191Quest2name5
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst191Quest3_HORDE = Inst191Quest3
@@ -152,11 +136,7 @@ Inst192Quest1_Note = ""
 Inst192Quest1_Prequest = "None"
 Inst192Quest1_Folgequest = "None"
 --
-Inst192Quest1name1 = "Ascended Commendation"
-Inst192Quest1name2 = "Undying Army Commendation"
-Inst192Quest1name3 = "Wild Hunt Commendation"
-Inst192Quest1name4 = "Court of Harvesters Commendation"
-Inst192Quest1name5 = "Cartel Exchange Vessel"
+Inst192Quest1name1 = "Cartel Exchange Vessel"
 
 --Quest 2 Alliance
 Inst192Quest2 = "2. A Valuable Find: Plaguefall"
@@ -166,11 +146,7 @@ Inst192Quest2_Note = ""
 Inst192Quest2_Prequest = "None"
 Inst192Quest2_Folgequest = "None"
 --
-Inst192Quest2name1 = "Ascended Commendation"
-Inst192Quest2name2 = "Undying Army Commendation"
-Inst192Quest2name3 = "Wild Hunt Commendation"
-Inst192Quest2name4 = "Court of Harvesters Commendation"
-Inst192Quest2name5 = "Cartel Exchange Vessel"
+Inst192Quest2name1 = "Cartel Exchange Vessel"
 
 --Quest 3 Alliance
 Inst192Quest3 = "3. Plaguefall: Knee Deep In It"
@@ -192,10 +168,6 @@ Inst192Quest1_HORDE_Prequest = Inst192Quest1_Prequest
 Inst192Quest1_HORDE_Folgequest = Inst192Quest1_Folgequest
 --
 Inst192Quest1name1_HORDE = Inst192Quest1name1
-Inst192Quest1name2_HORDE = Inst192Quest1name2
-Inst192Quest1name3_HORDE = Inst192Quest1name3
-Inst192Quest1name4_HORDE = Inst192Quest1name4
-Inst192Quest1name5_HORDE = Inst192Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst192Quest2_HORDE = Inst192Quest2
@@ -206,10 +178,6 @@ Inst192Quest2_HORDE_Prequest = Inst192Quest2_Prequest
 Inst192Quest2_HORDE_Folgequest = Inst192Quest2_Folgequest
 --
 Inst192Quest2name1_HORDE = Inst192Quest2name1
-Inst192Quest2name2_HORDE = Inst192Quest2name2
-Inst192Quest2name3_HORDE = Inst192Quest2name3
-Inst192Quest2name4_HORDE = Inst192Quest2name4
-Inst192Quest2name5_HORDE = Inst192Quest2name5
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst192Quest3_HORDE = Inst192Quest3
@@ -237,11 +205,7 @@ Inst193Quest1_Note = ""
 Inst193Quest1_Prequest = "None"
 Inst193Quest1_Folgequest = "None"
 --
-Inst193Quest1name1 = "Ascended Commendation"
-Inst193Quest1name2 = "Undying Army Commendation"
-Inst193Quest1name3 = "Wild Hunt Commendation"
-Inst193Quest1name4 = "Court of Harvesters Commendation"
-Inst193Quest1name5 = "Cartel Exchange Vessel"
+Inst193Quest1name1 = "Cartel Exchange Vessel"
 
 --Quest 2 Alliance
 Inst193Quest2 = "2. A Valuable Find: Tirna Scithe"
@@ -251,11 +215,7 @@ Inst193Quest2_Note = ""
 Inst193Quest2_Prequest = "None"
 Inst193Quest2_Folgequest = "None"
 --
-Inst193Quest2name1 = "Ascended Commendation"
-Inst193Quest2name2 = "Undying Army Commendation"
-Inst193Quest2name3 = "Wild Hunt Commendation"
-Inst193Quest2name4 = "Court of Harvesters Commendation"
-Inst193Quest2name5 = "Cartel Exchange Vessel"
+Inst193Quest2name1 = "Cartel Exchange Vessel"
 
 --Quest 3 Alliance
 Inst193Quest3 = "3. Tirna Scithe: A Warning Silence"
@@ -277,10 +237,6 @@ Inst193Quest1_HORDE_Prequest = Inst193Quest1_Prequest
 Inst193Quest1_HORDE_Folgequest = Inst193Quest1_Folgequest
 --
 Inst193Quest1name1_HORDE = Inst193Quest1name1
-Inst193Quest1name2_HORDE = Inst193Quest1name2
-Inst193Quest1name3_HORDE = Inst193Quest1name3
-Inst193Quest1name4_HORDE = Inst193Quest1name4
-Inst193Quest1name5_HORDE = Inst193Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst193Quest2_HORDE = Inst193Quest2
@@ -291,10 +247,6 @@ Inst193Quest2_HORDE_Prequest = Inst193Quest2_Prequest
 Inst193Quest2_HORDE_Folgequest = Inst193Quest2_Folgequest
 --
 Inst193Quest2name1_HORDE = Inst193Quest2name1
-Inst193Quest2name2_HORDE = Inst193Quest2name2
-Inst193Quest2name3_HORDE = Inst193Quest2name3
-Inst193Quest2name4_HORDE = Inst193Quest2name4
-Inst193Quest2name5_HORDE = Inst193Quest2name5
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst193Quest3_HORDE = Inst193Quest3
@@ -322,11 +274,7 @@ Inst194Quest1_Note = ""
 Inst194Quest1_Prequest = "None"
 Inst194Quest1_Folgequest = "None"
 --
-Inst194Quest1name1 = "Ascended Commendation"
-Inst194Quest1name2 = "Undying Army Commendation"
-Inst194Quest1name3 = "Wild Hunt Commendation"
-Inst194Quest1name4 = "Court of Harvesters Commendation"
-Inst194Quest1name5 = "Cartel Exchange Vessel"
+Inst194Quest1name1 = "Cartel Exchange Vessel"
 
 --Quest 2 Alliance
 Inst194Quest2 = "2. A Valuable Find: Halls of Atonement"
@@ -336,11 +284,7 @@ Inst194Quest2_Note = ""
 Inst194Quest2_Prequest = "None"
 Inst194Quest2_Folgequest = "None"
 --
-Inst194Quest2name1 = "Ascended Commendation"
-Inst194Quest2name2 = "Undying Army Commendation"
-Inst194Quest2name3 = "Wild Hunt Commendation"
-Inst194Quest2name4 = "Court of Harvesters Commendation"
-Inst194Quest2name5 = "Cartel Exchange Vessel"
+Inst194Quest2name1 = "Cartel Exchange Vessel"
 
 --Quest 3 Alliance
 Inst194Quest3 = "3. Halls of Atonement: Your Absolution"
@@ -362,10 +306,6 @@ Inst194Quest1_HORDE_Prequest = Inst194Quest1_Prequest
 Inst194Quest1_HORDE_Folgequest = Inst194Quest1_Folgequest
 --
 Inst194Quest1name1_HORDE = Inst194Quest1name1
-Inst194Quest1name2_HORDE = Inst194Quest1name2
-Inst194Quest1name3_HORDE = Inst194Quest1name3
-Inst194Quest1name4_HORDE = Inst194Quest1name4
-Inst194Quest1name5_HORDE = Inst194Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst194Quest2_HORDE = Inst194Quest2
@@ -376,10 +316,6 @@ Inst194Quest2_HORDE_Prequest = Inst194Quest2_Prequest
 Inst194Quest2_HORDE_Folgequest = Inst194Quest2_Folgequest
 --
 Inst194Quest2name1_HORDE = Inst194Quest2name1
-Inst194Quest2name2_HORDE = Inst194Quest2name2
-Inst194Quest2name3_HORDE = Inst194Quest2name3
-Inst194Quest2name4_HORDE = Inst194Quest2name4
-Inst194Quest2name5_HORDE = Inst194Quest2name5
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst194Quest3_HORDE = Inst194Quest3
@@ -407,11 +343,7 @@ Inst195Quest1_Note = ""
 Inst195Quest1_Prequest = "None"
 Inst195Quest1_Folgequest = "None"
 --
-Inst195Quest1name1 = "Ascended Commendation"
-Inst195Quest1name2 = "Undying Army Commendation"
-Inst195Quest1name3 = "Wild Hunt Commendation"
-Inst195Quest1name4 = "Court of Harvesters Commendation"
-Inst195Quest1name5 = "Cartel Exchange Vessel"
+Inst195Quest1name1 = "Cartel Exchange Vessel"
 
 --Quest 2 Alliance
 Inst195Quest2 = "2. A Valuable Find: Theater of Pain"
@@ -421,11 +353,7 @@ Inst195Quest2_Note = ""
 Inst195Quest2_Prequest = "None"
 Inst195Quest2_Folgequest = "None"
 --
-Inst195Quest2name1 = "Ascended Commendation"
-Inst195Quest2name2 = "Undying Army Commendation"
-Inst195Quest2name3 = "Wild Hunt Commendation"
-Inst195Quest2name4 = "Court of Harvesters Commendation"
-Inst195Quest2name5 = "Cartel Exchange Vessel"
+Inst195Quest2name1 = "Cartel Exchange Vessel"
 
 --Quest 3 Alliance
 Inst195Quest3 = "3. Theater of Pain: Help Wanted"
@@ -447,10 +375,6 @@ Inst195Quest1_HORDE_Prequest = Inst195Quest1_Prequest
 Inst195Quest1_HORDE_Folgequest = Inst195Quest1_Folgequest
 --
 Inst195Quest1name1_HORDE = Inst195Quest1name1
-Inst195Quest1name2_HORDE = Inst195Quest1name2
-Inst195Quest1name3_HORDE = Inst195Quest1name3
-Inst195Quest1name4_HORDE = Inst195Quest1name4
-Inst195Quest1name5_HORDE = Inst195Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst195Quest2_HORDE = Inst195Quest2
@@ -461,10 +385,6 @@ Inst195Quest2_HORDE_Prequest = Inst195Quest2_Prequest
 Inst195Quest2_HORDE_Folgequest = Inst195Quest2_Folgequest
 --
 Inst195Quest2name1_HORDE = Inst195Quest2name1
-Inst195Quest2name2_HORDE = Inst195Quest2name2
-Inst195Quest2name3_HORDE = Inst195Quest2name3
-Inst195Quest2name4_HORDE = Inst195Quest2name4
-Inst195Quest2name5_HORDE = Inst195Quest2name5
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst195Quest3_HORDE = Inst195Quest3
@@ -492,11 +412,7 @@ Inst196Quest1_Note = ""
 Inst196Quest1_Prequest = "None"
 Inst196Quest1_Folgequest = "None"
 --
-Inst196Quest1name1 = "Ascended Commendation"
-Inst196Quest1name2 = "Undying Army Commendation"
-Inst196Quest1name3 = "Wild Hunt Commendation"
-Inst196Quest1name4 = "Court of Harvesters Commendation"
-Inst196Quest1name5 = "Cartel Exchange Vessel"
+Inst196Quest1name1 = "Cartel Exchange Vessel"
 
 --Quest 2 Alliance
 Inst196Quest2 = "2. A Valuable Find: The Other Side"
@@ -506,11 +422,7 @@ Inst196Quest2_Note = ""
 Inst196Quest2_Prequest = "None"
 Inst196Quest2_Folgequest = "None"
 --
-Inst196Quest2name1 = "Ascended Commendation"
-Inst196Quest2name2 = "Undying Army Commendation"
-Inst196Quest2name3 = "Wild Hunt Commendation"
-Inst196Quest2name4 = "Court of Harvesters Commendation"
-Inst196Quest2name5 = "Cartel Exchange Vessel"
+Inst196Quest2name1 = "Cartel Exchange Vessel"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -522,10 +434,6 @@ Inst196Quest1_HORDE_Prequest = Inst196Quest1_Prequest
 Inst196Quest1_HORDE_Folgequest = Inst196Quest1_Folgequest
 --
 Inst196Quest1name1_HORDE = Inst196Quest1name1
-Inst196Quest1name2_HORDE = Inst196Quest1name2
-Inst196Quest1name3_HORDE = Inst196Quest1name3
-Inst196Quest1name4_HORDE = Inst196Quest1name4
-Inst196Quest1name5_HORDE = Inst196Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst196Quest2_HORDE = Inst196Quest2
@@ -536,10 +444,6 @@ Inst196Quest2_HORDE_Prequest = Inst196Quest2_Prequest
 Inst196Quest2_HORDE_Folgequest = Inst196Quest2_Folgequest
 --
 Inst196Quest2name1_HORDE = Inst196Quest2name1
-Inst196Quest2name2_HORDE = Inst196Quest2name2
-Inst196Quest2name3_HORDE = Inst196Quest2name3
-Inst196Quest2name4_HORDE = Inst196Quest2name4
-Inst196Quest2name5_HORDE = Inst196Quest2name5
 
 
 
@@ -557,11 +461,7 @@ Inst197Quest1_Note = ""
 Inst197Quest1_Prequest = "None"
 Inst197Quest1_Folgequest = "None"
 --
-Inst197Quest1name1 = "Ascended Commendation"
-Inst197Quest1name2 = "Undying Army Commendation"
-Inst197Quest1name3 = "Wild Hunt Commendation"
-Inst197Quest1name4 = "Court of Harvesters Commendation"
-Inst197Quest1name5 = "Cartel Exchange Vessel"
+Inst197Quest1name1 = "Cartel Exchange Vessel"
 
 --Quest 2 Alliance
 Inst197Quest2 = "2. A Valuable Find: Spires of Ascension"
@@ -571,11 +471,7 @@ Inst197Quest2_Note = ""
 Inst197Quest2_Prequest = "None"
 Inst197Quest2_Folgequest = "None"
 --
-Inst197Quest2name1 = "Ascended Commendation"
-Inst197Quest2name2 = "Undying Army Commendation"
-Inst197Quest2name3 = "Wild Hunt Commendation"
-Inst197Quest2name4 = "Court of Harvesters Commendation"
-Inst197Quest2name5 = "Cartel Exchange Vessel"
+Inst197Quest2name1 = "Cartel Exchange Vessel"
 
 --Quest 3 Alliance
 Inst197Quest3 = "3. The Spires of Ascension"
@@ -597,10 +493,6 @@ Inst197Quest1_HORDE_Prequest = Inst197Quest1_Prequest
 Inst197Quest1_HORDE_Folgequest = Inst197Quest1_Folgequest
 --
 Inst197Quest1name1_HORDE = Inst197Quest1name1
-Inst197Quest1name2_HORDE = Inst197Quest1name2
-Inst197Quest1name3_HORDE = Inst197Quest1name3
-Inst197Quest1name4_HORDE = Inst197Quest1name4
-Inst197Quest1name5_HORDE = Inst197Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst197Quest2_HORDE = Inst197Quest2
@@ -611,10 +503,6 @@ Inst197Quest2_HORDE_Prequest = Inst197Quest2_Prequest
 Inst197Quest2_HORDE_Folgequest = Inst197Quest2_Folgequest
 --
 Inst197Quest2name1_HORDE = Inst197Quest2name1
-Inst197Quest2name2_HORDE = Inst197Quest2name2
-Inst197Quest2name3_HORDE = Inst197Quest2name3
-Inst197Quest2name4_HORDE = Inst197Quest2name4
-Inst197Quest2name5_HORDE = Inst197Quest2name5
 
 --Quest 3 Horde  (same as Quest 3 Alliance)
 Inst197Quest3_HORDE = Inst197Quest3
@@ -642,11 +530,7 @@ Inst198Quest1_Note = ""
 Inst198Quest1_Prequest = "None"
 Inst198Quest1_Folgequest = "None"
 --
-Inst198Quest1name1 = "Ascended Commendation"
-Inst198Quest1name2 = "Undying Army Commendation"
-Inst198Quest1name3 = "Wild Hunt Commendation"
-Inst198Quest1name4 = "Court of Harvesters Commendation"
-Inst198Quest1name5 = "Cartel Exchange Vessel"
+Inst198Quest1name1 = "Cartel Exchange Vessel"
 
 --Quest 2 Alliance
 Inst198Quest2 = "2. A Valuable Find: Sanguine Depths"
@@ -656,11 +540,7 @@ Inst198Quest2_Note = ""
 Inst198Quest2_Prequest = "None"
 Inst198Quest2_Folgequest = "None"
 --
-Inst198Quest2name1 = "Ascended Commendation"
-Inst198Quest2name2 = "Undying Army Commendation"
-Inst198Quest2name3 = "Wild Hunt Commendation"
-Inst198Quest2name4 = "Court of Harvesters Commendation"
-Inst198Quest2name5 = "Cartel Exchange Vessel"
+Inst198Quest2name1 = "Cartel Exchange Vessel"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -672,10 +552,6 @@ Inst198Quest1_HORDE_Prequest = Inst198Quest1_Prequest
 Inst198Quest1_HORDE_Folgequest = Inst198Quest1_Folgequest
 --
 Inst198Quest1name1_HORDE = Inst198Quest1name1
-Inst198Quest1name2_HORDE = Inst198Quest1name2
-Inst198Quest1name3_HORDE = Inst198Quest1name3
-Inst198Quest1name4_HORDE = Inst198Quest1name4
-Inst198Quest1name5_HORDE = Inst198Quest1name5
 
 --Quest 2 Horde  (same as Quest 2 Alliance)
 Inst198Quest2_HORDE = Inst198Quest2
@@ -686,10 +562,6 @@ Inst198Quest2_HORDE_Prequest = Inst198Quest2_Prequest
 Inst198Quest2_HORDE_Folgequest = Inst198Quest2_Folgequest
 --
 Inst198Quest2name1_HORDE = Inst198Quest2name1
-Inst198Quest2name2_HORDE = Inst198Quest2name2
-Inst198Quest2name3_HORDE = Inst198Quest2name3
-Inst198Quest2name4_HORDE = Inst198Quest2name4
-Inst198Quest2name5_HORDE = Inst198Quest2name5
 
 
 

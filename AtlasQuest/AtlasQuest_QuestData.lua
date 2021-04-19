@@ -321,94 +321,94 @@ Inst5Quest22_Attain = "20"
 
 
 Inst5Quest1_HORDE_QuestID = "27579"
-Inst5Quest1_HORDE_Level = ""
-Inst5Quest1_HORDE_Attain = ""
+Inst5Quest1_HORDE_Level = "20"
+Inst5Quest1_HORDE_Attain = "20"
 
 Inst5Quest2_HORDE_QuestID = "27581"
-Inst5Quest2_HORDE_Level = ""
-Inst5Quest2_HORDE_Attain = ""
+Inst5Quest2_HORDE_Level = "20"
+Inst5Quest2_HORDE_Attain = "20"
 Inst5Quest2FQuest_HORDE = Inst5Quest2FQuest
 
 Inst5Quest3_HORDE_QuestID = "27603"
-Inst5Quest3_HORDE_Level = ""
-Inst5Quest3_HORDE_Attain = ""
+Inst5Quest3_HORDE_Level = "20"
+Inst5Quest3_HORDE_Attain = "20"
 
 Inst5Quest4_HORDE_QuestID = "27582"
-Inst5Quest4_HORDE_Level = ""
-Inst5Quest4_HORDE_Attain = ""
+Inst5Quest4_HORDE_Level = "20"
+Inst5Quest4_HORDE_Attain = "20"
 
 Inst5Quest5_HORDE_QuestID = "27585"
-Inst5Quest5_HORDE_Level = ""
-Inst5Quest5_HORDE_Attain = ""
+Inst5Quest5_HORDE_Level = "20"
+Inst5Quest5_HORDE_Attain = "20"
 Inst5Quest5FQuest_HORDE = "true"
 
 Inst5Quest6_HORDE_QuestID = "27589"
-Inst5Quest6_HORDE_Level = ""
-Inst5Quest6_HORDE_Attain = ""
+Inst5Quest6_HORDE_Level = "20"
+Inst5Quest6_HORDE_Attain = "20"
 Inst5Quest6FQuest_HORDE = "true"
 
 Inst5Quest7_HORDE_QuestID = "27591"
-Inst5Quest7_HORDE_Level = ""
-Inst5Quest7_HORDE_Attain = ""
+Inst5Quest7_HORDE_Level = "20"
+Inst5Quest7_HORDE_Attain = "20"
 Inst5Quest7FQuest_HORDE = "true"
 
 Inst5Quest8_HORDE_QuestID = "27593"
-Inst5Quest8_HORDE_Level = ""
-Inst5Quest8_HORDE_Attain = ""
+Inst5Quest8_HORDE_Level = "20"
+Inst5Quest8_HORDE_Attain = "20"
 Inst5Quest8FQuest_HORDE = "true"
 
 Inst5Quest9_HORDE_QuestID = "27596"
-Inst5Quest9_HORDE_Level = ""
-Inst5Quest9_HORDE_Attain = ""
+Inst5Quest9_HORDE_Level = "20"
+Inst5Quest9_HORDE_Attain = "20"
 
 Inst5Quest10_HORDE_QuestID = "28457"
-Inst5Quest10_HORDE_Level = ""
-Inst5Quest10_HORDE_Attain = ""
+Inst5Quest10_HORDE_Level = "20"
+Inst5Quest10_HORDE_Attain = "20"
 Inst5Quest10PreQuest_HORDE = "true"
 
 Inst5Quest11_HORDE_QuestID = "28465"
-Inst5Quest11_HORDE_Level = ""
-Inst5Quest11_HORDE_Attain = ""
+Inst5Quest11_HORDE_Level = "20"
+Inst5Quest11_HORDE_Attain = "20"
 Inst5Quest11PreQuest_HORDE = "true"
 
 Inst5Quest12_HORDE_QuestID = "28459"
-Inst5Quest12_HORDE_Level = ""
-Inst5Quest12_HORDE_Attain = ""
+Inst5Quest12_HORDE_Level = "20"
+Inst5Quest12_HORDE_Attain = "20"
 Inst5Quest12PreQuest_HORDE = "true"
 
 Inst5Quest13_HORDE_QuestID = "28343"
-Inst5Quest13_HORDE_Level = ""
-Inst5Quest13_HORDE_Attain = ""
+Inst5Quest13_HORDE_Level = "20"
+Inst5Quest13_HORDE_Attain = "20"
 Inst5Quest13PreQuest_HORDE = Inst5Quest13PreQuest
 
 Inst5Quest14_HORDE_QuestID = "28463"
-Inst5Quest14_HORDE_Level = ""
-Inst5Quest14_HORDE_Attain = ""
+Inst5Quest14_HORDE_Level = "20"
+Inst5Quest14_HORDE_Attain = "20"
 Inst5Quest14PreQuest_HORDE = "true"
 
 Inst5Quest15_HORDE_QuestID = "28461"
-Inst5Quest15_HORDE_Level = ""
-Inst5Quest15_HORDE_Attain = ""
+Inst5Quest15_HORDE_Level = "20"
+Inst5Quest15_HORDE_Attain = "20"
 Inst5Quest15PreQuest_HORDE = "true"
 
 Inst5Quest16_HORDE_QuestID = "28458"
-Inst5Quest16_HORDE_Level = ""
-Inst5Quest16_HORDE_Attain = ""
+Inst5Quest16_HORDE_Level = "20"
+Inst5Quest16_HORDE_Attain = "20"
 Inst5Quest16PreQuest_HORDE = "true"
 
 Inst5Quest17_HORDE_QuestID = "28474"
-Inst5Quest17_HORDE_Level = ""
-Inst5Quest17_HORDE_Attain = ""
+Inst5Quest17_HORDE_Level = "20"
+Inst5Quest17_HORDE_Attain = "20"
 Inst5Quest17PreQuest_HORDE = "true"
 
 Inst5Quest18_HORDE_QuestID = "28473"
-Inst5Quest18_HORDE_Level = ""
-Inst5Quest18_HORDE_Attain = ""
+Inst5Quest18_HORDE_Level = "20"
+Inst5Quest18_HORDE_Attain = "20"
 Inst5Quest18PreQuest_HORDE = "true"
 
 Inst5Quest19_HORDE_QuestID = "28466"
-Inst5Quest19_HORDE_Level = ""
-Inst5Quest19_HORDE_Attain = ""
+Inst5Quest19_HORDE_Level = "20"
+Inst5Quest19_HORDE_Attain = "20"
 Inst5Quest19PreQuest_HORDE = "true"
 
 Inst5Quest20_HORDE_QuestID = "7848"
@@ -2218,13 +2218,13 @@ Inst52Quest1_HORDE_Attain = "30"
 --------------- INST53 - Karazhan (Kara) ---------------
 
 Inst53Quest1_QuestID = "13431"
-Inst53Quest1_Level = ""
-Inst53Quest1_Attain = ""
+Inst53Quest1_Level = "30"
+Inst53Quest1_Attain = "30"
 
 
 Inst53Quest1_HORDE_QuestID = "13431"
-Inst53Quest1_HORDE_Level = ""
-Inst53Quest1_HORDE_Attain = ""
+Inst53Quest1_HORDE_Level = "30"
+Inst53Quest1_HORDE_Attain = "30"
 
 
 
