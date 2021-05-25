@@ -2009,7 +2009,7 @@ Inst20Quest4_Folgequest = "None"
 Inst20Quest5 = "5. Aberrations of Bone"
 Inst20Quest5_Aim = "Kill Rattlegore in the Ossuary of Scholomance."
 Inst20Quest5_Location = "Lord Raymond George (Western Plaguelands - Light's Hope Chapel; "..YELLOW.."76.0, 51.0"..WHITE..")"
-Inst20Quest5_Note = "Rattlegore is at "..YELLOW.."[3]"..WHITE.."."
+Inst20Quest5_Note = "This is a repeatable reputation quest for the Argent Dawn.\n\nRattlegore is at "..YELLOW.."[3]"..WHITE.."."
 Inst20Quest5_Prequest = "None"
 Inst20Quest5_Folgequest = "None"
 -- No Rewards for this quest

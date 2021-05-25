@@ -11,9 +11,11 @@ KNOWN ISSUES:
 
 
 
-Version 4.12.02  (for Shadowlands)  (March ??, 2021)
+Version 4.12.02  (for Shadowlands)  (May 25, 2021)
 
 - TOC update for Patch 9.0.5.
+
+- NOTE: Presently there is no Shadowlands module for "Atlas".  I created a work-around by linking the Shadowlands dungeons to the Transportation - Alliance maps in Atlas.   For example, the map for Alliance Transportation in Eastern Kingdoms will display quests for "The Necrotic Wake".  
 
 - Added quests:
 	- Trading Favors: Halls of Atonement

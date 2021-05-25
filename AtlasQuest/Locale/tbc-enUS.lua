@@ -2380,7 +2380,7 @@ Inst62QAH = "3 Quests"
 Inst62Quest1 = "1. Seek Out the Ashtongue"
 Inst62Quest1_Aim = "Find Akama's Deathsworn inside the Black Temple."
 Inst62Quest1_Location = "Xi'ri (Shadowmoon Valley; "..YELLOW.."65.2, 44.0"..WHITE..")."
-Inst62Quest1_Note = "Spirit of Olum is up the tunnel once you enter the Black Temple at "..GREEN.."[1']"..WHITE..". He will teleport you to Seer Kanai once you've defeated High Warlord Naj'entus at "..YELLOW.."[1]"..WHITE.." and Supremus at "..YELLOW.."[2]"..WHITE.."."
+Inst62Quest1_Note = "After defeating the first three bosses, High Warlord Naj'entus, Supremus and Shade of Akama, you will be able to turn the quest into Seer Kanai at "..GREEN.."[2']"..WHITE.."."
 Inst62Quest1_Prequest = "The Secret Compromised -> A Distraction for Akama"
 Inst62Quest1_Folgequest = "Redemption of the Ashtongue"
 -- No Rewards for this quest
