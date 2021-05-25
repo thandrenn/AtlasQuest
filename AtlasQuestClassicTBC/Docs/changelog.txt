@@ -1,0 +1,25 @@
+=========
+Changelog
+=========
+
+KNOWN ISSUES:
+- Certain UI elements aren't displaying.  Like the bars around the quest list and the background for the Options window.
+- Blue colored text is "leaking" in the quest info window.
+- "Color quest titles in blue" option is not working.
+- Item Comparisons are not working.
+- Some coordinates and boss numbers may be off.  I'll have to go through each quest by hand and check them to see. 
+
+
+
+
+Version 4.12.80 (for TBC Classic)  May 25, 2021
+
+- Initial release for TBC Classic.  This is a work in progress.  
+
+- I basically copied over the quest data from AtlaQuest 4.3.0 (Nov 25, 2008) which came out just after Lich King's release.  Hopefully its pretty accurate.  
+
+- Included are quests that were added over the course of TBC's development, so Sunwell & Zul'Aman stuff will be in here.  
+
+- There's a lot of bugs like missing frame elements, various options not working.  I honestly don't have the time or know-how to fix all these.  If someone else wants to hunt the bugs down and fix them, I'd be happy to merge in the edits and give credit.
+
+- No translations yet. 
