@@ -2,6 +2,20 @@
 Changelog
 =========
 
+KNOWN ISSUES:
+- Certain UI elements aren't displaying.  Like the bars around the quest list and the background for the Options window.
+- Blue colored text is "leaking" in the quest info window.
+- "Color quest titles in blue" option is not working.
+- Item Comparisons are not working.
+
+
+
+Version 4.11.68  (for WoW Classic)  May 25, 2021
+
+- TOC updated to 11307.
+
+
+
 Version 4.11.67  (for WoW Classic)  November 11, 2020
 
 - Updates to Spanish and German localizations.
