@@ -16,7 +16,7 @@
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
 ## Author: Thandrenn
-## Version: 4.12.80
+## Version: 4.12.82
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Atiesh US
 ## X-eMail: mystery8@gmail.com
@@ -25,9 +25,9 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
-## X-Date: May 25, 2021
+## X-Date: June 10, 2021
 ## X-Help: AtlasQuestHelp
-## RequiredDeps: Atlas
+## RequiredDeps: Atlas, Atlas_ClassicWoW, Atlas_BurningCrusade
 ## OptionalDeps: 
 ## LoadOnDemand: 0
 ## SavedVariablesPerCharacter:
