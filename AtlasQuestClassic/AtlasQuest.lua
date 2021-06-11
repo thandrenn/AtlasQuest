@@ -447,9 +447,6 @@ end
 -- Colours quest blue if they are in your questlog
 -----------------------------------------------------------------------------
 function AQCompareQLtoAQ(Quest)
-
-return false;
---[[
 local TotalQuestEntries
 local CurrentQuestnum
 local OnlyQuestNameRemovedNumber
@@ -518,10 +515,8 @@ local count
   else
     return false;
   end
-
---]]
-
 end
+
 
 
 

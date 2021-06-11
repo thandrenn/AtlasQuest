@@ -5,7 +5,6 @@ Changelog
 KNOWN ISSUES:
 - Certain UI elements aren't displaying.  Like the bars around the quest list and the background for the Options window.
 - Blue colored text is "leaking" in the quest info window.
-- "Color quest titles in blue" option is not working.
 - Item Comparisons are not working.
 - Some coordinates and boss numbers may be off.  I'll have to go through each quest by hand and check them to see. 
 
@@ -13,7 +12,7 @@ KNOWN ISSUES:
 
 Version 4.12.83  (for TBC Classic)  June ??, 2021
 
-- 
+- "Color quest titles in blue if in questlog" option should be working.
 
 
 

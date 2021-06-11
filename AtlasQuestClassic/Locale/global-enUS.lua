@@ -70,7 +70,7 @@ AQCCON = "AtlasQuest will now recolour quests depending on their levels.";
 AQCCOFF = "AtlasQuest will not recolour quests."
 
 -- QuestLog Colour Check
-AQQLColourChange = ""..WHITE.."DISABLED Colours all quest, you have in your Questlog "..BLUE.."blue.";
+AQQLColourChange = ""..WHITE.."Quests you currently have show up with blue text";
 
 -- Use Comparison Tooltips
 AQOptionsCompareTooltipTEXT = ""..WHITE.."DISABLED Compare rewards to currently equipped items.";
