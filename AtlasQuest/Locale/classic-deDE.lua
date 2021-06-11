@@ -127,9 +127,7 @@ Inst1Quest5_Note = "Diese Quest bekommst Du automatisch nachdem Du den Mastraum 
 Inst1Quest5_Prequest = "Der Admiral"
 Inst1Quest5_Folgequest = "Nein"
 --
-Inst1Quest5name1 = "Krümels Fleischklopfer"
-Inst1Quest5name2 = "Krümels Rührstab"
-Inst1Quest5name3 = "Krümels Tischdecke"
+-- Reward varies for each class
 
 
 --Quest 1 Horde
@@ -176,9 +174,7 @@ Inst1Quest5_HORDE_Note = Inst1Quest5_Note
 Inst1Quest5_HORDE_Prequest = "Gute Absichten...Schlechte Durchführung"
 Inst1Quest5_HORDE_Folgequest = "Nein"
 --
-Inst1Quest5name1_HORDE = Inst1Quest5name1
-Inst1Quest5name2_HORDE = Inst1Quest5name2
-Inst1Quest5name3_HORDE = Inst1Quest5name3
+-- Reward varies for each class
 
 
 

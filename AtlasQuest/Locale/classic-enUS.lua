@@ -121,9 +121,7 @@ Inst1Quest5_Note = "This quest is also automatically given upon entering the Mas
 Inst1Quest5_Prequest = "The Admiral"
 Inst1Quest5_Folgequest = "None"
 --
-Inst1Quest5name1 = "Cookie's Meat Mallet"
-Inst1Quest5name2 = "Cookie's Stirring Stick"
-Inst1Quest5name3 = "Cookie's Table Cloth"
+-- Reward varies for each class
 
 
 --Quest 1 Horde
@@ -170,9 +168,7 @@ Inst1Quest5_HORDE_Note = "This quest is also automatically given upon entering t
 Inst1Quest5_HORDE_Prequest = "The Admiral"
 Inst1Quest5_HORDE_Folgequest = "None"
 --
-Inst1Quest5name1_HORDE = "Cookie's Meat Mallet"
-Inst1Quest5name2_HORDE = "Cookie's Stirring Stick"
-Inst1Quest5name3_HORDE = "Cookie's Table Cloth"
+-- Reward varies for each class
 
 
 

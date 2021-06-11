@@ -2554,7 +2554,6 @@ Inst67Quest4_HORDE_Folgequest = Inst67Quest4_Folgequest
 --
 Inst67Quest4name1_HORDE = Inst67Quest4name1
 Inst67Quest4name2_HORDE = Inst67Quest4name2
-Inst67Quest4name3_HORDE = Inst67Quest4name3
 
 --Quest 5 Horde  (same as Quest 5 Alliance)
 Inst67Quest5_HORDE = Inst67Quest5

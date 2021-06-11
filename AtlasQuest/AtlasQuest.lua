@@ -25,22 +25,20 @@
 -- Colours
 -----------------------------------------------------------------------------
 
-local RED = "|cffff0000";
-local REDA = "|cffcc6666";
+-- Colours
+--
+local RED = "|cffFF0000";
 local WHITE = "|cffFFFFFF";
-local GREEN = "|cff1eff00";
-local GREY = "|cff9F3FFF"; -- purple now ^^
-local BLUE = "|cff0070dd";
-local ORANGE = "|cffff6090"; -- it is pink now
-local YELLOW = "|cffffff00";
-local BLACK = "|c0000000f";
-local DARKGREEN = "|cff008000";
-local BLUB = "|cffd45e19";
+local GREEN = "|cff1EFF00";
+local GREY = "|cff9D9D9D";
+local BLUE = "|cff0070DD";
+local ORANGE = "|cffFF8000"; 
+local YELLOW = "|cffFFD200";
+local BLACK = "|c0000000F";
 
 -- Quest Color
 local Grau = "|cff9d9d9d"
 local Gruen = "|cff1eff00"
-local Orange = "|cffFF8000"
 local Rot = "|cffFF0000"
 local Gelb = "|cffFFd200"
 local Blau = "|cff0070dd"
@@ -65,11 +63,28 @@ AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function
 local AQMAXINSTANCES = "199"
 local AQMAXQUESTS = "23"
 
--- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest 4.12.02";
+
+
+-- Now I only have to update the version number in the TOC.  
+local AQVERSION = GetAddOnMetadata("AtlasQuest","Version");
+
+-- Checks WoW version and sets warning message in AtlasQuest title if wrong version.  Experimental.  Inspired by code from Atlas.
+local WoWVersion  = select(4, GetBuildInfo())
+if WoWVersion < 20000 then
+	-- CLASSIC
+	ATLASQUEST_VERSION = AQ_MSG_WRONGVERSION;
+elseif WoWVersion > 19999 and WoWVersion < 90000 then 
+	-- TBC CLASSIC
+	ATLASQUEST_VERSION = AQ_MSG_WRONGVERSION;
+else
+	-- RETAIL / SHADOWLANDS
+	ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest "..AQVERSION;
+end
+
+
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.12.02",
+  ["Version"] =  AQVERSION,
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -370,7 +385,7 @@ local AQQuestfarbe2
                      AQQuestfarbe = Gelb;
                    elseif ( AQQuestlevelf > UnitLevel("player") + 2 and AQQuestlevelf <= UnitLevel("player") + 4) then
                      AQQuestfarbe = Orange;
-                   elseif ( AQQuestlevelf >= UnitLevel("player") + 5 and AQQuestlevelf ~= 200) then
+                   elseif ( AQQuestlevelf >= UnitLevel("player") + 5 and AQQuestlevelf ~= 100) then
                      AQQuestfarbe = Rot;
                    elseif ( AQQuestlevelf < UnitLevel("player") - 7) then
                      AQQuestfarbe = Grau;
@@ -380,7 +395,7 @@ local AQQuestfarbe2
                    if (AQNOColourCheck) then
                       AQQuestfarbe = Gelb;
                    end
-                   if ( AQQuestlevelf == 200 or AQCompareQLtoAQ(b)) then
+                   if ( AQQuestlevelf == 100 or AQCompareQLtoAQ(b)) then
                       AQQuestfarbe = Blau;
                    end
                    if ( AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..b ] == 1) then
@@ -423,7 +438,7 @@ local AQQuestfarbe2
                      AQQuestfarbe = Gelb;
                    elseif ( AQQuestlevelf > UnitLevel("player") + 2 and AQQuestlevelf <= UnitLevel("player") + 4) then
                      AQQuestfarbe = Orange;
-                   elseif ( AQQuestlevelf >= UnitLevel("player") + 5 and AQQuestlevelf ~= 200) then
+                   elseif ( AQQuestlevelf >= UnitLevel("player") + 5 and AQQuestlevelf ~= 100) then
                      AQQuestfarbe = Rot;
                    elseif ( AQQuestlevelf < UnitLevel("player") - 7) then
                      AQQuestfarbe = Grau;
@@ -433,7 +448,7 @@ local AQQuestfarbe2
                    if (AQNOColourCheck) then
                       AQQuestfarbe = Gelb;
                    end
-                   if ( AQQuestlevelf == 200 or AQCompareQLtoAQ(b)) then
+                   if ( AQQuestlevelf == 100 or AQCompareQLtoAQ(b)) then
                       AQQuestfarbe = Blau;
                    end
                    if ( AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..b.."_HORDE" ] == 1) then
@@ -484,7 +499,7 @@ local count
     --this checks should be done everytime when the questupdate event gets executed
     TotalQuestEntries = C_QuestLog.GetNumQuestLogEntries();
     for CurrentQuestnum=1, TotalQuestEntries do
-      x, y, z = C_QuestLog.GetInfo(CurrentQuestnum)
+      x, y, z = C_QuestLog.GetTitleForLogIndex(CurrentQuestnum)
       TotalQuestsTable = {
         [CurrentQuestnum] = x,
       };
