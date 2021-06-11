@@ -88,7 +88,6 @@ AQQuestQueryDone = "AtlasQuest has finished querying the server. Completed quest
 AQ_MSG_WRONGVERSION = ""..RED.."WRONG AQ VERSION"
 
 
-AQAbilities = BLUE .. "Abilities:" .. WHITE;
 AQSERVERASKInformation = " Please click right until you see the Item frame.";
 AQSERVERASKAuto = " Try moving the cursor over the item in a second.";
 AQSERVERASK = "AtlasQuest is querying the server for: ";
@@ -97,8 +96,8 @@ AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be 
 AQOptionB = "Options";
 AQNoReward = ""..BLUE.." No Rewards";
 AQDiscription_REWARD = ""..BLUE.." Reward: ";
-AQDiscription_OR = ""..GREY.." or "..WHITE.."";
-AQDiscription_AND = ""..GREY.." and "..WHITE.."";
+AQDiscription_OR = ""..GREY.." or ";
+AQDiscription_AND = ""..GREY.." and ";
 AQDiscription_ATTAIN = "Attain: ";
 AQDiscription_LEVEL = "Level: ";
 AQDiscription_START = "Starts at: ";

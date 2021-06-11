@@ -29,7 +29,7 @@
 -- 193 = DUNGEON: Mists of Tirna Scithe
 -- 194 = DUNGEON: Halls of Atonement
 -- 195 = DUNGEON: Theater of Pain
--- 196 = DUNGEON: De Other Side
+-- 196 = DUNGEON: The Other Side
 -- 197 = DUNGEON: Spires of Ascension
 -- 198 = DUNGEON: Sanguine Depths
 -- 199 = RAID: Castle Nathria
@@ -398,9 +398,9 @@ Inst195Quest3name1_HORDE = Inst195Quest3name1
 
 
 
---------------- INST196 - De Other Side ---------------
+--------------- INST196 - The Other Side ---------------
 
-Inst196Caption = "De Other Side"
+Inst196Caption = "The Other Side"
 Inst196QAA = "2 Quests"
 Inst196QAH = "2 Quests"
 

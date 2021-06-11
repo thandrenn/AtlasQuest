@@ -552,7 +552,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\TheaterofPain") then
 		AQINSTANZ = 195;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\DeOtherSide") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\TheOtherSide") then
 		AQINSTANZ = 196;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\SpiresofAscension") then
@@ -900,7 +900,7 @@ end
 -- 193 = DUNGEON: Mists of Tirna Scithe
 -- 194 = DUNGEON: Halls of Atonement
 -- 195 = DUNGEON: Theater of Pain
--- 196 = DUNGEON: De Other Side
+-- 196 = DUNGEON: The Other Side
 -- 197 = DUNGEON: Spires of Ascension
 -- 198 = DUNGEON: Sanguine Depths
 -- 199 = RAID: Castle Nathria

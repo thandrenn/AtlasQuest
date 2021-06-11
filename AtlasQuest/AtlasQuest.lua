@@ -25,8 +25,6 @@
 -- Colours
 -----------------------------------------------------------------------------
 
--- Colours
---
 local RED = "|cffFF0000";
 local WHITE = "|cffFFFFFF";
 local GREEN = "|cff1EFF00";
@@ -35,13 +33,6 @@ local BLUE = "|cff0070DD";
 local ORANGE = "|cffFF8000"; 
 local YELLOW = "|cffFFD200";
 local BLACK = "|c0000000F";
-
--- Quest Color
-local Grau = "|cff9d9d9d"
-local Gruen = "|cff1eff00"
-local Rot = "|cffFF0000"
-local Gelb = "|cffFFd200"
-local Blau = "|cff0070dd"
 
 
 
@@ -138,10 +129,6 @@ function AtlasQuest_Initialize()
     AtlasQuest_LoadData();
   end
 
-  -- Register AQ Tooltip with EquipCompare if enabled.
-  if((AQCompareTooltip ~= nil) and EquipCompare_RegisterTooltip) then
-    EquipCompare_RegisterTooltip(AtlasQuestTooltip);
-  end
   Initialized = 1;
 end
 
@@ -218,7 +205,6 @@ function AQ_OnLoad()
 	  AQATLASMAP = 36;
     end
     --this:RegisterForDrag("LeftButton");
-    AQSlashCommandfunction();
 	-- not showed yet
     HideUIPanel(AtlasQuestFrame);
     HideUIPanel(AtlasQuestInsideFrame);
@@ -226,15 +212,6 @@ function AQ_OnLoad()
     AQUpdateNOW = true;
 end
 
-
------------------------------------------------------------------------------
--- Slash command added
------------------------------------------------------------------------------
-function AQSlashCommandfunction()
-    SlashCmdList["ATLASQ"]=atlasquest_command;
-	SLASH_ATLASQ1="/aq";
-	SLASH_ATLASQ2="/atlasquest";
-end
 
 -----------------------------------------------------------------------------
 -- Set the button text
@@ -382,21 +359,21 @@ local AQQuestfarbe2
              if (getglobal("Inst"..AQINSTANZ.."Quest"..b) ~= nil) then
                 if ( AQQuestlevelf ~= nil or AQQuestlevelf ~= 0 or AQQuestlevelf ~= "") then
                    if ( AQQuestlevelf == UnitLevel("player") or AQQuestlevelf == UnitLevel("player") + 2 or AQQuestlevelf  == UnitLevel("player") - 2 or AQQuestlevelf == UnitLevel("player") + 1 or AQQuestlevelf  == UnitLevel("player") - 1) then
-                     AQQuestfarbe = Gelb;
+                     AQQuestfarbe = YELLOW;
                    elseif ( AQQuestlevelf > UnitLevel("player") + 2 and AQQuestlevelf <= UnitLevel("player") + 4) then
-                     AQQuestfarbe = Orange;
+                     AQQuestfarbe = ORANGE;
                    elseif ( AQQuestlevelf >= UnitLevel("player") + 5 and AQQuestlevelf ~= 100) then
-                     AQQuestfarbe = Rot;
+                     AQQuestfarbe = RED;
                    elseif ( AQQuestlevelf < UnitLevel("player") - 7) then
-                     AQQuestfarbe = Grau;
+                     AQQuestfarbe = GREY;
                    elseif ( AQQuestlevelf >= UnitLevel("player") - 7 and AQQuestlevelf < UnitLevel("player") - 2) then
-                     AQQuestfarbe = Gruen;
+                     AQQuestfarbe = GREEN;
                    end
                    if (AQNOColourCheck) then
-                      AQQuestfarbe = Gelb;
+                      AQQuestfarbe = YELLOW;
                    end
                    if ( AQQuestlevelf == 100 or AQCompareQLtoAQ(b)) then
-                      AQQuestfarbe = Blau;
+                      AQQuestfarbe = BLUE;
                    end
                    if ( AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..b ] == 1) then
                      AQQuestfarbe = WHITE;
@@ -435,21 +412,21 @@ local AQQuestfarbe2
                 AQQuestlevelf = tonumber(getglobal("Inst"..AQINSTANZ.."Quest"..b.."_HORDE_Level"));
                 if ( AQQuestlevelf ~= nil or AQQuestlevelf ~= 0 or AQQuestlevelf ~= "") then
                    if ( AQQuestlevelf == UnitLevel("player") or AQQuestlevelf == UnitLevel("player") + 2 or AQQuestlevelf  == UnitLevel("player") - 2 or AQQuestlevelf == UnitLevel("player") + 1 or AQQuestlevelf  == UnitLevel("player") - 1) then
-                     AQQuestfarbe = Gelb;
+                     AQQuestfarbe = YELLOW;
                    elseif ( AQQuestlevelf > UnitLevel("player") + 2 and AQQuestlevelf <= UnitLevel("player") + 4) then
-                     AQQuestfarbe = Orange;
+                     AQQuestfarbe = ORANGE;
                    elseif ( AQQuestlevelf >= UnitLevel("player") + 5 and AQQuestlevelf ~= 100) then
-                     AQQuestfarbe = Rot;
+                     AQQuestfarbe = RED;
                    elseif ( AQQuestlevelf < UnitLevel("player") - 7) then
-                     AQQuestfarbe = Grau;
+                     AQQuestfarbe = GREY;
                    elseif ( AQQuestlevelf >= UnitLevel("player") - 7 and AQQuestlevelf < UnitLevel("player") - 2) then
-                     AQQuestfarbe = Gruen;
+                     AQQuestfarbe = GREEN;
                    end
                    if (AQNOColourCheck) then
-                      AQQuestfarbe = Gelb;
+                      AQQuestfarbe = YELLOW;
                    end
                    if ( AQQuestlevelf == 100 or AQCompareQLtoAQ(b)) then
-                      AQQuestfarbe = Blau;
+                      AQQuestfarbe = BLUE;
                    end
                    if ( AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..b.."_HORDE" ] == 1) then
                      AQQuestfarbe = WHITE;

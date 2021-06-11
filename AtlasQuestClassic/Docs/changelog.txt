@@ -10,7 +10,7 @@ KNOWN ISSUES:
 
 
 
-Version 4.12.50  (for WoW Classic)  June ??, 2021
+Version 4.12.50  (for WoW Classic)  June 11, 2021
 
 - Atlas_ClassicWoW is now a required dependency. 
 - Added an error message if you have the wrong version of AtlasQuest installed for the current WoW version (Retail, Classic, TBC).

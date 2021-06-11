@@ -2045,14 +2045,14 @@ Inst29Quest5ID5 = "65913"
 Inst29Quest6Rewardtext = AQNoReward
 
 --Quest 7 Alliance
-Inst29Quest7Rewardtext = AQDiscription_REWARD
+Inst29Quest7Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst29Quest7ITC1 = Itemc3;
 Inst29Quest7description1 = AQITEM_RING
 Inst29Quest7ID1 = "9362"
 
 --Quest 8 Alliance
-Inst29Quest8Rewardtext = AQDiscription_REWARD
+Inst29Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst29Quest8ITC1 = Itemc2;
 Inst29Quest8description1 = AQITEM_ITEM
@@ -2072,14 +2072,14 @@ Inst29Quest3Rewardtext_HORDE = AQClassRewards
 Inst29Quest4Rewardtext_HORDE = AQNoReward
 
 --Quest 5 Horde
-Inst29Quest5Rewardtext_HORDE = AQDiscription_REWARD
+Inst29Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst29Quest5ITC1_HORDE = Itemc3;
 Inst29Quest5description1_HORDE = AQITEM_RING
 Inst29Quest5ID1_HORDE = "9362"
 
 --Quest 6 Horde
-Inst29Quest6Rewardtext_HORDE = AQDiscription_REWARD
+Inst29Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
 --ITEM1
 Inst29Quest6ITC1_HORDE = Itemc2;
 Inst29Quest6description1_HORDE = AQITEM_ITEM

@@ -129,10 +129,6 @@ function AtlasQuest_Initialize()
     AtlasQuest_LoadData();
   end
 
-  -- Register AQ Tooltip with EquipCompare if enabled.
-  if((AQCompareTooltip ~= nil) and EquipCompare_RegisterTooltip) then
-    EquipCompare_RegisterTooltip(AtlasQuestTooltip);
-  end
   Initialized = 1;
 end
 
@@ -209,7 +205,6 @@ function AQ_OnLoad()
 	  AQATLASMAP = 36;
     end
     --this:RegisterForDrag("LeftButton");
-    AQSlashCommandfunction();
 	-- not showed yet
     HideUIPanel(AtlasQuestFrame);
     HideUIPanel(AtlasQuestInsideFrame);
@@ -217,15 +212,6 @@ function AQ_OnLoad()
     AQUpdateNOW = true;
 end
 
-
------------------------------------------------------------------------------
--- Slash command added
------------------------------------------------------------------------------
-function AQSlashCommandfunction()
-    SlashCmdList["ATLASQ"]=atlasquest_command;
-	SLASH_ATLASQ1="/aq";
-	SLASH_ATLASQ2="/atlasquest";
-end
 
 -----------------------------------------------------------------------------
 -- Set the button text
@@ -461,6 +447,7 @@ end
 -- Colours quest blue if they are in your questlog
 -----------------------------------------------------------------------------
 function AQCompareQLtoAQ(Quest)
+
 return false;
 --[[
 local TotalQuestEntries
@@ -531,10 +518,10 @@ local count
   else
     return false;
   end
+
 --]]
 
 end
-
 
 
 
