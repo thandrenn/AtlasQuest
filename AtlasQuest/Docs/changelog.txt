@@ -8,11 +8,12 @@ KNOWN ISSUES:
 - Item Comparisons are not working.
 
 
-Version 4.12.03  (for Shadowlands)  (June ??, 2021)
+Version 4.12.03  (for Shadowlands)  (July 1, 2021)
 
 - Added an error message if you have the wrong version of AtlasQuest installed for the current WoW version (Retail, Classic, TBC).
 - "Color quest titles in blue if in questlog" option should be working.
 - FIXED: Magister's Terrace quest "Hard to Kill" Horde rewards.
+- TOC updated for Patch 9.1.0.
 
 
 

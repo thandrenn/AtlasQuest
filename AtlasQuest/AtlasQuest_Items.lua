@@ -9881,6 +9881,20 @@ Inst198Quest2ID1_HORDE = "184374"
 
 --------------- INST199 - Castle Nathria ---------------
 
+-- No quests.
+
+
+
+--------------- INST200 - Sanctum of Domination ---------------
+
+-- No quests.
+
+
+
+--------------- INST201 - Tazavesh ---------------
+
+-- No quests.
+
 
 
 

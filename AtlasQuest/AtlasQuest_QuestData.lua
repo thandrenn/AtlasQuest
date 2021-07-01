@@ -7538,6 +7538,20 @@ Inst198Quest2_HORDE_Attain = "60"
 
 --------------- INST199 - Castle Nathria ---------------
 
+-- No quests.
+
+
+
+--------------- INST200 - Sanctum of Domination ---------------
+
+-- No quests.
+
+
+
+--------------- INST201 - Tazavesh ---------------
+
+-- No quests.
+
 
 
 

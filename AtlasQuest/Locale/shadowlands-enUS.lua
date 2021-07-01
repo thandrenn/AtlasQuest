@@ -33,6 +33,8 @@
 -- 197 = DUNGEON: Spires of Ascension
 -- 198 = DUNGEON: Sanguine Depths
 -- 199 = RAID: Castle Nathria
+-- 200 = RAID: Sanctum of Domination
+-- 201 = DUNGEON: Tazavesh
 
 
 
@@ -398,9 +400,9 @@ Inst195Quest3name1_HORDE = Inst195Quest3name1
 
 
 
---------------- INST196 - The Other Side ---------------
+--------------- INST196 - De Other Side ---------------
 
-Inst196Caption = "The Other Side"
+Inst196Caption = "De Other Side"
 Inst196QAA = "2 Quests"
 Inst196QAH = "2 Quests"
 
@@ -570,6 +572,22 @@ Inst198Quest2name1_HORDE = Inst198Quest2name1
 Inst199Caption = "Castle Nathria"
 Inst199QAA = "No Quests"
 Inst199QAH = "No Quests"
+
+
+
+--------------- INST200 - Sanctum of Domination ---------------
+
+Inst200Caption = "Sanctum of Domination"
+Inst200QAA = "No Quests"
+Inst200QAH = "No Quests"
+
+
+
+--------------- INST201 - Tazavesh ---------------
+
+Inst201Caption = "Tazavesh"
+Inst201QAA = "No Quests"
+Inst201QAH = "No Quests"
 
 
 
