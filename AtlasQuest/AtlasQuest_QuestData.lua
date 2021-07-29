@@ -7544,7 +7544,14 @@ Inst198Quest2_HORDE_Attain = "60"
 
 --------------- INST200 - Sanctum of Domination ---------------
 
--- No quests.
+Inst200Quest1_QuestID = "63903"
+Inst200Quest1_Level = "60"
+Inst200Quest1_Attain = "60"
+
+
+Inst200Quest1_HORDE_QuestID = "63903"
+Inst200Quest1_HORDE_Level = "60"
+Inst200Quest1_HORDE_Attain = "60"
 
 
 

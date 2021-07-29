@@ -9887,7 +9887,12 @@ Inst198Quest2ID1_HORDE = "184374"
 
 --------------- INST200 - Sanctum of Domination ---------------
 
--- No quests.
+--Quest 1 Alliance
+Inst200Quest1Rewardtext = AQNoReward
+
+
+--Quest 1 Horde
+Inst200Quest1Rewardtext_HORDE = AQNoReward
 
 
 

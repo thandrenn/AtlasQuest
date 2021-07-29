@@ -7,6 +7,14 @@ KNOWN ISSUES:
 - Blue colored text is "leaking" in the quest info window.
 - Item Comparisons are not working.
 
+Version 4.12.04  (for Shadowlands)  (July ??, 2021)
+
+- Updated some quest & item names that referred to Alex Afrasiabi and have been changed. 
+
+- Added quest:
+	- Sanctum of Domination: Storming the Sanctum
+
+
 
 Version 4.12.03  (for Shadowlands)  (July 1, 2021)
 

@@ -1278,7 +1278,7 @@ Inst113QAH = "4 Quests"
 --Quest 1 Alliance
 Inst113Quest1 = "1. Proving Your Worth (Rogue)"
 Inst113Quest1_Aim = "Pickpocket a cryptomancer's decoder ring from Hagara the Stormbinder at the Eye of Eternity within the Dragon Soul raid encounter."
-Inst113Quest1_Location = "Lord Afrasastrasz (Dragon Soul; "..BLUE.."Entrance"..WHITE..")"
+Inst113Quest1_Location = "Lord Devrestrasz (Dragon Soul; "..BLUE.."Entrance"..WHITE..")"
 Inst113Quest1_Note = "This is a Rogue-only class quest.  It and its followup quests cannot be completed on Raid Finder difficulty.  Hagara the Stormbinder is at "..YELLOW.."[4]"..WHITE..".\n\nThe previous bosses don't need to be killed for quest completion.  Multiple rogues can pickpocket Hagara, but she needs to be pulled and reset in between pickpockets."
 Inst113Quest1_Prequest = "None"
 Inst113Quest1_Folgequest = "A Hidden Message -> Cluster Clutch"

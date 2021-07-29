@@ -13,6 +13,7 @@ KNOWN ISSUES:
 Version 4.12.83  (for TBC Classic)  June ??, 2021
 
 - "Color quest titles in blue if in questlog" option should be working.
+- Updated some quest & item names that referred to Alex Afrasiabi and have been changed. 
 
 
 

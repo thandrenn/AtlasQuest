@@ -8,8 +8,13 @@ KNOWN ISSUES:
 - Item Comparisons are not working.
 
 
+Version 4.12.51  (for WoW Classic)  July ??, 2021
 
-Version 4.12.50  (for WoW Classic)  June ??, 2021
+- Updated some quest & item names that referred to Alex Afrasiabi and have been changed. 
+
+
+
+Version 4.12.50  (for WoW Classic)  July 1, 2021
 
 - Atlas_ClassicWoW is now a required dependency. 
 - Added an error message if you have the wrong version of AtlasQuest installed for the current WoW version (Retail, Classic, TBC).

@@ -919,7 +919,7 @@ Inst6QAH = "1 Quest"
 Inst6Quest1 = "1. The Lord of Blackrock"
 Inst6Quest1_Aim = "Return the Head of Nefarian to Grand Admiral Jes-Tereth in Stormwind."
 Inst6Quest1_Location = "Head of Nefarian (drops from Nefarian; "..YELLOW.."[9]"..WHITE..")"
-Inst6Quest1_Note = "Grand Admiral Jes-Tereth is at (Stormwind City - Stormwind Keep; "..YELLOW.."85.8, 32.8"..WHITE..").\n\nThe followup sends you to Field Marshal Afrasiabi (Stormwind - Valley of Heroes; "..YELLOW.."71.5, 80.5"..WHITE..") for the reward."
+Inst6Quest1_Note = "Grand Admiral Jes-Tereth is at (Stormwind City - Stormwind Keep; "..YELLOW.."85.8, 32.8"..WHITE..").\n\nThe followup sends you to Field Marshal Stonebridge (Stormwind - Valley of Heroes; "..YELLOW.."71.5, 80.5"..WHITE..") for the reward."
 Inst6Quest1_Prequest = "None"
 Inst6Quest1_Folgequest = "The Lord of Blackrock"
 --
@@ -1390,7 +1390,7 @@ Inst12Quest6_Note = "The Treasure of the Shen'dralar is near the ramp in the Ath
 Inst12Quest6_Prequest = "The Madness Within"
 Inst12Quest6_Folgequest = "None"
 --
-Inst12Quest6name1 = "Fras Siabi's Cigar Cutter"
+Inst12Quest6name1 = "Grimm's Cigar Cutter"
 Inst12Quest6name2 = "Staff of Athen'a"
 Inst12Quest6name3 = "Shen'dralar Trident"
 Inst12Quest6name4 = "Dire Maul"
@@ -2464,10 +2464,10 @@ Inst22Quest1_Folgequest = "None"
 -- No Rewards for this quest
 
 --Quest 2 Alliance
-Inst22Quest2 = "2. The Great Fras Siabi"
-Inst22Quest2_Aim = "Recover a box of Fras Siabi's Premium Tobacco."
+Inst22Quest2 = "2. The Great Ezra Grimm"
+Inst22Quest2_Aim = "Recover a box of Ezra Grimm's Premium Tobacco."
 Inst22Quest2_Location = "Packmaster Stonebruiser (Stratholme - Crusaders' Square; "..BLUE.."Entrance"..WHITE..")"
-Inst22Quest2_Note = "Fras Siabi can be summoned by using his Postbox at "..DARKYELLOW.."[1]"..WHITE.."."
+Inst22Quest2_Note = "Ezra Grimm can be summoned by using his Postbox at "..DARKYELLOW.."[1]"..WHITE.."."
 Inst22Quest2_Prequest = "None"
 Inst22Quest2_Folgequest = "None"
 -- No Rewards for this quest

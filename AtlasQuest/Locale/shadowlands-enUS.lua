@@ -578,8 +578,29 @@ Inst199QAH = "No Quests"
 --------------- INST200 - Sanctum of Domination ---------------
 
 Inst200Caption = "Sanctum of Domination"
-Inst200QAA = "No Quests"
-Inst200QAH = "No Quests"
+Inst200QAA = "1 Quest"
+Inst200QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst200Quest1 = "1. Storming the Sanctum"
+Inst200Quest1_Aim = "Defeat Sylvanas Windrunner in the Sanctum of Domination."
+Inst200Quest1_Location = "Highlord Bolvar Fordragon (Korthia - Keeper's Respite; "..YELLOW.."62.8, 25.1"..WHITE..")"
+Inst200Quest1_Note = "This quest can be completed on any difficulty.  Sylvanas Windrunner is the last boss in the raid."
+Inst200Quest1_Prequest = "None"
+Inst200Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst200Quest1_HORDE = Inst200Quest1
+Inst200Quest1_HORDE_Aim = Inst200Quest1_Aim
+Inst200Quest1_HORDE_Location = Inst200Quest1_Location
+Inst200Quest1_HORDE_Note = Inst200Quest1_Note
+Inst200Quest1_HORDE_Prequest = Inst200Quest1_Prequest
+Inst200Quest1_HORDE_Folgequest = Inst200Quest1_Folgequest
+--
+Inst200Quest1name1_HORDE = Inst200Quest1name1
+-- No Rewards for this quest
 
 
 
