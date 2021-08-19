@@ -7,7 +7,7 @@ KNOWN ISSUES:
 - Blue colored text is "leaking" in the quest info window.
 - Item Comparisons are not working.
 
-Version 4.12.04  (for Shadowlands)  (July ??, 2021)
+Version 4.12.04  (for Shadowlands)  (August 19, 2021)
 
 - Updated some quest & item names that referred to Alex Afrasiabi and have been changed. 
 
