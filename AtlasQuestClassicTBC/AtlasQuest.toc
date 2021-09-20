@@ -1,4 +1,4 @@
-﻿## Interface: 20501
+﻿## Interface: 20502
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -25,7 +25,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
-## X-Date: June ??, 2021
+## X-Date: September 19, 2021
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas, Atlas_ClassicWoW, Atlas_BurningCrusade
 ## OptionalDeps: 
