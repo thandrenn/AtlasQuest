@@ -1,4 +1,4 @@
-﻿## Interface: 11307
+﻿## Interface: 11400
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -25,7 +25,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
-## X-Date: July ??, 2021
+## X-Date: September 30, 2021
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas, Atlas_ClassicWoW
 ## OptionalDeps: 

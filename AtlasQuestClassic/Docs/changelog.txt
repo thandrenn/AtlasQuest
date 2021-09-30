@@ -8,9 +8,11 @@ KNOWN ISSUES:
 - Item Comparisons are not working.
 
 
-Version 4.12.51  (for WoW Classic)  July ??, 2021
+Version 4.12.51  (for WoW Classic)  September 30, 2021
 
+- TOC updated to 11400 for Patch 1.14.
 - Updated some quest & item names that referred to Alex Afrasiabi and have been changed. 
+- FIX: Corrected bug where quests weren't showing for anything.  Huge thanks to Flubik on CurseForge for helping.
 
 
 
