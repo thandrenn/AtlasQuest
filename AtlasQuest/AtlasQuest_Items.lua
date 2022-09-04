@@ -9902,6 +9902,12 @@ Inst200Quest1Rewardtext_HORDE = AQNoReward
 
 
 
+--------------- INST202 - Sepulcher of the First Ones ---------------
+
+-- No quests.
+
+
+
 
 ---------------------------------------------------
 ------------------ SCENARIOS ----------------------

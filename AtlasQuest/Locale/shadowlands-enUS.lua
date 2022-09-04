@@ -35,6 +35,7 @@
 -- 199 = RAID: Castle Nathria
 -- 200 = RAID: Sanctum of Domination
 -- 201 = DUNGEON: Tazavesh
+-- 202 = RAID: Sepulcher of the First Ones
 
 
 
@@ -609,6 +610,14 @@ Inst200Quest1name1_HORDE = Inst200Quest1name1
 Inst201Caption = "Tazavesh"
 Inst201QAA = "No Quests"
 Inst201QAH = "No Quests"
+
+
+
+--------------- INST202 - Sepulcher of the First Ones ---------------
+
+Inst202Caption = "Sepulcher of the First Ones"
+Inst202QAA = "No Quests"
+Inst202QAH = "No Quests"
 
 
 

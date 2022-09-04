@@ -1,4 +1,4 @@
-﻿## Interface: 11400
+﻿## Interface: 11403
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -16,7 +16,7 @@
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
 ## Author: Thandrenn
-## Version: 4.12.51
+## Version: 4.12.52
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Atiesh US
 ## X-eMail: mystery8@gmail.com
@@ -25,7 +25,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
-## X-Date: September 30, 2021
+## X-Date: September 4, 2022
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas, Atlas_ClassicWoW
 ## OptionalDeps: 

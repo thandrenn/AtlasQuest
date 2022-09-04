@@ -27,7 +27,7 @@
 -- that tells which instance is shown atm for Atlas or AlphaMap
 -----------------------------------------------------------------------------
 function AtlasQuest_Instanzenchecken()
-	AQATLASMAP = AtlasMap:GetTexture()
+	AQATLASMAP = AtlasMapSmall:GetTexture()
 
 
 	-- Original Dungeons & Raids
@@ -540,6 +540,8 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceNazjatar") then
 		AQINSTANZ = 201;
 
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\TransAllianceZandalar") then
+		AQINSTANZ = 202;
 
 --[[
 		
@@ -570,11 +572,14 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\CastleNathria") then
 		AQINSTANZ = 199;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\SanctumofDomination") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\SanctumofDomination") then
 		AQINSTANZ = 200;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Transportation\\Images\\Tazavesh") then
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\Tazavesh") then
 		AQINSTANZ = 201;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Shadowlands\\Images\\SepulcherOfTheFirstOnes") then
+		AQINSTANZ = 202;
 
 --]]
 
@@ -918,5 +923,6 @@ end
 -- 199 = RAID: Castle Nathria
 -- 200 = RAID: Sanctum of Domination
 -- 201 = DUNGEON: Tazavesh
+-- 202 = RAID: Sepulcher of the First Ones
 
 

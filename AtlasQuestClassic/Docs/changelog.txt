@@ -8,6 +8,12 @@ KNOWN ISSUES:
 - Item Comparisons are not working.
 
 
+Version 4.12.52  (for WoW Classic)  September 4, 2022
+
+- TOC updated to 11403 for Classic Patch 1.14.3.  No other changes.
+
+
+
 Version 4.12.51  (for WoW Classic)  September 30, 2021
 
 - TOC updated to 11400 for Patch 1.14.

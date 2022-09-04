@@ -6,6 +6,15 @@ KNOWN ISSUES:
 - Certain UI elements aren't displaying.  Like the bars around the quest list and the background for the Options window.
 - Blue colored text is "leaking" in the quest info window.
 - Item Comparisons are not working.
+- Shadowlands Maps not available - Atlas does not have them so they won't display normally.  Use the Atlas "Transportation" category to bring up Shadowlands maps.
+
+
+Version 4.12.05  (for Shadowlands)  (September 4, 2022)
+
+- TOC updated for Patch 9.2.7.  No other changes.
+
+
+
 
 Version 4.12.04  (for Shadowlands)  (August 19, 2021)
 
