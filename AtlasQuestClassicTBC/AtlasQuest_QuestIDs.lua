@@ -3782,6 +3782,15 @@ Inst69Quest2_Level = "80"
 Inst69Quest2_Attain = "78"
 Inst69Quest2FQuest = "true"
 
+Inst69Quest3_QuestID = "13243"
+Inst69Quest3_Level = "80"
+Inst69Quest3_Attain = "80"
+
+Inst69Quest4_QuestID = "13251"
+Inst69Quest4_Level = "80"
+Inst69Quest4_Attain = "80"
+
+
 Inst69Quest1_HORDE_QuestID = "13149"
 Inst69Quest1_HORDE_Level = Inst69Quest1_Level
 Inst69Quest1_HORDE_Attain = Inst69Quest1_Attain
@@ -3790,6 +3799,14 @@ Inst69Quest2_HORDE_QuestID = "13151"
 Inst69Quest2_HORDE_Level = Inst69Quest2_Level
 Inst69Quest2_HORDE_Attain = Inst69Quest2_Attain
 Inst69Quest2FQuest_HORDE = Inst69Quest2FQuest
+
+Inst69Quest3_HORDE_QuestID = "13243"
+Inst69Quest3_HORDE_Level = Inst69Quest3_Level
+Inst69Quest3_HORDE_Attain = Inst69Quest3_Attain
+
+Inst69Quest4_HORDE_QuestID = "13251"
+Inst69Quest4_HORDE_Level = Inst69Quest4_Level
+Inst69Quest4_HORDE_Attain = Inst69Quest4_Attain
 
 
 
@@ -3802,6 +3819,10 @@ Inst70Quest1_Attain = "68"
 Inst70Quest2_QuestID = "13205"
 Inst70Quest2_Level = "71"
 Inst70Quest2_Attain = "70"
+
+Inst70Quest3_QuestID = "13245"
+Inst70Quest3_Level = "80"
+Inst70Quest3_Attain = "80"
 
 
 Inst70Quest1_HORDE_QuestID = "11272"
@@ -3816,6 +3837,10 @@ Inst70Quest3_HORDE_QuestID = "13206"
 Inst70Quest3_HORDE_Level = "71"
 Inst70Quest3_HORDE_Attain = "70"
 
+Inst70Quest4_HORDE_QuestID = "13245"
+Inst70Quest4_HORDE_Level = Inst70Quest3_Level
+Inst70Quest4_HORDE_Attain = Inst70Quest3_Attain
+
 
 
 --------------- INST71 - Utgarde Keep: Utgarde Pinnacle ---------------
@@ -3828,6 +3853,14 @@ Inst71Quest2_QuestID = "13132"
 Inst71Quest2_Level = "80"
 Inst71Quest2_Attain = "78"
 
+Inst71Quest3_QuestID = "13241"
+Inst71Quest3_Level = "80"
+Inst71Quest3_Attain = "80"
+
+Inst71Quest4_QuestID = "13248"
+Inst71Quest4_Level = "80"
+Inst71Quest4_Attain = "80"
+
 
 Inst71Quest1_HORDE_QuestID = "13131"
 Inst71Quest1_HORDE_Level = Inst71Quest1_Level
@@ -3836,6 +3869,14 @@ Inst71Quest1_HORDE_Attain = Inst71Quest1_Attain
 Inst71Quest2_HORDE_QuestID = "13132"
 Inst71Quest2_HORDE_Level = Inst71Quest2_Level
 Inst71Quest2_HORDE_Attain = Inst71Quest2_Attain
+
+Inst71Quest3_HORDE_QuestID = "13241"
+Inst71Quest3_HORDE_Level = Inst71Quest3_Level
+Inst71Quest3_HORDE_Attain = Inst71Quest3_Attain
+
+Inst71Quest4_HORDE_QuestID = "13248"
+Inst71Quest4_HORDE_Level = Inst71Quest4_Level
+Inst71Quest4_HORDE_Attain = Inst71Quest4_Attain
 
 
 
@@ -3860,6 +3901,10 @@ Inst72Quest4_Level = "71"
 Inst72Quest4_Attain = "69"
 Inst72Quest4PreQuest = "true"
 
+Inst72Quest5_QuestID = "13246"
+Inst72Quest5_Level = "80"
+Inst72Quest5_Attain = "80"
+
 
 Inst72Quest1_HORDE_QuestID = "13095"
 Inst72Quest1_HORDE_Level = Inst72Quest1_Level
@@ -3879,6 +3924,10 @@ Inst72Quest4_HORDE_QuestID = "11911"
 Inst72Quest4_HORDE_Level = Inst72Quest4_Level
 Inst72Quest4_HORDE_Attain = Inst72Quest4_Attain
 Inst72Quest4PreQuest_HORDE = Inst72Quest4PreQuest
+
+Inst72Quest5_HORDE_QuestID = "13246"
+Inst72Quest5_HORDE_Level = Inst72Quest5_Level
+Inst72Quest5_HORDE_Attain = Inst72Quest5_Attain
 
 
 
@@ -3903,6 +3952,14 @@ Inst73Quest4_Level = "80"
 Inst73Quest4_Attain = "77"
 Inst73Quest4FQuest = "true"
 
+Inst73Quest5_QuestID = "13240"
+Inst73Quest5_Level = "80"
+Inst73Quest5_Attain = "80"
+
+Inst73Quest6_QuestID = "13247"
+Inst73Quest6_Level = "80"
+Inst73Quest6_Attain = "80"
+
 
 Inst73Quest1_HORDE_QuestID = "13124"
 Inst73Quest1_HORDE_Level = Inst73Quest1_Level
@@ -3922,6 +3979,14 @@ Inst73Quest4_HORDE_QuestID = "13128"
 Inst73Quest4_HORDE_Level = Inst73Quest4_Level
 Inst73Quest4_HORDE_Attain = Inst73Quest4_Attain
 Inst73Quest4FQuest_HORDE = Inst73Quest4FQuest
+
+Inst73Quest5_HORDE_QuestID = "13240"
+Inst73Quest5_HORDE_Level = Inst73Quest5_Level
+Inst73Quest5_HORDE_Attain = Inst73Quest5_Attain
+
+Inst73Quest6_HORDE_QuestID = "13247"
+Inst73Quest6_HORDE_Level = Inst73Quest6_Level
+Inst73Quest6_HORDE_Attain = Inst73Quest6_Attain
 
 
 
@@ -3968,6 +4033,10 @@ Inst75Quest2_QuestID = "13167"
 Inst75Quest2_Level = "74"
 Inst75Quest2_Attain = "72"
 
+Inst75Quest3_QuestID = "13254"
+Inst75Quest3_Level = "80"
+Inst75Quest3_Attain = "80"
+
 
 Inst75Quest1_HORDE_QuestID = "13182"
 Inst75Quest1_HORDE_Level = Inst75Quest1_Level
@@ -3976,6 +4045,10 @@ Inst75Quest1_HORDE_Attain = Inst75Quest1_Attain
 Inst75Quest2_HORDE_QuestID = "13167"
 Inst75Quest2_HORDE_Level = Inst75Quest2_Level
 Inst75Quest2_HORDE_Attain = Inst75Quest2_Attain
+
+Inst75Quest3_HORDE_QuestID = "13254"
+Inst75Quest3_HORDE_Level = Inst75Quest3_Level
+Inst75Quest3_HORDE_Attain = Inst75Quest3_Attain
 
 
 
@@ -3993,6 +4066,10 @@ Inst76Quest3_QuestID = "13187"
 Inst76Quest3_Level = "76"
 Inst76Quest3_Attain = "73"
 
+Inst76Quest4_QuestID = "13255"
+Inst76Quest4_Level = "80"
+Inst76Quest4_Attain = "80"
+
 
 Inst76Quest1_HORDE_QuestID = "13190"
 Inst76Quest1_HORDE_Level = Inst76Quest1_Level
@@ -4006,6 +4083,10 @@ Inst76Quest3_HORDE_QuestID = "13187"
 Inst76Quest3_HORDE_Level = Inst76Quest3_Level
 Inst76Quest3_HORDE_Attain = Inst76Quest3_Attain
 
+Inst76Quest4_HORDE_QuestID = "13255"
+Inst76Quest4_HORDE_Level = Inst76Quest4_Level
+Inst76Quest4_HORDE_Attain = Inst76Quest4_Attain
+
 
 
 --------------- INST77 - Ulduar: Halls of Stone ---------------
@@ -4014,10 +4095,18 @@ Inst77Quest1_QuestID = "13207"
 Inst77Quest1_Level = "78"
 Inst77Quest1_Attain = "76"
 
+Inst77Quest2_QuestID = "13252"
+Inst77Quest2_Level = "80"
+Inst77Quest2_Attain = "80"
+
 
 Inst77Quest1_HORDE_QuestID = "13207"
 Inst77Quest1_HORDE_Level = Inst77Quest1_Level
 Inst77Quest1_HORDE_Attain = Inst77Quest1_Attain
+
+Inst77Quest2_HORDE_QuestID = "13252"
+Inst77Quest2_HORDE_Level = Inst77Quest2_Level
+Inst77Quest2_HORDE_Attain = Inst77Quest2_Attain
 
 
 
@@ -4033,6 +4122,14 @@ Inst78Quest2_Level = "80"
 Inst78Quest2_Attain = "77"
 Inst78Quest2PreQuest = "true"
 
+Inst78Quest3_QuestID = "13244"
+Inst78Quest3_Level = "80"
+Inst78Quest3_Attain = "80"
+
+Inst78Quest4_QuestID = "13253"
+Inst78Quest4_Level = "80"
+Inst78Quest4_Attain = "80"
+
 
 Inst78Quest1_HORDE_QuestID = "13108"
 Inst78Quest1_HORDE_Level = Inst78Quest1_Level
@@ -4043,6 +4140,14 @@ Inst78Quest2_HORDE_QuestID = "13109"
 Inst78Quest2_HORDE_Level = Inst78Quest2_Level
 Inst78Quest2_HORDE_Attain = Inst78Quest2_Attain
 Inst78Quest2PreQuest_HORDE = Inst78Quest2PreQuest
+
+Inst78Quest3_HORDE_QuestID = "13244"
+Inst78Quest3_HORDE_Level = Inst78Quest3_Level
+Inst78Quest3_HORDE_Attain = Inst78Quest3_Attain
+
+Inst78Quest4_HORDE_QuestID = "13253"
+Inst78Quest4_HORDE_Level = Inst78Quest4_Level
+Inst78Quest4_HORDE_Attain = Inst78Quest4_Attain
 
 
 
