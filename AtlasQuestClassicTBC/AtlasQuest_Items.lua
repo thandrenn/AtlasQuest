@@ -7473,6 +7473,13 @@ Inst80Quest3ITC4 = Itemc4;
 Inst80Quest3description4 = AQITEM_WRIST..AQITEM_PLATE
 Inst80Quest3ID4 = "44369"
 
+--Quest 4 Alliance
+Inst80Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst80Quest4ITC1 = Itemc5;
+Inst80Quest4description1 = AQITEM_ITEM
+Inst80Quest4ID1 = "47241"
+
 
 --Quest 1 Horde
 Inst80Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
@@ -7526,6 +7533,13 @@ Inst80Quest3ID3_HORDE = "44368"
 Inst80Quest3ITC4_HORDE = Itemc4;
 Inst80Quest3description4_HORDE = AQITEM_WRIST..AQITEM_PLATE
 Inst80Quest3ID4_HORDE = "44369"
+
+--Quest 4 Horde
+Inst80Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst80Quest4ITC1_HORDE = Itemc5;
+Inst80Quest4description1_HORDE = AQITEM_ITEM
+Inst80Quest4ID1_HORDE = "47241"
 
 
 
@@ -7592,6 +7606,13 @@ Inst81Quest3ITC5 = Itemc4;
 Inst81Quest3description5 = AQITEM_FEET..AQITEM_PLATE
 Inst81Quest3ID5 = "43174"
 
+--Quest 4 Alliance
+Inst81Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst81Quest4ITC1 = Itemc5;
+Inst81Quest4description1 = AQITEM_ITEM
+Inst81Quest4ID1 = "47241"
+
 
 --Quest 1 Horde
 Inst81Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
@@ -7654,6 +7675,13 @@ Inst81Quest3ITC5_HORDE = Itemc4;
 Inst81Quest3description5_HORDE = AQITEM_FEET..AQITEM_PLATE
 Inst81Quest3ID5_HORDE = "43174"
 
+--Quest 4 Horde
+Inst81Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst81Quest4ITC1_HORDE = Itemc5;
+Inst81Quest4description1_HORDE = AQITEM_ITEM
+Inst81Quest4ID1_HORDE = "47241"
+
 
 
 --------------- INST82 - The Violet Hold ---------------
@@ -7680,6 +7708,13 @@ Inst82Quest2ITC4 = Itemc4;
 Inst82Quest2description4 = AQITEM_LEGS..AQITEM_PLATE
 Inst82Quest2ID4 = "44345"
 
+--Quest 3 Alliance
+Inst82Quest3Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst82Quest3ITC1 = Itemc5;
+Inst82Quest3description1 = AQITEM_ITEM
+Inst82Quest3ID1 = "47241"
+
 
 --Quest 1 Horde
 Inst82Quest1Rewardtext_HORDE = AQNoReward
@@ -7702,6 +7737,13 @@ Inst82Quest2ID3_HORDE = "44344"
 Inst82Quest2ITC4_HORDE = Itemc4;
 Inst82Quest2description4_HORDE = AQITEM_LEGS..AQITEM_PLATE
 Inst82Quest2ID4_HORDE = "44345"
+
+--Quest 3 Horde
+Inst82Quest3Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst82Quest3ITC1_HORDE = Itemc5;
+Inst82Quest3description1_HORDE = AQITEM_ITEM
+Inst82Quest3ID1_HORDE = "47241"
 
 
 
@@ -8127,6 +8169,21 @@ Inst86Quest20ID2_HORDE = "47241"
 
 
 --------------- INST87 - Trial of the Champion ---------------
+
+--Quest 1 Alliance
+Inst87Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst87Quest1ITC1 = Itemc5;
+Inst87Quest1description1 = AQITEM_ITEM
+Inst87Quest1ID1 = "47241"
+
+
+--Quest 1 Horde
+Inst87Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1(x2)"
+--ITEM1
+Inst87Quest1ITC1_HORDE = Itemc5;
+Inst87Quest1description1_HORDE = AQITEM_ITEM
+Inst87Quest1ID1_HORDE = "47241"
 
 
 

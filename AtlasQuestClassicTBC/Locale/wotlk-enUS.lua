@@ -1128,8 +1128,8 @@ Inst79Quest1name2_HORDE = Inst79Quest1name2
 
 Inst80Story = "Drak'Tharon Keep is located in the icy northlands of Northrend, in the northwestern part of the Grizzly Hills, and is an ancient ice troll stronghold. The Scourge drove the trolls out and took possession, and now the Scourge has a solid garrison there holding the mountain passes. The strange dungeon is filled with dinosaurs and lizards, while teeming with undead. You are sent in to discover the reasoning behind why the trolls are leaving their home of Zul'Drak.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst80Caption = "Drak'Tharon Keep"
-Inst80QAA = "3 Quests"
-Inst80QAH = "3 Quests"
+Inst80QAA = "4 Quests"
+Inst80QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst80Quest1 = "1. Cleansing Drak'Tharon"
@@ -1168,6 +1168,16 @@ Inst80Quest3name1 = "Shameful Cuffs"
 Inst80Quest3name2 = "Scorned Bands"
 Inst80Quest3name3 = "Accused Wristguards"
 Inst80Quest3name4 = "Disavowed Bracers"
+
+--Quest 4 Alliance
+Inst80Quest4 = "4. Proof of Demise: The Prophet Tharon'ja"
+Inst80Quest4_Aim = "Archmage Lan'dalock in Dalaran wants you to return with the Prophet's Enchanted Tiki."
+Inst80Quest4_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst80Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Prophet Tharon'ja is at "..YELLOW.."[5]"..WHITE.."."
+Inst80Quest4_Prequest = "None"
+Inst80Quest4_Folgequest = "None"
+--
+Inst80Quest4name1 = "Emblem of Triumph"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1208,14 +1218,24 @@ Inst80Quest3name2_HORDE = Inst80Quest3name2
 Inst80Quest3name3_HORDE = Inst80Quest3name3
 Inst80Quest3name4_HORDE = Inst80Quest3name4
 
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst80Quest4_HORDE = Inst80Quest4
+Inst80Quest4_HORDE_Aim = Inst80Quest4_Aim
+Inst80Quest4_HORDE_Location = Inst80Quest4_Location
+Inst80Quest4_HORDE_Note = Inst80Quest4_Note
+Inst80Quest4_HORDE_Prequest = Inst80Quest4_Prequest
+Inst80Quest4_HORDE_Folgequest = Inst80Quest4_Folgequest
+--
+Inst80Quest4name1_HORDE = Inst80Quest4name1
+
 
 
 --------------- INST81 - Gundrak ---------------
 
 Inst81Story = "Gundrak is the capital of the Ice Trolls. Located in Zul'Drak, the instance contains three entrances which all lead into a main circle. The Drakkari tribe rule Zul'Drak from here, constantly battling the mighty forces of the Scourge. This dungeon shows the Ice Trolls in all their glory, including the opportunity to fight the Ice Troll leader, and teach us why they have been so successful against the Scourge.\n\n"..GREEN.."Quoted from WoWWiki"
 Inst81Caption = "Gundrak"
-Inst81QAA = "3 Quests"
-Inst81QAH = "3 Quests"
+Inst81QAA = "4 Quests"
+Inst81QAH = "4 Quests"
 
 --Quest 1 Alliance
 Inst81Quest1 = "1. For Posterity"
@@ -1256,6 +1276,16 @@ Inst81Quest3name2 = "Rhino Hide Kneeboots"
 Inst81Quest3name3 = "Scaled Boots of Fallen Hope"
 Inst81Quest3name4 = "Slippers of the Mojo Dojo"
 Inst81Quest3name5 = "Trollkickers"
+
+--Quest 4 Alliance
+Inst81Quest4 = "4. Proof of Demise: Gal'darah"
+Inst81Quest4_Aim = "Archmage Lan'dalock in Dalaran wants you to return with the Mojo Remnant of Akali."
+Inst81Quest4_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst81Quest4_Note = "This daily quest can only be completed on Heroic difficulty.\n\nGal'darah is at "..YELLOW.."[5]"..WHITE.."."
+Inst81Quest4_Prequest = "None"
+Inst81Quest4_Folgequest = "None"
+--
+Inst81Quest4name1 = "Emblem of Triumph"
 
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
@@ -1298,14 +1328,24 @@ Inst81Quest3name3_HORDE = Inst81Quest3name3
 Inst81Quest3name4_HORDE = Inst81Quest3name4
 Inst81Quest3name5_HORDE = Inst81Quest3name5
 
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst81Quest4_HORDE = Inst81Quest4
+Inst81Quest4_HORDE_Aim = Inst81Quest4_Aim
+Inst81Quest4_HORDE_Location = Inst81Quest4_Location
+Inst81Quest4_HORDE_Note = Inst81Quest4_Note
+Inst81Quest4_HORDE_Prequest = Inst81Quest4_Prequest
+Inst81Quest4_HORDE_Folgequest = Inst81Quest4_Folgequest
+--
+Inst81Quest4name1_HORDE = Inst81Quest4name1
+
 
 
 --------------- INST82 - The Violet Hold ---------------
 
 Inst82Story = "Among the ornate spires and enchanted streets of Dalaran, a dark presence stirs within the mighty walls of the Violet Hold. Long used to restrain threats to the city, the tower holds row upon row of deadly inmates, and it has been diligently watched over by the Kirin Tor. However, a sudden assault has tested the integrity of the hold, putting at risk the safety of everyone outside the prison's walls. Using the dungeon as a means to breach the city, Malygos and his blue dragonflight have begun to chip away at the Violet Hold's defenses, hungry to reclaim arcane dominance over Azeroth. Only the brave souls of those protecting the prison stand between the continued existence of Dalaran and the city's utter annihilation."
 Inst82Caption = "The Violet Hold"
-Inst82QAA = "2 Quests"
-Inst82QAH = "2 Quests"
+Inst82QAA = "3 Quests"
+Inst82QAH = "3 Quests"
 
 --Quest 1 Alliance
 Inst82Quest1 = "1. Discretion is Key"
@@ -1329,6 +1369,16 @@ Inst82Quest2name2 = "Conferred Pantaloons"
 Inst82Quest2name3 = "Labyrinthine Legguards"
 Inst82Quest2name4 = "Dalaran Warden's Legplates"
 
+--Quest 3 Alliance
+Inst82Quest3 = "3. Proof of Demise: Cyanigosa"
+Inst82Quest3_Aim = "Archmage Lan'dalock in Dalaran wants you to return with the Head of Cyanigosa."
+Inst82Quest3_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst82Quest3_Note = "This daily quest can only be completed on Heroic difficulty.\n\nCyanigosa is at "..YELLOW.."[6]"..WHITE.."."
+Inst82Quest3_Prequest = "None"
+Inst82Quest3_Folgequest = "None"
+--
+Inst82Quest3name1 = "Emblem of Triumph"
+
 
 --Quest 1 Horde  (same as Quest 1 Alliance)
 Inst82Quest1_HORDE = Inst82Quest1
@@ -1351,6 +1401,16 @@ Inst82Quest2name1_HORDE = Inst82Quest2name1
 Inst82Quest2name2_HORDE = Inst82Quest2name2
 Inst82Quest2name3_HORDE = Inst82Quest2name3
 Inst82Quest2name4_HORDE = Inst82Quest2name4
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst82Quest3_HORDE = Inst82Quest3
+Inst82Quest3_HORDE_Aim = Inst82Quest3_Aim
+Inst82Quest3_HORDE_Location = Inst82Quest3_Location
+Inst82Quest3_HORDE_Note = Inst82Quest3_Note
+Inst82Quest3_HORDE_Prequest = Inst82Quest3_Prequest
+Inst82Quest3_HORDE_Folgequest = Inst82Quest3_Folgequest
+--
+Inst82Quest3name1_HORDE = Inst82Quest3name1
 
 
 
@@ -1941,8 +2001,29 @@ Inst86Quest20name2_HORDE = Inst86Quest20name2
 
 Inst87Story = "The time to strike at the heart of the Scourge is drawing close. Clouds blanket the skies of Azeroth and heroes gather beneath battle-worn banners in preparation for the coming storm. They say that even the darkest cloud has a silver lining. It is this hope that drives the men and women of the Argent Crusade: hope that the Light will see them through these trying times, hope that good will triumph over evil, hope that a hero blessed by the Light will come forth to put an end to the Lich King's dark reign. \n\nSo the Argent Crusade has sent out the call, a call to arms for all heroes far and wide, to meet at the very doorstep of the Lich King's domain and to prove their might in a tournament the likes of which Azeroth has never seen. Of course, a tournament such as this needs a fitting stage. A place where potential candidates are tested to the limits of exhaustion. A place where heroes... become champions. A place called the Crusaders' Coliseum."
 Inst87Caption = "Trial of the Champion"
-Inst87QAA = "No Quests"
-Inst87QAH = "No Quests"
+Inst87QAA = "1 Quest"
+Inst87QAH = "1 Quest"
+
+--Quest 1 Alliance
+Inst87Quest1 = "1. Proof of Demise: The Black Knight"
+Inst87Quest1_Aim = "Archmage Lan'dalock in Dalaran wants you to return with a Fragment of the Black Knight's Soul."
+Inst87Quest1_Location = "Archmage Lan'dalock (Dalaran - The Violet Hold; "..YELLOW.."57.6, 66.9"..WHITE..")"
+Inst87Quest1_Note = "This daily quest can only be completed on Heroic difficulty.\n\nThe Black Knight is the final boss in Trial of the Champion."
+Inst87Quest1_Prequest = "None"
+Inst87Quest1_Folgequest = "None"
+--
+Inst87Quest1name1 = "Emblem of Triumph"
+
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst87Quest1_HORDE = Inst87Quest1
+Inst87Quest1_HORDE_Aim = Inst87Quest1_Aim
+Inst87Quest1_HORDE_Location = Inst87Quest1_Location
+Inst87Quest1_HORDE_Note = Inst87Quest1_Note
+Inst87Quest1_HORDE_Prequest = Inst87Quest1_Prequest
+Inst87Quest1_HORDE_Folgequest = Inst87Quest1_Folgequest
+--
+Inst87Quest1name1_HORDE = Inst87Quest1name1
 
 
 

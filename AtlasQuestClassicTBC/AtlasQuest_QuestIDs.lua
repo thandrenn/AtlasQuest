@@ -4181,6 +4181,10 @@ Inst80Quest3_Level = "74"
 Inst80Quest3_Attain = "72"
 Inst80Quest3FQuest = "true"
 
+Inst80Quest4_QuestID = "13249"
+Inst80Quest4_Level = "80"
+Inst80Quest4_Attain = "80"
+
 
 Inst80Quest1_HORDE_QuestID = "12238"
 Inst80Quest1_HORDE_Level = Inst80Quest1_Level
@@ -4196,6 +4200,10 @@ Inst80Quest3_HORDE_QuestID = "13129"
 Inst80Quest3_HORDE_Level = Inst80Quest3_Level
 Inst80Quest3_HORDE_Attain = Inst80Quest3_Attain
 Inst80Quest3FQuest_HORDE = Inst80Quest3FQuest
+
+Inst80Quest4_HORDE_QuestID = "13249"
+Inst80Quest4_HORDE_Level = Inst80Quest4_Level
+Inst80Quest4_HORDE_Attain = Inst80Quest4_Attain
 
 
 
@@ -4215,6 +4223,10 @@ Inst81Quest3_QuestID = "13111"
 Inst81Quest3_Level = "78"
 Inst81Quest3_Attain = "76"
 
+Inst81Quest4_QuestID = "13250"
+Inst81Quest4_Level = "80"
+Inst81Quest4_Attain = "80"
+
 
 Inst81Quest1_HORDE_QuestID = "13098"
 Inst81Quest1_HORDE_Level = Inst81Quest1_Level
@@ -4230,6 +4242,10 @@ Inst81Quest3_HORDE_QuestID = "13111"
 Inst81Quest3_HORDE_Level = Inst81Quest3_Level
 Inst81Quest3_HORDE_Attain = Inst81Quest3_Attain
 
+Inst81Quest4_HORDE_QuestID = "13250"
+Inst81Quest4_HORDE_Level = Inst81Quest4_Level
+Inst81Quest4_HORDE_Attain = Inst81Quest4_Attain
+
 
 
 --------------- INST82 - The Violet Hold ---------------
@@ -4243,6 +4259,10 @@ Inst82Quest2_Level = "77"
 Inst82Quest2_Attain = "75"
 Inst82Quest2FQuest = "true"
 
+Inst82Quest3_QuestID = "13256"
+Inst82Quest3_Level = "80"
+Inst82Quest3_Attain = "80"
+
 
 Inst82Quest1_HORDE_QuestID = "13158"
 Inst82Quest1_HORDE_Level = Inst82Quest1_Level
@@ -4252,6 +4272,10 @@ Inst82Quest2_HORDE_QuestID = "13159"
 Inst82Quest2_HORDE_Level = Inst82Quest2_Level
 Inst82Quest2_HORDE_Attain = Inst82Quest2_Attain
 Inst82Quest2FQuest_HORDE = Inst82Quest2FQuest
+
+Inst82Quest3_HORDE_QuestID = "13256"
+Inst82Quest3_HORDE_Level = Inst82Quest3_Level
+Inst82Quest3_HORDE_Attain = Inst82Quest3_Attain
 
 
 
@@ -4516,6 +4540,15 @@ Inst86Quest20_HORDE_Attain = Inst86Quest20_Attain
 
 
 --------------- INST87 - Trial of the Champion ---------------
+
+Inst87Quest1_QuestID = "14199"
+Inst87Quest1_Level = "80"
+Inst87Quest1_Attain = "80"
+
+
+Inst87Quest1_HORDE_QuestID = "14199"
+Inst87Quest1_HORDE_Level = Inst87Quest1_Level
+Inst87Quest1_HORDE_Attain = Inst87Quest1_Attain
 
 
 

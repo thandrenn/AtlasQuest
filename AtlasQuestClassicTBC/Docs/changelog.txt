@@ -30,6 +30,10 @@ Version 4.13.03  (for WOTLK Classic)  October 1, 2022
 	- Halls of Stone: Proof of Demise: Sjonnir The Ironshaper
 	- Halls of Lightning: Timear Foresees Titanium Vanguards in your Future!
 	- Halls of Lightning: Proof of Demise: Loken
+	- Drak'Tharon Keep: Proof of Demise: The Prophet Tharon'ja
+	- Gundrak: Proof of Demise: Gal'darah
+	- Violet Hold: Proof of Demise: Cyanigosa
+	- Trial of the Champion: Proof of Demise: The Black Knight
 
 
 
