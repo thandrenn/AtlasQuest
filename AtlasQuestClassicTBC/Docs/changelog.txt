@@ -11,12 +11,19 @@ KNOWN ISSUES:
 - Some UI bugs or features may be broken or disabled.  I no longer have the time or know-how to fix and modernize AtlasQuest and this release is being provided as a "better than nothing" sort of situation.  If anyone wants to fix the bugs I'd be happy to incorporate the fixes and provide credit.
 
 
+Version 4.13.04 BETA  (for WOTLK Classic)  February 1, 2023
 
-Version 4.13.03  (for WOTLK Classic)  October 1, 2022
+- TOC updated for 30401 (Ulduar) patch
+- Experimental fix to match AtlasQuest dungeons match up with Atlas again.  Quests should be visible.  Only applies to Northrend dungeons right now.  Will fix other dungeons if it works.
+
+
+
+
+Version 4.13.03  (for WOTLK Classic)  October 4, 2022
 
 - Fixed Caverns of Time quests not showing up.
 
-- Quests re-added:
+- Quests re-added:  (English only, no German translation yet)
 	- Culling of Stratholme: Timear Foresees Infinite Agents in your Future!
 	- Culling of Stratholme: Proof of Demise: Mal'Ganis
 	- Utgarde Keep: Proof of Demise: Ingvar the Plunderer

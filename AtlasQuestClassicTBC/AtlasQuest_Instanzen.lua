@@ -32,16 +32,16 @@ function AtlasQuest_Instanzenchecken()
 
 	-- Classic
 
-	if (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_BlackrockDepths") then
+	if (AQATLASMAP == "Blackrock Mountain: Blackrock Depths") then
 		AQINSTANZ = 1;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_BlackwingLair") then
+	elseif (AQATLASMAP == "Blackrock Mountain: Blackwing Lair") then
 		AQINSTANZ = 2;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_BlackrockSpireLower") then
+	elseif (AQATLASMAP == "Blackrock Mountain: Lower Blackrock Spire") then
 		AQINSTANZ = 3;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_BlackrockSpireUpper") then
+	elseif (AQATLASMAP == "Blackrock Mountain: Lower Blackrock Spire") then
 		AQINSTANZ = 4;
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_TheDeadmines") or (AQATLASMAP == "Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_TheDeadminesEnt") then
@@ -234,82 +234,108 @@ function AtlasQuest_Instanzenchecken()
 
 	-- Wrath of the Lich King Instances
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CoTOldStratholme") then
+	-- Culling of Stratholme
+	elseif (AQATLASMAP == -340) then
 		AQINSTANZ = 69;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UtgardeKeep") then
+	-- Utgarde Keep
+	elseif (AQATLASMAP == -808) then
 		AQINSTANZ = 70;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UtgardePinnacle") then
+	-- Utgarde Pinnacle
+	elseif (AQATLASMAP == -809) then
 		AQINSTANZ = 71;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TheNexus") then
+	-- The Nexus
+	elseif (AQATLASMAP == -796) then
 		AQINSTANZ = 72;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TheOculus") then
+	-- The Oculus
+	elseif (AQATLASMAP == -797) then
 		AQINSTANZ = 73;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TheEyeOfEternity") then
+	-- Eye of Eternity
+	elseif (AQATLASMAP == -795) then
 		AQINSTANZ = 74;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\AzjolNerub") then
+	-- Azjol-Nerub
+	elseif (AQATLASMAP == -775) then
 		AQINSTANZ = 75;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\AhnKahet") then
+	-- Ahn'kahet: The Old Kingdom
+	elseif (AQATLASMAP == -774) then
 		AQINSTANZ = 76;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarHallsofStone") then
+	-- Halls of Stone
+	elseif (AQATLASMAP == -807) then
 		AQINSTANZ = 77;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarHallsofLightning") then
+	-- Halls of Lightning
+	elseif (AQATLASMAP == -806) then
 		AQINSTANZ = 78;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\ObsidianSanctum") then
+	-- Obsidian Sanctum
+	elseif (AQATLASMAP == -792) then
 		AQINSTANZ = 79;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\DrakTharonKeep") then
+	-- Drak'Tharon Keep
+	elseif (AQATLASMAP == -782) then
 		AQINSTANZ = 80;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\Gundrak") then
+	-- Gundrak
+	elseif (AQATLASMAP == -786) then
 		AQINSTANZ = 81;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\VioletHold") then
+	-- Violet Hold
+	elseif (AQATLASMAP == -811) then
 		AQINSTANZ = 82;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\StrandOfTheAncients") then
+	-- BG: Strand of the Ancients
+	elseif (AQATLASMAP == -251) then
 		AQINSTANZ = 83;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\Naxxramas") then
+	-- Naxxramas
+	elseif (AQATLASMAP == -791) then
 		AQINSTANZ = 84;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\VaultOfArchavon") then
+	-- Vault of Archavon
+	elseif (AQATLASMAP == -810) then
 		AQINSTANZ = 85;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarD") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarE") then
+	-- Ulduar
+	elseif (AQATLASMAP == -800) or (AQATLASMAP == -801) or (AQATLASMAP == -802) or (AQATLASMAP == -803) or (AQATLASMAP == -804) then
 		AQINSTANZ = 86;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TrialOfTheChampion") then
+	-- Trial of the Champion
+	elseif (AQATLASMAP == -798) then
 		AQINSTANZ = 87;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TrialOfTheCrusader") then
+	-- Trial of the Crusader
+	elseif (AQATLASMAP == -799) then
 		AQINSTANZ = 88;
 
-	elseif (AQATLASMAP ==  "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest") then
+	-- BG: Isle of Conquest
+	elseif (AQATLASMAP ==  -247) then
 		AQINSTANZ = 89;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\FHTheForgeOfSouls") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TheForgeOfSouls") then
+	-- Forge of Souls
+	elseif (AQATLASMAP == -785) then
 		AQINSTANZ = 90;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\FHPitOfSaron") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\PitOfSaron") then
+	-- Pit of Saron
+	elseif (AQATLASMAP == -784) then
 		AQINSTANZ = 91;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\FHHallsOfReflection") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\HallsOfReflection") then
+	-- Halls of Reflection
+	elseif (AQATLASMAP == -783) then
 		AQINSTANZ = 92;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownCitadelA") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownCitadelB") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownCitadelC") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownEnd") then
+	-- Icecrown Citadel
+	elseif (AQATLASMAP == -787) or (AQATLASMAP == -788) or (AQATLASMAP == -789) then
 		AQINSTANZ = 93;
 
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\RubySanctum") then
+	-- Ruby Sanctum
+	elseif (AQATLASMAP == -794) then
 		AQINSTANZ = 94;
 
 
