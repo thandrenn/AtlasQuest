@@ -16,7 +16,7 @@
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
 ## Author: Thandrenn
-## Version: 4.13.05
+## Version: 4.13.04
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Atiesh US
 ## X-eMail: mystery8@gmail.com

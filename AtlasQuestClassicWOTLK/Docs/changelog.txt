@@ -12,17 +12,10 @@ KNOWN ISSUES:
 
 
 
-Version 4.13.05  (for WOTLK Classic)  February 2, 2023
+Version 4.13.04  (for WOTLK Classic)  February 2, 2023
 
-- 
-
-
-
-
-Version 4.13.04 BETA  (for WOTLK Classic)  February 1, 2023
-
+- Huge thanks to Zilom for writing fix to make quests show up again.
 - TOC updated for 30401 (Ulduar) patch
-- Experimental fix to match AtlasQuest dungeons match up with Atlas again.  Quests should be visible.  Only applies to Northrend dungeons right now.  Will fix other dungeons if it works.
 
 
 
