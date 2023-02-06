@@ -9,6 +9,11 @@ KNOWN ISSUES:
 - Shadowlands Maps not available - Atlas does not have them so they won't display normally.  Use the Atlas "Transportation" category to bring up Shadowlands maps.
 
 
+Version 4.12.06  (for Dragonflight)  (February 6, 2023)
+
+- TOC updated for Patch 10.0.5.
+
+
 Version 4.12.05  (for Shadowlands)  (September 4, 2022)
 
 - TOC updated for Patch 9.2.7.  No other changes.
