@@ -27,7 +27,7 @@
 ## OptionalDeps: 
 ## LoadOnDemand: 0
 ## SavedVariablesPerCharacter:
-## SavedVariables: AtlasQuest_Options,
+## SavedVariables: AtlasQuest_Options
 ## Dependencies:
 
 AtlasQuest_InsideFrame.xml
