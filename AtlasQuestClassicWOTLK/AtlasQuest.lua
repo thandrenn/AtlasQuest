@@ -40,6 +40,9 @@ local BLACK = "|c0000000F";
 -- Variables
 -----------------------------------------------------------------------------
 
+AtlasQuestConfig = {
+	offsetX = {left=12,right=0},
+}
 AQ = {};
 
 local Initialized = nil; -- the variables are not loaded yet
@@ -285,21 +288,17 @@ end
 --  AlphaMap parent change
 -----------------------------------------------------------------------------
 function AQ_AtlasOrAlphamap()
-        if ((AtlasFrame ~= nil) and (AtlasFrame:IsVisible())) then
-           AtlasORAlphaMap = "Atlas";
-           --
-           AtlasQuestFrame:SetParent(AtlasFrame);
-           if (AQ_ShownSide == "Right" ) then
-               AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 607, -65);
-           else
-               AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -597, -65);
-           end
-           AtlasQuestInsideFrame:SetParent(AtlasFrame);
-           AtlasQuestInsideFrame:ClearAllPoints();
-           AtlasQuestInsideFrame:SetPoint("TOPLEFT","AtlasFrame", 18, -84);
-        end
+	if ((AtlasFrame ~= nil) and (AtlasFrame:IsVisible())) then
+		AtlasORAlphaMap = "Atlas";
+		local _, relativeTo, _, _, offsetY = AtlasQuestFrame:GetPoint()
+		if (AQ_ShownSide == "Right" ) then
+			AtlasQuestFrame:ClearAllPoints();
+			AtlasQuestFrame:SetPoint("TOPLEFT", relativeTo, "TOPRIGHT", AtlasQuestConfig.offsetX.right, offsetY)
+		else
+			AtlasQuestFrame:ClearAllPoints();
+			AtlasQuestFrame:SetPoint("TOPRIGHT", relativeTo, "TOPLEFT", AtlasQuestConfig.offsetX.left, offsetY)
+		end
+	end
 end
 
 
@@ -530,18 +529,19 @@ end
 -----------------------------------------------------------------------------
 original_Atlas_OnShow = Atlas_OnShow; -- new line #1
 function Atlas_OnShow()
-   if ( AQAtlasAuto == 1) then
-     ShowUIPanel(AtlasQuestFrame);
-    else
-     HideUIPanel(AtlasQuestFrame);
-    end
-    HideUIPanel(AtlasQuestInsideFrame);
-   -- AQ_AtlasOrAlphamap();
-   if (AQ_ShownSide == "Right") then
-       AtlasQuestFrame:ClearAllPoints();
-       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 607, -65);
-  end
-  original_Atlas_OnShow(); -- new line #2
+	if ( AQAtlasAuto == 1) then
+		ShowUIPanel(AtlasQuestFrame);
+	else
+		HideUIPanel(AtlasQuestFrame);
+	end
+		HideUIPanel(AtlasQuestInsideFrame);
+		-- AQ_AtlasOrAlphamap();
+	if (AQ_ShownSide == "Right") then
+		local _, relativeTo, _, _, offsetY = AtlasQuestFrame:GetPoint()
+		AtlasQuestFrame:ClearAllPoints();
+		AtlasQuestFrame:SetPoint("TOPLEFT" ,relativeTo ,"TOPRIGHT" , AtlasQuestConfig.offsetX.right, offsetY)
+	end
+	original_Atlas_OnShow(); -- new line #2
 end
 
 
