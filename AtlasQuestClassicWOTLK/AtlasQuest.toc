@@ -1,12 +1,12 @@
-﻿## Interface: 30401
-## Title: AtlasQuest
-## Title-deDE: AtlasQuest
-## Title-koKR: AtlasQuest
-## Title-zhCN: AtlasQuest 副本任务
-## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest
-## Title-ruRU: Атлас |r|cFF0099FF[Задания]|r
-## Title-esES: AtlasQuest
-## Title-esMX: AtlasQuest
+﻿## Interface: 30402
+## Title: AtlasQuest |cff00ff00!
+## Title-deDE: AtlasQuest |cff00ff00!
+## Title-koKR: AtlasQuest |cff00ff00!
+## Title-zhCN: AtlasQuest |cff00ff00! 副本任务
+## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest |cff00ff00!
+## Title-ruRU: Атлас |cFF0099FF[Задания]|r
+## Title-esES: AtlasQuest |cff00ff00!
+## Title-esMX: AtlasQuest |cff00ff00!
 ## Notes: Shows the Quests for dungeons and battlegrounds.
 ## Notes-deDE: Zeigt die Quests, die es für die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
@@ -15,7 +15,7 @@
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
-## Author: Thandrenn
+## Author: Created by Thandrenn, Maintained by Thanbini, Code fixed for 10.x by Zilom
 ## Version: 4.13.04
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Atiesh US
@@ -28,10 +28,10 @@
 ## X-Date: February 2, 2023
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
-## OptionalDeps: 
+## OptionalDeps: Atlas_ClassicWoW,Atlas_BurningCrusade,Atlas_WrathoftheLichKing
 ## LoadOnDemand: 0
 ## SavedVariablesPerCharacter:
-## SavedVariables: AtlasQuest_Options,
+## SavedVariables: AtlasQuest_Options
 ## Dependencies:
 
 AtlasQuest_InsideFrame.xml
