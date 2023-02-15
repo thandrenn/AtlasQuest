@@ -11,7 +11,7 @@
 ## Notes-zhCN: Atlas 插件，在 Atlas 面板上显示副本和战场相关任务及副本背景。
 ## Notes-zhTW: 顯示副本背景故事、相關任務及BOSS攻略提示
 ## Notes-ruRU: Показывает задания в подземельях.
-## Author: Thandrenn
+## Author: Created by Thandrenn, Maintained by Thanbini, Code fixed for 10.x by Zilom
 ## Version: 4.12.06
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Destromath US
