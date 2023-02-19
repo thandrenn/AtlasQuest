@@ -18,7 +18,11 @@ AtlasQuest is an addon for another World of Warcraft addon called
 most quests for a given Dungeon, Raid or Battleground.
 
 It was originally created by Asurn in 2006.  Since July 2007 it has
-been maintained and updated by Thandrenn (aka Mystery8).
+been maintained and updated by Thandrenn (aka Mystery8 or Thanbini).
+
+In January of 2023, Zilom contributed many updates and fixes to the 
+XML and LUA code to restore some functionality and make AtlasQuest
+work with the Dragonflight expansion.  
 
 Over the years there have been many contributions by the community.
 Most are listed either here or in the changelog.txt.
@@ -34,7 +38,6 @@ Translations:
 
 Currently Maintained:
 EN: Thandrenn
-DE: Guldukat
 
 
 
@@ -55,6 +58,7 @@ DIY - Simplified Chinese translation
 Jill - Traditional Chinese translation
 EvgeshaH - Russian translation
 lorientalas - Russian translation
+Guldukat- German translation.
 
 
 
