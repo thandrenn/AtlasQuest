@@ -437,9 +437,9 @@ function AQFinishedQuest_OnClick()
   end
   --save everything
   if (Allianceorhorde == 1) then
-    AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST] = AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST ]
+    AtlasQuest_Options.Toons[UnitName("player")]["AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST] = AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST ]
   elseif (Allianceorhorde == 2) then
-    AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE"] = AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE" ]
+    AtlasQuest_Options.Toons[UnitName("player")]["AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE"] = AQ[ "AQFinishedQuest_Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."_HORDE" ]
   end
 
   AtlasQuestSetTextandButtons()

@@ -73,16 +73,16 @@ end
 -- Autoshow option
 -----------------------------------------------------------------------------
 function AQAutoshowOption_OnClick()
-          if (AQAtlasAuto == 1) then
-            AQAtlasAuto = 2;
-            ChatFrame1:AddMessage(AQAtlasAutoOFF);
-            AQAutoshowOption:SetChecked(false);
-          else
-            AQAtlasAuto = 1;
-            ChatFrame1:AddMessage(AQAtlasAutoON);
-            AQAutoshowOption:SetChecked(true);
-          end
-          AtlasQuest_SaveData();
+	if (AQAtlasAuto == 1) then
+		AQAtlasAuto = 2
+		ChatFrame1:AddMessage(AQAtlasAutoOFF)
+		AQAutoshowOption:SetChecked(false)
+	else
+		AQAtlasAuto = 1
+		ChatFrame1:AddMessage(AQAtlasAutoON)
+		AQAutoshowOption:SetChecked(true)
+	end
+	AtlasQuest_SaveData()
 end
 
 
@@ -90,15 +90,16 @@ end
 -- Right option
 -----------------------------------------------------------------------------
 function AQRIGHTOption_OnClick()
-     AtlasQuestFrame:ClearAllPoints();
-     AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 607, -45);
-     AQRIGHTOption:SetChecked(true);
-     AQLEFTOption:SetChecked(false);
-     if (AQ_ShownSide ~= "Right") then
-       ChatFrame1:AddMessage(AQShowRight);
-     end
-     AQ_ShownSide = "Right";
-     AtlasQuest_SaveData();
+	local _, relativeTo, _, _, offsetY = AtlasQuestFrame:GetPoint()
+	AtlasQuestFrame:ClearAllPoints()
+	AtlasQuestFrame:SetPoint("TOPLEFT", relativeTo, "TOPRIGHT", AtlasQuestConfig.offsetX.right, offsetY)
+	AQRIGHTOption:SetChecked(true)
+	AQLEFTOption:SetChecked(false)
+	if (AQ_ShownSide ~= "Right") then
+		ChatFrame1:AddMessage(AQShowRight)
+	end
+	AQ_ShownSide = "Right"
+	AtlasQuest_SaveData()
 end
 
 
@@ -106,15 +107,16 @@ end
 -- Left option
 -----------------------------------------------------------------------------
 function AQLEFTOption_OnClick()
-     AtlasQuestFrame:ClearAllPoints();
-     AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -597, -45);
-     AQRIGHTOption:SetChecked(false);
-     AQLEFTOption:SetChecked(true);
-     if (AQ_ShownSide ~= "Left") then
-       ChatFrame1:AddMessage(AQShowLeft);
-     end
-     AQ_ShownSide = "Left";
-     AtlasQuest_SaveData();
+	local _, relativeTo, _, _, offsetY = AtlasQuestFrame:GetPoint()
+	AtlasQuestFrame:ClearAllPoints()
+	AtlasQuestFrame:SetPoint("TOPRIGHT", relativeTo, "TOPLEFT", AtlasQuestConfig.offsetX.left, offsetY)
+	AQRIGHTOption:SetChecked(false)
+	AQLEFTOption:SetChecked(true)
+	if (AQ_ShownSide ~= "Left") then
+		ChatFrame1:AddMessage(AQShowLeft)
+	end
+	AQ_ShownSide = "Left"
+	AtlasQuest_SaveData()
 end
 
 
