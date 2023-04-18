@@ -8,11 +8,21 @@ KNOWN ISSUES:
 - Shadowlands & Dragonflight Maps not available - Atlas does not have them so they won't display.
 
 
+
+Version 4.14.02  (for Dragonflight)  (March 28, 2023)
+
+- TOC updated for Patch 10.0.7.  No other changes.
+
+
+
+
 Version 4.14.01  (for Dragonflight)  (February 19, 2023)
 
 - TOC updated for Patch 10.0.5.
 - Massive XML updates and fixes for Dragonflight from Zilom.
 - Improved Dungeon detection / Atlas compatibility from Zilom.
+
+
 
 
 Version 4.12.05  (for Shadowlands)  (September 4, 2022)
