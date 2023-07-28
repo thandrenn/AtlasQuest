@@ -3,12 +3,26 @@ Changelog
 =========
 
 KNOWN ISSUES:
-- Certain UI elements aren't displaying.  Like the bars around the quest list and the background for the Options window.
 - Blue colored text is "leaking" in the quest info window.
 - Item Comparisons are not working.
 - Some coordinates and boss numbers may be off.  I'll have to go through each quest by hand and check them to see. 
 - Some quests are going to be missing or possibly inaccurate as the quest data represents the last original WOTLK patch, 3.3.3, and may not reflect the current stage in WOTLK classic.
 - Some UI bugs or features may be broken or disabled.  I no longer have the time or know-how to fix and modernize AtlasQuest and this release is being provided as a "better than nothing" sort of situation.  If anyone wants to fix the bugs I'd be happy to incorporate the fixes and provide credit.
+
+
+Version 4.16.05  (for WOTLK Classic)  February 2, 2023
+
+- Merged Wrath and Era 1.14.04
+- Updated version display to match
+
+
+
+
+Version 4.16.01  (for WOTLK Classic)  February 2, 2023
+
+- Massive XML updates and fixes for Dragonflight from Zilom.
+- Improved Dungeon detection / Atlas compatibility from Zilom.
+
 
 
 

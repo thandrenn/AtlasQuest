@@ -1,4 +1,4 @@
-﻿## Interface: 30401
+﻿## Interface: 30402
 ## Title: AtlasQuest |cff00ff00!
 ## Title-deDE: AtlasQuest |cff00ff00!
 ## Title-koKR: AtlasQuest |cff00ff00!
@@ -16,7 +16,7 @@
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
 ## Author: Created by Thandrenn, Maintained by Thanbini, Code fixed for 10.x by Zilom
-## Version: 4.13.04
+## Version: 4.13.05
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Atiesh US
 ## X-eMail: mystery8@gmail.com
