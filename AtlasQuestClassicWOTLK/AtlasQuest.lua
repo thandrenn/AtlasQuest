@@ -64,15 +64,15 @@ local AQVERSION = GetAddOnMetadata("AtlasQuest","Version");
 
 -- Checks WoW version and sets warning message in AtlasQuest title if wrong version.  Experimental.  Inspired by code from Atlas.
 local WoWVersion  = select(4, GetBuildInfo())
-if WoWVersion < 20000 then
+--[[if WoWVersion < 20000 then
 	-- CLASSIC
-	ATLASQUEST_VERSION = AQ_MSG_WRONGVERSION;
-elseif WoWVersion > 29999 and WoWVersion < 90000 then 
-	-- WOTLK CLASSIC
-	ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest LK "..AQVERSION;
+	ATLASQUEST_VERSION = AQ_MSG_WRONGVERSION]]
+if WoWVersion < 90000 then 
+	--  CLASSIC
+	ATLASQUEST_VERSION = ""..BLUE.."AtlasQuest Classic "..AQVERSION
 else
 	-- RETAIL / SHADOWLANDS
-	ATLASQUEST_VERSION = AQ_MSG_WRONGVERSION;
+	ATLASQUEST_VERSION = AQ_MSG_WRONGVERSION
 end
 
 
