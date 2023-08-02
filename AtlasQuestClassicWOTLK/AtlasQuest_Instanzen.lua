@@ -159,7 +159,7 @@ end
 -- that tells which instance is shown atm for Atlas or AlphaMap
 -----------------------------------------------------------------------------
 function AtlasQuest_Instanzenchecken()
-	AQATLASMAP = AtlasMapSmall:GetTextureFileID()
+	AQATLASMAP = AtlasMap:GetTextureFileID()
 	if AQATLASMAP then
 		AQINSTANZ = AQInstances.ids[AQATLASMAP]
 		if not AQINSTANZ then

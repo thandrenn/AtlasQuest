@@ -203,7 +203,7 @@ function AQ_OnLoad()
     AtlasQuestFrame:RegisterEvent("ADDON_LOADED");
     AQSetButtontext(); -- translation for all buttons
     if ( AtlasFrame ) then
-    	AQATLASMAP = AtlasMapSmall:GetTexture()
+    	AQATLASMAP = AtlasMap:GetTexture()
     else
 	  AQATLASMAP = 36;
     end
