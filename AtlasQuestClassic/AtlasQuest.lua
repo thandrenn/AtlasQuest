@@ -447,77 +447,24 @@ end
 -- Colours quest blue if they are in your questlog
 -----------------------------------------------------------------------------
 function AQCompareQLtoAQ(Quest)
-local TotalQuestEntries
-local CurrentQuestnum
-local OnlyQuestNameRemovedNumber
-local Questisthere
-local x
-local y
-local z
-local count
+  local AQQuestID
 
   if (AQCheckQuestlog == nil) then -- Option to turn the check on or off
     if (Quest == nil) then  -- added for use in button text to change the caption dunno whether i add it or not
       Quest = AQSHOWNQUEST;
     end
-    if (Quest <= 9) then
-      if (Allianceorhorde == 1) then
-        OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 4)
-      elseif (Allianceorhorde == 2) then
-        OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 4)
-      end
-    elseif (Quest > 9) then
-      if (Allianceorhorde == 1) then
-        OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 5)
-      elseif (Allianceorhorde == 2) then
-        OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 5)
-      end
-    end
-    --this checks should be done everytime when the questupdate event gets executed
-    TotalQuestEntries = GetNumQuestLogEntries();
-    for CurrentQuestnum=1, TotalQuestEntries do
-      x, y, z = GetQuestLogTitle(CurrentQuestnum)
-      TotalQuestsTable = {
-        [CurrentQuestnum] = x,
-      };
-      if ((CT_Core) and (CT_Core:getOption("questLevels") == 1)) then
-        count = 4;
-	 if (y > 10) then
-          count = count + 2;
-        else
-          count = count + 1;
-        end
-        if ((z == ELITE ) or ( z == RAID ) or ( z == "Dungeon" ) or ( z == "Donjon" )) then
-          count = count + 1;
-        end
-        TotalQuestsTable = {
-          [CurrentQuestnum] = strsub(x, count)
-         };
-      end
 
-      -- Code from Denival to remove parentheses and anything in it so Color Quests blue option works.
-      ps, pe = strfind(OnlyQuestNameRemovedNumber," %(.*%)")
-      if (ps) then
-       OnlyQuestNameRemovedNumber = strsub(OnlyQuestNameRemovedNumber,1,ps-1)
-      end
+	if (Allianceorhorde == 1) then
+		AQQuestID = getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_QuestID");
+	elseif (Allianceorhorde == 2) then
+		AQQuestID = getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE_QuestID");
+	end
 
-      --expect this
-      if (TotalQuestsTable[CurrentQuestnum] == OnlyQuestNameRemovedNumber) then
-        Questisthere = 1;
-      end
-    end
-    if (Questisthere == 1) then
-      return true;
-    else
-      return false;
-    end
-    --
+    return C_QuestLog.IsOnQuest(AQQuestID);
   else
     return false;
   end
 end
-
-
 
 
 --******************************************
