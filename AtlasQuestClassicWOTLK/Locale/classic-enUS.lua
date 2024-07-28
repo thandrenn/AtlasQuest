@@ -82,7 +82,7 @@ local GREEN = "|cff66cc33";
 local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
-local YELLOW = "|cffFFd200";   -- Ingame Yellow
+local YELLOW = "|cffFFd200"; -- Ingame Yellow
 
 
 
@@ -90,55 +90,8 @@ local YELLOW = "|cffFFd200";   -- Ingame Yellow
 --------------- INST1 - Blackrock Depths ---------------
 
 Inst1Caption = "Blackrock Depths"
-Inst1QAA = "19 Quests"
-Inst1QAH = "18 Quests"
 
---Quest 1 Alliance
-Inst1Quest1 = "1. Dark Iron Legacy"
-Inst1Quest1_Aim = "Slay Fineous Darkvire and recover the great hammer, Ironfel. Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright."
-Inst1Quest1_Location = "Franclorn Forgewright (Blackrock Mountain; "..GREEN.."[1'] on Entrance map"..WHITE..")"
-Inst1Quest1_Note = "Franclorn Forgewright is in the middle of the floating island in Blackrock Mountain, outside the dungeon near the Meeting Stone.  You have to be dead to see him.  He also gives you the prequest which just requires you listen to his story.\nFineous Darkvire is at "..YELLOW.."[9]"..WHITE..". The Shrine next to the arena at "..YELLOW.."[7]"..WHITE.."."
-Inst1Quest1_Prequest = "Dark Iron Legacy"
-Inst1Quest1_Folgequest = "None"
---
-Inst1Quest1name1 = "Shadowforge Key"
-
---Quest 2 Alliance
-Inst1Quest2 = "2. Ribbly Screwspigot"
-Inst1Quest2_Aim = "Bring Ribbly's Head to Yuka Screwspigot in the Burning Steppes."
-Inst1Quest2_Location = "Yuka Screwspigot (Burning Steppes - Flame Crest; "..YELLOW.."66.0, 22.0"..WHITE..")"
-Inst1Quest2_Note = "You get the prequest from Yorba Screwspigot (Tanaris - Steamwheedle Port; "..YELLOW.."67.0, 24.0"..WHITE..").\nRibbly Screwspigot is at "..YELLOW.."[15]"..WHITE.."."
-Inst1Quest2_Prequest = "Yuka Screwspigot"
-Inst1Quest2_Folgequest = "None"
---
-Inst1Quest2name1 = "Rancor Boots"
-Inst1Quest2name2 = "Penance Spaulders"
-Inst1Quest2name3 = "Splintsteel Armor"
-
---Quest 3 Alliance
-Inst1Quest3 = "3. The Love Potion"
-Inst1Quest3_Aim = "Bring 4 Gromsblood, 10 Giant Silver Veins and Nagmara's Filled Vial to Mistress Nagmara in Blackrock Depths."
-Inst1Quest3_Location = "Mistress Nagmara (Blackrock Depths; "..YELLOW.."[15]"..WHITE..")"
-Inst1Quest3_Note = "You get the Giant Silver Veins from Giants in Azshara.  Gromsblood can be acquired from either a herbalist or at the Auction House.  The vial is filled at (Un'Goro Crater - Golakka Hot Springs; "..YELLOW.."31.0, 50.0"..WHITE..").\nAfter completing the quest, you can use the backdoor instead of killing Phalanx."
-Inst1Quest3_Prequest = "None"
-Inst1Quest3_Folgequest = "None"
---
-Inst1Quest3name1 = "Manacle Cuffs"
-Inst1Quest3name2 = "Nagmara's Whipping Belt"
-
---Quest 4 Alliance
-Inst1Quest4 = "4. Hurley Blackbreath"
-Inst1Quest4_Aim = "Bring the Lost Thunderbrew Recipe to Ragnar Thunderbrew in Kharanos."
-Inst1Quest4_Location = "Ragnar Thunderbrew  (Dun Morogh - Kharanos; "..YELLOW.."46.8, 52.4"..WHITE..")"
-Inst1Quest4_Note = "The prequest starts at Enohar Thunderbrew (Blasted Lands - Nethergarde Keep; "..YELLOW.."63.6, 20.6"..WHITE..").\nYou get the recipe from one of the guards who appear if you destroy the ale barrel in the Grim Guzzler at "..YELLOW.."[15]"..WHITE.."."
-Inst1Quest4_Prequest = "Ragnar Thunderbrew"
-Inst1Quest4_Folgequest = "None"
---
-Inst1Quest4name1 = "Dark Dwarven Lager"
-Inst1Quest4name2 = "Swiftstrike Cudgel"
-Inst1Quest4name3 = "Limb Cleaver"
-
---Quest 5 Alliance  
+--Quest 5 Alliance
 Inst1Quest5 = "5. Overmaster Pyron"
 Inst1Quest5_Aim = "Slay Overmaster Pyron and return to Jalinda Sprig."
 Inst1Quest5_Location = "Jalinda Sprig (Burning Steppes - Morgan's Vigil; "..YELLOW.."85.4, 70.0"..WHITE..")"
@@ -777,7 +730,7 @@ Inst3Quest7_HORDE_Folgequest = "Bijou's Belongings"
 Inst3Quest8_HORDE = "8. Bijou's Belongings"
 Inst3Quest8_HORDE_Aim = "Find Bijou's Belongings and return them to her. You recall her mentioning that she stashed them on the bottom floor of the city."
 Inst3Quest8_HORDE_Location = "Bijou (Blackrock Spire; "..YELLOW.."[8]"..WHITE..")"
-Inst3Quest8_HORDE_Note = "You find Bijou's Belongings on the way to Mother Smolderweb at "..YELLOW.."[13]"..WHITE..".\The rewards below are for the followup quest, which turns in back at Lexlort (Badlands - Kargath; "..YELLOW.."5.8, 47.6"..WHITE..")."
+Inst3Quest8_HORDE_Note = "You find Bijou's Belongings on the way to Mother Smolderweb at "..YELLOW.."[13]"..WHITE..".\nThe rewards below are for the followup quest, which turns in back at Lexlort (Badlands - Kargath; "..YELLOW.."5.8, 47.6"..WHITE..")."
 Inst3Quest8_HORDE_Prequest = "Operative Bijou"
 Inst3Quest8_HORDE_Folgequest = "Bijou's Reconnaissance Report"
 --
@@ -1109,8 +1062,8 @@ Inst4Quest13_HORDE_Folgequest = Inst4Quest11_Folgequest
 --------------- INST5 - Deadmines ---------------
 
 Inst5Caption = "Deadmines"
-Inst5QAA = "7 Quests" 
-Inst5QAH = "No Quests" 
+Inst5QAA = "7 Quests"
+Inst5QAH = "No Quests"
 
 --Quest 1 Alliance
 Inst5Quest1 = "1. Red Silk Bandanas"

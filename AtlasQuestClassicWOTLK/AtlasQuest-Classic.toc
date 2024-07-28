@@ -15,8 +15,8 @@
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
-## Author: Created by Asurn, Maintained by Thandrenn, Code fixed for 10.x by Zilom
-## Version: 4.16.01
+## Author: Created by Thandrenn, Maintained by Thanbini, Code fixed for 10.x by Zilom
+## Version: 4.13.05
 ## X-Author-Faction: Alliance
 ## X-Author-Server: Atiesh US
 ## X-eMail: mystery8@gmail.com
@@ -25,14 +25,16 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
-## X-Date: February 19, 2023
+## X-Date: February 2, 2023
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: Atlas
-## OptionalDeps: Atlas_ClassicWoW
+## OptionalDeps: Atlas_ClassicWoW,Atlas_BurningCrusade,Atlas_WrathoftheLichKing
 ## LoadOnDemand: 0
 ## SavedVariablesPerCharacter:
 ## SavedVariables: AtlasQuest_Options
 ## Dependencies:
 
+embeds.xml
+Locales\Locales.xml
 AtlasQuest_InsideFrame.xml
 AtlasQuest.xml

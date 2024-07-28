@@ -1693,7 +1693,7 @@ Inst7Quest4_HORDE_Location = Inst7Quest2_Location
 Inst7Quest4_HORDE_Note = Inst7Quest2_Note
 Inst7Quest4_HORDE_Prequest = Inst7Quest2_Prequest
 Inst7Quest4_HORDE_Folgequest = Inst7Quest2_Folgequest
-Inst7Quest4PreQuest_HORDE = Inst7Quest2_PreQuest
+Inst7Quest4PreQuest_HORDE = Inst7Quest2PreQuest
 --
 Inst7Quest4name1_HORDE = Inst7Quest2name1
 Inst7Quest4name2_HORDE = Inst7Quest2name2
@@ -5309,7 +5309,7 @@ Inst26Quest5_HORDE_Location = Inst26Quest5_Location
 Inst26Quest5_HORDE_Note = Inst26Quest5_Note
 Inst26Quest5_HORDE_Prequest = Inst26Quest5_Prequest
 Inst26Quest5_HORDE_Folgequest = Inst26Quest5_Folgequest
-Inst26Quest5PreQuest_HORDE = Inst26Quest5Prequest
+Inst26Quest5PreQuest_HORDE = Inst26Quest5PreQuest
 -- No Rewards for this quest
 
 --Quest 6 Horde  (same as Quest 6 Alliance)

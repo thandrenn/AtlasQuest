@@ -784,7 +784,7 @@ Inst3Quest7_HORDE_Folgequest = "Bijous Habseligkeiten"
 Inst3Quest8_HORDE = "8. Bijous Habseligkeiten"
 Inst3Quest8_HORDE_Aim = "Sucht Bijous Habseligkeiten und bringt sie ihr. Ihr erinnert Euch daran, dass sie erwähnte, ihre Sachen auf der untersten Ebene der Stadt versteckt zu haben."
 Inst3Quest8_HORDE_Location = "Bijou (Schwarzfelsspitze; "..YELLOW.."[3]"..WHITE..")"
-Inst3Quest8_HORDE_Note = "Du findest die Habseligkeiten auf den Weg zu Mutter Glimmernetz bei "..YELLOW.."[11]"..WHITE..".\Die Belohnung bekommst Du aus der Folgequest, welche Dich zu Lexlort zurückführt, in (Ödland - Kargath; "..YELLOW.."5.8, 47.6"..WHITE..")."
+Inst3Quest8_HORDE_Note = "Du findest die Habseligkeiten auf den Weg zu Mutter Glimmernetz bei "..YELLOW.."[11]"..WHITE..".\nDie Belohnung bekommst Du aus der Folgequest, welche Dich zu Lexlort zurückführt, in (Ödland - Kargath; "..YELLOW.."5.8, 47.6"..WHITE..")."
 Inst3Quest8_HORDE_Prequest = "Agentin Bijou"
 Inst3Quest8_HORDE_Folgequest = "Bijous Aufklärungsbericht"
 --

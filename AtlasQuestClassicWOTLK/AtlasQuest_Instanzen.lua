@@ -23,7 +23,7 @@
 
 local AQInstances = {
 	paths = {
--- Classic
+		-- Classic
 		["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_BlackrockDepths"] = 1,
 		["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_BlackwingLair"] = 2,
 		["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\CL_BlackrockSpireLower"] = 3,
@@ -73,7 +73,7 @@ local AQInstances = {
 		["Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\OR_Azuregos"] = 37,
 		["Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\OR_HighlordKruul"] = 38,
 
--- Burning Crusade
+		-- Burning Crusade
 		["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CL_HCHellfireRamparts"] = 40,
 		["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CL_HCBloodFurnace"] = 41,
 		["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CL_HCTheShatteredHalls"] = 42,
@@ -106,7 +106,7 @@ local AQInstances = {
 		["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CL_MagistersTerrace"] = 67,
 		["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CL_SunwellPlateau"] = 68,
 
--- Wrath of the Lich King Instances
+		-- Wrath of the Lich King Instances
 		["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CoTOldStratholme"] = 69,
 		["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UtgardeKeep"] = 70,
 		["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UtgardePinnacle"] = 71,
@@ -146,11 +146,11 @@ local AQInstances = {
 		["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\RubySanctum"] = 94,
 	},
 	ids = {},
-}
-for path,inst in pairs(AQInstances.paths) do
-	local fileId = GetFileIDFromPath(path)
+};
+for path, inst in pairs(AQInstances.paths) do
+	local fileId = GetFileIDFromPath(path);
 	if fileId then
-		AQInstances.ids[fileId] = inst
+		AQInstances.ids[fileId] = inst;
 	end
 end
 
@@ -159,11 +159,11 @@ end
 -- that tells which instance is shown atm for Atlas or AlphaMap
 -----------------------------------------------------------------------------
 function AtlasQuest_Instanzenchecken()
-	AQATLASMAP = AtlasMap:GetTextureFileID()
+	AQATLASMAP = AtlasMap:GetTextureFileID();
 	if AQATLASMAP then
-		AQINSTANZ = AQInstances.ids[AQATLASMAP]
+		AQINSTANZ = AQInstances.ids[AQATLASMAP];
 		if not AQINSTANZ then
-			AQINSTANZ = 66 -- Default
+			AQINSTANZ = 66; -- Default
 		end
 	end
 end
@@ -220,7 +220,7 @@ end
 -- 38 = Highlord Kruul
 
 
--- Burning Crusade Dungeons & Raids  
+-- Burning Crusade Dungeons & Raids
 
 -- 40 = DUNGEON: Hellfire Ramparts
 -- 41 = DUNGEON: Blood Furnace

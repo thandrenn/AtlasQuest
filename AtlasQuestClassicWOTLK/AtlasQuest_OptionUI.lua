@@ -30,69 +30,65 @@ local GREY = "|cff999999"; -- really grey
 -- and sets checks after the variables
 -----------------------------------------------------------------------------
 function AtlasQuestOptionFrame_OnShow()
+	--autoshow
+	if (AQAtlasAuto == 2) then
+		AQAutoshowOption:SetChecked(false);
+	end
 
-    --autoshow
-    if (AQAtlasAuto == 2) then
-       AQAutoshowOption:SetChecked(false);
-    end
+	--left/right
+	if (AQ_ShownSide == "Left") then
+		AQRIGHTOption:SetChecked(false);
+		AQLEFTOption:SetChecked(true);
+	else
+		AQRIGHTOption:SetChecked(true);
+		AQLEFTOption:SetChecked(false);
+	end
 
-    --left/right
-    if (AQ_ShownSide == "Left") then
-       AQRIGHTOption:SetChecked(false);
-       AQLEFTOption:SetChecked(true);
-    else
-       AQRIGHTOption:SetChecked(true);
-       AQLEFTOption:SetChecked(false);
-    end
+	-- Colour Check
+	if (AQNOColourCheck) then
+		AQColourOption:SetChecked(false);
+	else
+		AQColourOption:SetChecked(true);
+	end
 
-    -- Colour Check
-    if (AQNOColourCheck) then
-       AQColourOption:SetChecked(false);
-    else
-       AQColourOption:SetChecked(true);
-    end
+	--AQCheckQuestlog
+	if (AQCheckQuestlog == nil) then
+		AQCheckQuestlogButton:SetChecked(true);
+	else
+		AQCheckQuestlogButton:SetChecked(false);
+	end
 
-    --AQCheckQuestlog
-    if (AQCheckQuestlog == nil) then
-      AQCheckQuestlogButton:SetChecked(true);
-    else
-      AQCheckQuestlogButton:SetChecked(false);
-    end
-
-    -- ComparisonTooltips
-    if (AQCompareTooltip == nil) then
-      AQCompareTooltipOption:SetChecked(false);
-    else
-      AQCompareTooltipOption:SetChecked(true);
-    end
-
+	-- ComparisonTooltips
+	if (AQCompareTooltip == nil) then
+		AQCompareTooltipOption:SetChecked(false);
+	else
+		AQCompareTooltipOption:SetChecked(true);
+	end
 end
-
 
 -----------------------------------------------------------------------------
 -- Autoshow option
 -----------------------------------------------------------------------------
 function AQAutoshowOption_OnClick()
-          if (AQAtlasAuto == 1) then
-            AQAtlasAuto = 2;
-            ChatFrame1:AddMessage(AQAtlasAutoOFF);
-            AQAutoshowOption:SetChecked(false);
-          else
-            AQAtlasAuto = 1;
-            ChatFrame1:AddMessage(AQAtlasAutoON);
-            AQAutoshowOption:SetChecked(true);
-          end
-          AtlasQuest_SaveData();
+	if (AQAtlasAuto == 1) then
+		AQAtlasAuto = 2;
+		ChatFrame1:AddMessage(AQAtlasAutoOFF);
+		AQAutoshowOption:SetChecked(false);
+	else
+		AQAtlasAuto = 1;
+		ChatFrame1:AddMessage(AQAtlasAutoON);
+		AQAutoshowOption:SetChecked(true);
+	end
+	AtlasQuest_SaveData();
 end
-
 
 -----------------------------------------------------------------------------
 -- Right option
 -----------------------------------------------------------------------------
 function AQRIGHTOption_OnClick()
-	local _, relativeTo, _, _, offsetY = AtlasQuestFrame:GetPoint()
+	local _, relativeTo, _, _, offsetY = AtlasQuestFrame:GetPoint();
 	AtlasQuestFrame:ClearAllPoints();
-	AtlasQuestFrame:SetPoint("TOPLEFT", relativeTo, "TOPRIGHT", AtlasQuestConfig.offsetX.right, offsetY)
+	AtlasQuestFrame:SetPoint("TOPLEFT", relativeTo, "TOPRIGHT", AtlasQuestConfig.offsetX.right, offsetY);
 	AQRIGHTOption:SetChecked(true);
 	AQLEFTOption:SetChecked(false);
 	if (AQ_ShownSide ~= "Right") then
@@ -102,14 +98,13 @@ function AQRIGHTOption_OnClick()
 	AtlasQuest_SaveData();
 end
 
-
 -----------------------------------------------------------------------------
 -- Left option
 -----------------------------------------------------------------------------
 function AQLEFTOption_OnClick()
-	local _, relativeTo, _, _, offsetY = AtlasQuestFrame:GetPoint()
-	AtlasQuestFrame:ClearAllPoints()
-	AtlasQuestFrame:SetPoint("TOPRIGHT", relativeTo, "TOPLEFT", AtlasQuestConfig.offsetX.left, offsetY)
+	local _, relativeTo, _, _, offsetY = AtlasQuestFrame:GetPoint();
+	AtlasQuestFrame:ClearAllPoints();
+	AtlasQuestFrame:SetPoint("TOPRIGHT", relativeTo, "TOPLEFT", AtlasQuestConfig.offsetX.left, offsetY);
 	AQRIGHTOption:SetChecked(false);
 	AQLEFTOption:SetChecked(true);
 	if (AQ_ShownSide ~= "Left") then
@@ -119,61 +114,55 @@ function AQLEFTOption_OnClick()
 	AtlasQuest_SaveData();
 end
 
-
 -----------------------------------------------------------------------------
 -- Colour Check
 -- if AQNOColourCheck = true then NO Colour Check
 -----------------------------------------------------------------------------
 function AQColourOption_OnClick()
-    if (AQNOColourCheck) then
-      AQNOColourCheck = nil;
-      AQColourOption:SetChecked(true);
-      ChatFrame1:AddMessage(AQCCON);
-    else
-      AQNOColourCheck = true;
-      AQColourOption:SetChecked(false);
-      ChatFrame1:AddMessage(AQCCOFF);
-    end
-    AtlasQuest_SaveData();
-    AQUpdateNOW = true;
+	if (AQNOColourCheck) then
+		AQNOColourCheck = nil;
+		AQColourOption:SetChecked(true);
+		ChatFrame1:AddMessage(AQCCON);
+	else
+		AQNOColourCheck = true;
+		AQColourOption:SetChecked(false);
+		ChatFrame1:AddMessage(AQCCOFF);
+	end
+	AtlasQuest_SaveData();
+	AQUpdateNOW = true;
 end
-
 
 -----------------------------------------------------------------------------
 -- CheckQuestlog option
 -----------------------------------------------------------------------------
 function AQCheckQuestlogButton_OnClick()
-          if (AQCheckQuestlog == nil) then
-            AQCheckQuestlog = "no";
-            AQCheckQuestlogButton:SetChecked(false);
-          else
-            AQCheckQuestlog = nil;
-            AQCheckQuestlogButton:SetChecked(true);
-          end
-          AtlasQuest_SaveData();
-          AQUpdateNOW = true;
+	if (AQCheckQuestlog == nil) then
+		AQCheckQuestlog = "no";
+		AQCheckQuestlogButton:SetChecked(false);
+	else
+		AQCheckQuestlog = nil;
+		AQCheckQuestlogButton:SetChecked(true);
+	end
+	AtlasQuest_SaveData();
+	AQUpdateNOW = true;
 end
-
-
 
 -----------------------------------------------------------------------------
 -- Comparison Tooltips Option
 -----------------------------------------------------------------------------
 function AQCompareTooltipOption_OnClick()
- if (AQCompareTooltip == nil) then
-   AQCompareTooltip = "yes";
-   AQCompareTooltipOption:SetChecked(true);
-   if(EquipCompare_RegisterTooltip) then  -- Register AtlasQuest Tooltip with EquipCompare if it's enabled
-     EquipCompare_RegisterTooltip(AtlasQuestTooltip);
-   end
-
- else
-   AQCompareTooltip = nil;
-   AQCompareTooltipOption:SetChecked(false);
-   if(EquipCompare_RegisterTooltip) then  -- Unregister the AtlasQuest Tooltip with EquipCompare if it's enabled
-     EquipCompare_UnregisterTooltip(AtlasQuestTooltip);
-   end
-
- end
- AtlasQuest_SaveData();
+	if (AQCompareTooltip == nil) then
+		AQCompareTooltip = "yes";
+		AQCompareTooltipOption:SetChecked(true);
+		if (EquipCompare_RegisterTooltip) then -- Register AtlasQuest Tooltip with EquipCompare if it's enabled
+			EquipCompare_RegisterTooltip(AtlasQuestTooltip);
+		end
+	else
+		AQCompareTooltip = nil;
+		AQCompareTooltipOption:SetChecked(false);
+		if (EquipCompare_RegisterTooltip) then -- Unregister the AtlasQuest Tooltip with EquipCompare if it's enabled
+			EquipCompare_UnregisterTooltip(AtlasQuestTooltip);
+		end
+	end
+	AtlasQuest_SaveData();
 end

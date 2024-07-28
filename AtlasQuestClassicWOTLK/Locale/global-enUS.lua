@@ -41,8 +41,8 @@ local GREEN = "|cff66cc33";
 local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
-local DARKYELLOW = "|cffcc9933";  -- Atlas uses this color for some things.
-local YELLOW = "|cffFFd200";   -- Ingame Yellow
+local DARKYELLOW = "|cffcc9933"; -- Atlas uses this color for some things.
+local YELLOW = "|cffFFd200";     -- Ingame Yellow
 
 
 
@@ -98,14 +98,6 @@ AQNoReward = ""..BLUE.." No Rewards";
 AQDiscription_REWARD = ""..BLUE.." Reward: ";
 AQDiscription_OR = ""..GREY.." or ";
 AQDiscription_AND = ""..GREY.." and ";
-AQDiscription_ATTAIN = "Attain: ";
-AQDiscription_LEVEL = "Level: ";
-AQDiscription_START = "Starts at: ";
-AQDiscription_AIM = "Objective: ";
-AQDiscription_NOTE = "Note: ";
-AQDiscription_PREQUEST= "Prequest: ";
-AQDiscription_FOLGEQUEST = "Followup: ";
-AQFinishedTEXT = "Finished: ";
 
 
 ------------------
@@ -147,8 +139,8 @@ AQITEM_ONEHAND = "One-Hand,"
 AQITEM_TWOHAND = "Two-Hand,"
 
 AQITEM_ITEM = "Item" -- Use this for those oddball rewards which aren't really anything else.
-AQITEM_EMBLEM = "Emblem" 
-AQITEM_KEY = "Key" 
+AQITEM_EMBLEM = "Emblem"
+AQITEM_KEY = "Key"
 AQITEM_PET = "Pet"
 AQITEM_TRINKET = "Trinket"
 AQITEM_POTION = "Potion"

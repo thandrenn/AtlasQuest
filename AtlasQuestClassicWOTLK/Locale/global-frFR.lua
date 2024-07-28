@@ -54,8 +54,7 @@ AQOptionsCaptionTEXT = ""..YELLOW.."Options AtlasQuest";
 AQ_OK = "OK";
 
 -- Autoshow
-AQOptionsAutoshowTEXT = ""..WHITE.."
-Afficher le panneau AtlasQuest avec "..RED.."Atlas"..WHITE..".";
+AQOptionsAutoshowTEXT = ""..WHITE.."Afficher le panneau AtlasQuest avec "..RED.."Atlas"..WHITE..".";
 AQAtlasAutoON = "Le panneau AtlasQuest s'affiche automatiquement lorsque l'atlas est ouvert."..GREEN.."(défaut)";
 AQAtlasAutoOFF = "Le panneau AtlasQuest "..RED.."Aucun"..WHITE.." montrera quand l'atlas est ouvert."
 

@@ -2087,7 +2087,7 @@ Inst56Quest15_HORDE_Note = Inst56Quest15_Note
 Inst56Quest15_HORDE_Prequest = Inst56Quest15_Prequest
 Inst56Quest15_HORDE_Folgequest = Inst56Quest15_Folgequest
 --
-Inst56Quest15name1_HORDE = Inst58Quest13name1
+Inst56Quest15name1_HORDE = Inst56Quest15name1
 
 
 
