@@ -12,10 +12,13 @@ local ORANGE = "|cffFF8400";
 local YELLOW = "|cffFFd200"; -- Ingame Yellow
 
 local AQDiscription_OR = GREY.." or ";
-local AQDiscription_AND = ""..GREY.." and ";
+local AQDiscription_AND = GREY.." and ";
+local AQNoReward = BLUE.."None";
 
 -- Globals
 L["Quests"] = "Quests";
+L["Quest"] = "Quest";
+L["No Quests"] = "No Quests";
 L["Reward"] = "Reward";
 L["None"] = "None";
 L["Attain"] = "Attain";
@@ -26,6 +29,28 @@ L["Start"] = "Starts at";
 L["Objective"] = "Objective";
 L["Note"] = "Note";
 L["Finished"] = "Finished";
+L["Options"] = "Options";
+
+-- Options
+L["ShowAtlasQuestWithAtlas"] = "Show AtlasQuest panel with Atlas";
+L["ShowAtlasQuestOnSide"] = "Side of Atlas to show AtlasQuest";
+L["Left"] = "Left";
+L["Right"] = "Right";
+L["DisplayQuestsWithLevelColor"] = "Recolor quests depending on their levels";
+L["DisplayQuestsYouHave"] = "Display quests you currently have with blue text";
+L["ResetQuests"] = "Reset Quest Status";
+L["ResetQuestsDesc"] = "Quests will show as unfinished";
+L["ResetQuestsConfirm"] = "This will delete your finished quest data in AtlasQuest";
+L["GetQuests"] = "Get Quest Status";
+L["GetQuestsDesc"] = "Completed quests will be marked as finished, uncompleted quests will be left alone";
+L["GetQuestsConfirm"] = "This will query the server for your completed quests";
+
+-- Instances
+L["Instance_0_Name"] = "No Information Available";
+L["Instance_1_Name"] = "Blackrock Depths";
+L["Instance_2_Name"] = "Blackwing Lair";
+L["Instance_3_Name"] = "Lower Blackrock Spire";
+L["Instance_4_Name"] = "Upper Blackrock Spire";
 
 -- Quests
 L["Quest_3802_Name"] = "Dark Iron Legacy";

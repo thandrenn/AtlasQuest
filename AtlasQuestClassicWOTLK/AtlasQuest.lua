@@ -21,284 +21,420 @@
 
 --]]
 
-local L = LibStub("AceLocale-3.0"):GetLocale("AtlasQuest", true);
+---@class AceAddon
+AtlasQuest                = LibStub("AceAddon-3.0"):NewAddon("AtlasQuest", "AceEvent-3.0", "AceHook-3.0");
 
------------------------------------------------------------------------------
--- Variables
------------------------------------------------------------------------------
-
-AQ = {};
-
-local Initialized = nil; -- the variables are not loaded yet
-
-Allianceorhorde = 1;     -- variable that configures whether horde or alliance is shown
-
-AQINSTANZ = 1;           -- currently shown instance-pic (see AtlasQuest_Instanzen.lua)
-
-AQINSTATM = "";          -- variable to check whether AQINSTANZ has changed (see function AtlasQuestSetTextandButtons())
+local L                   = LibStub("AceLocale-3.0"):GetLocale("AtlasQuest", true);
+local AC                  = LibStub("AceConfig-3.0");
+local ACD                 = LibStub("AceConfigDialog-3.0");
 
 -- Sets the max number of instances and quests to check for.
-local AQMAXINSTANCES = "38";
-local AQMAXQUESTS = "23";
+local AQMAXINSTANCES      = "38";
+local AQMAXQUESTS         = "23";
 
-
-
--- Now I only have to update the version number in the TOC.
-local AQVERSION  = GetAddOnMetadata("AtlasQuest", "Version");
-
--- Checks WoW version and sets warning message in AtlasQuest title if wrong version.  Experimental.  Inspired by code from Atlas.
-local WoWVersion = select(4, GetBuildInfo());
-if WoWVersion < 20000 then
-	-- CLASSIC
-	ATLASQUEST_VERSION = "|cff0070DD".."AtlasQuest "..AQVERSION;
-elseif WoWVersion > 19999 and WoWVersion < 90000 then
-	-- TBC CLASSIC
-	ATLASQUEST_VERSION = AQ_MSG_WRONGVERSION;
-else
-	-- RETAIL / SHADOWLANDS
-	ATLASQUEST_VERSION = AQ_MSG_WRONGVERSION;
-end
-
-
-
-local AtlasQuest_Defaults = {
-	["Version"] = AQVERSION,
-	[UnitName("player")] = {
-		["ShownSide"] = "Left",
-		["AtlasAutoShow"] = 1,
-		["NOColourCheck"] = nil,
-		["CheckQuestlog"] = nil,
-		["CompareTooltip"] = nil,
+-- Declare defaults to be used in the DB
+local defaults            = {
+	profile = {
+		migrationVersion = 0,
+		autoShow = true,
+		shownSide = "left",
+		questColor = true,
+		checkQuestLog = true
 	},
+	char = {
+		completedQuests = {}
+	}
+}
+
+-- Create AceOptions table
+local options             = {
+	name = "AtlasQuest",
+	handler = AtlasQuest,
+	type = "group",
+	args = {
+		autoShow = {
+			order = 0,
+			name = L["ShowAtlasQuestWithAtlas"],
+			type = "toggle",
+			width = "full",
+			set = function(info, val)
+				AtlasQuest.db.profile.autoShow = val;
+			end,
+			get = function(info)
+				return AtlasQuest.db.profile.autoShow;
+			end
+		},
+		shownSide = {
+			order = 1,
+			name = L["ShowAtlasQuestOnSide"],
+			type = "select",
+			values = {
+				["left"] = L["Left"],
+				["right"] = L["Right"],
+			},
+			set = function(info, val)
+				AtlasQuest.db.profile.shownSide = val;
+			end,
+			get = function(info)
+				return AtlasQuest.db.profile.shownSide;
+			end
+		},
+		questColor = {
+			order = 2,
+			name = L["DisplayQuestsWithLevelColor"],
+			type = "toggle",
+			width = "full",
+			set = function(info, val)
+				AtlasQuest.db.profile.questColor = val;
+			end,
+			get = function(info)
+				return AtlasQuest.db.profile.questColor;
+			end
+		},
+		checkQuestLog = {
+			order = 3,
+			name = L["DisplayQuestsYouHave"],
+			type = "toggle",
+			width = "full",
+			set = function(info, val)
+				AtlasQuest.db.profile.checkQuestLog = val;
+			end,
+			get = function(info)
+				return AtlasQuest.db.profile.checkQuestLog;
+			end
+		},
+		resetQuests = {
+			order = 4,
+			name = L["ResetQuests"],
+			desc = L["ResetQuestsDesc"],
+			type = "execute",
+			width = 1.5,
+			confirm = true,
+			confirmText = L["ResetQuestsConfirm"],
+			func = "ResetQuests"
+		},
+		resetAndQueryQuests = {
+			order = 5,
+			name = L["GetQuests"],
+			desc = L["GetQuestsDesc"],
+			type = "execute",
+			width = 1.5,
+			confirm = true,
+			confirmText = L["GetQuestsConfirm"],
+			func = "GetQuests"
+		}
+	},
+}
+
+BACKDROP_AtlasQuest_32_16 = {
+	bgFile = "Interface\\Minimap\\TooltipBackdrop-Background",
+	edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
+	tile = true,
+	tileEdge = true,
+	tileSize = 32,
+	edgeSize = 16,
+	insets = { left = 5, right = 5, top = 5, bottom = 5 },
 };
 
+function AtlasQuest:OnInitialize()
+	self.db = LibStub("AceDB-3.0"):New("AtlasQuestDB", defaults, true);
+	AC:RegisterOptionsTable("AtlasQuest_options", options);
+	self.optionsFrame = ACD:AddToBlizOptions("AtlasQuest_options", "AtlasQuest")
 
+	local profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(self.db);
+	AC:RegisterOptionsTable("AtlasQuest_Profiles", profiles)
+	ACD:AddToBlizOptions("AtlasQuest_Profiles", "Profiles", "AtlasQuest")
 
------------------------------------------------------------------------------
--- Functions
------------------------------------------------------------------------------
-
-
---******************************************
--- Events: OnEvent
---******************************************
-
------------------------------------------------------------------------------
--- Called when the player starts the game loads the variables
------------------------------------------------------------------------------
-
-function AtlasQuest_OnEvent(self, event, ...)
-	local arg1 = ...;
-	if (event == "ADDON_LOADED" and arg1 == "AtlasQuest") then
-		VariablesLoaded = 1; -- data is loaded completely
-	else
-		AtlasQuest_Initialize(); -- player enters world / initialize the data
-	end
+	self:migrateData();
 end
 
------------------------------------------------------------------------------
--- Detects whether the variables have to be loaded
--- or reestablishes them
------------------------------------------------------------------------------
-function AtlasQuest_Initialize()
-	if (Initialized or (not VariablesLoaded)) then
-		return;
-	end
-	if (not AtlasQuest_Options) then
-		AtlasQuest_Options = AtlasQuest_Defaults;
-		DEFAULT_CHAT_FRAME:AddMessage("AtlasQuest Options database not found. Generating...");
-	elseif (not AtlasQuest_Options[UnitName("player")]) then
-		DEFAULT_CHAT_FRAME:AddMessage("Generate default database for this character");
-		AtlasQuest_Options[UnitName("player")] = AtlasQuest_Defaults[UnitName("player")];
-	end
-	if (type(AtlasQuest_Options[UnitName("player")]) == "table") then
-		AQVersionCheck();
-		AtlasQuest_LoadData();
+function AtlasQuest:OnEnable()
+	local BLUE = "|cff0070DD";
+
+	-- Register for events
+	self:RegisterEvent("QUEST_TURNED_IN");
+
+	-- Add hooks
+	self:Hook("Atlas_OnShow");
+	self:RawHook("Atlas_MapRefresh");
+
+	-- Set text on things that never change and initial faction
+	AQ_OptionsButton:SetText(L["Options"]);
+	AQ_Title:SetText(BLUE.."AtlasQuest "..C_AddOns.GetAddOnMetadata("AtlasQuest", "Version"));
+	AQ_FinishedQuestText:SetText(BLUE..L["Finished"]..": ");
+	AtlasQuestFrame.faction = 1;
+
+	-- Create quest list frames
+	for i = 1, AQMAXQUESTS do
+		local button = CreateFrame("Button", "AQButton_"..i, AtlasQuestFrame);
+		button:SetSize(185, 20);
+		button:SetPoint("TOPLEFT", "AtlasQuestFrame", 8, (i * -20) - 65);
+		button:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD");
+		button:SetScript("OnClick", function(self)
+			AQ_Quest_OnClick(self);
+		end);
+
+		local label = button:CreateFontString("AQFont_"..i, "OVERLAY", "GameFontNormalSmall");
+		label:SetSize(165, 20);
+		label:SetPoint("TOPLEFT", button, 15, 0);
+		label:SetJustifyH("LEFT");
+
+		local image = button:CreateTexture("AQTexture_"..i, "BACKGROUND");
+		image:SetPoint("LEFT");
+		image:SetSize(13, 13);
 	end
 
-	Initialized = 1;
+	-- Create item frames
+	local xOffset = { 20, 266, 20, 266, 20, 266 };
+	local yOffset = { 115, 115, 75, 75, 35, 35 };
+	for i = 1, 6 do
+		local item = CreateFrame("Button", "AQ_QuestItem_"..i, AtlasQuestInsideFrame);
+		item:SetSize(236, 30);
+		item:SetPoint("BOTTOMLEFT", "AtlasQuestInsideFrame", xOffset[i], yOffset[i]);
+		item:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD");
+		item:SetScript("OnEnter", function(self)
+			AtlasQuestItem_OnEnter(self);
+		end);
+		item:SetScript("OnLeave", function()
+			AtlasQuestItem_OnLeave();
+		end);
+		item:SetScript("OnClick", function(self)
+			AtlasQuestItem_OnClick(self);
+		end);
+
+		local icon = item:CreateTexture("AQ_QuestItemIcon_"..i, "ARTWORK");
+		icon:SetSize(24, 24);
+		icon:SetPoint("LEFT");
+
+		local name = item:CreateFontString("AQ_QuestItemName_"..i, "OVERLAY", "GameFontNormal");
+		name:SetSize(205, 12);
+		name:SetPoint("TOPLEFT", item, 30, -3);
+		name:SetJustifyH("LEFT");
+
+		local extra = item:CreateFontString("AQ_QuestItemExtra_"..i, "OVERLAY", "GameFontNormalSmall");
+		extra:SetSize(205, 10);
+		extra:SetPoint("TOPLEFT", item, 30, -16);
+		extra:SetJustifyH("LEFT");
+	end
+
+	-- Trigger the initial map setup
+	AtlasQuest:ChangeMap();
 end
 
------------------------------------------------------------------------------
--- New Version check
------------------------------------------------------------------------------
-function AQVersionCheck()
-	if (AtlasQuest_Options["Version"] == nil or AtlasQuest_Options["Version"] ~= AtlasQuest_Defaults["Version"]) then
-		AtlasQuest_Options["Version"] = AtlasQuest_Defaults["Version"];
-		DEFAULT_CHAT_FRAME:AddMessage("First load after updating to "..ATLASQUEST_VERSION);
-	end
-end
+function AtlasQuest:migrateData()
+	-- Migration 1: AQ v5 Global Migration
+	if (self.db.profile.migrationVersion < 1) then
+		-- Only migrate if there's something to migrate
+		if (AtlasQuest_Options[UnitName("player")] ~= nil) then
+			-- Migrate option data one time, into the profile
+			if (AtlasQuest_Options[UnitName("player")]["ShownSide"] ~= nil) then
+				if (AtlasQuest_Options[UnitName("player")]["ShownSide"] == "Left") then
+					self.db.profile.shownSide = "left";
+				else
+					self.db.profile.shownSide = "right";
+				end
+			end
+			if (AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"] ~= nil) then
+				if (AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"] == 1) then
+					self.db.profile.autoShow = true;
+				else
+					self.db.profile.shownSide = false;
+				end
+			end
+			if (AtlasQuest_Options[UnitName("player")]["ColourCheck"] ~= nil) then
+				self.db.profile.questColor = false;
+			end
+			if (AtlasQuest_Options[UnitName("player")]["CheckQuestlog"] ~= nil) then
+				self.db.profile.checkQuestLog = false;
+			end
 
------------------------------------------------------------------------------
--- Loads the saved variables
------------------------------------------------------------------------------
-function AtlasQuest_LoadData()
-	-- Which side
-	if (AtlasQuest_Options[UnitName("player")]["ShownSide"] ~= nil) then
-		AQ_ShownSide = AtlasQuest_Options[UnitName("player")]["ShownSide"];
-	end
-	-- atlas autoshow
-	if (AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"] ~= nil) then
-		AQAtlasAuto = AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"];
-	end
-	-- Colour Check? if nil = no cc; if true = cc
-	AQNOColourCheck = AtlasQuest_Options[UnitName("player")]["ColourCheck"];
-	-- Finished?
-	for i = 1, AQMAXINSTANCES do
-		for b = 1, AQMAXQUESTS do
-			AQ["AQFinishedQuest_Inst"..i.."Quest"..b] = AtlasQuest_Options[UnitName("player")]
-				["AQFinishedQuest_Inst"..i.."Quest"..b];
-			AQ["AQFinishedQuest_Inst"..i.."Quest"..b.."_HORDE"] = AtlasQuest_Options[UnitName("player")]
-				["AQFinishedQuest_Inst"..i.."Quest"..b.."_HORDE"];
-		end
-	end
-	--AQCheckQuestlog
-	AQCheckQuestlog = AtlasQuest_Options[UnitName("player")]["CheckQuestlog"];
-	-- Comparison Tooltips option
-	AQCompareTooltip = AtlasQuest_Options[UnitName("player")]["CompareTooltip"];
-end
-
------------------------------------------------------------------------------
--- Saves the variables
------------------------------------------------------------------------------
-function AtlasQuest_SaveData()
-	AtlasQuest_Options[UnitName("player")]["ShownSide"] = AQ_ShownSide;
-	AtlasQuest_Options[UnitName("player")]["AtlasAutoShow"] = AQAtlasAuto;
-	AtlasQuest_Options[UnitName("player")]["ColourCheck"] = AQNOColourCheck;
-	AtlasQuest_Options[UnitName("player")]["CheckQuestlog"] = AQCheckQuestlog;
-	AtlasQuest_Options[UnitName("player")]["CompareTooltip"] = AQCompareTooltip;
-end
-
---******************************************
--- Events: OnLoad
---******************************************
-
------------------------------------------------------------------------------
--- Call OnLoad set Variables and hides the panel
------------------------------------------------------------------------------
-function AQ_OnLoad()
-	AtlasQuestFrame:RegisterEvent("PLAYER_ENTERING_WORLD");
-	AtlasQuestFrame:RegisterEvent("ADDON_LOADED");
-	AQSetButtontext(); -- translation for all buttons
-	if (AtlasFrame) then
-		AQATLASMAP = AtlasMapSmall:GetTexture();
-	else
-		AQATLASMAP = 36;
-	end
-	--this:RegisterForDrag("LeftButton");
-	-- not showed yet
-	HideUIPanel(AtlasQuestFrame);
-	HideUIPanel(AtlasQuestInsideFrame);
-	HideUIPanel(AtlasQuestOptionFrame);
-	AQUpdateNOW = true;
-end
-
------------------------------------------------------------------------------
--- Set the button text
------------------------------------------------------------------------------
-function AQSetButtontext()
-	OPTIONbutton:SetText(AQOptionB);
-	AQOptionCloseButton:SetText(AQ_OK);
-	AQOptionQuestQueryButton:SetText(AQQuestQueryButtonTEXT);
-	AQOptionQuestQuery:SetText(AQQuestQueryTEXT);
-	AQOptionClaerQuestAndQueryButton:SetText(AQClearQuestAndQueryButtonTEXT);
-	AQOptionClearQuestAndQuery:SetText(AQClearQuestAndQueryTEXT);
-	AtlasQuestTitle:SetText(ATLASQUEST_VERSION);
-	AQCaptionOptionTEXT:SetText(AQOptionsCaptionTEXT);
-	AQAutoshowOptionTEXT:SetText(AQOptionsAutoshowTEXT);
-	AQLEFTOptionTEXT:SetText(AQOptionsLEFTTEXT);
-	AQRIGHTOptionTEXT:SetText(AQOptionsRIGHTTEXT);
-	AQColourOptionTEXT:SetText(AQOptionsCCTEXT);
-	AQFQ_TEXT:SetText(AQFinishedTEXT);
-	AQCheckQuestlogTEXT:SetText(AQQLColourChange);
-	AQCompareTooltipTEXT:SetText(AQOptionsCompareTooltipTEXT);
-end
-
---******************************************
--- Events: OnUpdate
---******************************************
-
------------------------------------------------------------------------------
--- Check which program is used (Atlas or AlphaMap)
--- hide panel if instance is 36 (nothing)
------------------------------------------------------------------------------
-function AQ_OnUpdate(arg1)
-	local previousValue = AQINSTANZ;
-
-	------- SEE AtlasQuest_Instanzen.lua
-	AtlasQuest_Instanzenchecken();
-
-	-- Hides the panel if the map which is shown no quests have (map = 36)
-	-- Disabled this by changing 36 here to 0 until it can be written out or re-written.
-	if (AQINSTANZ == 0) then
-		HideUIPanel(AtlasQuestFrame);
-		HideUIPanel(AtlasQuestInsideFrame);
-	elseif ((AQINSTANZ ~= previousValue) or (AQUpdateNOW ~= nil)) then
-		AtlasQuestSetTextandButtons();
-		AQUpdateNOW = nil;
-		AQ_SetCaption();
-	end
-end
-
------------------------------------------------------------------------------
---  Set the ZoneName
------------------------------------------------------------------------------
-function AQ_SetCaption()
-	Headingborder:SetText();
-	if (getglobal("Inst"..AQINSTANZ.."Caption") ~= nil) then
-		Headingborder:SetText(getglobal("Inst"..AQINSTANZ.."Caption"));
-	end
-end
-
------------------------------------------------------------------------------
---  Set the Buttontext and the buttons if available
---  and check whether its a other inst or not -> works fine
---  added: Check for Questline arrows
---  Questline arrows are shown if InstXQuestYFQuest = "true"
---  QuestStart icon are shown if InstXQuestYPreQuest = "true"
------------------------------------------------------------------------------
-function AtlasQuestSetTextandButtons()
-	if (AQINSTATM ~= AQINSTANZ) then
-		HideUIPanel(AtlasQuestInsideFrame);
-	end
-
-	if (Allianceorhorde == 1 or Allianceorhorde == 2) then
-		AQINSTATM = AQINSTANZ;
-		local quests = AQDungeonArr[AQINSTANZ][Allianceorhorde];
-
-		AtlasQuestAnzahl:SetText(#quests..' '..L['Quests']);
-
-		for i = 1, AQMAXQUESTS do
-			getglobal("AQQuestbutton"..i):Disable();
-			getglobal("AQBUTTONTEXT"..i):SetText();
-			getglobal("AQQuestlineArrow_"..i):Hide();
+			-- Clear out the version key to avoid confusion
+			AtlasQuest_Options["Version"] = nil;
 		end
 
+		self.db.profile.migrationVersion = 1;
+	end
+
+	-- Future migrations go here
+
+	-- Migration Infinity: AQ v5 Character Migration
+	-- AceDB includes the server name in the key for character-specific storage
+	-- Since AQ didn't store the server name before, we can only migrate the currently logged in character
+	if (AtlasQuest_Options[UnitName("player")] ~= nil) then
+		local characterData = AtlasQuest_Options[UnitName("player")];
+
+		-- TODO: change this to AQMAXINSTANCES when the quest data is in the new format
+		for instance = 1, 1 do
+			for quest = 1, AQMAXQUESTS do
+				if (characterData["AQFinishedQuest_Inst"..instance.."Quest"..quest] == 1) then
+					local questID = AQDungeonArr[instance][1][quest];
+					self.db.char.completedQuests[questID] = 1;
+				elseif (characterData["AQFinishedQuest_Inst"..instance.."Quest"..quest.."_HORDE"] == 1) then
+					local questID = AQDungeonArr[instance][2][quest];
+					self.db.char.completedQuests[questID] = 1;
+				end
+			end
+		end
+
+		-- TODO: uncomment this when the quest data is in the new format
+		-- AtlasQuest_Options[UnitName("player")] = nil;
+	end
+end
+
+-----------------------------------------------------------------------------
+-- When a dungeon quest is turned in, automatically mark it as finished
+-----------------------------------------------------------------------------
+function AtlasQuest:QUEST_TURNED_IN(eventName, turnedInQuestID)
+	local faction = 1;
+	local flag = false;
+	if (UnitFactionGroup("player") == "Horde") then
+		faction = 2;
+	end
+
+	for key, instance in pairs(AQDungeonArr) do
+		local quests = instance[faction];
 		for key, questID in pairs(quests) do
-			if (AQQuestArr[questID][4] ~= nil) then
-				getglobal("AQQuestlineArrow_"..key):SetTexture("Interface\\Glues\\Login\\UI-BackArrow");
-				getglobal("AQQuestlineArrow_"..key):Show();
-			elseif (AQQuestArr[questID][3] ~= nil) then
-				getglobal("AQQuestlineArrow_"..key):SetTexture("Interface\\GossipFrame\\PetitionGossipIcon");
-				getglobal("AQQuestlineArrow_"..key):Show();
+			if (turnedInQuestID == questID) then
+				self.db.char.completedQuests[questID] = 1;
+				flag = true;
 			end
+		end
+	end
 
-			-- TODO: fix saved variable name
-			if (AQ["AQFinishedQuest_Inst"..AQINSTANZ.."Quest99_HORDE"] == 1) then
-				getglobal("AQQuestlineArrow_"..key):SetTexture("Interface\\GossipFrame\\BinderGossipIcon");
-				getglobal("AQQuestlineArrow_"..key):Show();
-			end
-
-			getglobal("AQQuestbutton"..key):Enable();
-			getglobal("AQBUTTONTEXT"..key):SetText(AtlasQuestGetQuestColor(questID)..key..'. '..L['Quest_'..questID..'_Name']);
+	-- If we marked a dungeon quest as completed, and AQ is visible, update it
+	if (flag == true) then
+		if (AtlasQuestFrame:IsVisible()) then
+			AtlasQuest:SetQuestList();
+		end
+		-- Only need to update the inside frame if we're currently looking at the quest turned in
+		if (AtlasQuestInsideFrame:IsVisible() and AtlasQuestInsideFrame.questID == turnedInQuestID) then
+			AtlasQuest:SetQuestInfo(turnedInQuestID);
 		end
 	end
 end
 
------------------------------------------------------------------------------
--- Returns quest color depending on level and options
------------------------------------------------------------------------------
-function AtlasQuestGetQuestColor(questID)
+function AtlasQuest:GoToOptions()
+	InterfaceOptionsFrame_OpenToCategory(self.optionsFrame);
+end
+
+function AtlasQuest:ResetQuests()
+	self.db.char.completedQuests = {};
+end
+
+function AtlasQuest:GetQuests()
+	local completedQuestsServer = GetQuestsCompleted();
+
+	-- Checks both faction's quests (faction changes are a thing I guess)
+	for key, instance in pairs(AQDungeonArr) do
+		for key, quests in pairs(instance) do
+			for key, questID in pairs(quests) do
+				if (completedQuestsServer[questID] == true) then
+					self.db.char.completedQuests[questID] = 1;
+				end
+			end
+		end
+	end
+end
+
+--- Sets the quest list frame
+function AtlasQuest:SetQuestList()
+	local AQInstanceID = AtlasQuestFrame.AQInstanceID;
+	local faction = AtlasQuestFrame.faction;
+
+	-- This handles instances that have maps, but don't have any quests
+	local quests = {};
+	if AQDungeonArr[AQInstanceID] then
+		quests = AQDungeonArr[AQInstanceID][faction];
+	end
+
+	-- Clear out the info that used to be in the quest list
+	for i = 1, AQMAXQUESTS do
+		getglobal("AQButton_"..i):Disable();
+		getglobal("AQFont_"..i):SetText();
+		getglobal("AQTexture_"..i):Hide();
+	end
+
+	AQ_InstanceTitle:SetText(L["Instance_"..AQInstanceID.."_Name"]);
+	if (#quests == 0) then
+		AQ_InstanceNumQuests:SetText(L['No Quests']);
+	elseif (#quests == 1) then
+		AQ_InstanceNumQuests:SetText('1 '..L['Quest']);
+	else
+		AQ_InstanceNumQuests:SetText(#quests..' '..L['Quests']);
+	end
+
+	for key, questID in pairs(quests) do
+		local button = getglobal("AQButton_"..key);
+		local label = getglobal("AQFont_"..key);
+		local image = getglobal("AQTexture_"..key);
+
+		if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
+			image:SetTexture("Interface\\GossipFrame\\BinderGossipIcon");
+		elseif (AQQuestArr[questID][3] ~= nil) then
+			image:SetTexture("Interface\\GossipFrame\\PetitionGossipIcon");
+		elseif (AQQuestArr[questID][4] ~= nil) then
+			image:SetTexture("Interface\\Glues\\Login\\UI-BackArrow");
+		end
+
+		label:SetText(AtlasQuest:GetQuestColor(questID)..key..'. '..L['Quest_'..questID..'_Name']);
+		image:Show();
+		button.questID = questID;
+		button:Enable();
+	end
+end
+
+---Sets the inside frame with the info for the given quest
+---@param questID integer
+function AtlasQuest:SetQuestInfo(questID)
+	local WHITE = "|cffFFFFFF";
+	local BLUE = "|cff0070DD";
+	local preQuest = (AQQuestArr[questID][3] ~= nil) and L['Quest_'..questID..'_PreQuest'] or L["None"];
+	local followQuest = (AQQuestArr[questID][4] ~= nil) and L['Quest_'..questID..'_FollowQuest'] or L["None"];
+
+	AtlasQuestInsideFrame.questID = questID;
+	AQ_QuestName:SetText(AtlasQuest:GetQuestColor(questID)..L['Quest_'..questID..'_Name']);
+	AQ_QuestLevel:SetText(BLUE..L["Level"]..": "..WHITE..AQQuestArr[questID][2]);
+	AQ_QuestAttain:SetText(BLUE..L["Attain"]..": "..WHITE..AQQuestArr[questID][1]);
+	AQ_QuestBody:SetText(BLUE..L["Prequest"]..": "..WHITE..preQuest.."\n \n"..BLUE..L["Followup"]..": "..WHITE..followQuest.."\n \n"..BLUE..L["Start"]..": "..WHITE.."\n"..L['Quest_'..questID..'_Location'].."\n \n"..BLUE..L["Objective"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Objective'].."\n \n"..BLUE..L["Note"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Note']);
+	AQ_Rewards:SetText(BLUE..L['Reward']..": "..L['Quest_'..questID..'_RewardText']);
+
+	if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
+		AQ_FinishedQuestCheck:SetChecked(true);
+	else
+		AQ_FinishedQuestCheck:SetChecked(false);
+	end
+
+	for i = 1, 6 do
+		if (AQQuestArr[questID][5][i] ~= nil) then
+			local itemID = AQQuestArr[questID][5][i];
+			local itemID, itemType, itemSubType, itemEquipLoc, icon, classID, subClassID = C_Item.GetItemInfoInstant(itemID);
+
+			local itemText = itemType;
+			if (classID == 2) then
+				itemText = itemSubType;
+			elseif (classID == 4) then
+				itemText = _G[itemEquipLoc]..", "..itemSubType;
+			end
+
+			getglobal("AQ_QuestItemIcon_"..i):SetTexture(icon);
+			getglobal("AQ_QuestItemName_"..i):SetText(ITEM_QUALITY_COLORS[AQItemArr[itemID][1]].hex..L["Item_"..itemID.."_Name"]);
+			getglobal("AQ_QuestItemExtra_"..i):SetText(itemText);
+			getglobal("AQ_QuestItem_"..i).itemID = itemID;
+			getglobal("AQ_QuestItem_"..i):Enable();
+		else
+			getglobal("AQ_QuestItemIcon_"..i):SetTexture();
+			getglobal("AQ_QuestItemName_"..i):SetText();
+			getglobal("AQ_QuestItemExtra_"..i):SetText();
+			getglobal("AQ_QuestItem_"..i).itemID = nil;
+			getglobal("AQ_QuestItem_"..i):Disable();
+		end
+	end
+end
+
+---Returns quest color depending on level and options
+---@param questID integer
+---@return string
+function AtlasQuest:GetQuestColor(questID)
 	local RED = "|cffFF0000";
 	local WHITE = "|cffFFFFFF";
 	local GREEN = "|cff1EFF00";
@@ -310,16 +446,15 @@ function AtlasQuestGetQuestColor(questID)
 	local questLevel = tonumber(AQQuestArr[questID][2]);
 	local levelDiff = questLevel - UnitLevel("player");
 
-	-- TODO: fix saved variable name
-	if (AQ["AQFinishedQuest_Inst"..AQINSTANZ.."Quest99_HORDE"] == 1) then
+	if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
 		return WHITE;
 	end
 
-	if (AQCheckQuestlog == nil and C_QuestLog.IsOnQuest(questID)) then
+	if (AtlasQuest.db.profile.checkQuestLog == true and C_QuestLog.IsOnQuest(questID)) then
 		return BLUE;
 	end
 
-	if (AQNOColourCheck) then
+	if (AtlasQuest.db.profile.questColor == false) then
 		return YELLOW;
 	end
 
@@ -336,277 +471,114 @@ function AtlasQuestGetQuestColor(questID)
 	end
 end
 
---******************************************
--- Events: Atlas_OnShow (Hook Atlas function)
---******************************************
+---Sets up AtlasQuest when the Atlas map changes and on inital load
+---See AtlasQuest_Instances.lua for AQInstances
+function AtlasQuest:ChangeMap()
+	local newAQInstanceID = 0;
+	local fileID = AtlasMap:GetTextureFileID();
 
------------------------------------------------------------------------------
--- Shows the AQ panel with atlas
--- function hooked now! thx dan for his help
------------------------------------------------------------------------------
-original_Atlas_OnShow = Atlas_OnShow; -- new line #1
-function Atlas_OnShow()
-	if (AQAtlasAuto == 1) then
+	if fileID then
+		if AQInstances.ids[fileID] then
+			newAQInstanceID = AQInstances.ids[fileID];
+		end
+	end
+
+	if (newAQInstanceID ~= AtlasQuestFrame.AQInstanceID) then
+		AtlasQuestFrame.AQInstanceID = newAQInstanceID;
+		HideUIPanel(AtlasQuestInsideFrame);
+		AtlasQuest:SetQuestList();
+	end
+end
+
+---Shows the AQ panel with Atlas
+---Hook: Atlas_OnShow
+function AtlasQuest:Atlas_OnShow()
+	if (AtlasQuest.db.profile.autoShow == true) then
 		ShowUIPanel(AtlasQuestFrame);
 	else
 		HideUIPanel(AtlasQuestFrame);
 	end
 	HideUIPanel(AtlasQuestInsideFrame);
 
-	if (AQ_ShownSide == "Right") then
+	-- TODO: need to add a "left" in here for when you change the option from right to left
+	if (AtlasQuest.db.profile.shownSide == "right") then
 		AtlasQuestFrame:ClearAllPoints();
 		AtlasQuestFrame:SetPoint("TOP", "AtlasFrame", 607, -65);
 	end
-	original_Atlas_OnShow(); -- new line #2
+end
+
+---Updates displayed quests when map changes
+---Hook: Atlas_MapRefresh
+function AtlasQuest:Atlas_MapRefresh()
+	self.hooks.Atlas_MapRefresh();
+	AtlasQuest:ChangeMap();
+end
+
+-----------------------------------------------------------------------------
+-- Automatically show Horde or Alliance quests based on player's faction when AtlasQuest is opened.
+-- Event: OnShow
+-----------------------------------------------------------------------------
+function AQ_OnShow()
+	if (UnitFactionGroup("player") == "Horde") then
+		AtlasQuestFrame.faction = 2;
+		AQ_HordeCheck:SetChecked(true);
+		AQ_AllianceCheck:SetChecked(false);
+	else
+		AtlasQuestFrame.faction = 1;
+		AQ_HordeCheck:SetChecked(false);
+		AQ_AllianceCheck:SetChecked(true);
+	end
+	AtlasQuest:SetQuestList();
 end
 
 --******************************************
--- Events: OnEnter/OnLeave SHOW ITEM
+-- Item Events
 --******************************************
+
+-----------------------------------------------------------------------------
+-- Show Tooltip
+-----------------------------------------------------------------------------
+function AtlasQuestItem_OnEnter(itemFrame)
+	local itemID = itemFrame.itemID;
+
+	if (C_Item.GetItemInfo(itemID) ~= nil) then
+		local tooltip = _G["GameTooltip"];
+
+		tooltip:ClearLines();
+		tooltip:SetOwner(itemFrame, "ANCHOR_RIGHT", -(itemFrame:GetWidth() / 2), 24);
+		tooltip:SetHyperlink("item:"..itemID..":0:0:0");
+		tooltip:Show();
+
+		if (IsShiftKeyDown()) then
+			GameTooltip_ShowCompareItem(tooltip);
+		end
+	end
+end
+
+-----------------------------------------------------------------------------
+-- Item click
+-- Shift click to send link + ctrl click for dressing room
+-----------------------------------------------------------------------------
+function AtlasQuestItem_OnClick(itemFrame)
+	local itemID = itemFrame.itemID;
+	local AQactiveWindow = ChatEdit_GetActiveWindow();
+
+	if (AQactiveWindow and IsShiftKeyDown()) then
+		local link = ITEM_QUALITY_COLORS[AQItemArr[itemID][1]].hex.."|Hitem:"..itemID..":::::::::::::::::|h["..L["Item_"..itemID.."_Name"].."]|h|r";
+		AQactiveWindow:Insert(link);
+	elseif (IsControlKeyDown()) then
+		-- DressUpItemLink() can be unsafe if the item isn't cached yet, this should make it safe
+		local item = Item:CreateFromItemID(itemID);
+
+		item:ContinueOnItemLoad(function()
+			DressUpItemLink("item:"..itemID);
+		end);
+	end
+end
 
 -----------------------------------------------------------------------------
 -- Hide Tooltip
 -----------------------------------------------------------------------------
-
 function AtlasQuestItem_OnLeave()
-	if (GameTooltip:IsVisible()) then
-		GameTooltip:Hide();
-		if (ShoppingTooltip2:IsVisible() or ShoppingTooltip1.IsVisible) then
-			ShoppingTooltip2:Hide();
-			ShoppingTooltip1:Hide();
-		end
-	end
-	if (AtlasQuestTooltip:IsVisible()) then
-		AtlasQuestTooltip:Hide();
-		if (ShoppingTooltip2:IsVisible() or ShoppingTooltip1.IsVisible) then
-			ShoppingTooltip2:Hide();
-			ShoppingTooltip1:Hide();
-		end
-	end
-end
-
------------------------------------------------------------------------------
--- Show Tooltip and automatically query server if option is enabled
------------------------------------------------------------------------------
-
-function AtlasQuestItem_OnEnter()
-	local questID = AQDungeonArr[AQINSTANZ][Allianceorhorde][AQSHOWNQUEST];
-	local itemID = AQQuestArr[questID][5][AQTHISISSHOWN];
-
-	if (C_Item.GetItemInfo(itemID) ~= nil) then
-		AtlasQuestTooltip:SetOwner(AtlasQuestItemframe1, "ANCHOR_RIGHT", -(AtlasQuestItemframe1:GetWidth() / 2), 24);
-		AtlasQuestTooltip:SetHyperlink("item:"..itemID..":0:0:0");
-
-		--              if(AQCompareTooltip ~= nil) then
-		--                  AtlasQuestItem_ShowCompareItem();  -- Show Comparison Tooltip
-		--              end
-
-		AtlasQuestTooltip:Show();
-	end
-end
-
------------------------------------------------------------------------------
--- Ask Server right-click
--- + shift click to send link
--- + ctrl click for dressroom
--- BIG THANKS TO Daviesh and ATLASLOOT for the CODE
------------------------------------------------------------------------------
-
-function AtlasQuestItem_OnClick(arg1)
-	local SHOWNID;
-	local name;
-	local nameDATA;
-	local colour;
-	local itemName, itemQuality;
-
-	if (Allianceorhorde == 1) then
-		SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN);
-		colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..AQTHISISSHOWN);
-		nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..AQTHISISSHOWN);
-	else
-		SHOWNID = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ID"..AQTHISISSHOWN.."_HORDE");
-		colour = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."ITC"..AQTHISISSHOWN.."_HORDE");
-		nameDATA = getglobal("Inst"..AQINSTANZ.."Quest"..AQSHOWNQUEST.."name"..AQTHISISSHOWN.."_HORDE");
-	end
-
-	if (arg1 == "RightButton") then
-		AtlasQuestTooltip:SetOwner(AtlasFrame, "ANCHOR_RIGHT", -(AtlasFrame:GetWidth() / 2), 24);
-		AtlasQuestTooltip:SetHyperlink("item:"..SHOWNID..":0:0:0");
-		AtlasQuestTooltip:Show();
-		if (AQNoQuerySpam == nil) then
-			DEFAULT_CHAT_FRAME:AddMessage(AQSERVERASK.."["..colour..nameDATA.."|cffFFFFFF".."]"..AQSERVERASKInformation);
-		end
-	elseif (IsShiftKeyDown()) then
-		if (GetItemInfo(SHOWNID)) then
-			itemName, itemLink, itemQuality = GetItemInfo(SHOWNID);
-			local r, g, b, hex = GetItemQualityColor(itemQuality);
-			itemtext = hex..itemName;
-			if itemLink then
-				ChatEdit_InsertLink(itemLink);
-			else
-				ChatEdit_InsertLink(hex.."|Hitem:"..SHOWNID..":0:0:0:0:0:0:0|h["..itemName.."]|h|r");
-			end
-		else
-			DEFAULT_CHAT_FRAME:AddMessage("Item unsafe! Right click to get the item ID");
-			ChatFrame1EditBox:Insert("["..nameDATA.."]");
-		end
-		--If control-clicked, use the dressing room
-	elseif (IsControlKeyDown() and GetItemInfo(SHOWNID)) then
-		DressUpItemLink(SHOWNID);
-	end
-end
-
------------------------------------------------------------------------------
--- Automatically show Horde or Alliance quests
--- based on player's faction when AtlasQuest is opened.
------------------------------------------------------------------------------
-
-function AQ_OnShow()
-	if (UnitFactionGroup("player") == "Horde") then
-		Allianceorhorde = 2;
-		AQHCB:SetChecked(true);
-		AQACB:SetChecked(false);
-	else
-		Allianceorhorde = 1;
-		AQHCB:SetChecked(false);
-		AQACB:SetChecked(true);
-	end
-	AtlasQuestSetTextandButtons();
-end
-
------------------------------------------------------------------------------
--- Comparison Tooltips
--- Huge thanks to Daviesh and AtlasLoot for this code!
------------------------------------------------------------------------------
-
-function AtlasQuestItem_ShowCompareItem()
-	local item, link = AtlasQuestTooltip:GetItem();
-	if (not link) then
-		return;
-	end
-
-	local item1 = nil;
-	local item2 = nil;
-	local side = "left";
-	if (ShoppingTooltip1:SetHyperlinkCompareItem(link, 1)) then
-		item1 = true;
-	end
-	if (ShoppingTooltip2:SetHyperlinkCompareItem(link, 2)) then
-		item2 = true;
-	end
-	local rightDist = GetScreenWidth() - AtlasQuestTooltip:GetRight();
-	if (rightDist < AtlasQuestTooltip:GetLeft()) then
-		side = "left";
-	else
-		side = "right";
-	end
-	if (AtlasQuestTooltip:GetAnchorType()) then
-		local totalWidth = 0;
-		if (item1) then
-			totalWidth = totalWidth + ShoppingTooltip1:GetWidth();
-		end
-		if (item2) then
-			totalWidth = totalWidth + ShoppingTooltip2:GetWidth();
-		end
-
-		if ((side == "left") and (totalWidth > AtlasQuestTooltip:GetLeft())) then
-			AtlasQuestTooltip:SetAnchorType(AtlasQuestTooltip:GetAnchorType(), (totalWidth - AtlasQuestTooltip:GetLeft()),
-				0);
-		elseif ((side == "right") and (AtlasQuestTooltip:GetRight() + totalWidth) > GetScreenWidth()) then
-			AtlasQuestTooltip:SetAnchorType(AtlasQuestTooltip:GetAnchorType(),
-				-((AtlasQuestTooltip:GetRight() + totalWidth) - GetScreenWidth()), 0);
-		end
-	end
-
-	-- anchor the compare tooltips
-	if (item1) then
-		ShoppingTooltip1:SetOwner(AtlasQuestTooltip, "ANCHOR_NONE");
-		ShoppingTooltip1:ClearAllPoints();
-		if (side and side == "left") then
-			ShoppingTooltip1:SetPoint("TOPRIGHT", "AtlasQuestTooltip", "TOPLEFT", 0, -10);
-		else
-			ShoppingTooltip1:SetPoint("TOPLEFT", "AtlasQuestTooltip", "TOPRIGHT", 0, -10);
-		end
-		ShoppingTooltip1:SetHyperlinkCompareItem(link, 1);
-		ShoppingTooltip1:Show();
-
-		if (item2) then
-			ShoppingTooltip2:SetOwner(ShoppingTooltip1, "ANCHOR_NONE");
-			ShoppingTooltip2:ClearAllPoints();
-			if (side and side == "left") then
-				ShoppingTooltip2:SetPoint("TOPRIGHT", "ShoppingTooltip1", "TOPLEFT", 0, 0);
-			else
-				ShoppingTooltip2:SetPoint("TOPLEFT", "ShoppingTooltip1", "TOPRIGHT", 0, 0);
-			end
-			ShoppingTooltip2:SetHyperlinkCompareItem(link, 2);
-			ShoppingTooltip2:Show();
-		end
-	end
-end
-
------------------------------------------------------------------------------
--- Quest Query stuff (Code written by Natch)
------------------------------------------------------------------------------
-
-function AQClearQuestAndQuery()
-	-- remove all completed quests
-	local atlasquestlist = AtlasQuest_Options[UnitName("player")];
-	for key, value in pairs(atlasquestlist) do
-		if string.find(key, "AQFinishedQuest_Inst") == 1 then
-			-- entry found, clear it
-			atlasquestlist[key] = nil;
-		end
-	end
-
-	AQQuestQuery();
-end
-
-function AQQuestQuery()
-	ChatFrame1:AddMessage(AQQuestQueryStart);
-
-	local qct, gurka, qcs, ral, rat = {}, false, ":", false, false;
-	--	self.stamp = time();
-	local ishorde = (UnitFactionGroup("player") == "Horde");
-
-	AQPleaseCheckQuests = GetQuestsCompleted(qct);
-
-	for qx in pairs(qct) do
-		qcs = qcs..qx..":";
-	end
-
-	-- Hide Atlas/AlphaMap while updating
-	if ((AtlasFrame ~= nil) and (AtlasFrame:IsVisible())) then
-		AtlasFrame:Hide();
-		rat = true;
-	end
-
-	-- Update AQ database
-	for i = 1, AQMAXINSTANCES do
-		for q = 1, AQMAXQUESTS do
-			local a = _G["Inst"..i.."Quest"..q.."_QuestID"];
-			local h = _G["Inst"..i.."Quest"..q.."_HORDE_QuestID"];
-
-			if (not ishorde and a and string.find(qcs, ":"..a..":")) then
-				AQ["AQFinishedQuest_Inst"..i.."Quest"..q]                                     = 1;
-				AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..i.."Quest"..q] = 1;
-				gurka                                                                         = true;
-			end
-
-			if (ishorde and h and string.find(qcs, ":"..h..":")) then
-				AQ["AQFinishedQuest_Inst"..i.."Quest"..q.."_HORDE"]                                     = 1;
-				AtlasQuest_Options[UnitName("player")]["AQFinishedQuest_Inst"..i.."Quest"..q.."_HORDE"] = 1;
-				gurka                                                                                   = true;
-			end
-		end
-	end
-
-	-- Show map if hidden
-	if (rat == true) then
-		AtlasFrame:Show();
-	end
-
-	if (gurka == true and AQQueryDONE == nil) then
-		ChatFrame1:AddMessage(AQQuestQueryDone);
-		local AQQueryDONE = "done";
-	end
+	GameTooltip:Hide();
 end

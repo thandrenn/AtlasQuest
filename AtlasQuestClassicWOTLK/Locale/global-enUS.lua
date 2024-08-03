@@ -34,71 +34,12 @@ very well in the other localization files.
 ---------------
 
 local GREY = "|cff999999";
-local RED = "|cffff0000";
-local ATLAS_RED = "|cffcc3333";
-local WHITE = "|cffFFFFFF";
-local GREEN = "|cff66cc33";
-local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
-local ORANGE = "|cffFF8400";
-local DARKYELLOW = "|cffcc9933"; -- Atlas uses this color for some things.
-local YELLOW = "|cffFFd200";     -- Ingame Yellow
 
-
-
----------------
---- OPTIONS ---
----------------
-
-AQOptionsCaptionTEXT = ""..YELLOW.."AtlasQuest Options";
-AQ_OK = "OK";
-
--- Autoshow
-AQOptionsAutoshowTEXT = ""..WHITE.."Show AtlasQuest panel with "..RED.."Atlas"..WHITE..".";
-AQAtlasAutoON = "The AtlasQuest panel will be automatically displayed when atlas is opened."..GREEN.."(default)";
-AQAtlasAutoOFF = "The AtlasQuest panel "..RED.."will not"..WHITE.." be displayed when you open atlas.";
-
--- Right/Left
-AQOptionsLEFTTEXT = ""..WHITE.."Show the AtlasQuest panel "..RED.."left"..WHITE..".";
-AQOptionsRIGHTTEXT = ""..WHITE.."Show the AtlasQuest panel "..RED.."right"..WHITE..".";
-AQShowRight = "Now shows the AtlasQuest Panel on the "..RED.."right"..WHITE.." side.";
-AQShowLeft = "Now shows the AtlasQuest Panel on the "..RED.."left"..WHITE.." side "..GREEN.."(default)";
-
--- Colour Check
-AQOptionsCCTEXT = ""..WHITE.."Recolour the quests depending on their levels.";
-AQCCON = "AtlasQuest will now recolour quests depending on their levels.";
-AQCCOFF = "AtlasQuest will not recolour quests."
-
--- QuestLog Colour Check
-AQQLColourChange = ""..WHITE.."Quests you currently have show up with blue text";
-
--- Use Comparison Tooltips
-AQOptionsCompareTooltipTEXT = ""..WHITE.."DISABLED Compare rewards to currently equipped items.";
-
--- Quest Query text
-AQQuestQueryButtonTEXT = ""..WHITE.."Quest Query";
-AQClearQuestAndQueryButtonTEXT = ""..WHITE.."Reset Quests";
-AQQuestQueryTEXT = ""..WHITE.."Query Server for completed quests.";
-AQClearQuestAndQueryTEXT = ""..WHITE.."Reset completed quests and query server for list of completed quests.";
-AQQuestQueryStart = "AtlasQuest is now querying server for completed quests. This may take a minute";
-AQQuestQueryDone = "AtlasQuest has finished querying the server. Completed quests should now be marked.";
-
-
--- Short quick error message to let someone know they have the wrong version installed.
-AQ_MSG_WRONGVERSION = ""..RED.."WRONG AQ VERSION"
-
-
-AQSERVERASKInformation = " Please click right until you see the Item frame.";
-AQSERVERASKAuto = " Try moving the cursor over the item in a second.";
-AQSERVERASK = "AtlasQuest is querying the server for: ";
-AQERRORNOTSHOWN = "This item is not safe!";
-AQERRORASKSERVER = "Right-click to query the server for \nthis item. You may be disconnected.";
-AQOptionB = "Options";
 AQNoReward = ""..BLUE.." No Rewards";
 AQDiscription_REWARD = ""..BLUE.." Reward: ";
 AQDiscription_OR = ""..GREY.." or ";
 AQDiscription_AND = ""..GREY.." and ";
-
 
 ------------------
 --- ITEM TYPES ---
@@ -151,16 +92,8 @@ AQITEM_RING = "Ring"
 AQITEM_ENCHANT = "Enchant"
 AQITEM_SPELL = "Spell"
 
-
-
-
 --------------- INST66 - No Instance ---------------
-
 -- Just to display "No Quests" when the map is set to something AtlasQuest does not support.
 Inst66Caption = "No Information Available"
 Inst66QAA = "No Quests"
 Inst66QAH = "No Quests"
-
-
-
--- End of File
