@@ -1,3 +1,0 @@
-This folder is just for storing extra files.  It should not be included in the release.
-
-The old CN, TW and RU localization files here are too out of date to be included in release.
