@@ -1,0 +1,198 @@
+<!--
+
+	AtlasQuest, a World of Warcraft addon.
+	Email me at mystery8@gmail.com
+
+	This file is part of AtlasQuest.
+
+	AtlasQuest is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	AtlasQuest is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with AtlasQuest; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+-->
+
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ https://raw.githubusercontent.com/Meorawr/wow-ui-schema/main/UI.xsd">
+	<!--  AtlasQuest Inside Atlas frame -->
+	<Frame name="AtlasQuestInsideFrame" toplevel="true" enableMouse="true" parent="AtlasFrame" hidden="false" frameStrata="HIGH">
+		<Size>
+			<AbsDimension x="513" y="513" />
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset>
+					<AbsDimension x="18" y="-84" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Frames>
+			<Button name="AQ_QuestClose" inherits="UIPanelCloseButton">
+				<Size>
+					<AbsDimension x="30" y="30" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="-5" y="-3" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick> AQ_QuestClose_OnClick(); </OnClick>
+					<OnShow> AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 1 ); </OnShow>
+				</Scripts>
+			</Button>
+        	<CheckButton name="AQ_FinishedQuestCheck" inherits="UICheckButtonTemplate" checked="false">
+				<Size>
+					<AbsDimension x="25" y="25" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="-65" y="-45" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<HitRectInsets>
+					<AbsInset left="0" right="0" top="0" bottom="0" />
+				</HitRectInsets>
+				<Scripts>
+					<OnClick> AQ_FinishedQuestCheck_OnClick(); </OnClick>
+					<OnShow> AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 2 ); </OnShow>
+				</Scripts>
+			</CheckButton>
+		</Frames>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parent_Back">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT" />
+						<Anchor point="BOTTOMRIGHT" relativeTo="$parent" relativePoint="BOTTOMRIGHT" />
+					</Anchors>
+					<Color r="0" g="0" b="0" a="0.75" />
+				</Texture>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="AQ_QuestName" inherits="GameFontNormalLarge">
+					<Size>
+						<AbsDimension x="400" y="12" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOP">
+							<Offset>
+								<AbsDimension x="0" y="-20" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="AQ_QuestLevel" inherits="QuestFont" justifyH="LEFT" justifyV="TOP">
+					<Size>
+						<AbsDimension x="400" y="12" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="20" y="-50" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="AQ_QuestAttain" inherits="QuestFont" justifyH="LEFT" justifyV="TOP">
+					<Size>
+						<AbsDimension x="400" y="12" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="140" y="-50" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="AQ_QuestBody" inherits="QuestFont" maxLines="20" justifyH="LEFT" justifyV="TOP">
+					<Size>
+						<AbsDimension x="450" y="500" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="20" y="-75" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="AQ_Rewards" inherits="GameFontNormalLarge" justifyH="LEFT" justifyV="TOP">
+					<Size>
+						<AbsDimension x="400" y="12" />
+					</Size>
+					<Anchors>
+						<Anchor point="BOTTOMLEFT">
+							<Offset>
+								<AbsDimension x="20" y="155" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="AQ_FinishedQuestText" inherits="QuestFont" justifyH="LEFT" justifyV="TOP">
+					<Size>
+						<AbsDimension x="150" y="12" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOPRIGHT">
+							<Offset>
+								<AbsDimension x="-50" y="-50" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	<!--          Show/hide AtlasQuest button in Atlas            -->
+	<Frame name="AtlasQuestButtonFrame" toplevel="true" enableMouse="true" parent="AtlasFrame" hidden="false">
+		<Size>
+			<AbsDimension x="1" y="1" />
+		</Size>
+		<Anchors>
+			<Anchor point="TOPRIGHT">
+			</Anchor>
+		</Anchors>
+		<Frames>
+			<Button name="AQ_AtlasToggle" inherits="UIPanelButtonTemplate"  text="AtlasQuest">
+				<Size>
+					<AbsDimension x="90" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="-115" y="-50" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick> AQ_AtlasToggle_OnClick(); </OnClick>
+					<OnUpdate>
+						if ( AtlasFrame == nil ) then
+							AtlasQuestInsideFrame:Hide();
+						end
+					</OnUpdate>
+					<OnShow>
+						if ( AtlasFrame == nil ) then
+							AtlasQuestInsideFrame:Hide();
+						end
+					</OnShow>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+</Ui>
