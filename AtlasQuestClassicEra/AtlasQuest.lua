@@ -29,8 +29,8 @@ local AC                  = LibStub("AceConfig-3.0");
 local ACD                 = LibStub("AceConfigDialog-3.0");
 
 -- Sets the max number of instances and quests to check for.
-local AQMAXINSTANCES      = "38";
-local AQMAXQUESTS         = "23";
+local AQMAXINSTANCES      = 38;
+local AQMAXQUESTS         = 23;
 
 -- Declare defaults to be used in the DB
 local defaults            = {
@@ -263,8 +263,7 @@ function AtlasQuest:migrateData()
 	if (AtlasQuest_Options[UnitName("player")] ~= nil) then
 		local characterData = AtlasQuest_Options[UnitName("player")];
 
-		-- TODO: change this to AQMAXINSTANCES when the quest data is in the new format
-		for instance = 1, 1 do
+		for instance = 1, AQMAXINSTANCES do
 			for quest = 1, AQMAXQUESTS do
 				if (characterData["AQFinishedQuest_Inst"..instance.."Quest"..quest] == 1) then
 					local questID = AQDungeonArr[instance][1][quest];
@@ -276,8 +275,7 @@ function AtlasQuest:migrateData()
 			end
 		end
 
-		-- TODO: uncomment this when the quest data is in the new format
-		-- AtlasQuest_Options[UnitName("player")] = nil;
+		AtlasQuest_Options[UnitName("player")] = nil;
 	end
 end
 
@@ -351,7 +349,7 @@ function AtlasQuest:SetQuestList()
 	for i = 1, AQMAXQUESTS do
 		getglobal("AQButton_"..i):Disable();
 		getglobal("AQFont_"..i):SetText();
-		getglobal("AQTexture_"..i):Hide();
+		getglobal("AQTexture_"..i):SetTexture();
 	end
 
 	AQ_InstanceTitle:SetText(L["Instance_"..AQInstanceID.."_Name"]);
@@ -370,14 +368,13 @@ function AtlasQuest:SetQuestList()
 
 		if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
 			image:SetTexture("Interface\\GossipFrame\\BinderGossipIcon");
-		elseif (AQQuestArr[questID][3] ~= nil) then
-			image:SetTexture("Interface\\GossipFrame\\PetitionGossipIcon");
 		elseif (AQQuestArr[questID][4] ~= nil) then
 			image:SetTexture("Interface\\Glues\\Login\\UI-BackArrow");
+		elseif (AQQuestArr[questID][3] ~= nil) then
+			image:SetTexture("Interface\\GossipFrame\\PetitionGossipIcon");
 		end
 
 		label:SetText(AtlasQuest:GetQuestColor(questID)..key..'. '..L['Quest_'..questID..'_Name']);
-		image:Show();
 		button.questID = questID;
 		button:Enable();
 	end
@@ -396,7 +393,7 @@ function AtlasQuest:SetQuestInfo(questID)
 	AQ_QuestLevel:SetText(BLUE..L["Level"]..": "..WHITE..AQQuestArr[questID][2]);
 	AQ_QuestAttain:SetText(BLUE..L["Attain"]..": "..WHITE..AQQuestArr[questID][1]);
 	AQ_QuestBody:SetText(BLUE..L["Prequest"]..": "..WHITE..preQuest.."\n \n"..BLUE..L["Followup"]..": "..WHITE..followQuest.."\n \n"..BLUE..L["Start"]..": "..WHITE.."\n"..L['Quest_'..questID..'_Location'].."\n \n"..BLUE..L["Objective"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Objective'].."\n \n"..BLUE..L["Note"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Note']);
-	AQ_Rewards:SetText(BLUE..L['Reward']..": "..L['Quest_'..questID..'_RewardText']);
+	AQ_QuestRewards:SetText(BLUE..L['Reward']..": "..L['Quest_'..questID..'_RewardText']);
 
 	if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
 		AQ_FinishedQuestCheck:SetChecked(true);
@@ -500,10 +497,13 @@ function AtlasQuest:Atlas_OnShow()
 	end
 	HideUIPanel(AtlasQuestInsideFrame);
 
-	-- TODO: need to add a "left" in here for when you change the option from right to left
+	-- The else is needed for when you change the shownSide option from right to left
 	if (AtlasQuest.db.profile.shownSide == "right") then
 		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("TOP", "AtlasFrame", 607, -65);
+		AtlasQuestFrame:SetPoint("LEFT", "AtlasFrame", "RIGHT");
+	else
+		AtlasQuestFrame:ClearAllPoints();
+		AtlasQuestFrame:SetPoint("TOPRIGHT", "AtlasFrame", "TOPLEFT", 12, -45);
 	end
 end
 

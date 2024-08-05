@@ -131,7 +131,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="AQ_Rewards" inherits="GameFontNormalLarge" justifyH="LEFT" justifyV="TOP">
+				<FontString name="AQ_QuestRewards" inherits="QuestFont" justifyH="LEFT" justifyV="TOP">
 					<Size>
 						<AbsDimension x="400" y="12" />
 					</Size>

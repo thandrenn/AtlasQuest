@@ -17,7 +17,7 @@
 		"AQ_QuestLevel",
 		"AQ_QuestBody",
 		"AQ_QuestAttain",
-		"AQ_Rewards",
+		"AQ_QuestRewards",
 		"AQ_FinishedQuestText",
 		"AQ_FinishedQuestCheck",
 		"AtlasLootItemsFrame",

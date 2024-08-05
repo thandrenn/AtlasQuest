@@ -79,7 +79,6 @@ function AQ_Quest_OnClick(questFrame)
 	local questID = questFrame.questID;
 
 	if (AQactiveWindow and IsShiftKeyDown()) then
-		-- TODO: test with a quest with parentheses
 		AQactiveWindow:Insert("|cffffff00|Hquest:"..questID..":"..AQQuestArr[questID][2].."|h["..L['Quest_'..questID..'_Name'].."]|h|r");
 	else
 		-- Hide the AtlasLoot Frame if available
