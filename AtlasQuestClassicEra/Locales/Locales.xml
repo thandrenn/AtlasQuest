@@ -1,32 +1,10 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ https://raw.githubusercontent.com/Meorawr/wow-ui-schema/main/UI.xsd">
     <Script file="enUS.lua"/>
-
-	<!--  GERMAN LOCALIZATION -->
-	<Script file="Locale/global-deDE.lua" />
-	<Script file="Locale/classic-deDE.lua" />
-	<Script file="Locale/wotlk-deDE.lua" />
-
-	<!--  KOREAN LOCALIZATION -->
-	<Script file="Locale/global-koKR.lua" />
-	<Script file="Locale/classic-koKR.lua" />
-
-	<!--  SPANISH-MEXICAN LOCALIZATION -->
-	<Script file="Locale/global-esMX.lua" />
-	<Script file="Locale/classic-esMX.lua" />
-
-	<!--  SPANISH LOCALIZATION -->
-	<Script file="Locale/global-esES.lua" />
-	<Script file="Locale/classic-esES.lua" />
-
-	<!--  Simplified Chinese LOCALIZATION -->
-	<Script file="Locale/global-zhCN.lua" />
-	<Script file="Locale/classic-zhCN.lua" />
-
-	<!--  Traditional Chinese LOCALIZATION -->
-	<Script file="Locale/global-zhTW.lua" />
-	<Script file="Locale/classic-zhTW.lua" />
-
-	<!--  RUSSIAN LOCALIZATION -->
-	<Script file="Locale/global-ruRU.lua" />
-	<Script file="Locale/classic-ruRU.lua" />
+	<Script file="deDE.lua"/>
+	<Script file="esES.lua"/>
+	<Script file="esMX.lua"/>
+	<Script file="koKR.lua"/>
+	<Script file="ruRU.lua"/>
+	<Script file="zhCN.lua"/> <!-- Simplified Chinese -->
+	<Script file="zhTW.lua"/> <!-- Traditional Chinese -->
 </Ui>
