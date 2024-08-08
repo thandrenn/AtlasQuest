@@ -1,6 +1,6 @@
 # Changelog
 
-## 5.0.0 - August 5, 2024
+## 5.0.1 - August 5, 2024
 
 This release initially only supports Classic Era, since Wrath Classic has become Cataclysm Classic and there is no Atlas release for Cataclysm yet. Retail support will hopefully be merged into this release soon.
 
