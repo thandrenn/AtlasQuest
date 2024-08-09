@@ -225,7 +225,7 @@ function AtlasQuest:migrateData()
 	-- Migration 1: AQ v5 Global Migration
 	if (self.db.profile.migrationVersion < 1) then
 		-- Only migrate if there's something to migrate
-		if (AtlasQuest_Options[UnitName("player")] ~= nil) then
+		if (AtlasQuest_Options ~= nil and AtlasQuest_Options[UnitName("player")] ~= nil) then
 			-- Migrate option data one time, into the profile
 			if (AtlasQuest_Options[UnitName("player")]["ShownSide"] ~= nil) then
 				if (AtlasQuest_Options[UnitName("player")]["ShownSide"] == "Left") then
@@ -260,7 +260,7 @@ function AtlasQuest:migrateData()
 	-- Migration Infinity: AQ v5 Character Migration
 	-- AceDB includes the server name in the key for character-specific storage
 	-- Since AQ didn't store the server name before, we can only migrate the currently logged in character
-	if (AtlasQuest_Options[UnitName("player")] ~= nil) then
+	if (AtlasQuest_Options ~= nil and AtlasQuest_Options[UnitName("player")] ~= nil) then
 		local characterData = AtlasQuest_Options[UnitName("player")];
 
 		for instance = 1, AQMAXINSTANCES do
