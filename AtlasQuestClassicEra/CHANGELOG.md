@@ -1,6 +1,6 @@
 # Changelog
 
-# 5.0.2 - August 17, 2024
+## 5.0.2 - August 17, 2024
 
 ### Fixed
 
