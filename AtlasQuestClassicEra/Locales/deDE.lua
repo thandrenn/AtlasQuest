@@ -8,6 +8,7 @@ local WHITE = "|cffFFFFFF";
 local GREEN = "|cff66cc33";
 local BLUE = "|cff0070dd";
 local YELLOW = "|cffFFd200";
+local PREV = "|r";
 
 local AQ_OR = GREY.." oder ";
 local AQ_AND = GREY.." und ";
@@ -304,7 +305,7 @@ L["Quest_7201_PreQuest"] = "Disharmonie der Flamme";
 L["Quest_3981_Name"] = "Kommandant Gor'shak";
 L["Quest_3981_Objective"] = "Sucht Kommandant Gor'shak in den Schwarzfelstiefen.\nIhr erinnert Euch, dass auf dem primitiv gezeichneten Bild des Orcs auch Gitter vor dem Gesicht zu sehen waren. Vielleicht solltet Ihr nach einer Art Gefängnis suchen.";
 L["Quest_3981_Location"] = "Galamav der Schütze (Ödland - Kargath; "..YELLOW.."5.8, 47.6"..WHITE..")";
-L["Quest_3981_Note"] = "Du bekommst die Vorquest vom Thunderheart (Ödland - Kargath; "..YELLOW.."3.4, 48.2"..WHITE..").\nKommandant Gor'shak ist bei "..YELLOW.."[3]"..WHITE..".  Der Schlüssel, um das Gefängnis zu öffnen, droppt vom Verhörmeisterin Gerstahn "..YELLOW.."[5]"..WHITE..".  Um die Quest abzuschließen, spreche mit Kharan Mighthammer, bei "..YELLOW.."[2]"..WHITE.." und mit Kriegshäuptling Thrall in Orgrimmar bevor Du die nächste Quest annimmst.";
+L["Quest_3981_Note"] = "Du bekommst die Vorquest vom Thunderheart (Ödland - Kargath; "..YELLOW.."3.4, 48.2"..PREV..").\nKommandant Gor'shak ist bei "..YELLOW.."[3]"..PREV..".  Der Schlüssel, um das Gefängnis zu öffnen, droppt vom Verhörmeisterin Gerstahn "..YELLOW.."[5]"..PREV..".  Um die Quest abzuschließen, spreche mit Kharan Mighthammer, bei "..YELLOW.."[2]"..PREV.." und mit Kriegshäuptling Thrall in Orgrimmar bevor Du die nächste Quest annimmst.";
 L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "Disharmonie der Flamme";
 L["Quest_3981_FollowQuest"] = "Was ist los?";

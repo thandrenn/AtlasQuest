@@ -392,7 +392,9 @@ function AtlasQuest:SetQuestInfo(questID)
 	AQ_QuestName:SetText(AtlasQuest:GetQuestColor(questID)..L['Quest_'..questID..'_Name']);
 	AQ_QuestLevel:SetText(BLUE..L["Level"]..": "..WHITE..AQQuestArr[questID][2]);
 	AQ_QuestAttain:SetText(BLUE..L["Attain"]..": "..WHITE..AQQuestArr[questID][1]);
-	AQ_QuestBody:SetText(BLUE..L["Prequest"]..": "..WHITE..preQuest.."\n \n"..BLUE..L["Followup"]..": "..WHITE..followQuest.."\n \n"..BLUE..L["Start"]..": "..WHITE.."\n"..L['Quest_'..questID..'_Location'].."\n \n"..BLUE..L["Objective"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Objective'].."\n \n"..BLUE..L["Note"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Note']);
+	AQ_QuestBody:SetText(BLUE..L["Prequest"]..": "..WHITE..preQuest.."\n \n"..BLUE..L["Followup"]..": "..WHITE..followQuest.."\n \n"..BLUE..L["Start"]..": "..WHITE.."\n"..L['Quest_'..questID..'_Location'].."\n \n");
+	AQ_QuestBody2:SetText(BLUE..L["Objective"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Objective'].."\n \n");
+	AQ_QuestBody3:SetText(BLUE..L["Note"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Note']);
 	AQ_QuestRewards:SetText(BLUE..L['Reward']..": "..L['Quest_'..questID..'_RewardText']);
 
 	if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
@@ -582,3 +584,4 @@ end
 function AtlasQuestItem_OnLeave()
 	GameTooltip:Hide();
 end
+
