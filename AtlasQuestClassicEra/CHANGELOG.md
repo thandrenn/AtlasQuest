@@ -1,5 +1,13 @@
 # Changelog
 
+# 5.0.2 - August 17, 2024
+
+### Fixed
+
+- Fix Objectives text and Notes text displaying as all blue
+- Fix possible error for users with no data to migrate
+
+
 ## 5.0.1 - August 5, 2024
 
 This release initially only supports Classic Era, since Wrath Classic has become Cataclysm Classic and there is no Atlas release for Cataclysm yet. Retail support will hopefully be merged into this release soon.
