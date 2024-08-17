@@ -8,6 +8,7 @@ local WHITE = "|cffFFFFFF";
 local GREEN = "|cff66cc33";
 local BLUE = "|cff0070dd";
 local YELLOW = "|cffFFd200";
+local PREV = "|r";
 
 local AQ_OR = GREY.." 또는 ";
 local AQ_AND = GREY.." 와 ";
@@ -278,7 +279,7 @@ L["Quest_7201_PreQuest"] = "화염의 부조화";
 L["Quest_3981_Name"] = "사령관 고르샤크";
 L["Quest_3981_Objective"] = "검은바위 나락에서 사령관 고르샤크를 찾아야 합니다. 조잡하게 그려진 오크 그림에 쇠창살이 그려져 있던 것이 생각납니다. 감옥 같은 곳을 찾아봐야 할 것 같습니다.";
 L["Quest_3981_Location"] = "명사수 갈라마브 (황야의 땅 - 카르가스; "..YELLOW.."5.8, 47.6"..WHITE..")";
-L["Quest_3981_Note"] = "선행 퀘스트 썬더하트에게 받습니다. (황야의 땅 - 카르가스; "..YELLOW.."3.4, 48.2"..WHITE..").\n사령관 고르샤크는 "..YELLOW.."[3]"..WHITE.." 에 있다.  감옥을 열 수 있는 열쇠는 대심문관 게르스탄에게서 드랍합니다. "..YELLOW.."[5]"..WHITE..".  그와 대화하고 다음 퀘스트를 시작하면 적들이 나타납니다.";
+L["Quest_3981_Note"] = "선행 퀘스트 썬더하트에게 받습니다. (황야의 땅 - 카르가스; "..YELLOW.."3.4, 48.2"..PREV..").\n사령관 고르샤크는 "..YELLOW.."[3]"..PREV.." 에 있다.  감옥을 열 수 있는 열쇠는 대심문관 게르스탄에게서 드랍합니다. "..YELLOW.."[5]"..PREV..".  그와 대화하고 다음 퀘스트를 시작하면 적들이 나타납니다.";
 L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "화염의 부조화";
 L["Quest_3981_FollowQuest"] = "사태 파악";

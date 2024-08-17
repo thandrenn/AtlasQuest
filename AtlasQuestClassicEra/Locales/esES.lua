@@ -8,6 +8,7 @@ local WHITE = "|cffFFFFFF";
 local GREEN = "|cff66cc33";
 local BLUE = "|cff0070dd";
 local YELLOW = "|cffFFd200";
+local PREV = "|r";
 
 local AQ_OR = GREY.." o ";
 local AQ_AND = GREY.." y ";
@@ -278,7 +279,7 @@ L["Quest_7201_RewardText"] = WHITE.."1";
 L["Quest_3981_Name"] = "Comandante Gor'shak";
 L["Quest_3981_Objective"] = "Encuentra al comandante Gor'shak en las Profundidades de Roca Negra.\nRecuerdas que en el dibujo burdo había rejas sobre el rostro del orco. Quizás deberías buscar una cárcel o algo similar.";
 L["Quest_3981_Location"] = "Galamav el Preciso (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")";
-L["Quest_3981_Note"] = "Obtienes la misión requisita de Truenozón (Tierras Inhóspitas - Kargath; "..YELLOW.."3,48"..WHITE..").\nEncuentras al Comandante Gor'shak en "..YELLOW.."[3]"..WHITE..". Despoja a Alta interrogadora Gerstahn "..YELLOW.."[5]"..WHITE.." para obtener la llave para abrir el cárcel. Si hablas consigo y empezar, los enemigos aparecen.";
+L["Quest_3981_Note"] = "Obtienes la misión requisita de Truenozón (Tierras Inhóspitas - Kargath; "..YELLOW.."3,48"..PREV..").\nEncuentras al Comandante Gor'shak en "..YELLOW.."[3]"..PREV..". Despoja a Alta interrogadora Gerstahn "..YELLOW.."[5]"..PREV.." para obtener la llave para abrir el cárcel. Si hablas consigo y empezar, los enemigos aparecen.";
 L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "La discordia de las llamas";
 L["Quest_3981_FollowQuest"] = "¿Qué pasa?";

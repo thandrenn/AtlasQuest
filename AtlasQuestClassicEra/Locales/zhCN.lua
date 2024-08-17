@@ -8,6 +8,7 @@ local WHITE = "|cffFFFFFF";
 local GREEN = "|cff66cc33";
 local BLUE = "|cff0070dd";
 local YELLOW = "|cffFFd200";
+local PREV = "|r";
 
 local AQ_OR = GREY.." 或 ";
 local AQ_AND = GREY.." 和 ";
@@ -246,7 +247,7 @@ L["Quest_7201_PreQuest"] = "不和谐的烈焰";
 L["Quest_3981_Name"] = "指挥官哥沙克";
 L["Quest_3981_Objective"] = "在黑石深渊里找到指挥官哥沙克。\n在那幅草图上画着的是一个铁栏后面的兽人，也许你应该到某个类似监狱的地方去找找看。";
 L["Quest_3981_Location"] = "神射手贾拉玛弗（荒芜之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）";
-L["Quest_3981_Note"] = "前置任务来自桑德哈特（荒芜之地 - 卡加斯; "..YELLOW.."3,48"..WHITE.."）。派隆就在副本入口处前。\n你能在 "..YELLOW.."[3]"..WHITE.." 找到指挥官哥沙克。位于 "..YELLOW.."[5]"..WHITE.." 的审讯官格斯塔恩掉落打开监狱的钥匙。如果你跟他交谈并开始下一个任务，敌人便会出现。";
+L["Quest_3981_Note"] = "前置任务来自桑德哈特（荒芜之地 - 卡加斯; "..YELLOW.."3,48"..PREV.."）。派隆就在副本入口处前。\n你能在 "..YELLOW.."[3]"..PREV.." 找到指挥官哥沙克。位于 "..YELLOW.."[5]"..PREV.." 的审讯官格斯塔恩掉落打开监狱的钥匙。如果你跟他交谈并开始下一个任务，敌人便会出现。";
 L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "不和谐的烈焰";
 L["Quest_3981_FollowQuest"] = "出了什么事？";

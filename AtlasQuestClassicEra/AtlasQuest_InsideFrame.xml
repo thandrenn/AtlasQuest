@@ -121,7 +121,7 @@
 				</FontString>
 				<FontString name="AQ_QuestBody" inherits="QuestFont" maxLines="20" justifyH="LEFT" justifyV="TOP">
 					<Size>
-						<AbsDimension x="450" y="500" />
+						<AbsDimension x="450" />
 					</Size>
 					<Anchors>
 						<Anchor point="TOPLEFT">
@@ -129,6 +129,22 @@
 								<AbsDimension x="20" y="-75" />
 							</Offset>
 						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="AQ_QuestBody2" inherits="QuestFont" maxLines="20" justifyH="LEFT" justifyV="TOP">
+					<Size>
+						<AbsDimension x="450" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="AQ_QuestBody" relativePoint="BOTTOMLEFT" />
+					</Anchors>
+				</FontString>
+				<FontString name="AQ_QuestBody3" inherits="QuestFont" maxLines="20" justifyH="LEFT" justifyV="TOP">
+					<Size>
+						<AbsDimension x="450" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="AQ_QuestBody2" relativePoint="BOTTOMLEFT" />
 					</Anchors>
 				</FontString>
 				<FontString name="AQ_QuestRewards" inherits="QuestFont" justifyH="LEFT" justifyV="TOP">

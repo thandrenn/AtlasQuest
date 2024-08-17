@@ -8,6 +8,7 @@ local WHITE = "|cffFFFFFF";
 local GREEN = "|cff66cc33";
 local BLUE = "|cff0070dd";
 local YELLOW = "|cffFFd200";
+local PREV = "|r";
 
 local AQ_OR = GREY.." 或 ";
 local AQ_AND = GREY.." 和 ";
@@ -246,7 +247,7 @@ L["Quest_7201_PreQuest"] = "不和諧的烈焰";
 L["Quest_3981_Name"] = "指揮官哥沙克";
 L["Quest_3981_Objective"] = "在黑石深淵裏找到指揮官哥沙克。\n在那幅草圖上畫著的是一個鐵欄後面的獸人，也許你應該到某個類似監獄的地方去找找看。";
 L["Quest_3981_Location"] = "神射手賈拉瑪弗（荒蕪之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）";
-L["Quest_3981_Note"] = "前置任務來自桑德哈特（荒蕪之地 - 卡加斯; "..YELLOW.."3,48"..WHITE.."）。派隆就在副本入口處前。\n你能在 "..YELLOW.."[3]"..WHITE.." 找到指揮官哥沙克。位于 "..YELLOW.."[5]"..WHITE.." 的審訊官格斯塔恩掉落打開監獄的鑰匙。如果你跟他交談並開始下一個任務，敵人便會出現。";
+L["Quest_3981_Note"] = "前置任務來自桑德哈特（荒蕪之地 - 卡加斯; "..YELLOW.."3,48"..PREV.."）。派隆就在副本入口處前。\n你能在 "..YELLOW.."[3]"..PREV.." 找到指揮官哥沙克。位于 "..YELLOW.."[5]"..PREV.." 的審訊官格斯塔恩掉落打開監獄的鑰匙。如果你跟他交談並開始下一個任務，敵人便會出現。";
 L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "不和諧的烈焰";
 L["Quest_3981_FollowQuest"] = "出了什麽事？";

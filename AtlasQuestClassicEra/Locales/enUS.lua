@@ -8,6 +8,7 @@ local WHITE = "|cffFFFFFF";
 local GREEN = "|cff66cc33";
 local BLUE = "|cff0070dd";
 local YELLOW = "|cffFFd200";
+local PREV = "|r";
 
 local AQ_OR = GREY.." or ";
 local AQ_AND = GREY.." and ";
@@ -331,7 +332,7 @@ L["Quest_7201_PreQuest"] = "Disharmony of Flame";
 L["Quest_3981_Name"] = "Commander Gor'shak";
 L["Quest_3981_Objective"] = "Find Commander Gor'shak in Blackrock Depths.\nYou recall that the crudely drawn picture of the orc included bars drawn over the portrait. Perhaps you should search for a prison of some sort.";
 L["Quest_3981_Location"] = "Galamav the Marksman (Badlands - Kargath; "..YELLOW.."5.8, 47.6"..WHITE..")";
-L["Quest_3981_Note"] = "You get the prequest from Thunderheart (Badlands - Kargath; "..YELLOW.."3.4, 48.2"..WHITE..").\nCommander Gor'shak is at "..YELLOW.."[3]"..WHITE..".  The key to open the prison drops from High Interrogator Gerstahn "..YELLOW.."[5]"..WHITE..".  Completing this quest will lead to you talking to Kharan Mighthammer, at "..YELLOW.."[2]"..WHITE.." and Warchief Thrall in Orgrimmar before picking up the next quest.";
+L["Quest_3981_Note"] = "You get the prequest from Thunderheart (Badlands - Kargath; "..YELLOW.."3.4, 48.2"..PREV..").\nCommander Gor'shak is at "..YELLOW.."[3]"..PREV..".  The key to open the prison drops from High Interrogator Gerstahn "..YELLOW.."[5]"..PREV..".  Completing this quest will lead to you talking to Kharan Mighthammer, at "..YELLOW.."[2]"..PREV.." and Warchief Thrall in Orgrimmar before picking up the next quest.";
 L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "Disharmony of Flame";
 L["Quest_3981_FollowQuest"] = "What Is Going On?";

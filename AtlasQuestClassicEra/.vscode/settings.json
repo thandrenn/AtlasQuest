@@ -16,6 +16,8 @@
 		"AQ_QuestName",
 		"AQ_QuestLevel",
 		"AQ_QuestBody",
+		"AQ_QuestBody2",
+		"AQ_QuestBody3",
 		"AQ_QuestAttain",
 		"AQ_QuestRewards",
 		"AQ_FinishedQuestText",
