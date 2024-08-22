@@ -68,6 +68,8 @@
 				</HitRectInsets>
 				<Scripts>
 					<OnClick> AQ_FinishedQuestCheck_OnClick(); </OnClick>
+					<OnEnter> AQ_FinishedQuestCheck_OnEnter(); </OnEnter>
+					<OnLeave> AQ_FinishedQuestCheck_OnLeave(); </OnLeave>
 					<OnShow> AtlasQuestInsideFrame:SetFrameLevel( AtlasQuestInsideFrame:GetParent():GetFrameLevel() + 2 ); </OnShow>
 				</Scripts>
 			</CheckButton>

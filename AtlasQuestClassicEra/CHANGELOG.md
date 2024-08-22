@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.1.0 - August 22, 2024
+
+### Added
+
+- New option to use the server's quest complete status for the quest color and the Finished checkbox. This may be useful if you play on multiple computers. By default, this is off and keeps the current behavior.
+
 ## 5.0.2 - August 17, 2024
 
 ### Fixed

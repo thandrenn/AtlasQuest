@@ -103,12 +103,29 @@ end
 function AQ_FinishedQuestCheck_OnClick()
 	local questID = AtlasQuestInsideFrame.questID;
 
-	if (AQ_FinishedQuestCheck:GetChecked()) then
-		AtlasQuest.db.char.completedQuests[questID] = 1;
-	else
-		AtlasQuest.db.char.completedQuests[questID] = nil;
+	if (AtlasQuest.db.profile.useServerQuestStatus == false) then
+		if (AQ_FinishedQuestCheck:GetChecked()) then
+			AtlasQuest.db.char.completedQuests[questID] = 1;
+		else
+			AtlasQuest.db.char.completedQuests[questID] = nil;
+		end
 	end
 
 	AtlasQuest:SetQuestList();
 	AtlasQuest:SetQuestInfo(questID);
+end
+
+function AQ_FinishedQuestCheck_OnEnter()
+	if (AtlasQuest.db.profile.useServerQuestStatus == true) then
+		local tooltip = _G["GameTooltip"];
+
+		tooltip:ClearLines();
+		tooltip:SetOwner(AQ_FinishedQuestCheck, "ANCHOR_RIGHT", -(AQ_FinishedQuestCheck:GetWidth() / 2), 0);
+		tooltip:SetText(L["UsingServerQuestStatus"]);
+		tooltip:Show();
+	end
+end
+
+function AQ_FinishedQuestCheck_OnLeave()
+	GameTooltip:Hide();
 end
