@@ -39,7 +39,8 @@ local defaults            = {
 		autoShow = true,
 		shownSide = "left",
 		questColor = true,
-		checkQuestLog = true
+		checkQuestLog = true,
+		useServerQuestStatus = false
 	},
 	char = {
 		completedQuests = {}
@@ -103,8 +104,20 @@ local options             = {
 				return AtlasQuest.db.profile.checkQuestLog;
 			end
 		},
-		resetQuests = {
+		useServerQuestStatus = {
 			order = 4,
+			name = L["UseServerQuestStatus"],
+			type = "toggle",
+			width = "full",
+			set = function(info, val)
+				AtlasQuest.db.profile.useServerQuestStatus = val;
+			end,
+			get = function(info)
+				return AtlasQuest.db.profile.useServerQuestStatus;
+			end
+		},
+		resetQuests = {
+			order = 5,
 			name = L["ResetQuests"],
 			desc = L["ResetQuestsDesc"],
 			type = "execute",
@@ -114,7 +127,7 @@ local options             = {
 			func = "ResetQuests"
 		},
 		resetAndQueryQuests = {
-			order = 5,
+			order = 6,
 			name = L["GetQuests"],
 			desc = L["GetQuestsDesc"],
 			type = "execute",
@@ -366,7 +379,7 @@ function AtlasQuest:SetQuestList()
 		local label = getglobal("AQFont_"..key);
 		local image = getglobal("AQTexture_"..key);
 
-		if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
+		if ((AtlasQuest.db.profile.useServerQuestStatus == false and AtlasQuest.db.char.completedQuests[questID] ~= nil) or (AtlasQuest.db.profile.useServerQuestStatus == true and C_QuestLog.IsQuestFlaggedCompleted(questID))) then
 			image:SetTexture("Interface\\GossipFrame\\BinderGossipIcon");
 		elseif (AQQuestArr[questID][4] ~= nil) then
 			image:SetTexture("Interface\\Glues\\Login\\UI-BackArrow");
@@ -397,7 +410,7 @@ function AtlasQuest:SetQuestInfo(questID)
 	AQ_QuestBody3:SetText(BLUE..L["Note"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Note']);
 	AQ_QuestRewards:SetText(BLUE..L['Reward']..": "..L['Quest_'..questID..'_RewardText']);
 
-	if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
+	if ((AtlasQuest.db.profile.useServerQuestStatus == false and AtlasQuest.db.char.completedQuests[questID] ~= nil) or (AtlasQuest.db.profile.useServerQuestStatus == true and C_QuestLog.IsQuestFlaggedCompleted(questID))) then
 		AQ_FinishedQuestCheck:SetChecked(true);
 	else
 		AQ_FinishedQuestCheck:SetChecked(false);
@@ -445,7 +458,7 @@ function AtlasQuest:GetQuestColor(questID)
 	local questLevel = tonumber(AQQuestArr[questID][2]);
 	local levelDiff = questLevel - UnitLevel("player");
 
-	if (AtlasQuest.db.char.completedQuests[questID] ~= nil) then
+	if ((AtlasQuest.db.profile.useServerQuestStatus == false and AtlasQuest.db.char.completedQuests[questID] ~= nil) or (AtlasQuest.db.profile.useServerQuestStatus == true and C_QuestLog.IsQuestFlaggedCompleted(questID))) then
 		return WHITE;
 	end
 
@@ -584,4 +597,3 @@ end
 function AtlasQuestItem_OnLeave()
 	GameTooltip:Hide();
 end
-

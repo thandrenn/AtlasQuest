@@ -16,7 +16,7 @@
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
 ## Author: AtlasQuest Team
-## Version: 5.0.2
+## Version: 5.1.0
 ## X-Website: https://github.com/thandrenn/AtlasQuest
 ## X-Category: Quests
 ## X-License: GPLv2
