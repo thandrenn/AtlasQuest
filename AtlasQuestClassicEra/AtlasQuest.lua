@@ -325,7 +325,7 @@ function AtlasQuest:QUEST_TURNED_IN(eventName, turnedInQuestID)
 end
 
 function AtlasQuest:GoToOptions()
-	InterfaceOptionsFrame_OpenToCategory(self.optionsFrame);
+	Settings.OpenToCategory("AtlasQuest");
 end
 
 function AtlasQuest:ResetQuests()
