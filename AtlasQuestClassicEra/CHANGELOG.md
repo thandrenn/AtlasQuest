@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.1.1 - September 25, 2024
+
+### Changed
+
+- Update TOC to 1.15.4
+- Update Options button to use new Settings API
+
 ## 5.1.0 - August 22, 2024
 
 ### Added
