@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.2.0 - xxx
+
+### Added
+
+-
+
 ## 5.1.1 - September 25, 2024
 
 ### Changed

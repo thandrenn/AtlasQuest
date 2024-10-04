@@ -177,6 +177,12 @@ function AtlasQuest:OnEnable()
 	AQ_FinishedQuestText:SetText(BLUE..L["Finished"]..": ");
 	AtlasQuestFrame.faction = 1;
 
+	-- On retail, the close button is too big, make it smaller
+	if (select(4, GetBuildInfo()) > 90000) then
+		AQ_SidebarClose:SetSize(20, 20);
+		AQ_QuestClose:SetSize(20, 20);
+	end
+
 	-- Create quest list frames
 	for i = 1, AQMAXQUESTS do
 		local button = CreateFrame("Button", "AQButton_"..i, AtlasQuestFrame);

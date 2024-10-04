@@ -148,121 +148,323 @@ AQInstances = {
 	ids = {},
 };
 
+if (select(4, GetBuildInfo()) > 90000) then
+	AQInstances = {
+		paths = {
+			-- Classic
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheDeadminesA"] = 1,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheDeadminesB"] = 1,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\WailingCaverns"] = 2,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\RagefireChasm"] = 3,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Uldaman"] = 4,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\BlackrockDepths"] = 5,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\BlackwingLair"] = 6,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\BlackfathomDeeps"] = 7,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\LowerBlackrockSpire"] = 8,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\DireMaulEast"] = 10,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\DireMaulNorth"] = 11,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\DireMaulWest"] = 12,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Maraudon"] = 13,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\MoltenCore"] = 14,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\OnyxiasLair"] = 16,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\RazorfenDowns"] = 17,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\RazorfenKraul"] = 18,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Scholomance"] = 20,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\ShadowfangKeep"] = 21,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\StratholmeCrusader"] = 22,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheRuinsofAhnQiraj"] = 23,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheStockade"] = 24,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheSunkenTemple"] = 25,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\TheTempleofAhnQiraj"] = 26,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\ZulFarrak"] = 27,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\StratholmeGauntlet"] = 28,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\Gnomeregan"] = 29,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\ScarletMonastery"] = 58,
+			["Interface\\AddOns\\Atlas_ClassicWoW\\Images\\ScarletHalls"] = 59,
+
+			-- Burning Crusade
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\HCHellfireRamparts"] = 37,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\HCBloodFurnace"] = 38,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\HCTheShatteredHalls"] = 39,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\HCMagtheridonsLair"] = 40,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CFRTheSlavePens"] = 41,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CFRTheSteamvault"] = 42,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CFRTheUnderbog"] = 43,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\AuchAuchenaiCrypts"] = 44,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\AuchManaTombs"] = 45,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\AuchSethekkHalls"] = 46,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\AuchShadowLabyrinth"] = 47,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CFRSerpentshrineCavern"] = 48,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CoTBlackMorass"] = 49,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CoTHyjal"] = 50,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\CoTOldHillsbrad"] = 51,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\GruulsLair"] = 52,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\KarazhanStart"] = 53,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\KarazhanEnd"] = 53,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\KarazhanEnt"] = 53,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\TempestKeepArcatraz"] = 54,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\TempestKeepBotanica"] = 55,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\TempestKeepMechanar"] = 56,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\TempestKeepTheEye"] = 61,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleStart"] = 62,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleBasement"] = 62,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\BlackTempleTop"] = 62,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\MagistersTerrace"] = 67,
+			["Interface\\AddOns\\Atlas_BurningCrusade\\Images\\SunwellPlateau"] = 68,
+
+			-- Wrath of the Lich King Instances
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\CoTOldStratholme"] = 69,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UtgardeKeep"] = 70,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UtgardePinnacle"] = 71,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TheNexus"] = 72,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TheOculus"] = 73,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TheEyeOfEternity"] = 74,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\AzjolNerub"] = 75,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\AhnKahet"] = 76,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarHallsofStone"] = 77,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarHallsofLightning"] = 78,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\ObsidianSanctum"] = 79,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\DrakTharonKeep"] = 80,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\Gundrak"] = 81,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\VioletHold"] = 82,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\Naxxramas"] = 84,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\VaultOfArchavon"] = 85,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarA"] = 86,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarB"] = 86,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarC"] = 86,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarD"] = 86,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\UlduarE"] = 86,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TrialOfTheChampion"] = 87,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TrialOfTheCrusader"] = 88,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\FHTheForgeOfSouls"] = 90,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\TheForgeOfSouls"] = 90,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\FHPitOfSaron"] = 91,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\PitOfSaron"] = 91,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\FHHallsOfReflection"] = 92,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\HallsOfReflection"] = 92,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownCitadelA"] = 93,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownCitadelB"] = 93,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownCitadelC"] = 93,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownCitadelStart"] = 93,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\IcecrownCitadelEnd"] = 93,
+			["Interface\\AddOns\\Atlas_WrathoftheLichKing\\Images\\RubySanctum"] = 94,
+
+			-- Cataclysm Instances
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\BlackrockCaverns"] = 95,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\ThroneOfTheTides"] = 96,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheStonecore"] = 97,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheVortexPinnacle"] = 98,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\GrimBatol"] = 99,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\HallsOfOrigination"] = 100,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\LostCityOfTolvir"] = 101,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\BlackwingDescent"] = 102,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\TheBastionOfTwilight"] = 103,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\ThroneOfTheFourWinds"] = 104,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\BaradinHold"] = 105,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\ZulGurub"] = 108,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\ZulAman"] = 63,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\Firelands"] = 109,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTEndTime"] = 110,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTWellOfEternity"] = 111,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTHourOfTwilight"] = 112,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTDragonSoulA"] = 113,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTDragonSoulB"] = 113,
+			["Interface\\AddOns\\Atlas_Cataclysm\\Images\\CoTDragonSoulC"] = 113,
+
+			-- Mists of Pandaria Instances
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\MoguShanPalace"] = 114,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ShadoPanMonasteryA"] = 115,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ShadoPanMonasteryB"] = 115,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\StormstoutBrewery"] = 116,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\TempleOfTheJadeSerpent"] = 117,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\GateoftheSettingSun"] = 118,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofNiuzaoTempleA"] = 119,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofNiuzaoTempleB"] = 119,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\MoguShanVaults"] = 120,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\TerraceofEndlessSpring"] = 121,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\HeartofFear"] = 122,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderA"] = 138,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderB"] = 138,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderC"] = 138,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\ThroneofThunderD"] = 138,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofOrgrimmarA"] = 145,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofOrgrimmarB"] = 145,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofOrgrimmarC"] = 145,
+			["Interface\\AddOns\\Atlas_MistsofPandaria\\Images\\SiegeofOrgrimmarD"] = 145,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ABrewingStorm"] = 125,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ArenaOfAnnihilation"] = 126,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BrewmoonFestival"] = 127,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_CryptofForgottenKings"] = 128,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_GreenstoneVillage"] = 129,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheramoresFallAlliance"] = 130,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheramoresFallHorde"] = 130,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_UngaIngoo"] = 131,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_AssaultonZanvess"] = 132,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_PeakofSerenity"] = 133,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_LionsLanding"] = 134,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_DominationPoint"] = 135,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_ALittlePatience"] = 136,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_DaggerintheDark"] = 137,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BloodintheSnow"] = 139,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BattleontheHighSeasAlliance"] = 140,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_BattleontheHighSeasHorde"] = 140,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_DarkHeartofPandaria"] = 141,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TheSecretsofRagefire"] = 142,
+			["Interface\\AddOns\\Atlas_Scenarios\\Images\\SC_TrovesoftheThunderKing"] = 144,
+
+			-- Warlords of Draenor Instances
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\Auchindoun"] = 146,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\Skyreach"] = 147,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\BloodmaulSlagMines"] = 148,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\IronDocks"] = 149,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\TheEverbloomA"] = 150,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\TheEverbloomB"] = 150,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\GrimrailDepot"] = 151,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\ShadowmoonBurialGrounds"] = 152,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\UpperBlackrockSpire"] = 153,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HighmaulA"] = 154,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HighmaulB"] = 154,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\BlackrockFoundryA"] = 155,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\BlackrockFoundryB"] = 155,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireA"] = 156,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireB"] = 156,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireC"] = 156,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireD"] = 156,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireE"] = 156,
+			["Interface\\AddOns\\Atlas_WarlordsofDraenor\\Images\\HellfireF"] = 156,
+
+			-- Legion Instances
+			["Interface\\AddOns\\Atlas_Legion\\Images\\AssaultonVioletHold"] = 157,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\BlackRookHoldA"] = 158,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\BlackRookHoldB"] = 158,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\BlackRookHoldC"] = 158,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\BlackRookHoldD"] = 158,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\CourtofStarsA"] = 159,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\CourtofStarsB"] = 159,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\DarkheartThicket"] = 160,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\EyeofAzshara"] = 161,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\HallsofValorA"] = 162,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\HallsofValorB"] = 162,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\HallsofValorC"] = 162,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\MawofSoulsA"] = 163,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\MawofSoulsB"] = 163,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\NeltharionsLair"] = 164,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheArcway"] = 165,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensA"] = 166,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensB"] = 166,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\VaultoftheWardensC"] = 166,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareA"] = 167,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareB"] = 167,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareC"] = 167,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareD"] = 167,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareE"] = 167,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareF"] = 167,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareG"] = 167,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheEmeraldNightmareH"] = 167,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdA"] = 168,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdB"] = 168,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdC"] = 168,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdD"] = 168,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdE"] = 168,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdF"] = 168,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdG"] = 168,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheNightholdH"] = 168,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanA"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanB"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanC"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanD"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanE"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanF"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanG"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanH"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\ReturntoKarazhanI"] = 169,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TrialofValorA"] = 170,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TrialofValorB"] = 170,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasA"] = 171,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasB"] = 171,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasC"] = 171,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasD"] = 171,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasE"] = 171,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasF"] = 171,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TombofSargerasG"] = 171,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightA"] = 172,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightB"] = 172,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightC"] = 172,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\CathedralofEternalNightD"] = 172,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\TheSeatoftheTriumvirate"] = 173,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneA"] = 174,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneB"] = 174,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneC"] = 174,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneD"] = 174,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneE"] = 174,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneF"] = 174,
+			["Interface\\AddOns\\Atlas_Legion\\Images\\AntorustheBurningThroneG"] = 174,
+
+			-- Battle For Azeroth Instances
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\AtalDazar"] = 175,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\Freehold"] = 176,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\KingsRest"] = 177,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\ShrineoftheStormA"] = 178,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\ShrineoftheStormB"] = 178,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\SiegeofBoralus"] = 179,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\TempleofSethraliss"] = 180,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\TheMOTHERLODE"] = 181,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\TheUnderrot"] = 182,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\TolDagorA"] = 183,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\TolDagorB"] = 183,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\WaycrestManorA"] = 184,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\WaycrestManorB"] = 184,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\UldirA"] = 185,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\UldirB"] = 185,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\UldirC"] = 185,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\UldirD"] = 185,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\UldirE"] = 185,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\UldirF"] = 185,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\UldirG"] = 185,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\BattleofDazaralor_AllianceA"] = 186,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\BattleofDazaralorA"] = 186,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\BattleofDazaralorB"] = 186,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\BattleofDazaralorC"] = 186,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\BattleofDazaralorD"] = 186,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\BattleofDazaralorE"] = 186,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\BattleofDazaralorF"] = 186,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\CrucibleofStormsA"] = 187,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\CrucibleofStormsB"] = 187,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\TheEternalPalace"] = 188,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\OperationMechagonA"] = 189,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\NyalothaA"] = 190,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\NyalothaB"] = 190,
+			["Interface\\AddOns\\Atlas_BattleforAzeroth\\Images\\NyalothaC"] = 190,
+
+			-- Shadowlands Instances
+			-- NOT ADDED TO ATLAS
+
+			-- Dragonflight Instances
+			-- NOT ADDED TO ATLAS
+
+
+			-- Battlegrounds
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\AlteracValleyNorth"] = 33,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\AlteracValleySouth"] = 33,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\ArathiBasin"] = 34,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\WarsongGulch"] = 35,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\EyeOfTheStorm"] = 60,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\IsleOfConquest"] = 89,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TheBattleForGilneas"] = 106,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TwinPeaks"] = 107,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\SilvershardMines"] = 123,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\TempleofKotmogu"] = 124,
+			["Interface\\AddOns\\Atlas_Battlegrounds\\Images\\DeepwindGorge"] = 143,
+			["Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\OR_Skettis"] = 66,
+
+		},
+		ids = {},
+	}
+end
+
 for path, instance in pairs(AQInstances.paths) do
 	local fileID = GetFileIDFromPath(path);
 	if fileID then
 		AQInstances.ids[fileID] = instance;
 	end
 end
-
----------------------------
---- AQ Instance Numbers ---
----------------------------
-
--- These numbers have been re-organized from the Non-Classic version of AtlasQuest for sanity's sake.
-
--- 66  = default.  Nothing shown.
-
--- 1  = Blackrock Depths
--- 2  = Blackwing Lair
--- 3  = Lower Blackrock Spire
--- 4  = Upper Blackrock Spire
--- 5  = Deadmines
--- 6  = Gnomeregan
--- 7  = Scarlet Monastery: Library
--- 8  = Scarlet Monastery: Armory
--- 9  = Scarlet Monastery: Cathedral
--- 10 = Scarlet Monastery: Graveyard
--- 11 = Scholomance
--- 12 = Shadowfang Keep
--- 13 = The Stockade
--- 14 = Stratholme
--- 15 = Sunken Temple
--- 16 = Uldaman
-
--- 17 = Blackfathom Deeps
--- 18 = Dire Maul East
--- 19 = Dire Maul North
--- 20 = Dire Maul West
--- 21 = Maraudon
--- 22 = Ragefire Chasm
--- 23 = Razorfen Downs
--- 24 = Razorfen Kraul
--- 25 = Wailing Caverns
--- 26 = Zul'Farrak
-
--- 27 = Molten Core
--- 28 = Onyxia's Lair
--- 29 = Zul'Gurub
--- 30 = The Ruins of Ahn'Qiraj
--- 31 = The Temple of Ahn'Qiraj
--- 32 = Naxxramas (level 60)
-
--- 33 = Alterac Valley
--- 34 = Arathi Basin
--- 35 = Warsong Gulch
-
--- 36 = Four Dragons
--- 37 = Azuregos
--- 38 = Highlord Kruul
-
-
--- Burning Crusade Dungeons & Raids
-
--- 40 = DUNGEON: Hellfire Ramparts
--- 41 = DUNGEON: Blood Furnace
--- 42 = DUNGEON: Shattered Halls
--- 43 = RAID: Magtheridon's Lair
--- 44 = DUNGEON: The Slave Pens
--- 45 = DUNGEON: The Steamvault
--- 46 = DUNGEON: The Underbog
--- 47 = DUNGEON: Auchenai Crypts
--- 48 = DUNGEON: Mana Tombs
--- 49 = DUNGEON: Sethekk Halls
--- 50 = DUNGEON: Shadow Labyrinth
--- 51 = RAID: Serpentshrine Cavern
--- 52 = DUNGEON: Black Morass
--- 53 = RAID: Battle of Mount Hyjal
--- 54 = DUNGEON: Old Hillsbrad
--- 55 = RAID: Gruul's Lair
--- 56 = RAID: Karazhan
--- 57 = DUNGEON: The Arcatraz
--- 58 = DUNGEON: Botanica
--- 59 = DUNGEON: The Mechanar
--- 60 = BATTLEGROUND: Eye of the Storm
--- 61 = RAID: The Eye
--- 62 = RAID: Black Temple
--- 63 = RAID: Zul'Aman
--- 65 = OUTDOOR: Skettis
--- 67 = DUNGEON: Magisters' Terrace
--- 68 = RAID: Sunwell Plateau
-
-
--- Wrath of the Lich King Dungeons & Raids
-
--- 69 = DUNGEON: Caverns of Time: Stratholme Past
--- 70 = DUNGEON: Utgarde Keep: Utgarde Keep
--- 71 = DUNGEON: Utgarde Keep: Utgarde Pinnacle
--- 72 = DUNGEON: The Nexus: The Nexus
--- 73 = DUNGEON: The Nexus: The Oculus
--- 74 = RAID: The Nexus: The Eye of Eternity
--- 75 = DUNGEON: Azjol-Nerub: The Upper Kingdom
--- 76 = DUNGEON: Azjol-Nerub: Ahn'kahet: The Old Kingdom
--- 77 = DUNGEON: Ulduar: Halls of Stone
--- 78 = DUNGEON: Ulduar: Halls of Lightning
--- 79 = RAID: The Obsidian Sanctum
--- 80 = DUNGEON: Drak'Tharon Keep
--- 81 = DUNGEON: Zul'Drak: Gundrak
--- 82 = DUNGEON: The Violet Hold
--- 83 = BATTLEGROUND: Strand of the Ancients (SotA)
--- 84 = RAID: Naxxramas (Naxx)
--- 85 = RAID: Vault of Archavon (VoA)
--- 86 = RAID: Ulduar
--- 87 = DUNGEON: Trial of the Champion (ToC)
--- 88 = RAID: Trial of the Crusader (ToC)
--- 89 = BATTLEGROUND: Isle of Conquest (IoC)
--- 90 = DUNGEON: Forge of Souls (FoS)
--- 91 = DUNGEON: Pit of Saron (PoS)
--- 92 = DUNGEON: Halls of Reflection (HoR)
--- 93 = RAID: Icecrown Citadel (ICC)
--- 94 = RAID: Ruby Sanctum (RS)
