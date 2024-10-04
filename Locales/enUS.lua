@@ -10,14 +10,14 @@ local BLUE = "|cff0070dd";
 local YELLOW = "|cffFFd200";
 local PREV = "|r";
 
-local AQGARRISON = "(Garrison - Lunarfall Inn or Frostwall Tavern)";
-local AQGARRISONRESOURCES = " Garrison Resources";
-local AQAPEXISCRYSTAL = " Apexis Crystals";
-local AQORDERRESOURCES = " Order Resources";
-local AQVEILEDARGUNITE = " Veiled Argunite";
-local AQAZERITE = " Azerite";
-local AQClassRewards = BLUE.." Reward varies for each class.";
-local AQITEM_RENOWN = "Renown";
+local AQ_GARRISON = "(Garrison - Lunarfall Inn or Frostwall Tavern)";
+local AQ_GARRISONRESOURCES = " Garrison Resources";
+local AQ_APEXISCRYSTAL = " Apexis Crystals";
+local AQ_ORDERRESOURCES = " Order Resources";
+local AQ_VEILEDARGUNITE = " Veiled Argunite";
+local AQ_AZERITE = " Azerite";
+local AQ_CLASSREWARDS = WHITE.." Varies for each class";
+local AQ_RENOWN = "Renown";
 local AQ_WORLDDUNGEONQUEST = "This is a Dungeon World Quest.  When the quest is active (you can check your ingame map to see if it is available), enter the Dungeon to obtain it.  When you complete the dungeon it will be automatically turned in.  The quest will reward reputation and sometimes an item.";
 
 local AQ_OR = GREY.." or ";
@@ -4419,7 +4419,7 @@ L["Quest_27790_Name"] = "The Defias Kingpin";
 L["Quest_27790_Objective"] = "Kill the Defias Kingpin.";
 L["Quest_27790_Location"] = "Lieutenant Horatio Laine (The Deadmines; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27790_Note"] = "This quest is also automatically given upon entering the Mastroom in Deadmines.\n\n'Captain' Cookie is the final boss (on normal), located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_27790_RewardText"] = AQClassRewards;
+L["Quest_27790_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_27790_PreQuest"] = "The Admiral";
 
 L["Quest_27842_Name"] = "Only the Beginning";
@@ -4451,7 +4451,7 @@ L["Quest_27850_Name"] = "The Defias Kingpin";
 L["Quest_27850_Objective"] = "Kill the Defias Kingpin.";
 L["Quest_27850_Location"] = "Kagtha (The Deadmines; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27850_Note"] = "This quest is also automatically given upon entering the Mastroom in Deadmines.\n\n'Captain' Cookie is the final boss (on normal), located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_27850_RewardText"] = AQClassRewards;
+L["Quest_27850_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_27850_PreQuest"] = "The Admiral";
 
 L["Quest_26872_Name"] = "Deviate Hides";
@@ -4495,7 +4495,7 @@ L["Quest_30996_Name"] = "The Dark Shaman";
 L["Quest_30996_Objective"] = "Defeat Dark Shaman Koranthal and Lava Guard Gordoth.";
 L["Quest_30996_Location"] = "High Sorceress Aryna (Ragefire Chasm; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_30996_Note"] = "Dark Shaman Koranthal can be found at "..YELLOW.."[2]"..WHITE.." and Lava Guard Gordoth is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_30996_RewardText"] = AQClassRewards;
+L["Quest_30996_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31037_Name"] = "Enemies Below";
 L["Quest_31037_Objective"] = "Speak with Commander Bagran.";
@@ -5177,7 +5177,7 @@ L["Quest_31516_Name"] = "Unto Dust Thou Shalt Return (Heroic)";
 L["Quest_31516_Objective"] = "Use the Blades of the Anointed on the corpse of High Inquisitor Whitemane to send her permanently to her final rest.";
 L["Quest_31516_Location"] = "Fountain in Chapel Gardens";
 L["Quest_31516_Note"] = "High Inquisitor Whitemane is at "..YELLOW.."[3]"..WHITE..".  After you complete the quest, Lilian Voss will spawn to turn the quest in.";
-L["Quest_31516_RewardText"] = AQClassRewards;
+L["Quest_31516_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_31516_PreQuest"] = "Blades of the Anointed";
 
 L["Quest_31490_Name"] = "Rank and File";
@@ -5202,7 +5202,7 @@ L["Quest_31497_Name"] = "Just for Safekeeping, Of Course (Heroic)";
 L["Quest_31497_Objective"] = "Collect the Codex of the Crusade.";
 L["Quest_31497_Location"] = "Hooded Crusader (Scarlet Halls; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31497_Note"] = "The Codex of the Crusade drops from Flameweaver Koegler at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31497_RewardText"] = AQClassRewards;
+L["Quest_31497_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31440_Name"] = "The Four Tomes";
 L["Quest_31440_Objective"] = "Destroy the four tomes: 'In the Shadow of the Light', 'Kel'Thuzad's Deep Knowledge', 'Forbidden Rites and other Rituals Necromantic' and 'The Dark Grimoire'.";
@@ -5226,7 +5226,7 @@ L["Quest_31448_Name"] = "An End to the Suffering (Heroic)";
 L["Quest_31448_Objective"] = "Kill Darkmaster Gandling.";
 L["Quest_31448_Location"] = "Talking Skull (Scholomance; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31448_Note"] = "Darkmaster Gandling is at "..YELLOW.."[6]"..WHITE..".";
-L["Quest_31448_RewardText"] = AQClassRewards;
+L["Quest_31448_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_28756_Name"] = "Aberrations of Bone";
 L["Quest_28756_Objective"] = "Kill Rattlegore in the Ossuary of Scholomance.";
@@ -5747,7 +5747,7 @@ L["Quest_50336_Name"] = "The G-Team";
 L["Quest_50336_Objective"] = "Kill Mekgineer Thermaplugg.";
 L["Quest_50336_Location"] = "Face (Gnomeregan; "..GREEN.."[4']"..WHITE..")";
 L["Quest_50336_Note"] = "Mekgineer Thermaplugg is at "..YELLOW.."[5]"..WHITE..".  Turn the quest in to Hann Ibal at "..GREEN.."[5']"..WHITE..".";
-L["Quest_50336_RewardText"] = AQClassRewards;
+L["Quest_50336_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_50336_PreQuest"] = "The G-Team";
 
 L["Quest_2949_Name"] = "Grime-Encrusted Ring";
@@ -7794,13 +7794,13 @@ L["Quest_31357_Name"] = "Relics of the Four Kings";
 L["Quest_31357_Objective"] = "Collect the Lantern of the Sorcerer King, Mad King Meng's Balance, Qiang's 'The Science of War', and Subetai's Bow of the Swift.";
 L["Quest_31357_Location"] = "Sinan the Dreamer (Mogu'Shan Palace; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31357_Note"] = "All items are in the Vault of Kings between the first and second bosses.";
-L["Quest_31357_RewardText"] = AQClassRewards;
+L["Quest_31357_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31360_Name"] = "A New Lesson for the Master";
 L["Quest_31360_Objective"] = "Kill Xin the Weaponmaster.";
 L["Quest_31360_Location"] = "Sinan the Dreamer (Mogu'Shan Palace; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31360_Note"] = "Xin the Weaponmaster is at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_31360_RewardText"] = AQClassRewards;
+L["Quest_31360_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31031_Name"] = "Into the Monastery";
 L["Quest_31031_Objective"] = "Meet Ban Bearheart inside the Shado-Pan Monastery.";
@@ -7814,14 +7814,14 @@ L["Quest_30757_Name"] = "Lord of the Shado-Pan";
 L["Quest_30757_Objective"] = "Rid Taran Zhu of his possession by the Sha of Hatred.";
 L["Quest_30757_Location"] = "Ban Bearheart (Shado-Pan Monastery; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_30757_Note"] = "Taran Zhu is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_30757_RewardText"] = AQClassRewards;
+L["Quest_30757_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_30757_PreQuest"] = "Into the Monastery (optional)";
 
 L["Quest_31342_Name"] = "The Path to Respect Lies in Violence";
 L["Quest_31342_Objective"] = "Kill the Sha of Violence.";
 L["Quest_31342_Location"] = "Master Snowdrift (Shado-Pan Monastery; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_31342_Note"] = "The Sha of Violence is at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_31342_RewardText"] = AQClassRewards;
+L["Quest_31342_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_30085_Name"] = "Into the Brewery";
 L["Quest_30085_Objective"] = "Speak to Chen Stormstout inside the Stormstout Brewery.";
@@ -7835,14 +7835,14 @@ L["Quest_31327_Name"] = "Trouble Brewing";
 L["Quest_31327_Objective"] = "Kill Yan-Zhu the Uncasked.";
 L["Quest_31327_Location"] = "Chen Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31327_Note"] = "Yan-Zhu the Uncasked is the final boss, at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_31327_RewardText"] = AQClassRewards;
+L["Quest_31327_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_31327_PreQuest"] = "Into the Brewery (optional)";
 
 L["Quest_31324_Name"] = "Family Secrets";
 L["Quest_31324_Objective"] = "Collect 5 Stormstout Secrets.";
 L["Quest_31324_Location"] = "Auntie Stormstout (Stormstout Brewery; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31324_Note"] = "The secrets are giant books on the floor found around the instance.";
-L["Quest_31324_RewardText"] = AQClassRewards;
+L["Quest_31324_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_33024_Name"] = "Is That A Real Measurement?";
 L["Quest_33024_Objective"] = "Create a Noodle Cart Kit and collect 20 Sloshes of Brew from slain alementals in the Stormstout Brewery.";
@@ -7856,13 +7856,13 @@ L["Quest_31355_Name"] = "Restoring Jade's Purity";
 L["Quest_31355_Objective"] = "Assist Wise Mari, Liu Flameheart, and Lorewalker Stonestep with their sha problems.";
 L["Quest_31355_Location"] = "Priestess Summerpetal (Temple of the Jade Serpent; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31355_Note"] = "- Wise Mari is at "..YELLOW.."[1]"..WHITE..".\n- Lorewalker Stonestep is at "..YELLOW.."[2]"..WHITE..".\n- Liu Flameheart is at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_31355_RewardText"] = AQClassRewards;
+L["Quest_31355_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31356_Name"] = "Deep Doubts, Deep Wisdom";
 L["Quest_31356_Objective"] = "Kill the Sha of Doubt.";
 L["Quest_31356_Location"] = "Master Windstrong (Temple of the Jade Serpent; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31356_Note"] = "The Sha of Doubt is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31356_RewardText"] = AQClassRewards;
+L["Quest_31356_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_33020_Name"] = "The Lost Secret of the Secret Ingredient";
 L["Quest_33020_Objective"] = "Defeat the Sha of Doubt.";
@@ -7890,7 +7890,7 @@ L["Quest_31364_Name"] = "That's a Big Bug!";
 L["Quest_31364_Objective"] = "Kill Raigonn.";
 L["Quest_31364_Location"] = "Bowmistress Li (The Gate of the Setting Sun; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31364_Note"] = "Raigonn is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31364_RewardText"] = AQClassRewards;
+L["Quest_31364_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31365_Name"] = "Somewhere Inside";
 L["Quest_31365_Objective"] = "Rescue 12 Shado-Pan Prisoners.";
@@ -7902,7 +7902,7 @@ L["Quest_31366_Name"] = "Take Down the Wing Leader";
 L["Quest_31366_Objective"] = "Kill Wing Leader Ner'onok.";
 L["Quest_31366_Location"] = "Shado-Master Chum Kiu (Siege of Niuzao Temple; "..BLUE.."Entrance"..WHITE..")";
 L["Quest_31366_Note"] = "Wing Leader Ner'onok is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31366_RewardText"] = AQClassRewards;
+L["Quest_31366_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_32599_Name"] = "Securing A Future";
 L["Quest_32599_Objective"] = "Defeat the Thunder King within the Pinnacle of Storms and use the Staff of Antonidas to drain the remaining power from his dais.";
@@ -8006,31 +8006,31 @@ L["Quest_33377_FollowQuest"] = "Courting Destiny";
 
 L["Quest_37146_Name"] = "Go Fetch";
 L["Quest_37146_Objective"] = "Collect a Nightmare Bell from Auchindoun.";
-L["Quest_37146_Location"] = "Johnny Awesome "..AQGARRISON;
+L["Quest_37146_Location"] = "Johnny Awesome "..AQ_GARRISON;
 L["Quest_37146_Note"] = "The Nightmare Bell can be found next to a wall in the corridor between the second "..YELLOW.."[2]"..WHITE.." and third "..YELLOW.."[3]"..WHITE.." bosses.\n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37146_RewardText"] = WHITE.."1";
 
 L["Quest_37156_Name"] = "The Soulcutter";
 L["Quest_37156_Objective"] = "Collect a Soulsever Blade from Auchindoun.";
-L["Quest_37156_Location"] = "Lilian Voss "..AQGARRISON;
+L["Quest_37156_Location"] = "Lilian Voss "..AQ_GARRISON;
 L["Quest_37156_Note"] = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.  You can retrieve it without killing anything or starting the dungeon. \n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37156_RewardText"] = WHITE.."1";
 
 L["Quest_37232_Name"] = "Soulcarver Voss";
 L["Quest_37232_Objective"] = "Collect a Soulsever Blade from Auchindoun.";
-L["Quest_37232_Location"] = "Lilian Voss "..AQGARRISON;
+L["Quest_37232_Location"] = "Lilian Voss "..AQ_GARRISON;
 L["Quest_37232_Note"] = "Requires Heroic Difficulty.  The Soulsever Blade can be found by a fountain just to the right of the first junction.\n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37232_RewardText"] = WHITE.."1";
 
 L["Quest_37154_Name"] = "The Cure For Death";
 L["Quest_37154_Objective"] = "Collect a Soulweave Vessel from Auchindoun.";
-L["Quest_37154_Location"] = "Leonid Barthalomew the Revered "..AQGARRISON;
+L["Quest_37154_Location"] = "Leonid Barthalomew the Revered "..AQ_GARRISON;
 L["Quest_37154_Note"] = "Requires Heroic Difficulty.  The Soulweave Vessel can be found on the left side of the platform with the first boss at "..YELLOW.."[1]"..WHITE..".\n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37154_RewardText"] = WHITE.."1";
 
 L["Quest_37233_Name"] = "Vessel of Virtue";
 L["Quest_37233_Objective"] = "Collect a Soulweave Vessel from Auchindoun.";
-L["Quest_37233_Location"] = "Leonid Barthalomew the Revered "..AQGARRISON;
+L["Quest_37233_Location"] = "Leonid Barthalomew the Revered "..AQ_GARRISON;
 L["Quest_37233_Note"] = "Requires Heroic Difficulty.  The Soulweave Vessel can be found on the left side of the platform with the first boss at "..YELLOW.."[1]"..WHITE..".\n\nYou must also defeat the final boss, Teron'gor at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37233_RewardText"] = WHITE.."1";
 
@@ -8038,13 +8038,13 @@ L["Quest_37796_Name"] = "Auchindoun";
 L["Quest_37796_Objective"] = "Defeat Teron'gor in Auchindoun.";
 L["Quest_37796_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_37796_Note"] = "This is one of several quests that can appear once a day in your garrison.\nTeron'gor is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37796_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37796_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37780_Name"] = "Auchindoun";
 L["Quest_37780_Objective"] = "Defeat Teron'gor in Auchindoun.";
 L["Quest_37780_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_37780_Note"] = "This is one of several quests that can appear once a day in your garrison.\nTeron'gor is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37780_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37780_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_36316_Name"] = "Victory is Within Reach";
 L["Quest_36316_Objective"] = "Slay Ranjit, Araknath, Rukhran and High Sage Viryx in the Skyreach dungeon.";
@@ -8055,31 +8055,31 @@ L["Quest_36316_PreQuest"] = "On Ebon Wings -> When All Is Aligned";
 
 L["Quest_37147_Name"] = "Sky Dancers";
 L["Quest_37147_Objective"] = "Collect a Bottled Windstorm from Skyreach.";
-L["Quest_37147_Location"] = "Taoshi "..AQGARRISON;
+L["Quest_37147_Location"] = "Taoshi "..AQ_GARRISON;
 L["Quest_37147_Note"] = "The Bottled Windstorm is on the platform with the third boss, Rukhran at "..YELLOW.."[3]"..WHITE..".  You can grab it off the pillar before you start the fight.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37147_RewardText"] = WHITE.."1";
 
 L["Quest_37159_Name"] = "Aviana's Request";
 L["Quest_37159_Objective"] = "Collect some Pristine Plumage in Skyreach.";
-L["Quest_37159_Location"] = "Skylord Omnuron "..AQGARRISON;
+L["Quest_37159_Location"] = "Skylord Omnuron "..AQ_GARRISON;
 L["Quest_37159_Note"] = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37159_RewardText"] = WHITE.."1";
 
 L["Quest_37235_Name"] = "A Plea to the Sky";
 L["Quest_37235_Objective"] = "Collect some Pristine Plumage in Skyreach.";
-L["Quest_37235_Location"] = "Skylord Omnuron "..AQGARRISON;
+L["Quest_37235_Location"] = "Skylord Omnuron "..AQ_GARRISON;
 L["Quest_37235_Note"] = "Requires Heroic Difficulty.  The Pristine Plumage is on the ground near some pots where you get dropped off after entering.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37235_RewardText"] = WHITE.."1";
 
 L["Quest_37158_Name"] = "Gloriously Incandescent";
 L["Quest_37158_Objective"] = "Collect a Sun Crystal in Skyreach.";
-L["Quest_37158_Location"] = "Sunwalker Dezco "..AQGARRISON;
+L["Quest_37158_Location"] = "Sunwalker Dezco "..AQ_GARRISON;
 L["Quest_37158_Note"] = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37158_RewardText"] = WHITE.."1";
 
 L["Quest_37234_Name"] = "The Dark Within";
 L["Quest_37234_Objective"] = "Collect a Sun Crystal in Skyreach.";
-L["Quest_37234_Location"] = "Sunwalker Dezco "..AQGARRISON;
+L["Quest_37234_Location"] = "Sunwalker Dezco "..AQ_GARRISON;
 L["Quest_37234_Note"] = "Requires Heroic Difficulty.  After killing the first boss and climbing the stairs, you can find the Sun Crystal on a table nearby.\n\nYou must also defeat the final boss, High Sage Viryx at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37234_RewardText"] = WHITE.."1";
 
@@ -8087,41 +8087,41 @@ L["Quest_37791_Name"] = "Skyreach";
 L["Quest_37791_Objective"] = "Defeat High Sage Viryx in Skyreach.";
 L["Quest_37791_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_37791_Note"] = "This is one of several quests that can appear once a day in your garrison.\nHigh Sage Viryx is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37791_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37791_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37785_Name"] = "Skyreach";
 L["Quest_37785_Objective"] = "Defeat High Sage Viryx in Skyreach.";
 L["Quest_37785_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_37785_Note"] = "This is one of several quests that can appear once a day in your garrison.\nHigh Sage Viryx is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37785_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37785_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37142_Name"] = "Ogre Ancestry";
 L["Quest_37142_Objective"] = "Collect an Ogre Family Tree from the Bloodmaul Slag Mines.";
-L["Quest_37142_Location"] = "Lunk "..AQGARRISON;
+L["Quest_37142_Location"] = "Lunk "..AQ_GARRISON;
 L["Quest_37142_Note"] = "If you're heading down the path to Slave Watcher Crushto at "..YELLOW.."[2]"..WHITE..", the Ogre Family Tree is in a small alcove to the left before you turn into the boss' room.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37142_RewardText"] = WHITE.."1";
 
 L["Quest_37152_Name"] = "Cro's Revenge";
 L["Quest_37152_Objective"] = "Collect a Giant Ogre Head from the Bloodmaul Slag Mines.";
-L["Quest_37152_Location"] = "Cro Threadstrong "..AQGARRISON;
+L["Quest_37152_Location"] = "Cro Threadstrong "..AQ_GARRISON;
 L["Quest_37152_Note"] = "Requires Heroic Difficulty.  The Giant Ogre Head will drop from the Bloodmaul Ogres.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37152_RewardText"] = WHITE.."1";
 
 L["Quest_37228_Name"] = "A Fruitful Proposition";
 L["Quest_37228_Objective"] = "Collect a Giant Ogre Head from the Bloodmaul Slag Mines.";
-L["Quest_37228_Location"] = "Cro Threadstrong "..AQGARRISON;
+L["Quest_37228_Location"] = "Cro Threadstrong "..AQ_GARRISON;
 L["Quest_37228_Note"] = "Requires Heroic Difficulty.  The Giant Ogre Head will drop from the Bloodmaul Ogres.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37228_RewardText"] = WHITE.."1";
 
 L["Quest_37153_Name"] = "Time-Lost Vikings";
 L["Quest_37153_Objective"] = "Collect Olaf's Shield from the Bloodmaul Slag Mines.";
-L["Quest_37153_Location"] = "Olaf "..AQGARRISON;
+L["Quest_37153_Location"] = "Olaf "..AQ_GARRISON;
 L["Quest_37153_Note"] = "Requires Heroic Difficulty.  If heading down the left side towards Magmolatus "..YELLOW.."[1]"..WHITE..",  The shield will be on a shelf opposite the entrance to the tunnel.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37153_RewardText"] = WHITE.."1";
 
 L["Quest_37229_Name"] = "Like A Dwarf In A Mine";
 L["Quest_37229_Objective"] = "Collect Olaf's Shield from the Bloodmaul Slag Mines.";
-L["Quest_37229_Location"] = "Olaf "..AQGARRISON;
+L["Quest_37229_Location"] = "Olaf "..AQ_GARRISON;
 L["Quest_37229_Note"] = "Requires Heroic Difficulty.  If heading down the left side towards Magmolatus "..YELLOW.."[1]"..WHITE..",  The shield will be on a shelf opposite the entrance to the tunnel.\n\nYou must also defeat the final boss, Gug'rokk at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37229_RewardText"] = WHITE.."1";
 
@@ -8129,41 +8129,41 @@ L["Quest_37795_Name"] = "Bloodmaul Slag Mines";
 L["Quest_37795_Objective"] = "Defeat Gug'rokk in the Bloodmaul Slag Mines.";
 L["Quest_37795_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_37795_Note"] = "This is one of several quests that can appear once a day in your garrison.\nGug'rokk is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37795_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37795_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37781_Name"] = "Bloodmaul Slag Mines";
 L["Quest_37781_Objective"] = "Defeat Gug'rokk in the Bloodmaul Slag Mines.";
 L["Quest_37781_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_37781_Note"] = "This is one of several quests that can appear once a day in your garrison.\nGug'rokk is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37781_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37781_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37145_Name"] = "Budd's Gambit";
 L["Quest_37145_Objective"] = "Collect a Very Shiny Thing from the Iron Docks.";
-L["Quest_37145_Location"] = "Budd "..AQGARRISON;
+L["Quest_37145_Location"] = "Budd "..AQ_GARRISON;
 L["Quest_37145_Note"] = "The Very Shiny Thing is on a wooden box, about halfway between the second and third bosses.\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37145_RewardText"] = WHITE.."1";
 
 L["Quest_37157_Name"] = "Feeling A Bit Morose";
 L["Quest_37157_Objective"] = "Collect a barrel of Horribly Acidic Solution from the Iron Docks.";
-L["Quest_37157_Location"] = "Moroes "..AQGARRISON;
+L["Quest_37157_Location"] = "Moroes "..AQ_GARRISON;
 L["Quest_37157_Note"] = "Requires Heroic Difficulty.  The Horribly Acidic Solution is in a vial on top of a barrel on the way to the second boss.  Just before the part with the Iron Stars.\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37157_RewardText"] = WHITE.."1";
 
 L["Quest_37230_Name"] = "Bloody Expensive";
 L["Quest_37230_Objective"] = "Collect a barrel of Horribly Acidic Solution from the Iron Docks.";
-L["Quest_37230_Location"] = "Moroes "..AQGARRISON;
+L["Quest_37230_Location"] = "Moroes "..AQ_GARRISON;
 L["Quest_37230_Note"] = "Requires Heroic Difficulty.  The Horribly Acidic Solution is in a vial on top of a barrel on the way to the second boss.  Just before the part with the Iron Stars.\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37230_RewardText"] = WHITE.."1";
 
 L["Quest_37155_Name"] = "The Brass Compass";
 L["Quest_37155_Objective"] = "Find the Brass Compass at the Iron Docks.";
-L["Quest_37155_Location"] = "Fleet Master Seahorn "..AQGARRISON;
+L["Quest_37155_Location"] = "Fleet Master Seahorn "..AQ_GARRISON;
 L["Quest_37155_Note"] = "Requires Heroic Difficulty.  The Brass Compass is on the ground in front of some barrels near the first boss at "..YELLOW.."[1]"..WHITE..".\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37155_RewardText"] = WHITE.."1";
 
 L["Quest_37231_Name"] = "The Search Continues";
 L["Quest_37231_Objective"] = "Find the Brass Compass at the Iron Docks.";
-L["Quest_37231_Location"] = "Fleet Master Seahorn "..AQGARRISON;
+L["Quest_37231_Location"] = "Fleet Master Seahorn "..AQ_GARRISON;
 L["Quest_37231_Note"] = "Requires Heroic Difficulty.  The Brass Compass is on the ground in front of some barrels near the first boss at "..YELLOW.."[1]"..WHITE..".\n\nYou must also defeat the final boss, Skulloc at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37231_RewardText"] = WHITE.."1";
 
@@ -8171,53 +8171,53 @@ L["Quest_37793_Name"] = "Iron Docks";
 L["Quest_37793_Objective"] = "Defeat Skulloc in the Iron Docks.";
 L["Quest_37793_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_37793_Note"] = "This is one of several quests that can appear once a day in your garrison.\nSkulloc is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37793_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37793_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37783_Name"] = "Iron Docks";
 L["Quest_37783_Objective"] = "Defeat Skulloc in the Iron Docks.";
 L["Quest_37783_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_37783_Note"] = "This is one of several quests that can appear once a day in your garrison.\nSkulloc is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37783_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37783_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37150_Name"] = "For the Birds";
 L["Quest_37150_Objective"] = "Find a Tiny Peachick Hatchling in The Everbloom.";
-L["Quest_37150_Location"] = "Mylune "..AQGARRISON;
+L["Quest_37150_Location"] = "Mylune "..AQ_GARRISON;
 L["Quest_37150_Note"] = "You can find the Tiny Peachick Hatchling in on the ground south of Xeritac's Burrow at coordinates "..YELLOW.."55.4, 22.6"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37150_RewardText"] = WHITE.."1";
 
 L["Quest_37227_Name"] = "Put a Bird on It";
 L["Quest_37227_Objective"] = "Find a Tiny Peachick Hatchling in The Everbloom.";
-L["Quest_37227_Location"] = "Mylune "..AQGARRISON;
+L["Quest_37227_Location"] = "Mylune "..AQ_GARRISON;
 L["Quest_37227_Note"] = "You can find the Tiny Peachick Hatchling in on the ground south of Xeritac's Burrow at coordinates "..YELLOW.."55.4, 22.6"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37227_RewardText"] = WHITE.."1";
 
 L["Quest_37166_Name"] = "Titanic Evolution";
 L["Quest_37166_Objective"] = "Collect an Overgrown Artifact from The Everbloom.";
-L["Quest_37166_Location"] = "Lorewalker Cho "..AQGARRISON;
+L["Quest_37166_Location"] = "Lorewalker Cho "..AQ_GARRISON;
 L["Quest_37166_Note"] = "Requires Heroic Difficulty.  The Overgrown Artifact is on the south portion of the dungeon at coordinates "..YELLOW.."61.1, 66.3"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37166_RewardText"] = WHITE.."1";
 
 L["Quest_37241_Name"] = "Lessons of the Past";
 L["Quest_37241_Objective"] = "Collect an Overgrown Artifact from The Everbloom.";
-L["Quest_37241_Location"] = "Lorewalker Cho "..AQGARRISON;
+L["Quest_37241_Location"] = "Lorewalker Cho "..AQ_GARRISON;
 L["Quest_37241_Note"] = "Requires Heroic Difficulty.  The Overgrown Artifact is on the south portion of the dungeon at coordinates "..YELLOW.."61.1, 66.3"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37241_RewardText"] = WHITE.."1";
 
 L["Quest_37165_Name"] = "Cenarion Concerns";
 L["Quest_37165_Objective"] = "Collect a Strangely-Glowing Frond from Everbloom.";
-L["Quest_37165_Location"] = "Zen'kiki "..AQGARRISON;
+L["Quest_37165_Location"] = "Zen'kiki "..AQ_GARRISON;
 L["Quest_37165_Note"] = "Requires Heroic Difficulty.  The Strangely-Glowing Frond is in the Verdant Grove at coordinates "..YELLOW.."64.6, 21.0"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37165_RewardText"] = WHITE.."1";
 
 L["Quest_37240_Name"] = "The Leaf-Reader";
 L["Quest_37240_Objective"] = "Collect a Strangely-Glowing Frond from Everbloom.";
-L["Quest_37240_Location"] = "Zen'kiki "..AQGARRISON;
+L["Quest_37240_Location"] = "Zen'kiki "..AQ_GARRISON;
 L["Quest_37240_Note"] = "Requires Heroic Difficulty.  The Strangely-Glowing Frond is in the Verdant Grove at coordinates "..YELLOW.."64.6, 21.0"..WHITE..".\n\nYou must also defeat the final boss, Yalnu at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37240_RewardText"] = WHITE.."1";
 
 L["Quest_36813_Name"] = "Subversive Infestation";
 L["Quest_36813_Objective"] = "Recover 3 Depleted Everbloom Seeds, Phylarch's Research, and Xeri'tac's Venom Gland from the Everbloom and return to Phylarch the Evergreen.";
-L["Quest_36813_Location"] = "Phylarch the Evergreen "..AQGARRISON;
+L["Quest_36813_Location"] = "Phylarch the Evergreen "..AQ_GARRISON;
 L["Quest_36813_Note"] = "The Depleted Everbloom Seeds drops from trash on the way to Witherbark at "..YELLOW.."[1]"..WHITE..".\n\nPhylarch's Research is in a house near Archmage Sol "..YELLOW.."[3]"..WHITE.." at coordinates "..YELLOW.."62.4, 37.6"..WHITE..".\n\nXeri'tac's Venom Gland drops from Xeri'tac at "..YELLOW.."[4]"..WHITE..".";
 L["Quest_36813_RewardText"] = WHITE.."1";
 
@@ -8225,47 +8225,47 @@ L["Quest_37790_Name"] = "The Everbloom";
 L["Quest_37790_Objective"] = "Defeat Yalnu in the Everbloom.";
 L["Quest_37790_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_37790_Note"] = "This is one of several quests that can appear once a day in your garrison.\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_37790_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37790_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37786_Name"] = "The Everbloom";
 L["Quest_37786_Objective"] = "Defeat Yalnu in the Everbloom.";
 L["Quest_37786_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_37786_Note"] = "This is one of several quests that can appear once a day in your garrison.\nYalnu is the final boss, located at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_37786_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37786_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37160_Name"] = "Cleaving Time";
 L["Quest_37160_Objective"] = "Find an Iron Limbcleaver in Grimrail Depot.";
-L["Quest_37160_Location"] = "Gamon "..AQGARRISON;
+L["Quest_37160_Location"] = "Gamon "..AQ_GARRISON;
 L["Quest_37160_Note"] = "Requires Heroic Difficulty.  You can find the Iron Limbcleaver in the middle of the second train car.\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest.";
 L["Quest_37160_RewardText"] = WHITE.."1";
 
 L["Quest_37243_Name"] = "An Axe to Grind";
 L["Quest_37243_Objective"] = "Find an Iron Limbcleaver in Grimrail Depot.";
-L["Quest_37243_Location"] = "Gamon "..AQGARRISON;
+L["Quest_37243_Location"] = "Gamon "..AQ_GARRISON;
 L["Quest_37243_Note"] = "Requires Heroic Difficulty.  You can find the Iron Limbcleaver in the middle of the second train car.\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest.";
 L["Quest_37243_RewardText"] = WHITE.."1";
 
 L["Quest_37167_Name"] = "And No Maces!";
 L["Quest_37167_Objective"] = "Collect a Huge Crate of Weapons in Grimrail Depot.";
-L["Quest_37167_Location"] = "Lonika Stillblade "..AQGARRISON;
+L["Quest_37167_Location"] = "Lonika Stillblade "..AQ_GARRISON;
 L["Quest_37167_Note"] = "Requires Heroic Difficulty.  The Huge Crate of Weapons is on the way to the first boss at coordinates "..YELLOW.."53.3, 39.1"..WHITE..".\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest.";
 L["Quest_37167_RewardText"] = WHITE.."1";
 
 L["Quest_37242_Name"] = "Learning Is Painful";
 L["Quest_37242_Objective"] = "Collect a Huge Crate of Weapons in Grimrail Depot.";
-L["Quest_37242_Location"] = "Lonika Stillblade "..AQGARRISON;
+L["Quest_37242_Location"] = "Lonika Stillblade "..AQ_GARRISON;
 L["Quest_37242_Note"] = "Requires Heroic Difficulty.  The Huge Crate of Weapons is on the way to the first boss at coordinates "..YELLOW.."53.3, 39.1"..WHITE..".\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest.";
 L["Quest_37242_RewardText"] = WHITE.."1";
 
 L["Quest_37151_Name"] = "Cold Steel";
 L["Quest_37151_Objective"] = "Find an Iron Autocannon in Grimrail Depot.";
-L["Quest_37151_Location"] = "John J. Keeshan "..AQGARRISON;
+L["Quest_37151_Location"] = "John J. Keeshan "..AQ_GARRISON;
 L["Quest_37151_Note"] = "Requires Heroic Difficulty.  You can find the Iron Autocannon after you kill the second boss at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest.";
 L["Quest_37151_RewardText"] = WHITE.."1";
 
 L["Quest_37209_Name"] = "Cold Steel Part II";
 L["Quest_37209_Objective"] = "Find an Iron Autocannon in Grimrail Depot.";
-L["Quest_37209_Location"] = "John J. Keeshan "..AQGARRISON;
+L["Quest_37209_Location"] = "John J. Keeshan "..AQ_GARRISON;
 L["Quest_37209_Note"] = "Requires Heroic Difficulty.  You can find the Iron Autocannon after you kill the second boss at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Skylord Tovra at "..YELLOW.."[3]"..WHITE.." to complete the quest.";
 L["Quest_37209_RewardText"] = WHITE.."1";
 
@@ -8273,47 +8273,47 @@ L["Quest_37794_Name"] = "Grimrail Depot";
 L["Quest_37794_Objective"] = "Defeat Skylord Tovra in Grimrail Depot.";
 L["Quest_37794_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_37794_Note"] = "This is one of several quests that can appear once a day in your garrison.\nSkylord Tovra is the final boss, located at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_37794_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37794_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37782_Name"] = "Grimrail Depot";
 L["Quest_37782_Objective"] = "Defeat Skylord Tovra in Grimrail Depot.";
 L["Quest_37782_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_37782_Note"] = "This is one of several quests that can appear once a day in your garrison.\nSkylord Tovra is the final boss, located at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_37782_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37782_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37149_Name"] = "The Void-Gate";
 L["Quest_37149_Objective"] = "Find a Void-Gate Key in the Shadowmoon Burial Grounds.";
-L["Quest_37149_Location"] = "Impsy "..AQGARRISON;
+L["Quest_37149_Location"] = "Impsy "..AQ_GARRISON;
 L["Quest_37149_Note"] = "The Void-Gate Key is fairly close to the entrance of the dungeon.  It is on a pedestal in a room shortly after the first set of stairs at coordinates "..YELLOW.."37.4, 51.7"..WHITE..".\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37149_RewardText"] = WHITE.."1";
 
 L["Quest_37245_Name"] = "Whispers in the Darkness";
 L["Quest_37245_Objective"] = "Find a Void-Gate Key in the Shadowmoon Burial Grounds.";
-L["Quest_37245_Location"] = "Impsy "..AQGARRISON;
+L["Quest_37245_Location"] = "Impsy "..AQ_GARRISON;
 L["Quest_37245_Note"] = "The Void-Gate Key is fairly close to the entrance of the dungeon.  It is on a pedestal in a room shortly after the first set of stairs at coordinates "..YELLOW.."37.4, 51.7"..WHITE..".\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37245_RewardText"] = WHITE.."1";
 
 L["Quest_37163_Name"] = "Shadowy Secrets";
 L["Quest_37163_Objective"] = "Collect a Dark Parchment from the Shadowmoon Burial Grounds.";
-L["Quest_37163_Location"] = "Highlord Darion Mograine "..AQGARRISON;
+L["Quest_37163_Location"] = "Highlord Darion Mograine "..AQ_GARRISON;
 L["Quest_37163_Note"] = "Requires Heroic Difficulty.  After entering the dungeon, walk down the corridor.  You'll find the Dark Parchment on the ground on the left side of the first room.\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37163_RewardText"] = WHITE.."1";
 
 L["Quest_37238_Name"] = "Secrets of Soulbinding";
 L["Quest_37238_Objective"] = "Collect a Dark Parchment from the Shadowmoon Burial Grounds.";
-L["Quest_37238_Location"] = "Highlord Darion Mograine "..AQGARRISON;
+L["Quest_37238_Location"] = "Highlord Darion Mograine "..AQ_GARRISON;
 L["Quest_37238_Note"] = "Requires Heroic Difficulty.  After entering the dungeon, walk down the corridor.  You'll find the Dark Parchment on the ground on the left side of the first room.\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37238_RewardText"] = WHITE.."1";
 
 L["Quest_37164_Name"] = "The Huntresses";
 L["Quest_37164_Objective"] = "Collect a Silver-Lined Arrow from the Shadowmoon Burial Ground.";
-L["Quest_37164_Location"] = "Cowled Ranger "..AQGARRISON;
+L["Quest_37164_Location"] = "Cowled Ranger "..AQ_GARRISON;
 L["Quest_37164_Note"] = "Requires Heroic Difficulty.  The Silver-Lined Arrow is on an altar after you defeat Nhallish at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37164_RewardText"] = WHITE.."1";
 
 L["Quest_37239_Name"] = "Fate of the Fallen";
 L["Quest_37239_Objective"] = "Collect a Silver-Lined Arrow from the Shadowmoon Burial Ground.";
-L["Quest_37239_Location"] = "Cowled Ranger "..AQGARRISON;
+L["Quest_37239_Location"] = "Cowled Ranger "..AQ_GARRISON;
 L["Quest_37239_Note"] = "Requires Heroic Difficulty.  The Silver-Lined Arrow is on an altar after you defeat Nhallish at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Ner'zhul at "..YELLOW.."[4]"..WHITE.." to complete the quest.";
 L["Quest_37239_RewardText"] = WHITE.."1";
 
@@ -8321,53 +8321,53 @@ L["Quest_37792_Name"] = "Shadowmoon Burial Grounds";
 L["Quest_37792_Objective"] = "Defeat Ner'zhul in the Shadowmoon Burial Grounds.";
 L["Quest_37792_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_37792_Note"] = "This is one of several quests that can appear once a day in your garrison.\nNer'zhul is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37792_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37792_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37784_Name"] = "Shadowmoon Burial Grounds";
 L["Quest_37784_Objective"] = "Defeat Ner'zhul in the Shadowmoon Burial Grounds.";
 L["Quest_37784_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_37784_Note"] = "This is one of several quests that can appear once a day in your garrison.\nNer'zhul is the final boss, located at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37784_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37784_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37148_Name"] = "Oralius' Adventure";
 L["Quest_37148_Objective"] = "Collect a Spire Flamefly in Upper Blackrock Spire.";
-L["Quest_37148_Location"] = "Oralius "..AQGARRISON;
+L["Quest_37148_Location"] = "Oralius "..AQ_GARRISON;
 L["Quest_37148_Note"] = "The Spire Flamefly is on a barrel just up the ramp when you enter the dungeon.\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37148_RewardText"] = WHITE.."1";
 
 L["Quest_37244_Name"] = "Flamefly Trap";
 L["Quest_37244_Objective"] = "Collect a Spire Flamefly in Upper Blackrock Spire.";
-L["Quest_37244_Location"] = "Oralius "..AQGARRISON;
+L["Quest_37244_Location"] = "Oralius "..AQ_GARRISON;
 L["Quest_37244_Note"] = "The Spire Flamefly is on a barrel just up the ramp when you enter the dungeon.\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37244_RewardText"] = WHITE.."1";
 
 L["Quest_37161_Name"] = "Family Traditions";
 L["Quest_37161_Objective"] = "Find Finkle's Improved Skinner in Blackrock Spire.";
-L["Quest_37161_Location"] = "Finkle Einhorn "..AQGARRISON;
+L["Quest_37161_Location"] = "Finkle Einhorn "..AQ_GARRISON;
 L["Quest_37161_Note"] = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37161_RewardText"] = WHITE.."1";
 
 L["Quest_37236_Name"] = "Like Father, Like Son";
 L["Quest_37236_Objective"] = "Find Finkle's Improved Skinner in Blackrock Spire.";
-L["Quest_37236_Location"] = "Finkle Einhorn "..AQGARRISON;
+L["Quest_37236_Location"] = "Finkle Einhorn "..AQ_GARRISON;
 L["Quest_37236_Note"] = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37236_RewardText"] = WHITE.."1";
 
 L["Quest_37162_Name"] = "Damsels and Dragons";
 L["Quest_37162_Objective"] = "Collect a Shed Proto-Dragon Claw.";
-L["Quest_37162_Location"] = "Maximillian of Northshire "..AQGARRISON;
+L["Quest_37162_Location"] = "Maximillian of Northshire "..AQ_GARRISON;
 L["Quest_37162_Note"] = "Requires Heroic Difficulty.  The Shed Proto-Dragon Claw is in front of the gate in the room where you fight Commander Tharbek at "..YELLOW.."[3]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37162_RewardText"] = WHITE.."1";
 
 L["Quest_37237_Name"] = "A Hero's Quest is Never Complete";
 L["Quest_37237_Objective"] = "Collect a Shed Proto-Dragon Claw.";
-L["Quest_37237_Location"] = "Maximillian of Northshire "..AQGARRISON;
+L["Quest_37237_Location"] = "Maximillian of Northshire "..AQ_GARRISON;
 L["Quest_37237_Note"] = "Requires Heroic Difficulty.  The Shed Proto-Dragon Claw is in front of the gate in the room where you fight Commander Tharbek at "..YELLOW.."[3]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37237_RewardText"] = WHITE.."1";
 
 L["Quest_37179_Name"] = "For The Children!";
 L["Quest_37179_Objective"] = "Collect a Miniature Iron Star from Upper Blackrock Spire.";
-L["Quest_37179_Location"] = "Millhouse Manastorm "..AQGARRISON;
+L["Quest_37179_Location"] = "Millhouse Manastorm "..AQ_GARRISON;
 L["Quest_37179_Note"] = "Requires Heroic Difficulty.  The Miniature Iron Star is in the large room just before the final boss' chamber.  It is near where the original Upper Blackrock Spire boss was, at coordinates "..YELLOW.."34.3, 54.2"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37179_RewardText"] = WHITE.."1";
 
@@ -8375,13 +8375,13 @@ L["Quest_37789_Name"] = "Upper Blackrock Spire";
 L["Quest_37789_Objective"] = "Defeat Warlord Zaela in Upper Blackrock Spire.";
 L["Quest_37789_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_37789_Note"] = "This is one of several quests that can appear once a day in your garrison.\nWarlord Zaela is the final boss, located at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_37789_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37789_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37787_Name"] = "Upper Blackrock Spire";
 L["Quest_37787_Objective"] = "Defeat Warlord Zaela in Upper Blackrock Spire.";
 L["Quest_37787_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_37787_Note"] = "This is one of several quests that can appear once a day in your garrison.\nWarlord Zaela is the final boss, located at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_37787_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37787_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37766_Name"] = "Walled City: Brackenspore";
 L["Quest_37766_Objective"] = "Defeat Brackenspore in Highmaul.";
@@ -8471,31 +8471,31 @@ L["Quest_39250_Name"] = "Pits of Mannoroth";
 L["Quest_39250_Objective"] = "Defeat Kormrok in Hellfire Citadel.";
 L["Quest_39250_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_39250_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKormrok is the last boss in the first section of Hellfire Citadel at "..YELLOW.."[6]"..WHITE..".";
-L["Quest_39250_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39250_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39253_Name"] = "Maw of Souls";
 L["Quest_39253_Objective"] = "Defeat Gorefiend in Hellfire Citadel.";
 L["Quest_39253_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_39253_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nGorefiend is the last boss in the second section of Hellfire Citadel at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_39253_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39253_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39256_Name"] = "Temple of Tyranny";
 L["Quest_39256_Objective"] = "Defeat Tyrant Velhari in Hellfire Citadel.";
 L["Quest_39256_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_39256_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nTyrant Velhari is the last boss in the third section of Hellfire Citadel at "..YELLOW.."[11]"..WHITE..".";
-L["Quest_39256_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39256_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39259_Name"] = "Destructor's Rise";
 L["Quest_39259_Objective"] = "Defeat Mannoroth in Hellfire Citadel.";
 L["Quest_39259_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_39259_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nMannoroth is the last boss in the fourth section of Hellfire Citadel at "..YELLOW.."[12]"..WHITE..".";
-L["Quest_39259_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39259_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39260_Name"] = "The Black Gate";
 L["Quest_39260_Objective"] = "Defeat Archimonde in Hellfire Citadel.";
 L["Quest_39260_Location"] = "Muradin Bronzebeard (Garrison - Town Hall)";
 L["Quest_39260_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nArchimonde is the final boss in Hellfire Citadel at "..YELLOW.."[13]"..WHITE..".";
-L["Quest_39260_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39260_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39499_Name"] = "Well of Souls";
 L["Quest_39499_Objective"] = "Collect 4 Soul Remnants from Gorefiend in Hellfire Citadel on Normal difficulty.";
@@ -8526,31 +8526,31 @@ L["Quest_39221_Name"] = "Pits of Mannoroth";
 L["Quest_39221_Objective"] = "Defeat Kormrok in Hellfire Citadel.";
 L["Quest_39221_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_39221_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nKormrok is the last boss in the first section of Hellfire Citadel at "..YELLOW.."[6]"..WHITE..".";
-L["Quest_39221_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39221_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39225_Name"] = "Maw of Souls";
 L["Quest_39225_Objective"] = "Defeat Gorefiend in Hellfire Citadel.";
 L["Quest_39225_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_39225_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nGorefiend is the last boss in the second section of Hellfire Citadel at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_39225_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39225_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39228_Name"] = "Temple of Tyranny";
 L["Quest_39228_Objective"] = "Defeat Tyrant Velhari in Hellfire Citadel.";
 L["Quest_39228_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_39228_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nTyrant Velhari is the last boss in the third section of Hellfire Citadel at "..YELLOW.."[11]"..WHITE..".";
-L["Quest_39228_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39228_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39231_Name"] = "Destructor's Rise";
 L["Quest_39231_Objective"] = "Defeat Mannoroth in Hellfire Citadel.";
 L["Quest_39231_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_39231_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nMannoroth is the last boss in the fourth section of Hellfire Citadel at "..YELLOW.."[12]"..WHITE..".";
-L["Quest_39231_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39231_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39232_Name"] = "The Black Gate";
 L["Quest_39232_Objective"] = "Defeat Archimonde in Hellfire Citadel.";
 L["Quest_39232_Location"] = "High Overlord Saurfang (Garrison - Town Hall)";
 L["Quest_39232_Note"] = "This is one of several raid quests that can appear once a week in your garrison.  It can be completed on any difficulty.\nArchimonde is the final boss in Hellfire Citadel at "..YELLOW.."[13]"..WHITE..".";
-L["Quest_39232_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39232_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_43557_Name"] = "Violet Hold";
 L["Quest_43557_Objective"] = "Defeat the leader of the Assault on Violet Hold.";
@@ -8574,7 +8574,7 @@ L["Quest_44400_Name"] = "Purple Pain";
 L["Quest_44400_Objective"] = "Repel the Assault on Violet Hold.";
 L["Quest_44400_Location"] = "Lieutenant Sinclari (Dalaran - The Violet Hold; "..YELLOW.."66.3, 68.0"..WHITE..")";
 L["Quest_44400_Note"] = "Simply complete the dungeon and turn the quest in to the same NPC outside the dungeon.";
-L["Quest_44400_RewardText"] = AQClassRewards;
+L["Quest_44400_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_40878_Name"] = "Cheating Death";
 L["Quest_40878_Objective"] = "Craft 2 Failure Detection Pylons. Go to the Violet Hold and recover a Plasmatic Laser Bolt and return everything to Didi the Wrench in Dalaran.";
@@ -8789,7 +8789,7 @@ L["Quest_40567_Name"] = "Enter the Nightmare";
 L["Quest_40567_Objective"] = "Enter Darkheart Thicket and Slay the Shade of Xavius.";
 L["Quest_40567_Location"] = "Tyrande Whisperwind (Val'sharah - Temple of Elune; "..YELLOW.."53.6, 55.8"..WHITE..")";
 L["Quest_40567_Note"] = "This quest becomes available after completing the quests involving Ysera and Malfurion.  The Shade of Xavius is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_40567_RewardText"] = AQClassRewards;
+L["Quest_40567_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_40567_PreQuest"] = "The Fate of Val'sharah";
 
 L["Quest_39882_Name"] = "The Glamour Has Faded";
@@ -8870,7 +8870,7 @@ L["Quest_42213_Name"] = "The Tidestone of Golganneth";
 L["Quest_42213_Objective"] = "Use the central teleporter in Dalaran and then place the Tidestone of Golganneth in the Portrait Room of the Chamber of the Guardian.";
 L["Quest_42213_Location"] = "Tidestone of Golganneth (Wrath of Azshara; "..YELLOW.."[5]"..WHITE..")";
 L["Quest_42213_Note"] = "The Portrait Room is in the upper tower of Dalaran, accessible by running over a portal in the middle of the city.";
-L["Quest_42213_RewardText"] = AQClassRewards;
+L["Quest_42213_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_42213_PreQuest"] = "Wrath of Azshara";
 
 L["Quest_42719_Name"] = "Cleansing the Dreamway";
@@ -9022,7 +9022,7 @@ L["Quest_43349_Name"] = "The Aegis of Aggramar";
 L["Quest_43349_Objective"] = "Secure the Aegis of Aggramar in the Chamber of the Guardian in Dalaran.";
 L["Quest_43349_Location"] = "The Aegis of Aggramar (Halls of Valor; "..YELLOW.."[5]"..WHITE..")";
 L["Quest_43349_Note"] = "After completing the previous quest, you will be able to start this quest at the Aegis of Aggramar.  Complete this quest in the Portrait room in the upper level of Dalaran, accessible via the teleporter in the middle of the city.";
-L["Quest_43349_RewardText"] = AQClassRewards;
+L["Quest_43349_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_43349_PreQuest"] = "Securing the Aegis";
 
 L["Quest_40877_Name"] = "Trigger Happy";
@@ -9158,7 +9158,7 @@ L["Quest_43253_Name"] = "Ancient Vrykul Legends";
 L["Quest_43253_Objective"] = "Gather a group and take an etching of the Raven's Eye Tablet on the ship of the dead, The Naglfar, in the Maw of Souls.";
 L["Quest_43253_Location"] = "Valeera Sanguinar (Dalaran - Rogue Class Hall; "..YELLOW.."40.6, 76.0"..WHITE..")";
 L["Quest_43253_Note"] = "Rogue quest.  You can obtain the etching in the hold of the ship.  Be sure to get it before you attack the last boss, Helya, because you will not be able to go back to it after.";
-L["Quest_43253_RewardText"] = WHITE.."250"..AQORDERRESOURCES;
+L["Quest_43253_RewardText"] = WHITE.."250"..AQ_ORDERRESOURCES;
 L["Quest_43253_PreQuest"] = "Blood for the Wolfe";
 L["Quest_43253_FollowQuest"] = "The Raven's Eye";
 
@@ -9166,7 +9166,7 @@ L["Quest_43596_Name"] = "Piercing the Mists";
 L["Quest_43596_Objective"] = "Defeat Helya in the Maw of Souls dungeon, then return to Havi in Valdisdall";
 L["Quest_43596_Location"] = "Havi (Stormheim - Valdisdall; "..YELLOW.."60.2, 50.8"..WHITE..")";
 L["Quest_43596_Note"] = "Helya is the final boss in Maw of Souls, located at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_43596_RewardText"] = AQClassRewards;
+L["Quest_43596_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_39350_Name"] = "A Hope in Helheim";
 L["Quest_39350_Objective"] = "Retrieve a crate of Dragur Dust from Heroic: Maw of Souls, craft a Flask of the Seventh Demon and return both items to Alard in Dalaran.";
@@ -9239,7 +9239,7 @@ L["Quest_42454_Name"] = "The Hammer of Khaz'goroth";
 L["Quest_42454_Objective"] = "Use the central teleporter in Dalaran and then place the Hammer of Khaz'goroth in Aegwynn's Gallery.";
 L["Quest_42454_Location"] = "Hammer of Khaz'goroth (Neltharion's Lair; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_42454_Note"] = "Complete this quest in the Portrait room in the upper level of Dalaran, accessible via the teleporter in the middle of the city.";
-L["Quest_42454_RewardText"] = AQClassRewards;
+L["Quest_42454_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_42454_PreQuest"] = "Neltharion's Lair";
 
 L["Quest_41188_Name"] = "Misdirected";
@@ -9646,13 +9646,13 @@ L["Quest_45088_Name"] = "The Lost Army";
 L["Quest_45088_Objective"] = "Gather 1000 Valarjar Soul Fragments within the Trial of Valor Raid.";
 L["Quest_45088_Location"] = "Odyn (Trial of Valor; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_45088_Note"] = "These drop from Helya's minions and Helya herself.  Requires Normal difficulty or higher.";
-L["Quest_45088_RewardText"] = AQClassRewards;
+L["Quest_45088_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_45176_Name"] = "The Once and Future Lord of Shadows";
 L["Quest_45176_Objective"] = "Defeat Helya in the Trials of Valor raid and then use the Soul Prism of the Illidari to claim Illidan's Soul.";
 L["Quest_45176_Location"] = "Allari the Souleater (Azsuna - Illidari Stand; "..YELLOW.."43.2, 43.2"..WHITE..")";
 L["Quest_45176_Note"] = "Helya is the final boss in the Trial of the Valor raid.  Illidan Stormrage will appear on the right side of the platform after defeating Helya. Use the item on him to complete the quest.  The quest can be completed on any raid difficulty.  Turn the quest in to Light's Heart in your Order Hall.";
-L["Quest_45176_RewardText"] = AQClassRewards;
+L["Quest_45176_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_45176_PreQuest"] = "Soul Prism of the Illidari";
 L["Quest_45176_FollowQuest"] = "The Nighthold";
 
@@ -9702,14 +9702,14 @@ L["Quest_46244_Name"] = "Altar of the Aegis";
 L["Quest_46244_Objective"] = "Defeat Lord Mephistroth and place the Aegis of Aggramar upon the Altar of Eternal Night.";
 L["Quest_46244_Location"] = "Archmage Khadgar (Broken Shores - Deliverance Point;"..YELLOW.."44.8, 63.2"..WHITE..")";
 L["Quest_46244_Note"] = "Lord Mephistroth is the final boss of the dungeon.";
-L["Quest_46244_RewardText"] = AQClassRewards;
+L["Quest_46244_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_46244_PreQuest"] = "Assault on Broken Shore -> Legionfall Supplies";
 
 L["Quest_47654_Name"] = "The Crest of Knowledge";
 L["Quest_47654_Objective"] = "Slay L'ura and retrieve the Crest of Knowledge.";
 L["Quest_47654_Location"] = "Prophet Velen (Mac'Aree - The Vindicaar)";
 L["Quest_47654_Note"] = "L'ura is the final boss in the dungeon.  The Vindicaar must be in Mac'Aree to turn this quest in.";
-L["Quest_47654_RewardText"] = WHITE.."300"..AQVEILEDARGUNITE;
+L["Quest_47654_RewardText"] = WHITE.."300"..AQ_VEILEDARGUNITE;
 L["Quest_47654_PreQuest"] = "A Beacon in the Dark";
 L["Quest_47654_FollowQuest"] = "The Ruins of Oronaar";
 
@@ -9753,7 +9753,7 @@ L["Quest_49901_Name"] = "Atal'Dazar: Yazma the Fallen Priestess";
 L["Quest_49901_Objective"] = "Defeat Yazma in Atal'Dazar.";
 L["Quest_49901_Location"] = "King Rastakhan (Zuldazar; "..YELLOW.."42.6, 37.6"..WHITE..")";
 L["Quest_49901_Note"] = "Part of the 'March of the Loa' quest line.  This can be completed on Normal or Heroic difficulty.  Yazma is the final boss in the dungeon.  Turn quest in to Princess Talanji at Dazar'alor - "..YELLOW.."40.6, 69.0"..WHITE..".";
-L["Quest_49901_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_49901_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_49901_PreQuest"] = "The King's Gambit";
 L["Quest_49901_FollowQuest"] = "Of Dark Deeds and Dark Days";
 
@@ -9761,7 +9761,7 @@ L["Quest_51516_Name"] = "Atal'Dazar: Ashes of a Warchief";
 L["Quest_51516_Objective"] = "Bring Vol'jin's ashes to Atal'Dazar.";
 L["Quest_51516_Location"] = "Princess Talanji (Zuldazar; "..YELLOW.."43.8, 39.4"..WHITE..")";
 L["Quest_51516_Note"] = "Part of 'The Fallen Chieftain' quest line.  Can be completed on Normal or Heroic difficulty.  ";
-L["Quest_51516_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."750"..AQAZERITE;
+L["Quest_51516_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."750"..AQ_AZERITE;
 L["Quest_51516_PreQuest"] = "Vol'jin, Son of Sen'jin";
 L["Quest_51516_FollowQuest"] = "You Owe Me a Spirit";
 
@@ -9787,7 +9787,7 @@ L["Quest_52148_Name"] = "Freehold: A Pirate's End";
 L["Quest_52148_Objective"] = "Slay Harlan Sweete in the Freehold dungeon.";
 L["Quest_52148_Location"] = "Flynn Fairwind (Boralus)";
 L["Quest_52148_Note"] = "Harlan Sweete is the final boss in the dungeon.";
-L["Quest_52148_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_52148_RewardText"] = WHITE.."600"..AQ_AZERITE;
 
 L["Quest_51500_Name"] = "Kings' Rest: The Weaponmaster Walks Again";
 L["Quest_51500_Objective"] = "Slay Weaponmaster Halu.";
@@ -9829,13 +9829,13 @@ L["Quest_50825_Name"] = "Shrine of the Storm: Whispers Below";
 L["Quest_50825_Objective"] = "Defeat Lord Stormsong in the Shrine of the Storm.";
 L["Quest_50825_Location"] = "Brother Pike (Stormsong Valley - Shrine of the Storm; "..YELLOW.."78.2, 28.8"..WHITE..")";
 L["Quest_50825_Note"] = "Can be completed on Normal or Heroic difficulty.  Lord Stormsong and Vol'zith the Whisperer are the 3rd and last bosses.  After defeating the final boss, wait a moment or two for Brother Pike to appear to turn in the quest.  If you leave too soon, you can also turn the quest in outside the dungeon where you picked it up.";
-L["Quest_50825_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_50825_RewardText"] = WHITE.."600"..AQ_AZERITE;
 
 L["Quest_52510_Name"] = "Shrine of the Storm: The Missing Ritual";
 L["Quest_52510_Objective"] = "Go into the Shrine of the Storms, recover the Ritual of Safe Passage and defeat Vol'zith the Whisperer.";
 L["Quest_52510_Location"] = "Brother Pike (Stormsong Valley - Shrine of the Storm; "..YELLOW.."78.2, 28.8"..WHITE..")";
 L["Quest_52510_Note"] = "Part of the Pride of Kul Tiras quest line.  Can be completed on Normal or Heroic difficulty.\nThe Ritual of Safe Passage is in a room with an altar between the 2nd and 3rd bosses.  Turn the quest back in to Brother Pike at the same location where you started it.";
-L["Quest_52510_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_52510_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_52510_PreQuest"] = "Ritual Effects";
 L["Quest_52510_FollowQuest"] = "Opening the Way";
 
@@ -9885,7 +9885,7 @@ L["Quest_52153_Name"] = "Siege of Boralus: Lady Ashvane's Return";
 L["Quest_52153_Objective"] = "Complete the Siege of Boralus dungeon.";
 L["Quest_52153_Location"] = "Katherine Proudmoore (Boralus - Proudmoore Keep; "..YELLOW.."44.8, 62.6"..WHITE..")";
 L["Quest_52153_Note"] = "This is the last quest in the 'Pride of Kul'Tiras' questline.   The quest turns in to Taelia (Boralus; "..YELLOW.."68.0, 22.0"..WHITE..").";
-L["Quest_52153_RewardText"] = WHITE.."750"..AQAZERITE;
+L["Quest_52153_RewardText"] = WHITE.."750"..AQ_AZERITE;
 L["Quest_52153_PreQuest"] = "What You May Regret -> Thros, the Blighted Lands";
 L["Quest_52153_FollowQuest"] = "A Nation United";
 
@@ -9917,7 +9917,7 @@ L["Quest_50551_Name"] = "Temple of Sethraliss: Avatar of the Loa";
 L["Quest_50551_Objective"] = "Enter the Temple of Sethraliss and heal the avatar of the loa.";
 L["Quest_50551_Location"] = "Vorrik (Voldun; "..YELLOW.."27.0, 52.6"..WHITE..")";
 L["Quest_50551_Note"] = "Part of the Atul'Aman quest line. Can be completed on Normal or Heroic difficulty.\nDefeat the final boss to complete the quest.  Return to the quest giver.";
-L["Quest_50551_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_50551_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_50551_PreQuest"] = "Defeat Jakra'zet";
 L["Quest_50551_FollowQuest"] = "Informing the Horde";
 
@@ -9943,7 +9943,7 @@ L["Quest_53351_Name"] = "The MOTHERLODE!!: Ironfoe";
 L["Quest_53351_Objective"] = "Recover Ironfoe from Mogul Razdunk.";
 L["Quest_53351_Location"] = "Moira Thaurissan (Blackrock Depths; "..YELLOW.."[]"..WHITE..")";
 L["Quest_53351_Note"] = "This is part of the questline to unlock Dark Iron Dwarves.  The prequest starts at Moira Thaurissan (Stormwind City - Embassy; "..YELLOW.."52.0, 13.8"..WHITE..").";
-L["Quest_53351_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_53351_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_53351_PreQuest"] = "Blackrock Depths";
 L["Quest_53351_FollowQuest"] = "Molten Core";
 
@@ -9951,7 +9951,7 @@ L["Quest_53437_Name"] = "The MOTHERLODE!!: Raw Deal";
 L["Quest_53437_Objective"] = "Send a permanent--fatal--message to Mogul Razdunk in The MOTHERLODE!!";
 L["Quest_53437_Location"] = "Trade Prince Gallywix (Drustvar; "..YELLOW.."37.2, 27.0"..WHITE..")";
 L["Quest_53437_Note"] = "This can be completed on Normal or Herotic difficulty.";
-L["Quest_53437_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_53437_RewardText"] = WHITE.."600"..AQ_AZERITE;
 
 L["Quest_51856_Name"] = "The Underrot: Rotmaw";
 L["Quest_51856_Objective"] = "Slay Rotmaw and the final boss in the dungeon.";
@@ -9975,7 +9975,7 @@ L["Quest_51302_Name"] = "The Underrot: Sealing G'huun's Corruption";
 L["Quest_51302_Objective"] = "Enter the Underrot and defeat the Unbound Abomination.";
 L["Quest_51302_Location"] = "Titan Keeper Hezrel (Nazmir; "..YELLOW.."51.8, 65.8"..WHITE..")";
 L["Quest_51302_Note"] = "This is part of 'The Dark Heart of Nazmir' questline.  The quest turns in to Rokhan (Nazmir; "..YELLOW.."39.2, 78.8"..WHITE..").";
-L["Quest_51302_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_51302_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_51302_PreQuest"] = "Down by the Riverside -> What Rots Beneath";
 L["Quest_51302_FollowQuest"] = "Halting the Empire's Fall";
 
@@ -10001,7 +10001,7 @@ L["Quest_52800_Name"] = "Tol Dagor: The Ashvane Overseer";
 L["Quest_52800_Objective"] = "Retrieve the Tol Dagor Master Key from Overseer Korgus.";
 L["Quest_52800_Location"] = "Cyrus Crestfall (Boralus - Harbormaster's Office; "..YELLOW.."68.0, 22.0"..WHITE..")";
 L["Quest_52800_Note"] = "Overseer Korgus is the final boss in the dungeon.";
-L["Quest_52800_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_52800_RewardText"] = WHITE.."600"..AQ_AZERITE;
 
 L["Quest_51216_Name"] = "Waycrest Manor: Something to Crow About";
 L["Quest_51216_Objective"] = "Slay Corvus and the final boss in the dungeon.";
@@ -10031,14 +10031,14 @@ L["Quest_50639_Name"] = "Waycrest Manor: The Fallen Mother";
 L["Quest_50639_Objective"] = "Defeat Lady Waycrest in Waycrest Manor.";
 L["Quest_50639_Location"] = "Lucille Waycrest (Drustvar - Corlain; "..YELLOW.."31.4, 30.2"..WHITE..")";
 L["Quest_50639_Note"] = "Part of the 'Storming the Manor' questline.  It starts at the same NPC.  The quest turns in to Lucille Waycrest (Drustvar - Arom's Stand; "..YELLOW.."36.8, 50.0"..WHITE..").";
-L["Quest_50639_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_50639_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_50639_PreQuest"] = "To the Other Side -> Storming the Manor";
 
 L["Quest_52486_Name"] = "Waycrest Manor: Draining the Heartsbane";
 L["Quest_52486_Objective"] = "Empower Korvash's Skull in the depths of Waycrest Manor and defeat the final boss in the dungeon.";
 L["Quest_52486_Location"] = "Ulfar (Drustvar - Ulfar's Cave; "..YELLOW.."45.2, 45.8"..WHITE..")";
 L["Quest_52486_Note"] = "Part of the 'Pride of Kul'Tiras' questline.  An extra action button will appear in Lord Waycrest's room allowing you to empower Korvash's Skull.";
-L["Quest_52486_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_52486_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_52486_PreQuest"] = "What You May Regret -> Hatred's Focus";
 L["Quest_52486_FollowQuest"] = "Into Darkness";
 
@@ -10046,33 +10046,33 @@ L["Quest_54485_Name"] = "Battle of Dazar'alor";
 L["Quest_54485_Objective"] = "Defeat King Rastakhan in the Battle of Dazar'alor raid.";
 L["Quest_54485_Location"] = "Halford Wyrmbane (Boralus; "..YELLOW.."69.4, 27.0"..WHITE..")";
 L["Quest_54485_Note"] = "King Rastakhan is the final boss in the raid.  This quest can be completed on any difficulty.";
-L["Quest_54485_RewardText"] = WHITE.."2000"..AQAZERITE;
+L["Quest_54485_RewardText"] = WHITE.."2000"..AQ_AZERITE;
 L["Quest_54485_PreQuest"] = "The Fall of Zuldazar -> He Who Walks in the Light";
 
 L["Quest_54282_Name"] = "Battle of Dazar'alor";
 L["Quest_54282_Objective"] = "Defeat Jaina Proudmoore in the Battle of Dazar'alor raid.";
 L["Quest_54282_Location"] = "Princess Talanji (Zuldazar; "..YELLOW.."58.0, 21.2"..WHITE..")";
 L["Quest_54282_Note"] = "Jaina Proudmoore is the final boss in the raid.   This quest can be completed on any difficulty.";
-L["Quest_54282_RewardText"] = WHITE.."2000"..AQAZERITE;
+L["Quest_54282_RewardText"] = WHITE.."2000"..AQ_AZERITE;
 L["Quest_54282_PreQuest"] = "War Is Here -> Fly Out to Meet Them";
 
 L["Quest_54682_Name"] = "The Missing Blade";
 L["Quest_54682_Objective"] = "Inform King Anduin about the absence of Xal'atath.";
 L["Quest_54682_Location"] = "Crucible of Storms, final boss";
 L["Quest_54682_Note"] = "Click on Xal'atath, Blade of the Black Empire on the ground after defeating the final boss.  The quest turns in to Anduin Wrynn (Stormwind City - Stormwind Keep; "..YELLOW.."85.6, 31.8"..WHITE..").";
-L["Quest_54682_RewardText"] = WHITE.."500"..AQAZERITE;
+L["Quest_54682_RewardText"] = WHITE.."500"..AQ_AZERITE;
 
 L["Quest_54683_Name"] = "The Black Blade";
 L["Quest_54683_Objective"] = "Bring the Dagger to Warchief Sylvanas Windrunner.";
 L["Quest_54683_Location"] = "Crucible of Storms, final boss";
 L["Quest_54683_Note"] = "Click on Xal'atath, Blade of the Black Empire on the ground after defeating the final boss.  The quest turns in to Lady Sylvanas Windrunner (Orgrimmar - Valley of Strength; "..YELLOW.."48.4, 71.4"..WHITE..").";
-L["Quest_54683_RewardText"] = WHITE.."500"..AQAZERITE;
+L["Quest_54683_RewardText"] = WHITE.."500"..AQ_AZERITE;
 
 L["Quest_56358_Name"] = "The Eternal Palace: Queen's Gambit";
 L["Quest_56358_Objective"] = "Defeat Queen Azshara in the Eternal Palace.";
 L["Quest_56358_Location"] = "Lady Jaina Proudmoore (Nazjatar; "..YELLOW.."50.4, 24.0"..WHITE..")";
 L["Quest_56358_Note"] = "Queen Azshara is the final boss in the raid.  This quest can be completed on any difficulty.";
-L["Quest_56358_RewardText"] = WHITE.."3000"..AQAZERITE;
+L["Quest_56358_RewardText"] = WHITE.."3000"..AQ_AZERITE;
 
 L["Quest_56348_Name"] = "The Eternal Palace: We Can Make It Stronger...";
 L["Quest_56348_Objective"] = "Collect 20 Eternal Ornaments from the most powerful creatures of the Eternal Palace.";
@@ -10093,7 +10093,7 @@ L["Quest_56356_Name"] = "The Eternal Palace: Queen's Gambit";
 L["Quest_56356_Objective"] = "Defeat Queen Azshara in the Eternal Palace.";
 L["Quest_56356_Location"] = "Lor'themar Theron (Nazjatar; "..YELLOW.."50.4, 24.0"..WHITE..").";
 L["Quest_56356_Note"] = "Queen Azshara is the final boss in the raid.  This quest can be completed on any difficulty.";
-L["Quest_56356_RewardText"] = WHITE.."3000"..AQAZERITE;
+L["Quest_56356_RewardText"] = WHITE.."3000"..AQ_AZERITE;
 
 L["Quest_56352_Name"] = "The Eternal Palace: We Can Make It Stronger...";
 L["Quest_56352_Objective"] = "Collect 20 Eternal Ornaments from the most powerful creatures of the Eternal Palace.";
@@ -10114,13 +10114,13 @@ L["Quest_55609_Name"] = "Operation: Mechagon - The Mechoriginator";
 L["Quest_55609_Objective"] = "Enter Mechagon and defeat King Mechagon.";
 L["Quest_55609_Location"] = "Prince Erazmin (Mechagon - Rustbolt; "..YELLOW.."74.0, 36.8"..WHITE..")";
 L["Quest_55609_Note"] = "King Mechagon is the final boss in the dungeon.";
-L["Quest_55609_RewardText"] = WHITE.."2500"..AQAZERITE;
+L["Quest_55609_RewardText"] = WHITE.."2500"..AQ_AZERITE;
 
 L["Quest_58632_Name"] = "Ny'alotha, the Waking City: The Corruptor's End";
 L["Quest_58632_Objective"] = "Defeat N'Zoth in Ny'alotha, the Waking City.";
 L["Quest_58632_Location"] = "Magni Bronzebeard (Silithus - Chamber of Heart; "..YELLOW.."48.0, 61.1"..WHITE..")";
 L["Quest_58632_Note"] = "N'Zoth is the final boss in the raid.  This can be completed on any difficulty level.";
-L["Quest_58632_RewardText"] = WHITE.."3000"..AQAZERITE;
+L["Quest_58632_RewardText"] = WHITE.."3000"..AQ_AZERITE;
 L["Quest_58632_PreQuest"] = "true";
 
 L["Quest_60242_Name"] = "Trading Favors: Necrotic Wake";
@@ -10139,7 +10139,7 @@ L["Quest_60057_Name"] = "Necrotic Wake: A Paragon's Plight";
 L["Quest_60057_Objective"] = "Defeat Amarth the Harvester and Nalthor the Rimebinder in the Necrotic Wake.";
 L["Quest_60057_Location"] = "Disciple Artemede (Bastion; "..YELLOW.."40.8, 55.2"..WHITE..")";
 L["Quest_60057_Note"] = "Quest turns in to Kalisthene at (Bastion; "..YELLOW.."51.0, 46.8"..WHITE..").";
-L["Quest_60057_RewardText"] = AQClassRewards;
+L["Quest_60057_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_60248_Name"] = "Trading Favors: Plaguefall";
 L["Quest_60248_Objective"] = "Obtain one of Stradama's Lost Ledgers from Margrave Stradama in Plaguefall.";
@@ -10157,7 +10157,7 @@ L["Quest_59520_Name"] = "Plaguefall: Knee Deep In It";
 L["Quest_59520_Objective"] = "Enter Plaguefall and recover 12 Poxedskin Samples and Margrave Stradama's Plasm.";
 L["Quest_59520_Location"] = "Vial Master Lurgy (Maldraxxus; "..YELLOW.."59.4, 72.8"..WHITE..")";
 L["Quest_59520_Note"] = "";
-L["Quest_59520_RewardText"] = AQClassRewards;
+L["Quest_59520_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_60246_Name"] = "Trading Favors: Tirna Scithe";
 L["Quest_60246_Objective"] = "Obtain an Engorged Gorm Larva from Tred'ova in the Mists of Tirna Scithe.";
@@ -10175,7 +10175,7 @@ L["Quest_62371_Name"] = "Tirna Scithe: A Warning Silence";
 L["Quest_62371_Objective"] = "Defeat Tred'ova in The Mists of Tirna Scithe.";
 L["Quest_62371_Location"] = "Flwngyrr (Ardenweald; "..YELLOW.."48.4, 50.4"..WHITE..")";
 L["Quest_62371_Note"] = "";
-L["Quest_62371_RewardText"] = AQClassRewards;
+L["Quest_62371_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_60244_Name"] = "Trading Favors: Halls of Atonement";
 L["Quest_60244_Objective"] = "Obtain the Tome of Dredger Alchemy from Lord Chamberlain in the Halls of Atonement.";
@@ -10244,7 +10244,7 @@ L["Quest_58798_Name"] = "The Spires of Ascension";
 L["Quest_58798_Objective"] = "Kill Devos, Paragon of Doubt in the Spires of Ascension.";
 L["Quest_58798_Location"] = "Kleia (Bastion - Elysian Hold; "..YELLOW.."66.4, 16.6"..WHITE..")";
 L["Quest_58798_Note"] = "Part of the Kyrian Convenant story questline.  Devos is the final boss in the dungeon.";
-L["Quest_58798_RewardText"] = WHITE.."1"..AQ_AND..AQITEM_RENOWN;
+L["Quest_58798_RewardText"] = WHITE.."1"..AQ_AND..AQ_RENOWN;
 L["Quest_58798_PreQuest"] = "Trial of Ascension -> Forged by Trial";
 
 L["Quest_60243_Name"] = "Trading Favors: Sanguine Depths";
@@ -10275,7 +10275,7 @@ L["Quest_31207_Name"] = "The Arena of Annihilation";
 L["Quest_31207_Objective"] = "Enter and complete the Arena of Annihilation scenario. Afterwards, collect your reward from Wodin the Troll-Servant.";
 L["Quest_31207_Location"] = "Gurgthock (Kun-Lai Summit - Temple of the White Tiger; "..YELLOW.."68.6, 48.4"..WHITE..")";
 L["Quest_31207_Note"] = "Wodin the Troll-Servant appears after you complete the scenario.";
-L["Quest_31207_RewardText"] = AQClassRewards;
+L["Quest_31207_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31611_Name"] = "The Kun-Lai Kicker";
 L["Quest_31611_Objective"] = "Protect the Brewmoon Festival.";

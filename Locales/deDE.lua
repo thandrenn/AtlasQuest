@@ -10,14 +10,14 @@ local BLUE = "|cff0070dd";
 local YELLOW = "|cffFFd200";
 local PREV = "|r";
 
-local AQGARRISON = "(Garnision - Mondsturzgasthaus oder Frostwallschenke)"
-local AQGARRISONRESOURCES = " Garnisionsressourcen"
-local AQAPEXISCRYSTAL = " Apexiskristall"
-local AQORDERRESOURCES = " Ordensressourcen"
-local AQVEILEDARGUNITE = " Verschleierter Argunit"
-local AQAZERITE = " Azerit";
-local AQClassRewards = BLUE.." Belohnung je nach Klasse."
-local AQITEM_RENOWN = " Ruhm";
+local AQ_GARRISON = "(Garnision - Mondsturzgasthaus oder Frostwallschenke)"
+local AQ_GARRISONRESOURCES = " Garnisionsressourcen"
+local AQ_APEXISCRYSTAL = " Apexiskristall"
+local AQ_ORDERRESOURCES = " Ordensressourcen"
+local AQ_VEILEDARGUNITE = " Verschleierter Argunit"
+local AQ_AZERITE = " Azerit";
+local AQ_CLASSREWARDS = WHITE.." Variiert für jede Klasse"
+local AQ_RENOWN = "Ruhm";
 local AQ_WORLDDUNGEONQUEST = "Dies ist eine Weltquest.  Wenn diese Aktiv ist (Du kannst das in der Map sehen ob diese aktiv ist), betrete die Instanz.  Wenn Du die Instanz beendest, wird die Quest automatisch abgeschlossen.  Diese Quest gibt Dir Rufbelohnung und manchmal auch ein Gegenstand."
 
 local AQ_OR = GREY.." oder ";
@@ -3346,7 +3346,7 @@ L["Quest_27790_Name"] = "Die Nummer Eins der Defias";
 L["Quest_27790_Objective"] = "Töter die Nummer Eins der Defias.";
 L["Quest_27790_Location"] = "Leutnant Horatio Laine (Todesmine; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27790_Note"] = "Diese Quest bekommst Du automatisch nachdem Du den Mastraum betreten hast.\n\n'Kapitän' Krümel ist der finale Endboss (auf normal) und ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_27790_RewardText"] = AQClassRewards;
+L["Quest_27790_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_27790_PreQuest"] = "Der Admiral";
 
 L["Quest_27842_Name"] = "Erst der Anfang";
@@ -3378,7 +3378,7 @@ L["Quest_27850_Name"] = "Die Nummer Eins der Defias";
 L["Quest_27850_Objective"] = "Töter die Nummer Eins der Defias.";
 L["Quest_27850_Location"] = "Kagtha (Todesminen; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27850_Note"] = "Diese Quest bekommst Du automatisch nachdem Du den Mastraum betreten hast.\n\n'Kapitän' Krümel ist der finale Endboss (auf normal) und ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_27850_RewardText"] = AQClassRewards;
+L["Quest_27850_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_27850_PreQuest"] = "Gute Absichten...Schlechte Durchführung";
 
 L["Quest_26872_Name"] = "Deviatbälge";
@@ -3422,7 +3422,7 @@ L["Quest_30996_Name"] = "Die Dunkelschamanen";
 L["Quest_30996_Objective"] = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth.";
 L["Quest_30996_Location"] = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_30996_Note"] = "Dunkelschamane Koranthal befindet sich bei "..YELLOW.."[2]"..WHITE.." und Lavawache Gordoth befindet sich bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_30996_RewardText"] = AQClassRewards;
+L["Quest_30996_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31037_Name"] = "Feinde im Untergrund";
 L["Quest_31037_Objective"] = "Sprecht mit Kommandant Bagran.";
@@ -4102,7 +4102,7 @@ L["Quest_31516_Name"] = "Und zum Staub werdet Ihr zurückkehren (Heroisch)";
 L["Quest_31516_Objective"] = "Durchbohrt mit den Klingen des Gesalbten den Leichnam der Hochinquisitorin Weißsträhne, um sie endgültig zu töten.";
 L["Quest_31516_Location"] = "Findet statt im Kapellengarten";
 L["Quest_31516_Note"] = "Hochinquisitorin Weißsträhne ist bei "..YELLOW.."[3]"..WHITE..". Nach Beendigung der Quest, wird Lilian Voss erscheinen um die Quest abgeben zu können.";
-L["Quest_31516_RewardText"] = AQClassRewards;
+L["Quest_31516_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_31516_PreQuest"] = "Die Klingen des Gesalbten";
 
 L["Quest_31490_Name"] = "Gegen das Fußvolk";
@@ -4127,7 +4127,7 @@ L["Quest_31497_Name"] = "Im Namen von Sicherheit und Ordnung (Heroisch)";
 L["Quest_31497_Objective"] = "Holt Euch den Kodex des Kreuzzugs.";
 L["Quest_31497_Location"] = "Vermummte Kreuzfahrerin (Scharlachrote Hallen; "..GREEN.."1'"..WHITE..")";
 L["Quest_31497_Note"] = "Der Kodex des Kreuzzugs droppt von Flammenwirker Koegler bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31497_RewardText"] = AQClassRewards;
+L["Quest_31497_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31440_Name"] = "Die vier Bände";
 L["Quest_31440_Objective"] = "Vernichtet die vier Folianten: 'Im Schatten des Lichts', 'Kel'Thuzads tiefgründiges Wissen', 'Verbotene Riten und andere nekromantische Rituale' und 'Der dunkle Zauberfoliant'.";
@@ -4151,7 +4151,7 @@ L["Quest_31448_Name"] = "Dem Leiden ein Ende (Heroisch)";
 L["Quest_31448_Objective"] = "Tötet Dunkelmeister Gandling.";
 L["Quest_31448_Location"] = "Sprechender Schädel (Scholomance; "..GREEN.."1'"..WHITE..")";
 L["Quest_31448_Note"] = "Dunkelmeister Gandling ist bei "..YELLOW.."[6]"..WHITE..".";
-L["Quest_31448_RewardText"] = AQClassRewards;
+L["Quest_31448_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_28756_Name"] = "Entartung des Knochens";
 L["Quest_28756_Objective"] = "Tötet Blutrippe im Ossuarium von Scholomance.";
@@ -4673,7 +4673,7 @@ L["Quest_50336_Name"] = "Das G-Team";
 L["Quest_50336_Objective"] = "Tötet Robogenieur Thermadraht.";
 L["Quest_50336_Location"] = "Fähs (Gnomeregan; "..GREEN.."[4']"..WHITE..")";
 L["Quest_50336_Note"] = "Robogenieur Thermadraht ist bei "..YELLOW.."[5]"..WHITE..".Gebe die Quest bei Hann Ibal "..GREEN.."[5']"..WHITE.." ab.";
-L["Quest_50336_RewardText"] = AQClassRewards;
+L["Quest_50336_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_50336_PreQuest"] = "Das G-Team";
 
 L["Quest_2949_Name"] = "Schmutzverkrusteter Ring";
@@ -6717,13 +6717,13 @@ L["Quest_31357_Name"] = "Relikte der Vier Könige";
 L["Quest_31357_Objective"] = "Beschafft die Laterne des Zaubererkönigs, die Waage von König Meng dem Irren, Qiangs 'Die Wissenschaft des Krieges' und Subetais Bogen des Schnellen.";
 L["Quest_31357_Location"] = "Sinan die Träumerin (Mogu'shanpalast; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31357_Note"] = "Alle Gegenstände befinden sich im Gewölbe des Königs zwischen dem ersten und zweiten Boss.";
-L["Quest_31357_RewardText"] = AQClassRewards;
+L["Quest_31357_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31360_Name"] = "Eine neue Lektion für den Meister";
 L["Quest_31360_Objective"] = "Tötet Xin den Waffenmeister.";
 L["Quest_31360_Location"] = "Sinan die Träumerin (Mogu'shanpalast; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31360_Note"] = "Xin der Waffenmeister ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_31360_RewardText"] = AQClassRewards;
+L["Quest_31360_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31031_Name"] = "Ins Kloster";
 L["Quest_31031_Objective"] = "Trefft Ban Bärenherz im Shado-Pan-Kloster.";
@@ -6737,14 +6737,14 @@ L["Quest_30757_Name"] = "Der Herr der Shado-Pan";
 L["Quest_30757_Objective"] = "Befreit Taran Zhu vom Sha des Hasses.";
 L["Quest_30757_Location"] = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_30757_Note"] = "Taran Zhu ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_30757_RewardText"] = AQClassRewards;
+L["Quest_30757_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_30757_PreQuest"] = "Unglaublich! -> Ins Kloster";
 
 L["Quest_31342_Name"] = "Der Weg zum Respekt liegt in der Gewalt";
 L["Quest_31342_Objective"] = "Tötet das Sha der Gewalt.";
 L["Quest_31342_Location"] = "Meister Schneewehe (Shado-Pan-Kloster - Versiegelte Kammer; "..BLUE.."70.0, 49.4"..WHITE..")";
 L["Quest_31342_Note"] = "Das Sha der Gewalt ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_31342_RewardText"] = AQClassRewards;
+L["Quest_31342_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_30085_Name"] = "In die Brauerrei";
 L["Quest_30085_Objective"] = "Sprecht mit Chen Sturmbräu in der Brauerei Sturmbräu.";
@@ -6758,14 +6758,14 @@ L["Quest_31327_Name"] = "Ärger aus dem Fass";
 L["Quest_31327_Objective"] = "Tötet Yan-Zhu den Dekantierten.";
 L["Quest_31327_Location"] = "Chen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31327_Note"] = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_31327_RewardText"] = AQClassRewards;
+L["Quest_31327_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_31327_PreQuest"] = "In der Brauerei";
 
 L["Quest_31324_Name"] = "Familiengeheimnisse";
 L["Quest_31324_Objective"] = "Sammelt 5 Geheimnisse der Sturmbräus.";
 L["Quest_31324_Location"] = "Tantchen Sturmbräu (Brauerei Sturmbräu; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31324_Note"] = "Die Bücher der Geheimnisse sind überall in der Instanz verteilt.";
-L["Quest_31324_RewardText"] = AQClassRewards;
+L["Quest_31324_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_33024_Name"] = "Das ist eine echte Maßeinheit?";
 L["Quest_33024_Objective"] = "Baut einen Nudelwagen und sammelt 20 Schluck Gebräu von erschlagenen Bierlementaren in der Brauerei Sturmbräu.";
@@ -6779,13 +6779,13 @@ L["Quest_31355_Name"] = "Wiederherstellung der Reinheit";
 L["Quest_31355_Objective"] = "Helft dem Weisen Mari, Liu Flammenherz und Lehrensucher Steinschritt bei ihren Sha-Problemen.";
 L["Quest_31355_Location"] = "Priesterin Sommerblatt (Tempel der Jadeschlange; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31355_Note"] = "Der Weise Mari ist bei "..YELLOW.."[1]"..WHITE..".\n Lehrensucher Steinschritt ist bei "..YELLOW.."[2]"..WHITE..".\n Liu Flammenherz ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_31355_RewardText"] = AQClassRewards;
+L["Quest_31355_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31356_Name"] = "Tiefe Zweifel, tiefe Weisheit";
 L["Quest_31356_Objective"] = "Tötet den Sha des Zweifels.";
 L["Quest_31356_Location"] = "Meister Windstark (Tempel der Jadeschlange; "..BLUE.."Eintgang"..WHITE..")";
 L["Quest_31356_Note"] = "Das Sha des Zweifels ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31356_RewardText"] = AQClassRewards;
+L["Quest_31356_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_33020_Name"] = "Das verlorene Geheimnis der Geheimzutat";
 L["Quest_33020_Objective"] = "Besiegt das Sha des Zweifels.";
@@ -6813,7 +6813,7 @@ L["Quest_31364_Name"] = "Was für ein Brocken!";
 L["Quest_31364_Objective"] = "Tötet Raigonn.";
 L["Quest_31364_Location"] = "Bogenmeisterin Li (Das Tor der Untergehenden Sonne; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31364_Note"] = "Raigonn ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31364_RewardText"] = AQClassRewards;
+L["Quest_31364_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31365_Name"] = "Irgendwo da drinnen";
 L["Quest_31365_Objective"] = "Rettet 12 gefangene Shado-Pan.";
@@ -6825,7 +6825,7 @@ L["Quest_31366_Name"] = "Schaltet den Schwadronsführer aus";
 L["Quest_31366_Objective"] = "Tötet Schwadronsführer Ner'onok.";
 L["Quest_31366_Location"] = "Shado-Master Chum Kiu (Belagerung des Niuzaotempels; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31366_Note"] = "Schwadronsführer Ner'onok ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31366_RewardText"] = AQClassRewards;
+L["Quest_31366_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_32599_Name"] = "Zukunftssicherung";
 L["Quest_32599_Objective"] = "Besiegt den Donnerkönig in der Spitze der Stürme und benutzt Antonidas' Stab, um seiner Estrade die restliche Macht zu entziehen.";
@@ -6929,31 +6929,31 @@ L["Quest_33377_FollowQuest"] = "Das Schicksal herausfordern";
 
 L["Quest_37146_Name"] = "Apport";
 L["Quest_37146_Objective"] = "Besorgt eine Alptraumglocke aus Auchindoun.";
-L["Quest_37146_Location"] = "Johnny Imba "..AQGARRISON;
+L["Quest_37146_Location"] = "Johnny Imba "..AQ_GARRISON;
 L["Quest_37146_Note"] = "Die Alptraumglocke befindet sich, in der mitte des Ganges, links an der Wand zwischen dem zweiten "..YELLOW.."[2]"..WHITE.." und dem dritten "..YELLOW.."[3]"..WHITE.." Boss.";
 L["Quest_37146_RewardText"] = WHITE.."1";
 
 L["Quest_37156_Name"] = "Der Seelenschnitter";
 L["Quest_37156_Objective"] = "Beschafft eine Seelenschnittklinge aus Auchindoun.";
-L["Quest_37156_Location"] = "Lilian Voss "..AQGARRISON;
+L["Quest_37156_Location"] = "Lilian Voss "..AQ_GARRISON;
 L["Quest_37156_Note"] = "Nur im heroischen Modus.  Die Seelenschnittklinge kann am Brunnen rechts von der ersten Kreuzung gefunden werden.  Du kannst sie finden ohne einen Gegner zu töten oder die Instanz zu starten\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37156_RewardText"] = WHITE.."1";
 
 L["Quest_37232_Name"] = "Seelenschnitzerin Voss";
 L["Quest_37232_Objective"] = "Beschafft eine Seelenschnittklinge aus Auchindoun.";
-L["Quest_37232_Location"] = "Lilian Voss "..AQGARRISON;
+L["Quest_37232_Location"] = "Lilian Voss "..AQ_GARRISON;
 L["Quest_37232_Note"] = "Nur im heroischen Modus.  Die Seelenschnittklinge kann am Brunnen rechts von der ersten Kreuzung gefunden werden "..YELLOW.."[3]"..WHITE.." Boss.\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37232_RewardText"] = WHITE.."1";
 
 L["Quest_37154_Name"] = "Ein Heilmittel gegen den Tod";
 L["Quest_37154_Objective"] = "Besorgt ein Seelenflechtgefäß in Auchindoun.";
-L["Quest_37154_Location"] = "Leonidas Bartholomäus der Geachtete "..AQGARRISON;
+L["Quest_37154_Location"] = "Leonidas Bartholomäus der Geachtete "..AQ_GARRISON;
 L["Quest_37154_Note"] = "Nur im heroischen Modus.  Das Seelengeflecht befindet sich auf der linken Seite der Plattform mit dem ersten Boss bei "..YELLOW.."[1]"..WHITE..".\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37154_RewardText"] = WHITE.."1";
 
 L["Quest_37233_Name"] = "Gefäß der Tugend";
 L["Quest_37233_Objective"] = "Besorgt ein Seelenflechtgefäß in Auchindoun.";
-L["Quest_37233_Location"] = "Leonidas Bartholomäus der Geachtete "..AQGARRISON;
+L["Quest_37233_Location"] = "Leonidas Bartholomäus der Geachtete "..AQ_GARRISON;
 L["Quest_37233_Note"] = "Nur im heroischen Modus.  Das Seelengeflecht befindet sich auf der linken Seite der Plattform mit dem ersten Boss bei "..YELLOW.."[1]"..WHITE..".\n\nDu musst den Endboss Teron'gor bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37233_RewardText"] = WHITE.."1";
 
@@ -6961,13 +6961,13 @@ L["Quest_37796_Name"] = "Auchindoun";
 L["Quest_37796_Objective"] = "Bezwingt Teron'gor in Auchindoun.";
 L["Quest_37796_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_37796_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nTeron'gor ist der Endboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37796_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37796_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37780_Name"] = "Auchindoun";
 L["Quest_37780_Objective"] = "Bezwingt Teron'gor in Auchindoun.";
 L["Quest_37780_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_37780_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nTeron'gor ist der Endboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37780_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37780_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_36316_Name"] = "Der Sieg ist nahe";
 L["Quest_36316_Objective"] = "Holt einen Windsturm in der Flasche von der Himmelsnadel.";
@@ -6978,7 +6978,7 @@ L["Quest_36316_PreQuest"] = "Auf schwarzen Schwingen-> Wege des Ruhms";
 
 L["Quest_37147_Name"] = "Himmelstänzer";
 L["Quest_37147_Objective"] = "Tötet Ranjit, Araknath, Rukhran und den obersten Weisen Viryx in der Himmelsnadel.";
-L["Quest_37147_Location"] = "Taoshi "..AQGARRISON;
+L["Quest_37147_Location"] = "Taoshi "..AQ_GARRISON;
 L["Quest_37147_Note"] = "Der Windsturm in der Flasche befindet sich auf der Plattform vom dritten Boss bei "..YELLOW.."[3]"..WHITE..".\n\nDu musst den Endboss obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37147_RewardText"] = WHITE.."1";
 L["Quest_37147_PreQuest"] = "Ruf des Erzmagiers";
@@ -6986,25 +6986,25 @@ L["Quest_37147_FollowQuest"] = "Khadgars Aufgabe";
 
 L["Quest_37159_Name"] = "Avianas Anfrage";
 L["Quest_37159_Objective"] = "Sammelt makelloses Gefieder in Himmelsnadel.";
-L["Quest_37159_Location"] = "Himmelsfürst Omnuron "..AQGARRISON;
+L["Quest_37159_Location"] = "Himmelsfürst Omnuron "..AQ_GARRISON;
 L["Quest_37159_Note"] = "Nur im heroischen Modus.  Das Makelloses Gefieder befindet in der nähe von Töpfen am Eingang der Instanz.\n\nDu musst den Endboss obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37159_RewardText"] = WHITE.."1";
 
 L["Quest_37158_Name"] = "Das glorreiche Glühen";
 L["Quest_37158_Objective"] = "Beschafft einen Sonnenkristall in Himmelsnadel.";
-L["Quest_37158_Location"] = "Sonnenläufer Dezco "..AQGARRISON;
+L["Quest_37158_Location"] = "Sonnenläufer Dezco "..AQ_GARRISON;
 L["Quest_37158_Note"] = "Nur im heroischen Modus.  Nach der Tötung des 1. Bosses und nach der Besteigung der Stufen findest du den Sonnenkristall auf einen Tisch.\n\nDu musst den Endboss obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37158_RewardText"] = WHITE.."1";
 
 L["Quest_37234_Name"] = "Die innere Finsternis";
 L["Quest_37234_Objective"] = "Beschafft einen Sonnenkristall in Himmelsnadel.";
-L["Quest_37234_Location"] = "Sonnenläufer Dezco "..AQGARRISON;
+L["Quest_37234_Location"] = "Sonnenläufer Dezco "..AQ_GARRISON;
 L["Quest_37234_Note"] = "Nur im heroischen Modus.  Nach der Tötung des 1. Bosses und nach der Besteigung der Stufen findest du den Sonnenkristall auf einen Tisch.\n\nDu musst den Endboss obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37234_RewardText"] = WHITE.."1";
 
 L["Quest_37235_Name"] = "Bitte an den Himmel";
 L["Quest_37235_Objective"] = "Sammle makelloses Gefieder in Himmelsnadel.";
-L["Quest_37235_Location"] = "Himmelsfürst Omnuron "..AQGARRISON;
+L["Quest_37235_Location"] = "Himmelsfürst Omnuron "..AQ_GARRISON;
 L["Quest_37235_Note"] = "Nur im heroischen Modus.  Das Makelloses Gefieder befindet in der nähe von Töpfen am Eingang der Instanz.\n\nDu musst den Endboss obersten Weisen Viryx bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37235_RewardText"] = WHITE.."1";
 
@@ -7012,41 +7012,41 @@ L["Quest_37791_Name"] = "Himmelsnadel";
 L["Quest_37791_Objective"] = "Bezwingt die Oberste Weise Viryx auf der Himmelsnadel.";
 L["Quest_37791_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_37791_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nOberste Weise Viryx ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37791_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37791_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37785_Name"] = "Himmelsnadel";
 L["Quest_37785_Objective"] = "Bezwingt die Oberste Weise Viryx auf der Himmelsnadel.";
 L["Quest_37785_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_37785_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nOberste Weise Viryx ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37785_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37785_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37142_Name"] = "Ogervorfahren";
 L["Quest_37142_Objective"] = "Beschafft einen Ogerstammbaum aus der Blutschlägermine.";
-L["Quest_37142_Location"] = "Lunk "..AQGARRISON;
+L["Quest_37142_Location"] = "Lunk "..AQ_GARRISON;
 L["Quest_37142_Note"] = "Wenn Du den Pfad zum Sklavenwächter Crushto lang gehst bei "..YELLOW.."[2]"..WHITE..", der Ogerbaumstamm befindet sich in einer kleinen Nische bevor Du den Bossraum betritts.\n\nDu musst den Endboss Gug'rokk bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37142_RewardText"] = WHITE.."1";
 
 L["Quest_37152_Name"] = "Cros Rache";
 L["Quest_37152_Objective"] = "Besorgt einen riesigen Ogerkopf aus der Blutschlägermine.";
-L["Quest_37152_Location"] = "Cro Dickfädel "..AQGARRISON;
+L["Quest_37152_Location"] = "Cro Dickfädel "..AQ_GARRISON;
 L["Quest_37152_Note"] = "Nur im heroischen Modus.  Der riesige Ogerkopf droppt von den Bultschlägerogern.\n\nDu musst den Endboss Gug'rokk bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37152_RewardText"] = WHITE.."1";
 
 L["Quest_37228_Name"] = "Ein fruchtbarer Vorschlag";
 L["Quest_37228_Objective"] = "Besorgt einen riesigen Ogerkopf aus der Blutschlägermine.";
-L["Quest_37228_Location"] = "Cro Dickfädel "..AQGARRISON;
+L["Quest_37228_Location"] = "Cro Dickfädel "..AQ_GARRISON;
 L["Quest_37228_Note"] = "Nur im heroischen Modus.  Der riesige Ogerkopf droppt von den Bultschlägerogern.\n\nDu musst den Endboss Gug'rokk bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37228_RewardText"] = WHITE.."1";
 
 L["Quest_37153_Name"] = "Zeitverlorene Wikinger";
 L["Quest_37153_Objective"] = "Holt Olafs Schild aus der Blutschlägermine.";
-L["Quest_37153_Location"] = "Olaf "..AQGARRISON;
+L["Quest_37153_Location"] = "Olaf "..AQ_GARRISON;
 L["Quest_37153_Note"] = "Nur im heroischen Modus.  Olafs Schild befindet sich auf den Weg zum Boss Magmolatus "..YELLOW.."[1]"..WHITE..", auf der Höhe zum Tunnel um zu den Boss zu gelangen.\n\nDu musst den Endboss Gug'rokk bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37153_RewardText"] = WHITE.."1";
 
 L["Quest_37229_Name"] = "Wie ein Zwerg in einem Bergwerk";
 L["Quest_37229_Objective"] = "Holt Olafs Schild aus der Blutschlägermine.";
-L["Quest_37229_Location"] = "Olaf "..AQGARRISON;
+L["Quest_37229_Location"] = "Olaf "..AQ_GARRISON;
 L["Quest_37229_Note"] = "Nur im heroischen Modus.  Olafs Schild befindet sich auf den Weg zum Boss Magmolatus "..YELLOW.."[1]"..WHITE..", auf der Höhe zum Tunnel um zu den Boss zu gelangen.\n\nDu musst den Endboss Gug'rokk bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37229_RewardText"] = WHITE.."1";
 
@@ -7054,41 +7054,41 @@ L["Quest_37795_Name"] = "Blutschlägermine";
 L["Quest_37795_Objective"] = "Bezwingt Gug'rokk in der Blutschlägermine.";
 L["Quest_37795_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_37795_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nGug'rokk ist der Endboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37795_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37795_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37781_Name"] = "Blutschlägermine";
 L["Quest_37781_Objective"] = "Bezwingt Gug'rokk in der Blutschlägermine.";
 L["Quest_37781_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_37781_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nGug'rokk ist der Endboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37781_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37781_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37145_Name"] = "Budds Schachzug";
 L["Quest_37145_Objective"] = "Holt in den Eisendocks ein verlockend glänzendes Etwas.";
-L["Quest_37145_Location"] = "Budd "..AQGARRISON;
+L["Quest_37145_Location"] = "Budd "..AQ_GARRISON;
 L["Quest_37145_Note"] = "Das verlockende glänzendes Etwas ist auf einem Holzkasten, dieser befindet sich auf den halben Weg zwischen dem zweiten und dritten Boss.\n\nDu musst den Endboss Skulloc bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37145_RewardText"] = WHITE.."1";
 
 L["Quest_37157_Name"] = "Ein wenig missgelaunt";
 L["Quest_37157_Objective"] = "Besorgt ein Fass schrecklich säurehaltiger Lösung von den Eisendocks.";
-L["Quest_37157_Location"] = "Moroes "..AQGARRISON;
+L["Quest_37157_Location"] = "Moroes "..AQ_GARRISON;
 L["Quest_37157_Note"] = "Nur im heroischen Modus.  Die schrecklich säurehaltiger Lösung ist in einer Flasche oben auf einem Fass, auf dem Weg zum zweiten Boss. Es wird empfohlen das kleine Minievent mit den Eisensternen zu starten!\n\nDu musst den Endboss Skulloc bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37157_RewardText"] = WHITE.."1";
 
 L["Quest_37230_Name"] = "Blutgeld";
 L["Quest_37230_Objective"] = "Besorgt ein Fass schrecklich säurehaltiger Lösung von den Eisendocks.";
-L["Quest_37230_Location"] = "Moroes "..AQGARRISON;
+L["Quest_37230_Location"] = "Moroes "..AQ_GARRISON;
 L["Quest_37230_Note"] = "Nur im heroischen Modus.  Die schrecklich säurehaltiger Lösung ist in einer Flasche oben auf einem Fass, auf dem Weg zum zweiten Boss. Es wird empfohlen das kleine Minievent mit den Eisensternen zu starten!\n\nDu musst den Endboss Skulloc bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37230_RewardText"] = WHITE.."1";
 
 L["Quest_37155_Name"] = "Der Messingkompass";
 L["Quest_37155_Objective"] = "Findet den Messingkompass an den Eisendocks.";
-L["Quest_37155_Location"] = "Flottenmeister Seehorn "..AQGARRISON;
+L["Quest_37155_Location"] = "Flottenmeister Seehorn "..AQ_GARRISON;
 L["Quest_37155_Note"] = "Nur im heroischen Modus.  Der Messingkompass liegt auf dem Boden vorne an Fässern in der Nähe vom ersten Boss bei "..YELLOW.."[1]"..WHITE..".\n\nDu musst den Endboss Skulloc bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37155_RewardText"] = WHITE.."1";
 
 L["Quest_37231_Name"] = "Die Suche geht weiter";
 L["Quest_37231_Objective"] = "Findet den Messingkompass an den Eisendocks.";
-L["Quest_37231_Location"] = "Flottenmeister Seehorn "..AQGARRISON;
+L["Quest_37231_Location"] = "Flottenmeister Seehorn "..AQ_GARRISON;
 L["Quest_37231_Note"] = "Nur im heroischen Modus.  Der Messingkompass liegt auf dem Boden vorne an Fässern in der Nähe vom ersten Boss bei "..YELLOW.."[1]"..WHITE..".\n\nDu musst den Endboss Skulloc bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37231_RewardText"] = WHITE.."1";
 
@@ -7096,53 +7096,53 @@ L["Quest_37793_Name"] = "Eisendocks";
 L["Quest_37793_Objective"] = "Bezwingt Skulloc in den Eisendocks.";
 L["Quest_37793_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_37793_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nSkulloc ist der Endboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37793_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37793_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37783_Name"] = "Eisendocks";
 L["Quest_37783_Objective"] = "Bezwingt Skulloc in den Eisendocks.";
 L["Quest_37783_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_37783_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nSkulloc ist der Endboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37783_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37783_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37150_Name"] = "Gut zu Vögeln";
 L["Quest_37150_Objective"] = "Sucht ein winziges Pfauenküken im Immergrünen Flor.";
-L["Quest_37150_Location"] = "Mylune "..AQGARRISON;
+L["Quest_37150_Location"] = "Mylune "..AQ_GARRISON;
 L["Quest_37150_Note"] = "Du kannst das winzige Pfauenküken auf den Boden finden südlich vom Xeritac's Baus bei den Koordinaten "..YELLOW.."55.4, 22.6"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37150_RewardText"] = WHITE.."1";
 
 L["Quest_37227_Name"] = "Einen Vogel haben";
 L["Quest_37227_Objective"] = "Sucht ein winziges Pfauenküken im Immergrünen Flor.";
-L["Quest_37227_Location"] = "Mylune "..AQGARRISON;
+L["Quest_37227_Location"] = "Mylune "..AQ_GARRISON;
 L["Quest_37227_Note"] = "Du kannst das winzige Pfauenküken auf den Boden finden südlich vom Xeritac's Baus bei den Koordinaten "..YELLOW.."55.4, 22.6"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37227_RewardText"] = WHITE.."1";
 
 L["Quest_37166_Name"] = "Titanenevolution";
 L["Quest_37166_Objective"] = "Besorgt ein überwuchertes Artefakt aus dem Immergrünen Flor.";
-L["Quest_37166_Location"] = "Lehrensucher Cho "..AQGARRISON;
+L["Quest_37166_Location"] = "Lehrensucher Cho "..AQ_GARRISON;
 L["Quest_37166_Note"] = "Nur im heroischen Modus.  Das überwuchte Artefakt ist südlich Teil der Instanz bei den Koordinaten "..YELLOW.."61.1, 66.3"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37166_RewardText"] = WHITE.."1";
 
 L["Quest_37241_Name"] = "Lektionen der Vergangenheit";
 L["Quest_37241_Objective"] = "Besorgt ein überwuchertes Artefakt aus dem Immergrünen Flor.";
-L["Quest_37241_Location"] = "Lehrensucher Cho "..AQGARRISON;
+L["Quest_37241_Location"] = "Lehrensucher Cho "..AQ_GARRISON;
 L["Quest_37241_Note"] = "Nur im heroischen Modus.  Das überwuchte Artefakt ist südlich Teil der Instanz bei den Koordinaten "..YELLOW.."61.1, 66.3"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37241_RewardText"] = WHITE.."1";
 
 L["Quest_37165_Name"] = "Cenarische Belange";
 L["Quest_37165_Objective"] = "Holt einen seltsam leuchtenden Wedel aus dem Immergrünen Flor.";
-L["Quest_37165_Location"] = "Zen'kiki "..AQGARRISON;
+L["Quest_37165_Location"] = "Zen'kiki "..AQ_GARRISON;
 L["Quest_37165_Note"] = "Nur im heroischen Modus.  Der seltsam leuchtende Wedel ist im grünen Wäldchen bei den Koordinaten "..YELLOW.."64.6, 21.0"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37165_RewardText"] = WHITE.."1";
 
 L["Quest_37240_Name"] = "Der Blattleser";
 L["Quest_37240_Objective"] = "Holt einen seltsam leuchtenden Wedel aus dem Immergrünen Flor.";
-L["Quest_37240_Location"] = "Zen'kiki "..AQGARRISON;
+L["Quest_37240_Location"] = "Zen'kiki "..AQ_GARRISON;
 L["Quest_37240_Note"] = "Nur im heroischen Modus.  Der seltsam leuchtende Wedel ist im grünen Wäldchen bei den Koordinaten "..YELLOW.."64.6, 21.0"..WHITE..".\n\nDu musst den Endboss Yalnu bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37240_RewardText"] = WHITE.."1";
 
 L["Quest_36813_Name"] = "Zersetzender Befall";
 L["Quest_36813_Objective"] = "Bergt Ausgelaugter immergrüner Samen, Forschung des Phylarchen und 3 verbrauchte immergrüne Samen aus dem Immergrünen Flor und bringt sie zu Phylarch dem Immergrünen.";
-L["Quest_36813_Location"] = "Phylarch der Immergrüne "..AQGARRISON;
+L["Quest_36813_Location"] = "Phylarch der Immergrüne "..AQ_GARRISON;
 L["Quest_36813_Note"] = "Der Ausgelaugter immergrüner Samen droppt vom Trash auf den Weg zu Bleichborke bei "..YELLOW.."[1]"..WHITE..".\n\nForschung des Phylarchen ist im Haus in der Nähe von Erzmagierin Sol "..YELLOW.."[3]"..WHITE.." bei den Koordinaten "..YELLOW.."62.4, 37.6"..WHITE..".\n\nXeri'tacs Giftdrüse droppt von Xeri'tac bei "..YELLOW.."[4]"..WHITE..".";
 L["Quest_36813_RewardText"] = WHITE.."1";
 
@@ -7150,47 +7150,47 @@ L["Quest_37790_Name"] = "Der immergrüne Flor";
 L["Quest_37790_Objective"] = "Bezwingt Yalnu im Immergrünen Flor.";
 L["Quest_37790_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_37790_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_37790_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37790_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37786_Name"] = "Der immergrüne Flor";
 L["Quest_37786_Objective"] = "Bezwingt Yalnu im Immergrünen Flor.";
 L["Quest_37786_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_37786_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nYalnu ist der Endboss bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_37786_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37786_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37160_Name"] = "Spalter!";
 L["Quest_37160_Objective"] = "Findet einen eisernen Gliedmaßenspalter im Grimmgleisdepot.";
-L["Quest_37160_Location"] = "Gamon "..AQGARRISON;
+L["Quest_37160_Location"] = "Gamon "..AQ_GARRISON;
 L["Quest_37160_Note"] = "Nur im heroischen Modus.  Du findest den eisernen Gliedmaßenspalter in der mitte des zweiten Waggons.\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37160_RewardText"] = WHITE.."1";
 
 L["Quest_37243_Name"] = "Mit geschliffener Axt";
 L["Quest_37243_Objective"] = "Findet einen eisernen Gliedmaßenspalter im Grimmgleisdepot.";
-L["Quest_37243_Location"] = "Gamon "..AQGARRISON;
+L["Quest_37243_Location"] = "Gamon "..AQ_GARRISON;
 L["Quest_37243_Note"] = "Nur im heroischen Modus.  Du findest den eisernen Gliedmaßenspalter in der mitte des zweiten Waggons.\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37243_RewardText"] = WHITE.."1";
 
 L["Quest_37167_Name"] = "Aber ja keine Streitkolben!";
 L["Quest_37167_Objective"] = "Beschafft eine riesige Waffenkiste im Grimmgleisdepot.";
-L["Quest_37167_Location"] = "Lonika Stillstreich "..AQGARRISON;
+L["Quest_37167_Location"] = "Lonika Stillstreich "..AQ_GARRISON;
 L["Quest_37167_Note"] = "Nur im heroischen Modus.  Die riesige Waffenkiste ist auf den Weg zum ersten Boss bei den Koordinaten "..YELLOW.."53.3, 39.1"..WHITE..".\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37167_RewardText"] = WHITE.."1";
 
 L["Quest_37242_Name"] = "Lernen tut weh";
 L["Quest_37242_Objective"] = "Beschafft eine riesige Waffenkiste im Grimmgleisdepot.";
-L["Quest_37242_Location"] = "Lonika Stillstreich "..AQGARRISON;
+L["Quest_37242_Location"] = "Lonika Stillstreich "..AQ_GARRISON;
 L["Quest_37242_Note"] = "Nur im heroischen Modus.  Die riesige Waffenkiste ist auf den Weg zum ersten Boss bei den Koordinaten "..YELLOW.."53.3, 39.1"..WHITE..".\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37242_RewardText"] = WHITE.."1";
 
 L["Quest_37151_Name"] = "Kalter Stahl";
 L["Quest_37151_Objective"] = "Findet eine Eiserne Autokanone im Grimmgleisdepot.";
-L["Quest_37151_Location"] = "John J. Keeshan "..AQGARRISON;
+L["Quest_37151_Location"] = "John J. Keeshan "..AQ_GARRISON;
 L["Quest_37151_Note"] = "Nur im heroischen Modus.  Du findest die eiserne Autokanone nach der Vernichtung des zweiten Bosses bei "..YELLOW.."[2]"..WHITE..".\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37151_RewardText"] = WHITE.."1";
 
 L["Quest_37209_Name"] = "Kalter Stahl, Teil II";
 L["Quest_37209_Objective"] = "Findet eine Eiserne Autokanone im Grimmgleisdepot.";
-L["Quest_37209_Location"] = "John J. Keeshan "..AQGARRISON;
+L["Quest_37209_Location"] = "John J. Keeshan "..AQ_GARRISON;
 L["Quest_37209_Note"] = "Nur im heroischen Modus.  Du findest die eiserne Autokanone nach der Vernichtung des zweiten Bosses bei "..YELLOW.."[2]"..WHITE..".\n\nDu musst den Endboss Himmelsfürstin Tovra bei "..YELLOW.."[3]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37209_RewardText"] = WHITE.."1";
 
@@ -7198,47 +7198,47 @@ L["Quest_37794_Name"] = "Grimmgleisdepot";
 L["Quest_37794_Objective"] = "Bezwingt Himmelsfürstin Tovra im Grimmgleisdepot.";
 L["Quest_37794_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_37794_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nHimmelsfürstin Tovra ist der Endboss bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_37794_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37794_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37782_Name"] = "Grimmgleisdepot";
 L["Quest_37782_Objective"] = "Bezwingt Himmelsfürstin Tovra im Grimmgleisdepot.";
 L["Quest_37782_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_37782_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nHimmelsfürstin Tovra ist der Endboss bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_37782_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37782_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37149_Name"] = "Das Leerentor";
 L["Quest_37149_Objective"] = "Findet einen Schlüssel zum Leerentor in der Schattenmondgrabstätte.";
-L["Quest_37149_Location"] = "Impsy "..AQGARRISON;
+L["Quest_37149_Location"] = "Impsy "..AQ_GARRISON;
 L["Quest_37149_Note"] = "Der Leerentorschlüssel ist ziemlich in der vom Eingang der Instanz.  Dieser befindet sich auf einem Sockel in einem Zimmer kurz nach den ersten Stufen bei den Koordinaten "..YELLOW.."37.4, 51.7"..WHITE..".\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37149_RewardText"] = WHITE.."1";
 
 L["Quest_37245_Name"] = "Geflüster in der Dunkelheit";
 L["Quest_37245_Objective"] = "Findet einen Schlüssel zum Leerentor in der Schattenmondgrabstätte.";
-L["Quest_37245_Location"] = "Impsy "..AQGARRISON;
+L["Quest_37245_Location"] = "Impsy "..AQ_GARRISON;
 L["Quest_37245_Note"] = "Der Leerentorschlüssel ist ziemlich in der vom Eingang der Instanz.  Dieser befindet sich auf einem Sockel in einem Zimmer kurz nach den ersten Stufen bei den Koordinaten "..YELLOW.."37.4, 51.7"..WHITE..".\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37245_RewardText"] = WHITE.."1";
 
 L["Quest_37163_Name"] = "Geheimnisse der Schatten";
 L["Quest_37163_Objective"] = "Sammelt ein dunkles Pergament aus der Schattenmondgrabstätte.";
-L["Quest_37163_Location"] = "Hochlord Darion Mograine "..AQGARRISON;
+L["Quest_37163_Location"] = "Hochlord Darion Mograine "..AQ_GARRISON;
 L["Quest_37163_Note"] = "Nur im heroischen Modus.  Nach dem betreten der Instanz laufe den Gang hinunter.  Du wirst dann das dunkel Pergament  auf der linken Seite im ersten Raum auf den Boden finden.\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37163_RewardText"] = WHITE.."1";
 
 L["Quest_37238_Name"] = "Geheimnisse des Seelenbindens";
 L["Quest_37238_Objective"] = "Sammelt ein dunkles Pergament aus der Schattenmondgrabstätte.";
-L["Quest_37238_Location"] = "Hochlord Darion Mograine "..AQGARRISON;
+L["Quest_37238_Location"] = "Hochlord Darion Mograine "..AQ_GARRISON;
 L["Quest_37238_Note"] = "Nur im heroischen Modus.  Nach dem betreten der Instanz laufe den Gang hinunter.  Du wirst dann das dunkel Pergament  auf der linken Seite im ersten Raum auf den Boden finden.\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37238_RewardText"] = WHITE.."1";
 
 L["Quest_37164_Name"] = "Die Jägerinnen";
 L["Quest_37164_Objective"] = "Sammelt einen Silberspitzenpfeil aus der Schattenmondgrabstätte.";
-L["Quest_37164_Location"] = "Geheimnisvolle Waldläuferin "..AQGARRISON;
+L["Quest_37164_Location"] = "Geheimnisvolle Waldläuferin "..AQ_GARRISON;
 L["Quest_37164_Note"] = "Nur im heroischen Modus.  Der Silberspitzenpfeil befindet sich auf dem Altar nachdem Du Nhallish besiegt hast bei "..YELLOW.."[2]"..WHITE..".\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37164_RewardText"] = WHITE.."1";
 
 L["Quest_37239_Name"] = "Schicksal des Gefallenen";
 L["Quest_37239_Objective"] = "Sammelt einen Silberspitzenpfeil aus der Schattenmondgrabstätte.";
-L["Quest_37239_Location"] = "Geheimnisvolle Waldläuferin "..AQGARRISON;
+L["Quest_37239_Location"] = "Geheimnisvolle Waldläuferin "..AQ_GARRISON;
 L["Quest_37239_Note"] = "Nur im heroischen Modus.  Der Silberspitzenpfeil befindet sich auf dem Altar nachdem Du Nhallish besiegt hast bei "..YELLOW.."[2]"..WHITE..".\n\nDu musst den Endboss Ner'zhul bei "..YELLOW.."[4]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37239_RewardText"] = WHITE.."1";
 
@@ -7246,53 +7246,53 @@ L["Quest_37792_Name"] = "Schattenmondgrabstätte";
 L["Quest_37792_Objective"] = "Bezwingt Ner'zhul in der Schattenmondgrabstätte.";
 L["Quest_37792_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_37792_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nNer'zhul ist der Endboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37792_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37792_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37784_Name"] = "Schattenmondgrabstätte";
 L["Quest_37784_Objective"] = "Bezwingt Ner'zhul in der Schattenmondgrabstätte.";
 L["Quest_37784_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_37784_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nNer'zhul ist der Endboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_37784_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37784_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37148_Name"] = "Oralius' Abenteuer";
 L["Quest_37148_Objective"] = "Fangt an der Oberen Schwarzfelsspitze eine Flammenfliege der Spitze.";
-L["Quest_37148_Location"] = "Oralius "..AQGARRISON;
+L["Quest_37148_Location"] = "Oralius "..AQ_GARRISON;
 L["Quest_37148_Note"] = "Die Flammenfliege der Spitze ist auf einem Fass oberhalb der Rampe nachdem Du die Instanz betreten hast.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37148_RewardText"] = WHITE.."1";
 
 L["Quest_37244_Name"] = "Flammenfliegenfalle";
 L["Quest_37244_Objective"] = "Fangt an der Oberen Schwarzfelsspitze eine Flammenfliege der Spitze.";
-L["Quest_37244_Location"] = "Oralius "..AQGARRISON;
+L["Quest_37244_Location"] = "Oralius "..AQ_GARRISON;
 L["Quest_37244_Note"] = "Die Flammenfliege der Spitze ist auf einem Fass oberhalb der Rampe nachdem Du die Instanz betreten hast.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37244_RewardText"] = WHITE.."1";
 
 L["Quest_37161_Name"] = "Familientraditionen";
 L["Quest_37161_Objective"] = "Findet Finkles verbesserten Kürschner an der Schwarzfelsspitze.";
-L["Quest_37161_Location"] = "Finkle Einhorn "..AQGARRISON;
+L["Quest_37161_Location"] = "Finkle Einhorn "..AQ_GARRISON;
 L["Quest_37161_Note"] = "Nur im heroischen Modus.  Finkles verbesserten Kürschner ist auf dem Boden in der Nähe von Knochen in dem Raum wo sich der zweite Boss Kyrak"..YELLOW.."[2]"..WHITE.." befindet.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37161_RewardText"] = WHITE.."1";
 
 L["Quest_37236_Name"] = "Wie der Vater so der Sohn";
 L["Quest_37236_Objective"] = "Findet Finkles verbesserten Kürschner an der Schwarzfelsspitze.";
-L["Quest_37236_Location"] = "Finkle Einhorn "..AQGARRISON;
+L["Quest_37236_Location"] = "Finkle Einhorn "..AQ_GARRISON;
 L["Quest_37236_Note"] = "Nur im heroischen Modus.  Finkles verbesserten Kürschner ist auf dem Boden in der Nähe von Knochen in dem Raum wo sich der zweite Boss Kyrak"..YELLOW.."[2]"..WHITE.." befindet.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37236_RewardText"] = WHITE.."1";
 
 L["Quest_37162_Name"] = "Damen und Drachen";
 L["Quest_37162_Objective"] = "Sammelt eine abgestoßene Protodrachenklaue.";
-L["Quest_37162_Location"] = "Maximillian von Nordhain "..AQGARRISON;
+L["Quest_37162_Location"] = "Maximillian von Nordhain "..AQ_GARRISON;
 L["Quest_37162_Note"] = "Nur im heroischen Modus.  Die abgestoßene Drachenklaue ist vor dem Tor in dem Raum wo Du gegen Kommandant Tharbek "..YELLOW.."[3]"..WHITE.." kämpfst.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37162_RewardText"] = WHITE.."1";
 
 L["Quest_37237_Name"] = "Die Suche eines Helden endet nie";
 L["Quest_37237_Objective"] = "Sammelt eine abgestoßene Protodrachenklaue.";
-L["Quest_37237_Location"] = "Maximillian von Nordhain "..AQGARRISON;
+L["Quest_37237_Location"] = "Maximillian von Nordhain "..AQ_GARRISON;
 L["Quest_37237_Note"] = "Nur im heroischen Modus.  Die abgestoßene Drachenklaue ist vor dem Tor in dem Raum wo Du gegen Kommandant Tharbek "..YELLOW.."[3]"..WHITE.." kämpfst.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37237_RewardText"] = WHITE.."1";
 
 L["Quest_37179_Name"] = "Ein Herz für Kinder!";
 L["Quest_37179_Objective"] = "Holt einen eisernen Miniaturstern von der Oberen Schwarzfelsspitze.";
-L["Quest_37179_Location"] = "Millhouse Manasturm "..AQGARRISON;
+L["Quest_37179_Location"] = "Millhouse Manasturm "..AQ_GARRISON;
 L["Quest_37179_Note"] = "Nur im heroischen Modus.  Der eiserne Miniaturstern ist im großen Raum bevor Du zum Endboss gelangst bei den Koordinaten "..YELLOW.."34.3, 54.2"..WHITE..".\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37179_RewardText"] = WHITE.."1";
 
@@ -7300,13 +7300,13 @@ L["Quest_37789_Name"] = "Obere Schwarzfelsspitze";
 L["Quest_37789_Objective"] = "Bezwingt Kriegsfürstin Zaela an der Oberen Schwarzfelsspitze.";
 L["Quest_37789_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_37789_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nKriegsfürstin Zaela ist der Endboss bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_37789_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37789_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37787_Name"] = "Obere Schwarzfelsspitze";
 L["Quest_37787_Objective"] = "Bezwingt Kriegsfürstin Zaela an der Oberen Schwarzfelsspitze.";
 L["Quest_37787_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_37787_Note"] = "Das ist eine von mehreren täglichen Quests die Du in Deiner Garnision bekommst.\nKriegsfürstin Zaela ist der Endboss bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_37787_RewardText"] = WHITE.."175"..AQGARRISONRESOURCES;
+L["Quest_37787_RewardText"] = WHITE.."175"..AQ_GARRISONRESOURCES;
 
 L["Quest_37766_Name"] = "Die Ummauerte Stadt: Farnspore";
 L["Quest_37766_Objective"] = "Bezwingt Farnspore in Hochfels.";
@@ -7396,31 +7396,31 @@ L["Quest_39250_Name"] = "Die Gruben des Mannoroth";
 L["Quest_39250_Objective"] = "Vernichtet Kormrok in der Höllenfeuerzitadelle.";
 L["Quest_39250_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_39250_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nKormrok ist der letzte Boss des ersten Flügels bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_39250_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39250_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39253_Name"] = "Schlund der Seelen";
 L["Quest_39253_Objective"] = "Vernichtet Blutschatten in der Höllenfeuerzitadelle.";
 L["Quest_39253_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_39253_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nBlutschatten ist der letzte Boss im zweiten Flügel bei "..YELLOW.."[6]"..WHITE..".";
-L["Quest_39253_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39253_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39256_Name"] = "Tempel der Tyrannei";
 L["Quest_39256_Objective"] = "Vernichtet Tyrannin Velhari in der Höllenfeuerzitadelle.";
 L["Quest_39256_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_39256_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nTyrannin Velhari ist der letzte boss im dritten Flügel bei "..YELLOW.."[9]"..WHITE..".";
-L["Quest_39256_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39256_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39259_Name"] = "Die Höhe des Zerstörers";
 L["Quest_39259_Objective"] = "Vernichtet Mannoroth in der Höllenfeuerzitadelle.";
 L["Quest_39259_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_39259_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nMannoroth ist der letzte Boss im vierten Flügel bei "..YELLOW.."[12]"..WHITE..".";
-L["Quest_39259_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39259_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39260_Name"] = "Das Schwarze Tor";
 L["Quest_39260_Objective"] = "Vernichtet Archimonde in der Höllenfeuerzitadelle.";
 L["Quest_39260_Location"] = "Muradin Bronzebart (Garnision - Hauptgebäude)";
 L["Quest_39260_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nArchimonde ist der Endboss des Schlachtzuges bei "..YELLOW.."[13]"..WHITE..".";
-L["Quest_39260_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39260_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39499_Name"] = "Brunnen der Seelen";
 L["Quest_39499_Objective"] = "Sammelt 4 Seelenrückstände von Blutschatten in der normalen Version der Höllenfeuerzitadelle.";
@@ -7451,31 +7451,31 @@ L["Quest_39221_Name"] = "Die Gruben des Mannoroth";
 L["Quest_39221_Objective"] = "Vernichtet Kormrok in der Höllenfeuerzitadelle.";
 L["Quest_39221_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_39221_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nKormrok ist der letzte Boss des ersten Flügels bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_39221_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39221_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39225_Name"] = "Schlund der Seelen";
 L["Quest_39225_Objective"] = "Vernichtet Blutschatten in der Höllenfeuerzitadelle.";
 L["Quest_39225_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_39225_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nBlutschatten ist der letzte Boss im zweiten Flügel bei "..YELLOW.."[6]"..WHITE..".";
-L["Quest_39225_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39225_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39228_Name"] = "Tempel der Tyrannei";
 L["Quest_39228_Objective"] = "Vernichtet Tyrannin Velhari in der Höllenfeuerzitadelle.";
 L["Quest_39228_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_39228_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nTyrannin Velhari ist der letzte boss im dritten Flügel bei "..YELLOW.."[9]"..WHITE..".";
-L["Quest_39228_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39228_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39231_Name"] = "Die Höhe des Zerstörers";
 L["Quest_39231_Objective"] = "Vernichtet Mannoroth in der Höllenfeuerzitadelle.";
 L["Quest_39231_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_39231_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nMannoroth ist der letzte Boss im vierten Flügel bei "..YELLOW.."[12]"..WHITE..".";
-L["Quest_39231_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39231_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_39232_Name"] = "Das Schwarze Tor";
 L["Quest_39232_Objective"] = "Vernichtet Archimonde in der Höllenfeuerzitadelle.";
 L["Quest_39232_Location"] = "Hochfürst Saurfang (Garnision - Hauptgebäude)";
 L["Quest_39232_Note"] = "Das ist eine von mehreren wöchentlichen Raidquests die Du in Deiner Garnision bekommst.  Diese Quest kann in jeglicher Raidschwierigkeitsstufe abgeschlossen werden.\nArchimonde ist der Endboss des Schlachtzuges bei "..YELLOW.."[13]"..WHITE..".";
-L["Quest_39232_RewardText"] = WHITE.."1000"..AQAPEXISCRYSTAL;
+L["Quest_39232_RewardText"] = WHITE.."1000"..AQ_APEXISCRYSTAL;
 
 L["Quest_43557_Name"] = "Violette Festung";
 L["Quest_43557_Objective"] = "Bezwingt den Anführer des Sturms auf die Violette Festung.";
@@ -7499,7 +7499,7 @@ L["Quest_44400_Name"] = "Fiasko in der Festung";
 L["Quest_44400_Objective"] = "Schlagt den Sturm auf die Violette Festung zurück.";
 L["Quest_44400_Location"] = "Leutnant Sinclari (Dalaran - Die Violette Festung; "..YELLOW.."66.3, 68.0"..WHITE..")";
 L["Quest_44400_Note"] = "Erledige die komplette Instanz und gebe die Quest am Eingang der Instanz wieder ab.";
-L["Quest_44400_RewardText"] = AQClassRewards;
+L["Quest_44400_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_40878_Name"] = "Von der Schippe springen";
 L["Quest_40878_Objective"] = "Stellt 2 Fehlschlagdetektorpylonen her. Besorgt dann in der Violetten Festung einen plasmatischen Laserriegel und bringt anschließend alles zu Didi Biegezange in Dalaran.";
@@ -7714,7 +7714,7 @@ L["Quest_40567_Name"] = "Den Alptraum betreten";
 L["Quest_40567_Objective"] = "Begebt Euch in das Finsterherzdickicht und tötet den Schemen von Xavius.";
 L["Quest_40567_Location"] = "Tyrande Wisperwind (Val'sharah - Der Tempel der Elune; "..YELLOW.."53.6, 55.8"..WHITE..")";
 L["Quest_40567_Note"] = "Diese Quest bekommst Du nach Beendigung der Questreihe von Ysera und Malfurion.  Das Schemen von Xavius ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_40567_RewardText"] = AQClassRewards;
+L["Quest_40567_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_40567_PreQuest"] = "Das Schicksal von Val'sharah";
 
 L["Quest_39882_Name"] = "Freundschaft gekündigt";
@@ -7795,7 +7795,7 @@ L["Quest_42213_Name"] = "Golganneths Gezeitenstein";
 L["Quest_42213_Objective"] = "Verwendet den zentralen Teleporter in Dalaran und platziert Golganneths Gezeitenstein dann in in der Porträtgalerie der Kammer des Wächters.";
 L["Quest_42213_Location"] = "Golganneths Gezeitenstein (Azsharas Zorn; "..YELLOW.."[5]"..WHITE..")";
 L["Quest_42213_Note"] = "Die Porträtgalerie befindet sich in der oberen Ebene von Dalaran und ist erreichbar über den Teleporter in der Mitte der Stadt.";
-L["Quest_42213_RewardText"] = AQClassRewards;
+L["Quest_42213_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_42213_PreQuest"] = "Azsharas Zorn";
 
 L["Quest_42719_Name"] = "Säuberung des Traumpfads";
@@ -7947,7 +7947,7 @@ L["Quest_43349_Name"] = "Die Aegis von Aggramar";
 L["Quest_43349_Objective"] = "Bringt die Aegis von Aggramar zur sicheren Verwahrung in die Kammer des Wächters in Dalaran.";
 L["Quest_43349_Location"] = "Die Aegis von Aggramar (Die Hallen der Tapferkeit; "..YELLOW.."[5]"..WHITE..")";
 L["Quest_43349_Note"] = "Nach Abschluss der vorherigen Quest, kannst Du die Quest in der Aegis von Aggramar beginnen.  Schließe diese Quest im Portrait-Raum auf der oberen Ebene von Dalaran ab, erreichbar über den Teleporter in der Mitte der Stadt.";
-L["Quest_43349_RewardText"] = AQClassRewards;
+L["Quest_43349_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_43349_PreQuest"] = "Die Aegis sichern";
 
 L["Quest_40877_Name"] = "Finger am Abzug";
@@ -8083,7 +8083,7 @@ L["Quest_43253_Name"] = "Uralte Vrykullegenden";
 L["Quest_43253_Objective"] = "Stellt eine Gruppe zusammen und bringt einen Abdruck der Rabenaugentafel mit auf die Naglfar, das Schiff der Toten.";
 L["Quest_43253_Location"] = "Valeera Sanguinar (Dalaran - Ordenshalle der Schurken; "..YELLOW.."40.6, 76.0"..WHITE..")";
 L["Quest_43253_Note"] = "Schurkenquest.  Du kannst den Abdruck im Laderaum des Schiffes erhalten.  Besorge dir den Abdruck, bevor ihr den Endboss angreift, da du nicht mehr zurückkehren kannst auf das Schiff.";
-L["Quest_43253_RewardText"] = WHITE.."250"..AQORDERRESOURCES;
+L["Quest_43253_RewardText"] = WHITE.."250"..AQ_ORDERRESOURCES;
 L["Quest_43253_PreQuest"] = "Blut für den Wolf";
 L["Quest_43253_FollowQuest"] = "Das Rabenauge";
 
@@ -8091,7 +8091,7 @@ L["Quest_43596_Name"] = "Im Nebel stochern";
 L["Quest_43596_Objective"] = "Besiegt Helya im Dungeon 'Der Seelenschlund' und kehrt danach zu Havi in Valdisdall zurück";
 L["Quest_43596_Location"] = "Havi (Sturmheim - Valdisdall; "..YELLOW.."60.2, 50.8"..WHITE..")";
 L["Quest_43596_Note"] = "Helya ist der Endboss in der Seelenschmiede bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_43596_RewardText"] = AQClassRewards;
+L["Quest_43596_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_39350_Name"] = "Hoffnung in Helheim";
 L["Quest_39350_Objective"] = "Besorgt eine Kiste mit Dragurstaub, stellt ein Fläschchen des Siebten Dämons her und bringt beide Gegenstände zu Alard in Dalaran.";
@@ -8164,7 +8164,7 @@ L["Quest_42454_Name"] = "Hammer von Khaz'goroth";
 L["Quest_42454_Objective"] = "Verwendet den zentralen Teleporter in Dalaran und platziert den Hammer von Khaz'goroth dann in Aegwynns Galerie.";
 L["Quest_42454_Location"] = "Hammer von Khaz'goroth (Neltharions Hort; "..YELLOW.."[]"..WHITE..")";
 L["Quest_42454_Note"] = "Vervollständige die Quest im Portraitraum im unteren Abschnitt von Dalaran, benutzt den Teleporter in der Mitte von Dalaran.";
-L["Quest_42454_RewardText"] = AQClassRewards;
+L["Quest_42454_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_42454_PreQuest"] = "Neltharions Hort";
 
 L["Quest_41188_Name"] = "Fehlgeleitet";
@@ -8571,13 +8571,13 @@ L["Quest_45088_Name"] = "Die verlorene Armee";
 L["Quest_45088_Objective"] = "Sammelt 1000 Seelenfragmente der Valarjar innerhalb des Schlachtzugs 'Die Prüfung der Tapferkeit'.";
 L["Quest_45088_Location"] = "Odyn (Prüfung der Tapferkeit; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_45088_Note"] = "Diese droppen von Helyas Schergen und von Helya selbst.  Benötigt normale oder höhere Schwierigkeit.";
-L["Quest_45088_RewardText"] = AQClassRewards;
+L["Quest_45088_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_45176_Name"] = "Der einstige und zukünftige Herr der Schatten";
 L["Quest_45176_Objective"] = "Bezwingt Helya in der Prüfung der Tapferkeit und verwendet dann das Seelenprisma der Illidari, um Illidans Seele einzufangen.";
 L["Quest_45176_Location"] = "Allari die Seelenfresserin (Azsuna - Verteidigungsposten der Illidari; "..YELLOW.."43.2, 43.2"..WHITE..")";
 L["Quest_45176_Note"] = "Helya ist der Endboss in der Prüfung der Tapferkeit.  Illidan Sturmgrimm erscheint auf der rechten Seite der Plattform nachdem Helya besiegt wurde. Benutze den Gegenstand um die Quest zu vervollständigen.  Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden.  Beende die Quest in deiner Ordenshalle beim Herz des Lichts.";
-L["Quest_45176_RewardText"] = AQClassRewards;
+L["Quest_45176_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_45176_PreQuest"] = "Seelenprisma der Illidari";
 L["Quest_45176_FollowQuest"] = "Die Nachtfestung";
 
@@ -8627,14 +8627,14 @@ L["Quest_46244_Name"] = "Der Altar der Aegis";
 L["Quest_46244_Objective"] = "Besiegt Lord Mephistroth und platziert die Aegis von Aggramar auf dem Altar der Ewigen Nacht.";
 L["Quest_46244_Location"] = "Erzmagier Khadgar (Die Verherrten Küste - Die Retterklippe;"..YELLOW.."44.8, 63.2"..WHITE..")";
 L["Quest_46244_Note"] = "Lord Mephistroth ist der Endboss.";
-L["Quest_46244_RewardText"] = AQClassRewards;
+L["Quest_46244_RewardText"] = AQ_CLASSREWARDS;
 L["Quest_46244_PreQuest"] = "Angriff auf die Verheerte Küste -> Vorräte der Legionsrichter";
 
 L["Quest_47654_Name"] = "Das Wappen des Wissens";
 L["Quest_47654_Objective"] = "Tötet L'ura und bergt das Wappen des Wissens.";
 L["Quest_47654_Location"] = "Prophet Velen (Mac'Aree - Die Vindikaar)";
 L["Quest_47654_Note"] = "L'ura ist der Endboss der Instanz.  Die Vindicaar muss sich in Mac'Aree befinden um die Quest abzuschließen.";
-L["Quest_47654_RewardText"] = WHITE.."300"..AQVEILEDARGUNITE;
+L["Quest_47654_RewardText"] = WHITE.."300"..AQ_VEILEDARGUNITE;
 L["Quest_47654_PreQuest"] = "Ein Signal im Dunklen";
 L["Quest_47654_FollowQuest"] = "Ein Signal im Dunklen";
 
@@ -8678,7 +8678,7 @@ L["Quest_49901_Name"] = "Atal'Dazar: Yazma, die gefallene Priesterin";
 L["Quest_49901_Objective"] = "Bezwingt Yazma in Atal'Dazar.";
 L["Quest_49901_Location"] = "König Rastakhan (Zuldazar; "..YELLOW.."42.6, 37.6"..WHITE..")";
 L["Quest_49901_Note"] = "Teil der Questreihe vom 'Marsch der Loas'.  Kann auf Normal oder Heroisch abgeschlossen werden.  Yazma ist der Endboss.  Gebe die Quest bei Prinzessin Talanji (Dazar'alor bei - "..YELLOW.."40.6, 69.0"..WHITE..") ab.";
-L["Quest_49901_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_49901_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_49901_PreQuest"] = "Ketzer -> Der Schachzug des Königs";
 L["Quest_49901_FollowQuest"] = "Von finsteren Taten und finsteren Tagen";
 
@@ -8686,7 +8686,7 @@ L["Quest_51516_Name"] = "Atal'Dazar: Die Asche eines Kriegshäuptlings";
 L["Quest_51516_Objective"] = "Bringt Vol'jins Asche nach Atal'Dazar.";
 L["Quest_51516_Location"] = "Prinzessin Talanji (Zuldazar; "..YELLOW.."43.8, 39.4"..WHITE..")";
 L["Quest_51516_Note"] = "Teil der Questreihe 'Der gefallene Kriegshäuptling'.  Kann auf Normal oder Heroisch abgeschlossen werden.  ";
-L["Quest_51516_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."750"..AQAZERITE;
+L["Quest_51516_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."750"..AQ_AZERITE;
 L["Quest_51516_PreQuest"] = "Vol'jin, Sohn von Sen'jin";
 L["Quest_51516_FollowQuest"] = "Ihr schuldet mir einen Geist";
 
@@ -8712,7 +8712,7 @@ L["Quest_52148_Name"] = "Freihafen: Ende eines Piraten";
 L["Quest_52148_Objective"] = "Tötet Harlan den Schmierigen in Freihafen.";
 L["Quest_52148_Location"] = "Finn Schönwind (Tiragadesund - Die Wachkuppe; "..YELLOW.."56.4, 61.6"..WHITE.."), die Questabgabe erfolgt in (Boralus- Die Aschenwinddocks; "..YELLOW.."67.6, 22.2"..WHITE..").";
 L["Quest_52148_Note"] = "Harlan den Schmierigen ist der Endboss.";
-L["Quest_52148_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_52148_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_52148_PreQuest"] = "Die Handelskompanie Aschenwind -> Verladen und verschickt";
 
 L["Quest_51500_Name"] = "Die Königsruh: Der Waffenmeister ist wieder auf den Beinen";
@@ -8755,13 +8755,13 @@ L["Quest_50825_Name"] = "Der Schrein des Sturms: Geflüster aus der Tiefe";
 L["Quest_50825_Objective"] = "Besiege Lord Sturmsang und Vol'zith den Flüsterer.";
 L["Quest_50825_Location"] = "Bruder Pike (Sturmsangtal - Der Schrein des Sturms; "..YELLOW.."78.2, 28.8"..WHITE..")";
 L["Quest_50825_Note"] = "Kann auf Normal oder Heroisch abgeschlossen werden.  Lord Sturmsang und Vol'zith der Flüsterer sind die letzten beide Bosse.  Nach dem besiegen des Endbosses, warte einen Moment auf Bruder Pike, um die Quest abzugeben.  Wenn Du zu früh die Dungeon verlässt, kannst Du die Quest dort abgeben, wo Du die angenommen hast.";
-L["Quest_50825_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_50825_RewardText"] = WHITE.."600"..AQ_AZERITE;
 
 L["Quest_52510_Name"] = "Der Schrein des Sturms: Das fehlende Ritual";
 L["Quest_52510_Objective"] = "Geht in den Schrein des Sturms, bergt das Ritual des sicheren Geleits und besiegt Vol'zith den Flüsterer.";
 L["Quest_52510_Location"] = "Bruder Pike (Sturmsangtal - Der Schrein des Sturms; "..YELLOW.."78.2, 28.8"..WHITE.."), die Questabgabe erfolgt in Dungeon beim Endbosswq.";
 L["Quest_52510_Note"] = "Vol'zith der Flüsterer ist der Endboss.";
-L["Quest_52510_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_52510_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_52510_PreQuest"] = "Ritualgegenstände -> Die Stärke des Sturms";
 L["Quest_52510_FollowQuest"] = "֦Öfnen des Weges";
 
@@ -8811,7 +8811,7 @@ L["Quest_52153_Name"] = "Belagerung von Boralus: Lady Aschenwinds Rückkehr";
 L["Quest_52153_Objective"] = "Schließt die Belagerung von Boralus (Dungeon) ab. .";
 L["Quest_52153_Location"] = "Katherine Prachtmeer (Boralus - Burg Prachtmeer; "..YELLOW.."44.8, 62.6"..WHITE..")";
 L["Quest_52153_Note"] = "Dies ist die letze Quest der Questreihe von 'Der Stolz von Kul'Tiras'.   Die Quest bringt Dich zu Taelia (Boralus; "..YELLOW.."68.0, 22.0"..WHITE..").";
-L["Quest_52153_RewardText"] = WHITE.."750"..AQAZERITE;
+L["Quest_52153_RewardText"] = WHITE.."750"..AQ_AZERITE;
 L["Quest_52153_PreQuest"] = "Was Ihr vielleicht bereut -> Thros, die Verseuchten Lande";
 L["Quest_52153_FollowQuest"] = "Eine vereinte Nation";
 
@@ -8843,7 +8843,7 @@ L["Quest_50551_Name"] = "Der Tempel von Sethraliss: Avatar des Loas";
 L["Quest_50551_Objective"] = "Betretet den Tempel von Sethraliss und heilt den Avatar des Loas.";
 L["Quest_50551_Location"] = "Vorrik (Voldun; "..YELLOW.."27.0, 52.6"..WHITE..")";
 L["Quest_50551_Note"] = "Teil der 'Atul'Aman Kampagne'. Kann auf Normal oder Heroisch abgeschlossen werden.\nBesiege den Endboss um die Quest abzuschließen und kehre zum Questgeber zurück.";
-L["Quest_50551_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_50551_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_50551_PreQuest"] = "Jakra'zet besiegen";
 L["Quest_50551_FollowQuest"] = "Die Horde informieren";
 
@@ -8869,7 +8869,7 @@ L["Quest_53351_Name"] = "Das Riesenflöz: Eisenfeind";
 L["Quest_53351_Objective"] = "Holt Eisenfeind von Mogul Ratztunk zurück.";
 L["Quest_53351_Location"] = "Moira Thaurissan (Sturmwind - ; "..YELLOW.."52.0, 13.8"..WHITE..")";
 L["Quest_53351_Note"] = "Teil der 'Dunkeleisenzwerge Kampagne'. Kann auf Normal oder Heroisch abgeschlossen werden.";
-L["Quest_53351_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_53351_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_53351_PreQuest"] = "Die Schwarzfelstiefen";
 L["Quest_53351_FollowQuest"] = "Der Geschmolzene Kern -> Dunkeleisenzwerge";
 
@@ -8877,7 +8877,7 @@ L["Quest_53437_Name"] = "Das Riesenflöz: Rohe Gewalt";
 L["Quest_53437_Objective"] = "Überbringt die endgültige, tödliche Nachricht Mogul Ratztunk im RIESENFLÖZ!!";
 L["Quest_53437_Location"] = "Handelsprinz Gallywix (Drustvar - ; "..YELLOW.."37.2, 27.0"..WHITE..").";
 L["Quest_53437_Note"] = "Kann auf Normal oder Heroisch abgeschlossen werden.";
-L["Quest_53437_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_53437_RewardText"] = WHITE.."600"..AQ_AZERITE;
 
 L["Quest_51856_Name"] = "Der Tiefenpfuhl: Moderschlund";
 L["Quest_51856_Objective"] = "Töte Moderschlund und die entfesselte Monstrosität.";
@@ -8901,7 +8901,7 @@ L["Quest_51302_Name"] = "Der Tiefenpfuhl: Versiegeln von G'huuns Verderbnis";
 L["Quest_51302_Objective"] = "Begebt Euch in den Tiefenpfuhl und besiegt die entfesselte Monstrosität.";
 L["Quest_51302_Location"] = "Titanenhüter Hezrel (Nazmir; "..YELLOW.."51.8, 65.8"..WHITE..")";
 L["Quest_51302_Note"] = "Dies ist Teil der 'Das Finstere Herz von Nazmir' Questreihe.  Die Quest endet bei Rokhan (Nazmir; "..YELLOW.."39.2, 78.8"..WHITE..").";
-L["Quest_51302_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_51302_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_51302_PreQuest"] = "Unten am Fluss -> Die Verderbnis in der Tiefe";
 L["Quest_51302_FollowQuest"] = "Den Fall des Imperiums aufhalten";
 
@@ -8927,7 +8927,7 @@ L["Quest_52800_Name"] = "Tol Dagor: Der Aschenwindaufseher";
 L["Quest_52800_Objective"] = "Besorgt den Generalschlüssel von Tol Dagor von Aufseher Korgus.";
 L["Quest_52800_Location"] = "Carsten Jammerthal (Boralus - Hafenmeisterbüro; "..YELLOW.."68.0, 22.0"..WHITE..")";
 L["Quest_52800_Note"] = "Aufseher Korgus ist der Endboss in der Dungeon.";
-L["Quest_52800_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_52800_RewardText"] = WHITE.."600"..AQ_AZERITE;
 
 L["Quest_51216_Name"] = "Das Kronsteiganwesen: Das Krächzen der Krähe";
 L["Quest_51216_Objective"] = "Töte Corvus und Gorak Tul.";
@@ -8957,7 +8957,7 @@ L["Quest_50639_Name"] = "Die gefallene Mutter";
 L["Quest_50639_Objective"] = "Besiegt Lady Kronsteig im Kronsteiganwesen.";
 L["Quest_50639_Location"] = "Luzilla Kronsteig (Drustvar - Das Kronsteiganwesen; "..YELLOW.."32.8, 15.4"..WHITE.."), die Questabgabe erfolgt in (Drustvar - Aroms Wehr; "..YELLOW.."36.0, 51.2"..WHITE..").";
 L["Quest_50639_Note"] = "Lady Kronsteig ist der Endboss.";
-L["Quest_50639_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_50639_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_50639_PreQuest"] = "Sturm auf das Anwesen";
 L["Quest_50639_FollowQuest"] = "Ewige Flamme";
 
@@ -8965,7 +8965,7 @@ L["Quest_52486_Name"] = "Den Herzbann absorbieren";
 L["Quest_52486_Objective"] = "Stärkt Korvashs Schädel in den Tiefen des Kronsteiganwesens.";
 L["Quest_52486_Location"] = "Ulfar (Drustvar - Ulfars Höhle; "..YELLOW.."45.2, 45.8"..WHITE.."), die Questabgabe erfolgt in (Drustvar - Aroms Wehr; "..YELLOW.."36.0, 51.2"..WHITE..").";
 L["Quest_52486_Note"] = "Den Schädel von Korvahs kann bei dem Endboss gestärkt werden.  Daher verlasse nicht zu schnell die Instanz.";
-L["Quest_52486_RewardText"] = WHITE.."600"..AQAZERITE;
+L["Quest_52486_RewardText"] = WHITE.."600"..AQ_AZERITE;
 L["Quest_52486_PreQuest"] = "Öffnen des Weges -> Alptraumfänger - Vergrabene Macht - Fokus des Hasses";
 L["Quest_52486_FollowQuest"] = "In die Dunkelheit";
 
@@ -8973,31 +8973,31 @@ L["Quest_54485_Name"] = "Schlacht um Dazar'alor";
 L["Quest_54485_Objective"] = "Besiegt König Rastakhan in der Schlacht von Dazar'alor.";
 L["Quest_54485_Location"] = "Halford Wyrmbann (Boralus - Die Aschenwinddocks; "..YELLOW.."69.4, 27.0"..WHITE..").";
 L["Quest_54485_Note"] = "Besiege den Endboss und kehre zurück zu Halford Wyrmbann um die Quest abzugeben.";
-L["Quest_54485_RewardText"] = WHITE.."2000"..AQAZERITE;
+L["Quest_54485_RewardText"] = WHITE.."2000"..AQ_AZERITE;
 
 L["Quest_54282_Name"] = "Schlacht um Dazar'alor";
 L["Quest_54282_Objective"] = "Besiegt König Rastakhan in der Schlacht von Dazar'alor.";
 L["Quest_54282_Location"] = "Prinzessin Talanji (Zuldazar - ; "..YELLOW.."58.0, 21.2"..WHITE..").";
 L["Quest_54282_Note"] = "Besiege den Endboss und gebe die Quest bei Nathanos Pestrufer in (Dazar'alor - Der Grosse Basar; "..YELLOW.."58.4, 62.6"..WHITE..") ab.";
-L["Quest_54282_RewardText"] = WHITE.."2000"..AQAZERITE;
+L["Quest_54282_RewardText"] = WHITE.."2000"..AQ_AZERITE;
 
 L["Quest_54682_Name"] = "Die verschwundene Klinge";
 L["Quest_54682_Objective"] = "Berichtet König Anduin von der Abwesenheit von Xal'atath.";
 L["Quest_54682_Location"] = "Xal'atath, Klinge des Schwarzen Imperiums (Sturmsangtal - Die Tiegel der Stürme; "..YELLOW.."??.?, ??.?"..WHITE..").";
 L["Quest_54682_Note"] = "Besiege den Endboss und gebe die Quest bei König Anduin Wrynn in (Sturmwind - Burg Sturmwind; "..YELLOW.."85.6, 31.8"..WHITE..") ab.";
-L["Quest_54682_RewardText"] = WHITE.."500"..AQAZERITE;
+L["Quest_54682_RewardText"] = WHITE.."500"..AQ_AZERITE;
 
 L["Quest_54683_Name"] = "Die verschwundene Klinge";
 L["Quest_54683_Objective"] = "Bringt den Dolch zu Kriegshäuptling Sylvanas Windläufer.";
 L["Quest_54683_Location"] = "Xal'atath, Klinge des Schwarzen Imperiums (Sturmsangtal - Die Tiegel der Stürme; "..YELLOW.."??.?, ??.?"..WHITE..").";
 L["Quest_54683_Note"] = "Besiege den Endboss und gebe die Quest bei Fürstin Sylvanas Windläufer in (Ogrimmar - Tal der Stärke; "..YELLOW.."48.4, 71.6"..WHITE..") ab.";
-L["Quest_54683_RewardText"] = WHITE.."500"..AQAZERITE;
+L["Quest_54683_RewardText"] = WHITE.."500"..AQ_AZERITE;
 
 L["Quest_56358_Name"] = "Der Ewige Palast: Schachzug der Königin";
 L["Quest_56358_Objective"] = "Besiegt Königin Azshara im Ewigen Palast.";
 L["Quest_56358_Location"] = "Lady Jaina Prachtmeer (Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..").";
 L["Quest_56358_Note"] = "Besiege den Endboss und gebe die Quest bei Lady Jaina Prachtmeer in ((Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..") ab.";
-L["Quest_56358_RewardText"] = WHITE.."3000"..AQAZERITE;
+L["Quest_56358_RewardText"] = WHITE.."3000"..AQ_AZERITE;
 
 L["Quest_56348_Name"] = "Der Ewige Palast: Wir können ihn stärker machen...";
 L["Quest_56348_Objective"] = "Sammelt 20 ewige Ornamente von den mächtigsten Kreaturen des Ewigen Palasts.";
@@ -9018,7 +9018,7 @@ L["Quest_56356_Name"] = "Der Ewige Palast: Schachzug der Königin";
 L["Quest_56356_Objective"] = "Besiegt Königin Azshara im Ewigen Palast.";
 L["Quest_56356_Location"] = "Lor'themar Theron (Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..").";
 L["Quest_56356_Note"] = "Besiege den Endboss und gebe die Quest bei Lor'themar Theron in (Nazjatar - ; "..YELLOW.."50.4, 24.0"..WHITE..") ab.";
-L["Quest_56356_RewardText"] = WHITE.."3000"..AQAZERITE;
+L["Quest_56356_RewardText"] = WHITE.."3000"..AQ_AZERITE;
 
 L["Quest_56352_Name"] = "Der Ewige Palast: Wir können ihn stärker machen...";
 L["Quest_56352_Objective"] = "Sammelt 20 ewige Ornamente von den mächtigsten Kreaturen des Ewigen Palasts.";
@@ -9039,13 +9039,13 @@ L["Quest_55609_Name"] = "Operation: Mechagon: Der Mecherschaffer";
 L["Quest_55609_Objective"] = "Begebt Euch nach Mechagon und besiegt König Mechagon.";
 L["Quest_55609_Location"] = "Prinz Erazmin (Mechagon - Der Rostbolzen; "..YELLOW.."74.0, 36.8"..WHITE..").";
 L["Quest_55609_Note"] = "Besiege den Endboss und gebe die Quest bei Prinz Erazmin in der Dungeon ab.";
-L["Quest_55609_RewardText"] = WHITE.."2500"..AQAZERITE;
+L["Quest_55609_RewardText"] = WHITE.."2500"..AQ_AZERITE;
 
 L["Quest_58632_Name"] = "Ny'alotha, die Erwachte Stadt: Das Ende des Verderbers";
 L["Quest_58632_Objective"] = "Besiegt N'Zoth in Ny'alotha, der Erwachten Stadt.";
 L["Quest_58632_Location"] = "Magni Bronzebeard (Silithus - Herzkammer; "..YELLOW.."48.0, 61.1"..WHITE..")";
 L["Quest_58632_Note"] = "N'Zoth ist der Endboss vom Schlachtzug.  Dies kann auf jeder Schweirigkeit abgeschlossen werden.";
-L["Quest_58632_RewardText"] = WHITE.."3000"..AQAZERITE;
+L["Quest_58632_RewardText"] = WHITE.."3000"..AQ_AZERITE;
 L["Quest_58632_PreQuest"] = "Herzensangelegenheit -> Hinein in die Träume";
 
 L["Quest_60242_Name"] = "Handel und Wandel: Nekrotische Schneise";
@@ -9064,7 +9064,7 @@ L["Quest_60057_Name"] = "Nekrotische Schneise: Paragon in Bedrängnis";
 L["Quest_60057_Objective"] = "Besiegt Amarth den Ernter und Nalthor den Eisbinder in der Nekrotischen Schneise.";
 L["Quest_60057_Location"] = "Jüngerin Artemede (Bastion; "..YELLOW.."40.8, 55.2"..WHITE..")";
 L["Quest_60057_Note"] = "Quest bringht Dich zurück zu Kalisthene in (Bastion; "..YELLOW.."51.0, 46.8"..WHITE..").";
-L["Quest_60057_RewardText"] = AQClassRewards;
+L["Quest_60057_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_60248_Name"] = "Trading Favors: Plaguefall";
 L["Quest_60248_Objective"] = "Obtain one of Stradama's Lost Ledgers from Margrave Stradama in Plaguefall.";
@@ -9082,7 +9082,7 @@ L["Quest_59520_Name"] = "Plaguefall: Knee Deep In It";
 L["Quest_59520_Objective"] = "Enter Plaguefall and recover 12 Poxedskin Samples and Margrave Stradama's Plasm.";
 L["Quest_59520_Location"] = "Vial Master Lurgy (Maldraxxus; "..YELLOW.."59.4, 72.8"..WHITE..")";
 L["Quest_59520_Note"] = "";
-L["Quest_59520_RewardText"] = AQClassRewards;
+L["Quest_59520_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_60246_Name"] = "Trading Favors: Tirna Scithe";
 L["Quest_60246_Objective"] = "Obtain an Engorged Gorm Larva from Tred'ova in the Mists of Tirna Scithe.";
@@ -9100,7 +9100,7 @@ L["Quest_62371_Name"] = "Tirna Scithe: A Warning Silence";
 L["Quest_62371_Objective"] = "Defeat Tred'ova in The Mists of Tirna Scithe.";
 L["Quest_62371_Location"] = "Flwngyrr (Ardenweald; "..YELLOW.."48.4, 50.4"..WHITE..")";
 L["Quest_62371_Note"] = "";
-L["Quest_62371_RewardText"] = AQClassRewards;
+L["Quest_62371_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_60244_Name"] = "Trading Favors: Halls of Atonement";
 L["Quest_60244_Objective"] = "Obtain the Tome of Dredger Alchemy from Lord Chamberlain in the Halls of Atonement.";
@@ -9170,7 +9170,7 @@ L["Quest_58798_Name"] = "The Spires of Ascension";
 L["Quest_58798_Objective"] = "Kill Devos, Paragon of Doubt in the Spires of Ascension.";
 L["Quest_58798_Location"] = "Kleia (Bastion - Elysian Hold; "..YELLOW.."66.4, 16.6"..WHITE..")";
 L["Quest_58798_Note"] = "Part of the Kyrian Convenant story questline.  Devos is the final boss in the dungeon.";
-L["Quest_58798_RewardText"] = WHITE.."1"..AQ_AND..AQITEM_RENOWN;
+L["Quest_58798_RewardText"] = WHITE.."1"..AQ_AND..AQ_RENOWN;
 L["Quest_58798_PreQuest"] = "Trial of Ascension -> Forged by Trial";
 L["Quest_58798_FollowQuest"] = "None";
 
@@ -9204,7 +9204,7 @@ L["Quest_31207_Name"] = "Die Arena der Auslöschung";
 L["Quest_31207_Objective"] = "Betretet und beendet das Szenario der Arena der Auslöschung. Holt Euch anschließend Eure Belohnung von Wodin, dem Trolldiener ab.";
 L["Quest_31207_Location"] = "Gurgthock (Kun-Lai-Gipfel - Tempel des Weißen Tigers; "..YELLOW.."68.6, 48.4"..WHITE..")";
 L["Quest_31207_Note"] = "Wodin der Trolldiener erscheint nachdem das Szenario beendet ist.";
-L["Quest_31207_RewardText"] = AQClassRewards;
+L["Quest_31207_RewardText"] = AQ_CLASSREWARDS;
 
 L["Quest_31611_Name"] = "Der Kun-Lai-Hammer";
 L["Quest_31611_Objective"] = "Beschützt das Braumondfest.";

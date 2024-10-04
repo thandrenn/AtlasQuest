@@ -28,8 +28,9 @@ local L                   = LibStub("AceLocale-3.0"):GetLocale("AtlasQuest", tru
 local AC                  = LibStub("AceConfig-3.0");
 local ACD                 = LibStub("AceConfigDialog-3.0");
 
--- Sets the max number of instances and quests to check for.
-local AQMAXINSTANCES      = 38;
+-- Only used to migrate quest completion data from v4
+local AQMAXINSTANCES      = 201;
+-- Used to migrate data, and to set the number of frames to create in the quest list
 local AQMAXQUESTS         = 23;
 
 -- Declare defaults to be used in the DB
@@ -339,7 +340,16 @@ function AtlasQuest:ResetQuests()
 end
 
 function AtlasQuest:GetQuests()
-	local completedQuestsServer = GetQuestsCompleted();
+	local completedQuestsServer = {};
+	if (select(4, GetBuildInfo()) > 90000) then
+		-- Retail (change format of result to match Classic)
+		for _, questID in pairs(C_QuestLog.GetAllCompletedQuestIDs()) do
+			completedQuestsServer[questID] = true;
+		end
+	else
+		-- Classic and Classic Era
+		completedQuestsServer = GetQuestsCompleted();
+	end
 
 	-- Checks both faction's quests (faction changes are a thing I guess)
 	for key, instance in pairs(AQDungeonArr) do
