@@ -1,5 +1,4 @@
-
-# AtlasQuest Classic Era
+# AtlasQuest
 Maintained by nanderson11
 
 Github: https://github.com/thandrenn/AtlasQuest
@@ -48,4 +47,4 @@ or from WoWhead.com.
 
 ## License
 AtlasQuest is released under the GNU General Public License (GPL).
-For the full license text please see: gpl-v2-en.txt
+For the full license text please see: LICENSE
