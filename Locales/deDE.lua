@@ -56,9 +56,9 @@ L["GetQuests"] = "Quest-Status abrufen";
 L["GetQuestsDesc"] = "Abgeschlossene Quests werden als abgeschlossen markiert, nicht abgeschlossene Quests bleiben unverändert";
 L["GetQuestsConfirm"] = "Dadurch werden die abgeschlossenen Quests vom Server abgefragt";
 
+L["Instance_0_Name"] = "Keine Informationen verfügbar";
 if (select(4, GetBuildInfo()) < 90000) then
 	-- Classic Instances
-	L["Instance_0_Name"] = "Keine Informationen verfügbar";
 	L["Instance_1_Name"] = "Schwarzfelstiefen";
 	L["Instance_2_Name"] = "Pechschwingenabstieg";
 	L["Instance_3_Name"] = "Schwarzfelsspitze (Unten)";

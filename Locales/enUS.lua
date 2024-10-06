@@ -56,9 +56,9 @@ L["GetQuests"] = "Get Quest Status";
 L["GetQuestsDesc"] = "Completed quests will be marked as finished, uncompleted quests will be left alone";
 L["GetQuestsConfirm"] = "This will query the server for your completed quests";
 
+L["Instance_0_Name"] = "No Information Available";
 if (select(4, GetBuildInfo()) < 90000) then
 	-- Classic Instances
-	L["Instance_0_Name"] = "No Information Available";
 	L["Instance_1_Name"] = "Blackrock Depths";
 	L["Instance_2_Name"] = "Blackwing Lair";
 	L["Instance_3_Name"] = "Lower Blackrock Spire";
