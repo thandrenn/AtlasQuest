@@ -1,5 +1,15 @@
 # Changelog
 
+## 5.2.1 - October 17, 2024
+
+### Changed
+
+- Added support for Atlas (fork) v3
+
+### Fixed
+
+- Retail: Added some missing instance names and translations
+
 ## 5.2.0 - October 5, 2024
 
 This release adds support for Retail (The War Within). Since AtlasQuest depends on Atlas, which is currently broken in TWW, I offered to maintain Atlas. I didn't get a response, so I created a fork of Atlas. The fork is available here: https://curseforge.com/wow/addons/atlas-fork. Simply remove the old Atlas (but keep the map packs) and install the new one. I hope to add Cataclysm Classic support to both Atlas and AtlasQuest soon as well.
