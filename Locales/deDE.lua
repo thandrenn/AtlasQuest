@@ -117,8 +117,11 @@ if (select(4, GetBuildInfo()) < 90000) then
 	L["Instance_57_Name"] = "Die Arkatraz";
 	L["Instance_58_Name"] = "Die Botanika";
 	L["Instance_59_Name"] = "Die Mechanar";
+	L["Instance_60_Name"] = "Auge des Sturms";
 	L["Instance_61_Name"] = "Festung der Stürme";
 	L["Instance_62_Name"] = "Der Schwarze Tempel";
+	L["Instance_63_Name"] = "Zul'Aman";
+	L["Instance_65_Name"] = "Skettis";
 	L["Instance_67_Name"] = "Terrasse der Magister";
 	L["Instance_68_Name"] = "Sonnenbrunnenplateau";
 	L["Instance_69_Name"] = "HdZ: Das Ausmerzen von Stratholme";
@@ -328,7 +331,9 @@ if (select(4, GetBuildInfo()) > 90000) then
 	L["Instance_197_Name"] = "Spitzen des Aufstiegs";
 	L["Instance_198_Name"] = "Die blutigen Tiefen";
 	L["Instance_199_Name"] = "Schloss Nathria";
-	L["Instance_36_Name"] = "Keine Informationen verfügbar";
+	L["Instance_200_Name"] = "Sanktum der Herrschaft";
+	L["Instance_201_Name"] = "Tazavesh";
+	L["Instance_202_Name"] = "Mausoleum der Ersten";
 	L["Instance_33_Name"] = "Alteractal";
 	L["Instance_34_Name"] = "Arathibecken";
 	L["Instance_35_Name"] = "Kriegshymnenschlucht";

@@ -117,13 +117,13 @@ if (select(4, GetBuildInfo()) < 90000) then
 	L["Instance_57_Name"] = "The Arcatraz";
 	L["Instance_58_Name"] = "The Botanica";
 	L["Instance_59_Name"] = "The Mechanar";
+	L["Instance_60_Name"] = "Eye of the Storm";
 	L["Instance_61_Name"] = "The Eye";
 	L["Instance_62_Name"] = "Black Temple";
 	L["Instance_63_Name"] = "Zul'Aman";
+	L["Instance_65_Name"] = "Skettis";
 	L["Instance_67_Name"] = "Magisters' Terrace";
 	L["Instance_68_Name"] = "Sunwell Plateau";
-	L["Instance_60_Name"] = "Eye of the Storm";
-	L["Instance_65_Name"] = "Skettis";
 	L["Instance_69_Name"] = "Culling of Stratholme";
 	L["Instance_70_Name"] = "Utgarde Keep";
 	L["Instance_71_Name"] = "Utgarde Pinnacle";
@@ -334,6 +334,17 @@ if (select(4, GetBuildInfo()) > 90000) then
 	L["Instance_200_Name"] = "Sanctum of Domination";
 	L["Instance_201_Name"] = "Tazavesh";
 	L["Instance_202_Name"] = "Sepulcher of the First Ones";
+	L["Instance_33_Name"] = "Alterac Valley";
+	L["Instance_34_Name"] = "Arathi Basin";
+	L["Instance_35_Name"] = "Warsong Gulch";
+	L["Instance_60_Name"] = "Eye of the Storm";
+	L["Instance_89_Name"] = "Isle of Conquest";
+	L["Instance_106_Name"] = "Battle for Gilneas";
+	L["Instance_107_Name"] = "Twin Peaks";
+	L["Instance_123_Name"] = "Silvershard Mines";
+	L["Instance_124_Name"] = "Temple of Kotmogu";
+	L["Instance_143_Name"] = "Deepwind Gorge";
+	L["Instance_66_Name"] = "Skettis";
 end
 
 -- Classic Quests
