@@ -5,4 +5,4 @@
 ## Title: AtlasQuest|cFFFF0000 game client not supported|r
 ## Notes: This version of AtlasQuest only supports Classic Era and Retail
 
-WrongVersion.lua
+Core\WrongVersion.lua

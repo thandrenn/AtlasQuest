@@ -1,5 +1,15 @@
 # Changelog
 
+## 5.2.2 - October 23, 2024
+
+### Added
+
+- Retail: Added icon for the addon list
+
+### Changed
+
+- Retail: Update TOC to 11.0.5
+
 ## 5.2.1 - October 17, 2024
 
 ### Changed

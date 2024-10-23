@@ -28,7 +28,7 @@
 ## LoadOnDemand: 0
 ## SavedVariables: AtlasQuest_Options,AtlasQuestDB
 
-embeds.xml
+Libs\Libs.xml
 Locales\Locales.xml
-AtlasQuest_InsideFrame.xml
-AtlasQuest.xml
+Core\AtlasQuest_InsideFrame.xml
+Core\AtlasQuest.xml

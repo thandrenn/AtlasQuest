@@ -1,4 +1,4 @@
-﻿## Interface: 110002
+﻿## Interface: 110005
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -25,9 +25,10 @@
 ## X-Date: August 5, 2024
 ## RequiredDeps: Atlas
 ## LoadOnDemand: 0
+## IconTexture: Interface\lfgframe\lfgicon-quest
 ## SavedVariables: AtlasQuest_Options,AtlasQuestDB
 
-embeds.xml
+Libs\Libs.xml
 Locales\Locales.xml
-AtlasQuest_InsideFrame.xml
-AtlasQuest.xml
+Core\AtlasQuest_InsideFrame.xml
+Core\AtlasQuest.xml
