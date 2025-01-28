@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.2.5 - January 28, 2025
+
+### Changed
+
+- Classic Era: Update TOC to 1.15.6
+
 ## 5.2.4 - December 20, 2024
 
 ### Changed

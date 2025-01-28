@@ -1,4 +1,4 @@
-﻿## Interface: 11505
+﻿## Interface: 11506
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
