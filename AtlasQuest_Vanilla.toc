@@ -1,4 +1,5 @@
 ﻿## Interface: 11506
+
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
 ## Title-koKR: AtlasQuest
@@ -7,6 +8,7 @@
 ## Title-ruRU: Атлас |cFF0099FF[Задания]|r
 ## Title-esES: AtlasQuest
 ## Title-esMX: AtlasQuest
+
 ## Notes: Shows the Quests for dungeons and battlegrounds.
 ## Notes-deDE: Zeigt die Quests, die es für die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
@@ -15,6 +17,7 @@
 ## Notes-ruRU: Показывает задания в подземельях.
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
+
 ## Author: AtlasQuest Team
 ## Version: @project-version@
 ## X-Website: https://github.com/thandrenn/AtlasQuest
