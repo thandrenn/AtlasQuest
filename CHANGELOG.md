@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.7 - April 8, 2025
+### Changed
+- Classic Era: Update TOC to 1.15.7
+
 ## 5.2.6 - February 25, 2025
 ### Changed
 - Retail: Added category and group to TOC
