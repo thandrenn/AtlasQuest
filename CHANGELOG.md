@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.8 - April 22, 2025
+### Changed
+- Retail: Update TOC to 11.1.5
+
 ## 5.2.7 - April 8, 2025
 ### Changed
 - Classic Era: Update TOC to 1.15.7
