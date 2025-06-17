@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.9 - June 17, 2025
+### Changed
+- Retail: Update TOC to 11.1.7
+
 ## 5.2.8 - April 22, 2025
 ### Changed
 - Retail: Update TOC to 11.1.5
