@@ -285,11 +285,13 @@ function AtlasQuest:migrateData()
 
 		for instance = 1, AQMAXINSTANCES do
 			for quest = 1, AQMAXQUESTS do
+				local questID = nil
 				if (characterData["AQFinishedQuest_Inst"..instance.."Quest"..quest] == 1) then
-					local questID = AQDungeonArr[instance][1][quest];
-					self.db.char.completedQuests[questID] = 1;
+					questID = AQDungeonArr[instance][1][quest];
 				elseif (characterData["AQFinishedQuest_Inst"..instance.."Quest"..quest.."_HORDE"] == 1) then
-					local questID = AQDungeonArr[instance][2][quest];
+					questID = AQDungeonArr[instance][2][quest];
+				end
+				if questID ~= nil then
 					self.db.char.completedQuests[questID] = 1;
 				end
 			end
