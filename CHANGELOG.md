@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.11 - June 22, 2025
+### Fixed
+- Fix additional error when trying to migrate data with unexpected instances
+
 ## 5.2.10 - June 22, 2025
 ### Fixed
 - Fix error when trying to migrate data with unexpected quests
