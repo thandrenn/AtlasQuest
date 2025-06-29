@@ -35,13 +35,6 @@
 		<Size>
 			<AbsDimension x="198" y="585" />
 		</Size>
-		<Anchors>
-			<Anchor point="TOPRIGHT" relativeTo="AtlasFrame" relativePoint="TOPLEFT">
-				<Offset>
-					<AbsDimension x="0" y="-48" />
-				</Offset>
-			</Anchor>
-		</Anchors>
 		<KeyValues>
 			<KeyValue key="backdropInfo" value="BACKDROP_AtlasQuest_32_16" type="global" />
 		</KeyValues>

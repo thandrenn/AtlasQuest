@@ -537,12 +537,13 @@ function AtlasQuest:Atlas_OnShow()
 	HideUIPanel(AtlasQuestInsideFrame);
 
 	-- The else is needed for when you change the shownSide option from right to left
+	local y = (select(4, GetBuildInfo()) > 90000) and -46 or -48
 	if (AtlasQuest.db.profile.shownSide == "right") then
 		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("TOPLEFT", "AtlasFrame", "TOPRIGHT", -2, -48);
+		AtlasQuestFrame:SetPoint("TOPLEFT", "AtlasFrame", "TOPRIGHT", -2, y);
 	else
 		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("TOPRIGHT", "AtlasFrame", "TOPLEFT", 0, -48);
+		AtlasQuestFrame:SetPoint("TOPRIGHT", "AtlasFrame", "TOPLEFT", 0, y);
 	end
 end
 
