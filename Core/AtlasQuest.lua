@@ -539,10 +539,10 @@ function AtlasQuest:Atlas_OnShow()
 	-- The else is needed for when you change the shownSide option from right to left
 	if (AtlasQuest.db.profile.shownSide == "right") then
 		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("LEFT", "AtlasFrame", "RIGHT");
+		AtlasQuestFrame:SetPoint("TOPLEFT", "AtlasFrame", "TOPRIGHT", -2, -48);
 	else
 		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("TOPRIGHT", "AtlasFrame", "TOPLEFT", 12, -45);
+		AtlasQuestFrame:SetPoint("TOPRIGHT", "AtlasFrame", "TOPLEFT", 0, -48);
 	end
 end
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.12 - June 30, 2025
+### Changed
+- Updated AtlasQuest frame position for changes in Atlas (fork) v3.7.0
+
 ## 5.2.11 - June 22, 2025
 ### Fixed
 - Fix additional error when trying to migrate data with unexpected instances

@@ -38,7 +38,7 @@
 		<Anchors>
 			<Anchor point="TOPRIGHT" relativeTo="AtlasFrame" relativePoint="TOPLEFT">
 				<Offset>
-					<AbsDimension x="12" y="-45" />
+					<AbsDimension x="0" y="-48" />
 				</Offset>
 			</Anchor>
 		</Anchors>
