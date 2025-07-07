@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.13 - July 7, 2025
+### Fixed
+- Fix position of the quest frame
+
 ## 5.2.12 - June 30, 2025
 ### Changed
 - Updated AtlasQuest frame position for changes in Atlas (fork) v3.7.0
