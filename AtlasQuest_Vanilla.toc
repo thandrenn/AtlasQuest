@@ -27,7 +27,7 @@
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
 ## X-Date: August 5, 2024
 ## RequiredDeps: Atlas
-## OptionalDeps: Atlas_ClassicWoW
+## OptionalDeps: DevTool
 ## LoadOnDemand: 0
 ## SavedVariables: AtlasQuest_Options,AtlasQuestDB
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.3.0 - July 14, 2025
+### Added
+- Added item quality border to icons
+- The item name and quality is now retrieved from the server, so every item name will be translated and item quality will always be accurate
+
 ## 5.2.13 - July 7, 2025
 ### Fixed
 - Fix position of the quest frame

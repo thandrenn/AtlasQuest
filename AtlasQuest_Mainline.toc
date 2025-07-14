@@ -40,6 +40,7 @@
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
 ## X-Date: August 5, 2024
 ## RequiredDeps: Atlas
+## OptionalDeps: DevTool
 ## LoadOnDemand: 0
 ## IconTexture: Interface\lfgframe\lfgicon-quest
 ## SavedVariables: AtlasQuest_Options,AtlasQuestDB

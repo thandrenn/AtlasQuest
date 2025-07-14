@@ -222,19 +222,24 @@ function AtlasQuest:OnEnable()
 			AtlasQuestItem_OnClick(self);
 		end);
 
-		local icon = item:CreateTexture("AQ_QuestItemIcon_"..i, "ARTWORK");
-		icon:SetSize(24, 24);
-		icon:SetPoint("LEFT");
+		item.icon = item:CreateTexture(nil, "ARTWORK");
+		item.icon:SetSize(24, 24);
+		item.icon:SetPoint("LEFT");
 
-		local name = item:CreateFontString("AQ_QuestItemName_"..i, "OVERLAY", "GameFontNormal");
-		name:SetSize(205, 12);
-		name:SetPoint("TOPLEFT", item, 30, -3);
-		name:SetJustifyH("LEFT");
+		item.qualityBorder = item:CreateTexture(nil, "OVERLAY")
+		item.qualityBorder:SetPoint("CENTER", item.icon, "CENTER")
+		item.qualityBorder:SetSize(24, 24)
+		item.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame")
 
-		local extra = item:CreateFontString("AQ_QuestItemExtra_"..i, "OVERLAY", "GameFontNormalSmall");
-		extra:SetSize(205, 10);
-		extra:SetPoint("TOPLEFT", item, 30, -16);
-		extra:SetJustifyH("LEFT");
+		item.name = item:CreateFontString(nil, "OVERLAY", "GameFontNormal");
+		item.name:SetSize(205, 12);
+		item.name:SetPoint("TOPLEFT", item, 30, -3);
+		item.name:SetJustifyH("LEFT");
+
+		item.extra = item:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+		item.extra:SetSize(205, 10);
+		item.extra:SetPoint("TOPLEFT", item, 30, -16);
+		item.extra:SetJustifyH("LEFT");
 	end
 
 	-- Trigger the initial map setup
@@ -441,9 +446,26 @@ function AtlasQuest:SetQuestInfo(questID)
 	end
 
 	for i = 1, 6 do
+		local button = getglobal("AQ_QuestItem_"..i)
+
 		if (AQQuestArr[questID][5][i] ~= nil) then
 			local itemID = AQQuestArr[questID][5][i];
-			local itemID, itemType, itemSubType, itemEquipLoc, icon, classID, subClassID = C_Item.GetItemInfoInstant(itemID);
+			local item = Item:CreateFromItemID(itemID)
+
+			item:ContinueOnItemLoad(function()
+				local name = item:GetItemName()
+				local quality = item:GetItemQuality()
+
+				button.qualityBorder:SetVertexColor(
+					ITEM_QUALITY_COLORS[quality].r,
+					ITEM_QUALITY_COLORS[quality].g,
+					ITEM_QUALITY_COLORS[quality].b,
+					1
+				)
+				button.name:SetText(ITEM_QUALITY_COLORS[quality].hex..name);
+			end)
+
+			local _, itemType, itemSubType, itemEquipLoc, icon, classID = C_Item.GetItemInfoInstant(itemID);
 
 			local itemText = itemType;
 			if (classID == 2) then
@@ -452,17 +474,13 @@ function AtlasQuest:SetQuestInfo(questID)
 				itemText = _G[itemEquipLoc]..", "..itemSubType;
 			end
 
-			getglobal("AQ_QuestItemIcon_"..i):SetTexture(icon);
-			getglobal("AQ_QuestItemName_"..i):SetText(ITEM_QUALITY_COLORS[AQItemArr[itemID][1]].hex..L["Item_"..itemID.."_Name"]);
-			getglobal("AQ_QuestItemExtra_"..i):SetText(itemText);
-			getglobal("AQ_QuestItem_"..i).itemID = itemID;
-			getglobal("AQ_QuestItem_"..i):Enable();
+			button.icon:SetTexture(icon);
+			button.extra:SetText(itemText);
+			button.itemID = itemID;
+			button:Show();
 		else
-			getglobal("AQ_QuestItemIcon_"..i):SetTexture();
-			getglobal("AQ_QuestItemName_"..i):SetText();
-			getglobal("AQ_QuestItemExtra_"..i):SetText();
-			getglobal("AQ_QuestItem_"..i).itemID = nil;
-			getglobal("AQ_QuestItem_"..i):Disable();
+			button.itemID = nil;
+			button:Hide()
 		end
 	end
 end
@@ -604,15 +622,12 @@ function AtlasQuestItem_OnClick(itemFrame)
 	local AQactiveWindow = ChatEdit_GetActiveWindow();
 
 	if (AQactiveWindow and IsShiftKeyDown()) then
-		local link = ITEM_QUALITY_COLORS[AQItemArr[itemID][1]].hex.."|Hitem:"..itemID..":::::::::::::::::|h["..L["Item_"..itemID.."_Name"].."]|h|r";
+		-- item should be cached already because it was fetched when displayed
+		local _, link = C_Item.GetItemInfo(itemID);
 		AQactiveWindow:Insert(link);
 	elseif (IsControlKeyDown()) then
-		-- DressUpItemLink() can be unsafe if the item isn't cached yet, this should make it safe
-		local item = Item:CreateFromItemID(itemID);
-
-		item:ContinueOnItemLoad(function()
-			DressUpItemLink("item:"..itemID);
-		end);
+		-- item should be cached already because it was fetched when displayed
+		DressUpItemLink("item:"..itemID);
 	end
 end
 
