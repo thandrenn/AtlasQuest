@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3.1 - August 5, 2025
+### Changed
+- Retail: Update TOC to 11.2.0
+
 ## 5.3.0 - July 14, 2025
 ### Added
 - Added item quality border to icons
