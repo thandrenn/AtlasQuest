@@ -539,7 +539,7 @@ function AtlasQuest:ChangeMap()
 
 	if (newAQInstanceID ~= AtlasQuestFrame.AQInstanceID) then
 		AtlasQuestFrame.AQInstanceID = newAQInstanceID;
-		HideUIPanel(AtlasQuestInsideFrame);
+		AtlasQuestInsideFrame:Hide();
 		AtlasQuest:SetQuestList();
 	end
 end
@@ -548,11 +548,11 @@ end
 ---Hook: Atlas_OnShow
 function AtlasQuest:Atlas_OnShow()
 	if (AtlasQuest.db.profile.autoShow == true) then
-		ShowUIPanel(AtlasQuestFrame);
+		AtlasQuestFrame:Show();
 	else
-		HideUIPanel(AtlasQuestFrame);
+		AtlasQuestFrame:Hide();
 	end
-	HideUIPanel(AtlasQuestInsideFrame);
+	AtlasQuestInsideFrame:Hide();
 
 	-- The else is needed for when you change the shownSide option from right to left
 	local y = (select(4, GetBuildInfo()) > 90000) and -46 or -48

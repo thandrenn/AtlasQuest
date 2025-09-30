@@ -28,10 +28,10 @@ local L = LibStub("AceLocale-3.0"):GetLocale("AtlasQuest", true);
 -----------------------------------------------------------------------------
 function AQ_AtlasToggle_OnClick()
 	if (AtlasQuestFrame:IsVisible()) then
-		HideUIPanel(AtlasQuestFrame);
-		HideUIPanel(AtlasQuestInsideFrame);
+		AtlasQuestFrame:Hide();
+		AtlasQuestInsideFrame:Hide();
 	else
-		ShowUIPanel(AtlasQuestFrame);
+		AtlasQuestFrame:Show();
 	end
 end
 
@@ -39,14 +39,14 @@ end
 -- upper left button on the panel for closing
 -----------------------------------------------------------------------------
 function AQ_SidebarClose_OnClick()
-	HideUIPanel(AtlasQuestFrame);
+	AtlasQuestFrame:Hide();
 end
 
 -----------------------------------------------------------------------------
 -- inside button to close the quest display
 -----------------------------------------------------------------------------
 function AQ_QuestClose_OnClick()
-	HideUIPanel(AtlasQuestInsideFrame);
+	AtlasQuestInsideFrame:Hide();
 end
 
 -----------------------------------------------------------------------------
@@ -56,7 +56,7 @@ function AQ_AllianceCheck_OnClick()
 	AtlasQuestFrame.faction = 1;
 	AQ_HordeCheck:SetChecked(false);
 	AQ_AllianceCheck:SetChecked(true);
-	HideUIPanel(AtlasQuestInsideFrame);
+	AtlasQuestInsideFrame:Hide();
 	AtlasQuest:SetQuestList();
 end
 
@@ -67,7 +67,7 @@ function AQ_HordeCheck_OnClick()
 	AtlasQuestFrame.faction = 2;
 	AQ_HordeCheck:SetChecked(true);
 	AQ_AllianceCheck:SetChecked(false);
-	HideUIPanel(AtlasQuestInsideFrame);
+	AtlasQuestInsideFrame:Hide();
 	AtlasQuest:SetQuestList();
 end
 
@@ -87,10 +87,10 @@ function AQ_Quest_OnClick(questFrame)
 		end
 
 		if (AtlasQuestInsideFrame:IsVisible() == true and AtlasQuestInsideFrame.questID == questID) then
-			HideUIPanel(AtlasQuestInsideFrame);
+			AtlasQuestInsideFrame:Hide();
 		else
 			if (AtlasQuestInsideFrame:IsVisible() == false) then
-				ShowUIPanel(AtlasQuestInsideFrame);
+				AtlasQuestInsideFrame:Show();
 			end
 			AtlasQuest:SetQuestInfo(questID);
 		end
