@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.4.1 - October 7, 2025
+### Changed
+- Retail: Update TOC to 11.2.5
+
 ## 5.4.0 - September 29, 2025
 ### Added
 - AtlasQuest can now be opened in combat
