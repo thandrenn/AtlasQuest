@@ -1,4 +1,4 @@
-﻿## Interface: 110207
+## Interface: 20505
 
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest

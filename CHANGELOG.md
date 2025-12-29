@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.5.0 - December 28, 2025
+### Added
+- Anniversary: Added support for TBC
+
 ## 5.4.3 - December 3, 2025
 ### Changed
 - Retail: Update TOC to 11.2.7
