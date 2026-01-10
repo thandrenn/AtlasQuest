@@ -153,7 +153,7 @@ BACKDROP_AtlasQuest_32_16 = {
 function AtlasQuest:OnInitialize()
 	self.db = LibStub("AceDB-3.0"):New("AtlasQuestDB", defaults, true);
 	AC:RegisterOptionsTable("AtlasQuest_options", options);
-	self.optionsFrame = ACD:AddToBlizOptions("AtlasQuest_options", "AtlasQuest")
+	self.optionsFrame, self.settingsID = ACD:AddToBlizOptions("AtlasQuest_options", "AtlasQuest")
 
 	local profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(self.db);
 	AC:RegisterOptionsTable("AtlasQuest_Profiles", profiles)
@@ -345,7 +345,7 @@ function AtlasQuest:QUEST_TURNED_IN(eventName, turnedInQuestID)
 end
 
 function AtlasQuest:GoToOptions()
-	Settings.OpenToCategory("AtlasQuest");
+	Settings.OpenToCategory(self.settingsID);
 end
 
 function AtlasQuest:ResetQuests()
