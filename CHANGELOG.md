@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.6.0 - January 19, 2026
+### Added
+- Retail: Added support for Midnight
+### Changed
+- Updated libraries
+
 ## 5.5.0 - December 28, 2025
 ### Added
 - Anniversary: Added support for TBC
