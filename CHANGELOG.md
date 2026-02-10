@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.6.1 - February 10, 2026
+### Changed
+- Retail: Update TOC to 12.0.1
+
 ## 5.6.0 - January 19, 2026
 ### Added
 - Retail: Added support for Midnight
