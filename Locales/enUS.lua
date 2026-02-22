@@ -711,10 +711,10 @@ L["Quest_5160_Note"] = "You find Awbee in the room after the Arena at "..YELLOW.
 L["Quest_5160_RewardText"] = AQ_NONE;
 L["Quest_5160_FollowQuest"] = "Wrath of the Blue Flight";
 
-L["Quest_5047_Name"] = "Finkle Einhorn, At Your Service!";
+L["Quest_5047_Name"] = "Pip Quickwit, At Your Service!";
 L["Quest_5047_Objective"] = "Talk to Malyfous Darkhammer in Everlook.";
-L["Quest_5047_Location"] = "Finkle Einhorn (Blackrock Spire; "..YELLOW.."[8]"..WHITE..")";
-L["Quest_5047_Note"] = "Finkle Einhorn spawns after skinning The Beast.  You find Malyfous Darkhammer at (Winterspring - Everlook; "..YELLOW.."61.0, 38.6"..WHITE..").";
+L["Quest_5047_Location"] = "Pip Quickwit (Blackrock Spire; "..YELLOW.."[8]"..WHITE..")";
+L["Quest_5047_Note"] = "Pip Quickwit spawns after skinning The Beast.  You find Malyfous Darkhammer at (Winterspring - Everlook; "..YELLOW.."61.0, 38.6"..WHITE..").";
 L["Quest_5047_RewardText"] = AQ_NONE;
 L["Quest_5047_FollowQuest"] = "Leggings of Arcana, Cap of the Scarlet Savant, Breastplate of Bloodthirst";
 
@@ -2207,7 +2207,7 @@ L["Quest_7632_Objective"] = "Find the owner of the Ancient Petrified Leaf.";
 L["Quest_7632_Location"] = "Ancient Petrified Leaf (drops from Cache of the Firelord; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7632_Note"] = "Turns in to Vartrus the Ancient at (Felwood - Irontree Woods; "..YELLOW.."48.8, 24.2"..WHITE..").";
 L["Quest_7632_RewardText"] = AQ_NONE;
-L["Quest_7632_FollowQuest"] = "Ancient Sinew Wrapped Lamina ("..YELLOW.."Azuregos"..WHITE..")";
+L["Quest_7632_FollowQuest"] = "An Introduction -> Ancient Sinew Wrapped Lamina ("..YELLOW.."Azuregos"..WHITE..")";
 
 L["Quest_8578_Name"] = "Scrying Goggles? No Problem!";
 L["Quest_8578_Objective"] = "Find Narain's Scrying Goggles and return them to Narain Soothfancy in Tanaris.";
@@ -2215,6 +2215,7 @@ L["Quest_8578_Location"] = "Inconspicuous Crate (Silverpine Forest - Greymane Wa
 L["Quest_8578_Note"] = "The quest turns in to Narain Soothfancy (Tanaris; "..YELLOW.."65.2, 18.6"..WHITE.."), which is also where the pre-quest is obtained.";
 L["Quest_8578_RewardText"] = WHITE.."1(x3)";
 L["Quest_8578_PreQuest"] = "Stewvul, Ex-B.F.F.";
+--L["Quest_8578_FollowQuest"] = "The Good News and The Bad News";
 
 L["Quest_7509_Name"] = "The Forging of Quel'Serrar";
 L["Quest_7509_Objective"] = "You must get Onyxia to breathe fire on the Unfired Ancient Blade. Once this is done, pick up the now Heated Ancient Blade. Be warned, a Heated Ancient Blade will not remain heated forever - time is of the essence.";
@@ -7412,39 +7413,39 @@ L["Quest_26034_PreQuest"] = "Trouble at Wyrmrest";
 
 L["Quest_28732_Name"] = "This Can Only Mean One Thing...";
 L["Quest_28732_Objective"] = "Take Finkle's Mole Machine to Blackrock Mountain.";
-L["Quest_28732_Location"] = "Finkle Einhorn (Mount Hyjal - Circle of Cinders; "..YELLOW.."42.6, 28.1"..WHITE..")";
-L["Quest_28732_Note"] = "The Mole Machine is nearby at "..YELLOW.."42.8, 28.9"..WHITE..". The quest turns in to Finkle Einhorn just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE..".";
+L["Quest_28732_Location"] = "Pip Quickwit (Mount Hyjal - Circle of Cinders; "..YELLOW.."42.6, 28.1"..WHITE..")";
+L["Quest_28732_Note"] = "The Mole Machine is nearby at "..YELLOW.."42.8, 28.9"..WHITE..". The quest turns in to Pip Quickwit just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE..".";
 L["Quest_28732_RewardText"] = AQ_NONE;
 L["Quest_28732_FollowQuest"] = "To the Chamber of Incineration!";
 
 L["Quest_28735_Name"] = "To the Chamber of Incineration!";
 L["Quest_28735_Objective"] = "Kill Rom'ogg Bonecrusher.";
-L["Quest_28735_Location"] = "Finkle Einhorn (Blackrock Caverns; "..GREEN.."[1']"..WHITE..")";
+L["Quest_28735_Location"] = "Pip Quickwit (Blackrock Caverns; "..GREEN.."[1']"..WHITE..")";
 L["Quest_28735_Note"] = "Rom'ogg Bonecrusher is the first boss, at "..YELLOW.."[1]"..WHITE..".";
 L["Quest_28735_RewardText"] = AQ_NONE;
 L["Quest_28735_PreQuest"] = "This Can Only Mean One Thing...";
 
 L["Quest_28737_Name"] = "What Is This Place?";
 L["Quest_28737_Objective"] = "Kill Corla, Herald of Twilight.";
-L["Quest_28737_Location"] = "Finkle Einhorn's Helmet or given automatically";
+L["Quest_28737_Location"] = "Pip Quickwit's Helmet or given automatically";
 L["Quest_28737_Note"] = "Corla, Herald of Twilight is at "..YELLOW.."[2]"..WHITE..".";
 L["Quest_28737_RewardText"] = AQ_NONE;
 
 L["Quest_28738_Name"] = "The Twilight Forge";
 L["Quest_28738_Objective"] = "Kill Karsh Steelbender.";
-L["Quest_28738_Location"] = "Finkle Einhorn's Helmet or given automatically";
+L["Quest_28738_Location"] = "Pip Quickwit's Helmet or given automatically";
 L["Quest_28738_Note"] = "Karsh Steelbender is at "..YELLOW.."[3]"..WHITE..".";
 L["Quest_28738_RewardText"] = AQ_NONE;
 
 L["Quest_28740_Name"] = "Do My Eyes Deceive Me?";
 L["Quest_28740_Objective"] = "Kill Beauty.";
-L["Quest_28740_Location"] = "Finkle Einhorn's Helmet or given automatically";
+L["Quest_28740_Location"] = "Pip Quickwit's Helmet or given automatically";
 L["Quest_28740_Note"] = "Beauty is at "..YELLOW.."[4]"..WHITE..".";
 L["Quest_28740_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 
 L["Quest_28741_Name"] = "Ascendant Lord Obsidius";
 L["Quest_28741_Objective"] = "Kill Ascendant Lord Obsidius.";
-L["Quest_28741_Location"] = "Finkle Einhorn's Helmet or given automatically";
+L["Quest_28741_Location"] = "Pip Quickwit's Helmet or given automatically";
 L["Quest_28741_Note"] = "Ascendant Lord Obsidius is at "..YELLOW.."[5]"..WHITE..".";
 L["Quest_28741_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 
@@ -8349,13 +8350,13 @@ L["Quest_37244_RewardText"] = WHITE.."1";
 
 L["Quest_37161_Name"] = "Family Traditions";
 L["Quest_37161_Objective"] = "Find Finkle's Improved Skinner in Blackrock Spire.";
-L["Quest_37161_Location"] = "Finkle Einhorn "..AQ_GARRISON;
+L["Quest_37161_Location"] = "Pip Quickwit "..AQ_GARRISON;
 L["Quest_37161_Note"] = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37161_RewardText"] = WHITE.."1";
 
 L["Quest_37236_Name"] = "Like Father, Like Son";
 L["Quest_37236_Objective"] = "Find Finkle's Improved Skinner in Blackrock Spire.";
-L["Quest_37236_Location"] = "Finkle Einhorn "..AQ_GARRISON;
+L["Quest_37236_Location"] = "Pip Quickwit "..AQ_GARRISON;
 L["Quest_37236_Note"] = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37236_RewardText"] = WHITE.."1";
 
