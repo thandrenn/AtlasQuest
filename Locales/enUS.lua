@@ -792,7 +792,6 @@ L["Quest_6502_Location"] = "Haleh (Winterspring; "..YELLOW.."54.4, 51.2"..WHITE.
 L["Quest_6502_Note"] = "This the last quest for Onyxia attunement.  More information about how to start the quest line is in the Blackrock Depths quest 'Marshal Windsor'.  You find General Drakkisath at "..YELLOW.."[9]"..WHITE..".";
 L["Quest_6502_RewardText"] = WHITE.."1";
 L["Quest_6502_PreQuest"] = "The Great Masquerade -> The Dragon's Eye";
-L["Quest_6502_FollowQuest"] = "No";
 
 L["Quest_4768_Name"] = "The Darkstone Tablet";
 L["Quest_4768_Objective"] = "Bring the Darkstone Tablet to Shadow Mage Vivian Lagrave in Kargath..";
@@ -1462,7 +1461,6 @@ L["Quest_8413_Location"] = "Bath'rah the Windwatcher (Alterac Mountains; "..YELL
 L["Quest_8413_Note"] = "Shaman quest.  1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center.";
 L["Quest_8413_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 L["Quest_8413_PreQuest"] = "Elemental Mastery -> Spirit Totem";
-L["Quest_8413_FollowQuest"] = "No";
 
 L["Quest_721_Name"] = "A Sign of Hope";
 L["Quest_721_Objective"] = "Find Hammertoe Grez in Uldaman.";
@@ -1768,8 +1766,6 @@ L["Quest_5528_Objective"] = "Free Booze.";
 L["Quest_5528_Location"] = "Stomper Kreeg (Dire Maul; "..YELLOW.."North, [2]"..WHITE..")";
 L["Quest_5528_Note"] = "Just talk to the NPC to accept and complete the quest at the same time.";
 L["Quest_5528_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."2";
-L["Quest_5528_PreQuest"] = "No";
-L["Quest_5528_FollowQuest"] = "No";
 
 L["Quest_7482_Name"] = "Elven Legends";
 L["Quest_7482_Objective"] = "Search Dire Maul for Kariel Winthalus. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find.";
@@ -2559,6 +2555,7 @@ L["Quest_7634_Note"] = "Kill Azuregos to get the Mature Blue Dragon Sinew. He wa
 L["Quest_7634_RewardText"] = WHITE.."1";
 L["Quest_7634_PreQuest"] = "The Ancient Leaf ("..YELLOW.."Molten Core"..WHITE..")";
 
+-- Burning Crusade Classic Quests
 L["Quest_9575_Name"] = "Weaken the Ramparts";
 L["Quest_9575_Objective"] = "Slay Watchkeeper Gargolmar, Omor the Unscarred and the drake, Nazan. Return Gargolmar's Hand, Omor's Hoof and Nazan's Head to Gunny at Honor Hold in Hellfire Peninsula.";
 L["Quest_9575_Location"] = "Lieutenant Chadwick (Hellfire Peninsula - Honor Hold; "..YELLOW.."56.6, 66.4"..WHITE..")";
@@ -5004,8 +5001,6 @@ L["Quest_27114_Objective"] = "Free Booze.";
 L["Quest_27114_Location"] = "Stomper Kreeg (Dire Maul - North; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_27114_Note"] = "Just talk to the NPC to accept and complete the quest at the same time.";
 L["Quest_27114_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."2"..AQ_OR..WHITE.."3"..AQ_OR..WHITE.."4";
-L["Quest_27114_PreQuest"] = "No";
-L["Quest_27114_FollowQuest"] = "No";
 
 L["Quest_27134_Name"] = "Ogre in the Field";
 L["Quest_27134_Objective"] = "Speak to the Stonemaul Ogre.";
