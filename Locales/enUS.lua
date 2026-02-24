@@ -2215,7 +2215,7 @@ L["Quest_8578_Location"] = "Inconspicuous Crate (Silverpine Forest - Greymane Wa
 L["Quest_8578_Note"] = "The quest turns in to Narain Soothfancy (Tanaris; "..YELLOW.."65.2, 18.6"..WHITE.."), which is also where the pre-quest is obtained.";
 L["Quest_8578_RewardText"] = WHITE.."1(x3)";
 L["Quest_8578_PreQuest"] = "Stewvul, Ex-B.F.F.";
---L["Quest_8578_FollowQuest"] = "The Good News and The Bad News";
+L["Quest_8578_FollowQuest"] = "The Good News and The Bad News";
 
 L["Quest_7509_Name"] = "The Forging of Quel'Serrar";
 L["Quest_7509_Objective"] = "You must get Onyxia to breathe fire on the Unfired Ancient Blade. Once this is done, pick up the now Heated Ancient Blade. Be warned, a Heated Ancient Blade will not remain heated forever - time is of the essence.";
