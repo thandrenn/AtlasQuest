@@ -421,6 +421,7 @@ L["Quest_4362_Objective"] = "Kehrt in die Schwarzfelstiefen zurück und rettet P
 L["Quest_4362_Location"] = "König Magni Bronzebeard (Ironforge; "..YELLOW.."39.4, 55.8"..WHITE..")";
 L["Quest_4362_Note"] = "Prinzessin Moira Bronzebeard ist bei "..YELLOW.."[21]"..WHITE..".  Du musst Imperator Dagran Thaurissan besiegen und die Prinzessin muss überleben um diese Quest abschließen zu können.  Die Prinzessin schickt dich zurück zu König Magni Bronzebeard in Ironforge für deine Belohnung.";
 L["Quest_4362_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+L["Quest_4362_PreQuest"] = "Der Überbringer schlechter Botschaften...";
 L["Quest_4362_FollowQuest"] = "Die Überraschung der Prinzessin";
 
 L["Quest_7848_Name"] = "Abstimmung mit dem Kern";
@@ -710,10 +711,10 @@ L["Quest_5160_Note"] = "Du findest Awbee in den Raum hinter der Arena bei "..YEL
 L["Quest_5160_RewardText"] = AQ_NONE;
 L["Quest_5160_FollowQuest"] = "Der Zorn des blauen Drachenschwarms";
 
-L["Quest_5047_Name"] = "Finkle Einhorn, zu Euren Diensten!";
+L["Quest_5047_Name"] = "Pip Quickwit, zu Euren Diensten!";
 L["Quest_5047_Objective"] = "Sprecht mit Malyfous Darkhammer in Everlook.";
-L["Quest_5047_Location"] = "Finkle Einhorn (Schwarzfelsspitze; "..YELLOW.."[7]"..WHITE..")";
-L["Quest_5047_Note"] = "Finkle Einhorn erscheint nach der Tötung der Bestie. Du findest Malyfous Darkhammer in (Winterspring - Everlook; "..YELLOW.."61.0, 38.6"..WHITE..").";
+L["Quest_5047_Location"] = "Pip Quickwit (Schwarzfelsspitze; "..YELLOW.."[7]"..WHITE..")";
+L["Quest_5047_Note"] = "Pip Quickwit erscheint nach der Tötung der Bestie. Du findest Malyfous Darkhammer in (Winterspring - Everlook; "..YELLOW.."61.0, 38.6"..WHITE..").";
 L["Quest_5047_RewardText"] = AQ_NONE;
 L["Quest_5047_FollowQuest"] = "Brustplatte des Blutdurstes, Gamaschen von Arcana, Kappe des scharlachroten Wissenden";
 
@@ -1278,12 +1279,16 @@ L["Quest_8968_Objective"] = "Benutzt das Räuchergefäß der Beschwörung, um di
 L["Quest_8968_Location"] = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")";
 L["Quest_8968_Note"] = "Ein extradimensionalen  Geisterdetektor wird benötigt um Bodley zu sehen. Du bekommst diese aus der Quest'Suche nach Anthion'\n\nJarien und Sothos erscheinen bei "..YELLOW.."[11]"..WHITE..".";
 L["Quest_8968_RewardText"] = AQ_NONE;
+L["Quest_8968_PreQuest"] = "Komponenten von großer Wichtigkeit";
+L["Quest_8968_FollowQuest"] = "Ich sehe die Insel Alcaz in Eurer Zukunft";
 
 L["Quest_8991_Name"] = "Das rechte Stück von Lord Valthalaks Amulett";
 L["Quest_8991_Objective"] = "Benutzt das Räuchergefäß der Beschwörung, um die Geister von Jarien und Sothos zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück.";
 L["Quest_8991_Location"] = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")";
 L["Quest_8991_Note"] = "Ein extradimensionalen  Geisterdetektor wird benötigt um Bodley zu sehen. Du bekommst diese aus der Quest'Suche nach Anthion'\n\nJarien und Sothos erscheinen bei "..YELLOW.."[11]"..WHITE..".";
 L["Quest_8991_RewardText"] = AQ_NONE;
+L["Quest_8991_PreQuest"] = "Mehr Komponenten von großer Wichtigkeit";
+L["Quest_8991_FollowQuest"] = "Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")";
 
 L["Quest_9257_Name"] = "Atiesh, Hohestab des Wächters";
 L["Quest_9257_Objective"] = "Anachronos in der Höhle der Zeit in Tanaris braucht Dich um 'Atiesh, Hohestab des Wächters' nach Stratholme zu bringen und benutze es an die geweihte Erde. Besiege die Erscheinung und kehre danach zurück.";
@@ -1371,6 +1376,7 @@ L["Quest_3373_Objective"] = "Legt die Essenz von Eranikus in den Essenzborn, der
 L["Quest_3373_Location"] = "Die Essenz des Eranikus (droppt vom Schatten des Eranikus; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_3373_Note"] = "Du findest die Essenz an dem Schatten von Eranikus bei "..YELLOW.."[6]"..WHITE..".";
 L["Quest_3373_RewardText"] = WHITE.."1";
+L["Quest_3373_FollowQuest"] = "Die Essenz des Eranikus";
 
 L["Quest_8422_Name"] = "Federn von Trollen";
 L["Quest_8422_Objective"] = "Bringt 6 Voodoofedern von den Trollen aus dem Versunkenen Tempel.";
@@ -1469,6 +1475,7 @@ L["Quest_722_Objective"] = "Sucht Hammertoes Amulett und bringt es ihm nach Ulda
 L["Quest_722_Location"] = "Hammertoe Grez (Uldaman; "..YELLOW.."[1] auf der Eingangskarte"..WHITE..").";
 L["Quest_722_Note"] = "Das Amulett droppt von Magregan Deepshadow bei "..YELLOW.."[2] auf der Eingangskarte"..WHITE..".";
 L["Quest_722_RewardText"] = AQ_NONE;
+L["Quest_722_PreQuest"] = "Ein Hoffnungsschimmer";
 L["Quest_722_FollowQuest"] = "Ein Funken Hoffnung";
 
 L["Quest_1139_Name"] = "Die verlorene Tafel des Willens";
@@ -1706,12 +1713,16 @@ L["Quest_8967_Objective"] = "Benutzt das Räuchergefäß der Beschwörung, um de
 L["Quest_8967_Location"] = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")";
 L["Quest_8967_Note"] = "Ein extradimensionalen  Geisterdetektor wird benötigt um Bodley zu sehen. Du bekommst diese aus der Quest'Suche nach Anthion'\n\nIsalien erscheint bei "..YELLOW.."[5]"..WHITE..".";
 L["Quest_8967_RewardText"] = AQ_NONE;
+L["Quest_8967_PreQuest"] = "Komponenten von großer Wichtigkeit";
+L["Quest_8967_FollowQuest"] = "Ich sehe die Insel Alcaz in Eurer Zukunft...";
 
 L["Quest_8990_Name"] = "Das rechte Stück von Lord Valthalaks Amulett";
 L["Quest_8990_Objective"] = "Benutzt das Räuchergefäß der Beschwörung, um den Geist von Isalien zu beschwören und zu vernichten. Kehrt dann mit Lord Valthalaks zusammengesetzten Amulett und dem Räuchergefäß der Beschwörung zu Bodley im Schwarzfels zurück.";
 L["Quest_8990_Location"] = "Bodley (Schwarzfels; "..YELLOW.."[D] auf der Eingangskarte"..WHITE..")";
 L["Quest_8990_Note"] = "Ein extradimensionalen  Geisterdetektor wird benötigt um Bodley zu sehen. Du bekommst diese aus der Quest'Suche nach Anthion'\n\nIsalien erscheint bei "..YELLOW.."[5]"..WHITE..".";
 L["Quest_8990_RewardText"] = AQ_NONE;
+L["Quest_8990_PreQuest"] = "Mehr Komponenten von großer Wichtigkeit";
+L["Quest_8990_FollowQuest"] = "Letzte Vorbereitungen ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")";
 
 L["Quest_7581_Name"] = "Das Fundament des Gefängnisses";
 L["Quest_7581_Objective"] = "Reist nach Düsterbruch in Feralas und holt Euch das Blut von 15 Satyrn der Wildhufe, die im Wucherborkenviertel ansässig sind. Kehrt anschließend zu Daio in der faulenden Narbe zurück.";
@@ -2545,6 +2556,9 @@ L["Quest_7634_Note"] = "Töte Azuregos um die Sehne eine ausgewachsenen blauen D
 L["Quest_7634_RewardText"] = WHITE.."1";
 L["Quest_7634_PreQuest"] = "Das uralte Blatt ("..YELLOW.."Molten Core"..WHITE..")";
 
+-- Burning Crusade Classic Quests
+
+-- Other Classic Quests
 L["Quest_13149_Name"] = "Illusionen bannen";
 L["Quest_13149_Objective"] = "Chromie möchte, dass Ihr den arkanen Disruptor auf die verdächtigen Kisten im Stratholme der Vergangenheit anwendet und sie anschließend am Eingang von Stratholme trefft.";
 L["Quest_13149_Location"] = "Chromie (Stratholme Past; "..YELLOW.."[1]"..WHITE..")";
@@ -6336,39 +6350,39 @@ L["Quest_26034_PreQuest"] = "Ärger am Wyrmruhtempel";
 
 L["Quest_28732_Name"] = "Das kann nur eins bedeuten...";
 L["Quest_28732_Objective"] = "Nehmt Finkles Maulwurfmaschine zum Schwarzfels.";
-L["Quest_28732_Location"] = "Finkle Einhorn (Berg Hyjal - Der Aschenzirkel; "..YELLOW.."42.6, 28.1"..WHITE..")";
-L["Quest_28732_Note"] = "Die Maulwurfmaschine ist in der Nähe von "..YELLOW.."42.8, 28.9"..WHITE..". Diese Quest bringt dich zu Finkle Einhorn innerhalb der Schwarzfelshöhlen am Eingang bei "..GREEN.."[1']"..WHITE..".";
+L["Quest_28732_Location"] = "Pip Quickwit (Berg Hyjal - Der Aschenzirkel; "..YELLOW.."42.6, 28.1"..WHITE..")";
+L["Quest_28732_Note"] = "Die Maulwurfmaschine ist in der Nähe von "..YELLOW.."42.8, 28.9"..WHITE..". Diese Quest bringt dich zu Pip Quickwit innerhalb der Schwarzfelshöhlen am Eingang bei "..GREEN.."[1']"..WHITE..".";
 L["Quest_28732_RewardText"] = AQ_NONE;
 L["Quest_28732_FollowQuest"] = "Zur Kammer der Verbrennung!";
 
 L["Quest_28735_Name"] = "Zur Kammer der Verbrennung!";
 L["Quest_28735_Objective"] = "Tötet Rom'ogg Knochenbrecher.";
-L["Quest_28735_Location"] = "Finkle Einhorn (Schwarzfelshöhlen; "..GREEN.."[1']"..WHITE..")";
+L["Quest_28735_Location"] = "Pip Quickwit (Schwarzfelshöhlen; "..GREEN.."[1']"..WHITE..")";
 L["Quest_28735_Note"] = "Rom'ogg Knochenbrecher ist der erste Boss, bei "..YELLOW.."[1]"..WHITE..".";
 L["Quest_28735_RewardText"] = AQ_NONE;
 L["Quest_28735_PreQuest"] = "Das kann nur eins bedeuten...";
 
 L["Quest_28737_Name"] = "Wo sind wir hier?";
 L["Quest_28737_Objective"] = "Tötet Corla, Botin des Zwielichts.";
-L["Quest_28737_Location"] = "Finkle Einhorns Helm gibt dir die Quest automatisch";
+L["Quest_28737_Location"] = "Pip Quickwits Helm gibt dir die Quest automatisch";
 L["Quest_28737_Note"] = "Corla, Botin des Zwielichts ist bei "..YELLOW.."[2]"..WHITE..".";
 L["Quest_28737_RewardText"] = AQ_NONE;
 
 L["Quest_28738_Name"] = "Die Zwielichtschmiede";
 L["Quest_28738_Objective"] = "Tötet Karsh Stahlbieger.";
-L["Quest_28738_Location"] = "Finkle Einhorns Helm gibt dir die Quest automatisch";
+L["Quest_28738_Location"] = "Pip Quickwits Helm gibt dir die Quest automatisch";
 L["Quest_28738_Note"] = "Karsh Stahlbieger ist bei "..YELLOW.."[3]"..WHITE..".";
 L["Quest_28738_RewardText"] = AQ_NONE;
 
 L["Quest_28740_Name"] = "Kann ich meinen Augen trauen?";
 L["Quest_28740_Objective"] = "Tötet Bella.";
-L["Quest_28740_Location"] = "Finkle Einhorns Helm gibt dir die Quest automatisch";
+L["Quest_28740_Location"] = "Pip Quickwits Helm gibt dir die Quest automatisch";
 L["Quest_28740_Note"] = "Bella ist bei "..YELLOW.."[4]"..WHITE..".";
 L["Quest_28740_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 
 L["Quest_28741_Name"] = "Aszendentenfürst Obsidius";
 L["Quest_28741_Objective"] = "Tötet Aszendentenfürst Obsidius.";
-L["Quest_28741_Location"] = "Finkle Einhorns Helm gibt dir die Quest automatisch";
+L["Quest_28741_Location"] = "Pip Quickwits Helm gibt dir die Quest automatisch";
 L["Quest_28741_Note"] = "Aszendentenfürst Obsidius ist bei "..YELLOW.."[5]"..WHITE..".";
 L["Quest_28741_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 
@@ -7273,13 +7287,13 @@ L["Quest_37244_RewardText"] = WHITE.."1";
 
 L["Quest_37161_Name"] = "Familientraditionen";
 L["Quest_37161_Objective"] = "Findet Finkles verbesserten Kürschner an der Schwarzfelsspitze.";
-L["Quest_37161_Location"] = "Finkle Einhorn "..AQ_GARRISON;
+L["Quest_37161_Location"] = "Pip Quickwit "..AQ_GARRISON;
 L["Quest_37161_Note"] = "Nur im heroischen Modus.  Finkles verbesserten Kürschner ist auf dem Boden in der Nähe von Knochen in dem Raum wo sich der zweite Boss Kyrak"..YELLOW.."[2]"..WHITE.." befindet.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37161_RewardText"] = WHITE.."1";
 
 L["Quest_37236_Name"] = "Wie der Vater so der Sohn";
 L["Quest_37236_Objective"] = "Findet Finkles verbesserten Kürschner an der Schwarzfelsspitze.";
-L["Quest_37236_Location"] = "Finkle Einhorn "..AQ_GARRISON;
+L["Quest_37236_Location"] = "Pip Quickwit "..AQ_GARRISON;
 L["Quest_37236_Note"] = "Nur im heroischen Modus.  Finkles verbesserten Kürschner ist auf dem Boden in der Nähe von Knochen in dem Raum wo sich der zweite Boss Kyrak"..YELLOW.."[2]"..WHITE.." befindet.\n\nDu musst den Endboss Kriegsfürstin Zaela bei "..YELLOW.."[5]"..WHITE.." besiegen, um diese Quest abzuschließen.";
 L["Quest_37236_RewardText"] = WHITE.."1";
 

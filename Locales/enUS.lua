@@ -711,10 +711,10 @@ L["Quest_5160_Note"] = "You find Awbee in the room after the Arena at "..YELLOW.
 L["Quest_5160_RewardText"] = AQ_NONE;
 L["Quest_5160_FollowQuest"] = "Wrath of the Blue Flight";
 
-L["Quest_5047_Name"] = "Finkle Einhorn, At Your Service!";
+L["Quest_5047_Name"] = "Pip Quickwit, At Your Service!";
 L["Quest_5047_Objective"] = "Talk to Malyfous Darkhammer in Everlook.";
-L["Quest_5047_Location"] = "Finkle Einhorn (Blackrock Spire; "..YELLOW.."[8]"..WHITE..")";
-L["Quest_5047_Note"] = "Finkle Einhorn spawns after skinning The Beast.  You find Malyfous Darkhammer at (Winterspring - Everlook; "..YELLOW.."61.0, 38.6"..WHITE..").";
+L["Quest_5047_Location"] = "Pip Quickwit (Blackrock Spire; "..YELLOW.."[8]"..WHITE..")";
+L["Quest_5047_Note"] = "Pip Quickwit spawns after skinning The Beast.  You find Malyfous Darkhammer at (Winterspring - Everlook; "..YELLOW.."61.0, 38.6"..WHITE..").";
 L["Quest_5047_RewardText"] = AQ_NONE;
 L["Quest_5047_FollowQuest"] = "Leggings of Arcana, Cap of the Scarlet Savant, Breastplate of Bloodthirst";
 
@@ -792,7 +792,6 @@ L["Quest_6502_Location"] = "Haleh (Winterspring; "..YELLOW.."54.4, 51.2"..WHITE.
 L["Quest_6502_Note"] = "This the last quest for Onyxia attunement.  More information about how to start the quest line is in the Blackrock Depths quest 'Marshal Windsor'.  You find General Drakkisath at "..YELLOW.."[9]"..WHITE..".";
 L["Quest_6502_RewardText"] = WHITE.."1";
 L["Quest_6502_PreQuest"] = "The Great Masquerade -> The Dragon's Eye";
-L["Quest_6502_FollowQuest"] = "No";
 
 L["Quest_4768_Name"] = "The Darkstone Tablet";
 L["Quest_4768_Objective"] = "Bring the Darkstone Tablet to Shadow Mage Vivian Lagrave in Kargath..";
@@ -1462,7 +1461,6 @@ L["Quest_8413_Location"] = "Bath'rah the Windwatcher (Alterac Mountains; "..YELL
 L["Quest_8413_Note"] = "Shaman quest.  1 Feather drops from each of the named trolls on the ledges overlooking the big room with the hole in the center.";
 L["Quest_8413_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 L["Quest_8413_PreQuest"] = "Elemental Mastery -> Spirit Totem";
-L["Quest_8413_FollowQuest"] = "No";
 
 L["Quest_721_Name"] = "A Sign of Hope";
 L["Quest_721_Objective"] = "Find Hammertoe Grez in Uldaman.";
@@ -1768,8 +1766,6 @@ L["Quest_5528_Objective"] = "Free Booze.";
 L["Quest_5528_Location"] = "Stomper Kreeg (Dire Maul; "..YELLOW.."North, [2]"..WHITE..")";
 L["Quest_5528_Note"] = "Just talk to the NPC to accept and complete the quest at the same time.";
 L["Quest_5528_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."2";
-L["Quest_5528_PreQuest"] = "No";
-L["Quest_5528_FollowQuest"] = "No";
 
 L["Quest_7482_Name"] = "Elven Legends";
 L["Quest_7482_Objective"] = "Search Dire Maul for Kariel Winthalus. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find.";
@@ -2211,7 +2207,7 @@ L["Quest_7632_Objective"] = "Find the owner of the Ancient Petrified Leaf.";
 L["Quest_7632_Location"] = "Ancient Petrified Leaf (drops from Cache of the Firelord; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7632_Note"] = "Turns in to Vartrus the Ancient at (Felwood - Irontree Woods; "..YELLOW.."48.8, 24.2"..WHITE..").";
 L["Quest_7632_RewardText"] = AQ_NONE;
-L["Quest_7632_FollowQuest"] = "Ancient Sinew Wrapped Lamina ("..YELLOW.."Azuregos"..WHITE..")";
+L["Quest_7632_FollowQuest"] = "An Introduction -> Ancient Sinew Wrapped Lamina ("..YELLOW.."Azuregos"..WHITE..")";
 
 L["Quest_8578_Name"] = "Scrying Goggles? No Problem!";
 L["Quest_8578_Objective"] = "Find Narain's Scrying Goggles and return them to Narain Soothfancy in Tanaris.";
@@ -2219,6 +2215,7 @@ L["Quest_8578_Location"] = "Inconspicuous Crate (Silverpine Forest - Greymane Wa
 L["Quest_8578_Note"] = "The quest turns in to Narain Soothfancy (Tanaris; "..YELLOW.."65.2, 18.6"..WHITE.."), which is also where the pre-quest is obtained.";
 L["Quest_8578_RewardText"] = WHITE.."1(x3)";
 L["Quest_8578_PreQuest"] = "Stewvul, Ex-B.F.F.";
+L["Quest_8578_FollowQuest"] = "The Good News and The Bad News";
 
 L["Quest_7509_Name"] = "The Forging of Quel'Serrar";
 L["Quest_7509_Objective"] = "You must get Onyxia to breathe fire on the Unfired Ancient Blade. Once this is done, pick up the now Heated Ancient Blade. Be warned, a Heated Ancient Blade will not remain heated forever - time is of the essence.";
@@ -2559,6 +2556,7 @@ L["Quest_7634_Note"] = "Kill Azuregos to get the Mature Blue Dragon Sinew. He wa
 L["Quest_7634_RewardText"] = WHITE.."1";
 L["Quest_7634_PreQuest"] = "The Ancient Leaf ("..YELLOW.."Molten Core"..WHITE..")";
 
+-- Burning Crusade Classic Quests
 L["Quest_9575_Name"] = "Weaken the Ramparts";
 L["Quest_9575_Objective"] = "Slay Watchkeeper Gargolmar, Omor the Unscarred and the drake, Nazan. Return Gargolmar's Hand, Omor's Hoof and Nazan's Head to Gunny at Honor Hold in Hellfire Peninsula.";
 L["Quest_9575_Location"] = "Lieutenant Chadwick (Hellfire Peninsula - Honor Hold; "..YELLOW.."56.6, 66.4"..WHITE..")";
@@ -5004,8 +5002,6 @@ L["Quest_27114_Objective"] = "Free Booze.";
 L["Quest_27114_Location"] = "Stomper Kreeg (Dire Maul - North; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_27114_Note"] = "Just talk to the NPC to accept and complete the quest at the same time.";
 L["Quest_27114_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."2"..AQ_OR..WHITE.."3"..AQ_OR..WHITE.."4";
-L["Quest_27114_PreQuest"] = "No";
-L["Quest_27114_FollowQuest"] = "No";
 
 L["Quest_27134_Name"] = "Ogre in the Field";
 L["Quest_27134_Objective"] = "Speak to the Stonemaul Ogre.";
@@ -7417,39 +7413,39 @@ L["Quest_26034_PreQuest"] = "Trouble at Wyrmrest";
 
 L["Quest_28732_Name"] = "This Can Only Mean One Thing...";
 L["Quest_28732_Objective"] = "Take Finkle's Mole Machine to Blackrock Mountain.";
-L["Quest_28732_Location"] = "Finkle Einhorn (Mount Hyjal - Circle of Cinders; "..YELLOW.."42.6, 28.1"..WHITE..")";
-L["Quest_28732_Note"] = "The Mole Machine is nearby at "..YELLOW.."42.8, 28.9"..WHITE..". The quest turns in to Finkle Einhorn just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE..".";
+L["Quest_28732_Location"] = "Pip Quickwit (Mount Hyjal - Circle of Cinders; "..YELLOW.."42.6, 28.1"..WHITE..")";
+L["Quest_28732_Note"] = "The Mole Machine is nearby at "..YELLOW.."42.8, 28.9"..WHITE..". The quest turns in to Pip Quickwit just inside the Blackrock Caverns entrance at "..GREEN.."[1']"..WHITE..".";
 L["Quest_28732_RewardText"] = AQ_NONE;
 L["Quest_28732_FollowQuest"] = "To the Chamber of Incineration!";
 
 L["Quest_28735_Name"] = "To the Chamber of Incineration!";
 L["Quest_28735_Objective"] = "Kill Rom'ogg Bonecrusher.";
-L["Quest_28735_Location"] = "Finkle Einhorn (Blackrock Caverns; "..GREEN.."[1']"..WHITE..")";
+L["Quest_28735_Location"] = "Pip Quickwit (Blackrock Caverns; "..GREEN.."[1']"..WHITE..")";
 L["Quest_28735_Note"] = "Rom'ogg Bonecrusher is the first boss, at "..YELLOW.."[1]"..WHITE..".";
 L["Quest_28735_RewardText"] = AQ_NONE;
 L["Quest_28735_PreQuest"] = "This Can Only Mean One Thing...";
 
 L["Quest_28737_Name"] = "What Is This Place?";
 L["Quest_28737_Objective"] = "Kill Corla, Herald of Twilight.";
-L["Quest_28737_Location"] = "Finkle Einhorn's Helmet or given automatically";
+L["Quest_28737_Location"] = "Pip Quickwit's Helmet or given automatically";
 L["Quest_28737_Note"] = "Corla, Herald of Twilight is at "..YELLOW.."[2]"..WHITE..".";
 L["Quest_28737_RewardText"] = AQ_NONE;
 
 L["Quest_28738_Name"] = "The Twilight Forge";
 L["Quest_28738_Objective"] = "Kill Karsh Steelbender.";
-L["Quest_28738_Location"] = "Finkle Einhorn's Helmet or given automatically";
+L["Quest_28738_Location"] = "Pip Quickwit's Helmet or given automatically";
 L["Quest_28738_Note"] = "Karsh Steelbender is at "..YELLOW.."[3]"..WHITE..".";
 L["Quest_28738_RewardText"] = AQ_NONE;
 
 L["Quest_28740_Name"] = "Do My Eyes Deceive Me?";
 L["Quest_28740_Objective"] = "Kill Beauty.";
-L["Quest_28740_Location"] = "Finkle Einhorn's Helmet or given automatically";
+L["Quest_28740_Location"] = "Pip Quickwit's Helmet or given automatically";
 L["Quest_28740_Note"] = "Beauty is at "..YELLOW.."[4]"..WHITE..".";
 L["Quest_28740_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 
 L["Quest_28741_Name"] = "Ascendant Lord Obsidius";
 L["Quest_28741_Objective"] = "Kill Ascendant Lord Obsidius.";
-L["Quest_28741_Location"] = "Finkle Einhorn's Helmet or given automatically";
+L["Quest_28741_Location"] = "Pip Quickwit's Helmet or given automatically";
 L["Quest_28741_Note"] = "Ascendant Lord Obsidius is at "..YELLOW.."[5]"..WHITE..".";
 L["Quest_28741_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 
@@ -8354,13 +8350,13 @@ L["Quest_37244_RewardText"] = WHITE.."1";
 
 L["Quest_37161_Name"] = "Family Traditions";
 L["Quest_37161_Objective"] = "Find Finkle's Improved Skinner in Blackrock Spire.";
-L["Quest_37161_Location"] = "Finkle Einhorn "..AQ_GARRISON;
+L["Quest_37161_Location"] = "Pip Quickwit "..AQ_GARRISON;
 L["Quest_37161_Note"] = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37161_RewardText"] = WHITE.."1";
 
 L["Quest_37236_Name"] = "Like Father, Like Son";
 L["Quest_37236_Objective"] = "Find Finkle's Improved Skinner in Blackrock Spire.";
-L["Quest_37236_Location"] = "Finkle Einhorn "..AQ_GARRISON;
+L["Quest_37236_Location"] = "Pip Quickwit "..AQ_GARRISON;
 L["Quest_37236_Note"] = "Requires Heroic Difficulty.  Finkle's Improved Skinner is on the ground near some bones in the room where you find the second boss, Kyrak at "..YELLOW.."[2]"..WHITE..".\n\nYou must also defeat the final boss, Warlord Zaela at "..YELLOW.."[5]"..WHITE.." to complete the quest.";
 L["Quest_37236_RewardText"] = WHITE.."1";
 
