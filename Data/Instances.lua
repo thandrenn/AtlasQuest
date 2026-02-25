@@ -442,6 +442,11 @@ if (select(4, GetBuildInfo()) > 90000) then
 			-- Dragonflight Instances
 			-- NOT ADDED TO ATLAS
 
+			-- TWW Instances
+			-- NOT ADDED TO ATLAS
+
+			-- Midnight Instances
+			-- NOT ADDED TO ATLAS
 
 			-- Battlegrounds
 			["Atlas_Battlegrounds\\Images\\AlteracValleyNorth"] = 33,
