@@ -12,7 +12,6 @@ local PREV = "|r";
 
 local AQ_OR = GREY.." 或 ";
 local AQ_AND = GREY.." 和 ";
-local AQ_NONE = WHITE.."毫不";
 
 -- Globals
 L["Quests"] = "任务";
@@ -119,7 +118,6 @@ L["Quest_4262_Name"] = "征服者派隆";
 L["Quest_4262_Objective"] = "杀掉征服者派隆，然后向加琳达复命。";
 L["Quest_4262_Location"] = "加琳达（燃烧平原 - 摩根的岗哨; "..YELLOW.."85,69"..WHITE.."）";
 L["Quest_4262_Note"] = "征服者派隆是副本门口外面的一个火元素精英。在黑石深渊地图的 "..YELLOW.."[24]"..WHITE.."，黑石深渊副本入口地图的 "..YELLOW.."[1]"..WHITE.."。";
-L["Quest_4262_RewardText"] = AQ_NONE;
 L["Quest_4262_FollowQuest"] = "伊森迪奥斯！";
 
 L["Quest_4263_Name"] = "伊森迪奥斯！";
@@ -133,7 +131,6 @@ L["Quest_4123_Name"] = "山脉之心";
 L["Quest_4123_Objective"] = "把山脉之心交给燃烧平原的麦克斯沃特·尤博格林。";
 L["Quest_4123_Location"] = "麦克斯沃特·尤博格林（燃烧平原 - 烈焰峰; "..YELLOW.."65,23"..WHITE.."）";
 L["Quest_4123_Note"] = "你可以从 "..YELLOW.."[8]"..WHITE.." 的宝箱里找到山脉之心。你必须打开黑色宝库所有的小宝箱出来 Boss 之后才能拿到钥匙。";
-L["Quest_4123_RewardText"] = AQ_NONE;
 
 L["Quest_4286_Name"] = "好东西";
 L["Quest_4286_Objective"] = "到黑石深渊去找到20个黑铁挎包。当你完成任务之后，回到奥拉留斯那里复命。你认为黑石深渊里的黑铁矮人应该会有这些黑铁挎包。";
@@ -152,7 +149,6 @@ L["Quest_4341_Name"] = "卡兰·巨锤";
 L["Quest_4341_Objective"] = "去黑石深渊找到卡兰·巨锤。\n国王提到卡兰在那里负责看守囚犯——也许你应该在监狱附近寻找他。";
 L["Quest_4341_Location"] = "国王麦格尼·铜须（铁炉堡; "..YELLOW.."39,55"..WHITE.."）";
 L["Quest_4341_Note"] = "前置任务始于皇家历史学家阿克瑟努斯（铁炉堡; "..YELLOW.."38,55"..WHITE.."）。卡兰·巨锤位于 "..YELLOW.."[2]"..WHITE.."。";
-L["Quest_4341_RewardText"] = AQ_NONE;
 L["Quest_4341_PreQuest"] = "true";
 L["Quest_4341_FollowQuest"] = "糟糕的消息";
 
@@ -168,26 +164,22 @@ L["Quest_7848_Name"] = "熔火之心的传送门";
 L["Quest_7848_Objective"] = "进入黑石深渊，在通往熔火之心的传送门附近找到一块熔火碎片，然后回到黑石山脉的洛索斯·天痕那里。";
 L["Quest_7848_Location"] = "洛索斯·天痕（黑石山; "..YELLOW.."副本入口地图[2]"..WHITE.."）";
 L["Quest_7848_Note"] = "完成这个任务之后你就可以从洛索斯·天痕旁边的传送石进入熔火之心。\n熔火碎片在 "..YELLOW.."[23]"..WHITE.."。";
-L["Quest_7848_RewardText"] = AQ_NONE;
 
 L["Quest_9015_Name"] = "挑战（T0.5升级任务）";
 L["Quest_9015_Objective"] = "前往黑石深渊竞技场并在你被裁决者格里斯通宣判时将挑衅旗帜放在它的中央。杀死瑟尔伦和他的战士们，再带着第一块瓦萨拉克护符回到东瘟疫之地的安希恩·哈莫那里。";
 L["Quest_9015_Location"] = "法尔林·树影（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1]"..WHITE.."）";
 L["Quest_9015_Note"] = "对于不同的职业后续任务是不同的。";
-L["Quest_9015_RewardText"] = AQ_NONE;
 L["Quest_9015_FollowQuest"] = "各个职业的职业任务（T0.5升级任务）";
 
 L["Quest_4083_Name"] = "鬼魂之杯";
 L["Quest_4083_Objective"] = "鬼魂之杯的塞娜尼·雷心要你找到他想要的材料。";
 L["Quest_4083_Location"] = "塞娜尼·雷心（黑石深渊; "..YELLOW.."[18]"..WHITE.."）";
 L["Quest_4083_Note"] = "只有采矿技能大于230才能接到此任务，这个任务会是你学会如何熔炼黑铁矿石。材料如下：2个[红宝石]，20个[金锭]，10个[真银锭]。完成之后，如果你有[黑铁矿石]你可以在黑熔炉"..YELLOW.."[22]"..WHITE.."熔炼黑铁。";
-L["Quest_4083_RewardText"] = AQ_NONE;
 
 L["Quest_4241_Name"] = "科林的烈酒";
 L["Quest_4241_Objective"] = "将科林的烈酒交给铁炉堡附近美酒节营地的埃菲库格·铁桶。";
 L["Quest_4241_Location"] = "科林的烈酒（掉落自科林·烈酒 "..YELLOW.."[15]"..WHITE.."）";
 L["Quest_4241_Note"] = "这个任务只能在美酒节期间可以接到。任务物品每个角色只可获取一次。\n\n埃菲库格·铁桶在美酒节营地（丹莫罗; "..YELLOW.."47,39"..WHITE.."）。";
-L["Quest_4241_RewardText"] = AQ_NONE;
 
 L["Quest_4134_Name"] = "遗失的雷酒秘方";
 L["Quest_4134_Objective"] = "把遗失的雷酒秘方交给卡加斯的薇薇安·拉格雷。";
@@ -200,14 +192,12 @@ L["Quest_4081_Name"] = "格杀勿论：黑铁矮人";
 L["Quest_4081_Objective"] = "到黑石深渊去消灭那些邪恶的侵略者！军官高图斯要你去杀死15个铁怒卫士、10个铁怒狱卒和5个铁怒步兵。完成任务之后回去向他复命。";
 L["Quest_4081_Location"] = "通缉（荒芜之地 - 卡加斯; "..YELLOW.."3,47"..WHITE.."）";
 L["Quest_4081_Note"] = "矮人可在黑石深渊第一部分找到。\n卡加斯的高图斯在瞭望塔顶（荒芜之地; "..YELLOW.."5,47"..WHITE.."）。";
-L["Quest_4081_RewardText"] = AQ_NONE;
 L["Quest_4081_FollowQuest"] = "格杀勿论：高阶黑铁军官";
 
 L["Quest_4082_Name"] = "格杀勿论：高阶黑铁军官";
 L["Quest_4082_Objective"] = "到黑石深渊去消灭那些邪恶的侵略者！高图斯军阀要你杀死10个铁怒医师、10个铁怒士兵和10个铁怒军官。完成任务之后回去向他复命。";
 L["Quest_4082_Location"] = "通缉（荒芜之地 - 卡加斯; "..YELLOW.."3,47"..WHITE.."）";
 L["Quest_4082_Note"] = "矮人可以在"..YELLOW.."[11]"..WHITE.."贝尔加附近被找到。卡加斯的高图斯在瞭望塔顶（荒芜之地; "..YELLOW.."5,47"..WHITE.."）。\n任务开始于雷克斯洛特（荒芜之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）。格拉克·洛克鲁布位置在燃烧平原（"..YELLOW.."38,35"..WHITE.."）。要绑定他并开始护送任务（精英），他的生命需要减少到低于50%。";
-L["Quest_4082_RewardText"] = AQ_NONE;
 L["Quest_4082_PreQuest"] = "格杀勿论：黑铁矮人";
 L["Quest_4082_FollowQuest"] = "格拉克·洛克鲁布 -> 押送囚徒（护送任务）";
 
@@ -229,7 +219,6 @@ L["Quest_3906_Name"] = "不和谐的烈焰";
 L["Quest_3906_Objective"] = "到黑石山脉的采石场去干掉征服者派隆，然后向桑德哈特回报。";
 L["Quest_3906_Location"] = "桑德哈特（荒芜之地 - 卡加斯; "..YELLOW.."3,48"..WHITE.."）";
 L["Quest_3906_Note"] = "征服者派隆是副本门口外面的一个火元素精英。在黑石深渊 "..YELLOW.."副本入口地图[1]"..WHITE.."。";
-L["Quest_3906_RewardText"] = AQ_NONE;
 L["Quest_3906_FollowQuest"] = "不和谐的火焰";
 
 L["Quest_3907_Name"] = "不和谐的火焰";
@@ -250,7 +239,6 @@ L["Quest_3981_Name"] = "指挥官哥沙克";
 L["Quest_3981_Objective"] = "在黑石深渊里找到指挥官哥沙克。\n在那幅草图上画着的是一个铁栏后面的兽人，也许你应该到某个类似监狱的地方去找找看。";
 L["Quest_3981_Location"] = "神射手贾拉玛弗（荒芜之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）";
 L["Quest_3981_Note"] = "前置任务来自桑德哈特（荒芜之地 - 卡加斯; "..YELLOW.."3,48"..PREV.."）。派隆就在副本入口处前。\n你能在 "..YELLOW.."[3]"..PREV.." 找到指挥官哥沙克。位于 "..YELLOW.."[5]"..PREV.." 的审讯官格斯塔恩掉落打开监狱的钥匙。如果你跟他交谈并开始下一个任务，敌人便会出现。";
-L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "不和谐的烈焰";
 L["Quest_3981_FollowQuest"] = "出了什么事？";
 
@@ -279,7 +267,6 @@ L["Quest_8288_Name"] = "唯一的领袖";
 L["Quest_8288_Objective"] = "将勒什雷尔的头颅交给希利苏斯塞纳里奥要塞的流沙守望者巴里斯托尔斯。";
 L["Quest_8288_Location"] = "勒什雷尔的头颅掉落自（勒什雷尔; "..YELLOW.."[3]"..WHITE.."）";
 L["Quest_8288_Note"] = "只有一人能拾取头颅。（现版本不再限一人）";
-L["Quest_8288_RewardText"] = AQ_NONE;
 L["Quest_8288_FollowQuest"] = "正义之路";
 
 L["Quest_7783_Name"] = "黑石之王";
@@ -331,7 +318,6 @@ L["Quest_5001_Name"] = "比修的装置";
 L["Quest_5001_Objective"] = "找到比修的装置并把它们还给她。祝你好运！";
 L["Quest_5001_Location"] = "比修（下层黑石塔; "..YELLOW.."[3]"..WHITE.."）";
 L["Quest_5001_Note"] = "你可以在前往烟网蛛后的路上找到比修的装置 "..YELLOW.."[13]"..WHITE.."。\n麦克斯韦元帅（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,58"..WHITE.."）。";
-L["Quest_5001_RewardText"] = AQ_NONE;
 L["Quest_5001_FollowQuest"] = "给麦克斯韦尔的消息";
 
 L["Quest_5081_Name"] = "麦克斯韦尔的任务";
@@ -345,21 +331,18 @@ L["Quest_4742_Name"] = "晋升印章";
 L["Quest_4742_Objective"] = "找到三块命令宝石：燃棘宝钻、尖石宝钻和血斧宝钻。把它们和原始晋升印章一起交给维埃兰。";
 L["Quest_4742_Location"] = "维埃兰（下层黑石塔; "..YELLOW.."[1]"..WHITE.."）";
 L["Quest_4742_Note"] = "燃棘宝钻从欧莫克大王 "..YELLOW.."[5]"..WHITE.."，尖石宝钻从指挥官沃恩 "..YELLOW.."[9]"..WHITE.."，血斧宝钻从维姆萨拉克 "..YELLOW.."[19]"..WHITE.."获得。原始晋升印章是黑石塔所有小怪掉落，完成这个之后你就能得到上层黑石塔的钥匙。";
-L["Quest_4742_RewardText"] = AQ_NONE;
 L["Quest_4742_FollowQuest"] = "晋升印章";
 
 L["Quest_5089_Name"] = "达基萨斯将军的命令";
 L["Quest_5089_Objective"] = "把达基萨斯将军的命令交给燃烧平原的麦克斯韦尔元帅。";
 L["Quest_5089_Location"] = "达基萨斯将军的命令掉落自（维姆萨拉克; "..YELLOW.."[19]"..WHITE.."）";
 L["Quest_5089_Note"] = "麦克斯韦尔元帅（燃烧平原 - 摩根的岗哨; "..YELLOW.."84,58"..WHITE.."）";
-L["Quest_5089_RewardText"] = AQ_NONE;
 L["Quest_5089_FollowQuest"] = "达基萨斯将军之死（"..YELLOW.."上层黑石塔"..WHITE.."）";
 
 L["Quest_8966_Name"] = "瓦塔拉克饰品的左瓣";
 L["Quest_8966_Objective"] = "使用召唤火盆召唤出莫尔·灰蹄的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给黑石山的伯德雷。";
 L["Quest_8966_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）";
 L["Quest_8966_Note"] = "你需要超维度幽灵显形器才能看到伯德雷，你可以从《寻找安泰恩》任务得到它。\n\n莫尔·灰蹄在 "..YELLOW.."[9]"..WHITE.." 召唤。";
-L["Quest_8966_RewardText"] = AQ_NONE;
 L["Quest_8966_PreQuest"] = "true";
 L["Quest_8966_FollowQuest"] = "奥卡兹岛在你前方……";
 
@@ -367,7 +350,6 @@ L["Quest_8989_Name"] = "瓦塔拉克饰品的右瓣";
 L["Quest_8989_Objective"] = "在比斯巨兽的房间里使用召唤火盆，召唤瓦塔拉克公爵。杀死他，对尸体使用瓦塔拉克的饰品。然后将瓦塔拉克的饰品还给瓦塔拉克公爵之魂。";
 L["Quest_8989_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）";
 L["Quest_8989_Note"] = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n莫尔·灰蹄在 "..YELLOW.."[9]"..WHITE.." 召唤。";
-L["Quest_8989_RewardText"] = AQ_NONE;
 L["Quest_8989_PreQuest"] = "true";
 L["Quest_8989_FollowQuest"] = "最后的准备（"..YELLOW.."上层黑石塔"..WHITE.."）";
 
@@ -394,7 +376,6 @@ L["Quest_4981_Name"] = "狡猾的比修";
 L["Quest_4981_Objective"] = "到黑石塔去查明比修的下落。";
 L["Quest_4981_Location"] = "雷克斯洛特（荒芜之地 - 卡加斯; "..YELLOW.."5,47"..WHITE.."）";
 L["Quest_4981_Note"] = "比修在 "..YELLOW.."[8]"..WHITE.."。";
-L["Quest_4981_RewardText"] = AQ_NONE;
 L["Quest_4981_FollowQuest"] = "比修的装置";
 
 L["Quest_4982_Name"] = "比修的装置";
@@ -416,14 +397,12 @@ L["Quest_5160_Name"] = "监护者";
 L["Quest_5160_Objective"] = "到冬泉谷去找到哈尔琳，把奥比的鳞片交给她。";
 L["Quest_5160_Location"] = "奥比（上层黑石塔; "..YELLOW.."[7]"..WHITE.."）";
 L["Quest_5160_Note"] = "你可以在竞技场边上的房间找到奥比 "..YELLOW.."[7]"..WHITE.."。它呆在一个突出物上面。\n哈尔琳在冬泉谷（"..YELLOW.."54,51"..WHITE.."）。在冬泉谷的洞里的最里面通过站在传送符文上从而到她身边。";
-L["Quest_5160_RewardText"] = AQ_NONE;
 L["Quest_5160_FollowQuest"] = "蓝龙之怒";
 
 L["Quest_5047_Name"] = "芬克·恩霍尔，为您效劳！";
 L["Quest_5047_Objective"] = "与永望镇的玛雷弗斯·暗锤谈一谈。";
 L["Quest_5047_Location"] = "芬克·恩霍尔（上层黑石塔; "..YELLOW.."[8]"..WHITE.."）";
 L["Quest_5047_Note"] = "芬克·恩霍尔会在拨完比斯巨兽的皮后出现。玛雷弗斯·暗锤（冬泉谷 - 永望镇; "..YELLOW.."61,38"..WHITE.."）。";
-L["Quest_5047_RewardText"] = AQ_NONE;
 L["Quest_5047_FollowQuest"] = "阿卡纳护腿，血色学者之帽，嗜血胸甲";
 
 L["Quest_4734_Name"] = "冷冻龙蛋";
@@ -438,7 +417,6 @@ L["Quest_6821_Name"] = "艾博希尔之眼";
 L["Quest_6821_Objective"] = "将艾博希尔之眼交给艾萨拉的海达克西斯公爵。";
 L["Quest_6821_Location"] = "海达克西斯公爵（艾萨拉; "..YELLOW.."79,73"..WHITE.."）";
 L["Quest_6821_Note"] = "你可以找到艾博希尔在 "..YELLOW.."[1]"..WHITE.."。\n\n补丁3.0.8之后，将不能开始这个任务线。如果你已经有了这个任务，依然可以完成。";
-L["Quest_6821_RewardText"] = AQ_NONE;
 L["Quest_6821_PreQuest"] = "true";
 L["Quest_6821_FollowQuest"] = "熔火之心";
 
@@ -461,13 +439,11 @@ L["Quest_7761_Name"] = "黑手的命令";
 L["Quest_7761_Objective"] = "真是个愚蠢的兽人。看来你需要找到那枚烙印并获得达基萨斯徽记才可以使用命令宝珠。";
 L["Quest_7761_Location"] = "黑手的命令掉落自（"..YELLOW.."副本入口地图[7]"..WHITE.."）裂盾军需官。";
 L["Quest_7761_Note"] = "黑翼之巢的进门任务。你可以在黑石塔副本的门口右侧附近找到裂盾军需官，宝珠就在达基萨斯将军 "..YELLOW.."[9]"..WHITE.." 身后。";
-L["Quest_7761_RewardText"] = AQ_NONE;
 
 L["Quest_8994_Name"] = "最后的准备";
 L["Quest_8994_Objective"] = "从黑石塔的兽人那儿收集40副黑石护腕，把它们和一瓶超级能量合剂一起交给黑石山的伯德雷。";
 L["Quest_8994_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）";
 L["Quest_8994_Note"] = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。黑石塔的兽人掉落黑石护腕。超级能量合剂是炼金制造。";
-L["Quest_8994_RewardText"] = AQ_NONE;
 L["Quest_8994_PreQuest"] = "true";
 L["Quest_8994_FollowQuest"] = "瓦塔拉克公爵";
 
@@ -489,7 +465,6 @@ L["Quest_4735_Name"] = "收集龙蛋";
 L["Quest_4735_Objective"] = "将电动采集模块和8颗收集到的龙蛋交给燃烧平原烈焰峰的丁奇·斯迪波尔。";
 L["Quest_4735_Location"] = "丁奇·斯迪波尔（燃烧平原 - 烈焰峰; "..YELLOW.."65,24"..WHITE.."）";
 L["Quest_4735_Note"] = "这些龙蛋就在烈焰之父"..YELLOW.."[2]"..WHITE.."的房间里。";
-L["Quest_4735_RewardText"] = AQ_NONE;
 L["Quest_4735_PreQuest"] = "true";
 L["Quest_4735_FollowQuest"] = "莱尼德·巴萨罗梅 -> 黎明先锋（"..YELLOW.."通灵学院"..WHITE.."）";
 
@@ -512,7 +487,6 @@ L["Quest_6569_Name"] = "黑龙幻像";
 L["Quest_6569_Objective"] = "到黑石塔去收集20颗黑色龙人的眼球，完成任务之后回到巫女麦兰达那里。";
 L["Quest_6569_Location"] = "巫女麦兰达（西瘟疫之地; "..YELLOW.."50,77"..WHITE.."）";
 L["Quest_6569_Note"] = "黑色的龙会掉落眼球。";
-L["Quest_6569_RewardText"] = AQ_NONE;
 L["Quest_6569_PreQuest"] = "风吹来的消息 -> 幻术的欺诈";
 L["Quest_6569_FollowQuest"] = "埃博斯塔夫";
 
@@ -568,21 +542,18 @@ L["Quest_373_Name"] = "未寄出的信";
 L["Quest_373_Objective"] = "搜查艾德温·范克里夫的尸体时，你从一堆杂乱的物品中找到了一封还未来得及发出的信。地址一栏上写着巴隆斯·阿历克斯顿，暴风城石工协会，城市大厅，教堂广场。";
 L["Quest_373_Location"] = "未寄出的信掉落自（艾德温·范克里夫; "..YELLOW.."[6]"..WHITE.."）";
 L["Quest_373_Note"] = "巴隆斯·阿历克斯顿在暴风城光明大教堂旁边 "..YELLOW.."58,49"..WHITE.."。";
-L["Quest_373_RewardText"] = AQ_NONE;
 L["Quest_373_FollowQuest"] = "巴基尔·斯瑞德";
 
 L["Quest_2922_Name"] = "拯救尖端机器人！";
 L["Quest_2922_Objective"] = "将尖端机器人的存储器核心交给铁炉堡的工匠大师欧沃斯巴克。";
 L["Quest_2922_Location"] = "工匠大师欧沃斯巴克（铁炉堡 - 侏儒区; "..YELLOW.."69,50 "..WHITE.."）";
 L["Quest_2922_Note"] = "你可以在萨尔努修士（暴风城 - 教堂广场; "..YELLOW.."51,48"..WHITE.."）那儿接到此任务的前置任务。\n在你进入副本之前，后门附近 "..YELLOW.."副本入口地图[4]"..WHITE.."，可以找到尖端机器人。";
-L["Quest_2922_RewardText"] = AQ_NONE;
 L["Quest_2922_PreQuest"] = "true";
 
 L["Quest_2926_Name"] = "诺恩";
 L["Quest_2926_Objective"] = "用空铅瓶对着辐射入侵者或者辐射抢劫者，从它们身上收集放射尘。瓶子装满之后，把它交给卡拉诺斯的奥齐·电环。";
 L["Quest_2926_Location"] = "奥齐·电环（丹莫罗 - 卡拉诺斯; "..YELLOW.."45,49 "..WHITE.."）";
 L["Quest_2926_Note"] = "你可以在诺恩（铁炉堡 - 侏儒区; "..YELLOW.."69,50"..WHITE.."）那儿得到此任务的前置任务。\n要得到辐射尘，你必须对 "..RED.."活的"..WHITE.." 辐射入侵者或者辐射抢劫者使用空铅瓶。";
-L["Quest_2926_RewardText"] = AQ_NONE;
 L["Quest_2926_PreQuest"] = "true";
 L["Quest_2926_FollowQuest"] = "更多的辐射尘";
 
@@ -590,7 +561,6 @@ L["Quest_2962_Name"] = "更多的辐射尘！";
 L["Quest_2962_Objective"] = "到诺莫瑞根去收集高强度辐射尘。要多加小心，这种辐射尘非常不稳定，很快就会分解。奥齐要求你把沉重的铅瓶也交给他。";
 L["Quest_2962_Location"] = "奥齐·电环（丹莫罗 - 卡拉诺斯; "..YELLOW.."45,49 "..WHITE.."）";
 L["Quest_2962_Note"] = "要得到辐射尘，你必须对 "..RED.."活的"..WHITE.." 辐射泥浆怪，辐射潜伏者，辐射水元素使用沉重的铅瓶。";
-L["Quest_2962_RewardText"] = AQ_NONE;
 L["Quest_2962_PreQuest"] = "诺恩";
 
 L["Quest_2928_Name"] = "陀螺式挖掘机";
@@ -603,7 +573,6 @@ L["Quest_2924_Name"] = "基础模组";
 L["Quest_2924_Objective"] = "收集12个基础模组，把它们交给铁炉堡的科劳莫特·钢尺。";
 L["Quest_2924_Location"] = "科劳莫特·钢尺（铁炉堡 - 侏儒区; "..YELLOW.."68,46 "..WHITE.."）";
 L["Quest_2924_Note"] = "你可以在玛希尔（达纳苏斯 - 战士区; "..YELLOW.."59,45"..WHITE.."）那儿得到此任务的前置任务。\n每个诺莫瑞根的敌人都可能掉落基础模组。";
-L["Quest_2924_RewardText"] = AQ_NONE;
 L["Quest_2924_PreQuest"] = "true";
 
 L["Quest_2930_Name"] = "抢救数据";
@@ -629,7 +598,6 @@ L["Quest_2945_Name"] = "脏兮兮的戒指";
 L["Quest_2945_Objective"] = "想方法把脏兮兮的戒指弄干净。";
 L["Quest_2945_Location"] = "脏兮兮的戒指（诺莫瑞根随机掉落）";
 L["Quest_2945_Note"] = "这个戒指可以在清洁器5200型中清洁，位置在 "..YELLOW.."[2]"..WHITE.."。";
-L["Quest_2945_RewardText"] = AQ_NONE;
 L["Quest_2945_FollowQuest"] = "戒指归来";
 
 L["Quest_2947_Name"] = "戒指归来";
@@ -692,7 +660,6 @@ L["Quest_1113_Name"] = "狂热之心";
 L["Quest_1113_Objective"] = "幽暗城的大药剂师法拉尼尔需要20颗狂热之心。";
 L["Quest_1113_Location"] = "大药剂师法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）";
 L["Quest_1113_Note"] = "血色所有的怪均掉落。";
-L["Quest_1113_RewardText"] = AQ_NONE;
 L["Quest_1113_PreQuest"] = "蝙蝠的粪便（"..YELLOW.."[剃刀沼泽]"..WHITE.."）";
 
 L["Quest_1160_Name"] = "知识试炼";
@@ -725,28 +692,24 @@ L["Quest_5529_Name"] = "瘟疫之龙";
 L["Quest_5529_Objective"] = "杀掉20只瘟疫龙崽，然后向圣光之愿礼拜堂的贝蒂娜·比格辛克复命。";
 L["Quest_5529_Location"] = "贝蒂娜·比格辛克（东瘟疫之地 - 圣光之愿礼拜堂; "..YELLOW.."76,54"..WHITE.."）";
 L["Quest_5529_Note"] = "瘟疫之龙在尸骨储藏所，去往血骨傀儡的大房间。";
-L["Quest_5529_RewardText"] = AQ_NONE;
 L["Quest_5529_FollowQuest"] = "健康的龙鳞";
 
 L["Quest_5582_Name"] = "健康的龙鳞";
 L["Quest_5582_Objective"] = "把健康的龙鳞交给东瘟疫之地圣光之愿礼拜堂中的贝蒂娜·比格辛克。";
 L["Quest_5582_Location"] = "健康的龙鳞（通灵学院瘟疫龙崽随机掉落）";
 L["Quest_5582_Note"] = "瘟疫龙崽掉落健康的龙鳞（8%掉率）。贝蒂娜·比格辛克（东瘟疫之地 - 圣光之愿礼拜堂;"..YELLOW.."76,54"..WHITE.."）。";
-L["Quest_5582_RewardText"] = AQ_NONE;
 L["Quest_5582_PreQuest"] = "瘟疫之龙";
 
 L["Quest_5382_Name"] = "瑟尔林·卡斯迪诺夫教授";
 L["Quest_5382_Objective"] = "在通灵学院中找到瑟尔林·卡斯迪诺夫教授。杀死他，并烧毁艾瓦·萨克霍夫和卢森·萨克霍夫的遗体。任务完成后就回到艾瓦·萨克霍夫那儿。";
 L["Quest_5382_Location"] = "艾瓦·萨克霍夫（西瘟疫之地 - 凯尔达隆; "..YELLOW.."70,73"..WHITE.."）";
 L["Quest_5382_Note"] = "你可以在 "..YELLOW.."[9]"..WHITE.." 找到瑟尔林·卡斯迪诺夫教授。";
-L["Quest_5382_RewardText"] = AQ_NONE;
 L["Quest_5382_FollowQuest"] = "卡斯迪诺夫的恐惧之袋";
 
 L["Quest_5515_Name"] = "卡斯迪诺夫的恐惧之袋";
 L["Quest_5515_Objective"] = "在通灵学院找到詹迪斯·巴罗夫并打败她。从她的尸体上找到卡斯迪诺夫的恐惧之袋，然后将其交给艾瓦·萨克霍夫。";
 L["Quest_5515_Location"] = "艾瓦·萨克霍夫（西瘟疫之地 - 凯尔达隆; "..YELLOW.."70,73"..WHITE.."）";
 L["Quest_5515_Note"] = "你可以在 "..YELLOW.."[3]"..WHITE.." 詹迪斯·巴罗夫。";
-L["Quest_5515_RewardText"] = AQ_NONE;
 L["Quest_5515_PreQuest"] = "瑟尔林·卡斯迪诺夫教授";
 L["Quest_5515_FollowQuest"] = "传令官基尔图诺斯";
 
@@ -783,7 +746,6 @@ L["Quest_7629_Name"] = "瓶中的小鬼（术士任务）";
 L["Quest_7629_Objective"] = "把瓶中的小鬼带到通灵学院的炼金实验室中。在小鬼制造出羊皮纸之后，把瓶子还给戈瑟奇·邪眼。";
 L["Quest_7629_Location"] = "戈瑟奇·邪眼（燃烧平原; "..YELLOW.."12,31"..WHITE.."）";
 L["Quest_7629_Note"] = "只有术士才能得到这个任务！你可以在 "..YELLOW.."[7]"..WHITE.." 找到炼金实验室。";
-L["Quest_7629_RewardText"] = AQ_NONE;
 L["Quest_7629_PreQuest"] = "true";
 L["Quest_7629_FollowQuest"] = "克索诺斯恐惧战马";
 
@@ -791,7 +753,6 @@ L["Quest_8969_Name"] = "瓦塔拉克饰品的左瓣";
 L["Quest_8969_Objective"] = "使用召唤火盆召唤出库尔莫克的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给黑石山的伯德雷。";
 L["Quest_8969_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D] "..WHITE.."）";
 L["Quest_8969_Note"] = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n库尔莫克在 "..YELLOW.."[7]"..WHITE.."。";
-L["Quest_8969_RewardText"] = AQ_NONE;
 L["Quest_8969_PreQuest"] = "true";
 L["Quest_8969_FollowQuest"] = "奥卡兹岛在你前方……";
 
@@ -799,7 +760,6 @@ L["Quest_8992_Name"] = "瓦塔拉克饰品的右瓣";
 L["Quest_8992_Objective"] = "使用召唤火盆召唤出库尔莫克的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克公爵的饰品还给黑石山的伯德雷。";
 L["Quest_8992_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D] "..WHITE.."）";
 L["Quest_8992_Note"] = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n库尔莫克在 "..YELLOW.."[7]"..WHITE.."。";
-L["Quest_8992_RewardText"] = AQ_NONE;
 L["Quest_8992_PreQuest"] = "true";
 L["Quest_8992_FollowQuest"] = "最后的准备（"..YELLOW.."上层黑石塔"..WHITE.."）";
 
@@ -857,13 +817,11 @@ L["Quest_387_Name"] = "镇压暴动";
 L["Quest_387_Objective"] = "暴风城的典狱官塞尔沃特要求你杀死监狱中的10名迪菲亚囚徒、8名迪菲亚罪犯和8名迪菲亚叛军。";
 L["Quest_387_Location"] = "典狱官塞尔沃特（暴风城 - 监狱; "..YELLOW.."51,69 "..WHITE.."）";
 L["Quest_387_Note"] = "副本外的典狱官会给你这个任务。";
-L["Quest_387_RewardText"] = AQ_NONE;
 
 L["Quest_388_Name"] = "鲜血的颜色";
 L["Quest_388_Objective"] = "暴风城的尼科瓦·拉斯克要你取得10条红色毛纺面罩。";
 L["Quest_388_Location"] = "尼科瓦·拉斯克（暴风城 - 旧城区; "..YELLOW.."75,63"..WHITE.."）";
 L["Quest_388_Note"] = "尼科瓦·拉斯克在旧城区游走，副本里每个敌人都可能掉落面罩。";
-L["Quest_388_RewardText"] = AQ_NONE;
 
 L["Quest_378_Name"] = "卡姆·深怒";
 L["Quest_378_Objective"] = "丹莫德的莫特雷·加玛森要求你把卡姆·深怒的头颅交给他。";
@@ -876,7 +834,6 @@ L["Quest_391_Name"] = "监狱暴动";
 L["Quest_391_Objective"] = "杀死巴基尔·斯瑞德，把他的头带给监狱的典狱官塞尔沃特。";
 L["Quest_391_Location"] = "典狱官塞尔沃特（暴风城 - 监狱; "..YELLOW.."51,69"..WHITE.."）";
 L["Quest_391_Note"] = "前置任务详情请参见 "..YELLOW.."[死亡矿井][迪菲亚兄弟会]"..WHITE.."。\n巴基尔·斯瑞德在 "..YELLOW.."[4]"..WHITE.."。";
-L["Quest_391_RewardText"] = AQ_NONE;
 L["Quest_391_PreQuest"] = "true";
 L["Quest_391_FollowQuest"] = "好奇的访客";
 
@@ -884,7 +841,6 @@ L["Quest_5212_Name"] = "血肉不会撒谎";
 L["Quest_5212_Objective"] = "从斯坦索姆找回20个瘟疫肉块，并把它们交给贝蒂娜·比格辛克。你觉得斯坦索姆中的生灵都不大可能长着肉……";
 L["Quest_5212_Location"] = "贝蒂娜·比格辛克（东瘟疫之地 - 圣光之愿礼拜堂; "..YELLOW.."76,54"..WHITE.."）";
 L["Quest_5212_Note"] = "斯坦索姆里多数敌人都会掉落瘟疫肉块，但是掉落率很低。";
-L["Quest_5212_RewardText"] = AQ_NONE;
 L["Quest_5212_FollowQuest"] = "活跃的探子";
 
 L["Quest_5213_Name"] = "活跃的探子";
@@ -917,7 +873,6 @@ L["Quest_5848_Name"] = "爱与家庭";
 L["Quest_5848_Objective"] = "到瘟疫之地北部的斯坦索姆去。你可以在血色十字军堡垒中找到“爱与家庭”这幅画，它被隐藏在另一幅描绘两个月亮的画之后。\n把这幅画还给提里奥·弗丁。";
 L["Quest_5848_Location"] = "画家瑞弗蕾（西瘟疫之地 - 凯尔达隆; "..YELLOW.."65,75"..WHITE.."）";
 L["Quest_5848_Note"] = "前置任务从提里奥·弗丁处获得（西瘟疫之地; "..YELLOW.."7,43"..WHITE.."）。\n画在 "..YELLOW.."[10]"..WHITE.."。";
-L["Quest_5848_RewardText"] = AQ_NONE;
 L["Quest_5848_PreQuest"] = "true";
 L["Quest_5848_FollowQuest"] = "寻找麦兰达";
 
@@ -925,7 +880,6 @@ L["Quest_5463_Name"] = "米奈希尔的礼物";
 L["Quest_5463_Objective"] = "到斯坦索姆城里去找到米奈希尔的礼物，把巫妖生前的遗物放在那块邪恶的土地上。";
 L["Quest_5463_Location"] = "莱尼德·巴萨罗梅（东瘟疫之地 - 圣光之愿礼拜堂; "..YELLOW.."75,52"..WHITE.."）";
 L["Quest_5463_Note"] = "前置任务从马杜克镇长（西瘟疫之地 - 凯尔达隆; "..YELLOW.."70,73"..WHITE.."）处获得。\n你可以在 "..YELLOW.."[19]"..WHITE.." 附近找到标志。也可以参见：通灵学院里的 "..YELLOW.."[巫妖莱斯·霜语]"..WHITE.."。";
-L["Quest_5463_RewardText"] = AQ_NONE;
 L["Quest_5463_PreQuest"] = "true";
 L["Quest_5463_FollowQuest"] = "米奈希尔的礼物";
 
@@ -939,14 +893,12 @@ L["Quest_5251_Name"] = "档案管理员";
 L["Quest_5251_Objective"] = "在斯坦索姆城中找到血色十字军的档案管理员加尔福特，杀掉他，然后烧毁血色十字军档案。";
 L["Quest_5251_Location"] = "尼古拉斯·瑟伦霍夫公爵（东瘟疫之地 - 圣光之愿礼拜堂; "..YELLOW.."76,52"..WHITE.."）";
 L["Quest_5251_Note"] = "档案和档案管理员在 "..YELLOW.."[10]"..WHITE.."。";
-L["Quest_5251_RewardText"] = AQ_NONE;
 L["Quest_5251_FollowQuest"] = "可怕的真相";
 
 L["Quest_5262_Name"] = "可怕的真相";
 L["Quest_5262_Objective"] = "将巴纳扎尔的头颅交给东瘟疫之地的尼古拉斯·瑟伦霍夫公爵。";
 L["Quest_5262_Location"] = "巴纳扎尔（斯坦索姆; "..YELLOW.."[11]"..WHITE.."）";
 L["Quest_5262_Note"] = "尼古拉斯·瑟伦霍夫公爵（东瘟疫之地 - 圣光之愿礼拜堂; "..YELLOW.."76,52"..WHITE.."）。";
-L["Quest_5262_RewardText"] = AQ_NONE;
 L["Quest_5262_PreQuest"] = "档案管理员";
 L["Quest_5262_FollowQuest"] = "超越";
 
@@ -970,7 +922,6 @@ L["Quest_8968_Name"] = "瓦塔拉克饰品的左瓣";
 L["Quest_8968_Objective"] = "使用召唤火盆召唤出亚雷恩和索托斯的灵魂，然后杀掉他们。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给黑石山的伯德雷。";
 L["Quest_8968_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图中的[D]"..WHITE.."）";
 L["Quest_8968_Note"] = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n召唤亚雷恩和索托斯在 "..YELLOW.."[11]"..WHITE.."。";
-L["Quest_8968_RewardText"] = AQ_NONE;
 L["Quest_8968_PreQuest"] = "true";
 L["Quest_8968_FollowQuest"] = "奥卡兹岛在你前方……";
 
@@ -978,7 +929,6 @@ L["Quest_8991_Name"] = "瓦塔拉克饰品的右瓣";
 L["Quest_8991_Objective"] = "使用召唤火盆召唤出亚雷恩和索托斯的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克公爵的饰品还给黑石山的伯德雷。";
 L["Quest_8991_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图中的[D]"..WHITE.."）";
 L["Quest_8991_Note"] = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n召唤亚雷恩和索托斯在 "..YELLOW.."[11]"..WHITE.."。";
-L["Quest_8991_RewardText"] = AQ_NONE;
 L["Quest_8991_PreQuest"] = "true";
 L["Quest_8991_FollowQuest"] = "最后的准备（"..YELLOW.."上层黑石塔"..WHITE.."）";
 
@@ -1026,14 +976,12 @@ L["Quest_3445_Name"] = "沉没的神庙";
 L["Quest_3445_Objective"] = "到塔纳利斯找到玛尔冯·瑞文斯克。";
 L["Quest_3445_Location"] = "安吉拉斯·月风（菲拉斯 - 羽月要塞; "..YELLOW.."31,45"..WHITE.."）";
 L["Quest_3445_Note"] = "你可以在 "..YELLOW.."52,45"..WHITE.." 处找到玛尔冯·瑞文斯克。";
-L["Quest_3445_RewardText"] = AQ_NONE;
 L["Quest_3445_FollowQuest"] = "石环";
 
 L["Quest_3446_Name"] = "深入神庙";
 L["Quest_3446_Objective"] = "在悲伤沼泽沉没的神庙中找到哈卡祭坛。";
 L["Quest_3446_Location"] = "玛尔冯·瑞文斯克（塔纳利斯; "..YELLOW.."52,45"..WHITE.."）";
 L["Quest_3446_Note"] = "祭坛就在图中 "..YELLOW.."[1]"..WHITE.." 的位置。";
-L["Quest_3446_RewardText"] = AQ_NONE;
 L["Quest_3446_PreQuest"] = "true";
 
 L["Quest_3447_Name"] = "雕像群的秘密";
@@ -1047,7 +995,6 @@ L["Quest_4143_Name"] = "邪恶之雾";
 L["Quest_4143_Objective"] = "收集5份阿塔莱之雾的样本，然后向安戈洛环形山的穆尔金复命。";
 L["Quest_4143_Location"] = "格雷甘·山酒（菲拉斯; "..YELLOW.."45,25"..WHITE.."）";
 L["Quest_4143_Note"] = "前置任务《穆尔金和拉瑞安》开始于穆尔金（安戈洛环形山 - 马绍尔营地; "..YELLOW.."42,9"..WHITE.."）。你可以从阿塔哈卡神庙里的神庙深渊潜伏者、黑暗虫或者融合软泥怪那里得到阿塔莱之雾。";
-L["Quest_4143_RewardText"] = AQ_NONE;
 L["Quest_4143_PreQuest"] = "true";
 
 L["Quest_3528_Name"] = "神灵哈卡";
@@ -1136,14 +1083,12 @@ L["Quest_3380_Name"] = "沉没的神庙";
 L["Quest_3380_Objective"] = "到塔纳利斯找到玛尔冯·瑞文斯克。";
 L["Quest_3380_Location"] = "巫医尤克里（菲拉斯; "..YELLOW.."74,43"..WHITE.."）";
 L["Quest_3380_Note"] = "玛尔冯·瑞文斯克的位置在 "..YELLOW.."52,45"..WHITE.."。";
-L["Quest_3380_RewardText"] = AQ_NONE;
 L["Quest_3380_FollowQuest"] = "石环";
 
 L["Quest_4146_Name"] = "除草器的燃料";
 L["Quest_4146_Objective"] = "收集5份阿塔莱之雾的样本，然后将它们送到马绍尔营地的拉瑞安那里。";
 L["Quest_4146_Location"] = "莉芙·雷兹菲克斯（贫瘠之地; "..YELLOW.."62,38"..WHITE.."）";
 L["Quest_4146_Note"] = "前置任务《拉瑞安和穆尔金》开始于拉瑞安（安戈洛环形山; "..YELLOW.."45,8"..WHITE.."）。沉没的神庙里的神庙深渊潜伏者、黑暗虫和软泥怪身上都有阿塔莱之雾。";
-L["Quest_4146_RewardText"] = AQ_NONE;
 L["Quest_4146_PreQuest"] = "拉瑞安和穆尔金 > 玛尔冯的车间";
 
 L["Quest_8413_Name"] = "巫毒羽毛（萨满任务）";
@@ -1157,7 +1102,6 @@ L["Quest_721_Name"] = "一线希望";
 L["Quest_721_Objective"] = "在奥达曼找到铁趾格雷兹。";
 L["Quest_721_Location"] = "勘察员雷杜尔（荒芜之地; "..YELLOW.."53,43 "..WHITE.."）";
 L["Quest_721_Note"] = "前置任务始于弄皱的地图（荒芜之地; "..YELLOW.."53,33"..WHITE.."）。\n你可以在进入 "..YELLOW.."副本入口地图[1]"..WHITE.." 找到铁趾格雷兹。";
-L["Quest_721_RewardText"] = AQ_NONE;
 L["Quest_721_PreQuest"] = "true";
 L["Quest_721_FollowQuest"] = "铁趾的护符";
 
@@ -1165,7 +1109,6 @@ L["Quest_722_Name"] = "铁趾的护符";
 L["Quest_722_Objective"] = "找到铁趾的护符，把它交给奥达曼的铁趾。";
 L["Quest_722_Location"] = "铁趾格雷兹（奥达曼; "..YELLOW.."副本入口地图[1]"..WHITE.."）。";
 L["Quest_722_Note"] = "马格雷甘·深影掉落铁趾的护符 "..YELLOW.."副本入口地图[2]"..WHITE.."。";
-L["Quest_722_RewardText"] = AQ_NONE;
 L["Quest_722_PreQuest"] = "一线希望";
 L["Quest_722_FollowQuest"] = "铁趾的遗愿";
 
@@ -1200,7 +1143,6 @@ L["Quest_2398_Name"] = "失踪的矮人";
 L["Quest_2398_Objective"] = "在奥达曼找到巴尔洛戈。";
 L["Quest_2398_Location"] = "勘察员塔伯斯·雷矛（铁炉堡 - 探险者大厅; "..YELLOW.."75,12 "..WHITE.."）";
 L["Quest_2398_Note"] = "巴尔洛戈在 "..YELLOW.."[1]"..WHITE.."。";
-L["Quest_2398_RewardText"] = AQ_NONE;
 L["Quest_2398_FollowQuest"] = "密室";
 
 L["Quest_2240_Name"] = "密室";
@@ -1214,14 +1156,12 @@ L["Quest_2198_Name"] = "破碎的项链";
 L["Quest_2198_Objective"] = "找到破碎的项链的来源，从而了解其潜在的价值。";
 L["Quest_2198_Location"] = "破碎的项链（奥达曼内随机掉落）";
 L["Quest_2198_Note"] = "把项链带给铁炉堡的塔瓦斯德·基瑟尔（铁炉堡 - 秘法区; "..YELLOW.."36,3"..WHITE.."）。";
-L["Quest_2198_RewardText"] = AQ_NONE;
 L["Quest_2198_FollowQuest"] = "昂贵的知识";
 
 L["Quest_2200_Name"] = "回到奥达曼";
 L["Quest_2200_Objective"] = "去奥达曼寻找塔瓦斯的魔法项链，被杀的圣骑士是最后一个拿着它的人。";
 L["Quest_2200_Location"] = "塔瓦斯德·基瑟尔（铁炉堡 - 秘法区; "..YELLOW.."36,3 "..WHITE.."）";
 L["Quest_2200_Note"] = "圣骑士在 "..YELLOW.."[2]"..WHITE.."。";
-L["Quest_2200_RewardText"] = AQ_NONE;
 L["Quest_2200_PreQuest"] = "昂贵的知识";
 L["Quest_2200_FollowQuest"] = "寻找宝石";
 
@@ -1229,7 +1169,6 @@ L["Quest_2201_Name"] = "寻找宝石";
 L["Quest_2201_Objective"] = "在奥达曼寻找红宝石、蓝宝石和黄宝石的下落。找到它们之后，通过塔瓦斯德给你的占卜之瓶和他进行联系。";
 L["Quest_2201_Location"] = "圣骑士的遗体（奥达曼; "..YELLOW.."[2]"..WHITE.."）";
 L["Quest_2201_Note"] = "宝石在 "..YELLOW.."[1]"..WHITE.." 显眼的石罐内，"..YELLOW.."[8]"..WHITE.." 暗影熔炉地窖内和 "..YELLOW.."[9]"..WHITE.." 的格瑞姆洛克掉落。注意：打开暗影熔炉地窖会出现一些怪物。使用塔瓦斯德的占卜之碗完成和进行后续任务。";
-L["Quest_2201_RewardText"] = AQ_NONE;
 L["Quest_2201_PreQuest"] = "回到奥达曼";
 L["Quest_2201_FollowQuest"] = "修复项链";
 
@@ -1251,7 +1190,6 @@ L["Quest_1360_Name"] = "失而复得";
 L["Quest_1360_Objective"] = "到奥达曼的北部大厅去找到克罗姆·粗臂的箱子，从里面拿出他的宝贵财产，然后回到铁炉堡把东西交给他。";
 L["Quest_1360_Location"] = "克罗姆·粗臂（铁炉堡 - 探险者大厅; "..YELLOW.."74,9 "..WHITE.."）";
 L["Quest_1360_Note"] = "你在进入副本前就找到克罗姆·粗臂的财产。它就在洞穴的北部，第一个通道的东南角尽头 "..YELLOW.."副本入口地图[4]"..WHITE.."。";
-L["Quest_1360_RewardText"] = AQ_NONE;
 
 L["Quest_2278_Name"] = "白金圆盘";
 L["Quest_2278_Objective"] = "和石头守护者交谈，从他那里了解更多古代的知识。一旦你了解到了所有的内容之后就激活诺甘农圆盘。-> 把迷你版的诺甘农圆盘带到雷霆崖的贤者（圣者图希克）那里。";
@@ -1264,7 +1202,6 @@ L["Quest_1956_Name"] = "奥达曼的能量源（法师任务）";
 L["Quest_1956_Objective"] = "找到一个黑曜石能量源，将其交给尘泥沼泽的塔贝萨。";
 L["Quest_1956_Location"] = "塔贝萨（尘泥沼泽; "..YELLOW.."46,57 "..WHITE.."）";
 L["Quest_1956_Note"] = "这个任务只能法师做！\n黑曜石哨兵 "..YELLOW.."[5]"..WHITE.." 掉落黑曜石能量源。";
-L["Quest_1956_RewardText"] = AQ_NONE;
 L["Quest_1956_PreQuest"] = "true";
 L["Quest_1956_FollowQuest"] = "法力怒灵";
 
@@ -1272,21 +1209,18 @@ L["Quest_1192_Name"] = "精铁矿石";
 L["Quest_1192_Objective"] = "为千针石林的普兹克带回4块精铁矿石。";
 L["Quest_1192_Location"] = "普兹克（千针石林 - 沙漠赛道; "..YELLOW.."80.1, 75.9"..WHITE.."）";
 L["Quest_1192_Note"] = "这是一个前置任务完成后的一个重复任务。这并不会给你声望或经验奖励，只有少量的金钱。精铁矿石可以在奥达曼内采矿或者从其他玩家那里购买。";
-L["Quest_1192_RewardText"] = AQ_NONE;
 L["Quest_1192_PreQuest"] = "true";
 
 L["Quest_2283_Name"] = "搜寻项链";
 L["Quest_2283_Objective"] = "在奥达曼挖掘场中寻找一条珍贵的项链，然后将其交给奥格瑞玛的德兰·杜佛斯。项链有可能已经损坏。";
 L["Quest_2283_Location"] = "德兰·杜佛斯（奥格瑞玛 - 暗巷区; "..YELLOW.."59,36 "..WHITE.."）";
 L["Quest_2283_Note"] = "项链在副本里是随机掉落的。";
-L["Quest_2283_RewardText"] = AQ_NONE;
 L["Quest_2283_FollowQuest"] = "搜寻项链，再来一次";
 
 L["Quest_2284_Name"] = "搜寻项链，再来一次";
 L["Quest_2284_Objective"] = "在奥达曼里找寻宝石的线索。";
 L["Quest_2284_Location"] = "德兰·杜佛斯（奥格瑞玛 - 暗巷区; "..YELLOW.."59,36 "..WHITE.."）";
 L["Quest_2284_Note"] = "圣骑士在 "..YELLOW.."[2]"..WHITE.."。";
-L["Quest_2284_RewardText"] = AQ_NONE;
 L["Quest_2284_PreQuest"] = "搜寻项链";
 L["Quest_2284_FollowQuest"] = "翻译日记";
 
@@ -1294,7 +1228,6 @@ L["Quest_2318_Name"] = "翻译日记";
 L["Quest_2318_Objective"] = "在荒芜之地的卡加斯哨所里寻找一个可以帮你翻译圣骑士日记的人。";
 L["Quest_2318_Location"] = "圣骑士的遗体（奥达曼; "..YELLOW.."[2]"..WHITE.."）";
 L["Quest_2318_Note"] = "翻译圣骑士日记的人加卡尔（荒芜之地 - 卡加斯; "..YELLOW.."2,46"..WHITE.."） -> 将项链借给加卡尔，他帮你翻译日记。";
-L["Quest_2318_RewardText"] = AQ_NONE;
 L["Quest_2318_PreQuest"] = "搜寻项链，再来一次";
 L["Quest_2318_FollowQuest"] = "寻找宝贝";
 
@@ -1318,7 +1251,6 @@ L["Quest_2342_Name"] = "寻找宝藏";
 L["Quest_2342_Objective"] = "从奥达曼南部大厅的箱子中找到加勒特的家族宝藏，然后把它交给幽暗城的帕特里克·加瑞特。";
 L["Quest_2342_Location"] = "帕特里克·加瑞特（幽暗城; "..YELLOW.."72,48 "..WHITE.."）";
 L["Quest_2342_Note"] = "你在进入副本之前就会找到加勒特的家族宝藏。它就在南部通道的尽头 "..YELLOW.."副本入口地图[5]"..WHITE.."。";
-L["Quest_2342_RewardText"] = AQ_NONE;
 
 L["Quest_971_Name"] = "深渊中的知识";
 L["Quest_971_Objective"] = "把洛迦里斯手稿带给铁炉堡的葛利·硬骨。";
@@ -1337,7 +1269,6 @@ L["Quest_1198_Name"] = "寻找塞尔瑞德";
 L["Quest_1198_Objective"] = "到黑色深渊去找到银月守卫塞尔瑞德。";
 L["Quest_1198_Location"] = "哨兵山德拉斯（达纳苏斯 - 工匠区; "..YELLOW.."55,24"..WHITE.."）";
 L["Quest_1198_Note"] = "你可以在 "..YELLOW.."[4]"..WHITE.." 找到银月守卫塞尔瑞德。";
-L["Quest_1198_RewardText"] = AQ_NONE;
 L["Quest_1198_FollowQuest"] = "黑暗深渊中的恶魔";
 
 L["Quest_1200_Name"] = "黑暗深渊中的恶魔";
@@ -1357,7 +1288,6 @@ L["Quest_6563_Name"] = "阿库麦尔水晶";
 L["Quest_6563_Objective"] = "收集20颗阿库麦尔蓝宝石，把它们交给灰谷的耶努萨克雷。";
 L["Quest_6563_Location"] = "耶努萨克雷（灰谷 - 佐拉姆加前哨站; "..YELLOW.."11,33"..WHITE.."）";
 L["Quest_6563_Note"] = "前置任务《帮助耶努萨克雷》可以在苏纳曼（石爪山脉 - 烈日石居; "..YELLOW.."47,64"..WHITE.."）接到。蓝宝石多生长在通往黑暗深渊入口的那条通道的洞穴墙壁上。";
-L["Quest_6563_RewardText"] = AQ_NONE;
 L["Quest_6563_PreQuest"] = "帮助耶努萨克雷";
 
 L["Quest_6564_Name"] = "上古之神的仆从";
@@ -1370,7 +1300,6 @@ L["Quest_6921_Name"] = "废墟之间";
 L["Quest_6921_Objective"] = "把深渊之核交给灰谷佐拉姆加前哨站里的耶努萨克雷。";
 L["Quest_6921_Location"] = "耶努萨克雷（灰谷 - 佐拉姆加前哨站; "..YELLOW.."11,33"..WHITE.."）";
 L["Quest_6921_Note"] = "深渊之核在 "..YELLOW.."[7]"..WHITE.." 区水域里。当你得到深远之核后，阿奎尼斯男爵会出现并攻击你。他会掉落一件任务物品，你要把它带给耶努萨克雷。";
-L["Quest_6921_RewardText"] = AQ_NONE;
 
 L["Quest_6561_Name"] = "黑暗深渊中的恶魔";
 L["Quest_6561_Objective"] = "把梦游者克尔里斯的头颅带回雷霆崖交给巴珊娜·符文图腾 。";
@@ -1402,7 +1331,6 @@ L["Quest_8967_Name"] = "瓦塔拉克饰品的左瓣";
 L["Quest_8967_Objective"] = "使用召唤火盆召唤出伊萨利恩的灵魂，然后杀掉她。完成之后，将召唤火盆与瓦塔拉克饰品的左瓣还给伯德雷。";
 L["Quest_8967_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）";
 L["Quest_8967_Note"] = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n召唤伊萨利恩在 "..YELLOW.."[5]"..WHITE.."。";
-L["Quest_8967_RewardText"] = AQ_NONE;
 L["Quest_8967_PreQuest"] = "true";
 L["Quest_8967_FollowQuest"] = "奥卡兹岛在你前方……";
 
@@ -1410,7 +1338,6 @@ L["Quest_8990_Name"] = "瓦塔拉克饰品的右瓣";
 L["Quest_8990_Objective"] = "使用召唤火盆召唤出伊萨莉恩的灵魂，然后杀掉他。完成之后，将召唤火盆与瓦塔拉克公爵的饰品还给伯德雷。";
 L["Quest_8990_Location"] = "伯德雷（黑石山; "..YELLOW.."副本入口地图[D]"..WHITE.."）";
 L["Quest_8990_Note"] = "你需要超维度幽灵显形器才能看到伯德雷。你可以从《寻找安泰恩》任务得到它。\n\n召唤伊萨利恩在 "..YELLOW.."[5]"..WHITE.."。";
-L["Quest_8990_RewardText"] = AQ_NONE;
 L["Quest_8990_PreQuest"] = "true";
 L["Quest_8990_FollowQuest"] = "最后的准备（"..YELLOW.."上层黑石塔"..WHITE.."）";
 
@@ -1418,7 +1345,6 @@ L["Quest_7581_Name"] = "监牢之链（术士任务）";
 L["Quest_7581_Objective"] = "到菲拉斯的厄运之槌去，从扭木广场的荒野萨特身上找到15份萨特之血，然后把它们交给腐烂之痕的戴奥。";
 L["Quest_7581_Location"] = "衰老的戴奥（诅咒之地 - 腐烂之痕; "..YELLOW.."34,50"..WHITE.."）";
 L["Quest_7581_Note"] = "术士召唤末日守卫任务，你可以从衰老的戴奥那里接到相关的其他任务。最容易找到荒野萨特是从厄运之槌东的“后门”进入（菲拉斯 - 拉瑞斯小亭; "..YELLOW.."77,37"..WHITE.."）。你需要有月牙钥匙才能开门。";
-L["Quest_7581_RewardText"] = AQ_NONE;
 
 L["Quest_7489_Name"] = "蕾瑟塔蒂丝的网";
 L["Quest_7489_Objective"] = "把蕾瑟塔蒂丝的网交给非拉斯莫沙彻营地的塔罗·刺蹄。";
@@ -1431,7 +1357,6 @@ L["Quest_1193_Name"] = "破碎的陷阱 ";
 L["Quest_1193_Objective"] = "修复这个陷阱。";
 L["Quest_1193_Location"] = "破碎的陷阱（厄运之槌; "..YELLOW.."北"..WHITE.."）";
 L["Quest_1193_Note"] = "可重复任务。修好陷阱你必须有[瑟银零件]和一瓶[冰霜之油]。";
-L["Quest_1193_RewardText"] = AQ_NONE;
 
 L["Quest_5518_Name"] = "戈多克食人魔装";
 L["Quest_5518_Objective"] = "把4份符文布卷、8块硬甲皮、2卷符文线和一份食人魔鞣酸交给诺特·希姆加克。他现在被拴在厄运之槌的戈多克食人魔那边。";
@@ -1443,7 +1368,6 @@ L["Quest_5525_Name"] = "救诺特出去！";
 L["Quest_5525_Objective"] = "为诺特找到食人魔镣铐钥匙。";
 L["Quest_5525_Location"] = "诺特·希姆加克（厄运之槌; "..YELLOW.."北，[4]"..WHITE.."）";
 L["Quest_5525_Note"] = "可重复任务，副本里任何食人魔都可能掉落镣铐钥匙。";
-L["Quest_5525_RewardText"] = AQ_NONE;
 
 L["Quest_7703_Name"] = "戈多克食人魔的事务";
 L["Quest_7703_Objective"] = "找到戈多克力量护手，并将它交给厄运之槌的克罗卡斯。";
@@ -1461,13 +1385,11 @@ L["Quest_7482_Name"] = "精灵的传说";
 L["Quest_7482_Objective"] = "到厄运之槌去寻找卡里尔·温萨鲁斯。向羽月要塞的学者卢索恩·纹角报告你所找到的信息。";
 L["Quest_7482_Location"] = "学者卢索恩·纹角（菲拉斯 - 羽月要塞; "..YELLOW.."31,43"..WHITE.."）";
 L["Quest_7482_Note"] = "卡里尔·温萨鲁斯在厄运之槌 "..YELLOW.."图书馆（西）"..WHITE.."。";
-L["Quest_7482_RewardText"] = AQ_NONE;
 
 L["Quest_7461_Name"] = "伊莫塔尔的疯狂";
 L["Quest_7461_Objective"] = "你必须干掉5座水晶塔周围的守卫，那5座水晶塔维持着关押伊莫塔尔的监狱。一旦水晶塔的能量被削弱，伊莫塔尔周围的能量力场就会消散。\n进入伊莫塔尔的监狱，干掉站在中间的那个恶魔。最后，在图书馆挑战托塞德林王子。当任务完成之后，到庭院中去找辛德拉古灵。";
 L["Quest_7461_Location"] = "辛德拉古灵（厄运之槌; "..YELLOW.."西，（上层）[1]"..WHITE.."）";
 L["Quest_7461_Note"] = "水晶塔被标记为 "..BLUE.."[B]"..WHITE.."。伊莫塔尔在 "..YELLOW.."[6]"..WHITE.."，托塞德林王子在 "..YELLOW.."[7]"..WHITE.."。";
-L["Quest_7461_RewardText"] = AQ_NONE;
 L["Quest_7461_FollowQuest"] = "辛德拉的宝藏";
 
 L["Quest_7877_Name"] = "辛德拉的宝藏";
@@ -1481,7 +1403,6 @@ L["Quest_7631_Name"] = "克索诺斯恐惧战马（术士任务）";
 L["Quest_7631_Objective"] = "阅读莫苏尔的指南，并召唤出一匹克索诺斯恐惧战马，击败它，然后控制它的灵魂。";
 L["Quest_7631_Location"] = "莫苏尔（燃烧平原; "..YELLOW.."12,31"..WHITE.."）";
 L["Quest_7631_Note"] = "术士的史诗战马任务的最后一步。首先必须关闭水晶塔 "..BLUE.."[B]"..WHITE.."。和需要杀掉伊莫塔尔 "..YELLOW.."[6]"..WHITE.."。然后你可以召唤。准备20个以上的灵魂碎片是必须的，你必须消耗碎片才能维持法阵。杀死恐惧战马后，和马的灵魂对话即可完成任务。";
-L["Quest_7631_RewardText"] = AQ_NONE;
 L["Quest_7631_PreQuest"] = "true";
 
 L["Quest_7506_Name"] = "翡翠梦境……（德鲁伊饰品任务）";
@@ -1554,13 +1475,11 @@ L["Quest_7507_Name"] = "急速圣典";
 L["Quest_7507_Objective"] = "将急速圣典、1块原始黑钻石、2份大块魔光碎片和2份英雄之血交给厄运之槌的博学者莱德罗斯，以换取一份急速秘药。";
 L["Quest_7507_Location"] = "博学者莱德罗斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）";
 L["Quest_7507_Note"] = "没有前置任务，但是 精灵的传说任务必须完成后才能接到这个任务。\n\n厄运之槌随机掉落圣典并可被交易，所以可以从拍卖行获取。英雄之血在东瘟疫之地与西瘟疫之地的地面上随机找到并是拾取绑定的。";
-L["Quest_7507_RewardText"] = AQ_NONE;
 
 L["Quest_7481_Name"] = "精灵的传说";
 L["Quest_7481_Objective"] = "到厄运之槌去寻找卡里尔·温萨鲁斯。向莫沙彻营地的先知科鲁拉克报告你所找到的信息。";
 L["Quest_7481_Location"] = "先知科鲁拉克（菲拉斯 - 莫沙彻营地; "..YELLOW.."74,43"..WHITE.."）";
 L["Quest_7481_Note"] = "卡里尔·温萨鲁斯（厄运之槌; "..YELLOW.."西，"..GREEN.."图书馆[1']"..WHITE.."）。";
-L["Quest_7481_RewardText"] = AQ_NONE;
 
 L["Quest_7070_Name"] = "暗影残片";
 L["Quest_7070_Objective"] = "从玛拉顿收集10块暗影残片，然后把它们交给尘泥沼泽塞拉摩岛上的大法师特沃什。";
@@ -1590,7 +1509,6 @@ L["Quest_7044_Name"] = "玛拉顿的传说";
 L["Quest_7044_Objective"] = "找回塞雷布拉斯节杖的两个部分：塞雷布拉斯魔棒和塞雷布拉斯钻石。\n然后设法和塞雷布拉斯对话。";
 L["Quest_7044_Location"] = "凯雯德拉（凄凉之地 - 玛拉顿; "..YELLOW.."副本入口地图[4]"..WHITE.."）";
 L["Quest_7044_Note"] = "凯雯德拉就在进入副本之前的橙色部分的开始处。\n你可以从诺克塞恩那里得到塞雷布拉斯魔棒 "..YELLOW.."[2]"..WHITE.."，从维利塔恩那里得到塞雷布拉斯钻石 "..YELLOW.."[5]"..WHITE.."。塞雷布拉斯在 "..YELLOW.."[7]"..WHITE.."。你需要打败他才能和他说话。";
-L["Quest_7044_RewardText"] = AQ_NONE;
 L["Quest_7044_FollowQuest"] = "塞雷布拉斯节杖";
 
 L["Quest_7046_Name"] = "塞雷布拉斯节杖";
@@ -1611,7 +1529,6 @@ L["Quest_7066_Name"] = "生命之种";
 L["Quest_7066_Objective"] = "到月光林地去找到雷姆洛斯，将生命之种交给他。";
 L["Quest_7066_Location"] = "扎尔塔的灵魂（玛拉顿 "..YELLOW.."[11]"..WHITE.."）";
 L["Quest_7066_Note"] = "杀死公主后，扎尔塔的灵魂就会出现（"..YELLOW.."[11]"..WHITE.."）。守护者雷姆洛斯（月光林地 - 雷姆洛斯神殿; "..YELLOW.."36,41"..WHITE.."）。";
-L["Quest_7066_RewardText"] = AQ_NONE;
 L["Quest_7066_PreQuest"] = "大地的污染";
 
 L["Quest_7068_Name"] = "暗影残片";
@@ -1637,7 +1554,6 @@ L["Quest_5723_Name"] = "试探敌人";
 L["Quest_5723_Objective"] = "在奥格瑞玛找到怒焰裂谷，杀掉8个怒焰穴居人和8个怒焰萨满祭司，然后向雷霆崖的拉哈罗复命。";
 L["Quest_5723_Location"] = "拉哈罗（雷霆崖 - 长者高地; "..YELLOW.."70,29 "..WHITE.."）";
 L["Quest_5723_Note"] = "你一开始就能找到穴居人。";
-L["Quest_5723_RewardText"] = AQ_NONE;
 
 L["Quest_5725_Name"] = "毁灭之力";
 L["Quest_5725_Objective"] = "将《暗影法术研究》和《扭曲虚空的魔法》这两本书交给幽暗城的瓦里玛萨斯。";
@@ -1664,13 +1580,11 @@ L["Quest_5761_Name"] = "饥饿者塔拉加曼";
 L["Quest_5761_Objective"] = "进入怒焰裂谷，杀死饥饿者塔拉加曼，然后把他的心脏交给奥格瑞玛的尼尔鲁·火刃。";
 L["Quest_5761_Location"] = "尼尔鲁·火刃（奥格瑞玛 - 暗影裂口; "..YELLOW.."49,50 "..WHITE.."）";
 L["Quest_5761_Note"] = "你会在 "..YELLOW.."[2]"..WHITE.." 找到塔拉加曼。";
-L["Quest_5761_RewardText"] = AQ_NONE;
 
 L["Quest_6626_Name"] = "邪恶之地";
 L["Quest_6626_Objective"] = "杀掉8个剃刀沼泽护卫者、8个剃刀沼泽织棘者和8个亡首教徒，然后向剃刀高地入口处的麦雷姆·月歌复命。";
 L["Quest_6626_Location"] = "麦雷姆·月歌（贫瘠之地 - 剃刀高地; "..YELLOW.."49,94 "..WHITE.."）";
 L["Quest_6626_Note"] = "这些怪出现在你进入副本前经过的路上。";
-L["Quest_6626_RewardText"] = AQ_NONE;
 
 L["Quest_3525_Name"] = "封印神像";
 L["Quest_3525_Objective"] = "保护奔尼斯特拉兹来到剃刀高地的野猪人神像处。当他在进行仪式封印神像时保护他。";
@@ -1728,7 +1642,6 @@ L["Quest_1701_Name"] = "弗伦的铠甲（战士任务）";
 L["Quest_1701_Objective"] = "收集必需的材料，将它们交给暴风城的弗伦·长须。";
 L["Quest_1701_Location"] = "弗伦·长须（暴风城 - 矮人区; "..YELLOW.."64,37"..WHITE.."）";
 L["Quest_1701_Note"] = "只有战士才能接到这个任务！\n你可以从鲁古格 "..YELLOW.."[1]"..WHITE.." 得到燃素。\n\n湿地的蜘蛛掉落烧焦的蜘蛛牙，石爪山脉的奇美幼崽拉掉落烧焦的奇美拉角、雌奇美拉掉落光滑的奇美拉角。";
-L["Quest_1701_RewardText"] = AQ_NONE;
 L["Quest_1701_PreQuest"] = "true";
 L["Quest_1701_FollowQuest"] = "（见注释）";
 
@@ -1736,7 +1649,6 @@ L["Quest_1109_Name"] = "蝙蝠的粪便";
 L["Quest_1109_Objective"] = "帮幽暗城的大药剂师法拉尼尔带回一堆沼泽蝙蝠的粪便。";
 L["Quest_1109_Location"] = "法拉尼尔（幽暗城 - 炼金房; "..YELLOW.."48,69 "..WHITE.."）";
 L["Quest_1109_Note"] = "任何蝙蝠都会掉落沼泽蝙蝠的粪便。";
-L["Quest_1109_RewardText"] = AQ_NONE;
 L["Quest_1109_FollowQuest"] = "狂热之心（"..YELLOW.."[剃刀高地]"..WHITE.."）";
 
 L["Quest_1102_Name"] = "奥尔德的报复";
@@ -1749,7 +1661,6 @@ L["Quest_1838_Name"] = "野蛮护甲（战士任务）";
 L["Quest_1838_Objective"] = "为索恩格瑞姆收集15根烟雾铁锭、10份蓝铜粉、10块铁锭和1瓶燃素。";
 L["Quest_1838_Location"] = "索恩格瑞姆·火眼（贫瘠之地; "..YELLOW.."57,30 "..WHITE.."）";
 L["Quest_1838_Note"] = "只有战士才能接到这个任务！\n你可以从鲁古格 "..YELLOW.."[1]"..WHITE.." 得到燃素。\n\n完成这个任务后他会给你一个新的任务。";
-L["Quest_1838_RewardText"] = AQ_NONE;
 L["Quest_1838_PreQuest"] = "和索恩格瑞姆交谈";
 L["Quest_1838_FollowQuest"] = "（见注释）";
 
@@ -1763,13 +1674,11 @@ L["Quest_959_Name"] = "港口的麻烦";
 L["Quest_959_Objective"] = "棘齿城的起重机操作员比戈弗兹让你从疯狂的马格利什那儿取回一瓶99年波尔多陈酿，疯狂的马格利什就藏在哀嚎洞穴里。";
 L["Quest_959_Location"] = "起重机操作员比戈弗兹（贫瘠之地 - 棘齿城; "..YELLOW.."63,37 "..WHITE.."）";
 L["Quest_959_Note"] = "你进入副本杀死疯狂的马格利什，拿到酒瓶。当你进入洞穴后向右转，他就在一个凹进去的洞里 "..YELLOW.."副本入口地图[2]"..WHITE.."。";
-L["Quest_959_RewardText"] = AQ_NONE;
 
 L["Quest_1491_Name"] = "智慧饮料";
 L["Quest_1491_Objective"] = "收集6份哀嚎香精，把它们交给棘齿城的麦伯克·米希瑞克斯。";
 L["Quest_1491_Location"] = "麦伯克·米希瑞克斯（贫瘠之地 - 棘齿城; "..YELLOW.."62,37 "..WHITE.."）";
 L["Quest_1491_Note"] = "此任务的前置任务也是在麦伯克·米希瑞克斯这儿接到的。\n软浆怪掉落香精。";
-L["Quest_1491_RewardText"] = AQ_NONE;
 L["Quest_1491_PreQuest"] = "true";
 
 L["Quest_1487_Name"] = "清除变异者";
@@ -1803,13 +1712,11 @@ L["Quest_3042_Name"] = "巨魔调和剂";
 L["Quest_3042_Objective"] = "收集20瓶巨魔调和剂，把它们交给加基森的特伦顿·轻锤。";
 L["Quest_3042_Location"] = "特伦顿·轻锤（塔纳利斯 - 加基森; "..YELLOW.."51,28 "..WHITE.."）";
 L["Quest_3042_Note"] = "每个巨魔都可能掉落调和剂。";
-L["Quest_3042_RewardText"] = AQ_NONE;
 
 L["Quest_2865_Name"] = "圣甲虫的壳";
 L["Quest_2865_Objective"] = "给加基森的特兰雷克带去5个完整的圣甲虫壳。";
 L["Quest_2865_Location"] = "特兰雷克（塔纳利斯 - 加基森; "..YELLOW.."51,26 "..WHITE.."）";
 L["Quest_2865_Note"] = "前置任务始于克拉兹克（荆棘谷 - 藏宝海湾; "..YELLOW.."25,77"..WHITE.."）。\n每个圣甲虫都可能掉落壳儿。大量圣甲虫集中在 "..YELLOW.."[2]"..WHITE.."。";
-L["Quest_2865_RewardText"] = AQ_NONE;
 L["Quest_2865_PreQuest"] = "true";
 
 L["Quest_2846_Name"] = "深渊皇冠";
@@ -1823,7 +1730,6 @@ L["Quest_2991_Name"] = "耐克鲁姆的徽章";
 L["Quest_2991_Objective"] = "将耐克鲁姆的徽章交给诅咒之地的萨迪斯·格希德。";
 L["Quest_2991_Location"] = "萨迪斯·格希德（诅咒之地 - 守望堡; "..YELLOW.."66,19 "..WHITE.."）";
 L["Quest_2991_Note"] = "此系列任务始于狮鹫管理员沙拉克·鹰斧（辛特兰 - 蛮锤城堡; "..YELLOW.."9,44"..WHITE.."）。\n你可以在 "..YELLOW.."[4]"..WHITE.." 找到耐克鲁姆。";
-L["Quest_2991_RewardText"] = AQ_NONE;
 L["Quest_2991_PreQuest"] = "true";
 L["Quest_2991_FollowQuest"] = "占卜";
 
@@ -1831,7 +1737,6 @@ L["Quest_3527_Name"] = "摩沙鲁的预言";
 L["Quest_3527_Objective"] = "将第一块和第二块摩沙鲁石板交给塔纳利斯的叶基亚。";
 L["Quest_3527_Location"] = "叶基亚（塔纳利斯 - 热砂港; "..YELLOW.."66,22 "..WHITE.."）";
 L["Quest_3527_Note"] = "前置任务也是在此获得。\n两块石板分别由殉教者塞卡 "..YELLOW.."[2]"..WHITE.." 和水占师维蕾萨 "..YELLOW.."[6]"..WHITE.." 掉落。";
-L["Quest_3527_RewardText"] = AQ_NONE;
 L["Quest_3527_PreQuest"] = "true";
 L["Quest_3527_FollowQuest"] = "远古之卵";
 
@@ -1852,7 +1757,6 @@ L["Quest_2936_Name"] = "蜘蛛之神";
 L["Quest_2936_Objective"] = "阅读塞卡石板，了解枯木巨魔的蜘蛛之神的名字，然后回到加德林大师那里。";
 L["Quest_2936_Location"] = "加德林大师（杜隆塔尔 - 森金村; "..YELLOW.."55,74 "..WHITE.."）";
 L["Quest_2936_Note"] = "此任务始于辛特兰巨魔村庄的毒液瓶任务。\n你会在 "..YELLOW.."[2]"..WHITE.." 发现石板。";
-L["Quest_2936_RewardText"] = AQ_NONE;
 L["Quest_2936_PreQuest"] = "毒液瓶 -> 请教加德林大师";
 L["Quest_2936_FollowQuest"] = "召唤沙德拉";
 
@@ -1860,7 +1764,6 @@ L["Quest_6822_Name"] = "熔火之心";
 L["Quest_6822_Objective"] = "杀死一个火焰之王、一个熔岩巨人、一个上古熔火恶犬和一个熔岩奔腾者，然后回到艾萨拉的海达克西斯公爵那里。";
 L["Quest_6822_Location"] = "海达克西斯公爵（艾萨拉; "..YELLOW.."79,73"..WHITE.."）";
 L["Quest_6822_Note"] = "这些都不是熔火之心的 Boss。\n\n补丁3.0.8之后，将不能开始这个任务线。如果你已经有了这个任务，依然可以完成。";
-L["Quest_6822_RewardText"] = AQ_NONE;
 L["Quest_6822_PreQuest"] = "true";
 L["Quest_6822_FollowQuest"] = "海达克西斯的使者";
 
@@ -1875,7 +1778,6 @@ L["Quest_7786_Name"] = "逐风者桑德兰";
 L["Quest_7786_Objective"] = "如果你想要把逐风者桑德兰从监牢里释放出来，你就必须找到左右两块逐风者禁锢之颅，10块源质锭，以及火焰之王的精华，把它们交给德米提恩。";
 L["Quest_7786_Location"] = "德米提恩（希利苏斯; "..YELLOW.."22,9"..WHITE.."）";
 L["Quest_7786_Note"] = "雷霆之怒，逐风者的祝福之剑部分任务，当你从加尔 "..YELLOW.."[4]"..WHITE.." 拿到逐风者禁锢之颅右半和迦顿男爵 "..YELLOW.."[6]"..WHITE.." 拿到逐风者禁锢之颅左半后，与德米提恩对话开启任务线。拉格纳罗斯 "..YELLOW.."[10]"..WHITE.." 掉落火焰之王的精华。完成这些后，召唤并杀掉桑德兰王子，这是一个40人团队 Boss。";
-L["Quest_7786_RewardText"] = AQ_NONE;
 L["Quest_7786_PreQuest"] = "true";
 L["Quest_7786_FollowQuest"] = "觉醒吧，雷霆之怒！";
 
@@ -1889,7 +1791,6 @@ L["Quest_7632_Name"] = "远古石叶";
 L["Quest_7632_Objective"] = "找到远古石叶的主人。";
 L["Quest_7632_Location"] = "（火焰之王的宝箱; "..YELLOW.."[9]"..WHITE.."）之中，可能有远古石叶。";
 L["Quest_7632_Note"] = "把远古石叶交还给古树瓦特鲁斯（费伍德森林 - 铁木森林; "..YELLOW.."49,24"..WHITE.."）。";
-L["Quest_7632_RewardText"] = AQ_NONE;
 L["Quest_7632_FollowQuest"] = "龙筋箭袋（"..YELLOW.."艾索雷葛斯"..WHITE.."）";
 
 L["Quest_8578_Name"] = "占卜眼镜？没问题！";
@@ -1936,7 +1837,6 @@ L["Quest_8227_Name"] = "纳特的卷尺";
 L["Quest_8227_Objective"] = "将纳特的卷尺交给尘泥沼泽的纳特·帕格。";
 L["Quest_8227_Location"] = "破碎的工具箱（祖尔格拉布 - 隔水哈卡之岛的东北的岸边。）";
 L["Quest_8227_Note"] = "找到纳特·帕格（尘泥沼泽; "..YELLOW.."59,60"..WHITE.."）。完成任务后你可以从他那里购买哈卡之岛臭泥鱼诱饵，可以在祖尔格拉布召唤隐藏的加兹兰卡。";
-L["Quest_8227_RewardText"] = AQ_NONE;
 
 L["Quest_9023_Name"] = "完美的毒药";
 L["Quest_9023_Objective"] = "塞纳里奥要塞的德尔克·雷木让你把温诺希斯的毒囊和库林纳克斯的毒囊交给他。";
@@ -1954,7 +1854,6 @@ L["Quest_8801_Name"] = "克苏恩的遗产";
 L["Quest_8801_Objective"] = "将克苏恩之眼交给安其拉神殿的凯雷斯特拉兹。";
 L["Quest_8801_Location"] = "克苏恩之眼掉落自（克苏恩; "..YELLOW.."[9]"..WHITE.."）";
 L["Quest_8801_Note"] = "凯雷斯特拉兹（安其拉神殿; "..YELLOW.."2'"..WHITE.."）";
-L["Quest_8801_RewardText"] = AQ_NONE;
 L["Quest_8801_FollowQuest"] = "卡利姆多的救世主";
 
 L["Quest_8802_Name"] = "卡利姆多的救世主";
@@ -1968,19 +1867,16 @@ L["Quest_8784_Name"] = "其拉的秘密";
 L["Quest_8784_Objective"] = "把上古其拉神器交给隐藏在神殿入口处的龙类。";
 L["Quest_8784_Location"] = "上古其拉神器（安其拉神殿随机掉落）";
 L["Quest_8784_Note"] = "交给安多葛斯（安其拉神殿; "..YELLOW.."1'"..WHITE.."）。";
-L["Quest_8784_RewardText"] = AQ_NONE;
 
 L["Quest_8579_Name"] = "凡人中的勇士";
 L["Quest_8579_Objective"] = "交给位于安其拉神殿中的阿莱克丝塔萨的后裔 - 坎多斯特拉兹一枚其拉领主徽记。";
 L["Quest_8579_Location"] = "坎多斯特拉兹（安其拉神殿; "..YELLOW.."[1']"..WHITE.."）";
 L["Quest_8579_Note"] = "这是一个可重复的任务，用来提升塞纳里奥议会的声望。其拉领主徽记所有首领都掉落。坎多斯特拉兹在第一个首领身后的房间。";
-L["Quest_8579_RewardText"] = AQ_NONE;
 
 L["Quest_7261_Name"] = "国王的命令";
 L["Quest_7261_Objective"] = "到希尔斯布莱德丘陵地区的奥特兰克山谷去。到那里之后，和哈格丁中尉谈谈.";
 L["Quest_7261_Location"] = "洛泰姆中尉 (铁炉堡; "..YELLOW.."30,62"..WHITE..")";
 L["Quest_7261_Note"] = "哈格丁中尉 在(奥特兰克山脉; "..YELLOW.."39,81"..WHITE..").";
-L["Quest_7261_RewardText"] = AQ_NONE;
 L["Quest_7261_FollowQuest"] = "有，实验场";
 
 L["Quest_7162_Name"] = "实验场";
@@ -2000,92 +1896,77 @@ L["Quest_7121_Name"] = "军需官";
 L["Quest_7121_Objective"] = "与雷矛军需官谈一谈.";
 L["Quest_7121_Location"] = "巡山人布比罗 (奥特兰克山谷 - 北部地图; "..YELLOW.."[** MISSING INFO **]"..WHITE..")";
 L["Quest_7121_Note"] = "雷矛军需官 在 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..").";
-L["Quest_7121_RewardText"] = AQ_NONE;
 
 L["Quest_6982_Name"] = "冷齿矿洞的补给";
 L["Quest_6982_Objective"] = "把10份冷齿矿洞补给品交给丹巴达尔的联盟军需官.";
 L["Quest_6982_Location"] = "雷矛军需官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_6982_Note"] = "补给可以在冷齿矿洞找到 (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..").";
-L["Quest_6982_RewardText"] = AQ_NONE;
 
 L["Quest_5892_Name"] = "深铁矿洞的补给";
 L["Quest_5892_Objective"] = "把10份深铁矿洞补给品交给丹巴达尔的联盟军需官.";
 L["Quest_5892_Location"] = "雷矛军需官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_5892_Note"] = "补给可以在深铁矿洞找到 (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..").";
-L["Quest_5892_RewardText"] = AQ_NONE;
 
 L["Quest_7223_Name"] = "护甲碎片";
 L["Quest_7223_Objective"] = "给丹巴达尔的莫高特·深炉带去20块护甲碎片.";
 L["Quest_7223_Location"] = "莫高特·深炉 (奥特兰克山谷 - 北部地图; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_7223_Note"] = "护甲碎片可以从对方阵营的玩家尸体中拾取，任务是可重复的.";
-L["Quest_7223_RewardText"] = AQ_NONE;
 L["Quest_7223_FollowQuest"] = "有，更多的护甲碎片";
 
 L["Quest_7122_Name"] = "占领矿洞";
 L["Quest_7122_Objective"] = "占领一座还没有被雷矛部族控制的矿洞，然后向丹巴达尔的雷矛军需官复命.";
 L["Quest_7122_Location"] = "杜尔根·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")";
 L["Quest_7122_Note"] = "要完成这个任务，你需要杀死矿洞中的头目 (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..")  (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..") while the Horde control it.";
-L["Quest_7122_RewardText"] = AQ_NONE;
 
 L["Quest_7102_Name"] = "哨塔和碉堡";
 L["Quest_7102_Objective"] = "摧毁敌方的某座哨塔或者碉堡中的旗帜，然后向丹巴达尔的杜尔根·雷矛复命.";
 L["Quest_7102_Location"] = "杜尔根·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")";
 L["Quest_7102_Note"] = "只需要烧毁旗帜即可，不需要一定摧毁哨塔或碉堡.";
-L["Quest_7102_RewardText"] = AQ_NONE;
 
 L["Quest_7081_Name"] = "奥特兰克山谷的墓地";
 L["Quest_7081_Objective"] = "占领一座墓地，然后向丹巴达尔的诺雷格·雷矛中尉复命.";
 L["Quest_7081_Location"] = "诺雷格·雷矛 (奥特兰克山谷; "..YELLOW.."37,78"..WHITE..")";
 L["Quest_7081_Note"] = "只需要烧毁旗帜即可，不需要一定占领墓地.";
-L["Quest_7081_RewardText"] = AQ_NONE;
 
 L["Quest_7027_Name"] = "补充坐骑";
 L["Quest_7027_Objective"] = "找到奥特兰克山谷中的山羊。使用雷矛训练颈圈来驯服它们。被驯服的山羊会跟随你回到兽栏管理员那里，然后与兽栏管理员谈话以获得你的奖励.";
 L["Quest_7027_Location"] = "兽栏管理员 (奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_7027_Note"] = "你可以在基地南面找到这些羊，像猎人抓宠物一样驯服羊，然后带它回去复命.";
-L["Quest_7027_RewardText"] = AQ_NONE;
 
 L["Quest_7026_Name"] = "山羊坐具";
 L["Quest_7026_Objective"] = "进入敌人的基地，杀死霜狼获得它的皮来作为山羊坐骑的器具，去吧";
 L["Quest_7026_Location"] = "雷矛山羊骑兵指挥官 (奥特兰克山谷 - 北部地图; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_7026_Note"] = "霜狼可以在奥特兰克山谷的南部找到.";
-L["Quest_7026_RewardText"] = AQ_NONE;
 
 L["Quest_7386_Name"] = "水晶簇";
 L["Quest_7386_Objective"] = "你可以躲避硝烟弥漫的战场，激烈战斗之外，你可以帮助我收集霜狼氏族身上的风暴水晶..";
 L["Quest_7386_Location"] = "大德鲁伊雷弗拉尔  (奥特兰克山谷 - 北部地图; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_7386_Note"] = "在募集大约200个风暴水晶后，大德鲁伊伊类弗拉尔开始向（奥特兰克山谷 - 北部地图（ "..YELLOW.."[19]"..WHITE.."）移动，他将启动召唤法阵需要10个玩家去协助召唤。如果成功，森林之王伊弗斯将被召唤出来帮助抵抗部落.";
-L["Quest_7386_RewardText"] = AQ_NONE;
 
 L["Quest_6881_Name"] = "森林之王伊弗斯";
 L["Quest_6881_Objective"] = "霜狼氏族的战士身上带着一种名叫暴风水晶的符咒，我们可以用这些符咒来召唤伊弗斯。快去拿来那些水晶吧.";
 L["Quest_6881_Location"] = "大德鲁伊雷弗拉尔 (奥特兰克山谷 - 北部地图; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_6881_Note"] = "在募集大约200个风暴水晶后，大德鲁伊伊类弗拉尔开始向（奥特兰克山谷 - 北部地图（ "..YELLOW.."[19]"..WHITE.."）移动，他将启动召唤法阵需要10个玩家去协助召唤。如果成功，森林之王伊弗斯将被召唤出来帮助抵抗部落.";
-L["Quest_6881_RewardText"] = AQ_NONE;
 
 L["Quest_6942_Name"] = "天空的召唤 - 维波里的空军";
 L["Quest_6942_Objective"] = "你必须去对付守卫前线的部落精英士兵!我现在命令你去削弱那些绿皮蛮子的力量，把他们的中尉和军团士兵的勋章给我拿来。当我拿到足够的勋章时，我会命令开始对他们进行空中打击的.";
 L["Quest_6942_Location"] = "空军指挥官维波里 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6942_Note"] = "你可以从对方阵营的尸体上得到这些勋章.";
-L["Quest_6942_RewardText"] = AQ_NONE;
 
 L["Quest_6941_Name"] = "天空的召唤 - 斯里多尔的空军";
 L["Quest_6941_Objective"] = "我的狮鹫兽应该在前线作战，但是在那里的敌人被削弱之前，它们是无法发动攻击的。部落的战士胸前挂着代表荣誉的勋章勇猛冲锋，而你要做的就是从他们腐烂的尸体上把勋章拿下来，并把它们交视只要敌人在前线的力量受到足够的打击，我就会发出命令进行空袭!我们将从空中给敌人造成致命的创伤!!";
 L["Quest_6941_Location"] = "空军指挥官斯里多尔 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6941_Note"] = "你可以从对方阵营的尸体上得到这些勋章.";
-L["Quest_6941_RewardText"] = AQ_NONE;
 
 L["Quest_6943_Name"] = "天空的召唤 - 艾克曼的空军";
 L["Quest_6943_Objective"] = "它们的士气很低，战士。自从我们上次对部落的空中打击失败之后，它们就拒绝再次飞行!你必须鼓舞它们的士气。回到战场并攻击部落的核心力量，杀死他们的指挥官和卫兵。尽可能带回更多的勋章!我向你保证，当我的狮鹫兽看到这些战利品并嗅到敌人的鲜血时，它们就会再次起飞!现在就出发吧!";
 L["Quest_6943_Location"] = "空军指挥官艾克曼 (奥特兰克山谷 - 北部地图; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6943_Note"] = "你可以从对方阵营的尸体上得到这些勋章.";
-L["Quest_6943_RewardText"] = AQ_NONE;
 
 L["Quest_7241_Name"] = "保卫霜狼氏族";
 L["Quest_7241_Objective"] = "到希尔斯布莱德丘陵地区的奥特兰克山谷去。找到拉格隆德并和他谈谈，然后成为霜狼氏族的士兵.";
 L["Quest_7241_Location"] = "霜狼大使 (奥格瑞玛 - 力量谷 "..YELLOW.."50,71"..WHITE..")";
 L["Quest_7241_Note"] = "拉格隆德 (奥特兰克山脉; "..YELLOW.."62,59"..WHITE..").";
-L["Quest_7241_RewardText"] = AQ_NONE;
 L["Quest_7241_FollowQuest"] = "有，实验场";
 
 L["Quest_7161_Name"] = "实验场";
@@ -2106,98 +1987,82 @@ L["Quest_7123_Name"] = "霜狼军需官";
 L["Quest_7123_Objective"] = "与霜狼军需官谈一谈.";
 L["Quest_7123_Location"] = "乔泰克 (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7123_Note"] = "霜狼军需官 在 "..YELLOW.."[10]"..WHITE.." .";
-L["Quest_7123_RewardText"] = AQ_NONE;
 
 L["Quest_5893_Name"] = "冷齿矿洞的补给";
 L["Quest_5893_Objective"] = "把10份冷齿矿洞补给品交给霜狼要塞的部落军需官.";
 L["Quest_5893_Location"] = "霜狼军需官 (奥特兰克山谷 - 南部地图; "..YELLOW.."[10]"..WHITE..")";
 L["Quest_5893_Note"] = "补给品 可以在冷齿矿洞找到 (奥特兰克山谷 - 南部地图; "..YELLOW.."[6]"..WHITE..").";
-L["Quest_5893_RewardText"] = AQ_NONE;
 
 L["Quest_6985_Name"] = "深铁矿洞的补给";
 L["Quest_6985_Objective"] = "把10份深铁矿洞补给品交给霜狼要塞的部落军需官.";
 L["Quest_6985_Location"] = "霜狼军需官 (奥特兰克山谷 - 南部地图; "..YELLOW.."[10]"..WHITE..")";
 L["Quest_6985_Note"] = "补给品 可以在深铁矿洞找到 (奥特兰克山谷 - 北部地图; "..YELLOW.."[1]"..WHITE..").";
-L["Quest_6985_RewardText"] = AQ_NONE;
 
 L["Quest_7224_Name"] = "敌人的物资";
 L["Quest_7224_Objective"] = "给霜狼村的铁匠雷格萨带去20块护甲碎片.";
 L["Quest_7224_Location"] = "铁匠雷格萨 (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7224_Note"] = "这是个可重复任务.";
-L["Quest_7224_RewardText"] = AQ_NONE;
 L["Quest_7224_FollowQuest"] = "有，更多的物资!";
 
 L["Quest_7124_Name"] = "占领矿洞";
 L["Quest_7124_Objective"] = "占领一座矿洞，然后向霜狼村的霜狼军需官报告.";
 L["Quest_7124_Location"] = "霜狼军需官 (奥特兰克山脉; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7124_Note"] = "完成这个任务你只要杀死洞里的首领即可.";
-L["Quest_7124_RewardText"] = AQ_NONE;
 
 L["Quest_7101_Name"] = "哨塔和碉堡";
 L["Quest_7101_Objective"] = "占领敌方的某座哨塔，然后向霜狼村的提卡·血牙复命.";
 L["Quest_7101_Location"] = "提卡·血牙 (奥特兰克山脉; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7101_Note"] = "不用摧毁，只需开旗即可.";
-L["Quest_7101_RewardText"] = AQ_NONE;
 
 L["Quest_7082_Name"] = "奥特兰克山谷的墓地";
 L["Quest_7082_Objective"] = "占领一座墓地，然后向霜狼村的亚斯拉复命.";
 L["Quest_7082_Location"] = "亚斯拉 (奥特兰克山脉; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7082_Note"] = "只需开旗即可.";
-L["Quest_7082_RewardText"] = AQ_NONE;
 
 L["Quest_7001_Name"] = "补充坐骑";
 L["Quest_7001_Objective"] = "找到奥特兰克山谷中的霜狼。使用霜狼口套来驯服它们。被驯服的霜狼会跟随你回到兽栏管理员那里，然后与兽栏管理员谈话以获得你的奖励.";
 L["Quest_7001_Location"] = "霜狼兽栏管理员 (奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7001_Note"] = "基地外面就可以找到这些狼.";
-L["Quest_7001_RewardText"] = AQ_NONE;
 
 L["Quest_7002_Name"] = "羊皮坐具";
 L["Quest_7002_Objective"] = "杀死雷矛卫队用作坐骑的山羊，我们就可以将羊皮作为我们的坐垫";
 L["Quest_7002_Location"] = "霜狼骑兵指挥官 (奥特兰克山谷 - 南部地图; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7002_Note"] = "羊能在北部的奥特兰克山谷找到.";
-L["Quest_7002_RewardText"] = AQ_NONE;
 
 L["Quest_7385_Name"] = "联盟之血";
 L["Quest_7385_Objective"] = "从联盟尸体上边得到联盟之血，把它交给我.";
 L["Quest_7385_Location"] = "指挥官瑟鲁加  (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7385_Note"] = "你可以从对方阵营的尸体上得到这些东西";
-L["Quest_7385_RewardText"] = AQ_NONE;
 
 L["Quest_6801_Name"] = "冰雪之王洛克霍拉";
 L["Quest_6801_Objective"] = "收集足够的联盟之血后，你就可以召唤冰雪之王.";
 L["Quest_6801_Location"] = "指挥官瑟鲁加  (奥特兰克山谷 - 南部地图; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6801_Note"] = "当交齐150个联盟之血后，指挥官瑟鲁加开始向（奥特兰克山谷 - 南部地图; "..YELLOW.."[14]"..WHITE.."）移动。召唤法阵需要10个玩家去协助召唤。如果成功，冰雪之王洛克霍拉将被召唤出来以对抗联盟。";
-L["Quest_6801_RewardText"] = AQ_NONE;
 
 L["Quest_6825_Name"] = "天空的召唤 - 古斯的部队";
 L["Quest_6825_Objective"] = "收集联盟卫兵的肉，把它交给我";
 L["Quest_6825_Location"] = "空军指挥官古斯 (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6825_Note"] = "你可以从对方阵营的尸体上得到这些东西";
-L["Quest_6825_RewardText"] = AQ_NONE;
 
 L["Quest_6826_Name"] = "天空的召唤 - 杰斯托的部队";
 L["Quest_6826_Objective"] = "收集联盟士官的食物，把它交给我.";
 L["Quest_6826_Location"] = "空军指挥官杰斯托  (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6826_Note"] = "你可以从对方阵营的尸体上得到这些东西";
-L["Quest_6826_RewardText"] = AQ_NONE;
 
 L["Quest_6827_Name"] = "天空的召唤 - 穆维里克的部队";
 L["Quest_6827_Objective"] = "收集联盟指挥官的食物，把它交给我";
 L["Quest_6827_Location"] = "空军指挥官穆维里克 (奥特兰克山谷 - 南部地图; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6827_Note"] = "你可以从对方阵营的尸体上得到这些东西";
-L["Quest_6827_RewardText"] = AQ_NONE;
 
 L["Quest_8105_Name"] = "阿拉希盆地之战!";
 L["Quest_8105_Objective"] = "进攻矿洞、伐木场、铁匠铺和农场，然后向避难谷地的奥斯莱特元帅复命.";
 L["Quest_8105_Location"] = "奥斯莱特元帅  (阿拉希高地-避难谷地; "..YELLOW.."46,45"..WHITE..")";
 L["Quest_8105_Note"] = "开旗就可.";
-L["Quest_8105_RewardText"] = AQ_NONE;
 
 L["Quest_8114_Name"] = "控制四座基地";
 L["Quest_8114_Objective"] = "进入阿拉希盆地，同时占据并控制四座基地，当任务完成之后向避难谷地的奥斯莱特元帅报告.";
 L["Quest_8114_Location"] = "奥斯莱特元帅 (阿拉希高地-避难谷地; "..YELLOW.."46,45"..WHITE..")";
 L["Quest_8114_Note"] = "你必须和阿拉索联军声望达到友善才能接到这个任务.";
-L["Quest_8114_RewardText"] = AQ_NONE;
 
 L["Quest_8115_Name"] = "控制五座基地";
 L["Quest_8115_Objective"] = "同时控制阿拉希盆地中的五座基地，然后向避难谷地的奥斯莱特元帅复命.";
@@ -2209,13 +2074,11 @@ L["Quest_8120_Name"] = "阿拉希盆地之战!";
 L["Quest_8120_Objective"] = "进攻阿拉希盆地的矿洞、伐木场、铁匠铺和兽栏，然后向落锤镇的屠杀者杜维尔复命.";
 L["Quest_8120_Location"] = "屠杀者杜维尔 (阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE..")";
 L["Quest_8120_Note"] = "The locations to be assaulted are marked on the map as 1 through 4.";
-L["Quest_8120_RewardText"] = AQ_NONE;
 
 L["Quest_8121_Name"] = "夺取四座基地";
 L["Quest_8121_Objective"] = "同时占据阿拉希盆地中的四座基地，然后向落锤镇的屠杀者杜维尔复命.";
 L["Quest_8121_Location"] = "屠杀者杜维尔 (阿拉希高地 - 落槌镇; "..YELLOW.."74,35"..WHITE..")";
 L["Quest_8121_Note"] = "你必须和污染者声望达到友善才能接到任务.";
-L["Quest_8121_RewardText"] = AQ_NONE;
 
 L["Quest_8122_Name"] = "夺取五座基地";
 L["Quest_8122_Objective"] = "同时占据阿拉希盆地中的五座基地，然后向落锤镇的屠杀者杜维尔复命.";
